@@ -6,19 +6,19 @@
 
 - Radacinile rosii ale ridichilor
 
-- Desfășurarea curei
+- Desfasurarea curei
 
-- Dimineața și seara vom mânca, pe stomacul gol, câte o salată obținută din cinci ridichi de mărime medie, tăiate mărunt și amestecate cu puțin ulei de masline, oțet de mere și sare de bucătărie. Pentru un gust mai bun, putem adăuga în salată și câteva fire de pătrunjel. Tratamentul se face minimum 12 zile la rând, pentru ca efectele sale să fie resimțite în profunzime. Pentru persoanele cu probleme renale cronice sau foarte grave, se recomandă administrarea zilnică a 100 ml (jumătate de pahar) de suc de ridichi proaspăt, obținut cu storcătorul electric centrifugal.
+- Dimineata si seara vom manca, pe stomacul gol, cate o salata obtinuta din cinci ridichi de marime medie, taiate marunt si amestecate cu putin ulei de masline, otet de mere si sare de bucatarie. Pentru un gust mai bun, putem adauga in salata si cateva fire de patrunjel. Tratamentul se face minimum 12 zile la rand, pentru ca efectele sale sa fie resimtite in profunzime. Pentru persoanele cu probleme renale cronice sau foarte grave, se recomanda administrarea zilnica a 100 ml (jumatate de pahar) de suc de ridichi proaspat, obtinut cu storcatorul electric centrifugal.
 
 Efectele curei cu ridichi
 
-Ridichile conțin substanțe cu un puternic efect antibiotic, care ajută la vindecarea rapidă a feluritelor infecții care afectează rinichii, vezica și căile urinare. Apoi, aceste rădăcini au un efect diuretic intens, favorizând eliminarea apei din corp prin urinare, au o acțiune antiinflamatoare asupra rinichilor și asupra prostatei.
+Ridichile contin substante cu un puternic efect antibiotic, care ajuta la vindecarea rapida a feluritelor infectii care afecteaza rinichii, vezica si caile urinare. Apoi, aceste radacini au un efect diuretic intens, favorizand eliminarea apei din corp prin urinare, au o actiune antiinflamatoare asupra rinichilor si asupra prostatei.
 
 - Bitter suedez
 
 - Curatarea rinichilor:
 
-Se iau 6 crenguțe de mure de 50-60 cm fiecare. Se taie mărunt ca ceapa și se pun la fiert într-o cratiță de 6 l plină cu apă de izvor sau filtrată. Se fierbe 2-3 ore fără capac, la foc încet, până când rămâne jumătate (3 l). În două zile se bea toată cantitatea, fracționat, în părți egale, în decursul primei și celei de-a doua zi. Timp de o săptămână se recomandă alimentație vegetariană, fără carne (trei zile înainte și trei zile după tratament). În timpul tratamentului, chiar și după, se poate verifica urina, în care vom observa (dacă e cazul) nisipul și chiar și calculi de mici dimensiuni.
+Se iau 6 crengute de mure de 50-60 cm fiecare. Se taie marunt ca ceapa si se pun la fiert intr-o cratita de 6 l plina cu apa de izvor sau filtrata. Se fierbe 2-3 ore fara capac, la foc incet, pana cand ramane jumatate (3 l). In doua zile se bea toata cantitatea, fractionat, in parti egale, in decursul primei si celei de-a doua zi. Timp de o saptamana se recomanda alimentatie vegetariana, fara carne (trei zile inainte si trei zile dupa tratament). In timpul tratamentului, chiar si dupa, se poate verifica urina, in care vom observa (daca e cazul) nisipul si chiar si calculi de mici dimensiuni.
 
 - Ceai din Frunze de Merisor
 

@@ -32,7 +32,7 @@ Regim
 
 Organizatia Mondiala a Sanatatii afirma ca alimentatia gresita cauzeaza 35-65% din toate cancerele!
 
-Recomandarile de mai jos sunt extrase din Raportul "Alimentatie, nutritie si prevenirea cancerului: o perspectiva globala", bazat pe analiza a peste 4500 de studii stiintifice efectuata de un grup de 150 de specialisti din intreaga lume. Ele reprezinta cel mai valoros pachet de recomandari existente în prezent pentru reducerea riscului de cancer.
+Recomandarile de mai jos sunt extrase din Raportul "Alimentatie, nutritie si prevenirea cancerului: o perspectiva globala", bazat pe analiza a peste 4500 de studii stiintifice efectuata de un grup de 150 de specialisti din intreaga lume. Ele reprezinta cel mai valoros pachet de recomandari existente in prezent pentru reducerea riscului de cancer.
 
 - Adoptati o dieta predominant vegetala, care sa contina o varietate de fructe, leguminoase si cat mai putine alimente amidonoase rafinate.
 

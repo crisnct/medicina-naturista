@@ -18,10 +18,10 @@ Normal;\*Default Paragraph Font;EmiialMilu
 ()\*()\*()\*
 ()
 
- Faceþi o infuzie de 15 gr de rãdãcinã de þelinã, amestecata cu rãdãcinã de sparaghel, de mãrar, de ghimpe si pãtrunjel [aceleaºi cantitã
+ Faceþi o infuzie de 15 gr de radacina de þelina, amestecata cu radacina de sparaghel, de marar, de ghimpe si patrunjel [aceleaºi cantita
 
-þi] care trebuie opãrite cu 150 ml de apa in clocot . Lãsaþi sa se infuzeze, strecuraþi si adãugaþi o cantitate dublã de miere [ 300 gr ] in aºa fel încât sa obþineþi un amestec siropos, numit in bãtrâ
+þi] care trebuie oparite cu 150 ml de apa in clocot . Lasaþi sa se infuzeze, strecuraþi si adaugaþi o cantitate dubla de miere [ 300 gr ] in aºa fel incat sa obþineþi un amestec siropos, numit in batra
 
-ni " Siropul celor cinci rãdãcini " .
+ni " Siropul celor cinci radacini " .
 
- IMPORTANT\~: rãdãcinile trebuiesc uscate si mãrunþite.
+ IMPORTANT\~: radacinile trebuiesc uscate si marunþite.

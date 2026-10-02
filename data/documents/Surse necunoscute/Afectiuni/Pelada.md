@@ -1,14 +1,14 @@
 # Pelada
-**Uneori boala se moștenește** , alteori cauza este un soc pshiic puternic accident , moartea cuiva , o dezamăgire puternica , raze Roengen etc. Soluțiile prescrise pentru regenerarea parului sunt aceleași ca la combaterea cheliei : Tinctura de ardei iute - 200 gr ardei iute se macerează 7-8 zile in 100 ml alcool . Se fac frecții energice la rădăcina parului de doua ori pe săptămână . Alifie de propolis , se găsește in magazinele de specialitate - se fac frecții zilnice , prin masaje energice , 3-4 săptămâni la 5-6 luni , pana începe sa crească parul .
+**Uneori boala se mosteneste** , alteori cauza este un soc pshiic puternic accident , moartea cuiva , o dezamagire puternica , raze Roengen etc. Solutiile prescrise pentru regenerarea parului sunt aceleasi ca la combaterea cheliei : Tinctura de ardei iute - 200 gr ardei iute se macereaza 7-8 zile in 100 ml alcool . Se fac frectii energice la radacina parului de doua ori pe saptamana . Alifie de propolis , se gaseste in magazinele de specialitate - se fac frectii zilnice , prin masaje energice , 3-4 saptamani la 5-6 luni , pana incepe sa creasca parul .
 
-**Oțet de mere** - se aplica pe pielea capului de 6 ori pe zi , masând ușor .
+**Otet de mere** - se aplica pe pielea capului de 6 ori pe zi , masand usor .
 
-**Oțet de usturoi** - 30 gr usturoi pisat se macerează 10 zile in 1/2 litru oțet de mere , se aplica compresii puse pe cap si ținute toata noaptea . Se recomanda odihna , liniște si beți zilnic 2-3 căni de ceai de ciuboțica cucului .
+**Otet de usturoi** - 30 gr usturoi pisat se macereaza 10 zile in 1/2 litru otet de mere , se aplica compresii puse pe cap si tinute toata noaptea . Se recomanda odihna , liniste si beti zilnic 2-3 cani de ceai de ciubotica cucului .
 
-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--**Omagul :** clătitul cu ceai de omag, face să crească părul.
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--**Omagul :** clatitul cu ceai de omag, face sa creasca parul.
 
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\--
 
-**Nucul :** Lăsați sa fiarbă 1/2 de ora in 300grame untura topita nesărată 20 grame muguri de nuc. Omogenizați amestecul intr-un mojar si păstrați amestecul astfel obținut intr-un vas de porțelan. Ungeți-vă pielea capului cu acest unguent , de preferat după ce ați făcut baie .
+**Nucul :** Lasati sa fiarba 1/2 de ora in 300grame untura topita nesarata 20 grame muguri de nuc. Omogenizati amestecul intr-un mojar si pastrati amestecul astfel obtinut intr-un vas de portelan. Ungeti-va pielea capului cu acest unguent , de preferat dupa ce ati facut baie .
 
-**Apa energizantă :** ea se obține în felul următor -- se ia 250gr apă și se pune într-un recipient tip shaker și se agită de 120 de ori .
+**Apa energizanta :** ea se obtine in felul urmator -- se ia 250gr apa si se pune intr-un recipient tip shaker si se agita de 120 de ori .

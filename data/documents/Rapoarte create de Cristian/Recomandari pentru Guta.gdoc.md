@@ -1,140 +1,140 @@
-# Recomandări naturiste pentru gută
+# Recomandari naturiste pentru guta
 
-## **Ce este guta și de ce apare?**
+## **Ce este guta si de ce apare?**
 
-- Guta apare atunci când nivelul de acid uric din organism este prea mare. Acest lucru se poate datora unui consum prea mare de purine sau unor boli sau medicamente.
-- **Alimente cu concentrație mare de purine:** organe de animal, berea, fructe de mare, zahăr.
-- **Afecțiuni care netratate corespunzător pot duce la apariția gutei:** hipertensiune arterială, diabet, obezitate, afecțiuni ale inimii și rinichilor.
-- În timp acidul uric se cristalizează în organism, capătă forma unor ace și se înfig în articulații. Guta poate apărea și atunci când rinichii nu funcționează corespunzător. Slaba funcționare a rinichilor poate duce și la hipertensiune arterială.
+- Guta apare atunci cand nivelul de acid uric din organism este prea mare. Acest lucru se poate datora unui consum prea mare de purine sau unor boli sau medicamente.
+- **Alimente cu concentratie mare de purine:** organe de animal, berea, fructe de mare, zahar.
+- **Afectiuni care netratate corespunzator pot duce la aparitia gutei:** hipertensiune arteriala, diabet, obezitate, afectiuni ale inimii si rinichilor.
+- In timp acidul uric se cristalizeaza in organism, capata forma unor ace si se infig in articulatii. Guta poate aparea si atunci cand rinichii nu functioneaza corespunzator. Slaba functionare a rinichilor poate duce si la hipertensiune arteriala.
 
-## **Suplimente naturiste recomandate în gută**
+## **Suplimente naturiste recomandate in guta**
 
-- **Ceai complex 1**: se pun la fiert într-un litru de apă:
- * 3 linguri **mătase porumb**
- * 3 linguri de **cozi de cireșe amare**
- * o lingură de rădăcină de **ciuboțica-cucului**
- * o lingură de **ghimpe**(măcinată)
- * un sfert de linguriță rasă de bicarbonat de sodiu
- * După ce a dat în clocot se mai ține 5 minute iar apoi se oprește focul și se adaugă 2 linguri de **sânziene(drăgaică).** Se acoperă vasul pentru 15 min. Ceaiul se bea în cursul unei zile timp de o lună de zile.
-- **Ceai complex 2:** se pune la fiert în 600ml apă:
- * 1 lingură de **dracilă**
- * 2 linguri de rădăcină **de osul iepurelui**
- * 2 linguri de **răchitan**
- * 3 linguri de **rădăcină de iarbă mare**
- * După ce a dat în clocot, se mai ține pe foc 15 min. A se presa bine plantele când se strecoară. Se beau 2 căni pe zi timp de două săptămâni.
-- **Ceai complex 3:** se pune 500ml apă la fiert. După ce a dat în clocot se adaugă
- * 2 linguri de **splinuță**
+- **Ceai complex 1**: se pun la fiert intr-un litru de apa:
+ * 3 linguri **matase porumb**
+ * 3 linguri de **cozi de cirese amare**
+ * o lingura de radacina de **ciubotica-cucului**
+ * o lingura de **ghimpe**(macinata)
+ * un sfert de lingurita rasa de bicarbonat de sodiu
+ * Dupa ce a dat in clocot se mai tine 5 minute iar apoi se opreste focul si se adauga 2 linguri de **sanziene(dragaica).** Se acopera vasul pentru 15 min. Ceaiul se bea in cursul unei zile timp de o luna de zile.
+- **Ceai complex 2:** se pune la fiert in 600ml apa:
+ * 1 lingura de **dracila**
+ * 2 linguri de radacina **de osul iepurelui**
+ * 2 linguri de **rachitan**
+ * 3 linguri de **radacina de iarba mare**
+ * Dupa ce a dat in clocot, se mai tine pe foc 15 min. A se presa bine plantele cand se strecoara. Se beau 2 cani pe zi timp de doua saptamani.
+- **Ceai complex 3:** se pune 500ml apa la fiert. Dupa ce a dat in clocot se adauga
+ * 2 linguri de **splinuta**
  * 4 linguri de **frunze de frasin**
- * o jumătate lingură de **crețușcă**
- * Se oprește focul și se acoperă vasul pentru 15 min. Se beau două căni pe zi timp de trei săptămâni.
-- **Ceai de mesteacăn:** noaptea înainte de somn se pune 500ml apă la fiert. După ce apa a dat în clocot se adaugă 4 linguri de frunze uscate de **mesteacăn** și se acoperă vasul pentru 15min, Se ia jos capacul de pe vas iar când temperatura ceaiului a ajuns la 40°C se adaugă un sfert de linguritță de bicarbonat de sodiu, se amestecă bine, se pune înapoi capacul și se lasă peste noapte. A doua zi se strecoară iar cantitatea de ceai se împarte în două și se bea la 4 ore interval.
-- **Rădăcină de păpădie(pulbere)****:** 1 linguriță înainte de masa principală a zilei.
-- Macerat la rece di**n brusture**: o linguriță rasă de rădăcină uscată de brusture se pune seara la macerat într-o cană de apă. A doua zi se încălzește și se bea dimineața cu înghițituri mici.
-- **Ceai de Bătrânis****:** 2 lingurițe de plantă mărunțită se pune la 250 ml apa clocotită. Se acoperă pentru 10 minute, apoi se strecoară. Se pot consuma 2-3 căni pe zi. Preparatele obținute din Bătrâniș au, în primul rând, efecte diuretice, contribuind la eliminarea acidului uric. Sunt, totodată, tonifiante. Potrivit specialiștilor, uleiurile esențiale obținute din această plantă au un rol deosebit în afecțiuni ale sângelui, determinând dezvoltarea globulelor albe. Ceaiurile de bătrâniș sunt adevărate pansamente intestinale, contribuind, în caz de hemoragii, la refacerea tractului gastro-intestinal. Totodată, bătrânișul combate paraziții intestinali și reduce inflamațiile care apar în sistemul urinar. Este indicat, de asemenea, în reumatisme și gută. Notabilă rămâne contribuția sa în procesul de dezvoltare și întărire a leucocitelor.
-- Decoct din **nemțișor de câmp**: o linguriță de plantă la 500ml apă timp de 5 minute. Se beau 2-3 căni pe zi timp de 10 zile. Acest ceai este util și la scăderea tensiunii. A se citi nota de la final.
-- **Enzime proteolitice**: 3 cps / zi, pe stomacul gol. A se folosi maxim o lună după care se face pauză tot de o lună.
-- **Capsule cu extract de coada-calului**: 3 cps pe zi dimineața.
-- **Oțet de mere cu miere:** o lingură dimineața.
-- **Pectină din mere****:** o linguriță de 3 ori pe zi,
-- **Zer:** 3 căni pe zi înainte de masă cu 30min. Se folosește timp de maxim o lună.
-- **Lapte cu hrean**: într-o cană de lapte cald se pun 1-2 lingurițe de hrean ras. Acest preparat se bea pe stomacul gol, de 1-2 ori pe zi. Un tratament durează minimum 3 săptămâni.
+ * o jumatate lingura de **cretusca**
+ * Se opreste focul si se acopera vasul pentru 15 min. Se beau doua cani pe zi timp de trei saptamani.
+- **Ceai de mesteacan:** noaptea inainte de somn se pune 500ml apa la fiert. Dupa ce apa a dat in clocot se adauga 4 linguri de frunze uscate de **mesteacan** si se acopera vasul pentru 15min, Se ia jos capacul de pe vas iar cand temperatura ceaiului a ajuns la 40°C se adauga un sfert de linguritta de bicarbonat de sodiu, se amesteca bine, se pune inapoi capacul si se lasa peste noapte. A doua zi se strecoara iar cantitatea de ceai se imparte in doua si se bea la 4 ore interval.
+- **Radacina de papadie(pulbere)****:** 1 lingurita inainte de masa principala a zilei.
+- Macerat la rece di**n brusture**: o lingurita rasa de radacina uscata de brusture se pune seara la macerat intr-o cana de apa. A doua zi se incalzeste si se bea dimineata cu inghitituri mici.
+- **Ceai de Batranis****:** 2 lingurite de planta maruntita se pune la 250 ml apa clocotita. Se acopera pentru 10 minute, apoi se strecoara. Se pot consuma 2-3 cani pe zi. Preparatele obtinute din Batranis au, in primul rand, efecte diuretice, contribuind la eliminarea acidului uric. Sunt, totodata, tonifiante. Potrivit specialistilor, uleiurile esentiale obtinute din aceasta planta au un rol deosebit in afectiuni ale sangelui, determinand dezvoltarea globulelor albe. Ceaiurile de batranis sunt adevarate pansamente intestinale, contribuind, in caz de hemoragii, la refacerea tractului gastro-intestinal. Totodata, batranisul combate parazitii intestinali si reduce inflamatiile care apar in sistemul urinar. Este indicat, de asemenea, in reumatisme si guta. Notabila ramane contributia sa in procesul de dezvoltare si intarire a leucocitelor.
+- Decoct din **nemtisor de camp**: o lingurita de planta la 500ml apa timp de 5 minute. Se beau 2-3 cani pe zi timp de 10 zile. Acest ceai este util si la scaderea tensiunii. A se citi nota de la final.
+- **Enzime proteolitice**: 3 cps / zi, pe stomacul gol. A se folosi maxim o luna dupa care se face pauza tot de o luna.
+- **Capsule cu extract de coada-calului**: 3 cps pe zi dimineata.
+- **Otet de mere cu miere:** o lingura dimineata.
+- **Pectina din mere****:** o lingurita de 3 ori pe zi,
+- **Zer:** 3 cani pe zi inainte de masa cu 30min. Se foloseste timp de maxim o luna.
+- **Lapte cu hrean**: intr-o cana de lapte cald se pun 1-2 lingurite de hrean ras. Acest preparat se bea pe stomacul gol, de 1-2 ori pe zi. Un tratament dureaza minimum 3 saptamani.
 
 - **Zeolit**: 2 cps de 500mg x 2 ori / zi
-- **Vitamina C cu zinc****:** 1000mg(vit c) o dată pe zi.
+- **Vitamina C cu zinc****:** 1000mg(vit c) o data pe zi.
 - **Vitamina B5****:** 1 comprimat pe zi.
-- **Spirulină****, chlorella sau pulbere de lucernă uscată:** 1-2 lingurițe pe zi sau 2-5g.
-- **Tinctură din muguri de plop negru:** o jumătate de linguriță cu un pic de miere de 3 ori pe zi timp de 3 luni de zile.
-- Remediu homeopat pe bază de **Bellis perennis.**
-- **Cascara sagrada**: 1 capsulă dimineața – recomandat în mod special pentru guta cronică. Atenție: are efect ușor laxativ. A nu se lua în caz de ulcer, apendicită, dureri de stomac sau în cazul în care se ia DIGOXIN deoarece poate crește riscul efectelor adverse.
-- **Aur coloidal:** 50ml dimineața pe stomacul gol, diluat cu puțină apă.
+- **Spirulina****, chlorella sau pulbere de lucerna uscata:** 1-2 lingurite pe zi sau 2-5g.
+- **Tinctura din muguri de plop negru:** o jumatate de lingurita cu un pic de miere de 3 ori pe zi timp de 3 luni de zile.
+- Remediu homeopat pe baza de **Bellis perennis.**
+- **Cascara sagrada**: 1 capsula dimineata – recomandat in mod special pentru guta cronica. Atentie: are efect usor laxativ. A nu se lua in caz de ulcer, apendicita, dureri de stomac sau in cazul in care se ia DIGOXIN deoarece poate creste riscul efectelor adverse.
+- **Aur coloidal:** 50ml dimineata pe stomacul gol, diluat cu putina apa.
 
 - **Remediu Hildegard, eficient**:
- * 60 g semințe de țelină
- * 15 g nucșoară
- * 30 g cuișoare
- * 5 g frunze de frăsinel
- * Plantele se macină foarte fin și acest praf se ia înainte sau după masă câte o linguriță cu un pic de pâine/mămligă, dar fără apă. Se ia timp de 6-8 saptamâni. La 8 zile de la începerea tratamentului durerile ar trebui să dispară.
+ * 60 g seminte de telina
+ * 15 g nucsoara
+ * 30 g cuisoare
+ * 5 g frunze de frasinel
+ * Plantele se macina foarte fin si acest praf se ia inainte sau dupa masa cate o lingurita cu un pic de paine/mamliga, dar fara apa. Se ia timp de 6-8 saptamani. La 8 zile de la inceperea tratamentului durerile ar trebui sa dispara.
 
 ## **Pentru uz extern**
 
-* **Baie la picioare cu oțet de mere cât mai fierbinte**.
- * **Baie la picioare cu decoct din frunze de ferigă.**
- * Frecție la picioare cu **alcool camforat**.
- * **Unguent triplu-concentrat de mușețel:** într-un borcan de 800g se pune untură de porc sau vaselină medicinală până la jumătatea borcanului. Se pune pe bain-marie. După ce s-a topit se adaugă mușețel cât cuprinde. Se pune capacul și se ține pe bain-marie la foc mic timp de o oră. Apa nu trebuie să clocotească. După o oră se strecoară fierbinte prin tifon, iar unguentul se pune înapoi în borcan pe bain-marie împreună cu alte flori de mușețel. Se ține tot o oră după care se strecoară și se adaugă flori noi de mușețel. Se mai repetă încă o dată procedeul. Unguentul rezultat se poate păstra într-o cutie, la temperatura camerei. Se dă pe picioare o dată pe zi.
- * **Balsam de Galaad**(ulei esențial): se frecționează picioarele cu câteva picături în fiecare seară înainte de somn. Se poate comanda la numărul de telefon **.**
- * **DMSO****(dimetilsulfoxid):** masaj la picioare cu acest ulei în cazul în care durerile sunt acute. Este deosebit de eficient.
+* **Baie la picioare cu otet de mere cat mai fierbinte**.
+ * **Baie la picioare cu decoct din frunze de feriga.**
+ * Frectie la picioare cu **alcool camforat**.
+ * **Unguent triplu-concentrat de musetel:** intr-un borcan de 800g se pune untura de porc sau vaselina medicinala pana la jumatatea borcanului. Se pune pe bain-marie. Dupa ce s-a topit se adauga musetel cat cuprinde. Se pune capacul si se tine pe bain-marie la foc mic timp de o ora. Apa nu trebuie sa clocoteasca. Dupa o ora se strecoara fierbinte prin tifon, iar unguentul se pune inapoi in borcan pe bain-marie impreuna cu alte flori de musetel. Se tine tot o ora dupa care se strecoara si se adauga flori noi de musetel. Se mai repeta inca o data procedeul. Unguentul rezultat se poate pastra intr-o cutie, la temperatura camerei. Se da pe picioare o data pe zi.
+ * **Balsam de Galaad**(ulei esential): se frectioneaza picioarele cu cateva picaturi in fiecare seara inainte de somn. Se poate comanda la numarul de telefon **.**
+ * **DMSO****(dimetilsulfoxid):** masaj la picioare cu acest ulei in cazul in care durerile sunt acute. Este deosebit de eficient.
 
-## **Alimentație**
+## **Alimentatie**
 
-* **Alimente recomandate în mod deosebit**: ghimbir, **soia**, **usturoi**, dovlecel, napi, **teci de fasole** **verde**, hrean, șofran, brânzeturi, sparanghel, castraveți, morcovi fierți, urzici, germeni de grâu, **gem de gutui**, castane, ceapă, struguri, agrișe, cătină, cireșe, vișine, coacăze, afne, **căpșuni**, mere, pere, lămâi, portocale, frăguțe, moșmoane, porumbe, ananas, papaya. Alimentele subliniate au efect mai puternic de reducere a acidului uric. Alimentele care sunt scrise cu litere îngroșate au efect și mai puternic.
- * **Strugurii** consumați în cantitate mare elimină acidul uric din organism**.**
+* **Alimente recomandate in mod deosebit**: ghimbir, **soia**, **usturoi**, dovlecel, napi, **teci de fasole** **verde**, hrean, sofran, branzeturi, sparanghel, castraveti, morcovi fierti, urzici, germeni de grau, **gem de gutui**, castane, ceapa, struguri, agrise, catina, cirese, visine, coacaze, afne, **capsuni**, mere, pere, lamai, portocale, fragute, mosmoane, porumbe, ananas, papaya. Alimentele subliniate au efect mai puternic de reducere a acidului uric. Alimentele care sunt scrise cu litere ingrosate au efect si mai puternic.
+ * **Strugurii** consumati in cantitate mare elimina acidul uric din organism**.**
  * **Zilnic** a se consuma **fructe**.
- * A se reduce cantitatea de zahăr din alimentație.
- * **Socată**
- * În caz de criză zdrobiți 100g de căpșuni cu puțin zahăr. Apoi adăgați puțină apă caldă și beți.
- * **Alimente interzise complet:** carne, măcriș, spanac, fructe de mare, băuturi carbogazoase, fructoză pură.
- * **Cafeaua** ajută la diminuarea nivelului de acid uric.
- * **Smoothie din 4 legături de pătrunjel și sucul de la o lămâie.**
- * Când apar durerile mâncați numai fructe și legume proaspete.
- * Când nu aveți dureri consumați multe proteine de origine vegetală(soia, fasole, mei, năut, nuci)
+ * A se reduce cantitatea de zahar din alimentatie.
+ * **Socata**
+ * In caz de criza zdrobiti 100g de capsuni cu putin zahar. Apoi adagati putina apa calda si beti.
+ * **Alimente interzise complet:** carne, macris, spanac, fructe de mare, bauturi carbogazoase, fructoza pura.
+ * **Cafeaua** ajuta la diminuarea nivelului de acid uric.
+ * **Smoothie din 4 legaturi de patrunjel si sucul de la o lamaie.**
+ * Cand apar durerile mancati numai fructe si legume proaspete.
+ * Cand nu aveti dureri consumati multe proteine de origine vegetala(soia, fasole, mei, naut, nuci)
  * **Vinuri medicinale**
- * **Vin de pătlagină*:*** 1 litru vin roșu \+ 100ml suc de pătlagină \+ o lingură de miere. A se păstra la frigider. Se bea câte 50ml pe zi.
- * **Vin de prune uscate:** 300 gr. prune uscate (neafumate), 1 litru de vin roșu, 1 plic de zahăr vanilat, 50 ml rachiu/pălincă și 120 g. zahăr brun. Se pun toate ingredientele la macerat, timp de 3 săptămâni, într-un borcan la temperatura camerei. Apoi se strecoară și se păstrează la frigider. Se iau zilnic câte 50 ml., de 3 ori/zi, înainte de fiecare masă cu 15 minute. Acest vin este recomandat în caz de anemie, constipatie, gută, nefrită, reumatism.
- * **Vin de ienupăr:** 50 boabe de ienupăr, 1 litru vin roșu, 50 ml. rachiu/pălincă. Se râșnesc boabele de ienupăr și se pun la macerat în amestecul de vin și rachiu, timp de o săptămână. Apoi, se pune pe foc amestecul și se lasă să fiarbă 5 minute. Se lasă în repaus o săptămână înainte de a se filtra. Apoi se filtrează și se păstrează la frigider. Se iau câte 50 ml, de 3 ori/zi, cu 15 minute înainte de masă. Recomandat în ateroscleroză, gută, reumatism, afecțiuni renale, cistite, dezintoxicare.
- * **Vin de nuci**: 350 gr. frunze de nuc, 1 litru vin roșu, 1 baton de scorțișoară, 100 gr. zahăr brun, 25 ml. rom. Se pun toate ingredientele la macerat, timp de o lună. Se filtrează și se păstrează la frigider. Se iau câte 50 ml, de 3 ori/zi, cu 15 minute înainte de masă. Recomandat în anemie, diaree, eczeme, gută, reumatism.
- * **Vin de gențiană:** se pune o mână de rădăcini uscate de gențiană într-o cană de pălincă. După 24 ore se adaugă un litru de vin alb și se lasă la macerat încă 7 zile. Apoi se strecoară și se păstrează la frigider. Se bea 50ml pe zi.
+ * **Vin de patlagina*:*** 1 litru vin rosu \+ 100ml suc de patlagina \+ o lingura de miere. A se pastra la frigider. Se bea cate 50ml pe zi.
+ * **Vin de prune uscate:** 300 gr. prune uscate (neafumate), 1 litru de vin rosu, 1 plic de zahar vanilat, 50 ml rachiu/palinca si 120 g. zahar brun. Se pun toate ingredientele la macerat, timp de 3 saptamani, intr-un borcan la temperatura camerei. Apoi se strecoara si se pastreaza la frigider. Se iau zilnic cate 50 ml., de 3 ori/zi, inainte de fiecare masa cu 15 minute. Acest vin este recomandat in caz de anemie, constipatie, guta, nefrita, reumatism.
+ * **Vin de ienupar:** 50 boabe de ienupar, 1 litru vin rosu, 50 ml. rachiu/palinca. Se rasnesc boabele de ienupar si se pun la macerat in amestecul de vin si rachiu, timp de o saptamana. Apoi, se pune pe foc amestecul si se lasa sa fiarba 5 minute. Se lasa in repaus o saptamana inainte de a se filtra. Apoi se filtreaza si se pastreaza la frigider. Se iau cate 50 ml, de 3 ori/zi, cu 15 minute inainte de masa. Recomandat in ateroscleroza, guta, reumatism, afectiuni renale, cistite, dezintoxicare.
+ * **Vin de nuci**: 350 gr. frunze de nuc, 1 litru vin rosu, 1 baton de scortisoara, 100 gr. zahar brun, 25 ml. rom. Se pun toate ingredientele la macerat, timp de o luna. Se filtreaza si se pastreaza la frigider. Se iau cate 50 ml, de 3 ori/zi, cu 15 minute inainte de masa. Recomandat in anemie, diaree, eczeme, guta, reumatism.
+ * **Vin de gentiana:** se pune o mana de radacini uscate de gentiana intr-o cana de palinca. Dupa 24 ore se adauga un litru de vin alb si se lasa la macerat inca 7 zile. Apoi se strecoara si se pastreaza la frigider. Se bea 50ml pe zi.
 
 ## **Terapii complementare**
 
-- Terapie cu **lumina portocalie**. Pacientul stă expus cel puțin o oră pe zi la lumină portocalie.
-- **Apa de diamant:** dacă apare senzația de înțepeneală din cauza gutei, atunci se recomandă a se pune un diamant natural (și nu sintetic) într-o cană cu apă. După 24 ore se bea apa, se umple cana cu apă, se lasă 24 ore și apoi se bea și tot așa.
-- **Safir**: a se ține o bucată de safir natural în gură în cazul în care durerile sunt foarte mari.
-- Pacientul să stea cât mai des în apropierea unui foc în care arde **lemn de ulm**.
-- A se purta o bijuterie ce conține piatra numită prehnit.
-- Intensifică procesul de vizualizare și induce o meditație profundă în timpul căreia se atinge eul superior. Meditând asupra acestui cristal, intrăm în contact cu rețeaua energetică a universului. Prehinitul dezvoltă precogniția și introspecția. Vă ajută să fiți întotdeauna pregătiți pentru ceea ce urmează. Datorită calității sale de a pune în acord cu energiile divine, prehnitul valorizează harul profeției și arată calea către evoluția spirituală.
- Acest cristal închide câmpul auric într-un scut proterctor de energie divină. Util pentru a forma rețele datorită capacității sale de a calma mediul înconjurator și a oferi pace și protecție. Perfect pentru a fi pus în grădină. Ajută la transformarea casei într-un sanctuar vindecător. Vă învață cum să intrați în armonie cu natura și cu forțele elementare, revitalizând și reînnoind ceea ce va înconjoară.
- O buna piatră Feng Shui, prehnitul contribuie la "eliminarea harababurii", la renunțarea la lucrurile inutile. De ajutor persoanelor care tezaurizează obiecte sau iubire născută dintr-un sentiment de lipsă, provenit uneori din privațiuni, sărăcie sau absența iubirii din viețile anterioare. Cu ajutorul prehnitului se restabilește încrederea în univers.
- În plan psihologic, prehnitul înlătură coșmarurile, fobiile și fricile profunde, identificând și vindecând răul care le provoacă. Benefic copiilor hiperactivi și cauzelor karmice ascunse.
- EFECTE TAMADUITOARE. Tratează rinichii, vezica urinară, timusul, umerii, pieptul și plămânii. Vindecă guta și tulburările hematologice, reface țesutul conjunctiv și stabilizează malignitatea.
- POZITIONARE. Plasați-l sau țineți-l unde este nevoie.
+- Terapie cu **lumina portocalie**. Pacientul sta expus cel putin o ora pe zi la lumina portocalie.
+- **Apa de diamant:** daca apare senzatia de intepeneala din cauza gutei, atunci se recomanda a se pune un diamant natural (si nu sintetic) intr-o cana cu apa. Dupa 24 ore se bea apa, se umple cana cu apa, se lasa 24 ore si apoi se bea si tot asa.
+- **Safir**: a se tine o bucata de safir natural in gura in cazul in care durerile sunt foarte mari.
+- Pacientul sa stea cat mai des in apropierea unui foc in care arde **lemn de ulm**.
+- A se purta o bijuterie ce contine piatra numita prehnit.
+- Intensifica procesul de vizualizare si induce o meditatie profunda in timpul careia se atinge eul superior. Meditand asupra acestui cristal, intram in contact cu reteaua energetica a universului. Prehinitul dezvolta precognitia si introspectia. Va ajuta sa fiti intotdeauna pregatiti pentru ceea ce urmeaza. Datorita calitatii sale de a pune in acord cu energiile divine, prehnitul valorizeaza harul profetiei si arata calea catre evolutia spirituala.
+ Acest cristal inchide campul auric intr-un scut proterctor de energie divina. Util pentru a forma retele datorita capacitatii sale de a calma mediul inconjurator si a oferi pace si protectie. Perfect pentru a fi pus in gradina. Ajuta la transformarea casei intr-un sanctuar vindecator. Va invata cum sa intrati in armonie cu natura si cu fortele elementare, revitalizand si reinnoind ceea ce va inconjoara.
+ O buna piatra Feng Shui, prehnitul contribuie la "eliminarea harababurii", la renuntarea la lucrurile inutile. De ajutor persoanelor care tezaurizeaza obiecte sau iubire nascuta dintr-un sentiment de lipsa, provenit uneori din privatiuni, saracie sau absenta iubirii din vietile anterioare. Cu ajutorul prehnitului se restabileste increderea in univers.
+ In plan psihologic, prehnitul inlatura cosmarurile, fobiile si fricile profunde, identificand si vindecand raul care le provoaca. Benefic copiilor hiperactivi si cauzelor karmice ascunse.
+ EFECTE TAMADUITOARE. Trateaza rinichii, vezica urinara, timusul, umerii, pieptul si plamanii. Vindeca guta si tulburarile hematologice, reface tesutul conjunctiv si stabilizeaza malignitatea.
+ POZITIONARE. Plasati-l sau tineti-l unde este nevoie.
 
-## **Marele Dicționar al Bolilor și Afecțiunilor – cauze subtile ale îmbolnăvirii**
+## **Marele Dictionar al Bolilor si Afectiunilor – cauze subtile ale imbolnavirii**
 
-Potrivit “**Marelui Dicționar al Bolilor și Afecțiunilor – cauze subtile ale îmbolnăvirii**” persoana care suferă de gută trebuie să conștientizeze și să își repete următoarele lucruri:
+Potrivit “**Marelui Dictionar al Bolilor si Afectiunilor – cauze subtile ale imbolnavirii**” persoana care sufera de guta trebuie sa constientizeze si sa isi repete urmatoarele lucruri:
 
-* am nevoie de spațiul meu de singurătate dar îi las pe cei din jur să mă invadeze.
- * mă simt împins de la spate.
- * nu-mi pot exprima emoțiile pe deplin. Vreau să par „băiat bun”, să nu fiu criticat și prin urmare îmi suprim unele gânduri și prefer să tac.
- * mă simt prins în trecut și e greu să privesc în viitor. Astfel nu pot avansa, nu pot progresa.
- * sunt foarte ambițios și rigid față de mine dar și față de ceilalți.
- * am nevoie să îmi controlez în totalitate viața lucru care uneori este foarte dificil.
- * dacă muncesc prea mult, guta se va accentua.
- * sunt o persoană emotivă, sensibilă dar vreau să par puternic.
- * nesiguranța mă face să devin posesiv.
- * am o nevoie foarte mare de a-mi demonstra valoarea în fața celorlalți.
- * mă simt vulnerabil față de propriile mele emoții și sunt intransigent față de ce eu consider că e negativ ori greșit.
- * degetul mare de la picior îmi este afectat atunci când simt că mă prăbușesc în urma unei vești proaste.
- * am un conflict interior între plăcere și datorie.
- * ar trebui să îi controlez mai puțin pe ceilalți și să fiu mai flexibil cu mine însumi.
- * este important pentru mine să las să intre mai multă iubire în mine pentru a echilibra emoțiile negative care mă rănesc și mă înfurie.
- * îmi accept toate emoțiile mele și exprimându-le voi descoperi cu adevărat cine sunt.
+* am nevoie de spatiul meu de singuratate dar ii las pe cei din jur sa ma invadeze.
+ * ma simt impins de la spate.
+ * nu-mi pot exprima emotiile pe deplin. Vreau sa par „baiat bun”, sa nu fiu criticat si prin urmare imi suprim unele ganduri si prefer sa tac.
+ * ma simt prins in trecut si e greu sa privesc in viitor. Astfel nu pot avansa, nu pot progresa.
+ * sunt foarte ambitios si rigid fata de mine dar si fata de ceilalti.
+ * am nevoie sa imi controlez in totalitate viata lucru care uneori este foarte dificil.
+ * daca muncesc prea mult, guta se va accentua.
+ * sunt o persoana emotiva, sensibila dar vreau sa par puternic.
+ * nesiguranta ma face sa devin posesiv.
+ * am o nevoie foarte mare de a-mi demonstra valoarea in fata celorlalti.
+ * ma simt vulnerabil fata de propriile mele emotii si sunt intransigent fata de ce eu consider ca e negativ ori gresit.
+ * degetul mare de la picior imi este afectat atunci cand simt ca ma prabusesc in urma unei vesti proaste.
+ * am un conflict interior intre placere si datorie.
+ * ar trebui sa ii controlez mai putin pe ceilalti si sa fiu mai flexibil cu mine insumi.
+ * este important pentru mine sa las sa intre mai multa iubire in mine pentru a echilibra emotiile negative care ma ranesc si ma infurie.
+ * imi accept toate emotiile mele si exprimandu-le voi descoperi cu adevarat cine sunt.
 
-## **Atenție**
+## **Atentie**
 
-* **COLCHICINA** recomandată de medici, este dăunătoare ficatului, rinichilor și în mod deosebit globulelor roșii**.**
- * În timpul folosirii ceaiului complex care conține **ghimpe** se vor evita condimentele, lactate fermentate, citricele, muraturile. Nu se asociaza cu medicamente antidepresive, pentru hipertensiune sau adenom de prostata
- * A nu se pune planta numită **sânziene** în ceaiul complex dacă pacientul suferă de lipsă severă de calciu.
- * A nu se consuma **hrean** în caz de colite, gastrite, enterocolite, afecțiuni renale acute.Va fi evitat de cei care suferă de bilă, ficat, de reumatici și de cei cu eczeme, hemoroizi, tulburări de ritm cardiac, hiperfuncții endocrine avansate și excitații nervoase.
- * **Boabele de ienupăr** nu se vor administra în caz de gastrită, ulcer gastric sau duodenal, nefrită, nefroze, leziuni renale sau ale căilor urinare. Deoarece compușii existenți în ienupăr stimuleză glandele corticosuprarenale, planta este contraindicată în hipercorticism (Sindrom Cushing). În cazul depășirii dozelor recomandate, pot avea loc fenomene hemoragice renale sau intestinale. Ienupărul se va administra maximum 6 săptămâni (se recomandă să nu se depășească 4 săptămâni), după care trebuie să urmeze o pauză de cel puțin două luni. În afecțiunile inflamatorii ale rinichilor, vezicii și căilor urinare (nefrite, pielite, uretrite), sunt contraindicate plantele care irită epiteliul renal, cum sunt pseudofructele de ienupăr, frunzele de merișor și frunzele de afin. De asemenea, boabele ienupărului, nu se recomandă a fi administrate la cei cu leziuni acute renale sau ale căilor urinare.
- * **Ceaiul de nemțișor ce câmp**: datorită cantităților mici de alcaloizi și celorlalți compuși rezultați în urma hidrolizei, produsul are proprietăți hipotensive arteriale și bradicardizante. Utilizarea în fitoterapie este limitată.A nu se folosi mai mult de 10 zile și a nu de depăși doza recomandată. În cazul observării unuia din următoarele simptome: salivație abundentă, tulburări digestive, insuficiență cardiacă, atunci se întrerupe tratamentul, și se bea lapte cald, se ia cărbune activ, un supliment cu magneziu și calciu și se beau multe lichide.
- * A se evita dozele de **vitamina B3** de peste 50mg pe zi, deoarece crește cantitatea de acid uric din organism.
- * **Aspirina** duce la creșterea nivelului de acid uric, și dacă se ia în cantități mici.
- * Unele medicamente pentru hipertensiune arterială duc la creșterea nivelului de acid uric.( diuretice tiazidice, inhibitori ai enzimelor de conversie a angiotensinei (ECA) și beta-blocante)
+* **COLCHICINA** recomandata de medici, este daunatoare ficatului, rinichilor si in mod deosebit globulelor rosii**.**
+ * In timpul folosirii ceaiului complex care contine **ghimpe** se vor evita condimentele, lactate fermentate, citricele, muraturile. Nu se asociaza cu medicamente antidepresive, pentru hipertensiune sau adenom de prostata
+ * A nu se pune planta numita **sanziene** in ceaiul complex daca pacientul sufera de lipsa severa de calciu.
+ * A nu se consuma **hrean** in caz de colite, gastrite, enterocolite, afectiuni renale acute.Va fi evitat de cei care sufera de bila, ficat, de reumatici si de cei cu eczeme, hemoroizi, tulburari de ritm cardiac, hiperfunctii endocrine avansate si excitatii nervoase.
+ * **Boabele de ienupar** nu se vor administra in caz de gastrita, ulcer gastric sau duodenal, nefrita, nefroze, leziuni renale sau ale cailor urinare. Deoarece compusii existenti in ienupar stimuleza glandele corticosuprarenale, planta este contraindicata in hipercorticism (Sindrom Cushing). In cazul depasirii dozelor recomandate, pot avea loc fenomene hemoragice renale sau intestinale. Ienuparul se va administra maximum 6 saptamani (se recomanda sa nu se depaseasca 4 saptamani), dupa care trebuie sa urmeze o pauza de cel putin doua luni. In afectiunile inflamatorii ale rinichilor, vezicii si cailor urinare (nefrite, pielite, uretrite), sunt contraindicate plantele care irita epiteliul renal, cum sunt pseudofructele de ienupar, frunzele de merisor si frunzele de afin. De asemenea, boabele ienuparului, nu se recomanda a fi administrate la cei cu leziuni acute renale sau ale cailor urinare.
+ * **Ceaiul de nemtisor ce camp**: datorita cantitatilor mici de alcaloizi si celorlalti compusi rezultati in urma hidrolizei, produsul are proprietati hipotensive arteriale si bradicardizante. Utilizarea in fitoterapie este limitata.A nu se folosi mai mult de 10 zile si a nu de depasi doza recomandata. In cazul observarii unuia din urmatoarele simptome: salivatie abundenta, tulburari digestive, insuficienta cardiaca, atunci se intrerupe tratamentul, si se bea lapte cald, se ia carbune activ, un supliment cu magneziu si calciu si se beau multe lichide.
+ * A se evita dozele de **vitamina B3** de peste 50mg pe zi, deoarece creste cantitatea de acid uric din organism.
+ * **Aspirina** duce la cresterea nivelului de acid uric, si daca se ia in cantitati mici.
+ * Unele medicamente pentru hipertensiune arteriala duc la cresterea nivelului de acid uric.( diuretice tiazidice, inhibitori ai enzimelor de conversie a angiotensinei (ECA) si beta-blocante)
 
-## **Referințe**
+## **Referinte**
 
 Gout **
 Guta: cauzele aparitiei, cum recunosti simptomele, ce tratament trebuie sa urmezi
 **
-Curs terapie herbală de la “Centrul Internațional de Formare Pentru Medicină Complementară/Alternativă”
-Cărțile: “Cristale A-Z”, “Flora Medicinală a României”, “Vindecare prin nutriție”, “Marele dicționar al bolilor și afecțiunilor”, “Dicționarul plantelor de leac”, “Fitoterapie tradițională și modernă”, “Enciclopedia plantelor medicinale”, “800 rețete secrete pentru sănătate”, “Rețete radiționale”, “Sănătate prin semințe, legume, fructe”, “Remedii naturiste”, “Sănătate din farmacia Domnului”.**![Imagine image1]**
+Curs terapie herbala de la “Centrul International de Formare Pentru Medicina Complementara/Alternativa”
+Cartile: “Cristale A-Z”, “Flora Medicinala a Romaniei”, “Vindecare prin nutritie”, “Marele dictionar al bolilor si afectiunilor”, “Dictionarul plantelor de leac”, “Fitoterapie traditionala si moderna”, “Enciclopedia plantelor medicinale”, “800 retete secrete pentru sanatate”, “Retete raditionale”, “Sanatate prin seminte, legume, fructe”, “Remedii naturiste”, “Sanatate din farmacia Domnului”.**![Imagine image1]**

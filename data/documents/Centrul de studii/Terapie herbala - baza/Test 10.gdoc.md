@@ -12,19 +12,19 @@
  Ferigi – din categoria pteridofitelor
  Conifere – din categoria spermatofitelor
 
-4\. Rezumați ceea ce Intelegeti despre "Herbalism/ Fitoterapie" (nu mai mult de 150
+4\. Rezumati ceea ce Intelegeti despre "Herbalism/ Fitoterapie" (nu mai mult de 150
 cuvinte).
 Herbalismul reprezinta studiul si folosirea plantelor in diferite aspecte ale vietii (bucatarie, in scop terapeutic, cosmetice, decor)
 
 5. Ce intelegeti prin "galenism" ?
  Galenismul, este un sistem prin care o boala “rece” este tratata cu un remediu “cald”, si o boala “calda” este tratata cu un remediu “rece”.
 
-6\. Faceti diferenta intre ierburile”de răcire” și cele de încălzire”.
+6\. Faceti diferenta intre ierburile”de racire” si cele de incalzire”.
 Scrieti 4 conditii in care fiecare dintre ele ar putea fi aplicata.
 Conditiile calde, sunt caracterizate de febra, o senzatie de cald, inrosirea fetei, umflare si roseata, infectii bacteriene, inflamatii si pot fi tratate cu plante de racire cum ar fi: musetel, papadie, gentiana, hamei , coriandru, etc.
 Conditiile reci sunt caracterizate de senzatia de frig, congestie, intepenire, incetinirea proceselor si pot fi tratate cu remedii din plante calde, cum ar fi: tataneasa, ardei iute cayenne, scortisoara, mustar, hrean etc. Exemplu de probleme reci: probleme ale pielii, boli circulatorii, reumatism, constipatie, lipsa apetit
 
-7. Câte metode exista pentru administrarea ierburilor? Descrieti fiecare procedura.
+7. Cate metode exista pentru administrarea ierburilor? Descrieti fiecare procedura.
 
 Infuzia – ierburile se pun in apa clocotita, se opreste focul si se acopera vasul pentru 10 minute.
 Decoctul – ierburile se pun in apa si se fierb la foc mic timp de 30 minute, dupa care se strecoara.
@@ -35,12 +35,12 @@ Macerat la rece – plantele se pun in apa rece si se lasa timp de 4-8 ore. Se s
 Unguent – plantele se pun intr-un vas la foc mic, cu untura de porc sau veselina medicinala.
 Sirop – se face o infuzie/decoct concentrata la care se adauga mult zahar pentru conservare
 
-8. Descrieti funcțiile unui tonic. Descrieti 2 dintre actiuni și metoda de aplicare.
+8. Descrieti functiile unui tonic. Descrieti 2 dintre actiuni si metoda de aplicare.
 
 Tonicele au rol de tonifiere, consolidare si restabilire a unei functii din organism.
 Exista tonice de uz intern (cum ar fi kelp, lemn-dulce) care contin substante asemanatoare hormonilor sau care stimuleaza corpul sa produca anumiti hormoni, dar exista si tonice de uz extern (de exemplu, tonice pentru cresterea nivelului de fito-estrogeni ajutand astfel la stimularea cresterii firului de par)
 
-9. Descrieți acțiunile următoarelor plante: in, echinacea și podbal
+9. Descrieti actiunile urmatoarelor plante: in, echinacea si podbal
 
 In – contine fito-estrogeni si ajuta la stimularea cresterii firului de par, ajuta la menopauza, reduce uscaciunea vaginala, util la diminuarea simptomelor in caz de sindrom de colon iritabil.
 Echinaceea – stimuleaza sistemul imunitar, este un bun antiseptic si antimicrobian

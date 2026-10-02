@@ -17,6 +17,6 @@
 
 Remediu vechi pentru surzenie
 
-În tradiția populară, sucul de ridiche era folosit și pentru tratarea persoanelor care nu mai auzeau bine. Se scobește o ridiche, miezul se presară cu sare și se pune în pământ trei zile. Zeama obținută se scurge în urechea cu probleme, trei zile la rând, o dată pe zi. În cazul durerilor de piept, se scobește o ridiche, se umple cu miere și hrean, apoi se coace, iar zeama obținută se consumă. Pentru umflături la burtă, bunicii noștri mâncau o ridiche rasă, pe stomacul gol, timp de o săptămână. Tot cu ridichea neagră se trata și dizenteria.
+In traditia populara, sucul de ridiche era folosit si pentru tratarea persoanelor care nu mai auzeau bine. Se scobeste o ridiche, miezul se presara cu sare si se pune in pamant trei zile. Zeama obtinuta se scurge in urechea cu probleme, trei zile la rand, o data pe zi. In cazul durerilor de piept, se scobeste o ridiche, se umple cu miere si hrean, apoi se coace, iar zeama obtinuta se consuma. Pentru umflaturi la burta, bunicii nostri mancau o ridiche rasa, pe stomacul gol, timp de o saptamana. Tot cu ridichea neagra se trata si dizenteria.
 
 Hipoacuzie: deficientele auzului si ale urechii, tin de o tulburare a energiei rinichilor cu care te nasti deficitar.

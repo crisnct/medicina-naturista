@@ -15,20 +15,20 @@ Test 20
 \-Ai probleme de piele, cum ar fi acnee, rozacee sau eczeme
 
 3. Ce se intampla pe durata utilizarii curii de curatare a intestinului?
- În faza inițială a curățării intestinelor se poate observa o scurtă perioadă de stare generală proastă, care însă nu peste mult timp va fi schimbată de senzația de eliberare
+ In faza initiala a curatarii intestinelor se poate observa o scurta perioada de stare generala proasta, care insa nu peste mult timp va fi schimbata de senzatia de eliberare
 
 4. Care sunt proprietatile ceaiului cardiotonic?
  Actiune sedativa asupra sistemului nervos si cardiac, tonifianta a vaselor de sange, hipotensiva, hipocolesterolemianta, reglatoare a ritmului inimii.
 
 5. Pentru ce se recomanda Tinctura oftalmica?
- Tinctura Oftalmică are rol adjuvant în: creșterea acuității vizuale, îngrijirea sănătății ochilor, prevenirea bolilor și în tratamentele oculare. Întărește imunitatea ochilor împotriva agenților infecțioși, înlătură scurgerile oculare, ajută la vindecarea traumatismelor care s-ar putea transforma în boli, redă expersivitatea normală a ochilor la persoanele înaintate în vârstă și la cei care citesc noaptea, ajută la vindecarea conjuctivitelor și inflamațiilor oculare.
+ Tinctura Oftalmica are rol adjuvant in: cresterea acuitatii vizuale, ingrijirea sanatatii ochilor, prevenirea bolilor si in tratamentele oculare. Intareste imunitatea ochilor impotriva agentilor infectiosi, inlatura scurgerile oculare, ajuta la vindecarea traumatismelor care s-ar putea transforma in boli, reda expersivitatea normala a ochilor la persoanele inaintate in varsta si la cei care citesc noaptea, ajuta la vindecarea conjuctivitelor si inflamatiilor oculare.
 
 6. Cum se administreaza Tinctura antianemica?
  Uz:Intern:- 3 lingurite pe zi dizolvate, in Ceai Antianemic indulcit cu miere de albine sau in putina apa;
  Extern:- bai generale in care se dizolva 1 lingura tinctura.
 
 7. Cat dureaza tratamentul cu Tinctura gastrica?
- Tratamentul durează 6 săptămâni. După o pauză de 1 săptămână se poate continua.
+ Tratamentul dureaza 6 saptamani. Dupa o pauza de 1 saptamana se poate continua.
 
 8. Ce plante intra in compozitia ceaiului antialergic?
  Trei-frati-patati-Viola tricolor, Coacaz-negru-Ribes nigrum, Lemn \-dulce-Glycyrrhiza glabra, Osul- iepurelui-Ononis spinosa, Pir-Agropyron repens, Brusture-Arctium lappa;

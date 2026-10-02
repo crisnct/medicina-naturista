@@ -3,18 +3,18 @@
 
 []{.underline}
 
-Premieră medicală\
-La Spitalul Județean\
-În cadrul Spitalului Clinic Județean s-a efectuat, la sfârșitul săptămânii trecute, o intervenție chirurgicală laparoscopică, în premieră la Timișoara. Pacienta (21 de ani) suferea de miastenie gravis, o boală neurologică (gravă) care se manifestă printr-o moliciune generalizată a musculaturii, ca efect endocrin al timusului, când această glandă rămâne activă și după vârsta de 12 ani. Reușita operației este rezultatul colaborării profesionale nemijlocite dintre profesor universitar doctor Constantin Copotoiu, șeful Clinicii I Chirurgie a Spitalului din Târgu-Mureș, și o echipă de specialiști de la Clinica II Chirurgie a Spitalului Județean din Timișoara, coordonată de prof. univ. dr. Lazăr Fulger. Operația a fost transmisă în direct la Centrul de microbiologie Pius Brânzeu.\
+Premiera medicala\
+La Spitalul Judetean\
+In cadrul Spitalului Clinic Judetean s-a efectuat, la sfarsitul saptamanii trecute, o interventie chirurgicala laparoscopica, in premiera la Timisoara. Pacienta (21 de ani) suferea de miastenie gravis, o boala neurologica (grava) care se manifesta printr-o moliciune generalizata a musculaturii, ca efect endocrin al timusului, cand aceasta glanda ramane activa si dupa varsta de 12 ani. Reusita operatiei este rezultatul colaborarii profesionale nemijlocite dintre profesor universitar doctor Constantin Copotoiu, seful Clinicii I Chirurgie a Spitalului din Targu-Mures, si o echipa de specialisti de la Clinica II Chirurgie a Spitalului Judetean din Timisoara, coordonata de prof. univ. dr. Lazar Fulger. Operatia a fost transmisa in direct la Centrul de microbiologie Pius Branzeu.\
 
 [Osteoporoza prin malabsorbitie]{.underline}
 ============================================
 
 []{.underline}
 
-Regim - a încuraja modul activ de viata (mers activ).
+Regim - a incuraja modul activ de viata (mers activ).
 
-Dieta - la persoanele în vârsta necesitatile nocturne de Ca2+\>1000mg. Alimentatia trebuie sa contina produse bogate în calciu: sardine, lapte, iaurt, brânza degresata, morcov. La persoanele dupa 70 ani necesitatile nictemeralc de vit.D trebuie sa fie de 600UI. Alimentatia trebuie sa includa produse bogate în calciu (iaurt, peste proaspat sau conservat, citrice, seminte de rasarita, nuci).
+Dieta - la persoanele in varsta necesitatile nocturne de Ca2+\>1000mg. Alimentatia trebuie sa contina produse bogate in calciu: sardine, lapte, iaurt, branza degresata, morcov. La persoanele dupa 70 ani necesitatile nictemeralc de vit.D trebuie sa fie de 600UI. Alimentatia trebuie sa includa produse bogate in calciu (iaurt, peste proaspat sau conservat, citrice, seminte de rasarita, nuci).
 
 Metode fizice : corset / brau ortopedic ,exercitii fizice cu consultarea unui fizioterapeut.
 
@@ -50,9 +50,9 @@ Terapii de viitor: antiestrogeni (tamoxifen, raloxifen), florura de sodiu cu eli
 
 **Tratament natural 2:** 200 g faina de orez (rasniti orez nedecorticat prin masina de cafea), 200 g miere poliflora, 50 g polen si 100 ml lapte dulce. Se amesteca bine, pana se obtine o masa omogena. Amestecul se pune in vas de sticla si se poate pastra la frigider. Se iau, zilnic, 3 linguri cu amestec, cu doua ore inainte de mesele principale.
 
-#### Tratament natural 3: se ia cîte o linguriță de tinctură de mărar diluată într-o jumătate de pahar cu apă, de 3-4 ori/zi, timp de minim 6 luni. Tinctura se prepară din 20 de linguri de semințe de mărar amestecate în 1/2 l alcool alimentar de 70 grade și lăsate la macerat timp de 8 zile, după care se filtrează. Se păstrează în sticluțe mici, închise la culoare. În paralel cu acest remediu, pe locurile dureroase se pun comprese cu o soluție preparată din: 3 vîrfuri de cuțit de piper negru, un pahar de sare grunjoasă și 1/2 l de coniac; se lasă la macerat 5 zile. În cazul cînd osteoporoza este asociată cu reumatism, se prepară o soluție din 1/2 l alcool medicinal, 50 aspirine pisate și 2 linguri de sare de lămîie. Se lasă la macerat 2-3 zile, agitînd de cîteva ori pe zi, pînă se dizolvă complet. Cu acest preparat se vor unge locurile dureroase. Boala oaselor de sticlă (boala Lebstein), se ameliorează cu următorul remediu: se pun seara la macerat, într-un borcan cu un litru de apă și 500 ml oțet de mere (de preferință preparat în casă), la temperatura camerei, cîte 25 g de coada calului și 25 g de troscot. După 12 ore, se strecoară și se bea întreaga cantitate de lichid pe parcursul unei zile, îndulcită ușor cu miere naturală polifloră. Remediul se ia cîte 10 zile pe lună, cu pauze între ele, timp de minimum 6 luni.
+#### Tratament natural 3: se ia cite o lingurita de tinctura de marar diluata intr-o jumatate de pahar cu apa, de 3-4 ori/zi, timp de minim 6 luni. Tinctura se prepara din 20 de linguri de seminte de marar amestecate in 1/2 l alcool alimentar de 70 grade si lasate la macerat timp de 8 zile, dupa care se filtreaza. Se pastreaza in sticlute mici, inchise la culoare. In paralel cu acest remediu, pe locurile dureroase se pun comprese cu o solutie preparata din: 3 virfuri de cutit de piper negru, un pahar de sare grunjoasa si 1/2 l de coniac; se lasa la macerat 5 zile. In cazul cind osteoporoza este asociata cu reumatism, se prepara o solutie din 1/2 l alcool medicinal, 50 aspirine pisate si 2 linguri de sare de lamiie. Se lasa la macerat 2-3 zile, agitind de citeva ori pe zi, pina se dizolva complet. Cu acest preparat se vor unge locurile dureroase. Boala oaselor de sticla (boala Lebstein), se amelioreaza cu urmatorul remediu: se pun seara la macerat, intr-un borcan cu un litru de apa si 500 ml otet de mere (de preferinta preparat in casa), la temperatura camerei, cite 25 g de coada calului si 25 g de troscot. Dupa 12 ore, se strecoara si se bea intreaga cantitate de lichid pe parcursul unei zile, indulcita usor cu miere naturala poliflora. Remediul se ia cite 10 zile pe luna, cu pauze intre ele, timp de minimum 6 luni.
 
-Consumul de **ceapã deshidratatã** reduce cu 20% pierderea osoasã legatã de vârstã, deci si riscul aparitiei osteoporozei.
+Consumul de **ceapa deshidratata** reduce cu 20% pierderea osoasa legata de varsta, deci si riscul aparitiei osteoporozei.
 
 ####
 
@@ -64,7 +64,7 @@ Contra afectiunilor reno-urinare se recomanda si baile cu decoct combinat de coa
 
 **Medicamente naturale:**
 
-#### ARTICUM - Produsul contine cinci plante, printre care si extract de coada calului, care este un remineralizant osos de exceptie, deci foarte util in osteoporoza. Administrarea lui aduce mari avantaje organismului nostru, fiind antireumatic, analgezic, antiseptic, dezinfectant. Ajuta la eliminarea apei din tesuturi, reducând astfel tensiunea arteriala, reduce nevroza cardiaca si hiperaciditatea. De asemenea, are o actiune hemostatica, putând fi folosit in cazul ulcerului gastric si duodenal, precum si in angiocolite. Datorita compozitiei, poate fi folosit in raceli, gripe, infectii ale cailor respiratorii.
+#### ARTICUM - Produsul contine cinci plante, printre care si extract de coada calului, care este un remineralizant osos de exceptie, deci foarte util in osteoporoza. Administrarea lui aduce mari avantaje organismului nostru, fiind antireumatic, analgezic, antiseptic, dezinfectant. Ajuta la eliminarea apei din tesuturi, reducand astfel tensiunea arteriala, reduce nevroza cardiaca si hiperaciditatea. De asemenea, are o actiune hemostatica, putand fi folosit in cazul ulcerului gastric si duodenal, precum si in angiocolite. Datorita compozitiei, poate fi folosit in raceli, gripe, infectii ale cailor respiratorii.
 
 **CARTILAJ DE RECHIN FORTE** - Este sursa ideala de calciu si fosfor, fiind indicat in special persoanelor care prezinta un risc mare de osteoporoza. Are un puternic efect antiinflamator si prezinta avantajul ca intareste sistemul imunita
 
@@ -137,18 +137,18 @@ Originara din India si introdusa in Europa in secolul al XV-lea, patlageaua vina
 
 #### Tratament natural 1
 
-Acest tratament are efecte benefice în cazuri de digestie deficitară, inapetență, insuficiență suprarenală, colici renale, retenție urinară, litiază renală și vezicală, drenarea bilei, afecțiuni hepatice și splenice, gastrită acută și cronică, ulcer gastric și duodenal, eliminarea viermilor intestinali, diabet zaharat, gută, insuficiență tiroidiană, insomnie, surmenaj, stres, oboseală, astenie fizică și nervoasă, circulația proastă a sîngelui, hipertensiune arterială, obezitate, demineralizare, reumatism, afecțiuni pulmonare, gripe, răceli, bronșite, sterilitate, normalizarea ciclului menstrual.\
-În urma experiențelor clinice, s-a constatat că acest tratament are un puternic efect de detoxifiere a organismului, de purificare și regenerare sanguină.\
-Mai întîi se curăță **rădăcinile de țelină**, se spală cu apă rece, se taie în felii subțiri, apoi se dau prin mașina de tocat carne și se introduc într-un borcan. Cantitatea lor trebuie să ocupe o treime din borcan. În alt borcan, de aceeași capacitate, se pun semințe de ovăz nedecorticate, iar cantitatea lor trebuie să ocupe o treime din borcan. **Semințele de ovăz** se dau printr-o mașină de măcinat, în așa fel încît să fie doar mărunțite, sfărîmate și nu transformate în făină.\
-Atît peste țelină, cît și peste ovăz, se pune apă rece pînă se umple borcanul, apoi se agită cu o lingură de lemn. Se lasă la macerat timp de 24 de ore, după care fiecare macerat se strecoară separat printr-un tifon și se amestecă în părți egale. Amestecul trebuie consumat în timp de 2 zile, după care se prepară noi cantități prin același procedeu. Se consumă 1-1,5 l de macerat pe zi. Este bine ca acest tratament să se repete de mai multe ori în decursul unui an, cu pauze de 1-2 luni.
+Acest tratament are efecte benefice in cazuri de digestie deficitara, inapetenta, insuficienta suprarenala, colici renale, retentie urinara, litiaza renala si vezicala, drenarea bilei, afectiuni hepatice si splenice, gastrita acuta si cronica, ulcer gastric si duodenal, eliminarea viermilor intestinali, diabet zaharat, guta, insuficienta tiroidiana, insomnie, surmenaj, stres, oboseala, astenie fizica si nervoasa, circulatia proasta a singelui, hipertensiune arteriala, obezitate, demineralizare, reumatism, afectiuni pulmonare, gripe, raceli, bronsite, sterilitate, normalizarea ciclului menstrual.\
+In urma experientelor clinice, s-a constatat ca acest tratament are un puternic efect de detoxifiere a organismului, de purificare si regenerare sanguina.\
+Mai intii se curata **radacinile de telina**, se spala cu apa rece, se taie in felii subtiri, apoi se dau prin masina de tocat carne si se introduc intr-un borcan. Cantitatea lor trebuie sa ocupe o treime din borcan. In alt borcan, de aceeasi capacitate, se pun seminte de ovaz nedecorticate, iar cantitatea lor trebuie sa ocupe o treime din borcan. **Semintele de ovaz** se dau printr-o masina de macinat, in asa fel incit sa fie doar maruntite, sfarimate si nu transformate in faina.\
+Atit peste telina, cit si peste ovaz, se pune apa rece pina se umple borcanul, apoi se agita cu o lingura de lemn. Se lasa la macerat timp de 24 de ore, dupa care fiecare macerat se strecoara separat printr-un tifon si se amesteca in parti egale. Amestecul trebuie consumat in timp de 2 zile, dupa care se prepara noi cantitati prin acelasi procedeu. Se consuma 1-1,5 l de macerat pe zi. Este bine ca acest tratament sa se repete de mai multe ori in decursul unui an, cu pauze de 1-2 luni.
 
 Tratament natural 2
 -------------------
 
-Se face un amestec din 4 linguri coacăze negre, 3 linguri frunze de mesteacăn, 3 linguri fumariță și 3 linguri de eucalipt. Se opărește o linguriță de amestec în 200 ml apă și se lasă să tragă timp de 3 minute. Se bea dimineața, pe stomacul gol.\
-Un alt amestec de plante cu efecte deosebite în tratarea diabetului zaharat este din 2 linguri de teci de fasole și 3 linguri de sclipeți. Se fierbe, timp de 5 minute, în 200 ml apă. Întreaga cantitate se bea pe parcursul unei zile.\
-Timp de 10 zile, se bea zilnic, pe stomacul gol, sucul de la 3 cartofi cruzi. După o pauză de 20 de zile, tratamentul se reia.\
-În zilele de pauză se consumă, alternativ, o zi cîte un litru de suc de morcov amestecat cu suc de mere, iar cealaltă zi cîte un litru de suc de morcovi amestecat cu suc de varză. (E.P.)
+Se face un amestec din 4 linguri coacaze negre, 3 linguri frunze de mesteacan, 3 linguri fumarita si 3 linguri de eucalipt. Se opareste o lingurita de amestec in 200 ml apa si se lasa sa traga timp de 3 minute. Se bea dimineata, pe stomacul gol.\
+Un alt amestec de plante cu efecte deosebite in tratarea diabetului zaharat este din 2 linguri de teci de fasole si 3 linguri de sclipeti. Se fierbe, timp de 5 minute, in 200 ml apa. Intreaga cantitate se bea pe parcursul unei zile.\
+Timp de 10 zile, se bea zilnic, pe stomacul gol, sucul de la 3 cartofi cruzi. Dupa o pauza de 20 de zile, tratamentul se reia.\
+In zilele de pauza se consuma, alternativ, o zi cite un litru de suc de morcov amestecat cu suc de mere, iar cealalta zi cite un litru de suc de morcovi amestecat cu suc de varza. (E.P.)
 
 **Tratament natural 3**
 
@@ -172,30 +172,30 @@ Se mai utilizeaza frunzele si mladitele de soc, sub forma de ceai. Excelent pent
 
 Intrebuintarea acestor remedii este incununata de succes numai daca se respecta un regim de viata si alimentar prescris diabeticilor de catre medicul specialist.
 
-Cicoarea calmează setea diabeticilor. Cicoarea stimulează activitatea ficatului și eliminarea bilei, pe care o și fluidifică. Este un factor tonic-amar, care favorizează funcția glicogenetică a ficatului, deficitară la diabetici. Astfel, ceaiul de cicoare calmează setea caracteristică celor bolnavi de diabet zaharat. Se prepara sub formă de infuzie, dintr-o lingură de părți aeriene bine mărunțite, opărite cu 250 ml apă clocotită. După infuzare, se beau 2 căni/zi, îndulcite sau nu, cu puțină miere. (C.I.) Cîteva ceaiuri și sucuri utile în diabet zaharat
+Cicoarea calmeaza setea diabeticilor. Cicoarea stimuleaza activitatea ficatului si eliminarea bilei, pe care o si fluidifica. Este un factor tonic-amar, care favorizeaza functia glicogenetica a ficatului, deficitara la diabetici. Astfel, ceaiul de cicoare calmeaza setea caracteristica celor bolnavi de diabet zaharat. Se prepara sub forma de infuzie, dintr-o lingura de parti aeriene bine maruntite, oparite cu 250 ml apa clocotita. Dupa infuzare, se beau 2 cani/zi, indulcite sau nu, cu putina miere. (C.I.) Citeva ceaiuri si sucuri utile in diabet zaharat
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-• O jumătate de pahar de suc de cartofi cruzi pe zi, între mese.\
-• Infuzie din frunze de afin și de fragi în părți egale, 30 g la 1 litru apă clocotită; după 10-15 minute de infuzare se strecoară și se bea între mese, pe parcursul unei zile.\
-• Dacă nu sînt contraindicații, consumă o dată la 3 luni cîte 5 lămîi astfel: una dimineața, 2 la prînz și 2 seara, cam cu o oră înainte de mese, timp de o săptămînă.\
-• Infuzie din frunze de mur, 100 g frunze la 250 ml apă clocotită; se bea cu 2 ore înaintea meselor principale.\
-• Se macină 40 g coajă de ; seportocală, iar pudra obținută se pune la macerat în 10 ml alcool de 75 filtrează și se iau 8 picături, de 3 ori pe zi, în puțină apă sau suc. (A.Irimescu)\
+• O jumatate de pahar de suc de cartofi cruzi pe zi, intre mese.\
+• Infuzie din frunze de afin si de fragi in parti egale, 30 g la 1 litru apa clocotita; dupa 10-15 minute de infuzare se strecoara si se bea intre mese, pe parcursul unei zile.\
+• Daca nu sint contraindicatii, consuma o data la 3 luni cite 5 lamii astfel: una dimineata, 2 la prinz si 2 seara, cam cu o ora inainte de mese, timp de o saptamina.\
+• Infuzie din frunze de mur, 100 g frunze la 250 ml apa clocotita; se bea cu 2 ore inaintea meselor principale.\
+• Se macina 40 g coaja de ; seportocala, iar pudra obtinuta se pune la macerat in 10 ml alcool de 75 filtreaza si se iau 8 picaturi, de 3 ori pe zi, in putina apa sau suc. (A.Irimescu)\
 \
 **Ce fel de dieta trebuie sa urmeze un diabetic?**
 
-Se recomanda pentru adultii care îndeplinesc o activitate medie un aport caloric care scade cu vârsta ce variaza în jurul valorilor de 36kcal/kg (150kj/kg) pentru barbati si 34kcal/kg (140kj/kg) pentru femei.
+Se recomanda pentru adultii care indeplinesc o activitate medie un aport caloric care scade cu varsta ce variaza in jurul valorilor de 36kcal/kg (150kj/kg) pentru barbati si 34kcal/kg (140kj/kg) pentru femei.
 
-Necesarul minim de proteine este de 0,9g/kg/zi si trebuie scazut la 0,8g/kg/zi în cazul dezvoltarii insuficientei renale.
+Necesarul minim de proteine este de 0,9g/kg/zi si trebuie scazut la 0,8g/kg/zi in cazul dezvoltarii insuficientei renale.
 
-Distributia caloriilor între hidrati de carbon si grasimi trebuie individulizata. Pentru pacintii nonobezi si la cei fara hiperlipidemie este recomandata o cantitate de grasimi egala sau mai mica de 30% din aportul caloric, cu mai putin de 10% grasimi saturate. În cazul pacientilor cu hipercolesterolemie aportul de colesterol trebuie sa fie mai mic de 200mg/zi, iar a grasimilor saturate mai mic de 7% din calorii. Frecvent se recomanda un aport crescut de grasimi polinesaturate.
+Distributia caloriilor intre hidrati de carbon si grasimi trebuie individulizata. Pentru pacintii nonobezi si la cei fara hiperlipidemie este recomandata o cantitate de grasimi egala sau mai mica de 30% din aportul caloric, cu mai putin de 10% grasimi saturate. In cazul pacientilor cu hipercolesterolemie aportul de colesterol trebuie sa fie mai mic de 200mg/zi, iar a grasimilor saturate mai mic de 7% din calorii. Frecvent se recomanda un aport crescut de grasimi polinesaturate.
 
-Dupa alegerea continutului în proteine si grasimi, caloriile ramase se raporteaza la carbohidrati. Este recomandata cresterea continutului de fibre din dieta.
+Dupa alegerea continutului in proteine si grasimi, caloriile ramase se raporteaza la carbohidrati. Este recomandata cresterea continutului de fibre din dieta.
 
-Este important ca dieta stabilita sa fie respectata pe termen lung, iar placerile speciale trebuie sa fie exceptii acceptate în numar redus. O astfel de întelegere a respectarii dietei aduce o cooperare mai buna decât pretentiile rigide chiar si la adulti.
+Este important ca dieta stabilita sa fie respectata pe termen lung, iar placerile speciale trebuie sa fie exceptii acceptate in numar redus. O astfel de intelegere a respectarii dietei aduce o cooperare mai buna decat pretentiile rigide chiar si la adulti.
 
- La pacientii aflati în tratament cu insulina repartitia caloriilor trebuie realizata astef încât sa se evite hipoglicemia. Un astfel de regim prevede distributia a 20% din calorii la micul dejun, 35% la prânz, 30% pentru cina si 15% pentru a se consuma seara mai tarziu. Acest regim trebuie modificat în cazul stilurilor de viata diferite (de exemplu pentru o persoana care lucreaza noaptea masa principala va fi decalata în timp). Pentru regimurile cu injectii multiple cu insulina caloriile se împart astfel: 20% la micul dejun, respectiv la cina, 30% la prânz, iar cele 30% ramase sunt rezervate gustarilor de la mijlocul diminetii, mijlocul dupa-amiezei si seara târziu, în functie de nivelul glicemiei din timpul zilei.
+ La pacientii aflati in tratament cu insulina repartitia caloriilor trebuie realizata astef incat sa se evite hipoglicemia. Un astfel de regim prevede distributia a 20% din calorii la micul dejun, 35% la pranz, 30% pentru cina si 15% pentru a se consuma seara mai tarziu. Acest regim trebuie modificat in cazul stilurilor de viata diferite (de exemplu pentru o persoana care lucreaza noaptea masa principala va fi decalata in timp). Pentru regimurile cu injectii multiple cu insulina caloriile se impart astfel: 20% la micul dejun, respectiv la cina, 30% la pranz, iar cele 30% ramase sunt rezervate gustarilor de la mijlocul diminetii, mijlocul dupa-amiezei si seara tarziu, in functie de nivelul glicemiei din timpul zilei.
 
- La pacientii cu DZNID respectarea dietei trebuie sa fie mai stricta datorita rezervei diminuate de insulina, în timp ce compozitia dietei nu este de importanta critica la pacientii cu DZID deoarece ajustarile insulinei pot acoperi variatii mari ale ingestiei de alimente.
+ La pacientii cu DZNID respectarea dietei trebuie sa fie mai stricta datorita rezervei diminuate de insulina, in timp ce compozitia dietei nu este de importanta critica la pacientii cu DZID deoarece ajustarile insulinei pot acoperi variatii mari ale ingestiei de alimente.
 
 **Fasolea -** inamicul nr 1 al diabeticilor
 

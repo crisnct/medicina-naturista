@@ -31,6 +31,6 @@ Cauze posibile:
 - insuficienta renala
 - insuficienta venoasa (apar varice si tromboflebita)
 - insuficienta cardiaca insuficient oxigen in sange)
-- boli de ficat (Când ficatul nu mai filtreaza sângele, cre?te presiunea acestuia în vene ?i duce la formarea edemelor.)
+- boli de ficat (Cand ficatul nu mai filtreaza sangele, cre?te presiunea acestuia in vene ?i duce la formarea edemelor.)
 
-Daca ficatul nu elimina surplusul de hormoni (estrogen sau aldosteron), apare un dezechilibru în retentia de apa si sare si tesuturile încep sa se umfle.
+Daca ficatul nu elimina surplusul de hormoni (estrogen sau aldosteron), apare un dezechilibru in retentia de apa si sare si tesuturile incep sa se umfle.

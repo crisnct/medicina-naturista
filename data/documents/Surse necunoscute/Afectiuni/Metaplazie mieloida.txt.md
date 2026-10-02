@@ -16,7 +16,7 @@ produse animaliere recomandate: ficat de vita, splina de vita, ficat de pasare.
 
 alte produse: mierea de padure(1-3 lingurite pe zi), laptisor de matca (fiole), polen de albine granulat (1-2 lingurite pe zi), seminte de susan (o lingura pe zi), seminte de armurariu (˝ lingurita dupa masa - a se mesteca bine).
 
-medicamente vegetale: Aloe Vera Gel (2 linguri dimineata si 2 la prânz pe stomacul gol, cu 30 minute înainte de masa, se bea cu înghitituri mici), Panax Ginseng (1-2 cps/zi). Foarte eficient este Panax Ginseng (extract din radacina de Ginseng)
+medicamente vegetale: Aloe Vera Gel (2 linguri dimineata si 2 la pranz pe stomacul gol, cu 30 minute inainte de masa, se bea cu inghitituri mici), Panax Ginseng (1-2 cps/zi). Foarte eficient este Panax Ginseng (extract din radacina de Ginseng)
 
 ceaiuri: radacina de cerentel, frunze de menta, melisa, tei, talpa-gastii, valeriana.
 

@@ -10,79 +10,79 @@ Cursul 23 Homeopatiei 24
 Cursul 24 Fitoterapie 34
 
 Cursul 19
- CRISTALOTERAPIA ȘI CRISTALELE
+ CRISTALOTERAPIA SI CRISTALELE
 Cristaloterapie terapia cu pietre
-Proprietățile curative ale cristalelor au fost cunoscute din cele mai vechi timpuri, atunci când
-erau folosite pentru prepararea tincturilor. Pentru protecție erau purtate ca amulele și
-talismane. ele au și capacitatea de a mări câmpul energetic al corpului,
-pentru.că.emit.vibrații.uniforme..Ele.au.puterea.unei.pietre.care.trăiește.
-Câmpul energetic al acestui cuarț piezoelectricitatea, este unul dintre cele mai importante
-elemente ale sistemelor noastre de comunicație. Computerele, radarele, ceasurile, stațiile
-radio toate folosesc un uimitor câmp energetic constant, care nu deviază.
- Proprietatea piezoelectrică a cristalelor înseamnă că ele sunt capabile de a menține
-o încărcătură electrică, iar datorită acestei calități, aceste minerale măresc puterea de
-vindecare a .meditației,care.la.rândul.său.accelerează.procesul.
-Proprietatea piezoelectrică a cristalelor înseamnă că ele sunt capabile de a menține o
-încărcătură electrică, iar datorită acestei calități, aceste minerale măresc puterea
-de.vindecare.a.meditației,.care.la.rândul.său.accelerează.procesul.
- Cuarțul este cea mai economică sursă de energie. Pentru a reduce costurile, există metode
-de producere a acestui mineral folosind cantități mici din cuarțul natural. S-a descoperit că
-cel realizat în laboratoare este cel mai căutat. Cristalele obținute pe această cale sunt mai
-bune pentru că sunt mai uniforme, mai clare și de o calitate superioară.
-Cristalele depozitează și conduc energie. Ele pot absorbi un tip de energie și pot emite un alt
-tip atunci când sunt strânse, încălzite sau răcite. Cristalele de cuarț absorb atât magnetism
-din centrul Terrei cât și radiație solară, după care pot emite energie. Aceste emisii energetice
-au fost surprinse cu fotografii speciale, aspectându-se ca o aură de lumină albă, ce radiază
-din centrul albastru sub formă de stea. Energia care radiază din cuarțul clar și din alte
-cristale este compatibilă cu aura umană; acest atribut asigurându-le puteri de vindecare.
-Purificarea.cristalelor.înainte.de.utilizare.este.obligatorie.
+Proprietatile curative ale cristalelor au fost cunoscute din cele mai vechi timpuri, atunci cand
+erau folosite pentru prepararea tincturilor. Pentru protectie erau purtate ca amulele si
+talismane. ele au si capacitatea de a mari campul energetic al corpului,
+pentru.ca.emit.vibratii.uniforme..Ele.au.puterea.unei.pietre.care.traieste.
+Campul energetic al acestui cuart piezoelectricitatea, este unul dintre cele mai importante
+elemente ale sistemelor noastre de comunicatie. Computerele, radarele, ceasurile, statiile
+radio toate folosesc un uimitor camp energetic constant, care nu deviaza.
+ Proprietatea piezoelectrica a cristalelor inseamna ca ele sunt capabile de a mentine
+o incarcatura electrica, iar datorita acestei calitati, aceste minerale maresc puterea de
+vindecare a .meditatiei,care.la.randul.sau.accelereaza.procesul.
+Proprietatea piezoelectrica a cristalelor inseamna ca ele sunt capabile de a mentine o
+incarcatura electrica, iar datorita acestei calitati, aceste minerale maresc puterea
+de.vindecare.a.meditatiei,.care.la.randul.sau.accelereaza.procesul.
+ Cuartul este cea mai economica sursa de energie. Pentru a reduce costurile, exista metode
+de producere a acestui mineral folosind cantitati mici din cuartul natural. S-a descoperit ca
+cel realizat in laboratoare este cel mai cautat. Cristalele obtinute pe aceasta cale sunt mai
+bune pentru ca sunt mai uniforme, mai clare si de o calitate superioara.
+Cristalele depoziteaza si conduc energie. Ele pot absorbi un tip de energie si pot emite un alt
+tip atunci cand sunt stranse, incalzite sau racite. Cristalele de cuart absorb atat magnetism
+din centrul Terrei cat si radiatie solara, dupa care pot emite energie. Aceste emisii energetice
+au fost surprinse cu fotografii speciale, aspectandu-se ca o aura de lumina alba, ce radiaza
+din centrul albastru sub forma de stea. Energia care radiaza din cuartul clar si din alte
+cristale este compatibila cu aura umana; acest atribut asigurandu-le puteri de vindecare.
+Purificarea.cristalelor.inainte.de.utilizare.este.obligatorie.
 
 Acest.lucru.se.poate.face:
--introducând.cristalul.în.apă.cu.sare.de.mare.
--ținând.cristalul.la.soare.aproximativ.4.ore.
--ținând cristalul între palme și rostind următoarea invocație a luminii
-Invoc lumina Cristului lăuntric. Sunt un canal curat și perfect. Lumina îmi este călăuză.
-Mai pe înțeles ne transformăm într-un canal de lumină, ne purificăm de energiile impure și ne
-facem protecția numai prin puterea Divinității. În acest fel, nu mai primiți energii negative
-din afara canalului de lumină și energii astrale, fiind călăuziți doar de Sursa Energiei Divine.
-După ce cristalul a fost purificat acesta poate fi folosit în vindecare doar după o perioadă de
-acordare cu propria persoană a vindecătorului, timp de 30 de zile, în care îl veți purta asupra
-voastră tot timpul, oriunde mergeți.
-Cu cât vibrațiile voastre vor fi ma i apropiate de vibrațiile cristalului, cu atît mai eficient va
-funcționa acesta ca dispozitiv de (condensare) transformare și dirijare a energiei.
-Interacțiunea constantă cu corpul vostru va conduce la sincronizarea vibrațiilor cristalului
+-introducand.cristalul.in.apa.cu.sare.de.mare.
+-tinand.cristalul.la.soare.aproximativ.4.ore.
+-tinand cristalul intre palme si rostind urmatoarea invocatie a luminii
+Invoc lumina Cristului launtric. Sunt un canal curat si perfect. Lumina imi este calauza.
+Mai pe inteles ne transformam intr-un canal de lumina, ne purificam de energiile impure si ne
+facem protectia numai prin puterea Divinitatii. In acest fel, nu mai primiti energii negative
+din afara canalului de lumina si energii astrale, fiind calauziti doar de Sursa Energiei Divine.
+Dupa ce cristalul a fost purificat acesta poate fi folosit in vindecare doar dupa o perioada de
+acordare cu propria persoana a vindecatorului, timp de 30 de zile, in care il veti purta asupra
+voastra tot timpul, oriunde mergeti.
+Cu cat vibratiile voastre vor fi ma i apropiate de vibratiile cristalului, cu atit mai eficient va
+functiona acesta ca dispozitiv de (condensare) transformare si dirijare a energiei.
+Interactiunea constanta cu corpul vostru va conduce la sincronizarea vibratiilor cristalului
 
-cu cele ale spiritului, sufletului și trupului vostru, dar le veți putea acorda și cu ale
-pacienților.
-După purificarea și acordarea cristalului, acesta va începe să vibreze în armonie cu voi.
-Când simțiți furnicături sau pulsații, îl puteți folosi în autovindecare. De acum îl puteți folosi
-în meditație, la deblocarea chakrelor, purificarea și mărirea aurei, channeling, protecție
-antimalefică, energizare etc. Într-un stadiu mai avansat puteți atinge treptele superioare
-vibraționale ce vă pot induce într-o stare înaltă de conștiință (conștiință lărgită, extinsă). Este
-o activare conștientă a corpului mental și a emisferei cerebrale din dreapta, iar procedeele
-terapeutice de armonizare și echilibrare reprezintă o expresie a spiritualității și conștiinței.
-Pentru protecție și energizare puteți crea într-o cameră o incintă cu cristale amplasându-le în
-cele 4 colțuri ale locuinței, pe laturi și 2 (unul cu vârful în sus, unul cu vârful în jos) în
-centrul tavanului, prinse pe lustră. Cu un cristal de cuarț lăsat într-un vas putem purifica apa
-potabilă. O astfel de apă accentuează efectul medicamentelor (efect homeopatic), în special a
-celor de origine naturală.
-Prin plasarea a două cristale sub pernă, unul cu vîrful în sus și celălalt cu vârful în jos,
-vibrațiile acestora ajută și orientează subconștientul în timpul călătoriilor sale astrale și vă
-asigură protecția.
-Cristalele, clusterele, geodele, sferele din cristal, așezate în casă reprezintă o oază de
-energie pură, sănătate și armonie, care ajută la îndepărtarea energiilor negative din acel
-spațiu, mărind protecția împotriva atacurilor psihice și randamentul intelectual. Rezultatele
-sunt extraordinare în scurt timp și le veți percepe ca pe o binefacere.
-Dar cristalele nu sunt folosite numai în vindecare, ele au un rol foarte important în acțiunea,
-desfășurarea și susținerea ritualurilor magice deoarece ele focalizează energiile și mențin o
-vibrație.înaltă.a.canalului.de.lumină.și.energii.astrale.și.a.spațiului.energetic.în.care.are.loc.
+cu cele ale spiritului, sufletului si trupului vostru, dar le veti putea acorda si cu ale
+pacientilor.
+Dupa purificarea si acordarea cristalului, acesta va incepe sa vibreze in armonie cu voi.
+Cand simtiti furnicaturi sau pulsatii, il puteti folosi in autovindecare. De acum il puteti folosi
+in meditatie, la deblocarea chakrelor, purificarea si marirea aurei, channeling, protectie
+antimalefica, energizare etc. Intr-un stadiu mai avansat puteti atinge treptele superioare
+vibrationale ce va pot induce intr-o stare inalta de constiinta (constiinta largita, extinsa). Este
+o activare constienta a corpului mental si a emisferei cerebrale din dreapta, iar procedeele
+terapeutice de armonizare si echilibrare reprezinta o expresie a spiritualitatii si constiintei.
+Pentru protectie si energizare puteti crea intr-o camera o incinta cu cristale amplasandu-le in
+cele 4 colturi ale locuintei, pe laturi si 2 (unul cu varful in sus, unul cu varful in jos) in
+centrul tavanului, prinse pe lustra. Cu un cristal de cuart lasat intr-un vas putem purifica apa
+potabila. O astfel de apa accentueaza efectul medicamentelor (efect homeopatic), in special a
+celor de origine naturala.
+Prin plasarea a doua cristale sub perna, unul cu virful in sus si celalalt cu varful in jos,
+vibratiile acestora ajuta si orienteaza subconstientul in timpul calatoriilor sale astrale si va
+asigura protectia.
+Cristalele, clusterele, geodele, sferele din cristal, asezate in casa reprezinta o oaza de
+energie pura, sanatate si armonie, care ajuta la indepartarea energiilor negative din acel
+spatiu, marind protectia impotriva atacurilor psihice si randamentul intelectual. Rezultatele
+sunt extraordinare in scurt timp si le veti percepe ca pe o binefacere.
+Dar cristalele nu sunt folosite numai in vindecare, ele au un rol foarte important in actiunea,
+desfasurarea si sustinerea ritualurilor magice deoarece ele focalizeaza energiile si mentin o
+vibratie.inalta.a.canalului.de.lumina.si.energii.astrale.si.a.spatiului.energetic.in.care.are.loc.
 ritualul.magic.
-Atunci când începi să lucrezi cu cristalele se petrece un fenomen interesant. Vei începe să
-simți și să fii conștient de o energie sau forță mai mare decât pe care o ai în prezent. Această
-forță a fost numită Forța de Viață a Sinelui Superior și cuprinde „ceea ce ești capabil să
-devii” atunci când vei fi perfect acordat la Sursa Supremă de Energie și Lumină. Cristalele
-de cuarț, în modul lor minunat de a ajuta, te vor ajuta să te racordezi la această Sursă
-Divină.
+Atunci cand incepi sa lucrezi cu cristalele se petrece un fenomen interesant. Vei incepe sa
+simti si sa fii constient de o energie sau forta mai mare decat pe care o ai in prezent. Aceasta
+forta a fost numita Forta de Viata a Sinelui Superior si cuprinde „ceea ce esti capabil sa
+devii” atunci cand vei fi perfect acordat la Sursa Suprema de Energie si Lumina. Cristalele
+de cuart, in modul lor minunat de a ajuta, te vor ajuta sa te racordezi la aceasta Sursa
+Divina.
 Cristaloterapia este o forma de terapie alternativa, bazata pe energiile vibrationale ale
 cristalelor de cuart naturale. Fiecare tip de cristal emite un anumit tip de energie ce poate fi
 folosita in scopuri diverse, fie ca metoda de vindecare, fie ca metoda de imbunatatire a unor
@@ -150,7 +150,7 @@ Rac Aventurin, Piatra Lunii
 - tempereaza orgoliul si mandria
 Leu Cristalul de stanca,
 Carneol
-- armonizeazã mintea, trupul si spiritul
+- armonizeaza mintea, trupul si spiritul
 - poarta noroc
 
 Fecioara Atrin, Sardonix, Jasp - favorizeaza energia pozitiva si buna dispozitie
@@ -190,7 +190,7 @@ prezentat in intreaga sa amploare. Este una dintre principalele contributii ale 
 poate fi utilizat pentru o imensa varietate de scopuri, inclusiv medicale.
  Cristalele si pietrele pretioase fac parte, in mare masura, din procesul de transformare
 planetara care are loc, la ora actuala, prin trecerea in era Varsatorului.
- In practica vindecării cu ajutorul cristalelor, pietrele devin forme de lumina cristalizata care
+ In practica vindecarii cu ajutorul cristalelor, pietrele devin forme de lumina cristalizata care
 sunt asezate pe centrele nervoase vitale, zonele chakrelor si in anumite puncte
 coprespunzatoare, plexurile din corp, dar si pe unele dintre punctele si meridianele de
 acupunctura. Ele actioneaza ca un catalizator pentru a perpetua si integra mai multa energie
@@ -199,7 +199,7 @@ acupunctura. Ele actioneaza ca un catalizator pentru a perpetua si integra mai m
 neeliberate care intuneca aura, fac mintea confuza si imbolnavesc corpul fizic. Tot ele pot
 neutraliza aceasta incarcatura negativa, iar energia este astfel eliberata din blocajul psihic,
 mental, fizic. Adevarata vindecare are loc numai cand persoana supusa tratamentului isi
-accepta pe deplin adevarata sa natura (refacand constient legătura cu lumina divina).
+accepta pe deplin adevarata sa natura (refacand constient legatura cu lumina divina).
  In urma studierii diverselor modalitati de tratament cu cristale, am conceput o metoda
 originala de tratament, care combina elemente de radiestezie activa, piramidologie si cristale
 de quartz. Folosind tehnicile de radiestezie (biodetectie), pacienul este investigat din punct de
@@ -208,7 +208,7 @@ vedere energetic, stabilindu-se un diagnostic (energetic), gasind blocajele si d
 energetice ale pacientului spre a le inlatura, deci spre vindecare.
  Folosind efectul de piramida, bine cunoscut, au fost slefuite cristale de quartz in aceasta
 forma, pentru amplificarea puterii lor de emisie.
- Terapia prin cristale, inceputa la sfârsitul mileniului II, va deveni una din specialitatile de
+ Terapia prin cristale, inceputa la sfarsitul mileniului II, va deveni una din specialitatile de
 baza ale medicinei complementare la acest inceput de mileniu III.
  Folosire radiesteziei permite un control, o masurare si evaluare in mod continuu a
 parametrilor (energetici) de baza ai pacientului, in acest fel controlandu-se rezultatele finale,
@@ -271,27 +271,27 @@ in exemplul dat, "Nu mai vreau sa fiu grasa".
 
 Cursul 20
  Acupunctura
-Acupunctura este o tehnică medicală chineză tradițională de deblocare a chi-ului prin
-inserția de ace în anumite puncte de pe corp pentru a echilibra forțele antagoniste yin și
-yang. Chi-ul este o energie care se presupune că trece prin toate corpurile. Se consideră că
-această energie curge prin corp urmând 14 căi principale numite meridiane. Când yin și
-yang sunt în armonie chi-ul curge liber prin corp iar persoana este sănătoasă. Când o
-persoană este suferindă, fie bolnavă fie rănită, există o obstrucție pe unul dintre aceste
-meridiane. Medicina chineză tradițională a identificat aproximativ 500 puncte specifice în
-care se pot insera ace pentru a obține rezultate specifice.
-Acupunctura se practică în China de mai bine de 2 000 ani (deși unii cred că ar exista de 4
-000 ani). Astăzi acele sunt îndoite, încinse sau chiar puse la curent electric slab, ultrasunete
-sau anumite unde de lumină. Dar indiferent de procedură, cercetările științifice nu au putut
-niciodată să demonstreze că deblocarea chi-ului prin acupunctură sau orice alte mijloace are
-efect asupra bolilor. Chi-ul este definit ca fiind nedetectabil de către metodele științei
+Acupunctura este o tehnica medicala chineza traditionala de deblocare a chi-ului prin
+insertia de ace in anumite puncte de pe corp pentru a echilibra fortele antagoniste yin si
+yang. Chi-ul este o energie care se presupune ca trece prin toate corpurile. Se considera ca
+aceasta energie curge prin corp urmand 14 cai principale numite meridiane. Cand yin si
+yang sunt in armonie chi-ul curge liber prin corp iar persoana este sanatoasa. Cand o
+persoana este suferinda, fie bolnava fie ranita, exista o obstructie pe unul dintre aceste
+meridiane. Medicina chineza traditionala a identificat aproximativ 500 puncte specifice in
+care se pot insera ace pentru a obtine rezultate specifice.
+Acupunctura se practica in China de mai bine de 2 000 ani (desi unii cred ca ar exista de 4
+000 ani). Astazi acele sunt indoite, incinse sau chiar puse la curent electric slab, ultrasunete
+sau anumite unde de lumina. Dar indiferent de procedura, cercetarile stiintifice nu au putut
+niciodata sa demonstreze ca deblocarea chi-ului prin acupunctura sau orice alte mijloace are
+efect asupra bolilor. Chi-ul este definit ca fiind nedetectabil de catre metodele stiintei
 empirice.
-O variantă a acupuncturii tradiționale este reprezentată de terapia auriculară sau
-acupunctura urechii. Aceasta este o metodă de diagnosticare și tratament bazată pe concepția
-fără suport teoretic că urechea este harta organelor din corp. De exemplu, o problemă cu un
-organ cum ar fi ficatul se tratează prin inserarea unui ac într-un anumit punct de pe
-suprafața urechii care se presupune a corespunde organului respectiv. Noțiuni similare legate
-de o parte a corpului care este considerată a reprezenta o hartă a organelor sunt folosite în
-iridologie, irisul este harta corpului, și reflexologie, talpa piciorului este harta corpului.
+O varianta a acupuncturii traditionale este reprezentata de terapia auriculara sau
+acupunctura urechii. Aceasta este o metoda de diagnosticare si tratament bazata pe conceptia
+fara suport teoretic ca urechea este harta organelor din corp. De exemplu, o problema cu un
+organ cum ar fi ficatul se trateaza prin inserarea unui ac intr-un anumit punct de pe
+suprafata urechii care se presupune a corespunde organului respectiv. Notiuni similare legate
+de o parte a corpului care este considerata a reprezenta o harta a organelor sunt folosite in
+iridologie, irisul este harta corpului, si reflexologie, talpa piciorului este harta corpului.
 Medicina chinezeasca este un exemplu de medicina bazata pe natura. Ea foloseste natura si
 legile care o guverneaza pentru a putea intelege lumea interioara a organismului omului. La
 baza teoriei medicinei chineze stau 2 concepte foarte importante: Conceptul Yin-Yang: Yin
@@ -521,26 +521,26 @@ mai noua componenta a medicinii fizice si reprezinta metodologia activa de baza 
 consolidarea sau refacerea functiilor unor parti ale corpului uman afectate de boala sau de
 traumatisme.
 Kinetoterapia se defineste ca terapie prin miscare efectuata prin programe de recuperare
-medicala care urmaresc refacerea unor functii diminuate sau cresterea nivelului functional în
-diverse suferinte. Kinetoterapia este o forma terapeutica individualizata care, plecînd de la
-programe de exercitii fizice statice si dinamice, se poate folosi în programele terapeutice
-profilactice (de prevenire), curative si de recuperare. Astfel, kinetoterapia îsi gaseste aria de
-utilizare în cele trei sectiuni de asistenta medicala, putîndu-se descrie:
+medicala care urmaresc refacerea unor functii diminuate sau cresterea nivelului functional in
+diverse suferinte. Kinetoterapia este o forma terapeutica individualizata care, plecind de la
+programe de exercitii fizice statice si dinamice, se poate folosi in programele terapeutice
+profilactice (de prevenire), curative si de recuperare. Astfel, kinetoterapia isi gaseste aria de
+utilizare in cele trei sectiuni de asistenta medicala, putindu-se descrie:
 • kinetoterapia profilactica ce cuprinde totalitatea metodelor si mijloacelor de realizare
 a tratamentului prin care se urmareste: mentinerea unui nivel functional satisfacator,
-cresterea nivelului functional (profilaxie primara sau gimnastica de întretinere,
+cresterea nivelului functional (profilaxie primara sau gimnastica de intretinere,
 plimbari, jogging, gimnastica aerobica, pentru mentinerea starii de sanatate),
-aplicarea unor programe de prevenire a agravarii sau de aparitie a complicatiilor în
+aplicarea unor programe de prevenire a agravarii sau de aparitie a complicatiilor in
 unele boli cronice (profilaxie secundara);
 • kinetoterapia de tip curativ care se asociaza cu sectorul de tip profilactic si de
 recuperare;
-• kinetoterapia de recuperare reprezinta sectiunea cea mai importanta în programul de
+• kinetoterapia de recuperare reprezinta sectiunea cea mai importanta in programul de
 recuperare medicala si urmareste prin intermediul unor programe de exercitii fizice:
 refacerea functiilor diminuate, cresterea nivelului functional, realizarea unor
-mecanisme compensatorii în situatii de readaptare functionala (în cazul în care, de
-exemplu, un anumit muschi este afectat ireversibil, se încearca tonifierea altor muschi
-care îi preiau partial functiile, în scopul realizarii miscarii în limite acceptabile).
- Obiectivele generale urmarite în tratamentul prin kinetoterapie sint:
+mecanisme compensatorii in situatii de readaptare functionala (in cazul in care, de
+exemplu, un anumit muschi este afectat ireversibil, se incearca tonifierea altor muschi
+care ii preiau partial functiile, in scopul realizarii miscarii in limite acceptabile).
+ Obiectivele generale urmarite in tratamentul prin kinetoterapie sint:
 - refacerea fortei musculare si cresterea rezistentei musculare; - cresterea si adaptarea
 capacitatii de efort; - ameliorarea functiei de coordonare, control si echilibru a corpului; -
 formarea capacitatii de relaxare;
@@ -558,25 +558,25 @@ afectiunile aparatului cardio-vascular, afectiunile aparatului respirator, afect
 neuropsihice, afectiunile metabolice (obezitatea), maladiile congenitale (distrofia neuro-
 musculara, luxatia congenitala de sold, tetraplegia) etc.
 Scolioza este o deviatie a coloanei vertebrale formata din una sau mai multe curburi, ce
-apare initial în plan frontal, apoi fiind însotita de rotatia vertebrelor. Scoliozele pot fi de mai
-multe tipuri: scolioza C stînga, scolioza C dreapta si scolioza cu mai multe curburi. Aceste
+apare initial in plan frontal, apoi fiind insotita de rotatia vertebrelor. Scoliozele pot fi de mai
+multe tipuri: scolioza C stinga, scolioza C dreapta si scolioza cu mai multe curburi. Aceste
 deviatii ale coloanei vertebrale pot fi de natura functionala, adica acele scolioze prin
 deprindere care au o evolutie lenta si este pastrata mobilitatea coloanei vertebrale, scoliozele
 profesionale si statice, sau de natura patologica, asa cum sint scoliozele congenitale,
-rahitice, paralitice, traumatice, reumatice s.a. De la început trebuie mentionat faptul ca
+rahitice, paralitice, traumatice, reumatice s.a. De la inceput trebuie mentionat faptul ca
 tratamentul prin gimnastica medicala urmareste sa opreasca evolutia scoliozelor, sa
 corecteze deviatiile coloanei vertebrale si sa mentina aceasta corectare (prevenirea
 recidivelor sau a perioadelor cu evolutie nefavorabila), sa reduca tulburarile functionale si
 asimetriile secundare ale corpului.
-Exercitiile fizice folosite în corectarea scoliozei urmaresc sa exercite tonusul muschilor si
-simtul de atitudine corecta a corpului întreg si îndeosebi a spatelui. Scopul gimnasticii
+Exercitiile fizice folosite in corectarea scoliozei urmaresc sa exercite tonusul muschilor si
+simtul de atitudine corecta a corpului intreg si indeosebi a spatelui. Scopul gimnasticii
 corective este: corectarea coloanei vertebrale prin tonifierea musculaturii spatelui, reducerea
 gibozitatii costale prin mobilizarea coloanei vertebrale si detorsionarea corpurilor
 vertebrale, redresarea bazinului si echilibrarea centurii scapulare, dezvoltarea mobilitatii
-cutiei toracice, crearea unui reflex de postura corecta. Mijloacele folosite constau în exercitii
+cutiei toracice, crearea unui reflex de postura corecta. Mijloacele folosite constau in exercitii
 statice si exercitii dinamice executate prin miscari ale trunchiului, ale membrelor superioare
-si inferioare, exercitii de respiratie, exercitii aplicative de tîrîre si de echlibru, exercitii de
-redresare si relaxare. Exercitiile cu obiecte portative sint des folosite în corectarea scoliozei.
+si inferioare, exercitii de respiratie, exercitii aplicative de tirire si de echlibru, exercitii de
+redresare si relaxare. Exercitiile cu obiecte portative sint des folosite in corectarea scoliozei.
 Dintre aceste obiecte se folosesc bastonul, mingea medicinala, gantera, extensorul.
 Cifozele sint deviatii ale coloanei vertebrale in plan sagital cu convexitatea curburii
 indreptata inapoi. Cifozele functionale sint deviatii tipice, provocate si intretinute de
@@ -630,54 +630,54 @@ trebuie sa invete sa-si inhibe musculatura inutila care se contracta intr-un exe
 Exercitiile cu rezistenta nu sint de dorit la hemiplegici, deoarece nu este un obiectiv
 cistigarea fortei musculare, ci aparitia activitatii contractile, a controlului motor in muschiul
 respectiv.
-Entorsa este o leziune traumatica a ligamentelor si articulatiilor. Entorsa se observa în
+Entorsa este o leziune traumatica a ligamentelor si articulatiilor. Entorsa se observa in
 special la adult, este foarte rara la copil, unde ligamentele suple si elastice se lasa destinse
-fara a se rupe, precum si la batrîni, unde acelasi traumatism determina mai frecvent o
-fractura. Localizarea cea mai frecventa a entorselor se afla la nivelul gleznei, urmînd entorsa
-genunchiului. Entorsa, prin marea ei raspîndire si prin gravitatea urmarilor pe care le are
+fara a se rupe, precum si la batrini, unde acelasi traumatism determina mai frecvent o
+fractura. Localizarea cea mai frecventa a entorselor se afla la nivelul gleznei, urmind entorsa
+genunchiului. Entorsa, prin marea ei raspindire si prin gravitatea urmarilor pe care le are
 asupra aparatului locomotor si circulator, constituie o cauza majora de scadere a capacitatii
 partiale de munca, de aceea importanta aplicarii unui tratament corespunzator precoce si
 specific kinetoterapeutic asociat cu orteze. Scopul tratamentului este revenirea rapida a
-pacientului în executarea activitatilor zilnice si specifice profesiei. Acest lucru este deosebit
-de important, deoarece orice întîrziere în aplicarea tratamentului poate periclita activitatea
-socio-profesionala a acestuia. Aspectul membrului afectat se schimba, întrucît atrofia este
+pacientului in executarea activitatilor zilnice si specifice profesiei. Acest lucru este deosebit
+de important, deoarece orice intirziere in aplicarea tratamentului poate periclita activitatea
+socio-profesionala a acestuia. Aspectul membrului afectat se schimba, intrucit atrofia este
 
 progresiva si cuprinde muschii extensori, iar neglijarea ei, ca si persistenta sa, ar constitui
-una din cauzele instabilitatilor articulare si recidivelor entorselor. Obiectivele urmarite în
-kinetoterapie sînt: controlul durerii, reducerea tumefactiei si a edemului din vecinatate,
+una din cauzele instabilitatilor articulare si recidivelor entorselor. Obiectivele urmarite in
+kinetoterapie sint: controlul durerii, reducerea tumefactiei si a edemului din vecinatate,
 asigurarea mobilitatii, cresterea tonusului muscular, reeducarea mersului.
-Fractura se produce la nivelul unui os în urma unui traumatism, de obicei, violent; uneori
+Fractura se produce la nivelul unui os in urma unui traumatism, de obicei, violent; uneori
 fractura apare dupa un traumatism de mai mica importanta, care actioneaza asupra unui os
 fragilizat printr-o suferinta anterioara (osteoporoza, tumoare osoasa). Numarul fracturilor
-este deosebit de mare, mai ales în conditiile vietii moderne. Se apreciaza ca fracturile
-reprezinta 10 la suta din totalul traumatismelor si ca sint de 10 ori mai frecvente decît
-luxatiile. Fracturile se întîlnesc la toate vîrstele, dar incidenta cea mai mare se situeaza între
+este deosebit de mare, mai ales in conditiile vietii moderne. Se apreciaza ca fracturile
+reprezinta 10 la suta din totalul traumatismelor si ca sint de 10 ori mai frecvente decit
+luxatiile. Fracturile se intilnesc la toate virstele, dar incidenta cea mai mare se situeaza intre
 20 si 40 de ani. Tratamentul fracturilor are ca obiectiv principal obtinerea restabilirii functiei
-si, pe cît posibil, chiar a formei membrului. Refacerea osului fracturat se obtine corijînd
-deplasarile, deci facînd reducerea fracturii si imobilizînd-o prin aparat ghipsat pîna la
-formarea unui calus solid. Mentinerea în stare functionala a articulatiilor, a muschilor si a
-circulatiei membrului sau restabilirea cît mai rapida a acestora se realizeaza prin reducerea
+si, pe cit posibil, chiar a formei membrului. Refacerea osului fracturat se obtine corijind
+deplasarile, deci facind reducerea fracturii si imobilizind-o prin aparat ghipsat pina la
+formarea unui calus solid. Mentinerea in stare functionala a articulatiilor, a muschilor si a
+circulatiei membrului sau restabilirea cit mai rapida a acestora se realizeaza prin reducerea
 timpului de imobilizare la minimum, dar necesar pentru consolidarea fracturii. De asemenea,
-instituirea cît mai precoce a tratamentului de recuperare, prin contractii musculare si
+instituirea cit mai precoce a tratamentului de recuperare, prin contractii musculare si
 mobilizari articulare, chiar din timpul imobilizarii, duce la vindecarea eficienta a fracturii.
-Kinetoterapia este tot atît de importanta ca si reducerea si imobilizarea fracturii si trebuie
-urmata fara întreruperi.
+Kinetoterapia este tot atit de importanta ca si reducerea si imobilizarea fracturii si trebuie
+urmata fara intreruperi.
 Exercitiile fizice contribuie la mentinerea starii de sanatate si au rolul de conduce catre
 echilibrul tuturor functiilor organismului uman. Miscarea ajuta fiinta umana sa-si mentina
-deplinatatea fortelor fizice si morale, facînd-o utila cît mai îndelungat timp. Exercitiul fizic
+deplinatatea fortelor fizice si morale, facind-o utila cit mai indelungat timp. Exercitiul fizic
 este mijlocul principal al educatiei fizice. Ca urmare a practicarii sistematice a exercitiului
-fizic, apar în organism efecte locale sau generale, imediate sau tardive, trecatoare sau de
-durata, care îmbunatatesc structura si functionalitatea corpului uman. Orice activitate cu
-caracter fizic constituie si o stimulare pentru muschi, carora le îmbunatateste proprietatile
+fizic, apar in organism efecte locale sau generale, imediate sau tardive, trecatoare sau de
+durata, care imbunatatesc structura si functionalitatea corpului uman. Orice activitate cu
+caracter fizic constituie si o stimulare pentru muschi, carora le imbunatateste proprietatile
 fiziologice si calitatile fizice.
-Una dintre cele mai frecvente cauze ale deficientelor fizice sînt tulburarile tonusului
+Una dintre cele mai frecvente cauze ale deficientelor fizice sint tulburarile tonusului
 muscular; corectarea acestora se bazeaza pe efectele exercitiului fizic asupra muschiului. Din
-punct de vedere al rolului educativ, exercitiul fizic are efect benefic la orice vîrsta, dar mai
-ales în perioada de crestere, cînd miscarile nu sînt înca bine definite, cînd cresterea oaselor
-nu este încheiata, prin repetarea corecta a unor miscari se ajunge la eliminarea miscarilor
-incoerente si la stapînirea celor necoordonate. Stimularea factorilor morali si volitionali
-contribuie la corectarea atitudinilor gresite. Omul are nevoie de multa miscare în aer liber, de
-exercitii, pe care sa le integreze sistematic în programul sau de activitate zilnica.
+punct de vedere al rolului educativ, exercitiul fizic are efect benefic la orice virsta, dar mai
+ales in perioada de crestere, cind miscarile nu sint inca bine definite, cind cresterea oaselor
+nu este incheiata, prin repetarea corecta a unor miscari se ajunge la eliminarea miscarilor
+incoerente si la stapinirea celor necoordonate. Stimularea factorilor morali si volitionali
+contribuie la corectarea atitudinilor gresite. Omul are nevoie de multa miscare in aer liber, de
+exercitii, pe care sa le integreze sistematic in programul sau de activitate zilnica.
 Notiunea de 'kinetoterapie' are pentru unii dintre voi conotatii asemanatoare terapiilor
 complementare de genul aromoterapie, cromoterapie, meloterapie, reflexoterapie, chiar si
 bioenergie, etc. Insa, doresc sa precizez faptul ca ea apartine domeniului medicinii
@@ -687,7 +687,7 @@ care le intelegi si le accepti ca pe o completare la tratamentele clasice.
 Cursul 22
  Cromoterapia
 Inca din Evul Mediu, vindecatorii si vrajitorii recurgeau adesea la cromoterapie ca la un
-mijloc de combatere a diverselor maladii. In zilele noastre, cercetatorii recunosc ca într-
+mijloc de combatere a diverselor maladii. In zilele noastre, cercetatorii recunosc ca intr-
 adevar culorile au efecte puternice asupra psihicului uman, iar prin intermediul psihicului
 asupra dispozitiei si sanatatii.
 Culori ce stimuleaza si culori ce frineaza
@@ -695,68 +695,68 @@ Unele culori stimuleaza activitatea biologica a organismului, altele, dimpotriva
 In acest context, un exemplu este anotimpul toamna, detestat de multi din cauza ploilor
 frecvente si a noroiului. Se sustine ca acestea atrag proasta dispozitie si sanatate precara.
 Este cunoscuta expresia melancolia de toamna, cind omul isi pierde interesul fata de tot si de
-toate, îi este somn în permanenta, îi scade apetitul sexual, iar functiile cerebrala si
-locomotorie sint mult încetinite. Aceste simptome se observa mai ales la femei. Conform unor
+toate, ii este somn in permanenta, ii scade apetitul sexual, iar functiile cerebrala si
+locomotorie sint mult incetinite. Aceste simptome se observa mai ales la femei. Conform unor
 statistici, femeile sint de aproximativ patru ori mai afectate decit barbatii de indispozitii si
 chiar stari depresive.
 Cauzele: zona lipsei de lumina solara si a culorilor deschise
-In realitate, cauzele, motivele melancoliei de toamna trebuie cautate în zona lipsei de lumina
+In realitate, cauzele, motivele melancoliei de toamna trebuie cautate in zona lipsei de lumina
 solara si a culorilor deschise. Fiind privati de o mare parte dintre excitantii cromatici cu care
-ne-am obisnuit în timpul verii, psihicul nostru, mai exact constientul si subconstientul nostru,
-luate împreuna, transmit mai putine impulsuri de comanda sistemului endocrin, care, la
+ne-am obisnuit in timpul verii, psihicul nostru, mai exact constientul si subconstientul nostru,
+luate impreuna, transmit mai putine impulsuri de comanda sistemului endocrin, care, la
 rindul sau, emite mai putini hormoni care stimuleaza procesele vitale din organism. Totodata,
 din cauza faptului ca sistemul imunitar functioneaza la jumatate din capacitatea sa, se reduce
 la jumatate rezistenta organismului si se agraveaza bolile cronice. Putem oare da un colorit
-mai aprins toamnei triste? Pentru aceasta este nevoie sa îndestulam lumea noastra cu unele
-culori mai deschise. Absenta luminii solare poate fi într-o oarecare masura completata cu
-lumina artificiala. Incaperea în care ne petrecem majoritatea timpului toamna trebuie sa fie
-bine iluminata, nici nu trebuie sa ne treaca prin cap sa stam în semiobscuritate. Dimpotriva,
+mai aprins toamnei triste? Pentru aceasta este nevoie sa indestulam lumea noastra cu unele
+culori mai deschise. Absenta luminii solare poate fi intr-o oarecare masura completata cu
+lumina artificiala. Incaperea in care ne petrecem majoritatea timpului toamna trebuie sa fie
+bine iluminata, nici nu trebuie sa ne treaca prin cap sa stam in semiobscuritate. Dimpotriva,
 este de preferat culoarea alba, apropiata de lumina solara.
 
 Bagheta magica a culorilor
-Bagheta magica însa poate fi gama de culori perceputa de-a lungul zilei cu ochiul liber. Pe
+Bagheta magica insa poate fi gama de culori perceputa de-a lungul zilei cu ochiul liber. Pe
 primul loc se situeaza culoarea rosie.
-Marele vindecator al Antichitatii Avicena recomanda ca remediu împotriva melancoliei de
+Marele vindecator al Antichitatii Avicena recomanda ca remediu impotriva melancoliei de
 toamna purtarea unor haine de culoare rosie. In subconstientul nostru, culoarea rosie este
-asociata cu energia si puterea; ca urmare, îl binedispune pe om. Astfel, culoarea rosie alunga
+asociata cu energia si puterea; ca urmare, il binedispune pe om. Astfel, culoarea rosie alunga
 tristetea si emotiile negative, are efecte stimulatoare asupra organelor interne si a muschilor,
-în special asupra picioarelor. Desigur, în zilele noastre nu este la moda sa mergi la serviciu
-îmbracat în rosu, dar atunci cind vii seara acasa este bine sa-ti pui ceva rosu pe tine, o
+in special asupra picioarelor. Desigur, in zilele noastre nu este la moda sa mergi la serviciu
+imbracat in rosu, dar atunci cind vii seara acasa este bine sa-ti pui ceva rosu pe tine, o
 camasa sau o rochie sau cel putin sa te legi cu un baticut rosu. De asemenea, este indicat ca
-masa de la bucatarie sa fie asternuta cu o fata de masa sau cu o musama în carouri rosii.
+masa de la bucatarie sa fie asternuta cu o fata de masa sau cu o musama in carouri rosii.
 Este foarte util sa faci rost de o ceasca de culoare rosie, iar gospodinele sa-si cumpere
-cratite, tigai, ceainice etc. de aceasta culoare. Pe masa de lucru, la birou sau în camera
-noastra ar fi bine sa avem ceva de culoarea rosie: o mapa, niste flori, o pictura în armonie cu
-mediul înconjurator si atunci vom simti cum imediat ne revine buna dispozitie, ne calmam si
+cratite, tigai, ceainice etc. de aceasta culoare. Pe masa de lucru, la birou sau in camera
+noastra ar fi bine sa avem ceva de culoarea rosie: o mapa, niste flori, o pictura in armonie cu
+mediul inconjurator si atunci vom simti cum imediat ne revine buna dispozitie, ne calmam si
 ne creste tonusul.
-Efectul de însanatosire al culorii portocalii
-Efectul înviorator al culorii rosii este completat de efectul de însanatosire a culorii portocalii,
-care este extrem de util în tratarea dereglarilor aparatului digestiv, a bolilor de inima,
+Efectul de insanatosire al culorii portocalii
+Efectul inviorator al culorii rosii este completat de efectul de insanatosire a culorii portocalii,
+care este extrem de util in tratarea dereglarilor aparatului digestiv, a bolilor de inima,
 precum si a disfunctiilor sistemului endocrin. Oranjul are efecte asupra rinichilor si vezicii
-urinare. Purtarea hainelor de nuanta oranj în casa te ajuta sa scapi de tristete si de spaime,
+urinare. Purtarea hainelor de nuanta oranj in casa te ajuta sa scapi de tristete si de spaime,
 previne caderile nervoase si ajuta la cresterea poftei de mincare, care dispare de cele mai
-multe ori în perioada toamnei.
+multe ori in perioada toamnei.
 Culoarea verde este benefica pentru vedere
 Culoarea verde este benefica pentru vedere, pentru sistemul nervos si epiderma. Verdele este
 un minunat vindecator, care ajuta organismul sa elimine toxinele si sa scape de constipatie.
 Aceasta culoare mai este considerata culoarea recoltei, contribuind la buna circulatie a
-limfei în organism, eliminarea sucului gastric si a transpiratiei. In acelasi timp, culoarea
-verde întareste sistemul nervos central, stimuleaza activitatea cerebrala, perceptia
-informatiilor si o gindire coerenta si precisa. Cind în camera exista obiecte de culoare verde
-deschis, atunci în dispozitia persoanelor aflate în acest loc se simte o nota de veselie. Din
+limfei in organism, eliminarea sucului gastric si a transpiratiei. In acelasi timp, culoarea
+verde intareste sistemul nervos central, stimuleaza activitatea cerebrala, perceptia
+informatiilor si o gindire coerenta si precisa. Cind in camera exista obiecte de culoare verde
+deschis, atunci in dispozitia persoanelor aflate in acest loc se simte o nota de veselie. Din
 toata gama de culori cea mai armonioasa este verdele, care contribuie la solutionarea unor
 probleme destul de dificile. Totodata, actiunea sa favorabila mareste functiile inimii si
-plaminilor. De aceea, oamenii se simt confortabil cind în încapere exista pete de culoare
+plaminilor. De aceea, oamenii se simt confortabil cind in incapere exista pete de culoare
 verde, chiar daca ele nu sint foarte mari sau foarte deschise - acestea oricum au efect
 odihnitor asupra ochiului.
 Efectul curativ al culorii albastre
 Extrem de puternic este efectul curativ al culorii albastre, care calmeaza stresul si emotiile,
-scade tensiunea arteriala, micsoreaza durerile în cazul sciaticii si al ulcerului la stomac.
-Daca un bolnav de pneumonie priveste îndelung un obiect de culoare albastra, atunci acesta
+scade tensiunea arteriala, micsoreaza durerile in cazul sciaticii si al ulcerului la stomac.
+Daca un bolnav de pneumonie priveste indelung un obiect de culoare albastra, atunci acesta
 se vindeca mult mai repede. Multa lume care sufera de insomnie nu stie ca daca citeste la o
-lampa cu abajur albastru somnul nu va întirzia sa apara. Efectul va fi acelasi daca în camera
-în care dormim punem pe perete un covor de culoare albastra sau bleu. Trebuie sa facem în
-asa fel ca toamna la birou si acasa ochiul nostru sa se bucure de întreaga gama de culori.
+lampa cu abajur albastru somnul nu va intirzia sa apara. Efectul va fi acelasi daca in camera
+in care dormim punem pe perete un covor de culoare albastra sau bleu. Trebuie sa facem in
+asa fel ca toamna la birou si acasa ochiul nostru sa se bucure de intreaga gama de culori.
 Veti vedea atunci ca melancolia de toamna va ramine doar o stare... poetica.
 
 Un alt fel de cromoterapie
@@ -805,302 +805,302 @@ cat si in cei care le privesc, anumite stari, atitudini specifice. Inca din cele
 femeile au folosit culorile, aplicandu-le printr-un machiaj adecvat, pentru a fi cat mai
 
 atragatoare si cat mai incitante.
- În cromoterapie folosim culorile (care acționează prin intermediul lungimilor lor
-specifice de undă) pentru reechilibrarea organismului și a organelor bolnave. Simbolismul
-culorilor era cunoscut și utilizat încă din antichitate.
- De exemplu, în medicina tradițională chineză, fiecărui organ energetic/lojă energetică îi
-corespundea o culoare. În medicina tradițională indiană Ayurveda, de asemenea, erau
-cunoscuți cei 7 centri energetici subtili (chakra), care aveau culori diferite. Iar grecii și
-romanii foloseau în terapie razele ultraviolete.
- Experimentele științifice au demonstrat însă că în ce privește efectele culorilor, acestea nu
-sunt doar psihologice, ci și fiziologice, independente de vedere. Astfel, persoane legate la
-ochi, care au fost plasate în încăperi diferit colorate, au prezentat variații ale pulsului și ale
-tensiunii arteriale, în funcție de culoare – la roșu, pulsul se accelera, la albastru și la galben
-pulsul scădea.
- Pentru a realiza o veritabilă terapie prin culoare, modalitatea cea mai la îndemână este
-îmbrăcămintea; și anume, să ne alegem hainele în funcție de proprietățile fiecărei culori și de
-necesitățile noastre.
- O altă modalitate este folosirea becurilor sau neoanelor colorate, dar, din păcate,
-acestea au o putere destul de mică. Mai putem apela la recipiente din sticlă diferit colorate
-din fabricație, pe care le umplem cu apă, le astupăm și le expunem un anumit timp la lumina
-solară, pentru ca apa să capteze radiația cromatică specifică (se știe că apa se impregnează
-foarte ușor cu orice fel de informație). Apoi vom putea bea apa care a fost astfel expusă.
- Astăzi există și dispozitive tip Bioptron, distribuite de firma Zepter, care au filtre diferit
+ In cromoterapie folosim culorile (care actioneaza prin intermediul lungimilor lor
+specifice de unda) pentru reechilibrarea organismului si a organelor bolnave. Simbolismul
+culorilor era cunoscut si utilizat inca din antichitate.
+ De exemplu, in medicina traditionala chineza, fiecarui organ energetic/loja energetica ii
+corespundea o culoare. In medicina traditionala indiana Ayurveda, de asemenea, erau
+cunoscuti cei 7 centri energetici subtili (chakra), care aveau culori diferite. Iar grecii si
+romanii foloseau in terapie razele ultraviolete.
+ Experimentele stiintifice au demonstrat insa ca in ce priveste efectele culorilor, acestea nu
+sunt doar psihologice, ci si fiziologice, independente de vedere. Astfel, persoane legate la
+ochi, care au fost plasate in incaperi diferit colorate, au prezentat variatii ale pulsului si ale
+tensiunii arteriale, in functie de culoare – la rosu, pulsul se accelera, la albastru si la galben
+pulsul scadea.
+ Pentru a realiza o veritabila terapie prin culoare, modalitatea cea mai la indemana este
+imbracamintea; si anume, sa ne alegem hainele in functie de proprietatile fiecarei culori si de
+necesitatile noastre.
+ O alta modalitate este folosirea becurilor sau neoanelor colorate, dar, din pacate,
+acestea au o putere destul de mica. Mai putem apela la recipiente din sticla diferit colorate
+din fabricatie, pe care le umplem cu apa, le astupam si le expunem un anumit timp la lumina
+solara, pentru ca apa sa capteze radiatia cromatica specifica (se stie ca apa se impregneaza
+foarte usor cu orice fel de informatie). Apoi vom putea bea apa care a fost astfel expusa.
+ Astazi exista si dispozitive tip Bioptron, distribuite de firma Zepter, care au filtre diferit
 colorate, cu care se poate realiza cromoterapie.
- Cea mai utilă este însă lampa de cromoterapie, care trebuie să fie o lampă de putere
-mare (ex. o lampă fotografică), închisă ermetic și la care se atașează filtre de sticlă colorată
-în funcție de efectul dorit. Pentru realizarea terapiei, se va expune la lumina colorată zona
-afectată, fără veșminte, timp de 20-30 minute, eventual de mai multe ori pe zi.
- Iată acum, pe scurt, câteva din efectele și indicațiile fiecărei culori (din cele 7
+ Cea mai utila este insa lampa de cromoterapie, care trebuie sa fie o lampa de putere
+mare (ex. o lampa fotografica), inchisa ermetic si la care se ataseaza filtre de sticla colorata
+in functie de efectul dorit. Pentru realizarea terapiei, se va expune la lumina colorata zona
+afectata, fara vesminte, timp de 20-30 minute, eventual de mai multe ori pe zi.
+ Iata acum, pe scurt, cateva din efectele si indicatiile fiecarei culori (din cele 7
 fundamentale).
-Roșu: crește voința, curajul, dinamismul, crește tensiunea arterială, dă o senzație de căldură
-și incită la acțiune. Se recomandă în caz de anemie, stări de slăbiciune, depresie, paralizii,
-viroză respiratorie, tuberculoză. Nu va fi utilizată în caz de inflamații sau de către persoanele
+Rosu: creste vointa, curajul, dinamismul, creste tensiunea arteriala, da o senzatie de caldura
+si incita la actiune. Se recomanda in caz de anemie, stari de slabiciune, depresie, paralizii,
+viroza respiratorie, tuberculoza. Nu va fi utilizata in caz de inflamatii sau de catre persoanele
 colerice, iritabile, foarte stresate.
-Portocaliu: are efect de combatere a oboselii și a spasmelor, este un bun stimulent respirator
-și digestiv, are virtuți afrodisiace. Se recomandă în caz de astm bronșic, bronșite, reumatism,
-spasmofilie, rahitism, debilitate mentală, isterie, gută, amenoree, stări de stres, frigiditate.
-Galben: este un bun stimulent al sistemului nervos și al digestiei. Se recomandă în cazul
-afecțiunilor ficatului și ale vezicii biliare (în medicina populară românească, se foloseau
-pentru bolile de fiere și ficat plante cu flori galbene!), colită, constipație, parazitoze
-intestinale, boli de piele, edeme, balonări și indigestie, migrene, oboseală psihică. Nu se
-recomandă în caz de febră sau inflamații.
-Verde: excelent calmant, relaxant, combate stresul și ne ajută să ne eliberăm de ideile
-obsesive, scade tensiunea arterială. Se recomandă în caz de tumori (cancer), hipertensiune
-arterială, cefalee, nevralgii, insomnie, ulcer.
-Albastru: este un bun imunostimulent, ajută la refacerea țesuturilor și celulelor. Se
-recomandă în special în caz de infecții cu bacterii și virusuri, febră, vărsături, arsuri,
-inflamații, înțepături de insecte, migrenă, diaree, insolație și bufeuri de căldură (la
-menopauză), dureri de dinți, dureri menstruale.
+Portocaliu: are efect de combatere a oboselii si a spasmelor, este un bun stimulent respirator
+si digestiv, are virtuti afrodisiace. Se recomanda in caz de astm bronsic, bronsite, reumatism,
+spasmofilie, rahitism, debilitate mentala, isterie, guta, amenoree, stari de stres, frigiditate.
+Galben: este un bun stimulent al sistemului nervos si al digestiei. Se recomanda in cazul
+afectiunilor ficatului si ale vezicii biliare (in medicina populara romaneasca, se foloseau
+pentru bolile de fiere si ficat plante cu flori galbene!), colita, constipatie, parazitoze
+intestinale, boli de piele, edeme, balonari si indigestie, migrene, oboseala psihica. Nu se
+recomanda in caz de febra sau inflamatii.
+Verde: excelent calmant, relaxant, combate stresul si ne ajuta sa ne eliberam de ideile
+obsesive, scade tensiunea arteriala. Se recomanda in caz de tumori (cancer), hipertensiune
+arteriala, cefalee, nevralgii, insomnie, ulcer.
+Albastru: este un bun imunostimulent, ajuta la refacerea tesuturilor si celulelor. Se
+recomanda in special in caz de infectii cu bacterii si virusuri, febra, varsaturi, arsuri,
+inflamatii, intepaturi de insecte, migrena, diaree, insolatie si bufeuri de caldura (la
+menopauza), dureri de dinti, dureri menstruale.
 
-Indigo: ajută la interiorizare, purifică sistemul circulator, stimulează activitatea tiroidei și
-paratiroidelor, este antialgic. Se recomandă în caz de idei obsesive, convulsii, halucinații,
-psihoze, boli ale nasului și urechilor, sinuzite, astm bronșic.
-Violet: stimulează imunitatea și sistemul nervos, ajută la dezintoxicare, îndepărtează
-agresivitatea și frica, oferă inspirație artistică înaltă. Se recomandă utilizarea sa în caz de
-celulită, boli ale rinichilor și vezicii urinare, tulburări psihice, nevroze, epilepsie, enurezis,
-insomnie, rahitism, intoxicații cronice.
+Indigo: ajuta la interiorizare, purifica sistemul circulator, stimuleaza activitatea tiroidei si
+paratiroidelor, este antialgic. Se recomanda in caz de idei obsesive, convulsii, halucinatii,
+psihoze, boli ale nasului si urechilor, sinuzite, astm bronsic.
+Violet: stimuleaza imunitatea si sistemul nervos, ajuta la dezintoxicare, indeparteaza
+agresivitatea si frica, ofera inspiratie artistica inalta. Se recomanda utilizarea sa in caz de
+celulita, boli ale rinichilor si vezicii urinare, tulburari psihice, nevroze, epilepsie, enurezis,
+insomnie, rahitism, intoxicatii cronice.
  Cursul 23
  Homeopatia
 Principiile homeopatiei
-Definiția homeopatiei prin expresia populară „cui pe cui se scoate" este o prescurtare,
-eronată, bineînțeles, dar purtătoare a ideii majore că asemănările sunt vindecate prin
-mijloace asemănătoare. (Homoîos = asemănător, pathos = suferință).
-Ce este o patogeneză ?
-Este totalitatea simptomelor observate la omul sănătos, în cursul administrării, accidentale
-sau experimentale, a unei substanțe active din punct de vedere farmacologic, în doză
-ponderală.
-Intoxicațiile
-a) Acute, au semne comune: vărsături, diaree, apoi leziuni ce pot fi mortale. Nu prezintă
+Definitia homeopatiei prin expresia populara „cui pe cui se scoate" este o prescurtare,
+eronata, bineinteles, dar purtatoare a ideii majore ca asemanarile sunt vindecate prin
+mijloace asemanatoare. (Homoios = asemanator, pathos = suferinta).
+Ce este o patogeneza ?
+Este totalitatea simptomelor observate la omul sanatos, in cursul administrarii, accidentale
+sau experimentale, a unei substante active din punct de vedere farmacologic, in doza
+ponderala.
+Intoxicatiile
+a) Acute, au semne comune: varsaturi, diaree, apoi leziuni ce pot fi mortale. Nu prezinta
 semne specifice.
-b) Cronice, (profesionale de exemplu), lente și progresive, provoacă simptome variate și
-specifice substanței; sunt, deci, mai bogate din punct de vedere instructiv.
-Lentoarea intoxicației permite înregistrarea dezvoltării unor semne funcționale care vor fi
-notate cu grijă.
-Experimentul la omul sănătos
-Trebuie făcut cu o substanță perfect definită, utilizată în doze ponderale, progresive și
-repetitive, menținute în
-același timp la nivel subtoxic. Experimentul va fi făcut pe un anumit număr de persoane,
-despre care se știe că sunt sănătoase și alese astfel încât să constituie un eșantion
+b) Cronice, (profesionale de exemplu), lente si progresive, provoaca simptome variate si
+specifice substantei; sunt, deci, mai bogate din punct de vedere instructiv.
+Lentoarea intoxicatiei permite inregistrarea dezvoltarii unor semne functionale care vor fi
+notate cu grija.
+Experimentul la omul sanatos
+Trebuie facut cu o substanta perfect definita, utilizata in doze ponderale, progresive si
+repetitive, mentinute in
+acelasi timp la nivel subtoxic. Experimentul va fi facut pe un anumit numar de persoane,
+despre care se stie ca sunt sanatoase si alese astfel incat sa constituie un esantion
 
 reprezentativ.
-Toate simptomele care apar sunt observate în cele mai mici detalii și notate în termenii
-folosiți de către subiect.
-Acest experiment asupra omului sănătos permite repertorizarea tuturor senzațiilor personale
-ale subiectului și definirea modalităților ce vor fi determinante în alegerea medicamentului
-de către medic.
-Patogeneziile sunt reunite în lucrări intitulate Materia medicală homeopatică.
+Toate simptomele care apar sunt observate in cele mai mici detalii si notate in termenii
+folositi de catre subiect.
+Acest experiment asupra omului sanatos permite repertorizarea tuturor senzatiilor personale
+ale subiectului si definirea modalitatilor ce vor fi determinante in alegerea medicamentului
+de catre medic.
+Patogeneziile sunt reunite in lucrari intitulate Materia medicala homeopatica.
 Aplicarea metodei la individul bolnav
-Pentru a înțelege mai ușor principiul similitudinii să luăm câteva exemple: • o pacientă cu
-cistită hematurică cu arsuri intense, înainte, în timpul și după micțiune, poate fi vindecată cu
-doze slabe de cantaridă (Cantharis)
-care, în doză ponderală, provoacă , la omul sănătos simptome și modalități reacționale
-asemănătoare. • un bolnav epuizat de o diaree neîntreruptă, în jeturi, însoțită de transpirații
-reci și dureri sub formă de crampe, poate fi vindecat cu mici doze de Veratrum album, care,
-în doze mari, provoacă la un individ sănătos un tablou clinic asemănător.
-Doctorul Rousson, unul dintre reprezentanții marcanți ai homeopatiei din Lyon, a relatat în
-manualul său de homeopatie experimentul următor:
-Doi gemeni prezintă diaree spumoasă cu vărsături mucoase și gleroase, după ce au mâncat
+Pentru a intelege mai usor principiul similitudinii sa luam cateva exemple: • o pacienta cu
+cistita hematurica cu arsuri intense, inainte, in timpul si dupa mictiune, poate fi vindecata cu
+doze slabe de cantarida (Cantharis)
+care, in doza ponderala, provoaca , la omul sanatos simptome si modalitati reactionale
+asemanatoare. • un bolnav epuizat de o diaree neintrerupta, in jeturi, insotita de transpiratii
+reci si dureri sub forma de crampe, poate fi vindecat cu mici doze de Veratrum album, care,
+in doze mari, provoaca la un individ sanatos un tablou clinic asemanator.
+Doctorul Rousson, unul dintre reprezentantii marcanti ai homeopatiei din Lyon, a relatat in
+manualul sau de homeopatie experimentul urmator:
+Doi gemeni prezinta diaree spumoasa cu varsaturi mucoase si gleroase, dupa ce au mancat
 fructe verzi.
-Bazându-se pe similitudinea simptome-lor, se administrează amândurora medicamentul
-Ipeca. Dar unuia dintre gemeni i se dă Ipeca tinctură-mamă (TMj, iar celuilalt Ipeca 9 CH.
-Ce se constată ?
-Primul se agravează, în timp ce al doilea este clar ameliorat. în primul caz putem spune că se
-obține o adiție morbidă, în al doilea caz, o diminuare morbidă.
-Prescripția medicamentului homeopatic
-Constă în alăturarea și compararea a două observații :
+Bazandu-se pe similitudinea simptome-lor, se administreaza amandurora medicamentul
+Ipeca. Dar unuia dintre gemeni i se da Ipeca tinctura-mama (TMj, iar celuilalt Ipeca 9 CH.
+Ce se constata ?
+Primul se agraveaza, in timp ce al doilea este clar ameliorat. in primul caz putem spune ca se
+obtine o aditie morbida, in al doilea caz, o diminuare morbida.
+Prescriptia medicamentului homeopatic
+Consta in alaturarea si compararea a doua observatii :
 1) tabloul clinic prezentat de bolnav.
-2) tabloul patogenetic, rezultat din experimentarea unei substanțe la omul sănătos.
-Substanța care provoacă simptomele cele mai asemănătoare este numită „simillimum".
-Cu cât cele două tablouri coincid mai mult, cu atât alegerea medicamentului se impune si cu
-atât mai mult poate fi prescris în diluții înalte. Este deci indispensabil pentru medic să
-cunoască bine patogeneziile. Tabloul clinic regrupează ansamblul semnelor observate la
-bolnav. Aceste simptome sunt ierarhizate în:
-• Semne locale: semne obiective înregistrate prin observație (hematoame, veruci, eczeme...);
-• Semne generale: sunt expresia unui mod reacționai general (febră, tuse, diaree...);
-• Semne psihice: singurele ce marchează modificările comportamentului
-obișnuit al individului, provocate de maladia sa;
+2) tabloul patogenetic, rezultat din experimentarea unei substante la omul sanatos.
+Substanta care provoaca simptomele cele mai asemanatoare este numita „simillimum".
+Cu cat cele doua tablouri coincid mai mult, cu atat alegerea medicamentului se impune si cu
+atat mai mult poate fi prescris in dilutii inalte. Este deci indispensabil pentru medic sa
+cunoasca bine patogeneziile. Tabloul clinic regrupeaza ansamblul semnelor observate la
+bolnav. Aceste simptome sunt ierarhizate in:
+• Semne locale: semne obiective inregistrate prin observatie (hematoame, veruci, eczeme...);
+• Semne generale: sunt expresia unui mod reactionai general (febra, tuse, diaree...);
+• Semne psihice: singurele ce marcheaza modificarile comportamentului
+obisnuit al individului, provocate de maladia sa;
 • Semne anatomo-patologice: sunt semnele histologice.
-Toate aceste simptome, care sunt expresia reacției specifice a bolnavului la boală, sunt
-precizate de circumstanțele apariției lor. Este vorba de ceea ce numim „modalitățile
-reacționale": agravare, ameliorare, lateralitate etc.
+Toate aceste simptome, care sunt expresia reactiei specifice a bolnavului la boala, sunt
+precizate de circumstantele aparitiei lor. Este vorba de ceea ce numim „modalitatile
+reactionale": agravare, ameliorare, lateralitate etc.
 
-Semnele locale și generale sunt importante în alegerea medicamentului. Să luăm exemplul
+Semnele locale si generale sunt importante in alegerea medicamentului. Sa luam exemplul
 febrei:
-- o febră cu instalare rapidă, ridicată (39° - 39,5° C), cu piele uscata (fără transpirație)
-indică Aconitum;
-- o febră cu instalare rapidă, ridicată (39° - 39,5° C), dar cu transpirație, indică Belladonna;
-- o febră în platou, fără sete, răspunde la Gelsemium;
-- o febră în platou, cu sete, indică Bryonia.
-Medicul acordă o importanță cu totul deosebită modalității simptomului. De exemplu, o
-durere arzătoare ameliorată la căldură constituie un semn distinctiv pentru Arsenicum album,
+- o febra cu instalare rapida, ridicata (39° - 39,5° C), cu piele uscata (fara transpiratie)
+indica Aconitum;
+- o febra cu instalare rapida, ridicata (39° - 39,5° C), dar cu transpiratie, indica Belladonna;
+- o febra in platou, fara sete, raspunde la Gelsemium;
+- o febra in platou, cu sete, indica Bryonia.
+Medicul acorda o importanta cu totul deosebita modalitatii simptomului. De exemplu, o
+durere arzatoare ameliorata la caldura constituie un semn distinctiv pentru Arsenicum album,
 deoarece majoritatea arsurilor sunt ameliorate la frig.
 Prepararea farmaceutica a medicamentului homeopatic
 Doza infinitezimala
-Al doilea principiu fundamental al homeopatiei constă în folosirea medicamentului în
-concentrații înalt diluate. Acest fundament, care rezumă adesea pentru public întreaga
-homeopatie, nu constituie în realitate decât corolarul principiului similitudinii. Intr-adevăr,
-dacă s-ar folosi pentru un bolnav medicamentul corespunzător în doză foarte mare, prea
+Al doilea principiu fundamental al homeopatiei consta in folosirea medicamentului in
+concentratii inalt diluate. Acest fundament, care rezuma adesea pentru public intreaga
+homeopatie, nu constituie in realitate decat corolarul principiului similitudinii. Intr-adevar,
+daca s-ar folosi pentru un bolnav medicamentul corespunzator in doza foarte mare, prea
 mare, s-ar agrava simptomatologia acestuia.
-Așa cum am văzut până acum în experimentele făcute de Hahnemann, diminuarea progresivă
-a substanțelor folosite duce la doze infinitezimale, care nu devin cu adevărat eficiente decât
-după „sucusiune" (agitare prelungită între fiecare diluție) și al cărei obiectiv este
+Asa cum am vazut pana acum in experimentele facute de Hahnemann, diminuarea progresiva
+a substantelor folosite duce la doze infinitezimale, care nu devin cu adevarat eficiente decat
+dupa „sucusiune" (agitare prelungita intre fiecare dilutie) si al carei obiectiv este
 dinamizarea principiului activ.
-Farmacopeea franceză actuală impune această dinamizare în prepararea oficinală
-homeopatică. Doza infinitezimală își găsește justificarea în observarea rezultatelor
+Farmacopeea franceza actuala impune aceasta dinamizare in prepararea oficinala
+homeopatica. Doza infinitezimala isi gaseste justificarea in observarea rezultatelor
 experimentale, confirmate clinic.
-Procesul de fabricație
-Preparatele homeopatice sunt obținute din produse de origine vegetală sau animală
-(veninuri...) și din produse chimice minerale (cuprum = cupru) sau organice (glande).
-a) Sușele de origine vegetala: tincturile-mamâ (TM) de origine vegetală sunt obținute prin
-macerarea în alcool a plantelor (sau a părților din plante) proaspete sau, mai rar, uscate.
-Macerarea are loc în recipiente din sticlă sau din oțel inoxidabil, timp de cel puțin trei
-săptămâni.
-După macerare, tincturile-mamă sunt decantate, filtrate, păstrate în condiții deosebite
-(temperatură, luminozitate redusă, aerare...) și controlate în mod riguros. Masa de tinctură-
-mamă astfel obținută este egală cu de zece ori cea a materiei prime tratate (calculată în
+Procesul de fabricatie
+Preparatele homeopatice sunt obtinute din produse de origine vegetala sau animala
+(veninuri...) si din produse chimice minerale (cuprum = cupru) sau organice (glande).
+a) Susele de origine vegetala: tincturile-mama (TM) de origine vegetala sunt obtinute prin
+macerarea in alcool a plantelor (sau a partilor din plante) proaspete sau, mai rar, uscate.
+Macerarea are loc in recipiente din sticla sau din otel inoxidabil, timp de cel putin trei
+saptamani.
+Dupa macerare, tincturile-mama sunt decantate, filtrate, pastrate in conditii deosebite
+(temperatura, luminozitate redusa, aerare...) si controlate in mod riguros. Masa de tinctura-
+mama astfel obtinuta este egala cu de zece ori cea a materiei prime tratate (calculata in
 raport cu masa acestei materii prime deshidratate).
-b) Sușele de origine animală: sunt constituite printr-o macerare în alcool în proporție de 1 /
+b) Susele de origine animala: sunt constituite printr-o macerare in alcool in proportie de 1 /
 20:
-- a animalelor întregi vii
-Apis mellifica = albina întreagă
-Formica rufa = furnica roșie
-- sau a anumitor părți sau organe ale animalelor, sau a anumitor secreții
+- a animalelor intregi vii
+Apis mellifica = albina intreaga
+Formica rufa = furnica rosie
+- sau a anumitor parti sau organe ale animalelor, sau a anumitor secretii
 
 Sepia = cerneala sepiei
 - sau a veninurilor
 Lachesis = veninul de Bothrops surucucu
 Vipera Redi = veninul de Vipera aspis
-c) Sușele de origine chimica: de
-origine minerală sau organică, ele conțin:
+c) Susele de origine chimica: de
+origine minerala sau organica, ele contin:
 - corpuri simple sau compuse: metale, metaloizi, hormoni, vitamine;
-- complecși chimici de origine naturală sau sintetică (Natrum muriaticum, Calcarea
+- complecsi chimici de origine naturala sau sintetica (Natrum muriaticum, Calcarea
 ostreica).
 Bioterapeuticele
-Sunt medicamente obținute din:
+Sunt medicamente obtinute din:
 - produse nedefinite chimic (seruri, vaccinuri, toxine, anatoxine, virusuri...); Astfel,
-Tuberculinum este obținut din culturi de Mycobacterinum tuber-culosis;
-- secreții sau excreții patologice; Psorinum, obținut din lizatele serozi-tâfilor leziunilor de
+Tuberculinum este obtinut din culturi de Mycobacterinum tuber-culosis;
+- secretii sau excretii patologice; Psorinum, obtinut din lizatele serozi-tafilor leziunilor de
 scabie;
-- culturi microbiene pure. Colibacillinum, lizate obținute din culturile de Escherichia coli.
+- culturi microbiene pure. Colibacillinum, lizate obtinute din culturile de Escherichia coli.
 Izoterapeuticele
-Sunt preparate extemporanee; prima diluție trebuie să fie sterilizată.
-Se disting două categorii de izoterapeutice:
-a) autoizoterapeuticele, obținute din prelevatele biologice ale bolnavului și destinate folosirii
-sale exclusive (urină, puroi, expectorații...) cu condiția ca aceste prelevări să nu conțină
-sânge, căci, din motive de securitate (SIDA, BTS), sângele a fost exclus dintre preparatele
+Sunt preparate extemporanee; prima dilutie trebuie sa fie sterilizata.
+Se disting doua categorii de izoterapeutice:
+a) autoizoterapeuticele, obtinute din prelevatele biologice ale bolnavului si destinate folosirii
+sale exclusive (urina, puroi, expectoratii...) cu conditia ca aceste prelevari sa nu contina
+sange, caci, din motive de securitate (SIDA, BTS), sangele a fost exclus dintre preparatele
 izoterapeutice.
-b) heteroizoterapeuticele, obținute din alergene: polen, păr de pisică, praful de casă,
-acarieni, țigări...
-Toate izoterapeuticele se eliberează pe bază de prescripție medicală.
-Diluțiile
-Din tinctura-mamă sau din sușa chimică sau animală se prepară diluțiile.
-In homeopatie se folosesc mai multe tipuri de diluții:
-a) Diluții centezimale hahnemanniene - CH - :
-Cele mai frecvent folosite (la 1/100), ele sunt preparate adăugând o parte din substanța de
-bază în 99 părți de solvent. Amestecul este agitat puternic se spune că este „dinamizat" - de
-un aparat vibrator; se obține astfel prima centezimală hahnemanniană - 1 CH.
-O parte din această diluție 1 CH, amestecată într-un nou flacon cu 99 părți de solvent și
-dinamizată constituie diluția 2 CH, și așa mai departe până la 30 CH. Este nevoie, deci, de
+b) heteroizoterapeuticele, obtinute din alergene: polen, par de pisica, praful de casa,
+acarieni, tigari...
+Toate izoterapeuticele se elibereaza pe baza de prescriptie medicala.
+Dilutiile
+Din tinctura-mama sau din susa chimica sau animala se prepara dilutiile.
+In homeopatie se folosesc mai multe tipuri de dilutii:
+a) Dilutii centezimale hahnemanniene - CH - :
+Cele mai frecvent folosite (la 1/100), ele sunt preparate adaugand o parte din substanta de
+baza in 99 parti de solvent. Amestecul este agitat puternic se spune ca este „dinamizat" - de
+un aparat vibrator; se obtine astfel prima centezimala hahnemanniana - 1 CH.
+O parte din aceasta dilutie 1 CH, amestecata intr-un nou flacon cu 99 parti de solvent si
+dinamizata constituie dilutia 2 CH, si asa mai departe pana la 30 CH. Este nevoie, deci, de
 treizeci de flacoane pentru o asemenea preparare.
-Diluțiile centezimale cel mai des prescrise sunt 4, 5, 7,9, 12, 15 și 30 CH.
-b) Diluții decimale hahnemanniene -DH - :
-Sunt diluții succesive la 1/10 preparate exact după aceeași metodologie ca și centezimalele
+Dilutiile centezimale cel mai des prescrise sunt 4, 5, 7,9, 12, 15 si 30 CH.
+b) Dilutii decimale hahnemanniene -DH - :
+Sunt dilutii succesive la 1/10 preparate exact dupa aceeasi metodologie ca si centezimalele
 hahnemanniene. Dilutiile decimale cel mai des prescrise sunt 1 DH, 3 DH, 6 DH.
-c) Diluția korsakoviană - K - :
-în 1832, un rus, Korsakov, pentru a evita utilizarea atâtor flacoane, propune o tehnică de
-diluție numită „în flacon unic": se pun 5 ml tinctură-mamă într-un flacon care este agitat
+c) Dilutia korsakoviana - K - :
+in 1832, un rus, Korsakov, pentru a evita utilizarea atator flacoane, propune o tehnica de
+dilutie numita „in flacon unic": se pun 5 ml tinctura-mama intr-un flacon care este agitat
 
-puternic, apoi golit prin aspirare. Acest procedeu lasă în flacon 1% din volumul inițial. Se
-adaugă apă purificată în acest flacon pentru a dilua ceea ce a rămas din TM pe pereți, se
-agită puternic și se obține astfel prima diluție korsakoviană 1 K. Repetând operația, se
-obține a doua diluție korsakoviană și așa mai departe. Diluțiile cel mai des prescrise sunt 200
-K, 1 000 K, 10 000 K. Ele sunt eliberate cel mai adesea pe bază de prescripție medicală.
-Această metodă necesită, deci, numeroase operații pentru a obține dilutiile înalte. •
-Fabricarea diluțiilor korsakoviene se face cu un aparat automat ce asigură precizia și
-repetarea operațiilor.
-Oricare ar fi tipul de diluții ales, operația de diluare este foarte delicată și trebuie să aibă loc
-cu maximum de precauții.
-Atmosfera trebuie să fie cât se poate de pură. Aerul orașelor, chiar puțin poluat, conține în
-suspensie urme de sulf, de mercur, de plumb care ar putea altera prepararea, combinându-se
-cu substanța de bază în timpul dinamizării. De aceea, în interiorul laboratoarelor, un sistem
-de aer filtrat reduce nivelul de poluare. în plus, Jean Boiron a avut ideea de a realiza
-operațiile de diluare într-o „incintă cu flux laminar" care filtrează aerul până la obținerea a
-mai puțin de 100 particule la 30 litri de aer (norma „sălilor albe").
-Un contor verifică în permanență dacă această normă este respectată. Puritatea aerului nu
-ar fi suficientă dacă materialul și solventul nu ar fi, la rândul or, controlate minuțios.
+puternic, apoi golit prin aspirare. Acest procedeu lasa in flacon 1% din volumul initial. Se
+adauga apa purificata in acest flacon pentru a dilua ceea ce a ramas din TM pe pereti, se
+agita puternic si se obtine astfel prima dilutie korsakoviana 1 K. Repetand operatia, se
+obtine a doua dilutie korsakoviana si asa mai departe. Dilutiile cel mai des prescrise sunt 200
+K, 1 000 K, 10 000 K. Ele sunt eliberate cel mai adesea pe baza de prescriptie medicala.
+Aceasta metoda necesita, deci, numeroase operatii pentru a obtine dilutiile inalte. •
+Fabricarea dilutiilor korsakoviene se face cu un aparat automat ce asigura precizia si
+repetarea operatiilor.
+Oricare ar fi tipul de dilutii ales, operatia de diluare este foarte delicata si trebuie sa aiba loc
+cu maximum de precautii.
+Atmosfera trebuie sa fie cat se poate de pura. Aerul oraselor, chiar putin poluat, contine in
+suspensie urme de sulf, de mercur, de plumb care ar putea altera prepararea, combinandu-se
+cu substanta de baza in timpul dinamizarii. De aceea, in interiorul laboratoarelor, un sistem
+de aer filtrat reduce nivelul de poluare. in plus, Jean Boiron a avut ideea de a realiza
+operatiile de diluare intr-o „incinta cu flux laminar" care filtreaza aerul pana la obtinerea a
+mai putin de 100 particule la 30 litri de aer (norma „salilor albe").
+Un contor verifica in permanenta daca aceasta norma este respectata. Puritatea aerului nu
+ar fi suficienta daca materialul si solventul nu ar fi, la randul or, controlate minutios.
 - Solventul este un alcool de 70 v/v controlat. n'
-- Flacoanele utilizate pentru dilutii sunt spălate de trei ori la rând cu apă demineralizată,
-apoi introduse într-o etuvă la 1 80° timp de o oră. Cu o formă și o calitate a sticlei
-corespunzătoare, înainte de utilizare ele sunt golite de aerul ambiant, care este înlocuit de
+- Flacoanele utilizate pentru dilutii sunt spalate de trei ori la rand cu apa demineralizata,
+apoi introduse intr-o etuva la 1 80° timp de o ora. Cu o forma si o calitate a sticlei
+corespunzatoare, inainte de utilizare ele sunt golite de aerul ambiant, care este inlocuit de
 aerul pur din incinta cu flux laminar.
-Triturările
-Pentru sușele insolubile în apa și alcool, se dispersează substanța în lactoză: aceasta este
-triturarea. într-un mojar se triturează îndelung 1 parte de substanță cu 99 părți de lactoză; se
-obține astfel triturația 1 CH. Plecând de la aceasta se repetă operația într-un al doilea
-mojar; se obține triturația 2 CH, apoi 3 CH sub formă de pudră lactozată. Din această
-triturație 3 CH este posibil să se obțină o diluție lichidă dizolvând o parte din triturație în 99
-părți de solvent (apă purificată sau alcool de diferite tritruri); se obține în acest mod dilutia
-lichidă
-de 4 CH. Această soluție poate apoi să fie supusă unui șir de diluții. Solubilizarea începând
-de la 3 CH, admisă de Hahnemann, este astăzi recunoscută ca fiind exactă din punct de
-vedere științific.
-Granulele și globulele .
-Acestea sunt mici sfere constituite dintr-un amestec zaharoză-lactoză. învelișul este realizat în
-turbine, special concepute pentru a funcționa încontinuu. Fabricarea globulelor (200 per
-gram) necesită în jur de două săptămâni și este nevoie de câteva zile pentru a prepara
-granulele (20 per gram). Aceste granule și globule neutre sunt transformate în medicamente
-prin impregnarea cu o diluție. Altădată, impregnarea granulelor și a globulelor se făcea într-
-o singură etapă și din acest motiv ea rămânea superficială, ceea ce explică faptul că se
-recomanda să nu se ia granulele cu degetele.
+Triturarile
+Pentru susele insolubile in apa si alcool, se disperseaza substanta in lactoza: aceasta este
+triturarea. intr-un mojar se tritureaza indelung 1 parte de substanta cu 99 parti de lactoza; se
+obtine astfel trituratia 1 CH. Plecand de la aceasta se repeta operatia intr-un al doilea
+mojar; se obtine trituratia 2 CH, apoi 3 CH sub forma de pudra lactozata. Din aceasta
+trituratie 3 CH este posibil sa se obtina o dilutie lichida dizolvand o parte din trituratie in 99
+parti de solvent (apa purificata sau alcool de diferite tritruri); se obtine in acest mod dilutia
+lichida
+de 4 CH. Aceasta solutie poate apoi sa fie supusa unui sir de dilutii. Solubilizarea incepand
+de la 3 CH, admisa de Hahnemann, este astazi recunoscuta ca fiind exacta din punct de
+vedere stiintific.
+Granulele si globulele .
+Acestea sunt mici sfere constituite dintr-un amestec zaharoza-lactoza. invelisul este realizat in
+turbine, special concepute pentru a functiona incontinuu. Fabricarea globulelor (200 per
+gram) necesita in jur de doua saptamani si este nevoie de cateva zile pentru a prepara
+granulele (20 per gram). Aceste granule si globule neutre sunt transformate in medicamente
+prin impregnarea cu o dilutie. Altadata, impregnarea granulelor si a globulelor se facea intr-
+o singura etapa si din acest motiv ea ramanea superficiala, ceea ce explica faptul ca se
+recomanda sa nu se ia granulele cu degetele.
 
-în 1961, a fost pus la punct un procedeu de triplă impregnare, ceea ce permite o penetrare
-mai profundă și o repartizare mai omogenă a dilutiei. Aceste două forme farmaceutice,
-granulele și globulele, sunt specifice homeopatiei.
-- Granulele, condiționate în tuburi de 4 grame conținând 80 granule, se prepară la toate
-gradele de diluție.
-- Globulele sunt mai mici decât granulele. Un tub doză de 1 gram conține aproximativ 200
-globule. El trebuie să fie absorbit dintr-o dată, lăsând globulele să se dizolve încet sub limbă.
+in 1961, a fost pus la punct un procedeu de tripla impregnare, ceea ce permite o penetrare
+mai profunda si o repartizare mai omogena a dilutiei. Aceste doua forme farmaceutice,
+granulele si globulele, sunt specifice homeopatiei.
+- Granulele, conditionate in tuburi de 4 grame continand 80 granule, se prepara la toate
+gradele de dilutie.
+- Globulele sunt mai mici decat granulele. Un tub doza de 1 gram contine aproximativ 200
+globule. El trebuie sa fie absorbit dintr-o data, lasand globulele sa se dizolve incet sub limba.
 Alte forme uzuale sunt:
-- picăturile; excipientul este alcool 30 v/v. Ele sunt rezervate mai degrabă dilutiilor joase
-(DH și TM) sau celor complexe. Sunt absorbite fie în stare pură, fie diluate în puțină apă.
-Toate celelalte forme galenice există de asemenea în homeopatie: unguente, fiole,
+- picaturile; excipientul este alcool 30 v/v. Ele sunt rezervate mai degraba dilutiilor joase
+(DH si TM) sau celor complexe. Sunt absorbite fie in stare pura, fie diluate in putina apa.
+Toate celelalte forme galenice exista de asemenea in homeopatie: unguente, fiole,
 supozitoare, ovule...
 Medicamentele pot fi :
-- unitare, adică nu au decât un singur component,
+- unitare, adica nu au decat un singur component,
 sau
-- complexe, dacă sunt compuse dintr-un amestec de remedii homeopatice unitare, având
-indicații complementare.
-Am putea, deci, să dăm următoarea definiție a medicamentului homeopatic: un medicament
-homeopatic este constituit din una sau mai multe substanțe care
-1) acționează în doza infinitezimala
-2) au suferit scăderi ale concentrației și dinamizări succesive.
-Precauții speciale în stocarea și folosirea medicamentelor homeopatice
-Datorită stării specifice de diluție, medicamentele homeopatice pot fi alterate de anumite
-substanțe volatile precum camforul, parfumurile...
-De asemenea, trebuie evitată expunerea la căldură prea mare (> 40°) a tuburilor ce conțin
-granule; într-adevăr, acest lucru ar putea modifica acțiunea terapeutică a remediului
-Posologie și mod de utilizare
-Este de preferat ca medicamentele homeopatice să fie luate la un interval față de mese (15
-minute înainte sau 30 minute după).
-Alegerea formei tine cont de modul de utilizare: repetare în timpul zilei sau priză unică
-zilnică, săptămânală sau lunară, ușurință în folosire.
-Tubul doza este indicat în mod deosebit pentru o priză unică sau pentru prize rărite.
-Tubul granulă, ușor de purtat de către pacient, dacă priza de medicament trebuie repetată în
-cursul zilei. Este admis că frecvența administrării medicamentelor depinde în același timp de
-gradul de diluție.
-- Diluțiile joase (4 CH/5 CH) sau medii (7 CH/9 CH), au o acțiune limitată în timp; ele
-corespund unor semne locale sau generale și sunt administrate în general de două sau de trei
-ori pe zi, până la dispariția simptomelor, în special în cazurile acute.
-- Diluțiile înalte (15 CH/30 CH),
-sunt utilizate în general pentru maladiile cronice și tipurile sensibile și, deci, prescrise de
-către medic o dată pe săptămână sau o dată la cincisprezece zile.
+- complexe, daca sunt compuse dintr-un amestec de remedii homeopatice unitare, avand
+indicatii complementare.
+Am putea, deci, sa dam urmatoarea definitie a medicamentului homeopatic: un medicament
+homeopatic este constituit din una sau mai multe substante care
+1) actioneaza in doza infinitezimala
+2) au suferit scaderi ale concentratiei si dinamizari succesive.
+Precautii speciale in stocarea si folosirea medicamentelor homeopatice
+Datorita starii specifice de dilutie, medicamentele homeopatice pot fi alterate de anumite
+substante volatile precum camforul, parfumurile...
+De asemenea, trebuie evitata expunerea la caldura prea mare (> 40°) a tuburilor ce contin
+granule; intr-adevar, acest lucru ar putea modifica actiunea terapeutica a remediului
+Posologie si mod de utilizare
+Este de preferat ca medicamentele homeopatice sa fie luate la un interval fata de mese (15
+minute inainte sau 30 minute dupa).
+Alegerea formei tine cont de modul de utilizare: repetare in timpul zilei sau priza unica
+zilnica, saptamanala sau lunara, usurinta in folosire.
+Tubul doza este indicat in mod deosebit pentru o priza unica sau pentru prize rarite.
+Tubul granula, usor de purtat de catre pacient, daca priza de medicament trebuie repetata in
+cursul zilei. Este admis ca frecventa administrarii medicamentelor depinde in acelasi timp de
+gradul de dilutie.
+- Dilutiile joase (4 CH/5 CH) sau medii (7 CH/9 CH), au o actiune limitata in timp; ele
+corespund unor semne locale sau generale si sunt administrate in general de doua sau de trei
+ori pe zi, pana la disparitia simptomelor, in special in cazurile acute.
+- Dilutiile inalte (15 CH/30 CH),
+sunt utilizate in general pentru maladiile cronice si tipurile sensibile si, deci, prescrise de
+catre medic o data pe saptamana sau o data la cincisprezece zile.
 
-Contrar ideilor răspândite, menta și cafeaua, absorbite la un interval față de prizele de
-medicamente, nu anihilează acțiunea acestora.
-Pe de altă parte, priza de medicamente homeopatice nu este incompatibilă cu alte
-medicamente, în special alopate, acțiunea lor nesituându-se la același nivel, dar permițând
-adesea o sinergie terapeutică.
+Contrar ideilor raspandite, menta si cafeaua, absorbite la un interval fata de prizele de
+medicamente, nu anihileaza actiunea acestora.
+Pe de alta parte, priza de medicamente homeopatice nu este incompatibila cu alte
+medicamente, in special alopate, actiunea lor nesituandu-se la acelasi nivel, dar permitand
+adesea o sinergie terapeutica.
 ISTORIA HOMEOP ATIEI IN ROMANIA
 Voi incerca sa punctez cateva “Momente din drumul homeopatiei romanesti”, asa cum au fost
 prezentate de catre doamna farmacist Cezarina Tuchel in cadrul Conferintei nationale de
@@ -1268,47 +1268,47 @@ sau seva au fost de natura sa puna in evidenta, intr-un mod de netagaduit existe
 “tiparelor” energetice ale plantelor.
 FITOTERAPIA respecta principiul non nocere, nu exclude alte terapii naturale, este
 accesibila oricui si are indicatii in toate afectiunile cunoscute.
-Fitoterapia - utilizarea plantelor medicinale în scop terapeutic - are o vechime de mii de ani
-și o eficiență deja dovedită. Ea folosește plantele sub formă de extracte totale, spre deosebire
-de medicina alopată care recomandă doar substanțe extrase din plante.
- Printre avantajele ei se numără accesibilitatea (plantele sunt ușor de procurat și ieftine),
-acțiunea blândă și lipsa efectelor adverse (când se respectă dozele adecvate), tratarea
-bolnavului ca întreg (plantele au efecte fizice și psiho-emoționale și echilibrează organismul
-la toate nivelele). Plantele medicinale se pot folosi în paralel cu medicamentele alopate (cu
-câteva mici excepții, la care trebuie să se țină seama de antagonismul dintre unele
-medicamente - de exemplu anticoagulantele - și unele plante).
- Fitoterapia modernă studiază compoziția chimică a plantelor în laboratoarele
-farmaceutice și argumentează științific utilizările tradiționale ale unor plante.
- Tratamentul cu plante medicinale dă rezultate foarte bune în afecțiunile ușoare,
-funcționale sau în stadiile incipiente ale bolilor. În bolile cronice, în care a apărut deja
-afectarea organică, fitoterapia are un rol adjuvant și poate contribui la o parțială
+Fitoterapia - utilizarea plantelor medicinale in scop terapeutic - are o vechime de mii de ani
+si o eficienta deja dovedita. Ea foloseste plantele sub forma de extracte totale, spre deosebire
+de medicina alopata care recomanda doar substante extrase din plante.
+ Printre avantajele ei se numara accesibilitatea (plantele sunt usor de procurat si ieftine),
+actiunea blanda si lipsa efectelor adverse (cand se respecta dozele adecvate), tratarea
+bolnavului ca intreg (plantele au efecte fizice si psiho-emotionale si echilibreaza organismul
+la toate nivelele). Plantele medicinale se pot folosi in paralel cu medicamentele alopate (cu
+cateva mici exceptii, la care trebuie sa se tina seama de antagonismul dintre unele
+medicamente - de exemplu anticoagulantele - si unele plante).
+ Fitoterapia moderna studiaza compozitia chimica a plantelor in laboratoarele
+farmaceutice si argumenteaza stiintific utilizarile traditionale ale unor plante.
+ Tratamentul cu plante medicinale da rezultate foarte bune in afectiunile usoare,
+functionale sau in stadiile incipiente ale bolilor. In bolile cronice, in care a aparut deja
+afectarea organica, fitoterapia are un rol adjuvant si poate contribui la o partiala
 reversibilitate a simptomelor sau leziunilor.
- Aceste afirmații se aplică la modul general, deoarece se constată în practica medicală
-că important este pacientul și nu boala (diagnosticul), căci adeseori dorința bolnavului de a
-se vindeca poate face adevărate minuni, în pofida statisticilor nefavorabile ale bolii de care
-acesta suferă. De asemenea, există practicieni ai medicinei naturale care au demonstrat, prin
-studii efectuate în clinici, că bolile grave pot fi vindecate; a se consulta în această direcție
-cartea doctorului Dean Ornish - Revoluție în terapia bolilor de inimă (apărută și la noi în
-țară), în care acesta arată cum leziunile coronariene grave sau ateroscleroza sunt fenomene
-reversibile dacă se urmează un program de tratament naturist, sau lucrarea doctorului Max
-Gerson Terapia cancerului. Există și practicieni naturopați nemedici care aduc numeroase
-mărturii ale unor cazuri vindecate prin terapii naturale (ex. Rudolf Breuss – Modalități de
-tratare a cancerului, leucemiei și a altor boli aparent incurabile ș.a.m.d.).
- În general, răspund bine la tratamentul fitoterapeutic următoarele boli:
-- alergiile, astmul bronșic, reumatismul (unele forme), bolile de piele
+ Aceste afirmatii se aplica la modul general, deoarece se constata in practica medicala
+ca important este pacientul si nu boala (diagnosticul), caci adeseori dorinta bolnavului de a
+se vindeca poate face adevarate minuni, in pofida statisticilor nefavorabile ale bolii de care
+acesta sufera. De asemenea, exista practicieni ai medicinei naturale care au demonstrat, prin
+studii efectuate in clinici, ca bolile grave pot fi vindecate; a se consulta in aceasta directie
+cartea doctorului Dean Ornish - Revolutie in terapia bolilor de inima (aparuta si la noi in
+tara), in care acesta arata cum leziunile coronariene grave sau ateroscleroza sunt fenomene
+reversibile daca se urmeaza un program de tratament naturist, sau lucrarea doctorului Max
+Gerson Terapia cancerului. Exista si practicieni naturopati nemedici care aduc numeroase
+marturii ale unor cazuri vindecate prin terapii naturale (ex. Rudolf Breuss – Modalitati de
+tratare a cancerului, leucemiei si a altor boli aparent incurabile s.a.m.d.).
+ In general, raspund bine la tratamentul fitoterapeutic urmatoarele boli:
+- alergiile, astmul bronsic, reumatismul (unele forme), bolile de piele
 
-- bolile psihosomatice, nevrozele, insomnia, tulburările de memorie la vârstnici
-- infecțiile cronice microbiene, parazitozele, unele afecțiuni virale
-- stările de stres și epuizare, carențele în anumite vitamine și minerale
-- intoxicațiile cronice, hipercolesterolemia
-- ulcerul gastro-duodenal, dischinezia biliară, enterocolita, colonul iritabil
-Atenție! Efectele plantelor se instalează în timp și necesită o administrare prelungită - de la
-2-3 săptămâni la câteva luni, în funcție de gravitatea și vechimea bolii, reactivitatea
-organismului și perseverența bolnavului în a urma tratamentul. În cazul bolilor foarte grave,
-tratamentul poate dura și 2-3 ani, urmând o schemă terapeutică indicată de medic.
-Contraindicațiile fitoterapiei:
-Nu vom apela la fitoterapie în situațiile urgențelor medicale (cu foarte mici excepții) sau
-chirurgicale și nici în cazul bolilor infecțioase grave (ex. septicemii, meningite etc.).
+- bolile psihosomatice, nevrozele, insomnia, tulburarile de memorie la varstnici
+- infectiile cronice microbiene, parazitozele, unele afectiuni virale
+- starile de stres si epuizare, carentele in anumite vitamine si minerale
+- intoxicatiile cronice, hipercolesterolemia
+- ulcerul gastro-duodenal, dischinezia biliara, enterocolita, colonul iritabil
+Atentie! Efectele plantelor se instaleaza in timp si necesita o administrare prelungita - de la
+2-3 saptamani la cateva luni, in functie de gravitatea si vechimea bolii, reactivitatea
+organismului si perseverenta bolnavului in a urma tratamentul. In cazul bolilor foarte grave,
+tratamentul poate dura si 2-3 ani, urmand o schema terapeutica indicata de medic.
+Contraindicatiile fitoterapiei:
+Nu vom apela la fitoterapie in situatiile urgentelor medicale (cu foarte mici exceptii) sau
+chirurgicale si nici in cazul bolilor infectioase grave (ex. septicemii, meningite etc.).
  AFINUL
  Afinul (Vaccinium myrtillus), este un arbust scund, bine cunoscut de cei care indragesc
 muntele.
@@ -1703,64 +1703,64 @@ masura cu urzica-moarta.
  URZICA-MOARTA
  Urzica-moarta (Lamium album) este o planta ierboasa de cca o jumatate de metru inaltime,
 ce creste in locuri umbroase si umede ca si sora ei urzicatoare.
-Pentru a obține efectul maxim al substanțelor care se găsesc în plantele medicinale se pot
+Pentru a obtine efectul maxim al substantelor care se gasesc in plantele medicinale se pot
 utiliza diferite procedee de preparare, cum ar fi infuzia, decoctul, maceratul. Tehnica se
-bazează pe extracția principiului sau grupului de principii active folosindu-se dizolvanți ca
-apa, vinul, alcoolul, oțetul sau uleiul. Împreună cu principiul activ al plantei se extrag și
-unele substanțe secundare, care au proprietatea de a mări efectul terapeutic al plantelor.
-Infuzia (ceaiul) este forma cea mai simplă și mai utilizată de a extrage substanțele active din
-plantele medicinale. Infuzia se obține din menținerea plantei medicinale în contact cu apă
-clocotită timp de 15 minute. Într-un vas smălțuit sau de porțelan se pun 1 - 2 lingurițe din
-planta mărunțită, peste care se toarnă 250 ml de apă clocotită. Vasul se acoperă și se lasă 15
-minute. După aceea ceaiul se strecoară și se îndulcește. Unele plante se prepară numai prin
-infuzie, deoarece prin fierbere principiul lor activ poate dispărea. Este cazul florilor de
-mușețel, de tei, al frunzelor de mentă sau de roiniță.
-Decoctul este procedeul prin care planta se amestecă cu cantitatea indicată de apă rece, apoi
-produsul se fierbe un anumit timp. Decoctul se strecoară fierbinte și se completează cu apă
-caldă, cât este necesar. Frunzele, florile și planta întreagă se fierb 10 - 15 minute, iar cojile și
-rădăcinile se fierb 30 - 40 de minute. După fierbere decoctul se strecoară. Prin decoct se
-prepară plantele a căror consistență este lemnoasă. Maceratul se folosește la prepararea
-extractelor apoase, vinurilor, tincturilor și oțeturilor medicinale, pentru că unele principii
-active se extrag printr-un contact mai îndelungat cu dizolvantul. Unele plante, ca rădăcina de
-nalbă sau semințele de in, se prepară numai prin macerare cu apă rece, fără a se fierbe.
-Plantele mărunțite ce urmează a fi macerate cu apă se spală în prealabil. Maceratul se
-prepară cu apă la temperatura camerei (15 - 25 de grade). În timpul extragerii, lichidul se
-agită de câteva ori. După trecerea timpului indicat, maceratul se strecoară prin tifon.
-Preparatul se consumă în timp de 24 de ore și se păstrează la rece, în sticle de culoare
-închisă.
+bazeaza pe extractia principiului sau grupului de principii active folosindu-se dizolvanti ca
+apa, vinul, alcoolul, otetul sau uleiul. Impreuna cu principiul activ al plantei se extrag si
+unele substante secundare, care au proprietatea de a mari efectul terapeutic al plantelor.
+Infuzia (ceaiul) este forma cea mai simpla si mai utilizata de a extrage substantele active din
+plantele medicinale. Infuzia se obtine din mentinerea plantei medicinale in contact cu apa
+clocotita timp de 15 minute. Intr-un vas smaltuit sau de portelan se pun 1 - 2 lingurite din
+planta maruntita, peste care se toarna 250 ml de apa clocotita. Vasul se acopera si se lasa 15
+minute. Dupa aceea ceaiul se strecoara si se indulceste. Unele plante se prepara numai prin
+infuzie, deoarece prin fierbere principiul lor activ poate disparea. Este cazul florilor de
+musetel, de tei, al frunzelor de menta sau de roinita.
+Decoctul este procedeul prin care planta se amesteca cu cantitatea indicata de apa rece, apoi
+produsul se fierbe un anumit timp. Decoctul se strecoara fierbinte si se completeaza cu apa
+calda, cat este necesar. Frunzele, florile si planta intreaga se fierb 10 - 15 minute, iar cojile si
+radacinile se fierb 30 - 40 de minute. Dupa fierbere decoctul se strecoara. Prin decoct se
+prepara plantele a caror consistenta este lemnoasa. Maceratul se foloseste la prepararea
+extractelor apoase, vinurilor, tincturilor si oteturilor medicinale, pentru ca unele principii
+active se extrag printr-un contact mai indelungat cu dizolvantul. Unele plante, ca radacina de
+nalba sau semintele de in, se prepara numai prin macerare cu apa rece, fara a se fierbe.
+Plantele maruntite ce urmeaza a fi macerate cu apa se spala in prealabil. Maceratul se
+prepara cu apa la temperatura camerei (15 - 25 de grade). In timpul extragerii, lichidul se
+agita de cateva ori. Dupa trecerea timpului indicat, maceratul se strecoara prin tifon.
+Preparatul se consuma in timp de 24 de ore si se pastreaza la rece, in sticle de culoare
+inchisa.
 
-Cataplasma este un preparat de consistență moale, care se obține din plantă măcinată,
-amestecată cu apă până se formează o pastă. Această pastă se pune între două bucăți de
-pânză și se aplică pe locul afectat. Cataplasmele se pot realiza cu apă rece (cataplasma de
-muștar) sau cu apă fierbinte (cataplasma de in).
-Tinctura se obține prin tratarea plantelor mărunțite cu alcool de diferite concentrații.
-Tincturile sunt soluții extractive alcoolice, mai concentrate în principii active decât infuziile.
-Se administrează intern, în puțină apă sau ceai sau pe zahăr.
-Siropurile sunt soluții extractive apoase la care se adaugă zahăr (640 g de zahăr la 360 ml de
-lichid). În general siropurile se prepară dizolvând zahărul într-o soluție ce conține
-substanțele active ale plantei. Apoi preparatul se fierbe în baie de abur sau direct pe foc,
-conform timpului indicat în rețetă. Siropurile se prepară în vase smălțuite. Se strecoară
-fierbinți prin tifon, direct în sticle uscate, de capacitate mică. Dopurile se fierb în prealabil și
-se fixează imediat ce sticlele au fost umplute. Apoi se păstrează la rece.
-Vinurile se prepară prin macerarea plantelor mărunțite, folosindu-se 30 - 40 g de plantă
-pentru un litru de vin vechi de bună calitate. Macerarea se face la temperatura camerei.
-După 7 - 8 zile se strecoară. Se lasă 24 de ore, apoi se filtrează printr-o pânză deasă sau
-printr-un filtru de hârtie. Se adaugă zahăr după gust și se completează cu vin până la un
+Cataplasma este un preparat de consistenta moale, care se obtine din planta macinata,
+amestecata cu apa pana se formeaza o pasta. Aceasta pasta se pune intre doua bucati de
+panza si se aplica pe locul afectat. Cataplasmele se pot realiza cu apa rece (cataplasma de
+mustar) sau cu apa fierbinte (cataplasma de in).
+Tinctura se obtine prin tratarea plantelor maruntite cu alcool de diferite concentratii.
+Tincturile sunt solutii extractive alcoolice, mai concentrate in principii active decat infuziile.
+Se administreaza intern, in putina apa sau ceai sau pe zahar.
+Siropurile sunt solutii extractive apoase la care se adauga zahar (640 g de zahar la 360 ml de
+lichid). In general siropurile se prepara dizolvand zaharul intr-o solutie ce contine
+substantele active ale plantei. Apoi preparatul se fierbe in baie de abur sau direct pe foc,
+conform timpului indicat in reteta. Siropurile se prepara in vase smaltuite. Se strecoara
+fierbinti prin tifon, direct in sticle uscate, de capacitate mica. Dopurile se fierb in prealabil si
+se fixeaza imediat ce sticlele au fost umplute. Apoi se pastreaza la rece.
+Vinurile se prepara prin macerarea plantelor maruntite, folosindu-se 30 - 40 g de planta
+pentru un litru de vin vechi de buna calitate. Macerarea se face la temperatura camerei.
+Dupa 7 - 8 zile se strecoara. Se lasa 24 de ore, apoi se filtreaza printr-o panza deasa sau
+printr-un filtru de hartie. Se adauga zahar dupa gust si se completeaza cu vin pana la un
 litru.
-Oțeturile aromatice se prepară prin macerarea plantelor mărunțite cu oțet de vin, la
-temperatura camerei, timp de 7 - 8 zile. După trecerea acestui timp întregul conținut se
-strecoară printr-o pânză deasă, apoi se completează cu lichid. Pentru prepararea oțeturilor
-aromatice se folosesc plante în proporție de 5 - 10 g la 100 ml de oțet. Se întrebuințează
+Oteturile aromatice se prepara prin macerarea plantelor maruntite cu otet de vin, la
+temperatura camerei, timp de 7 - 8 zile. Dupa trecerea acestui timp intregul continut se
+strecoara printr-o panza deasa, apoi se completeaza cu lichid. Pentru prepararea oteturilor
+aromatice se folosesc plante in proportie de 5 - 10 g la 100 ml de otet. Se intrebuinteaza
 numai extern.
-Uleiurile medicinale se obțin prin macerarea plantelor în ulei, timp de 4 - 6 săptămâni. Peste
-plantele mărunțite se adaugă ulei la temperatura camerei (este mai indicat cel de porumb sau
-de măsline). Sticla se ține într-un loc răcoros și întunecat, astupată cu un dop de plută. O
-dată la 2 - 3 zile se agită preparatul, iar după 3 săptămâni se strecoară. Se păstrează în sticle
-de culoare închisă, ferite de căldură sau lumină.
-Inhalațiile se obțin din plante medicinale aromatice sau din uleiurile extrase din plante. Peste
-planta mărunțită sau uleiul volatil, puse într-un vas smălțuit sau de porțelan, se toarnă apă
-fierbinte. Vaporii de apă antrenează uleiul volatil care este inhalat odată cu aceștia,
-acționând la nivelul căilor respiratorii.
-Băile din plante medicinale sunt utilizate în scop terapeutic. Se obțin fie prin turnarea unei
-infuzii concentrate în apa de baie, fie prin introducerea plantelor mărunțite, puse într-un
-săculeț de tifon, direct în apă.
+Uleiurile medicinale se obtin prin macerarea plantelor in ulei, timp de 4 - 6 saptamani. Peste
+plantele maruntite se adauga ulei la temperatura camerei (este mai indicat cel de porumb sau
+de masline). Sticla se tine intr-un loc racoros si intunecat, astupata cu un dop de pluta. O
+data la 2 - 3 zile se agita preparatul, iar dupa 3 saptamani se strecoara. Se pastreaza in sticle
+de culoare inchisa, ferite de caldura sau lumina.
+Inhalatiile se obtin din plante medicinale aromatice sau din uleiurile extrase din plante. Peste
+planta maruntita sau uleiul volatil, puse intr-un vas smaltuit sau de portelan, se toarna apa
+fierbinte. Vaporii de apa antreneaza uleiul volatil care este inhalat odata cu acestia,
+actionand la nivelul cailor respiratorii.
+Baile din plante medicinale sunt utilizate in scop terapeutic. Se obtin fie prin turnarea unei
+infuzii concentrate in apa de baie, fie prin introducerea plantelor maruntite, puse intr-un
+saculet de tifon, direct in apa.

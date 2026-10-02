@@ -1,14 +1,14 @@
-# **Mecanisme inflamatorii și medicamente frecvent recomandate**
+# **Mecanisme inflamatorii si medicamente frecvent recomandate**
 
-| Categorie | Mediator / cale | Rol în inflamație | Medicament folosit frecvent | Observații |
+| Categorie | Mediator / cale | Rol in inflamatie | Medicament folosit frecvent | Observatii |
 | :---- | :---- | :---- | :---- | :---- |
-| COX | COX-1 | Protecția mucoasei gastrice | Aspirină (doze mici) | Risc gastric |
-| COX | COX-2 | Prostaglandine pro-inflamatorii | Celecoxib | Mai puțin iritant gastric |
-| Citokine | IL-1 | Febră, edem, durere | Anakinra | Artrite severe |
-| Citokine | IL-6 | Inflamație cronică | Tocilizumab | Autoimunitate |
-| Citokine | TNF-α | Distrugere tisulară | Infliximab / Adalimumab | Artrită reumatoidă |
-| Lipide | Prostaglandine | Durere, febră | Ibuprofen / Naproxen | Primă linie |
-| Lipide | Leucotriene | Bronhoconstricție | Montelukast | Astm alergic |
-| Amine | Histamină | Edem, roșeață | Cetirizină / Loratadină | Alergii |
-| Radicali liberi | ROS | Stres oxidativ | N-acetilcisteină (NAC) | Antioxidant |
-| Inflamazom | NLRP3 | Eliberare IL-1β | Colchicină | Gută |
+| COX | COX-1 | Protectia mucoasei gastrice | Aspirina (doze mici) | Risc gastric |
+| COX | COX-2 | Prostaglandine pro-inflamatorii | Celecoxib | Mai putin iritant gastric |
+| Citokine | IL-1 | Febra, edem, durere | Anakinra | Artrite severe |
+| Citokine | IL-6 | Inflamatie cronica | Tocilizumab | Autoimunitate |
+| Citokine | TNF-α | Distrugere tisulara | Infliximab / Adalimumab | Artrita reumatoida |
+| Lipide | Prostaglandine | Durere, febra | Ibuprofen / Naproxen | Prima linie |
+| Lipide | Leucotriene | Bronhoconstrictie | Montelukast | Astm alergic |
+| Amine | Histamina | Edem, roseata | Cetirizina / Loratadina | Alergii |
+| Radicali liberi | ROS | Stres oxidativ | N-acetilcisteina (NAC) | Antioxidant |
+| Inflamazom | NLRP3 | Eliberare IL-1β | Colchicina | Guta |

@@ -14,158 +14,158 @@ Cursul-18 Naturopatie
  Cursul 10
  Reiki
 
- ―Reiki este înțelepciune și adevăr‖
+ ―Reiki este intelepciune si adevar‖
  Hawayo Takata
 
- De-a lungul istoriei omenirii au existat întotdeauna metode de vindecare care se bazau pe
-transferul energiei vitale universale, aceeași energie care aduce via ța în univers și o hrănește. În
-urmă cu mii de ani, tibetanii ajunseseră la o înțelegere adâncă a naturii spiritului, energiei și
-materiei, utilizând aceasta cunoaștere pentru vindecarea trupurilor lor, armonizarea sufletelor si
-conducerea spiritelor către experiența unității. Mai târziu găsim această cunoaștere și în India și,
-de asemenea, găsim forme modificate ale ei in Japonia, China, Egipt și la culturile romane,
-numai ca să menționez câteva. Această cunoaștere a fost păstrată de misterul școlilor majo ritații
-culturilor antice si a fost cunoscută în întregime numai de câțiva oameni, de obicei preoți sau
-conducatori spirituali care in schimb, au transmis-o discipolilor pe cale orală.
-Oamenii de știință moderni, de obicei interpretează greșit această cu noaștere pentru că
-ea s -a păstrat in limbaj criptic sau prin simboluri. Cunoașterea Reiki s -ar fi pierdut dacă Dr.
-Mikao Usui nu ar fi redescoperit cheia care duce la refacerea unei tradiții de vindecare veche de
-mii de ani ea apărând încă din vechile scri eri sanscrite până la sfârșitul secolului XIX. Cuvântul
-Reiki înseamnă energie vitală universală. Este definită ca fiind puterea care acționeaza și traiește
-în toată materia creată. Cuvântul se împarte în două. Silaba rei descrie
+ De-a lungul istoriei omenirii au existat intotdeauna metode de vindecare care se bazau pe
+transferul energiei vitale universale, aceeasi energie care aduce via ta in univers si o hraneste. In
+urma cu mii de ani, tibetanii ajunsesera la o intelegere adanca a naturii spiritului, energiei si
+materiei, utilizand aceasta cunoastere pentru vindecarea trupurilor lor, armonizarea sufletelor si
+conducerea spiritelor catre experienta unitatii. Mai tarziu gasim aceasta cunoastere si in India si,
+de asemenea, gasim forme modificate ale ei in Japonia, China, Egipt si la culturile romane,
+numai ca sa mentionez cateva. Aceasta cunoastere a fost pastrata de misterul scolilor majo ritatii
+culturilor antice si a fost cunoscuta in intregime numai de cativa oameni, de obicei preoti sau
+conducatori spirituali care in schimb, au transmis-o discipolilor pe cale orala.
+Oamenii de stiinta moderni, de obicei interpreteaza gresit aceasta cu noastere pentru ca
+ea s -a pastrat in limbaj criptic sau prin simboluri. Cunoasterea Reiki s -ar fi pierdut daca Dr.
+Mikao Usui nu ar fi redescoperit cheia care duce la refacerea unei traditii de vindecare veche de
+mii de ani ea aparand inca din vechile scri eri sanscrite pana la sfarsitul secolului XIX. Cuvantul
+Reiki inseamna energie vitala universala. Este definita ca fiind puterea care actioneaza si traieste
+in toata materia creata. Cuvantul se imparte in doua. Silaba rei descrie
 
-aspectul nemărginit universal al acestei energii, în timp ce ki este el însuși
-parte a rei, fiind energia forței vitale care curge prin toate ființele.
-Multe rase, culturi și religii au fost întotdeauna conștiente de existența unei energii care
-corespunde întelesului lui ki. Astfel ki este denumit:
-Chi de către chinezi, Ight sau fantoma Sfânta de către creștini, Prana de către hinduși,
-Mana de către Kahunas și Energie bioplasmică de către cercetătorii ruși. Și probabil același lucru
-este: Telesma la Hermes Trismegistos, Ka la eg ipteni, Pneuma la greci, Eckankar în limbajul
-Pali, Fluidul vieții la alchimiști, Jesod și cabbala la evrei, Mgebe la pigmeii, Hasina pe insula
+aspectul nemarginit universal al acestei energii, in timp ce ki este el insusi
+parte a rei, fiind energia fortei vitale care curge prin toate fiintele.
+Multe rase, culturi si religii au fost intotdeauna constiente de existenta unei energii care
+corespunde intelesului lui ki. Astfel ki este denumit:
+Chi de catre chinezi, Ight sau fantoma Sfanta de catre crestini, Prana de catre hindusi,
+Mana de catre Kahunas si Energie bioplasmica de catre cercetatorii rusi. Si probabil acelasi lucru
+este: Telesma la Hermes Trismegistos, Ka la eg ipteni, Pneuma la greci, Eckankar in limbajul
+Pali, Fluidul vietii la alchimisti, Jesod si cabbala la evrei, Mgebe la pigmeii, Hasina pe insula
 Madagascar, Oki la indienii, Puterea regilor europeni de vindecare prin atingere,Puterea de
-vindecare a naturii la Hippocrate, Puterea odica a Baronului Reichenbach, Energia biocosmică a
+vindecare a naturii la Hippocrate, Puterea odica a Baronului Reichenbach, Energia biocosmica a
 Dr. O. Brunler, Puterea X a lui L.E. Eemann si Cea de a cincea putere.
-Toate sunt același lucru și au la baza aceeași energie, deși extinderea la care sunt aplicate și
-teoriile l or diferă mult. Condițiile de bază cerute pentru a utiliza această energie sunt, de
-asemenea, foarte diferite. Unele din sisteme amintite solicită ca acele exerciții de aducere a
-energiei să fie pure și frecvent trebuie îndurată multă singurătate înainte c a energia dorită să
-apară și să poată fi folosită. Cu cât ne apropiem mai mult de forma de bază a acestei energii
-universale a vieții, cu atât devine mai de înțeles, mai eficientă și mai ușor de utilizat. Căci o piesă
-a înțelepciunii ermetice spune:
-― Cheia adevărului este simplicitatea‖.
- Sistemul Reiki al lui Usui nu numai că este cel mai simplu și mai naturală metodă de
-vindecare pe care o cunoaștem, dar este, de asemenea, cel mai eficient mod de a transfera această
-energie vitală universală. O dată ce o persoană a fost deschisă să devină un ―canal‖ pentru Reiki,
-energia concentrată a vieții va curge prin mâinile sale cu acordul său propriu și el va rămâne cu
-această capacitate pentru tot restul vieții sale.
+Toate sunt acelasi lucru si au la baza aceeasi energie, desi extinderea la care sunt aplicate si
+teoriile l or difera mult. Conditiile de baza cerute pentru a utiliza aceasta energie sunt, de
+asemenea, foarte diferite. Unele din sisteme amintite solicita ca acele exercitii de aducere a
+energiei sa fie pure si frecvent trebuie indurata multa singuratate inainte c a energia dorita sa
+apara si sa poata fi folosita. Cu cat ne apropiem mai mult de forma de baza a acestei energii
+universale a vietii, cu atat devine mai de inteles, mai eficienta si mai usor de utilizat. Caci o piesa
+a intelepciunii ermetice spune:
+― Cheia adevarului este simplicitatea‖.
+ Sistemul Reiki al lui Usui nu numai ca este cel mai simplu si mai naturala metoda de
+vindecare pe care o cunoastem, dar este, de asemenea, cel mai eficient mod de a transfera aceasta
+energie vitala universala. O data ce o persoana a fost deschisa sa devina un ―canal‖ pentru Reiki,
+energia concentrata a vietii va curge prin mainile sale cu acordul sau propriu si el va ramane cu
+aceasta capacitate pentru tot restul vietii sale.
 Micile diferente intre sistemul Usui c lasic si sistemul folosit acum, au venit de la
 folosirea si diagnosticarea reiki prin scanarea ceakrelor.
-Ce este mai exact această energie vitală universală. Să ascultam, mai întai ce au de spus
-bătrânii înțelepți și oamenii de știință despre acest subiect. Se datorează medicinii moderne faptul
-că majoritatea oamenilor sunt conștienți de imensa ―vitalitate‖ care însoțește orice existență. Căci
-nu cu mult timp în urmă o piatră a fost considerată ca fiind materie ―moartă‖. Astăzi știm că
-astfel de lucruri ―simple‖ se află într-o corelație inteligentă cu nenumărate forțe. Cât de mică este
-această piatră în comparație cu întinderea enormă a universului nostru 100.000 de gene diferite,
-alcătuite din ADN. Fiecare din această microscopică celulă conține în ea însa și nu mai puțin de
-planurile contrucției noastre genetice. Dacă ar fi să desfacem aceste lanțuri spiralate și să le
+Ce este mai exact aceasta energie vitala universala. Sa ascultam, mai intai ce au de spus
+batranii intelepti si oamenii de stiinta despre acest subiect. Se datoreaza medicinii moderne faptul
+ca majoritatea oamenilor sunt constienti de imensa ―vitalitate‖ care insoteste orice existenta. Caci
+nu cu mult timp in urma o piatra a fost considerata ca fiind materie ―moarta‖. Astazi stim ca
+astfel de lucruri ―simple‖ se afla intr-o corelatie inteligenta cu nenumarate forte. Cat de mica este
+aceasta piatra in comparatie cu intinderea enorma a universului nostru 100.000 de gene diferite,
+alcatuite din ADN. Fiecare din aceasta microscopica celula contine in ea insa si nu mai putin de
+planurile contructiei noastre genetice. Daca ar fi sa desfacem aceste lanturi spiralate si sa le
 punem cap la cap, lungimea lor ar atinge mai mult de 120 miliarde km, cam de 800 de ori
-distanța dintre pământ și soare. Și totuși toate ace ste lanțuri de AND încap în ceva mai mic decât
-o alună ! Jocul cu figuri și valori ar putea fi continuat până la infinit. Cât de mare poate fi energia
-ca toate aceste forme de viața să se manifeste. Cât de mare trebuie să fie inteligența care dă
+distanta dintre pamant si soare. Si totusi toate ace ste lanturi de AND incap in ceva mai mic decat
+o aluna ! Jocul cu figuri si valori ar putea fi continuat pana la infinit. Cat de mare poate fi energia
+ca toate aceste forme de viata sa se manifeste. Cat de mare trebuie sa fie inteligenta care da
 
-acestor fo rme viață. Sau universul și viețile noastre apar dintr -un șir de coincidențe? Poate
-materia inconștienta să aducă conștiintă? Poate aduce spiritul? Poate aduce un suflet?
-In acest punct până și știința se confruntă cu o problemă nerezolvată. Mulți oameni de știință au
-la momentul în care ar exista o singură explicație și anume că există o forță inteligentă
-superioară: un spirit universal care crează în continuu universul din el însuși. Ultimele
-descoperiri din fizica cuantică sunt foarte aproape de această idee. Teoria supergravitației descrie
-existența unui câmp standardizat, perfectechilibrat în relația cu el însuși, un câmp de inteligență
-pură care aduce toată materia la forma de bază a tuturor creațiilor. Această coincide exact cu
-descoperirile care i-au luminat pe oameni de -a lungul secolelor. Ei ne spun că există o stare de a
-fi care conține toată creația și din care apare viața. Energia acestei stări de a fi trăiește în toate
-lucrurile și această energie universală curge prin mâinile noastre în forma concentrată atunci
-când tratăm pe cineva cu Reiki. In termeni practici reiki este deasupra celor holistice. Reiki
-atinge toate nivelurile de existență și se luptă să aducă aceste diferite niveluri la o stare de
-echilibru. Terapeutul este numai un canal pen tru această energie, pentru că acesta nu este al lui,
-energia limitată care trece prin el când își așează mâinile pe o persoană, dar mai degrabă una
-universală, care îl lasă apoi în armonie cu el și mai puternic. De asemenea, Reiki lucrează în felul
-său asupra zonei din corp care are nevoie.
- Evident este înzestrat cu o mare inteligență din moment ce știe exact locul și modul în care
-să acționeze.Oamenii ,.foarte..receptivi..experimenten-tează Reiki ca dragoste. Dragostea este o
-putere de unire care ne conduce mai departe către o stare de sine cu întregul creției. Scopul real
-al omenirii este să traducă această stare în realitate și să o trăiască. Dragostea este căminul
-sufletului, acolo unde se întoarce să fie unită ca picătura cu oceanul nemărginit al ființei, o stare
-de uniune, cunoaștere incomprehensivă și înțelepciune, creativitate și armonie ca și realizare,
-dragoste și eternă binecuvântare. Reiki ne poate ajuta să ne găsim drumul înapoi către această
-stare de sănătate. Este o metodă de vindecar e în sensul cel mai larg al cuvântului. După cum ați
-observat deja, Reiki nu are nimic în comun cu spiritismul sau ocultismul în orice formă a lor. De
-asemenea, nu are nimic în comun cu invocarea fantomelor sau a demonilor, nici cu hipnoza sau
-orice alt gen de tehnică psihologică. Darul Reiki nu te face ―magician‖. În tratamentul Reiki, se
-utilizează numai o forma concentrată dar neutră de energie cosmică.
-Pentru a practica Reiki, nu este necesară o credință specială. Este utilizat cu succes de
-oameni de diferite credințe și religii, de către liberii
-cugetători ca și de adepții a diferite filosofii și
-ideologii. Faptul că Reiki a permis multor oameni să atingă o înțelegere mai bună a problemelor
-religioase în timp ce le-a permis să experimenteze
-spiritualitatea într-o manieră mai profundă vorbește despre universalitatea sa.
-Cu siguranță nu este o simplă coincidență ca o metodă de vindecare că Reiki a fost
-redescoperită și adusă înapoi la viață în zilele noastre, pentru
-recunoasterea faptului că înțelepciunea adâncă a
-formei de viață o mică parte a dezvoltării științei și
-tehnologiei a dus la apariția unei alte probleme chiar și cu existența acestor adevăruri
+acestor fo rme viata. Sau universul si vietile noastre apar dintr -un sir de coincidente? Poate
+materia inconstienta sa aduca constiinta? Poate aduce spiritul? Poate aduce un suflet?
+In acest punct pana si stiinta se confrunta cu o problema nerezolvata. Multi oameni de stiinta au
+la momentul in care ar exista o singura explicatie si anume ca exista o forta inteligenta
+superioara: un spirit universal care creaza in continuu universul din el insusi. Ultimele
+descoperiri din fizica cuantica sunt foarte aproape de aceasta idee. Teoria supergravitatiei descrie
+existenta unui camp standardizat, perfectechilibrat in relatia cu el insusi, un camp de inteligenta
+pura care aduce toata materia la forma de baza a tuturor creatiilor. Aceasta coincide exact cu
+descoperirile care i-au luminat pe oameni de -a lungul secolelor. Ei ne spun ca exista o stare de a
+fi care contine toata creatia si din care apare viata. Energia acestei stari de a fi traieste in toate
+lucrurile si aceasta energie universala curge prin mainile noastre in forma concentrata atunci
+cand tratam pe cineva cu Reiki. In termeni practici reiki este deasupra celor holistice. Reiki
+atinge toate nivelurile de existenta si se lupta sa aduca aceste diferite niveluri la o stare de
+echilibru. Terapeutul este numai un canal pen tru aceasta energie, pentru ca acesta nu este al lui,
+energia limitata care trece prin el cand isi aseaza mainile pe o persoana, dar mai degraba una
+universala, care il lasa apoi in armonie cu el si mai puternic. De asemenea, Reiki lucreaza in felul
+sau asupra zonei din corp care are nevoie.
+ Evident este inzestrat cu o mare inteligenta din moment ce stie exact locul si modul in care
+sa actioneze.Oamenii ,.foarte..receptivi..experimenten-teaza Reiki ca dragoste. Dragostea este o
+putere de unire care ne conduce mai departe catre o stare de sine cu intregul cretiei. Scopul real
+al omenirii este sa traduca aceasta stare in realitate si sa o traiasca. Dragostea este caminul
+sufletului, acolo unde se intoarce sa fie unita ca picatura cu oceanul nemarginit al fiintei, o stare
+de uniune, cunoastere incomprehensiva si intelepciune, creativitate si armonie ca si realizare,
+dragoste si eterna binecuvantare. Reiki ne poate ajuta sa ne gasim drumul inapoi catre aceasta
+stare de sanatate. Este o metoda de vindecar e in sensul cel mai larg al cuvantului. Dupa cum ati
+observat deja, Reiki nu are nimic in comun cu spiritismul sau ocultismul in orice forma a lor. De
+asemenea, nu are nimic in comun cu invocarea fantomelor sau a demonilor, nici cu hipnoza sau
+orice alt gen de tehnica psihologica. Darul Reiki nu te face ―magician‖. In tratamentul Reiki, se
+utilizeaza numai o forma concentrata dar neutra de energie cosmica.
+Pentru a practica Reiki, nu este necesara o credinta speciala. Este utilizat cu succes de
+oameni de diferite credinte si religii, de catre liberii
+cugetatori ca si de adeptii a diferite filosofii si
+ideologii. Faptul ca Reiki a permis multor oameni sa atinga o intelegere mai buna a problemelor
+religioase in timp ce le-a permis sa experimenteze
+spiritualitatea intr-o maniera mai profunda vorbeste despre universalitatea sa.
+Cu siguranta nu este o simpla coincidenta ca o metoda de vindecare ca Reiki a fost
+redescoperita si adusa inapoi la viata in zilele noastre, pentru
+recunoasterea faptului ca intelepciunea adanca a
+formei de viata o mica parte a dezvoltarii stiintei si
+tehnologiei a dus la aparitia unei alte probleme chiar si cu existenta acestor adevaruri
 incontestabile.
-Stăm pe umerii noii generații care fie vă aduce o nouă calitate a conștiinței umane sa u o
-distrugere radicală a tot ceea ce este vechi. Orice s -ar întâmpla, este decizia noastră și găsim că
-este încurajator faptul că există interes pentru ca adevărul să se răspândească.
+Stam pe umerii noii generatii care fie va aduce o noua calitate a constiintei umane sa u o
+distrugere radicala a tot ceea ce este vechi. Orice s -ar intampla, este decizia noastra si gasim ca
+este incurajator faptul ca exista interes pentru ca adevarul sa se raspandeasca.
  Nivele ale practicii Reiki
 
- Clasificarea reiki in nivele este o sursa constantă de discuții între profesorii reiki. Opiniile
-variate au hotărît care este cea mai bună cale de a împarți procesul învațării .
-Reiki tradițional are trei nivele:
+ Clasificarea reiki in nivele este o sursa constanta de discutii intre profesorii reiki. Opiniile
+variate au hotarit care este cea mai buna cale de a imparti procesul invatarii .
+Reiki traditional are trei nivele:
 
-1. Nivelul începătorilor, acum se numește Primul grad.
-2. Nivelul avansaților, acum se numește Al doilea grad.
-3. Maestru reiki, înca se numește Al treilea grad in unele grupuri.
+1. Nivelul incepatorilor, acum se numeste Primul grad.
+2. Nivelul avansatilor, acum se numeste Al doilea grad.
+3. Maestru reiki, inca se numeste Al treilea grad in unele grupuri.
 
- D-na. Takata nu a fost de acord cu părerile predecesorilor săi in totalitate, cu cei ce
-pretindeau să-și țină secrete descoperirile sau cu cei ce se credeau uniți prin liniile sângelui
- Primul nivel este seminarul original timp în care primim energia reiki pentru viață. Studenții
-primesc pentru inițiere deschiderea. Aceasta este cea mai importantă parte a seminarului și e ste
-ceea ce dă primul grad cel mai important
-nivel al reiki. Pentru un practicant reiki nimic nu poate fi mai important decât inițierea cu energia
-reiki pentru viață.
- AL DOILEA NIVEL Nivelul I plus vindecarea la distanță. Acest nivel ne învață trei din
-cele patru simboluri tradiționale utilizate in Reiki. În general aici are loc o creștere a puterii.
-Practicianul poate, de asemenea, să vindece la distanță. Solicita atingerea a 2 stadii de armonie.
+ D-na. Takata nu a fost de acord cu parerile predecesorilor sai in totalitate, cu cei ce
+pretindeau sa-si tina secrete descoperirile sau cu cei ce se credeau uniti prin liniile sangelui
+ Primul nivel este seminarul original timp in care primim energia reiki pentru viata. Studentii
+primesc pentru initiere deschiderea. Aceasta este cea mai importanta parte a seminarului si e ste
+ceea ce da primul grad cel mai important
+nivel al reiki. Pentru un practicant reiki nimic nu poate fi mai important decat initierea cu energia
+reiki pentru viata.
+ AL DOILEA NIVEL Nivelul I plus vindecarea la distanta. Acest nivel ne invata trei din
+cele patru simboluri traditionale utilizate in Reiki. In general aici are loc o crestere a puterii.
+Practicianul poate, de asemenea, sa vindece la distanta. Solicita atingerea a 2 stadii de armonie.
  AL TREILEA NIVEL (Maestru) Nivelul II plus Simbolul Maestrului, invata al patrulea
 simbol, Simbolul Maestrului. Are loc, din nou, o crestere a puterii. Socilita atingerea a 4 stadii de
 armonie.
  MAESTRU PROFESOR Nivelul III plus abilitatea de a instrui in practica Reiki.
-Mulți profesori nu văd acest nivel ca pe un nivel separat de nivelul III, in timp ce alții cer
-instruirea în continuare pentru acest nivel. Acest nivel nu solicită atingerea altor stadii de
-armonie sau altor simboluri. În schimb îți oferă încredere și cuno ștințe pentru a conduce o clasă
+Multi profesori nu vad acest nivel ca pe un nivel separat de nivelul III, in timp ce altii cer
+instruirea in continuare pentru acest nivel. Acest nivel nu solicita atingerea altor stadii de
+armonie sau altor simboluri. In schimb iti ofera incredere si cuno stinte pentru a conduce o clasa
 
 este de partea cealalta a mesei.
- Unii profesori adaugă alte nivele, informații din alte tradiții și așa mai departe. Acest e alte
-nivele nu fac parte din Sistemul tradițional Usui de Vindecare Naturală așa cum a fost păstrat de
-către Dna. Takata. Uneori, aceste alte lucruri se spune ca ar fi bucatele recuperate din
-cunostințele Reiki sau ceva in genul asta. Cu condiția ca prof esorul sa faca distincția clar intre
-lucrurile adaugate si invațăturile tradiționale pentru onorarea corecta a sistemului Usui. Aceste
-alte lucruri pot fi "Reiki" in intelesul larg al cuvantului, dar nu sunt "Reiki" in sensul obișnuit al
+ Unii profesori adauga alte nivele, informatii din alte traditii si asa mai departe. Acest e alte
+nivele nu fac parte din Sistemul traditional Usui de Vindecare Naturala asa cum a fost pastrat de
+catre Dna. Takata. Uneori, aceste alte lucruri se spune ca ar fi bucatele recuperate din
+cunostintele Reiki sau ceva in genul asta. Cu conditia ca prof esorul sa faca distinctia clar intre
+lucrurile adaugate si invataturile traditionale pentru onorarea corecta a sistemului Usui. Aceste
+alte lucruri pot fi "Reiki" in intelesul larg al cuvantului, dar nu sunt "Reiki" in sensul obisnuit al
 acestui cuvant folosit pentru denumirea "Sistemului Natural de Vindecare Usui".
 La acest grad am avut sansa ca maestrul meu, reiki master teacher Eli Navon sa ma pregateasca
-în ceea ce se numește « operația spirituală », o legatura subtilă ce se face într -o stare de
-semihipnoză între psihologie și meditație dirijată, situație în care problema pacientului, în cazul
-în care se datorează unei traume psihice se poate rezolva în câteva ședințe.
+in ceea ce se numeste « operatia spirituala », o legatura subtila ce se face intr -o stare de
+semihipnoza intre psihologie si meditatie dirijata, situatie in care problema pacientului, in cazul
+in care se datoreaza unei traume psihice se poate rezolva in cateva sedinte.
 
 Nivelul I Reiki - PRIMUL GRAD
- Se bazează pe nivelul introductiv. Dă acces en ergiei si mâna liberă vindecării după cum este
-descris in cursul despre pozițiile tradiționale ale mâinii. Solicită atingerea a 4 stadii de armonie.
- Cum este și normal un începător în practica reiki trebuie să exerseze autotratamentul, necesar
-tuturor practicanților, indiferent de starea lor de sanătate.
-În acest caz compatibilitatea terapeut-pacient este 100%
+ Se bazeaza pe nivelul introductiv. Da acces en ergiei si mana libera vindecarii dupa cum este
+descris in cursul despre pozitiile traditionale ale mainii. Solicita atingerea a 4 stadii de armonie.
+ Cum este si normal un incepator in practica reiki trebuie sa exerseze autotratamentul, necesar
+tuturor practicantilor, indiferent de starea lor de sanatate.
+In acest caz compatibilitatea terapeut-pacient este 100%
 
 Dupa initiere , studentului i se da sa vorbeasca despre toate subiectele descoperite in curs. Sunt
-luate puncte din știință și metafizică pentr u reiki cu abundenta de cazuri istorice care se afla in
+luate puncte din stiinta si metafizica pentr u reiki cu abundenta de cazuri istorice care se afla in
 spatele teoriei.
 Se vorbeste deasemenea cum sa faca tratamente sigure, sa trateaza animale si plante si se
 trateaza alti oameni ce se afla in situatii critice . Se intersecteaza cu teoria si sezonul practic in
@@ -176,32 +176,32 @@ examene deoarece este putin de invatat sau de stiut . Nu este intr -adevar neces
 multe explicatii deoarece ceea ce conteaza de fapt este receptarea reiki si folosirea acestuia prin
 punerea mainilor pe corp .Multi profesoi reiki adauga la eceasta filosofia, predau fo arte putin si
 isi focalizeaza
-Intrega munca asupra aplicatiilor practice . Cel mai important este însă autotratamentul. Se spune
-că, ―Pentru a da reiki trebuie să fi primit reiki‖ iar pentru început cel ce-ți ―dă‖ reiki ești tu însuți.
-Practicanții reiki ce au ajuns numai la nivelul 1 trebuie să practice zilnic cel puțin 3minute pe
-fiecare dintre puncte. Cel mai bine este să aveți 5 minute pentru fiecare punct, în timp echilibrul
-energetic restabilindu-se veți reduce involuntar durata pe zonele deja echilibrate.
+Intrega munca asupra aplicatiilor practice . Cel mai important este insa autotratamentul. Se spune
+ca, ―Pentru a da reiki trebuie sa fi primit reiki‖ iar pentru inceput cel ce-ti ―da‖ reiki esti tu insuti.
+Practicantii reiki ce au ajuns numai la nivelul 1 trebuie sa practice zilnic cel putin 3minute pe
+fiecare dintre puncte. Cel mai bine este sa aveti 5 minute pentru fiecare punct, in timp echilibrul
+energetic restabilindu-se veti reduce involuntar durata pe zonele deja echilibrate.
 
 Nivelul II Reiki AL DOILEA GRAD
- Nivelul I plus vindecarea la distanță. Acest nivel ne învață trei din cele patru simboluri
-tradiționale utilizate in Reiki. In general aici are loc o creștere a puterii. Practicianul poate, de
-asemenea, să vindece la distanță.
+ Nivelul I plus vindecarea la distanta. Acest nivel ne invata trei din cele patru simboluri
+traditionale utilizate in Reiki. In general aici are loc o crestere a puterii. Practicianul poate, de
+asemenea, sa vindece la distanta.
 Solicita atingerea a 2 stadii de armonie.
-Transmiterea energiei are ca ajutor aplicarea mentală a simbolurilor, simboluri care,
-fiind chiar vizibile pentru oricine nu sunt accesibile oricui, sunt protejete și nu
-funcționează decât prin acordaje specifice. Spre deosebire de primul nivel, acest
+Transmiterea energiei are ca ajutor aplicarea mentala a simbolurilor, simboluri care,
+fiind chiar vizibile pentru oricine nu sunt accesibile oricui, sunt protejete si nu
+functioneaza decat prin acordaje specifice. Spre deosebire de primul nivel, acest
 nivel nu este indicat si nici nu este accesibil oricarei persoane care a terminat nivelul
-I.Sunt unii care nici nu simt nevoia și sunt altii care încă nu sunt pregatiti pentru el.
+I.Sunt unii care nici nu simt nevoia si sunt altii care inca nu sunt pregatiti pentru el.
 De fapt acest nivel trebuie „meritat‖. Desigur, nu maestrul sau o comisie decid; Cei
-această decizie nu este o chestiune de bunavointa, ci mai degraba de maturitate. care vin la acest
-curs sunt nu vin din curiozitate și mai mult dintr -un sentiment interior de necesita te. Nivelul II
+aceasta decizie nu este o chestiune de bunavointa, ci mai degraba de maturitate. care vin la acest
+curs sunt nu vin din curiozitate si mai mult dintr -un sentiment interior de necesita te. Nivelul II
 ne ajuta sa ne „adancim‖ in noi si ofera solutii superioare pentru descoperirea sinelui si integrarii
 acestuia. Racordarea de la acest nivel duce la o circulatiei sporita a energiei dar, pe langa planul
 fizic, isi exercita influenta si pe pl an emotional si mental. In urma acestei initieri ies in evidenta
 in primul rand schimbarile sufletesti, spre deosebire de schimbarile fizice de la nivelul I. Nivelul
 II ne ajuta sa ne traim viata constienti, fara incordare/tensiune si sa ne apropiem de fi inta noastra
 reala interioara. Dar inaintarea pe acest drum se poate face doar de unul singur.
-Simbolurile reiki nu pot face rău, nici celui ce -l desenează greșit, fizic sau în imaginație și nici
+Simbolurile reiki nu pot face rau, nici celui ce -l deseneaza gresit, fizic sau in imaginatie si nici
 celui ce-i este aplicat.
  Simbolul este o forta -energie legata de forma, de o creatie unica. In Europa cel mai cunoscut
 simbol este cel al crestinatat ii – crucea. Puterea simbolului cruce, incarcatura acestuia nu vine
@@ -226,51 +226,51 @@ puterea/eficienta vizualizarii.
 
  Simbolul 1-
 
- CHO KO REI – pune puterea aici, declanșează și amplifică emisia energetică a ființei tale.
- Deschide accesul la energia universală, simbol ce
-poate fi folosit ca protecție, în tratament se aplică
-întâi terapeutului după care se aplică pacientului.
+ CHO KO REI – pune puterea aici, declanseaza si amplifica emisia energetica a fiintei tale.
+ Deschide accesul la energia universala, simbol ce
+poate fi folosit ca protectie, in tratament se aplica
+intai terapeutului dupa care se aplica pacientului.
  Asocierea desenului, a imaginii se face, 1-2
-se pronunță CHO KO REI, 2-3 se pronunță CHO KO REI, la
-3-4 CHO, 4-5 KO, 5-6 REI, în final se pronunță CHO --KO -REI pe ansamblu. În cazul în care
-terapeutul capătă experiență și vizualizează CHO KO REI global, se pronunță CHO KO REI de
+se pronunta CHO KO REI, 2-3 se pronunta CHO KO REI, la
+3-4 CHO, 4-5 KO, 5-6 REI, in final se pronunta CHO --KO -REI pe ansamblu. In cazul in care
+terapeutul capata experienta si vizualizeaza CHO KO REI global, se pronunta CHO KO REI de
 trei ori, pentru terapeut,
 pentru pacient, pentru activare.
 
  Simbolul 2-
 
- SEI HE KI –Este un simbol cu care se lucrează la nivel mental și
-emoțional, simbolul armoniei, asigură și protejează emisia ta informațională. Am cheia de la
-subconștientul tău. Este , în general cel mai puțin folosit dintre simboluri dar pentru cei ce -l
-folosesc este foarte util și puternic.
+ SEI HE KI –Este un simbol cu care se lucreaza la nivel mental si
+emotional, simbolul armoniei, asigura si protejeaza emisia ta informationala. Am cheia de la
+subconstientul tau. Este , in general cel mai putin folosit dintre simboluri dar pentru cei ce -l
+folosesc este foarte util si puternic.
 
  Simbolul 3-
 
-HEN SHI ZEI SHO NEN - asigură și protejează emisia ta informațională. HEN SHI ZEI
-SHO NEN înlătură impuritățile ce pot diminua emisia telepatică a subiectului și îl protejează pe
-acesta de atacurile malefice din jur. Când aplici HEN SHI ZEI SHO NEN tu însuți devii un focar
-de emisie energetică pură. Este bine să -l folosești după CHO KO REI. Fără CHO KO REI,
-comparația mea se referă ca la o ființă fără cap. Sau este ca și cum capul tău ar încerca să trimită
-niște gânduri care încă n-au apărut.
+HEN SHI ZEI SHO NEN - asigura si protejeaza emisia ta informationala. HEN SHI ZEI
+SHO NEN inlatura impuritatile ce pot diminua emisia telepatica a subiectului si il protejeaza pe
+acesta de atacurile malefice din jur. Cand aplici HEN SHI ZEI SHO NEN tu insuti devii un focar
+de emisie energetica pura. Este bine sa -l folosesti dupa CHO KO REI. Fara CHO KO REI,
+comparatia mea se refera ca la o fiinta fara cap. Sau este ca si cum capul tau ar incerca sa trimita
+niste ganduri care inca n-au aparut.
 
-Prin HEN SHI ZEI SHO NEN - Pod între timp și spațiu, îți extinzi efectul lui CHO KO
-REI oriunde dorești și pentru orice durată. Totul depinde de ceea ce îți pui în gând înainte de
-folosirea codificării. Practic, îți propui să realizei un lucru, apoi aplici CHO KO REI și HEN SHI
-ZEI SHO NEN, sau CHO KO REI și SEI HEI KI, sau CHO KO REI și alte simboluri secundare.
-În continuare, vei începe să tratezi bolnavul, sau vei aștepta efectul acțiunii tale declanșatoare de
-reușită. Se folosește pentru tratament la distanță
+Prin HEN SHI ZEI SHO NEN - Pod intre timp si spatiu, iti extinzi efectul lui CHO KO
+REI oriunde doresti si pentru orice durata. Totul depinde de ceea ce iti pui in gand inainte de
+folosirea codificarii. Practic, iti propui sa realizei un lucru, apoi aplici CHO KO REI si HEN SHI
+ZEI SHO NEN, sau CHO KO REI si SEI HEI KI, sau CHO KO REI si alte simboluri secundare.
+In continuare, vei incepe sa tratezi bolnavul, sau vei astepta efectul actiunii tale declansatoare de
+reusita. Se foloseste pentru tratament la distanta
 Nivelul III Reiki - AL III-LEA GRAD
  Este gradul la care se introduce simbolul - IV- simbolul maestru
 
 THE GREATE BING OF THE UNIVERS sau THE DIVINE WINDOOM,
-de aici pleacă totul. Cuprinde trei simboluri din reiki II, duce la simțiri superioare, iar din
-momentul în care lucrăm cu simbolul IV aducem tot reiki la acest simbol. Tot ceea ce vom face
-in reiki de acum, începe și se termină cu simbolul IV Dă răspuns la toate întrebările fără a
-mai fi necesar un alt simbol iar in cazul folosirii întărește toate simbolurile ce îl urmează. Se
-numește simbolul master. Este cel mai înalt simbol în sistemul Usui, este simbolul cu c are se
-poate face operația spirituală. Dă putere rețelei de cristale și aprofundează meditația reiki. Se
-folosește în special
-la începutul și la sfârșitul lucrurilor. Ordinea în folosirea simbolurilor este: 4, 2, 1,3, iar
+de aici pleaca totul. Cuprinde trei simboluri din reiki II, duce la simtiri superioare, iar din
+momentul in care lucram cu simbolul IV aducem tot reiki la acest simbol. Tot ceea ce vom face
+in reiki de acum, incepe si se termina cu simbolul IV Da raspuns la toate intrebarile fara a
+mai fi necesar un alt simbol iar in cazul folosirii intareste toate simbolurile ce il urmeaza. Se
+numeste simbolul master. Este cel mai inalt simbol in sistemul Usui, este simbolul cu c are se
+poate face operatia spirituala. Da putere retelei de cristale si aprofundeaza meditatia reiki. Se
+foloseste in special
+la inceputul si la sfarsitul lucrurilor. Ordinea in folosirea simbolurilor este: 4, 2, 1,3, iar
 lameditatia reiki : 1,2,3,4
 
  Avand toate cunostintele acumulate pana acum, putem porni in a diagnostica si apoi
@@ -278,8 +278,8 @@ trata, tinand cont de micile diferente intre sistemul Usui clasic si sistemul fo
 diagnosticarea reiki prin scanarea ceakrelor.
 
 Profesor Maestru Reiki
- Acest grad nu se obține decât după practicarea reiki o perioada de 6 luni timp în care în
-paralel cu practica se face asistenta pe lângă maestru realizând clar cum se predă acest sistem.
+ Acest grad nu se obtine decat dupa practicarea reiki o perioada de 6 luni timp in care in
+paralel cu practica se face asistenta pe langa maestru realizand clar cum se preda acest sistem.
 
  Cursul 11.
  Medicina traditionala chineza. Doctrina celor cinci elemente
@@ -386,222 +386,222 @@ conturul buzelor intr-o directie si in alta. 4. Strangeti-va buzele cat mai pute
 apasati cu cealalta mana, in mijlocul barbiei. 5. Loviti-va usor obrajii cu podul palmei, pe toata
 suprafata lor: de la obraji spre gat si de la nas spre urechi. In final, treceti-va usor palmele peste
 fata. Teoria celor 5 elemente
- Cele cinci elemente se referã la cinci categorii din lumea naturalã, și anume: apa, lemnul,
-focul, pãmântul și metalul. Teoria lor considerã cã toate fenomenele din Univers corespund în
-Naturã unuia sau altuia dintre aceste elemente și cã ele se aflã într-o mișcare și transformare
-continuã.
-Teoria celor cinci elemente a apãrut în China în perioada dinastiilor Yin și Zhou (sec. XVI - 221
-î.e.n.). Ea își are însã rãdãcinile în vremuri strãvechi, când chinezul, fire contemplativã, observa
-și nota cele mai subtile schimbãri ale Naturii, orientându-și viața și activitãțile în funcție de
+ Cele cinci elemente se refera la cinci categorii din lumea naturala, si anume: apa, lemnul,
+focul, pamantul si metalul. Teoria lor considera ca toate fenomenele din Univers corespund in
+Natura unuia sau altuia dintre aceste elemente si ca ele se afla intr-o miscare si transformare
+continua.
+Teoria celor cinci elemente a aparut in China in perioada dinastiilor Yin si Zhou (sec. XVI - 221
+i.e.n.). Ea isi are insa radacinile in vremuri stravechi, cand chinezul, fire contemplativa, observa
+si nota cele mai subtile schimbari ale Naturii, orientandu-si viata si activitatile in functie de
 acestea.
- Apa, lemnul, focul, pãmântul și metalul sunt considerate ca fiind cinci elemente indispensabile
-pentru menținerea a tot ce este viu, reprezentând totodatã și stãrile care stau la baza
-transformãrilor din Naturã. In lucrarea "Colecția de lucruri strãvechi" se spune:
-"Hrana depinde de apã și foc. Producția depinde de metal și lemn. Pãmântul dã naștere tututor
+ Apa, lemnul, focul, pamantul si metalul sunt considerate ca fiind cinci elemente indispensabile
+pentru mentinerea a tot ce este viu, reprezentand totodata si starile care stau la baza
+transformarilor din Natura. In lucrarea "Colectia de lucruri stravechi" se spune:
+"Hrana depinde de apa si foc. Productia depinde de metal si lemn. Pamantul da nastere tututor
 lucrurilor. Ele sunt folosite de popor."
 
- Deși au caracteristici diferite, cele cinci elemente depind unul de celãlalt și sunt inseparabile.
-Incã din cele mai vechi timpuri, oamenii cunoșteau relațiile dintre ele și le foloseau pentru a
+ Desi au caracteristici diferite, cele cinci elemente depind unul de celalalt si sunt inseparabile.
+Inca din cele mai vechi timpuri, oamenii cunosteau relatiile dintre ele si le foloseau pentru a
 explica fenomenele lumii naturale.
-Conceptul primitiv al celor cinci elemente s-a dezvoltat ulterior într-o teorie complexã, care
-împreunã cu teoria Yin - Yang a servit drept metodã și instrument teoretic pentru analizarea și
-înțelegerea tuturor fenomenelor.
-In medicina tradiționalã chinezã, teoria celor cinci elemente este aplicatã pentru a explica natura
-organelor deținãtoare de energie și a celor ce transportã energia, legãturile dintre ele, precum și
-relațiile dintre om și lumea naturalã.
+Conceptul primitiv al celor cinci elemente s-a dezvoltat ulterior intr-o teorie complexa, care
+impreuna cu teoria Yin - Yang a servit drept metoda si instrument teoretic pentru analizarea si
+intelegerea tuturor fenomenelor.
+In medicina traditionala chineza, teoria celor cinci elemente este aplicata pentru a explica natura
+organelor detinatoare de energie si a celor ce transporta energia, legaturile dintre ele, precum si
+relatiile dintre om si lumea naturala.
 CLASIFICAREA FENOMENELOR CONFORM CELOR CINCI ELEMENTE
- Incã din preistorie omul și-a dat sema cã apa, lemnul, focul, pãmântul și metalul sunt
-indispensabile pentru viața sa de zi cu zi și cã ele au naturi diferite.
-Caracteristica apei este rãceala și fluiditatea, ea luând forma recipientului în care ajunge, cea a
-lemnului este înflorirea și creșterea, focul rãspândește cãldurã și luminã, pãmântul dã naștere
-tuturor lucrurilor, iar metalul se cufundã (sub acțiunea propriei greutãți).
- In antichitate, medicii au aplicat teoria celor cinci elemente în studiul țesuturilor și organelor,
-stabilind anumite corespondențe în funcție de natura, forma și funcția fiecãrui organ, între el și
+ Inca din preistorie omul si-a dat sema ca apa, lemnul, focul, pamantul si metalul sunt
+indispensabile pentru viata sa de zi cu zi si ca ele au naturi diferite.
+Caracteristica apei este raceala si fluiditatea, ea luand forma recipientului in care ajunge, cea a
+lemnului este inflorirea si cresterea, focul raspandeste caldura si lumina, pamantul da nastere
+tuturor lucrurilor, iar metalul se cufunda (sub actiunea propriei greutati).
+ In antichitate, medicii au aplicat teoria celor cinci elemente in studiul tesuturilor si organelor,
+stabilind anumite corespondente in functie de natura, forma si functia fiecarui organ, intre el si
 un anumit element.
-Aceastã clasificare este tratatã foarte amãnunțit în cel de-al cincilea capitol al "Intrebãrilor
-fundamentale", prezentând relația meridian - organ - element.
+Aceasta clasificare este tratata foarte amanuntit in cel de-al cincilea capitol al "Intrebarilor
+fundamentale", prezentand relatia meridian - organ - element.
 
-Relațiile dintre cele cinci elemente
+Relatiile dintre cele cinci elemente
 
-Legea mișcãrii celor cinci elemente este caracterizatã prin urmãtoarele relații:
-- Generarea unui element din celãlalt
-- Interacțiune- Dominare
+Legea miscarii celor cinci elemente este caracterizata prin urmatoarele relatii:
+- Generarea unui element din celalalt
+- Interactiune- Dominare
 
-- Opoziție
-- Relație tip mamã - fiu
-Generarea unui element din celãlalt
-Generarea unui element de cãtre celãlalt se referã la relația de generare a unui element de cãtre
+- Opozitie
+- Relatie tip mama - fiu
+Generarea unui element din celalalt
+Generarea unui element de catre celalalt se refera la relatia de generare a unui element de catre
 elementul anterior:
-Apa hrãnește lemnul
-Lemnul alimenteazã focul
-Focul naște pãmântul (cenușa)
-In pãmânt apar metalele
-Metalul (prin condensare) duce la apariția apei
- Atunci când aceastã relație de generare este aplicatã organelor interne deținãtoare de energie:
-rinichi, ficat, inimã, splinã și plãmâni, ea se referã la faptul cã energia unui organ va susține
-funcționarea unui alt organ.
-Concret, energia rinichilor (apã) va susține funcționarea ficatului (lemn), energia ficatului (lemn)
-va sprijini funcționarea inimii (foc), energia inimii (foc) va susține funcționarea splinei (pãmânt),
-energia splinei (pãmânt) va susține funcționarea plãmânilor (metal), iar plãmânii (metal), la
-rândul lor, vor sprijini funcționarea rinichilor (apã).
-Atunci când vorbim despre energia unui organ ne referim la energia produsã de celulele acelui
+Apa hraneste lemnul
+Lemnul alimenteaza focul
+Focul naste pamantul (cenusa)
+In pamant apar metalele
+Metalul (prin condensare) duce la aparitia apei
+ Atunci cand aceasta relatie de generare este aplicata organelor interne detinatoare de energie:
+rinichi, ficat, inima, splina si plamani, ea se refera la faptul ca energia unui organ va sustine
+functionarea unui alt organ.
+Concret, energia rinichilor (apa) va sustine functionarea ficatului (lemn), energia ficatului (lemn)
+va sprijini functionarea inimii (foc), energia inimii (foc) va sustine functionarea splinei (pamant),
+energia splinei (pamant) va sustine functionarea plamanilor (metal), iar plamanii (metal), la
+randul lor, vor sprijini functionarea rinichilor (apa).
+Atunci cand vorbim despre energia unui organ ne referim la energia produsa de celulele acelui
 organ. Celulele, ce au caracter Yin, produc energie, ce are caracter Yang. Este vorba despre
-procesul descris de teoria Yin - Yang: "In mijlocul Yin-ului apare Yang-ul". Aceeași teorie mai
-precizeazã "Yang-ul activeazã Yin-ul", care se traduce prin faptul cã energia produsã de celulele
-unui organ va susține funcționarea celulelor organului urmãtor (conform relației de generare a
+procesul descris de teoria Yin - Yang: "In mijlocul Yin-ului apare Yang-ul". Aceeasi teorie mai
+precizeaza "Yang-ul activeaza Yin-ul", care se traduce prin faptul ca energia produsa de celulele
+unui organ va sustine functionarea celulelor organului urmator (conform relatiei de generare a
 celor cinci elemente).
-Pe scurt putem spune cã relația de generare se reduce la cele descrise mai sus, și anume, energia
-produsã de celulele unui organ va susține funcționarea celulelor organului urmãtor.
-Interacțiunea
-Interacțiunea dintre cele cinci elemente presupune și existența unor tendințe opuse ale acestora,
-prin care ele se controleazã reciproc:
+Pe scurt putem spune ca relatia de generare se reduce la cele descrise mai sus, si anume, energia
+produsa de celulele unui organ va sustine functionarea celulelor organului urmator.
+Interactiunea
+Interactiunea dintre cele cinci elemente presupune si existenta unor tendinte opuse ale acestora,
+prin care ele se controleaza reciproc:
 Apa stinge focul
-Focul topește metalul
+Focul topeste metalul
 Metalul taie lemnul
-Lemnul dominã pãmântul pe care crește
-Pãmântul îndiguiește apa
- Aspectele generãrii unui element din celãlalt și cel de interacțiune sunt inseparabile. Dacã nu ar
-exista nașterea nu ar mai apãrea creșterea și dezvoltarea; fãrã interacțiune nu ar mai exista
-echilibru și coordonare pe durata creșterii și a transformãrii. Echilibrul relativ menținut între
-generare și interacțiune este cel care face posibilã creșterea normalã și dezvoltarea.
-Interacțiunea dintre organele interne presupune faptul cã rinichii (apa) controleazã inima (foc),
+Lemnul domina pamantul pe care creste
+Pamantul indiguieste apa
+ Aspectele generarii unui element din celalalt si cel de interactiune sunt inseparabile. Daca nu ar
+exista nasterea nu ar mai aparea cresterea si dezvoltarea; fara interactiune nu ar mai exista
+echilibru si coordonare pe durata cresterii si a transformarii. Echilibrul relativ mentinut intre
+generare si interactiune este cel care face posibila cresterea normala si dezvoltarea.
+Interactiunea dintre organele interne presupune faptul ca rinichii (apa) controleaza inima (foc),
 
-inima (foc) controleazã plãmânii (metal), pãmânii (metal) controleazã ficatul (lemn), ficatul
-(lemn) controleazã splina (pãmânt), iar splina (pãmânt) va controla rinichii (apa).
- Relația de interacțiune are loc prin intermediul Yin-ului (câmpului sau fluidelor) organelor
-respective. De exemplu, câmpul plãmânilor controleazã câmpul ficatului, câmpul inimii
-controleazã câmpul plãmânilor, câmpul ficatului controleazã câmpul splinei, Yin-ul (fluidele)
-rinichilor hrãnesc Yin-ul inimii pentru ca acesta sã poatã controla Yang-ul (energia) inimii
-(slãbirea Yin-ului duce la hiperactivitatea Yang-ului), ș.a.m.d.
-Dominarea și opoziția
- Atunci când existã un exces sau o insuficiențã a oricãruia dintre cele cinci elemente, vor
-apãrea relații anormale de generare și de interacțiune, acestea fiind cunoscute prin termenii de
-dominare și de opoziție.
-Dominarea presupune un atac asupra pãrții care este controlatã, din cauza slãbirii acesteia. Din
-aceastã cauzã, relațiile de control se vor tranforma în relații de dominare.
- De exemplu, metalul controleazã lemnul. In situația în care lemnul este slãbit metalul îl va
-domina. Atunci când vorbim despre organele interne, putem specifica faptul cã un câmp prea
-puternic al plãmânilor (metal), cauzat de o mai slabã funcție de deschidere a celulelor plãmânilor
-(blocându-se funcția de deschidere a celulelor plãmânilor, energia acestora nu va mai putea fi
-eliberatã, astfel încât, în timp, câmpul plãmânilor va crește foarte mult) va afecta câmpul
-ficatului (lemn), ceea ce poate duce în timp la scãderea funcției hepatice.
-Un alt exemplu, focul controleazã metalul. Slãbirea metalului duce la dominarea acestuia de
-cãtre foc.
-Insuficiențã apã: Pãmântul dominã apa
-Insuficiențã lemn: Metalul dominã lemnul
-Insuficiențã foc: Apa dominã focul
-Insuficiențã pãmânt: Lemnul dominã pãmântul
-Insuficiențã metal: Focul dominã metalul
-Opoziția se referã la schimbarea sensului normal al interacțiunii, din cauza excesului elementului
-ce ar trebui sã fie controlat. In acest fel, elementul care în mod normal este controlat se va
-întoarce împotriva elementului ce îl controla și i se opune.
-De exemplu, apa controleazã focul. In situația în care focul devine foarte puternic el se va
-întoarce împotriva apei și va exista relația focului ce se opune apei.
-Un alt exemplu, metalul taie (controleazã) lemnul. Excesul lemnului duce la opoziția acestuia
-împotriva metalului.
-Opoziția presupune un exces al elementului controlat, ceea ce determinã întoarcerea sa împotriva
-elementului ce ar trebui sã-l controleze în mod normal.
-Exces apã: Apa se opune pãmântului
+inima (foc) controleaza plamanii (metal), pamanii (metal) controleaza ficatul (lemn), ficatul
+(lemn) controleaza splina (pamant), iar splina (pamant) va controla rinichii (apa).
+ Relatia de interactiune are loc prin intermediul Yin-ului (campului sau fluidelor) organelor
+respective. De exemplu, campul plamanilor controleaza campul ficatului, campul inimii
+controleaza campul plamanilor, campul ficatului controleaza campul splinei, Yin-ul (fluidele)
+rinichilor hranesc Yin-ul inimii pentru ca acesta sa poata controla Yang-ul (energia) inimii
+(slabirea Yin-ului duce la hiperactivitatea Yang-ului), s.a.m.d.
+Dominarea si opozitia
+ Atunci cand exista un exces sau o insuficienta a oricaruia dintre cele cinci elemente, vor
+aparea relatii anormale de generare si de interactiune, acestea fiind cunoscute prin termenii de
+dominare si de opozitie.
+Dominarea presupune un atac asupra partii care este controlata, din cauza slabirii acesteia. Din
+aceasta cauza, relatiile de control se vor tranforma in relatii de dominare.
+ De exemplu, metalul controleaza lemnul. In situatia in care lemnul este slabit metalul il va
+domina. Atunci cand vorbim despre organele interne, putem specifica faptul ca un camp prea
+puternic al plamanilor (metal), cauzat de o mai slaba functie de deschidere a celulelor plamanilor
+(blocandu-se functia de deschidere a celulelor plamanilor, energia acestora nu va mai putea fi
+eliberata, astfel incat, in timp, campul plamanilor va creste foarte mult) va afecta campul
+ficatului (lemn), ceea ce poate duce in timp la scaderea functiei hepatice.
+Un alt exemplu, focul controleaza metalul. Slabirea metalului duce la dominarea acestuia de
+catre foc.
+Insuficienta apa: Pamantul domina apa
+Insuficienta lemn: Metalul domina lemnul
+Insuficienta foc: Apa domina focul
+Insuficienta pamant: Lemnul domina pamantul
+Insuficienta metal: Focul domina metalul
+Opozitia se refera la schimbarea sensului normal al interactiunii, din cauza excesului elementului
+ce ar trebui sa fie controlat. In acest fel, elementul care in mod normal este controlat se va
+intoarce impotriva elementului ce il controla si i se opune.
+De exemplu, apa controleaza focul. In situatia in care focul devine foarte puternic el se va
+intoarce impotriva apei si va exista relatia focului ce se opune apei.
+Un alt exemplu, metalul taie (controleaza) lemnul. Excesul lemnului duce la opozitia acestuia
+impotriva metalului.
+Opozitia presupune un exces al elementului controlat, ceea ce determina intoarcerea sa impotriva
+elementului ce ar trebui sa-l controleze in mod normal.
+Exces apa: Apa se opune pamantului
 Exces lemn: Lemnul se opune metalului
 Exces foc: Focul se opune apei
-Exces pãmânt: Pãmântul se opune lemnului
+Exces pamant: Pamantul se opune lemnului
 Exces metal: Metalul se opune focului
 
-Relația tip mamã - fiu
-In ciclul celor cinci elemente, fiecare element se "naște" din cel precedent, este "fiul" celui
-dinaintea sa, iar acesta, la rândul sãu, îi este "mamã".
-Aceastã relație poate fi afectatã în ambele sensuri: "mama afecteazã fiul" și "fiul afecteazã
+Relatia tip mama - fiu
+In ciclul celor cinci elemente, fiecare element se "naste" din cel precedent, este "fiul" celui
+dinaintea sa, iar acesta, la randul sau, ii este "mama".
+Aceasta relatie poate fi afectata in ambele sensuri: "mama afecteaza fiul" si "fiul afecteaza
 mama".
-De exemplu, apa poate afecta lemnul ("mama afecteazã fiul"), dar și lemnul poate afecta apa
-("fiul afecteazã mama").In continuare vor fi prezentate douã tabele în care vor fi descrise relațiile
-din interiorul omului și de la nivelul Naturii , conform cu legea celor cinci elemente.
+De exemplu, apa poate afecta lemnul ("mama afecteaza fiul"), dar si lemnul poate afecta apa
+("fiul afecteaza mama").In continuare vor fi prezentate doua tabele in care vor fi descrise relatiile
+din interiorul omului si de la nivelul Naturii , conform cu legea celor cinci elemente.
 Cele 5
 elemente
 Organe
 Yang Organe Fu Organe
-de Simț Țesuturi Sentimente
-Apã Rinichi Vezicã
-urinarã Ureche Os Teamã și
-Spaimã
-Lemn Ficat Vezicã
-biliarã Ochi Tendoane Furie
-Foc Inimã Intestin
-subțire Limbã Vase Bucurie
-Pãmânt Splinã Stomac Gurã Mușchi Gânduri
+de Simt Tesuturi Sentimente
+Apa Rinichi Vezica
+urinara Ureche Os Teama si
+Spaima
+Lemn Ficat Vezica
+biliara Ochi Tendoane Furie
+Foc Inima Intestin
+subtire Limba Vase Bucurie
+Pamant Splina Stomac Gura Muschi Ganduri
 excesive
-Metal Plãmâni Intestin
-gros Nas Piele și
-Pãr
-Necaz și
+Metal Plamani Intestin
+gros Nas Piele si
+Par
+Necaz si
 Melancolie
 
-Direcție Gust Culoare Creștere și
+Directie Gust Culoare Crestere si
 Dezvoltare
 Factori de
 mediu Anotimpuri
-Nord Sãrat Negru Depozitare Frig Iarnã
-Est Acru Verde Germinație Vânt Primãvarã
-Sud Amar Roșu Creștere Cãldurã Varã
-Centru Dulce Galben Coacere Umezealã Varã Târzie
+Nord Sarat Negru Depozitare Frig Iarna
+Est Acru Verde Germinatie Vant Primavara
+Sud Amar Rosu Crestere Caldura Vara
+Centru Dulce Galben Coacere Umezeala Vara Tarzie
 
-Vest Condimentat Alb Seceriș Uscãciune Toamnã
+Vest Condimentat Alb Seceris Uscaciune Toamna
 
  Cursul 12
  Apiterapia
 Produsele albinei s -au inscris de la inceputul preistoriei in randul elementelor naturale folosite
 pentru completarea si ameliorarea hranei si apoi pentru combaterea si prevenirea durerii si a
-suferintelor omului. Practica traditională a apiterapiei datează din vr emurile imemoriale ale
-istoriei umane. Primele comunităti mai dense de oameni au apărut pe valea Indului, cam prin
+suferintelor omului. Practica traditionala a apiterapiei dateaza din vr emurile imemoriale ale
+istoriei umane. Primele comunitati mai dense de oameni au aparut pe valea Indului, cam prin
 jurul anului 3000 I.H.
-In cea mai veche carte din India, RIG -VEDA, scrisă intre anii 3000 -2000 I.H., atat mierea cat si
-albinele sunt amintite de mai multe ori. Trecand la o altă antică civilizatie, la cea egipteană, incă
-din timpul primei dinastii, anul 3200 I.H., albina reprezenta simbolul regelui. Civilizatia elenă a
-evoluat si ea in spiritul credintei că mierea reprezintă un aliment, dar si un remediu de prim rang.
-Ea este mentionată in Iliada si Odiseea, de mai multe ori.
-Apiterapia este terapia traditională care foloseste mierea, polenul, ceara, lăptisorul de
-matcă, propolisul, veninul albinelor si alte produse ce tin de complexa alchimie a stupului, in
-vederea.mentinerii.sănătătii.corpului.omenesc.
-Astfel, mierea de salcam obisnuită este calmantă; cea de castan decongestionează ficatul si
-prostata, favorizand circulatia sanguină; mierea de măr este tonică si antidiareică ; cea de tei este
-calmantă si sedativă; cea de păpădie este depurativă si uso laxativă; mierea de rapită este indicată
-in tratamentul local al ulcerelor varicoase; mierea de mure este tonică si antidiareică; cea de
-salcam galben japonez este antihemoragică , micsorand timpul de coagulare si reglează
-menstruatia, influentează de asemenea functiile digestive; mierea de cimbrisor este antiseptică,
-pectorală si afrodisiacă.
-Un kilogram de miere este echivalent sub raport caloric cu 1,680 kg carne de vacă, cu 50 de ouă,
+In cea mai veche carte din India, RIG -VEDA, scrisa intre anii 3000 -2000 I.H., atat mierea cat si
+albinele sunt amintite de mai multe ori. Trecand la o alta antica civilizatie, la cea egipteana, inca
+din timpul primei dinastii, anul 3200 I.H., albina reprezenta simbolul regelui. Civilizatia elena a
+evoluat si ea in spiritul credintei ca mierea reprezinta un aliment, dar si un remediu de prim rang.
+Ea este mentionata in Iliada si Odiseea, de mai multe ori.
+Apiterapia este terapia traditionala care foloseste mierea, polenul, ceara, laptisorul de
+matca, propolisul, veninul albinelor si alte produse ce tin de complexa alchimie a stupului, in
+vederea.mentinerii.sanatatii.corpului.omenesc.
+Astfel, mierea de salcam obisnuita este calmanta; cea de castan decongestioneaza ficatul si
+prostata, favorizand circulatia sanguina; mierea de mar este tonica si antidiareica ; cea de tei este
+calmanta si sedativa; cea de papadie este depurativa si uso laxativa; mierea de rapita este indicata
+in tratamentul local al ulcerelor varicoase; mierea de mure este tonica si antidiareica; cea de
+salcam galben japonez este antihemoragica , micsorand timpul de coagulare si regleaza
+menstruatia, influenteaza de asemenea functiile digestive; mierea de cimbrisor este antiseptica,
+pectorala si afrodisiaca.
+Un kilogram de miere este echivalent sub raport caloric cu 1,680 kg carne de vaca, cu 50 de oua,
 cu 5,675 l lapte si cu aproximativ 40 de portocale. Mierea este un aliment delicios si foarte util
-sănătătii. Ea se poate consuma ca atare, sau ca adaos la ceai, lapte, alte băuturi, sub formă de
-tartine. Cu ajutorul mierii se pot prepara prăjituri perfect tolerabile, care, după opinia
-nutritionistilor, pot inlocui prăjiturile obisnuite, care sunt in general stimulatoare ale aciditătii.
+sanatatii. Ea se poate consuma ca atare, sau ca adaos la ceai, lapte, alte bauturi, sub forma de
+tartine. Cu ajutorul mierii se pot prepara prajituri perfect tolerabile, care, dupa opinia
+nutritionistilor, pot inlocui prajiturile obisnuite, care sunt in general stimulatoare ale aciditatii.
 Produse apicole
-Dacă in trecut, milenii de -a randul, mierea a fost folosită ca atare in terapeutică, astăzi stau l a
-dispozitie in afara acesteia si alte produse apicole. Acestea pot fi impărtite in două categorii:
+Daca in trecut, milenii de -a randul, mierea a fost folosita ca atare in terapeutica, astazi stau l a
+dispozitie in afara acesteia si alte produse apicole. Acestea pot fi impartite in doua categorii:
 1. Produse apicole naturale, directe
 mierea
 
 ceara
 propolisul
 polenul
-lăptisorul de matcă
+laptisorul de matca
 veninul de albine
 2. Produse apicole indirecte naturale sau produse derivate.
 hidromelul
 otetul de miere
-turtele si prăjiturile din miere
-cremele de ceară
-preparatele cosmetice pe bază de produse apicole
-diversele sortimente vitalizante alcătuite pe bază de produse apicole.
-In domeniul sănătătii un rol deosebit il ocupă combinatiile de miere, polen si lăptisor de matcă,
-dozate corespunzător. Se folos esc pentru ocrotirea mamei si copilului, a sănătătii adultului, in
+turtele si prajiturile din miere
+cremele de ceara
+preparatele cosmetice pe baza de produse apicole
+diversele sortimente vitalizante alcatuite pe baza de produse apicole.
+In domeniul sanatatii un rol deosebit il ocupa combinatiile de miere, polen si laptisor de matca,
+dozate corespunzator. Se folos esc pentru ocrotirea mamei si copilului, a sanatatii adultului, in
 convalescente, avitaminoze, diverse afectiuni ale tubului digestiv si a ficatului, in afectiuni ale
-căilor.respiratorii,..nevroze,..astenii,.senilitate.
+cailor.respiratorii,..nevroze,..astenii,.senilitate.
 Gama produselor apiterapice cu afectiuni medicamentoase si nutritive, fabricate la noi este foarte
-largă, cuprinzand drajeuri de lăptisor de matcă, comprimate de lăptisor de matcă sau granule de
-lăptisor de matcă cu miere si calciu, omogenizat in miere.
-La noi in tară se fabrică si un larg sortiment de produse cosmetice si de ingrijire igienică cum ar
-fi: cremele de fată cu lăptisor de matcă, cu propolis, cu miere, lotiuni nutritive, demachiante, apă
-de gură si altele. In medicină se foloseste un spray cu propolis pentru tratarea afectiunilo r
-dermatologice, a escarelor, rănilor care nu se mai inchid si care apar pe părtile dorsale ale
+larga, cuprinzand drajeuri de laptisor de matca, comprimate de laptisor de matca sau granule de
+laptisor de matca cu miere si calciu, omogenizat in miere.
+La noi in tara se fabrica si un larg sortiment de produse cosmetice si de ingrijire igienica cum ar
+fi: cremele de fata cu laptisor de matca, cu propolis, cu miere, lotiuni nutritive, demachiante, apa
+de gura si altele. In medicina se foloseste un spray cu propolis pentru tratarea afectiunilo r
+dermatologice, a escarelor, ranilor care nu se mai inchid si care apar pe partile dorsale ale
 bolnavilor care stau mult timp in pat.
 Mierea ca medicament reprezinta doar o parte a apiterapiei. Calitatile extraordinare ale mierii -
 medicament si aliment pretios in acelasi timp - sint cunoscute inca din antichitate. Tracii numeau
@@ -1061,12 +1061,12 @@ vegetal, animal si uman. Se fac 4 acordaje ale palmelor pentru accesarea Energie
  Cursul 15
  REFLEXOLOGIA
 
-Reflexologia este conform DEX, Disciplină care se ocupă cu studiul reflexelor. Reflexul
-este definit ca fiind: „REFLEX, Fiziologic - ; despre acte sau mișcări ale organismului. Produs in
-mod spontan, independent de voință. = reacție bruscă și automată a organismului animal sau
-uman la o modificare a mediului; răspuns secretor sau motor al organismului la acțiunea unei
-astfel demodificări.
-Reflex necondiționat = reflex innăscut. Care reprezintă o reacție imediată, spontană. ‖
+Reflexologia este conform DEX, Disciplina care se ocupa cu studiul reflexelor. Reflexul
+este definit ca fiind: „REFLEX, Fiziologic - ; despre acte sau miscari ale organismului. Produs in
+mod spontan, independent de vointa. = reactie brusca si automata a organismului animal sau
+uman la o modificare a mediului; raspuns secretor sau motor al organismului la actiunea unei
+astfel demodificari.
+Reflex neconditionat = reflex innascut. Care reprezinta o reactie imediata, spontana. ‖
 Reflexologii nu trebuie sa caute o „miscare" corespondenta ci un alt stimul sau o alta reactie sub
 forma unei echilibrari a energiei si implicit a unei anumite functii fizice, psihice, mentale sau
 emotionale.
@@ -1229,114 +1229,114 @@ tendintele trecutului, prezentului si viitorului.
  Cursul 16
  Astrologia
 
- Astrologia (din greacă: άστρον astron: stea, și λόγος logos: știință, teorie, studiu) înglobează un
-ansamblu de cunoștințe, tradiții și credințe, structurate, din punct de vedere geografic, în sisteme
-care acordă importanță și semnificație raporturilor ce se nasc din pozițiile relative ale corpurilor
-cerești și a altor detalii legate de acestea (semne zodiacale, case). Se presupune că aceste
-raporturi astrale ar cuprinde semnificații utile pentru interpretarea și prefigurarea evoluțiilor
-evenimentelor terestre - trecute, prezente și viitoare -, pentru cunoașterea personalității și
+ Astrologia (din greaca: άστρον astron: stea, si λόγος logos: stiinta, teorie, studiu) inglobeaza un
+ansamblu de cunostinte, traditii si credinte, structurate, din punct de vedere geografic, in sisteme
+care acorda importanta si semnificatie raporturilor ce se nasc din pozitiile relative ale corpurilor
+ceresti si a altor detalii legate de acestea (semne zodiacale, case). Se presupune ca aceste
+raporturi astrale ar cuprinde semnificatii utile pentru interpretarea si prefigurarea evolutiilor
+evenimentelor terestre - trecute, prezente si viitoare -, pentru cunoasterea personalitatii si
 destinului omului.
-Prognoza evoluției entităților (toate cele ce au un început și un sfârșit) și a evenimentelor terestre
-este domeniul de predilecție al astrologiei.
-Valoarea acestui ansamblu de cunoștințe este puternic contestată în lumea științifică
-contemporană care consideră astrologia drept o pseudoștiință.
-Nu poate fi contestat însă faptul că, de-a lungul istoriei, toate marile culturi ale lumii au produs
+Prognoza evolutiei entitatilor (toate cele ce au un inceput si un sfarsit) si a evenimentelor terestre
+este domeniul de predilectie al astrologiei.
+Valoarea acestui ansamblu de cunostinte este puternic contestata in lumea stiintifica
+contemporana care considera astrologia drept o pseudostiinta.
+Nu poate fi contestat insa faptul ca, de-a lungul istoriei, toate marile culturi ale lumii au produs
 propriile sisteme astrologice.
-Având în vedere arealurile geografice diferite în care aceste cunoștințe s-au dezvoltat (din
-America de Sud precolumbiană până în Extremul Orient), locații ce, la prima vedere, nu ar fi
+Avand in vedere arealurile geografice diferite in care aceste cunostinte s-au dezvoltat (din
+America de Sud precolumbiana pana in Extremul Orient), locatii ce, la prima vedere, nu ar fi
 putut permite un "transfer" cultural, similaritatea principiilor acestor sisteme astrologice este
-dificil de explicat. La fel greu de explicat este și vechimea acestor sisteme care, în toate marile
-culturi antice, depășește 6000 de ani, iar apariția lor are loc într-o perioadă total lipsită de
-mijloace tehnice: atunci când singurul "instrument" de observație era ochiul, iar mijloacele de
-măsurare și computație moderne (ordinatoarele) lipseau.
-Un fapt este cert - cunoștințele astrologice și interesul pentru această "artă" au precedat și au stat
-la baza cunoștințelor astronomice așa cum alchimia a precedat și a stat la baza apariției chimiei,
-iar separația între astrologie și astronomie s-a produs târziu - în timpul Renașterii.
-În același timp astrologia a contribuit la apariția și dezvoltarea științelor matematice, la adoptarea
-cifrelor arabe (impropriu numite așa deoarece acest sistem de simboluri și numerație își are
-originea în India).
+dificil de explicat. La fel greu de explicat este si vechimea acestor sisteme care, in toate marile
+culturi antice, depaseste 6000 de ani, iar aparitia lor are loc intr-o perioada total lipsita de
+mijloace tehnice: atunci cand singurul "instrument" de observatie era ochiul, iar mijloacele de
+masurare si computatie moderne (ordinatoarele) lipseau.
+Un fapt este cert - cunostintele astrologice si interesul pentru aceasta "arta" au precedat si au stat
+la baza cunostintelor astronomice asa cum alchimia a precedat si a stat la baza aparitiei chimiei,
+iar separatia intre astrologie si astronomie s-a produs tarziu - in timpul Renasterii.
+In acelasi timp astrologia a contribuit la aparitia si dezvoltarea stiintelor matematice, la adoptarea
+cifrelor arabe (impropriu numite asa deoarece acest sistem de simboluri si numeratie isi are
+originea in India).
 
  In ceea ce priveste aparitia astrologiei exista doua orientari culturale:una orientala si una
-occidentala. Pentru culturile orientale, în care religiile politeiste sunt dominante (în special
-pentru cultura vedică – indiană), astrologia a apărut pe calea REVELAȚIEI DIVINE. Iluminații
-acestor culturi, având o relație specială cu Transcendentul, au putut transmite umanității
-principiile fundamentale ale astrologiei. Apariția marilor religii monoteiste a dus la prohibirea, în
-bună măsură, a teoriei și practicilor astrologice. Pentru cultura occidentală contemporană,
-astrologia a apărut exclusiv datorită forțelor gnozice ale omului în evoluția sa ca specie:
-În momentul în care omul a început să coreleze propriile sale acțiuni cu evenimentele din jur,
-observând mișcarea Soarelui pe bolta cerească, a constatat că în timp ce acesta se afla deasupra
-liniei orizontului, natura devenea activă, iar când acesta coboară sub linia orizontului, majoritatea
-viețuitoarelor intrau într-o stare de repaos. Tot așa, în perioadele (iarna) și locurile unde soarele
-se ridica mai puțin deasupra orizontului decât în alte perioade, regnul vegetal și o bună parte a
-animalelor intrau în hibernare. Astfel Soarele a devenit simbolul acțiunii și al clocotului vieții.
-Apoi omul a observat relația dintre mișcarea de revoluție a Lunii în jurul Pământului și mareele
-mărilor și oceanelor. A mai observat legătura dintre ciclurile lunare și le-a legat de perioadele de
-fertilitate ale lumii vegetale, dar și de fertilitatea mamiferelor - inclusiv a femeilor. Luna va
-deveni simbol al fertilității și al maternității. Urmărind cursul Soarelui și al Lunii pe cer a
-observat că cei doi "luminatori", de importanță capitală pentru viața sa, răsar din același loc al
-orizontului, loc căruia a început să-i acorde importanță din ce în ce mai mare și pe care l-a numit
-Răsărit sau Ascendent. A mai observat că Soarele, în fiecare lună a anului, are, atunci când
-răsare, drept fundal o altă grupare de stele. Toate aceste grupări de stele au fost numite constelații
-și mai apoi, atribuindu-li-se diferite caracteristici, zodii. Mergând mai departe, a observat că
-unele corpuri cerești sunt fixe, iar altele mobile; unele se văd mai bine, iar altele mai slab.
-Corpurile cerești în perpetuă mișcare au fost numite planete și omul a început să le observe
-pentru a înțelege influența mișcării lor asupra activităților sale cotidiene, acordându-i fiecăreia în
-parte câte un nume și, după un timp, câte un simbol și o semnificație.
- Indiferent de credințele noastre în raport cu originea astrologiei, metaforic se poate spune că
-aceasta este veche de când lumea. Societățile organizate au încercat să pună cap la cap
-informațiile obținute și astfel s-au creat diversele sisteme astrologice. Primele izvoare cunoscute
-sunt cele Chaldeene, apărute în urmă cu peste 6000 de ani, însă de păstrarea și dezvoltarea
-cunoștințelor astrologice, pe parcursul acestor 6000 de ani, s-au ocupat mai ales populațiile
-Extremului Orient, din India și China, locuri în care astrologia nu a fost niciodată prohibită,
-dimpotrivă a fost încurajată și susținută. Ca și în cazul mirodeniilor și al mătăsii, arabii au jucat
-același rol de "intermediari", colportând cunoștiințele de astrologie și instrumentarul matematic
-aferent dinspre Orient către o Europă în care astrologia era asimilată practicilor vrăjitorești și
-pasibilă de pedeapsa capitală prin ardere pe rug.
- Fiecare tip de astrologie, având denumiri diferite, are totuși interpretări similare ale
-semnificației planetelor, constelațiilor (zodiilor), stelelor fixe și a celor mobile. De aceea
+occidentala. Pentru culturile orientale, in care religiile politeiste sunt dominante (in special
+pentru cultura vedica – indiana), astrologia a aparut pe calea REVELATIEI DIVINE. Iluminatii
+acestor culturi, avand o relatie speciala cu Transcendentul, au putut transmite umanitatii
+principiile fundamentale ale astrologiei. Aparitia marilor religii monoteiste a dus la prohibirea, in
+buna masura, a teoriei si practicilor astrologice. Pentru cultura occidentala contemporana,
+astrologia a aparut exclusiv datorita fortelor gnozice ale omului in evolutia sa ca specie:
+In momentul in care omul a inceput sa coreleze propriile sale actiuni cu evenimentele din jur,
+observand miscarea Soarelui pe bolta cereasca, a constatat ca in timp ce acesta se afla deasupra
+liniei orizontului, natura devenea activa, iar cand acesta coboara sub linia orizontului, majoritatea
+vietuitoarelor intrau intr-o stare de repaos. Tot asa, in perioadele (iarna) si locurile unde soarele
+se ridica mai putin deasupra orizontului decat in alte perioade, regnul vegetal si o buna parte a
+animalelor intrau in hibernare. Astfel Soarele a devenit simbolul actiunii si al clocotului vietii.
+Apoi omul a observat relatia dintre miscarea de revolutie a Lunii in jurul Pamantului si mareele
+marilor si oceanelor. A mai observat legatura dintre ciclurile lunare si le-a legat de perioadele de
+fertilitate ale lumii vegetale, dar si de fertilitatea mamiferelor - inclusiv a femeilor. Luna va
+deveni simbol al fertilitatii si al maternitatii. Urmarind cursul Soarelui si al Lunii pe cer a
+observat ca cei doi "luminatori", de importanta capitala pentru viata sa, rasar din acelasi loc al
+orizontului, loc caruia a inceput sa-i acorde importanta din ce in ce mai mare si pe care l-a numit
+Rasarit sau Ascendent. A mai observat ca Soarele, in fiecare luna a anului, are, atunci cand
+rasare, drept fundal o alta grupare de stele. Toate aceste grupari de stele au fost numite constelatii
+si mai apoi, atribuindu-li-se diferite caracteristici, zodii. Mergand mai departe, a observat ca
+unele corpuri ceresti sunt fixe, iar altele mobile; unele se vad mai bine, iar altele mai slab.
+Corpurile ceresti in perpetua miscare au fost numite planete si omul a inceput sa le observe
+pentru a intelege influenta miscarii lor asupra activitatilor sale cotidiene, acordandu-i fiecareia in
+parte cate un nume si, dupa un timp, cate un simbol si o semnificatie.
+ Indiferent de credintele noastre in raport cu originea astrologiei, metaforic se poate spune ca
+aceasta este veche de cand lumea. Societatile organizate au incercat sa puna cap la cap
+informatiile obtinute si astfel s-au creat diversele sisteme astrologice. Primele izvoare cunoscute
+sunt cele Chaldeene, aparute in urma cu peste 6000 de ani, insa de pastrarea si dezvoltarea
+cunostintelor astrologice, pe parcursul acestor 6000 de ani, s-au ocupat mai ales populatiile
+Extremului Orient, din India si China, locuri in care astrologia nu a fost niciodata prohibita,
+dimpotriva a fost incurajata si sustinuta. Ca si in cazul mirodeniilor si al matasii, arabii au jucat
+acelasi rol de "intermediari", colportand cunostiintele de astrologie si instrumentarul matematic
+aferent dinspre Orient catre o Europa in care astrologia era asimilata practicilor vrajitoresti si
+pasibila de pedeapsa capitala prin ardere pe rug.
+ Fiecare tip de astrologie, avand denumiri diferite, are totusi interpretari similare ale
+semnificatiei planetelor, constelatiilor (zodiilor), stelelor fixe si a celor mobile. De aceea
 "prognozele" elaborate sunt foarte apropiate, indiferent de sistemul astrologic practicat.
- Curând după apariția primelor universități și până în secolul al XVII-lea, astrologia a fost
-considerată, și în Europa, o știință și a devenit obiect de studiu și de cercetare în instituțiile de
-învățământ superior și în academiile vremii. La presiunile clerului, Jean Baptiste Colbert,
-ministrul de finanțe al Regelui Soare (rege care avea patru astrologi de curte), a îndepărtat de la
-Sorbona studiul astrologiei, împreună cu studiul homeopatiei și al alchimiei, iar acest exemplu a
-fost preluat de întreaga Europă.
+ Curand dupa aparitia primelor universitati si pana in secolul al XVII-lea, astrologia a fost
+considerata, si in Europa, o stiinta si a devenit obiect de studiu si de cercetare in institutiile de
+invatamant superior si in academiile vremii. La presiunile clerului, Jean Baptiste Colbert,
+ministrul de finante al Regelui Soare (rege care avea patru astrologi de curte), a indepartat de la
+Sorbona studiul astrologiei, impreuna cu studiul homeopatiei si al alchimiei, iar acest exemplu a
+fost preluat de intreaga Europa.
 
- Un reviriment apare către sfârșitul secolului al XIX-lea, dar curând, mulțimea șarlatanilor și a
-impostoarelor compromit din nou ideea de astrologie. O nouă revigorare a interesului pentru
-astrologie are loc pe la mijlocul secolului XX, mai ales ca urmare a preocupărilor spirituale și a
+ Un reviriment apare catre sfarsitul secolului al XIX-lea, dar curand, multimea sarlatanilor si a
+impostoarelor compromit din nou ideea de astrologie. O noua revigorare a interesului pentru
+astrologie are loc pe la mijlocul secolului XX, mai ales ca urmare a preocuparilor spirituale si a
 interesului pentru culturile orientale manifestate de membrii curentului hippy din deceniul al 7-
 lea.
- În 1975 apare manifestul "The Humanist", semnat de peste o sută de oameni de știință, printre
-care mulți laureați ai premiului Nobel, care condamnă practicile și cunoștințele alternative,
-printre care și astrologia, aceasta fiind catalogată drept o "pseudoștiință".
- Dacă, în vremurile noastre, astrologia este practicată și chiar recomandată de budhism,
-hinduism, unele biserici și secte neo-creștine, de religia wicca, de animism și șamanism, cele
-două religii monoteiste majore, islamismul și creștinismul au o atitudine predominant ostilă.
- Mitologiile antice politeiste precum și cele contemporane (cele din orient, în special) atribuie
-astrelor diferite zeități guvernatoare. Astfel, în antichitatea greacă, planeta Marte era "guvernată"
-de zeul războiului și al confruntărilor sportive - Ares. Tot așa și în religiile antice și
-contemporane ale Orientului Extrm (China, India etc) - fiecărei planete îi corespunde o zeitate.
-Aceste zeități se află la originea influențelor exercitate asupra omenirii, iar poziția astrelor indică
-numai relațiile ce există, la un moment dat, între zeități și consecințele acestor relații asupra
-evenimentelor pământești.
- În contemporaneitate, sub influența cunoașterii științifice, s-a cristalizat o ipoteză explicativă,
-care însă nu reușește să depășească nivelul de simplă ipoteză:Fiecare corp universal emană o
-energie pe o anumită lungime de undă. Noi oamenii, și tot ce există, avem o aură energetică. La
-fel și astrele. Acestea sunt corpuri energetice puternice ale căror forțe specifice se revarsă în
-întregul univers. Conform acestei ipoteze, astrologia se ocupă de interpretarea forțelor astrale - în
-dinamica interacțiunii lor - și de modul în care acestea se repercutează asupra Pământului, în
-special asupra viețuitoarelor ce îl populează.
+ In 1975 apare manifestul "The Humanist", semnat de peste o suta de oameni de stiinta, printre
+care multi laureati ai premiului Nobel, care condamna practicile si cunostintele alternative,
+printre care si astrologia, aceasta fiind catalogata drept o "pseudostiinta".
+ Daca, in vremurile noastre, astrologia este practicata si chiar recomandata de budhism,
+hinduism, unele biserici si secte neo-crestine, de religia wicca, de animism si samanism, cele
+doua religii monoteiste majore, islamismul si crestinismul au o atitudine predominant ostila.
+ Mitologiile antice politeiste precum si cele contemporane (cele din orient, in special) atribuie
+astrelor diferite zeitati guvernatoare. Astfel, in antichitatea greaca, planeta Marte era "guvernata"
+de zeul razboiului si al confruntarilor sportive - Ares. Tot asa si in religiile antice si
+contemporane ale Orientului Extrm (China, India etc) - fiecarei planete ii corespunde o zeitate.
+Aceste zeitati se afla la originea influentelor exercitate asupra omenirii, iar pozitia astrelor indica
+numai relatiile ce exista, la un moment dat, intre zeitati si consecintele acestor relatii asupra
+evenimentelor pamantesti.
+ In contemporaneitate, sub influenta cunoasterii stiintifice, s-a cristalizat o ipoteza explicativa,
+care insa nu reuseste sa depaseasca nivelul de simpla ipoteza:Fiecare corp universal emana o
+energie pe o anumita lungime de unda. Noi oamenii, si tot ce exista, avem o aura energetica. La
+fel si astrele. Acestea sunt corpuri energetice puternice ale caror forte specifice se revarsa in
+intregul univers. Conform acestei ipoteze, astrologia se ocupa de interpretarea fortelor astrale - in
+dinamica interactiunii lor - si de modul in care acestea se repercuteaza asupra Pamantului, in
+special asupra vietuitoarelor ce il populeaza.
  Principii de baza in astrologie
-Astrologia pornește de la principiul că orice lucru sau ființă este determinată major din momentul
-apariției sau nașterii sale. "Cum începi, așa continui" - spune un vechi proverb persan. "Fiecare
-lucru, fiecare ființă este unică și irepetabilă" - este un alt principiu al astrologiei. Ciclicitatea,
-"cum a fost o să mai fie" este un al treilea principiu de bază. Legătura dintre Macro și
-Microcosmos este cel de al patrulea principiu - "Cum este Sus (în Cer), așa este Jos (pe Pământ).
-După cum spunea marele profesor Mircea Eliade, "astrologia este un act de credință" pentru că
-ilustrează practic sintagma : "facă-se Voia Ta, precum în Cer așa și pre Pământ", desigur că în
-locul Dumnezeului biblic fiind animalele închipuite în stele, chestiune probabil valabilă doar
-pentru cei fragili, influențați de superstiție.
+Astrologia porneste de la principiul ca orice lucru sau fiinta este determinata major din momentul
+aparitiei sau nasterii sale. "Cum incepi, asa continui" - spune un vechi proverb persan. "Fiecare
+lucru, fiecare fiinta este unica si irepetabila" - este un alt principiu al astrologiei. Ciclicitatea,
+"cum a fost o sa mai fie" este un al treilea principiu de baza. Legatura dintre Macro si
+Microcosmos este cel de al patrulea principiu - "Cum este Sus (in Cer), asa este Jos (pe Pamant).
+Dupa cum spunea marele profesor Mircea Eliade, "astrologia este un act de credinta" pentru ca
+ilustreaza practic sintagma : "faca-se Voia Ta, precum in Cer asa si pre Pamant", desigur ca in
+locul Dumnezeului biblic fiind animalele inchipuite in stele, chestiune probabil valabila doar
+pentru cei fragili, influentati de superstitie.
 
 Astrologia opereaza cu zodii sau constelatii, planete, case astrologice. Sistemul nostru solar este
 alcatuit dintr-un Soare in jurul caruia graviteaza planetele:in ordinea departarii lor fata de Soare:
@@ -1427,117 +1427,117 @@ intocmita astrograma si interpretat horoscopul: horoscopul natal - descrie schem
 pozitiei planetelor in momentul nasterii unei persoane , horoscopul previzional - se naste din
 suprapunerea astrogramei unui anumit moment studiat peste harta natala a unui individ,
 horoscopul unui cuplu - se naste din suprapunerea hartilor natale a doi parteneri.
- Astrologia abordează și evenimentele politice locale și mondiale (astrologia globală), pune
-diagnostice și se încumetă chiar să vindece (astrologia medicală), stabilește compatibilități în
-cuplu (calculul sinastric) și chiar se aventurează să propună strategii pentru viitor. Astrologia are
-ambiții holistice, încercând să cuprindă toată fenomenologia existenței.
+ Astrologia abordeaza si evenimentele politice locale si mondiale (astrologia globala), pune
+diagnostice si se incumeta chiar sa vindece (astrologia medicala), stabileste compatibilitati in
+cuplu (calculul sinastric) si chiar se aventureaza sa propuna strategii pentru viitor. Astrologia are
+ambitii holistice, incercand sa cuprinda toata fenomenologia existentei.
 
  Cursul 17
  Yoga
 
-Yoga (Devanagari:) este una din cele 6 școli ale Filozofiei Hindu, bazată pe meditație ca
-o cale spre auto-cunoaștere si eliberare. Textele Hindu care stabilesc bazele yoga conțin:
-Upanishadele, Bhagavad Gita, Yoga Sutra lui Patanjali, Hatha Yoga Pradipika și multe altele. În
-India, Yoga este privită ca fiind un mijloc de desăvârșire atât fizică, precum și spirituală. În afara
-Indiei, Yoga a început să fie asociată în primul rând cu practicarea așa-numitelor asana (poziții)
-incluse in Hatha Yoga(vezi deasemenea Yoga ca exercițiu), cu toate că a influențat intreaga
-familie de Religii dharmice și alte practici spirituale din toată lumea. Un practicant convins de
-Yoga este numit yogi, yogin (masculin), sau yogină (feminin).
-Yoga, ca o combinare între exerciții si meditație este practicată de mai bine de 5 000 de
+Yoga (Devanagari:) este una din cele 6 scoli ale Filozofiei Hindu, bazata pe meditatie ca
+o cale spre auto-cunoastere si eliberare. Textele Hindu care stabilesc bazele yoga contin:
+Upanishadele, Bhagavad Gita, Yoga Sutra lui Patanjali, Hatha Yoga Pradipika si multe altele. In
+India, Yoga este privita ca fiind un mijloc de desavarsire atat fizica, precum si spirituala. In afara
+Indiei, Yoga a inceput sa fie asociata in primul rand cu practicarea asa-numitelor asana (pozitii)
+incluse in Hatha Yoga(vezi deasemenea Yoga ca exercitiu), cu toate ca a influentat intreaga
+familie de Religii dharmice si alte practici spirituale din toata lumea. Un practicant convins de
+Yoga este numit yogi, yogin (masculin), sau yogina (feminin).
+Yoga, ca o combinare intre exercitii si meditatie este practicata de mai bine de 5 000 de
 ani.
-De când a fost scrisă Bhagavad Gita, ramurile principale ale Yoga au fost clasificate astfel:
-Karma Yoga, Jnana Yoga, Bhakti Yoga și Raja Yoga.
+De cand a fost scrisa Bhagavad Gita, ramurile principale ale Yoga au fost clasificate astfel:
+Karma Yoga, Jnana Yoga, Bhakti Yoga si Raja Yoga.
 Istoria Yoga
-O sculptură păstrata până azi de acum 5,000 de ani de la Civilizația de pe Valea Indusului
-infățișează o figură care arheologii cred ca este un yogin stând in poziție de meditație. Figura
-este reprezentată stând intr-o pozitie tradițională yoga, cu picioarele incrucișsate si mâinile
+O sculptura pastrata pana azi de acum 5,000 de ani de la Civilizatia de pe Valea Indusului
+infatiseaza o figura care arheologii cred ca este un yogin stand in pozitie de meditatie. Figura
+este reprezentata stand intr-o pozitie traditionala yoga, cu picioarele incrucissate si mainile
 odihnindu-se pe genunchi. Descoperitorul sculpturii, arheologul Sir John Marshall, a denumit
 figura Shiva Pashupati.
-O sculptură aparținând civilizației de pe Valea Indusului, înfățișând o persoana in poziție de
-meditație.
-Prima referire la yoga, ramasă în scris, o găsim în Rig Veda, vechimea acesteia fiind estimată a fi
-în jurul a 3.500 de ani. Upanishad-ele, (800-100 î.Hr.), Bhagavad Gita (400-100 î.Hr.), și Yoga
-Sutras aparținând lui Patanjali (200 î.Hr.) deasemenea abordează conceptele și învățăturile yoga.
+O sculptura apartinand civilizatiei de pe Valea Indusului, infatisand o persoana in pozitie de
+meditatie.
+Prima referire la yoga, ramasa in scris, o gasim in Rig Veda, vechimea acesteia fiind estimata a fi
+in jurul a 3.500 de ani. Upanishad-ele, (800-100 i.Hr.), Bhagavad Gita (400-100 i.Hr.), si Yoga
+Sutras apartinand lui Patanjali (200 i.Hr.) deasemenea abordeaza conceptele si invataturile yoga.
 Etimologie
-În limba sanscrită Format:IAST este o derivare a termenului pre-indo-europpean yugam,
-dintr-o rădăcină yeug- (sanscrită yuj-) însemnînd "a se alătura" sau "a se uni"; înrudit cu
-latinescul iugum și termenul modern englezesc yoke.
-Termenul este atestat în Rig Veda în sensul unui "act de alăturare, atașament, dedicare", dar și în
-sensul de "ocupație, încercare, performanță". Un sens spiritual de "exercitare, zel, silință" este
+In limba sanscrita Format:IAST este o derivare a termenului pre-indo-europpean yugam,
+dintr-o radacina yeug- (sanscrita yuj-) insemnind "a se alatura" sau "a se uni"; inrudit cu
+latinescul iugum si termenul modern englezesc yoke.
+Termenul este atestat in Rig Veda in sensul unui "act de alaturare, atasament, dedicare", dar si in
+sensul de "ocupatie, incercare, performanta". Un sens spiritual de "exercitare, zel, silinta" este
 
-atestat încă din Mahabharata, și sensul spiritual sau mistic al "contemplării abstracte, al
-meditației" apare în egală masură în Mahabharata, ca și în Upanishade.
+atestat inca din Mahabharata, si sensul spiritual sau mistic al "contemplarii abstracte, al
+meditatiei" apare in egala masura in Mahabharata, ca si in Upanishade.
 Bhagavad Gita
-The Bhagavad Gita ("Cîntecul Domnului"), deși a fost scris undeva între anii 400 și 100 î.Hr.,
-vorbește despre patru ramuri ale yoga:
-Karma yoga: Yoga acțiunii în lume.
-Jnana yoga: Yoga înțelepciunii și a silinței intelectuale
-Bhakti yoga: Yoga dăruirii către Dumnezeu
-Dhyana yoga: Yoga meditației
+The Bhagavad Gita ("Cintecul Domnului"), desi a fost scris undeva intre anii 400 si 100 i.Hr.,
+vorbeste despre patru ramuri ale yoga:
+Karma yoga: Yoga actiunii in lume.
+Jnana yoga: Yoga intelepciunii si a silintei intelectuale
+Bhakti yoga: Yoga daruirii catre Dumnezeu
+Dhyana yoga: Yoga meditatiei
 Yoga Sutras lui Patanjali
-Zeul Shiva meditând - statuie.
-Yoga Sutra lui Patanjali este o carte care cuprinde 196 de aforisme compilate de înțeleptul
-Patanjali undeva între 200 î.Hr. și 300 d.Hr.
-Referindu-se la clasificările Bhagavad Gita, Yoga lui Patanjali este o formă de Raja yoga, căci
-caută prin meditație calea către scopul ultim. Patanjali însuși face referire la ea ca "Ashtanga
-Yoga" ("Yoga cu 8 brațe/ramuri"), de la cei opt pași pe care el i-a stabilit ca fiind calea practică
-de a atinge desăvârșirea, iluminarea. Acest concept de "opt brațe" a devenit din acel moment
-caracteristica principală a Raja Yoga, și este practic o însușire de bază a oricărei variante de Raja
-Yoga cunoscute de atunci și până în zilele noastre. Cele opt ramuri de yoga ale lui Patanjali sunt:
-(1) Yama (Cele cinci "abțineri"):violență, minciună, furt, sex (ilegal) și posesiuni
-(2) Niyama (Cele cinci "respectări"): puritate, mulțumire, austerități, studiu, și
+Zeul Shiva meditand - statuie.
+Yoga Sutra lui Patanjali este o carte care cuprinde 196 de aforisme compilate de inteleptul
+Patanjali undeva intre 200 i.Hr. si 300 d.Hr.
+Referindu-se la clasificarile Bhagavad Gita, Yoga lui Patanjali este o forma de Raja yoga, caci
+cauta prin meditatie calea catre scopul ultim. Patanjali insusi face referire la ea ca "Ashtanga
+Yoga" ("Yoga cu 8 brate/ramuri"), de la cei opt pasi pe care el i-a stabilit ca fiind calea practica
+de a atinge desavarsirea, iluminarea. Acest concept de "opt brate" a devenit din acel moment
+caracteristica principala a Raja Yoga, si este practic o insusire de baza a oricarei variante de Raja
+Yoga cunoscute de atunci si pana in zilele noastre. Cele opt ramuri de yoga ale lui Patanjali sunt:
+(1) Yama (Cele cinci "abtineri"):violenta, minciuna, furt, sex (ilegal) si posesiuni
+(2) Niyama (Cele cinci "respectari"): puritate, multumire, austeritati, studiu, si
 devotament
-(3) Asana: Literal înseamnă "ședere", și Patanjali folosește acest termen pentru a denumi
-poziția șezută a corpului în timpul meditației. Mai târziu, odată cu afirmarea Hatha yoga,
-"Asana" a început să denumească toate pozițiile folosite.
-(4) Pranayama ("Controlul Forței Vieții"): Controlul prān-ei(prăna), forța vieții sau
-energia vitală.
-(5) Pratyahara ("Abstracția"): Înfrânarea organelor de simț.
-(6) Dharana ("Concentrarea"): Fixarea atenției asupra unui singur obiect.
-(7) Dhyana ("Meditația"): Contemplarea intensă asupra adevaratei esențe a realității.
-(8) Samadhi ("Eliberarea"): Starea de iluminare superconștientă (ca opus al
-subconștientului).
+(3) Asana: Literal inseamna "sedere", si Patanjali foloseste acest termen pentru a denumi
+pozitia sezuta a corpului in timpul meditatiei. Mai tarziu, odata cu afirmarea Hatha yoga,
+"Asana" a inceput sa denumeasca toate pozitiile folosite.
+(4) Pranayama ("Controlul Fortei Vietii"): Controlul prān-ei(prana), forta vietii sau
+energia vitala.
+(5) Pratyahara ("Abstractia"): Infranarea organelor de simt.
+(6) Dharana ("Concentrarea"): Fixarea atentiei asupra unui singur obiect.
+(7) Dhyana ("Meditatia"): Contemplarea intensa asupra adevaratei esente a realitatii.
+(8) Samadhi ("Eliberarea"): Starea de iluminare superconstienta (ca opus al
+subconstientului).
 Hatha Yoga Pradipika
 
-Hatha Yoga este un sistem aparte de Yoga introdus de Yogi Swatmarama, un yogin înțelept al
-secolului al XV-lea în India, autorul compilației Hatha Yoga Pradipika. Hatha Yoga este o
-dezvoltare — dar diferind substanțial de ea — a Raja Yoga a lui Patanjali, în care accentul se
-pune pe shatkarma, purificarea fizicului, ducând astfel la purificarea minții (ha) și prana, sau
-energia vieții (tha). În contrast, Raja Yoga, structurată de Patanjali, începe cu o purificare a
-minții (yamas) și a spiritului (niyamas), apoi merge spre corp prin asana (poziiții ale corpului) și
-pranayama (suflare). Hatha Yoga conține substanțiale influențe tantra, și marchează primul
-moment de introducere a chakra și kundalini în canonul yogin. Comparativ cu asanele lui
-Patanjali din Raja Yoga în poziția șezând, văzute în general ca mijloace de pregătire pentru
-meditație, se marchează acum dezvoltarea asanelor ca "poziții" ale întregului corp, precum este și
-sensul modern al cuvântului "asana".[13] Hatha Yoga, în multele sale variante moderne, este stilul
-asociat astăzi termenului de "yoga".[14] Deoarece pune accent pe trup prin practicarea asanelor și
-a pranayamei, mulți practicanți occidentali sunt satisfăcuți cu sănătatea fizică și vitalitatea pe
-care o dezvoltă și nu sunt interesați de celelalte șase ramuri ale Hatha Yoga, sau de mai vechea
-tradiție Raja Yoga, pe care aceasta se bazează.
+Hatha Yoga este un sistem aparte de Yoga introdus de Yogi Swatmarama, un yogin intelept al
+secolului al XV-lea in India, autorul compilatiei Hatha Yoga Pradipika. Hatha Yoga este o
+dezvoltare — dar diferind substantial de ea — a Raja Yoga a lui Patanjali, in care accentul se
+pune pe shatkarma, purificarea fizicului, ducand astfel la purificarea mintii (ha) si prana, sau
+energia vietii (tha). In contrast, Raja Yoga, structurata de Patanjali, incepe cu o purificare a
+mintii (yamas) si a spiritului (niyamas), apoi merge spre corp prin asana (poziitii ale corpului) si
+pranayama (suflare). Hatha Yoga contine substantiale influente tantra, si marcheaza primul
+moment de introducere a chakra si kundalini in canonul yogin. Comparativ cu asanele lui
+Patanjali din Raja Yoga in pozitia sezand, vazute in general ca mijloace de pregatire pentru
+meditatie, se marcheaza acum dezvoltarea asanelor ca "pozitii" ale intregului corp, precum este si
+sensul modern al cuvantului "asana".[13] Hatha Yoga, in multele sale variante moderne, este stilul
+asociat astazi termenului de "yoga".[14] Deoarece pune accent pe trup prin practicarea asanelor si
+a pranayamei, multi practicanti occidentali sunt satisfacuti cu sanatatea fizica si vitalitatea pe
+care o dezvolta si nu sunt interesati de celelalte sase ramuri ale Hatha Yoga, sau de mai vechea
+traditie Raja Yoga, pe care aceasta se bazeaza.
 Filosofia Yoga
-În toate ramurile yoga, țelul final este atingerea unei stări eterne de conștiință perfectă. În școlile
-moniste ale advaita vedantei și șaivismului, această perfecțiune ia forma mokșei, care este o
-eliberare de toată suferința lumească și de cercul nașterilor și al morților (Samsara), o stare în
-care gândurile încetează și apare experiența unirii beatifice cu Supremul Brahman. Pentru școlile
-dualiste bhakti ale vaișnavismului, bhakti însăși este țelul suprem al procesului yoga, iar
-perfecțiunea culminează într-o relație eternă cu Vișnu sau cu unul dintre avatarele lui, precum
-Krișna sau Rama.
-Practicarea concentrației (dharana) și a meditației (dhyana) este comună majorității formelor de
-yoga. Dharana, potrivit definiției lui Patañjali, este "aducerea conștiinței într-un singur punct"
-(sanscrită: ekāgrata, concentrare într-un singur punct). Conștiența este concentrată pe un punct
-subtil al senzației (cum ar fi pe suflul care intră și iese din nări). Concentrația susținută pe un
-singur punct conduce, treptat, la meditație (dhyana), în care facultățile interioare sunt capabile să
-se extindă și să se identifice cu ceva vast. Practicanții meditației anunță sentimente de pace,
-bucurie și uniune.
-Obiectul meditației poate să difere de la școală la școală, e.g. meditația pe una dintre chakre, cum
-ar fi centrul inimii (anahata) sau 'al treilea ochi' (ajna); sau meditația asupra unei zeități, precum
-Krișna; sau asupra unei calități, precum pacea. Școlile non-dualiste, precum Advaita vedanta, pot
-medita la Absolut, fără nici o formă a calităților (Nirguna Brahman). Această meditație este, din
-multe puncte de vedere, asemănătoare cu meditația buddhistă a vidului.
-Yoga în alte tradiții
-Scopurile yoga sunt exprimate în mod diferit de către diferite tradiții. Pentru o persoană normală,
-încă depare de iluminare, yoga poate fi o cale de creștere a pregătirii spirituale sau, de cultivare a
-compasiuni și a introspecției. yoga este refuzul minti eliberare de ego si ajungere la dumnezeu
+In toate ramurile yoga, telul final este atingerea unei stari eterne de constiinta perfecta. In scolile
+moniste ale advaita vedantei si saivismului, aceasta perfectiune ia forma moksei, care este o
+eliberare de toata suferinta lumeasca si de cercul nasterilor si al mortilor (Samsara), o stare in
+care gandurile inceteaza si apare experienta unirii beatifice cu Supremul Brahman. Pentru scolile
+dualiste bhakti ale vaisnavismului, bhakti insasi este telul suprem al procesului yoga, iar
+perfectiunea culmineaza intr-o relatie eterna cu Visnu sau cu unul dintre avatarele lui, precum
+Krisna sau Rama.
+Practicarea concentratiei (dharana) si a meditatiei (dhyana) este comuna majoritatii formelor de
+yoga. Dharana, potrivit definitiei lui Patañjali, este "aducerea constiintei intr-un singur punct"
+(sanscrita: ekāgrata, concentrare intr-un singur punct). Constienta este concentrata pe un punct
+subtil al senzatiei (cum ar fi pe suflul care intra si iese din nari). Concentratia sustinuta pe un
+singur punct conduce, treptat, la meditatie (dhyana), in care facultatile interioare sunt capabile sa
+se extinda si sa se identifice cu ceva vast. Practicantii meditatiei anunta sentimente de pace,
+bucurie si uniune.
+Obiectul meditatiei poate sa difere de la scoala la scoala, e.g. meditatia pe una dintre chakre, cum
+ar fi centrul inimii (anahata) sau 'al treilea ochi' (ajna); sau meditatia asupra unei zeitati, precum
+Krisna; sau asupra unei calitati, precum pacea. Scolile non-dualiste, precum Advaita vedanta, pot
+medita la Absolut, fara nici o forma a calitatilor (Nirguna Brahman). Aceasta meditatie este, din
+multe puncte de vedere, asemanatoare cu meditatia buddhista a vidului.
+Yoga in alte traditii
+Scopurile yoga sunt exprimate in mod diferit de catre diferite traditii. Pentru o persoana normala,
+inca depare de iluminare, yoga poate fi o cale de crestere a pregatirii spirituale sau, de cultivare a
+compasiuni si a introspectiei. yoga este refuzul minti eliberare de ego si ajungere la dumnezeu
 prin disciplina inplicit nu ai suferi nu mai se repeta nastera ai ajuns satarea de sfintemie.
 
  Cursul 18
@@ -1573,7 +1573,7 @@ sau ceai.
 NATUROPATIA regrupeaza un ansamblu de tehnici naturale care au ca scop prevenirea sau lupta
 contra diverselor dezechilibre generate de viata noastra mondena. DIETETICA, arta restrictiilor
 
-alimentare si NUTRITIA, arta echilibrului alimenta r, formeaza o tehnica majora în
+alimentare si NUTRITIA, arta echilibrului alimenta r, formeaza o tehnica majora in
 NATUROPATIE. Aceasta din urma nu ar putea sa existe fara actiunea primordiala a unei bune
 igiene alimentare. Acest an, in intregime on -line sau email, controlat prin numeroase teme, va
 permite sa obtineti cunostinte suficiente in acest domeniu.
@@ -1581,38 +1581,38 @@ permite sa obtineti cunostinte suficiente in acest domeniu.
 · Tripla constitutie a fiintei umane (plan subtil plan vital, plan fizic)
 · Structura generala a fiecarei din cele trei planuri (componente subtile,
 fiziologice,metabolice,anatomice si alte componente)
-· Ce este sanatatea în naturopatie?
+· Ce este sanatatea in naturopatie?
 · Notiuni de teren.
 · Originea tripla a maladiilor.
  Fiziologia digestiei.
  Asimilarea celulara.
  Cele trei aspecte ale metabolismului celular: catabolism, anabolism, transformare.
  Alimentatie echilibrata : caz general.
- Alimentatia individualizata în functie de temperament, climat, activitati.
+ Alimentatia individualizata in functie de temperament, climat, activitati.
  Regimuri alimentare particulare.
  Alimentatia adaptata la maladii (indicatii /contraindicatii ale principalelor alimente)
-Vor fi abordate cazuri de cancer, scleroza în placi si alte maladii nervoase, maladii pulmonare,
+Vor fi abordate cazuri de cancer, scleroza in placi si alte maladii nervoase, maladii pulmonare,
 maladii hepatice, infectii intestinale, maladii osoase, artrita, maladii vasculare, renale, parazitare,
-alergii, dermatoze, maladii ORL, gripa, SIDA si în final maladii unde alimentatia nu este
-suficienta în vindecare(caz de urgenta).
-Studiul legaturii între comportamentul subtil (spiritual, emotional si mental) si comportamentul
+alergii, dermatoze, maladii ORL, gripa, SIDA si in final maladii unde alimentatia nu este
+suficienta in vindecare(caz de urgenta).
+Studiul legaturii intre comportamentul subtil (spiritual, emotional si mental) si comportamentul
 alimentar.
 Bulimia, anorexia, dezordinea alimentara si cauzele lor psihice posibile.
 Terapii in plan subtil.
 Complemente alimentare adaptate la maladii.
 Revitalizarea prin extracte alimentare naturale pe baza de plante, uleiuri esentiale, produse apicole,
 argila.
- Cure cu complemente alimentare : plante,oligoelemente pentru fiecare boala în parte.
+ Cure cu complemente alimentare : plante,oligoelemente pentru fiecare boala in parte.
 Postul si monodietele adaptate la maladii.
- Mediul înconjurator si maladiile : diferite cauze extraalimentare ale maladiilor; cauze
-electromagnetice; cauze mecanice; cauze termochimice; în plan fizic; cauze subtile în plan subtil.
+ Mediul inconjurator si maladiile : diferite cauze extraalimentare ale maladiilor; cauze
+electromagnetice; cauze mecanice; cauze termochimice; in plan fizic; cauze subtile in plan subtil.
 Practici de igiena vitala care reduc impactul cu aceste cauze.
 Poluanti alimentari (poluanti, aditivi) si metode de gatire sanatoasa.
-Examene complementare în naturopatie: mâini, unghii, ochi, limba, par etc.
+Examene complementare in naturopatie: maini, unghii, ochi, limba, par etc.
 Lectura examenului de laborator.
- Arta culinara în naturopatie : micul dejun. prânzuri,cine, ma sa de la ora 17, bauturi, bauturi
+ Arta culinara in naturopatie : micul dejun. pranzuri,cine, ma sa de la ora 17, bauturi, bauturi
 medicinale.
-Arta de a trai în naturopatie : contact cu natura, folosirea produselor naturale, arta, muzica, etc.
+Arta de a trai in naturopatie : contact cu natura, folosirea produselor naturale, arta, muzica, etc.
 Totalitatea practicilor care vizeaza ajutarea organismului sa se vindece de la sine prin
 mijloace.exclusiv.naturale.
 Naturopatia se bazeaza pe o teorie dupa care forta vitala a organismului permite acestuia sa se

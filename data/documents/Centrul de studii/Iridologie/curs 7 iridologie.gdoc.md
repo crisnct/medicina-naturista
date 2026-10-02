@@ -4,39 +4,39 @@ IRIDOLOGIE
 
 ## Alinierea ochiului
 
-Când ne uităm la unele irisuri, vom vedea unele linii interesante care trec radial deasupra întregului iris ca și cum s-ar divide în două jumătăți. Acestea merită să fie luate în vedere, deoarece au anumite semnificații precise.
+Cand ne uitam la unele irisuri, vom vedea unele linii interesante care trec radial deasupra intregului iris ca si cum s-ar divide in doua jumatati. Acestea merita sa fie luate in vedere, deoarece au anumite semnificatii precise.
 
-Diferite școli de Iridologie se referă la aceste linii prin diferiți termeni. Nomenclatura utilizată de CIFMCA a fost aleasă, deoarece ajută studentul să-și reamintească semnificația.
+Diferite scoli de Iridologie se refera la aceste linii prin diferiti termeni. Nomenclatura utilizata de CIFMCA a fost aleasa, deoarece ajuta studentul sa-si reaminteasca semnificatia.
 
-Poziția liniilor nu poate fi dată la unghiul exact, din moment ce există o anumită fluiditate în iris. Acest lucru ar trebui sa fie evident, iar dacă ai citit și alte materiale din exterior, vei observa că diferitele școli de Iridologie folosesc ușor diferite harți ale irisului.
+Pozitia liniilor nu poate fi data la unghiul exact, din moment ce exista o anumita fluiditate in iris. Acest lucru ar trebui sa fie evident, iar daca ai citit si alte materiale din exterior, vei observa ca diferitele scoli de Iridologie folosesc usor diferite harti ale irisului.
 
-Liniile pot apărea ca fiind albe sau în culori deschise sau ca linii întunecate. În mod obișnuit ele au niște culori difuze, astfel încât acestea apar ca urme de creion subțiri, prin urmare reprezentarea lor se află în următoarele diagrame.
+Liniile pot aparea ca fiind albe sau in culori deschise sau ca linii intunecate. In mod obisnuit ele au niste culori difuze, astfel incat acestea apar ca urme de creion subtiri, prin urmare reprezentarea lor se afla in urmatoarele diagrame.
 
 ## Linia de echilibru
 
-Această linie se extinde de la vertexul craniului până la picioare. Dacă aceasta apare, atunci indică faptul că individul poate avea probleme de echilibru. Aceasta se poate referi la o problemă cu echilibrul și amețeli, sau la probleme cu orientarea.
+Aceasta linie se extinde de la vertexul craniului pana la picioare. Daca aceasta apare, atunci indica faptul ca individul poate avea probleme de echilibru. Aceasta se poate referi la o problema cu echilibrul si ameteli, sau la probleme cu orientarea.
 
-Aceasta este sau ar putea fi subiectul unor probleme emoționale. Ar putea fi sus timp de un minut sau jos in următorul. O predispoziție la condiții psihiatrice mai grave ar putea fi de asemenea indicate : ex. Schizofrenia, tulburări depresivo-maniace.
+Aceasta este sau ar putea fi subiectul unor probleme emotionale. Ar putea fi sus timp de un minut sau jos in urmatorul. O predispozitie la conditii psihiatrice mai grave ar putea fi de asemenea indicate : ex. Schizofrenia, tulburari depresivo-maniace.
 
 ![Imagine image1]
 
 ![Imagine image2]
 
-## Linia Dizarmonică
+## Linia Dizarmonica
 
-Această linie este linia ecuatorială de-a lungul irisului. Dacă este proeminentă atunci poate indica o problemă în organele principale care ocupă poziții lângă ceafă și gât. Hipertiroida poate constitui o problemă (sau o potențială problemă) atât pentru plămâni, inimă dar și probleme la sâni.
+Aceasta linie este linia ecuatoriala de-a lungul irisului. Daca este proeminenta atunci poate indica o problema in organele principale care ocupa pozitii langa ceafa si gat. Hipertiroida poate constitui o problema (sau o potentiala problema) atat pentru plamani, inima dar si probleme la sani.
 
 ## Linia Durerii
 
-Aceasta este sugestivă pentru durerile nervoase. În general trece prin ficat și splină. Indivizii pot permite ca furia sa-i facă să se îmbolnăvească. Pot ține ranchiună și să se consume o data cu furia lor. Ar putea suferi probleme cu ficatul și splina.
+Aceasta este sugestiva pentru durerile nervoase. In general trece prin ficat si splina. Indivizii pot permite ca furia sa-i faca sa se imbolnaveasca. Pot tine ranchiuna si sa se consume o data cu furia lor. Ar putea suferi probleme cu ficatul si splina.
 
-## Linia Infecțiilor
+## Linia Infectiilor
 
-Aceasta este numită uneori și linia vezicii urinare. Este asociată cu o predispoziție la infecții și o slăbire a vezicii. O altă asociere este cea la presipozițiile genetice. Ochiul drept se referă în special la vezică și la problemele urinare în legătură cu strămoșul cuiva. Irisul stâng se referă în special la probleme venerice.
+Aceasta este numita uneori si linia vezicii urinare. Este asociata cu o predispozitie la infectii si o slabire a vezicii. O alta asociere este cea la presipozitiile genetice. Ochiul drept se refera in special la vezica si la problemele urinare in legatura cu stramosul cuiva. Irisul stang se refera in special la probleme venerice.
 
-Când dreptul este proeminent atunci individul cel mai adesea poate face cistită sau infecții.
+Cand dreptul este proeminent atunci individul cel mai adesea poate face cistita sau infectii.
 
-Udarea patului este o urmare comună a liniei.
+Udarea patului este o urmare comuna a liniei.
 
 ![Imagine image3]
 
@@ -52,18 +52,18 @@ Udarea patului este o urmare comună a liniei.
 
 ![Imagine image9]
 
-## Linia Nutriției
+## Linia Nutritiei
 
-Aceasta este cel mai adesea prezentă în problemele legate de mancare. Indivizilor le este greu să renunțe la obiceiurile legate de mâncare. Ei ar putea avea probleme legate de imaginea corporală, cum ar fi bulimia, anorexia sau variante ale celor două. S-ar putea ca ei să nu se poată opri niciodată din a mânca ceea ce le face rău.
+Aceasta este cel mai adesea prezenta in problemele legate de mancare. Indivizilor le este greu sa renunte la obiceiurile legate de mancare. Ei ar putea avea probleme legate de imaginea corporala, cum ar fi bulimia, anorexia sau variante ale celor doua. S-ar putea ca ei sa nu se poata opri niciodata din a manca ceea ce le face rau.
 
 ## Linia sexului
 
-Aceasta indică faptul că ar putea exista probleme de natură sexuală, fie din exces sau inhibiție. De asemenea ar putea fi o obsesie legată de copii și de dorința de a avea o familie numeroasă. Ar putea fi probleme ginecologice, parțial funcționale sau emoționale, la origine. Perioadele menstruale pot fi asociate cu migrenele. Ar putea fi o tendință prin sindromul ovarului polichistic cu durere menstruală, hirsutim si acnee.
+Aceasta indica faptul ca ar putea exista probleme de natura sexuala, fie din exces sau inhibitie. De asemenea ar putea fi o obsesie legata de copii si de dorinta de a avea o familie numeroasa. Ar putea fi probleme ginecologice, partial functionale sau emotionale, la origine. Perioadele menstruale pot fi asociate cu migrenele. Ar putea fi o tendinta prin sindromul ovarului polichistic cu durere menstruala, hirsutim si acnee.
 
-## Linia psihosomatică
+## Linia psihosomatica
 
-Acest nume vorbește de la sine. Indivizii vor avea o tendință de neliniște asupra sănătății lor. Ei sunt capabili să-și somatizeze neliniștea în a-și produce o problemă fizică. Acea problemă poate avea legatură cu rinichii,vezica urinară și probleme sexuale.
+Acest nume vorbeste de la sine. Indivizii vor avea o tendinta de neliniste asupra sanatatii lor. Ei sunt capabili sa-si somatizeze nelinistea in a-si produce o problema fizica. Acea problema poate avea legatura cu rinichii,vezica urinara si probleme sexuale.
 
-## Linia de Rezilianță
+## Linia de Rezilianta
 
-Aceasta oferă indicații despre sensitivitatea unui individ. Dacă este marcată ,atunci individul se poate îmbolnăvi destul de repede, are o rezistență slabă și proaste abilități de coping. El nu are o reziliență și nu face presiuni foarte bine. Nu ar trebui sa se suprasolicite singuri fizic ,emoțional sau să-și asume prea mari responsabilități. Ei nu sunt demni să spere.
+Aceasta ofera indicatii despre sensitivitatea unui individ. Daca este marcata ,atunci individul se poate imbolnavi destul de repede, are o rezistenta slaba si proaste abilitati de coping. El nu are o rezilienta si nu face presiuni foarte bine. Nu ar trebui sa se suprasolicite singuri fizic ,emotional sau sa-si asume prea mari responsabilitati. Ei nu sunt demni sa spere.

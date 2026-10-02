@@ -1,51 +1,51 @@
-# Polenul și păstura
-, prin conținutul mare de compuși bio, se constituie în materiidietetice și terapeutice deosebit de valoroase.
+# Polenul si pastura
+, prin continutul mare de compusi bio, se constituie in materiidietetice si terapeutice deosebit de valoroase.
 
- **Forme terapeutice și administrare**
+ **Forme terapeutice si administrare**
 
  Polenul\
  \
- Polenul se administrează proaspăt (crud) sau uscat. Polenul uscat se prezintă sub formă de granule. Prin măcinarea granulelor de polen, dacă rețeta o cere, rezultă pulberea de polen.\
- Există mai multe forme sub care se poate administra polenul, așa cum se poate vedea mai jos.\
- • Polenul proaspăt este deosebit de concentrat în principii active. Activitatea biologică a produsului crud se înjumătățește în 5-6 ore de la recoltare (Fănică Voinea Ene).\
- În stare crudă, acest produs al stupului, se administrează ca atare, câte 2-3 lingurițe pe zi, sau sub formă de băutură (vezi mai jos).\
- • Băutura apicolă cu polen se realizează în borcane de sticlă, prin dizolvarea a 180 gmiere în 800 g de apă. Solubilizarea mierii în apă se face fără încălzire, la temperatura obișnuită, căci altfel multe principii active, în special vitamine și enzime, se vor pierde și chiar vor rezulta substanțe toxice. Când dizolvarea este completă, se adaugă 50 g polen proaspăt sau uscat - sub formă de pulbere (granule măcinate). Totul se agită, lăsându-se, apoi borcanul astupat, 2 zile la temperatura camerei, timp în care se inițiază procesele fermentative. Începând din a treia zi, băutura cu polen poate fi consumată, Înainte de fiecare administrare, lichidul se omogenizează cât mai bine. Se recomandă consumul unui pahar (200 ml) imediat după mase.\
- • Pasta de miere cu polen se prepară amestecând mierea cu polenul uscat pulverizat (5 părți miere, o parte polen uscat și măcinat). Se prepară doar cât este necesar pentru o zi, după recomandări, uzual folosindu-se o linguriță de praf de polen și 5 lingurițe de miere. Se administrează din pasta obținută, de obicei, câte 2 lingurițe după cele 3 mese principale.\
- • Polenul granulat (uscat) se păstrează maximum 12 luni (de preferință 6) în borcane de sticlă colorată, care se pod închide ermetic. Se administrează, imediat după mesele principale, inițial în doze de atac de 30-40 g (4-6 lingurițe), apoi în doze de întreținere de 15 g -20 g (2-3 lingurițe) (Fănică Voinea Ene).\
- Pentru că în masa de polen se pot dezvolta anumiți paraziți (mici acarieni și insecte), se recomandă păstrarea produsului la o temperatură mai mică de 15ºC, prag sub care biologia și înmulțirea acestor \"intruși\" este frânată (L. Gheorghe, I. Tudor, M. Minoiu, C. Ianța).\
- Atunci când se administrează pentru prima dată granulele de polen, este recomandat să se înceapă cu o linguriță de produs, care se ia cu puțină apă înainte de prânz, doza crescând treptat, până la o lingură, pe parcursul a două săptămâni (J. Valnet)\
- • Pulberea de polen (polenul pulverizat) se obține prin râșnirea granulelor chiar înainte de folosire De obicei, nu se administrează intern ca atare, ci intră în compoziția băuturii și pastei cu miere (vezi mai sus). Se mai folosește extern, prin pudrare sau în amestec cu ceaiurile specifice, în alopecie.\
+ Polenul se administreaza proaspat (crud) sau uscat. Polenul uscat se prezinta sub forma de granule. Prin macinarea granulelor de polen, daca reteta o cere, rezulta pulberea de polen.\
+ Exista mai multe forme sub care se poate administra polenul, asa cum se poate vedea mai jos.\
+ • Polenul proaspat este deosebit de concentrat in principii active. Activitatea biologica a produsului crud se injumatateste in 5-6 ore de la recoltare (Fanica Voinea Ene).\
+ In stare cruda, acest produs al stupului, se administreaza ca atare, cate 2-3 lingurite pe zi, sau sub forma de bautura (vezi mai jos).\
+ • Bautura apicola cu polen se realizeaza in borcane de sticla, prin dizolvarea a 180 gmiere in 800 g de apa. Solubilizarea mierii in apa se face fara incalzire, la temperatura obisnuita, caci altfel multe principii active, in special vitamine si enzime, se vor pierde si chiar vor rezulta substante toxice. Cand dizolvarea este completa, se adauga 50 g polen proaspat sau uscat - sub forma de pulbere (granule macinate). Totul se agita, lasandu-se, apoi borcanul astupat, 2 zile la temperatura camerei, timp in care se initiaza procesele fermentative. Incepand din a treia zi, bautura cu polen poate fi consumata, Inainte de fiecare administrare, lichidul se omogenizeaza cat mai bine. Se recomanda consumul unui pahar (200 ml) imediat dupa mase.\
+ • Pasta de miere cu polen se prepara amestecand mierea cu polenul uscat pulverizat (5 parti miere, o parte polen uscat si macinat). Se prepara doar cat este necesar pentru o zi, dupa recomandari, uzual folosindu-se o lingurita de praf de polen si 5 lingurite de miere. Se administreaza din pasta obtinuta, de obicei, cate 2 lingurite dupa cele 3 mese principale.\
+ • Polenul granulat (uscat) se pastreaza maximum 12 luni (de preferinta 6) in borcane de sticla colorata, care se pod inchide ermetic. Se administreaza, imediat dupa mesele principale, initial in doze de atac de 30-40 g (4-6 lingurite), apoi in doze de intretinere de 15 g -20 g (2-3 lingurite) (Fanica Voinea Ene).\
+ Pentru ca in masa de polen se pot dezvolta anumiti paraziti (mici acarieni si insecte), se recomanda pastrarea produsului la o temperatura mai mica de 15ºC, prag sub care biologia si inmultirea acestor \"intrusi\" este franata (L. Gheorghe, I. Tudor, M. Minoiu, C. Ianta).\
+ Atunci cand se administreaza pentru prima data granulele de polen, este recomandat sa se inceapa cu o lingurita de produs, care se ia cu putina apa inainte de pranz, doza crescand treptat, pana la o lingura, pe parcursul a doua saptamani (J. Valnet)\
+ • Pulberea de polen (polenul pulverizat) se obtine prin rasnirea granulelor chiar inainte de folosire De obicei, nu se administreaza intern ca atare, ci intra in compozitia bauturii si pastei cu miere (vezi mai sus). Se mai foloseste extern, prin pudrare sau in amestec cu ceaiurile specifice, in alopecie.\
  \
- Păstura\
+ Pastura\
  \
- • Polenul pastă are o valabilitate de 3 zile, perioadă care poate fi prelungită, până la o săptămână, dacă se ține la frigider. Se administrează ca și polenul sub formă de granule, însă la jumătate din cantitate. Acest produs greu de procurat, prezintă o acțiune biologică dublă, față de polenul uscat.
+ • Polenul pasta are o valabilitate de 3 zile, perioada care poate fi prelungita, pana la o saptamana, daca se tine la frigider. Se administreaza ca si polenul sub forma de granule, insa la jumatate din cantitate. Acest produs greu de procurat, prezinta o actiune biologica dubla, fata de polenul uscat.
 
  **Calendarul tratamentelor cu polen**
 
- O cură cu polen trebuie să dureze 30-40 zile, fiind urmată de o lună pauză, după care tratamentul poate fi reluat.\
- Persoanele care folosesc întâia dată polenul sau care nu au recurs la acest produs apicol de mult timp, este bine să recurgă la o primă cură mai scurtă (8-20 zile - recomandat 14).
+ O cura cu polen trebuie sa dureze 30-40 zile, fiind urmata de o luna pauza, dupa care tratamentul poate fi reluat.\
+ Persoanele care folosesc intaia data polenul sau care nu au recurs la acest produs apicol de mult timp, este bine sa recurga la o prima cura mai scurta (8-20 zile - recomandat 14).
 
- **Recomandări terapeutice**
+ **Recomandari terapeutice**
 
- În dozele recomandate, polenul și păstura acoperă necesarul multor aminoacizi,vitamine și minerale, chiar tratând carențele acestora. De aceea, cele două produse apicole, sunt recomandate, în primul rând, în formele de [carență proteică]( fiind foarte utile în stadiul de denutriție.\
- Tot datorită compoziției bogate în aminoacizi esențiali și în vitamine, polenul și păstura se recomandă a fi administrate în unele boli care ating parenchimul hepatic (steatoză hepatică, hepatită toxică, hepatită cronică, ciroză).\
- Medicii români care au studiat efectele polenului asupra bolnavilor hepatici (hepatită cronică, ciroză), în vremea când apiterapia era considerată o ramură \"clinică\" a medicinii, adică în perioada 1965-1980, au raportat \"rezultate ce depășesc așteptările\" (Dr. M. Ialomițeanu - Spitalul de Boli Infecțioase din București) și \"o îmbunătățire a rezultatelor analizelor clasice de disproteinemie, precum și ameliorarea tulburărilor dispeptice\" (Dr. D. W. Satmboliu - Spitalul de Boli Contagioase din Timișoara).\
- Ca adjuvant, polenul se dovedește de ajutor și în alte afecțiuni digestive, ca: enterocolite, colite spastice, colite amoebiene, colibaciloze, rezecții gastrice, spasme gastro-intestinale, diaree sau constipație cronică, tumori ale stomacului.\
- Administrarea polenului în a doua jumătate a perioadei de sarcină se dovedește benefică, deoarece combate oboseala, scade retenția azotată, reduce edemul și frecvența toxemiei și crește calitatea laptelui matern.\
- Între principiile active din polen, s-au identificat substanțe antiestrogenice, care se dovedesc de efect femeilor care prezintă exces de foliculină, prevenind sau chiar ajutând la tratarea unor afecțiuni care pot deriva din surplusul de hormoni estrogenici (tumori mamare, fibrom uterin, fibroză mamară).\
- Toți autorii care s-au aplecat asupra polenului apicol, recomandă administrarea acestuia, indiferent de sex, în disfuncții caracterizate prin incapacitatea realizării actului sexual (impotență, frigiditate).\
- Fănică Voinea Ene indică polenul, cu precădere în unele dereglaje neuropsihice, ca astenie, surmenaj, stres, migrene, insomnie, considerându-l util și în multe alte afecțiuni, dintre care le menționăm pe cele cardiovasculare: hipertensiune, cardiopatie ischemică, insuficiență cardiacă, insuficiență circulatorie periferică.\
- Administrarea polenului, după Bojor și Popescu, aduce multe beneficii sănătății organismului, acest produs natural recomandându-se ca: desensibilizant al reacțiilor alergice provocate de polenul entomofil, stimulent imunitar, antioxidant și energizant. Autorii mai sus menționați susțin utilitatea deosebită a polenului în geriatrie (atenuarea proceselor fiziologice care însoțesc îmbătrânirea) și gerontologie (diminuarea fenomenelor degenerative asociate procesului de îmbătrânire). În ceea ce privește folosirea polenului ca produs antialergic indicat pentru atenuarea simptomelor așa numitul \"guturai de fân\", noi recomandăm administrarea pastei de miere cu polen, la care se adaugă un vârf de cuțit de semințe măcinate de negrilică. Preparatul se testează înainte de folosire, înafara perioadei de criză alergică, renunțându-se la acesta dacă apar manifestări secundare.\
- Efecte favorabile, după administrare polenului, se constată și în cazul copiilor. Curele cu acest produs apicol sunt recomandate în special în cazul copiilor întârziați mintal, rahitici, anemici sau al celor care prezintă întârzieri sau deficiențe în dezvoltarea fizică (L. Gheorghe, I. Tudor, M. Minoiu, C. Ianța).\
- În completarea tratamentului cancerului, Geiculescu recomandă folosirea păsturii, iar în caz de prostatită sau hipertrofie de prostată, autorul indică administrarea polenului uscat.
+ In dozele recomandate, polenul si pastura acopera necesarul multor aminoacizi,vitamine si minerale, chiar tratand carentele acestora. De aceea, cele doua produse apicole, sunt recomandate, in primul rand, in formele de [carenta proteica]( fiind foarte utile in stadiul de denutritie.\
+ Tot datorita compozitiei bogate in aminoacizi esentiali si in vitamine, polenul si pastura se recomanda a fi administrate in unele boli care ating parenchimul hepatic (steatoza hepatica, hepatita toxica, hepatita cronica, ciroza).\
+ Medicii romani care au studiat efectele polenului asupra bolnavilor hepatici (hepatita cronica, ciroza), in vremea cand apiterapia era considerata o ramura \"clinica\" a medicinii, adica in perioada 1965-1980, au raportat \"rezultate ce depasesc asteptarile\" (Dr. M. Ialomiteanu - Spitalul de Boli Infectioase din Bucuresti) si \"o imbunatatire a rezultatelor analizelor clasice de disproteinemie, precum si ameliorarea tulburarilor dispeptice\" (Dr. D. W. Satmboliu - Spitalul de Boli Contagioase din Timisoara).\
+ Ca adjuvant, polenul se dovedeste de ajutor si in alte afectiuni digestive, ca: enterocolite, colite spastice, colite amoebiene, colibaciloze, rezectii gastrice, spasme gastro-intestinale, diaree sau constipatie cronica, tumori ale stomacului.\
+ Administrarea polenului in a doua jumatate a perioadei de sarcina se dovedeste benefica, deoarece combate oboseala, scade retentia azotata, reduce edemul si frecventa toxemiei si creste calitatea laptelui matern.\
+ Intre principiile active din polen, s-au identificat substante antiestrogenice, care se dovedesc de efect femeilor care prezinta exces de foliculina, prevenind sau chiar ajutand la tratarea unor afectiuni care pot deriva din surplusul de hormoni estrogenici (tumori mamare, fibrom uterin, fibroza mamara).\
+ Toti autorii care s-au aplecat asupra polenului apicol, recomanda administrarea acestuia, indiferent de sex, in disfunctii caracterizate prin incapacitatea realizarii actului sexual (impotenta, frigiditate).\
+ Fanica Voinea Ene indica polenul, cu precadere in unele dereglaje neuropsihice, ca astenie, surmenaj, stres, migrene, insomnie, considerandu-l util si in multe alte afectiuni, dintre care le mentionam pe cele cardiovasculare: hipertensiune, cardiopatie ischemica, insuficienta cardiaca, insuficienta circulatorie periferica.\
+ Administrarea polenului, dupa Bojor si Popescu, aduce multe beneficii sanatatii organismului, acest produs natural recomandandu-se ca: desensibilizant al reactiilor alergice provocate de polenul entomofil, stimulent imunitar, antioxidant si energizant. Autorii mai sus mentionati sustin utilitatea deosebita a polenului in geriatrie (atenuarea proceselor fiziologice care insotesc imbatranirea) si gerontologie (diminuarea fenomenelor degenerative asociate procesului de imbatranire). In ceea ce priveste folosirea polenului ca produs antialergic indicat pentru atenuarea simptomelor asa numitul \"guturai de fan\", noi recomandam administrarea pastei de miere cu polen, la care se adauga un varf de cutit de seminte macinate de negrilica. Preparatul se testeaza inainte de folosire, inafara perioadei de criza alergica, renuntandu-se la acesta daca apar manifestari secundare.\
+ Efecte favorabile, dupa administrare polenului, se constata si in cazul copiilor. Curele cu acest produs apicol sunt recomandate in special in cazul copiilor intarziati mintal, rahitici, anemici sau al celor care prezinta intarzieri sau deficiente in dezvoltarea fizica (L. Gheorghe, I. Tudor, M. Minoiu, C. Ianta).\
+ In completarea tratamentului cancerului, Geiculescu recomanda folosirea pasturii, iar in caz de prostatita sau hipertrofie de prostata, autorul indica administrarea polenului uscat.
 
- **Reacții adverse**
+ **Reactii adverse**
 
- La administrarea polenului, pot să apară, uneori, diferite reacții alergice. Cei care utilizează pentru prima dată produsul apicol, trebuie să recurgă la cantități mici (o linguriță), mărind doza de la o zi la alta. La o primă utilizare, este posibil să apară manifestări alergice de mică amploare, care cedează definitiv în câteva ore sau zile.\
- De cele mai multe ori, polenul desensibilizează răspunsul organismului la agenții capabili să producă alergii, cazurile în care el însăși se comportă ca alergen fiind destul de rare, însă nu excepționale.\
- Administrarea îndelungată, fără pauze a polenului poate provoca tulburări hormonale.
+ La administrarea polenului, pot sa apara, uneori, diferite reactii alergice. Cei care utilizeaza pentru prima data produsul apicol, trebuie sa recurga la cantitati mici (o lingurita), marind doza de la o zi la alta. La o prima utilizare, este posibil sa apara manifestari alergice de mica amploare, care cedeaza definitiv in cateva ore sau zile.\
+ De cele mai multe ori, polenul desensibilizeaza raspunsul organismului la agentii capabili sa produca alergii, cazurile in care el insasi se comporta ca alergen fiind destul de rare, insa nu exceptionale.\
+ Administrarea indelungata, fara pauze a polenului poate provoca tulburari hormonale.
 
- **Contraindicații, precauții**
+ **Contraindicatii, precautii**
 
- Nu este indicat să se administreze polen persoanelor cu excitabilitate sexuală, psihică sau nervoasă crescută. De asemenea, în majoritatea hiperfuncțiilor hormonale (cu excepția excesului de foliculină), acest produs apicol trebuiește evitat sau mult limitat.\
- În caz de obezitate hipercolesterolemie și hipertrigliceridemie, tratamentul cu polen cere îndrumare și supraveghere competentă
+ Nu este indicat sa se administreze polen persoanelor cu excitabilitate sexuala, psihica sau nervoasa crescuta. De asemenea, in majoritatea hiperfunctiilor hormonale (cu exceptia excesului de foliculina), acest produs apicol trebuieste evitat sau mult limitat.\
+ In caz de obezitate hipercolesterolemie si hipertrigliceridemie, tratamentul cu polen cere indrumare si supraveghere competenta

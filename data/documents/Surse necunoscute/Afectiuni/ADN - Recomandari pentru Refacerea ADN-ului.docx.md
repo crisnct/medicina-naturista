@@ -1,6 +1,6 @@
-# Recomandări naturiste pentru refacerea ADN-ului
+# Recomandari naturiste pentru refacerea ADN-ului
 
-- Antioxidanți
+- Antioxidanti
 
 - Exercitii fizice intense de scurta durata
 

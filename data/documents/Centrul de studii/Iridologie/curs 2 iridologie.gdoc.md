@@ -50,27 +50,27 @@ Motivul fundamental pentru care noi, iridologiistudiemconstitutiapacientiloreste
 
 ## IRISUL ALBASTRU
 
-Irisulalbastrueste in general asociat cu o constitutielimfatica. Acestaestedenumituneoriconstitutialimfatico-reumatica –tuberculoasa. Acesta este asociatcuotendință de a dezvoltaprobleme ale sistemuluilimfatic. Astfel, glandele limfatice din gat, axile, sunt toate caracteristici ale acestei constitutii. Copiii fac amigdalita de la aceste glande mari. Daca sunt mai mari pot face febra glandulara sau pot avea splina marita. Ei sunt intotdeauna sensibili, pot face adenoidita si polipi nazali. In plus si glanda tiroida este asociata, asadar pot suferi mai tarziu in viata de hipotiroidism.
+Irisulalbastrueste in general asociat cu o constitutielimfatica. Acestaestedenumituneoriconstitutialimfatico-reumatica –tuberculoasa. Acesta este asociatcuotendinta de a dezvoltaprobleme ale sistemuluilimfatic. Astfel, glandele limfatice din gat, axile, sunt toate caracteristici ale acestei constitutii. Copiii fac amigdalita de la aceste glande mari. Daca sunt mai mari pot face febra glandulara sau pot avea splina marita. Ei sunt intotdeauna sensibili, pot face adenoidita si polipi nazali. In plus si glanda tiroida este asociata, asadar pot suferi mai tarziu in viata de hipotiroidism.
 
 Exista o predispozitie mostenita la tuberculoza. Desi aceasta conditie este rar vazuta in aceste zile, modelul tuberculos inca mai exista. Individul poate fi predispus la tuse seaca, hemoptizie(tuse de sange), pleurezie, bronsita uscata si voce ragusita. Durerile reumatice sunt comune ca si durerile nevralgice ascutite. Ele pot asimila cristale de acid uric cu riscul de guta.
 
-Poate exista o tendinta de a dezvolta ateroscleroza producand hipertensiune arterială și care afectează inima si rinichi mai tarziu in viata. Poate aparea formarea cataractei.
+Poate exista o tendinta de a dezvolta ateroscleroza producand hipertensiune arteriala si care afecteaza inima si rinichi mai tarziu in viata. Poate aparea formarea cataractei.
 
 ## IRISUL GRI
-Acest tip constitutional este aproape cu cel albastru dar sunt mai multe predispozitii la reumatism si probleme arteriale. Acesta estedenumit uneoricaconstituțiareumatico-catarală. Individul poatefi predispus laambele,artrita reumatoida, osteoartritasiartropatiiseronegative, cum ar fi artropatie psoriazica. Pielea este adesea afectata, produce eczeme, psoriazis, afectiuni septice ale pielii si acnee.
+Acest tip constitutional este aproape cu cel albastru dar sunt mai multe predispozitii la reumatism si probleme arteriale. Acesta estedenumit uneoricaconstitutiareumatico-catarala. Individul poatefi predispus laambele,artrita reumatoida, osteoartritasiartropatiiseronegative, cum ar fi artropatie psoriazica. Pielea este adesea afectata, produce eczeme, psoriazis, afectiuni septice ale pielii si acnee.
 Guturaiul este o mare problema.
-Aceasta poate fi catar respirator superior, care afecteaza in principal sinusurile, urechile si nasul. Poate existaotendințădeosebit desupărătoarepentru infectii in pieptcarepersistacumucus gros, tenace.
+Aceasta poate fi catar respirator superior, care afecteaza in principal sinusurile, urechile si nasul. Poate existaotendintadeosebit desuparatoarepentru infectii in pieptcarepersistacumucus gros, tenace.
 Guturaiulpoate fi de asemeneasuparatorsi sub alteforme. Mucusuliritamaimultecelule ale intestinului care producmaimultiarastapredispuneindividul la sindromul de colon iritabilsicolita
 
 ## IRISUL MARO
 
-Acestaindica o acumulare de pigment siun model de ansamblu de congestie. Acesta estedenumit uneoriconstituțiagastrico-bilă-carcinomatoasă. Acest lucru este asociat cu tot felul de tulburari digestive si ale sistemului hepatic. Esecul trecerii celulelor vitale cauzeaza congestie in celulele sistemului. Acest lucru duce la functionarea defectuoasa, umflarea celulelor si in cele din urma la deteriorare daca nu este ameliorare.
+Acestaindica o acumulare de pigment siun model de ansamblu de congestie. Acesta estedenumit uneoriconstitutiagastrico-bila-carcinomatoasa. Acest lucru este asociat cu tot felul de tulburari digestive si ale sistemului hepatic. Esecul trecerii celulelor vitale cauzeaza congestie in celulele sistemului. Acest lucru duce la functionarea defectuoasa, umflarea celulelor si in cele din urma la deteriorare daca nu este ameliorare.
 
-Ulcerul gastric, dispepsie, arsuri la stomac, greață, litiaza biliara, colici, boala diverticularamai tarziu in viatasi problemelepe tot parcursul viețiicu constipatie-toatesunt posibile.
+Ulcerul gastric, dispepsie, arsuri la stomac, greata, litiaza biliara, colici, boala diverticularamai tarziu in viatasi problemelepe tot parcursul vietiicu constipatie-toatesunt posibile.
 
-Exista o tendinta de a lua in greutate, a retine lichide si de a avea perioade grele si dureroase. Sindromul premenstrual este comun ca si migrenele premenstruale. Din cauzaeșeculuide a transferafluide, poate existaotendință de a dezvoltaneoplasme, saucreșteri. Acesteapotfiatât benigne cât șimaligne.
+Exista o tendinta de a lua in greutate, a retine lichide si de a avea perioade grele si dureroase. Sindromul premenstrual este comun ca si migrenele premenstruale. Din cauzaeseculuide a transferafluide, poate existaotendinta de a dezvoltaneoplasme, saucresteri. Acesteapotfiatat benigne cat simaligne.
 
-Unele sistemede predareîmpartaceste treitipuriînzecesub-grupuri. Acest lucru este extrem de complicat si inutil. Problema e ca facand acest lucru poti sa creezi prea rigid un sistem. Am prefera sa constientizezi numarul si tipul de probleme care pot fi asociate cu aceste trei constitutii de baza.
+Unele sistemede predareimpartaceste treitipuriinzecesub-grupuri. Acest lucru este extrem de complicat si inutil. Problema e ca facand acest lucru poti sa creezi prea rigid un sistem. Am prefera sa constientizezi numarul si tipul de probleme care pot fi asociate cu aceste trei constitutii de baza.
 
 Reducerea de mai jos poate fi facuta uitandu-ne la structura de baza a fundalului, apoi la semnele specifice conform hartii.
 

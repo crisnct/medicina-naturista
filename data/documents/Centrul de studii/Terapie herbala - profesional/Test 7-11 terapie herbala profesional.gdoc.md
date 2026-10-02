@@ -8,45 +8,45 @@ Purgativele sau laxativele naturale stimuleaza peristaltismul intestinal si prod
 - Laxative ce actioneaza la nivelul intestinului gros: agar, cascara sagrada
 - Laxative ce actioneaza asupra tractului intestinal: lemn-dulce
 
-Purgative drastice \- produc peristaltism violent și scaune apoase, cu multe crampe dureroase: ulei de ricin, mere colocynth, gamboge, gard viuisop, jalap, bryony roșu, bryony alb.
+Purgative drastice \- produc peristaltism violent si scaune apoase, cu multe crampe dureroase: ulei de ricin, mere colocynth, gamboge, gard viuisop, jalap, bryony rosu, bryony alb.
 
-Purgativele colagoge \- stimuleaza un flux și o evacuare abilă, actioneaza asupra duodenului si a ductului biliar: cascara sagrada, inul de munte, senna, matraguna, balsam de galaad, iarba fiarelor.
+Purgativele colagoge \- stimuleaza un flux si o evacuare abila, actioneaza asupra duodenului si a ductului biliar: cascara sagrada, inul de munte, senna, matraguna, balsam de galaad, iarba fiarelor.
 
-2. Descrieți acțiunile terapeutice ale Cassia acutifolia.
+2. Descrieti actiunile terapeutice ale Cassia acutifolia.
 
-Are actiuni catartice, ușor stimulative , antibilioase, anti-periodice, tonice.
+Are actiuni catartice, usor stimulative , antibilioase, anti-periodice, tonice.
 
 3. Care sunt caracteristicile de identificare ale Podophyllum peltatum?
- Are culoarea verde pal, neteda, erecta, 1/2-1 in inaltime, se divide la aproximativ 1 picior în două pețiolele care sunt de 3-6 cm lungime și fiecare suporta o singura frunza. Două (una pe fiecare pețiol), mari, palmate (5-7) și profund lobate sau în formă de inimă, peltate apex grosolan dințat, netede, galben-verde în partea de sus și sub pala, pețiolele seamănă cu piciorul de rață.
+ Are culoarea verde pal, neteda, erecta, 1/2-1 in inaltime, se divide la aproximativ 1 picior in doua petiolele care sunt de 3-6 cm lungime si fiecare suporta o singura frunza. Doua (una pe fiecare petiol), mari, palmate (5-7) si profund lobate sau in forma de inima, peltate apex grosolan dintat, netede, galben-verde in partea de sus si sub pala, petiolele seamana cu piciorul de rata.
 
 4. Scrieti un rezumat al ierburilor diaforetice.
- Diaforeticele induc transpirația în următoarele moduri: intra in circulatie si sunt apoi aruncate afara de glandele sudoripare; stimulează fibrele nervoase locale ca acestor glande să le crească acțiunea.
+ Diaforeticele induc transpiratia in urmatoarele moduri: intra in circulatie si sunt apoi aruncate afara de glandele sudoripare; stimuleaza fibrele nervoase locale ca acestor glande sa le creasca actiunea.
  Ierburi ce stimuleaza glandele sudoripare: lobelia, jaborandi, coada soricelului, musetel, cimbru, salvia, menta
 
-5. Care sunt utilizările medicinale ale cimbrului?
+5. Care sunt utilizarile medicinale ale cimbrului?
  Este util in cazul afectiunilor respiratorii, guturai, sinuzite, bronsite, astm. Are actiune antitusiva, antivirala, antibiotica, si intareste sistemul imunitar.
 
-6. Ce plante pot fi folosite pentru tratarea rănilor sângerande?
+6. Ce plante pot fi folosite pentru tratarea ranilor sangerande?
  Virnant, coada soricelului, musetel
 
 7. Scrieti despre enurezis si leacurile pentru acesta.
- Enurezisul sau incontinenta urinara, este o condiție nervoasa cand nervii sunt uzati și rinichii sunt sensibili.
+ Enurezisul sau incontinenta urinara, este o conditie nervoasa cand nervii sunt uzati si rinichii sunt sensibili.
  Se recomanda ceaiuri din: strugurii ursului, plop alb, fructe de padure Sumac, coada soricelului .
 
 8. Scrieti un rezumat despre ierburile emenagoge.
- Emenagogele provoacă stimularea și promovarea fluxului menstrual. Plante utile: busuiocul cerbilor, schinelul, calin, iarba-amara, virnant, talpa gastei, lemn dulce.
+ Emenagogele provoaca stimularea si promovarea fluxului menstrual. Plante utile: busuiocul cerbilor, schinelul, calin, iarba-amara, virnant, talpa gastei, lemn dulce.
 
-9. Creați un tonic pentru femei.
+9. Creati un tonic pentru femei.
  **TONIC PENTRU FEMEI**
- 7g rădăcină de iarba amara
+ 7g radacina de iarba amara
  7g de calin
- 28g viță de vie
- 7g rădăcină de ignama salbatica
+ 28g vita de vie
+ 7g radacina de ignama salbatica
  50g coada soricelului
- *Mod de preparare*: se fierb plantele, mai putin coada soricelului, timp de 20 minute în 1 litru de apa; la final se adauga coada-soricelului si se acopera cat mai etans. Se lasă să se răcească, se pune lichidul rezultat in sticlă și se păstreaza într-un loc răcoros. Dozare: 2-3 linguri, de 3 ori pe zi.
+ *Mod de preparare*: se fierb plantele, mai putin coada soricelului, timp de 20 minute in 1 litru de apa; la final se adauga coada-soricelului si se acopera cat mai etans. Se lasa sa se raceasca, se pune lichidul rezultat in sticla si se pastreaza intr-un loc racoros. Dozare: 2-3 linguri, de 3 ori pe zi.
 
-10. Scrieti zece plângeri pentru care poate fi folosit virnantul si creati o formulă pentru tratarea fiecarei boli.
-1. O persoana este racita si o dor muschii de pe brate. Tratament: infuzie din 28g de virnant, tăiat la 1/4 litru de apă distilată.
+10. Scrieti zece plangeri pentru care poate fi folosit virnantul si creati o formula pentru tratarea fiecarei boli.
+1. O persoana este racita si o dor muschii de pe brate. Tratament: infuzie din 28g de virnant, taiat la 1/4 litru de apa distilata.
 2. O persoana are mancarime la nivelul anusului, mananca prea mult si se baloneaza. Posibil diagnostic: paraziti intestinali. Tratament: infuzie slaba de virnant o lingura de virnant la 250ml apa.
 3. Pe o persoana o doare spatele. Un tratament ce ar putea-o ajuta: infuzie concentrata de virnant 2 linguri de virnant la 250ml apa.
 4. O persoana sufera de colon iritabil. Tratament: infuzie slaba de virnant o lingura de virnant la 250ml apa, se beau 2 cani pe zi.

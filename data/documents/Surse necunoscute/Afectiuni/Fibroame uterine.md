@@ -1,49 +1,49 @@
-# Remedii tradiționale românești pentru fibroame uterine
+# Remedii traditionale romanesti pentru fibroame uterine
 
-**Remedii tradiționale românești pentru fibroame uterine**
+**Remedii traditionale romanesti pentru fibroame uterine**
 
-Se amestecă următoarele plante:
+Se amesteca urmatoarele plante:
 
-- 200 g **crețișoară**
-- 100 g **nalbă**
-- 200 g **urzică moartă**
-- 200 g **păpădie**
+- 200 g **cretisoara**
+- 100 g **nalba**
+- 200 g **urzica moarta**
+- 200 g **papadie**
 - 200 g **traista-ciobanului**
 
-Se prepară o infuzie din **7 linguri din acest amestec la 2 litri de apă**. Se lasă la infuzat timp de **15 minute**, apoi se strecoară. Întreaga cantitate de ceai se bea pe parcursul zilei.
+Se prepara o infuzie din **7 linguri din acest amestec la 2 litri de apa**. Se lasa la infuzat timp de **15 minute**, apoi se strecoara. Intreaga cantitate de ceai se bea pe parcursul zilei.
 
-### Spălături vaginale
+### Spalaturi vaginale
 
-Se fac spălături vaginale de **2 ori pe zi**, folosind un amestec în cantități egale din:
+Se fac spalaturi vaginale de **2 ori pe zi**, folosind un amestec in cantitati egale din:
 
-- vâsc
-- nalbă
+- vasc
+- nalba
 - coada-calului
 - pelin
 
-Se pun **2 linguri din acest amestec în 250 ml de apă clocotită** și se lasă la infuzat timp de **3 minute**. Această cantitate reprezintă doza pentru o spălătură vaginală.
+Se pun **2 linguri din acest amestec in 250 ml de apa clocotita** si se lasa la infuzat timp de **3 minute**. Aceasta cantitate reprezinta doza pentru o spalatura vaginala.
 
-### Cremă cu grăsime de gâscă
+### Crema cu grasime de gasca
 
-Se prepară o cremă din **grăsime de gâscă topită la bain-marie**.
+Se prepara o crema din **grasime de gasca topita la bain-marie**.
 
-În fiecare seară se introduc **tampoane vaginale îmbibate cu această cremă** și se păstrează pe timpul nopții.
+In fiecare seara se introduc **tampoane vaginale imbibate cu aceasta crema** si se pastreaza pe timpul noptii.
 
 Tratamentul se face:
 
 - **10 zile consecutiv la fiecare ciclu**; sau
-- în cazul femeilor aflate la menopauză, **15 zile pe lună**;
+- in cazul femeilor aflate la menopauza, **15 zile pe luna**;
 - timp de **4 luni**.
 
 ### Polen de albine
 
-- **Polen de albine:** 1 linguriță dimineața.
+- **Polen de albine:** 1 lingurita dimineata.
 
 ### Tincturi
 
-Timp de **3 luni** se administrează următoarele tincturi:
+Timp de **3 luni** se administreaza urmatoarele tincturi:
 
-- **Tinctură din frunze de zmeur:** 10 picături, de 2 ori pe zi.
-- **Tinctură de tătăneasă:** 1 picătură dimineața.
+- **Tinctura din frunze de zmeur:** 10 picaturi, de 2 ori pe zi.
+- **Tinctura de tataneasa:** 1 picatura dimineata.
 ## Antet 1
 

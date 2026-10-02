@@ -1,1529 +1,1529 @@
 `
 „DOAMNE ISUSE HRISTOASE, FIUL LUI DUMNEZEU,
-MILUIEȘTE-MĂ PE MINE PĂCĂTOASA”
+MILUIESTE-MA PE MINE PACATOASA”
 ## CAP
 
 ### Accident vascular
-(rețeta mânăstirească), rădăcină spânz de mărimea palmei, se toacă, se pun 2 litri de apă călduță, se lasă la căldura camerei la macerat până face floare deasupra, se filtrează. Se înmoaie un tifon pus în 4 în lichid, se pune pe cap, se acoperă cu un fes timp de 1 ora, apoi se usucă părul la aer. Tratamentul se face o dată pe zi timp de 7 zile.
-### Afte și abcese
-frunze de morcov 100 g. Într-un litru de apă se fierb și se face gargară pentru a cicatriza.
-### Artrită temporo-mandibulară
-amestec de ceaiuri de coada calului, mesteacăn, soc, urzică, lemn dulce, dietă, reflexoterapie, acupunctură
-### Arteroscleroză, fragilitate vasculară
-pulbere de cătină 1 linguriță de 4 ori/zi, pe stomacul gol, ajută la elasticitatea și integrității vasculare. Efecte miraculoase se obțin cu ajutorul amestecului format din, 1 linguriță pulbere de cătină, una de polen și una de miere, 4 lingurițe/zi, timp de 2 luni. S-au recuperat destul de repede și pacienții cu accidente vasculare. (vezi, medicamente…) Coada calului, 3 – 4 lingurițe pulbere/zi, cu vârsta cantitatea de siliciu scade din organism, determinând rigidizarea si scleroza vaselor de sânge, planta conține cea mai mare cantitate de siliciu solubil, în cure de 2 – 3 luni.
+(reteta manastireasca), radacina spanz de marimea palmei, se toaca, se pun 2 litri de apa calduta, se lasa la caldura camerei la macerat pana face floare deasupra, se filtreaza. Se inmoaie un tifon pus in 4 in lichid, se pune pe cap, se acopera cu un fes timp de 1 ora, apoi se usuca parul la aer. Tratamentul se face o data pe zi timp de 7 zile.
+### Afte si abcese
+frunze de morcov 100 g. Intr-un litru de apa se fierb si se face gargara pentru a cicatriza.
+### Artrita temporo-mandibulara
+amestec de ceaiuri de coada calului, mesteacan, soc, urzica, lemn dulce, dieta, reflexoterapie, acupunctura
+### Arteroscleroza, fragilitate vasculara
+pulbere de catina 1 lingurita de 4 ori/zi, pe stomacul gol, ajuta la elasticitatea si integritatii vasculare. Efecte miraculoase se obtin cu ajutorul amestecului format din, 1 lingurita pulbere de catina, una de polen si una de miere, 4 lingurite/zi, timp de 2 luni. S-au recuperat destul de repede si pacientii cu accidente vasculare. (vezi, medicamente…) Coada calului, 3 – 4 lingurite pulbere/zi, cu varsta cantitatea de siliciu scade din organism, determinand rigidizarea si scleroza vaselor de sange, planta contine cea mai mare cantitate de siliciu solubil, in cure de 2 – 3 luni.
 ### Astenia, oboseala
-tinctură de smirnă 20 – 30 pic, diluate în puțină apă, de 4 – 6 ori/zi. Efect înviorător puternic, stimulând circulația cerebrală, favorizând activitatea intelectuală. Se va folosi numai smirna procurată din farmaciile și magazinele naturiste. Macerat de isop, (1 linguriță plantă într-un pahar de apă, la tremperatura camerei, se macerează de seara până dimineaț a) ½ litru îndulcit cu miere. Tratamentul durează 21 zile. Cu acțiune tonica asupra psihicului, favorizează concentrarea și alungă gândurile negre.
+tinctura de smirna 20 – 30 pic, diluate in putina apa, de 4 – 6 ori/zi. Efect inviorator puternic, stimuland circulatia cerebrala, favorizand activitatea intelectuala. Se va folosi numai smirna procurata din farmaciile si magazinele naturiste. Macerat de isop, (1 lingurita planta intr-un pahar de apa, la tremperatura camerei, se macereaza de seara pana dimineat a) ½ litru indulcit cu miere. Tratamentul dureaza 21 zile. Cu actiune tonica asupra psihicului, favorizeaza concentrarea si alunga gandurile negre.
 
-Ulei de somon (omega 3), reduce nivelul colesterolului, fluidificặ sângele,
-regleazặ tensiunea, ajutặ inima sặ funcționeze normal. Ceai de
-sunặtoare și tei îndulcit cu miere, ajutặ pentru un somn liniștit.
-### Blefarită, conjuctivită
-se pun pe ochi comprese cu suc din frunze de pătrunjel, se țin 20 – 30 min.. Tratamentul se face 7 zile.
-### Căderea părului
-1 lingur ă gaz lampant, 1 lingură oțet de mere, 1 ou, 1 căpățână usturoi pisat, se amestecă, se face părul cărări și se unge. Se lasă să acționeze 3 ore, apoi se spală cu șampon. Tratamentul se face o data pe săptămână. Cura cu oțet de lavandă (10 linguri de plantă mărunțită cu ½ litru de oțet, se macerează 10 zile la temperatura camerei), se masează la rădăcina părului. Rădăcină de brusture pusă la macerat cu alcool, timp de 10 zile, se masează capul ușor, zilnic timp de o lună Amestec de ceapă cu miere, la 4 părți de pastă de ceapă crudă se adaugă 1 parte de miere. Se întinde amestecul pe cap, se lasă timp de 1 oră, apoi se spală capul cu apă călduță. Dacă părul este uscat, se poate pune în amestec puțin ulei de măsline. Amestec de suc de castraveți cu miere, previne căderea părului și contribuie la scăderea colesterolului. 1 pahar de suc de castraveți cu 1 lingură de miere se ia pe stomacul gol dimineața și seara înainte de culcare. Șampon cu miere, 30 g. flori de mușețel puse în 100 ml. apă fierbinte, se infuzează 1 oră, se strecoară și se adaugă 1 linguriță de miere, părul se umezește cu această 9infuzie, după 30 - 40 min. se limpezește cu apă călduță, se repetă la 10 zile. 200 ml. gaz lampant, 4 ouă, 200 ml. alcool 90, 200 ml. ulei de ricin, 200 g. usturoi pisat, vitamina B6 4 fiole de 5 ml, 4 linguri sare de mare. Se pun la macerat, timp de 2 săptămâni. Preparatul se folosește de 2 ori/săpt., se frecționează părul la rădăcină și după 4 – 5 ore se clătește cu ceai de rădăcină de brusture sau urzică.
-### Cataractă
-1 picătură miere încălzită puțin, se unge pleoapa de sus apoi se clipește, ustură puțin. Brocoli, conține săruri minerale, fosfor, calciu, fier, potasiu, vitamine A și C, care au efect antioxidant. Se folosește sub formă de suc, sau salata crudă cu zeamă de lămâie.
-### Cearcăne, vase de sânge sparte pe față
-alimentație greșită sau o afecțiune hepatică. Începutul de varice, evidențiază lipsa de elasticitate a vaselor. Dietă fără coloranți,
+Ulei de somon (omega 3), reduce nivelul colesterolului, fluidifica sangele,
+regleaza tensiunea, ajuta inima sa functioneze normal. Ceai de
+sunatoare si tei indulcit cu miere, ajuta pentru un somn linistit.
+### Blefarita, conjuctivita
+se pun pe ochi comprese cu suc din frunze de patrunjel, se tin 20 – 30 min.. Tratamentul se face 7 zile.
+### Caderea parului
+1 lingur a gaz lampant, 1 lingura otet de mere, 1 ou, 1 capatana usturoi pisat, se amesteca, se face parul carari si se unge. Se lasa sa actioneze 3 ore, apoi se spala cu sampon. Tratamentul se face o data pe saptamana. Cura cu otet de lavanda (10 linguri de planta maruntita cu ½ litru de otet, se macereaza 10 zile la temperatura camerei), se maseaza la radacina parului. Radacina de brusture pusa la macerat cu alcool, timp de 10 zile, se maseaza capul usor, zilnic timp de o luna Amestec de ceapa cu miere, la 4 parti de pasta de ceapa cruda se adauga 1 parte de miere. Se intinde amestecul pe cap, se lasa timp de 1 ora, apoi se spala capul cu apa calduta. Daca parul este uscat, se poate pune in amestec putin ulei de masline. Amestec de suc de castraveti cu miere, previne caderea parului si contribuie la scaderea colesterolului. 1 pahar de suc de castraveti cu 1 lingura de miere se ia pe stomacul gol dimineata si seara inainte de culcare. Sampon cu miere, 30 g. flori de musetel puse in 100 ml. apa fierbinte, se infuzeaza 1 ora, se strecoara si se adauga 1 lingurita de miere, parul se umezeste cu aceasta 9infuzie, dupa 30 - 40 min. se limpezeste cu apa calduta, se repeta la 10 zile. 200 ml. gaz lampant, 4 oua, 200 ml. alcool 90, 200 ml. ulei de ricin, 200 g. usturoi pisat, vitamina B6 4 fiole de 5 ml, 4 linguri sare de mare. Se pun la macerat, timp de 2 saptamani. Preparatul se foloseste de 2 ori/sapt., se frectioneaza parul la radacina si dupa 4 – 5 ore se clateste cu ceai de radacina de brusture sau urzica.
+### Cataracta
+1 picatura miere incalzita putin, se unge pleoapa de sus apoi se clipeste, ustura putin. Brocoli, contine saruri minerale, fosfor, calciu, fier, potasiu, vitamine A si C, care au efect antioxidant. Se foloseste sub forma de suc, sau salata cruda cu zeama de lamaie.
+### Cearcane, vase de sange sparte pe fata
+alimentatie gresita sau o afectiune hepatica. Inceputul de varice, evidentiaza lipsa de elasticitate a vaselor. Dieta fara coloranti,
 
-arome, conservanți, carne de porc, tutun, alcool și cafea. Se ia
-echinaceea, anghinare și preparate cu Aloe Vera, capsule cu
-ulei de pește, care reglează secrețiile hormonale. Pe față se
-unge cu unguent de gălbenele sau ulei de măsline.
-### Cancer de limbă
-(vezi cancer esofagian) Sau pulbere de cătină ½ - 1 l inguriță înainte de masă, mărește apetitul, stimulează puterea de apărare a organismului. ( vezi, medicamente..)
-### Candidoză linguală
-se badijonează limba cu o soluție de 50 g. glicerină simplă, 3 tb stamicină, 2 fiole vitamina 12, de 3 - 4 ori/zi. Și gargară de 3 ori/zi, cu o soluție din 1 linguriță de bicarbonat de sodiu, într-un pahar de apă, pentru schimbarea ph-ului.
-### Conjunctivitặ
-se pune pe ochi comprese cu infuzie din petale de trandafir, timp de ½ orặ . Este și un excelent tratament cosmetic, pentru combaterea cearcặnelor și a ridurilor.
-### Degenerescențặ macularặ
-Carotenoid complex 100% naturist, crește imunitatea organismului, se ia la 10 min. dup ặ mesele principale. Are rezultate bune și pentru cataractặ, glaucom.
+arome, conservanti, carne de porc, tutun, alcool si cafea. Se ia
+echinaceea, anghinare si preparate cu Aloe Vera, capsule cu
+ulei de peste, care regleaza secretiile hormonale. Pe fata se
+unge cu unguent de galbenele sau ulei de masline.
+### Cancer de limba
+(vezi cancer esofagian) Sau pulbere de catina ½ - 1 l ingurita inainte de masa, mareste apetitul, stimuleaza puterea de aparare a organismului. ( vezi, medicamente..)
+### Candidoza linguala
+se badijoneaza limba cu o solutie de 50 g. glicerina simpla, 3 tb stamicina, 2 fiole vitamina 12, de 3 - 4 ori/zi. Si gargara de 3 ori/zi, cu o solutie din 1 lingurita de bicarbonat de sodiu, intr-un pahar de apa, pentru schimbarea ph-ului.
+### Conjunctivita
+se pune pe ochi comprese cu infuzie din petale de trandafir, timp de ½ ora . Este si un excelent tratament cosmetic, pentru combaterea cearcanelor si a ridurilor.
+### Degenerescenta maculara
+Carotenoid complex 100% naturist, creste imunitatea organismului, se ia la 10 min. dup a mesele principale. Are rezultate bune si pentru cataracta, glaucom.
 ### Depresia, anxietatea, stresul
-tratament cu lavandă tinctură (într-un borcan se pune ¾ plantă, se completează cu alcool de 70, se lasă la macerat 14 zile, agitând din când în când borcanul) 1 linguri ță la ½ pahar de apă de 3 - 4 ori/zi, pe stomacul gol, timp de 3 luni. Sunătoarea este considerată remediul clasic antidepresiv, redând buna dispoziție și alungând gândurile rele , efectul ei este egal cu antidepresivele de sinteză. Mod de folosire 1 linguriță de plantă la 1 cană de apă clocotită, de 3 ori/zi. Ginsengul ameliorează stările de oboseală și de stres, urmând o cură de 6 - 8 săptămâni. Planta conține vitamina B1, B2 și estrogen producând o stare de calm. Valeriana conține substanțe active extrase din rădăcină, care liniștesc nervii și relaxează. Efectul calmant și somnifer vine din uleiurile eterice. Se găsește sub formă de tinctură, ceai, drajeuri. Medicamente cu csubstanțe active 100% naturale, Rhodiolin (Rhodiola Roseea) și Noni lichid (morinda citrifolia), se va vindeca sistemul nervos și inunitar, Strong Bones 2 capsule/zi cu 30 min. înainte de masặ. Macerat rece din petale de trandafir, de 3 ori/zi, cặte o canặ, timp de o lunặ.
+tratament cu lavanda tinctura (intr-un borcan se pune ¾ planta, se completeaza cu alcool de 70, se lasa la macerat 14 zile, agitand din cand in cand borcanul) 1 linguri ta la ½ pahar de apa de 3 - 4 ori/zi, pe stomacul gol, timp de 3 luni. Sunatoarea este considerata remediul clasic antidepresiv, redand buna dispozitie si alungand gandurile rele , efectul ei este egal cu antidepresivele de sinteza. Mod de folosire 1 lingurita de planta la 1 cana de apa clocotita, de 3 ori/zi. Ginsengul amelioreaza starile de oboseala si de stres, urmand o cura de 6 - 8 saptamani. Planta contine vitamina B1, B2 si estrogen producand o stare de calm. Valeriana contine substante active extrase din radacina, care linistesc nervii si relaxeaza. Efectul calmant si somnifer vine din uleiurile eterice. Se gaseste sub forma de tinctura, ceai, drajeuri. Medicamente cu csubstante active 100% naturale, Rhodiolin (Rhodiola Roseea) si Noni lichid (morinda citrifolia), se va vindeca sistemul nervos si inunitar, Strong Bones 2 capsule/zi cu 30 min. inainte de masa. Macerat rece din petale de trandafir, de 3 ori/zi, cate o cana, timp de o luna.
 ### Durere de cap , lovituri, vase sparte, cheaguri
-miere si tămâie pisată în parți egale se unge capul despărțind părul în cărări. Se
+miere si tamaie pisata in parti egale se unge capul despartind parul in carari. Se
 
-lasă să se usuce mierea, apoi se spălă cu apă călduță.
-Cura cu lavandă ulei (se obține numai industrial, se găsește în
-magazinele naturiste), 1- 2 pic, cu puțină miere. Ca tratament
-îndelungat se recomandă pulberea de lavandă (vezi ficat,
-dischinezie biliară), 1 linguriță de 3 - 4 ori/zi, pe stomacul gol
-Uleiul de lavanda obținut prin macerare în ulei de măsline, (nu
-este toxic), se folosește l a masarea tâmplei, frunții și gâtului,
-îndepărtează cu ușurință durerea de cap.
-Mestecarea câtorva tulpini de mặrar verzi combate dur erea de cap,
-astenia și stresul.
-### Dureri de cap, febră
-tinctură muguri de plop negru, 50 pic. de 3 ori/zi
-### Dureri de dinți
-pe dintele dureros, se pune un tampon de vată îmbibat cu suc de ceapă.
+lasa sa se usuce mierea, apoi se spala cu apa calduta.
+Cura cu lavanda ulei (se obtine numai industrial, se gaseste in
+magazinele naturiste), 1- 2 pic, cu putina miere. Ca tratament
+indelungat se recomanda pulberea de lavanda (vezi ficat,
+dischinezie biliara), 1 lingurita de 3 - 4 ori/zi, pe stomacul gol
+Uleiul de lavanda obtinut prin macerare in ulei de masline, (nu
+este toxic), se foloseste l a masarea tamplei, fruntii si gatului,
+indeparteaza cu usurinta durerea de cap.
+Mestecarea catorva tulpini de marar verzi combate dur erea de cap,
+astenia si stresul.
+### Dureri de cap, febra
+tinctura muguri de plop negru, 50 pic. de 3 ori/zi
+### Dureri de dinti
+pe dintele dureros, se pune un tampon de vata imbibat cu suc de ceapa.
 ### Epilepsie
-cure succesive de 40 zile, cu 10 - 20 zile pauză, se ia pe nemâncate 1 linguriță de pulbere de brânca ursului de 3 - 4 ori/zi, cu ceai de sunătoare sau busuioc. Supra dozată dă reacții alergice, vasodilatație periferică și hipotensiune. Este o boală în care bolnavul respectă cu strictețe indicațiile medicului, poate duce o viață normală, iar crizele pot fi înlăturate de multe ori pentru toată viața. Alcoolul, agravează frecvența și intensitatea crizelor. Efortul fizic și psihic prea mari sunt contraindicate. Se respectă timpul necesar de odihnă și somn. Tratamentul prescris se ia toată viața în ritmul recomandat, deoarece întreruperea bruscă, poate declanșa noi crize. Uneori insuflația aerului în spațiul arahnoidian, poate înlătura pentru mult timp crizele. Deci bolnavii de epilepsie nu sunt invalizi, dacă se tratează corect și duc o viață cumpătată, boala se ține în frâu Bila de bou, care se găsește în fiere și se ia de la abator. Se scoate cu o seringă 5 ml. bulă, 1 vârf de cuțit de bicarbonat, 75 ml. apa distilată, 10 pic. suc de lămâie, se pun la fiert, amestecă bine, se dau în câteva clocote. Prima săptămână, 10 pic. de 3 ori/zi, în puțină apă, înainte de masă. Săptămâna a 2 a, 15 pic. de 3 ori/zi. Săptămâna a 3 a, 20 pic. de 3 ori/zi. Săptămâna a 4 a, 30 pic. de 3 ori/.zi Amestecul se păstrează la frigider, se face mereu proaspăt
+cure succesive de 40 zile, cu 10 - 20 zile pauza, se ia pe nemancate 1 lingurita de pulbere de branca ursului de 3 - 4 ori/zi, cu ceai de sunatoare sau busuioc. Supra dozata da reactii alergice, vasodilatatie periferica si hipotensiune. Este o boala in care bolnavul respecta cu strictete indicatiile medicului, poate duce o viata normala, iar crizele pot fi inlaturate de multe ori pentru toata viata. Alcoolul, agraveaza frecventa si intensitatea crizelor. Efortul fizic si psihic prea mari sunt contraindicate. Se respecta timpul necesar de odihna si somn. Tratamentul prescris se ia toata viata in ritmul recomandat, deoarece intreruperea brusca, poate declansa noi crize. Uneori insuflatia aerului in spatiul arahnoidian, poate inlatura pentru mult timp crizele. Deci bolnavii de epilepsie nu sunt invalizi, daca se trateaza corect si duc o viata cumpatata, boala se tine in frau Bila de bou, care se gaseste in fiere si se ia de la abator. Se scoate cu o seringa 5 ml. bula, 1 varf de cutit de bicarbonat, 75 ml. apa distilata, 10 pic. suc de lamaie, se pun la fiert, amesteca bine, se dau in cateva clocote. Prima saptamana, 10 pic. de 3 ori/zi, in putina apa, inainte de masa. Saptamana a 2 a, 15 pic. de 3 ori/zi. Saptamana a 3 a, 20 pic. de 3 ori/zi. Saptamana a 4 a, 30 pic. de 3 ori/.zi Amestecul se pastreaza la frigider, se face mereu proaspat
 ### Exoftalmie
-eficientă o asociere terapeutică între acupunctură și fitoterapie. Se face un amestec din semințe de armurariu, limba mielului, albăstrele, silur, rădăcină de păpădie, și coada
+eficienta o asociere terapeutica intre acupunctura si fitoterapie. Se face un amestec din seminte de armurariu, limba mielului, albastrele, silur, radacina de papadie, si coada
 
-șoricelului în părți egale, se mărunțesc prin mașina de cafea, se
-ia 1 linguriță de pulbere de 4 ori/zi, pe care o țineți sub limbă
-timp de 15 min. apoi se înghite cu apă plată. Aceste plante au
-rol de antiinflamatoare, acționând asupra ochilor și reglează
-glanda suprarenală ( care produce cortizonul). Local se pot
-pune comprese cu macerat rece din mușețel, coada șoricelului,
-silur, albăstrele. Înainte de a face maceratul se spală plantele
-(se pun într-o sită și se lasă câteva min. la jetul de apă).
-### Fără miros și gust
-se renunță la Bixtonim și Rinofug. Se face un amestec în părți
+soricelului in parti egale, se maruntesc prin masina de cafea, se
+ia 1 lingurita de pulbere de 4 ori/zi, pe care o tineti sub limba
+timp de 15 min. apoi se inghite cu apa plata. Aceste plante au
+rol de antiinflamatoare, actionand asupra ochilor si regleaza
+glanda suprarenala ( care produce cortizonul). Local se pot
+pune comprese cu macerat rece din musetel, coada soricelului,
+silur, albastrele. Inainte de a face maceratul se spala plantele
+(se pun intr-o sita si se lasa cateva min. la jetul de apa).
+### Fara miros si gust
+se renunta la Bixtonim si Rinofug. Se face un amestec in parti
 ### Fotofobia
-simptom care ține de patologia ficatului, masați-vă la ceafă, la baza craniului și punctele de la mâini și picioare pe meridianul intestinului gros, plămân și ficat.
+simptom care tine de patologia ficatului, masati-va la ceafa, la baza craniului si punctele de la maini si picioare pe meridianul intestinului gros, plaman si ficat.
 ### Gripa, guturai
-tinctură muguri plop negru in alcool 90 timp de 10 - 12 zile - macerat, 50 - 100 pic. de 4 ori /zi, nu se iau cu apă, se depreciază, se iau pe pâine sau zahăr. Untul de lămâie, 1 lămâie se pune în apă fierbinte 1 min., se toacă prin mașina de tocat împreună cu coaja, se amestecă cu 100 g. unt, se adaugă 1 - 2 linguri de miere, se folosește în cantități mari în timpul epidemiilor de gripă.
-### Guturai, sensibilitate la răceli
-sirop de cătină, (vezi, medicamente…) se iau preventiv 5 - 6 lingurițe/zi, pe stomacul gol, timp de minimum 3 săptămâni. În cazul în care afecțiunea este declanșată, se iau 10 - 12 lingurițe/zi, pentru a ajuta organismul să se apere. Picurați în fiecare nară o picătură de ulei de mentă, de 2/zi. In același timp se unge cu ulei fruntea, tâmplele, urechile, ceafa, părțile exterioare ale nasului. Uleiul de mentă de poate amesteca și cu camfor.
+tinctura muguri plop negru in alcool 90 timp de 10 - 12 zile - macerat, 50 - 100 pic. de 4 ori /zi, nu se iau cu apa, se depreciaza, se iau pe paine sau zahar. Untul de lamaie, 1 lamaie se pune in apa fierbinte 1 min., se toaca prin masina de tocat impreuna cu coaja, se amesteca cu 100 g. unt, se adauga 1 - 2 linguri de miere, se foloseste in cantitati mari in timpul epidemiilor de gripa.
+### Guturai, sensibilitate la raceli
+sirop de catina, (vezi, medicamente…) se iau preventiv 5 - 6 lingurite/zi, pe stomacul gol, timp de minimum 3 saptamani. In cazul in care afectiunea este declansata, se iau 10 - 12 lingurite/zi, pentru a ajuta organismul sa se apere. Picurati in fiecare nara o picatura de ulei de menta, de 2/zi. In acelasi timp se unge cu ulei fruntea, tamplele, urechile, ceafa, partile exterioare ale nasului. Uleiul de menta de poate amesteca si cu camfor.
 ### Gingiile
-retracția lor este o manifestare a paradontozei. Se iau 10 tablete de aspirină, se pisează bine, se onține un praf foarte fin, se amestecă cu o linguriță de bicarbonat de sodiu și una de sare de bucătărie. Cu acest praf, aplicat pe periuța dinți, se fac spălături de 2 – 3 ori/zi. Se sug de 2 – 3 ori/zi tablete de Proposept cu propolis, sau se fac spălături dentare cu tinctură de propolis
+retractia lor este o manifestare a paradontozei. Se iau 10 tablete de aspirina, se piseaza bine, se ontine un praf foarte fin, se amesteca cu o lingurita de bicarbonat de sodiu si una de sare de bucatarie. Cu acest praf, aplicat pe periuta dinti, se fac spalaturi de 2 – 3 ori/zi. Se sug de 2 – 3 ori/zi tablete de Proposept cu propolis, sau se fac spalaturi dentare cu tinctura de propolis
 ### Hipoacuzie
-deficiențele auzului și ale urechii, țin de o tulburare a energiei rinichilor cu care te naști deficitar. Tratament cu reflexoterapie și acupunctură
-### Infecție cu stafilococ la ochi
-comprese cu vin natural de casă
+deficientele auzului si ale urechii, tin de o tulburare a energiei rinichilor cu care te nasti deficitar. Tratament cu reflexoterapie si acupunctura
+### Infectie cu stafilococ la ochi
+comprese cu vin natural de casa
 ### Insomnia
-capsule cu o planta Rhodiola rosea, trandafir sălbatic din Siberia, mai combat nervozitatea de peste zi, depresia,
+capsule cu o planta Rhodiola rosea, trandafir salbatic din Siberia, mai combat nervozitatea de peste zi, depresia,
 
-Amestec din plante uscate, talpa gâștei, flori de păducel,
-rădăcină de valeriană, în cantități egale. Peste 1 lingură de
-amestec se pun 200 ml. apă clocotită, se infuzează 1 oră, se
-bea călduță câte 50 ml. de 4 ori/zi înainte de mesele principale
-și înainte de somn
-Cura de lavandă tinctură (vezi depresia, cap), 1 linguriță de 3
+Amestec din plante uscate, talpa gastei, flori de paducel,
+radacina de valeriana, in cantitati egale. Peste 1 lingura de
+amestec se pun 200 ml. apa clocotita, se infuzeaza 1 ora, se
+bea calduta cate 50 ml. de 4 ori/zi inainte de mesele principale
+si inainte de somn
+Cura de lavanda tinctura (vezi depresia, cap), 1 lingurita de 3
 ori/zi.
-### Inflamații ale cavității b ucale
-1 lingură de frunze mărunțite de salvie, cu 200 ml. apă clocotită, se infuzează 35 min. apoi de face gargară
+### Inflamatii ale cavitatii b ucale
+1 lingura de frunze maruntite de salvie, cu 200 ml. apa clocotita, se infuzeaza 35 min. apoi de face gargara
 ### Insomnia
-melatonina este un hormon din corpul uman, secretat în momentul când se întunecă, pregătind organismul pentru odihnă. Când se dereglează metabolismul încep tulburarile de somn, se recomandă bio-melatonina către restabilește echilibrul, inducând astfel un somn profund și odihnitor. Este și un antioxidant protejând celula împotriva radicalilor liberi
-### Keratită
-picături pe bază de aloe stabilizată, de 2 - 3 ori/zi după câteva aplicări înlătură senzațiile neplăcute (înțepături, fotofobia, ochi uscați Pentru alte afecțiuni ale ochiului.(blefarită, conjunctivită de natură alergică, bacteriană, virotică, micotică, cataractă, glaucom, ochi obosiți) se pot folosi produse naturiste PLANTAVOREL, Piatra - Neamț - Myrtela - fructe de afin - circulația la nivelul retinei - Cevisol - fructe cătină - - Rozavit - fructe măceșe - tonic general - Silur - iarbă de ochi - boli infecțioase, - Dumasen - unguent extern antiinflamator FLAVISAN, Lugoj - Vedevital - unguent , spală și fortifică ochii - Salvamin - unguent, circulația pleoapelor - Tonic FVS 1 - efect revitalizant, intern stimul ează metabolismul, extern, comprese relaxează ochii și activează circulația
+melatonina este un hormon din corpul uman, secretat in momentul cand se intuneca, pregatind organismul pentru odihna. Cand se deregleaza metabolismul incep tulburarile de somn, se recomanda bio-melatonina catre restabileste echilibrul, inducand astfel un somn profund si odihnitor. Este si un antioxidant protejand celula impotriva radicalilor liberi
+### Keratita
+picaturi pe baza de aloe stabilizata, de 2 - 3 ori/zi dupa cateva aplicari inlatura senzatiile neplacute (intepaturi, fotofobia, ochi uscati Pentru alte afectiuni ale ochiului.(blefarita, conjunctivita de natura alergica, bacteriana, virotica, micotica, cataracta, glaucom, ochi obositi) se pot folosi produse naturiste PLANTAVOREL, Piatra - Neamt - Myrtela - fructe de afin - circulatia la nivelul retinei - Cevisol - fructe catina - - Rozavit - fructe macese - tonic general - Silur - iarba de ochi - boli infectioase, - Dumasen - unguent extern antiinflamator FLAVISAN, Lugoj - Vedevital - unguent , spala si fortifica ochii - Salvamin - unguent, circulatia pleoapelor - Tonic FVS 1 - efect revitalizant, intern stimul eaza metabolismul, extern, comprese relaxeaza ochii si activeaza circulatia
 ### Lichen plan oral
-Dr. Tovaru, Facultatea de Stomatologi e București, cabinet particular Str. M Emineacu nr.29. Buc. marți și joi.
+Dr. Tovaru, Facultatea de Stomatologi e Bucuresti, cabinet particular Str. M Emineacu nr.29. Buc. marti si joi.
 ### Limba
-tặietor sub limbặ Stelian Fulga, Sos. Mihai Bravu 227, corp 1B, ap. 2 , la curte, tel. 2550291.
+taietor sub limba Stelian Fulga, Sos. Mihai Bravu 227, corp 1B, ap. 2 , la curte, tel. 2550291.
 
 ### Mahmureala
-se poate înlătura cu tinctură de mentă, 20 pic. Se pun într-un pahar cu apă rece, se bea toată apa o dată, dispare durerea de cap și senzația de cap greu.
-### Mătreață
-2 linguri oțet de mere, sau sucul de la o lămâie cu 2 linguri apă distilata si 2 linguri ulei de măsline, se amestecă și se masează capul, se lasă 2o de minute, apoi se spală cu șampon. Sau; în șampon se pun 30 de aspirine pisate se amesteca bine Masaj extern ureche; 3 pic. lavandă, 3 pic. tei, 6 pic. mușețel, se amestecă și se masează in jurul urechii.
+se poate inlatura cu tinctura de menta, 20 pic. Se pun intr-un pahar cu apa rece, se bea toata apa o data, dispare durerea de cap si senzatia de cap greu.
+### Matreata
+2 linguri otet de mere, sau sucul de la o lamaie cu 2 linguri apa distilata si 2 linguri ulei de masline, se amesteca si se maseaza capul, se lasa 2o de minute, apoi se spala cu sampon. Sau; in sampon se pun 30 de aspirine pisate se amesteca bine Masaj extern ureche; 3 pic. lavanda, 3 pic. tei, 6 pic. musetel, se amesteca si se maseaza in jurul urechii.
 ### Memorie
-dacă la trezire aveți mâinile și picioarele reci, este un semn al slabei circulații periferice și inclusiv a creierului. Pentru ameliorare se ia Ginkgo Biloba, Bilobil. În alimentație se introduc următoarele alimente pentru îmbunătățirea circulației, usturoi (germaniu înviorează circulația), țelină, ardei iute, hrean, cuișoare, scorțișoară, urzici. Eficient tratamentul cu ZEICAN, asigură organismului calciu, alimentează sistemul nervos, sporește capacitatea intelectuală, frânează îmbătrânirea, conține lecitină.
-### SUPER SOYA LECITINĂ
-îmbunătățește activitatea intelectuală, atenția.
+daca la trezire aveti mainile si picioarele reci, este un semn al slabei circulatii periferice si inclusiv a creierului. Pentru ameliorare se ia Ginkgo Biloba, Bilobil. In alimentatie se introduc urmatoarele alimente pentru imbunatatirea circulatiei, usturoi (germaniu invioreaza circulatia), telina, ardei iute, hrean, cuisoare, scortisoara, urzici. Eficient tratamentul cu ZEICAN, asigura organismului calciu, alimenteaza sistemul nervos, sporeste capacitatea intelectuala, franeaza imbatranirea, contine lecitina.
+### SUPER SOYA LECITINA
+imbunatateste activitatea intelectuala, atentia.
 ### MEGA B COMPLEX
-efect anti-stres, mărește puterea de concentrare, stimulează creșterea și dezvoltarea organismului. Sunt de la California Fitnes. Lipsa puterii de concentrare este dată de prezența polipilor în mare măsură. Un medic O.R.L. a sfătuit un părinte să nu-și opereze copilul și să-i dea 1 aspirină împărțită în 4 astfel, ¼ la ora 19, ¼ la ora 19,15. ¼ la ora 19,30, ¼ la ora 19,45. La ora 20, bea o cană de lapte cald, îndulcit cu miere, timp de 10 zile.
+efect anti-stres, mareste puterea de concentrare, stimuleaza cresterea si dezvoltarea organismului. Sunt de la California Fitnes. Lipsa puterii de concentrare este data de prezenta polipilor in mare masura. Un medic O.R.L. a sfatuit un parinte sa nu-si opereze copilul si sa-i dea 1 aspirina impartita in 4 astfel, ¼ la ora 19, ¼ la ora 19,15. ¼ la ora 19,30, ¼ la ora 19,45. La ora 20, bea o cana de lapte cald, indulcit cu miere, timp de 10 zile.
 ### Migrena
-cauzele sunt generate de unele alimente. Un regim alimentar ar putea duce la vindecare. Trebuie eliminat consumul de ciocolată, cașcaval, citrice și cafea. Se reduce cantitativ ouăle, laptele, mezelurile, carnea de porc, dulciurile pe bază de zahăr, peștele și conservele din pește, produsele conservate prin sărare excesivă, berea, cola, zmeura, grâul, porumbul, mazărea, ciupercile, nucile. Pentru găsirea vinovatului, ar trebui excluse pe rând din dietă. Dacă nu se mai declanșează nici o criză în perioada de abstinență, produsul incriminat se introduce în dietă, pentru o scurtă perioadă în alimentația zilnică, reapariția unei noi crize confirmând rolul nefast al acestuia. Alte alimente se recomandă a fi consumate sub forma unor mese mici și numeroase; cereale, pâine prăjită,
+cauzele sunt generate de unele alimente. Un regim alimentar ar putea duce la vindecare. Trebuie eliminat consumul de ciocolata, cascaval, citrice si cafea. Se reduce cantitativ ouale, laptele, mezelurile, carnea de porc, dulciurile pe baza de zahar, pestele si conservele din peste, produsele conservate prin sarare excesiva, berea, cola, zmeura, graul, porumbul, mazarea, ciupercile, nucile. Pentru gasirea vinovatului, ar trebui excluse pe rand din dieta. Daca nu se mai declanseaza nici o criza in perioada de abstinenta, produsul incriminat se introduce in dieta, pentru o scurta perioada in alimentatia zilnica, reaparitia unei noi crize confirmand rolul nefast al acestuia. Alte alimente se recomanda a fi consumate sub forma unor mese mici si numeroase; cereale, paine prajita,
 
-unt sau margarină, biscuiți, ceai, iaurt, orez, paste făinoase,
-cartofi, salată, legume (varză, mărar, fasole verde, ridichi), vin
-alb, brânză de vaci, sau telemea, mere, cireșe, produse apicole,
-care să înlocuiască zahărul. De asemenea sunt necesare suplimente
-nutritive bogate î n vitaminele B2, B6, și E, săruri de magneziu,
-calciu și zinc.
+unt sau margarina, biscuiti, ceai, iaurt, orez, paste fainoase,
+cartofi, salata, legume (varza, marar, fasole verde, ridichi), vin
+alb, branza de vaci, sau telemea, mere, cirese, produse apicole,
+care sa inlocuiasca zaharul. De asemenea sunt necesare suplimente
+nutritive bogate i n vitaminele B2, B6, si E, saruri de magneziu,
+calciu si zinc.
 ### Otita
-se pune în ureche un tampon îmbibat cu 10 - 15 pic. de propolis, soluție alcoolică de 5 - 7 %, de 2 ori/zi. Boala este cauzată de o disfuncție a rinichiului și a vezicii biliare. Se consumă ceaiuri de gălbenele, lemn dulce și păpădie. Alimentația cu cât mai multe legume, fructe, suc de morcovi, țelină, usturoi, ceapă și cât mai puțină carne.
+se pune in ureche un tampon imbibat cu 10 - 15 pic. de propolis, solutie alcoolica de 5 - 7 %, de 2 ori/zi. Boala este cauzata de o disfunctie a rinichiului si a vezicii biliare. Se consuma ceaiuri de galbenele, lemn dulce si papadie. Alimentatia cu cat mai multe legume, fructe, suc de morcovi, telina, usturoi, ceapa si cat mai putina carne.
 ### Bronhoron
-vezi infecțiile respiratorii. Inflamația urechii medii sau otita acută se întâlnește la copii, este o infecție în urechea medie provocată de răceală. gripă, scarlatină puroiul și scade auzul. Tratament, se pun în ureche picături în amestec în părți egale de tinctură de propolis cu miere, 2 pic. în ambele urechi 1 dată/zi seara. Se mai poate pune miere caldă de 2 - 3 pic., o dată /zi seara. Pentru a scăpa de durere se introduce în ureche o frunză proaspătă de mușcată, care va calma durerea și înlătură inflamația O dată pe zi se pune în ureche 1 - 2 pic. zeamă de lămâie.
-### Operație plastică și reparatorie la ochi
-Spitalul de oftalmologie București.
-### Ozenă nazală, rinita atrofică
-tratament la băile Techirghiol. Bronhoron, (vezi infecțiile respiratorii). Suferința începe de la pubertate și se accentuează cu vârsta, durere de cap, mucozități purulente și coji uscate. Vitamina A nu este suficientă. Spălăturile cu apă sărată în nas, apoi se badijonează interiorul nărilor cu ulei de cătină, se completează tratamentul cu aerosoli și cu antibiotic recomandat de medic. Orice tratament ameliorează, vindecarea se face prin operație cu anestezie locală, care constă în strâmtarea foselor nazale, fără a modifica aspectul exterior al nasului.
+vezi infectiile respiratorii. Inflamatia urechii medii sau otita acuta se intalneste la copii, este o infectie in urechea medie provocata de raceala. gripa, scarlatina puroiul si scade auzul. Tratament, se pun in ureche picaturi in amestec in parti egale de tinctura de propolis cu miere, 2 pic. in ambele urechi 1 data/zi seara. Se mai poate pune miere calda de 2 - 3 pic., o data /zi seara. Pentru a scapa de durere se introduce in ureche o frunza proaspata de muscata, care va calma durerea si inlatura inflamatia O data pe zi se pune in ureche 1 - 2 pic. zeama de lamaie.
+### Operatie plastica si reparatorie la ochi
+Spitalul de oftalmologie Bucuresti.
+### Ozena nazala, rinita atrofica
+tratament la baile Techirghiol. Bronhoron, (vezi infectiile respiratorii). Suferinta incepe de la pubertate si se accentueaza cu varsta, durere de cap, mucozitati purulente si coji uscate. Vitamina A nu este suficienta. Spalaturile cu apa sarata in nas, apoi se badijoneaza interiorul narilor cu ulei de catina, se completeaza tratamentul cu aerosoli si cu antibiotic recomandat de medic. Orice tratament amelioreaza, vindecarea se face prin operatie cu anestezie locala, care consta in stramtarea foselor nazale, fara a modifica aspectul exterior al nasului.
 ### Paradontoza
-plante cu acțiune antiseptică, antiinflamatorie, anticicatrizantă. Spălături bucale cu ceai de mușețel concentrat, 3 linguri la o cană de apă, de 3 – 4 ori/zi. Sau ceai de salvie, 2 lingurițe la 100 ml. de apă. Sunătoarea calmează durerile dentare, 2 linguri la 200 ml. apă, de 4 – 5 ori/zi. Masarea gingiilor grăbește vindecarea îmbunătățind circulația sângelui. Se face direct cu degetul pe gingie, sau din exterior, prin obraji.
+plante cu actiune antiseptica, antiinflamatorie, anticicatrizanta. Spalaturi bucale cu ceai de musetel concentrat, 3 linguri la o cana de apa, de 3 – 4 ori/zi. Sau ceai de salvie, 2 lingurite la 100 ml. de apa. Sunatoarea calmeaza durerile dentare, 2 linguri la 200 ml. apa, de 4 – 5 ori/zi. Masarea gingiilor grabeste vindecarea imbunatatind circulatia sangelui. Se face direct cu degetul pe gingie, sau din exterior, prin obraji.
 
-Esențial este o dietă săracă în zahăr rafinat și bogată în fibre.
-Importante sunt vitaminele A, C și E, zincul, flavonidele
-prezente mai ales în ceapa proaspătă.
-### Păr bogat
-se iau cantități egale, câte un pumn din plantele, urzică, frunze de nuc, de mesteacăn, de soc și o tulpină încât rostopască, se pun în 2 litri de apă rece. Se fierbe, apoi vasul se acoperă cu un capac și se lasă 5 m in. Cu ½ infuzie se spală părul cu săpun de casă, se clăte ște cu apă, iar cu cealaltă ½ de infuzie se clăte ște părul, se lasă să acționeze, nu se mai clătește cu apă.
-### Păduchi și alți paraziți
-3 - 4 pic ulei de lavanda se amestecă cu 1 linguriță de oțet, se aplică pe păr, apoi capul se acoperă timp de 3- 4 ore, pentru a forma un mediu de vapori, care vor sufoca insectele. Tratamentul se aplica 7 - 10 zile la rând.
+Esential este o dieta saraca in zahar rafinat si bogata in fibre.
+Importante sunt vitaminele A, C si E, zincul, flavonidele
+prezente mai ales in ceapa proaspata.
+### Par bogat
+se iau cantitati egale, cate un pumn din plantele, urzica, frunze de nuc, de mesteacan, de soc si o tulpina incat rostopasca, se pun in 2 litri de apa rece. Se fierbe, apoi vasul se acopera cu un capac si se lasa 5 m in. Cu ½ infuzie se spala parul cu sapun de casa, se clate ste cu apa, iar cu cealalta ½ de infuzie se clate ste parul, se lasa sa actioneze, nu se mai clateste cu apa.
+### Paduchi si alti paraziti
+3 - 4 pic ulei de lavanda se amesteca cu 1 lingurita de otet, se aplica pe par, apoi capul se acopera timp de 3- 4 ore, pentru a forma un mediu de vapori, care vor sufoca insectele. Tratamentul se aplica 7 - 10 zile la rand.
 ### Pistrui
-se fricționează pielea cu suc proaspăt de ceapă. Peste o ceapă tăiată mărunt se toarnă 100 ml. oțet de mere, se lasă la macerat, 2 - 3 zile, se fricționează pielea de 2 - 3 ori/săptămână. Peste 2 - 3 castraveți, tăiați cubulețe, se toarnă 500 ml. lapte crud, se macerează 3 zile, apoi se aplică de 2 - 3 ori pe piele și vor dispărea pistruii.
-### Rinită alergică
-timp de 10 zile din lună, se beau 2 căni de ceai coada șoricelului. A 2-a lună, 10 zile se beau 2 căni de ceai trei frați pătrați. A 3-a lună se beau 10 zile 2 căni de ceai de urzică. A 4-a lună se bea timp de 10 zile câte 2 căni de ceai de soc. Ordinea nu contează, toate ceaiurile sunt sub formă de infuzie și cu ele se fac și spălături nazale. Picăturile de extract de muguri de coacăze negru. Zilnic înainte și după mese se face gargară cu ceai de salvie, cu 5 - 6 pic. de tinctură de propolis. Infuzia se prepară pentru fiecare procedură. Cura durează câteva săptămâni.
-### Scăderea vederii
-frunze uscate și fructe de corn, se pun în apă clocotită, se lasă 2 min. la fiert, se acoperă vasul și se lasă la răcit. La 100 ml. apă 1 lingură de plante. Seara înainte de culcare se picură în ochi câte 2 - 3 pic., apoi se pune un tifon steril umed peste pleoape. Se aplică alternativ 3 seri da, 3 seri nu. anxietatea și aritmia cardiacă. Crește rezistența la stres și imunitate, cura durează 3 luni.
+se frictioneaza pielea cu suc proaspat de ceapa. Peste o ceapa taiata marunt se toarna 100 ml. otet de mere, se lasa la macerat, 2 - 3 zile, se frictioneaza pielea de 2 - 3 ori/saptamana. Peste 2 - 3 castraveti, taiati cubulete, se toarna 500 ml. lapte crud, se macereaza 3 zile, apoi se aplica de 2 - 3 ori pe piele si vor disparea pistruii.
+### Rinita alergica
+timp de 10 zile din luna, se beau 2 cani de ceai coada soricelului. A 2-a luna, 10 zile se beau 2 cani de ceai trei frati patrati. A 3-a luna se beau 10 zile 2 cani de ceai de urzica. A 4-a luna se bea timp de 10 zile cate 2 cani de ceai de soc. Ordinea nu conteaza, toate ceaiurile sunt sub forma de infuzie si cu ele se fac si spalaturi nazale. Picaturile de extract de muguri de coacaze negru. Zilnic inainte si dupa mese se face gargara cu ceai de salvie, cu 5 - 6 pic. de tinctura de propolis. Infuzia se prepara pentru fiecare procedura. Cura dureaza cateva saptamani.
+### Scaderea vederii
+frunze uscate si fructe de corn, se pun in apa clocotita, se lasa 2 min. la fiert, se acopera vasul si se lasa la racit. La 100 ml. apa 1 lingura de plante. Seara inainte de culcare se picura in ochi cate 2 - 3 pic., apoi se pune un tifon steril umed peste pleoape. Se aplica alternativ 3 seri da, 3 seri nu. anxietatea si aritmia cardiaca. Creste rezistenta la stres si imunitate, cura dureaza 3 luni.
 ### Schizofrenia
-macerat rece de isop (1 linguriță plantă într-un pahar cu apă, la temperatura camerei, de seara până dimineața) 2 – 3 pahare/zi timp de 2 săptămâni, cu una de
+macerat rece de isop (1 lingurita planta intr-un pahar cu apa, la temperatura camerei, de seara pana dimineata) 2 – 3 pahare/zi timp de 2 saptamani, cu una de
 
-pauză. Tămăduiește sau alină bolile sufletului, chemând
-ajutorul îngerilor ți pe Dumnezeu.
+pauza. Tamaduieste sau alina bolile sufletului, chemand
+ajutorul ingerilor ti pe Dumnezeu.
 ### Scleroza
-sucul de la o ½ lămâie, 1/2 pahar de apă fierbinte, 1 linguri ță de miere, se bea acest amestec seara, înainte de culcare.
-### Sinuzită
-ca remediu intern se recomandă sucul de ceapă, decoct din frunze de eucalipt, cât mai mult ceai de cimbru, de mușețel, sau salcie.
+sucul de la o ½ lamaie, 1/2 pahar de apa fierbinte, 1 linguri ta de miere, se bea acest amestec seara, inainte de culcare.
+### Sinuzita
+ca remediu intern se recomanda sucul de ceapa, decoct din frunze de eucalipt, cat mai mult ceai de cimbru, de musetel, sau salcie.
 ### Bronhoron
-vezi infecțiile respiratorii.
-### Sprâncene
-lipsa lor se poate remedia cu ajutorul uleiului de ricin (mâna lui Isus), prin masarea locului de câteva ori /zi, până apare un pufușor.
+vezi infectiile respiratorii.
+### Sprancene
+lipsa lor se poate remedia cu ajutorul uleiului de ricin (mana lui Isus), prin masarea locului de cateva ori /zi, pana apare un pufusor.
 ### Sindrom vestibular drept necompensat
-s e badijonează urechea cu vată îmbibată în unguent de tătăneasă, chiar introdus și în conductul auditiv, pusațiile neplăcute și durerea au dispărut.
-### Vârtej în urechi
-ceai de vâsc, 1 linguriță la 250 ml. apă se la să la macerat de seara până dimineața, apoi se încălzește ușor și se bea pe stomacul gol, înghițitură cu înghițitură, cura se începe cu 3 cești/zi, timp de 3 săptămâni, apoi se beau 2 cești/zi seara și dimineața timp de 2 săptămână, apoi se continuă cu 1 ceașcă/zi toată viața.
-## GÂT
+s e badijoneaza urechea cu vata imbibata in unguent de tataneasa, chiar introdus si in conductul auditiv, pusatiile neplacute si durerea au disparut.
+### Vartej in urechi
+ceai de vasc, 1 lingurita la 250 ml. apa se la sa la macerat de seara pana dimineata, apoi se incalzeste usor si se bea pe stomacul gol, inghititura cu inghititura, cura se incepe cu 3 cesti/zi, timp de 3 saptamani, apoi se beau 2 cesti/zi seara si dimineata timp de 2 saptamana, apoi se continua cu 1 ceasca/zi toata viata.
+## GAT
 
-### Amigdalite, ganglioni inflamați
-lichen de piatră cu rădăcină de brusture și echinaceea pulbere in parți egale 4 lingurițe pe zi. Gargară cu apă sărată.
+### Amigdalite, ganglioni inflamati
+lichen de piatra cu radacina de brusture si echinaceea pulbere in parti egale 4 lingurite pe zi. Gargara cu apa sarata.
 ### Bronhoron
-vezi infecțiile respiratorii.
-### Amigdalita, bronșita
-tinctură muguri plop negru, 4 lingurițe cu 4 lingurițe miere, se amestecă, se ia toata ziua câte 1 linguriță/oră.
-### Faringită
-peste 1 litru de apă clocotită se pune o mână de fructe de afin, se fierbe până scade la jumătate, se clătește gura în caz de stomatite sau se face gargară pentru faringite. Policlinica Apimedica 2123772, trateazặ cu propolis, același lucru și pentru laringitặ.
-### Glosită cronică
-decoct (fierbinte) din rădăcină de tătăneasă bine mărunțită. Se pun 4 - 5 linguri, în 250 ml. apă, se fierb 15 - 20 min. După răcire se clătește gura de 3 - 4 ori/zi. Se ia propolis brut se rupe cât un bob de piper și se înghite seara.
+vezi infectiile respiratorii.
+### Amigdalita, bronsita
+tinctura muguri plop negru, 4 lingurite cu 4 lingurite miere, se amesteca, se ia toata ziua cate 1 lingurita/ora.
+### Faringita
+peste 1 litru de apa clocotita se pune o mana de fructe de afin, se fierbe pana scade la jumatate, se clateste gura in caz de stomatite sau se face gargara pentru faringite. Policlinica Apimedica 2123772, trateaza cu propolis, acelasi lucru si pentru laringita.
+### Glosita cronica
+decoct (fierbinte) din radacina de tataneasa bine maruntita. Se pun 4 - 5 linguri, in 250 ml. apa, se fierb 15 - 20 min. Dupa racire se clateste gura de 3 - 4 ori/zi. Se ia propolis brut se rupe cat un bob de piper si se inghite seara.
 
-Tinctură de propolis 20 - 30% câte 40 pic. de 3 ori/zi, în 100 ml.
-apă. Se masează sub bărbie cu cremă de Spirulină.
-### Hipertiroidặ
-1 litru de apặ, se pune la fiert, în care se adaugặ 2 linguri de ovặz boabe macinate cu coaje cu tot, se fierbe timp de 10 min., cu grije sặ nu dea în foc, apoi se adaugặ 2 linguri de drặgaicặ, se acoperặ vasul și se ia dup ặ foc, se infuzeazặ 20 – 30 min. Toatặ cantitatea se bea fracționatặ, în decursul unei zile, dupặ mese. Seara se preparặ o infuzie4 din talpa gâștii și sun ặtoqre, câte o lingurițặ din fiecare plantặ la 300 ml. apặ, care se bea cu 1 orặ înainte de culcare. Tratamentul durezặ 6 sặptặmâni, urmat de o pauzặ de 2 sặptặmâni. In funcție de rezultatul analizelor, se poate repeta tratamentul de câteva ori. Se va consuma cât mai mult usturoi. In acest timp vor apare unele efecte benefice ca, stabilizarea tensiunii arterilae, reglarea funcției rinichilor, eliminarea stresului și a insomniei, o stare generalặ bunặ, determinatặ de eliminarea roxinelor.
+Tinctura de propolis 20 - 30% cate 40 pic. de 3 ori/zi, in 100 ml.
+apa. Se maseaza sub barbie cu crema de Spirulina.
+### Hipertiroida
+1 litru de apa, se pune la fiert, in care se adauga 2 linguri de ovaz boabe macinate cu coaje cu tot, se fierbe timp de 10 min., cu grije sa nu dea in foc, apoi se adauga 2 linguri de dragaica, se acopera vasul si se ia dup a foc, se infuzeaza 20 – 30 min. Toata cantitatea se bea fractionata, in decursul unei zile, dupa mese. Seara se prepara o infuzie4 din talpa gastii si sun atoqre, cate o lingurita din fiecare planta la 300 ml. apa, care se bea cu 1 ora inainte de culcare. Tratamentul dureza 6 saptamani, urmat de o pauza de 2 saptamani. In functie de rezultatul analizelor, se poate repeta tratamentul de cateva ori. Se va consuma cat mai mult usturoi. In acest timp vor apare unele efecte benefice ca, stabilizarea tensiunii arterilae, reglarea functiei rinichilor, eliminarea stresului si a insomniei, o stare generala buna, determinata de eliminarea roxinelor.
 ### Hipotiroida
-ovăzul este un stimulent al tiroidei, fulgii de ovăz vor fi introduși pentru mult timp în alimentație. Suplimentar se va bea ceai din 7 linguri de boabe fierte ½ oră în 1 litru de apă, pe parcursul unei zile. Ceaiul este recomandat și îi stările de astenie, surmenaj, somnolență, pietre la rinichi și impotență În anumite cazuri se poate evita operația, urmând un tratament naturist sub supraveghere medicală. Următoarele plante au efecte bune asupra tiroidei, roiniță, lichen de piatră, sânziene, talpa gâștei, ciuboțica cucului, coada șoricelului, se amestecă în părți egale, se macină prin mașina de cafea, se ia de 6 în 6 ore câte 1 linguriță de pulbere, care se ține sub limbă timp de 15 min. apoi se înghite cu apă plată.
-### Laringită
-tinctură de tămâie 20 – 30 pic. (10 g de tămâie, dizolvare în 100 ml. Alcool de 90, timp de 7 zile), diluate în puțină apă. Se procur numai de la farmacii și magazine naturiste. Atacă dinții dizolvându-i, nu se ține mult în gură.
-### Leac analgezic și antiinflamator
-amestec din scoarță de stejar, flori de tei, în proporție de 2:1. Peste 2 linguri de amestec se pun 200 ml. apă clocotită, se infuzează 15 min., se bea câte 100 ml. de 2 ori/zi.
-### Semipareză laringiană
-înghițitul în sec, pentru stimularea mușchilor paralizați. Se masează partea afectată, se poată aplica suc de ghimpir, pe această zonă.
-### Tiroidặ nodularặ
-tratament alopat cu Eutyrox și Thyreoton, urmat de tratament naturist sub îndrumarea D-nei Serac, sau.
-### Usturimi în gât, faringita
-ceai de frunze de salcie. Gargară cu apă
+ovazul este un stimulent al tiroidei, fulgii de ovaz vor fi introdusi pentru mult timp in alimentatie. Suplimentar se va bea ceai din 7 linguri de boabe fierte ½ ora in 1 litru de apa, pe parcursul unei zile. Ceaiul este recomandat si ii starile de astenie, surmenaj, somnolenta, pietre la rinichi si impotenta In anumite cazuri se poate evita operatia, urmand un tratament naturist sub supraveghere medicala. Urmatoarele plante au efecte bune asupra tiroidei, roinita, lichen de piatra, sanziene, talpa gastei, ciubotica cucului, coada soricelului, se amesteca in parti egale, se macina prin masina de cafea, se ia de 6 in 6 ore cate 1 lingurita de pulbere, care se tine sub limba timp de 15 min. apoi se inghite cu apa plata.
+### Laringita
+tinctura de tamaie 20 – 30 pic. (10 g de tamaie, dizolvare in 100 ml. Alcool de 90, timp de 7 zile), diluate in putina apa. Se procur numai de la farmacii si magazine naturiste. Ataca dintii dizolvandu-i, nu se tine mult in gura.
+### Leac analgezic si antiinflamator
+amestec din scoarta de stejar, flori de tei, in proportie de 2:1. Peste 2 linguri de amestec se pun 200 ml. apa clocotita, se infuzeaza 15 min., se bea cate 100 ml. de 2 ori/zi.
+### Semipareza laringiana
+inghititul in sec, pentru stimularea muschilor paralizati. Se maseaza partea afectata, se poata aplica suc de ghimpir, pe aceasta zona.
+### Tiroida nodulara
+tratament alopat cu Eutyrox si Thyreoton, urmat de tratament naturist sub indrumarea D-nei Serac, sau.
+### Usturimi in gat, faringita
+ceai de frunze de salcie. Gargara cu apa
 
-sărată.
+sarata.
 ### Bronhoron
-vezi infecțiile respiratorii.
+vezi infectiile respiratorii.
 
 ## TORACE; ESOFAG
 
 ### Cancer esofagian
-se face gargară cu mărul lupului, tătăneasă și mușețel (vezi rețetă clismă cancer genital) 1-2/zi. Se face și clismă la 2 zile. Sau pulbere de cătină, ½ - 1 linguri ță înainte de masă, mărește apetitul și stimulează rezistența organismului. (vezi, medicamente..)
-### Esofagita acutặ și cronic ặ
-disfagie – durere la înghițit, regurgitații, senzații de arsurặ în capul pieptului. Cauzele pot fi: Infecții, micoze, substanțe chimice, rece sau foarte cald. Tratament cu bismut subnitric – pulbere 1 vîrf de linguriț ặ, de 3 ori/zi, cu 1 orặ înaite de masặ se beau 200 ml. apặ , se ia bismutul cu foarte puținặ apặ se face o pauzặ de 1 orặ, apoi se poate lua masa, începând cu tặ rîțe de grâu, 8 – 10 lingurițe înmuiate în 200 ml. apặ, luate la fiecare dintre cele 3 mese. Metronidazol – supozitoare 1/zi la 2 ore dupặ scaun, pe toatặ durata bolii, ca supliment vitamine B2, E, A, B12, cât și minerale, calciu, potasiu, magneziu, timp de câteva luni.
+se face gargara cu marul lupului, tataneasa si musetel (vezi reteta clisma cancer genital) 1-2/zi. Se face si clisma la 2 zile. Sau pulbere de catina, ½ - 1 linguri ta inainte de masa, mareste apetitul si stimuleaza rezistenta organismului. (vezi, medicamente..)
+### Esofagita acuta si cronic a
+disfagie – durere la inghitit, regurgitatii, senzatii de arsura in capul pieptului. Cauzele pot fi: Infectii, micoze, substante chimice, rece sau foarte cald. Tratament cu bismut subnitric – pulbere 1 virf de lingurit a, de 3 ori/zi, cu 1 ora inaite de masa se beau 200 ml. apa , se ia bismutul cu foarte putina apa se face o pauza de 1 ora, apoi se poate lua masa, incepand cu ta rite de grau, 8 – 10 lingurite inmuiate in 200 ml. apa, luate la fiecare dintre cele 3 mese. Metronidazol – supozitoare 1/zi la 2 ore dupa scaun, pe toata durata bolii, ca supliment vitamine B2, E, A, B12, cat si minerale, calciu, potasiu, magneziu, timp de cateva luni.
 
 ## INIMA
 
-### Boli de inimă asociate cu hipercolesterolemie
-se scot din alimentație carnea, prăjelile, untul și margarina, dulciurile, se consumă zilnic 100 g. semințe de dovleac, neprelucrate termic, care conțin acizi grași polinesaturați, care au efect salvator asupra elasticității vaselor de sânge. Tincturặ din petale de trandafir, zilnic cặ te 3 linguriț e de 3 ori, în cure de o lunặ cu pauzặ de 10 zile.
-### Cardiopatie ischieminặ
-se amestecặ pặ ducel, talpa gâștei, mặghiran și coada calului. Se ia în fiecare zi 2 cặ ței de usturoi, la înceout o ½, apoi unul întreg, pînặ se ajunge la 2
+### Boli de inima asociate cu hipercolesterolemie
+se scot din alimentatie carnea, prajelile, untul si margarina, dulciurile, se consuma zilnic 100 g. seminte de dovleac, neprelucrate termic, care contin acizi grasi polinesaturati, care au efect salvator asupra elasticitatii vaselor de sange. Tinctura din petale de trandafir, zilnic ca te 3 lingurit e de 3 ori, in cure de o luna cu pauza de 10 zile.
+### Cardiopatie ischiemina
+se amesteca pa ducel, talpa gastei, maghiran si coada calului. Se ia in fiecare zi 2 ca tei de usturoi, la inceout o ½, apoi unul intreg, pina se ajunge la 2
 ### Dureri de inima
-10 fire de pătrunjel cu rădăcină cu tot se spală si se pun la fiert într-un litru de vin alb, timp de 3 minute, apoi se adaugă 100g de miere, se mai fierbe 4 minute. Se pune în sticle care au fost clătite cu alcool, se ia 1-2 linguri când apar durerile.
-### Fibrilația atrială paroxistică
-este o aritmie la nivel atrial, dar cu o puternică influență asupra inimii în sensul diminuării acesteia. Instalarea acestei boli este cauzată de cardiopatie ischemică, hipertensiune, febra, digestia defectuoasă însoțită de balonare, oboseală excesivă, insomnia, stresul, fumatul cafeaua. Consecințele acestei boli sunt obosirea inimii, deteriorarea valvelor, formarea cheagurilor de sânge, în consecință crește riscul infarctului miocardic și accident vascular cerebral. Tratament ajutător, greutate corporală optimă, regim alimentar desodat, fără grăsimi animale, alcool, cafea și fumat. Se recomandă legume și fructe, diminuarea constipației și balonarea, mese ușoare și dese de 5 ori/zi, mișcare în aer liber, exerciții zilnice se inspirație și expirație, eliminarea stărilor nervoase și tratament medicamentos de la dr. cardiolog.
-### Hipotensiunea, ischemia cardiacă
-fulgii de orz măresc pe cale naturală tensiunea fără riscul de a apărea hipertensiune, tensiune oscilantă sau palpitații, totodată previne ischemia.
+10 fire de patrunjel cu radacina cu tot se spala si se pun la fiert intr-un litru de vin alb, timp de 3 minute, apoi se adauga 100g de miere, se mai fierbe 4 minute. Se pune in sticle care au fost clatite cu alcool, se ia 1-2 linguri cand apar durerile.
+### Fibrilatia atriala paroxistica
+este o aritmie la nivel atrial, dar cu o puternica influenta asupra inimii in sensul diminuarii acesteia. Instalarea acestei boli este cauzata de cardiopatie ischemica, hipertensiune, febra, digestia defectuoasa insotita de balonare, oboseala excesiva, insomnia, stresul, fumatul cafeaua. Consecintele acestei boli sunt obosirea inimii, deteriorarea valvelor, formarea cheagurilor de sange, in consecinta creste riscul infarctului miocardic si accident vascular cerebral. Tratament ajutator, greutate corporala optima, regim alimentar desodat, fara grasimi animale, alcool, cafea si fumat. Se recomanda legume si fructe, diminuarea constipatiei si balonarea, mese usoare si dese de 5 ori/zi, miscare in aer liber, exercitii zilnice se inspiratie si expiratie, eliminarea starilor nervoase si tratament medicamentos de la dr. cardiolog.
+### Hipotensiunea, ischemia cardiaca
+fulgii de orz maresc pe cale naturala tensiunea fara riscul de a aparea hipertensiune, tensiune oscilanta sau palpitatii, totodata previne ischemia.
 ### Hipertensiune
-tinctură de brânca ursului 50 pic. (vezi frigiditate), de 4 ori/zi înainte de masă. Planta se va administra cu maghiran, care are rol compresor. În timpul curei nu se stă la soare. Supradozarea duce la reacții alergice, vasodilatație
+tinctura de branca ursului 50 pic. (vezi frigiditate), de 4 ori/zi inainte de masa. Planta se va administra cu maghiran, care are rol compresor. In timpul curei nu se sta la soare. Supradozarea duce la reactii alergice, vasodilatatie
 
-periferică, hipotensiune
-Două lămâi medii și 2 portocale se taie se curăță de sâmburi, se
-trec prin mașina de tocat, pasta rezultată se amestecă cu 2
-linguri de miere, se tine într-un borcan la frigider, se iau 2 - 3
-lingurițe dimineața, cu ceai sau înainte de masă. Pentru
-curățarea vaselor de sânge și pentru menținerea tensiunii
-arteriale în limite normale, pentru prevenirea stenocardiei, a
-infarcturilor și atacurilor de cord.
-Se consumă 1,5 Kg. pere timp de 3 zile/săptămână, la 24 de
-ore, se evită în această perioadă mesele copioase și se renunță
+periferica, hipotensiune
+Doua lamai medii si 2 portocale se taie se curata de samburi, se
+trec prin masina de tocat, pasta rezultata se amesteca cu 2
+linguri de miere, se tine intr-un borcan la frigider, se iau 2 - 3
+lingurite dimineata, cu ceai sau inainte de masa. Pentru
+curatarea vaselor de sange si pentru mentinerea tensiunii
+arteriale in limite normale, pentru prevenirea stenocardiei, a
+infarcturilor si atacurilor de cord.
+Se consuma 1,5 Kg. pere timp de 3 zile/saptamana, la 24 de
+ore, se evita in aceasta perioada mesele copioase si se renunta
 la carne.
-Coada calului. conținutul ridicat de potasiu este un bun
+Coada calului. continutul ridicat de potasiu este un bun
 hipotensor, vezi cap – arterioscleroza.
-### Ischemie cardiacă, Arteroscleroză, fragilitate vasculară
-se consumă semințe de floarea soarelui, neprelucrate termic, care conțin substanțe cu efect de consolidare a elasticității și permeabilității vaselor de sânge. Cura cu tinctură de lavandă (vezi cap depresia), în bolile cardiace acționează direct la nivelul sistemului nervos central, 1 linguriță de 3 - 4 ori/zi în ½ pahar cu apă, pe stomacul gol. O inimă sănătoasă, cu păducel, care scade iritabilitatea sistemului nervos central, tonifică mușchiul cardiac, îmbunătățește circulația coronariană, înlătură tahicardia și aritmia, scade tensiunea. ½ kg. fructe coapte de păducel se pisează cu o lingură de lemn, se adaugă 100 ml. de apă se încălzește totul al 40 grade, se stoarce sucul, se ia 1 lingură de 3 ori/zi, înainte de masă. Sau 1 lingură fructe de păducel uscate se pune într-un pahar cu apă fierbinte, se infuzează 2 ore la întuneric, se strecoară, se iau 1 - 2 linguri de 3 - 4 ori/zi, înainte de masă. În tulburările de ritm cardiac, infuzie de gălbenele , 2 lingurițe în 2 pahare de apă fiartă, se infuzează 1 oră, se bea câte ½ pahar de 4 ori/zi. În cazul durerilor în zona inimii, al palpitațiilor și insomniei, se folosește infuzia din frunze de roiniță, 15 g. într-un pahar de apă fierbinte timp de 30 min., se iau 2 linguri de 5 - 6 ori/zi. Infuzia din mentă, 2 lingurițe se pun in 1 pahar de apă fierbinte, se infuzează 30 min., se cu înghițituri mici toată ziua. Stenocardia și respirația greoaie, 1 kg. miere, 10 lămâi, 5 căpățâni de usturoi. Se amestecă, sucul de lămâie cu usturoiul pisat și mierea, într-un borcan cu capac la loc răcoros, timp de 1 săptămână, se iau 4 lingurițe/zi.
+### Ischemie cardiaca, Arteroscleroza, fragilitate vasculara
+se consuma seminte de floarea soarelui, neprelucrate termic, care contin substante cu efect de consolidare a elasticitatii si permeabilitatii vaselor de sange. Cura cu tinctura de lavanda (vezi cap depresia), in bolile cardiace actioneaza direct la nivelul sistemului nervos central, 1 lingurita de 3 - 4 ori/zi in ½ pahar cu apa, pe stomacul gol. O inima sanatoasa, cu paducel, care scade iritabilitatea sistemului nervos central, tonifica muschiul cardiac, imbunatateste circulatia coronariana, inlatura tahicardia si aritmia, scade tensiunea. ½ kg. fructe coapte de paducel se piseaza cu o lingura de lemn, se adauga 100 ml. de apa se incalzeste totul al 40 grade, se stoarce sucul, se ia 1 lingura de 3 ori/zi, inainte de masa. Sau 1 lingura fructe de paducel uscate se pune intr-un pahar cu apa fierbinte, se infuzeaza 2 ore la intuneric, se strecoara, se iau 1 - 2 linguri de 3 - 4 ori/zi, inainte de masa. In tulburarile de ritm cardiac, infuzie de galbenele , 2 lingurite in 2 pahare de apa fiarta, se infuzeaza 1 ora, se bea cate ½ pahar de 4 ori/zi. In cazul durerilor in zona inimii, al palpitatiilor si insomniei, se foloseste infuzia din frunze de roinita, 15 g. intr-un pahar de apa fierbinte timp de 30 min., se iau 2 linguri de 5 - 6 ori/zi. Infuzia din menta, 2 lingurite se pun in 1 pahar de apa fierbinte, se infuzeaza 30 min., se cu inghitituri mici toata ziua. Stenocardia si respiratia greoaie, 1 kg. miere, 10 lamai, 5 capatani de usturoi. Se amesteca, sucul de lamaie cu usturoiul pisat si mierea, intr-un borcan cu capac la loc racoros, timp de 1 saptamana, se iau 4 lingurite/zi.
 
-### Palpitații
+### Palpitatii
 (vezi insomnia).
 
-## PLĂMÂNI
+## PLAMANI
 
-### Astm bronșic
-- suc de ridiche cu miere, 1 - 2 lingurițe de 3 - 4 ori/zi. Sau - 200g. hrean ras cu sucul a 2 lămâi, 1/2 lingură de 2 ori/zi, se ia stomacul gol sau cu 1/2 de oră după masa. Sau - sucul de la 10 lămâi amestecat cu 1Kg. miere și 10 căpățâni usturoi pisate, se lasă o săptămână in vas închis. S4 lingurițe/zi. Amestec de miere, cătină, arnică și echinaceea, sub formă de tincturi, se iau 50 - 60 pic de 3 ori/zi, pe stomacul gol, timp de 1 lună. Echinaceea este imuno-stimulator, elimină toxinele, în timp ce arnica reglează tensiunea arterială și îmbunătățește circulația. Ienupărul folosit sub formă de tinctură, are proprietăți balsamice în astmă. Se poate controla ușor cu ajutorul siropului Carob, 3 lingurițe în 1 pahar de apă
+### Astm bronsic
+- suc de ridiche cu miere, 1 - 2 lingurite de 3 - 4 ori/zi. Sau - 200g. hrean ras cu sucul a 2 lamai, 1/2 lingura de 2 ori/zi, se ia stomacul gol sau cu 1/2 de ora dupa masa. Sau - sucul de la 10 lamai amestecat cu 1Kg. miere si 10 capatani usturoi pisate, se lasa o saptamana in vas inchis. S4 lingurite/zi. Amestec de miere, catina, arnica si echinaceea, sub forma de tincturi, se iau 50 - 60 pic de 3 ori/zi, pe stomacul gol, timp de 1 luna. Echinaceea este imuno-stimulator, elimina toxinele, in timp ce arnica regleaza tensiunea arteriala si imbunatateste circulatia. Ienuparul folosit sub forma de tinctura, are proprietati balsamice in astma. Se poate controla usor cu ajutorul siropului Carob, 3 lingurite in 1 pahar de apa
 ### Bronhoron
-vezi infecții respiratorii. Vezi tuse convulsivă. Se iau 25 de nuci mici verzi ca pentru dulceață, 1 kg. miere. Nucile se dau într-un clocot, se scurg. Separat mierea se dă în clocot, apoi se pun nucile și se clocotesc 8 min., la foc mic. Se răcește se pune în borcan, se ia după fiecare masă, o lingură și nu se mai mănâncă nimic. Cura se tine o dată pe an. Inainte de folosire, se amestecă bine. Isop pulbere ½ linguri ță rasă de 2 – 3 ori/zi, pe stomacul gol. Tratamentul durează 2 săptămâni, cu efect de decongestionare a mucoasei, antiinfecțios și amplifică imunitatea.
+vezi infectii respiratorii. Vezi tuse convulsiva. Se iau 25 de nuci mici verzi ca pentru dulceata, 1 kg. miere. Nucile se dau intr-un clocot, se scurg. Separat mierea se da in clocot, apoi se pun nucile si se clocotesc 8 min., la foc mic. Se raceste se pune in borcan, se ia dupa fiecare masa, o lingura si nu se mai mananca nimic. Cura se tine o data pe an. Inainte de folosire, se amesteca bine. Isop pulbere ½ linguri ta rasa de 2 – 3 ori/zi, pe stomacul gol. Tratamentul dureaza 2 saptamani, cu efect de decongestionare a mucoasei, antiinfectios si amplifica imunitatea.
 ### Astm alergic
-cură de 240 de ouă de prepeliță crude, luate pe stomacul gol, câte 5 în fiecare dimineață, timp de 2 ore nu se mănâncă nimic.
+cura de 240 de oua de prepelita crude, luate pe stomacul gol, cate 5 in fiecare dimineata, timp de 2 ore nu se mananca nimic.
 ### Astm cardiac
-păducelul este foarte bun stabilizator al tensiunii și excelent tonic pentru inimă. Talpa gâștii este un calmant al inimii – de 3 ori mai eficace decât valeriana. Se bea 3 – 4 ceaiuri din fiecare în parte. Se exclude carnea, alcoolul, cafeaua, tutunul, sarea.
+paducelul este foarte bun stabilizator al tensiunii si excelent tonic pentru inima. Talpa gastii este un calmant al inimii – de 3 ori mai eficace decat valeriana. Se bea 3 – 4 ceaiuri din fiecare in parte. Se exclude carnea, alcoolul, cafeaua, tutunul, sarea.
 
-### Boli respiratorii , infecții
-gripa : lichen piatra cu rădăcină de brusture si echinaceea pulbere în părți egale 4 lingurițe pe zi. Frunzele de trifoi și de urzică , pe lângă acestea se recomandă uleiul de măsline, sucuri naturale, de morcovi și ceapă Pặtrunjelul, verde mestecat dặ un miros plặ cut respirației, acționeazặ ca un dezinfectant asupra caqilor respiratorii medii și superioare, pentru cei cu boli respiratorii cronice..
+### Boli respiratorii , infectii
+gripa : lichen piatra cu radacina de brusture si echinaceea pulbere in parti egale 4 lingurite pe zi. Frunzele de trifoi si de urzica , pe langa acestea se recomanda uleiul de masline, sucuri naturale, de morcovi si ceapa Patrunjelul, verde mestecat da un miros pla cut respiratiei, actioneaza ca un dezinfectant asupra caqilor respiratorii medii si superioare, pentru cei cu boli respiratorii cronice..
 ### Bronhoron
-tratament curativ și profilactic, medicament homeopatic, adulții și copii peste 16 ani. Tratament profilactic; 5 granule 1 dată/zi 10 - 15 zile/.lună. Pentru copii între 2 - 5 ai 1 granule/zi; între 6 - 10 ani 3 granule/zi; între 11 - 15 ani 4 granule/zi. Tratamentul curativ 5 granule 1 dată/zi, până la vindecare. Granulele nu se ating cu mâna, se numără în capacul tubului, se pun pe limbă și se sug, nu se bea nimic cel puțin ¼ oră, se iau cu cel puțin ½ oră înainte sau după masă.
-### Bronșita
-500g. ceapă rasă cu 400g. zahăr, 50g. miere în 1 litru de apă se fierbe pe foc mic timp de 3 ore, cu capac. Se consumă 1 linguriță de 4 - 6 ori/zi. Fulgi de orz (vezi T.B.C.) Cura de lavandă ulei (farmacii naturiste), 2 pic. amestecate cu 1 lingură de miere, se ia câte puțin din acest amestec, nu se înghite direct, ci va aluneca ușor pe gât pentru efectele antiinfecțioase și calmante. Pentru adulți 6 pic., 2 pic. pentru copii
+tratament curativ si profilactic, medicament homeopatic, adultii si copii peste 16 ani. Tratament profilactic; 5 granule 1 data/zi 10 - 15 zile/.luna. Pentru copii intre 2 - 5 ai 1 granule/zi; intre 6 - 10 ani 3 granule/zi; intre 11 - 15 ani 4 granule/zi. Tratamentul curativ 5 granule 1 data/zi, pana la vindecare. Granulele nu se ating cu mana, se numara in capacul tubului, se pun pe limba si se sug, nu se bea nimic cel putin ¼ ora, se iau cu cel putin ½ ora inainte sau dupa masa.
+### Bronsita
+500g. ceapa rasa cu 400g. zahar, 50g. miere in 1 litru de apa se fierbe pe foc mic timp de 3 ore, cu capac. Se consuma 1 lingurita de 4 - 6 ori/zi. Fulgi de orz (vezi T.B.C.) Cura de lavanda ulei (farmacii naturiste), 2 pic. amestecate cu 1 lingura de miere, se ia cate putin din acest amestec, nu se inghite direct, ci va aluneca usor pe gat pentru efectele antiinfectioase si calmante. Pentru adulti 6 pic., 2 pic. pentru copii
 ### Bronhoron
-vezi infecții respiratorii. Coada calului, se ia de 3 ori/zi pulbere pe stomacul gol, efect antibacterian, reface țesutul distrus de infecții, eficient când boala s-a instalat și tinde la cronicizare. Tinctură de smirnă, (10 g. sirmă în 100 ml. alcool de 90, timp de 7 zile), 1 linguriță diluată în jumătate de pahar de apă, de 3 ori/zi. Este un antimicrobian puternic, scade febra, combate stările de greață și durerile de cap. Un tratament durează 7 zile, dar se poate prelungi până la 2 săptămâni. Se va folosi smirna procurată din farmaciile și magazinele naturiste.
+vezi infectii respiratorii. Coada calului, se ia de 3 ori/zi pulbere pe stomacul gol, efect antibacterian, reface tesutul distrus de infectii, eficient cand boala s-a instalat si tinde la cronicizare. Tinctura de smirna, (10 g. sirma in 100 ml. alcool de 90, timp de 7 zile), 1 lingurita diluata in jumatate de pahar de apa, de 3 ori/zi. Este un antimicrobian puternic, scade febra, combate starile de greata si durerile de cap. Un tratament dureaza 7 zile, dar se poate prelungi pana la 2 saptamani. Se va folosi smirna procurata din farmaciile si magazinele naturiste.
 ### Emfizem pulmonar
-compresă cu coada calului ( 1 pumn de plantă se pune într-o sită deasupra unui vas cu apă clocotită. Vaporii înfierbântă și umezesc planta, care se va pune pe o bucată de pânză) pe toată regiunea plămânului, toată noaptea. Amestec de ceaiuri, cimbru de câmp și pătlagină în părți egale, se beau 3 - 4 cești/zi.
+compresa cu coada calului ( 1 pumn de planta se pune intr-o sita deasupra unui vas cu apa clocotita. Vaporii infierbanta si umezesc planta, care se va pune pe o bucata de panza) pe toata regiunea plamanului, toata noaptea. Amestec de ceaiuri, cimbru de camp si patlagina in parti egale, se beau 3 - 4 cesti/zi.
 ### Expectorante
-amestec din plante uscate, nalbă mare, frunze de podbal, șovârf, în proporție de 2:1:1. Peste 1 lingură de amestec
+amestec din plante uscate, nalba mare, frunze de podbal, sovarf, in proportie de 2:1:1. Peste 1 lingura de amestec
 
-se pun 400 ml. apă clocotită, se infuzează până se răcește, se
-bea câte 100 ml. 3 - 4 ori/zi.
-Sau peste 1 linguriță de pătlagină se toarnă 200 ml. apă
-clocotită, se infuzează 1 oră, se bea 1 lingură de 3 - 4 ori/zi.
-Turiță mare, o ceașcă de ceai de 3 ori/zi, ameliorează
-emfizemul, cordul mărit, dilatarea stomacului, a intestinelor,
-bolile renale și vezicale, dacă remediul este folosit un timp mai
-îndelungat. Ceaiul nu se reîncălzește pentru că își pierde
-proprietățile, se prepară câte o cană, pentru consum.
-### Inflamații ale mucoasei respiratorii
-peste 1 lingură flori uscate de soc se toarnă 200 ml. apă clocotită, se infuzează 30 min., se bea caldă, câte 50 ml. de 3 - 4 ori/zi, înainte de masă
+se pun 400 ml. apa clocotita, se infuzeaza pana se raceste, se
+bea cate 100 ml. 3 - 4 ori/zi.
+Sau peste 1 lingurita de patlagina se toarna 200 ml. apa
+clocotita, se infuzeaza 1 ora, se bea 1 lingura de 3 - 4 ori/zi.
+Turita mare, o ceasca de ceai de 3 ori/zi, amelioreaza
+emfizemul, cordul marit, dilatarea stomacului, a intestinelor,
+bolile renale si vezicale, daca remediul este folosit un timp mai
+indelungat. Ceaiul nu se reincalzeste pentru ca isi pierde
+proprietatile, se prepara cate o cana, pentru consum.
+### Inflamatii ale mucoasei respiratorii
+peste 1 lingura flori uscate de soc se toarna 200 ml. apa clocotita, se infuzeaza 30 min., se bea calda, cate 50 ml. de 3 - 4 ori/zi, inainte de masa
 ### Imunitate pe segmentul respirator
-se consumă 200 g. semințe de floarea soarelui pe zi. Uleiul din seminț ele neprelucrate termic are efect imuno-stimulator foarte puternic.
-### Intoxicația cu monoxid de carbon
-Betaguard, un integrator nutrițional natural, creat pentru cei care lucrează în medii toxice sau pentru fumătorii înrăiți sau cei pasivi. Medicamentul nu se găsește la noi.
+se consuma 200 g. seminte de floarea soarelui pe zi. Uleiul din semint ele neprelucrate termic are efect imuno-stimulator foarte puternic.
+### Intoxicatia cu monoxid de carbon
+Betaguard, un integrator nutritional natural, creat pentru cei care lucreaza in medii toxice sau pentru fumatorii inraiti sau cei pasivi. Medicamentul nu se gaseste la noi.
 ### Neo pulmonar
-se beau 250 - 300 ml./zi suc de sfeclă. Se face o pastă din praf de pelin (plafar), fagure de miere, miere polifloră, spirt din cereale de 87, se amestecă într-un vas de porțelan cu o lingură de lemn, se pune pe un tifon, compresa se pune pe spate unde este tumoră, se prinde cu un pansament elastic. Pe pat se pune o folie de plastic, ca să nu păteze. Compresa se pune seara și se ia dimineața, se umezește și se folosește timp de 7 zile, după care se prepară altă pastă. Pe zi se mănâncă 5 pere, 20 alune crude dimineața și 20 alune crude seara Sau pulbere de cătină, ½ - 1 linguri ță pe stomacul gol înainte de masă, mărește apetitul și sistemul imunitar. (vezi, medicamente).
-### Plămân uscat
-din cauza fumatului, preparat care opreș te fumatul numit Mai, se poate procura de la.
-### T.B.C., bronșită, pleumonie
+se beau 250 - 300 ml./zi suc de sfecla. Se face o pasta din praf de pelin (plafar), fagure de miere, miere poliflora, spirt din cereale de 87, se amesteca intr-un vas de portelan cu o lingura de lemn, se pune pe un tifon, compresa se pune pe spate unde este tumora, se prinde cu un pansament elastic. Pe pat se pune o folie de plastic, ca sa nu pateze. Compresa se pune seara si se ia dimineata, se umezeste si se foloseste timp de 7 zile, dupa care se prepara alta pasta. Pe zi se mananca 5 pere, 20 alune crude dimineata si 20 alune crude seara Sau pulbere de catina, ½ - 1 linguri ta pe stomacul gol inainte de masa, mareste apetitul si sistemul imunitar. (vezi, medicamente).
+### Plaman uscat
+din cauza fumatului, preparat care opres te fumatul numit Mai, se poate procura de la.
+### T.B.C., bronsita, pleumonie
 tratament Islanda
 ### Lichen de piatra
-pulbere o linguriță pe stomacul gol de 3 ori pe zi Tinctură: într-un borcan 3 sferturi pulbere lichen piatra cu alcool de 95 amestecat în părți egale cu apă se lasă la macerat 10 zile. Se filtrează , se păstrează în sticlă închisă la culoare și la întuneric : o lingură în jumătate pahar cu apă de 3 ori pe zi T.B.C. se adună 3 pungi de nailon cu frunze de pătlagina bine
+pulbere o lingurita pe stomacul gol de 3 ori pe zi Tinctura: intr-un borcan 3 sferturi pulbere lichen piatra cu alcool de 95 amestecat in parti egale cu apa se lasa la macerat 10 zile. Se filtreaza , se pastreaza in sticla inchisa la culoare si la intuneric : o lingura in jumatate pahar cu apa de 3 ori pe zi T.B.C. se aduna 3 pungi de nailon cu frunze de patlagina bine
 
-îndesate, se spală se taie coditele, se pun la fiert cu apă cât să
-le acopere, când se înmoaie se amestecă cu 2Kg de morcov ras,
-când fierbe se mai adaugă 2Kg de miere, se fierbe câteva
-minute. Când se răcește se pune în borcane, se iau 3 lingurițe
-pe zi timp de 2 zile apoi se crește doza la 3 lingurițe pe zi.
-Fulgii de orz cu lapte fierbinte, miere și 1 vârf de cuțit pudră de
-ghimbir, hrănitor și stimulator imunitar, se consumă dimineața
-și seara.
-În fiecare zi se bea 1 Kg. borș proaspăt făcut în casă din tărâțe
-de grâu și mălai fără pâine, conține vitamina C.
-În fiecare dimineață se înghite pe stomacul gol 4 - 5 bucățele
-de slănină proaspătă, fără să mestecați.
-350 g. ovăz cu 350 g. tărâțe de grâu, se fierb în 2 litri de apă,
-se îndulce4ște cu miere, se bea de sete ca apă alternând cu
+indesate, se spala se taie coditele, se pun la fiert cu apa cat sa
+le acopere, cand se inmoaie se amesteca cu 2Kg de morcov ras,
+cand fierbe se mai adauga 2Kg de miere, se fierbe cateva
+minute. Cand se raceste se pune in borcane, se iau 3 lingurite
+pe zi timp de 2 zile apoi se creste doza la 3 lingurite pe zi.
+Fulgii de orz cu lapte fierbinte, miere si 1 varf de cutit pudra de
+ghimbir, hranitor si stimulator imunitar, se consuma dimineata
+si seara.
+In fiecare zi se bea 1 Kg. bors proaspat facut in casa din tarate
+de grau si malai fara paine, contine vitamina C.
+In fiecare dimineata se inghite pe stomacul gol 4 - 5 bucatele
+de slanina proaspata, fara sa mestecati.
+350 g. ovaz cu 350 g. tarate de grau, se fierb in 2 litri de apa,
+se indulce4ste cu miere, se bea de sete ca apa alternand cu
 alte ceaiuri.
-Sucul de la 1 lămâie se amestecă cu 1 gălbenuș de ou proaspăt,
-după fiecare masă ca desert, ajunge pentru toată ziua.
-100 g. petale de trandafiri de dulceață și 150 g. miere, se iau 2
-linguri /zi , se păstrează la rece, se consumă în maxim 2
-săptămâni.
-Sau miere 800 g. cu 2 - 3 bucăți de hrean ras, se iau 3
-lingurițe/zi
-Sau pătlagină cu cimbru în părți egale ceai. Cura de usturoi, 3
-căței/zi. Cura de propolis 20 - 30 pic./zi cu 30 min. înainte de
-masă pe o bucățică de pâine.
-Tratamente pe bază de aloe vera.
-Coada calului, vezi bronșita.
-### Tumorặ
-1 kg. rặdặcinặ de hrean, se apalặ, se curặ țặ, se dặ pe rặzặtoarea cu gặuri mici, se amestecặ cu 1 kg. de miere și se pune într-un borcan mare. Timp de 8 z ile, se lasặ la macerat, o datặ/zi se amestecặ. Apoi dimineața pe stomacul gol se ia 1 linguriț ặ, se bea o ceașc ặ de ceai de sunặtoare, iar dupặ 1 orặ se poate lua micul dejun. Se ia toatặ cantitatea de amestec.
-### Tuse convulsivă
-30g. flori sau frunze de g utui cu 1 litru de apă clocotită se lasă la infuzat 15 min., se ia câte 100 ml. de 3 ori//zi, după masă. O linguriță de semințe de anason cu 100 ml. apă clocotită, se lasă la infuzat 10 min., se iau câte 100 ml. de 3 ori/zi. Ceai din scaiul măgăresc, 1 linguriță la 250 ml. apă.
-### Traheită, angină
-Bronhoron, vezi infecțiile respiratorii.
+Sucul de la 1 lamaie se amesteca cu 1 galbenus de ou proaspat,
+dupa fiecare masa ca desert, ajunge pentru toata ziua.
+100 g. petale de trandafiri de dulceata si 150 g. miere, se iau 2
+linguri /zi , se pastreaza la rece, se consuma in maxim 2
+saptamani.
+Sau miere 800 g. cu 2 - 3 bucati de hrean ras, se iau 3
+lingurite/zi
+Sau patlagina cu cimbru in parti egale ceai. Cura de usturoi, 3
+catei/zi. Cura de propolis 20 - 30 pic./zi cu 30 min. inainte de
+masa pe o bucatica de paine.
+Tratamente pe baza de aloe vera.
+Coada calului, vezi bronsita.
+### Tumora
+1 kg. radacina de hrean, se apala, se cura ta, se da pe razatoarea cu gauri mici, se amesteca cu 1 kg. de miere si se pune intr-un borcan mare. Timp de 8 z ile, se lasa la macerat, o data/zi se amesteca. Apoi dimineata pe stomacul gol se ia 1 lingurit a, se bea o ceasc a de ceai de sunatoare, iar dupa 1 ora se poate lua micul dejun. Se ia toata cantitatea de amestec.
+### Tuse convulsiva
+30g. flori sau frunze de g utui cu 1 litru de apa clocotita se lasa la infuzat 15 min., se ia cate 100 ml. de 3 ori//zi, dupa masa. O lingurita de seminte de anason cu 100 ml. apa clocotita, se lasa la infuzat 10 min., se iau cate 100 ml. de 3 ori/zi. Ceai din scaiul magaresc, 1 lingurita la 250 ml. apa.
+### Traheita, angina
+Bronhoron, vezi infectiile respiratorii.
 ### Silicoza
-boala se poate vindeca în 3 - 4 luni cu ajutorul unei plante podbal, care ajută la eliminarea siliciului mineral
+boala se poate vindeca in 3 - 4 luni cu ajutorul unei plante podbal, care ajuta la eliminarea siliciului mineral
 
-acumulat în alveolele pulmonare. La fumători, plămânul devine
-foarte sensibil după eliminarea siliciului, deci atenție. Se face un
+acumulat in alveolele pulmonare. La fumatori, plamanul devine
+foarte sensibil dupa eliminarea siliciului, deci atentie. Se face un
 amestec din 20 g, flori de podbal, 30 g. frunze de podbal, 20 g.
-frunze de pătlagină, 20 g. frunze de mentă, 10 g. rădăcină de
-lemn dulce. Se face infuzie din 1 lingură din am estec la 1 cană de
-apă fiartă, se beau 2 căni/zi cu ½ de oră înainte de mase. Se
-recomandă ca în timpul tratamentului să se consume de 3 ori/
-săptămână câte 2 linguri țe de hrean ras amestecat cu miere
-polifloră în părți egale. E bine să se consume usturoi sub orice
-formă.
-### Viroză pulmonară
-pentru a prerven și a stimula sistemul imunitar, primăvara se face o cură de dezintoxicare cu Pure Yucca, în luna septembrie. Dacă situația este mai gravă, se renunță la cura de dezintoxicare și se ia timp de 3 luni Garlic with parsley – usturoi cu pătrunjel – interzis în cazul de nefrită - .
+frunze de patlagina, 20 g. frunze de menta, 10 g. radacina de
+lemn dulce. Se face infuzie din 1 lingura din am estec la 1 cana de
+apa fiarta, se beau 2 cani/zi cu ½ de ora inainte de mase. Se
+recomanda ca in timpul tratamentului sa se consume de 3 ori/
+saptamana cate 2 linguri te de hrean ras amestecat cu miere
+poliflora in parti egale. E bine sa se consume usturoi sub orice
+forma.
+### Viroza pulmonara
+pentru a prerven si a stimula sistemul imunitar, primavara se face o cura de dezintoxicare cu Pure Yucca, in luna septembrie. Daca situatia este mai grava, se renunta la cura de dezintoxicare si se ia timp de 3 luni Garlic with parsley – usturoi cu patrunjel – interzis in cazul de nefrita - .
 
-## SÂNI
+## SANI
 
 ### Cancer
-sistem COD (TM ) Tea - ceai cod și dietă
+sistem COD (TM ) Tea - ceai cod si dieta
 ### Cancer mamar
-în fiecare dimineață și după fiecare masă se clătește gura cu apă sărată, 1 linguriță de sare grunjoasă la 1 litru de apă. Ceai neândulcit 2 litri pe zi alternativ din următoarele plante; mentă, busuioc, chimen, nuci, levănțică, anason, valeriană, sunt plante care nu fac cancer. După fiecare masă se bea 1 - 2 lingurițe de sirop de busuioc preparat cu miere. Seara 2 - 3 picături de valeriană sau 1 - 2 extraveral. Zilnic miezul de la 10 - 15 nuci. Spălatul pe cap numai cu fiertură de frunză de nuci sau flori de gălbenele, vara proaspete iarna uscate. Pe sân comprese cu frunze de nuc călduțe sau se masează cu cremă de gălbenele. Mănâncă numai legume si fructe ,( fără carne, ouă, lapte), pătrunjel tocat, ulei presat la rece, pâine graham 2 felii, grâu
+in fiecare dimineata si dupa fiecare masa se clateste gura cu apa sarata, 1 lingurita de sare grunjoasa la 1 litru de apa. Ceai neandulcit 2 litri pe zi alternativ din urmatoarele plante; menta, busuioc, chimen, nuci, levantica, anason, valeriana, sunt plante care nu fac cancer. Dupa fiecare masa se bea 1 - 2 lingurite de sirop de busuioc preparat cu miere. Seara 2 - 3 picaturi de valeriana sau 1 - 2 extraveral. Zilnic miezul de la 10 - 15 nuci. Spalatul pe cap numai cu fiertura de frunza de nuci sau flori de galbenele, vara proaspete iarna uscate. Pe san comprese cu frunze de nuc caldute sau se maseaza cu crema de galbenele. Mananca numai legume si fructe ,( fara carne, oua, lapte), patrunjel tocat, ulei presat la rece, paine graham 2 felii, grau
 
-încolțit.
-Tratamentul ține 60 de zile, neîntrerupt, cu pauză de 15 zile
-după care se reia regimul vegetarian timp de 2 ani.
-Sau mămăliguță tare care se întinde în strat de 2 - 3 cm., pe o
-pânză, apoi se presară tămâie. Se aplică cât mai fierbinte pe
-sânul afectat, se acoperă cu un fular și se ține până se răcește .
-Celulele canceroase se distrug la căldură și nu se mai
-înmulțesc. Tratamentul se face 10 zile de 2 ori/zi.
-Sau pulbere de cătină, ½ - 1 linguri ță pe stomacul gol, înainte de
-masă, mărește apetitul și sistemul imunitar. (vezi,
+incoltit.
+Tratamentul tine 60 de zile, neintrerupt, cu pauza de 15 zile
+dupa care se reia regimul vegetarian timp de 2 ani.
+Sau mamaliguta tare care se intinde in strat de 2 - 3 cm., pe o
+panza, apoi se presara tamaie. Se aplica cat mai fierbinte pe
+sanul afectat, se acopera cu un fular si se tine pana se raceste .
+Celulele canceroase se distrug la caldura si nu se mai
+inmultesc. Tratamentul se face 10 zile de 2 ori/zi.
+Sau pulbere de catina, ½ - 1 linguri ta pe stomacul gol, inainte de
+masa, mareste apetitul si sistemul imunitar. (vezi,
 medicamente..)
-### Crăpături ale sânilor
-pest e o mână de sâmburi de gutui se toarnă 150 ml. apă clocotită, se infuzează 25 - 30 min., se aplică pe sâni sub formă de compresă.
-### Displazie mamară
-boală de origine endocrină, intervențiile chirurgicale sunt de prisos, nodulii pot apărea din nou. Se amestecă 1 linguriță de oțet de mere cu 1 linguriță miere în 200 ml. apă, se bea câte 1 cană de 3 ori/zi, cu 20 min. înainte de mese.. Tratamentul va fi urmat până se va consuma 1 litru oțet de mere, dacă mai este nevoie se reia după o pauză de 2 săptămâni. Tratamentul se reia ori de câte ori apar simptomele bolii.
+### Crapaturi ale sanilor
+pest e o mana de samburi de gutui se toarna 150 ml. apa clocotita, se infuzeaza 25 - 30 min., se aplica pe sani sub forma de compresa.
+### Displazie mamara
+boala de origine endocrina, interventiile chirurgicale sunt de prisos, nodulii pot aparea din nou. Se amesteca 1 lingurita de otet de mere cu 1 lingurita miere in 200 ml. apa, se bea cate 1 cana de 3 ori/zi, cu 20 min. inainte de mese.. Tratamentul va fi urmat pana se va consuma 1 litru otet de mere, daca mai este nevoie se reia dupa o pauza de 2 saptamani. Tratamentul se reia ori de cate ori apar simptomele bolii.
 ### Fibroadenom (benogn)
-comprese cu mặrul lupului de 3 ori/zi timp de 1 orặ. Apoi se aplicặ cremặ de gặ lbenele și m ặrul lupului. Tratamentul este valabil și pentru noduli sau rặni greu vindecabile
-### Inflamarea sânului
-infuzie de tămâie (1 – 2 bobițe de tămâie de pun într-un pahar cu apă clocotită, se lasă o ½ oră ), se aplică comprese pe zona afectată, timp de 1- 2 ore/zi. Are efect cicatrizant și antiinfecțios, puternic antiinflamator. Se procura numai de la farmacii și magazine naturiste.
-### Mastoză chistică
-Centrul Medical Simptom București cartier Crângași.
-### Scurgere gălbuie din sâni
-aceste simptome sunt caracteristice displaziilor mamare, ce reprezintă frontiere către o transformare malignă. Intervenind chirurgical, există posibilitatea unei recidive.. Există un program nutrițional Phytodefence, realizat de dr. Artur Furst, sunt capsule cu o gamă variată de substanțe antioxidante, detoxifiant și care cresc imunitatea.
-### Sâni foarte mari
-tratament intern, pentru reglarea metabolismului și sistemului endocrin, cu rol de sc ặdere a stratului adipos,: crețișoarặ, frunze de zmeur, salvie, pặpặdie, chimen (jumặtate de cantitate faț ặ de celelalte), amestecul se râșnește se
+comprese cu marul lupului de 3 ori/zi timp de 1 ora. Apoi se aplica crema de ga lbenele si m arul lupului. Tratamentul este valabil si pentru noduli sau rani greu vindecabile
+### Inflamarea sanului
+infuzie de tamaie (1 – 2 bobite de tamaie de pun intr-un pahar cu apa clocotita, se lasa o ½ ora ), se aplica comprese pe zona afectata, timp de 1- 2 ore/zi. Are efect cicatrizant si antiinfectios, puternic antiinflamator. Se procura numai de la farmacii si magazine naturiste.
+### Mastoza chistica
+Centrul Medical Simptom Bucuresti cartier Crangasi.
+### Scurgere galbuie din sani
+aceste simptome sunt caracteristice displaziilor mamare, ce reprezinta frontiere catre o transformare maligna. Intervenind chirurgical, exista posibilitatea unei recidive.. Exista un program nutritional Phytodefence, realizat de dr. Artur Furst, sunt capsule cu o gama variata de substante antioxidante, detoxifiant si care cresc imunitatea.
+### Sani foarte mari
+tratament intern, pentru reglarea metabolismului si sistemului endocrin, cu rol de sc adere a stratului adipos,: cretisoara, frunze de zmeur, salvie, papadie, chimen (jumatate de cantitate fat a de celelalte), amestecul se rasneste se
 
-administreazặ o linguriț ặ de pulbe re de 4 ori/zi, se țin 15 min.
-sublingual, apoi se înghite cu apặ.
-Tratament extern; masaje cu tincturặ din scoarț ặ de salcie și coada
-racului diluate 1:1 cu ap ặ în care se pun câteva picặturi de ulei de
-portocal (20 pic. la 50 ml. tincturặ diluatặ). Se fa c mișcặri circulare cu
-ambele mâini pe pặrțile laterale si pe sâni.
+administreaza o lingurit a de pulbe re de 4 ori/zi, se tin 15 min.
+sublingual, apoi se inghite cu apa.
+Tratament extern; masaje cu tinctura din scoart a de salcie si coada
+racului diluate 1:1 cu ap a in care se pun cateva picaturi de ulei de
+portocal (20 pic. la 50 ml. tinctura diluata). Se fa c miscari circulare cu
+ambele maini pe partile laterale si pe sani.
 ## ABDOMEN; STOMAC
 
 ### Bolile digestive
-mặrarul verde are darul de a neferi de indigestie, hipoaciditate sau balonare, este folositor și în colite întrucât substanțele aromate împiedicặ dezvoltarea bacteriilor în intestin. Se va consuma mâncare condimentatặ cu mult mặrar sau salatặ de mặrar, cu ulei de mặ sline și suc de l ặmâie, iar vara se adaugặ și roșii.
+mararul verde are darul de a neferi de indigestie, hipoaciditate sau balonare, este folositor si in colite intrucat substantele aromate impiedica dezvoltarea bacteriilor in intestin. Se va consuma mancare condimentata cu mult marar sau salata de marar, cu ulei de ma sline si suc de l amaie, iar vara se adauga si rosii.
 ### Bolile de stomac
-se pot trata cu șroturi de legume, pentru lecuirea tractului gastro – intestinal și în mod special al stomacului. Șrotul de legume și fructe – partea care rặmâne dupặ stoarcerea legumelor.
-### Digestie dificilă
-din coji de pară se face o infuzie, se poate bea după mese.
+se pot trata cu sroturi de legume, pentru lecuirea tractului gastro – intestinal si in mod special al stomacului. Srotul de legume si fructe – partea care ramane dupa stoarcerea legumelor.
+### Digestie dificila
+din coji de para se face o infuzie, se poate bea dupa mese.
 ### Durere stomac
-Almagel ș i Antacid tablete, au reglat pH - ul stomacului
+Almagel s i Antacid tablete, au reglat pH - ul stomacului
 ### Gastrita
-- Gastrovit - hiperaciditate, ulcer gastric și duodenal - Calmyplant - hiperaciditate, ulcer - Ulcoveg - idem - Prodigest plus - digestie normala, hiperaciditate , insuficiență pancreatica. Sau, macerat de semințe de in (vezi obezitate) se adaugă 1 linguriță pulbere din frunze de mentă. Se consumă 1 litru în loc de apă.
+- Gastrovit - hiperaciditate, ulcer gastric si duodenal - Calmyplant - hiperaciditate, ulcer - Ulcoveg - idem - Prodigest plus - digestie normala, hiperaciditate , insuficienta pancreatica. Sau, macerat de seminte de in (vezi obezitate) se adauga 1 lingurita pulbere din frunze de menta. Se consuma 1 litru in loc de apa.
 
-Macerat de isop ( 1 linguriță de plantă într-un pahar cu apă, la
-temperatura camerei, se la să de seara până dimineața), 2 – 3
-pahare pe parcursul unei zile, înainte de mese și după ele.
-### Hernie hiatală
-produce un reflux de acid gastric în esofag până în cavitatea bucală. Condusul mașinii și poziția în timpul șofatului produce gaze toxice și crize dureroase. Cu 2 ore înainte de culcare nu se mai mănâncă niumic.
+Macerat de isop ( 1 lingurita de planta intr-un pahar cu apa, la
+temperatura camerei, se la sa de seara pana dimineata), 2 – 3
+pahare pe parcursul unei zile, inainte de mese si dupa ele.
+### Hernie hiatala
+produce un reflux de acid gastric in esofag pana in cavitatea bucala. Condusul masinii si pozitia in timpul sofatului produce gaze toxice si crize dureroase. Cu 2 ore inainte de culcare nu se mai mananca niumic.
 ### Hipo-aciditate
-Câte o linguriț ặ de frunze de patlaginặ, mușețel. Semințe de m ặrar, sunặtoare, mentặ, se amestecặ, se iau 2 linguri peste care se toarnặ 200 ml. apặ clocotitặ, se infuzeazặ 5 – 1o min. Se bea 100 ml. de 3 ori/zi.
+Cate o lingurit a de frunze de patlagina, musetel. Seminte de m arar, sunatoare, menta, se amesteca, se iau 2 linguri peste care se toarna 200 ml. apa clocotita, se infuzeaza 5 – 1o min. Se bea 100 ml. de 3 ori/zi.
 ### Hiper-aciditate
-coada calului, 1 linguriță pe stomacul gol de 3 – 4 ori/zi, excelent antiacid cu proprietăți cicatrizante, se face cură începând cu sfârșitul lunii februarie și până la începutul lunii mai. Leac folosit de călugării de la mânăstirea Secu – ¼ litru de ulei de floarea soarelui, 250 g miere polifloră, 250 g țuică de prune și ceai concentrat de sunătoare (1/2 g litru apă, se pun 2 pumni de floare uscată, se fierbe până scade la jumătate), se amestecă cele 4 componente și se obține 1 litru de emulsie. Timp de 2 săptămâni se ține sticla la întuneric și se agită zilnic, apoi se administrează de 3 ori/zi câte 50 ml., înainte de mase. După terminarea tratamentului se face o pauză de 2 săptămâni și se poate relua dacă mai este nevoie. Câte o linguriț ặ de sunặtoaqre, mușețel, mentặ, siminoc, din amestec se ia o linguriț ặ peste care se toarnặ 200 ml. apặ clocotitặ, se infuzeazặ 10 min. Se bea cặ te 100 ml. dimineața și seara, cu 30 min. Înainte de masặ.
+coada calului, 1 lingurita pe stomacul gol de 3 – 4 ori/zi, excelent antiacid cu proprietati cicatrizante, se face cura incepand cu sfarsitul lunii februarie si pana la inceputul lunii mai. Leac folosit de calugarii de la manastirea Secu – ¼ litru de ulei de floarea soarelui, 250 g miere poliflora, 250 g tuica de prune si ceai concentrat de sunatoare (1/2 g litru apa, se pun 2 pumni de floare uscata, se fierbe pana scade la jumatate), se amesteca cele 4 componente si se obtine 1 litru de emulsie. Timp de 2 saptamani se tine sticla la intuneric si se agita zilnic, apoi se administreaza de 3 ori/zi cate 50 ml., inainte de mase. Dupa terminarea tratamentului se face o pauza de 2 saptamani si se poate relua daca mai este nevoie. Cate o lingurit a de sunatoaqre, musetel, menta, siminoc, din amestec se ia o lingurit a peste care se toarna 200 ml. apa clocotita, se infuzeaza 10 min. Se bea ca te 100 ml. dimineata si seara, cu 30 min. Inainte de masa.
 ### Indigestie sau anaciditate
-rădăcină de boz cât o unghie mică se mestecă pe stomacul gol cu un sfert de ceas înainte de masă. Infuzie de smirnă, (1 – 2 bobiță de smirnă, se pun într-un pahar cu apă clocotită, se lasă o jumătate de oră, se va topi și va pluti la suprafață, va împrumuta din aroma ei și proprietățile ei terapeutice apei.), 2 – 3 linguriță, cu un sfert de ora înainte de a mânca și la câte va minute după ce am mâncat. Are efecte puternice asupra digestiei, pe care o normalizează. Se va folosi smirnă procurată numai de la farmaciile și magazinele naturiste.
+radacina de boz cat o unghie mica se mesteca pe stomacul gol cu un sfert de ceas inainte de masa. Infuzie de smirna, (1 – 2 bobita de smirna, se pun intr-un pahar cu apa clocotita, se lasa o jumatate de ora, se va topi si va pluti la suprafata, va imprumuta din aroma ei si proprietatile ei terapeutice apei.), 2 – 3 lingurita, cu un sfert de ora inainte de a manca si la cate va minute dupa ce am mancat. Are efecte puternice asupra digestiei, pe care o normalizeaza. Se va folosi smirna procurata numai de la farmaciile si magazinele naturiste.
 ### Sughit
-ceai neândulcit din semințe de mărar, 1 linguriță la 250 ml. apă, se opărește și se bea călduț. Sau tablete de clorură de potasiu, fiind în organism un deficit de potasiu.
+ceai neandulcit din seminte de marar, 1 lingurita la 250 ml. apa, se opareste si se bea caldut. Sau tablete de clorura de potasiu, fiind in organism un deficit de potasiu.
 
 ### Ulcer gastroduodenal sau hiperaciditate
-flori de salcâm uscate se macerează 3 linguri într-un litru de apă jumătate de zi. Se bea o cană pe zi
+flori de salcam uscate se macereaza 3 linguri intr-un litru de apa jumatate de zi. Se bea o cana pe zi
 ### Ulcer
-cure de 3 săptămâni în perioada de criză , toamna si primăvara, pulbere de muguri plop negru, 1 linguriță de 3 ori/zi, pe stomacul gol. Ceai din scaiul măgăresc, o linguriță fiartă în 250 ml. Apă Coada calului, vezi hiperaciditatea. Medicamentul Pepstat 380 healthy stomach formula, se gặ sește pe internet și costa în jur de 20$ 90 pastile, care ajung pentru o lunặ. Produsul este natural, dintr-o planta sud – americanặ , nu are contraindicații. Conține enzime care ajut ặ digestia, tranzitul intestinal, arsurile, hipo și hiperaciditatea. .
+cure de 3 saptamani in perioada de criza , toamna si primavara, pulbere de muguri plop negru, 1 lingurita de 3 ori/zi, pe stomacul gol. Ceai din scaiul magaresc, o lingurita fiarta in 250 ml. Apa Coada calului, vezi hiperaciditatea. Medicamentul Pepstat 380 healthy stomach formula, se ga seste pe internet si costa in jur de 20$ 90 pastile, care ajung pentru o luna. Produsul este natural, dintr-o planta sud – americana , nu are contraindicatii. Contine enzime care ajut a digestia, tranzitul intestinal, arsurile, hipo si hiperaciditatea. .
 ## FICAT - COLECIST
 
 ### Ciroza
-se consumă zarzavaturi, legume, fructe, suc, cât mai multe lămâi, salate, apă plată. Tratament cu mărul lupului - Nicolae Pop din Cluj, aloe vera (întărirea imunității, dezintoxicare, diminuarea efectelor nocive ale citostaticelor si radioterapiei). Pentru ascită, salată de bănuți pentru a elimina apa. Ceai de gălbenele, anghinare, turiță mare, urzică vie, îndulcit cu miere și suc de cătina (vit.C, antioxidant). Cura cu struguri (vezi obezitatea). Pulbere de isop un vârf de cuțit, sau macerat ¼ pahar ( 1 linguri ță de plantă într-un pahar cu apă se lasă de seara până dimineața) cu ¼ de oră înainte de masă, inhibă reflexul vomitiv, redă apetitul și induce o stare de bună dispoziție, fiind un ajutor în bolile grave.5 Suc de cătină, proaspăt ½ pahar/zi, sau sirop de cătină, 1 lingură de 3 ori/zi, înainte de mese.
+se consuma zarzavaturi, legume, fructe, suc, cat mai multe lamai, salate, apa plata. Tratament cu marul lupului - Nicolae Pop din Cluj, aloe vera (intarirea imunitatii, dezintoxicare, diminuarea efectelor nocive ale citostaticelor si radioterapiei). Pentru ascita, salata de banuti pentru a elimina apa. Ceai de galbenele, anghinare, turita mare, urzica vie, indulcit cu miere si suc de catina (vit.C, antioxidant). Cura cu struguri (vezi obezitatea). Pulbere de isop un varf de cutit, sau macerat ¼ pahar ( 1 linguri ta de planta intr-un pahar cu apa se lasa de seara pana dimineata) cu ¼ de ora inainte de masa, inhiba reflexul vomitiv, reda apetitul si induce o stare de buna dispozitie, fiind un ajutor in bolile grave.5 Suc de catina, proaspat ½ pahar/zi, sau sirop de catina, 1 lingura de 3 ori/zi, inainte de mese.
 
-### Colangita sclerozantặ
-afecțiune cronicặ inflamatoare și fibroas ặ a cdặ ilor biliare intrahepatice și extrahepatice. Se trateaz ặ alopat, iar în stadiu avansat duce la transplant hepatic. Tratament naturist cu Aloe Vera.
-### Colecist leneș
-cu o lingură de lemn se amestecă, 2 ceșcuțe pentru cafea cu ulei de măsline, 2 ceșcuțe cu miere, 2 ceșcuțe de suc de lămâie și coaja dată prin mașina de tocat, se evită folosirea vaselor de metal. Se amestecă, se poate folosi imed iat, câte o lingură cu ½ oră înainte de mesele principale, restul se păstrează la frigider. Tratamentul se poate repeta până la folosirea cantită ții de ulei de 600 ml.
-### Ficat gras (steatozặ)
-ceai de anghinare, 2 - 3 ceșcuțe/zi, ceaiul de rostopască decongestionează ficatul, se beau 2 - 3 păhărele /zi - în cantități mari este toxic. (Cabinet naturist str. Rabat nr. 9 , tel. 2302059 Buc.). Eliminarea produselor de origine animală, pâinea albă se înlocuiește cu integrală, renunțat la cafea, alcool, țigări, se poate mânca mămăligă.
-### Hepatitặ cu virus C, varice esofagiene
-Dr. CIUHRII medicamentele HEPATITO-LIZ și VARICO-LIZ. Regim alimentar, se renunță la orice fel de grăsimi, Ceai de rostopască 3 ori/zi, 10 zile și ceai de năprasnic 10 zile înainte de masă cu 30 min.. Multă odihnă. Fulgii de orz, drenor hepatic și ajută la regenerarea celulelor hepatice, preparați cu miere și fructe, ca afinele, cătina, merele, gutuile. Pulbere de rădăcină de măcriș, iarbă de anghinare, semințe de armurariu și sunătoare în părți egale, 1 linguriță pulbere, pe stomacul gol, de 4 ori/zi, timp de 3 luni. Din acest amestec nu trebuie să lipsească pulberea de măcriș. În urma tratamentului, revine pofta de mâncare, pielea revine încet la culoarea ei normală, după 4 luni analizele de sânge tind să revină la normal. Pặtrunjelul se recomandặ bolnavilor de hepatitặ cu virus A, B, C, sặ facặ timp de 4 sặptặmâni o curặ de suc proaspặt, câte 15 linguri/zi, luate pe stomacul gol, înainte de masặ.
-### Leac pentru hepatită și colecist
-amestec de plante uscate, siminoc, mentă, semințe de coriandru, în proporție de 2:2:1. O lingură de amestec cu 400 ml. apă clocotită, se infuzează 30 min., se bea 100 ml. de 3 ori/zi, cu 30 min. înainte de masă.
+### Colangita sclerozanta
+afectiune cronica inflamatoare si fibroas a a cda ilor biliare intrahepatice si extrahepatice. Se trateaz a alopat, iar in stadiu avansat duce la transplant hepatic. Tratament naturist cu Aloe Vera.
+### Colecist lenes
+cu o lingura de lemn se amesteca, 2 cescute pentru cafea cu ulei de masline, 2 cescute cu miere, 2 cescute de suc de lamaie si coaja data prin masina de tocat, se evita folosirea vaselor de metal. Se amesteca, se poate folosi imed iat, cate o lingura cu ½ ora inainte de mesele principale, restul se pastreaza la frigider. Tratamentul se poate repeta pana la folosirea cantita tii de ulei de 600 ml.
+### Ficat gras (steatoza)
+ceai de anghinare, 2 - 3 cescute/zi, ceaiul de rostopasca decongestioneaza ficatul, se beau 2 - 3 paharele /zi - in cantitati mari este toxic. (Cabinet naturist str. Rabat nr. 9 , tel. 2302059 Buc.). Eliminarea produselor de origine animala, painea alba se inlocuieste cu integrala, renuntat la cafea, alcool, tigari, se poate manca mamaliga.
+### Hepatita cu virus C, varice esofagiene
+Dr. CIUHRII medicamentele HEPATITO-LIZ si VARICO-LIZ. Regim alimentar, se renunta la orice fel de grasimi, Ceai de rostopasca 3 ori/zi, 10 zile si ceai de naprasnic 10 zile inainte de masa cu 30 min.. Multa odihna. Fulgii de orz, drenor hepatic si ajuta la regenerarea celulelor hepatice, preparati cu miere si fructe, ca afinele, catina, merele, gutuile. Pulbere de radacina de macris, iarba de anghinare, seminte de armurariu si sunatoare in parti egale, 1 lingurita pulbere, pe stomacul gol, de 4 ori/zi, timp de 3 luni. Din acest amestec nu trebuie sa lipseasca pulberea de macris. In urma tratamentului, revine pofta de mancare, pielea revine incet la culoarea ei normala, dupa 4 luni analizele de sange tind sa revina la normal. Patrunjelul se recomanda bolnavilor de hepatita cu virus A, B, C, sa faca timp de 4 saptamani o cura de suc proaspat, cate 15 linguri/zi, luate pe stomacul gol, inainte de masa.
+### Leac pentru hepatita si colecist
+amestec de plante uscate, siminoc, menta, seminte de coriandru, in proportie de 2:2:1. O lingura de amestec cu 400 ml. apa clocotita, se infuzeaza 30 min., se bea 100 ml. de 3 ori/zi, cu 30 min. inainte de masa.
 ### Nisip la colecist
 (vezi nisip la rinichi)
-### Reglarea activității biliare
-1 linguriță de rădăcină uscată de păpădie cu 200 ml. apă clocotită, se infuzează ½ oră, se bea 50
+### Reglarea activitatii biliare
+1 lingurita de radacina uscata de papadie cu 200 ml. apa clocotita, se infuzeaza ½ ora, se bea 50
 
 ml., de 3 - 4 ori/zi.
-Cura cu struguri (vezi obezitatea) recomandată pentru
-dispepsie și prevenirea litiazei
-Cura cu lavandă pulbere (se macină cu râșnița electrică, se
-pune într-un borcan de sticlă închis la culoare și bine închis, se
-păstrează la răcoare și la întuneric), 1 linguriță pe stomacul gol
-de 4 ori/zi. Mărește secreția de bilă și la eliminarea ei calmând
+Cura cu struguri (vezi obezitatea) recomandata pentru
+dispepsie si prevenirea litiazei
+Cura cu lavanda pulbere (se macina cu rasnita electrica, se
+pune intr-un borcan de sticla inchis la culoare si bine inchis, se
+pastreaza la racoare si la intuneric), 1 lingurita pe stomacul gol
+de 4 ori/zi. Mareste secretia de bila si la eliminarea ei calmand
 durerile abdominale.
 ## PANCREAS
 
 ### Coji de mere, gutui, pere
-uscate la cuptor, apoi pisate și amestecate cu miere și puțin propolis, un preparat natural împotriva durerilor de stomac și pancreas
+uscate la cuptor, apoi pisate si amestecate cu miere si putin propolis, un preparat natural impotriva durerilor de stomac si pancreas
 ### Chisturi
-se evită excesele alimentare , după fiecare masă repaus la pat, cu aplicații calde in zona epigastrului. Funcția pancreasului este stimulată de ceaiul de anason, se bea înaintea meselor, în 3 reprize. Dacă nu sunt dureri se poate bea apă minerală de Slănic Moldova, încălzită ușor, înainte de masă. Electroterapie. Pancreasul este un organ complementar splinei, deci toate tratamentele se vor face la ora de activitate maximă a acestul organ, între orele 9 – 11 (dimineața). Fitoterapie cu amestec de plante infuzabile – mentă, păducel, siminoc, coada calului, sunătoare, trei frați pătați, în părți egale, 5 g. Din amestec se pun în 3oo ml apă clocotită, selasă 10 min., se strecoară și se beau zilnic 200 ml. de 3 ori/zi, înainte de masă. Fitoterapia se folosește timp de 2 luni, de 2 ori/an, sau dacă situația este mai gravă tot timpul. Alimentația se face în funcție de zilele săptămânii – luni lactate, marți mâncare gătită, dar nu grasă,miercuri crudități, joi atenție la excese, vineri se mănâncă ce vă place, sâmbătă mâncați mai
+se evita excesele alimentare , dupa fiecare masa repaus la pat, cu aplicatii calde in zona epigastrului. Functia pancreasului este stimulata de ceaiul de anason, se bea inaintea meselor, in 3 reprize. Daca nu sunt dureri se poate bea apa minerala de Slanic Moldova, incalzita usor, inainte de masa. Electroterapie. Pancreasul este un organ complementar splinei, deci toate tratamentele se vor face la ora de activitate maxima a acestul organ, intre orele 9 – 11 (dimineata). Fitoterapie cu amestec de plante infuzabile – menta, paducel, siminoc, coada calului, sunatoare, trei frati patati, in parti egale, 5 g. Din amestec se pun in 3oo ml apa clocotita, selasa 10 min., se strecoara si se beau zilnic 200 ml. de 3 ori/zi, inainte de masa. Fitoterapia se foloseste timp de 2 luni, de 2 ori/an, sau daca situatia este mai grava tot timpul. Alimentatia se face in functie de zilele saptamanii – luni lactate, marti mancare gatita, dar nu grasa,miercuri cruditati, joi atentie la excese, vineri se mananca ce va place, sambata mancati mai
 
-puțin, duminică puteți încera o mâncare nouă. Pancreatită, insuficiență pancreatică, diabet, chist: Lichen de piatră cu afin, pulbere în părți egale 4 lingurițe pe zi pe stomacul gol Ceai de busuioc o linguriță cu scorțișoară un vârf de cuțit în 300 ml. apă ,seara înainte de culcare. Sau ceai teci de fasole, sunătoare, melisă, fructe de măceș, cătină albă și coada șoricelului, amestecate în părți egale, se bea în loc de apă, cu 30 min. înainte de fiecare masă se bea ceai de țintaură. Farmacia verde din Oradea
+putin, duminica puteti incera o mancare noua. Pancreatita, insuficienta pancreatica, diabet, chist: Lichen de piatra cu afin, pulbere in parti egale 4 lingurite pe zi pe stomacul gol Ceai de busuioc o lingurita cu scortisoara un varf de cutit in 300 ml. apa ,seara inainte de culcare. Sau ceai teci de fasole, sunatoare, melisa, fructe de maces, catina alba si coada soricelului, amestecate in parti egale, se bea in loc de apa, cu 30 min. inainte de fiecare masa se bea ceai de tintaura. Farmacia verde din Oradea
 
 ## RINICHI
 
-### Carcinom tranzițional pseudopapilar al vezicii
-George Motorca, Farmacia Verde, Oradea, cartier Nufărul 2, Str. Traian Goga nr. 17, 467704, tratament cu ceaiuri circa 7 luni. Sau pulbere de cătină, ½ - 1 linguri ță înainte de masă pe stomacul gol, mărește apetitul și sistemul imunitar.(vezi, medicamente.)
+### Carcinom tranzitional pseudopapilar al vezicii
+George Motorca, Farmacia Verde, Oradea, cartier Nufarul 2, Str. Traian Goga nr. 17, 467704, tratament cu ceaiuri circa 7 luni. Sau pulbere de catina, ½ - 1 linguri ta inainte de masa pe stomacul gol, mareste apetitul si sistemul imunitar.(vezi, medicamente.)
 ### Carcinom vezical
-tratament naturist tibetan, prin administrarea în primele 2 – 3 luni a ceaiului antilipemic, Holican și Cordiceps, pentru a stopa creșterea tumorală primară, precum și
+tratament naturist tibetan, prin administrarea in primele 2 – 3 luni a ceaiului antilipemic, Holican si Cordiceps, pentru a stopa cresterea tumorala primara, precum si
 
-diseminarea pe cale limfatica sau hematogenă.
-### Cistita, infecții urinare
-tinctură muguri plop negru (vezi cap), 60 pic. cu 1 linguriță de miere se iau de 4 - 5 ori/zi timp de 2 zile Suc proaspặt de mặrar, 4 linguri de 3 – 4 ori/zi, în cure de 2 sặptặ mâni, stimulent pentru activitatea rinichilor, combate calculoza, infecțiile renale. Nu are reacții adverse, se poate administra pe perioade lungi.
+diseminarea pe cale limfatica sau hematogena.
+### Cistita, infectii urinare
+tinctura muguri plop negru (vezi cap), 60 pic. cu 1 lingurita de miere se iau de 4 - 5 ori/zi timp de 2 zile Suc proaspat de marar, 4 linguri de 3 – 4 ori/zi, in cure de 2 sapta mani, stimulent pentru activitatea rinichilor, combate calculoza, infectiile renale. Nu are reactii adverse, se poate administra pe perioade lungi.
 ### Colibaciloza
-tinctură de ienupăr 3 picături de 3 ori pe zi înainte de masă. Cașete cu albastru de metil 1/ seară. Căldură - sticle cu apă caldă pe burtă.
-### Alimentație
-fără sare, zahăr, vegetariană 80%, ceai coada șoricelului. Iaurt un tampon în vagin seara la culcare sau se unge mucoasa cu ulei de cătină Cură cu bere, timp de 3 săptămâni, 1 sticlă de ½ litru seara. E. Coli trăiește în intestinul gros. Fără el nu s-ar putea face bolul fecal. Din cauze multiple se dezvoltă haotic și trece în aparatul urinar producând cistite. Trebuie păstrat un mediu alcalin, în ceaiul de frunze de mesteacăn se pune 1 vârf de cuțit de bicarbonat - 5 linguri de plantă la 1 litru de apă, se bea într-o zi. Se poate lua Uricol sau Urinex, dezinfectante intestinale. Se evită produsele lactate, în afară de brânza de vaci, caș și urdă. Se evită dulciurile, trecând pe miere, pește, carne de pui și vită. Se consumă fructe, legume sucuri, se poate mânca1 ou pe săptămână. Se unge abdomenul cu bitter suedez sau cu cremă de cătină, seara înainte de culcare. Tinctură de propolis 30% de 3 ori/zi câte 30 pic., înainte de masă pe un cubuleț de pâine.
+tinctura de ienupar 3 picaturi de 3 ori pe zi inainte de masa. Casete cu albastru de metil 1/ seara. Caldura - sticle cu apa calda pe burta.
+### Alimentatie
+fara sare, zahar, vegetariana 80%, ceai coada soricelului. Iaurt un tampon in vagin seara la culcare sau se unge mucoasa cu ulei de catina Cura cu bere, timp de 3 saptamani, 1 sticla de ½ litru seara. E. Coli traieste in intestinul gros. Fara el nu s-ar putea face bolul fecal. Din cauze multiple se dezvolta haotic si trece in aparatul urinar producand cistite. Trebuie pastrat un mediu alcalin, in ceaiul de frunze de mesteacan se pune 1 varf de cutit de bicarbonat - 5 linguri de planta la 1 litru de apa, se bea intr-o zi. Se poate lua Uricol sau Urinex, dezinfectante intestinale. Se evita produsele lactate, in afara de branza de vaci, cas si urda. Se evita dulciurile, trecand pe miere, peste, carne de pui si vita. Se consuma fructe, legume sucuri, se poate manca1 ou pe saptamana. Se unge abdomenul cu bitter suedez sau cu crema de catina, seara inainte de culcare. Tinctura de propolis 30% de 3 ori/zi cate 30 pic., inainte de masa pe un cubulet de paine.
 ### Cistocel
-slăbirea musculaturii vezicii urinare, tinctură de propolis, de 2 ori/zi dimineața și seara, înainte de masă câte 40 pic., în ceai, apă călduță sau lapte, cura durează 6 - 8 săptămâni. Se poate lua în continuare, câte 30 pic, deoarece vindecă multe boli.
-### Colică renală
-se pune la macerat o ceapă mare curățată și tăiată bucăți, într-o cantitate de alcool de 90 egală cu greutatea cepei.. Se acoperă vasul și se pune într-un loc călduros, timp de 1 săptămână, agitându-l în fiecare zi. Se strecoară, se pune în sticle închise la culoare, la răcoare și întuneric. Pentru eliminarea calculilor se iau 2 lingurițe de tinctură 1 înainte de masa de prânz și cealaltă la culcare, până la eliminarea calculilor.
+slabirea musculaturii vezicii urinare, tinctura de propolis, de 2 ori/zi dimineata si seara, inainte de masa cate 40 pic., in ceai, apa calduta sau lapte, cura dureaza 6 - 8 saptamani. Se poate lua in continuare, cate 30 pic, deoarece vindeca multe boli.
+### Colica renala
+se pune la macerat o ceapa mare curatata si taiata bucati, intr-o cantitate de alcool de 90 egala cu greutatea cepei.. Se acopera vasul si se pune intr-un loc calduros, timp de 1 saptamana, agitandu-l in fiecare zi. Se strecoara, se pune in sticle inchise la culoare, la racoare si intuneric. Pentru eliminarea calculilor se iau 2 lingurite de tinctura 1 inainte de masa de pranz si cealalta la culcare, pana la eliminarea calculilor.
 
-### Disfuncții ale glandelor cortico – su prarenale
-se bea ¼ de pahar de suc de țelină, înaintea meselor principale timp de 3 săptămâni cu una de pauză.
-### Infecții
-dacă după tratamentul cu antibiotice urocultura este sterilă, se ia în fiecare seară Timp de un an 1 tb. de Nitrofurantoin. - o cură de ulei de ienupăr
-### Incontinență urinară
-urmare a unei slăbiri a musculaturii sfincterului uretral se poate încerca medicamentul DRIPTANE. Băi la șezut cu coada calului, coada șoricelului, traista ciobanului, 100 g. din acest amestec, se pun la macerat peste noapte, a 2 zi se clocotesc și se combină cu apa de baie. Frecționarea zonei vezicale urinare, cu tinctură din traista ciobanului. La 2 ore se ia 1 lingură cu ceai de mătase de porumb. Se beau zilnic 4 căni de ceai din coada calului, coada șoricelului, sunătoare și crețișoară, amestecate. Gimnastică invizibilă, ce constă în strângerea voluntară a mușchilor sfincterului anal, ritmic, până la obosirea zonei, 1 dată/zi. Urinatul în reprize, se dă drumul la jet, apoi se oprește voluntar și se ține cât se poate. Următoarele urinări se fac la fel. Aceste contracții se fac timp de 3 luni. Sunt interzise tutunul, cafeaua, alcoolul Insuficiență renală; amestec de plante drăgaică, splinuță de pădure și urzică moartă galbenă, în părți egale, se beau 4 cești/zi cu înghițituri mici. Efectul se vede după 14 zile Tinctură de brânca ursului (vezi frigiditate), diluată în ½ pahar cu apă, de 3 - 4 ori/.zi. Cura se face de 40 zile și are ca efect stimularea circulației sanguine, a imunității locale și restabilire a funcție i rinichiului. Se recomandă ceai din frunze și flori de sunătoare, nu există o doză fixă, se folosește în loc de ceai sau apă. Un pahar de ceai înainte de culcare îl protejează pe copil sau adult de incontinența urinară nocturnă în timpul somnului. Foarte indicate sunt semințele de mărar, o linguriță într-un pahar cu apă fierbinte, se lasă la infuzat 2 – 3 ore, apoi se bea un pahar pe zi. Această infuzie poate vindeca temporar incontinența.
-### Insuficiență renală
-se bea ¼ de pahar cu suc de țelină înaintea meselor principale, tratamentul are o durată de 3 săptămâni cu una de pauză.
+### Disfunctii ale glandelor cortico – su prarenale
+se bea ¼ de pahar de suc de telina, inaintea meselor principale timp de 3 saptamani cu una de pauza.
+### Infectii
+daca dupa tratamentul cu antibiotice urocultura este sterila, se ia in fiecare seara Timp de un an 1 tb. de Nitrofurantoin. - o cura de ulei de ienupar
+### Incontinenta urinara
+urmare a unei slabiri a musculaturii sfincterului uretral se poate incerca medicamentul DRIPTANE. Bai la sezut cu coada calului, coada soricelului, traista ciobanului, 100 g. din acest amestec, se pun la macerat peste noapte, a 2 zi se clocotesc si se combina cu apa de baie. Frectionarea zonei vezicale urinare, cu tinctura din traista ciobanului. La 2 ore se ia 1 lingura cu ceai de matase de porumb. Se beau zilnic 4 cani de ceai din coada calului, coada soricelului, sunatoare si cretisoara, amestecate. Gimnastica invizibila, ce consta in strangerea voluntara a muschilor sfincterului anal, ritmic, pana la obosirea zonei, 1 data/zi. Urinatul in reprize, se da drumul la jet, apoi se opreste voluntar si se tine cat se poate. Urmatoarele urinari se fac la fel. Aceste contractii se fac timp de 3 luni. Sunt interzise tutunul, cafeaua, alcoolul Insuficienta renala; amestec de plante dragaica, splinuta de padure si urzica moarta galbena, in parti egale, se beau 4 cesti/zi cu inghitituri mici. Efectul se vede dupa 14 zile Tinctura de branca ursului (vezi frigiditate), diluata in ½ pahar cu apa, de 3 - 4 ori/.zi. Cura se face de 40 zile si are ca efect stimularea circulatiei sanguine, a imunitatii locale si restabilire a functie i rinichiului. Se recomanda ceai din frunze si flori de sunatoare, nu exista o doza fixa, se foloseste in loc de ceai sau apa. Un pahar de ceai inainte de culcare il protejeaza pe copil sau adult de incontinenta urinara nocturna in timpul somnului. Foarte indicate sunt semintele de marar, o lingurita intr-un pahar cu apa fierbinte, se lasa la infuzat 2 – 3 ore, apoi se bea un pahar pe zi. Aceasta infuzie poate vindeca temporar incontinenta.
+### Insuficienta renala
+se bea ¼ de pahar cu suc de telina inaintea meselor principale, tratamentul are o durata de 3 saptamani cu una de pauza.
 ### Nisip la rinichi
-4 linguri rase de fulgi de ovăz, se fierb la foc mic în 1 litru de apă 20 min.. Acest decoct se consumă pe parcursul unei zile timp de 14 zile.
+4 linguri rase de fulgi de ovaz, se fierb la foc mic in 1 litru de apa 20 min.. Acest decoct se consuma pe parcursul unei zile timp de 14 zile.
 
-Coada calului, 2 – 3 căni/zi decoct. Sau un ceai preparat din
-coada calului, ienupăr și flori de soc, combinate în proporții
-egale, din care se beau 2 – 3 căni/zi/
-### Piatră la rinichi
-un litru de apă cu 250g rădăcină de pătrunjel curățată și tocată , se fierbe până scade la o cană, se strecoară și se împarte în 3 ceșcuțe, se bea pe stomacul gol una dimineața, la prânz si seara. In ziua respectivă nu se mănâncă nimic. A doua zi piatra se transformă în nisip. Tratamentul durează o zi. Ceai din scaiul măgăresc, 1 linguriță la 250 ml. apă. Tinctură de tămâie (vezi laringita), dimineața, la orele 8 și la ora 11, se ia câte o linguriță diluată într-un pahar de apă plată. Tratamentul durează 2 – 3 săptămâni și se repetă de câte ori este necesar. Se procura numai de la farmaciile și magazinele naturiste. Atacă dinții dizolvându-i, nu se șine mult timp în gură. Infuzie din pe3tale de trandafir, timp de 10 zile/lunặ, cặte 2 cặ ni/zi, dimineața și seara pe stomacul gol. Substanțele din petale împiedicặ formarea sặ rurilor minerale în rinichi și formarea de pietre..
-### Răceală la rinichi
-(vezi anexita și metro. și epilepsia).
-### Retenție urinară
-se mănâncă seara o pară cu coajă cu tot, sau se bea o infuzie din cojile de la 2 pere în 250 ml. apă, se lasă ¼ oră, se consumă înainte de culcare. Coada calului, se administrează zilnic 3 pahare de macerat rece, o cură durează minimum 14 zile, cu efect diuretic și stimulent al funcției renale.
+Coada calului, 2 – 3 cani/zi decoct. Sau un ceai preparat din
+coada calului, ienupar si flori de soc, combinate in proportii
+egale, din care se beau 2 – 3 cani/zi/
+### Piatra la rinichi
+un litru de apa cu 250g radacina de patrunjel curatata si tocata , se fierbe pana scade la o cana, se strecoara si se imparte in 3 cescute, se bea pe stomacul gol una dimineata, la pranz si seara. In ziua respectiva nu se mananca nimic. A doua zi piatra se transforma in nisip. Tratamentul dureaza o zi. Ceai din scaiul magaresc, 1 lingurita la 250 ml. apa. Tinctura de tamaie (vezi laringita), dimineata, la orele 8 si la ora 11, se ia cate o lingurita diluata intr-un pahar de apa plata. Tratamentul dureaza 2 – 3 saptamani si se repeta de cate ori este necesar. Se procura numai de la farmaciile si magazinele naturiste. Ataca dintii dizolvandu-i, nu se sine mult timp in gura. Infuzie din pe3tale de trandafir, timp de 10 zile/luna, cate 2 ca ni/zi, dimineata si seara pe stomacul gol. Substantele din petale impiedica formarea sa rurilor minerale in rinichi si formarea de pietre..
+### Raceala la rinichi
+(vezi anexita si metro. si epilepsia).
+### Retentie urinara
+se mananca seara o para cu coaja cu tot, sau se bea o infuzie din cojile de la 2 pere in 250 ml. apa, se lasa ¼ ora, se consuma inainte de culcare. Coada calului, se administreaza zilnic 3 pahare de macerat rece, o cura dureaza minimum 14 zile, cu efect diuretic si stimulent al functiei renale.
 
 ## INTESTIN
 
 ### Balonare
-frunze de anghinare, eficace pentru combaterea fermentației intestinale, colicilor abdominale, constipației și ameliorarea funcțiilor hepatice, se face o infuzie din 1 – 2 lingurițe de plantặ la o canặ de apặ clocotitặ, se beau 1 – 2 cești/zi. Fructe de coriandru cu propietặ ți carminative, calmeazặ durerile abdominale, eliminặ gazele, se preparặ o infuzie dintr-o linguriț ặ de fructe zdrobite la o canặ de apâ clocotitặ, se bea întreaga cantitate pe parcursul unei zile. Busuioc acționeazặ ca antiseptic abdominal, se preparặ o infuzie, se beau 2 – 3 cești/zi. Chimen și anason sau fenicul au aceleași propiet ặți ca plantele de mai sus.
+frunze de anghinare, eficace pentru combaterea fermentatiei intestinale, colicilor abdominale, constipatiei si ameliorarea functiilor hepatice, se face o infuzie din 1 – 2 lingurite de planta la o cana de apa clocotita, se beau 1 – 2 cesti/zi. Fructe de coriandru cu propieta ti carminative, calmeaza durerile abdominale, elimina gazele, se prepara o infuzie dintr-o lingurit a de fructe zdrobite la o cana de apa clocotita, se bea intreaga cantitate pe parcursul unei zile. Busuioc actioneaza ca antiseptic abdominal, se prepara o infuzie, se beau 2 – 3 cesti/zi. Chimen si anason sau fenicul au aceleasi propiet ati ca plantele de mai sus.
 ### Cancer de colon
-nuci verzi (bune de dulceață), se taie în 4 cu coajă cu tot, se pun într-o sticlă, până în gât mai puțin cu 2 - 3 degete, se toarnă țuică tare, se lasă la macerat mai mult timp, dacă afară este cald se lasă 4 săptămâni. Se consumă câte 100g cu o ½ de ora înainte de masă de 3 ori/zi Sau pulbere de cătină, ½ - 1 linguri ță pe stomacul gol, înainte de masă, mărește apetitul și sistemul imunitar. (vezi, medicamente..)
+nuci verzi (bune de dulceata), se taie in 4 cu coaja cu tot, se pun intr-o sticla, pana in gat mai putin cu 2 - 3 degete, se toarna tuica tare, se lasa la macerat mai mult timp, daca afara este cald se lasa 4 saptamani. Se consuma cate 100g cu o ½ de ora inainte de masa de 3 ori/zi Sau pulbere de catina, ½ - 1 linguri ta pe stomacul gol, inainte de masa, mareste apetitul si sistemul imunitar. (vezi, medicamente..)
 ### Cancer de intestin, de rect
 vezi cancer genital.
-### Candida intestinală
-tratament cu echinaceea de 3 ori/zi cu ½ ora înaintea mesei, timp de 2 luni (sau un an). Se evită preparate care conțin drojdie, pentru că o activează. Echinaceea nu o poate elimina, dar o paralizează, încât nu mai devine activă
-### Colită rebelă
-ca medicamente REDIGEST și ERIDIAROM, produse naturiste sau o bucățică proaspătă de drojdie de bere pe stomacul gol, drojdia se ține în gură până de topește, cura durează 2 - 4 luni. Ajută la refacerea florei intestinale
-### Constipație
-seara, pe stomacul gol se iau 2 linguri de semințe de in. În stomac , absorb mult lichid, formează un bol, care va curăța în drumul lui întreg tubul digestiv. Urmat zilnic timp de 2 săptămâni, este un excelent mijloc de dezintoxicare a organismului Rădăcină de boz macerată în țuică (100 g. de rădăcină de boz
+### Candida intestinala
+tratament cu echinaceea de 3 ori/zi cu ½ ora inaintea mesei, timp de 2 luni (sau un an). Se evita preparate care contin drojdie, pentru ca o activeaza. Echinaceea nu o poate elimina, dar o paralizeaza, incat nu mai devine activa
+### Colita rebela
+ca medicamente REDIGEST si ERIDIAROM, produse naturiste sau o bucatica proaspata de drojdie de bere pe stomacul gol, drojdia se tine in gura pana de topeste, cura dureaza 2 - 4 luni. Ajuta la refacerea florei intestinale
+### Constipatie
+seara, pe stomacul gol se iau 2 linguri de seminte de in. In stomac , absorb mult lichid, formeaza un bol, care va curata in drumul lui intreg tubul digestiv. Urmat zilnic timp de 2 saptamani, este un excelent mijloc de dezintoxicare a organismului Radacina de boz macerata in tuica (100 g. de radacina de boz
 
-în 1 litru de țuică, se lasă la macerat 5 zile, se păstrează în
-sticlă închisă la culoare.) 1 - 2 linguri de 2 - 3 ori/zi, pe stomacul
-gol. Cura durează 2 săptămâni, se face o pauză de o
-săptămână, apoi se reia cura.
+in 1 litru de tuica, se lasa la macerat 5 zile, se pastreaza in
+sticla inchisa la culoare.) 1 - 2 linguri de 2 - 3 ori/zi, pe stomacul
+gol. Cura dureaza 2 saptamani, se face o pauza de o
+saptamana, apoi se reia cura.
 Sirop de Lactulose.
-Peste 30g. cicoare uscată se toarnă 1 litru de apă clocotită, se
-infuzează 10 min., se strecoară și se bea câte 200 ml.
-dimineața, sau câte 100 ml. de 2 ori/zi.
+Peste 30g. cicoare uscata se toarna 1 litru de apa clocotita, se
+infuzeaza 10 min., se strecoara si se bea cate 200 ml.
+dimineata, sau cate 100 ml. de 2 ori/zi.
 ### Colon iritabil
-2 - 3 pahare de macerat rece (vezi obezitatea), din semințe de in, pe stomacul gol, înainte de mese. Mucilagiul de semințe are efect antiinflamator.
+2 - 3 pahare de macerat rece (vezi obezitatea), din seminte de in, pe stomacul gol, inainte de mese. Mucilagiul de seminte are efect antiinflamator.
 ### Colon iritabil pe fond nervos
-extract din mlặdițe de merișor, și Sediphyt, se gặsesc în farmacii.
+extract din mladite de merisor, si Sediphyt, se gasesc in farmacii.
 ### Diaree, colita, giardia
-tratament 7 zile, 50 - 100 pic. tinctură de muguri plop negru (vezi cap), pe pâine prăjită. Peste 100g. afine se toarnă 1 litru de votcă, se macerează 2 săptămâni, se ia 15 - 20g.
-### Diaree cron ică funcțională
-se adună 10 – 15 nuci verzi ca pentru dulceață, se dau prin mașina de tocat, se pun într-un borcan și se adaugă aceeași cantitate de zahăr, se lasă la macerat 2 – 3 zile amestecându-se. Din acest preparat se ia 1 linguriță dimineața, pe stomacul gol. Preparatul este foarte puternic, scaunul se oprește imediat, dacă boala este mai veche se mai ia câte o linguriță, dar cu grijă pentru că produce constipația. Produsul se poate păstra la rece mult timp fără să se altereze. Eridiarom, medicament, 3 – 4 tab./zicu puțin ceai.
-### Dolicocolon, diverticuloză sigmoidiană
-de seara se fierbe 1 sau 1,5 litri de apă de robinet, se lasă la răcit, la temperatura camerei, până dimineața. Imediat după trezire se bea o cană din apa fiartă, după care la intervale de 2 ore se mai bea o cană chiar dacă nu există senzația de sete. În acest interval de timp nu se mănâncă nimic, cel mult se bea o cafea. Nu se stă în pat se pot face diverse treburi prin casă. Din când în când se face un masaj ușor pe abdomen, concentric de la dreapta spre stânga, în jurul ombilicului, pornind de la exterior spre interior. Dacă nu se reușește nimic în prima zi de a doua zi, lucrurile se rezolvă cu succes. Prin acest procedeu, se curăță intestinul foarte bine, se elimină toate toxinele și chiar se poate slăbi. Este preferabil ca din alimentație să se elimine brânzeturile fermentate. Procedeul se repetă mai multe zile la rând. După reglarea tranzitului nu mai este nevoie de atâta apă. Va fi
+tratament 7 zile, 50 - 100 pic. tinctura de muguri plop negru (vezi cap), pe paine prajita. Peste 100g. afine se toarna 1 litru de votca, se macereaza 2 saptamani, se ia 15 - 20g.
+### Diaree cron ica functionala
+se aduna 10 – 15 nuci verzi ca pentru dulceata, se dau prin masina de tocat, se pun intr-un borcan si se adauga aceeasi cantitate de zahar, se lasa la macerat 2 – 3 zile amestecandu-se. Din acest preparat se ia 1 lingurita dimineata, pe stomacul gol. Preparatul este foarte puternic, scaunul se opreste imediat, daca boala este mai veche se mai ia cate o lingurita, dar cu grija pentru ca produce constipatia. Produsul se poate pastra la rece mult timp fara sa se altereze. Eridiarom, medicament, 3 – 4 tab./zicu putin ceai.
+### Dolicocolon, diverticuloza sigmoidiana
+de seara se fierbe 1 sau 1,5 litri de apa de robinet, se lasa la racit, la temperatura camerei, pana dimineata. Imediat dupa trezire se bea o cana din apa fiarta, dupa care la intervale de 2 ore se mai bea o cana chiar daca nu exista senzatia de sete. In acest interval de timp nu se mananca nimic, cel mult se bea o cafea. Nu se sta in pat se pot face diverse treburi prin casa. Din cand in cand se face un masaj usor pe abdomen, concentric de la dreapta spre stanga, in jurul ombilicului, pornind de la exterior spre interior. Daca nu se reuseste nimic in prima zi de a doua zi, lucrurile se rezolva cu succes. Prin acest procedeu, se curata intestinul foarte bine, se elimina toate toxinele si chiar se poate slabi. Este preferabil ca din alimentatie sa se elimine branzeturile fermentate. Procedeul se repeta mai multe zile la rand. Dupa reglarea tranzitului nu mai este nevoie de atata apa. Va fi
 
-suficientă o cană de apă rece și masajul ușor. Rezolvarea
-survine în maximul o oră.
-Stafide puse la înmuiat într-o cană cu apă, ținute la frigider, iar
-dimineața următoare se bea apa și se mănâncă stafidele, pe
+suficienta o cana de apa rece si masajul usor. Rezolvarea
+survine in maximul o ora.
+Stafide puse la inmuiat intr-o cana cu apa, tinute la frigider, iar
+dimineata urmatoare se bea apa si se mananca stafidele, pe
 stomacul gol
-### Enterocolită de fermentație
-se manifestă prin gaze și balonări intestinale, tratament cu SAPROSAN 1 - 2 tb., de 3 ori/zi, sau TETRACICLINĂ 1 capsulă la 6 ore. CARBO MEDICINALIS 2 tb, de 3 ori/zi, care absorb secrețiile și gazele din tubul digestiv, produse de fermentație și putrefacție. Eficient este și ceaiul anticolitic, care conține 8 plante cu efect antispasmodic și antiseptic intestinal. Sau se consumă suc proaspăt de cătină în combinație cu suc de morcov ½ pahar cu 3 - 4 linguri suc de cătină, de 3 - 6 ori/zi. Efecte foarte bune are și pulberea de cătină, luată pe stomacul gol, înainte de masă, 1 linguriță rasă de 3 ori/zi, în cură de 1 săptămână. (vezi, medicamente…)
-### Fistulặ analặ
-100 g, flori de sunặtoare se pun în 250 ml. alcool 90, se macereazặ 24 ore, se amestecặ cu 500 ml. ulei de floarea soarelui și se pun în baie de abur 3 ore, se strecoarặ , se pun în sticulțe închise și se p ặstreazặ la frigider, se aplicặ un tampon îmbibat în soluție, de mai multe ori/zi. Se poate pune și noaptea.
+### Enterocolita de fermentatie
+se manifesta prin gaze si balonari intestinale, tratament cu SAPROSAN 1 - 2 tb., de 3 ori/zi, sau TETRACICLINA 1 capsula la 6 ore. CARBO MEDICINALIS 2 tb, de 3 ori/zi, care absorb secretiile si gazele din tubul digestiv, produse de fermentatie si putrefactie. Eficient este si ceaiul anticolitic, care contine 8 plante cu efect antispasmodic si antiseptic intestinal. Sau se consuma suc proaspat de catina in combinatie cu suc de morcov ½ pahar cu 3 - 4 linguri suc de catina, de 3 - 6 ori/zi. Efecte foarte bune are si pulberea de catina, luata pe stomacul gol, inainte de masa, 1 lingurita rasa de 3 ori/zi, in cura de 1 saptamana. (vezi, medicamente…)
+### Fistula anala
+100 g, flori de sunatoare se pun in 250 ml. alcool 90, se macereaza 24 ore, se amesteca cu 500 ml. ulei de floarea soarelui si se pun in baie de abur 3 ore, se strecoara , se pun in sticulte inchise si se p astreaza la frigider, se aplica un tampon imbibat in solutie, de mai multe ori/zi. Se poate pune si noaptea.
 ### Giardia
-timp de 10 zile se consumă, înaintea mesei de dimineață, 12 – 15 semințe de dovleac neprăjite, iar de 2 ori/săptămână să se consume usturoi. Sau produsele Garlic – Caps, care conțin usturoi și pătrunjel, Para Protex, cu de protejarea organismului împotriva paraziților intestinali, a virușilor crescând imunitatea.
+timp de 10 zile se consuma, inaintea mesei de dimineata, 12 – 15 seminte de dovleac neprajite, iar de 2 ori/saptamana sa se consume usturoi. Sau produsele Garlic – Caps, care contin usturoi si patrunjel, Para Protex, cu de protejarea organismului impotriva parazitilor intestinali, a virusilor crescand imunitatea.
 ### Hemoroizi
-1 litru de ap ă clocotită cu o mână de fructe de afin se fierbe până scade la jumătate, se pune comprese. Vezi varice ., mărul lupului unguent. Vezi fistula, flori de sunặtoare.
-### Infecția intestinală
-0,25 g. mărul lupului, se infuzează 4 min. cu 125 ml. apă clocotită. Se opresc din toată cantitatea 90 ml. ceai restul se aruncă. Se beau 30 ml. de 3 ori/zi, cu 15 min. înainte de masă. Cura dureaza în funcție de gravitatea bolii. Este contraindicat persoanelor cu afecțiuni cardiace.
+1 litru de ap a clocotita cu o mana de fructe de afin se fierbe pana scade la jumatate, se pune comprese. Vezi varice ., marul lupului unguent. Vezi fistula, flori de sunatoare.
+### Infectia intestinala
+0,25 g. marul lupului, se infuzeaza 4 min. cu 125 ml. apa clocotita. Se opresc din toata cantitatea 90 ml. ceai restul se arunca. Se beau 30 ml. de 3 ori/zi, cu 15 min. inainte de masa. Cura dureaza in functie de gravitatea bolii. Este contraindicat persoanelor cu afectiuni cardiace.
 ### Megadolicocolon
-Spitalul Fundeni, secția Gastroenterologie Dr. Tudor Constantin, regim alimentar.
+Spitalul Fundeni, sectia Gastroenterologie Dr. Tudor Constantin, regim alimentar.
 ### Polip pe intestinul gros
-ceai de urzică proaspătă, ca alimentație, brânză de vacă, pâine prăjită, pui la grătar. Când se termină urzica se poate bea ceai de pătlagină, ambele ceaiurile beau
+ceai de urzica proaspata, ca alimentatie, branza de vaca, paine prajita, pui la gratar. Cand se termina urzica se poate bea ceai de patlagina, ambele ceaiurile beau
 
-timp de o lună. Concomitent se face clismă cu ceai, este
-recomandat după scaun.
+timp de o luna. Concomitent se face clisma cu ceai, este
+recomandat dupa scaun.
 ### Ulcer duodenal
 (vezi gastrita)
 ### Viermi
-1 Kg. semințe de dovleac, fără coajă, neprelucrate termic, se zdrobesc în mojar sau râșniță și se amestecă cu ½ Kg. miere și ½ pahar de lapte. Amestecul se împarte în 3 p ărți egale. Care se consumă pe rând în următoarele 3 ore., apoi se iau 3 lingurițe ulei de ricin. Tratamentul este pentru tenie și ascarizi. Cura de lavandă pentru infecțiile cu Giardia lambia, se combină în părți egale tinctură de lavandă (vezi depresia, cap), cu tinctură de pelin și cimbru (se fac la fel ca tinctura de lavandă), se ia 1 linguriță diluată în puțină apă, de 4 ori/zi, înainte de masă, timp de 2 săptămâni. Se zdrobesc coaja pulpa și semințele unei lămâi, se macerează 2 ore în 300 ml. apă clocotită, apoi se adaugă 2 - 3 lingurițe de miere, se strecoară și se bea înainte de culcare. Oxiuri, cât mai mult morcov crud ras. Tenie, pentru a o elimina se consumă morcov ras pe stomacul gol în fiecare dimineață și cu câteva minute înainte de mesele principale, după 8 zile4 se elimină. Medicamentul Paraprotex, o mixtură de extracte din plante, eficientă în eliminarea paraziților.
+1 Kg. seminte de dovleac, fara coaja, neprelucrate termic, se zdrobesc in mojar sau rasnita si se amesteca cu ½ Kg. miere si ½ pahar de lapte. Amestecul se imparte in 3 p arti egale. Care se consuma pe rand in urmatoarele 3 ore., apoi se iau 3 lingurite ulei de ricin. Tratamentul este pentru tenie si ascarizi. Cura de lavanda pentru infectiile cu Giardia lambia, se combina in parti egale tinctura de lavanda (vezi depresia, cap), cu tinctura de pelin si cimbru (se fac la fel ca tinctura de lavanda), se ia 1 lingurita diluata in putina apa, de 4 ori/zi, inainte de masa, timp de 2 saptamani. Se zdrobesc coaja pulpa si semintele unei lamai, se macereaza 2 ore in 300 ml. apa clocotita, apoi se adauga 2 - 3 lingurite de miere, se strecoara si se bea inainte de culcare. Oxiuri, cat mai mult morcov crud ras. Tenie, pentru a o elimina se consuma morcov ras pe stomacul gol in fiecare dimineata si cu cateva minute inainte de mesele principale, dupa 8 zile4 se elimina. Medicamentul Paraprotex, o mixtura de extracte din plante, eficienta in eliminarea parazitilor.
 ## ORGANE GENITALE
 
-### Amenoree secundară
-pentru revenirea și reglarea ciclului menstrual se folosește brânca ursului, salvie cu rol în funcția ovariană și gălbenele. Pot6 fi administrate sub formă de tinctură câte 30 pic. de 2 ori/zi.
-### Anexită și metroanexită
-se masează cu ulei de brânca ursului (vezi scleroza în plăci) tălpile de 2 ori/zi. Suplimentar se mai masează zona bazinului, se pune o pânză și o pătură pentru menținerea căldurii. Stimularea imunității locale împotriva răcelii.(vezi epilepsia). Tratamentul anexitei cronice presupune igienă locală, evitarea frigului, a umezelii și a băilor reci. Fibroza și endometrioza care se dezvoltă pe parcurs conduc la sterilitate secundară, dureri intense la ciclu, menstre abundente cu anemie și tulburări ale metabolismului calciului. Se recomandă aplicații externe cu tărâțe calde local de 2 - 3 ori/zi, intern 2 - 3 linguri de tărâțe fierte cu miere, pentru a evita constipația și tratament oral cu ulei din germeni de grâu + Geneston 3/zi. Cruciferos 2/zi, vitamina C 3/zi, Ca + Mg 3/zi. Tratamentul durează 3 luni.
-### Bolile prostatei ( prostatită)
-vezi infecția intestinală. Prostata este o glandă anexă a aparatului genital masculin și este compusă dintr-un lob median și 2 laterali. Afecțiunile ei apar la 55 60 de ani, și se datorează, tulburărilor hormonale împiedicând eliminarea urinei din cauza îngustării sau închiderii totale a uretrei. Ceai de ghimpe; se bea călduț cu ½ oră de masă, cura este de lungă durată, 6 luni se beau câte 2 căni/zi, apoi 6 luni câte o cană/zi, efectele se vor vedea după 3 - 4 săptămâni. Ceai cu urzică moartă albă; 2 căni/zi,
-### Castanele sălbatice
-tratarea stărilor congestive, tinctură din 20g. castane zdrobite, cu 100 ml. alcool 70, se lasă la macerat 10 zile. Se iau 2 lingurițe/zi de tinctură timp de 21 de zile/ lună. Se pot face și băi de șezut.
-### Semințe de dovleac
-o mână de semințe se pun la uscat, se pisează cu coajă cu tot și se prepară un decoct care trebuie să fiarbă 5 min., se beau 2 - 3 căni/zi, timp de 3 zile.
+### Amenoree secundara
+pentru revenirea si reglarea ciclului menstrual se foloseste branca ursului, salvie cu rol in functia ovariana si galbenele. Pot6 fi administrate sub forma de tinctura cate 30 pic. de 2 ori/zi.
+### Anexita si metroanexita
+se maseaza cu ulei de branca ursului (vezi scleroza in placi) talpile de 2 ori/zi. Suplimentar se mai maseaza zona bazinului, se pune o panza si o patura pentru mentinerea caldurii. Stimularea imunitatii locale impotriva racelii.(vezi epilepsia). Tratamentul anexitei cronice presupune igiena locala, evitarea frigului, a umezelii si a bailor reci. Fibroza si endometrioza care se dezvolta pe parcurs conduc la sterilitate secundara, dureri intense la ciclu, menstre abundente cu anemie si tulburari ale metabolismului calciului. Se recomanda aplicatii externe cu tarate calde local de 2 - 3 ori/zi, intern 2 - 3 linguri de tarate fierte cu miere, pentru a evita constipatia si tratament oral cu ulei din germeni de grau + Geneston 3/zi. Cruciferos 2/zi, vitamina C 3/zi, Ca + Mg 3/zi. Tratamentul dureaza 3 luni.
+### Bolile prostatei ( prostatita)
+vezi infectia intestinala. Prostata este o glanda anexa a aparatului genital masculin si este compusa dintr-un lob median si 2 laterali. Afectiunile ei apar la 55 60 de ani, si se datoreaza, tulburarilor hormonale impiedicand eliminarea urinei din cauza ingustarii sau inchiderii totale a uretrei. Ceai de ghimpe; se bea caldut cu ½ ora de masa, cura este de lunga durata, 6 luni se beau cate 2 cani/zi, apoi 6 luni cate o cana/zi, efectele se vor vedea dupa 3 - 4 saptamani. Ceai cu urzica moarta alba; 2 cani/zi,
+### Castanele salbatice
+tratarea starilor congestive, tinctura din 20g. castane zdrobite, cu 100 ml. alcool 70, se lasa la macerat 10 zile. Se iau 2 lingurite/zi de tinctura timp de 21 de zile/ luna. Se pot face si bai de sezut.
+### Seminte de dovleac
+o mana de seminte se pun la uscat, se piseaza cu coaja cu tot si se prepara un decoct care trebuie sa fiarba 5 min., se beau 2 - 3 cani/zi, timp de 3 zile.
 ### Ulei de dovleac
-1 linguriță de ulei seara înainte de culcare Este bine ca fiecar e bărbat începând cu vârsta de 40 de ani, să bea, timp de o lună pe an, ceai din următorul amestec: 10g, ienupăr, 50g. urzică moartă albă, 50g. flori de iarbă neagră, 50g. fumăriță, 50g. paracherniță, se amestecă plantele, la 1 litru de apă se pun 5 lingurițe, se fierbe 5 sec. se lasă la infuzat 15 min.
+1 lingurita de ulei seara inainte de culcare Este bine ca fiecar e barbat incepand cu varsta de 40 de ani, sa bea, timp de o luna pe an, ceai din urmatorul amestec: 10g, ienupar, 50g. urzica moarta alba, 50g. flori de iarba neagra, 50g. fumarita, 50g. parachernita, se amesteca plantele, la 1 litru de apa se pun 5 lingurite, se fierbe 5 sec. se lasa la infuzat 15 min.
 
 ### Cancer genital
-clisme cu mărul lupului - 1 lingură pulbere mărul lupului, 1 lingură tătăneasă, 1 lingura mușețel, se lasă la macerat în ½ apă, de seara până diminea ța, se strecoară, apoi planta rămasă după filtrare se pune la fiert cu 1 litru de apă, până când scade la jumătate. Se răcește și se combină cu maceratul se fac spălături. La 3 - 4 zile, iar clismă la 2 zile, lichidul se ține în intestin 10 min. Dacă nu este indicat să se facă clismă se fac zilnic bai de șezut. În fază incipientă este recomandat produsul Cat’s Claw de la firma Heritage, sub formă de capsule, 600 ml Cura cu nặpraznic, de 6 luni, se ia o linguriț ặ de 4 ori/zi, sublingual, 10 min., dupặ care se înghite cu apặ. Tratamentul se poate folosi ca adjuvant în neuplazii uterine, mamare, pulmonare, intestinale sau cu alte localizặri. Cura cu macerat de Aloe Vera, 1;5 Kg. plantặ în vârstặ de 3 – 5 ani, se dặ prin mașina de tocat, se amestecặ cu 2,5 Kg. miere și 3,5 litri vin roșu dulce de 18 – 20 grade. Amestecul se pune într-un vas mare de sticl ặ închis la culoare, într-un loc rặcoros, ferit de luminặ, timp de 5 zile. In primele 5 – 7 zile se ia câte o lingiriț ặ de 3 ori/zi, înainte de mesele principale. Zilele urmặtoare se va adặ uda câte o lingurițặ în plus, la fiecare dozặ. Tratamentul dureazặ 6 sặptặmâni cu o pauzặ de 10 zile, apoi se poate repeta. (Peia Mircea, Timișoara – )..
-### Cancer de prostată
+clisme cu marul lupului - 1 lingura pulbere marul lupului, 1 lingura tataneasa, 1 lingura musetel, se lasa la macerat in ½ apa, de seara pana diminea ta, se strecoara, apoi planta ramasa dupa filtrare se pune la fiert cu 1 litru de apa, pana cand scade la jumatate. Se raceste si se combina cu maceratul se fac spalaturi. La 3 - 4 zile, iar clisma la 2 zile, lichidul se tine in intestin 10 min. Daca nu este indicat sa se faca clisma se fac zilnic bai de sezut. In faza incipienta este recomandat produsul Cat’s Claw de la firma Heritage, sub forma de capsule, 600 ml Cura cu napraznic, de 6 luni, se ia o lingurit a de 4 ori/zi, sublingual, 10 min., dupa care se inghite cu apa. Tratamentul se poate folosi ca adjuvant in neuplazii uterine, mamare, pulmonare, intestinale sau cu alte localizari. Cura cu macerat de Aloe Vera, 1;5 Kg. planta in varsta de 3 – 5 ani, se da prin masina de tocat, se amesteca cu 2,5 Kg. miere si 3,5 litri vin rosu dulce de 18 – 20 grade. Amestecul se pune intr-un vas mare de sticl a inchis la culoare, intr-un loc racoros, ferit de lumina, timp de 5 zile. In primele 5 – 7 zile se ia cate o lingirit a de 3 ori/zi, inainte de mesele principale. Zilele urmatoare se va ada uda cate o lingurita in plus, la fiecare doza. Tratamentul dureaza 6 saptamani cu o pauza de 10 zile, apoi se poate repeta. (Peia Mircea, Timisoara – )..
+### Cancer de prostata
 vezi cancer genital
-### Candidoză
-difulcan, 1 comprimat de 154 0 mg. pe săptămină, 3 săptămini consecutiv, respectarea regulilor de igienă locală cu tratament antimicotic cu ovule clotimazol și tratarea partenerului în aceelași fel. Dophillus +FOS și System Well, imunostimulator, acționeaz ặ pe cele 7 sisteme de imunit ate ale oraganismului, limfatic, epidemic, circulator, respirator, digestiv și sistemic.
-### Dilatare la naștere
-medicamente homeopatice, administrate cu câteva zile înainte de naștere și în timpul travaliului. Nașterea este fără probleme, contracții suportabile și travaliu redus. După naștere se pot lua medicamente homeopatice pentru refacerea rapida a organismului, alăptare naturală. Sunt și ieftini.
+### Candidoza
+difulcan, 1 comprimat de 154 0 mg. pe saptamina, 3 saptamini consecutiv, respectarea regulilor de igiena locala cu tratament antimicotic cu ovule clotimazol si tratarea partenerului in aceelasi fel. Dophillus +FOS si System Well, imunostimulator, actioneaz a pe cele 7 sisteme de imunit ate ale oraganismului, limfatic, epidemic, circulator, respirator, digestiv si sistemic.
+### Dilatare la nastere
+medicamente homeopatice, administrate cu cateva zile inainte de nastere si in timpul travaliului. Nasterea este fara probleme, contractii suportabile si travaliu redus. Dupa nastere se pot lua medicamente homeopatice pentru refacerea rapida a organismului, alaptare naturala. Sunt si ieftini.
 ### Fibrom, chist, adenom
-tinctură muguri plop negru (vezi cap), 50 pic. 4 ori/zi intern, extern compresă cu tinctură pe tumoră 2 ore o dată la 2 zile, după 1 ora se unge locul cu cremă din muguri de plop negru - 1 pac. unt se topește pe foc, se fierbe 10 min., se deșartă în alt vas, fără sediment, se adăugă 1 linguriță ceară
+tinctura muguri plop negru (vezi cap), 50 pic. 4 ori/zi intern, extern compresa cu tinctura pe tumora 2 ore o data la 2 zile, dupa 1 ora se unge locul cu crema din muguri de plop negru - 1 pac. unt se topeste pe foc, se fierbe 10 min., se desarta in alt vas, fara sediment, se adauga 1 lingurita ceara
 
-se lasă la răcit, când este aproape să se închege se adaugă, 4
-linguri de extract moale (3 - 4 linguri tinctură se pun pe o
-farfurie, se lasă să se evapore alcoolul - 1 linguriță extract)
-Tărâțe amestecate cu apă se lasă 4 ore la macerat, se pun în
-tifon se pun pe piele în zona afectată minim 3 ore. Pielea se
-lasă să se usuce și se unge cu cremă de tătăneasă
+se lasa la racit, cand este aproape sa se inchege se adauga, 4
+linguri de extract moale (3 - 4 linguri tinctura se pun pe o
+farfurie, se lasa sa se evapore alcoolul - 1 lingurita extract)
+Tarate amestecate cu apa se lasa 4 ore la macerat, se pun in
+tifon se pun pe piele in zona afectata minim 3 ore. Pielea se
+lasa sa se usuce si se unge cu crema de tataneasa
 ### Frigiditate
-1 linguriță de tinctură de brânca ursului (Heraclea sphondylium) (măcinarea inflorescențelor și semințelor cu râșnița electrică de cafea, pulberea obținută se pune într-un borcan, care va fi umplut cu alcool de 70, se macerează 8 - 1o zile). Filtratul se păstrează în sticluțe închise la culoare Cu 20 - 30 min. înainte de actul sexual. Relaxează musculatura uterului, mărește stimularea neuronală care generează dorința erotică și ajută la dezinhibarea psihică.(vezi epilepsia .
+1 lingurita de tinctura de branca ursului (Heraclea sphondylium) (macinarea inflorescentelor si semintelor cu rasnita electrica de cafea, pulberea obtinuta se pune intr-un borcan, care va fi umplut cu alcool de 70, se macereaza 8 - 1o zile). Filtratul se pastreaza in sticlute inchise la culoare Cu 20 - 30 min. inainte de actul sexual. Relaxeaza musculatura uterului, mareste stimularea neuronala care genereaza dorinta erotica si ajuta la dezinhibarea psihica.(vezi epilepsia .
 ### Graviditate
-împotriva grețurilor, lichen de piatra pulbere o lingurița de 3 ori pe zi.
-### Hemoragie abundentă în timpul cilului menstrual
-de urgență se ia o doză unică, de 2 – 3 lingurițe de pulbere de coada calului, după care se continuă 5 zile tratament cu 1 – 2 lingurițe/zi. Planta este un puternic antihemoragic și permite refacerea rapidă, este indicat și în hemoragie internă.
+impotriva greturilor, lichen de piatra pulbere o lingurita de 3 ori pe zi.
+### Hemoragie abundenta in timpul cilului menstrual
+de urgenta se ia o doza unica, de 2 – 3 lingurite de pulbere de coada calului, dupa care se continua 5 zile tratament cu 1 – 2 lingurite/zi. Planta este un puternic antihemoragic si permite refacerea rapida, este indicat si in hemoragie interna.
 ### Herpes genital
-tincturặ de spânz și tincturặ de mặrul lupului, 3 zile se face tamponare cu spânz, de 3 ori/zi, lặsând pe zona afectatặ un mic tampon cu tincturặ de spânz. Usturặ este o stare de disconfort, dupặ 2 zile apare o secreție purulent ặ se curặ țặ și se tamponeaz ặ mai departe. In ziua a 4a se fac tamponặri cu mặrul lupului, dupặ 5 – 6 zile nu se mai lasặ tampoane cu soluție, dar se continuặ cu mặ rul lupului și se mai unge locul cu ulei de sun ặtoare, de rostopascặ, sau gặlbenele sau hemorzon, care se aplicặ de 2 ori/zi dimineața și seara.
-### Impotența, sterilitatea la femei și bărbați
-1 linguriță de brânca ursului 3 - 4 ori/.zi, pe stomacul gol cu ½ pahar de apă înainte de masă Eficien ță mărită dacă se ține regim lacto- vegetarian, fără alcool, tutun și cafea.(vezi frigiditate).(vezi epilepsia) Se iau 1,5 Kg. țelină, 1,5 Kg. morcov, 0,5 Kg. miere, 1,5 Kg. miez de nucă, 1 Kg. mere ionatane, 2 - 3 lămâi, 2 - 3 portocale, 1 sticlă vin alb de casă. Toate legumele spălate și curățate se dau prin mașina de tocat, se amestecă apoi se adaugă vinul, se omogenizează, se pun în borcane, se păstrează la frigider, timp de 1 săptămână, la macerat. Se consumă 2 linguri de 3 ori/zi, cu 30 min. înaintea mesei, timp de 3 săptămâni. Concomitent
+tinctura de spanz si tinctura de marul lupului, 3 zile se face tamponare cu spanz, de 3 ori/zi, lasand pe zona afectata un mic tampon cu tinctura de spanz. Ustura este o stare de disconfort, dupa 2 zile apare o secretie purulent a se cura ta si se tamponeaz a mai departe. In ziua a 4a se fac tamponari cu marul lupului, dupa 5 – 6 zile nu se mai lasa tampoane cu solutie, dar se continua cu ma rul lupului si se mai unge locul cu ulei de sun atoare, de rostopasca, sau galbenele sau hemorzon, care se aplica de 2 ori/zi dimineata si seara.
+### Impotenta, sterilitatea la femei si barbati
+1 lingurita de branca ursului 3 - 4 ori/.zi, pe stomacul gol cu ½ pahar de apa inainte de masa Eficien ta marita daca se tine regim lacto- vegetarian, fara alcool, tutun si cafea.(vezi frigiditate).(vezi epilepsia) Se iau 1,5 Kg. telina, 1,5 Kg. morcov, 0,5 Kg. miere, 1,5 Kg. miez de nuca, 1 Kg. mere ionatane, 2 - 3 lamai, 2 - 3 portocale, 1 sticla vin alb de casa. Toate legumele spalate si curatate se dau prin masina de tocat, se amesteca apoi se adauga vinul, se omogenizeaza, se pun in borcane, se pastreaza la frigider, timp de 1 saptamana, la macerat. Se consuma 2 linguri de 3 ori/zi, cu 30 min. inaintea mesei, timp de 3 saptamani. Concomitent
 
-consumați grâu încolțit și vitamina E.
-Se mai trateazặ cu succes cu vitamina B6 și zinc.
-### Insuficiență ovariană
-1 lingură miere amestecată cu 1 linguriță de brânca ursului tinctură (vezi fertilitate), se ia înainte de masă de 2 - 3 ori/zi.(vezi epilepsia)
-### Mâncărimi în zona vaginală și anală
-se spală de 2 - 3 ori/zi cu săpun lichid de la Hofigal. După fiecare spălare se unge cu alifie de cătină.
-### Menopauza prematură
-tratament progresiv cu tinctură de brânca ursului (vezi frigiditate), se începe cu 20 pic. de 3 ori/zi, în prima săptămână, se crește doza cu 10 pic. în fiecare săptămână până se ajunge la 50 pic., luate de 3 ori în a 4 săptămână. Cura se face o lună, cu 10 zile de pauză. Tratamentul se face gradat pentru a preveni fenomenele neplăcute ale relansării hormonale (bufeuri, nervozitate, sângerări). Cura este eficientă cu regim lacto-vegetarian și crudități.(vezi epilepsia)
-### Menstruație dureroasă
-30g. rădăcină de anason cu 1 litru de apă clocotită, se fierbe 15 min., se ia câte 100 ml. de 3 ori/zi Infuzie dintr-o linguriță de semințe de morcov la o cană de apă clocotită.
-### Nu rămân gravidă
-vitamina E 1 tb. di mineața, Electovit 1 tb. seara, timp de 3 luni, numai 15 zile pe lună restul pauză.
-### Prostatặ hipertroficặ
-50 g. frunze sau fructe de castan se pun într-o ½ litru de alcool 50, se macereazặ timp de 2 sặptặmâni la cặldurặ și întuneric, agitând în fiecare zi . Din aceastặ tincturặ se iau 30 – 40 pic. de 3- 4 ori/zi, timp de 3 – 4 sặptặmâni.
-### Prostatặ litiazicặ
-seara se iau sâmburi de pepene uscați, (sâmburi negrii de pepene verde închis ), se zdrobesc și se fierb într-un litru de ap ặ, se lasặ pâna dimineața, când se bea ceaiul pe stomacul gol. Micul dejun se servește la 1 orặ mai târziu. Acest ceai se bea timp de 10 zile, se face o pauzặ de 10 zile și apoi se repetặ. Pietrele se eliminặ sub formặ de nisip, fặrặ dureri. Sặmburii se pot procura de4 la magazinele care vând semințe. pânặ când apa scade la jumặtate. Pentru rezolvarea problemelor cu prostata se sdministreazặ doze ridicate de zinc, ajutặ la formarea insulinei și are un efect de normalizare a activitặții prostatei.
+consumati grau incoltit si vitamina E.
+Se mai trateaza cu succes cu vitamina B6 si zinc.
+### Insuficienta ovariana
+1 lingura miere amestecata cu 1 lingurita de branca ursului tinctura (vezi fertilitate), se ia inainte de masa de 2 - 3 ori/zi.(vezi epilepsia)
+### Mancarimi in zona vaginala si anala
+se spala de 2 - 3 ori/zi cu sapun lichid de la Hofigal. Dupa fiecare spalare se unge cu alifie de catina.
+### Menopauza prematura
+tratament progresiv cu tinctura de branca ursului (vezi frigiditate), se incepe cu 20 pic. de 3 ori/zi, in prima saptamana, se creste doza cu 10 pic. in fiecare saptamana pana se ajunge la 50 pic., luate de 3 ori in a 4 saptamana. Cura se face o luna, cu 10 zile de pauza. Tratamentul se face gradat pentru a preveni fenomenele neplacute ale relansarii hormonale (bufeuri, nervozitate, sangerari). Cura este eficienta cu regim lacto-vegetarian si cruditati.(vezi epilepsia)
+### Menstruatie dureroasa
+30g. radacina de anason cu 1 litru de apa clocotita, se fierbe 15 min., se ia cate 100 ml. de 3 ori/zi Infuzie dintr-o lingurita de seminte de morcov la o cana de apa clocotita.
+### Nu raman gravida
+vitamina E 1 tb. di mineata, Electovit 1 tb. seara, timp de 3 luni, numai 15 zile pe luna restul pauza.
+### Prostata hipertrofica
+50 g. frunze sau fructe de castan se pun intr-o ½ litru de alcool 50, se macereaza timp de 2 saptamani la caldura si intuneric, agitand in fiecare zi . Din aceasta tinctura se iau 30 – 40 pic. de 3- 4 ori/zi, timp de 3 – 4 saptamani.
+### Prostata litiazica
+seara se iau samburi de pepene uscati, (samburi negrii de pepene verde inchis ), se zdrobesc si se fierb intr-un litru de ap a, se lasa pana dimineata, cand se bea ceaiul pe stomacul gol. Micul dejun se serveste la 1 ora mai tarziu. Acest ceai se bea timp de 10 zile, se face o pauza de 10 zile si apoi se repeta. Pietrele se elimina sub forma de nisip, fara dureri. Samburii se pot procura de4 la magazinele care vand seminte. pana cand apa scade la jumatate. Pentru rezolvarea problemelor cu prostata se sdministreaza doze ridicate de zinc, ajuta la formarea insulinei si are un efect de normalizare a activitatii prostatei.
 ### Post – gravidia
-frunzele de mặrar proaspete, mestecate zilnic, de femeile care au nặ scut de curând, sunt un excelent tonic fizic și psihic, stimuleaz ặ secreția lactic ặ, îmbunặtặ țind calitatea laptelui.
+frunzele de marar proaspete, mestecate zilnic, de femeile care au na scut de curand, sunt un excelent tonic fizic si psihic, stimuleaz a secretia lactic a, imbunata tind calitatea laptelui.
 
-### Sarcină toxică
-rețetă magistrală preparată la farmacie, aqua menta 40g., aqua melisa 40g., aqua cloroformată 40g., novocaină 0,50g., sirop eter 150g. Se iau 3 - 4 linguri/zi, înainte de mase. Înainte, de a coborî dimineața din pat, se consumă o bucățică de covrig. După 4 luni și jumătate corpii cetonici care provoacă grețurile, dispar.
-### Uretro-prostatită
-ceai de ghimpe, granule de polen și supozitoare cu propolis, băi calde de șezut cu mușețel.
+### Sarcina toxica
+reteta magistrala preparata la farmacie, aqua menta 40g., aqua melisa 40g., aqua cloroformata 40g., novocaina 0,50g., sirop eter 150g. Se iau 3 - 4 linguri/zi, inainte de mase. Inainte, de a cobori dimineata din pat, se consuma o bucatica de covrig. Dupa 4 luni si jumatate corpii cetonici care provoaca greturile, dispar.
+### Uretro-prostatita
+ceai de ghimpe, granule de polen si supozitoare cu propolis, bai calde de sezut cu musetel.
 ### Virus Papiloma
-dacă tratamentul alopat nu merge, se poate încerca cu tinctură de echinaceea, cu rol antiviral și imunostimulator, 30 – 40 pic. de 3 ori/zi, diluate în apă. Suc de păpădie și pătrunjel în părți egale, timp de 6 săptămâni. Vitamina C 1000 mg/zi, sau mute fructe citrice. Papiloma reprezintă un risc major în apariția cancerului de col uterin și endometrial.
-## MÂINI
+daca tratamentul alopat nu merge, se poate incerca cu tinctura de echinaceea, cu rol antiviral si imunostimulator, 30 – 40 pic. de 3 ori/zi, diluate in apa. Suc de papadie si patrunjel in parti egale, timp de 6 saptamani. Vitamina C 1000 mg/zi, sau mute fructe citrice. Papiloma reprezinta un risc major in aparitia cancerului de col uterin si endometrial.
+## MAINI
 
-### Palme aspre și crăpate
-1 lingură de acid boric se fierbe într- un litru de apă, se răcește și se spală mâinile în ea, de 2 - 3 ori/zi, se lasă să se usuce , apoi se ung cu cremă de gălbenele, se folosește până la vindecare, dacă reapare se repetă.
-### Unghii s fărâmicioase, exfoliate
-de 2 ori/zi timp de 10 zile,unghiile se ung cu suc de lămâie sau ceapă
+### Palme aspre si crapate
+1 lingura de acid boric se fierbe intr- un litru de apa, se raceste si se spala mainile in ea, de 2 - 3 ori/zi, se lasa sa se usuce , apoi se ung cu crema de galbenele, se foloseste pana la vindecare, daca reapare se repeta.
+### Unghii s faramicioase, exfoliate
+de 2 ori/zi timp de 10 zile,unghiile se ung cu suc de lamaie sau ceapa
 
 ### Fractura
-se consolidează mult mai repede când se administrează coada calului, bogată în săruri de calciu, magneziu, permițând asimilarea lor mult mai repede. 4 lingurițe pe stomacul gol, cu 5 min. înainte de masă.
+se consolideaza mult mai repede cand se administreaza coada calului, bogata in saruri de calciu, magneziu, permitand asimilarea lor mult mai repede. 4 lingurite pe stomacul gol, cu 5 min. inainte de masa.
 ## PICIOARE
 
-### Apă la genunchi
-o frunză de brusture se pune pe masă și se zdrobește cu o sticlă, apoi se pune pe o compresă pe genunchi, procedura se face timp de o săptămână de 3ori/zi.
+### Apa la genunchi
+o frunza de brusture se pune pe masa si se zdrobeste cu o sticla, apoi se pune pe o compresa pe genunchi, procedura se face timp de o saptamana de 3ori/zi.
 ### Cancer genunchi
-pe linga tratament cu citostatice si cobaltoterapie, se face tratament naturist, antitumoral cu Tian Xian și Carctol (informații )
-### Călcâie crăpate
-rădăcină de tătăneasă în 100ml. alcool 50 - 60 se macerează 3 - 4 zile, apoi se ung tălpile. In fiecare seară după ce v-ați spălat și frecat cu o perie sau piatră ponce, ungeți-le cu ulei de parafină 100g. amestecat cu vitamina A o fiolă, apoi încălțați-vă cu o pereche de șosete. Sau grăsime curată de porc, amestecată cu câteva picături de ulei de măsline.
-### Circulație periferică
-pentru îmbunătățirea ei se folosește hrean dat pe răzătoare 1 pahar de 100 g. ca măsură, se amestecă cu 2 pahare de 100 g. de făină de porumb, se freacă între palme ca să se umezească, se pune într-o folie de plastic, se pune piciorul, se leagă, se pune o șosetă. Cantitatea indicată este pentru un picior. Aplicarea de face seara, la culcare, se lasă până dimineața, apoi cataplasma se scoate și se păstrează în frigider, se poate folosi 7 zile la rând. Dacă amestecul pișcă și se produc iritații sau alergii, spălați-vă cu apă caldă și renunțați. Pentru circulație defectuoasă procedeul se practică doar 3 nopți, iar pentru varice, ulcer varicos, flebite, se face 21 de nopți, cu pauză de 3 nopți.
-### Cârcei
-dezechilibru metabolic de ioni pozitivi (sodiu, potasiu, calciu, magneziu). Înainte de fiecare masă se iau 2 linguriță de miere cu lăptișor de matcă, și apilarnil. După fiecare masă se ia 1 linguriță de miere cu 6 pic. tinctură de propolis. Zilnic se bea 1 cană ceai de măceșe, una de pedicuță, una cu urzică, coada
+pe linga tratament cu citostatice si cobaltoterapie, se face tratament naturist, antitumoral cu Tian Xian si Carctol (informatii )
+### Calcaie crapate
+radacina de tataneasa in 100ml. alcool 50 - 60 se macereaza 3 - 4 zile, apoi se ung talpile. In fiecare seara dupa ce v-ati spalat si frecat cu o perie sau piatra ponce, ungeti-le cu ulei de parafina 100g. amestecat cu vitamina A o fiola, apoi incaltati-va cu o pereche de sosete. Sau grasime curata de porc, amestecata cu cateva picaturi de ulei de masline.
+### Circulatie periferica
+pentru imbunatatirea ei se foloseste hrean dat pe razatoare 1 pahar de 100 g. ca masura, se amesteca cu 2 pahare de 100 g. de faina de porumb, se freaca intre palme ca sa se umezeasca, se pune intr-o folie de plastic, se pune piciorul, se leaga, se pune o soseta. Cantitatea indicata este pentru un picior. Aplicarea de face seara, la culcare, se lasa pana dimineata, apoi cataplasma se scoate si se pastreaza in frigider, se poate folosi 7 zile la rand. Daca amestecul pisca si se produc iritatii sau alergii, spalati-va cu apa calda si renuntati. Pentru circulatie defectuoasa procedeul se practica doar 3 nopti, iar pentru varice, ulcer varicos, flebite, se face 21 de nopti, cu pauza de 3 nopti.
+### Carcei
+dezechilibru metabolic de ioni pozitivi (sodiu, potasiu, calciu, magneziu). Inainte de fiecare masa se iau 2 lingurita de miere cu laptisor de matca, si apilarnil. Dupa fiecare masa se ia 1 lingurita de miere cu 6 pic. tinctura de propolis. Zilnic se bea 1 cana ceai de macese, una de pedicuta, una cu urzica, coada
 
 calului, busuioc. Se face reflexoterapie.
-### Bătături
-se ia o ceapă se taie în două, de pune într-un pahar cu oțet, timp de 24 ore. Se pune pe bătătură câte o felie de două ori pe zi, dimineața și seara. Jumătate de smochină, pusă pe bătătură, în fiecare seară. Durerile provocate de bătături vor dispărea dacă se pun câteva prune uscate în lapte fierbinte, apoi se pune o prună fără sâmbure pe locul dureros, se repetă până dispare bătătura. Propolis solid, înmuiat în apă caldă, până se face ca o plastilină, apoi de aplică pe bătătură și se fixează cu leucoplast. Se schimbă destul de des, dar înainte de o nouă aplicare se face o baie fierbinte, apoi se îndepărtează partea de piele moartă.
+### Bataturi
+se ia o ceapa se taie in doua, de pune intr-un pahar cu otet, timp de 24 ore. Se pune pe batatura cate o felie de doua ori pe zi, dimineata si seara. Jumatate de smochina, pusa pe batatura, in fiecare seara. Durerile provocate de bataturi vor disparea daca se pun cateva prune uscate in lapte fierbinte, apoi se pune o pruna fara sambure pe locul dureros, se repeta pana dispare batatura. Propolis solid, inmuiat in apa calda, pana se face ca o plastilina, apoi de aplica pe batatura si se fixeaza cu leucoplast. Se schimba destul de des, dar inainte de o noua aplicare se face o baie fierbinte, apoi se indeparteaza partea de piele moarta.
 ### Dureri de picioare
-1 buc. hrean ras se amestecă cu 1 lingură de sare grunjoasă , 1 lingură făină și spirt medicinal cât cuprinde, ca să formeze o pastă. Compoziția se pune într-un săculeț, o seară se pune pe o talpă a doua seară pe cealaltă talpă. Tratamentul durează 10 seri cu o pauză de 5 zile. In timpul celor 10 seri se bea ceai depurativ Sau unguentul VEIULARE, antiinflamator, elimină senzația de greutate în picioare, calmează durerile și reduce spasmele din gambe, stimulează circulația limfei și împiedică retenția apei. Unguentul conține o substanță hirudină, secretată de glandele din gâtul lipitorilor. Suplimentar se poate lua un preparat natural PROTECT 4 LIFE, 2 tb./zi, protejează vasele de sânge și inima. Sau se face masaj cu ulei de sunătoare și ulei de coada calului în părți egale, iar intern ceai de măceșe. Fractură de col femural cu dureri în călcâi, 300g. frunze de tătăneasă, proaspătă sau uscată, se pune cu 5 litri de apă, se lasă la macerat 1 zi, după care se fierbe, se lasă să se răcească, se pune piciorul în ea timp de 20 min. Nu se aruncă, a 2 a zi se repetă operația. A 3 seară se repetă operația cu alte 300g. de frunze. Tratamentul durează 3 săptămâni, în fiecare seară. Concomitent din rădăcină de tătăneasă se folosește tinctură și unguent Tinctură din 50 g. flori sau fructe de castan în 500 ml. alcool de 50, se lasă 1 săptămâni într-un loc cald și la întuneric, agitând vasul zilnic .Se iau câte 30 - 40 pic. de 3 ori/zi, timp de 3 - 4 săptămâni. Preparatele din castan scad tensiunea, întăresc pereții capilarelor și ai venelor, previn formarea cheagurilor și acționează la dizolvarea lor. Preparatele din castan se folosesc intern și extern pentru tratarea hemoroizilor, crampelor
+1 buc. hrean ras se amesteca cu 1 lingura de sare grunjoasa , 1 lingura faina si spirt medicinal cat cuprinde, ca sa formeze o pasta. Compozitia se pune intr-un saculet, o seara se pune pe o talpa a doua seara pe cealalta talpa. Tratamentul dureaza 10 seri cu o pauza de 5 zile. In timpul celor 10 seri se bea ceai depurativ Sau unguentul VEIULARE, antiinflamator, elimina senzatia de greutate in picioare, calmeaza durerile si reduce spasmele din gambe, stimuleaza circulatia limfei si impiedica retentia apei. Unguentul contine o substanta hirudina, secretata de glandele din gatul lipitorilor. Suplimentar se poate lua un preparat natural PROTECT 4 LIFE, 2 tb./zi, protejeaza vasele de sange si inima. Sau se face masaj cu ulei de sunatoare si ulei de coada calului in parti egale, iar intern ceai de macese. Fractura de col femural cu dureri in calcai, 300g. frunze de tataneasa, proaspata sau uscata, se pune cu 5 litri de apa, se lasa la macerat 1 zi, dupa care se fierbe, se lasa sa se raceasca, se pune piciorul in ea timp de 20 min. Nu se arunca, a 2 a zi se repeta operatia. A 3 seara se repeta operatia cu alte 300g. de frunze. Tratamentul dureaza 3 saptamani, in fiecare seara. Concomitent din radacina de tataneasa se foloseste tinctura si unguent Tinctura din 50 g. flori sau fructe de castan in 500 ml. alcool de 50, se lasa 1 saptamani intr-un loc cald si la intuneric, agitand vasul zilnic .Se iau cate 30 - 40 pic. de 3 ori/zi, timp de 3 - 4 saptamani. Preparatele din castan scad tensiunea, intaresc peretii capilarelor si ai venelor, previn formarea cheagurilor si actioneaza la dizolvarea lor. Preparatele din castan se folosesc intern si extern pentru tratarea hemoroizilor, crampelor
 
-vasculare, tulburări digestive, în dischinezie biliară.
-Coada calului, vezi mâna.
-Guta, tinctură muguri plop negru (vezi cap), 50 pic. cu 1
-linguriță de miere 3 ori/zi, timp de 3 luni.
-Este o afecțiune datorită dereglării metabolismului bazelor
-purinice, deci nu poate elimina acidul uric, care se acumulează
-în sânge provocând dureri articulare, poate duce la
-disfuncționalitatea rinichilor.
+vasculare, tulburari digestive, in dischinezie biliara.
+Coada calului, vezi mana.
+Guta, tinctura muguri plop negru (vezi cap), 50 pic. cu 1
+lingurita de miere 3 ori/zi, timp de 3 luni.
+Este o afectiune datorita dereglarii metabolismului bazelor
+purinice, deci nu poate elimina acidul uric, care se acumuleaza
+in sange provocand dureri articulare, poate duce la
+disfunctionalitatea rinichilor.
 Tratamentul se face cu un amestec de produse naturiste
-antiinflamatorii care contribuie la eliminarea acidului uric, dar și
-la împiedicarea formării de cristale: Spirea Olmaria (elimină
+antiinflamatorii care contribuie la eliminarea acidului uric, dar si
+la impiedicarea formarii de cristale: Spirea Olmaria (elimina
 acidul uric), Gheara Diavolului (antiinflamator), Saponaria
-(antireumatic, depurativ), Solidago și Parietaria. Produsele se
-găsesc sub formă de capsule, sau tincturi. Rezultatele se obțin
-în timp.
-Se bea zilnic compot de mere îndulcit cu miere.
-Se coace la cuptor un nap cu tot cu coajă, după ce s-a răcit, se
-taie în două și se freacă locul afectat de gută.
-### Flori de mușețel uscate și ulei de măsline în proporție de 1
-8, se încălzește la bain-marie, timp de 1 oră, se pune într-o sticlă fără dop, se lasă la macerat la soare 4 zile, se strecoară și se folosește la frecții. Se amestecă într-un mixer 200 g. miez de pară, bine coaptă cu un pahar de lapte degresat. Se consumă pe parcursul unei zile câte 2 – 3 lingurițe de 3 – 4 ori/zi. Se beau 1 – 2 pahare de suc de frunze de țelină/zi O lặmâie coaptặ , se stoarce, sucul se pune separat într-un vas, fructul se taie în felii subțiri, se pune în 250 ml. ap ặ și se fierbe 15 min. Dup ặ rặcire se pune peste suc, se îndulcește cu miere. Ceaiul se bea în fiecare dimineaț ặ, timp de 30 zile, apoi se face o pauzặ de o sặptặmânặ.
-### Infecție la un deget, panarițiu
-1 cățel de usturoi zdrobit legat cu tifon, timp de 3 zile. Frunză de mușcată din ghiveci. Câteva flori de crin foarte mirosit oare din perioada caldă, se pun cu spirt de 70, după macerare se pune o petală pe locul afectat. În timpul zilei frunză de aloe legată cu tifon iar seara cataplasmă cu argilă pastă. Se rade un morcov și de pune cataplasmă pe locul afectat.
-### Luxația
-pentru îndreptarea ligamentelor se va fricționa zona cu oțet, ulei de măsline sau usturoi zdrobit, apoi se înfășoară cu o bucată de pânză curată din bumbac sau lână. Se bea mult ceai
+(antireumatic, depurativ), Solidago si Parietaria. Produsele se
+gasesc sub forma de capsule, sau tincturi. Rezultatele se obtin
+in timp.
+Se bea zilnic compot de mere indulcit cu miere.
+Se coace la cuptor un nap cu tot cu coaja, dupa ce s-a racit, se
+taie in doua si se freaca locul afectat de guta.
+### Flori de musetel uscate si ulei de masline in proportie de 1
+8, se incalzeste la bain-marie, timp de 1 ora, se pune intr-o sticla fara dop, se lasa la macerat la soare 4 zile, se strecoara si se foloseste la frectii. Se amesteca intr-un mixer 200 g. miez de para, bine coapta cu un pahar de lapte degresat. Se consuma pe parcursul unei zile cate 2 – 3 lingurite de 3 – 4 ori/zi. Se beau 1 – 2 pahare de suc de frunze de telina/zi O lamaie coapta , se stoarce, sucul se pune separat intr-un vas, fructul se taie in felii subtiri, se pune in 250 ml. ap a si se fierbe 15 min. Dup a racire se pune peste suc, se indulceste cu miere. Ceaiul se bea in fiecare dimineat a, timp de 30 zile, apoi se face o pauza de o saptamana.
+### Infectie la un deget, panaritiu
+1 catel de usturoi zdrobit legat cu tifon, timp de 3 zile. Frunza de muscata din ghiveci. Cateva flori de crin foarte mirosit oare din perioada calda, se pun cu spirt de 70, dupa macerare se pune o petala pe locul afectat. In timpul zilei frunza de aloe legata cu tifon iar seara cataplasma cu argila pasta. Se rade un morcov si de pune cataplasma pe locul afectat.
+### Luxatia
+pentru indreptarea ligamentelor se va frictiona zona cu otet, ulei de masline sau usturoi zdrobit, apoi se infasoara cu o bucata de panza curata din bumbac sau lana. Se bea mult ceai
 
 de trifoi sau platan.
 ### Monturi
-se ia o foaie de varză albă crudă, i se strivesc nervurile cu o sticlă și se pune pe mont, dimineața și seara, timp de câteva luni. Durerile dispar după 15 - 30 min., dar cu timpul monturile se micșorează. Se tamponează montul cu tinctură de iod, se taie o măslină în două se scoate sâmburele și se aplică măslina pe mont, se fixează cu un bandaj, se lasă toată noaptea, tratamentul durează o lună. Într-un săculeț de pânză se pune hrean ras, amestecat cu făină și puțină apă caldă, până se obține o pastă, se pune pe mont, timp de 10 - 15 min., tratamentul durează câteva zile.
+se ia o foaie de varza alba cruda, i se strivesc nervurile cu o sticla si se pune pe mont, dimineata si seara, timp de cateva luni. Durerile dispar dupa 15 - 30 min., dar cu timpul monturile se micsoreaza. Se tamponeaza montul cu tinctura de iod, se taie o maslina in doua se scoate samburele si se aplica maslina pe mont, se fixeaza cu un bandaj, se lasa toata noaptea, tratamentul dureaza o luna. Intr-un saculet de panza se pune hrean ras, amestecat cu faina si putina apa calda, pana se obtine o pasta, se pune pe mont, timp de 10 - 15 min., tratamentul dureaza cateva zile.
 ### Picior de atlet
-infecție a pielii, cu o ciupercă microscopică denumită Tinea Pedis. Ciuperca se dezvoltă pe talpa piciorului, îi plac întunericul, umezeala și căldura - condițiile din pantofi. Cele mai afectate sunt degetele, pielea se înroșește, se crapă, se cojește, cu aspect rugos, uscat, toate fiind însoțite de mâncărimi insuportabile. Tratamentul constă în aplicarea de 2 ori/zi a unei creme anti- micotice CLOTRIMAZOL, LAMISIL, MICONAZOL, KETOCONAZOL, durează 2 - 4 săptămâni, chiar dacă simptomele au dispărut, deoarece infecția poate fi încă activă și poate recidiva, dacă se întrerupe tratamentul.
+infectie a pielii, cu o ciuperca microscopica denumita Tinea Pedis. Ciuperca se dezvolta pe talpa piciorului, ii plac intunericul, umezeala si caldura - conditiile din pantofi. Cele mai afectate sunt degetele, pielea se inroseste, se crapa, se cojeste, cu aspect rugos, uscat, toate fiind insotite de mancarimi insuportabile. Tratamentul consta in aplicarea de 2 ori/zi a unei creme anti- micotice CLOTRIMAZOL, LAMISIL, MICONAZOL, KETOCONAZOL, dureaza 2 - 4 saptamani, chiar daca simptomele au disparut, deoarece infectia poate fi inca activa si poate recidiva, daca se intrerupe tratamentul.
 ### Picioare bolnave
-într-o sticla de 1 litru se pun frunze de panoxginsec , până la jumătate, se completează cu alcool 70, se macerează la întuneric o săptămână. Cu soluția filtrată se masează picioarele din talpă timp de 4 luni.
-### Picioare neliniștite
-în 1945, neurologul suedez Axel Ekbom, distinge 2 forme. Forma parestetică, cu senzație de furnicături și strânsuri, care irită când picioarele sunt în repaus. Forma algică, în care predomină durerea în timpul somnului. Infuzie din talpa gâștei 2 lingurițe la o cană de apă, de 3 ori/zi
+intr-o sticla de 1 litru se pun frunze de panoxginsec , pana la jumatate, se completeaza cu alcool 70, se macereaza la intuneric o saptamana. Cu solutia filtrata se maseaza picioarele din talpa timp de 4 luni.
+### Picioare nelinistite
+in 1945, neurologul suedez Axel Ekbom, distinge 2 forme. Forma parestetica, cu senzatie de furnicaturi si stransuri, care irita cand picioarele sunt in repaus. Forma algica, in care predomina durerea in timpul somnului. Infuzie din talpa gastei 2 lingurite la o cana de apa, de 3 ori/zi
 ### Polineuropatie senzitivo-motorie
-tulburare a inervației membrelor inferioare, cât și o afectare a sistemului circular (arteriopatie, tromboflebită). Tratament cu reflexologie, acupunctură și regim alimentar, gimnastică medicală, masaje locale și ceaiuri . Amestec de ceaiuri format din măceșe, sulfină, talpa gâștei, coada șoricelului. Pentru masaj folosiți unguent de arnică sau ienupăr și băi de mușețel sau mentă.
+tulburare a inervatiei membrelor inferioare, cat si o afectare a sistemului circular (arteriopatie, tromboflebita). Tratament cu reflexologie, acupunctura si regim alimentar, gimnastica medicala, masaje locale si ceaiuri . Amestec de ceaiuri format din macese, sulfina, talpa gastei, coada soricelului. Pentru masaj folositi unguent de arnica sau ienupar si bai de musetel sau menta.
 ### Tromboflebita
-alune de pặ dure dar și frunzele și scoarța copacului, se preg ặtește o infuzie, o linguriț ặ la 1 pahar de apặ
+alune de pa dure dar si frunzele si scoarta copacului, se preg ateste o infuzie, o lingurit a la 1 pahar de apa
 
-clocotitặ, se bea câte ¼ de pahar de 3 – 4 ori/zi.
+clocotita, se bea cate ¼ de pahar de 3 – 4 ori/zi.
 ### Varice
-se caracterizează prin dilatația venoasă permanentă a venelor superficiale sau profunde datorită pierderii tonicității pereților acestora. Venele safene ale picioarelor fac varice cu prioritate, factorii mecanici sunt statul în picioare și cei hormonali, sarcina, menopauza. Au ca efect mersul greoi, crampe dureri și furnicături. Dacă nu sunt tratate pot duce la dermite, ulcere varicoase, hemoragii și inflamații. Repaus la pat cu picioarele ridicate, folosirea ciorapilor elastici și cure termale. Regimul alimentar trebuie ținut 42 - 45 zile, pentru rezultate bune, se consumă numai ; orez, grâu, porumb, supă fasole boabe mari, produse lactate, exceptând iaurtul și telemeaua, dovleac, castravete, spanac, miere, struguri și alte fructe, între mese se va bea apă. Alimente interzise; carne porc, de vită, de berbec, de bivol, pește, alcool, sare, fructe acre, lămâi, roșii, ananas, condimente iuți, fasole soia, ulei de susan, băuturi fierbinți, ceai, cafea, cartofi, ridichi, legume verzi, iaurt, oțet, mâncăruri grase, alimente fripte sau prăjite. Masajul se face din mijlocul tălpii până la scobitura ei, aproape de călcâie, timp de 10 min. pe rând ambele picioare. Grâușor infuzie din 1 linguriță sau 2 în 200ml. Apă clocotită timp de 15 - 2o minute, se pun compresii locale Mierea și usturoiul, eficiente în cazul afecțiunilor vasculare ale picioarelor, varice, artrita, în cazul cardiopatiei ischemice, 250 g. miere se amestecă cu 250 g. usturoi pisat, se macerează 7 zile, se ia 1 lingură cu 4o min. înainte de masă, de 3 ori/zi, timp de 2 luni. Alifie; 5g extract de mărul lupului cu 50g untură fără sare, se ung zonele bolnave. Frunzele se culeg înainte ca planta să înflorească. Planta se folosește numai pentru uz extern.
+se caracterizeaza prin dilatatia venoasa permanenta a venelor superficiale sau profunde datorita pierderii tonicitatii peretilor acestora. Venele safene ale picioarelor fac varice cu prioritate, factorii mecanici sunt statul in picioare si cei hormonali, sarcina, menopauza. Au ca efect mersul greoi, crampe dureri si furnicaturi. Daca nu sunt tratate pot duce la dermite, ulcere varicoase, hemoragii si inflamatii. Repaus la pat cu picioarele ridicate, folosirea ciorapilor elastici si cure termale. Regimul alimentar trebuie tinut 42 - 45 zile, pentru rezultate bune, se consuma numai ; orez, grau, porumb, supa fasole boabe mari, produse lactate, exceptand iaurtul si telemeaua, dovleac, castravete, spanac, miere, struguri si alte fructe, intre mese se va bea apa. Alimente interzise; carne porc, de vita, de berbec, de bivol, peste, alcool, sare, fructe acre, lamai, rosii, ananas, condimente iuti, fasole soia, ulei de susan, bauturi fierbinti, ceai, cafea, cartofi, ridichi, legume verzi, iaurt, otet, mancaruri grase, alimente fripte sau prajite. Masajul se face din mijlocul talpii pana la scobitura ei, aproape de calcaie, timp de 10 min. pe rand ambele picioare. Grausor infuzie din 1 lingurita sau 2 in 200ml. Apa clocotita timp de 15 - 2o minute, se pun compresii locale Mierea si usturoiul, eficiente in cazul afectiunilor vasculare ale picioarelor, varice, artrita, in cazul cardiopatiei ischemice, 250 g. miere se amesteca cu 250 g. usturoi pisat, se macereaza 7 zile, se ia 1 lingura cu 4o min. inainte de masa, de 3 ori/zi, timp de 2 luni. Alifie; 5g extract de marul lupului cu 50g untura fara sare, se ung zonele bolnave. Frunzele se culeg inainte ca planta sa infloreasca. Planta se foloseste numai pentru uz extern.
 ### Vene trombozate
-seara cataplasme cu varza crudă, pe zona afectată fașă de bumbac și apoi se acoperă cu lână. Dimineața se scoate varza și se spală locul cu vată înmuiată în apă cu sare ( 1 linguriță sare la o cană cu apă fiartă). Tratamentul se face până se vindecă locul.
-### Tinctură de spânz
-într-o sticlă închisă la culoare se pune rădăcină de spânz 1 cm. 6 cm. Alcool 60, se lasă la macerat 30 zile la întuneric, se pun compresii locale, pe pilea sănătoasă fără răni și zgârieturi, vă spălați pe mâini și pune-ți sticla la loc ferit pentru că este o plantă otrăvitoare. Este eficientă ș i în tratamentul local al artrozelor.
+seara cataplasme cu varza cruda, pe zona afectata fasa de bumbac si apoi se acopera cu lana. Dimineata se scoate varza si se spala locul cu vata inmuiata in apa cu sare ( 1 lingurita sare la o cana cu apa fiarta). Tratamentul se face pana se vindeca locul.
+### Tinctura de spanz
+intr-o sticla inchisa la culoare se pune radacina de spanz 1 cm. 6 cm. Alcool 60, se lasa la macerat 30 zile la intuneric, se pun compresii locale, pe pilea sanatoasa fara rani si zgarieturi, va spalati pe maini si pune-ti sticla la loc ferit pentru ca este o planta otravitoare. Este eficienta s i in tratamentul local al artrozelor.
 
-Infuzie din 1 lingură frunze de alun și 1 lingură scoarță de alun
-de pădure în 1 pahar cu apă clocotită. Se bea câte ¼ din pahar de
-3 - 4 ori/zi înainte de masă.
-Tinctură din 50 g. flori sau fructe de castan în 500 ml. alcool de
-50, se lasă 1 săptămâni într-un loc cald și la întuneric, agitând
-vasul zilnic .Se iau câte 30 - 40 pic. de 3 ori/zi, timp de 3 - 4
-săptămâni. Preparatele din castan scad tensiunea, întăresc
-pereții capilarelor și ai venelor, previn formarea cheagurilor și
-acționează la dizolvarea lor. Preparatele din castan se folosesc
-intern și extern pentru tratarea hemoroizilor, crampelor
-vasculare, tulburări digestive, în dischinezie biliară.
+Infuzie din 1 lingura frunze de alun si 1 lingura scoarta de alun
+de padure in 1 pahar cu apa clocotita. Se bea cate ¼ din pahar de
+3 - 4 ori/zi inainte de masa.
+Tinctura din 50 g. flori sau fructe de castan in 500 ml. alcool de
+50, se lasa 1 saptamani intr-un loc cald si la intuneric, agitand
+vasul zilnic .Se iau cate 30 - 40 pic. de 3 ori/zi, timp de 3 - 4
+saptamani. Preparatele din castan scad tensiunea, intaresc
+peretii capilarelor si ai venelor, previn formarea cheagurilor si
+actioneaza la dizolvarea lor. Preparatele din castan se folosesc
+intern si extern pentru tratarea hemoroizilor, crampelor
+vasculare, tulburari digestive, in dischinezie biliara.
 ### Veruci plantare
-2 lingurițe unguent de gălbenele, se amestecă cu 1 linguriță de acid salicilic, se omogenizează, se ung bătăturile, fără a atinge pielea în jur, se pune o bandă de leucoplast peste bătături, se pune o șosetă de bumbac. Se scoate șoseta și banda de leucoplast, care se va dezlipi cu bătătură cu tot. În cazul când bătătura nu se dezlipește de tot, se va ține piciorul ti mp de 30 min. într-un litru de a pă caldă cu un vârf de cuțit de acid salicilic. După o bună înmuiere se răzuie cu unghia bătătura. Pentru bătăturile mai vechi care se desprind mai greu, se repetă tratamentul. După scoaterea bătăturii se unge locul cu unguent de gălbenele. Următorul tratament, este cu Dulcissima de la Ardes Cosmetici, o pomadă pe bază de camfor natural, mentă și mentol, care elimină monturile și bătăturile.
-### Vinișoare bleu
-se at enuează foarte bine cu cremele Gheara diavolului și Arnică, de la Ardes Cosmetici, se masează zilnic picioarele de jos în sus.
-## OASE, COLOANA VERTEBRALĂ
+2 lingurite unguent de galbenele, se amesteca cu 1 lingurita de acid salicilic, se omogenizeaza, se ung bataturile, fara a atinge pielea in jur, se pune o banda de leucoplast peste bataturi, se pune o soseta de bumbac. Se scoate soseta si banda de leucoplast, care se va dezlipi cu batatura cu tot. In cazul cand batatura nu se dezlipeste de tot, se va tine piciorul ti mp de 30 min. intr-un litru de a pa calda cu un varf de cutit de acid salicilic. Dupa o buna inmuiere se razuie cu unghia batatura. Pentru bataturile mai vechi care se desprind mai greu, se repeta tratamentul. Dupa scoaterea bataturii se unge locul cu unguent de galbenele. Urmatorul tratament, este cu Dulcissima de la Ardes Cosmetici, o pomada pe baza de camfor natural, menta si mentol, care elimina monturile si bataturile.
+### Vinisoare bleu
+se at enueaza foarte bine cu cremele Gheara diavolului si Arnica, de la Ardes Cosmetici, se maseaza zilnic picioarele de jos in sus.
+## OASE, COLOANA VERTEBRALA
 
-### Artroză
-pe fondul kilogramelor în plus, activitatea articulațiilor și mai ales a genunchilor se desfășoară cu mai mare dificulate. Cea mai bună soluție este slăbitul și simtomele artrozei vor scădea în intensitate. Vitamina C dă rezultate bune, se consumă citrice, pătrunjel, coacăze negre. Sucuri de legume, țelină, morcovi, roșii, varza albă. Să se consume de 2 ori/săptămână pește – somn, macrou, ton, hering, reduc inflamarea articulațiilor. Se evită grăsimile
+### Artroza
+pe fondul kilogramelor in plus, activitatea articulatiilor si mai ales a genunchilor se desfasoara cu mai mare dificulate. Cea mai buna solutie este slabitul si simtomele artrozei vor scadea in intensitate. Vitamina C da rezultate bune, se consuma citrice, patrunjel, coacaze negre. Sucuri de legume, telina, morcovi, rosii, varza alba. Sa se consume de 2 ori/saptamana peste – somn, macrou, ton, hering, reduc inflamarea articulatiilor. Se evita grasimile
 
-animale, se consumă lactate semidegresate, carne de pui și
-vită. Decoctul de salcie acționează la o aspirină naturală,
-calmând durerile. Se beau câte 3 cești/zi. Și ceaiul de crețușcă
+animale, se consuma lactate semidegresate, carne de pui si
+vita. Decoctul de salcie actioneaza la o aspirina naturala,
+calmand durerile. Se beau cate 3 cesti/zi. Si ceaiul de cretusca
 are rol antiinflamator.
 ### Anchiloza
-20 lame de ras din oțel inoxidabil se bagă într-o sticla de lapte cu gura mare, se toarnă ½ litru de esen ță de oțet, se acoperă cu un dop, se scutură în fiecare zi. Se așteaptă până se dizolvă toate lamele. Cu lichidul rezultat se aplică comprese pe locurile anchilozate, până ce pielea se înroșește. Înaite de a se folosi și după se unge locul cu alifie de gălbenele.
-### Cifoscoliozặ și spondilit ặ dorsalặ
+20 lame de ras din otel inoxidabil se baga intr-o sticla de lapte cu gura mare, se toarna ½ litru de esen ta de otet, se acopera cu un dop, se scutura in fiecare zi. Se asteapta pana se dizolva toate lamele. Cu lichidul rezultat se aplica comprese pe locurile anchilozate, pana ce pielea se inroseste. Inaite de a se folosi si dupa se unge locul cu alifie de galbenele.
+### Cifoscolioza si spondilit a dorsala
 dr. Viorel Butnaru, cabinet SOMAVITA, str. General Berthlot nr. 86, sec. 1, tel. 3120602.
 ### Dureri lombare
-dormitul pe o suprafață tare. Se fac băi de șezut cu coada calului, în care se stă 20 min. După 3 băi, durerile dispar. Se pune la macerat în 200 ml . spirt medicinal următoarele plante, fructe de tuia, sunătoare, sânziene și tătăneasă, câte 20 g. din fiecare, se țin la macerat într-un borcan cu capac timp de 12 ore, apoi se fierb la bain-marie timp de 3 ore, în 400 ml. ulei de floarea soarelui. Se filtrează și se adaugă 10 ml. ulei volatil de cuișoare. Cu acest ulei se face masaj începând de la baza capului, de-a lungul coloanei, insistând în zona lombară. Tratament cu Balsam de rozmarin de la Ardes Cosmetici, o cremă termogenică, pe bază de camfor natural și rezorcină. Este recomandat de medicii naturiști ca activator circular în afecțiuni musculare, articulare, inflamații și reumatisme.
+dormitul pe o suprafata tare. Se fac bai de sezut cu coada calului, in care se sta 20 min. Dupa 3 bai, durerile dispar. Se pune la macerat in 200 ml . spirt medicinal urmatoarele plante, fructe de tuia, sunatoare, sanziene si tataneasa, cate 20 g. din fiecare, se tin la macerat intr-un borcan cu capac timp de 12 ore, apoi se fierb la bain-marie timp de 3 ore, in 400 ml. ulei de floarea soarelui. Se filtreaza si se adauga 10 ml. ulei volatil de cuisoare. Cu acest ulei se face masaj incepand de la baza capului, de-a lungul coloanei, insistand in zona lombara. Tratament cu Balsam de rozmarin de la Ardes Cosmetici, o crema termogenica, pe baza de camfor natural si rezorcina. Este recomandat de medicii naturisti ca activator circular in afectiuni musculare, articulare, inflamatii si reumatisme.
 ### Durei articulare
 Bio-seleniu+zinc, Bio-Marin Plus.
 ### Dureri de spate
-tratamentul terapeutului Tiberiu Kovacs, din Zalặu, jud Sặlaj, remediazặ afecțiuni de coloan ặ, mâini, picioare, scoliozặ,hernie de disc, torticolis, dorsargii.
+tratamentul terapeutului Tiberiu Kovacs, din Zalau, jud Salaj, remediaza afectiuni de coloan a, maini, picioare, scolioza,hernie de disc, torticolis, dorsargii.
 ### Fractura
 ### Hernia de disc
-raze calorice în fața sobei, cu ușa deschisă, când este numai jar, cu spatele gol. Durata unei ședințe este de 20 min. dimineața și 20 min. seara. După 10 - 15 ședințe durerile se diminuează, iar după o lună au dispărut
-### Osteoporoză
-200 g. făină de orez, 200 g. miere de pădure, 50 g. polen, 100 ml. lapte dulce nefiert, se omogenizează, se păstrează în vase închise la culoare și la frigider, se iau zilnic 3 linguri, cu 2 ore înainte de masă, până se termină. Tratament cu Tonocalcin, 3 injecții/săptămână, timp de 2 luni, Calciu cu vitamina D, drageuri 3/zi, 15 zile/lună, timp de 6 luni, Fosamax 70 mg. 1/săptămână, timp de un an, Celebrex 2/zi, 10
+raze calorice in fata sobei, cu usa deschisa, cand este numai jar, cu spatele gol. Durata unei sedinte este de 20 min. dimineata si 20 min. seara. Dupa 10 - 15 sedinte durerile se diminueaza, iar dupa o luna au disparut
+### Osteoporoza
+200 g. faina de orez, 200 g. miere de padure, 50 g. polen, 100 ml. lapte dulce nefiert, se omogenizeaza, se pastreaza in vase inchise la culoare si la frigider, se iau zilnic 3 linguri, cu 2 ore inainte de masa, pana se termina. Tratament cu Tonocalcin, 3 injectii/saptamana, timp de 2 luni, Calciu cu vitamina D, drageuri 3/zi, 15 zile/luna, timp de 6 luni, Fosamax 70 mg. 1/saptamana, timp de un an, Celebrex 2/zi, 10
 
-zile/lună, timp de 3 luni.
-### Poliartrită reumatoidă
+zile/luna, timp de 3 luni.
+### Poliartrita reumatoida
 Bio-seleniu+zinc.
 ### Reumatism
-bucăți de țelină se opăresc în clocot, după de s-a răcit puțin se bea zeama în care au fiert legumele.. Țelina fiartă se toacă cu puțină făină, lapte și miere, se amestecă până se obține o pastă, se poate consuma ca salată, umplutură pentru cartofii fierți sau unsă pe pâine prăjită. Se beau 1 – 2 pahare de suc de țelină/zi , tratament cu efecte foarte puternice Frunze de țelinặ opặrite cu apặ clocotitặ, se lasặ sặ se rặceascặ și se pun pe articulațiile dureroase, timp de 2 ore. Ceaiul de pătrunjel luat înainte de masă, stimulează rinichii, ceea ce previne manifestarea accentuată a reumatismului. Ca remediu extern, pentru gută și reumatism, cel mai indicat este cu o bucată de lână, ținută deasupra unui vas cu aburi. Când lâna absoarbe vaporii fierbinți de apă, se pune compresa pe zona afectată. Peste compresa calda se pune o pânză unsă cu unguent antireumatic, cu rol în a provoca perspirația. Se schimbă compresa de câte ori s-a răcit. Ulei de dafin. 30 g. frunze uscate și pisate se pun în 200 ml. ulei vegetal, se macerează 5 - 6 zile, se masează zona dureroasă. Loțiunea cu ulei de in și terebentină, ajută la alinarea durerilor. Amestecul a 4 - 5 căței de usturoi cu puțin ulei de măsline, se pune cu o compresă pe zona afectată, mai ales la gută. Vezica biliară de la porc cu pieliță cu tot, alcool rafinat sau țuică 1 litru, se lasă la macerat 6 săptămâni, se filtrează apoi se frecționează locurile dureroase. Uleiul de angelică și spirtul – preparat din ulei de angelică, camfor, alcool – se frecționează locul afectat.
-### Sciatică
-se pot prevenii durerile prin masarea zonelor afectate cu ulei de mușețel Tratament pentru reumatism , osteoporoză, artroză, contraindicat la boli cardiovasculare. - baie cu apă fierbinte timp de o ora - îmbrăcat în halat de baie flaușat îmbibat în apă rece și oțet de mere și culcat pe pat fără saltea, învelit complet în pături, lângă pat se pune un calorifer dat la maxim. - peste bolnav și calorifer se mai pun 2 pături.. - halatul se usucă apoi bolnavul transpiră până îl udă. - bolnavul stă nemișcat timp de 2 ore - iese un miros urât. - se schimbă în haine călduroase și mai stă în pat 3 ore. - în timpul tratamentulu i și apoi 6 - 12 ore după să nu ajungă frigul
+bucati de telina se oparesc in clocot, dupa de s-a racit putin se bea zeama in care au fiert legumele.. Telina fiarta se toaca cu putina faina, lapte si miere, se amesteca pana se obtine o pasta, se poate consuma ca salata, umplutura pentru cartofii fierti sau unsa pe paine prajita. Se beau 1 – 2 pahare de suc de telina/zi , tratament cu efecte foarte puternice Frunze de telina oparite cu apa clocotita, se lasa sa se raceasca si se pun pe articulatiile dureroase, timp de 2 ore. Ceaiul de patrunjel luat inainte de masa, stimuleaza rinichii, ceea ce previne manifestarea accentuata a reumatismului. Ca remediu extern, pentru guta si reumatism, cel mai indicat este cu o bucata de lana, tinuta deasupra unui vas cu aburi. Cand lana absoarbe vaporii fierbinti de apa, se pune compresa pe zona afectata. Peste compresa calda se pune o panza unsa cu unguent antireumatic, cu rol in a provoca perspiratia. Se schimba compresa de cate ori s-a racit. Ulei de dafin. 30 g. frunze uscate si pisate se pun in 200 ml. ulei vegetal, se macereaza 5 - 6 zile, se maseaza zona dureroasa. Lotiunea cu ulei de in si terebentina, ajuta la alinarea durerilor. Amestecul a 4 - 5 catei de usturoi cu putin ulei de masline, se pune cu o compresa pe zona afectata, mai ales la guta. Vezica biliara de la porc cu pielita cu tot, alcool rafinat sau tuica 1 litru, se lasa la macerat 6 saptamani, se filtreaza apoi se frectioneaza locurile dureroase. Uleiul de angelica si spirtul – preparat din ulei de angelica, camfor, alcool – se frectioneaza locul afectat.
+### Sciatica
+se pot prevenii durerile prin masarea zonelor afectate cu ulei de musetel Tratament pentru reumatism , osteoporoza, artroza, contraindicat la boli cardiovasculare. - baie cu apa fierbinte timp de o ora - imbracat in halat de baie flausat imbibat in apa rece si otet de mere si culcat pe pat fara saltea, invelit complet in paturi, langa pat se pune un calorifer dat la maxim. - peste bolnav si calorifer se mai pun 2 paturi.. - halatul se usuca apoi bolnavul transpira pana il uda. - bolnavul sta nemiscat timp de 2 ore - iese un miros urat. - se schimba in haine calduroase si mai sta in pat 3 ore. - in timpul tratamentulu i si apoi 6 - 12 ore dupa sa nu ajunga frigul
 
 la bolnav
-- tratamentul se face pe nemâncate pe nebăute.
+- tratamentul se face pe nemancate pe nebaute.
 .
 ## PIELE
 
-### Alunițe
-frunză proaspătă de aloe sau tulpină, se unge locul de 2 - 3 ori/zi, ustură puțin dar în timp dispar
+### Alunite
+frunza proaspata de aloe sau tulpina, se unge locul de 2 - 3 ori/zi, ustura putin dar in timp dispar
 ### Acnea
-4 lingurițe pulbere de rădăcină de măcriș se amestecă cu 4 lingurițe de miere, se consumă pe parcursul zilei, pe stomacul gol. Cura durează 2 luni. Intr-o sticlă se pune o rădăcină de hrean rasă cu oțet de vin, cît să-l acopere, se lasă la macerat 10 zile la temperatura camerei. Se aplică dimineața și seara locurile afectate, avînd fața udă.
+4 lingurite pulbere de radacina de macris se amesteca cu 4 lingurite de miere, se consuma pe parcursul zilei, pe stomacul gol. Cura dureaza 2 luni. Intr-o sticla se pune o radacina de hrean rasa cu otet de vin, cit sa-l acopere, se lasa la macerat 10 zile la temperatura camerei. Se aplica dimineata si seara locurile afectate, avind fata uda.
 ### Arsuri
-se unge locul cu ulei de cătină. Pentru a calma durerea și a înpiedica formarea bășicilor se rade un morcov, se aplică sub formă de cataplasmă.
+se unge locul cu ulei de catina. Pentru a calma durerea si a inpiedica formarea basicilor se rade un morcov, se aplica sub forma de cataplasma.
 ### Boli de piele
-acnea, alergia, psoriazicul,forme de lupus , (vezi constipația).
-### Cicatrizare estetică a rănilor sau tăieturi
-cataplasmă cu tătăneasă și mărul lupului în părți egale, o dată pe zi timp de o oră
+acnea, alergia, psoriazicul,forme de lupus , (vezi constipatia).
+### Cicatrizare estetica a ranilor sau taieturi
+cataplasma cu tataneasa si marul lupului in parti egale, o data pe zi timp de o ora
 ### Cancer de piele
-o dată la 2 zile clismă (vezi cancer genital cu mărul lupului) se aplică zilnic cataplasmă, (vezi cicatrizare estetică). Scaiul măgăresc, planta proaspătă se stoarce prin presare, cu sucul obținut de badijonează de câteva ori/zi zona bolnavă
-### Dermatită herpetiformă. (During- Brocq)
-este o alergie la o proteină - gluten aflată în grâu, orz secară, și ovăz. Se ține regim. Tratament cu ulei de cătină 20 pic. de 3 ori/zi
-### Dermatită de stază
-în timpul somnului se pune o pernă sub picioare, circulația de întoarcere a sângelui se va face mai ușor, iar colorația maronie a pielii va ceda. Local se pun comprese cu Rivanol, timp de 1 oră, apoi se unge pielea alternativ cu cremă de gălbenele și cremă de tătăneasă timp de 2 săptămâni. După masă se ia de 3 ori/zi, vitamina A+D2,
-### Degerături
-se aplică ulei de cătină pe locul afectat, atât cât
+o data la 2 zile clisma (vezi cancer genital cu marul lupului) se aplica zilnic cataplasma, (vezi cicatrizare estetica). Scaiul magaresc, planta proaspata se stoarce prin presare, cu sucul obtinut de badijoneaza de cateva ori/zi zona bolnava
+### Dermatita herpetiforma. (During- Brocq)
+este o alergie la o proteina - gluten aflata in grau, orz secara, si ovaz. Se tine regim. Tratament cu ulei de catina 20 pic. de 3 ori/zi
+### Dermatita de staza
+in timpul somnului se pune o perna sub picioare, circulatia de intoarcere a sangelui se va face mai usor, iar coloratia maronie a pielii va ceda. Local se pun comprese cu Rivanol, timp de 1 ora, apoi se unge pielea alternativ cu crema de galbenele si crema de tataneasa timp de 2 saptamani. Dupa masa se ia de 3 ori/zi, vitamina A+D2,
+### Degeraturi
+se aplica ulei de catina pe locul afectat, atat cat
 
 absoarbe pielea, sau pe zonele care vor fi expuse la frig.
-După intensitatea gerului și după timpul de expunere la frig,
-degerăturile sunt de 3 grade:
-- gradul întâi, pielea din zona care începe să înghețe, devine
-mai albă, fără sânge, după câteva minute sau ore culoarea
-devine roșie vineție, se umflă, apar furnicături, ustură,
-amorțește.
-- gradul doi; pe fondul descris mai sus apar bășicuțe pline cu
-lichid gălbui roșiatic, umflăturile se accentuează, sensibilitatea
-la căldură, la pipăit și durere este absentă.
-- gradul trei; în această fază se produce distrugerea pielii, a
-țesuturilor și urmează cangrenarea. Pielea este de culoare
-negricioasă, tare, zbârcită și insensibilă la căldură și înțepare.
+Dupa intensitatea gerului si dupa timpul de expunere la frig,
+degeraturile sunt de 3 grade:
+- gradul intai, pielea din zona care incepe sa inghete, devine
+mai alba, fara sange, dupa cateva minute sau ore culoarea
+devine rosie vinetie, se umfla, apar furnicaturi, ustura,
+amorteste.
+- gradul doi; pe fondul descris mai sus apar basicute pline cu
+lichid galbui rosiatic, umflaturile se accentueaza, sensibilitatea
+la caldura, la pipait si durere este absenta.
+- gradul trei; in aceasta faza se produce distrugerea pielii, a
+tesuturilor si urmeaza cangrenarea. Pielea este de culoare
+negricioasa, tare, zbarcita si insensibila la caldura si intepare.
 Cangrena se poate infecta.
-Primul ajutor constă în scoaterea victimei de sub acțiunea
-gerului, transportarea ei într-o încăpere caldă. Zonele înghețate
-se vor reîncălzi treptat, mâinile și picioarele se pun într-un vas
-cu apă la 15 - 20 grade și se va adăuga treptat apă mai caldă,
-așa încât să ajungă la temperatura corpului. Nu trebuie să se
-fricționeze pielea energic cu o cârpă sau zăpadă, deoarece se
-pot produce leziuni. Reîncălzirea se poate face și cu aer cald, în
-mod progresiv, după care se masează corpul cu ulei, sau
-vaselină. Dacă apar bășicuțe, nu se sparg, se dezinfectează cu
-spirt și se aplică pe ele unguente sau antibiotice. Pentru
-degerăturile de gradul trei, se aplică aceleași proceduri, iar
-persoana se transportă de urgență la spital.
-Frunze de morcov, 100 g. Într-un litru de apă se fierbe și fac spălături
+Primul ajutor consta in scoaterea victimei de sub actiunea
+gerului, transportarea ei intr-o incapere calda. Zonele inghetate
+se vor reincalzi treptat, mainile si picioarele se pun intr-un vas
+cu apa la 15 - 20 grade si se va adauga treptat apa mai calda,
+asa incat sa ajunga la temperatura corpului. Nu trebuie sa se
+frictioneze pielea energic cu o carpa sau zapada, deoarece se
+pot produce leziuni. Reincalzirea se poate face si cu aer cald, in
+mod progresiv, dupa care se maseaza corpul cu ulei, sau
+vaselina. Daca apar basicute, nu se sparg, se dezinfecteaza cu
+spirt si se aplica pe ele unguente sau antibiotice. Pentru
+degeraturile de gradul trei, se aplica aceleasi proceduri, iar
+persoana se transporta de urgenta la spital.
+Frunze de morcov, 100 g. Intr-un litru de apa se fierbe si fac spalaturi
 locale sau compresii.
 ### Descuamare
-cremă de mâini cu 5 uleiuri vegetale și ceară de albine, produsă de ARDES.
+crema de maini cu 5 uleiuri vegetale si ceara de albine, produsa de ARDES.
 ### Escare
-spălături cu ceai de coada calului și aplicații de ulei de tătăneasă, gălbenele, sunătoare, amestecate în părți egale și un unguent veterinar Mibazon. Se pudrează rana cu un amestec de antibiotice de uz veterinar, puternic cicatrizant, folosit după ce se castrează porcii.
+spalaturi cu ceai de coada calului si aplicatii de ulei de tataneasa, galbenele, sunatoare, amestecate in parti egale si un unguent veterinar Mibazon. Se pudreaza rana cu un amestec de antibiotice de uz veterinar, puternic cicatrizant, folosit dupa ce se castreaza porcii.
 ### Furuncule
-se aplică vreme de 2 - 4 ore cataplasme de in (4 lingurițe semințe de in măcinate se amestecă cu 4 linguri pulbere de mușețel, după care se adaugă apă până se formează o pastă omogenă. Se pune pe o bucată de tifon și se aplică pe locul afectat). Se rade un morcov, se pune cataplasmă pe locul afectat. Tratament cu Mibazon, unguent produs de Iași, sau Mastilone,
+se aplica vreme de 2 - 4 ore cataplasme de in (4 lingurite seminte de in macinate se amesteca cu 4 linguri pulbere de musetel, dupa care se adauga apa pana se formeaza o pasta omogena. Se pune pe o bucata de tifon si se aplica pe locul afectat). Se rade un morcov, se pune cataplasma pe locul afectat. Tratament cu Mibazon, unguent produs de Iasi, sau Mastilone,
 
-produs de Pfizer care se gặ sește în farmaciile veterinare,
-amândoua au în componența lor tetraciclin ặ, eritromicinặ și
-neomicinặ în concentrație mare. Se unge locul afectat în 24 de
-ore se observ ặ cum începe sặ se retragặ, s e micșoreaz ặ și se
-resoarbe fặrặ sặ se spargặ. Se continuặ ungerea câteva zile.
+produs de Pfizer care se ga seste in farmaciile veterinare,
+amandoua au in componenta lor tetraciclin a, eritromicina si
+neomicina in concentratie mare. Se unge locul afectat in 24 de
+ore se observ a cum incepe sa se retraga, s e micsoreaz a si se
+resoarbe fara sa se sparga. Se continua ungerea cateva zile.
 ### Hemangiom
-se unge cu suc proaspặt de gặ lbenele (date prin mașina de tocat) din flori de mai multe ori/zi. Noaptea se unge cu alifie de gặlbenele. Se unge cu Bitter de cel mai bun dupặ ce se dặ cu alifie de gặlbenele. Douặ linguri de tặmâie bunặ - smirnặ, mặ runțitặ fin, 2 linguri de cearặ de albine, datặ prin rặzặtoare, se amestecặ bine cu ulei de mặsline 6 linguri. Se pune pe foc în baie de abur, pânặ se topesc. Se amestecặ cu o spatulặ de lemn, trebue sặ fie ca o cremặ de fațặ. Dacặ este tare se mai pune puțin ulei și se pune iar pe foc. Se unge locul afectat se pune un tifon steril și un leucoplast, nu se umbl ặ la pansament 24 – 48 de ore, se face o pauzặ de 2 zile și se repe tặ procedura pânặ la dispariție.
+se unge cu suc proaspat de ga lbenele (date prin masina de tocat) din flori de mai multe ori/zi. Noaptea se unge cu alifie de galbenele. Se unge cu Bitter de cel mai bun dupa ce se da cu alifie de galbenele. Doua linguri de tamaie buna - smirna, ma runtita fin, 2 linguri de ceara de albine, data prin razatoare, se amesteca bine cu ulei de masline 6 linguri. Se pune pe foc in baie de abur, pana se topesc. Se amesteca cu o spatula de lemn, trebue sa fie ca o crema de fata. Daca este tare se mai pune putin ulei si se pune iar pe foc. Se unge locul afectat se pune un tifon steril si un leucoplast, nu se umbl a la pansament 24 – 48 de ore, se face o pauza de 2 zile si se repe ta procedura pana la disparitie.
 ### Herpes Simplex
-remedii homeopatice sau locul afectat se tamponeazặ cu tincturặ de muguri de plop de 3 – 4 ori/zi. In 2 zile se rezolvặ.
+remedii homeopatice sau locul afectat se tamponeaza cu tinctura de muguri de plop de 3 – 4 ori/zi. In 2 zile se rezolva.
 ### Impetigo
-se rade un morcov, se pune într-un tifon, se aplică pe locul afectat, crustele vor cădea destul de repede.
+se rade un morcov, se pune intr-un tifon, se aplica pe locul afectat, crustele vor cadea destul de repede.
 ### Keratodermie
-starea pielii este în legătură directa cu starea intestinului gros, se recomandă un regim în care să se elimine proteina animală (carne, ouă, lapte) să se consume legume și fructe pentru fibrele de celuloză și vitamine.
-### Leziuni produse de radiații
-pe locul afectat se pune o cataplasmặ cu petale de trandafir, se ține o or ặ. Tratamentul repetat consecvent face sặ se retragặ ulcerele pielii și vindec ặ arsurile produse de ultraviolete sau din spectrul gama.
+starea pielii este in legatura directa cu starea intestinului gros, se recomanda un regim in care sa se elimine proteina animala (carne, oua, lapte) sa se consume legume si fructe pentru fibrele de celuloza si vitamine.
+### Leziuni produse de radiatii
+pe locul afectat se pune o cataplasma cu petale de trandafir, se tine o or a. Tratamentul repetat consecvent face sa se retraga ulcerele pielii si vindec a arsurile produse de ultraviolete sau din spectrul gama.
 ### Micoze
-Terbisil unguent, trateazặ micozele cutanate, onicomicoze (unghi îngrozate),
-### Noduli provocați de injecții
-compresii cu felii subțiri de lămâie, după 4 ore se schimbă cu altele până dispar definitiv. Comprese cu bitter suedez după ce se unge locul cu cremă de gălbenele, se lasă câteva ore sau toată noaptea
+Terbisil unguent, trateaza micozele cutanate, onicomicoze (unghi ingrozate),
+### Noduli provocati de injectii
+compresii cu felii subtiri de lamaie, dupa 4 ore se schimba cu altele pana dispar definitiv. Comprese cu bitter suedez dupa ce se unge locul cu crema de galbenele, se lasa cateva ore sau toata noaptea
 ### Negi
-se ung de 2 ori/zi cu zeamă de păpădie. Coaja de la 2 lămâi, se lasă la macerat 8 zile în 500 ml. oțet de fructe, se ung negii de 2 ori/zi, se repetă până la dispariție. Metioninặ, se ung negii, care se usucặ și dispar, f ặrặ a lặ sa urme. Apariția negilor este favorizat ặ de o proastặ funcționare a ficatului, tocmai din lipsa acestui acid metionina. Trebuie tratat ficatul.
+se ung de 2 ori/zi cu zeama de papadie. Coaja de la 2 lamai, se lasa la macerat 8 zile in 500 ml. otet de fructe, se ung negii de 2 ori/zi, se repeta pana la disparitie. Metionina, se ung negii, care se usuca si dispar, f ara a la sa urme. Aparitia negilor este favorizat a de o proasta functionare a ficatului, tocmai din lipsa acestui acid metionina. Trebuie tratat ficatul.
 
-Se spalặ porțiunea afectatặ cu sặpun și apặ. Se șterge fặrặ a freca,
-apoi se ia un melc cu cochilie din grặdinặ și se lasặ sặ meargặ cu talpa
-lui pe zona respectivặ . Tratamentul se face dimineața și seara,
-pânặ la vindecare. Dupặ ungere rặmâne un strat foarte subțire
-fặinos, nu se șterge, acesta vindecặ. în 2 – 3 zile zona afectatặ.
-Cretặ albặ simplặ, se fereacặ negul timp de 10 – 15 zile pânặ se usucặ.
+Se spala portiunea afectata cu sapun si apa. Se sterge fara a freca,
+apoi se ia un melc cu cochilie din gradina si se lasa sa mearga cu talpa
+lui pe zona respectiva . Tratamentul se face dimineata si seara,
+pana la vindecare. Dupa ungere ramane un strat foarte subtire
+fainos, nu se sterge, acesta vindeca. in 2 – 3 zile zona afectata.
+Creta alba simpla, se fereaca negul timp de 10 – 15 zile pana se usuca.
 ### Pete pe piele
-se beau zilnic pe stomacul gol 2 - 3 căni de decoct de rădăcină de măcriș, având efect benefic asupra ficatului. Cura durează 1 lună, este mai eficientă dacă se adaugă și 1 linguriță de trei frați pătrați.
+se beau zilnic pe stomacul gol 2 - 3 cani de decoct de radacina de macris, avand efect benefic asupra ficatului. Cura dureaza 1 luna, este mai eficienta daca se adauga si 1 lingurita de trei frati patrati.
 ### Pete brune
-se mai numesc „pete de ficat”, zilnic se freacă petele cu ulei de ricin, seara și dimineața, timp de 1-2 luni. Pentru cura internă se prepară un ceai de sunătoare, infuzie 1 lingură de plantă la 250 ml. a pă fierbinte, se beau 2 căni/zi cu ½ de oră înainte de masă. Trebuie ținută o dietă hipocalorică, fără grăsime de animal, preparate cu unt și dulciurile cu cacao
+se mai numesc „pete de ficat”, zilnic se freaca petele cu ulei de ricin, seara si dimineata, timp de 1-2 luni. Pentru cura interna se prepara un ceai de sunatoare, infuzie 1 lingura de planta la 250 ml. a pa fierbinte, se beau 2 cani/zi cu ½ de ora inainte de masa. Trebuie tinuta o dieta hipocalorica, fara grasime de animal, preparate cu unt si dulciurile cu cacao
 ### Pitiriazis
-rășină proaspătă de brad sau pin se aplică direct pe zona afectată..
+rasina proaspata de brad sau pin se aplica direct pe zona afectata..
 ### Pitiriazis versicolor
-netratată această ciupercă se întinde pe tot spatele, devenind inestetică. Vara petele nu se bronzau. Se poate folosi Clotrimazol unguent. Se mai poate folosi Selegel shampoing dermatologique produs de Laboratoarele Ducray Paris, este în farmaci i. Se spală cu el pe tot corpul, timp de 2 săptămâni, zilnic. La duș se lasă să acționeze timp de 5 min., se dă pe tot corpul din cap până în picioare, nu se folosește alt șampon Sau Biazol 1% (Bifonazol), tratament folosit câteva săptămâni. Sau o soluție din ; acid salicilic 4 g., rezorcină 8 g., alcool 70 200 ml..
+netratata aceasta ciuperca se intinde pe tot spatele, devenind inestetica. Vara petele nu se bronzau. Se poate folosi Clotrimazol unguent. Se mai poate folosi Selegel shampoing dermatologique produs de Laboratoarele Ducray Paris, este in farmaci i. Se spala cu el pe tot corpul, timp de 2 saptamani, zilnic. La dus se lasa sa actioneze timp de 5 min., se da pe tot corpul din cap pana in picioare, nu se foloseste alt sampon Sau Biazol 1% (Bifonazol), tratament folosit cateva saptamani. Sau o solutie din ; acid salicilic 4 g., rezorcina 8 g., alcool 70 200 ml..
 ### Pitiriazis uscat
-unge cu vaselină salicilică 10%, în fiecare dimineață 3 zile la rând, în fiecare seară spălați-vă, iar în apa de clătit pune-ți infuzie de urzică
-### Protecția pielii la frig, vânt, radiații solare
-se unge pielea cu un strat subțire de ulei de cătină înainte de a fi expusă la factorii agresivi de mediu, având efect de filtrare a radiațiilor ultraviolete și a altor tipuri de radiații cu efecte nocive.
+unge cu vaselina salicilica 10%, in fiecare dimineata 3 zile la rand, in fiecare seara spalati-va, iar in apa de clatit pune-ti infuzie de urzica
+### Protectia pielii la frig, vant, radiatii solare
+se unge pielea cu un strat subtire de ulei de catina inainte de a fi expusa la factorii agresivi de mediu, avand efect de filtrare a radiatiilor ultraviolete si a altor tipuri de radiatii cu efecte nocive.
 ### Psoriazis
-acid formic D30 , aplicații cu pudră de grafit. Lecitină 9 capsule/zi de 3 ori înainte de masă. Ceai de viorele de câmp 60g. la 1 litru apă, 3 căni/zi. Se evită complet zahărul, cafeaua, grăsimile, prăjelile, făinoase, alcoolul și alimentele acide. Se consumă numai legume și fructe. Morcovii au un rol deosebit cu valoare nutritivă mare, cereale, grâu, făină de porumb. Pentru
+acid formic D30 , aplicatii cu pudra de grafit. Lecitina 9 capsule/zi de 3 ori inainte de masa. Ceai de viorele de camp 60g. la 1 litru apa, 3 cani/zi. Se evita complet zaharul, cafeaua, grasimile, prajelile, fainoase, alcoolul si alimentele acide. Se consuma numai legume si fructe. Morcovii au un rol deosebit cu valoare nutritiva mare, cereale, grau, faina de porumb. Pentru
 
-golirea intestinului se ia 1 linguriță de ulei de măsline la 3 zile.
-După ultimele descoperiri ceaiurile de lumânărică, mușețel, tei
-și brusture ajută la epurarea organismului. Masaj cu ulei de
-arahide pe leziunile cutanate. Se va masa și coloana vertebrală
-pentru stimularea nervilor și circulația sângelui. Tărâțe puse la
-macerat și apoi comprese pe locul afectat 1 dată /zi apoi locul
-se unge cu cremă de tătăneasă
-Dezintoxicare 7 zile cu ceai de tei și ceai de urzică neândulcit, 3
-căni/zi alternativ, o zi tei, o zi urzică.
-Alimentație fără sare - sarea este un blestem, alcool,
-condimente, pâine, murături, slănina, mezeluri, telemea,
-conserve, nici un fel de dulce (zahăr, fructe, ciocolata), bulion,
+golirea intestinului se ia 1 lingurita de ulei de masline la 3 zile.
+Dupa ultimele descoperiri ceaiurile de lumanarica, musetel, tei
+si brusture ajuta la epurarea organismului. Masaj cu ulei de
+arahide pe leziunile cutanate. Se va masa si coloana vertebrala
+pentru stimularea nervilor si circulatia sangelui. Tarate puse la
+macerat si apoi comprese pe locul afectat 1 data /zi apoi locul
+se unge cu crema de tataneasa
+Dezintoxicare 7 zile cu ceai de tei si ceai de urzica neandulcit, 3
+cani/zi alternativ, o zi tei, o zi urzica.
+Alimentatie fara sare - sarea este un blestem, alcool,
+condimente, paine, muraturi, slanina, mezeluri, telemea,
+conserve, nici un fel de dulce (zahar, fructe, ciocolata), bulion,
 cafea, tutunul.
-Alimente permise, brânza dulce de vaci, cartofi fierți, copți cu
-margarină și brânză, mămăligă fără sare, lapte bătut, salate
-crude date pe răzătoare, cu lămâie sau cu ulei crud, sucuri
-naturale de țelină, sfeclă, morcovi. Borși proaspăt 1 litru/zi, ouă
-moi sau românești, carne slabă de găină, de pui, de vacă sau
-vițel - fiartă, rasol sau friptură la grătar, pește slab, piure de
-cartofi, ceaiuri de urzică, tătăneasă, rostopască, sunătoare,
-coada șoricelului, în loc de apă.
-Post de 24 ore/ săptămână, vinerea
-Tratament intern de minimum 2 luni cu lei de cătină 20 pic. de
+Alimente permise, branza dulce de vaci, cartofi fierti, copti cu
+margarina si branza, mamaliga fara sare, lapte batut, salate
+crude date pe razatoare, cu lamaie sau cu ulei crud, sucuri
+naturale de telina, sfecla, morcovi. Borsi proaspat 1 litru/zi, oua
+moi sau romanesti, carne slaba de gaina, de pui, de vaca sau
+vitel - fiarta, rasol sau friptura la gratar, peste slab, piure de
+cartofi, ceaiuri de urzica, tataneasa, rostopasca, sunatoare,
+coada soricelului, in loc de apa.
+Post de 24 ore/ saptamana, vinerea
+Tratament intern de minimum 2 luni cu lei de catina 20 pic. de
 3 ori/zi.
-### Scabia (râia)
-boală iritantă, netratată la timp, poate căpăta forme grave ce pot provoca moartea. Pentru a scăpa de mâncărimile date de scabie, se folosește uleiul de rozmarin, se freacă pielea din oră în oră, până se observă o ameliorare, apoi se rărește progresiv tratamentul. Vechii scandinavi puneau pe zonele afectate felii de măr decojite. Sau un amestec din 2/3 de oțet cu 1/3 apă, sau o cremă pe bază de bicarbonat de sodiu. Înainte de a aplica pe piele unul din remediile de mai sus, este indicată o baie fierbinte, să se frece pielea cu un burete aspru, porii pielii se deschid, fapt ce contribuie la o vindecare mai rapidă. Nu se mai face baie timp de 12 ore. Se taie un măr în două, se scot mijlocul și semințele, în golul rămas se pune puțină floare de sulf. Cele 2 părți se leagă cu o sforicică se pune la cuptor se coace. Se lasă la răcit, se zdrobește și se frecționează părțile bolnave cu terciul obținut. Pentru rufărie se folosește leșia, în loc de detergent, se pune într-o găleată cenușă de cu seara, peste ea apă, a doua zi apa limpede se folosește la spălat lucrurile contaminate și lenjeria.
+### Scabia (raia)
+boala iritanta, netratata la timp, poate capata forme grave ce pot provoca moartea. Pentru a scapa de mancarimile date de scabie, se foloseste uleiul de rozmarin, se freaca pielea din ora in ora, pana se observa o ameliorare, apoi se rareste progresiv tratamentul. Vechii scandinavi puneau pe zonele afectate felii de mar decojite. Sau un amestec din 2/3 de otet cu 1/3 apa, sau o crema pe baza de bicarbonat de sodiu. Inainte de a aplica pe piele unul din remediile de mai sus, este indicata o baie fierbinte, sa se frece pielea cu un burete aspru, porii pielii se deschid, fapt ce contribuie la o vindecare mai rapida. Nu se mai face baie timp de 12 ore. Se taie un mar in doua, se scot mijlocul si semintele, in golul ramas se pune putina floare de sulf. Cele 2 parti se leaga cu o sforicica se pune la cuptor se coace. Se lasa la racit, se zdrobeste si se frectioneaza partile bolnave cu terciul obtinut. Pentru rufarie se foloseste lesia, in loc de detergent, se pune intr-o galeata cenusa de cu seara, peste ea apa, a doua zi apa limpede se foloseste la spalat lucrurile contaminate si lenjeria.
 
-Pielea se freacă cu o pomadă, din cenușă și gaz, pe locurile
+Pielea se freaca cu o pomada, din cenusa si gaz, pe locurile
 afectate.
 ### Scarlatina
-loțiune pe bază de oțet și eucalipt în părți egale, cu proprietate antiseptică și scade febra..
-### Transpirație excesivặ
-se bea ceai de salvie, crețișoar ặ, coada calului, o canặ dimineața pe stomacul gol o perioadặ cât mai lungặ.
+lotiune pe baza de otet si eucalipt in parti egale, cu proprietate antiseptica si scade febra..
+### Transpiratie excesiva
+se bea ceai de salvie, cretisoar a, coada calului, o cana dimineata pe stomacul gol o perioada cat mai lunga.
 ### Zona Zoster
-10g. mușețel, 25g . rozmarin, 25g. levănțică, 10g. cimbru, 20g. brusture, 20g salvie, se amesteca, se face o infuzie 1 linguriță la 1 cana apă clocotită, se pun comprese călduțe pe locul afectat timp de 15 min. de câteva ori in 1 zi. În a 2 a zi, 2 g, rozmarin, 1 g. ulei ienupăr, 90 ml. alcool 90, se amestecă, se unge locul afectat de 2 - 3 /zi. Se iau zi 1g. ulei citronela, 1g. ulei levănțică, 2g. ulei busuioc, 2g. ulei salvie, 1g. ulei cimbru. 2g. ulei vitamine naturale sau B Sau pentru creșterea imunității se ia SPIRULUNĂ 400 mg., câte 3 tb. /zi, 2 dimineața și 1 la prânz, cu 30 min. înainte de masă și tinctură de Echinaceea, 30 pic. de 3 ori/zi. Împotriva infecției dimineața și seara câte 30 pic. propolis, pe o bucățică de pâine. Pe locul inflamat se pune o foaie de varza crudă, zdrobită cu sticla. Dimineața după igiena locului afectat se unge cu alifie de gălbenele. Sau 100 g. ceară de albine, 25 g. rășină de brad, 50 g. untdelemn, 250 g. margarină. Se topește ceara, rășina, margarina, apoi se adaugă uleiul, se păstrează în recipiente la rece. Se aplică pe locul afectat de 2 - 3 ori/zi. Sau unguent Zona Zoster Lis de dr. Ciuhri. Durerile dispar după câteva ore de la aplicarea medicamentului. În paralel se mai i a Sinerdol.
-### Verucă
-în fiecare seară se aplică propolis brut fixat cu un plasture. Vindecarea se obține după o lună. Se mai poate folosi albușde ou, umectâd verucile ziua și noaptea, le v-a sufoca și dispar.
+10g. musetel, 25g . rozmarin, 25g. levantica, 10g. cimbru, 20g. brusture, 20g salvie, se amesteca, se face o infuzie 1 lingurita la 1 cana apa clocotita, se pun comprese caldute pe locul afectat timp de 15 min. de cateva ori in 1 zi. In a 2 a zi, 2 g, rozmarin, 1 g. ulei ienupar, 90 ml. alcool 90, se amesteca, se unge locul afectat de 2 - 3 /zi. Se iau zi 1g. ulei citronela, 1g. ulei levantica, 2g. ulei busuioc, 2g. ulei salvie, 1g. ulei cimbru. 2g. ulei vitamine naturale sau B Sau pentru cresterea imunitatii se ia SPIRULUNA 400 mg., cate 3 tb. /zi, 2 dimineata si 1 la pranz, cu 30 min. inainte de masa si tinctura de Echinaceea, 30 pic. de 3 ori/zi. Impotriva infectiei dimineata si seara cate 30 pic. propolis, pe o bucatica de paine. Pe locul inflamat se pune o foaie de varza cruda, zdrobita cu sticla. Dimineata dupa igiena locului afectat se unge cu alifie de galbenele. Sau 100 g. ceara de albine, 25 g. rasina de brad, 50 g. untdelemn, 250 g. margarina. Se topeste ceara, rasina, margarina, apoi se adauga uleiul, se pastreaza in recipiente la rece. Se aplica pe locul afectat de 2 - 3 ori/zi. Sau unguent Zona Zoster Lis de dr. Ciuhri. Durerile dispar dupa cateva ore de la aplicarea medicamentului. In paralel se mai i a Sinerdol.
+### Veruca
+in fiecare seara se aplica propolis brut fixat cu un plasture. Vindecarea se obtine dupa o luna. Se mai poate folosi albusde ou, umectad verucile ziua si noaptea, le v-a sufoca si dispar.
 ### Vitiligo
-nu se expune la soare, vara se poartă o pălărie, tratament cu complexul de vitamine B, se consumă multe mere ionatane și țelină, nu se consumă anticoncepționale.
+nu se expune la soare, vara se poarta o palarie, tratament cu complexul de vitamine B, se consuma multe mere ionatane si telina, nu se consuma anticonceptionale.
 ## MEDICAMENTE, CEAIURI, UNGUIENTE
 
 ### Acidophilus & Bifidus
-recomandat în balonări, colon iritabil, diaree, constipație cronică, candidoze intestinale și vaginale, tulburări ale florei intestinale, cauzate de tratamente cu antibiotice, expunere la agenți patogeni prezenți în alimente sau apă.( produs de Mondopharm Corporation).
+recomandat in balonari, colon iritabil, diaree, constipatie cronica, candidoze intestinale si vaginale, tulburari ale florei intestinale, cauzate de tratamente cu antibiotice, expunere la agenti patogeni prezenti in alimente sau apa.( produs de Mondopharm Corporation).
 ### Aloe vera
-capsule cu soluție lichidă, menține sănătos tractul digestiv, rezolvă problemele neplăcute ce survin primăvara: slăbiciune, iritații gastrice, acutizarea ulcerului, constipația și problemele hepatice. Macerat; aloe vera în vârstă de 3 – 5 ani, 1,5Kg., ne udată de 5 zile se dă prin mașina de tocat, 2,5 Kg. miere pură, 3,5 litri de vin roșu tare de 18 – 20 grade și dulce. Toate ingredientele se pun într-un vas de sticlă brună, se amestecă, se lasă la întuneric, timp de 5 zile. Apoi se ia după cum urmează, primele 5 – 7 zile câte o linguriță de 3 ori/zi, cu 2 ore înainte de masă. In zilele următoare doza se crește cu câte o linguriță de 3 ori/zi cu o oră înaintea mesei. Cura este de minim de 2 săptămâni. Este recomandată în TBC pulmonar, ulcer gastric, artrita, angina, gripa, astm, scleroză, hipertensiune, trombo-flebită sciatică, septicemie, gută, paralizie, reumatism, tulburări cardiace, afecțiunile rinichilor, organelor genitale.
-### Arnică gel
-2 plante sunătoare și arnică, echimoze, vânătăi, contuzii, oboseală musculară.
-### Artroflex G și C
-previne artroza, reface cartilajul. Asorian (Biofarm) , eczemă cronică hiperatizată. Ananas; sucul conține o enzimă, numită bromelaină, cu proprietăți antiinflamatorii. Se pune suc pe locul unde s-a făcut o extracție dentară, pentru a evita umflarea sau se bea suc pentru a calma durerea din gât. Angelica; o legendă străveche spune că un înger i s-a arătat în vis unui pusnic, ținând în mână o plantă, cu puteri miraculoase, care ar putea să vindece ciuma, să apere de spiritul răului, de vrăjitorii, de farmece. De-a lungul secolului, botaniștii au folosit- o în timpul epidemiei de ciumă, din Italia în 1510, în Renaștere, medicii au numit-o „rădăcina Sfântului Spirit”. Chiar dacă legenda a exagerat însușirile plantei, angelica are într-adevăr numeroase virtuți medicale. In bucătărie angelica de grădină, se consumă integral, mugurii cruzi și tocați se consumă la salate, pește și desert, aromatizându-le. Laponii și irlandezii consumă tulpina pe post de sparanghel, fiartă în lapte. Frunzele mature se adaugă la ciorbe, supe, în cantitate mică. Tijele tinere, confiate în zahăr,
+capsule cu solutie lichida, mentine sanatos tractul digestiv, rezolva problemele neplacute ce survin primavara: slabiciune, iritatii gastrice, acutizarea ulcerului, constipatia si problemele hepatice. Macerat; aloe vera in varsta de 3 – 5 ani, 1,5Kg., ne udata de 5 zile se da prin masina de tocat, 2,5 Kg. miere pura, 3,5 litri de vin rosu tare de 18 – 20 grade si dulce. Toate ingredientele se pun intr-un vas de sticla bruna, se amesteca, se lasa la intuneric, timp de 5 zile. Apoi se ia dupa cum urmeaza, primele 5 – 7 zile cate o lingurita de 3 ori/zi, cu 2 ore inainte de masa. In zilele urmatoare doza se creste cu cate o lingurita de 3 ori/zi cu o ora inaintea mesei. Cura este de minim de 2 saptamani. Este recomandata in TBC pulmonar, ulcer gastric, artrita, angina, gripa, astm, scleroza, hipertensiune, trombo-flebita sciatica, septicemie, guta, paralizie, reumatism, tulburari cardiace, afectiunile rinichilor, organelor genitale.
+### Arnica gel
+2 plante sunatoare si arnica, echimoze, vanatai, contuzii, oboseala musculara.
+### Artroflex G si C
+previne artroza, reface cartilajul. Asorian (Biofarm) , eczema cronica hiperatizata. Ananas; sucul contine o enzima, numita bromelaina, cu proprietati antiinflamatorii. Se pune suc pe locul unde s-a facut o extractie dentara, pentru a evita umflarea sau se bea suc pentru a calma durerea din gat. Angelica; o legenda straveche spune ca un inger i s-a aratat in vis unui pusnic, tinand in mana o planta, cu puteri miraculoase, care ar putea sa vindece ciuma, sa apere de spiritul raului, de vrajitorii, de farmece. De-a lungul secolului, botanistii au folosit- o in timpul epidemiei de ciuma, din Italia in 1510, in Renastere, medicii au numit-o „radacina Sfantului Spirit”. Chiar daca legenda a exagerat insusirile plantei, angelica are intr-adevar numeroase virtuti medicale. In bucatarie angelica de gradina, se consuma integral, mugurii cruzi si tocati se consuma la salate, peste si desert, aromatizandu-le. Laponii si irlandezii consuma tulpina pe post de sparanghel, fiarta in lapte. Frunzele mature se adauga la ciorbe, supe, in cantitate mica. Tijele tinere, confiate in zahar,
 
-parfumează și decorează patiseriile. Florile aromatizează
-băuturile, gin, vertmult, dulciurile. Fructele foarte picante sunt
+parfumeaza si decoreaza patiseriile. Florile aromatizeaza
+bauturile, gin, vertmult, dulciurile. Fructele foarte picante sunt
 utilizate drept condiment.
-In medicină, infuzia din rădăcină calmează isteria, nevralgiia,
-durerile reumatice, stimulează pofta de mâncare, reduce
-fatulența, stimulează digestia, ușurează durerile de stomac,
-vindecă gripele, răcelile, bronșitele cronice și anemia. Ceaiul din
-frunze uscate sau proaspete combate balonările și erupțiile
+In medicina, infuzia din radacina calmeaza isteria, nevralgiia,
+durerile reumatice, stimuleaza pofta de mancare, reduce
+fatulenta, stimuleaza digestia, usureaza durerile de stomac,
+vindeca gripele, racelile, bronsitele cronice si anemia. Ceaiul din
+frunze uscate sau proaspete combate balonarile si eruptiile
 cutanate.
-Uleiul și spirtul de angelică, preparat din ulei de angelică,
-camfor, alcool, se folosesc ca frecții pentr4u durerile reumatice.
+Uleiul si spirtul de angelica, preparat din ulei de angelica,
+camfor, alcool, se folosesc ca frectii pentr4u durerile reumatice.
 ### Antialcoo & antitabac FITO
-împotriva alcoolului ș i tutunului, administrabil fặrặ știrea pacientului. Avocado; bogat în vitamina E și C, potasiu și fibre, acid folic care exclude riscul dezvoltării unor anomalii genetice la copil în cazul femeilor gravide, apără ficatul de acțiunea toxinelor dăunătoare, conținând substanțe care apără ficatul de hepatită. Conțin multe calorii, depășind carnea și ouăle, pentru absența grăsimilor nesaturate scade nivelul colesterolului ( o ½ de fruct/zi), scade tensiunea arterială, nu este interzis în diabet. În cazul gastritei acide scăzute și anemiilor este recomandat. Este folosit în stimularea intestinului. Măștile cu Avocado sunt indicate pentru tenul uscat. În psoriazis pentru calmarea mâncărimilor se consumă în fiecare zi o ½ de fruct, pe lângă medicamentele prescrise. Coaja, frunzele și ramurile se folosesc împotriva viermilor intestinali.
+impotriva alcoolului s i tutunului, administrabil fara stirea pacientului. Avocado; bogat in vitamina E si C, potasiu si fibre, acid folic care exclude riscul dezvoltarii unor anomalii genetice la copil in cazul femeilor gravide, apara ficatul de actiunea toxinelor daunatoare, continand substante care apara ficatul de hepatita. Contin multe calorii, depasind carnea si ouale, pentru absenta grasimilor nesaturate scade nivelul colesterolului ( o ½ de fruct/zi), scade tensiunea arteriala, nu este interzis in diabet. In cazul gastritei acide scazute si anemiilor este recomandat. Este folosit in stimularea intestinului. Mastile cu Avocado sunt indicate pentru tenul uscat. In psoriazis pentru calmarea mancarimilor se consuma in fiecare zi o ½ de fruct, pe langa medicamentele prescrise. Coaja, frunzele si ramurile se folosesc impotriva viermilor intestinali.
 ### Bioparox spray
 candida albicans
 ### Caise
-cel mai puternic efect îl are miezul sâmburelui, care conține vitamine și minerale nu numai în reducerea incidenței cancerului ci și în terapii de întinerire și revigorare.
+cel mai puternic efect il are miezul samburelui, care contine vitamine si minerale nu numai in reducerea incidentei cancerului ci si in terapii de intinerire si revigorare.
 ### Calciu
-asigurặ bặtặile regulate ale imimii, se ia împreunặ cu vitamina D.
+asigura bataile regulate ale imimii, se ia impreuna cu vitamina D.
 ### Cartilagiile de la copanelor puilor
-au un conșinut ridicat de calciu. a
-### Cătina
-planta capabilă să trăiască în sihăstrie, pe povârnișurile sărace de piatră, rabdă foamea, setea, căldura din șesurile Europei și frigul din Himalaya și Alpi, fiind una din cele mai adaptabile plante de pe Terra. Se poate găsi la 2000 m. altitudine în Alpi, dar și la 5000 m. în Himalaya. Fructele sale portocalii se coc la începutul toamnei și rezistă pe ramuri până primăvara. Fructele se pot culege și iarna pe îngheț, conțin maximum de vitamină C. De regulă se recoltează ramura cu fructe cu tot, arbuștii supuși acestui tratament, primăvara vor
+au un consinut ridicat de calciu. a
+### Catina
+planta capabila sa traiasca in sihastrie, pe povarnisurile sarace de piatra, rabda foamea, setea, caldura din sesurile Europei si frigul din Himalaya si Alpi, fiind una din cele mai adaptabile plante de pe Terra. Se poate gasi la 2000 m. altitudine in Alpi, dar si la 5000 m. in Himalaya. Fructele sale portocalii se coc la inceputul toamnei si rezista pe ramuri pana primavara. Fructele se pot culege si iarna pe inghet, contin maximum de vitamina C. De regula se recolteaza ramura cu fructe cu tot, arbustii supusi acestui tratament, primavara vor
 
 scoate mai multe ramuri noi.
 Fructele proaspete sunt desprinse de pe ramuri cu ajutorul unei
-furculițe. Uscarea fructelor se face pe ramuri, la temperaturi
-mari de 40 - 50 grade (în caz contrar fermentează și le scade
-puterea terapeutică), până ce fructul capătă consistența și
+furculite. Uscarea fructelor se face pe ramuri, la temperaturi
+mari de 40 - 50 grade (in caz contrar fermenteaza si le scade
+puterea terapeutica), pana ce fructul capata consistenta si
 aspectul unei stafide.
-### Pulberea de cătină
-fructe uscate, măcinate cu râșnița. Se ia 1 linguriță de pulbere 3 - 4 ori/zi, pe stomacul gol, se ține sub limbă câteva min., apoi se înghite cu apă.
-### Suc proaspăt
-zdrobirea se face într-un vas de porțelan, cu o lingură de lemn, se formează o pastă, care va fi consumată imediat, pentru a nu se oxida. Sucul de cătină nu se consumă singur ci în combinație cu suc de morcov, ½ pahar amestecat cu 4 - 5 linguri de suc de cătină, pe stomacul gol, de 2 - 3 ori/zi. Sirop de cătină; suc proaspăt de cătină, 1 parte se amestecă cu 2 părți de miere, se omogenizează, până se formează o pastă, se păstrează în borcane bine închise în loc întunecat și răcoros. Se iau 4 - 6 lingurițe/zi.
-### Ceaiul de cătină
-extractele în apă obținute din cătină, nu sunt eficiente, deoarece vitaminele A, E, F, se pierd. Este bine de înlocuit ceaiul cu pulberea, sucul sau siropul de cătină.
-### Uleiul de cătină
-fructele de cătină mai ales coaja, conțin 2 - 8% ulei gras, cu proprietăți terapeutice puternice, care nu se poate obține casnic, ci cu ajutorul unor instalații speciale. Acest ulei conține vitaminele A și E, asimilate ușor de organism, cu efect regenerator. Adulții pot lua 20 pic. de 3 ori/zi, copiii peste un an 5 pic. de 3 ori/zi Uleiul de cătină este un elixir pentru ochi, mărind acuitatea vizuală, combate oboseala oculară, încetinește evoluția bolilor, datorită vitaminei A. Fiind bogat în vitamina E, vitamina tinereții și fertilității, tratamente de 2 - 3 luni ajută activității glandelor sexuale. Regenerează țesuturile după arsuri, răni, operații, după o cură de 1 lună, micșorând timpul de vindecare. Ceai de fortificare; 250g măceșe uscate cu 1 litru de apă clocotită se pun la macerat 12 ore, se filtrează se amestecă cu 500g miere, se fierbe .Siropul se consumă cu apă minerală Ceai anti-cancerigen : planta LARREA MEXICANA, ½ linguri ță de plastic sau de lemn de pulbere într-o cană cu apă clocotită. Se bea ceaiul cât se poate de fierbinte și o ½ ora nu se bea și nu
+### Pulberea de catina
+fructe uscate, macinate cu rasnita. Se ia 1 lingurita de pulbere 3 - 4 ori/zi, pe stomacul gol, se tine sub limba cateva min., apoi se inghite cu apa.
+### Suc proaspat
+zdrobirea se face intr-un vas de portelan, cu o lingura de lemn, se formeaza o pasta, care va fi consumata imediat, pentru a nu se oxida. Sucul de catina nu se consuma singur ci in combinatie cu suc de morcov, ½ pahar amestecat cu 4 - 5 linguri de suc de catina, pe stomacul gol, de 2 - 3 ori/zi. Sirop de catina; suc proaspat de catina, 1 parte se amesteca cu 2 parti de miere, se omogenizeaza, pana se formeaza o pasta, se pastreaza in borcane bine inchise in loc intunecat si racoros. Se iau 4 - 6 lingurite/zi.
+### Ceaiul de catina
+extractele in apa obtinute din catina, nu sunt eficiente, deoarece vitaminele A, E, F, se pierd. Este bine de inlocuit ceaiul cu pulberea, sucul sau siropul de catina.
+### Uleiul de catina
+fructele de catina mai ales coaja, contin 2 - 8% ulei gras, cu proprietati terapeutice puternice, care nu se poate obtine casnic, ci cu ajutorul unor instalatii speciale. Acest ulei contine vitaminele A si E, asimilate usor de organism, cu efect regenerator. Adultii pot lua 20 pic. de 3 ori/zi, copiii peste un an 5 pic. de 3 ori/zi Uleiul de catina este un elixir pentru ochi, marind acuitatea vizuala, combate oboseala oculara, incetineste evolutia bolilor, datorita vitaminei A. Fiind bogat in vitamina E, vitamina tineretii si fertilitatii, tratamente de 2 - 3 luni ajuta activitatii glandelor sexuale. Regenereaza tesuturile dupa arsuri, rani, operatii, dupa o cura de 1 luna, micsorand timpul de vindecare. Ceai de fortificare; 250g macese uscate cu 1 litru de apa clocotita se pun la macerat 12 ore, se filtreaza se amesteca cu 500g miere, se fierbe .Siropul se consuma cu apa minerala Ceai anti-cancerigen : planta LARREA MEXICANA, ½ linguri ta de plastic sau de lemn de pulbere intr-o cana cu apa clocotita. Se bea ceaiul cat se poate de fierbinte si o ½ ora nu se bea si nu
 
-se m ănâncă nimic. Se bea timp de 2 luni apoi pauză 2
-săptămâni.
-ATENTIE : se întrerupe tratamentul dacă urina se închide la
-culoare sau se îngălbenesc ochii.
-### Ceapă verde sau uscată
-reduce incidența cancerului, ovarian mamar, genital la bărbați, renal și tiroidian. Ajută la echilibrarea hormonală. Este prin excelență un bun diuretic, elimină ureea și sodiul în exces. Și în tratamente externe favorizează eliminarea apei. Cu o jumătate de ceapă proaspătă se freacă în zona rinichiului, ori în partea de jos a abdomenului, în dreptul vezicii urinare, pentru a constata o creștere de 25% a debitului urinar. Aceleași masaje au efect bun și în caz de sciatică. Cura de tinctură de ceapă (vezi colica renală), este benefică și pentru gută, edeme, retenție de urină, reumatism, albuninurie. Elimină toxinele din organism, prin transpirații abundente. Consumată sub formă de tinctură nu mai miroase.
+se m ananca nimic. Se bea timp de 2 luni apoi pauza 2
+saptamani.
+ATENTIE : se intrerupe tratamentul daca urina se inchide la
+culoare sau se ingalbenesc ochii.
+### Ceapa verde sau uscata
+reduce incidenta cancerului, ovarian mamar, genital la barbati, renal si tiroidian. Ajuta la echilibrarea hormonala. Este prin excelenta un bun diuretic, elimina ureea si sodiul in exces. Si in tratamente externe favorizeaza eliminarea apei. Cu o jumatate de ceapa proaspata se freaca in zona rinichiului, ori in partea de jos a abdomenului, in dreptul vezicii urinare, pentru a constata o crestere de 25% a debitului urinar. Aceleasi masaje au efect bun si in caz de sciatica. Cura de tinctura de ceapa (vezi colica renala), este benefica si pentru guta, edeme, retentie de urina, reumatism, albuninurie. Elimina toxinele din organism, prin transpiratii abundente. Consumata sub forma de tinctura nu mai miroase.
 ### Cholestone
-medicament pentru scăderea colesterolului, care conține în formula sa, ulei de in, usturoi, pectină de măr, lecitină, crom, vitamina C și E. Cură de 3 luni
-### Cireșe și vișine
-protejează rinichii, căile urinare și intestinul, prin capacitatea lor de dezintoxicare. Sunt recomandate cure de 7-10 zile, în care se consumă 1/2Kg./zi.
+medicament pentru scaderea colesterolului, care contine in formula sa, ulei de in, usturoi, pectina de mar, lecitina, crom, vitamina C si E. Cura de 3 luni
+### Cirese si visine
+protejeaza rinichii, caile urinare si intestinul, prin capacitatea lor de dezintoxicare. Sunt recomandate cure de 7-10 zile, in care se consuma 1/2Kg./zi.
 ### Clor
-în cantitate insuficientặ duce la cặderea pặrului și a dinților.
-### Coacăz negru
-pe lingă hipotensor este antiaterosclerotic si diuretic, putînd elimina din organism acidul uric în exces prezent în sânge
+in cantitate insuficienta duce la caderea parului si a dintilor.
+### Coacaz negru
+pe linga hipotensor este antiaterosclerotic si diuretic, putind elimina din organism acidul uric in exces prezent in sange
 ### Coral D
-sursă naturală de calciu de origine biologică și a 73 minerale asociate cu magneziu și vitamina D, pentru deficit de calciu și magneziu..
+sursa naturala de calciu de origine biologica si a 73 minerale asociate cu magneziu si vitamina D, pentru deficit de calciu si magneziu..
 ### Diabecon
-reduce glicemia, corectează profilul lipidic, previne complicațiile vasculare, reduce modificările retinopatiei diabetice.
+reduce glicemia, corecteaza profilul lipidic, previne complicatiile vasculare, reduce modificarile retinopatiei diabetice.
 ### Extract muguri de carpen
 colon iritabil.
 ### Farebil
-afecțiuni hepato-biliare, litiază biliară.
+afectiuni hepato-biliare, litiaza biliara.
 ### Flavotan
-stimulează și protejează funcțiile cerebrale, afecțiunile circulatorii cerebrale, atenția, tulburări de memorie, hipoacuzie și vertij.
+stimuleaza si protejeaza functiile cerebrale, afectiunile circulatorii cerebrale, atentia, tulburari de memorie, hipoacuzie si vertij.
 ### Finocarbo plus
-cărbune vegetal, mușețel, balsam de lămâie ulei vegetal, ajută la absorția gazelor, stimularea secrețiilor biliare și gastrice.
+carbune vegetal, musetel, balsam de lamaie ulei vegetal, ajuta la absortia gazelor, stimularea secretiilor biliare si gastrice.
 ### Gazex
-„sindrom dispeptic” (dureri abdominale, balonare, flatulații, greață, regurgitare, hiperaciditate),conține ghimber,
+„sindrom dispeptic” (dureri abdominale, balonare, flatulatii, greata, regurgitare, hiperaciditate),contine ghimber,
 
-componentă principală a produsului
+componenta principala a produsului
 ### Ginger
-rădăcina are proprietăți antiinflamatorii și protejează stomacul de iritațiile cauzate de medicamente. Este indicat și în cazul migrenelor și grețurilor.
+radacina are proprietati antiinflamatorii si protejeaza stomacul de iritatiile cauzate de medicamente. Este indicat si in cazul migrenelor si greturilor.
 ### Golden Yacca
-curăță și dezinflamează intestinul gros (colonul), imuno-stimulator, reduce colesterolul, elimină toxinele.
+curata si dezinflameaza intestinul gros (colonul), imuno-stimulator, reduce colesterolul, elimina toxinele.
 ### Hepaton plus
-conține fosfolipide, care protejează celula hepatică și împiedică acumularea de colesterol în ficat, papaia, o enzimă vegetală, care contribuie la digestia proteinelor, ușurând rolul ficatului, Mg, Zn și vitamine cu rol detoxifiant și de stimulare metabolică. Se administrează până la 3 comprimate/zi.
+contine fosfolipide, care protejeaza celula hepatica si impiedica acumularea de colesterol in ficat, papaia, o enzima vegetala, care contribuie la digestia proteinelor, usurand rolul ficatului, Mg, Zn si vitamine cu rol detoxifiant si de stimulare metabolica. Se administreaza pana la 3 comprimate/zi.
 ### Insuveg
-insulină vegetală inventată de un român Dr. Farm. Ovidiu Bujor, produs de Laboratoarele Fares Bio Vital, intervine în metabolismul glucidic ducînd la scăderea glucozei. Se recomandă în diabetul de tipII și adjuvant în diabetul de tipI.
-### Îndulcitori artificiali
+insulina vegetala inventata de un roman Dr. Farm. Ovidiu Bujor, produs de Laboratoarele Fares Bio Vital, intervine in metabolismul glucidic ducind la scaderea glucozei. Se recomanda in diabetul de tipII si adjuvant in diabetul de tipI.
+### Indulcitori artificiali
 ### Zaharina
-este de aceeași vârstă cu zahărul fiind descoperită în 1879, este foarte săracă în calorii și de 200 - 500 de ori mai dulce decât zahărul, s-a impus ca hrană pentru diabetici și supraponderali. Din 1977, experimentele de laborator pe animale au scos în evidență anumite efecte toxice. Mărește indicele de apariție al cancerului vezicii urinare, celui genital și de prostată. Apoi s-au demonstrat indicele de toxicitate asupra sistemului hormonal, a activității nervoase și imunității. Din 1996 în S.U.A. este pe lista alimentelor cu potențial cancerigen, iar în Canada este interzisă.
+este de aceeasi varsta cu zaharul fiind descoperita in 1879, este foarte saraca in calorii si de 200 - 500 de ori mai dulce decat zaharul, s-a impus ca hrana pentru diabetici si supraponderali. Din 1977, experimentele de laborator pe animale au scos in evidenta anumite efecte toxice. Mareste indicele de aparitie al cancerului vezicii urinare, celui genital si de prostata. Apoi s-au demonstrat indicele de toxicitate asupra sistemului hormonal, a activitatii nervoase si imunitatii. Din 1996 in S.U.A. este pe lista alimentelor cu potential cancerigen, iar in Canada este interzisa.
 ### Aspartamul
-a fost descoperit în 1965, are o putere de îndulcire de 200 de ori mai mare decât zahărul, costă mai puțin și nu are nici o calorie. Este în compoziția sucurilor light, a ciocolatei, bomboanelor și produselor de cofetărie. Este îndulcitor de bază al unor produse ca; Equal, Nutra Sweet. Are și efecte adverse constând în dureri de cap, greață, palpitații, mâncărimi, dureri la încheieturi, insomnie, pierderea memoriei. Testele făcute la Institutul de Medicină Aero-spațială din S.U.A., au dat primul semnal, sucurile și dulciurile consumate de piloții liniilor aeriene, dau probleme de concentrare, pierderea temporară a auzului, tulburări de vedere, iritabilitate, deci sunt contraindicate. Al doilea semnal, a fost în rândul copiilor de vârstă școlară, a
+a fost descoperit in 1965, are o putere de indulcire de 200 de ori mai mare decat zaharul, costa mai putin si nu are nici o calorie. Este in compozitia sucurilor light, a ciocolatei, bomboanelor si produselor de cofetarie. Este indulcitor de baza al unor produse ca; Equal, Nutra Sweet. Are si efecte adverse constand in dureri de cap, greata, palpitatii, mancarimi, dureri la incheieturi, insomnie, pierderea memoriei. Testele facute la Institutul de Medicina Aero-spatiala din S.U.A., au dat primul semnal, sucurile si dulciurile consumate de pilotii liniilor aeriene, dau probleme de concentrare, pierderea temporara a auzului, tulburari de vedere, iritabilitate, deci sunt contraindicate. Al doilea semnal, a fost in randul copiilor de varsta scolara, a
 
-apărut o proliferare a violenței, culminând cu atacuri armate
-asupra profesorilor și colegilor.
-La nivelul anil or 2000, legislația mai multor țări interzice
-introducerea în alimente a acestui îndulcitor, acuzat de
-producerea mai multor boli și tulburări, depresia insomnia,
-parkinsonul, Alzheimer, scleroza în placi, diabetul și bolile
+aparut o proliferare a violentei, culminand cu atacuri armate
+asupra profesorilor si colegilor.
+La nivelul anil or 2000, legislatia mai multor tari interzice
+introducerea in alimente a acestui indulcitor, acuzat de
+producerea mai multor boli si tulburari, depresia insomnia,
+parkinsonul, Alzheimer, scleroza in placi, diabetul si bolile
 tumorale.
-Din păcate în țara noastră e folosit în sucurile light, energetice,
-produse dietetice, bomboane mentolate, gumă și în multe
-alimente și suplimente nutriționale de slăbit
-### Îndulcitori naturali
+Din pacate in tara noastra e folosit in sucurile light, energetice,
+produse dietetice, bomboane mentolate, guma si in multe
+alimente si suplimente nutritionale de slabit
+### Indulcitori naturali
 ### Mierea de albine
-îndulcitor ideal pentru ceai, lapte, cafea, suc. Nu poate fi folosită la prepararea unor prăjituri, nici a cozonacilor, (aluatul îndulcit cu miere nu crește), preparată termic la 70 grade devine toxică.
-### Zahărul brut
-granule ca zahărul obișnuit dar sunt închise la culoare. Pentru gătit se comportă ca și cel obișnuit, dar are punctul de topire mai jos, face mai puțină spumă. Firma exportatoare Sano-Vita,.
-### Lămâia
-sucul stimulează pofta de mâncare. 2 lingurițe de suc, neândulcit cu 1 pahar de apă, se bea înainte de masă cu ½ de oră, ajută la stimularea fluxului de salivă și a sucurilor gastrice..
+indulcitor ideal pentru ceai, lapte, cafea, suc. Nu poate fi folosita la prepararea unor prajituri, nici a cozonacilor, (aluatul indulcit cu miere nu creste), preparata termic la 70 grade devine toxica.
+### Zaharul brut
+granule ca zaharul obisnuit dar sunt inchise la culoare. Pentru gatit se comporta ca si cel obisnuit, dar are punctul de topire mai jos, face mai putina spuma. Firma exportatoare Sano-Vita,.
+### Lamaia
+sucul stimuleaza pofta de mancare. 2 lingurite de suc, neandulcit cu 1 pahar de apa, se bea inainte de masa cu ½ de ora, ajuta la stimularea fluxului de saliva si a sucurilor gastrice..
 ### Lenicalm
-3 plante, vinariță, păducel și tei, pentru insomnie, reduce nervozitatea la adulți și copii.
+3 plante, vinarita, paducel si tei, pentru insomnie, reduce nervozitatea la adulti si copii.
 ### Lipostop
-combinarea oțetului de mere cu bio-crom, care stimulează procesele de ardere a grăsimilor și a glucozei în sânge, scade apetitul pentru dulciuri, transformă depunerile adipoase în energie.
+combinarea otetului de mere cu bio-crom, care stimuleaza procesele de ardere a grasimilor si a glucozei in sange, scade apetitul pentru dulciuri, transforma depunerile adipoase in energie.
 ### Liv. 52
-hepatoprotector și detoxifiant, un supliment nutritiv care optimizează funcțiile ficatului. Conține cicoare, coada șoricelului, dar și plante din zon ele înalte din Himalaya, precum Tamarix gallica, cu rol tonic, reglator al metabolismului hepatic.
+hepatoprotector si detoxifiant, un supliment nutritiv care optimizeaza functiile ficatului. Contine cicoare, coada soricelului, dar si plante din zon ele inalte din Himalaya, precum Tamarix gallica, cu rol tonic, reglator al metabolismului hepatic.
 ### Livo smilin
-remediu naturist, protector al ficatului, cu dublă acțiune asupra virușilor, toxinelor, cât și împotriva modificărilor patologice ale țesutului hepatic, care apar în aceste cazuri. Regenerează celula hepatică, ameliorează circulația sanguină intahepatică și a proceselor metabolice.
-### Lactat de magneziu și vitamina B6
-carențe de magneziu și vitamina B6, datorate alimentației dezechilibrate, efort fizic, stres, anxietate,astenie, insomnie, spasmofilie, palpitații.
+remediu naturist, protector al ficatului, cu dubla actiune asupra virusilor, toxinelor, cat si impotriva modificarilor patologice ale tesutului hepatic, care apar in aceste cazuri. Regenereaza celula hepatica, amelioreaza circulatia sanguina intahepatica si a proceselor metabolice.
+### Lactat de magneziu si vitamina B6
+carente de magneziu si vitamina B6, datorate alimentatiei dezechilibrate, efort fizic, stres, anxietate,astenie, insomnie, spasmofilie, palpitatii.
 ### Maca
-o plntă cu rădăcină robustă care crește pe platourile alpine din Peru, face parte din gama nutraceutice innovatics.
+o plnta cu radacina robusta care creste pe platourile alpine din Peru, face parte din gama nutraceutice innovatics.
 
-Reface echilibrul organismului, întărește sistemul imunitar, un
-tonic fizic și mental, acțiune asupra sistemului endocrin, reduce
-disconfortul fizic și emoțional asociat cu sindromul
-premenstrual și cu menopauza.
-Macerat de usturoi; 2 căței de usturoi pisați se macerează o
-săptămână în 250ml. vin alb natural. Se bea câte 1 linguriță
-dimineața 3 săptămâni
-### Măcriș
-frunzele lui stimulează digestia, efect detoxifiant,neutralizează otrăvurile preluate din mediul înconjurător, pareze ale nervilor periferici, adjuvant în hemiplegie (1/2 pahar de suc dimineața și seara, timp de 2 săptămâni cu una de pauză). Rația maximă zilnică pentru un adult este de 70-100 g., peste această doză apar fenomene de demineralizare, tlburări digestive, amețeli, tulburări nervoase.
-### Mặrarul
-folosit ca adaus la mâncare, dar și ca medicament, fiind menționat într-un papirus egiptean vechi de 4000 de ani. Este intens folosit de medicina tibetanặ și indian ặ, unde este administrat ca tonic digestiv, antiinfecșios și antiinflamator. In antichitate era prețuit de romani, fiind un remediu contra tulbur ặrilor digestivặ și a durerilor de cap ce ap ặreau dupặ petrecerile îmbelțugate. Sucul proaspặt se dặdea pentru bolile de inimặ, contra tusei.
-### Mărul lupului, unguent
-6 linguri tinctură se lasă pe o farfurie până se evaporă alcoolul și rămâne o pastă groasă, care se amestecă cu ¼ dintr-un pachet de unt u șor înmuiat lângă foc, cu o lingură de lemn se omogenizează, se păstrează la frigider Mărul lupului, este o plantă toxică . Administrată intern fără avizul medicului, utilizată extern nu prezintă pericol cu condiția să fim atenți la manipulare și depozitare .Este cea mai veche plantă folosită ca medicament în Egiptul antic acum 5000de ani, numită iarba cobrei fiind singurul remediu.. Galii o foloseau pentru tumori și a oricăror excrescențe de pe corp În Spania se folosea de către cavaleri pentru tămăduirea rănilor,prevenirea infecțiilor. Englezii recomandau mestecarea a 2 frunze , pentru întărirea organismului la epidemii și eliminarea abceselor dentare.. Avertizau asupra toxicității ei dacă este folosită mai mult de 3 săptămâni,dăunează rinichilor, vezicii urinare și tubului digestiv.
-### Măr, struguri, afine
-conțin polifenol (antioxidant) care ucide virușii.
+Reface echilibrul organismului, intareste sistemul imunitar, un
+tonic fizic si mental, actiune asupra sistemului endocrin, reduce
+disconfortul fizic si emotional asociat cu sindromul
+premenstrual si cu menopauza.
+Macerat de usturoi; 2 catei de usturoi pisati se macereaza o
+saptamana in 250ml. vin alb natural. Se bea cate 1 lingurita
+dimineata 3 saptamani
+### Macris
+frunzele lui stimuleaza digestia, efect detoxifiant,neutralizeaza otravurile preluate din mediul inconjurator, pareze ale nervilor periferici, adjuvant in hemiplegie (1/2 pahar de suc dimineata si seara, timp de 2 saptamani cu una de pauza). Ratia maxima zilnica pentru un adult este de 70-100 g., peste aceasta doza apar fenomene de demineralizare, tlburari digestive, ameteli, tulburari nervoase.
+### Mararul
+folosit ca adaus la mancare, dar si ca medicament, fiind mentionat intr-un papirus egiptean vechi de 4000 de ani. Este intens folosit de medicina tibetana si indian a, unde este administrat ca tonic digestiv, antiinfecsios si antiinflamator. In antichitate era pretuit de romani, fiind un remediu contra tulbur arilor digestiva si a durerilor de cap ce ap areau dupa petrecerile imbeltugate. Sucul proaspat se dadea pentru bolile de inima, contra tusei.
+### Marul lupului, unguent
+6 linguri tinctura se lasa pe o farfurie pana se evapora alcoolul si ramane o pasta groasa, care se amesteca cu ¼ dintr-un pachet de unt u sor inmuiat langa foc, cu o lingura de lemn se omogenizeaza, se pastreaza la frigider Marul lupului, este o planta toxica . Administrata intern fara avizul medicului, utilizata extern nu prezinta pericol cu conditia sa fim atenti la manipulare si depozitare .Este cea mai veche planta folosita ca medicament in Egiptul antic acum 5000de ani, numita iarba cobrei fiind singurul remediu.. Galii o foloseau pentru tumori si a oricaror excrescente de pe corp In Spania se folosea de catre cavaleri pentru tamaduirea ranilor,prevenirea infectiilor. Englezii recomandau mestecarea a 2 frunze , pentru intarirea organismului la epidemii si eliminarea abceselor dentare.. Avertizau asupra toxicitatii ei daca este folosita mai mult de 3 saptamani,dauneaza rinichilor, vezicii urinare si tubului digestiv.
+### Mar, struguri, afine
+contin polifenol (antioxidant) care ucide virusii.
 ### Mentusin
-conține lemn dulce, eucalipt, cimbru, coada șoricelului, indicat pentru tuse, bronșită, răgușeală, stări gripale.
+contine lemn dulce, eucalipt, cimbru, coada soricelului, indicat pentru tuse, bronsita, raguseala, stari gripale.
 ### Mentat
-conține 2 plante Centella și Bacopa, scade emotivitatea
+contine 2 plante Centella si Bacopa, scade emotivitatea
 
-în timpul examenelor, ajută la asimilarea cunoștințelor, crește
-capacitatea de concentrare, atenția și memoria, înlătură
-oboseala, epuizarea psihică și insomnia
-Medicamentele Dr. Mircea Ciuhri; Hepato-Liz, supliment nutritiv și
+in timpul examenelor, ajuta la asimilarea cunostintelor, creste
+capacitatea de concentrare, atentia si memoria, inlatura
+oboseala, epuizarea psihica si insomnia
+Medicamentele Dr. Mircea Ciuhri; Hepato-Liz, supliment nutritiv si
 Imuno-Max imuno-stimulator.
-Crema pentru îngrijirea pielii, mărește elasticitatea tenului,
-elimină ridurile, petele maronii, bătăturile, alunițele, nevii și
+Crema pentru ingrijirea pielii, mareste elasticitatea tenului,
+elimina ridurile, petele maronii, bataturile, alunitele, nevii si
 verucile.
-Crema pentru picioare, împotriva varicelor, reduce inflamațiile
-articulațiilor.
-Crema pentru glezne, efect în artroze și arterite, regenerarea
-țesuturilor mărind fluxul sanguin în zonele afectate.
-Crema pentru decolteu, pentru nodulii mamari, asigurând
-absorția acestora.
-Cremă anticelulitică.
-Crema pentru piele descuamată, elimină crustele cutanate,
+Crema pentru picioare, impotriva varicelor, reduce inflamatiile
+articulatiilor.
+Crema pentru glezne, efect in artroze si arterite, regenerarea
+tesuturilor marind fluxul sanguin in zonele afectate.
+Crema pentru decolteu, pentru nodulii mamari, asigurand
+absortia acestora.
+Crema anticelulitica.
+Crema pentru piele descuamata, elimina crustele cutanate,
 pentru psoriazis.
-Crema pentru masaj corporal și zona Zoster.
-Lipogel pentru unghii, elimină țesutul mort, hrănește rădăcina și
-tratează micozele.
-Gel pentru cavitatea bucală, tratează Candidozele și micozele
+Crema pentru masaj corporal si zona Zoster.
+Lipogel pentru unghii, elimina tesutul mort, hraneste radacina si
+trateaza micozele.
+Gel pentru cavitatea bucala, trateaza Candidozele si micozele
 bucale.
-Gel V, pentru absorția varicelor esofagiene.
-Gel pentru îngrijirea dinților și gingiilor și a paradontozei.
-Intim gel V, pentru zonele intime, reglează flora mucoasei
-vaginale, în tratarea micozelor vaginale.
-Intim gel H, pentru fibroamele uterine și a hemoroizilor.
-Adenom-Liz, pentru prostată, sub formă de supozitoare.
-Kerato-Liz, afecțiuni cutanate grave, carcinoame, melanoame și
-alte formațiuni tumorale ale epidermei.
-Sediul în Str. Toamnei nr. 100.
+Gel V, pentru absortia varicelor esofagiene.
+Gel pentru ingrijirea dintilor si gingiilor si a paradontozei.
+Intim gel V, pentru zonele intime, regleaza flora mucoasei
+vaginale, in tratarea micozelor vaginale.
+Intim gel H, pentru fibroamele uterine si a hemoroizilor.
+Adenom-Liz, pentru prostata, sub forma de supozitoare.
+Kerato-Liz, afectiuni cutanate grave, carcinoame, melanoame si
+alte formatiuni tumorale ale epidermei.
+Sediul in Str. Toamnei nr. 100.
 Macerat gliceric de arin negru; ulcer gastroduodenal.
 ### Morcov
-sucul conține beta-caroten, potasiu și substanțe anticanceroase, fiind cel mai important furnizor de vitamina A, conține fier, în combaterea anemiei și a tulburărilor de creștere, pentru intestine acționează ca un regulator și cicatrizant gastric, în tinerește celulele și stimulează funcțiile hepatice. Se consumă crud ras sau suc.
+sucul contine beta-caroten, potasiu si substante anticanceroase, fiind cel mai important furnizor de vitamina A, contine fier, in combaterea anemiei si a tulburarilor de crestere, pentru intestine actioneaza ca un regulator si cicatrizant gastric, in tinereste celulele si stimuleaza functiile hepatice. Se consuma crud ras sau suc.
 ### No-spa
-.dureri biliare,gastro-intestinale (ulcer, gastrită, colon iritabil, dureri menstruale, anexită).
+.dureri biliare,gastro-intestinale (ulcer, gastrita, colon iritabil, dureri menstruale, anexita).
 ### Normobil
-normalizează secreția biliară, se ia 30 min. înainte de masa.
+normalizeaza secretia biliara, se ia 30 min. inainte de masa.
 
 ### Omega 3 – 6 – 9
-scade colesterolul și trigliceridele, previne ateroscleroza și HTA, crește imunitatea, previne depresia, a scăderii capacității de atenție și a Alzeheimerului, afecțiuni dermatologice – eczeme, psoriazis acnee, tulburări premenstruale, crampe uterine. ( produs de Mondopharm Corporation)
+scade colesterolul si trigliceridele, previne ateroscleroza si HTA, creste imunitatea, previne depresia, a scaderii capacitatii de atentie si a Alzeheimerului, afectiuni dermatologice – eczeme, psoriazis acnee, tulburari premenstruale, crampe uterine. ( produs de Mondopharm Corporation)
 ### Oscillococcinum
-un medicament homeopatic folosit în prevenirea și vindecarea stărilor gripale. O singură doză pe săptămână pentru a preveni boala. La primele simptome ale bolii, se ia o doză, se repetă o dată sau de 2 ori la interval de 6 ore. Când se instalează gripa se ia o doză dimineața și una seara timp de 3 zile.
+un medicament homeopatic folosit in prevenirea si vindecarea starilor gripale. O singura doza pe saptamana pentru a preveni boala. La primele simptome ale bolii, se ia o doza, se repeta o data sau de 2 ori la interval de 6 ore. Cand se instaleaza gripa se ia o doza dimineata si una seara timp de 3 zile.
 ### Osteocicatrat – TR
-unguent uz veterinar, conține extract de rădăcină de tătăneasă și rostopască, pentru afecțiunile oaselor: entorse, luxații. dureri articulare, accelerează formarea calusului osos. In reumatism articular, afecțiuni ale pielii, plăgi cutanate, produse de înțepături, tăiere, arsuri, degerături, ulcer varicos, eczeme greu vindecabile, papilomatoză. Produsul se aplică pe zona afectată, în strat subțire, cu ajutorul spatulei din ambalaj. Tratamentul se face timp de 4 – 5 zile, sau până la 14 zile în afecțiuni grave. Nu are contraindicații.
+unguent uz veterinar, contine extract de radacina de tataneasa si rostopasca, pentru afectiunile oaselor: entorse, luxatii. dureri articulare, accelereaza formarea calusului osos. In reumatism articular, afectiuni ale pielii, plagi cutanate, produse de intepaturi, taiere, arsuri, degeraturi, ulcer varicos, eczeme greu vindecabile, papilomatoza. Produsul se aplica pe zona afectata, in strat subtire, cu ajutorul spatulei din ambalaj. Tratamentul se face timp de 4 – 5 zile, sau pana la 14 zile in afectiuni grave. Nu are contraindicatii.
 ### Osteocynesine
-pentru fixarea și metabolismul Ca, sugari, copii adolescenți, femei însărcinate, fracturi, osteoporoză, se poate folosi și în medicina veterinară.
-### Ovăz
-hipotiroidă, fulgii de ovăz vor fi trecuți pentru mult timp în dietă, suplimentar se va bea ceai din 7 linguri boabe fi erte ½ oră în 1 litru apă, este recomandat în astenie, surmenaj, somnolență, pietre la rinichi, impotență.
+pentru fixarea si metabolismul Ca, sugari, copii adolescenti, femei insarcinate, fracturi, osteoporoza, se poate folosi si in medicina veterinara.
+### Ovaz
+hipotiroida, fulgii de ovaz vor fi trecuti pentru mult timp in dieta, suplimentar se va bea ceai din 7 linguri boabe fi erte ½ ora in 1 litru apa, este recomandat in astenie, surmenaj, somnolenta, pietre la rinichi, impotenta.
 ### Prodigest capsule
-procesul digestiei, dureri abdominale, gastrită, paraziți intestinali.
-### Păducel
-frunzele și florile sale culese primăvara au efecte tonice cardiacice puternice, dilată arterele inimii, reglează tensiunea arterială, calmează psihicul. Florile si frunzele se culeg, se usucă, se macină cu râșnița electrica, se administrează 1 linguriță de pulbere pe stomacul gol, de 3 ori/zi. Durata tratamentului este de 1 lună, pentru prevenirea bolilor de inima și de 3 luni pentru bolnavii cardiovasculari cronici. Cura are efecte bune în tratarea ischemiei cardiace, a ischemiei dureroase (anghina pectorală), sclerozei coronariene, arteriosclerozei. De asemenea pentru aritmii cardiace, hipertensiune sau tensiune oscilantă. Pentru cardiopatiile de origine diabetică se face un amestec de pulbere de păducel,
+procesul digestiei, dureri abdominale, gastrita, paraziti intestinali.
+### Paducel
+frunzele si florile sale culese primavara au efecte tonice cardiacice puternice, dilata arterele inimii, regleaza tensiunea arteriala, calmeaza psihicul. Florile si frunzele se culeg, se usuca, se macina cu rasnita electrica, se administreaza 1 lingurita de pulbere pe stomacul gol, de 3 ori/zi. Durata tratamentului este de 1 luna, pentru prevenirea bolilor de inima si de 3 luni pentru bolnavii cardiovasculari cronici. Cura are efecte bune in tratarea ischemiei cardiace, a ischemiei dureroase (anghina pectorala), sclerozei coronariene, arteriosclerozei. De asemenea pentru aritmii cardiace, hipertensiune sau tensiune oscilanta. Pentru cardiopatiile de origine diabetica se face un amestec de pulbere de paducel,
 
-anghinare, afin, în parți egale, se ia 1 linguriță rasă de 4 ori/zi,
+anghinare, afin, in parti egale, se ia 1 lingurita rasa de 4 ori/zi,
 la orele 8, 12, 18, 22.
-### Pătrunjel
-conține mai multa vitamin ặ C decât lặ mâia, vitamina K, beta – caroten, magneziu ți calciu. In antichitate, la început de varặ se mesteca pặ trunjel verde pentru a feri de insolație, infecții digestive și dureri de cap.Medicii din evul mediu susțineau c ặ dặ imunitate la otrặ vire ți la intoxicațiile lente de tot felul. Cercet ặrile moderne aratặ o puternicặ acțiune la nivelul ficatului și a splinei, precum și asupra sistemului endocrin și digestiv. Consumat crud, protejează plămânii și că ile respiratorii, ficatul, intestinul, rinichiul. Ameliorarea tumorilor cerebrale, reduce efectul nociv al alcoolului.
-### Pătlagina
-rol hipotensor, este bună în ateroscleroză și hipercolesterolemie, fiind un „detergent” al sistemului circulator.
-### Păpădia
-atâ t frunzele și rădăcina, sunt un excelent tonic circulator, cu acțiune în ateroscleroză.
+### Patrunjel
+contine mai multa vitamin a C decat la maia, vitamina K, beta – caroten, magneziu ti calciu. In antichitate, la inceput de vara se mesteca pa trunjel verde pentru a feri de insolatie, infectii digestive si dureri de cap.Medicii din evul mediu sustineau c a da imunitate la otra vire ti la intoxicatiile lente de tot felul. Cercet arile moderne arata o puternica actiune la nivelul ficatului si a splinei, precum si asupra sistemului endocrin si digestiv. Consumat crud, protejeaza plamanii si ca ile respiratorii, ficatul, intestinul, rinichiul. Ameliorarea tumorilor cerebrale, reduce efectul nociv al alcoolului.
+### Patlagina
+rol hipotensor, este buna in ateroscleroza si hipercolesterolemie, fiind un „detergent” al sistemului circulator.
+### Papadia
+ata t frunzele si radacina, sunt un excelent tonic circulator, cu actiune in ateroscleroza.
 ### Plantele amare
-sunt considerate adevărate catalizatori ai organismului. De obicei se suprapune cura cu plante depurative, cu cele amare, pentru ca dezintoxicarea să fie mai puternică. Apoi plantele amare se pot lua și în afara tratamentului de dezintoxicare, mai ales când există probleme cu ficatul, bila constipația.
+sunt considerate adevarate catalizatori ai organismului. De obicei se suprapune cura cu plante depurative, cu cele amare, pentru ca dezintoxicarea sa fie mai puternica. Apoi plantele amare se pot lua si in afara tratamentului de dezintoxicare, mai ales cand exista probleme cu ficatul, bila constipatia.
 ### Pelin
-indicat în cura de purificare mai ales la persoanele cu trai sedentar. Se administrează sub formă de tinctură, se iau 3 lingurițe /zi diluate în puțină apă, de regulă câte 1 linguriță înainte de masă, cura durează 2 săptămâni, urmată de o pauză de 10 zile, după care se poate relua tratamentul. Se respectă timpul de pauză.
+indicat in cura de purificare mai ales la persoanele cu trai sedentar. Se administreaza sub forma de tinctura, se iau 3 lingurite /zi diluate in putina apa, de regula cate 1 lingurita inainte de masa, cura dureaza 2 saptamani, urmata de o pauza de 10 zile, dupa care se poate relua tratamentul. Se respecta timpul de pauza.
 ### Rostopasca
-toxică, dar cu efecte asupra ficatului și bilei foarte puternice, fiind drenor și regenerator. Se ia sub formă de pulbere, 1 vârf de cuțit de 3 ori/zi., pe stomacul gol.
+toxica, dar cu efecte asupra ficatului si bilei foarte puternice, fiind drenor si regenerator. Se ia sub forma de pulbere, 1 varf de cutit de 3 ori/zi., pe stomacul gol.
 ### Bitter suedez
-o ½ lingură - 1 lingură înainte de fiecare masă, puse în apă sau ceai. De regulă depura tivele se iau primele, cu ½ oră înainte de masă, în timp de plantele amare se iau cu 10 min. Efectul plantelor amare sa fie complet ele se mai iau încă o săptămână după ce s-a terminat tratamentul cu plantele depurative. Plantele amare contribuie la stimularea și reglarea imunității. Pelinul remediu pentru compensarea efectelor sedentarismului și atoniei digestive. Rostopasca recomandată în dischinezie biliară, hepatită.
+o ½ lingura - 1 lingura inainte de fiecare masa, puse in apa sau ceai. De regula depura tivele se iau primele, cu ½ ora inainte de masa, in timp de plantele amare se iau cu 10 min. Efectul plantelor amare sa fie complet ele se mai iau inca o saptamana dupa ce s-a terminat tratamentul cu plantele depurative. Plantele amare contribuie la stimularea si reglarea imunitatii. Pelinul remediu pentru compensarea efectelor sedentarismului si atoniei digestive. Rostopasca recomandata in dischinezie biliara, hepatita.
 
-Bitter suedez spectru mult mai larg, datorită compoziției sale,
-stimulează digestia, recomandat pentru gastrită hipoacidă,
+Bitter suedez spectru mult mai larg, datorita compozitiei sale,
+stimuleaza digestia, recomandat pentru gastrita hipoacida,
 indigestie.
-Plantele amare nu pot fi folosite de persoanele slăbite,
+Plantele amare nu pot fi folosite de persoanele slabite,
 surmenate fizic sau psihic. Pelinul nu va fi folosit de gravide, de
-cele care suferă de gastrită.
+cele care sufera de gastrita.
 ### Pinosol
-nas înfundat
+nas infundat
 ### Plante depurative
-cu rol să facă curățenie generală în organism, determinând eliminarea reziduurilor pe toate căile principale, transpirație, urină, fecale. Purificarea este atât de intensă, încât pot apărea fenomene neplăcute ca transpirație abundentă, urât mirositoare, urinare abundentă, erupții, cu timpul dispar.
-### Trei frați pătrați
-pentru persoanele sensibile la bolile sezonului rece, mai ales la guturai și bronșită, astmă, reumatism.. Se prepară un ceai din 2 - 3 linguri de plantă mărunțită intr-o jumătate de litru de apă plată. Planta se lasă la macerat la temperatura camerei, de seara până dimineața, când se filtrează. Maceratul se lasă, iar planta rămasă se opărește timp de ½ oră cu ½ litru de apă clocotită, apoi se filtrează și se lasă la rece. Se combină maceratul cu extractul, iar preparatul va fi băut pe parcursul unei zile.
-### Boabele de ienupăr
-eficient pentru persoanele care acumulează foarte multă apă în țesuturi, care au probleme cu rinichii și căile urinare. Se ia sub formă de tinctură, 1 linguriță diluată în ½ pahar de apă, de 3 ori /zi. Într-un borcan cu apă 15 lingurițe de boabe de ienupăr măcinate cu râșnița de cafea, după care se adaugă un pahar de alcool alimentar de 70, se închide borcanul ermetic și se lasă la macerat timp de 10 zile, se filtrează.
+cu rol sa faca curatenie generala in organism, determinand eliminarea reziduurilor pe toate caile principale, transpiratie, urina, fecale. Purificarea este atat de intensa, incat pot aparea fenomene neplacute ca transpiratie abundenta, urat mirositoare, urinare abundenta, eruptii, cu timpul dispar.
+### Trei frati patrati
+pentru persoanele sensibile la bolile sezonului rece, mai ales la guturai si bronsita, astma, reumatism.. Se prepara un ceai din 2 - 3 linguri de planta maruntita intr-o jumatate de litru de apa plata. Planta se lasa la macerat la temperatura camerei, de seara pana dimineata, cand se filtreaza. Maceratul se lasa, iar planta ramasa se opareste timp de ½ ora cu ½ litru de apa clocotita, apoi se filtreaza si se lasa la rece. Se combina maceratul cu extractul, iar preparatul va fi baut pe parcursul unei zile.
+### Boabele de ienupar
+eficient pentru persoanele care acumuleaza foarte multa apa in tesuturi, care au probleme cu rinichii si caile urinare. Se ia sub forma de tinctura, 1 lingurita diluata in ½ pahar de apa, de 3 ori /zi. Intr-un borcan cu apa 15 lingurite de boabe de ienupar macinate cu rasnita de cafea, dupa care se adauga un pahar de alcool alimentar de 70, se inchide borcanul ermetic si se lasa la macerat timp de 10 zile, se filtreaza.
 ### Fructele de soc
-cele mai puternice și depurative. Se folosește tinctura obținută din fructe proaspete. Tinctura deblochează tranzitul intestinal, fiind de un ajutor pe termen lung persoanelor constipate sau cu o eliminare leneșă. Mobilizează toxinele din organism și intensifică eliminarea lichidelor din corp prin diureză și transpirație. Cel mai spectaculos efect al acestui remediu este reglarea rapidă a greutății corporale. Mai ales în sezonul rece, când Kilogramele se depun cu ușurință. Se administrează 1 - 2 linguri de tinctură pe zi, dimineața pe nemâncate. Pentru persoanele obeze se recomandă o schemă; în prima zi se ia 1 linguriță la ora 18; a 2-a zi se iau 2 lingurițe la aceeași oră ș,a.m.d., până în ziua a 7-a, când se ajunge la 7 lingurițe luate toate o dată. Se menține această doză 30 zile.
+cele mai puternice si depurative. Se foloseste tinctura obtinuta din fructe proaspete. Tinctura deblocheaza tranzitul intestinal, fiind de un ajutor pe termen lung persoanelor constipate sau cu o eliminare lenesa. Mobilizeaza toxinele din organism si intensifica eliminarea lichidelor din corp prin diureza si transpiratie. Cel mai spectaculos efect al acestui remediu este reglarea rapida a greutatii corporale. Mai ales in sezonul rece, cand Kilogramele se depun cu usurinta. Se administreaza 1 - 2 linguri de tinctura pe zi, dimineata pe nemancate. Pentru persoanele obeze se recomanda o schema; in prima zi se ia 1 lingurita la ora 18; a 2-a zi se iau 2 lingurite la aceeasi ora s,a.m.d., pana in ziua a 7-a, cand se ajunge la 7 lingurite luate toate o data. Se mentine aceasta doza 30 zile.
 
-Dozele progresive se iau pentru a nu crea un șoc tranzitului
-intestinal, care va fi foarte accelerat, la fel ca și diureza.
-O cură este determinată de gravitatea problemelor. Pentru oi
-persoană cu o viață echilibrată 2 săptămâni. Persoanele foarte
-sensibile la răceli 1 lună.
-Această cură ne face să ne simțim mai ușori, proaspeți,
-capacitate de muncă sporită, somn odihnitor, o piele mai
-curată, mai strălucitoare, o rezistență fizică și psihică mai bună.
- Cura cu trei frați pătați, ajută la eliminarea bolilor respiratorii
-cronice (bronșita și astmul) și bolilor alergice.
-Cura cu tinctură de ienupăr, mărește imunitatea la nivelul
-rinichilor și a vezicii, ceea ce duce la vindecarea cistitelor,
+Dozele progresive se iau pentru a nu crea un soc tranzitului
+intestinal, care va fi foarte accelerat, la fel ca si diureza.
+O cura este determinata de gravitatea problemelor. Pentru oi
+persoana cu o viata echilibrata 2 saptamani. Persoanele foarte
+sensibile la raceli 1 luna.
+Aceasta cura ne face sa ne simtim mai usori, proaspeti,
+capacitate de munca sporita, somn odihnitor, o piele mai
+curata, mai stralucitoare, o rezistenta fizica si psihica mai buna.
+ Cura cu trei frati patati, ajuta la eliminarea bolilor respiratorii
+cronice (bronsita si astmul) si bolilor alergice.
+Cura cu tinctura de ienupar, mareste imunitatea la nivelul
+rinichilor si a vezicii, ceea ce duce la vindecarea cistitelor,
 nefritelor.
-Cura cu tinctură de fructe de soc, elimină constipația și ajută la
-scăderea în greutate.
+Cura cu tinctura de fructe de soc, elimina constipatia si ajuta la
+scaderea in greutate.
 ### Porumb
-, în obezitate, mămăliga conferă senzația de sațietate, în hipotiroidă, sunt reduse efectele ca îngrășarea, somnolența, lipsa de tonus fizic și mintal. Mărește secreția biliară și grăbește golirea ei, gastrita și ulcerul sunt ameliorate de mămăliga caldă, având efect de reducere a acidității.. Consumată frecvent ameliorează diabetul, litiaza renală și hepatita
+, in obezitate, mamaliga confera senzatia de satietate, in hipotiroida, sunt reduse efectele ca ingrasarea, somnolenta, lipsa de tonus fizic si mintal. Mareste secretia biliara si grabeste golirea ei, gastrita si ulcerul sunt ameliorate de mamaliga calda, avand efect de reducere a aciditatii.. Consumata frecvent amelioreaza diabetul, litiaza renala si hepatita
 ### Reumador gel
-tratarea afecțiunilor dureroase, inflamații oasteo- articulare, musculare, articulații dureroase, contuzii, entorse, luxații (piroxicam 0,5%)
-### Roinița
-ulei eteric cu un miros puternic de lămâie (i se mai spune lămâiță) și multă vitamină C. Se folosește ca antispasmodic, calmant, scăderea tensiunii, în migrene, insomnie, isterie, nevralgii, respirație greoaie, astmă, afecțiuni ale pielii, arterosclerozei. Decoctul și infuzi a în cazul durerilor menstruale.
-### Sarea de bucặtặrie
-o sursặ naturalặ de clor.
+tratarea afectiunilor dureroase, inflamatii oasteo- articulare, musculare, articulatii dureroase, contuzii, entorse, luxatii (piroxicam 0,5%)
+### Roinita
+ulei eteric cu un miros puternic de lamaie (i se mai spune lamaita) si multa vitamina C. Se foloseste ca antispasmodic, calmant, scaderea tensiunii, in migrene, insomnie, isterie, nevralgii, respiratie greoaie, astma, afectiuni ale pielii, arterosclerozei. Decoctul si infuzi a in cazul durerilor menstruale.
+### Sarea de bucatarie
+o sursa naturala de clor.
 ### Schinduf
-folosit în nordul Africii, India și Asia mică, cu aplicații medicale și culinare. Vechii egipteni îl foloseau în prepararea soluțiilor pentru îmbălsămare. Semințele sale sunt hrănitoare, pentru convalescenți, a celor slăbiți, dar trebuie evitate de femeile gravide, provoacă contracții uterine. Totodată s-a descoperit că semințele pot inhiba dezvoltarea celulelor canceroase la nivelul ficatului, scad colesterolul și sunt excelente pentru diabetici. Frunzele se pot utiliza atât proaspete cât și uscate, iar semințele se recoltează când sunt bine coapte și uscate. Frunzele și semințele sunt antiinflamatorii, qantitumorale, carminative, expectorante,
+folosit in nordul Africii, India si Asia mica, cu aplicatii medicale si culinare. Vechii egipteni il foloseau in prepararea solutiilor pentru imbalsamare. Semintele sale sunt hranitoare, pentru convalescenti, a celor slabiti, dar trebuie evitate de femeile gravide, provoaca contractii uterine. Totodata s-a descoperit ca semintele pot inhiba dezvoltarea celulelor canceroase la nivelul ficatului, scad colesterolul si sunt excelente pentru diabetici. Frunzele se pot utiliza atat proaspete cat si uscate, iar semintele se recolteaza cand sunt bine coapte si uscate. Frunzele si semintele sunt antiinflamatorii, qantitumorale, carminative, expectorante,
 
 febrifuge, galactogene, hipoglicemice, laxative, tonice uterine.
-Mucilagiile sunt folosite în tratarea inflamațiilor la nivelul
-stomacului, intestinului, ca și vindecarea ulcerului. Semințele
-sunt hrănitoare, conțin mult fier și stimulând metabolismul dau
-rezultate bune în caz de debilitate fizică datorită anemiei sau
-bolilor infecțioase, mai ales când este afectat sistemul nervos.
-Extern pot fi utilizate sub formă de cataplasme, după ce au fost
-măcinate și amestecate cu puțină apă și oțet, pentru tratarea
-rănilor sechise sau purulente.
+Mucilagiile sunt folosite in tratarea inflamatiilor la nivelul
+stomacului, intestinului, ca si vindecarea ulcerului. Semintele
+sunt hranitoare, contin mult fier si stimuland metabolismul dau
+rezultate bune in caz de debilitate fizica datorita anemiei sau
+bolilor infectioase, mai ales cand este afectat sistemul nervos.
+Extern pot fi utilizate sub forma de cataplasme, dupa ce au fost
+macinate si amestecate cu putina apa si otet, pentru tratarea
+ranilor sechise sau purulente.
 ### Septilin
-pentru sistemul imunitar zilnic timp de 3 - 5 săptămâni.
-### Sfeclă
-sursă de magneziu, beta-caroten, vitamina C și E, potasiu și acid folic.
-### Substanțele nutritive din sucurile de fructe și legume
-- beta-caroten - morcov, papaya - acid folic - portocale, napi, brocoli - vitamina B6 - napi, spanac, nap turcesc - vitamina C - ardei gras, citrice, varză - vitamina K - brocoli, nap, urzici, fragi, căpșuni - calciu - nap, bok choy (varză chinezească) - crom - măr, varză, ardei dulce - mangan - varză de Bruxelles, varză - potasiu - țelină, roșii - seleniu - măr, usturoi - zinc - morcov, ginger, mazăre verde
-### Talpa gaștei
-actiune în afecțiunile de origine nervoasă, reducînd totodata și tensiunea arterială.
+pentru sistemul imunitar zilnic timp de 3 - 5 saptamani.
+### Sfecla
+sursa de magneziu, beta-caroten, vitamina C si E, potasiu si acid folic.
+### Substantele nutritive din sucurile de fructe si legume
+- beta-caroten - morcov, papaya - acid folic - portocale, napi, brocoli - vitamina B6 - napi, spanac, nap turcesc - vitamina C - ardei gras, citrice, varza - vitamina K - brocoli, nap, urzici, fragi, capsuni - calciu - nap, bok choy (varza chinezeasca) - crom - mar, varza, ardei dulce - mangan - varza de Bruxelles, varza - potasiu - telina, rosii - seleniu - mar, usturoi - zinc - morcov, ginger, mazare verde
+### Talpa gastei
+actiune in afectiunile de origine nervoasa, reducind totodata si tensiunea arteriala.
 ### Terapia cu petrol
-petrol distilat între 100 - 120, timp de 6 săptămâni, dimineața 1 lingură, pe stomacul gol, cu o ½ de oră înainte de masă, 4 săptămâni pauză, a poi încă 4 săptămâni se ia câte 1 lingură de petrol dimineața, pe stomacul gol, cu ½ de oră înainte de masă.
+petrol distilat intre 100 - 120, timp de 6 saptamani, dimineata 1 lingura, pe stomacul gol, cu o ½ de ora inainte de masa, 4 saptamani pauza, a poi inca 4 saptamani se ia cate 1 lingura de petrol dimineata, pe stomacul gol, cu ½ de ora inainte de masa.
 ### Terbisil
-tratamentul rapid al micozelor, onicomicoze, micoze interdigitale, axilare, inghinale, se aplicặ de 1 – 2 ori/zi.
+tratamentul rapid al micozelor, onicomicoze, micoze interdigitale, axilare, inghinale, se aplica de 1 – 2 ori/zi.
 ### Traista ciobanului
-reglează tensiunea arterială.
-### Țelină
-s ubstanțe anti-cancerigene, bogat în potasiu, sodiu, ajută la scăderea tensiunii, înlocuiește pierderea de minerale și lichide consumate în procesului de transpirație, disfuncție sexuală. Se consumặ sub formặ de salatặ. Unguent muguri de plop negru; (vezi fibrom), răni deschise, cicatrice inestetice, herpes, cancer de piele, hemoroizi, ulcer varicos, comprese cu tinctură, apoi crema( vezi fibrom), (Firma producătoare S.C. Dacia Plant S.)
+regleaza tensiunea arteriala.
+### Telina
+s ubstante anti-cancerigene, bogat in potasiu, sodiu, ajuta la scaderea tensiunii, inlocuieste pierderea de minerale si lichide consumate in procesului de transpiratie, disfunctie sexuala. Se consuma sub forma de salata. Unguent muguri de plop negru; (vezi fibrom), rani deschise, cicatrice inestetice, herpes, cancer de piele, hemoroizi, ulcer varicos, comprese cu tinctura, apoi crema( vezi fibrom), (Firma producatoare S.C. Dacia Plant S.)
 
-Usturoi verde; anticanceros dato rită substanțelor oxidante și
-imuno-stimulatoare, reduce incidența cancerului pulmonar,
-esofagian (înlătură o parte din efectele negative ale
-fumatului),genital, intestinal și pancreatic.
-Usturoi; acționează ca un antibiotic natural, subțiază sângele,
+Usturoi verde; anticanceros dato rita substantelor oxidante si
+imuno-stimulatoare, reduce incidenta cancerului pulmonar,
+esofagian (inlatura o parte din efectele negative ale
+fumatului),genital, intestinal si pancreatic.
+Usturoi; actioneaza ca un antibiotic natural, subtiaza sangele,
 reduce colesterolul.
 ### Valeriana
 recomandata pentru cei care sufera de boli de inima ce apar pe fondul stressului psihic, a epuizarii, insomniiei, pe fond emotional, furie, nervozitate, iritabilitate, anxietate, pentru femeile ajunse in pragul menopauzei.
 ### Varza
-calități curative în tratarea ulcerului, dar trebuie combinat cu tratament medicamentos adecvat.
-### Vâsc
+calitati curative in tratarea ulcerului, dar trebuie combinat cu tratament medicamentos adecvat.
+### Vasc
 actiune remarcabila in hipertensiunea arteriala, ateroscleroza si tulburari circulatorii.
-### Extraxtul de vâsc se găsește la noi sub 2 forme
-Iscador și Isorel. Dintre cele 3 tipuri de isorel A, M si P numai primul este omologat. Este preparat și administrat în doze homeopatiuce în produsul Iscador.în terapia cancerului.
+### Extraxtul de vasc se gaseste la noi sub 2 forme
+Iscador si Isorel. Dintre cele 3 tipuri de isorel A, M si P numai primul este omologat. Este preparat si administrat in doze homeopatiuce in produsul Iscador.in terapia cancerului.
 ### Vita care
-aloe Vera pentru constipație și arsuri stomacale, ulcer gastric și duodenal, în afecțiuni hepatice, antiinflamator și antioxidant
+aloe Vera pentru constipatie si arsuri stomacale, ulcer gastric si duodenal, in afectiuni hepatice, antiinflamator si antioxidant
 ### Vitacaps
-ulei din semințe de in, colon iritabil, reglează tranzitul intestinal, scade colesterolul.
+ulei din seminte de in, colon iritabil, regleaza tranzitul intestinal, scade colesterolul.
 ### Vitamina B 17
-se administreazặ preventiv pentru tratarea cancerului, se gặsește în sânburii de caise, mere, piersici, prune.
+se administreaza preventiv pentru tratarea cancerului, se gaseste in sanburii de caise, mere, piersici, prune.
 ### Vitamina PP sau B 3
-scade tensiunea arterialặ și reduce colesterolul.
+scade tensiunea arteriala si reduce colesterolul.
 ### Veral gel
-(diclofenac) antiinflamator și analgezic care pătrunde în profunzime la locul durerii. Recomandat în traumatisme ale tendoanelor, ligamentelor, mușchilor, articulații, dureri postoperatorii și posttraumatice.
-### Zahặr invertit
-1 kg. zahặr alb, 450 ml. apặ , 1 lingurițặ acid citric, saqu tartric (sare de lặmâie). Aceste ingredinte se pun la foc domol ( nu direct) într-o oalặ emailatặ fặrặ pete de ruginặ, timp de 10 min. Se amestecặ cu o lingurặ de lemn și se strînge spuna. In felul acesta se obține un amestec de 2 monozaharide (glucozặ și fructoz ặ), cu o putere dublặ de îndulcire. Sporește capacitatea de asimilare a calciului îm intestin, combate și vindecặ rahitismul, provine formarea calculilor renali, dizolvặ urații, nu este cancerigen ca zahặrul alb.
+(diclofenac) antiinflamator si analgezic care patrunde in profunzime la locul durerii. Recomandat in traumatisme ale tendoanelor, ligamentelor, muschilor, articulatii, dureri postoperatorii si posttraumatice.
+### Zahar invertit
+1 kg. zahar alb, 450 ml. apa , 1 lingurita acid citric, saqu tartric (sare de lamaie). Aceste ingredinte se pun la foc domol ( nu direct) intr-o oala emailata fara pete de rugina, timp de 10 min. Se amesteca cu o lingura de lemn si se stringe spuna. In felul acesta se obtine un amestec de 2 monozaharide (glucoza si fructoz a), cu o putere dubla de indulcire. Sporeste capacitatea de asimilare a calciului im intestin, combate si vindeca rahitismul, provine formarea calculilor renali, dizolva uratii, nu este cancerigen ca zaharul alb.
 ### Zincul
-pentru senilitate se ia zinc și magneziu, zincul acționeazặ mai bine în prezența vitaminei A. .
+pentru senilitate se ia zinc si magneziu, zincul actioneaza mai bine in prezenta vitaminei A. .
 
 ## RETETE PENTRU SLABIT
 
-### Slăbiți în 7 zile 7 Kg.
-- 1 zi - orice fruct fără banane, pepenele verde și galben mai puține calorii decât majoritatea fructelor. - 2 zi - vegetale conservate sau crude,fără fasole uscată, mazăre, porumb la prânz supa, la cină cartof copt la cuptor cu unt. Nu mâncați fructe - 3 zi - oricât doriți legume, fructe, supă, fără cartofi copți. După 3 zile dacă nu trișați slăbiți. - 4 zi - 3 banane și lapte degresat, apă multă, supă, - 5 zi - carne de vită cu roșii (250g carne și o cutie de roșii în bulion, sau 6 roșii proaspete), 6 - 8 pahare de apă, supă o dată pe zi. - 6 zi - carne de vită cu legume sau cartofi, supă o dată pe zi. - 7 zi - orez Uncle Ben’s, suc de fructe neândulcit (Santal) și legume supă o dată pe zi. In a 7 zi slăbiți 5 - 8Kg., dacă ați slăbit mai mult întrerupeți regimul 2 zile și apoi reluați-l. Daca e urmat corect, curăță organismul de toxine și vă simțiți mai bine Este rapid, arde grăsimile și are mai multe calorii decât mâncați.
-### Interdicții
-pâine, alcool băuturi carbogazoase, prăjeli.
+### Slabiti in 7 zile 7 Kg.
+- 1 zi - orice fruct fara banane, pepenele verde si galben mai putine calorii decat majoritatea fructelor. - 2 zi - vegetale conservate sau crude,fara fasole uscata, mazare, porumb la pranz supa, la cina cartof copt la cuptor cu unt. Nu mancati fructe - 3 zi - oricat doriti legume, fructe, supa, fara cartofi copti. Dupa 3 zile daca nu trisati slabiti. - 4 zi - 3 banane si lapte degresat, apa multa, supa, - 5 zi - carne de vita cu rosii (250g carne si o cutie de rosii in bulion, sau 6 rosii proaspete), 6 - 8 pahare de apa, supa o data pe zi. - 6 zi - carne de vita cu legume sau cartofi, supa o data pe zi. - 7 zi - orez Uncle Ben’s, suc de fructe neandulcit (Santal) si legume supa o data pe zi. In a 7 zi slabiti 5 - 8Kg., daca ati slabit mai mult intrerupeti regimul 2 zile si apoi reluati-l. Daca e urmat corect, curata organismul de toxine si va simtiti mai bine Este rapid, arde grasimile si are mai multe calorii decat mancati.
+### Interdictii
+paine, alcool bauturi carbogazoase, prajeli.
 ### Voie
-apa, ceai, cafea fără zahăr, suc neândulcit și lapte degresat, supă toată ziua când vă este foame. Intr-o zi se poate înlocui carnea de vită cu pui la grătar fără pieliță, sau cu pește. In celelalte zile e nevoie de proteine , carne de vită.
+apa, ceai, cafea fara zahar, suc neandulcit si lapte degresat, supa toata ziua cand va este foame. Intr-o zi se poate inlocui carnea de vita cu pui la gratar fara pielita, sau cu peste. In celelalte zile e nevoie de proteine , carne de vita.
 ### Barley Water
-băutura care te ajută să slăbești ușor, 50 g, boabe de orz se fierb în 1 litru de apă 30 min. Lichidul se consumă toată ziua.
+bautura care te ajuta sa slabesti usor, 50 g, boabe de orz se fierb in 1 litru de apa 30 min. Lichidul se consuma toata ziua.
 ### Chefir
-arde grăsimile de prisos, 1 pahar înainte de mese. Dieta cu iaurt; timp de o sặotặmânặ, dimineața se mặnâncặặ un iaurt
+arde grasimile de prisos, 1 pahar inainte de mese. Dieta cu iaurt; timp de o saotamana, dimineata se manancaa un iaurt
 
-amestecat cu fulgi fặrặ zahặr, miere, stafide sau nucặ, la prânz supặ de
-orice fel – doar zeama și legumele fierte, seara ca dimineața. Se
-beau 2 litri de ap ặ, ceai, cafea fặrặ zahặr. Se slặ bește 1 Kg. /zi. In
-weekend se mặnâncặ normal iar sặptặmâna urmặtoare se reia regimul
-pentru a slặbii mai mult.
-Dieta alternativặ; luni 6 Sana, marși 6 cartofi fierți fặrặ sare,
-miercuri 6 mere, joi 6 ouặ fierte tari, vineri 600 g. Brânzặ de vaci,
-sâmbặtặ 600 g, carne fiartặ de pui sau vitặ fặrặ sare. In 7 zile se
-slặbește 5 Kg.
-### Dietă obligatorie
-carne slabă 2oo - 300 g., supă legume fără paste făinoase, pește fără sosuri, ouă. preparate oricum, salate de roșii, ridichi, țelină, murături în oțet, brânză uscată, cașcaval,șvaițer, fructele se mănâncă separat. Sunt interzise dulciurile, grăsimile, alcoolul, pâinea și făinoasele. Cura cu ananas; sau cura Afroditei, timp de 3 zile mesele de prânz și seara , se va mânca numai, 2 cotlete de miel la grătar și 2 felii mari de ananas proaspăt. În timpul mesei nu se consumă băuturi, fără mic dejun, peste zi 1 - 2 litri apă sau ceai din frunze de coacăz negru, frasin. Anasonul conține o drojdie și un ferment digestiv care digeră în câteva minute de 1000 de ori greutatea lor. Cura cu cireșe; fiind un fruct sărac în principii nutritive, se recomandă cure de 2 zile pe săptămână, cât ține sezonul. Cireașa conține un depurativ puternic, care elimină toxinele și deșeurile din organism. Cura cu coada calului; macerat la rece, 2 – 3 căni/zi, cu puțin înainte de masă, mărește intensitatea procesului de liminare pe cale renală și digestivă. Cura cu lămâi; se bea zilnic progresiv suc de lămâie,pornind de la sucul unei ½ lămâie, urcând .progresiv (1/2) ,până la 10, apoi se coboară progresiv, pe o perioadă de 4 - 5 săptămâni. Cura de întreținere; seara se taie în felii o ½ de lămâie cu coajă cu tot, se adaugă o mână de mu șețel, apoi o cană de apă clocotită, se lasă la macerat până dimineața, când se bea pe nemâncate
-### Cură de sucuri
-pe durata unei zile se poate bea un singur suc, legumele se curăță de coajă, se rad și se presează printr-un tifon, sau la centrifugă. Pentru gust mai bun se adaugă la suc, verdețuri proaspete, mărar, pătrunjel, țelină. - după trezire 1 - 2 cești de ceai rozmarin (stimulează tensiunea scăzută) - ora 9, 250 ml. suc morcovi amestecat cu 1 linguriță ulei de măsline
+amestecat cu fulgi fara zahar, miere, stafide sau nuca, la pranz supa de
+orice fel – doar zeama si legumele fierte, seara ca dimineata. Se
+beau 2 litri de ap a, ceai, cafea fara zahar. Se sla beste 1 Kg. /zi. In
+weekend se mananca normal iar saptamana urmatoare se reia regimul
+pentru a slabii mai mult.
+Dieta alternativa; luni 6 Sana, marsi 6 cartofi fierti fara sare,
+miercuri 6 mere, joi 6 oua fierte tari, vineri 600 g. Branza de vaci,
+sambata 600 g, carne fiarta de pui sau vita fara sare. In 7 zile se
+slabeste 5 Kg.
+### Dieta obligatorie
+carne slaba 2oo - 300 g., supa legume fara paste fainoase, peste fara sosuri, oua. preparate oricum, salate de rosii, ridichi, telina, muraturi in otet, branza uscata, cascaval,svaiter, fructele se mananca separat. Sunt interzise dulciurile, grasimile, alcoolul, painea si fainoasele. Cura cu ananas; sau cura Afroditei, timp de 3 zile mesele de pranz si seara , se va manca numai, 2 cotlete de miel la gratar si 2 felii mari de ananas proaspat. In timpul mesei nu se consuma bauturi, fara mic dejun, peste zi 1 - 2 litri apa sau ceai din frunze de coacaz negru, frasin. Anasonul contine o drojdie si un ferment digestiv care digera in cateva minute de 1000 de ori greutatea lor. Cura cu cirese; fiind un fruct sarac in principii nutritive, se recomanda cure de 2 zile pe saptamana, cat tine sezonul. Cireasa contine un depurativ puternic, care elimina toxinele si deseurile din organism. Cura cu coada calului; macerat la rece, 2 – 3 cani/zi, cu putin inainte de masa, mareste intensitatea procesului de liminare pe cale renala si digestiva. Cura cu lamai; se bea zilnic progresiv suc de lamaie,pornind de la sucul unei ½ lamaie, urcand .progresiv (1/2) ,pana la 10, apoi se coboara progresiv, pe o perioada de 4 - 5 saptamani. Cura de intretinere; seara se taie in felii o ½ de lamaie cu coaja cu tot, se adauga o mana de mu setel, apoi o cana de apa clocotita, se lasa la macerat pana dimineata, cand se bea pe nemancate
+### Cura de sucuri
+pe durata unei zile se poate bea un singur suc, legumele se curata de coaja, se rad si se preseaza printr-un tifon, sau la centrifuga. Pentru gust mai bun se adauga la suc, verdeturi proaspete, marar, patrunjel, telina. - dupa trezire 1 - 2 cesti de ceai rozmarin (stimuleaza tensiunea scazuta) - ora 9, 250 ml. suc morcovi amestecat cu 1 lingurita ulei de masline
 
-- ora 11, 250 ml. suc varză murată, cu leuștean tocat, mărar.
-- ora 12, 1 pahar mare cu apă minerală
-- ora 13, 250 ml. suc sfeclă roșie, cu 1 linguriță de tărâțe de
-grâu
-- ora 16, 1 ceașcă ceai de măceșe
-- ora 17, 250 ml. suc morcovi, cu frunze de busuioc și
-amestecat cu o linguriță de smântână
-- ora 18, 1 pahar mare de apă minerală
-- ora 20, 1 ceașcă ceai de flori de tei sau iasomie (calmează)
-În total 320 calorii/zi.
+- ora 11, 250 ml. suc varza murata, cu leustean tocat, marar.
+- ora 12, 1 pahar mare cu apa minerala
+- ora 13, 250 ml. suc sfecla rosie, cu 1 lingurita de tarate de
+grau
+- ora 16, 1 ceasca ceai de macese
+- ora 17, 250 ml. suc morcovi, cu frunze de busuioc si
+amestecat cu o lingurita de smantana
+- ora 18, 1 pahar mare de apa minerala
+- ora 20, 1 ceasca ceai de flori de tei sau iasomie (calmeaza)
+In total 320 calorii/zi.
 ### Important
-pregăti sucul din legume proaspete, beți sucul imediat după preparare, în ceai nu puneți nici zahăr nici miere, 1 zaharină.
+pregati sucul din legume proaspete, beti sucul imediat dupa preparare, in ceai nu puneti nici zahar nici miere, 1 zaharina.
 ### Lipostop
-supliment nutritiv, oțet de mere cu bio-crom, arde grăsimile, scade glicemia, apetitul pentru dulciuri, depunerile adipoase le transformă în energie și putere de muncă.
+supliment nutritiv, otet de mere cu bio-crom, arde grasimile, scade glicemia, apetitul pentru dulciuri, depunerile adipoase le transforma in energie si putere de munca.
 ### Porumb
-în obezitate mămăliga conferă o senzație de sațietate. În hipotiroidă, anumite probleme cum sunt îngrășarea, somnolența sunt reduse. Mărește secreția biliară și facilitează evacuarea sa. Ulcer și gastrită, efect de ameliorarea acidității, același rol îl are în diabet, litiază renală și hepatită
-### Slăbit zodiacal
-LEU - nu mâncați pâine decât la micul dejun, (pâine integrală), fără alcool, brânzeturi cu peste 20% grăsimi și mâncare cu sos, dulciuri. Se recomandă carne la grătar, pește fiert în abur sau la grătar, legume verzi, fructe . Nu vă serviți de 2 ori și nu beți în timpul mese SĂGETĂTOR - va place ambianța veselă, nelipsit de la banchete și ieșiri cu prietenii, duceți o viață socială activă, unde aveți ocazia să beți și să mâncați, alimente interzise, dulciuri, mâncare cu sos, carne grasă (miel, porc, antricoate de vită), produse bo0gate în colesterol (brânzeturi, gălbenuș, creier, momițe). Se recomandă micul dejun compus din suc proaspăt de fructe, o felie de șuncă sau 1 ou tare, 1 iaurt, 1 - 2 felii pâine integrală, ceai sau cafea. La prânz și la cină se umple stomacul cu crudități, evitând sosul de maioneză, carne albă, pește. Ca desert fructe proaspete (căpșuni, piersici, pepene). PEȘTI - zodie de apă, guvernată de Neptun ,trebuie supravegheată silueta. A se evita alimentele care conțin zahăr, alcool, sau pe cele prea bogate în apă, cireșele pepeni și piersici. Se recomandă pește la grătar sau cuptor, legume fierte cu 1 bucățică de unt, compot din fructe proaspete, căpșuni, caise
+in obezitate mamaliga confera o senzatie de satietate. In hipotiroida, anumite probleme cum sunt ingrasarea, somnolenta sunt reduse. Mareste secretia biliara si faciliteaza evacuarea sa. Ulcer si gastrita, efect de ameliorarea aciditatii, acelasi rol il are in diabet, litiaza renala si hepatita
+### Slabit zodiacal
+LEU - nu mancati paine decat la micul dejun, (paine integrala), fara alcool, branzeturi cu peste 20% grasimi si mancare cu sos, dulciuri. Se recomanda carne la gratar, peste fiert in abur sau la gratar, legume verzi, fructe . Nu va serviti de 2 ori si nu beti in timpul mese SAGETATOR - va place ambianta vesela, nelipsit de la banchete si iesiri cu prietenii, duceti o viata sociala activa, unde aveti ocazia sa beti si sa mancati, alimente interzise, dulciuri, mancare cu sos, carne grasa (miel, porc, antricoate de vita), produse bo0gate in colesterol (branzeturi, galbenus, creier, momite). Se recomanda micul dejun compus din suc proaspat de fructe, o felie de sunca sau 1 ou tare, 1 iaurt, 1 - 2 felii paine integrala, ceai sau cafea. La pranz si la cina se umple stomacul cu cruditati, evitand sosul de maioneza, carne alba, peste. Ca desert fructe proaspete (capsuni, piersici, pepene). PESTI - zodie de apa, guvernata de Neptun ,trebuie supravegheata silueta. A se evita alimentele care contin zahar, alcool, sau pe cele prea bogate in apa, ciresele pepeni si piersici. Se recomanda peste la gratar sau cuptor, legume fierte cu 1 bucatica de unt, compot din fructe proaspete, capsuni, caise
 
-îndulcite cu edulcoranți, apă,ceai, suc de portocale, sau
-grapefruit proaspete, dar nu în timpul mesei.
-### Rețeta cu apă fierbinte
-luni, marți, miercuri, de dimineață până seara se bea din 3 în 3 ore câte o cană de ceai ne îndulcit și cât mai fierbinte, apoi se bea o cană de lapte de la temperatura camerei. Seara, până la ora 20, se consumă 100 g. carne slabă cu o salată de legume crude sau fierte în aburi. Orice aliment este exclus, în timpul săptămânii se mănâncă normal. Se slăbesc 1 - 1,5 Kg. pe săptămână.
-### Regim de slăbit nocturn
-Universitatea South California, recomandă mâncatul seara, înaite de culcare, a unei porții mici de albumină, 30g. Pește sau carne de piept de pui fără pieliță, și sucul de la o lămâie. In timpul nopții glanda hipofiză transformă albumina din alimente într-un hormon puternic care arde grăsimile transformându-le în energie. In felul acesta dimineața, ne trezim bine dispuși, în formă fizică bună și mai slabi.
+indulcite cu edulcoranti, apa,ceai, suc de portocale, sau
+grapefruit proaspete, dar nu in timpul mesei.
+### Reteta cu apa fierbinte
+luni, marti, miercuri, de dimineata pana seara se bea din 3 in 3 ore cate o cana de ceai ne indulcit si cat mai fierbinte, apoi se bea o cana de lapte de la temperatura camerei. Seara, pana la ora 20, se consuma 100 g. carne slaba cu o salata de legume crude sau fierte in aburi. Orice aliment este exclus, in timpul saptamanii se mananca normal. Se slabesc 1 - 1,5 Kg. pe saptamana.
+### Regim de slabit nocturn
+Universitatea South California, recomanda mancatul seara, inaite de culcare, a unei portii mici de albumina, 30g. Peste sau carne de piept de pui fara pielita, si sucul de la o lamaie. In timpul noptii glanda hipofiza transforma albumina din alimente intr-un hormon puternic care arde grasimile transformandu-le in energie. In felul acesta dimineata, ne trezim bine dispusi, in forma fizica buna si mai slabi.
 ### Regim de 3 zile
-prima zi, se consumặ numai banane, a 2 a zi, legume fierte cu sau fặrặ sare, a 3 a zi, pâine prặjitặ cu carne slabặ de pui sau de vitặ la grặtar. In celelalte zile se mặnâncặ normal fặrặ grặ simi, aluaturi, dulciuri. Este un regim cu proteine, vitamine și s ặruri minerale. .
+prima zi, se consuma numai banane, a 2 a zi, legume fierte cu sau fara sare, a 3 a zi, paine prajita cu carne slaba de pui sau de vita la gratar. In celelalte zile se mananca normal fara gra simi, aluaturi, dulciuri. Este un regim cu proteine, vitamine si s aruri minerale. .
 ## BOLI
 
-### Agitație nervoasă
-amestec din plante uscate de mentă, rădăcină de valeriană, conuri de hamei, luate în proporție de 2
+### Agitatie nervoasa
+amestec din plante uscate de menta, radacina de valeriana, conuri de hamei, luate in proportie de 2
 
-linguri din prima plantă și câte una din celelalte. Peste 1 lingură
-de amestec se pun 400 ml. apă clocotită, se lasă la infuzat până
-se răcește, se bea câte 200 ml. 2 ori/zi.
+linguri din prima planta si cate una din celelalte. Peste 1 lingura
+de amestec se pun 400 ml. apa clocotita, se lasa la infuzat pana
+se raceste, se bea cate 200 ml. 2 ori/zi.
 ### Alcoolism
-ceai concentrat de cimbru 1 pumn de flori la 1 litru de apă clocotită, se bea din ¼ în ¼ de oră câte 1 linguri ță. Apare o stare de transpirație abundentă, greață, urinare puternică și poftă de mâncare. La consumul de alcool apare greața, cura se face timp de 2 săptămâni. Sau ceai de pedicuță, infuzie de 5g. la 150 ml. apă clocotită, se bea dimineața la 1 oră după micul dejun, timp de 8 zile. Sau se administreazặ pulbere de pedicuță, un vârf de cuțit, di 4 în 4 ore, maxim 4 doze/zi. Tratamentul durează 6 luni și are ca efect diminuarea dorinței de a consuma alcool.
-### Semințe de pătrunjel
-au rol de a face renunțarea mai ușoară la alcool și de a menține un echilibru în organism, se ia câte o jumătate de linguriță de pulbere de 2 – 3 ori/zi pe stomacul g ol, cu puțină apă. Tratamentul durează 3 săptămâni cu o săptămână de pauză, după care se reia. Sau, din 3 în 3 ore ( 6, 9, 12, 15, 18)i se dau alcoolicului câte 6 lingurițe de miere. Tratamentul durează 2 zile. Ultimele lingurițe de miere se dau la ora 24. După toata cantitatea de miere pacientul nu mai vrea alcool. setea de alcool este provocată de lipsa potasiului din organism. Cură de 3 luni cu pulbere de cătină (vezi, medicamente…), 3 lingurițe/zi. Alcoolicii care au făcut cură de dezintoxicare, tremuratul mâinilor, nervozitatea și ieșirile violente sunt mai estompate, față de cei care nu fac tratament cu cătină. FITO Antialcool & antitabac, împotriva dependenței de alcool și tutun, se administreazặ și fặrặ știrea pacientului.
+ceai concentrat de cimbru 1 pumn de flori la 1 litru de apa clocotita, se bea din ¼ in ¼ de ora cate 1 linguri ta. Apare o stare de transpiratie abundenta, greata, urinare puternica si pofta de mancare. La consumul de alcool apare greata, cura se face timp de 2 saptamani. Sau ceai de pedicuta, infuzie de 5g. la 150 ml. apa clocotita, se bea dimineata la 1 ora dupa micul dejun, timp de 8 zile. Sau se administreaza pulbere de pedicuta, un varf de cutit, di 4 in 4 ore, maxim 4 doze/zi. Tratamentul dureaza 6 luni si are ca efect diminuarea dorintei de a consuma alcool.
+### Seminte de patrunjel
+au rol de a face renuntarea mai usoara la alcool si de a mentine un echilibru in organism, se ia cate o jumatate de lingurita de pulbere de 2 – 3 ori/zi pe stomacul g ol, cu putina apa. Tratamentul dureaza 3 saptamani cu o saptamana de pauza, dupa care se reia. Sau, din 3 in 3 ore ( 6, 9, 12, 15, 18)i se dau alcoolicului cate 6 lingurite de miere. Tratamentul dureaza 2 zile. Ultimele lingurite de miere se dau la ora 24. Dupa toata cantitatea de miere pacientul nu mai vrea alcool. setea de alcool este provocata de lipsa potasiului din organism. Cura de 3 luni cu pulbere de catina (vezi, medicamente…), 3 lingurite/zi. Alcoolicii care au facut cura de dezintoxicare, tremuratul mainilor, nervozitatea si iesirile violente sunt mai estompate, fata de cei care nu fac tratament cu catina. FITO Antialcool & antitabac, impotriva dependentei de alcool si tutun, se administreaza si fara stirea pacientului.
 ### Alergie la firele postoperatorii
-cu compresii sterile se tamponează zona cu apă oxigenată, apoi se unge zona cu alifie de gălbenele după care se pune compresă cu bitter suedez.
+cu compresii sterile se tamponeaza zona cu apa oxigenata, apoi se unge zona cu alifie de galbenele dupa care se pune compresa cu bitter suedez.
 ### Alergie
-tratament simptomatic cu PERITO L, antihistaminic foarte eficient și cu efecte secundare reduse. După investigarea alergiei și stabilirea pe bază de teste dermatologice a alergenului, se face un tratament de desensibilizare (un vaccin). Clinica de alergologie din cadrul spitalului Dr. C. Davilla, București, Calea Griviței nr. 7.
+tratament simptomatic cu PERITO L, antihistaminic foarte eficient si cu efecte secundare reduse. Dupa investigarea alergiei si stabilirea pe baza de teste dermatologice a alergenului, se face un tratament de desensibilizare (un vaccin). Clinica de alergologie din cadrul spitalului Dr. C. Davilla, Bucuresti, Calea Grivitei nr. 7.
 ### Alzheimer
-la început se manifestă tulburările de memorie și apoi cele de orientare spațială. Dezorientarea spațială este foarte importantă, deoarece se rătăcește cu ușurință pe străzi și chiar în propria casă. Are dificultăți în exprimare și în a înțelege
+la inceput se manifesta tulburarile de memorie si apoi cele de orientare spatiala. Dezorientarea spatiala este foarte importanta, deoarece se rataceste cu usurinta pe strazi si chiar in propria casa. Are dificultati in exprimare si in a intelege
 
-limbajul celorlalți își găsește cu greu cuvintele.
-Cu timpul își pierde capacitatea de a face treburile obișnuite.
-Perioada terminală a bolii se caracterizează printr-o stare de
-demență profundă. Apare mutismul și se instalează diverse
+limbajul celorlalti isi gaseste cu greu cuvintele.
+Cu timpul isi pierde capacitatea de a face treburile obisnuite.
+Perioada terminala a bolii se caracterizeaza printr-o stare de
+dementa profunda. Apare mutismul si se instaleaza diverse
 semne neurologice.
-Din cauza tulburărilor de tip demențial și a agitației, bolnavii
+Din cauza tulburarilor de tip demential si a agitatiei, bolnavii
 comit acte antisociale - agesiuni, atentate, viol, vagabondaj,
-părăsirea domiciliului. Sub influența unor persoane străine,
-cedează bunuri proprii, fac testamente. Din aceste motive se
-impune stabilirea de către o comisie de experți, punerea
-bolnavului sub interdicție. Specialiștii spun că sechelele rămase
-după o lungă internare în spitalele de psihiatrie și pierderea
-suportului familial accelerează în mod incontestabil degradarea
-mentală a vârstnicilor.
-Nu există o rețetă unică de tratament al bolilor psihice. Scopul
-tratamentului medicamentos și psihosocial, este de a interveni
-cu medicamente care pun în repaus scoarța cerebrală, fie prin
-psihoterapie, stimularea autocontrolului prin explicații logice și
+parasirea domiciliului. Sub influenta unor persoane straine,
+cedeaza bunuri proprii, fac testamente. Din aceste motive se
+impune stabilirea de catre o comisie de experti, punerea
+bolnavului sub interdictie. Specialistii spun ca sechelele ramase
+dupa o lunga internare in spitalele de psihiatrie si pierderea
+suportului familial accelereaza in mod incontestabil degradarea
+mentala a varstnicilor.
+Nu exista o reteta unica de tratament al bolilor psihice. Scopul
+tratamentului medicamentos si psihosocial, este de a interveni
+cu medicamente care pun in repaus scoarta cerebrala, fie prin
+psihoterapie, stimularea autocontrolului prin explicatii logice si
 perseverente. Instituirea precoce a tratamentului este
-esențială pentru o bună recuperare, o dată diagnosticată
-depresia se vindecă 80% din cazuri, iar pacienții își reiau
-activitatea, obținând rezultate la fel de bune ca înainte de
-boală. Tratamentul se face cu o gamă largă de medicamente
-antidepresive și psihoterapie.
-Exercițiile fizice și intelectuale împiedică evoluția Alzheimer și
-prelungesc viața persoanelor diagnosticate. Medicamentele
-întârzie progresul bolii. De asemenea se recomandă
-supravegherea tensiunii arteriale și stabilirea unei alimentații
-bogate în seleniu și vitamina C.
+esentiala pentru o buna recuperare, o data diagnosticata
+depresia se vindeca 80% din cazuri, iar pacientii isi reiau
+activitatea, obtinand rezultate la fel de bune ca inainte de
+boala. Tratamentul se face cu o gama larga de medicamente
+antidepresive si psihoterapie.
+Exercitiile fizice si intelectuale impiedica evolutia Alzheimer si
+prelungesc viata persoanelor diagnosticate. Medicamentele
+intarzie progresul bolii. De asemenea se recomanda
+supravegherea tensiunii arteriale si stabilirea unei alimentatii
+bogate in seleniu si vitamina C.
 ### Anemie
-ceai de angelică cu lăptișor de matcă și untură de pește în părți egale. Sau pulbere de cătină, 1 linguriță de 3 ori/zi, în cură de o lună. (vezi, medicamente…)
-### Anemie feriprivă
-cătină albă, teci de fasole fără semințe, urzică, țintaură, coada șoricelului, doar tecile se fierb 3 min. restul plantelor se infuzează 10 min. La 250 ml. apă fiartă se pune 1 linguriță plante, se beau 3 căni/zi cu ½ oră înaintea mesei. Ceaiul se poate îndulci cu miere de mană, care con ține fier de 4 ori mai mult decât cea deschisă la culoare. Suc de sfeclă roșie, zilnic ½ pahar, numai după micul dejun și cină timp de 3 luni. Eficient este produsul HERCULES și MULTIFRUCT TOTAL NR.1.
+ceai de angelica cu laptisor de matca si untura de peste in parti egale. Sau pulbere de catina, 1 lingurita de 3 ori/zi, in cura de o luna. (vezi, medicamente…)
+### Anemie feripriva
+catina alba, teci de fasole fara seminte, urzica, tintaura, coada soricelului, doar tecile se fierb 3 min. restul plantelor se infuzeaza 10 min. La 250 ml. apa fiarta se pune 1 lingurita plante, se beau 3 cani/zi cu ½ ora inaintea mesei. Ceaiul se poate indulci cu miere de mana, care con tine fier de 4 ori mai mult decat cea deschisa la culoare. Suc de sfecla rosie, zilnic ½ pahar, numai dupa micul dejun si cina timp de 3 luni. Eficient este produsul HERCULES si MULTIFRUCT TOTAL NR.1.
 
 ### Boala Crohn
 medicamentul Remicade.
-### Boli infecțioase recidivate
-pặtrunjel verde tặiat fin amestecat cu ceapặ, suc de lặmâie și eventual câteva roșii, este folosit ca salatặ, pentru cei car e au infecții. Acest remediu, activeaz ặ sistemul imunitar ți combate foarte multe specii de bacterii și ciuperci parazite. Preventiv, dimineața, la micul dejun, pe o felie de pâine unsa cu ulei de m ặsline, presặratặ din abundenț ặ cu pặtrunjel tặiat, dacặ s e poate se pune și un cặțel de usturoi.
-### Atac de panică
-infuzie de lavandă 1 linguriță la o cană de apă clocotită, se beau 2 căni/zi, una dimineața și una seara. Sau tinctură de lavandă de 2 ori/zi 15 – 20 pic. Neapărat se iau suplimente de Ca și Mg, 10 zile/lună, 3 luni consecutiv. Cancer (diferite forme, mielom, neoplasm, leucemii) cu condiția să nu existe metastaze, extract de vâsc, procurat din Câmpina - Dr. Țogoreanu Eduard. Salatele cu mult pặ trunjel sunt excelenți adjuvanți în tratamentul cancerului, menține pofta de mâncare, activeaz ặ sistemul imunitar, restabilește echilibrul hormonal, combate reacțiile adverse ale citostaticelor și ale radioterapiei. Carența de:
+### Boli infectioase recidivate
+patrunjel verde taiat fin amestecat cu ceapa, suc de lamaie si eventual cateva rosii, este folosit ca salata, pentru cei car e au infectii. Acest remediu, activeaz a sistemul imunitar ti combate foarte multe specii de bacterii si ciuperci parazite. Preventiv, dimineata, la micul dejun, pe o felie de paine unsa cu ulei de m asline, presarata din abundent a cu patrunjel taiat, daca s e poate se pune si un catel de usturoi.
+### Atac de panica
+infuzie de lavanda 1 lingurita la o cana de apa clocotita, se beau 2 cani/zi, una dimineata si una seara. Sau tinctura de lavanda de 2 ori/zi 15 – 20 pic. Neaparat se iau suplimente de Ca si Mg, 10 zile/luna, 3 luni consecutiv. Cancer (diferite forme, mielom, neoplasm, leucemii) cu conditia sa nu existe metastaze, extract de vasc, procurat din Campina - Dr. Togoreanu Eduard. Salatele cu mult pa trunjel sunt excelenti adjuvanti in tratamentul cancerului, mentine pofta de mancare, activeaz a sistemul imunitar, restabileste echilibrul hormonal, combate reactiile adverse ale citostaticelor si ale radioterapiei. Carenta de:
 ### Vitamina B3
-afectează pielea, sistemul digestiv și nervos. Aportul mărit de vitamină , reduce riscul de a face cancer oral și esofagian. Medicii recomandă suplimente de vitamină când este vorba de acnee, dislipidemie (grăsimi în sânge), osteoartrită, schizofrenie, cataractă, diabet, hipotiroidism, hipoglicemie, dermatite .Alunele, drojdia de bere, pește (ton, somon), pui, curcan, conțin vitamina B3. O creștere prea mare de vitamină B3 în organism v-a da reacții neplăcute ca diaree, gastrită, probleme la ficat, ochi, crește acidul uric (guta).
+afecteaza pielea, sistemul digestiv si nervos. Aportul marit de vitamina , reduce riscul de a face cancer oral si esofagian. Medicii recomanda suplimente de vitamina cand este vorba de acnee, dislipidemie (grasimi in sange), osteoartrita, schizofrenie, cataracta, diabet, hipotiroidism, hipoglicemie, dermatite .Alunele, drojdia de bere, peste (ton, somon), pui, curcan, contin vitamina B3. O crestere prea mare de vitamina B3 in organism v-a da reactii neplacute ca diaree, gastrita, probleme la ficat, ochi, creste acidul uric (guta).
 ### Vitamina B5
-numită acidul pantotenic, ia parte la o serie întreagă de procese, reacții ce mențin viața, cu extragerea elementelor valoroase din hrană și în procesarea grăsimilor. Reglează colesterolul, transmite impulsurile nervoase de la și spre creier, activează producția de hormoni a glandelor suprarenale. Ungerea rănilor cu unguente care conțin vitamină B5 va duce la vindecarea lor mai rapidă. Este recomandată pentru reducerea colesterolului și trigliceridelor, tratamentul artritei reumatoide, acnee, maladiei Alzheimer. Ficatul, rinichii, drojdia de bere, gălbenușul, peștele gras, laptele, ciupercile, spanacul, mazărea, fasolea, conțin
+numita acidul pantotenic, ia parte la o serie intreaga de procese, reactii ce mentin viata, cu extragerea elementelor valoroase din hrana si in procesarea grasimilor. Regleaza colesterolul, transmite impulsurile nervoase de la si spre creier, activeaza productia de hormoni a glandelor suprarenale. Ungerea ranilor cu unguente care contin vitamina B5 va duce la vindecarea lor mai rapida. Este recomandata pentru reducerea colesterolului si trigliceridelor, tratamentul artritei reumatoide, acnee, maladiei Alzheimer. Ficatul, rinichii, drojdia de bere, galbenusul, pestele gras, laptele, ciupercile, spanacul, mazarea, fasolea, contin
 
-vitamină B5, dar apar probleme pentru că este foarte perisabilă
-datorită preparării acestor produse. Și alimentele conservate
-sau congelate își reduc conținutul de vitamine. Carența de
-vitamină B5 apare la alcoolici și femeile care iau
-anticoncepționale cu concentrație mare de estrogen și
-progesteron. Apar insomnii. Dureri de cap, oboseală, tulburări
-intestinale, furnicături, ficatul nu mai face față la eliminarea
-toxinelor, tulburări ale glandelor suprarenale. Se suplimentează
+vitamina B5, dar apar probleme pentru ca este foarte perisabila
+datorita prepararii acestor produse. Si alimentele conservate
+sau congelate isi reduc continutul de vitamine. Carenta de
+vitamina B5 apare la alcoolici si femeile care iau
+anticonceptionale cu concentratie mare de estrogen si
+progesteron. Apar insomnii. Dureri de cap, oboseala, tulburari
+intestinale, furnicaturi, ficatul nu mai face fata la eliminarea
+toxinelor, tulburari ale glandelor suprarenale. Se suplimenteaza
 cu complexul B.
 ### Vitamina B6
-esențială în formarea și funcționarea celulelor roșii, în metabolism. Este catalizatorul reacțiilor chimice ce au loc în organism, procesează aminoacizii, necesari dezvoltării, menținerii și reparării țesutului. La nivelul sistemului nervos sintetizează substanțe, prin care se realizează transmiterea impulsului nervos. Favorizează sau inhibă formarea hormonilor steroizi - estrogen și testosteron. Cea mai bună sursă de vitamine sunt cartofii, bananele, ficatul, carnea de pui, curcan, somonul, tonul, spanacul, lintea, alunele, nucile, cerealele integrale. Nu trebuie depășită o doză de 200 mg.
+esentiala in formarea si functionarea celulelor rosii, in metabolism. Este catalizatorul reactiilor chimice ce au loc in organism, proceseaza aminoacizii, necesari dezvoltarii, mentinerii si repararii tesutului. La nivelul sistemului nervos sintetizeaza substante, prin care se realizeaza transmiterea impulsului nervos. Favorizeaza sau inhiba formarea hormonilor steroizi - estrogen si testosteron. Cea mai buna sursa de vitamine sunt cartofii, bananele, ficatul, carnea de pui, curcan, somonul, tonul, spanacul, lintea, alunele, nucile, cerealele integrale. Nu trebuie depasita o doza de 200 mg.
 ### Vitamina B12
-vegetarienii prezintă un deficit major, fiind predispuși bolilor cardiovasculare. Ameliorează stările depresive, anemia, previne leziunile pre-canceroase ale plămânului, menține fertilitatea, dezvoltarea capacității intelectuale. Peștele, carnea ouăle sunt principala sursă de vitamină B12. În sângele vegetarienilor se găsește o substanță - homocisteină prezentă în exces, antrenată în metabolismul proteinelor. Nivelul ei este reglat de vitaminele B12, B9, B6, dar vegetarienii duc lipsă de aceste vitamine, substanța se acumulează în sânge care devine toxic pentru multe celule. Totodată sunt dispuși la boli cardiovasculare. Suplimentează cu vitamină B12 asociată cu B9.
+vegetarienii prezinta un deficit major, fiind predispusi bolilor cardiovasculare. Amelioreaza starile depresive, anemia, previne leziunile pre-canceroase ale plamanului, mentine fertilitatea, dezvoltarea capacitatii intelectuale. Pestele, carnea ouale sunt principala sursa de vitamina B12. In sangele vegetarienilor se gaseste o substanta - homocisteina prezenta in exces, antrenata in metabolismul proteinelor. Nivelul ei este reglat de vitaminele B12, B9, B6, dar vegetarienii duc lipsa de aceste vitamine, substanta se acumuleaza in sange care devine toxic pentru multe celule. Totodata sunt dispusi la boli cardiovasculare. Suplimenteaza cu vitamina B12 asociata cu B9.
 ### Vitamina C
-un nivel ridicat reduce riscurile unui atac cerebral. Se găsește în varză, mure, zmeură, conopidă, cartofi, ardei. Este eficientă pentru persoanele hipertensive, consumatoare de alcool, fumătoare sau sedentare, expuse pericolului unui atac. Apără organismul de infecții, cancer și diabet. Are un rol important în timpul sarcinii. Globulele albe, ar trebui să aibă un nivel ridicat de vitamină C, le accelerează mobilitatea în cazul unui atac bacterian. Barieră împotriva virușilor, elimină excesul de colesterol, reduce intensitatea alergiilor. Contribuie la dezintoxicarea organismului de unele metale toxice, plumb, nichel.
+un nivel ridicat reduce riscurile unui atac cerebral. Se gaseste in varza, mure, zmeura, conopida, cartofi, ardei. Este eficienta pentru persoanele hipertensive, consumatoare de alcool, fumatoare sau sedentare, expuse pericolului unui atac. Apara organismul de infectii, cancer si diabet. Are un rol important in timpul sarcinii. Globulele albe, ar trebui sa aiba un nivel ridicat de vitamina C, le accelereaza mobilitatea in cazul unui atac bacterian. Bariera impotriva virusilor, elimina excesul de colesterol, reduce intensitatea alergiilor. Contribuie la dezintoxicarea organismului de unele metale toxice, plumb, nichel.
 
 ### Vitamina D
-menține nivelul ridicat al calciului în sânge și păstrează masa osoasă și dantura. Are rol de a mări absorția de calciu din alimente și să diminueze pierderea lui prin urină. Antioxidant reducând riscul îmbolnăvirii de cancer, echilibrează nivelul de insulină din sânge. Un aliat împotriva osteoporozei și ca tratament și preventiv, pentru copii rahitici, fibroză cistică, depresie, diabet, vitiligo, cancer la sân și colon, scleroză multiplă, Parkinson. Pe timpul iernii pentru că lumina solară este mai slabă se recomandă să luăm vitamina D. Cei mai mulți dintre noi obținem vitamina D prin expunerea la soare, fiind sintetizată de razele solare, din anumite substanțe din piele. Nu este suficient să ieșim afară, ci trebuie să ne expunem toată pielea la soare. Dacă stăm câte 15 min. la soare, de 3 ori/săptămână este suficient. Cele mai bune surse sânt untura de pește gras (ton, somon, macrou, sardine), produse de lapte, gălbenușul, drojdia de bere.
+mentine nivelul ridicat al calciului in sange si pastreaza masa osoasa si dantura. Are rol de a mari absortia de calciu din alimente si sa diminueze pierderea lui prin urina. Antioxidant reducand riscul imbolnavirii de cancer, echilibreaza nivelul de insulina din sange. Un aliat impotriva osteoporozei si ca tratament si preventiv, pentru copii rahitici, fibroza cistica, depresie, diabet, vitiligo, cancer la san si colon, scleroza multipla, Parkinson. Pe timpul iernii pentru ca lumina solara este mai slaba se recomanda sa luam vitamina D. Cei mai multi dintre noi obtinem vitamina D prin expunerea la soare, fiind sintetizata de razele solare, din anumite substante din piele. Nu este suficient sa iesim afara, ci trebuie sa ne expunem toata pielea la soare. Daca stam cate 15 min. la soare, de 3 ori/saptamana este suficient. Cele mai bune surse sant untura de peste gras (ton, somon, macrou, sardine), produse de lapte, galbenusul, drojdia de bere.
 ### Celulita
-se face o saltă din frunze de pătrunjel, tăiat foarte fin, cu suc de lămâie, puțin ulei, o roșie tăiată, se consumă cu 2 felii de pâine prăjită, înainte de masa de dimineață și de seară.
-### Chist pe burtă
-pe toată suprafața se pune slănină, tăiată în felii subțiri (slănină de casă), se pune pe o burtieră , să stea cât mai strâns, timp de o săptămână. Dacă chistul are puroi, slănina grăbește colectarea lui, făcându-i loc să iasă. Se pune slănină încă 2 - 3 zile până la vindecare. Dacă nu are puroi, în 2 - 3 zile se micșorează, apoi dispare.
+se face o salta din frunze de patrunjel, taiat foarte fin, cu suc de lamaie, putin ulei, o rosie taiata, se consuma cu 2 felii de paine prajita, inainte de masa de dimineata si de seara.
+### Chist pe burta
+pe toata suprafata se pune slanina, taiata in felii subtiri (slanina de casa), se pune pe o burtiera , sa stea cat mai strans, timp de o saptamana. Daca chistul are puroi, slanina grabeste colectarea lui, facandu-i loc sa iasa. Se pune slanina inca 2 - 3 zile pana la vindecare. Daca nu are puroi, in 2 - 3 zile se micsoreaza, apoi dispare.
 ### Climax
-ceai de traista ciobanului, 1 cană dimineața și 1 cană seara, (reglează tensiunea și un adjuvant în cazul tensiunii oscilante), ceai de păducel (echilibrează sistemul neurovegetativ)
+ceai de traista ciobanului, 1 cana dimineata si 1 cana seara, (regleaza tensiunea si un adjuvant in cazul tensiunii oscilante), ceai de paducel (echilibreaza sistemul neurovegetativ)
 ### Colagenoza
-siliciul conținut de coada calului, este un mineral esențial în producerea de colagen – un adeziv corporal ce menține unite țesuturile musculare cu pielea - 4 g de pulbere/zi, susținut de regim vegetarian duce la ameliorarea bolii.
+siliciul continut de coada calului, este un mineral esential in producerea de colagen – un adeziv corporal ce mentine unite tesuturile musculare cu pielea - 4 g de pulbere/zi, sustinut de regim vegetarian duce la ameliorarea bolii.
 ### Diabet
-cercetători americani au studiat pe 1 loturi de 200 voluntari, toți având părinți diabetici, efectele înlocuirii totale a zahărului cu miere. Rezultatele au fost uluitoare, după 20 de ani, rata îmbolnăvirii de diabet este 0, pentru cei ce au consumat numai miere, în timp ce lotul martor 40% are diabet de diferite grade. Cromul reduce pofta de dulce.
+cercetatori americani au studiat pe 1 loturi de 200 voluntari, toti avand parinti diabetici, efectele inlocuirii totale a zaharului cu miere. Rezultatele au fost uluitoare, dupa 20 de ani, rata imbolnavirii de diabet este 0, pentru cei ce au consumat numai miere, in timp ce lotul martor 40% are diabet de diferite grade. Cromul reduce pofta de dulce.
 ### Dislipidemie
 pentru reducerea colesterolului, se iau 2 mere
 
-mari și o felie de țelină (100 - 150 g ), se rad, se consumă pe
-stomacul gol dimineața timp de 30 zile.
+mari si o felie de telina (100 - 150 g ), se rad, se consuma pe
+stomacul gol dimineata timp de 30 zile.
 ### Guturai, gripa
-vezi plămân, bronșite.
+vezi plaman, bronsite.
 ### Hipercolesterolemie
-cu 30 min. înainte de masă se înghite de 3 ori/zi 1 linguriță cu boabe de muștar auriu cu apă nemestecate, timp de 3 - 4 luni.
+cu 30 min. inainte de masa se inghite de 3 ori/zi 1 lingurita cu boabe de mustar auriu cu apa nemestecate, timp de 3 - 4 luni.
 ### Hodghin
-tratament naturist cu Culevit, stimulator al imnitații pasive, Shark Aid – cartilagiu de rechin m ặcinat în formặ purặ,, Coenzima Q10, Polinesian Noni – regele fructelor, sirop cu remarcabile propietặ ți de vindecare, cunoscute de reste 2000 de ani în Polinezia, China, India, ânpreunặ cu cel cu citostatice.
+tratament naturist cu Culevit, stimulator al imnitatii pasive, Shark Aid – cartilagiu de rechin m acinat in forma pura,, Coenzima Q10, Polinesian Noni – regele fructelor, sirop cu remarcabile propieta ti de vindecare, cunoscute de reste 2000 de ani in Polinezia, China, India, anpreuna cu cel cu citostatice.
 ### Leucemie
-câte o lingură din fiecare cereală, porumb, grâu, ovăz, secara, mei, cu 2 litri apă, se fierbe până rămâne 1 litru. Se beau 2-3 pahare pe zi..
+cate o lingura din fiecare cereala, porumb, grau, ovaz, secara, mei, cu 2 litri apa, se fierbe pana ramane 1 litru. Se beau 2-3 pahare pe zi..
 ### Lipom
-masaj cu ulei de ricin, unguent de gălbenele și crema Spirulin, se înmoaie și dispar
-### Mastoză chistică si fibroadenom
-- dezintoxicarea organismului- 1 cană cu apă clocotită de seara se bea dimineața pe stomacul gol . - după o ½ ora drojdie de bere cât o nucă și 2 linguri tărâțe de grâu înmuiate în lapte sau iaurt. - regim lacto-vegetarian, carne pasare, zahărul înlocuit cu miere și oțetul cu lămâie. - seara pe sân se pun foi de varză zdrobite cu sticla. - în timpul zilei, ceara de albine dată pe răzătoarea mare, se amestecă cu pelin verde sau uscat, se pune într-un sac de tifon, se udă cu tescovină, se poartă în sutien. Se folosește timp de 5- 6 zile, apoi se face altă porție. Locul se va unge cu gălbenele și Carpicon, apoi compresă cu tinctură de propolis și bitter suedez - vitamina E capsule gelatinoase 15 zile timp de 3 luni la 5 zile după ciclu - ceai înainte de masă - frasin frunze 1og, sovârf 3og, gălbenele ,1og. mușețel, 2og, urzică 2og.
+masaj cu ulei de ricin, unguent de galbenele si crema Spirulin, se inmoaie si dispar
+### Mastoza chistica si fibroadenom
+- dezintoxicarea organismului- 1 cana cu apa clocotita de seara se bea dimineata pe stomacul gol . - dupa o ½ ora drojdie de bere cat o nuca si 2 linguri tarate de grau inmuiate in lapte sau iaurt. - regim lacto-vegetarian, carne pasare, zaharul inlocuit cu miere si otetul cu lamaie. - seara pe san se pun foi de varza zdrobite cu sticla. - in timpul zilei, ceara de albine data pe razatoarea mare, se amesteca cu pelin verde sau uscat, se pune intr-un sac de tifon, se uda cu tescovina, se poarta in sutien. Se foloseste timp de 5- 6 zile, apoi se face alta portie. Locul se va unge cu galbenele si Carpicon, apoi compresa cu tinctura de propolis si bitter suedez - vitamina E capsule gelatinoase 15 zile timp de 3 luni la 5 zile dupa ciclu - ceai inainte de masa - frasin frunze 1og, sovarf 3og, galbenele ,1og. musetel, 2og, urzica 2og.
 ### Melanom malign Clark II
-tratament cu Interferon și produse naturiste de la firmele Flavisan, Lab. Medica, Forever
+tratament cu Interferon si produse naturiste de la firmele Flavisan, Lab. Medica, Forever
 ### Metastaze canceroase
-500g. untură fără sare , 500g unt de casă nesărat, 500g miere polifloră, 500g lămâi cu coajă cu tot tocate, 500g cafea măci nată, sau 250g. Se amestecă pe foc, se ia o lingură de 3 ori pe zi cu o ½ de ora înainte de masă, în cazuri mai grave se ia o linguriță la 3 ore.
+500g. untura fara sare , 500g unt de casa nesarat, 500g miere poliflora, 500g lamai cu coaja cu tot tocate, 500g cafea maci nata, sau 250g. Se amesteca pe foc, se ia o lingura de 3 ori pe zi cu o ½ de ora inainte de masa, in cazuri mai grave se ia o lingurita la 3 ore.
 ### Obezitate
-înainte de fiecare masă se consumă 1 pahar de macerat călduț din semințe de in (2 lingurițe de semințe de in,
+inainte de fiecare masa se consuma 1 pahar de macerat caldut din seminte de in (2 lingurite de seminte de in,
 
-se pun într-un pahar de apă și se lasă 2 ore, la temperatura
-camerei, se bea ca atare). În stomac se va produce o senzație
-de sațietate, care va reduce pofta de mâncare și vor accelera
+se pun intr-un pahar de apa si se lasa 2 ore, la temperatura
+camerei, se bea ca atare). In stomac se va produce o senzatie
+de satietate, care va reduce pofta de mancare si vor accelera
 procesele de eliminare. Sau
-Cura de mare intensitate de struguri; timp de 3 zile se consumă
-progresiv ½ Kg. struguri în 1 zi, 1 Kg. în a 2 zi, 1,5 Kg. în a 3 zi. După
-cele 3 zile de obișnuință a digestiei și metabolismului cu strugurii,
-urmează 5 zile (dacă vreți să slăbiți drastic, pot fi și 10 zile ) în
-care se consumă numai struguri, ca atare sau suc. În fiecare zi
-se consumă 1,5 Kg. struguri, sau 1,2 litri suc. După ultima zi de
-cură se obișnuiește gradat cu alimentele normale, consumând
-mai întâi infuzii de plante cu miere și alimente ușoare (supe de
-legume, cartofi fierți), ajungând în 3 - 4 zile la alimentație
-normală. Are efect de dezintoxicare a organismului de toxine,
-reglează metabolismul, întărește sistemul cardiovascular,
-curăță și înfrumusețează pielea și tenul, îi dă strălucire și îl
-catifelează, combate acnea, vindecă dermatozele, iar surplusul
-de greutate este cu ușurință eliminat.
-Cura de intensitate medie de struguri; timp de 2 săptămâni, nu se
-consumă decât struguri, 1,5 - 3 kg./zi. Ziua de cură se începe la
-ora 0 și se termină la ora 0, între zile este bine să nu fie pauză
-mare, repausul de 1 zi între ele este suficient (vineri și
-duminică , când programul este mai lejer). Cura de 2 zile pe
-săptămână, trebuie ținută o lună. În acest timp organismul va
-cere alimente mai ușoare și mai bogate în vitamine și minerale,
-fructe, legume, lactate), care ajută la slăbit armonios. În cazul
-în care apar probleme, diaree, balonări, crampe, în ziua de cură
-se poate consuma în cantități mici de ceai de chimen sau
-mentă, neândulcit. La ieșirea din cură introduceți pâine prăjită,
-orez, aperitive uscate. Ca efect, scăderea în greutate nu este
-foarte spectaculoasă, dar dacă în zilele de cură, se menține o
-alimentație fără suplimente între mese, ușoară fără prăjeli,
-carne, dulciuri suculente, se pierde în greutate 1 - 3 Kg. pe
-săptămână.
-Cura în variantă blândă de struguri; se pot consuma și alte
-alimente, cantitatea de struguri se crește gradat: 1 zi se
-consumă ½ Kg. de struguri, repartiza ți câte 1 ciorchine înainte de
-fiecare masă. A 2 zi se va consuma 1 Kg. de struguri, repartizați
-înainte de mesele principale. Cantitatea de struguri se mărește
-în fiecare zi cu câte 1 Kg. încât în a 6 zi se ajunge la 3 Kg.,
-repartizați la cele 3 mese principale, timp de 7, 8, 9 zile, apoi se
-trece la alimentația normală. Între mese nu se consumă nimic și
+Cura de mare intensitate de struguri; timp de 3 zile se consuma
+progresiv ½ Kg. struguri in 1 zi, 1 Kg. in a 2 zi, 1,5 Kg. in a 3 zi. Dupa
+cele 3 zile de obisnuinta a digestiei si metabolismului cu strugurii,
+urmeaza 5 zile (daca vreti sa slabiti drastic, pot fi si 10 zile ) in
+care se consuma numai struguri, ca atare sau suc. In fiecare zi
+se consuma 1,5 Kg. struguri, sau 1,2 litri suc. Dupa ultima zi de
+cura se obisnuieste gradat cu alimentele normale, consumand
+mai intai infuzii de plante cu miere si alimente usoare (supe de
+legume, cartofi fierti), ajungand in 3 - 4 zile la alimentatie
+normala. Are efect de dezintoxicare a organismului de toxine,
+regleaza metabolismul, intareste sistemul cardiovascular,
+curata si infrumuseteaza pielea si tenul, ii da stralucire si il
+catifeleaza, combate acnea, vindeca dermatozele, iar surplusul
+de greutate este cu usurinta eliminat.
+Cura de intensitate medie de struguri; timp de 2 saptamani, nu se
+consuma decat struguri, 1,5 - 3 kg./zi. Ziua de cura se incepe la
+ora 0 si se termina la ora 0, intre zile este bine sa nu fie pauza
+mare, repausul de 1 zi intre ele este suficient (vineri si
+duminica , cand programul este mai lejer). Cura de 2 zile pe
+saptamana, trebuie tinuta o luna. In acest timp organismul va
+cere alimente mai usoare si mai bogate in vitamine si minerale,
+fructe, legume, lactate), care ajuta la slabit armonios. In cazul
+in care apar probleme, diaree, balonari, crampe, in ziua de cura
+se poate consuma in cantitati mici de ceai de chimen sau
+menta, neandulcit. La iesirea din cura introduceti paine prajita,
+orez, aperitive uscate. Ca efect, scaderea in greutate nu este
+foarte spectaculoasa, dar daca in zilele de cura, se mentine o
+alimentatie fara suplimente intre mese, usoara fara prajeli,
+carne, dulciuri suculente, se pierde in greutate 1 - 3 Kg. pe
+saptamana.
+Cura in varianta blanda de struguri; se pot consuma si alte
+alimente, cantitatea de struguri se creste gradat: 1 zi se
+consuma ½ Kg. de struguri, repartiza ti cate 1 ciorchine inainte de
+fiecare masa. A 2 zi se va consuma 1 Kg. de struguri, repartizati
+inainte de mesele principale. Cantitatea de struguri se mareste
+in fiecare zi cu cate 1 Kg. incat in a 6 zi se ajunge la 3 Kg.,
+repartizati la cele 3 mese principale, timp de 7, 8, 9 zile, apoi se
+trece la alimentatia normala. Intre mese nu se consuma nimic si
 
-se iau la ore fixe. Cura se poate repeta după 3 zile de pauză.
-Are ca efect, scăderea în greutate în mod lent, dar sigură dacă
-nu se fac abuzuri. Fiind bogați în zaharuri, sunt ușor asimilabili,
-elimină stările de slăbiciune, echilibrare a sistemului nervos,
-eliminând nevoia maladivă de a mânca mereu.
-O ½ pahar de suc din frunze de țelină, băut înainte de masă cu 20
+se iau la ore fixe. Cura se poate repeta dupa 3 zile de pauza.
+Are ca efect, scaderea in greutate in mod lent, dar sigura daca
+nu se fac abuzuri. Fiind bogati in zaharuri, sunt usor asimilabili,
+elimina starile de slabiciune, echilibrare a sistemului nervos,
+eliminand nevoia maladiva de a manca mereu.
+O ½ pahar de suc din frunze de telina, baut inainte de masa cu 20
 min., are efect de inhibare a apetitului alimentar. Efectul
-diuretic al țelinei provoacă eliminarea apei din țesuturi, ducând
-la scăderea în greutate. Se mai adaugă efectele de reglare a
-activității glandelor care produc în organism cortizonul numit și
-hormonul de stres, care când este în exces dă pielii aspectul de
-pufos neplăcut.
-### Otrăvirea
-apa sărată, se bea o anumită cantitate, cât mai repede, pentru a produce voma și de a scăpa de efectul nociv al otrăvii.
+diuretic al telinei provoaca eliminarea apei din tesuturi, ducand
+la scaderea in greutate. Se mai adauga efectele de reglare a
+activitatii glandelor care produc in organism cortizonul numit si
+hormonul de stres, care cand este in exces da pielii aspectul de
+pufos neplacut.
+### Otravirea
+apa sarata, se bea o anumita cantitate, cat mai repede, pentru a produce voma si de a scapa de efectul nociv al otravii.
 ### Placard mastozic
-chitosan capsule, intern și extern. Se desfac 10 capsule și se amestecă cu cremă de gălbenele dintr-o cutie, apoi se unge loculo afectat de 2 – 3 ori/zi.
+chitosan capsule, intern si extern. Se desfac 10 capsule si se amesteca cu crema de galbenele dintr-o cutie, apoi se unge loculo afectat de 2 – 3 ori/zi.
 ### Pojar
-se fierb 200 g. morcov într-un litru de4 apă, se pasează, se adaugă miere după gust și se bea de 3 ori/zi din acest terci.
+se fierb 200 g. morcov intr-un litru de4 apa, se paseaza, se adauga miere dupa gust si se bea de 3 ori/zi din acest terci.
 ### Priapism
-este provocat de o drenare insuficientă a sângelui din corpii cavernoși, având cauze medicamentoase, psihologice sau afecțiuni renale. Dimineața se iau 2 - 3 lingurițe de miere amestecate cu 2 fiole de lăptișor de matcă liofilizată, sau 6 capsule de lăptișor de matcă, toată ziua se bea 1 litru de apă în care se pun 15 lingurițe oțet de mere și îndulcit cu miere., local se unge cu alifie de gălbenele amestecată cu 8 - 10 capsule de lăptișor de marcă. Acestea stopează fibrozarea corpilor cavernoși, care devin elastici, făcând posibilă drenarea.
-### Răceală
-remediu sudorific, amestec din flori uscate de tei, zmeur, în cantități egale , peste 1 lingură de amestec se toarnă 200 ml. apă clocotită, se infuzează 15 min., se bea fierbinte, câte 100 ml. de 3 - 4 ori/zi
-### Rău de avion și mașină
-aparatul, ELECTROPUNCTOR, produs de Senerg Cercetări Aplicate de la Cluj, (0264/538769) va reduce senzația de rău.
-### Rău de avion
-alcool de mentă, câteva picături pe zahăr, ghimbir capsule, produse de Laboratorul Medica.
-### Rău de mare
-se bea un ou bătut cu puțină apă, sau cu 2 - 3 lingurițe de coniac
-### Scleroză multiplă
+este provocat de o drenare insuficienta a sangelui din corpii cavernosi, avand cauze medicamentoase, psihologice sau afectiuni renale. Dimineata se iau 2 - 3 lingurite de miere amestecate cu 2 fiole de laptisor de matca liofilizata, sau 6 capsule de laptisor de matca, toata ziua se bea 1 litru de apa in care se pun 15 lingurite otet de mere si indulcit cu miere., local se unge cu alifie de galbenele amestecata cu 8 - 10 capsule de laptisor de marca. Acestea stopeaza fibrozarea corpilor cavernosi, care devin elastici, facand posibila drenarea.
+### Raceala
+remediu sudorific, amestec din flori uscate de tei, zmeur, in cantitati egale , peste 1 lingura de amestec se toarna 200 ml. apa clocotita, se infuzeaza 15 min., se bea fierbinte, cate 100 ml. de 3 - 4 ori/zi
+### Rau de avion si masina
+aparatul, ELECTROPUNCTOR, produs de Senerg Cercetari Aplicate de la Cluj, (0264/538769) va reduce senzatia de rau.
+### Rau de avion
+alcool de menta, cateva picaturi pe zahar, ghimbir capsule, produse de Laboratorul Medica.
+### Rau de mare
+se bea un ou batut cu putina apa, sau cu 2 - 3 lingurite de coniac
+### Scleroza multipla
 tratament cu produse de la Natura Medica (Vasile Popa), MULTIFRUCT TOTAL FORTE, HERCULES,
 
-PROTEINVEG 1, regim adecvat, ceaiuri, băi de plante cu coada
-calului, coada șoricelului, cimbru și masaje.
-### Scleroza în plăci
-frunze zdrobite de brânca ursului se aplică pe coloană timp de 3 - 4 ore/zi. Tratamentul se face în timpul verii când planta este verde, în timpul iernii se face masaj cu ulei din brânca ursului (10 linguri pulbere de plantă uscată (vezi frigiditate),se pun în ½ litru de ulei din floarea soarelui, se lasă la macerat timp de 3 săptămâni. Filtratul se păstrează în sticluțe închise la culoare.(vezi epilepsia) Se poate stopa din evoluție prin apifitoterapie, cu venin de albine, precedat și însoțit de o cură pe bază de plante. Tratamentul cu venin se face sub supraveghere medicală și cu scheme terapeutice individualizate – Dr. Cristina Aoșan.
+PROTEINVEG 1, regim adecvat, ceaiuri, bai de plante cu coada
+calului, coada soricelului, cimbru si masaje.
+### Scleroza in placi
+frunze zdrobite de branca ursului se aplica pe coloana timp de 3 - 4 ore/zi. Tratamentul se face in timpul verii cand planta este verde, in timpul iernii se face masaj cu ulei din branca ursului (10 linguri pulbere de planta uscata (vezi frigiditate),se pun in ½ litru de ulei din floarea soarelui, se lasa la macerat timp de 3 saptamani. Filtratul se pastreaza in sticlute inchise la culoare.(vezi epilepsia) Se poate stopa din evolutie prin apifitoterapie, cu venin de albine, precedat si insotit de o cura pe baza de plante. Tratamentul cu venin se face sub supraveghere medicala si cu scheme terapeutice individualizate – Dr. Cristina Aosan.
 ### SIDA
-pentru creșterea imunității se ia un supliment de alimentație de la firma Calivita Internațional. Produsul este un sirop dintr-o plantă Marinde citrifolia, din Asia, cunoscută mai ales în India și China. Substanța activă este Xeronina. Tratamentul este de 6 luni. Cu rezultate spectaculoase.
+pentru cresterea imunitatii se ia un supliment de alimentatie de la firma Calivita International. Produsul este un sirop dintr-o planta Marinde citrifolia, din Asia, cunoscuta mai ales in India si China. Substanta activa este Xeronina. Tratamentul este de 6 luni. Cu rezultate spectaculoase.
 ### Trandafirul
-studiile recente au pus în evidenț ặ faptul cặ 8 dintre substanțele conținute de petalele de trandafir acționeaz ặ ca un inhibitor asupra virusului HIV care produce SIDA, blocând reproducerea lui. Se ia de 4 ori/zi cặte o lingurițặ de tincturặ .
+studiile recente au pus in evident a faptul ca 8 dintre substantele continute de petalele de trandafir actioneaz a ca un inhibitor asupra virusului HIV care produce SIDA, blocand reproducerea lui. Se ia de 4 ori/zi cate o lingurita de tinctura .
 ### Spasmofilie
-1 cană de grâu se pune la fiert cu 4 căni de apă, se lasă până rămâne o cană de zeamă, care se consumă numai pe stomacul gol joia dimineața. Boabele fierte se pot consuma amestecate cu mere sau nuci. Este un tratament de durată. 30 ouă de găină se introduc într-un vas de 5Kg., se pune zeama de la 6Kg. lămâi . După o săptămână se scot pielițele de la ouă și conținutul se freacă bine, apoi se adaugă 2Kg. miere de luna mai. Cura se face primăvara și toamna, se consumă 75g de 3ori/zi înainte de masă cu 10 - 15 min Tulburări psihice, hormonale, hiperexcitabilitate sexuală; regim vegetarian și consumul a 200 g. semințe de dovleac, neprelucrate termic, cu rol de calmant psihic, reduce excitabilitatea și redobândește calmul și liniștea. Administrarea regulată a cătinii, mărește în timp nivelul de serotonină din creier, inducând o stare de curaj, calm, foarte util celor care au depresii, sau stări de tensiune. Creșterea serotoninei micșorează numărul recidivelor bolilor psihice, al sinuciderilor. Se fac cure îndelungate de 6 luni, cu pulbere de cătină (vezi medicamente…) 1 linguriță de 3 ori/zi.
+1 cana de grau se pune la fiert cu 4 cani de apa, se lasa pana ramane o cana de zeama, care se consuma numai pe stomacul gol joia dimineata. Boabele fierte se pot consuma amestecate cu mere sau nuci. Este un tratament de durata. 30 oua de gaina se introduc intr-un vas de 5Kg., se pune zeama de la 6Kg. lamai . Dupa o saptamana se scot pielitele de la oua si continutul se freaca bine, apoi se adauga 2Kg. miere de luna mai. Cura se face primavara si toamna, se consuma 75g de 3ori/zi inainte de masa cu 10 - 15 min Tulburari psihice, hormonale, hiperexcitabilitate sexuala; regim vegetarian si consumul a 200 g. seminte de dovleac, neprelucrate termic, cu rol de calmant psihic, reduce excitabilitatea si redobandeste calmul si linistea. Administrarea regulata a catinii, mareste in timp nivelul de serotonina din creier, inducand o stare de curaj, calm, foarte util celor care au depresii, sau stari de tensiune. Cresterea serotoninei micsoreaza numarul recidivelor bolilor psihice, al sinuciderilor. Se fac cure indelungate de 6 luni, cu pulbere de catina (vezi medicamente…) 1 lingurita de 3 ori/zi.
 
 ### Tumori canceroase
-dietă vegetariană, pulbere de muguri plop negru, 1 linguriță rasă, de 4 ori/zi pe stomacul gol, timp de 3 luni. Pulbere de rădăcină de măcriș 1 linguriță de 4 ori/zi. Conține anumite substanțe imuno-stimulatoare , care mobilizează organismul să elimine formațiunile tumorale (tratament și pentru tumori benigne
+dieta vegetariana, pulbere de muguri plop negru, 1 lingurita rasa, de 4 ori/zi pe stomacul gol, timp de 3 luni. Pulbere de radacina de macris 1 lingurita de 4 ori/zi. Contine anumite substante imuno-stimulatoare , care mobilizeaza organismul sa elimine formatiunile tumorale (tratament si pentru tumori benigne
 ### Tutun
-ceai de pedicuță (vezi alcoolism). Tratament cu pulbere de cătină (vezi alcoolism). FITO antialcool & antitabac, împotriva dependenței de tutun, se administreazặ fặrặ țtirea pacientului. .
+ceai de pedicuta (vezi alcoolism). Tratament cu pulbere de catina (vezi alcoolism). FITO antialcool & antitabac, impotriva dependentei de tutun, se administreaza fara ttirea pacientului. .
 
 ## DIVERSE
 
 ### Acarieni
-se aerisește locuința zilnic, se aspir ặ des, nu se lasặ praful sặ se adune pe mobilặ.
+se aeriseste locuinta zilnic, se aspir a des, nu se lasa praful sa se adune pe mobila.
 ### Apa Pi
-filtrată fizic, apă pură care fierbe la mai puțin de 100C și îngheață la -1 grad.
+filtrata fizic, apa pura care fierbe la mai putin de 100C si ingheata la -1 grad.
 ### Arama
-obiectele devin ca noi dacă sunt spălate în zeamă de varză fierbinte și apoi frecate cu cenușă. Ață; când se înoadă sau se rupe, se trece de 2 ori printr-o bucățică de ceară.
+obiectele devin ca noi daca sunt spalate in zeama de varza fierbinte si apoi frecate cu cenusa. Ata; cand se inoada sau se rupe, se trece de 2 ori printr-o bucatica de ceara.
 ### Cabinet medical Termodiagnostic TERMOMED
-Str. Vlasdislav Voievod nr. 20 – 22 sec. 2. (Șos. Colentina, mai sus de Obor).. Diagnostic, glandă mamară, ORL, gastroenterologie, ficat, plămâni, oncologie, tumori cutanate, metastaze, limfatice, melanom, ginecologie, ap. locomotor
+Str. Vlasdislav Voievod nr. 20 – 22 sec. 2. (Sos. Colentina, mai sus de Obor).. Diagnostic, glanda mamara, ORL, gastroenterologie, ficat, plamani, oncologie, tumori cutanate, metastaze, limfatice, melanom, ginecologie, ap. locomotor
 ### Climax
-ceai de traista ciobanului, 1 cană dimineața și 1 cană seara, (reglează tensiunea și un adjuvant în cazul tensiunii oscilante), ceai de păducel (echilibrează sistemul neurovegetativ)
+ceai de traista ciobanului, 1 cana dimineata si 1 cana seara, (regleaza tensiunea si un adjuvant in cazul tensiunii oscilante), ceai de paducel (echilibreaza sistemul neurovegetativ)
 
 ### Clinici de dezalcoolizare
-în Sibiu, Așezământul Nazaret, din Șura Mică, Str. Principală nr. 405, Jud. Sibiu, cod 2442,.
+in Sibiu, Asezamantul Nazaret, din Sura Mica, Str. Principala nr. 405, Jud. Sibiu, cod 2442,.
 ### Cositor
-obiectele se spală în leșie preparată din cenușă de lemn, apoi se freacă cu făină amestecată cu sare.
-### Extractul de tiroidă
-glanda tiroidă reglează metabolismul prin secreția de hormoni, care controlează producerea de energie în toate celulele corpului. Administrarea extractului ajută celulele să elimine reziduurile și le accelerează funcția de regenerare. Sănătatea tiroidei este o premisă importantă pentru un sistem imunitar sănătos.
+obiectele se spala in lesie preparata din cenusa de lemn, apoi se freaca cu faina amestecata cu sare.
+### Extractul de tiroida
+glanda tiroida regleaza metabolismul prin secretia de hormoni, care controleaza producerea de energie in toate celulele corpului. Administrarea extractului ajuta celulele sa elimine reziduurile si le accelereaza functia de regenerare. Sanatatea tiroidei este o premisa importanta pentru un sistem imunitar sanatos.
 ### Extractul de timus
-de vițel, este eficient pentru restabilirea și intensificarea funcției sistemului imunitar și îmbunătățirea activității timusului în urma administrării extractului. Sunt o soluție pentru infecțiile virale cronice. Tratamentul desfășurat pe parcursul unui an, a dus la reducerea numărului infecțiilor respiratorii și întărirea sistemului imunitar. Extractul duce la normalizarea raportului dintre celulele T helper și celulele supresoare dacă acesta este prea scăzut, ca în cazul cancerului și SIDA, sau ridicat ca în cazul alergiilor sau artritei reumatoide.
-### Extractul de splină
-de bovine, folosite în tratarea bolilor infecțioase și întărirea sistemului imunitar. Are un rol important după extirparea splinei, preîntâmpinând infecțiile bacteriene, în tratarea numărului scăzut de leucocite, precum și ca adjuvant în terapia cancerului.
+de vitel, este eficient pentru restabilirea si intensificarea functiei sistemului imunitar si imbunatatirea activitatii timusului in urma administrarii extractului. Sunt o solutie pentru infectiile virale cronice. Tratamentul desfasurat pe parcursul unui an, a dus la reducerea numarului infectiilor respiratorii si intarirea sistemului imunitar. Extractul duce la normalizarea raportului dintre celulele T helper si celulele supresoare daca acesta este prea scazut, ca in cazul cancerului si SIDA, sau ridicat ca in cazul alergiilor sau artritei reumatoide.
+### Extractul de splina
+de bovine, folosite in tratarea bolilor infectioase si intarirea sistemului imunitar. Are un rol important dupa extirparea splinei, preintampinand infectiile bacteriene, in tratarea numarului scazut de leucocite, precum si ca adjuvant in terapia cancerului.
 ### Furnici
-se pune în calea lor o felie de lặmâie mucegặitặ , zaț de cafea sau vase cu apặ și oțet.
+se pune in calea lor o felie de lamaie mucegaita , zat de cafea sau vase cu apa si otet.
 ### Lavanda
-condiment; lavandă cu cimbru (1:5), mâncărurile vor căpăta o aroma deosebită, gust rafinat și digestie ușoară.
-### Împotriva moliilor
-săculețe cu lavandă în dulapul cu haine, zilnic conținutul lor se freacă între palme pentru a degaja mai mult ulei volatil.
-### Furnicile, puricii, gândacii
-fug de mirosul de lavandă, se face un amestec din 10 pic. ulei lavandă cu 6 linguri apă și se stropește prin casă.
-### Miros neplăcut în casă
-10 pic. ulei de lavandă cu 10 pic. ulei de mentă, se șterge cu acest amestec pe jos, sau zonele care miros urât. Se evită suprafețele lăcuite, pot fi atacate de acest amestec
-### Luna de naștere, determin ặ destinul și s ặnặtatea
-martie, risc în ce privețte angina pectoral ặ, arterioscleroza, infarctul și atacul cerebral. Motivul deficitul nutritiv condiționat de lunile de
+condiment; lavanda cu cimbru (1:5), mancarurile vor capata o aroma deosebita, gust rafinat si digestie usoara.
+### Impotriva moliilor
+saculete cu lavanda in dulapul cu haine, zilnic continutul lor se freaca intre palme pentru a degaja mai mult ulei volatil.
+### Furnicile, puricii, gandacii
+fug de mirosul de lavanda, se face un amestec din 10 pic. ulei lavanda cu 6 linguri apa si se stropeste prin casa.
+### Miros neplacut in casa
+10 pic. ulei de lavanda cu 10 pic. ulei de menta, se sterge cu acest amestec pe jos, sau zonele care miros urat. Se evita suprafetele lacuite, pot fi atacate de acest amestec
+### Luna de nastere, determin a destinul si s anatatea
+martie, risc in ce privette angina pectoral a, arterioscleroza, infarctul si atacul cerebral. Motivul deficitul nutritiv conditionat de lunile de
 
-iarnặ. Se acordặ o mare atenție alimentației,, corecte, bogate în
-vitamine și mișcare.
-Cei nặsuți în lunileiulie și sfârșitul lunii octombrie trebuie s ặ punặ
-mare preț pe îngrijirea danturii și pe asimilarea de calciu.
-Cei nặscuți între decembrie și aprilie, prezint ặ un factor de risc în
-formarea tumorilor, de aceea ar trebui sặ ducặ o viaț ặ sặnặtoasặ.
-Predispoziția la cancer este legat ặ de o asimilare deficitarặ a
+iarna. Se acorda o mare atentie alimentatiei,, corecte, bogate in
+vitamine si miscare.
+Cei nasuti in lunileiulie si sfarsitul lunii octombrie trebuie s a puna
+mare pret pe ingrijirea danturii si pe asimilarea de calciu.
+Cei nascuti intre decembrie si aprilie, prezint a un factor de risc in
+formarea tumorilor, de aceea ar trebui sa duca o viat a sanatoasa.
+Predispozitia la cancer este legat a de o asimilare deficitara a
 vitaminei A
 ### Maica Violeta Mocanu
 ### Moliile
-boabele de piper, firele de tutun și camforul le alungă Coaje sau ulei aromat de cedru, rặmurele mici de tuia, coji de lặ mâie uscate, semințe de morcov..
+boabele de piper, firele de tutun si camforul le alunga Coaje sau ulei aromat de cedru, ramurele mici de tuia, coji de la maie uscate, seminte de morcov..
 ### Monede
-de cupru se curăță cu parafină, cele de argint cu hârtie de sugativă, iar cele de aur cu pastă de cretă (se înmoaie în apă).
-### Muște
-o lặmâie sau o portocalặ , înțepate cu cuișoare aromate, sau castronele cu oțet fierbinte.
+de cupru se curata cu parafina, cele de argint cu hartie de sugativa, iar cele de aur cu pasta de creta (se inmoaie in apa).
+### Muste
+o lamaie sau o portocala , intepate cu cuisoare aromate, sau castronele cu otet fierbinte.
 ### Razele telurice
-contactul razelor cosmice cu substanțele de la suprafața pământului.
-### Plantele care absorb emanațiile razelor
-căpșunile, traista ciobanului, mătrăguna, urzica, vâscul. Sub pat se pune urzica sau feriga. Plantele care ne apăra de radiații: - lichen de piatra - o pernița pe abdomen (monitoare, calculator, aparate electrice) - ceai negru - 1 linguriță la un pahar de apă, la macerat 6 ore, se beau 2 - 3 pahare pe zi (radiațiile deșeurilor nucleare, calculatoare, telefon mobil). - polen de albine 1 linguriță cu 1 pahar de ceai negru, de 3 ori pe zi. - ulei de cătina - extern crema, intern 30 picături de 2 ori pe zi
-### Șoareci și șobolani
-se presarặ piper mặcdinat sau rondele de lặmâie mucegặitặ. Sunete medicament - Platon muzica sferelor - chitara - - inima orele 11 - 13 - harpa - plămân 3 - 5 - flaut - ficat 1 - 3 - oboi - vezica biliara 23 - 1 - trompeta - pancreas 9 - 11 - pian, orga, - stomac 7 - 9 clavecin - vioara - intestin subțire 13 - 15
+contactul razelor cosmice cu substantele de la suprafata pamantului.
+### Plantele care absorb emanatiile razelor
+capsunile, traista ciobanului, matraguna, urzica, vascul. Sub pat se pune urzica sau feriga. Plantele care ne apara de radiatii: - lichen de piatra - o pernita pe abdomen (monitoare, calculator, aparate electrice) - ceai negru - 1 lingurita la un pahar de apa, la macerat 6 ore, se beau 2 - 3 pahare pe zi (radiatiile deseurilor nucleare, calculatoare, telefon mobil). - polen de albine 1 lingurita cu 1 pahar de ceai negru, de 3 ori pe zi. - ulei de catina - extern crema, intern 30 picaturi de 2 ori pe zi
+### Soareci si sobolani
+se presara piper macdinat sau rondele de lamaie mucegaita. Sunete medicament - Platon muzica sferelor - chitara - - inima orele 11 - 13 - harpa - plaman 3 - 5 - flaut - ficat 1 - 3 - oboi - vezica biliara 23 - 1 - trompeta - pancreas 9 - 11 - pian, orga, - stomac 7 - 9 clavecin - vioara - intestin subtire 13 - 15
 
-- muzicuța - intestin gros 5 - 7
+- muzicuta - intestin gros 5 - 7
 - saxofon - rinichi 17 - 19
 - toba - coloana vertebrala 15 - 17
 Zodiac - leu , mi, mi major
- - fecioară, fa, fa major
- - săgetător, sol diez sau la bemol
- - pești, si, si majo
+ - fecioara, fa, fa major
+ - sagetator, sol diez sau la bemol
+ - pesti, si, si majo
 Horoscopul druizilor - leu - cedru
- - pește - salcie
- - săgetător - frasin
+ - peste - salcie
+ - sagetator - frasin
 ### Sebastian Kneipp
-.(1821-1897) cunoscut pentru procedeele de vindecare cu apă, sfaturi legate de plante, alimentație, mișcare, terapia ordinii, care propovăduiește simplitatea și cumpătarea.
-### Țânțarii
-cum ne apărăm, vitamina B1 în doze mari, haine deschise, cele închise la culoare îi atrag, nu folosiți parfumuri, plantați în ghivece busuioc, lumânări parfumate cu miros de lămâie, sau ulei aromat de lămâie amestecat cu apă. Se prepară un amestec din 100 ml. ulei de măsline, cu 30 pic. ulei de mentă, geranium sau eucalipt. Se pune pe pervazul ferestrei ghivece cu mușcate sau bus uioc, sau în casâ farfurii cu terebentinặ sau amoniac. . In scrisoarea adresata revistei “Formula AS “ nu precizati de ce fel de gastrita suferiti. Exista doua feluri de gastrite, si anume: gastrita hiperacida, care este de fapt cea mai frecventa si se caracterizeaza printr-o hipersecretie gastrica acida si gastrita hipoacida, in cazul careia mucoasa gastrica produce prea putin suc gastric acid, digestia alimentelor fiind in consecinta foarte dificila. Ambele tipuri de gastrita sunt caracterizate prin durerile la care va referiti dvs. Tratamentul lor insa este evident diferit, intrucat in primul caz se urmareste diminuarea sau neutralizarea secretiei gastrice excesive, pe cand in cel de-al doilea caz, din contra, stimularea mucoasei gastrice pentru producerea in cantitate mai mare a acidului clorhidric continut de sucul gastric. In ambele cazuri, alimentele vor fi consumate la temperaturi potrivite (nici prea reci, nici prea fierbinti) si vor fi mestecate suficient, fara graba, pentru a se reduce efortul stomacului, usurandu-se astfel digestia si reducandu-se timpul lor de sedere in stomac. Sunt multe cazuri in care bolnavii cu o dantura deficitara constata cu surprindere ca, dupa ce isi pun la punct dantura si pot mesteca suficient alimentele, se vindeca de gastrita. In caz ca suferiti de gastrita hiperacida, puteti utiliza ca tratamente naturiste adjuvante
+.(1821-1897) cunoscut pentru procedeele de vindecare cu apa, sfaturi legate de plante, alimentatie, miscare, terapia ordinii, care propovaduieste simplitatea si cumpatarea.
+### Tantarii
+cum ne aparam, vitamina B1 in doze mari, haine deschise, cele inchise la culoare ii atrag, nu folositi parfumuri, plantati in ghivece busuioc, lumanari parfumate cu miros de lamaie, sau ulei aromat de lamaie amestecat cu apa. Se prepara un amestec din 100 ml. ulei de masline, cu 30 pic. ulei de menta, geranium sau eucalipt. Se pune pe pervazul ferestrei ghivece cu muscate sau bus uioc, sau in casa farfurii cu terebentina sau amoniac. . In scrisoarea adresata revistei “Formula AS “ nu precizati de ce fel de gastrita suferiti. Exista doua feluri de gastrite, si anume: gastrita hiperacida, care este de fapt cea mai frecventa si se caracterizeaza printr-o hipersecretie gastrica acida si gastrita hipoacida, in cazul careia mucoasa gastrica produce prea putin suc gastric acid, digestia alimentelor fiind in consecinta foarte dificila. Ambele tipuri de gastrita sunt caracterizate prin durerile la care va referiti dvs. Tratamentul lor insa este evident diferit, intrucat in primul caz se urmareste diminuarea sau neutralizarea secretiei gastrice excesive, pe cand in cel de-al doilea caz, din contra, stimularea mucoasei gastrice pentru producerea in cantitate mai mare a acidului clorhidric continut de sucul gastric. In ambele cazuri, alimentele vor fi consumate la temperaturi potrivite (nici prea reci, nici prea fierbinti) si vor fi mestecate suficient, fara graba, pentru a se reduce efortul stomacului, usurandu-se astfel digestia si reducandu-se timpul lor de sedere in stomac. Sunt multe cazuri in care bolnavii cu o dantura deficitara constata cu surprindere ca, dupa ce isi pun la punct dantura si pot mesteca suficient alimentele, se vindeca de gastrita. In caz ca suferiti de gastrita hiperacida, puteti utiliza ca tratamente naturiste adjuvante
 
 urmatoarele ceaiuri, pe care cred ca le puteti gasi si in Canada, si, ca sa
 va fie mai usor, mentionez si denumirea lor stiintifica: - ceai din flori de
 galbenele (Flores Calendulae); - ceai din frunze de plamanarica (Folium
 ### Pulmonariae)
-- ceai din frunze de zmeur (Folium Rubinidae); - ceai din frunze de salcam (Flores Acaciae). Ceaiul se prepara sub forma de infuzie, dintr-o lingura de flori la 200 g apa in clocot. Aceste ceaiuri cu efecte cicatrizante si calmante se vor bea cu circa 30 de minute inainte de mesele principale. In cazul in care gasiti in Canada, la apicultori, tinctura de propolis, puteti apela cu succes si la acest tratament apicol, constand din 30 picaturi de tinctura, dizolvate intr-o ceasca de lapte cald. Propolisul, unul dintre cele mai valoroase produse apicole, are in acest caz un puternic efect antiseptic si cicatrizant asupra mucoasei gastrice iritate. Rezultate bune puteti obtine si prin consumul de suc de cartofi sau de varza cruda, pe care il puteti prepara singura, cu ajutorul storcatorului de fructe, si care se bea cu circa 30-60 de minute inaintea meselor principale, proaspat preparat. Ca tratament alopat, va recomand tabletele de Ranitidina - un medicament care blocheaza secretia gastrica si pe care il puteti gasi cu siguranta si in farmaciile din Canada, cu denumirea substantei active sau sub alte denumiri comerciale (consultati farmacistul). Evitati cu strictete consumul de cafea, ceai chinezesc sau indian negru sau verde, alcool, cacao, care au efect excitant asupra mucoasei gastrice, contribuind la accentuarea hipersecretiei. In cazul in care suferiti de gastrita hipoacida, din contra, apelati la cafea, cacao, ceai chinezesc sau indian negru sau verde, deoarece de aceasta data se urmareste tocmai stimularea secretiei gastrice acide deficitare. Ca ceaiuri medicinale adjuvante, puteti utiliza in acest caz urmatoarele: ceai de tintaura (Herba centauri); ceai de schinel (Onicus benedictus); ceai de sovarv (Herba origani). Ceaiul il puteti prepara sub forma de infuzie, dintr-o lingura de planta la jumatate de litru de apa in clocot, consumat cu circa 30-60 minute inaintea meselor principale, in cantitate de circa 50 g. La cresterea secretiei gastrice pot contribui si unele produse apicole, ca mierea de albine sau polenul. Prin aplicarea acestor tratamente, corespunzator tipului de gastrita de care suferiti, sunt convins ca va veti simti mai bine. Va doresc succes si multa sanatate! VALERIU MUNTEANU - Timișoara
+- ceai din frunze de zmeur (Folium Rubinidae); - ceai din frunze de salcam (Flores Acaciae). Ceaiul se prepara sub forma de infuzie, dintr-o lingura de flori la 200 g apa in clocot. Aceste ceaiuri cu efecte cicatrizante si calmante se vor bea cu circa 30 de minute inainte de mesele principale. In cazul in care gasiti in Canada, la apicultori, tinctura de propolis, puteti apela cu succes si la acest tratament apicol, constand din 30 picaturi de tinctura, dizolvate intr-o ceasca de lapte cald. Propolisul, unul dintre cele mai valoroase produse apicole, are in acest caz un puternic efect antiseptic si cicatrizant asupra mucoasei gastrice iritate. Rezultate bune puteti obtine si prin consumul de suc de cartofi sau de varza cruda, pe care il puteti prepara singura, cu ajutorul storcatorului de fructe, si care se bea cu circa 30-60 de minute inaintea meselor principale, proaspat preparat. Ca tratament alopat, va recomand tabletele de Ranitidina - un medicament care blocheaza secretia gastrica si pe care il puteti gasi cu siguranta si in farmaciile din Canada, cu denumirea substantei active sau sub alte denumiri comerciale (consultati farmacistul). Evitati cu strictete consumul de cafea, ceai chinezesc sau indian negru sau verde, alcool, cacao, care au efect excitant asupra mucoasei gastrice, contribuind la accentuarea hipersecretiei. In cazul in care suferiti de gastrita hipoacida, din contra, apelati la cafea, cacao, ceai chinezesc sau indian negru sau verde, deoarece de aceasta data se urmareste tocmai stimularea secretiei gastrice acide deficitare. Ca ceaiuri medicinale adjuvante, puteti utiliza in acest caz urmatoarele: ceai de tintaura (Herba centauri); ceai de schinel (Onicus benedictus); ceai de sovarv (Herba origani). Ceaiul il puteti prepara sub forma de infuzie, dintr-o lingura de planta la jumatate de litru de apa in clocot, consumat cu circa 30-60 minute inaintea meselor principale, in cantitate de circa 50 g. La cresterea secretiei gastrice pot contribui si unele produse apicole, ca mierea de albine sau polenul. Prin aplicarea acestor tratamente, corespunzator tipului de gastrita de care suferiti, sunt convins ca va veti simti mai bine. Va doresc succes si multa sanatate! VALERIU MUNTEANU - Timisoara

@@ -1,3425 +1,3425 @@
 Maria Treben
-# SĂNĂTATE DIN FARMACIA DOMNULUI
+# SANATATE DIN FARMACIA DOMNULUI
 
- SĂNĂTATE
+ SANATATE
 DIN
 FARMACIA DOMNULUI
- Practica mea în legătură cu plantele medicinale
-și sfaturi pentru utilizarea lor
+ Practica mea in legatura cu plantele medicinale
+si sfaturi pentru utilizarea lor
 
 B U D A P £ S T
 HUNGALIBRI, Budapesta
 
 MARIA TREBEN
 Ilustrator: VARGA EMMA
-Consultant științific: dr. Petre Stroescu
+Consultant stiintific: dr. Petre Stroescu
 „Gesundheit aus der Apotheke Gottes",
-Verlag Wilhelm Ennsthaler, A-4402 Steyr, ediția a 46-a
+Verlag Wilhelm Ennsthaler, A-4402 Steyr, editia a 46-a
 
-Prefață
-Din Sf. Scriptură, Sirach 38, volumul 4: Domnul
-lasă doctoria să crească din Pământ și-un înțelept
-n-o disprețuiește !
-În ciuda numeroaselor atacuri din diverse părți la adresa persoanei mele și a sfaturilor mele
-din broșura „Gesundheit aus der Apotheke Gottes" (Sănătate din farmacia Domnului), mulțimea
-de scrisori primite de la oameni sănătoși și bolnavi, de la medici și tămăduitori din țară și
-străinătate m-a determinat să-mi pun și mai departe la dispoziția oamenilor cunoștințele și cele
-mai noi experiențe în legătură cu plantele medicinale, într-o nouă ediție, îmbunătățită și lărgită,
-a broșurii menționate.
-într-o epocă în care atât de mulți oameni se îndepărtează tot mai tare de modul de viață
-naturist și sânt amenințați de boli grave din cauza unei false atitudini în fața vieții, ar trebui să
-regăsim drumul ce duce spre plantele noastre medicinale, pe care Dumnezeu ni le dăruiește din
-timpuri străvechi prin bunătatea LUI. Preotul Kneipp scrie în cărțile sale „că pentru fiecare
-boală a crescut o mică plantă!" Astfel, oricare om își poate ajuta propria sănătate, dacă va
-culege cu grijă și la timp plante din „farmacia Domnului", dacă-va bea zilnic sau în timpul curei
-infuzia lor (sub formă de ceai), dacă le va întrebuința extractele ca frecții sau comprese, inhalații
-sau adaos la apa de baie. Cel ce se decide să întrebuințeze plante medicinale ar trebui să
-înceapă cu cele depurative (care curăță sângele), cum ar fi leurda, urzica, ventrilica, păpădia și
-pătlagina. Astfel de cure urmate exact după prescripție nu pot face niciodată rău. Dacă ele nu
-aduc alinare și ajutor sau le aduc doar foarte timid, este posibil să existe în locuință sau la locul
-de muncă zone geografice de perturbare. Atunci ar trebui chemată o persoană care caută
-surse de apă subterană sau zăcăminte cu ajutorul unei nuiele, pentru a găsi niște zone fără
-radiații.
-în caz de indispoziție serioasă, de febră și alte simptome clare de boală trebuie cerut
-neapărat sfatul medicului, consultându-l la timp pentru stabilirea diagnosticului.
-Bineînțeles că desfășurarea unei boli grele și consecințele ei trebuie urmărite scrupulos de către
+Prefata
+Din Sf. Scriptura, Sirach 38, volumul 4: Domnul
+lasa doctoria sa creasca din Pamant si-un intelept
+n-o dispretuieste !
+In ciuda numeroaselor atacuri din diverse parti la adresa persoanei mele si a sfaturilor mele
+din brosura „Gesundheit aus der Apotheke Gottes" (Sanatate din farmacia Domnului), multimea
+de scrisori primite de la oameni sanatosi si bolnavi, de la medici si tamaduitori din tara si
+strainatate m-a determinat sa-mi pun si mai departe la dispozitia oamenilor cunostintele si cele
+mai noi experiente in legatura cu plantele medicinale, intr-o noua editie, imbunatatita si largita,
+a brosurii mentionate.
+intr-o epoca in care atat de multi oameni se indeparteaza tot mai tare de modul de viata
+naturist si sant amenintati de boli grave din cauza unei false atitudini in fata vietii, ar trebui sa
+regasim drumul ce duce spre plantele noastre medicinale, pe care Dumnezeu ni le daruieste din
+timpuri stravechi prin bunatatea LUI. Preotul Kneipp scrie in cartile sale „ca pentru fiecare
+boala a crescut o mica planta!" Astfel, oricare om isi poate ajuta propria sanatate, daca va
+culege cu grija si la timp plante din „farmacia Domnului", daca-va bea zilnic sau in timpul curei
+infuzia lor (sub forma de ceai), daca le va intrebuinta extractele ca frectii sau comprese, inhalatii
+sau adaos la apa de baie. Cel ce se decide sa intrebuinteze plante medicinale ar trebui sa
+inceapa cu cele depurative (care curata sangele), cum ar fi leurda, urzica, ventrilica, papadia si
+patlagina. Astfel de cure urmate exact dupa prescriptie nu pot face niciodata rau. Daca ele nu
+aduc alinare si ajutor sau le aduc doar foarte timid, este posibil sa existe in locuinta sau la locul
+de munca zone geografice de perturbare. Atunci ar trebui chemata o persoana care cauta
+surse de apa subterana sau zacaminte cu ajutorul unei nuiele, pentru a gasi niste zone fara
+radiatii.
+in caz de indispozitie serioasa, de febra si alte simptome clare de boala trebuie cerut
+neaparat sfatul medicului, consultandu-l la timp pentru stabilirea diagnosticului.
+Bineinteles ca desfasurarea unei boli grele si consecintele ei trebuie urmarite scrupulos de catre
 medic.
-Faptul că medicina predată la facultate începe treptat să se intereseze și de medicina
-naturistă reiese din cel de-al XXV-lea Congres Internațional de Perfecționare al Camerei
-Federale Germane a Medicilor și al Camerei Austriece a Medicilor, din mai 1980, de la
-Badgastein (landul Salzburg), la care au participat în jur de 1500 medici. Profesorul universitar
-dr. Cari Alken (Universitatea din Saarland, R.F.G.) argumentează o îndreptare tot mai
-puternică a medicinii predate la facultate spre forțele tămăduitoare ale naturii în felul următor:
-„După cel de-al doilea război mondial, medicii s-au aflat practic neputincioși în fața
-tuberculozei sau, de exemplu, a proastei funcționări a rinichilor. A urmat marea schimbare o
-dată cu introducerea antibioticelor, iar astăzi trebuie să ne luptăm deja cu urmările negative
-ale utilizării parțial exagerate, parțial greșite a acestor «binefăcători». La aceasta se adaugă o
-creștere de forța unei avalanșe â micozelor declanșate de o perturbare a echilibrului biologic
-normal, de prea multe medicamente și de alte influențe ale mediului."
-Urmăresc de ani de zile sesiuni și congrese medicale ale căror rezultate apar și în co tidiene.
-Mulți medici cu conștiința responsabilității pun în gardă în fața unei folosiri excesive
-a medicamentelor Se arată mai ales cit de periculoase pot deveni calmantele. Ele sânt
-luate de nenumărați oameni fără control medical și pot dăuna foarte serios diferitelor organe.
-Medicamentele pentru scăderea tensiunii, de exemplu, luate timp îndelungat, provoacă la
-femei cancer mamar, după cum au constatat trei grupe de cer cetători care au lucrat
-independent unele de altele, la Boston, Bristol și Helsinki.
-Aș dori acum să dau acces bolnavilor la forța lecuitoare și acțiunea unor plante im-
-portante, prin experiența mea din ultimii doi ani și jumătate, adică din timpul scurs de la
+Faptul ca medicina predata la facultate incepe treptat sa se intereseze si de medicina
+naturista reiese din cel de-al XXV-lea Congres International de Perfectionare al Camerei
+Federale Germane a Medicilor si al Camerei Austriece a Medicilor, din mai 1980, de la
+Badgastein (landul Salzburg), la care au participat in jur de 1500 medici. Profesorul universitar
+dr. Cari Alken (Universitatea din Saarland, R.F.G.) argumenteaza o indreptare tot mai
+puternica a medicinii predate la facultate spre fortele tamaduitoare ale naturii in felul urmator:
+„Dupa cel de-al doilea razboi mondial, medicii s-au aflat practic neputinciosi in fata
+tuberculozei sau, de exemplu, a proastei functionari a rinichilor. A urmat marea schimbare o
+data cu introducerea antibioticelor, iar astazi trebuie sa ne luptam deja cu urmarile negative
+ale utilizarii partial exagerate, partial gresite a acestor «binefacatori». La aceasta se adauga o
+crestere de forta unei avalanse a micozelor declansate de o perturbare a echilibrului biologic
+normal, de prea multe medicamente si de alte influente ale mediului."
+Urmaresc de ani de zile sesiuni si congrese medicale ale caror rezultate apar si in co tidiene.
+Multi medici cu constiinta responsabilitatii pun in garda in fata unei folosiri excesive
+a medicamentelor Se arata mai ales cit de periculoase pot deveni calmantele. Ele sant
+luate de nenumarati oameni fara control medical si pot dauna foarte serios diferitelor organe.
+Medicamentele pentru scaderea tensiunii, de exemplu, luate timp indelungat, provoaca la
+femei cancer mamar, dupa cum au constatat trei grupe de cer cetatori care au lucrat
+independent unele de altele, la Boston, Bristol si Helsinki.
+As dori acum sa dau acces bolnavilor la forta lecuitoare si actiunea unor plante im-
+portante, prin experienta mea din ultimii doi ani si jumatate, adica din timpul scurs de la
 
-apariția broșurii „Sănătate din farmacia Domnului", și să le întind mâna pentru a se însănătoși.
-Este înălțător ca omul să poată ieși din disperarea pricinuită de boală, prin propriile sale forțe și
-propria sa voință, grație ajutorului divin al plantelor noastre medicinale. A-și recuceri
-sănătatea, a purta singur această răspundere ridică demnitatea omului într-o măsură care îl
-scoate pe bolnav din lipsa de speranță a vieții sale.
-Sânt întrebată tot mereu de unde m i-am dobândit cunoștințele despre plantele medicinale.
-Nu pot da un răspuns precis, în copilărie îm i petreceam vacanțele școlare la familia unui
-inspector silvic. Aici puteam trăi și sim ți intens corelațiile din natură într-un mod ce depășea
-posibilitățile vârstei mele. Astfel, copil fiind, eram deja în stare să deosebesc orice plantă,
-știindu-i și numele; nu-i cunoșteam însă importanța ca plantă medicinală. M am a mea, o adeptă
-entuziastă a lui Kneipp, se străduia să ne crească pe noi, copiii, în mod naturist, fără influență
-chimică.
-Două evenim ente m i s-au întipărit în mod deosebit în minte și viață pe când eram copil. O
-văduvă în vârstă de aproximativ 40 de ani, mama a trei copii și bolnavă de leucemie, fusese
-trim isă acasă de la spital ca fiind un caz incurabil. Medicii îi mai dăduseră trei zile de trăit. Sora
-ei, gândindu-se disperată la copiii ce urmau să rămână orfani, a dus urina bolnavei la o
-vânzătoare de bumfeni de leac din apropiere de Karlsbad. Deși această femeie a exclamat
-speriată: „Abia acum veniți!" - ierburile date au ajutat. La un consult clinic efectuat zece zile mai
-târziu nu s-a mai găsit nici urmă de leucemie.
-Un caz asemănător s-a întâmplat cu o femeie de 38 de ani, mamă a patru copii. Și aici
-era vorba de leucemie și medicii n-au mai dat nici o speranță. Femeia a căutat sfat tot la o
-vânzătoare de plante medicinale, procurându-si ierburile corespunzătoare. Și-a preparat zilnic
-câteva cești cu ceaiuri. D e fiecare dată când trecea prin fața lor lua câte o înghițitură zdravănă.
-Chiar dacă n-ajută, n-are nici ce să-mi strice, s-a gândit. Zece zile mai târziu, re zultatul
-exam enului medical a fost: Nici o urmă de leucemie!
-Din aceste exemple se poate recunoaște cât de important este să se bea în tim pul zilei o
-mare cantitate de ceai în cazul bolilor ce par incurabile. Mie mi-a fost clar de atunci că
-plantele pot ajuta chiar și în bolile foarte grave, cum ar fi cele canceroase.
-în 1961, de ziua Intrării Maicii Domnului în biserică, a murit buna mea mamă. De atunci am
-avut sentimentul precis de a fi îm pinsă către fitoterapie. S-au adăugat noi experiențe și
-treptat m-am integrat tot mai puternic în problema plantelor medicinale din farmacia Domnului.
-Era ca și cum m -ar fi dirijat o forță mai înaltă, mai ales Maica Domnului, marea salvatoare a
-tuturor bolnavilor, și mi-ar fi indicat drumul cel sigur, Încrederea în EA, adorația și rugăciunea
-în fața unei icoane vechi, minunate a Fecioarei Măria, icoană ajunsă într-un mod ciudat în
-mâinile mele și deci în posesia mea, au ajutat de fiecare dată în caz de dubiu.
-Deci nu mă străduiesc să îndrept oamenii numai spre plantele medicinale și puterile lor, ci
-mai ales spre forța supremă a Creatorului în ale cărui mâini se află cuibărită viața noastră și
-care o hotărăște. La EL căutăm ajutor și mângâiere, iar la boală grea luăm sm eriți și cucernici
-ierburi din farmacia LUI. De EL depinde să ne conducă, să ne umple cu daruri și să ne dirijeze
-viața după voința LUI!
-în încheiere aș mai vrea să subliniez că m-am străduit în toate privințele să includ
-toată practica mea în această broșură revizuită și completată, pentru a 6 oferi în mod
-folositor omenirii. Lărgirea voluminoasă a materiei o leg de 6 rugăminte: Nu-mi tele-
-fonați și nu-mi scrieți scrisori! Nefiind medic practician, nu dau consultații!
-Indexul alfabet foarte exact vă va indica drum ul corect pentru a folosi plantele adecvate.
-Aș mai dori să vă îndrum spre broșura „Maria Treben's Heilerfolge" (Vindecările Mariei Treben
-- Scrisori și relatări despre reușite tăm ăduitoare), apărută la aceeași editură.
-Și încă ceva: Nu vând plante medicinale și nu prim esc com enzi de plante medicinale!
+aparitia brosurii „Sanatate din farmacia Domnului", si sa le intind mana pentru a se insanatosi.
+Este inaltator ca omul sa poata iesi din disperarea pricinuita de boala, prin propriile sale forte si
+propria sa vointa, gratie ajutorului divin al plantelor noastre medicinale. A-si recuceri
+sanatatea, a purta singur aceasta raspundere ridica demnitatea omului intr-o masura care il
+scoate pe bolnav din lipsa de speranta a vietii sale.
+Sant intrebata tot mereu de unde m i-am dobandit cunostintele despre plantele medicinale.
+Nu pot da un raspuns precis, in copilarie im i petreceam vacantele scolare la familia unui
+inspector silvic. Aici puteam trai si sim ti intens corelatiile din natura intr-un mod ce depasea
+posibilitatile varstei mele. Astfel, copil fiind, eram deja in stare sa deosebesc orice planta,
+stiindu-i si numele; nu-i cunosteam insa importanta ca planta medicinala. M am a mea, o adepta
+entuziasta a lui Kneipp, se straduia sa ne creasca pe noi, copiii, in mod naturist, fara influenta
+chimica.
+Doua evenim ente m i s-au intiparit in mod deosebit in minte si viata pe cand eram copil. O
+vaduva in varsta de aproximativ 40 de ani, mama a trei copii si bolnava de leucemie, fusese
+trim isa acasa de la spital ca fiind un caz incurabil. Medicii ii mai dadusera trei zile de trait. Sora
+ei, gandindu-se disperata la copiii ce urmau sa ramana orfani, a dus urina bolnavei la o
+vanzatoare de bumfeni de leac din apropiere de Karlsbad. Desi aceasta femeie a exclamat
+speriata: „Abia acum veniti!" - ierburile date au ajutat. La un consult clinic efectuat zece zile mai
+tarziu nu s-a mai gasit nici urma de leucemie.
+Un caz asemanator s-a intamplat cu o femeie de 38 de ani, mama a patru copii. Si aici
+era vorba de leucemie si medicii n-au mai dat nici o speranta. Femeia a cautat sfat tot la o
+vanzatoare de plante medicinale, procurandu-si ierburile corespunzatoare. Si-a preparat zilnic
+cateva cesti cu ceaiuri. D e fiecare data cand trecea prin fata lor lua cate o inghititura zdravana.
+Chiar daca n-ajuta, n-are nici ce sa-mi strice, s-a gandit. Zece zile mai tarziu, re zultatul
+exam enului medical a fost: Nici o urma de leucemie!
+Din aceste exemple se poate recunoaste cat de important este sa se bea in tim pul zilei o
+mare cantitate de ceai in cazul bolilor ce par incurabile. Mie mi-a fost clar de atunci ca
+plantele pot ajuta chiar si in bolile foarte grave, cum ar fi cele canceroase.
+in 1961, de ziua Intrarii Maicii Domnului in biserica, a murit buna mea mama. De atunci am
+avut sentimentul precis de a fi im pinsa catre fitoterapie. S-au adaugat noi experiente si
+treptat m-am integrat tot mai puternic in problema plantelor medicinale din farmacia Domnului.
+Era ca si cum m -ar fi dirijat o forta mai inalta, mai ales Maica Domnului, marea salvatoare a
+tuturor bolnavilor, si mi-ar fi indicat drumul cel sigur, Increderea in EA, adoratia si rugaciunea
+in fata unei icoane vechi, minunate a Fecioarei Maria, icoana ajunsa intr-un mod ciudat in
+mainile mele si deci in posesia mea, au ajutat de fiecare data in caz de dubiu.
+Deci nu ma straduiesc sa indrept oamenii numai spre plantele medicinale si puterile lor, ci
+mai ales spre forta suprema a Creatorului in ale carui maini se afla cuibarita viata noastra si
+care o hotaraste. La EL cautam ajutor si mangaiere, iar la boala grea luam sm eriti si cucernici
+ierburi din farmacia LUI. De EL depinde sa ne conduca, sa ne umple cu daruri si sa ne dirijeze
+viata dupa vointa LUI!
+in incheiere as mai vrea sa subliniez ca m-am straduit in toate privintele sa includ
+toata practica mea in aceasta brosura revizuita si completata, pentru a 6 oferi in mod
+folositor omenirii. Largirea voluminoasa a materiei o leg de 6 rugaminte: Nu-mi tele-
+fonati si nu-mi scrieti scrisori! Nefiind medic practician, nu dau consultatii!
+Indexul alfabet foarte exact va va indica drum ul corect pentru a folosi plantele adecvate.
+As mai dori sa va indrum spre brosura „Maria Treben's Heilerfolge" (Vindecarile Mariei Treben
+- Scrisori si relatari despre reusite tam aduitoare), aparuta la aceeasi editura.
+Si inca ceva: Nu vand plante medicinale si nu prim esc com enzi de plante medicinale!
 Grieskirchen, mai 1980
 MARIA TREBEN
 
 ## PARTEA GENERALA
 
 PARTEA GENERALA
-Despre culegerea, păstrarea si prepararea corectă a
+Despre culegerea, pastrarea si prepararea corecta a
 plantelor medicinale
 ## CULEGEREA
 
 CULEGEREA
-Premisa culegerii este cunoașterea plantelor medicinale. Dacă ea este îndeplinită,
-atunci se pune problema culegerii plantelor la timpul potrivit, la locul potrivit și în modul
+Premisa culegerii este cunoasterea plantelor medicinale. Daca ea este indeplinita,
+atunci se pune problema culegerii plantelor la timpul potrivit, la locul potrivit si in modul
 potrivit.
-Cele mai bune efecte lecuitoare au, conform experienței, ierburile proaspăt culese; ele
-sânt neapărat necesare pentru o reușită în cazurile de îmbolnăviri grave.
-Ierburile proaspete vi le puteți culege singuri, începând cu primăvara timpurie, uneori
-deja înainte de sfârșitul lui februarie, până prin noiembrie. Unele pot fi găsite chiar în timpul
-iernii sub pătură de zăpadă, dacă li s-a reținut locul (de exemplu: rostopasca).
-Pentru iarnă se face o provizie nu excesiv de mare de ierburi, în acest scop, tre buie să
-le culegem în perioada conținutului cel mai mare de substanțe active.
-La FLORI aceasta este la începutul perioadei de înflorire.
-La FRUNZE - înainte și după perioada de înflorire.
-RĂDĂCINILE sunt scoase din pământ la începutul primăverii sau toamna.
-FRUCTELE se culeg în perioada coacerii.
-A se respecta următoarele indicații: Să nu se adune decât plante sănătoase, cu rate,
-fără insecte! Să se culeagă plantele în zilele însorite, în stare uscată, atunci când rouă s-a
+Cele mai bune efecte lecuitoare au, conform experientei, ierburile proaspat culese; ele
+sant neaparat necesare pentru o reusita in cazurile de imbolnaviri grave.
+Ierburile proaspete vi le puteti culege singuri, incepand cu primavara timpurie, uneori
+deja inainte de sfarsitul lui februarie, pana prin noiembrie. Unele pot fi gasite chiar in timpul
+iernii sub patura de zapada, daca li s-a retinut locul (de exemplu: rostopasca).
+Pentru iarna se face o provizie nu excesiv de mare de ierburi, in acest scop, tre buie sa
+le culegem in perioada continutului cel mai mare de substante active.
+La FLORI aceasta este la inceputul perioadei de inflorire.
+La FRUNZE - inainte si dupa perioada de inflorire.
+RADACINILE sunt scoase din pamant la inceputul primaverii sau toamna.
+FRUCTELE se culeg in perioada coacerii.
+A se respecta urmatoarele indicatii: Sa nu se adune decat plante sanatoase, cu rate,
+fara insecte! Sa se culeaga plantele in zilele insorite, in stare uscata, atunci cand roua s-a
 dus.
-Nu sânt locuri bune de cules următoarele: câmpurile îngrășate chimic, câmpiile și
-malurile de ape murdare, infestate, terasamentele de cale ferată și locurile apropiate de
-străzi cu circulație intensă, de autostrăzi și instalații industriale.
-Cruță natura! (Nu rupe plantele cu rădăcină cu tot, nu face pagube!) Unele specii -
-monumente ale naturii - sunt ocrotite de lege. Există destule plante medicinale cu același
-efect care nu se află sub ocrotire legală (de exemplu: urechea-ursului -ciuboțica-cucului).
-A nu se strivi florile și frunzele în timpul culesului și a nu se utiliza pungi și sacoșe de
-plastic pentru adunat! Plantele încep să transpire și se înnegresc mai târziu, în timpul
+Nu sant locuri bune de cules urmatoarele: campurile ingrasate chimic, campiile si
+malurile de ape murdare, infestate, terasamentele de cale ferata si locurile apropiate de
+strazi cu circulatie intensa, de autostrazi si instalatii industriale.
+Cruta natura! (Nu rupe plantele cu radacina cu tot, nu face pagube!) Unele specii -
+monumente ale naturii - sunt ocrotite de lege. Exista destule plante medicinale cu acelasi
+efect care nu se afla sub ocrotire legala (de exemplu: urechea-ursului -ciubotica-cucului).
+A nu se strivi florile si frunzele in timpul culesului si a nu se utiliza pungi si sacose de
+plastic pentru adunat! Plantele incep sa transpire si se innegresc mai tarziu, in timpul
 uscatului.
 ## USCAREA
 
 USCAREA
-Plantele nu se spală înainte de a fi puse la uscat, dar se taie mărunt. Ceea ce s-a cules
-se așează afinat pe bucăți de cârpă sau de hârtie netipărită și se usucă la umbră sau în
-încăperi aerisite, călduroase (poduri) cât se poate de repede. Pentru rădăcini, scoarțe sau
-porțiuni foarte zemoase ale plantelor este adesea indicată o uscare cu căldură artificială.
-Temperatura nu are voie să depășească 35 grade. Rădăcinile care sunt spălate temeinic,
-vâscul și pufulița ar fi bine să fie tăiate înainte de uscare.
+Plantele nu se spala inainte de a fi puse la uscat, dar se taie marunt. Ceea ce s-a cules
+se aseaza afinat pe bucati de carpa sau de hartie netiparita si se usuca la umbra sau in
+incaperi aerisite, calduroase (poduri) cat se poate de repede. Pentru radacini, scoarte sau
+portiuni foarte zemoase ale plantelor este adesea indicata o uscare cu caldura artificiala.
+Temperatura nu are voie sa depaseasca 35 grade. Radacinile care sunt spalate temeinic,
+vascul si pufulita ar fi bine sa fie taiate inainte de uscare.
 
-Numai plantele foarte bine uscate pot fi păstrate pentru iarnă. Cele mai indicate în acest
-scop sunt borcanele sau cutiile de carton ce pot fi închise. A se evita recipientele din plastic
-și cutiile de tablă! Plantele ar trebui ferite de lumină (a se folosi borcane colorate, cei verzi
+Numai plantele foarte bine uscate pot fi pastrate pentru iarna. Cele mai indicate in acest
+scop sunt borcanele sau cutiile de carton ce pot fi inchise. A se evita recipientele din plastic
+si cutiile de tabla! Plantele ar trebui ferite de lumina (a se folosi borcane colorate, cei verzi
 sunt cele mai bune).
-Aprovizionați-vă doar pentru o singură iarnă! Plantele își pierd cu timpul forța
-tămăduitoare. Fiecare an ne binecuvântează cu o nouă generație de plante.
+Aprovizionati-va doar pentru o singura iarna! Plantele isi pierd cu timpul forta
+tamaduitoare. Fiecare an ne binecuvanteaza cu o noua generatie de plante.
 Moduri de preparare
 ## PREPARAREA CEAIULUI
 
 PREPARAREA CEAIULUI
-Opărire sau infuzie: Se taie plantele proaspete și se pun într-un vas de sticlă sau
-alt recipient nemetalic. Se fierbe apa, se trage de pe foc și se toarnă peste plantele
-pregătite. Plantele proaspete nu se lasă să stea în vas - pentru ca ceaiul să „tragă" - decât
-foarte scurt timp (ajunge 1/2 minut)! Ceaiul trebuie să fie foarte deschis la culoare: galben
-deschis sau verde deschis. Plantele uscate se lasă să stea ceva mai mult timp (repaos: 1-2
-minute). Un ceai astfel preparat este mult mai sănătos și mai plăcut ochilor.
-Rădăcinile se introduc în cantitatea de apă rece indicată, se pun să dea câteva clocote
-și se lasă să stea 3 minute.
-Rația de ceai pentru o zi se introduce într-un termos și se bea din când în când câte 1
-înghițitură pe parcursul întregii zile, corespunzător indicației, în general se pune 1 linguriță
-(cu vârf) de plante la 1/4 litru de apă (=1 ceașcă), altfel conform indicației de la fiecare plantă
-în parte.
-Extract rece: Unele plante medicinale (de exemplu cașul-popii, vâscul sau obli-
-geana) n-au voie să fie opărite, întrucât și-ar pierde forța curativă prin acțiunea căldurii.
-Un ceai din aceste plante se obține prin extract rece (numit și macerat). Cantitatea in dicată
-la fiecare plantă în parte se lasă în apă rece la macerat 8-12 ore (în general peste noapte),
-apoi maceratul se încălzește doar ușor (până la temperatura bună de băut), iar rația pentru
-o zi se păstrează într-un termos care a fost clătit în prealabil cu apă fierbinte. Amestecul de
+Oparire sau infuzie: Se taie plantele proaspete si se pun intr-un vas de sticla sau
+alt recipient nemetalic. Se fierbe apa, se trage de pe foc si se toarna peste plantele
+pregatite. Plantele proaspete nu se lasa sa stea in vas - pentru ca ceaiul sa „traga" - decat
+foarte scurt timp (ajunge 1/2 minut)! Ceaiul trebuie sa fie foarte deschis la culoare: galben
+deschis sau verde deschis. Plantele uscate se lasa sa stea ceva mai mult timp (repaos: 1-2
+minute). Un ceai astfel preparat este mult mai sanatos si mai placut ochilor.
+Radacinile se introduc in cantitatea de apa rece indicata, se pun sa dea cateva clocote
+si se lasa sa stea 3 minute.
+Ratia de ceai pentru o zi se introduce intr-un termos si se bea din cand in cand cate 1
+inghititura pe parcursul intregii zile, corespunzator indicatiei, in general se pune 1 lingurita
+(cu varf) de plante la 1/4 litru de apa (=1 ceasca), altfel conform indicatiei de la fiecare planta
+in parte.
+Extract rece: Unele plante medicinale (de exemplu casul-popii, vascul sau obli-
+geana) n-au voie sa fie oparite, intrucat si-ar pierde forta curativa prin actiunea caldurii.
+Un ceai din aceste plante se obtine prin extract rece (numit si macerat). Cantitatea in dicata
+la fiecare planta in parte se lasa in apa rece la macerat 8-12 ore (in general peste noapte),
+apoi maceratul se incalzeste doar usor (pana la temperatura buna de baut), iar ratia pentru
+o zi se pastreaza intr-un termos care a fost clatit in prealabil cu apa fierbinte. Amestecul de
 extract rece cu infuzie este considerat cel mai bun mod de utilizare a plantelor medicinale:
-Plantele se lasă peste noapte la rece, în jumătate din cantitatea de apă indicată, iar
-dimineața se strecoară. Plantele rămase se opăresc acum cu cealaltă jumătate a cantității
-de apă (fierbinte) și se strecoară din nou. Se amestecă extractul rece (maceratul) și infuzia.
-Prin această preparare a ceaiului se obțin substanțele active care sunt solubile fie numai în
-apa rece, fie numai în cea fierbinte.
-## TINCTURA (ESENȚA)
+Plantele se lasa peste noapte la rece, in jumatate din cantitatea de apa indicata, iar
+dimineata se strecoara. Plantele ramase se oparesc acum cu cealalta jumatate a cantitatii
+de apa (fierbinte) si se strecoara din nou. Se amesteca extractul rece (maceratul) si infuzia.
+Prin aceasta preparare a ceaiului se obtin substantele active care sunt solubile fie numai in
+apa rece, fie numai in cea fierbinte.
+## TINCTURA (ESENTA)
 
-TINCTURA (ESENȚA)
-Tincturile sunt tot extracte obținute de data aceasta din rachiu de secară sau de fructe
-de 38-40%. O sticlă sau alt recipient ce poate fi astupat se umple cu respec tivele plante
-până la gât, fără a se îndesa, iar deasupra se toarnă rachiu de fructe sau de secară. Sticla
-este lăsată să stea, bine închisă, la loc călduros (cca. 20 grade) 14 zile sau chiar mai mult,
-timp în care se agită des, apoi se strecoară, iar ceea ce rămâne se stoarce bine. Uz intern:
-amestecate cu ceai, tincturile se iau sub formă de picături; uz extern: frecții sau comprese.
+TINCTURA (ESENTA)
+Tincturile sunt tot extracte obtinute de data aceasta din rachiu de secara sau de fructe
+de 38-40%. O sticla sau alt recipient ce poate fi astupat se umple cu respec tivele plante
+pana la gat, fara a se indesa, iar deasupra se toarna rachiu de fructe sau de secara. Sticla
+este lasata sa stea, bine inchisa, la loc calduros (cca. 20 grade) 14 zile sau chiar mai mult,
+timp in care se agita des, apoi se strecoara, iar ceea ce ramane se stoarce bine. Uz intern:
+amestecate cu ceai, tincturile se iau sub forma de picaturi; uz extern: frectii sau comprese.
 
-## SUCUL PROASPĂT
+## SUCUL PROASPAT
 
-SUCUL PROASPĂT
-Sucurile proaspete de plante se iau sub formă de picături sau se folosesc pentru
-tamponarea zonelor bolnave de pe corp. Se obțin cu ajutorul storcătorului electric de uz
-casnic care mărunțește plantele, presându-le în același timp. Sucurile ar trebui făcute
-proaspăt în fiecare zi. Totuși, introduse în sticluțe și bine astupate, pot ține câteva luni dacă
-sunt păstrate la frigider.
+SUCUL PROASPAT
+Sucurile proaspete de plante se iau sub forma de picaturi sau se folosesc pentru
+tamponarea zonelor bolnave de pe corp. Se obtin cu ajutorul storcatorului electric de uz
+casnic care marunteste plantele, presandu-le in acelasi timp. Sucurile ar trebui facute
+proaspat in fiecare zi. Totusi, introduse in sticlute si bine astupate, pot tine cateva luni daca
+sunt pastrate la frigider.
 ## TERCIUL DE PLANTE
 
 TERCIUL DE PLANTE
-Tulpinile si frunzele se zdrobesc pe un fund de lemn cu ajutorul unui sucitor de tăiței
-până se formează un terci. Acesta se întinde pe o pânză care se aplică pe porțiunea
-bolnavă, se leagă cu o bucată de cârpă și se menține cald. Această com presă cu terci se
-poate păstra și peste noapte.
+Tulpinile si frunzele se zdrobesc pe un fund de lemn cu ajutorul unui sucitor de taitei
+pana se formeaza un terci. Acesta se intinde pe o panza care se aplica pe portiunea
+bolnava, se leaga cu o bucata de carpa si se mentine cald. Aceasta com presa cu terci se
+poate pastra si peste noapte.
 ## COMPRESELE CU ABURI DIN PLANTE
 
 COMPRESELE CU ABURI DIN PLANTE
-Se fierbe apă într-o oală, se atârnă deasupra o sită în care se introduc plante
-proaspete sau uscate și se acoperă. După câtva timp se iau plantele calde, muiate, se pun
-într-o pânză cu țesătura rară și se aplică pe locul suferind. Totul este acoperit apoi cu un
-postav de lână și legat strâns cu mai multe cârpe. N-are voie să apară nici un fel de senzație
+Se fierbe apa intr-o oala, se atarna deasupra o sita in care se introduc plante
+proaspete sau uscate si se acopera. Dupa catva timp se iau plantele calde, muiate, se pun
+intr-o panza cu tesatura rara si se aplica pe locul suferind. Totul este acoperit apoi cu un
+postav de lana si legat strans cu mai multe carpe. N-are voie sa apara nici un fel de senzatie
 de rece. Foarte eficiente sunt compresele cu aburi de coada-calului. Com presele cu aburi
-sunt lăsate să-și facă efectul timp de 2 ore sau chiar peste noapte.
-## PREPARAREA ALIFIILOR ȘI A ULEIURILOR
+sunt lasate sa-si faca efectul timp de 2 ore sau chiar peste noapte.
+## PREPARAREA ALIFIILOR SI A ULEIURILOR
 
-PREPARAREA ALIFIILOR ȘI A ULEIURILOR
-Se mărunțesc de 2 ori câte 2 mâini pline de plante. Se încing 500 grame de untură de
-porc, ca și cum s-ar pune șnițele la prăjit. Plantele se amestecă în această grăsime
-fierbinte, se lasă să sfârâie scurt în tigaie, se amestecă în continuare, se trage tigaia de pe
-foc, se acoperă și se lasă la rece peste noapte. A doua zi se încălzește totul ușor, se
-filtrează printr-o bucată de tifon, iar crema astfel obținută se introduce cât este caldă în
-borcanele pregătite dinainte.
-Prepararea uleiurilor are loc astfel: Florile sau plantele se bagă fără a se îndesa într-o
-sticlă până la gât și se toarnă deasupra ulei de măsline presate la rece, în așa fel încât
-uleiul să acopere plantele cu un strat gros de 2 degete. Se lasă 14 zile la soare sau în
-apropierea mașinii de gătit.
-## BĂILE DE PLANTE
+PREPARAREA ALIFIILOR SI A ULEIURILOR
+Se maruntesc de 2 ori cate 2 maini pline de plante. Se incing 500 grame de untura de
+porc, ca si cum s-ar pune snitele la prajit. Plantele se amesteca in aceasta grasime
+fierbinte, se lasa sa sfaraie scurt in tigaie, se amesteca in continuare, se trage tigaia de pe
+foc, se acopera si se lasa la rece peste noapte. A doua zi se incalzeste totul usor, se
+filtreaza printr-o bucata de tifon, iar crema astfel obtinuta se introduce cat este calda in
+borcanele pregatite dinainte.
+Prepararea uleiurilor are loc astfel: Florile sau plantele se baga fara a se indesa intr-o
+sticla pana la gat si se toarna deasupra ulei de masline presate la rece, in asa fel incat
+uleiul sa acopere plantele cu un strat gros de 2 degete. Se lasa 14 zile la soare sau in
+apropierea masinii de gatit.
+## BAILE DE PLANTE
 
-BĂILE DE PLANTE
-Baie completă: Plantele respective sunt puse peste noapte la macerat în apă rece.
-Pentru 1 baie este nevoie de 1 găleată (6-8 litri) plină cu plante proaspete sau de 200
-grame de plante uscate. A doua zi, cantitatea respectivă este încălzită, iar extrac tul este
-turnat în apa de baie. Durata băii - 20 minute. Inima trebuie să stea în afara apei. Să nu vă
-ștergeți după baie, ci să vă băgați în pat în halat sau prosop de baie ca să transpirați timp
-de 1 oră.
-Baie de șezut Pentru 1 baie de șezut se iau numai 1/2 găleată de plante proaspete
-sau aproximativ 100 grame de plante uscate și se procedează ca la baia
+BAILE DE PLANTE
+Baie completa: Plantele respective sunt puse peste noapte la macerat in apa rece.
+Pentru 1 baie este nevoie de 1 galeata (6-8 litri) plina cu plante proaspete sau de 200
+grame de plante uscate. A doua zi, cantitatea respectiva este incalzita, iar extrac tul este
+turnat in apa de baie. Durata baii - 20 minute. Inima trebuie sa stea in afara apei. Sa nu va
+stergeti dupa baie, ci sa va bagati in pat in halat sau prosop de baie ca sa transpirati timp
+de 1 ora.
+Baie de sezut Pentru 1 baie de sezut se iau numai 1/2 galeata de plante proaspete
+sau aproximativ 100 grame de plante uscate si se procedeaza ca la baia
 
-completă. Apa trebuie să ajungă până deasupra rinichilor. Trebuie respectate indicațiile de
-la fiecare plantă în parte!
-Apa reîncălzită a băii complete sau a celei de șezut poate fi folosită încă de 2 ori.
+completa. Apa trebuie sa ajunga pana deasupra rinichilor. Trebuie respectate indicatiile de
+la fiecare planta in parte!
+Apa reincalzita a baii complete sau a celei de sezut poate fi folosita inca de 2 ori.
 ## COMPRESELE CU IERBURI SUEDEZE
 
 COMPRESELE CU IERBURI SUEDEZE
 ## (COMPRESELE CU BITER SUEDEZ)
 
 (COMPRESELE CU BITER SUEDEZ)
-în funcție de dimensiunea locului suferind, se ia o bucată mai mare sau mai mică de
-vată sau celofibră, se umezește cu biter suedez și se aplică pe porțiunea bolnavă, care a
-fost unsă înainte în mod obligatoriu cu untură de porc sau pomăda de filimică, pentru ca
-alcoolul să nu tragă grăsimea din piele. Se poate pune deasupra o bucată ceva mai mare
-de plastic, pentru a menaja lenjeria, iar abia apoi se leagă o cârpă caldă, eventual o fașă.
-Compresa este lăsată să acționeze 2-4 ore în funcție de boală sau de modul în care este
-suportată. Dacă pacientul suportă, compresa poate fi ținută chiar întreaga noapte. După
-îndepărtarea ei, pielea se pudrează. Dacă apar totuși iritări ale pielii la persoanele mai
-sensibile, atunci compresele trebuie folosite timp mâi scurt sau scoase din când în când.
-Persoanele alergice nu trebuie să utilizeze plasticul, ci vor lega direct cârpele peste bucata
-de vată sau celofibră. Să nu se uite în nici un caz ungerea pielii cu grăsime înainte de
-aplicarea compresei! Dacă apar mâncări, ungeți locul cu pomăda de filimică.
-Cu aceste comprese nu este obligatoriu să stați la pat; dacă sunt bine fixate .-poate
-ședea sau chiar umbla cu ele prin casă.
+in functie de dimensiunea locului suferind, se ia o bucata mai mare sau mai mica de
+vata sau celofibra, se umezeste cu biter suedez si se aplica pe portiunea bolnava, care a
+fost unsa inainte in mod obligatoriu cu untura de porc sau pomada de filimica, pentru ca
+alcoolul sa nu traga grasimea din piele. Se poate pune deasupra o bucata ceva mai mare
+de plastic, pentru a menaja lenjeria, iar abia apoi se leaga o carpa calda, eventual o fasa.
+Compresa este lasata sa actioneze 2-4 ore in functie de boala sau de modul in care este
+suportata. Daca pacientul suporta, compresa poate fi tinuta chiar intreaga noapte. Dupa
+indepartarea ei, pielea se pudreaza. Daca apar totusi iritari ale pielii la persoanele mai
+sensibile, atunci compresele trebuie folosite timp mai scurt sau scoase din cand in cand.
+Persoanele alergice nu trebuie sa utilizeze plasticul, ci vor lega direct carpele peste bucata
+de vata sau celofibra. Sa nu se uite in nici un caz ungerea pielii cu grasime inainte de
+aplicarea compresei! Daca apar mancari, ungeti locul cu pomada de filimica.
+Cu aceste comprese nu este obligatoriu sa stati la pat; daca sunt bine fixate .-poate
+sedea sau chiar umbla cu ele prin casa.
 
 PLANTELE MEDICINALE din farmacia Domnului
 ### BRUSTURELE* (Petasites officinalis)
-Brusturele crește pe maluri de râuri și pâraie, în șanțuri și
-liziere. Se mai numește și broscălan, brustur, buedea- ciumei,
-captalan, clocbcean, gulă-de-baltă, lipan, podval- mare,
-smântânică. Este sensibil mai mare decât podbalul galben, din
-a cărui familie face parte. Frunzele sale devin mari cât pălăria,
-sunt ușor dințate și acoperite cu un puf gri pe partea inferioară.
-Florile, în nuanțe de la alb murdar până la roz pal, au forma
-unor coșulețe și sunt dispuse des pe porțiunea superioară a
+Brusturele creste pe maluri de rauri si paraie, in santuri si
+liziere. Se mai numeste si broscalan, brustur, buedea- ciumei,
+captalan, clocbcean, gula-de-balta, lipan, podval- mare,
+smantanica. Este sensibil mai mare decat podbalul galben, din
+a carui familie face parte. Frunzele sale devin mari cat palaria,
+sunt usor dintate si acoperite cu un puf gri pe partea inferioara.
+Florile, in nuante de la alb murdar pana la roz pal, au forma
+unor cosulete si sunt dispuse des pe portiunea superioara a
 tulpinii.
-Rădăcinile, care au acțiune antitermică și au fost foarte
-căutate în timpul epidemiilor de ciumă, se culeg încă înainte de
-perioada de înflorire. Ceaiul sudorific se administrează în caz de
-febră, insuficiență respiratorie, artrită (gută) și epilepsie.
-Se beau zilnic, încetul cu încetul, 1-2 cești. Frunzele mari și
-proaspete se aplică sub formă de comprese, nu doar la entorse,
-luxații și picioare rănite de prea mult umblat, ci și în orice fel
-de arsură, în leziuni ulceroase canceroase și în plăgi
-usturătoare.
+Radacinile, care au actiune antitermica si au fost foarte
+cautate in timpul epidemiilor de ciuma, se culeg inca inainte de
+perioada de inflorire. Ceaiul sudorific se administreaza in caz de
+febra, insuficienta respiratorie, artrita (guta) si epilepsie.
+Se beau zilnic, incetul cu incetul, 1-2 cesti. Frunzele mari si
+proaspete se aplica sub forma de comprese, nu doar la entorse,
+luxatii si picioare ranite de prea mult umblat, ci si in orice fel
+de arsura, in leziuni ulceroase canceroase si in plagi
+usturatoare.
 MODURI DE FOLOSIRE
-Prepararea ceaiului: 1 linguriță rasă de rădăcini de brusture se pune peste noapte
-la macerat în 1/4 litru de apă, se încălzește dimineața și se strecoară.
-Comprese: Frunzele proaspete sunt spălate, zdrobite și aplicate sub formă de
-compresă. Această operație se repetă zilnic de mâi multe ori.
-### CAȘUL-POPII, NALBA
+Prepararea ceaiului: 1 lingurita rasa de radacini de brusture se pune peste noapte
+la macerat in 1/4 litru de apa, se incalzeste dimineata si se strecoara.
+Comprese: Frunzele proaspete sunt spalate, zdrobite si aplicate sub forma de
+compresa. Aceasta operatie se repeta zilnic de mai multe ori.
+### CASUL-POPII, NALBA
 
-CAȘUL-POPII, NALBA (Malva vulgaris - M. neglecta)
-Cașul-popii cu frunze mici (M. vulgaris) - numit și bănuți, caș, colăcel, covrigel, nalbă-
-sălbatică, nalbă-rotundă, turtele - crește pe lângă garduri, margini de drum, ziduri vechi și
-grohotișuri de pantă, însă numai în imediata apropiere a unei regiuni populate. Dacă este
-găsit vreodată departe de orice așezare omenească, este sigur că acolo au fost odată o
-curte, o fermă sau o casă. Cașul-popii cu frunze mari (Malva grandifolia - M. silvestris) este
-general cunoscut sub numele de nalbă, eventual nalbă-albă, nalbă-de-câmp, nalbă-mică.
-Aceste plante, ca și alte varietăți de Malva, sunt răspândite prin grădinile de flori și
-zarzavat. Ele conțin în frunze, flori și tulpini substanțe mucilaginoase și tanante. Cașul-
-popii cu frunzele mici este o plantă târâtoare, puțin lemnoasă la baza rizomului. Ea are
-frunze cu lujer lung, zimțate rotund și flori mici, de la violet la roz pal. Fructul rotunjor arată
-ca o roată de caș, de aceea numele de „cașul-popii". Nu există probabil decât puțini copii
-crescuți la țară care n-au mâncat aceste
-Am trecut plantele în ordinea alfabetică a denumirii lor principale românești. Celelalte denumiri populare de circulație mai
-restrânsă sunt enumerate tot în ordine alfabetică, în cadrul subcapitolului rezervat fiecărei plante în parte (n. tr.).
+CASUL-POPII, NALBA (Malva vulgaris - M. neglecta)
+Casul-popii cu frunze mici (M. vulgaris) - numit si banuti, cas, colacel, covrigel, nalba-
+salbatica, nalba-rotunda, turtele - creste pe langa garduri, margini de drum, ziduri vechi si
+grohotisuri de panta, insa numai in imediata apropiere a unei regiuni populate. Daca este
+gasit vreodata departe de orice asezare omeneasca, este sigur ca acolo au fost odata o
+curte, o ferma sau o casa. Casul-popii cu frunze mari (Malva grandifolia - M. silvestris) este
+general cunoscut sub numele de nalba, eventual nalba-alba, nalba-de-camp, nalba-mica.
+Aceste plante, ca si alte varietati de Malva, sunt raspandite prin gradinile de flori si
+zarzavat. Ele contin in frunze, flori si tulpini substante mucilaginoase si tanante. Casul-
+popii cu frunzele mici este o planta taratoare, putin lemnoasa la baza rizomului. Ea are
+frunze cu lujer lung, zimtate rotund si flori mici, de la violet la roz pal. Fructul rotunjor arata
+ca o roata de cas, de aceea numele de „casul-popii". Nu exista probabil decat putini copii
+crescuti la tara care n-au mancat aceste
+Am trecut plantele in ordinea alfabetica a denumirii lor principale romanesti. Celelalte denumiri populare de circulatie mai
+restransa sunt enumerate tot in ordine alfabetica, in cadrul subcapitolului rezervat fiecarei plante in parte (n. tr.).
 
-„rotițe de caș" sau nu s-au jucat cu ele. Florile,
-frunzele și tulpinile se culeg din iunie până în
-septembrie, întrucât la uscat se pierd din
-mucilaginoase, planta ar trebui utilizată cât se
-poate de proaspătă. Dar și planta uscată mai are
-suficiente puteri tămăduitoare.
-Nalba se dovedește benefică mai ales sub
-formă de ceai în inflamațiile mucoaselor din in-
-teriorul organismului, în gastrite, în inflamațiile
+„rotite de cas" sau nu s-au jucat cu ele. Florile,
+frunzele si tulpinile se culeg din iunie pana in
+septembrie, intrucat la uscat se pierd din
+mucilaginoase, planta ar trebui utilizata cat se
+poate de proaspata. Dar si planta uscata mai are
+suficiente puteri tamaduitoare.
+Nalba se dovedeste benefica mai ales sub
+forma de ceai in inflamatiile mucoaselor din in-
+teriorul organismului, in gastrite, in inflamatiile
 mucoaselor vezicale (ale vezicii urinare), gastro-
-intestinale și ale cavității bucale, ca și în ulcerele
-gastrice (stomacale) și intestinale. În acest scop
-se poate prepara o supă din frunze amestecate cu
-orz. întâi se lasă orzul să fiarbă, iar când s-a răcit,
-se adaugă frunzele de nalbă.
-Nalba este indicată și în caz de secreție
-pulmonară abundentă, bronșită, tuse și
-răgușeală puternică (deci în laringită), amigdalită și gură uscată. Ca să nu se
-distrugă substanțele mucilaginoase, planta se lasă peste noapte în apă rece, pentru a se
-forma așa-numitul extract rece. Rația pentru o zi este de 2-3 cești călduțe, băute în
-înghițituri mici. Chiar și în cazul unui emfizem pulmonar rebel, considerat adesea in-
-curabil, care provoacă grele insuficiențe respiratorii, nalba are un efect lecuitor. Se beau
-minimum 3 cești pe zi, după cum am menționat mai sus, iar frunzele și florile, zdrobite,
-strecurate și bine încălzite, se pun peste noapte sub formă de comprese în zona bronhiilor
-și pe piept.
-Excelente se dovedesc băile de ochi și compresele la ochi făcute cu ceai de nalbă
-călduț, pentru cazurile rare când apare o secare a secreției lacrimale, care creează
-bolnavului o oarecare indispoziție și senzația de neajutorare.
-Spălaturile cu nalbă călduță sunt benefice în alergiile tenului, care provoacă mâncării
-și usturimi faciale. Naiba este folosită, extern, pentru răni, abcese, picioare sau mâini
-umflate provenite de pe urma unor fracturi sau a unor flebite. În aceste cazuri se prescriu
-băi de picioare sau de mâini (a se vedea „Moduri de folosire").
-Aceste băi au dat în practica mea rezultatele cele mai bune. Ele sunt foarte indicate tocmai
-după o fractură la picior, când acesta este tot mereu suprasolicitat si se umflă. În
-vecinătatea noastră locuia o femeie care-și rupsese cu niște ani în urmă glezna. Avea
-permanent probleme cu piciorul și într-o zi a trebuit să se interneze iarăși în spital. Am
-întâlnit-o după ce a fost externată, șchiopătând tare, iar piciorul era umflat până peste
-genunchi. Deși mergea cu baston, înainta într-un ritm de melc. Am luat împreună nalbe
-proaspete. A doua zi și-a început băile. Nu exagerez când povestesc că după o
-săptămână n-a mai avut nevoie de baston și piciorul arăta din nou normal. La fel a fost și cu
-o altă femeie care-și fracturase încheietura mâinii drepte și aceasta o jena tot mereu. Ce
-gospodină și mamă își poate menaja mâna dreaptă? În fiecare noapte, mâna îi zvâcnea și
-mult timp i s-a umflat zilnic, întâlnind-o, am sfătuit-o să facă băi de nalbă. Și acest caz s-a
+intestinale si ale cavitatii bucale, ca si in ulcerele
+gastrice (stomacale) si intestinale. In acest scop
+se poate prepara o supa din frunze amestecate cu
+orz. intai se lasa orzul sa fiarba, iar cand s-a racit,
+se adauga frunzele de nalba.
+Nalba este indicata si in caz de secretie
+pulmonara abundenta, bronsita, tuse si
+raguseala puternica (deci in laringita), amigdalita si gura uscata. Ca sa nu se
+distruga substantele mucilaginoase, planta se lasa peste noapte in apa rece, pentru a se
+forma asa-numitul extract rece. Ratia pentru o zi este de 2-3 cesti caldute, baute in
+inghitituri mici. Chiar si in cazul unui emfizem pulmonar rebel, considerat adesea in-
+curabil, care provoaca grele insuficiente respiratorii, nalba are un efect lecuitor. Se beau
+minimum 3 cesti pe zi, dupa cum am mentionat mai sus, iar frunzele si florile, zdrobite,
+strecurate si bine incalzite, se pun peste noapte sub forma de comprese in zona bronhiilor
+si pe piept.
+Excelente se dovedesc baile de ochi si compresele la ochi facute cu ceai de nalba
+caldut, pentru cazurile rare cand apare o secare a secretiei lacrimale, care creeaza
+bolnavului o oarecare indispozitie si senzatia de neajutorare.
+Spalaturile cu nalba calduta sunt benefice in alergiile tenului, care provoaca mancarii
+si usturimi faciale. Naiba este folosita, extern, pentru rani, abcese, picioare sau maini
+umflate provenite de pe urma unor fracturi sau a unor flebite. In aceste cazuri se prescriu
+bai de picioare sau de maini (a se vedea „Moduri de folosire").
+Aceste bai au dat in practica mea rezultatele cele mai bune. Ele sunt foarte indicate tocmai
+dupa o fractura la picior, cand acesta este tot mereu suprasolicitat si se umfla. In
+vecinatatea noastra locuia o femeie care-si rupsese cu niste ani in urma glezna. Avea
+permanent probleme cu piciorul si intr-o zi a trebuit sa se interneze iarasi in spital. Am
+intalnit-o dupa ce a fost externata, schiopatand tare, iar piciorul era umflat pana peste
+genunchi. Desi mergea cu baston, inainta intr-un ritm de melc. Am luat impreuna nalbe
+proaspete. A doua zi si-a inceput baile. Nu exagerez cand povestesc ca dupa o
+saptamana n-a mai avut nevoie de baston si piciorul arata din nou normal. La fel a fost si cu
+o alta femeie care-si fracturase incheietura mainii drepte si aceasta o jena tot mereu. Ce
+gospodina si mama isi poate menaja mana dreapta? In fiecare noapte, mana ii zvacnea si
+mult timp i s-a umflat zilnic, intalnind-o, am sfatuit-o sa faca bai de nalba. Si acest caz s-a
 ameliorat grabnic.
-Un picior umflat cu ulcer varicos nu trebuie neglijat, nici chiar la bătrânețe. Și aici ajută
-băile de nalbă combinată cu frunze proaspete de pătlagină. Acestea din urmă se spală bine
-și se aplică umede pe rana deschisă. Rana se închide peste noapte și nu se mai deschide,
-chiar dacă era veche de 10-15 ani sau și mai mult. Dacă vă chinuiți cumva cu o astfel de
-rană deschisă, urmați-mi sfatul în legătură cu frunzele proaspete de pătlagină. Veți fi
-surprinși cât de repede se va închide leziunea. Și nu veți mai gândi, citind aceste ronduri:
-„Aici doamna Treben exagerează rău de tot!" Dacă afirm toate acestea, este în urma
-experienței adunate în ultimul timp.
+Un picior umflat cu ulcer varicos nu trebuie neglijat, nici chiar la batranete. Si aici ajuta
+baile de nalba combinata cu frunze proaspete de patlagina. Acestea din urma se spala bine
+si se aplica umede pe rana deschisa. Rana se inchide peste noapte si nu se mai deschide,
+chiar daca era veche de 10-15 ani sau si mai mult. Daca va chinuiti cumva cu o astfel de
+rana deschisa, urmati-mi sfatul in legatura cu frunzele proaspete de patlagina. Veti fi
+surprinsi cat de repede se va inchide leziunea. Si nu veti mai gandi, citind aceste ronduri:
+„Aici doamna Treben exagereaza rau de tot!" Daca afirm toate acestea, este in urma
+experientei adunate in ultimul timp.
 
 MODURI DE FOLOSIRE
-Prepararea ceaiului: Numai ca extract rece! Se pune 1 linguriță (cu vârf) de plante
-la 1/4 litru de apă, se lasă să stea peste noapte la macerat, dimineața se
-încălzește ușor.
-Băi de picioare și mâini: 2 mâini pline de nalbă se lasă peste noapte în apă rece,
-într-un recipient de 5 litri. A doua zi se încălzește totul atât cit suportă mâinile
-și picioarele. Durata băii - 20 minute. Apa, reîncălzită, poate fi folosită încă de
+Prepararea ceaiului: Numai ca extract rece! Se pune 1 lingurita (cu varf) de plante
+la 1/4 litru de apa, se lasa sa stea peste noapte la macerat, dimineata se
+incalzeste usor.
+Bai de picioare si maini: 2 maini pline de nalba se lasa peste noapte in apa rece,
+intr-un recipient de 5 litri. A doua zi se incalzeste totul atat cit suporta mainile
+si picioarele. Durata baii - 20 minute. Apa, reincalzita, poate fi folosita inca de
 2 ori.
 
-Acum vreau să relatez o istorioară care, deși pare miraculoasă, corespunde totuși
-realității: Este realmente uimitor ce performanțe poate avea această micuță plantă
-medicinală care se târăște pe pământ. Ședeam într-o zi în Linz, singură la masă a
-cazinoului teatrului, pentru a mânca de prânz. O doamnă s-a așezat la masa mea și,
-intrând în vorbă, am aflat că-și face griji în legătură cu soțul ei care trebuie să se in terneze
-periodic în spital, iar de curând și-a pierdut și vocea. Medicii tot evitau să răspundă la
-întrebările ei și îi era teamă să nu fie vorba despre un cancer laringian. „Nu fiți descurajată",
-i-am spus. „încercați cu plante medicinale. Doar există minunata nalbă care ajută în
-laringite. Se face cu ea gargară de mai multe ori pe zi, iar resturile plantelor din care s-a
-preparat ceaiul - amestecate cu făină de orz - se aplică peste noapte sub formă de
-comprese calde cu terci." Aceasta s-a întâmplat într-o joi. La masă ne-am împrietenit și am
-făcut schimb de adrese. Săptămâna următoare, miercuri, respectiva doamnă mi-a
-telefonat: „Un înger păzitor v-a scos în calea mea și m-a trimis la masa dumneavoastră.
-Soțul meu este mai bine. Am făcut exact așa cum ați spus. Fiica noastră este medic la
-Viena. I-am comunicat intenția mea de a-l scoate pe tatăl ei din spital, ca să încerc să-l
-tratez cu plante medicinale. «Dacă asta te liniștește, mamă, încearcă!» mi-a spus. Apoi
-am vorbit cu doctorul nostru care a zis și el că n-are în principiu nimic împotriva plantelor
-medicinale. Deci mi-am luat soțul acasă; el făcea gargară, iar eu îi puneam compresele
-calde la gât. De câteva zile și-a recăpătat chiar și glasul." După o săptămână a venit un al
-doilea telefon: „Soțul meu e bine și speră să-și poată relua curând orele și să-și țină
-cursurile. Aș vrea doar să vă mai comunic ce a zis medicul primar care-l consultă pe
-bărbatul meu, când i-am povestit totul: «Femeia aceasta merită o medalie de aur!»"
- Buna noastră nalbă nu este deci eficace doar în laringite, ci și în cancer laringian. în
-astfel de cazuri se prepară un extract rece, lăsând peste noapte cantitatea de plante
-necesară dozei pe o zi să stea la macerat în 21/2 litri de apă (1 linguriță cu vârf de plante la
-1/4 litru de apă). Dimineața, maceratul se încălzește ușor și se ține într-un termos clătit în
-prealabil cu apă fierbinte. Se beau 4 cești pe parcursul zilei, încetul cu încetul, iar cu restul
-se face gargară, în cazul unei uscăciuni a gurii, gâtlejului și nasului, care stârnește
-deseori o puternică nervozitate a bolnavului, se face tot gargară și se clătește gura de mai
-multe ori pe zi cu ceai de nalbă. Și contra uscăciunii ochilor se folosesc cu succes băi și
-comprese cu același ceai.
-Nalba, care crește mai ales pe lingă gospodăriile țărănești, este alungată tot mai mult în
-zilele noastre din aceste locuri, în strădania de a îndepărta umezeala și murdăria și de a da
-casei un aspect plăcut și în exterior, se toarnă deseori o fâșie de beton în jurul casei sau un
-pavaj pentru scurgerea apei de ploaie. Atunci i se ia însă nalbei locul ei moștenit de
-generații. Așa dispare tot mai mult acest mare ajutor al omenirii, pentru care n-avem cuvinte
-destule să-i mulțumim Domnului!
+Acum vreau sa relatez o istorioara care, desi pare miraculoasa, corespunde totusi
+realitatii: Este realmente uimitor ce performante poate avea aceasta micuta planta
+medicinala care se taraste pe pamant. Sedeam intr-o zi in Linz, singura la masa a
+cazinoului teatrului, pentru a manca de pranz. O doamna s-a asezat la masa mea si,
+intrand in vorba, am aflat ca-si face griji in legatura cu sotul ei care trebuie sa se in terneze
+periodic in spital, iar de curand si-a pierdut si vocea. Medicii tot evitau sa raspunda la
+intrebarile ei si ii era teama sa nu fie vorba despre un cancer laringian. „Nu fiti descurajata",
+i-am spus. „incercati cu plante medicinale. Doar exista minunata nalba care ajuta in
+laringite. Se face cu ea gargara de mai multe ori pe zi, iar resturile plantelor din care s-a
+preparat ceaiul - amestecate cu faina de orz - se aplica peste noapte sub forma de
+comprese calde cu terci." Aceasta s-a intamplat intr-o joi. La masa ne-am imprietenit si am
+facut schimb de adrese. Saptamana urmatoare, miercuri, respectiva doamna mi-a
+telefonat: „Un inger pazitor v-a scos in calea mea si m-a trimis la masa dumneavoastra.
+Sotul meu este mai bine. Am facut exact asa cum ati spus. Fiica noastra este medic la
+Viena. I-am comunicat intentia mea de a-l scoate pe tatal ei din spital, ca sa incerc sa-l
+tratez cu plante medicinale. «Daca asta te linisteste, mama, incearca!» mi-a spus. Apoi
+am vorbit cu doctorul nostru care a zis si el ca n-are in principiu nimic impotriva plantelor
+medicinale. Deci mi-am luat sotul acasa; el facea gargara, iar eu ii puneam compresele
+calde la gat. De cateva zile si-a recapatat chiar si glasul." Dupa o saptamana a venit un al
+doilea telefon: „Sotul meu e bine si spera sa-si poata relua curand orele si sa-si tina
+cursurile. As vrea doar sa va mai comunic ce a zis medicul primar care-l consulta pe
+barbatul meu, cand i-am povestit totul: «Femeia aceasta merita o medalie de aur!»"
+ Buna noastra nalba nu este deci eficace doar in laringite, ci si in cancer laringian. in
+astfel de cazuri se prepara un extract rece, lasand peste noapte cantitatea de plante
+necesara dozei pe o zi sa stea la macerat in 21/2 litri de apa (1 lingurita cu varf de plante la
+1/4 litru de apa). Dimineata, maceratul se incalzeste usor si se tine intr-un termos clatit in
+prealabil cu apa fierbinte. Se beau 4 cesti pe parcursul zilei, incetul cu incetul, iar cu restul
+se face gargara, in cazul unei uscaciuni a gurii, gatlejului si nasului, care starneste
+deseori o puternica nervozitate a bolnavului, se face tot gargara si se clateste gura de mai
+multe ori pe zi cu ceai de nalba. Si contra uscaciunii ochilor se folosesc cu succes bai si
+comprese cu acelasi ceai.
+Nalba, care creste mai ales pe linga gospodariile taranesti, este alungata tot mai mult in
+zilele noastre din aceste locuri, in stradania de a indeparta umezeala si murdaria si de a da
+casei un aspect placut si in exterior, se toarna deseori o fasie de beton in jurul casei sau un
+pavaj pentru scurgerea apei de ploaie. Atunci i se ia insa nalbei locul ei mostenit de
+generatii. Asa dispare tot mai mult acest mare ajutor al omenirii, pentru care n-avem cuvinte
+destule sa-i multumim Domnului!
 
-Comprese: Resturile de plante de după prepararea ceaiului se încălzesc ușor în
-puțină apă și se face un terci, amestecându-le cu făină de orz; terciul se
-întinde pe o bucată de pânză și se aplică local, cât e cald.
+Comprese: Resturile de plante de dupa prepararea ceaiului se incalzesc usor in
+putina apa si se face un terci, amestecandu-le cu faina de orz; terciul se
+intinde pe o bucata de panza si se aplica local, cat e cald.
 
 ### CIMBRUL
 
 CIMBRUL (Thymus serpyllum)
-Numit și buruiană-de-balsam, cimbrișor, cimbru-de-câmp,
-cimbru-sălbatic, iarba-cucului, lămâiță, sărpun, tămâiță,
-timian, cimbrul crește pe pășuni însorite, pe povârnișuri și pe
-liziere înguste și preferă mușuroiul mic de furnici de pe câmpii.
-Are nevoie de multă căldură și mult soare; de aceea îi plac
-suprafețele pietroase și pășunile alpine unde căldura
-pământului radiază în mod special.
-în arșița soarelui amiezii, din pernițele florilor violete se
-revarsă urî parfum foarte aromat care atrage insecte și al bine.
+Numit si buruiana-de-balsam, cimbrisor, cimbru-de-camp,
+cimbru-salbatic, iarba-cucului, lamaita, sarpun, tamaita,
+timian, cimbrul creste pe pasuni insorite, pe povarnisuri si pe
+liziere inguste si prefera musuroiul mic de furnici de pe campii.
+Are nevoie de multa caldura si mult soare; de aceea ii plac
+suprafetele pietroase si pasunile alpine unde caldura
+pamantului radiaza in mod special.
+in arsita soarelui amiezii, din pernitele florilor violete se
+revarsa uri parfum foarte aromat care atrage insecte si al bine.
 Dintotdeauna m-au ademenit aceste flori minunate cu
-mireasma lor cu totul aparte; simpatia și dragostea mea le
-aparține încă din copilărie.
-Cimbrul a venit la noi în secolul al Xl-lea din țările
-mediteraneene, iar speciile cultivate și iarăși sălbăticite se
-găsesc în grădinile noastre mai cu seamă ca cimbru-de-grădină (Thymus vulgaris), numit
-și cimbru, cimbrișor, cimbru-mirositor, iarba-cucului, lămâiță. Acesta, spre deosebire de
-cimbrul-de-câmp, ajunge pană la o înălțime de 50 centimetri. Ambele au același efect
+mireasma lor cu totul aparte; simpatia si dragostea mea le
+apartine inca din copilarie.
+Cimbrul a venit la noi in secolul al Xl-lea din tarile
+mediteraneene, iar speciile cultivate si iarasi salbaticite se
+gasesc in gradinile noastre mai cu seama ca cimbru-de-gradina (Thymus vulgaris), numit
+si cimbru, cimbrisor, cimbru-mirositor, iarba-cucului, lamaita. Acesta, spre deosebire de
+cimbrul-de-camp, ajunge pana la o inaltime de 50 centimetri. Ambele au acelasi efect
 curativ.
-Cimbrul era renumit încă din antichitate. Tradiția spune: „Cimbrul este mai ales repezit,
-înfierbântat și aprins. El stimulează fluxul diuretic și ciclul lunar, accelerează avorturile,
-iar la o naștere normală grăbește ieșirea pruncului din trupul mamei. Băutura preparată din
-el curăță părțile interne ale organismului."
-Stareța Hildegard von Bingen menționează cimbrul ca leac împotriva leprei, a paraliziei
-și a bolilor de nervi. Cine bea dimineața în loc de cafea o ceașcă cu ceai de cimbru va
-resimți curând efectul său binefăcător: o prospețime a spiritului, o senzație plăcută în
-stomac, lipsa tusei de dimineață și o stare generală bună.
-Cimbrul, mușețelul și coada-șoricelului culese în soare și aplicate ca pernă uscată de
-plante, la care se bea simultan un ceai făcut din aceste plante, ajută în alinarea durerilor
-nevralgice faciale. Dacă acestea sunt însoțite de crispări ale feței, se folosește
-suplimentar o pernă uscată de pedicuță. Un țăran în vârstă de 79 de ani suferea de 27 de
-ani de o gravă nevralgie facială Fusese operat deja de câteva ori la față. își atrăsese boala
-când venise într-o zi acasă ud leoarcă de la câmp și, fiind che mat în calitatea sa de primar
-la o ședință urgentă, nu avusese timp să-și schimbe hainele, plecând cu ele ude pe el. în
-ultimele luni ale bolii, gura i se retrăsese cu dureri mari aproape până la ureche.
-Compresele cu ierburi suedeze i-au adus la început o ușoară ameliorare. Abia când plantele
-enumerate mai sus și culese în soare i s-au aplicat ca pernă, s-a văzut fulgerător o
-schimbare în bine. A mai băut din acest fel de ceai și după ce i-a trecut nevralgia facială.
-Când copilul meu avea vreo 4 ani, nu se putea reface după un tifos. Doi ani am tot
-încercat fără rezultat diferite metode. După o singură baie de cimbru, cu durata de 20
-minute, la care fusesem sfătuită, a ieșit un alt copil din cadă. Ca și cum s-ar fi apăsat un
-buton, a căzut de pe el tot ce era bolnav asemenea unui palton și din acea zi a început să
-înflorească în mod vizibil.
+Cimbrul era renumit inca din antichitate. Traditia spune: „Cimbrul este mai ales repezit,
+infierbantat si aprins. El stimuleaza fluxul diuretic si ciclul lunar, accelereaza avorturile,
+iar la o nastere normala grabeste iesirea pruncului din trupul mamei. Bautura preparata din
+el curata partile interne ale organismului."
+Stareta Hildegard von Bingen mentioneaza cimbrul ca leac impotriva leprei, a paraliziei
+si a bolilor de nervi. Cine bea dimineata in loc de cafea o ceasca cu ceai de cimbru va
+resimti curand efectul sau binefacator: o prospetime a spiritului, o senzatie placuta in
+stomac, lipsa tusei de dimineata si o stare generala buna.
+Cimbrul, musetelul si coada-soricelului culese in soare si aplicate ca perna uscata de
+plante, la care se bea simultan un ceai facut din aceste plante, ajuta in alinarea durerilor
+nevralgice faciale. Daca acestea sunt insotite de crispari ale fetei, se foloseste
+suplimentar o perna uscata de pedicuta. Un taran in varsta de 79 de ani suferea de 27 de
+ani de o grava nevralgie faciala Fusese operat deja de cateva ori la fata. isi atrasese boala
+cand venise intr-o zi acasa ud leoarca de la camp si, fiind che mat in calitatea sa de primar
+la o sedinta urgenta, nu avusese timp sa-si schimbe hainele, plecand cu ele ude pe el. in
+ultimele luni ale bolii, gura i se retrasese cu dureri mari aproape pana la ureche.
+Compresele cu ierburi suedeze i-au adus la inceput o usoara ameliorare. Abia cand plantele
+enumerate mai sus si culese in soare i s-au aplicat ca perna, s-a vazut fulgerator o
+schimbare in bine. A mai baut din acest fel de ceai si dupa ce i-a trecut nevralgia faciala.
+Cand copilul meu avea vreo 4 ani, nu se putea reface dupa un tifos. Doi ani am tot
+incercat fara rezultat diferite metode. Dupa o singura baie de cimbru, cu durata de 20
+minute, la care fusesem sfatuita, a iesit un alt copil din cada. Ca si cum s-ar fi apasat un
+buton, a cazut de pe el tot ce era bolnav asemenea unui palton si din acea zi a inceput sa
+infloreasca in mod vizibil.
 
-Cimbrul se culege în perioada înfloririi, din iunie până în august; cel mai bun este cel
-cules în soarele amiezii. Florile pot fi puse într-o sticlă umplută până la gât și lăsate 10 zile la
-macerat în ulei sau se poate face un sirop. Uleiul de cimbru se folosește con tra paraliziei, în
-apoplexie, scleroză în plăci (multiplă), atrofie musculară, reumatism și entorse.
-În cazul crampelor abdominale, stomacale și menstruale, ca și în spasmele or-
-ganelor pelviene (genitale), este indicat cimbrul atât în uz intern cât și în uz extern. Se
-beau 2 cești pe zi. Florile culese în soarele amiezii și uscate se aplică extern sub formă de
-perne de plante în cazul crampelor, înainte de culcare, această pernă se încălzește într-o
-tigaie și se pune pe stomac sau bazin. Se recomandă pernele de plante și în umflături,
+Cimbrul se culege in perioada infloririi, din iunie pana in august; cel mai bun este cel
+cules in soarele amiezii. Florile pot fi puse intr-o sticla umpluta pana la gat si lasate 10 zile la
+macerat in ulei sau se poate face un sirop. Uleiul de cimbru se foloseste con tra paraliziei, in
+apoplexie, scleroza in placi (multipla), atrofie musculara, reumatism si entorse.
+In cazul crampelor abdominale, stomacale si menstruale, ca si in spasmele or-
+ganelor pelviene (genitale), este indicat cimbrul atat in uz intern cat si in uz extern. Se
+beau 2 cesti pe zi. Florile culese in soarele amiezii si uscate se aplica extern sub forma de
+perne de plante in cazul crampelor, inainte de culcare, aceasta perna se incalzeste intr-o
+tigaie si se pune pe stomac sau bazin. Se recomanda pernele de plante si in umflaturi,
 contuzii si reumatism vechi.
-Asociat în părți egale cu pătlagina-îngustă, cimbrul și-a dovedit eficacitatea în
-combaterea afecțiunilor căilor respiratorii, a secrețiilor abundente ale bronhiilor și a
-astmului bronșic, ba chiar a tusei convulsive, într-o ceașcă cu apă fierbinte se in troduc
-o felie de lămâie și 1 linguriță de amestec cimbru-pătlagină. Repaos: 1/2 minut. Ceaiul
-trebuie băut foarte fierbinte și în înghițituri mici. Se prepară proaspăt de 4-5 ori pe zi; dacă
-amenință pericolul unei pneumonii, acest ceai luat din oră-n oră în înghițituri mici nu-și va
-rata efectul. Din fericire, mai există încă multe mame care n-au uitat cimbrul. De foarte multe
-ori nu se ține însă seama de faptul că dacă se dă copiilor băutură direct de la frigider se
-poate ajunge la o bronșită cronică, iar aceasta duce în anii următori la emfizem cu grea
-insuficiență respiratorie.
-Tinctura de cimbru (a se vedea „Moduri de folosire") servește ca frecție pentru
-fortificarea membrelor la copiii slab dezvoltați; dar și bolnavii de scleroză în plăci
-(multiplă) ar trebui să apeleze la această fricțioriare.
-De cât chin ar putea fi cruțate unele familii dacă un copil bolnav ar fi tratat la timp cu
-cimbru, fie sub formă de ceai, fie de băi. Mulți copii agitați sau nervoși au căpătat un somn
-sănătos printr-o baie de cimbru. Dar și oamenii suferind de surescitare nervoasă și
-depresiuni se însănătoșesc la scurt timp după ce fac asemenea băi.
-N-ar trebui trecut cu vederea faptul că această plantă medicinală este un remediu
-indicat contra patimei beției. Se toarnă 1 litru de apă clocotită peste 1 pumn plin de
-cimbru, se acoperă și se lasă 2 minute în repaos. Ceaiul se pune într-un termos și se dă
-alcoolicului la fiecare sfert de ceas câte 1 lingură plină. Urmează grețuri, vărsături, purgație
-și urinări puternice, valuri de sudoare, o mare poftă de mâncare și senzație de sete. În caz
-de recidive, care la început sunt inevitabile, iar mai târziu tot mai rare, cura se repetă.
-Și în crizele de epilepsie se recomandă cimbrul. Ceaiul, 2 cești pe zi, nu se bea în
-criză, ci pe tot parcursul anului sub formă de cură de 2-3 săptămâni, cu întreruperi de câte
-10 zile. Minunat și foarte prielnic este siropul de cimbru, în răceli, el se administrează
-înaintea meselor.
+Asociat in parti egale cu patlagina-ingusta, cimbrul si-a dovedit eficacitatea in
+combaterea afectiunilor cailor respiratorii, a secretiilor abundente ale bronhiilor si a
+astmului bronsic, ba chiar a tusei convulsive, intr-o ceasca cu apa fierbinte se in troduc
+o felie de lamaie si 1 lingurita de amestec cimbru-patlagina. Repaos: 1/2 minut. Ceaiul
+trebuie baut foarte fierbinte si in inghitituri mici. Se prepara proaspat de 4-5 ori pe zi; daca
+ameninta pericolul unei pneumonii, acest ceai luat din ora-n ora in inghitituri mici nu-si va
+rata efectul. Din fericire, mai exista inca multe mame care n-au uitat cimbrul. De foarte multe
+ori nu se tine insa seama de faptul ca daca se da copiilor bautura direct de la frigider se
+poate ajunge la o bronsita cronica, iar aceasta duce in anii urmatori la emfizem cu grea
+insuficienta respiratorie.
+Tinctura de cimbru (a se vedea „Moduri de folosire") serveste ca frectie pentru
+fortificarea membrelor la copiii slab dezvoltati; dar si bolnavii de scleroza in placi
+(multipla) ar trebui sa apeleze la aceasta frictioriare.
+De cat chin ar putea fi crutate unele familii daca un copil bolnav ar fi tratat la timp cu
+cimbru, fie sub forma de ceai, fie de bai. Multi copii agitati sau nervosi au capatat un somn
+sanatos printr-o baie de cimbru. Dar si oamenii suferind de surescitare nervoasa si
+depresiuni se insanatosesc la scurt timp dupa ce fac asemenea bai.
+N-ar trebui trecut cu vederea faptul ca aceasta planta medicinala este un remediu
+indicat contra patimei betiei. Se toarna 1 litru de apa clocotita peste 1 pumn plin de
+cimbru, se acopera si se lasa 2 minute in repaos. Ceaiul se pune intr-un termos si se da
+alcoolicului la fiecare sfert de ceas cate 1 lingura plina. Urmeaza greturi, varsaturi, purgatie
+si urinari puternice, valuri de sudoare, o mare pofta de mancare si senzatie de sete. In caz
+de recidive, care la inceput sunt inevitabile, iar mai tarziu tot mai rare, cura se repeta.
+Si in crizele de epilepsie se recomanda cimbrul. Ceaiul, 2 cesti pe zi, nu se bea in
+criza, ci pe tot parcursul anului sub forma de cura de 2-3 saptamani, cu intreruperi de cate
+10 zile. Minunat si foarte prielnic este siropul de cimbru, in raceli, el se administreaza
+inaintea meselor.
 MODURI DE FOLOSIRE
-Infuzie: O linguriță (cu vârf) de plante este opărită cu 1/4 litru de apă proaspăt
-fiartă și se lasă să stea puțin. Adaos la baie: Pentru 1 baie completă - 200
+Infuzie: O lingurita (cu varf) de plante este oparita cu 1/4 litru de apa proaspat
+fiarta si se lasa sa stea putin. Adaos la baie: Pentru 1 baie completa - 200
 grame de plante (a se vedea
-„Băi complete" la capitolul „Partea generală"). Tinctura de cimbru: Cu
-inflorescențele culese în soarele amiezii se umple o sticlă până la gât, fără a se
-îndesa, se toarnă rachiu de secară sau de fructe de 38-40% si se lasă să stea 14 zile la
+„Bai complete" la capitolul „Partea generala"). Tinctura de cimbru: Cu
+inflorescentele culese in soarele amiezii se umple o sticla pana la gat, fara a se
+indesa, se toarna rachiu de secara sau de fructe de 38-40% si se lasa sa stea 14 zile la
 soare.
 
-Ulei de cimbru: Cu inflorescențele culese în soarele amiezii se umple o sticlă, fără a se
-îndesa și se toarnă deasupra ulei de măsline presate la rece, în așa fel încet uleiul
-să stea peste flori într-un strat gros de 2 degete. Se lasă 14 zile la soare sau în
-apropierea mașinii de gătit.
-Pernă de plante: Se umple o pernă cu plante și se însăilează.
-Sirop de cimbru: Florile și tulpinile culese în soare se umezesc cu mâinile ude la
-introducerea într-un borcan. Se pun în straturi cu zahăr nerafinat și se apasă
-pentru a se îndesa în borcan. Se lasă totul cca. 3 săptămâni la loc însorit. La
-filtrare, florile și tulpinile îmbibate cu zahăr trebuie spălate doar cu puțină apă,
-care se toarnă apoi la sirop. Se pune siropul la foc mic să se evapore fără a-l lăsa
-să fiarbă. Siropul n-are voie să devină nici prea subțire, nici prea gros, deci este
-lăsat să se răcească o dată sau de două ori, pentru a se face o probă.
-CIUBOȚICA-CUCULUI
+Ulei de cimbru: Cu inflorescentele culese in soarele amiezii se umple o sticla, fara a se
+indesa si se toarna deasupra ulei de masline presate la rece, in asa fel incet uleiul
+sa stea peste flori intr-un strat gros de 2 degete. Se lasa 14 zile la soare sau in
+apropierea masinii de gatit.
+Perna de plante: Se umple o perna cu plante si se insaileaza.
+Sirop de cimbru: Florile si tulpinile culese in soare se umezesc cu mainile ude la
+introducerea intr-un borcan. Se pun in straturi cu zahar nerafinat si se apasa
+pentru a se indesa in borcan. Se lasa totul cca. 3 saptamani la loc insorit. La
+filtrare, florile si tulpinile imbibate cu zahar trebuie spalate doar cu putina apa,
+care se toarna apoi la sirop. Se pune siropul la foc mic sa se evapore fara a-l lasa
+sa fiarba. Siropul n-are voie sa devina nici prea subtire, nici prea gros, deci este
+lasat sa se raceasca o data sau de doua ori, pentru a se face o proba.
+CIUBOTICA-CUCULUI
 (Primula dfficinalis - P. veris)
-Florile galben-aurii ale acestei specii de ciuboțica-
-cucului răspândesc o mireasmă plăcută, asemănătoare
-mierii și formează o umbelă dispusă pe o tulpină înaltă de
-10-20 centimetri, care se ridică din centrul unei rozete.
-Această varietate se mai numește și aglică, anghelină,
-calce, cinci-foi, cizma-cucului, talpa-gâștei, țâța-caprei,
-țâța-oii, urechița-ursului. Ea crește cu precădere pe
-câmpiile din zonele deluroase și prealpine.
-Foarte răspândita Primula eliator, cunoscută tot sub
-numele de ciuboțica-cucului, dar și de aglici, agrișei sau
-țâța-vacii, crește pe mai toate câmpiile, la margini de
-păduri și sub tufișuri și poartă pe tulpina înaltă o um -belă
-florală de un galben deschis, cu un parfum slab. Forța ei
-curativă este egală în valoare cu cea a Primulei officinalis,
-putând fi folosită exact în același fel.
-O altă subspecie, Primula auricula, cunoscută sub
-denumirile de urechea-ursului, ciuboțica-cucului,
-ciuboțica-ursului, urechea-șoarecelui, urechiușe, este o
-plantă alpină, care se află sub stricta ocrotire a legii,
-neavând deci voie să fie culeasă. Aflându-mă într-o societate,
-vecinul meu de masă mi-a povestit că este la Gallspach la
-cură. Aceasta fusese ultima sa speranță, întrucât cura se apropia de sfârșit probabil fără
-nici un rezultat, nu știa ce să mai facă. în ciuda somniferelor foarte puternice, nu putea
-dormi. Neurologii din Linz și Viena nu l-au putut elibera de acest calvar: Când se întinde
-seara în pat, mort de oboseală, îl cuprinde o durere de parcă i-ar stinge cineva o țigară
-aprinsă pe partea anterioară a labei piciorului. Din această cauză este fizic și sufletește la
-pământ și în pragul disperării, l-am spus că știu un ceai excelent contra insomniei. Dar va
-avea el oare efect imediat din pricina administrării îndelungate a unor somnifere dintre cele
-mai puternice? - A încercat. Am făcut cunoștință pe 7 decembrie 1976. Șapte zile mai târziu
-am mers în vizită la niște amici de-ai lui care mi-au comunicat încă din ușă bucuria că
-prietenul nostru comun își recăpătase somnul, în același timp îi dispăruse și durerea din
-laba piciorului. Ceaiul îl ajutase să-și regăsească sănătatea în cel mai scurt timp, înlăturând
-și toate tulburările nervoase. Medicul care-l trata l-a rugat apoi să-i dea rețeta acestui ceai
+Florile galben-aurii ale acestei specii de ciubotica-
+cucului raspandesc o mireasma placuta, asemanatoare
+mierii si formeaza o umbela dispusa pe o tulpina inalta de
+10-20 centimetri, care se ridica din centrul unei rozete.
+Aceasta varietate se mai numeste si aglica, anghelina,
+calce, cinci-foi, cizma-cucului, talpa-gastei, tata-caprei,
+tata-oii, urechita-ursului. Ea creste cu precadere pe
+campiile din zonele deluroase si prealpine.
+Foarte raspandita Primula eliator, cunoscuta tot sub
+numele de ciubotica-cucului, dar si de aglici, agrisei sau
+tata-vacii, creste pe mai toate campiile, la margini de
+paduri si sub tufisuri si poarta pe tulpina inalta o um -bela
+florala de un galben deschis, cu un parfum slab. Forta ei
+curativa este egala in valoare cu cea a Primulei officinalis,
+putand fi folosita exact in acelasi fel.
+O alta subspecie, Primula auricula, cunoscuta sub
+denumirile de urechea-ursului, ciubotica-cucului,
+ciubotica-ursului, urechea-soarecelui, urechiuse, este o
+planta alpina, care se afla sub stricta ocrotire a legii,
+neavand deci voie sa fie culeasa. Aflandu-ma intr-o societate,
+vecinul meu de masa mi-a povestit ca este la Gallspach la
+cura. Aceasta fusese ultima sa speranta, intrucat cura se apropia de sfarsit probabil fara
+nici un rezultat, nu stia ce sa mai faca. in ciuda somniferelor foarte puternice, nu putea
+dormi. Neurologii din Linz si Viena nu l-au putut elibera de acest calvar: Cand se intinde
+seara in pat, mort de oboseala, il cuprinde o durere de parca i-ar stinge cineva o tigara
+aprinsa pe partea anterioara a labei piciorului. Din aceasta cauza este fizic si sufleteste la
+pamant si in pragul disperarii, l-am spus ca stiu un ceai excelent contra insomniei. Dar va
+avea el oare efect imediat din pricina administrarii indelungate a unor somnifere dintre cele
+mai puternice? - A incercat. Am facut cunostinta pe 7 decembrie 1976. Sapte zile mai tarziu
+am mers in vizita la niste amici de-ai lui care mi-au comunicat inca din usa bucuria ca
+prietenul nostru comun isi recapatase somnul, in acelasi timp ii disparuse si durerea din
+laba piciorului. Ceaiul il ajutase sa-si regaseasca sanatatea in cel mai scurt timp, inlaturand
+si toate tulburarile nervoase. Medicul care-l trata l-a rugat apoi sa-i dea reteta acestui ceai
 special contra insomniei:
-50 grame de ciuboțica-cucului 25 grame
-de flori de levănțică 10 grame de
-sunătoare 15 grame de con de hamei 5
-grame de rădăcini de odolean
-Se opărește 1 linguriță (cu vârf) din
-acest amestec cu 1/4 litru de apă și se lasă
-să stea 3 minute. Ceaiul se bea foarte cald,
-în înghițituri mici, înainte de culcare. Se
-poate îndulci cu puțină miere după gust.
+50 grame de ciubotica-cucului 25 grame
+de flori de levantica 10 grame de
+sunatoare 15 grame de con de hamei 5
+grame de radacini de odolean
+Se opareste 1 lingurita (cu varf) din
+acest amestec cu 1/4 litru de apa si se lasa
+sa stea 3 minute. Ceaiul se bea foarte cald,
+in inghitituri mici, inainte de culcare. Se
+poate indulci cu putina miere dupa gust.
 
-Ceaiul ar trebui preferat oricărui somnifer chimic. Acestea din urmă distrug sistemul
-nervos, în timp ce ceaiul înlătură toate tulburările nervoase.
-Mama mea culegea în fiecare primăvară ciuboțica-cucului pentru că știa ce influ ență
-liniștitoare are asupra inimii și a nervilor. Se adună întreaga umbelă florală su perioară.
-Preotul Kneipp a fost un mare adept al acestei flori. Există o fotografie de-a lui în care
-poate fi văzut cu ciuboțica-cucului în mână. Prin efectul ei depurativ, ciuboțica-cucului
-elimină toate substanțele toxice care duc la artrită (gută) si boli reumatice. Preotul
-Kneipp afirmă: „Cine are predispoziție spre boala articulațiilor sau afecțiunea membrelor
-(înțelege prin aceasta artrita și reumatismul) să bea zilnic o pe rioadă mai lungă de timp
-una până la două cești cu ceai de ciuboțica-cucului. Durerile puternice se vor atenua și
-cu timpul vor dispărea complet."
-Ceaiul de ciuboțica-cucului este în plus și un mijloc excelent de întărire a nervilor și de
-tonifiere a inimii, calmează migrena și durerile de cap pe bază nervoasă, are un efect
-ieșit din comun asupra inflamației miocardului, a hidropiziei și a tendinței spre
-apoplexie. O fiertură de rădăcini, amestecată cu miere, dă un ceai pentru rinichi care
-ajută la eliminarea calculului vezical (pietrei la vezică).
-Se recomandă următorul ceai depurativ de primăvară:
-Se folosește 1 linguriță (cu vârf) din
-50 grame de ciuboțica-cucului acest amestec la 1/4 litru de apă, plan-
-50 grame de mlădițe de soc tele se opăresc și se lasă să stea 3
-15 grame de frunze de urzici minute. Se beau în timpul zilei 2 cești,
-15 grame de rădăcini de păpădie înghițitură cu înghițitură; ceaiul se
- îndulcește eventual cu puțină miere.
- (Prin mlădițe de soc se înțeleg mugurii tineri, care tocmai răsar primăvara!)
-Performanțe foarte bune în afecțiunile inimii realizează vinul de ciuboțica-cucului, pe
-care ni-l putem prepara singuri primăvara. Se umple o sticlă de 2 litri cu flori proaspete de
-ciuboțica-cucului (umbelele florale întregi), fără a se îndesa, iar deasupra se toarnă vin
-alb natural, curat. Florile trebuie să fie acoperite. Sticla se lasă, astupată ușor cu un dop
-de plută, să stea 14 zile în soare. În afecțiunile cardiace se ia din când în când câte 1
-înghițitură de vin, cardiacii pot să bea până la 3 linguri pline pe zi.
+Ceaiul ar trebui preferat oricarui somnifer chimic. Acestea din urma distrug sistemul
+nervos, in timp ce ceaiul inlatura toate tulburarile nervoase.
+Mama mea culegea in fiecare primavara ciubotica-cucului pentru ca stia ce influ enta
+linistitoare are asupra inimii si a nervilor. Se aduna intreaga umbela florala su perioara.
+Preotul Kneipp a fost un mare adept al acestei flori. Exista o fotografie de-a lui in care
+poate fi vazut cu ciubotica-cucului in mana. Prin efectul ei depurativ, ciubotica-cucului
+elimina toate substantele toxice care duc la artrita (guta) si boli reumatice. Preotul
+Kneipp afirma: „Cine are predispozitie spre boala articulatiilor sau afectiunea membrelor
+(intelege prin aceasta artrita si reumatismul) sa bea zilnic o pe rioada mai lunga de timp
+una pana la doua cesti cu ceai de ciubotica-cucului. Durerile puternice se vor atenua si
+cu timpul vor disparea complet."
+Ceaiul de ciubotica-cucului este in plus si un mijloc excelent de intarire a nervilor si de
+tonifiere a inimii, calmeaza migrena si durerile de cap pe baza nervoasa, are un efect
+iesit din comun asupra inflamatiei miocardului, a hidropiziei si a tendintei spre
+apoplexie. O fiertura de radacini, amestecata cu miere, da un ceai pentru rinichi care
+ajuta la eliminarea calculului vezical (pietrei la vezica).
+Se recomanda urmatorul ceai depurativ de primavara:
+Se foloseste 1 lingurita (cu varf) din
+50 grame de ciubotica-cucului acest amestec la 1/4 litru de apa, plan-
+50 grame de mladite de soc tele se oparesc si se lasa sa stea 3
+15 grame de frunze de urzici minute. Se beau in timpul zilei 2 cesti,
+15 grame de radacini de papadie inghititura cu inghititura; ceaiul se
+ indulceste eventual cu putina miere.
+ (Prin mladite de soc se inteleg mugurii tineri, care tocmai rasar primavara!)
+Performante foarte bune in afectiunile inimii realizeaza vinul de ciubotica-cucului, pe
+care ni-l putem prepara singuri primavara. Se umple o sticla de 2 litri cu flori proaspete de
+ciubotica-cucului (umbelele florale intregi), fara a se indesa, iar deasupra se toarna vin
+alb natural, curat. Florile trebuie sa fie acoperite. Sticla se lasa, astupata usor cu un dop
+de pluta, sa stea 14 zile in soare. In afectiunile cardiace se ia din cand in cand cate 1
+inghititura de vin, cardiacii pot sa bea pana la 3 linguri pline pe zi.
 
 MODURI DE FOLOSIRE
-Infuzie: Se opărește 1 linguriță (cu vârf) de plante cu 1/4 litru de apă și se lasă să stea puțin!
-Vin pentru inimă: Modul! de fabricare și folosire se caută la fragmentul respectiv
+Infuzie: Se opareste 1 lingurita (cu varf) de plante cu 1/4 litru de apa si se lasa sa stea putin!
+Vin pentru inima: Modul! de fabricare si folosire se cauta la fragmentul respectiv
 din text!
-Ceai pentru dormit: Modul de amestecare și de utilizare se caută la fragmen tul
+Ceai pentru dormit: Modul de amestecare si de utilizare se cauta la fragmen tul
 respectiv din text!
-Ceai de primăvară (depurativ) Modul de amestecare și utilizare se caută la
+Ceai de primavara (depurativ) Modul de amestecare si utilizare se cauta la
 fragmentul respectiv din text!
 
 ### COADA-CALULUI
 
 COADA-CALULUI (Equisetum arvense)
 Denumiri populare: barba-ursului, bota-calului,
-brădișor, coada-iepei, coada-mânzului, nodățică, opin-
-tici, părul-porcului, sirușliță.
-Primăvara timpurie, din rizomul care crește adânc ies
-mai întâi tulpinile fructului, colorate maroniu, roditoare și
-purtătoare de spori. Abia mai târziu apar frun zele verzi și
-înalte de până la 40 centimetri, care se aseamănă cu niște
-brăduți cu formă regulată. Coada-calului se găsește pe
-câmpuri, terasamente de cale ferată și povârnișuri. Acea
-varietate care crește pe pământ argilos este cea mai
-tămăduitoare. Conține, în funcție de locul de amplasare, 3-
+bradisor, coada-iepei, coada-manzului, nodatica, opin-
+tici, parul-porcului, siruslita.
+Primavara timpurie, din rizomul care creste adanc ies
+mai intai tulpinile fructului, colorate maroniu, roditoare si
+purtatoare de spori. Abia mai tarziu apar frun zele verzi si
+inalte de pana la 40 centimetri, care se aseamana cu niste
+braduti cu forma regulata. Coada-calului se gaseste pe
+campuri, terasamente de cale ferata si povarnisuri. Acea
+varietate care creste pe pamant argilos este cea mai
+tamaduitoare. Contine, in functie de locul de amplasare, 3-
 16% acid silicic care produce un efect curativ foarte bun.
-Bineînțeles că se va evita planta de pe ogoarele îngrășate
-chimic. Coada-calului cu rămurelele foarte fine crește cu
-precădere în păduri și liziere. Și această varietate are
+Bineinteles ca se va evita planta de pe ogoarele ingrasate
+chimic. Coada-calului cu ramurelele foarte fine creste cu
+precadere in paduri si liziere. Si aceasta varietate are
 putere de leac.
-în medicina populară, această plantă medicinală a
-fost apreciată încă din timpuri îndepărtate, în special
-datorită forței sale hemostatice (care are proprietatea
-de a opri hemoragia) și a reușitelor în cazul bolilor renale si
-vezicale grave. Totuși, ea a fost dată uitării în decursul
+in medicina populara, aceasta planta medicinala a
+fost apreciata inca din timpuri indepartate, in special
+datorita fortei sale hemostatice (care are proprietatea
+de a opri hemoragia) si a reusitelor in cazul bolilor renale si
+vezicale grave. Totusi, ea a fost data uitarii in decursul
 vremurilor. Chiar preotul Kne'ipp, marele nostru medic
 naturist popular, a fost acela care a readus coada-calului la
-importanța sa anterioară. El o declară drept „unică, de neânlocuit și inapreciabilă" în cazul
-hemoragiilor, al vărsăturilor cu sânge, al afecțiunilor vezicale și renale, al pietrei și
-nisipului. „In o mie de afecțiuni", scrie el, „în răni necrozate, chiar în abcese canceroase
-sau, osteoporoză, coada-calului obține performanțe ieșite din comun. Ea spală, curăță
-dizolvă, arde, îndepărtează tot ce este stricat. Adesea, planta umedă, caldă este învelită
-în cârpe ude și pusă pe locul care trebuie să se vindece."
-Preotul elvețian KQnzIe afirmă că toți oamenii începând de la o oarecare verstă ar trebui
-să ia zilnic ca băutură permanentă o ceașcă cu ceai de coada-calului. Atunci toate
-durerile reumatice, artritice și nevralgice ar dispărea, fiecare om ar avea un apus de
-viață sănătos. Povestește că un bărbat de 86 de ani a fost eliberat datorită unei băi cu aburi
-de coada-calului de o durere îngrozitoare provocată de o formare de calcul și că a mai trăit
-încă mulți ani. Preotul elvețian mai spune: „Cele mai puter nice hemoragii și vărsături cu
-sânge le va vindeca planta, luată intern sub formă de ceai, în timp scurt, ba chiar aproape
+importanta sa anterioara. El o declara drept „unica, de neanlocuit si inapreciabila" in cazul
+hemoragiilor, al varsaturilor cu sange, al afectiunilor vezicale si renale, al pietrei si
+nisipului. „In o mie de afectiuni", scrie el, „in rani necrozate, chiar in abcese canceroase
+sau, osteoporoza, coada-calului obtine performante iesite din comun. Ea spala, curata
+dizolva, arde, indeparteaza tot ce este stricat. Adesea, planta umeda, calda este invelita
+in carpe ude si pusa pe locul care trebuie sa se vindece."
+Preotul elvetian KQnzIe afirma ca toti oamenii incepand de la o oarecare versta ar trebui
+sa ia zilnic ca bautura permanenta o ceasca cu ceai de coada-calului. Atunci toate
+durerile reumatice, artritice si nevralgice ar disparea, fiecare om ar avea un apus de
+viata sanatos. Povesteste ca un barbat de 86 de ani a fost eliberat datorita unei bai cu aburi
+de coada-calului de o durere ingrozitoare provocata de o formare de calcul si ca a mai trait
+inca multi ani. Preotul elvetian mai spune: „Cele mai puter nice hemoragii si varsaturi cu
+sange le va vindeca planta, luata intern sub forma de ceai, in timp scurt, ba chiar aproape
 pe loc."
-In cazul răcelilor vezicale și al durerilor spastice nu există un remediu mai bun
-decât o infuzie de coada-calului ai cărei vapori sunt lăsați să acționeze asupra vezicii,
-învelindu-se bolnavul 10 minute într-un halat de baie. Repetând această procedură de
+In cazul racelilor vezicale si al durerilor spastice nu exista un remediu mai bun
+decat o infuzie de coada-calului ai carei vapori sunt lasati sa actioneze asupra vezicii,
+invelindu-se bolnavul 10 minute intr-un halat de baie. Repetand aceasta procedura de
 
-câteva ori, se produce o dispariție treptată a răului. Bătrânii care deodată nu mai pot urina
-și se zvârcolesc de durere, întrucât urina nu iese deloc sau doar picătură cu picătură, sunt
-eliberați de chin grație acestor aburi fierbinți de coada-calului, fără ca medicul să-i
+cateva ori, se produce o disparitie treptata a raului. Batranii care deodata nu mai pot urina
+si se zvarcolesc de durere, intrucat urina nu iese deloc sau doar picatura cu picatura, sunt
+eliberati de chin gratie acestor aburi fierbinti de coada-calului, fara ca medicul sa-i
 sondeze.
-în cazul nisipului la rinichi, al calculului renal și vezical (pietrei la rinichi și la
-vezică) se fac băi de șezut fierbinți cu coada-calului, bându-se în același timp ceai cald de
-coada-calului în înghițituri mici și ținându-se urina, pentru a o goli în cele din urmă cu
-presiune, în acest fel, piatra se elimină de cele mai multe ori. In legătură cu aceste
-îndrumări am primit scrisori care nu fac decât să confirme cele de mai sus: Metoda a dus la
-eliminarea calculului renal, respectivii oameni se simt bine și nu-i mai jenează nimic.
-în situații în care alte mijloace diuretice nu au avut efect, coada-calului a ajutat, ca de
-exemplu în retențiile de apă în pericard, în pleură sau în tulburările renale de după
-scarlatină și alte boli infecțioase grele cu dereglări în eliminarea apei. După ce bolnavul a
-suferit de una din aceste boli, un tratament cu coada-calului este un mijloc excelent atât
-intern cât și extern pentru a ajuta funcționarea normală a rinichilor și a vezicii urinare.
-O singură baie de șezut cu coada-calului face minuni în inflamațiile bazinetului renal
-și în pionefrită. Pentru aceasta se folosește - deci numai ca uz extern - coada-calului' cea
-înaltă, care are niște tulpini de grosimea degetului și crește în câmpiile mlăștinoase și
-pășunile alpine și care aduce o ușurare în cazul acestor maladii. O bună cunoștință de-a
-mea a zăcut săptămâni și luni întregi în spital la Innsbruck cu o gravă inflamație a
-bazinetului renal. Neântrezărind nici un sfârșit al suferinței, mi-a trimis de-acolo un semnal
-de alarmă. Am sfătuit-o să facă o baie de șezut cu coada-calului. La puține zile a sosit o
-scrisoare: „Mi-ai salvat viața. Sunt acasă. Baia de șezut cu coada-calului mi-a luat tot răul,
-dându-mi forțe noi." Coada-calului cea înaltă, cu tulpini groase cât degetul, culeasă de pe
-câmpii mlăștinoase și pășuni alpine are voie să fie folosită numai pentru băi de șezut.
-Pentru uz intern, deci prepararea ceaiului, se ia numai planta culeasă de pe ogoare, drumuri
-de țară și liziere.
-După o naștere grea se poate întâmpla ca la tinerele mame să apară tulburări de
-vedere, cauza constând bineînțeles în faptul că la nașterea unui copil rinichii femeii au avut
-de suferit și ei. Băile de șezut cu coada-calului acționează din exterior în sensul provocării
-unei 'irigări sangvine a rinichilor, care trage presiunea rinichilor din ochi, în așa fel încât
-tulburările de vedere dispar treptat.
-Marele medic german dr. Bohn, adept al lui Kneipp, laudă coada-calului și puterile sale:
-„Pe de o parte, coada-calului este un mijloc împotriva hemoragiilor, pe de alta -și aceasta
-în măsura cea mai mare - un leac pentru rinichi. După consumul infuziei de coada-calului
-se elimină cu ușurință și din abundență o urină închisă la culoare. În caz de hidropiziei
-este un remediu rapid și eficace." Când nici un alt mijloc diuretic nu-și mai face efectul, se
-dau deoparte toate celelalte ceaiuri de plante și se beau 4-5 zile (în cazuri rebele până la 6
-zile) în șir câte 5-6 cești cu ceai de coada-calului, dar numai în înghițituri mici, repartizate pe
-parcursul întregii zile. Practica arată că în cele mai multe cazuri urina se va elimina.
-în cazul unor erupții cutanate (de piele) însoțite de mâncării, chiar dacă sunt cu
-cruste sau cu puroi ajută spălaturile și compresele cu infuzie de coada-calului. Spălaturile și
-băile cu coada-calului sunt de folos și în cazul inflamațiilor purulente ale patului unghiilor,
-în cel al picioarelor cu ulcer varicos, al osteoporozei, al rănilor vechi si care nu se
-vindecă, al ulcerațiilor canceroase, al stratului cornos de la călcâi, al fistulelor și
-pecingine! și al altor eczeme, cât și al lupusului. Se poate aplica și planta opărită, învelită
-caldă în cârpe. Pentru a combate hemoroizii dureroși și nodulii hemoroidali se aplică un
+in cazul nisipului la rinichi, al calculului renal si vezical (pietrei la rinichi si la
+vezica) se fac bai de sezut fierbinti cu coada-calului, bandu-se in acelasi timp ceai cald de
+coada-calului in inghitituri mici si tinandu-se urina, pentru a o goli in cele din urma cu
+presiune, in acest fel, piatra se elimina de cele mai multe ori. In legatura cu aceste
+indrumari am primit scrisori care nu fac decat sa confirme cele de mai sus: Metoda a dus la
+eliminarea calculului renal, respectivii oameni se simt bine si nu-i mai jeneaza nimic.
+in situatii in care alte mijloace diuretice nu au avut efect, coada-calului a ajutat, ca de
+exemplu in retentiile de apa in pericard, in pleura sau in tulburarile renale de dupa
+scarlatina si alte boli infectioase grele cu dereglari in eliminarea apei. Dupa ce bolnavul a
+suferit de una din aceste boli, un tratament cu coada-calului este un mijloc excelent atat
+intern cat si extern pentru a ajuta functionarea normala a rinichilor si a vezicii urinare.
+O singura baie de sezut cu coada-calului face minuni in inflamatiile bazinetului renal
+si in pionefrita. Pentru aceasta se foloseste - deci numai ca uz extern - coada-calului' cea
+inalta, care are niste tulpini de grosimea degetului si creste in campiile mlastinoase si
+pasunile alpine si care aduce o usurare in cazul acestor maladii. O buna cunostinta de-a
+mea a zacut saptamani si luni intregi in spital la Innsbruck cu o grava inflamatie a
+bazinetului renal. Neantrezarind nici un sfarsit al suferintei, mi-a trimis de-acolo un semnal
+de alarma. Am sfatuit-o sa faca o baie de sezut cu coada-calului. La putine zile a sosit o
+scrisoare: „Mi-ai salvat viata. Sunt acasa. Baia de sezut cu coada-calului mi-a luat tot raul,
+dandu-mi forte noi." Coada-calului cea inalta, cu tulpini groase cat degetul, culeasa de pe
+campii mlastinoase si pasuni alpine are voie sa fie folosita numai pentru bai de sezut.
+Pentru uz intern, deci prepararea ceaiului, se ia numai planta culeasa de pe ogoare, drumuri
+de tara si liziere.
+Dupa o nastere grea se poate intampla ca la tinerele mame sa apara tulburari de
+vedere, cauza constand bineinteles in faptul ca la nasterea unui copil rinichii femeii au avut
+de suferit si ei. Baile de sezut cu coada-calului actioneaza din exterior in sensul provocarii
+unei 'irigari sangvine a rinichilor, care trage presiunea rinichilor din ochi, in asa fel incat
+tulburarile de vedere dispar treptat.
+Marele medic german dr. Bohn, adept al lui Kneipp, lauda coada-calului si puterile sale:
+„Pe de o parte, coada-calului este un mijloc impotriva hemoragiilor, pe de alta -si aceasta
+in masura cea mai mare - un leac pentru rinichi. Dupa consumul infuziei de coada-calului
+se elimina cu usurinta si din abundenta o urina inchisa la culoare. In caz de hidropiziei
+este un remediu rapid si eficace." Cand nici un alt mijloc diuretic nu-si mai face efectul, se
+dau deoparte toate celelalte ceaiuri de plante si se beau 4-5 zile (in cazuri rebele pana la 6
+zile) in sir cate 5-6 cesti cu ceai de coada-calului, dar numai in inghitituri mici, repartizate pe
+parcursul intregii zile. Practica arata ca in cele mai multe cazuri urina se va elimina.
+in cazul unor eruptii cutanate (de piele) insotite de mancarii, chiar daca sunt cu
+cruste sau cu puroi ajuta spalaturile si compresele cu infuzie de coada-calului. Spalaturile si
+baile cu coada-calului sunt de folos si in cazul inflamatiilor purulente ale patului unghiilor,
+in cel al picioarelor cu ulcer varicos, al osteoporozei, al ranilor vechi si care nu se
+vindeca, al ulceratiilor canceroase, al stratului cornos de la calcai, al fistulelor si
+pecingine! si al altor eczeme, cat si al lupusului. Se poate aplica si planta oparita, invelita
+calda in carpe. Pentru a combate hemoroizii durerosi si nodulii hemoroidali se aplica un
 terci de plante proaspete, care se face astfel: Se
 
-spală coada-calului proaspătă și se fărâmițează bine pe un fund de lemn până se formează
+spala coada-calului proaspata si se faramiteaza bine pe un fund de lemn pana se formeaza
 un terci.
-în hemoragii nazale continue se pune o compresă cu infuzie răcită de coada-calului.
-Ca mijloc hemostatic, ea ajută în hemoragiile pulmonare, în metroragii (hemoragii
-uterine neregulate), în hemoragiile stomacale și ale hemoroizilor. Aici este nevoie,
-firește, de un ceai mai concentrat. În mod normal se calculează pentru 1 ceașcă (1/4 litru) 1
-linguriță cu vârf de plante, în cazul hemoroizilor se pun însă 2-3 lingurițe cu vârf la 1
-ceașcă. Coada-calului ajută, combinată cu ventrilica, în combaterea arteriosclerozei și a
-amneziei prin efectul ei depurativ. Poate fi caracterizată drept mijlocul cel mai bun de
+in hemoragii nazale continue se pune o compresa cu infuzie racita de coada-calului.
+Ca mijloc hemostatic, ea ajuta in hemoragiile pulmonare, in metroragii (hemoragii
+uterine neregulate), in hemoragiile stomacale si ale hemoroizilor. Aici este nevoie,
+fireste, de un ceai mai concentrat. In mod normal se calculeaza pentru 1 ceasca (1/4 litru) 1
+lingurita cu varf de plante, in cazul hemoroizilor se pun insa 2-3 lingurite cu varf la 1
+ceasca. Coada-calului ajuta, combinata cu ventrilica, in combaterea arteriosclerozei si a
+amneziei prin efectul ei depurativ. Poate fi caracterizata drept mijlocul cel mai bun de
 prevenire a cancerului.
-Tinctura de coada-calului este și un remediu deosebit de bun contra picioarelor care
-transpiră (a se vedea „Moduri de folosire"). Picioarele spălate și uscate bine sunt
-fricționate cu această tinctură. în plus, trebuie să se bea zilnic, dimineața, pe stomacul gol,
-1/2 oră înainte de micul dejun, 1 ceașcă cu ceai de coada-calului. La fel de bine ajută
-contra transpirației picioarelor și băile de picioare cu coada-calului (a se vedea „Moduri de
-folosire"). Pentru a combate mătreața, părul se spală zilnic cu infuzie de coada-calului,
-după care se masează cu ulei de măsline de calitate. Mătreața va dispărea foarte curând.
-Coada-calului amestecată cu sunătoare, opărită și consumată 1-2 cești pe parcursul
-zilei, în timp ce seara se mănâncă hrană solidă, ajută împotriva incontinenței urinare. Se
-recomandă ca apă de gargară în amigdalite, inflamații ale mucoasei bucale, stomatite
-ulceroase, sângerări ale gingiei și gingivite, fistule și polipi în cerul gurii și gât. Femeile
-care au scurgeri ar trebui să facă băi de șezut cu coada-calului.
-Nu trebuie uitat că această plantă medicinală este unul din leacurile pulmonare cele mai
-bune, atât în caz de bronșită cronică, cit și de tuberculoză pulmonară. Prin consumul
-regulat de ceai se obține o însănătoșire a plămânului tuberculos prin aportul de acid silicic,
-dar și înlăturarea slăbiciunii generale existente în decursul bolii pulmonare.
-Noile rezultate ale cercetărilor îndreptățesc, conform botanistului austriac Richard
-Willfort, să se presupună că prin utilizarea mai îndelungată a ceaiului de coada-calului,
-tumorile maligne sunt stopate în creșterea lor și în cele din urmă făcute să dispară. Chiar
-polipii organelor pelviene sau cei rectali sau inflamațiile bursei sinoviale se combat în
-acest chip. în plus, se folosesc în anumite cazuri comprese cu aburi de coada-calului și
-băi de șezut cu coada-calului. Aceste comprese cu aburi ajută și în durerile stomacale
-spastice, în crizele hepatice (de ficat) și biliare (ale veziculei biliare) și în blocajele
-dureroase care dăunează activității cardiace prin presiunea lor ascendentă.
+Tinctura de coada-calului este si un remediu deosebit de bun contra picioarelor care
+transpira (a se vedea „Moduri de folosire"). Picioarele spalate si uscate bine sunt
+frictionate cu aceasta tinctura. in plus, trebuie sa se bea zilnic, dimineata, pe stomacul gol,
+1/2 ora inainte de micul dejun, 1 ceasca cu ceai de coada-calului. La fel de bine ajuta
+contra transpiratiei picioarelor si baile de picioare cu coada-calului (a se vedea „Moduri de
+folosire"). Pentru a combate matreata, parul se spala zilnic cu infuzie de coada-calului,
+dupa care se maseaza cu ulei de masline de calitate. Matreata va disparea foarte curand.
+Coada-calului amestecata cu sunatoare, oparita si consumata 1-2 cesti pe parcursul
+zilei, in timp ce seara se mananca hrana solida, ajuta impotriva incontinentei urinare. Se
+recomanda ca apa de gargara in amigdalite, inflamatii ale mucoasei bucale, stomatite
+ulceroase, sangerari ale gingiei si gingivite, fistule si polipi in cerul gurii si gat. Femeile
+care au scurgeri ar trebui sa faca bai de sezut cu coada-calului.
+Nu trebuie uitat ca aceasta planta medicinala este unul din leacurile pulmonare cele mai
+bune, atat in caz de bronsita cronica, cit si de tuberculoza pulmonara. Prin consumul
+regulat de ceai se obtine o insanatosire a plamanului tuberculos prin aportul de acid silicic,
+dar si inlaturarea slabiciunii generale existente in decursul bolii pulmonare.
+Noile rezultate ale cercetarilor indreptatesc, conform botanistului austriac Richard
+Willfort, sa se presupuna ca prin utilizarea mai indelungata a ceaiului de coada-calului,
+tumorile maligne sunt stopate in cresterea lor si in cele din urma facute sa dispara. Chiar
+polipii organelor pelviene sau cei rectali sau inflamatiile bursei sinoviale se combat in
+acest chip. in plus, se folosesc in anumite cazuri comprese cu aburi de coada-calului si
+bai de sezut cu coada-calului. Aceste comprese cu aburi ajuta si in durerile stomacale
+spastice, in crizele hepatice (de ficat) si biliare (ale veziculei biliare) si in blocajele
+dureroase care dauneaza activitatii cardiace prin presiunea lor ascendenta.
 La 19 decembrie 1977 am primit un telefon de prin zona Steier. Era vorba de un fermier
-de 49 de ani, căruia îi apăruse în talpă o umflătură tare care-i pricinuia dureri mari. Nu mai
-putea să calce, în spital a fost ținut câteva zile și trimis iarăși acasă. L-am sfătuit să-și pună
-comprese cu aburi de coada-calului care dizolvă chiar și tumorile maligne. Vă puteți
-imagina cât am fost de surprinsă când mi s-a telefonat pe 22 decem brie, deci 3 zile mai
-târziu, că umflătura dispăruse complet. Pielea era nițel flască și moale la pipăit, iar
-umflătura tare nu se mai simțea. Un nou miracol din farmacia Domnului!
- Am putut constata din experiență că și cele mai grave discopatii dispar foarte rapid cu
-ajutorul băilor de șezut cu coada-calului, dacă nu au luat naștere prin blo carea unui nerv.
-Radiografiile arată coloane vertebrale uzate din cauza vârstei, la care însă nu se vede nici o
-cauză care să stârnească dureri. Presiunea unui rinichi dereglat, care, după cum a dovedit-
-o experiența, acționează ascendent, se plasează în nervii de la suprafață care merg de-a
-lungul șirei spinării si pricinuiesc aceste dureri. Deci nu este vorba de discurile
-intervertebrale, ci de presiunea exercitată de rinichi asupra
+de 49 de ani, caruia ii aparuse in talpa o umflatura tare care-i pricinuia dureri mari. Nu mai
+putea sa calce, in spital a fost tinut cateva zile si trimis iarasi acasa. L-am sfatuit sa-si puna
+comprese cu aburi de coada-calului care dizolva chiar si tumorile maligne. Va puteti
+imagina cat am fost de surprinsa cand mi s-a telefonat pe 22 decem brie, deci 3 zile mai
+tarziu, ca umflatura disparuse complet. Pielea era nitel flasca si moale la pipait, iar
+umflatura tare nu se mai simtea. Un nou miracol din farmacia Domnului!
+ Am putut constata din experienta ca si cele mai grave discopatii dispar foarte rapid cu
+ajutorul bailor de sezut cu coada-calului, daca nu au luat nastere prin blo carea unui nerv.
+Radiografiile arata coloane vertebrale uzate din cauza varstei, la care insa nu se vede nici o
+cauza care sa starneasca dureri. Presiunea unui rinichi dereglat, care, dupa cum a dovedit-
+o experienta, actioneaza ascendent, se plaseaza in nervii de la suprafata care merg de-a
+lungul sirei spinarii si pricinuiesc aceste dureri. Deci nu este vorba de discurile
+intervertebrale, ci de presiunea exercitata de rinichi asupra
 
-nervilor care sunt deschiși. O baie de șezut cu coada-calului îndepărtează imediat, prin
-efectul său în profunzime asupra rinichilor, presiunea lor ascendentă.
-O femeie în vârstă de 38 de ani se trata de trei ani de dureri de discopatie. în loc să
-simtă o ameliorare, durerile se accentuaseră și femeia a înțepenit atât de tare în zona
-umeri-gât, încât dimineața nu se mai putea ridica din pat decât cu ajutorul unei bare pe
-care soțul ei i-o fixase de plafon deasupra patului, în perioada aceea am ținut o prelegere
-la Steyr și cu această ocazie am cunoscut-o. Vă veți mira desigur aflând că femeia a
-scăpat, după o singură baie de șezut cu coada-calului, de toate durerile și de anchiloză.
-Același lucru este valabil în legătură cu discopatia pricinuită de mersul cu trac torul.
-Mișcările zguduitoare nu vătămează discurile intervertebrale, ci rinichii sunt cei dereglați
-din cauza acestui ritm sacadat, la naștere de îndată o presiune ascendentă, pe care băile
-de șezut cu coada-calului o îndepărtează.
-O doamnă din Elveția era de câțiva ani țeapănă ca un băț din cauza vertebrei cervi cale.
-Curele anuale la dr. Zeileis din Gallspach au adus o ameliorare pasageră, nici pe departe
-însă o vindecare. Am cunoscut-o din întâmplare. Mi-a promis pe un ton nu foarte
-convingător că va face o baie de șezut cu coada-calului după întoarcerea acasă. Foarte
-repede a sosit apoi telefonul, plin de bucurie: După numai 10 minute de baie caldă de
-șezut cu coada-calului a trecut orice anchiloză. Și nici n-a mai revenit vreodată, după cum
-am avut ocazia să aud după mulți ani.
-Marele neurolog, dr. Wagner-Jauregg, spune în scrierile sale: „Două treimi din toți
-bolnavii de nervi nu ar ajunge în sanatorii, dacă rinichii lor ar fi sănătoși." De atunci
-am putut să sfătuiesc mulți oameni nefericiți, care din cauza dereglărilor rinichilor
-sufereau de depresiuni, manii (idei fixe) și accese de nebunie, să facă băi de șezut cu
-coada-calului și să-i feresc de spitalul de boli nervoase. Aici trebuie folosit intern, pe lângă
-urzică și coada-șoricelului, și ceaiul de coada-calului, dimineața și seara câte 1 ceașcă.
-în tulburările renale grave însoțite de toate efectele lor secundare trebuie întrebuințată
-pentru băile de șezut coada-calului proaspătă; cel mai bine, după cum am mai menționat,
-cea înaltă de pe câmpiile mlăștinoase. Pentru 1 baie este necesară o găleată de 5 litri plină
-cu plante (a se vedea „Moduri de folosire" ca și „Băi de șezut" din capitolul „Partea
-generală"). În timpul băii de șezut, rinichii trebuie să stea sub apă - durata băii: 20 minute! A
-nu se șterge după baie, ci a se intra în halatul de baie și a transpira 1 oră în pat, abia apoi â
-se îmbrăca lenjeria de noapte uscată. Reîncălzită, baia de șezut mai poate fi folosită de 2
+nervilor care sunt deschisi. O baie de sezut cu coada-calului indeparteaza imediat, prin
+efectul sau in profunzime asupra rinichilor, presiunea lor ascendenta.
+O femeie in varsta de 38 de ani se trata de trei ani de dureri de discopatie. in loc sa
+simta o ameliorare, durerile se accentuasera si femeia a intepenit atat de tare in zona
+umeri-gat, incat dimineata nu se mai putea ridica din pat decat cu ajutorul unei bare pe
+care sotul ei i-o fixase de plafon deasupra patului, in perioada aceea am tinut o prelegere
+la Steyr si cu aceasta ocazie am cunoscut-o. Va veti mira desigur afland ca femeia a
+scapat, dupa o singura baie de sezut cu coada-calului, de toate durerile si de anchiloza.
+Acelasi lucru este valabil in legatura cu discopatia pricinuita de mersul cu trac torul.
+Miscarile zguduitoare nu vatameaza discurile intervertebrale, ci rinichii sunt cei dereglati
+din cauza acestui ritm sacadat, la nastere de indata o presiune ascendenta, pe care baile
+de sezut cu coada-calului o indeparteaza.
+O doamna din Elvetia era de cativa ani teapana ca un bat din cauza vertebrei cervi cale.
+Curele anuale la dr. Zeileis din Gallspach au adus o ameliorare pasagera, nici pe departe
+insa o vindecare. Am cunoscut-o din intamplare. Mi-a promis pe un ton nu foarte
+convingator ca va face o baie de sezut cu coada-calului dupa intoarcerea acasa. Foarte
+repede a sosit apoi telefonul, plin de bucurie: Dupa numai 10 minute de baie calda de
+sezut cu coada-calului a trecut orice anchiloza. Si nici n-a mai revenit vreodata, dupa cum
+am avut ocazia sa aud dupa multi ani.
+Marele neurolog, dr. Wagner-Jauregg, spune in scrierile sale: „Doua treimi din toti
+bolnavii de nervi nu ar ajunge in sanatorii, daca rinichii lor ar fi sanatosi." De atunci
+am putut sa sfatuiesc multi oameni nefericiti, care din cauza dereglarilor rinichilor
+sufereau de depresiuni, manii (idei fixe) si accese de nebunie, sa faca bai de sezut cu
+coada-calului si sa-i feresc de spitalul de boli nervoase. Aici trebuie folosit intern, pe langa
+urzica si coada-soricelului, si ceaiul de coada-calului, dimineata si seara cate 1 ceasca.
+in tulburarile renale grave insotite de toate efectele lor secundare trebuie intrebuintata
+pentru baile de sezut coada-calului proaspata; cel mai bine, dupa cum am mai mentionat,
+cea inalta de pe campiile mlastinoase. Pentru 1 baie este necesara o galeata de 5 litri plina
+cu plante (a se vedea „Moduri de folosire" ca si „Bai de sezut" din capitolul „Partea
+generala"). In timpul baii de sezut, rinichii trebuie sa stea sub apa - durata baii: 20 minute! A
+nu se sterge dupa baie, ci a se intra in halatul de baie si a transpira 1 ora in pat, abia apoi a
+se imbraca lenjeria de noapte uscata. Reincalzita, baia de sezut mai poate fi folosita de 2
 ori.
 MODURI DE FOLOSIRE
-Infuzie: 1 linguriță (cu vârf) de coada-calului la 1 litru de apă - se opărește, se
-lasă să stea puțin. Compresă cu aburi: 2 mâini pline de coada-calului se pun
-într-o sită care se
-agață peste un recipient cu apă clocotită. Când plantele sunt fierbinți și
-moi, se învelesc într-o pânză de in și se aplică pe locul suferind. A se
-împacheta neapărat cald! A se lăsa să acționeze mai multe ore sau
-peste noapte. Tinctură: 10 grame de coada-calului se lasă la macerat cu 50
+Infuzie: 1 lingurita (cu varf) de coada-calului la 1 litru de apa - se opareste, se
+lasa sa stea putin. Compresa cu aburi: 2 maini pline de coada-calului se pun
+intr-o sita care se
+agata peste un recipient cu apa clocotita. Cand plantele sunt fierbinti si
+moi, se invelesc intr-o panza de in si se aplica pe locul suferind. A se
+impacheta neaparat cald! A se lasa sa actioneze mai multe ore sau
+peste noapte. Tinctura: 10 grame de coada-calului se lasa la macerat cu 50
 grame de
-rachiu natural de secară. Se lasă să stea 14 zile la soare sau altă sursă
-de căldură. Se agită zilnic!
+rachiu natural de secara. Se lasa sa stea 14 zile la soare sau alta sursa
+de caldura. Se agita zilnic!
 
-Băi de șezut: 100 grame de coada-calului se lasă peste noapte în apă rece, în ziua
-următoare maceratul se înfierbântă până dă în clocot și se adaugă la apa de baie.
-Durata băii - 20 minute. A nu se șterge după baie, ci a se intra umed în halatul de baie,
-a transpira 1 oră în pat. Apa băii trebuie să acopere rinichii.
-Compresă cu terci: Coada-calului proaspătă este spălată bine și fărâmițată pe un
-fund de lemn până se formează un terci.
+Bai de sezut: 100 grame de coada-calului se lasa peste noapte in apa rece, in ziua
+urmatoare maceratul se infierbanta pana da in clocot si se adauga la apa de baie.
+Durata baii - 20 minute. A nu se sterge dupa baie, ci a se intra umed in halatul de baie,
+a transpira 1 ora in pat. Apa baii trebuie sa acopere rinichii.
+Compresa cu terci: Coada-calului proaspata este spalata bine si faramitata pe un
+fund de lemn pana se formeaza un terci.
 
-### COADA-ȘORICELULUI
+### COADA-SORICELULUI
 
-COADA-ȘORICELULUI (Achillea millefolium)
-Alte denumiri: alunele, brădățel, ciureșică, crestățea,
-crâvalnic, garva, iarba-oilor, iarba-strănutătoare, prishel,
-rotățele-albe, sorocină.
-Coada-șoricelului este o plantă medicinală căreia nu putem
-să nu-i rezervăm un loc în viața noastră. Deși ea constituie
-sprijinul nostru de bază în unele maladii grave, este
-considerată în primul rând o plantă de leac pentru femei. Nu
-am cuvinte suficiente ca să recomand femeilor coada-
-șoricelului. Preotul Kneipp este de părere în scrierile sale: „De
-multe nenorociri ar fi cruțate femeile, dacă ar recurge din
-când în când la coada-șoricelului!"
-Că este vorba despre o fată tânără care are tendințe spre
-un ciclu neregulat sau de o femeie mai în vârstă aflată în plină
-menopauză sau care a trecut de această perioadă, pentru
-oricare, fie tânără, fie bătrână, este important să bea din când
-în când câte o ceașcă cu ceai de coada-șoricelului. El
-influențează în toate privințele în mod favorabil organele
-pelviene (genitale) ale oricărei femei, așa că o femeie nu poate
-face nimic mai bun pentru sănătatea ei decât să-și
-culeagă, cu ocazia unei plimbări prin pădure și câmpie, un buchet
-proaspăt de coada-șoricelului. Ea crește în cantități mari pe
-câmpii și drumuri înguste de țară, pe la margini de păduri și de
-lanuri de cereale. Florile sunt albe sau trandafirii și au în soare un parfum aromatic, acrișor.
-Florile trebuie culese în soare puternic, 'căci atunci le crește conținutul în uleiuri volatile și
-deci forța lecuitoare.
-Cunosc o tânără hangiță despre care s-a spus deodată că ar avea cancer la organele
-pelviene. l s-au prescris raze cu cobalt. Rudele sale au fost înștiințate de medici că boala
-este incurabilă. M-am gândit la preotul Kneipp și la indicațiile sale în legătură cu tulburările
-organelor pelviene și i-am recomandat tinerei femei să bea atâta ceai de coada-șoricelului
-pe zi cât putea să suporte. Ce mirată am fost când am primit, nici trei săptămâni mai târziu,
-prin poștă vestea că se simte excelent și că încet, dar sigur, a început să-și recapete
-greutatea normală!
-în cazul unei inflamații a ovarelor se întâmplă adesea ca prima baie de șezut cu coada-
-șoricelului să și alunge durerile, iar inflamația să se retragă treptat. La fel de eficiente sunt
-aceste băi în incontinenta urinară a oamenilor bătrâni și a copiilor, ca și în leucoree
-(poală albă, scurgeri), în aceste cazuri trebuie să se bea suplimentar ceai de coada-
-șoricelului, și anume 2 cești pe zi.
-Și la prolaps uterin se fac o perioadă mai îndelungată de timp băi de șezut cu coada-
-șoricelului, se beau în plus 4 cești cu ceai de crețișoară pe parcursul întregii
+COADA-SORICELULUI (Achillea millefolium)
+Alte denumiri: alunele, bradatel, ciuresica, crestatea,
+cravalnic, garva, iarba-oilor, iarba-stranutatoare, prishel,
+rotatele-albe, sorocina.
+Coada-soricelului este o planta medicinala careia nu putem
+sa nu-i rezervam un loc in viata noastra. Desi ea constituie
+sprijinul nostru de baza in unele maladii grave, este
+considerata in primul rand o planta de leac pentru femei. Nu
+am cuvinte suficiente ca sa recomand femeilor coada-
+soricelului. Preotul Kneipp este de parere in scrierile sale: „De
+multe nenorociri ar fi crutate femeile, daca ar recurge din
+cand in cand la coada-soricelului!"
+Ca este vorba despre o fata tanara care are tendinte spre
+un ciclu neregulat sau de o femeie mai in varsta aflata in plina
+menopauza sau care a trecut de aceasta perioada, pentru
+oricare, fie tanara, fie batrana, este important sa bea din cand
+in cand cate o ceasca cu ceai de coada-soricelului. El
+influenteaza in toate privintele in mod favorabil organele
+pelviene (genitale) ale oricarei femei, asa ca o femeie nu poate
+face nimic mai bun pentru sanatatea ei decat sa-si
+culeaga, cu ocazia unei plimbari prin padure si campie, un buchet
+proaspat de coada-soricelului. Ea creste in cantitati mari pe
+campii si drumuri inguste de tara, pe la margini de paduri si de
+lanuri de cereale. Florile sunt albe sau trandafirii si au in soare un parfum aromatic, acrisor.
+Florile trebuie culese in soare puternic, 'caci atunci le creste continutul in uleiuri volatile si
+deci forta lecuitoare.
+Cunosc o tanara hangita despre care s-a spus deodata ca ar avea cancer la organele
+pelviene. l s-au prescris raze cu cobalt. Rudele sale au fost instiintate de medici ca boala
+este incurabila. M-am gandit la preotul Kneipp si la indicatiile sale in legatura cu tulburarile
+organelor pelviene si i-am recomandat tinerei femei sa bea atata ceai de coada-soricelului
+pe zi cat putea sa suporte. Ce mirata am fost cand am primit, nici trei saptamani mai tarziu,
+prin posta vestea ca se simte excelent si ca incet, dar sigur, a inceput sa-si recapete
+greutatea normala!
+in cazul unei inflamatii a ovarelor se intampla adesea ca prima baie de sezut cu coada-
+soricelului sa si alunge durerile, iar inflamatia sa se retraga treptat. La fel de eficiente sunt
+aceste bai in incontinenta urinara a oamenilor batrani si a copiilor, ca si in leucoree
+(poala alba, scurgeri), in aceste cazuri trebuie sa se bea suplimentar ceai de coada-
+soricelului, si anume 2 cesti pe zi.
+Si la prolaps uterin se fac o perioada mai indelungata de timp bai de sezut cu coada-
+soricelului, se beau in plus 4 cesti cu ceai de cretisoara pe parcursul intregii
 
-zile, înghițitură cu înghițitură, și se masează cu tinctură de traista-ciobanului zona
-pelviană, pornind de la vagin în sus.
-Miomurile sunt făcute să dispară cu ajutorul băilor zilnice de șezut cu coada-
-șoricelului continuate o perioadă mai lungă de timp, până ce controlul medical va con -
-stata retragerea lor totală.
-O tânără fată de 19 ani nu avea ciclu. Medicul specialist ginecolog i-a prescris
-pilula. Ciclul tot nu i-a venit, în schimb i s-a mărit enorm volumul sânilor. A refuzat să ia
-în continuare pilula. Îngrijorată, mama ei a venit la mine. Am sfătuit-o să-i dea fetei,
-zilnic, dimineața pe stomacul gol, o ceașcă cu ceai de coada-șoricelului. După patru
-săptămâni, totul a fost în regulă și așa a rămas și până astăzi, îmi amintesc și de o altă
-situație asemănătoare, care a ajuns însă un caz pentru spitalul de boli nervoase ca
-urmare a faptului că nu i-a folosit nici una dintre doctoriile administrate. Din păcate, pe
-vremea aceea n-aveam atâta experiență în materie de plante medicinale.
-Și în menopauză femeia ar trebui să recurgă hotărât la ceaiul de coada-șoricelului.
-Ar fi cruțată de neliniște interioară și de alte stări neplăcute. Și băile de șezut cu coada-
-șoricelului au influență favorabilă asupra sănătății. Băile de picioare cu adaos de coada-
-șoricelului fac bine și în nevritele de la brațe și picioare. Coada-șoricelului trebuie însă
-culeasă la ora însorită a amiezii În cele mai multe cazuri, aceste băi ajută deja după
-prima dată, luând toate durerile „cu mâna".
-Ceaiul de coada-șoricelului este recomandat de Dr. med. Lutze în cazul „congestiei
-cerebrale însoțite de dureri de parcă ar vrea craniul să pocnească, apoi împotriva
-amețelii, a grețurilor, a bolilor de ochi însoțite de lăcrimări, a durerilor acute de
-ochi și a hemoragiilor nazale..." O migrenă, cauzată de schimbarea vremii sau de
-foehn, este înlăturată de o singură ceașcă cu ceai de coada-șoricelului, băută fierbinte și
-încetul cu încetul; consumându-se acest ceai în mod regulat, migrena poate să treacă
+zile, inghititura cu inghititura, si se maseaza cu tinctura de traista-ciobanului zona
+pelviana, pornind de la vagin in sus.
+Miomurile sunt facute sa dispara cu ajutorul bailor zilnice de sezut cu coada-
+soricelului continuate o perioada mai lunga de timp, pana ce controlul medical va con -
+stata retragerea lor totala.
+O tanara fata de 19 ani nu avea ciclu. Medicul specialist ginecolog i-a prescris
+pilula. Ciclul tot nu i-a venit, in schimb i s-a marit enorm volumul sanilor. A refuzat sa ia
+in continuare pilula. Ingrijorata, mama ei a venit la mine. Am sfatuit-o sa-i dea fetei,
+zilnic, dimineata pe stomacul gol, o ceasca cu ceai de coada-soricelului. Dupa patru
+saptamani, totul a fost in regula si asa a ramas si pana astazi, imi amintesc si de o alta
+situatie asemanatoare, care a ajuns insa un caz pentru spitalul de boli nervoase ca
+urmare a faptului ca nu i-a folosit nici una dintre doctoriile administrate. Din pacate, pe
+vremea aceea n-aveam atata experienta in materie de plante medicinale.
+Si in menopauza femeia ar trebui sa recurga hotarat la ceaiul de coada-soricelului.
+Ar fi crutata de neliniste interioara si de alte stari neplacute. Si baile de sezut cu coada-
+soricelului au influenta favorabila asupra sanatatii. Baile de picioare cu adaos de coada-
+soricelului fac bine si in nevritele de la brate si picioare. Coada-soricelului trebuie insa
+culeasa la ora insorita a amiezii In cele mai multe cazuri, aceste bai ajuta deja dupa
+prima data, luand toate durerile „cu mana".
+Ceaiul de coada-soricelului este recomandat de Dr. med. Lutze in cazul „congestiei
+cerebrale insotite de dureri de parca ar vrea craniul sa pocneasca, apoi impotriva
+ametelii, a greturilor, a bolilor de ochi insotite de lacrimari, a durerilor acute de
+ochi si a hemoragiilor nazale..." O migrena, cauzata de schimbarea vremii sau de
+foehn, este inlaturata de o singura ceasca cu ceai de coada-soricelului, bauta fierbinte si
+incetul cu incetul; consumandu-se acest ceai in mod regulat, migrena poate sa treaca
 de tot.
-Întrucât coada-șoricelului este numită în vechile cărți despre plante medicinale
-„leacul tuturor relelor", ea poate fi folosită acolo unde orice altceva pare a fi de prisos. Ea
-va alunga din organism prin forța ei depurativă diferite boli care se instalaseră de ani
-de zile. Totul este să se facă încercarea.
-Nu este în general cunoscut faptul că această plantă are o influență pozitivă asu pra
-măduvei osoase și că stimulează acolo hematopoeza (formarea sângelui). Ea ajută în
-afecțiunile măduvei osoase, în care orice alt medicament clachează și chiar în
-osteoporoză, dacă se fac cure de ceai de coada-șoricelului, băi și frecții cu tinctură de
-coada-șoricelului. Această plantă medicinală este un mijloc hemostatic bun în oprirea
-hemoragiilor pulmonare și poate vindeca, împreună cu rădăcina de obli-geană,
-cancerul pulmonar. Rădăcinile de obligeană sunt mestecate pe parcursul zilei, iar din
-ceaiul de coada-șoricelului se bea dimineața și seara câte o ceașcă, înghițitură cu
-înghițitură. Ceaiul este de un ajutor foarte rapid pentru hemoragiile stomacale, pentru
-hemoroizii care sângerează puternic, ca și pentru greutățile și arsurile la stomac, în
-răceli, dureri de spate sau reumatice trebuie băut ceai de coada-șoricelului în cantitate
-mare și cât se poate de fierbinte. Ceaiul stimulează și activitatea renală regulată,
-înlătură inapetența, balonările și crampele stomacale, tulburările hepatice,
-inflamațiile traiectului stomacal și intestinal, stimulează activitatea intestinală și are
-astfel grijă ca scaunul să fie regulat, întrucât ajută și în tulburări circulatorii și spasme
-vasculare, poate fi recomandat cu multă căldură în anghina pecto rală. Mâncărimile
-neplăcute din vagin se îndepărtează prin efectuarea unor spălaturi și băi de șezut cu
-infuzie de coada-șoricelului.
-Pentru tratamentul hemoroizilor se poate prepara o alifie deosebit de bună din flori
-de coada-șoricelului (a se vedea „Moduri de folosire").
+Intrucat coada-soricelului este numita in vechile carti despre plante medicinale
+„leacul tuturor relelor", ea poate fi folosita acolo unde orice altceva pare a fi de prisos. Ea
+va alunga din organism prin forta ei depurativa diferite boli care se instalasera de ani
+de zile. Totul este sa se faca incercarea.
+Nu este in general cunoscut faptul ca aceasta planta are o influenta pozitiva asu pra
+maduvei osoase si ca stimuleaza acolo hematopoeza (formarea sangelui). Ea ajuta in
+afectiunile maduvei osoase, in care orice alt medicament clacheaza si chiar in
+osteoporoza, daca se fac cure de ceai de coada-soricelului, bai si frectii cu tinctura de
+coada-soricelului. Aceasta planta medicinala este un mijloc hemostatic bun in oprirea
+hemoragiilor pulmonare si poate vindeca, impreuna cu radacina de obli-geana,
+cancerul pulmonar. Radacinile de obligeana sunt mestecate pe parcursul zilei, iar din
+ceaiul de coada-soricelului se bea dimineata si seara cate o ceasca, inghititura cu
+inghititura. Ceaiul este de un ajutor foarte rapid pentru hemoragiile stomacale, pentru
+hemoroizii care sangereaza puternic, ca si pentru greutatile si arsurile la stomac, in
+raceli, dureri de spate sau reumatice trebuie baut ceai de coada-soricelului in cantitate
+mare si cat se poate de fierbinte. Ceaiul stimuleaza si activitatea renala regulata,
+inlatura inapetenta, balonarile si crampele stomacale, tulburarile hepatice,
+inflamatiile traiectului stomacal si intestinal, stimuleaza activitatea intestinala si are
+astfel grija ca scaunul sa fie regulat, intrucat ajuta si in tulburari circulatorii si spasme
+vasculare, poate fi recomandat cu multa caldura in anghina pecto rala. Mancarimile
+neplacute din vagin se indeparteaza prin efectuarea unor spalaturi si bai de sezut cu
+infuzie de coada-soricelului.
+Pentru tratamentul hemoroizilor se poate prepara o alifie deosebit de buna din flori
+de coada-soricelului (a se vedea „Moduri de folosire").
 
 MODURI DE FOLOSIRE
-Infuzie: Se opărește 1 linguriță (cu vârf) cu 1/4 litru de apă și se lasă puțin în
+Infuzie: Se opareste 1 lingurita (cu varf) cu 1/4 litru de apa si se lasa putin in
 repaos.
-Tinctură: Florile de coada-șoricelului culese în soare se introduc, fără a le îndesa,
-într-o sticlă până la gât, se toarnă deasupra rachiu de secară sau fructe de
-38-40%; se lasă să stea 14 zile în soare sau în apropierea mașinii de gătit.
-Alifie de coada-șoricelului: Se înfierbântă bine 90 grame de unt nesărat sau de
-untură de porc, se adaugă 15 grame de flori de coada-șoricelului proaspete
-și tăiate mărunt și 15 grame de frunze de zmeură tăiate fin, se lasă să
-sfârâie scurt în grăsime, se amestecă și se dă tigaia deoparte În ziua
-următoare se încălzește totul ușor, se stoarce printr-o bucată de ti fon și se
-introduce în borcane uscate, pregătite dinainte. A se păstra la frigider!
-Băi de șezut: A se lăsa 100 grame de coada-șoricelului (întreaga plantă) peste
-noapte în apă rece, a se da a doua zi în clocot și a se adăuga la apa de baie
-(a se vedea și „Băi de șezut" la capitolul „Partea generală").
+Tinctura: Florile de coada-soricelului culese in soare se introduc, fara a le indesa,
+intr-o sticla pana la gat, se toarna deasupra rachiu de secara sau fructe de
+38-40%; se lasa sa stea 14 zile in soare sau in apropierea masinii de gatit.
+Alifie de coada-soricelului: Se infierbanta bine 90 grame de unt nesarat sau de
+untura de porc, se adauga 15 grame de flori de coada-soricelului proaspete
+si taiate marunt si 15 grame de frunze de zmeura taiate fin, se lasa sa
+sfaraie scurt in grasime, se amesteca si se da tigaia deoparte In ziua
+urmatoare se incalzeste totul usor, se stoarce printr-o bucata de ti fon si se
+introduce in borcane uscate, pregatite dinainte. A se pastra la frigider!
+Bai de sezut: A se lasa 100 grame de coada-soricelului (intreaga planta) peste
+noapte in apa rece, a se da a doua zi in clocot si a se adauga la apa de baie
+(a se vedea si „Bai de sezut" la capitolul „Partea generala").
 
-### CREȚIȘOARA
+### CRETISOARA
 
-CREȚIȘOARA (Alchemilla vulgaris)
-Cunoscută în limbajul popular și ca brumărie, crețărel,
-făină-de-in, pălașcă, pleașcă, rătunjir, umbra-muntelui,
-umbrarul-doamnei, crețișoara crește mai ales la margini de
-păduri și drumuri, povârnișuri și câmpii umede din zone mai
-înalte și muntoase. Planta are frunze semicirculare, cu 7-9
-lobi, o tulpină tare care nu este foarte înaltă și flori galben-
-verzui fără strălucire, ce pot fi văzute din aprilie până în iunie
-și chiar mai târziu. De ziua Trupului Domnului (Joia Verde -
-sărbătoare a bisericii catolice, n. tr.) se împletesc în anumite
-regiuni coronițe din ea, pentru a împodobi apoi fruntea
-Mântuitorului, acasă, în colțul icoanelor. Frunzele crețișoarei
-stau uneori culcate la sol, iar dimineața se vede în mijlocul
-lor o picătură de rouă, strălucind ca o perlă. La înălțimi de
-peste 1000 metri găsim o varietate a crețișoarei care are
-partea inferioară a frunzelor de o strălucire argintie și care
-înflorește atât pe
-teren calcaros, cât și pe cel de rocă primară, în timpul înfloririi,
-planta este culeasă în întregime, iar mai târziu numai frunzele;
-plantele sunt lăsate apoi să se usuce în pod.
-Crețișoara este renumită mai ales ca plantă de leac pentru femei (în germană se
-numește și „Frauenmantel" = mantou de damă, „Frauenkraut" = planta femeilor sau
-„Frauenhilf" = ajutorul femeilor). Crețișoara n-ajută numai în tulburări menstruale,
-leucoree (poală albă, scurgeri), afecțiuni ale organelor pelviene și indispoziții la
-vârsta menopauzei, ci, luată la începutul pubertății împreună cu coada-șoricelului, in -
-fluențează benefic această perioadă. Pentru cazurile tinerelor fete cărora nu le vine ci clul
-menstrual în ciuda medicamentelor prescrise de doctor, crețișoara împreună cu coada-
-șoricelului (amestecate în părți egale) vor fi cele care vor reglementa această problemă.
-Crețișoara are efect astringent și vindecă foarte rapid, este folosită și ca
+CRETISOARA (Alchemilla vulgaris)
+Cunoscuta in limbajul popular si ca brumarie, cretarel,
+faina-de-in, palasca, pleasca, ratunjir, umbra-muntelui,
+umbrarul-doamnei, cretisoara creste mai ales la margini de
+paduri si drumuri, povarnisuri si campii umede din zone mai
+inalte si muntoase. Planta are frunze semicirculare, cu 7-9
+lobi, o tulpina tare care nu este foarte inalta si flori galben-
+verzui fara stralucire, ce pot fi vazute din aprilie pana in iunie
+si chiar mai tarziu. De ziua Trupului Domnului (Joia Verde -
+sarbatoare a bisericii catolice, n. tr.) se impletesc in anumite
+regiuni coronite din ea, pentru a impodobi apoi fruntea
+Mantuitorului, acasa, in coltul icoanelor. Frunzele cretisoarei
+stau uneori culcate la sol, iar dimineata se vede in mijlocul
+lor o picatura de roua, stralucind ca o perla. La inaltimi de
+peste 1000 metri gasim o varietate a cretisoarei care are
+partea inferioara a frunzelor de o stralucire argintie si care
+infloreste atat pe
+teren calcaros, cat si pe cel de roca primara, in timpul infloririi,
+planta este culeasa in intregime, iar mai tarziu numai frunzele;
+plantele sunt lasate apoi sa se usuce in pod.
+Cretisoara este renumita mai ales ca planta de leac pentru femei (in germana se
+numeste si „Frauenmantel" = mantou de dama, „Frauenkraut" = planta femeilor sau
+„Frauenhilf" = ajutorul femeilor). Cretisoara n-ajuta numai in tulburari menstruale,
+leucoree (poala alba, scurgeri), afectiuni ale organelor pelviene si indispozitii la
+varsta menopauzei, ci, luata la inceputul pubertatii impreuna cu coada-soricelului, in -
+fluenteaza benefic aceasta perioada. Pentru cazurile tinerelor fete carora nu le vine ci clul
+menstrual in ciuda medicamentelor prescrise de doctor, cretisoara impreuna cu coada-
+soricelului (amestecate in parti egale) vor fi cele care vor reglementa aceasta problema.
+Cretisoara are efect astringent si vindeca foarte rapid, este folosita si ca
 
-mijloc diuretic și cardiotonic, în febră pricinuită de leziuni, răni purulente și abcese
+mijloc diuretic si cardiotonic, in febra pricinuita de leziuni, rani purulente si abcese
 neglijate.
-în urma unei extracții dentare este foarte indicat ceaiul de crețișoară. După mai multe
-clătiri ala gurii, rana se închide în decursul unei zile. Ceaiul de crețișoară îndepărtează
-slăbiciunile musculare (adinamiile, miopatiile) și articulare și ajută în anemii.
-în leziunile postnatale, în relaxarea organelor pelviene ale femeilor care au avut
-nașteri grele sau în predispoziția spre avorturi (pentru fixarea sarcinii) și fortificarea
-fibrelor uterine, crețișoară este de mare folos, începând cu luna a treia, astfel de femei ar
-trebui să bea ceai de crețișoară. Este un mijloc atottămăduitor în toate bolile de femei și
-ajută, împreună cu traista-ciobanului, chiar în histeroptoză (prolaps uterin) și hernii
-inghinale. În aceste cazuri se consumă în timpul zilei, încetul cu încetul, 4 cești cu ceai de
-crețișoară pregătit pe cât se poate din plante proaspăt culese. În afară de aceasta, se
-masează locurile afectate cu tinctură de traista-ciobanului (a se vedea „Moduri de folosire",
-la articolul „Traista-ciobanului", pag. 64), iar în cazurile de prolaps uterin se începe
-fricționarea extern, din zona vaginului în sus. Aici se folosesc, supli mentar, băi de șezut cu
-coada-șoricelului (sunt necesare 100 grame de plante pentru 1 baie), în total 3 băi pe
-săptămână, căci apa de baie, reîncălzită, mai poate fi utilizată încă de 2 ori.
-Strămoșii noștri întrebuințau aceste plante atât intern cât și extern, pentru vinde carea
-rănilor, la epilepsii și hernii, lată un citat dintr-o carte foarte veche de plante medicinale:
-„Dacă un om a avut o hernie, fie el tânăr sau bătrân, să pună să fiarbă un pumn de
-crețișoară într-o măsură de apă atât cât lași un ou tare să fiarbă și să bea fiertu ra .
-în medicina populară actuală, această plantă își ocupă iar locul binemeritat. În special
-medicul naturist și preotul elvețian KunzIe relevă aceasta: „Două treimi din toate operațiile
-femeiești ar deveni de prisos, dacă planta asta de leac ar fi fost folosită din timp și vreme
-mâi îndelungată; căci ea vindecă toate inflamațiile organelor pelviene, febra, arsura,
-supurația purulentă, abcesele și herniile. 'Orice lăuză ar trebui să bea 8-10 zile din
-acest ceai; mulți copii ar mai avea parte de mama lor și mulți văduvi de soțiile lor, dacă ar fi
-cunoscut acest dar dumnezeiesc. Aplicată extern zdrobită și făcută compresă - crețișoară
-vindecă răni, înțepături, tăieturi. Copiii care, în ciuda alimentației bune, au o musculatură
-slabă, se întăresc prin uzul continuu al acestui ceai."
-Crețișoară care crește la înălțimi mai mari și are partea inferioară a frunzelor argin tie se
-întrebuințează mâi ales în obezitate: 2-3 cești zilnic au un efect deosebit de favorabil. Ajută
-și la insomnii; și diabeticii ar trebui să bea des din acest ceai. Copiii debili si
-bolnăvicioși se fortifică văzând cu ochii, dacă li se adaugă în apa de baie crețișoară. La 1
-baie se folosesc cea. 200 grame de ierburi (a se vedea „Băi complete", la „Partea
-generală").
-Combinată cu traista-ciobanului, după cum este explicat în capitolul „Traista-
-ciobanului", crețișoară ajută contra atrofiei musculare și în bolile musculare grele, in-
-curabile. Această plantă medicinală extrem de valoroasă se folosește și în scleroza
-multiplă.
-Mi s-a relatat dintr-o zonă a țării că ceaiul de crețișoară (uz intern - se bea; uz ex tern -
-se fac spălări în zona inimii) a adus o ameliorare substanțială a stării bolnavului în cazul
-unor grave afecțiuni ale mușchiului cardiac.
-Creatorul nostru, în mila SA nemărginită, a lăsat să crească pentru fiecare boală câte o
-plantă; n-o să putem niciodată să-i mulțumim îndeajuns pentru aceasta.
+in urma unei extractii dentare este foarte indicat ceaiul de cretisoara. Dupa mai multe
+clatiri ala gurii, rana se inchide in decursul unei zile. Ceaiul de cretisoara indeparteaza
+slabiciunile musculare (adinamiile, miopatiile) si articulare si ajuta in anemii.
+in leziunile postnatale, in relaxarea organelor pelviene ale femeilor care au avut
+nasteri grele sau in predispozitia spre avorturi (pentru fixarea sarcinii) si fortificarea
+fibrelor uterine, cretisoara este de mare folos, incepand cu luna a treia, astfel de femei ar
+trebui sa bea ceai de cretisoara. Este un mijloc atottamaduitor in toate bolile de femei si
+ajuta, impreuna cu traista-ciobanului, chiar in histeroptoza (prolaps uterin) si hernii
+inghinale. In aceste cazuri se consuma in timpul zilei, incetul cu incetul, 4 cesti cu ceai de
+cretisoara pregatit pe cat se poate din plante proaspat culese. In afara de aceasta, se
+maseaza locurile afectate cu tinctura de traista-ciobanului (a se vedea „Moduri de folosire",
+la articolul „Traista-ciobanului", pag. 64), iar in cazurile de prolaps uterin se incepe
+frictionarea extern, din zona vaginului in sus. Aici se folosesc, supli mentar, bai de sezut cu
+coada-soricelului (sunt necesare 100 grame de plante pentru 1 baie), in total 3 bai pe
+saptamana, caci apa de baie, reincalzita, mai poate fi utilizata inca de 2 ori.
+Stramosii nostri intrebuintau aceste plante atat intern cat si extern, pentru vinde carea
+ranilor, la epilepsii si hernii, lata un citat dintr-o carte foarte veche de plante medicinale:
+„Daca un om a avut o hernie, fie el tanar sau batran, sa puna sa fiarba un pumn de
+cretisoara intr-o masura de apa atat cat lasi un ou tare sa fiarba si sa bea fiertu ra .
+in medicina populara actuala, aceasta planta isi ocupa iar locul binemeritat. In special
+medicul naturist si preotul elvetian KunzIe releva aceasta: „Doua treimi din toate operatiile
+femeiesti ar deveni de prisos, daca planta asta de leac ar fi fost folosita din timp si vreme
+mai indelungata; caci ea vindeca toate inflamatiile organelor pelviene, febra, arsura,
+supuratia purulenta, abcesele si herniile. 'Orice lauza ar trebui sa bea 8-10 zile din
+acest ceai; multi copii ar mai avea parte de mama lor si multi vaduvi de sotiile lor, daca ar fi
+cunoscut acest dar dumnezeiesc. Aplicata extern zdrobita si facuta compresa - cretisoara
+vindeca rani, intepaturi, taieturi. Copiii care, in ciuda alimentatiei bune, au o musculatura
+slaba, se intaresc prin uzul continuu al acestui ceai."
+Cretisoara care creste la inaltimi mai mari si are partea inferioara a frunzelor argin tie se
+intrebuinteaza mai ales in obezitate: 2-3 cesti zilnic au un efect deosebit de favorabil. Ajuta
+si la insomnii; si diabeticii ar trebui sa bea des din acest ceai. Copiii debili si
+bolnaviciosi se fortifica vazand cu ochii, daca li se adauga in apa de baie cretisoara. La 1
+baie se folosesc cea. 200 grame de ierburi (a se vedea „Bai complete", la „Partea
+generala").
+Combinata cu traista-ciobanului, dupa cum este explicat in capitolul „Traista-
+ciobanului", cretisoara ajuta contra atrofiei musculare si in bolile musculare grele, in-
+curabile. Aceasta planta medicinala extrem de valoroasa se foloseste si in scleroza
+multipla.
+Mi s-a relatat dintr-o zona a tarii ca ceaiul de cretisoara (uz intern - se bea; uz ex tern -
+se fac spalari in zona inimii) a adus o ameliorare substantiala a starii bolnavului in cazul
+unor grave afectiuni ale muschiului cardiac.
+Creatorul nostru, in mila SA nemarginita, a lasat sa creasca pentru fiecare boala cate o
+planta; n-o sa putem niciodata sa-i multumim indeajuns pentru aceasta.
 
 MODURI DE FOLOSIRE
-Prepararea ceaiului: Se folosește 1 linguriță (cu vârf) de plante la 1/4 litru de apă, se
-opărește doar, se lasă să stea puțin.
-Compresă cu plante: Se spală o cantitate corespunzătoare de plante proas pete,
-se zdrobește pe un fund de lemn cu un sucitor de tăiței și se aplică sub formă
-de compresă.
-Adaos la baie: Pentru 1 baie completă se iau 200 grame de plante uscate sau
-câțiva pumni de plante proaspete, se lasă într-o găleată în apă rece peste
-noapte, se încălzește totul a doua zi și se toarnă lichidul peste apa de baie (a
-se vedea și „Băi complete" la „Partea generală").
+Prepararea ceaiului: Se foloseste 1 lingurita (cu varf) de plante la 1/4 litru de apa, se
+opareste doar, se lasa sa stea putin.
+Compresa cu plante: Se spala o cantitate corespunzatoare de plante proas pete,
+se zdrobeste pe un fund de lemn cu un sucitor de taitei si se aplica sub forma
+de compresa.
+Adaos la baie: Pentru 1 baie completa se iau 200 grame de plante uscate sau
+cativa pumni de plante proaspete, se lasa intr-o galeata in apa rece peste
+noapte, se incalzeste totul a doua zi si se toarna lichidul peste apa de baie (a
+se vedea si „Bai complete" la „Partea generala").
 
-### DRĂGAICA, SÂNZIENELE
+### DRAGAICA, SANZIENELE
 
-DRĂGAICA, SÂNZIENELE (Galium)
-Există mai multe soiuri de Galium: lipicioasa (Galium aparine),
-numită și asprișoară, cornățel, iarbă-lipitoare, turiță, este
-răspândită pe ogoare, câmpii și de-a lungul gardurilor, fiind de
-aceea combătută de țărani cu erbicide. Atinge o înălțime de 60-
-160 centimetri, are rădăcina frunzelor verticilată (așezată în jurul
-unei axe la același nivel) și umbele alb-verzui pedunculate. Datorită
-tulpinii cu păr aspru, această plantă este o „cățărătoare", fiind
-numită de aceea „lipicioasa" sau „iarba-lipitoare".
-Drăgaica (Galium verum), numită și floarea-lui-Sf.-lon,
-închegătoare, sânziene, sânziene-galbene,' smântânică, preferă
-înălțimile, se ține drept, ajunge la o înălțime de 30-60 centimetri și
-are flori galben-aurii cu mireasmă puternică de miere. Planta
-înflorită este culeasă în iulie.
-Sânzienele (Gafium mollugo), numite și drăgaică, peteala- reginei,
-sânziană-albă, au florile delicate, de culoare alb-gălbuie,
-asemănătoare florii-miresei, un parfum amintind ușor mierea și se
-întâlnesc foarte des pe povârnișuri și margini de drum, mai mult
-culcate la sol decât în picioare în timpul înfloririi. Toate florile amintite
-sunt aproape identice în puterea lor lecuitoare. Se și utilizează în
-același mod.
-Planta aceasta care crește în cantități mari a fost dată tot mai mult uitării. Dar tocmai ei
-ar trebui să i se acorde o atenție mai mare într-o vreme în care bolile de can cer fac ravagii.
-Și aici trebuie să accentuez că forța curativă a plantelor proaspete este substanțial mai
-mare, deci folosirea lor, în cazul bolilor grave, trebuie să aibă loc în stare proaspătă. Și în
-timpul iernii se pot găsi fire proaspete de sânziene albe pe locuri fără zăpadă, sub iarba
-uscată.
-Ceaiul de sânziene curăță rinichii, ficatul, pancreasul și splina de factorii pato geni.
-Cei ce suferă de tulburări ale sistemului limfatic ar trebui să bea zilnic din acest ceai. El
-este indicat și în cloroză, hidropizie și junghiuri intercostale. Folosit extern, ajută foarte
-repede în toate bolile de piele, în răni, furuncule și comedoane. Spălaturile calde ajută la
-întinderea tenului ofilit. Și sucul proaspăt stors dă rezultate bune, dacă se ung zilnic cu el
-porțiunile de piele bolnave și se lasă să se usuce.
-Medicina populară recomandă drăgaică și în epilepsie, isterie, coree, boli de nervi,
-retenție urinară, nisip și piatră la rinichi și în urină. Și la bolile gușei ajută
+DRAGAICA, SANZIENELE (Galium)
+Exista mai multe soiuri de Galium: lipicioasa (Galium aparine),
+numita si asprisoara, cornatel, iarba-lipitoare, turita, este
+raspandita pe ogoare, campii si de-a lungul gardurilor, fiind de
+aceea combatuta de tarani cu erbicide. Atinge o inaltime de 60-
+160 centimetri, are radacina frunzelor verticilata (asezata in jurul
+unei axe la acelasi nivel) si umbele alb-verzui pedunculate. Datorita
+tulpinii cu par aspru, aceasta planta este o „cataratoare", fiind
+numita de aceea „lipicioasa" sau „iarba-lipitoare".
+Dragaica (Galium verum), numita si floarea-lui-Sf.-lon,
+inchegatoare, sanziene, sanziene-galbene,' smantanica, prefera
+inaltimile, se tine drept, ajunge la o inaltime de 30-60 centimetri si
+are flori galben-aurii cu mireasma puternica de miere. Planta
+inflorita este culeasa in iulie.
+Sanzienele (Gafium mollugo), numite si dragaica, peteala- reginei,
+sanziana-alba, au florile delicate, de culoare alb-galbuie,
+asemanatoare florii-miresei, un parfum amintind usor mierea si se
+intalnesc foarte des pe povarnisuri si margini de drum, mai mult
+culcate la sol decat in picioare in timpul infloririi. Toate florile amintite
+sunt aproape identice in puterea lor lecuitoare. Se si utilizeaza in
+acelasi mod.
+Planta aceasta care creste in cantitati mari a fost data tot mai mult uitarii. Dar tocmai ei
+ar trebui sa i se acorde o atentie mai mare intr-o vreme in care bolile de can cer fac ravagii.
+Si aici trebuie sa accentuez ca forta curativa a plantelor proaspete este substantial mai
+mare, deci folosirea lor, in cazul bolilor grave, trebuie sa aiba loc in stare proaspata. Si in
+timpul iernii se pot gasi fire proaspete de sanziene albe pe locuri fara zapada, sub iarba
+uscata.
+Ceaiul de sanziene curata rinichii, ficatul, pancreasul si splina de factorii pato geni.
+Cei ce sufera de tulburari ale sistemului limfatic ar trebui sa bea zilnic din acest ceai. El
+este indicat si in cloroza, hidropizie si junghiuri intercostale. Folosit extern, ajuta foarte
+repede in toate bolile de piele, in rani, furuncule si comedoane. Spalaturile calde ajuta la
+intinderea tenului ofilit. Si sucul proaspat stors da rezultate bune, daca se ung zilnic cu el
+portiunile de piele bolnave si se lasa sa se usuce.
+Medicina populara recomanda dragaica si in epilepsie, isterie, coree, boli de nervi,
+retentie urinara, nisip si piatra la rinichi si in urina. Si la bolile gusei ajuta
 
-acest ceai dacă se face zilnic foarte multă gargară. O femeie mi-a relatat că a scăpat astfel
-de gușă, de boala glandei tiroide.
-Mă întâlnesc anual, într-un hotel al băilor Kneipp, cu o pereche din Viena/Molding, cu
-care sunt prietenă. Când ne-am revăzut în anul 1979, am constatat că soția făcuse o gușă
-destul de vizibilă. Se temea de operație, l-am recomandat drăgaică. Se face in fuzie și se
-folosește caldă ca gargară adâncă de foarte multe ori pe zi. în luna februarie 1980 ne-am
-întinat iarăși și iată, gușa dispăruse. Mi-a povestit, în culmea fericirii, că soțul ei îi adusese
-des drăgaică proaspătă; încă de la început simțise cum i se micșora gușa, până ce a
-dispărut complet.
-În ultima perioadă de timp s-au înmulțit cazurile de paralizie a corzilor vocale. Se pare
-că ar fi vorba aici de o viroză. Gargara și clătitul cu ceai de drăgaică sunt de un rapid ajutor.
-După preotul elvețian Kunzle, acest ceai este un leac de încredere si în cele mai grele boli
-de rinichi sau pionefrite (puroi la rinichi), chiar atunci când nimic altceva nu mai dă
-nici un rezultat. Foarte eficace este amestecată cu drăgaică, splinuță-de-Bădurf si urzică-
-moartă-galbenă în părți egale. în acest caz, efectul se manifestă foarte iute. El vorbește de
-14 zile. Se face infuzie de drăgaică și se bea 1/2 ceașcă pe stomacul gol, 30 minute înainte
-de micul dejun, iar restul pe parcursul zilei, înghițitură cu înghițitură, în caz de boală grea
-trebuie consumate 4 cești pe zi.
-Drăgaică a fost foarte apreciată în vremurile străvechi de femeile cu afecțiuni uterine. Ea
-li se punea femeilor în pat când se declanșa nașterea, pentru a le micșora durerile facerii.
-Această credință s-a transpus apoi asupra Fecioarei Maria. Maica Domnului a folosit
-drăgaică în loc de paie pentru culcușul ei sfânt. Se mai spune că ar fi pus pruncului Isus
-drăgaică în loc de pernă moale în iesle. O legendă din Silezia relatează că Sfânta Fecioară
-a luat drăgaică pentru că este singura pe care măgarul n-o mănâncă. Asta este adevărat.
-Deși drăgaică este căutată de vaci, porcii și măgarii o refuză.*
-Preotul Kunzle istorisește în scrierile sale despre un bărbat de aproximativ 45 de ani
-care suferea de o gravă boală de rinichi ce se tot înrăutățea. În cele din urmă a trebuit să-i
-fie scos un rinichi. Și celălalt rinichi se umpluse de puroi și nu mai putea funcționa normal.
-Atunci omul s-a pus pe o cură de drăgaică. A băut zilnic 4 cești din amestecul de plante
-pentru ceaiuri menționat mai sus, adică drăgaică, splinuță-de-pădure și urzică-moartă-
-galbenă în părți egale. A luat de mai multe ori pe zi câte o înghițitură, iar consecința a fost
-că boala i-a trecut complet. Același amestec de ceaiuri se recomandă și în scleroză
-renală sau alte boli grave de rinichi!
-în timp ce cunoscutul botanist austriac Richard Willfort atrage atenția în cartea sa
-„Gesundheit durch Heilkrăuter" (Sănătate prin plantele medicinale) asupra faptului că
-băutul ceaiului de drăgaică și clătitul cu el sunt un mijloc excelent în cancerul limbii și că
-sucul proaspăt stors și amestecat cu unt ajută în ulcerații canceroase de tot felul și în boli
-de piele de natură canceroasă, dr. Heinrich Neuthaler scrie în „Das Krăuterbuch" (Cartea
-despre plantele medicinale) următoarele în legătură cu drăgaică: „Drăgaică albă este în
-unele regiuni recomandată și astăzi împotriva cance rului, lucru nepermis căruia trebuie să
-ne împotrivim cu hotărâre."
-Aș dori, stimați cititori, să vă expun acum câteva dintre experiențele mele proprii legate
-de drăgaică, pentru ca să apreciați singuri. Cu aproximativ zece ani în urmă, am auzit
-despre îmbolnăvirea unui medic stomatolog din Linz de cancer al limbii. După operație
-slăbise foarte tare și trebuia să se ducă la Viena pentru raze. L-am sfătuit să facă gargară
-cu ceai de drăgaică. O săptămână mai târziu am aflat deja că razele nu-i mai erau
-necesare și că bolnavului îi era mult mai bine. Curând s-a vindecat complet.
-Ceva mai târziu am aflat despre o femeie de 28 de ani, bolnavă tot de cancer al
-limbii. A fost sfătuită să consulte un medic din Kărnten. Acesta i-a promis că o vindecă
-Unele dintre denumirile populare în limba germană ale acestei plante medicinale se referă la Maica Domnului, cum ar fi
-Liebfrauenstroh, adică „paiele Maicii Domnului" și Maria Bettsîmh, deci npaiele pentru culcușul Măriei" (n. tr.).
+acest ceai daca se face zilnic foarte multa gargara. O femeie mi-a relatat ca a scapat astfel
+de gusa, de boala glandei tiroide.
+Ma intalnesc anual, intr-un hotel al bailor Kneipp, cu o pereche din Viena/Molding, cu
+care sunt prietena. Cand ne-am revazut in anul 1979, am constatat ca sotia facuse o gusa
+destul de vizibila. Se temea de operatie, l-am recomandat dragaica. Se face in fuzie si se
+foloseste calda ca gargara adanca de foarte multe ori pe zi. in luna februarie 1980 ne-am
+intinat iarasi si iata, gusa disparuse. Mi-a povestit, in culmea fericirii, ca sotul ei ii adusese
+des dragaica proaspata; inca de la inceput simtise cum i se micsora gusa, pana ce a
+disparut complet.
+In ultima perioada de timp s-au inmultit cazurile de paralizie a corzilor vocale. Se pare
+ca ar fi vorba aici de o viroza. Gargara si clatitul cu ceai de dragaica sunt de un rapid ajutor.
+Dupa preotul elvetian Kunzle, acest ceai este un leac de incredere si in cele mai grele boli
+de rinichi sau pionefrite (puroi la rinichi), chiar atunci cand nimic altceva nu mai da
+nici un rezultat. Foarte eficace este amestecata cu dragaica, splinuta-de-Badurf si urzica-
+moarta-galbena in parti egale. in acest caz, efectul se manifesta foarte iute. El vorbeste de
+14 zile. Se face infuzie de dragaica si se bea 1/2 ceasca pe stomacul gol, 30 minute inainte
+de micul dejun, iar restul pe parcursul zilei, inghititura cu inghititura, in caz de boala grea
+trebuie consumate 4 cesti pe zi.
+Dragaica a fost foarte apreciata in vremurile stravechi de femeile cu afectiuni uterine. Ea
+li se punea femeilor in pat cand se declansa nasterea, pentru a le micsora durerile facerii.
+Aceasta credinta s-a transpus apoi asupra Fecioarei Maria. Maica Domnului a folosit
+dragaica in loc de paie pentru culcusul ei sfant. Se mai spune ca ar fi pus pruncului Isus
+dragaica in loc de perna moale in iesle. O legenda din Silezia relateaza ca Sfanta Fecioara
+a luat dragaica pentru ca este singura pe care magarul n-o mananca. Asta este adevarat.
+Desi dragaica este cautata de vaci, porcii si magarii o refuza.*
+Preotul Kunzle istoriseste in scrierile sale despre un barbat de aproximativ 45 de ani
+care suferea de o grava boala de rinichi ce se tot inrautatea. In cele din urma a trebuit sa-i
+fie scos un rinichi. Si celalalt rinichi se umpluse de puroi si nu mai putea functiona normal.
+Atunci omul s-a pus pe o cura de dragaica. A baut zilnic 4 cesti din amestecul de plante
+pentru ceaiuri mentionat mai sus, adica dragaica, splinuta-de-padure si urzica-moarta-
+galbena in parti egale. A luat de mai multe ori pe zi cate o inghititura, iar consecinta a fost
+ca boala i-a trecut complet. Acelasi amestec de ceaiuri se recomanda si in scleroza
+renala sau alte boli grave de rinichi!
+in timp ce cunoscutul botanist austriac Richard Willfort atrage atentia in cartea sa
+„Gesundheit durch Heilkrauter" (Sanatate prin plantele medicinale) asupra faptului ca
+bautul ceaiului de dragaica si clatitul cu el sunt un mijloc excelent in cancerul limbii si ca
+sucul proaspat stors si amestecat cu unt ajuta in ulceratii canceroase de tot felul si in boli
+de piele de natura canceroasa, dr. Heinrich Neuthaler scrie in „Das Krauterbuch" (Cartea
+despre plantele medicinale) urmatoarele in legatura cu dragaica: „Dragaica alba este in
+unele regiuni recomandata si astazi impotriva cance rului, lucru nepermis caruia trebuie sa
+ne impotrivim cu hotarare."
+As dori, stimati cititori, sa va expun acum cateva dintre experientele mele proprii legate
+de dragaica, pentru ca sa apreciati singuri. Cu aproximativ zece ani in urma, am auzit
+despre imbolnavirea unui medic stomatolog din Linz de cancer al limbii. Dupa operatie
+slabise foarte tare si trebuia sa se duca la Viena pentru raze. L-am sfatuit sa faca gargara
+cu ceai de dragaica. O saptamana mai tarziu am aflat deja ca razele nu-i mai erau
+necesare si ca bolnavului ii era mult mai bine. Curand s-a vindecat complet.
+Ceva mai tarziu am aflat despre o femeie de 28 de ani, bolnava tot de cancer al
+limbii. A fost sfatuita sa consulte un medic din Karnten. Acesta i-a promis ca o vindeca
+Unele dintre denumirile populare in limba germana ale acestei plante medicinale se refera la Maica Domnului, cum ar fi
+Liebfrauenstroh, adica „paiele Maicii Domnului" si Maria Bettsimh, deci npaiele pentru culcusul Mariei" (n. tr.).
 
-în cinci ani complet și i-a prescris un ceai de plante pe care bolnava mi l-a arătat la un
-moment dat. L-am recunoscut ca fiind ceai de drăgaică. Pentru a o scuti de atâția bani
-aruncați pe călătoriile la Karnten și pe alte cheltuieli, i-am arătat drăgaică în natură ca sa și-
-o poată culege singură. S-a vindecat de această boală groaznică.
-încă un exemplu: Era sfârșit de martie când o femeie tânără din Viena mi-a povestit că
-mama ei, în vârstă de 63 de ani, este grav bolnavă și se află înaintea unei a doua operații
-care trebuie să aibă loc pe 19 aprilie. Bolnavei îi crescuse deodată, cu o jumătate de an în
-urmă, o tumoare canceroasă pe laringe. Doctorul nu-i spusese atunci adevărul,
-descriindu-i boala ca fiind o formare de gușă. Astfel, bolnava ajun sese la prima operație.
-Timp de șase luni totul decursese normal. Acum apăruseră însă la brațul sting dureri
-fantastice, care nu conteneau zi și noapte. Mâna era umflată, bolnava nu-și mai simțea
-mâna și brațul, nemaiputând ține nici măcar o foaie de hârtie. Pentru a-i ușura durerile,
-medicul primar care o operase prima dată propusese o a doua operație, care trebuia, după
-cum am mai spus, să aibă loc la 19 aprilie și la care să-i secționeze un nerv dintre gât și
-claviculă pentru a o elibera măcar de durerile cele mai insuportabile. Doctorul susținea că
-nu mai există nici un alt ajutor medical. Totuși, eu am sfătuit-o pe femeia respectivă să bea
-ceai de drăgaică și să facă gargară cu el. I-am mai recomandat un amestec - cu efect de
-împiedicare a formării cancerului - de ceaiuri de plante, și anume 300 grame de filimică, 100
-grame de coada-șoricelului și 1OO grame de urzică (1/2 litru pe zi, câte 1 înghițitură la fiecare
-20 minute), precum și ungerea și fricțonarea cu alifie de drăgaică. Vă puteți imagina mirarea și
-bucuria mea când am aflat că durerile încetaseră după 4 zile! înainte de 19 aprilie, femeia a
-început să-și simtă iarăși mâna și brațul, putând să le miște. Medicul primar a fost vizibil
-surprins când fiica ei l-a rugat să nu mai efectueze a doua operație. A rămas impresionat
-atunci când i-a relatat fidel despre tratamentul cu plante medicinale și i-a spus: „Mama
-dumneavoastră să continue așa!" Am aflat după câtva timp că femeii îi merge „strălucit"
--citez exact cum mi s-a comunicat - și că poate deja să se ocupe de gospodărie și de
-familia ei de șase persoane.
-Și tratând ulcerațiile canceroase se pot obține vindecări, în ultimul timp s-au înmulțit
-bolile maligne de piele care se manifestă sub forma unor pete întunecate, bine conturate
-și aspre. Se presupune că ar fi vorba de o boală infecțioasă. În acest caz, tratamentul cu
-suc proaspăt de drăgaică și alifie de filimică dă rezultat. Simultan trebuie folosit însă
-neapărat ceaiul depurativ de filimică, urzică și coada-șoricelului.
-O femeie din Austria superioară avea un nodul în cerul gurii, care-i pricinuia dureri
-îngrozitoare în toată gura. Clătindu-se cu ceai de drăgaică, a scăpat în 4 zile atât de nodul
-cât și de dureri. Afirmația că folosirea drăgaicei în astfel de boli este „un lucru nepermis" nu
-poate sta deci în picioare. Este însă sigur că nu numai plantele aduc aju tor, ci și
-atotputernicia Domnului. La urma urmei, totul este în mâinile Domnului!
+in cinci ani complet si i-a prescris un ceai de plante pe care bolnava mi l-a aratat la un
+moment dat. L-am recunoscut ca fiind ceai de dragaica. Pentru a o scuti de atatia bani
+aruncati pe calatoriile la Karnten si pe alte cheltuieli, i-am aratat dragaica in natura ca sa si-
+o poata culege singura. S-a vindecat de aceasta boala groaznica.
+inca un exemplu: Era sfarsit de martie cand o femeie tanara din Viena mi-a povestit ca
+mama ei, in varsta de 63 de ani, este grav bolnava si se afla inaintea unei a doua operatii
+care trebuie sa aiba loc pe 19 aprilie. Bolnavei ii crescuse deodata, cu o jumatate de an in
+urma, o tumoare canceroasa pe laringe. Doctorul nu-i spusese atunci adevarul,
+descriindu-i boala ca fiind o formare de gusa. Astfel, bolnava ajun sese la prima operatie.
+Timp de sase luni totul decursese normal. Acum aparusera insa la bratul sting dureri
+fantastice, care nu conteneau zi si noapte. Mana era umflata, bolnava nu-si mai simtea
+mana si bratul, nemaiputand tine nici macar o foaie de hartie. Pentru a-i usura durerile,
+medicul primar care o operase prima data propusese o a doua operatie, care trebuia, dupa
+cum am mai spus, sa aiba loc la 19 aprilie si la care sa-i sectioneze un nerv dintre gat si
+clavicula pentru a o elibera macar de durerile cele mai insuportabile. Doctorul sustinea ca
+nu mai exista nici un alt ajutor medical. Totusi, eu am sfatuit-o pe femeia respectiva sa bea
+ceai de dragaica si sa faca gargara cu el. I-am mai recomandat un amestec - cu efect de
+impiedicare a formarii cancerului - de ceaiuri de plante, si anume 300 grame de filimica, 100
+grame de coada-soricelului si 1OO grame de urzica (1/2 litru pe zi, cate 1 inghititura la fiecare
+20 minute), precum si ungerea si frictonarea cu alifie de dragaica. Va puteti imagina mirarea si
+bucuria mea cand am aflat ca durerile incetasera dupa 4 zile! inainte de 19 aprilie, femeia a
+inceput sa-si simta iarasi mana si bratul, putand sa le miste. Medicul primar a fost vizibil
+surprins cand fiica ei l-a rugat sa nu mai efectueze a doua operatie. A ramas impresionat
+atunci cand i-a relatat fidel despre tratamentul cu plante medicinale si i-a spus: „Mama
+dumneavoastra sa continue asa!" Am aflat dupa catva timp ca femeii ii merge „stralucit"
+-citez exact cum mi s-a comunicat - si ca poate deja sa se ocupe de gospodarie si de
+familia ei de sase persoane.
+Si tratand ulceratiile canceroase se pot obtine vindecari, in ultimul timp s-au inmultit
+bolile maligne de piele care se manifesta sub forma unor pete intunecate, bine conturate
+si aspre. Se presupune ca ar fi vorba de o boala infectioasa. In acest caz, tratamentul cu
+suc proaspat de dragaica si alifie de filimica da rezultat. Simultan trebuie folosit insa
+neaparat ceaiul depurativ de filimica, urzica si coada-soricelului.
+O femeie din Austria superioara avea un nodul in cerul gurii, care-i pricinuia dureri
+ingrozitoare in toata gura. Clatindu-se cu ceai de dragaica, a scapat in 4 zile atat de nodul
+cat si de dureri. Afirmatia ca folosirea dragaicei in astfel de boli este „un lucru nepermis" nu
+poate sta deci in picioare. Este insa sigur ca nu numai plantele aduc aju tor, ci si
+atotputernicia Domnului. La urma urmei, totul este in mainile Domnului!
 MODURI DE FOLOSIRE
-Prepararea ceaiului: Se folosește 1 linguriță (cu vârf) de drăgaică la 1/4 litru de
-apă, se opărește, se lasă să stea puțin, Suc proaspăt: Se spală drăgaică
-proaspătă și se stoarce, cât este încă în stare
-umedă, cu ajutorul storcătorului electric de uz casnic. Prepararea alifiei: Sucul
-proaspăt este amestecat cu unt la temperatura
-camerei până se formează o pastă alifioasă care se păstrează la frigider.
+Prepararea ceaiului: Se foloseste 1 lingurita (cu varf) de dragaica la 1/4 litru de
+apa, se opareste, se lasa sa stea putin, Suc proaspat: Se spala dragaica
+proaspata si se stoarce, cat este inca in stare
+umeda, cu ajutorul storcatorului electric de uz casnic. Prepararea alifiei: Sucul
+proaspat este amestecat cu unt la temperatura
+camerei pana se formeaza o pasta alifioasa care se pastreaza la frigider.
 
 ### FILIMICA
 
 FILIMICA (Calendula officinalis)
-Filimica ocupă un loc de seamă printre plantele indigene.
+Filimica ocupa un loc de seama printre plantele indigene.
 Ea are numeroase denumiri populare, cum ar fi: boance,
-calce, căldărușă, coconite, fetișcă, floare-galbenă,
-gălbenioare, năcoțele, ochi-galbeni, roșioară, rujinică,
-salomie, stâncuță, tătăiși, vâzdoage. Filimica este dintre
-acele plante care intervin, oferindu-și ajutorul, în cancer și
-ulcere canceroase. Se găsește în unele grădini la țară, uneori
-crește sălbatic și pe grohotișuri de pantă. Fiind din nou
-cunoscută și dorită în popor, având deci iarăși căutare grație
-forței ei vindecătoare, nu o întâlnim doar în grădini, ci și pe
-ogoare. Filimica ajunge la o înălțime de 30-60 centimetri,
-capitulele ei florale strălucesc în nuanțe de la galben până la
-portocaliu-gălbui, iar tulpina și frunzele sunt zemoase și
-lipicioase la pipăit. Există diferite varietăți: cu capitulele florale
-pline, cu staminele deschise sau închise la culoare. Ele sunt
-similare în puterea lor de vindecare. Dacă dimineața după ora
-șapte capitulele lor florale sunt închise, înseamnă că în acea
-zi va ploua. De aceea, filimica era considerată încă din secolele trecute drept barometru.
-în medicina populară această plantă se culege și se utilizează cu flori, tulpină și frunze
-cu tot. Trebuie adunată însă pe soare strălucitor, căci atunci puterile ei tămăduitoare ating
-apogeul. Filimica poate fi luată proaspătă din grădină până târziu în toamnă, atâta timp cât
-n-a fost năpădită de rugină (mană).
-Filimica se aseamănă puternic cu arnica, fiindu-i însă superioară în putere curativă.
-Arnica n-are voie să fie administrată intern decât sub supraveghere medicală, întrucât este
-posibil ca ceaiul mai degrabă să dăuneze bolnavilor de inimă decât să le folosească, pe
-când ceaiul de filimica poate fi consumat fără a dăuna. Fiind o plantă depurativă, ea
-constituie pentru noi un ajutor prețios în icterul infecțios. Băutul zilnic a 1-2 cești cu ceai
-de filimica face minuni. Filimica are efect de curățire, stimulează circulația sângelui și
-grăbește vindecarea rănilor.
-Un om a intrat cu mâna într-un fierăstrău circular și durerile de pe urma rănii nu au
-încetat nici după ieșirea din spital. Auzind aceasta, l-am sfătuit să apeleze la alifia de
-filimica. A fost entuziasmat de efectul acestei pomezi și mi-a comunicat că durerile care-i
-pricinuiseră multe nopți nedormite au trecut în scurt timp. De atunci, soția lui plantează
-iarăși filimica în grădină.
-Aflându-mă într-o vizită în Muhlviertel, gazda mi-a arătat picioarele ei pline de varice.
-Am luat filimica din grădină și am preparat alifia. Rămășițele i le-am aplicat imediat pe
-gambe (resturile pot fi refdlosite de 4-5 ori). Pe urmă, femeia a întins zilnic alifia, cu o
-grosime cât muchia cuțitului, pe o bucată de pânză pe care și-a legat-o de gambe. Veți fi
-uimiți auzind că patru săptămâni mai târziu, când "m-a vizitat la Grieskirchen, varicele îi
-dispăruseră. Ambele picioare aveau iarăși o piele frumoasă, netedă. O călugăriță mi-a
-relatat că sfătuise o femeie bătrână pe care o remarcase pe stradă din cauza varicelor
-deosebit de mari să se trateze cu alifie de filimica. A fost surprinsă când acea femeie i-a
-arătat, o lună mai târziu, în culmea fericirii, picioarele. Toate varicele dispăruseră și pielea
-își recăpătase netezimea.
-Alifia aceasta ajută foarte rapid și în flebite, ulcere varicoase care nu se vindecă,
-fistule, degerături si arsuri. Alifia și resturile de pe urma preparării ei se folosesc la
-leziunile ulceroase ale sinului, chiar dacă sunt maligne (cancer mamar)
-Unei cunoștințe a trebuit, deodată, să i se extirpeze sânul. În timp ce se afla încă în
-spital și toți ne făceam griji în legătură cu starea ei, i-am pregătit alifie de filimica. Cu
+calce, caldarusa, coconite, fetisca, floare-galbena,
+galbenioare, nacotele, ochi-galbeni, rosioara, rujinica,
+salomie, stancuta, tataisi, vazdoage. Filimica este dintre
+acele plante care intervin, oferindu-si ajutorul, in cancer si
+ulcere canceroase. Se gaseste in unele gradini la tara, uneori
+creste salbatic si pe grohotisuri de panta. Fiind din nou
+cunoscuta si dorita in popor, avand deci iarasi cautare gratie
+fortei ei vindecatoare, nu o intalnim doar in gradini, ci si pe
+ogoare. Filimica ajunge la o inaltime de 30-60 centimetri,
+capitulele ei florale stralucesc in nuante de la galben pana la
+portocaliu-galbui, iar tulpina si frunzele sunt zemoase si
+lipicioase la pipait. Exista diferite varietati: cu capitulele florale
+pline, cu staminele deschise sau inchise la culoare. Ele sunt
+similare in puterea lor de vindecare. Daca dimineata dupa ora
+sapte capitulele lor florale sunt inchise, inseamna ca in acea
+zi va ploua. De aceea, filimica era considerata inca din secolele trecute drept barometru.
+in medicina populara aceasta planta se culege si se utilizeaza cu flori, tulpina si frunze
+cu tot. Trebuie adunata insa pe soare stralucitor, caci atunci puterile ei tamaduitoare ating
+apogeul. Filimica poate fi luata proaspata din gradina pana tarziu in toamna, atata timp cat
+n-a fost napadita de rugina (mana).
+Filimica se aseamana puternic cu arnica, fiindu-i insa superioara in putere curativa.
+Arnica n-are voie sa fie administrata intern decat sub supraveghere medicala, intrucat este
+posibil ca ceaiul mai degraba sa dauneze bolnavilor de inima decat sa le foloseasca, pe
+cand ceaiul de filimica poate fi consumat fara a dauna. Fiind o planta depurativa, ea
+constituie pentru noi un ajutor pretios in icterul infectios. Bautul zilnic a 1-2 cesti cu ceai
+de filimica face minuni. Filimica are efect de curatire, stimuleaza circulatia sangelui si
+grabeste vindecarea ranilor.
+Un om a intrat cu mana intr-un fierastrau circular si durerile de pe urma ranii nu au
+incetat nici dupa iesirea din spital. Auzind aceasta, l-am sfatuit sa apeleze la alifia de
+filimica. A fost entuziasmat de efectul acestei pomezi si mi-a comunicat ca durerile care-i
+pricinuisera multe nopti nedormite au trecut in scurt timp. De atunci, sotia lui planteaza
+iarasi filimica in gradina.
+Aflandu-ma intr-o vizita in Muhlviertel, gazda mi-a aratat picioarele ei pline de varice.
+Am luat filimica din gradina si am preparat alifia. Ramasitele i le-am aplicat imediat pe
+gambe (resturile pot fi refdlosite de 4-5 ori). Pe urma, femeia a intins zilnic alifia, cu o
+grosime cat muchia cutitului, pe o bucata de panza pe care si-a legat-o de gambe. Veti fi
+uimiti auzind ca patru saptamani mai tarziu, cand "m-a vizitat la Grieskirchen, varicele ii
+disparusera. Ambele picioare aveau iarasi o piele frumoasa, neteda. O calugarita mi-a
+relatat ca sfatuise o femeie batrana pe care o remarcase pe strada din cauza varicelor
+deosebit de mari sa se trateze cu alifie de filimica. A fost surprinsa cand acea femeie i-a
+aratat, o luna mai tarziu, in culmea fericirii, picioarele. Toate varicele disparusera si pielea
+isi recapatase netezimea.
+Alifia aceasta ajuta foarte rapid si in flebite, ulcere varicoase care nu se vindeca,
+fistule, degeraturi si arsuri. Alifia si resturile de pe urma prepararii ei se folosesc la
+leziunile ulceroase ale sinului, chiar daca sunt maligne (cancer mamar)
+Unei cunostinte a trebuit, deodata, sa i se extirpeze sanul. In timp ce se afla inca in
+spital si toti ne faceam griji in legatura cu starea ei, i-am pregatit alifie de filimica. Cu
 
-această alifie și-a uns mai târziu uriașa rană rămasă de pe urma operației, drept care
-mărimea răni s-a redus mult. Cicatricele ei au dovedit la consultul postoperator o
-vindecare atât de frumoasă în comparație cu cele ale altor paciente, încât n-a mai fost
-necesară decât parțial radioterapia.
-Alifia de filimică este de mare ajutor și atunci când piciorul este năpădit de ciu perci.
-Multe scrisori mi-au confirmat acest lucru, chiar în cazurile în care dăduseră greș toate
-metodele încercate până atunci. Și infuzia de filimică proaspătă poate fi folosită cu succes
-în această boală. Dacă o astfel de micoză a cuprins zona vaginului, trebuie făcute
-spălaturi sau băi de șezut. Se iau 50 grame de filimici uscate sau de 2 ori câte 2 mâini pline
-de filimici proaspete pentru fiecare baie de șezut. O femeie din Stuttgart mi-a scris că soțul
-ei suferise de o ciupercă la picior. Ce nu încercaseră! Băile, alifiile și pudra nu dăduseră
-nici un rezultat. Atunci au încercat cu alifie de filimică. După opt zile, locurile deschise s-au
-vindecat și așa au rămas. Nu-i minunat? Pe lângă alifie ar trebui preparată și o tinctură de
-filimică (â se căuta rețeta la „Moduri de folosire"). Această tinctură, diluată cu apă fiartă,
-este foarte potrivită la compresele preparate pentru răni, contuzii, hematoame, rupturi
-musculare, ba chiar pentru ulcerații purulente sau de natură canceroasă, pentru răni
-deschise din cauza escarelor, pentru umflături, abcese și pustule.
-Nu numai preotul Kneipp s-a zbătut pentru a impune filimică drept un mijloc fi-
-toterapeutic de vindecare a ulcerațiilor canceroase, ci și medici cunoscuți ca dr. Stager,
-dr. Bohn, dr. Halenser și alții Dr. Bohn citează această plantă ca fiind cel mai important
-mijloc curativ în bolile canceroase, atunci când nu se mai poate interveni pe cale
-chirurgicală și recomandă să se bea ceai de filimică o perioadă mai lungă de timp. Sucul
-proaspăt stors al filimicii poate fi folosit cu mare succes chiar în cancerul pielii.
-Hemangiomul uns vreme mai îndelungată de câteva ori pe zi cu suc proaspăt de filimică
-poate fi făcut să dispară, la fel și semnele din naștere (sub formă de pată colorată) sau
-keratoza senilă (petele de bătrânețe) Și petele aspre de natură canceroasă de pe
-piele pot fi astfel îndepărtate. Recent, medicul și cercetătorul ameri can, dr. Drwey, a atras
-atenția asupra puterii curative unice a filimicii la cancer; a putut consemna reușite
-tămăduitoare foarte bune.
-Ceaiul de filimică se administrează intern și în boli gastro-intestinale, în crampe și
-ulcere stomacale, în inflamații ale colonului, hidropizie și hematurie. El
-reprezintă, de asemenea, un mare ajutor în viroze și infecții bacteriene. Ce efect minunat
-are folosirea ceaiului proaspăt de filimică reiese dintr-o declarație pe care mi-a făcut-o un
-medic: „O fetiță de doi ani și jumătate se cam îmbolnăvise după repetarea vaccinului
-antipoliomielitic; avea diaree cronică, slăbise, se constataseră o scădere evidentă a vederii
-și tot felul de greutăți de nutriție. La un consult clinic se determinase în cele din urmă că ar
-avea paratifos, motiv pentru care fata era ținută sub observație medicală. După o folosire
-de o săptămână a ceaiului preparat din flori proaspete de filimică și administrarea unui
-număr mic de medicamente homeopatice, copilul s-a refăcut în mare măsură. Rezultatul
-analizei făcute imediat și repetate de 3 ori a ma teriilor fecale, în vederea depistării agenților
-patogeni ai tifosului, a fost pentru prima dată negativ."
-Deoarece filimică dă rezultate bune în icterul infecțios, este un leac excelent si în, bolile
-de ficat. Florile, frunzele si tulpina sunt opărite cu apă clocotită, iar ceaiul se bea
-neândulcit. La bolile enumerate mai sus se pot bea 3-4 cești pe zi, aproximativ 1 lingură la
-fiecare sfert de oră. Se obține un mijloc vermifug dacă se prepară un ceai din 1/4 li tru de
-apă și 1 lingură plină de flori de filimică. Sucul tulpinilor proaspete îndepărtează verucile
-(negii) si scabia (râia); dacă infuzia se fierbe și locurile atinse sunt îmbăiate în ea, atunci
-se vindecă eczemele și inflamațiile ganglionilor. Ceaiul, consumat zilnic, are efect
-depurativ. Persoanelor care folosesc ochelari si care fac câte o baie de ochi cu ceai călduț
-li se întărește vederea. Spălaturile cu infuzie de filipică și coada-calului,
+aceasta alifie si-a uns mai tarziu uriasa rana ramasa de pe urma operatiei, drept care
+marimea rani s-a redus mult. Cicatricele ei au dovedit la consultul postoperator o
+vindecare atat de frumoasa in comparatie cu cele ale altor paciente, incat n-a mai fost
+necesara decat partial radioterapia.
+Alifia de filimica este de mare ajutor si atunci cand piciorul este napadit de ciu perci.
+Multe scrisori mi-au confirmat acest lucru, chiar in cazurile in care dadusera gres toate
+metodele incercate pana atunci. Si infuzia de filimica proaspata poate fi folosita cu succes
+in aceasta boala. Daca o astfel de micoza a cuprins zona vaginului, trebuie facute
+spalaturi sau bai de sezut. Se iau 50 grame de filimici uscate sau de 2 ori cate 2 maini pline
+de filimici proaspete pentru fiecare baie de sezut. O femeie din Stuttgart mi-a scris ca sotul
+ei suferise de o ciuperca la picior. Ce nu incercasera! Baile, alifiile si pudra nu dadusera
+nici un rezultat. Atunci au incercat cu alifie de filimica. Dupa opt zile, locurile deschise s-au
+vindecat si asa au ramas. Nu-i minunat? Pe langa alifie ar trebui preparata si o tinctura de
+filimica (a se cauta reteta la „Moduri de folosire"). Aceasta tinctura, diluata cu apa fiarta,
+este foarte potrivita la compresele preparate pentru rani, contuzii, hematoame, rupturi
+musculare, ba chiar pentru ulceratii purulente sau de natura canceroasa, pentru rani
+deschise din cauza escarelor, pentru umflaturi, abcese si pustule.
+Nu numai preotul Kneipp s-a zbatut pentru a impune filimica drept un mijloc fi-
+toterapeutic de vindecare a ulceratiilor canceroase, ci si medici cunoscuti ca dr. Stager,
+dr. Bohn, dr. Halenser si altii Dr. Bohn citeaza aceasta planta ca fiind cel mai important
+mijloc curativ in bolile canceroase, atunci cand nu se mai poate interveni pe cale
+chirurgicala si recomanda sa se bea ceai de filimica o perioada mai lunga de timp. Sucul
+proaspat stors al filimicii poate fi folosit cu mare succes chiar in cancerul pielii.
+Hemangiomul uns vreme mai indelungata de cateva ori pe zi cu suc proaspat de filimica
+poate fi facut sa dispara, la fel si semnele din nastere (sub forma de pata colorata) sau
+keratoza senila (petele de batranete) Si petele aspre de natura canceroasa de pe
+piele pot fi astfel indepartate. Recent, medicul si cercetatorul ameri can, dr. Drwey, a atras
+atentia asupra puterii curative unice a filimicii la cancer; a putut consemna reusite
+tamaduitoare foarte bune.
+Ceaiul de filimica se administreaza intern si in boli gastro-intestinale, in crampe si
+ulcere stomacale, in inflamatii ale colonului, hidropizie si hematurie. El
+reprezinta, de asemenea, un mare ajutor in viroze si infectii bacteriene. Ce efect minunat
+are folosirea ceaiului proaspat de filimica reiese dintr-o declaratie pe care mi-a facut-o un
+medic: „O fetita de doi ani si jumatate se cam imbolnavise dupa repetarea vaccinului
+antipoliomielitic; avea diaree cronica, slabise, se constatasera o scadere evidenta a vederii
+si tot felul de greutati de nutritie. La un consult clinic se determinase in cele din urma ca ar
+avea paratifos, motiv pentru care fata era tinuta sub observatie medicala. Dupa o folosire
+de o saptamana a ceaiului preparat din flori proaspete de filimica si administrarea unui
+numar mic de medicamente homeopatice, copilul s-a refacut in mare masura. Rezultatul
+analizei facute imediat si repetate de 3 ori a ma teriilor fecale, in vederea depistarii agentilor
+patogeni ai tifosului, a fost pentru prima data negativ."
+Deoarece filimica da rezultate bune in icterul infectios, este un leac excelent si in, bolile
+de ficat. Florile, frunzele si tulpina sunt oparite cu apa clocotita, iar ceaiul se bea
+neandulcit. La bolile enumerate mai sus se pot bea 3-4 cesti pe zi, aproximativ 1 lingura la
+fiecare sfert de ora. Se obtine un mijloc vermifug daca se prepara un ceai din 1/4 li tru de
+apa si 1 lingura plina de flori de filimica. Sucul tulpinilor proaspete indeparteaza verucile
+(negii) si scabia (raia); daca infuzia se fierbe si locurile atinse sunt imbaiate in ea, atunci
+se vindeca eczemele si inflamatiile ganglionilor. Ceaiul, consumat zilnic, are efect
+depurativ. Persoanelor care folosesc ochelari si care fac cate o baie de ochi cu ceai caldut
+li se intareste vederea. Spalaturile cu infuzie de filipica si coada-calului,
 
-amestecate în părți egale, ajută în ulcerații și tumori canceroase, la picioarele cu ulcer
-varicos, în osteoporoză, în abcesele coapsei și în rănile urâte, purulente, care nu vor
-să se vindece. Se ia 1 lingură cu vârf din acest amestec pentru 1/2 litru de apă. -Pentru a
-reliefa performanțele unice ale ceaiului de filimică, aș dori să mai înșir câteva rezultate
-concludente: O asistentă medicală care suferea deja de opt ani de o inflamație a
-colonului își luase oră la un medic specialist. A fost sfătuită, după broșura mea, să ia ceai
-de filimică. Pe parcursul a patru zile a băut, încetul cu încetul, câte două cești cu ceai de
-filimică. Nici nu i-a venit să creadă când după această folosire scurtă tot răul i-a dispărut. -
-O călugăriță mi-a povestit că suferea de diaree puternică. Deși a băut ceai de mușețel, nu
-s-a simțit nici o ameliorare. Abia când a recurs la ceaiul de filimică a fost înlăturat răul în
-timpul cel mai scurt. O altă călugăriță din
- se chinuia deja de 15 ani cu o ciupercă la picior și avea deseori și
-flebite. A reușit să ajungă, în cele din urmă, prin uzul alifiei de filimică, la o vindecare a
-picioarelor. Florile de filimică, 2 lingurițe rase la 1 ceașcă cu apă, sunt un laxativ ușor. -
-Crustele din nas se pot vindeca ușor cu alifie de filimică. Observație: Dacă cineva nu
-suportă untura de porc poate folosi la prepararea alifiei și grăsime vegetală de calitate.
-Pentru a obține o pomăda mai alifioasă, se toarnă în ea cât este caldă puțin ulei.
+amestecate in parti egale, ajuta in ulceratii si tumori canceroase, la picioarele cu ulcer
+varicos, in osteoporoza, in abcesele coapsei si in ranile urate, purulente, care nu vor
+sa se vindece. Se ia 1 lingura cu varf din acest amestec pentru 1/2 litru de apa. -Pentru a
+reliefa performantele unice ale ceaiului de filimica, as dori sa mai insir cateva rezultate
+concludente: O asistenta medicala care suferea deja de opt ani de o inflamatie a
+colonului isi luase ora la un medic specialist. A fost sfatuita, dupa brosura mea, sa ia ceai
+de filimica. Pe parcursul a patru zile a baut, incetul cu incetul, cate doua cesti cu ceai de
+filimica. Nici nu i-a venit sa creada cand dupa aceasta folosire scurta tot raul i-a disparut. -
+O calugarita mi-a povestit ca suferea de diaree puternica. Desi a baut ceai de musetel, nu
+s-a simtit nici o ameliorare. Abia cand a recurs la ceaiul de filimica a fost inlaturat raul in
+timpul cel mai scurt. O alta calugarita din
+ se chinuia deja de 15 ani cu o ciuperca la picior si avea deseori si
+flebite. A reusit sa ajunga, in cele din urma, prin uzul alifiei de filimica, la o vindecare a
+picioarelor. Florile de filimica, 2 lingurite rase la 1 ceasca cu apa, sunt un laxativ usor. -
+Crustele din nas se pot vindeca usor cu alifie de filimica. Observatie: Daca cineva nu
+suporta untura de porc poate folosi la prepararea alifiei si grasime vegetala de calitate.
+Pentru a obtine o pomada mai alifioasa, se toarna in ea cat este calda putin ulei.
 MODURI DE FOLOSIRE
-Infuzie: 1 linguriță (cu vârf) de plante la 1/4 litru de apă.
-Băi de șezut: De 2 ori câte 2 mâini pline de plante proaspete sau 100 grame de
-plante uscate la 1 baie de șezut (a se vedea „Băi de șezut", la „Partea
-generală").
-Spălaturi: 1 lingură (cu vârf) de plante la 1/2 litru de apă.
-Tinctură: Se pune 1 pumn plin de flori într-un litru de rachiu natural, se lasă 14 zile
-la soare sau la căldură de cca. 20 grade.
-Alifie de filimică: De 2 ori 2 mâini pline de filimică (frunze, tulpini și flori) sunt tăiate
-mărunt. 500 grame de osânză de porc hrănit natural sau de untură de porc
-bună se înfierbântă astfel de parcă s-ar pune șnițele la prăjit, în această
-untură fierbinte se introduc filimicile tăiate, se lasă să sfârâie bine, se
-amestecă și se iau de pe foc. Se acoperă și se lasă să stea timp de o zi. A
-doua zi, preparatul se încălzește ușor și se filtrează printr-o bucată de pânză
-sau tifon în vase curate, pregătite dinainte.
-Suc proaspăt: Se spală frunzele, tulpinile și florile și se trec, în stare umedă, prin
-storcătorul electric de uz casnic.
+Infuzie: 1 lingurita (cu varf) de plante la 1/4 litru de apa.
+Bai de sezut: De 2 ori cate 2 maini pline de plante proaspete sau 100 grame de
+plante uscate la 1 baie de sezut (a se vedea „Bai de sezut", la „Partea
+generala").
+Spalaturi: 1 lingura (cu varf) de plante la 1/2 litru de apa.
+Tinctura: Se pune 1 pumn plin de flori intr-un litru de rachiu natural, se lasa 14 zile
+la soare sau la caldura de cca. 20 grade.
+Alifie de filimica: De 2 ori 2 maini pline de filimica (frunze, tulpini si flori) sunt taiate
+marunt. 500 grame de osanza de porc hranit natural sau de untura de porc
+buna se infierbanta astfel de parca s-ar pune snitele la prajit, in aceasta
+untura fierbinte se introduc filimicile taiate, se lasa sa sfaraie bine, se
+amesteca si se iau de pe foc. Se acopera si se lasa sa stea timp de o zi. A
+doua zi, preparatul se incalzeste usor si se filtreaza printr-o bucata de panza
+sau tifon in vase curate, pregatite dinainte.
+Suc proaspat: Se spala frunzele, tulpinile si florile si se trec, in stare umeda, prin
+storcatorul electric de uz casnic.
 ### LEURDA
 
 LEURDA (Allium ursinum)
-Fiecare primăvară aduce speranțe în soare și căldură. Ne simțim iarăși veseli și plini de
-avânt, ne bucurăm de prima înverzire a naturii și de voioșia lumii păsărilor cu întreaga ființă,
-ca de un autentic dar de la Creator. În fața acestei noi splendori verzi, ar trebui să pășim
-spre o nouă cură de primăvară, o curățire și depurație a organismului care duc la o
-împrospătare și înviorare igienică demne de luat în seamă.
-Mai ales leurda, numită și ai-ciorăsc, ai-de-pădure, ai-sălbatic, aiuți, aliu, aliu-de- iunie,
-leoardă sau leordă, face parte dintre acești vestitori ai primăverii. Frunzele, de un verde
-proaspăt, lanceolate, lucioase, asemănătoare celor ale lăcrămioarei, ies dintr-un bulb
-lunguieț care este înconjurat de membrane albe, transparente. Tulpina netedă,
+Fiecare primavara aduce sperante in soare si caldura. Ne simtim iarasi veseli si plini de
+avant, ne bucuram de prima inverzire a naturii si de voiosia lumii pasarilor cu intreaga fiinta,
+ca de un autentic dar de la Creator. In fata acestei noi splendori verzi, ar trebui sa pasim
+spre o noua cura de primavara, o curatire si depuratie a organismului care duc la o
+improspatare si inviorare igienica demne de luat in seama.
+Mai ales leurda, numita si ai-ciorasc, ai-de-padure, ai-salbatic, aiuti, aliu, aliu-de- iunie,
+leoarda sau leorda, face parte dintre acesti vestitori ai primaverii. Frunzele, de un verde
+proaspat, lanceolate, lucioase, asemanatoare celor ale lacramioarei, ies dintr-un bulb
+lunguiet care este inconjurat de membrane albe, transparente. Tulpina neteda,
 
-de un verde deschis, împreună cu potirul alb ajung până
-la o înălțime de 30 centimetri. Leurdă crește numai pe
-câmpii bogate în humus și umede, sub tufișuri, în păduri
-de foioase și alpine. l se simte puternicul miros de
-usturoi chiar înainte de a zări planta. El i-a și adus în
-popor numele de „ai" - sălbatic, de pădure -, însemnând
-usturoi; acest miros exclude fără nici o îndoială orice
-confuzie cu frunzele lăcrămioarei sau cu otrăvitoare
-brândușă de toamnă.
-La începutul primăverii, multe zăvoaie sunt acoperite
-cu frunzele proaspete, verzi ale leurdei. Ele răsar din
-pământ în aprilie și mai, uneori chiar mai devreme. Florile
-devin însă vizibile abia pe la mijlocul lui mai sau în iunie.
-Puternice forțe vindecătoare zac în ea și se spune că și
-urșii caută când ies din hibernare, pentru a-și curăța
-stomacul, intestinele și sângele. Leurdă conține ' în
-esență proprietățile usturoiului nostru, numai că are o
-putere curativă mult mai mare. Este, de aceea, deosebit
-de indicată în curele depurative de primăvară șt
-ajută la vindecarea bolilor cronice de piele.
-întrucât frunzele își pierd forțele lecuitoare în stare
-uscată, în cura de curățire și depurație de primăvară ele
-se folosesc proaspete. Se pun, tăiate mărunt, pe pâinea
-cu unt; tocate fin, în loc de alt condiment (nefierte) în
-supa zilnică, pe cartofi, în perișoare, chiftele sau alte
-mâncăruri al căror gust este îmbunătățit altminteri cu
-pătrunjel. Frunzele pot fi preparate și ca piure sau salată. Întrucât folosite în cantități mari
-au un gust înțepător, ar trebui amestecate în piure cu frunze de urzici.
- Frunzele tinere se adună în aprilie și mai, deci înainte de înflorire, iar bulbii la sfârșitul verii
-și toamna. Bulbii de leurdă pot fi folosiți la fel ca usturoiul. Este indicat ca persoanele cu
-stomac sensibil să toarne lapte cald peste frunzele și bulbii tăiați mărunt, să lase totul să
-stea 2-3 ore, apoi să bea acest lichid, înghițitură cu înghițitură. Pentru a avea pe tot
-parcursul anului leurdă în casă și a beneficia de puterea ei tămăduitoare, se prepară o
-tinctură de leurdă (a se vedea „Moduri de folosire"). Din această tinctură se iau zilnic 10-12
-picături în puțină apă. Aceste picături ajută la o memorie excelentă, previn arterioscleroza
-și alungă multe alte afecțiuni și indispoziții. Leurdă are un efect foarte favorabil asupra
-aparatului digestiv. Se recomandă atât la diaree acută și cronică, chiar dacă aceasta este
-însoțită de balonări si colici, cât și la conspirație, dacă aceasta se bazează pe spasme
-interne sau pe lenevirea intestinelor. Viermii intestinali, chiar și limbricii, mor la câtva
-timp după folosirea leurdei. O dată cu îmbunătățirea activității intestinale dispar și acele
-indispoziții care apar adesea la oameni vârstnici sau la gurmanzi din cauza intestinelor
-leneșe, inactive sau prea pline. Insomnia, tulburările cardiace provocate de stomac,
-indispozițiile provenite din arterioscleroza sau hipertensiune arterială - ca vertijul
-(amețeala), senzația de apăsare (la cap), de neliniște și depresiunile - vor ceda.
-Suprapresiunea scade treptat. Vinul de leurdă (a se vedea „Moduri de folosire") este un
-preparat minunat pentru toți bătrânii cu veșnice secreții pulmonare abundente și
-greutăți în respirație legate de acestea. Chiar în cazurile de tuse rebelă îndelungată se
-scapă de flegma și de insuficiența respiratorie provocată de ea. Acest leac este indicat în
-tuberculoza pulmonară si hidropiziei, de care suferă deseori cei bătrâni. Frunzele
-folosite în stare proaspătă curăță rinichii și vezica, favorizând urinarea. Rănile care se
-vindecă greu,
+de un verde deschis, impreuna cu potirul alb ajung pana
+la o inaltime de 30 centimetri. Leurda creste numai pe
+campii bogate in humus si umede, sub tufisuri, in paduri
+de foioase si alpine. l se simte puternicul miros de
+usturoi chiar inainte de a zari planta. El i-a si adus in
+popor numele de „ai" - salbatic, de padure -, insemnand
+usturoi; acest miros exclude fara nici o indoiala orice
+confuzie cu frunzele lacramioarei sau cu otravitoare
+brandusa de toamna.
+La inceputul primaverii, multe zavoaie sunt acoperite
+cu frunzele proaspete, verzi ale leurdei. Ele rasar din
+pamant in aprilie si mai, uneori chiar mai devreme. Florile
+devin insa vizibile abia pe la mijlocul lui mai sau in iunie.
+Puternice forte vindecatoare zac in ea si se spune ca si
+ursii cauta cand ies din hibernare, pentru a-si curata
+stomacul, intestinele si sangele. Leurda contine ' in
+esenta proprietatile usturoiului nostru, numai ca are o
+putere curativa mult mai mare. Este, de aceea, deosebit
+de indicata in curele depurative de primavara st
+ajuta la vindecarea bolilor cronice de piele.
+intrucat frunzele isi pierd fortele lecuitoare in stare
+uscata, in cura de curatire si depuratie de primavara ele
+se folosesc proaspete. Se pun, taiate marunt, pe painea
+cu unt; tocate fin, in loc de alt condiment (nefierte) in
+supa zilnica, pe cartofi, in perisoare, chiftele sau alte
+mancaruri al caror gust este imbunatatit altminteri cu
+patrunjel. Frunzele pot fi preparate si ca piure sau salata. Intrucat folosite in cantitati mari
+au un gust intepator, ar trebui amestecate in piure cu frunze de urzici.
+ Frunzele tinere se aduna in aprilie si mai, deci inainte de inflorire, iar bulbii la sfarsitul verii
+si toamna. Bulbii de leurda pot fi folositi la fel ca usturoiul. Este indicat ca persoanele cu
+stomac sensibil sa toarne lapte cald peste frunzele si bulbii taiati marunt, sa lase totul sa
+stea 2-3 ore, apoi sa bea acest lichid, inghititura cu inghititura. Pentru a avea pe tot
+parcursul anului leurda in casa si a beneficia de puterea ei tamaduitoare, se prepara o
+tinctura de leurda (a se vedea „Moduri de folosire"). Din aceasta tinctura se iau zilnic 10-12
+picaturi in putina apa. Aceste picaturi ajuta la o memorie excelenta, previn arterioscleroza
+si alunga multe alte afectiuni si indispozitii. Leurda are un efect foarte favorabil asupra
+aparatului digestiv. Se recomanda atat la diaree acuta si cronica, chiar daca aceasta este
+insotita de balonari si colici, cat si la conspiratie, daca aceasta se bazeaza pe spasme
+interne sau pe lenevirea intestinelor. Viermii intestinali, chiar si limbricii, mor la catva
+timp dupa folosirea leurdei. O data cu imbunatatirea activitatii intestinale dispar si acele
+indispozitii care apar adesea la oameni varstnici sau la gurmanzi din cauza intestinelor
+lenese, inactive sau prea pline. Insomnia, tulburarile cardiace provocate de stomac,
+indispozitiile provenite din arterioscleroza sau hipertensiune arteriala - ca vertijul
+(ameteala), senzatia de apasare (la cap), de neliniste si depresiunile - vor ceda.
+Suprapresiunea scade treptat. Vinul de leurda (a se vedea „Moduri de folosire") este un
+preparat minunat pentru toti batranii cu vesnice secretii pulmonare abundente si
+greutati in respiratie legate de acestea. Chiar in cazurile de tuse rebela indelungata se
+scapa de flegma si de insuficienta respiratorie provocata de ea. Acest leac este indicat in
+tuberculoza pulmonara si hidropiziei, de care sufera deseori cei batrani. Frunzele
+folosite in stare proaspata curata rinichii si vezica, favorizand urinarea. Ranile care se
+vindeca greu,
 
-unse cu suc proaspăt de leurdă, se vor închide rapid. Chiar și starea bolnavilor car-
-diovasculari se ameliorează.
-Leurdă este un mijloc depurativ încă neapreciat la justa sa valoare, care se dove -
-dește bun mai ales pentru epiderma cronic suferindă. Medicul naturist și preotul elvețian
-Kunzle a lăudat în mod special această plantă: „Ea curăță întregul organism, face sângele
-sănătos, alungă și distruge substanțele otrăvitoare. Persoanele mereu bolnăvicioase, cele
-cu eczeme și cu tenul făinos, scrofuloșii și reumaticii ar trebui să venereze leurdă
-asemenea aurului. Nici o plantă de pe Pământ nu este atât de eficace pentru curățirea
-stomacului, a intestinelor și a sângelui. Tinerii ar înflori ca niște roze și s-ar deschide ca un
-con de brad la soare!" Kunzle arată mai încolo că știe familii ai căror membri erau înainte
-„tot timpul anului bolnăvicioși, mergeau din doctor în doctor, erau plini de erupții și eczeme,
-scrofuloși pe tot corpul, palizi, de parcă ar fi zăcut deja în groapă și i-ar fi râcâit găinile
-iarăși afară de sub pământ și care s-au însănătoșit și înviorat după o întrebuințare mai
-îndelungată a acestui dar minunat al Dumnezeirii"!
+unse cu suc proaspat de leurda, se vor inchide rapid. Chiar si starea bolnavilor car-
+diovasculari se amelioreaza.
+Leurda este un mijloc depurativ inca neapreciat la justa sa valoare, care se dove -
+deste bun mai ales pentru epiderma cronic suferinda. Medicul naturist si preotul elvetian
+Kunzle a laudat in mod special aceasta planta: „Ea curata intregul organism, face sangele
+sanatos, alunga si distruge substantele otravitoare. Persoanele mereu bolnavicioase, cele
+cu eczeme si cu tenul fainos, scrofulosii si reumaticii ar trebui sa venereze leurda
+asemenea aurului. Nici o planta de pe Pamant nu este atat de eficace pentru curatirea
+stomacului, a intestinelor si a sangelui. Tinerii ar inflori ca niste roze si s-ar deschide ca un
+con de brad la soare!" Kunzle arata mai incolo ca stie familii ai caror membri erau inainte
+„tot timpul anului bolnaviciosi, mergeau din doctor in doctor, erau plini de eruptii si eczeme,
+scrofulosi pe tot corpul, palizi, de parca ar fi zacut deja in groapa si i-ar fi racait gainile
+iarasi afara de sub pamant si care s-au insanatosit si inviorat dupa o intrebuintare mai
+indelungata a acestui dar minunat al Dumnezeirii"!
 MODURI DE FOLOSIRE
-Sub formă de condiment: Frunzele proaspete de leurdă se mărunțesc ca
-pătrunjelul sau ceapa și se presară pe pâine, în supe, sosuri, salate și
-mâncăruri cu carne.
-Tinctură de leurdă: Frunzele sau bulbii tăiați mărunt se introduc într-o sticlă până
-la gât fără a se îndesa, se toarnă deasupra rachiu de secară sau orice alt
-rachiu de 38-40% făcut în casă și se lasă 14 zile în soare sau în apropierea
-mașinii de gătit. Se iau de 4 ori pe zi câte 10-15 picături în puțină apă.
-Vin de leurdă: Se ia 1 pumn de frunze tăiate mărunt, se lasă să dea câteva clocote
-în 1/4 litru de vin alb, se îndulcește după gust cu miere sau sirop și se bea din
-acest vin peste zi, încet, înghițitură cu înghițitură.
+Sub forma de condiment: Frunzele proaspete de leurda se maruntesc ca
+patrunjelul sau ceapa si se presara pe paine, in supe, sosuri, salate si
+mancaruri cu carne.
+Tinctura de leurda: Frunzele sau bulbii taiati marunt se introduc intr-o sticla pana
+la gat fara a se indesa, se toarna deasupra rachiu de secara sau orice alt
+rachiu de 38-40% facut in casa si se lasa 14 zile in soare sau in apropierea
+masinii de gatit. Se iau de 4 ori pe zi cate 10-15 picaturi in putina apa.
+Vin de leurda: Se ia 1 pumn de frunze taiate marunt, se lasa sa dea cateva clocote
+in 1/4 litru de vin alb, se indulceste dupa gust cu miere sau sirop si se bea din
+acest vin peste zi, incet, inghititura cu inghititura.
 
-### MĂCRIȘUL-IEPURELUI
+### MACRISUL-IEPURELUI
 
-MĂCRIȘUL-IEPURELUI (Oxalis acetosella)
-Este denumit în limbajul popular și macriș-de- pădure,
-măcrișul-caprei, măcriș-păsăresc, măcrișor-tri foios,
-măcrișul-cucului, pita-cucului, trifoiu-acru.
-Măcrișul-iepurelui acoperă solul pretutindeni în
-pădurile noastre de foioase și conifere cu un covor de
-frunze de un verde deschis, presărat cu flori albe, delicate.
-Priveliștea sa este extrem de plăcută ochilor. Când merg
-să culeg ciuperci, mi se întâmplă uneori să mă aplec după
-o frunză și să o mănânc. Florile le adun în cantități mai
-mici pentru un amestec de ceaiuri pe care îl citez la pag.
+MACRISUL-IEPURELUI (Oxalis acetosella)
+Este denumit in limbajul popular si macris-de- padure,
+macrisul-caprei, macris-pasaresc, macrisor-tri foios,
+macrisul-cucului, pita-cucului, trifoiu-acru.
+Macrisul-iepurelui acopera solul pretutindeni in
+padurile noastre de foioase si conifere cu un covor de
+frunze de un verde deschis, presarat cu flori albe, delicate.
+Privelistea sa este extrem de placuta ochilor. Cand merg
+sa culeg ciuperci, mi se intampla uneori sa ma aplec dupa
+o frunza si sa o mananc. Florile le adun in cantitati mai
+mici pentru un amestec de ceaiuri pe care il citez la pag.
 87.
-Măcrișul-iepurelui nu
-se usucă, ci se întrebuințează doar în stare proaspătă. El
-înlătură pirozisul (arsurile la stomac) și tulburările hepa -
-tice si digestive ușoare. Pentru aceste indispoziții, el se
-bea sub formă de ceai răcit în prealabil, în porții de câte 2 cești pe zi. Contra icterului, a
-nefritei, a erupțiilor cutanate și a viermilor, doza respectivă se bea caldă.
-Medicina populară recomandă sucul proaspăt stors pentru cancerul incipient la
-stomac, tumorile si ulcerațiile canceroase interne și externe. Sucul proaspăt se
+Macrisul-iepurelui nu
+se usuca, ci se intrebuinteaza doar in stare proaspata. El
+inlatura pirozisul (arsurile la stomac) si tulburarile hepa -
+tice si digestive usoare. Pentru aceste indispozitii, el se
+bea sub forma de ceai racit in prealabil, in portii de cate 2 cesti pe zi. Contra icterului, a
+nefritei, a eruptiilor cutanate si a viermilor, doza respectiva se bea calda.
+Medicina populara recomanda sucul proaspat stors pentru cancerul incipient la
+stomac, tumorile si ulceratiile canceroase interne si externe. Sucul proaspat se
 
-obține cu ajutorul storcătorului electric de uz casnic. Se iau 3-5 picături o dată pe oră,
-diluate în apă sau ceai de plante. Pe ulcerațiile canceroase externe sucul proaspăt stors se
+obtine cu ajutorul storcatorului electric de uz casnic. Se iau 3-5 picaturi o data pe ora,
+diluate in apa sau ceai de plante. Pe ulceratiile canceroase externe sucul proaspat stors se
 unge direct.
-în parkinsonism (boala lui Parkinson), sucul se prescrie în doza de 3-5 picături pe
-oră, luate într-o infuzie de coada-șoricelului, iar extern se folosește pentru fricționarea șirei
-spinării. Diluarea și dozarea trebuie respectate cu strictețe atât la cancere de stomac,
-ulcerații și tumori, cât și la boala lui Parkinson.
+in parkinsonism (boala lui Parkinson), sucul se prescrie in doza de 3-5 picaturi pe
+ora, luate intr-o infuzie de coada-soricelului, iar extern se foloseste pentru frictionarea sirei
+spinarii. Diluarea si dozarea trebuie respectate cu strictete atat la cancere de stomac,
+ulceratii si tumori, cat si la boala lui Parkinson.
 MODURI DE FOLOSIRE
-Prepararea ceaiului: Se opărește 1 lingură de frunze proaspete cu 1/2 litru de
-apă și se lasă să stea puțin. Suc proaspăt: Se spală frunzele și se storc cu
-ajutorul storcătorului electric de
+Prepararea ceaiului: Se opareste 1 lingura de frunze proaspete cu 1/2 litru de
+apa si se lasa sa stea putin. Suc proaspat: Se spala frunzele si se storc cu
+ajutorul storcatorului electric de
 uz casnic.
 
-### MUȘEȚELUL
+### MUSETELUL
 
-MUȘEȚELUL (Matricaria chamomilla)
-Alte denumiri: mamoriță, mărariul-câinelui, matricea, morună,
-mușețel-de-câmp, roman, românită, romașcă.
-Crește pe ogoare, soluri argiloase, câmpii, luminișuri, costișe,
-pe lanuri de cereale, câmpuri de porumb, trifoi, cartofi și sfeclă.
-Valorosul nostru mușețel este izgonit tot mai mult din cauza folosirii
-excesive a îngrășămintelor chimice și a combaterii buruienilor prin
-erbicide. După ierni bogate în zăpadă și primăveri cu multă
-umezeală, poate fi întâlnit foarte des. Receptaculul este, spre
-deosebire de al mușețelului sălbatic, concav, mirosul deosebit de
-aromat si plăcut. Nu cred că este necesară o descriere mai
-amănunțită a acestei flori atât de cunoscute. Capituleze florale
-terminale se colectează din mai până în august, de preferat în
-soarele amiezii. Nu este o exagerare dacă citez mușețelul ca pe un
+MUSETELUL (Matricaria chamomilla)
+Alte denumiri: mamorita, marariul-cainelui, matricea, moruna,
+musetel-de-camp, roman, romanita, romasca.
+Creste pe ogoare, soluri argiloase, campii, luminisuri, costise,
+pe lanuri de cereale, campuri de porumb, trifoi, cartofi si sfecla.
+Valorosul nostru musetel este izgonit tot mai mult din cauza folosirii
+excesive a ingrasamintelor chimice si a combaterii buruienilor prin
+erbicide. Dupa ierni bogate in zapada si primaveri cu multa
+umezeala, poate fi intalnit foarte des. Receptaculul este, spre
+deosebire de al musetelului salbatic, concav, mirosul deosebit de
+aromat si placut. Nu cred ca este necesara o descriere mai
+amanuntita a acestei flori atat de cunoscute. Capituleze florale
+terminale se colecteaza din mai pana in august, de preferat in
+soarele amiezii. Nu este o exagerare daca citez musetelul ca pe un
 „leac universal", mai ales pentru copiii mici. Pruncilor li se poate da
-ceai de mușețel la orice indispoziție, mai ales contra crampelor și
-a durerilor abdominale (colici). El ajută și în balonări, diaree, erupții, dureri de
-stomac și secreții stomacale abundente, tulburări men struale (cum ar fi
-amenoreea) și alte afecțiuni ale organelor pelviene, în insomnii, epididimită, febră,
-dureri de pe urma rănilor și dureri de dinți.
-Mușețelul are efect sudorific, calmant, ahtispasmodic, dezinfectant și antiin-
-flamator în inflamații de tot felul, mai ales ale mucoaselor. Extern, mușețelul se
-administrează sub formă de comprese și spălaturi în conjunctivite și alte inflamații ale
-ochilor, în erupții cutanate care provoacă mâncării sau supurații, ca gargară în durerile
-de dinți, precum și la spălarea rănilor. Când avem supărări, ar fi bine să bem de fiecare
-dată câte o ceașcă cu infuzie de mușețel; ne-am liniști înainte ca inima să ne fie afectată.
-Foarte indicată este o pernă uscată cu mușețel, aplicată caldă local.
-Băile și spălaturile cu mușețel au un efect calmant, cu influență benefică asupra
-întregului sistem nervos. După boli grele sau stări de epuizare vă veți simți curând mai
-bine și liniștiți sufletește. În îngrijirea dumneavoastră cosmetică să nu uitați mușețelul. Dacă
-faceți săptămânal o baie a feței cu infuzie de mușețel, veți vedea cum tenul dumneavoastră
-înflorește și culoarea feței se împrospătează. Și în îngrijirea
+ceai de musetel la orice indispozitie, mai ales contra crampelor si
+a durerilor abdominale (colici). El ajuta si in balonari, diaree, eruptii, dureri de
+stomac si secretii stomacale abundente, tulburari men struale (cum ar fi
+amenoreea) si alte afectiuni ale organelor pelviene, in insomnii, epididimita, febra,
+dureri de pe urma ranilor si dureri de dinti.
+Musetelul are efect sudorific, calmant, ahtispasmodic, dezinfectant si antiin-
+flamator in inflamatii de tot felul, mai ales ale mucoaselor. Extern, musetelul se
+administreaza sub forma de comprese si spalaturi in conjunctivite si alte inflamatii ale
+ochilor, in eruptii cutanate care provoaca mancarii sau supuratii, ca gargara in durerile
+de dinti, precum si la spalarea ranilor. Cand avem suparari, ar fi bine sa bem de fiecare
+data cate o ceasca cu infuzie de musetel; ne-am linisti inainte ca inima sa ne fie afectata.
+Foarte indicata este o perna uscata cu musetel, aplicata calda local.
+Baile si spalaturile cu musetel au un efect calmant, cu influenta benefica asupra
+intregului sistem nervos. Dupa boli grele sau stari de epuizare va veti simti curand mai
+bine si linistiti sufleteste. In ingrijirea dumneavoastra cosmetica sa nu uitati musetelul. Daca
+faceti saptamanal o baie a fetei cu infuzie de musetel, veti vedea cum tenul dumneavoastra
+infloreste si culoarea fetei se improspateaza. Si in ingrijirea
 
-părului ar trebui să folosiți infuzia de mușețel, mai ales dacă aveți părul blond. Spălându-
-vă astfel pe cap, părul vă va deveni vaporos și va căpăta un luciu frumos.
-Mușețelul ușurează scaunul fără a avea efect laxativ și este astfel indicat indirect în
-tratamentul intern al hemoroizilor, care pot fi tratați și extern cu alifie de mușețel. Această
-pomăda poate fi folosită și pentru vindecarea rănilor. Guturaiul și sinuzita se ameliorează
-repede dacă se inhalează vapori de mușețel. După un astfel de tratament trebuie stat,
-bineînțeles, la căldură.
-Uleiul de mușețel era folosit încă din antichitate ca frecție contra nevralgiilor și a
-reumatismului articular. La vechii egipteni, mușețelul era considerat, datorită puterii sale
-de a scădea febra, drept floarea zeului soarelui. Numele de Matricaria este derivat din
-latinescul „mater" = mamă, deoarece mușețelul era utilizat în bolile mamelor și ale femeilor
-în general! în vechile cărți despre plante medicinale se poate citi că uleiul de mușețel
-alungă oboseala membrelor, iar mușețelul fiert în apă și aplicat pe vezica bolnavă
-calmează durerile.
-Medicul naturist Johann Kunzle relatează despre o femeie din sat, numită vrăjitoarea
-mușețelului și foarte căutată de bolnavi; a ajutat cinci persoane cu auzul slab să-și
-recapete auzul, prăjind o ceapă-de-mare, Urginea maritima (care se cultivă în horticultura),
-în ulei de mușețel și picurând de mai multe ori uleiul cald în ureche.
-Această „vrăjitoare" făcea să se miște iarăși membrele paralizate, cu ajutorul fricțiunilor
-cu ulei de mușețel. Contra durerilor de ochi punea la fiert mușețel în lapte și îl aplica sub
-formă de comprese calde pe ochii închiși, care se vindecau curând. în continuare, preotul
-Kunzle istorisește: „Un țesător nu mai putea dormi decât așezând; alt fel avea senzația că
-se sufocă. Femeia l-a privit pe om drept în ochi și i-a declarat că el nu poate urina, ceea
-ce omul i-a confirmat, l-a spus să-și pregătească imediat o sticlă mare cu vin pe care să-l
-fiarbă cu mușețel, din care să bea un pahar plin dimineața și unul seara. Urmarea a fost că
-a reușit să elimine o cantitate incredibilă de urină, mai întâi tulbure, apoi tot mai clară; în
+parului ar trebui sa folositi infuzia de musetel, mai ales daca aveti parul blond. Spalandu-
+va astfel pe cap, parul va va deveni vaporos si va capata un luciu frumos.
+Musetelul usureaza scaunul fara a avea efect laxativ si este astfel indicat indirect in
+tratamentul intern al hemoroizilor, care pot fi tratati si extern cu alifie de musetel. Aceasta
+pomada poate fi folosita si pentru vindecarea ranilor. Guturaiul si sinuzita se amelioreaza
+repede daca se inhaleaza vapori de musetel. Dupa un astfel de tratament trebuie stat,
+bineinteles, la caldura.
+Uleiul de musetel era folosit inca din antichitate ca frectie contra nevralgiilor si a
+reumatismului articular. La vechii egipteni, musetelul era considerat, datorita puterii sale
+de a scadea febra, drept floarea zeului soarelui. Numele de Matricaria este derivat din
+latinescul „mater" = mama, deoarece musetelul era utilizat in bolile mamelor si ale femeilor
+in general! in vechile carti despre plante medicinale se poate citi ca uleiul de musetel
+alunga oboseala membrelor, iar musetelul fiert in apa si aplicat pe vezica bolnava
+calmeaza durerile.
+Medicul naturist Johann Kunzle relateaza despre o femeie din sat, numita vrajitoarea
+musetelului si foarte cautata de bolnavi; a ajutat cinci persoane cu auzul slab sa-si
+recapete auzul, prajind o ceapa-de-mare, Urginea maritima (care se cultiva in horticultura),
+in ulei de musetel si picurand de mai multe ori uleiul cald in ureche.
+Aceasta „vrajitoare" facea sa se miste iarasi membrele paralizate, cu ajutorul frictiunilor
+cu ulei de musetel. Contra durerilor de ochi punea la fiert musetel in lapte si il aplica sub
+forma de comprese calde pe ochii inchisi, care se vindecau curand. in continuare, preotul
+Kunzle istoriseste: „Un tesator nu mai putea dormi decat asezand; alt fel avea senzatia ca
+se sufoca. Femeia l-a privit pe om drept in ochi si i-a declarat ca el nu poate urina, ceea
+ce omul i-a confirmat, l-a spus sa-si pregateasca imediat o sticla mare cu vin pe care sa-l
+fiarba cu musetel, din care sa bea un pahar plin dimineata si unul seara. Urmarea a fost ca
+a reusit sa elimine o cantitate incredibila de urina, mai intai tulbure, apoi tot mai clara; in
 opt zile era vindecat."
 MODURI DE FOLOSIRE
-Prepararea ceaiului: Se opărește 1 linguriță (cu vârf) de flori de mușețel cu 1/4 litru
-de apă și se lasă să stea puțin.
-Adaos la baie: Pentru băile în cadă se iau de 2 ori câte 2 mâini pline, pentru băile
-feței și spălatul părului câte 1 pumn plin de flori de mușețel; canti tatea
-respectivă se opărește și se lasă să „tragă".
-Comprese: 1/4 litru de lapte în clocot este turnat peste 1 lingură (cu vârf) de
-mușețel, se lasă să stea puțin, se strecoară și se fac comprese calde.
-Aburi de mușețel: 1 lingură (cu vârf) de mușețel este opărită cu 1 litru de apă în
-clocot. Vaporii se inhalează stând cu capul sub un prosop.
-Pernă cu plante: Se umple un săculeț de pânză de in cu flori uscate de mușețel și
-se însăilează. Se încălzește bine într-o tigaie uscată și se aplică local.
-Ulei de mușețel: Se umple o sticlă până la gât, fără a se îndesa, cu flori proas -
-pete de mușețel culese în soare și se toarnă peste ele ulei de măsline
-presate la rece. Uleiul trebuie să acopere florile. Sticla se lasă, bine astu pată,
-14 zile în soare. Se păstrează la frigider!
+Prepararea ceaiului: Se opareste 1 lingurita (cu varf) de flori de musetel cu 1/4 litru
+de apa si se lasa sa stea putin.
+Adaos la baie: Pentru baile in cada se iau de 2 ori cate 2 maini pline, pentru baile
+fetei si spalatul parului cate 1 pumn plin de flori de musetel; canti tatea
+respectiva se opareste si se lasa sa „traga".
+Comprese: 1/4 litru de lapte in clocot este turnat peste 1 lingura (cu varf) de
+musetel, se lasa sa stea putin, se strecoara si se fac comprese calde.
+Aburi de musetel: 1 lingura (cu varf) de musetel este oparita cu 1 litru de apa in
+clocot. Vaporii se inhaleaza stand cu capul sub un prosop.
+Perna cu plante: Se umple un saculet de panza de in cu flori uscate de musetel si
+se insaileaza. Se incalzeste bine intr-o tigaie uscata si se aplica local.
+Ulei de musetel: Se umple o sticla pana la gat, fara a se indesa, cu flori proas -
+pete de musetel culese in soare si se toarna peste ele ulei de masline
+presate la rece. Uleiul trebuie sa acopere florile. Sticla se lasa, bine astu pata,
+14 zile in soare. Se pastreaza la frigider!
 
-Alifie de mușețel: 200 grame de grăsime de porc se înfierbântă ca pentru
-a frige ceva și se adaugă 2 mâini pline de flori proaspete de mușețel; vor da
-în clocot, ridicându-se spumegând. Se amestecă, se aco peră și se pune
-totul peste noapte într-o încăpere răcoroasă. A doua zi se încălzește încă o
-dată ușor și se stoarce printr-o bucățică de pânză de in. Din experiență a
-reieșit că cel mai bine se procedează astfel: Se pune o bucățică de pânză de
-in într-o sită, aceasta se fixează peste un vas cu cioc și se stoarce. Pasta
-alifioasă este amestecată apoi uniform, după care se toarnă în borcane
+Alifie de musetel: 200 grame de grasime de porc se infierbanta ca pentru
+a frige ceva si se adauga 2 maini pline de flori proaspete de musetel; vor da
+in clocot, ridicandu-se spumegand. Se amesteca, se aco pera si se pune
+totul peste noapte intr-o incapere racoroasa. A doua zi se incalzeste inca o
+data usor si se stoarce printr-o bucatica de panza de in. Din experienta a
+reiesit ca cel mai bine se procedeaza astfel: Se pune o bucatica de panza de
+in intr-o sita, aceasta se fixeaza peste un vas cu cioc si se stoarce. Pasta
+alifioasa este amestecata apoi uniform, dupa care se toarna in borcane
 curate.
 
 ### NUCUL
 (Juglans regia)
-Nucul, numit în popor și nucar sau nuc-costeliv,
-înflorește în luna mai încă înaintea formării și apariției
-frunzelor. Frunzele proaspete se adună în iunie, nucile
-verzi la mijlocul lui iunie, atâta timp cât mai pot fi înțepate
-ușor, cojile verzi de nucă puțin înainte de a se coace și de
-a deveni maro, iar fructele coapte în septembrie.
-Ceaiul din frunze de nuc este un mijloc eficace în
-tulburările digestive, deci în conspirație și în
-inapetența (lipsa poftei de mâncare), precum și în
-curățirea sângelui. De asemenea, el se întrebuințează
-cu bune rezultate în tratamentul diabetului și contra
+Nucul, numit in popor si nucar sau nuc-costeliv,
+infloreste in luna mai inca inaintea formarii si aparitiei
+frunzelor. Frunzele proaspete se aduna in iunie, nucile
+verzi la mijlocul lui iunie, atata timp cat mai pot fi intepate
+usor, cojile verzi de nuca putin inainte de a se coace si de
+a deveni maro, iar fructele coapte in septembrie.
+Ceaiul din frunze de nuc este un mijloc eficace in
+tulburarile digestive, deci in conspiratie si in
+inapetenta (lipsa poftei de mancare), precum si in
+curatirea sangelui. De asemenea, el se intrebuinteaza
+cu bune rezultate in tratamentul diabetului si contra
 icterului.
-O infuzie din frunze de nuc ca adaos la baie este bună
-contra scrofulozei și a rahitismului, contra osteoporozei
-și a umflăturilor la os, ca și a unghiilor purulente de la
-mâini și picioare. Spălați în caz de eczemă la cap (mai ales la sugari), rofii (coji) și scabie
-(râie) locurile respective cu infuzie din frunze verzi de nuc și veți vedea curând rezultatul!
-Spălaturile, respectiv băile cu acest adaos ajută în acnee, erupții purulente,
-transpirația picioarelor și leucoree. Se clătește gura cu această infuzie în caz de
-stomatită ulceroasă, afecțiuni ale gingiei, gatului și laringelui
-O infuzie concentrată din frunze de nuc, adăugată la apa de baie, vindecă
-degerăturile. Și în cazul unei căderi masive de păr se poate ajunge la rezultate bune,
-masându-se mult pielea capului cu acest lichid. El este un produs natural excepțional și
-împotriva păduchilor de cap reapăruți în ultima vreme. Frunzele proaspete alungă și alte
+O infuzie din frunze de nuc ca adaos la baie este buna
+contra scrofulozei si a rahitismului, contra osteoporozei
+si a umflaturilor la os, ca si a unghiilor purulente de la
+maini si picioare. Spalati in caz de eczema la cap (mai ales la sugari), rofii (coji) si scabie
+(raie) locurile respective cu infuzie din frunze verzi de nuc si veti vedea curand rezultatul!
+Spalaturile, respectiv baile cu acest adaos ajuta in acnee, eruptii purulente,
+transpiratia picioarelor si leucoree. Se clateste gura cu aceasta infuzie in caz de
+stomatita ulceroasa, afectiuni ale gingiei, gatului si laringelui
+O infuzie concentrata din frunze de nuc, adaugata la apa de baie, vindeca
+degeraturile. Si in cazul unei caderi masive de par se poate ajunge la rezultate bune,
+masandu-se mult pielea capului cu acest lichid. El este un produs natural exceptional si
+impotriva paduchilor de cap reaparuti in ultima vreme. Frunzele proaspete alunga si alte
 insecte nedorite.
-Din nucile verzi culese înainte de Sânziene, deci aproximativ pe la mijlocul lunii iunie
-(nucile trebuie să poată fi înțepate ușor), se poate prepara o tinctură de nuci care curăță
-stomacul, ficatul și sângele și înlătură hipotonia (lenevia) stomacală și colita de
-putrefacție. Această tinctură este, de asemenea, un remediu excelent contra sângelui
-îngroșat.
+Din nucile verzi culese inainte de Sanziene, deci aproximativ pe la mijlocul lunii iunie
+(nucile trebuie sa poata fi intepate usor), se poate prepara o tinctura de nuci care curata
+stomacul, ficatul si sangele si inlatura hipotonia (lenevia) stomacala si colita de
+putrefactie. Aceasta tinctura este, de asemenea, un remediu excelent contra sangelui
+ingrosat.
 
 MODURI DE FOLOSIRE
-Infuzie: Se opărește 1 linguriță (cu vârf) de frunze de nuc tăiate mărunt cu 1/4 litru
-de apă proaspăt fiartă și se lasă puțin să stea.
-Adaos la băi si spălaturi: 100 grame de frunze pentru băile complete, iar pentru
-spălaturi 1 linguriță (cu vârf) de frunze mărunțite la 1/4 litru de apă (a se vedea
-„Băi complete", la „Partea generală"). Pentru o infuzie concentrată se ia o
-cantitate dublă.
-Tinctură de nuci: Aproximativ 20 nuci verzi sunt tăiate în sferturi si introduse într-o
-sticlă cu gât larg; se toarnă deasupra 1 litru de rachiu de secară, în așa fel
-încât să acopere nucile cu un strat gros de 2-3 degete. Sticla, bine astupată,
-se lasă între 14 zile și 4 săptămâni la soare sau la căldură. După scurgerea
-acestui timp, conținutul se strecoară și se introduce în sticle. Se ia câte 1
-linguriță plină în funcție de necesitate. Puteți obține un lichior de nuci foarte
-gustos dacă adăugați la nucile verzi 2-3 cuișoare, 1 bu cată de scorțișoară, 1
-baton mic de vanilie și coaja spălată, netratată cu substanțe chimice a unei
-jumătăți de portocală. 500 grame de zahăr se fierb în 1/4 litru de apă, se lasă
-să se răcească și se toarnă peste tinctură filtrată.
+Infuzie: Se opareste 1 lingurita (cu varf) de frunze de nuc taiate marunt cu 1/4 litru
+de apa proaspat fiarta si se lasa putin sa stea.
+Adaos la bai si spalaturi: 100 grame de frunze pentru baile complete, iar pentru
+spalaturi 1 lingurita (cu varf) de frunze maruntite la 1/4 litru de apa (a se vedea
+„Bai complete", la „Partea generala"). Pentru o infuzie concentrata se ia o
+cantitate dubla.
+Tinctura de nuci: Aproximativ 20 nuci verzi sunt taiate in sferturi si introduse intr-o
+sticla cu gat larg; se toarna deasupra 1 litru de rachiu de secara, in asa fel
+incat sa acopere nucile cu un strat gros de 2-3 degete. Sticla, bine astupata,
+se lasa intre 14 zile si 4 saptamani la soare sau la caldura. Dupa scurgerea
+acestui timp, continutul se strecoara si se introduce in sticle. Se ia cate 1
+lingurita plina in functie de necesitate. Puteti obtine un lichior de nuci foarte
+gustos daca adaugati la nucile verzi 2-3 cuisoare, 1 bu cata de scortisoara, 1
+baton mic de vanilie si coaja spalata, netratata cu substante chimice a unei
+jumatati de portocala. 500 grame de zahar se fierb in 1/4 litru de apa, se lasa
+sa se raceasca si se toarna peste tinctura filtrata.
 
-### OBLIGEANĂ
+### OBLIGEANA
 
- OBLIGEANĂ (Acorus calamus)
-Alte denumiri: buciumaș, calamar, calamuz, calmenă, crin de
-apă, paporotnec, papură-roșie, speribană, spetează, tar- tarachi,
-trestie-mirositoare. Această plantă acvatică este răspândită mai
-ales pe lângă bălți, lacuri, mocirle și pe malul apelor liniștite. Din
-mâlul de pe mal se ridică vertical rizomul, din care răsar numeroase
-frunze în formă de spadă, care ajung până la înălțimea de 1 metru.
-Tija, presată plat, are în mijloc un pistil conic, în nuanțe de la
-verzuliu la maro-gălbui. Rădăcina este groasă cât degetul, crește
-până la o lungime de 1 metru și are, în stare proaspătă, un gust
-amar, puternic condimentat. Urcând rădăcina, aceasta își mai
-pierde din aromă și tărie. Se culege în primăvara timpurie sau în
-toamna târzie.
-Rădăcina obligenei nu este utilizată numai datorită puterii ei
-întăritoare în cazul unei slăbiri generale a organelor diges tive,
-în balonări stomacale și intestinale, precum și în colici, ci ea
-ajută și în dereglări glandulare și artrită. Rădăcina contribuie
-foarte mult la curățirea de mucozități a intestinelor si
-stomacului cu secreții abundente. Este indicată și m
-hipometabolism (metabolism scăzut), în hipotonie (lenevie)
-intestinală, în cloroză și hidropizie Oamenii neobișnuit de slabi, care au pierdut în
-greutate nu din lipsa unei hrane bune, ar trebui să bea ceai de obligeană și să facă din
-când în când câte o baie com pletă cu adaos de obligeană. Obligeană înlătură inapetența,
-se recomandă în cazul funcționării proaste a rinichiului și este un mijloc bun de curățire
+ OBLIGEANA (Acorus calamus)
+Alte denumiri: buciumas, calamar, calamuz, calmena, crin de
+apa, paporotnec, papura-rosie, speribana, speteaza, tar- tarachi,
+trestie-mirositoare. Aceasta planta acvatica este raspandita mai
+ales pe langa balti, lacuri, mocirle si pe malul apelor linistite. Din
+malul de pe mal se ridica vertical rizomul, din care rasar numeroase
+frunze in forma de spada, care ajung pana la inaltimea de 1 metru.
+Tija, presata plat, are in mijloc un pistil conic, in nuante de la
+verzuliu la maro-galbui. Radacina este groasa cat degetul, creste
+pana la o lungime de 1 metru si are, in stare proaspata, un gust
+amar, puternic condimentat. Urcand radacina, aceasta isi mai
+pierde din aroma si tarie. Se culege in primavara timpurie sau in
+toamna tarzie.
+Radacina obligenei nu este utilizata numai datorita puterii ei
+intaritoare in cazul unei slabiri generale a organelor diges tive,
+in balonari stomacale si intestinale, precum si in colici, ci ea
+ajuta si in dereglari glandulare si artrita. Radacina contribuie
+foarte mult la curatirea de mucozitati a intestinelor si
+stomacului cu secretii abundente. Este indicata si m
+hipometabolism (metabolism scazut), in hipotonie (lenevie)
+intestinala, in cloroza si hidropizie Oamenii neobisnuit de slabi, care au pierdut in
+greutate nu din lipsa unei hrane bune, ar trebui sa bea ceai de obligeana si sa faca din
+cand in cand cate o baie com pleta cu adaos de obligeana. Obligeana inlatura inapetenta,
+se recomanda in cazul functionarii proaste a rinichiului si este un mijloc bun de curatire
 pentru organism. Ceaiul este de folos chiar copiilor alergici la gluten, suferind de celiachie,
-maladie tot mai frecventă în ultimul timp. Rădăcina uscată, mestecată încet, îl poate
-dezobișnui pe fumător de patima de fumat. Ochii slăbiți pot fi întăriți dacă se ung de mai
+maladie tot mai frecventa in ultimul timp. Radacina uscata, mestecata incet, il poate
+dezobisnui pe fumator de patima de fumat. Ochii slabiti pot fi intariti daca se ung de mai
 multe ori
 
-pleoapele închise cu suc proaspăt stors din rădăcina de obligeană. Sucul se lasă câteva
-minute să-și facă efectul, apoi pleoapele sunt spălate cu apă rece.
-Adesea am putut aduce un ajutor substanțial in degerături sau când îngheață diferite
-părți ale corpului, recomandând băile de obligeană. Rădăcinile sunt băgate peste noapte în
-apă rece, iar a doua zi se pun să dea în clocot. Se iau de pe foc și se lasă să stea 5 minute.
-Se scaldă locurile bolnave 20 minute în infuzia nu prea fierbinte. Lichidul respectiv poate fi
-reîncălzit și folosit maximum de 4 ori. Băile au o acțiune benefică și asupra mâinilor și
-picioarelor reci, dar în acest caz ele trebuie făcute cât se poate de fierbinți.
-Un bărbat de 36 de ani nu se putea restabili după îndepărtarea unei tumori hepa tice.
-La intervale de câte 4-5 săptămâni făcea puseuri de temperatură. Pacientul urma să fie
-dus din Linz într-o clinică din Viena. Soacra sa mi-a povestit îngrijorată despre boala lui
-fără șanse de vindecare. Se constatase deja existența unor tuberculi intestinali care
-provocau febra mare. Și aici a ajutat rădăcina de obligeană. Este firesc faptul că în boli atât
-de grave ceaiul trebuie băut câteva săptămâni - ba chiar luni - în șir.
-în timpul unei excursii de la Weissenbachtal la Postalm am întâlnit un cuplu din Bad Ischl,
-care pornise pe munte echipat cu rucsacuri grele. Cei doi voiau să petreacă niște zile
-liniștite într-o cabană cu aprovizionare proprie. La un popas am intrat cu ei în vorbă și am
-aflat următoarele:
-Bărbatul, înalt de 1,85 metri și în vârstă de cincizeci și ceva de ani, slăbise, de un an
-încoace, tot mai tare, fără a descoperi însă cauza. Când a ajuns la 48 kilograme, a sur -
-prins, împreună cu asistenta medicală care-l însoțea la clinică, o convorbire telefonică
-dintre medicul lui și alt medic. A auzit: „Vi-l trimit acum pe pacientul meu cel mai lipsit de
-speranțe - cancer pulmonar!" A aflat astfel, fără să vrea, diagnosticul. După aceea a fost
-sfătuit de cineva să mestece cu sârg rădăcini de obligeană, pentru a-l ajuta în același timp
-să se lase și de fumat, iar dimineața și seara să bea ceai de coada-șoricelului. Treptat, a
-început să ia în greutate și, simțindu-se mai bine, nu s-a mai dus la doctor. Abia peste vreo
-jumătate de an a fost iar la consultație la medicul său. Acesta s-a ridicat brusc de pe
-scaun, cu mâinile sprijinite de masa de lucru, uitându-se mut de uimire la cel pe care îl
-credea de mult în groapă. „Ce-ați făcut?" a fost tot ce a putut articula. „Am mestecat
-rădăcini de obligeană și am băut ceai de coada-șoricelului." „Rădăcini de obligeană? Pe
-unde se găsesc?" „Nu trebuie găsite, domnule doctor, se cumpără în orice magazin de
-plante medicinale cu câțiva șilingi!" Omul își redobândise atunci deja greutatea inițială de
-86 kilograme, iar jumătate de an mai târziu a făcut, cu un rucsac greu în spinare, excursia
-cu ocazia căreia l-am cunoscut.
-Ori de câte ori îmi amintesc de următoarea întâmplare de demult, fie pomenind-o în
-prelegerile mele, fie notând-o pe hârtie, ca acum pentru dumneavoastră, ea îmi apare ca o
-providență divină și sunt întotdeauna mișcată până în adâncuri. Mama mea era grav
-bolnavă, avea niște crize intestinale de nedescris și medicul mi-a spus într-o zi că ar trebui
-să mă aștept la ce-i mai rău: că ar fi cancer intestinal. Era pe vremea când încă nu mă
-ocupam decât rareori de plante medicinale, deși și pe atunci recurgeam doar la metode
-naturale și nu luam niciodată doctorii. Această comunicare a medicului m-a uluit. De-abia
-mai eram în stare să-mi văd de treburile cotidiene.
-Contrar obiceiului meu - ziua mea începe de regulă la ora 6 dimineața și se încheie de
-cele mai multe ori la 11 noaptea - m-am băgat în pat imediat după ora 8 seara. Tocmai
-reflectam la situația disperată a mamei, când a intrat soțul meu și a pus un radio portativ
-lângă mine, spunându-mi: „Ca să nu mai fii atât de singură!" Puțin după aceea am auzit o
-voce la radio: „Vă vorbește medicul casei. Rădăcinile de obligeană vindecă orice tulburare
-stomacală și intestinală, oricât ar fi de veche și de rea, chiar malignă. Se ia 1 ceașcă cu
-apă rece, se pune în ea 1 linguriță rasă de rădăcini de obligeană, se lasă să stea peste
-noapte, se încălzește ușor a doua zi, se strecoară și se bea câte 1 înghițitură înainte și
-după fiecare masă. Aceasta înseamnă 6 înghițituri pe
+pleoapele inchise cu suc proaspat stors din radacina de obligeana. Sucul se lasa cateva
+minute sa-si faca efectul, apoi pleoapele sunt spalate cu apa rece.
+Adesea am putut aduce un ajutor substantial in degeraturi sau cand ingheata diferite
+parti ale corpului, recomandand baile de obligeana. Radacinile sunt bagate peste noapte in
+apa rece, iar a doua zi se pun sa dea in clocot. Se iau de pe foc si se lasa sa stea 5 minute.
+Se scalda locurile bolnave 20 minute in infuzia nu prea fierbinte. Lichidul respectiv poate fi
+reincalzit si folosit maximum de 4 ori. Baile au o actiune benefica si asupra mainilor si
+picioarelor reci, dar in acest caz ele trebuie facute cat se poate de fierbinti.
+Un barbat de 36 de ani nu se putea restabili dupa indepartarea unei tumori hepa tice.
+La intervale de cate 4-5 saptamani facea puseuri de temperatura. Pacientul urma sa fie
+dus din Linz intr-o clinica din Viena. Soacra sa mi-a povestit ingrijorata despre boala lui
+fara sanse de vindecare. Se constatase deja existenta unor tuberculi intestinali care
+provocau febra mare. Si aici a ajutat radacina de obligeana. Este firesc faptul ca in boli atat
+de grave ceaiul trebuie baut cateva saptamani - ba chiar luni - in sir.
+in timpul unei excursii de la Weissenbachtal la Postalm am intalnit un cuplu din Bad Ischl,
+care pornise pe munte echipat cu rucsacuri grele. Cei doi voiau sa petreaca niste zile
+linistite intr-o cabana cu aprovizionare proprie. La un popas am intrat cu ei in vorba si am
+aflat urmatoarele:
+Barbatul, inalt de 1,85 metri si in varsta de cincizeci si ceva de ani, slabise, de un an
+incoace, tot mai tare, fara a descoperi insa cauza. Cand a ajuns la 48 kilograme, a sur -
+prins, impreuna cu asistenta medicala care-l insotea la clinica, o convorbire telefonica
+dintre medicul lui si alt medic. A auzit: „Vi-l trimit acum pe pacientul meu cel mai lipsit de
+sperante - cancer pulmonar!" A aflat astfel, fara sa vrea, diagnosticul. Dupa aceea a fost
+sfatuit de cineva sa mestece cu sarg radacini de obligeana, pentru a-l ajuta in acelasi timp
+sa se lase si de fumat, iar dimineata si seara sa bea ceai de coada-soricelului. Treptat, a
+inceput sa ia in greutate si, simtindu-se mai bine, nu s-a mai dus la doctor. Abia peste vreo
+jumatate de an a fost iar la consultatie la medicul sau. Acesta s-a ridicat brusc de pe
+scaun, cu mainile sprijinite de masa de lucru, uitandu-se mut de uimire la cel pe care il
+credea de mult in groapa. „Ce-ati facut?" a fost tot ce a putut articula. „Am mestecat
+radacini de obligeana si am baut ceai de coada-soricelului." „Radacini de obligeana? Pe
+unde se gasesc?" „Nu trebuie gasite, domnule doctor, se cumpara in orice magazin de
+plante medicinale cu cativa silingi!" Omul isi redobandise atunci deja greutatea initiala de
+86 kilograme, iar jumatate de an mai tarziu a facut, cu un rucsac greu in spinare, excursia
+cu ocazia careia l-am cunoscut.
+Ori de cate ori imi amintesc de urmatoarea intamplare de demult, fie pomenind-o in
+prelegerile mele, fie notand-o pe hartie, ca acum pentru dumneavoastra, ea imi apare ca o
+providenta divina si sunt intotdeauna miscata pana in adancuri. Mama mea era grav
+bolnava, avea niste crize intestinale de nedescris si medicul mi-a spus intr-o zi ca ar trebui
+sa ma astept la ce-i mai rau: ca ar fi cancer intestinal. Era pe vremea cand inca nu ma
+ocupam decat rareori de plante medicinale, desi si pe atunci recurgeam doar la metode
+naturale si nu luam niciodata doctorii. Aceasta comunicare a medicului m-a uluit. De-abia
+mai eram in stare sa-mi vad de treburile cotidiene.
+Contrar obiceiului meu - ziua mea incepe de regula la ora 6 dimineata si se incheie de
+cele mai multe ori la 11 noaptea - m-am bagat in pat imediat dupa ora 8 seara. Tocmai
+reflectam la situatia disperata a mamei, cand a intrat sotul meu si a pus un radio portativ
+langa mine, spunandu-mi: „Ca sa nu mai fii atat de singura!" Putin dupa aceea am auzit o
+voce la radio: „Va vorbeste medicul casei. Radacinile de obligeana vindeca orice tulburare
+stomacala si intestinala, oricat ar fi de veche si de rea, chiar maligna. Se ia 1 ceasca cu
+apa rece, se pune in ea 1 lingurita rasa de radacini de obligeana, se lasa sa stea peste
+noapte, se incalzeste usor a doua zi, se strecoara si se bea cate 1 inghititura inainte si
+dupa fiecare masa. Aceasta inseamna 6 inghitituri pe
 
-zi; mai mult nu este voie. De fiecare dată, ceaiul trebuie încălzit la bain-marie. Acest
-tratament se referă la întregul traiect stomacal și intestinal, inclusiv la ficat, bilă,
-splină și pancreas." Fericită la culme, i-am relatat mamei în dimineața următoare cele
-auzite, ea însă mi-a spus, făcând cu mâna un gest de resemnare: „Pe mine nu mă mai
-poate ajuta nimeni și nimic!" Mi-am procurat rădăcină de obligeană și i-am dat-o exact așa
-cum am descris mai sus. Veți fi de acord că ce vă povestesc se apropie de un mi racol, când
-veți afla că deja după 14 zile pe mama n-a mai jenat-o nimic. Săptămânal a început să ia în
-greutate câte 400 grame, după ce înainte slăbise foarte mult. Datorită acestei întâmplări m-
-am ocupat tot mai mult de fizioterapie și am putut fi de folos în multe cazuri disperate.
-Rădăcina de obligeană dă tot mereu rezultate uluitoare.
-Când aciditatea gastrică lipsește sau se află în exces, rădăcina obligatei va ști s-o
-regleze în ambele cazuri.
-O femeie din Vorarlberg a suferit timp de doi ani de dureri de stomac și a ajuns să nu
-mai poată rezista nici o zi fără medicamente. La sfatul meu a luat cele 6 înghițituri de ceai
-din rădăcină de obligeană și în trei zile i-au pierit orice dureri; nici nu s-au mai repetat de
+zi; mai mult nu este voie. De fiecare data, ceaiul trebuie incalzit la bain-marie. Acest
+tratament se refera la intregul traiect stomacal si intestinal, inclusiv la ficat, bila,
+splina si pancreas." Fericita la culme, i-am relatat mamei in dimineata urmatoare cele
+auzite, ea insa mi-a spus, facand cu mana un gest de resemnare: „Pe mine nu ma mai
+poate ajuta nimeni si nimic!" Mi-am procurat radacina de obligeana si i-am dat-o exact asa
+cum am descris mai sus. Veti fi de acord ca ce va povestesc se apropie de un mi racol, cand
+veti afla ca deja dupa 14 zile pe mama n-a mai jenat-o nimic. Saptamanal a inceput sa ia in
+greutate cate 400 grame, dupa ce inainte slabise foarte mult. Datorita acestei intamplari m-
+am ocupat tot mai mult de fizioterapie si am putut fi de folos in multe cazuri disperate.
+Radacina de obligeana da tot mereu rezultate uluitoare.
+Cand aciditatea gastrica lipseste sau se afla in exces, radacina obligatei va sti s-o
+regleze in ambele cazuri.
+O femeie din Vorarlberg a suferit timp de doi ani de dureri de stomac si a ajuns sa nu
+mai poata rezista nici o zi fara medicamente. La sfatul meu a luat cele 6 inghitituri de ceai
+din radacina de obligeana si in trei zile i-au pierit orice dureri; nici nu s-au mai repetat de
 atunci.
-O altă femeie din Austria inferioară a suferit ani de-a rândul de ulcer duodenal. Pentru
-a putea suporta durerile, trebuia să ia mereu medicamente. Nu mai tolera deloc hrana
-solidă, n-avea, oricum, nici poftă de mâncare. Indicându-i-se rădăcina de obli geană, a luat
-zilnic cele 6 înghițituri, drept care durerile s-au tot diminuat, după cinci săptămâni au trecut
-complet, i-a revenit apetitul și a putut suporta, ca și ceilalți membri ai familiei, o mâncare de
-casă simplă dar consistentă.
-Un bărbat mai în vârstă a suferit ani de zile de diaree. Se învățase cu gândul că nu va
-scăpa niciodată de acest chin. Luându-se după sfaturile mele din carte, a început să bea
-zilnic din acest ceai. în scurt timp, intestinul i s-a vindecat.
-Un băietei care avea mereu diaree în ciuda unui regim alimentar sever a scăpat de ea
-după 6 înghițituri din același tip de ceai, recăpătându-și pofta de mâncare și îngrășându-se
-cu câteva kilograme, spre fericirea mamei sale.
-Zece ani s-a chinuit un bărbat cu diaree cu sânge, de 30-40 ori pe zi. Prietenul său mi-a
-povestit că omul vesel, plin de viață de odinioară se transformase, este firesc, într-unul
-veșnic trist. Tot ce încercase înzecești ani dăduse greș. A fost pensionat re lativ de tânăr.
-Pe la Paști a început, mai întâi destul de sceptic, să bea zilnic câte 6 înghițituri de ceai din
-rădăcină de obligeană, pe lângă care lua și 2 cești cu ceai de filimică opărită. Mare mi-a fost
-mirarea când mi-a scris soția lui că la începutul lunii iunie a aceluiași an omul și-a reluat
+O alta femeie din Austria inferioara a suferit ani de-a randul de ulcer duodenal. Pentru
+a putea suporta durerile, trebuia sa ia mereu medicamente. Nu mai tolera deloc hrana
+solida, n-avea, oricum, nici pofta de mancare. Indicandu-i-se radacina de obli geana, a luat
+zilnic cele 6 inghitituri, drept care durerile s-au tot diminuat, dupa cinci saptamani au trecut
+complet, i-a revenit apetitul si a putut suporta, ca si ceilalti membri ai familiei, o mancare de
+casa simpla dar consistenta.
+Un barbat mai in varsta a suferit ani de zile de diaree. Se invatase cu gandul ca nu va
+scapa niciodata de acest chin. Luandu-se dupa sfaturile mele din carte, a inceput sa bea
+zilnic din acest ceai. in scurt timp, intestinul i s-a vindecat.
+Un baietei care avea mereu diaree in ciuda unui regim alimentar sever a scapat de ea
+dupa 6 inghitituri din acelasi tip de ceai, recapatandu-si pofta de mancare si ingrasandu-se
+cu cateva kilograme, spre fericirea mamei sale.
+Zece ani s-a chinuit un barbat cu diaree cu sange, de 30-40 ori pe zi. Prietenul sau mi-a
+povestit ca omul vesel, plin de viata de odinioara se transformase, este firesc, intr-unul
+vesnic trist. Tot ce incercase inzecesti ani daduse gres. A fost pensionat re lativ de tanar.
+Pe la Pasti a inceput, mai intai destul de sceptic, sa bea zilnic cate 6 inghitituri de ceai din
+radacina de obligeana, pe langa care lua si 2 cesti cu ceai de filimica oparita. Mare mi-a fost
+mirarea cand mi-a scris sotia lui ca la inceputul lunii iunie a aceluiasi an omul si-a reluat
 lucrul.
 MODURI DE FOLOSIRE
-Prepararea ceaiului: Ceaiul din rădăcini de obligeană se prepară doar ca ex tract
-rece. 1 linguriță rasă de rădăcini se lasă peste noapte în 1/4 litru de apă.
-Dimineața se încălzește ușor și se strecoară, înainte de folosire, ceaiul se
-încălzește în bain-marie.
-Suc proaspăt: Rădăcinile proaspete se curăță cu grijă și se trec prin storcătorul
-electric de uz casnic cât sunt încă umede.
-Adaos la baia completă: Cca. 200 grame de rădăcini se lasă peste noapte la rece
-în 5 litri de apă. A doua zi se dă totul în clocot, se trage de pe foc, se lasă să
-stea puțin și se adaugă la apa de baie (a se vedea „Băi complete" din „Partea
-generală").
+Prepararea ceaiului: Ceaiul din radacini de obligeana se prepara doar ca ex tract
+rece. 1 lingurita rasa de radacini se lasa peste noapte in 1/4 litru de apa.
+Dimineata se incalzeste usor si se strecoara, inainte de folosire, ceaiul se
+incalzeste in bain-marie.
+Suc proaspat: Radacinile proaspete se curata cu grija si se trec prin storcatorul
+electric de uz casnic cat sunt inca umede.
+Adaos la baia completa: Cca. 200 grame de radacini se lasa peste noapte la rece
+in 5 litri de apa. A doua zi se da totul in clocot, se trage de pe foc, se lasa sa
+stea putin si se adauga la apa de baie (a se vedea „Bai complete" din „Partea
+generala").
 
-### PĂPĂDIA
+### PAPADIA
 
-PĂPĂDIA (Taraxacum officinale)
-Păpădia se numește în limbaj popular și
-buhă, cicoare, crestățea, floarea-mălaiului, flori-
-galbene, lăptucă, lilicea, niparticli, papa- găinii,
-pui-de-gîscă. Această plantă, văzută pe pajiști și
-toate întinderile de iarbă și con siderată de mulți
-o buruiană supărătoare, reprezintă pentru
-omenirea suferindă o plantă de leac deosebit de
-valoroasă. Înflorește în aprilie-mai pe toate
-pășunile, lizierele, câmpiile și orice suprafață cu
-iarbă - un covor floral galben care ne
-entuziasmează an de an. Planta evită locurile
-foarte ude. Are două pro prietăți remarcabile:
-Ajută în bolile biliare și în cele hepatice.
-înainte de înflorire se colectează frunzele,
-primăvara sau toamna rădăcinile, iar tulpinile în
-timpul înfloririi, întreaga plantă are efect tămăduitor.
-Eu însămi mi-am creat un obicei din a pune, cum se
-face primăvară, întreaga plantă pe masă în formă
-de salată sau de a prepara la cină o salată de
-păpădie amestecată cu cartofi și garnisită cu ouă
-cleioase. Când am fost în Iugoslavia la cura,
-pacienții primeau zilnic la masă, pe lângă alte feluri de salate proaspete, și un cartonaș cu
-salată de păpădie. Medicul, un renumit specialist în bolile de ficat, a răspuns la întrebarea
-mea referitor la această problemă că păpădia are o influență cât se poate de benefică
-asupra ficatului. Astăzi știu că tulpinile proas pete, din care se consumă 5-6 pe zi în stare
-crudă, ajută rapid în hepatita cronică (durere foarte acută până sub omoplatul drept). Ele
-sunt de folos și în diabet. Diabeticii ar trebui să mănânce aceste tulpini, până la 10 pe zi,
-atât timp cât păpădia este înflorită. Se spală tulpinile cu flori cu tot, abia după aceea se
-îndepărtează floarea și se mestecă încet tulpina. Aceasta are la început un gust amărui,
-este acrișoară și zemoasă si se aseamănă cu andivele. Oamenii permanent bolnăvicioși,
-care se simt abătuți și obosiți, ar trebui să facă o cură de 14 zile cu tulpini proaspete de
-păpădie. Se vor minuna de efectul lor extraordinar.
-Ele ajută însă și în alte afecțiuni. Ne scapă de mâncărimi, eczeme și erupții,
-îmbunătățesc sucul gastric și curăță stomacul de tot felul de substanțe care se eVifriifiă
-greu. Tijele proaspete pot dizolva fără dureri calculul biliar, ele stimulează activitatea
-hepatică si biliară. Pe lângă săruri minerale, păpădia conține substanțe curative și de
-sinteză foarte importante pentru înlăturarea tulburărilor de metabolism. Datorită efectului
-său depurativ, ajută și în artrită și reumatism; inflamațiile gangli onilor se retrag, dacă
-se ține până la sfârșit cura de 3-4 săptămâni cu tulpini proaspete. În icter și în afecțiunile
-splenice, păpădia se folosește, de asemenea, cu succes.
-Rădăcinile de păpădie, mâncate crude, la fel ca și cele uscate servite la ceai au efect
-depurativ, de stimulare a digestiei, sudorific si diuretic, precum și stimulant. Ele fac
-sângele foarte fluid, fiind considerate un mijloc excelent contra sângelui îngroșat.
-Vechile cărți despre plante medicinale istorisesc că femeile foloseau ca produs
-cosmetic infuzia preparată din opărirea plantei și a rădăcinii. Obișnuiau să-și spele cu ea
-ochii și fața, sperând să capete astfel un „chip mai luminos". Păpădia face parte din acele
-plante care nu „hibernează", ci le cresc frunze și în anotimpul rece.
+PAPADIA (Taraxacum officinale)
+Papadia se numeste in limbaj popular si
+buha, cicoare, crestatea, floarea-malaiului, flori-
+galbene, laptuca, lilicea, niparticli, papa- gainii,
+pui-de-gisca. Aceasta planta, vazuta pe pajisti si
+toate intinderile de iarba si con siderata de multi
+o buruiana suparatoare, reprezinta pentru
+omenirea suferinda o planta de leac deosebit de
+valoroasa. Infloreste in aprilie-mai pe toate
+pasunile, lizierele, campiile si orice suprafata cu
+iarba - un covor floral galben care ne
+entuziasmeaza an de an. Planta evita locurile
+foarte ude. Are doua pro prietati remarcabile:
+Ajuta in bolile biliare si in cele hepatice.
+inainte de inflorire se colecteaza frunzele,
+primavara sau toamna radacinile, iar tulpinile in
+timpul infloririi, intreaga planta are efect tamaduitor.
+Eu insami mi-am creat un obicei din a pune, cum se
+face primavara, intreaga planta pe masa in forma
+de salata sau de a prepara la cina o salata de
+papadie amestecata cu cartofi si garnisita cu oua
+cleioase. Cand am fost in Iugoslavia la cura,
+pacientii primeau zilnic la masa, pe langa alte feluri de salate proaspete, si un cartonas cu
+salata de papadie. Medicul, un renumit specialist in bolile de ficat, a raspuns la intrebarea
+mea referitor la aceasta problema ca papadia are o influenta cat se poate de benefica
+asupra ficatului. Astazi stiu ca tulpinile proas pete, din care se consuma 5-6 pe zi in stare
+cruda, ajuta rapid in hepatita cronica (durere foarte acuta pana sub omoplatul drept). Ele
+sunt de folos si in diabet. Diabeticii ar trebui sa manance aceste tulpini, pana la 10 pe zi,
+atat timp cat papadia este inflorita. Se spala tulpinile cu flori cu tot, abia dupa aceea se
+indeparteaza floarea si se mesteca incet tulpina. Aceasta are la inceput un gust amarui,
+este acrisoara si zemoasa si se aseamana cu andivele. Oamenii permanent bolnaviciosi,
+care se simt abatuti si obositi, ar trebui sa faca o cura de 14 zile cu tulpini proaspete de
+papadie. Se vor minuna de efectul lor extraordinar.
+Ele ajuta insa si in alte afectiuni. Ne scapa de mancarimi, eczeme si eruptii,
+imbunatatesc sucul gastric si curata stomacul de tot felul de substante care se eVifriifia
+greu. Tijele proaspete pot dizolva fara dureri calculul biliar, ele stimuleaza activitatea
+hepatica si biliara. Pe langa saruri minerale, papadia contine substante curative si de
+sinteza foarte importante pentru inlaturarea tulburarilor de metabolism. Datorita efectului
+sau depurativ, ajuta si in artrita si reumatism; inflamatiile gangli onilor se retrag, daca
+se tine pana la sfarsit cura de 3-4 saptamani cu tulpini proaspete. In icter si in afectiunile
+splenice, papadia se foloseste, de asemenea, cu succes.
+Radacinile de papadie, mancate crude, la fel ca si cele uscate servite la ceai au efect
+depurativ, de stimulare a digestiei, sudorific si diuretic, precum si stimulant. Ele fac
+sangele foarte fluid, fiind considerate un mijloc excelent contra sangelui ingrosat.
+Vechile carti despre plante medicinale istorisesc ca femeile foloseau ca produs
+cosmetic infuzia preparata din oparirea plantei si a radacinii. Obisnuiau sa-si spele cu ea
+ochii si fata, sperand sa capete astfel un „chip mai luminos". Papadia face parte din acele
+plante care nu „hiberneaza", ci le cresc frunze si in anotimpul rece.
 
-In fiecare primăvară îmi prepar un sirop din flori de păpădie, care are un gust ex-
-celent, fiind în același timp și în profitul sănătății. La turta dulce pe care o fac de Crăciun,
-folosesc numai sirop de păpădie.
-Mama mea s-a întâlnit odată cu o femeie care-și umpluse șorțul cu flori de păpădie.
-Întrebând-o ce face cu ele, a aflat rețeta pentru prepararea deliciosului sirop de păpădie, pe
-care, la rândul meu, o transmit mai departe:
-Se pun de 2 ori câte 2 mâini pline de flori de păpădie într-un litru de apă rece. Se pune
-la foc mic până începe să fiarbă, se lasă să dea câteva clocote bune, se ia oala de pe foc și
-se lasă totul să stea peste noapte. A doua zi, se golește conținutul într-o sită, se scurge, iar
-florile se storc bine cu ambele mâini. Sucul se amestecă cu 1 kilogram de zahăr nerafinat,
-la care se adaugă o jumătate de lămâie tăiată felii (coaja se aruncă dacă a fost tratată cu
-substanțe chimice). Mai multă lămâie acrește prea tare. Oala se pune fără capac pe mașina
-de gătit. Pentru a se păstra toate vitaminele, se dă la focul cel mai mic. Astfel, lichidul se
-evaporă fără a fierbe. Siropul se pune la răcit o dată, maximum de două ori, ca să i se
-poată stabili adevărata consistență. N-are voie să devină prea gros, căci s-ar zaharisi după
-o păstrare mai îndelungată, dar nici prea subțire, căci atunci ar începe să fermenteze după
-un timp. Trebuie să devină un sirop adevărat, vâscos, care, uns pe chifla sau pâinea cu unt
+In fiecare primavara imi prepar un sirop din flori de papadie, care are un gust ex-
+celent, fiind in acelasi timp si in profitul sanatatii. La turta dulce pe care o fac de Craciun,
+folosesc numai sirop de papadie.
+Mama mea s-a intalnit odata cu o femeie care-si umpluse sortul cu flori de papadie.
+Intreband-o ce face cu ele, a aflat reteta pentru prepararea deliciosului sirop de papadie, pe
+care, la randul meu, o transmit mai departe:
+Se pun de 2 ori cate 2 maini pline de flori de papadie intr-un litru de apa rece. Se pune
+la foc mic pana incepe sa fiarba, se lasa sa dea cateva clocote bune, se ia oala de pe foc si
+se lasa totul sa stea peste noapte. A doua zi, se goleste continutul intr-o sita, se scurge, iar
+florile se storc bine cu ambele maini. Sucul se amesteca cu 1 kilogram de zahar nerafinat,
+la care se adauga o jumatate de lamaie taiata felii (coaja se arunca daca a fost tratata cu
+substante chimice). Mai multa lamaie acreste prea tare. Oala se pune fara capac pe masina
+de gatit. Pentru a se pastra toate vitaminele, se da la focul cel mai mic. Astfel, lichidul se
+evapora fara a fierbe. Siropul se pune la racit o data, maximum de doua ori, ca sa i se
+poata stabili adevarata consistenta. N-are voie sa devina prea gros, caci s-ar zaharisi dupa
+o pastrare mai indelungata, dar nici prea subtire, caci atunci ar incepe sa fermenteze dupa
+un timp. Trebuie sa devina un sirop adevarat, vascos, care, uns pe chifla sau painea cu unt
 de la micul dejun, este absolut delicios.
-Odată lucra la noi un tâmplar căruia îi pregătisem pentru cină un platou cu hrană rece, în
-timp ce familia mea se delecta cu felii de pâine cu unt unse cu acest sirop de păpădie
-proaspăt preparat. Și tâmplarul nostru a avut poftă să guste. Crescător de al bine fiind, nu
-m-a crezut că am făcut singură „mierea". A fost încântat și mi-a spus că siropul putea fi
-doar cu greu deosebit de mierea veritabilă. Aș dori să mai remarc că bolnavii de rinichi nu
-suportă bine aciditatea mierii naturale, în timp ce siropul de păpădie este mai sănătos și le
-priește.
-Această plantă medicinală valoroasă ocupă un loc însemnat în medicina populară. Din
-păcate, ea este cunoscută greșit de cea mai mare parte a populației și considerată o
-buruiană incomodă.
-într-o procesiune de Joia Verde m-a frapat un flăcăiaș care era stegar și avea fața
-desfigurată de acnee. l-am atras mamei lui atenția asupra efectului depurativ al urzicii și
-păpădiei. Mama nici nu știa care-i păpădia, deși era departe de a fi o locuitoare de
-metropolă, ea trăind în orășelul nostru. Când i-am explicat despre ce plantă este vorba, mi-
-a declarat revoltată că doar n-o să-i ofere fiului ei asemenea buruieni.
+Odata lucra la noi un tamplar caruia ii pregatisem pentru cina un platou cu hrana rece, in
+timp ce familia mea se delecta cu felii de paine cu unt unse cu acest sirop de papadie
+proaspat preparat. Si tamplarul nostru a avut pofta sa guste. Crescator de al bine fiind, nu
+m-a crezut ca am facut singura „mierea". A fost incantat si mi-a spus ca siropul putea fi
+doar cu greu deosebit de mierea veritabila. As dori sa mai remarc ca bolnavii de rinichi nu
+suporta bine aciditatea mierii naturale, in timp ce siropul de papadie este mai sanatos si le
+prieste.
+Aceasta planta medicinala valoroasa ocupa un loc insemnat in medicina populara. Din
+pacate, ea este cunoscuta gresit de cea mai mare parte a populatiei si considerata o
+buruiana incomoda.
+intr-o procesiune de Joia Verde m-a frapat un flacaias care era stegar si avea fata
+desfigurata de acnee. l-am atras mamei lui atentia asupra efectului depurativ al urzicii si
+papadiei. Mama nici nu stia care-i papadia, desi era departe de a fi o locuitoare de
+metropola, ea traind in oraselul nostru. Cand i-am explicat despre ce planta este vorba, mi-
+a declarat revoltata ca doar n-o sa-i ofere fiului ei asemenea buruieni.
 MODURI DE FOLOSIRE
-Prepararea ceaiului: Se pune peste noapte 1 linguriță (cu vârf) de rădăcini în 1/4
-litru de apă rece, se încălzește a doua zi până începe să fiarbă și se fil trează.
-Această cantitate se bea, înghițitură cu înghițitură, 1/2 oră înainte și 1/2 oră
-după micul dejun.
-Salată: Din frunze și rădăcini crude, proaspete (a
+Prepararea ceaiului: Se pune peste noapte 1 lingurita (cu varf) de radacini in 1/4
+litru de apa rece, se incalzeste a doua zi pana incepe sa fiarba si se fil treaza.
+Aceasta cantitate se bea, inghititura cu inghititura, 1/2 ora inainte si 1/2 ora
+dupa micul dejun.
+Salata: Din frunze si radacini crude, proaspete (a
 se vedea fragmentul respectiv de text).
-Tulpini: A se mesteca bine și a se mânca zilnic 5-10
-tulpini crude, spălate.
+Tulpini: A se mesteca bine si a se manca zilnic 5-10
+tulpini crude, spalate.
 Prepararea siropului: A se vedea fragmentul
 respectiv de text!
-### PĂTLAGINA-ÎNGUSTĂ (Plantago
+### PATLAGINA-INGUSTA (Plantago
 lanceolata)
-Din marea abundență a plantelor noastre medicinale
-voi alege în continuare una care pare să fi fost la fel de
-răspândită în vremurile îndepărtate cum este și în zilele
-noastre și care s-a bucurat de-atunci încoace de un
+Din marea abundenta a plantelor noastre medicinale
+voi alege in continuare una care pare sa fi fost la fel de
+raspandita in vremurile indepartate cum este si in zilele
+noastre si care s-a bucurat de-atunci incoace de un
 renume remarcabil. Termenul
 german* este format din wege +
 
-rich. Ultima silabă, asemă nătoare sârbescului „reiks", se înrudește
-cu cuvântul latinesc „rex" = rege. Deci pătlagina era regele
-drumurilor** și a crescut încă din timpuri străvechi spre binele și
-binecuvântarea omenirii. O rugăciune anglosaxonă, care evocă
-nouă plante și se găsește într-un manuscris datând probabil din
-secolul al Xl-lea, se adresează și pătlaginii:
-„Și tu, pătlagină, Mamă a
-plantelor, deschisă către
-est, puternică în interior:
-Peste tine huruie căruțe,
-peste tine au călărit femei,
-peste tine au călărit
+rich. Ultima silaba, asema natoare sarbescului „reiks", se inrudeste
+cu cuvantul latinesc „rex" = rege. Deci patlagina era regele
+drumurilor** si a crescut inca din timpuri stravechi spre binele si
+binecuvantarea omenirii. O rugaciune anglosaxona, care evoca
+noua plante si se gaseste intr-un manuscris datand probabil din
+secolul al Xl-lea, se adreseaza si patlaginii:
+„Si tu, patlagina, Mama a
+plantelor, deschisa catre
+est, puternica in interior:
+Peste tine huruie carute,
+peste tine au calarit femei,
+peste tine au calarit
 mirese, peste tine au
-sforăit tauri. Tuturor le-ai
-rezistat, și li te-ai
-împotrivit. Rezistă deci și
-otrăvii, și contagiunii, și
-răului care străbate țara!"
-Astăzi este la fel ca atunci. Răul străbate țara și avem
-nevoie de plante medicinale cum este pătlagina-
-îngustă - întâlnită și sub denumirile de iarba-tăieturii, limba-oii, limba-bălților, limba-
-broaștei, pătlagină -, mult apreciată în vechile cărți despre plante medicinale, pentru a
-combate acest rău. Ruda sa, pătlagina sau pătlagina-lată (Plantago major) - care mai
-este cunoscută și ca iarbă-grasă-de-grădină, iarba-bubei, iarbă-mare, limba-boului, limba-
-oii, mama-pădurii, plăcințica-vacii -, nu-i este cu nimic mai prejos și se folosește exact la
-fel. Ambele cresc pe toate câmpiile, marginile de drumuri de țară, pășunile, povârnișurile,
-lizierele, în șanțuri și pe terenurile umede necultivate, fiind practic răspândite în întreaga
+sforait tauri. Tuturor le-ai
+rezistat, si li te-ai
+impotrivit. Rezista deci si
+otravii, si contagiunii, si
+raului care strabate tara!"
+Astazi este la fel ca atunci. Raul strabate tara si avem
+nevoie de plante medicinale cum este patlagina-
+ingusta - intalnita si sub denumirile de iarba-taieturii, limba-oii, limba-baltilor, limba-
+broastei, patlagina -, mult apreciata in vechile carti despre plante medicinale, pentru a
+combate acest rau. Ruda sa, patlagina sau patlagina-lata (Plantago major) - care mai
+este cunoscuta si ca iarba-grasa-de-gradina, iarba-bubei, iarba-mare, limba-boului, limba-
+oii, mama-padurii, placintica-vacii -, nu-i este cu nimic mai prejos si se foloseste exact la
+fel. Ambele cresc pe toate campiile, marginile de drumuri de tara, pasunile, povarnisurile,
+lizierele, in santuri si pe terenurile umede necultivate, fiind practic raspandite in intreaga
 lume.
-Pătlagina se folosește în primul rând împotriva maladiilor aparatului respirator, mai
-ales în cazul unor secreții abundente ale mucoaselor, în tuse, tuse convulsivă, astm
-pulmonar, ba chiar în tuberculoză pulmonară. Preotul elvețian Kunzle, medicul naturist
-popular și cunoscătorul marii puteri de leac a plantelor noastre, scrie: „întrebuințare
-găsește întreaga pătlagină în toate varietățile ei, cu rădăcină, tulpină, floare și sămânță cu
-tot. Ea curăță stomacul ca nici o altă plantă, este de aceea indi cată pentru acei oameni care
-au sânge puțin sau prost, ficat și rinichi bolnavi, înfățișare palidă, care fac erupții,
-eczeme, care mai și tușesc puțin, sunt răgușiți, slabi ca niște ogari, chiar dacă i-ai băga în
-unt. Ea-i ajută sa se pună pe picioarele copiii firavi, bolnăvicioși, care nu se dezvoltă ca
-lumea în ciuda unei hrane bune."
-Eu însămi am putut fi de ajutor multor persoane suferind de astm pulmonar și
-bronșic, prescriindu-le pătlagina-îngustă amestecată cu cimbru în părți egale (a se
-Pătlagina se numește în limba germană Wegerich (n. tr.).
-Wege = drumuri în germană, de găsit sub forma wega în vechea germană de sus, adică în dialectele din sudul Germaniei, dintre
-anii 750 și 1050 (n. tr.).
+Patlagina se foloseste in primul rand impotriva maladiilor aparatului respirator, mai
+ales in cazul unor secretii abundente ale mucoaselor, in tuse, tuse convulsiva, astm
+pulmonar, ba chiar in tuberculoza pulmonara. Preotul elvetian Kunzle, medicul naturist
+popular si cunoscatorul marii puteri de leac a plantelor noastre, scrie: „intrebuintare
+gaseste intreaga patlagina in toate varietatile ei, cu radacina, tulpina, floare si samanta cu
+tot. Ea curata stomacul ca nici o alta planta, este de aceea indi cata pentru acei oameni care
+au sange putin sau prost, ficat si rinichi bolnavi, infatisare palida, care fac eruptii,
+eczeme, care mai si tusesc putin, sunt ragusiti, slabi ca niste ogari, chiar daca i-ai baga in
+unt. Ea-i ajuta sa se puna pe picioarele copiii firavi, bolnaviciosi, care nu se dezvolta ca
+lumea in ciuda unei hrane bune."
+Eu insami am putut fi de ajutor multor persoane suferind de astm pulmonar si
+bronsic, prescriindu-le patlagina-ingusta amestecata cu cimbru in parti egale (a se
+Patlagina se numeste in limba germana Wegerich (n. tr.).
+Wege = drumuri in germana, de gasit sub forma wega in vechea germana de sus, adica in dialectele din sudul Germaniei, dintre
+anii 750 si 1050 (n. tr.).
 
-vedea „Moduri de folosire"). O astfel de infuzie este foarte recomandabilă și în bolile
-hepatice si vezicale. Pentru a combate cu efect extraordinar bronșita, astmul pulmonar
-și bronșic, ceaiul se prepară după cum urmează: Se pune la fiert 1 ceașcă cu apă rece cu
-1 felie de lămâie (dacă aceasta a fost tratată cu substanțe chimice -atunci fără coajă) și 1
-linguriță plină de zahăr candel maro, se lasă să dea 4-5 clocote, se la de pe foc și abia
-după aceea se adaugă 1 linguriță plină din amestecul de plante. Se lasă 1/2 minut în
-repaus. în cazurile mai grave, ceaiul trebuie pregătit proaspăt de 4-5 ori pe zi. Se bea,
-înghițitură cu înghițitură, cât se poate de fierbinte.
-După cum se poate citi și în vechile cărți despre plante medicinale, sămânța de pătlagină
-combate formarea calculului, daca se iau 8 grame zilnic. Alături se bea ceai de pătlagină.
-Siropul de pătlagină-îngustă curăță sângele de impurități, toxine și viruși. Ar trebui utilizat
-pentru o adevărată cură, luându-se zilnic înaintea fiecărei mese câte 1 lingură (copiii - câte
-1 linguriță). (A se căuta prepararea siropului la „Moduri de folosire".)
-Printre țărani este cunoscut că pătlagina este încă din timpuri îndepărtate un foarte
-apreciat leac contra rănilor. Odată, un țăran s-a rănit la câmp cu o unealtă; spre uimirea
-mea, a luat frunze proaspete de pătlagină, le-a fărâmițat și le-a pus pe rană. Deși frunzele
-erau nespălate, locul nu s-a inflamat. Frunzele proaspete, fărâmițate, ajută în crăpături,
-tăieturi, înțepături de viespe, ba chiar în mușcăturile de câine turbat, de animale
-veninoase și șerpi, pentru ultimii numai în caz de necesitate, dacă nu se află nici un medic
-la fața locului, într-o veche carte despre plante medicinale scrie: „Dacă o broască este
-mușcată de un păianjen, se grăbește la pătlagină. Aceasta o ajută."
-Frunzele proaspete, frecate între ambele mâini, amestecate cu ceva sare și aplicate la
-gât vindecă de gușă. Frunzele de pătlagină puse în pantofi vindecă bășicile pricinuite de
-prea mult umblat sau plimbat. O tumoare, fie ea chiar malignă, trece, dacă este tratată cu
-frunze proaspete fărâmițate. Frunzele ajută, aplicate pe locurile bolnave, și în bolile
-canceroase de glande, în aceste cazuri este însă bine să se pună maghiran proaspăt (în
-cazuri urgente se poate folosi și maghiran uscat) la macerat în ulei de măsline. Se
-introduce maghiranul într-o sticlă, se toarnă ulei deasu pra și se lasă să stea 10 zile la loc
-călduros. Uleiul de maghiran obținut se unge în zona glandelor bolnave, se pun frunzele
-fărâmițate deasupra și se leagă locul cu o bu cată de pânză. în scurt timp se va simți o
+vedea „Moduri de folosire"). O astfel de infuzie este foarte recomandabila si in bolile
+hepatice si vezicale. Pentru a combate cu efect extraordinar bronsita, astmul pulmonar
+si bronsic, ceaiul se prepara dupa cum urmeaza: Se pune la fiert 1 ceasca cu apa rece cu
+1 felie de lamaie (daca aceasta a fost tratata cu substante chimice -atunci fara coaja) si 1
+lingurita plina de zahar candel maro, se lasa sa dea 4-5 clocote, se la de pe foc si abia
+dupa aceea se adauga 1 lingurita plina din amestecul de plante. Se lasa 1/2 minut in
+repaus. in cazurile mai grave, ceaiul trebuie pregatit proaspat de 4-5 ori pe zi. Se bea,
+inghititura cu inghititura, cat se poate de fierbinte.
+Dupa cum se poate citi si in vechile carti despre plante medicinale, samanta de patlagina
+combate formarea calculului, daca se iau 8 grame zilnic. Alaturi se bea ceai de patlagina.
+Siropul de patlagina-ingusta curata sangele de impuritati, toxine si virusi. Ar trebui utilizat
+pentru o adevarata cura, luandu-se zilnic inaintea fiecarei mese cate 1 lingura (copiii - cate
+1 lingurita). (A se cauta prepararea siropului la „Moduri de folosire".)
+Printre tarani este cunoscut ca patlagina este inca din timpuri indepartate un foarte
+apreciat leac contra ranilor. Odata, un taran s-a ranit la camp cu o unealta; spre uimirea
+mea, a luat frunze proaspete de patlagina, le-a faramitat si le-a pus pe rana. Desi frunzele
+erau nespalate, locul nu s-a inflamat. Frunzele proaspete, faramitate, ajuta in crapaturi,
+taieturi, intepaturi de viespe, ba chiar in muscaturile de caine turbat, de animale
+veninoase si serpi, pentru ultimii numai in caz de necesitate, daca nu se afla nici un medic
+la fata locului, intr-o veche carte despre plante medicinale scrie: „Daca o broasca este
+muscata de un paianjen, se grabeste la patlagina. Aceasta o ajuta."
+Frunzele proaspete, frecate intre ambele maini, amestecate cu ceva sare si aplicate la
+gat vindeca de gusa. Frunzele de patlagina puse in pantofi vindeca basicile pricinuite de
+prea mult umblat sau plimbat. O tumoare, fie ea chiar maligna, trece, daca este tratata cu
+frunze proaspete faramitate. Frunzele ajuta, aplicate pe locurile bolnave, si in bolile
+canceroase de glande, in aceste cazuri este insa bine sa se puna maghiran proaspat (in
+cazuri urgente se poate folosi si maghiran uscat) la macerat in ulei de masline. Se
+introduce maghiranul intr-o sticla, se toarna ulei deasu pra si se lasa sa stea 10 zile la loc
+calduros. Uleiul de maghiran obtinut se unge in zona glandelor bolnave, se pun frunzele
+faramitate deasupra si se leaga locul cu o bu cata de panza. in scurt timp se va simti o
 ameliorare.
-Cu ocazia unei prelegeri ținute la biserica parohială a orașului Linz am arătat că
-frunzele fărâmițate de pătlagină ar putea vindeca orice rană, chiar dacă ea ar fi veche de
-zece ani. Când am vorbit, cinci luni mai târziu, în sala școlii de călugărițe din Linz, o femeie
-a cerut cuvântul: „La vremea respectivă am pus la îndoială afirmația dumneavoastră că
-frunzele de pătlagină vindecă orice rană, oricât de veche ar fi. Vecina mea avea de 17 ani
-ulcer varicos la picior, din cauza căruia nu mai putea de mult să iasă din casă. Chiar a
-doua zi i-am adus frunzele și i le-am pus, după îndrumările dumneavoastră, pe piciorul
-bolnav. Trebuie să-mi retrag orice dubiu: Rana s-a închis repede și nu s-a mai deschis în
+Cu ocazia unei prelegeri tinute la biserica parohiala a orasului Linz am aratat ca
+frunzele faramitate de patlagina ar putea vindeca orice rana, chiar daca ea ar fi veche de
+zece ani. Cand am vorbit, cinci luni mai tarziu, in sala scolii de calugarite din Linz, o femeie
+a cerut cuvantul: „La vremea respectiva am pus la indoiala afirmatia dumneavoastra ca
+frunzele de patlagina vindeca orice rana, oricat de veche ar fi. Vecina mea avea de 17 ani
+ulcer varicos la picior, din cauza caruia nu mai putea de mult sa iasa din casa. Chiar a
+doua zi i-am adus frunzele si i le-am pus, dupa indrumarile dumneavoastra, pe piciorul
+bolnav. Trebuie sa-mi retrag orice dubiu: Rana s-a inchis repede si nu s-a mai deschis in
 cele cinci luni care au trecut"
-Un alt exemplu: Un invalid de război cu o proteză la picior căpătase răni deschise pe
+Un alt exemplu: Un invalid de razboi cu o proteza la picior capatase rani deschise pe
 bontul piciorului amputat, care s-au datorat unei canicule prelungite. Acestea nu voiau
-să se vindece nici cu alifii, nici cu raze, nici cu injecții. Când și-a aplicat frunzele de
-pătlagină-îngustă, rănile s-au închis peste noapte și omul a putut să-și vadă iarăși de ritmul
-normal al muncii și vieții sale.
-Eu însămi m-am ajutat odată rapid cu suc proaspăt de pătlagină-îngustă. Cu ani în
-urmă, nepoțelul meu, care avea pe-atunci un an și pe care-l țineam în brațe, m-a mușcat
-din neastâmpăr de obraz, deasupra colțului gurii. Locul mușcăturii mi-a pricinuit câteva
-zile niște dureri foarte mari. L-am tamponat din când în când cu esență de pătlagină-
-îngustă. îmi făceam griji să nu se formeze într-o zi o întăritură
+sa se vindece nici cu alifii, nici cu raze, nici cu injectii. Cand si-a aplicat frunzele de
+patlagina-ingusta, ranile s-au inchis peste noapte si omul a putut sa-si vada iarasi de ritmul
+normal al muncii si vietii sale.
+Eu insami m-am ajutat odata rapid cu suc proaspat de patlagina-ingusta. Cu ani in
+urma, nepotelul meu, care avea pe-atunci un an si pe care-l tineam in brate, m-a muscat
+din neastampar de obraz, deasupra coltului gurii. Locul muscaturii mi-a pricinuit cateva
+zile niste dureri foarte mari. L-am tamponat din cand in cand cu esenta de patlagina-
+ingusta. imi faceam griji sa nu se formeze intr-o zi o intaritura
 
-canceroasă. La sfârșitul lui aprilie, am participat cu soțul meu la o sesiune în Freistadt
-Deodată am simțit pe vechiul loc al mușcăturii un nodul întărit, cât un bob de mazăre, care
-se formase în timpul nopții. Imediat mi-am cules de pe pajiște un pumn de frunze de
-pătlagină-îngustă, le-am frecat între arătător și degetul mare și am tamponat de mai multe
-ori în acea zi locul respectiv. Seara, întăritura de-abia se mai simțea; în dimineața
-următoare dispăruse complet, spre bucuria noastră. Nu este deci o exagerare atunci când
-preotul Kneipp afirmă în scrierile sale că pentru fiecare boală a crescut o plantă. Cu cât mă
-adâncesc mai mult în tainele fitoterapiei, cu atât trăiesc mai multe miracole. Mulți oameni
-mor anual în chinuri din cauza unor astfel de abcese canceroase, deși există remedii sub
-forma plantelor medicinale. Am putea fi cu toții mai sănătoși și mâi bucuroși de viață, dacă
-am arăta mai multă înțelepciune față de plantele noastre de leac. Bineînțeles, în ochii
-neștiutorilor ele sunt doar niște buruieni, începeți să vă ocupați mai mult de aceste plante și
-veți scăpa treptat de tot ce vă supără.
-Aceste rânduri ale mele trebuie să dea curaj și mângâiere tuturor bătrânilor care suferă
-de ani de zile de ulcer varicos la picior. Rănile lor se vor închide curând și se vor vindeca
-prin aplicarea frunzelor de pătlagină. Vârsta nu contează aici. Dacă există și o umflătură
-puternică, atunci piciorul se îmbăiată în extract rece de nalbă sau în infuzie de coada-
-șoricelului. Marginile rănii se ung după baie cu alifie de filimică (a se căuta la „Filimică", la
-„Moduri de folosire"). Și pentru combaterea trombozei se recomandă cu căldură frunzele
-de pătlagină.
-Aceste exemple arată clar: Ne mai putem bizui pe farmacia Domnului - farmacia verde
-- și atunci când bolnavul s-a resemnat în legătură cu orice posibil ajutor medical.
+canceroasa. La sfarsitul lui aprilie, am participat cu sotul meu la o sesiune in Freistadt
+Deodata am simtit pe vechiul loc al muscaturii un nodul intarit, cat un bob de mazare, care
+se formase in timpul noptii. Imediat mi-am cules de pe pajiste un pumn de frunze de
+patlagina-ingusta, le-am frecat intre aratator si degetul mare si am tamponat de mai multe
+ori in acea zi locul respectiv. Seara, intaritura de-abia se mai simtea; in dimineata
+urmatoare disparuse complet, spre bucuria noastra. Nu este deci o exagerare atunci cand
+preotul Kneipp afirma in scrierile sale ca pentru fiecare boala a crescut o planta. Cu cat ma
+adancesc mai mult in tainele fitoterapiei, cu atat traiesc mai multe miracole. Multi oameni
+mor anual in chinuri din cauza unor astfel de abcese canceroase, desi exista remedii sub
+forma plantelor medicinale. Am putea fi cu totii mai sanatosi si mai bucurosi de viata, daca
+am arata mai multa intelepciune fata de plantele noastre de leac. Bineinteles, in ochii
+nestiutorilor ele sunt doar niste buruieni, incepeti sa va ocupati mai mult de aceste plante si
+veti scapa treptat de tot ce va supara.
+Aceste randuri ale mele trebuie sa dea curaj si mangaiere tuturor batranilor care sufera
+de ani de zile de ulcer varicos la picior. Ranile lor se vor inchide curand si se vor vindeca
+prin aplicarea frunzelor de patlagina. Varsta nu conteaza aici. Daca exista si o umflatura
+puternica, atunci piciorul se imbaiata in extract rece de nalba sau in infuzie de coada-
+soricelului. Marginile ranii se ung dupa baie cu alifie de filimica (a se cauta la „Filimica", la
+„Moduri de folosire"). Si pentru combaterea trombozei se recomanda cu caldura frunzele
+de patlagina.
+Aceste exemple arata clar: Ne mai putem bizui pe farmacia Domnului - farmacia verde
+- si atunci cand bolnavul s-a resemnat in legatura cu orice posibil ajutor medical.
 MODURI DE FOLOSIRE
-Infuzie: 1 linguriță (cu vârf) de plante la 1/4 litru de apă - se opărește, se lasă puțin în
+Infuzie: 1 lingurita (cu varf) de plante la 1/4 litru de apa - se opareste, se lasa putin in
 repaus.
-Amestec de ceaiuri: 1 linguriță de frunze de pătlagină cu cimbru în părți egale este
-opărită cu 1/4 litru de apă (a se vedea fragmentul respectiv din text).
-Compresă de frunze: Frunzele proaspete de pătlagină-îngustă sau de pătlagină-
-lată sunt spălate și zdrobite pe un fund de lemn cu un sucitor de tăiței, până se
-formează un terci care se aplică local.
-Sirop, rețeta nr. 1: De 2 ori 2 mâini pline de frunze de pătlagină spălate se trec prin
-mașina de tocat carne. Se adaugă acestui terci de frunze puțină apă ca să nu
-se întărească, 300 grame de zahăr nerafinat și 250 grame de miere. Se lasă
-totul să fiarbă la foc mic, cu amestecare continuă, până când se formează un
-lichid vâscos, care se toarnă fierbinte în borcane și se păstrează la frigider.
-Sirop, rețeta nr. 2: Frunzele spălate se pun în straturi cu zahăr nerafinat într-un
-borcan de murături și se apasă ca să se îndese. Astfel, totul se va așeza, în
-zilele următoare punerea în straturi se repetă, până nu mai încape nimic în
-borcan, într-un loc ferit în grădină se sapă o gaură, în care se introduce
-borcanul bine astupat cu 3-4 straturi de celofan. Se așează deasupra o
-scândură și se pune o piatră pe ea. Totul se astupă cu pământ. Scândura și
-piatra trebuie să rămână însă vizibile. Datorită căldurii constante, zahărul și
-frunzele fermentează, formând un sirop. După cca. 3 luni, borcanul se scoate,
-sucul se stoarce printr-un storcător de fructe (nu printr-o pânză), se pune să
-dea câteva clocote și se trage în borcane foarte bine astupate. Cine nu poate
-efectua acest fel de fermentație să lase borcanul în soare sau în apropierea
-sobei, până ce siropul se așează la fund. Și acest sirop se pune să dea câteva
+Amestec de ceaiuri: 1 lingurita de frunze de patlagina cu cimbru in parti egale este
+oparita cu 1/4 litru de apa (a se vedea fragmentul respectiv din text).
+Compresa de frunze: Frunzele proaspete de patlagina-ingusta sau de patlagina-
+lata sunt spalate si zdrobite pe un fund de lemn cu un sucitor de taitei, pana se
+formeaza un terci care se aplica local.
+Sirop, reteta nr. 1: De 2 ori 2 maini pline de frunze de patlagina spalate se trec prin
+masina de tocat carne. Se adauga acestui terci de frunze putina apa ca sa nu
+se intareasca, 300 grame de zahar nerafinat si 250 grame de miere. Se lasa
+totul sa fiarba la foc mic, cu amestecare continua, pana cand se formeaza un
+lichid vascos, care se toarna fierbinte in borcane si se pastreaza la frigider.
+Sirop, reteta nr. 2: Frunzele spalate se pun in straturi cu zahar nerafinat intr-un
+borcan de muraturi si se apasa ca sa se indese. Astfel, totul se va aseza, in
+zilele urmatoare punerea in straturi se repeta, pana nu mai incape nimic in
+borcan, intr-un loc ferit in gradina se sapa o gaura, in care se introduce
+borcanul bine astupat cu 3-4 straturi de celofan. Se aseaza deasupra o
+scandura si se pune o piatra pe ea. Totul se astupa cu pamant. Scandura si
+piatra trebuie sa ramana insa vizibile. Datorita caldurii constante, zaharul si
+frunzele fermenteaza, formand un sirop. Dupa cca. 3 luni, borcanul se scoate,
+sucul se stoarce printr-un storcator de fructe (nu printr-o panza), se pune sa
+dea cateva clocote si se trage in borcane foarte bine astupate. Cine nu poate
+efectua acest fel de fermentatie sa lase borcanul in soare sau in apropierea
+sobei, pana ce siropul se aseaza la fund. Si acest sirop se pune sa dea cateva
 clocote bune.
 
-### PEDICUȚA
+### PEDICUTA
 
-PEDICUȚA (Lycopodium clavatum)
-Pedicuța este numită în limbajul popular brădișor, brânca-ur-
-sului, brâui-vântului, bunceag, chindicuță, coada-alor-de-vânt,
-cornățel, cornișor, crucea-pământului, netotă, pcelecă, piciorul-
-lupului, praful-strigoilor, talpa-ursului. Această plantă, asemă -
-nătoare mușchiului și veșnic verde, se târăște pe solul pădurii cu
-niște vrejuri lungi de 1 -2 metri, având rădăcini micuțe, fine și subțiri.
-Din vrejuri cresc niște tulpinile lungi de 7-10 centimetri, moi la pipăit
-și ramificate, care seamănă cu iarba-neagră, dar au frunzele mai
-moi și mai dese. Când planta are patru ani, formează vara pistiluri
-gălbui care conțin polen, numit si făina-vrăjitoarei. Această făină se
-întrebuințează homeopatic, în cazul porțiunilor de piele roase și
-rănite.
-Pedicuța este o plantă de leac conținând radiu. Ea poate fi
-deosebită ușor de celelalte soiuri de mușchi datorită vrejurilor lungi,
-asemănătoare unor sfori și a polenului galben al pistilu rilor ei.
-Crește numai în lizierele pădurilor și în pădurile înalte dinspre nord,
-de la o altitudine de 600 metri în sus. După tăierea copacilor
-(defrișări), planta se usucă și dispare în cele din urmă de tot, căci
-își pierde puterea de viată sub acțiunea directă a soarelui.
-în Austria și Germania, pedicuța este strict ocrotită de lege.
-Recomand de aceea ca necesarul de plante să fie procurat din
-farmacii și magazine specializate în plante medicinale. Comerțul cu plante medicinale
-aduce pedicuța din țările nordice, așa încât este garantată o calitate bună.
-Pentru reumatici și bolnavii de artrită, chiar și atunci când prezintă deja modi-
-ficări ale formelor articulațiilor (încheieturilor), precum și în caz de conspirație
-cronică si hemoroizi, recomand cu cea mai mare căldură ceaiul de pedicuța. Per soanele
-care suferă de diaree trebuie să întrebuințeze însă ceaiul cu multă precauție, ca să nu le
-provoace spasme intestinale. Pedicuța n-are voie să fie fiartă, ci doar opărită cu apă în
-clocot. Ceaiul se întrebuințează și în toate bolile căilor urinare si ale organelor genitale,
-la dureri și tumefieri ale testiculelor, la formarea nisipului la rinichi și la colicile
-renale, în hepatite, la tumori ale țesutului conjunctiv al ficatului, chiar dacă sunt deja
-maligne, pedicuța este indispensabilă. Ea-l ajută pe convales cent să se pună repede pe
-picioare cu forțe depline.
-Soțul unei femei mai în vârstă pe care o cunosc a suferit ani de zile de o grea in-
-suficiență respiratorie în timpul nopții, tratată ca astm cardiac, îi era tot mai rău, până ce
-s-a dus într-o zi iar la doctor. „Dacă nu încetați lucrul imediat, în opt zile sunteți un om mort!"
-Medicul l-a trimis să se interneze la spitalul Grieskirchen. Am aflat de la soția bolnavului că
-avea ciroză hepatică în ultimul stadiu. Cu ciroza hepatică merge mână în mână o
-insuficiență respiratorie nocturnă. După câtva timp, omul a fost trimis acasă ca fiind pe
-moarte. La sfatul meu, soția sa a făcut rost de pedicuță, care și-a făcut rapid efectul. Nu
-considerați si dumneavoastră o minune dacă vă spun că după prima ceașcă cu ceai de
-pedicuța omul a scăpat de sufocații cumplite din timpul nopții cu care se chinuise ani de-a
-rândul?
-Dacă știți în cercul dumneavoastră de cunoștințe un caz de ciroză hepatică, chiar de
-este fără speranță, dați curaj acelui om și îndreptați-l spre pedicuța noastră atât de
-importantă în fitoterapie. Chiar și oamenii care au boli grave de ficat pot fi redați vieții
-datorită pedicuței.
+PEDICUTA (Lycopodium clavatum)
+Pedicuta este numita in limbajul popular bradisor, branca-ur-
+sului, braui-vantului, bunceag, chindicuta, coada-alor-de-vant,
+cornatel, cornisor, crucea-pamantului, netota, pceleca, piciorul-
+lupului, praful-strigoilor, talpa-ursului. Aceasta planta, asema -
+natoare muschiului si vesnic verde, se taraste pe solul padurii cu
+niste vrejuri lungi de 1 -2 metri, avand radacini micute, fine si subtiri.
+Din vrejuri cresc niste tulpinile lungi de 7-10 centimetri, moi la pipait
+si ramificate, care seamana cu iarba-neagra, dar au frunzele mai
+moi si mai dese. Cand planta are patru ani, formeaza vara pistiluri
+galbui care contin polen, numit si faina-vrajitoarei. Aceasta faina se
+intrebuinteaza homeopatic, in cazul portiunilor de piele roase si
+ranite.
+Pedicuta este o planta de leac continand radiu. Ea poate fi
+deosebita usor de celelalte soiuri de muschi datorita vrejurilor lungi,
+asemanatoare unor sfori si a polenului galben al pistilu rilor ei.
+Creste numai in lizierele padurilor si in padurile inalte dinspre nord,
+de la o altitudine de 600 metri in sus. Dupa taierea copacilor
+(defrisari), planta se usuca si dispare in cele din urma de tot, caci
+isi pierde puterea de viata sub actiunea directa a soarelui.
+in Austria si Germania, pedicuta este strict ocrotita de lege.
+Recomand de aceea ca necesarul de plante sa fie procurat din
+farmacii si magazine specializate in plante medicinale. Comertul cu plante medicinale
+aduce pedicuta din tarile nordice, asa incat este garantata o calitate buna.
+Pentru reumatici si bolnavii de artrita, chiar si atunci cand prezinta deja modi-
+ficari ale formelor articulatiilor (incheieturilor), precum si in caz de conspiratie
+cronica si hemoroizi, recomand cu cea mai mare caldura ceaiul de pedicuta. Per soanele
+care sufera de diaree trebuie sa intrebuinteze insa ceaiul cu multa precautie, ca sa nu le
+provoace spasme intestinale. Pedicuta n-are voie sa fie fiarta, ci doar oparita cu apa in
+clocot. Ceaiul se intrebuinteaza si in toate bolile cailor urinare si ale organelor genitale,
+la dureri si tumefieri ale testiculelor, la formarea nisipului la rinichi si la colicile
+renale, in hepatite, la tumori ale tesutului conjunctiv al ficatului, chiar daca sunt deja
+maligne, pedicuta este indispensabila. Ea-l ajuta pe convales cent sa se puna repede pe
+picioare cu forte depline.
+Sotul unei femei mai in varsta pe care o cunosc a suferit ani de zile de o grea in-
+suficienta respiratorie in timpul noptii, tratata ca astm cardiac, ii era tot mai rau, pana ce
+s-a dus intr-o zi iar la doctor. „Daca nu incetati lucrul imediat, in opt zile sunteti un om mort!"
+Medicul l-a trimis sa se interneze la spitalul Grieskirchen. Am aflat de la sotia bolnavului ca
+avea ciroza hepatica in ultimul stadiu. Cu ciroza hepatica merge mana in mana o
+insuficienta respiratorie nocturna. Dupa catva timp, omul a fost trimis acasa ca fiind pe
+moarte. La sfatul meu, sotia sa a facut rost de pedicuta, care si-a facut rapid efectul. Nu
+considerati si dumneavoastra o minune daca va spun ca dupa prima ceasca cu ceai de
+pedicuta omul a scapat de sufocatii cumplite din timpul noptii cu care se chinuise ani de-a
+randul?
+Daca stiti in cercul dumneavoastra de cunostinte un caz de ciroza hepatica, chiar de
+este fara speranta, dati curaj acelui om si indreptati-l spre pedicuta noastra atat de
+importanta in fitoterapie. Chiar si oamenii care au boli grave de ficat pot fi redati vietii
+datorita pedicutei.
 
-într-o excursie cu scop didactic pe care am făcut-o prin pădure în Austria superioară cu
-un mic grup, i-am atras atenția însoțitorului meu, botanistul dr. Bruno Wein-meister, asupra
-tămăduitoarei pedicuțe în materie de ciroză hepatică și cancer la ficat. Drept care mi-a
-povestit următoarea întâmplare: Student fiind, a făcut cu câțiva prieteni o excursie în munți,
-în drumul spre cabană a găsit printre jnepeni un vrej de pedicuță, pe care și l-a înfășurat
-amuzat în jurul pălăriei. Când au ajuns sus la cabană, unul dintre prieteni a făcut un cârcel
-la picior, atât de dureros și de puternic, încât piciorul i s-a sucit din încheietura
-genunchiului. Degeaba au încercat ceilalți să-l ajute. Cabanierul a adus rachiu de drojdie și
-piciorul a fost masat cu el fără nici un succes. Deodată, tânărul Weinmeister a avut
-inspirația să-și ia vrejul de pedicuță de pe pălărie și să înfășoare cu el piciorul, de jos până
-sus. Piciorul și-a revenit pe loc la poziția normală. Dr. Weinmeister s-a gândit că ar fi vorba
-de o coincidență. Poate cercelul ar fi trecut și fără pedicuță. în drum spre casă a cules
-pentru gazda lui, care avea des cercei la gambă, un pumn de pedicuță. Aceasta a scăpat-
-o imediat de cârcei. După ani de zile, dr. Weinmeister i-a relatat unui medic specialist
-această întâmplare. De la el a aflat că pedicuță este o plantă care conține radiu. De atunci
-au fost vindecați mulți oameni de astfel de crampe musculare cu ajutorul unor perne
-umplute cu pedicuță.
-O cunoștință de-a mea a fost internată la spital, nemaiputând urina. Brațul era deja
-puternic umflat de la umăr la cot. Când a ieșit din spital, starea ei era aceeași ca înainte.
-Din fericire, tocmai aveam niște pedicuță în casă, căci soacra mea de 86 de ani suferea
-deseori de cârcei la gambă. Supoziția mea că ar putea fi vorba la acea cunoștință de un
-spasm vezical s-a confirmat în momentul în care i-am pus un săculeț cu pedicuță uscată în
-regiunea vezicii urinare și după două minute a putut urina iarăși normal. A mai purtat acest
-săculeț cu pedicuță câteva zile în regiunea vezicii; edemele de pe brațe s-au retras treptat.
-Eu însămi am suferit ani de zile de hipertensiune arterială. În cele mai multe cazuri ea
-provine dintr-o hiperfuncție renală. Deci mi-am pus la un moment dat peste noapte un
-săculeț umplut cu pedicuță în regiunea rinichilor. A doua zi, tensiunea mea arterială
-scăzuse de la 200 la 165. De atunci, îmi aplic din când în când în zona rinichi lor un săculeț
-umplut cu pedicuță proaspătă.
-în cazul cârceilor la gambă, pedicuță se pune într-o bucată de pânză care se leagă în
-jurul gambei. Se pot face însă și băi la picioare, iar pentru spasmele vezicale băi de
-șezut, folosind pedicuță (a se vedea „Băi de șezut", la „Partea generală", pag. 8).
-După leziuni de pe urma războiului sau a accidentelor rămân adesea cicatrice
-care provoacă spasme. Un invalid de război avea pe spate o cicatrice în care puteai să
-bagi mâna de adâncă ce era. Această cicatrice îi provoca tot mereu spasme dureroase,
-care aveau drept consecință valuri de transpirație pe întreg corpul. Durerile se întindeau
-până la pielea capului. După 30 de ani de grea suferință, I-am putut elibera pe acest om de
-chin prin perne umplute cu pedicuță și băi cu pedicuță.
-Făina-vrăjitoarei (polenul de pedicuță) îi ajută pe cei grav bolnavi care au făcut es-care
-să li se închidă leziunile în timpul cel mai scurt. Făina-vrăjitoarei se presară, distribuind-o
-cât se poate de fin și cu multă grijă pe locurile cu răni deschise. De obicei apare o
-ușurare simțitoare chiar după prima utilizare. (Alte vindecări reușite cu ajutorul pedicuței pot
-fi citite în broșura „Maria Treben's Heilerfolge", apărută la editura Wilhelm Ennsthaler, A-
+intr-o excursie cu scop didactic pe care am facut-o prin padure in Austria superioara cu
+un mic grup, i-am atras atentia insotitorului meu, botanistul dr. Bruno Wein-meister, asupra
+tamaduitoarei pedicute in materie de ciroza hepatica si cancer la ficat. Drept care mi-a
+povestit urmatoarea intamplare: Student fiind, a facut cu cativa prieteni o excursie in munti,
+in drumul spre cabana a gasit printre jnepeni un vrej de pedicuta, pe care si l-a infasurat
+amuzat in jurul palariei. Cand au ajuns sus la cabana, unul dintre prieteni a facut un carcel
+la picior, atat de dureros si de puternic, incat piciorul i s-a sucit din incheietura
+genunchiului. Degeaba au incercat ceilalti sa-l ajute. Cabanierul a adus rachiu de drojdie si
+piciorul a fost masat cu el fara nici un succes. Deodata, tanarul Weinmeister a avut
+inspiratia sa-si ia vrejul de pedicuta de pe palarie si sa infasoare cu el piciorul, de jos pana
+sus. Piciorul si-a revenit pe loc la pozitia normala. Dr. Weinmeister s-a gandit ca ar fi vorba
+de o coincidenta. Poate cercelul ar fi trecut si fara pedicuta. in drum spre casa a cules
+pentru gazda lui, care avea des cercei la gamba, un pumn de pedicuta. Aceasta a scapat-
+o imediat de carcei. Dupa ani de zile, dr. Weinmeister i-a relatat unui medic specialist
+aceasta intamplare. De la el a aflat ca pedicuta este o planta care contine radiu. De atunci
+au fost vindecati multi oameni de astfel de crampe musculare cu ajutorul unor perne
+umplute cu pedicuta.
+O cunostinta de-a mea a fost internata la spital, nemaiputand urina. Bratul era deja
+puternic umflat de la umar la cot. Cand a iesit din spital, starea ei era aceeasi ca inainte.
+Din fericire, tocmai aveam niste pedicuta in casa, caci soacra mea de 86 de ani suferea
+deseori de carcei la gamba. Supozitia mea ca ar putea fi vorba la acea cunostinta de un
+spasm vezical s-a confirmat in momentul in care i-am pus un saculet cu pedicuta uscata in
+regiunea vezicii urinare si dupa doua minute a putut urina iarasi normal. A mai purtat acest
+saculet cu pedicuta cateva zile in regiunea vezicii; edemele de pe brate s-au retras treptat.
+Eu insami am suferit ani de zile de hipertensiune arteriala. In cele mai multe cazuri ea
+provine dintr-o hiperfunctie renala. Deci mi-am pus la un moment dat peste noapte un
+saculet umplut cu pedicuta in regiunea rinichilor. A doua zi, tensiunea mea arteriala
+scazuse de la 200 la 165. De atunci, imi aplic din cand in cand in zona rinichi lor un saculet
+umplut cu pedicuta proaspata.
+in cazul carceilor la gamba, pedicuta se pune intr-o bucata de panza care se leaga in
+jurul gambei. Se pot face insa si bai la picioare, iar pentru spasmele vezicale bai de
+sezut, folosind pedicuta (a se vedea „Bai de sezut", la „Partea generala", pag. 8).
+Dupa leziuni de pe urma razboiului sau a accidentelor raman adesea cicatrice
+care provoaca spasme. Un invalid de razboi avea pe spate o cicatrice in care puteai sa
+bagi mana de adanca ce era. Aceasta cicatrice ii provoca tot mereu spasme dureroase,
+care aveau drept consecinta valuri de transpiratie pe intreg corpul. Durerile se intindeau
+pana la pielea capului. Dupa 30 de ani de grea suferinta, I-am putut elibera pe acest om de
+chin prin perne umplute cu pedicuta si bai cu pedicuta.
+Faina-vrajitoarei (polenul de pedicuta) ii ajuta pe cei grav bolnavi care au facut es-care
+sa li se inchida leziunile in timpul cel mai scurt. Faina-vrajitoarei se presara, distribuind-o
+cat se poate de fin si cu multa grija pe locurile cu rani deschise. De obicei apare o
+usurare simtitoare chiar dupa prima utilizare. (Alte vindecari reusite cu ajutorul pedicutei pot
+fi citite in brosura „Maria Treben's Heilerfolge", aparuta la editura Wilhelm Ennsthaler, A-
 4400 Steyr, Austria.)
-Dacă cineva este atât de strâns legat cum sunt eu de plantele de leac și obține prin ele
-succese tot mai multe ce ating aproape miracolul, nu poate să nu se gândească la
-Creatorul universului, care ne așterne toate aceste minuni la picioare. Din păcate, mulți
-oameni se împiedică de ele fără a le acorda nici o atenție și nu simt niciodată atotputernicia
+Daca cineva este atat de strans legat cum sunt eu de plantele de leac si obtine prin ele
+succese tot mai multe ce ating aproape miracolul, nu poate sa nu se gandeasca la
+Creatorul universului, care ne asterne toate aceste minuni la picioare. Din pacate, multi
+oameni se impiedica de ele fara a le acorda nici o atentie si nu simt niciodata atotputernicia
 Cerului.
 
 MODURI DE FOLOSIRE
-Prepararea ceaiului: 1 linguriță rasă de pedicuță se opărește cu 1/4 litru de apă în
-clocot, apoi se lasă să stea puțin. Se bea numai 1 ceașcă pe zi, și anume
-dimineața pe stomacul gol, 1/2 oră înainte de micul dejun, înghițitură cu
-înghițitură, în caz de ciroză hepatică sau de cancer hepatic, se beau zilnic
-câte 2 cești.
-Pernă cu pedicuță: Cu pedicuță uscată (în funcție de dimensiunea locului cu
-spasme sau cârcei se iau 100, 200 sau 300 grame) se umple o pernă care se
-pune noaptea peste respectivele porțiuni dureroase. Această pernă își
-menține eficacitatea timp de cel mult un an.
-Baie de șezut: A se vedea „Partea generală", pag. 8.
+Prepararea ceaiului: 1 lingurita rasa de pedicuta se opareste cu 1/4 litru de apa in
+clocot, apoi se lasa sa stea putin. Se bea numai 1 ceasca pe zi, si anume
+dimineata pe stomacul gol, 1/2 ora inainte de micul dejun, inghititura cu
+inghititura, in caz de ciroza hepatica sau de cancer hepatic, se beau zilnic
+cate 2 cesti.
+Perna cu pedicuta: Cu pedicuta uscata (in functie de dimensiunea locului cu
+spasme sau carcei se iau 100, 200 sau 300 grame) se umple o perna care se
+pune noaptea peste respectivele portiuni dureroase. Aceasta perna isi
+mentine eficacitatea timp de cel mult un an.
+Baie de sezut: A se vedea „Partea generala", pag. 8.
 
 ### PODBALUL
 
 PODBALUL (Tussilago farfara)
-Denumit și bruscăniș, brustan, brustur-alb, brustur-
-de-râu, cenușbară, gălbinele, gușa-găinii, limba-vecinei,
-lăpoșel, papalungă, podbeal, rotungioare. Atunci când
-câmpiile și povârnișurile noastre n-au încă nici un pic de
-verdeață de primăvară, iar ochiul de-abia dacă recunoaște
-câte o umflătură foarte timidă de mâțișor de salcie,
-podbalul este primul care-și scoate la lumină la începutul
-primăverii potirele galbene.
-Pe soluri umede, povârnișuri pleșuve, cariere de
-pietriș, pământ înțelenit, ogoare părăgihite și grohotișuri de
-pantă se găsesc perne întregi de flori de podbal, care apar
-din pământ cu mult înaintea frunzelor. La ele își caută
-albinele și alte insecte prima lor hrană. Pod-balului îi priește
-numai pământul argilos, lutos, el reprezintă, ca să zicem
-așa, caracteristica solurilor de argilă și lut. Sunt primele flori
-pe care ni le putem culege pen tru provizia de iarnă.
-Datorită proprietăților lor expectorante și antiinflamatorii, le putem folosi cu mare succes la
-bronșită, laringită, faringită, astm bronșic și pleurezie, ba chiar la tuberculoză
-pulmonară incipientă. Cei cu tuse rebelă și răgușeală chinuitoare ar trebui să bea de mai
+Denumit si bruscanis, brustan, brustur-alb, brustur-
+de-rau, cenusbara, galbinele, gusa-gainii, limba-vecinei,
+laposel, papalunga, podbeal, rotungioare. Atunci cand
+campiile si povarnisurile noastre n-au inca nici un pic de
+verdeata de primavara, iar ochiul de-abia daca recunoaste
+cate o umflatura foarte timida de matisor de salcie,
+podbalul este primul care-si scoate la lumina la inceputul
+primaverii potirele galbene.
+Pe soluri umede, povarnisuri plesuve, cariere de
+pietris, pamant intelenit, ogoare paragihite si grohotisuri de
+panta se gasesc perne intregi de flori de podbal, care apar
+din pamant cu mult inaintea frunzelor. La ele isi cauta
+albinele si alte insecte prima lor hrana. Pod-balului ii prieste
+numai pamantul argilos, lutos, el reprezinta, ca sa zicem
+asa, caracteristica solurilor de argila si lut. Sunt primele flori
+pe care ni le putem culege pen tru provizia de iarna.
+Datorita proprietatilor lor expectorante si antiinflamatorii, le putem folosi cu mare succes la
+bronsita, laringita, faringita, astm bronsic si pleurezie, ba chiar la tuberculoza
+pulmonara incipienta. Cei cu tuse rebela si raguseala chinuitoare ar trebui sa bea de mai
 multe ori pe zi ceai fierbinte de podbal amestecat cu miere.
-Mai târziu, în luna mai, când apar și frunzele lânoase, verzi sus și alb-argintii pe partea
-de jos, le utilizăm, din cauza conținutului lor bogat în vitamina C, ca verdeață pentru supă
-și salată de primăvară, întrucât frunzele conțin mai multe substanțe active decât florile,
-sânt culese și pentru a se putea folosi un amestec de flori și frunze la pre pararea ceaiului.
-De la medicii naturiști ai antichității și până la preotul Kneipp, podbalul este prețuit în mod
-unanim. Frunzele sale proaspete și spălate, puse pe piept ca un terci, ajută în orice boală
-grea de plămâni, în erizipel și leziuni ale țesuturilor cu umflături vineții și chiar în
-inflamații ale bursei sinoviale. Rezultatele acestor comprese cu terci sunt uimitoare.
-Compresele cu infuzie concentrată din frunze de podbal sunt utilizate în ulcerul scrofulos
-Vaporii de podbal, agit de la flori cât și de la frunze, trebuie inhalați de mai multe ori pe zi în
-cazul bronșitelor cronice cu accese dese și în insuficientă respiratorie sufocantă, în cel
-mai scurt timp se va resimți o mare ușurare. Picioarele umflate ar trebui scăldate mai des
-într-o fiertură preparată din frunze de podbal.
+Mai tarziu, in luna mai, cand apar si frunzele lanoase, verzi sus si alb-argintii pe partea
+de jos, le utilizam, din cauza continutului lor bogat in vitamina C, ca verdeata pentru supa
+si salata de primavara, intrucat frunzele contin mai multe substante active decat florile,
+sant culese si pentru a se putea folosi un amestec de flori si frunze la pre pararea ceaiului.
+De la medicii naturisti ai antichitatii si pana la preotul Kneipp, podbalul este pretuit in mod
+unanim. Frunzele sale proaspete si spalate, puse pe piept ca un terci, ajuta in orice boala
+grea de plamani, in erizipel si leziuni ale tesuturilor cu umflaturi vinetii si chiar in
+inflamatii ale bursei sinoviale. Rezultatele acestor comprese cu terci sunt uimitoare.
+Compresele cu infuzie concentrata din frunze de podbal sunt utilizate in ulcerul scrofulos
+Vaporii de podbal, agit de la flori cat si de la frunze, trebuie inhalati de mai multe ori pe zi in
+cazul bronsitelor cronice cu accese dese si in insuficienta respiratorie sufocanta, in cel
+mai scurt timp se va resimti o mare usurare. Picioarele umflate ar trebui scaldate mai des
+intr-o fiertura preparata din frunze de podbal.
 
-Siropul pe care ni-l putem fabrica d]n frunze de podbal se dovedește foarte bun în
-bronșite și alte afecțiuni pulmonare, într-o oală de lut sau un borcan de murături se
-introduc alternativ un strat de frunze și un strat de zahăr nerafinat, se lasă să se așeze și se
-umple până ce nu mai e loc în vas. Apoi se leagă cu 2-3 straturi de celofan și se pune în
-grădină, la loc ferit, într-o gaură făcută în pământ. Se așează o scândură deasu pra și se
-acoperă cu pământ. Căldura constantă stârnește un proces de fermentație. După 8
-săptămâni se dezgroapă iarăși oala sau borcanul, iar siropul de podbal astfel obținut se
-lasă să dea 1-2 clocote. După ce se răcește, este turnat în sticle mici, cu gâtul lat. Acest
-sirop este mijlocul nostru de apărare cel mai bun în timpul iernii și al epidemiilor de gripă. Se
-ia cu lingurița.
-în astm, în afecțiunile permanente ale bronhiilor și ale fumătorilor sunt de mare
-folos, primăvara, 2-3 lingurițe de suc de podbal proaspăt stors turnate într-o cană cu supă
+Siropul pe care ni-l putem fabrica d]n frunze de podbal se dovedeste foarte bun in
+bronsite si alte afectiuni pulmonare, intr-o oala de lut sau un borcan de muraturi se
+introduc alternativ un strat de frunze si un strat de zahar nerafinat, se lasa sa se aseze si se
+umple pana ce nu mai e loc in vas. Apoi se leaga cu 2-3 straturi de celofan si se pune in
+gradina, la loc ferit, intr-o gaura facuta in pamant. Se aseaza o scandura deasu pra si se
+acopera cu pamant. Caldura constanta starneste un proces de fermentatie. Dupa 8
+saptamani se dezgroapa iarasi oala sau borcanul, iar siropul de podbal astfel obtinut se
+lasa sa dea 1-2 clocote. Dupa ce se raceste, este turnat in sticle mici, cu gatul lat. Acest
+sirop este mijlocul nostru de aparare cel mai bun in timpul iernii si al epidemiilor de gripa. Se
+ia cu lingurita.
+in astm, in afectiunile permanente ale bronhiilor si ale fumatorilor sunt de mare
+folos, primavara, 2-3 lingurite de suc de podbal proaspat stors turnate intr-o cana cu supa
 limpede de carne sau cu lapte cald.
-Pentru combaterea flebitelor se poate prepara o masă alifioasă din frunze proas pete
-zdrobite și smântână proaspătă, care se aplică pe porțiunile inflamate și se leagă ușor cu o
-bucată de cârpă. Sucul stors proaspăt din frunze de podbal și picurat în ureche este
-eficace în durerile de urechi.
+Pentru combaterea flebitelor se poate prepara o masa alifioasa din frunze proas pete
+zdrobite si smantana proaspata, care se aplica pe portiunile inflamate si se leaga usor cu o
+bucata de carpa. Sucul stors proaspat din frunze de podbal si picurat in ureche este
+eficace in durerile de urechi.
 CEAI PENTRU TUSE
-Dacă vreți un ceai expectorant, amestecați flori și frunze de podbal, flori de lumânărică,
-cuscrișor (numit și mierea-ursului sau plumâhărică) și frunze de pătlagină- îngustă în părți
-egale. Din acest amestec de plante se iau 2 lingurițe la 1/4 litru de apă și se opăresc. Se
-beau zilnic, calde, înghițitură cu înghițitură, 3 cești cu acest ceai îndulcit cu miere.
+Daca vreti un ceai expectorant, amestecati flori si frunze de podbal, flori de lumanarica,
+cuscrisor (numit si mierea-ursului sau plumaharica) si frunze de patlagina- ingusta in parti
+egale. Din acest amestec de plante se iau 2 lingurite la 1/4 litru de apa si se oparesc. Se
+beau zilnic, calde, inghititura cu inghititura, 3 cesti cu acest ceai indulcit cu miere.
 MODURI DE FOLOSIRE
-Prepararea ceaiului: Se folosește 1 linguriță (cu vârf) de flori (mai târziu, când apar
-și frunzele, se pun frunze și flori amestecate în părți egale) la 1/4 litru de apă,
-se opărește doar și se lasă puțin în repaus.
-Comprese: Frunzele proaspete se zdrobesc și se freacă până iese un terci care se
-aplică sub formă de comprese.
-Inhalație: Se opărește 1 lingură (cu vârf) de flori și frunze și se inhalează vaporii
-sub o cârpă. Se repetă de mai multe ori pe zi.
-Băi de picioare: 2 mâini pline de frunze de podbal, se fierb într-o cantitate de apă
-corespunzătoare; se lasă să stea puțin. Durata băii - 20 minute.
-Suc proaspăt: Se stoarce sucul din frunzele proaspăt spălate, cu ajutorul
-storcătorului electric de uz casnic.
-Sirop si amestec de ceaiuri contra tusei și a răgușelii: A se vedea fragmentele
+Prepararea ceaiului: Se foloseste 1 lingurita (cu varf) de flori (mai tarziu, cand apar
+si frunzele, se pun frunze si flori amestecate in parti egale) la 1/4 litru de apa,
+se opareste doar si se lasa putin in repaus.
+Comprese: Frunzele proaspete se zdrobesc si se freaca pana iese un terci care se
+aplica sub forma de comprese.
+Inhalatie: Se opareste 1 lingura (cu varf) de flori si frunze si se inhaleaza vaporii
+sub o carpa. Se repeta de mai multe ori pe zi.
+Bai de picioare: 2 maini pline de frunze de podbal, se fierb intr-o cantitate de apa
+corespunzatoare; se lasa sa stea putin. Durata baii - 20 minute.
+Suc proaspat: Se stoarce sucul din frunzele proaspat spalate, cu ajutorul
+storcatorului electric de uz casnic.
+Sirop si amestec de ceaiuri contra tusei si a raguselii: A se vedea fragmentele
 respective de text.
 ### PORUMBUL
 
 PORUMBUL (Zea mays)
-Alte denumiri: călambuc, cocenași, colibaș, cucuruz, gârnișor, mălai, păpușoi, penche,
-tenchiu, tengheri. în ultima vreme s-a răspândit foarte mult cultivarea
+Alte denumiri: calambuc, cocenasi, colibas, cucuruz, garnisor, malai, papusoi, penche,
+tenchiu, tengheri. in ultima vreme s-a raspandit foarte mult cultivarea
 
-porumbului, în timpul înfloririi, din tecile lungi și ascuțite ale frunzelor
-atârnă în afară stigmatele sale filiforme. Ele se numesc și mătasea-
-porumbului și constituie partea cea mai curativă a plantei. Perioada de
-înflorire se întinde din iunie până în august. Mătasea porumbului este
-tăiată înaintea polenizării și uscată rapid la umbră.
-Dacă aveți nevoie de un produs diuretic confirmat, atunci beți acest
-ceai de mătasea-porumbului, care este și un mijloc de slăbire eficace și
-inofensiv (actual pentru numeroșii supraponderali din so cietatea
-bunăstării). Dacă mătasea-porumbului este depozitată timp mai
-îndelungat fără a fi complet uscată, atunci își pierde efectul diu retic și
-devine laxativă.
-Ceaiul de mătasea-porumbului este la fel de eficient în bolile căilor
-urinare cu formație litiazică (formare de calcul), în edeme și ana-
-sarcă (edeme generalizate), ca și în nefrită, catar vezica), artrită si
-reumatism. El poate fi folosit cu succes împotriva incontinenței urinare
-la copii și bătrâni și a colicilor renale, în toate aceste boli se ia la fiecare
-2-3 ore câte 1 lingură plină de ceai de mătasea-porumbului.
+porumbului, in timpul infloririi, din tecile lungi si ascutite ale frunzelor
+atarna in afara stigmatele sale filiforme. Ele se numesc si matasea-
+porumbului si constituie partea cea mai curativa a plantei. Perioada de
+inflorire se intinde din iunie pana in august. Matasea porumbului este
+taiata inaintea polenizarii si uscata rapid la umbra.
+Daca aveti nevoie de un produs diuretic confirmat, atunci beti acest
+ceai de matasea-porumbului, care este si un mijloc de slabire eficace si
+inofensiv (actual pentru numerosii supraponderali din so cietatea
+bunastarii). Daca matasea-porumbului este depozitata timp mai
+indelungat fara a fi complet uscata, atunci isi pierde efectul diu retic si
+devine laxativa.
+Ceaiul de matasea-porumbului este la fel de eficient in bolile cailor
+urinare cu formatie litiazica (formare de calcul), in edeme si ana-
+sarca (edeme generalizate), ca si in nefrita, catar vezica), artrita si
+reumatism. El poate fi folosit cu succes impotriva incontinentei urinare
+la copii si batrani si a colicilor renale, in toate aceste boli se ia la fiecare
+2-3 ore cate 1 lingura plina de ceai de matasea-porumbului.
 MOD DE FOLOSIRE
-Prepararea ceaiului: Se opărește 1 linguriță (cu vârf) de mătasea-porumbului cu 1/4
-litru de apă fierbinte. Se lasă puțin în repaus, nu se îndulcește.
+Prepararea ceaiului: Se opareste 1 lingurita (cu varf) de matasea-porumbului cu 1/4
+litru de apa fierbinte. Se lasa putin in repaus, nu se indulceste.
 
-PUFULIȚA-CU-FLORI-MICI
+PUFULITA-CU-FLORI-MICI
 (Epilobium parviflorum)
-Am primit odată o scrisoare de la un tată de familie în care
-scrie textual: „Vă implor cu mâinile împreunate și ridi cate, poate
-îmi mai puteți indica un drum înapoi spre sănătate și dărui
-familiei mele, care suferă din greu alături de mine, un tată
-sănătos." înainte îmi evoca drumul suferinței sale: în anul 1961
-devine acută o prostatită cronica (inflamație cronică a
-prostatei) din cauza îmbăierii într-o apă care conținea radiu. A
-umblat din spital în spital, dar nici un medic nu l-a operat; era
-disperat. La fiecare scaun elimina sânge și puroi. Din cauza
-numeroaselor medicamente a căpătat ulcer duodenal și o
-afecțiune gravă la ficat, iar flora intestinală i-a fost distrusă. Era
-mai aproape de moarte decât de viață și a trebuit, la indicația
-doctorului, să suspende orice medicament. Apoi a fost operat,
-după cum scrie, pe cale electrică, în ciuda operației, inflamațiile
-au rămas până astăzi. Medicamentele și injecțiile i-au înrăutățit
-din nou starea. A recurs la ceaiul de urzici și la ceaiul diu retic
-care i-au ameliorat boala în așa măsură, încât astăzi poate
+Am primit odata o scrisoare de la un tata de familie in care
+scrie textual: „Va implor cu mainile impreunate si ridi cate, poate
+imi mai puteti indica un drum inapoi spre sanatate si darui
+familiei mele, care sufera din greu alaturi de mine, un tata
+sanatos." inainte imi evoca drumul suferintei sale: in anul 1961
+devine acuta o prostatita cronica (inflamatie cronica a
+prostatei) din cauza imbaierii intr-o apa care continea radiu. A
+umblat din spital in spital, dar nici un medic nu l-a operat; era
+disperat. La fiecare scaun elimina sange si puroi. Din cauza
+numeroaselor medicamente a capatat ulcer duodenal si o
+afectiune grava la ficat, iar flora intestinala i-a fost distrusa. Era
+mai aproape de moarte decat de viata si a trebuit, la indicatia
+doctorului, sa suspende orice medicament. Apoi a fost operat,
+dupa cum scrie, pe cale electrica, in ciuda operatiei, inflamatiile
+au ramas pana astazi. Medicamentele si injectiile i-au inrautatit
+din nou starea. A recurs la ceaiul de urzici si la ceaiul diu retic
+care i-au ameliorat boala in asa masura, incat astazi poate
 lucra din nou. De acest drum chinuitor ar fi fost
-probabil cruțat mult încercatul tată de familie dacă ar fi știut de
-pufulița-cu-flori-mici
-care poate vindeca din temelie bolile de prostată.
-Pufulița-cu-flori-mici, necunoscută până acum ca plantă medicinală și nemenționață
-în nici o carte obișnuită despre plante medicinale, a intrat abia prin prezentarea din
+probabil crutat mult incercatul tata de familie daca ar fi stiut de
+pufulita-cu-flori-mici
+care poate vindeca din temelie bolile de prostata.
+Pufulita-cu-flori-mici, necunoscuta pana acum ca planta medicinala si nementionata
+in nici o carte obisnuita despre plante medicinale, a intrat abia prin prezentarea din
 
-prima ediție a broșurii mele „Sănătate din farmacia Domnului" într-un adevărat marș
-triumfal ca plantă medicinală contra bolilor de prostată, în cel mai scurt timp a de
-venit cunoscută în întreaga Europă și în afara ei, nu în ultimă instanță din cauză că a
-ajutat deja mulți oameni în maladiile susmenționate, în ultima vreme apare și în cărțile
-despre plante medicinale și revistele de specialitate. •
-Din cauza numeroaselor varietăți ale acestei flori s-a ivit însă o anumită incertitu dine.
-Dintre subspeciile cu acțiune tămăduitoare trebuie înșirate următoarele: cârlige sau
-răcitoaică (Epilobium roseum), pufulita-cu-flori-mici (Epilobium parviflorum), puflulița
-(Epilobium montanum), numită și față-n față, pufulița-verde-închis (Epilobium obscurum),
-puf ulița lanceolată (Epilobium lanceolatum), pufulița-de-colină (Epilobium collinum),
-pufulița-de-mlastină (Epilobium palustre), Pufulița-de-pietriș (Epilobium fleischeri) și
-pufiilita-alpinâ (Epilobium anagallidifolium). Varietățile tămăduitoare se recunosc toate
-după florile lor mici în culori roșietice, roz pal sau al bicioase. Ele stau ca bătute-n cuie pe
-silicvele (fruct capsulă) lunguiețe, înguste, din care țâșnesc la plesnire semințele pavoazate
-cu peri albi, asemănători bumbacului, în Tirol, pufulița este cunoscută în mod surprinzător
-sub numele de „Frauenhaar" = părul femeii.
-Din varietățile enumerate și care au putere lecuitoare se colectează întreaga plantă,
-deci tulpină, frunze și flori, cu grija ca planta să fie culeasă din mijloc - de altfel, ea se rupe
-foarte ușor-, pentru ca să poată forma noi mlădițe laterale. Ceea ce s-a cules se taie cât
-este în stare proaspătă. Din ceaiul de plante se beau, și în cazurile cele mai grave, numai 2
-cești pe zi, și anume 1 ceașcă dimineața, pe stomacul gol, și 1 ceașcă seara. Acest lucru
-nu înseamnă însă că se poate renunța la controlul medical. Oricum, sfatul medicului
-trebuie cerut în orice boală grea.
-Două subspecii de Epilobium, care pot fi doar cu greu confundate cu celelalte soiuri cu
-flori mici, nu au voie să fie colectate. Este vorba de cea numită răscoage, limbricaș,
-pufulița sau sburătoare (Epilobium hirsutum) și de sburătoare (Epilobium angustifblium).
-La prima dintre ele, florile ajung de mărimea unghiei degetului mare și strălucesc purpuriu.
-Ea se găsește adesea în stocuri mari, stufoase, până la 150 centi metri înălțime, în și lângă
-apele puțin adânci; tulpina și frunzele sunt cărnoase și acoperite ușor cu păr pe partea
-inferioară. Cunoscutul botanist austriac Richard Wili-fort, care cunoștea foarte bine pufulița
-ca plantă de leac, nu o menționează în cartea sa. Ar putea, după cum a susținut el! să fie
-confundată cu răscoagele (Epilobium hirsutum); acestea au, însă, spre deosebire de
-pufulița-cu-flori-mici, niște flori cel puțin de cinci ori mai mari, tije și frunze mai cărnoase, 6
-înălțime sensibil mai mare și de clanșează un efect contrar. - Șburătoarele (Epilobium
-angustifolium) cresc înalte de 150 centimetri și preferă luminișurile, lizierele și vecinătatea
-tufișurilor de zmeură. Florile mari, de culoarea purpurei, sunt dispuse în ciorchini lungi,
-piramidali, neândesați pe o tulpină roșietică la bază. Florile acestei varietăți foarte des
-întâlnite strălucesc în timpul înfloririi, formând niște suprafețe roșii ca focul. Denumirea
-germană populară „Unholdenkraut" = iarba-diavolului este, cred, un indiciu destul de clar
-că nu poate fi folosită contra prostatitei
-Eram femeie tânără când socrul meu a murit în puterea vârstei de hipertrofie a
-prostatei, deci de o mărire patologică a prostatei. Un vecin care era expert în materie de
-plante medicinale mi-a arătat această pufuliță-cu-flori-mici, spunându-mi: „Dacă socrul
-dumneavoastră ar fi băut ceai din această plantă, astăzi ar mai fi fost în viață. Țineți-o
-minte! Sunteți femeie tânără și puteți ajuta mulți oameni cu ea." Dar după cum se întâmplă
-când ești tânăr și sănătos, nu m-a mai preocupat această plantă. Nu la fel a făcut și mama!
-Ea a cules-o în fiecare an și a ajutat mulți oameni suferinzi de vezică urinara și de rinichi.
-Forța sa curativă este atât de mare, încât adesea înlătură fulgerător toate supărările și
-durerile legate de bolile de prostată. Au existat cazuri când oamenii se aflau în preajma
-operației și nu puteau urina decât picătură cu
+prima editie a brosurii mele „Sanatate din farmacia Domnului" intr-un adevarat mars
+triumfal ca planta medicinala contra bolilor de prostata, in cel mai scurt timp a de
+venit cunoscuta in intreaga Europa si in afara ei, nu in ultima instanta din cauza ca a
+ajutat deja multi oameni in maladiile susmentionate, in ultima vreme apare si in cartile
+despre plante medicinale si revistele de specialitate. •
+Din cauza numeroaselor varietati ale acestei flori s-a ivit insa o anumita incertitu dine.
+Dintre subspeciile cu actiune tamaduitoare trebuie insirate urmatoarele: carlige sau
+racitoaica (Epilobium roseum), pufulita-cu-flori-mici (Epilobium parviflorum), puflulita
+(Epilobium montanum), numita si fata-n fata, pufulita-verde-inchis (Epilobium obscurum),
+puf ulita lanceolata (Epilobium lanceolatum), pufulita-de-colina (Epilobium collinum),
+pufulita-de-mlastina (Epilobium palustre), Pufulita-de-pietris (Epilobium fleischeri) si
+pufiilita-alpina (Epilobium anagallidifolium). Varietatile tamaduitoare se recunosc toate
+dupa florile lor mici in culori rosietice, roz pal sau al bicioase. Ele stau ca batute-n cuie pe
+silicvele (fruct capsula) lunguiete, inguste, din care tasnesc la plesnire semintele pavoazate
+cu peri albi, asemanatori bumbacului, in Tirol, pufulita este cunoscuta in mod surprinzator
+sub numele de „Frauenhaar" = parul femeii.
+Din varietatile enumerate si care au putere lecuitoare se colecteaza intreaga planta,
+deci tulpina, frunze si flori, cu grija ca planta sa fie culeasa din mijloc - de altfel, ea se rupe
+foarte usor-, pentru ca sa poata forma noi mladite laterale. Ceea ce s-a cules se taie cat
+este in stare proaspata. Din ceaiul de plante se beau, si in cazurile cele mai grave, numai 2
+cesti pe zi, si anume 1 ceasca dimineata, pe stomacul gol, si 1 ceasca seara. Acest lucru
+nu inseamna insa ca se poate renunta la controlul medical. Oricum, sfatul medicului
+trebuie cerut in orice boala grea.
+Doua subspecii de Epilobium, care pot fi doar cu greu confundate cu celelalte soiuri cu
+flori mici, nu au voie sa fie colectate. Este vorba de cea numita rascoage, limbricas,
+pufulita sau sburatoare (Epilobium hirsutum) si de sburatoare (Epilobium angustifblium).
+La prima dintre ele, florile ajung de marimea unghiei degetului mare si stralucesc purpuriu.
+Ea se gaseste adesea in stocuri mari, stufoase, pana la 150 centi metri inaltime, in si langa
+apele putin adanci; tulpina si frunzele sunt carnoase si acoperite usor cu par pe partea
+inferioara. Cunoscutul botanist austriac Richard Wili-fort, care cunostea foarte bine pufulita
+ca planta de leac, nu o mentioneaza in cartea sa. Ar putea, dupa cum a sustinut el! sa fie
+confundata cu rascoagele (Epilobium hirsutum); acestea au, insa, spre deosebire de
+pufulita-cu-flori-mici, niste flori cel putin de cinci ori mai mari, tije si frunze mai carnoase, 6
+inaltime sensibil mai mare si de clanseaza un efect contrar. - Sburatoarele (Epilobium
+angustifolium) cresc inalte de 150 centimetri si prefera luminisurile, lizierele si vecinatatea
+tufisurilor de zmeura. Florile mari, de culoarea purpurei, sunt dispuse in ciorchini lungi,
+piramidali, neandesati pe o tulpina rosietica la baza. Florile acestei varietati foarte des
+intalnite stralucesc in timpul infloririi, formand niste suprafete rosii ca focul. Denumirea
+germana populara „Unholdenkraut" = iarba-diavolului este, cred, un indiciu destul de clar
+ca nu poate fi folosita contra prostatitei
+Eram femeie tanara cand socrul meu a murit in puterea varstei de hipertrofie a
+prostatei, deci de o marire patologica a prostatei. Un vecin care era expert in materie de
+plante medicinale mi-a aratat aceasta pufulita-cu-flori-mici, spunandu-mi: „Daca socrul
+dumneavoastra ar fi baut ceai din aceasta planta, astazi ar mai fi fost in viata. Tineti-o
+minte! Sunteti femeie tanara si puteti ajuta multi oameni cu ea." Dar dupa cum se intampla
+cand esti tanar si sanatos, nu m-a mai preocupat aceasta planta. Nu la fel a facut si mama!
+Ea a cules-o in fiecare an si a ajutat multi oameni suferinzi de vezica urinara si de rinichi.
+Forta sa curativa este atat de mare, incat adesea inlatura fulgerator toate supararile si
+durerile legate de bolile de prostata. Au existat cazuri cand oamenii se aflau in preajma
+operatiei si nu puteau urina decat picatura cu
 
-picătură; o singură ceașcă a și adus o ușurare. Ceaiul trebuie băut, bineînțeles, mai mult
-timp, pentru a obține o reală însănătoșire.
-Mi-a relatat odinioară mama mea despre un pacient care suferise deja trei operații de
-cancer vezical - cancer vezical dovedit clinic - și care se găsea într-o stare fizică foarte
-proastă. L-am sfătuit să bea ceai de pufuliță. Am aflat ulterior de la medicul său că s-a
-vindecat. Era pe vremea când încă nu mă ocupam de plantele medicinale. Această
-vindecare m-a impresionat profund. Mama mea m-a rugat deseori să nu uit niciodată să
-culeg această plantă medicinală când ea n-o să mai fie în viață, în 1961, de ziua Intrării
-Maicii Domnului în biserică, a murit mama mea cea dragă și eu am uitat în vara aceea să
-adun pufulițe.
-în cabinetul de consultații al medicului meu am aflat că un bărbat pe care-l cunoșteam
-zăcea fără speranțe în spitalul nostru, bolnav de cancer vezical. „Nu", am exclamat, „acest
-bărbat vrednic n-are voie să moară!" M-am gândit la pufuliță. Medicul, deși avea o atitudine
-pozitivă față de plantele medicinale, a fost de părere că în acest caz nu mai putea ajuta
-nimic. Eu nu culesesem însă pufulițe și m-am gândit cu groază că la mijlocul lui octombrie
-totul o fi ofilit și uscat. M-am dus totuși să caut. Știam un loc unde înfloreau în timpul verii.
-N-am mai găsit, ce-i drept, decât câteva tulpini veștejite, pe care le-am cules totuși, le-
-am tăiat mărunt și le-am trimis soției bolnavului. I-a dat să bea 2 cești pe zi, una di mineața
-și una seara, și după 14 zile am aflat de la medic, printr-un anunț telefonic, că în starea
-bolnavului survenise o mare schimbare în bine. Mi-a spus râzând: „Deci plăntuța ta ajută!"
-De-atunci am putut ajuta sute și sute de oameni, așa cum îmi spusese odinioară bătrânul
-din locul meu natal: „Țineți minte această plantă; puteți ajuta mulți oameni cu ea."
-Un farmacist din MQnchen mi-a arătat într-o carte veche și groasă de farmacie lo cul în
-care în jurul anului 1880 pufuliță mai era consemnată în mod oficial. Medicamen tele chimice
-au izgonit-o total. Prin prelegerile mele, drumețiile în scopul descoperirii plantelor
-medicinale și publicațiile mele, pufuliță a devenit din nou cunoscută în toate rondurile
-populației, îndrumările mele găsesc ecou puternic în sufletele multor oameni, căci
-pretutindeni unde ajung cu soțul meu în drumețiile noastre, fie în munți, pe drumuri de
-pădure, la margini de pâraie, fie în luminișuri vedem, spre bucuria noastră, că a fost
-culeasă numai mlădița centrală a pufuliței, în scopul de a cruța planta. Oricine cunoaște
-această plantă medicinală o apreciază și o apără de pieire, culegând-o astfel cu multă
-băgare de seamă. Planta mai crește, după cules, încă de 2-3 ori. Dacă rizomul rămâne în
-pământ, atunci va înmuguri din nou în primăvara următoare.
-Aflu cu bucurie din scrisori că în multe grădini pufulița-cu-flori-mici crește acum printre
-căpșuni, legume și arbuști decorativi, înainte era smulsă din pământ ca orice buruiană
-supărătoare. Câtor suferinzi le-ar fi putut aduce în acest răstimp vindecare și un nou curaj
-de a înfrunta viața! De curând am avut posibilitatea de a ajuta un preot care era considerat
-de medici incurabil, având cancer la prostată și la vezică și care se dedică astăzi din nou
-cu întreaga putere de muncă profesiei sale.
-O scrisoare din Schwarzwald: „Cumnata mea a fost tratată de un cancer al or ganelor
-pelviene cu raze care i-au dăunat, provocându-i o fisură în intestin și în vezică. A căpătat
-asemenea dureri vezicale, încât medicul a fost nevoit să-i prescrie morfină. Atunci am
-căutat după ilustrația dumneavoastră din «Farmacia Domnului» pufulița- cu-flori-mici, am
-descoperit-o și după o săptămână de cură cu ceai, toate durerile au dispărut. Acestea
-sunt minunile din farmacia Domnului!" - Despre alte vindecări obținute puteți citi în broșura
-„Maria Treben's Heilerfolge", apărută la editura Wilhelm Enhsthaler.
-Mulți dintre cei care suferă de prostată se pot însănătoși cu ajutorul pufuliței-cu-flori-
-mici, deseori chiar fără să mai fie nevoie să se opereze. Dacă operația s-a efectuat
+picatura; o singura ceasca a si adus o usurare. Ceaiul trebuie baut, bineinteles, mai mult
+timp, pentru a obtine o reala insanatosire.
+Mi-a relatat odinioara mama mea despre un pacient care suferise deja trei operatii de
+cancer vezical - cancer vezical dovedit clinic - si care se gasea intr-o stare fizica foarte
+proasta. L-am sfatuit sa bea ceai de pufulita. Am aflat ulterior de la medicul sau ca s-a
+vindecat. Era pe vremea cand inca nu ma ocupam de plantele medicinale. Aceasta
+vindecare m-a impresionat profund. Mama mea m-a rugat deseori sa nu uit niciodata sa
+culeg aceasta planta medicinala cand ea n-o sa mai fie in viata, in 1961, de ziua Intrarii
+Maicii Domnului in biserica, a murit mama mea cea draga si eu am uitat in vara aceea sa
+adun pufulite.
+in cabinetul de consultatii al medicului meu am aflat ca un barbat pe care-l cunosteam
+zacea fara sperante in spitalul nostru, bolnav de cancer vezical. „Nu", am exclamat, „acest
+barbat vrednic n-are voie sa moara!" M-am gandit la pufulita. Medicul, desi avea o atitudine
+pozitiva fata de plantele medicinale, a fost de parere ca in acest caz nu mai putea ajuta
+nimic. Eu nu culesesem insa pufulite si m-am gandit cu groaza ca la mijlocul lui octombrie
+totul o fi ofilit si uscat. M-am dus totusi sa caut. Stiam un loc unde infloreau in timpul verii.
+N-am mai gasit, ce-i drept, decat cateva tulpini vestejite, pe care le-am cules totusi, le-
+am taiat marunt si le-am trimis sotiei bolnavului. I-a dat sa bea 2 cesti pe zi, una di mineata
+si una seara, si dupa 14 zile am aflat de la medic, printr-un anunt telefonic, ca in starea
+bolnavului survenise o mare schimbare in bine. Mi-a spus razand: „Deci plantuta ta ajuta!"
+De-atunci am putut ajuta sute si sute de oameni, asa cum imi spusese odinioara batranul
+din locul meu natal: „Tineti minte aceasta planta; puteti ajuta multi oameni cu ea."
+Un farmacist din MQnchen mi-a aratat intr-o carte veche si groasa de farmacie lo cul in
+care in jurul anului 1880 pufulita mai era consemnata in mod oficial. Medicamen tele chimice
+au izgonit-o total. Prin prelegerile mele, drumetiile in scopul descoperirii plantelor
+medicinale si publicatiile mele, pufulita a devenit din nou cunoscuta in toate rondurile
+populatiei, indrumarile mele gasesc ecou puternic in sufletele multor oameni, caci
+pretutindeni unde ajung cu sotul meu in drumetiile noastre, fie in munti, pe drumuri de
+padure, la margini de paraie, fie in luminisuri vedem, spre bucuria noastra, ca a fost
+culeasa numai mladita centrala a pufulitei, in scopul de a cruta planta. Oricine cunoaste
+aceasta planta medicinala o apreciaza si o apara de pieire, culegand-o astfel cu multa
+bagare de seama. Planta mai creste, dupa cules, inca de 2-3 ori. Daca rizomul ramane in
+pamant, atunci va inmuguri din nou in primavara urmatoare.
+Aflu cu bucurie din scrisori ca in multe gradini pufulita-cu-flori-mici creste acum printre
+capsuni, legume si arbusti decorativi, inainte era smulsa din pamant ca orice buruiana
+suparatoare. Cator suferinzi le-ar fi putut aduce in acest rastimp vindecare si un nou curaj
+de a infrunta viata! De curand am avut posibilitatea de a ajuta un preot care era considerat
+de medici incurabil, avand cancer la prostata si la vezica si care se dedica astazi din nou
+cu intreaga putere de munca profesiei sale.
+O scrisoare din Schwarzwald: „Cumnata mea a fost tratata de un cancer al or ganelor
+pelviene cu raze care i-au daunat, provocandu-i o fisura in intestin si in vezica. A capatat
+asemenea dureri vezicale, incat medicul a fost nevoit sa-i prescrie morfina. Atunci am
+cautat dupa ilustratia dumneavoastra din «Farmacia Domnului» pufulita- cu-flori-mici, am
+descoperit-o si dupa o saptamana de cura cu ceai, toate durerile au disparut. Acestea
+sunt minunile din farmacia Domnului!" - Despre alte vindecari obtinute puteti citi in brosura
+„Maria Treben's Heilerfolge", aparuta la editura Wilhelm Enhsthaler.
+Multi dintre cei care sufera de prostata se pot insanatosi cu ajutorul pufulitei-cu-flori-
+mici, deseori chiar fara sa mai fie nevoie sa se opereze. Daca operatia s-a efectuat
 
-deja, ceaiul de pufuliță înlătură usturimile și celelalte inconveniente care se ivesc de multe
-ori ulterior. Trebuie consultat însă în orice caz medicul.
-Un bărbat vindecat de o boală a prostatei scrie din Coburg: „Pufulița-cu-flori-mici m-a
-ajutat în durerile mele de prostată. Zăceam în spital în Coburg, bolnav de infarct
-miocardic. Pe lângă aceasta, aveam dureri de prostată și nu puteam fi operat din cauza
-stării proaste a inimii. Mi s-a spus că mi se va pune sondă permanentă, dacă situația mi
-se va înrăutăți. - Am aflat despre minunata pufuliță-cu-flori-mici care a ajutat pe atâția în
-suferințe asemănătoare. Am început să beau câte 3 cești pe zi; în câteva zile am scăpat de
-orice dureri de prostată. Acum mai beau pentru ca să mă refac câte 2 cești pe zi. - îi
-mulțumesc lui Dumnezeu din toată inima. Vă doresc, doamnă Treben, să mai ajutați cu
-pufulița-cu-flori-mici mulți oameni care suferă de același chin. Este in credibil că plantele
-medicinale ale Domnului aduc - când medicina nu mai are soluții -un ajutor atât de mare."
+deja, ceaiul de pufulita inlatura usturimile si celelalte inconveniente care se ivesc de multe
+ori ulterior. Trebuie consultat insa in orice caz medicul.
+Un barbat vindecat de o boala a prostatei scrie din Coburg: „Pufulita-cu-flori-mici m-a
+ajutat in durerile mele de prostata. Zaceam in spital in Coburg, bolnav de infarct
+miocardic. Pe langa aceasta, aveam dureri de prostata si nu puteam fi operat din cauza
+starii proaste a inimii. Mi s-a spus ca mi se va pune sonda permanenta, daca situatia mi
+se va inrautati. - Am aflat despre minunata pufulita-cu-flori-mici care a ajutat pe atatia in
+suferinte asemanatoare. Am inceput sa beau cate 3 cesti pe zi; in cateva zile am scapat de
+orice dureri de prostata. Acum mai beau pentru ca sa ma refac cate 2 cesti pe zi. - ii
+multumesc lui Dumnezeu din toata inima. Va doresc, doamna Treben, sa mai ajutati cu
+pufulita-cu-flori-mici multi oameni care sufera de acelasi chin. Este in credibil ca plantele
+medicinale ale Domnului aduc - cand medicina nu mai are solutii -un ajutor atat de mare."
 MOD DE FOLOSIRE
-Prepararea ceaiului: Se opărește 1 linguriță (cu vârf) de plante cu 1/4 litru de apă și
-se lasă să stea puțin. Numai 2 cești pe zi - prima, dimineața, pe stomacul gol,
-iar a doua, seara, 1/2 oră înainte de cină.
-Pufuliță ajută (de dr. Dirk Arntzen, Berlin)
+Prepararea ceaiului: Se opareste 1 lingurita (cu varf) de plante cu 1/4 litru de apa si
+se lasa sa stea putin. Numai 2 cesti pe zi - prima, dimineata, pe stomacul gol,
+iar a doua, seara, 1/2 ora inainte de cina.
+Pufulita ajuta (de dr. Dirk Arntzen, Berlin)
 O scrisoare de la dr. Arntzen, medic practician, antropozof: „La baza
-următoarei evocări stă o înțelegere a plantelor, așa cum a fost ea stimulata de Rudolf
-Steiner și dezvoltată în continuare de diferiți biologi și botaniști. Această înțelegere este de
-fapt o imagine și se numește: «Omul invers triarticulat». Asta înseamnă că rădăcina
-corespunde organizării nervi-simțuri, deci mai ales capului omului, zona frun zelor -
-sistemului central, ritmic, iar zona flori-fruct, părții metabolism-membre.
-Această reprezentare, ca toate lucrurile vieții, nu se poate aplica mecanic. Ea tre buie
-prelucrată în mod individual pentru fiecare plantă în parte și invers, si pentru fiecare pacient
-în parte. Dar, odată existentă, chiar dacă este înțeleasă mai întâi doar pe baza câtorva
-exemple, ea oferă un fundament solid, temeinic pentru înțelegerea «relațiilor» dintre om și
-plantă, care altfel rămân întotdeauna puțin neclare.
-Principiul acestui procedeu va fi ilustrat pe baza unui exemplu. Să luăm Hamamelis
-virginica. Aici, florile apar iarna direct din scoarță. Nu are loc legătura normală prin frunză.
-Scoarța trebuie considerată ca aparținând zonei minerale a rădăcinii. Avem deci o situație
-în care «principiul metabolic» al florii dă direct de «principiul nervi-simțuri» al rădăcinii și
-scoarței, fără a trece prin echilibrarea «sănătoasă, normală» prin frunză. Această situație
-există si la om (și natural, la animal), de exemplu în cazul rănii, dar mai ales în zona anală.
-Hamamelis este un model pentru rană, pentru hemoroizi. Această plantă poate trăi cu
-această situație o viață întreagă, fără să însemne că se îmbolnăvește; s-ar putea chiar
-spune că ea trăiește din și prin această situație de ex cepție. De aceea, planta poate deveni
-un mijloc de leac pentru noi. Căci ne arată cum putem jongla o viață întreagă cu o situație
-anumită, care există, fără a ne îmbolnăvi. Și întrucât astfel de «situații» sunt realități ale
-vieții, deci deja ceva spiritual, nu este atât de mult vorba de materialitate, de substanță,
-ceea ce poate da o explicație pentru efectul diluărilor homeopatice (potente).
-Și acum referitor la Epilobium, pufuliță Mariei Treben. Această plantă se carae-
-terizează mai ales prin faptul că ceea ce este considerat la început drept o tulpină
+urmatoarei evocari sta o intelegere a plantelor, asa cum a fost ea stimulata de Rudolf
+Steiner si dezvoltata in continuare de diferiti biologi si botanisti. Aceasta intelegere este de
+fapt o imagine si se numeste: «Omul invers triarticulat». Asta inseamna ca radacina
+corespunde organizarii nervi-simturi, deci mai ales capului omului, zona frun zelor -
+sistemului central, ritmic, iar zona flori-fruct, partii metabolism-membre.
+Aceasta reprezentare, ca toate lucrurile vietii, nu se poate aplica mecanic. Ea tre buie
+prelucrata in mod individual pentru fiecare planta in parte si invers, si pentru fiecare pacient
+in parte. Dar, odata existenta, chiar daca este inteleasa mai intai doar pe baza catorva
+exemple, ea ofera un fundament solid, temeinic pentru intelegerea «relatiilor» dintre om si
+planta, care altfel raman intotdeauna putin neclare.
+Principiul acestui procedeu va fi ilustrat pe baza unui exemplu. Sa luam Hamamelis
+virginica. Aici, florile apar iarna direct din scoarta. Nu are loc legatura normala prin frunza.
+Scoarta trebuie considerata ca apartinand zonei minerale a radacinii. Avem deci o situatie
+in care «principiul metabolic» al florii da direct de «principiul nervi-simturi» al radacinii si
+scoartei, fara a trece prin echilibrarea «sanatoasa, normala» prin frunza. Aceasta situatie
+exista si la om (si natural, la animal), de exemplu in cazul ranii, dar mai ales in zona anala.
+Hamamelis este un model pentru rana, pentru hemoroizi. Aceasta planta poate trai cu
+aceasta situatie o viata intreaga, fara sa insemne ca se imbolnaveste; s-ar putea chiar
+spune ca ea traieste din si prin aceasta situatie de ex ceptie. De aceea, planta poate deveni
+un mijloc de leac pentru noi. Caci ne arata cum putem jongla o viata intreaga cu o situatie
+anumita, care exista, fara a ne imbolnavi. Si intrucat astfel de «situatii» sunt realitati ale
+vietii, deci deja ceva spiritual, nu este atat de mult vorba de materialitate, de substanta,
+ceea ce poate da o explicatie pentru efectul diluarilor homeopatice (potente).
+Si acum referitor la Epilobium, pufulita Mariei Treben. Aceasta planta se carae-
+terizeaza mai ales prin faptul ca ceea ce este considerat la inceput drept o tulpina
 
-florală mică și nevinovată este în realitate un ovar de fruct hipogin care, așa cum e normal
-la un fruct, se umflă sensibil după înflorire, se decolorează și crește în lungime. Toamna
-sunt eliberate apoi semințele înconjurate în abundență de bumbac. Pufulița în toate
-varietățile sale este o plantă relativ răspândită. Planta înflorește și rodește destul de
-puternic, adică se desfășoară destul de puternic în acest domeniu; frunzele, tulpina și
-rădăcina devin în schimb mai puțin importante, mai neinteresante în comparație cu aceasta.
-Totul raportat la om înseamnă: Putem căuta efectul principal în partea de jos a omului, din
-care fac parte în mod esențial organele urinare și de reproducere. Prin alte reflecții se poate
-oarecum exclude zona intestinală (acestea sunt mai cu seamă plantele cu gust amar).
-Ovarul de fruct ca parte esențială, bătătoare la ochi se află spre înăuntru. Prin acest
-lucru se poate înțelege faptul că în el se vede clar un raport pozițional cu prostata.
-Dezvoltarea fructului toamna te duce cu gândul și la toamna omului, om niprezența sa - la
-o «boală» cam la fel de frecventă.
-Ceva foarte asemănător se întâlnește la pepene, la dovleac: ovar de fruct hipogin,
-mărire uriașă după înflorire și, ca să spunem așa, în mod necesar, acțiune asupra or-
-ganelor urinare. La fel și la pară (Pyrus). Și pentru specialiști: Hypoxis rooperi are tot ovar
+florala mica si nevinovata este in realitate un ovar de fruct hipogin care, asa cum e normal
+la un fruct, se umfla sensibil dupa inflorire, se decoloreaza si creste in lungime. Toamna
+sunt eliberate apoi semintele inconjurate in abundenta de bumbac. Pufulita in toate
+varietatile sale este o planta relativ raspandita. Planta infloreste si rodeste destul de
+puternic, adica se desfasoara destul de puternic in acest domeniu; frunzele, tulpina si
+radacina devin in schimb mai putin importante, mai neinteresante in comparatie cu aceasta.
+Totul raportat la om inseamna: Putem cauta efectul principal in partea de jos a omului, din
+care fac parte in mod esential organele urinare si de reproducere. Prin alte reflectii se poate
+oarecum exclude zona intestinala (acestea sunt mai cu seama plantele cu gust amar).
+Ovarul de fruct ca parte esentiala, batatoare la ochi se afla spre inauntru. Prin acest
+lucru se poate intelege faptul ca in el se vede clar un raport pozitional cu prostata.
+Dezvoltarea fructului toamna te duce cu gandul si la toamna omului, om niprezenta sa - la
+o «boala» cam la fel de frecventa.
+Ceva foarte asemanator se intalneste la pepene, la dovleac: ovar de fruct hipogin,
+marire uriasa dupa inflorire si, ca sa spunem asa, in mod necesar, actiune asupra or-
+ganelor urinare. La fel si la para (Pyrus). Si pentru specialisti: Hypoxis rooperi are tot ovar
 de fruct hipogin.
-Demn de remarcat este fenomenul că anumite plante urogenitale importante, ca
-plopul, ca bumbacul (Gossypium), prezintă și ele o formație cu aspect de bumbac
-puternică, bătătoare la ochi. Explicația acestui fenomen încă nu s-a găsit.
-Cea mai eficace, așa cum scrie și Maria Treben, este prepararea ceaiului. Acest
-mod de preparare aromat, apos dă puterilor tămăduitoare și direcția specială către partea
-de jos a omului cu aparatul său urinar.
-Și, ceea ce este cel. mai. important, pufulița ajută! Multe mulțumiri redescoperitoarei
-acestei plante medicinale din farmacia Domnului, până acum neglijate."
+Demn de remarcat este fenomenul ca anumite plante urogenitale importante, ca
+plopul, ca bumbacul (Gossypium), prezinta si ele o formatie cu aspect de bumbac
+puternica, batatoare la ochi. Explicatia acestui fenomen inca nu s-a gasit.
+Cea mai eficace, asa cum scrie si Maria Treben, este prepararea ceaiului. Acest
+mod de preparare aromat, apos da puterilor tamaduitoare si directia speciala catre partea
+de jos a omului cu aparatul sau urinar.
+Si, ceea ce este cel. mai. important, pufulita ajuta! Multe multumiri redescoperitoarei
+acestei plante medicinale din farmacia Domnului, pana acum neglijate."
 ### ROSTOPASCA
 
 ROSTOPASCA (Chelidonium majus)
-Alte denumiri sunt: ai-de-pădure, buruiană-de-cele-sfinte, bu-
-ruiană-de-pecingine, buruiene-sfinte, calce-mare, crucea-voinicu-lui,
-gălbinele, iarbă-de-negi, iarba-rîndunicii, lăptiugă, negelariță,
-oiască, paparună, sălățea, scânteiță, tătărcele. Dacă ne gândim la
-faptul că rostopasca se întâlnește adesea în vechile cărți despre
-plante medicinale sub numele de „buruiană-de-cele-sfinte" sau
+Alte denumiri sunt: ai-de-padure, buruiana-de-cele-sfinte, bu-
+ruiana-de-pecingine, buruiene-sfinte, calce-mare, crucea-voinicu-lui,
+galbinele, iarba-de-negi, iarba-rindunicii, laptiuga, negelarita,
+oiasca, paparuna, salatea, scanteita, tatarcele. Daca ne gandim la
+faptul ca rostopasca se intalneste adesea in vechile carti despre
+plante medicinale sub numele de „buruiana-de-cele-sfinte" sau
 „buruiene-sfinte", ne putem imagina de ce prestigiu se bucura
-odinioară în popor această plantă medicinală considerată astăzi
-adesea drept o buruiană otrăvitoare. Aversiunea epocii noastre
-moderne față de rostopasca mi-o pot explica doar prin faptul că la
-începutul industriei medicamentelor au fost condamnate și re -
-negate cu hotărâre toate plantele medicinale valoroase, pentru a
-îndepărta poporul de plantele de leac și a-l îndrepta spre lea curile
-pe bază chimică.
-Rostopasca se dezvoltă ramificat, atingând o înălțime între 30-80
-centimetri. Ea înflorește, începând din luna mai, pe tot parcursul verii
-și până în toamnă. Frunzele sale sunt zimțate și se aseamănă cu cele de stejar. Din tulpină
-și rizom izvorăște o sevă galben-portocalie și destul de vâscoasă. Rostopasca preferă
-vecinătatea zidurilor, a gardurilor, a grohotișurilor de pantă, pre-cum și livezile sudice.
-Oricât ar fi vara de secetoasă și marginile de sud ale pădurilor de uscate, din plantă tot va
-curge sucul gros, galben-pbrtocaliu, în cantități suficiente. Dar
+odinioara in popor aceasta planta medicinala considerata astazi
+adesea drept o buruiana otravitoare. Aversiunea epocii noastre
+moderne fata de rostopasca mi-o pot explica doar prin faptul ca la
+inceputul industriei medicamentelor au fost condamnate si re -
+negate cu hotarare toate plantele medicinale valoroase, pentru a
+indeparta poporul de plantele de leac si a-l indrepta spre lea curile
+pe baza chimica.
+Rostopasca se dezvolta ramificat, atingand o inaltime intre 30-80
+centimetri. Ea infloreste, incepand din luna mai, pe tot parcursul verii
+si pana in toamna. Frunzele sale sunt zimtate si se aseamana cu cele de stejar. Din tulpina
+si rizom izvoraste o seva galben-portocalie si destul de vascoasa. Rostopasca prefera
+vecinatatea zidurilor, a gardurilor, a grohotisurilor de panta, pre-cum si livezile sudice.
+Oricat ar fi vara de secetoasa si marginile de sud ale padurilor de uscate, din planta tot va
+curge sucul gros, galben-pbrtocaliu, in cantitati suficiente. Dar
 
-și în timpul iernii, când zăpada acoperă tot, putem găsi rostopasca dacă ne-am întipărit în
-minte locul unde crește.
-Planta aceasta este depurativă (deci curăță sângele) și hematopoetică (deci ajută la
-formarea sângelui). Eu aș recomanda-o, asociată cu urzicile și mlădițele de soc, în
-leucemie. Numai că trebuie să se bea minimum 2 litri pe zi din acest amestec de ceaiuri,
-pentru ca el să poată da rezultate bune.
-Rostopasca este un leac de încredere în bolile hepatice grave, dacă se folosește în
-formă homeopatică. Curățind atât sângele cât și ficatul, ea are o influență dintre cele mai
-bune și asupra metabolismului. Această plantă medicinală este folosită cu succes în
-afecțiunile biliare, renale si hepatice. Pusă în vin (30 grame de rostopasca împreună cu
-rădăcinile se lasă 1-2 ore în 1/2 litru de vin alb), înlătură foarte rapid icterul. Este indicată și
-în tratarea hemoroizilor care dau arsuri în zona anusului, în combaterea înțepăturilor și a
-senzației de „cuțite" în timpul urinării, ca și contra vâjâitului în urechi, în toate aceste
-cazuri se pot bea câte 2-3 cești cu ceai (care nu se prepară prin fierbere, ci doar prin
-Opărire) pe parcursul zilei, în înghițituri mici. Acesta este folosit extern contra bolilor de
-cancer la piele, contra bătăturilor, a verucilor (negilor) și a eczemelor care nu vor
-să se vindece. Cataracta și petele pe cornee dispar treptat. Sucul ajută chiar în cazul
-sângerări retinei și a dezlipirii de retină. Se ia o frunză de rostopasca, se spală, iar
-tulpina ei fragedă se zdrobește între degetul mare și degetul arătător umezite în prealabil.
-Zeama astfel obținută este unsă cu arătătorul, ținând ochii bine închiși, înspre coada
-ochiului. Deși nu este pusă direct în ochi, acțiunea ei se comunică totuși ochilor. Acest
-lucru se poate încerca pentru a trata cataracta, vederea slabă și în mod preventiv pentru
-ochii sănătoși dar suprasolicitați. Eu însămi îi resimt efectul binefăcător când trebuie
-adesea să stau până noaptea târziu ca să rezolv corespondența. Când sunt istovită, iau o
-frunză de rostopasca din grădină și îi aplic zeama către coada ochilor, în modul pe care l-
-am arătat mai sus. Am de fiecare dată senzația deosebit de agreabilă că mi s-ar fi tras un
-văl din fața ochilor, în medicina homeopatică se prepară din această plantă o tinctură din
-care se adminis trează, în cazul afecțiunilor menționate mai sus, de 2-3 ori zilnic câte 10-15
-picături în puțină apă.
-' Cu câțiva ani în urmă mi s-a povestit despre o femeie care avea pe pleoapa infe rioară
-dreaptă un abces roșu de mărimea buricului degetului cel mic. Oculistului la care s-a dus ca
-să-i "prescrie o rețetă pentru ochelari nu i-a plăcut ce-a văzut - avea abcesul deja de 7-8
-ani fără s-o fi supărat vreodată - și a trimis o probă la analiză. Era cancer de piele. Pentru
-tânăra femeie a fost - după cum vă puteți imagina - un șoc cumplit. Cum familia ei face
-parte din cercul nostru de cunoștințe, am putut să reco mand rostopasca. Era luna februarie
-și, din fericire, o iarnă blândă. Rostopasca trece bine peste iarnă și rămâne verde. Sfatul
-meu a fost să scoată planta din pământ cu rădăcină cu tot și s-o planteze într-un ghiveci,
-pentru a o avea la îndemnă. Femeia urma să-și tamponeze de 5-6 ori pe zi locul bolnav cu
-seva galben-portocalie. Cum abcesul era plasat pe pleoapă, i-am atras atenția că seva nu
-era nocivă pentru ochi. Am mai sfătuit-o să meargă o dată pe lună la tratament cu raze
-Rontgen, așa cum îi prescrisese medicul, deși aceste iradieri nu alungă tumorile maligne,
-ci se mai întâmplă să distrugă porțiuni de epidermă încă sănătoasă, ba adesea chiar și
-oasele. Scurt timp înainte de sărbătorile de Crăciun am trăit marea bucurie ca abcesul can -
-ceros să dispară. Femeia mi-a făcut o vizită și mi-a sărit de gât chiar de la ușă. Medicul
-oftalmolog la care fusese și înainte a întrebat-o mirat ce făcuse. La răspunsul ei: „Lunar la
-Linz pentru raze", doctorul a spus: „Dacă asta a reușit Rontgen-ul, e într-adevăr un
-miracol." Mi-a mai mărturisit că nu ar fi rezistat sufletește văzând fețele mâncate până la os
-ale celorlalte paciente pe care le întâlnea la raze, dacă nu aș fi înarmat-o eu cu atâta curaj,
-credință în Dumnezeu și încredere în sine.
+si in timpul iernii, cand zapada acopera tot, putem gasi rostopasca daca ne-am intiparit in
+minte locul unde creste.
+Planta aceasta este depurativa (deci curata sangele) si hematopoetica (deci ajuta la
+formarea sangelui). Eu as recomanda-o, asociata cu urzicile si mladitele de soc, in
+leucemie. Numai ca trebuie sa se bea minimum 2 litri pe zi din acest amestec de ceaiuri,
+pentru ca el sa poata da rezultate bune.
+Rostopasca este un leac de incredere in bolile hepatice grave, daca se foloseste in
+forma homeopatica. Curatind atat sangele cat si ficatul, ea are o influenta dintre cele mai
+bune si asupra metabolismului. Aceasta planta medicinala este folosita cu succes in
+afectiunile biliare, renale si hepatice. Pusa in vin (30 grame de rostopasca impreuna cu
+radacinile se lasa 1-2 ore in 1/2 litru de vin alb), inlatura foarte rapid icterul. Este indicata si
+in tratarea hemoroizilor care dau arsuri in zona anusului, in combaterea intepaturilor si a
+senzatiei de „cutite" in timpul urinarii, ca si contra vajaitului in urechi, in toate aceste
+cazuri se pot bea cate 2-3 cesti cu ceai (care nu se prepara prin fierbere, ci doar prin
+Oparire) pe parcursul zilei, in inghitituri mici. Acesta este folosit extern contra bolilor de
+cancer la piele, contra bataturilor, a verucilor (negilor) si a eczemelor care nu vor
+sa se vindece. Cataracta si petele pe cornee dispar treptat. Sucul ajuta chiar in cazul
+sangerari retinei si a dezlipirii de retina. Se ia o frunza de rostopasca, se spala, iar
+tulpina ei frageda se zdrobeste intre degetul mare si degetul aratator umezite in prealabil.
+Zeama astfel obtinuta este unsa cu aratatorul, tinand ochii bine inchisi, inspre coada
+ochiului. Desi nu este pusa direct in ochi, actiunea ei se comunica totusi ochilor. Acest
+lucru se poate incerca pentru a trata cataracta, vederea slaba si in mod preventiv pentru
+ochii sanatosi dar suprasolicitati. Eu insami ii resimt efectul binefacator cand trebuie
+adesea sa stau pana noaptea tarziu ca sa rezolv corespondenta. Cand sunt istovita, iau o
+frunza de rostopasca din gradina si ii aplic zeama catre coada ochilor, in modul pe care l-
+am aratat mai sus. Am de fiecare data senzatia deosebit de agreabila ca mi s-ar fi tras un
+val din fata ochilor, in medicina homeopatica se prepara din aceasta planta o tinctura din
+care se adminis treaza, in cazul afectiunilor mentionate mai sus, de 2-3 ori zilnic cate 10-15
+picaturi in putina apa.
+' Cu cativa ani in urma mi s-a povestit despre o femeie care avea pe pleoapa infe rioara
+dreapta un abces rosu de marimea buricului degetului cel mic. Oculistului la care s-a dus ca
+sa-i "prescrie o reteta pentru ochelari nu i-a placut ce-a vazut - avea abcesul deja de 7-8
+ani fara s-o fi suparat vreodata - si a trimis o proba la analiza. Era cancer de piele. Pentru
+tanara femeie a fost - dupa cum va puteti imagina - un soc cumplit. Cum familia ei face
+parte din cercul nostru de cunostinte, am putut sa reco mand rostopasca. Era luna februarie
+si, din fericire, o iarna blanda. Rostopasca trece bine peste iarna si ramane verde. Sfatul
+meu a fost sa scoata planta din pamant cu radacina cu tot si s-o planteze intr-un ghiveci,
+pentru a o avea la indemna. Femeia urma sa-si tamponeze de 5-6 ori pe zi locul bolnav cu
+seva galben-portocalie. Cum abcesul era plasat pe pleoapa, i-am atras atentia ca seva nu
+era nociva pentru ochi. Am mai sfatuit-o sa mearga o data pe luna la tratament cu raze
+Rontgen, asa cum ii prescrisese medicul, desi aceste iradieri nu alunga tumorile maligne,
+ci se mai intampla sa distruga portiuni de epiderma inca sanatoasa, ba adesea chiar si
+oasele. Scurt timp inainte de sarbatorile de Craciun am trait marea bucurie ca abcesul can -
+ceros sa dispara. Femeia mi-a facut o vizita si mi-a sarit de gat chiar de la usa. Medicul
+oftalmolog la care fusese si inainte a intrebat-o mirat ce facuse. La raspunsul ei: „Lunar la
+Linz pentru raze", doctorul a spus: „Daca asta a reusit Rontgen-ul, e intr-adevar un
+miracol." Mi-a mai marturisit ca nu ar fi rezistat sufleteste vazand fetele mancate pana la os
+ale celorlalte paciente pe care le intalnea la raze, daca nu as fi inarmat-o eu cu atata curaj,
+credinta in Dumnezeu si incredere in sine.
 
-Și acum rugămintea mea pe care o adresez tuturor celor care citesc aceste rânduri:
-Ajutați și dumneavoastră într-un caz similar și cruțați-i astfel pe semenii dum neavoastră de
-un sfârșit cumplit! în timpul nostru atât de poluat se îngrămădesc cazu rile în care din negi
-înroșiți și care încep deodată să crească se formează cancerul pielii.
-Firele de păr de pe obraz și creșterea excesivă a părului pe brațe și picioare la
-femei indică o tulburare renala. Locurile respective se ung cu suc de Vostopască, obținut cu
-ajutorul storcătorului electric (sucul se menține proaspăt în frigider maximum 1/2 an); este
-lăsat să acționeze câteva ore, apoi locul se spală cu un săpun emolient, iar pielea care s-a
-uscat puțin se tratează cu alifie de filimică, ulei de mușețel sau sunătoare (a se vedea
-„Moduri de folosire"), în afară de aceasta, trebuie făcute o cură de ceai de urzici - cel puțin
-3-4 cești pe zi -, precum și băi de șezut cu coada-calului pentru o irigare mai bună a rinichilor
-(a se citi și articolul despre „Coada-calu-lui").
-O cunoștință din zona orașului Mainz folosea în timpul plimbărilor sale zilnice seva de
-rostopască așa cum am arătat. Un câine lup destul de bătrân îi era însoțitor credin cios.
-Odată i-a dat în glumă și lui cu puțină sevă pe ochi, ceea ce se pare că i-ar fi făcut foarte
-bine câinelui, căci de-atunci se posta de fiecare dată rugător în fața stăpânului său, când
-acesta folosea rostopască.
-într-o parohie din Austria superioară în care am ținut o prelegere în luna noiembrie, am
-făcut cunoștință cu un paraclisier care purta ochelari. Când m-am întors în februarie la
-aceeași parohie, paraclisierul nu mai purta ochelari; după cum singur mi-a povestit, numai
-datorită faptului că din noiembrie mi-a urmat zilnic sfatul legat de cura cu zeamă de
-rostopască. În plus, acum vedea mult mai bine decât înainte cu ochelari. Fiind iarnă,
-trebuia să-și ia frunzele de rostopască de sub pătura de zăpadă. Menționez acest lucru
-numai pentru a sublinia că anumite plante medicinale pot fi găsite proas pete chiar și în
-anotimpul rece când mai orice vegetație pare a fi moartă.
+Si acum rugamintea mea pe care o adresez tuturor celor care citesc aceste randuri:
+Ajutati si dumneavoastra intr-un caz similar si crutati-i astfel pe semenii dum neavoastra de
+un sfarsit cumplit! in timpul nostru atat de poluat se ingramadesc cazu rile in care din negi
+inrositi si care incep deodata sa creasca se formeaza cancerul pielii.
+Firele de par de pe obraz si cresterea excesiva a parului pe brate si picioare la
+femei indica o tulburare renala. Locurile respective se ung cu suc de Vostopasca, obtinut cu
+ajutorul storcatorului electric (sucul se mentine proaspat in frigider maximum 1/2 an); este
+lasat sa actioneze cateva ore, apoi locul se spala cu un sapun emolient, iar pielea care s-a
+uscat putin se trateaza cu alifie de filimica, ulei de musetel sau sunatoare (a se vedea
+„Moduri de folosire"), in afara de aceasta, trebuie facute o cura de ceai de urzici - cel putin
+3-4 cesti pe zi -, precum si bai de sezut cu coada-calului pentru o irigare mai buna a rinichilor
+(a se citi si articolul despre „Coada-calu-lui").
+O cunostinta din zona orasului Mainz folosea in timpul plimbarilor sale zilnice seva de
+rostopasca asa cum am aratat. Un caine lup destul de batran ii era insotitor credin cios.
+Odata i-a dat in gluma si lui cu putina seva pe ochi, ceea ce se pare ca i-ar fi facut foarte
+bine cainelui, caci de-atunci se posta de fiecare data rugator in fata stapanului sau, cand
+acesta folosea rostopasca.
+intr-o parohie din Austria superioara in care am tinut o prelegere in luna noiembrie, am
+facut cunostinta cu un paraclisier care purta ochelari. Cand m-am intors in februarie la
+aceeasi parohie, paraclisierul nu mai purta ochelari; dupa cum singur mi-a povestit, numai
+datorita faptului ca din noiembrie mi-a urmat zilnic sfatul legat de cura cu zeama de
+rostopasca. In plus, acum vedea mult mai bine decat inainte cu ochelari. Fiind iarna,
+trebuia sa-si ia frunzele de rostopasca de sub patura de zapada. Mentionez acest lucru
+numai pentru a sublinia ca anumite plante medicinale pot fi gasite proas pete chiar si in
+anotimpul rece cand mai orice vegetatie pare a fi moarta.
 MODURI DE FOLOSIRE
-Infuzie: 1 linguriță rasă de plante la 1/4 litru de apă - se opărește doar.
-Suc proaspăt: Frunzele, tulpinile și florile se spală și se trec în stare umedă
-prin storcătorul electric (pentru folosirea externă). Tinctură: A se procura din
-farmacii, fiind un preparat homeopatic. Macerat de vin: Se toarnă 1/2 litru de vin alb
-peste 30 grame de rostopască
-cu rădăcini cu tot și se lasă să stea 1-2 ore, apoi se filtrează și se bea în
-înghițituri mici.
-### SALVIA, JALEȘUL
+Infuzie: 1 lingurita rasa de plante la 1/4 litru de apa - se opareste doar.
+Suc proaspat: Frunzele, tulpinile si florile se spala si se trec in stare umeda
+prin storcatorul electric (pentru folosirea externa). Tinctura: A se procura din
+farmacii, fiind un preparat homeopatic. Macerat de vin: Se toarna 1/2 litru de vin alb
+peste 30 grame de rostopasca
+cu radacini cu tot si se lasa sa stea 1-2 ore, apoi se filtreaza si se bea in
+inghitituri mici.
+### SALVIA, JALESUL
 
-SALVIA, JALEȘUL (Salvia officinalis)
-Câteva denumiri ale Salviei officinalis: cilvie, jale,
-jaleș, jaleș-bun, jaleș-de-grădină, salvie, salvie-de-
-grădină, șalet, șalvir, șerlai. Salvia, cunoscută ca o
-plantă din familia labiatelor, provine din Europa de sud
-și se cultivă la noi în grădini. Planta atinge o înălțime
+SALVIA, JALESUL (Salvia officinalis)
+Cateva denumiri ale Salviei officinalis: cilvie, jale,
+jales, jales-bun, jales-de-gradina, salvie, salvie-de-
+gradina, salet, salvir, serlai. Salvia, cunoscuta ca o
+planta din familia labiatelor, provine din Europa de sud
+si se cultiva la noi in gradini. Planta atinge o inaltime
 de 30-70 centimetri, florile ei violete sunt dispuse
-verticilat, deci în cerc, în jurul unei axe comune;
-frunzele sale opozite, alb-lânoase sclipesc argintiu și
-emană un par fum ușor amar, aromatic. Salvia-de-
-grădină trebuie să aibă partea ei de grădină într-un loc
-ferit, însorit. Pe parcursul iernii, eu o acopăr ușor cu
-crengi de molid, deoarece este deosebit de sensibilă
+verticilat, deci in cerc, in jurul unei axe comune;
+frunzele sale opozite, alb-lanoase sclipesc argintiu si
+emana un par fum usor amar, aromatic. Salvia-de-
+gradina trebuie sa aiba partea ei de gradina intr-un loc
+ferit, insorit. Pe parcursul iernii, eu o acopar usor cu
+crengi de molid, deoarece este deosebit de sensibila
 la ger.
-O altă subspecie, Salvia pratensis, cunoscută sub
-denumirile de buruiana-mâlcedului, coada-vacii,
+O alta subspecie, Salvia pratensis, cunoscuta sub
+denumirile de buruiana-malcedului, coada-vacii,
 
-gavăț, jale, jaleș, jaleș-sălbatic, jaleș-de-câmp, jaleș-
-de-pădure, salvie, sâlvie-de-câmpufi, salvie-sălbati-
-că, se găsește pe povârnișuri, pășuni și câmpii. De
-departe se văd strălucind florile-i albăstrui-violete care
-răspândesc o mireasmă plină de arome. De la această
+gavat, jale, jales, jales-salbatic, jales-de-camp, jales-
+de-padure, salvie, salvie-de-campufi, salvie-salbati-
+ca, se gaseste pe povarnisuri, pasuni si campii. De
+departe se vad stralucind florile-i albastrui-violete care
+raspandesc o mireasma plina de arome. De la aceasta
 specie se folosesc florile, de cele mai multe ori numai
-pentru gargară sau pentru fabricarea oțetului de
-salvie - 1 pumn plin de flori este lăsat la macerat în oțet
-natural - și acesta se întrebuințează ca frecție
-binefăcătoare în timpul unei boli mai lungi în care se
-stă la pat. Frunzele se colectează înaintea perioadei
-înfloririi, în mai și iunie, întrucât plantele dezvoltă în
-zilele însorite și uscate uleiuri eterice, frunzele sunt
-culese numai în soare, preferabil la ora amiezii și apoi
-sunt puse la umbră ca să se usuce.
-Mai curativă decât Salvia pratensis este însă Salvia officinalis, citată mai sus și de care
-mă voi ocupa în continuare pe larg. încă de pe vremea străbunilor noștri, salvia era o
-plantă medicinală deosebit de lăudată și prețuită. Un versuleț din jurul anului 1300 spunea:
-„De ce să moară omul, Când în
-grădină creste salvia?'
-Chiar și numele oglindește marea apreciere de care s-a bucurat această plantă de leac
-din partea oamenilor încă din timpuri îndepărtate. Denumirea de salvia derivă din cuvântul
-latinesc „salvare" (a vindeca, a însănătoși).
-Dintr-o frumoasă carte veche despre plante medicinale reiese cât de mult era stimată pe
-vremuri salvia: „Când Maica Domnului a trebuit să fugă cu copilul Isus în fața lui Irod, a
-rugat toate florile de câmp s-o ajute; dar nici una nu i-a oferit adăpost. Atunci s-a înclinat
-către salvie și iată, aici a găsit refugiu. Sub frunzele sale dese, ocrotitoare, s-a ascuns pe
-sine însăși și a adăpostit pruncul în fața aprozilor lui Irod. Aceștia au trecut pe lângă ei fără
-a-i vedea. După ce pericolul a fost depășit, Maica Domnului a ieșit din ascunzătoare și a
-vorbit afectuos salviei: «De azi înainte și până în vecii vecilor vei fi o floare preferată a
-oamenilor, îți dau putere să vindeci oamenii de orice boală; salvează-i de la moarte, cum ai
-făcut și cu mine»." De-atunci, salvia înflorește orișicând întru salvarea și ajutorarea
-oamenilor. - Când ai făcut ani de-a rândul experiențe cu plante medicinale și ai cerut
-adesea în clipe grele ocrotirea și ajutorul multiubitei Sfinte Fecioare, atunci simți din credință
-adâncă și încredere adevărată cum își întinde mâinile ocrotitoare peste plantele noastre
+pentru gargara sau pentru fabricarea otetului de
+salvie - 1 pumn plin de flori este lasat la macerat in otet
+natural - si acesta se intrebuinteaza ca frectie
+binefacatoare in timpul unei boli mai lungi in care se
+sta la pat. Frunzele se colecteaza inaintea perioadei
+infloririi, in mai si iunie, intrucat plantele dezvolta in
+zilele insorite si uscate uleiuri eterice, frunzele sunt
+culese numai in soare, preferabil la ora amiezii si apoi
+sunt puse la umbra ca sa se usuce.
+Mai curativa decat Salvia pratensis este insa Salvia officinalis, citata mai sus si de care
+ma voi ocupa in continuare pe larg. inca de pe vremea strabunilor nostri, salvia era o
+planta medicinala deosebit de laudata si pretuita. Un versulet din jurul anului 1300 spunea:
+„De ce sa moara omul, Cand in
+gradina creste salvia?'
+Chiar si numele oglindeste marea apreciere de care s-a bucurat aceasta planta de leac
+din partea oamenilor inca din timpuri indepartate. Denumirea de salvia deriva din cuvantul
+latinesc „salvare" (a vindeca, a insanatosi).
+Dintr-o frumoasa carte veche despre plante medicinale reiese cat de mult era stimata pe
+vremuri salvia: „Cand Maica Domnului a trebuit sa fuga cu copilul Isus in fata lui Irod, a
+rugat toate florile de camp s-o ajute; dar nici una nu i-a oferit adapost. Atunci s-a inclinat
+catre salvie si iata, aici a gasit refugiu. Sub frunzele sale dese, ocrotitoare, s-a ascuns pe
+sine insasi si a adapostit pruncul in fata aprozilor lui Irod. Acestia au trecut pe langa ei fara
+a-i vedea. Dupa ce pericolul a fost depasit, Maica Domnului a iesit din ascunzatoare si a
+vorbit afectuos salviei: «De azi inainte si pana in vecii vecilor vei fi o floare preferata a
+oamenilor, iti dau putere sa vindeci oamenii de orice boala; salveaza-i de la moarte, cum ai
+facut si cu mine»." De-atunci, salvia infloreste orisicand intru salvarea si ajutorarea
+oamenilor. - Cand ai facut ani de-a randul experiente cu plante medicinale si ai cerut
+adesea in clipe grele ocrotirea si ajutorul multiubitei Sfinte Fecioare, atunci simti din credinta
+adanca si incredere adevarata cum isi intinde mainile ocrotitoare peste plantele noastre
 medicinale.
-Ceaiul de salvie, băut mai des, fortifică întregul organism, ne ferește de atacuri de
-apoplexie și are un efect foarte favorabil asupra paraliziilor, în combaterea transpirației
-nocturne este singura plantă medicinală, în afara levănțicii, care vine oamenilor în ajutor;
-ea vindecă maladia care provoacă această transpirație în timpul nopții și îndepărtează prin
-puterile ei înviorătoare marea slăbiciune care însoțește boala. Mulți doctori au recunoscut
-proprietățile remarcabile ale salviei: ei o administrează în spasme, afecțiuni ale măduvei
-spinării, dereglări glandulare și tremurul membrelor (tremurăturile extremităților)
-cu cele mai bune rezultate, în afecțiunile menționate mai sus, se beau 2 cești pe
-parcursul zilei, înghițitură cu înghițitură. Ceaiul are un efect benefic și asupra ficatului
-bolnav, înlăturând balonările și toate indispozițiile legate de dereglările funcționării ficatului.
-Are acțiune depurativă, elimină mu-cozitățile prea abundente din aparatul respirator
-și stomac, stimulează pofta de
+Ceaiul de salvie, baut mai des, fortifica intregul organism, ne fereste de atacuri de
+apoplexie si are un efect foarte favorabil asupra paraliziilor, in combaterea transpiratiei
+nocturne este singura planta medicinala, in afara levanticii, care vine oamenilor in ajutor;
+ea vindeca maladia care provoaca aceasta transpiratie in timpul noptii si indeparteaza prin
+puterile ei invioratoare marea slabiciune care insoteste boala. Multi doctori au recunoscut
+proprietatile remarcabile ale salviei: ei o administreaza in spasme, afectiuni ale maduvei
+spinarii, dereglari glandulare si tremurul membrelor (tremuraturile extremitatilor)
+cu cele mai bune rezultate, in afectiunile mentionate mai sus, se beau 2 cesti pe
+parcursul zilei, inghititura cu inghititura. Ceaiul are un efect benefic si asupra ficatului
+bolnav, inlaturand balonarile si toate indispozitiile legate de dereglarile functionarii ficatului.
+Are actiune depurativa, elimina mu-cozitatile prea abundente din aparatul respirator
+si stomac, stimuleaza pofta de
 
-mâncare și combate tulburările Intestinale și diareea. - Pe înțepăturile de insecte
-se aplică frunze de salvie fărâmițate cât de mărunt.
-Ceaiul de salvie se recomandă extern în mod deosebit în amigdalite, boli de gât,
-abcese (focare de puroi) dentare, inflamații ale faringelui și cavității bucale. La
-mulți copii și adulți nu s-ar fi ajuns la operație de amigdale dacă s-ar fi intervenit la timp cu
-salvie. Dacă lipsesc amigdalele, care în calitatea lor de polițiști ai organismului opresc
-substanțele otrăvitoare și le prelucrează, acestea se îndreaptă direct către rinichi. O
-infuzie de salvie ajută și dinții care se mișcă, gingiile care sângerează, deșosările
-(retragerea gingiei), abcesele dentare. Se clătește gura, se face gargară sau se aplică
-tampoane de vată îmbibate în infuzie.
-Foarte important ar fi pentru oamenii slabi de nervi și femeile care suferă de afecțiuni
-ale organelor pelviene să facă din când în când câte o baie de șezut cu salvie (a se vedea
+mancare si combate tulburarile Intestinale si diareea. - Pe intepaturile de insecte
+se aplica frunze de salvie faramitate cat de marunt.
+Ceaiul de salvie se recomanda extern in mod deosebit in amigdalite, boli de gat,
+abcese (focare de puroi) dentare, inflamatii ale faringelui si cavitatii bucale. La
+multi copii si adulti nu s-ar fi ajuns la operatie de amigdale daca s-ar fi intervenit la timp cu
+salvie. Daca lipsesc amigdalele, care in calitatea lor de politisti ai organismului opresc
+substantele otravitoare si le prelucreaza, acestea se indreapta direct catre rinichi. O
+infuzie de salvie ajuta si dintii care se misca, gingiile care sangereaza, desosarile
+(retragerea gingiei), abcesele dentare. Se clateste gura, se face gargara sau se aplica
+tampoane de vata imbibate in infuzie.
+Foarte important ar fi pentru oamenii slabi de nervi si femeile care sufera de afectiuni
+ale organelor pelviene sa faca din cand in cand cate o baie de sezut cu salvie (a se vedea
 „Moduri de folosire").
-Pe lângă folosirea cu rezultate bune a salviei ca plantă medicinală, ea nu trebuie ui tată
-nici în calitatea sa de plantă aromatică (mirodenie) foarte gustoasă. Se întrebuințează în
-porții foarte mici, asemănător cimbrului, la mâncăruri grase, cum ar fi friptura de porc, de
-gâscă sau de curcan. Și vânatul devine mai gustos prin adaosul unei frunzulițe de salvie.
-în prepararea brânzeturilor amestecate cu verdețuri (cu miro denii) și a sosurilor
-condimentate ar trebui să ne gândim la salvie măcar din motive de sănătate, în anumite
-zone se coc „prăjituri și cozonaci de salvie". La cocă se adaugă frunze de salvie tăiate
+Pe langa folosirea cu rezultate bune a salviei ca planta medicinala, ea nu trebuie ui tata
+nici in calitatea sa de planta aromatica (mirodenie) foarte gustoasa. Se intrebuinteaza in
+portii foarte mici, asemanator cimbrului, la mancaruri grase, cum ar fi friptura de porc, de
+gasca sau de curcan. Si vanatul devine mai gustos prin adaosul unei frunzulite de salvie.
+in prepararea branzeturilor amestecate cu verdeturi (cu miro denii) si a sosurilor
+condimentate ar trebui sa ne gandim la salvie macar din motive de sanatate, in anumite
+zone se coc „prajituri si cozonaci de salvie". La coca se adauga frunze de salvie taiate
 foarte fin, asemenea anasonului.
 MODURI DE FOLOSIRE
-Infuzie: Se opărește 1 linguriță de plante cu 1/4 litru de apă și se lasă să stea puțin.
-Oțet de salvie: Se umple o sticlă până la gât (fără a o îndesa) cu flori de salvie- de-
-câmpuri (jale), se toarnă deasupra oțet natural în așa fel încât să acopere
-florile și se lasă sticla să stea 14 zile la soare sau la căldură.
-Băi de șezut: Se pun de 2 ori 2 mâini pline cu frunze peste noapte în apă rece la
-macerat. A doua zi, totul se încălzește până dă în clocot, iar extractul încălzit
-se adaugă la apa de baie (a se vedea și „Băi de șezut" la „Partea generală").
-### SPLINUȚA
+Infuzie: Se opareste 1 lingurita de plante cu 1/4 litru de apa si se lasa sa stea putin.
+Otet de salvie: Se umple o sticla pana la gat (fara a o indesa) cu flori de salvie- de-
+campuri (jale), se toarna deasupra otet natural in asa fel incat sa acopere
+florile si se lasa sticla sa stea 14 zile la soare sau la caldura.
+Bai de sezut: Se pun de 2 ori 2 maini pline cu frunze peste noapte in apa rece la
+macerat. A doua zi, totul se incalzeste pana da in clocot, iar extractul incalzit
+se adauga la apa de baie (a se vedea si „Bai de sezut" la „Partea generala").
+### SPLINUTA
 
-SPLINUȚA (Solidago virga-aurea)
-Este numită în limbaj popular și floare-boierească, floare-buiacă, mănunchi,
-smeoaică, splinariță, vargă-de-aur. Această plantă medicinală se găsește la margini de
-păduri, în șanțuri cu apă, pe povârnișuri și locuri defrișate de pădure. Tulpina, stufoasă,
-presărată cu lujeri cu flori galben-aurii', ajunge la o înălțime de cca. 80 centimetri. Florile
-se pot aduna din iulie până în octombrie. Se utilizează în bolile și hemoragiile intestinale.
-Splinuța este apreciată însă cu predilecție ca plantă de leac împotriva bolilor renale.
-Florile și frunzele creează o senzație răcoritoare și întrucât planta deshidratează, ea
-este recomandată în afecțiunile renale si vezicale Marele medic naturist, preotul Kunzle,
-istorisește în scrierile sale despre un bărbat de 45 de ani care suferea de boală grea de
-rinichi ce se tot agrava. In cele din urmă a trebuit să-i fie scos un rinichi. Și celălalt rinichi
-avea puroi și nu mai putea funcționa normal. Atunci omul s-a pus pe o cură cu splinuță. A
-amestecat splinuță, drăgaică (sânziene) și urzică-moartă-galbenă în
+SPLINUTA (Solidago virga-aurea)
+Este numita in limbaj popular si floare-boiereasca, floare-buiaca, manunchi,
+smeoaica, splinarita, varga-de-aur. Aceasta planta medicinala se gaseste la margini de
+paduri, in santuri cu apa, pe povarnisuri si locuri defrisate de padure. Tulpina, stufoasa,
+presarata cu lujeri cu flori galben-aurii', ajunge la o inaltime de cca. 80 centimetri. Florile
+se pot aduna din iulie pana in octombrie. Se utilizeaza in bolile si hemoragiile intestinale.
+Splinuta este apreciata insa cu predilectie ca planta de leac impotriva bolilor renale.
+Florile si frunzele creeaza o senzatie racoritoare si intrucat planta deshidrateaza, ea
+este recomandata in afectiunile renale si vezicale Marele medic naturist, preotul Kunzle,
+istoriseste in scrierile sale despre un barbat de 45 de ani care suferea de boala grea de
+rinichi ce se tot agrava. In cele din urma a trebuit sa-i fie scos un rinichi. Si celalalt rinichi
+avea puroi si nu mai putea functiona normal. Atunci omul s-a pus pe o cura cu splinuta. A
+amestecat splinuta, dragaica (sanziene) si urzica-moarta-galbena in
 
-părți egale, și-a pregătit din ele un ceai și a băut 3-4 cești în timpul
-zilei, în înghițituri mici, drept care boala i-a trecut com plet, după
-cum singur a declarat, în 14 zile.
-Splinuța are efect împreună cu drăgaica și urzica-moartă-
-galbenă sau albă chiar și în scleroza renala, în irigarea renală și
-la racordarea la rinichiul artificial, în toate cele trei cazuri am
-putut obține succese prin tratamentul fitoterapeutic indicat. Astfel,
-un bărbat în vârstă de 52 de ani, considerat de doctori a avea
-scleroză renală incurabilă și pensionat de boală, a venit gâfâind și
-asudând la mine, după ce a urcat scara până la etajul întâi și s-a
-trântit insuflând din greu - într-un fotoliu. După numai o săptămână
-în care a băut zilnic câte 3 cești din amestecul de ceaiuri
-menționat, i-a mers deja vizibil mai bine. Folosea însă toate
-plantele proaspete, din natură. După a treia săptămână nu-l mai
-supăra nimic.
-Toate încordările nervoase de pe urma diverselor stări
-sufletești ale omului se descarcă prin rinichi. De aceea, după un
-șoc de ordin afectiv, fie moartea subită a cuiva apropiat și drag,
-fie orice altă nenorocire, se știe că rinichiul este cel care suferă
-mai mult. Splinuța se dovedește a fi o plantă medicinală care
-influențează cât se poate de pozitiv viața afectivă. Ca atare, ceaiul de splinuță ar trebui
-consumat neapărat în cazul unor decepții și al altor stări sufletești stresante. îngerul
-păzitor al plantelor medicinale se găsește în imediata apropiere a splinuței. Simțim efectul ei
-de echilibrare în stări emoționale grele, asemenea unei mâini care mângâie, consolează și
-calmează. Deja priveliștea silinței în mijlocul naturii acționează asupra noastră liniștitor. Ar
-trebui să fim recunoscători că știm în apropierea noastră o plantă care aduce atâta
-mângâiere.
+parti egale, si-a pregatit din ele un ceai si a baut 3-4 cesti in timpul
+zilei, in inghitituri mici, drept care boala i-a trecut com plet, dupa
+cum singur a declarat, in 14 zile.
+Splinuta are efect impreuna cu dragaica si urzica-moarta-
+galbena sau alba chiar si in scleroza renala, in irigarea renala si
+la racordarea la rinichiul artificial, in toate cele trei cazuri am
+putut obtine succese prin tratamentul fitoterapeutic indicat. Astfel,
+un barbat in varsta de 52 de ani, considerat de doctori a avea
+scleroza renala incurabila si pensionat de boala, a venit gafaind si
+asudand la mine, dupa ce a urcat scara pana la etajul intai si s-a
+trantit insufland din greu - intr-un fotoliu. Dupa numai o saptamana
+in care a baut zilnic cate 3 cesti din amestecul de ceaiuri
+mentionat, i-a mers deja vizibil mai bine. Folosea insa toate
+plantele proaspete, din natura. Dupa a treia saptamana nu-l mai
+supara nimic.
+Toate incordarile nervoase de pe urma diverselor stari
+sufletesti ale omului se descarca prin rinichi. De aceea, dupa un
+soc de ordin afectiv, fie moartea subita a cuiva apropiat si drag,
+fie orice alta nenorocire, se stie ca rinichiul este cel care sufera
+mai mult. Splinuta se dovedeste a fi o planta medicinala care
+influenteaza cat se poate de pozitiv viata afectiva. Ca atare, ceaiul de splinuta ar trebui
+consumat neaparat in cazul unor deceptii si al altor stari sufletesti stresante. ingerul
+pazitor al plantelor medicinale se gaseste in imediata apropiere a splinutei. Simtim efectul ei
+de echilibrare in stari emotionale grele, asemenea unei maini care mangaie, consoleaza si
+calmeaza. Deja privelistea silintei in mijlocul naturii actioneaza asupra noastra linistitor. Ar
+trebui sa fim recunoscatori ca stim in apropierea noastra o planta care aduce atata
+mangaiere.
 MOD DE FOLOSIRE
-Prepararea ceaiului: Se opărește 1 linguriță (cu vârf) de splinuță cu 1/4 litru de apă
-și se lasă să stea puțin. - Din amestecul de ceaiuri deja menționat se ia tot 1
-linguriță (cu vârf) și se pregătește ca mai sus.
+Prepararea ceaiului: Se opareste 1 lingurita (cu varf) de splinuta cu 1/4 litru de apa
+si se lasa sa stea putin. - Din amestecul de ceaiuri deja mentionat se ia tot 1
+lingurita (cu varf) si se pregateste ca mai sus.
 ### SUNATOAREA
 
 SUNATOAREA (Hypericum perforatum)
-Această plantă care înflorește la margine de drumuri și păduri, pe dealuri și câmpii, din
-iulie până în septembrie, se mai numește în limbaj popular si buruiană-de-năduf,
-buruiană-de-pe-rozor, crucea-voinicului, drobișor, floarea-lui-loan, hemei-de-pământ,
-lemnie, închegătoare, osul-iepurelui, pojar, pojarniță, sburătoare, sunaică, sovârvariță.
-Planta atinge o înălțime de 25-60 centimetri, are o tulpină lungă și ramificată și
-înflorește în cime galben-aurii. Pentru a o recunoaște sigur, zdrobiți o floare complet
-deschisă, va curge astfel din ea o sevă roșie. Planta înflorită este culeasă pentru a se
-pregăti din ea ceai și băi, în timp ce pentru uleiul de sunătoare se folosesc numai florile.
-Credința populară veche punea seva de culoarea sângelui și cu acțiune balsamică a
-florilor în legătură cu sângele și rănile Mântuitorului. într-adevăr, uleiul de sunătoare este cel
-mai bun ulei pentru răni căci are efect calmant, antiinflamator și cicatrizant. O legendă
-despre această plantă povestește: „Când apostolul preferat al Fiului Domnului
+Aceasta planta care infloreste la margine de drumuri si paduri, pe dealuri si campii, din
+iulie pana in septembrie, se mai numeste in limbaj popular si buruiana-de-naduf,
+buruiana-de-pe-rozor, crucea-voinicului, drobisor, floarea-lui-loan, hemei-de-pamant,
+lemnie, inchegatoare, osul-iepurelui, pojar, pojarnita, sburatoare, sunaica, sovarvarita.
+Planta atinge o inaltime de 25-60 centimetri, are o tulpina lunga si ramificata si
+infloreste in cime galben-aurii. Pentru a o recunoaste sigur, zdrobiti o floare complet
+deschisa, va curge astfel din ea o seva rosie. Planta inflorita este culeasa pentru a se
+pregati din ea ceai si bai, in timp ce pentru uleiul de sunatoare se folosesc numai florile.
+Credinta populara veche punea seva de culoarea sangelui si cu actiune balsamica a
+florilor in legatura cu sangele si ranile Mantuitorului. intr-adevar, uleiul de sunatoare este cel
+mai bun ulei pentru rani caci are efect calmant, antiinflamator si cicatrizant. O legenda
+despre aceasta planta povesteste: „Cand apostolul preferat al Fiului Domnului
 
-se afla sub cruce, mâhnit de moarte, a adunat cu grijă plantele
-stropite cu sângele sfânt, spre a le dărui ca amintire scumpă
-credincioșilor evlavios! la moartea Mântuitorului." Seva roșie a
-aromatei plante lasă tainic impresia că în sub stanța purpurie a
-florilor galben-aurii ar trăi ascuns un strop din sângele
-Mântuitorului nostru.
-în zi de Sânziene, simbolul forțelor sfinte ale luminii și
-căldurii, sunătoarea strălucește în toată splendoarea ei florală
-unică. Pe vremuri, fetele împleteau din ea coronițe, iar cine
-dansa în jurul focului în noaptea de Sânziene trebuia să
-poarte o cununiță din sunătoare - coroana de Sânziene. în
-această noapte plină de mister, fecioarele presărau rămurele
-de sunătoare pe apă, spre a vedea din înflorirea florilor ofilite
-cum va fi la anul cu pețitorul lor.*
-în Austria superioară, țăranul punea, după un vechi
-obicei, planta între două felii de pâine și o dădea vitelor ca
-hrană, pentru ca animalele sale să fie cruțate de boli. Din
-păcate, această tradiție nu mai este urmată astăzi decât izolat, în anumite familii credin -
+se afla sub cruce, mahnit de moarte, a adunat cu grija plantele
+stropite cu sangele sfant, spre a le darui ca amintire scumpa
+credinciosilor evlavios! la moartea Mantuitorului." Seva rosie a
+aromatei plante lasa tainic impresia ca in sub stanta purpurie a
+florilor galben-aurii ar trai ascuns un strop din sangele
+Mantuitorului nostru.
+in zi de Sanziene, simbolul fortelor sfinte ale luminii si
+caldurii, sunatoarea straluceste in toata splendoarea ei florala
+unica. Pe vremuri, fetele impleteau din ea coronite, iar cine
+dansa in jurul focului in noaptea de Sanziene trebuia sa
+poarte o cununita din sunatoare - coroana de Sanziene. in
+aceasta noapte plina de mister, fecioarele presarau ramurele
+de sunatoare pe apa, spre a vedea din inflorirea florilor ofilite
+cum va fi la anul cu petitorul lor.*
+in Austria superioara, taranul punea, dupa un vechi
+obicei, planta intre doua felii de paine si o dadea vitelor ca
+hrana, pentru ca animalele sale sa fie crutate de boli. Din
+pacate, aceasta traditie nu mai este urmata astazi decat izolat, in anumite familii credin -
 cioase.
-Din cele spuse rezultă cât de apreciată a fost sunătoare încă din timpuri străvechi.
-Ceaiul de sunătoare se folosește în leziuni nervoase și boli nervoase de tot felul, în răni
-de pe urma unor lovituri și vătămări prin ridicat. El este însă și un leac excelent al
+Din cele spuse rezulta cat de apreciata a fost sunatoare inca din timpuri stravechi.
+Ceaiul de sunatoare se foloseste in leziuni nervoase si boli nervoase de tot felul, in rani
+de pe urma unor lovituri si vatamari prin ridicat. El este insa si un leac excelent al
 diareei.
-Nevralgia trigemenului poate fi și ea combătută cu sunătoare, dacă se beau zil nic 2-3
-cești cu ceai de sunătoare și se freacă (extern) cu ulei de sunătoare timp mai îndelungat
-locurile afectate. Ne putem face singuri o tinctură de sunătoare care are efect în boli de
-nervi, nevroze și astenie însoțită de insomnii. Tinctură este folosită, extern, ca frecție,
-iar intern, se iau o dată pe zi 10-15 picături într-o lingură cu apă.
-Tulburările de vorbire, somnul agitat, accesele de isterie, somnambulismul
-sunt vindecate cu ajutorul sunătoarei, la fel și incontinența urinară și depresiunile. Din
-practica mea am observat că în toate aceste boli, în afara întrebuințării interne a ceaiurilor,
-pot aduce un ajutor eficace și băile de șezut cu sunătoare (a se vedea „Moduri de folosire").
-Ele se fac o dată pe săptămână, fiind urmate de 6 băi de picioare în celelalte zile ale
-săptămânii. Această cură se recomandă în stările nervoase de orice fel.
-Fetele tinere, aflate la vârsta de creștere, ar trebui să bea pentru un timp câte 2 cești cu
-ceai de sunătoare zilnic; el sprijină dezvoltarea organelor genitale la femei și ajută la
-înlăturarea dereglărilor ciclului.
-Un leac natural foarte lăudat este uleiul de sunătoare. N-ar trebui să lipsească din nici o
-gospodărie. Poate fi preparat foarte ușor în casă (a se vedea „Moduri de folosire"), își
-menține puterea curativă timp de doi ani și este utilizat cu succes nu numai în îngrijirea
-rănilor deschise, a rănirilor proaspete, a hematoamelor, a inflamațiilor ganglionilor și
-a tenului aspru, ci este și un produs eficace de fricționare în cazul durerilor de spate, de
-lumbago, de sciatică și reumatism. Pentru a avea la îndemnă un leac casnic contra
-arsurilor și a opăririlor,' se țin florile în ulei de in. Acest ulei se folosește și la arsurile de
+Nevralgia trigemenului poate fi si ea combatuta cu sunatoare, daca se beau zil nic 2-3
+cesti cu ceai de sunatoare si se freaca (extern) cu ulei de sunatoare timp mai indelungat
+locurile afectate. Ne putem face singuri o tinctura de sunatoare care are efect in boli de
+nervi, nevroze si astenie insotita de insomnii. Tinctura este folosita, extern, ca frectie,
+iar intern, se iau o data pe zi 10-15 picaturi intr-o lingura cu apa.
+Tulburarile de vorbire, somnul agitat, accesele de isterie, somnambulismul
+sunt vindecate cu ajutorul sunatoarei, la fel si incontinenta urinara si depresiunile. Din
+practica mea am observat ca in toate aceste boli, in afara intrebuintarii interne a ceaiurilor,
+pot aduce un ajutor eficace si baile de sezut cu sunatoare (a se vedea „Moduri de folosire").
+Ele se fac o data pe saptamana, fiind urmate de 6 bai de picioare in celelalte zile ale
+saptamanii. Aceasta cura se recomanda in starile nervoase de orice fel.
+Fetele tinere, aflate la varsta de crestere, ar trebui sa bea pentru un timp cate 2 cesti cu
+ceai de sunatoare zilnic; el sprijina dezvoltarea organelor genitale la femei si ajuta la
+inlaturarea dereglarilor ciclului.
+Un leac natural foarte laudat este uleiul de sunatoare. N-ar trebui sa lipseasca din nici o
+gospodarie. Poate fi preparat foarte usor in casa (a se vedea „Moduri de folosire"), isi
+mentine puterea curativa timp de doi ani si este utilizat cu succes nu numai in ingrijirea
+ranilor deschise, a ranirilor proaspete, a hematoamelor, a inflamatiilor ganglionilor si
+a tenului aspru, ci este si un produs eficace de frictionare in cazul durerilor de spate, de
+lumbago, de sciatica si reumatism. Pentru a avea la indemna un leac casnic contra
+arsurilor si a oparirilor,' se tin florile in ulei de in. Acest ulei se foloseste si la arsurile de
 soare.
-Sugarii cu dureri de burtă (colici) se liniștesc dacă burtica le este masată cu ulei de
-sunătoare. - O țărancă pe care o cunosc vindecă toate rănile, chiar și pe cele ale
-animalelor ei de casă, cu acest ulei. Bărbatul său a fost odată rănit grav la mână de o
-unealtă. Compresele cu ulei de sunătoare au înlăturat curând toate durerile, iar rănile i
-în limba germană, sunătoarea se numește Johanniskraut, adică uplanta sânzienelor", iar ziua de Sânziene, Johannistag, A nu se face
-în limba română confuzie cu planta care poartă si denumirea de sânziene, care este drăgaică, adică Galium" (n. tr.).
+Sugarii cu dureri de burta (colici) se linistesc daca burtica le este masata cu ulei de
+sunatoare. - O taranca pe care o cunosc vindeca toate ranile, chiar si pe cele ale
+animalelor ei de casa, cu acest ulei. Barbatul sau a fost odata ranit grav la mana de o
+unealta. Compresele cu ulei de sunatoare au inlaturat curand toate durerile, iar ranile i
+in limba germana, sunatoarea se numeste Johanniskraut, adica uplanta sanzienelor", iar ziua de Sanziene, Johannistag, A nu se face
+in limba romana confuzie cu planta care poarta si denumirea de sanziene, care este dragaica, adica Galium" (n. tr.).
 
-s-au vindecat fără probleme. - Un alt țăran a tratat cu succes o rană externă gravă de la
-piciorul calului său cu ulei de sunătoare.
-Un doctor a constatat la o fetiță de 8 ani o inflamare a ganglionilor limfatici ab-
-dominali. De fiecare dată când frigul acționa asupra fetei, intern sau extern, ea avea dureri
-de burtă, în cele din urmă zilnic, în special dimineața. Mama ei a citit în broșură că uleiul de
-sunătoare poate fi folosit cu succes în inflamări ale ganglionilor. A început să frece burta
-copilului de fiecare dată când se vaită de dureri. In scurt timp, acestea i-au trecut.
+s-au vindecat fara probleme. - Un alt taran a tratat cu succes o rana externa grava de la
+piciorul calului sau cu ulei de sunatoare.
+Un doctor a constatat la o fetita de 8 ani o inflamare a ganglionilor limfatici ab-
+dominali. De fiecare data cand frigul actiona asupra fetei, intern sau extern, ea avea dureri
+de burta, in cele din urma zilnic, in special dimineata. Mama ei a citit in brosura ca uleiul de
+sunatoare poate fi folosit cu succes in inflamari ale ganglionilor. A inceput sa frece burta
+copilului de fiecare data cand se vaita de dureri. In scurt timp, acestea i-au trecut.
 MODURI DE FOLOSIRE
-Prepararea ceaiului: Se opărește 1 linguriță (cu vârf) de plante cu 1/4 litru de apă și
-se lasă puțin să stea.
-Ulei de sunătoare: Florile culese pe vreme însorită se introduc într-o sticluță până
-la gât fără a se îndesa și se toarnă ulei fin de măsline peste ele. Uleiul trebuie
-să acopere florile. Sticla, bine astupată, se lasă câteva săptămâni în soare sau
-în apropierea mașinii de gătit. După câtva timp, uleiul capătă o culoare roșie.
-Se filtrează printr-o bucată de tifon, se storc bine resturile și uleiul de
-sunătoare se trage în sticle de culoare închisă, în cazul utilizării sale la arsuri,
-se poate recurge pentru macerare la ulei de in în loc de ulei de măsline.
-Tinctură de sunătoare: 2 mâini pline de flori culese în soare se pun într-un litru de
-rachiu și sticla se lasă 3 săptămâni la soare sau altă sursă de căldură.
-Băi de șezut: 1 găleată plină cu sunătoare (tulpină, frunze și flori) se lasă peste
-noapte în apă rece. înaintea băii, conținutul se dă în clocot și se adaugă la
-apa de baie. Durata băii - 20 minute (a se vedea „Băi de șezut" din „Partea
-generală").
+Prepararea ceaiului: Se opareste 1 lingurita (cu varf) de plante cu 1/4 litru de apa si
+se lasa putin sa stea.
+Ulei de sunatoare: Florile culese pe vreme insorita se introduc intr-o sticluta pana
+la gat fara a se indesa si se toarna ulei fin de masline peste ele. Uleiul trebuie
+sa acopere florile. Sticla, bine astupata, se lasa cateva saptamani in soare sau
+in apropierea masinii de gatit. Dupa catva timp, uleiul capata o culoare rosie.
+Se filtreaza printr-o bucata de tifon, se storc bine resturile si uleiul de
+sunatoare se trage in sticle de culoare inchisa, in cazul utilizarii sale la arsuri,
+se poate recurge pentru macerare la ulei de in in loc de ulei de masline.
+Tinctura de sunatoare: 2 maini pline de flori culese in soare se pun intr-un litru de
+rachiu si sticla se lasa 3 saptamani la soare sau alta sursa de caldura.
+Bai de sezut: 1 galeata plina cu sunatoare (tulpina, frunze si flori) se lasa peste
+noapte in apa rece. inaintea baii, continutul se da in clocot si se adauga la
+apa de baie. Durata baii - 20 minute (a se vedea „Bai de sezut" din „Partea
+generala").
 
 ### TATANEASA
 (Symphytum officinale)
-Este denumită în limbajul popular și barba-tatei, bo-
-racioc, iarbă-întăritoare, iarba-lui-Tatin/gavăț, iarba-tatii,
-larba-neagră, lutatină, nădai, ploșnițoasă,' rădăcină- neagră,
-tacin, tatană, zlac, iar în engleză comfrey. Această plantă de
+Este denumita in limbajul popular si barba-tatei, bo-
+racioc, iarba-intaritoare, iarba-lui-Tatin/gavat, iarba-tatii,
+larba-neagra, lutatina, nadai, plosnitoasa,' radacina- neagra,
+tacin, tatana, zlac, iar in engleza comfrey. Aceasta planta de
 leac este una dintre cele mai bune si indispensabile pe care ni
-le pune natura la dispoziție. Crește pe câmpii unde este
-umezeală, la margini de câmp, în șanțuri umede și de-a
-lungul apelor. O putem găsi și pe 'lingă garduri și pe
-grohotișuri de pantă, înflorind pe tot parcursul verii. Frunzele
-sunt aspre și foarte ascuțite la vârf. Rădăcina care trăiește
-mai mulți ani - în exterio r este maro închis pană la neagră, în
-interior albă pană la gălbuie -are grosimea degetului mare, iar
-dacă o desfaci este foarte cleioasă, unsuroasă și lipicioasă la
-pipăit. Fiind o plantă cu rădăcini adânci, tătăneasa nu prea
-poate fi dis trusă. Rădăcinile sale sunt smulse din pământ
-primăvara sau toamna. Li se poate veni de hac doar cu
-ajutorul unei cazmale ascuțite. Planta proaspătă este
-culeasă înainte și
+le pune natura la dispozitie. Creste pe campii unde este
+umezeala, la margini de camp, in santuri umede si de-a
+lungul apelor. O putem gasi si pe 'linga garduri si pe
+grohotisuri de panta, inflorind pe tot parcursul verii. Frunzele
+sunt aspre si foarte ascutite la varf. Radacina care traieste
+mai multi ani - in exterio r este maro inchis pana la neagra, in
+interior alba pana la galbuie -are grosimea degetului mare, iar
+daca o desfaci este foarte cleioasa, unsuroasa si lipicioasa la
+pipait. Fiind o planta cu radacini adanci, tataneasa nu prea
+poate fi dis trusa. Radacinile sale sunt smulse din pamant
+primavara sau toamna. Li se poate veni de hac doar cu
+ajutorul unei cazmale ascutite. Planta proaspata este
+culeasa inainte si
 
-în timpul perioadei de înflorire.
-Tinctura de tătăneasă, pe care v-o puteți face ușor singuri, ascunde în sine o forță
-minunată. Bolnavii care au fost tratați ani de zile împotriva reumatismului si a inflamațiilor
-articulare cu tot felul de leacuri excelente, fără a se vindeca, găsesc un ajutor rapid în
-tinctura de tătăneasă.
-O femeie care de-abia se mai putea servi de brațul drept (încheietura umărului era
-aproape înțepenită, iar medicul constatase deja o pareză) și-a frecat zilnic, la sfatul meu,
-încheietura și brațul drept cu această tinctura. Din zi în zi a simțit cum i se alină suferințele.
-Astăzi articulația are mobilitate normală și femeia se poate ocupa iar de gospodărie. Dar. și
-frunzele tătănesei, opărite și aplicate ca terci cald pe membrele paralizate, ajută peste
-noapte, atunci când maladia provine din surmenaj, luxație, entorsă sau apoplexie.
-Mătușa soțului meu a fost trântită jos pe stradă de un motociclist. S-a internat în spital
-cu fractură coxo-femurală. La operație i s-a băgat un cui și a fost trimisă acasă după ce s-a
-făcut bine. Cuiul trebuia scos peste un an. După ce s-au potolit durerile și a putut merge
-iarăși normal, a neglijat consultul medical prevăzut după scurgerea anului. Totul părea în
-perfectă ordine, pană ce s-a trezit într-o zi cu niște dureri in suportabile. Abia acum s-a dus
-să-și scoată cuiul și s-a constatat că se formase deja osteită (puroi la os). Deși injecțiile
-au calmat temporar durerile, supurația n-a trecut. în acest stadiu a venit la noi în vizită, fiind
-un munte de disperare. Pot spune, fără a exagera: Comprese calde cu terci din făină de
-tătăneasă au ajutat-o peste noapte. A doua zi, femeia putea deja să stea așezată sau
-întinsă, fără a avea dureri. Având în ve dere că în magazine nu se găseau decât rădăcini
-tăiate mărunt, mătușa a avut inspirația să le usuce în cuptor, după care le-a măcinat cu o
-râșniță veche de cafea. Și-a pus aceste comprese cu terci (a se vedea „Moduri de folosire")
-până ce locul n-a mai supărat-o.
-Și tumefierile la glezne și la încheieturile mâinilor se retrag cu ajutorul acestui
-terci. Aș vrea să atrag atenția în mod deosebit asupra faptului că aceste comprese pot
-aduce alinare chiar și în caz de paraplegie Compresele calde cu terci ajută și în ulcer
-varicos, în tumefieri reumatice ale mușchilor, în noduri de artrită, în umflături, în
-dureri în ceafă, în inflamații ale pielii piciorului și calmează durerile de după am-
-putări.
-Din rădăcini se poate pregăti și un ceai care este folosit intern în bronșite, afecțiuni
-ale aparatului digestiv, hemoragii stomacale și pleurezii. Se beau peste zi, înghițitură
-cu înghițitură, 2-4 cești. Pentru a combate ulcerul gastric se recomandă un amestec de
-plante pentru ceai: 100 grame de tătăneasă, 50 grame de filimică și 50 grame de troscot (a
+in timpul perioadei de inflorire.
+Tinctura de tataneasa, pe care v-o puteti face usor singuri, ascunde in sine o forta
+minunata. Bolnavii care au fost tratati ani de zile impotriva reumatismului si a inflamatiilor
+articulare cu tot felul de leacuri excelente, fara a se vindeca, gasesc un ajutor rapid in
+tinctura de tataneasa.
+O femeie care de-abia se mai putea servi de bratul drept (incheietura umarului era
+aproape intepenita, iar medicul constatase deja o pareza) si-a frecat zilnic, la sfatul meu,
+incheietura si bratul drept cu aceasta tinctura. Din zi in zi a simtit cum i se alina suferintele.
+Astazi articulatia are mobilitate normala si femeia se poate ocupa iar de gospodarie. Dar. si
+frunzele tatanesei, oparite si aplicate ca terci cald pe membrele paralizate, ajuta peste
+noapte, atunci cand maladia provine din surmenaj, luxatie, entorsa sau apoplexie.
+Matusa sotului meu a fost trantita jos pe strada de un motociclist. S-a internat in spital
+cu fractura coxo-femurala. La operatie i s-a bagat un cui si a fost trimisa acasa dupa ce s-a
+facut bine. Cuiul trebuia scos peste un an. Dupa ce s-au potolit durerile si a putut merge
+iarasi normal, a neglijat consultul medical prevazut dupa scurgerea anului. Totul parea in
+perfecta ordine, pana ce s-a trezit intr-o zi cu niste dureri in suportabile. Abia acum s-a dus
+sa-si scoata cuiul si s-a constatat ca se formase deja osteita (puroi la os). Desi injectiile
+au calmat temporar durerile, supuratia n-a trecut. in acest stadiu a venit la noi in vizita, fiind
+un munte de disperare. Pot spune, fara a exagera: Comprese calde cu terci din faina de
+tataneasa au ajutat-o peste noapte. A doua zi, femeia putea deja sa stea asezata sau
+intinsa, fara a avea dureri. Avand in ve dere ca in magazine nu se gaseau decat radacini
+taiate marunt, matusa a avut inspiratia sa le usuce in cuptor, dupa care le-a macinat cu o
+rasnita veche de cafea. Si-a pus aceste comprese cu terci (a se vedea „Moduri de folosire")
+pana ce locul n-a mai suparat-o.
+Si tumefierile la glezne si la incheieturile mainilor se retrag cu ajutorul acestui
+terci. As vrea sa atrag atentia in mod deosebit asupra faptului ca aceste comprese pot
+aduce alinare chiar si in caz de paraplegie Compresele calde cu terci ajuta si in ulcer
+varicos, in tumefieri reumatice ale muschilor, in noduri de artrita, in umflaturi, in
+dureri in ceafa, in inflamatii ale pielii piciorului si calmeaza durerile de dupa am-
+putari.
+Din radacini se poate pregati si un ceai care este folosit intern in bronsite, afectiuni
+ale aparatului digestiv, hemoragii stomacale si pleurezii. Se beau peste zi, inghititura
+cu inghititura, 2-4 cesti. Pentru a combate ulcerul gastric se recomanda un amestec de
+plante pentru ceai: 100 grame de tataneasa, 50 grame de filimica si 50 grame de troscot (a
 se vedea „Moduri de folosire").
-Încă o dată vreau să menționez tinctura de tătăneasă. Se utilizează cu cel mai bun
-rezultat sub formă de comprese la leziuni externe și interne, răniri de tot felul, contuzii,
-hematoame și fracturi.
-Frunzele tătănesei se întrebuințează nu numai pentru comprese, ci și ca adaos la băile
-complete în caz de dureri reumatice, artrită, dureri de oase, tulburări ale irigației
-sangvine și discopatie. Totuși, pentru tulburările irigației sangvine a picioarelor,
-pentru varice și pentru tratamentul suplimentar sau al fracturilor, se fac băi de șezut (în
-cadă) cu adaos de tătăneasă.
-În anumite zone geografice se moaie frunzele de tătăneasă în aluat de clătite, după
-care se coc, beneficiind în acest mod toată familia de substanțele active ale acestei
+Inca o data vreau sa mentionez tinctura de tataneasa. Se utilizeaza cu cel mai bun
+rezultat sub forma de comprese la leziuni externe si interne, raniri de tot felul, contuzii,
+hematoame si fracturi.
+Frunzele tatanesei se intrebuinteaza nu numai pentru comprese, ci si ca adaos la baile
+complete in caz de dureri reumatice, artrita, dureri de oase, tulburari ale irigatiei
+sangvine si discopatie. Totusi, pentru tulburarile irigatiei sangvine a picioarelor,
+pentru varice si pentru tratamentul suplimentar sau al fracturilor, se fac bai de sezut (in
+cada) cu adaos de tataneasa.
+In anumite zone geografice se moaie frunzele de tataneasa in aluat de clatite, dupa
+care se coc, beneficiind in acest mod toata familia de substantele active ale acestei
 minunate plante medicinale.
 
 MODURI DE FOLOSIRE
-Prepararea ceaiului de rădăcini: Se pun peste noapte la rece 2 lingurițe de
-rădăcini tăiate mărunt în 1/4 litru de apă, dimineața se încălzesc ușor și se
-strecoară. Se beau înghițitură cu înghițitură.
-Amestec de plante pentru ceai (la ulcere gastrice): Se folosește 1 linguriță
-(cu vârf) din amestecul respectiv la 1/4 litru de apă, se opărește și se lasă în
-repaos 3 minute. Se beau 3-4 cești pe parcursul zilei, calde, înghițitură cu
-înghițitură.
-Comprese cu terci: Rădăcinile bine uscate sunt măcinate fin, sunt amestecate
-repede într-o ceașcă cu apă foarte fierbinte și câteva picături de ulei ali mentar
-până se formează un terci, acesta se întinde pe o bucățică de pânză, se
-aplică local în stare caldă și se leagă.
-Comprese de frunze (proaspete): Frunzele proaspete se spală, se zdrobesc pe
-un fund de lemn cu un sucitor de tăiței, se pun pe locurile afectate și se leagă.
-Comprese de frunze (opărite): Frunzele de tătăneasă sunt opărite cu apă clo-
-cotită și sunt aplicate calde.
-Adaos la băile complete: 500 grame de frunze proaspete sau uscate de
-tătăneasă se lasă peste noapte la rece în cca. 5 litri de apă. A doua zi se
-pune totul la fiert, iar lichidul se adaugă în apa băii (a se vedea „Băi com -
-plete", la „Partea generală").
-Adaos la băile de șezut: La fel ca la băile complete, însă numai 200 grame de
+Prepararea ceaiului de radacini: Se pun peste noapte la rece 2 lingurite de
+radacini taiate marunt in 1/4 litru de apa, dimineata se incalzesc usor si se
+strecoara. Se beau inghititura cu inghititura.
+Amestec de plante pentru ceai (la ulcere gastrice): Se foloseste 1 lingurita
+(cu varf) din amestecul respectiv la 1/4 litru de apa, se opareste si se lasa in
+repaos 3 minute. Se beau 3-4 cesti pe parcursul zilei, calde, inghititura cu
+inghititura.
+Comprese cu terci: Radacinile bine uscate sunt macinate fin, sunt amestecate
+repede intr-o ceasca cu apa foarte fierbinte si cateva picaturi de ulei ali mentar
+pana se formeaza un terci, acesta se intinde pe o bucatica de panza, se
+aplica local in stare calda si se leaga.
+Comprese de frunze (proaspete): Frunzele proaspete se spala, se zdrobesc pe
+un fund de lemn cu un sucitor de taitei, se pun pe locurile afectate si se leaga.
+Comprese de frunze (oparite): Frunzele de tataneasa sunt oparite cu apa clo-
+cotita si sunt aplicate calde.
+Adaos la baile complete: 500 grame de frunze proaspete sau uscate de
+tataneasa se lasa peste noapte la rece in cca. 5 litri de apa. A doua zi se
+pune totul la fiert, iar lichidul se adauga in apa baii (a se vedea „Bai com -
+plete", la „Partea generala").
+Adaos la baile de sezut: La fel ca la baile complete, insa numai 200 grame de
 frunze.
-Tinctură de tătăneasă: Se spală rădăcinile de tătăneasă și se curăță cu o perie,
-se taie mărunt si se introduc într-o sticlă până la gat fără a se îndesa, se
-toarnă rachiu de secară sau de fructe și se lasă 14 zile la soare sau în
-apropierea mașinii de gătit. Rachiul trebuie să acopere rădăcinile.
-Alifie de tătăneasă: 4-6 rădăcini (în funcție de mărime) de tătăneasă proas pete și
-spălate sunt tăiate foarte fin, prăjite iute în cca. 250 grame de un tură curată
-din intestine de porc, lăsate să stea peste noapte, încălzite a doua zi, apoi
-filtrate și presate printr-o bucată de pânză. Se introduc ime diat în recipiente
-mici și curate și se păstrează la frigider. Pomăda poate fi întrebuințată în
-locul unei comprese cu terci. Este indispensabilă în tratarea rănilor la oameni
-și animale!
-Vin de tătăneasă: 2-5 rădăcini proaspete și spălate sunt tăiate fin și lăsate 5-6
-săptămâni într-un litru de vin alb natural. Un mijloc excelent în tratarea bolilor
-de plămâni!
+Tinctura de tataneasa: Se spala radacinile de tataneasa si se curata cu o perie,
+se taie marunt si se introduc intr-o sticla pana la gat fara a se indesa, se
+toarna rachiu de secara sau de fructe si se lasa 14 zile la soare sau in
+apropierea masinii de gatit. Rachiul trebuie sa acopere radacinile.
+Alifie de tataneasa: 4-6 radacini (in functie de marime) de tataneasa proas pete si
+spalate sunt taiate foarte fin, prajite iute in cca. 250 grame de un tura curata
+din intestine de porc, lasate sa stea peste noapte, incalzite a doua zi, apoi
+filtrate si presate printr-o bucata de panza. Se introduc ime diat in recipiente
+mici si curate si se pastreaza la frigider. Pomada poate fi intrebuintata in
+locul unei comprese cu terci. Este indispensabila in tratarea ranilor la oameni
+si animale!
+Vin de tataneasa: 2-5 radacini proaspete si spalate sunt taiate fin si lasate 5-6
+saptamani intr-un litru de vin alb natural. Un mijloc excelent in tratarea bolilor
+de plamani!
 ### TRAISTA-CIOBANULUI
 
 TRAISTA-CIOBANULUI (Capsella bursa-pastoris)
-Această plantă medicinală foarte valoroasă, care se întâlnește peste tot pe drumuri,
-câmpii, pământuri înțelenite, ogoare părăginite, șanțuri, povârnișuri, câmpuri și grădini de
-zarzavaturi, este considerată în general o buruiană incomodă. De-abia se adună undeva o
-movilă de pământ - mai ales când se construiesc case - și imediat apare, aproape peste
-noapte, traista-ciobanului. în limbajul popular i se mai zice și arior, bu- ruiană-de-friguri,
-coada-pisicii, păsatei, păscută, paștele-cailor, punga-babei, punga- popii, punguliță,
-rapăn, straița-popii sau tășculiță. Frunzele zimțate neregulat formează - asemănător
-păpădiei - o rozetă. Tulpina ajunge până la o înălțime de 40 centimetri.
+Aceasta planta medicinala foarte valoroasa, care se intalneste peste tot pe drumuri,
+campii, pamanturi intelenite, ogoare paraginite, santuri, povarnisuri, campuri si gradini de
+zarzavaturi, este considerata in general o buruiana incomoda. De-abia se aduna undeva o
+movila de pamant - mai ales cand se construiesc case - si imediat apare, aproape peste
+noapte, traista-ciobanului. in limbajul popular i se mai zice si arior, bu- ruiana-de-friguri,
+coada-pisicii, pasatei, pascuta, pastele-cailor, punga-babei, punga- popii, pungulita,
+rapan, straita-popii sau tasculita. Frunzele zimtate neregulat formeaza - asemanator
+papadiei - o rozeta. Tulpina ajunge pana la o inaltime de 40 centimetri.
 
-Perioada de înflorire: martie-noiembrie. Florile, foarte mici, de
-un alb murdar, sunt umbeliforme, alcătuind o inflorescență în
-formă de ciorchine; de tulpinițele subțiri atârnă micile păstăi
-(fruct capsulă) sub formă de inimioare și amintind la pipăit de
-pielea prelucrată. Orătăniile au o preferință specială pentru
-traista-ciobanului. Imediat ce zăpada se topește și vremea se
-încălzește, această plantă răsare proaspătă și verde.
-Ceaiul de traista-ciobanului, din care se consumă zilnic
-2-3 cești, se întrebuințează cu mare succes în toate tipurile de
-hemoragii, ca de exemplu în hemoragiile nazale,
-stomacale, intestinale și în metroragii (hemoragii
-uterine neregulate), în cazul rănilor sângerânde, la care
-sângele nu vrea să se oprească, infuzia de traista-ciobanu lui
+Perioada de inflorire: martie-noiembrie. Florile, foarte mici, de
+un alb murdar, sunt umbeliforme, alcatuind o inflorescenta in
+forma de ciorchine; de tulpinitele subtiri atarna micile pastai
+(fruct capsula) sub forma de inimioare si amintind la pipait de
+pielea prelucrata. Orataniile au o preferinta speciala pentru
+traista-ciobanului. Imediat ce zapada se topeste si vremea se
+incalzeste, aceasta planta rasare proaspata si verde.
+Ceaiul de traista-ciobanului, din care se consuma zilnic
+2-3 cesti, se intrebuinteaza cu mare succes in toate tipurile de
+hemoragii, ca de exemplu in hemoragiile nazale,
+stomacale, intestinale si in metroragii (hemoragii
+uterine neregulate), in cazul ranilor sangerande, la care
+sangele nu vrea sa se opreasca, infuzia de traista-ciobanu lui
 are un efect hemostatic uimitor.
-în cazul menstruațiilor abundente, se beau, timp de 8-
-10 zile înainte de venirea ciclului, zilnic cate 2 cești de ceai,
-folosind 1 linguriță (cu vârf) de traista-ciobanului la 1 ceașcă.
-Acest ceai servește și la reglarea ciclului pe par cursul
-pubertății. În timpul menopauzei, de asemenea, fiecare
-femeie ar trebui să bea 4 săptămâni de-a rândul câte 2 cești
-zilnic, să întrerupă apoi pentru 3 săptămâni și să repete
+in cazul menstruatiilor abundente, se beau, timp de 8-
+10 zile inainte de venirea ciclului, zilnic cate 2 cesti de ceai,
+folosind 1 lingurita (cu varf) de traista-ciobanului la 1 ceasca.
+Acest ceai serveste si la reglarea ciclului pe par cursul
+pubertatii. In timpul menopauzei, de asemenea, fiecare
+femeie ar trebui sa bea 4 saptamani de-a randul cate 2 cesti
+zilnic, sa intrerupa apoi pentru 3 saptamani si sa repete
 periodic acest tratament.
-Pentru hemoroizii care sângerează, se fac mici clisme intestinale, băi de șezut sau
-spălaturi cu infuzie călduță de traista-ciobanului. Mamele care au sinii umflați în timpul
-alăptatului ar trebui să-și încălzească la aburi (într-o sită) traista-ciobanului proaspătă, s-o
-pună între pânze și să și-o aplice local caldă, sub formă de comprese. Se reco mandă cu
-succes în cazul hemoragiilor renale 2 cești pe zi cu un amestec de ceaiuri din traista-
-ciobanului și coada-calului în părți egale.
-Traista-ciobanului este însă - asemănător vâscului - și o plantă medicinală care re-
-glează circulația sângelui, fiind indicată deci în mod deosebit atât la hipertensiune cât și la
-hipotensiuhe arterială. Spre deosebire de ceaiul de vâsc, care se face lăsându-se vâscul
-peste noapte în apă la rece, acest ceai se pregătește opărind traista-ciobanului. Se iau 2
-cești pe zi și se întrerupe consumul de ceai atunci când circulația s-a normali zat. Un efect
-curativ la fel de bun ca și vâscul îl are traista-ciobanului în hemoragiile menstruale. Și în
-acest caz, ceaiul se bea numai o perioadă de timp.
-Această plantă medicinală de mare valoare este de un real ajutor la toate bolile
-musculare externe. Este interesant că despre acest lucru nu s-a scris nimic în aproape nici
-o carte modernă de plante medicinale. Acum câțiva ani, un domn bătrân mi-a dăruit o carte
-veche de plante medicinale, cu gravuri și desene unice. Dar, așa cum se întâmplă când
-ziua ți-e plină de dimineață și până seara, n-am putut răsfoi cartea decât o dată. într-o
-noapte către ora douăsprezece, am sărit deodată din somn; mi s-a părut că aș fi fost
-trasă ușor de umeri. Brusc, mi-a trecut prin minte ideea: „Ai această carte de plante
-medicinale deja de o jumătate de an și încă nu te-ai ocupat serios de ea nici măcar o
-singură dată!" M-am trezit ca lumea din somn, m-am sculat din pat, am luat cartea și. m-
-am așezat mai comod în camera de zi. Am deschis-o și mi-au sărit imediat în ochi câteva
-rânduri: „Atunci când nimic nu mai ajută în atrofia musculară, luați următoarele: traista-
-ciobanului tăiată mărunt se lasă 10 zile cu rachiu de secară la soare sau în apropierea
-mașinii de gătit, se fricționează locurile respective de câteva ori pe zi, iar intern - 4 cești cu
-ceai de crețișoară." Ca și cum tot ce-mi doream ar fi fost să citesc aceste câteva rânduri -
-atunci nici nu mi-am dat seama de asta -, am închis cartea, am pus-o la loc, m-am băgat în
-pat și curând am adormit. Câteva zile mai târziu am fost sunată din Viena: „Mă puteți ajuta?
-Am 52 de ani, sunt de profesie asistentă
+Pentru hemoroizii care sangereaza, se fac mici clisme intestinale, bai de sezut sau
+spalaturi cu infuzie calduta de traista-ciobanului. Mamele care au sinii umflati in timpul
+alaptatului ar trebui sa-si incalzeasca la aburi (intr-o sita) traista-ciobanului proaspata, s-o
+puna intre panze si sa si-o aplice local calda, sub forma de comprese. Se reco manda cu
+succes in cazul hemoragiilor renale 2 cesti pe zi cu un amestec de ceaiuri din traista-
+ciobanului si coada-calului in parti egale.
+Traista-ciobanului este insa - asemanator vascului - si o planta medicinala care re-
+gleaza circulatia sangelui, fiind indicata deci in mod deosebit atat la hipertensiune cat si la
+hipotensiuhe arteriala. Spre deosebire de ceaiul de vasc, care se face lasandu-se vascul
+peste noapte in apa la rece, acest ceai se pregateste oparind traista-ciobanului. Se iau 2
+cesti pe zi si se intrerupe consumul de ceai atunci cand circulatia s-a normali zat. Un efect
+curativ la fel de bun ca si vascul il are traista-ciobanului in hemoragiile menstruale. Si in
+acest caz, ceaiul se bea numai o perioada de timp.
+Aceasta planta medicinala de mare valoare este de un real ajutor la toate bolile
+musculare externe. Este interesant ca despre acest lucru nu s-a scris nimic in aproape nici
+o carte moderna de plante medicinale. Acum cativa ani, un domn batran mi-a daruit o carte
+veche de plante medicinale, cu gravuri si desene unice. Dar, asa cum se intampla cand
+ziua ti-e plina de dimineata si pana seara, n-am putut rasfoi cartea decat o data. intr-o
+noapte catre ora douasprezece, am sarit deodata din somn; mi s-a parut ca as fi fost
+trasa usor de umeri. Brusc, mi-a trecut prin minte ideea: „Ai aceasta carte de plante
+medicinale deja de o jumatate de an si inca nu te-ai ocupat serios de ea nici macar o
+singura data!" M-am trezit ca lumea din somn, m-am sculat din pat, am luat cartea si. m-
+am asezat mai comod in camera de zi. Am deschis-o si mi-au sarit imediat in ochi cateva
+randuri: „Atunci cand nimic nu mai ajuta in atrofia musculara, luati urmatoarele: traista-
+ciobanului taiata marunt se lasa 10 zile cu rachiu de secara la soare sau in apropierea
+masinii de gatit, se frictioneaza locurile respective de cateva ori pe zi, iar intern - 4 cesti cu
+ceai de cretisoara." Ca si cum tot ce-mi doream ar fi fost sa citesc aceste cateva randuri -
+atunci nici nu mi-am dat seama de asta -, am inchis cartea, am pus-o la loc, m-am bagat in
+pat si curand am adormit. Cateva zile mai tarziu am fost sunata din Viena: „Ma puteti ajuta?
+Am 52 de ani, sunt de profesie asistenta
 
-medicală și sunt pensionată medical de doi ani. Sunt complet neajutorată din cauza atrofiei
-musculare!" l-am recomandat rețeta menționată, iar când a venit însănătoșită după trei
-săptămâni la mine la Grieskircheh, am aflat că la data la care fusesem trezită din somn în
-miez de noapte, ea făcuse un pelerinaj la Maica Domnului la San Damiano în Italia. La
-întoarcere, în autobuz, un domn, văzând-o atât de neputincioasă, a trimis-o la mine.
-Curând după aceea s-a simțit atât de refăcută și întărită, încât și-a putut relua serviciul.
+medicala si sunt pensionata medical de doi ani. Sunt complet neajutorata din cauza atrofiei
+musculare!" l-am recomandat reteta mentionata, iar cand a venit insanatosita dupa trei
+saptamani la mine la Grieskircheh, am aflat ca la data la care fusesem trezita din somn in
+miez de noapte, ea facuse un pelerinaj la Maica Domnului la San Damiano in Italia. La
+intoarcere, in autobuz, un domn, vazand-o atat de neputincioasa, a trimis-o la mine.
+Curand dupa aceea s-a simtit atat de refacuta si intarita, incat si-a putut relua serviciul.
 Un alt apel telefonic, de data aceasta din Steyr, Austria: „Am 62 de ani. Din cauza unei
-relaxări a sfincterului am făcut anul trecut un prolaps intestinal și am fost operată.
-In această toamnă treaba s-a repetat; dureri neîntrerupte, zi și noapte, întinzându-se de la
-buric spre ambele șolduri, ca și cum aș fi fost tăiată de un fierăstrău. Medicii din spital au
-respins ideea unei a doua operații, susținând că nu mai este nimic de făcut." M-am gândit
-pe loc ia traista-ciobanului cea trimisă de Dumnezeu, am sfătuit-o să ia zilnic câte 4 cești
-cu ceai de crețișoară, care întărește musculatura în interior, iar extern să se fricționeze cu
-tinctură de traista-ciobanului, din care să pună și în ceaiul de crețișoară de 3 ori câte 10
-picături. În răstimpul celor 10 zile necesare preparării tincturii de traista-ciobanului, am
-îndemnat-o să-și pună comprese cu ierburi suedeze. Mare mi-a fost uimirea când femeia
-mi-a telefonat după un timp că n-o mai jena nimic. Prolapsul intestinal se retrăsese
-complet, mușchii sfincterului funcționau iarăși normal, iar durerile chinuitoare din șolduri
-încetaseră chiar a doua zi după începutul tratamentului, întrucât la telefon îmi pierise, de
-uimire, glasul, femeia a venit la mine două zile mai târziu pentru a-și manifesta direct
+relaxari a sfincterului am facut anul trecut un prolaps intestinal si am fost operata.
+In aceasta toamna treaba s-a repetat; dureri neintrerupte, zi si noapte, intinzandu-se de la
+buric spre ambele solduri, ca si cum as fi fost taiata de un fierastrau. Medicii din spital au
+respins ideea unei a doua operatii, sustinand ca nu mai este nimic de facut." M-am gandit
+pe loc ia traista-ciobanului cea trimisa de Dumnezeu, am sfatuit-o sa ia zilnic cate 4 cesti
+cu ceai de cretisoara, care intareste musculatura in interior, iar extern sa se frictioneze cu
+tinctura de traista-ciobanului, din care sa puna si in ceaiul de cretisoara de 3 ori cate 10
+picaturi. In rastimpul celor 10 zile necesare prepararii tincturii de traista-ciobanului, am
+indemnat-o sa-si puna comprese cu ierburi suedeze. Mare mi-a fost uimirea cand femeia
+mi-a telefonat dupa un timp ca n-o mai jena nimic. Prolapsul intestinal se retrasese
+complet, muschii sfincterului functionau iarasi normal, iar durerile chinuitoare din solduri
+incetasera chiar a doua zi dupa inceputul tratamentului, intrucat la telefon imi pierise, de
+uimire, glasul, femeia a venit la mine doua zile mai tarziu pentru a-si manifesta direct
 bucuria.
-Nu se poate spune decât atât: Ce mult ajută plantele din farmacia Domnului! Cine face
-astfel de minuni? Este numai și numai îndurarea Creatorului!
-O femeie din Austria inferioară, din apropiere de Karlstein, scrie: „După o prelegere, v-
-am cerut sfatul în legătură cu o hernie inghinală. Aceasta era lungă de cca. 10
-centimetri, groasă și lată de 3-4 centimetri. Până ce traista-ciobanului a fost gata, am pus
-comprese cu ierburi suedeze. După aceea am început să ung locul, frecându-l cu tinctură
-de traista-ciobanului și am băut zilnic 4 cești cu ceai de crețișoară, timp de 6 săptămâni.
-Fiind agricultoare, nu mă puteam menaja - era vremea secerișului -, așa că am purtat la
-lucru un corset. După 12 zile de tratament nu se mai vedea nimic din hernie, însă tot mai
-aveam dureri. După 2 luni mi-au dispărut și ele. Hernia inghinală am putut s-o vindec fără
-operație."
-Răposatul medic-șef dr. Rohling, fost director al sanatoriului biologic din Mițten-wald de
-lângă Garmisch/Bavaria superioară, care mi-a făcut odată o vizită și a citit cu acea ocazie
-scrisoarea respectivă, a fost vizibil impresionat. Mi-a spus că herniile inghinale nu au putut
-fi vindecate până acum cu mijloace medicale decât prin operație.
-4 cești cu ceai de crețișoară (intern) și frecții cu tinctură de traista-ciobanului (extern)
-ajută și la histeroptoză (prolaps uterin). (Fricționarea trebuie să înceapă în acest caz de
-la vagin și să se continue peste pântece.) Subliniez în mod deosebit că această tinctură
-trebuie preparată din traista-ciobanului proaspătă, în boli musculare atât de grave nu ajută
-rapid și sigur decât plantele proaspete!
+Nu se poate spune decat atat: Ce mult ajuta plantele din farmacia Domnului! Cine face
+astfel de minuni? Este numai si numai indurarea Creatorului!
+O femeie din Austria inferioara, din apropiere de Karlstein, scrie: „Dupa o prelegere, v-
+am cerut sfatul in legatura cu o hernie inghinala. Aceasta era lunga de cca. 10
+centimetri, groasa si lata de 3-4 centimetri. Pana ce traista-ciobanului a fost gata, am pus
+comprese cu ierburi suedeze. Dupa aceea am inceput sa ung locul, frecandu-l cu tinctura
+de traista-ciobanului si am baut zilnic 4 cesti cu ceai de cretisoara, timp de 6 saptamani.
+Fiind agricultoare, nu ma puteam menaja - era vremea secerisului -, asa ca am purtat la
+lucru un corset. Dupa 12 zile de tratament nu se mai vedea nimic din hernie, insa tot mai
+aveam dureri. Dupa 2 luni mi-au disparut si ele. Hernia inghinala am putut s-o vindec fara
+operatie."
+Raposatul medic-sef dr. Rohling, fost director al sanatoriului biologic din Mitten-wald de
+langa Garmisch/Bavaria superioara, care mi-a facut odata o vizita si a citit cu acea ocazie
+scrisoarea respectiva, a fost vizibil impresionat. Mi-a spus ca herniile inghinale nu au putut
+fi vindecate pana acum cu mijloace medicale decat prin operatie.
+4 cesti cu ceai de cretisoara (intern) si frectii cu tinctura de traista-ciobanului (extern)
+ajuta si la histeroptoza (prolaps uterin). (Frictionarea trebuie sa inceapa in acest caz de
+la vagin si sa se continue peste pantece.) Subliniez in mod deosebit ca aceasta tinctura
+trebuie preparata din traista-ciobanului proaspata, in boli musculare atat de grave nu ajuta
+rapid si sigur decat plantele proaspete!
 MODURI DE FOLOSIRE
-Prepararea ceaiului: Se opărește 1 linguriță (cu vârf) de plante cu 1/4 litru de
-apă și se lasă să stea puțin. Băi de șezut: A se vedea „Băi
-de șezut" la „Partea generală".
+Prepararea ceaiului: Se opareste 1 lingurita (cu varf) de plante cu 1/4 litru de
+apa si se lasa sa stea putin. Bai de sezut: A se vedea „Bai
+de sezut" la „Partea generala".
 
-Comprese cu aburi: Se pun 2 mâini pline de traista-ciobanului, dacă se poate
-proaspătă, într-o sită care se ține peste abur. Planta muiată la abur se bagă
-într-o bucată de pânză care se aplică local sub formă de compresă.
-Tinctură de traista-ciobanului: Traista-ciobanului proaspătă, cu flori, frunze,
-tulpină și păstăi, se taie mărunt și se introduce într-o sticlă până la gat, se
-toarnă deasupra rachiu de secară sau de fructe de 38-40% (plantele să fie
-acoperite) și se lasă să stea 14 zile la soare sau la căldură.
+Comprese cu aburi: Se pun 2 maini pline de traista-ciobanului, daca se poate
+proaspata, intr-o sita care se tine peste abur. Planta muiata la abur se baga
+intr-o bucata de panza care se aplica local sub forma de compresa.
+Tinctura de traista-ciobanului: Traista-ciobanului proaspata, cu flori, frunze,
+tulpina si pastai, se taie marunt si se introduce intr-o sticla pana la gat, se
+toarna deasupra rachiu de secara sau de fructe de 38-40% (plantele sa fie
+acoperite) si se lasa sa stea 14 zile la soare sau la caldura.
 
-### TURIȚA-MARE
+### TURITA-MARE
 (Agrimonia eupatoria)
-Poartă și denumirile: asprișoară, boitoreană, buruiană-de-
-friguri, canipoală, coada-racului, cornățel, dumbravnică, lipici,
-mătcuță, scăișor, turiță. Prin turița-mare avem la dis poziție o
-plantă medicinală magnifică, numită în germană „regele
-tuturor plantelor". Ea crește în locuri însorite, us cate, pe
-margini de drumuri, câmpuri și păduri, pe povârnișuri, dealuri
-și pante, în luminișuri și printre ruine. Florile mici, galbene
-alcătuiesc, ca și la lumânărică, o inflorescență în formă de
-ciorchine lung. întreaga plantă este acoperită cu peri moi,
-frunzele mari pot atinge o lungime de 10 centimetri și sunt
-penate. Planta ajunge până la o înălțime de 80 centimetri și
-aparține aceleiași familii ca și crețișoara. Turița-mare este
-culeasă în timpul înfloririi, între lunile iunie și august. Istoria
-acestei plante medicinale datează, ca și la multe altele, din
-trecutul îndepărtat. Era cunoscută încă de pe vremea vechilor
-egipteni. Turița-mare posedă un puternic efect curativ pentru
+Poarta si denumirile: asprisoara, boitoreana, buruiana-de-
+friguri, canipoala, coada-racului, cornatel, dumbravnica, lipici,
+matcuta, scaisor, turita. Prin turita-mare avem la dis pozitie o
+planta medicinala magnifica, numita in germana „regele
+tuturor plantelor". Ea creste in locuri insorite, us cate, pe
+margini de drumuri, campuri si paduri, pe povarnisuri, dealuri
+si pante, in luminisuri si printre ruine. Florile mici, galbene
+alcatuiesc, ca si la lumanarica, o inflorescenta in forma de
+ciorchine lung. intreaga planta este acoperita cu peri moi,
+frunzele mari pot atinge o lungime de 10 centimetri si sunt
+penate. Planta ajunge pana la o inaltime de 80 centimetri si
+apartine aceleiasi familii ca si cretisoara. Turita-mare este
+culeasa in timpul infloririi, intre lunile iunie si august. Istoria
+acestei plante medicinale dateaza, ca si la multe altele, din
+trecutul indepartat. Era cunoscuta inca de pe vremea vechilor
+egipteni. Turita-mare poseda un puternic efect curativ pentru
 toate
-inflamațiile gâtului și ale gurii; deci la ea ar trebui să ne
-gândim în caz de anghina, faringită, stomatită ulceroasă
-sau alte inflamații ale mucoasei bucale. Oamenii care,
-datorită profesiunii, vorbesc sau cântă mult ar trebui să facă, preventiv, în fiecare zi
-gargară cu ceai de turiță-mare. Frunzele au un efect excelent în anemie, răni, reu-
-matism, lumbago, tulburări digestive, ciroză hepatică, în scăderea activității he-
-patice, precum si în bolile splenice (de splină). Se pot bea zilnic până la 2 cești cu
+inflamatiile gatului si ale gurii; deci la ea ar trebui sa ne
+gandim in caz de anghina, faringita, stomatita ulceroasa
+sau alte inflamatii ale mucoasei bucale. Oamenii care,
+datorita profesiunii, vorbesc sau canta mult ar trebui sa faca, preventiv, in fiecare zi
+gargara cu ceai de turita-mare. Frunzele au un efect excelent in anemie, rani, reu-
+matism, lumbago, tulburari digestive, ciroza hepatica, in scaderea activitatii he-
+patice, precum si in bolile splenice (de splina). Se pot bea zilnic pana la 2 cesti cu
 ceai.
-Fiecare ar trebui să-și dea osteneala să facă o dată sau de două ori pe an o baie cu
-adaos de infuzie de turiță-mare (a se vedea „Moduri de folosire"), iar copiii scrofuloși ar
-trebui să facă zilnic astfel de baie.
- Turița-mare este una dintre plantele noastre medicinale cele mai bune, datorită efectului
-său astringent și a componentelor curative. Dr. Schierbaum spune: „Câte 1 ceașcă cu ceai
-de 3 ori pe zi vindecă emfizemul pulmonar, cordul mărit, dilatarea stomacului și a
-intestinelor, apoi bolile renale și vezicale, dacă remediul este folosit un timp mai
-îndelungat." Alifia de turiță-mare se recomandă călduros în varice și ulcerațiile gambei
-(a se vedea „Moduri de folosire") și se întrebuințează asemănător alifiei de filimică. în
-bolile hepatice se folosește un amestec de ceaiuri de plante, astfel: 100 grame de turiță-
-mare, 100 grame de drăgaică și 100 grame de vinariță (numită și mama-pădurii). Se bea
-zilnic dimineața, pe stomacul gol, câte 1 ceașcă, iar în restul zilei se beau 2 cești, încetul
-cu încetul.
+Fiecare ar trebui sa-si dea osteneala sa faca o data sau de doua ori pe an o baie cu
+adaos de infuzie de turita-mare (a se vedea „Moduri de folosire"), iar copiii scrofulosi ar
+trebui sa faca zilnic astfel de baie.
+ Turita-mare este una dintre plantele noastre medicinale cele mai bune, datorita efectului
+sau astringent si a componentelor curative. Dr. Schierbaum spune: „Cate 1 ceasca cu ceai
+de 3 ori pe zi vindeca emfizemul pulmonar, cordul marit, dilatarea stomacului si a
+intestinelor, apoi bolile renale si vezicale, daca remediul este folosit un timp mai
+indelungat." Alifia de turita-mare se recomanda calduros in varice si ulceratiile gambei
+(a se vedea „Moduri de folosire") si se intrebuinteaza asemanator alifiei de filimica. in
+bolile hepatice se foloseste un amestec de ceaiuri de plante, astfel: 100 grame de turita-
+mare, 100 grame de dragaica si 100 grame de vinarita (numita si mama-padurii). Se bea
+zilnic dimineata, pe stomacul gol, cate 1 ceasca, iar in restul zilei se beau 2 cesti, incetul
+cu incetul.
 
 MODURI DE FOLOSIRE
-Prepararea ceaiului: Se folosește 1 linguriță de plante la 1/4 litru de apă, se
-opărește și se lasă să stea puțin. Baie de plante: 200 grame de plante pentru 1
-baie completă (a se vedea „Băi
-complete", din „Partea generală"). Amestec de ceaiuri contra bolilor hepatice:
-Tunța-mare, drăgaica și vinarița
-sunt amestecate în părți egale. Se folosește 1 linguriță (cu vârf) la 1/4 litru
-de apă, se opărește și se lasă să stea puțin. Prepararea alifiei: 2 mâini pline de
-frunze, flori și tulpini tăiate mărunt la 250
-grame de untură de porc (a se vedea „Prepararea alifiilor", la „Partea
-generală").
+Prepararea ceaiului: Se foloseste 1 lingurita de plante la 1/4 litru de apa, se
+opareste si se lasa sa stea putin. Baie de plante: 200 grame de plante pentru 1
+baie completa (a se vedea „Bai
+complete", din „Partea generala"). Amestec de ceaiuri contra bolilor hepatice:
+Tunta-mare, dragaica si vinarita
+sunt amestecate in parti egale. Se foloseste 1 lingurita (cu varf) la 1/4 litru
+de apa, se opareste si se lasa sa stea putin. Prepararea alifiei: 2 maini pline de
+frunze, flori si tulpini taiate marunt la 250
+grame de untura de porc (a se vedea „Prepararea alifiilor", la „Partea
+generala").
 
 ### URZICA
 
 URZICA (Urtica dioica)
-Un medic a arătat odată într-un discurs la radio că
-urzica - numită și urzică-creață, urzică-mare sau urzică-de-
-pădure - este una dintre cele mai bune plante de leac pe
-care le avem. Deci dacă oamenii ar ști ce efect tămăduitor
-are, n-ar mai cultiva decât urzici. Din păcate sunt foarte
-puțini cei care cunosc acest lucru.
-Urzica este curativă începând de la rădăcină,
-continuând cu tulpina și frunzele și terminând cu florile.
-încă din antichitate se bucura de multă apreciere.
-Albrecht Diirer (1471-1528) a pictat un înger care zboară
-către tronul Atotputernicului ținând urzica în mână. Preotul
-elvețian Kiinzle arată în scrierile sale că urzica ar fi fost
-distrusă de mult dacă nu s-ar fi autoapărat urzicând;
-insectele și alte animale ar fi făcut-o de mult să dispară.
-Am putut sfătui odată pe o mamă a șapte copii, care de
-la ultima naștere tot făcea eczeme, să bea ceai de urzici, în
-scurt timp acestea au dispărut, la fel și durerile de cap
-care o chinuiau și ele tot de-atunci încoace. Întrucât urzica
-ajută în cazuri de nisip la rinichi și în urina, iar eu am
-presupus că femeia ar avea după ultima naștere probleme
-cu rinichii, am sfătuit-o să bea acest ceai. Mână în mână cu
-bolile renale merg adesea durerile puternice de cap. în
-scurt timp au dispărut atât eczema cat și migrenele. Eczemele, având de cele mai multe ori
-o cauză internă, trebuie tratate din interior cu plante care curăță sângele.
-Urzica este cea mai bună plantă de leac depurativă și hematopoetică. Având și o
-influență pozitivă asupra pancreasului, ceaiul de urzici scade nivelul glicemiei (al zahărului
-din sânge). El vindecă și bolile și inflamațiile căilor urinare, precum și retenția urinară
-patologică. Având în același timp și efect ușor laxativ, este recomandabil mai cu seamă
-pentru o cură de primăvară.
-De când am aflat ce efect curativ au urzicile, mi-am creat un obicei din a face o cură de
-patru săptămâni cu ceai de urzici, primăvara din plantele tinere și toamna după otavă, când
-răsar iarăși fire tinere pretutindeni. Beau dimineața pe stomacul gol 1 ceașcă, 1/2 oră înainte
-de micul dejun și 1-2 cești pe parcursul zilei, înghițitură cu înghițitură. Și ceaiul dinaintea
-micului dejun trebuie băut în înghițituri mici, pentru a-i
+Un medic a aratat odata intr-un discurs la radio ca
+urzica - numita si urzica-creata, urzica-mare sau urzica-de-
+padure - este una dintre cele mai bune plante de leac pe
+care le avem. Deci daca oamenii ar sti ce efect tamaduitor
+are, n-ar mai cultiva decat urzici. Din pacate sunt foarte
+putini cei care cunosc acest lucru.
+Urzica este curativa incepand de la radacina,
+continuand cu tulpina si frunzele si terminand cu florile.
+inca din antichitate se bucura de multa apreciere.
+Albrecht Diirer (1471-1528) a pictat un inger care zboara
+catre tronul Atotputernicului tinand urzica in mana. Preotul
+elvetian Kiinzle arata in scrierile sale ca urzica ar fi fost
+distrusa de mult daca nu s-ar fi autoaparat urzicand;
+insectele si alte animale ar fi facut-o de mult sa dispara.
+Am putut sfatui odata pe o mama a sapte copii, care de
+la ultima nastere tot facea eczeme, sa bea ceai de urzici, in
+scurt timp acestea au disparut, la fel si durerile de cap
+care o chinuiau si ele tot de-atunci incoace. Intrucat urzica
+ajuta in cazuri de nisip la rinichi si in urina, iar eu am
+presupus ca femeia ar avea dupa ultima nastere probleme
+cu rinichii, am sfatuit-o sa bea acest ceai. Mana in mana cu
+bolile renale merg adesea durerile puternice de cap. in
+scurt timp au disparut atat eczema cat si migrenele. Eczemele, avand de cele mai multe ori
+o cauza interna, trebuie tratate din interior cu plante care curata sangele.
+Urzica este cea mai buna planta de leac depurativa si hematopoetica. Avand si o
+influenta pozitiva asupra pancreasului, ceaiul de urzici scade nivelul glicemiei (al zaharului
+din sange). El vindeca si bolile si inflamatiile cailor urinare, precum si retentia urinara
+patologica. Avand in acelasi timp si efect usor laxativ, este recomandabil mai cu seama
+pentru o cura de primavara.
+De cand am aflat ce efect curativ au urzicile, mi-am creat un obicei din a face o cura de
+patru saptamani cu ceai de urzici, primavara din plantele tinere si toamna dupa otava, cand
+rasar iarasi fire tinere pretutindeni. Beau dimineata pe stomacul gol 1 ceasca, 1/2 ora inainte
+de micul dejun si 1-2 cesti pe parcursul zilei, inghititura cu inghititura. Si ceaiul dinaintea
+micului dejun trebuie baut in inghitituri mici, pentru a-i
 
-mări efectul. După o astfel de cură de ceai mă simt extraordinar de bine și am de fiecare
-dată senzația că pot realiza de trei ori mai multe lucruri ca până atunci. Familia mea și cu
-mine n-avem nevoie de ani de zile de medicamente, iar eu mă simt plină de mobilitate și
-tinerețe. De altfel, ceaiul nu-i deloc rău la gust. Se bea fără zahăr. Cei sensibili pot însă
-adăuga ceva mușețel sau mentă pentru îmbunătățirea gustului, în medicina populară, cura
-cu ceaiul de urzici este propusă pe o durată de mai multe săptămâni în afecțiunile
-hepatice, biliare și splenice (chiar în cazul tumorii la splină), la secreții abundente ale
-stomacului și aparatului respirator, la crampele și ulcerele stomacale, la ulcerele
-intestinale și bolile de piept. Pentru a menține valoroasele substanțe active, ceaiul se
-prepară doar prin Opărire. Ca mijloc profilactic însă, se bea o singură ceașcă cu ceai de
-urzici zilnic, tot timpul anului. Este de mare ajutor și în viroze și infecții bacteriene.
-De la o anumita vârstă încolo se diminuează cantitatea de fier din organism. Apar de
-aceea stări de oboseală, chiar epuizare, omul se simte bătrân și cu mai puțină putere de
-muncă, în acest caz, urzica proaspătă, care conține fier, poate fi folosită cu mare succes.
-Ea ne ajută să depășim acest punct critic. După o cură de urzici ne simțim, relativ repede,
-mai bine din punct de vedere fizic, energia și puterea de muncă ne revin, renaștem și
-înflorim vizibil.
-O tânără femeie din Urfahr a venit odată la mine, anemică, bolnavă de stomac și
-veziculă biliară. Ca fenomen secundar permanent manifesta dureri puternice de cap. Am
-sfătuit-o să recurgă la ceaiul de urzici. După un timp am întâlnit-o din nou în mod
-întâmplător. Radiind de fericire, mi-a povestit ce repede o ajutase urzica. Întreaga ei familie
-s-a îndreptat de atunci spre această plantă medicinală.
-în hidropizii, urzica ajută prin extragerea puternică a apei din țesuturi și cavitățile
-naturale ale corpului. Datorită substanțelor sale active hematopoetice, este de folos și în
-cloroze, anemii și alte boli grave ale sângelui Asociată cu alte plante medicinale, urzica
-este folosită cu succes și contra leucemiei (a se vedea articolul despre „Leucemie", pag.
-118). Celor ce suferă de orice fel de alergie (și guturaiul de fân intră aici), le recomand să
-bea ceai de urzici o perioadă mai îndelungată.
-Urzica anihilează predispoziția la răceli și combate afecțiunile artritice și reu-
-matice. O doamnă din Eichstătt a stat timp de trei ani sub tratament medical, având
-sciatică si dureri puternice, în decursul a jumătate de an a scăpat de dureri, după ce a
-făcut 6 băi complete de urzici cu câte 200 grame de plante.
-Cu câtva timp în urmă am făcut cunoștință cu o femeie de circa 50 de ani care tre buia
-să poarte perucă din cauza părului foarte rar. l s-ar fi distrus astfel și ultimele rădăcini de
-păr. Am sfătuit-o să se spele pe cap cu infuzie de urzici proaspete și su plimentar cu infuzie
-din rădăcini de urzici. Mi-a urmat sfatul și s-a putut vedea pe săptămână ce trecea cum
-părul s-a regenerat, începând să crească și să se îndesească din nou. Foarte binefăcătoare
-pentru orice păr este tinctura de urzică, pe care ne-o putem face singuri din rădăcini de
-urzici scoase din pământ primăvara sau toamna (a se vedea la „Moduri de folosire":
-„Spălatul pe cap" și „Tinctura de urzică"). Eu însămi îmi masez zilnic pielea capului cu
-această tinctura, pe care o iau cu mine chiar și în ex cursii sau când călătoresc ca să țin
-prelegeri. Efectul este evident: pielea capului n-are măreață; părul este des și mătăsos, cu
+mari efectul. Dupa o astfel de cura de ceai ma simt extraordinar de bine si am de fiecare
+data senzatia ca pot realiza de trei ori mai multe lucruri ca pana atunci. Familia mea si cu
+mine n-avem nevoie de ani de zile de medicamente, iar eu ma simt plina de mobilitate si
+tinerete. De altfel, ceaiul nu-i deloc rau la gust. Se bea fara zahar. Cei sensibili pot insa
+adauga ceva musetel sau menta pentru imbunatatirea gustului, in medicina populara, cura
+cu ceaiul de urzici este propusa pe o durata de mai multe saptamani in afectiunile
+hepatice, biliare si splenice (chiar in cazul tumorii la splina), la secretii abundente ale
+stomacului si aparatului respirator, la crampele si ulcerele stomacale, la ulcerele
+intestinale si bolile de piept. Pentru a mentine valoroasele substante active, ceaiul se
+prepara doar prin Oparire. Ca mijloc profilactic insa, se bea o singura ceasca cu ceai de
+urzici zilnic, tot timpul anului. Este de mare ajutor si in viroze si infectii bacteriene.
+De la o anumita varsta incolo se diminueaza cantitatea de fier din organism. Apar de
+aceea stari de oboseala, chiar epuizare, omul se simte batran si cu mai putina putere de
+munca, in acest caz, urzica proaspata, care contine fier, poate fi folosita cu mare succes.
+Ea ne ajuta sa depasim acest punct critic. Dupa o cura de urzici ne simtim, relativ repede,
+mai bine din punct de vedere fizic, energia si puterea de munca ne revin, renastem si
+inflorim vizibil.
+O tanara femeie din Urfahr a venit odata la mine, anemica, bolnava de stomac si
+vezicula biliara. Ca fenomen secundar permanent manifesta dureri puternice de cap. Am
+sfatuit-o sa recurga la ceaiul de urzici. Dupa un timp am intalnit-o din nou in mod
+intamplator. Radiind de fericire, mi-a povestit ce repede o ajutase urzica. Intreaga ei familie
+s-a indreptat de atunci spre aceasta planta medicinala.
+in hidropizii, urzica ajuta prin extragerea puternica a apei din tesuturi si cavitatile
+naturale ale corpului. Datorita substantelor sale active hematopoetice, este de folos si in
+cloroze, anemii si alte boli grave ale sangelui Asociata cu alte plante medicinale, urzica
+este folosita cu succes si contra leucemiei (a se vedea articolul despre „Leucemie", pag.
+118). Celor ce sufera de orice fel de alergie (si guturaiul de fan intra aici), le recomand sa
+bea ceai de urzici o perioada mai indelungata.
+Urzica anihileaza predispozitia la raceli si combate afectiunile artritice si reu-
+matice. O doamna din Eichstatt a stat timp de trei ani sub tratament medical, avand
+sciatica si dureri puternice, in decursul a jumatate de an a scapat de dureri, dupa ce a
+facut 6 bai complete de urzici cu cate 200 grame de plante.
+Cu catva timp in urma am facut cunostinta cu o femeie de circa 50 de ani care tre buia
+sa poarte peruca din cauza parului foarte rar. l s-ar fi distrus astfel si ultimele radacini de
+par. Am sfatuit-o sa se spele pe cap cu infuzie de urzici proaspete si su plimentar cu infuzie
+din radacini de urzici. Mi-a urmat sfatul si s-a putut vedea pe saptamana ce trecea cum
+parul s-a regenerat, incepand sa creasca si sa se indeseasca din nou. Foarte binefacatoare
+pentru orice par este tinctura de urzica, pe care ne-o putem face singuri din radacini de
+urzici scoase din pamant primavara sau toamna (a se vedea la „Moduri de folosire":
+„Spalatul pe cap" si „Tinctura de urzica"). Eu insami imi masez zilnic pielea capului cu
+aceasta tinctura, pe care o iau cu mine chiar si in ex cursii sau cand calatoresc ca sa tin
+prelegeri. Efectul este evident: pielea capului n-are mareata; parul este des si matasos, cu
 un luciu frumos.
-Urzica ajută excelent și în arterită. Mulți oameni suferind de această boală ar putea să
-scape de o amputare de picior dacă ar face la timp băi de picioare cu rădăcini de urzici (a
+Urzica ajuta excelent si in arterita. Multi oameni suferind de aceasta boala ar putea sa
+scape de o amputare de picior daca ar face la timp bai de picioare cu radacini de urzici (a
 se vedea „Moduri de folosire").
-Orice spasm, indiferent de unde provine, induce tulburări ale irigației sangvine. în
-această situație se recomandă spălaturile și băile cu infuzie de urzici! Același lucru este
-valabil și în cazul special al stenozei mitrale. Se apleacă bustul deasupra căzii, se spală
-regiunea inimii cu infuzie călduță de urzici, masând ușor în același timp.
+Orice spasm, indiferent de unde provine, induce tulburari ale irigatiei sangvine. in
+aceasta situatie se recomanda spalaturile si baile cu infuzie de urzici! Acelasi lucru este
+valabil si in cazul special al stenozei mitrale. Se apleaca bustul deasupra cazii, se spala
+regiunea inimii cu infuzie calduta de urzici, masand usor in acelasi timp.
 
-O femeie din Bavaria în vârstă de 51 de ani a suferit timp de 28 de ani de pe urma unei
-fistule. Profesorul consultat a considerat o operație ca fiind problematică, întrucât fistula era
-plasată pe obraz, pe osul molar, în anul 1978, această femeie nefericită s-a adresat unui
-tămăduitor, care i-a arătat mai ales foarte multă înțelegere. l-a prescris alimentație
-vegetariană cu fructe și legume crude și gimnastică respiratorie. Starea ei a devenit mai
-suportabilă, fără a fi însă vorba de însănătoșire. În mai 1979, a început să adune primele
-urzici proaspete, bând zilnic 3 cești cu ceai amestecate de fiecare dată cu 1 linguriță de
-biter suedez. A scris: „După exact 14 zile, fistula mea din obraz se vindecase și nu mai
-aveam nici o durere. Și așa a rămas până azi" (28.11.1979).
-Aud tot mereu cu bucurie despre cât de mulți oameni au cunoscut și simțit asupra
-propriului lor organism puterea lecuitoare a urzicii. Astfel, mi-a scris de curând o femeie că
-luni de-a rândul a băut zilnic ceai de urzici. Nu numai că a scăpat de orice senzație de
-oboseală, de epuizare, în ciuda muncii grele de zi cu zi, dar i-a dispărut și o bătătură
-purulentă, care îi pricinuise niște dureri ce se întindeau până în coapsă, de care n-avusese
-însă timp să se îngrijească din cauza muncii excesiv de împovărătoare; la fel și o ciupercă
-la unghii, la a cărei îndepărtare prin operație nu se putea decide. Da, așa poate ajuta buna
-urzică depurativă și hematopoetică, pe care oricât aș recomanda-o, tot n-ar fi suficient. O
-altă femeie mi-a scris că urzica a vinde cato de o eczemă care o chinuise ani de zile. Astfel
-de scrisori sunt raze de lumină în viața mea. Ele-mi arată că ne putem baza pe bunele
+O femeie din Bavaria in varsta de 51 de ani a suferit timp de 28 de ani de pe urma unei
+fistule. Profesorul consultat a considerat o operatie ca fiind problematica, intrucat fistula era
+plasata pe obraz, pe osul molar, in anul 1978, aceasta femeie nefericita s-a adresat unui
+tamaduitor, care i-a aratat mai ales foarte multa intelegere. l-a prescris alimentatie
+vegetariana cu fructe si legume crude si gimnastica respiratorie. Starea ei a devenit mai
+suportabila, fara a fi insa vorba de insanatosire. In mai 1979, a inceput sa adune primele
+urzici proaspete, band zilnic 3 cesti cu ceai amestecate de fiecare data cu 1 lingurita de
+biter suedez. A scris: „Dupa exact 14 zile, fistula mea din obraz se vindecase si nu mai
+aveam nici o durere. Si asa a ramas pana azi" (28.11.1979).
+Aud tot mereu cu bucurie despre cat de multi oameni au cunoscut si simtit asupra
+propriului lor organism puterea lecuitoare a urzicii. Astfel, mi-a scris de curand o femeie ca
+luni de-a randul a baut zilnic ceai de urzici. Nu numai ca a scapat de orice senzatie de
+oboseala, de epuizare, in ciuda muncii grele de zi cu zi, dar i-a disparut si o batatura
+purulenta, care ii pricinuise niste dureri ce se intindeau pana in coapsa, de care n-avusese
+insa timp sa se ingrijeasca din cauza muncii excesiv de impovaratoare; la fel si o ciuperca
+la unghii, la a carei indepartare prin operatie nu se putea decide. Da, asa poate ajuta buna
+urzica depurativa si hematopoetica, pe care oricat as recomanda-o, tot n-ar fi suficient. O
+alta femeie mi-a scris ca urzica a vinde cato de o eczema care o chinuise ani de zile. Astfel
+de scrisori sunt raze de lumina in viata mea. Ele-mi arata ca ne putem baza pe bunele
 noastre plante de leac, oriunde le-am folosi.
-Odată a venit la mine, plângând, un bărbat mai vârstnic. Cu trei ani în urmă se
-îmbolnăvise de gripă. De atunci, urina sa era maro închis și suferea de niște dureri de cap
-insuportabile. Nu i-au folosit nici numeroasele medicamente administrate, nici in jecțiile (în
-ultimul timp în regiunea capului). Dimpotrivă, migrenele au devenit tot mai acute, încât omul
-era în pragul sinuciderii. l-am dat curaj, îndrumându-l spre urzicile proaspete. Urma să bea
-21/2 litri de ceai, repartizați pe parcursul întregii zile. După pa tru zile m-a anunțat telefonic
-că durerile de cap îi trecuseră total. Ceva mai târziu mi-a transmis printr-o femeie că se
-simte mai bine acum decât înaintea gripei. Folosiți și dumneavoastră urzicile proaspete,
-tinere, în special primăvara, și faceți cu ele o cura depurativă! Vă veți minuna de efectul lor
-binefăcător.
-O călugăriță din ordinul Elisabetinelor din Klagenfurt mi-a urmat, de asemenea,
-sfaturile și s-a mirat de rezultatul obținut. Pete, care nu voiau să se vindece, apărute în
-regiunea abdominală și lombară și însoțite de mâncărimi puternice, au dispărut în tim pul
-cel mai scurt, datorită ceaiului de urzici și a unei diete pentru ficat. Și la alt caz asemănător
+Odata a venit la mine, plangand, un barbat mai varstnic. Cu trei ani in urma se
+imbolnavise de gripa. De atunci, urina sa era maro inchis si suferea de niste dureri de cap
+insuportabile. Nu i-au folosit nici numeroasele medicamente administrate, nici in jectiile (in
+ultimul timp in regiunea capului). Dimpotriva, migrenele au devenit tot mai acute, incat omul
+era in pragul sinuciderii. l-am dat curaj, indrumandu-l spre urzicile proaspete. Urma sa bea
+21/2 litri de ceai, repartizati pe parcursul intregii zile. Dupa pa tru zile m-a anuntat telefonic
+ca durerile de cap ii trecusera total. Ceva mai tarziu mi-a transmis printr-o femeie ca se
+simte mai bine acum decat inaintea gripei. Folositi si dumneavoastra urzicile proaspete,
+tinere, in special primavara, si faceti cu ele o cura depurativa! Va veti minuna de efectul lor
+binefacator.
+O calugarita din ordinul Elisabetinelor din Klagenfurt mi-a urmat, de asemenea,
+sfaturile si s-a mirat de rezultatul obtinut. Pete, care nu voiau sa se vindece, aparute in
+regiunea abdominala si lombara si insotite de mancarimi puternice, au disparut in tim pul
+cel mai scurt, datorita ceaiului de urzici si a unei diete pentru ficat. Si la alt caz asemanator
 ajutase rapid ceaiul de urzici.
-Dintr-o scrisoare din Dellach în Kărnten aleg următoarele rânduri: „Vă mulțumesc din
-toată inima si Dumnezeu să vă aibă în pază pentru ajutorul inestimabil de care am avut
-parte datorită sfaturilor dumneavoastră. În decursul bolii mele care a durat 19 ani am fost
-internată prin toată Austria în multe clinici de neurologie. Nici un medic nu mi-a putut spune
-ce am de fapt, darmite să-mi fie de vreun folos. O săptămână întreagă am băut ceai de
-urzici și ca printr-o minune boala a trecut de parcă nici n-aș fi avut-o vreodată." Din faptele
-menționate reiese cât de repede ne pot ajuta plantele noastre medicinale. Este adevărat că
-aici nu este suficientă o ceașcă pe zi, ci, în bolile grave, trebuie să se bea minimum 2 litri în
-timpul zilei, în înghițituri mici.
-Un om de afaceri mi-a povestit că-și ia în excursii și călătorii de afaceri ceai de ur zici
-într-un termos, căci se încrede orbește în performanțele sale și în ajutorul său. Nu numai
-că-ți taie cel mai bine setea, dar te și înviorează și-ți alungă brice oboseală.
-încă indicație deosebită: în sciatici, lumbago, nevrite la brațe și picioare, se freacă
-f o a r t e u ș o r locurile dureroase cu o urzică proaspătă. La sciatică, de exemplu, se
-atinge foarte încet piciorul cu planta proaspătă, începând de la gleznă, pe partea
-exterioară până la șold, iar pornind de aici, de-a lungul părții interioare a
+Dintr-o scrisoare din Dellach in Karnten aleg urmatoarele randuri: „Va multumesc din
+toata inima si Dumnezeu sa va aiba in paza pentru ajutorul inestimabil de care am avut
+parte datorita sfaturilor dumneavoastra. In decursul bolii mele care a durat 19 ani am fost
+internata prin toata Austria in multe clinici de neurologie. Nici un medic nu mi-a putut spune
+ce am de fapt, darmite sa-mi fie de vreun folos. O saptamana intreaga am baut ceai de
+urzici si ca printr-o minune boala a trecut de parca nici n-as fi avut-o vreodata." Din faptele
+mentionate reiese cat de repede ne pot ajuta plantele noastre medicinale. Este adevarat ca
+aici nu este suficienta o ceasca pe zi, ci, in bolile grave, trebuie sa se bea minimum 2 litri in
+timpul zilei, in inghitituri mici.
+Un om de afaceri mi-a povestit ca-si ia in excursii si calatorii de afaceri ceai de ur zici
+intr-un termos, caci se increde orbeste in performantele sale si in ajutorul sau. Nu numai
+ca-ti taie cel mai bine setea, dar te si invioreaza si-ti alunga brice oboseala.
+inca indicatie deosebita: in sciatici, lumbago, nevrite la brate si picioare, se freaca
+f o a r t e u s o r locurile dureroase cu o urzica proaspata. La sciatica, de exemplu, se
+atinge foarte incet piciorul cu planta proaspata, incepand de la glezna, pe partea
+exterioara pana la sold, iar pornind de aici, de-a lungul partii interioare a
 
-piciorului până la călcâi. Acest lucru este repetat de 2 ori, iar în încheiere se trece urzica de
-la șold în jos peste șezut. Se procedează la fel și cu alte porțiuni afectate. La urmă se
-pudrează pielea pe locurile respective.
-Nu trebuie oare să mulțumim Domnului pentru îndurarea LUI de a ne fi dăruit o atât de
-miraculoasă plantă medicinală? în viața lor trăită rapid, oamenii trec pe lingă ea nepăsător,
-preferind să recurgă la calmante și sedative, care sunt luate excesiv. Dar adesea nu pot
-ajuta în mod real decât bunele noastre plante de leac, căzute din păcate în uitare.
-în final aș vrea să mai adaug o întâmplare care m-a impresionat în mod deosebit. În
-orășelul nostru am făcut cunoștință cu o bătrână care mi-a povestit că medicul consta tase
-că are tumori canceroase la stomac. Nu se putea decide să se opereze din cauza vârstei
-înaintate. Atunci cineva a sfătuit-o să bea ceai de urzici. Când s-a dus la medic după un
-timp, acesta a întrebat-o mirat: „V-ați operat? Dar nu se vede nici o cicatrice!"
-Excrescențele dispăruseră complet și femeia a mai putut beneficia de un amurg sănătos al
-vieții. Nu trebuie să ajungem atât de departe. Niciodată nu se poate forma ceva malign,
-dacă pe lângă faptul că o prețuim pe buna noastră urzică, îi asimilăm puterea minunată, în
+piciorului pana la calcai. Acest lucru este repetat de 2 ori, iar in incheiere se trece urzica de
+la sold in jos peste sezut. Se procedeaza la fel si cu alte portiuni afectate. La urma se
+pudreaza pielea pe locurile respective.
+Nu trebuie oare sa multumim Domnului pentru indurarea LUI de a ne fi daruit o atat de
+miraculoasa planta medicinala? in viata lor traita rapid, oamenii trec pe linga ea nepasator,
+preferind sa recurga la calmante si sedative, care sunt luate excesiv. Dar adesea nu pot
+ajuta in mod real decat bunele noastre plante de leac, cazute din pacate in uitare.
+in final as vrea sa mai adaug o intamplare care m-a impresionat in mod deosebit. In
+oraselul nostru am facut cunostinta cu o batrana care mi-a povestit ca medicul consta tase
+ca are tumori canceroase la stomac. Nu se putea decide sa se opereze din cauza varstei
+inaintate. Atunci cineva a sfatuit-o sa bea ceai de urzici. Cand s-a dus la medic dupa un
+timp, acesta a intrebat-o mirat: „V-ati operat? Dar nu se vede nici o cicatrice!"
+Excrescentele disparusera complet si femeia a mai putut beneficia de un amurg sanatos al
+vietii. Nu trebuie sa ajungem atat de departe. Niciodata nu se poate forma ceva malign,
+daca pe langa faptul ca o pretuim pe buna noastra urzica, ii asimilam puterea minunata, in
 intervale regulate de timp, sub forma ceaiului.
-încă un sfat bun: începeți chiar astăzi o cură de urzici. Planta uscată o găsiți în orice
-magazin specializat. Invitați plantele noastre medicinale iar în casă! Echipați-vă primăvara
-cu foarfece și mănuși și ieșiți la aer liber, în natura lui Dumnezeu! Este o mare plăcere să
-culegi urzicile singur, sub cerul liber al Domnului! Cu cât sunt utilizate mai proaspete, cu atât
-mai mare este, conform experienței, reușita curativă. Gândiți-vă atunci și la o provizie
-pentru iarnă, în vederea căreia ar fi cei mai bine să culegeți urzicile de luna mai. Bucurați-vă
-să puteți face astfel singuri ceva în folosul sănătății dumneavoastră!
-Un cititor din Westfalen scrie: „Vecinul meu utilizează urzica și pentru stârpirea in-
-sectelor și a dăunătorilor din grădina sa. Pune o cantitate mai mare de urzici într-un recipient
-cu apă, care are în jur de 300 litri (dar se poate muia și o cantitate mai mică) și lasă urzicile
-la macerat înăuntru ceva mai mult timp. Cu această apă de urzici își udă apoi tot mereu
-plantele, pe care le poate avea astfel fără dăunători, fără a întrebuința substanțe chimice.
-Nici în morcovi nu mai intră atunci viermii!"
-Dacă vreți să vă informați în legătură cu alte utilizări eficiente ale urzicii, citiți broșura
-„Maria Treben's Heilerfolge", apărută la editura W. Ennsthaler.
-Pe de altă parte, există azi unii agricultori care stropesc cu diferite soluții pentru
-stârpirea buruienilor urzicile care cresc pe margini curate, înverzite de păduri și câmpii,
-departe de șosele și alte medii poluante. Otrăvurile nocive pentru om ajung deci până în
-colțurile neatinse ale pădurilor. Nici nu se gândesc aceste persoane că distrug astfel,
-simultan, păsări și insecte. Mulți țărani nu-și mai găsesc timp pentru a cosi urzicile cu
-secera. Cât de orbi am devenit noi, oamenii!
+inca un sfat bun: incepeti chiar astazi o cura de urzici. Planta uscata o gasiti in orice
+magazin specializat. Invitati plantele noastre medicinale iar in casa! Echipati-va primavara
+cu foarfece si manusi si iesiti la aer liber, in natura lui Dumnezeu! Este o mare placere sa
+culegi urzicile singur, sub cerul liber al Domnului! Cu cat sunt utilizate mai proaspete, cu atat
+mai mare este, conform experientei, reusita curativa. Ganditi-va atunci si la o provizie
+pentru iarna, in vederea careia ar fi cei mai bine sa culegeti urzicile de luna mai. Bucurati-va
+sa puteti face astfel singuri ceva in folosul sanatatii dumneavoastra!
+Un cititor din Westfalen scrie: „Vecinul meu utilizeaza urzica si pentru starpirea in-
+sectelor si a daunatorilor din gradina sa. Pune o cantitate mai mare de urzici intr-un recipient
+cu apa, care are in jur de 300 litri (dar se poate muia si o cantitate mai mica) si lasa urzicile
+la macerat inauntru ceva mai mult timp. Cu aceasta apa de urzici isi uda apoi tot mereu
+plantele, pe care le poate avea astfel fara daunatori, fara a intrebuinta substante chimice.
+Nici in morcovi nu mai intra atunci viermii!"
+Daca vreti sa va informati in legatura cu alte utilizari eficiente ale urzicii, cititi brosura
+„Maria Treben's Heilerfolge", aparuta la editura W. Ennsthaler.
+Pe de alta parte, exista azi unii agricultori care stropesc cu diferite solutii pentru
+starpirea buruienilor urzicile care cresc pe margini curate, inverzite de paduri si campii,
+departe de sosele si alte medii poluante. Otravurile nocive pentru om ajung deci pana in
+colturile neatinse ale padurilor. Nici nu se gandesc aceste persoane ca distrug astfel,
+simultan, pasari si insecte. Multi tarani nu-si mai gasesc timp pentru a cosi urzicile cu
+secera. Cat de orbi am devenit noi, oamenii!
 MODURI DE FOLOSIRE
-Infuzie: A se folosi 1 linguriță (cu vârf) la 1/4 litru de apă; a se opări doar și a se
-lăsa să „tragă" puțin. Tinctură de urzică: Rădăcinile, scoase din pământ
-primăvara sau toamna, sunt
-spălate cu o perie și tăiate mărunt. Se umple cu ele o sticlă până la gât. Se
-toarnă deasupra rachiu de secară de 38-40% și se lasă să stea 14 zile la
-loc călduros.
+Infuzie: A se folosi 1 lingurita (cu varf) la 1/4 litru de apa; a se opari doar si a se
+lasa sa „traga" putin. Tinctura de urzica: Radacinile, scoase din pamant
+primavara sau toamna, sunt
+spalate cu o perie si taiate marunt. Se umple cu ele o sticla pana la gat. Se
+toarna deasupra rachiu de secara de 38-40% si se lasa sa stea 14 zile la
+loc calduros.
 
-Băi de picioare: Câte 2 mâini pline de rădăcini bine spălate și periate și de ur zici
-proaspete (tulpină și flori) se lasă peste noapte în 5 litri apă și se încălzesc a
-doua zi până dau în clocot. Se introduc picioarele în baia făcută cât de
-fierbinte se suportă și se țin 10 minute. Urzicile rămân în apă în timpul băii.
-Această baie de picioare poate fi folosită încă de 2-3 ori, dacă este reîncălzită.
-Spălat pe cap: De 4-5 ori câte 2 mâini pline cu urzici proaspete sau uscate se pun
-într-o oală de 5 litri cu apă rece și se încălzesc încet, pe foc mic, până la
-fierbere. Se trage oala deoparte și se lasă să stea 5 minute. Dacă se folosesc
-rădăcini de urzici, se pun 2 mâini pline de rădăcini să stea peste noapte în
-apă rece, se încălzește totul a doua zi până dă în clocot și se lasă să stea 10
-minute. Pentru spălatul pe cap ar trebui întrebuințat în acest caz săpun
+Bai de picioare: Cate 2 maini pline de radacini bine spalate si periate si de ur zici
+proaspete (tulpina si flori) se lasa peste noapte in 5 litri apa si se incalzesc a
+doua zi pana dau in clocot. Se introduc picioarele in baia facuta cat de
+fierbinte se suporta si se tin 10 minute. Urzicile raman in apa in timpul baii.
+Aceasta baie de picioare poate fi folosita inca de 2-3 ori, daca este reincalzita.
+Spalat pe cap: De 4-5 ori cate 2 maini pline cu urzici proaspete sau uscate se pun
+intr-o oala de 5 litri cu apa rece si se incalzesc incet, pe foc mic, pana la
+fierbere. Se trage oala deoparte si se lasa sa stea 5 minute. Daca se folosesc
+radacini de urzici, se pun 2 maini pline de radacini sa stea peste noapte in
+apa rece, se incalzeste totul a doua zi pana da in clocot si se lasa sa stea 10
+minute. Pentru spalatul pe cap ar trebui intrebuintat in acest caz sapun
 medicinal.
 
 ### URZICA-MOARTA-GALBENA
 (Lamium galeobdolon)
-Această plantă poartă și numele de gălbiniță, sugel-
-galben, urzică-galbenă, urzică-moartă, zebrea. Ea
-crește în păduri umede și șanțuri, sub tufișuri, lângă
-garduri și garduri vii, printre dărâmături, pe locuri umede,
-umbroase și pretutindeni unde se întâlnește și urzica,
-înflorește în lunile aprilie și mai, iar în zonele muntoase
-chiar și mai târziu. Rizomul vivace (care trăiește mai mult
-de un an) formează tulpini verticale, înalte de până la 50
-centimetri, frunzele sunt dispuse încrucișat în serii la
-niveluri diferite, având forma unui ou și sunt crețe, florile
-stau într-un verticil fals la subsuoara frunzei. Se
-colectează frunzele și florile.
-Ca și urzica-moartă-galbehă, urzica-moartă-albă
-(Lamium album) - purtând în limbaj popular și numele de
-fața-mâței, mierea-ursului-cu-flori-bălăi, sugel-alb, urzică-
-albă, urzică-creață, urzică- moartă - este și ea o plantă
-medicinală remarcabilă. Ea înflorește ca buruiană din mai
-până în octombrie pe drumuri, printre dărâmături și
-terasamente de cale ferată. Se culeg și frunzele, însă în primul rând florile. Ceaiul preparat
-din ele ajută în bolile grele ale organelor pelviene și în tulburările și durerile menstruale,
-dacă se iau 2 cești pe parcursul zilei. Are și efect depurativ, combate insomnia pe bază
-nervoasă și este un remediu eficace în cele mai diferite maladii ale femeilor. Femeile cu
-veșnice afecțiuni ale organelor pelviene și fetele tinere ar trebui să aprecieze mult acest
+Aceasta planta poarta si numele de galbinita, sugel-
+galben, urzica-galbena, urzica-moarta, zebrea. Ea
+creste in paduri umede si santuri, sub tufisuri, langa
+garduri si garduri vii, printre daramaturi, pe locuri umede,
+umbroase si pretutindeni unde se intalneste si urzica,
+infloreste in lunile aprilie si mai, iar in zonele muntoase
+chiar si mai tarziu. Rizomul vivace (care traieste mai mult
+de un an) formeaza tulpini verticale, inalte de pana la 50
+centimetri, frunzele sunt dispuse incrucisat in serii la
+niveluri diferite, avand forma unui ou si sunt crete, florile
+stau intr-un verticil fals la subsuoara frunzei. Se
+colecteaza frunzele si florile.
+Ca si urzica-moarta-galbeha, urzica-moarta-alba
+(Lamium album) - purtand in limbaj popular si numele de
+fata-matei, mierea-ursului-cu-flori-balai, sugel-alb, urzica-
+alba, urzica-creata, urzica- moarta - este si ea o planta
+medicinala remarcabila. Ea infloreste ca buruiana din mai
+pana in octombrie pe drumuri, printre daramaturi si
+terasamente de cale ferata. Se culeg si frunzele, insa in primul rand florile. Ceaiul preparat
+din ele ajuta in bolile grele ale organelor pelviene si in tulburarile si durerile menstruale,
+daca se iau 2 cesti pe parcursul zilei. Are si efect depurativ, combate insomnia pe baza
+nervoasa si este un remediu eficace in cele mai diferite maladii ale femeilor. Femeile cu
+vesnice afectiuni ale organelor pelviene si fetele tinere ar trebui sa aprecieze mult acest
 ceai.
-Florile și frunzele urzicii-moarte-galbene se folosesc în maladii asemănătoare, mai ales
-în retenție urinară, boli ale căilor urinare, usturimi la urinat, boli renale grave si
-anasarcă. Florile sunt indicate în tulburări digestive, scrofuloză și erupții cutanate. în
-acest scop se bea o cană cu ceai dimineața. Contra ulcerațiilor și a varicelor ajută
+Florile si frunzele urzicii-moarte-galbene se folosesc in maladii asemanatoare, mai ales
+in retentie urinara, boli ale cailor urinare, usturimi la urinat, boli renale grave si
+anasarca. Florile sunt indicate in tulburari digestive, scrofuloza si eruptii cutanate. in
+acest scop se bea o cana cu ceai dimineata. Contra ulceratiilor si a varicelor ajuta
 compresele cu infuzie.
-Urzica-moartă-galbenă este recomandată împotriva paraliziei vezicale la oamenii
-bătrâni, în răcelile vezicii urinare și în nefrite. O baie de șezut cu adaos de urzică- moartă-
-galbenă este deosebit de binefăcătoare.
-în scleroză renală incurabilă, irigare renală și racordare la rinichi artificial, urzica-
-moartă-galbenă, amestecată în părți egale cu 'drăgaică și splinuță, aduce rezultate
+Urzica-moarta-galbena este recomandata impotriva paraliziei vezicale la oamenii
+batrani, in racelile vezicii urinare si in nefrite. O baie de sezut cu adaos de urzica- moarta-
+galbena este deosebit de binefacatoare.
+in scleroza renala incurabila, irigare renala si racordare la rinichi artificial, urzica-
+moarta-galbena, amestecata in parti egale cu 'dragaica si splinuta, aduce rezultate
 
-lecuitoare dintre cele mai bune. Dacă nu poate fi procurată urzica-moartă-galbenă, atunci
-se poate adăuga și urzică-moartă-albă.
+lecuitoare dintre cele mai bune. Daca nu poate fi procurata urzica-moarta-galbena, atunci
+se poate adauga si urzica-moarta-alba.
 MODURI DE FOLOSIRE
-Infuzie: 1 linguriță (cu vârf) la 1/4 litru de apă - a se opări doar, a se lăsa puțin
-în repaos. Comprese: 3 lingurițe (cu vârf) la 1/2 litru de apă - a se opări, a se lăsa
-puțin în
-repaos. A se umezi cârpe cu infuzie și a se aplica astfel comprese calde. Adaos
-la baia de șezut: A se vedea „Băi de șezut" la „Partea generală" (se
-folosește întreaga plantă!). Amestec de ceaiuri: A se amesteca urzică-moartă-
-galbenă, drăgaică și
-splinuță în părți egale. A se opări 1 linguriță (cu vârf) din acest amestec cu
-1/4 litru de apa. A se lăsa să stea puțin.
+Infuzie: 1 lingurita (cu varf) la 1/4 litru de apa - a se opari doar, a se lasa putin
+in repaos. Comprese: 3 lingurite (cu varf) la 1/2 litru de apa - a se opari, a se lasa
+putin in
+repaos. A se umezi carpe cu infuzie si a se aplica astfel comprese calde. Adaos
+la baia de sezut: A se vedea „Bai de sezut" la „Partea generala" (se
+foloseste intreaga planta!). Amestec de ceaiuri: A se amesteca urzica-moarta-
+galbena, dragaica si
+splinuta in parti egale. A se opari 1 lingurita (cu varf) din acest amestec cu
+1/4 litru de apa. A se lasa sa stea putin.
 
 ### VENTRILICA
 
 VENTRILICA (Veronica officinalis)
-Când romanii au ocupat odinioară țara în care se stabi liseră
-germanicii, au făcut cunoștință prin băștinași cu planta medicinală
-cea mai apreciată la germanici, ventrilica. Ea era numită „leacul
-fundamental al tuturor relelor" („Grundheil aller Schiacfen"). Și
-romanii trebuie să se fi convins de marea sa putere curativă,
-după cum am citit odată într-o carte veche despre plante
-medicinale. Dacă voiau să facă un compliment mai deosebit unui
-prieten sau cunoscut, atunci îi spuneau că are la fel de multe
-calități ca și foarte apreciata ventrilică.
-Mi-am amintit de această vorbă într-o zi când un domn mi-a
-relatat despre concentrația crescută a colesterinei în sângele
-său. Din această cauză fusese internat de mai multe ori în spital.
-l-am indicat ceaiul de ventrilică, 2 cești pe zi. Mare mi-a fost
-bucuria când mi-a povestit, o jumătate de an mai târziu, cât de
-mirați au fost medicii, nemaigăsind, la un consult recent,
+Cand romanii au ocupat odinioara tara in care se stabi lisera
+germanicii, au facut cunostinta prin bastinasi cu planta medicinala
+cea mai apreciata la germanici, ventrilica. Ea era numita „leacul
+fundamental al tuturor relelor" („Grundheil aller Schiacfen"). Si
+romanii trebuie sa se fi convins de marea sa putere curativa,
+dupa cum am citit odata intr-o carte veche despre plante
+medicinale. Daca voiau sa faca un compliment mai deosebit unui
+prieten sau cunoscut, atunci ii spuneau ca are la fel de multe
+calitati ca si foarte apreciata ventrilica.
+Mi-am amintit de aceasta vorba intr-o zi cand un domn mi-a
+relatat despre concentratia crescuta a colesterinei in sangele
+sau. Din aceasta cauza fusese internat de mai multe ori in spital.
+l-am indicat ceaiul de ventrilica, 2 cesti pe zi. Mare mi-a fost
+bucuria cand mi-a povestit, o jumatate de an mai tarziu, cat de
+mirati au fost medicii, nemaigasind, la un consult recent,
 colesterolul crescut.
-Ventrilică, numită și buruiană-de-perit, buruiană-de-cel- perit,
-matrice, strătorică', șopârlaiță, ventricea, vindrilică, crește în
-păduri, pe locuri defrișate, lângă mărăcinișuri, tufișuri, gar duri și
-șanțuri, pe drumuri și în liziere. Are o tulpină păroasă, care se
-târăște pe pământ, frunze mici, zimțate, cu un luciu ar gintiu, care
-se termină în spice ce stau în sus, având flori de la albastru deschis până la violet.
-Frunzele cad ușor la atingere. Perioada de înflorire: din mai până în august. Se colectează
-inflorescențele (ansamblul florilor dispuse pe axa centrală). Cele mai efi ciente sunt acele
-plante care cresc la margini de păduri și sub stejari.
-Această plantă medicinală moștenită de noi din timpurile străvechi constituie un adaos
-îndrăgit la ceaiurile depurative și este de ajutor, împreună cu vârfurile proaspete ale
-urzicilor, la vindecarea eczemelor cronice. La supărătorul prurit senil (mâncărimi de
-bătrânețe) n-aș mai înceta să recomand ventrilică. Persoanele care sunt slăbite și sensibile
-o suportă întrucât este un leac bun pentru stomac, având o acțiune blândă, care
-stimulează și digestia. Ea îndepărtează secrețiile stomacale abundente, precum și
-tulburările intestinale.
+Ventrilica, numita si buruiana-de-perit, buruiana-de-cel- perit,
+matrice, stratorica', soparlaita, ventricea, vindrilica, creste in
+paduri, pe locuri defrisate, langa maracinisuri, tufisuri, gar duri si
+santuri, pe drumuri si in liziere. Are o tulpina paroasa, care se
+taraste pe pamant, frunze mici, zimtate, cu un luciu ar gintiu, care
+se termina in spice ce stau in sus, avand flori de la albastru deschis pana la violet.
+Frunzele cad usor la atingere. Perioada de inflorire: din mai pana in august. Se colecteaza
+inflorescentele (ansamblul florilor dispuse pe axa centrala). Cele mai efi ciente sunt acele
+plante care cresc la margini de paduri si sub stejari.
+Aceasta planta medicinala mostenita de noi din timpurile stravechi constituie un adaos
+indragit la ceaiurile depurative si este de ajutor, impreuna cu varfurile proaspete ale
+urzicilor, la vindecarea eczemelor cronice. La suparatorul prurit senil (mancarimi de
+batranete) n-as mai inceta sa recomand ventrilica. Persoanele care sunt slabite si sensibile
+o suporta intrucat este un leac bun pentru stomac, avand o actiune blanda, care
+stimuleaza si digestia. Ea indeparteaza secretiile stomacale abundente, precum si
+tulburarile intestinale.
 
-Aș dori să accentuez mai ales faptul că ventrilica are un efect vindecător excelent în
-combaterea nervozității care provine din suprasolicitare intelectuală. O ceașcă băută
-seara, înainte de culcare, face adevărate minuni prin acțiunea sa liniștitoare. Preotul
-elvețian Kunzle recomandă celor care trebuie să depună activitate intelectuală deosebită
-să ia acest ceai calmant înainte de culcare. El dă o memorie bună și îndepărtează
-senzațiile de amețeală. Amestecat cu rădăcină de elină, înlătură de-bilitățile nervoase si
-stările melancolice. Chiar și în cazul icterului, al nisipului în urină, al durerilor
-articulare reumatice și artritice, ventrilica dă un rezultat grozav.
-Un preot mi-a declarat: „Lapsusurile mele mari au dispărut în 14 zile în mod sur-
-prinzător datorită ventrilicii amestecate cu coada-calului (în părți egale, 2 cești pe zi). Chiar
-în timpul predicilor îmi scăpau cuvinte importante. Devenisem nesigur și nervos. Plantele
+As dori sa accentuez mai ales faptul ca ventrilica are un efect vindecator excelent in
+combaterea nervozitatii care provine din suprasolicitare intelectuala. O ceasca bauta
+seara, inainte de culcare, face adevarate minuni prin actiunea sa linistitoare. Preotul
+elvetian Kunzle recomanda celor care trebuie sa depuna activitate intelectuala deosebita
+sa ia acest ceai calmant inainte de culcare. El da o memorie buna si indeparteaza
+senzatiile de ameteala. Amestecat cu radacina de elina, inlatura de-bilitatile nervoase si
+starile melancolice. Chiar si in cazul icterului, al nisipului in urina, al durerilor
+articulare reumatice si artritice, ventrilica da un rezultat grozav.
+Un preot mi-a declarat: „Lapsusurile mele mari au disparut in 14 zile in mod sur-
+prinzator datorita ventrilicii amestecate cu coada-calului (in parti egale, 2 cesti pe zi). Chiar
+in timpul predicilor imi scapau cuvinte importante. Devenisem nesigur si nervos. Plantele
 m-au ajutat incredibil de repede."
-Și la bronșitele vechi, uscate, ventrilica a produs adevărate minuni. Pentru ceaiul
-pectoral se folosește un amestec de cuscrișor (numit și mierea-ursului sau plumânărică),
-frunze de podbal, pătlagină și ventrilica în părți egale, care se îndulcește cu puțină miere
-sau se opăresc plantele cu apă în clocot în care a fost dizolvat zahăr candel.
-Contra icterului, ca și a afecțiunilor hepatice și splenice recomand următorul
-amestec de ceaiuri: 50 grame de rădăcini de păpădie, 25 grame de flori de cicoare, 25
-grame de vinariță (numită și mama-pădurii) si 25 grame de ventrilica. Se amestecă bine
-aceste plante. Se beau încetul cu încetul în timpul zilei 2 cești neândulcite (la 1/4 li tru de apă
-- 1 linguriță cu vârf de plante).
-Din planta înflorită se poate prepara și un suc proaspăt, indicat în bolile cronice de
+Si la bronsitele vechi, uscate, ventrilica a produs adevarate minuni. Pentru ceaiul
+pectoral se foloseste un amestec de cuscrisor (numit si mierea-ursului sau plumanarica),
+frunze de podbal, patlagina si ventrilica in parti egale, care se indulceste cu putina miere
+sau se oparesc plantele cu apa in clocot in care a fost dizolvat zahar candel.
+Contra icterului, ca si a afectiunilor hepatice si splenice recomand urmatorul
+amestec de ceaiuri: 50 grame de radacini de papadie, 25 grame de flori de cicoare, 25
+grame de vinarita (numita si mama-padurii) si 25 grame de ventrilica. Se amesteca bine
+aceste plante. Se beau incetul cu incetul in timpul zilei 2 cesti neandulcite (la 1/4 li tru de apa
+- 1 lingurita cu varf de plante).
+Din planta inflorita se poate prepara si un suc proaspat, indicat in bolile cronice de
 piele, mai ales la eczeme (a se vedea „Moduri de folosire"). Se ia din acest suc de 2-3 ori
-pe zi câte 1 linguriță plină.
-întrucât ventrilica este lăudată în cărțile vechi despre plantele medicinale și ca o plantă
-care vindecă rănile, o recomand pentru leziunile inflamate și care se vindecă greu, în
-special în apropierea tibiei (a fluierului piciorului). Rănile sunt clătite mai întâi cu o infuzie;
-apoi se pun în timpul nopții peste răni comprese îmbibate în prealabil cu un ceai proaspăt
-preparat și se învelesc ca să rămână calde.
-Bolnavii de reumatism și artrită ar trebui să încerce o dată tinctura de ventrilica, pe
-care și-o pot prepara ușor singuri (a se vedea „Moduri de preparare"). Această tinctură se
-folosește extern ca frecție, iar intern se iau de 3 ori pe zi câte 15 picături în ceva apă sau
+pe zi cate 1 lingurita plina.
+intrucat ventrilica este laudata in cartile vechi despre plantele medicinale si ca o planta
+care vindeca ranile, o recomand pentru leziunile inflamate si care se vindeca greu, in
+special in apropierea tibiei (a fluierului piciorului). Ranile sunt clatite mai intai cu o infuzie;
+apoi se pun in timpul noptii peste rani comprese imbibate in prealabil cu un ceai proaspat
+preparat si se invelesc ca sa ramana calde.
+Bolnavii de reumatism si artrita ar trebui sa incerce o data tinctura de ventrilica, pe
+care si-o pot prepara usor singuri (a se vedea „Moduri de preparare"). Aceasta tinctura se
+foloseste extern ca frectie, iar intern se iau de 3 ori pe zi cate 15 picaturi in ceva apa sau
 ceai.
-Beți neapărat în fiecare an o perioadă de timp ceai de ventrilica proaspăt culeasă! El
-nu reduce numai arterioscleroza, ci o previne și dă organismului o nouă elasticitate prin
-afectul său depurativ. De aceea, rugămintea mea: Țineți seama de acest sfat!
+Beti neaparat in fiecare an o perioada de timp ceai de ventrilica proaspat culeasa! El
+nu reduce numai arterioscleroza, ci o previne si da organismului o noua elasticitate prin
+afectul sau depurativ. De aceea, rugamintea mea: Tineti seama de acest sfat!
 MODURI DE FOLOSIRE
-Prepararea ceaiului: A se folosi 1 linguriță (cu vârf) la 1/4 litru de apă, a se opări
-doar, a se lăsa să stea puțin. Suc proaspăt: Se spală inflorescențele proaspete
-și se presează încă umede
-prin storcătorul electric de uz casnic, se toarnă sucul în sticle mici și se
-păstrează la frigider. Tinctura: 2 mâini pline de plante înflorite și tăiate mărunt se
-pun într-un litru de
-rachiu de secară de 38-40% și se lasă 14 zile la soare sau în apropierea
-mașinii de gătit. Amestec de ceaiuri: 1 linguriță (cu vârf) la 1/4 litru de apă. Se
-opărește doar și
-se lasă să stea puțin.
+Prepararea ceaiului: A se folosi 1 lingurita (cu varf) la 1/4 litru de apa, a se opari
+doar, a se lasa sa stea putin. Suc proaspat: Se spala inflorescentele proaspete
+si se preseaza inca umede
+prin storcatorul electric de uz casnic, se toarna sucul in sticle mici si se
+pastreaza la frigider. Tinctura: 2 maini pline de plante inflorite si taiate marunt se
+pun intr-un litru de
+rachiu de secara de 38-40% si se lasa 14 zile la soare sau in apropierea
+masinii de gatit. Amestec de ceaiuri: 1 lingurita (cu varf) la 1/4 litru de apa. Se
+opareste doar si
+se lasa sa stea putin.
 
 VISCUL
 (Viscum album)
-Cine nu cunoaște
-acea plantă care
-trăiește ca semiparazit
-pe foioase și conifere,
-fixată cu ajutorul
-rădăcinilor sale
-sugătoare și
-împrăștiate și pe care
+Cine nu cunoaste
+acea planta care
+traieste ca semiparazit
+pe foioase si conifere,
+fixata cu ajutorul
+radacinilor sale
+sugatoare si
+imprastiate si pe care
 n-o mai putem
-îndepărta din viața
-noastră grație puterii
-sale tămăduitoare? Ea
-crește sferic pe
-ramurile plan-tei-gazdă. Frunzele veșnic verzi sunt
-pieloase. Fructele, în forma unor bobite, sunt albicioase,
-puțin sticloase, în interior vâscoase și lipicioase. Păsările
-răspândesc sămânța cleioasă, frecând-o cu ciocul de
-crengi sau eliminând-o nedigerată în excremente. Numai
-așa este posibilă înmulțirea plantei, căci s-a dovedit că
-sămânța ei nu ajunge să încolțească nici pusă în apă, nici
-în pământ.
-Vâscul se mai întâlnește în popor și sub alte denumiri, cum ar fi: stoletnic, vâsc, văsc-
-de-păr, văsc-de-brad.
-Vâscul a fost o plantă de leac și farmece încă de pe vremea strămoșilor noștri. Este
-învăluită de mister. Druizii (preoții celți) o considerau o plantă sfântă, un leac universal ce
-putea să înlăture orice rău. Preoții o tăiau cu cuțite și seceri de aur în cadrul unor ceremonii
-festive. Vechii medici naturiști foloseau vâscul ca un mijloc excelent și cu acțiune sigură în
-combaterea epilepsiei. Această forță lecuitoare străveche o recunoaște și adeptul lui
-Kneipp, dr. Bohn. în zilele noastre el recomandă vâscul contra spasmelor cronice și a
+indeparta din viata
+noastra gratie puterii
+sale tamaduitoare? Ea
+creste sferic pe
+ramurile plan-tei-gazda. Frunzele vesnic verzi sunt
+pieloase. Fructele, in forma unor bobite, sunt albicioase,
+putin sticloase, in interior vascoase si lipicioase. Pasarile
+raspandesc samanta cleioasa, frecand-o cu ciocul de
+crengi sau eliminand-o nedigerata in excremente. Numai
+asa este posibila inmultirea plantei, caci s-a dovedit ca
+samanta ei nu ajunge sa incolteasca nici pusa in apa, nici
+in pamant.
+Vascul se mai intalneste in popor si sub alte denumiri, cum ar fi: stoletnic, vasc, vasc-
+de-par, vasc-de-brad.
+Vascul a fost o planta de leac si farmece inca de pe vremea stramosilor nostri. Este
+invaluita de mister. Druizii (preotii celti) o considerau o planta sfanta, un leac universal ce
+putea sa inlature orice rau. Preotii o taiau cu cutite si seceri de aur in cadrul unor ceremonii
+festive. Vechii medici naturisti foloseau vascul ca un mijloc excelent si cu actiune sigura in
+combaterea epilepsiei. Aceasta forta lecuitoare straveche o recunoaste si adeptul lui
+Kneipp, dr. Bohn. in zilele noastre el recomanda vascul contra spasmelor cronice si a
 acceselor de isterie.
-Frunzele și tulpinile micuțe, care se taie mărunt pentru a fi uscate, se culeg numai de la
-începutul lunii octombrie până la mijlocul lunii decembrie și în lunile martie si aprilie. În
-celelalte luni vâscul n-are putere de leac. Plantele cu cea mai mare forță curativă sunt
-considerate cele de pe stejari și plopi; dar și cele de pe brazi, pini și pomi fructiferi au putere
-vindecătoare. Încă o indicație legată de cules: în lunile martie și aprilie, vâscul nu prea are
-bobite. Păsările i le-au ciugulit pe timpul iernii. Deci se procedează mai ușor la tăiatul
-frunzelor și al tulpinițelor, întrucât se scapă de colectarea bobitelor lipicioase, care din luna
-octombrie până în decembrie mai sunt pe vâsc.
-Am fost adesea întrebată de ce laud atât de mult vâscul, când de fapt se spune că ar fi
-otrăvitor. Vâscul - adică frunzele și tulpinile - nu este deloc otrăvitor, însă bobitele,
-administrate intern, sunt. Dar dacă sunt amestecate cu untură de porc până se formează o
-alifie (a se vedea „Moduri de folosire"), care se întrebuințează extern când îți îngheață sau
-degeră o parte a corpului, ele ajută foarte mult.
-Unei femei îi îngheța nasul în fiecare iarnă. În lunile cu ger de-abia se mai încumeta să
-iasă din casă cu nasul ei veșnic vânăt. Această situație s-a înrăutățit an de an. Am sfătuit-o
-să pună peste noapte pe nas un terci proaspăt din bobite de vâsc. Chiar dacă sună
-aproape incredibil, trebuie să certific totuși că în câteva zile nasul i s-a vindecat.
-Vâscul influențează pozitiv funcționarea întregului sistem glandular și realizează
-performanțe excelente în stimularea metabolismului. În același timp, acțiunea sa asupra
-pancreasului este atât de bună, încât la o cură continuă de ceai de vâsc dia betul își pierde
-cauza apariției. Oamenii care suferă de tulburări cronice de metabolism ar trebui să facă o
-dată încercarea de a bea în mod regulat timp de cel puțin o jumătate de an ceai de vâsc.
-Dacă aveți tulburări hormonale, recurgeți la vâsc - veți obține un rezultat extraordinar .În
-acest caz se prescriu minimum 2 cești pe zi, una băută dimineața si una seara.
+Frunzele si tulpinile micute, care se taie marunt pentru a fi uscate, se culeg numai de la
+inceputul lunii octombrie pana la mijlocul lunii decembrie si in lunile martie si aprilie. In
+celelalte luni vascul n-are putere de leac. Plantele cu cea mai mare forta curativa sunt
+considerate cele de pe stejari si plopi; dar si cele de pe brazi, pini si pomi fructiferi au putere
+vindecatoare. Inca o indicatie legata de cules: in lunile martie si aprilie, vascul nu prea are
+bobite. Pasarile i le-au ciugulit pe timpul iernii. Deci se procedeaza mai usor la taiatul
+frunzelor si al tulpinitelor, intrucat se scapa de colectarea bobitelor lipicioase, care din luna
+octombrie pana in decembrie mai sunt pe vasc.
+Am fost adesea intrebata de ce laud atat de mult vascul, cand de fapt se spune ca ar fi
+otravitor. Vascul - adica frunzele si tulpinile - nu este deloc otravitor, insa bobitele,
+administrate intern, sunt. Dar daca sunt amestecate cu untura de porc pana se formeaza o
+alifie (a se vedea „Moduri de folosire"), care se intrebuinteaza extern cand iti ingheata sau
+degera o parte a corpului, ele ajuta foarte mult.
+Unei femei ii ingheta nasul in fiecare iarna. In lunile cu ger de-abia se mai incumeta sa
+iasa din casa cu nasul ei vesnic vanat. Aceasta situatie s-a inrautatit an de an. Am sfatuit-o
+sa puna peste noapte pe nas un terci proaspat din bobite de vasc. Chiar daca suna
+aproape incredibil, trebuie sa certific totusi ca in cateva zile nasul i s-a vindecat.
+Vascul influenteaza pozitiv functionarea intregului sistem glandular si realizeaza
+performante excelente in stimularea metabolismului. In acelasi timp, actiunea sa asupra
+pancreasului este atat de buna, incat la o cura continua de ceai de vasc dia betul isi pierde
+cauza aparitiei. Oamenii care sufera de tulburari cronice de metabolism ar trebui sa faca o
+data incercarea de a bea in mod regulat timp de cel putin o jumatate de an ceai de vasc.
+Daca aveti tulburari hormonale, recurgeti la vasc - veti obtine un rezultat extraordinar .In
+acest caz se prescriu minimum 2 cesti pe zi, una bauta dimineata si una seara.
 
-### Vâscul
-este un leac excepțional contra arteriosclerozei, este foarte apreciat și re-
-comandat în apoplexie, la care rareori s-ar mai fi ajuns dacă s-ar fi băut înainte în mod
-regulat ceai de vâsc. Dacă s-a ajuns totuși la un atac de apoplexie, se beau timp de 6
-săptămâni zilnic câte 3 cești, timp de 3 săptămâni zilnic câte 2 cești și timp de 2 săptămâni
-zilnic câte 1 ceașcă, și anume prima ceașcă înainte și după micul dejun, a doua ceașcă
-înainte și după masa de prânz, iar a treia ceașcă înainte și după cină, de fiecare dată numai
-câte o jumătate.
-Ceaiul de vâsc este folosit și ca mijloc hemostatic. Tras rece pe nas, oprește
-hemoragiile nazale, consumat ca ceai oprește hemoragiile pulmonare și intestinale din
+### Vascul
+este un leac exceptional contra arteriosclerozei, este foarte apreciat si re-
+comandat in apoplexie, la care rareori s-ar mai fi ajuns daca s-ar fi baut inainte in mod
+regulat ceai de vasc. Daca s-a ajuns totusi la un atac de apoplexie, se beau timp de 6
+saptamani zilnic cate 3 cesti, timp de 3 saptamani zilnic cate 2 cesti si timp de 2 saptamani
+zilnic cate 1 ceasca, si anume prima ceasca inainte si dupa micul dejun, a doua ceasca
+inainte si dupa masa de pranz, iar a treia ceasca inainte si dupa cina, de fiecare data numai
+cate o jumatate.
+Ceaiul de vasc este folosit si ca mijloc hemostatic. Tras rece pe nas, opreste
+hemoragiile nazale, consumat ca ceai opreste hemoragiile pulmonare si intestinale din
 timpul tifosului sau al dizenteriei.
-Vâscul este leacul cel mai stimulant al funcțiunii cardiace și circulatorii. În grave
-tulburări circulatorii nu poți înceta să tot recomanzi vâscul. Întrucât vâscul are sub stanțe
-active care normalizează funcționarea întregului organism, el produce inimagi nabilul - adică
-scade tensiunea arterială la hipertensivi și o crește la hipertensivi.
-Se calmează astfel inima agitată și se fortifică activitatea cardiacă, vâscul având efect
-cardiotonic. Toate fenomenele secundare legate de o tensiune arterială anor mală - cum ar
-fi congestia cerebrală, senzațiile de amețeala, vâjâitul în urechi și tulburările de
-vedere - sânt îndepărtate. Vâscul contracarează, în același timp, toate afecțiunile
-cardiace, așa că se poate afirma pe drept cuvânt că este de un ajutor indispensabil în
-toate tulburările cardiace și circulatorii. Epoca noastră contemporană, în care se trăiește
-într-un ritm rapid, care impune oamenilor cele mai mari solicitări și îi stresează cu o criză de
-timp violentă, are realmente nevoie de astfel de ajutoare.
-Din multe scrisori ce-mi sânt adresate reiese că oameni cu hipertensiune arterială,
-tulburări serioase ale circulației sângelui, moleșeală, tulburări cardiace, deci și cu
-tulburări în ritmul activității cardiace, vertij, lipsă de chef de muncă au scăpat în scurt
-timp de aceste supărări gratie vâscului. S-au simțit iarăși bine, recăpătându-și bu curia de a
-munci. Zilnic 3 cești cu ceai de vâsc preparat în așa-numitul extract rece și băut încetul cu
-încetul vă vor normaliza și inima, și circulația sângelui, realizând astfel o putere mai mare
-de muncă, De altfel, ar trebui efectuată măcar o dată pe an o cură de 6 săptămâni cu ceai
-de vâsc, astfel: Se beau timp de 3 săptămâni câte 3 cești pe zi, timp de 2 săptămâni câte 2
-cești pe zi și timp de 1 săptămână câte 1 ceașcă pe zi. Circulația sângelui și tensiunea
-arterială s-au refăcut în aceste 6 săptămâni. Pentru ca starea bună să se mențină constant,
-ar fi propice ca timp de un an să se bea în continuare în fiecare dimineață câte 1 ceașcă cu
-ceai de vâsc.
-Un domn din regiunea Mainzului suferea de ani întregi de hipotensiune arterială, care
-se manifesta atât de acut în anumite zile, încât de-abia putea să mai facă față muncii sale
-ca morar. Consultase medici renumiți nu numai din Germania, ci și din Elveția, însă fără
-rezultat. A primit plin de scepticism afirmația mea că vâscul este cel care ar mai putea ajuta
-când este vorba de tensiune, fie că aceasta este scăzută, fie că este ridicată. Eram tocmai
-în luna aprilie și vâscul, deținând încă forțe de leac, putea fi luat din copaci. Câteva luni mai
-târziu, la una din prelegerile mele dintr-un orășel din Austria superioară, morarul nostru din
-frumoasa zonă a Mainzului s-a așezat în primul rând și a relatat întregului auditoriu că
-tensiunea lui, altădată atât de joasă, se normalizase total datorită vâscului.
-Și femeile ar trebui să apeleze la ceaiul de vâsc. Normalizarea circulației sângelui
-aduce după sine o încetare a dereglărilor menstruale, mai ales a menoragiilor (a
-hemoragiilor menstruale puternice), precum și a metroragiilor postpartum (de
-după naștere). În cadrul indispozițiilor din timpul menopauzei, însoțite de palpitații,
-stări de agitație, anxietate și insuficiență respiratorie, ceaiul de vâsc ar trebui ad-
-ministrat câțiva ani la rând. Toate aceste stări neplăcute dispar și femeia nu mai are
-senzația că se află la menopauză. Sucul proaspăt de vâsc poate înlătura sterilitatea
+Vascul este leacul cel mai stimulant al functiunii cardiace si circulatorii. In grave
+tulburari circulatorii nu poti inceta sa tot recomanzi vascul. Intrucat vascul are sub stante
+active care normalizeaza functionarea intregului organism, el produce inimagi nabilul - adica
+scade tensiunea arteriala la hipertensivi si o creste la hipertensivi.
+Se calmeaza astfel inima agitata si se fortifica activitatea cardiaca, vascul avand efect
+cardiotonic. Toate fenomenele secundare legate de o tensiune arteriala anor mala - cum ar
+fi congestia cerebrala, senzatiile de ameteala, vajaitul in urechi si tulburarile de
+vedere - sant indepartate. Vascul contracareaza, in acelasi timp, toate afectiunile
+cardiace, asa ca se poate afirma pe drept cuvant ca este de un ajutor indispensabil in
+toate tulburarile cardiace si circulatorii. Epoca noastra contemporana, in care se traieste
+intr-un ritm rapid, care impune oamenilor cele mai mari solicitari si ii streseaza cu o criza de
+timp violenta, are realmente nevoie de astfel de ajutoare.
+Din multe scrisori ce-mi sant adresate reiese ca oameni cu hipertensiune arteriala,
+tulburari serioase ale circulatiei sangelui, moleseala, tulburari cardiace, deci si cu
+tulburari in ritmul activitatii cardiace, vertij, lipsa de chef de munca au scapat in scurt
+timp de aceste suparari gratie vascului. S-au simtit iarasi bine, recapatandu-si bu curia de a
+munci. Zilnic 3 cesti cu ceai de vasc preparat in asa-numitul extract rece si baut incetul cu
+incetul va vor normaliza si inima, si circulatia sangelui, realizand astfel o putere mai mare
+de munca, De altfel, ar trebui efectuata macar o data pe an o cura de 6 saptamani cu ceai
+de vasc, astfel: Se beau timp de 3 saptamani cate 3 cesti pe zi, timp de 2 saptamani cate 2
+cesti pe zi si timp de 1 saptamana cate 1 ceasca pe zi. Circulatia sangelui si tensiunea
+arteriala s-au refacut in aceste 6 saptamani. Pentru ca starea buna sa se mentina constant,
+ar fi propice ca timp de un an sa se bea in continuare in fiecare dimineata cate 1 ceasca cu
+ceai de vasc.
+Un domn din regiunea Mainzului suferea de ani intregi de hipotensiune arteriala, care
+se manifesta atat de acut in anumite zile, incat de-abia putea sa mai faca fata muncii sale
+ca morar. Consultase medici renumiti nu numai din Germania, ci si din Elvetia, insa fara
+rezultat. A primit plin de scepticism afirmatia mea ca vascul este cel care ar mai putea ajuta
+cand este vorba de tensiune, fie ca aceasta este scazuta, fie ca este ridicata. Eram tocmai
+in luna aprilie si vascul, detinand inca forte de leac, putea fi luat din copaci. Cateva luni mai
+tarziu, la una din prelegerile mele dintr-un orasel din Austria superioara, morarul nostru din
+frumoasa zona a Mainzului s-a asezat in primul rand si a relatat intregului auditoriu ca
+tensiunea lui, altadata atat de joasa, se normalizase total datorita vascului.
+Si femeile ar trebui sa apeleze la ceaiul de vasc. Normalizarea circulatiei sangelui
+aduce dupa sine o incetare a dereglarilor menstruale, mai ales a menoragiilor (a
+hemoragiilor menstruale puternice), precum si a metroragiilor postpartum (de
+dupa nastere). In cadrul indispozitiilor din timpul menopauzei, insotite de palpitatii,
+stari de agitatie, anxietate si insuficienta respiratorie, ceaiul de vasc ar trebui ad-
+ministrat cativa ani la rand. Toate aceste stari neplacute dispar si femeia nu mai are
+senzatia ca se afla la menopauza. Sucul proaspat de vasc poate inlatura sterilitatea
 
-femeii. Vâscul trebuie spălat bine și presat, cât e încă în stare umedă, cu ajutorul
-storcătorului electric. Se iau din acest suc câte 25 picături în puțină apă, dimineața pe
-stomacul gol, 1/2 oră înainte de micul dejun, și seara înainte de culcare.
-Cu câtva timp în urmă s-a publicat în presă o comunicare din Londra în legătură cu
-faptul că trei grupe de cercetători au ajuns, independent unele de altele, la concluzia că la
-femeile în vârstă de peste 50 de ani se formează într-un procent mare cancer la sân dacă
-au folosit în tratamentul hipertensiunii arteriale o perioadă îndelungată medicamente pentru
-scăderea tensiunii. De ce să ne asumăm acest risc când avem minunatul vâsc?
-De scurtă vreme, vâscul se utilizează și medicinal ca un mijloc ce previne cancerul și
-combate cancerul. Experiența arată fot mereu ce efect depurativ și profilactic au plantele
-medicinale. Recurgeți la aceste ajutoare, pentru ca sănătatea dumneavoastră să se
-consolideze și să se mențină pentru totdeauna!
+femeii. Vascul trebuie spalat bine si presat, cat e inca in stare umeda, cu ajutorul
+storcatorului electric. Se iau din acest suc cate 25 picaturi in putina apa, dimineata pe
+stomacul gol, 1/2 ora inainte de micul dejun, si seara inainte de culcare.
+Cu catva timp in urma s-a publicat in presa o comunicare din Londra in legatura cu
+faptul ca trei grupe de cercetatori au ajuns, independent unele de altele, la concluzia ca la
+femeile in varsta de peste 50 de ani se formeaza intr-un procent mare cancer la san daca
+au folosit in tratamentul hipertensiunii arteriale o perioada indelungata medicamente pentru
+scaderea tensiunii. De ce sa ne asumam acest risc cand avem minunatul vasc?
+De scurta vreme, vascul se utilizeaza si medicinal ca un mijloc ce previne cancerul si
+combate cancerul. Experienta arata fot mereu ce efect depurativ si profilactic au plantele
+medicinale. Recurgeti la aceste ajutoare, pentru ca sanatatea dumneavoastra sa se
+consolideze si sa se mentina pentru totdeauna!
 MODURI DE FOLOSIRE
-Prepararea ceaiului: Ceaiul de vâsc se pregătește doar ca extract rece. Se pune
-peste noapte la macerat 1 linguriță (cu vârf) de vâsc în 1/4 litru de apă,
-dimineața se încălzește ușor și se filtrează. Dacă este necesară o cantitate
-mai mare pe zi, atunci ceaiul ar trebui să fie păstrat într-un ter mos clătit în
-prealabil cu apă fierbinte sau să fie încălzit de fiecare dată în bain-marie.
-Tinctură: Picături de vâsc gata preparate se pot cumpăra de la farmacie.
-Suc proaspăt: Frunzele și tulpinile proaspete sânt spălate si presate în stare
-umedă cu ajutorul storcătorului electric.
-Prepararea alifiei: Bobitele proaspete, albe ale vâscului sânt amestecate (la rece)
-cu untură de porc, până ce se formează o alifie (se folosește extern la
-degerături).
+Prepararea ceaiului: Ceaiul de vasc se pregateste doar ca extract rece. Se pune
+peste noapte la macerat 1 lingurita (cu varf) de vasc in 1/4 litru de apa,
+dimineata se incalzeste usor si se filtreaza. Daca este necesara o cantitate
+mai mare pe zi, atunci ceaiul ar trebui sa fie pastrat intr-un ter mos clatit in
+prealabil cu apa fierbinte sau sa fie incalzit de fiecare data in bain-marie.
+Tinctura: Picaturi de vasc gata preparate se pot cumpara de la farmacie.
+Suc proaspat: Frunzele si tulpinile proaspete sant spalate si presate in stare
+umeda cu ajutorul storcatorului electric.
+Prepararea alifiei: Bobitele proaspete, albe ale vascului sant amestecate (la rece)
+cu untura de porc, pana ce se formeaza o alifie (se foloseste extern la
+degeraturi).
 ## IERBURILE SUEDEZE
 
 IERBURILE SUEDEZE
@@ -3427,636 +3427,636 @@ IERBURILE SUEDEZE
 
 MICUL BITTER SUEDEZ
 10 grame de aloe*
-5 grame de smirnă
-0,2 grame de șofran 10 grame de foi de sena (siminichie)
-10 grame de camfor** 10 grame de rădăcină de revent
-(rabarbăr) 10 grame de rădăcină de curcumă (șofran-de-
-lndia) 10 grame de mană 10 grame de Theriak venezian
-5 grame de rădăcină de lemnul-Domnului 10
-grame de rădăcină de anghelică
-In loc de aloe se pot folosi și rădăcină de gențiană sau praf de pelin (n. a.). Este
-voie să se folosească doar camforul natural (n. a.).
+5 grame de smirna
+0,2 grame de sofran 10 grame de foi de sena (siminichie)
+10 grame de camfor** 10 grame de radacina de revent
+(rabarbar) 10 grame de radacina de curcuma (sofran-de-
+lndia) 10 grame de mana 10 grame de Theriak venezian
+5 grame de radacina de lemnul-Domnului 10
+grame de radacina de anghelica
+In loc de aloe se pot folosi si radacina de gentiana sau praf de pelin (n. a.). Este
+voie sa se foloseasca doar camforul natural (n. a.).
 
-Ierburile suedeze se pun la macerat în 1 1/2 litru de rachiu de secară sau de rachiu bun de
-fructe de 38-40% , într-o sticlă de 2 litri cu gatul larg și se lasă să stea 14 zile în soare sau în
-apropierea mașinii de gătit. Se agită zilnic, de asemenea înainte de filtrarea într-o sticlă mică
-sau înainte de întrebuințare. Cealaltă cantitate poate răm âne tim p nelimitat peste plante. Se
-toarnă lichidul în sticle mici care se astupă bine și se păstrează la rece. Astfel se poate păstra
-acest elixir mulți ani. Cu cât stă mai mult, cu atât este mai eficace.
-Rețeta a fost găsită după moartea renumitului medic suedez, rectorul Facultății de
-medicină, dr. Samst, printre scrisorile sale. Dr. Samst a murit într-un accident de călărie la
-vârsta de 104 ani. Părinții și bunicii lui atinseseră și ei o vârstă venerabilă.
-Sună aproape ca o poveste și totuși s-a întâmplat întocmai: Pe când eram femeie
-tânără, am ajuns foarte grav bolnavă în apropiere de Lembach. Fiind izgonită din patrie,
-m-am îmbolnăvit într-un lagăr bavarez de tifos abdominal, o intoxicație cu carne, la
-care s-au adăugat un icter și o ocluzie intestinală. Am zăcut peste o jumătate de an în
-spital. Când soțul meu ne-a adus pe mine, pe copilul nostru și pe mamele noastre în
-Austria, de-abia mă țineam pe picioare. Noaptea începeau dureri care parcă îmi
-străpungeau organismul cu o sabie. În acele momente, nu puteam să stau nici pe scaun,
-nici întinsă, nici în picioare, nici să merg; concomitent se declanșau vărsături și diaree.
-Eram o adunătură neajutorată de oase. Medicul a recunoscut aici dureri ulterioare
-tifosului, care de multe ori se continuă încă ani de zile. într-o bună zi, o femeie străină mi-
-a adus o sticluță cu un lichid maro închis, cu miros puternic. Aflase de boala mea și voia
-să mă ajute. Mi-a spus că aceste ierburi suedeze o salvaseră și pe ea de la o boală grea. A
-adus și copia unui „Manuscris vechi" în care se explica în 46 de puncte cum vindecă
-aceste picături orice boală. Rețeta provenea din moștenirea unui renumit medic suedez.
-După cum scrie acolo, toți membrii familiei sale au atins o vârstă neobișnuit de înaintată.
-Biterul suedez vindecă, conform punctului 43, și „buboaiele și pustulele de ciumă, chiar
-dacă s-ar afla deja în gât". Mai întâi am băgat picăturile în dulăpiorul de medicamente. Pur
-și simplu nu mi-a venit a crede că aceste picături modeste mi-ar putea reda sănătatea,
-atunci când însuși doctorul nu-mi mai putea aduce nici un ajutor. Dar curând am aflat că nu
-era nici pe departe așa. Tocmai ședeam lângă un coș cu pere răscoapte cărora trebuia
-urgent să li se găsească întrebuințare, când am fost cuprinsă de o nouă criză. Cum
-fusesem asigurată că picăturile puteau fi folosite nu numai intern, ci si extern ca niște
-comprese, n-am stat pe gânduri și mi-am pus o bucată de vată umezită cu picături -peste
-care am aplicat un săculeț de nailon - sub formă de compresă pe burtă, am tras deasupra
-portjartierul ciorapului și m-am apucat iar de treabă. Peste corpul meu s-a revărsat o
-senzație caldă, plăcută și deodată am avut impresia că cineva ar trage din trupul meu cu o
-singură mișcare de mână tot ce era bolnav. Vă asigur că am scăpat cu această compresă
-unică, pe care am purtat-o toată ziua sub portjartierul ciorapului meu, de toate durerile și
-indispozițiile ultimelor luni. Boala a zburat, ca suflată de vânt, și niciodată n-a mai survenit
-o nouă criză.
-Când fiul nostru avea 6 ani a fost atacat de un câine lup și mușcat îngrozitor de obraz.
-Niște cicatrice roșu-închis i-au apărut mai târziu pe față de la nas în jos înspre gură. în
-„Manuscrisul vechi" se poate citi la punctul 33 că picăturile îndepărtează toate cicatricele,
-chiar dacă sânt vechi, semnele rănilor și tăieturile, dacă acestea sânt umezite cu
-ele până la de 40 de ori. Prin urmare, am umezit zilnic cicatricele fiului nos tru, seara înainte
-de culcare. Foarte curând au dispărut fără urmă, chiar și cele care ajungeau până adânc în
+Ierburile suedeze se pun la macerat in 1 1/2 litru de rachiu de secara sau de rachiu bun de
+fructe de 38-40% , intr-o sticla de 2 litri cu gatul larg si se lasa sa stea 14 zile in soare sau in
+apropierea masinii de gatit. Se agita zilnic, de asemenea inainte de filtrarea intr-o sticla mica
+sau inainte de intrebuintare. Cealalta cantitate poate ram ane tim p nelimitat peste plante. Se
+toarna lichidul in sticle mici care se astupa bine si se pastreaza la rece. Astfel se poate pastra
+acest elixir multi ani. Cu cat sta mai mult, cu atat este mai eficace.
+Reteta a fost gasita dupa moartea renumitului medic suedez, rectorul Facultatii de
+medicina, dr. Samst, printre scrisorile sale. Dr. Samst a murit intr-un accident de calarie la
+varsta de 104 ani. Parintii si bunicii lui atinsesera si ei o varsta venerabila.
+Suna aproape ca o poveste si totusi s-a intamplat intocmai: Pe cand eram femeie
+tanara, am ajuns foarte grav bolnava in apropiere de Lembach. Fiind izgonita din patrie,
+m-am imbolnavit intr-un lagar bavarez de tifos abdominal, o intoxicatie cu carne, la
+care s-au adaugat un icter si o ocluzie intestinala. Am zacut peste o jumatate de an in
+spital. Cand sotul meu ne-a adus pe mine, pe copilul nostru si pe mamele noastre in
+Austria, de-abia ma tineam pe picioare. Noaptea incepeau dureri care parca imi
+strapungeau organismul cu o sabie. In acele momente, nu puteam sa stau nici pe scaun,
+nici intinsa, nici in picioare, nici sa merg; concomitent se declansau varsaturi si diaree.
+Eram o adunatura neajutorata de oase. Medicul a recunoscut aici dureri ulterioare
+tifosului, care de multe ori se continua inca ani de zile. intr-o buna zi, o femeie straina mi-
+a adus o sticluta cu un lichid maro inchis, cu miros puternic. Aflase de boala mea si voia
+sa ma ajute. Mi-a spus ca aceste ierburi suedeze o salvasera si pe ea de la o boala grea. A
+adus si copia unui „Manuscris vechi" in care se explica in 46 de puncte cum vindeca
+aceste picaturi orice boala. Reteta provenea din mostenirea unui renumit medic suedez.
+Dupa cum scrie acolo, toti membrii familiei sale au atins o varsta neobisnuit de inaintata.
+Biterul suedez vindeca, conform punctului 43, si „buboaiele si pustulele de ciuma, chiar
+daca s-ar afla deja in gat". Mai intai am bagat picaturile in dulapiorul de medicamente. Pur
+si simplu nu mi-a venit a crede ca aceste picaturi modeste mi-ar putea reda sanatatea,
+atunci cand insusi doctorul nu-mi mai putea aduce nici un ajutor. Dar curand am aflat ca nu
+era nici pe departe asa. Tocmai sedeam langa un cos cu pere rascoapte carora trebuia
+urgent sa li se gaseasca intrebuintare, cand am fost cuprinsa de o noua criza. Cum
+fusesem asigurata ca picaturile puteau fi folosite nu numai intern, ci si extern ca niste
+comprese, n-am stat pe ganduri si mi-am pus o bucata de vata umezita cu picaturi -peste
+care am aplicat un saculet de nailon - sub forma de compresa pe burta, am tras deasupra
+portjartierul ciorapului si m-am apucat iar de treaba. Peste corpul meu s-a revarsat o
+senzatie calda, placuta si deodata am avut impresia ca cineva ar trage din trupul meu cu o
+singura miscare de mana tot ce era bolnav. Va asigur ca am scapat cu aceasta compresa
+unica, pe care am purtat-o toata ziua sub portjartierul ciorapului meu, de toate durerile si
+indispozitiile ultimelor luni. Boala a zburat, ca suflata de vant, si niciodata n-a mai survenit
+o noua criza.
+Cand fiul nostru avea 6 ani a fost atacat de un caine lup si muscat ingrozitor de obraz.
+Niste cicatrice rosu-inchis i-au aparut mai tarziu pe fata de la nas in jos inspre gura. in
+„Manuscrisul vechi" se poate citi la punctul 33 ca picaturile indeparteaza toate cicatricele,
+chiar daca sant vechi, semnele ranilor si taieturile, daca acestea sant umezite cu
+ele pana la de 40 de ori. Prin urmare, am umezit zilnic cicatricele fiului nos tru, seara inainte
+de culcare. Foarte curand au disparut fara urma, chiar si cele care ajungeau pana adanc in
 nas.
-Având această experiență, am sosit în anul 1953 la Grieskirchen. Făcând o vizită într-o
-gospodărie țărănească, am întâlnit țăranca tânără, mamă a doi copii mici, la muls în
-grajdul de vaci. „Dacă mă pui la perete, mă las pe loc împușcată de tine", mi-a spus
+Avand aceasta experienta, am sosit in anul 1953 la Grieskirchen. Facand o vizita intr-o
+gospodarie taraneasca, am intalnit taranca tanara, mama a doi copii mici, la muls in
+grajdul de vaci. „Daca ma pui la perete, ma las pe loc impuscata de tine", mi-a spus
 
-în loc de salut. Avea de săptămâni întregi dureri de cap insuportabile și, cum medicului îi
-era teamă de o tumoare la cap, trebuia să plece la Linz să facă raze Rontgen. L-am trimis
-chiar în aceeași seară pe fiul meu la ea cu o sticluță de biter suedez, ca să fie măcar
-noaptea eliberată de durerile de cap cu ajutorul compresei cu picături. Cât de surprinsă am
-fost când m-am trezit la ora șapte dimineața cu soțul ei la ușă. „Ce i-ai trimis nevestii-mi?
-După ce și-a pus vata umedă a scăpat în două minute de durerile cumplite de cap.
-Dimineața s-au scurs apoi prin nas în gât două dopuri maro-roșcate, groase cât degetul mic.
-"Era o sinuzită frontală neglijată care a fost Măturată printr-o singură compresă. Această
-țărancă se încrede și astăzi orbește în biterul suedez. A putut s-o scape cu ani în urmă și pe
-fetița ei de o pneumonie foarte urâtă cu ajutorul compreselor respective și are grijă să nu
-rămână niciodată fără acest leac în casă.
-O femeie a suferit mai multe luni în șir de o sinuzită frontală purulentă dureroasă.
+in loc de salut. Avea de saptamani intregi dureri de cap insuportabile si, cum medicului ii
+era teama de o tumoare la cap, trebuia sa plece la Linz sa faca raze Rontgen. L-am trimis
+chiar in aceeasi seara pe fiul meu la ea cu o sticluta de biter suedez, ca sa fie macar
+noaptea eliberata de durerile de cap cu ajutorul compresei cu picaturi. Cat de surprinsa am
+fost cand m-am trezit la ora sapte dimineata cu sotul ei la usa. „Ce i-ai trimis nevestii-mi?
+Dupa ce si-a pus vata umeda a scapat in doua minute de durerile cumplite de cap.
+Dimineata s-au scurs apoi prin nas in gat doua dopuri maro-roscate, groase cat degetul mic.
+"Era o sinuzita frontala neglijata care a fost Maturata printr-o singura compresa. Aceasta
+taranca se increde si astazi orbeste in biterul suedez. A putut s-o scape cu ani in urma si pe
+fetita ei de o pneumonie foarte urata cu ajutorul compreselor respective si are grija sa nu
+ramana niciodata fara acest leac in casa.
+O femeie a suferit mai multe luni in sir de o sinuzita frontala purulenta dureroasa.
 Respiratul prin nas era imposibil. In paralel avea dureri de cap insuportabile. Antibioti cele
-puternice și razele n-au ajutat-o. Și-a aplicat atunci peste noapte comprese cu biter suedez
-pe frunte, ochi și nas. A simțit o ușurare încă de la prima utilizare. După 3 comprese puse
-în nopțile următoare, căile respiratorii i s-au destupat, iar prin nas s-au scurs dopuri mari cu
+puternice si razele n-au ajutat-o. Si-a aplicat atunci peste noapte comprese cu biter suedez
+pe frunte, ochi si nas. A simtit o usurare inca de la prima utilizare. Dupa 3 comprese puse
+in noptile urmatoare, caile respiratorii i s-au destupat, iar prin nas s-au scurs dopuri mari cu
 puroi.
-Cunoșteam din vedere o femeie tânără care după nașterea celui de-al șaselea copil
-părea a fi umbra celei de altădată. Am abordat-o și astfel am aflat că momentan nu mai
-putea să mănânce nimic. A fost nevoită să-și dea copiii cuiva în îngrijire. Am sfătuit-o să
-încerce cu ierburile suedeze. Aproximativ trei săptămâni mai târziu am revăzut-o; era iarăși
-o femeie sănătoasă, proaspătă. Mi-a spus că picăturile au făcut minuni. Putea din nou să
-mănânce tot și-și adusese copiii iar acasă. „A fost de parcă ar fi sărit un animal din mine",
-mi-a afirmat și mi-a mai povestit că mama ei era în spital din cauza unui picior umflat foarte
-tare și că umbla deja de mult cu baston. 75 de injecții n-au fost în stare să dea nici un
-rezultat. l-a trimis mamei sale manuscrisul, sfătuind-o să recurgă la biterul suedez care și-a
-făcut foarte rapid efectul. Piciorul este din nou normal și bastonul a devenit de prisos.
-într-o zi am primit o scrisoare din Germania în care o cunoștință mă ruga să port
-sufletește de grijă nepoatei ei care era în momentul acela la cură în Gallspach. Când tânără
-a venit pentru prima dată la mine la Grieskirchen, m-am speriat foarte tare. A fost ridicată
-din mașină, i s-au împins sub brațe două cârje, iar corpul infirm tot a avut nevoie, în ciuda
-sprijinului, de peste un sfert de oră până la locuința mea aflată la etajul întâi. Articulațiile
-ambelor picioare erau deformate, degetele mâinilor crispate și incapa bile să țină ceva. în
-timpul mersului picioarele erau târâte, iar partea superioară a corpu lui aruncată în față cu
-smucituri. Stăteam în ușa apartamentului cu mâinile apăsate pe inimă și nu am putut
-articula decât: „Cum ați ajuns dumneavoastră, femeie tânără, la o astfel de boală
-îngrozitoare?" „Peste noapte, după al patrulea copil" mi-a răspuns. Brusc, ca să zicem așa
-„peste noapte", femeia aceasta tânără și drăguță a devenit in firmă. A fost dusă în
-Germania din doctor în doctor, nimeni n-a putut s-o ajute. Venea de patru ani, periodic, de
-două ori pe an, la Gallspach la dr. Zeileis, care a trebuit să-i spună că putea doar să-i
-atenueze starea, nu s-o vindece. Halul în care arăta când a apucat ceașca de cafea cu
-laturile exterioare ale mâinilor ei schiloade mi-a străpuns inima. Am sfătuit-o să ia bitter
-suedez, care se putea procura atunci în Germania sub denumirea de „Crancampo". Astăzi
-țin multe farmacii și drogherii biterul suedez după rețeta indicată. l-am spus să se agate de
-el ca de un pai. Asta a fost în februarie 1964. în luna septembrie a aceluiași an am primit
-un telefon din Gallspach din partea tinerei femei, rugându-mă să vin s-o iau în Grieskirchen
-de la autobuz, întâi am rămas per plexă, apoi extraordinar de mirată când din autobuz a
-coborât o femeie tânără, râzând și numai sprijinindu-se în baston. Crisparea si
-schilodirea mâinilor dispăruseră, la fel și o mare parte din deformările de la picioare.
-Numai la piciorul sting mai avea genunchiul și glezna umflate. Și aceste umflături s-au retras
-total până pe 3 august
+Cunosteam din vedere o femeie tanara care dupa nasterea celui de-al saselea copil
+parea a fi umbra celei de altadata. Am abordat-o si astfel am aflat ca momentan nu mai
+putea sa manance nimic. A fost nevoita sa-si dea copiii cuiva in ingrijire. Am sfatuit-o sa
+incerce cu ierburile suedeze. Aproximativ trei saptamani mai tarziu am revazut-o; era iarasi
+o femeie sanatoasa, proaspata. Mi-a spus ca picaturile au facut minuni. Putea din nou sa
+manance tot si-si adusese copiii iar acasa. „A fost de parca ar fi sarit un animal din mine",
+mi-a afirmat si mi-a mai povestit ca mama ei era in spital din cauza unui picior umflat foarte
+tare si ca umbla deja de mult cu baston. 75 de injectii n-au fost in stare sa dea nici un
+rezultat. l-a trimis mamei sale manuscrisul, sfatuind-o sa recurga la biterul suedez care si-a
+facut foarte rapid efectul. Piciorul este din nou normal si bastonul a devenit de prisos.
+intr-o zi am primit o scrisoare din Germania in care o cunostinta ma ruga sa port
+sufleteste de grija nepoatei ei care era in momentul acela la cura in Gallspach. Cand tanara
+a venit pentru prima data la mine la Grieskirchen, m-am speriat foarte tare. A fost ridicata
+din masina, i s-au impins sub brate doua carje, iar corpul infirm tot a avut nevoie, in ciuda
+sprijinului, de peste un sfert de ora pana la locuinta mea aflata la etajul intai. Articulatiile
+ambelor picioare erau deformate, degetele mainilor crispate si incapa bile sa tina ceva. in
+timpul mersului picioarele erau tarate, iar partea superioara a corpu lui aruncata in fata cu
+smucituri. Stateam in usa apartamentului cu mainile apasate pe inima si nu am putut
+articula decat: „Cum ati ajuns dumneavoastra, femeie tanara, la o astfel de boala
+ingrozitoare?" „Peste noapte, dupa al patrulea copil" mi-a raspuns. Brusc, ca sa zicem asa
+„peste noapte", femeia aceasta tanara si draguta a devenit in firma. A fost dusa in
+Germania din doctor in doctor, nimeni n-a putut s-o ajute. Venea de patru ani, periodic, de
+doua ori pe an, la Gallspach la dr. Zeileis, care a trebuit sa-i spuna ca putea doar sa-i
+atenueze starea, nu s-o vindece. Halul in care arata cand a apucat ceasca de cafea cu
+laturile exterioare ale mainilor ei schiloade mi-a strapuns inima. Am sfatuit-o sa ia bitter
+suedez, care se putea procura atunci in Germania sub denumirea de „Crancampo". Astazi
+tin multe farmacii si drogherii biterul suedez dupa reteta indicata. l-am spus sa se agate de
+el ca de un pai. Asta a fost in februarie 1964. in luna septembrie a aceluiasi an am primit
+un telefon din Gallspach din partea tinerei femei, rugandu-ma sa vin s-o iau in Grieskirchen
+de la autobuz, intai am ramas per plexa, apoi extraordinar de mirata cand din autobuz a
+coborat o femeie tanara, razand si numai sprijinindu-se in baston. Crisparea si
+schilodirea mainilor disparusera, la fel si o mare parte din deformarile de la picioare.
+Numai la piciorul sting mai avea genunchiul si glezna umflate. Si aceste umflaturi s-au retras
+total pana pe 3 august
 
-1965, deci un an mai târziu. A venit atunci pentru ultima oară la Gallspach, fără baston și
-complet refăcută. La nașterea celui de-al patrulea copil, suferiseră și rinichii și ei
-declanșaseră peste noapte aceste deformări îngrozitoare. Pusese de 3 ori pe zi 1 lingură
-de biter suedez în puțină apă călduță și îl băuse repartizat în porții, înainte și după fiecare
-masă, în înghițituri mici. Deși ierburile erau macerate în rachiu de secară, rinichii au
+1965, deci un an mai tarziu. A venit atunci pentru ultima oara la Gallspach, fara baston si
+complet refacuta. La nasterea celui de-al patrulea copil, suferisera si rinichii si ei
+declansasera peste noapte aceste deformari ingrozitoare. Pusese de 3 ori pe zi 1 lingura
+de biter suedez in putina apa calduta si il bause repartizat in portii, inainte si dupa fiecare
+masa, in inghitituri mici. Desi ierburile erau macerate in rachiu de secara, rinichii au
 suportat alcoolul.
-Vreau să mai înșir și alte rezultate ale acțiunii incredibile a biterului suedez. Am aflat de
-la sora mea care trăiește în Germania că o cunoștință din Leipzig și-a petrecut deja 15 ani
-în scaunul cu rotile. Aceasta a locuit în timpul războiului la Praga și în 1945 a fost gonită în
-pivnița casei - soarta a mii de germani. Acolo a trebuit să rămână săptămâni întregi fără să
-aibă paie sau altceva de pus sub ea. Mai târziu a ajuns cu soțul ei la Leipzig. Curând i s-
-au ivit niște deformări foarte grave ale articulațiilor. Până la urmă nu i-a mai rămas
-decât o viață dusă în scaunul rulant. Am aflat de această tragedie abia atunci când bărbatul
-ei a murit brusc, lăsând-o pe sărmana paralitică singură; femeia a trebuit să-și părăsească
-locuința și să se mute într-o altă cameră mobilată. Nu este permis să se trimită din Austria
-în R.D.G. plante medicinale sau alte produse asemănătoare unor medicamente. Trebuia
-deci să predau de fiecare dată ierburile suedeze către Leipzig dintr-o localitate bavareză de
-graniță, o dată la două luni. Curând am primit scrisori pline de încredere. Bolnava lua de
-trei ori pe zi în puțină apă câte o lingură de soluție repartizată înainte și după fiecare masă.
-încet-încet, deformările au început să se retragă și încheieturile au devenit mai mobile. Ne
-rugam lui Dumnezeu, ea din Leipzig și eu din Grieskirchen. După trei sferturi de an
-schimbarea a fost de așa natură, încât cea care odinioară era imobilă, iar acum în
-convalescență lentă și-a părăsit pentru prima dată locuința după 15 ani de scaun cu rotile.
-Se îndrepta spre bine. Putea din nou să-și spele singură geamurile și să se ocupe de alte
-treburi zilnice pe care până atunci i le făcuseră diverși oameni săritori. Cât de mare a fost
-încrederea sa în Dumnezeu în timpul bolii cumplite arată următoarea întâmplare: Un tei din
-fața ferestrei a devenit în timpul bolii bucuria vieții ei. înverzirea și înflorirea pomului,
-îngălbenirea frunzelor și agitația veselă a păsărelelor printre ramurile golașe în vreme de
-iarnă i-au fost o sursă de mare bucurie. I-a mulțumit veșnic Domnului pen tru această milă a
+Vreau sa mai insir si alte rezultate ale actiunii incredibile a biterului suedez. Am aflat de
+la sora mea care traieste in Germania ca o cunostinta din Leipzig si-a petrecut deja 15 ani
+in scaunul cu rotile. Aceasta a locuit in timpul razboiului la Praga si in 1945 a fost gonita in
+pivnita casei - soarta a mii de germani. Acolo a trebuit sa ramana saptamani intregi fara sa
+aiba paie sau altceva de pus sub ea. Mai tarziu a ajuns cu sotul ei la Leipzig. Curand i s-
+au ivit niste deformari foarte grave ale articulatiilor. Pana la urma nu i-a mai ramas
+decat o viata dusa in scaunul rulant. Am aflat de aceasta tragedie abia atunci cand barbatul
+ei a murit brusc, lasand-o pe sarmana paralitica singura; femeia a trebuit sa-si paraseasca
+locuinta si sa se mute intr-o alta camera mobilata. Nu este permis sa se trimita din Austria
+in R.D.G. plante medicinale sau alte produse asemanatoare unor medicamente. Trebuia
+deci sa predau de fiecare data ierburile suedeze catre Leipzig dintr-o localitate bavareza de
+granita, o data la doua luni. Curand am primit scrisori pline de incredere. Bolnava lua de
+trei ori pe zi in putina apa cate o lingura de solutie repartizata inainte si dupa fiecare masa.
+incet-incet, deformarile au inceput sa se retraga si incheieturile au devenit mai mobile. Ne
+rugam lui Dumnezeu, ea din Leipzig si eu din Grieskirchen. Dupa trei sferturi de an
+schimbarea a fost de asa natura, incat cea care odinioara era imobila, iar acum in
+convalescenta lenta si-a parasit pentru prima data locuinta dupa 15 ani de scaun cu rotile.
+Se indrepta spre bine. Putea din nou sa-si spele singura geamurile si sa se ocupe de alte
+treburi zilnice pe care pana atunci i le facusera diversi oameni saritori. Cat de mare a fost
+increderea sa in Dumnezeu in timpul bolii cumplite arata urmatoarea intamplare: Un tei din
+fata ferestrei a devenit in timpul bolii bucuria vietii ei. inverzirea si inflorirea pomului,
+ingalbenirea frunzelor si agitatia vesela a pasarelelor printre ramurile golase in vreme de
+iarna i-au fost o sursa de mare bucurie. I-a multumit vesnic Domnului pen tru aceasta mila a
 SA.
-Făceam odată baie în Offensee și întrebuințam o bucată de lemn lunguiață și cu canturi
-pentru a mă așeza pe ea la mal. într-una din zile, această bârnă era sprijinită de un gard
-care împrejmuia o pășune. Lăsasem sacoșa de baie în imediată apropiere. Înainte de a
-porni spre casă, mi-am rânduit în ea, îndoită din mijloc, lucrurile de baie. Deodată parcă m-
-ar fi lovit trăsnetul: bârna cea grea îmi căzuse direct pe picior. M-am învinețit de la
-genunchi în jos și mi s-au format două umflături mari cât pumnul. Am fost cărată până la
-mașină și apoi până sus în cameră. Soțul meu a vrut să cheme medicul din Ebensee, eu
-însă l-am rugat să-mi facă o compresă cu ierburi suedeze. După aproximativ o jumătate
-de oră am putut coborî iarăși singură treptele până la sala de mese, iar în ziua următoare
-piciorul era neted ca înainte. Nu se vedea nici cea mai mică porțiune echimozată
-(vânătă), iar umflăturile mari cât pumnul dispăruseră și ele.
-A mai avut loc un necaz cât am stat la Offensee. O fetiță de 4 anișori a fost înțepată la
-braț în timp ce se scălda de o specie de viespe mare, foarte veninoasă. Brațul s-a umflat,
-devenind diform. M-am dus să iau biterul suedez, înainte ca părinții și copilul să fi apucat
-să se îmbrace, am și venit cu compresa. În timp ce fetița mergea spre mașină, i-am pus
-vată umezită pe locul umflat. Când am ajuns la mașină - aproximativ trei minute de mers -,
-umflătura scăzuse deja. N-a mai trebuit consultat medicul.
-Culegând odată zmeură, m-a înțepat la degetul mare o insectă veninoasă. Degetul s-
-a umflat pe loc, devenind gros cât un canat. Ducându-mă la cumpărături, o doamnă a
-remarcat îngrozită: „Mergeți imediat la spital, o astfel de înțepătură vă poate fi fatală."
+Faceam odata baie in Offensee si intrebuintam o bucata de lemn lunguiata si cu canturi
+pentru a ma aseza pe ea la mal. intr-una din zile, aceasta barna era sprijinita de un gard
+care imprejmuia o pasune. Lasasem sacosa de baie in imediata apropiere. Inainte de a
+porni spre casa, mi-am randuit in ea, indoita din mijloc, lucrurile de baie. Deodata parca m-
+ar fi lovit trasnetul: barna cea grea imi cazuse direct pe picior. M-am invinetit de la
+genunchi in jos si mi s-au format doua umflaturi mari cat pumnul. Am fost carata pana la
+masina si apoi pana sus in camera. Sotul meu a vrut sa cheme medicul din Ebensee, eu
+insa l-am rugat sa-mi faca o compresa cu ierburi suedeze. Dupa aproximativ o jumatate
+de ora am putut cobori iarasi singura treptele pana la sala de mese, iar in ziua urmatoare
+piciorul era neted ca inainte. Nu se vedea nici cea mai mica portiune echimozata
+(vanata), iar umflaturile mari cat pumnul disparusera si ele.
+A mai avut loc un necaz cat am stat la Offensee. O fetita de 4 anisori a fost intepata la
+brat in timp ce se scalda de o specie de viespe mare, foarte veninoasa. Bratul s-a umflat,
+devenind diform. M-am dus sa iau biterul suedez, inainte ca parintii si copilul sa fi apucat
+sa se imbrace, am si venit cu compresa. In timp ce fetita mergea spre masina, i-am pus
+vata umezita pe locul umflat. Cand am ajuns la masina - aproximativ trei minute de mers -,
+umflatura scazuse deja. N-a mai trebuit consultat medicul.
+Culegand odata zmeura, m-a intepat la degetul mare o insecta veninoasa. Degetul s-
+a umflat pe loc, devenind gros cat un canat. Ducandu-ma la cumparaturi, o doamna a
+remarcat ingrozita: „Mergeti imediat la spital, o astfel de intepatura va poate fi fatala."
 
-Peste noapte mi-am pus o vată umezită cu bitter suedez și dimineața degetul era iarăși
+Peste noapte mi-am pus o vata umezita cu bitter suedez si dimineata degetul era iarasi
 normal.
-Am avut odată mare ghinion pe când mă aflam în spălătorie. Era pe vremea când
-mașina de spălat spăla fără a limpezi. Rufele destul de încâlcite între ele trebuiau scoase cu
-ajutorul unui băț de lemn. Felul meu este să le rezolv pe toate rapid și cu mult elan. Cleștele
-a alunecat și m-a pocnit cu o putere extraordinară direct în ochiul drept. Înnebunită de
-durere și pe jumătate orbită, am bâjbâit până la etajul întâi. Cum am pus pe ochi compresa
-udată cu biter suedez, au și încetat durerile cumplite. O clipă mai târziu m-am uitat în
-oglindă să-mi admir isprava. Ochiul era înconjurat de vânătă. Ținând o vată umedă pe
-ochi, izolată cu un săculeț de plastic și legată cu un batic împăturit, m-am dus după un sfert
-de oră iar în spălătorie. Câteva zile la rând mi-am pus peste noapte comprese cu biter
-suedez ca să împiedic să se poată forma ceva rău în fundul ochiului.
-Anual merg la cură la băile Kneipp din Muhllacken. în timpul uneia dintre șederi,
-sora-șefă mi-a adus o femeie, care a intrat în cameră în urma ei, cocoșată de durere.
-Se chinuia cu crize biliare puternice și voia să-i dau un sfat. Numeroasele medica
-mente administrate nu-i fuseseră de nici un ajutor și medicul i-a recomandat să se
-opereze neapărat. Am rugat-o să se dezbrace și i-am aplicat o compresă cu ierburi
-suedeze pe regiunea biliară; la astfel de comprese, pielea trebuie unsă în prealabil cu
-untură de porc sau cu alifie de filimică, întrucât altfel alcoolul ar usca pielea. Se pun o
-bucată de vată umezită și bine stoarsă pe locul dureros, una de vată uscată și una de
-plastic deasupra, pentru a asigura izolația termică și se leagă cu o cârpă. După
-scoaterea compresei, pielea trebuie pudrată, pentru a evita o înrobire sau mâncărimi!
-Tocmai voiam să-i trag femeii portjartierul peste compresă, când s-a îndreptat din șale,
-exclamând: „Mi-a trecut orice durere!" A scăpat în timpul cel mai scurt de tot răul. Mai
-târziu a folosit picăturile nu numai sub formă de comprese, ci și intern, și anume luând
-de 3 ori pe zi câte 1 linguriță în puțină apă sau puțin ceai de plante și criza nu s-a mai
+Am avut odata mare ghinion pe cand ma aflam in spalatorie. Era pe vremea cand
+masina de spalat spala fara a limpezi. Rufele destul de incalcite intre ele trebuiau scoase cu
+ajutorul unui bat de lemn. Felul meu este sa le rezolv pe toate rapid si cu mult elan. Clestele
+a alunecat si m-a pocnit cu o putere extraordinara direct in ochiul drept. Innebunita de
+durere si pe jumatate orbita, am bajbait pana la etajul intai. Cum am pus pe ochi compresa
+udata cu biter suedez, au si incetat durerile cumplite. O clipa mai tarziu m-am uitat in
+oglinda sa-mi admir isprava. Ochiul era inconjurat de vanata. Tinand o vata umeda pe
+ochi, izolata cu un saculet de plastic si legata cu un batic impaturit, m-am dus dupa un sfert
+de ora iar in spalatorie. Cateva zile la rand mi-am pus peste noapte comprese cu biter
+suedez ca sa impiedic sa se poata forma ceva rau in fundul ochiului.
+Anual merg la cura la baile Kneipp din Muhllacken. in timpul uneia dintre sederi,
+sora-sefa mi-a adus o femeie, care a intrat in camera in urma ei, cocosata de durere.
+Se chinuia cu crize biliare puternice si voia sa-i dau un sfat. Numeroasele medica
+mente administrate nu-i fusesera de nici un ajutor si medicul i-a recomandat sa se
+opereze neaparat. Am rugat-o sa se dezbrace si i-am aplicat o compresa cu ierburi
+suedeze pe regiunea biliara; la astfel de comprese, pielea trebuie unsa in prealabil cu
+untura de porc sau cu alifie de filimica, intrucat altfel alcoolul ar usca pielea. Se pun o
+bucata de vata umezita si bine stoarsa pe locul dureros, una de vata uscata si una de
+plastic deasupra, pentru a asigura izolatia termica si se leaga cu o carpa. Dupa
+scoaterea compresei, pielea trebuie pudrata, pentru a evita o inrobire sau mancarimi!
+Tocmai voiam sa-i trag femeii portjartierul peste compresa, cand s-a indreptat din sale,
+exclamand: „Mi-a trecut orice durere!" A scapat in timpul cel mai scurt de tot raul. Mai
+tarziu a folosit picaturile nu numai sub forma de comprese, ci si intern, si anume luand
+de 3 ori pe zi cate 1 lingurita in putina apa sau putin ceai de plante si criza nu s-a mai
 repetat.
-Aveam de ani de zile grijă de o femeie singură. Numai că înțelegerea noastră era
-îngreunată de auzul ei slab. în „Manuscrisul vechi" scrie: „Ele readuc și auzul pierdut"
-Deci, la cerința mea, a trebuit să-și umezească în mod sistematic urechea cu bitter suedez.
-Degetul arătător umezit cu picături este introdus în ureche. Nu trebuie însă nici uitat să se
-picure în repetate rânduri puțin ulei în ureche, pentru a evita Mâncărimile. Femeia și-a
-umezit concomitent și porțiunile din jurul pavilionului urechii, din jurul ochilor, apoi templele
-și fruntea. Deodată a început să audă iarăși și, în același timp, obrazul i-a întinerit,
-căpătând prospețime. Fiind odată trântită la coborârea dintr-un autobuz și dând cu fața de
-pământ, tot ierburile suedeze au fost acelea care au pus în ordine obrazul vânăt. La 1
-februarie și-a aniversat a 89-a zi de naștere. Acum aude din nou și ne putem înțelege bine.
-De atâtea ori îmi relatează oamenii care-mi ascultă prelegerile că datorită biterului suedez
-și-au putut lăsa deoparte aparatul auditiv, căci aud iarăși normal. Picăturile ajută deci în caz
-de auz slab și peste tot acolo unde, fie in tern, fie extern, apar dureri. O irigație sangvină
-bună realizată datorită acestor picături înlătură foarte rapid durerile din zonele bolnave. De
-aceea este indicat să li se aplice epilepticilor comprese cu biter suedez pe regiunea
-occipitală. Cauza crizelor de epilepsie rezidă adesea în primii ani ai vieții; poate fi vorba de
-o cădere în cap sau de un șoc din copilărie.
-Cu ocazia unei prelegeri ținute la Gallspach a venit la mine un tânăr care suferise un
-accident de mașină groaznic - fractură dublă a bazei craniului. După vindecarea rănilor a
-început să aibă zilnic câteva crize de epilepsie. L-am sfătuit să-și pună comprese cu biter
-suedez în regiunea occipitală și să bea zilnic 4 cești cu ceai de urzici în
+Aveam de ani de zile grija de o femeie singura. Numai ca intelegerea noastra era
+ingreunata de auzul ei slab. in „Manuscrisul vechi" scrie: „Ele readuc si auzul pierdut"
+Deci, la cerinta mea, a trebuit sa-si umezeasca in mod sistematic urechea cu bitter suedez.
+Degetul aratator umezit cu picaturi este introdus in ureche. Nu trebuie insa nici uitat sa se
+picure in repetate randuri putin ulei in ureche, pentru a evita Mancarimile. Femeia si-a
+umezit concomitent si portiunile din jurul pavilionului urechii, din jurul ochilor, apoi templele
+si fruntea. Deodata a inceput sa auda iarasi si, in acelasi timp, obrazul i-a intinerit,
+capatand prospetime. Fiind odata trantita la coborarea dintr-un autobuz si dand cu fata de
+pamant, tot ierburile suedeze au fost acelea care au pus in ordine obrazul vanat. La 1
+februarie si-a aniversat a 89-a zi de nastere. Acum aude din nou si ne putem intelege bine.
+De atatea ori imi relateaza oamenii care-mi asculta prelegerile ca datorita biterului suedez
+si-au putut lasa deoparte aparatul auditiv, caci aud iarasi normal. Picaturile ajuta deci in caz
+de auz slab si peste tot acolo unde, fie in tern, fie extern, apar dureri. O irigatie sangvina
+buna realizata datorita acestor picaturi inlatura foarte rapid durerile din zonele bolnave. De
+aceea este indicat sa li se aplice epilepticilor comprese cu biter suedez pe regiunea
+occipitala. Cauza crizelor de epilepsie rezida adesea in primii ani ai vietii; poate fi vorba de
+o cadere in cap sau de un soc din copilarie.
+Cu ocazia unei prelegeri tinute la Gallspach a venit la mine un tanar care suferise un
+accident de masina groaznic - fractura dubla a bazei craniului. Dupa vindecarea ranilor a
+inceput sa aiba zilnic cateva crize de epilepsie. L-am sfatuit sa-si puna comprese cu biter
+suedez in regiunea occipitala si sa bea zilnic 4 cesti cu ceai de urzici in
 
-care să toarne 2 linguri de biter suedez, în crizele grave de epilepsie este important ca pe
-lângă aplicarea compreselor în regiunea occipitală să se bea și ceai de urzici.
-Câteva luni mai târziu, tânărul a trecut prin fața casei mele și mi-a spus de la gardul
-grădinii că scăpase total de crizele de epilepsie'!
-Meningitele, rănile la cap prin lovire sau căzături, bâlbâiala și tulburările de vor-
-bire se tratează cu succes prin comprese cu biter suedez puse în regiunea occipitală.
-Aceste comprese se pot folosi și în inflamația bursei sinoviale Nu este necesar să mai
-subliniez o dată faptul că în toate aceste boli grave trebuie consultat mai întâi medicul.
-După cum reiese din scrisori, compresele cu ierburi suedeze recomandate de mine au
-avut o acțiune benefică asupra ochilor în caz de dezlipire de retină, sângerare a retinei
-și rețină poroasa. Toți acești oameni se aflau în prag de orbire. Compresele se aplică
-zilnic timp de 1 oră pe ochii închiși. Nu trebuie neglijat însă să se pună profilactic aceste
-comprese și pe ochii sănătoși, mai ales pe cei suprasolicitați, în plus să se ungă
-pleoapele dimineața și seara cu biter suedez, să se plimbe biterul suedez concomitent
-spre coada ochilor cu arătătorul. Se poate menține astfel o vedere bună până la o vârstă
-înaintată.
-Deoarece biterul suedez este de un ajutor atât de extraordinar pentru sănătatea
-noastră, n-ar trebui să lipsească în nici o farmacie de casă. Picăturile n-ar trebui numai să
-fie mereu la îndemână, pregătite în sticluțe, ci să fie luate și în călătorii ca însoțitoare
-credincioase la drum. Uneori mâncarea din afară ne decepționează, avem nevoie de ceva
-pentru înviorarea stomacului si a bilei, alteori ne simțim slăbiți, istoviți si amețiți -
-în toate aceste situații, biterul suedez acționează ca un adevărat elixir. Se ia o înghițitură
-diluata cu putină apă, iar extern se freacă tâmplele, fruntea, porțiunile din jurul ochilor și
-cele din spatele urechilor și îndată se va ivi o senzație de revigorare a întregii condiții fizice.
-Dacă ne trezim brusc cu un guturai cu toate efectele lui secundare neplăcute ca
-oboseală, lipsă da putere, senzație de presiune în regiunea frunții și a stomacului, este
-suficient să ținem la nas un tampon de vată umezit cu biter suedez și să inspirăm adânc.
-Imediat vom simți o ușurare în zona frunții și a nasului. Dacă răceala este mai avansată și
-au fost deja atacate bronhiile, se inspiră picăturile cu gura deschisă. Și în acest caz se va
-resimți rapid un ajutor. În timpul epidemiilor de gripă se ia zilnic 1 lin guriță, uneori poate
-chiar 1 lingură de picături cu puțină apă călduță; astfel, devenim imuni la gripă. Oriunde
-apar dureri, ierburile suedeze ajută, luate intern sau folosite extern ca frecții și comprese.
-Cu câtva ani în urmă m-am trezit cu o colică renală. Am chemat medicul, dar tocmai era
-la consultații, în așteptarea Iui, mi-am pus o compresă cu biter suedez în zona renală și
-când a sosit, durerile îmi trecuseră. Eram destul de stingherită că-și pierduse timp prețios
-venind degeaba până la mine. însă el a vrut numai să știe cum de-mi trecuse colica atât
-de repede. Când a auzit că mă ajutase compresa, mi-a spus: „Excelent, atunci n-are rost
-să-ți mai fac injecție!" Și el era un adept al ierburilor suedeze. Întotdeauna când mergeam la
-el în cabinet, îmi spunea numai atât: „Ție nu-ti prescriu nimic, doar ai ierburile tale
-suedeze!" El a fost si cel care m-a ajutat sa cunosc mai îndeaproape multe alte plante
-medicinale și însemnătatea lor.
-A venit odată la mine o femeie bătrână care mergea de mulți ani în baston. Era complet
-strâmbă din cauza artritei si a reumatismului, nu-i mai folosea nici un medicament, era la
-plămâni din punct de vedere nervos. A băut de 3 ori pe zi câte 1 lin guriță de biter suedez în
-ceai de urzici sau de coada-calului și după trei săptămâni am auzit că putea deja să
-meargă fără baston.
-Este cunoscut faptul că cele mai multe recviemuri sânt în jurul zilei Intrării Maicii
-Domnului în biserică. O cântăreață din cor s-a rănit odată la patinaj cam în această pe -
-rioadă. Fiind numai puține în cor, fi resimțeam lipsa foarte tare. După biserică, am
+care sa toarne 2 linguri de biter suedez, in crizele grave de epilepsie este important ca pe
+langa aplicarea compreselor in regiunea occipitala sa se bea si ceai de urzici.
+Cateva luni mai tarziu, tanarul a trecut prin fata casei mele si mi-a spus de la gardul
+gradinii ca scapase total de crizele de epilepsie'!
+Meningitele, ranile la cap prin lovire sau cazaturi, balbaiala si tulburarile de vor-
+bire se trateaza cu succes prin comprese cu biter suedez puse in regiunea occipitala.
+Aceste comprese se pot folosi si in inflamatia bursei sinoviale Nu este necesar sa mai
+subliniez o data faptul ca in toate aceste boli grave trebuie consultat mai intai medicul.
+Dupa cum reiese din scrisori, compresele cu ierburi suedeze recomandate de mine au
+avut o actiune benefica asupra ochilor in caz de dezlipire de retina, sangerare a retinei
+si retina poroasa. Toti acesti oameni se aflau in prag de orbire. Compresele se aplica
+zilnic timp de 1 ora pe ochii inchisi. Nu trebuie neglijat insa sa se puna profilactic aceste
+comprese si pe ochii sanatosi, mai ales pe cei suprasolicitati, in plus sa se unga
+pleoapele dimineata si seara cu biter suedez, sa se plimbe biterul suedez concomitent
+spre coada ochilor cu aratatorul. Se poate mentine astfel o vedere buna pana la o varsta
+inaintata.
+Deoarece biterul suedez este de un ajutor atat de extraordinar pentru sanatatea
+noastra, n-ar trebui sa lipseasca in nici o farmacie de casa. Picaturile n-ar trebui numai sa
+fie mereu la indemana, pregatite in sticlute, ci sa fie luate si in calatorii ca insotitoare
+credincioase la drum. Uneori mancarea din afara ne deceptioneaza, avem nevoie de ceva
+pentru inviorarea stomacului si a bilei, alteori ne simtim slabiti, istoviti si ametiti -
+in toate aceste situatii, biterul suedez actioneaza ca un adevarat elixir. Se ia o inghititura
+diluata cu putina apa, iar extern se freaca tamplele, fruntea, portiunile din jurul ochilor si
+cele din spatele urechilor si indata se va ivi o senzatie de revigorare a intregii conditii fizice.
+Daca ne trezim brusc cu un guturai cu toate efectele lui secundare neplacute ca
+oboseala, lipsa da putere, senzatie de presiune in regiunea fruntii si a stomacului, este
+suficient sa tinem la nas un tampon de vata umezit cu biter suedez si sa inspiram adanc.
+Imediat vom simti o usurare in zona fruntii si a nasului. Daca raceala este mai avansata si
+au fost deja atacate bronhiile, se inspira picaturile cu gura deschisa. Si in acest caz se va
+resimti rapid un ajutor. In timpul epidemiilor de gripa se ia zilnic 1 lin gurita, uneori poate
+chiar 1 lingura de picaturi cu putina apa calduta; astfel, devenim imuni la gripa. Oriunde
+apar dureri, ierburile suedeze ajuta, luate intern sau folosite extern ca frectii si comprese.
+Cu catva ani in urma m-am trezit cu o colica renala. Am chemat medicul, dar tocmai era
+la consultatii, in asteptarea Iui, mi-am pus o compresa cu biter suedez in zona renala si
+cand a sosit, durerile imi trecusera. Eram destul de stingherita ca-si pierduse timp pretios
+venind degeaba pana la mine. insa el a vrut numai sa stie cum de-mi trecuse colica atat
+de repede. Cand a auzit ca ma ajutase compresa, mi-a spus: „Excelent, atunci n-are rost
+sa-ti mai fac injectie!" Si el era un adept al ierburilor suedeze. Intotdeauna cand mergeam la
+el in cabinet, imi spunea numai atat: „Tie nu-ti prescriu nimic, doar ai ierburile tale
+suedeze!" El a fost si cel care m-a ajutat sa cunosc mai indeaproape multe alte plante
+medicinale si insemnatatea lor.
+A venit odata la mine o femeie batrana care mergea de multi ani in baston. Era complet
+stramba din cauza artritei si a reumatismului, nu-i mai folosea nici un medicament, era la
+plamani din punct de vedere nervos. A baut de 3 ori pe zi cate 1 lin gurita de biter suedez in
+ceai de urzici sau de coada-calului si dupa trei saptamani am auzit ca putea deja sa
+mearga fara baston.
+Este cunoscut faptul ca cele mai multe recviemuri sant in jurul zilei Intrarii Maicii
+Domnului in biserica. O cantareata din cor s-a ranit odata la patinaj cam in aceasta pe -
+rioada. Fiind numai putine in cor, fi resimteam lipsa foarte tare. Dupa biserica, am
 
-întâlnit-o în oraș. Mi-a spus că-i era imposibil să urce scara abruptă de la cor din cauza
-genunchiului înțepenit. Puțin mai târziu m-am dus la ea cu echipamentul meu pentru
-comprese. Cum era soție de medic, mi-a privit sceptic pregătirile; i s-a schimbat însă
-părerea câteva clipe mâi târziu, când a putut să-și îndoaie genunchiul fără efort, iar a doua zi
-a putut urca scara abruptă de la cor tot fără efort. Lipsea însă, din păcate, o altă cântăreață
-care făcuse o entorsă la gleznă practicând și ea atât de sănătosul nos tru sport de iarnă.
-Se știa deja că era internată în spital pentru tratament. Cea proaspăt însănătoșită insista s-
-o ajut și pe cealaltă. Am făcut-o fără tragere de inimă din cauza tratamentului ei clinic, însă
-în cele din urmă a contat faptul că aș fi rămas în ziua următoare probabil singură la cor.
-Rănita ședea întinsă pe sofa cu glezna puter nic umflată, în spital fusese sfătuită doar să-și
-țină piciorul ridicat pe ceva. Avea dureri mari. Compresa cu biter suedez i-a adus imediat o
-ușurare. A doua zi a venit la cor, deși pe străzi era un polei cumplit. Durerile dispăruseră,
-glezna umflată era normală și recviemul nostru salvat.
-în timpul unei vizite în Muhlviertel am remarcat într-un restaurant, la masa de alături, un
-client care stătea chircit de durere. Mai avusese de multe ori astfel de crize, medicamentele
-nu-l ajutau cu nimic. Am adus picăturile mele, am turnat o lingură plină de biter în puțină
-apă călduță și i le-am oferit. În timp ce golea paharul, i s-a colorat fața și abia a putut să
-înțeleagă cum de i-au încetat durerile pe loc. O jumătate de an mai târziu, m-am reîntors în
-această zonă. Incidentul îmi ieșise din minte, când am fost abordată de un domn care mi-a
-mulțumit plin de exuberanță. Era vizibil întinerit cu niște ani buni. își preparase ierburile
-suedeze și le luase. Toate supărările provocate de pancreas și de gastrita acută
-trecuseră! întrucât aceste picături vindecă pancreasul, ele sânt recomandate și diabeticilor.
-Semnele din naștere, alunițele, negii, petele, chiar și hemangioame! - și seboreea
-dispar dacă sânt umezite cu aceste picături, la fel se întâmplă și cu bătăturile și
-hemoroizii. Biterul suedez înlătură vâjâitul și țiuitul în urechi, prin introducerea unui mic
-tampon de vată umezit în urechi. Biterul suedez întărește memoria, dacă se umezește de
-mai multe ori cu el vertebra cervi cală, curăță sângele și stimulează circulația
-sângelui, înlătură colicile și digestia proastă, durerile de cap, toate afecțiunile
-gastrice și biliare, hepatice și renale (chiar dacă ar fi interdicție de alcool). În tromboze
-și flebite se unge locul cu alifie de filimică într-un strat gros cât muchia cuțitului și se pun
-comprese cu biter suedez deasupra. După vindecare se fac băl de picioare cu urzici pentru
-o bună irigare sangvină. Picăturile înlătură lenevia intestinală, amețelile, ba chiar
-paraliziile. Aduc un ajutor prețios în toate bolile; chiar și în bolile de cancer, în caz de
-crize acute de durere, se ia 1 lingură cu picături în puțină apă sau infuzie de plante. Dacă se
-ia de 3 ori pe zi, dimineața, la prânz și seara, câte 1 linguriță în ceva apă sau ceai de plante,
-se păstrează sănătatea și forța creatoare până la vârsta cea mai înaintată, întrucât aceste
-picături se folosesc, fără excepție, în toate bolile, se poate vorbi aici despre o menținere a
-sănătății omenești la modul general, Ele trezesc și ridică puterile de viață de care avem o
-nevoie atât de stringentă în epoca actuală. Păstrați-vă cu ajutorul acestui elixir minunat
-sănătatea, puterea de muncă și bucuria față de munca dumneavoas tră profesională, față
-de familia dumneavoastră și față de semenii dumneavoastră!
-în timpul unei vizite la o gospodărie țărănească am aflat că fiul în vârstă de 12 ani al
-proprietarului se află înaintea unei operații la ureche. În spatele timpanului se formase în
-urma unei inflamații un focar de puroi. Eu eram împotriva unei operații, pentru că în alte
-cazuri asemănătoare s-a întâmplat ca bolnavul să-și piardă auzul. La îndrumarea mea s-au
-îmbibat tampoane mici de vată în biter suedez și i s-au pus băiatului în ure che. A ieșit în
-acest fel zilnic atât de mult puroi din ureche, încât curând durerile au pierit și operația n-a
-mai fost necesară.
-lntr-6 boală incurabilă de cancer intestinal - era vorba de o tânără mamă a cinci copii
-și medicul nu-i mai dădea decât câteva zile - am recomandat comprese în zona
+intalnit-o in oras. Mi-a spus ca-i era imposibil sa urce scara abrupta de la cor din cauza
+genunchiului intepenit. Putin mai tarziu m-am dus la ea cu echipamentul meu pentru
+comprese. Cum era sotie de medic, mi-a privit sceptic pregatirile; i s-a schimbat insa
+parerea cateva clipe mai tarziu, cand a putut sa-si indoaie genunchiul fara efort, iar a doua zi
+a putut urca scara abrupta de la cor tot fara efort. Lipsea insa, din pacate, o alta cantareata
+care facuse o entorsa la glezna practicand si ea atat de sanatosul nos tru sport de iarna.
+Se stia deja ca era internata in spital pentru tratament. Cea proaspat insanatosita insista s-
+o ajut si pe cealalta. Am facut-o fara tragere de inima din cauza tratamentului ei clinic, insa
+in cele din urma a contat faptul ca as fi ramas in ziua urmatoare probabil singura la cor.
+Ranita sedea intinsa pe sofa cu glezna puter nic umflata, in spital fusese sfatuita doar sa-si
+tina piciorul ridicat pe ceva. Avea dureri mari. Compresa cu biter suedez i-a adus imediat o
+usurare. A doua zi a venit la cor, desi pe strazi era un polei cumplit. Durerile disparusera,
+glezna umflata era normala si recviemul nostru salvat.
+in timpul unei vizite in Muhlviertel am remarcat intr-un restaurant, la masa de alaturi, un
+client care statea chircit de durere. Mai avusese de multe ori astfel de crize, medicamentele
+nu-l ajutau cu nimic. Am adus picaturile mele, am turnat o lingura plina de biter in putina
+apa calduta si i le-am oferit. In timp ce golea paharul, i s-a colorat fata si abia a putut sa
+inteleaga cum de i-au incetat durerile pe loc. O jumatate de an mai tarziu, m-am reintors in
+aceasta zona. Incidentul imi iesise din minte, cand am fost abordata de un domn care mi-a
+multumit plin de exuberanta. Era vizibil intinerit cu niste ani buni. isi preparase ierburile
+suedeze si le luase. Toate supararile provocate de pancreas si de gastrita acuta
+trecusera! intrucat aceste picaturi vindeca pancreasul, ele sant recomandate si diabeticilor.
+Semnele din nastere, alunitele, negii, petele, chiar si hemangioame! - si seboreea
+dispar daca sant umezite cu aceste picaturi, la fel se intampla si cu bataturile si
+hemoroizii. Biterul suedez inlatura vajaitul si tiuitul in urechi, prin introducerea unui mic
+tampon de vata umezit in urechi. Biterul suedez intareste memoria, daca se umezeste de
+mai multe ori cu el vertebra cervi cala, curata sangele si stimuleaza circulatia
+sangelui, inlatura colicile si digestia proasta, durerile de cap, toate afectiunile
+gastrice si biliare, hepatice si renale (chiar daca ar fi interdictie de alcool). In tromboze
+si flebite se unge locul cu alifie de filimica intr-un strat gros cat muchia cutitului si se pun
+comprese cu biter suedez deasupra. Dupa vindecare se fac bal de picioare cu urzici pentru
+o buna irigare sangvina. Picaturile inlatura lenevia intestinala, ametelile, ba chiar
+paraliziile. Aduc un ajutor pretios in toate bolile; chiar si in bolile de cancer, in caz de
+crize acute de durere, se ia 1 lingura cu picaturi in putina apa sau infuzie de plante. Daca se
+ia de 3 ori pe zi, dimineata, la pranz si seara, cate 1 lingurita in ceva apa sau ceai de plante,
+se pastreaza sanatatea si forta creatoare pana la varsta cea mai inaintata, intrucat aceste
+picaturi se folosesc, fara exceptie, in toate bolile, se poate vorbi aici despre o mentinere a
+sanatatii omenesti la modul general, Ele trezesc si ridica puterile de viata de care avem o
+nevoie atat de stringenta in epoca actuala. Pastrati-va cu ajutorul acestui elixir minunat
+sanatatea, puterea de munca si bucuria fata de munca dumneavoas tra profesionala, fata
+de familia dumneavoastra si fata de semenii dumneavoastra!
+in timpul unei vizite la o gospodarie taraneasca am aflat ca fiul in varsta de 12 ani al
+proprietarului se afla inaintea unei operatii la ureche. In spatele timpanului se formase in
+urma unei inflamatii un focar de puroi. Eu eram impotriva unei operatii, pentru ca in alte
+cazuri asemanatoare s-a intamplat ca bolnavul sa-si piarda auzul. La indrumarea mea s-au
+imbibat tampoane mici de vata in biter suedez si i s-au pus baiatului in ure che. A iesit in
+acest fel zilnic atat de mult puroi din ureche, incat curand durerile au pierit si operatia n-a
+mai fost necesara.
+lntr-6 boala incurabila de cancer intestinal - era vorba de o tanara mama a cinci copii
+si medicul nu-i mai dadea decat cateva zile - am recomandat comprese in zona
 
-bolnavă, în asociație însă cu rădăcini de obligeană care se lasă peste noapte la macerat (1
-linguriță rasă de rădăcini de obligeană la 1 ceașcă de apă - se ia câte 1 înghițitură înainte
-ș i după fiecare masă) și cu ceai depurativ de filimici, coada-șoricelului și urzici amestecate
-în părți egale, din care se beau încetul cu încetul minimum 2 litri repartizați pe parcursul zilei.
-Astăzi femeia se simte deja atât de bine, încât se poate conta pe o însănătoșire completă.
-O femeie din Heilbronn/R.F.G. relatează: „Nepotul meu de 41 de ani mi-a scris cu
-aproximativ zece luni în urmă din Sacramento/California că are zilnic hemoragii in-
-testinale puternice și diagnosticul medical este, fără nici o ezitare, cancer intestinal. Se
-impunea deci o cale de scăpare laterală, l-am trimis imediat broșura dumneavoas tră
-«Farmacia Domnului», ca și biter suedez, rădăcini de obligeană și alte plante medicinale
-cum ar fi filimica, coada-șoricelului și urzica. A urmat indicațiile din broșura
-dumneavoastră. După un an, nepotul meu a fost iarăși apt de muncă la întreaga sa
-capacitate. Hemoragiile intestinale puternice au încetat în a patra zi după ce a început să
-ia plantele enumerate. Au încetat treptat și oboseala și scăderea în greutate."
-în cazul unui bărbat de 52 de ani tratat de astm cardiac de zece ani - care trebuia să
-înghită zilnic câte opt pastile, care nu mai putea dormi de ani întregi decât așezând și care-
-și arunca la fiecare pas brațele în sus pentru a lua aer, horcăind însă în același timp de ți se
-rupea inima - am fost de părere că insuficiența respiratorie nu-i provine de la inimă, ci de la
-ficat. I-am pus omului pe regiunea ficatului o compresă cu ierburi suedeze. Intern, a trebuit
-să ia începând de-atunci diminețile și serile câte 1 ceașcă cu ceai de pedicuță cu 1 linguriță
-de biter suedez pusă înăuntru. Cit de corecta fost supoziția mea s-a văzut chiar din prima
-noapte. A putut în sfârșit să doarmă iarăși întins. Greaua insuficiență respiratorie nu-l mai
-lăsa de ani în șir sa facă nici măcar un pas în fața ușii casei. Biterul suedez și pedicuță au
-realizat o ameliorare atât de rapidă a stării sale, încât trei zile mai târziu a putut să umble de
-două ori pe zi în jurul grădinii casei sale. Acum se îndreaptă încet spre vindecare.
-O rană care nu voia să se închidă după operație s-a închis peste noapte când pa cientul
-a luat o înghițitură zdravănă din sticla cu biter suedez. Această unică înghițitură a avut
-drept urmare închiderea rănii deschise de trei ani, care trebuia îngrijită de mai multe ori pe
+bolnava, in asociatie insa cu radacini de obligeana care se lasa peste noapte la macerat (1
+lingurita rasa de radacini de obligeana la 1 ceasca de apa - se ia cate 1 inghititura inainte
+s i dupa fiecare masa) si cu ceai depurativ de filimici, coada-soricelului si urzici amestecate
+in parti egale, din care se beau incetul cu incetul minimum 2 litri repartizati pe parcursul zilei.
+Astazi femeia se simte deja atat de bine, incat se poate conta pe o insanatosire completa.
+O femeie din Heilbronn/R.F.G. relateaza: „Nepotul meu de 41 de ani mi-a scris cu
+aproximativ zece luni in urma din Sacramento/California ca are zilnic hemoragii in-
+testinale puternice si diagnosticul medical este, fara nici o ezitare, cancer intestinal. Se
+impunea deci o cale de scapare laterala, l-am trimis imediat brosura dumneavoas tra
+«Farmacia Domnului», ca si biter suedez, radacini de obligeana si alte plante medicinale
+cum ar fi filimica, coada-soricelului si urzica. A urmat indicatiile din brosura
+dumneavoastra. Dupa un an, nepotul meu a fost iarasi apt de munca la intreaga sa
+capacitate. Hemoragiile intestinale puternice au incetat in a patra zi dupa ce a inceput sa
+ia plantele enumerate. Au incetat treptat si oboseala si scaderea in greutate."
+in cazul unui barbat de 52 de ani tratat de astm cardiac de zece ani - care trebuia sa
+inghita zilnic cate opt pastile, care nu mai putea dormi de ani intregi decat asezand si care-
+si arunca la fiecare pas bratele in sus pentru a lua aer, horcaind insa in acelasi timp de ti se
+rupea inima - am fost de parere ca insuficienta respiratorie nu-i provine de la inima, ci de la
+ficat. I-am pus omului pe regiunea ficatului o compresa cu ierburi suedeze. Intern, a trebuit
+sa ia incepand de-atunci diminetile si serile cate 1 ceasca cu ceai de pedicuta cu 1 lingurita
+de biter suedez pusa inauntru. Cit de corecta fost supozitia mea s-a vazut chiar din prima
+noapte. A putut in sfarsit sa doarma iarasi intins. Greaua insuficienta respiratorie nu-l mai
+lasa de ani in sir sa faca nici macar un pas in fata usii casei. Biterul suedez si pedicuta au
+realizat o ameliorare atat de rapida a starii sale, incat trei zile mai tarziu a putut sa umble de
+doua ori pe zi in jurul gradinii casei sale. Acum se indreapta incet spre vindecare.
+O rana care nu voia sa se inchida dupa operatie s-a inchis peste noapte cand pa cientul
+a luat o inghititura zdravana din sticla cu biter suedez. Aceasta unica inghititura a avut
+drept urmare inchiderea ranii deschise de trei ani, care trebuia ingrijita de mai multe ori pe
 zi.
-Alte inflamații îndelungate cu supurații purulente, provocate de multe ori prin
-accidente declanșate de operații și puncții, au fost înlăturate, cum mi s-a relatat, după
-aplicări de comprese și uzul intern al biterului suedez.
-Menajera unei case parohiale din Burgenland mi-a povestit că nepoata ei în vârstă de 23
-de ani are un defect de auz din naștere. La un consult în clinica universitară i s-a explicat
-că în cazul bolii ei o operație nu avea șanse de succes. Și-a sfătuit nepoata să folosească
-biterul suedez, adică să și-l introducă în ureche. Toți au fost foarte mirați când, în urma
-acestui tratament, nepoata a auzit după 14 zile normal.
-Nu vreau să vă tăinuiesc, dragi, cititori, o scrisoare din Graz,, din zona Steier: „Din
-întâmplare sau poate maibine-zis din voia Domnului, am purtat o discuție în autobuz cu un
-bărbat foarte fericit, în vârstă de 74 de ani, care și-a recăpătat brusc, grație biterului
-suedez, auzul pe care și-l pierduse în 1944, în urma unei grave leziuni cerebrale din
-timpul războiului! Și-a pus de trei ori în urechi tampoane de vată umezită cu biter suedez." -
+Alte inflamatii indelungate cu supuratii purulente, provocate de multe ori prin
+accidente declansate de operatii si punctii, au fost inlaturate, cum mi s-a relatat, dupa
+aplicari de comprese si uzul intern al biterului suedez.
+Menajera unei case parohiale din Burgenland mi-a povestit ca nepoata ei in varsta de 23
+de ani are un defect de auz din nastere. La un consult in clinica universitara i s-a explicat
+ca in cazul bolii ei o operatie nu avea sanse de succes. Si-a sfatuit nepoata sa foloseasca
+biterul suedez, adica sa si-l introduca in ureche. Toti au fost foarte mirati cand, in urma
+acestui tratament, nepoata a auzit dupa 14 zile normal.
+Nu vreau sa va tainuiesc, dragi, cititori, o scrisoare din Graz,, din zona Steier: „Din
+intamplare sau poate maibine-zis din voia Domnului, am purtat o discutie in autobuz cu un
+barbat foarte fericit, in varsta de 74 de ani, care si-a recapatat brusc, gratie biterului
+suedez, auzul pe care si-l pierduse in 1944, in urma unei grave leziuni cerebrale din
+timpul razboiului! Si-a pus de trei ori in urechi tampoane de vata umezita cu biter suedez." -
 (Astfel de fragmente citate pot fi dovedite prin scrisori!)
-Un domn din Bavaria superioară relatează: „Un accident m-a rănit la mana dreaptă.
-Biterul suedez mi-a calmat repede durerile insuportabile. La o ureche surdă s-a realizat cu
-o dublă tamponare aproape un miracol: După aproximativ zece ani de surzenie am auzit
-din nou tic-tacul deșteptătorului!" - Câți surdomuți pot fi totuși ajutați în acest mod! Și de ar
-fi doar unul singur care și-ar recăpăta astfel auzul!
-După o prelegere am aflat de la o ascultătoare că suferă de doi ani de o relaxare a
-sfincterului intestinal. Doctorii considerau boala ireparabilă. Biterul suedez, asociat
+Un domn din Bavaria superioara relateaza: „Un accident m-a ranit la mana dreapta.
+Biterul suedez mi-a calmat repede durerile insuportabile. La o ureche surda s-a realizat cu
+o dubla tamponare aproape un miracol: Dupa aproximativ zece ani de surzenie am auzit
+din nou tic-tacul desteptatorului!" - Cati surdomuti pot fi totusi ajutati in acest mod! Si de ar
+fi doar unul singur care si-ar recapata astfel auzul!
+Dupa o prelegere am aflat de la o ascultatoare ca sufera de doi ani de o relaxare a
+sfincterului intestinal. Doctorii considerau boala ireparabila. Biterul suedez, asociat
 
-cu traista-ciobanului (aceasta se pune la macerat, tăiată mărunt, tot într-un rachiu bun și
-se lasă 10 zile la loc călduros; vindecă atrofia musculară și bolile musculare grave), 4 cești
-cu ceai de crețișoară și 6 rădăcini de obligeană, au rezolvat problema în câteva zile! '
-Am primit un telefon din Viena, la care o voce feminină mi-a spus: „Vă mulțumesc
-pentru ierburile dumneavoastră suedeze!" Mi-a povestit că atunci când avea 12
-ani a fost lovită din greșeală cu bocancul în obraz, în timpul unei excursii cu școala în munți,
-de către o fetiță care mergea în fața ei. Din această întâmplare au rezultat în decursul a 40
-de ani veșnice supurații maxilare purulente, soldate cu peste 16 operații la maxilar și
-puncții repetate. A fost nevoită să-și întrerupă studiile, n-a putut îmbrățișa profesiunea dorită
-și conducea o gospodărie străină având permanente dureri în regiunea maxilară. După 40
-de ani, fiind în vârstă de 52 de ani, a citit despre ierburile suedeze, și-a pus comprese în
-zonele maxilarelor și este în sfârșit eliberată de toate durerile.
-Sunt mereu întrebată dacă biterul suedez poate fi utilizat și în caz de interdicție severă
-a alcoolului. Conform unor cercetări de laborator demne de încredere, ierburile înving
-alcoolul și sânt considerate un medicament. Deci pot fi luate și aici fără a dăuna, în
-acest caz trebuie să se înceapă cu 1 linguriță pe zi și să se pună mai des comprese cu
-ierburi suedeze în regiunea ficatului și a rinichilor (â se vedea „Moduri de folosire" la
-sfârșitul acestui articol).
+cu traista-ciobanului (aceasta se pune la macerat, taiata marunt, tot intr-un rachiu bun si
+se lasa 10 zile la loc calduros; vindeca atrofia musculara si bolile musculare grave), 4 cesti
+cu ceai de cretisoara si 6 radacini de obligeana, au rezolvat problema in cateva zile! '
+Am primit un telefon din Viena, la care o voce feminina mi-a spus: „Va multumesc
+pentru ierburile dumneavoastra suedeze!" Mi-a povestit ca atunci cand avea 12
+ani a fost lovita din greseala cu bocancul in obraz, in timpul unei excursii cu scoala in munti,
+de catre o fetita care mergea in fata ei. Din aceasta intamplare au rezultat in decursul a 40
+de ani vesnice supuratii maxilare purulente, soldate cu peste 16 operatii la maxilar si
+punctii repetate. A fost nevoita sa-si intrerupa studiile, n-a putut imbratisa profesiunea dorita
+si conducea o gospodarie straina avand permanente dureri in regiunea maxilara. Dupa 40
+de ani, fiind in varsta de 52 de ani, a citit despre ierburile suedeze, si-a pus comprese in
+zonele maxilarelor si este in sfarsit eliberata de toate durerile.
+Sunt mereu intrebata daca biterul suedez poate fi utilizat si in caz de interdictie severa
+a alcoolului. Conform unor cercetari de laborator demne de incredere, ierburile inving
+alcoolul si sant considerate un medicament. Deci pot fi luate si aici fara a dauna, in
+acest caz trebuie sa se inceapa cu 1 lingurita pe zi si sa se puna mai des comprese cu
+ierburi suedeze in regiunea ficatului si a rinichilor (a se vedea „Moduri de folosire" la
+sfarsitul acestui articol).
 „MANUSCRIS VECHI"
-(transcriere a puterii tămăduitoare a ierburilor suedeze)
-1. Dacă se miros sau se trag pe nas mai des, se umezește vertebra cervicală, se pune o
-cârpă umedă pe cap, ele alungă durerea și amețeala, întăresc memoria și creierul.
-2. Ajută contra ochilor tulburi, înlăturându-le roșeața și toate durerile, chiar când ochii
-sânt injectați, împăienjeniți. Ele alungă chiar petele și cataracta, dacă se umezește
-coada ochilor la timp sau se pune o cârpă umedă pe ochii închiși.
-3. Pustulele de vărsat și erupțiile de tot felul, de asemenea crustele din nas sau de
-oriunde pe trup sânt vindecate, dacă sânt umezite des si bine.
-4. în caz de dureri de dinți, se pune în puțină apă o lingură plină cu aceste picături și
-se ține câtva timp acest lichid în gură sau se umezește dintele dureros cu o bu cată
-de cârpă. Durerea dispare și infecția se retrage treptat.
-5. Bășicile de pe limbă sau alte leziuni care apar pe limbă sânt umezite sistematic cu
-aceste picături, drept care se vor vindeca în scurt timp.
-6. Dacă gâtul este înfierbântat sau rănit, încet cineva numai cu greu poate înghiți
-mâncarea și băutura, să ia dimineața și seara din picături. Să fie lăsate să alunece și
-ele vor lua fierbințeala și vor vindeca gâtlejul.
-7. Cine are crampe stomacale să ia la o criză o lingură plină.
-8. în colici să se ia trei linguri pline, încet, una după alta, curând se va simți alinarea.
-9. Picăturile risipesc în organism gazele și potolesc ficatul, izgonesc toate bolile de
-stomac și pe cele ale mațelor și ajută în constipație.
-10. Sunt și un leac excelent pentru stomac, dacă acesta digeră prost și nu păstrează
-mâncărurile.
-11. Tot așa ajută și în durerile veziculei biliare. Zilnic dimineața și seara o lingură plină,
-iar noaptea comprese cu picături și toate durerile vor pieri curând.
-12. In caz de hidropizie să se ia șase săptămâni la rând dimineața și seara o lingură plină
-în vin alb.
+(transcriere a puterii tamaduitoare a ierburilor suedeze)
+1. Daca se miros sau se trag pe nas mai des, se umezeste vertebra cervicala, se pune o
+carpa umeda pe cap, ele alunga durerea si ameteala, intaresc memoria si creierul.
+2. Ajuta contra ochilor tulburi, inlaturandu-le roseata si toate durerile, chiar cand ochii
+sant injectati, impaienjeniti. Ele alunga chiar petele si cataracta, daca se umezeste
+coada ochilor la timp sau se pune o carpa umeda pe ochii inchisi.
+3. Pustulele de varsat si eruptiile de tot felul, de asemenea crustele din nas sau de
+oriunde pe trup sant vindecate, daca sant umezite des si bine.
+4. in caz de dureri de dinti, se pune in putina apa o lingura plina cu aceste picaturi si
+se tine catva timp acest lichid in gura sau se umezeste dintele dureros cu o bu cata
+de carpa. Durerea dispare si infectia se retrage treptat.
+5. Basicile de pe limba sau alte leziuni care apar pe limba sant umezite sistematic cu
+aceste picaturi, drept care se vor vindeca in scurt timp.
+6. Daca gatul este infierbantat sau ranit, incet cineva numai cu greu poate inghiti
+mancarea si bautura, sa ia dimineata si seara din picaturi. Sa fie lasate sa alunece si
+ele vor lua fierbinteala si vor vindeca gatlejul.
+7. Cine are crampe stomacale sa ia la o criza o lingura plina.
+8. in colici sa se ia trei linguri pline, incet, una dupa alta, curand se va simti alinarea.
+9. Picaturile risipesc in organism gazele si potolesc ficatul, izgonesc toate bolile de
+stomac si pe cele ale matelor si ajuta in constipatie.
+10. Sunt si un leac excelent pentru stomac, daca acesta digera prost si nu pastreaza
+mancarurile.
+11. Tot asa ajuta si in durerile veziculei biliare. Zilnic dimineata si seara o lingura plina,
+iar noaptea comprese cu picaturi si toate durerile vor pieri curand.
+12. In caz de hidropizie sa se ia sase saptamani la rand dimineata si seara o lingura plina
+in vin alb.
 
-13. La durerile de urechi și la vâjâitul în urechi să se umezească un tampon mic și să
-se vâre în ureche. Ajută foarte bine și readuce chiar și auzul pierdut.
-14. Dacă o femeie are dureri postnatale să i se dea trei zile la rând dimineața o lin gură
-plină în vin roșu, să fie pusă să facă după o jumătate de oră o plimbare, după aceea
-poate să mănânce de dimineață, dar să nu ia lapte. Să nu fie luate picăturile când se
+13. La durerile de urechi si la vajaitul in urechi sa se umezeasca un tampon mic si sa
+se vare in ureche. Ajuta foarte bine si readuce chiar si auzul pierdut.
+14. Daca o femeie are dureri postnatale sa i se dea trei zile la rand dimineata o lin gura
+plina in vin rosu, sa fie pusa sa faca dupa o jumatate de ora o plimbare, dupa aceea
+poate sa manance de dimineata, dar sa nu ia lapte. Sa nu fie luate picaturile cand se
 bea lapte.
-15. Dacă se ia în ultimele 14 zile de sarcină dimineața și seara o lingură, se grăbește
-nașterea. Pentru a scăpa mai ușor de placentă, se dă lăuzei o dată la două ore o
-linguriță plină, până ce placenta este expulzată fără dureri.
-16. Dacă după naștere apar inflamații la venirea laptelui, ele sânt îndepărtate rapid prin
-aplicarea cârpelor umede.
-17. Ele izgonesc varicela din copii. Să se dea copiilor în funcție de vârstă din aceste
-picături diluate în apă. Când bubulițele încep să se usuce, să fie umezite mai des cu
-picături, atunci nu vor rămâne semne de la vărsat.
-18. Picăturile folosesc copiilor și adulților împotriva viermilor, chiar și tenia este alungată
-de ele, numai că ele trebuie administrate copiilor în funcție de vârstă. Să se lege o
-cârpă umezită cu picături pe buric, să se țină mereu umedă.
-19. Toate supărările provocate de icter sânt date curând deoparte, dacă se ia de trei ori pe
-zi o lingură din aceste picături și se pun comprese pe ficatul umflat.
-20. Descongestionează toți hemoroizii, vindecă rinichii, elimină lichidele ipohondrice din
-organism fără altă cură, îndepărtează melancolia și depresiunile și stimulează
-apetitul și digestia.
-21. Se descongestionează hemoroizii și pe dinăuntru, dacă sânt umeziți la început mai
-des și sânt muiați prin administrarea internă a picăturilor, în special înainte de culcare.
-Să se pună extern un mic tampon umed cu picături. Face surplusul de sânge să curgă
-și ajută contra usturimilor.
-22. Dacă cineva a leșinat, i se deschide la nevoie gura, i se toarnă o lingură de picături și
-bolnavul își va reveni.
-23. Prin administrare internă, acest mijloc gonește și durerea convulsiilor (spasmelor),
-așa că vor înceta cu timpul.
-24. In caz de tuberculoză pulmonară să se ia zilnic aceste picături pe stomacul gol și să
-se continue cura timp de șase săptămâni.
-25. Dacă o femeie își pierde ciclul lunar sau acesta este prea abundent, ia aceste picături
-trei zile și repetă asta de douăzeci de ori. Ele vor potoli ce este prea mult și vor echilibra
-ce este prea puțin.
-26. Acest leac ajută și contra poalei albe.
-27. Dacă cineva suferă de epilepsie, trebuie să i se dea imediat picături. Bolnavul să ia
-apoi exclusiv acest leac, căci el fortifică atât nervii atacați cât și organismul și înlătură
+15. Daca se ia in ultimele 14 zile de sarcina dimineata si seara o lingura, se grabeste
+nasterea. Pentru a scapa mai usor de placenta, se da lauzei o data la doua ore o
+lingurita plina, pana ce placenta este expulzata fara dureri.
+16. Daca dupa nastere apar inflamatii la venirea laptelui, ele sant indepartate rapid prin
+aplicarea carpelor umede.
+17. Ele izgonesc varicela din copii. Sa se dea copiilor in functie de varsta din aceste
+picaturi diluate in apa. Cand bubulitele incep sa se usuce, sa fie umezite mai des cu
+picaturi, atunci nu vor ramane semne de la varsat.
+18. Picaturile folosesc copiilor si adultilor impotriva viermilor, chiar si tenia este alungata
+de ele, numai ca ele trebuie administrate copiilor in functie de varsta. Sa se lege o
+carpa umezita cu picaturi pe buric, sa se tina mereu umeda.
+19. Toate supararile provocate de icter sant date curand deoparte, daca se ia de trei ori pe
+zi o lingura din aceste picaturi si se pun comprese pe ficatul umflat.
+20. Descongestioneaza toti hemoroizii, vindeca rinichii, elimina lichidele ipohondrice din
+organism fara alta cura, indeparteaza melancolia si depresiunile si stimuleaza
+apetitul si digestia.
+21. Se descongestioneaza hemoroizii si pe dinauntru, daca sant umeziti la inceput mai
+des si sant muiati prin administrarea interna a picaturilor, in special inainte de culcare.
+Sa se puna extern un mic tampon umed cu picaturi. Face surplusul de sange sa curga
+si ajuta contra usturimilor.
+22. Daca cineva a lesinat, i se deschide la nevoie gura, i se toarna o lingura de picaturi si
+bolnavul isi va reveni.
+23. Prin administrare interna, acest mijloc goneste si durerea convulsiilor (spasmelor),
+asa ca vor inceta cu timpul.
+24. In caz de tuberculoza pulmonara sa se ia zilnic aceste picaturi pe stomacul gol si sa
+se continue cura timp de sase saptamani.
+25. Daca o femeie isi pierde ciclul lunar sau acesta este prea abundent, ia aceste picaturi
+trei zile si repeta asta de douazeci de ori. Ele vor potoli ce este prea mult si vor echilibra
+ce este prea putin.
+26. Acest leac ajuta si contra poalei albe.
+27. Daca cineva sufera de epilepsie, trebuie sa i se dea imediat picaturi. Bolnavul sa ia
+apoi exclusiv acest leac, caci el fortifica atat nervii atacati cat si organismul si inlatura
 toate bolile.
-28. Ele vindecă paraliziile, alungă amețelile și grețurile
-29. Vindecă și variola, și erizipelul.
-30. Dacă cineva are febră - friguri mari sau intermitente - și este total lipsit de vlagă, să i se
-dea o lingură cu picături și bolnavul, dacă nu și-a împovărat trupul cu alte mijloace de
-leac, își va reveni curând, pulsul va începe să bată normal și, oricât de mare ar fi fost
-febra, el se va simți curând mai bine.
-31. Picăturile vindecă și cancerul, pustulele vechi și negii, mâinile crăpate. Dacă o rană
-este veche și purulentă sau are excrescențe (muguri), atunci să se spele totul bine
-cu vin alb, după care să se pună pe ea o cârpă umezită cu picături. Ea înlătură
-umflăturile și durerile, ca și mugurii și rana începe să se vindece.
+28. Ele vindeca paraliziile, alunga ametelile si greturile
+29. Vindeca si variola, si erizipelul.
+30. Daca cineva are febra - friguri mari sau intermitente - si este total lipsit de vlaga, sa i se
+dea o lingura cu picaturi si bolnavul, daca nu si-a impovarat trupul cu alte mijloace de
+leac, isi va reveni curand, pulsul va incepe sa bata normal si, oricat de mare ar fi fost
+febra, el se va simti curand mai bine.
+31. Picaturile vindeca si cancerul, pustulele vechi si negii, mainile crapate. Daca o rana
+este veche si purulenta sau are excrescente (muguri), atunci sa se spele totul bine
+cu vin alb, dupa care sa se puna pe ea o carpa umezita cu picaturi. Ea inlatura
+umflaturile si durerile, ca si mugurii si rana incepe sa se vindece.
 
-32. Vindecă fără alt pericol toate rănile, că ar fi fost făcute prin lovire sau înțepare, dacă
-sânt umezite de mai multe ori cu aceste picături. Se ia o cârpă, se înmoaie în ele și se
-acoperă rănile cu ea. Ele înlătură în scurt timp durerea, nu permit nici arsura, nici
-necrozarea și vindecă și rănile vechi căpătate printr-o rănire prin împușcare. Dacă
-există si găuri, atunci să se pulverizeze picăturile în rana care nu trebuie neapărat
-curățată înainte. Prin sistematica aplicare cu o cârpă umezită, vindecarea va veni
-curând.
-33. Ele îndepărtează toate cicatricele, chiar dacă sânt vechi, semnele rănilor și
-tăieturile, dacă acestea sânt umezite cu ele până la de 40 de ori. Toate rănile care sânt
-vindecate cu ajutorul acestor picături nu lasă cicatrice.
-34. Vindecă din temelie și toate fistulele, chiar dacă par incurabile; răul poate fi oricât de
+32. Vindeca fara alt pericol toate ranile, ca ar fi fost facute prin lovire sau intepare, daca
+sant umezite de mai multe ori cu aceste picaturi. Se ia o carpa, se inmoaie in ele si se
+acopera ranile cu ea. Ele inlatura in scurt timp durerea, nu permit nici arsura, nici
+necrozarea si vindeca si ranile vechi capatate printr-o ranire prin impuscare. Daca
+exista si gauri, atunci sa se pulverizeze picaturile in rana care nu trebuie neaparat
+curatata inainte. Prin sistematica aplicare cu o carpa umezita, vindecarea va veni
+curand.
+33. Ele indeparteaza toate cicatricele, chiar daca sant vechi, semnele ranilor si
+taieturile, daca acestea sant umezite cu ele pana la de 40 de ori. Toate ranile care sant
+vindecate cu ajutorul acestor picaturi nu lasa cicatrice.
+34. Vindeca din temelie si toate fistulele, chiar daca par incurabile; raul poate fi oricat de
 vechi.
-35. Vindecă toate rănile de pe urma arsurilor, de-or proveni de la foc, de la apă
-fierbinte sau de la grăsime încinsă, dacă rănile sânt umezite sistematic. Nu se
-formează nici bășici, fierbințeala este trasă afară, chiar și bășicile purulente sânt
+35. Vindeca toate ranile de pe urma arsurilor, de-or proveni de la foc, de la apa
+fierbinte sau de la grasime incinsa, daca ranile sant umezite sistematic. Nu se
+formeaza nici basici, fierbinteala este trasa afara, chiar si basicile purulente sant
 vindecate complet.
-36. Servesc contra umflăturilor și vânătăilor, chiar dacă provin dintr-o lovitură sau
-bătaie.
-37. Dacă cineva nu poate să mănânce cu poftă, îi readuc gustul pierdut.
-38. în anemie puternică, readuc și culoarea pierdută, dacă sânt luate o vreme di mineața.
-Curăță sângele și formează unul nou, îi stimulează și circulația.
-39. Durerile reumatice din mădulare sânt îndepărtate, dacă se iau picături dimineața și
-seara și se pun cârpe umede pe locurile dureroase.
-40. Ele vindecă mâinile și picioarele înghețate, chiar dacă ar exista răni deschise. Cât
-se poate de des, însă mai cu seamă noaptea, să se aplice cârpe umezite cu aceste
-picături.
-41. Pe bătături să se pună un mic tampon umezit cu aceste picături, iar locul suferind să
-se țină mereu umed. După trei zile vor cădea de la sine sau vor putea fi îndepărtate
-fără durere.
-42. Dacă sânt înghițite, vindecă și mușcăturile clinilor turbați și ale altor animale, căci
-tăgăduiesc tot și distrug toate otrăvurile. Să se aplice și o cârpă umedă pe răni.
-43. în caz de ciumă sau alte boli contagioase este bine dacă se ia în timpul zilei de mai
-multe ori din aceste picături, căci ele vindecă buboaiele și pustulele de ciumă, chiar
-dacă s-ar afla deja în gât.
-44. Cine nu poate dormi bine noaptea să ia din aceste picături înainte să se ducă la
-culcare. In caz de insomnie nervoasă, să se pună pe inimă o cârpă umezită cu
-picături diluate.
-45. Un om beat poate fi trezit pe loc din beție cu două linguri de picături.
-46. Cine ia zilnic aceste picături dimineața și seara n-are nevoie de altă doctorie, căci ele
-fortifică trupul, împrospătează nervii și sângele, înlătură tremurul mâinilor și al
-picioarelor. Pe scurt, gonesc absolut toate bolile. Trupul rămâne viguros, obrazul
-tânăr și frumos.
-Important: Toate cantitățile indicate ar trebui diluate cu ceai de plante sau apă.
-Din punctele „Manuscrisului vechi" enumerate mai sus reiese marea și minunata putere
-tămăduitoare a acestei compoziții de plante. Se poate spune pe drept cuvânt că abia dacă
-mai există vreo boală la care ierburile suedeze să nu ajute; în orice caz, ele sânt
-considerate drept bază pentru orice tratament.
+36. Servesc contra umflaturilor si vanatailor, chiar daca provin dintr-o lovitura sau
+bataie.
+37. Daca cineva nu poate sa manance cu pofta, ii readuc gustul pierdut.
+38. in anemie puternica, readuc si culoarea pierduta, daca sant luate o vreme di mineata.
+Curata sangele si formeaza unul nou, ii stimuleaza si circulatia.
+39. Durerile reumatice din madulare sant indepartate, daca se iau picaturi dimineata si
+seara si se pun carpe umede pe locurile dureroase.
+40. Ele vindeca mainile si picioarele inghetate, chiar daca ar exista rani deschise. Cat
+se poate de des, insa mai cu seama noaptea, sa se aplice carpe umezite cu aceste
+picaturi.
+41. Pe bataturi sa se puna un mic tampon umezit cu aceste picaturi, iar locul suferind sa
+se tina mereu umed. Dupa trei zile vor cadea de la sine sau vor putea fi indepartate
+fara durere.
+42. Daca sant inghitite, vindeca si muscaturile clinilor turbati si ale altor animale, caci
+tagaduiesc tot si distrug toate otravurile. Sa se aplice si o carpa umeda pe rani.
+43. in caz de ciuma sau alte boli contagioase este bine daca se ia in timpul zilei de mai
+multe ori din aceste picaturi, caci ele vindeca buboaiele si pustulele de ciuma, chiar
+daca s-ar afla deja in gat.
+44. Cine nu poate dormi bine noaptea sa ia din aceste picaturi inainte sa se duca la
+culcare. In caz de insomnie nervoasa, sa se puna pe inima o carpa umezita cu
+picaturi diluate.
+45. Un om beat poate fi trezit pe loc din betie cu doua linguri de picaturi.
+46. Cine ia zilnic aceste picaturi dimineata si seara n-are nevoie de alta doctorie, caci ele
+fortifica trupul, improspateaza nervii si sangele, inlatura tremurul mainilor si al
+picioarelor. Pe scurt, gonesc absolut toate bolile. Trupul ramane viguros, obrazul
+tanar si frumos.
+Important: Toate cantitatile indicate ar trebui diluate cu ceai de plante sau apa.
+Din punctele „Manuscrisului vechi" enumerate mai sus reiese marea si minunata putere
+tamaduitoare a acestei compozitii de plante. Se poate spune pe drept cuvant ca abia daca
+mai exista vreo boala la care ierburile suedeze sa nu ajute; in orice caz, ele sant
+considerate drept baza pentru orice tratament.
 
 MODURI DE FOLOSIRE
-Intern: Profilactic se ia după indicația „Manuscrisului vechi" dimineața și seara câte
-1 linguriță diluată. în caz de indispoziție de orice fel se pot lua 3 lingurițe
-diluate. În bolile maligne se iau 2-3 linguri pe zi după cum urmează: Câte 1
-lingură se bea diluată cu 1/8 litru de ceai de plante, distribuite fiind 1/2 oră
-înainte și 1/2 oră după fiecare masă.
-Compresă cu ierburi suedeze: în funcție de mărimea locului se ia o bucată mai
-mică sau mai mare de vată sau celofibră, se umezește cu biter suedez și se
-aplică pe locul care trebuie tratat și care a fost uns și frecat în prealabil cu
-untură de porc sau alifie de filinriică. Se pune deasupra o bucată de plastic
-ceva mai mare ca să nu se păteze rufele. Abia apoi se leagă cu o bucată de
-pânză sau se înfășoară cu un pansament.
-Compresa se lasă, în funcție de boală, să-și facă efect între 2 și 4 ore.
-Dacă pacientul suportă, compresa se poate ține și peste noapte. După
-îndepărtarea ei se pudrează pielea. Dacă se ivesc totuși iritații ale pielii la
+Intern: Profilactic se ia dupa indicatia „Manuscrisului vechi" dimineata si seara cate
+1 lingurita diluata. in caz de indispozitie de orice fel se pot lua 3 lingurite
+diluate. In bolile maligne se iau 2-3 linguri pe zi dupa cum urmeaza: Cate 1
+lingura se bea diluata cu 1/8 litru de ceai de plante, distribuite fiind 1/2 ora
+inainte si 1/2 ora dupa fiecare masa.
+Compresa cu ierburi suedeze: in functie de marimea locului se ia o bucata mai
+mica sau mai mare de vata sau celofibra, se umezeste cu biter suedez si se
+aplica pe locul care trebuie tratat si care a fost uns si frecat in prealabil cu
+untura de porc sau alifie de filinriica. Se pune deasupra o bucata de plastic
+ceva mai mare ca sa nu se pateze rufele. Abia apoi se leaga cu o bucata de
+panza sau se infasoara cu un pansament.
+Compresa se lasa, in functie de boala, sa-si faca efect intre 2 si 4 ore.
+Daca pacientul suporta, compresa se poate tine si peste noapte. Dupa
+indepartarea ei se pudreaza pielea. Daca se ivesc totusi iritatii ale pielii la
 persoanele sensibile, atunci compresele trebuie folosite timp mai scurt sau
-trebuie renunțat la ele pentru o vreme. Persoanele alergice trebuie să renunțe
-la bucata de plastic și să lege deasupra numai o pânză. Să nu se uite în nici
-un caz ungerea pielii cu grăsime! Dacă a apărut deja o erupție care stârnește
-mâncărimi, să fie tratată eventual cu alifie de filimică.
+trebuie renuntat la ele pentru o vreme. Persoanele alergice trebuie sa renunte
+la bucata de plastic si sa lege deasupra numai o panza. Sa nu se uite in nici
+un caz ungerea pielii cu grasime! Daca a aparut deja o eruptie care starneste
+mancarimi, sa fie tratata eventual cu alifie de filimica.
 ## MARELE BITTER SUEDEZ
 
 MARELE BITTER SUEDEZ
-în ciuda imboldului din mai multe părți de a include iarăși în broșură și
-compoziția marelui biter suedez, nu m-am putut decide, întrucât toate reușitele
-mele tămăduitoare prezentate au fost obținute cu micul biter suedez. Rețeta
-marelui biter suedez o indusese primul editor al broșurii, fără să mă consulte și să
-mă înștiințeze și pe mine. S-au consemnat însă și utilizări pline de succes ale
+in ciuda imboldului din mai multe parti de a include iarasi in brosura si
+compozitia marelui biter suedez, nu m-am putut decide, intrucat toate reusitele
+mele tamaduitoare prezentate au fost obtinute cu micul biter suedez. Reteta
+marelui biter suedez o indusese primul editor al brosurii, fara sa ma consulte si sa
+ma instiinteze si pe mine. S-au consemnat insa si utilizari pline de succes ale
 marelui biter suedez.
-## VINUL PENTRU INIMĂ
+## VINUL PENTRU INIMA
 
-VINUL PENTRU INIMĂ
-în cărticica „So heilt Gott" (Așa vindecă Dumnezeu - Medicina Sf. Hildegard von Bingen
-ca nou procedeu naturist de leac) de dr. Gottfried Hertzka, apărută la editura elvețiană
-Christiana-Verlag, Stein pe Rin, care n-ar trebui să lipsească din căminul nici unei familii
-creștine, a fost prezentată printre altele o rețetă extraordinară pentru cardiaci, care dă
-rezultate cu totul neobișnuite.
-Stareța Hildegard von Bingen a trăit cu 800 de ani în urmă (1098-1179), a murit deci la
-vârsta de 81 de ani. Ca așa-numită mistică, îi apărea când era complet trează un fel de
-televizor ceresc în fața ochilor. Așa cum explică și atestă în mod expres la finele operei
-vieții sale, toate scrierile sale - tot ce a scris vreodată - provin exclusiv din aceste imagini și
-cuvinte cerești, toate bolile numite și medicamentele descrise îi sânt dezvăluite de
+VINUL PENTRU INIMA
+in carticica „So heilt Gott" (Asa vindeca Dumnezeu - Medicina Sf. Hildegard von Bingen
+ca nou procedeu naturist de leac) de dr. Gottfried Hertzka, aparuta la editura elvetiana
+Christiana-Verlag, Stein pe Rin, care n-ar trebui sa lipseasca din caminul nici unei familii
+crestine, a fost prezentata printre altele o reteta extraordinara pentru cardiaci, care da
+rezultate cu totul neobisnuite.
+Stareta Hildegard von Bingen a trait cu 800 de ani in urma (1098-1179), a murit deci la
+varsta de 81 de ani. Ca asa-numita mistica, ii aparea cand era complet treaza un fel de
+televizor ceresc in fata ochilor. Asa cum explica si atesta in mod expres la finele operei
+vietii sale, toate scrierile sale - tot ce a scris vreodata - provin exclusiv din aceste imagini si
+cuvinte ceresti, toate bolile numite si medicamentele descrise ii sant dezvaluite de
 Dumnezeu.
-Papa Eugen al lll-lea a pus să fie examinat darul de profeție al lui Hildegard și i-a
-recunoscut din punct de vedere bisericesc harul vizionar. Acum, după 800 de ani, au
+Papa Eugen al lll-lea a pus sa fie examinat darul de profetie al lui Hildegard si i-a
+recunoscut din punct de vedere bisericesc harul vizionar. Acum, dupa 800 de ani, au
 
-fost recunoscute de către medicina modernă și revelațiile sale medicale ca fiind corecte.
-Dr. Hertzka, medic de medicină generală cu procedee fitoterapeutice de vinde care,
-profesând în Konstanz, la lacul Boden, ne-a pus la dispoziție acum prin cărticica sa „So
-heilt Gott" câteva dintre rețetele lui Hildegard.
-Rețeta „vinului pentru inimă a dat rezultate foarte bune în toate insuficiențele cardiace și
-bolile adevărate de inimă și ocupă, după cum explică dr. Hertzka, un spațiu larg în cadrul
-practicii sale medicale zilnice. Eu însămi am dat această rețetă de câteva ori mai departe și
-reușita a fost surprinzător de bună. Și în anghina pectorală vinul pentru inimă a produs d
-ameliorare simțitoare.
-## REȚETA VINULUI PENTRU INIMA
+fost recunoscute de catre medicina moderna si revelatiile sale medicale ca fiind corecte.
+Dr. Hertzka, medic de medicina generala cu procedee fitoterapeutice de vinde care,
+profesand in Konstanz, la lacul Boden, ne-a pus la dispozitie acum prin carticica sa „So
+heilt Gott" cateva dintre retetele lui Hildegard.
+Reteta „vinului pentru inima a dat rezultate foarte bune in toate insuficientele cardiace si
+bolile adevarate de inima si ocupa, dupa cum explica dr. Hertzka, un spatiu larg in cadrul
+practicii sale medicale zilnice. Eu insami am dat aceasta reteta de cateva ori mai departe si
+reusita a fost surprinzator de buna. Si in anghina pectorala vinul pentru inima a produs d
+ameliorare simtitoare.
+## RETETA VINULUI PENTRU INIMA
 
-REȚETA VINULUI PENTRU INIMA
-10 tulpini proaspete de pătrunjel cu frunze cu tot se pun într-un litru de vin
-natural, curat, la care se adaugă 1-2 linguri de oțet curat din vin. Se lasă totul să
-fiarbă 10 minute la foc mic (Atenție, face spumă!). După aceea se mai adaugă 300
-grame de miere pură de albine și se lasă încă 4 minute să fiarbă ușor. Vinul
-fierbinte se filtrează și se trage cât este fierbinte în sticle care au fost clătite cu puțin
-alcool tare. Se astupă bine! Depunerile care se formează nu dăunează și pot fi
-băute și ele fără probleme. - La această rețetă aș dori să adaug că fiecare în parte
-poate decide dacă să fiarbă mierea sau nu.
-Dr. Hertzka afirmă: „Este totuna ce vin iei, că e roșu sau alb. Numai să fie natural...
-Numai să respecți ordinea: Mierea se adaugă abia după primul fiert și trebuie să fiarbă și ea
-cu restul. Nu-ți fie teamă de fierbere... Fierbe-ți liniștit vinul tău de pătrunjei-miere pentru
-inimă!"
-Mai încolo, dr. Hertzka explică: „Dacă se întâmplă odată să-ți simți inima, ia o lin gură,
-două linguri sau chiar trei linguri pline pe zi, și orice înțepături la inimă (din cauza
-schimbării vremii sau după emoții) dispar. Nu trebuie în nici un caz să fii îngust în vederi și
-speriat, fiindcă nu poți să-ți faci nici un rău cu acest vin. Dar nu numai în cazul durerilor
-cardiace incipiente, ci și în adevărată insuficiență cardiacă și alte boli cardiace te vei
-ajuta adesea în mod considerabil cu acest vin de pătrunjel-miere pentru inimă, poate chiar
-te vei însănătoși odată."
-Pe 21 ianuarie 1980 am primit o scrisoare de la o doamnă din landul Salzburg,
-scrisoare pe care aș dori s-o redau aici. Femeia scrie: „Vă comunic că mi-am preparat vinul
-pentru inimă și că am putut obține rezultate uimitoare. Am fost operată acum zece ani. Mi
-s-a spus că am o insuficiență cardiacă și deci voi avea întotdeauna dureri. N-aveau cum
-să mi le ia. Asta însemna deci că trebuia să mă învăț cu această idee. Dar datorită vinului
-pentru inimă, durerile mele au dispărut după două luni de tra tament. Nu mă mai simt nici
-slăbită."
+RETETA VINULUI PENTRU INIMA
+10 tulpini proaspete de patrunjel cu frunze cu tot se pun intr-un litru de vin
+natural, curat, la care se adauga 1-2 linguri de otet curat din vin. Se lasa totul sa
+fiarba 10 minute la foc mic (Atentie, face spuma!). Dupa aceea se mai adauga 300
+grame de miere pura de albine si se lasa inca 4 minute sa fiarba usor. Vinul
+fierbinte se filtreaza si se trage cat este fierbinte in sticle care au fost clatite cu putin
+alcool tare. Se astupa bine! Depunerile care se formeaza nu dauneaza si pot fi
+baute si ele fara probleme. - La aceasta reteta as dori sa adaug ca fiecare in parte
+poate decide daca sa fiarba mierea sau nu.
+Dr. Hertzka afirma: „Este totuna ce vin iei, ca e rosu sau alb. Numai sa fie natural...
+Numai sa respecti ordinea: Mierea se adauga abia dupa primul fiert si trebuie sa fiarba si ea
+cu restul. Nu-ti fie teama de fierbere... Fierbe-ti linistit vinul tau de patrunjei-miere pentru
+inima!"
+Mai incolo, dr. Hertzka explica: „Daca se intampla odata sa-ti simti inima, ia o lin gura,
+doua linguri sau chiar trei linguri pline pe zi, si orice intepaturi la inima (din cauza
+schimbarii vremii sau dupa emotii) dispar. Nu trebuie in nici un caz sa fii ingust in vederi si
+speriat, fiindca nu poti sa-ti faci nici un rau cu acest vin. Dar nu numai in cazul durerilor
+cardiace incipiente, ci si in adevarata insuficienta cardiaca si alte boli cardiace te vei
+ajuta adesea in mod considerabil cu acest vin de patrunjel-miere pentru inima, poate chiar
+te vei insanatosi odata."
+Pe 21 ianuarie 1980 am primit o scrisoare de la o doamna din landul Salzburg,
+scrisoare pe care as dori s-o redau aici. Femeia scrie: „Va comunic ca mi-am preparat vinul
+pentru inima si ca am putut obtine rezultate uimitoare. Am fost operata acum zece ani. Mi
+s-a spus ca am o insuficienta cardiaca si deci voi avea intotdeauna dureri. N-aveau cum
+sa mi le ia. Asta insemna deci ca trebuia sa ma invat cu aceasta idee. Dar datorita vinului
+pentru inima, durerile mele au disparut dupa doua luni de tra tament. Nu ma mai simt nici
+slabita."
 Un excelent AMESTEC DE CEAIURI pentru masa de familie
-Se începe în primăvara timpurie cu primele flori de podbal și se continuă culesul în cele
-trei anotimpuri cu ceea ce natura ne dăruiește în binecuvântarea ei:
+Se incepe in primavara timpurie cu primele flori de podbal si se continua culesul in cele
+trei anotimpuri cu ceea ce natura ne daruieste in binecuvantarea ei:
 
-podbal (flori, ceva mai târziu și frunze)
-ciuboțica-cucului (capitule florale)
-viorele, violete, toporași (flori și frunze)
+podbal (flori, ceva mai tarziu si frunze)
+ciubotica-cucului (capitule florale)
+viorele, violete, toporasi (flori si frunze)
 mierea-ursului (capitule florale)
-măcrișul-iepurelui (flori)
-silnic (foarte puțin, doar pentru condiment - capitulele florale superioare)
-urzică (primele plante proaspete de primăvară)
-crețișoară (frunze și flori)
-ventrilica (flori, tulpini și frunze)
-frunze de căpșuni, vârfuri de tufe de mure și de zmeură (mlădițe)
-soc (mlădițe, mai târziu flori)
-părăluțe
-tei (flori - culese în soare)
-mușețel (cules în soare)
+macrisul-iepurelui (flori)
+silnic (foarte putin, doar pentru condiment - capitulele florale superioare)
+urzica (primele plante proaspete de primavara)
+cretisoara (frunze si flori)
+ventrilica (flori, tulpini si frunze)
+frunze de capsuni, varfuri de tufe de mure si de zmeura (mladite)
+soc (mladite, mai tarziu flori)
+paralute
+tei (flori - culese in soare)
+musetel (cules in soare)
 barba-popii (flori)
-filimică (flori)
-vinariță (flori, tulpini și frunze)
-cimbru (flori, tulpini și frunze)
-roiniță (flori, tulpini, frunze - se poate și fără flori)
-menta (flori, tulpini, frunze - se poate și fără flori)
-coada-șoricel
-ului (culeasă în soare, însă numai câteva)
-lumânărică (flori - culese în soare)
-sunătoare (flori - culese în soare)
-maghiran (sălbatic - flori și frunze)
-pufulița-cu-flori-mici (frunze, tulpini și flori)
-vârfuri de molid (muguri, adică mlădițe foarte tinere)
-drăgaică (flori, frunze și tulpini)
-frunze de trandafiri de toate culorile (tratați cu îngrășăminte biologice!)
-Plantele se usucă de fiecare dată foarte bine și se amestecă toamna târziu într-un ceai
-excelent, sănătos, aromat și foarte gustos. Vă va îmbogăți iarna cina și vă va aminti de
-frumoasele ore estivale petrecute în natura liberă a Domnului. Se folosește 1 linguriță cu
-vârf din amestecul de plante pentru fiecare ceașcă (1/4 litru de apă), se opărește doar și se
-lasă puțin în repaos.
+filimica (flori)
+vinarita (flori, tulpini si frunze)
+cimbru (flori, tulpini si frunze)
+roinita (flori, tulpini, frunze - se poate si fara flori)
+menta (flori, tulpini, frunze - se poate si fara flori)
+coada-soricel
+ului (culeasa in soare, insa numai cateva)
+lumanarica (flori - culese in soare)
+sunatoare (flori - culese in soare)
+maghiran (salbatic - flori si frunze)
+pufulita-cu-flori-mici (frunze, tulpini si flori)
+varfuri de molid (muguri, adica mladite foarte tinere)
+dragaica (flori, frunze si tulpini)
+frunze de trandafiri de toate culorile (tratati cu ingrasaminte biologice!)
+Plantele se usuca de fiecare data foarte bine si se amesteca toamna tarziu intr-un ceai
+excelent, sanatos, aromat si foarte gustos. Va va imbogati iarna cina si va va aminti de
+frumoasele ore estivale petrecute in natura libera a Domnului. Se foloseste 1 lingurita cu
+varf din amestecul de plante pentru fiecare ceasca (1/4 litru de apa), se opareste doar si se
+lasa putin in repaos.
 
 ## SFATURI PENTRU DIFERITE BOLI
 
@@ -4064,801 +4064,801 @@ SFATURI PENTRU DIFERITE BOLI
 ### ACNEEA
 
 ACNEEA
-Este categoric o boală de pubertate și este parțial legată de un rinichi dereglat. Din
-acest motiv trebuie evitate mâncărurile puternic condimentate și sărate, salatele prea acrite
-și băuturile acidulate. Salatele ar trebui preparate cu iaurt. Pentru a combate acneea se bea
-zilnic 1 litru de ceai de urzici (opărite), încetul cu încetul, repartizat pe întreaga zi.
-Uz extern: Dimineața și seara se aplică pe fața udă oțet de hrean și se lasă să-și facă
-efectul 10 minute. Hreanul ras se introduce într-o sticlă și se toarnă deasupra oțet de vin
-sau de fructe. Oțetul trebuie să acopere hreanul. Maceratul este lăsat să stea 10 zile într-o
-încăpere cu temperatură moderată, întrucât acesta este folosit direct din sti clă, fără a vărsa
-oțetul, ar trebui lăsat într-o sticlă de plastic dezinfectată, cu capac găurit. Hreanul ia din tăria
-oțetului, oțetul din cea a hreanului. Se formează o esență de oțet slabă, pe care o poate
+Este categoric o boala de pubertate si este partial legata de un rinichi dereglat. Din
+acest motiv trebuie evitate mancarurile puternic condimentate si sarate, salatele prea acrite
+si bauturile acidulate. Salatele ar trebui preparate cu iaurt. Pentru a combate acneea se bea
+zilnic 1 litru de ceai de urzici (oparite), incetul cu incetul, repartizat pe intreaga zi.
+Uz extern: Dimineata si seara se aplica pe fata uda otet de hrean si se lasa sa-si faca
+efectul 10 minute. Hreanul ras se introduce intr-o sticla si se toarna deasupra otet de vin
+sau de fructe. Otetul trebuie sa acopere hreanul. Maceratul este lasat sa stea 10 zile intr-o
+incapere cu temperatura moderata, intrucat acesta este folosit direct din sti cla, fara a varsa
+otetul, ar trebui lasat intr-o sticla de plastic dezinfectata, cu capac gaurit. Hreanul ia din taria
+otetului, otetul din cea a hreanului. Se formeaza o esenta de otet slaba, pe care o poate
 suporta orice ten.
 ### APOPLEXIA
 
-APOPLEXIA (după un atac de apoplexie cu fenomene de paralizie)
-Trebuie începută mai întâi o cură de vâsc. Se beau zilnic timp de 6 săptămâni câte 3
-cești, timp de 3 săptămâni câte 2 cești și timp de 2 săptămâni câte 1 ceașcă cu ceai de vâsc.
-1 linguriță (cu vârf) de vâsc se lasă peste noapte la macerat în 1/4 litru de apă rece,
-dimineața se încălzește ușor și se strecoară. Pentru a evita ca acest ceai să tot fie reîncălzit
-pe parcursul zilei, se toarnă într-un termos clătit cu apă fierbinte sau se încălzește în bain-
+APOPLEXIA (dupa un atac de apoplexie cu fenomene de paralizie)
+Trebuie inceputa mai intai o cura de vasc. Se beau zilnic timp de 6 saptamani cate 3
+cesti, timp de 3 saptamani cate 2 cesti si timp de 2 saptamani cate 1 ceasca cu ceai de vasc.
+1 lingurita (cu varf) de vasc se lasa peste noapte la macerat in 1/4 litru de apa rece,
+dimineata se incalzeste usor si se strecoara. Pentru a evita ca acest ceai sa tot fie reincalzit
+pe parcursul zilei, se toarna intr-un termos clatit cu apa fierbinte sau se incalzeste in bain-
 marie.
-Sunătoare, ventrilica, levănțică, roiniță (mătăcină), rozmarin si salvie se
-amestecă în părți egale, se opărește 1 linguriță cu vârf cu 1/4 litru de apă fierbinte și se lasă
-să stea puțin. Din acest ceai se bea în timpul dimineții și al după-amiezii câte 1 ceașcă.
-Compresele cu bitter suedez pe regiunea occipitală au grijă de irigarea și înviorarea
-celulelor cerebrale. Partea suferindă a organismului este fricționată cu esențe revigorante
-de coada-șoricelului, sunătoare, traista-ciobanului sau cimbru. Și frecțiile cu ulei de
-cimbru si sunătoare făcute pe zonele paralizate se pot recomanda călduros. Se umple
-o sticlă până la gât cu plante și se toarnă deasupra pentru esențe un rachiu natural de
-fructe sau secară de 38-40%, iar pentru uleiurile de plante un ulei de măsline presate la
-rece. Ambele trebuie să stea peste plante timp de 10 zile în soare sau în apropierea mașinii
-de gătit.
-în plus, se fac băi de șezut cu coada-șoricelului și coada-calului cu 100 grame de
-plante și băi complete de cimbru cu 200 grame de plante la 1 baie. Pentru băi se lasă
-plantele în apă peste noapte, se încălzește apoi totul a doua zi și se toarnă în apa de baie.
-Durata băii - 20 minute; la baia completă, inima trebuie să stea în afara apei. Apa
-întrebuințată mai poate fi turnată de 2 ori peste plante și încălzită pentru alte băi. Să se
-folosească săptămânal numai o singură specie de plante pentru băi.
-Porțiunile paralizate se înviorează cu comprese de frunze calde de tătăneasă. Frunzele
-sânt opărite, învelite cât sânt calde într-o pânză si aplicate local. Noaptea, bol navul poate
-sta întins și având sub cap o pernă umplută cu frunze de ferigă uscate, fără tulpini. O să-i
-simtă efectul foarte binefăcător.
-Bunica noastră, în vârstă de 94 de ani, a suferit un ușor atac de apoplexie. Când s-a
-trezit, nu mai putea vorbi, iar pleoapa stingă atârna până pe mijlocul ochiului, l-am pus
+Sunatoare, ventrilica, levantica, roinita (matacina), rozmarin si salvie se
+amesteca in parti egale, se opareste 1 lingurita cu varf cu 1/4 litru de apa fierbinte si se lasa
+sa stea putin. Din acest ceai se bea in timpul diminetii si al dupa-amiezii cate 1 ceasca.
+Compresele cu bitter suedez pe regiunea occipitala au grija de irigarea si inviorarea
+celulelor cerebrale. Partea suferinda a organismului este frictionata cu esente revigorante
+de coada-soricelului, sunatoare, traista-ciobanului sau cimbru. Si frectiile cu ulei de
+cimbru si sunatoare facute pe zonele paralizate se pot recomanda calduros. Se umple
+o sticla pana la gat cu plante si se toarna deasupra pentru esente un rachiu natural de
+fructe sau secara de 38-40%, iar pentru uleiurile de plante un ulei de masline presate la
+rece. Ambele trebuie sa stea peste plante timp de 10 zile in soare sau in apropierea masinii
+de gatit.
+in plus, se fac bai de sezut cu coada-soricelului si coada-calului cu 100 grame de
+plante si bai complete de cimbru cu 200 grame de plante la 1 baie. Pentru bai se lasa
+plantele in apa peste noapte, se incalzeste apoi totul a doua zi si se toarna in apa de baie.
+Durata baii - 20 minute; la baia completa, inima trebuie sa stea in afara apei. Apa
+intrebuintata mai poate fi turnata de 2 ori peste plante si incalzita pentru alte bai. Sa se
+foloseasca saptamanal numai o singura specie de plante pentru bai.
+Portiunile paralizate se invioreaza cu comprese de frunze calde de tataneasa. Frunzele
+sant oparite, invelite cat sant calde intr-o panza si aplicate local. Noaptea, bol navul poate
+sta intins si avand sub cap o perna umpluta cu frunze de feriga uscate, fara tulpini. O sa-i
+simta efectul foarte binefacator.
+Bunica noastra, in varsta de 94 de ani, a suferit un usor atac de apoplexie. Cand s-a
+trezit, nu mai putea vorbi, iar pleoapa stinga atarna pana pe mijlocul ochiului, l-am pus
 
-imediat de trei sau patru ori comprese reci pe frunte și ochi după metoda Kneipp; când a
-venit medicul, totul era iarăși în ordine. La prânz a primit o hrană ușoară în pat, iar ci na a
-luat-o din nou la masă cu familia.
+imediat de trei sau patru ori comprese reci pe frunte si ochi dupa metoda Kneipp; cand a
+venit medicul, totul era iarasi in ordine. La pranz a primit o hrana usoara in pat, iar ci na a
+luat-o din nou la masa cu familia.
 ### APOPLEXIA
 
 APOPLEXIA (metode profilactice)
-Semne vizibile ale acestei boli sânt neliniștea, amețeala, teama, fața desfigurată și
-halucinațiile auditive, în acest caz, medicul trebuie chemat urgent! Se recomandă mâi cu
-seamă ponderare în mâncare și plimbări încete în aer liber. Alcoolul de orice fel (excepție o
-formează biterul suedez), fumatul și consumul de cafea naturală sânt strict interzise. Se
-recomandă vâscul preparat ca extract (macerat) rece - dimineața și seara câte 1 ceașcă și
-infuzia de salvie - 2 cești în timpul zilei, ca și compresele cu ierburi suedeze pe regiunea
-renală și compresele reci și umede pe inimă.
-Este indicat și următorul amestec de ceaiuri: rădăcini de anghelică, coada- racului
-(iarba-gâștei), rădăcini de odolean, cinci-degete, flori de levănțică, maghiran, ștevie-
-de-munte, mărțișor (cerențel), rozmarin, salvie, viorea-cu-miros-plăcut și isop;
-plantele se amesteca în părți egale; 1 linguriță cu vârf din amestecul de plante se opărește
-cu 1/4 litru de cidru clocotit și se lasă să stea 3 minute. Această doză, proaspăt pregătită de
-mai multe ori pe zi și băută, poate împiedica un atac de apoplexie care a fost intuit după
+Semne vizibile ale acestei boli sant nelinistea, ameteala, teama, fata desfigurata si
+halucinatiile auditive, in acest caz, medicul trebuie chemat urgent! Se recomanda mai cu
+seama ponderare in mancare si plimbari incete in aer liber. Alcoolul de orice fel (exceptie o
+formeaza biterul suedez), fumatul si consumul de cafea naturala sant strict interzise. Se
+recomanda vascul preparat ca extract (macerat) rece - dimineata si seara cate 1 ceasca si
+infuzia de salvie - 2 cesti in timpul zilei, ca si compresele cu ierburi suedeze pe regiunea
+renala si compresele reci si umede pe inima.
+Este indicat si urmatorul amestec de ceaiuri: radacini de anghelica, coada- racului
+(iarba-gastei), radacini de odolean, cinci-degete, flori de levantica, maghiran, stevie-
+de-munte, martisor (cerentel), rozmarin, salvie, viorea-cu-miros-placut si isop;
+plantele se amesteca in parti egale; 1 lingurita cu varf din amestecul de plante se opareste
+cu 1/4 litru de cidru clocotit si se lasa sa stea 3 minute. Aceasta doza, proaspat pregatita de
+mai multe ori pe zi si bauta, poate impiedica un atac de apoplexie care a fost intuit dupa
 simptomele susnumite.
 ### ARTROZA, ARTRITA, COXARTROZA
 
 ARTROZA, ARTRITA, COXARTROZA
-îndrumările următoare sânt valabile și pentru inflamațiile articulare, deformările ar ticulare
-și fenomenele de uzură. Acestea sânt vindecabile, durerile dispar încetul cu încetul, chiar si
-deformările se retrag treptat într-o perioadă de unul până la doi ani. Bolnavii care merg în
-baston sau în cârje le lasă iarăși deoparte după un timp relativ scurt. Se bea dimineața, 1/2
-oră înainte de micul dejun și seara, 1/2 oră înainte de cină, 1 ceașcă cu ceai de coada-
-calului (coada-calului este opărită și lăsată 1/2 minut în repaos), iar în timpul zilei se
-consumă 4 cești cu ceai de urzici (și urzicile se opăresc și se lasă într-un scurt repaos de 1/2
-minut). Din aceste 4 cești se scoate de 3 ori câte 1/2 ceașcă și se toarnă de fiecare dată 1
-lingură de bitter suedez înăuntru. Cantitatea se bea, repartizată în porții, înainte și după
-fiecare masă.
-în orice regiuni ar apărea dureri, la genunchi sau alte încheieturi, se pun comprese cu
-bitter suedez și se lasă timp de 4 ore. A nu se uita: pielea trebuie unsă în prealabil cu
-untură de porc sau alifie de filimică, iar de fiecare dată după tratament se pudrează ca să
-nu apară mâncărimi. Se calcă cu fierul de călcat frunze de varză creață (varză nemțească)
-sau de varză albă, se aplică pe încheieturile dureroase și se leagă cu o bucată de pânză
-pentru a se păstra calde; vor aduce alinare.
-Și fracționările încheieturilor cu esență de tătăneasă ajută ca să devină durerile mai
-suportabile, în caz de inflamații articulare sânt indicate compresele cu aburi de coada-
+indrumarile urmatoare sant valabile si pentru inflamatiile articulare, deformarile ar ticulare
+si fenomenele de uzura. Acestea sant vindecabile, durerile dispar incetul cu incetul, chiar si
+deformarile se retrag treptat intr-o perioada de unul pana la doi ani. Bolnavii care merg in
+baston sau in carje le lasa iarasi deoparte dupa un timp relativ scurt. Se bea dimineata, 1/2
+ora inainte de micul dejun si seara, 1/2 ora inainte de cina, 1 ceasca cu ceai de coada-
+calului (coada-calului este oparita si lasata 1/2 minut in repaos), iar in timpul zilei se
+consuma 4 cesti cu ceai de urzici (si urzicile se oparesc si se lasa intr-un scurt repaos de 1/2
+minut). Din aceste 4 cesti se scoate de 3 ori cate 1/2 ceasca si se toarna de fiecare data 1
+lingura de bitter suedez inauntru. Cantitatea se bea, repartizata in portii, inainte si dupa
+fiecare masa.
+in orice regiuni ar aparea dureri, la genunchi sau alte incheieturi, se pun comprese cu
+bitter suedez si se lasa timp de 4 ore. A nu se uita: pielea trebuie unsa in prealabil cu
+untura de porc sau alifie de filimica, iar de fiecare data dupa tratament se pudreaza ca sa
+nu apara mancarimi. Se calca cu fierul de calcat frunze de varza creata (varza nemteasca)
+sau de varza alba, se aplica pe incheieturile dureroase si se leaga cu o bucata de panza
+pentru a se pastra calde; vor aduce alinare.
+Si fractionarile incheieturilor cu esenta de tataneasa ajuta ca sa devina durerile mai
+suportabile, in caz de inflamatii articulare sant indicate compresele cu aburi de coada-
 calului (a se vedea la pag. 20).
-Pe lângă frunzele de varză se recomandă cu căldură mai ales compresele cu frunze de
-brânca-ursului (Heracleum sphondylium), numită popular și crucea-pământului, talpa-
-ursului sau urechea-porcului. Această plantă se găsește pretutindeni pe povârnișuri,
-pante, câmpii, ca și în pădurile rare, umede, de foioase sau de foioase amestecate cu
-conifere sau în zăvoaie, crescând ca buruiană. Planta are umbele mari, plate, acoperite
-într-o nuanță verzulie sau roz-pal și sare în ochi pe câmpii și pante datorită mărimii ei
+Pe langa frunzele de varza se recomanda cu caldura mai ales compresele cu frunze de
+branca-ursului (Heracleum sphondylium), numita popular si crucea-pamantului, talpa-
+ursului sau urechea-porcului. Aceasta planta se gaseste pretutindeni pe povarnisuri,
+pante, campii, ca si in padurile rare, umede, de foioase sau de foioase amestecate cu
+conifere sau in zavoaie, crescand ca buruiana. Planta are umbele mari, plate, acoperite
+intr-o nuanta verzulie sau roz-pal si sare in ochi pe campii si pante datorita marimii ei
 deosebite.
 
-Bunica noastră în vârstă de 93 de ani a căpătat brusc la genunchiul stâng o umflătură
-spre dreapta cu dureri puternice. Cea care până atunci se mișca foarte ușor a trebuit să
-recurgă la ajutorul bastonului și de-abia putea să meargă chiar și cu el. Timp de 2
-săptămâni i-am pus ziua comprese cu ierburi suedeze (4 ore) și noaptea frunze fierbinți de
-varză călcată. Ce-i drept, durerile au cedat puțin, dar stingherirea în mers a rămas. Atunci
-am luat frunze de talpa-ursului și am avut succes cu ele chiar din prima zi. Am spălat
-frunzele, le-am zdrobit pe un fund de lemn și le-am aplicat peste noapte direct pe
-genunchiul bolnav. În ziua următoare, greutatea în mers a dispărut ca suflată de vânt.
-Numai umflătura se mai vedea. Deci, în seara următoare am repetat aplicarea compreselor
-și astfel, spre bucuria noastră, a dispărut și umflătura. Bunica noastră, care între timp a
-împlinit 94 de ani, merge în continuare fără baston. Au încetat toate durerile și neplăcerile
+Bunica noastra in varsta de 93 de ani a capatat brusc la genunchiul stang o umflatura
+spre dreapta cu dureri puternice. Cea care pana atunci se misca foarte usor a trebuit sa
+recurga la ajutorul bastonului si de-abia putea sa mearga chiar si cu el. Timp de 2
+saptamani i-am pus ziua comprese cu ierburi suedeze (4 ore) si noaptea frunze fierbinti de
+varza calcata. Ce-i drept, durerile au cedat putin, dar stingherirea in mers a ramas. Atunci
+am luat frunze de talpa-ursului si am avut succes cu ele chiar din prima zi. Am spalat
+frunzele, le-am zdrobit pe un fund de lemn si le-am aplicat peste noapte direct pe
+genunchiul bolnav. In ziua urmatoare, greutatea in mers a disparut ca suflata de vant.
+Numai umflatura se mai vedea. Deci, in seara urmatoare am repetat aplicarea compreselor
+si astfel, spre bucuria noastra, a disparut si umflatura. Bunica noastra, care intre timp a
+implinit 94 de ani, merge in continuare fara baston. Au incetat toate durerile si neplacerile
 de la genunchi.
-Foarte recomandabilă ar fi o dată pe lună o baie de șezut cu coada-calului, din 100
-grame de plante care se lasă în apă rece să se moaie peste noapte; a doua zi, to tul se
-încălzește; durata băii - 20 minute. Apa de baie mai poate fi turnată de 2 ori înapoi peste
-plante, reîncălzită și folosită pentru alte două băi de șezut.
-O călugăriță scrie: „în aprilie v-am cerut sfatul. Nu mai puteam dormi de durere nici o
-noapte. La indicația dumneavoastră, am băut atunci zilnic câte 4 cești cu ceai, de urzici
-proaspete, în care am diluat 3 lingurițe plus 1 lingură de biter suedez. Trebuie să vă
-comunic cu bucurie că acum, după o jumătate de an, nu mai am nici o durere în șold și
-operația nu mai este necesară. Lucrez într-un cămin de bătrâni și am putut ajuta mulți
-oameni vârstnici cu aceste plante."
+Foarte recomandabila ar fi o data pe luna o baie de sezut cu coada-calului, din 100
+grame de plante care se lasa in apa rece sa se moaie peste noapte; a doua zi, to tul se
+incalzeste; durata baii - 20 minute. Apa de baie mai poate fi turnata de 2 ori inapoi peste
+plante, reincalzita si folosita pentru alte doua bai de sezut.
+O calugarita scrie: „in aprilie v-am cerut sfatul. Nu mai puteam dormi de durere nici o
+noapte. La indicatia dumneavoastra, am baut atunci zilnic cate 4 cesti cu ceai, de urzici
+proaspete, in care am diluat 3 lingurite plus 1 lingura de biter suedez. Trebuie sa va
+comunic cu bucurie ca acum, dupa o jumatate de an, nu mai am nici o durere in sold si
+operatia nu mai este necesara. Lucrez intr-un camin de batrani si am putut ajuta multi
+oameni varstnici cu aceste plante."
 ### ATROFIA MUSCULARA
 
 ATROFIA MUSCULARA
-în cazul atrofiei musculare s-au dovedit bune următoarele metode fitoterapeutice:
-Traista-ciobanului proaspătă și spălată este mărunțită, introdusă într-o sticlă, se toarnă
-peste ea rachiu de secară sau de fructe de 40% și se lasă 10 zile în soare sau în apropierea
-mașinii de gătit. Se trage după cele 10 zile într-o sticluță și se toarnă deasupra cantitatea
-de alcool lipsă. Cu această esență de plante se fricționează de 3 ori pe zi porțiunile
-musculare bolnave. Intern, se iau 4 cești cu ceai de crețișoară, repartizate în înghițituri
-mici, pe parcursul întregii zile; dacă este posibil, atunci să se folosească plante proaspăt
-culese (a se vedea „Traista-ciobanului" și „Crețișoară").
+in cazul atrofiei musculare s-au dovedit bune urmatoarele metode fitoterapeutice:
+Traista-ciobanului proaspata si spalata este maruntita, introdusa intr-o sticla, se toarna
+peste ea rachiu de secara sau de fructe de 40% si se lasa 10 zile in soare sau in apropierea
+masinii de gatit. Se trage dupa cele 10 zile intr-o sticluta si se toarna deasupra cantitatea
+de alcool lipsa. Cu aceasta esenta de plante se frictioneaza de 3 ori pe zi portiunile
+musculare bolnave. Intern, se iau 4 cesti cu ceai de cretisoara, repartizate in inghitituri
+mici, pe parcursul intregii zile; daca este posibil, atunci sa se foloseasca plante proaspat
+culese (a se vedea „Traista-ciobanului" si „Cretisoara").
 ### AVORTURILE
 
 AVORTURILE
-Multe femei avortează des, căci nu pot păstra sarcina până la sfârșit. Aceste femei ar
-trebui să recurgă la ceai de coada-șoricelului și de crețișoară, 2-3 cești pe zi. Dar și
-tinerele mlădițe de carpen, care se plantează ca un gard viu în jurul caselor, aduc ajutor.
-Vârfurile tinere ale frunzelor, formate din trei frunzulițe, sânt fierte în lapte. Laptele se
-strecoară, se bate cu telul un gălbenuș de ou, se introduce în lapte, iar la urmă se adaugă
-un fruntaș ușor. Această supă trebuie servită câteva săptămâni, chiar luni în șir, la cină.
+Multe femei avorteaza des, caci nu pot pastra sarcina pana la sfarsit. Aceste femei ar
+trebui sa recurga la ceai de coada-soricelului si de cretisoara, 2-3 cesti pe zi. Dar si
+tinerele mladite de carpen, care se planteaza ca un gard viu in jurul caselor, aduc ajutor.
+Varfurile tinere ale frunzelor, formate din trei frunzulite, sant fierte in lapte. Laptele se
+strecoara, se bate cu telul un galbenus de ou, se introduce in lapte, iar la urma se adauga
+un fruntas usor. Aceasta supa trebuie servita cateva saptamani, chiar luni in sir, la cina.
 Rareori se va mai ivi un avort.
-### BOALA ORGANELOR AUZULUI DATORATA RĂCELII
+### BOALA ORGANELOR AUZULUI DATORATA RACELII
 
-BOALA ORGANELOR AUZULUI DATORATA RĂCELII
-Se amestecă în părți egale silnic, salvie și coada-șoricelului. Infuzia caldă din aceste
-plante se întrebuințează pentru clătirea urechilor. Dar se recomandă și biterul suedez,
-introdus cu un tampon mic de vată, și uleiul cald de cimbru, care se picură
+BOALA ORGANELOR AUZULUI DATORATA RACELII
+Se amesteca in parti egale silnic, salvie si coada-soricelului. Infuzia calda din aceste
+plante se intrebuinteaza pentru clatirea urechilor. Dar se recomanda si biterul suedez,
+introdus cu un tampon mic de vata, si uleiul cald de cimbru, care se picura
 
-înăuntru înaintea biterului suedez. Uleiul de cimbru se încălzește, cufundând o linguriță în
-apă fierbinte și punând 1-2 picături de ulei în lingurița astfel încălzită.
-### BOLILE CARDIACE și CIRCULATORII
+inauntru inaintea biterului suedez. Uleiul de cimbru se incalzeste, cufundand o lingurita in
+apa fierbinte si punand 1-2 picaturi de ulei in lingurita astfel incalzita.
+### BOLILE CARDIACE si CIRCULATORII
 
-BOLILE CARDIACE și CIRCULATORII
-întrucât infarctele miocardice au luat proporții în ultimii ani, transformându-se parcă
-într-un fel de boală națională, vă indic un amestec de ceaiuri care realizează succese
-surprinzătoare în bolile cardiace si circulatorii:
+BOLILE CARDIACE si CIRCULATORII
+intrucat infarctele miocardice au luat proportii in ultimii ani, transformandu-se parca
+intr-un fel de boala nationala, va indic un amestec de ceaiuri care realizeaza succese
+surprinzatoare in bolile cardiace si circulatorii:
 
 10 grame de coada-calului 10 grame
-10 grame de virnanț (rută) 10 grame
+10 grame de virnant (ruta) 10 grame
 10 grame de troscot 10 grame
-10 grame rădăcină pătrunjei-de-câmp 10 grame
-10 grame de arnică 10 grame
-30 grame de mărăcine (păducel) 10 grame
-20 grame de vâsc 10 grame
+10 grame radacina patrunjei-de-camp 10 grame
+10 grame de arnica 10 grame
+30 grame de maracine (paducel) 10 grame
+20 grame de vasc 10 grame
 20 grame de ceai-de-mate 10 grame
-10 grame de tapoșnic
-10 grame de păpădie 10 grame
+10 grame de taposnic
+10 grame de papadie 10 grame
 10 grame de capsule de fasole 10 grame
 10 grame de traista-ciobanului 10 grame
  10 grame
-de scoarță de crușin
-de algă-cafenie
+de scoarta de crusin
+de alga-cafenie
 de brustur (brusture, lipan)
 de coada-racului
-de coada-șoricelului
-de fumăriță (iarba-fumului)
-de talpa-gâștei de mușchi-
-irlandez (nu de mușchi-
+de coada-soricelului
+de fumarita (iarba-fumului)
+de talpa-gastei de muschi-
+irlandez (nu de muschi-
 islandez!)
-de obligeană
+de obligeana
 de osul-iepurelui
 de pir
-de roiniță (mătăcină)
+de roinita (matacina)
 
-Se amestecă bine toate plantele și se pune 1 linguriță cu vârf la 1 ceașcă. Acest ceai
-se lasă să stea peste noapte ca extract rece, iar dimineața se încălzește. Zilnic, dimineața
-și seara, se bea 1 ceașcă, îndulcită cu 1 linguriță de miere.
+Se amesteca bine toate plantele si se pune 1 lingurita cu varf la 1 ceasca. Acest ceai
+se lasa sa stea peste noapte ca extract rece, iar dimineata se incalzeste. Zilnic, dimineata
+si seara, se bea 1 ceasca, indulcita cu 1 lingurita de miere.
 ### CALCULUL BILIAR
 
 CALCULUL BILIAR
-Este interesant că de această boală suferă mai mult femeile decât bărbații. Râgâială cu
-gust amar și vărsături puternice, care iradiază înspre inimă, ajungând până în dreap ta, sub
-coaste și însoțite de grețuri mari - acestea sânt simptomele. întrucât avem la dispoziție
-atâtea mijloace de leac din farmacia Domnului, nu trebuie să se ajungă întotdeauna la
-operație.
-O cură de 6 săptămâni cu suc de ridichi a putut ajuta în foarte multe cazuri, dacă nu
-era vorba de anumite pietre care apar extrem de rar și nu se dizolvă; într-o astfel de situație
-trebuie recurs la operație. Ridichile se presează cu un storcător electric de uz casnic. Se
-începe dimineața, pe stomacul gol, cu 100 grame și se crește în decursul a 3 săptămâni
-treptat la 400 grame, pentru a scădea din nou în decursul a 3 săptămâni la 100 grame, în
-cazul unor pereți stomacali și intestinali inflamați nu este permisă administrarea sucului de
+Este interesant ca de aceasta boala sufera mai mult femeile decat barbatii. Ragaiala cu
+gust amar si varsaturi puternice, care iradiaza inspre inima, ajungand pana in dreap ta, sub
+coaste si insotite de greturi mari - acestea sant simptomele. intrucat avem la dispozitie
+atatea mijloace de leac din farmacia Domnului, nu trebuie sa se ajunga intotdeauna la
+operatie.
+O cura de 6 saptamani cu suc de ridichi a putut ajuta in foarte multe cazuri, daca nu
+era vorba de anumite pietre care apar extrem de rar si nu se dizolva; intr-o astfel de situatie
+trebuie recurs la operatie. Ridichile se preseaza cu un storcator electric de uz casnic. Se
+incepe dimineata, pe stomacul gol, cu 100 grame si se creste in decursul a 3 saptamani
+treptat la 400 grame, pentru a scadea din nou in decursul a 3 saptamani la 100 grame, in
+cazul unor pereti stomacali si intestinali inflamati nu este permisa administrarea sucului de
 ridichi!
-Cât de rapid sânt dizolvate pietrele biliare de către sucul de ridichi o va arăta poves tirea
-următoare. Soția unui general din Trient și-a îndepărtat calculul biliar prin operație. Erau
-pietre mici și mari pe care-i plăcea să le arate la multă lume, până ce a pus să-i fie montate
-pe mânerul unui cuțit. Într-o zi când tocmai curăța cu el ridichi, i-a venit cineva în vizită. A
-lăsat cuțitul în castron peste ridichi și s-a dus în casă să stea de vorbă cu musafirul ei. Cât
-de mirată a fost când și-a apucat, mai târziu, cuțitul! Pietrele biliare din miner dispăruseră
-fără urmă, dizolvate în zeama ridichilor.
+Cat de rapid sant dizolvate pietrele biliare de catre sucul de ridichi o va arata poves tirea
+urmatoare. Sotia unui general din Trient si-a indepartat calculul biliar prin operatie. Erau
+pietre mici si mari pe care-i placea sa le arate la multa lume, pana ce a pus sa-i fie montate
+pe manerul unui cutit. Intr-o zi cand tocmai curata cu el ridichi, i-a venit cineva in vizita. A
+lasat cutitul in castron peste ridichi si s-a dus in casa sa stea de vorba cu musafirul ei. Cat
+de mirata a fost cand si-a apucat, mai tarziu, cutitul! Pietrele biliare din miner disparusera
+fara urma, dizolvate in zeama ridichilor.
 
-Un amestec bun de plante medicinale din câte 20 grame de pătrunjel-
-de-câmp, iederă, hamei, turiță-mare, mentă și pelin înlătură de asemenea
-colicile și pietrele. Se pun 3 linguri de plante la 1 litru de vin de mere sau cidru, se
-lasă să stea la rece, se încălzește apoi maceratul până aproape de punctul de
-fierbere, se ia de pe foc și se lasă în repaos 3 minute, în timpul zilei se ia la fiecare
-oră câte 1 lingură, în total cam de 8-9 ori. Deoarece lichidul trebuie băut cald, este
-păstrat într-un termos.
-### CATARACTA și GLAUCOMUL
+Un amestec bun de plante medicinale din cate 20 grame de patrunjel-
+de-camp, iedera, hamei, turita-mare, menta si pelin inlatura de asemenea
+colicile si pietrele. Se pun 3 linguri de plante la 1 litru de vin de mere sau cidru, se
+lasa sa stea la rece, se incalzeste apoi maceratul pana aproape de punctul de
+fierbere, se ia de pe foc si se lasa in repaos 3 minute, in timpul zilei se ia la fiecare
+ora cate 1 lingura, in total cam de 8-9 ori. Deoarece lichidul trebuie baut cald, este
+pastrat intr-un termos.
+### CATARACTA si GLAUCOMUL
 
-CATARACTA și GLAUCOMUL
-Glaucomul nu este numai o boală a ochilor, el provine mai curând de la o dere glare a
-rinichilor, în cele mai multe cazuri, glaucomul merge mână-n mână cu durerile reumatice și
-articulare. Dintr-un amestec de urzică, ventrilică, filimică și coada-calului în părți egale ar
-trebui să se bea zilnic 2-3 cești, în care se pune câte 1 linguriță de bitter suedez. Pentru a
-se obține o însănătoșire grabnică, plantele ar trebui să fie, pe cât posibil, proaspăt culese.
-în caz de cataractă se ung de mai multe ori pe zi pleoapele cu bitter suedez. Din
-scrisori rezultă că acest mod de întrebuințare a avut un efect bun în cataractă. Amănunte se
-pot citi în articolul despre rostopască
-Foarte importantă pentru glaucom este o baie de șezut cu coada-calului. Rinichiul
-dereglat transmite presiunea ascendentă mai departe ochilor. Băile de coada-calului ajută la
-retragerea presiunii din ochii afectați. Ea exercită din afară o in fluență atât de bună asupra
-rinichilor, încât adesea este înlăturată presiunea din ochii bolnavi chiar în timpul băii. Se iau
-100 grame de plante uscate sau cca. 1/2 găleată, adică 21/2 litri de plante proaspete.
-Acestea se lasă peste noapte la macerat în apă rece; apa trebuie să acopere plantele. În
-ziua următoare maceratul se încălzește, se fil trează și se toarnă pește apa de baie care
-trebuie să aibă o temperatură potrivită. Durata băii - 20 minute. În timpul băii se adaugă din
-când în când apă fierbinte, pentru a păstra o temperatură constantă. Sala de baie trebuie
-să aibă o căldură plăcută, apa de baie să acopere regiunea renală, iar inima să fie în afara
-apei. Fără a se șterge, bolnavul se învelește într-un halat de baie și transpiră timp de 1 oră
-în patul încălzit dinainte. Această apă de baie se folosește, reîncălzită, în alte două seri.
-Cu urm ătoarea rețetă se prepară 6 baie de aburi pentru ochi:
+CATARACTA si GLAUCOMUL
+Glaucomul nu este numai o boala a ochilor, el provine mai curand de la o dere glare a
+rinichilor, in cele mai multe cazuri, glaucomul merge mana-n mana cu durerile reumatice si
+articulare. Dintr-un amestec de urzica, ventrilica, filimica si coada-calului in parti egale ar
+trebui sa se bea zilnic 2-3 cesti, in care se pune cate 1 lingurita de bitter suedez. Pentru a
+se obtine o insanatosire grabnica, plantele ar trebui sa fie, pe cat posibil, proaspat culese.
+in caz de cataracta se ung de mai multe ori pe zi pleoapele cu bitter suedez. Din
+scrisori rezulta ca acest mod de intrebuintare a avut un efect bun in cataracta. Amanunte se
+pot citi in articolul despre rostopasca
+Foarte importanta pentru glaucom este o baie de sezut cu coada-calului. Rinichiul
+dereglat transmite presiunea ascendenta mai departe ochilor. Baile de coada-calului ajuta la
+retragerea presiunii din ochii afectati. Ea exercita din afara o in fluenta atat de buna asupra
+rinichilor, incat adesea este inlaturata presiunea din ochii bolnavi chiar in timpul baii. Se iau
+100 grame de plante uscate sau cca. 1/2 galeata, adica 21/2 litri de plante proaspete.
+Acestea se lasa peste noapte la macerat in apa rece; apa trebuie sa acopere plantele. In
+ziua urmatoare maceratul se incalzeste, se fil treaza si se toarna peste apa de baie care
+trebuie sa aiba o temperatura potrivita. Durata baii - 20 minute. In timpul baii se adauga din
+cand in cand apa fierbinte, pentru a pastra o temperatura constanta. Sala de baie trebuie
+sa aiba o caldura placuta, apa de baie sa acopere regiunea renala, iar inima sa fie in afara
+apei. Fara a se sterge, bolnavul se inveleste intr-un halat de baie si transpira timp de 1 ora
+in patul incalzit dinainte. Aceasta apa de baie se foloseste, reincalzita, in alte doua seri.
+Cu urm atoarea reteta se prepara 6 baie de aburi pentru ochi:
 
-20 grame de silur (buruniță pentru
+20 grame de silur (burunita pentru
 durere-de-ochi)
-20 grame de odolean (valeriană) 20
-grame de mușețel 10 grame de
-sporici (verbină) 30 grame de flori de
+20 grame de odolean (valeriana) 20
+grame de musetel 10 grame de
+sporici (verbina) 30 grame de flori de
 soc
-Se amestecă totul bine. 5 linguri rase de
-plante se opăresc cu 1/2 litru de vin alb
-care a fost înfierbântat până la limita de
-fierbere. Aburul este lăsat să acționeze
-asupra ochilor închiși. - Cel mai bine este
-ca acest vin să se toarne într-o sticlă și să
-se pregătească de fiecare dată cu o
-cantitate mai mică de vin o baie
-proaspătă de aburi.
+Se amesteca totul bine. 5 linguri rase de
+plante se oparesc cu 1/2 litru de vin alb
+care a fost infierbantat pana la limita de
+fierbere. Aburul este lasat sa actioneze
+asupra ochilor inchisi. - Cel mai bine este
+ca acest vin sa se toarne intr-o sticla si sa
+se pregateasca de fiecare data cu o
+cantitate mai mica de vin o baie
+proaspata de aburi.
 
-Pentru a fi eliberat mai repede de durerile deseori foarte neplăcute din ochi, bol navul
-să-și aplice ușor pe ochii închiși o vată muiată în bitter suedez, după masa de prânz, timp
-de 1 oră.
-Se pot face și băi de ochi cu silur, însă doar cu o infuzie foarte slabă. O înrăutățire a
-bolii de ochi după folosirea băilor de silur este un semn de supradozare. Se infuzează la 1
-ceașcă maximum 1/2 linguriță de plante și se lasă într-un repaos foarte scurt. Recomand
-comprese pe ochi cu o astfel de infuzie ușoară. Ceaiul trebuie preparat însă de fiecare
-dată proaspăt și nu are voie să fie folosit decât o dată.
-După un scurt serviciu divin ținut pentru pelerinii vestgermani într-o biserică din Austria
-superioară, a venit la mine o femeie radiind de bucurie și mi-a povestit că scăpase complet
-de glaucom datorită sfaturilor din broșura mea. O scrisoare mi-a re latat că și amestecurile
+Pentru a fi eliberat mai repede de durerile deseori foarte neplacute din ochi, bol navul
+sa-si aplice usor pe ochii inchisi o vata muiata in bitter suedez, dupa masa de pranz, timp
+de 1 ora.
+Se pot face si bai de ochi cu silur, insa doar cu o infuzie foarte slaba. O inrautatire a
+bolii de ochi dupa folosirea bailor de silur este un semn de supradozare. Se infuzeaza la 1
+ceasca maximum 1/2 lingurita de plante si se lasa intr-un repaos foarte scurt. Recomand
+comprese pe ochi cu o astfel de infuzie usoara. Ceaiul trebuie preparat insa de fiecare
+data proaspat si nu are voie sa fie folosit decat o data.
+Dupa un scurt serviciu divin tinut pentru pelerinii vestgermani intr-o biserica din Austria
+superioara, a venit la mine o femeie radiind de bucurie si mi-a povestit ca scapase complet
+de glaucom datorita sfaturilor din brosura mea. O scrisoare mi-a re latat ca si amestecurile
 de ceai indicate au avut succes la glaucom.
 ### COLICA APENDICULARA
 
 COLICA APENDICULARA
-„Ar trebui băută mai des câte o ceașcă cu ceai proaspăt de frunze de mur, atunci n-ar
-exista niciodată nici un fel de inflamare a apendicelui." Mi-am amintit de această vorbă a
-unui bătrân medic de casă din copilăria mea, atunci când fiul meu în vârstă de 7 ani s-a
-trezit într-o dimineață cu dureri în zona apendicelui și cu o paloare extremă în obraji. Am
-anunțat medicul, dar i-am pregătit imediat o ceașcă cu ceai de frunze de mur. Chiar în timp
-ce bea ceaiul, i-a revenit culoarea în obraji. Doctorul n-a mai putut constata nici o iritare a
+„Ar trebui bauta mai des cate o ceasca cu ceai proaspat de frunze de mur, atunci n-ar
+exista niciodata nici un fel de inflamare a apendicelui." Mi-am amintit de aceasta vorba a
+unui batran medic de casa din copilaria mea, atunci cand fiul meu in varsta de 7 ani s-a
+trezit intr-o dimineata cu dureri in zona apendicelui si cu o paloare extrema in obraji. Am
+anuntat medicul, dar i-am pregatit imediat o ceasca cu ceai de frunze de mur. Chiar in timp
+ce bea ceaiul, i-a revenit culoarea in obraji. Doctorul n-a mai putut constata nici o iritare a
 apendicelui.
-### CONSTIPAȚIA
+### CONSTIPATIA
 
-CONSTIPAȚIA
-Un medic a spus odată la o prelegere ținută într-un cămin de bătrâni la care am
-participat și eu: „Cu cât vă obișnuiți mai mult cu laxativele, cu atât mai rebelă va deveni
-constipația!" în plus, intestinul se subțiază prin permanenta curățire de mucozități!
-încercați să obțineți reglarea digestiei dumneavoastră cu ajutorul a 3 linguri de semințe
-de in, luate la fiecare masă cu puțin lichid. Smochinele și prunele, muiate peste noapte în
-apă rece, încălzite dimineața și luate înainte de micul dejun sau ca mic dejun, dau și ele
-rezultate bune în această privință. Dacă se află prin apropiere apă proaspătă de fântână,
-este suficient să se bea dimineața 1 pahar pe stomacul gol. Deosebit de laxativ este efectul
-cicoare! care, dacă se bea din ea 1/2-1 ceașcă pe stomacul gol, rezolvă chiar și constipația
-cea mai rebelă.
-N-aș vrea să vă tăinuiesc o scrisoare din Bavaria: „Sfatul dumneavoastră de a bea
-cicoare și de a manca cârnat de smochine a ajutat-o pe mama să aibă după 20 de ani
-iarăși un scaun compact și o digestie normală. Se resemnase deja cu ideea că ni meni și
+CONSTIPATIA
+Un medic a spus odata la o prelegere tinuta intr-un camin de batrani la care am
+participat si eu: „Cu cat va obisnuiti mai mult cu laxativele, cu atat mai rebela va deveni
+constipatia!" in plus, intestinul se subtiaza prin permanenta curatire de mucozitati!
+incercati sa obtineti reglarea digestiei dumneavoastra cu ajutorul a 3 linguri de seminte
+de in, luate la fiecare masa cu putin lichid. Smochinele si prunele, muiate peste noapte in
+apa rece, incalzite dimineata si luate inainte de micul dejun sau ca mic dejun, dau si ele
+rezultate bune in aceasta privinta. Daca se afla prin apropiere apa proaspata de fantana,
+este suficient sa se bea dimineata 1 pahar pe stomacul gol. Deosebit de laxativ este efectul
+cicoare! care, daca se bea din ea 1/2-1 ceasca pe stomacul gol, rezolva chiar si constipatia
+cea mai rebela.
+N-as vrea sa va tainuiesc o scrisoare din Bavaria: „Sfatul dumneavoastra de a bea
+cicoare si de a manca carnat de smochine a ajutat-o pe mama sa aiba dupa 20 de ani
+iarasi un scaun compact si o digestie normala. Se resemnase deja cu ideea ca ni meni si
 nimic n-o va mai putea ajuta."
-Rețeta pentru cârnatul de smochine: Se spală 1/2 kilogram de smochine și
-se trece prin mașina de tocat, apoi se frământă cu 5 grame de foi de siminichie
-(sena) până iese o cocă. Se formează cârnați, se înfășoară în folii și se păstrează în
-frigider. Se ia zilnic, dimineața pe stomacul gol, 1 bucată de mărimea unei alune -
-pentru copii o treime din această cantitate - atâta timp până ce se normalizează
+Reteta pentru carnatul de smochine: Se spala 1/2 kilogram de smochine si
+se trece prin masina de tocat, apoi se framanta cu 5 grame de foi de siminichie
+(sena) pana iese o coca. Se formeaza carnati, se infasoara in folii si se pastreaza in
+frigider. Se ia zilnic, dimineata pe stomacul gol, 1 bucata de marimea unei alune -
+pentru copii o treime din aceasta cantitate - atata timp pana ce se normalizeaza
 digestia.
 
-Și încă o îndrumare: Mișcare zilnică în aer liber! Schimbarea alimentației pe fructe și
-legume de calitate superioară!
-Acum aș dori să vă mai istorisesc cum am ajuns la concluzia că cicoarea ajută în
-constipație. De cicoare mă leagă unele dintre cele mai frumoase amintiri din copilărie și
-adolescență. Peste tot străluceau înspre noi, copiii, steluțele albastre ale acestor flori de pe
-margini de drum - o priveliște veselă pentru o inimă veselă de copil! Aici, în Austria
-superioară, îmi lipsesc aceste floricele albastre; se găsesc numai foarte rar. Cu atât mai
-mirată am fost într-o zi, când, de lângă o construcție nouă vizavi de casa noastră, m-a
-salutat o cicoare cu șase floricele albastre. Am rămas locului, am compătimit-o pentru
-aspectul prăfuit și i-am spus: „Deși arăți jalnic, îmi iau acasă cele șase flori ale tale!" Zilnic
-fac pentru familia mea și pentru mine șase cești cu ceai de plante. În ziua următoare au
-intrat în el și cele șase flori de cicoare spălate. S-a întâmplat ca tocmai în ceașca mea să
-nimerească floare. Ea a făcut ca în acea zi să am după fiecare masă, deci de trei ori, o
-digestie normală, abundentă. Acest lucru nu mi-a dat pace. într-o carte foarte veche
-despre plante medicinale am găsit soluția dilemei: Cicoarea dă rezultate grozave în
-obezitate. La o astfel de digestie copioasă și totuși normală, îmi pot imagina o scădere
-treptată a greutății în cazul persoanelor supraponderale!
-CREȘTEREA (frumoasă a) PARULUI
-Câte 1 pumn plin de urzici proaspete și frunze proaspete de nuc, mesteacăn și soc și
-1 tulpină de rostopască se introduc în apă rece și se pun pe foc până ajung la punctul de
-fierbere. Repaos: 3 minute. Cu un săpun medicinal și jumătate din canti tatea de lichid
-obținută se spală bine părul, după care se clătește cu apă. Cealaltă jumătate din cantitate
-este lăsată să acționeze câteva minute asupra părului și a pielii capului, fără a mai clăti o
-dată părul cu apă simplă.
-### DEȘOSAREA (RETRACTAREA GINGIEI) și DINȚII MOBILI
+Si inca o indrumare: Miscare zilnica in aer liber! Schimbarea alimentatiei pe fructe si
+legume de calitate superioara!
+Acum as dori sa va mai istorisesc cum am ajuns la concluzia ca cicoarea ajuta in
+constipatie. De cicoare ma leaga unele dintre cele mai frumoase amintiri din copilarie si
+adolescenta. Peste tot straluceau inspre noi, copiii, stelutele albastre ale acestor flori de pe
+margini de drum - o priveliste vesela pentru o inima vesela de copil! Aici, in Austria
+superioara, imi lipsesc aceste floricele albastre; se gasesc numai foarte rar. Cu atat mai
+mirata am fost intr-o zi, cand, de langa o constructie noua vizavi de casa noastra, m-a
+salutat o cicoare cu sase floricele albastre. Am ramas locului, am compatimit-o pentru
+aspectul prafuit si i-am spus: „Desi arati jalnic, imi iau acasa cele sase flori ale tale!" Zilnic
+fac pentru familia mea si pentru mine sase cesti cu ceai de plante. In ziua urmatoare au
+intrat in el si cele sase flori de cicoare spalate. S-a intamplat ca tocmai in ceasca mea sa
+nimereasca floare. Ea a facut ca in acea zi sa am dupa fiecare masa, deci de trei ori, o
+digestie normala, abundenta. Acest lucru nu mi-a dat pace. intr-o carte foarte veche
+despre plante medicinale am gasit solutia dilemei: Cicoarea da rezultate grozave in
+obezitate. La o astfel de digestie copioasa si totusi normala, imi pot imagina o scadere
+treptata a greutatii in cazul persoanelor supraponderale!
+CRESTEREA (frumoasa a) PARULUI
+Cate 1 pumn plin de urzici proaspete si frunze proaspete de nuc, mesteacan si soc si
+1 tulpina de rostopasca se introduc in apa rece si se pun pe foc pana ajung la punctul de
+fierbere. Repaos: 3 minute. Cu un sapun medicinal si jumatate din canti tatea de lichid
+obtinuta se spala bine parul, dupa care se clateste cu apa. Cealalta jumatate din cantitate
+este lasata sa actioneze cateva minute asupra parului si a pielii capului, fara a mai clati o
+data parul cu apa simpla.
+### DESOSAREA (RETRACTAREA GINGIEI) si DINTII MOBILI
 
-DEȘOSAREA (RETRACTAREA GINGIEI) și DINȚII MOBILI
-Se recomandă următorul tratament fitoterapeutic: scoarță de stejar, crețișoară,
-troscot și salvie amestecate în părți egale și lăsate peste noapte în apă rece. La 1/2 li tru
-de apa se iau 2 lingurițe (cu vârf) de plante. Ceaiul e încălzit dimineața și pus într-un termos
-clătit cu apă fierbinte; se fac mai multe clătiri călduțe ale gurii pe parcursul zilei. Gingia poate
-fi masată cu o periuță moale de dinți muiată în acest ceai.
+DESOSAREA (RETRACTAREA GINGIEI) si DINTII MOBILI
+Se recomanda urmatorul tratament fitoterapeutic: scoarta de stejar, cretisoara,
+troscot si salvie amestecate in parti egale si lasate peste noapte in apa rece. La 1/2 li tru
+de apa se iau 2 lingurite (cu varf) de plante. Ceaiul e incalzit dimineata si pus intr-un termos
+clatit cu apa fierbinte; se fac mai multe clatiri caldute ale gurii pe parcursul zilei. Gingia poate
+fi masata cu o periuta moale de dinti muiata in acest ceai.
 ### DIABETUL ZAHARAT
 
 DIABETUL ZAHARAT
-Diabetul se extinde în zilele noastre devenind o boală care ocupă primul loc alături de
-infarctul miocardic și de cancer. Hrana excesivă și nesănătoasă a multor oameni, mai cu
-seamă a copiilor, este în majoritatea cazurilor cauza acestei boli. Prin urmare, nu numai
-adulții sânt diabetici, ci, din păcate, există deja foarte mulți copii care suferă de o boală a
-pancreasului și deci de zahăr. Asta înseamnă pentru ei să stea departe de toate bucuriile
-copilăriei, să țină regim sever, să-și facă de două ori pe zi injecții cu insulina și să fie încă
-de la vârsta fragedă cu un picior în groapă. Numeroasele boii ale timpului nostru ne arată
-că bunăstarea nu ne priește întotdeauna. Trebuie să mai tăiem din porții, să reducem masa
-prea îmbelșugată, în preajma marilor sărbători, care se întind pe o perioadă de două zile,
-se pot observa oameni care cumpără alimente în asemenea cantități, de parcă ar trebui să
-hrănească un regiment întreg.
+Diabetul se extinde in zilele noastre devenind o boala care ocupa primul loc alaturi de
+infarctul miocardic si de cancer. Hrana excesiva si nesanatoasa a multor oameni, mai cu
+seama a copiilor, este in majoritatea cazurilor cauza acestei boli. Prin urmare, nu numai
+adultii sant diabetici, ci, din pacate, exista deja foarte multi copii care sufera de o boala a
+pancreasului si deci de zahar. Asta inseamna pentru ei sa stea departe de toate bucuriile
+copilariei, sa tina regim sever, sa-si faca de doua ori pe zi injectii cu insulina si sa fie inca
+de la varsta frageda cu un picior in groapa. Numeroasele boii ale timpului nostru ne arata
+ca bunastarea nu ne prieste intotdeauna. Trebuie sa mai taiem din portii, sa reducem masa
+prea imbelsugata, in preajma marilor sarbatori, care se intind pe o perioada de doua zile,
+se pot observa oameni care cumpara alimente in asemenea cantitati, de parca ar trebui sa
+hraneasca un regiment intreg.
 
-Aș vrea acum să încerc să indic pentru toți diabeticii leacuri care stimulează pancreasul
-și înlătură deci cauza de apariție a diabetului zaharat. Marele medic naturist elvețian
-Kunzle spune: „Diabetul zaharat se poate îndepărta destul de rapid cu următoarele plante:
-3 părți mărțișor (cerențel; Geum alpina), câte 1 parte frunze de mur și afin, 3 părți sclipeți
-(Potehtilla aurea), 2 părți coji (teci) uscate de fasole verde." Se pune 1 linguriță cu vârf din
-acest amestec la 1/4 litru de apă, se opărește și se lasă 3 minute în repaos; cantitatea
-zilnică: 1 1/2-2 litri.
-Efectul curativ al frunzelor de afin depinde de colectarea lor corectă. Ele au voie să fie
-culese numai înainte de coacerea fructelor. Ele sânt, adunate la timpul potrivit, un leac
-experimentat clinic în diabet. Este dovedit că mirtilina conținută de frunza de afin înainte de
-coacerea fructelor nu numai că scade glicemia (nivelul zahărului în sânge), ci poate să
-înlăture boala complet. Mirtilina frunzelor de afin se numește, pe drept cuvânt, „insulina
-vegetală". În ciuda acestor proprietăți extraordinare ale frunzelor de afin, tratamentul curativ
-cu acest ceai nu are voie să fie făcut decât sub controlul medicului. Supravegherea
-medicală trebuie să aibă loc în orice caz.
-Și țelina poate fi recomandată pentru scăderea conținutului de zahăr. Un leac vechi
-popular este și sucul crud al verzei acre, ca și consumul zilnic al morcovilor proaspeți;
-dar și ceapa și usturoiul puse pe pâine contribuie la diminuarea zahărului.
-Un alt remediu popular: 4 linguri de frunze de afin (culese înainte de coacerea
-fructelor!) se lasă la macerat în 2 litri de apă rece; se fierbe până scade la jumătate; se ia
-de 3 ori pe zi câte 1 ceașcă. Și urzicile au o influență destul de bună asupra pan creasului.
-De aceea, ele scad și conținutul de zahăr, în acest caz se folosește extractul de urzici care
-se procură din farmacii. homeopatice, drogherii și magazine specializate în alimente
-naturale bogate în vitamine.
-Întrucât rădăcina de obligeană vindecă aproape toate afecțiunile pancreasului, ajută
-și în diabet. Se lasă 1 ceașcă cu apă rece pe timpul nopții cu 1 linguriță rasă de rădăcină
-de obligeană, se încălzește ușor a doua zi, se filtrează și se bea câte 1 înghițitură înainte și
-după fiecare masă, adică 6 înghițituri pe zi. Aceste 6 înghițituri vor fi resimțite de către
-fiecare diabetic ca binefăcătoare.
-Frunzele și mlădițele de soc sânt și ele indicate sub formă de ceai în diabet. Doar socul
-este una dintre plantele cele mai vechi din medicina populară.
-La începutul primăverii, când păpădia își face apariția pe ogoare și câmpii, trebuie tăiată
-până la rădăcină, spălată bine și folosită la prima salată. Atunci se vede că există unele cu
-tulpină verde ca iarba și altele cu ea gălbui-lăptoasă. Cea gălbuie este mai gustoasă și mai
-fragedă. Diabeticii ar trebui să mănânce primăvara zilnic această salată de păpădie, atât la
-prânz cât și seara. Apoi, la sfârșitul! lui aprilie și la începutul lui mai, când păpădia este în
-plină floare, a venit vremea pentru orice diabetic de a-și reduce conținutul de zahăr printr-o
-cură de 4 săptămâni. Se culeg tulpinile cu flori cu tot și se spală, abia apoi se aruncă florile.
-10-15 tulpini de păpădie pe zi pot produce o scădere totală a nivelului zahărului în sânge.
-Tulpinile au la început un gust puțin amărui, care dispare însă mai târziu.
-Și vâscul are o influență dintre cele mai bune asupra pancreasului, așa încât dia betul
-își pierde cauza apariției printr-un consum continuu de ceai. Vâscul se lasă în apă rece
-peste noapte. La început se iau 3 cești cu apă rece și 3 lingurițe (cu vârf) de vâsc. După
-câteva săptămâni se scade la 2 cești și iarăși ceva mai târziu la 1 ceașcă. O pe rioadă de
-timp cura se întrerupe complet, și anume primăvara, când se găsesc alte legume
-proaspete pentru diabetici. Vâscul are putere de leac de la începutul lui oc tombrie până în
-decembrie și în lunile martie și aprilie, deci trebuie cules în aceste in tervale. Forța cea mai
-curativă o au plantele de pe stejari și plopi, dar și cele de pe brazi și pomi fructiferi sânt
-tămăduitoare. Tulpinile și frunzele se taie mărunt. Bobitele albe n-au voie să fie folosite
+As vrea acum sa incerc sa indic pentru toti diabeticii leacuri care stimuleaza pancreasul
+si inlatura deci cauza de aparitie a diabetului zaharat. Marele medic naturist elvetian
+Kunzle spune: „Diabetul zaharat se poate indeparta destul de rapid cu urmatoarele plante:
+3 parti martisor (cerentel; Geum alpina), cate 1 parte frunze de mur si afin, 3 parti sclipeti
+(Potehtilla aurea), 2 parti coji (teci) uscate de fasole verde." Se pune 1 lingurita cu varf din
+acest amestec la 1/4 litru de apa, se opareste si se lasa 3 minute in repaos; cantitatea
+zilnica: 1 1/2-2 litri.
+Efectul curativ al frunzelor de afin depinde de colectarea lor corecta. Ele au voie sa fie
+culese numai inainte de coacerea fructelor. Ele sant, adunate la timpul potrivit, un leac
+experimentat clinic in diabet. Este dovedit ca mirtilina continuta de frunza de afin inainte de
+coacerea fructelor nu numai ca scade glicemia (nivelul zaharului in sange), ci poate sa
+inlature boala complet. Mirtilina frunzelor de afin se numeste, pe drept cuvant, „insulina
+vegetala". In ciuda acestor proprietati extraordinare ale frunzelor de afin, tratamentul curativ
+cu acest ceai nu are voie sa fie facut decat sub controlul medicului. Supravegherea
+medicala trebuie sa aiba loc in orice caz.
+Si telina poate fi recomandata pentru scaderea continutului de zahar. Un leac vechi
+popular este si sucul crud al verzei acre, ca si consumul zilnic al morcovilor proaspeti;
+dar si ceapa si usturoiul puse pe paine contribuie la diminuarea zaharului.
+Un alt remediu popular: 4 linguri de frunze de afin (culese inainte de coacerea
+fructelor!) se lasa la macerat in 2 litri de apa rece; se fierbe pana scade la jumatate; se ia
+de 3 ori pe zi cate 1 ceasca. Si urzicile au o influenta destul de buna asupra pan creasului.
+De aceea, ele scad si continutul de zahar, in acest caz se foloseste extractul de urzici care
+se procura din farmacii. homeopatice, drogherii si magazine specializate in alimente
+naturale bogate in vitamine.
+Intrucat radacina de obligeana vindeca aproape toate afectiunile pancreasului, ajuta
+si in diabet. Se lasa 1 ceasca cu apa rece pe timpul noptii cu 1 lingurita rasa de radacina
+de obligeana, se incalzeste usor a doua zi, se filtreaza si se bea cate 1 inghititura inainte si
+dupa fiecare masa, adica 6 inghitituri pe zi. Aceste 6 inghitituri vor fi resimtite de catre
+fiecare diabetic ca binefacatoare.
+Frunzele si mladitele de soc sant si ele indicate sub forma de ceai in diabet. Doar socul
+este una dintre plantele cele mai vechi din medicina populara.
+La inceputul primaverii, cand papadia isi face aparitia pe ogoare si campii, trebuie taiata
+pana la radacina, spalata bine si folosita la prima salata. Atunci se vede ca exista unele cu
+tulpina verde ca iarba si altele cu ea galbui-laptoasa. Cea galbuie este mai gustoasa si mai
+frageda. Diabeticii ar trebui sa manance primavara zilnic aceasta salata de papadie, atat la
+pranz cat si seara. Apoi, la sfarsitul! lui aprilie si la inceputul lui mai, cand papadia este in
+plina floare, a venit vremea pentru orice diabetic de a-si reduce continutul de zahar printr-o
+cura de 4 saptamani. Se culeg tulpinile cu flori cu tot si se spala, abia apoi se arunca florile.
+10-15 tulpini de papadie pe zi pot produce o scadere totala a nivelului zaharului in sange.
+Tulpinile au la inceput un gust putin amarui, care dispare insa mai tarziu.
+Si vascul are o influenta dintre cele mai bune asupra pancreasului, asa incat dia betul
+isi pierde cauza aparitiei printr-un consum continuu de ceai. Vascul se lasa in apa rece
+peste noapte. La inceput se iau 3 cesti cu apa rece si 3 lingurite (cu varf) de vasc. Dupa
+cateva saptamani se scade la 2 cesti si iarasi ceva mai tarziu la 1 ceasca. O pe rioada de
+timp cura se intrerupe complet, si anume primavara, cand se gasesc alte legume
+proaspete pentru diabetici. Vascul are putere de leac de la inceputul lui oc tombrie pana in
+decembrie si in lunile martie si aprilie, deci trebuie cules in aceste in tervale. Forta cea mai
+curativa o au plantele de pe stejari si plopi, dar si cele de pe brazi si pomi fructiferi sant
+tamaduitoare. Tulpinile si frunzele se taie marunt. Bobitele albe n-au voie sa fie folosite
 pentru prepararea ceaiului!
 
-Deoarece și mult apreciatul nostru bitter suedez influențează pancreasul în mod
-favorabil, ba îl poate chiar vindeca, se recomandă și aceste picături în diabet. Ele tre buie
-luate de 3 ori pe zi, de fiecare dată 1 linguriță plină în puțin ceai de plante. Dato rită acțiunii
-excelente în profunzime a biterului suedez ar fi indicată lunar și o com presă ținută timp de
+Deoarece si mult apreciatul nostru bitter suedez influenteaza pancreasul in mod
+favorabil, ba il poate chiar vindeca, se recomanda si aceste picaturi in diabet. Ele tre buie
+luate de 3 ori pe zi, de fiecare data 1 lingurita plina in putin ceai de plante. Dato rita actiunii
+excelente in profunzime a biterului suedez ar fi indicata lunar si o com presa tinuta timp de
 4 ore pe pancreas.
-Rădăcinile de cicoare se pot oferi diabeticilor drept zarzavatul de regim cel mai bun.
-Sânt muiate bine în apă și spălate, asemănător salatei de andive, pentru a mai tăia din
-gustul amărui. De altfel, ceaiul din flori și tulpini de cicoare se folosește cu succes și în caz
-de obezitate. Se beau zilnic 2 cești din această infuzie.
-Sucul presat din castraveții proaspeți scade conținutul zahărului din sânge și este de
+Radacinile de cicoare se pot oferi diabeticilor drept zarzavatul de regim cel mai bun.
+Sant muiate bine in apa si spalate, asemanator salatei de andive, pentru a mai taia din
+gustul amarui. De altfel, ceaiul din flori si tulpini de cicoare se foloseste cu succes si in caz
+de obezitate. Se beau zilnic 2 cesti din aceasta infuzie.
+Sucul presat din castravetii proaspeti scade continutul zaharului din sange si este de
 aceea foarte indicat.
-Rădăcina-neagră este și ea o legumă dietetică excelentă, asemănătoare
-sparanghelului. Datorită conținutului scăzut de hidrați de carbon, atât sparanghelul cât și
-rădăcina-neagră sânt o mâncare foarte bună pentru diabetici. Pot fi oferite cu grăsime și
-pesmet de pâine aibă fără ca să dăuneze bolnavului. Rădăcina-neagră este cultivată în
-grădini pentru a fi folosită la gătit și nu este identică cu cea care crește sălbatic, numită și
-tătăneasă sau iarba-lui-Tatin.
-Și prazul verde este excelent pentru diabetici. Tăiat mărunt până ia capetele frun zelor,
-el se pune zilnic la cină pe pâine și se mănâncă. Și ia prânz se recomandă salata de praz.
-O băutură foarte gustoasă și sănătoasă: Peste 500 grame de praz tăiat până la vârfurile
-verzi se toarnă 0,7 litri de vin alb sec și se lasă 24 de ore acoperit. Se filtrează și lichidul se
-toarnă în sticle. Se bea dimineața și seara câte o gură. Resturile pot fi puse pe pâine și
-mâncate.
-Un medic practician din Austria superioară a ajutat o diabetică prin următoarea rețetă:
-Se zdrobesc 3 căpățâni mari de usturoi, se introduc într-o sticlă de 1 litru care se umple
-apoi cu rachiu de secară și se lasă să stea 10-14 zile. în fiecare zi înainte de micul dejun se
-ia 1 linguriță plină din acest macerat.
-în aprilie 1977 am primit un telefon de la o doamnă din Viena care mi-a povestit că este
-de 30 de ani bolnavă de diabet. M-a rugat s-o ajut. l-am indicat procedeele de mai sus cu
-diverse plante. S-a luat exact după sfaturile mele din broșură. La începutul lui august mi-a
-comunicat bucuroasă că din analizele medicale au rezultat valori nor male de zahăr. La
-sfârșitul lui septembrie 1977 am ținut o prelegere în parohia Hasenleiten din Viena. în timpul
-discursului, această doamnă a cerut să vorbească și a relatat: „Am fost 30 de ani bolnavă
-de diabet. Am urmat sfaturile doamnei Treben și am acum din august nivel normal de
-zahăr." A fost aplaudată furtunos de public.
-O cunoștință din Gundelfingen/Bavaria scrie: „Un cunoscut apropiat a fost bolnav de
-diabet ani de-a rândul și avea zilnic nevoie de injecții. Acum a reușit cu ajutorul ceaiurilor și
-plantelor din broșura dumneavoastră ca zahărul să-i scadă. Se află, bineînțeles, sub
-control medical curent. Doctorul a fost mirat de scăderea zahărului."
-Uri inginer din Viena avea valoarea zahărului în sânge de 280. A urmat sfaturile
-indicate în „Farmacia Domnului". La un control medical ulterior s-a constatat că zahărul a
-scăzut la 130.
-întrebuințarea tuturor acestor plante de leac ca și a legumelor dietetice este încununată
-de succes firește doar în cazul în care se trăiește exact după regimul alimentar diabetic
+Radacina-neagra este si ea o leguma dietetica excelenta, asemanatoare
+sparanghelului. Datorita continutului scazut de hidrati de carbon, atat sparanghelul cat si
+radacina-neagra sant o mancare foarte buna pentru diabetici. Pot fi oferite cu grasime si
+pesmet de paine aiba fara ca sa dauneze bolnavului. Radacina-neagra este cultivata in
+gradini pentru a fi folosita la gatit si nu este identica cu cea care creste salbatic, numita si
+tataneasa sau iarba-lui-Tatin.
+Si prazul verde este excelent pentru diabetici. Taiat marunt pana ia capetele frun zelor,
+el se pune zilnic la cina pe paine si se mananca. Si ia pranz se recomanda salata de praz.
+O bautura foarte gustoasa si sanatoasa: Peste 500 grame de praz taiat pana la varfurile
+verzi se toarna 0,7 litri de vin alb sec si se lasa 24 de ore acoperit. Se filtreaza si lichidul se
+toarna in sticle. Se bea dimineata si seara cate o gura. Resturile pot fi puse pe paine si
+mancate.
+Un medic practician din Austria superioara a ajutat o diabetica prin urmatoarea reteta:
+Se zdrobesc 3 capatani mari de usturoi, se introduc intr-o sticla de 1 litru care se umple
+apoi cu rachiu de secara si se lasa sa stea 10-14 zile. in fiecare zi inainte de micul dejun se
+ia 1 lingurita plina din acest macerat.
+in aprilie 1977 am primit un telefon de la o doamna din Viena care mi-a povestit ca este
+de 30 de ani bolnava de diabet. M-a rugat s-o ajut. l-am indicat procedeele de mai sus cu
+diverse plante. S-a luat exact dupa sfaturile mele din brosura. La inceputul lui august mi-a
+comunicat bucuroasa ca din analizele medicale au rezultat valori nor male de zahar. La
+sfarsitul lui septembrie 1977 am tinut o prelegere in parohia Hasenleiten din Viena. in timpul
+discursului, aceasta doamna a cerut sa vorbeasca si a relatat: „Am fost 30 de ani bolnava
+de diabet. Am urmat sfaturile doamnei Treben si am acum din august nivel normal de
+zahar." A fost aplaudata furtunos de public.
+O cunostinta din Gundelfingen/Bavaria scrie: „Un cunoscut apropiat a fost bolnav de
+diabet ani de-a randul si avea zilnic nevoie de injectii. Acum a reusit cu ajutorul ceaiurilor si
+plantelor din brosura dumneavoastra ca zaharul sa-i scada. Se afla, bineinteles, sub
+control medical curent. Doctorul a fost mirat de scaderea zaharului."
+Uri inginer din Viena avea valoarea zaharului in sange de 280. A urmat sfaturile
+indicate in „Farmacia Domnului". La un control medical ulterior s-a constatat ca zaharul a
+scazut la 130.
+intrebuintarea tuturor acestor plante de leac ca si a legumelor dietetice este incununata
+de succes fireste doar in cazul in care se traieste exact dupa regimul alimentar diabetic
 prescris.
-### DURERILE DUPĂ AMPUTARE
+### DURERILE DUPA AMPUTARE
 
-DURERILE DUPĂ AMPUTARE (dureri la piciorul-fantomă)
-La mult timp după amputări, uneori ani de-a rândul, apar fenomene-fantomă extrem
-de dureroase. Experiența arată că aplicarea compreselor cu tătăneasă (a se vedea
+DURERILE DUPA AMPUTARE (dureri la piciorul-fantoma)
+La mult timp dupa amputari, uneori ani de-a randul, apar fenomene-fantoma extrem
+de dureroase. Experienta arata ca aplicarea compreselor cu tataneasa (a se vedea
 
-„Moduri de folosire" la articolul despre tătăneasă, pag. 61) aduc alinare, iar durerile pier
+„Moduri de folosire" la articolul despre tataneasa, pag. 61) aduc alinare, iar durerile pier
 treptat.
-Efect excelent are și esența de ceapă, care se cumpără din farmaciile homeopa tice
-sau din magazinele specializate în alimente naturale bogate în vitamine, dar se poate
-prepara ușor și în casă. Cepele tăiate rotocoale se introduc într-o sticlă până la gât, se
-toarnă deasupra rachiu de secară de 38-40%, se lasă să stea 10 zile în soare sau la loc
-călduros, apoi se trage în sticle. Cu acest preparat se unge apoi bontul amputat.
-De mare ajutor este ceaiul din rădăcini de stânjenel (iris) care se scot din pământ în
-octombrie, se spală cu o perie și se usucă prin atârnare. Rădăcinile uscate se ma cină până
-devin o pulbere, cel mai bine cu ajutorul unei râșnițe uzate de râșnit cafea, mac sau pesmet.
-1/2 linguriță din acest praf se lasă peste noapte la macerat în 1/4 litru de apă; se beau în
-timpul zilei 1-2 cești, în înghițituri mici.
-Cioturile amputate ar trebui îmbăiate de 3 ori pe săptămână în băi de cimbru (prima
-baie poate fi încălzită încă de 2 ori). Se pune 1 pumn plin de cimbru la 1 baie. Și penele cu
-cimbru și pedicuță puse peste noapte ca niște comprese ar fi de re comandat. Câte 100-150
-grame din plantele numite sânt introduse într-o pernă din pânză de in.
+Efect excelent are si esenta de ceapa, care se cumpara din farmaciile homeopa tice
+sau din magazinele specializate in alimente naturale bogate in vitamine, dar se poate
+prepara usor si in casa. Cepele taiate rotocoale se introduc intr-o sticla pana la gat, se
+toarna deasupra rachiu de secara de 38-40%, se lasa sa stea 10 zile in soare sau la loc
+calduros, apoi se trage in sticle. Cu acest preparat se unge apoi bontul amputat.
+De mare ajutor este ceaiul din radacini de stanjenel (iris) care se scot din pamant in
+octombrie, se spala cu o perie si se usuca prin atarnare. Radacinile uscate se ma cina pana
+devin o pulbere, cel mai bine cu ajutorul unei rasnite uzate de rasnit cafea, mac sau pesmet.
+1/2 lingurita din acest praf se lasa peste noapte la macerat in 1/4 litru de apa; se beau in
+timpul zilei 1-2 cesti, in inghitituri mici.
+Cioturile amputate ar trebui imbaiate de 3 ori pe saptamana in bai de cimbru (prima
+baie poate fi incalzita inca de 2 ori). Se pune 1 pumn plin de cimbru la 1 baie. Si penele cu
+cimbru si pedicuta puse peste noapte ca niste comprese ar fi de re comandat. Cate 100-150
+grame din plantele numite sant introduse intr-o perna din panza de in.
 EDEMELE sau UMFLATURILE
-din cauza reținerii de lichid în țesuturi
-Se iau 2 lingurițe pline de rădăcini mărunțite de osul-iepurelui la 1 ceașcă cu apă și se
-lasă peste noapte la rece. A doua zi dimineață, maceratul se încălzește ușor și se filtrează.
-Această ceașcă se bea repartizată 1/2 oră înainte și 1/2 oră după micul dejun.
-O a doua posibilitate de a face edemele să se retragă se realizează prin scoarța
-trunchiului de soc sau a crengilor de soc. La 1 ceașcă se ia 1 linguriță rasă de scoarță
-de soc (întrucât cantitățile mai mari declanșează diaree sau vărsături, trebuie dozat foarte
-slab) și se lasă peste noapte la rece la macerat. Această ceașcă cu scoarță de soc
-macerată poate fi subțiată cu încă 1/2 ceașcă cu apă. Se bea câte 1/2 ceașcă ușor încălzită
-după fiecare din cele 3 mese principale.
+din cauza retinerii de lichid in tesuturi
+Se iau 2 lingurite pline de radacini maruntite de osul-iepurelui la 1 ceasca cu apa si se
+lasa peste noapte la rece. A doua zi dimineata, maceratul se incalzeste usor si se filtreaza.
+Aceasta ceasca se bea repartizata 1/2 ora inainte si 1/2 ora dupa micul dejun.
+O a doua posibilitate de a face edemele sa se retraga se realizeaza prin scoarta
+trunchiului de soc sau a crengilor de soc. La 1 ceasca se ia 1 lingurita rasa de scoarta
+de soc (intrucat cantitatile mai mari declanseaza diaree sau varsaturi, trebuie dozat foarte
+slab) si se lasa peste noapte la rece la macerat. Aceasta ceasca cu scoarta de soc
+macerata poate fi subtiata cu inca 1/2 ceasca cu apa. Se bea cate 1/2 ceasca usor incalzita
+dupa fiecare din cele 3 mese principale.
 ### EMFIZEMUL PULMONAR
 
 EMFIZEMUL PULMONAR
-Un emfizem pulmonar se formează, ca și astmul cardiac și bolile glandei tiroide,
-în majoritatea cazurilor din cauza unui ficat dereglat și ele sânt însoțite de insuficiență
-respiratorie. Presiunea ascendentă a ficatului contribuie la umflarea, deci mărirea
-bronhiilor, a plămânilor și a inimii. Presiunea permanentă a ficatului asupra tiroidei sen sibile
-declanșează modificări patologice, într-un asemenea caz se bea dimineața 1 ceașcă cu ceai
-de pedicuță, se aplică în timpul zilei 4 ore la rând comprese cu ierburi suedeze (a se
-vedea „Moduri de folosire", la articolul „Ierburile suedeze"), iar în timpul nopții comprese cu
-aburi de coada-calului. Se pune 1 pumn plin de coada-calului într-o sită deasupra vaporilor
-de apă, până se înfierbântă și se moaie, învelite într-o pânză de in, plantele se aplică apoi
-pe zona ficatului bolnav. Este trasă astfel presiunea ficatului și treptat încetează și
-neliniștitoare insuficiență respiratorie.
+Un emfizem pulmonar se formeaza, ca si astmul cardiac si bolile glandei tiroide,
+in majoritatea cazurilor din cauza unui ficat dereglat si ele sant insotite de insuficienta
+respiratorie. Presiunea ascendenta a ficatului contribuie la umflarea, deci marirea
+bronhiilor, a plamanilor si a inimii. Presiunea permanenta a ficatului asupra tiroidei sen sibile
+declanseaza modificari patologice, intr-un asemenea caz se bea dimineata 1 ceasca cu ceai
+de pedicuta, se aplica in timpul zilei 4 ore la rand comprese cu ierburi suedeze (a se
+vedea „Moduri de folosire", la articolul „Ierburile suedeze"), iar in timpul noptii comprese cu
+aburi de coada-calului. Se pune 1 pumn plin de coada-calului intr-o sita deasupra vaporilor
+de apa, pana se infierbanta si se moaie, invelite intr-o panza de in, plantele se aplica apoi
+pe zona ficatului bolnav. Este trasa astfel presiunea ficatului si treptat inceteaza si
+nelinistitoare insuficienta respiratorie.
 ### ERIZIPELUL
 
 ERIZIPELUL
-Frunzele proaspete de podbal sânt spălate, zdrobite și frecate pe un fund de lemn cu
-sucitorul de tăiței până iese un terci de frunze care se aplică pe porțiunile inflamate
+Frunzele proaspete de podbal sant spalate, zdrobite si frecate pe un fund de lemn cu
+sucitorul de taitei pana iese un terci de frunze care se aplica pe portiunile inflamate
 
-unde s-a localizat erizipelul. Din frunze se poate prepara însă și o infuzie (se taie frun zele
-mărunt, se opăresc cu apă clocotită, se lasă să stea puțin) și folosi ca o com presă, după
-ce se răcește. Tot la fel se pot întrebuința și frunzele de varză, spălate și zdrobite. Ele
-înlătură orice inflamație provocată de erizipel. Foarte emolient și benefic este efectul
-sucului frunzelor cărnoase de urechelniță (Sempervivum tectorum). Trecându-le prin
-storcătorul electric de uz casnic, se obține un suc cu care se ung ușor porțiunile inflamate
-sau se taie de-a lungul câteva frunze de urechelniță și se pun pe o farfurie, cu partea
-zemoasă în sus. Cu sucul care se prelinge din suprafețele secționate se ung zonele afectate
-de erizipel. Intern, se iau dimineața, 1/2 oră înainte de micul dejun, 1 ceașcă cu infuzie de
-ventrilică, iar pe parcursul zilei, încetul cu încetul, 3-4 cești cu ceai de urzici, până ce
-controlul medical constată dispariția erizipelului.
+unde s-a localizat erizipelul. Din frunze se poate prepara insa si o infuzie (se taie frun zele
+marunt, se oparesc cu apa clocotita, se lasa sa stea putin) si folosi ca o com presa, dupa
+ce se raceste. Tot la fel se pot intrebuinta si frunzele de varza, spalate si zdrobite. Ele
+inlatura orice inflamatie provocata de erizipel. Foarte emolient si benefic este efectul
+sucului frunzelor carnoase de urechelnita (Sempervivum tectorum). Trecandu-le prin
+storcatorul electric de uz casnic, se obtine un suc cu care se ung usor portiunile inflamate
+sau se taie de-a lungul cateva frunze de urechelnita si se pun pe o farfurie, cu partea
+zemoasa in sus. Cu sucul care se prelinge din suprafetele sectionate se ung zonele afectate
+de erizipel. Intern, se iau dimineata, 1/2 ora inainte de micul dejun, 1 ceasca cu infuzie de
+ventrilica, iar pe parcursul zilei, incetul cu incetul, 3-4 cesti cu ceai de urzici, pana ce
+controlul medical constata disparitia erizipelului.
 ### FIMOZA
 
 FIMOZA
-După dr. Dirk Arntzen, medic la Berlin, există o metodă de a trata fimoza la copii cu
-ajutorul băilor. Se iau 10-20 mililitri de soluție 10% de sulfat de potasiu (preferabil să fie
-proaspăt preparată de către farmacist) pentru o baie caldă de copil, deci de cca. 50-70 litri,
-și se trage ușor înapoi prepuțul. Se fac 1-2 băi pe săptămână. Adesea se văd rezultatele
-deja după 4 băi; dar mai mult de 10 băi nu-și au rostul. Vârsta fa vorabilă pare a fi între 4 și
-7 ani, însă băile mai pot fi făcute chiar și băieților de 10 ani. Mulți băieți au scăpat astfel de
-operație. La bătrâni, această metodă nu mai este efi cientă, din păcate. Și băile de nalbă
-dau performanțe bune. Pentru 1 baie de copil - 1 pumn plin de nalbe, lăsate peste noapte
-numai în apă la macerat; pentru adulți - cca. 100 grame pentru 1 baie de șezut.
+Dupa dr. Dirk Arntzen, medic la Berlin, exista o metoda de a trata fimoza la copii cu
+ajutorul bailor. Se iau 10-20 mililitri de solutie 10% de sulfat de potasiu (preferabil sa fie
+proaspat preparata de catre farmacist) pentru o baie calda de copil, deci de cca. 50-70 litri,
+si se trage usor inapoi preputul. Se fac 1-2 bai pe saptamana. Adesea se vad rezultatele
+deja dupa 4 bai; dar mai mult de 10 bai nu-si au rostul. Varsta fa vorabila pare a fi intre 4 si
+7 ani, insa baile mai pot fi facute chiar si baietilor de 10 ani. Multi baieti au scapat astfel de
+operatie. La batrani, aceasta metoda nu mai este efi cienta, din pacate. Si baile de nalba
+dau performante bune. Pentru 1 baie de copil - 1 pumn plin de nalbe, lasate peste noapte
+numai in apa la macerat; pentru adulti - cca. 100 grame pentru 1 baie de sezut.
 ### FISTULELE
 
 FISTULELE
-Se ia intern de 3 ori pe zi câte 1 linguriță, în cazuri deosebit de grave câte 1 lingură de
-bitter suedez în infuzie neândulcită de mușețel. Extern, se fac spălări cu o infuzie călduță
-de silnic, coada-calului și linariță (gura-leului-de-câmp galbenă) în părți egalei după
-spălare se tamponează cu biter suedez sau se aplică local o vată umezită cu aceste
-picături. Să se facă băi de șezut cu coada-calului, iar pe timpul nopții să se pună
+Se ia intern de 3 ori pe zi cate 1 lingurita, in cazuri deosebit de grave cate 1 lingura de
+bitter suedez in infuzie neandulcita de musetel. Extern, se fac spalari cu o infuzie calduta
+de silnic, coada-calului si linarita (gura-leului-de-camp galbena) in parti egalei dupa
+spalare se tamponeaza cu biter suedez sau se aplica local o vata umezita cu aceste
+picaturi. Sa se faca bai de sezut cu coada-calului, iar pe timpul noptii sa se puna
 comprese cu aburi de coada-calului (a se vedea „Moduri de folosire" la subcapitolul
 „Coada-calului").
-O femeie din Bavaria, în vârstă de 51 de ani, a suferit timp de 28 de ani de o fistulă
-facială la osul molar, îmi relatează: „Nu pot să descriu cât am tras în acești 28 de ani! Am
-fost sfătuită să mă operez, ceea ce însă n-am făcut, căci profesorul avea dubii în privința
-reușitei. Am găsit alinare abia la un tămăduitor, care m-a trecut pe alimentație vegetariană
-cu fructe crude și pe mișcări de gimnastică respiratorie - nu m-am vinde cat însă.
-Primăvara am luat din natură primele urzici proaspete și am început să beau zilnic 3 cești
-cu ceai de urzici, de fiecare dată cu 1 linguriță de bitter suedez. După exact 14 zile,
-fistula mea facială s-a vindecat și n-am mai avut nici o durere. A fost pen tru mine și toți cei
-ce mă cunosc ca un miracol."
-### FORMAREA GUȘEI
+O femeie din Bavaria, in varsta de 51 de ani, a suferit timp de 28 de ani de o fistula
+faciala la osul molar, imi relateaza: „Nu pot sa descriu cat am tras in acesti 28 de ani! Am
+fost sfatuita sa ma operez, ceea ce insa n-am facut, caci profesorul avea dubii in privinta
+reusitei. Am gasit alinare abia la un tamaduitor, care m-a trecut pe alimentatie vegetariana
+cu fructe crude si pe miscari de gimnastica respiratorie - nu m-am vinde cat insa.
+Primavara am luat din natura primele urzici proaspete si am inceput sa beau zilnic 3 cesti
+cu ceai de urzici, de fiecare data cu 1 lingurita de bitter suedez. Dupa exact 14 zile,
+fistula mea faciala s-a vindecat si n-am mai avut nici o durere. A fost pen tru mine si toti cei
+ce ma cunosc ca un miracol."
+### FORMAREA GUSEI
 
-FORMAREA GUȘEI
-Gargara frecventă cu frunze tăiate mărunt de buberic (iarbă-neagră) sau de drăgaică
-face să dispară gușa, crescută fie în interior, fie în exterior. Bubericul se
+FORMAREA GUSEI
+Gargara frecventa cu frunze taiate marunt de buberic (iarba-neagra) sau de dragaica
+face sa dispara gusa, crescuta fie in interior, fie in exterior. Bubericul se
 
-găsește la maluri de pâraie, în șanțuri de pădure și printre tufișurile care țin umezeala. Are
-flori maro-roșcate fără strălucire și frunze verde-închis, lunguiețe, cu vârf ascuțit. Acestea au
-același miros puternic ca și frunzele de soc; deci nu se pot confunda, da torită acestui miros,
-cu o altă plantă, în timp ce la buberic se colectează numai frunzele, cu care se face
-gargară adâncă, fără a se bea din lichid, drăgaica se folosește întreagă, cu flori cu tot, se
-face gargară adâncă și se bea din când în când câte o gură. O cunoștință din Viena a
-căpătat în februarie 1979 o gușă destul de vizibilă. Se temea de operație și, la sfatul meu,
-a început să facă gargară primăvara, când s-au ivit în natură primele drăgaice. Drăgaica se
-opărește și infuzia se folosește caldă pentru o gargară adâncă. Fericită, mi-a povestit după
-un an că soțul ei îi adusese mereu drăgaica proaspătă; încă de la început simțise că gușa i
-se micșora treptat, până ce a dispărut de tot.
-### GUTURAIUL DE FÂN
+gaseste la maluri de paraie, in santuri de padure si printre tufisurile care tin umezeala. Are
+flori maro-roscate fara stralucire si frunze verde-inchis, lunguiete, cu varf ascutit. Acestea au
+acelasi miros puternic ca si frunzele de soc; deci nu se pot confunda, da torita acestui miros,
+cu o alta planta, in timp ce la buberic se colecteaza numai frunzele, cu care se face
+gargara adanca, fara a se bea din lichid, dragaica se foloseste intreaga, cu flori cu tot, se
+face gargara adanca si se bea din cand in cand cate o gura. O cunostinta din Viena a
+capatat in februarie 1979 o gusa destul de vizibila. Se temea de operatie si, la sfatul meu,
+a inceput sa faca gargara primavara, cand s-au ivit in natura primele dragaice. Dragaica se
+opareste si infuzia se foloseste calda pentru o gargara adanca. Fericita, mi-a povestit dupa
+un an ca sotul ei ii adusese mereu dragaica proaspata; inca de la inceput simtise ca gusa i
+se micsora treptat, pana ce a disparut de tot.
+### GUTURAIUL DE FAN
 
-GUTURAIUL DE FÂN
-Cum urzicile ajută în toate alergiile și cum la guturaiul de fân este vorba de o alergie, el
-va fi făcut să dispară într-un timp relativ scurt, bându-se ceai de urzici, 3-4 cești pe zi, cu
-câte 3 lingurițe de bitter suedez care se diluează cu ceaiul.
+GUTURAIUL DE FAN
+Cum urzicile ajuta in toate alergiile si cum la guturaiul de fan este vorba de o alergie, el
+va fi facut sa dispara intr-un timp relativ scurt, bandu-se ceai de urzici, 3-4 cesti pe zi, cu
+cate 3 lingurite de bitter suedez care se dilueaza cu ceaiul.
 ### HEMANGIOMUL
 
 HEMANGIOMUL
-Frunzele cedrului sau ale chiparosului sânt spălate, tăiate mărunt și se umple cu ele o
-sticlă până la gât; se toarnă rachiu de secară de 38-40%; se pune să stea 10 zile în soare
-sau în apropierea mașinii de gătit. Cu această tinctură se tamponează he- mangiomul de mai
+Frunzele cedrului sau ale chiparosului sant spalate, taiate marunt si se umple cu ele o
+sticla pana la gat; se toarna rachiu de secara de 38-40%; se pune sa stea 10 zile in soare
+sau in apropierea masinii de gatit. Cu aceasta tinctura se tamponeaza he- mangiomul de mai
 multe ori pe zi.
-Și frunzele cărnoase de urechelniță (Sempervivum tectorum) - numită și iarba-ciutei,
-urechiușe, verzișoară - tăiate de-a lungul și despicate contribuie la dispariția treptată a
-hemangiomului, dacă acesta este uns cu seva ce iese din ele.
-Seva tulpinilor cărnoase de filimică, stoarse prin storcătorul electric de uz casnic,
-ajută de asemenea la înlăturarea hemangiomului. Biterul suedez folosit de mai multe ori
-duce și el la dispariția acestei rebele boli de piele.
-Sucurile și tincturile menționate sânt de mare ajutor și pentru a îndepărta alunițele,
-semnele din naștere, dereglările de pigment, keratoza senilă (petele de bătrânețe),
-zonele albe de piele bine delimitate, precum și negii.
-Un băieței de două luni avea pe piept un hemangiom mare cât o jumătate de linte care
-trebuia îndepărtat prin operație. Mama lui, îngrijorată, se temea de complicații la operația
-sugarului. A început să tamponeze locul de mai multe ori pe zi cu bitter suedez, în cca. 6
-săptămâni, hemangiomul a dispărut.
+Si frunzele carnoase de urechelnita (Sempervivum tectorum) - numita si iarba-ciutei,
+urechiuse, verzisoara - taiate de-a lungul si despicate contribuie la disparitia treptata a
+hemangiomului, daca acesta este uns cu seva ce iese din ele.
+Seva tulpinilor carnoase de filimica, stoarse prin storcatorul electric de uz casnic,
+ajuta de asemenea la inlaturarea hemangiomului. Biterul suedez folosit de mai multe ori
+duce si el la disparitia acestei rebele boli de piele.
+Sucurile si tincturile mentionate sant de mare ajutor si pentru a indeparta alunitele,
+semnele din nastere, dereglarile de pigment, keratoza senila (petele de batranete),
+zonele albe de piele bine delimitate, precum si negii.
+Un baietei de doua luni avea pe piept un hemangiom mare cat o jumatate de linte care
+trebuia indepartat prin operatie. Mama lui, ingrijorata, se temea de complicatii la operatia
+sugarului. A inceput sa tamponeze locul de mai multe ori pe zi cu bitter suedez, in cca. 6
+saptamani, hemangiomul a disparut.
 ### HEMOFILIA
 
 HEMOFILIA
-în această boală, slavă Domnului rară, dau rezultate următoarele plante: ventrilica,
-crețișoara, traista-ciobanului, coada-șoricelului și coada-calului - amestecate în
-părți egale. Trebuie băute zilnic minimum 4 cești, împărțite pe durata întregii zile. Este
-necesară Iinguriță (cu vârf) de plante la 1/4 litru de apă; se opărește și se lasă 1 minut în
-repaos în plus, se fac 14 zile băi de șezut cu aceste plante; se folosesc 100 grame de plante
-pentru fiecare baie și se lasă peste noapte în apă rece; a doua zi se încălzește și se toarnă
-într-o apă de baie de șezut de temperatură potrivită; durata băii - 20 minute. Apa de baie se
-mai poate turna de 2 ori înapoi peste plante și, dacă se reîncălzește, se picate folosi pentru
-încă două băi de șezut.
+in aceasta boala, slava Domnului rara, dau rezultate urmatoarele plante: ventrilica,
+cretisoara, traista-ciobanului, coada-soricelului si coada-calului - amestecate in
+parti egale. Trebuie baute zilnic minimum 4 cesti, impartite pe durata intregii zile. Este
+necesara Iingurita (cu varf) de plante la 1/4 litru de apa; se opareste si se lasa 1 minut in
+repaos in plus, se fac 14 zile bai de sezut cu aceste plante; se folosesc 100 grame de plante
+pentru fiecare baie si se lasa peste noapte in apa rece; a doua zi se incalzeste si se toarna
+intr-o apa de baie de sezut de temperatura potrivita; durata baii - 20 minute. Apa de baie se
+mai poate turna de 2 ori inapoi peste plante si, daca se reincalzeste, se picate folosi pentru
+inca doua bai de sezut.
 
 ### HISTEROPTOZA
 
 HISTEROPTOZA (PROLAPSUL UTERIN)
-Se beau pe parcursul zilei 4 cești cu ceai de crețișoară, înghițitură cu înghițitură. Se
-pune 1 linguriță (cu vârf) de plante la 1/4 litru de apa se opărește și se lasă sa stea puțin. Se
-umple sticlă până la gât cu traista-ciobanului tăiată mărunt de la tulpină până la flori, se
-toarnă deasupra rachiu de 38-40%, apoi se pune să stea 10 zile în soare sau în apropierea
-mașinii de gătit. CU această esență se unge de câteva ori pe zi partea stingă a burții, de la
-vagin în sus. în același timp, se fac 3 băi de șezut cu coada-șoricelului pe săptămână: Se
-lasă peste noapte 100 grame de coada-șoricelului în apă rece; se încălzește a doua zi și se
-face o baie de șezut lungă de 20 minute. Apa de baie se mai toarnă de 2 ori înapoi peste
-plante, astfel încât din apa pentru o baie se pot face trei.
-### INAPETENȚA LA COPII
+Se beau pe parcursul zilei 4 cesti cu ceai de cretisoara, inghititura cu inghititura. Se
+pune 1 lingurita (cu varf) de plante la 1/4 litru de apa se opareste si se lasa sa stea putin. Se
+umple sticla pana la gat cu traista-ciobanului taiata marunt de la tulpina pana la flori, se
+toarna deasupra rachiu de 38-40%, apoi se pune sa stea 10 zile in soare sau in apropierea
+masinii de gatit. CU aceasta esenta se unge de cateva ori pe zi partea stinga a burtii, de la
+vagin in sus. in acelasi timp, se fac 3 bai de sezut cu coada-soricelului pe saptamana: Se
+lasa peste noapte 100 grame de coada-soricelului in apa rece; se incalzeste a doua zi si se
+face o baie de sezut lunga de 20 minute. Apa de baie se mai toarna de 2 ori inapoi peste
+plante, astfel incat din apa pentru o baie se pot face trei.
+### INAPETENTA LA COPII
 
-INAPETENȚA LA COPII
-O mamă tânără se plângea că băiețelul ei în vârstă de 2 ani suferă de lipsă cronică de
-poftă de mâncare, este morocănos, obosit, de abia îl poți scoate la plimbare și are
-cearcăne negre adânci sub ochi. Situația s-a schimbat rapid când și-a băgat copilul, la
-sfatul meu, într-o baie completă de cimbru, alcătuită din 50 grame de plante (se lasă peste
-noapte în apă, durata băii: 20 minute, inima în afara apei, apa băii se toarnă în două seri
-înapoi peste plante, în total se fac 3 băi din cantitatea respectivă de plante), în afară de
-aceasta, copilul a primit zilnic 1 ceașcă cu ceai de urzici, bând înghițitură cu înghițitură.
-Mama sa mi-a povestit plină de bucurie că băiatul ei nu mai era de re cunoscut. A căpătat
-poftă de mâncare, are chef să iasă la joacă și la plimbare și este amuzant cum micuțul îi
-amintește zilnic mamei de ceaiul lui de urzici. Ii spune mucalit că trebuie să ia „mereu doar o
-înghițitură!"
-### INCONTINENȚA URINARA
+INAPETENTA LA COPII
+O mama tanara se plangea ca baietelul ei in varsta de 2 ani sufera de lipsa cronica de
+pofta de mancare, este morocanos, obosit, de abia il poti scoate la plimbare si are
+cearcane negre adanci sub ochi. Situatia s-a schimbat rapid cand si-a bagat copilul, la
+sfatul meu, intr-o baie completa de cimbru, alcatuita din 50 grame de plante (se lasa peste
+noapte in apa, durata baii: 20 minute, inima in afara apei, apa baii se toarna in doua seri
+inapoi peste plante, in total se fac 3 bai din cantitatea respectiva de plante), in afara de
+aceasta, copilul a primit zilnic 1 ceasca cu ceai de urzici, band inghititura cu inghititura.
+Mama sa mi-a povestit plina de bucurie ca baiatul ei nu mai era de re cunoscut. A capatat
+pofta de mancare, are chef sa iasa la joaca si la plimbare si este amuzant cum micutul ii
+aminteste zilnic mamei de ceaiul lui de urzici. Ii spune mucalit ca trebuie sa ia „mereu doar o
+inghititura!"
+### INCONTINENTA URINARA
 
-INCONTINENȚA URINARA
-Câți oameni suferă mai ales în zilele ploioase sau la coborârea de pe munte de fap tul că
-nu-și mai pot ține urina ca lumea! în această problemă ajută mai ales băile calde de șezut
-cu coada-șoricelului și coada-calului, 100 grame de plante pentru fiecare baie (a se
-vedea „Băi de șezut" la „Partea generală"). În afară de aceasta, se beau zil nic 4 cești cu
-ceai de crețișoară și se freacă regiunea vezicală cu esență de traista-ciobanului care
-înviorează musculatura dinspre exterior. Găsiți la articolul „Traista-cio banului" modul cum se
-prepară această esență. Simultan se recomandă însă și băi de șezut cu traista-ciobanului.
+INCONTINENTA URINARA
+Cati oameni sufera mai ales in zilele ploioase sau la coborarea de pe munte de fap tul ca
+nu-si mai pot tine urina ca lumea! in aceasta problema ajuta mai ales baile calde de sezut
+cu coada-soricelului si coada-calului, 100 grame de plante pentru fiecare baie (a se
+vedea „Bai de sezut" la „Partea generala"). In afara de aceasta, se beau zil nic 4 cesti cu
+ceai de cretisoara si se freaca regiunea vezicala cu esenta de traista-ciobanului care
+invioreaza musculatura dinspre exterior. Gasiti la articolul „Traista-cio banului" modul cum se
+prepara aceasta esenta. Simultan se recomanda insa si bai de sezut cu traista-ciobanului.
 Se folosesc tot 100 grame de plante pentru fiecare baie.
-Băile de șezut cu sare de bucătărie ajută într-un mod unic. într-o apă de baie de
-temperatură moderată se introduce sare de bucătărie și se repetă băile seară de seară
-până ce dispare incontinența urinară.
+Baile de sezut cu sare de bucatarie ajuta intr-un mod unic. intr-o apa de baie de
+temperatura moderata se introduce sare de bucatarie si se repeta baile seara de seara
+pana ce dispare incontinenta urinara.
 ### INFLAMATIILE PURULENTE ALE PATULUI UNGHIILOR
 
 INFLAMATIILE PURULENTE ALE PATULUI UNGHIILOR
 -UNGHIILE friabile sau accidentate
-în cazul unei inflamații a patului unghiei se lasă 50 grame de nalbă să stea peste noapte
-în apă rece la macerat; înainte de a merge la culcare, se fac băi încălzite de picioare sau
-de mâini, cu o durată de 20 minute. Această apă de baie poate, lăsată la rece, să fie
-folosită de 2-3 ori. în afară de aceasta, se unge alifie de filimică peste patul de unghie
-inflamat și se pun deasupra comprese cu ierburi suedeze.
+in cazul unei inflamatii a patului unghiei se lasa 50 grame de nalba sa stea peste noapte
+in apa rece la macerat; inainte de a merge la culcare, se fac bai incalzite de picioare sau
+de maini, cu o durata de 20 minute. Aceasta apa de baie poate, lasata la rece, sa fie
+folosita de 2-3 ori. in afara de aceasta, se unge alifie de filimica peste patul de unghie
+inflamat si se pun deasupra comprese cu ierburi suedeze.
 
-Unghiile friabile (casante) sau accidentate sânt unse cu suc de ceapă sau de piciorul-
-cocoșului Ceapa se taie în două; cu jumătățile de ceapă se freacă unghiile de mai multe
-ori. Se poate folosi însă și ceapă stoarsă. Sucul piciorului-cocoșului, care crește la
-margini de păduri și câmpii, se utilizează și el cu succes. Se despică tulpina rotundă,
-grosuță și se ung unghiile în repetate rânduri cu seva obținută. Cu o singură ungere nu se
-realizează însă nimic, ea trebuie repetată timp mai îndelungat.
+Unghiile friabile (casante) sau accidentate sant unse cu suc de ceapa sau de piciorul-
+cocosului Ceapa se taie in doua; cu jumatatile de ceapa se freaca unghiile de mai multe
+ori. Se poate folosi insa si ceapa stoarsa. Sucul piciorului-cocosului, care creste la
+margini de paduri si campii, se utilizeaza si el cu succes. Se despica tulpina rotunda,
+grosuta si se ung unghiile in repetate randuri cu seva obtinuta. Cu o singura ungere nu se
+realizeaza insa nimic, ea trebuie repetata timp mai indelungat.
 ### LACRIMAREA
 
 LACRIMAREA
-Pentru a scăpa de această stare extrem de neplăcută, se amestecă 10 grame de silur,
-10 grame de odolean, 15 grame de cuișoriță (numită și albeață, cerehțel, cer culeț), 10
-grame de flori de liliac, 10 grame de crețișoară, 20 grame de mușețel și 10
-grame de viranț (rută). La 1/2 litru de apă se iau 15 grame de plante, se lasă pe timpul
-nopții la macerat la rece, iar a doua zi cantitatea se încălzește până la punctul de fier bere.
-Se amestecă, se iau plantele de pe foc și se lasă sa stea 3 minute. Când se răcește puțin,
-se cufundă o bucățică de pânza în lichid și se pune caldă pe ochii închiși. Această operație
-se repetă de mai multe ori timp de 1/2 oră. Se acoperă apoi cu o bucată de pânză uscată și
-se stă puțin cu ochii în repaos.
+Pentru a scapa de aceasta stare extrem de neplacuta, se amesteca 10 grame de silur,
+10 grame de odolean, 15 grame de cuisorita (numita si albeata, cerehtel, cer culet), 10
+grame de flori de liliac, 10 grame de cretisoara, 20 grame de musetel si 10
+grame de virant (ruta). La 1/2 litru de apa se iau 15 grame de plante, se lasa pe timpul
+noptii la macerat la rece, iar a doua zi cantitatea se incalzeste pana la punctul de fier bere.
+Se amesteca, se iau plantele de pe foc si se lasa sa stea 3 minute. Cand se raceste putin,
+se cufunda o bucatica de panza in lichid si se pune calda pe ochii inchisi. Aceasta operatie
+se repeta de mai multe ori timp de 1/2 ora. Se acopera apoi cu o bucata de panza uscata si
+se sta putin cu ochii in repaos.
 ### LEZIUNILE COLOANEI VERTEBRALE
 
 LEZIUNILE COLOANEI VERTEBRALE
-Aici ajută extraordinar alifia de drăgaică; aceasta se prepară exact la fel ca alifia de
-filimică (a se vedea articolul despre filimică). Alifia se unge de jos până sus de-a lungul șirei
-spinării. Importante mai sânt și frecțiile cu esență de coada-șoricelului și rădăcini de
-tătăneasă (a se vedea „Tinctura - esența", de la „Partea generală") și con comitent băile
-complete de cimbru și coada-șoricelului.
+Aici ajuta extraordinar alifia de dragaica; aceasta se prepara exact la fel ca alifia de
+filimica (a se vedea articolul despre filimica). Alifia se unge de jos pana sus de-a lungul sirei
+spinarii. Importante mai sant si frectiile cu esenta de coada-soricelului si radacini de
+tataneasa (a se vedea „Tinctura - esenta", de la „Partea generala") si con comitent baile
+complete de cimbru si coada-soricelului.
 ### MENORAGIILE
 
 MENORAGIILE (HEMORAGIILE MENSTRUALE)
-în caz de menstruație foarte abundentă se bea dimineața, pe stomacul gol, 1/2 oră
-înainte de micul dejun, î ceașcă cu infuzie din următoarele plante bine amestecate: 25
-grame de flori de arnică, 50 grame de rădăcină de odolean, 25 grame de mușchi-
-islandez, 25 grame de roiniță, 25 grame de coada-șoricelului și 25 grame de salvie 1
-linguriță cu vârf la 1/4 litru de apă; se opărește; repaos - 3 minute. Ceaiul trebuie băut în
-continuare și atunci când menstruație s-a normalizat. Aceste plante dau organismului o
-senzație plăcută pornind din zona pelviană, împiedică apariția indispozițiilor de
-menopauză, iar efectul plantelor durează ani în șir. Cu ani în urmă, o femeie m-a rugat să-i
-dau această rețetă. Avea menstruații foarte abundente și făcuse fără rezultat două
-intervenții în clinica fratelui ei, care era ginecolog. Ceaiul a ajutat-o la fel de repede ca și pe
-mine când am avut în urma tifosului hemoragii ce nu puteau fi potolite cu nimic. Medicul cu
-care mă tratam a fost atunci de părere să încercăm cu plantele medicinale. Astfel a ajuns în
-mâinile mele această rețetă minunată. Am suferit peste un an și jumătate de menstruații ce
-durau 14 zile si chiar mai mult în exact 4 săptămâni plantele m-au ajutat, normalizându-mi
-ciclul. Am băut acest ceai cinci ani fără întrerupere.
+in caz de menstruatie foarte abundenta se bea dimineata, pe stomacul gol, 1/2 ora
+inainte de micul dejun, i ceasca cu infuzie din urmatoarele plante bine amestecate: 25
+grame de flori de arnica, 50 grame de radacina de odolean, 25 grame de muschi-
+islandez, 25 grame de roinita, 25 grame de coada-soricelului si 25 grame de salvie 1
+lingurita cu varf la 1/4 litru de apa; se opareste; repaos - 3 minute. Ceaiul trebuie baut in
+continuare si atunci cand menstruatie s-a normalizat. Aceste plante dau organismului o
+senzatie placuta pornind din zona pelviana, impiedica aparitia indispozitiilor de
+menopauza, iar efectul plantelor dureaza ani in sir. Cu ani in urma, o femeie m-a rugat sa-i
+dau aceasta reteta. Avea menstruatii foarte abundente si facuse fara rezultat doua
+interventii in clinica fratelui ei, care era ginecolog. Ceaiul a ajutat-o la fel de repede ca si pe
+mine cand am avut in urma tifosului hemoragii ce nu puteau fi potolite cu nimic. Medicul cu
+care ma tratam a fost atunci de parere sa incercam cu plantele medicinale. Astfel a ajuns in
+mainile mele aceasta reteta minunata. Am suferit peste un an si jumatate de menstruatii ce
+durau 14 zile si chiar mai mult in exact 4 saptamani plantele m-au ajutat, normalizandu-mi
+ciclul. Am baut acest ceai cinci ani fara intrerupere.
 
-### MIROSUL GURII și LIMBA SABURALÂ (ÎNCĂRCATA)
+### MIROSUL GURII si LIMBA SABURALA (INCARCATA)
 
-MIROSUL GURII și LIMBA SABURALÂ (ÎNCĂRCATA)
-Mirosul gurii nu este neplăcut numai pentru cel afectat, ci și pentru cei din jurul său.
-Trebuie în primul rând stabilit medical de unde provine. El poate avea cauze
-diverse: dinții stricați care trebuie tratați, abcesele în cavitatea bucală, amigdalitele,
-secrețiile mucoasei nazale, dar și stomacul prost cu insuficient acid gastric sau
-constipația. La ultima menționată se pune mai ales problema realizării unei digestii
+MIROSUL GURII si LIMBA SABURALA (INCARCATA)
+Mirosul gurii nu este neplacut numai pentru cel afectat, ci si pentru cei din jurul sau.
+Trebuie in primul rand stabilit medical de unde provine. El poate avea cauze
+diverse: dintii stricati care trebuie tratati, abcesele in cavitatea bucala, amigdalitele,
+secretiile mucoasei nazale, dar si stomacul prost cu insuficient acid gastric sau
+constipatia. La ultima mentionata se pune mai ales problema realizarii unei digestii
 regulate.
-în cazul abceselor din cavitatea bucală se face gargară cu ceai cald de drăgaică, în cel
-al amigdalitelor, cu ceai de salvie, tot ceaiul călduț de salvie ajută și la elimi narea secreției
-mucoasei nazale. Deseori sânt de folos în combaterea mirosului gurii câteva picături de ulei
-de ienupăr care, turnate într-un pahar cu apă călduță, sânt luate încet, în înghițituri mici. Și
-mestecarea semințelor de mărar poate îndepărta mirosul greu. Dacă este provocat de
-tulburări în cavitatea bucală, ajută o gargară repetată cu 30-40 picături de tinctură de
-smirnă diluate în apă călduță.
-Ceaiul de pelin este un mijloc excelent pentru a combate limba foarte încărcată și
-mirosul neplăcut al gurii. Părerea larg răspândită: „Pelinul este sănătos și nu poate dăuna
-niciodată" nu este deloc corectă. Trebuie procedat cu economie în cazul pelinului. Astfel, la
-1 ceașcă cu apă se ia doar 1/2 linguriță de pelin.
+in cazul abceselor din cavitatea bucala se face gargara cu ceai cald de dragaica, in cel
+al amigdalitelor, cu ceai de salvie, tot ceaiul caldut de salvie ajuta si la elimi narea secretiei
+mucoasei nazale. Deseori sant de folos in combaterea mirosului gurii cateva picaturi de ulei
+de ienupar care, turnate intr-un pahar cu apa calduta, sant luate incet, in inghitituri mici. Si
+mestecarea semintelor de marar poate indeparta mirosul greu. Daca este provocat de
+tulburari in cavitatea bucala, ajuta o gargara repetata cu 30-40 picaturi de tinctura de
+smirna diluate in apa calduta.
+Ceaiul de pelin este un mijloc excelent pentru a combate limba foarte incarcata si
+mirosul neplacut al gurii. Parerea larg raspandita: „Pelinul este sanatos si nu poate dauna
+niciodata" nu este deloc corecta. Trebuie procedat cu economie in cazul pelinului. Astfel, la
+1 ceasca cu apa se ia doar 1/2 lingurita de pelin.
 NEFRITA si PIONEFRITA
-în aceste boli nu se recomandă numai ceaiul de mătasea-porumbului, măcrișul-
-iepurelui cules proaspăt, urzică-moartă-galbenă sau albă și băi de șezut cu coada-
-calului, ci se bea și lapte de troscot (3-4 cești pe zi), care are un efect uimitor. Troscotul -
-1 linguriță cu vârf la 1 ceașcă - este opărit cu lapte în clocot și băut foarte cald, în înghițituri
+in aceste boli nu se recomanda numai ceaiul de matasea-porumbului, macrisul-
+iepurelui cules proaspat, urzica-moarta-galbena sau alba si bai de sezut cu coada-
+calului, ci se bea si lapte de troscot (3-4 cesti pe zi), care are un efect uimitor. Troscotul -
+1 lingurita cu varf la 1 ceasca - este oparit cu lapte in clocot si baut foarte cald, in inghitituri
 mici.
 ### NEVRALGIILE FACIALE
 
 NEVRALGIILE FACIALE
-Florile culese în soare ale mușețelului, lumânăricii, cozii-șoricelului și cimbrului
-se introduc pe cât posibil proaspete sau ușor uscate într-un săculeț de pânză și se aplică
-direct pe zonele afectate de nevralgia facială. Se folosesc plantele culese în soare, întrucât
-prin acțiunea soarelui și-au dezvoltat mai puternic uleiurile volatile care stârnesc efectul
-curativ pozitiv, în plus, se beau din plantele menționate 4 cești zilnic, înghițitură cu
-înghițitură. (Se opăresc, se lasă să stea puțin.) Dacă apar dureri spas tice, se spală fața cu
-infuzie caldă de urzici, se fricționează și se pune pe ea un săculeț de pânză umplut cu
-pedicuță tăiată mărunt. Aplicarea compreselor făcute cu bitter suedez (a se vedea la
-pag. 75) trebuie să aibă loc neapărat în pat. Și adminis trarea internă a acestor picături - de
-3 ori pe zi câte 1 linguriță -, diluate în amestecul de ceaiuri susmenționat, aduce alinare
+Florile culese in soare ale musetelului, lumanaricii, cozii-soricelului si cimbrului
+se introduc pe cat posibil proaspete sau usor uscate intr-un saculet de panza si se aplica
+direct pe zonele afectate de nevralgia faciala. Se folosesc plantele culese in soare, intrucat
+prin actiunea soarelui si-au dezvoltat mai puternic uleiurile volatile care starnesc efectul
+curativ pozitiv, in plus, se beau din plantele mentionate 4 cesti zilnic, inghititura cu
+inghititura. (Se oparesc, se lasa sa stea putin.) Daca apar dureri spas tice, se spala fata cu
+infuzie calda de urzici, se frictioneaza si se pune pe ea un saculet de panza umplut cu
+pedicuta taiata marunt. Aplicarea compreselor facute cu bitter suedez (a se vedea la
+pag. 75) trebuie sa aiba loc neaparat in pat. Si adminis trarea interna a acestor picaturi - de
+3 ori pe zi cate 1 lingurita -, diluate in amestecul de ceaiuri susmentionat, aduce alinare
 bolnavului.
-### NISIPUL LA RINICHI și LA VEZICA și CALCULUL RENAL
+### NISIPUL LA RINICHI si LA VEZICA si CALCULUL RENAL
 
-NISIPUL LA RINICHI și LA VEZICA și CALCULUL RENAL
-Esența de urzici întrebuințată în homeopatie, pe care o recomand cu cea mai mare
-căldură, trebuie înghițită diluată. Această, esență se găsește în farmacii, în magazine
-specializate în alimente naturale bogate în vitamine și în drogherii. Esența este însoțită de
-indicații despre modul de întrebuințare.
-Cum s-a menționat în articolul despre coada-calului, băile de șezut cu coada-calului,
-simultan cu care se bea ceai de coada-calului, înlătură foarte rapid nisipul la rinichi și cel
-la vezică (=micii calculi vezicali), precum și piatra (calculul) la rinichi.
-în vechile cărți despre plantele medicinale stă scris că pălăria-cucului (numită în
-limbaj popular și pliscul-cucoarei sau priboi), precum și vioreaua-cu-miros-plăcut sau
+NISIPUL LA RINICHI si LA VEZICA si CALCULUL RENAL
+Esenta de urzici intrebuintata in homeopatie, pe care o recomand cu cea mai mare
+caldura, trebuie inghitita diluata. Aceasta, esenta se gaseste in farmacii, in magazine
+specializate in alimente naturale bogate in vitamine si in drogherii. Esenta este insotita de
+indicatii despre modul de intrebuintare.
+Cum s-a mentionat in articolul despre coada-calului, baile de sezut cu coada-calului,
+simultan cu care se bea ceai de coada-calului, inlatura foarte rapid nisipul la rinichi si cel
+la vezica (=micii calculi vezicali), precum si piatra (calculul) la rinichi.
+in vechile carti despre plantele medicinale sta scris ca palaria-cucului (numita in
+limbaj popular si pliscul-cucoarei sau priboi), precum si vioreaua-cu-miros-placut sau
 
-Din toate colțurile Austriei și Germaniei vin să ceară ajutor oameni suferind de
-psoriazisul considerat din punct de vedere medical drept incurabil. Noi însă, cei care
-credem în plantele medicinale din farmacia Domnului, știm că Dumnezeu ne aduce ajutor
-prin abundența plantelor de pădure și câmpie așternute la picioarele noastre.
-Există diferite tipuri ale acestei boli chinuitoare: așa-numitul psoriazis roșu, care se
-manifestă prin pete foarte roșii, bine delimitate, uri altul, la care pielea parcă ar fi acoperită
-cu solzi de pește și al treilea cu o piele pergamentată, crăpată, groasă, ale cărei crăpături
-se adâncesc seara, se desfac și pricinuiesc omului chinuri mari. La acestea se adaugă
-niște mâncărimi foarte puternice, ceea ce înseamnă o împovărare nervoasă grea pentru
-fiecare bolnav. Pielea produce și îndepărtează zilnic o mare cantitate de coji, la orice
-mișcare acestea curg pe jos.
-Cu ani în urmă am aflat despre o femeie de 38 de ani, a cărei piele era de la gât în jos
-crăpată și pergamentată, care își pierduse părul de pe cap și trecuse prin niște suferințe
-interminabile, în spital, chinurile i se domoliseră puțin prin faptul că fusese băgată până la
-gât într-un sac de nailon. Astfel, pielea i se mai muia puțin prin transpirație și durerile se mai
-diminuau. De schimbat, însă, nu se putea schimba nimic în maladia ei. Atunci am realizat
-că numai plantele depurative, dezintoxicate pot vin deca o asemenea boală. Când a folosit
-ceaiul alcătuit de mine și a ținut regimul alimen tar corespunzător, succesul a venit într-o
-jumătate de an. în acest scurt răstimp părul i-a crescut din nou, iar pielea a redevenit
-netedă și fără pete. De-atunci am ajutat multe persoane bolnave de psoriazis.
-Boala ia naștere din cauza unei dereglări a funcționării ficatului. Trebuie deci ca pe
-lângă utilizarea plantelor, să se țină și o dietă strictă pentru ficat: Să se evite mezelurile (în.
-afara celor de regim), cârnații, afumăturile, carnea de porc ca și supele lor, apoi toate
-felurile de acrituri, ca oțetul, mustul, vinul, lămâile, portocalele, grapefruiturile, fructele de
-pădure și sucurile lor, și coacăzele negre sânt incluse aici, merele crude, cafeaua
-naturală, ciocolata, cacaoa și mierea de albine, căci aceasta din urmă formează acizi pe
-care ficatul bolnav nu-i suportă. De evitat sânt, de aseme nea, toate tipurile de pește de
-conservă, peștele afumat, carnea de conservă, fructele unicarpelare (păstăile) ca mazărea,
-fasolea și lintea și orice fel de alcool. Permise sânt mâncărurile cu lapte, laptele și
-produsele lactate, salatele acrite cu iaurt, carnea ușoară ca cea de vițel, de pasăre, cea
-fiartă de vacă, peștele proaspăt sau congelat, legumele ușoare si zilnic mult compot de
-mere ca înlocuitor al fructelor proaspete.
+Din toate colturile Austriei si Germaniei vin sa ceara ajutor oameni suferind de
+psoriazisul considerat din punct de vedere medical drept incurabil. Noi insa, cei care
+credem in plantele medicinale din farmacia Domnului, stim ca Dumnezeu ne aduce ajutor
+prin abundenta plantelor de padure si campie asternute la picioarele noastre.
+Exista diferite tipuri ale acestei boli chinuitoare: asa-numitul psoriazis rosu, care se
+manifesta prin pete foarte rosii, bine delimitate, uri altul, la care pielea parca ar fi acoperita
+cu solzi de peste si al treilea cu o piele pergamentata, crapata, groasa, ale carei crapaturi
+se adancesc seara, se desfac si pricinuiesc omului chinuri mari. La acestea se adauga
+niste mancarimi foarte puternice, ceea ce inseamna o impovarare nervoasa grea pentru
+fiecare bolnav. Pielea produce si indeparteaza zilnic o mare cantitate de coji, la orice
+miscare acestea curg pe jos.
+Cu ani in urma am aflat despre o femeie de 38 de ani, a carei piele era de la gat in jos
+crapata si pergamentata, care isi pierduse parul de pe cap si trecuse prin niste suferinte
+interminabile, in spital, chinurile i se domolisera putin prin faptul ca fusese bagata pana la
+gat intr-un sac de nailon. Astfel, pielea i se mai muia putin prin transpiratie si durerile se mai
+diminuau. De schimbat, insa, nu se putea schimba nimic in maladia ei. Atunci am realizat
+ca numai plantele depurative, dezintoxicate pot vin deca o asemenea boala. Cand a folosit
+ceaiul alcatuit de mine si a tinut regimul alimen tar corespunzator, succesul a venit intr-o
+jumatate de an. in acest scurt rastimp parul i-a crescut din nou, iar pielea a redevenit
+neteda si fara pete. De-atunci am ajutat multe persoane bolnave de psoriazis.
+Boala ia nastere din cauza unei dereglari a functionarii ficatului. Trebuie deci ca pe
+langa utilizarea plantelor, sa se tina si o dieta stricta pentru ficat: Sa se evite mezelurile (in.
+afara celor de regim), carnatii, afumaturile, carnea de porc ca si supele lor, apoi toate
+felurile de acrituri, ca otetul, mustul, vinul, lamaile, portocalele, grapefruiturile, fructele de
+padure si sucurile lor, si coacazele negre sant incluse aici, merele crude, cafeaua
+naturala, ciocolata, cacaoa si mierea de albine, caci aceasta din urma formeaza acizi pe
+care ficatul bolnav nu-i suporta. De evitat sant, de aseme nea, toate tipurile de peste de
+conserva, pestele afumat, carnea de conserva, fructele unicarpelare (pastaile) ca mazarea,
+fasolea si lintea si orice fel de alcool. Permise sant mancarurile cu lapte, laptele si
+produsele lactate, salatele acrite cu iaurt, carnea usoara ca cea de vitel, de pasare, cea
+fiarta de vaca, pestele proaspat sau congelat, legumele usoare si zilnic mult compot de
+mere ca inlocuitor al fructelor proaspete.
 
-de scoarță de stejar
-de scoarță de salcie
+de scoarta de stejar
+de scoarta de salcie
 de barba-popii
-de fumărică
-de coajă de nucă
-de rostopască
+de fumarica
+de coaja de nuca
+de rostopasca
 de urzici
-de ventrilică
-de filimică
-de coada-șoricelului
-Se amestecă bine toate plan-
-tele, se ia 1 linguriță cu vârf pentru
-1 ceașcă, se opărește și se lasă să
-stea 3 minute. Ar fi bine să se
-folosească pe cât este posibil plante
+de ventrilica
+de filimica
+de coada-soricelului
+Se amesteca bine toate plan-
+tele, se ia 1 lingurita cu varf pentru
+1 ceasca, se opareste si se lasa sa
+stea 3 minute. Ar fi bine sa se
+foloseasca pe cat este posibil plante
 proaspete. Din acest ceai se beau
 pe parcursul zilei 1 1/2-2 litri,
-înghițitură cu înghițitură. Fie care
-înghițitură este asimilată imediat de
-organism și prelucrată.
+inghititura cu inghititura. Fie care
+inghititura este asimilata imediat de
+organism si prelucrata.
 
 ### PSORIAZISUL
 
@@ -4877,899 +4877,899 @@ Amestec
 de
 ceaiuri
 
-Pielea trebuie unsă de 2 ori pe zi cu osânză. Dacă este vorba de un psoriazis cu cruste
-care acoperă întregul corp, atunci se stoarce prin storcătorul electric de uz casnic
-rostopască proaspătă, bine spălată și se prepară prin frecare o alifie în pro porția de 50
-grame de osânză la 5 grame de rostopască. Pomăda se păstrează la fri gider, în același
-mod s-ar putea folosi pentru pregătirea alifiei sucul de nalbă proaspăt stors.
-în afară de aceasta, se recomandă băi cu adaos de infuzie de pălăria-cucului
-(priboi). La alinarea mâncărimilor și la însănătoșire contribuie și băile complete de nalbă
-și coada-calului (plantele se amestecă în părți egale și se pun peste noapte la macerat în
-apă rece - 200 grame pentru 1 baie, durata băii: 20 minute, inima în afara apei). - Toate
-aceste procedee ajută și în neurodermită.
-Doi copii dintr-o familie se îmbolnăviseră de psoriazis. Fetița de 12 ani avea psoriazis
-de la 2 ani, băiatul de aproximativ trei sferturi de an. Părinții au încercat totul, au fost cu fata
-la nenumărați doctori, și în Elveția, fără să fi reușit o ameliorare a stării ei. Cu ajutorul
-plantelor pe care copiii le-au căutat cu multă bucurie în timpul verii, au putut fi scăpați de
-această boală. Mama a povestit că fata are acum o piele netedă ca un bebeluș. Continuă
-să bea ceaiul în cantități mici.
-într-un alt caz, psoriazisul roșu a desfigurat întreaga față a unei fetițe de 12 ani suferind
-de această boală de pe la 2 ani. Părinții disperați încercaseră și ei totul pen tru a scăpa
-copilul de boală. După o întrebuințare de 4 luni a rețetei mele pentru pso riazis, am revăzut
-copilul cu o piele normală pe față.
-O doamnă dintr-o localitate din Austria superioară avea corpul acoperit pe multe porțiuni
-cu psoriazis roșu. La sfatul meu, a urmat cele explicate mai sus și un rezultat s-a văzut deja
-după 4 săptămâni. Treptat, petele roșii au dispărut complet. - Un caz asemănător la un
-morar din apropiere de Mainz: Aplicarea procedeului de mai sus a făcut ca psoriazisul
-roșu să dispară în scurt timp.
-O călugăriță care se chinuise 30 de ani cu psoriazis a început în primele zile ale lui
-octombrie cura de ceai însoțită de dietă. De Crăciun mi-a comunicat că boala i-a trecut de
+Pielea trebuie unsa de 2 ori pe zi cu osanza. Daca este vorba de un psoriazis cu cruste
+care acopera intregul corp, atunci se stoarce prin storcatorul electric de uz casnic
+rostopasca proaspata, bine spalata si se prepara prin frecare o alifie in pro portia de 50
+grame de osanza la 5 grame de rostopasca. Pomada se pastreaza la fri gider, in acelasi
+mod s-ar putea folosi pentru pregatirea alifiei sucul de nalba proaspat stors.
+in afara de aceasta, se recomanda bai cu adaos de infuzie de palaria-cucului
+(priboi). La alinarea mancarimilor si la insanatosire contribuie si baile complete de nalba
+si coada-calului (plantele se amesteca in parti egale si se pun peste noapte la macerat in
+apa rece - 200 grame pentru 1 baie, durata baii: 20 minute, inima in afara apei). - Toate
+aceste procedee ajuta si in neurodermita.
+Doi copii dintr-o familie se imbolnavisera de psoriazis. Fetita de 12 ani avea psoriazis
+de la 2 ani, baiatul de aproximativ trei sferturi de an. Parintii au incercat totul, au fost cu fata
+la nenumarati doctori, si in Elvetia, fara sa fi reusit o ameliorare a starii ei. Cu ajutorul
+plantelor pe care copiii le-au cautat cu multa bucurie in timpul verii, au putut fi scapati de
+aceasta boala. Mama a povestit ca fata are acum o piele neteda ca un bebelus. Continua
+sa bea ceaiul in cantitati mici.
+intr-un alt caz, psoriazisul rosu a desfigurat intreaga fata a unei fetite de 12 ani suferind
+de aceasta boala de pe la 2 ani. Parintii disperati incercasera si ei totul pen tru a scapa
+copilul de boala. Dupa o intrebuintare de 4 luni a retetei mele pentru pso riazis, am revazut
+copilul cu o piele normala pe fata.
+O doamna dintr-o localitate din Austria superioara avea corpul acoperit pe multe portiuni
+cu psoriazis rosu. La sfatul meu, a urmat cele explicate mai sus si un rezultat s-a vazut deja
+dupa 4 saptamani. Treptat, petele rosii au disparut complet. - Un caz asemanator la un
+morar din apropiere de Mainz: Aplicarea procedeului de mai sus a facut ca psoriazisul
+rosu sa dispara in scurt timp.
+O calugarita care se chinuise 30 de ani cu psoriazis a inceput in primele zile ale lui
+octombrie cura de ceai insotita de dieta. De Craciun mi-a comunicat ca boala i-a trecut de
 tot.
-în octombrie 1972 am aflat că o femeie tânără, mamă a trei copii, suferea de această
-boală cumplită. Se îmbolnăvise după un icter și am presupus că boala ei fusese provocată
-de o dereglare funcțională a ficatului Tânără femeie era absolut peste tot acoperită cu
-cruste. Nici pielea capului nu fusese cruțată. Părul i s-a tot rărit, până la urmă a trebuit chiar
-să poarte perucă, pentru a putea să apară printre oameni. La fiece mișcare cădea pe jos o
-ploaie de măreață și de cruste. Seara, pielea începea să lucreze și se formau crăpături
-adânci. Femeia, care de obicei avea de cusut pentru copii până la miezul nopții, iar ziua își
-ajuta soțul în munca sa de tapițer, de abia mai avea forță înainte de culcare pentru â se
-unge cu ulei, a se înveli într-un cearșaf și a se băga în pat. în câteva rânduri a petrecut mai
-multe săptămâni în spital. Singura alinare găsită acolo a fost aceea că pielea i se muia prin
-transpirație, atunci când era băgată într-un sac de nailon legat la gât. Plantele depurative în
-combinație cu regimul alimentar indicat au reușit și în acest caz o vindecare completă după
-o jumătate de an. De la începutul lui decembrie i-au trecut orice epuizare și oboseală,
-înainte de sărbătoarea de Paști din anul următor, pielea îi era iarăși netedă, părul îi crescuse
-din nou normal și frumos.
-O scrisoare din Munchen: „în septembrie 1977 v-am cerut sfatul în legătură cu fiul
-nostru Martin care avea atunci 13 ani. Diagnosticul medicilor: neurodermită. Timp de 13
-ani am fost cu el de la un medic pediatru la altul, de la o clinică dermatologică la alta, de la
-un tămăduitor la altul - fără rezultat. Medicii prescriau tot mereu cortizonul. La 7 ani a fost
-două luni la Davos. Doctorul de-acolo ne-a explicat că băiatul nostru avea această boală
-din naștere, că nu exista vindecare și că la fiecare puseu trebuia
+in octombrie 1972 am aflat ca o femeie tanara, mama a trei copii, suferea de aceasta
+boala cumplita. Se imbolnavise dupa un icter si am presupus ca boala ei fusese provocata
+de o dereglare functionala a ficatului Tanara femeie era absolut peste tot acoperita cu
+cruste. Nici pielea capului nu fusese crutata. Parul i s-a tot rarit, pana la urma a trebuit chiar
+sa poarte peruca, pentru a putea sa apara printre oameni. La fiece miscare cadea pe jos o
+ploaie de mareata si de cruste. Seara, pielea incepea sa lucreze si se formau crapaturi
+adanci. Femeia, care de obicei avea de cusut pentru copii pana la miezul noptii, iar ziua isi
+ajuta sotul in munca sa de tapiter, de abia mai avea forta inainte de culcare pentru a se
+unge cu ulei, a se inveli intr-un cearsaf si a se baga in pat. in cateva randuri a petrecut mai
+multe saptamani in spital. Singura alinare gasita acolo a fost aceea ca pielea i se muia prin
+transpiratie, atunci cand era bagata intr-un sac de nailon legat la gat. Plantele depurative in
+combinatie cu regimul alimentar indicat au reusit si in acest caz o vindecare completa dupa
+o jumatate de an. De la inceputul lui decembrie i-au trecut orice epuizare si oboseala,
+inainte de sarbatoarea de Pasti din anul urmator, pielea ii era iarasi neteda, parul ii crescuse
+din nou normal si frumos.
+O scrisoare din Munchen: „in septembrie 1977 v-am cerut sfatul in legatura cu fiul
+nostru Martin care avea atunci 13 ani. Diagnosticul medicilor: neurodermita. Timp de 13
+ani am fost cu el de la un medic pediatru la altul, de la o clinica dermatologica la alta, de la
+un tamaduitor la altul - fara rezultat. Medicii prescriau tot mereu cortizonul. La 7 ani a fost
+doua luni la Davos. Doctorul de-acolo ne-a explicat ca baiatul nostru avea aceasta boala
+din nastere, ca nu exista vindecare si ca la fiecare puseu trebuia
 
-răspuns cu cortizon. Ceea ce s-a întâmplat în săptămânile și anii de după această ședere la
-cură a fost cumplit. Puseuri de temperatură pe bandă rulantă, focare de puroi de pe tălpi
-până la glezne, puroi în palme, răni deschise pe nuca genunchiului, pe lobul urechii, gât și
-față. Cele mai rele dintre toate erau Mâncărimile permanente și ganglionii inghinali mari cât
-un ou de porumbiță, care făceau ca orice pas să-i fie însoțit de dureri, în septembrie 1972,
-starea i s-a înrăutățit atât de mult, încât a trebuit să-l in ternăm în spitalul din Schwabing.
-Medicii vorbeau de o septicemie cutanată. După un tratament intensiv cu cortizon a făcut
-apendicită cu puroi. Medicul ne-a spus atunci: «Să fiți fericiți că a fost apendicele, alți copii
-capătă ulcer gastric după un asemenea tratament.» Din teste rezultase că Martin era de
-curând alergic la toate ierburile, bulbii, perii, ciupercile și tipurile de polen. Din februarie
-1973 până în iulie 1978 a fost desen-sibilizat (adică s-a încercat înlăturarea sensibilității lui
-față de ele), însă tot nu s-a obținut nici o ameliorare. Din septembrie 1977, Martin bea, la
-sfatul dumneavoastră bun, 1 1/2 litru pe zi din ceaiul contra psoriazisului despre care scrieți
-în broșura dumneavoastră. La început a băut ceaiul foarte recalcitrant, ceea ce nu ne-a
-mirat; doar încercase deja atâtea în van! Pur și simplu nu mai avea speranțe. Prima sa
-constatare: «Mami, fac foarte mult pipi!» După 14 zile am intrat dimineață în camera
-copiilor ca să-l trezesc și mi-a spus: «Mami, nici nu m-am băgat bine în pat și am și
-adormit!» Mersul la culcare era pentru Martin - se poate spune de când era sugar - un
-coșmar: mâncărimi și scărpinări, nu putea să adoarmă, stătea treaz ore în șir, chiar jumătăți
-de nopți, începând cu acest prim adormit ușor, Martin a fost convins că ceaiul îi face bine și
-s-a străduit zilnic să-și golească sticla. Starea pielii a început să se amelioreze în mod
-substanțial. Ici și colo se mai scarpină, dar n-a mai ajuns la nici o infecție de când bea
-ceaiul. Uneori nici nu putem concepe acest lucru. Din ianuarie 1978 este fără pan samente
-și mănuși de bumbac. Martin este acum în clasa a IX-a a unui liceu de filologie modernă.
-Anul școlar 1977/78 a fost pentru el primul în care n-a zăcut bolnav săptămâni și luni în șir.
-Nu vă puteți imagina cum a înflorit în acest an! Din septembrie 1978 participă iarăși, după o
-întrerupere de circa patru ani, la orele de sport și este fericit, în iulie s-a încheiat procesul
-de desensibilizare. Medicii de la spital n-au nici o explicație pentru ameliorarea stării pielii
+raspuns cu cortizon. Ceea ce s-a intamplat in saptamanile si anii de dupa aceasta sedere la
+cura a fost cumplit. Puseuri de temperatura pe banda rulanta, focare de puroi de pe talpi
+pana la glezne, puroi in palme, rani deschise pe nuca genunchiului, pe lobul urechii, gat si
+fata. Cele mai rele dintre toate erau Mancarimile permanente si ganglionii inghinali mari cat
+un ou de porumbita, care faceau ca orice pas sa-i fie insotit de dureri, in septembrie 1972,
+starea i s-a inrautatit atat de mult, incat a trebuit sa-l in ternam in spitalul din Schwabing.
+Medicii vorbeau de o septicemie cutanata. Dupa un tratament intensiv cu cortizon a facut
+apendicita cu puroi. Medicul ne-a spus atunci: «Sa fiti fericiti ca a fost apendicele, alti copii
+capata ulcer gastric dupa un asemenea tratament.» Din teste rezultase ca Martin era de
+curand alergic la toate ierburile, bulbii, perii, ciupercile si tipurile de polen. Din februarie
+1973 pana in iulie 1978 a fost desen-sibilizat (adica s-a incercat inlaturarea sensibilitatii lui
+fata de ele), insa tot nu s-a obtinut nici o ameliorare. Din septembrie 1977, Martin bea, la
+sfatul dumneavoastra bun, 1 1/2 litru pe zi din ceaiul contra psoriazisului despre care scrieti
+in brosura dumneavoastra. La inceput a baut ceaiul foarte recalcitrant, ceea ce nu ne-a
+mirat; doar incercase deja atatea in van! Pur si simplu nu mai avea sperante. Prima sa
+constatare: «Mami, fac foarte mult pipi!» Dupa 14 zile am intrat dimineata in camera
+copiilor ca sa-l trezesc si mi-a spus: «Mami, nici nu m-am bagat bine in pat si am si
+adormit!» Mersul la culcare era pentru Martin - se poate spune de cand era sugar - un
+cosmar: mancarimi si scarpinari, nu putea sa adoarma, statea treaz ore in sir, chiar jumatati
+de nopti, incepand cu acest prim adormit usor, Martin a fost convins ca ceaiul ii face bine si
+s-a straduit zilnic sa-si goleasca sticla. Starea pielii a inceput sa se amelioreze in mod
+substantial. Ici si colo se mai scarpina, dar n-a mai ajuns la nici o infectie de cand bea
+ceaiul. Uneori nici nu putem concepe acest lucru. Din ianuarie 1978 este fara pan samente
+si manusi de bumbac. Martin este acum in clasa a IX-a a unui liceu de filologie moderna.
+Anul scolar 1977/78 a fost pentru el primul in care n-a zacut bolnav saptamani si luni in sir.
+Nu va puteti imagina cum a inflorit in acest an! Din septembrie 1978 participa iarasi, dupa o
+intrerupere de circa patru ani, la orele de sport si este fericit, in iulie s-a incheiat procesul
+de desensibilizare. Medicii de la spital n-au nici o explicatie pentru ameliorarea starii pielii
 sale."
-în vara lui 1979 a fost la mine un medic din R.F.G., specialist în boli interne, cu fiul său
-de 21 de ani, care suferă de neurodermită de la naștere. Tânărul trecuse în toți acești ani
-prin niște chinuri cumplite. Când a început să folosească plantele medicinale proaspete a
-avut niște reacții puternice, ca nas înfundat, presiune în zona capului. Băile de coada-
-calului au fost bine suportate, cele cu priboi mai puțin bine, deși ele influențau pielea în mod
-favorabil. Contra uscăciunii pielii s-a folosit alifia de Hametum cu un amestec de suc presat
-de nalbă, ceea ce a avut un efect benefic. Și în acest caz se remarca periodic o ameliorare,
-în primul rând, convingerea că se va vindeca s-a transmis și pacientului. La mijlocul lui
-octombrie 1979 și-a reluat studiile juridice.
-### REZULTATELE ȘCOLARE SLABE
+in vara lui 1979 a fost la mine un medic din R.F.G., specialist in boli interne, cu fiul sau
+de 21 de ani, care sufera de neurodermita de la nastere. Tanarul trecuse in toti acesti ani
+prin niste chinuri cumplite. Cand a inceput sa foloseasca plantele medicinale proaspete a
+avut niste reactii puternice, ca nas infundat, presiune in zona capului. Baile de coada-
+calului au fost bine suportate, cele cu priboi mai putin bine, desi ele influentau pielea in mod
+favorabil. Contra uscaciunii pielii s-a folosit alifia de Hametum cu un amestec de suc presat
+de nalba, ceea ce a avut un efect benefic. Si in acest caz se remarca periodic o ameliorare,
+in primul rand, convingerea ca se va vindeca s-a transmis si pacientului. La mijlocul lui
+octombrie 1979 si-a reluat studiile juridice.
+### REZULTATELE SCOLARE SLABE
 
-REZULTATELE ȘCOLARE SLABE (la copii)
-O mamă mi-a povestit disperată că băiatul ei de 12 ani este total lipsit de interes pentru
-școală; cadrele didactice i-au comunicat la o ședință cu părinții că băiatul nu mai ține deloc
-pasul la învățătură și că nu mai știu ce să se facă cu el. Copilul, înainte rareori bolnav și
-bun sportiv, era acum palid și avea cearcăne adânci sub ochi; după părerea mea, trebuia
-să fie bolnav. Am sfătuit-o să-i dea zilnic 2 cești cu ceai proaspăt de urzici cu 2 lingurițe de
-bitter suedez, în scurtul interval de 6 săptămâni până la următoarea ședință cu părinții, au
-survenit surprize pentru toate părțile: pentru pro fesori, pentru părinți și în final chiar pentru
-copil, în această perioadă scurtă,
+REZULTATELE SCOLARE SLABE (la copii)
+O mama mi-a povestit disperata ca baiatul ei de 12 ani este total lipsit de interes pentru
+scoala; cadrele didactice i-au comunicat la o sedinta cu parintii ca baiatul nu mai tine deloc
+pasul la invatatura si ca nu mai stiu ce sa se faca cu el. Copilul, inainte rareori bolnav si
+bun sportiv, era acum palid si avea cearcane adanci sub ochi; dupa parerea mea, trebuia
+sa fie bolnav. Am sfatuit-o sa-i dea zilnic 2 cesti cu ceai proaspat de urzici cu 2 lingurite de
+bitter suedez, in scurtul interval de 6 saptamani pana la urmatoarea sedinta cu parintii, au
+survenit surprize pentru toate partile: pentru pro fesori, pentru parinti si in final chiar pentru
+copil, in aceasta perioada scurta,
 
-clasificarea sa în sus s-a accelerat în salturi: Unde avusese înainte note de 4 și 5, au apărut
-acum note de 2 și 1 .* Rezultatele școlare brusc ameliorate au stimulat copilul la realizări tot
-mai bune la școală.
-Cauzele nereușitelor școlare nu trebuie să fie întotdeauna numai lenevia copilului, ci
-rezultatele slabe pot fi deseori generate de creștere sau de dereglări organice, după cum
-arată acest caz. Cele mai simple plante au ajutat foarte rapid!
-### SCLEROZA ÎN PLACI
+clasificarea sa in sus s-a accelerat in salturi: Unde avusese inainte note de 4 si 5, au aparut
+acum note de 2 si 1 .* Rezultatele scolare brusc ameliorate au stimulat copilul la realizari tot
+mai bune la scoala.
+Cauzele nereusitelor scolare nu trebuie sa fie intotdeauna numai lenevia copilului, ci
+rezultatele slabe pot fi deseori generate de crestere sau de dereglari organice, dupa cum
+arata acest caz. Cele mai simple plante au ajutat foarte rapid!
+### SCLEROZA IN PLACI
 
-SCLEROZA ÎN PLACI (SCLEROZA MULTIPLA)
-Și pentru această boală considerată incurabilă poate exista ajutor din farmacia
-Domnului. Este adevărat că se progresează doar pas cu pas, însă nu trebuie să se
-renunțe pentru nimic în lume și nici să se piardă credința și încrederea în plantele
-medicinale, un dar al Creatorului nostru către omenirea bolnavă. Atrag încă o dată atenția
-asupra faptului că într-o boală atât de gravă ar trebui folosite pe cât posibil plante
-proaspete. Pentru provizia de iarnă însă, ele se usucă.
-Traista-ciobanului se spală, se taie mărunt, se pune într-o sticlă până la gât și se
-toarnă deasupra rachiu de secară sau de fructe de 38-40%. Apoi se lasă 10 zile în soare
-sau în apropierea mașinii de gătit. Cu această esență se fricționează de 2-3 ori pe zi
-porțiunile musculare bolnave. Intern, se administrează zilnic 4 cești cu ceai de crețișoara si
-2 cești cu ceai de salvie, luate înghițitură cu înghițitură pe parcursul întregii zile. Frunzele
-proaspete de măcrișul-iepurelui se spală și se presează în stare umedă prin storcătorul
-electric de uz casnic. Se iau zilnic, 6 ore consecutiv, din ceas în ceas, 3-5 picături diluate în
-ceai. Un efect favorabil îl au si fricționările cu ulei de sunătoare, de mușețel și de cimbru.
-Peste florile culese în soare, puse separat după soi în câte o sticlă, se toarnă ulei de măsline
-presate la rece (uleiul trebuie să stea deasupra florilor) și se lasă 10 zile la soare sau la loc
-călduros.
-Florile culese în soare ale sunătoarei, mușețelului și cozii-șoricelului se lasă la
-macerat exact așa ca traista-ciobanului. Cu aceste esențe se fricționează șira spinării,
-încheieturile și șoldurile. Se recomandă și o frecție cu rădăcini de tătăneasă spălate,
-periate, mărunțite și puse la macerat cu rachiu de 40%. Dacă rezultă o anchiloză por nită de
-la șira spinării, atunci se aplică făină de tătăneasă sub formă de compresă caldă cu terci
-pe regiunea sacrală. Făina de tătăneasă este amestecată cu apă până se formează un
-terci; ca acesta să poată fi uns mai ușor pe bucăți de pânză, se adaugă câteva picături de
-ulei. în plus, se bea dimineața și seara câte 1 ceașcă cu ceai de coada-șoricelului, se iau
-3 linguri de bitter suedez diluate în ceai de plante, iar această rație se consumă încetul cu
-încetul, repartizată pe parcursul întregii zile. Sânt indicate și compresele cu ierburi suedeze
-pe regiunea occipitală, puse mai des și ținute câte 4 ore.
-Nu trebuie uitate băile de șezut cu vârfuri de molid, sunătoare, mușețel, salvie,
-coada-șoricelului, cimbru și coada-calului, fiindcă toate aceste plante au un efect
-bun în paralizii. Se calculează 100 grame de plante pentru 1 baie. Se lasă peste noapte în
-apă rece, se încălzește totul a doua zi și se toarnă în apa de baie. Apa de baie trebuie să
-acopere rinichii, durata băii - 20 minute, să se transpire pe urmă 1 oră în pat. Această apă
-de baie mai poate fi folosită de 2 ori, turnându-se înapoi peste plante și încălzindu-se. în
-timpul unei săptămâni ar trebui utilizată o singură specie de plante. Deosebit de indicate
-ar fi băile complete de cimbru, care acționează asupra mușchilor și a țesuturilor, dar nici
-băile complete de urzici, cu irigarea sangvină miraculoasă pe care o stârnesc, nu sânt de
-neglijat. Se folosesc 200 grame pentru 1 baie; sânt pregătite exact la fel ca băile de șezut;
-și aici se poate întrebuința de 3 ori la rând aceeași apă de baie. Inima trebuie să stea în
+SCLEROZA IN PLACI (SCLEROZA MULTIPLA)
+Si pentru aceasta boala considerata incurabila poate exista ajutor din farmacia
+Domnului. Este adevarat ca se progreseaza doar pas cu pas, insa nu trebuie sa se
+renunte pentru nimic in lume si nici sa se piarda credinta si increderea in plantele
+medicinale, un dar al Creatorului nostru catre omenirea bolnava. Atrag inca o data atentia
+asupra faptului ca intr-o boala atat de grava ar trebui folosite pe cat posibil plante
+proaspete. Pentru provizia de iarna insa, ele se usuca.
+Traista-ciobanului se spala, se taie marunt, se pune intr-o sticla pana la gat si se
+toarna deasupra rachiu de secara sau de fructe de 38-40%. Apoi se lasa 10 zile in soare
+sau in apropierea masinii de gatit. Cu aceasta esenta se frictioneaza de 2-3 ori pe zi
+portiunile musculare bolnave. Intern, se administreaza zilnic 4 cesti cu ceai de cretisoara si
+2 cesti cu ceai de salvie, luate inghititura cu inghititura pe parcursul intregii zile. Frunzele
+proaspete de macrisul-iepurelui se spala si se preseaza in stare umeda prin storcatorul
+electric de uz casnic. Se iau zilnic, 6 ore consecutiv, din ceas in ceas, 3-5 picaturi diluate in
+ceai. Un efect favorabil il au si frictionarile cu ulei de sunatoare, de musetel si de cimbru.
+Peste florile culese in soare, puse separat dupa soi in cate o sticla, se toarna ulei de masline
+presate la rece (uleiul trebuie sa stea deasupra florilor) si se lasa 10 zile la soare sau la loc
+calduros.
+Florile culese in soare ale sunatoarei, musetelului si cozii-soricelului se lasa la
+macerat exact asa ca traista-ciobanului. Cu aceste esente se frictioneaza sira spinarii,
+incheieturile si soldurile. Se recomanda si o frectie cu radacini de tataneasa spalate,
+periate, maruntite si puse la macerat cu rachiu de 40%. Daca rezulta o anchiloza por nita de
+la sira spinarii, atunci se aplica faina de tataneasa sub forma de compresa calda cu terci
+pe regiunea sacrala. Faina de tataneasa este amestecata cu apa pana se formeaza un
+terci; ca acesta sa poata fi uns mai usor pe bucati de panza, se adauga cateva picaturi de
+ulei. in plus, se bea dimineata si seara cate 1 ceasca cu ceai de coada-soricelului, se iau
+3 linguri de bitter suedez diluate in ceai de plante, iar aceasta ratie se consuma incetul cu
+incetul, repartizata pe parcursul intregii zile. Sant indicate si compresele cu ierburi suedeze
+pe regiunea occipitala, puse mai des si tinute cate 4 ore.
+Nu trebuie uitate baile de sezut cu varfuri de molid, sunatoare, musetel, salvie,
+coada-soricelului, cimbru si coada-calului, fiindca toate aceste plante au un efect
+bun in paralizii. Se calculeaza 100 grame de plante pentru 1 baie. Se lasa peste noapte in
+apa rece, se incalzeste totul a doua zi si se toarna in apa de baie. Apa de baie trebuie sa
+acopere rinichii, durata baii - 20 minute, sa se transpire pe urma 1 ora in pat. Aceasta apa
+de baie mai poate fi folosita de 2 ori, turnandu-se inapoi peste plante si incalzindu-se. in
+timpul unei saptamani ar trebui utilizata o singura specie de plante. Deosebit de indicate
+ar fi baile complete de cimbru, care actioneaza asupra muschilor si a tesuturilor, dar nici
+baile complete de urzici, cu irigarea sangvina miraculoasa pe care o starnesc, nu sant de
+neglijat. Se folosesc 200 grame pentru 1 baie; sant pregatite exact la fel ca baile de sezut;
+si aici se poate intrebuinta de 3 ori la rand aceeasi apa de baie. Inima trebuie sa stea in
 afara apei.
-1 este în Austria nota maximă, echivalând cu 10 de la noi (n. tr.).
+1 este in Austria nota maxima, echivaland cu 10 de la noi (n. tr.).
 
-O experiență nouă și bună o reprezintă compresele cu frunze de brânca-ursului
-(Heracleum sphondylium), puse pe tot corpul. Frunzele de brânca-ursului (numită în popor
-și crucea-pământului, talpa-ursului sau urechea-porcului - este considerată cel mai bun
-nutreț pentru iepuri) se spală, se zdrobesc pe un fund de lemn cu un sucitor de tăiței și se
-presară pe o pânză în care este învelit bolnavul, care va fi apoi împachetat cu un prosop de
-baie pentru menținerea căldurii și lăsat așa o noapte întreagă. Dacă se remarcă o neliniște
-sau o indispoziție în locurile deosebit de sensi bile, atunci bolnavul este dezvelit. De obicei
-însă, el simte acțiunea forțelor tămăduitoare care pornesc de la frunzele de brânca-ursului
-și adoarme bine. Foarte des survine o ameliorare vizibilă. Vreau să atrag atenția și asupra
-unei schimbări în hrană în cazul sclerozei multiple, care dă și ea rezultate remarcabile.
-0 rețetă de leac deosebită a acestei boli considerate incurabile ar fi laptele de iapă.
-întrucât creșterea cailor începe să fie astăzi din nou la modă, ar fi posibilă procu rarea unui
-asemenea lapte. O cunoștință mi-a scris că citise cu ani în urmă că un cioban bătrân
-ajutase să se vindece cu laptele de iapă un șir de bolnavi considerați incurabili.
-în continuare, relatarea unei bolnave de scleroză multiplă, cu afecțiuni muscu lare și
-pelviene: „Sfaturile dumneavoastră de a fricționare spatele seara cu esență de coada-
-șoricelului, iar picioarele dimineața și seara cu esență de traista-ciobanului și de a pune
-comprese cu ierburi suedeze pe regiunea pelviană le-am urmat zilnic. Beau, de asemenea,
-ceai de pufuliță cu bitter suedez, dimineața, pe stomacul gol, o jumătate de oră înainte de
-micul dejun. După aproximativ patru luni pot să spun că sfaturile dumneavoastră sânt
-foarte bune și tratamentul cu plante medicinale a început să-și facă efectul. Spasmele
-cumplite din picioare cedează treptat și nu mai sânt atât de dureroase. Sânt anumite zile
-când pot deja să fac câțiva pași prin locuință, fără să mă țin de mobile și pereți. Vezica
-funcționează iarăși normal. Ciclul îmi vine ia 3-5 săptămâni, dar nu mai durează decât 3-5
-zile. Este o realizare pentru mine, chiar dacă e una mică. Scleroza multiplă este o boală
-foarte îndărătnică și are multe fenomene secundare. Beau biterul suedez zilnic în cantități
-mici, pus în ceai de urzici, de coada-șoricelului și de crețișoară. Am făcut experiențe bune și
-cu rostopasca. Sub ochiul stâng aveam de ani de zile o crustă groasă, care începuse cu
-timpul să tot crească înspre ochi. Am folosit tot felul de medicamente prescrise de doctor,
-dar nici unul nu m-a ajutat. Am încercat atunci cu sucul de rostopasca (rostopasca pusă la
-macerat 10 zile în rachiu de secară). Acum crusta aproape că a dispărut. Mă bucur atât de
-mult de cel mai mic succes care mă stimulează să continui zilnic. Pentru iarnă, mi-am făcut
-o provizie bogată de plante.
-în legătură cu discurile intervertebrale am citit într-o carte de medicină a părinților mei
-că este indicat să se radă bulbi de bujori și să se facă baie cu infuzia lor. Se pare că bujorii
-sânt buni pentru coloana vertebrală și pentru creier. Am făcut deci două băi: Am pus la
-macerat bulbi de bujor în rachiu de secară și am turnat și din această esență în infuzia în
-care m-am îmbăiat 20 minute, în ziua următoare nu mai aveam nici o durere de discopatie.
-Au trecut de-atunci 3 săptămâni și durerile nu s-au repetat."
-La o prelegere ținută de mine în Rendsburg/R.F.G. se suie o doamnă pe podium și
-povestește că acum trei ani era încă în scaun cu rotile. Urmând toate indicațiile din
-„Farmacia Domnului", starea i s-a ameliorat atât de vizibil, încât poate să meargă iarăși
-normal și se simte un om sănătos. N-a avut cum să culeagă plantele proaspete din natură,
-ci le-a cumpărat în stare uscată. Admirația pentru efortul depus de ea și pentru voința de a
-nu fi cedat a făcut să izbucnească în sală ropote de aplauze.
-Mongoloizii sau copiii paralizați cu spasme, respectiv handicapați sânt tratați cu
-aceleași plante pe care le găsiți aici în tratamentul topirii substanței osoase și al sclerozei
-multiple. N-am destule cuvinte ca să recomand frecțiile cu esențele menționate și mai ales
-băile de plante dătătoare de viață, în multe cazuri, cauza
+O experienta noua si buna o reprezinta compresele cu frunze de branca-ursului
+(Heracleum sphondylium), puse pe tot corpul. Frunzele de branca-ursului (numita in popor
+si crucea-pamantului, talpa-ursului sau urechea-porcului - este considerata cel mai bun
+nutret pentru iepuri) se spala, se zdrobesc pe un fund de lemn cu un sucitor de taitei si se
+presara pe o panza in care este invelit bolnavul, care va fi apoi impachetat cu un prosop de
+baie pentru mentinerea caldurii si lasat asa o noapte intreaga. Daca se remarca o neliniste
+sau o indispozitie in locurile deosebit de sensi bile, atunci bolnavul este dezvelit. De obicei
+insa, el simte actiunea fortelor tamaduitoare care pornesc de la frunzele de branca-ursului
+si adoarme bine. Foarte des survine o ameliorare vizibila. Vreau sa atrag atentia si asupra
+unei schimbari in hrana in cazul sclerozei multiple, care da si ea rezultate remarcabile.
+0 reteta de leac deosebita a acestei boli considerate incurabile ar fi laptele de iapa.
+intrucat cresterea cailor incepe sa fie astazi din nou la moda, ar fi posibila procu rarea unui
+asemenea lapte. O cunostinta mi-a scris ca citise cu ani in urma ca un cioban batran
+ajutase sa se vindece cu laptele de iapa un sir de bolnavi considerati incurabili.
+in continuare, relatarea unei bolnave de scleroza multipla, cu afectiuni muscu lare si
+pelviene: „Sfaturile dumneavoastra de a frictionare spatele seara cu esenta de coada-
+soricelului, iar picioarele dimineata si seara cu esenta de traista-ciobanului si de a pune
+comprese cu ierburi suedeze pe regiunea pelviana le-am urmat zilnic. Beau, de asemenea,
+ceai de pufulita cu bitter suedez, dimineata, pe stomacul gol, o jumatate de ora inainte de
+micul dejun. Dupa aproximativ patru luni pot sa spun ca sfaturile dumneavoastra sant
+foarte bune si tratamentul cu plante medicinale a inceput sa-si faca efectul. Spasmele
+cumplite din picioare cedeaza treptat si nu mai sant atat de dureroase. Sant anumite zile
+cand pot deja sa fac cativa pasi prin locuinta, fara sa ma tin de mobile si pereti. Vezica
+functioneaza iarasi normal. Ciclul imi vine ia 3-5 saptamani, dar nu mai dureaza decat 3-5
+zile. Este o realizare pentru mine, chiar daca e una mica. Scleroza multipla este o boala
+foarte indaratnica si are multe fenomene secundare. Beau biterul suedez zilnic in cantitati
+mici, pus in ceai de urzici, de coada-soricelului si de cretisoara. Am facut experiente bune si
+cu rostopasca. Sub ochiul stang aveam de ani de zile o crusta groasa, care incepuse cu
+timpul sa tot creasca inspre ochi. Am folosit tot felul de medicamente prescrise de doctor,
+dar nici unul nu m-a ajutat. Am incercat atunci cu sucul de rostopasca (rostopasca pusa la
+macerat 10 zile in rachiu de secara). Acum crusta aproape ca a disparut. Ma bucur atat de
+mult de cel mai mic succes care ma stimuleaza sa continui zilnic. Pentru iarna, mi-am facut
+o provizie bogata de plante.
+in legatura cu discurile intervertebrale am citit intr-o carte de medicina a parintilor mei
+ca este indicat sa se rada bulbi de bujori si sa se faca baie cu infuzia lor. Se pare ca bujorii
+sant buni pentru coloana vertebrala si pentru creier. Am facut deci doua bai: Am pus la
+macerat bulbi de bujor in rachiu de secara si am turnat si din aceasta esenta in infuzia in
+care m-am imbaiat 20 minute, in ziua urmatoare nu mai aveam nici o durere de discopatie.
+Au trecut de-atunci 3 saptamani si durerile nu s-au repetat."
+La o prelegere tinuta de mine in Rendsburg/R.F.G. se suie o doamna pe podium si
+povesteste ca acum trei ani era inca in scaun cu rotile. Urmand toate indicatiile din
+„Farmacia Domnului", starea i s-a ameliorat atat de vizibil, incat poate sa mearga iarasi
+normal si se simte un om sanatos. N-a avut cum sa culeaga plantele proaspete din natura,
+ci le-a cumparat in stare uscata. Admiratia pentru efortul depus de ea si pentru vointa de a
+nu fi cedat a facut sa izbucneasca in sala ropote de aplauze.
+Mongoloizii sau copiii paralizati cu spasme, respectiv handicapati sant tratati cu
+aceleasi plante pe care le gasiti aici in tratamentul topirii substantei osoase si al sclerozei
+multiple. N-am destule cuvinte ca sa recomand frectiile cu esentele mentionate si mai ales
+baile de plante datatoare de viata, in multe cazuri, cauza
 
-paraliziei cu spasme la copii rezidă în comportarea mamei în timpul sarcinii. Pe lângă
-țigări, alcool, droguri, și cafeaua naturală ar trebui evitată în această perioadă. Și copiii cu
-tulburări de vorbire ar trebui supuși acestui tratament. Important este în toate cele patru
-cazuri să se aplice comprese cu ierburi suedeze (a se vedea articolul „Ierburile suedeze") pe
-regiunea occipitală.
-### SOMNUL NELINIȘTIT
+paraliziei cu spasme la copii rezida in comportarea mamei in timpul sarcinii. Pe langa
+tigari, alcool, droguri, si cafeaua naturala ar trebui evitata in aceasta perioada. Si copiii cu
+tulburari de vorbire ar trebui supusi acestui tratament. Important este in toate cele patru
+cazuri sa se aplice comprese cu ierburi suedeze (a se vedea articolul „Ierburile suedeze") pe
+regiunea occipitala.
+### SOMNUL NELINISTIT
 
-SOMNUL NELINIȘTIT (la copii)
-Când copiii se agită în timpul somnului, răsucindu-se dintr-o parte în alta fără a găsi
-liniște, ajută imediat, în măsura în care locul culcușului nu se află sub influența ra diațiilor, o
-baie cu flori de tei. Se umple o găleată ceva mai mare cu flori de tei până la jumătate și se
-lasă să se moaie peste noapte în apă rece. A doua zi, se încălzește și se toarnă în apa de
-baie; durata băii - 20 minute. Această baie cu flori de tei se mâi poate folosi de 2 ori dacă
-se reîncălzește. Florile de tei ar trebui culese în soare, dacă acest lucru este posibil.
-### SUGHIȚUL
+SOMNUL NELINISTIT (la copii)
+Cand copiii se agita in timpul somnului, rasucindu-se dintr-o parte in alta fara a gasi
+liniste, ajuta imediat, in masura in care locul culcusului nu se afla sub influenta ra diatiilor, o
+baie cu flori de tei. Se umple o galeata ceva mai mare cu flori de tei pana la jumatate si se
+lasa sa se moaie peste noapte in apa rece. A doua zi, se incalzeste si se toarna in apa de
+baie; durata baii - 20 minute. Aceasta baie cu flori de tei se mai poate folosi de 2 ori daca
+se reincalzeste. Florile de tei ar trebui culese in soare, daca acest lucru este posibil.
+### SUGHITUL
 
-SUGHIȚUL
-Un ceai neândulcit din semințe de mărar este un leac plăcut și prompt în sughiț. 1
-lingură de semințe de mărar la 1/4 litru de apă; se opărește; repaos - 3 minute.
-### TOPIREA SUBSTANȚEI OSOASE
+SUGHITUL
+Un ceai neandulcit din seminte de marar este un leac placut si prompt in sughit. 1
+lingura de seminte de marar la 1/4 litru de apa; se opareste; repaos - 3 minute.
+### TOPIREA SUBSTANTEI OSOASE
 
-TOPIREA SUBSTANȚEI OSOASE
-Sămânța pulverizată sau măcinată a schindufului dă rezultate bune în caz de topire a
-substanței osoase, la fel și în caz de umflături la os sau osteomielită (inflamația măduvei
-osoase). Se beau zilnic 2 cești cu ceai de coada-șoricelului,
-repartizate în 4 porții, în două jumătăți de cești se pune de fiecare dată 1/2 linguriță de
-semințe de schinduf. Băi complete de coada-șoricelului din 200 grame de plante, du rata
-băii - 20 minute, inima în afara apei (apa de baie, reîncălzită, mai poate fi utilizată de 2 ori); a
-se folosi o dată pe lună. în afară de aceasta, trupul se unge zilnic cu esență de coada-
-șoricelului. Se umple o sticlă cu flori culese în soare, se toarnă peste flori rachiu de 38-40%
-și se lasă să stea 10 zile la soare.
-### TRANSPIRAȚIA NOCTURNA
+TOPIREA SUBSTANTEI OSOASE
+Samanta pulverizata sau macinata a schindufului da rezultate bune in caz de topire a
+substantei osoase, la fel si in caz de umflaturi la os sau osteomielita (inflamatia maduvei
+osoase). Se beau zilnic 2 cesti cu ceai de coada-soricelului,
+repartizate in 4 portii, in doua jumatati de cesti se pune de fiecare data 1/2 lingurita de
+seminte de schinduf. Bai complete de coada-soricelului din 200 grame de plante, du rata
+baii - 20 minute, inima in afara apei (apa de baie, reincalzita, mai poate fi utilizata de 2 ori); a
+se folosi o data pe luna. in afara de aceasta, trupul se unge zilnic cu esenta de coada-
+soricelului. Se umple o sticla cu flori culese in soare, se toarna peste flori rachiu de 38-40%
+si se lasa sa stea 10 zile la soare.
+### TRANSPIRATIA NOCTURNA
 
-TRANSPIRAȚIA NOCTURNA
-Ca leac de casă contra transpirației nocturne se folosește din vremuri îndepărtate mult
-apreciata salvie. Ea este opărită și băută dimineața, pe stomacul gol, o perioadă mai lungă
-de timp. Va extrage din organism acele substanțe care declanșează transpirația în timpul
-nopții, în vechile cărți despre plante medicinale se găsește ca leac băbesc eficient
-împotriva acestei indispoziții următoarea compoziție de plante: câte 20 grame de salvie,
-crețișoară și coada-calului. Se opăresc, se lasă să stea puțin și se bea o perioadă mai
-lungă 1 ceașcă din acest amestec de ceaiuri înainte de micul dejun. Plantele fortifică
-întregul organism și înlătură astfel transpirația nocturnă.
-Când am fost pentru ultima oară la cură la băile Kneipp, m-a abordat o doamnă
-bătrână, spunându-mi cât suferă din cauza transpirației nocturne și întrebându-mă ce
-poate face. l-am indicat ceaiul de salvie, 1 ceașcă seara, înainte de culcare. După câteva
-zile am întâlnit-o la plimbare. Nu-i venea să creadă cum de scăpase de această
+TRANSPIRATIA NOCTURNA
+Ca leac de casa contra transpiratiei nocturne se foloseste din vremuri indepartate mult
+apreciata salvie. Ea este oparita si bauta dimineata, pe stomacul gol, o perioada mai lunga
+de timp. Va extrage din organism acele substante care declanseaza transpiratia in timpul
+noptii, in vechile carti despre plante medicinale se gaseste ca leac babesc eficient
+impotriva acestei indispozitii urmatoarea compozitie de plante: cate 20 grame de salvie,
+cretisoara si coada-calului. Se oparesc, se lasa sa stea putin si se bea o perioada mai
+lunga 1 ceasca din acest amestec de ceaiuri inainte de micul dejun. Plantele fortifica
+intregul organism si inlatura astfel transpiratia nocturna.
+Cand am fost pentru ultima oara la cura la baile Kneipp, m-a abordat o doamna
+batrana, spunandu-mi cat sufera din cauza transpiratiei nocturne si intrebandu-ma ce
+poate face. l-am indicat ceaiul de salvie, 1 ceasca seara, inainte de culcare. Dupa cateva
+zile am intalnit-o la plimbare. Nu-i venea sa creada cum de scapase de aceasta
 
-transpirație nocturnă după ce băuse doar 4 cești cu ceai de salvie! „Am însă impresia", i-am
-spus râzând, „că trebuie totuși să credeți că plantele ajută rapid!"
+transpiratie nocturna dupa ce bause doar 4 cesti cu ceai de salvie! „Am insa impresia", i-am
+spus razand, „ca trebuie totusi sa credeti ca plantele ajuta rapid!"
 ### TREMURUL MEMBRELOR
 
 TREMURUL MEMBRELOR
-Pentru această boală se pun 50 grame de sunătoare, 20 grame de poroinic (untul-
-vacii), 20 grame de ciuboțica-cucului și 10 grame de boabe de ienupăr, cu
-rachiu de secară sau de fructe de 38-40% 14 zile în soare sau în apropierea mașinii de gătit.
-Se iau din oră-n oră 15-20 picături puse în ceaiul de plante ce urmează, din care se beau
-zilnic 3 cești (la 1 ceașcă - 1 linguriță cu vârf). Compoziția ceaiului este: frunze de frasin,
-flori de sunătoare, coada-șoricelului, salvie și coada-calului câte 20 grame - totul
-se amestecă bine. în afara de aceasta, se fac băi de șezut cu vârfuri proaspete de molid,
-sunătoare, coada-șoricelului sau cimbru - pentru 1 baie de șezut se iau 100 grame
-de plante, întrucât acțiunea externă a plantelor accelerează reușita, se fac 3 băi de șezut la
-14 zile (a se vedea „Băi de șezut" la „Partea generală").
+Pentru aceasta boala se pun 50 grame de sunatoare, 20 grame de poroinic (untul-
+vacii), 20 grame de ciubotica-cucului si 10 grame de boabe de ienupar, cu
+rachiu de secara sau de fructe de 38-40% 14 zile in soare sau in apropierea masinii de gatit.
+Se iau din ora-n ora 15-20 picaturi puse in ceaiul de plante ce urmeaza, din care se beau
+zilnic 3 cesti (la 1 ceasca - 1 lingurita cu varf). Compozitia ceaiului este: frunze de frasin,
+flori de sunatoare, coada-soricelului, salvie si coada-calului cate 20 grame - totul
+se amesteca bine. in afara de aceasta, se fac bai de sezut cu varfuri proaspete de molid,
+sunatoare, coada-soricelului sau cimbru - pentru 1 baie de sezut se iau 100 grame
+de plante, intrucat actiunea externa a plantelor accelereaza reusita, se fac 3 bai de sezut la
+14 zile (a se vedea „Bai de sezut" la „Partea generala").
 ### VIERMII
 
 VIERMII
-Dintotdeauna, semințele de dovleac au fost considerate de mare ajutor contra
-viermilor, în caz de oxiuri la copii, se dau zilnic 10-15, iar la adulți 20-30 semințe de
-dovleac decojite, pe care cojița (pielița) fină, subțire trebuie să rămână neapărat și care
-trebuie mestecate foarte bine. După aproximativ 1 oră se ia 1 linguriță de ulei de ricin. Și
-pentru o cură contra teniei se recomandă cu căldură semințele de dovleac . La o dietă
-severă se mestecă bine în 4 porții 80-100 semințe de dovleac decojite (cojița fină, adică
-pielița, rămâne!) și după 1 oră se ia 1/2 lingură de ulei de ricin. Dacă ar trebui, în caz de o
-primă nereușită, să se încerce încă o dată aceeași cură, nu apar fenomene secundare
-dăunătoare. Contra limbricilor ajută leacul băbesc cu morcovi și sfeclă-roșie. Nu numai
-sucul crud de varză-acră poate duce la eliminarea limbricilor, ci și consumul hreanului și
-al cepei. Și usturoiul fiert în lapte aduce un ajutor rapid.
+Dintotdeauna, semintele de dovleac au fost considerate de mare ajutor contra
+viermilor, in caz de oxiuri la copii, se dau zilnic 10-15, iar la adulti 20-30 seminte de
+dovleac decojite, pe care cojita (pielita) fina, subtire trebuie sa ramana neaparat si care
+trebuie mestecate foarte bine. Dupa aproximativ 1 ora se ia 1 lingurita de ulei de ricin. Si
+pentru o cura contra teniei se recomanda cu caldura semintele de dovleac . La o dieta
+severa se mesteca bine in 4 portii 80-100 seminte de dovleac decojite (cojita fina, adica
+pielita, ramane!) si dupa 1 ora se ia 1/2 lingura de ulei de ricin. Daca ar trebui, in caz de o
+prima nereusita, sa se incerce inca o data aceeasi cura, nu apar fenomene secundare
+daunatoare. Contra limbricilor ajuta leacul babesc cu morcovi si sfecla-rosie. Nu numai
+sucul crud de varza-acra poate duce la eliminarea limbricilor, ci si consumul hreanului si
+al cepei. Si usturoiul fiert in lapte aduce un ajutor rapid.
 ### ZONA ZOSTER
 
 ZONA ZOSTER
-Sucul emolient al urechelniței (Sempervivum tectorum) înlătură foarte rapid durerile
-adânci provocate de zona zoster. Se despică tăind de-a lungul 4-5 din frunzele cărnoase și
-se pun pe o farfurie. Seva care iese la suprafață se unge de câteva ori pe zi pe locurile
-suferinde. Sucul poate fi stors din frunze și cu ajutorul storcătorului elec tric de uz casnic.
-Bolnavul simte deja după prima ungere efectul benefic, într-o carte veche despre plante
-medicinale se găsește următoarea rețetă:
+Sucul emolient al urechelnitei (Sempervivum tectorum) inlatura foarte rapid durerile
+adanci provocate de zona zoster. Se despica taind de-a lungul 4-5 din frunzele carnoase si
+se pun pe o farfurie. Seva care iese la suprafata se unge de cateva ori pe zi pe locurile
+suferinde. Sucul poate fi stors din frunze si cu ajutorul storcatorului elec tric de uz casnic.
+Bolnavul simte deja dupa prima ungere efectul benefic, intr-o carte veche despre plante
+medicinale se gaseste urmatoarea reteta:
 
-25 grame de scoarță de stejar
-10 grame de crețișoară
-20 grame de ovăz
-10 grame de mușețel
+25 grame de scoarta de stejar
+10 grame de cretisoara
+20 grame de ovaz
+10 grame de musetel
 25 grame de salvie
-10 grame de sulfină-albă (trifoi-mare)
-Se pun într-un litru de apă rece 4 linguri de
-plante bine amestecate, se lasă pe foc
-până aproape de fierbere; se ia de pe foc
-și se lasă să stea 3 minute. Cu infuzia
-călduță se tamponează locurile bolnave de
-mâi multe ori pe parcursul zilei. Resturile
-plantelor se aplică peste noapte, ușor
-încălzite și puse într-o bucățică de pânză
+10 grame de sulfina-alba (trifoi-mare)
+Se pun intr-un litru de apa rece 4 linguri de
+plante bine amestecate, se lasa pe foc
+pana aproape de fierbere; se ia de pe foc
+si se lasa sa stea 3 minute. Cu infuzia
+calduta se tamponeaza locurile bolnave de
+mai multe ori pe parcursul zilei. Resturile
+plantelor se aplica peste noapte, usor
+incalzite si puse intr-o bucatica de panza
 pe locurile afectate de zona zoster.
 
 SFATURI PENTRU BOLI DE NATURA CANCEROASA
 ### CANCERUL GANGLIONILOR LIMFATICI
 
 CANCERUL GANGLIONILOR LIMFATICI
-Se umple o sticlă până la gât cu maghiran din ultima recoltă, se toarnă ulei de măsline
-și se lasă să stea 10 zile în soare sau în apropierea mașinii de gătit. Se ung ganglionii
-bolnavi cu acest ulei de maghiran, precum și cu alifie de filimică sau ulei de sunătoare
-(a se vedea articolele „Filimică" și „Sunătoarea").
-Frunzele proaspete de pătlagină-lată sau pătlagină-îngustă, de brusture (numit și
-captalan, frunzele sale mari ca o pălărie se găsesc pe pante de pâraie și margini umede de
-pădure), drăgaica proaspătă sau tulpinile și frunzele proaspete de filimică sânt
-spălate și zdrobite pe un fund de lemn cu sucitorul de tăiței. Frunzele tre buie zdrobite cit
-sânt umede, pentru că apa ajută ca seva să fie extrasă din frunze. Apoi se aplică alternativ
-terciurile de frunze pe ganglionii limfatici afectați. Bolnavul însuși va simți cel mai bine care
+Se umple o sticla pana la gat cu maghiran din ultima recolta, se toarna ulei de masline
+si se lasa sa stea 10 zile in soare sau in apropierea masinii de gatit. Se ung ganglionii
+bolnavi cu acest ulei de maghiran, precum si cu alifie de filimica sau ulei de sunatoare
+(a se vedea articolele „Filimica" si „Sunatoarea").
+Frunzele proaspete de patlagina-lata sau patlagina-ingusta, de brusture (numit si
+captalan, frunzele sale mari ca o palarie se gasesc pe pante de paraie si margini umede de
+padure), dragaica proaspata sau tulpinile si frunzele proaspete de filimica sant
+spalate si zdrobite pe un fund de lemn cu sucitorul de taitei. Frunzele tre buie zdrobite cit
+sant umede, pentru ca apa ajuta ca seva sa fie extrasa din frunze. Apoi se aplica alternativ
+terciurile de frunze pe ganglionii limfatici afectati. Bolnavul insusi va simti cel mai bine care
 terci de frunze are efect mai benefic.
-Dacă operația a avut deja loc, se pot pune pe lângă terciul de frunze proaspete și,
-comprese de 4 ore cu bitter suedez - se pot face și fricționări cu el -, precum și comprese
-cu aburi de coada-calului, stând câte 2 ore în pat (a se vedea pentru am bele comprese
-„Partea generală"). Intern trebuie să se ia neapărat, în înghițituri mici pe parcursul zilei, 1
-1/2-2 litri de ceai dintr-un amestec obținut din 300 grame de filimică, 100 grame de coada-
-calului, 100 grame de coada-șoricelului și 100 grame de urzici - 1 linguriță cu vârf la 1/4
-litru de apă! Cele 3 linguri de bitter suedez indicate și în tra-tamentele celorlalte boli
-canceroase n-ar trebui neglijate nici în cazul de față.
-La bolile maligne ale ganglionilor limfatici se ajunge foarte frecvent la umflături întărite
-de brațe și de picioare, la așa-numitul elefantiazis. Brațele sau picioarele încep să se
-umfle puternic, devin insensibile și tari, bolnavul are impresia că membrele suferinde atârnă
-de trupul său asemenea unor bucăți de lemn. în acest caz se pot aplica toate compresele
-cu terci de frunze enumerate mai sus, începând de la ganglioni, dar terciul poate să
-acopere și porțiunile umflate. Unice sânt însă în această situație frunzele de brânca-
-ursului, o plantă umbeliferă vivace, numită în popor și crucea-pământului, talpa-ursului
-sau urechea-porcului, care este răspândită pe câmpii, grohotișuri, pășuni, răzoare umede
-și prin crânguri umbroase și care strălucește cu florile e 'albicioase, uneori roz deschis.
-Planta domină cu frunzele sale cu cinci sau mai mulți zimți și asemănătoare unor gheare,
-unor labe restul vegetației de pe câmpii și pășuni. Frunzele sânt foarte cunoscute și ca
-nutreț excelent pentru iepuri. Lăptăreasa mea mi-a povestit că vacile își caută totdeauna în
-fânul proaspăt întâi aceste frunze mari. Frunzele se culeg în cantități mai mari, se spală, se
-zdrobesc în stare umedă, se aplică local peste noapte și se leagă bine. Aduc bolnavului ca
-printr-o minune ușurarea în starea sa lipsită de speranțe.
-Și nalba, lăsată să se moaie peste noapte în apă rece, aduce alinare prin inter mediul
-băilor. Acestea contribuie la retragerea treptată a umflăturilor brațelor și pi cioarelor. Plină
-de promisiuni este și ungerea acestor umflături tumefiate cu suc proaspăt de măcrișul-
-iepurelui (a se vedea „Măcrișul-iepurelui").
+Daca operatia a avut deja loc, se pot pune pe langa terciul de frunze proaspete si,
+comprese de 4 ore cu bitter suedez - se pot face si frictionari cu el -, precum si comprese
+cu aburi de coada-calului, stand cate 2 ore in pat (a se vedea pentru am bele comprese
+„Partea generala"). Intern trebuie sa se ia neaparat, in inghitituri mici pe parcursul zilei, 1
+1/2-2 litri de ceai dintr-un amestec obtinut din 300 grame de filimica, 100 grame de coada-
+calului, 100 grame de coada-soricelului si 100 grame de urzici - 1 lingurita cu varf la 1/4
+litru de apa! Cele 3 linguri de bitter suedez indicate si in tra-tamentele celorlalte boli
+canceroase n-ar trebui neglijate nici in cazul de fata.
+La bolile maligne ale ganglionilor limfatici se ajunge foarte frecvent la umflaturi intarite
+de brate si de picioare, la asa-numitul elefantiazis. Bratele sau picioarele incep sa se
+umfle puternic, devin insensibile si tari, bolnavul are impresia ca membrele suferinde atarna
+de trupul sau asemenea unor bucati de lemn. in acest caz se pot aplica toate compresele
+cu terci de frunze enumerate mai sus, incepand de la ganglioni, dar terciul poate sa
+acopere si portiunile umflate. Unice sant insa in aceasta situatie frunzele de branca-
+ursului, o planta umbelifera vivace, numita in popor si crucea-pamantului, talpa-ursului
+sau urechea-porcului, care este raspandita pe campii, grohotisuri, pasuni, razoare umede
+si prin cranguri umbroase si care straluceste cu florile e 'albicioase, uneori roz deschis.
+Planta domina cu frunzele sale cu cinci sau mai multi zimti si asemanatoare unor gheare,
+unor labe restul vegetatiei de pe campii si pasuni. Frunzele sant foarte cunoscute si ca
+nutret excelent pentru iepuri. Laptareasa mea mi-a povestit ca vacile isi cauta totdeauna in
+fanul proaspat intai aceste frunze mari. Frunzele se culeg in cantitati mai mari, se spala, se
+zdrobesc in stare umeda, se aplica local peste noapte si se leaga bine. Aduc bolnavului ca
+printr-o minune usurarea in starea sa lipsita de sperante.
+Si nalba, lasata sa se moaie peste noapte in apa rece, aduce alinare prin inter mediul
+bailor. Acestea contribuie la retragerea treptata a umflaturilor bratelor si pi cioarelor. Plina
+de promisiuni este si ungerea acestor umflaturi tumefiate cu suc proaspat de macrisul-
+iepurelui (a se vedea „Macrisul-iepurelui").
 ### CANCERUL INTESTINELOR
 
 CANCERUL INTESTINELOR
-1 linguriță rasă de rădăcini de obligeană este lăsată peste noapte cu 1/4 litru de apă
-rece, dimineața se încălzește și se strecoară. Din acest lichid se ia câte 1 înghițitură chiar
-înainte și imediat după fiecare masă - adică 6 înghițituri pe zi, nu mai mult!
+1 lingurita rasa de radacini de obligeana este lasata peste noapte cu 1/4 litru de apa
+rece, dimineata se incalzeste si se strecoara. Din acest lichid se ia cate 1 inghititura chiar
+inainte si imediat dupa fiecare masa - adica 6 inghitituri pe zi, nu mai mult!
 
-In afară de aceasta, este necesar următorul amestec de ceaiuri: 300 grame de filimici,
-100 grame de coada-șoricelului și 100 grame de urzici (amestecate bine). Se ia de-aici
-pentru prepararea ceaiului 1 linguriță cu vârf la 1/4 litru de apă. Rația pen tru o zi este de 1
-1/2-2 litri de infuzie. Bolnavul bea exact după ceas la fiecare sfert de oră sau o dată la 20
-minute câte 1 înghițitură; în acest mod, ceaiul este bine acceptat de către stomac.
-Experiența arată că datorită acestui ceai inapetența bolnavului este înlăturată rapid.
-Mai departe, se scoate din rația zilnică de ceai câte 1/2 ceașcă dimineața, la prânz și
-seara înainte de fiecare masă, se adaugă câte 1 lingură de biter suedez și se bea această
-cantitate de fiecare dată pe jumătate, înghițitură cu înghițitură, 1/2 oră înainte și 1/2 oră
-după fiecare masă. Dacă bolnavul nu suportă cantitatea de bitter suedez, adaosul se poate
-reduce la câte 1 linguriță de bitter suedez.
-Ceaiul trebuie păstrat cald într-un termos, în afară de aceasta, se pun comprese cu
-ierburi suedeze pe tot abdomenul, în acest scop, se ia o bucată mare de vată, care se
-umezește cu picături; ea se întinde în strat subțire peste burtă. Și compresele cu aburi
-de coada-calului ușurează durerile. De aceea trebuie aplicate cât se poate de des,
-eventual câte 2 ore dimineața și după-amiaza în pat și apoi peste noapte (a se vedea
-pentru ambele comprese „Partea generală").
-La 1 octombrie 1979 a venit la mine din Hamburg cuplul Helmut și Berta E. să-mi
-mulțumească pentru ajutorul primit prin broșura mea „Sănătate din farmacia Domnului".
-Doamnei Berta E., în vârstă acum de 53 de ani, i s-a format, după o cădere pe scară, o
-tumoare pelviană, însoțită de dureri puternice. În ianuarie 1977 a fost supusă într-o clinică
-hamburgheză unei operații, al cărei diagnostic a sunat așa: Tumoare inoperabilă din cauza
-excrescențelor mari! După 7 săptămâni de spital și o cădere totală a părului, a fost
-externată în februarie 1977. în acel moment, doamna B. știa deja că este bolnavă de
-cancer, în noiembrie 1978, bolnava s-a internat din nou în același spital pentru tratament.
-De data aceasta s-a efectuat o tăietură abdominală pe partea dreaptă. Iarăși a fost tratată
-șapte săptămâni în spital. La un tratament ulterior, în februarie 1979, s-a constatat în
-partea stângă abdominală superioară o tumoare chistică mare cât un cap de copil. La 20
-martie 1979, femeia a fost operată din nou. Medical s-au constatat, fără nici un dubiu,
-metastaze. Pacienta a fost hrănită artificial timp de 5 săptămâni, dar nu s-a înregistrat nici
-o ameliorare a stării ei. Chiar și hrana pasată era vărsată după scurt timp.
-în această perioadă, medicii i-au comunicat soțului că situația soției sale era fără
-scăpare. Scăderea rapidă a greutății de la 80 la 62 kilograme era și ea concludentă, în
-acest moment, domnul E. a primit cadou broșura mea „Sănătate din farmacia Domnului".
-Și-a făcut rost urgent de câțiva litri de bitter suedez, de ceai de filimică, de urzică și de
-coada-șoricelului, ca și de rădăcini de obligeană dintr-o farmacie hamburgheză. Cu
-acordul medicilor care o tratau în spitalul din Hamburg, biterul suedez a fost aplicat sub
-formă de comprese pe întregul abdomen, așa cum este descris în broșură. Doamna Berta
-E. a băut ceaiurile de plante ca și cele 6 înghițituri de ceai din rădăcini de obligeană.
-în decursul a 48 de ore după folosirea curentă a celor de mai sus, a survenit o
-schimbare în bine pe care n-o mai spera nimeni și care a surprins extraordinar întregul
-corp medical și pe toți cei implicați. După 10 zile, la 24 aprilie 1979, pacienta a fost ex -
-ternată pentru a fi tratată în continuare ambulatoriu, fiind considerată de medici într-o „stare
-a sănătății relativ bună". Doamna E. a fost însă după externare atât de slăbită, încât timp
-de câteva săptămâni a trebuit să stea ia pat. Tratamentul fitoterapeutic a fost continuat cu
-conștiinciozitate. Starea generală i s-a îmbunătățit din săptămână în săptămână. Pofta ei
-de mâncare putea fi din nou considerată drept bună, iar creșterea în greutate progresa
-continuu. Domnul Helmut E. a relatat mai târziu într-o scrisoare din 8 august 1979 că acest
-„miracol" s-a înfăptuit doar de către mâna binecuvântată a
+In afara de aceasta, este necesar urmatorul amestec de ceaiuri: 300 grame de filimici,
+100 grame de coada-soricelului si 100 grame de urzici (amestecate bine). Se ia de-aici
+pentru prepararea ceaiului 1 lingurita cu varf la 1/4 litru de apa. Ratia pen tru o zi este de 1
+1/2-2 litri de infuzie. Bolnavul bea exact dupa ceas la fiecare sfert de ora sau o data la 20
+minute cate 1 inghititura; in acest mod, ceaiul este bine acceptat de catre stomac.
+Experienta arata ca datorita acestui ceai inapetenta bolnavului este inlaturata rapid.
+Mai departe, se scoate din ratia zilnica de ceai cate 1/2 ceasca dimineata, la pranz si
+seara inainte de fiecare masa, se adauga cate 1 lingura de biter suedez si se bea aceasta
+cantitate de fiecare data pe jumatate, inghititura cu inghititura, 1/2 ora inainte si 1/2 ora
+dupa fiecare masa. Daca bolnavul nu suporta cantitatea de bitter suedez, adaosul se poate
+reduce la cate 1 lingurita de bitter suedez.
+Ceaiul trebuie pastrat cald intr-un termos, in afara de aceasta, se pun comprese cu
+ierburi suedeze pe tot abdomenul, in acest scop, se ia o bucata mare de vata, care se
+umezeste cu picaturi; ea se intinde in strat subtire peste burta. Si compresele cu aburi
+de coada-calului usureaza durerile. De aceea trebuie aplicate cat se poate de des,
+eventual cate 2 ore dimineata si dupa-amiaza in pat si apoi peste noapte (a se vedea
+pentru ambele comprese „Partea generala").
+La 1 octombrie 1979 a venit la mine din Hamburg cuplul Helmut si Berta E. sa-mi
+multumeasca pentru ajutorul primit prin brosura mea „Sanatate din farmacia Domnului".
+Doamnei Berta E., in varsta acum de 53 de ani, i s-a format, dupa o cadere pe scara, o
+tumoare pelviana, insotita de dureri puternice. In ianuarie 1977 a fost supusa intr-o clinica
+hamburgheza unei operatii, al carei diagnostic a sunat asa: Tumoare inoperabila din cauza
+excrescentelor mari! Dupa 7 saptamani de spital si o cadere totala a parului, a fost
+externata in februarie 1977. in acel moment, doamna B. stia deja ca este bolnava de
+cancer, in noiembrie 1978, bolnava s-a internat din nou in acelasi spital pentru tratament.
+De data aceasta s-a efectuat o taietura abdominala pe partea dreapta. Iarasi a fost tratata
+sapte saptamani in spital. La un tratament ulterior, in februarie 1979, s-a constatat in
+partea stanga abdominala superioara o tumoare chistica mare cat un cap de copil. La 20
+martie 1979, femeia a fost operata din nou. Medical s-au constatat, fara nici un dubiu,
+metastaze. Pacienta a fost hranita artificial timp de 5 saptamani, dar nu s-a inregistrat nici
+o ameliorare a starii ei. Chiar si hrana pasata era varsata dupa scurt timp.
+in aceasta perioada, medicii i-au comunicat sotului ca situatia sotiei sale era fara
+scapare. Scaderea rapida a greutatii de la 80 la 62 kilograme era si ea concludenta, in
+acest moment, domnul E. a primit cadou brosura mea „Sanatate din farmacia Domnului".
+Si-a facut rost urgent de cativa litri de bitter suedez, de ceai de filimica, de urzica si de
+coada-soricelului, ca si de radacini de obligeana dintr-o farmacie hamburgheza. Cu
+acordul medicilor care o tratau in spitalul din Hamburg, biterul suedez a fost aplicat sub
+forma de comprese pe intregul abdomen, asa cum este descris in brosura. Doamna Berta
+E. a baut ceaiurile de plante ca si cele 6 inghitituri de ceai din radacini de obligeana.
+in decursul a 48 de ore dupa folosirea curenta a celor de mai sus, a survenit o
+schimbare in bine pe care n-o mai spera nimeni si care a surprins extraordinar intregul
+corp medical si pe toti cei implicati. Dupa 10 zile, la 24 aprilie 1979, pacienta a fost ex -
+ternata pentru a fi tratata in continuare ambulatoriu, fiind considerata de medici intr-o „stare
+a sanatatii relativ buna". Doamna E. a fost insa dupa externare atat de slabita, incat timp
+de cateva saptamani a trebuit sa stea ia pat. Tratamentul fitoterapeutic a fost continuat cu
+constiinciozitate. Starea generala i s-a imbunatatit din saptamana in saptamana. Pofta ei
+de mancare putea fi din nou considerata drept buna, iar cresterea in greutate progresa
+continuu. Domnul Helmut E. a relatat mai tarziu intr-o scrisoare din 8 august 1979 ca acest
+„miracol" s-a infaptuit doar de catre mana binecuvantata a
 
-Domnului. Mulți dintre prietenii, cunoscuții și rudele lor au devenit prietenii plantelor
-medicinale din cauza acestei întâmplări. Hel'mut E. scrie în final, printre altele: „Soția mea și
-cu mine autorizăm în mod expres publicarea «cazului nostru», pentru a reda astfel
-speranța oamenilor care caută ajutor."
+Domnului. Multi dintre prietenii, cunoscutii si rudele lor au devenit prietenii plantelor
+medicinale din cauza acestei intamplari. Hel'mut E. scrie in final, printre altele: „Sotia mea si
+cu mine autorizam in mod expres publicarea «cazului nostru», pentru a reda astfel
+speranta oamenilor care cauta ajutor."
 ### CANCERUL LARINGELUI
 
 CANCERUL LARINGELUI
-Pentru această boală este nevoie mai ales de nalbe proaspete. Nalba își pierde prin
-uscare o treime a forței ei curative. Să fie deci neapărat proaspete plantele care se lasă
-peste noapte în apă rece. Sânt necesare zilnic 4 cești cu ceai pentru băut și 6 cești pentru
-clătit sau gargară, adică în total 21/2 litri. Se calculează 1 linguriță (cu vârf) de plante la 1
-ceașcă. Se pun plantele seara în apă rece și se lasă să stea până în di mineața următoare,
-apoi totul se încălzește, se filtrează și ceaiul se păstrează într-un termos clătit cu apă
-fierbinte sau se încălzește de fiecare dată în bain-marie. 4 cești cu ceai sânt băute
-înghițitură cu înghițitură, 6 cești sânt întrebuințate pentru gargară și clătire.
-Aceste 10 cești fac ca boala malignă existentă a laringelui să se retragă curând, chiar și
-atunci când ea se află deja în ultimul stadiu. Resturile de plante de după prepararea zilnică a
-ceaiului se lasă în ibric și se încălzesc seara cu puțină apă. Plantele se amestecă cu făină
-de orz (care se poate procura de la mori sau de la magazinele specializate în alimente
-naturale bogate în vitamine) și se încălzesc din nou. Terciul cald este întins pe o bucată de
-pânză cu care se înfășoară zona laringelui. Se mai leagă separat deasupra și o bucată
-caldă de pânză. După prima compresă, bolnavul simte deja o ușurare, iar adesea îi revine
-în a patra sau a cinchea zi vocea pierdută.
-Același tratam ent ca în cazul cancerului laringian se aplică în cancerul esofagului. Pe
-lângă com presele calde cu terci de orz se pun noaptea și com prese cu aburi de coada-
-calului (a se vedea pentru com presele cu aburi „Partea generală" și „Coada-calului") și se
-face gargară adâncă folosind drăgaică proaspătă (a se citi și„Cancerul U m b ii").
+Pentru aceasta boala este nevoie mai ales de nalbe proaspete. Nalba isi pierde prin
+uscare o treime a fortei ei curative. Sa fie deci neaparat proaspete plantele care se lasa
+peste noapte in apa rece. Sant necesare zilnic 4 cesti cu ceai pentru baut si 6 cesti pentru
+clatit sau gargara, adica in total 21/2 litri. Se calculeaza 1 lingurita (cu varf) de plante la 1
+ceasca. Se pun plantele seara in apa rece si se lasa sa stea pana in di mineata urmatoare,
+apoi totul se incalzeste, se filtreaza si ceaiul se pastreaza intr-un termos clatit cu apa
+fierbinte sau se incalzeste de fiecare data in bain-marie. 4 cesti cu ceai sant baute
+inghititura cu inghititura, 6 cesti sant intrebuintate pentru gargara si clatire.
+Aceste 10 cesti fac ca boala maligna existenta a laringelui sa se retraga curand, chiar si
+atunci cand ea se afla deja in ultimul stadiu. Resturile de plante de dupa prepararea zilnica a
+ceaiului se lasa in ibric si se incalzesc seara cu putina apa. Plantele se amesteca cu faina
+de orz (care se poate procura de la mori sau de la magazinele specializate in alimente
+naturale bogate in vitamine) si se incalzesc din nou. Terciul cald este intins pe o bucata de
+panza cu care se infasoara zona laringelui. Se mai leaga separat deasupra si o bucata
+calda de panza. Dupa prima compresa, bolnavul simte deja o usurare, iar adesea ii revine
+in a patra sau a cinchea zi vocea pierduta.
+Acelasi tratam ent ca in cazul cancerului laringian se aplica in cancerul esofagului. Pe
+langa com presele calde cu terci de orz se pun noaptea si com prese cu aburi de coada-
+calului (a se vedea pentru com presele cu aburi „Partea generala" si „Coada-calului") si se
+face gargara adanca folosind dragaica proaspata (a se citi si„Cancerul U m b ii").
 ### CANCERUL LIMBII
 
 CANCERUL LIMBII
-Drăgaică proaspătă și mărunțită este opărită și lăsată în scurt repaos. Se calculează 6-
-8 cești pe zi, pentru 1 ceașcă se folosește 1 linguriță cu vârf. Se clătește și se face gargară
-pe tot parcursul zilei cât se poate de adânc, după care ceaiul este scuipat, în intervalele
-dintre 2 gargare se bea din când în când câte 1 înghițitură de ceai. Umflăturile se retrag
-rapid, durerile cedează adesea încă din ziua a patra sau a cincea. în majoritatea cazurilor
-nu mai sânt necesare razele. Prin gargară, clătit și băut de ceai de drăgaică, pacientul se
-va simți într-un timp surprinzător de scurt eliberat de orice afecțiune.
+Dragaica proaspata si maruntita este oparita si lasata in scurt repaos. Se calculeaza 6-
+8 cesti pe zi, pentru 1 ceasca se foloseste 1 lingurita cu varf. Se clateste si se face gargara
+pe tot parcursul zilei cat se poate de adanc, dupa care ceaiul este scuipat, in intervalele
+dintre 2 gargare se bea din cand in cand cate 1 inghititura de ceai. Umflaturile se retrag
+rapid, durerile cedeaza adesea inca din ziua a patra sau a cincea. in majoritatea cazurilor
+nu mai sant necesare razele. Prin gargara, clatit si baut de ceai de dragaica, pacientul se
+va simti intr-un timp surprinzator de scurt eliberat de orice afectiune.
 ### CANCERUL OASELOR
 
 CANCERUL OASELOR
-Se beau zilnic 4 cești cu ceai de coada-șoricelului, întrucât această plantă are un efect
-favorabil asupra măduvei osoase mai ales prin acțiunea sa hematopoetica. La aceasta se
-adaugă 2 cești cu ceai de filimici și 2 cești cu ceai de urzici ca mijloc depurativ (plantele
-să fie pe cât posibil proaspete!). La 1/4 litru de apă se întrebuințează 1 linguriță (cu vârf) de
-plante. Se adaugă la 1 ceașcă cu ceai 1 lingură de bitter suedez și se bea 1/2 oră înainte și
-1/2 oră după fiecare masă câte 1/2 ceașcă, în același timp, se fac de mai multe ori pe zi frecții
-cu tinctură de coada-șoricelului (a
+Se beau zilnic 4 cesti cu ceai de coada-soricelului, intrucat aceasta planta are un efect
+favorabil asupra maduvei osoase mai ales prin actiunea sa hematopoetica. La aceasta se
+adauga 2 cesti cu ceai de filimici si 2 cesti cu ceai de urzici ca mijloc depurativ (plantele
+sa fie pe cat posibil proaspete!). La 1/4 litru de apa se intrebuinteaza 1 lingurita (cu varf) de
+plante. Se adauga la 1 ceasca cu ceai 1 lingura de bitter suedez si se bea 1/2 ora inainte si
+1/2 ora dupa fiecare masa cate 1/2 ceasca, in acelasi timp, se fac de mai multe ori pe zi frectii
+cu tinctura de coada-soricelului (a
 
-se vedea „Moduri de folosire" la „Coada-șoricelului"), tinctură de tătăneasă (a se ve dea
-„Moduri de folosire" la „Tătăneasă") și bitter suedez.
-Dacă s-a constatat totuși o tumoare la os, atunci se urmează tratamentul de la „tumori
-maligne". Dacă durerile de oase provin de la metastaze, trebuie tratat fiecare loc de unde
+se vedea „Moduri de folosire" la „Coada-soricelului"), tinctura de tataneasa (a se ve dea
+„Moduri de folosire" la „Tataneasa") si bitter suedez.
+Daca s-a constatat totusi o tumoare la os, atunci se urmeaza tratamentul de la „tumori
+maligne". Daca durerile de oase provin de la metastaze, trebuie tratat fiecare loc de unde
 pornesc metastazele.
 ### CANCERUL ORGANELOR PELVIENE
 
 CANCERUL ORGANELOR PELVIENE (GENITALE)
--bolile canceroase ale ovarelor și ale uterului
-Se pregătesc zilnic 1 1/2-2 litri de ceai dintr-un amestec de plante din 300 grame de
-filimică și 300 grame de coada-șoricelului. Pentru aceasta sânt necesare 6-8 lingurițe (cu
-vârf) de plante. Rația de ceai se bea încetul cu încetul, pe parcursul zilei. 3 linguri de bitter
-suedez sânt diluate cu ceai și luate în porții repartizate înainte și după fiecare masă.
-în plus, se fac săptămânal băi de șezut cu coada-șoricelului (a se vedea „Moduri de
-folosire" la „Coada-șoricelului"). Apa de baie de la prima baie de șezut este turnată înapoi
-peste plante și,' reîncălzită, mai poate fi folosită de 2 ori. Băile de șezut cu coada-șoricelului
-pot fi făcute însă și zilnic dacă bolnava le suportă, în caz de crize dureroase ar trebui
-aplicate în plus comprese cu aburi de coada-calului și compre se cu bitter suedez (a
+-bolile canceroase ale ovarelor si ale uterului
+Se pregatesc zilnic 1 1/2-2 litri de ceai dintr-un amestec de plante din 300 grame de
+filimica si 300 grame de coada-soricelului. Pentru aceasta sant necesare 6-8 lingurite (cu
+varf) de plante. Ratia de ceai se bea incetul cu incetul, pe parcursul zilei. 3 linguri de bitter
+suedez sant diluate cu ceai si luate in portii repartizate inainte si dupa fiecare masa.
+in plus, se fac saptamanal bai de sezut cu coada-soricelului (a se vedea „Moduri de
+folosire" la „Coada-soricelului"). Apa de baie de la prima baie de sezut este turnata inapoi
+peste plante si,' reincalzita, mai poate fi folosita de 2 ori. Baile de sezut cu coada-soricelului
+pot fi facute insa si zilnic daca bolnava le suporta, in caz de crize dureroase ar trebui
+aplicate in plus comprese cu aburi de coada-calului si compre se cu bitter suedez (a
 se citi descrierea lor la „Tumori").
-lată o scrisoare din partea unei femei din R./R.F.G., din 4 februarie 1980: „Simt ne voia să
-vă scriu și să vă mulțumesc. Din decembrie 1978 am zăcut patru luni la pat cu două vertebre
-rupte, în acest interval v-am putut studia broșura pe îndelete, în februarie 1979, cumnata
-mea a fost trimisă acasă din spital ca fiind fără speranțe, căci avea cancer la organele
-genitale. Medicii i-au spus fratelui meu că soția lui ar mai putea trăi vreo patru săptămâni și că
-nimic n-o mai putea ajuta. Nu mai era în stare nici să mănânce, iar în cameră plutea un miros
-de putrefacție. Atunci a încercat cu plantele, conform broșurii dumneavoastră. A băut zilnic
-21/2 litri dintr-un amestec de plante, și anume coada-șoricelului, urzică și filimică, iar
-dimineața, la prânz și seara dilua câte 1 * lingură de bitter suedez într-o ceașcă cu ceai. Și-a
-pus și comprese cu ierburi suedeze pe zona organelor genitale. În scurt timp i-a revenit
-apetitul, așa că a putut mânca din nou, iar mirosul de putrefacție a dispărut. Au fost eliminate
-din vagin-niște bucăți mari, negre, de care s-a speriat la început foarte tare. Dar asta a fost
-de fapt curățirea. Astăzi își vede din nou de gospodărie, gătește și merge la plimbare.
-Medicul ei curant, care a primit raportul spitalului, n-a mai pomenit niciodată așa ceva. Noi
-însă știm că sânt minunile din farmacia Domnului."
+lata o scrisoare din partea unei femei din R./R.F.G., din 4 februarie 1980: „Simt ne voia sa
+va scriu si sa va multumesc. Din decembrie 1978 am zacut patru luni la pat cu doua vertebre
+rupte, in acest interval v-am putut studia brosura pe indelete, in februarie 1979, cumnata
+mea a fost trimisa acasa din spital ca fiind fara sperante, caci avea cancer la organele
+genitale. Medicii i-au spus fratelui meu ca sotia lui ar mai putea trai vreo patru saptamani si ca
+nimic n-o mai putea ajuta. Nu mai era in stare nici sa manance, iar in camera plutea un miros
+de putrefactie. Atunci a incercat cu plantele, conform brosurii dumneavoastra. A baut zilnic
+21/2 litri dintr-un amestec de plante, si anume coada-soricelului, urzica si filimica, iar
+dimineata, la pranz si seara dilua cate 1 * lingura de bitter suedez intr-o ceasca cu ceai. Si-a
+pus si comprese cu ierburi suedeze pe zona organelor genitale. In scurt timp i-a revenit
+apetitul, asa ca a putut manca din nou, iar mirosul de putrefactie a disparut. Au fost eliminate
+din vagin-niste bucati mari, negre, de care s-a speriat la inceput foarte tare. Dar asta a fost
+de fapt curatirea. Astazi isi vede din nou de gospodarie, gateste si merge la plimbare.
+Medicul ei curant, care a primit raportul spitalului, n-a mai pomenit niciodata asa ceva. Noi
+insa stim ca sant minunile din farmacia Domnului."
 ### CANCERUL PANCREASULUI
 
 CANCERUL PANCREASULUI
-Aici se aplică același tratament ca la „Cancerul intestinelor" (a se vedea la pag. 112).
+Aici se aplica acelasi tratament ca la „Cancerul intestinelor" (a se vedea la pag. 112).
 ### CANCERUL PIELII
 
 CANCERUL PIELII
-Dacă este vorba despre o boală malignă încă închisă a pielii, atunci locul afectat este
-tamponat de mai multe ori pe zi cu sevă galben-portocalie de rostopască. Oamenilor care
-n-au posibilitatea să-și ia din grădină sau din natură frunze și tulpini proaspete le recomand
-plantarea rostopască într-un ghiveci. Dacă boala este deja o rană deschisă, necrozată,,
-cu secreție rău mirositoare, se fac spălări și îmbăieri
+Daca este vorba despre o boala maligna inca inchisa a pielii, atunci locul afectat este
+tamponat de mai multe ori pe zi cu seva galben-portocalie de rostopasca. Oamenilor care
+n-au posibilitatea sa-si ia din gradina sau din natura frunze si tulpini proaspete le recomand
+plantarea rostopasca intr-un ghiveci. Daca boala este deja o rana deschisa, necrozata,,
+cu secretie rau mirositoare, se fac spalari si imbaieri
 
-alternative cu infuzie călduță de coada-calului și cu ceai de nalbă obținut în extract rece.
-Marginile rănilor sânt mai întâi unse cu suc de rostopască și, când acesta a intrat în piele,
-cu alifie de filimică (a se vedea articolul „Filimica"). Frunzele de pătlagină-lată și de
-pătlagină-îngustă, spălate, zdrobite și frecate până se formează un terci de frunze, se
-pun direct în rana deschisă. Dacă bolnavul nu suportă la început acest terci de frunze din
-cauza presiunii sau a tracțiunii puternice, terciul este dat deoparte; se spală locul din nou și
-se încearcă iarăși aplicarea terciului de frunze, până ce bolnavul îi simte efectul
-binefăcător. Se pot pune și peste noapte comprese cu infuzie de coada-calului și nalbă.
-Intern, trebuie luate pentru curățirea sângelui zilnic 4 cești cu ceai de urzică, ventrilică,
-filimică și coada-șoricelului, amestecate în părți egale. Se folosește 1 linguriță cu vârf din
-acest amestec pentru 1/4 litru de apă. Plantele se opăresc și se lasă să stea puțin.
-Se întâmplă uneori după îndepărtarea prin operație a unor alunițe sau a unor mici
-noduli tari pe piele să se formeze boli de piele deschise, purulente și umede, care au
-caracter malign. Aici se aplică același tratament ca la rănile deschise, necrozate, cu
-secreții rău mirositoare pe care le-am menționat mai sus. Dacă suprafețele deschise sânt
-răspândite pe tot trupul, atunci se fac băi complete cu coada-calului și nalbă. Bolnavul
-este înfășurat peste noapte într-un cearșaf pe care s-a presărat terci de frunze de
-pătlagihă-lată și pătlagină-îngustă. Se înmulțesc bolile maligne de piele cu pete bine
-delimitate, închise la culoare, asemănătoare unor cruste; ele pot fi unse cu suc proaspăt
-de drăgaică (a se vedea „Moduri de folosire" la „Drăgaică") de mai multe ori pe zi, cu
-succes. Sucul, turnat în sticluțe, poate fi păstrat la frigider.
-O mamă tânără, de 30 de ani, a fost operată de o aluniță care i-a crescut brusc în
-apropierea zonei axilare. S-a constatat că era canceroasă. Au fost necesare patru operații
-grele, căci erau prinși și ganglionii limfatici. Tăieturile adânci ale operațiilor de la subsuoară
-erau deschise și' inflamate. Tânără femeie era incapabilă să se ocupe de casă și de copii
-și era disperată. A fost solicitat ajutorul unei surori de caritate. Compresele cu terci de
-frunze de pătlagină-îngustă și lată (a se căuta rețeta pre parării la „Moduri de folosire" de
-la „Pătlagină"), spălaturile cu infuzie călduță de nalbă și coada-calului, băile complete de
-cimbru din 200 grame de cimbru și ceaiul din 300 grame de filimici, câte 100 grame de
-coada-șoricelului și urzici (ia 1/4 litru de apă se ia 1 linguriță cu vârf din acest amestec de
-plante), și anume 1 litru băut zilnic în înghițituri mici repartizate pe parcursul întregii zile -
-au adus un ajutor rapid. După exact o lună rănile erau vindecate și tânără femeie a putut
-să-și vadă iarăși singură de gospodărie. Acestea sânt minunile din „farmacia Domnului!"
-### CANCERUL PLĂMÎNULUI
+alternative cu infuzie calduta de coada-calului si cu ceai de nalba obtinut in extract rece.
+Marginile ranilor sant mai intai unse cu suc de rostopasca si, cand acesta a intrat in piele,
+cu alifie de filimica (a se vedea articolul „Filimica"). Frunzele de patlagina-lata si de
+patlagina-ingusta, spalate, zdrobite si frecate pana se formeaza un terci de frunze, se
+pun direct in rana deschisa. Daca bolnavul nu suporta la inceput acest terci de frunze din
+cauza presiunii sau a tractiunii puternice, terciul este dat deoparte; se spala locul din nou si
+se incearca iarasi aplicarea terciului de frunze, pana ce bolnavul ii simte efectul
+binefacator. Se pot pune si peste noapte comprese cu infuzie de coada-calului si nalba.
+Intern, trebuie luate pentru curatirea sangelui zilnic 4 cesti cu ceai de urzica, ventrilica,
+filimica si coada-soricelului, amestecate in parti egale. Se foloseste 1 lingurita cu varf din
+acest amestec pentru 1/4 litru de apa. Plantele se oparesc si se lasa sa stea putin.
+Se intampla uneori dupa indepartarea prin operatie a unor alunite sau a unor mici
+noduli tari pe piele sa se formeze boli de piele deschise, purulente si umede, care au
+caracter malign. Aici se aplica acelasi tratament ca la ranile deschise, necrozate, cu
+secretii rau mirositoare pe care le-am mentionat mai sus. Daca suprafetele deschise sant
+raspandite pe tot trupul, atunci se fac bai complete cu coada-calului si nalba. Bolnavul
+este infasurat peste noapte intr-un cearsaf pe care s-a presarat terci de frunze de
+patlagiha-lata si patlagina-ingusta. Se inmultesc bolile maligne de piele cu pete bine
+delimitate, inchise la culoare, asemanatoare unor cruste; ele pot fi unse cu suc proaspat
+de dragaica (a se vedea „Moduri de folosire" la „Dragaica") de mai multe ori pe zi, cu
+succes. Sucul, turnat in sticlute, poate fi pastrat la frigider.
+O mama tanara, de 30 de ani, a fost operata de o alunita care i-a crescut brusc in
+apropierea zonei axilare. S-a constatat ca era canceroasa. Au fost necesare patru operatii
+grele, caci erau prinsi si ganglionii limfatici. Taieturile adanci ale operatiilor de la subsuoara
+erau deschise si' inflamate. Tanara femeie era incapabila sa se ocupe de casa si de copii
+si era disperata. A fost solicitat ajutorul unei surori de caritate. Compresele cu terci de
+frunze de patlagina-ingusta si lata (a se cauta reteta pre pararii la „Moduri de folosire" de
+la „Patlagina"), spalaturile cu infuzie calduta de nalba si coada-calului, baile complete de
+cimbru din 200 grame de cimbru si ceaiul din 300 grame de filimici, cate 100 grame de
+coada-soricelului si urzici (ia 1/4 litru de apa se ia 1 lingurita cu varf din acest amestec de
+plante), si anume 1 litru baut zilnic in inghitituri mici repartizate pe parcursul intregii zile -
+au adus un ajutor rapid. Dupa exact o luna ranile erau vindecate si tanara femeie a putut
+sa-si vada iarasi singura de gospodarie. Acestea sant minunile din „farmacia Domnului!"
+### CANCERUL PLAMINULUI
 
-CANCERUL PLĂMÎNULUI
-Se beau zilnic în înghițituri mici 4 cești cu ceai de coada-șoricelului și în plus câte 1
-ceașcă Cu ceai de coada-calului dimineața, pe stomacul gol și seara, 1/2 oră înainte de
-cină. în timpul zilei se mestecă rădăcini de obligeană Lichidul se înghite cu puțin ceai de
-coada-șoricelului și rămășițele se scuipă. În caz de crize de durere se aplică peste noapte
+CANCERUL PLAMINULUI
+Se beau zilnic in inghitituri mici 4 cesti cu ceai de coada-soricelului si in plus cate 1
+ceasca Cu ceai de coada-calului dimineata, pe stomacul gol si seara, 1/2 ora inainte de
+cina. in timpul zilei se mesteca radacini de obligeana Lichidul se inghite cu putin ceai de
+coada-soricelului si ramasitele se scuipa. In caz de crize de durere se aplica peste noapte
 comprese cu aburi de coada-calului, iar peste zi timp de 4 ore comprese cu ierburi
-suedeze (a se vedea pentru ambele comprese „Partea generală") pe regiunea pulmonară,
-eventual și pe spate.
+suedeze (a se vedea pentru ambele comprese „Partea generala") pe regiunea pulmonara,
+eventual si pe spate.
 ### CANCERUL RINICHIULUI
 
 CANCERUL RINICHIULUI
-în acest caz se ia un ceai de plante recomandat de medicul elvețian, preotul Kunzle,
-pentru scleroză renală: splinuță-de-pădure, drăgaică, urzică-moartă-albă
+in acest caz se ia un ceai de plante recomandat de medicul elvetian, preotul Kunzle,
+pentru scleroza renala: splinuta-de-padure, dragaica, urzica-moarta-alba
 
-si galbenă în părți egale, 4 cești pe zi, băute încetul cu încetul. Câte 1 linguriță de biter
-suedez se adaugă în 3 dintre cești. Sânt indicate băile de șezut cu coada-calului; 100
-grame de plante pentru 1 baie se lasă în timpul nopții la muiat în apă rece, a doua zi lichidul
-încălzit se toarnă în apa de baie, durata băii 20 minute, apa de baie se toarnă înapoi peste
-plante, astfel încât dintr-o baie de șezut se pot face trei. Peste noapte comprese cu aburi
+si galbena in parti egale, 4 cesti pe zi, baute incetul cu incetul. Cate 1 lingurita de biter
+suedez se adauga in 3 dintre cesti. Sant indicate baile de sezut cu coada-calului; 100
+grame de plante pentru 1 baie se lasa in timpul noptii la muiat in apa rece, a doua zi lichidul
+incalzit se toarna in apa de baie, durata baii 20 minute, apa de baie se toarna inapoi peste
+plante, astfel incat dintr-o baie de sezut se pot face trei. Peste noapte comprese cu aburi
 de coada-calului, peste zi timp de 4 ore comprese cu ierburi suedeze pe rinichi (a se
-vedea pentru ambele comprese „Partea generală"). O performanță surprinzătoare o
-realizează laptele de troscot, 3-4 cești pe zi. Peste troscot - 1 linguriță cu vârf la 1 ceașcă -
-se toarnă lapte clocotit, se lasă să stea 1/2 minut, se bea cald, în înghițituri mici.
-### CANCERUL SÂNULUI
+vedea pentru ambele comprese „Partea generala"). O performanta surprinzatoare o
+realizeaza laptele de troscot, 3-4 cesti pe zi. Peste troscot - 1 lingurita cu varf la 1 ceasca -
+se toarna lapte clocotit, se lasa sa stea 1/2 minut, se bea cald, in inghitituri mici.
+### CANCERUL SANULUI
 
-CANCERUL SÂNULUI
-Tratamentul intervine după o operație. Se ung cicatricele până la subsuoară cu alifie de
-filimică (a se vedea pentru prepararea alifiei articolul despre filimică). Rămășițele de la
-prepararea alifiei pot fi aplicate local de 4-5 ori; în prealabil, ele se încălzesc puțin. Ele
-singure fac ca pielea să se netezească și să capete o culoare normală. Ungerea cu alifie de
-filimică duce la dispariția tensiunilor puternice care rezultă după o astfel de operație și
-radiază până în brațe. Dacă au suferit și ganglionii lim fatici, se pune terci cu frunze de
-pătlagină-îngusta sau lată (a se vedea „Moduri de folosire" la „Pătlagina-îngustă") de
-mai multe ori și se procedează în rest așa cum este descris la „Cancerul ganglionilor
+CANCERUL SANULUI
+Tratamentul intervine dupa o operatie. Se ung cicatricele pana la subsuoara cu alifie de
+filimica (a se vedea pentru prepararea alifiei articolul despre filimica). Ramasitele de la
+prepararea alifiei pot fi aplicate local de 4-5 ori; in prealabil, ele se incalzesc putin. Ele
+singure fac ca pielea sa se netezeasca si sa capete o culoare normala. Ungerea cu alifie de
+filimica duce la disparitia tensiunilor puternice care rezulta dupa o astfel de operatie si
+radiaza pana in brate. Daca au suferit si ganglionii lim fatici, se pune terci cu frunze de
+patlagina-ingusta sau lata (a se vedea „Moduri de folosire" la „Patlagina-ingusta") de
+mai multe ori si se procedeaza in rest asa cum este descris la „Cancerul ganglionilor
 limfatici".
-în afară de acestea, este indicat un amestec de ceaiuri din 300 grame de filimici, 100
-grame de coada-șoricelului și 100 grame de urzici - toate bine amestecate. De aici se
-folosește pentru pregătirea ceaiului 1 linguriță cu vârf la 1/4 litru de apă. Ca rație zilnică se
-prepară 1 1/2-2 litri de infuzie care se bea pe parcursul zilei în înghițituri mici. în plus, se
-scoate din această porție zilnică dimineața, la prânz și seara înainte de fie care masă 1/2
-ceașcă, se toarnă în ea 1 lingură de bitter suedez și se bea această cantitate pe jumătate,
-de fiecare dată 1/2 oră înainte și 1/2 oră după fiecare masă, în înghițituri mici.
-Dacă apar dureri, ar trebui puse mai des comprese cu ierburi suedeze si com prese
-cu aburi de coada-calului (a se vedea „Partea generală" pentru ambele com prese). Toate
-tratamentele înșirate sânt indicate și în cazul unei noi formări de noduli.
-întrucât sânii și organele genitale sânt strâns legate între ele, ar trebui luat în con-
-siderare și efectuat și tratamentul care se găsește la „Cancerul organelor pelviene".
-O femeie tânără îmi relatează: „La două săptămâni după nașterea copilului am căpătat
-niște întăritura în sân și o inflamație a sfârcurilor, însoțite de temperatură și dureri
-puternice. O compresă cu ierburi suedeze a făcut ca peste noapte să-mi dis pară tot răul.
-Sânt țărancă, într-o zi am observat și la una dintre vacile noastre o infla mație și întărituri în
-uger. M-am gândit că dacă biterul suedez ajută atât de uimitor de repede la oameni, atunci
-asta ar fi posibil și la un animal. Am încercat același tratament și am fost plăcut surprinsă
-când am avut un succes asemănător după scurt timp."
+in afara de acestea, este indicat un amestec de ceaiuri din 300 grame de filimici, 100
+grame de coada-soricelului si 100 grame de urzici - toate bine amestecate. De aici se
+foloseste pentru pregatirea ceaiului 1 lingurita cu varf la 1/4 litru de apa. Ca ratie zilnica se
+prepara 1 1/2-2 litri de infuzie care se bea pe parcursul zilei in inghitituri mici. in plus, se
+scoate din aceasta portie zilnica dimineata, la pranz si seara inainte de fie care masa 1/2
+ceasca, se toarna in ea 1 lingura de bitter suedez si se bea aceasta cantitate pe jumatate,
+de fiecare data 1/2 ora inainte si 1/2 ora dupa fiecare masa, in inghitituri mici.
+Daca apar dureri, ar trebui puse mai des comprese cu ierburi suedeze si com prese
+cu aburi de coada-calului (a se vedea „Partea generala" pentru ambele com prese). Toate
+tratamentele insirate sant indicate si in cazul unei noi formari de noduli.
+intrucat sanii si organele genitale sant strans legate intre ele, ar trebui luat in con-
+siderare si efectuat si tratamentul care se gaseste la „Cancerul organelor pelviene".
+O femeie tanara imi relateaza: „La doua saptamani dupa nasterea copilului am capatat
+niste intaritura in san si o inflamatie a sfarcurilor, insotite de temperatura si dureri
+puternice. O compresa cu ierburi suedeze a facut ca peste noapte sa-mi dis para tot raul.
+Sant taranca, intr-o zi am observat si la una dintre vacile noastre o infla matie si intarituri in
+uger. M-am gandit ca daca biterul suedez ajuta atat de uimitor de repede la oameni, atunci
+asta ar fi posibil si la un animal. Am incercat acelasi tratament si am fost placut surprinsa
+cand am avut un succes asemanator dupa scurt timp."
 ### CANCERUL STOMACULUI
 
 CANCERUL STOMACULUI
-într-un asemenea caz se pun pe stomac pe parcursul zilei comprese cu ierburi
-suedeze timp de 4 ore; dacă bolnavul este în stare, ar fi bine ca aceste 4 ore să le
-petreacă în afara patului. Numai să aibă grijă să-i fie compresele acoperite călduros, ca să
-nu se creeze o senzație de frig din cauza evaporării. Se pun în timpul nopții comprese cu
-aburi de coada-calului, iar dacă se ivesc dureri mari, se aplică aceste
+intr-un asemenea caz se pun pe stomac pe parcursul zilei comprese cu ierburi
+suedeze timp de 4 ore; daca bolnavul este in stare, ar fi bine ca aceste 4 ore sa le
+petreaca in afara patului. Numai sa aiba grija sa-i fie compresele acoperite calduros, ca sa
+nu se creeze o senzatie de frig din cauza evaporarii. Se pun in timpul noptii comprese cu
+aburi de coada-calului, iar daca se ivesc dureri mari, se aplica aceste
 
-comprese cu aburi și dimineața și după amiaza câte 2 ore în pat (a se vedea pentru
-ambele comprese „Partea generală"). În plus față de aceste comprese trebuie să se bea
-încetul cu încetul 1 1/2-2 litri de ceai, pe cât posibil din urzici și filimici proaspete,
-amestecate în părți egale. În cancerul gastric incipient ajută sucul proaspăt stors al
-măcrișului-iepurelui, 3-5 picături la fiecare oră, băute în ceaiul recomandat.
-Din scrisoarea unui participant la război, datată iulie 1979: „După întoarcerea mea din
-prizonierat în 1947 am avut cancer la stomac. Doctorii m-au trimis acasă din spital
-considerându-mă incurabil. Silit de împrejurări, m-am îndreptat către natura marelui nostru
-Creator și mi-am căutat plantele corespunzătoare: urzica, păpădia, coada-șoricelului și
-pătlagina, din al căror suc am luat o dată pe oră câte 1 înghițitură. După numai câteva ore
-am remarcat că-mi era mult mai bine, mai ales că stomacul păstra în sfârșit puținul pe care-l
-mai puteam mânca. A fost salvarea mea. De-atunci m-am ocu pat serios de plantele
-medicinale care-mi deveniseră atât de dragi și am avut cu ele niște reușite de vindecare
-minunate. Căci Creatorul nostru a pus puteri tămăduitoare enorme în natura SA.
-Acum veți înțelege că mă simt deosebit de legat de fiecare om care împlinește prin
-plantele medicinale porunca dragostei față de aproapele său și trăiește miracol peste
-miracol. De aceea să nu vă lăsați în nici un caz descurajată de atacuri, care de fapt sânt
-produse numai de forțe obscure. Marile bucurii legate de vindecările prin plante se ridică
-cert peste toate neajunsurile omenești care stârnesc astfel de greutăți!"
+comprese cu aburi si dimineata si dupa amiaza cate 2 ore in pat (a se vedea pentru
+ambele comprese „Partea generala"). In plus fata de aceste comprese trebuie sa se bea
+incetul cu incetul 1 1/2-2 litri de ceai, pe cat posibil din urzici si filimici proaspete,
+amestecate in parti egale. In cancerul gastric incipient ajuta sucul proaspat stors al
+macrisului-iepurelui, 3-5 picaturi la fiecare ora, baute in ceaiul recomandat.
+Din scrisoarea unui participant la razboi, datata iulie 1979: „Dupa intoarcerea mea din
+prizonierat in 1947 am avut cancer la stomac. Doctorii m-au trimis acasa din spital
+considerandu-ma incurabil. Silit de imprejurari, m-am indreptat catre natura marelui nostru
+Creator si mi-am cautat plantele corespunzatoare: urzica, papadia, coada-soricelului si
+patlagina, din al caror suc am luat o data pe ora cate 1 inghititura. Dupa numai cateva ore
+am remarcat ca-mi era mult mai bine, mai ales ca stomacul pastra in sfarsit putinul pe care-l
+mai puteam manca. A fost salvarea mea. De-atunci m-am ocu pat serios de plantele
+medicinale care-mi devenisera atat de dragi si am avut cu ele niste reusite de vindecare
+minunate. Caci Creatorul nostru a pus puteri tamaduitoare enorme in natura SA.
+Acum veti intelege ca ma simt deosebit de legat de fiecare om care implineste prin
+plantele medicinale porunca dragostei fata de aproapele sau si traieste miracol peste
+miracol. De aceea sa nu va lasati in nici un caz descurajata de atacuri, care de fapt sant
+produse numai de forte obscure. Marile bucurii legate de vindecarile prin plante se ridica
+cert peste toate neajunsurile omenesti care starnesc astfel de greutati!"
 ### CANCERUL TESTICULELOR
 
 CANCERUL TESTICULELOR
-Se întâmplă din păcate tot mai frecvent ca pe lângă bărbații adulți să fie loviți de
-această boală malignă și băieții de vârstă școlară sau tinerii. Poate contribuie la această
-boală catastrofală moda pantalonilor foarte strâmți la tineretul din ziua de azi. Adesea apar
-deodată, la săptămâni întregi după operație, dureri însoțite de umflături în alte locuri. Cu
-toate acestea, tratamentul trebuie făcut fără întrerupere pe locul de unde a pornit boala,
-deci în regiunea testiculelor. Se aplică același tratament ca în cazul „Cancerului
+Se intampla din pacate tot mai frecvent ca pe langa barbatii adulti sa fie loviti de
+aceasta boala maligna si baietii de varsta scolara sau tinerii. Poate contribuie la aceasta
+boala catastrofala moda pantalonilor foarte stramti la tineretul din ziua de azi. Adesea apar
+deodata, la saptamani intregi dupa operatie, dureri insotite de umflaturi in alte locuri. Cu
+toate acestea, tratamentul trebuie facut fara intrerupere pe locul de unde a pornit boala,
+deci in regiunea testiculelor. Se aplica acelasi tratament ca in cazul „Cancerului
 ganglionilor limfatici" (a se vedea la pag. 111).
 ### CANCERUL TIROIDEI
 
 CANCERUL TIROIDEI
-Se face gargară foarte adâncă alternativ cu ceai de drăgaică și de nalbă. Cu aceleași
-plante proaspete se pun comprese pe timpul nopții. Plantele proaspete se spală, se
-zdrobesc pe un fund de lemn cu ajutorul unui sucitor de tăiței până se formează un terci, se
-aplică local și se leagă. La plantele uscate, resturile de la ceaiul pentru gargară sânt
-încălzite cu puțină apă, sânt frecate cu făină de orz (care se găsește la mori sau magazine
-specializate în alimente naturale bogate în vitamine), sânt întinse pe o bucată de pânză,
-aplicate local și legate. Pe parcursul zilei se pun vreme de 2 ore comprese cu aburi de
-coada-calului (se stă în acest timp în pat) și de 4 ore comprese cu ierburi suedeze (a se
-vedea pentru ambele comprese „Partea generală").
-în afară de acestea, trebuie să se consume zilnic, încetul cu încetul, 1 1/2-2 litri de ceai
-dintr-un amestec de plante compus din filimică, coada-șoricelului și urzică în părți egale
-(1 linguriță cu vârf la 1/4 litru de apă!). Din rația zilnica de ceai se scoate de 3 ori câte 1/2
-ceașcă, se toarnă în ea câte 1 linguriță de bitter suedez și se bea de fiecare dată 1/2
-ceașcă repartizată 1/2 oră înainte și 1/2 oră după fiecare masă.
+Se face gargara foarte adanca alternativ cu ceai de dragaica si de nalba. Cu aceleasi
+plante proaspete se pun comprese pe timpul noptii. Plantele proaspete se spala, se
+zdrobesc pe un fund de lemn cu ajutorul unui sucitor de taitei pana se formeaza un terci, se
+aplica local si se leaga. La plantele uscate, resturile de la ceaiul pentru gargara sant
+incalzite cu putina apa, sant frecate cu faina de orz (care se gaseste la mori sau magazine
+specializate in alimente naturale bogate in vitamine), sant intinse pe o bucata de panza,
+aplicate local si legate. Pe parcursul zilei se pun vreme de 2 ore comprese cu aburi de
+coada-calului (se sta in acest timp in pat) si de 4 ore comprese cu ierburi suedeze (a se
+vedea pentru ambele comprese „Partea generala").
+in afara de acestea, trebuie sa se consume zilnic, incetul cu incetul, 1 1/2-2 litri de ceai
+dintr-un amestec de plante compus din filimica, coada-soricelului si urzica in parti egale
+(1 lingurita cu varf la 1/4 litru de apa!). Din ratia zilnica de ceai se scoate de 3 ori cate 1/2
+ceasca, se toarna in ea cate 1 lingurita de bitter suedez si se bea de fiecare data 1/2
+ceasca repartizata 1/2 ora inainte si 1/2 ora dupa fiecare masa.
 
 ### CIROZA HEPATICA si CANCERUL FICATULUI
 
 CIROZA HEPATICA si CANCERUL FICATULUI
-2 cești cu infuzie de pedicuță, una băută dimineața, pe stomacul gol și cealaltă seara,
-1/2 oră înainte de cină, ajută atât în caz de ciroză hepatică, cât și de boală malignă a
-ficatului. Insuficiența respiratorie care survine la aceste două boli este astfel eliminată dintr-
-un foc. La 1/4 litru de apă se pune 1 linguriță de plante. În plus, se iau 6 înghițituri de ceai
-de rădăcini de obligeană (a se căuta la articolul despre obligeană) și 2-3 cești cu ceai de
-urzici. Ar trebui să fie puse pe regiunea ficatului, pe parcursul zilei timp de 4 ore,
+2 cesti cu infuzie de pedicuta, una bauta dimineata, pe stomacul gol si cealalta seara,
+1/2 ora inainte de cina, ajuta atat in caz de ciroza hepatica, cat si de boala maligna a
+ficatului. Insuficienta respiratorie care survine la aceste doua boli este astfel eliminata dintr-
+un foc. La 1/4 litru de apa se pune 1 lingurita de plante. In plus, se iau 6 inghitituri de ceai
+de radacini de obligeana (a se cauta la articolul despre obligeana) si 2-3 cesti cu ceai de
+urzici. Ar trebui sa fie puse pe regiunea ficatului, pe parcursul zilei timp de 4 ore,
 comprese cu bitter suedez, iar compresele cu aburi de coada-calului (a se vedea
-pentru ambele comprese „Partea generală") să fie aplicate pe cât posibil dimineața și după-
-amiaza câte 2 ore, stând în pat, ca și în timpul nopții.
-Toate compresele trebuie acoperite cu bucăți calde de pânză, ca să nu se producă o
-senzație de frig din cauza evaporării!
+pentru ambele comprese „Partea generala") sa fie aplicate pe cat posibil dimineata si dupa-
+amiaza cate 2 ore, stand in pat, ca si in timpul noptii.
+Toate compresele trebuie acoperite cu bucati calde de panza, ca sa nu se produca o
+senzatie de frig din cauza evaporarii!
 
 Amestec de ceaiuri:
-20 grame de ventrilică
-25 grame de drăgaică
-25 grame de coada-șoricelului
+20 grame de ventrilica
+25 grame de dragaica
+25 grame de coada-soricelului
 20 grame de pelin
-30 grame de mlădițe de soc
-30 grame de filimică
-30 grame de rostopască
-30 grame de urzică
-15 grame de sunătoare
-15 grame de rădăcini de păpădie
+30 grame de mladite de soc
+30 grame de filimica
+30 grame de rostopasca
+30 grame de urzica
+15 grame de sunatoare
+15 grame de radacini de papadie
 25 grame de barba-popii
 
-Din acest amestec de plante se ia 1 linguriță cu vârf la 1/4 litru de apă. în timpul unei zile
-se beau minimum 2 litri de ceai în înghițituri mici. De mare importanță ar fi ca plan tele să fie
-luate proaspete din natură, măcar câteva din cele enumerate, întrucât în leucemie cauza
-apariției bolii trebuie căutată în majoritatea cazurilor în splină, mai trebuie băute și 6
-înghițituri de ceai din rădăcină de obligeană. 1 linguriță rasă de rădăcină de obligeană se
-lasă peste noapte în 1/4 litru de apă rece, dimineața se încălzește și se strecoară. Se ia
-înainte și după fiecare masă câte 1 înghițitură. 3 lingurițe (se pot administra până la 3
-linguri) de bitter suedez sânt diluate în 3 cești cu cea de plante. Această cantitate se bea
-distribuită de fiecare dată 1/2 ora înainte și 1/2 oră după fiecare masă. Se recomandă
-compresele cu ierburi suedeze, timp de 4 ore, pe regiunea ficatului și a splinei, precum
-și compresele cu aburi de coada- calului (a se vedea pentru ambele comprese „Partea
-generală"). Ar trebui evitate toate alimentele acide, ca portocalele, lămâile, grapefruiturile,
-sucurile de fructe și fructele acrișoare, crude, la fel și mâncărurile foarte sărate și puternic
-condimentate, mezelurile și carnea grasă. Compotul de mere poate fi consumat în orice
+Din acest amestec de plante se ia 1 lingurita cu varf la 1/4 litru de apa. in timpul unei zile
+se beau minimum 2 litri de ceai in inghitituri mici. De mare importanta ar fi ca plan tele sa fie
+luate proaspete din natura, macar cateva din cele enumerate, intrucat in leucemie cauza
+aparitiei bolii trebuie cautata in majoritatea cazurilor in splina, mai trebuie baute si 6
+inghitituri de ceai din radacina de obligeana. 1 lingurita rasa de radacina de obligeana se
+lasa peste noapte in 1/4 litru de apa rece, dimineata se incalzeste si se strecoara. Se ia
+inainte si dupa fiecare masa cate 1 inghititura. 3 lingurite (se pot administra pana la 3
+linguri) de bitter suedez sant diluate in 3 cesti cu cea de plante. Aceasta cantitate se bea
+distribuita de fiecare data 1/2 ora inainte si 1/2 ora dupa fiecare masa. Se recomanda
+compresele cu ierburi suedeze, timp de 4 ore, pe regiunea ficatului si a splinei, precum
+si compresele cu aburi de coada- calului (a se vedea pentru ambele comprese „Partea
+generala"). Ar trebui evitate toate alimentele acide, ca portocalele, lamaile, grapefruiturile,
+sucurile de fructe si fructele acrisoare, crude, la fel si mancarurile foarte sarate si puternic
+condimentate, mezelurile si carnea grasa. Compotul de mere poate fi consumat in orice
 cantitate.
-La începutul lui noiembrie 1978 au venit la mine niște părinți disperați însoțiți de un băiat
-de 6 ani: Peter W. din N./R.F.G. avea leucemie în ultimul stadiu, începuse în mai 1978 cu
-febră și dureri în picioare, întrucât starea lui nu se îmbunătățea, Peter a intrat la începutul
-lui iulie 1978 pentru 11 săptămâni în spital la Mannheim. Nicijdupă externare nu s-a
-constatat nici o ameliorare. Când l-am văzut pentru prima data, Peter nu mai avea păr, era
-foarte palid, obosit și fără apetit. Avea cearcăne negre adânci sub ochi, se vedea pe el că
-era foarte grav bolnav. Copilul s-a înviorat imediat după prima baie de cimbru (a se vedea
-„Moduri de folosire" la „Cimbru") pe care i-au făcut-o părinții la sfatul meu. Apa de baie,
-turnată înapoi peste plante, a mai fost încălzită de două ori, așa că s-au putut face trei băi.
-Apoi a băut ceaiul de plante susmenționat. Copilul, deși era atât de micuț, își lua la fiecare
-sfert de oră înghițitura de ceai, uitându-se exact la
+La inceputul lui noiembrie 1978 au venit la mine niste parinti disperati insotiti de un baiat
+de 6 ani: Peter W. din N./R.F.G. avea leucemie in ultimul stadiu, incepuse in mai 1978 cu
+febra si dureri in picioare, intrucat starea lui nu se imbunatatea, Peter a intrat la inceputul
+lui iulie 1978 pentru 11 saptamani in spital la Mannheim. Nicijdupa externare nu s-a
+constatat nici o ameliorare. Cand l-am vazut pentru prima data, Peter nu mai avea par, era
+foarte palid, obosit si fara apetit. Avea cearcane negre adanci sub ochi, se vedea pe el ca
+era foarte grav bolnav. Copilul s-a inviorat imediat dupa prima baie de cimbru (a se vedea
+„Moduri de folosire" la „Cimbru") pe care i-au facut-o parintii la sfatul meu. Apa de baie,
+turnata inapoi peste plante, a mai fost incalzita de doua ori, asa ca s-au putut face trei bai.
+Apoi a baut ceaiul de plante susmentionat. Copilul, desi era atat de micut, isi lua la fiecare
+sfert de ora inghititura de ceai, uitandu-se exact la
 ### LEUCEMIA
 
 LEUCEMIA
 
-ceas. Și la masă se ținea de regimul dietetic prescris. La sfârșitul lui noiembrie 1978, părinții
-s-au dus cu copilul la spitalul din Mannheim pentru analizele de sânge. Pro fesorului i s-a
-părut un mister, rezultatul analizelor fiind mult îmbunătățit. La mijlocul lui decembrie păru) i-a
-crescut din nou des și Peter s-a dus iarăși cu părinții la analize. Constatarea a fost:
-„Hemograma este mai bună decât cea normală." Medicii nu știau cum să explice
-incredibilul, inimaginabilul, în aprilie 1979, Peter a venit cu părinții în sala din
-Traunstein/Bavaria superioară, pentru a asista la prelegerea mea ca un copil perfect
-sănătos. Erau prezenți cca. 1800 de oameni. Proporționale au fost și aplauzele, când l-am
-prezentat pe Peter publicului și am relatat povestea suferinței sale. Și la sfârșitul lui
-octombrie 1979, părinții lui au venit cu el la prelegerea ținută de mine în sala Jahn din
-Pforzheim, la care au participat 2200 de persoane. Și aici am pu tut arăta publicului un copil
-complet sănătos. Peter mai bea cu sorg, după cum mi-a scris în 1979 de Crăciun, ceaiul de
-plante, mama sa îi pune tot mereu cataplasme cu ierburi suedeze pe splină și gât, îl mai
-fricționează și cu ulei de maghiran (ganglionii de la gât fuseseră și ei în suferință). Mi-a
-desena pe o foaie de hârtie cu creioane colorate filimica, urzica și coada-șoricelului și a
-scris dedesubt: „Salvatorii mei!", ceea ce găsesc absolut unic. Părinții îl mai duc și acum
-din când în când la control medical, deși Peter este un băiat sănătos.
- Consider controlul medical extrem de important! Și continuarea consumării ceaiu lui de
-plante și a aplicării compreselor o socotesc bună. îl ferește pe cel care a fost odată bolnav
-de cancer de o eventuală revenire a bolii.
+ceas. Si la masa se tinea de regimul dietetic prescris. La sfarsitul lui noiembrie 1978, parintii
+s-au dus cu copilul la spitalul din Mannheim pentru analizele de sange. Pro fesorului i s-a
+parut un mister, rezultatul analizelor fiind mult imbunatatit. La mijlocul lui decembrie paru) i-a
+crescut din nou des si Peter s-a dus iarasi cu parintii la analize. Constatarea a fost:
+„Hemograma este mai buna decat cea normala." Medicii nu stiau cum sa explice
+incredibilul, inimaginabilul, in aprilie 1979, Peter a venit cu parintii in sala din
+Traunstein/Bavaria superioara, pentru a asista la prelegerea mea ca un copil perfect
+sanatos. Erau prezenti cca. 1800 de oameni. Proportionale au fost si aplauzele, cand l-am
+prezentat pe Peter publicului si am relatat povestea suferintei sale. Si la sfarsitul lui
+octombrie 1979, parintii lui au venit cu el la prelegerea tinuta de mine in sala Jahn din
+Pforzheim, la care au participat 2200 de persoane. Si aici am pu tut arata publicului un copil
+complet sanatos. Peter mai bea cu sorg, dupa cum mi-a scris in 1979 de Craciun, ceaiul de
+plante, mama sa ii pune tot mereu cataplasme cu ierburi suedeze pe splina si gat, il mai
+frictioneaza si cu ulei de maghiran (ganglionii de la gat fusesera si ei in suferinta). Mi-a
+desena pe o foaie de hartie cu creioane colorate filimica, urzica si coada-soricelului si a
+scris dedesubt: „Salvatorii mei!", ceea ce gasesc absolut unic. Parintii il mai duc si acum
+din cand in cand la control medical, desi Peter este un baiat sanatos.
+ Consider controlul medical extrem de important! Si continuarea consumarii ceaiu lui de
+plante si a aplicarii compreselor o socotesc buna. il fereste pe cel care a fost odata bolnav
+de cancer de o eventuala revenire a bolii.
 ### TUMORILE
 
 TUMORILE
-Preotul Kneipp atrage atenția în scrierile sale că minunata coada-calului face să
-stagneze fiecare tumoare benignă sau malignă și o dizolvă încetul cu încetul. M-am putut
-convinge singură de acest lucru. De ce sunt atât de puțin luate în considerare scrierile lui
-Kneipp? Câtor oameni bolnavi pe moarte li se poate oferi astfel o șansă de viață și de câtă
-suferință pot fi cruțați cei apropiați lor!
-' Cercetările mele au dovedit că în toate tumorile compresele cu aburi de coada-
-calului sunt de cel mai bun ajutor. Se iau 2 mâini pline cu coada-calului, se pun plan tele
-într-o sită și se atârnă peste o oală cu apă în clocot (se poate folosi și o oală de gătit sub
-presiune - o oală-minune). Coada-calului aburită, muiată și fierbinte se pune într-o pânză și
-se aplică acolo unde se află tumoarea, umflătura, abcesul, chistul, adenomul,
-melanomul, tumoarea papilară sau hematomul în caz de boli foarte grave se începe
-încă de dimineață cu aplicarea compresei în pat și se lasă 2 ceasuri pe locul bolnav. După-
-amiază se repetă punerea compresei timp de 2 ore în pat, iar peste noapte ea este înnoită.
-Bolnavul trebuie să transpire și să stea la cald! Aceeași coada-calului poate fi întrebuințată
-de 3-4 ori. La prânz se aplică timp de 4 ore o compresă cu ierburi suedeze. Locul trebuie
-uns mai întâi cu untură de porc sau alifie de filimica, apoi se aplică o vată umezită cu
-bitter suedez, se pune deasupra o vată us cată pentru izolația termică, se acoperă cu o
-folie de material plastic și se leagă cu o bucată de pânză! Cu această compresă, bolnavul
-poate să umble prin casă sau să șadă. După scoaterea compresei se pudrează pielea,
-pentru a împiedica apariția mâncărimilor.
-în caz de tumori, abcese sau umflături, care sunt plasate extern, pe epidermă, se pune
-terciul proaspăt cu frunze de pătlagină-îngustă sau lată și brânca-ursului (a se
-vedea „Cancerul ganglionilor limfatici"). Urmând tratamentul în mod regulat și con tinuu, poate
-surveni încă din a cincea zi o ameliorare și după 10-14 zile un rezultat din tre cele mai bune.
-Sucul proaspăt al măcrișului-iepurelui (se spală frunzele și se trec
+Preotul Kneipp atrage atentia in scrierile sale ca minunata coada-calului face sa
+stagneze fiecare tumoare benigna sau maligna si o dizolva incetul cu incetul. M-am putut
+convinge singura de acest lucru. De ce sunt atat de putin luate in considerare scrierile lui
+Kneipp? Cator oameni bolnavi pe moarte li se poate oferi astfel o sansa de viata si de cata
+suferinta pot fi crutati cei apropiati lor!
+' Cercetarile mele au dovedit ca in toate tumorile compresele cu aburi de coada-
+calului sunt de cel mai bun ajutor. Se iau 2 maini pline cu coada-calului, se pun plan tele
+intr-o sita si se atarna peste o oala cu apa in clocot (se poate folosi si o oala de gatit sub
+presiune - o oala-minune). Coada-calului aburita, muiata si fierbinte se pune intr-o panza si
+se aplica acolo unde se afla tumoarea, umflatura, abcesul, chistul, adenomul,
+melanomul, tumoarea papilara sau hematomul in caz de boli foarte grave se incepe
+inca de dimineata cu aplicarea compresei in pat si se lasa 2 ceasuri pe locul bolnav. Dupa-
+amiaza se repeta punerea compresei timp de 2 ore in pat, iar peste noapte ea este innoita.
+Bolnavul trebuie sa transpire si sa stea la cald! Aceeasi coada-calului poate fi intrebuintata
+de 3-4 ori. La pranz se aplica timp de 4 ore o compresa cu ierburi suedeze. Locul trebuie
+uns mai intai cu untura de porc sau alifie de filimica, apoi se aplica o vata umezita cu
+bitter suedez, se pune deasupra o vata us cata pentru izolatia termica, se acopera cu o
+folie de material plastic si se leaga cu o bucata de panza! Cu aceasta compresa, bolnavul
+poate sa umble prin casa sau sa sada. Dupa scoaterea compresei se pudreaza pielea,
+pentru a impiedica aparitia mancarimilor.
+in caz de tumori, abcese sau umflaturi, care sunt plasate extern, pe epiderma, se pune
+terciul proaspat cu frunze de patlagina-ingusta sau lata si branca-ursului (a se
+vedea „Cancerul ganglionilor limfatici"). Urmand tratamentul in mod regulat si con tinuu, poate
+surveni inca din a cincea zi o ameliorare si dupa 10-14 zile un rezultat din tre cele mai bune.
+Sucul proaspat al macrisului-iepurelui (se spala frunzele si se trec
 
-în stare umedă prin storcătorul electric de uz casnic) atinge și el prin ungerea locurilor
-bolnave performanțe bune.
-Intern, se prescriu dimineața, 1/2 oră înainte de micul dejun și seara, 1/2 oră înainte de
-cină, câte 1 ceașcă cu ceai de coada-calului, iar pe parcursul zilei 11/2-2 litri de ceai dintr-un
-amestec de plante din 300 grame de filimică, 100 grame de coada-șoricelului și 100
-grame de urzică (toate bine amestecate). In acest ceai se amestecă, dacă este posibil, de 6
-ori pe zi (de fiecare dată la un interval de 1 ceas) într-o cană 3-5 picături de suc de
-măcrișul-iepurelui
-O femeie din Bavaria scrie: „V-am scris de curând că vecinul nostru, un bărbat de 48 de
-ani, tată a patru copii, a fost trimis acasă din spital foarte grav bolnav și disperat, având o
-tumoare la cap și fenomene de paralizie. O jumătate a feței era deja parali zată și din
-cauza paraliziei ochiul din acea parte stătea complet închis. Medicii au spus că nu va mai
-deschide acel ochi niciodată. Vă puteți imagina ce ne-am mirat și bucurat când, la puține
-zile după ce a început să întrebuințeze conform sfaturilor dumneavoas tră plante din
-«farmacia Domnului», ochiul i s-a deschis din nou și omului îi merge iarăși mai bine. Când
-medicul familiei a venit să-l viziteze și a văzut ochiul deschis și starea evident ameliorată, a
-trebuit să ia loc pe un scaun de atâta uimire. A fost de părere că așa ceva nu s-a mai
-întâmplat până acum niciodată!"
-Domnul'Joachim M. din B./Allgău se adresează la 25 iunie 1979 în scris redacției unui
-ziar german: „Referitor la atacurile din presa germană împotriva doamnei Maria Treben și a
-broșurii sale «Sănătate din farmacia Domnului» doresc să vă relatez cazul copilului meu:
-Daniela, născută pe 4 august 1973, a fost îngrijită de noi cât se poate de bine, dusă la
-toate examenele medicale preventive, chiar și la cele mai mici simptome de boală
-mergeam imediat cu ea la doctor și totuși nici un medic n-a putut recunoaște din timp
-amenințarea de moarte care plana asupra copilului nostru, ci abia când a fost prea târziu.
-Abia la începutul lui august 1978 s-a descoperit. Fetița noastră fusese foarte vioaie până
-atunci. Brusc a început să decadă de la o zi la alta, a devenit tot mai apatică și veșnic
-foarte obosită. După noi consultații medicale, la care nu s-a putut stabili nici un diagnostic
-precis, am internat o pe fiica noastră într-o clinică de copii de lângă Augsburg.
-După examinări de zile întregi care suprasolicitau forța fizică a copilului, ni s-a
-comunicat că fetita noastră este bolnavă de o tumoare incurabilă căreia nu i se putea veni
-de hac cu mijloacele de azi. Șansa de însănătoșire a fost cotată la 2-5 procente, pentru a
-nu ne spulbera total speranța. S-a trecut apoi la injecții cu cortizon, ca să se micșoreze
-tumoarea într-atât încât să devină eventual operabilă. '
-La începutul lui septembrie 1978 s-a făcut o încercare de operare, care a trebuit
-încheiată în stadiul incipient, întrucât copilul nostru risca să-și piardă tot sângele, în ciuda
-tuturor transfuziilor. Tumoarea se extinsese în toată regiunea abdominală, năpădise
-complet organele cele mai importante ca ficatul, vezicula biliară, splina și rinichii,
-strangulase aorta și arterele femurale, ceea ce ne explica de ce fetița nu mai putea fugi.
-Abia acum a început cu adevărat perioada de chin pentru copil, l se făceau mereu raze și
-injecții cu cortizon. Nu vă puteți imagina ce a însemnat asta pentru noi, părinții. Am stat în
-total șapte săptămâni zi de zi la patul copilului nostru în Augsburg, iar în prezența sa trebuia
-să râdem și să fim veseli. Numai acest lucru și solicita deja puteri sufletești imense, în
-același timp trebuia să privim cum fetița noastră devenea pe zi ce trecea mai puțintică și
-decădea tot mai vizibil. Din cauza razelor și injecțiilor cu cortizon nu mai putea să mănânce
-aproape nimic. O săptămână după operație s-a îmbolnăvit de icter, care s-a tot agravat.
-La început, doctorii au crezut că a fost cauzat de transfuziile de sânge.
-După alte examinări repetate ce durau ore în șir a fost clar că tumoarea blocase
-scurgerea fierii; s-a propus o nouă operație pentru a provoca o scurgere artificială a fierii.
-La întrebarea mea dacă această operație era neapărat necesară, în loc de
+in stare umeda prin storcatorul electric de uz casnic) atinge si el prin ungerea locurilor
+bolnave performante bune.
+Intern, se prescriu dimineata, 1/2 ora inainte de micul dejun si seara, 1/2 ora inainte de
+cina, cate 1 ceasca cu ceai de coada-calului, iar pe parcursul zilei 11/2-2 litri de ceai dintr-un
+amestec de plante din 300 grame de filimica, 100 grame de coada-soricelului si 100
+grame de urzica (toate bine amestecate). In acest ceai se amesteca, daca este posibil, de 6
+ori pe zi (de fiecare data la un interval de 1 ceas) intr-o cana 3-5 picaturi de suc de
+macrisul-iepurelui
+O femeie din Bavaria scrie: „V-am scris de curand ca vecinul nostru, un barbat de 48 de
+ani, tata a patru copii, a fost trimis acasa din spital foarte grav bolnav si disperat, avand o
+tumoare la cap si fenomene de paralizie. O jumatate a fetei era deja parali zata si din
+cauza paraliziei ochiul din acea parte statea complet inchis. Medicii au spus ca nu va mai
+deschide acel ochi niciodata. Va puteti imagina ce ne-am mirat si bucurat cand, la putine
+zile dupa ce a inceput sa intrebuinteze conform sfaturilor dumneavoas tra plante din
+«farmacia Domnului», ochiul i s-a deschis din nou si omului ii merge iarasi mai bine. Cand
+medicul familiei a venit sa-l viziteze si a vazut ochiul deschis si starea evident ameliorata, a
+trebuit sa ia loc pe un scaun de atata uimire. A fost de parere ca asa ceva nu s-a mai
+intamplat pana acum niciodata!"
+Domnul'Joachim M. din B./Allgau se adreseaza la 25 iunie 1979 in scris redactiei unui
+ziar german: „Referitor la atacurile din presa germana impotriva doamnei Maria Treben si a
+brosurii sale «Sanatate din farmacia Domnului» doresc sa va relatez cazul copilului meu:
+Daniela, nascuta pe 4 august 1973, a fost ingrijita de noi cat se poate de bine, dusa la
+toate examenele medicale preventive, chiar si la cele mai mici simptome de boala
+mergeam imediat cu ea la doctor si totusi nici un medic n-a putut recunoaste din timp
+amenintarea de moarte care plana asupra copilului nostru, ci abia cand a fost prea tarziu.
+Abia la inceputul lui august 1978 s-a descoperit. Fetita noastra fusese foarte vioaie pana
+atunci. Brusc a inceput sa decada de la o zi la alta, a devenit tot mai apatica si vesnic
+foarte obosita. Dupa noi consultatii medicale, la care nu s-a putut stabili nici un diagnostic
+precis, am internat o pe fiica noastra intr-o clinica de copii de langa Augsburg.
+Dupa examinari de zile intregi care suprasolicitau forta fizica a copilului, ni s-a
+comunicat ca fetita noastra este bolnava de o tumoare incurabila careia nu i se putea veni
+de hac cu mijloacele de azi. Sansa de insanatosire a fost cotata la 2-5 procente, pentru a
+nu ne spulbera total speranta. S-a trecut apoi la injectii cu cortizon, ca sa se micsoreze
+tumoarea intr-atat incat sa devina eventual operabila. '
+La inceputul lui septembrie 1978 s-a facut o incercare de operare, care a trebuit
+incheiata in stadiul incipient, intrucat copilul nostru risca sa-si piarda tot sangele, in ciuda
+tuturor transfuziilor. Tumoarea se extinsese in toata regiunea abdominala, napadise
+complet organele cele mai importante ca ficatul, vezicula biliara, splina si rinichii,
+strangulase aorta si arterele femurale, ceea ce ne explica de ce fetita nu mai putea fugi.
+Abia acum a inceput cu adevarat perioada de chin pentru copil, l se faceau mereu raze si
+injectii cu cortizon. Nu va puteti imagina ce a insemnat asta pentru noi, parintii. Am stat in
+total sapte saptamani zi de zi la patul copilului nostru in Augsburg, iar in prezenta sa trebuia
+sa radem si sa fim veseli. Numai acest lucru si solicita deja puteri sufletesti imense, in
+acelasi timp trebuia sa privim cum fetita noastra devenea pe zi ce trecea mai putintica si
+decadea tot mai vizibil. Din cauza razelor si injectiilor cu cortizon nu mai putea sa manance
+aproape nimic. O saptamana dupa operatie s-a imbolnavit de icter, care s-a tot agravat.
+La inceput, doctorii au crezut ca a fost cauzat de transfuziile de sange.
+Dupa alte examinari repetate ce durau ore in sir a fost clar ca tumoarea blocase
+scurgerea fierii; s-a propus o noua operatie pentru a provoca o scurgere artificiala a fierii.
+La intrebarea mea daca aceasta operatie era neaparat necesara, in loc de
 
-răspuns mi s-a pus o altă întrebare - dacă voiam să las copilul să moară din cauza
-nefuncționării ficatului. Ar fi fost o încercare la care copilul meu probabil că n-ar fi
-supraviețuit. S-a întâmplat ca exact în acea perioadă sala de operație să fie în renovare.
-Medicul care o trata a fost de părere că, deși operația era urgentă, se puteau aștepta cele
-zece zile până ce sala de operație va funcționa iarăși normal, întrucât acolo existau condițiile
+raspuns mi s-a pus o alta intrebare - daca voiam sa las copilul sa moara din cauza
+nefunctionarii ficatului. Ar fi fost o incercare la care copilul meu probabil ca n-ar fi
+supravietuit. S-a intamplat ca exact in acea perioada sala de operatie sa fie in renovare.
+Medicul care o trata a fost de parere ca, desi operatia era urgenta, se puteau astepta cele
+zece zile pana ce sala de operatie va functiona iarasi normal, intrucat acolo existau conditiile
 optime.
-La insistențele mele ne-am putut lua fetița acasă pentru zece zile, căci în acest timp nu
-se putea face nimic în plus pentru ea în spital. Asta a fost la sfârșitul lui septembrie 1978.
-De-abia așteptasem acest moment. Printr-o cunoștință auzisem între timp de doamna
-Maria Treben căreia apoi i-am telefonat. M-a sfătuit la telefon să iau plantele descrise în
-broșura «Sănătate din farmacia Domnului» la «Tumori maligne». În dis perarea noastră
-nu mai știam ce să ne facem, iar după părerea noastră nu puteam înrăutăți astfel nimic, ci
-doar îmbunătăți. După cum am aflat ulterior, copilului nostru i se dăduse șansă de
-supraviețuire nu mai mult decât până la Crăciun. Doamna Treben ne-a spus la telefon că
-după cinci zile ar trebui să survină o ameliorare. Marea minune s-a întâmplat.
-în a cincea noapte, copilul nostru a început să plângă, deși până cu puțin înainte țipase
-încă foarte tare de durere. Deodată am devenit oamenii cei mai fericiți. Ce se întâmplase?
-Sângele, care nu mai ajungea în venele de la picioare din cauza strangulării vaselor
-sangvine, a ajuns iarăși acolo, declanșând o senzație de picioare amorțite. Am avut astfel
-confirmarea că plantele medicinale începuseră să dea rezultat. La scurt timp înainte de
-termenul fixat pentru operație am observat o dispariție treptată a icterului, drept care am
-contramandat operația, între timp, copilul nostru își pierduse însă tot părul din cauza
-injecțiilor. Puțin înainte de Crăciunul din 1978 am fost iarăși la un control în Augsburg, la
-care profesorul, o capacitate în acest domeniu, n-a mai constatat nici o tumoare. Pe
+La insistentele mele ne-am putut lua fetita acasa pentru zece zile, caci in acest timp nu
+se putea face nimic in plus pentru ea in spital. Asta a fost la sfarsitul lui septembrie 1978.
+De-abia asteptasem acest moment. Printr-o cunostinta auzisem intre timp de doamna
+Maria Treben careia apoi i-am telefonat. M-a sfatuit la telefon sa iau plantele descrise in
+brosura «Sanatate din farmacia Domnului» la «Tumori maligne». In dis perarea noastra
+nu mai stiam ce sa ne facem, iar dupa parerea noastra nu puteam inrautati astfel nimic, ci
+doar imbunatati. Dupa cum am aflat ulterior, copilului nostru i se daduse sansa de
+supravietuire nu mai mult decat pana la Craciun. Doamna Treben ne-a spus la telefon ca
+dupa cinci zile ar trebui sa survina o ameliorare. Marea minune s-a intamplat.
+in a cincea noapte, copilul nostru a inceput sa planga, desi pana cu putin inainte tipase
+inca foarte tare de durere. Deodata am devenit oamenii cei mai fericiti. Ce se intamplase?
+Sangele, care nu mai ajungea in venele de la picioare din cauza strangularii vaselor
+sangvine, a ajuns iarasi acolo, declansand o senzatie de picioare amortite. Am avut astfel
+confirmarea ca plantele medicinale incepusera sa dea rezultat. La scurt timp inainte de
+termenul fixat pentru operatie am observat o disparitie treptata a icterului, drept care am
+contramandat operatia, intre timp, copilul nostru isi pierduse insa tot parul din cauza
+injectiilor. Putin inainte de Craciunul din 1978 am fost iarasi la un control in Augsburg, la
+care profesorul, o capacitate in acest domeniu, n-a mai constatat nici o tumoare. Pe
 baza radiografiilor s-au mai constatat numai pete de calcifiere, ceea ce ne-a dat ocazia unor
-noi speranțe. Totul s-a întâmplat în cca. nouă săptămâni. Copilul nostru se simte până în
-ziua de azi foarte bine, este iarăși la fel ca înainte și am putut, datorită sfatului doamnei
-Treben, să-l avem lângă noi până acum deja cu o jumătate de an mai mult decât
-estimaseră medicii.
-Aș dori să subliniez faptul că doamna Treben a ajutat în mod dezinteresat. Cu atât mai
-mirat sunt că doamna Treben este atacată acum în presa germană. Acesta este motivul
-pentru care v-am evocat cazul nostru. - Pentru a pune totul pe hârtie, ar trebui să scriu un
-întreg roman. Aș dori să-mi exprim încă o dată recunoștința față de doam na Treben pentru
-ajutorul său altruist. Pentru familia mea s-a petrecut un mare miracol."
-Relatarea suna foarte promițător și se putea crede că aici n-ar mai putea surveni
-complicații. Tumoarea, care invadase toate organele vitale, amenințând astfel viața
-micuței Daniela, se dizolvase și dispăruse cu ramificații cu tot. Și totuși, copilul a murit după
-vreo jumătate de an. Din păcate, n-am aflat această veste de la părinți, ci într-un mod
-foarte cinic, printr-un reporter german, care s-a aliat într-un chip nu foarte frumos
-murmurului general din presa germană împotriva mea. Cum de s-a ajuns totuși la acest
-sfârșit acum neașteptat după schimbarea în bine survenită în starea bolii mortale a micuței
-Daniela? Tatăl ei mi-a scris odată după cca. o jumătate de an că fetița făcuse brusc febră;
-mi-a mai scris atunci că după rezultatele favorabile ale analizelor medicale încetaseră
-tratamentul cu plante, „căci nu se poate forța un copil atât de mic să bea ceai de plante".
-Nu, asta nu se poate. Părinții ar fi putut reuși însă cu inteligență și tact să convingă copilul
-să bea ceaiurile de plante. Boala era mortală, medicii n-au putut ajuta. Plantele din
-farmacia Domnului au fost cele care aduseseră ajutor. Ar fi ajutat cu siguranță și mai
-departe. Citiți, vă rog, la „Leucemie" relatarea despre micuțul Peter W.
+noi sperante. Totul s-a intamplat in cca. noua saptamani. Copilul nostru se simte pana in
+ziua de azi foarte bine, este iarasi la fel ca inainte si am putut, datorita sfatului doamnei
+Treben, sa-l avem langa noi pana acum deja cu o jumatate de an mai mult decat
+estimasera medicii.
+As dori sa subliniez faptul ca doamna Treben a ajutat in mod dezinteresat. Cu atat mai
+mirat sunt ca doamna Treben este atacata acum in presa germana. Acesta este motivul
+pentru care v-am evocat cazul nostru. - Pentru a pune totul pe hartie, ar trebui sa scriu un
+intreg roman. As dori sa-mi exprim inca o data recunostinta fata de doam na Treben pentru
+ajutorul sau altruist. Pentru familia mea s-a petrecut un mare miracol."
+Relatarea suna foarte promitator si se putea crede ca aici n-ar mai putea surveni
+complicatii. Tumoarea, care invadase toate organele vitale, amenintand astfel viata
+micutei Daniela, se dizolvase si disparuse cu ramificatii cu tot. Si totusi, copilul a murit dupa
+vreo jumatate de an. Din pacate, n-am aflat aceasta veste de la parinti, ci intr-un mod
+foarte cinic, printr-un reporter german, care s-a aliat intr-un chip nu foarte frumos
+murmurului general din presa germana impotriva mea. Cum de s-a ajuns totusi la acest
+sfarsit acum neasteptat dupa schimbarea in bine survenita in starea bolii mortale a micutei
+Daniela? Tatal ei mi-a scris odata dupa cca. o jumatate de an ca fetita facuse brusc febra;
+mi-a mai scris atunci ca dupa rezultatele favorabile ale analizelor medicale incetasera
+tratamentul cu plante, „caci nu se poate forta un copil atat de mic sa bea ceai de plante".
+Nu, asta nu se poate. Parintii ar fi putut reusi insa cu inteligenta si tact sa convinga copilul
+sa bea ceaiurile de plante. Boala era mortala, medicii n-au putut ajuta. Plantele din
+farmacia Domnului au fost cele care adusesera ajutor. Ar fi ajutat cu siguranta si mai
+departe. Cititi, va rog, la „Leucemie" relatarea despre micutul Peter W.
 
 Sfat important
-Cantitatea mare de ceai indicată ar trebui respectată la orice boală malignă.
-Cantitatea care bolnavului i se pare mare poate fi biruită cu ușurință, luându-se mereu, la
-fiecare 15-20 minute, câte 1 înghițitură, înainte ca stomacul să primească următoarea
-înghițitură, cea dinainte este digerată. Dacă bolnavul nu mai are poftă de mâncare, aceasta
-revine curând după ce a început să bea ceai. Și digestia începe să funcționeze normal.
-Consider ca foarte importante băile complete de cimbru în cazul bolnavilor lipsiți deja de
-orice vlagă, mai cu seamă atunci când le crește și febra. Bolnavul simte o revigorare
-surprinzătoare în starea sănătății, dacă nu chiar schimbare radicală. În cazul multor boli
-de cancer incurabile se întâmplă să apară deodată o puternică retenție de apă. Se
-întrerupe atunci consumul cantității de ceai indicate și se beau în schimb 5 zile exclusiv 5-6
-cești cu ceai de coada-calului, în înghițituri mici repartizate pe parcursul zilei. Dacă însă
-retenția de apă se retrage în ziua a treia sau a patra, se recurge iarăși la prima cantitate de
-ceai. Dacă după un timp apar din nou rețineri de apă se apelează iar la ceaiul de coada-
-calului. Cea mai importantă exigență în toate aceste boli este controlul medical regulat.
-Numai medicul poate recunoaște starea exactă a sănătății!
+Cantitatea mare de ceai indicata ar trebui respectata la orice boala maligna.
+Cantitatea care bolnavului i se pare mare poate fi biruita cu usurinta, luandu-se mereu, la
+fiecare 15-20 minute, cate 1 inghititura, inainte ca stomacul sa primeasca urmatoarea
+inghititura, cea dinainte este digerata. Daca bolnavul nu mai are pofta de mancare, aceasta
+revine curand dupa ce a inceput sa bea ceai. Si digestia incepe sa functioneze normal.
+Consider ca foarte importante baile complete de cimbru in cazul bolnavilor lipsiti deja de
+orice vlaga, mai cu seama atunci cand le creste si febra. Bolnavul simte o revigorare
+surprinzatoare in starea sanatatii, daca nu chiar schimbare radicala. In cazul multor boli
+de cancer incurabile se intampla sa apara deodata o puternica retentie de apa. Se
+intrerupe atunci consumul cantitatii de ceai indicate si se beau in schimb 5 zile exclusiv 5-6
+cesti cu ceai de coada-calului, in inghitituri mici repartizate pe parcursul zilei. Daca insa
+retentia de apa se retrage in ziua a treia sau a patra, se recurge iarasi la prima cantitate de
+ceai. Daca dupa un timp apar din nou retineri de apa se apeleaza iar la ceaiul de coada-
+calului. Cea mai importanta exigenta in toate aceste boli este controlul medical regulat.
+Numai medicul poate recunoaste starea exacta a sanatatii!
 ## FERMENTAREA LACTICA
 
 FERMENTAREA LACTICA
-Nu vreau să scap ocazia de a prezenta cititorilor următoarea propunere excelentă a
-doamnei Eike Bretschneider, din Erkrath/R.F.G., din 8 aprilie 1980: „întrucât sfaturile
-dumneavoastră ne-au ajutat atât de des și de bine și am putut sfătui și ajuta și vecinii, vreau
-mai întâi să vă mulțumesc din inimă că ați transmis cunoștințele dumneavoastră într-un
-mod atât de pe înțelesul tuturor.
-Am primit astăzi broșura dumneavoastră «Vindecări» și citesc aici că sunteți de părere
-că plantele medicinale ar trebui păstrate prin congelare. - în congelator se schimbă de
-exemplu conținutul de zahăr; mulți medici naturiști interzic pacienților lor bolnavi de cancer
-alimentele congelate, așa că nu consider recomandabil să se încerce acest lucru cu
-plantele medicinale. Am însă o altă propunere: a conserva și a pune la fermentat cu acid
-lactic, așa ca la varză, fasole, sfeclă roșie, castraveți acri. Știu bine că se poate, fiindcă o
-cunoștință a încercat deja cu păpădiile, urzicile și frun zele de țelină. Vreau să fac anul
-acesta astfel de murări prin fermentare lactică din toate plantele medicinale proaspete care-
-mi sunt la îndemână; chiar ieri am luat din grădina noastră prelucrată biologic câte un
-borcan de cuscrișori, flori de păpădie și rădăcini de păpădie și le-am pus la fermentat. Este
-cât se poate de simplu: Sânt necesare borcane care se închid repede ermetic, având
-deschizătura pe cât posibil atât de largă, încât mai târziu să se poată scoate ușor
-conținutul cu o lingură; borcane nu prea mari, căci după prima deschidere nu mâi țin atât
-de mult timp (la frigider cca. 3-4 săptămâni). Plantele curate, tăiate mărunt sunt introduse
-în aceste borcane și sunt apăsate pentru a le îndesa cât se poate de tare (ca la varza
-acră). Apoi se introduce în fiecare borcan 1 linguriță de zer proaspăt sau de zeamă de
-varză acră, făcute bineînțeles în casă, nu de conservă, și se umple cu apă, așa ca să nu
-mai fie aer prin tre plante. Totul trebuie să ajungă doar până la cca. 2 centimetri sub buza
-borcanului, pentru că va fermenta. Apoi se lasă 2 zile la loc cald până începe să
-fermenteze: Atenție să nu dea pe-afară; este necesară o farfurioară dedesubt - și după
-cele 2 zile, la pivniță. Procesul de fermentație este încheiat după 5-6 săptămâni. Cum
-produsele fermentate lactic sunt deosebit de indicate persoanelor bolnave de cancer, și
-plantele medicinale păstrate astfel ar trebui să fie de ajutor."
+Nu vreau sa scap ocazia de a prezenta cititorilor urmatoarea propunere excelenta a
+doamnei Eike Bretschneider, din Erkrath/R.F.G., din 8 aprilie 1980: „intrucat sfaturile
+dumneavoastra ne-au ajutat atat de des si de bine si am putut sfatui si ajuta si vecinii, vreau
+mai intai sa va multumesc din inima ca ati transmis cunostintele dumneavoastra intr-un
+mod atat de pe intelesul tuturor.
+Am primit astazi brosura dumneavoastra «Vindecari» si citesc aici ca sunteti de parere
+ca plantele medicinale ar trebui pastrate prin congelare. - in congelator se schimba de
+exemplu continutul de zahar; multi medici naturisti interzic pacientilor lor bolnavi de cancer
+alimentele congelate, asa ca nu consider recomandabil sa se incerce acest lucru cu
+plantele medicinale. Am insa o alta propunere: a conserva si a pune la fermentat cu acid
+lactic, asa ca la varza, fasole, sfecla rosie, castraveti acri. Stiu bine ca se poate, fiindca o
+cunostinta a incercat deja cu papadiile, urzicile si frun zele de telina. Vreau sa fac anul
+acesta astfel de murari prin fermentare lactica din toate plantele medicinale proaspete care-
+mi sunt la indemana; chiar ieri am luat din gradina noastra prelucrata biologic cate un
+borcan de cuscrisori, flori de papadie si radacini de papadie si le-am pus la fermentat. Este
+cat se poate de simplu: Sant necesare borcane care se inchid repede ermetic, avand
+deschizatura pe cat posibil atat de larga, incat mai tarziu sa se poata scoate usor
+continutul cu o lingura; borcane nu prea mari, caci dupa prima deschidere nu mai tin atat
+de mult timp (la frigider cca. 3-4 saptamani). Plantele curate, taiate marunt sunt introduse
+in aceste borcane si sunt apasate pentru a le indesa cat se poate de tare (ca la varza
+acra). Apoi se introduce in fiecare borcan 1 lingurita de zer proaspat sau de zeama de
+varza acra, facute bineinteles in casa, nu de conserva, si se umple cu apa, asa ca sa nu
+mai fie aer prin tre plante. Totul trebuie sa ajunga doar pana la cca. 2 centimetri sub buza
+borcanului, pentru ca va fermenta. Apoi se lasa 2 zile la loc cald pana incepe sa
+fermenteze: Atentie sa nu dea pe-afara; este necesara o farfurioara dedesubt - si dupa
+cele 2 zile, la pivnita. Procesul de fermentatie este incheiat dupa 5-6 saptamani. Cum
+produsele fermentate lactic sunt deosebit de indicate persoanelor bolnave de cancer, si
+plantele medicinale pastrate astfel ar trebui sa fie de ajutor."

@@ -1,66 +1,66 @@
 # Reomandari pentru glandele endocrine si cresterea nivelului energetic
-Iată ce am luat eu pentru creșterea nivelului energetic și pentru a-mi face glandele fericite.
+Iata ce am luat eu pentru cresterea nivelului energetic si pentru a-mi face glandele fericite.
 
-- Supliment Alive(multivitamine și multiminerale) timp de 3 luni, un comprimat pe zi.
+- Supliment Alive(multivitamine si multiminerale) timp de 3 luni, un comprimat pe zi.
 
-- Smoothie din 3 legături de verdeață(pătrunjel/țelină/mărar), o lămâie, o banană, o portocală.
+- Smoothie din 3 legaturi de verdeata(patrunjel/telina/marar), o lamaie, o banana, o portocala.
 
-- Capsule cu lemn-dulce: 2 cps/zi sau macerat la rece de lemn-dulce(o linguriță la o cană de apă rece. Se bea după 12-24 ore, treptat).
+- Capsule cu lemn-dulce: 2 cps/zi sau macerat la rece de lemn-dulce(o lingurita la o cana de apa rece. Se bea dupa 12-24 ore, treptat).
 
-- Suplimente afrodisiace și pentru creșterea testosteronului(Marathon 1 cps/3 zile, X-Pill la nevoie pentru creșterea performanțelor sexuale).
+- Suplimente afrodisiace si pentru cresterea testosteronului(Marathon 1 cps/3 zile, X-Pill la nevoie pentru cresterea performantelor sexuale).
 
-- L-Arginine(pentru imunitate și creșterea testosteronului): 1g/zi.
+- L-Arginine(pentru imunitate si cresterea testosteronului): 1g/zi.
 
-- L-Tyrosine(pentru glandele suprarenale, tiroidă și glanda pituitară): 2g/zi.
+- L-Tyrosine(pentru glandele suprarenale, tiroida si glanda pituitara): 2g/zi.
 
-- Ginseng: 1 capsulă la 3 zile.
+- Ginseng: 1 capsula la 3 zile.
 
-- Reducerea drastică a cantității de pâine consumate.
+- Reducerea drastica a cantitatii de paine consumate.
 
-- Acceptoferină: 1 capsulă pe zi. Nu se găsește în magazine ci în cărțile și filmele motivaționale. Acționează asupra modului de gândire iar efectele sunt uimitoare:
+- Acceptoferina: 1 capsula pe zi. Nu se gaseste in magazine ci in cartile si filmele motivationale. Actioneaza asupra modului de gandire iar efectele sunt uimitoare:
 
-- nu te mai învinovățești pentru nimic.
+- nu te mai invinovatesti pentru nimic.
 
-- te accepți așa cum ești și te iubești mult conștientizând că tu nu îți aparții ție însuși, ci aparții tuturor, aparții universului. Corpul ți-a fost dat în administrare dar nu e al tău. Și precum te iubești pe tine îi iubești și pe ceilalți, și îi iubești mult.
+- te accepti asa cum esti si te iubesti mult constientizand ca tu nu iti apartii tie insusi, ci apartii tuturor, apartii universului. Corpul ti-a fost dat in administrare dar nu e al tau. Si precum te iubesti pe tine ii iubesti si pe ceilalti, si ii iubesti mult.
 
-- îi judeci cu dragoste și înțelegere pe toți ceilați.
+- ii judeci cu dragoste si intelegere pe toti ceilati.
 
-- te răsfeți și îți acorzi timp și pentru distracție.
+- te rasfeti si iti acorzi timp si pentru distractie.
 
-- Orgasmoferină: 1-2 capsule pe săptămână. Nici medicamentul ăsta nu se găsește în farmacii, dar se poate fabrica acasă împreună cu partenerul sau chiar singur(ă). Ajută la obținerea de orgasme incredibile. Orgasmul este absolut necesar în viața fiecăruia și ajută la dezvoltarea personală. Îmbunătățește activitatea creierului, înțelepțește și crește inteligența și capacitatea de înțelegere a celorlați. Când facem sex ar trebui să reprimăm orice gând negativ ce ne vine în minte, orice gând ce ne critică. Absolut orice trebuie făcut pentru a beneficia de orgasm, fără limite.
+- Orgasmoferina: 1-2 capsule pe saptamana. Nici medicamentul asta nu se gaseste in farmacii, dar se poate fabrica acasa impreuna cu partenerul sau chiar singur(a). Ajuta la obtinerea de orgasme incredibile. Orgasmul este absolut necesar in viata fiecaruia si ajuta la dezvoltarea personala. Imbunatateste activitatea creierului, intelepteste si creste inteligenta si capacitatea de intelegere a celorlati. Cand facem sex ar trebui sa reprimam orice gand negativ ce ne vine in minte, orice gand ce ne critica. Absolut orice trebuie facut pentru a beneficia de orgasm, fara limite.
 
-Iată ce am găsit prin cărțile mele:
+Iata ce am gasit prin cartile mele:
 
-- Maria Treben recomandă ceaiul de sânziene pentru curățarea pancreasului și a tiroidei.
+- Maria Treben recomanda ceaiul de sanziene pentru curatarea pancreasului si a tiroidei.
 
-- Pudră de fucus - pentru glanda tiroidă.
+- Pudra de fucus - pentru glanda tiroida.
 
-- Ceai de Mielăreauă(Vitex agnus-castus) - pentru glanda pituitară.
+- Ceai de Mielareaua(Vitex agnus-castus) - pentru glanda pituitara.
 
-- Păstârnac - stimulator general al glandelor endocrine.
+- Pastarnac - stimulator general al glandelor endocrine.
 
 - Aloe - pentru pancreas.
 
-- Stimularea funcției hepatice: cireșe, vișine, agrișe, căpșuni, gutui, lămâi.
+- Stimularea functiei hepatice: cirese, visine, agrise, capsuni, gutui, lamai.
 
-- Ceai de urzică moartă - pentru glandele pelviene și tulburări menstruale.
+- Ceai de urzica moarta - pentru glandele pelviene si tulburari menstruale.
 
-- Strugurii au efecte deosebite asupra gonadelor și glandelor corticosuprarenale.
+- Strugurii au efecte deosebite asupra gonadelor si glandelor corticosuprarenale.
 
-- Suc de morcov, ceapă și țelină. Într-un pahar de suc de morcov se adauga 2 linguri de suc de ceapă și 6 linguri de suc de țelină. Se beau 2-3 asemenea doze pe zi, în cure de două luni. Este bun pentru dereglări ale glandelor corticosuprarenale.
+- Suc de morcov, ceapa si telina. Intr-un pahar de suc de morcov se adauga 2 linguri de suc de ceapa si 6 linguri de suc de telina. Se beau 2-3 asemenea doze pe zi, in cure de doua luni. Este bun pentru dereglari ale glandelor corticosuprarenale.
 
-- Decoct din rădăcină de iarbă mare - pentru tiroidă.
+- Decoct din radacina de iarba mare - pentru tiroida.
 
-- Tinctură de Ienupăr - pentru stimularea glandelor corticosuprarenale.
+- Tinctura de Ienupar - pentru stimularea glandelor corticosuprarenale.
 
-- Suc de țelină - se bea ¼ de pahar de suc de țelină, înaintea meselor principale timp de 3 săptămâni cu una de pauză. E bun pentru disfuncții ale glandelor corticosuprarenale.
+- Suc de telina - se bea ¼ de pahar de suc de telina, inaintea meselor principale timp de 3 saptamani cu una de pauza. E bun pentru disfunctii ale glandelor corticosuprarenale.
 
-- Ghimpe - pentru glanda tiroidă.
+- Ghimpe - pentru glanda tiroida.
 
 - Vitamina E - pentru glandele sexuale.
 
 - Vitamina B5 - pentru glandele suprarenale.
 
-- DHEA - persoanele depresive au acest hormon în cantități reduse. DHEA, care este produsă de glandele suprarenale, neutralizează efectul hormonului stresului, încetinește procesul de îmbătrânire și îmbunătătește procesul memoriei. Dr. Hamish McAllister-Williams, coordonatorul cercetărilor, susține că DHEA produce schimbări semnificative în modul de acțiune al creierului. Liderul grupului Depression Alliance a declarat pentru BBC News Online: "Foarte multe persoane cu depresie au probleme cu memoria și concentrarea". (C. Dobre) Tratamentul cu DHEA nu ar trebui să dureze mai mult de o lună. Orice hormon luat pe cale orală timp îndelungat îți poate face organismul să nu mai secrete deloc acel hormon.
+- DHEA - persoanele depresive au acest hormon in cantitati reduse. DHEA, care este produsa de glandele suprarenale, neutralizeaza efectul hormonului stresului, incetineste procesul de imbatranire si imbunatateste procesul memoriei. Dr. Hamish McAllister-Williams, coordonatorul cercetarilor, sustine ca DHEA produce schimbari semnificative in modul de actiune al creierului. Liderul grupului Depression Alliance a declarat pentru BBC News Online: "Foarte multe persoane cu depresie au probleme cu memoria si concentrarea". (C. Dobre) Tratamentul cu DHEA nu ar trebui sa dureze mai mult de o luna. Orice hormon luat pe cale orala timp indelungat iti poate face organismul sa nu mai secrete deloc acel hormon.
 
-- Pentru scăderea în greutate se beau 2 pahare de suc din rădăcini de pătrunjel și păstârnac între mese, timp de 7 zile. Cura se repetă la fiecare 2 luni.
+- Pentru scaderea in greutate se beau 2 pahare de suc din radacini de patrunjel si pastarnac intre mese, timp de 7 zile. Cura se repeta la fiecare 2 luni.

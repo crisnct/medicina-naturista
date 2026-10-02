@@ -1,73 +1,73 @@
-### Pentru ca somnul să vină mai repede
+### Pentru ca somnul sa vina mai repede
 
-### și să fie mai de calitate
+### si sa fie mai de calitate
 
-#### În prima săptămână
+#### In prima saptamana
 
-- tinctură de valeriană: o linguriță înainte de somn.
+- tinctura de valeriana: o lingurita inainte de somn.
 
-- ulei esențial de lavandă: 2 picături sub limbă înainte de somn.
+- ulei esential de lavanda: 2 picaturi sub limba inainte de somn.
 
-#### În a doua săptămână
+#### In a doua saptamana
 
 - un comprimat de triptofan 500mg seara.
 
-- lăptișor de matcă: o jumătate linguriță dimineața.
+- laptisor de matca: o jumatate lingurita dimineata.
 
-- Ashwagandha pulbere: o linguriță dimineața.
+- Ashwagandha pulbere: o lingurita dimineata.
 
-În a treia săptămână se iau suplimentele din prima săptâmână. În a patra săptămână se iau suplimentele din a doua săptâmână. Și tot așa.
+In a treia saptamana se iau suplimentele din prima saptamana. In a patra saptamana se iau suplimentele din a doua saptamana. Si tot asa.
 
-După două luni se face pauză de o lună iar apoi se poate relua.
+Dupa doua luni se face pauza de o luna iar apoi se poate relua.
 
-#### Bine de știut:
+#### Bine de stiut:
 
-Triptofanul este un aminoacid esențial ce ajută la formarea melatoninei, serotoninei și vitaminei B3(niacina) și are următoarele beneficii:
+Triptofanul este un aminoacid esential ce ajuta la formarea melatoninei, serotoninei si vitaminei B3(niacina) si are urmatoarele beneficii:
 
-- ajută somnul și insomnia
+- ajuta somnul si insomnia
 
-- poate ajuta în caz de depresie prin creșterea nivelului de serotonină
+- poate ajuta in caz de depresie prin cresterea nivelului de serotonina
 
 - reduce anxietatea
 
 - reduce apetitul
 
-- poate îmbunătăți simptomele PMS
+- poate imbunatati simptomele PMS
 
 - poate trata mania
 
-- poate reduce simptomele de demență
+- poate reduce simptomele de dementa
 
-- ajută la protecția ochilor
+- ajuta la protectia ochilor
 
-- poate îmbunătăți performanța exercițiilor fizice.
+- poate imbunatati performanta exercitiilor fizice.
 
-- ajută la alăptare
+- ajuta la alaptare
 
-- reglează ciclul de somn-trezire
+- regleaza ciclul de somn-trezire
 
-Atenție:
+Atentie:
 
-- poate provoca greață, dureri de stomac, vomă, diaree, pierderea apetitului, dureri de cap, vedere încețoșată, slăbiciune musculară, scăderea potenței.
+- poate provoca greata, dureri de stomac, voma, diaree, pierderea apetitului, dureri de cap, vedere incetosata, slabiciune musculara, scaderea potentei.
 
-- a nu se lua în cazul de tratament cu medicamente antidepresive deoarece poate crește prea mult nivelul de serotonină.
+- a nu se lua in cazul de tratament cu medicamente antidepresive deoarece poate creste prea mult nivelul de serotonina.
 
-- a nu se lua în cazul de tratament cu medicamente sedative.
+- a nu se lua in cazul de tratament cu medicamente sedative.
 
-#### Alte recomandări:
+#### Alte recomandari:
 
-- Redu cu o oră pe fiecare lună, ora la care mergi la somn, până ajungi la 22:30.
+- Redu cu o ora pe fiecare luna, ora la care mergi la somn, pana ajungi la 22:30.
 
-- Dacă mănânci la cină mămăligă, brânză, ouă, smântână, ceapă, carne de curcan/pui, linzer cu mac atunci somnul poate apărea mai repede.
+- Daca mananci la cina mamaliga, branza, oua, smantana, ceapa, carne de curcan/pui, linzer cu mac atunci somnul poate aparea mai repede.
 
-- Dacă mănânci un măr înainte de somn vei dormi mai bine.
+- Daca mananci un mar inainte de somn vei dormi mai bine.
 
-- Consumă câte o banană pe fiecare zi.
+- Consuma cate o banana pe fiecare zi.
 
-- Când ai poftă de fructe consumă una din aceste fructe: ananas, papaya, mango, portocale, mandarine, pere, piersici, pepene verde, arahide.
+- Cand ai pofta de fructe consuma una din aceste fructe: ananas, papaya, mango, portocale, mandarine, pere, piersici, pepene verde, arahide.
 
-- Argintul coloidal 25 PPM poate ajuta. Doza recomandată este de 50ml diluat cu apă, seara cu 30min înainte de somn. Se folosește timp de 10 zile după care trebuie luat un probiotic(ex. Lacium, HeppyFlor) tot timp de 10 zile.
+- Argintul coloidal 25 PPM poate ajuta. Doza recomandata este de 50ml diluat cu apa, seara cu 30min inainte de somn. Se foloseste timp de 10 zile dupa care trebuie luat un probiotic(ex. Lacium, HeppyFlor) tot timp de 10 zile.
 
-- Ceai din petale de mac de câmp.
+- Ceai din petale de mac de camp.
 
-- Încearcă să urmezi dieta de la sfârșitul acestui document. Cu siguranță te va ajuta să dormi mai repede și îți va crește calitatea somnului
+- Incearca sa urmezi dieta de la sfarsitul acestui document. Cu siguranta te va ajuta sa dormi mai repede si iti va creste calitatea somnului

@@ -72,7 +72,7 @@ Ciuperci, mucegai, matrite. Niciuna nu are clorofila, cu toate acestea ele cresc
 
 III Licheni
 
-Lichenii sunt un grup aparte de organisme, rezultate în urma conviețuirii permanente dintre o ciupercă si o alga. Licheni foarte frumosi se gasesc pe copaci, cladiri si roci.
+Lichenii sunt un grup aparte de organisme, rezultate in urma convietuirii permanente dintre o ciuperca si o alga. Licheni foarte frumosi se gasesc pe copaci, cladiri si roci.
 
 B. Biofrite
 

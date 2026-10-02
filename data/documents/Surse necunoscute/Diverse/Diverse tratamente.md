@@ -957,7 +957,7 @@ Enumeram o parte din efectele curative: - Daca este mirosit sau inspirat des si 
 - Regleaza ciclul menstrual.\
 - Ajuta in vindecarea epilepsiei fortificand nervii si intreg organismul.\
 - Duce la disparitia indispozitiilor.\
-- Rezultate bune în videcarea paraliziei.\
+- Rezultate bune in videcarea paraliziei.\
 - Foarte eficient in caz de febra.\
 - Trateaza foarte bine cancerul.\
 - E foarte bun pentru negi, cicatrice, taieturi, rani, umflaturi, vanatai.\
@@ -1013,12 +1013,12 @@ Terapia cu urina este o metoda de vindecare a unei boli prin aplicarea si folosi
 Urina, introdusa in organism, actioneaza ca un autovaccin, nu numai vindecandu-l ci si intinerindu-l.\
 Valeriu Popa preciza ca urina este un elixir al vietii daruit de natura si ca reprezinta o solutie terapeutica pentru aproape toate bolile.\
 Am vazut in preajma dansului multe cazuri vindecate de cancer, diabet, boli de piele, boli de inima, boli de rinichi si chiar SIDA cu ajutorul acestei terapii.\
-Bolile sunt numeroase, la fel ca si numele lor, insa remediul este însasi propria noastra urina care vindeca boala prin indepartarea toxinelor si deseurilor din organism, prin stimularea mecanismului de aparare al corpului.\
+Bolile sunt numeroase, la fel ca si numele lor, insa remediul este insasi propria noastra urina care vindeca boala prin indepartarea toxinelor si deseurilor din organism, prin stimularea mecanismului de aparare al corpului.\
 Este de preferat sa nu se foloseasca alte medicamente in timpul acestei terapii. In toate cazurile trebuie consultat un specialist.\
 Ca tonic general pentru mentinerea unei stari corespunzatoare de sanatate si energie si de asemenea, preventiv contra tuturor bolilor infectioase, 200 ml (un pahar) o data pe zi sau chiar de doua ori, poate fi luat in siguranta (primul si ultimul jet se arunca). Cu cat cantitatea este mai mare este mai benefica si nu este daunatoare.\
 Pentru orice imbolnaviri minore 1-2 pahare/zi reprezinta o cantitate suficienta.\
 Se poate tine post de 1 - 3 - 7 - 14 - 21 de zile numai cu urina si apa (plus 2 clisme/zi), vindecandu-se astfel multe boli cronice. O perioada lunga de post se face sub controlul unui expert pentru ca au loc tot felul de eliminari de toxine, in special eruptii cutanate si voma.\
-îInainte cu doua saptamani de a începe acest tratament si cat timp se face terapia cu urina, dieta trebuie sa fie usoara: desodata, fara carne, grasimi animale, alcool, cafea, tutun, zahar, otet.\
+iInainte cu doua saptamani de a incepe acest tratament si cat timp se face terapia cu urina, dieta trebuie sa fie usoara: desodata, fara carne, grasimi animale, alcool, cafea, tutun, zahar, otet.\
 Urina veche de 4 zile este foarte buna pentru bolile de piele, pentru frectie si masaj, nu pentru baut.\
 Poate fi folosita si pentru intretinerea parului, drept crema de ras, lotiune antiseptica pentru rani si taieturi, pentru cosuri si acnee, pentru arsuri, muscaturi de insecte, impiedica formarea ridurilor.\
 Aceasta terapie vindeca boala prin eliminarea toxinelor in afara corpului pe cale bucala, nazala, anala sau prin piele. De aceea, pacientul poate avea voma, tuse, raceala, diaree sau eruptie pe piele. Nu trebuie sa se ingrijoreze de aceste reactii care il ajuta in vindecarea bolii. Ele dispar automat in 2-3 zile. In toate cazurile este necesara supravegherea de catre un specialist.\

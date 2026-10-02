@@ -2,25 +2,25 @@
 
 | Coloana 1 | Coloana 2 | Coloana 3 | Coloana 4 | Coloana 5 |
 | --- | --- | --- | --- | --- |
-| Legume și verdețuri | Fructe | Semințe | Plante medicinale | Suplimente |
+| Legume si verdeturi | Fructe | Seminte | Plante medicinale | Suplimente |
 | turmeric | afine | armurariu | lemn-dulce | Curcumin 95 |
-| ghimbir | merișoare | schinduf | ceai verde | Astaxantină |
-| ciuperci chaga | cătină | chimion | sunătoare | MSM |
-| broccoli | ananas | | mentă | Boswellia |
-| ardei cayenne | coacăze negre | | frunze de afin | Ulei esențial de tămâie |
-| castravete | smochine | | urzică | Rhodiola rosea |
-| pătrunjel | | | flori de fân | Ashwagandha |
-| mărar | | | flori de mușețel | Omega 3 |
-| varză | | | frunze de podbal | Silimarină |
-| usturoi | | | sunătoare | Extract de bacopa |
-| | | | flori de coada-șoricelului | Bromelaină |
+| ghimbir | merisoare | schinduf | ceai verde | Astaxantina |
+| ciuperci chaga | catina | chimion | sunatoare | MSM |
+| broccoli | ananas | | menta | Boswellia |
+| ardei cayenne | coacaze negre | | frunze de afin | Ulei esential de tamaie |
+| castravete | smochine | | urzica | Rhodiola rosea |
+| patrunjel | | | flori de fan | Ashwagandha |
+| marar | | | flori de musetel | Omega 3 |
+| varza | | | frunze de podbal | Silimarina |
+| usturoi | | | sunatoare | Extract de bacopa |
+| | | | flori de coada-soricelului | Bromelaina |
 | | | | flori de soc | Acidul gama linoleic |
 | | | | aloe vera | Cetil miristoleat(CMO) |
-| | | | scorțișoară | Ulei esențial de arbore de ceai (malaleuca) |
-| | | | | Spirulină |
+| | | | scortisoara | Ulei esential de arbore de ceai (malaleuca) |
+| | | | | Spirulina |
 | | | | | Chlorella |
-| | | | | Tinctură de propolis |
+| | | | | Tinctura de propolis |
 | | | | | Tiolin |
 
-Consumă alimente care îți stimulează organismul de a produce antioxidanți
-Antioxidanții îți vor reduce radicalii liberi, cei care provoacă inflamațiile.
+Consuma alimente care iti stimuleaza organismul de a produce antioxidanti
+Antioxidantii iti vor reduce radicalii liberi, cei care provoaca inflamatiile.

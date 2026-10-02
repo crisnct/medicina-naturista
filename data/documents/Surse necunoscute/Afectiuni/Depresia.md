@@ -1,17 +1,17 @@
 # Tratamentul natural al Depresiei
 
-Aloe Vera Gel 2 linguri dimineața și 2 la prânz pe stomacul gol, cu 30 minute înainte de masă, se bea cu înghițituri mici pentru a facilita absorbția la nivelul mucoasei bucale.
+Aloe Vera Gel 2 linguri dimineata si 2 la pranz pe stomacul gol, cu 30 minute inainte de masa, se bea cu inghitituri mici pentru a facilita absorbtia la nivelul mucoasei bucale.
 
-Regim alimentar: se recomandă excluderea excitantelor (cafea, tutun, alcool) și a alimentelor bogate în aditivi chimici de sinteză.
+Regim alimentar: se recomanda excluderea excitantelor (cafea, tutun, alcool) si a alimentelor bogate in aditivi chimici de sinteza.
 
 **Foarte eficient**: Vit B-Complex+Mg+Vit C
 
-Bolile secolului, cum sînt numite stresul, depresia și nervozitatea, pot fi și ele tratate prin remedii naturiste.
+Bolile secolului, cum sint numite stresul, depresia si nervozitatea, pot fi si ele tratate prin remedii naturiste.
 
-Pentru depresie, fitoterapia recomandă ceaiurile de sunătoare, roiniță și ovăz. Sunătoarea conține hipericină, un antidepresiv natural. Este bine ca în cazul consumului mare de ceai de sunătoare, să se evite expunerile la soare, deoarece unul dintre principiile active ale plantei este foto-sensibilizator. În același timp cu ceaiul de sunătoare, dar la ore diferite, este bine să se bea infuzie de roiniță, care ameliorează stările de melancolie și iritabilitate, contribuind la un somn profund, fără vise. Roinița este recomandată persoanelor care suferă de coșmaruri. Ceaiul de ovăz este și el recomandat contra depresiei, mai ales în perioadele de scădere a tonusului, în cazul stărilor de oboseală depresivă dar și în demineralizări.\
-De reținut că, aceste plante nu acționează decît în cazul depresiilor ușoare, pasagere, legate de o stare de oboseala generală. În cazul depresiilor nervoase avansate trebuie consultat medicul specialist.
+Pentru depresie, fitoterapia recomanda ceaiurile de sunatoare, roinita si ovaz. Sunatoarea contine hipericina, un antidepresiv natural. Este bine ca in cazul consumului mare de ceai de sunatoare, sa se evite expunerile la soare, deoarece unul dintre principiile active ale plantei este foto-sensibilizator. In acelasi timp cu ceaiul de sunatoare, dar la ore diferite, este bine sa se bea infuzie de roinita, care amelioreaza starile de melancolie si iritabilitate, contribuind la un somn profund, fara vise. Roinita este recomandata persoanelor care sufera de cosmaruri. Ceaiul de ovaz este si el recomandat contra depresiei, mai ales in perioadele de scadere a tonusului, in cazul starilor de oboseala depresiva dar si in demineralizari.\
+De retinut ca, aceste plante nu actioneaza decit in cazul depresiilor usoare, pasagere, legate de o stare de oboseala generala. In cazul depresiilor nervoase avansate trebuie consultat medicul specialist.
 
-Stresul și nervozitatea pot fi îndepărtate cu ginseng. Acesta conține vitaminele B și C, precum și acizi aminați cu efect de tonifiere intelectuală și fizică. Se recomandă a se lua, de preferință, dimineața, deoarece poate provoca stări de insomnie. Remediile din ginseng nu se administrează concomitent cu unele excitante precum cafeaua și ceaiul, iar consumul lor este bine să fie limitat în timpul sarcinii. Consumul de ginseng poate fi suplinit cu succes prin administrarea ceaiurilor de măceș. Acestea reglează ritmul cardiac și reduce palpitațiile. Este recomandat, în special, în hiperemotivitate și în stări de tensiune nervoasă. (C.I.)
+Stresul si nervozitatea pot fi indepartate cu ginseng. Acesta contine vitaminele B si C, precum si acizi aminati cu efect de tonifiere intelectuala si fizica. Se recomanda a se lua, de preferinta, dimineata, deoarece poate provoca stari de insomnie. Remediile din ginseng nu se administreaza concomitent cu unele excitante precum cafeaua si ceaiul, iar consumul lor este bine sa fie limitat in timpul sarcinii. Consumul de ginseng poate fi suplinit cu succes prin administrarea ceaiurilor de maces. Acestea regleaza ritmul cardiac si reduce palpitatiile. Este recomandat, in special, in hiperemotivitate si in stari de tensiune nervoasa. (C.I.)
 
 **Depresia afecteaza inima (Ana-Maria Adamoae)**
 
@@ -108,33 +108,33 @@ Arborele \"parul fecioarei\", cunoscut sub numele de ginkgo biloba, este cel mai
 
 **PROTECT 4 LIFE (Vasodilatator periferic =Tanacan )**
 
-Produs antioxidant modern și eficace, cu conținut de beta- caroten, vitaminele C și E, seleniu și Ginkgo Biloba. Produs modern cu efect antioxidant. Pe lângă vitaminele antioxidante cunoscute,. Imbunatateste memoria si atentia chiar la cei afectati de boala Alzheiman, ameliaoreza deficientele de auz, creste fluxul sangvin la cei cu circulatie periferica deficitara, are efect benign impotriva depresiei, anxietatii si migrenei. Are 90 de tablete si se administreaza 3 tablete pe zi. Pentru mai multe informatii luati legatura cu persoana de contact. Aviz sanitar in conformitate cu prevederile Legii nr.100/1998. Produsul are garantie 100% pe satisfactie.
+Produs antioxidant modern si eficace, cu continut de beta- caroten, vitaminele C si E, seleniu si Ginkgo Biloba. Produs modern cu efect antioxidant. Pe langa vitaminele antioxidante cunoscute,. Imbunatateste memoria si atentia chiar la cei afectati de boala Alzheiman, ameliaoreza deficientele de auz, creste fluxul sangvin la cei cu circulatie periferica deficitara, are efect benign impotriva depresiei, anxietatii si migrenei. Are 90 de tablete si se administreaza 3 tablete pe zi. Pentru mai multe informatii luati legatura cu persoana de contact. Aviz sanitar in conformitate cu prevederile Legii nr.100/1998. Produsul are garantie 100% pe satisfactie.
 
 <
 
 ### COMBATEREA DEPRESIEI PRIN METODE NATURISTE
 
-Tot mai multi oameni devin depresivi, iar depresia se înscrie între afectiunile caracteristice omului contemporan.
+Tot mai multi oameni devin depresivi, iar depresia se inscrie intre afectiunile caracteristice omului contemporan.
 
-Depresia este consideratã ca o „prãbusire" a dispozitiei de bazã a individului. Sunt actualizate trãirile neplãcute, triste, amenintãtoare. Este necesarã distinctia între depresia (boalã ) si starea de depresie normalã.
+Depresia este considerata ca o „prabusire" a dispozitiei de baza a individului. Sunt actualizate trairile neplacute, triste, amenintatoare. Este necesara distinctia intre depresia (boala ) si starea de depresie normala.
 
-Pe lângã consultarea medicului specialist sunt binevenite si metodele neconventionale de tratament: masajul reflexogen -- prin sedinte de presopuncturã se stimuleazã zonele de proiectie energeticã, responsabile de deficitul de tonus vital
+Pe langa consultarea medicului specialist sunt binevenite si metodele neconventionale de tratament: masajul reflexogen -- prin sedinte de presopunctura se stimuleaza zonele de proiectie energetica, responsabile de deficitul de tonus vital
 
-aromoterapia -- sunt utile aromele cu efecte antidepresive cum ar fi: cele de citrice, dafin, scortisoarã, santal, lavandã
+aromoterapia -- sunt utile aromele cu efecte antidepresive cum ar fi: cele de citrice, dafin, scortisoara, santal, lavanda
 
-homeopatia -- este utilã doar dacã remediul este prescris de medicul homeopat, deoarece dozele si modul lor de utilizare sunt strict individualizate;
+homeopatia -- este utila doar daca remediul este prescris de medicul homeopat, deoarece dozele si modul lor de utilizare sunt strict individualizate;
 
-fitoterapia -- cura cu ceai de sunãtoare sau în amestec cu teiul si menta este salutarã. Singurã, cura nu rezolvã decât partial depresia, necesitând asocierea cu celelalte metode naturiste; miscarea fizicã poate fi cheia succesului în bãtãlia cu depresia. Cele mai indicate sunt drumetiile, înotul, joggingul, tenisul.
+fitoterapia -- cura cu ceai de sunatoare sau in amestec cu teiul si menta este salutara. Singura, cura nu rezolva decat partial depresia, necesitand asocierea cu celelalte metode naturiste; miscarea fizica poate fi cheia succesului in batalia cu depresia. Cele mai indicate sunt drumetiile, inotul, joggingul, tenisul.
 
 <
 
 **Impotriva depresiei:**
 
--Medicamente care ajută la corectarea dezechilibrelor chimice din creier
+-Medicamente care ajuta la corectarea dezechilibrelor chimice din creier
 
--Consilierea efectuată de un specialist psiholog, psihiatru sau neurolog
+-Consilierea efectuata de un specialist psiholog, psihiatru sau neurolog
 
--Tratament medicamentos plus consiliere și ajutarea pacientului să facă față problemelor și crizelor vieții, dependenței de alcool/droguri și altor probleme care se asociază adeseori cu depresia.
+-Tratament medicamentos plus consiliere si ajutarea pacientului sa faca fata problemelor si crizelor vietii, dependentei de alcool/droguri si altor probleme care se asociaza adeseori cu depresia.
 
 <
 
@@ -144,29 +144,29 @@ Aloe Vera Gel** - 2 linguri dimineata si 2 seara, pe stomacul gol, cu 30 de minu
 
 <
 
-**Ovazul**: este, fara îndoiala, una dintre cele mai cunoscute cereale indicate pentru linistirea nervilor. Utilizare: tarâte de ovaz în anumite mâncaruri. De asemenea, puteti face o baie relaxanta cu extract sau infuzie de ovaz.
+**Ovazul**: este, fara indoiala, una dintre cele mai cunoscute cereale indicate pentru linistirea nervilor. Utilizare: tarate de ovaz in anumite mancaruri. De asemenea, puteti face o baie relaxanta cu extract sau infuzie de ovaz.
 
 **Ginseng**: revitalizeaza si tonifica sistemul nervos. Utilizare: consultati un medic specialist ca sa va prescrie cantitatea necesara.
 
-**Levantica**: este o planta într-adevar extraordinara pentru sistemul nervos, având o actiune sedanta si linistitoare. Infuzie de flori si frunze. Doua linguri de levantica la o cana. Beti o cana de infuzie înainte de fiecare masa. Esente de baie sau lotiuni de piele. Stropiti-va cu câteva picaturi de ulei de levantica înainte de culcare sau presarati câtiva stropi în cada de baie. Aroma naturala. Va puteti orna casa cu cosulete de paie pline cu flori de levantica pentru a combate stresul.
+**Levantica**: este o planta intr-adevar extraordinara pentru sistemul nervos, avand o actiune sedanta si linistitoare. Infuzie de flori si frunze. Doua linguri de levantica la o cana. Beti o cana de infuzie inainte de fiecare masa. Esente de baie sau lotiuni de piele. Stropiti-va cu cateva picaturi de ulei de levantica inainte de culcare sau presarati cativa stropi in cada de baie. Aroma naturala. Va puteti orna casa cu cosulete de paie pline cu flori de levantica pentru a combate stresul.
 
 **Musetelul**: efectul sau sedativ si calmant ajuta la controlarea nervilor. Utilizare: trei infuzii de musetel pe zi.
 
-**Melisa**: actioneaza asupra nervilor combatând efectele stresului. Utilizare: infuzie de flori si frunze din doua linguri de melisa la o cana. Consumati o infuzie înainte de fiecare masa.
+**Melisa**: actioneaza asupra nervilor combatand efectele stresului. Utilizare: infuzie de flori si frunze din doua linguri de melisa la o cana. Consumati o infuzie inainte de fiecare masa.
 
-**Menta**: este o planta tonifianta si foarte utila pentru recuperarea energiei. Utilizare: se pot folosi doua metode: infuzie dintr-o jumatate de lingura de menta la o cana. Beti o cana dupa fiecare masa. Puteti presara în cosulete ornamentale frunze de menta pentru a înviora aerul în permanenta.
+**Menta**: este o planta tonifianta si foarte utila pentru recuperarea energiei. Utilizare: se pot folosi doua metode: infuzie dintr-o jumatate de lingura de menta la o cana. Beti o cana dupa fiecare masa. Puteti presara in cosulete ornamentale frunze de menta pentru a inviora aerul in permanenta.
 
-**Susanul**: are proprietati sedante si tranchilizante. Utilizare: doua sau trei lingurite de susan în anumite mâncaruri. De asemenea, se poate consuma cu iaurt sau Kefir.
+**Susanul**: are proprietati sedante si tranchilizante. Utilizare: doua sau trei lingurite de susan in anumite mancaruri. De asemenea, se poate consuma cu iaurt sau Kefir.
 
 **Ceaiul de tei**: este relaxant si tranchilizant, ideal pentru calmarea tensiunii nervoase. Utilizare: infuzie din doua linguri de flori de tei la o cana. Consumati doua infuzii pe zi.
 
-**Valeriana** (odolean): este foarte eficace pentru calmarea nervilor, pentru relaxarea mintii si a corpului. Utilizare: infuzie din doua linguri la o cana. Trebuie consumata imediat înainte sau dupa ce suferiti de simptomele de stres. (Pro Farmacia)
+**Valeriana** (odolean): este foarte eficace pentru calmarea nervilor, pentru relaxarea mintii si a corpului. Utilizare: infuzie din doua linguri la o cana. Trebuie consumata imediat inainte sau dupa ce suferiti de simptomele de stres. (Pro Farmacia)
 
 <
 
-**Uleiul de melisã-roinitã- (uz extern):** antiinflamator, calmant local, antimigrenos.
+**Uleiul de melisa-roinita- (uz extern):** antiinflamator, calmant local, antimigrenos.
 
-Este indicat în cazul migrenelor, sinuzitelor, întepãturilor de insecte, herpesului. Asupra psihicului si mentalului are efect de reducere a stresului, a depresiei. Conferã echilibru, stimuleazã, calmeazã si dã seninãtate celui care îl utilizeazã.
+Este indicat in cazul migrenelor, sinuzitelor, intepaturilor de insecte, herpesului. Asupra psihicului si mentalului are efect de reducere a stresului, a depresiei. Confera echilibru, stimuleaza, calmeaza si da seninatate celui care il utilizeaza.
 
 <
 
@@ -221,19 +221,19 @@ Moduri de folosire:**\
 
 **Utilizarea usturoiului ca remediu medical**
 
-Știința a demonstrat că usturoiul este un puternic antibiotic, avînd un spectru larg de acțiune terapeutică. Lumea medicală a ajuns la o concluzie unanimă, că dintre toate proprietățile curative ale usturoiului, cea mai importantă este aceea de antibiotic natural. Numeroase studii au confirmat faptul că usturoiul are proprietăți antibiotice și este foarte eficient împotriva bacteriilor, ciupercilor și virușilor. Sînt specialiști care susțin chiar că sîngele unui mîncător de usturoi poate distruge bacteriile. Proprietatea de antibiotic este dată de conținutul de allicin care se găsește în usturoiul crud\
-Răceala și gripa\
-După cum ne-a spus dna lector universitar Angela Beju, terapeut naturist, membru al Asociației Naționale pentru Terapii Complementare din România (ANATECOR), de-a lungul timpului s-a tot căutat un tratament eficient pentru răceală însă fară un succes real. Unul dintre motive este acela că răceala banală nu este chiar atît de comună: \"Există o foarte mare varietate de viruși care produc viroze respiratorii -- peste 200 de viruși cunoscuți pot provoca răceli. Există și foarte multe mutații ale virusului care produce gripa. Răceala și gripa sînt ținte în mișcare. Un tratament eficient pentru un tip de virus poate să nu aibă nici un efect asupra altuia. În acest moment poate interveni tratamentul cu usturoi. Usturoiul are, mai degrabă, acțiunea unui antibiotic cu spectru larg decît a unui antibiotic țintă. De asemenea, are efecte pozitive asupra întregului sistem imunitar. Foarte multe suplimente nutritive pe bază de plante conțin usturoi, alături de plante bine cunoscute pentru acțiunea lor imunostimulatoare, precum echinaceea. Usturoiul conține două componente principale, care au importanță terapeutică: allicin și compuși bio-activi care conțin sulf. Allicinul este compusul cu cele mai importante efecte asupra sănătății. Acesta nu se găsește în usturoiul normal, ci se produce în momentul în care cățelul de ustouroi este tăiat sau zdrobit. Cu cît este tocat mai mărunt, cu atît mai mult allicin se produce, deci și efectul terapeutic va fi mai puternic. Usturoiul ajută în tratamentul răcelii și gripei însă are și efecte excelente folosit în scop preventiv\".\
-De știut că allicinul din usturoi începe să dispară imediat ce este produs, iar prin fierbere își pierde efectul terapeutic. Pentru a beneficia de usturoi și din punct de vedere terapeutic este recomandată consumarea lui în stare proaspătă sau adăugat în mîncare la sfîrșit, fără a-l mai fierbe.\
-Efecte deosebite în tratarea acneei
+Stiinta a demonstrat ca usturoiul este un puternic antibiotic, avind un spectru larg de actiune terapeutica. Lumea medicala a ajuns la o concluzie unanima, ca dintre toate proprietatile curative ale usturoiului, cea mai importanta este aceea de antibiotic natural. Numeroase studii au confirmat faptul ca usturoiul are proprietati antibiotice si este foarte eficient impotriva bacteriilor, ciupercilor si virusilor. Sint specialisti care sustin chiar ca singele unui mincator de usturoi poate distruge bacteriile. Proprietatea de antibiotic este data de continutul de allicin care se gaseste in usturoiul crud\
+Raceala si gripa\
+Dupa cum ne-a spus dna lector universitar Angela Beju, terapeut naturist, membru al Asociatiei Nationale pentru Terapii Complementare din Romania (ANATECOR), de-a lungul timpului s-a tot cautat un tratament eficient pentru raceala insa fara un succes real. Unul dintre motive este acela ca raceala banala nu este chiar atit de comuna: \"Exista o foarte mare varietate de virusi care produc viroze respiratorii -- peste 200 de virusi cunoscuti pot provoca raceli. Exista si foarte multe mutatii ale virusului care produce gripa. Raceala si gripa sint tinte in miscare. Un tratament eficient pentru un tip de virus poate sa nu aiba nici un efect asupra altuia. In acest moment poate interveni tratamentul cu usturoi. Usturoiul are, mai degraba, actiunea unui antibiotic cu spectru larg decit a unui antibiotic tinta. De asemenea, are efecte pozitive asupra intregului sistem imunitar. Foarte multe suplimente nutritive pe baza de plante contin usturoi, alaturi de plante bine cunoscute pentru actiunea lor imunostimulatoare, precum echinaceea. Usturoiul contine doua componente principale, care au importanta terapeutica: allicin si compusi bio-activi care contin sulf. Allicinul este compusul cu cele mai importante efecte asupra sanatatii. Acesta nu se gaseste in usturoiul normal, ci se produce in momentul in care catelul de ustouroi este taiat sau zdrobit. Cu cit este tocat mai marunt, cu atit mai mult allicin se produce, deci si efectul terapeutic va fi mai puternic. Usturoiul ajuta in tratamentul racelii si gripei insa are si efecte excelente folosit in scop preventiv\".\
+De stiut ca allicinul din usturoi incepe sa dispara imediat ce este produs, iar prin fierbere isi pierde efectul terapeutic. Pentru a beneficia de usturoi si din punct de vedere terapeutic este recomandata consumarea lui in stare proaspata sau adaugat in mincare la sfirsit, fara a-l mai fierbe.\
+Efecte deosebite in tratarea acneei
 
-Acneea este cea mai răspîndită boală de piele și, fie că apare în perioada adolescenței sau mai tîrziu, este la fel de neplăcută atît pentru cel care suferă de ea, cît și pentru cei din jurul său. Nimeni nu pretinde că usturoiul ar fi un leac miraculos pentru acnee însă multe persoane cred că ajută, folosit atît intern cît și extern: \"În primul rînd, usturoiul este un puternic antibiotic și curăță foarte bine sîngele. De fapt, consumul de usturoi ajută organismul să se curețe singur, eliminînd toxinele și, astfel, reducînd acneea. Proprietățile sale antiseptice și de curățire profundă îl recomandă și ca tratament extern în acnee. Un cățel de usturoi tăiat și frecat ușor pe zona cu pustule ajută la vindecarea lor. Încercați acest lucru și la apariția unui furuncul și veți vedea rezultatul! Pe lîngă faptul că este un bun antibiotic, allicinul din usturoi este un tot atît de bun antifungic, fiind eficient în tratarea infecțiilor pielii\".\
-Usturoiul, colesterolul și problemele cardiace
+Acneea este cea mai raspindita boala de piele si, fie ca apare in perioada adolescentei sau mai tirziu, este la fel de neplacuta atit pentru cel care sufera de ea, cit si pentru cei din jurul sau. Nimeni nu pretinde ca usturoiul ar fi un leac miraculos pentru acnee insa multe persoane cred ca ajuta, folosit atit intern cit si extern: \"In primul rind, usturoiul este un puternic antibiotic si curata foarte bine singele. De fapt, consumul de usturoi ajuta organismul sa se curete singur, eliminind toxinele si, astfel, reducind acneea. Proprietatile sale antiseptice si de curatire profunda il recomanda si ca tratament extern in acnee. Un catel de usturoi taiat si frecat usor pe zona cu pustule ajuta la vindecarea lor. Incercati acest lucru si la aparitia unui furuncul si veti vedea rezultatul! Pe linga faptul ca este un bun antibiotic, allicinul din usturoi este un tot atit de bun antifungic, fiind eficient in tratarea infectiilor pielii\".\
+Usturoiul, colesterolul si problemele cardiace
 
-Colesterolul -- o substanță albă, vîscoasă, care se găsește în plasma sanguină -- este esențial pentru viață. Există un colesterol \"bun\" și unul \"rău\" pentru sănătate. Totuși, un nivel ridicat al colesterolului poate avea implicații grave asupra sistemului cardiovascular, ducînd în final la ateroscleroză: \"Un nivel excesiv al colesterolului poate fi un indicator al unui risc crescut de atac cardiac și/sau cerebral. În timp ce o serie de studii individuale au arătat că usturoiul ajută în combaterea colesterolului nociv (LDL), nu există totuși o dovadă clară a eficienței acestuia. Însă, usturoiul are un renume încă din vechime ca fiind un remediu foarte bun în problemele cardiace\".
+Colesterolul -- o substanta alba, viscoasa, care se gaseste in plasma sanguina -- este esential pentru viata. Exista un colesterol \"bun\" si unul \"rau\" pentru sanatate. Totusi, un nivel ridicat al colesterolului poate avea implicatii grave asupra sistemului cardiovascular, ducind in final la ateroscleroza: \"Un nivel excesiv al colesterolului poate fi un indicator al unui risc crescut de atac cardiac si/sau cerebral. In timp ce o serie de studii individuale au aratat ca usturoiul ajuta in combaterea colesterolului nociv (LDL), nu exista totusi o dovada clara a eficientei acestuia. Insa, usturoiul are un renume inca din vechime ca fiind un remediu foarte bun in problemele cardiace\".
 
-Hipertensiunea arterială este o boală de care suferă foarte mulți oameni, unii chiar fără să știe. Această boală se caracterizează prin pomparea mai accelerată a sîngelui decît este normal: \"Se pare că efectele pozitive ale usturoiului în hipertensiune arterială se datorează, mai degrabă, compușilor bio-activi, care conțin sulf, decît allicinului (principalul component). Compușii bio-activi bogați în sulf nu au aceeași valoare terapeutică precum allicinul însă nu se distrug atît de repede și, mai ales, proprietățile terapeutice ale acestora nu dispar în timpul gătitului. Acești compuși nu au aceeași proprietate antibiotică și antifungică a allicinului însă sînt foarte eficienți pentru circulația sîngelui. Usturoiul, ajută la scăderea tensiunii arteriale și prin faptul ca reglează nivelul de colesterol. Sulfații ajută la scăderea nivelului colesterolului nociv, ajutînd foarte mult, prin aceasta, sistemul cardiovascular\".\
-O altă prioritate importantă a usturoiului, spune dna Beju, este aceea de antioxidant natural, ajutînd organismul în lupta cu radicalii liberi, principalii factori responsabili de procesul de îmbătrînire celulară și reducere a longevității. (C.I.)
+Hipertensiunea arteriala este o boala de care sufera foarte multi oameni, unii chiar fara sa stie. Aceasta boala se caracterizeaza prin pomparea mai accelerata a singelui decit este normal: \"Se pare ca efectele pozitive ale usturoiului in hipertensiune arteriala se datoreaza, mai degraba, compusilor bio-activi, care contin sulf, decit allicinului (principalul component). Compusii bio-activi bogati in sulf nu au aceeasi valoare terapeutica precum allicinul insa nu se distrug atit de repede si, mai ales, proprietatile terapeutice ale acestora nu dispar in timpul gatitului. Acesti compusi nu au aceeasi proprietate antibiotica si antifungica a allicinului insa sint foarte eficienti pentru circulatia singelui. Usturoiul, ajuta la scaderea tensiunii arteriale si prin faptul ca regleaza nivelul de colesterol. Sulfatii ajuta la scaderea nivelului colesterolului nociv, ajutind foarte mult, prin aceasta, sistemul cardiovascular\".\
+O alta prioritate importanta a usturoiului, spune dna Beju, este aceea de antioxidant natural, ajutind organismul in lupta cu radicalii liberi, principalii factori responsabili de procesul de imbatrinire celulara si reducere a longevitatii. (C.I.)
 
 <
 
@@ -243,22 +243,22 @@ Extern: analgezica, calmanta, antidepresiva, bactericida, cicatrizanta, parazici
 Se recomanda intern in: migrene, cefalee, afectiuni cardiace cu substrat nervos, tulburari digestive, balonari, anxietate, iritabilitate, spasme, insomnii, boli infectioase, melancolie, neurastenie, afectiuni ale cailor respiratorii, reumatism, debilitate infantila, atonie gastrica si intestinala, ameteli, isterie, sechele ale paraliziei, enterite, febra tifoida, cistite, paraziti intestinali, hipertensiune, bronsita.\
 Se recomanda extern in: stari febrile comprese cu tinctura diluata in apa, plagi de orice natura: simple, atone, infectate, cangrenoase, sifilitice comprese cu tinctura, arsuri de gradul I si II comprese cu tinctura - in ciuda usturimii efectele vindecatoare sunt remarcabile, cuperoza comprese cu tinctura diluata in apa, intepaturi de insecte, muscaturi de animale si de vipera (tratament imediat) comprese cu tinctura, pediculoza, caderea parului frictiune la radacina parului cu tinctura din abundenta, dupa care capul se acopera, dureri de cap, paralizie frictionari locale cu tinctura.
 
-**Tratament cu macerat din rădăcini de țelina și semințe de ovăz**
+**Tratament cu macerat din radacini de telina si seminte de ovaz**
 
-Acest tratament are efecte benefice în cazuri de digestie deficitară, inapetență, insuficiență suprarenală, colici renale, retenție urinară, litiază renală și vezicală, drenarea bilei, afecțiuni hepatice și splenice, gastrită acută și cronică, ulcer gastric și duodenal, eliminarea viermilor intestinali, diabet zaharat, gută, insuficiență tiroidiană, insomnie, surmenaj, stres, oboseală, astenie fizică și nervoasă, circulația proastă a sîngelui, hipertensiune arterială, obezitate, demineralizare, reumatism, afecțiuni pulmonare, gripe, răceli, bronșite, sterilitate, normalizarea ciclului menstrual.\
-În urma experiențelor clinice, s-a constatat că acest tratament are un puternic efect de detoxifiere a organismului, de purificare și regenerare sanguină.\
-Mai întîi se curăță rădăcinile de țelină, se spală cu apă rece, se taie în felii subțiri, apoi se dau prin mașina de tocat carne și se introduc într-un borcan. Cantitatea lor trebuie să ocupe o treime din borcan. În alt borcan, de aceeași capacitate, se pun semințe de ovăz nedecorticate, iar cantitatea lor trebuie să ocupe o treime din borcan. Semințele de ovăz se dau printr-o mașină de măcinat, în așa fel încît să fie doar mărunțite, sfărîmate și nu transformate în făină.\
-Atît peste țelină, cît și peste ovăz, se pune apă rece pînă se umple borcanul, apoi se agită cu o lingură de lemn. Se lasă la macerat timp de 24 de ore, după care fiecare macerat se strecoară separat printr-un tifon și se amestecă în părți egale. Amestecul trebuie consumat în timp de 2 zile, după care se prepară noi cantități prin același procedeu. Se consumă 1-1,5 l de macerat pe zi. Este bine ca acest tratament să se repete de mai multe ori în decursul unui an, cu pauze de 1-2 luni. (C.I.)
-
-<
-
-La normalizarea tensiunii arteriale, pe lîngă medicamente, pot contribui și unele produse obținute din plante medicinale. În primul rînd florile, frunzele și fructele de **păducel** -- infuzie dintr-o linguriță de frunze și flori sau 2 lingurițe de fructe la o cană cu apă. Întreaga cantitate se bea în cursul unei zile.\
-Efecte deosebite în hipertensiune arterială are și ceaiul din talpa gîștei -- infuzie din 3 linguri de plantă mărunțită la 200 ml de apă clocotită; se iau 3-5 linguri pe zi. (C.I.)
+Acest tratament are efecte benefice in cazuri de digestie deficitara, inapetenta, insuficienta suprarenala, colici renale, retentie urinara, litiaza renala si vezicala, drenarea bilei, afectiuni hepatice si splenice, gastrita acuta si cronica, ulcer gastric si duodenal, eliminarea viermilor intestinali, diabet zaharat, guta, insuficienta tiroidiana, insomnie, surmenaj, stres, oboseala, astenie fizica si nervoasa, circulatia proasta a singelui, hipertensiune arteriala, obezitate, demineralizare, reumatism, afectiuni pulmonare, gripe, raceli, bronsite, sterilitate, normalizarea ciclului menstrual.\
+In urma experientelor clinice, s-a constatat ca acest tratament are un puternic efect de detoxifiere a organismului, de purificare si regenerare sanguina.\
+Mai intii se curata radacinile de telina, se spala cu apa rece, se taie in felii subtiri, apoi se dau prin masina de tocat carne si se introduc intr-un borcan. Cantitatea lor trebuie sa ocupe o treime din borcan. In alt borcan, de aceeasi capacitate, se pun seminte de ovaz nedecorticate, iar cantitatea lor trebuie sa ocupe o treime din borcan. Semintele de ovaz se dau printr-o masina de macinat, in asa fel incit sa fie doar maruntite, sfarimate si nu transformate in faina.\
+Atit peste telina, cit si peste ovaz, se pune apa rece pina se umple borcanul, apoi se agita cu o lingura de lemn. Se lasa la macerat timp de 24 de ore, dupa care fiecare macerat se strecoara separat printr-un tifon si se amesteca in parti egale. Amestecul trebuie consumat in timp de 2 zile, dupa care se prepara noi cantitati prin acelasi procedeu. Se consuma 1-1,5 l de macerat pe zi. Este bine ca acest tratament sa se repete de mai multe ori in decursul unui an, cu pauze de 1-2 luni. (C.I.)
 
 <
 
-**Hrean și leuștean pentru hipertensiune arterială**
+La normalizarea tensiunii arteriale, pe linga medicamente, pot contribui si unele produse obtinute din plante medicinale. In primul rind florile, frunzele si fructele de **paducel** -- infuzie dintr-o lingurita de frunze si flori sau 2 lingurite de fructe la o cana cu apa. Intreaga cantitate se bea in cursul unei zile.\
+Efecte deosebite in hipertensiune arteriala are si ceaiul din talpa gistei -- infuzie din 3 linguri de planta maruntita la 200 ml de apa clocotita; se iau 3-5 linguri pe zi. (C.I.)
 
-Se amestecă o lingură de rădăcină rasă de hrean cu o lingură de miere pînă cînd se obține o pastă omogenă. Acest amestec se înghite în întregime dimineața, înainte de micul dejun. Cura se tine 30 de zile și se repetă la fiecare 2 luni. Tratamentul se aplica de 4 ori pe an, timp de 3 ani.
+<
 
-În paralel, se bea o infuzie de leuștean: 2 linguri de frunze uscate la o cană cu apă clocotită. Se infuzează 15 minute și se beau 2 căni pe zi. Mult mai puternică este tinctura din 20 g frunze . Se iauși 20 g rădăcini de leuștean, macerate 10 zile în 100 ml alcool de 70 cîte 25 de picături diluate în jumătate de pahar cu apă, de 3 ori pe zi. (C.I.)
+**Hrean si leustean pentru hipertensiune arteriala**
+
+Se amesteca o lingura de radacina rasa de hrean cu o lingura de miere pina cind se obtine o pasta omogena. Acest amestec se inghite in intregime dimineata, inainte de micul dejun. Cura se tine 30 de zile si se repeta la fiecare 2 luni. Tratamentul se aplica de 4 ori pe an, timp de 3 ani.
+
+In paralel, se bea o infuzie de leustean: 2 linguri de frunze uscate la o cana cu apa clocotita. Se infuzeaza 15 minute si se beau 2 cani pe zi. Mult mai puternica este tinctura din 20 g frunze . Se iausi 20 g radacini de leustean, macerate 10 zile in 100 ml alcool de 70 cite 25 de picaturi diluate in jumatate de pahar cu apa, de 3 ori pe zi. (C.I.)

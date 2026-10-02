@@ -1,14 +1,14 @@
-**[Recomandări culinare]{.underline}**
+**[Recomandari culinare]{.underline}**
 
 []{.underline}
 
-- dimineata se recomandă a se consuma fructe pe stomacul gol
+- dimineata se recomanda a se consuma fructe pe stomacul gol
 
-- la prânz se recomandă a se consuma proteine cu legume
+- la pranz se recomanda a se consuma proteine cu legume
 
-- seara se recomandă a se consuma produse cerealiere (fulgi de cereale, mămăligă, piure de orez, paste fierte,\...)
+- seara se recomanda a se consuma produse cerealiere (fulgi de cereale, mamaliga, piure de orez, paste fierte,\...)
 
-- o singură dată pe saptămână se pot consuma alimente prăjite
+- o singura data pe saptamana se pot consuma alimente prajite
 
 []{.underline}
 
@@ -65,7 +65,7 @@
 []{.underline}
 
  ------------------
- **Semințe**
+ **Seminte**
  dovleac
  alune
  susan
@@ -77,11 +77,11 @@
 +-----------------------------------------+---------------+
 | **Produse cerealiere** | |
 +-----------------------------------------+---------------+
-| făină de orez | |
+| faina de orez | |
 +-----------------------------------------+---------------+
-| făină de grâu integral | |
+| faina de grau integral | |
 +-----------------------------------------+---------------+
-| mălai | |
+| malai | |
 +-----------------------------------------+---------------+
 | | |
 +-----------------------------------------+---------------+
@@ -91,9 +91,9 @@
 +-----------------------------------------+---------------+
 | **Condimente** | |
 | | |
-| pătrunjel | |
+| patrunjel | |
 | | |
-| țelină | |
+| telina | |
 | | |
 | piper | |
 | | |
@@ -105,27 +105,27 @@
 +-----------------------------------------+---------------+
 | **Legume** | **Fructe** |
 +-----------------------------------------+---------------+
-| dovleac | lămâi |
+| dovleac | lamai |
 +-----------------------------------------+---------------+
 | cartofi | portocale |
 +-----------------------------------------+---------------+
-| roșii | smochine |
+| rosii | smochine |
 +-----------------------------------------+---------------+
-| castraveți | pere |
+| castraveti | pere |
 +-----------------------------------------+---------------+
 | vinete | prune |
 +-----------------------------------------+---------------+
-| ardei | moșmoane |
+| ardei | mosmoane |
 +-----------------------------------------+---------------+
 | morcovi | piersici |
 +-----------------------------------------+---------------+
-| ceapă | pepene galben |
+| ceapa | pepene galben |
 +-----------------------------------------+---------------+
 | usturoi | gutui |
 +-----------------------------------------+---------------+
 | hrean | mere |
 +-----------------------------------------+---------------+
-| păstârnac | |
+| pastarnac | |
 +-----------------------------------------+---------------+
 | | |
 +-----------------------------------------+---------------+
@@ -175,21 +175,21 @@
 +-----------------------------------------+---------------+
 | ulei presat la rece de floarea-soarelui | |
 +-----------------------------------------+---------------+
-| zahăr brun / miere | |
+| zahar brun / miere | |
 +-----------------------------------------+---------------+
-| pâine graham/integrală | |
+| paine graham/integrala | |
 +-----------------------------------------+---------------+
-| salată de icre | |
+| salata de icre | |
 +-----------------------------------------+---------------+
-| sare de mare iodată | |
+| sare de mare iodata | |
 +-----------------------------------------+---------------+
-| brânză fără cheag | |
+| branza fara cheag | |
 +-----------------------------------------+---------------+
-| smântână | |
+| smantana | |
 +-----------------------------------------+---------------+
-| iaurt /lapte bătut | |
+| iaurt /lapte batut | |
 +-----------------------------------------+---------------+
-| paste făinoase | |
+| paste fainoase | |
 +-----------------------------------------+---------------+
 | | |
 +-----------------------------------------+---------------+
@@ -220,8 +220,8 @@
 
  ------------------------
  **Produse animaliere**
- carne slabă de pui
- carne slabă de vită
- splină de vită
- pește
+ carne slaba de pui
+ carne slaba de vita
+ splina de vita
+ peste
  ------------------------

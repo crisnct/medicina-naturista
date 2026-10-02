@@ -1,9 +1,9 @@
 # Acnee
 
-**Hreanul :** ras și macerat în oțet dă o soluție pentru vindecarea acneei.
+**Hreanul :** ras si macerat in otet da o solutie pentru vindecarea acneei.
 
-**Arpacașul :** este considerat vindecătorul pieli.
+**Arpacasul :** este considerat vindecatorul pieli.
 
-**Împachetări cu terci de arpacaș :** se macină fin arpacaș, se amestecă cu apă de la fântână și se pune pe foc într-un vas nemetalic, amestecând continuu, vreme de 5-10 minute, apoi se lasă să se răcească la temperatura camerei. Terciul obținut se aplică pe porțiunea de piele bolnava, timp de 15-20 minute, apoi se clătește bine cu apă călduță. Aplicarea se face cât mai des.
+**Impachetari cu terci de arpacas :** se macina fin arpacas, se amesteca cu apa de la fantana si se pune pe foc intr-un vas nemetalic, amestecand continuu, vreme de 5-10 minute, apoi se lasa sa se raceasca la temperatura camerei. Terciul obtinut se aplica pe portiunea de piele bolnava, timp de 15-20 minute, apoi se clateste bine cu apa calduta. Aplicarea se face cat mai des.
 
-**Ceai de arpacaș :** 2 linguri de arpacaș prăjit într-o tigaie fără ulei vreme de 10 minute, se fierbe apoi în apă de fântână tot 10 minute \[vasul să fie nemetalic\] . Se bea zilnic, călduț sau rece, eventual îndulcit cu miere. În plus suferinzi de acnee să mănânce cât mai mult arpacaș. Rezultatele vor fi foarte bune .
+**Ceai de arpacas :** 2 linguri de arpacas prajit intr-o tigaie fara ulei vreme de 10 minute, se fierbe apoi in apa de fantana tot 10 minute \[vasul sa fie nemetalic\] . Se bea zilnic, caldut sau rece, eventual indulcit cu miere. In plus suferinzi de acnee sa manance cat mai mult arpacas. Rezultatele vor fi foarte bune .

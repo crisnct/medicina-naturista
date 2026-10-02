@@ -1,37 +1,37 @@
 # **Cucuta :**
-cu zeamă de cucută fiartă și amestecată cu ulei se spală rana la mușcătura de șarpe .
+cu zeama de cucuta fiarta si amestecata cu ulei se spala rana la muscatura de sarpe .
 
 # **Dafinul :**
-frunzele pisate și fierte cu untdelemn, vindecă rănile care nu se închid.
+frunzele pisate si fierte cu untdelemn, vindeca ranile care nu se inchid.
 
 # **Castravetele :**
-durerea de cap se liniștește dacă se pune pe fiecare tâmplă câte o felie de castravete.
+durerea de cap se linisteste daca se pune pe fiecare tampla cate o felie de castravete.
 
-# **Nemțișorul \[toporași\] :**
-ceaiul de toporași trebuie băut de femeile care nu pot face copii.
+# **Nemtisorul \[toporasi\] :**
+ceaiul de toporasi trebuie baut de femeile care nu pot face copii.
 
 # **Nuca :**
-zeama de nucă verde vindecă pecinginea.
+zeama de nuca verde vindeca pecinginea.
 
 # **Pelinul :**
-cu zeamă de pelin fiert se spală rănile cu puroi
+cu zeama de pelin fiert se spala ranile cu puroi
 
-# **Coada șoricelului :**
-spălăturile cu ceai de coada șoricelului vindecă mameloanele crăpate ale femeilor care alăptează
+# **Coada soricelului :**
+spalaturile cu ceai de coada soricelului vindeca mameloanele crapate ale femeilor care alapteaza
 
 # **Hreanul :**
-potolește nervi ațâțați.
+potoleste nervi atatati.
 
-# **Salată :** frunzele de salată fierte în apă dau un lichid care curăță și înmoaie pielea.
+# **Salata :** frunzele de salata fierte in apa dau un lichid care curata si inmoaie pielea.
 
-# **Rețetă pentru îngrășat :**
-amestecați 4 linguri cu vârf de lactoză \[se găsește în farmacii\] într-un suc de fructe, ceai de plante sau apă. Bine măsurate și administrate înainte cu 1 ½ de prânz și cină aceste doze fac ca pacientul să ia în greutate cu 5kg mai mult într-o lună.
+# **Reteta pentru ingrasat :**
+amestecati 4 linguri cu varf de lactoza \[se gaseste in farmacii\] intr-un suc de fructe, ceai de plante sau apa. Bine masurate si administrate inainte cu 1 ½ de pranz si cina aceste doze fac ca pacientul sa ia in greutate cu 5kg mai mult intr-o luna.
 
-# **Rețetă pentru slăbit :**
-ca să slăbiți, amestecați 2 cești de suc de varză roșie cu 1 de suc de grapefruit. Beți 3 pahare zilnic înainte de mese.
+# **Reteta pentru slabit :**
+ca sa slabiti, amestecati 2 cesti de suc de varza rosie cu 1 de suc de grapefruit. Beti 3 pahare zilnic inainte de mese.
 
 # **Talismanul din felii de cartofi**,
-purtat la gât pe tot parcursul iernii, previne dovedit și garantat îmbolnăvirea celor predispuși la răceli.
+purtat la gat pe tot parcursul iernii, previne dovedit si garantat imbolnavirea celor predispusi la raceli.
 
 # **Pentru afte bucale** :
-în clipa când simți ca va apare o astfel de aftă, se va lua ½ linguriță de bicarbonat de sodiu și se va ține în gură amestecat cu salivă, vreme de 1/2ora sau 1oră. Această operație se poate repeta de 2-3 ori pe zi.
+in clipa cand simti ca va apare o astfel de afta, se va lua ½ lingurita de bicarbonat de sodiu si se va tine in gura amestecat cu saliva, vreme de 1/2ora sau 1ora. Aceasta operatie se poate repeta de 2-3 ori pe zi.

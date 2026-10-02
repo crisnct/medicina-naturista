@@ -22,13 +22,13 @@
 
 - Radacina de cicoare
 
-- Ceai de fumarita. Poate fi utilizată, de asemenea, și în curele de slăbire sau de eliminare a compușilor grași din sânge. Se spune despre fumăriță că are capacitatea de a încetini procesele de uzură, de îmbătrânire a organismului omenesc. Utilizarea preparatelor din această plantă se va face sub îndrumarea specialistului, a medicului, printre altele și datorită faptului că tratamentul trebuie să fie sub supravegheat(pot apărea afecte nedorite) și nu trebuie să depășească două săptămâni.
+- Ceai de fumarita. Poate fi utilizata, de asemenea, si in curele de slabire sau de eliminare a compusilor grasi din sange. Se spune despre fumarita ca are capacitatea de a incetini procesele de uzura, de imbatranire a organismului omenesc. Utilizarea preparatelor din aceasta planta se va face sub indrumarea specialistului, a medicului, printre altele si datorita faptului ca tratamentul trebuie sa fie sub supravegheat(pot aparea afecte nedorite) si nu trebuie sa depaseasca doua saptamani.
 
 ### Pentru elasticitatea vaselor de sange
 
 - Coada-calului – pulbere 3-4 lingurite pe zi. Cu varsta cantitatea de
 
-siliciu scade din organism, determinand rigidizarea si scleroza vaselor de sange, planta conține cea mai mare cantitate de siliciu solubil, in cure de 2 – 3 luni.
+siliciu scade din organism, determinand rigidizarea si scleroza vaselor de sange, planta contine cea mai mare cantitate de siliciu solubil, in cure de 2 – 3 luni.
 
 - Seminte de dovleac si floarea-soarelui crude: 100g pe zi
 
@@ -46,7 +46,7 @@ siliciu scade din organism, determinand rigidizarea si scleroza vaselor de sange
 
 Alimentatie:
 
-- Se scot din alimentație: carnea, prăjelile, untul și margarina, dulciurile
+- Se scot din alimentatie: carnea, prajelile, untul si margarina, dulciurile
 
 - N-acetil-cisteina – reduce riscul de infarct
 

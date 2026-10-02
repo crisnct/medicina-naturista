@@ -2,7 +2,7 @@ CURS 15
 
 Ierburi stimulente
 
-Stimulentele grăbesc, excita și cresc sensibilitatea nervoasa, stimuland astfel energia în organism și consolidandu-i funcția. Aceste plante stimuleaza în mod natural, în contrast cu medicamente artificiale și alcoolul, care irita și slabesc sistemul. Stimulentele cresc puterea pulsului și transporta sângele in toate părțile corpului, egalizeaza și restabilesc circulația peste tot.
+Stimulentele grabesc, excita si cresc sensibilitatea nervoasa, stimuland astfel energia in organism si consolidandu-i functia. Aceste plante stimuleaza in mod natural, in contrast cu medicamente artificiale si alcoolul, care irita si slabesc sistemul. Stimulentele cresc puterea pulsului si transporta sangele in toate partile corpului, egalizeaza si restabilesc circulatia peste tot.
 
 # CAYENNE (Capsicum frutescens; C. minimum; C. annuum; SOLANACEAE)
 
@@ -36,31 +36,31 @@ Efecte secundare Din cauza gustului picant , cayenne nu este pentru toata lumea.
 
  Mod de preparare: Pune pulberea in apa de baie fierbinte.
 
-Administrare: pacientul trebuie sa stea in apa de baie fierbinte pe cat e posibil până ce transpira abundent. Trebuie supravegheat cu grija, astfel încât să nu leșine.
+Administrare: pacientul trebuie sa stea in apa de baie fierbinte pe cat e posibil pana ce transpira abundent. Trebuie supravegheat cu grija, astfel incat sa nu lesine.
 
 # **Tuse, tuberculoza**
 
 1 lingurita pulbere de Cayenne (Capsicum frutescens; C. minim)
 
-1-2 uncii pulbere de scoarță de Slippery Elm (Ulmus rubra)
+1-2 uncii pulbere de scoarta de Slippery Elm (Ulmus rubra)
 
 1 felie de lamaie (Citrus limon)
 
  2 linguri de miere
 
- Mod de preparare: Se infuzezaa în 1 litru de apă clocotită si se pune intr-o sticla neastupata.
+ Mod de preparare: Se infuzezaa in 1 litru de apa clocotita si se pune intr-o sticla neastupata.
 
-Dozare: se ia de la o lingurita la o lingura, în funcție de vârstă, ori de câte ori e necesar.
+Dozare: se ia de la o lingurita la o lingura, in functie de varsta, ori de cate ori e necesar.
 
-# **Alifie pentru congestie pulmonară, entorse**
+# **Alifie pentru congestie pulmonara, entorse**
 
 1 lingura pulbere de Cayenne (Capsicum frutescens; C. minim)
 
 1 halba otet de mere
 
-Mod de preparare: se fierbe timp de 10 minute într-un recipient închis, se pune in sticla fierbinte, fara sa se astupe.
+Mod de preparare: se fierbe timp de 10 minute intr-un recipient inchis, se pune in sticla fierbinte, fara sa se astupe.
 
- Administrare: se aplică pe zona în care este necesar, fără a masa prea mult.
+ Administrare: se aplica pe zona in care este necesar, fara a masa prea mult.
 
 # **Alifie pentru rani, contuzii, arsur**i
 
@@ -70,17 +70,17 @@ Mod de preparare: se fierbe timp de 10 minute într-un recipient închis, se pun
 
 56g guma de Mir (Commiphora myrrha, var. Molmol)
 
- Mod de preparare: Pune în 1 litru de alcool medicinal sau in oțet de mere; se lasa la macerat, se agită bine de 3 ori pe zi timp de 10 zile, se strecoara si se păstrează într-un flacon colorat.
+ Mod de preparare: Pune in 1 litru de alcool medicinal sau in otet de mere; se lasa la macerat, se agita bine de 3 ori pe zi timp de 10 zile, se strecoara si se pastreaza intr-un flacon colorat.
 
- Dozare: Aplica pe suprafața curata atunci când este necesar.
+ Dozare: Aplica pe suprafata curata atunci cand este necesar.
 
-# **Durere în gât**
+# **Durere in gat**
 
 1 lingurita pulbere de Cayenne (Capsicum frutescens; C. minim)
 
 1/2 litru ceaiul de salvie rosie de gradina(Salvia officinalis)
 
-2 linguri de oțet de mere
+2 linguri de otet de mere
 
 2 linguri de sare de mare
 
@@ -88,11 +88,11 @@ Mod de preparare: se fierbe timp de 10 minute într-un recipient închis, se pun
 
 Mod de preparare: se pune Cayenne in ceaiul de salvie, apoi se amesteca cu restul de ingrediente
 
-. Dozare: gargara de la 4 pana la 12 ori pe zi. Ia o lingură sau două oral după gargara. Ia amestectul pe cale orală câte ori este nevoie, dar după gargara.
+. Dozare: gargara de la 4 pana la 12 ori pe zi. Ia o lingura sau doua oral dupa gargara. Ia amestectul pe cale orala cate ori este nevoie, dar dupa gargara.
 
 # GHIMBIR (Zingiber officinalis; ZINGIBERACEAE)
 
-Ghimbirul (Zingiber officinale), denumit popular și „ghimber” sau „gingiber”, este numele dat unei plante erbacee din regiunile tropicale, cu rizom aromatic bogat în uleiuri eterice. Este o specie perenă care are nevoie de o temperatură ridicată și constantă precum și de o umiditate permanentă pentru a se dezvolta corespunzător. Rizomul de ghimbir are o forma neregulată, contorsionată si e noduros, atingând până la 5-6 centimetri în lungime. Ghimbirul e deosebit de prețuit în bucătăriile orientale din India, Malaezia, Nepal, Bangladesh etc. Un nume alternativ al ghimbirului, introdus de turci în Moldova și Muntenia a fost cel de 'piper alb'. Denumirea de ghimbir a fost folosită mai ales în Banat și Ardeal provenind din maghiarul gyömber, iar apoi s-a impus în intreaga țară. În fostele colonii britanice, cum ar fi Canada, Australia, Jamaica, Kenia, se consumă o așa-zisă "bere" din ghimber (ginger beer) care de fapt este o băutură ne-alcoolică, răcoritoare. Substanțele active importante pe care le conține ghimbirul sunt compuși specifici numiți gingeroli, fenoli, ulei volatil.
+Ghimbirul (Zingiber officinale), denumit popular si „ghimber” sau „gingiber”, este numele dat unei plante erbacee din regiunile tropicale, cu rizom aromatic bogat in uleiuri eterice. Este o specie perena care are nevoie de o temperatura ridicata si constanta precum si de o umiditate permanenta pentru a se dezvolta corespunzator. Rizomul de ghimbir are o forma neregulata, contorsionata si e noduros, atingand pana la 5-6 centimetri in lungime. Ghimbirul e deosebit de pretuit in bucatariile orientale din India, Malaezia, Nepal, Bangladesh etc. Un nume alternativ al ghimbirului, introdus de turci in Moldova si Muntenia a fost cel de 'piper alb'. Denumirea de ghimbir a fost folosita mai ales in Banat si Ardeal provenind din maghiarul gyömber, iar apoi s-a impus in intreaga tara. In fostele colonii britanice, cum ar fi Canada, Australia, Jamaica, Kenia, se consuma o asa-zisa "bere" din ghimber (ginger beer) care de fapt este o bautura ne-alcoolica, racoritoare. Substantele active importante pe care le contine ghimbirul sunt compusi specifici numiti gingeroli, fenoli, ulei volatil.
 
 Cuvantul "ghimbir" provine, asemenea altor denumiri ale plantei in mai multe limbi europene (”Ingwer” in germana, ”gingembre” in franceza, ”ghimbir” in romana, ”zenzero” in italiana, ”ginger” in engleza etc.) din latinescul ”zingiber”, imprumutat si el din greaca veche (”zingiberis”).
 
@@ -102,25 +102,25 @@ Cu toate ca denumirile in majoritatea limbilor europene provin din greaca veche,
 
 Proprietati medicale:
 
-Abia la începutul anilor 1980 cercetătorii occidentali s-au preocupat de virtuțile terapeutice ale ghimbirului, in special rizomul.
+Abia la inceputul anilor 1980 cercetatorii occidentali s-au preocupat de virtutile terapeutice ale ghimbirului, in special rizomul.
 
-\-În răceală, acționează asupra plămânilor, stomacului și splinei. O rădăcină proaspătă de ghimbir, rasă și fiartă în 250 ml apă, timp de 10 minute, produce un ceai cu efecte remarcabile în tratarea edemelor, vomei sau tusei, inducând și o senzație puternică de încălzire a corpului, respectiv un efect sudorific pregnant. Atunci când febra nu cedează, fierbe 100 g ghimbir proaspăt în 500 ml apă și spăla tot corpul cu zeama rezultată. Dacă tusea nu vrea să te lase în pace, stoarce o rădăcină de ghimbir și amesteca sucul cu puțină miere și 250 ml apă fierbinte; bea câte 1-2 căni pe zi. Ceaiul de ghimbir este un calmant ideal în inflamațiile gâtului, sinuzite, răgușeală, febră, eliminare de mucozități și congestii respiratorii.
+\-In raceala, actioneaza asupra plamanilor, stomacului si splinei. O radacina proaspata de ghimbir, rasa si fiarta in 250 ml apa, timp de 10 minute, produce un ceai cu efecte remarcabile in tratarea edemelor, vomei sau tusei, inducand si o senzatie puternica de incalzire a corpului, respectiv un efect sudorific pregnant. Atunci cand febra nu cedeaza, fierbe 100 g ghimbir proaspat in 500 ml apa si spala tot corpul cu zeama rezultata. Daca tusea nu vrea sa te lase in pace, stoarce o radacina de ghimbir si amesteca sucul cu putina miere si 250 ml apa fierbinte; bea cate 1-2 cani pe zi. Ceaiul de ghimbir este un calmant ideal in inflamatiile gatului, sinuzite, raguseala, febra, eliminare de mucozitati si congestii respiratorii.
 
-\-Indigestia poate fi tratată dacă mananci căteva bucățele de tulpină de ghimbir proaspăt. Este calmant pentru durerile abdominale, ajută digestia, elimină gazele, dă poftă de mâncare, neutralizează toxinele, în vreme ce o cană de suc din aceeași parte a plantei vă poate scăpa de un sughiț rebel, greață sau vomă, ori chiar de o toxiinfecție alimentară.
+\-Indigestia poate fi tratata daca mananci cateva bucatele de tulpina de ghimbir proaspat. Este calmant pentru durerile abdominale, ajuta digestia, elimina gazele, da pofta de mancare, neutralizeaza toxinele, in vreme ce o cana de suc din aceeasi parte a plantei va poate scapa de un sughit rebel, greata sau voma, ori chiar de o toxiinfectie alimentara.
 
-\-Reumatism: Rapoarte medicale din diverse spitale chinezești arată că injectarea unei soluții de 5-10% suc de ghimbir în zonele afectate, poate trata cu succes durerile reumatice.
+\-Reumatism: Rapoarte medicale din diverse spitale chinezesti arata ca injectarea unei solutii de 5-10% suc de ghimbir in zonele afectate, poate trata cu succes durerile reumatice.
 
-\-Ghimbirul este folosit, adesea, ca antidot în caz de rău de mare. Este întrebuințat, de asemenea, pentru combaterea răului de altitudine, de mașină, de mișcare de rotație. Ghimbirul acționează și împotriva stărilor de vomă, grețurilor, deranjamentelor stomacale sau intestinale. În caz de greață, se ține în gură, sub limbă, o bucățică de rădăcină de ghimbir. Senzația de greață și vomă va dispărea imediat.
+\-Ghimbirul este folosit, adesea, ca antidot in caz de rau de mare. Este intrebuintat, de asemenea, pentru combaterea raului de altitudine, de masina, de miscare de rotatie. Ghimbirul actioneaza si impotriva starilor de voma, greturilor, deranjamentelor stomacale sau intestinale. In caz de greata, se tine in gura, sub limba, o bucatica de radacina de ghimbir. Senzatia de greata si voma va disparea imediat.
 
-\-În China, este cunoscut ca antiastmatic de peste 3000 ani, folosindu-se suc de ghimbir și morcovi. Astmul se mai poate trata cu tinctură de ghimbir care eliberează plămânul de secreții.0.5-1.5 g de praf de rădăcină de ghimbir, luat de 3 ori pe zi, înainte de masă, înlătură durerile de cap de natură nevralgică și spastică, grețurile și voma (la femeile însărcinate), tratează bronșita și astmul bronșic, frigiditate, cataracta.
+\-In China, este cunoscut ca antiastmatic de peste 3000 ani, folosindu-se suc de ghimbir si morcovi. Astmul se mai poate trata cu tinctura de ghimbir care elibereaza plamanul de secretii.0.5-1.5 g de praf de radacina de ghimbir, luat de 3 ori pe zi, inainte de masa, inlatura durerile de cap de natura nevralgica si spastica, greturile si voma (la femeile insarcinate), trateaza bronsita si astmul bronsic, frigiditate, cataracta.
 
-\-În industria parfumurilor: grație uleiului esențial pe care îl conține, rizomul de ghimbir emană o savoare de lămâie piperată și conferă astfel căldură și personalitate parfumurilor.
+\-In industria parfumurilor: gratie uleiului esential pe care il contine, rizomul de ghimbir emana o savoare de lamaie piperata si confera astfel caldura si personalitate parfumurilor.
 
-\-În industria cosmeticelor: La spitalele din Beijing, este utilizat în tratamentul alopeciilor (cheliilor) sub formă de rondele proaspete. Cosmetologii europeni au fabricat loțiuni cu ghimbir pentru tonificarea și revitalizarea părului. Loțiunile de corp pe bază de ghimbir au efecte de întinerire: hrănesc epiderma și îi conferă finețe și suplețe. Fiind bogat în magneziu, fosfor și acizi aminați, ghimbirul este omniprezent în formule revitalizante ale cremelor de față.
+\-In industria cosmeticelor: La spitalele din Beijing, este utilizat in tratamentul alopeciilor (cheliilor) sub forma de rondele proaspete. Cosmetologii europeni au fabricat lotiuni cu ghimbir pentru tonificarea si revitalizarea parului. Lotiunile de corp pe baza de ghimbir au efecte de intinerire: hranesc epiderma si ii confera finete si suplete. Fiind bogat in magneziu, fosfor si acizi aminati, ghimbirul este omniprezent in formule revitalizante ale cremelor de fata.
 
-\-În medicina alternativă: Moleculele aromatice de ghimbir trimit impulsuri creierului imediat ce ating pielea, relaxând și detensionând musculatura. Rădăcina încălzește meridianele de acupunctură. Terapeuții folosesc uleiurile aromatice de ghimbir pentru fricționarea zonelor unde se acumulează tensiuni negative: tâmplă, ceafă, încheieturi.
+\-In medicina alternativa: Moleculele aromatice de ghimbir trimit impulsuri creierului imediat ce ating pielea, relaxand si detensionand musculatura. Radacina incalzeste meridianele de acupunctura. Terapeutii folosesc uleiurile aromatice de ghimbir pentru frictionarea zonelor unde se acumuleaza tensiuni negative: tampla, ceafa, incheieturi.
 
-\-Ghimbirul are și proprietăți afrodisiace, stimulative, tonifiante, acționând prin grupul de compuși numiți gingeroli, asupra sistemului nervos. Alte proprietăți ale ghimberului: antitoxic, hipotensiv, antitusiv.
+\-Ghimbirul are si proprietati afrodisiace, stimulative, tonifiante, actionand prin grupul de compusi numiti gingeroli, asupra sistemului nervos. Alte proprietati ale ghimberului: antitoxic, hipotensiv, antitusiv.
 
 # **Flatulenta**
 
@@ -128,45 +128,45 @@ Abia la începutul anilor 1980 cercetătorii occidentali s-au preocupat de virtu
 
 1 lingurita bicarbonat de sodiu
 
-Mod de preparare: Pune ingredientele în 1 pahar de apă caldă si amesteca.
+Mod de preparare: Pune ingredientele in 1 pahar de apa calda si amesteca.
 
-Dozare: Se bea un pahar, după cum este necesar.
+Dozare: Se bea un pahar, dupa cum este necesar.
 
-# **Laxativ** 1/4 linguriță ghimbir(Zingiber officinalis)
+# **Laxativ** 1/4 lingurita ghimbir(Zingiber officinalis)
 
  20 frunze de Senna (Cassia angustifolia)
 
 1 felie de lamaie (Citrus limon)
 
- Mod de preparare: Se pun într-o cana, cu 1/3 cana de apa fierbinte (asigura-te că e acoperit);se îndulceste cu miere.
+ Mod de preparare: Se pun intr-o cana, cu 1/3 cana de apa fierbinte (asigura-te ca e acoperit);se indulceste cu miere.
 
 Dozare: Se bea lichidul limpede de la 1 ceasca in sus.
 
 # Radacina de sarpe de Virginia (Aristolochia serpentaria; ARISTOLOCHIACEAE)
 
-Aristolochia serpentaria \- prezinta un rizom scurt, tulpina subtire, frunze oval cordiforme, perigon bilabiat. Creste în Texas si Mississipi. Rizomul are gust amar si picant, miros asemanator uneori cu cel de camfor, terebentina sau valeriana. În doze mici este excitant, în doze mari emetic si purgativ.
+Aristolochia serpentaria \- prezinta un rizom scurt, tulpina subtire, frunze oval cordiforme, perigon bilabiat. Creste in Texas si Mississipi. Rizomul are gust amar si picant, miros asemanator uneori cu cel de camfor, terebentina sau valeriana. In doze mici este excitant, in doze mari emetic si purgativ.
 
 # Izma buna (Mentha piperita; LABIATAE)
 
-Izma bună (Mentha x piperita) este o plantă medicinală aromată erbacee, perenă, din familia Lamiaceae, cunoscută sub mai multe denumiri populare: izmă de grădină, izmă bună, izmă proastă, izmă de les, camfor, mentă, mintă, mintă de grădină, mintă de câmp, minta calului, mintă sălbatică, vaeșniță.
+Izma buna (Mentha x piperita) este o planta medicinala aromata erbacee, perena, din familia Lamiaceae, cunoscuta sub mai multe denumiri populare: izma de gradina, izma buna, izma proasta, izma de les, camfor, menta, minta, minta de gradina, minta de camp, minta calului, minta salbatica, vaesnita.
 
 Caracteristici de identificare:
 
-Plantă erbacee, perenă, erectă, înaltă de până la 1 m, cu frunze opuse, scurt pețiolate, cu peri secretori de ulei etiric și cu flori mici (sub frunză) de culoare roșu-violaceu, grupate în cime, dispuse într-o inflorescență speciformă conică. Se cultivă în scopuri farmaceutice dar crește și spontan în locuri cu soluri ușoare, bogate în materii nutritive, în locuri aluvionare, turboase și desecate. Înflorește începând cu luna iunie și până în septembrie.
+Planta erbacee, perena, erecta, inalta de pana la 1 m, cu frunze opuse, scurt petiolate, cu peri secretori de ulei etiric si cu flori mici (sub frunza) de culoare rosu-violaceu, grupate in cime, dispuse intr-o inflorescenta speciforma conica. Se cultiva in scopuri farmaceutice dar creste si spontan in locuri cu soluri usoare, bogate in materii nutritive, in locuri aluvionare, turboase si desecate. Infloreste incepand cu luna iunie si pana in septembrie.
 
-În scopuri medicinale se recoltează în perioada de înflorire, frunzele.
+In scopuri medicinale se recolteaza in perioada de inflorire, frunzele.
 
-Raspandire: Temperatura ridicată determină conținutul în ulei volatil al mentei. Crește la lumină, în umiditate. După prima recoltare excesul de umiditate este dăunător. Crește pe soluri ușoare, afânate, mai ales în Câmpia de Vest, Câmpia Olteniei, Câmpia Burnazului, Câmpia Bărăganului, Câmpia Dobrogei, în zone din Țara Bârsei, în sudul și centrul Moldovei (Județele Bacău, Neamț, Galați, Vrancea).
+Raspandire: Temperatura ridicata determina continutul in ulei volatil al mentei. Creste la lumina, in umiditate. Dupa prima recoltare excesul de umiditate este daunator. Creste pe soluri usoare, afanate, mai ales in Campia de Vest, Campia Olteniei, Campia Burnazului, Campia Baraganului, Campia Dobrogei, in zone din Tara Barsei, in sudul si centrul Moldovei (Judetele Bacau, Neamt, Galati, Vrancea).
 
-Componenti esentiali: Ulei volatil (cu componenta principală, mentolul), mentone, mento-furan, alfa pinen, fenandren, limonen, cadinen, cincol, aldehidă acetică, alcool (amilic și izomilic), carvacrol, timol, tanin, substanțe antibiotice, substanțe minerale, hipericină, acid piruvic, polifenoli.
+Componenti esentiali: Ulei volatil (cu componenta principala, mentolul), mentone, mento-furan, alfa pinen, fenandren, limonen, cadinen, cincol, aldehida acetica, alcool (amilic si izomilic), carvacrol, timol, tanin, substante antibiotice, substante minerale, hipericina, acid piruvic, polifenoli.
 
-Proprietati medicinale: antiseptic, gastrointestinal, bacteriostatic și carminativ, colagog, sudorific, diuretic
+Proprietati medicinale: antiseptic, gastrointestinal, bacteriostatic si carminativ, colagog, sudorific, diuretic
 
 Indicatii terapeutice:
 
-Intern în infecții gastro-intestinale, balonări abdominale, dispepsii, dischinezii biliare cu hipertonie, diaree, calmant în vărsături (atât la sugari cât și la adulți), spasme pilorice.
+Intern in infectii gastro-intestinale, balonari abdominale, dispepsii, dischinezii biliare cu hipertonie, diaree, calmant in varsaturi (atat la sugari cat si la adulti), spasme pilorice.
 
-Extern, sub formă de cataplasme reci: contribuie la ameliorarea durerilor de cap; în dureri reumatice și urticarie; în îngrijirea tenurilor grase și seboreice.
+Extern, sub forma de cataplasme reci: contribuie la ameliorarea durerilor de cap; in dureri reumatice si urticarie; in ingrijirea tenurilor grase si seboreice.
 
 # **Remediu pentru gripa, febra, inflamatie**
 
@@ -174,9 +174,9 @@ Extern, sub formă de cataplasme reci: contribuie la ameliorarea durerilor de ca
 
 28g flori de soc (Sambucus canadensis)
 
-Preparare: Se pun într-un vas corespunzător și se toarnă 1/2 litru de apa clocotita peste plante, se acoperă bine si se tine la cald pe aragaz timp de 15 minute, se strecoara si se acopera imediat si se tine la cald.
+Preparare: Se pun intr-un vas corespunzator si se toarna 1/2 litru de apa clocotita peste plante, se acopera bine si se tine la cald pe aragaz timp de 15 minute, se strecoara si se acopera imediat si se tine la cald.
 
-Dozare: 1 ceașcă de ceai la fiecare 30 \- 45 de minute până când pacientul transpira, apoi 2 linguri la fiecare 1 până la 2 ore.
+Dozare: 1 ceasca de ceai la fiecare 30 \- 45 de minute pana cand pacientul transpira, apoi 2 linguri la fiecare 1 pana la 2 ore.
 
 # Obstructii menstruale (pentru o persoana extrem de nervoasaa sau isterica)
 
@@ -184,43 +184,43 @@ Dozare: 1 ceașcă de ceai la fiecare 30 \- 45 de minute până când pacientul 
 
 1 parte Betony wood, planta (Stachys officinalis)
 
- Pregãtirea: infuzie (se acopera bine). Dozare: cca.60 ml de lichid la fiecare trei ore
+ Pregatirea: infuzie (se acopera bine). Dozare: cca.60 ml de lichid la fiecare trei ore
 
 # **Tonic stomacal**
 
-3 grame de frunze de mentă (Mentha piperita)
+3 grame de frunze de menta (Mentha piperita)
 
-3 grame de semințe de fenicul (Foeniculum vulgare)
+3 grame de seminte de fenicul (Foeniculum vulgare)
 
 1 gram rubarba turceasca (Rheum palmatum)
 
-Mod de preparare: se infuzeaza în 1 litru de apă.
+Mod de preparare: se infuzeaza in 1 litru de apa.
 
-Dozare: 56ml de lichid de 3 ori pe zi sau mai mult (în funcție de necesitate).
+Dozare: 56ml de lichid de 3 ori pe zi sau mai mult (in functie de necesitate).
 
 # Cuisoare (Syzygium aromaticum; Eugenia aromatica; E. caryophyllata; Caryophyllus aromaticus; MYRTACEAE)
 
-Cuișoarele sunt un condiment obținut din mugurii floriferi ai unui arbore exotic (Caryophyllus aromaticus, Eugenia caryophyllata sau Syzygium aromaticum) din familia mirtaceelor, care mai include printre altele mirtul și eucaliptul. Arborele este originar din Insulele Moluce ale Indoneziei, dar în prezent este cultivat și în alte regiuni tropicale sau ecuatoriale, în special în Asia și Africa. Pentru păstrare mugurii sunt uscați și au forma unor mici cuie, de unde și denumirea; uneori cuișoarele sunt măcinate și comercializate sub formă de pulbere. Principalul producător este Indonezia, cu 70–80% din producția mondială, urmată de Madagascar, Tanzania, Sri Lanka și altele.
+Cuisoarele sunt un condiment obtinut din mugurii floriferi ai unui arbore exotic (Caryophyllus aromaticus, Eugenia caryophyllata sau Syzygium aromaticum) din familia mirtaceelor, care mai include printre altele mirtul si eucaliptul. Arborele este originar din Insulele Moluce ale Indoneziei, dar in prezent este cultivat si in alte regiuni tropicale sau ecuatoriale, in special in Asia si Africa. Pentru pastrare mugurii sunt uscati si au forma unor mici cuie, de unde si denumirea; uneori cuisoarele sunt macinate si comercializate sub forma de pulbere. Principalul producator este Indonezia, cu 70–80% din productia mondiala, urmata de Madagascar, Tanzania, Sri Lanka si altele.
 
 Proprietati terapeutice:
 
 In trecut, medicii recomandau cuisoarele impotriva oboselii si a pierderilor de memorie. De asemenea, erau considerate un afrodisiac puternic, dar si spaima moliilor din dulapurile cu haine. Cuisoarele au un gust iute-amarui, fierbinte si persistent. In bucatarie, se folosesc la prepararea prajiturilor cu fructe, la aromarea vinului fiert si ceaiului. Cuisoarele sunt o sursa, deloc de neglijat, de mangan, fibre alimentare, vitamina C, acizi grasi omega 3, calciu si magneziu. Consumate cu regularitate, intarsc sistemul imunitar, ajuta digestia si sunt eficiente impotriva viermilor intestinali. Datorita eugenolului din compozitie, o substanta care combate infectiile, inflamatiile si previne formarea cheagurilor de sange, cuisoarele se folosesc pentru calmarea durerilor de dinti fiind considerate un anestezic natural dar si impotriva mirosului urat al gurii provocat de dantura stricata ori infectiile din gat. Cuisoarele se folosesc impotriva vomei, diareei, indigestiei si balonarii, combat infectiile, imbunatatesc circulatia periferica, avand proprietati antivirale, antiseptice, antibiotice, tonice si carminative. Cu uleiul de cuisoare se pot face inhalatii impotriva racelii si calmarea tusei. Se pun cateva picaturi de ulei in apa fiarta si se sta cu capul acoperit cu un prosop deasupra vasului. O cura de 30 de zile cu cate cinci cuisoare macinate, puse in compot sau salata de fructe, contribuie la cresterea imunitatii, prevenind efectele imbatranirii premature. Cuisoarele sunt de mare ajutor in caz de viroze, in afectiuni digestive ori in infectii ORL. Cuisoarele mestecate sau macinate in rasnita de cafea, cate un varf de cutit la nevoie, ajuta digestia, vindeca durerile de gat, crampele de la stomac si te scapa de diaree. Fiind un condiment cu o personalitate destul de puternica, cuisoarele incalzesc mainile si picioarele reci si scad in intensitate durerile de spate.
 
-Infuzia de cuișoare
+Infuzia de cuisoare
 
- 1 lingurita cuisoare, întregi sau sub formă de pulbere (Syzygium aromaticum)
+ 1 lingurita cuisoare, intregi sau sub forma de pulbere (Syzygium aromaticum)
 
-1litru de apă distilată
+1litru de apa distilata
 
-Mod de preparare: Se fierbe apa și se toarnă peste cuișoare și se tine timp de 20 minute într-un recipient din oțel inoxidabil închis, peste o flacără foarte scăzuta.
+Mod de preparare: Se fierbe apa si se toarna peste cuisoare si se tine timp de 20 minute intr-un recipient din otel inoxidabil inchis, peste o flacara foarte scazuta.
 
 # **Holera Morbus**
 
-2-3 linguri Cuișoare (Syzygium aromaticum, Eugenia aromatica)
+2-3 linguri Cuisoare (Syzygium aromaticum, Eugenia aromatica)
 
  1/2 litru lapte de soia (tofu, lapte)
 
-Mod de preparare: Fierbe la foc mic în lapte de soia 5 minute.
+Mod de preparare: Fierbe la foc mic in lapte de soia 5 minute.
 
 Dozare: 1 lingura fierbinte la fiecare 15 minute.
 
@@ -234,40 +234,40 @@ Dozare: 1 lingura fierbinte la fiecare 15 minute.
 
  28g ment(Mentha spicata)
 
- Mod de preparare: se fierb primele trei plante in 1 litru de apa timp de 5 minute, se toarnă acest decoct peste menta, se pune capacul ermetic și se lasa până se raceste. Dozare: 2 linguri la 1/4 ceașcă la fiecare 1/2 oră, până cand greața dispare.
+ Mod de preparare: se fierb primele trei plante in 1 litru de apa timp de 5 minute, se toarna acest decoct peste menta, se pune capacul ermetic si se lasa pana se raceste. Dozare: 2 linguri la 1/4 ceasca la fiecare 1/2 ora, pana cand greata dispare.
 
 # Hreanul (Armoracia rusticana; Cochlearia Armoracia; Rorippa Armoracia; CRUCIFERAE)
 
-Hreanul (Armoracia rusticana), cunoscut și sub numele de usturoi, rădăcină-sălbatică, tormac, este o plantă legumicolă perenă, din familia Brassicaceae, cu tulpina subterană cilindrică, groasă, albă (folosită în alimentație drept condiment), cu frunzele mari și cu flori albe. Se presupune că hreanul este originar din sud-estul Europei și din vestul Asiei, însă în prezent este popular în toată lumea. Poate atinge până la 1,5 metri înălțime și este cultivat în special pentru rădăcina mare și albă, însă chiar și frunzele sale sunt comestibile.
+Hreanul (Armoracia rusticana), cunoscut si sub numele de usturoi, radacina-salbatica, tormac, este o planta legumicola perena, din familia Brassicaceae, cu tulpina subterana cilindrica, groasa, alba (folosita in alimentatie drept condiment), cu frunzele mari si cu flori albe. Se presupune ca hreanul este originar din sud-estul Europei si din vestul Asiei, insa in prezent este popular in toata lumea. Poate atinge pana la 1,5 metri inaltime si este cultivat in special pentru radacina mare si alba, insa chiar si frunzele sale sunt comestibile.
 
 Proprietati terapeutice:
 
-Hreanul pe lângă întrebuințarea în alimentație este și un bun medicament, fiind utilizat în tratamentul afecțiunilor renale, reumatismului, bronșitei, afecțiunilor dinților (parodontoză), bolilor de inimă, inflamațiilor articulare, sinuzitei, paraziților intestinali. Hreanul are multe calități terapeutice, fiind utilizat și la stimularea poftei de mâncare, tratarea gastritei și echilibrarea tranzitului intestinal. Această plantă medicinală se recomandă a se consuma proaspăt, sau ca principal ingredient în prepararea anumitor produse naturale (exemplu: tinctura de hrean).
+Hreanul pe langa intrebuintarea in alimentatie este si un bun medicament, fiind utilizat in tratamentul afectiunilor renale, reumatismului, bronsitei, afectiunilor dintilor (parodontoza), bolilor de inima, inflamatiilor articulare, sinuzitei, parazitilor intestinali. Hreanul are multe calitati terapeutice, fiind utilizat si la stimularea poftei de mancare, tratarea gastritei si echilibrarea tranzitului intestinal. Aceasta planta medicinala se recomanda a se consuma proaspat, sau ca principal ingredient in prepararea anumitor produse naturale (exemplu: tinctura de hrean).
 
 # Apatia (sau lipsa de energie)
 Stomacului si ficatului, cu constipatie
 
  14g hrean, extract fluid (Armoracia rusticana)
 
-14g gențiană, tinctura (Gentiana lutea)
+14g gentiana, tinctura (Gentiana lutea)
 
 14g de papadie, extract fluid (Taraxacum officinale)
 
  168ml sirop de portocale (Citrus aurantium)
 
-Mod de preparare: Se amestecă foarte bine.
+Mod de preparare: Se amesteca foarte bine.
 
 Dozare: o lingura la mesele principale
 
 # **Hidropizie**
 
- 112g rădăcină de hrean, proaspăt ras (Armoracia rusticana)
+ 112g radacina de hrean, proaspat ras (Armoracia rusticana)
 
-1 litru oțet de mere
+1 litru otet de mere
 
 112g glicerina vegetala
 
-Mod de preparare: Pune rădăcina în otet si lasa sa stea 12 ore intr-un loc destul de fierbinte. Slăbeste capacul ocazional, strânge și reagita. După 12 ore de înmuiere, scoate la loc răcoros și lasa încă 12 de ore. Se strecoara si se adauga glicerină. Dozare: 1 lingura la o cana de apa, de 3 până la 4 ori pe zi (înainte de masă si o doza de noapte).
+Mod de preparare: Pune radacina in otet si lasa sa stea 12 ore intr-un loc destul de fierbinte. Slabeste capacul ocazional, strange si reagita. Dupa 12 ore de inmuiere, scoate la loc racoros si lasa inca 12 de ore. Se strecoara si se adauga glicerina. Dozare: 1 lingura la o cana de apa, de 3 pana la 4 ori pe zi (inainte de masa si o doza de noapte).
 
 # Piperul negru (Piper nigrum; PIPERACEAE)
 
@@ -287,43 +287,43 @@ Piperul negru stimuleaza papilele gustative care trimit o comanda stomacului sa 
 
 3-4 linguri de sare de mare
 
-84 ml oțet de mere
+84 ml otet de mere
 
- Mod de preparare: Se amestecă în cca.100ml de apă caldă.
+ Mod de preparare: Se amesteca in cca.100ml de apa calda.
 
- Dozare: 1 lingură de trei ori pe zi.
+ Dozare: 1 lingura de trei ori pe zi.
 
 # Piperul schiuan (Zanthoxylum americanum, Z. clava-Herculis, Z. faxineum; RUTACEAE)
 
-Piperul Sichuan nu face parte din familia piperului, așa cum ai crede. Este de fapt coaja uscată a fructelor unui copac din familia Zanthoxylum, fiind deosebit de apreciat în bucătăria chineză, dar și de mulți dintre medicii din zonă.
+Piperul Sichuan nu face parte din familia piperului, asa cum ai crede. Este de fapt coaja uscata a fructelor unui copac din familia Zanthoxylum, fiind deosebit de apreciat in bucataria chineza, dar si de multi dintre medicii din zona.
 
-Cu toate că nu poate fi numit cu adevărat „iute”, acesta are o aromă ușor „înțepătoare”, care aduce ulterior o ușoară stare de amorțeală. Iar asta îl face indispensabil preparatelor de „tip Sishuan”.
+Cu toate ca nu poate fi numit cu adevarat „iute”, acesta are o aroma usor „intepatoare”, care aduce ulterior o usoara stare de amorteala. Iar asta il face indispensabil preparatelor de „tip Sishuan”.
 
-Piperul Sichuan are un miros puternic, care poate fi ușor asemănat cu cel de lămâie, având ușoare nuanțe lemnoase.
+Piperul Sichuan are un miros puternic, care poate fi usor asemanat cu cel de lamaie, avand usoare nuante lemnoase.
 
 Proprietati terapeutice:
 
-Stimulent general, stimulent cardiac, tonic, alterativ, iute, deobstruent, diuretic, antiseptic, diaforetic, sialagog, nervin. Acțiunea acestui stimulent general este mai lentă decât a ardeiului, dar efectele sale sunt permanente și se vor elimina obstacolele în fiecare parte a corpului. Fructele: acestea poseda uleiuri volatile, care sunt stimulente, antispasmodice și carminative și acționează în principal asupra membranelor mucoase.
+Stimulent general, stimulent cardiac, tonic, alterativ, iute, deobstruent, diuretic, antiseptic, diaforetic, sialagog, nervin. Actiunea acestui stimulent general este mai lenta decat a ardeiului, dar efectele sale sunt permanente si se vor elimina obstacolele in fiecare parte a corpului. Fructele: acestea poseda uleiuri volatile, care sunt stimulente, antispasmodice si carminative si actioneaza in principal asupra membranelor mucoase.
 
 **Infuzie de piper schiuan**
 
-14g fructe de piper schiuan (Zanthoxylum americanum; Z. Clava-Herculis) sau coaja zdrobita sub formă de pulbere
+14g fructe de piper schiuan (Zanthoxylum americanum; Z. Clava-Herculis) sau coaja zdrobita sub forma de pulbere
 
-1 litru de apă distilată, in fierbere
+1 litru de apa distilata, in fierbere
 
- Mod de preparare: se pune în vasul acoperit cu două ore înainte de utilizare.
+ Mod de preparare: se pune in vasul acoperit cu doua ore inainte de utilizare.
 
-# **Purificator de sânge, imbunatatirea circulatiei sanguine**
+# **Purificator de sange, imbunatatirea circulatiei sanguine**
 
 14g coaja de piper schiuan (Zanthoxylum americanum, Z. Clava-Herculis)
 
-14g Guaiac, rășină (Guaiacum officinale; G. sanctum)
+14g Guaiac, rasina (Guaiacum officinale; G. sanctum)
 
 14g Buckbean, planta (Menyanthes trifoliata)
 
-6 păstăi piper Cayenne (Capsicum frutescens; C. minim)
+6 pastai piper Cayenne (Capsicum frutescens; C. minim)
 
-Mod de preparare: Fierbe la foc mic timp de 15 minute, dar ține acoperit bine până se răcește (astfel incat sa nu scape uleiurile volatile valoroase).
+Mod de preparare: Fierbe la foc mic timp de 15 minute, dar tine acoperit bine pana se raceste (astfel incat sa nu scape uleiurile volatile valoroase).
 
 Dozare: 56ml de lichid, de trei ori pe zi.
 
@@ -331,7 +331,7 @@ Dozare: 56ml de lichid, de trei ori pe zi.
 
 28g pulbere de coaja de piper schiuan(Zanthoxylum americanum)
 
-112g de ulei de măsline, încălzit (Olea europaea)
+112g de ulei de masline, incalzit (Olea europaea)
 
 Mod de preparare: Se amesteca ingredientele bine.
 

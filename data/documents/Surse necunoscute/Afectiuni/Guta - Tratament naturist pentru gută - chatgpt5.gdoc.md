@@ -1,147 +1,147 @@
-# Tratament naturist pentru gută
+# Tratament naturist pentru guta
 
 ## **1\. Introducere**
 
-Guta este o formă de artrită cauzată de acumularea cristalelor de acid uric la nivelul articulațiilor. Tratamentul naturist are rolul de a reduce nivelul acidului uric, de a calma inflamația și de a preveni recidivele.
+Guta este o forma de artrita cauzata de acumularea cristalelor de acid uric la nivelul articulatiilor. Tratamentul naturist are rolul de a reduce nivelul acidului uric, de a calma inflamatia si de a preveni recidivele.
 
 ---
 
 ## **2\. Principii generale**
 
-* Consum ridicat de **apă** (2–3 litri/zi) pentru eliminarea acidului uric.
+* Consum ridicat de **apa** (2–3 litri/zi) pentru eliminarea acidului uric.
 
-* Evitarea alimentelor bogate în purine: carne roșie, organe, fructe de mare, alcool (mai ales bere), sucuri cu fructoză.
+* Evitarea alimentelor bogate in purine: carne rosie, organe, fructe de mare, alcool (mai ales bere), sucuri cu fructoza.
 
-* Dietă predominant bazată pe **legume, fructe, cereale integrale, lactate slabe**.
+* Dieta predominant bazata pe **legume, fructe, cereale integrale, lactate slabe**.
 
-* Mișcare ușoară zilnică (plimbări).
+* Miscare usoara zilnica (plimbari).
 
 ---
 
-## **3\. Plan zilnic de alimentație**
+## **3\. Plan zilnic de alimentatie**
 
-### **Dimineața**
+### **Dimineata**
 
-* Un pahar cu apă călduță \+ zeamă de lămâie
+* Un pahar cu apa calduta \+ zeama de lamaie
 
-* Mic dejun: terci de ovăz cu fructe de pădure și semințe de in
+* Mic dejun: terci de ovaz cu fructe de padure si seminte de in
 
-* Ceai: **urzică** sau **coada-calului** (efect depurativ, elimină acidul uric)
+* Ceai: **urzica** sau **coada-calului** (efect depurativ, elimina acidul uric)
 
 ### **Gustare**
 
-* 1 măr sau 1 pară
+* 1 mar sau 1 para
 
 * 10–15 migdale crude
 
-### **Prânz**
+### **Pranz**
 
-* Supă de legume clare (morcov, țelină, păstârnac)
+* Supa de legume clare (morcov, telina, pastarnac)
 
-* Quinoa sau orez brun cu legume la abur (broccoli, conopidă, dovlecel)
+* Quinoa sau orez brun cu legume la abur (broccoli, conopida, dovlecel)
 
-* Salată verde cu roșii și semințe de dovleac
+* Salata verde cu rosii si seminte de dovleac
 
-* Ceai de **cireșe amare** (frunzele și cozile reduc acidul uric)
+* Ceai de **cirese amare** (frunzele si cozile reduc acidul uric)
 
-### **Gustare după-amiază**
+### **Gustare dupa-amiaza**
 
-* Un iaurt natural degresat cu semințe de chia
+* Un iaurt natural degresat cu seminte de chia
 
 * Ceai de **ghimbir** (antiinflamator)
 
 ### **Seara**
 
-* Cartofi copți sau piure de cartofi dulci
+* Cartofi copti sau piure de cartofi dulci
 
-* Salată de sfeclă roșie cu hrean
+* Salata de sfecla rosie cu hrean
 
-* Brânză de vaci slabă sau tofu
+* Branza de vaci slaba sau tofu
 
-* Ceai de **soc** sau **păpădie** (diuretic, curăță rinichii)
+* Ceai de **soc** sau **papadie** (diuretic, curata rinichii)
 
-### **Înainte de culcare**
+### **Inainte de culcare**
 
-* Un pahar cu apă minerală alcalină (ajută la alcalinizarea urinei)
+* Un pahar cu apa minerala alcalina (ajuta la alcalinizarea urinei)
 
 ---
 
 ## **4\. Suplimente recomandate**
 
-*(doze orientative, verifică împreună cu medicul tău)*
+*(doze orientative, verifica impreuna cu medicul tau)*
 
 * **Vitamina C**: 500–1000 mg/zi (reduce acidul uric)
 
-* **Quercetină**: 250–500 mg/zi (antiinflamator natural)
+* **Quercetina**: 250–500 mg/zi (antiinflamator natural)
 
-* **Extract de vișine sau concentrat de cireșe amare**: 1–2 capsule/zi sau suc concentrat
+* **Extract de visine sau concentrat de cirese amare**: 1–2 capsule/zi sau suc concentrat
 
-* **Omega 3** (ulei de pește sau in): 1000–2000 mg/zi (scade inflamația)
+* **Omega 3** (ulei de peste sau in): 1000–2000 mg/zi (scade inflamatia)
 
 * **Curcumin** (extract de turmeric): 500 mg/zi (antiinflamator puternic)
 
-* **Magneziu**: 300–400 mg/zi (relaxează musculatura și susține rinichii)
+* **Magneziu**: 300–400 mg/zi (relaxeaza musculatura si sustine rinichii)
 
 ---
 
 ## **5\. Remedii naturiste adjuvante**
 
-* **Comprese cu frunze de varză** aplicate pe articulațiile dureroase
+* **Comprese cu frunze de varza** aplicate pe articulatiile dureroase
 
-* **Băi locale cu sare amară (Epsom)** – 15 minute, de 2–3 ori/săptămână
+* **Bai locale cu sare amara (Epsom)** – 15 minute, de 2–3 ori/saptamana
 
-* **Ceaiuri combinate**: urzică \+ frunze de mesteacăn \+ coada-calului (curăță rinichii și scad acidul uric)
+* **Ceaiuri combinate**: urzica \+ frunze de mesteacan \+ coada-calului (curata rinichii si scad acidul uric)
 
 ---
 
 ## **6\. Sfaturi practice**
 
-* Evită posturile lungi sau dietele drastice – cresc acidul uric.
+* Evita posturile lungi sau dietele drastice – cresc acidul uric.
 
-* Menține o greutate normală, dar fără scădere bruscă în greutate.
+* Mentine o greutate normala, dar fara scadere brusca in greutate.
 
-* Redu stresul – acesta poate agrava crizele de gută.
+* Redu stresul – acesta poate agrava crizele de guta.
 
-* Hidratează-te constant, inclusiv noaptea dacă te trezești.
+* Hidrateaza-te constant, inclusiv noaptea daca te trezesti.
 
 ---
 
-## **7\. Cum ajuți la formarea de celule sănătoase**
+## **7\. Cum ajuti la formarea de celule sanatoase**
 
-1. **Hrana pentru ADN și diviziune celulară**
+1. **Hrana pentru ADN si diviziune celulara**
 
- * **Proteine de calitate** (ouă, pește, leguminoase) → materia primă pentru celule.
+ * **Proteine de calitate** (oua, peste, leguminoase) → materia prima pentru celule.
 
- * **Vitamine din complexul B** (B9 – folat, B12, B6) → esențiale pentru sinteza ADN.
+ * **Vitamine din complexul B** (B9 – folat, B12, B6) → esentiale pentru sinteza ADN.
 
- * **Zinc și fier** → pentru producția de celule roșii și imunitate.
+ * **Zinc si fier** → pentru productia de celule rosii si imunitate.
 
- * **Antioxidanți (vitamina C, E, seleniu)** → protejează ADN-ul de mutații.
+ * **Antioxidanti (vitamina C, E, seleniu)** → protejeaza ADN-ul de mutatii.
 
-2. **Protecția celulelor împotriva daunelor**
+2. **Protectia celulelor impotriva daunelor**
 
- * Evită fumatul, alcoolul excesiv, mâncarea prăjită în uleiuri arse → toate produc radicali liberi care distrug celulele.
+ * Evita fumatul, alcoolul excesiv, mancarea prajita in uleiuri arse → toate produc radicali liberi care distrug celulele.
 
- * Hidratare bună → sângele și celulele se regenerează corect.
+ * Hidratare buna → sangele si celulele se regenereaza corect.
 
-3. **Regenerare prin stil de viață**
+3. **Regenerare prin stil de viata**
 
- * **Somn suficient** (7–8h/noapte) → în somn are loc regenerarea celulară majoră.
+ * **Somn suficient** (7–8h/noapte) → in somn are loc regenerarea celulara majora.
 
- * **Mișcare moderată** → stimulează producția de celule stem și oxigenarea țesuturilor.
+ * **Miscare moderata** → stimuleaza productia de celule stem si oxigenarea tesuturilor.
 
- * **Gestionarea stresului** → cortizolul crescut dăunează diviziunii celulare.
+ * **Gestionarea stresului** → cortizolul crescut dauneaza diviziunii celulare.
 
-4. **Evitarea supraproducției anormale**
+4. **Evitarea supraproductiei anormale**
 
- * Unele boli (ex. leucemii, policitemie) apar din mutații genetice; nu le putem preveni complet, dar menținerea unui **sistem imunitar echilibrat** și controale regulate pot ajuta la depistarea timpurie.
+ * Unele boli (ex. leucemii, policitemie) apar din mutatii genetice; nu le putem preveni complet, dar mentinerea unui **sistem imunitar echilibrat** si controale regulate pot ajuta la depistarea timpurie.
 
 5. **Suplimente/alimente cu rol regenerativ** (din studii)
 
- * **Resveratrol (struguri negri, afine)** → activează gene asociate cu longevitatea celulară.
+ * **Resveratrol (struguri negri, afine)** → activeaza gene asociate cu longevitatea celulara.
 
- * **Curcumin (turmeric)** → reduce inflamația și protejează celulele.
+ * **Curcumin (turmeric)** → reduce inflamatia si protejeaza celulele.
 
  * **Omega 3** → membranele celulare devin mai rezistente.
 
- * **Chlorophyll & legume verzi** → suport pentru producția de sânge sănătos.
+ * **Chlorophyll & legume verzi** → suport pentru productia de sange sanatos.

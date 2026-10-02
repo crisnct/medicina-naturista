@@ -1,18 +1,18 @@
-# Recomandări pentru hipertensiunea arterială
+# Recomandari pentru hipertensiunea arteriala
 
-**Tinctură de obligeană**: 1 lingurită dimineața pe stomacul gol
+**Tinctura de obligeana**: 1 lingurita dimineata pe stomacul gol
 
-**Suc de rădăcinoase**: de este posibil, ar fi foarte util ca în fiecare dimineață, persoana ce suferă de hipertensiune, să consume o cană de suc de morcovi(70%), rădăcină de țelină(10%) și păstârnac(20%), pe stomacul gol.
+**Suc de radacinoase**: de este posibil, ar fi foarte util ca in fiecare dimineata, persoana ce sufera de hipertensiune, sa consume o cana de suc de morcovi(70%), radacina de telina(10%) si pastarnac(20%), pe stomacul gol.
 
-**Recomandate**: polen, soia, usturoi, cartofi, morcovi, vit A, vit E, vit C, lămâi, măsline nesărate, muștar, banane.
+**Recomandate**: polen, soia, usturoi, cartofi, morcovi, vit A, vit E, vit C, lamai, masline nesarate, mustar, banane.
 
-***Vin medicinal ce vindecă bolile de inimă:***
+***Vin medicinal ce vindeca bolile de inima:***
 
-Se lasă la macerat, timp de 10 zile, 100 gr. praz tocat mărunt într-un litru de vin alb, curat. Se strecoară și se păstrează la frigider. Se bea câte un păhărel (50 ml) în fiecare dimineață, după micul dejun. Acest vin este bun pentru toate bolile de inima inclusiv hipertensiune, ateroscleroza, obezitate.
+Se lasa la macerat, timp de 10 zile, 100 gr. praz tocat marunt intr-un litru de vin alb, curat. Se strecoara si se pastreaza la frigider. Se bea cate un paharel (50 ml) in fiecare dimineata, dupa micul dejun. Acest vin este bun pentru toate bolile de inima inclusiv hipertensiune, ateroscleroza, obezitate.
 
-**O rețetă pentru vindecarea hipertensiunii:**
+**O reteta pentru vindecarea hipertensiunii:**
 
-Se face un amestec din: 2 cesti apă, 16 căței de usturoi tăiați mărunt, 2 linguri de oțet de mere și 3 linguri de miere. Se fierbe totul la foc mic, 1/2 ora. Se iau câte 3 linguri , de 3 ori pe zi, înainte de masă.
+Se face un amestec din: 2 cesti apa, 16 catei de usturoi taiati marunt, 2 linguri de otet de mere si 3 linguri de miere. Se fierbe totul la foc mic, 1/2 ora. Se iau cate 3 linguri , de 3 ori pe zi, inainte de masa.
 
 **De evitat**: **piperul, cafeaua, ceaiul verde, ceaiul negru, sarea in exces**
 
@@ -20,33 +20,33 @@ Se face un amestec din: 2 cesti apă, 16 căței de usturoi tăiați mărunt, 2 
 
 **Ingrediente**:
 
- \- Talpa-gâștii – 41g
+ \- Talpa-gastii – 41g
 
- – rădăcină de Ghințură – 13 g
+ – radacina de Ghintura – 13 g
 
- – rădăcină de Angelică – 9g
+ – radacina de Angelica – 9g
 
- – flori de Coada – șoricelului – 18g
+ – flori de Coada – soricelului – 18g
 
- – Valeriană – 18g
+ – Valeriana – 18g
 
  – alcool 75o – 500ml
 
 **Mod de preparare:**
 
-Toate ingredientele se pun într-un recipient închis etanș și se macerează la întuneric și căldură timp de 14 zile, agitându-se pe fiecare zi. Se strecoară și se pune în sticluțe de culoare închisă, păstrându-se la răcoare în locuri ferite de lumină. Valabilitatea este de 1 – 2 ani.
+Toate ingredientele se pun intr-un recipient inchis etans si se macereaza la intuneric si caldura timp de 14 zile, agitandu-se pe fiecare zi. Se strecoara si se pune in sticlute de culoare inchisa, pastrandu-se la racoare in locuri ferite de lumina. Valabilitatea este de 1 – 2 ani.
 
-**Acțiuni:**
+**Actiuni:**
 
 hipotensiv, vasodilatator, sedativ, antiinflamator, antibacterian, antiseptic, imunostimulant.
 
-**Indicații:**
+**Indicatii:**
 
-tulburări neuro-vegetative, hipertensiune cu substrat nervos, astenie nervoasă, nevroze, tulburări de menopauză. Adjuvant în anorexii, helmintiaze, hemoroizi, enterocolită, abcese dentare.
+tulburari neuro-vegetative, hipertensiune cu substrat nervos, astenie nervoasa, nevroze, tulburari de menopauza. Adjuvant in anorexii, helmintiaze, hemoroizi, enterocolita, abcese dentare.
 
 **Administrare:**
 
-adulți: 0,5 – 2ml x 2 ori / zi înainte de masa de prânz cu un sfert de oră și înainte de culcare.
-copii: 5 – 20 picături x 2 ori / zi. Nu se administrează copiilor cu vârsta mai mică de 3 ani.
+adulti: 0,5 – 2ml x 2 ori / zi inainte de masa de pranz cu un sfert de ora si inainte de culcare.
+copii: 5 – 20 picaturi x 2 ori / zi. Nu se administreaza copiilor cu varsta mai mica de 3 ani.
 
- După 14 zile de tratament se face pauză de 14 zile, după care se poate relua.
+ Dupa 14 zile de tratament se face pauza de 14 zile, dupa care se poate relua.

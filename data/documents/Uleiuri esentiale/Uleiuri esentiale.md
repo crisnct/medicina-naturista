@@ -2,223 +2,223 @@
 
 ## Acnee
 
-Uleiuri menționate: Ambră
+Uleiuri mentionate: Ambra
 
 ## Astm
 
-Uleiuri menționate: Frankincense, Myrtle, Isop
+Uleiuri mentionate: Frankincense, Myrtle, Isop
 
 ## Anti-insecte
 
-Uleiuri menționate: Citronella, Cajeput
+Uleiuri mentionate: Citronella, Cajeput
 
 ## Anafrodisiac
 
-Uleiuri menționate: Marjoram
+Uleiuri mentionate: Marjoram
 
 ## Afrodisiac
 
-Uleiuri menționate: Patchouli, Cardamon, Ambră, Sandalwood, Vetiver, Nutmeg, Rose, Ghimbir, Rosewood
+Uleiuri mentionate: Patchouli, Cardamon, Ambra, Sandalwood, Vetiver, Nutmeg, Rose, Ghimbir, Rosewood
 
 ## Antiviral
 
-Uleiuri menționate: Rose, Cinnamon, Palo Santo, Marjoram, Pine
+Uleiuri mentionate: Rose, Cinnamon, Palo Santo, Marjoram, Pine
 
 ## Antibacterian
 
-Uleiuri menționate: Wintergreen, Helichrysum, Frankincense, Citronella, Spikenard, Myrtle, Grapefruit, Patchouli, Cardamon, Isop, Ienupăr, Harshiangar, Myrrh, Bay Leaf, Rose, Cinnamon, Rosewood, Lemon, Marjoram, Cajeput, Pine, Dill Seed
+Uleiuri mentionate: Wintergreen, Helichrysum, Frankincense, Citronella, Spikenard, Myrtle, Grapefruit, Patchouli, Cardamon, Isop, Ienupar, Harshiangar, Myrrh, Bay Leaf, Rose, Cinnamon, Rosewood, Lemon, Marjoram, Cajeput, Pine, Dill Seed
 
 ## Antiinflamator
 
-Uleiuri menționate: Ambră, Wintergreen, Helichrysum, Frankincense, Spikenard, Myrtle, Angelica, Patchouli, Isop, Ienupăr, Sandalwood, Roman Chamomile, Cinnamon, Ghimbir, Mint, Pine, Dill Seed
+Uleiuri mentionate: Ambra, Wintergreen, Helichrysum, Frankincense, Spikenard, Myrtle, Angelica, Patchouli, Isop, Ienupar, Sandalwood, Roman Chamomile, Cinnamon, Ghimbir, Mint, Pine, Dill Seed
 
 ## Antifungic
 
-Uleiuri menționate: Helichrysum, Citronella, Salvie, Patchouli, Myrrh, Bay Leaf, Cinnamon, Ghimbir, Lemon, Marjoram, Cajeput, Dill Seed
+Uleiuri mentionate: Helichrysum, Citronella, Salvie, Patchouli, Myrrh, Bay Leaf, Cinnamon, Ghimbir, Lemon, Marjoram, Cajeput, Dill Seed
 
 ## Anxietate
 
-Uleiuri menționate: Ambră, Myrtle, Angelica, Grapefruit, Cypress, Harshiangar, Vetiver, Myrrh, Nutmeg, Rose, Roman Chamomile, Geranium, Mandarin, Ghimbir, Rosewood, Palo Santo, Lemon
+Uleiuri mentionate: Ambra, Myrtle, Angelica, Grapefruit, Cypress, Harshiangar, Vetiver, Myrrh, Nutmeg, Rose, Roman Chamomile, Geranium, Mandarin, Ghimbir, Rosewood, Palo Santo, Lemon
 
 ## Artrita
 
-Uleiuri menționate: Frankincense, Angelica, Vetiver, Nutmeg, Bay Leaf, Roman Chamomile, Palo Santo, Harshiangar, Pine
+Uleiuri mentionate: Frankincense, Angelica, Vetiver, Nutmeg, Bay Leaf, Roman Chamomile, Palo Santo, Harshiangar, Pine
 
 ## Antihelmitic
 
-Uleiuri menționate: Citronella
+Uleiuri mentionate: Citronella
 
 ## Anticoagulant
 
-Uleiuri menționate: Helichrysum, Cinnamon
+Uleiuri mentionate: Helichrysum, Cinnamon
 
 ## Albire dinti
 
-Uleiuri menționate: Ambră
+Uleiuri mentionate: Ambra
 
 ## Eczeme
 
-Uleiuri menționate: Ambră
+Uleiuri mentionate: Ambra
 
 ## Atac de cord, infarct
 
-Uleiuri menționate: Dill Seed
+Uleiuri mentionate: Dill Seed
 
 ## Calculi biliari
 
-Uleiuri menționate: Nutmeg
+Uleiuri mentionate: Nutmeg
 
 ## Cancer
 
-Uleiuri menționate: Frankincense, Myrtle, Angelica, Cardamon, Ienupăr, Palo Santo, Cajeput
+Uleiuri mentionate: Frankincense, Myrtle, Angelica, Cardamon, Ienupar, Palo Santo, Cajeput
 
 ## Convalescenta, recuperare nivel energetic
 
-Uleiuri menționate: Helichrysum
+Uleiuri mentionate: Helichrysum
 
 ## Creativitate
 
-Uleiuri menționate: Helichrysum
+Uleiuri mentionate: Helichrysum
 
 ## Colesterol
 
-Uleiuri menționate: Dill Seed
+Uleiuri mentionate: Dill Seed
 
 ## Curata sangele
 
-Uleiuri menționate: Angelica
+Uleiuri mentionate: Angelica
 
 ## Elimina acid uric
 
-Uleiuri menționate: Marjoram
+Uleiuri mentionate: Marjoram
 
 ## Creste increderea in sine
 
-Uleiuri menționate: Myrtle, Rose, Rosewood
+Uleiuri mentionate: Myrtle, Rose, Rosewood
 
 ## Detoxifiere
 
-Uleiuri menționate: Wintergreen, Citronella, Angelica, Cypress, Ienupăr, Rose
+Uleiuri mentionate: Wintergreen, Citronella, Angelica, Cypress, Ienupar, Rose
 
 ## Depresie
 
-Uleiuri menționate: Spikenard, Salvie, Grapefruit, Sandalwood, Nutmeg, Bay Leaf, Rose, Roman Chamomile, Geranium, Mandarin, Cinnamon, Ghimbir, Rosewood, Palo Santo, Lemon, Marjoram
+Uleiuri mentionate: Spikenard, Salvie, Grapefruit, Sandalwood, Nutmeg, Bay Leaf, Rose, Roman Chamomile, Geranium, Mandarin, Cinnamon, Ghimbir, Rosewood, Palo Santo, Lemon, Marjoram
 
 ## Deodorant
 
-Uleiuri menționate: Spikenard, Myrtle, Cypress
+Uleiuri mentionate: Spikenard, Myrtle, Cypress
 
 ## Digestie
 
-Uleiuri menționate: Angelica, Cardamon, Roman Chamomile, Peppermint, Ghimbir, Mint
+Uleiuri mentionate: Angelica, Cardamon, Roman Chamomile, Peppermint, Ghimbir, Mint
 
 ## Energizant
 
-Uleiuri menționate: Angelica, Vetiver
+Uleiuri mentionate: Angelica, Vetiver
 
 ## Emotii
 
-Uleiuri menționate: Helichrysum, Frankincense, Myrtle, Patchouli, Cypress, Cardamon, Isop, Myrrh, Rose, Roman Chamomile, Geranium, Palo Santo
+Uleiuri mentionate: Helichrysum, Frankincense, Myrtle, Patchouli, Cypress, Cardamon, Isop, Myrrh, Rose, Roman Chamomile, Geranium, Palo Santo
 
 ## Stres
 
-Uleiuri menționate: Ambră, Myrtle, Salvie, Grapefruit, Patchouli, Cypress, Vetiver, Nutmeg, Rose, Roman Chamomile, Peppermint, Ghimbir, Palo Santo, Mint, Marjoram, Pine
+Uleiuri mentionate: Ambra, Myrtle, Salvie, Grapefruit, Patchouli, Cypress, Vetiver, Nutmeg, Rose, Roman Chamomile, Peppermint, Ghimbir, Palo Santo, Mint, Marjoram, Pine
 
 ## Stimulare mentala
 
-Uleiuri menționate: Frankincense, Citronella, Spikenard, Marjoram
+Uleiuri mentionate: Frankincense, Citronella, Spikenard, Marjoram
 
 ## Stimuleaza sistemul imunitar
 
-Uleiuri menționate: Ambră, Wintergreen, Helichrysum, Frankincense, Citronella, Grapefruit, Isop, Harshiangar, Ienupăr, Vetiver, Lemon
+Uleiuri mentionate: Ambra, Wintergreen, Helichrysum, Frankincense, Citronella, Grapefruit, Isop, Harshiangar, Ienupar, Vetiver, Lemon
 
 ## Stimulare crestere par
 
-Uleiuri menționate: Spikenard
+Uleiuri mentionate: Spikenard
 
 ## Stimulare estrogen si progesteron
 
-Uleiuri menționate: Spikenard, Salvie, Harshiangar
+Uleiuri mentionate: Spikenard, Salvie, Harshiangar
 
 ## Hipertensiune
 
-Uleiuri menționate: Grapefruit, Isop, Ambră, Nutmeg, Bay Leaf
+Uleiuri mentionate: Grapefruit, Isop, Ambra, Nutmeg, Bay Leaf
 
 ## Memorie
 
-Uleiuri menționate: Nutmeg
+Uleiuri mentionate: Nutmeg
 
 ## Tonifiere fir de par
 
-Uleiuri menționate: Ambră, Frankincense
+Uleiuri mentionate: Ambra, Frankincense
 
 ## Rani
 
-Uleiuri menționate: Ambră, Cypress, Rose, Rosewood, Lemon, Marjoram
+Uleiuri mentionate: Ambra, Cypress, Rose, Rosewood, Lemon, Marjoram
 
 ## Raceala si gripa
 
-Uleiuri menționate: Wintergreen, Myrtle, Cardamon, Isop, Ienupăr, Myrrh, Bay Leaf, Peppermint, Cinnamon, Ghimbir, Palo Santo, Mint, Lemon, Marjoram, Cajeput, Pine
+Uleiuri mentionate: Wintergreen, Myrtle, Cardamon, Isop, Ienupar, Myrrh, Bay Leaf, Peppermint, Cinnamon, Ghimbir, Palo Santo, Mint, Lemon, Marjoram, Cajeput, Pine
 
 ## Regenerare ficat
 
-Uleiuri menționate: Wintergreen,
+Uleiuri mentionate: Wintergreen,
 
 ## Regenerare piele
 
-Uleiuri menționate: Wintergreen, Helichrysum, Patchouli, Myrrh, Roman Chamomile, Geranium, Rosewood
+Uleiuri mentionate: Wintergreen, Helichrysum, Patchouli, Myrrh, Roman Chamomile, Geranium, Rosewood
 
 ## Reumatism
 
-Uleiuri menționate: Ienupăr, Anason, Nutmeg, Pine
+Uleiuri mentionate: Ienupar, Anason, Nutmeg, Pine
 
 ## Tuse
 
-Uleiuri menționate: Angelica, Patchouli, Cypress, Cardamon, Harshiangar, Sandalwood, Myrrh, Ghimbir, Palo Santo
+Uleiuri mentionate: Angelica, Patchouli, Cypress, Cardamon, Harshiangar, Sandalwood, Myrrh, Ghimbir, Palo Santo
 
 ## Ten
 
-Uleiuri menționate: strange porii, curata pielea:	Citronella
+Uleiuri mentionate: strange porii, curata pielea:	Citronella
 
 ## Piele
 
-Uleiuri menționate: Cajeput
+Uleiuri mentionate: Cajeput
 
 ## Riduri
 
-Uleiuri menționate: Dill Seed
+Uleiuri mentionate: Dill Seed
 
 ## PMS
 
-Uleiuri menționate: Roman Chamomile, Marjoram
+Uleiuri mentionate: Roman Chamomile, Marjoram
 
 ## Matreata
 
-Uleiuri menționate: Citronella, Bay Leaf
+Uleiuri mentionate: Citronella, Bay Leaf
 
 ## Menopauza
 
-Uleiuri menționate: Spikenard, Salvie
+Uleiuri mentionate: Spikenard, Salvie
 
 ## Epilepsie
 
-Uleiuri menționate: Spikenard
+Uleiuri mentionate: Spikenard
 
 ## Depigmentare ten
 
-Uleiuri menționate: Bay Leaf
+Uleiuri mentionate: Bay Leaf
 
 ## Vasodilatator
 
-Uleiuri menționate: Marjoram
+Uleiuri mentionate: Marjoram
 
 ## Carminativ
 
-Uleiuri menționate: Cajeput
+Uleiuri mentionate: Cajeput
 
 ## HPV
 
-Uleiuri menționate: ghimbir, cimbru, mentă, cuisoare, tea tree, oregano
+Uleiuri mentionate: ghimbir, cimbru, menta, cuisoare, tea tree, oregano
 
 ------------------
 ## Afrodisiac
@@ -229,7 +229,7 @@ Uleiuri menționate: ghimbir, cimbru, mentă, cuisoare, tea tree, oregano
 - Ghimbir
 - Rosewood
 ------------------
-## Îmbunătătește și chiar redă vederea - reteta originala:
+## Imbunatateste si chiar reda vederea - reteta originala:
 - doTerra Salubelle - 20 pic
 - doTerra DDR Prime - 10 pic
 - ulei esential de Tamaie - 10 pic
@@ -238,13 +238,13 @@ Uleiuri menționate: ghimbir, cimbru, mentă, cuisoare, tea tree, oregano
 Se completeaza pana la 10ml cu ulei fractionat de cocos si se pune intr-un roll-on de 10ml. Se da zilnic in jurul ochilor si pe pleoape.
 
 ------------------
-## Îmbunătătește și chiar redă vederea - reteta adaptata fara doterra:
+## Imbunatateste si chiar reda vederea - reteta adaptata fara doterra:
 - ulei esential de Helichrysum - 10 pic
 - ulei esential de Trandafir - 10 pic
 - ulei esential de Tamaie - 10 pic
 - ulei esential de Neroli - 10 pic
 - ulei esential de Santal hawaian - 5 pic
-- ulei esential de Smirnă - 5 pic
+- ulei esential de Smirna - 5 pic
 - ulei esential de Cuisoare - 4 pic
 - ulei esential de Cimbru - 3 pic
 - ulei esential de Portocala salbatica - 3 pic
@@ -256,7 +256,7 @@ Se completeaza pana la 10ml cu ulei fractionat de cocos si se pune intr-un roll-
 - ulei esential de Cuisoare - 5 pic
 - ulei esential de Busuioc - 5 pic
 - ulei esential de Cimbru - 5 pic
-- ulei esential de Ienupăr - 5 pic
+- ulei esential de Ienupar - 5 pic
 - ulei esential de Helichrysum - 5 pic
 - ulei de masline - 10ml
 

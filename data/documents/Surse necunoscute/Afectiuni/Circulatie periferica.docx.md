@@ -10,4 +10,4 @@
 
 - Ciorapi de compresie
 
-- Un ceai combinat, util în astfel de situații, se poate prepara din flori de coada-șoricelului, frunze de pătlagină, urzică și flori de mușețel, în părți egale
+- Un ceai combinat, util in astfel de situatii, se poate prepara din flori de coada-soricelului, frunze de patlagina, urzica si flori de musetel, in parti egale

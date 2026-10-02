@@ -1,4 +1,4 @@
 # Acnee, rani, arsuri
-Se iau următoarele plante : **gălbenele** 1parte, **pătlagină** 1parte, **pelin alb** ½ parte, **rădăcină de tătăneasă** ½ parte. Se amestecă bine, se iau 113gr de amestec care se fierb în untură curată de porc, până când plantele devin ca jumările \[să nu se ardă\]. Lăsăm să stea o zi preparatul, după care îl încălzim la bain-marie și îl strecurăm. **1parte =14gr.**
+Se iau urmatoarele plante : **galbenele** 1parte, **patlagina** 1parte, **pelin alb** ½ parte, **radacina de tataneasa** ½ parte. Se amesteca bine, se iau 113gr de amestec care se fierb in untura curata de porc, pana cand plantele devin ca jumarile \[sa nu se arda\]. Lasam sa stea o zi preparatul, dupa care il incalzim la bain-marie si il strecuram. **1parte =14gr.**
 
-50gr seu de oaie se fierbe în 100ml lapte dulce. Se pune la răcit, până când seul se ridică deasupra. Se ia cu o strecurătoare și se amesteca bine cu 50gr ceară de albine topită, 25gr unt, 3 linguri de ulei de floarea soarelui și puțină colonie. Se păstrează la rece în cutii închise.
+50gr seu de oaie se fierbe in 100ml lapte dulce. Se pune la racit, pana cand seul se ridica deasupra. Se ia cu o strecuratoare si se amesteca bine cu 50gr ceara de albine topita, 25gr unt, 3 linguri de ulei de floarea soarelui si putina colonie. Se pastreaza la rece in cutii inchise.

@@ -39,9 +39,9 @@ o Omeprazol(20mg x o data pe zi)
 
 ----------------------------------------------- In paralel recomand pentru cel putin 2 luni:
 
-- Ornitină 500mg x 3 ori zi
+- Ornitina 500mg x 3 ori zi
 
-- Betaină 500mg 1-2 cps / zi in timpul mesei - regleaza aciditatea stomacului
+- Betaina 500mg 1-2 cps / zi in timpul mesei - regleaza aciditatea stomacului
 
 - Pulbere de Ulm alunecos (Slippery Elm) - 1-2 cps / zi
 

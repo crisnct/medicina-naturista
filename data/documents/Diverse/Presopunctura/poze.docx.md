@@ -1,4 +1,4 @@
-_Documentul nu conține text nativ extractibil._
+_Documentul nu contine text nativ extractibil._
 
 ## Descrieri alternative ale imaginilor
 
@@ -10,13 +10,13 @@ _Documentul nu conține text nativ extractibil._
 - C:\Documents and Settings\PC2012\Desktop\TIENS\1a.-Piciorul_drept.png
 - C:\Documents and Settings\PC2012\Desktop\TIENS\1b.-Piciorul_stang.png
 
-## Imagini și OCR
+## Imagini si OCR
 
 ### Imagine 1 image1.jpeg
 
 - Dimensiune: 800 × 428 px
 - SHA-256: `a313995c991506a4e82d5b34872730d67389600ef661a0bb75553630a895e4e2`
-- OCR Tesseract eng încredere medie: 87.5%
+- OCR Tesseract eng incredere medie: 87.5%
 
 ```text
 SINUS.
@@ -49,7 +49,7 @@ PALMADREAPTA
 
 - Dimensiune: 1600 × 1057 px
 - SHA-256: `5a7743786b1e2b58ef79bb78f79319a8fbb0f376bdd2e8d29023b7a43bc9fef6`
-- OCR Tesseract eng încredere medie: 91.4%
+- OCR Tesseract eng incredere medie: 91.4%
 
 ```text
 CREIER
@@ -90,7 +90,7 @@ PICIORUL STANG
 
 - Dimensiune: 600 × 482 px
 - SHA-256: `77714cfd6957d85b97d4e6785bdec32a7d0ca1fd640a5cf0be6741f276fbe3da`
-- OCR Tesseract eng încredere medie: 67.8%
+- OCR Tesseract eng incredere medie: 67.8%
 
 ```text
 frontale
@@ -117,7 +117,7 @@ Piciorul stang
 
 - Dimensiune: 406 × 598 px
 - SHA-256: `54238cece5c76419af9dc84d4d521b87d4222a370578c4796e1656fee342bcf9`
-- OCR Tesseract eng încredere medie: 81.5%
+- OCR Tesseract eng incredere medie: 81.5%
 
 ```text
 PUNCTE SI ZONE REFLEXOGENE
@@ -172,7 +172,7 @@ FIG. 2a
 
 - Dimensiune: 421 × 525 px
 - SHA-256: `a7394a9def1d0b3532443b27b2b1c16c4210cacd2674e69e653b3e0881418710`
-- OCR Tesseract eng încredere medie: 73.5%
+- OCR Tesseract eng incredere medie: 73.5%
 
 ```text
 PUNCTE SI ZONE REFLEXOGENE
@@ -223,7 +223,7 @@ pelviena
 
 - Dimensiune: 415 × 584 px
 - SHA-256: `3f30fab8c9ca271b7f48058395787da1d7f8c90d960b48f5e6b6e4aa9e8aabe3`
-- OCR Tesseract eng încredere medie: 77.2%
+- OCR Tesseract eng incredere medie: 77.2%
 
 ```text
 PUNCTE SI ZONE
@@ -279,7 +279,7 @@ FIG. 1a
 
 - Dimensiune: 409 × 554 px
 - SHA-256: `03a02378fa5a7d173f6ec7f78a6a205aa7349abc5f46f4355fa9ab13ba68c6ff`
-- OCR Tesseract eng încredere medie: 78.4%
+- OCR Tesseract eng incredere medie: 78.4%
 
 ```text
 PUNCTE SI ZONE REFLEXOGENE

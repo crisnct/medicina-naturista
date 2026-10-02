@@ -1,24 +1,24 @@
 Curs 14
 
-Ierburi pentru calmarea nervilor și antispasmodice
+Ierburi pentru calmarea nervilor si antispasmodice
 
-Nervii sunt ca o rețea de fire electrice într-un oraș . Energia electrică este adusa în fiecare casă pentru a furniza lumină și a rula masini. Sunt utilizate fire mici în cazul în care e nevoie de puțină putere, în timp ce sarcinile grele sunt transportate prin cabluri. Firul propriu-zis este important. În cazul în care un fir este prea luminos sau prea fragil pentru curent, am putea avea o cădere în sistemul electric.
+Nervii sunt ca o retea de fire electrice intr-un oras . Energia electrica este adusa in fiecare casa pentru a furniza lumina si a rula masini. Sunt utilizate fire mici in cazul in care e nevoie de putina putere, in timp ce sarcinile grele sunt transportate prin cabluri. Firul propriu-zis este important. In cazul in care un fir este prea luminos sau prea fragil pentru curent, am putea avea o cadere in sistemul electric.
 
-În loc de energie electrică, rețeaua noastra nervoasa transporta lichid nervos . Acest fluid se comportă în același mod ca și electricitatea ; se execută ca aparat chimic al corpurilor noastre și instigă și păstrează fluxul diverselor secreții ale diferitelor organe ale corpului . Avem o mare retea de nervi conductori și o masă de linii fine care radiaza de la ea. Firele nervoase sunt la fel de puternice ca fibre lor și fibrele sunt construite și irosite in fiecare zi. Totul depinde de tine , de cât de puternice sau slabe iti păstrezi aceste fibre pentru nervi, la fel ca pentru toate părțile corpului, sanatatea depinde de obiceiurile de zi cu zi din viața ta.
+In loc de energie electrica, reteaua noastra nervoasa transporta lichid nervos . Acest fluid se comporta in acelasi mod ca si electricitatea ; se executa ca aparat chimic al corpurilor noastre si instiga si pastreaza fluxul diverselor secretii ale diferitelor organe ale corpului . Avem o mare retea de nervi conductori si o masa de linii fine care radiaza de la ea. Firele nervoase sunt la fel de puternice ca fibre lor si fibrele sunt construite si irosite in fiecare zi. Totul depinde de tine , de cat de puternice sau slabe iti pastrezi aceste fibre pentru nervi, la fel ca pentru toate partile corpului, sanatatea depinde de obiceiurile de zi cu zi din viata ta.
 
-Nu folosi niciodată medicamente pentru a stimula nervii , deoarece acest lucru va face mai mult rău decât bine . Nu utiliza sedative chimice sau stimulente , dar elimina cauzele nervozitatii prin evitarea obiceiurilor incorecte din alimentatie si alcool și prin evitarea grijilor. Obiceiurile alimentare nesanatoase otrăvesc sistemul , il umplu cu acizi care irita fibrele nervoase si provoca inflamații ale nervilor , sciatica , etc. Evita mâncarea si bautura in exces , și mai ales evita excesele sexuale. Excesele rezulta în fluid nervos inadecvat și o eventuala epuizare nervoasă. Întregul corp va avea de suferit și niciun organ unic nu va scăpa de daune.
+Nu folosi niciodata medicamente pentru a stimula nervii , deoarece acest lucru va face mai mult rau decat bine . Nu utiliza sedative chimice sau stimulente , dar elimina cauzele nervozitatii prin evitarea obiceiurilor incorecte din alimentatie si alcool si prin evitarea grijilor. Obiceiurile alimentare nesanatoase otravesc sistemul , il umplu cu acizi care irita fibrele nervoase si provoca inflamatii ale nervilor , sciatica , etc. Evita mancarea si bautura in exces , si mai ales evita excesele sexuale. Excesele rezulta in fluid nervos inadecvat si o eventuala epuizare nervoasa. Intregul corp va avea de suferit si niciun organ unic nu va scapa de daune.
 
-Ierburile nervine acționează ca tonice nervoase. Funcția lor este de a hrani, a reglementa, a consolida, a reabilita celulele nervoase. Ele acționează fie ca stimulente, fie ca sedative , diminuand aberația , iritabilitatea sau durerile sistemului nervos .
+Ierburile nervine actioneaza ca tonice nervoase. Functia lor este de a hrani, a reglementa, a consolida, a reabilita celulele nervoase. Ele actioneaza fie ca stimulente, fie ca sedative , diminuand aberatia , iritabilitatea sau durerile sistemului nervos .
 
-Acestea nu ar trebui să fie confundate cu narcoticele anorganice sau opiaceele folosite de medicii clasici, care sunt în cele din urmă debilitante și dauneaza vieții fibrelor și țesuturilor.
+Acestea nu ar trebui sa fie confundate cu narcoticele anorganice sau opiaceele folosite de medicii clasici, care sunt in cele din urma debilitante si dauneaza vietii fibrelor si tesuturilor.
 
-Antispasticele previn sau diminueaza contractiile excesive (spasmele) din mușchi,voluntare sau involuntare, în orice parte a corpului. Multe au funcții de stimulare a centrilor nervosi superiori, centrilor de coordonare și de putere (a nervinelor);altele prin apăsarea tuturor funcțiilor vitale (Lobelia, americanspanz,etc), precum și un număr de stimulare a fibrelor musculare ale intestinelor pentru a expulza acumulările de gaze(asafoetida, valeriana, ignamasălbatica, cajuput, etc).
+Antispasticele previn sau diminueaza contractiile excesive (spasmele) din muschi,voluntare sau involuntare, in orice parte a corpului. Multe au functii de stimulare a centrilor nervosi superiori, centrilor de coordonare si de putere (a nervinelor);altele prin apasarea tuturor functiilor vitale (Lobelia, americanspanz,etc), precum si un numar de stimulare a fibrelor musculare ale intestinelor pentru a expulza acumularile de gaze(asafoetida, valeriana, ignamasalbatica, cajuput, etc).
 
-Majoritatea acestor plante vindeca nervii deteriorati sau suprasolicita și amelioreaza tensiunea nervoasă și iritabilitatea cauzate de acțiunea neregulata si dureroasa a mușchilor. Aceste plante sunt cele mai eficienteîn cazurile de blocare a articulațiilor, astfel încât acestea sunt utile mai ales ca agenți anti-tetanos.
+Majoritatea acestor plante vindeca nervii deteriorati sau suprasolicita si amelioreaza tensiunea nervoasa si iritabilitatea cauzate de actiunea neregulata si dureroasa a muschilor. Aceste plante sunt cele mai eficientein cazurile de blocare a articulatiilor, astfel incat acestea sunt utile mai ales ca agenti anti-tetanos.
 
 Lobelia(Lobelia inflata; LOBELIACEAE)
 
-Lobelia este cea mai buna planta antispastica și nervina, de asemenea.
+Lobelia este cea mai buna planta antispastica si nervina, de asemenea.
 
 Lobelia este o astfel de planta utila care a meritat sa ii acordam un capitol propriu (vezicapitolul13).
 
@@ -46,17 +46,17 @@ Tinctura se administreaza 10-20 picaturi de 2-3 ori pe zi
 
 56g de pulberebitter stomacal(Bayberry)
 
-28g pulbererădăcinăde Valeriana(Valeriana officinalis)
+28g pulbereradacinade Valeriana(Valeriana officinalis)
 
 7g pulbere deLobeliapraf(Lobelia inflata)
 
-7g scorțișoară pudră(Cinnamomum zeylanicum)
+7g scortisoara pudra(Cinnamomum zeylanicum)
 
 7g de Cayenne (Capsicum frutescens; C.minim)
 
-Mod de preparare:Se amestecă șicern ierburile.
+Mod de preparare:Se amesteca sicern ierburile.
 
-Dozare: 1linguritalaocana de apa fierbinte, la fiecare oră, dacă este necesar.
+Dozare: 1linguritalaocana de apa fierbinte, la fiecare ora, daca este necesar.
 
 # Pentru tratarea varicelei, varicela
 
@@ -64,11 +64,11 @@ Dozare: 1linguritalaocana de apa fierbinte, la fiecare oră, dacă este necesar.
 
 14g de radacinade Pleurezia (Asclepias tuberosa)
 
-Pregătire: se infuzeaza timp de20 minuteîn1litru de apafiarta, seîndulcesteșibeacalda.
+Pregatire: se infuzeaza timp de20 minutein1litru de apafiarta, seindulcestesibeacalda.
 
 Dozare: 56 ml de lichid, de3-4ori pe zi.
 
-Administrare: Pentrumâncărimea pielii, fa baie cu o combinație de 28g tinctura deLobelia și 7 grame de extract lichid de witch hazel.
+Administrare: Pentrumancarimea pielii, fa baie cu o combinatie de 28g tinctura deLobelia si 7 grame de extract lichid de witch hazel.
 
 # Cloroza , boala verde
 
@@ -78,13 +78,13 @@ Administrare: Pentrumâncărimea pielii, fa baie cu o combinație de 28g tinctur
 
 14g Golden Seal ( Hydrastis Canadensis )
 
-14g semințe de coriandru ( Coriandrum sativum )
+14g seminte de coriandru ( Coriandrum sativum )
 
 7g coaja de portocala ( Citrus aurantium sau C. sinensis )
 
-Mod de preparare: se tin ierburile timp de 20 minute în 1 litru de apa fiarta ,
+Mod de preparare: se tin ierburile timp de 20 minute in 1 litru de apa fiarta ,
 
-apa se strecoara si se adauga pana la 1 kilogram de miere si 56g de glicerină .
+apa se strecoara si se adauga pana la 1 kilogram de miere si 56g de glicerina .
 
 Dozare : cca.60ml de lichid 3-4 ori pe zi .
 
@@ -94,11 +94,11 @@ Dozare : cca.60ml de lichid 3-4 ori pe zi .
 
 1 parte musetel ( Chamaemelum nobile ; Anthemis nobilis )
 
-1 parte rădăcină Gravel ( Eupatorium purpureum )
+1 parte radacina Gravel ( Eupatorium purpureum )
 
 Mod de preparare: Se afunda 1 lingurita de pulberi mixte pentru 20 minute din 1
 
-jumatate de litru de apa , se îndulceste , se pune in sticlă și să păstreaza într-un loc răcoros .
+jumatate de litru de apa , se indulceste , se pune in sticla si sa pastreaza intr-un loc racoros .
 
 Dozare : cca.60 ml de lichid, la fiecare 2 la 3 ore, in timpul zilei .
 
@@ -108,7 +108,7 @@ Dozare : cca.60 ml de lichid, la fiecare 2 la 3 ore, in timpul zilei .
 
 14g Wood Betony ( Stachys officinalis )
 
-7g Rădăcină de valeriană ( Valeriana officinalis )
+7g Radacina de valeriana ( Valeriana officinalis )
 
 14g Busuiocul cerbilor ( Mentha pulegium )
 
@@ -118,11 +118,11 @@ Dozare : cca.60 ml de lichid, la fiecare 2 la 3 ore, in timpul zilei .
 
 1/2 lingurita coaja de Bayberry ( Myrica cerifera )
 
-Mod de preparare: se infuza primele 5 plante intr-un litru de apa . Acopera cu atenție și
+Mod de preparare: se infuza primele 5 plante intr-un litru de apa . Acopera cu atentie si
 
-păstreaza cald în cuptor timp de 1 oră , apoi strecuara peste Cayenne și Bayberry .
+pastreaza cald in cuptor timp de 1 ora , apoi strecuara peste Cayenne si Bayberry .
 
-Îndulceste, puneti in sticlă și păstreaza într \-un loc răcoros .
+Indulceste, puneti in sticla si pastreaza intr \-un loc racoros .
 
 Dozare : 2 linguri, de 6 ori pe zi
 
@@ -138,13 +138,13 @@ Insomnie (mai alesdependenta demorfina)
 
 1parteBlack Cohosh(Cimicifuga racemosa)
 
-Mod de preparare:Se amestecăierburile împreună. Utilizeaza 1lingurițădeamestec deplante laoceașcăde apă fierbinte, se acoperă timpde 15- 20 de minute.
+Mod de preparare:Se amestecaierburile impreuna. Utilizeaza 1linguritadeamestec deplante laoceascade apa fierbinte, se acopera timpde 15- 20 de minute.
 
-Dozare: se bea ceaiulcaldînainte de culcare.
+Dozare: se bea ceaiulcaldinainte de culcare.
 
 # Tonic nervos
 
-2 părțiScullcap(Scutellaria lateriflora)
+2 partiScullcap(Scutellaria lateriflora)
 
 1parteCohoshalbastru(Caulophyllum thalictroides)
 
@@ -154,21 +154,21 @@ Dozare: se bea ceaiulcaldînainte de culcare.
 
 Mod de preparare:Utilizati cainfuziesausirop.
 
-Dozare: 2linguritedupă mese și laculcare(sirop);
+Dozare: 2linguritedupa mese si laculcare(sirop);
 
 3linguridupa mese(infuzie).
 
 # VALERIANA (Valeriana officinalis; VALERIANACEAE)
 
-Valeriana (Valeriana officinalis) este o specie de plante erbacee perena din familia Valerianaceae. Mai este denumită și odolean, năvalnic, gușa-porumbelului sau iarba-pisicii.
+Valeriana (Valeriana officinalis) este o specie de plante erbacee perena din familia Valerianaceae. Mai este denumita si odolean, navalnic, gusa-porumbelului sau iarba-pisicii.
 
 Caracteristici de identificare
 
-Tulpina crește până la o înălțime de 70-170 cm. Florile sunt roșii-liliachii până la albe, grupate într-o inflorescență umbeliformă. Înflorește în perioada iunie-august.
+Tulpina creste pana la o inaltime de 70-170 cm. Florile sunt rosii-liliachii pana la albe, grupate intr-o inflorescenta umbeliforma. Infloreste in perioada iunie-august.
 
-Principalele substanțe active sunt: ulei volatil, acid izovalerianic și acid valerianic, alcaloizi (catinină, alfa-metil-pirilcetonă, valerianonă). Preparatele din rizom (ceai, tinctură, extract uscat), administrate intern și extern (băi), sunt indicate în stări de agitație, tulburări ale somnului și aritmii cardiace de natură nervoasă.
+Principalele substante active sunt: ulei volatil, acid izovalerianic si acid valerianic, alcaloizi (catinina, alfa-metil-pirilcetona, valerianona). Preparatele din rizom (ceai, tinctura, extract uscat), administrate intern si extern (bai), sunt indicate in stari de agitatie, tulburari ale somnului si aritmii cardiace de natura nervoasa.
 
-Utilizarea valerianei are o tradiție de peste patru mii de ani, fiind considerata o plantă de referință, atât în Europa, cât și în Asia. Investită și cu însușiri magice de tradiția populară, în ultimele patru decenii i-au fost dedicate sute și sute de studii medicale, care toate atestă acelaș lucru: valeriana este una dintre cele mai eficiente remedii în tratarea tulburărilor emoționale, precum și a bolilor fizice asociate lor. O problemă de extremă actualitate în vremurile noastre, care stau sub semnul tensiunii si al stresului.
+Utilizarea valerianei are o traditie de peste patru mii de ani, fiind considerata o planta de referinta, atat in Europa, cat si in Asia. Investita si cu insusiri magice de traditia populara, in ultimele patru decenii i-au fost dedicate sute si sute de studii medicale, care toate atesta acelas lucru: valeriana este una dintre cele mai eficiente remedii in tratarea tulburarilor emotionale, precum si a bolilor fizice asociate lor. O problema de extrema actualitate in vremurile noastre, care stau sub semnul tensiunii si al stresului.
 
 Se mai numeste popular si odolean sau gusa porumbelului. Este o planta ierboasa, inalta de un metru \- un metru si jumatate, care creste spontan, in locurile umede, cu pamant afanat, din zonele de deal si de munte. Are florile de un roz palid, cu un miros slab-dulceag, la fel ca si frunzele. Radacina este puternica si bine dezvoltata (in ea sunt depozitate peste iarna substantele de rezerva), avand si ea un miros specific: dulceag-intepator si destul de neplacut, usor emetic (vomitiv). Radacina se recolteaza la sfarsitul lui septembrie, inceputul lui octombrie. Se dezgroapa cu cazmaua, apoi se spala in curent de apa rece, se despica pe lungime in patru si se intinde la uscat, in locuri bine ventilate si lipsite de umiditate. Cand radacinile devin casante si se rup cu un pocnet sec, procesul de uscare s-a incheiat si planta se depoziteaza in saculeti de hartie, in locuri uscate, intunecoase si reci. Pentru terapie nu sunt nici pe departe suficiente cantitatile din flora spontana, unde creste izolat, fiind destul de rara, motiv pentru care se cultiva pe suprafete mari, inclusiv la noi in tara, unde valeriana se gaseste in magazinele Plafar sub forma de ceai sau tincturi.
 
@@ -239,17 +239,17 @@ In doze normale, valeriana da foarte rar reactii adverse, care constau in somnol
 
 28g Pellitory-of-the-wall(Parietaria officinalis)
 
-28g rădăcină de Peony(Paeonia officinalis)
+28g radacina de Peony(Paeonia officinalis)
 
 28g Wood Betony(Stachys officinalis)
 
 28g Scullcap(Scutellaria lateriflora)
 
-Mod de preparare:se infuzeazaierburiletimp de 1 orăin2litri deapa fierbinte, se acopera binesise tine la cald. Se lasăsă se răcească, apoise strecoara.
+Mod de preparare:se infuzeazaierburiletimp de 1 orain2litri deapa fierbinte, se acopera binesise tine la cald. Se lasasa se raceasca, apoise strecoara.
 
-Dozare: 2lingurila fiecare 2 ore(se adauga 10 picături detinctura antispasmodicalafiecare doză).
+Dozare: 2lingurila fiecare 2 ore(se adauga 10 picaturi detinctura antispasmodicalafiecare doza).
 
-Neliniște, insomnie, isterie, nevralgii
+Neliniste, insomnie, isterie, nevralgii
 
 14gValeriana(Valeriana officinalis)
 
@@ -257,9 +257,9 @@ Neliniște, insomnie, isterie, nevralgii
 
 14gVasc(Viscum album)
 
-Mod de preparare:se infuzeazaplanteleîn1-1/2litri deapa fierbinte. Acoperitibinesi lasati sa stea 2 ore. Se indulceste amestecul.
+Mod de preparare:se infuzeazaplantelein1-1/2litri deapa fierbinte. Acoperitibinesi lasati sa stea 2 ore. Se indulceste amestecul.
 
-Dozare: 2 până la 4linguri, de 4 ori pe zi.
+Dozare: 2 pana la 4linguri, de 4 ori pe zi.
 
 # Papucul doamnei (Cypripedium calceolus var. pubescens; C. reginae; ORCHIDACEAE)
 
@@ -287,24 +287,24 @@ In Enciclopedia remediilor florale, lucrare de baza scrisa de Mechthild Scheffer
 
 Infuzie de papucul doamnei
 
-28g de rădăcină depapucul doamnei, tăiata(Cypripedium calceolusvar.Pubescens)
+28g de radacina depapucul doamnei, taiata(Cypripedium calceolusvar.Pubescens)
 
 1-1/4litride apadistilata
 
-Mod de preparare:Se pune apala fiertși se toarnăpesteplanta. Se acoperăși se tine asatimp de 15 minute, se strecoara si seindulcestedupa gust.
+Mod de preparare:Se pune apala fiertsi se toarnapesteplanta. Se acoperasi se tine asatimp de 15 minute, se strecoara si seindulcestedupa gust.
 
-Dozare: 60ml de lichid, de3 până la 4ori pe zi, de preferatinainte de masa.
+Dozare: 60ml de lichid, de3 pana la 4ori pe zi, de preferatinainte de masa.
 
-Copii: de la 2linguritea1lingurita, în funcție devârsta șistare.
+Copii: de la 2linguritea1lingurita, in functie devarsta sistare.
 
 Inflamatia apendicelui
 
-1linguritarădăcină de papucul doamnei(Cypripedium calceolusvar.Pubescens)
+1linguritaradacina de papucul doamnei(Cypripedium calceolusvar.Pubescens)
 
 1/2lingurita deplantaLobelia(Lobelia inflata)
 
-Se amestecă ierburileînformă de pulbereîntr-oceașcădeapa fierbinte, se acoperă cuofarfurietimp de câtevaminute.
+Se amesteca ierburileinforma de pulbereintr-oceascadeapa fierbinte, se acopera cuofarfurietimp de catevaminute.
 
-Dozare: 1ceasca plina lafiecare1/2oră.
+Dozare: 1ceasca plina lafiecare1/2ora.
 
-Administrare: Nu lua catartice în același timp. Aplica o cataplasmă din o frunzăde lumanarica,Lobelia și ghimbir pe zona afectată.
+Administrare: Nu lua catartice in acelasi timp. Aplica o cataplasma din o frunzade lumanarica,Lobelia si ghimbir pe zona afectata.

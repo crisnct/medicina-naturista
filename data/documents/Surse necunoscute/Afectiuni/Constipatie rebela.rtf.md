@@ -1,88 +1,88 @@
 # Constipatie rebela
-1.	Alimente ce trebuiesc evitate: ciocolata, cacao, pâinea alba, paste fã inoase
+1.	Alimente ce trebuiesc evitate: ciocolata, cacao, painea alba, paste fa inoase
 
- carnea, brânzeturi sãrate oale.
+ carnea, branzeturi sarate oale.
 
- Consumaþi: alimente bogate in celuloza, fasole verde, dovlecei, morcovi, þelina, sfecla cartofi, salata verde, ceapa, castraveþi, praz, spanac, roºii, mere, pere, struguri, portocale, pâ
+ Consumaþi: alimente bogate in celuloza, fasole verde, dovlecei, morcovi, þelina, sfecla cartofi, salata verde, ceapa, castraveþi, praz, spanac, roºii, mere, pere, struguri, portocale, pa
 
-ine Graham, 500 gr fructe si 500 gr legume mâncaþi pe zi.
+ine Graham, 500 gr fructe si 500 gr legume mancaþi pe zi.
 
  2.	Polenul
 
- vindeca cele mai rebele constipaþii. Se ia câte 20 gr de polen îndulcit cu miere zilnic. Cura dureaza o lunã, se face pauzâ 2 luni dupa care se repetã.
+ vindeca cele mai rebele constipaþii. Se ia cate 20 gr de polen indulcit cu miere zilnic. Cura dureaza o luna, se face pauza 2 luni dupa care se repeta.
 
  3.	Reþet
 
-ã þãrãneascã: mâncati dimineaþa pe stomacul gol prune uscate înmuiate peste noapte în apa, cu pâine de graham sau secara, la culcare mancaþi 2 mere.
+a þaraneasca: mancati dimineaþa pe stomacul gol prune uscate inmuiate peste noapte in apa, cu paine de graham sau secara, la culcare mancaþi 2 mere.
 
  4.	Re
 
-þetã cu portocale: lãsaþi sã fiarbã în apa, timp de 30 minute, coaja de la o portocalã proaspatã. Aruncaþi apa ºi mai fierbeþ
+þeta cu portocale: lasaþi sa fiarba in apa, timp de 30 minute, coaja de la o portocala proaspata. Aruncaþi apa ºi mai fierbeþ
 
-i o data coaja 20 de minute în apa îndulcitã cu 20 gr mire la litru. Scoateþi coaja ºi beþi ceaiul dimineaþa pe stomacul gol, sau la trei ore dupa cinã . Este un laxativ imediat ºi puternic.
+i o data coaja 20 de minute in apa indulcita cu 20 gr mire la litru. Scoateþi coaja ºi beþi ceaiul dimineaþa pe stomacul gol, sau la trei ore dupa cina . Este un laxativ imediat ºi puternic.
 
  5.	Re
 
-þetã cu tãrâþe: 1-2 kg de tãrâþe de grâu trebuie cernute printr-o sitã deasã ca sã se elimine fãina care mai rãmâne î
+þeta cu taraþe: 1-2 kg de taraþe de grau trebuie cernute printr-o sita deasa ca sa se elimine faina care mai ramane i
 
-n ele dupã mãcinarea grãului. Puneþi în fiecare dimineaþã douã linguri de tãrâþe într-o canã obiºnuitã ºi opãriþi-le cu orice fel de ceai. Amestecaþi bine conþinutul pentru a-l omogeniza ºi c
+n ele dupa macinarea graului. Puneþi in fiecare dimineaþa doua linguri de taraþe intr-o cana obiºnuita ºi opariþi-le cu orice fel de ceai. Amestecaþi bine conþinutul pentru a-l omogeniza ºi c
 
-ând se rãceºte (trebuie sã fie cãlduþ) îl beþi pe stomacul gol, înghiþiturã cu înghiþiturã. Dupã o pauzã de circa 10 min puteþi servi micul dejun. În cazul în care constipaþia nu cedeazã
+and se raceºte (trebuie sa fie calduþ) il beþi pe stomacul gol, inghiþitura cu inghiþitura. Dupa o pauza de circa 10 min puteþi servi micul dejun. In cazul in care constipaþia nu cedeaza
 
- chiar de a doua zi, repetaþi operaþia ºi seara, înainte de cinã. Dupã ce situaþia se normalizeazã, renunþaþi la porþia de searã.
+ chiar de a doua zi, repetaþi operaþia ºi seara, inainte de cina. Dupa ce situaþia se normalizeaza, renunþaþi la porþia de seara.
 
  6.	Murele\~:
 
-faceþi infuzie din frunze de mur [ proaspete sau uscate ] doza 40-80gr [douã linguri de supã] la 1 litru de apã, în funcþie de gravitatea constipaþiei. Beþi douã cãni pe zi diminea
+faceþi infuzie din frunze de mur [ proaspete sau uscate ] doza 40-80gr [doua linguri de supa] la 1 litru de apa, in funcþie de gravitatea constipaþiei. Beþi doua cani pe zi diminea
 
-þa ºi seara. Dacã aveþi, puteþi adãuga câte un pumn de fructe proaspete dimineaþa pe stomacul gol.
+þa ºi seara. Daca aveþi, puteþi adauga cate un pumn de fructe proaspete dimineaþa pe stomacul gol.
 
  7.	Ceai laxativ
 
-\~: puneþi la fiert, freme de 10 minute, 25-30 gr frunze de prun într-un litru de apã. Beþi câte o ceaºca dupã mesele principale vreme de 5 zile
+\~: puneþi la fiert, freme de 10 minute, 25-30 gr frunze de prun intr-un litru de apa. Beþi cate o ceaºca dupa mesele principale vreme de 5 zile
 
  8.	Dovleacul :
 
-beþi în fiecare dimineaþã o canã de suc de dovleac
+beþi in fiecare dimineaþa o cana de suc de dovleac
 
  9.	Re
 
-þetã cu tarâþe 2\~
+þeta cu taraþe 2\~
 
-: 2linguri de tãrâþ
+: 2linguri de taraþ
 
-e de grâu se pun de cu searã într-o jumãtate de canã de ap
+e de grau se pun de cu seara intr-o jumatate de cana de ap
 
-ã. Dimineaþa, înainte de masã, o mâncaþi. Dacã
+a. Dimineaþa, inainte de masa, o mancaþi. Daca
 
- se umflã ºi nu mai are lichid, mai adãugaþi puþin cei cald sau apã la temperatura camerei. Elimin
+ se umfla ºi nu mai are lichid, mai adaugaþi puþin cei cald sau apa la temperatura camerei. Elimin
 
-ã ºi toxinele din organism ºi conþine vitamina din gama B-urilor. În acelaº
+a ºi toxinele din organism ºi conþine vitamina din gama B-urilor. In acelaº
 
  timp puteþi consuma ºi gr
 
-âu încolþit, cam 35-40gr pe zi, dupã ce aþî mâncat t
+au incolþit, cam 35-40gr pe zi, dupa ce aþi mancat t
 
-ãrâþele. Grâul trebuie luat 20 de zile pe lun
+araþele. Graul trebuie luat 20 de zile pe lun
 
-ã, iar tãrâþele toatã viaþa\~dac
+a, iar taraþele toata viaþa\~dac
 
-ã este cazul\~!!!!! Este valabi pentru cei ce au probleme cu intestinul gros
+a este cazul\~!!!!! Este valabi pentru cei ce au probleme cu intestinul gros
 
-, ºi cei ce au fost operaþi trebuie sã facã acest tratament. Luaþi ºi vitamina D.
+, ºi cei ce au fost operaþi trebuie sa faca acest tratament. Luaþi ºi vitamina D.
 
  10.	Re
 
 þeta cu miere de albine\~: supradenumit
 
-ã «\~reþetã sigur
+a «\~reþeta sigur
 
-ã\~» 2 linguri de miere de albine + 2 linguri nuci mãcinate + 2 linguri smântân
+a\~» 2 linguri de miere de albine + 2 linguri nuci macinate + 2 linguri smantan
 
-ã + 2 linguri tãrâ
+a + 2 linguri tara
 
-þe de crâu + 2 mere rase. Se amestecã toate ºi se consumã 2 linguri pe zi, diminea
+þe de crau + 2 mere rase. Se amesteca toate ºi se consuma 2 linguri pe zi, diminea
 
-þa, pe nemâncate, dupã care se bea o canã de ceai de muºeþel. Se pot dubla candi
+þa, pe nemancate, dupa care se bea o cana de ceai de muºeþel. Se pot dubla candi
 
-taþile la 4 linguri. Se pastreazã în frigider.
+taþile la 4 linguri. Se pastreaza in frigider.

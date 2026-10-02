@@ -8,12 +8,12 @@ O felie de paine prajita cu miere / un ou fiert
 Un iaurt fara grasimi
 Un bol mare cu cirese
 
-La prânz
+La pranz
 
 O supa de legume/ 3 felii de paine cu branza si smantana slaba sau cartofi nature cu verdeata proaspata
 Jumatate de kilogram de cirese
 
-La cină
+La cina
 
 O bucata de carne alba (pui sau peste) cu salata cu lamaie
 Jumatate de kilogram de cirese.

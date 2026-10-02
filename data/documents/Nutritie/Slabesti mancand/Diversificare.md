@@ -1,95 +1,95 @@
 Diversificarea
 
-**Ce facem în \"Diversificare\" ?**\
+**Ce facem in \"Diversificare\" ?**\
 \
- 1. Mărim aportul de pâine: 2-3 felii/zi. În principal pâinea o consumăm în prima parte a zilei, acum 1 zi din 2 zile putem consuma 1 felie de pâine și la prânz.
+ 1. Marim aportul de paine: 2-3 felii/zi. In principal painea o consumam in prima parte a zilei, acum 1 zi din 2 zile putem consuma 1 felie de paine si la pranz.
 
- 2. Folosim acum și făină specială „Slăbești mâncând" pentru gătirea unor preparate: clătite dulci sau sărate, șnițele, îngroșeli pentru tocănițe, tăiței de casă pentru supe etc.
+ 2. Folosim acum si faina speciala „Slabesti mancand" pentru gatirea unor preparate: clatite dulci sau sarate, snitele, ingroseli pentru tocanite, taitei de casa pentru supe etc.
 
- 3. Reintroducem în alimentație legume și fructe interzise în primele 2 săptămâni, acum se poate consuma orice din tabelul 1, indici glicemici mici.
+ 3. Reintroducem in alimentatie legume si fructe interzise in primele 2 saptamani, acum se poate consuma orice din tabelul 1, indici glicemici mici.
 
- 4. Introducem și alimente din grupa alimentelor cu indici glicemici medii, însă respectăm regula de bază care spune că aceste alimente nu le putem consumă în asociere cu grăsimi: cereale integrale, spaghete fierte al dente (maxim 1 zi / săptămână).
+ 4. Introducem si alimente din grupa alimentelor cu indici glicemici medii, insa respectam regula de baza care spune ca aceste alimente nu le putem consuma in asociere cu grasimi: cereale integrale, spaghete fierte al dente (maxim 1 zi / saptamana).
 
- 5. Introducem orezul basmati, însă ideal ar fi să-l consumați în această perioadă maxim o dată pe săptămână.
+ 5. Introducem orezul basmati, insa ideal ar fi sa-l consumati in aceasta perioada maxim o data pe saptamana.
 
- 6. Garniturile sunt mai complexe: piure năut, piure conopidă, legume la tigaie +/- orez basmati, mâncare năut, mazăre scăzută, fasole boabe scăzută sau frecată cu ulei.
+ 6. Garniturile sunt mai complexe: piure naut, piure conopida, legume la tigaie +/- orez basmati, mancare naut, mazare scazuta, fasole boabe scazuta sau frecata cu ulei.
 
- 7. Introducem deserturile: 1 desert complex de tip prăjitură / cremă / înghețată - o dată / săptămână, plus încă 1 desert simplu / săptămână (ciocolată amăruie sau dietetică, compot dietetic).
+ 7. Introducem deserturile: 1 desert complex de tip prajitura / crema / inghetata - o data / saptamana, plus inca 1 desert simplu / saptamana (ciocolata amaruie sau dietetica, compot dietetic).
 
- 8. Introducem vinul și șampania: maxim de 2 ori / săptămână câte 200 ml. Vinul sau șampania pot fi consumate în orice parte a zilei.
+ 8. Introducem vinul si sampania: maxim de 2 ori / saptamana cate 200 ml. Vinul sau sampania pot fi consumate in orice parte a zilei.
 
- 9. Reintroducem și carnea grasă, însă mai rar -- la 3 zile poate fi consumată o ceafă la grătar sau mititei sau o friptură de porc etc. Preferabil carnea grasă să nu fie consumată seara (cina rămâne pe varianta carne slabă + legume). Atenție: carnea de gâscă / rață nu intră la categoria carne grasă! Poate fi consumată la liber.
+ 9. Reintroducem si carnea grasa, insa mai rar -- la 3 zile poate fi consumata o ceafa la gratar sau mititei sau o friptura de porc etc. Preferabil carnea grasa sa nu fie consumata seara (cina ramane pe varianta carne slaba + legume). Atentie: carnea de gasca / rata nu intra la categoria carne grasa! Poate fi consumata la liber.
 
- 10. Lactatele: cele cu zer (iaurt degresat, brânză degresată de vaci, lapte degresat) -- nu chiar zilnic, maxim 1 porție pe zi. Nu asociați niciodată lactatele cu zer la o masă cu carne și păstrați o distanță de 2,5 ore între acest tip de lactate și o masă cu carne. Cașcavalul, parmezanul -- pot fi utilizate la „dres" (gratinat un preparat la cuptor, adaos la un soufle) fără limită de utilizare. Brânzeturile bine scurse de zer (brânză de burduf, cașcavaluri, caș, telemea) pot fi consumate în asociere cu carnea. Ideal ar însă să limitați consumul de lactate în perioadele de slăbire și de diversificare.
+ 10. Lactatele: cele cu zer (iaurt degresat, branza degresata de vaci, lapte degresat) -- nu chiar zilnic, maxim 1 portie pe zi. Nu asociati niciodata lactatele cu zer la o masa cu carne si pastrati o distanta de 2,5 ore intre acest tip de lactate si o masa cu carne. Cascavalul, parmezanul -- pot fi utilizate la „dres" (gratinat un preparat la cuptor, adaos la un soufle) fara limita de utilizare. Branzeturile bine scurse de zer (branza de burduf, cascavaluri, cas, telemea) pot fi consumate in asociere cu carnea. Ideal ar insa sa limitati consumul de lactate in perioadele de slabire si de diversificare.
 
- 11. Fructoză: nu depășiți 20 grame/zi. Excepție -- desertul săptămânal intră la categoria bonificație și nu necesită calcul al conținutului în fructoză.
+ 11. Fructoza: nu depasiti 20 grame/zi. Exceptie -- desertul saptamanal intra la categoria bonificatie si nu necesita calcul al continutului in fructoza.
 
- 12. Nu mai aveți restricții la consumul de uleiuri (în etapa de slăbire limitasem aportul de grăsimi); este ideal să folosiți uleiuri vegetale extravirgine pentru salate simple sau în combinație (de măsline, floarea soarelui, rapiță, soia, susan, sâmburi de struguri etc). Puteți folosi și la gătit uleiuri vegetale în diverse combinații (de ex. măsline + floarea soarelui).
+ 12. Nu mai aveti restrictii la consumul de uleiuri (in etapa de slabire limitasem aportul de grasimi); este ideal sa folositi uleiuri vegetale extravirgine pentru salate simple sau in combinatie (de masline, floarea soarelui, rapita, soia, susan, samburi de struguri etc). Puteti folosi si la gatit uleiuri vegetale in diverse combinatii (de ex. masline + floarea soarelui).
 
- 13. 1 zi pe săptămână va fi o zi de bonus: se poate consuma desertul sofisticat; se mănâncă orice tip de carne; se bea vin; se poate face o pizza de casă.\
+ 13. 1 zi pe saptamana va fi o zi de bonus: se poate consuma desertul sofisticat; se mananca orice tip de carne; se bea vin; se poate face o pizza de casa.\
  \
-Fiți speculativi, posibilitățile de concepere a meniurilor sunt multiple. În rețetele pe care le găsiți pe site sunt multe variante de garnituri și mâncăruri pe care deja le puteți consuma. Sunt utile până pricepeți sistemul, în final veți ști să adaptați orice rețetă.
+Fiti speculativi, posibilitatile de concepere a meniurilor sunt multiple. In retetele pe care le gasiti pe site sunt multe variante de garnituri si mancaruri pe care deja le puteti consuma. Sunt utile pana pricepeti sistemul, in final veti sti sa adaptati orice reteta.
 
  \
 **Exemple de meniuri:**\
 \
- a) în loc de cele 2 felii de pâine de la mic dejun -- faceți clătite cu cașcaval sau cu dulceață (cele două aluaturi -- pâine sau plăcinte -- sunt la fel de dietetice).\
-b) faceți din aluatul de pâine sau pizza niște lipii subțiri (lipii arabești) coapte în tigaie (unsă cu puțin ulei) și după aceea le umpleți cu diverse: bucățele de carne la grătar, castraveți (preferabil în saramură, cei cu oțet au zahăr; în ultimă instanță -- asta e!), varză, maioneză, ketchup de casă.\
-c) pește prăjit cu mămăligă de năut și mujdei de usturoi.\
-d) Antreu: salată pui + țelină + măr + maioneză sau salată de vinete sau platou chifteluțe, șnițele, ciuperci pane; fel principal: sarmale cu carne făcute cu orez basmati + mămăligă de năut; desert: spumă de ciocolată; 1 pahar vin sau șampanie\
+ a) in loc de cele 2 felii de paine de la mic dejun -- faceti clatite cu cascaval sau cu dulceata (cele doua aluaturi -- paine sau placinte -- sunt la fel de dietetice).\
+b) faceti din aluatul de paine sau pizza niste lipii subtiri (lipii arabesti) coapte in tigaie (unsa cu putin ulei) si dupa aceea le umpleti cu diverse: bucatele de carne la gratar, castraveti (preferabil in saramura, cei cu otet au zahar; in ultima instanta -- asta e!), varza, maioneza, ketchup de casa.\
+c) peste prajit cu mamaliga de naut si mujdei de usturoi.\
+d) Antreu: salata pui + telina + mar + maioneza sau salata de vinete sau platou chiftelute, snitele, ciuperci pane; fel principal: sarmale cu carne facute cu orez basmati + mamaliga de naut; desert: spuma de ciocolata; 1 pahar vin sau sampanie\
 \
-e) tochitură: tocăniță de carne + mămăligă de năut + ochiuri la tigaie + brânză burduf rasă\
+e) tochitura: tocanita de carne + mamaliga de naut + ochiuri la tigaie + branza burduf rasa\
 \
-f) un antreu (sau chiar garnitură): faceți aluat de clătite mai gros (cu apă în loc de lapte), cu sare + piper + boia și tăvăliți prin el apoi aruncați în ulei încins: conopidă fiartă, broccoli fiert, ciupercuțe ușor opărite.\
+f) un antreu (sau chiar garnitura): faceti aluat de clatite mai gros (cu apa in loc de lapte), cu sare + piper + boia si tavaliti prin el apoi aruncati in ulei incins: conopida fiarta, broccoli fiert, ciupercute usor oparite.\
 \
-g) dacă vă este poftă de iaurt cu fructe: amestecați iaurtul de dimineață cu fructe deshidratate sau proaspete permise sau cu gem dietetic; îl puteți servi ca și gustare de dimineață sau de după masă.\
+g) daca va este pofta de iaurt cu fructe: amestecati iaurtul de dimineata cu fructe deshidratate sau proaspete permise sau cu gem dietetic; il puteti servi ca si gustare de dimineata sau de dupa masa.\
 \
-h) la restaurant: carne cu legume la grătar + salate (roșii, castraveți, ceapă, ardei, salată verde); spaghete al dente cu legume (maxim 1 zi / săptămână spaghete).
+h) la restaurant: carne cu legume la gratar + salate (rosii, castraveti, ceapa, ardei, salata verde); spaghete al dente cu legume (maxim 1 zi / saptamana spaghete).
 
 **Ce avem voie ?**\
  \
-Legume permise: ardei, castraveți, ceapă, ciuperci, conopidă, broccoli, dovlecei, năut, linte, fasole boabe, fasole verde, mazăre, morcov crud, praz, ridichi, roșii, salată verde, sfeclă crudă, sparanghel, spanac, țelină crudă, urzici, varză, vinete, soia;\
-\* năut, fasole boabe, linte, mazăre -- nu zilnic, 1 zi la 3 zile pentru început; făina specială „Slăbești mâncând" pentru îngroșat sosuri sau făcut șnițele puteți folosi zilnic;\
- Fructe permise: ananas, afine, caise, căpșuni, cireșe, coacăze, fragi, gref, gutui, mandarine, mere, mure, nectarine, pere, piersici, pomelo, portocale, prune, rodii;\
-\* ananasul nu-l asociați niciodată la o masă cu grăsime (ouă, carne, lactate integrale sau semidegresate).\
- Dispare restictia la grăsime, se poate găti cu ulei fără restricție.\
-Carne: orice tip de carne; carnea grasă (porc, tocături, mititei) mai rar pentru început -- maxim de 2 ori / săptămână.\
-Carnea poate fi gătită oricum: șnițele, friptură, tocană, înăbușită.\
- Deserturi: 1 zi / săptămână puteți consuma 1 desert mai complex (de tip spumă de ciocolată, înghețată, tort). În rest -- încă 1 zi din săptămână puteți consuma deserturi ușoare -- compot de fructe permise, jumătate tablă de ciocolată (ciocolată \> 70% cacao sau ciocolată dietetică).\
- Se poate consuma vin sau șampanie (sec sau demisec, roșu sau alb): 1 pahar de 200 ml de 2 ori / săptămână.\
-Alte băuturi: cafea cu cofeină 1 ceașcă mare/zi, în rest -- decofeinizată, ceaiuri plante, ceaiuri fructe (nu ceai negru, are cofeină); apă plată sau apă minerală light; sucuri naturale (suc de la 1 portocală diluat cu apă până se umple paharul), însă mai rar; extrem de rar băuturi răcoritoare light (ideal ar fi cu fructoză, nu cu îndulcitori sintetici).
+Legume permise: ardei, castraveti, ceapa, ciuperci, conopida, broccoli, dovlecei, naut, linte, fasole boabe, fasole verde, mazare, morcov crud, praz, ridichi, rosii, salata verde, sfecla cruda, sparanghel, spanac, telina cruda, urzici, varza, vinete, soia;\
+\* naut, fasole boabe, linte, mazare -- nu zilnic, 1 zi la 3 zile pentru inceput; faina speciala „Slabesti mancand" pentru ingrosat sosuri sau facut snitele puteti folosi zilnic;\
+ Fructe permise: ananas, afine, caise, capsuni, cirese, coacaze, fragi, gref, gutui, mandarine, mere, mure, nectarine, pere, piersici, pomelo, portocale, prune, rodii;\
+\* ananasul nu-l asociati niciodata la o masa cu grasime (oua, carne, lactate integrale sau semidegresate).\
+ Dispare restictia la grasime, se poate gati cu ulei fara restrictie.\
+Carne: orice tip de carne; carnea grasa (porc, tocaturi, mititei) mai rar pentru inceput -- maxim de 2 ori / saptamana.\
+Carnea poate fi gatita oricum: snitele, friptura, tocana, inabusita.\
+ Deserturi: 1 zi / saptamana puteti consuma 1 desert mai complex (de tip spuma de ciocolata, inghetata, tort). In rest -- inca 1 zi din saptamana puteti consuma deserturi usoare -- compot de fructe permise, jumatate tabla de ciocolata (ciocolata \> 70% cacao sau ciocolata dietetica).\
+ Se poate consuma vin sau sampanie (sec sau demisec, rosu sau alb): 1 pahar de 200 ml de 2 ori / saptamana.\
+Alte bauturi: cafea cu cofeina 1 ceasca mare/zi, in rest -- decofeinizata, ceaiuri plante, ceaiuri fructe (nu ceai negru, are cofeina); apa plata sau apa minerala light; sucuri naturale (suc de la 1 portocala diluat cu apa pana se umple paharul), insa mai rar; extrem de rar bauturi racoritoare light (ideal ar fi cu fructoza, nu cu indulcitori sintetici).
 
  \
-Mic dejun -- oricare din cele 2 variante; gustarea de dimineață o puteți alege tot din ce trebuia să mâncați la mic dejun.\
- Prânz: tocană, șnițele, mâncăruri de legume, soufleuri, fripturi, grătare etc. Se introduce și pâine la prânz, pentru început mai puțin -- 1 felie la un prânz o dată la 2 zile. Nu mai e important ca prânzul să conțină și carne, poate fi de tip vegetarian (mâncărică de năut de exemplu). Gustarea de după masă se poate alege din ce era trecut la prânz.\
+Mic dejun -- oricare din cele 2 variante; gustarea de dimineata o puteti alege tot din ce trebuia sa mancati la mic dejun.\
+ Pranz: tocana, snitele, mancaruri de legume, soufleuri, fripturi, gratare etc. Se introduce si paine la pranz, pentru inceput mai putin -- 1 felie la un pranz o data la 2 zile. Nu mai e important ca pranzul sa contina si carne, poate fi de tip vegetarian (mancarica de naut de exemplu). Gustarea de dupa masa se poate alege din ce era trecut la pranz.\
 \
-Cina : ideal să fie de tip carne slabă + legume; puteți consumă în loc de această variantă fie un soufle de dovlecei / conopidă, fie doar fructe din cele permise.\
+Cina : ideal sa fie de tip carne slaba + legume; puteti consuma in loc de aceasta varianta fie un soufle de dovlecei / conopida, fie doar fructe din cele permise.\
 \
-Se pot folosi: maioneză (atenție -- cea din comerț are zahăr, preferabil să fie de casă), muștar fără zahăr (de exemplu „Bio" de la Megaimage), sos de soia fără zahăr („Kikkoman"), sos de roșii de casă (fără zahăr).\
+Se pot folosi: maioneza (atentie -- cea din comert are zahar, preferabil sa fie de casa), mustar fara zahar (de exemplu „Bio" de la Megaimage), sos de soia fara zahar („Kikkoman"), sos de rosii de casa (fara zahar).\
  **\
 MIC DEJUN**
 
 +-------------------------------------------------------------+-------------------------------------------+
-| Fulgi integrali de ovăz / 2 felii pâine „Slăbești mâncând"\ | Sau |
+| Fulgi integrali de ovaz / 2 felii paine „Slabesti mancand"\ | Sau |
 | 200 ml lapte 0,5% / 200 ml iaurt 0,5%\ | |
-| Gem dietetic (cu fructoză)\ | 1 felie pâine „Slăbești mâncând"\ |
-| 200 g brânză degresată\ | 2 ouă / 2 cremvusti\ |
-| Roșii, castraveți, ardei, ridichi, ceapă\ | Bacon / șuncă / slăninuță\ |
-| 1--2 fructe permise\ | Cașcaval\ |
-| 50 g alune / migdale / nuci | Roșii, castraveți, ardei, ridichi, ceapă\ |
+| Gem dietetic (cu fructoza)\ | 1 felie paine „Slabesti mancand"\ |
+| 200 g branza degresata\ | 2 oua / 2 cremvusti\ |
+| Rosii, castraveti, ardei, ridichi, ceapa\ | Bacon / sunca / slaninuta\ |
+| 1--2 fructe permise\ | Cascaval\ |
+| 50 g alune / migdale / nuci | Rosii, castraveti, ardei, ridichi, ceapa\ |
 | | 1 fruct permis |
 +-------------------------------------------------------------+-------------------------------------------+
 
  \
-**PRÂNZ**\
+**PRANZ**\
 \
-2 ouă\
-Brânzeturi: cașcaval, telemea, brânză de burduf, caș\
-Orice tip de carne; porc și preparate de porc 1 zi din 3 zile (mai rar)\
+2 oua\
+Branzeturi: cascaval, telemea, branza de burduf, cas\
+Orice tip de carne; porc si preparate de porc 1 zi din 3 zile (mai rar)\
 Orice tip de legume;\
-\* 2 observații: morcov, țelină, păstârnac sau pătrunjel se consumă doar crude; fasole boabe sau năut maxim de 2 ori / săptămână\
-100 g orez basmati -- orez basmati (alb sau brun) maxim 1 dată săptămânal\
-1 felie pâine „Slăbești mâncând" o dată la două zile\
+\* 2 observatii: morcov, telina, pastarnac sau patrunjel se consuma doar crude; fasole boabe sau naut maxim de 2 ori / saptamana\
+100 g orez basmati -- orez basmati (alb sau brun) maxim 1 data saptamanal\
+1 felie paine „Slabesti mancand" o data la doua zile\
 50 g alune / migdale / nuci\
 1 fruct permis\
 \
@@ -97,11 +97,11 @@ Orice tip de legume;\
 ** \
 CINA**\
 \
-2 ouă\
-Carne (pui, pește, vită)\
+2 oua\
+Carne (pui, peste, vita)\
 Orice tip de legume;\
-\* 2 observații: morcov, țelină, păstârnac sau pătrunjel se consumă doar crude; fasole boabe sau năut maxim de 2 ori / săptămână\
+\* 2 observatii: morcov, telina, pastarnac sau patrunjel se consuma doar crude; fasole boabe sau naut maxim de 2 ori / saptamana\
  \
-**Gustările:**\
+**Gustarile:**\
 \
-Gustările dintre mese -- alegeți din ceea ce vă este permis. Respectăm o regulă de aur: nu lăsăm să treacă niciodată 4 ore fără să ne alimentăm! Mâncăm de cel puțin 3 ori/zi!
+Gustarile dintre mese -- alegeti din ceea ce va este permis. Respectam o regula de aur: nu lasam sa treaca niciodata 4 ore fara sa ne alimentam! Mancam de cel putin 3 ori/zi!

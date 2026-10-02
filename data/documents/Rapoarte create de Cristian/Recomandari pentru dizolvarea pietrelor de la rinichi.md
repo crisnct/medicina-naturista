@@ -47,37 +47,37 @@
 
 - dimineata pe stomacul gol se ia o lingurita de apa de vie
 
-> **- [frunze de Merișor]{.underline}**: infuzie din două lingurițe la o cană de apă ( se pune apă fierbinte peste plante și se acoperă imediat). Dupa ce infuzia s-a strecurat se pune un vârf de cuțit de bicarbonat de sodiu la o cană. Se beau două căni pe zi, una dimineața și una seara. Dupa 7 zile se face pauză 3 zile dupa care se poate relua tratamentul. În timpul folosirii acestei infuzii este posibil ca urina să se coloreze usor în verde, dar nu trebuie să fie motiv de îngrijorare; se elimină o substanță -hidrochinona- care se află în plantă). Planta are actiune de sfărâmare a pietrelor.
+> **- [frunze de Merisor]{.underline}**: infuzie din doua lingurite la o cana de apa ( se pune apa fierbinte peste plante si se acopera imediat). Dupa ce infuzia s-a strecurat se pune un varf de cutit de bicarbonat de sodiu la o cana. Se beau doua cani pe zi, una dimineata si una seara. Dupa 7 zile se face pauza 3 zile dupa care se poate relua tratamentul. In timpul folosirii acestei infuzii este posibil ca urina sa se coloreze usor in verde, dar nu trebuie sa fie motiv de ingrijorare; se elimina o substanta -hidrochinona- care se afla in planta). Planta are actiune de sfaramare a pietrelor.
 >
-> **- ulei volatil de Eucalipt:** 2-4 picături de 1-2 ori pe zi. Se vor lua dizolvate în putin ulei vegetal (de preferabil de măsline).
+> **- ulei volatil de Eucalipt:** 2-4 picaturi de 1-2 ori pe zi. Se vor lua dizolvate in putin ulei vegetal (de preferabil de masline).
 >
 > \- **medicamente naturiste**: Redigest (2 comprimate de 2-3 ori pe zi), Heritage Rejuvenate, Diurenob.
 >
-> \- **ceai pentru eliminarea rapidă a pietrelor (reteta foarte veche):** mătase de Porumb ( 30g ) + cozi de Cireșe ( 20g ) + Coada-calului ( 15g ) + muguri de Pin ( 15g ) + frunze de Mesteacăn ( 10g ) + rădăcină de Valeriană ( 10g ) + propolis brut răzuit ( 100g ). Toate aceste plante, fara propolis, se pun la fiert în 3 l apă. Cand a dat în clocot se adaugă propolisul răzuit și se continuă fierberea timp de 10-20 minute. Se strecoară și se păstrează la frigider. Se beau 1-2 căni de 3 ori pe zi. Ultima cană se bea în jurul orelor 18.
+> \- **ceai pentru eliminarea rapida a pietrelor (reteta foarte veche):** matase de Porumb ( 30g ) + cozi de Cirese ( 20g ) + Coada-calului ( 15g ) + muguri de Pin ( 15g ) + frunze de Mesteacan ( 10g ) + radacina de Valeriana ( 10g ) + propolis brut razuit ( 100g ). Toate aceste plante, fara propolis, se pun la fiert in 3 l apa. Cand a dat in clocot se adauga propolisul razuit si se continua fierberea timp de 10-20 minute. Se strecoara si se pastreaza la frigider. Se beau 1-2 cani de 3 ori pe zi. Ultima cana se bea in jurul orelor 18.
 >
-> \- **gemoderivat de Plop-negru**: 1 doza ( sau 2ml sau o jumătate de linguriță) de 3 ori pe zi timp de 3-4 luni.
+> \- **gemoderivat de Plop-negru**: 1 doza ( sau 2ml sau o jumatate de lingurita) de 3 ori pe zi timp de 3-4 luni.
 >
-> **- gemoderivat de Ienupăr**: 1 doza ( sau 2ml sau o jumătate de linguriță) de 2-3 ori pe zi timp de maxim o lună.
+> **- gemoderivat de Ienupar**: 1 doza ( sau 2ml sau o jumatate de lingurita) de 2-3 ori pe zi timp de maxim o luna.
 >
-> **- Zinc(10-15mg):** 1 capsulă pe zi.
+> **- Zinc(10-15mg):** 1 capsula pe zi.
 >
-> **- mătase de Porumb**: se face infuzie din 2 lingurițe la o cană de apă. Se beau 2 căni pe zi.. Are efect diuretic.
+> **- matase de Porumb**: se face infuzie din 2 lingurite la o cana de apa. Se beau 2 cani pe zi.. Are efect diuretic.
 >
-> **- frunze de Păr pădureț**: se face infuzie din 100g frunze proaspete sau 25g frunze uscate la 1 l apă. Cantitatea se bea în cursul unei zile.. Are efect de sfărâmare a pietrelor.
+> **- frunze de Par paduret**: se face infuzie din 100g frunze proaspete sau 25g frunze uscate la 1 l apa. Cantitatea se bea in cursul unei zile.. Are efect de sfaramare a pietrelor.
 >
-> **- polen de albine**: 1-2 linguri dimineața pe stomacul gol.
+> **- polen de albine**: 1-2 linguri dimineata pe stomacul gol.
 >
-> **- ulei de măsline obținut prin presare la rece**: se ia o lingură dimineața, de preferabil impreuna cu 1-3 linguri de suc de lămâie.
+> **- ulei de masline obtinut prin presare la rece**: se ia o lingura dimineata, de preferabil impreuna cu 1-3 linguri de suc de lamaie.
 >
-> ***La toate ceaiurile se va adăuga după ce au fost preparate câte un vârf de cuțit de bicarbonat de sodiu la fiecare cană de infuzie sau decoct.***
+> ***La toate ceaiurile se va adauga dupa ce au fost preparate cate un varf de cutit de bicarbonat de sodiu la fiecare cana de infuzie sau decoct.***
 >
-> \- **tinctură de Ghimpe**: are acțiune de sfărâmare a pietrelor. Se va lua conform prospectului.
+> \- **tinctura de Ghimpe**: are actiune de sfaramare a pietrelor. Se va lua conform prospectului.
 >
-> \- se vor evita pe cât posibil: sarea de bucătărie, sarea de lămâie, laptele, brânza, spanacul, ștevia, loboda, sfecla, smochinele, varza, țelina, portocalele, roșiile, ardeiul iute, piperul, cafeaua, cacaoa, vitamina D.
+> \- se vor evita pe cat posibil: sarea de bucatarie, sarea de lamaie, laptele, branza, spanacul, stevia, loboda, sfecla, smochinele, varza, telina, portocalele, rosiile, ardeiul iute, piperul, cafeaua, cacaoa, vitamina D.
 >
-> \- zahărul și mierea se vor consuma în cantități foarte mici.
+> \- zaharul si mierea se vor consuma in cantitati foarte mici.
 >
-> **- rădăcină de Măces**: este folosita cu succes în Tibet pentru sfărâmarea pietrelor de la rinichi. Rădăcina mărunțită se fierbe în apă timp de 10-20 minute. Se strecoară și se poate consuma. Cantitatea de rădăcină folosită la o cană de apă se va determina experimental ( pentru că depinde de fiecare organism în parte). La început se poate pune o linguriță de rădăcină uscată (sau 2 lingurițe de rădăcină proaspată) la o cană de apă. Cantitatea de planta se poate crește până la 2-3 lingurițe (la o cană). Se beau 1-2 căni pe zi, una dimineața și una seara.
+> **- radacina de Maces**: este folosita cu succes in Tibet pentru sfaramarea pietrelor de la rinichi. Radacina maruntita se fierbe in apa timp de 10-20 minute. Se strecoara si se poate consuma. Cantitatea de radacina folosita la o cana de apa se va determina experimental ( pentru ca depinde de fiecare organism in parte). La inceput se poate pune o lingurita de radacina uscata (sau 2 lingurite de radacina proaspata) la o cana de apa. Cantitatea de planta se poate creste pana la 2-3 lingurite (la o cana). Se beau 1-2 cani pe zi, una dimineata si una seara.
 >
 > **- Suc de telina:** Spalati bine o telina intreaga \[ radacina si frunzele \] bagati-o in mixer, stoarceti sucul printr-un tifon . Beti zilnic 1-2 paharele de tuica cu suc de telina, inainte cu o ora de
 >
@@ -88,11 +88,11 @@
 
 > [Ingrediente:]{.underline}
 >
-> -- rădăcină de Măceș -- 33g
+> -- radacina de Maces -- 33g
 >
 > -- frunze de Anghinare -- 30g
 >
-> -- frunze de Merișor -- 30g
+> -- frunze de Merisor -- 30g
 >
 > -- ulei volatil de Eucalipt -- 23ml
 >
@@ -102,25 +102,25 @@
 >
 > [Mod de preparare:]{.underline}
 >
-> Se face tinctură din toate ingredientele mai puțin uleiul de Eucalipt macerându-se timp de 14 zile. Se strecoară și se adaugă uleiul. Înainte de folosire se agită bine recipientul.
+> Se face tinctura din toate ingredientele mai putin uleiul de Eucalipt macerandu-se timp de 14 zile. Se strecoara si se adauga uleiul. Inainte de folosire se agita bine recipientul.
 >
-> [Acțiuni:]{.underline}
+> [Actiuni:]{.underline}
 >
-> febrifug, antiseptic, antiparazitar, ușor hipertensiv, expectorant, hepatoprotector, antispastic, antibacterian, diuretic.
+> febrifug, antiseptic, antiparazitar, usor hipertensiv, expectorant, hepatoprotector, antispastic, antibacterian, diuretic.
 
-[Indicații:]{.underline}
+[Indicatii:]{.underline}
 
-[litiază renală]{.underline}, calculoză biliară, colici hepato-biliare, disconfort abdominal, dureri abdominale, hemoroizi, anghină pectorală, ateroscleroză, ateromatoză, anorexii. Adjuvant în boli ale aparatului respirator(în special amigdalită), hipotensiune.
+[litiaza renala]{.underline}, calculoza biliara, colici hepato-biliare, disconfort abdominal, dureri abdominale, hemoroizi, anghina pectorala, ateroscleroza, ateromatoza, anorexii. Adjuvant in boli ale aparatului respirator(in special amigdalita), hipotensiune.
 
-În cazul litiazei renale, tratamentul va dura timp îndelungat (1 -- 18 luni).
+In cazul litiazei renale, tratamentul va dura timp indelungat (1 -- 18 luni).
 
 [Administrare:]{.underline}
 
-adulți: dimineața la ora 6 se iau 15 -- 30 picături, iar seara la ora 6 se iau 20 -- 40 picături. Picăturile se iau cu apă sau ceai cald.
+adulti: dimineata la ora 6 se iau 15 -- 30 picaturi, iar seara la ora 6 se iau 20 -- 40 picaturi. Picaturile se iau cu apa sau ceai cald.
 
-În cazul copiilor doza se reduce la jumătate.
+In cazul copiilor doza se reduce la jumatate.
 
-După 30 de zile de tratament se va face pauză de 10 zile, după care se reia dacă mai este necesar.
+Dupa 30 de zile de tratament se va face pauza de 10 zile, dupa care se reia daca mai este necesar.
 
 Obs: Nu se mai gaseste in farmacii, dar se poate prepara in casa.
 

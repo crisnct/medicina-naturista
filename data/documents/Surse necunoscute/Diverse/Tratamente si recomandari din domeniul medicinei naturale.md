@@ -1,4 +1,4 @@
-# Tratamente și recomandări din domeniul medicinei naturale
+# Tratamente si recomandari din domeniul medicinei naturale
 
 ## Hipercolesterolemie. Recomandari.
 

@@ -1,4 +1,4 @@
-# Rețete tradiționale
+# Retete traditionale
 
 Retete traditionale
 
@@ -138,7 +138,7 @@ Boabele albe, proaspete ale vascului se amesteca cu untura curata, zdrobindu-se 
 
 Se pastreaza la rece. Se aplica, de 2 ori pe zi, pe zonele respective. Alifia este foarte buna si pentru degeraturi.
 
-## APARATUL CIRCULATOR (VASE DE SÂNGE, SÂNGE, INIMĂ, BOLI DE CIRCULAȚIE)
+## APARATUL CIRCULATOR (VASE DE SANGE, SANGE, INIMA, BOLI DE CIRCULATIE)
 
 APARATUL CIRCULATOR
 Varianta de tiparire
@@ -637,7 +637,7 @@ Aceasta reteta se poate folosi cu succes si pentru atrofia musculara.
 
 Se fac masaje puternice, zilnice ale coloanei, intre vertebre, cu miere pana la senzatia de dezlipire a pielii.
 
-## APARATUL DIGESTIV (FICAT, VEZICĂ BILIARĂ, INTESTINE, STOMAC)
+## APARATUL DIGESTIV (FICAT, VEZICA BILIARA, INTESTINE, STOMAC)
 
 Varianta de tiparire
 

@@ -16,7 +16,7 @@
 
 **alte produse**: [mierea de padure(]{.underline}1-3 lingurite pe zi), [laptisor de matca]{.underline} (fiole), polen de albine granulat (1-2 lingurite pe zi), [seminte de susan]{.underline} (o lingura pe zi), seminte de armurariu (½ lingurita dupa masa -- a se mesteca bine).
 
-**medicamente vegetale**: **Aloe Vera Gel** (2 linguri dimineața și 2 la prânz pe stomacul gol, cu 30 minute înainte de masă, se bea cu înghițituri mici), **Panax Ginseng** (1-2 cps/zi -- ajuta foarte mult).
+**medicamente vegetale**: **Aloe Vera Gel** (2 linguri dimineata si 2 la pranz pe stomacul gol, cu 30 minute inainte de masa, se bea cu inghitituri mici), **Panax Ginseng** (1-2 cps/zi -- ajuta foarte mult).
 
 **ceaiuri**: [radacina de cerentel]{.underline}, frunze de menta, melisa, tei, [talpa-gastii]{.underline}, valeriana.
 

@@ -1,142 +1,142 @@
-# Dieta pe grupe de sânge: grupa 0 pozitiv (si negativ)
+# Dieta pe grupe de sange: grupa 0 pozitiv (si negativ)
 
-**Cunoașterea grupei de sânge poate fi adesea un lucru util, nu doar în momentele în care ai nevoie de o transfuzie de sânge.**
+**Cunoasterea grupei de sange poate fi adesea un lucru util, nu doar in momentele in care ai nevoie de o transfuzie de sange.**
 
-Există un alt argument în favoarea cunoașterii grupei tale de sânge, care spune că dacă mănânci anumite alimente (recomandate pentru fiecare grupa sangvină în parte: A, B, AB și 0), acestea îți pot oferi multe beneficii pentru sănătate.
+Exista un alt argument in favoarea cunoasterii grupei tale de sange, care spune ca daca mananci anumite alimente (recomandate pentru fiecare grupa sangvina in parte: A, B, AB si 0), acestea iti pot oferi multe beneficii pentru sanatate.
 
-Popularizate de medicul Peter J. D'Adamo, dietele bazate pe grupa de sânge încearcă să îți aducă o stare generală de sănătate bună și un risc redus de a dezvolta anumite boli. Pe lângă anumite alimente, D'Adamo recomandă diferite suplimente pentru fiecare grupă de sânge. Este recomandat un amestec special de multivitamine, multiminerale, blocant de lectină și probiotic/prebiotic pentru fiecare grupă de sânge.
+Popularizate de medicul Peter J. D'Adamo, dietele bazate pe grupa de sange incearca sa iti aduca o stare generala de sanatate buna si un risc redus de a dezvolta anumite boli. Pe langa anumite alimente, D'Adamo recomanda diferite suplimente pentru fiecare grupa de sange. Este recomandat un amestec special de multivitamine, multiminerale, blocant de lectina si probiotic/prebiotic pentru fiecare grupa de sange.
 
-## Caracteristicile persoanelor cu grupa de sânge 0
+## Caracteristicile persoanelor cu grupa de sange 0
 
-Din punct de vedere istoric, strămoșii acestui grup sanguin au fost prădători agresivi. D'Adamo susține că cei cu grupa 0 de astăzi sunt extrovertiți energici și lideri cu o abilitate ascuțită de concentrare. De asemenea, persoanele cu această grupă de sânge sunt predispuse la furie, hiperactivitate și impulsivitate atunci când se află sub stres.
+Din punct de vedere istoric, stramosii acestui grup sanguin au fost pradatori agresivi. D'Adamo sustine ca cei cu grupa 0 de astazi sunt extrovertiti energici si lideri cu o abilitate ascutita de concentrare. De asemenea, persoanele cu aceasta grupa de sange sunt predispuse la furie, hiperactivitate si impulsivitate atunci cand se afla sub stres.
 
-Atunci când acest lucru duce la o dietă proastă, lipsa exercițiilor fizice și alte comportamente nesănătoase, apar efecte metabolice negative, cum ar fi rezistența la insulină, hipotiroida și creșterea în greutate. Cei cu această grupă de sânge sunt predispuși și la anumite boli, inclusiv ulcere și probleme cu tiroida.
+Atunci cand acest lucru duce la o dieta proasta, lipsa exercitiilor fizice si alte comportamente nesanatoase, apar efecte metabolice negative, cum ar fi rezistenta la insulina, hipotiroida si cresterea in greutate. Cei cu aceasta grupa de sange sunt predispusi si la anumite boli, inclusiv ulcere si probleme cu tiroida.
 
-Datorită tendinței lor către niveluri mai ridicate de acid din stomac,sunt capabili să digere mesele care conțin atât proteine, cât și grăsimi mai ușor decât alte tipuri grupe de sânge. Asta înseamnă, totuși, că carbohidrații simpli (în special cei din cereale) sunt mai ușor transformați în grăsimi și trigliceride.
+Datorita tendintei lor catre niveluri mai ridicate de acid din stomac,sunt capabili sa digere mesele care contin atat proteine, cat si grasimi mai usor decat alte tipuri grupe de sange. Asta inseamna, totusi, ca carbohidratii simpli (in special cei din cereale) sunt mai usor transformati in grasimi si trigliceride.
 
-Cei cu sânge de tip 0 ar trebui, în principiu, să aleagă alimente bogate în proteine și să mănânce carne, legume, pește și fructe, dar să limiteze cerealele, fasolea și leguminoasele. Pentru a pierde în greutate, fructele de mare, carnea roșie, broccoli, spanacul și uleiul de măsline sunt cele mai bune, iar grâul, porumbul și lactatele trebuie evitate.
+Cei cu sange de tip 0 ar trebui, in principiu, sa aleaga alimente bogate in proteine si sa manance carne, legume, peste si fructe, dar sa limiteze cerealele, fasolea si leguminoasele. Pentru a pierde in greutate, fructele de mare, carnea rosie, broccoli, spanacul si uleiul de masline sunt cele mai bune, iar graul, porumbul si lactatele trebuie evitate.
 
-Alimente recomandate în dieta pentru grupa sanguină 0
+Alimente recomandate in dieta pentru grupa sanguina 0
 
-Proteine de origine animală
+Proteine de origine animala
 
-Grupa de sânge 0 digeră și metabolizează carnea cu ușurință, iar dietele vegetariene nu sunt recomandate. Fructele de mare, care sunt o sursă bogată de iod, sunt benefice pentru persoanele cu această grupă de sânge, deoarece iodul ajută la stabilizarea funcției tiroidei.
+Grupa de sange 0 digera si metabolizeaza carnea cu usurinta, iar dietele vegetariene nu sunt recomandate. Fructele de mare, care sunt o sursa bogata de iod, sunt benefice pentru persoanele cu aceasta grupa de sange, deoarece iodul ajuta la stabilizarea functiei tiroidei.
 
-Așadar, dieta recomandă că persoanele cu grupa sangvină 0 să consume produse benefice de origine animală, cum ar fi:
+Asadar, dieta recomanda ca persoanele cu grupa sangvina 0 sa consume produse benefice de origine animala, cum ar fi:
 
-• vită
+• vita
 • miel
-• carne de berbec (berbecuț)
-• vițel
-• vânat
+• carne de berbec (berbecut)
+• vitel
+• vanat
 • cod
 • hering
 • macrou
 
 Produse lactate
 
-Deși produsele lactate și ouăle ar trebui evitate, persoanele care țîn această dietă (pentru grupele de sânge) pot consumă ocazional următoarele produse:
+Desi produsele lactate si ouale ar trebui evitate, persoanele care tin aceasta dieta (pentru grupele de sange) pot consuma ocazional urmatoarele produse:
 
 • unt
-• diverse brânzeturi, cum ar fi feta, mozzarella și brânză de capra
+• diverse branzeturi, cum ar fi feta, mozzarella si branza de capra
 • lapte de soia
 
 Nuci
 
-Nucile sunt o sursă excelentă de proteine și de grăsimi sănătoase, iar persoanele cu grupa sangvină 0 pot, de regulă, să consume majoritatea tipurilor de nuci și semințe. De exemplu, se crede că nucile românești și semințele de dovleac sunt cele mai benefice, așa că merită mâncate.
+Nucile sunt o sursa excelenta de proteine si de grasimi sanatoase, iar persoanele cu grupa sangvina 0 pot, de regula, sa consume majoritatea tipurilor de nuci si seminte. De exemplu, se crede ca nucile romanesti si semintele de dovleac sunt cele mai benefice, asa ca merita mancate.
 
 Cereale
 
-Deși cele mai multe cereale ar trebui evitate, există câteva care sunt tolerate, precum:
+Desi cele mai multe cereale ar trebui evitate, exista cateva care sunt tolerate, precum:
 
 • amaranthul
 • orzul
-• hrișcă
+• hrisca
 • orezul
 • meiul
-• secară
-• grâu spelt
+• secara
+• grau spelt
 
 Legume
 
-Cu mici excepții, care ar trebui evitate, multe legume sunt bine tolerate de cei cu grupa sanguină 0\. Unele dintre legumele recomandate pentru această dietă sunt:
+Cu mici exceptii, care ar trebui evitate, multe legume sunt bine tolerate de cei cu grupa sanguina 0\. Unele dintre legumele recomandate pentru aceasta dieta sunt:
 
-• roșiile
+• rosiile
 • anghinarea
 • cicoarea
-• păpădia
+• papadia
 • usturoiul
 • hreanul
-• kale (varză furajeră)
+• kale (varza furajera)
 • bamele
-• ceapă
-• pătrunjelul
+• ceapa
+• patrunjelul
 • pastarnacul
-• ardeii grași roșii
-• cartofii roșii
+• ardeii grasi rosii
+• cartofii rosii
 • dovleacul
 • algele de mare
 • napii
 
-Legumele verzi, cu frunze, cum ar fi varza și Kale, conțin vitamina K, care ajuta la coagularea sângelui. Acest lucru este util, deoarece celor cu această grupă de sânge le lipsesc anumiți factori de coagulare.
+Legumele verzi, cu frunze, cum ar fi varza si Kale, contin vitamina K, care ajuta la coagularea sangelui. Acest lucru este util, deoarece celor cu aceasta grupa de sange le lipsesc anumiti factori de coagulare.
 
-Ce legume e bine să eviți?
+Ce legume e bine sa eviti?
 
-Varza și conopida pot interfera cu funcția tiroidei, în timp ce varza de Bruxelles, ciupercile shiitake și măslinele fermentate pot irita tractul digestiv sau pot agrava problemele de hipersensibilitate specifice celor cu grupa de sânge 0.
+Varza si conopida pot interfera cu functia tiroidei, in timp ce varza de Bruxelles, ciupercile shiitake si maslinele fermentate pot irita tractul digestiv sau pot agrava problemele de hipersensibilitate specifice celor cu grupa de sange 0.
 
-În plus, D'Adamo susține că vinetele și cartofii ar trebui evitate, deoarece pot provoca artrită. Totodată, porumbul poate afecta producția de insulină și duce la obezitate și diabet pentru această grupă de sânge.
+In plus, D'Adamo sustine ca vinetele si cartofii ar trebui evitate, deoarece pot provoca artrita. Totodata, porumbul poate afecta productia de insulina si duce la obezitate si diabet pentru aceasta grupa de sange.
 
 Fructe
 
-La fel ca în cazul legumelor, se crede că cele mai multe fructe sunt bine tolerate în această dietă de cei cu grupa de sânge 0 pozitiv și 0 negativ. Unele dintre fructele recomandate pentru aceste persoane sunt:
+La fel ca in cazul legumelor, se crede ca cele mai multe fructe sunt bine tolerate in aceasta dieta de cei cu grupa de sange 0 pozitiv si 0 negativ. Unele dintre fructele recomandate pentru aceste persoane sunt:
 
 • prunele uscate
 • prunele proaspete
 • smochinele
 • grepfrutul
-• majoritatea fructelor de pădure
+• majoritatea fructelor de padure
 
-Ce fructe e bine să eviți?
+Ce fructe e bine sa eviti?
 
-Cei cu grupa de sânge 0 ar trebui să evite pepenii roșii, pepenele galben, portocalele, mandarinele, căpșunele, murele, rubarba și nuca de cocos.
+Cei cu grupa de sange 0 ar trebui sa evite pepenii rosii, pepenele galben, portocalele, mandarinele, capsunele, murele, rubarba si nuca de cocos.
 
-Condimente și mirodenii
+Condimente si mirodenii
 
-Condimentele de care se pot bucura oamenii care țin această dietă sunt:
+Condimentele de care se pot bucura oamenii care tin aceasta dieta sunt:
 
 • condimentele pe baza de alge
 • sarea iodata
-• pătrunjelul
+• patrunjelul
 • curry
-• piperul roșu (cayenne)
+• piperul rosu (cayenne)
 • ciocolata
 • cacaua
 • mierea
 
-Băuturi
+Bauturi
 
-Băuturile pe care persoanele care țin această dietă au voie să le consume sunt:
+Bauturile pe care persoanele care tin aceasta dieta au voie sa le consume sunt:
 
-• apă carbogazoasă
+• apa carbogazoasa
 • ceai
 • vin
 
-Avantajele dietelor pe grupe de sânge
+Avantajele dietelor pe grupe de sange
 
-Ca toate dietele, dieta pe grupe de sânge are aspecte pozitive și negative.
+Ca toate dietele, dieta pe grupe de sange are aspecte pozitive si negative.
 
-Încurajează efectuarea de exerciții fizice
+Incurajeaza efectuarea de exercitii fizice
 
-Dieta pe grupe de sânge încurajează exercițiile fizice. Cercetările arată că exercițiile fizice regulate, combinate cu o dietă sănătoasă, pot duce la slăbit și ajută la gestionarea greutății. Cu toate acestea, nu există nicio cercetare care să susțină că dieta pe grupe de sânge este o strategie eficientă de slăbire.
+Dieta pe grupe de sange incurajeaza exercitiile fizice. Cercetarile arata ca exercitiile fizice regulate, combinate cu o dieta sanatoasa, pot duce la slabit si ajuta la gestionarea greutatii. Cu toate acestea, nu exista nicio cercetare care sa sustina ca dieta pe grupe de sange este o strategie eficienta de slabire.
 
 Pune accent pe consumul de alimente integrale
 
-Fiecare plan al dietei pe grupe de sânge pune accent pe alegerea alimentelor integrale în locul alimentelor procesate, ceea ce este o alegere sănătoasă. Programele îți oferă, de asemenea, o mare varietate de alimente conforme pentru fiecare tip de grupă de sânge.
+Fiecare plan al dietei pe grupe de sange pune accent pe alegerea alimentelor integrale in locul alimentelor procesate, ceea ce este o alegere sanatoasa. Programele iti ofera, de asemenea, o mare varietate de alimente conforme pentru fiecare tip de grupa de sange.
 
-Îți oferă un plan alimentar sănătos și sustenabil
+Iti ofera un plan alimentar sanatos si sustenabil
 
-Deși fiecare grupă de sânge vine cu propriul set de restricții alimentare, programul nu este o dietă cu conținut scăzut de calorii, cu restricții nesănătoase asupra aportului de calorii. Planurile pentru tipurile B și AB sunt mai cuprinzătoare și pot oferi majoritatea, dacă nu toți nutrienții necesari unei diete bine echilibrate.
+Desi fiecare grupa de sange vine cu propriul set de restrictii alimentare, programul nu este o dieta cu continut scazut de calorii, cu restrictii nesanatoase asupra aportului de calorii. Planurile pentru tipurile B si AB sunt mai cuprinzatoare si pot oferi majoritatea, daca nu toti nutrientii necesari unei diete bine echilibrate.
 
-De reținut\!
+De retinut\!
 
-Nu există în prezent dovezi solide care să ateste că această dietă e ste eficientă. Persoanele care urmează o dietă specifică, în funcție de grupa de sânge, raportează că sănătatea li s-a îmbunătățit, însă acest lucru ar putea să se întâmple deoarece mănâncă, în general, mai multe alimente sănătoase și nu pentru că ar avea vreo legătură cu grupa lor de sânge.
+Nu exista in prezent dovezi solide care sa ateste ca aceasta dieta e ste eficienta. Persoanele care urmeaza o dieta specifica, in functie de grupa de sange, raporteaza ca sanatatea li s-a imbunatatit, insa acest lucru ar putea sa se intample deoarece mananca, in general, mai multe alimente sanatoase si nu pentru ca ar avea vreo legatura cu grupa lor de sange.

@@ -1,6 +1,6 @@
 # Tratamente si recomandari din domeniul medicinei naturale
 
-## Afecțiuni și recomandări
+## Afectiuni si recomandari
 
 ## Hipercolesterolemie. Recomandari.
 
@@ -232,7 +232,7 @@ Se face decoct din plante si apa. Cand a dat in clocot se adauga propolisul razu
 - alte plante medicinale: Obligeana, Revent, Lemn-dulce, Vanilia, Cuisoare, Stir, Papadia, Ginseng
 - altele: alunele, carnea, vinul, banana verde, rodia, Hrisca, Telina, Praz, Loboda, Sparanghel, cacao, cola
 
-## Minerale și oligoelemente
+## Minerale si oligoelemente
 
 ### Sodiul
 
@@ -496,7 +496,7 @@ Aliment~Fibre(g%)~Celuloza(g%) tarate~48~18 faina neagra~8,7~18 faina integrala~
 
 Aliment~Acid_Omega6(%)~Acid_Omega3(%)~Raport(Omega6/Omega3) ulei de floarea-soarelui~52~0,3~170 ulei de porumb~50~1,6~31 fasole~28~40~0,7 carne de pui~13~0,7~19 margarina vegetala~21~2~10 unt~1,4~0,6~2,3 carne de miel~2,5~2,5~1
 
-## Substanțe și antidoturi
+## Substante si antidoturi
 
 ### Substanta Antidot
 
@@ -556,7 +556,7 @@ Alimente si medicamente contrare:
 - antiacide <-> saruri feroase, Tetraciclina
 - ulei de parafina <-> polivitamine
 
-## Medicamente și recomandări
+## Medicamente si recomandari
 
 ### Afectiunea~Recomandari
 
@@ -624,7 +624,7 @@ clorpromazina + alcool~creste efectul clorpromazinei aspirina + alcool~creste ef
 
 Aliment~Celuloza(%) castraveti~14 varza rosie~13 fasole verde~13 varza alba~10-16 salata~13 conopida~10 ridichi~11 mazare verde~9 paine neagra~1,1 paine graham~5,9
 
-## Alimente și digestie
+## Alimente si digestie
 
 ### Alimente greu digerabile
 
@@ -674,7 +674,7 @@ Ten uscat:
 
 - flori de Coada-soricelului, flori de Musetel, Lamaie, flori de Galbenele, Sunatoare, Castravete, Nalba-mare, frunze de Tei, frunze de Menta, fructe de Maces
 
-## Plante și compuși naturali
+## Plante si compusi naturali
 
 ### Denumire~Alcaloid
 
@@ -895,7 +895,7 @@ Administrare: 200 - 4500 mg sau 1 - 6 capsule de 700mg pe zi timp de cel putin 1
 
 - se afla in Morcovi, Hamei, Salvie
 
-## Organe și funcții
+## Organe si functii
 
 ### Denumire organ~OAM
 
@@ -944,7 +944,7 @@ vaselina~8 - 15 % vaselina + lanolina(5-15%)~78 % vaselina + alcool cetilic 3%~5
 
 Varsta~Nr doze medicamente/tincturi/ceaiuri.... 1 - 2~1/12 - 1/8 2 - 3~1/8 - 1/4 3 - 4~1/6 - 1/4 4 - 7~1/3 7 - 14~1/2 14 - 25~2/3 25 - 60~1 >60~4/3
 
-## Rețete și preparate
+## Retete si preparate
 
 ### Tinctura de usturoi
 
@@ -986,7 +986,7 @@ Unguent din Musetel si Galbenele:
 
 Aliment~Aliment contrar/antidot iaurt~chimen, ghimbir peste~nuca de cocos, lamaie orez~cuisoare lagume in teci~usturoi, cuisoare, piper, ghimbir, ardei, sare varza~seminte de mustar, seminte de sofran usturoi~nuca de cocos, lamaie salata verde~ulei de masline, lamaie ceapa~lamaie, iaurt, seminte de mustar cartofi~piper negru, unt incins si racit rosii~lamaie, chimen nuci~se trec prin apa si se lasa 12 ore dupa care se prajesc cu ulei de susan si ardei unt de arahide~ghimbir, chimen copt cacao~nucsoara, chimen dulciuri~ghimbir cafea~nucsoara, nuca de muscat alcool~chimen, nucsoara grau~ghimbir carne~cuisoare, ardei
 
-## Alte utilizări
+## Alte utilizari
 
 ### Insecticide
 

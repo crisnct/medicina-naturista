@@ -1,4 +1,4 @@
-**[Alimente permise și interzise]{.underline}**
+**[Alimente permise si interzise]{.underline}**
 
 []{.underline}
 
@@ -6,31 +6,31 @@
 | Alimente permise | **Alimente interzise** |
 | ================ | |
 +-------------------------------------------------------------------------------------------------+------------------------+
-| 1. **Cereale:** grâu, porumb, tărâțe, mei, orez, arpacaș | 1. Carnea de porc |
+| 1. **Cereale:** grau, porumb, tarate, mei, orez, arpacas | 1. Carnea de porc |
 | | |
-| 2. **Legume:** morcovi, roșii, cartofi, pătrunjel, mărar, țelină, păstârnac, castraveți, ardei | 2. Ouă |
+| 2. **Legume:** morcovi, rosii, cartofi, patrunjel, marar, telina, pastarnac, castraveti, ardei | 2. Oua |
 | | |
-| 3. **Fructe:** portocale, banane, kiwi, pepene, mere, gutui, căpșuni, lămâi | 3. Smântână |
+| 3. **Fructe:** portocale, banane, kiwi, pepene, mere, gutui, capsuni, lamai | 3. Smantana |
 | | |
-| 4. **Semințe:** nuci, susan, semințe de mere | 4. Slănină fiartă |
+| 4. **Seminte:** nuci, susan, seminte de mere | 4. Slanina fiarta |
 | | |
-| 5. Pește | |
+| 5. Peste | |
 | | |
 | 6. Iaurt | |
 | | |
-| 7. Carne slabă de pui | |
+| 7. Carne slaba de pui | |
 | | |
-| 8. Brânză topită făcută în casă | |
+| 8. Branza topita facuta in casa | |
 | | |
 | 9. Miere | |
 | | |
-| 10. Pectină din mere | |
+| 10. Pectina din mere | |
 | | |
 | 11. Fructe de mare | |
 | | |
-| 12. Murături | |
+| 12. Muraturi | |
 | | |
-| 13. Ulei obținut prin presare la rece de măsline | |
+| 13. Ulei obtinut prin presare la rece de masline | |
 | | |
 | 14. Ghimbir | |
 +-------------------------------------------------------------------------------------------------+------------------------+
@@ -38,39 +38,39 @@
 +-------------------------------------------------------------------------------------------------+------------------------+
 | 1. **Legume**: usturoi, ceapa | |
 | | |
-| 2. Semințe: fasole, mazăre, linte | |
+| 2. Seminte: fasole, mazare, linte | |
 | | |
-| 3. Prăjeluri | |
+| 3. Prajeluri | |
 | | |
-| 4. Vin roșu și alb | |
+| 4. Vin rosu si alb | |
 +-------------------------------------------------------------------------------------------------+------------------------+
 
  ------------------------------------------------- --------------------------------------------- -----------------------------------------
- **Masa de dimineață** **Masa de prânz** **Masa de seară**
- Ceai de urzică, măceșe, chimen, anason, sulfină Ciorbă de legume Cartofi copti la cuptor
- Pâine prăjită cu ulei de măsline Pâine cu murături Pâine cu vin
- Ciorbă din carne de pui Mămăligă cu ulei de floarea soarelui
- Nuci cu pâine și vin Arpacaș fiert cu vanilie si scorțișoară
- Salată de roșii cu castraveți și ardei gras
+ **Masa de dimineata** **Masa de pranz** **Masa de seara**
+ Ceai de urzica, macese, chimen, anason, sulfina Ciorba de legume Cartofi copti la cuptor
+ Paine prajita cu ulei de masline Paine cu muraturi Paine cu vin
+ Ciorba din carne de pui Mamaliga cu ulei de floarea soarelui
+ Nuci cu paine si vin Arpacas fiert cu vanilie si scortisoara
+ Salata de rosii cu castraveti si ardei gras
 
  ------------------------------------------------- --------------------------------------------- -----------------------------------------
 
-***Pentru revitalizare, dezintoxicare si eliminarea surplusului de grăsime:***
+***Pentru revitalizare, dezintoxicare si eliminarea surplusului de grasime:***
 
-1. **Urzică:** infuzie din 3 linguri la o cană, 1-2 căni pe zi
+1. **Urzica:** infuzie din 3 linguri la o cana, 1-2 cani pe zi
 
-2. **Păpădie**: infuzie din 1-2 linguri la o cană, 1-2 căni pe zi
+2. **Papadie**: infuzie din 1-2 linguri la o cana, 1-2 cani pe zi
 
-3. **Trei-frați-pătați:** infuzie din o lingură la o cană, 1-2 căni pe zi
+3. **Trei-frati-patati:** infuzie din o lingura la o cana, 1-2 cani pe zi
 
-4. **Ginseng**: 2000 mg /zi. După 2 luni se face pauză de 3 luni.
+4. **Ginseng**: 2000 mg /zi. Dupa 2 luni se face pauza de 3 luni.
 
-5. **Ceai verde:** infuzie din 2 plicuri la o cană, 2 căni pe zi
+5. **Ceai verde:** infuzie din 2 plicuri la o cana, 2 cani pe zi
 
-6. **Flori de coada-șoricelului:** infuzie din 2 linguri la o cană, se beau 1-2 căni pe zi
+6. **Flori de coada-soricelului:** infuzie din 2 linguri la o cana, se beau 1-2 cani pe zi
 
 7. **Suc de morcovi:** 200 ml pe zi timp de 1-2 luni
 
-8. **Suc de pătrunjel:** 30 ml pe zi timp de cel puțin 10 zile
+8. **Suc de patrunjel:** 30 ml pe zi timp de cel putin 10 zile
 
-9. **Suc de sfeclă-roșie**: 50 ml pe zi
+9. **Suc de sfecla-rosie**: 50 ml pe zi

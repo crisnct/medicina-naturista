@@ -4,7 +4,7 @@ thyme and myrtle oregano si tea tree cuisoare si niaouli
 
 ### Mix uleiuri
 
-- 31.5% cuișoare
+- 31.5% cuisoare
 - 31.5% palmarosa
 - 37% niaouli
 

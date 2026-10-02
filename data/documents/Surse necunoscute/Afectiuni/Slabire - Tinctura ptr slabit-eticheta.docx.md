@@ -1,4 +1,4 @@
-# Tinctură pentru slăbire, detoxifiere și reparare celulară
+# Tinctura pentru slabire, detoxifiere si reparare celulara
 
 Ingrediente:
 
@@ -8,9 +8,9 @@ Ingrediente:
 
 - - Chorela – 20gr
 
-- - Păpădie – 100 g
+- - Papadie – 100 g
 
-- - Obligeană – 25g
+- - Obligeana – 25g
 
 - - Anghinare – 20g
 
@@ -26,23 +26,23 @@ Ingrediente:
 
 Administrare:
 
-O lingură dimineața pe stomacul gol și o lingură noaptea înainte de culcare.
+O lingura dimineata pe stomacul gol si o lingura noaptea inainte de culcare.
 
 Expira: decembrie 2014
 
-Tinctură pentru
+Tinctura pentru
 
-slăbire, detoxifiere și
+slabire, detoxifiere si
 
-reparare celulară
+reparare celulara
 
 Ingrediente:
 
-- - Tinctură de Aloe Vera – 60g
+- - Tinctura de Aloe Vera – 60g
 
-- - Păpădie – 100 g
+- - Papadie – 100 g
 
-- - Obligeană – 25g
+- - Obligeana – 25g
 
 - - Anghinare – 40g
 
@@ -50,6 +50,6 @@ Ingrediente:
 
 Administrare:
 
-O lingură dimineața pe stomacul gol și o lingură noaptea înainte de culcare.
+O lingura dimineata pe stomacul gol si o lingura noaptea inainte de culcare.
 
 Expira: decembrie 2014

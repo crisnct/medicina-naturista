@@ -1,10 +1,10 @@
 # Diabet
 
-**Corpul se vindecă singur, dacă bolnavul înțelege CAUZA BOLII**
+**Corpul se vindeca singur, daca bolnavul intelege CAUZA BOLII**
 
 24 mai 2011
 
-Național, Prima pagină
+National, Prima pagina
 
 \- Doctorul german Ryke HAMER (foto) a tratat cu succes peste 31.000 de pacienti doar stand de vorba cu ei. Nu facea nimic magic, in afara faptului ca le explica logic si rational despre stransa legatura dintre starea mentala si boala. El sustine ca fiecare om s-a imbolnavit din cauza unui program mental distructiv, nascut in urma unui SOC emotional. El a numit acest soc dupa numele fiului sau: Dyrk Hamer Syndome sau DHS (sindromul Dirk Hamer).
 
@@ -20,7 +20,7 @@ Din moment ce nu fusese niciodata grav bolnav, a suspectat imediat ca dezvoltare
 
 Moartea lui Dirk si propria sa experienta cu cancerul l-au facut pe Dr. Hamer sa investigheze **istoricul pacientilor sai de cancer**. A aflat foarte curand ca, la fel ca el, toti au trecut prin experiente extrem de stresante, inainte ca boala sa se instaleze si sa se dezvolte. Observarea conexiunii dintre minte si organism nu a fost surprinzatoare. Numeroase studii aratasera deja ca **atat cancerul, cat si alte bolii sunt foarte des precedate de un eveniment traumatizant.**
 
-Există o LEGATURĂ dintre diferitele zone creiereului și anumite organe
+Exista o LEGATURA dintre diferitele zone creiereului si anumite organe
 
 Dar Dr. Hamer a dus cercetarile sale cu un pas mai departe. Urmarind ipoteza ca toate evenimentele din organism sunt controlate de creier, **[a analizat tomografiile pacientilor sai]{.underline} si le-a comparat cu istoricul lor medical.**
 
@@ -38,11 +38,11 @@ Noua medicina porneste de la "Regula de Fier a Cancerului"
 
 Regula de Fier a Cancerului:
 
-**Fiecare cancer sau alta afectiune grava, are drept cauză un CONFLICT care genereaza UN SOC EMOTIONAL: numit DHS** (Sindromul Dirk Hamer -- denumit astfel in onoarea fiului sau) **care imbolnaveste omul mai intai la nivel mental, cand apar dereglari in creier, iar in final boala se rasfrange asupra unui organ.**
+**Fiecare cancer sau alta afectiune grava, are drept cauza un CONFLICT care genereaza UN SOC EMOTIONAL: numit DHS** (Sindromul Dirk Hamer -- denumit astfel in onoarea fiului sau) **care imbolnaveste omul mai intai la nivel mental, cand apar dereglari in creier, iar in final boala se rasfrange asupra unui organ.**
 
-La această regulă, se adaugă alte două concluzii esențiale:
+La aceasta regula, se adauga alte doua concluzii esentiale:
 
-a\. Tipul conflictului care a generat SOCUL EMOTIONAL(DHS) determină **ZONA in care apar vibratii anormale in creier.** Zona de pe creier in care apar aceste inele concentrice, **determina organul** in care va aparea boala.
+a\. Tipul conflictului care a generat SOCUL EMOTIONAL(DHS) determina **ZONA in care apar vibratii anormale in creier.** Zona de pe creier in care apar aceste inele concentrice, **determina organul** in care va aparea boala.
 
 b\. Cu cat dureaza mai mult conflictul, cu atat se imbolnaveste mai rau organul corespunzator acestui tip de conflict.
 

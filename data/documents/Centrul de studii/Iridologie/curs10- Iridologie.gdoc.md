@@ -1,195 +1,195 @@
-## LECȚIA 10
+## LECTIA 10
 
-## Indicații ale aspectului ochilor
+## Indicatii ale aspectului ochilor
 
-## Urmărirea absorbției diverselor substanțe
+## Urmarirea absorbtiei diverselor substante
 
 ## ARSENIC
 
-Arsenicul intra în organism prin intermediul Salvarsan (și a altor medicamente pe bază de arsenic), intoxicații accidentale, Spray verde de Paris , soluția lui Fowler, coloranți și cosmetice.
+Arsenicul intra in organism prin intermediul Salvarsan (si a altor medicamente pe baza de arsenic), intoxicatii accidentale, Spray verde de Paris , solutia lui Fowler, coloranti si cosmetice.
 
-Se stabilește în zona circulatorie și este eliminat prin sistemul limfatic, rinichi, intestine, piele și membranele mucoase.
+Se stabileste in zona circulatorie si este eliminat prin sistemul limfatic, rinichi, intestine, piele si membranele mucoase.
 
-	Apariția acestui medicament în ochi este un punct alb mic, care apare individual sau în grupuri în sistemul limfatic.
+	Aparitia acestui medicament in ochi este un punct alb mic, care apare individual sau in grupuri in sistemul limfatic.
 
-	Simptomele sunt crampe abdominale, edem general, furunculi, epuizare, erupții cutanate, slăbiciune, căderea părului și a unghiilor, iritabilitate.
+	Simptomele sunt crampe abdominale, edem general, furunculi, epuizare, eruptii cutanate, slabiciune, caderea parului si a unghiilor, iritabilitate.
 
 ## BISMUT
 
-Bismutul intră în corp prin intermediul subcarbonatului de bismut, și al subnitratului de bismut.
+Bismutul intra in corp prin intermediul subcarbonatului de bismut, si al subnitratului de bismut.
 
-Se stabilește în tubul digestiv și se elimină prin membranele mucoase.
+Se stabileste in tubul digestiv si se elimina prin membranele mucoase.
 
-Apariția acestui medicament în ochi este de un gri metalic închis, cerc neregulat.
+Aparitia acestui medicament in ochi este de un gri metalic inchis, cerc neregulat.
 
-Simptomele sunt modificări de culoare a pielii, urinare frecventă, linie albastră pe gingii, pete negre pe mucoasa bucală și mucoasa rectală, angina pectorală.
+Simptomele sunt modificari de culoare a pielii, urinare frecventa, linie albastra pe gingii, pete negre pe mucoasa bucala si mucoasa rectala, angina pectorala.
 
 ## BROMUL
 
-	Bromul intra în organism prin intermediul Bromo seltzer și prin sedative.
+	Bromul intra in organism prin intermediul Bromo seltzer si prin sedative.
 
-	Se stabilește în zona creierului și este eliminat prin piele, prin organele de eliminare și membranele mucoase.
+	Se stabileste in zona creierului si este eliminat prin piele, prin organele de eliminare si membranele mucoase.
 
-	Apariția acestui medicament în ochi este o semilună albăstruie în zona creierului.
+	Aparitia acestui medicament in ochi este o semiluna albastruie in zona creierului.
 
-	Simptomele sunt slăbiciunea neuromusculară mereu în picioare, erupții cutanate portocalii sau galbene, dureri de cap violente.
+	Simptomele sunt slabiciunea neuromusculara mereu in picioare, eruptii cutanate portocalii sau galbene, dureri de cap violente.
 
-## GUDRONUL DE CĂRBUNE
+## GUDRONUL DE CARBUNE
 
-Produsele din gudron de cărbune intra în organism prin intermediul Aspirinei, Acetanalidei, zaharinei,remediilor pentru febra, unele vitamine.
+Produsele din gudron de carbune intra in organism prin intermediul Aspirinei, Acetanalidei, zaharinei,remediilor pentru febra, unele vitamine.
 
-Se stabilește în zona creierului si al țesutului nervos și se elimină prin piele, rinichi si membranele mucoase.
+Se stabileste in zona creierului si al tesutului nervos si se elimina prin piele, rinichi si membranele mucoase.
 
-Apariția acestui medicament în ochi este un gri închis ca de oțel.
+Aparitia acestui medicament in ochi este un gri inchis ca de otel.
 
-Simptomele sunt ușoră oboseală, pierderi de memorie, epilepsie.
+Simptomele sunt usora oboseala, pierderi de memorie, epilepsie.
 
 ## CREOZOTUL
 
-	Creozotul intra în organism prin intermediul remediilor de tuse, sedativul nervului general, Acetanalid, Antipirină, Fenacetina.
+	Creozotul intra in organism prin intermediul remediilor de tuse, sedativul nervului general, Acetanalid, Antipirina, Fenacetina.
 
-	Se stabilește în stomac și intestine și se elimină prin rinichi și descărcarea catarală prin membranele mucoase.
+	Se stabileste in stomac si intestine si se elimina prin rinichi si descarcarea catarala prin membranele mucoase.
 
-	Apariția acestui medicament în ochi este de culoare gri murdar, cu pete albe în tractul gastro-intestinal.
+	Aparitia acestui medicament in ochi este de culoare gri murdar, cu pete albe in tractul gastro-intestinal.
 
-	Simptomele sunt tulburări psihice și nervoase, frică, pierderi de memorie, urinare excesivă.
+	Simptomele sunt tulburari psihice si nervoase, frica, pierderi de memorie, urinare excesiva.
 
 ## ERGOTUL
 
-Ergotul intră în organism prin intermediul mâncării secarei care conține ergot, preparate medicamentoase.
+Ergotul intra in organism prin intermediul mancarii secarei care contine ergot, preparate medicamentoase.
 
-Se stabilește în organe și în stomac și este eliminat prin membranele mucoase.
+Se stabileste in organe si in stomac si este eliminat prin membranele mucoase.
 
-Apariția acestui medicament în ochi este ușoară culoare roșie, mai deschis decât culoarea iodului, puncte în zonele uterine și de stomac.
+Aparitia acestui medicament in ochi este usoara culoare rosie, mai deschis decat culoarea iodului, puncte in zonele uterine si de stomac.
 
-Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață, vărsături, diaree, amețeli, cangrene.
+Simptomele sunt dificultati de respiratie, senzatie de amorteala, greata, varsaturi, diaree, ameteli, cangrene.
 
 ## GLICERINA
 
-	Glicerina intra în organism mai ales prin remediile în care este folosită ca suport.
+	Glicerina intra in organism mai ales prin remediile in care este folosita ca suport.
 
-	Se stabilește pe piele, rinichi si plămâni și este eliminată prin membranele mucoase.
+	Se stabileste pe piele, rinichi si plamani si este eliminata prin membranele mucoase.
 
-	Apariția acestui medicament în ochi este asemenea unor nori mari albi în zonele de piele, rinichi și plămâni.
+	Aparitia acestui medicament in ochi este asemenea unor nori mari albi in zonele de piele, rinichi si plamani.
 
 ## IODUL
 
-	Iodul intra în organism prin intermediul Antisepticelor Iodice și a spălăturilor, remedii pentru gușă.
+	Iodul intra in organism prin intermediul Antisepticelor Iodice si a spalaturilor, remedii pentru gusa.
 
-	Se stabilește peste tot, de multe ori în ficat, intestin, rinichi, stomac, plămâni și pancreas și este eliminat prin membranele mucoase.
+	Se stabileste peste tot, de multe ori in ficat, intestin, rinichi, stomac, plamani si pancreas si este eliminat prin membranele mucoase.
 
-	Apariția acestui medicament în ochi este cu pete roșii și gălbui înconjurate de margini albe.
+	Aparitia acestui medicament in ochi este cu pete rosii si galbui inconjurate de margini albe.
 
-	Simptomele sunt inflamarea gingiilor, răceli, dureri de cap frontale, expectorație spumoasă și tuse, diaree, erupții cutanate, atrofierea glandelor.
+	Simptomele sunt inflamarea gingiilor, raceli, dureri de cap frontale, expectoratie spumoasa si tuse, diaree, eruptii cutanate, atrofierea glandelor.
 
 ## FIERUL
 
-	Fierul intra în organism prin intermediul apei care conține fier, tonice de sânge, bromură de fier.
+	Fierul intra in organism prin intermediul apei care contine fier, tonice de sange, bromura de fier.
 
-	Se stabilește oriunde și este eliminat prin intestin și membranele mucoase.
+	Se stabileste oriunde si este eliminat prin intestin si membranele mucoase.
 
-	Apariția acestui medicament în ochi este o pată maro-ruginiu închis, mult mai întunecată în maroniul irisului.
+	Aparitia acestui medicament in ochi este o pata maro-ruginiu inchis, mult mai intunecata in maroniul irisului.
 
-	Simptomele sunt dureri abdominale, scaun negru, constipație persistentă, eliberare de presiune, carii dentare.
+	Simptomele sunt dureri abdominale, scaun negru, constipatie persistenta, eliberare de presiune, carii dentare.
 
 ## PLUMBUL
 
-	Plumbul intra în organism prin intermediul apei de băut care îł conține din țevile de plumb, muncitorilor care manipulează plumbul, vopseaua, folia de aluminiu. Colorarea proviziilor de conserve.
+	Plumbul intra in organism prin intermediul apei de baut care ił contine din tevile de plumb, muncitorilor care manipuleaza plumbul, vopseaua, folia de aluminiu. Colorarea proviziilor de conserve.
 
-	Se stabilește în stomac și zona intestinelor și a țesutului nervos și se elimină prin piele, intestine și membranele mucoase.
+	Se stabileste in stomac si zona intestinelor si a tesutului nervos si se elimina prin piele, intestine si membranele mucoase.
 
-	Apariția acestui medicament în ochi este de plumb albastru sau gri, care formează un cerc perfect în jurul pupilei pe zona stomacului și cea intestinală.
+	Aparitia acestui medicament in ochi este de plumb albastru sau gri, care formeaza un cerc perfect in jurul pupilei pe zona stomacului si cea intestinala.
 
-	Simptomele sunt blocarea încheieturii mâinii, amețeli, dureri neuro-musculare în brațe, umeri și gât, malnutritie, linia de plumb albastră pe gingii, paralizie.
+	Simptomele sunt blocarea incheieturii mainii, ameteli, dureri neuro-musculare in brate, umeri si gat, malnutritie, linia de plumb albastra pe gingii, paralizie.
 
 ## MERCURUL
 
-	Mercurul intra în organism prin intermediul hidrargirului 606, prin plombe dentare din amalgam, oglinzi de tinichea și a minerilor de mercur.
+	Mercurul intra in organism prin intermediul hidrargirului 606, prin plombe dentare din amalgam, oglinzi de tinichea si a minerilor de mercur.
 
-	Se stabilește în zona circulatoare a creierului, oase, și se elimină prin piele, membranele mucoase și descărcarea de hemoroizi.
+	Se stabileste in zona circulatoare a creierului, oase, si se elimina prin piele, membranele mucoase si descarcarea de hemoroizi.
 
-	Apariția acestui medicament în ochi este de un gri albicios sau argintiu, ca un luciu de metal, albăstrui în ochiul căprui.
+	Aparitia acestui medicament in ochi este de un gri albicios sau argintiu, ca un luciu de metal, albastrui in ochiul caprui.
 
-	Simptomele sunt gingii ușor umflate, pierderea dinților, ulcere profunde, dinții lui Hutchinson, ataxie locomotorie , degenerarea mentală, gust metalic în gură.
+	Simptomele sunt gingii usor umflate, pierderea dintilor, ulcere profunde, dintii lui Hutchinson, ataxie locomotorie , degenerarea mentala, gust metalic in gura.
 
 ## OPIUL (cocaina)
 
-	Opiul intră în corp prin laudanum, substanțe analgezice, morfină.
+	Opiul intra in corp prin laudanum, substante analgezice, morfina.
 
-	Se stabilește în stomac, intestine, sistemul nervos simpatic și este eliminat prin membranele mucoase.
+	Se stabileste in stomac, intestine, sistemul nervos simpatic si este eliminat prin membranele mucoase.
 
-	Apariția acestui medicament în ochi sunt linii de culoare albă sau linii gri \-albicioase radiante, drepte în afara și în jurul pupilei.
+	Aparitia acestui medicament in ochi sunt linii de culoare alba sau linii gri \-albicioase radiante, drepte in afara si in jurul pupilei.
 
-	Simptomele sunt stimularea amestecată cu depresie, oboseală psihică și fizică, constipație cronică.
+	Simptomele sunt stimularea amestecata cu depresie, oboseala psihica si fizica, constipatie cronica.
 
 ## FOSFORUL
 
-	Fosforul intră în organism prin inhalarea de către lucrătorii din fabrici, prin medicamente și intoxicații cu paraziți.
+	Fosforul intra in organism prin inhalarea de catre lucratorii din fabrici, prin medicamente si intoxicatii cu paraziti.
 
-	Se stabilește în diafragmă și inimă, în unghiul mandibulei și se elimină prin piele, intestin și membranele mucoase.
+	Se stabileste in diafragma si inima, in unghiul mandibulei si se elimina prin piele, intestin si membranele mucoase.
 
-	Apariția acestui medicament în ochi este asemănător unor fulgi albi oriunde în iris, în special în zonele musculare și în structura osoasă.
+	Aparitia acestui medicament in ochi este asemanator unor fulgi albi oriunde in iris, in special in zonele musculare si in structura osoasa.
 
-	Simptomele sunt diareea cronică, constipație, dureri de cap cronice, mai târziu, ulcerații ale gingiilor, parodontoza, mâncărime a pielii, necroză a maxilarului.
+	Simptomele sunt diareea cronica, constipatie, dureri de cap cronice, mai tarziu, ulceratii ale gingiilor, parodontoza, mancarime a pielii, necroza a maxilarului.
 
 ## CHININA
 
-	Chinina (alcaloid de săruri) pătrunde în organism prin chinină de brom preventivă malariei,tonice ale stimulării poftei de mâncare ,tonice de păr care o conțin.
+	Chinina (alcaloid de saruri) patrunde in organism prin chinina de brom preventiva malariei,tonice ale stimularii poftei de mancare ,tonice de par care o contin.
 
-	Se stabilește în stomac și în tractul intestinal, utilizarea cronică se răspândește în tot corpul și este eliminat prin gură, piele, rinichi, intestin, descărcarea de hemoroizi și evacuările mucoase.
+	Se stabileste in stomac si in tractul intestinal, utilizarea cronica se raspandeste in tot corpul si este eliminat prin gura, piele, rinichi, intestin, descarcarea de hemoroizi si evacuarile mucoase.
 
-	Apariția acestui medicament în ochi este galben sau gălbui-verzui în tractul GI și peste tot irisul.
+	Aparitia acestui medicament in ochi este galben sau galbui-verzui in tractul GI si peste tot irisul.
 
-	Simptomele sunt sunete sau vuiete în urechi, surditate, tulburări de vedere, gust de chinină, depresie mintală, erupții cutanate pruriginoase, transpirație.
+	Simptomele sunt sunete sau vuiete in urechi, surditate, tulburari de vedere, gust de chinina, depresie mintala, eruptii cutanate pruriginoase, transpiratie.
 
 ## ACIDUL SALICILIC
 
-	Acidul salicilic pătrunde în organism prin intermediul conservanților din alimente și băuturi, din aspirină, remedii împotriva frigului și din uleiul de perișor.
+	Acidul salicilic patrunde in organism prin intermediul conservantilor din alimente si bauturi, din aspirina, remedii impotriva frigului si din uleiul de perisor.
 
-	Se stabilește în zona de creier, stomac și intestine și se elimină prin intestine, piele și membranele mucoase.
+	Se stabileste in zona de creier, stomac si intestine si se elimina prin intestine, piele si membranele mucoase.
 
-	Apariția acestui medicament în ochi este un nor gri de culoare gri-albicios-murdar,care se arată mai ales în partea superioară a irisului.
+	Aparitia acestui medicament in ochi este un nor gri de culoare gri-albicios-murdar,care se arata mai ales in partea superioara a irisului.
 
-	Simptomele sunt dureri de cap, pierderea părului, pierderea de auz, zgomote în urechi, imprecizie a vederii.
+	Simptomele sunt dureri de cap, pierderea parului, pierderea de auz, zgomote in urechi, imprecizie a vederii.
 
 ## SODIUL
 
-	Sodiul intră în organism prin intermediul sării de masă, al bicarbonatului de sodiu (bicarbonat de sodiu folosit pentru coacere), alimente sărate, salicilat de sodiu, benzoat de sodiu.
+	Sodiul intra in organism prin intermediul sarii de masa, al bicarbonatului de sodiu (bicarbonat de sodiu folosit pentru coacere), alimente sarate, salicilat de sodiu, benzoat de sodiu.
 
-	Acesta se stabilește în zona circulatorie și este eliminat prin piele și membranele mucoase.
+	Acesta se stabileste in zona circulatorie si este eliminat prin piele si membranele mucoase.
 
-	Apariția acestui medicament în ochi este un arc de culoare alb mat sau un cerc în zona circulatorie.
+	Aparitia acestui medicament in ochi este un arc de culoare alb mat sau un cerc in zona circulatorie.
 
-	Simptomele sunt eczeme, furuncule, coșuri, dispnee, arterioscleroză, angina pectorală, constricția pupilei, memorie slabă.
+	Simptomele sunt eczeme, furuncule, cosuri, dispnee, arterioscleroza, angina pectorala, constrictia pupilei, memorie slaba.
 
 ## STRICNINA
 
-	Stricnina intră în organism prin intermediul stimulentului toxic Nux Vomica.
+	Stricnina intra in organism prin intermediul stimulentului toxic Nux Vomica.
 
-	Se stabilește în stomac și este eliminat prin membranele mucoase.
+	Se stabileste in stomac si este eliminat prin membranele mucoase.
 
-	Apariția acestui medicament în ochi este ca o roată de culoare alb-albicios-gălbui având proporții perfecte în jurul pupilei.
+	Aparitia acestui medicament in ochi este ca o roata de culoare alb-albicios-galbui avand proportii perfecte in jurul pupilei.
 
-	Simptomele sunt constipație, fermentație, emaciere, indigestie, foame nefirească, slăbirea inimii, paralizie, anemie.
+	Simptomele sunt constipatie, fermentatie, emaciere, indigestie, foame nefireasca, slabirea inimii, paralizie, anemie.
 
 ## SULFUL
 
-	Sulful intră în organism prin intermediul alimentelor sulfurate, apă sulfuroasă și băi, inhalarea gazelor de sulf, medicație. Se stabilește în intestin și stomac și se elimină prin piele, intestin și membranele mucoase.
+	Sulful intra in organism prin intermediul alimentelor sulfurate, apa sulfuroasa si bai, inhalarea gazelor de sulf, medicatie. Se stabileste in intestin si stomac si se elimina prin piele, intestin si membranele mucoase.
 
-	Apariția acestui medicament în ochi este asemeni unui nor de un maroniu închis decolorat.
+	Aparitia acestui medicament in ochi este asemeni unui nor de un maroniu inchis decolorat.
 
-	Simptomele sunt furuncule, coșuri, eczeme, erupții cutanate, greață, vărsături, febră.
+	Simptomele sunt furuncule, cosuri, eczeme, eruptii cutanate, greata, varsaturi, febra.
 
-## TURBENTINĂ
+## TURBENTINA
 
-	Turbentina este accidental absorbită prin inhalarea distilatorilor de turbentină, pictorilor, artiștilor. Se stabilește în organele genito-urinare și este eliminată prin organele genito-urinare, rinichi și prin memebranele mucoase.
+	Turbentina este accidental absorbita prin inhalarea distilatorilor de turbentina, pictorilor, artistilor. Se stabileste in organele genito-urinare si este eliminata prin organele genito-urinare, rinichi si prin memebranele mucoase.
 
-	Apariția acestui medicament în ochi este de culoare albă în zona organelor genito-urinare, asemeni unor nori de un gri dens.
+	Aparitia acestui medicament in ochi este de culoare alba in zona organelor genito-urinare, asemeni unor nori de un gri dens.
 
-	Simptomele sunt suprimarea și reținerea urinei.
+	Simptomele sunt suprimarea si retinerea urinei.
 
 ## VACCINURILE
 
-	Vaccinurile intră în corp prin intermediul injecțiilor prin piele. Sunt eliminate prin piele și prin memebranele mucoase. Apariția acestui medicament în ochi este negru cu pete maronii, tulburi, murdare, cu margini albe, depuse superficial pe suprafața irisului.
+	Vaccinurile intra in corp prin intermediul injectiilor prin piele. Sunt eliminate prin piele si prin memebranele mucoase. Aparitia acestui medicament in ochi este negru cu pete maronii, tulburi, murdare, cu margini albe, depuse superficial pe suprafata irisului.
 
-	Simptomele sunt erupții ale pielii și febră.
+	Simptomele sunt eruptii ale pielii si febra.

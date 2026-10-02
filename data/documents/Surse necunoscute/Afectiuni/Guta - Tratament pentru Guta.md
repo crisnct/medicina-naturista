@@ -1,9 +1,9 @@
 # Tratarea Guta
 
-**Cum se vindecă Guta\[exces de uree în sânge\]**
+**Cum se vindeca Guta\[exces de uree in sange\]**
 
-Primăvara se bea vreme de 30-40 de zile, 1 litru de ceai pe zi, făcut din mătase de porumb la care se mai adaugă cozi de cireșe amare și ghimpe.
+Primavara se bea vreme de 30-40 de zile, 1 litru de ceai pe zi, facut din matase de porumb la care se mai adauga cozi de cirese amare si ghimpe.
 
-Întru-n vas mai mare se pun la fiert 7-8l de apă, în care se pun o mână bună de mătase de porumb, una de cozi de cireșe amare și una de ghimpe\[de la Plafar\]. Se fierbe până când ceaiul dobândește o culoare închisă. Se pune în sticle de 1l și se pun la rece, consumându-se o sticlă pe zi \[câte 2-3 pahare odată\] Foarte important în toată această perioadă nu se consumă alcool . Tratamentul se Ține de două ori pe an și se verifică ca după tratament ureea să scadă la 4, dacă nu a scăzut se mai continuă până scade.
+Intru-n vas mai mare se pun la fiert 7-8l de apa, in care se pun o mana buna de matase de porumb, una de cozi de cirese amare si una de ghimpe\[de la Plafar\]. Se fierbe pana cand ceaiul dobandeste o culoare inchisa. Se pune in sticle de 1l si se pun la rece, consumandu-se o sticla pe zi \[cate 2-3 pahare odata\] Foarte important in toata aceasta perioada nu se consuma alcool . Tratamentul se Tine de doua ori pe an si se verifica ca dupa tratament ureea sa scada la 4, daca nu a scazut se mai continua pana scade.
 
-**Atenție** pastilele pe care la recomandă medicii **COLICHICINÂ sunt grozav de** **dăunătoare ficatului, rinichilor și în mod deosebit globulelor.** Ceaiul acesta nu dăunează la nimic, di contră, vindecă, și ajută la ficat și la rinichi.
+**Atentie** pastilele pe care la recomanda medicii **COLICHICINA sunt grozav de** **daunatoare ficatului, rinichilor si in mod deosebit globulelor.** Ceaiul acesta nu dauneaza la nimic, di contra, vindeca, si ajuta la ficat si la rinichi.

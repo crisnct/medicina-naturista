@@ -2,19 +2,19 @@ Curs 16
 
 Ierburile tonice
 
-Tonicele cresc permanent tonul de-a lungul întregului sistem, crescand vigoarea, energia și puterea, stimuland asimilarea de substante nutritive.Aceste plante sunt revigorante, răcoritoare și consolideaza permanent fiecareorgan al corpului. Ele lucrează în principal în cadrul sistemului digestiv, dar toate organele sunt influențate pozitiv. Ele produc ton normal țesuturilor unui organ, rezultand un muschi sănătos și funcțional. Aceste plante sporesc pofta de mâncare, promoveaza eliminarea mai bună a resturilor, ajuta la digestie, alina stomacul și, treptat, construiesc forta, energia și sănătatea. Ca o regulă, ierburile tonice sunt amare de obicei si sunt date in timpul perioadei de convalescenta. Asigura-te că pacientul a trecut de faza acuta a bolii înainte dea-i administra ierburi tonice.
+Tonicele cresc permanent tonul de-a lungul intregului sistem, crescand vigoarea, energia si puterea, stimuland asimilarea de substante nutritive.Aceste plante sunt revigorante, racoritoare si consolideaza permanent fiecareorgan al corpului. Ele lucreaza in principal in cadrul sistemului digestiv, dar toate organele sunt influentate pozitiv. Ele produc ton normal tesuturilor unui organ, rezultand un muschi sanatos si functional. Aceste plante sporesc pofta de mancare, promoveaza eliminarea mai buna a resturilor, ajuta la digestie, alina stomacul si, treptat, construiesc forta, energia si sanatatea. Ca o regula, ierburile tonice sunt amare de obicei si sunt date in timpul perioadei de convalescenta. Asigura-te ca pacientul a trecut de faza acuta a bolii inainte dea-i administra ierburi tonice.
 
-# **Dracilă**
+# **Dracila**
 
 Caracteristici de identificare*(Berberis vulgaris; Berberis dumetorum; BERBERIDACEAE)*
 
-Dracila (Berberis vulgaris) este un arbust spinos din familia Berberidaceae, înalt până la 3 m, cu flori galbene și cu fructe în formă de boabe roșii, cultivat adesea ca gard viu.
+Dracila (Berberis vulgaris) este un arbust spinos din familia Berberidaceae, inalt pana la 3 m, cu flori galbene si cu fructe in forma de boabe rosii, cultivat adesea ca gard viu.
 
-Frunzele sunt ovale, cu dinți deși și ascuțiți pe margini. Flori sub formă de ciorchine, galbene. Fructul este o bacă ovoidă, de culoare roșu aprins, în interior cu două semințe.
+Frunzele sunt ovale, cu dinti desi si ascutiti pe margini. Flori sub forma de ciorchine, galbene. Fructul este o baca ovoida, de culoare rosu aprins, in interior cu doua seminte.
 
-Substanțele active din dracilă sunt alcaloizi, în proporție de 2 \- 3 % în rădăcini, din care cantitatea maximă (1- 1,5%) este berberina care este însoțită tot de alcaloizi de tip izochinolinic: berberubina, iatrorizina, palmatina, columbamina, berbamina și oxiacantina. Alături de alcaloizi, în scoarța de dracilă mai exista taninuri, acid chelidonic, rezine etc. Fructele coapte nu conțin alcaloizi. Ele conțin circa 5% glucoză și fructoză, acid malic, gume, pectin și vitamina C .
+Substantele active din dracila sunt alcaloizi, in proportie de 2 \- 3 % in radacini, din care cantitatea maxima (1- 1,5%) este berberina care este insotita tot de alcaloizi de tip izochinolinic: berberubina, iatrorizina, palmatina, columbamina, berbamina si oxiacantina. Alaturi de alcaloizi, in scoarta de dracila mai exista taninuri, acid chelidonic, rezine etc. Fructele coapte nu contin alcaloizi. Ele contin circa 5% glucoza si fructoza, acid malic, gume, pectin si vitamina C .
 
-Actiune terapeutica: Alcaloizii, în special berberina, au acțiune deprimanta cardiac și asupra respirației. Stimulează musculatura netedă a intestinelor, uterului și a altor organe. În doze mici stimulează activitatea cardiacă prin acțiunea asupra coronarelor.Oxiacantina izolată din scoarță acestei specii are acțiune hipotensivă. Extractele din această specie sau unii alcaloizi au remarcabile proprietăți antibiotic, acționând asupra unui mare număr de germeni patogeni.
+Actiune terapeutica: Alcaloizii, in special berberina, au actiune deprimanta cardiac si asupra respiratiei. Stimuleaza musculatura neteda a intestinelor, uterului si a altor organe. In doze mici stimuleaza activitatea cardiaca prin actiunea asupra coronarelor.Oxiacantina izolata din scoarta acestei specii are actiune hipotensiva. Extractele din aceasta specie sau unii alcaloizi au remarcabile proprietati antibiotic, actionand asupra unui mare numar de germeni patogeni.
 
 # Colici biliare
 
@@ -28,35 +28,35 @@ Actiune terapeutica: Alcaloizii, în special berberina, au acțiune deprimanta c
 
 1/4 lingurita Cayenne (Capsicum frutescens; C. minim)
 
-Preparare: fierbe primele patru ingrediente ale compusului în 1 litru de apăpână ajunge la 1/4 litru (decoct), se strecoara fierbinte peste Cayenne (infuzie).
+Preparare: fierbe primele patru ingrediente ale compusului in 1 litru de apapana ajunge la 1/4 litru (decoct), se strecoara fierbinte peste Cayenne (infuzie).
 
-Dozare: cca 60 ml de lichid, de 4 până la 6 ori pe zi
+Dozare: cca 60 ml de lichid, de 4 pana la 6 ori pe zi
 
 # Icter, tonic digestiv (tinctura)
 
 112g coaja de dracila(Berberis vulgaris)
 
-112gcoaja de plop alb sau mișcător Aspen (Populus tremuloides)
+112gcoaja de plop alb sau miscator Aspen (Populus tremuloides)
 
 112gcoaja de cires salbatic (Prunus: Europa)
 
 1 galon otet de mere
 
-Mod de preparare: zdrobeste și macereaza ierburile timp de 1 săptămână în oțet de mere
+Mod de preparare: zdrobeste si macereaza ierburile timp de 1 saptamana in otet de mere
 
-.Dozare: 1 lingură 3 sau mai multe ori pe zi.
+.Dozare: 1 lingura 3 sau mai multe ori pe zi.
 
 Laxativ, bactericid, oxiuri la copii
 
-112gcoaja de dracila, tăiata (Berberis vulgaris)
+112gcoaja de dracila, taiata (Berberis vulgaris)
 
-1 linguriță de Mandrake, rădăcină sau marde mai tăiat (Podophyllum peltatum)
+1 lingurita de Mandrake, radacina sau marde mai taiat (Podophyllum peltatum)
 
 112g glicerina
 
-Mod de preparare: se fierb plantele încet timp de 15 minute, în aproximativ 1-1/2 litri de apă, se strecoara și se retrag, se acoperă plantele (partea de sus a plantelor)cu apă și se fierb până când apa este la acelasi nivel cu ierburile, se strecoara.Pune ambele cantități de lichid într-un vas curat și fierbe; ia aceastăconcentratie de pe foc, amesteca cu glicerină, lasa sa stea pana se răceste, pune intr-o sticlă și păstreaz-o într-un loc răcoros.
+Mod de preparare: se fierb plantele incet timp de 15 minute, in aproximativ 1-1/2 litri de apa, se strecoara si se retrag, se acopera plantele (partea de sus a plantelor)cu apa si se fierb pana cand apa este la acelasi nivel cu ierburile, se strecoara.Pune ambele cantitati de lichid intr-un vas curat si fierbe; ia aceastaconcentratie de pe foc, amesteca cu glicerina, lasa sa stea pana se raceste, pune intr-o sticla si pastreaz-o intr-un loc racoros.
 
-Dozare: 1 lingură noaptea și dimineața până cand intestinele se misca liber.
+Dozare: 1 lingura noaptea si dimineata pana cand intestinele se misca liber.
 
 Copii: 1/2 \-1 lingurita.
 
@@ -73,7 +73,7 @@ Radacina plantei in Tanzania era o sursa importanta de medicament folosit la vin
 
 Intotdeauna radacina se dezgroapa pe vreme uscata, iar partea sa suculenta se curata si se taie in felii groase de 1-1,5 cm oblic sau transversal si se usuca in locuri bine aerisite si umbrite. Dupa uscare aceste bucatele de radacina au un colorit galbui-maroniu si gustul amar.
 
-# Flatulență (intestinal)
+# Flatulenta (intestinal)
 
  1 lingura Calumba pulbere (Jateorhiza palmata)
 
@@ -81,25 +81,25 @@ Intotdeauna radacina se dezgroapa pe vreme uscata, iar partea sa suculenta se cu
 
 1 lingurita praf de Senna (Cassia angustifolia)
 
-Mod de preparare: fa o infuzie turnand 1 litru de apa clocotita pesteingredientele de mai sus, acopera bine și tine timp de o oră. Strecoara și îndulceste (dacă doresti).
+Mod de preparare: fa o infuzie turnand 1 litru de apa clocotita pesteingredientele de mai sus, acopera bine si tine timp de o ora. Strecoara si indulceste (daca doresti).
 
 Dozare: cca. 60ml de lichid de 3 ori pe zi.
 
-# Digestie slaba și alterata
+# Digestie slaba si alterata
 
-28g Calumba rădăcină (Jateorhiza palmata)
+28g Calumba radacina (Jateorhiza palmata)
 
-28gcoaja de plop alb sau mișcător Aspen (Populus tremuloides)
+28gcoaja de plop alb sau miscator Aspen (Populus tremuloides)
 
-28gfrunze de zmeură (Rubus idaeus)
+28gfrunze de zmeura (Rubus idaeus)
 
 14g Horehound planta (Marrubium vulgare)
 
 1/2 lingurita Cayenne (Capsicum frutescens; C. minim)
 
-Mod de preparare: se fierb primele patru plante timp de aproximativ 15 de minute într-un litru de apă, se toarna fierbinte peste Cayenne.
+Mod de preparare: se fierb primele patru plante timp de aproximativ 15 de minute intr-un litru de apa, se toarna fierbinte peste Cayenne.
 
-Dozare: 30 ml, de 3 până la 4 ori pe zi.
+Dozare: 30 ml, de 3 pana la 4 ori pe zi.
 
 # Dispepsie
 
@@ -109,25 +109,25 @@ Dozare: 30 ml, de 3 până la 4 ori pe zi.
 
 28gLeptandra sau Root Culver, tinctura (Veronicastrumvirginicum)
 
-Mod de preparare: Se amestecă foarte bine.
+Mod de preparare: Se amesteca foarte bine.
 
-Dozare: 2 lingurite după mese.
+Dozare: 2 lingurite dupa mese.
 
-Tendința de avort spontan, leucoree
+Tendinta de avort spontan, leucoree
 
 28gde gentiana americana (Frasera caroliniensis)
 
-56g de Unicorn, rădăcină (Aletris farinosa)
+56g de Unicorn, radacina (Aletris farinosa)
 
-28grădăcină de golden seal (Hydrastis Canadensis)
+28gradacina de golden seal (Hydrastis Canadensis)
 
-28gde viță de vie Mitchella repens)
+28gde vita de vie Mitchella repens)
 
 28gde portocala (Citrus aurantium)
 
 Mod de preparare: Fierbe la foc mic 1/2 ora in 3 litri de apa, strecoara.
 
-Dozare: 2-3 linguri, de 3 până la 4 ori pe zi.
+Dozare: 2-3 linguri, de 3 pana la 4 ori pe zi.
 
 # ***GOLDEN SEAL- Gentiana**(Hydrastis Canadensis;RANUNCULACEAE)*
 
@@ -135,43 +135,43 @@ Caracteristici de identificare:Planta medicinala care creste in tara noastra in 
 
 Actiune terapeutica:
 
-Acționează în special pe membranele mucoase, relaxându-le și inducând o secreție groasă, galbenă, vâscoasă. Catarul poate fi de oriunde \- gât, stomac, uter, uretră \- având mereu această secreție mucoasă caracteristică. Hydrastis este activ mai ales la persoane în vârstă, care obosesc ușor, la indivizi cașectici, cu o mare debilitate (slăbiciune). Efectele asupra creierului sunt evidente, mintea devine ascuțită, capul clar, exprimările facile. Slăbiciune musculară, digestie lentă, constipație persistentă. Lumbago. Emaciere și prostrație. Acțiune puternică asupra ficatului. Cancer și stări canceroase, înainte de ulcerație, când durerea este simptomul principal. Gușă la pubertate și-n sarcină. Variolă (intern și local). Remediul modifică evoluția variolei prin ameliorarea simptomelor supărătoare, scurtarea duratei bolii, micșorarea pericolului și diminuarea complicațiilor.
+Actioneaza in special pe membranele mucoase, relaxandu-le si inducand o secretie groasa, galbena, vascoasa. Catarul poate fi de oriunde \- gat, stomac, uter, uretra \- avand mereu aceasta secretie mucoasa caracteristica. Hydrastis este activ mai ales la persoane in varsta, care obosesc usor, la indivizi casectici, cu o mare debilitate (slabiciune). Efectele asupra creierului sunt evidente, mintea devine ascutita, capul clar, exprimarile facile. Slabiciune musculara, digestie lenta, constipatie persistenta. Lumbago. Emaciere si prostratie. Actiune puternica asupra ficatului. Cancer si stari canceroase, inainte de ulceratie, cand durerea este simptomul principal. Gusa la pubertate si-n sarcina. Variola (intern si local). Remediul modifica evolutia variolei prin ameliorarea simptomelor suparatoare, scurtarea duratei bolii, micsorarea pericolului si diminuarea complicatiilor.
 
-Minte. Depresie; sigur că o să moară, dorește moartea.
+Minte. Depresie; sigur ca o sa moara, doreste moartea.
 
-Cap. Durere frontală, surdă, ca o apăsare, în special în legătură cu constipația. Mialgii la nivelul scalpului și mușchilor gâtului (Cimicifuga). Eczemă pe frunte, de-a lungul zonei de inserție a părului. Sinuzită, după coriză.
+Cap. Durere frontala, surda, ca o apasare, in special in legatura cu constipatia. Mialgii la nivelul scalpului si muschilor gatului (Cimicifuga). Eczema pe frunte, de-a lungul zonei de insertie a parului. Sinuzita, dupa coriza.
 
-Urechi. Vuiet. Secreții muco-purulente. Surditate. Catar la nivelul trompei lui Eustachio, cu voce ascuțită, pițigăiată.
+Urechi. Vuiet. Secretii muco-purulente. Surditate. Catar la nivelul trompei lui Eustachio, cu voce ascutita, pitigaiata.
 
-Nas. Secreție groasă, tenace din spatele nasului în gât. Secreție apoasă, excoriantă. Ozenă, cu ulcerații ale septului nazal. Tendința de a sufla nasul tot timpul.
+Nas. Secretie groasa, tenace din spatele nasului in gat. Secretie apoasa, excorianta. Ozena, cu ulceratii ale septului nazal. Tendinta de a sufla nasul tot timpul.
 
-Gură. Gust ca de piper. Limba albă, umflată, mare, moale, lipicioasă; cu urmele dinților imprimate pe margine (Mercurius); ca și cum ar fi opărită; stomatită. Ulcerații linguale, fisuri către margini.
+Gura. Gust ca de piper. Limba alba, umflata, mare, moale, lipicioasa; cu urmele dintilor imprimate pe margine (Mercurius); ca si cum ar fi oparita; stomatita. Ulceratii linguale, fisuri catre margini.
 
-Gât. Faringită foliculară. Senzație de rană vie, usturime, excoriație. Elimină mucus galben, tenace (Kali bichromicum). Copilul este trezit brusc din somn de această secreție groasă, post-nazală. Gușă la pubertate și în sarcină.
+Gat. Faringita foliculara. Senzatie de rana vie, usturime, excoriatie. Elimina mucus galben, tenace (Kali bichromicum). Copilul este trezit brusc din somn de aceasta secretie groasa, post-nazala. Gusa la pubertate si in sarcina.
 
-Stomac. Senzație de durere surdă în stomac, mai mult sau mai puțin constantă. Digestie slabă. Gust amar. Durere ca și cum ar fi înghițit ceva gloduros. Senzație de sfârșeală. Pulsații în epigastru. Nu poate mânca pâine sau legume. Dispepsie atonă. Ulcer și cancer. Gastrită.
+Stomac. Senzatie de durere surda in stomac, mai mult sau mai putin constanta. Digestie slaba. Gust amar. Durere ca si cum ar fi inghitit ceva gloduros. Senzatie de sfarseala. Pulsatii in epigastru. Nu poate manca paine sau legume. Dispepsie atona. Ulcer si cancer. Gastrita.
 
-Abdomen. Catar gastro-duodenal. Ficat leneș, sensibil. Icter. Litiază biliară. Durere ca o tragere în zona inghinală dreaptă cu senzație de tăietură către testiculul drept.
+Abdomen. Catar gastro-duodenal. Ficat lenes, sensibil. Icter. Litiaza biliara. Durere ca o tragere in zona inghinala dreapta cu senzatie de taietura catre testiculul drept.
 
-Spate. Durere surdă, grea, ca o tragere și înțepeneală, mai ales de-a lungul zonei lombare, trebuie să se ajute de brațe ca să se ridice de pe scaun.
+Spate. Durere surda, grea, ca o tragere si intepeneala, mai ales de-a lungul zonei lombare, trebuie sa se ajute de brate ca sa se ridice de pe scaun.
 
-Rect. Prolaps; fisuri anale. Constipație, cu senzație de gol în stomac și durere surdă de cap. Dureri usturătoare în rect în timpul scaunului. Dureri prelungite după scaun (Nitric acid). Hemoroizi; se simte epuizat chiar după un scaun ușor. Contracții și spasme.
+Rect. Prolaps; fisuri anale. Constipatie, cu senzatie de gol in stomac si durere surda de cap. Dureri usturatoare in rect in timpul scaunului. Dureri prelungite dupa scaun (Nitric acid). Hemoroizi; se simte epuizat chiar dupa un scaun usor. Contractii si spasme.
 
-Urină. Secreție ca de gonoree. Urina are miros de descompus.
+Urina. Secretie ca de gonoree. Urina are miros de descompus.
 
-Aparat genital masculin. Gonoree, stadiul secundar; secreție groasă, galbenă.
+Aparat genital masculin. Gonoree, stadiul secundar; secretie groasa, galbena.
 
-Aparat genital feminin. Eroziune și excoriație la nivelul colului. Leucoree, mai ales după menstruație (Bovista, Calcarea carbonica); acidă, corozivă, "în franjuri", tenace. Menoragie. Prurit vulvar, cu leucoree abundentă (Calcarea carbonica, Kreosotum, Sepia). Excitație sexuală. Tumoră la sân; mamelon retractat.
+Aparat genital feminin. Eroziune si excoriatie la nivelul colului. Leucoree, mai ales dupa menstruatie (Bovista, Calcarea carbonica); acida, coroziva, "in franjuri", tenace. Menoragie. Prurit vulvar, cu leucoree abundenta (Calcarea carbonica, Kreosotum, Sepia). Excitatie sexuala. Tumora la san; mamelon retractat.
 
-Aparat respirator. Senzație de rană, durere, arsură în piept. Tuse uscată, aspră. Catar bronșic, stadii avansate. Bronșită la persoane în vârstă, epuizate, cu expectorație groasă, galbenă, tenace. Atacuri frecvente de leșin, cu transpirație rece pe tot corpul. Simte că se sufocă dacă se întinde pe stânga. Durere care iradiază din piept către umărul stâng.
+Aparat respirator. Senzatie de rana, durere, arsura in piept. Tuse uscata, aspra. Catar bronsic, stadii avansate. Bronsita la persoane in varsta, epuizate, cu expectoratie groasa, galbena, tenace. Atacuri frecvente de lesin, cu transpiratie rece pe tot corpul. Simte ca se sufoca daca se intinde pe stanga. Durere care iradiaza din piept catre umarul stang.
 
-Piele. Erupție ca de variolă. Lupus; ulcerații, formațiuni canceroase. Tendință generală la transpirație abundentă și piele nesănătoasă (Hepar).
+Piele. Eruptie ca de variola. Lupus; ulceratii, formatiuni canceroase. Tendinta generala la transpiratie abundenta si piele nesanatoasa (Hepar).
 
-Relații. Antidot: Sulphur.
+Relatii. Antidot: Sulphur.
 
-Util după abuz de Clorat de Potasiu pentru durere de gât.
+Util dupa abuz de Clorat de Potasiu pentru durere de gat.
 
-Doză. De la tinctură până la potența 30\. Local, tinctură-mamă sau extract fluid.
+Doza. De la tinctura pana la potenta 30\. Local, tinctura-mama sau extract fluid.
 
 Planta contine principrii amare, alcaloizi. In scop fitoterapeutic se utilizeaza radacina. Gentiana infloreste din luna iulie pana in septembrie. Radacina se recolteaza dinluna august pana in luna octombrie.
 
@@ -193,7 +193,7 @@ Uz extern:
 
 112gboz (Sambucus Ebulus)
 
-56gde gențiană (Gentiana lutea)
+56gde gentiana (Gentiana lutea)
 
 56gcoaja de frasin (Zanthoxylum americanum;Z.clava-Herculis)
 
@@ -201,7 +201,7 @@ Uz extern:
 
 Pregatire: 2 litri de sirop.
 
-Dozare: 2 linguri, după mese.
+Dozare: 2 linguri, dupa mese.
 
 # **Guturai ofensiv**
 
@@ -211,7 +211,7 @@ Dozare: 2 linguri, după mese.
 
 2 lingurite de frunze de zmeura pulbere (Rubus idaeus)
 
-Mod de preparare: Freca bine într-un mojar și trece printr-o sită fină.
+Mod de preparare: Freca bine intr-un mojar si trece printr-o sita fina.
 
 Dozare: Foloseste de mai multe ori pe zi, ca pe tutun.
 
@@ -223,9 +223,9 @@ Maini crapate
 
 1 parte coaja Elder (Sambucus canadensis)
 
-Mod de preparare: pune in ulei de masline cald, intareste cu ceara de albine, dacă doresti.
+Mod de preparare: pune in ulei de masline cald, intareste cu ceara de albine, daca doresti.
 
-Administrare: Aplica după cum este necesar.
+Administrare: Aplica dupa cum este necesar.
 
 Mancarimi, arsuri de piele, boli eruptive (variola,pojar, scarlatina, etc)
 
@@ -233,19 +233,19 @@ Mancarimi, arsuri de piele, boli eruptive (variola,pojar, scarlatina, etc)
 
 250ml de ulei de in (Linum usitatissimum)
 
-Mod de preparare: Se amestecă foarte bine.
+Mod de preparare: Se amesteca foarte bine.
 
-Administrare: Aplica după cum este necesar.
+Administrare: Aplica dupa cum este necesar.
 
 Colir pentru ochi inflamati
 
 1 lingurita de gentiana, tinctura (Hydrastis Canadensis)
 
-56ml de apă distilată de fierbere
+56ml de apa distilata de fierbere
 
-Mod de preparare: se amestecă bine și se lasa sa stea pana e suficient de rece pentru a se utiliza (apa caldava disipa alcoolul în tinctura).
+Mod de preparare: se amesteca bine si se lasa sa stea pana e suficient de rece pentru a se utiliza (apa caldava disipa alcoolul in tinctura).
 
-Administrare: Utilizeaza ca apă de clatire
+Administrare: Utilizeaza ca apa de clatire
 
 # Gonoree cronica, leucoree
 
@@ -253,9 +253,9 @@ Administrare: Utilizeaza ca apă de clatire
 
 1 parte Geranium Wild sau Cranesbill (Geranium maculatum)
 
-Mod de preparare: Se infuzeaza în 1 litru de apa clocotita, se acopera bine pana se raceste, se strecoara.
+Mod de preparare: Se infuzeaza in 1 litru de apa clocotita, se acopera bine pana se raceste, se strecoara.
 
-Administrare: Aplica de 2 până la 3 ori pe zi cu o perie din păr de cămilă.
+Administrare: Aplica de 2 pana la 3 ori pe zi cu o perie din par de camila.
 
 # INDIGESTIE
 
@@ -265,92 +265,92 @@ Administrare: Aplica de 2 până la 3 ori pe zi cu o perie din păr de cămilă.
 
 1 parte Cayenne, tinctura (Capsicum frutescens; C. minim)
 
-Mod de preparare: Se amestecă bine ingredientele.
+Mod de preparare: Se amesteca bine ingredientele.
 
-Dozare: 25-30 picături în 3 linguri de apa, de 3 ori pe zi, înainte de mese.
+Dozare: 25-30 picaturi in 3 linguri de apa, de 3 ori pe zi, inainte de mese.
 
-Copii: Cayenne poate fi omis; 5-10 picături în apă îndulcită.
+Copii: Cayenne poate fi omis; 5-10 picaturi in apa indulcita.
 
 # RINICHI
 
 1 parte de gentiana (Hydrastis Canadensis)
 
-1 parte rădăcină de Gravel (Eupatorium purpureum)
+1 parte radacina de Gravel (Eupatorium purpureum)
 
-Mod de preparare: Se amestecă foarte bine. Pune 4 lingurite de amestec de plante aromaticeîntr-o oala cu 1litru de apă clocotită. Fierbe timp de douăzeci de minute. Lasa sa se raceasca. Strecoara.
+Mod de preparare: Se amesteca foarte bine. Pune 4 lingurite de amestec de plante aromaticeintr-o oala cu 1litru de apa clocotita. Fierbe timp de douazeci de minute. Lasa sa se raceasca. Strecoara.
 
 Tonic pentru organele de reproducere
 
 1 parte de aur sigiliu (Hydrastis Canadensis)
 
-1 parte de viță de vie Squaw (Mitchella repens)
+1 parte de vita de vie Squaw (Mitchella repens)
 
-Mod de preparare: se face o infuzie. Se bea după cum este necesar.
+Mod de preparare: se face o infuzie. Se bea dupa cum este necesar.
 
-Nervi spinali și epilepsie
+Nervi spinali si epilepsie
 
 4 parti de gentiana (Hydrastis Canadensis)
 
 3 parti de Hamei (Humulus lupulus)
 
-2 părți Scullcap (Scutellaria lateriflora)
+2 parti Scullcap (Scutellaria lateriflora)
 
-Mod de preparare: ierburile se amestecă împreună și se infuzeaza folosind 1 lingurita deingrediente pentru fiecare ceașcă de apă clocotită sau 56g de plante în 1-1/2 litri deapă clocotită, se acoperă bine până e aproape rece, se strecoara sau se amestecă compusul bine sub formă de pulbere și se pune în \# 0 capsule.
+Mod de preparare: ierburile se amesteca impreuna si se infuzeaza folosind 1 lingurita deingrediente pentru fiecare ceasca de apa clocotita sau 56g de plante in 1-1/2 litri deapa clocotita, se acopera bine pana e aproape rece, se strecoara sau se amesteca compusul bine sub forma de pulbere si se pune in \# 0 capsule.
 
-Dozare: Infuzie: 2 linguri la 60ml de lichid sau mai mult, după caz, de 3 ori pe zi (se ia rece). Capsule: 1-2 capsule (după caz ) la fiecare 2 ore.
+Dozare: Infuzie: 2 linguri la 60ml de lichid sau mai mult, dupa caz, de 3 ori pe zi (se ia rece). Capsule: 1-2 capsule (dupa caz ) la fiecare 2 ore.
 
 # ***PERUVIAN BARK** (Cinchona calisaya; C. ledgerana; C. officinalis; C.*
 *succirubra; RUBIACEAE)*
 
-Arborele de chinină crește în zonele din America de Sud. Din scoarța sa se extrage chinina, un alcaloid care, printre altele, are proprietăți anipiretice, analgezice și antiinflamatorii. În limba incașă, chinină înseamnă „scoarța sfântă”.
+Arborele de chinina creste in zonele din America de Sud. Din scoarta sa se extrage chinina, un alcaloid care, printre altele, are proprietati anipiretice, analgezice si antiinflamatorii. In limba incasa, chinina inseamna „scoarta sfanta”.
 
  Actiune terapeutica:
 
-Coboară temperatura
+Coboara temperatura
 
-Chinina acționează ca un antipiretic, adică scade temperatura corporală. De asemenea, scoarța acestui arbore reprezintă un tonic și un stimulent al sistemului digestiv, de aceea este folosită în medicina naturistă pentru a trata indigestii, tulburări gastrointestinale sau alimentare (lipsa poftei de mâncare).
+Chinina actioneaza ca un antipiretic, adica scade temperatura corporala. De asemenea, scoarta acestui arbore reprezinta un tonic si un stimulent al sistemului digestiv, de aceea este folosita in medicina naturista pentru a trata indigestii, tulburari gastrointestinale sau alimentare (lipsa poftei de mancare).
 
-În anumite zone din sudul Americii, chinina este folosită în medicina populară pentru a vindeca diferite forme de cancer, cum ar fi cel de sân, de ficat, mezenteric sau de splină. Localnicii o folosesc și pentru tratarea răcelilor, a dizenteriei, dispepsiei, diareii, pneumoniei, sciaticii sau venelor varicoase.
+In anumite zone din sudul Americii, chinina este folosita in medicina populara pentru a vindeca diferite forme de cancer, cum ar fi cel de san, de ficat, mezenteric sau de splina. Localnicii o folosesc si pentru tratarea racelilor, a dizenteriei, dispepsiei, diareii, pneumoniei, sciaticii sau venelor varicoase.
 
-Îndepărtează crampele
+Indeparteaza crampele
 
-În medicina naturistă din Europa, scoarța arborelui de chinină se folosește ca antispastic, tonic și antipiretic. De asemenea, este un ingredient folosit în numeroase medicamente naturiste indicate în cazuri de aritmii, anemie, crampe la picioare, dar și în produsele ce acționează împotriva bacteriilor, precum și în anestezice ușoare.
+In medicina naturista din Europa, scoarta arborelui de chinina se foloseste ca antispastic, tonic si antipiretic. De asemenea, este un ingredient folosit in numeroase medicamente naturiste indicate in cazuri de aritmii, anemie, crampe la picioare, dar si in produsele ce actioneaza impotriva bacteriilor, precum si in anestezice usoare.
 
 Eficace contra hemoroizilor
 
-În Statele Unite, scoarța de chinină este folosită ca tonic și ajutor pentru digestie, pentru a stimula apetitul, pentru calmarea palpitațiilor și normalizarea funcțiilor inimii. Este prezentă și în produsele menite să trateze hemoroizii sau venele varicoase.
+In Statele Unite, scoarta de chinina este folosita ca tonic si ajutor pentru digestie, pentru a stimula apetitul, pentru calmarea palpitatiilor si normalizarea functiilor inimii. Este prezenta si in produsele menite sa trateze hemoroizii sau venele varicoase.
 
-Stopează pierderea podoabei capilare
+Stopeaza pierderea podoabei capilare
 
-Extractul din scoarța arborelui de chinină are un rol fortifiant asupra rădăcinii firelor de păr și acționează împotriva căderii părului, îmbunătățind circulația sangvină de la nivelul scalpului. De aceea, în farmacii și în magazinele de cosmetice vei putea găsi șampoane, balsamuri și măști pentru păr pe bază de chinină.
+Extractul din scoarta arborelui de chinina are un rol fortifiant asupra radacinii firelor de par si actioneaza impotriva caderii parului, imbunatatind circulatia sangvina de la nivelul scalpului. De aceea, in farmacii si in magazinele de cosmetice vei putea gasi sampoane, balsamuri si masti pentru par pe baza de chinina.
 
-Toxică, în doze mari
+Toxica, in doze mari
 
-Scoarța de chinină se găsește mai greu în magazinele de produse naturiste din România, însă dacă ai reușit să o procuri trebuie să știi că infuzia se prepară din 1-2 g de plantă, peste care se toarnă o cană cu apă clocotită. Se lasă timp de zece minute, se strecoară și se consumă după ce s-a răcit. Poti bea această licoare cu o jumătate de oră înainte de masă, pentru a stimula apetitul, ori după ce ai mâncat, pentru a preveni problemele cu digestia.
+Scoarta de chinina se gaseste mai greu in magazinele de produse naturiste din Romania, insa daca ai reusit sa o procuri trebuie sa stii ca infuzia se prepara din 1-2 g de planta, peste care se toarna o cana cu apa clocotita. Se lasa timp de zece minute, se strecoara si se consuma dupa ce s-a racit. Poti bea aceasta licoare cu o jumatate de ora inainte de masa, pentru a stimula apetitul, ori dupa ce ai mancat, pentru a preveni problemele cu digestia.
 
-Dacă nu găsesti scoarță de chinină, poti folosi capsule cu chinină, pudră sau alte produse în care este un ingredient principal. Atenție însă la cantitatea de scoarță pe care o folosesti\! În doze mari, poate fi toxică\! De asemenea, este contraindicată gravidelor, deoarece poate duce la pierderea sarcinii.
+Daca nu gasesti scoarta de chinina, poti folosi capsule cu chinina, pudra sau alte produse in care este un ingredient principal. Atentie insa la cantitatea de scoarta pe care o folosesti\! In doze mari, poate fi toxica\! De asemenea, este contraindicata gravidelor, deoarece poate duce la pierderea sarcinii.
 
-Primul medicament împotriva malariei
+Primul medicament impotriva malariei
 
-Chinina a fost primul tratament eficient împotriva malariei și a fost adusă și în Europa, începând cu prima parte a secolului al XVII-lea. Prima dată a fost utilizată la Roma, în anul 1631\. În acele vremuri, malaria era foarte răspândită din cauza numeroaselor mlaștini din jurul orașului, ceea ce făcea ca țânțarii care transmit această boală la om să fie prezenți în număr mare. Din cauza acestei boli, foarte mulți romani, printre care și cardinali sau papi, au murit.
+Chinina a fost primul tratament eficient impotriva malariei si a fost adusa si in Europa, incepand cu prima parte a secolului al XVII-lea. Prima data a fost utilizata la Roma, in anul 1631\. In acele vremuri, malaria era foarte raspandita din cauza numeroaselor mlastini din jurul orasului, ceea ce facea ca tantarii care transmit aceasta boala la om sa fie prezenti in numar mare. Din cauza acestei boli, foarte multi romani, printre care si cardinali sau papi, au murit.
 
-Chinina a jucat un rol important și în colonizarea Africii de europeni. Se spune că ea a fost motivul pentru care Africa a mai încetat să fie „mormântul oamenilor albi”. După ce europenii au avut acces la chinină, care i-a ferit de malaria din Africa, au putut explora noi zone din partea de vest a „continentului negru”.
+Chinina a jucat un rol important si in colonizarea Africii de europeni. Se spune ca ea a fost motivul pentru care Africa a mai incetat sa fie „mormantul oamenilor albi”. Dupa ce europenii au avut acces la chinina, care i-a ferit de malaria din Africa, au putut explora noi zone din partea de vest a „continentului negru”.
 
-\- Indienii din Peru foloseau chinina și pentru a opri tremuratul cauzat de temperaturile scăzute. Peruanii sunt cei care au inventat ceea ce azi numim „apă tonică”, turnând peste scoarța arborelui de chinină apă îndulcită.
+\- Indienii din Peru foloseau chinina si pentru a opri tremuratul cauzat de temperaturile scazute. Peruanii sunt cei care au inventat ceea ce azi numim „apa tonica”, turnand peste scoarta arborelui de chinina apa indulcita.
 
-Cea mai răspândită formă în care se găsește chinina este în apa tonică, acest ingredient fiind responsabil de gustul ușor amărui, răcoritor. Chinina a fost introdusă și în ape de gură sau în praf de curățat dinții, datorită proprietăților sale astringente, ce determină reducerea inflamațiilor și vindecarea rapidă a rănilor din cavitatea bucală.
+Cea mai raspandita forma in care se gaseste chinina este in apa tonica, acest ingredient fiind responsabil de gustul usor amarui, racoritor. Chinina a fost introdusa si in ape de gura sau in praf de curatat dintii, datorita proprietatilor sale astringente, ce determina reducerea inflamatiilor si vindecarea rapida a ranilor din cavitatea bucala.
 
 Infuzie \# 1
 
-14g chinină, tăiata (Cinchona calisaya)
+14g chinina, taiata (Cinchona calisaya)
 
-1 litru de apă rece
+1 litru de apa rece
 
-Pregătire: se pune la macerat coaja,timp 24 de ore, în apă; se strecoara și se păstreaza într-un loc răcoros.
+Pregatire: se pune la macerat coaja,timp 24 de ore, in apa; se strecoara si se pastreaza intr-un loc racoros.
 
 Infuzie \# 2
 
-Se toarnă o ceașcă de apă clocotită peste o lingurita de coaja sau de pulbere ;se tine asa pentru 1/2 oră; se strecoara.
+Se toarna o ceasca de apa clocotita peste o lingurita de coaja sau de pulbere ;se tine asa pentru 1/2 ora; se strecoara.
 
 Guturai (prizat)
 
@@ -358,17 +358,17 @@ Guturai (prizat)
 
 56g pulbere de Blood Root (Sanguinaria canadensis)
 
-14g Bayberry, pulbere de rădăcină (Myrica cerifera)
+14g Bayberry, pulbere de radacina (Myrica cerifera)
 
 14g frunze de zmeura, pulbere (Rubus idaeus)
 
-Mod de preparare: Se macină aceste pulberi foarte fin într-un mojar și se cern bine.
+Mod de preparare: Se macina aceste pulberi foarte fin intr-un mojar si se cern bine.
 
 Dozare: Foloseste un pic, cat este necesar, ca pe tutun.
 
 Tonic pentru febra(tinctura)
 
-56g chinină (Cinchona calisaya)
+56g chinina (Cinchona calisaya)
 
 28g coaja de cires salbatic (Prunus: Europa)
 
@@ -378,9 +378,9 @@ Tonic pentru febra(tinctura)
 
 450 ml Brandy
 
-Mod de preparare: se lasa la macerat ierburile timp deo săptămână (se agita de cel puțin 2 până la 3 ori pe zi); se strecoara și se pune in sticlă.
+Mod de preparare: se lasa la macerat ierburile timp deo saptamana (se agita de cel putin 2 pana la 3 ori pe zi); se strecoara si se pune in sticla.
 
-Dozare: 56ml de lichid la fiecare 2- 3 ore până când febra dispare, apoi de 2 pana la 3 ori pe zi.
+Dozare: 56ml de lichid la fiecare 2- 3 ore pana cand febra dispare, apoi de 2 pana la 3 ori pe zi.
 
 # Plopul (Populus tremuloides; SALICACEAE)
 
@@ -402,21 +402,21 @@ Uz extern:
 
 # Isterie
 
-14g scoarță de plop alb (Populus tremuloides)
+14g scoarta de plop alb (Populus tremuloides)
 
 14gfrunze de zmeura (Rubus idaeus)
 
 14gBalmony (Chelone glabra)
 
-4 g rădăcină de Calumba (Jateorhiza palmata)
+4 g radacina de Calumba (Jateorhiza palmata)
 
 7g Cayenne (Capsicum frutescens; C. minim)
 
-Mod de preparare: Se fierb primele patru ingrediente ale compusului în 1 litru de apa, se strecoara peste Cayenne și se raceste.
+Mod de preparare: Se fierb primele patru ingrediente ale compusului in 1 litru de apa, se strecoara peste Cayenne si se raceste.
 
 Dozare: 2-3 linguri, de 3-4 ori pe zi.
 
-Bitter (icter, indigestie, flatulență, slabiciune generala)
+Bitter (icter, indigestie, flatulenta, slabiciune generala)
 
 56 g coaja de plop alb (Populus tremuloides)
 
@@ -428,8 +428,8 @@ Bitter (icter, indigestie, flatulență, slabiciune generala)
 
 7g Cayenne, pulbere (Capsicum frutescens; C. minim)
 
-7g cuișoare (Syzygium aromaticum praf, Eugenia aromatica)
+7g cuisoare (Syzygium aromaticum praf, Eugenia aromatica)
 
-Mod de preparare: Se amestecă bine, se ia 1 lingurita din amestec și se dizolvă în 1 ceașcă de apă fierbinte, se îndulceste.
+Mod de preparare: Se amesteca bine, se ia 1 lingurita din amestec si se dizolva in 1 ceasca de apa fierbinte, se indulceste.
 
-Dozare: 1 ceasca plina, de 3 până la 4 ori pe zi.
+Dozare: 1 ceasca plina, de 3 pana la 4 ori pe zi.

@@ -1,108 +1,108 @@
-# LECȚIA ZECE
+# LECTIA ZECE
 
 ## Completari
 
-În lecția finală vreau să luam în considerare un număr de subiecte mici, in completarea acestui curs de fitoterapie.
+In lectia finala vreau sa luam in considerare un numar de subiecte mici, in completarea acestui curs de fitoterapie.
 
-“Păstreaza simplitatea” Acest lucru a fost motto-ul meu în timpul acestui curs. Acesta este cultul expertului. Aceasta este atitudinea prin care subiectul isi va pastra misticul, practicienii trebuie să fie văzuti ca experți, singurii care pot stapani instrumentele și informațiile.
+“Pastreaza simplitatea” Acest lucru a fost motto-ul meu in timpul acestui curs. Acesta este cultul expertului. Aceasta este atitudinea prin care subiectul isi va pastra misticul, practicienii trebuie sa fie vazuti ca experti, singurii care pot stapani instrumentele si informatiile.
 
-Vei vedea această atitudine peste tot, dar mai ales în medicina naturistă. De exemplu, în homeopatie a existat o modă, în special în Europa, de a practica ceea ce este cunoscut sub numele de Homeopatie Complexa.
+Vei vedea aceasta atitudine peste tot, dar mai ales in medicina naturista. De exemplu, in homeopatie a existat o moda, in special in Europa, de a practica ceea ce este cunoscut sub numele de Homeopatie Complexa.
 
-Prin aceasta, mai degrabă decât sa foloseasa singura cale de atac indicata, pe care Hahnemann ne-a învățat, oamenii folosesc amestecuri sau remedii complexe.Sugestia este ca aceste combinații sa acționeze într-o manieră mult mai subtilă și eficientă. Pentru a ajuta practicantul, a fost elaborata o serie întreagă de teste de diagnostic, multe dintre ele în funcție de metode radiestetice sau bioenergetice.Problema cu aceasta abordare este, cred eu, că ea complică lucrurile dincolo de convingeri. Într-adevăr, în cazul în care munca intelectuala a fost făcuta în mod corespunzător, atunci singura cale de atac ar trebui să fie evidenta.
+Prin aceasta, mai degraba decat sa foloseasa singura cale de atac indicata, pe care Hahnemann ne-a invatat, oamenii folosesc amestecuri sau remedii complexe.Sugestia este ca aceste combinatii sa actioneze intr-o maniera mult mai subtila si eficienta. Pentru a ajuta practicantul, a fost elaborata o serie intreaga de teste de diagnostic, multe dintre ele in functie de metode radiestetice sau bioenergetice.Problema cu aceasta abordare este, cred eu, ca ea complica lucrurile dincolo de convingeri. Intr-adevar, in cazul in care munca intelectuala a fost facuta in mod corespunzator, atunci singura cale de atac ar trebui sa fie evidenta.
 
-Același lucru se întâmplă în Herbalism. Unii folosesc fără rușine amestecuri complexe-prescriptii \- de plante. Din nou, se spune că ele sunt alese pentru a se spori una pe alta sau pentru a se compensa una pentru alta. Sfatul meu este sa păstrezi întotdeauna simplitatea. Aminteste-ti că ierburile in sine sunt destul de complicate. Ele sunt organisme dinamice. Odată ce ai începe să utiliezi complexuri, pierzi controlul. Aminteste-ti că sensul original al cuvantului „simplu” a fost un remediu.
+Acelasi lucru se intampla in Herbalism. Unii folosesc fara rusine amestecuri complexe-prescriptii \- de plante. Din nou, se spune ca ele sunt alese pentru a se spori una pe alta sau pentru a se compensa una pentru alta. Sfatul meu este sa pastrezi intotdeauna simplitatea. Aminteste-ti ca ierburile in sine sunt destul de complicate. Ele sunt organisme dinamice. Odata ce ai incepe sa utiliezi complexuri, pierzi controlul. Aminteste-ti ca sensul original al cuvantului „simplu” a fost un remediu.
 
 ## Bai de plante
 
-Baia este un loc extrem de bun pentru utilizarea plantelor. Nu trebuie ca o planta să fie luata doar pe plan intern sau aplicata pe suprafața pielii ca o cataplasmă. Adăugarea unei plante la baie, la fel ca si in cazul uleiurilor esențiale aromoterapeutice, este un beneficiu pentru tratarea mai multor boli.
+Baia este un loc extrem de bun pentru utilizarea plantelor. Nu trebuie ca o planta sa fie luata doar pe plan intern sau aplicata pe suprafata pielii ca o cataplasma. Adaugarea unei plante la baie, la fel ca si in cazul uleiurilor esentiale aromoterapeutice, este un beneficiu pentru tratarea mai multor boli.
 
-Trebuie să fim precauti cu alergiile, asa ca tamponeaza întotdeauna un pic din soluția de plante medicinale pe o suprafață mică de piele și las-o să se usuce. Poti folosi fie aceste plante în băi obișnuite sau în bai de sezut. Temperatura din baie ar trebui să fie medie, și nu fierbinte.
+Trebuie sa fim precauti cu alergiile, asa ca tamponeaza intotdeauna un pic din solutia de plante medicinale pe o suprafata mica de piele si las-o sa se usuce. Poti folosi fie aceste plante in bai obisnuite sau in bai de sezut. Temperatura din baie ar trebui sa fie medie, si nu fierbinte.
 
-O baie de sezut este o baie folosita pentru tot felul de probleme pelvine si abdominale, precum și pentru disconfortul cauzat de bolile comune artritice. Aceasta inseamna o baie in care se sta în poziție verticală în apă până la talie. Picioarele, cu toate acestea, sunt plasate într-o găleată sau bazin cu apă călduță sau rece. Poti cu ușurință sa improvizezi băi de acest fel.
+O baie de sezut este o baie folosita pentru tot felul de probleme pelvine si abdominale, precum si pentru disconfortul cauzat de bolile comune artritice. Aceasta inseamna o baie in care se sta in pozitie verticala in apa pana la talie. Picioarele, cu toate acestea, sunt plasate intr-o galeata sau bazin cu apa calduta sau rece. Poti cu usurinta sa improvizezi bai de acest fel.
 
-Baile de sezut ar trebui să fie facute cu regularitate pe tot parcursul bolii (daca acestea sunt indicate) începând de la doar două sau trei minute în prima zi și până la un maxim de zece minute. Cei predispusi la probleme particulare, două sau trei băi de șezut scurte, de o săptămână, pot fi foarte benefice.
+Baile de sezut ar trebui sa fie facute cu regularitate pe tot parcursul bolii (daca acestea sunt indicate) incepand de la doar doua sau trei minute in prima zi si pana la un maxim de zece minute. Cei predispusi la probleme particulare, doua sau trei bai de sezut scurte, de o saptamana, pot fi foarte benefice.
 
-Plantele pot fi adăugate fie direct in baie sau înfășurate într-o pungă de muselină și cufundate în partea fierbinte a cazii. În general, un pumn de planta va fi suficient. Alternativ, în cazul în care planta este disponibila sub formă de punguta de ceai, una sau două pungi de ceai pot fi scufundate în cada.
+Plantele pot fi adaugate fie direct in baie sau infasurate intr-o punga de muselina si cufundate in partea fierbinte a cazii. In general, un pumn de planta va fi suficient. Alternativ, in cazul in care planta este disponibila sub forma de punguta de ceai, una sau doua pungi de ceai pot fi scufundate in cada.
 
 ### Anxietate
-Musetelul, valeriana sau scutellaria într-o baie de sezut, de trei ori pe săptămâna.
+Musetelul, valeriana sau scutellaria intr-o baie de sezut, de trei ori pe saptamana.
 
-### Artrită
-O baie de sezut este foarte utila pentru multe tipuri de dureri artritice. Dacă se face o baie cu urzica, efectul corectiv al baii este crescut.
+### Artrita
+O baie de sezut este foarte utila pentru multe tipuri de dureri artritice. Daca se face o baie cu urzica, efectul corectiv al baii este crescut.
 
-### Astm bronșic, bronșită și catar
-O baie de sezut care conține iarba mare, de două ori sau de trei ori pe săptămână, este de multe ori benefică în ameliorarea unei boli pulmonare, precum și in facilitarea unui catar supărător.
+### Astm bronsic, bronsita si catar
+O baie de sezut care contine iarba mare, de doua ori sau de trei ori pe saptamana, este de multe ori benefica in ameliorarea unei boli pulmonare, precum si in facilitarea unui catar suparator.
 
-### Constipație
-O baie de sezut de două ori pe săptămână, care conține o planta, cum ar fi fenicul, păpădie sau musetel în partea fierbinte a cazii, va stimula adesea un intestin lent.
+### Constipatie
+O baie de sezut de doua ori pe saptamana, care contine o planta, cum ar fi fenicul, papadie sau musetel in partea fierbinte a cazii, va stimula adesea un intestin lent.
 
-### Cistite și infecții ale căilor urinare
-O baie de sezut ce conține mușețel sau lavandă poate atenua cistita sau reduce tendința de a dezvolta astfel de infecții.
+### Cistite si infectii ale cailor urinare
+O baie de sezut ce contine musetel sau lavanda poate atenua cistita sau reduce tendinta de a dezvolta astfel de infectii.
 
 ### Sindromul de colon iritabil
 Acesta raspunde bine la musetel si oricare dintre baile fierbinti de sezut.
 
 ### Depresie
-Baia de sezut conține un decoct de rădăcină de gențiană, de trei ori pe săptămână si poate ajuta depresia usoara.
+Baia de sezut contine un decoct de radacina de gentiana, de trei ori pe saptamana si poate ajuta depresia usoara.
 
 ### Hemoroizi
-Baie de sezut cu hammamelis de două sau de trei ori pe săptămână.
+Baie de sezut cu hammamelis de doua sau de trei ori pe saptamana.
 
 ### Bufeuri
-Poate fi de ajutor o baie rece de sezut prin adăugarea unei plante de răcire, de trei ori pe săptămână. O baie de sezut rece este constituita dintr-un loc răcoros in baia principală și o baie de picioare fierbinte.
+Poate fi de ajutor o baie rece de sezut prin adaugarea unei plante de racire, de trei ori pe saptamana. O baie de sezut rece este constituita dintr-un loc racoros in baia principala si o baie de picioare fierbinte.
 
-### Mâncărime
-Acest lucru poate fi ajutat de o baie rece de sezut și adăugarea de urizici, de trei ori pe săptămână.
+### Mancarime
+Acest lucru poate fi ajutat de o baie rece de sezut si adaugarea de urizici, de trei ori pe saptamana.
 
 ### Dureri in timpul menstruatiei
-Musetel, menta și frunze de zmeura intr-o baie de sezut.
+Musetel, menta si frunze de zmeura intr-o baie de sezut.
 
 ### Probleme ale pielii
-O baie călduță care conține ovăz va calma eczemele și psoriazisul.
+O baie calduta care contine ovaz va calma eczemele si psoriazisul.
 
 ### Tremor
-Există mai multe cauze ale tremorului, din tremor congenital, la tireotoxicoză si boala Parkinson. Un aviz medical este important .
+Exista mai multe cauze ale tremorului, din tremor congenital, la tireotoxicoza si boala Parkinson. Un aviz medical este important .
 
-O baie de sezut care conține sunătoare (Hypericum), coada soricelului sau cimbru poate ajuta la toate. Modalitățile de mai sus de a face aceste bai de sezut sunt un mod bun de a invata cum sa utilizezi plantele. Ele vor produce efecte destul de ușoare. În cazul în care e nevoie de un efect mai mare, foloseste 100 de grame de planta uscata sau de trei ori mai mult la un galon de apa rece. Lasa timp de 12 ore, apoi se incalzeste înainte de a strecura. Adauga infuzia la baia de sezut.
+O baie de sezut care contine sunatoare (Hypericum), coada soricelului sau cimbru poate ajuta la toate. Modalitatile de mai sus de a face aceste bai de sezut sunt un mod bun de a invata cum sa utilizezi plantele. Ele vor produce efecte destul de usoare. In cazul in care e nevoie de un efect mai mare, foloseste 100 de grame de planta uscata sau de trei ori mai mult la un galon de apa rece. Lasa timp de 12 ore, apoi se incalzeste inainte de a strecura. Adauga infuzia la baia de sezut.
 
-## Plante de bucătărie și de interior
+## Plante de bucatarie si de interior
 
-Dacă esti gradinar, atunci ai probabil deja mai multe plante pe care le cresti in gradina. Mulți oameni nu doresc sau nu sunt în măsură să aibă o gradina în aer liber. Poti găsi cultivarea proriilor plante de interior un lucru plăcut și benefic.
+Daca esti gradinar, atunci ai probabil deja mai multe plante pe care le cresti in gradina. Multi oameni nu doresc sau nu sunt in masura sa aiba o gradina in aer liber. Poti gasi cultivarea proriilor plante de interior un lucru placut si benefic.
 
-Reține următoarele aspecte: \- 1\. Plantele prefera sudul sau sud-estul
+Retine urmatoarele aspecte: \- 1\. Plantele prefera sudul sau sud-estul
 
- 2\. Lor le place o temperatură de 10-13 ° C.
+ 2\. Lor le place o temperatura de 10-13 ° C.
 
- 3\. Ele au nevoie de aer curat pentru o oră sau două pe zi, cu excepția zilelor in care este frig.
+ 3\. Ele au nevoie de aer curat pentru o ora sau doua pe zi, cu exceptia zilelor in care este frig.
 
-4\. Ele au nevoie de hrana la fiecare șase săptămâni. Aceasta e parțial din ceai rece, pe bază de plante sau indian\!
+4\. Ele au nevoie de hrana la fiecare sase saptamani. Aceasta e partial din ceai rece, pe baza de plante sau indian\!
 
-5\. Afidele pot fi o problemă atât în interior cât și în aer liber. Nu utiliza insecticid. Unii detergenti pulverizati pe ele la fiecare câteva săptămâni ar trebui să fie suficienti.
+5\. Afidele pot fi o problema atat in interior cat si in aer liber. Nu utiliza insecticid. Unii detergenti pulverizati pe ele la fiecare cateva saptamani ar trebui sa fie suficienti.
 
- 6\. Plantelor le place sa fie aproape de alte plante medicinale. Ai posibilitatea să le amesteci destul de strâns.
+ 6\. Plantelor le place sa fie aproape de alte plante medicinale. Ai posibilitatea sa le amesteci destul de strans.
 
-7\. Plantelor aromatice nu le place fumul de tutun. Acestea se pot curba în sus și pot muri, dacă sunt tinute unde se fumeaza.
+7\. Plantelor aromatice nu le place fumul de tutun. Acestea se pot curba in sus si pot muri, daca sunt tinute unde se fumeaza.
 
 8\. Ele simt oamenii si pot stabili un raport\! Nu fii
 
-jenat să vorbesti cu ele și să le cânti. Mangaie-le frunzele și fa-le sa se simta dorite.
+jenat sa vorbesti cu ele si sa le canti. Mangaie-le frunzele si fa-le sa se simta dorite.
 
-9\. Pentru că ele pot trăi în armonie cu oamenii, încerca să utilizezi diferite plante pentru camere diferite. De exemplu, anasonul în dormitor va da un apetit bun, sănătos, dimineața. Lavanda în baie va ajuta să te relaxezi atunci când te speli. Fii creativ, atent \- Ce proprietati ale plantelor le face potrivite pentru ce cameră?
+9\. Pentru ca ele pot trai in armonie cu oamenii, incerca sa utilizezi diferite plante pentru camere diferite. De exemplu, anasonul in dormitor va da un apetit bun, sanatos, dimineata. Lavanda in baie va ajuta sa te relaxezi atunci cand te speli. Fii creativ, atent \- Ce proprietati ale plantelor le face potrivite pentru ce camera?
 
-Urmatoarele plante vor imparti fericite casa cu tine: \- Anason (Pimpinella anisum) Acesta este un stimulent digestiv excelent, atunci când sunt luate semințele. Acesta este plăcută , de asemenea, ca infuzie.
+Urmatoarele plante vor imparti fericite casa cu tine: \- Anason (Pimpinella anisum) Acesta este un stimulent digestiv excelent, atunci cand sunt luate semintele. Acesta este placuta , de asemenea, ca infuzie.
 
-Busuioc (Ocimum basilicum) Aceasta este o planta pe care nu o deranjeaza căldura din bucătărie\! Ea înflorește într-o bucătărie fierbinte. Completează orice fel de mancare de tomate aromata.
+Busuioc (Ocimum basilicum) Aceasta este o planta pe care nu o deranjeaza caldura din bucatarie\! Ea infloreste intr-o bucatarie fierbinte. Completeaza orice fel de mancare de tomate aromata.
 
-Foloseste parfumul plantelor prin casa: În vremurile de demult atunci când casele nu erau atât de bine ventilate și oamenii erau mai puțin conștienți de necesitatea unei igiene bune, acestia foloseau plantele pentru a improspata locuintele. Cel mai simplu mod de a face acest lucru a fost pur și simplu sa aștearna pe podea diverse ierburi. Acest lucru nu ar fi foarte practic astazi, asa ca se pot face compromisuri, cum ar fi cutiile cu plante uscate, pernele de plante medicinale.
+Foloseste parfumul plantelor prin casa: In vremurile de demult atunci cand casele nu erau atat de bine ventilate si oamenii erau mai putin constienti de necesitatea unei igiene bune, acestia foloseau plantele pentru a improspata locuintele. Cel mai simplu mod de a face acest lucru a fost pur si simplu sa astearna pe podea diverse ierburi. Acest lucru nu ar fi foarte practic astazi, asa ca se pot face compromisuri, cum ar fi cutiile cu plante uscate, pernele de plante medicinale.
 
-Cutii cu plante uscate :Plantele uscate, combinate cu un fixator mic va face ca o cutie de acest fel sa dureze pentru o lungă perioadă de timp.
+Cutii cu plante uscate :Plantele uscate, combinate cu un fixator mic va face ca o cutie de acest fel sa dureze pentru o lunga perioada de timp.
 
-Măsoara plantele cu mâna. Făcand în acest fel, vei obține un simt important pentru plante.
+Masoara plantele cu mana. Facand in acest fel, vei obtine un simt important pentru plante.
 
-Încearca această formula de bază din urmatoarele: 3 pumni de petale de trandafir uscate, 3 pumni de frunze de mușcată uscate, 3 pumni de rozmarin uscate , 3 pumni de lavanda uscate. Acestea dau mirosul general. Apoi se adaugă condimente mai exotice pentru a da picanterie: 2 linguri de cuișoare pisate 2 linguri de scorțișoară măcinata 2 linguri de ienibahar
+Incearca aceasta formula de baza din urmatoarele: 3 pumni de petale de trandafir uscate, 3 pumni de frunze de muscata uscate, 3 pumni de rozmarin uscate , 3 pumni de lavanda uscate. Acestea dau mirosul general. Apoi se adauga condimente mai exotice pentru a da picanterie: 2 linguri de cuisoare pisate 2 linguri de scortisoara macinata 2 linguri de ienibahar
 
- Câteva picături de ulei esențial la alegerea ta, de exemplu lemn de santal Apoi se adaugă fixativ care constă in: 3 linguri de orrisroot și 3 linguri de guma Benzoin sau pulbere de obligeana
+ Cateva picaturi de ulei esential la alegerea ta, de exemplu lemn de santal Apoi se adauga fixativ care consta in: 3 linguri de orrisroot si 3 linguri de guma Benzoin sau pulbere de obligeana
 
-Pur și simplu amesteca plantele și pune-le într-un recipient corespunzător. Apoi pulverizeaza fixativul.
+Pur si simplu amesteca plantele si pune-le intr-un recipient corespunzator. Apoi pulverizeaza fixativul.
 
-Borcane cu plante si perne din plante medicinale O altă metodă este sa obtii un borcan mare și să renunți la plantele semi-uscate. Formeaza un strat de o jumătate de centimetru în profunzime, apoi presara cu sare. Comprima și lasa asa timp de câteva zile. Apoi se adaugă un alt strat de o jumatate de centimetru (de plante diferite) și un alt strat de sare. După câteva zile se amestecă straturile de sus și se comprima din nou înainte de a adăuga un alt strat de ierburi și de a le stropi cu sare. Straturile sunt amestecate ori de câte ori urmează să fie adăugat unul nou. Atunci când vasul este plin ar trebui să fie lăsat într-un spatiu întunecat și racoros timp de două sau trei săptămâni. Acest lucru poate fi apoi utilizat ca o cutie cu ierburi uscate sau lasat ca atare. Alternativ, continutul poate fi utilizat într-o pernă cu plante. Pentru aceasta e nevoie doar de o perna care se umple cu plante uscate. Poti face perne de plante care ar putea ajuta somnul, vindecarea guturaiului, etc .
+Borcane cu plante si perne din plante medicinale O alta metoda este sa obtii un borcan mare si sa renunti la plantele semi-uscate. Formeaza un strat de o jumatate de centimetru in profunzime, apoi presara cu sare. Comprima si lasa asa timp de cateva zile. Apoi se adauga un alt strat de o jumatate de centimetru (de plante diferite) si un alt strat de sare. Dupa cateva zile se amesteca straturile de sus si se comprima din nou inainte de a adauga un alt strat de ierburi si de a le stropi cu sare. Straturile sunt amestecate ori de cate ori urmeaza sa fie adaugat unul nou. Atunci cand vasul este plin ar trebui sa fie lasat intr-un spatiu intunecat si racoros timp de doua sau trei saptamani. Acest lucru poate fi apoi utilizat ca o cutie cu ierburi uscate sau lasat ca atare. Alternativ, continutul poate fi utilizat intr-o perna cu plante. Pentru aceasta e nevoie doar de o perna care se umple cu plante uscate. Poti face perne de plante care ar putea ajuta somnul, vindecarea guturaiului, etc .

@@ -1,5 +1,5 @@
-# Unguent pentru răni și eczeme
+# Unguent pentru rani si eczeme
 
 Ingrediente:
-flori de Gălbenele, rădăcină de Șofran Indian, propolis, vaselină medicinală.
+flori de Galbenele, radacina de Sofran Indian, propolis, vaselina medicinala.
 

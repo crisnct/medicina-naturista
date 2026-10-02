@@ -6,7 +6,7 @@ Ceai de paducel
 Ceai verde
 urzici, ceapa, usturoi
 Detoxifierea sangelui
-lămâie, usturoi, ceapă, morcovi, țelină, pătrunjel, lucernă, soia.
+lamaie, usturoi, ceapa, morcovi, telina, patrunjel, lucerna, soia.
 
 ## Reteta mamaliga perfecta - de la master chef Scarlatescu
 
@@ -91,16 +91,16 @@ Parfum rollon albastru
 - verbina - 5pic
 
 Ulei antifungic
-- ulei esențial de Tea tree - 5ml
-- ulei esențial de Salvie - 5ml
-- ulei esențial de Helichrysum - 3ml
-- ulei esențial de Oregano - 10 picaturi
+- ulei esential de Tea tree - 5ml
+- ulei esential de Salvie - 5ml
+- ulei esential de Helichrysum - 3ml
+- ulei esential de Oregano - 10 picaturi
 - ulei de Ricin - 100ml
 
-- ulei esențial de Tea tree - 1,8ml= 36pic
-- ulei esențial de Salvie - 1,8ml= 36pic
-- ulei esențial de Helichrysum - 1ml= 20pic
-- ulei esențial de Oregano - 4 picaturi
+- ulei esential de Tea tree - 1,8ml= 36pic
+- ulei esential de Salvie - 1,8ml= 36pic
+- ulei esential de Helichrysum - 1ml= 20pic
+- ulei esential de Oregano - 4 picaturi
 - ulei de Ricin - 36ml
 
 ## Antifungic: Helichrysum, Citronella, Salvie, Patchouli, Myrrh, Bay Leaf, Cinnamon, Ghimbir, Lemon, Marjoram, Cajeput, Dill Seed
@@ -233,33 +233,33 @@ Taninuri
 - ulei de morcov - 30g
 - ulei esential de Portocale Dulci - 5ml
 
-- accelerează bronzarea.
-- protejează pielea împotriva arsurilor solare.
-- hidratează și hrănește intens pielea.
-- protecție ridicată împotriva razelor UV.
-- stimulează producția de colagen.
-- eficient împotriva vergeturilor.
-- încetinește îmbătrânirea pielii.
-- vindecarea rapidă a rănilor.
+- accelereaza bronzarea.
+- protejeaza pielea impotriva arsurilor solare.
+- hidrateaza si hraneste intens pielea.
+- protectie ridicata impotriva razelor UV.
+- stimuleaza productia de colagen.
+- eficient impotriva vergeturilor.
+- incetineste imbatranirea pielii.
+- vindecarea rapida a ranilor.
 - antiinflamator.
 - antibacterian.
 
 ## Uleiuri esentiale care nu sunt fotosensibilizante:
 - Cistus
 - Ylang-ylang
-- Lavandă
-- Mentă
+- Lavanda
+- Menta
 - Neroli
 - Patchouli
-- Tămâie
+- Tamaie
 - Rozmarin
 - Tei
-- Portocală dulce
+- Portocala dulce
 - Eucalipt
 - Geraniu
 - Lemongrass
-- Mandarină
-- Bergamotă
+- Mandarina
+- Bergamota
 
 ## Reparare smalt dinti
 
@@ -300,7 +300,7 @@ Taninuri
 ## Solutie pentru parul meu:
 - Apa - 200ml
 - Sare Epsom - o lingurita
-- Sare de mare fină - 1/2 lingurita
+- Sare de mare fina - 1/2 lingurita
 - Panthenol lichid - 1ml
 - Gel de aloe vera - 1/2 lingurita
 - Ulei de jojoba - 1/4 lingurita
@@ -571,18 +571,18 @@ Unul dintre motivele pentru care e bine sa incerci cat mai multe lucruri in viat
 - Probiotic Linex Forte: 2 capsule
 - Probiotic Lacium: 2 capsule
 - Probiotic Enterolactis Duo: 3 plicuri
-- Inulină: 2 linguri
-- Zahăr brun: o jumătate de lingură
+- Inulina: 2 linguri
+- Zahar brun: o jumatate de lingura
 La temperatura de 35 grade timp de 30 ore.
 
 ## Iaurt Reuteri
 - Protectis ulei(5 ml) sau Protectis capsule(praful din 15 capsule)
-- Lapte bio 3.5% grăsime - 1 litru
-- Smântână bio 15% - 900 g
-- Inulină - 2 linguri
-Se ține la temperatura de 37 grade timp de 36 ore.
+- Lapte bio 3.5% grasime - 1 litru
+- Smantana bio 15% - 900 g
+- Inulina - 2 linguri
+Se tine la temperatura de 37 grade timp de 36 ore.
 
-Uneori îmi fac și o băutură pe bază de curmale: pun într-o sticlă circa 500ml apa și 4 curmale tăiate în bucăți mici. Las la fermentat la loc întunecos circa 5 zile, apoi strecor și beau. E foarte bună la gust.
+Uneori imi fac si o bautura pe baza de curmale: pun intr-o sticla circa 500ml apa si 4 curmale taiate in bucati mici. Las la fermentat la loc intunecos circa 5 zile, apoi strecor si beau. E foarte buna la gust.
 
 ## Energizant
 
@@ -642,7 +642,7 @@ Antimicotice, antifungice:
 - Lizina - 500mg
 - Vitamina C - 1500mg
 - Zinc - 25mg
-- Curcumin - o capsulă
+- Curcumin - o capsula
 - Ginseng - un comprimat
 - Gingko biloba - un comprimat
 - Alive - un comprimat
@@ -688,8 +688,8 @@ Se pune apa la fiert impreuna cu florile de coada soricelului, scortisoara, busu
 	- superficiale - care afecteaza doar pielea si parul. De exemplu: tinea versicolor
 	- cutanate - micozele produse de fungi ce patrund adanc in epiderma si in unghii. De exemplu: tinea pedis, tinea capitis si unguium tinea.
 	- subcutanate - micozele produse de fungi saprofiti din sol ce patrund adanc in derma si muschi. Pot fi contactate prin piercing.
-	- sistemice datorate agenților patogeni primari - micoze ce afecteaza organele, in special plamanii.
-	- sistemice datorate agenților patogeni oportunisti - micoze care afecteaza persoanele cu sistemul imunitar compromis, pe cele care iau antibiotice si pe cele care au cancer. Exemplu: candida, criptococoza(boala criptococica), aspergiloza.
+	- sistemice datorate agentilor patogeni primari - micoze ce afecteaza organele, in special plamanii.
+	- sistemice datorate agentilor patogeni oportunisti - micoze care afecteaza persoanele cu sistemul imunitar compromis, pe cele care iau antibiotice si pe cele care au cancer. Exemplu: candida, criptococoza(boala criptococica), aspergiloza.
 
 - Bacteriile in general pot distruge fungii
 
@@ -699,10 +699,10 @@ ptr volum sperma si crestere testosteron
 ## Cisteina
 ptr imunitate
 
-## Treonină
+## Treonina
 ptr imunitate
 
-## Glutamină
+## Glutamina
 detoxifiant
 
 ## L-Tirozina
@@ -711,19 +711,19 @@ ptr glandele suprarenale, tiroida, glanda pituitara
 ## Arginina
 ptr imunitate, creste cantitatea de sperma, creste testosteronul
 
-## Izoleucină
+## Izoleucina
 creste rezistenta la efort prelungit
 
 ## Serine
 anxietate
 
-## Prolină
+## Prolina
 pt colagen
 
 ## Acid glutamic, Acid aspartic
 invatare si memorie
 
-## Metionină
+## Metionina
 ajuta la sinteza fosfolipidelor iar astea ajuta la detoxifierea ficatului
 
 ## Despre virusuri
@@ -731,7 +731,7 @@ Precum atunci cand ai un virus de gripa in tine, te ajuta foarte mult caldura sa
 
 Poti locui singur, si sa nu fii singur. Poti locui cu cineva si sa te simti singur. Eu nu ma simt singur, si niciodata nu m-am simtit asa de cand sunt in Cluj. Oamenii-s asa de minunati aici. Nu exista padure fara uscaturi dar uscaturile de aici nu imi fac asa mult rau precum cele din alte orase in care am mai locuit.
 
-Virusurile din prezent au nevoie de a pătrunde în celule pentru a se multiplica. Oare bărbatul este un virus? Pentru că și el are nevoie de o femeie pentru a se multiplica.
+Virusurile din prezent au nevoie de a patrunde in celule pentru a se multiplica. Oare barbatul este un virus? Pentru ca si el are nevoie de o femeie pentru a se multiplica.
 
 Lucuri interesante despre virusuri
 
@@ -744,7 +744,7 @@ Lucuri interesante despre virusuri
 Virusul iti infecteaza alveolele pulmonare, care nu-ti vor mai oxigena asa bine sangele. Apar inflamatii la nivelul plamanilor si dificultati de respiratie.
 - 8% din genomul uman provine din virusuri.
 - Exista virusuri numiti bacteriofagi care infesteaza doar bacteriile si le distrug.
-- Există virusuri numiti virofagi care infectează doar alte virusuri, in special virusurile gigantice.
+- Exista virusuri numiti virofagi care infecteaza doar alte virusuri, in special virusurile gigantice.
 
 Referinte:
 

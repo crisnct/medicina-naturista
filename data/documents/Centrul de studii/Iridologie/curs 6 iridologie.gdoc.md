@@ -1,48 +1,48 @@
-## LECȚIA 6 – Mai multe semne ale irisului
+## LECTIA 6 – Mai multe semne ale irisului
 
-Să continuăm turul principalelor semne ale irisului.
+Sa continuam turul principalelor semne ale irisului.
 
 ## LACUNELE
 
-Lacunele sunt, probabil, cel mai des intalnite semne ale irisului. Ele sunt fibre inflamate care le dau impresia iridologilor că privesc într-o groapă.
+Lacunele sunt, probabil, cel mai des intalnite semne ale irisului. Ele sunt fibre inflamate care le dau impresia iridologilor ca privesc intr-o groapa.
 
-Lacuna indică un punct în care funcția este slăbită. Acest lucru poate fi moștenit sau dobândit prin stres într-un anumit fel.
+Lacuna indica un punct in care functia este slabita. Acest lucru poate fi mostenit sau dobandit prin stres intr-un anumit fel.
 
-Slăbiciunea provocată poate face ca aceea zona sa fie o țintă atunci când apare boala. La nivelul țesuturilor, lacunele sunt reprezentative țesutului conjunctiv al organelor.
+Slabiciunea provocata poate face ca aceea zona sa fie o tinta atunci cand apare boala. La nivelul tesuturilor, lacunele sunt reprezentative tesutului conjunctiv al organelor.
 
-Lacuna poate avea oricare dintre culorile deja menționate (inclusiv culoarea obișnuită a irisului), indicând diferitele etape ale bolii. Atunci când acestea devin negre arată precum găuri în țesutul irisului.
+Lacuna poate avea oricare dintre culorile deja mentionate (inclusiv culoarea obisnuita a irisului), indicand diferitele etape ale bolii. Atunci cand acestea devin negre arata precum gauri in tesutul irisului.
 
-	Există mai multe tipuri diferite de lacune :
+	Exista mai multe tipuri diferite de lacune :
 
 ## Lacuna Sparanghel
 
-Gândeste-te la aceasta ca având forma de capete de sparanghel. Acestea pot fi găsite în zonele de ovar sau testicul. Aceasta este considerată a fi un semn precanceros, deci atenția trebuie să fie sigur îndreptată spre partea corespunzătoare a corpului.
+Gandeste-te la aceasta ca avand forma de capete de sparanghel. Acestea pot fi gasite in zonele de ovar sau testicul. Aceasta este considerata a fi un semn precanceros, deci atentia trebuie sa fie sigur indreptata spre partea corespunzatoare a corpului.
 
-Ele pot apărea, de asemenea, în zona de creier / minte. Emoțional acest tip de persoană poate avea o gândire rigidă și comportament obsesiv.
+Ele pot aparea, de asemenea, in zona de creier / minte. Emotional acest tip de persoana poate avea o gandire rigida si comportament obsesiv.
 
 ## Lacunele Diamant
 
-Acestea au forma unor cripte mari, forma de diamant. Ele reprezintă un potențial de boală definită. Aceste lacune apar in zona organelor predispuse la boli degenerative: inima, rinichii și ficatul pot manifesta toate aceste semne.
+Acestea au forma unor cripte mari, forma de diamant. Ele reprezinta un potential de boala definita. Aceste lacune apar in zona organelor predispuse la boli degenerative: inima, rinichii si ficatul pot manifesta toate aceste semne.
 
-## Lacune Divizate sau Înjumătățite
+## Lacune Divizate sau Injumatatite
 
-Acestea sunt observate atunci cand fibrele irisului se formează în modele de arc. Ele reprezintă o stare de slăbire continuă a țesutului conjunctiv în acea zonă.
+Acestea sunt observate atunci cand fibrele irisului se formeaza in modele de arc. Ele reprezinta o stare de slabire continua a tesutului conjunctiv in acea zona.
 
 ## Lacune Deschise
 
-Acest lucru apare în bolile acute. Ele indică necesitatea de a se concentra tratamentul pe acea parte a corpului pentru a preveni cronicizarea.
+Acest lucru apare in bolile acute. Ele indica necesitatea de a se concentra tratamentul pe acea parte a corpului pentru a preveni cronicizarea.
 
-## Lacune Închise
+## Lacune Inchise
 
-Semnificația este că zona corpului a fost zidită funcțional. Cu alte cuvinte, organul are puțin drenaj limfatic eficient, astfel încât va tinde să acumuleze toxine.
+Semnificatia este ca zona corpului a fost zidita functional. Cu alte cuvinte, organul are putin drenaj limfatic eficient, astfel incat va tinde sa acumuleze toxine.
 
-## Lacuna Meduză
+## Lacuna Meduza
 
-Acesta este un semn de iritare acută și inflamație a părții implicate. Există o șansă bună ca tratamentul să poată inversa această iritare.
+Acesta este un semn de iritare acuta si inflamatie a partii implicate. Exista o sansa buna ca tratamentul sa poata inversa aceasta iritare.
 
-## Lacuna Pară
+## Lacuna Para
 
-Aceasta este un alt semn care indică necesitatea de a se concentra asupra unui organ anume sau asupra unei părți . Este o etapă mai timpurie decat lacuna sparanghel, dar la fel de periculoasă. Aceasta poate fi considerată de asemenea, precanceroasă.
+Aceasta este un alt semn care indica necesitatea de a se concentra asupra unui organ anume sau asupra unei parti . Este o etapa mai timpurie decat lacuna sparanghel, dar la fel de periculoasa. Aceasta poate fi considerata de asemenea, precanceroasa.
 
 ![Imagine image1]
 
@@ -50,54 +50,54 @@ Aceasta este un alt semn care indică necesitatea de a se concentra asupra unui 
 
 ## PANA FICATULUI
 
-Acesta este un tip special de lacună care trebuie tratată cu atenție. Este o lacună triunghiulară văzută în zona de ficat. Vârful triunghiului este îndreptat în direcția pupilei. Indică o slăbiciune a ficatului, deci trebuie luat în vedere potențialul existenței substanțelor toxice hepatice în corp. Alcoolul poate fi o problemă deosebită, nu doar ca o toxină, ci ca o substanță dependentă la cineva cu o pană de ficat.
+Acesta este un tip special de lacuna care trebuie tratata cu atentie. Este o lacuna triunghiulara vazuta in zona de ficat. Varful triunghiului este indreptat in directia pupilei. Indica o slabiciune a ficatului, deci trebuie luat in vedere potentialul existentei substantelor toxice hepatice in corp. Alcoolul poate fi o problema deosebita, nu doar ca o toxina, ci ca o substanta dependenta la cineva cu o pana de ficat.
 
- Când cineva este mahmur, poate dezvolta o ușoară decolorare a penei ficatului, indicând inflamarea ficatului.
+ Cand cineva este mahmur, poate dezvolta o usoara decolorare a penei ficatului, indicand inflamarea ficatului.
 
-Dacă o transversală traversează zona ficatului atunci trebuie avută o grijă sporită. Ficatul acestui individ este supus riscului.
+Daca o transversala traverseaza zona ficatului atunci trebuie avuta o grija sporita. Ficatul acestui individ este supus riscului.
 
 ## TRANSVERSALA
 
-Acest semn apare atunci când o fibră a irisului pare să treacă transversal peste iris, mai degrabă decât radial, așa cum te-ai aștepta în mod normal. Acestea sunt tendințe moștenite. Ele sunt aproape invariabil văzute în jumătatea inferioară a irisului. Le-ai putea găsi în zonele ficatului sau splinei. De asemenea, ele sunt destul de comune în zonele spinării. Ele indică faptul că este prezentă o anatomie neobișnuită. În ficat, poate exista o anomalie, la nivelul coloanei vertebrale poate exista o fuziune între vertebre, sau chiar eșecul de dezvoltare embriologică provocând o stare ca „spina bifida oculta” (o parte din măduva spinării nu este complet protejată de osul din partea inferioară) .
+Acest semn apare atunci cand o fibra a irisului pare sa treaca transversal peste iris, mai degraba decat radial, asa cum te-ai astepta in mod normal. Acestea sunt tendinte mostenite. Ele sunt aproape invariabil vazute in jumatatea inferioara a irisului. Le-ai putea gasi in zonele ficatului sau splinei. De asemenea, ele sunt destul de comune in zonele spinarii. Ele indica faptul ca este prezenta o anatomie neobisnuita. In ficat, poate exista o anomalie, la nivelul coloanei vertebrale poate exista o fuziune intre vertebre, sau chiar esecul de dezvoltare embriologica provocand o stare ca „spina bifida oculta” (o parte din maduva spinarii nu este complet protejata de osul din partea inferioara) .
 
-O transversală dreaptă indică o problemă funcțională acută. O transversală curbată indică o problemă funcțională cronică. De exemplu, o transversală dreaptă în zona coloanei vertebrale poate indica o deformare acută sau leziune de disc, în timp ce una curbată poate indica prezența osteoartritei. O transversală unghiulară indică de obicei o problemă cu articulațiile.
+O transversala dreapta indica o problema functionala acuta. O transversala curbata indica o problema functionala cronica. De exemplu, o transversala dreapta in zona coloanei vertebrale poate indica o deformare acuta sau leziune de disc, in timp ce una curbata poate indica prezenta osteoartritei. O transversala unghiulara indica de obicei o problema cu articulatiile.
 
-Transversalele de aceeași culoare ca și restul irisului indică faptul că starea nu este încă problematică. Când acestea devin vascularizate, ele apar ușor rozalii. Aceasta indică o inflamație acută a părților corespunzătoare.
+Transversalele de aceeasi culoare ca si restul irisului indica faptul ca starea nu este inca problematica. Cand acestea devin vascularizate, ele apar usor rozalii. Aceasta indica o inflamatie acuta a partilor corespunzatoare.
 
 ## RAZE SOLARE
 
-Acesta este un semn distinctiv al irisului care îl face să arate ca o roată completă cu spițe de culoare închisă. Aceasta indică o tendință de a acumula toxine, și indică locul în care se va întâmpla acest lucru și organele predispuse. Gândeste-te la spițe ca fiind canalele pe care se acumulează toxinele. Urmărește-le și acordă-le o atenție deosebită acelor părți ale corpului. Dar ține minte\! Sursa problemei este întotdeauna posibil să fie la nivelul stomacului și intestinului. Nu te gândi doar la tratarea sau oferirea unui tratament pentru organele țintă care acumulează toxine, trebuie să tratezi stomacul și intestinele pentru a le normaliza.
+Acesta este un semn distinctiv al irisului care il face sa arate ca o roata completa cu spite de culoare inchisa. Aceasta indica o tendinta de a acumula toxine, si indica locul in care se va intampla acest lucru si organele predispuse. Gandeste-te la spite ca fiind canalele pe care se acumuleaza toxinele. Urmareste-le si acorda-le o atentie deosebita acelor parti ale corpului. Dar tine minte\! Sursa problemei este intotdeauna posibil sa fie la nivelul stomacului si intestinului. Nu te gandi doar la tratarea sau oferirea unui tratament pentru organele tinta care acumuleaza toxine, trebuie sa tratezi stomacul si intestinele pentru a le normaliza.
 
-Paraziții, infecțiile fungice și inflamația intestinului datorită unui tratament pot fi toate indicate.
+Parazitii, infectiile fungice si inflamatia intestinului datorita unui tratament pot fi toate indicate.
 
-S-a spus că acestea vor fi găsite la oameni care au tendințe de auto-distrugere. Acestea pot lua fie forma de boli degenerative autoimune care afectează organismul, sau de mentalități auto-distructive. Ei pot avea un echilibru emoțional fragil.
+S-a spus ca acestea vor fi gasite la oameni care au tendinte de auto-distrugere. Acestea pot lua fie forma de boli degenerative autoimune care afecteaza organismul, sau de mentalitati auto-distructive. Ei pot avea un echilibru emotional fragil.
 
-Deși, poate tu nu ai asocia mai multe boli auto-imune cu problemele intestinale (de exemplu, artrita reumatoidă poate părea a avea puțin de-a face cu intestinul), dar prezența razelor Solare la un astfel de individ va arăta altceva.
+Desi, poate tu nu ai asocia mai multe boli auto-imune cu problemele intestinale (de exemplu, artrita reumatoida poate parea a avea putin de-a face cu intestinul), dar prezenta razelor Solare la un astfel de individ va arata altceva.
 
-Este arătat aici scenariul vechi despre găină și ou. Problemele toxice conduc la autodisrugere sau autodistrugerea conduce la acumularea toxinelor? Același argument poate fi folosit ca întrebare psihologică
+Este aratat aici scenariul vechi despre gaina si ou. Problemele toxice conduc la autodisrugere sau autodistrugerea conduce la acumularea toxinelor? Acelasi argument poate fi folosit ca intrebare psihologica
 
-La unele persoane, razele Solare nu încalcă cununa nervoasă, ci se extinde de la pupilă până la coroană. La altele poate părea că începe de la cununa nervoasă și se extinde spre exterior.
+La unele persoane, razele Solare nu incalca cununa nervoasa, ci se extinde de la pupila pana la coroana. La altele poate parea ca incepe de la cununa nervoasa si se extinde spre exterior.
 
 ![Imagine image3]
 
 ## FAGURI DE MIERE
 
-Acest semn arată cum sugerează și numele, un model de fagure de miere într-un mic segment al irisului. Vor fi văzute mici celule hexagonale în acea zonă.
+Acest semn arata cum sugereaza si numele, un model de fagure de miere intr-un mic segment al irisului. Vor fi vazute mici celule hexagonale in acea zona.
 
-Fagurele semnifică o problemă cu procesele funcționale și metabolice în organul implicat. Acestea sunt de natură să apară în zonele digestive, zone pancreatice și în plămâni. De obicei, este o problemă cu organul, moștenită genetic. În organele glandulare sau hormonale se indică probleme endocrine, de exemplu: Diabet, tireotoxicoză etc.
+Fagurele semnifica o problema cu procesele functionale si metabolice in organul implicat. Acestea sunt de natura sa apara in zonele digestive, zone pancreatice si in plamani. De obicei, este o problema cu organul, mostenita genetic. In organele glandulare sau hormonale se indica probleme endocrine, de exemplu: Diabet, tireotoxicoza etc.
 
 ## SEMNUL LALEA
 
-Acesta apare când o fibră densă radială, pe măsură ce se apropie, divide marginea irisului, pentru a lua forma unei flori precum o lalea. Acest lucru este cel mai adesea observat la partea superioară a irisului, indicand o problema a tractului respirator superior. Aceasta determină o adunare de toxine la nivelul capului, afectând funcția părții corpului indicată pe hartă.
+Acesta apare cand o fibra densa radiala, pe masura ce se apropie, divide marginea irisului, pentru a lua forma unei flori precum o lalea. Acest lucru este cel mai adesea observat la partea superioara a irisului, indicand o problema a tractului respirator superior. Aceasta determina o adunare de toxine la nivelul capului, afectand functia partii corpului indicata pe harta.
 
 ## PETE PSORICE
 
-Vom încheia turul acestei lecții, luând în considerare un alt semn comun, pata psorică. Nu trebuie să ai o lupă pentru a vedea aceste pete. Ele sunt pistruii de deasupra irisului si se găsesc în culori de sepia și negru.
+Vom incheia turul acestei lectii, luand in considerare un alt semn comun, pata psorica. Nu trebuie sa ai o lupa pentru a vedea aceste pete. Ele sunt pistruii de deasupra irisului si se gasesc in culori de sepia si negru.
 
-Când te uiți prin lupă, cu toate acestea, vei vedea că ele par să plutească deasupra suprafeței fibrelor irisului. Ele par să aibă margini definite, spre deosebire de ceața subțire a discolorării, care ar putea reprezenta acumularea de toxine.
+Cand te uiti prin lupa, cu toate acestea, vei vedea ca ele par sa pluteasca deasupra suprafetei fibrelor irisului. Ele par sa aiba margini definite, spre deosebire de ceata subtire a discolorarii, care ar putea reprezenta acumularea de toxine.
 
- Sunt de obicei acolo de la naștere și însoțesc individul de-a lungul vieții. S-a spus de catre cercetatori ca, dacă individul beneficiază de un tratament adecvat, petele psorice pot dispărea sau se pot estompa.
+ Sunt de obicei acolo de la nastere si insotesc individul de-a lungul vietii. S-a spus de catre cercetatori ca, daca individul beneficiaza de un tratament adecvat, petele psorice pot disparea sau se pot estompa.
 
-Petele psorice reprezintă miasme moștenite. Acesta poate fi un cuvânt care nu îți este familiar, dar te va îndemna sa faci un pic de cercetare pe această temă.
+Petele psorice reprezinta miasme mostenite. Acesta poate fi un cuvant care nu iti este familiar, dar te va indemna sa faci un pic de cercetare pe aceasta tema.
 
 ![Imagine image4]

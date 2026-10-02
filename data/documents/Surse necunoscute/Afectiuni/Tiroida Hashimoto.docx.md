@@ -4,13 +4,13 @@
 
 - Culoare specifica tiroidei: albastru turcoaz
 
-- Vocala „e“ – rostită prelung, mai ales la înălțimea notei sol, energizează centrul gâtului.
+- Vocala „e“ – rostita prelung, mai ales la inaltimea notei sol, energizeaza centrul gatului.
 
-- Reflexoterapia recomandă stimularea punctului aflat la baza degetului mare de la picior pentru activarea acestui centru.
+- Reflexoterapia recomanda stimularea punctului aflat la baza degetului mare de la picior pentru activarea acestui centru.
 
-- Agatele albastre favorizează comunicarea, creativitatea, este recomandată persoanelor introvertite.
+- Agatele albastre favorizeaza comunicarea, creativitatea, este recomandata persoanelor introvertite.
 
-- Calcedonia favorizează creativitatea, stimulează activitatea tiroidei.
+- Calcedonia favorizeaza creativitatea, stimuleaza activitatea tiroidei.
 
 - Tamaia ajuta foarte mult
 

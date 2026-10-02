@@ -1,29 +1,29 @@
 # Hemoroizi
 
-Se pisează 10 căpățâni de usturoi necurățate, se fierb la foc mic cu ½ litru de apă 15 minute, se lasă la temperatura suportabilă după care se fac bai de șezut \[ cât mai fierbinți \] . Apa poate fi încălzită și folosita de 4-5 ori. Metoda este foarte eficientă, nefiind nevoie de mai multe ori. **Fiecare spălătură să dureze 15 minute și cât se poate de fierbinte.**
+Se piseaza 10 capatani de usturoi necuratate, se fierb la foc mic cu ½ litru de apa 15 minute, se lasa la temperatura suportabila dupa care se fac bai de sezut \[ cat mai fierbinti \] . Apa poate fi incalzita si folosita de 4-5 ori. Metoda este foarte eficienta, nefiind nevoie de mai multe ori. **Fiecare spalatura sa dureze 15 minute si cat se poate de fierbinte.**
 
-**Se fierbe 1kg de varză dulce** circa 30 de minute, în 2-3kg de apă. Cu zeama obținută se fac zilnic băi de șezut călduțe. Se poate folosi și praz, și se poate ține la frigider încălzindu-se înainte de folosire. Sau se mai poate folosi alternativ. După o baie de circa 30 minute se lasă să se usuce \[nu se șterge\] și se unge locul dureros cu alifie de galbenele \[hermozon\] . Tratamentul durează cam o lună de zile .
+**Se fierbe 1kg de varza dulce** circa 30 de minute, in 2-3kg de apa. Cu zeama obtinuta se fac zilnic bai de sezut caldute. Se poate folosi si praz, si se poate tine la frigider incalzindu-se inainte de folosire. Sau se mai poate folosi alternativ. Dupa o baie de circa 30 minute se lasa sa se usuce \[nu se sterge\] si se unge locul dureros cu alifie de galbenele \[hermozon\] . Tratamentul dureaza cam o luna de zile .
 
-**Mătrăgună :** cu un decoct de mătrăgună, planta trebuie fiartă 1/2ore, se va spăla locul bolnav și se va sta 15minute cu fundul în acest decoct, ceaiul trebuie să fie cât mai cald. Băile se vor face în fiecare seară.
+**Matraguna :** cu un decoct de matraguna, planta trebuie fiarta 1/2ore, se va spala locul bolnav si se va sta 15minute cu fundul in acest decoct, ceaiul trebuie sa fie cat mai cald. Baile se vor face in fiecare seara.
 
-**Moțuri de nuc**
+**Moturi de nuc**
 
-Nucul înflorește în aprilie și are flori femele - nuca propriu-zisă -- și flori bărbătești -- niște moțuri verzi pline de polen galben, care după ce fecundează nuca cad și se vor usca devenind negre. Se pot culege de pe jos și se pot păstra 2-3 ani.
+Nucul infloreste in aprilie si are flori femele - nuca propriu-zisa -- si flori barbatesti -- niste moturi verzi pline de polen galben, care dupa ce fecundeaza nuca cad si se vor usca devenind negre. Se pot culege de pe jos si se pot pastra 2-3 ani.
 
-Tratamentul : În 2-3 litri de apă, când fierbe, se pune o mână \[circa 20gr\] de moțuri de nuc, se oprește focul și se acoperă. Când infuzia este suportabilă la cot, se pune într-un lighean cu moțuri cu tot, și se fac băi de șezut până ce infuzia se răcește. Se poate reîncălzi și folosi încă o dată. Se for face 10 astfel de băi în 10 seri consecutiv. Bolnavul trebuie să se ferească de piper, ardei iute și trebuie să mențină o igienă strictă la locul bolnav. Tratamentul a dat rezultate fără excepție.
+Tratamentul : In 2-3 litri de apa, cand fierbe, se pune o mana \[circa 20gr\] de moturi de nuc, se opreste focul si se acopera. Cand infuzia este suportabila la cot, se pune intr-un lighean cu moturi cu tot, si se fac bai de sezut pana ce infuzia se raceste. Se poate reincalzi si folosi inca o data. Se for face 10 astfel de bai in 10 seri consecutiv. Bolnavul trebuie sa se fereasca de piper, ardei iute si trebuie sa mentina o igiena stricta la locul bolnav. Tratamentul a dat rezultate fara exceptie.
 
 ## Alifie pentru hemoroizi
 
 Ingrediente : ceara de albine cat o nuca
 
-1 lingura ulei mãsline
+1 lingura ulei masline
 
-2 cm frunza de Aloe pisata, care sa aibã o vârsta de peste 3 ani
+2 cm frunza de Aloe pisata, care sa aiba o varsta de peste 3 ani
 
-Preparare : Se amesteca intr-un vas smãlþuit la foc potrivit pana se obþine un lichid omogen, se toarnã
+Preparare : Se amesteca intr-un vas smalþuit la foc potrivit pana se obþine un lichid omogen, se toarna
 
-in cutii de plastic þinându-se la rece
+in cutii de plastic þinandu-se la rece
 
-Din cearã de albine se vor face supozitoare pe care le veþi introduce în anus, câte 1 în fiecare sea
+Din ceara de albine se vor face supozitoare pe care le veþi introduce in anus, cate 1 in fiecare sea
 
-rã înainte de culcare, vã va ameliora durerea ºi chiar vã va vindeca.
+ra inainte de culcare, va va ameliora durerea ºi chiar va va vindeca.

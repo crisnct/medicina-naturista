@@ -1,14 +1,14 @@
 # Diabet
 
-[[Pur și simplu crud: Dând înapoi diabetul, în 30 de zile -- Video]{.underline}](
+[[Pur si simplu crud: Dand inapoi diabetul, in 30 de zile -- Video]{.underline}](
 
 26 septembrie 2013
 
-[[Invata sa traiesti sanatos]{.underline}]( [[Național]{.underline}]( [[Prima pagină]{.underline}](
+[[Invata sa traiesti sanatos]{.underline}]( [[National]{.underline}]( [[Prima pagina]{.underline}](
 
 !{width="4.791666666666667in" height="3.3361111111111112in"}
 
-**În acest documentar este vorba despre 6 indivizi, bolnavi de diabet (doi cu diabet de tip I, și 4 cu diabet de tip II), dependenți de insulină și medicamente, care merg la o clinică de întinerire din Arizona, numită "Tree Of Life Rejuvenation center" (Copacul vieții) și acolo, timp de 30 de zile, mănâcă numai crudități, fac mișcare, stau într-un mediu ambiant plăcut și se relaxează, notează [[suntsănătos.ro.]{.underline}](
+**In acest documentar este vorba despre 6 indivizi, bolnavi de diabet (doi cu diabet de tip I, si 4 cu diabet de tip II), dependenti de insulina si medicamente, care merg la o clinica de intinerire din Arizona, numita "Tree Of Life Rejuvenation center" (Copacul vietii) si acolo, timp de 30 de zile, manaca numai cruditati, fac miscare, stau intr-un mediu ambiant placut si se relaxeaza, noteaza [[suntsanatos.ro.]{.underline}](
 
 **Rezulatele sunt spectaculoase:** **4 dintre ei renunta complet la medicamente si insulina** (inclusiv unul cu diabet tip I -- despre care se spune ca este insulino dependent toata viata lui si binenteles netratabil, ca asa se spune in medicina conventionala "Diabetul nu se poate vindeca". **Unul dintre ei renunta dupa 2 saptamani,** dar oricum si in cazul lui, efectele erau vizibile (renuntase complet la medicamente si insulina si avea valori normale de sanatate).
 

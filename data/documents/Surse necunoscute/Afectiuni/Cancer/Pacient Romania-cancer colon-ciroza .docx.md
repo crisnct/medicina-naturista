@@ -40,7 +40,7 @@ Femeie ce s-a vindecat de cancer de colon cu CBD oil:
 
 - A se consuma zilnic ceai din:
 
-- Muguri de plop – 3 linguri (muguri sfărâmițați)
+- Muguri de plop – 3 linguri (muguri sfaramitati)
 
 - Gentiana – 4 linguri
 

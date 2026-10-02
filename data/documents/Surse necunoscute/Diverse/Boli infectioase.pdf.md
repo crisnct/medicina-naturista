@@ -3,28 +3,28 @@ SCARLATINA
 1. Protocol de diagnostic : - Hemoleucograma
  - CRP, VSH
  - Exudat faringian
- - Sumar de urină
+ - Sumar de urina
  - ASLO
 2. Protocol de tratament
 :
 a). Tratament etiologic
-- Penicilina G 4 MU/zi la adult și →0.000 UI/kg/zi la copil, timp de 7 zile, urmată de
-Moldamin 1,2 mil. la adult și 600.000 UI la copilul sub 2→ kg;
-- Alergie la peniciline → se administrează:
-● Eritromicină 2 g/zi la adult și 40 mg/kg/zi la copil timp de 10 zile;
-● Claritromicină →00 mg la 12 ore la adult și 1→ mg/k g/zi la copil, 10 zile;
-azitromicină →00 mg/zi → zile;
+- Penicilina G 4 MU/zi la adult si →0.000 UI/kg/zi la copil, timp de 7 zile, urmata de
+Moldamin 1,2 mil. la adult si 600.000 UI la copilul sub 2→ kg;
+- Alergie la peniciline → se administreaza:
+● Eritromicina 2 g/zi la adult si 40 mg/kg/zi la copil timp de 10 zile;
+● Claritromicina →00 mg la 12 ore la adult si 1→ mg/k g/zi la copil, 10 zile;
+azitromicina →00 mg/zi → zile;
 ● Cefadroxil 1→ mg/kg/zi, 7 zile, Cefaclor 37→ mg x 2/zi
-În formele toxico-septice de scarlatină :
-● Penicilă G →-10 MU/zi, timp de 2-4 săptămâni.
+In formele toxico-septice de scarlatina :
+● Penicila G →-10 MU/zi, timp de 2-4 saptamani.
 
 b). Tratament patogenic
- – în formele severe, hipertoxice, se asociază
+ – in formele severe, hipertoxice, se asociaza
 antibioterapiei, corticoterapie (hemisuccinat de hidrocor tizon 10 mg/kg/zi sau
-dexametazonă 0,→ mg/kg/zi), imunoglobuline standard.
+dexametazona 0,→ mg/kg/zi), imunoglobuline standard.
 
 c). Tratament simptomatic
- – antipiretice (paracetamol, metamizol, aspirină)
+ – antipiretice (paracetamol, metamizol, aspirina)
 
 3. Durata medie de spitalizare
  – 7 zile
@@ -34,21 +34,21 @@ ANGINE
 1. Protocol de diagnostic : - Hemoleucograma
  - CRP, VSH
  - Exudat faringian pentru SβH, stafilococ, fungi
- - Sumar de urină
+ - Sumar de urina
  - ASLO
 2. Protocol de tratament
 :
 a). Tratament etiologic
-- Penicilina G 4 MU/zi la adult și →0.000 UI/kg/zi la copil, timp de 7 zile, urmată de
-Moldamin 1,2 mil. la adult și 600.000 UI la copilul sub 2→ kg;
-- Cefalospsorine de generația I sau II (cefadroxil, cefaclor 37→ mg x 2/zi)
-- În caz de alergie la betalactamine → se administrează:
-● Eritromicină 2 g/zi la adult și 30-40 mg/kg/zi la copil timp de 10 zile;
-● Claritromicină →00 mg x 2/zi la adult și 1→ mg/kg/zi la copil, 10 zile;
+- Penicilina G 4 MU/zi la adult si →0.000 UI/kg/zi la copil, timp de 7 zile, urmata de
+Moldamin 1,2 mil. la adult si 600.000 UI la copilul sub 2→ kg;
+- Cefalospsorine de generatia I sau II (cefadroxil, cefaclor 37→ mg x 2/zi)
+- In caz de alergie la betalactamine → se administreaza:
+● Eritromicina 2 g/zi la adult si 30-40 mg/kg/zi la copil timp de 10 zile;
+● Claritromicina →00 mg x 2/zi la adult si 1→ mg/kg/zi la copil, 10 zile;
 
-- În angina Ludwig - se administrează penicilina G, Cloramfenicol, metronidazol,
-cefalosporine de generația a III-a.
-- În anginele micotice – se administrează Nistatin 3-→ MU/zi la adult și 1-3 MU/zi la
+- In angina Ludwig - se administreaza penicilina G, Cloramfenicol, metronidazol,
+cefalosporine de generatia a III-a.
+- In anginele micotice – se administreaza Nistatin 3-→ MU/zi la adult si 1-3 MU/zi la
 copil, 7-10 zile sau Fluconazol →0-100 mg/zi timp de 7-14 zile.
 
 b). Tratament simptomatic – antipiretice, analgezice
@@ -65,15 +65,15 @@ ERIZIPELUL
 2. Protocol de tratament
 :
 a). Tratament etiologic
-- Penicilina G 4-8 MU/zi, timp de 10-14 zile, urmată de Moldamin 1,2 mil.
-- Alergie la peniciline → se administrează:
-● Eritromicină 2 g/zi timp de 10 zile;
+- Penicilina G 4-8 MU/zi, timp de 10-14 zile, urmata de Moldamin 1,2 mil.
+- Alergie la peniciline → se administreaza:
+● Eritromicina 2 g/zi timp de 10 zile;
 
 b). Tratament simptomatic
  – antipiretice, antialgice, antiinflamatorii nesteroi diene
-în formele ușoare și steroidiene în erizipelele recidivante
+in formele usoare si steroidiene in erizipelele recidivante
 - Compresii locale cu rivanol
-- anticoagulante în erizipelul recidivant
+- anticoagulante in erizipelul recidivant
 
 3. Durata medie de spitalizare
  – 10 zile
@@ -82,43 +82,43 @@ RUJEOLA
 
 1. Protocol de diagnostic : - Hemoleucograma
  - CRP, VSH
- - IgM pentru rujeolă
-- Rgf. toracică în cazul apariției complicațiilor
-Pulmonare Ex. ORL în erupul rujeolic, otite
-- Puncție lombară în encefalita rujeolică, examen de
+ - IgM pentru rujeola
+- Rgf. toracica in cazul aparitiei complicatiilor
+Pulmonare Ex. ORL in erupul rujeolic, otite
+- Punctie lombara in encefalita rujeolica, examen de
 fund de ochi, examen neurologic
-- Examen oftalmologic în cazul apariției complicațiilo r
+- Examen oftalmologic in cazul aparitiei complicatiilo r
 oculare
-- Coprocultura în cazul apariției scaunelor diareice
+- Coprocultura in cazul aparitiei scaunelor diareice
 
 2. Protocol de tratament
 :
-a). Medicație simptomatică
+a). Medicatie simptomatica
 ● antipiretice, antialgice, antitusive
-● soluții de reechilibrate hidroelectrolitică
+● solutii de reechilibrate hidroelectrolitica
 ● vitamine, calciu
 ● anticonvulsivante
 ● antiemetice
 
 b). Formele severe
- – beneficiază de corticoterapie, imunoglobuline standa rd,
+ – beneficiaza de corticoterapie, imunoglobuline standa rd,
 tonice cardiovasculare.
 
-c). Tratamentul complicațiilor
+c). Tratamentul complicatiilor
 
-● Bronhopneumonice - sau pneumonii se utilizează betalactamine + aminog licozid
-(ampicilina/oxacilina + gentamicina/amikacina), cefalosp orine de generația a III
+● Bronhopneumonice - sau pneumonii se utilizeaza betalactamine + aminog licozid
+(ampicilina/oxacilina + gentamicina/amikacina), cefalosp orine de generatia a III
 (ceftriaxona, cefatoxim), betalactamine asociate cu inhib itori de betalactamaze,
 macrolide.
 ● Crupul rujeolic
- beneficiază de corticoterapie (dexametazonă 0,→ mg/kg /zi,
-hemisuccinat de hidrocortizon 10-20 mg/kg/zi), intubaț ie sau traheostomie de
-urgență, cu oxigenoterapie susținută, antihistaminice
-● Encefalita rujeolică
- – necesită tratament cu corticoizi (dexametazonă 0,→
+ beneficiaza de corticoterapie (dexametazona 0,→ mg/kg /zi,
+hemisuccinat de hidrocortizon 10-20 mg/kg/zi), intubat ie sau traheostomie de
+urgenta, cu oxigenoterapie sustinuta, antihistaminice
+● Encefalita rujeolica
+ – necesita tratament cu corticoizi (dexametazona 0,→
 mg/kg/zi), antiedematoase cerebrale (manitol 20% 10 m g/kg/zi, furosemid),
-anabolizante cerebrale (piracetam, cerebrolyzine, encep habol), soluții de glucoză
-hipertonă, vitamine grup B.
+anabolizante cerebrale (piracetam, cerebrolyzine, encep habol), solutii de glucoza
+hipertona, vitamine grup B.
 
 3. Durata medie de spitalizare
  – 7 zile
@@ -128,48 +128,48 @@ RUBEOLA
 1. Protocol de diagnostic
 : - Hemoleucograma
  - CRP
- - IgM pentru rubeolă
+ - IgM pentru rubeola
 2. Protocol de tratament
 :
 ● Simptomatice antipiretice (paracetamol, metamizol)
 ● vitamine
-● artrită rubeolică → AINS
-● isoprinosină
-● Encefalita /meningita rubeolică → corticoterapie, depletive, neurotrofice.
+● artrita rubeolica → AINS
+● isoprinosina
+● Encefalita /meningita rubeolica → corticoterapie, depletive, neurotrofice.
 
 3. Durata medie de spitalizare
- – în rubeola complicată (meningita, encefalită)
+ – in rubeola complicata (meningita, encefalita)
 10 zile
 
-VARICELA ȘI HERPESUL ZOSTER
+VARICELA SI HERPESUL ZOSTER
 
 1. Protocol de diagnostic
 : - Hemoleucograma
  - glicemie
  - uree
  - TGP, TGO
- - test HIV în Herpesul Zoster
--Puncție lombară în meningite/encefalite varceloasă,
+ - test HIV in Herpesul Zoster
+-Punctie lombara in meningite/encefalite varceloasa,
 ex. FO, consult neurologic
-- Rgf. toracică în cazul apariției pneumoniei
+- Rgf. toracica in cazul aparitiei pneumoniei
 variceloase
-- Consult oftalmologic în complicațiile oculare
-- Culturi din secrețiile purulente în varicela
-suprainfectată
+- Consult oftalmologic in complicatiile oculare
+- Culturi din secretiile purulente in varicela
+suprainfectata
 
 2. Protocol de tratament
 :
-● Terapie simptomatică - antipiretice (metamizol, algocalmin), antialgice
+● Terapie simptomatica - antipiretice (metamizol, algocalmin), antialgice
 
-● Chimioterapie antivirală – Acyclovir se folosește în herpesul Zoster și în varicela
-la „grupurile de risc” (imunodeprimați), în doze de 3 0 mg/kg/zi, timp de →, 7, 10,
+● Chimioterapie antivirala – Acyclovir se foloseste in herpesul Zoster si in varicela
+la „grupurile de risc” (imunodeprimati), in doze de 3 0 mg/kg/zi, timp de →, 7, 10,
 14 zile
-● În Keratita herpetică se asociază la tratamentul cu aci clovir și corticosteroize
-(prednison, dexametazonă)
+● In Keratita herpetica se asociaza la tratamentul cu aci clovir si corticosteroize
+(prednison, dexametazona)
 ● Vitaminoterapia din grupul B (B1, B6)
-● Nevralgie postzosteriană beneficiază de antialgice, neuroleptice
-● În encefalita variceloasă se folosesc antiedematoase cere brale (manitol 20%,
-soluții de glucoză 10%), dexametazonă, neurotrofice
+● Nevralgie postzosteriana beneficiaza de antialgice, neuroleptice
+● In encefalita variceloasa se folosesc antiedematoase cere brale (manitol 20%,
+solutii de glucoza 10%), dexametazona, neurotrofice
 
 3. Durata medie de spitalizare
  – 10 zile
@@ -177,10 +177,10 @@ soluții de glucoză 10%), dexametazonă, neurotrofice
 MENINGITE ACUTE
 
 1. Protocol de diagnostic
-: - puncție lombară cu examenul LCR → aspect, reacția
-Pandy, număr elemente, citologie, frotiu direct, glico rahie,
-proteinorahie, clorurorahie, culturi pentru piogeni și pentru BK:
-+ culturi pentru fungi (la imunocompromiși), latexaglutinare din
+: - punctie lombara cu examenul LCR → aspect, reactia
+Pandy, numar elemente, citologie, frotiu direct, glico rahie,
+proteinorahie, clorurorahie, culturi pentru piogeni si pentru BK:
++ culturi pentru fungi (la imunocompromisi), latexaglutinare din
 LCR
 - Hemocultura
 - Latexaglutinare din ser
@@ -190,12 +190,12 @@ LCR
 - glicemie
 - uree
 - examen fund de ochi
-- examen CT sau RMN pentru determinarea complicațiilor sau
-sechelelor sau pentru diagnosticul diferențial
+- examen CT sau RMN pentru determinarea complicatiilor sau
+sechelelor sau pentru diagnosticul diferential
 - Quantiferon TB GOLD pentru meningita TBC
 - IDR la PPD
-- Rgl. toracică în cazul meningitei TBC
-- consult ORL, Rgl. SAF pentru meningite de vecinătate
+- Rgl. toracica in cazul meningitei TBC
+- consult ORL, Rgl. SAF pentru meningite de vecinatate
 - Rgl. craniu pentru meningitele posttraumatice
 
 2. Protocol de tratament
@@ -203,151 +203,151 @@ sechelelor sau pentru diagnosticul diferențial
 
 1. Meningitele bacteriene
 
-a). Terapia etiologică
- – terapia cu antibiotice este o mare urgență
+a). Terapia etiologica
+ – terapia cu antibiotice este o mare urgenta
 
 Meningita cu Neisseria meningitidis
 
 Terapie standard
-● Penicilina G 10-12 MU/zi la adult și 200.000 UI/zi la copil, timp de 7 zile,
-● Ampicilină 12 g/zi la adult și 200-300 mg/kg/zi la copil
-● Cefalosporină de generația a III-a (Ceftriaxonă 4 g/zi la adult și 100 mg/kg/zi la
-copil, sau Cefatoxim 8-12 g/zi, la adult și 200-300 mg/kg/zi la copil
+● Penicilina G 10-12 MU/zi la adult si 200.000 UI/zi la copil, timp de 7 zile,
+● Ampicilina 12 g/zi la adult si 200-300 mg/kg/zi la copil
+● Cefalosporina de generatia a III-a (Ceftriaxona 4 g/zi la adult si 100 mg/kg/zi la
+copil, sau Cefatoxim 8-12 g/zi, la adult si 200-300 mg/kg/zi la copil
 
-Terapie alternativă
+Terapie alternativa
 
-● Cloramfenicol 3 g/zi la adult și 100 mg/kg/zi la copil
-● Fluorochinolone (ciprofloxacină 800-1200 mg/zi)
+● Cloramfenicol 3 g/zi la adult si 100 mg/kg/zi la copil
+● Fluorochinolone (ciprofloxacina 800-1200 mg/zi)
 
 Meningita cu Streptococcus pneumoniae
 
 Terapie standard
-● Penicilina G 20-24 MU/zi la adult și →00.000 UI/zi la copil, timp de 10-14 zile,
-● Ampicilină 12 g/zi la adult și 200-400 mg/kg/zi la copil
-● Cefalosporină de generația a III-a (Ceftriaxonă sau Cefatoxim), 10-14 zile
+● Penicilina G 20-24 MU/zi la adult si →00.000 UI/zi la copil, timp de 10-14 zile,
+● Ampicilina 12 g/zi la adult si 200-400 mg/kg/zi la copil
+● Cefalosporina de generatia a III-a (Ceftriaxona sau Cefatoxim), 10-14 zile
 
-Terapie alternativă
+Terapie alternativa
 
-● Meropenem 6 g/zi la adult și 120 mg/kg/zi la copil
-● Vancomicină 30-40 mg//kg/zi
+● Meropenem 6 g/zi la adult si 120 mg/kg/zi la copil
+● Vancomicina 30-40 mg//kg/zi
 
 Meningita cu Haemophilus influenzae
 
 Terapie standard
-● Ampicilină 12 g/zi la adult și 300-400 mg/kg/zi la copil, timp de 14 zile
-● Cefalosporină de generația a III-a (Ceftriaxonă sau Cefatoxim)
+● Ampicilina 12 g/zi la adult si 300-400 mg/kg/zi la copil, timp de 14 zile
+● Cefalosporina de generatia a III-a (Ceftriaxona sau Cefatoxim)
 
-Terapie alternativă
+Terapie alternativa
 
-● Cloramfenicol, 3 g/zi la adult, 100 mg/kg/zi la copil, →0 mg/kg/zi la nou născut
+● Cloramfenicol, 3 g/zi la adult, 100 mg/kg/zi la copil, →0 mg/kg/zi la nou nascut
 ● Cefepime 6 g/zi la adult, 1→0 mg/kg/zi la copil
 ● Fluorochinolone, Aztreonam
 
 Meningita cu Staphylococcus aureus
 
-● Oxacilină 9-12 g/zi la adult și 200 mg/kg/zi la copil, Vancomicină 30-40 mg/kg/zi
-sau asocieri (oxacilină + rifampicină + ceftriaxonă; vanco micină + rifampicină;
-rifampicină + ciprofloxacină)
+● Oxacilina 9-12 g/zi la adult si 200 mg/kg/zi la copil, Vancomicina 30-40 mg/kg/zi
+sau asocieri (oxacilina + rifampicina + ceftriaxona; vanco micina + rifampicina;
+rifampicina + ciprofloxacina)
 
 Meningita cu Enterobacteriaceae
 
 Terapie standard
-● Cefalosporină de generația a III-a, Meropenem, Fl uorochinolom, Trimetoprim -
+● Cefalosporina de generatia a III-a, Meropenem, Fl uorochinolom, Trimetoprim -
 sulfamethoxazol
 
 Meningita cu Pseudomonas aeruginosa
 
 Terapie standard
 ● Ceftazidim sau Cefepime
-Terapie alternativă
+Terapie alternativa
 
 ● Meropenem, Fluorochinolone,
 
 Meningita cu Listeria monocgtogenes
 
 Terapie standard
-● Ampicilină sau Penicilină
-Terapie alternativă
+● Ampicilina sau Penicilina
+Terapie alternativa
 
-● Cefalosporină de generația a III-a, vancomicină,
+● Cefalosporina de generatia a III-a, vancomicina,
 
 Meningita cu Streptoccocus agalactide
-● Ampicilină sau Penicilină, Cefalosporină de generația a III-a, vancomicină,
+● Ampicilina sau Penicilina, Cefalosporina de generatia a III-a, vancomicina,
 
 Meningita cu Spirochete
 
-● Treponema pallidum – PG, ceftriaxonă
-- Borrelia burgdorferi – Cefalosporină de generația a III-a; PG, doxicilină
+● Treponema pallidum – PG, ceftriaxona
+- Borrelia burgdorferi – Cefalosporina de generatia a III-a; PG, doxicilina
 
-b). Terapia patogenică
+b). Terapia patogenica
 
-- corticoterapie de scurtă durată →-10 zile (dexametazo nă 0,→ mg/kg/zi sau
+- corticoterapie de scurta durata →-10 zile (dexametazo na 0,→ mg/kg/zi sau
 hemisuccinat de hidrocortizon 10 mg/kg/zi)
-- antiinflamatorii nesteroidiene (aspirină, diclofenac, indometacin, paracetamol)
-- depletive (manitol 20% 1-2 mg/kg/zi, glucoză hipertonă 10-20%, furosemid)
-- prevenirea și combaterea convulsiilor prin administrar e de diazepam,
+- antiinflamatorii nesteroidiene (aspirina, diclofenac, indometacin, paracetamol)
+- depletive (manitol 20% 1-2 mg/kg/zi, glucoza hipertona 10-20%, furosemid)
+- prevenirea si combaterea convulsiilor prin administrar e de diazepam,
 fenobarbital
-- asigurarea aportului energetic, reechilibrare hidroe lectrolitică și acidobazică cu
-glucoză →-10%, ser fiziologic, bicarbonat de sodiu 8,4%
-- susținerea funcțiilor vitale (respiratorie și cardiova sculară) este necesară în
+- asigurarea aportului energetic, reechilibrare hidroe lectrolitica si acidobazica cu
+glucoza →-10%, ser fiziologic, bicarbonat de sodiu 8,4%
+- sustinerea functiilor vitale (respiratorie si cardiova sculara) este necesara in
 formele comatoase, oxigenoterapie
 - vitamine neurotrope de grup B (B
 1, B 6, B 12 ), piracetam
-- combaterea sindromului de coagulare intravasculară dise minată cu heparină
-precoce, înaintea fibrinolizei (20.000 – 40.000 U la adult) și eventual plasmă
-proaspătă
-- imunoglobuline standard în forme severe
-- Drotecoginum alfa (XIGRIS) în purpura fulminans.
+- combaterea sindromului de coagulare intravasculara dise minata cu heparina
+precoce, inaintea fibrinolizei (20.000 – 40.000 U la adult) si eventual plasma
+proaspata
+- imunoglobuline standard in forme severe
+- Drotecoginum alfa (XIGRIS) in purpura fulminans.
 
-c). Terapia simptomatică
+c). Terapia simptomatica
 
-- combate febra, vărsăturile constipația
+- combate febra, varsaturile constipatia
 
-2. Meningita virală – protocol de tratament
+2. Meningita virala – protocol de tratament
 
-- Antiinflamatorii nesteroidiene (aspirină, diclofenac, indometacin) în formele
-ușoare;
-- Corticoterapia (dexametazonă 0,→ mg/kg/zi, prednison 1 mg/kg/zi, hemisuccinat
-de hidrocortizon 10-20 mg/kg/zi) se utilizează în formele encefalitice și mielitice de
-boală, timp de 7-10 zile
-- Depletive (manitol 20% 1-2 mg/kg/zi, glucoză hipertonă)
+- Antiinflamatorii nesteroidiene (aspirina, diclofenac, indometacin) in formele
+usoare;
+- Corticoterapia (dexametazona 0,→ mg/kg/zi, prednison 1 mg/kg/zi, hemisuccinat
+de hidrocortizon 10-20 mg/kg/zi) se utilizeaza in formele encefalitice si mielitice de
+boala, timp de 7-10 zile
+- Depletive (manitol 20% 1-2 mg/kg/zi, glucoza hipertona)
 - Sedative, anticonvulsivante (diazepam, fenobarbital)
 - neurotrofice (vit. B1, B6, piracetam)
 - capilarotonice (vit. C, rutosid)
 - antiemetice, antiacide
-- În meningita herpetică se folosește aciclovir 30 mg/kg/ zi IV, în 3 prize, timp de
+- In meningita herpetica se foloseste aciclovir 30 mg/kg/ zi IV, in 3 prize, timp de
 10 zile
 
 3. Meningita TBC – protocol de tratament
 
-- antituberculoase în cvadruplă asociere (Izoniazidă →-10 mg/kg/zi; Rifampicină 10
-mg/kg/zi, Etambutol →-2→ mg/kg/zi, Pirazinamidă 1→-30 mg/kg/zi, Streptomicină
+- antituberculoase in cvadrupla asociere (Izoniazida →-10 mg/kg/zi; Rifampicina 10
+mg/kg/zi, Etambutol →-2→ mg/kg/zi, Pirazinamida 1→-30 mg/kg/zi, Streptomicina
 
-1→ mg/kg/zi) administrată zilnic timp de 3 luni, apoi 3/7 sau 2/7 până la 9 luni, în
-funcție de evoluția clinică și a LCR
-- antituberculoasele de rezervă sunt fluorochinolonele (ciprofloxacina 1-1,→ g/zi,
-ofloxacină 1-1,→ g/zi), cicloserina 10-20 mg/kg/zi, Et hionamida 1→-20 mg/kg/zi,
+1→ mg/kg/zi) administrata zilnic timp de 3 luni, apoi 3/7 sau 2/7 pana la 9 luni, in
+functie de evolutia clinica si a LCR
+- antituberculoasele de rezerva sunt fluorochinolonele (ciprofloxacina 1-1,→ g/zi,
+ofloxacina 1-1,→ g/zi), cicloserina 10-20 mg/kg/zi, Et hionamida 1→-20 mg/kg/zi,
 Capreomicina 1→ mg/kg/zi
-Terapia patogenică
- – asociază din prima lună de tratament corticoterapia
+Terapia patogenica
+ – asociaza din prima luna de tratament corticoterapia
 (dexametazona 0,→ mg/kg/zi sau hemisuccinat de hidrocor tizon (10 mg/kg/zi),
 continuat apoi cu prednison (1 mg/kg/zi)
-- depletive (manitol 20% 1-2 mg/kg/zi, glucoză 10-20%)
+- depletive (manitol 20% 1-2 mg/kg/zi, glucoza 10-20%)
 - neurotrofice (vit. B1, B6, piracetam, cerebrolyzine, tanakan)
 - sedative, anticonvulsivante
-- soluții de reechilibrare hidroelectrolitică
+- solutii de reechilibrare hidroelectrolitica
 
 Durata medie de spitalizare
 
-- meningite bacteriene și virale – 10 zile
+- meningite bacteriene si virale – 10 zile
 - meningite TBC – 30 zile
 
 ENCEFALITE ACUTE
 
-1. Protocol de diagnostic : - puncție lombară cu examenul LCR → aspect, reacția
-Pandy, număr elemente, citologie, frotiu direct (Gram , Zichl,
+1. Protocol de diagnostic : - punctie lombara cu examenul LCR → aspect, reactia
+Pandy, numar elemente, citologie, frotiu direct (Gram , Zichl,
 Nielsen), glicorahie, proteinorahie, clorurorahie, cult uri pentru
-piogeni și pentru BK, latexoglutinare
+piogeni si pentru BK, latexoglutinare
 - examen fund de ochi
 - examen CT sau RMN cerebral
 - Hemoleucograma
@@ -361,26 +361,26 @@ piogeni și pentru BK, latexoglutinare
 
 2. Protocol de tratament
 
-Medicația patogenică
-- Antiedematoase cerebrale (Manitol 20% 1-2 g/kg/zi, gl ucoză hipertonă,
+Medicatia patogenica
+- Antiedematoase cerebrale (Manitol 20% 1-2 g/kg/zi, gl ucoza hipertona,
 furosemid)
-- Corticoterapie (dexametazonă 0,→ mg/kg/zi timp de 10-28 zile)
+- Corticoterapie (dexametazona 0,→ mg/kg/zi timp de 10-28 zile)
 - Anticonvulsivante (diazepam, fenobarbital)
-- Soluții de reechilibrare hidroelectrolitică și acidobaz ică (glucoză →-10%, ser
+- Solutii de reechilibrare hidroelectrolitica si acidobaz ica (glucoza →-10%, ser
 fiziologic, bicarbonat, asigurarea aportului energetic)
-- Susținerea funcțiilor vitale (respiratorie și cardiovasculară)
-- Neurotrope (vitamina B1, B6, B12, piracetam, lecitină , piritinol,
+- Sustinerea functiilor vitale (respiratorie si cardiovasculara)
+- Neurotrope (vitamina B1, B6, B12, piracetam, lecitina , piritinol,
 cerebrolyzine)
 
 Tratament etiotrop
 
-- Aciclovir în encefalita herpetică, 30 mg/kg/zi intravenos, divizat în 3 prize (la
+- Aciclovir in encefalita herpetica, 30 mg/kg/zi intravenos, divizat in 3 prize (la
 8 ore), timp de 10 zile
-- Ribavirină 2 g inițial, apoi 1 g la 6 ore în primel e 4 zile, urmate de 0,→ g la 8
-ore alte 6 zile sau aciclovir intravenos 10 mg/kg/zi l a 8 ore 10 zile în
+- Ribavirina 2 g initial, apoi 1 g la 6 ore in primel e 4 zile, urmate de 0,→ g la 8
+ore alte 6 zile sau aciclovir intravenos 10 mg/kg/zi l a 8 ore 10 zile in
 encefalitele acute determinate de arbovirusuri
 
-În neurobolioză Ceftriaxonă 2 g/zi la adult și →0-8 0 mg/kg/zi la copil, timp de 14
+In neurobolioza Ceftriaxona 2 g/zi la adult si →0-8 0 mg/kg/zi la copil, timp de 14
 zile sau penicilina G intravenos (20-24 mil/zi la adul t, 300-400.000 UI/kg/zi la
 copil)
 
@@ -389,69 +389,69 @@ copil)
 
 BOTULISM
 
-a). Diagnostic clinic – apariția unor paralizii simetrice, fără atingere se nzitivă,
-sistem de afebrilitate, fără tulburări de conștiență, apărute în contextul consumului
-unui aliment susceptibil de a putea conține toxina botulinică.
+a). Diagnostic clinic – aparitia unor paralizii simetrice, fara atingere se nzitiva,
+sistem de afebrilitate, fara tulburari de constienta, aparute in contextul consumului
+unui aliment susceptibil de a putea contine toxina botulinica.
 
 b). Laborator
- – evidențierea toxinei botulinice în materii fecale sau alimentul
+ – evidentierea toxinei botulinice in materii fecale sau alimentul
 consumat
 -
- EKG, EMG – date utile în formele grave, mai ales în forma infantilă
+ EKG, EMG – date utile in formele grave, mai ales in forma infantila
 
 c). Tratament
- – simptomatic – spălătura gastrică, clismă, administrare purgativ
+ – simptomatic – spalatura gastrica, clisma, administrare purgativ
 pentru eliminarea resturilor alimentare din intestine
-- umidifierea căilor aeriene cu aerosoli, utilizarea de colire, dezinfectante nazale,
-antivomitive, aport lichidic, sondaj vezicol, supraveghe rea constipației și a
-deglutiției. Apariția tulburărilor de ventilație – necesită ventilație pe sonda
-nasotraheală.
+- umidifierea cailor aeriene cu aerosoli, utilizarea de colire, dezinfectante nazale,
+antivomitive, aport lichidic, sondaj vezicol, supraveghe rea constipatiei si a
+deglutitiei. Aparitia tulburarilor de ventilatie – necesita ventilatie pe sonda
+nasotraheala.
  - specific
- – ser antibotulinic polivalent (A + B + E) când nu se
-cunoaște tipul toxinei sau bivalent (A + B), când alime ntul nu a fost peștele – cu
-desensibilizare în prealabil.
+ – ser antibotulinic polivalent (A + B + E) cand nu se
+cunoaste tipul toxinei sau bivalent (A + B), cand alime ntul nu a fost pestele – cu
+desensibilizare in prealabil.
  - antibiotic
- – în caz de suprainfecție (β loctamine)
+ – in caz de suprainfectie (β loctamine)
 
 d). Profilaxie
-– igiena alimentației, educația sanitară
+– igiena alimentatiei, educatia sanitara
 
-e). Durata spitalizării
+e). Durata spitalizarii
  – 7-10 zile
 
 TETANOS
 
-a). Diagnostic clinic – prezența plăgii tetanigene
-- prezența trismus
-- prezența sindrom contractură tonică, asociat cu contracturi paroxistice
-- transpirații profuze
+a). Diagnostic clinic – prezenta plagii tetanigene
+- prezenta trismus
+- prezenta sindrom contractura tonica, asociat cu contracturi paroxistice
+- transpiratii profuze
 
 b). Laborator
  – HLG
-- evidențierea bacil tetanic în secreția din plagă și îns ămânțarea pe medii
+- evidentierea bacil tetanic in secretia din plaga si ins amantarea pe medii
 anaerobe
-- prelevare de sânge pentru determinarea T preexistent de anatoxină tetanică
+- prelevare de sange pentru determinarea T preexistent de anatoxina tetanica
 
 c). Tratament
 
-- administrare ATPA, ulterior la 7, 14, 30 zile de la prima injecție
-- curățirea plăgii și spălare abundentă cu apă oxigena tă, fără aplicare de pulberi,
+- administrare ATPA, ulterior la 7, 14, 30 zile de la prima injectie
+- curatirea plagii si spalare abundenta cu apa oxigena ta, fara aplicare de pulberi,
 unguente
-- internarea pacientului pe TI (în condiții speciale, liniște, semiîntuneric)
-- terapie antibiotică Penicilina 2-4 mil UI/zi i.v., 7- 10 zile – adult; 100.000
+- internarea pacientului pe TI (in conditii speciale, liniste, semiintuneric)
+- terapie antibiotica Penicilina 2-4 mil UI/zi i.v., 7- 10 zile – adult; 100.000
 UI/kg/zi – copil
-- administrare antitoxine tetanice sub formă de imunoglo buline umane specifice
-antitetanice 3000 – 6000 UI i.m.) în absența acesteia, se administrează ser
+- administrare antitoxine tetanice sub forma de imunoglo buline umane specifice
+antitetanice 3000 – 6000 UI i.m.) in absenta acesteia, se administreaza ser
 imun heterolog antitetanic →0.000 UI – 100.000 UI la adult, 10.000 UI la nou-
-născut, efectuându-se în prealabil desensibilizarea
-- combaterea sindromului de contractură – Diazepam sau Fen obarbital (30-300
+nascut, efectuandu-se in prealabil desensibilizarea
+- combaterea sindromului de contractura – Diazepam sau Fen obarbital (30-300
 mg/zi Diazepam la adult).
-- în forme severe cu contracturi paroxistice, apnee, spasm p lastic – se indică
-traheostomie și asistență respiratorie.
-- Terapia patogenică – asigurarea aportului energetic, corectarea dezechilibrelor,
+- in forme severe cu contracturi paroxistice, apnee, spasm p lastic – se indica
+traheostomie si asistenta respiratorie.
+- Terapia patogenica – asigurarea aportului energetic, corectarea dezechilibrelor,
 oxigenoterapie.
-- Tratamentul complicațiilor – prevenirea bolii serului prin administrarea
-corticoterapiei din ziua a 4-a după administrarea serului
+- Tratamentul complicatiilor – prevenirea bolii serului prin administrarea
+corticoterapiei din ziua a 4-a dupa administrarea serului
 - Septice (asocierea de antibiotice)
 
 d). Profilaxie
@@ -459,48 +459,48 @@ d). Profilaxie
 
 GRIPA
 
-a). Investigații : - HLG, evaluarea bilanțului metabolic, CRP
- - RFC gripă
- - Rgf. Pulmonară (în caz de suprainfecție)
+a). Investigatii : - HLG, evaluarea bilantului metabolic, CRP
+ - RFC gripa
+ - Rgf. Pulmonara (in caz de suprainfectie)
 b). Tratament
  – repaus la pat
- b1. Simptomatic (antitermic, antitusive, oxigenoterap ia sau ventilația
-asistată în caz de insuficiență respiratorie severă)
- b2. Antibiotic (în cazul suprainfecțiilor bacteriene) – Penicilina +
+ b1. Simptomatic (antitermic, antitusive, oxigenoterap ia sau ventilatia
+asistata in caz de insuficienta respiratorie severa)
+ b2. Antibiotic (in cazul suprainfectiilor bacteriene) – Penicilina +
  inhibitori de
 beta-lactamaze + aminoglicozide
  - fluorchinolone
  - cefalosporine gen. III
- b3. Corticoterapie (în formele severe cu insuficiență ci rculatorie, în
-complicații tip crup sau complicații neurologice)
+ b3. Corticoterapie (in formele severe cu insuficienta ci rculatorie, in
+complicatii tip crup sau complicatii neurologice)
  - 1-2 mg/kg cPDN sau HHC 100-200 mg/zi la adult sau 10- 20 mg/kg/zi la
 copil
  b4. Bronhodilatatorii
  b→. Antivirale (Amantadina, Rimantadina)
 c). Profilaxie
- – Vaccinarea antigripală
+ – Vaccinarea antigripala
 - chimioprofilaxia cu Amantadina sau Rimantadina
 d). Durata de spitalizare ~ 7 zile
 
-MONONUCLEOZA INFECȚIOASĂ
+MONONUCLEOZA INFECTIOASA
 
-a). Investigații
+a). Investigatii
 : HLG, TGP, CRP, Exudat faringian
 - R. Paul-Bunnel-Davidsohn
-- Determinare Ac. față de antigenul precoce
+- Determinare Ac. fata de antigenul precoce
 
 b). Tratament
 :
 - repaus la pat
 - tratament simptomatic (AINS, antitermice, antalgice)
-- în caz de complicații: 1. Suprainfecțiile bacterien e se tratează cu Penicilină sau
+- in caz de complicatii: 1. Suprainfectiile bacterien e se trateaza cu Penicilina sau
 macrolide
-2. Obstrucția căilor respiratorii necesită traheostomie și
+2. Obstructia cailor respiratorii necesita traheostomie si
 corticoterapie PDN 1-1,→ mg/kg/zi
-3. Neurologice (encefalită, poliradiculanevrilă, sdr.
-cerebeloase, meningită limfocitară) și hematologice
-(anemie hemolitică, purpură trombocitopenica,
-crioglobulinemie) – necesită corticoterapie
+3. Neurologice (encefalita, poliradiculanevrila, sdr.
+cerebeloase, meningita limfocitara) si hematologice
+(anemie hemolitica, purpura trombocitopenica,
+crioglobulinemie) – necesita corticoterapie
 -
  hepatoprotectoare
 
@@ -509,18 +509,18 @@ c). Durata medie de spitalizare
 
 DIAREEA
 
-1. Investigații : HLG, TGP, VSH, CRP
-- ex. macroscopic și microscopic al materiilor fecale (coprocitogramă)
+1. Investigatii : HLG, TGP, VSH, CRP
+- ex. macroscopic si microscopic al materiilor fecale (coprocitograma)
 - coprocultura
 - ex. coproparazitologic
-- ecografie abdominală
+- ecografie abdominala
 - rectosigmoidoscopie
-- irigografie diaree trenantă
+- irigografie diaree trenanta
 - colonoscopie
 
 2. Tratament
 
-a). Patogenic și simptomatic – reechilibrare hidroelectr olitică și acidobazică,
+a). Patogenic si simptomatic – reechilibrare hidroelectr olitica si acidobazica,
 antiemetice, antispastice
 -
  regim alimentar
@@ -545,20 +545,20 @@ Vibrio holerae – Cicline
 Campilobacter jejuni – fluorchinolone – 3 zile, sau
  - Macrolide → zile
  - Furazolidon 7 zile
-Yersinia – Fluorchinolone, Cicline (dacă există factori de risc)
+Yersinia – Fluorchinolone, Cicline (daca exista factori de risc)
 
 Listeria – Aminopeniciline
 
-Aeromonas – Fluorchinolone, cCftriaxonă (în forme severe)
+Aeromonas – Fluorchinolone, cCftriaxona (in forme severe)
 
 Entamoeba hystolitica – Metronidazol +
- cu sau fără intervenții chirurgicale
-(perforație, meteorism persistent, abces rupt)
+ cu sau fara interventii chirurgicale
+(perforatie, meteorism persistent, abces rupt)
 
 Diareea postantibiotica cu Clorstridium difficile
 -
- Metronidazol + Vancomicină (Teicoplonine) – 7 zile
-- sau Rifampicină, Eritromicină,
+ Metronidazol + Vancomicina (Teicoplonine) – 7 zile
+- sau Rifampicina, Eritromicina,
 
 3. Durata medie de spitalizare
  – →-7 zile
@@ -567,62 +567,62 @@ PNEUMONII
 
 A. Pneumonii virale
 
-Investigații
+Investigatii
 : – HLG, VSH, fibrinogen, CRP
- - bilanțul funcțiilor vitale și bilanț metabolic
- - rgf. pulmonară
+ - bilantul functiilor vitale si bilant metabolic
+ - rgf. pulmonara
 Tratament
 : - tratament simptomatic (antitermic, antalgic, vitamine) + antivirale
-- Oxigenoterapie – în caz de insuficiență respiratorie
-- Corticoterapie – în forme toxice
-- Antibiotice (în caz de suprainfecție bacteriană)
+- Oxigenoterapie – in caz de insuficienta respiratorie
+- Corticoterapie – in forme toxice
+- Antibiotice (in caz de suprainfectie bacteriana)
 
 B.
  Pneumonii bacteriene
 
-Investigații
+Investigatii
 :– HLG, VSH, fibrinogen, CRP
- - bilanțul funcțiilor vitale și bilanț metabolic, hemocultura
-- examen spută aspirat bronșic pentru identificarea
+ - bilantul functiilor vitale si bilant metabolic, hemocultura
+- examen sputa aspirat bronsic pentru identificarea
 aminoglicozideentului etiologic
- - Rgf. pulmonară
+ - Rgf. pulmonara
  - examenul lichidului pleural
 
-- CT toracic + bronhoscopia pentru diferențierea pneumo niilor
-neinfecțioase (ex. neoplasm bronhopulmonar)
+- CT toracic + bronhoscopia pentru diferentierea pneumo niilor
+neinfectioase (ex. neoplasm bronhopulmonar)
 
 Tratament
 : a). simptomatic (antitermic, antalgic, hidratare pent ru fluidificarea
-secrețiilor)
+secretiilor)
 
-● Forme ușoare la pacienții fără factori de risc – tratament ambulator
-● Pacienții cu factori de risc se spitalizează
-● Pacienții cu forme severe (cu factori de gravitate: fr ecv. respiratorii >30/min, TA
-sist.< 90 mHg, semne de insuficiență respiratorie severă, prezența metastazei
-septice, PAO < 60 mHg, tulburări de coagulare cu prezen ța PDF, CID) – necesită
-internare pe secție TI
+● Forme usoare la pacientii fara factori de risc – tratament ambulator
+● Pacientii cu factori de risc se spitalizeaza
+● Pacientii cu forme severe (cu factori de gravitate: fr ecv. respiratorii >30/min, TA
+sist.< 90 mHg, semne de insuficienta respiratorie severa, prezenta metastazei
+septice, PAO < 60 mHg, tulburari de coagulare cu prezen ta PDF, CID) – necesita
+internare pe sectie TI
 
 b). etiologic
 
-c). complicațiilor – insuficiență de organ
+c). complicatiilor – insuficienta de organ
 -
- insuficiență respiratorie acută necesită oxigenoterapii sa u ventilație asistată
+ insuficienta respiratorie acuta necesita oxigenoterapii sa u ventilatie asistata
 (PAO2 < 60 mHg)
-- formele hipertoxice (colaps, edem pulmonar) – necesită corticoterapie
+- formele hipertoxice (colaps, edem pulmonar) – necesita corticoterapie
 
 C.
- Pneumonii cu etiologie precizată
+ Pneumonii cu etiologie precizata
 
-Germene Prima alegere Alternativă
-Pneumococ –peni-s Penicilina G/ Amoxicilina Macrolid, Cl indamicină
+Germene Prima alegere Alternativa
+Pneumococ –peni-s Penicilina G/ Amoxicilina Macrolid, Cl indamicina
 Pneumococ – peni-r fluorchinolone respiratorii/
-Ceftriaxonă
+Ceftriaxona
 Macrolid, Glicopeptid
-Stafilococ meti-S Oxacilină + Rifampicină Cefalosporine gen. I, II,
+Stafilococ meti-S Oxacilina + Rifampicina Cefalosporine gen. I, II,
 fluorchinolone respiratorii,
-cotrimoxazol, Clindamicină
-Stafilococ meti-R Vancomicină +
-Rifampicină/aminoglicozid
+cotrimoxazol, Clindamicina
+Stafilococ meti-R Vancomicina +
+Rifampicina/aminoglicozid
 Linezolid
 Myc. pneumoniae Macrolid Cicline, fluorchinolone
 Ch. pneumoniae Cicline Macrolid, fluorchinolone
@@ -640,42 +640,42 @@ de beta-lactamaze
 Penicilina/Aminopenicilina +
 metronidazol
 Aspergillus Voriconazol Amfotericina B
-Pn. Carini cotrimoxazol Clindamicină + Primachine
+Pn. Carini cotrimoxazol Clindamicina + Primachine
 
-●Pneumonia comunitară a adultului
+●Pneumonia comunitara a adultului
 
-a). severitate medie (agenți etiologici: pneumococ, H. i nfl., Moraxella, Legionella,
+a). severitate medie (agenti etiologici: pneumococ, H. i nfl., Moraxella, Legionella,
 Chlamidya, My. Pneumoniae)
 
 cefalosporine gen. III/Amoxicilina – inhibitori de beta – lactamaze/
 Tratament Ertapenem + Azitromicina/Claritromicina
 fluorchinolone respiratorii
 
-b). ce necesită internare pe TI (agenți etiologici: pne umococ, H. infl., Moraxella,
+b). ce necesita internare pe TI (agenti etiologici: pne umococ, H. infl., Moraxella,
 legionella, Chlamidya, My. Pneumoniae, BGN, Staf. Auriu)
 
 Beta-lactamine antipiocianic (cefalosporine gen. III, IV,
 Tratament carbapenem, peniciline antipiocianic +
  inhibitori de β-lactamaze) +
  Ciprofloxacin + aminoglicozide
-Dacă există alergie la penicilină: Aztreorom + fluorchi nolone
+Daca exista alergie la penicilina: Aztreorom + fluorchi nolone
 respiratorii + aminoglicozide
-Situații particulare ale pneumoniilor comunitare
+Situatii particulare ale pneumoniilor comunitare
 
-1. Pneumonii de aspirație (anaerobi, enterobacterii)
-- Amoxicilină – inhibitori de β lactamaze
+1. Pneumonii de aspiratie (anaerobi, enterobacterii)
+- Amoxicilina – inhibitori de β lactamaze
 - Clindamicina + fluorchinolone
 - fluorchinolone respiratorii
 - cefalosporine gen. III
 - Imipenem, Meropenem
 
-2. Gripa suprainfectată (Stafilococ, pneumococ, H. infl.)
-- Amoxicilină– inhibitori de β etalactamaze
+2. Gripa suprainfectata (Stafilococ, pneumococ, H. infl.)
+- Amoxicilina– inhibitori de β etalactamaze
 - cefalosporine gen. II, III
 
-Pneumonia nosocomială
+Pneumonia nosocomiala
 
-1. precoce (< → zile de internare, pacient fără factori de risc)
+1. precoce (< → zile de internare, pacient fara factori de risc)
 – BGN enterici (nu piocianic), pneumococ, H. infl., NSSA, anaerobi, Legionella)
 - cefalosporine gen. III, cefalosporine gen. IV, β-lactamine – inhibitori de β
 lactamaze + aminoglicozide
@@ -684,17 +684,17 @@ lactamaze + aminoglicozide
 - Durata medie de spitalizare – 10 zile
 
 2.
- tardivă (> → zile de internare, cu factori de risc asociați)
+ tardiva (> → zile de internare, cu factori de risc asociati)
 - pneumococ, H. infl., MSSA, BGN + piocianic, Acinetobacter , MRSA,
 Enterobacter spp., Klebsiella spp.)
-- se practică dezescaladare terapeutică:
-Βlactamină antipiocianică + aminoglicozide anitpiociani c (fluorchinolone +
-Linezolid/Vancomicină)
+- se practica dezescaladare terapeutica:
+Βlactamina antipiocianica + aminoglicozide anitpiociani c (fluorchinolone +
+Linezolid/Vancomicina)
 -
- ulterior, adaptare în funcție de etiologie (+ antifu ngice în cazul asocierii de
+ ulterior, adaptare in functie de etiologie (+ antifu ngice in cazul asocierii de
 fungi)
 
-Pneumonia la imunodeprimați
+Pneumonia la imunodeprimati
 
 1. Neutropenic (Staf. BGN, fungi, virusuri, Pn. Carini)
 
@@ -706,7 +706,7 @@ tratament - Βlactamine antipiocianic + fluorchinolone resp. + aminoglicozide
 
 2. Imunodepresii celulare (MRSA, BGN, B.K., CMV, EBV, Pn. Carini)
 
- cefalosporine gen. III/Amoxicilină – inhibitori de β lactamaze +
+ cefalosporine gen. III/Amoxicilina – inhibitori de β lactamaze +
 tratament Macrolid
 fluorchinolone respiratorii
 
@@ -724,7 +724,7 @@ CMV Gangyclovir
 Aspergillu
 s
 Voriconazol/
-Amfotericină B
+Amfotericina B
 bk tuberculostatice
 
 INTFECTIA URLIANA
@@ -1069,31 +1069,31 @@ TRICHINELOZA
 
 Diagnostic paraclinic nespecific:
 -
- hemoleucogramă
+ hemoleucograma
 - VSH, fibrinogen, CRP
 - metabolic – glicemie
  - TGP, CPK, LDH
  - ionograma serica si urinara
- - proteinemia și albuminemia
+ - proteinemia si albuminemia
 -
- Rgf toracică
+ Rgf toracica
 - EKG
-- EEG – dacă sunt manifestări neurologice
+- EEG – daca sunt manifestari neurologice
 - EMG
 Diagnostic specific – serologic:
- - ELISA (din a 2-a săptămână de boală)
- - orice test ELISA pozitiv se confirmă prin testul de floculare cu bentonita
+ - ELISA (din a 2-a saptamana de boala)
+ - orice test ELISA pozitiv se confirma prin testul de floculare cu bentonita
  +
- IDR cu trichinelină (săptămâna a 3-a)
- ± biopsie musculară (săptămâna 3 - 4 de boală)
+ IDR cu trichinelina (saptamana a 3-a)
+ ± biopsie musculara (saptamana 3 - 4 de boala)
 
 TRATAMENT
 
 1. Etiologic
-- Săptămâna 1 : - Piperazină (Nematocton)
-- Săptămâna 2-3 : - Albendazol 400 mg/zi
+- Saptamana 1 : - Piperazina (Nematocton)
+- Saptamana 2-3 : - Albendazol 400 mg/zi
  - Mebendozol 10-1→ mg/kg/zi
- (Vermox - este preferabil in faza viscerală)
+ (Vermox - este preferabil in faza viscerala)
  - Tiabendazol →0 mg/kg/zi
  - Flubendazol 1,→ mg/k g/zi
 Durata tratamentului = 10 – 14 zile
@@ -1101,21 +1101,21 @@ Durata tratamentului = 10 – 14 zile
 2.
  Patogenic
 - HHC apoi PDN 1mg/kg/zi , 10 – 1→zi
-• manifestări alergice
-• afectare miocardică
-• manifestări neurologice
+• manifestari alergice
+• afectare miocardica
+• manifestari neurologice
 • forme severe
-- Reechilibrarea hidroelectrolitică (soluții cristaloide, sol. KCl, NaCl)
-- Reechilibrarea acidobazică (soluție bicarbonat)
+- Reechilibrarea hidroelectrolitica (solutii cristaloide, sol. KCl, NaCl)
+- Reechilibrarea acidobazica (solutie bicarbonat)
 - Aport energetic (ser glucozat →%, 10%)
-- Combaterea hipercatabolism proteic (soluții aminoacizi, plasmă,
+- Combaterea hipercatabolism proteic (solutii aminoacizi, plasma,
  anabolizante, vitamine grup B)
 - Sedative
 - Cardiotonice
-- Hepatoprotectoare injectabil și po.
+- Hepatoprotectoare injectabil si po.
 - Antipiretice
-- Antibiotice (dacă sunt infecții secundare, în funcție de antibiogramă)
-Durata spitalizării = 10 zile.
+- Antibiotice (daca sunt infectii secundare, in functie de antibiograma)
+Durata spitalizarii = 10 zile.
 
 RABIA
 
@@ -1123,51 +1123,51 @@ I. Profilaxia pre-expunere
 - identificarea persoanelor cu risc crescut
  - vaccinarea cu vaccin im la: 0 –7 – 21 – 28 zile
 II. Profilaxia post-expunere
-Identificare risc - profunzimea și localizarea mușcăturii
+Identificare risc - profunzimea si localizarea muscaturii
  - starea animalului
 
 D.
  RISC ANIMAL RISC PLAGA
 minor mediu major
-minor observație vaccin ser + vaccin
+minor observatie vaccin ser + vaccin
 Mediu vaccin +
-observație
+observatie
 ser + vacin ser + vaccin
 Major ser + vaccin ser + vaccin ser + vaccin
 Categorii de risc pentru animal :
-- minor – animal aparent sănătos, sau provocat, care poate fi urmărit
+- minor – animal aparent sanatos, sau provocat, care poate fi urmarit
  10-14 zile
 
 - mediu – animal
 • bolnav
-• dispărut
+• disparut
 • mort
-- major – animal sălbatic
- - animal cu rabie confirmată
-Categorii de risc pentru plagă :
+- major – animal salbatic
+ - animal cu rabie confirmata
+Categorii de risc pentru plaga :
  - minor
-/checkbld plagă superficială, nesângerândă, linsă
-/checkbld plagă la distanță de cap
+/checkbld plaga superficiala, nesangeranda, linsa
+/checkbld plaga la distanta de cap
 - mediu
-/checkbld plagă profundă
-/checkbld plagă in zone bogat inervate (degete, OGE)
+/checkbld plaga profunda
+/checkbld plaga in zone bogat inervate (degete, OGE)
 - major
-/checkbld plagă la cap, gât
-/checkbld orice mărime sau profunzime
+/checkbld plaga la cap, gat
+/checkbld orice marime sau profunzime
 TRATAMENT:
-A.: toaleta locală a plăgii
-- spălare abundentă cu apă și săpun
-- apoi tinctură de iod/alcool local
-- plaga se lasă să sângereze un timp, până la hemostază
-spontană și nu se va forța hemostaza decât în hemoragii
+A.: toaleta locala a plagii
+- spalare abundenta cu apa si sapun
+- apoi tinctura de iod/alcool local
+- plaga se lasa sa sangereze un timp, pana la hemostaza
+spontana si nu se va forta hemostaza decat in hemoragii
 abundente prin rupture vasculare
-- drenajul plăgii ( nu se suturează per primam)
+- drenajul plagii ( nu se sutureaza per primam)
 - pansament steril
-B. : imunizarea pasivă 40 U/kg (serantirabic, Ig antirabice = RIG)
-C. : imunizare activă (vaccin antirabic/VERORAB 0,→ ml 0 -3 -7 – 14 – 28 )
+B. : imunizarea pasiva 40 U/kg (serantirabic, Ig antirabice = RIG)
+C. : imunizare activa (vaccin antirabic/VERORAB 0,→ ml 0 -3 -7 – 14 – 28 )
 
-!!! Vaccinul antirabic + RIG se recomandă în orice expunere/mușcătură,
-orice localizare a plăgii și orice posibilitate de a urmări animalul
+!!! Vaccinul antirabic + RIG se recomanda in orice expunere/muscatura,
+orice localizare a plagii si orice posibilitate de a urmari animalul
 
 ENDOCARDITA
 

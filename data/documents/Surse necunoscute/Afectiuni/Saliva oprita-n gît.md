@@ -1,7 +1,7 @@
-Saliva se oprește-n gât și nu se poate nici înghiți nici da afară. Sau mucoasa stomacului se ridică-n gât și nu se poate elimina.
+Saliva se opreste-n gat si nu se poate nici inghiti nici da afara. Sau mucoasa stomacului se ridica-n gat si nu se poate elimina.
 
-**Salvia** : ea este planta miraculoasă care poate elimina aceste neajunsuri. Aflată pe toate drumurile fiind și ieftină este accesibilă tuturor.
+**Salvia** : ea este planta miraculoasa care poate elimina aceste neajunsuri. Aflata pe toate drumurile fiind si ieftina este accesibila tuturor.
 
-**Intern** : se beau două ceaiuri de salvie pe zi, unul dimineața și unul seara, înghițitură de înghițitură. O linguriță de plantă \[100 mg\] se opărește cu o cană de apa în clocot.
+**Intern** : se beau doua ceaiuri de salvie pe zi, unul dimineata si unul seara, inghititura de inghititura. O lingurita de planta \[100 mg\] se opareste cu o cana de apa in clocot.
 
-**Extern** : se fac inhalații din 2 linguri de plantă, opărite cu 100 ml apă în clocot, de două ori pe zi. Se pun 5 picături de soluție \[5%\] de propolis în fiecare nară, ce 3 ori pe zi.
+**Extern** : se fac inhalatii din 2 linguri de planta, oparite cu 100 ml apa in clocot, de doua ori pe zi. Se pun 5 picaturi de solutie \[5%\] de propolis in fiecare nara, ce 3 ori pe zi.

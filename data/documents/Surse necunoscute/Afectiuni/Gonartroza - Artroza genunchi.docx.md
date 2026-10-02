@@ -12,15 +12,15 @@ Se beau 4 cani/zi dintr-un decoct de coaja de salcie. Se fierb 2 linguri de coaj
 
 Minerale recomandate:	Mn + Cu, Cu + Au + Ag
 
-- Se rup colții cartofilor înainte ca aceștia să fie puși în pământ. Colții trebuie să fie de culoare albă, nicidecum verde.
+- Se rup coltii cartofilor inainte ca acestia sa fie pusi in pamant. Coltii trebuie sa fie de culoare alba, nicidecum verde.
 
-- Se umple un borcan cu colți de cartof și se toarnă apă deasupra, până când aceasta acoperă colții.
+- Se umple un borcan cu colti de cartof si se toarna apa deasupra, pana cand aceasta acopera coltii.
 
-- Se păstrează borcanul timp de 2 săptămâni la loc întunecat, ferit de razele solare.
+- Se pastreaza borcanul timp de 2 saptamani la loc intunecat, ferit de razele solare.
 
-- Se aplică, atât în timpul zilei, cât și în timpul nopții, comprese cu această soluție pe articulații. Compresele se lasă aproximativ 2 ore.
+- Se aplica, atat in timpul zilei, cat si in timpul noptii, comprese cu aceasta solutie pe articulatii. Compresele se lasa aproximativ 2 ore.
 
-De îndată ce am aflat această rețetă. am hotărât cu mama că merită încercată. Deja peste o săptămână mama reușea să doarmă noaptea, iar durerea acută a dispărut. Iar acum ea poate să meargă și fără baston. Este o mare victorie pentru noi!
+De indata ce am aflat aceasta reteta. am hotarat cu mama ca merita incercata. Deja peste o saptamana mama reusea sa doarma noaptea, iar durerea acuta a disparut. Iar acum ea poate sa mearga si fara baston. Este o mare victorie pentru noi!
 
 Generate colagen
 

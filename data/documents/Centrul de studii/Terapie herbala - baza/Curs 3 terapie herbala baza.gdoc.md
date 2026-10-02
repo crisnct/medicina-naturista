@@ -59,7 +59,7 @@ Numit si Nosebleed (Sangerarea nasului), a inceput sa castige poopularitate in u
 *Ciclu de viata*\- planta bianuala.*Infatisare*\- aceasta planta creste pana la 60 cm. Are o tulpina poroasa, dungata.Florile sale seamana cu crizantemele mici.Frunzele au forma iregulara, cu caneluri. Are un miros de camfor.*Habitat*\- de obicei creste in garduri vii.*Efecte*\- este o planta de incalzire folositoare pentru perioade de amorteala la femei, perioade dureroase, artrita si migrene.*Metoda*\- florile facute infuzie si luate ca ceai herbal de doua ori pe zi sunt foarte benefice, in special pentru congestie ginecologica si pentru usurarea durerilor de cap si migrenelor. De asemenea, sub forma de cataplasma, frunzele ajuta la usurarea durerii incheieturilot umflate.
 
 ### Bubericul (Scropularia nodosa)
-Numita si Scrophula Plant, Crownwort, Carpenter’s Herb si Poor Man’s Salve. Denumiri populare (regionale) in Romania: brâncă, poală, frunză-de-bubă-rea, iarbă-neagră, urzică-neagră, brânca porcului, buruiană de bubă, cartofe de germe, căpriță, grumăzare de porci, gușter, iarbă de trânji, iarba porcului, iarbă sărată, poală.
+Numita si Scrophula Plant, Crownwort, Carpenter’s Herb si Poor Man’s Salve. Denumiri populare (regionale) in Romania: branca, poala, frunza-de-buba-rea, iarba-neagra, urzica-neagra, branca porcului, buruiana de buba, cartofe de germe, caprita, grumazare de porci, guster, iarba de tranji, iarba porcului, iarba sarata, poala.
 
 *Ciclu de viata*\- planta perena.
 

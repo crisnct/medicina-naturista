@@ -1,22 +1,22 @@
-Glanda tiroida Pentru un efect mai sigur al oricărui tratament naturist,homeopat sau alopat se recomandă detoxifierea organismului cu următoarele plante :
+Glanda tiroida Pentru un efect mai sigur al oricarui tratament naturist,homeopat sau alopat se recomanda detoxifierea organismului cu urmatoarele plante :
 
-Se pun la fiert 5 cani de apa .Dupa ce dă în clocot se pune:
+Se pun la fiert 5 cani de apa .Dupa ce da in clocot se pune:
 
--1 linguriță plantă de flori de soc
+-1 lingurita planta de flori de soc
 
--1 linguriță plantă de trei frați pătați
+-1 lingurita planta de trei frati patati
 
-\- 1 linguriță boabe pisate de ienupăr
+\- 1 lingurita boabe pisate de ienupar
 
--1 linguriță plantă de ceai de coada calului
+-1 lingurita planta de ceai de coada calului
 
--1 linguriță plantă de echinacea
+-1 lingurita planta de echinacea
 
-Se ține vasul acoperit 10 minute după care se strecoară și se bea,neîndulcit, pe parcursul unei zile.
+Se tine vasul acoperit 10 minute dupa care se strecoara si se bea,neindulcit, pe parcursul unei zile.
 
-Se face o cură de 10 zile , se face pauză 10 zile dupa care se repeta cura --de trei ori.
+Se face o cura de 10 zile , se face pauza 10 zile dupa care se repeta cura --de trei ori.
 
-Nu se consumă :
+Nu se consuma :
 
 -carne
 
@@ -26,12 +26,12 @@ Nu se consumă :
 
 -tutun
 
--fară prăjeli
+-fara prajeli
 
 **Pe langa medicamentele alopate se recomanda Tratamente naturiste**
 
 \- Reteta 1: infuzie de cretisoara si coada calului, 2 cani pe zi (una dimineata si una seara cu o ora inainte de culcare).\
-- Reteta 2: infuzie de dragaica (sanziene), **O linguriță vârfuită cu drăgaica se opărește cu un sfert de litru de apă clocotită. Se lasă un minut, se strecoară și se beau** 2 cani pe zi cu inghitituri mici si gargara cat mai des posibil
+- Reteta 2: infuzie de dragaica (sanziene), **O lingurita varfuita cu dragaica se opareste cu un sfert de litru de apa clocotita. Se lasa un minut, se strecoara si se beau** 2 cani pe zi cu inghitituri mici si gargara cat mai des posibil
 
 \- Masaj la gat cu alifie de dragaica.\
 - Cura cu suc de lamaie.\

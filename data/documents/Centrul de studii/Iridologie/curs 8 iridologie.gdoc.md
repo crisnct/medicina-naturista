@@ -1,50 +1,50 @@
 IRIDOLOGIE
 
-## LECȚIA 8
+## LECTIA 8
 
-## PUPILA ÎN IRIDOLOGIE
+## PUPILA IN IRIDOLOGIE
 
-Forma pupilei are deseori o importanță deosebită pentru Iridologi.Ar putea îndrepta atenția spre o anumită parte a irisului, sau ar putea avea o semnificație proprie.
+Forma pupilei are deseori o importanta deosebita pentru Iridologi.Ar putea indrepta atentia spre o anumita parte a irisului, sau ar putea avea o semnificatie proprie.
 
-Așa cum știi, pupila normală are un cerc în centrul irisului. Forma sa este rezultatul contracțiilor opuse și dilatarea mușchiului fibrelor.Dilatarea este o funcție a sistemului nervos simpatic, în timp ce contractarea este o funcție a sistemului nervos parasimpatic. (care privește funcțiile vegetative).
+Asa cum stii, pupila normala are un cerc in centrul irisului. Forma sa este rezultatul contractiilor opuse si dilatarea muschiului fibrelor.Dilatarea este o functie a sistemului nervos simpatic, in timp ce contractarea este o functie a sistemului nervos parasimpatic. (care priveste functiile vegetative).
 
-## Aplatizare segmentară
+## Aplatizare segmentara
 
-Când o parte a pupilei pare aplatizată peste un segment, atunci se indică probleme în acea zonă. Iridologul trebuie apoi să se asigure că are grijă să evalueze acele segmente pe harta irisului.
+Cand o parte a pupilei pare aplatizata peste un segment, atunci se indica probleme in acea zona. Iridologul trebuie apoi sa se asigure ca are grija sa evalueze acele segmente pe harta irisului.
 
-Evident că dacă este văzută doar într-un ochi, atunci este legată de partea aceea de corp.
+Evident ca daca este vazuta doar intr-un ochi, atunci este legata de partea aceea de corp.
 
-## Aplatizarea superioară
+## Aplatizarea superioara
 
-Aceasta îndreaptă atenția spre creier, minte și zonele de simț. Iridologul ar trebui să fie atent la faptul că o asemenea aplatizare ar putea indica probleme senzoriale, simptomatologie mentală și stări de oboseală. Individul ar putea avea o tendință spre nervozitate, depresie, isterie sau multe alte boli psihotice severe.
+Aceasta indreapta atentia spre creier, minte si zonele de simt. Iridologul ar trebui sa fie atent la faptul ca o asemenea aplatizare ar putea indica probleme senzoriale, simptomatologie mentala si stari de oboseala. Individul ar putea avea o tendinta spre nervozitate, depresie, isterie sau multe alte boli psihotice severe.
 
-## Super aplatizarea medială
+## Super aplatizarea mediala
 
-Aceasta îndreaptă atenția spre simțuri și toate problemele de cap, excluzând creierul. Individul poate avea probleme cu ochii, nasul, sinusurile, sau cu dinții la fel ca și durerile de cap.
+Aceasta indreapta atentia spre simturi si toate problemele de cap, excluzand creierul. Individul poate avea probleme cu ochii, nasul, sinusurile, sau cu dintii la fel ca si durerile de cap.
 
-## Aplatizare medială
+## Aplatizare mediala
 
-Aceasta îndreaptă atenția spre întreaga coloană vertebrală, partea principală a sistemului nervos și glanda tiroidă.
+Aceasta indreapta atentia spre intreaga coloana vertebrala, partea principala a sistemului nervos si glanda tiroida.
 
-## Aplatizare infero-medială
+## Aplatizare infero-mediala
 
-Aceasta îndreaptă atenția spre tractul reproductiv și sistemul urinar. Individul poate avea probleme sexuale, de fertilitate sau de incontinență.
+Aceasta indreapta atentia spre tractul reproductiv si sistemul urinar. Individul poate avea probleme sexuale, de fertilitate sau de incontinenta.
 
-## Aplatizare inferioară
+## Aplatizare inferioara
 
-Aceasta se referă la pelvis și membrele inferioare. Poate de asemenea sa indice probleme cu eliminarea prin sistemul urinar. Aceasta în schimb poate cauza probleme pentru alte părți ale corpului. În particular, individul poate avea problme cu pielea.
+Aceasta se refera la pelvis si membrele inferioare. Poate de asemenea sa indice probleme cu eliminarea prin sistemul urinar. Aceasta in schimb poate cauza probleme pentru alte parti ale corpului. In particular, individul poate avea problme cu pielea.
 
-## Aplatizarea infero- laterală
+## Aplatizarea infero- laterala
 
-Aceasta se referă la membrele superioare și alte probleme legate de articulații. Suferinzii de artrită pot manifesta acest semn timpuriu, uneori chiar înainte ca artrita să aibă loc. Este de reținut faptul că nodurile Herbenden pot fi vizibile pe degetele mâinilor cu artrită înainte de începerea durerilor de articulații.
+Aceasta se refera la membrele superioare si alte probleme legate de articulatii. Suferinzii de artrita pot manifesta acest semn timpuriu, uneori chiar inainte ca artrita sa aiba loc. Este de retinut faptul ca nodurile Herbenden pot fi vizibile pe degetele mainilor cu artrita inainte de inceperea durerilor de articulatii.
 
-## Aplatizarea laterală
+## Aplatizarea laterala
 
-Îndreaptă atenția spre sistemul respirator si cel cardiovascular. Individul poate la fel de bine să sufere de dispnee, datorită unora dintre aceste cauze. De asemenea, poate suferi de boli de ficat probleme de sânge.
+Indreapta atentia spre sistemul respirator si cel cardiovascular. Individul poate la fel de bine sa sufere de dispnee, datorita unora dintre aceste cauze. De asemenea, poate suferi de boli de ficat probleme de sange.
 
-## Aplatizare supero-laterală
+## Aplatizare supero-laterala
 
-Se îndreaptă atenția către urechi, amețeli, probleme cu gâtul. De vreme ce măduva poate de asemenea să fie afectată pot exista probleme de gust și dificultăți în controlarea respirației. Asta datorită faptului că anumiți centri ai creierului sunt legați prin măduvă. Aceasta poate apărea de fapt la unii astmatici.
+Se indreapta atentia catre urechi, ameteli, probleme cu gatul. De vreme ce maduva poate de asemenea sa fie afectata pot exista probleme de gust si dificultati in controlarea respiratiei. Asta datorita faptului ca anumiti centri ai creierului sunt legati prin maduva. Aceasta poate aparea de fapt la unii astmatici.
 
 ![Imagine image1]
 
@@ -52,78 +52,78 @@ Se îndreaptă atenția către urechi, amețeli, probleme cu gâtul. De vreme ce
 
 ## Pupilele ovale
 
-Uneori, întreaga pupilă poate fi deformată, mai degrabă decât deformația segmentată a formei, care rezultă în aplatizarea segmentată. Pentru clasificarea pupilei ovale se folosește întotdeauna partea superiară a ovalului ca numitor. Aceasta este, dacă părțile superioare sunt îndreptate spre interior de linia axului 60- 30 ,atunci acestea sunt considerate ovale mediane; dacă sunt îndreptate înspre exterior atunci sunt considerate ovale laterale ș.a.m.d
+Uneori, intreaga pupila poate fi deformata, mai degraba decat deformatia segmentata a formei, care rezulta in aplatizarea segmentata. Pentru clasificarea pupilei ovale se foloseste intotdeauna partea superiara a ovalului ca numitor. Aceasta este, daca partile superioare sunt indreptate spre interior de linia axului 60- 30 ,atunci acestea sunt considerate ovale mediane; daca sunt indreptate inspre exterior atunci sunt considerate ovale laterale s.a.m.d
 
 ## Ovale verticale
 
-Acestea sunt semnul unei slabe diagnoze. Acestea indică faptul că individul suferă de o boală gravă și chiar că ar putea fi la un pas de deces. Prognosticul ar putea fi și mai grav dacă semnul este prezent în ambii ochi. Ar fi mai bine dacă ar fi doar la un singur ochi ,deși prognosticul este în continuare deprimant. Durata bolii poate fi prelungită.
+Acestea sunt semnul unei slabe diagnoze. Acestea indica faptul ca individul sufera de o boala grava si chiar ca ar putea fi la un pas de deces. Prognosticul ar putea fi si mai grav daca semnul este prezent in ambii ochi. Ar fi mai bine daca ar fi doar la un singur ochi ,desi prognosticul este in continuare deprimant. Durata bolii poate fi prelungita.
 
 ## Ovale orizontale
 
-Acestea sunt semne ale unei probleme mentale. Depresia este cea mai probabilă și pot exista tendințe auto-distructive. Aceasta poate lua forma unui abuz de sine asupra corpului sau tendințe spre un act suicidal. Poate de asemenea să indice probleme cu inima, sistemul respirator sau cu tiroida. Acest individ poate fi la riscul unei anghine sau infarct. Aceștia vor avea nevoie de sfaturi pentru un stil de viață foarte strict.
+Acestea sunt semne ale unei probleme mentale. Depresia este cea mai probabila si pot exista tendinte auto-distructive. Aceasta poate lua forma unui abuz de sine asupra corpului sau tendinte spre un act suicidal. Poate de asemenea sa indice probleme cu inima, sistemul respirator sau cu tiroida. Acest individ poate fi la riscul unei anghine sau infarct. Acestia vor avea nevoie de sfaturi pentru un stil de viata foarte strict.
 
 ## Ovale mediale
 
-Slăbiciunea este cuvântul cheie aici. Individul poate avea slabe rezerve, puțina putere. Ei vor suferi spasme dureroase ale articulațiilor inferioare.
+Slabiciunea este cuvantul cheie aici. Individul poate avea slabe rezerve, putina putere. Ei vor suferi spasme dureroase ale articulatiilor inferioare.
 
 ## Ovale laterale
 
-Aceasta e semnul unei instabilități emoționale. Vor fi napădiți de instabilitate, nervi, depresie. Ar putea de asemenea să fie la riscul pierderii conștiinței, convulsiilor, sau atacurilor cerebrale.
+Aceasta e semnul unei instabilitati emotionale. Vor fi napaditi de instabilitate, nervi, depresie. Ar putea de asemenea sa fie la riscul pierderii constiintei, convulsiilor, sau atacurilor cerebrale.
 
 ## Ovale oblice la dreapta
 
-Partea dreaptă a corpului este întotdeauna la risc. Indică probleme cu vezica urinară și probleme cu glandele.
+Partea dreapta a corpului este intotdeauna la risc. Indica probleme cu vezica urinara si probleme cu glandele.
 
-## Ovale oblice la stânga
+## Ovale oblice la stanga
 
-Partea stângă a corpului este întotdeauna la risc. Indică probleme sexuale sau cu ficatul.
+Partea stanga a corpului este intotdeauna la risc. Indica probleme sexuale sau cu ficatul.
 
 ## Deplasarea pupilelor
 
-Poziția pupilei în iris trebuie sa fie una așezată. În mod normal ar trebui să fie exact în centru, dar uneori poate fi și în afara centrului. Direcția atrasă indică slăbiciune sau posibilă slăbiuciune în acel segment al corpului.
+Pozitia pupilei in iris trebuie sa fie una asezata. In mod normal ar trebui sa fie exact in centru, dar uneori poate fi si in afara centrului. Directia atrasa indica slabiciune sau posibila slabiuciune in acel segment al corpului.
 
-În mod evident, o pupilă unilateral deplasată poate indica o problemă în acea parte a corpului.
+In mod evident, o pupila unilateral deplasata poate indica o problema in acea parte a corpului.
 
-Asigură-te, totuși, că nu e vorba de strabism. Acesta este un lucru destul de difetit, cauzat de slăbiciunea mușchilor, care controlează mișcările ochilor. În acest caz pupila va fi în continuare plasată în centrul irisului, dar globul ocular va fi deviat.
+Asigura-te, totusi, ca nu e vorba de strabism. Acesta este un lucru destul de difetit, cauzat de slabiciunea muschilor, care controleaza miscarile ochilor. In acest caz pupila va fi in continuare plasata in centrul irisului, dar globul ocular va fi deviat.
 
-## Deplasarea superioară
+## Deplasarea superioara
 
-Poate indica probleme cu stomacul, ulcer și posibilă hernie. Poate de asemenea, să indice probleme psihologice, de percepție sau disfuncții ale organelor de simț.
+Poate indica probleme cu stomacul, ulcer si posibila hernie. Poate de asemenea, sa indice probleme psihologice, de perceptie sau disfunctii ale organelor de simt.
 
-## Deplasarea supero-medială
+## Deplasarea supero-mediala
 
 Aceasta poate indica probleme respiratorii superioare sau orale.
 
-## Deplasarea medială
+## Deplasarea mediala
 
-Aceasta poate indica slabiciuni ale gâtului sau ale tiroidei.
+Aceasta poate indica slabiciuni ale gatului sau ale tiroidei.
 
-## Deplasarea infero-medială
+## Deplasarea infero-mediala
 
-Aceasta poate indica slăbiciuni ale coloanei vertebrale, ale vezicii urinare sau ale rectului incluzând hemoroizi.
+Aceasta poate indica slabiciuni ale coloanei vertebrale, ale vezicii urinare sau ale rectului incluzand hemoroizi.
 
-## Deplasarea inferioară
+## Deplasarea inferioara
 
-Poate indica probleme ale rinichilor sau ale articulațiilor inferioare.
+Poate indica probleme ale rinichilor sau ale articulatiilor inferioare.
 
-## Deplasarea infero-laterală
+## Deplasarea infero-laterala
 
-Aceasta indică afecțiuni ale ficatului sau ale splinei.
+Aceasta indica afectiuni ale ficatului sau ale splinei.
 
-## Deplasarea laterală
+## Deplasarea laterala
 
-Aceasta poate indica afecțiuni pieptului, inimii sau ficatului. Ar putea fi dezvoltat la femei, un nodul la piept.
+Aceasta poate indica afectiuni pieptului, inimii sau ficatului. Ar putea fi dezvoltat la femei, un nodul la piept.
 
-## Deplasarea supero-laterală
+## Deplasarea supero-laterala
 
-Indică probleme la nivelul urechilor și al gâtului.
+Indica probleme la nivelul urechilor si al gatului.
 
-## Mărimea pupilei
+## Marimea pupilei
 
-Mărimea pupilei este, în mod normal (în lumina zilei fără o lumina orbitoare în ochi) în jur de 3-4 mm diametru. Copii, au adesea unele mai mari, în timp ce cei mai în vârstă, ar putea avea unele mult mai contractate.
+Marimea pupilei este, in mod normal (in lumina zilei fara o lumina orbitoare in ochi) in jur de 3-4 mm diametru. Copii, au adesea unele mai mari, in timp ce cei mai in varsta, ar putea avea unele mult mai contractate.
 
-Așa cum știți, mărimea depinde de simularea relativă a sistemului simpatic și parasimpatic. Cu cât mai panicat și speriat este cineva, cu atât, mai multă activitate simpatică va fi și pupila va deveni mai dilatată. Cu cât cineva este mai calm și mai relaxat, cu atât, va fi mai contractat, datorită excesului relativ al activității parasimpatice. Excitarea sexuală va funcționa de asemenea prin cel simpatic să dilateze pupila.
+Asa cum stiti, marimea depinde de simularea relativa a sistemului simpatic si parasimpatic. Cu cat mai panicat si speriat este cineva, cu atat, mai multa activitate simpatica va fi si pupila va deveni mai dilatata. Cu cat cineva este mai calm si mai relaxat, cu atat, va fi mai contractat, datorita excesului relativ al activitatii parasimpatice. Excitarea sexuala va functiona de asemenea prin cel simpatic sa dilateze pupila.
 
 ## Culoarea pupilei
 
-O ceață verzuie în pupilă poate indica un glaucom. O ceață gri, poate indica formarea cataractei. Prezența acestora necesită o opinie medicală, din moment ce glaucoma poate fi o cauză preventibilă a orbirii și catractele cu diabeturile sau cu arteroscleroza.
+O ceata verzuie in pupila poate indica un glaucom. O ceata gri, poate indica formarea cataractei. Prezenta acestora necesita o opinie medicala, din moment ce glaucoma poate fi o cauza preventibila a orbirii si catractele cu diabeturile sau cu arteroscleroza.

@@ -1,85 +1,85 @@
-# Curățarea Și Revitalizarea Rinichilor
+# Curatarea Si Revitalizarea Rinichilor
 
 - Smoothie:
- * 200g de merișoare proaspete sau 3 linguri de merișoare uscate/confiate
- * 50-100g rădăcină de țelină
- * frunzele de la o țelină
- * 2 legături de pătrunjel
- * o lămâie
- * o lingură de polen de albine
- * o linguriță de apă de viță de vie
- * apă plată – cât este nevoie pentru a se mixa bine la blender
+ * 200g de merisoare proaspete sau 3 linguri de merisoare uscate/confiate
+ * 50-100g radacina de telina
+ * frunzele de la o telina
+ * 2 legaturi de patrunjel
+ * o lamaie
+ * o lingura de polen de albine
+ * o lingurita de apa de vita de vie
+ * apa plata – cat este nevoie pentru a se mixa bine la blender
 
-Smoothie-ul se bea dimineața în loc de mic dejun timp de două luni.
+Smoothie-ul se bea dimineata in loc de mic dejun timp de doua luni.
 
-- infuzie din frunze de merișor și mătase de porumb. Peste două lingurițe de frunze de merișor si 2 linguri de mătase de porumb se pune o cană de apă clocotită și se acoperă imediat. După 15 min se strecoară și se pune un vârf de cuțit de bicarbonat de sodiu. Se bea seara între 17 și 19\. După 7 zile se face pauză 3 zile dupa care se poate relua tratamentul. În timpul folosirii acestei infuzii este posibil ca urina să se coloreze usor în verde, dar nu trebuie să fie motiv de îngrijorare; se elimină o substanță \-hidrochinona- care se află în plantă). Frunzele de merișor au actiune de sfărâmare a pietrelor.
-- decoct din rădăcină de măceș: este folosit cu succes în Tibet pentru sfărâmarea pietrelor de la rinichi. Rădăcina mărunțită se fierbe în apă timp de 10-20 minute. Se strecoară și se poate consuma. Cantitatea de rădăcină folosită la o cană de apă se va determina experimental (pentru că depinde de fiecare organism în parte). La început se poate pune o linguriță de rădăcină uscată (sau 2 lingurițe de rădăcină proaspată) la o cană de apă. Cantitatea de planta se poate crește până la 2-3 lingurițe (la o cană). Se beau 1-2 căni pe zi, una dimineața și una seara.
-- decoct din semințe de mac: 3 linguri de semințe de mac la o cană de apă îndulcită cu puțină miere. Se fierbe 5 min.
-- ulei esențial de eucalipt: 2 picături sub limbă seara.
-- ceai pentru eliminarea rapidă a pietrelor (reteta foarte veche): mătase de Porumb ( 30g ) \+ cozi de Cireșe ( 20g ) \+ Coada-calului ( 15g ) \+ muguri de Pin ( 15g ) \+ frunze de Mesteacăn ( 10g ) \+ rădăcină de Valeriană ( 10g ) \+ propolis brut răzuit ( 100g ). Toate aceste plante, fara propolis, se pun la fiert în 3 l apă. Cand a dat în clocot se adaugă propolisul răzuit și se continuă fierberea timp de 10-20 minute. Se strecoară și se păstrează la frigider. Se beau 1-2 căni de 3 ori pe zi. Ultima cană se bea în jurul orelor 18\.
-- infuzie din frunze de Păr pădureț: 25g frunze uscate la 1 l apă. Cantitatea se bea în cursul unei zile.. Are efect de sfărâmare a pietrelor.
-- decoct din semințe de rodie: 2 lingurițe de semințe măcinate se fierb în 500ml apă timp de 10min la foc mic, după ce a început să clocotească. Se bea cu guri mici.
-- infuzie din drăgaică, splinuță de pădure și urzică moartă galbenă, in părți egale. Se beau 4 cești/zi cu inghițituri mici. Efectul se vede după 14 zile.
-- ceai de ovăz: 4 linguri rase de fulgi de ovăz, se fierb la foc mic in 1 litru de apă 20 min. Acest decoct se consumă pe parcursul unei zile timp de 14 zile. Acest ceai este bun și pentru eliminarea nisipului de la rinichi.
-- **Tratament de eliminare a pietrelor de la rinichi într-o singură zi**: un litru de apă cu 250g rădăcină de pătrunjel curățată și tocată, se fierbe pană scade la o cană, se strecoară și se imparte in 3 ceșcuțe, se bea pe stomacul gol una dimineața, la pranz si seara. In ziua respectivă nu se mănancă nimic. A doua zi piatra se transformă in nisip. Tratamentul durează o zi.
+- infuzie din frunze de merisor si matase de porumb. Peste doua lingurite de frunze de merisor si 2 linguri de matase de porumb se pune o cana de apa clocotita si se acopera imediat. Dupa 15 min se strecoara si se pune un varf de cutit de bicarbonat de sodiu. Se bea seara intre 17 si 19\. Dupa 7 zile se face pauza 3 zile dupa care se poate relua tratamentul. In timpul folosirii acestei infuzii este posibil ca urina sa se coloreze usor in verde, dar nu trebuie sa fie motiv de ingrijorare; se elimina o substanta \-hidrochinona- care se afla in planta). Frunzele de merisor au actiune de sfaramare a pietrelor.
+- decoct din radacina de maces: este folosit cu succes in Tibet pentru sfaramarea pietrelor de la rinichi. Radacina maruntita se fierbe in apa timp de 10-20 minute. Se strecoara si se poate consuma. Cantitatea de radacina folosita la o cana de apa se va determina experimental (pentru ca depinde de fiecare organism in parte). La inceput se poate pune o lingurita de radacina uscata (sau 2 lingurite de radacina proaspata) la o cana de apa. Cantitatea de planta se poate creste pana la 2-3 lingurite (la o cana). Se beau 1-2 cani pe zi, una dimineata si una seara.
+- decoct din seminte de mac: 3 linguri de seminte de mac la o cana de apa indulcita cu putina miere. Se fierbe 5 min.
+- ulei esential de eucalipt: 2 picaturi sub limba seara.
+- ceai pentru eliminarea rapida a pietrelor (reteta foarte veche): matase de Porumb ( 30g ) \+ cozi de Cirese ( 20g ) \+ Coada-calului ( 15g ) \+ muguri de Pin ( 15g ) \+ frunze de Mesteacan ( 10g ) \+ radacina de Valeriana ( 10g ) \+ propolis brut razuit ( 100g ). Toate aceste plante, fara propolis, se pun la fiert in 3 l apa. Cand a dat in clocot se adauga propolisul razuit si se continua fierberea timp de 10-20 minute. Se strecoara si se pastreaza la frigider. Se beau 1-2 cani de 3 ori pe zi. Ultima cana se bea in jurul orelor 18\.
+- infuzie din frunze de Par paduret: 25g frunze uscate la 1 l apa. Cantitatea se bea in cursul unei zile.. Are efect de sfaramare a pietrelor.
+- decoct din seminte de rodie: 2 lingurite de seminte macinate se fierb in 500ml apa timp de 10min la foc mic, dupa ce a inceput sa clocoteasca. Se bea cu guri mici.
+- infuzie din dragaica, splinuta de padure si urzica moarta galbena, in parti egale. Se beau 4 cesti/zi cu inghitituri mici. Efectul se vede dupa 14 zile.
+- ceai de ovaz: 4 linguri rase de fulgi de ovaz, se fierb la foc mic in 1 litru de apa 20 min. Acest decoct se consuma pe parcursul unei zile timp de 14 zile. Acest ceai este bun si pentru eliminarea nisipului de la rinichi.
+- **Tratament de eliminare a pietrelor de la rinichi intr-o singura zi**: un litru de apa cu 250g radacina de patrunjel curatata si tocata, se fierbe pana scade la o cana, se strecoara si se imparte in 3 cescute, se bea pe stomacul gol una dimineata, la pranz si seara. In ziua respectiva nu se mananca nimic. A doua zi piatra se transforma in nisip. Tratamentul dureaza o zi.
 - Zinc: 10 \- 50mg pe zi
-- Cură cu vișine/cireșe: 500g pe fiecare zi timp de 10 zile. A se consuma doar pe stomacul gol.
-- În fiecare seară la cel puțin două ore după cină se va consuma 1-2 pere. E important să consumați perele pe stomacul gol.
-- Tinctură de ienupăr: 20-40 picături seara între 17-19 înainte de cină cu 30min. Crește imunitatea la nivelul rinichilor. A se folosi maxim 6 săptămâni. Nu se administrează pacienților cu inflamații sau leziuni la rinichi sau leziuni pe căile urinare. În cazul depășirii dozelor recomandate, pot avea loc fenomene hemoragice renale sau intestinale.
+- Cura cu visine/cirese: 500g pe fiecare zi timp de 10 zile. A se consuma doar pe stomacul gol.
+- In fiecare seara la cel putin doua ore dupa cina se va consuma 1-2 pere. E important sa consumati perele pe stomacul gol.
+- Tinctura de ienupar: 20-40 picaturi seara intre 17-19 inainte de cina cu 30min. Creste imunitatea la nivelul rinichilor. A se folosi maxim 6 saptamani. Nu se administreaza pacientilor cu inflamatii sau leziuni la rinichi sau leziuni pe caile urinare. In cazul depasirii dozelor recomandate, pot avea loc fenomene hemoragice renale sau intestinale.
 - Cafea din cicoare
-- Sevă de mesteacăn(se găsește la Lidl sau în magazinele naturiste): o cană seara pe stomacul gol.
-- Socată
-- Curățarea și purificarea rinichilor: Se iau 6 crenguțe de mure de 50-60 cm fiecare. Se taie mărunt ca ceapa și se pun la fiert într-o cratiță de 6 l plină cu apă de izvor sau filtrată. Se fierbe 2-3 ore fără capac, la foc încet, până când rămâne jumătate (3 l). În două zile se bea toată cantitatea, fracționat, în părți egale, în decursul primei și celei de-a doua zi. Timp de o săptămână se recomandă alimentație vegetariană, fără carne (trei zile înainte și trei zile după tratament). În timpul tratamentului, chiar și după, se poate verifica urina, în care vom observa (dacă e cazul) nisipul și chiar și calculi de mici dimensiuni.
+- Seva de mesteacan(se gaseste la Lidl sau in magazinele naturiste): o cana seara pe stomacul gol.
+- Socata
+- Curatarea si purificarea rinichilor: Se iau 6 crengute de mure de 50-60 cm fiecare. Se taie marunt ca ceapa si se pun la fiert intr-o cratita de 6 l plina cu apa de izvor sau filtrata. Se fierbe 2-3 ore fara capac, la foc incet, pana cand ramane jumatate (3 l). In doua zile se bea toata cantitatea, fractionat, in parti egale, in decursul primei si celei de-a doua zi. Timp de o saptamana se recomanda alimentatie vegetariana, fara carne (trei zile inainte si trei zile dupa tratament). In timpul tratamentului, chiar si dupa, se poate verifica urina, in care vom observa (daca e cazul) nisipul si chiar si calculi de mici dimensiuni.
 
- Bine de știut:
- CATARACTA ȘI GLAUCOMUL: nu este numai o boală a ochilor, ci provine mai exact dîntr-o dereglare a rinichilor. De cele mai multe ori, glaucomul merge mână în mână cu reumatismul și durerile articulare. Se face un amestec în părți egale din urzică, ventrilică, gălbenele și coada calului, se beau 3 cești în care se pune 1 linguriță de biter suedez. În cazul cataractei, se ung pleoapele cu biter suedez. Rinichiul dereglat transmite presiunea ascendentă mai departe ochilor.
+ Bine de stiut:
+ CATARACTA SI GLAUCOMUL: nu este numai o boala a ochilor, ci provine mai exact dintr-o dereglare a rinichilor. De cele mai multe ori, glaucomul merge mana in mana cu reumatismul si durerile articulare. Se face un amestec in parti egale din urzica, ventrilica, galbenele si coada calului, se beau 3 cesti in care se pune 1 lingurita de biter suedez. In cazul cataractei, se ung pleoapele cu biter suedez. Rinichiul dereglat transmite presiunea ascendenta mai departe ochilor.
 
-- Alimente care fac rinichii fericiți:
- * arahide coapte (nu prăjite în ulei)
+- Alimente care fac rinichii fericiti:
+ * arahide coapte (nu prajite in ulei)
  * ananas
- * agrișe
+ * agrise
  * afine
  * brocoli
  * castane coapte
  * ceapa verde
- * cireșe
+ * cirese
  * gulie
- * măsline
- * vișine
+ * masline
+ * visine
  * vanilie
  * usturoi
  * urzica
- * leurdă
- * pepene verde și galben
+ * leurda
+ * pepene verde si galben
  * **pere**
  * praz
  * prune
  * piersici
- * pătrunjel
- * ridichi roșii
+ * patrunjel
+ * ridichi rosii
  * struguri
- * sâmburi de dovleac
+ * samburi de dovleac
  * orez
 
-- Alimente ce se vor consuma în cantități cât mai mici pe durata tratamentului:
+- Alimente ce se vor consuma in cantitati cat mai mici pe durata tratamentului:
  * ardeiul iute
- * brânză
+ * branza
  * cafea
  * cacao
  * carne
  * lapte
  * spanac
- * sfeclă
+ * sfecla
  * smochine
- * sare de bucătărie
- * sare de lămâie
- * lobodă
- * varză
- * țelină
+ * sare de bucatarie
+ * sare de lamaie
+ * loboda
+ * varza
+ * telina
  * portocale
- * roșii
- * muștar
+ * rosii
+ * mustar
  * piper
 
 - Vitamina D se va evita pe durata tratamentului
-- Dacă rinichii sunt inflamați atunci se va evita consumul de pătrunjel.
+- Daca rinichii sunt inflamati atunci se va evita consumul de patrunjel.

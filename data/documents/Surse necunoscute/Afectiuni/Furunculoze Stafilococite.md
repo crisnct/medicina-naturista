@@ -1,3 +1,3 @@
 # Furunculoze Stafilococite
 
-Pentru cei ce suferă de furunculoză stafilococie \[cutanată disecantă\] . Tratamentul cu antibiotice, nu dau rezultate întotdeauna, dar la farmacia Institutului dr. Cantacuzino, există un vaccin antistafilococic gata preparat, care a dat rezultate foarte bune, sau în urma analizelor se poate face un alt vaccin preparat chiar de ei. De asemenea se recomandă întărirea sistemului imunitar cu Spirulină, vitamina C sau o altă rețetă .
+Pentru cei ce sufera de furunculoza stafilococie \[cutanata disecanta\] . Tratamentul cu antibiotice, nu dau rezultate intotdeauna, dar la farmacia Institutului dr. Cantacuzino, exista un vaccin antistafilococic gata preparat, care a dat rezultate foarte bune, sau in urma analizelor se poate face un alt vaccin preparat chiar de ei. De asemenea se recomanda intarirea sistemului imunitar cu Spirulina, vitamina C sau o alta reteta .

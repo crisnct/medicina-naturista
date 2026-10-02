@@ -10,43 +10,43 @@
 
 Ingrediente:
 
-– rădăcină și rizomi de Ciuboțica–cucului–65g
+– radacina si rizomi de Ciubotica–cucului–65g
 
-– rădăcină de Brusture – 54g
+– radacina de Brusture – 54g
 
 – fructe de Anason – 54g
 
-– apă – 1120ml
+– apa – 1120ml
 
-– zahăr – 560g
+– zahar – 560g
 
 – bicarbonat de sodiu – 3g
 
 Mod de preparare:
 
-Se face decoct din rădăcină și rizomii de Ciuboțica-cucului și 504ml apă. În timpul fierberii se adaugă bicarbonatul de sodiu. Se strecoară și se lasă deoparte.
+Se face decoct din radacina si rizomii de Ciubotica-cucului si 504ml apa. In timpul fierberii se adauga bicarbonatul de sodiu. Se strecoara si se lasa deoparte.
 
-Se face decoct din rădăcina de Brusture și 336ml apă, după care se strecoară și se lasă deoparte.
+Se face decoct din radacina de Brusture si 336ml apa, dupa care se strecoara si se lasa deoparte.
 
-Se face infuzie din fructele de Anason zdrobite și 280ml apă.
+Se face infuzie din fructele de Anason zdrobite si 280ml apa.
 
-Se amestecă cele 3 soluții și se adaugă zahărul. Se agită recipientul până la dizolvarea aproape completă a zahărului. Siropul se păstrează la frigider.
+Se amesteca cele 3 solutii si se adauga zaharul. Se agita recipientul pana la dizolvarea aproape completa a zaharului. Siropul se pastreaza la frigider.
 
-Acțiuni:
+Actiuni:
 
-expectorant, fluidifiant al secrețiilor bronșice, diuretice, antispastic.
+expectorant, fluidifiant al secretiilor bronsice, diuretice, antispastic.
 
-Indicații:
+Indicatii:
 
-anorexii, disconfort abdominal, dureri abdominale, tuse, colici hepato-biliare. Adjuvant în bronșite, bronhopneumopatii, calculoză biliară.
+anorexii, disconfort abdominal, dureri abdominale, tuse, colici hepato-biliare. Adjuvant in bronsite, bronhopneumopatii, calculoza biliara.
 
 Administrare:
 
-adulți: 1 – 2 linguri x 3 ori / zi
+adulti: 1 – 2 linguri x 3 ori / zi
 
-copii > 6 ani : ½ – 1 linguriță x 2 ori / zi
+copii > 6 ani : ½ – 1 lingurita x 2 ori / zi
 
-copii 2 – 5 ani: ½ linguriță o dată pe zi
+copii 2 – 5 ani: ½ lingurita o data pe zi
 
 Tratament naturist cu efect antibiotic si antiviral pentru infectiile cailor respiratorii
 

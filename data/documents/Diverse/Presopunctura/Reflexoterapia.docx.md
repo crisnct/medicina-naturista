@@ -30,13 +30,13 @@
 -
 -
 
-## Imagini și OCR
+## Imagini si OCR
 
 ### Imagine 1 image1.jpeg
 
 - Dimensiune: 468 × 316 px
 - SHA-256: `c38aaea7ef8dc8ce2120f7b3cf8e69ffd4124e012324e391274512911137a9f7`
-- OCR Tesseract eng încredere medie: 69.2%
+- OCR Tesseract eng incredere medie: 69.2%
 
 ```text
 ele reflexogene in maini
@@ -71,13 +71,13 @@ Mana stanga
 - Dimensiune: dimensiuni nedetectate
 - SHA-256: `789e1ad9d83145685b124eab322b3972715d4b1299eb8e22c6f6f3cf0ed5ee5a`
 
-_OCR-ul local nu a recuperat text suficient de fiabil din această imagine._
+_OCR-ul local nu a recuperat text suficient de fiabil din aceasta imagine._
 
 ### Imagine 3 image3.jpeg
 
 - Dimensiune: 331 × 379 px
 - SHA-256: `7436064303e256079c83b6285d325feb5bde749cc0acd7265c93ecd493fd6ec5`
-- OCR Tesseract eng încredere medie: 71.1%
+- OCR Tesseract eng incredere medie: 71.1%
 
 ```text
 D2
@@ -96,7 +96,7 @@ Picior sang
 
 - Dimensiune: 295 × 200 px
 - SHA-256: `faa60280ce48fdaafeebfcc5963e23159067abca44c5bafbf95ee0dfea89faef`
-- OCR Tesseract eng încredere medie: 88.5%
+- OCR Tesseract eng incredere medie: 88.5%
 
 ```text
 ‘drept (fata
@@ -106,7 +106,7 @@ Picior sang
 
 - Dimensiune: 270 × 183 px
 - SHA-256: `c245bf76aff7d04890c3722793d8e49957777ad6f962934e299e1ba10a1c4220`
-- OCR Tesseract eng încredere medie: 76.0%
+- OCR Tesseract eng incredere medie: 76.0%
 
 ```text
 Picior stang (fata interna)
@@ -118,7 +118,7 @@ of
 
 - Dimensiune: 317 × 363 px
 - SHA-256: `49a7afdda332ea9ae62231307f14bfaf648749408104e08a583bdd47adfa41f1`
-- OCR Tesseract eng încredere medie: 67.6%
+- OCR Tesseract eng incredere medie: 67.6%
 
 ```text
 Zonele reflexogene ale parti dorsale

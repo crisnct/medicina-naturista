@@ -1,13 +1,13 @@
-# Recomandari naturiste pentru eliminarea paraziților interni; paraziti
+# Recomandari naturiste pentru eliminarea parazitilor interni; paraziti
 
-- Extractul din coajă de nucă verde.
+- Extractul din coaja de nuca verde.
 
-- Atenție! A nu se folosi de persoanele care au probleme cu tiroida.
+- Atentie! A nu se folosi de persoanele care au probleme cu tiroida.
 
-Alimentație
+Alimentatie
 
 - fructe:
 
 - legume:
 
-- semințe: dovleac(crude)
+- seminte: dovleac(crude)

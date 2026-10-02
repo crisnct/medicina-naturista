@@ -1,23 +1,23 @@
 # Diabet, pancreas
 
-Un lucru foarte important este ținerea unui regim alimentar sever.
+Un lucru foarte important este tinerea unui regim alimentar sever.
 
-Toate dulciurile sunt interzise, inclusiv consumul alcoolului, al cafelei al ceaiului negru, pâinea albă, supă de carne și prăjiturile, în locul lor se vor consuma legume, salate, cartofi dar nu prăjiți, pâine integrată, carne slabă, fulgi de ofăz, fructe. Hrana trebuie să fie bine mestecată și consumată încet.
+Toate dulciurile sunt interzise, inclusiv consumul alcoolului, al cafelei al ceaiului negru, painea alba, supa de carne si prajiturile, in locul lor se vor consuma legume, salate, cartofi dar nu prajiti, paine integrata, carne slaba, fulgi de ofaz, fructe. Hrana trebuie sa fie bine mestecata si consumata incet.
 
-**Fiertură de sâmburi de dovleac :** curățați de coajă și tăiați mărunt 30gr de semințe de dovleac, puneți-le să fiarbă într-o jumătate de litru de apă, vreme de 10 minute, la foc mic. Lăsați băutura să se răcească, apoi strecurați-o. Beți în fiecare dimineață câte o ceașcă de ceai pe stomacul gol, iar seara, aceiași cantitate cu 30 de minute înainte de a vă culca.
+**Fiertura de samburi de dovleac :** curatati de coaja si taiati marunt 30gr de seminte de dovleac, puneti-le sa fiarba intr-o jumatate de litru de apa, vreme de 10 minute, la foc mic. Lasati bautura sa se raceasca, apoi strecurati-o. Beti in fiecare dimineata cate o ceasca de ceai pe stomacul gol, iar seara, aceiasi cantitate cu 30 de minute inainte de a va culca.
 
-**Ceai de teci de fasole uscată :** foarte diuretic, tecile de fasole au proprietatea de a micșora valorile zahărului din sânge. Seara fierbeți vreme de 2 ore 100gr de teci de fasole uscate, tăiate mărunt, intr-un litru și jumătate de apă. Lăsați-le să fiarbă până ce lichidul scade la jumătate, lăsați-le în apa în care au fiert, la macerat până a doua zi de dimineață. Strecurați și beți peste zi între mese cât vreți .
+**Ceai de teci de fasole uscata :** foarte diuretic, tecile de fasole au proprietatea de a micsora valorile zaharului din sange. Seara fierbeti vreme de 2 ore 100gr de teci de fasole uscate, taiate marunt, intr-un litru si jumatate de apa. Lasati-le sa fiarba pana ce lichidul scade la jumatate, lasati-le in apa in care au fiert, la macerat pana a doua zi de dimineata. Strecurati si beti peste zi intre mese cat vreti .
 
-**Cură de o săptămână pe lună, în exclusivitate cu sucuri :** 330gr suc de morcovi, 100gr suc de țelină, 100gr suc de salată verde, 100gr suc de fasole verde, 60gr suc de andive, 120gr suc de pătrunjel . Se amestecă toate și se beau în mai multe reprize pe zi. Dintre plante, prietena diabetului este **salvia .** Se bea 2-3 căni pe zi, dintr-o infuzie de 1 linguriță de plantă opărită cu o cană de apă în clocot.
+**Cura de o saptamana pe luna, in exclusivitate cu sucuri :** 330gr suc de morcovi, 100gr suc de telina, 100gr suc de salata verde, 100gr suc de fasole verde, 60gr suc de andive, 120gr suc de patrunjel . Se amesteca toate si se beau in mai multe reprize pe zi. Dintre plante, prietena diabetului este **salvia .** Se bea 2-3 cani pe zi, dintr-o infuzie de 1 lingurita de planta oparita cu o cana de apa in clocot.
 
-Faceți zilnic gimnastică medicală, aceste exerciți vă vor ajuta foarte mult. Faceți-le pe balcon sau afară, important este să asudați după care faceți un duș călduț. Mergeți cât mai mult pe jos.
+Faceti zilnic gimnastica medicala, aceste exerciti va vor ajuta foarte mult. Faceti-le pe balcon sau afara, important este sa asudati dupa care faceti un dus caldut. Mergeti cat mai mult pe jos.
 
-**Ceai antidiabetic --** rețeta îi aparține unui celebru preot-vindecător elvețian Kuzle, ale cărui metode de vindecare sânt căutate acu în Occident.
+**Ceai antidiabetic --** reteta ii apartine unui celebru preot-vindecator elvetian Kuzle, ale carui metode de vindecare sant cautate acu in Occident.
 
-3 lingurițe cerențel \[Geum alpina\] + 1 linguriță frunze de mur + 1 linguriță frunze de fragi + 3 lingurițe scrântitoare \[Potentila aurea\] + 2 lingurițe de păstăi de fasole tăiată mărunt. Se amestecă bine toate plantele, apoi se ia o linguriță cu vârf de amestec, se opărește cu o cană de apă și se lasă să stea 3 minute. Se bea 1-2 litri ceai pe zi. Tot acest călugăr recomandă diabeticilor să țină o dietă cu țelină crudă \[salate\] zeamă de varză acră, morcovi proaspeți, ceapă și usturoi, rase pe pâine integrală.
+3 lingurite cerentel \[Geum alpina\] + 1 lingurita frunze de mur + 1 lingurita frunze de fragi + 3 lingurite scrantitoare \[Potentila aurea\] + 2 lingurite de pastai de fasole taiata marunt. Se amesteca bine toate plantele, apoi se ia o lingurita cu varf de amestec, se opareste cu o cana de apa si se lasa sa stea 3 minute. Se bea 1-2 litri ceai pe zi. Tot acest calugar recomanda diabeticilor sa tina o dieta cu telina cruda \[salate\] zeama de varza acra, morcovi proaspeti, ceapa si usturoi, rase pe paine integrala.
 
-**Un alt călugăr-vindecător** spune că diabetul este o boală legată de proasta funcționare a pancreasului, și recomandă activarea lui prin : turnări de apă \[băi\] folosit extrem de mult acum în America .
+**Un alt calugar-vindecator** spune ca diabetul este o boala legata de proasta functionare a pancreasului, si recomanda activarea lui prin : turnari de apa \[bai\] folosit extrem de mult acum in America .
 
-Tratamentul -- prevede ca bolnavul să șadă pe un scăunel băgat într-un lighean mare cu apă \[25-30 grade\] ținându-și picioarele afară pe podea.Cu ajutorul unei cârpe aspre de cânepa, se fac masaje pe abdomen, înmuind repetat cârpe în apă, apoi punând-o în jos, de la ombilic spre părțile lateraleale abdomenului, spre picioare. Baia durează între 10-12 minute, după care bolnavul trebuie să se bage la căldură, în pat.
+Tratamentul -- prevede ca bolnavul sa sada pe un scaunel bagat intr-un lighean mare cu apa \[25-30 grade\] tinandu-si picioarele afara pe podea.Cu ajutorul unei carpe aspre de canepa, se fac masaje pe abdomen, inmuind repetat carpe in apa, apoi punand-o in jos, de la ombilic spre partile lateraleale abdomenului, spre picioare. Baia dureaza intre 10-12 minute, dupa care bolnavul trebuie sa se bage la caldura, in pat.
 
-Un medicament gata făcut \[naturist\] este „Fitodiab" care dă rezultate foarte bune și este făcut de firma „Holigal" dar numai în cazul diabeticilor care nu folosesc insulina. Condiția să dea rezultat este un regim alimentar sever.
+Un medicament gata facut \[naturist\] este „Fitodiab" care da rezultate foarte bune si este facut de firma „Holigal" dar numai in cazul diabeticilor care nu folosesc insulina. Conditia sa dea rezultat este un regim alimentar sever.

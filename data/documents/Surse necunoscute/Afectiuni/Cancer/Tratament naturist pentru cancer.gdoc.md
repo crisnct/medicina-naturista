@@ -1,17 +1,17 @@
 # Recomandari naturiste pentru cancer
 
-- **Vitamina B17(amigdalină):** 500mg x 2-3 ori pe zi, SAU **sâmburi de caise amari**(1 lingură x 2 ori pe zi). După o lună se face pauză tot de o lună. Pe perioada administrării de vit B17 de sâmburi trebuie luat și **armurariu**(supliment cu extract de armurariu 1000mg armurariu pe capsulă sau 250mg extract de armurariu pe capsulă). În cazul unei persoane cu cancer, amigdalina se transformă de organism în cianură iar cianura ajută la micșorarea și eliminarea celulelor canceroase. Armurariul e pentru protecția ficatului.
-- **Ceai de peliniță**: infuzie din 2 linguri de planta la două căni de apă. Cantitatea de ceai se bea în cursul unei zile. Dacă se ia și un supliment cu fier, atunci cancerul poate fi vindecat mult mai rapid. Fierul ajută doar în combinație cu acest ceai. După o săptămână se face pauză 2 luni.
-- **Tinctură împotriva paraziților** (uneori cancerul este produs de paraziți interni) O tinctură care conține nucă neagră americană, cuișoare și pelin.
-- **Semințe de chimen negru(negrilică)**: ½ linguriță x 3 ori pe zi. După o lună se face pauză tot de o lună.
-- **Suc de lămâie \+ bicarbonat de sodiu:** în fiecare dimineață se va bea sucul de la o lămâie în care s-a dizolvat o jumătate de linguriță rasă de bicarbonat de sodiu.
-- **Suc de rădăcinoase și fructe:** zilnic se va consuma cel puțin o cană de suc de rădăcinoase și fructe, preparat în casă. Fructele și cantitățile lor așa trebuie alese încât sucul rezultat să nu fie dulce sau să fie foarte puțin dulce. Cam 80% se folosesc rădăcinoase și 20% fructe.
+- **Vitamina B17(amigdalina):** 500mg x 2-3 ori pe zi, SAU **samburi de caise amari**(1 lingura x 2 ori pe zi). Dupa o luna se face pauza tot de o luna. Pe perioada administrarii de vit B17 de samburi trebuie luat si **armurariu**(supliment cu extract de armurariu 1000mg armurariu pe capsula sau 250mg extract de armurariu pe capsula). In cazul unei persoane cu cancer, amigdalina se transforma de organism in cianura iar cianura ajuta la micsorarea si eliminarea celulelor canceroase. Armurariul e pentru protectia ficatului.
+- **Ceai de pelinita**: infuzie din 2 linguri de planta la doua cani de apa. Cantitatea de ceai se bea in cursul unei zile. Daca se ia si un supliment cu fier, atunci cancerul poate fi vindecat mult mai rapid. Fierul ajuta doar in combinatie cu acest ceai. Dupa o saptamana se face pauza 2 luni.
+- **Tinctura impotriva parazitilor** (uneori cancerul este produs de paraziti interni) O tinctura care contine nuca neagra americana, cuisoare si pelin.
+- **Seminte de chimen negru(negrilica)**: ½ lingurita x 3 ori pe zi. Dupa o luna se face pauza tot de o luna.
+- **Suc de lamaie \+ bicarbonat de sodiu:** in fiecare dimineata se va bea sucul de la o lamaie in care s-a dizolvat o jumatate de lingurita rasa de bicarbonat de sodiu.
+- **Suc de radacinoase si fructe:** zilnic se va consuma cel putin o cana de suc de radacinoase si fructe, preparat in casa. Fructele si cantitatile lor asa trebuie alese incat sucul rezultat sa nu fie dulce sau sa fie foarte putin dulce. Cam 80% se folosesc radacinoase si 20% fructe.
 - **Ananas:** se va consuma zilnic.
 - **Graviola si Pawpaw** sunt de 10000 ori mai eficiente decat chimioterapia
-- **Ulei din frunze de cânepă(Cannabis oil \- CBD)** \- efect puternic anticancerigen. Se poate cumpara de aici:
-- **Cantitatea de pâine** se va reduce considerabil, maxim o felie la masă.
-- **Albastru de metilen \+ UV**: a se lua intern albastru de metilen diluat cu apă și apoi pacientul face plajă sau se expune la soare cu o suprafață cât mai mare de piele timp de 1-2 ore. A nu se folosi cremă de protecție UV. Trebuie studiat în legătură cu cantitatea de albastru de metilen care se poate lua intern.
-- **Fără zahăr și fructoză**: se va elimina complet din alimentație zahărul fie el și brun și fructoza.
+- **Ulei din frunze de canepa(Cannabis oil \- CBD)** \- efect puternic anticancerigen. Se poate cumpara de aici:
+- **Cantitatea de paine** se va reduce considerabil, maxim o felie la masa.
+- **Albastru de metilen \+ UV**: a se lua intern albastru de metilen diluat cu apa si apoi pacientul face plaja sau se expune la soare cu o suprafata cat mai mare de piele timp de 1-2 ore. A nu se folosi crema de protectie UV. Trebuie studiat in legatura cu cantitatea de albastru de metilen care se poate lua intern.
+- **Fara zahar si fructoza**: se va elimina complet din alimentatie zaharul fie el si brun si fructoza.
 
 - A se citi cartea "Cele 5 legi biologice \- un miracol cenzurat"
 
@@ -21,7 +21,7 @@ Regim
 
 Organizatia Mondiala a Sanatatii afirma ca alimentatia gresita cauzeaza 35-65% din toate cancerele\!
 
-Recomandarile de mai jos sunt extrase din Raportul "Alimentatie, nutritie si prevenirea cancerului: o perspectiva globala", bazat pe analiza a peste 4500 de studii stiintifice efectuata de un grup de 150 de specialisti din intreaga lume. Ele reprezinta cel mai valoros pachet de recomandari existente în prezent pentru reducerea riscului de cancer.
+Recomandarile de mai jos sunt extrase din Raportul "Alimentatie, nutritie si prevenirea cancerului: o perspectiva globala", bazat pe analiza a peste 4500 de studii stiintifice efectuata de un grup de 150 de specialisti din intreaga lume. Ele reprezinta cel mai valoros pachet de recomandari existente in prezent pentru reducerea riscului de cancer.
 
 * Adoptati o dieta predominant vegetala, care sa contina o varietate de fructe, leguminoase si cat mai putine alimente amidonoase rafinate.
 * Evitati surplusul sau deficitul ponderal, si limitati castigul ponderal in timpul perioadei de adult la mai putin de 5 kg.

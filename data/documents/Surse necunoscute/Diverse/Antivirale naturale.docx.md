@@ -4,9 +4,9 @@
 
 - betacaroten 250000UI
 
-- tinctură din fructe de soc
+- tinctura din fructe de soc
 
-- ulei esențial de lămâie, de cimbru
+- ulei esential de lamaie, de cimbru
 
 - Chlorella
 
@@ -18,17 +18,17 @@
 
 - alimente: usturoi, ghimbir, ciuperci shiitake
 
-- rădăcină de gențiană Hydrastis canadensis(este și antibiotic puternic)
+- radacina de gentiana Hydrastis canadensis(este si antibiotic puternic)
 
 - miere
 
-- ceai de turiță mare, roiniță, sunătoare, frunze de prun
+- ceai de turita mare, roinita, sunatoare, frunze de prun
 
-- suc de pătrunjel și păpădie
+- suc de patrunjel si papadie
 
-- coajă de gutui
+- coaja de gutui
 
-- uz exern: suc proaspăt de rostopască, aloe vera
+- uz exern: suc proaspat de rostopasca, aloe vera
 
 Natural antivirals
 

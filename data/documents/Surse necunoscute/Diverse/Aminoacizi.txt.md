@@ -1,8 +1,8 @@
-Aminoacizii - baza vieții pe pământ
+Aminoacizii - baza vietii pe pamant
 
-Pentru creșterea imunității: Cisteină, Treonină, Arginină.
-Pentru creșterea testosteronului și a libidoului: Beta-alanină, Taurină, Arginină.
-Pentru detoxifiere: Metionină, Glutamină.
-Pentru îmbunătățirea facultăților mintale: L-Tirozină, Acid glutamic, Acid aspartic.
-Pentru anxietate: Serină
-Pentru creșterea cantității de colagen din articulații: Prolină
+Pentru cresterea imunitatii: Cisteina, Treonina, Arginina.
+Pentru cresterea testosteronului si a libidoului: Beta-alanina, Taurina, Arginina.
+Pentru detoxifiere: Metionina, Glutamina.
+Pentru imbunatatirea facultatilor mintale: L-Tirozina, Acid glutamic, Acid aspartic.
+Pentru anxietate: Serina
+Pentru cresterea cantitatii de colagen din articulatii: Prolina

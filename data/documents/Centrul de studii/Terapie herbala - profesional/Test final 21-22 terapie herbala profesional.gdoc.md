@@ -27,110 +27,110 @@ Se recomanda ingerarea a 1-1.5 gr per kg corp in 24 de ore.
 **Graul**
 Graul integral scade riscul de diabet, imbunatateste controlul glucozei in sange, reduce de asemenea riscul de boala cardiaca,
 
-**Plante utilizate în bolile aparatului cardiovascular**: Degețelul roșu și Degețelul lînos, Lăcrămioara, Rușcuța de primăvară,Spînzul, Păducelul, Ammi visnaga
+**Plante utilizate in bolile aparatului cardiovascular**: Degetelul rosu si Degetelul linos, Lacramioara, Ruscuta de primavara,Spinzul, Paducelul, Ammi visnaga
 
-**Plante utilizate în bolile aparatului respirator**: Nalba mare și Nalba de pădure, Lumînărica, Podbalul, Pătlagina,	Cimbrișorul și Cimbrul de grădină, Castanul comestibil, Roua cerului, Iedera, Scaiul vînăt, Turta, mac de gradina. Antitusive cu acțiune în astmul bronșic: Cîrcelul, Mătrăgună/Ciumăfaie.
+**Plante utilizate in bolile aparatului respirator**: Nalba mare si Nalba de padure, Luminarica, Podbalul, Patlagina,	Cimbrisorul si Cimbrul de gradina, Castanul comestibil, Roua cerului, Iedera, Scaiul vinat, Turta, mac de gradina. Antitusive cu actiune in astmul bronsic: Circelul, Matraguna/Ciumafaie.
 
-**Plante utilizate în afecțiunile aparatului digestiv**: Mătrăguna, Menta, Roinița sau cu aceleași efecte Mătăciunea, Mușețelul, Coada racului, Chimenul și Captalanul. Majoritatea dintre acestea, excluzînd Mătrăguna, își bazează acțiunea farmacodinamică și aplicațiile terapeutice pe componentele uleiurilor volatile sau a unor derivați terpenici pe care aceste specii le conțin ca principii active.
+**Plante utilizate in afectiunile aparatului digestiv**: Matraguna, Menta, Roinita sau cu aceleasi efecte Mataciunea, Musetelul, Coada racului, Chimenul si Captalanul. Majoritatea dintre acestea, excluzind Matraguna, isi bazeaza actiunea farmacodinamica si aplicatiile terapeutice pe componentele uleiurilor volatile sau a unor derivati terpenici pe care aceste specii le contin ca principii active.
 
-**Plante utilizate în afecțiuni cronice stomacale și duodenale**: Ghințura, Fierea pămîntului, Obligeana, Trifoiștea, Angelica, Schinelul, Pelinul, Coada șoricelului, Mușețelul, Lemnul dulce, Mătrăguna, Crușinul. Fie sub formă de suc celular proaspăt, fie sub forma unor produse farmaceutice, varza albă dă rezultate bune în ulcerul gastric și duodenal.
+**Plante utilizate in afectiuni cronice stomacale si duodenale**: Ghintura, Fierea pamintului, Obligeana, Trifoistea, Angelica, Schinelul, Pelinul, Coada soricelului, Musetelul, Lemnul dulce, Matraguna, Crusinul. Fie sub forma de suc celular proaspat, fie sub forma unor produse farmaceutice, varza alba da rezultate bune in ulcerul gastric si duodenal.
 
-**Plante utilizate în meteorism**: Anasonul, Chimenul, Coriandrul, Feniculul, Maghiranul și alte specii bogate în uleiuri volatile.
+**Plante utilizate in meteorism**: Anasonul, Chimenul, Coriandrul, Feniculul, Maghiranul si alte specii bogate in uleiuri volatile.
 
-**Specii medicinale folosite în afecțiunile ficatului și bilei**: Anghinarea, Rostopasca, Jaleșul de grădină, Păpădia, Armurariul, Cicoarea, Levănțica
+**Specii medicinale folosite in afectiunile ficatului si bilei**: Anghinarea, Rostopasca, Jalesul de gradina, Papadia, Armurariul, Cicoarea, Levantica
 
-**Plante utilizate pentru acțiunea antidiareică și plante cu acțiune purgativă**: Afinul, Coada racului, Cerențelul, Răchitanul, Porumbarul, Iarba șarpelui, Ștevia stînelor (fructele), Usturoiul, Reventul, Crușinul, Ștevia, Inul, Ricinul, Muștarul alb
+**Plante utilizate pentru actiunea antidiareica si plante cu actiune purgativa**: Afinul, Coada racului, Cerentelul, Rachitanul, Porumbarul, Iarba sarpelui, Stevia stinelor (fructele), Usturoiul, Reventul, Crusinul, Stevia, Inul, Ricinul, Mustarul alb
 
-**Specii antihelmintice**: Feriga, Pelinul de mare sau Cătrănica sălbatică, Vetricea, Schinduful, Dovleacul
+**Specii antihelmintice**: Feriga, Pelinul de mare sau Catranica salbatica, Vetricea, Schinduful, Dovleacul
 
-**Plante folosite în bolile aparatului urinar**: Ienupărul, Osul iepurelui, Coada calului, Pirul, Mesteacănul, Cireșul, Porumbul, Vinarița, Merișorul de munte, Feciorica,Roiba
+**Plante folosite in bolile aparatului urinar**: Ienuparul, Osul iepurelui, Coada calului, Pirul, Mesteacanul, Ciresul, Porumbul, Vinarita, Merisorul de munte, Feciorica,Roiba
 
-**Plante utilizate în bolile sistemului nervos**: Passiflora incarnata, Valeriana, Păducelul, Hameiul, Saschiul, Talpa gîștii, Sovîrvul, Teiul, Ghiocelul, Captalanul
+**Plante utilizate in bolile sistemului nervos**: Passiflora incarnata, Valeriana, Paducelul, Hameiul, Saschiul, Talpa gistii, Sovirvul, Teiul, Ghiocelul, Captalanul
 
-**Specii folosite în unele boli ale aparatului genital**: Traista ciobanului, Piperul de baltă, Cerențelul, Galbenele, urzica moarta, trifoi.
+**Specii folosite in unele boli ale aparatului genital**: Traista ciobanului, Piperul de balta, Cerentelul, Galbenele, urzica moarta, trifoi.
 
-**Plante utile în bolile infecțioase**: Ciuboțica cucului, Măceșul, Cătina, Coacăzul negru
+**Plante utile in bolile infectioase**: Ciubotica cucului, Macesul, Catina, Coacazul negru
 
-**Specii utilizate în tratamentul extern:**
-In aceasta categori intra: Tătăneasa, Sunătoarea, Castanul sălbatic, Gălbenelele, Ammi majus, gudroanele vegetale obținute din Pin, Fag sau Mesteacăn.
+**Specii utilizate in tratamentul extern:**
+In aceasta categori intra: Tataneasa, Sunatoarea, Castanul salbatic, Galbenelele, Ammi majus, gudroanele vegetale obtinute din Pin, Fag sau Mesteacan.
 
 **Tratarea unor afectiuni cu ajutorul plantelor medicinale**
 
-CARDIOPATIA ISCHEMICĂ
-Principalele medicamente cu efect cardiotonic, folosite pe scară largă în tratamentul insuficienței cardiace (Digitalis, Digoxin), sunt preparate din plante: degețelul-roșu și degețelul-lînos.
+CARDIOPATIA ISCHEMICA
+Principalele medicamente cu efect cardiotonic, folosite pe scara larga in tratamentul insuficientei cardiace (Digitalis, Digoxin), sunt preparate din plante: degetelul-rosu si degetelul-linos.
 
-PALPITAȚIILE
-Plantele medicinale recomandate în palpitații sunt următoarele: păducelul, talpa-gîștii, valeriana sau odoleanul și teiul.
+PALPITATIILE
+Plantele medicinale recomandate in palpitatii sunt urmatoarele: paducelul, talpa-gistii, valeriana sau odoleanul si teiul.
 
 ATEROSCLEROZA
-Există plante medicinale a căror acțiune favorabilă asupra colesterolului sanguin a fost observată. Iată cîteva dintre ele: Plantago psyllium (plantă asemănătoare inului, care nu crește în România), făina din semințe de in, schinduful, ginseng-ul, uleiul de citronela (Cymbopogon citratus), precum și uleiul de luminiță (Oenothera biennis), anghinarea, gălbenelele, extractul de flori de tei
+Exista plante medicinale a caror actiune favorabila asupra colesterolului sanguin a fost observata. Iata citeva dintre ele: Plantago psyllium (planta asemanatoare inului, care nu creste in Romania), faina din seminte de in, schinduful, ginseng-ul, uleiul de citronela (Cymbopogon citratus), precum si uleiul de luminita (Oenothera biennis), anghinarea, galbenelele, extractul de flori de tei
 
-HIPERTENSIUNEA ARTERIALĂ
-Reserpina obținută din planta Rauwolfia serpentina intră în compoziția celor mai frecvent folosite medicamente antihipertensive: Hiposerpil, Hipazin, Raunervil.
-În formele ușoare și moderate, pot fi utile plante cum sunt păducelul, talpa-gîștii. De asemenea, majoritatea plantelor cu efect diuretic își găsesc un loc în încercarea de menținere în limite normale a valorilor tensiunii arteriale.
+HIPERTENSIUNEA ARTERIALA
+Reserpina obtinuta din planta Rauwolfia serpentina intra in compozitia celor mai frecvent folosite medicamente antihipertensive: Hiposerpil, Hipazin, Raunervil.
+In formele usoare si moderate, pot fi utile plante cum sunt paducelul, talpa-gistii. De asemenea, majoritatea plantelor cu efect diuretic isi gasesc un loc in incercarea de mentinere in limite normale a valorilor tensiunii arteriale.
 
-BOALA VARICOASĂ ȘI HEMOROIZII
-Preparatele pe bază de castan sălbatic \- Variterpul sau preparatele cu troxerutin \- Venoruton sau Troxevasin. Un ceai combinat, util în astfel de situații, se poate prepara din flori de coada-șoricelului, frunze de pătlagină, urzică și flori de mușețel, în părți egale. Se prepară o infuzie din 100 g de amestec de plante uscate, la 1 litru de apă și se folosește sub formă de comprese, spălaturi sau băi locale de 2 ori pe zi.
+BOALA VARICOASA SI HEMOROIZII
+Preparatele pe baza de castan salbatic \- Variterpul sau preparatele cu troxerutin \- Venoruton sau Troxevasin. Un ceai combinat, util in astfel de situatii, se poate prepara din flori de coada-soricelului, frunze de patlagina, urzica si flori de musetel, in parti egale. Se prepara o infuzie din 100 g de amestec de plante uscate, la 1 litru de apa si se foloseste sub forma de comprese, spalaturi sau bai locale de 2 ori pe zi.
 
 BOLILE REUMATICE
-Un ceai combinat recomandat în bolile reumatice se prepară amestecînd următoarele plante, astfel: frunze de mesteacăn \- 2 părți, coada-calului \- 1 parte, frunze de frasin \- 2 părți, lemn-dulce \- 1 parte, teci de fasole \- 1 parte, scoarță de salcie mărunțită \- 2 părți, flori de soc \- 1 parte. Se pun 2 lingurițe din amestecul de plante în 1 cană cu apă clocotită și se fierbe cca 2 minute după care se lasă în repaus încă 15 minute. Se strecoară și se beau 2-3 căni pe zi.
+Un ceai combinat recomandat in bolile reumatice se prepara amestecind urmatoarele plante, astfel: frunze de mesteacan \- 2 parti, coada-calului \- 1 parte, frunze de frasin \- 2 parti, lemn-dulce \- 1 parte, teci de fasole \- 1 parte, scoarta de salcie maruntita \- 2 parti, flori de soc \- 1 parte. Se pun 2 lingurite din amestecul de plante in 1 cana cu apa clocotita si se fierbe cca 2 minute dupa care se lasa in repaus inca 15 minute. Se strecoara si se beau 2-3 cani pe zi.
 
-INAPETENȚA
-Un ceai combinat recomandat în situații de scădere a poftei de mîncare se prepară amestecînd următoarele plante, astfel: albăstrele- 2 părți, vîrfuri înflorite de pelin \- 2 părți, schinel \- 2 părți, fructe de coriandru \- 1 parte și măceșe \- 2 părți. Se infuzează 2-3 lingurițe din amestecul uscat de plante la 1 cană cu apă și se administrează 2 linguri cu 30 de minute înainte de masă.
+INAPETENTA
+Un ceai combinat recomandat in situatii de scadere a poftei de mincare se prepara amestecind urmatoarele plante, astfel: albastrele- 2 parti, virfuri inflorite de pelin \- 2 parti, schinel \- 2 parti, fructe de coriandru \- 1 parte si macese \- 2 parti. Se infuzeaza 2-3 lingurite din amestecul uscat de plante la 1 cana cu apa si se administreaza 2 linguri cu 30 de minute inainte de masa.
 
-ULCERUL GASTRIC ȘI DUODENAL
-Folosirea sucului de varză, simplu sau în combinație cu sucul de țelină grăbește vindecarea ulcerului. Pe lîngă tratamentul de bază igienico-ditetetic și medicamentos se pot folosi următoarele specii de plante: fructele de afin, uleiul de cătină albă, gălbenelele, lemnul-dulce, mușețelul, obligeana, sunătoarea. Un ceai combinat, util în ulcerul gastric și duodenal, se prepară din următoarele plante astfel: flori de gălbenele \- 2 părți, flori de mușețel \- 2 părți, flori de coada-șoricelului \- 2 părți, păpădie \- 3 părți, rădăcină de valeriana mărunțită \- 1 parte. Se pun 2 lingurițe de plante uscate la infuzat în 1 cană cu apă. Se beau 1-2 căni pe zi timp de 4-6 săptămîni.
+ULCERUL GASTRIC SI DUODENAL
+Folosirea sucului de varza, simplu sau in combinatie cu sucul de telina grabeste vindecarea ulcerului. Pe linga tratamentul de baza igienico-ditetetic si medicamentos se pot folosi urmatoarele specii de plante: fructele de afin, uleiul de catina alba, galbenelele, lemnul-dulce, musetelul, obligeana, sunatoarea. Un ceai combinat, util in ulcerul gastric si duodenal, se prepara din urmatoarele plante astfel: flori de galbenele \- 2 parti, flori de musetel \- 2 parti, flori de coada-soricelului \- 2 parti, papadie \- 3 parti, radacina de valeriana maruntita \- 1 parte. Se pun 2 lingurite de plante uscate la infuzat in 1 cana cu apa. Se beau 1-2 cani pe zi timp de 4-6 saptamini.
 
 METEORISMUL ABDOMINAL
-.Dintre plantele utile în combaterea stărilor de meteorism amintim: anasonul, anghinarea, busuiocul, coriandrul, feniculul, maghiranul, roinița, salvia, sovîrvul, ghimberul.
+.Dintre plantele utile in combaterea starilor de meteorism amintim: anasonul, anghinarea, busuiocul, coriandrul, feniculul, maghiranul, roinita, salvia, sovirvul, ghimberul.
 
-ENTEROCOLITELE ȘI DIAREEA
-Un ceai combinat, utilizat în enterocolite însoțite de scaune diareice, este preparat din următoarele plante, astfel: turiță-mare \-1 parte, frunze de nuc \- 1 parte, scoarță de stejar mărunțită \- 1 parte, răchitan \- 1 parte, cimbrișor \- 1 parte, rădăcină de cerențel \- 3 părți, coada-racului \- 1 parte. Din 2 lingurițe de amestec de plante la 1 cană cu apă se prepară un decoct. Se beau 3 căni de ceai pe zi.
-În caz de diaree mai severă, mai ales la copii, este necesară o rehidratare orală. Pentru aceasta se recomandă prepararea următorului amestec: 1/2 linguriță de sare de bucătărie \+ 1 linguriță de bicarbonat de sodiu \+ 1/2 linguriță de clorură de potasiu \+ 3 linguri de zahăr. Toate acestea se amestecă într-un litru de apă fiartă. Se vor administra 50-100 ml de soluție pe oră (dacă apar vărsături, se micșorează cantitatea pentru ca ingestia de lichid să fie mai bine tolerată).
+ENTEROCOLITELE SI DIAREEA
+Un ceai combinat, utilizat in enterocolite insotite de scaune diareice, este preparat din urmatoarele plante, astfel: turita-mare \-1 parte, frunze de nuc \- 1 parte, scoarta de stejar maruntita \- 1 parte, rachitan \- 1 parte, cimbrisor \- 1 parte, radacina de cerentel \- 3 parti, coada-racului \- 1 parte. Din 2 lingurite de amestec de plante la 1 cana cu apa se prepara un decoct. Se beau 3 cani de ceai pe zi.
+In caz de diaree mai severa, mai ales la copii, este necesara o rehidratare orala. Pentru aceasta se recomanda prepararea urmatorului amestec: 1/2 lingurita de sare de bucatarie \+ 1 lingurita de bicarbonat de sodiu \+ 1/2 lingurita de clorura de potasiu \+ 3 linguri de zahar. Toate acestea se amesteca intr-un litru de apa fiarta. Se vor administra 50-100 ml de solutie pe ora (daca apar varsaturi, se micsoreaza cantitatea pentru ca ingestia de lichid sa fie mai bine tolerata).
 
 ARSURILE RETROSTERNALE
-Ceaiurile cu acțiune antiacidă pot fi administrate numai în prima parte a zilei și fracționat în cantități mici: mușețelul, florile de salcîm, sunătoarea, floarea-patimilor.
+Ceaiurile cu actiune antiacida pot fi administrate numai in prima parte a zilei si fractionat in cantitati mici: musetelul, florile de salcim, sunatoarea, floarea-patimilor.
 
-AFECȚIUNILE HEPATO-BILIARE
-Plante utile în bolile inflamatorii și degenerative ale ficatului sunt următoarele: armurariul, anghinarea, cătina-albă, cicoarea, coada-șoricelului, mușețelul, păpădia, rostopasca, siminocul, sunătoarea, turmericul.
+AFECTIUNILE HEPATO-BILIARE
+Plante utile in bolile inflamatorii si degenerative ale ficatului sunt urmatoarele: armurariul, anghinarea, catina-alba, cicoarea, coada-soricelului, musetelul, papadia, rostopasca, siminocul, sunatoarea, turmericul.
 
-CONSTIPAȚIA
-Un supliment natural și fără riscuri îl constituie semințele de in, respectiv semințele de Plantago psyllium. Se înmoaie 1-3 linguri de semințe într-un pahar cu apă. Se consumă seara înainte de culcare. Laxative: scoarța de crușin, senna, frunzele de frasin, rădăcinile de revent, gelul de aloe.
+CONSTIPATIA
+Un supliment natural si fara riscuri il constituie semintele de in, respectiv semintele de Plantago psyllium. Se inmoaie 1-3 linguri de seminte intr-un pahar cu apa. Se consuma seara inainte de culcare. Laxative: scoarta de crusin, senna, frunzele de frasin, radacinile de revent, gelul de aloe.
 
 PARAZITOZELE INTESTINALE
-Plante sau uleiuri volatile cu efecte antihelmintice mai mult sau mai puțin pronunțate sunt: cimbrișorul, cimbrul de grădină, coriandrul, feniculul, gălbenelele, iarba-mare, pelinul
+Plante sau uleiuri volatile cu efecte antihelmintice mai mult sau mai putin pronuntate sunt: cimbrisorul, cimbrul de gradina, coriandrul, feniculul, galbenelele, iarba-mare, pelinul
 
-AFECȚIUNILE RESPIRATORII
-În prima fază a bronșitei, fază în care este prezentă tușea seacă, se recomandă plantele cu acțiune emolientă: nalba-mare, frunzele de podbal, pătlagina. După 1-2 zile de la debutul bolii, cand începe expectorația, se continuă tratamentul cu plante expectorante, care fluidifică secrețiile bronșice, ușurand astfel eliminarea lor: ciuboțica-cucului, săpunarița, scaiul-vînăt.
+AFECTIUNILE RESPIRATORII
+In prima faza a bronsitei, faza in care este prezenta tusea seaca, se recomanda plantele cu actiune emolienta: nalba-mare, frunzele de podbal, patlagina. Dupa 1-2 zile de la debutul bolii, cand incepe expectoratia, se continua tratamentul cu plante expectorante, care fluidifica secretiile bronsice, usurand astfel eliminarea lor: ciubotica-cucului, sapunarita, scaiul-vinat.
 
-AFECȚIUNILE APARATULUI URINAR
-Un ceai combinat cu efecte diuretice și antiseptice se poate prepara din următoarele plante: frunze de mesteacăn \- 3 părți,coada-calului \- 1 parte, albăstrele \- 1 parte, rădăcini de pir \-2 părți, mătase de porumb \- 1 parte, osul-iepurelui \- 1 parte, frunze de afin \- 1 parte. Se prepară o infuzie din 2 lingurițe de plante la 1 cană cu apă. Se beau 3-4 căni de ceai pe zi.
+AFECTIUNILE APARATULUI URINAR
+Un ceai combinat cu efecte diuretice si antiseptice se poate prepara din urmatoarele plante: frunze de mesteacan \- 3 parti,coada-calului \- 1 parte, albastrele \- 1 parte, radacini de pir \-2 parti, matase de porumb \- 1 parte, osul-iepurelui \- 1 parte, frunze de afin \- 1 parte. Se prepara o infuzie din 2 lingurite de plante la 1 cana cu apa. Se beau 3-4 cani de ceai pe zi.
 
-AFECȚIUNILE PROSTATEI
-Extractele din rădăcinile de urzică administrate la bărbații cu hipertrofie benignă de prostată determină o ameliorare a disuriei (urinarea dificilă). Alte preparate din plante, utilizate în fitoterapia adenomului de prostată, sunt extractul din frunzele holerei (Xanthium spinosum) și din fructele de palmier dințat.
+AFECTIUNILE PROSTATEI
+Extractele din radacinile de urzica administrate la barbatii cu hipertrofie benigna de prostata determina o ameliorare a disuriei (urinarea dificila). Alte preparate din plante, utilizate in fitoterapia adenomului de prostata, sunt extractul din frunzele holerei (Xanthium spinosum) si din fructele de palmier dintat.
 
 DIABETUL ZAHARAT
-Studii efectuate asupra unei plante din India, Gymnema sylvestre au arătat că aceasta scade necesarul de insulina sau de medicație antidiabetică orală, regenerează celulele secretoare de insulina și astfel ajută la reechlibrarea metabolismului glucidelor la pacienții cu diabet zaharat.
-Un ceai combinat cu acțiune antidiabetică se prepară din amestecul următoarelor plante: frunze de afin \- 4 părți, frunze de dud \- 2 părți, frunze de nuc \- 1 parte, frunze de urzică \- 1 parte, teci de fasole \- 2 părți. Se prepară o infuzie din 1 lingură de plante la 1 cană cu apă și se beau 2 căni zilnic, timp de 7-10 zile.
+Studii efectuate asupra unei plante din India, Gymnema sylvestre au aratat ca aceasta scade necesarul de insulina sau de medicatie antidiabetica orala, regenereaza celulele secretoare de insulina si astfel ajuta la reechlibrarea metabolismului glucidelor la pacientii cu diabet zaharat.
+Un ceai combinat cu actiune antidiabetica se prepara din amestecul urmatoarelor plante: frunze de afin \- 4 parti, frunze de dud \- 2 parti, frunze de nuc \- 1 parte, frunze de urzica \- 1 parte, teci de fasole \- 2 parti. Se prepara o infuzie din 1 lingura de plante la 1 cana cu apa si se beau 2 cani zilnic, timp de 7-10 zile.
 
 OBEZITATEA
-Abordarea obezității prin mărirea diurezei sau a sudorației, nu este nici ea o strategie mai rațională ori lipsită de riscuri. În sfîrșit, ceaiurile care reduc pofta de mîncare, deși se încadrează în linia tolerată de practica medicală curentă, suferă de aceeași ineficientă pe termen mediu și lung de care suferă și intervenția cu medicamente anorexigene.
+Abordarea obezitatii prin marirea diurezei sau a sudoratiei, nu este nici ea o strategie mai rationala ori lipsita de riscuri. In sfirsit, ceaiurile care reduc pofta de mincare, desi se incadreaza in linia tolerata de practica medicala curenta, sufera de aceeasi ineficienta pe termen mediu si lung de care sufera si interventia cu medicamente anorexigene.
 
 INSOMNIA
-Cauzele insomniei sunt numeroase: unele boli somatice (boli de inimă, hipertensiune arterială etc), nevrozele, mesele copioase servite seara tarziu, sedentarismul, consumul de cafea, ceai, băuturi Cola, lectura unor cărți sau vizionarea unor filme, zgomotul, căldura sau frigul excesiv etc.
+Cauzele insomniei sunt numeroase: unele boli somatice (boli de inima, hipertensiune arteriala etc), nevrozele, mesele copioase servite seara tarziu, sedentarismul, consumul de cafea, ceai, bauturi Cola, lectura unor carti sau vizionarea unor filme, zgomotul, caldura sau frigul excesiv etc.
 
 DEPRESIA
-Administrarea ceaiului de sunătoare în combaterea depresiei va fi pe termen lung, nu numai datorită caracterului cronic al stărilor depresive, dar și pentru că acțiunea antidepresivă a sunătoarei nu se instalează decît după 2-3 săptămîni de la începerea administrării. Pe toată durata tratamentului, bolnavul trebuie să evite expunerea la razele solare intense.
+Administrarea ceaiului de sunatoare in combaterea depresiei va fi pe termen lung, nu numai datorita caracterului cronic al starilor depresive, dar si pentru ca actiunea antidepresiva a sunatoarei nu se instaleaza decit dupa 2-3 saptamini de la inceperea administrarii. Pe toata durata tratamentului, bolnavul trebuie sa evite expunerea la razele solare intense.
 
-MIGRENA ȘI CEFALEEA SIMPLĂ
-Dintre plantele administrate pentru combaterea cefaleei și a migrenelor amintim arborele templier (Ginkgo), cornul-secarei (preparat farmceutic Ergoceps), levănțica, salcia și menta.
+MIGRENA SI CEFALEEA SIMPLA
+Dintre plantele administrate pentru combaterea cefaleei si a migrenelor amintim arborele templier (Ginkgo), cornul-secarei (preparat farmceutic Ergoceps), levantica, salcia si menta.
 
-DEFICIENȚELE SISTEMULUI IMUNITAR
-Cea mai renumită plantă cu efecte benefice asupra sistemului imunitar este fără îndoială echinacea. Alte plante care pot ajuta la refacerea rezistenței imunologice sunt: usturoiul, sunătoarea, isopul, lemnul-dulce, gălbenelele, iarba-mare, lumînărica, teiul, cimbrișorul.
+DEFICIENTELE SISTEMULUI IMUNITAR
+Cea mai renumita planta cu efecte benefice asupra sistemului imunitar este fara indoiala echinacea. Alte plante care pot ajuta la refacerea rezistentei imunologice sunt: usturoiul, sunatoarea, isopul, lemnul-dulce, galbenelele, iarba-mare, luminarica, teiul, cimbrisorul.
 
 CANCERUL
-Plante utile: lignanii din semințele de in, alil-sulfații din usturoi și ceapă, acidul elagic din fructele de pădure, substanțele triterpenice și calconele din rădăcina de lemn-dulce, curcumina din turmeric, gingerolul din ghimber, acidul ursolic și diterpenoidele din salvie, anasonul, chimenul, coriandrul, feniculul și altele înrudite cu morcovul, sunt un adevărat tezaur de ftalați, flavonoizi, carotenoide, cumarine, terpenoide și alte substanțe fitochimice care au proprietăți în sensul prevenirii cancerului.
+Plante utile: lignanii din semintele de in, alil-sulfatii din usturoi si ceapa, acidul elagic din fructele de padure, substantele triterpenice si calconele din radacina de lemn-dulce, curcumina din turmeric, gingerolul din ghimber, acidul ursolic si diterpenoidele din salvie, anasonul, chimenul, coriandrul, feniculul si altele inrudite cu morcovul, sunt un adevarat tezaur de ftalati, flavonoizi, carotenoide, cumarine, terpenoide si alte substante fitochimice care au proprietati in sensul prevenirii cancerului.
 
-FITOTERAPIA ÎN PERIOADA SARCINII ȘI ALĂPTĂRII
-Femeia care alăptează trebuie să evite cu strictețe cafeaua, tutunul, ceaiul negru și orice fel de băutură alcoolică, inclusiv berea\!
-Dintre plantele medicinale care stimulează secrețiile glandulare, inclusiv ale glandelor mamare, amintim preparatele din fructe de anason, fenicul și chimen precum și cele din busuioc și ciumărea.
+FITOTERAPIA IN PERIOADA SARCINII SI ALAPTARII
+Femeia care alapteaza trebuie sa evite cu strictete cafeaua, tutunul, ceaiul negru si orice fel de bautura alcoolica, inclusiv berea\!
+Dintre plantele medicinale care stimuleaza secretiile glandulare, inclusiv ale glandelor mamare, amintim preparatele din fructe de anason, fenicul si chimen precum si cele din busuioc si ciumarea.

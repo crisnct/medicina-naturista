@@ -1,5 +1,5 @@
-# Halena, mirosul urât în gură
+# Halena, mirosul urat in gura
 
-Tratamentul Maria Treben : Este recomandat gargară de trei ori pe zi cu ceai de salvie, călduț , precum și picături de ulei de ienupăr, amestecate cu apă stătută și băute o dată pe zi, înghițitură cu înghițitură.
+Tratamentul Maria Treben : Este recomandat gargara de trei ori pe zi cu ceai de salvie, caldut , precum si picaturi de ulei de ienupar, amestecate cu apa statuta si baute o data pe zi, inghititura cu inghititura.
 
-Dr. german Rudolf Breuss : recomandă ceai de pelin, o ceașcă pe zi, vreme de 3-5 săptămâni, o priză de pelin se opărește 3 secunde cu o cana de apă clocotită. Se lasă să se răcească, se bea înghițitură de înghițitură. Pelinul combate afecțiunile stomacului, una dintre posibile cauze ale mirosului urât. [ ]{.underline}
+Dr. german Rudolf Breuss : recomanda ceai de pelin, o ceasca pe zi, vreme de 3-5 saptamani, o priza de pelin se opareste 3 secunde cu o cana de apa clocotita. Se lasa sa se raceasca, se bea inghititura de inghititura. Pelinul combate afectiunile stomacului, una dintre posibile cauze ale mirosului urat. [ ]{.underline}

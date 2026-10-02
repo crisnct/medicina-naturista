@@ -6,9 +6,9 @@
 
 Dozele zilnice recomandate
 
-Doza zilnică recomandată (DZR) reprezintă cantitatea zlnică ce trebuie consumată de un adult din mâncare sau suplimente nutriționale.\
+Doza zilnica recomandata (DZR) reprezinta cantitatea zlnica ce trebuie consumata de un adult din mancare sau suplimente nutritionale.\
 \
-Tabelul conține dozele zilnic recomandate (DZR) alături de dozele maxim admise (DMA) pentru suplimente nutriționale.
+Tabelul contine dozele zilnic recomandate (DZR) alaturi de dozele maxim admise (DMA) pentru suplimente nutritionale.
 
  ------------------------------- --------- ------- --------
  Nume unitate DZR DMA
@@ -16,15 +16,15 @@ Tabelul conține dozele zilnic recomandate (DZR) alături de dozele maxim admise
  vitamina A mg 800,0 2000,0
  vitamin B1 mg 1,4 7,5
  vitamina B2 mg 1,6 10,0
- vitamina B3, PP (niacină) mg 18,0 100,0
+ vitamina B3, PP (niacina) mg 18,0 100,0
  vitamina B5 mg 6,0 40,0
  vitamina B6 - piridoxin mg 2,0 10,0
- vitamina B12 - ciancobalamină mg 1,0 50,0
+ vitamina B12 - ciancobalamina mg 1,0 50,0
  vitamina C mg 60,0 600,0
  vitamina D mg 5,0 10,0
  vitamina E mg 10,0 70,0
  vitamina K mg 60,0
- biotină (vitamina H) mg 150,0 500,0
+ biotina (vitamina H) mg 150,0 500,0
  acid folic (vitamina BC,B9) mg 200,0 1000,0
 
  **MINERALE**

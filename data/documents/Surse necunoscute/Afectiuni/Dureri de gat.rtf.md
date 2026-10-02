@@ -1,17 +1,17 @@
-# Dureri de gat, Pierderea vocii, dureri de gât
+# Dureri de gat, Pierderea vocii, dureri de gat
 
- Amestecaþi o ceaºcã de lapte cãlduþ
+ Amestecaþi o ceaºca de lapte calduþ
 
- cu un decoct preparat din o lingurã de frunze de þelinã, fierte 2 minute intr-un litru de apa . Lãsaþi sã se rãceascã . Faceþi gargarã de trei ori pe zi.
+ cu un decoct preparat din o lingura de frunze de þelina, fierte 2 minute intr-un litru de apa . Lasaþi sa se raceasca . Faceþi gargara de trei ori pe zi.
 
  Sirop de brad
 
- Se culeg mugurii de brad [vârfurile tinere care în fiecare primãvarã] nu se spalã. Se culeg atâþi cât sã
+ Se culeg mugurii de brad [varfurile tinere care in fiecare primavara] nu se spala. Se culeg ataþi cat sa
 
- umple un borcan de 5kg. Pe fundul borcanului se pune zahãr cam de douã degete peste care se pun muguri de brad cam de trei degete, se apasã bine dupã care se pune iar zahãr ºi se continuã pânã
+ umple un borcan de 5kg. Pe fundul borcanului se pune zahar cam de doua degete peste care se pun muguri de brad cam de trei degete, se apasa bine dupa care se pune iar zahar ºi se continua pana
 
- se umple borcanul. Ultimul strat trebuie sã fie de zahãr. Se leagã bine borcanul cu celofan ºi capac dupã care se va îngropa în pãmânt la 30-40cm ºi se va scoate atunci când se apropie îngheþul, aproape de iarnã
+ se umple borcanul. Ultimul strat trebuie sa fie de zahar. Se leaga bine borcanul cu celofan ºi capac dupa care se va ingropa in pamant la 30-40cm ºi se va scoate atunci cand se apropie ingheþul, aproape de iarna
 
-. Cine nu are posibilitatea sã-l îngroape trebuie sã þinã borcanul într-o cãmarã rãcoroasã ºi întunecoasã. Dupã ce se dezgroapã, dacã a mai rãmas zahãr se amestecã cu o lingurã de lemn, se acoper
+. Cine nu are posibilitatea sa-l ingroape trebuie sa þina borcanul intr-o camara racoroasa ºi intunecoasa. Dupa ce se dezgroapa, daca a mai ramas zahar se amesteca cu o lingura de lemn, se acoper
 
-ã bine ºi se lasã la loc întunecos încã 2 sãptãmâni. Siropul obþinut se va pune în sticle cu dop de plutã. Acest sirop combate durerile de gât ºi previne gripa, fiind bun ºi pentru asm.
+a bine ºi se lasa la loc intunecos inca 2 saptamani. Siropul obþinut se va pune in sticle cu dop de pluta. Acest sirop combate durerile de gat ºi previne gripa, fiind bun ºi pentru asm.

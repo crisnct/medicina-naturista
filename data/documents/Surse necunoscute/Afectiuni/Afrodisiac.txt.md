@@ -91,29 +91,29 @@ BIG BALLS / Testicule mai mari Lactobacilus reuteri
 
 Rezultatele au fost urmatoarele: se pare ca barbatii reactioneaza foarte puternic la mirosul combinat de levantica si placinta de dovleac, iar femeile la mirosul de cocaina si castravete.
 
-EJACULARE PRECOCE: Pentru ca sa eviti acest cerc vicios, poti practica câteva exercitii de unul singur sau cu partenera.
+EJACULARE PRECOCE: Pentru ca sa eviti acest cerc vicios, poti practica cateva exercitii de unul singur sau cu partenera.
 
-- O respiratie buna poate ajuta la dezvoltarea controlului ejacularii. Mai concret, câteva respiratii profunde pot reduce excitarea/tensiunea care precede ejacularea rapida.
+- O respiratie buna poate ajuta la dezvoltarea controlului ejacularii. Mai concret, cateva respiratii profunde pot reduce excitarea/tensiunea care precede ejacularea rapida.
 
 Este necesara o respiratie profunda, nefortata si relaxanta.
 
-- Alege împreuna cu prietena ta o pozitie în care sa stai culcat pe spate. Aceasta îti va permite sa înveti sa te stapânesti mai bine.
+- Alege impreuna cu prietena ta o pozitie in care sa stai culcat pe spate. Aceasta iti va permite sa inveti sa te stapanesti mai bine.
 
-Trebuie sa stii ca, faimoasa pozitie numita a misionarului, este cea mai "periculoasa", prezentând un plus de dificultate în ceea ce priveste mentinerea erectiei fara ejaculare.
+Trebuie sa stii ca, faimoasa pozitie numita a misionarului, este cea mai "periculoasa", prezentand un plus de dificultate in ceea ce priveste mentinerea erectiei fara ejaculare.
 
-- Atunci când dorinta de ejaculare devine prea puternica, foloseste tehnica squeezing: te retragi în momentul în care simti ca esti pe punctul sa ejaculezi.
+- Atunci cand dorinta de ejaculare devine prea puternica, foloseste tehnica squeezing: te retragi in momentul in care simti ca esti pe punctul sa ejaculezi.
 
-Partenera sau chiar tu strângi cu putere glandul (între degetul mare si aratator), apasând tare pe coroana si pe ata preputiului. În acest moment, trebuie sa se produca o dezumflare a penisului. Strânge tare, fara sa te misti, timp de câteva secunde. Îti va trece senzatia de ejaculare si vei putea continua sa faci dragoste. Poti repeta aceasta operatie o data sau de doua ori. Adopta pozitia Andromaca, prin niste penetrari statice, ca sa te antrenezi pentru a prelungi durata actului sexual. Când simti ca esti aproape sa ejaculezi, poti relua tehnica squeezing, reluând apoi treptat miscarile de coit, la început singur, apoi numai partenera si în sfârsit, amândoi. Acest antrenament nu va da roade de prima data, însa în mod repetat, ar trebui sa-ti permita obtinerea unui control, din ce în ce mai mare si în felul acesta, practicarea oricarei pozitii.
+Partenera sau chiar tu strangi cu putere glandul (intre degetul mare si aratator), apasand tare pe coroana si pe ata preputiului. In acest moment, trebuie sa se produca o dezumflare a penisului. Strange tare, fara sa te misti, timp de cateva secunde. Iti va trece senzatia de ejaculare si vei putea continua sa faci dragoste. Poti repeta aceasta operatie o data sau de doua ori. Adopta pozitia Andromaca, prin niste penetrari statice, ca sa te antrenezi pentru a prelungi durata actului sexual. Cand simti ca esti aproape sa ejaculezi, poti relua tehnica squeezing, reluand apoi treptat miscarile de coit, la inceput singur, apoi numai partenera si in sfarsit, amandoi. Acest antrenament nu va da roade de prima data, insa in mod repetat, ar trebui sa-ti permita obtinerea unui control, din ce in ce mai mare si in felul acesta, practicarea oricarei pozitii.
 
-- Ejacularea poate fi întârziata prin tehnica chineza de " coborâre a testiculilor": se prinde scrotul între testiculi între degetul mare si aratator al mâinii stângi si se trage înspre genunchi, atunci când ejacularea este iminenta.
-- O alta varianta a cestei tehnici este urmatoarea: se formeaza un inel între degetul mare aratator,
+- Ejacularea poate fi intarziata prin tehnica chineza de " coborare a testiculilor": se prinde scrotul intre testiculi intre degetul mare si aratator al mainii stangi si se trage inspre genunchi, atunci cand ejacularea este iminenta.
+- O alta varianta a cestei tehnici este urmatoarea: se formeaza un inel intre degetul mare aratator,
 
-"inelul" trebuie plasat pe scrot între testiculi si perineu; cand ejacularea este iminenta se îndeparteaza testiculii de perineu.
+"inelul" trebuie plasat pe scrot intre testiculi si perineu; cand ejacularea este iminenta se indeparteaza testiculii de perineu.
 
-- O tehnica chinezeasca de oprire a ejaculari recomanda introducerea penisului într-un vas cu apa rece aflat la îndemâna, atunci când se apropie momentul ejacularii.
-- Ejacularea poate fi amânata prin diminuarea sensibilitatii tactile a glandului, aplicând unguente (anestezina, xilocaina); acestea se aplica mai ales pe partea inferioara a glandului, la nivelul frâului preputiului. Pentru a nu produce
+- O tehnica chinezeasca de oprire a ejaculari recomanda introducerea penisului intr-un vas cu apa rece aflat la indemana, atunci cand se apropie momentul ejacularii.
+- Ejacularea poate fi amanata prin diminuarea sensibilitatii tactile a glandului, aplicand unguente (anestezina, xilocaina); acestea se aplica mai ales pe partea inferioara a glandului, la nivelul fraului preputiului. Pentru a nu produce
 
-anestezia organelor genitale ale partenerei, se recomanda sa se aplice un prezervativ. Hiperstezia glandului poate fi diminuata utilizând prezervativul. Uneori chiar si doua.
+anestezia organelor genitale ale partenerei, se recomanda sa se aplice un prezervativ. Hiperstezia glandului poate fi diminuata utilizand prezervativul. Uneori chiar si doua.
 
  l;bl
 
@@ -149,6 +149,6 @@ Cresterea sensibilitatii receptorilor tactili vaginali: Ginseng (Panax ginseng),
 CreÈ™terea sensibilitÄƒÈ›ii receptorilor tactili vaginali:
 
 - ulei de mÄƒsline - 100ml
-- ulei esenÈ›ial de lÄƒmÃ¢ie - 2ml
+- ulei esenÈ›ial de lÄƒmA¢ie - 2ml
 - ulei esenÈ›ial de pin - 2ml
 - ulei esenÈ›ial de cuiÈ™oare - 10 pic

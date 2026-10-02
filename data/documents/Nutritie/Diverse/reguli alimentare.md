@@ -1,22 +1,22 @@
-**[Fără fructe după masă]{.underline}!**
+**[Fara fructe dupa masa]{.underline}!**
 
-Specialistul Click!, dr. Ovidiu Chiș, expert în medicina tradițională indiană, ne spune astăzi cum trebuie să consumăm fructele pentru a ne bucura de toate calitățile lor nutritive.
+Specialistul Click!, dr. Ovidiu Chis, expert in medicina traditionala indiana, ne spune astazi cum trebuie sa consumam fructele pentru a ne bucura de toate calitatile lor nutritive.
 
-Fructele încă nu ocupă locul pe care s-ar cuveni să-l aibă în alimentația noastră. Ele sunt consumate ca desert, însă acest obicei le face greu digerabile. Fructele zemoase și acide trebuie consumate înainte de masă sau, dacă e posibil, trebuie să constituie ele singure o masă.
+Fructele inca nu ocupa locul pe care s-ar cuveni sa-l aiba in alimentatia noastra. Ele sunt consumate ca desert, insa acest obicei le face greu digerabile. Fructele zemoase si acide trebuie consumate inainte de masa sau, daca e posibil, trebuie sa constituie ele singure o masa.
 
-Toate fructele zemoase sunt purificatoare pentru organism, în timp ce fructele dulci și oleaginoase au proprietăți nutritive deosebite. Fructele culese coapte, pentru care nu s-au folosit fertilizatori chimici, furnizează elemente care vitalizează organismul -- fier, calciu, sodiu, sulf, siliciu, iod -- și astfel constituie remedii valoroase pentru anumite boli.
+Toate fructele zemoase sunt purificatoare pentru organism, in timp ce fructele dulci si oleaginoase au proprietati nutritive deosebite. Fructele culese coapte, pentru care nu s-au folosit fertilizatori chimici, furnizeaza elemente care vitalizeaza organismul -- fier, calciu, sodiu, sulf, siliciu, iod -- si astfel constituie remedii valoroase pentru anumite boli.
 
-Trebuie să evităm fructele coapte artificial, tratate cu substanțe chimice și conservate în diferite moduri. Este mai bine să consumăm fructele acide devreme (dimineața), separat de orice alt aliment, pentru a evita fermentația.
+Trebuie sa evitam fructele coapte artificial, tratate cu substante chimice si conservate in diferite moduri. Este mai bine sa consumam fructele acide devreme (dimineata), separat de orice alt aliment, pentru a evita fermentatia.
 
-Fierte, fructele pierd o parte din vitamine, pierdere accentuată dacă se folosește zahăr la îndulcit. Sucul fructelor constituie "esența vitală" a plantelor, iar curele cu sucuri proaspete sunt recomandate pentru detoxifierea organismului (curăță intestinul, purifică sângele și ajută rinichii să elimine eficient toxinele).
+Fierte, fructele pierd o parte din vitamine, pierdere accentuata daca se foloseste zahar la indulcit. Sucul fructelor constituie "esenta vitala" a plantelor, iar curele cu sucuri proaspete sunt recomandate pentru detoxifierea organismului (curata intestinul, purifica sangele si ajuta rinichii sa elimine eficient toxinele).
 
 **6 tipuri de fructe**
 
-Medicina tradițională indiană distinge mai multe categorii de fructe:
+Medicina traditionala indiana distinge mai multe categorii de fructe:
 
  -------------------------- ---------------------- -------------------------- ---------------------- ------------------- ------------------------
  **FRUCTE ACIDE** **FRUCTE SEMIACIDE** **FRUCTE DULCI** **FRUCTE CU AMIDON** **FRUCTE USCATE** **FRUCTE OLEAGINOASE**
- lămâi portocale grepfrut mere prune smochine piersici pepene banane castane stafide curmale migdale alune nuci
+ lamai portocale grepfrut mere prune smochine piersici pepene banane castane stafide curmale migdale alune nuci
  -------------------------- ---------------------- -------------------------- ---------------------- ------------------- ------------------------
 
 []{.underline}
@@ -25,180 +25,180 @@ Medicina tradițională indiană distinge mai multe categorii de fructe:
 
 de Adina Radu
 
-**Deși mănânci puțin, kilogramele continuă să se acumuleze și, în plus, ai probleme digestive în mod frecvent? Dacă ești în căutarea motivelor, află că de vină poate fi modul în care combini alimentele.**
+**Desi mananci putin, kilogramele continua sa se acumuleze si, in plus, ai probleme digestive in mod frecvent? Daca esti in cautarea motivelor, afla ca de vina poate fi modul in care combini alimentele.**
 
-Organismul tău este construit astfel încât să absoarbă nutrienții câte unui aliment pe rând. Asta pentru că fiecare tip de aliment are nevoie de o enzimă specifică pentru a fi digerat. De aceea, trebuie să consumi împreună doar alimente care au nevoie de aceleași enzime pentru a fi metabolizate și să le eviți pe restul.
+Organismul tau este construit astfel incat sa absoarba nutrientii cate unui aliment pe rand. Asta pentru ca fiecare tip de aliment are nevoie de o enzima specifica pentru a fi digerat. De aceea, trebuie sa consumi impreuna doar alimente care au nevoie de aceleasi enzime pentru a fi metabolizate si sa le eviti pe restul.
 
 **1. Carne cu cartofi**
 
-Regulile de nutriție recomandă să nu combinăm proteinele (carne, pește, ouă sau brânză) cu carbohidrați (pâine, paste, cereale, cartofi sau dulciuri). Această asociere încetinește absorbția principiilor nutritive, pentru că necesită condiții diferite de digestie. Rezultatul este unul deloc favorabil: scăderea imunității organismului și acumularea kilogramelor în plus.
+Regulile de nutritie recomanda sa nu combinam proteinele (carne, peste, oua sau branza) cu carbohidrati (paine, paste, cereale, cartofi sau dulciuri). Aceasta asociere incetineste absorbtia principiilor nutritive, pentru ca necesita conditii diferite de digestie. Rezultatul este unul deloc favorabil: scaderea imunitatii organismului si acumularea kilogramelor in plus.
 
 **2. Carne cu lapte**
 
-Dacă tocmai ai mâncat o friptură și apoi vrei să bei un pahar cu lapte ar fi bine să te oprești. Laptele neutralizează mediul acid din stomac, necesar pentru digestia cărnii.
+Daca tocmai ai mancat o friptura si apoi vrei sa bei un pahar cu lapte ar fi bine sa te opresti. Laptele neutralizeaza mediul acid din stomac, necesar pentru digestia carnii.
 
-Evită și combinațiile de carne sau brânză cu nuci ori cu ouă, pentru că ar putea apărea indigestia. De altfel, laptele ar trebui consumat întotdeauna singur.
+Evita si combinatiile de carne sau branza cu nuci ori cu oua, pentru ca ar putea aparea indigestia. De altfel, laptele ar trebui consumat intotdeauna singur.
 
-**3. Pâine cu salată de roșii**
+**3. Paine cu salata de rosii**
 
-Roșiile, dar și fructele acide, precum portocalele, grepfrutul sau lămâile, nu trebuie mâncate la aceeași masă cu carbohidrații.
+Rosiile, dar si fructele acide, precum portocalele, grepfrutul sau lamaile, nu trebuie mancate la aceeasi masa cu carbohidratii.
 
-Această combinație face ca enzimele care ar trebui să descompună carbohidrații să fie distruse de mediul acid. Fructele și legumele acide, precum și sucul de fructe trebuie consumate între mese pentru că produc fermentație în stomac.
+Aceasta combinatie face ca enzimele care ar trebui sa descompuna carbohidratii sa fie distruse de mediul acid. Fructele si legumele acide, precum si sucul de fructe trebuie consumate intre mese pentru ca produc fermentatie in stomac.
 
-**4. Cartofi copți cu unt**
+**4. Cartofi copti cu unt**
 
-Nu este bine să combini grăsimi saturate cu amidon, iar în această categorie se încadrează piureul, pâinea cu unt, macaroanele cu brânză, pâinea cu șuncă sau cartofii cu unt ori smântână.
+Nu este bine sa combini grasimi saturate cu amidon, iar in aceasta categorie se incadreaza piureul, painea cu unt, macaroanele cu branza, painea cu sunca sau cartofii cu unt ori smantana.
 
-Dacă vei face acest lucru, activitatea pancreasului scade și, implicit, și secreția de insulină, crescând riscul apariției diabetului zaharat. Poți consuma în schimb grăsimile cu proteine sau cu acizi.
+Daca vei face acest lucru, activitatea pancreasului scade si, implicit, si secretia de insulina, crescand riscul aparitiei diabetului zaharat. Poti consuma in schimb grasimile cu proteine sau cu acizi.
 
-**5. Făinoase cu zahăr**
+**5. Fainoase cu zahar**
 
-Prăjiturile sunt delicioase, dar combinarea amidonului din făinoase cu zahăr, dulceață, miere, sirop sau chiar cu fructe dulci de tipul curmalelor, stafidelor sau smochinelor este contraindicată.
+Prajiturile sunt delicioase, dar combinarea amidonului din fainoase cu zahar, dulceata, miere, sirop sau chiar cu fructe dulci de tipul curmalelor, stafidelor sau smochinelor este contraindicata.
 
-Pe lângă acțiunea nocivă asupra activității pancreasului, această asociere produce și fermentație, favorizând apariția arsurilor la stomac.
+Pe langa actiunea nociva asupra activitatii pancreasului, aceasta asociere produce si fermentatie, favorizand aparitia arsurilor la stomac.
 
-**Cum să mănânci?**
+**Cum sa mananci?**
 
-Meniul tău zilnic trebuie să cuprindă citrice, legume cu frunze verzi, carne, pește și ouă, pentru a-ți asigura necesarul zilnic de vitamine și de minerale.
+Meniul tau zilnic trebuie sa cuprinda citrice, legume cu frunze verzi, carne, peste si oua, pentru a-ti asigura necesarul zilnic de vitamine si de minerale.
 
-Una dintre mesele tale zilnice trebuie să fie alcătuită dintr-o sursă de proteine și o salată de verdețuri sau legume fără amidon, fierte la abur.
+Una dintre mesele tale zilnice trebuie sa fie alcatuita dintr-o sursa de proteine si o salata de verdeturi sau legume fara amidon, fierte la abur.
 
-Carbohidrații trebuie să-i consumi întotdeauna singuri, la o masă. Ideal ar fi să alegi făinoasele și cerealele integrale și să excluzi definitiv din dietă carbohidrații procesați, precum pâinea albă, snacksurile, produsele de patiserie sau prăjiturile.
+Carbohidratii trebuie sa-i consumi intotdeauna singuri, la o masa. Ideal ar fi sa alegi fainoasele si cerealele integrale si sa excluzi definitiv din dieta carbohidratii procesati, precum painea alba, snacksurile, produsele de patiserie sau prajiturile.
 
-Consumă doar fructe proaspete, între mese, nu ca desert. Aceeași regulă se aplică și în cazul laptelui dulce.
+Consuma doar fructe proaspete, intre mese, nu ca desert. Aceeasi regula se aplica si in cazul laptelui dulce.
 
-**[7 tipuri de cereale pentru un corp sănătos]{.underline}**
+**[7 tipuri de cereale pentru un corp sanatos]{.underline}**
 
 **[de Magdalena Popescu]{.underline}**
 
-**Dieta bogată în orz, ovăz, grâu și secară întărește sistemul imunitar, stimulează formarea de globule roșii, întreține sănătatea creierului și ne scapă, în prag de vară, de kilogramele în plus. Specialiștii site-ului ne spun care sunt cerealele pe care trebuie să le integrăm în meniul de zi cu zi.**
+**Dieta bogata in orz, ovaz, grau si secara intareste sistemul imunitar, stimuleaza formarea de globule rosii, intretine sanatatea creierului si ne scapa, in prag de vara, de kilogramele in plus. Specialistii site-ului ne spun care sunt cerealele pe care trebuie sa le integram in meniul de zi cu zi.**
 
 **LUNI - Orez**
 
-Boabele de orez echilibrează funcțiile organismului, sunt eficiente în cazul congestiilor, al retenției de apă în țesuturi datorate dereglărilor circulatorii, al hipertensiunii, dar și în cazul unor afecțiuni renale.
+Boabele de orez echilibreaza functiile organismului, sunt eficiente in cazul congestiilor, al retentiei de apa in tesuturi datorate dereglarilor circulatorii, al hipertensiunii, dar si in cazul unor afectiuni renale.
 
-**MARȚI - Orz**
+**MARTI - Orz**
 
-Orzul contribuie la întărirea ligamentelor, a țesuturilor conexe și discurilor intervertebrale. Calmează stările inflamatorii ale mucoasei tractului digestiv. Orzul hrănește atât mușchii cât și nervii, datorită conținutului bogat de zahăr și vitamina B1.
+Orzul contribuie la intarirea ligamentelor, a tesuturilor conexe si discurilor intervertebrale. Calmeaza starile inflamatorii ale mucoasei tractului digestiv. Orzul hraneste atat muschii cat si nervii, datorita continutului bogat de zahar si vitamina B1.
 
 **MIERCURI - Mei**
 
-Rolul meiului în alimentație este de a întări organismul în urma dezechilibrelor cauzate de stres sau alimentație nesănătoasă. Meiul conține și fluor, util în prevenirea cariilor dentare.
+Rolul meiului in alimentatie este de a intari organismul in urma dezechilibrelor cauzate de stres sau alimentatie nesanatoasa. Meiul contine si fluor, util in prevenirea cariilor dentare.
 
-**JOI - Secară**
+**JOI - Secara**
 
-Pâinea cu secară sau alimentele amestecate cu aceste cereale sunt bogate în potasiu și sunt foarte benefice ficatului, întăresc inima, plămânii și membrele.
+Painea cu secara sau alimentele amestecate cu aceste cereale sunt bogate in potasiu si sunt foarte benefice ficatului, intaresc inima, plamanii si membrele.
 
-**VINERI - Ovăz**
+**VINERI - Ovaz**
 
-Ovăzul este ideal pentru reglarea colesterolului, pentru inimă și circulația sângelui în organism dar și pentru prevenirea aterosclerozei.
+Ovazul este ideal pentru reglarea colesterolului, pentru inima si circulatia sangelui in organism dar si pentru prevenirea aterosclerozei.
 
-**SÂMBĂTĂ - Porumb**
+**SAMBATA - Porumb**
 
-Prin conținutul său ridicat de zahăr, porumbul este cereala cea mai activă în metabolismul muscular, dar se folosește și în dietele celor alergici la gluten.
+Prin continutul sau ridicat de zahar, porumbul este cereala cea mai activa in metabolismul muscular, dar se foloseste si in dietele celor alergici la gluten.
 
-**DUMINICĂ - Grâu**
+**DUMINICA - Grau**
 
-Grâul hrănește organismul uman prin conținutul său bogat de vitamine, dintre care cele mai importante sunt vitaminele B6 și B12, esențiale pentru buna funcționare a creierului.
+Graul hraneste organismul uman prin continutul sau bogat de vitamine, dintre care cele mai importante sunt vitaminele B6 si B12, esentiale pentru buna functionare a creierului.
 
-**Nu beți lapte după ce ați mâncat carne!**
+**Nu beti lapte dupa ce ati mancat carne!**
 
-**Atenție cum combinați alimentele!**
+**Atentie cum combinati alimentele!**
 
-**Deși mânânci puțin, kilogramele continuă să se acumuleze și, în plus, ai probleme digestive în mod frecvent? Te întrebi de ce? Răspunsul este: modul în care combini alimentele. Iată câteva asocieri nepotrivite, prezentate de revista "Click! Sănătate".**
+**Desi mananci putin, kilogramele continua sa se acumuleze si, in plus, ai probleme digestive in mod frecvent? Te intrebi de ce? Raspunsul este: modul in care combini alimentele. Iata cateva asocieri nepotrivite, prezentate de revista "Click! Sanatate".**
 
 **Carne cu cartofi**
 
-Deși friptura cu cartofi prăjiți se numără printre mâncărurile preferate ale multora dintre noi, regulile de nutriție recomandă să nu combini proteinele (carne, pește, ouă sau brânză) cu carbohidrați (pâine, paste, cereale, cartofi sau dulciuri). Rezultatele acestei asocieri sunt scăderea imunității organismului, degenerarea unor țesuturi și acumularea kilogramelor în plus.
+Desi friptura cu cartofi prajiti se numara printre mancarurile preferate ale multora dintre noi, regulile de nutritie recomanda sa nu combini proteinele (carne, peste, oua sau branza) cu carbohidrati (paine, paste, cereale, cartofi sau dulciuri). Rezultatele acestei asocieri sunt scaderea imunitatii organismului, degenerarea unor tesuturi si acumularea kilogramelor in plus.
 
-**Cartofi copți cu unt**
+**Cartofi copti cu unt**
 
-Nu este bine să combini grăsimi saturate cu amidon, iar în această categorie se încadrează piureul, pâinea cu unt, macaroanele cu brânză, pâinea cu șuncă sau cartofii cu unt ori smântână.
+Nu este bine sa combini grasimi saturate cu amidon, iar in aceasta categorie se incadreaza piureul, painea cu unt, macaroanele cu branza, painea cu sunca sau cartofii cu unt ori smantana.
 
-Dacă faci acest lucru, activitatea pancreasului scade și, implicit, și secreția de insulină, crescând riscul apariției diabetului zaharat. Poți consuma în schimb grăsimile cu proteine sau cu acizi.
+Daca faci acest lucru, activitatea pancreasului scade si, implicit, si secretia de insulina, crescand riscul aparitiei diabetului zaharat. Poti consuma in schimb grasimile cu proteine sau cu acizi.
 
-**Pâine cu salată de roșii**
+**Paine cu salata de rosii**
 
-Roșiile, dar și fructele acide, precum portocalele, grepfrutul sau lâmâile, nu trebuie mâncate la aceeași masă cu carbohidrații. Această combinație face ca enzimele care ar trebui să descompună carbohidrații să fie distruse de mediul acid. Fructele și legumele acide, precum și sucul de fructe, trebuie consumate între mese pentru că produc fermentație în stomac.
+Rosiile, dar si fructele acide, precum portocalele, grepfrutul sau lamaile, nu trebuie mancate la aceeasi masa cu carbohidratii. Aceasta combinatie face ca enzimele care ar trebui sa descompuna carbohidratii sa fie distruse de mediul acid. Fructele si legumele acide, precum si sucul de fructe, trebuie consumate intre mese pentru ca produc fermentatie in stomac.
 
 **Carne cu lapte**
 
-Dacă tocmai ai mâncat o friptură și apoi vrei să bei un pahar cu lapte, ar fi bine să te gândești de două ori înainte de a face acest lucru. Laptele neutralizează mediul acid din stomac, necesar pentru digestia cărnii.
+Daca tocmai ai mancat o friptura si apoi vrei sa bei un pahar cu lapte, ar fi bine sa te gandesti de doua ori inainte de a face acest lucru. Laptele neutralizeaza mediul acid din stomac, necesar pentru digestia carnii.
 
-Același lucru este valabil și în cazul celorlalte proteine concentrate. Așadar, evită combinațiile de carne sau preparate din carne cu nuci sau cu ouă ori de brânză cu nuci sau cu ouă. Altfel, indigestia nu va întârzia să apară. De altfel, laptele ar trebui consumat întotdeauna singur.
+Acelasi lucru este valabil si in cazul celorlalte proteine concentrate. Asadar, evita combinatiile de carne sau preparate din carne cu nuci sau cu oua ori de branza cu nuci sau cu oua. Altfel, indigestia nu va intarzia sa apara. De altfel, laptele ar trebui consumat intotdeauna singur.
 
-Profită de antioxidanții din fructele de sezon! de Claudia Georgevici
+Profita de antioxidantii din fructele de sezon! de Claudia Georgevici
 =====================================================================
 
-**Căpșunile, cireșele și caisele, câteva dintre fructele cu care te răsfață sezonul cald,sunt și surse importante de antioxidanți, aliați de nădejde ai sănătății, care te pot feri de multe boli.**
+**Capsunile, ciresele si caisele, cateva dintre fructele cu care te rasfata sezonul cald,sunt si surse importante de antioxidanti, aliati de nadejde ai sanatatii, care te pot feri de multe boli.**
 
-Fructele de vară îți furnizează vitaminele și nutrienții de care corpul are foarte mare nevoie pentru a funcționa normal.
+Fructele de vara iti furnizeaza vitaminele si nutrientii de care corpul are foarte mare nevoie pentru a functiona normal.
 
-Printre substanțele pe care le regăsim în fructele de sezon se numără antioxidanții, care ajută corpul să lupte cu radicalii liberi, responsabili de îmbătrânire și de apariția unor boli, precum temutul cancer. Iată ce fructe poți consuma din abundență!
+Printre substantele pe care le regasim in fructele de sezon se numara antioxidantii, care ajuta corpul sa lupte cu radicalii liberi, responsabili de imbatranire si de aparitia unor boli, precum temutul cancer. Iata ce fructe poti consuma din abundenta!
 
-**Căpșunile ne apără de cancer**
+**Capsunile ne apara de cancer**
 
-Surse de vitamine C, K, B2, B5, precum și de magneziu, iod, acizi grași omega 3 și potasiu, căpșunile conțin fenoli, antioxidanți care protejează structurile celulare.
+Surse de vitamine C, K, B2, B5, precum si de magneziu, iod, acizi grasi omega 3 si potasiu, capsunile contin fenoli, antioxidanti care protejeaza structurile celulare.
 
-Mai multe studii au subliniat că, datorită antioxidanților pe care îi conțin, căpșunile sunt printre cele mai importante fructe anticancer, prevenind și apariția altor afecțiuni, cum sunt degenerescența maculară legată de vârstă și artrita reumatoidă. Sărace în calorii, căpșunile reprezintă o alegere inspirată și în curele de slăbire.
+Mai multe studii au subliniat ca, datorita antioxidantilor pe care ii contin, capsunile sunt printre cele mai importante fructe anticancer, prevenind si aparitia altor afectiuni, cum sunt degenerescenta maculara legata de varsta si artrita reumatoida. Sarace in calorii, capsunile reprezinta o alegere inspirata si in curele de slabire.
 
-**Cireșele, un adevărat somnifer**
+**Ciresele, un adevarat somnifer**
 
-O altă tentație dulce a verii, cireșele sunt bogate în antocianină, un alt antioxidant redutabil, care are efect antitumoral, împiedicând instalarea unor forme de cancer. Poți prepara și deserturi apetisante cu cireșe, cum ar fi tartele.
+O alta tentatie dulce a verii, ciresele sunt bogate in antocianina, un alt antioxidant redutabil, care are efect antitumoral, impiedicand instalarea unor forme de cancer. Poti prepara si deserturi apetisante cu cirese, cum ar fi tartele.
 
-Pe lângă gustul lor delicios, acestea îți furnizează melatonină, substanță care te ajută să ai un somn liniștit și care te protejează de bolile cardiace. Cireșele, atât cele dulci, cât și cele amare, sunt recomandate în ameliorarea durerilor musculare, a bolilor hepatice și în litiazele renale și biliare.
+Pe langa gustul lor delicios, acestea iti furnizeaza melatonina, substanta care te ajuta sa ai un somn linistit si care te protejeaza de bolile cardiace. Ciresele, atat cele dulci, cat si cele amare, sunt recomandate in ameliorarea durerilor musculare, a bolilor hepatice si in litiazele renale si biliare.
 
-**Piersicile fortifică sistemul imunitar**
+**Piersicile fortifica sistemul imunitar**
 
-Delicioasele piersici sunt deosebit de valoroase și pentru sănătate. Datorită conținutului ridicat de vitamina C, piersicile ajută la întărirea sistemului imunitar.
+Delicioasele piersici sunt deosebit de valoroase si pentru sanatate. Datorita continutului ridicat de vitamina C, piersicile ajuta la intarirea sistemului imunitar.
 
-Antioxidanții din piersici ajută la prevenirea cancerului, a bolilor cardiovasculare și la întârzierea procesului de îmbătrânire. Antioxidanții luteină și zeaxantină din compoziția lor ajută la filtrarea luminii solare, împiedicând efectul negativ al radiațiilor ultraviolete asupra retinei.
+Antioxidantii din piersici ajuta la prevenirea cancerului, a bolilor cardiovasculare si la intarzierea procesului de imbatranire. Antioxidantii luteina si zeaxantina din compozitia lor ajuta la filtrarea luminii solare, impiedicand efectul negativ al radiatiilor ultraviolete asupra retinei.
 
-**Caisele mențin vederea bună**
+**Caisele mentin vederea buna**
 
-Printre vitaminele care recomandă caisele ca alegere sănătoasă se află vitamina A, antioxidant puternic, care te ferește de apariția unor boli oculare, precum cataracta și degenerescența maculară.
+Printre vitaminele care recomanda caisele ca alegere sanatoasa se afla vitamina A, antioxidant puternic, care te fereste de aparitia unor boli oculare, precum cataracta si degenerescenta maculara.
 
-Doar trei caise îți furnizează jumătate din doza zilnică necesară de vitamina A. Licopenul, alt antioxidant important din aceste fructe, împiedică oxidarea colesterolului LDL (numit și cel „rău"), diminuând riscul instalării bolilor de inimă. Caisele mai conțin și vitamina C, care ajută la întărirea sistemului imunitar, precum și vitamine din complexul B.
+Doar trei caise iti furnizeaza jumatate din doza zilnica necesara de vitamina A. Licopenul, alt antioxidant important din aceste fructe, impiedica oxidarea colesterolului LDL (numit si cel „rau"), diminuand riscul instalarii bolilor de inima. Caisele mai contin si vitamina C, care ajuta la intarirea sistemului imunitar, precum si vitamine din complexul B.
 
-**Murele, mai bogate în antioxidanți**
+**Murele, mai bogate in antioxidanti**
 
-Printre fructele cu cel mai mare nivel de antioxidanți se numără murele. De altfel, toate fructele de pădure sunt renumite pentru cantitatea lor importantă de antioxidanți.
+Printre fructele cu cel mai mare nivel de antioxidanti se numara murele. De altfel, toate fructele de padure sunt renumite pentru cantitatea lor importanta de antioxidanti.
 
-Pentru a măsura valoarea antioxidantă a diverselor alimente, specialiștii folosesc metoda „capacității de absorbție a radicalilor de oxigen" (ORAC: Oxygen Radical\
+Pentru a masura valoarea antioxidanta a diverselor alimente, specialistii folosesc metoda „capacitatii de absorbtie a radicalilor de oxigen" (ORAC: Oxygen Radical\
 Absorbance Capacity).
 
-***[Doctor Click! vă sfătuiește]{.underline}***
+***[Doctor Click! va sfatuieste]{.underline}***
 
-Fructele verii sunt surse importante de vitamine și minerale cu valoare antioxidantă. Un amănunt deloc de neglijat este intensitatea culorii acestor fructe: cu cât sunt mai colorate, cu atât este mai mare și nivelul de antioxidanți conținuți de ele. În topul fructelor cu proprietăți antioxidante se numără fructele de pădure, mai precis afinele și murele.
+Fructele verii sunt surse importante de vitamine si minerale cu valoare antioxidanta. Un amanunt deloc de neglijat este intensitatea culorii acestor fructe: cu cat sunt mai colorate, cu atat este mai mare si nivelul de antioxidanti continuti de ele. In topul fructelor cu proprietati antioxidante se numara fructele de padure, mai precis afinele si murele.
 
-De asemenea, căpșunile, cireșele, caisele și piersicile sunt, la rândul lor, bogate în antioxidanți care ne pot proteja de nenumărate boli, printre care temutul cancer. Este important de menționat și faptul că substanțele antioxidante ne protejează de efectele îmbătrânirii și de afecțiunile cardiovasculare.
+De asemenea, capsunile, ciresele, caisele si piersicile sunt, la randul lor, bogate in antioxidanti care ne pot proteja de nenumarate boli, printre care temutul cancer. Este important de mentionat si faptul ca substantele antioxidante ne protejeaza de efectele imbatranirii si de afectiunile cardiovasculare.
 
-**Ce mănânci dacă ai gastrită?**
+**Ce mananci daca ai gastrita?**
 
 de Adina Radu
 
-**Pentru a trata corect gastrita trebuie, în primul rând, să adopți un regim alimentar care include alimente ușor digerabile. Iată ce trebuie să alegi și ce ar fi bine să eviți!**
+**Pentru a trata corect gastrita trebuie, in primul rand, sa adopti un regim alimentar care include alimente usor digerabile. Iata ce trebuie sa alegi si ce ar fi bine sa eviti!**
 
-Dacă suferi de gastrită, poți avea simptome precum arsuri sau dureri de stomac, dureri de cap, slăbiciune, greață ori lipsa poftei de mâncare. Este bine să știi însă că există cazuri în care boala poate evolua și fără simptome.
+Daca suferi de gastrita, poti avea simptome precum arsuri sau dureri de stomac, dureri de cap, slabiciune, greata ori lipsa poftei de mancare. Este bine sa stii insa ca exista cazuri in care boala poate evolua si fara simptome.
 
-Consumul de alcool, abuzul de cafea, fumatul (mai ales pe stomacul gol), dar și alimentele prea reci sau prea fierbinți, condimentele și un regim de viață stresant se numără printre factorii care duc la apariția gastritei.
+Consumul de alcool, abuzul de cafea, fumatul (mai ales pe stomacul gol), dar si alimentele prea reci sau prea fierbinti, condimentele si un regim de viata stresant se numara printre factorii care duc la aparitia gastritei.
 
-**Ai voie carne fiartă**
+**Ai voie carne fiarta**
 
-Poți consuma carne fiartă de pui, de vită sau de porc și rasol de pește. Sunt recomandate și făinoasele albe și mămăliga, pe care trebuie să o fierbi foarte bine. De asemenea, ai voie să mănânci brânză dulce de vaci, caș proaspăt, lapte și ouă fierte moi. Foarte indicate sunt supele de zarzavat strecurate și piureurile sau sufleurile de legume, cum ar fi dovlecei, cartofi ori morcovi. Sunt permise și sucurile sau compoturile din fructe dulci, iar la desert poți alege frișcă, budincă de făinoase sau prăjituri cu brânză de vaci. Zahărul trebuie consumat cu moderație, putând fi înlocuit cu miere. Uleiul vegetal, margarina nesărată și untul proaspăt pot fi incluse în dietă.
+Poti consuma carne fiarta de pui, de vita sau de porc si rasol de peste. Sunt recomandate si fainoasele albe si mamaliga, pe care trebuie sa o fierbi foarte bine. De asemenea, ai voie sa mananci branza dulce de vaci, cas proaspat, lapte si oua fierte moi. Foarte indicate sunt supele de zarzavat strecurate si piureurile sau sufleurile de legume, cum ar fi dovlecei, cartofi ori morcovi. Sunt permise si sucurile sau compoturile din fructe dulci, iar la desert poti alege frisca, budinca de fainoase sau prajituri cu branza de vaci. Zaharul trebuie consumat cu moderatie, putand fi inlocuit cu miere. Uleiul vegetal, margarina nesarata si untul proaspat pot fi incluse in dieta.
 
-**Evită grăsimile și condimentele**
+**Evita grasimile si condimentele**
 
-Este indicat să eviți pâinea proaspătă, mai ales dacă este caldă, precum și carnea grasă sau afumată, pielea de pui, peștele gras, mezelurile, conservele, vânatul, tocăturile și prăjelile. Legumele tari, bogate în celuloză, cum sunt ceapa, usturoiul, castraveții, varza, ardeiul, conopida, țelina, ridichiile, fasolea sau mazărea sunt și ele contraindicate. Mai trebuie evitate murăturile, brânzeturile fermentate, sărate și ouăle prăjite sau cele fierte tari. Citricele se încadrează și ele pe lista alimentelor nepermise, precum și nucile, migdalele, alunele sau fisticul. Untura, slănina, untul sărat și, în general, grăsimile prăjite, dar și aluaturile dospite, bomboanele, prăjiturile de cofetărie, dulceața și gemul trebuie excluse cu desăvârșire din dieta ta. De asemenea, limitează consumul de alcool și de cafea. Este bine să eviți și apa minerală și băuturile prea reci sau prea fierbinți.
+Este indicat sa eviti painea proaspata, mai ales daca este calda, precum si carnea grasa sau afumata, pielea de pui, pestele gras, mezelurile, conservele, vanatul, tocaturile si prajelile. Legumele tari, bogate in celuloza, cum sunt ceapa, usturoiul, castravetii, varza, ardeiul, conopida, telina, ridichiile, fasolea sau mazarea sunt si ele contraindicate. Mai trebuie evitate muraturile, branzeturile fermentate, sarate si ouale prajite sau cele fierte tari. Citricele se incadreaza si ele pe lista alimentelor nepermise, precum si nucile, migdalele, alunele sau fisticul. Untura, slanina, untul sarat si, in general, grasimile prajite, dar si aluaturile dospite, bomboanele, prajiturile de cofetarie, dulceata si gemul trebuie excluse cu desavarsire din dieta ta. De asemenea, limiteaza consumul de alcool si de cafea. Este bine sa eviti si apa minerala si bauturile prea reci sau prea fierbinti.
 
-**Mănâncă puțin și des!**
+**Mananca putin si des!**
 
--Alimentația în caz de gastrită presupune, în primul rând, consumul de alimente ușoare, necondimentate și cât mai naturale, fără aditivi.
+-Alimentatia in caz de gastrita presupune, in primul rand, consumul de alimente usoare, necondimentate si cat mai naturale, fara aditivi.
 
--Prepară mâncarea doar prin fierbere sau la grătar.
+-Prepara mancarea doar prin fierbere sau la gratar.
 
--Pentru a evita încărcarea stomacului, este bine să mănânci puțin și des (5-6 gustări pe zi) și să mesteci alimentele pe îndelete.
+-Pentru a evita incarcarea stomacului, este bine sa mananci putin si des (5-6 gustari pe zi) si sa mesteci alimentele pe indelete.
 
--Întotdeauna încearcă să iei masa într-un cadru liniștit, pentru că stresul îngreunează digestia și favorizează apariția arsurilor și a balonării.
+-Intotdeauna incearca sa iei masa intr-un cadru linistit, pentru ca stresul ingreuneaza digestia si favorizeaza aparitia arsurilor si a balonarii.
 
 !{width="6.75in" height="5.1618055555555555in"}

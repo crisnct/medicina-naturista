@@ -60,43 +60,43 @@ Inainte de a utiliza lobelia, intreaba-ti medicul pentru ca poate interactiona c
 
 Proprietati medicinale:
 
-Inhibă dorința de nicotină
+Inhiba dorinta de nicotina
 
-Știm deja cât de nociv este fumatul pentru organismul uman, însă fumătorii știu și cât de greu este să învingi acest viciu. Tutunul indian este cunoscut pentru proprietățile asemănătoare cu ale nicotinei, chiar dacă, din cauza toxicității lui, este recomandat cu precauție. Cu toate acestea, este ideal pentru fumători deoarece ajută la curățarea arterelor pulmonare și alungă pofta. Pentru a vă prepara o infuzie care să vă ajute și să nu vă facă rău, se toarnă o cană cu apă fierbinte peste o jumătate de linguriță de plantă uscată și se lasă la infuzat 10-15 minute. Se bea de trei ori pe zi. Tinctura este și ea foarte eficientă, o singură picătură pusă pe limbă atunci când pofta de țigări este mare vă inhibă dorința de a fuma.
+Stim deja cat de nociv este fumatul pentru organismul uman, insa fumatorii stiu si cat de greu este sa invingi acest viciu. Tutunul indian este cunoscut pentru proprietatile asemanatoare cu ale nicotinei, chiar daca, din cauza toxicitatii lui, este recomandat cu precautie. Cu toate acestea, este ideal pentru fumatori deoarece ajuta la curatarea arterelor pulmonare si alunga pofta. Pentru a va prepara o infuzie care sa va ajute si sa nu va faca rau, se toarna o cana cu apa fierbinte peste o jumatate de lingurita de planta uscata si se lasa la infuzat 10-15 minute. Se bea de trei ori pe zi. Tinctura este si ea foarte eficienta, o singura picatura pusa pe limba atunci cand pofta de tigari este mare va inhiba dorinta de a fuma.
 
 Este un util relaxant natural
 
-Una dintre cele mai frecvente întrebuințări ale tutunului indian se referă la tulburările nervoase, cunoscut fiind faptul că are un efect inhibatorasupra sistemului nervos central și autonom, precum și asupra acțiunii neuromusculare. Unii specialiști îl recomandă în caz de anxietate, deoarece această plantă ajută mult la relaxarea mușchilor, iar combinată cu valeriana și gura-lupului reduce nervozitatea excesivă.
+Una dintre cele mai frecvente intrebuintari ale tutunului indian se refera la tulburarile nervoase, cunoscut fiind faptul ca are un efect inhibatorasupra sistemului nervos central si autonom, precum si asupra actiunii neuromusculare. Unii specialisti il recomanda in caz de anxietate, deoarece aceasta planta ajuta mult la relaxarea muschilor, iar combinata cu valeriana si gura-lupului reduce nervozitatea excesiva.
 
 Puternic stimulant respirator
 
-Alcaloizii din componența acestei plante relevă că lobelina este un puternic stimulant respirator, în timp ce isolobelanina este un vomitiv și relaxant respirator ce stimulează secreția catarală și expectorația, relaxând în același timp mușchii sistemului respirator. Poate fi utilizat în multe afecțiuni și combinat cu alte plante pentru o eficiență crescută, însă principala utilizare rămâne în astm bronșic și bronșite.
+Alcaloizii din componenta acestei plante releva ca lobelina este un puternic stimulant respirator, in timp ce isolobelanina este un vomitiv si relaxant respirator ce stimuleaza secretia catarala si expectoratia, relaxand in acelasi timp muschii sistemului respirator. Poate fi utilizat in multe afectiuni si combinat cu alte plante pentru o eficienta crescuta, insa principala utilizare ramane in astm bronsic si bronsite.
 
-Potolește crizele de astm
+Potoleste crizele de astm
 
-Pentru a vă prepara propria tinctură pentru astm, puneți 4 linguri cu frunze de lobelia și 4 linguri cu sămânță de lobelia (măcinate) în 4 căni cu oțet de zmeură. Lăsați la macerat, două săptămâni. Strecurați amestecul și luați câte o lingură în timpul crizelor de astm. În momentul crizei luați câte o lingură la fiecare 10 minute, până la încetarea ei, sau luați un amestec din tutun indian, combinat cu ardei iute, grindelia, Euphorbia pilulifera, roua cerului și Ma Huang.
+Pentru a va prepara propria tinctura pentru astm, puneti 4 linguri cu frunze de lobelia si 4 linguri cu samanta de lobelia (macinate) in 4 cani cu otet de zmeura. Lasati la macerat, doua saptamani. Strecurati amestecul si luati cate o lingura in timpul crizelor de astm. In momentul crizei luati cate o lingura la fiecare 10 minute, pana la incetarea ei, sau luati un amestec din tutun indian, combinat cu ardei iute, grindelia, Euphorbia pilulifera, roua cerului si Ma Huang.
 
-Recunoscut în homeopatie
+Recunoscut in homeopatie
 
-Tutunul indian nu este folosit doar ca remediu naturist, ci este folosit și în alte ramuri complementare, printre care și homeopatia. În principal lobelia este indicată în cazul lipsei de aer datorată constricției la mijlocul toracelui, agravată de expunerea la frig, dar și pentru a trata încordarea și a induce o stare de relaxare. În homeopatie este folosită în diverse afecțiuni, dar este recomandată cu încredere celor care dorescsă renunțe la fumat. Așadar, dacă ați încercat să renunțați la fumat și știți cât de dificil este, vă este teamă că vă veți îngrășa sau că nu veți face față stresului în lipsa țigărilor, este cazul să încercați lobelia ca remediu homeopat, desigur sub supravegherea unui specialist. Combinația Nux Vomica-Lobelia Inflata vă poate ajuta să scăpați de acest obicei neplăcut.
+Tutunul indian nu este folosit doar ca remediu naturist, ci este folosit si in alte ramuri complementare, printre care si homeopatia. In principal lobelia este indicata in cazul lipsei de aer datorata constrictiei la mijlocul toracelui, agravata de expunerea la frig, dar si pentru a trata incordarea si a induce o stare de relaxare. In homeopatie este folosita in diverse afectiuni, dar este recomandata cu incredere celor care dorescsa renunte la fumat. Asadar, daca ati incercat sa renuntati la fumat si stiti cat de dificil este, va este teama ca va veti ingrasa sau ca nu veti face fata stresului in lipsa tigarilor, este cazul sa incercati lobelia ca remediu homeopat, desigur sub supravegherea unui specialist. Combinatia Nux Vomica-Lobelia Inflata va poate ajuta sa scapati de acest obicei neplacut.
 
-Iată câteva instrucțiuni:
+Iata cateva instructiuni:
 
-1\. Procura-ti Nux Vomica și Lobelia Inflata, cere sfatul unui profesionist pentru stabilirea dozei, iar dacă nu doresti , începe cu cea mai mică doză posibilă sau procura-ți un kit homeopat „quit smoking”, care este ușor de găsit pe internet;
+1\. Procura-ti Nux Vomica si Lobelia Inflata, cere sfatul unui profesionist pentru stabilirea dozei, iar daca nu doresti , incepe cu cea mai mica doza posibila sau procura-ti un kit homeopat „quit smoking”, care este usor de gasit pe internet;
 
-2\. Granulele, de regulă 3 la număr, se pun sub limbă și se țin până când se dizolvă complet, însă poti opta și pentru tinctură, care se administrează tot sublingual. Dacă gustul este prea puternic, poti bea apă;
+2\. Granulele, de regula 3 la numar, se pun sub limba si se tin pana cand se dizolva complet, insa poti opta si pentru tinctura, care se administreaza tot sublingual. Daca gustul este prea puternic, poti bea apa;
 
-3\. Nu consuma cafea, cola, bomboane de ciocolată, ceaiuri care conțin cafeină, deoarece remediul își va pierde efectul;
+3\. Nu consuma cafea, cola, bomboane de ciocolata, ceaiuri care contin cafeina, deoarece remediul isi va pierde efectul;
 
-4\. Evita orice produs ce conține mentă, elimina chiar și parfumurile, gelurile de duș, pasta de dinți sau apa de gură mentolată, deoarece va împiedica remediul homeopat să acționeze;
+4\. Evita orice produs ce contine menta, elimina chiar si parfumurile, gelurile de dus, pasta de dinti sau apa de gura mentolata, deoarece va impiedica remediul homeopat sa actioneze;
 
-5\. Evita să stai în preajma fumătorilor sau având țigări la îndemână, deoarece tevor tenta, iar fumatul în timpul tratamentului este interzis.
+5\. Evita sa stai in preajma fumatorilor sau avand tigari la indemana, deoarece tevor tenta, iar fumatul in timpul tratamentului este interzis.
 
-Atenție\!
+Atentie\!
 
-\- Nu este recomandat suferinzilor de hipertensiune arterială, boli de inimă, dificultăți în respirație sau sensibilitate la tutun.
+\- Nu este recomandat suferinzilor de hipertensiune arteriala, boli de inima, dificultati in respiratie sau sensibilitate la tutun.
 
-\- Supradoza de lobelia poate cauza scăderea tensiunii arteriale, probleme respiratorii și chiar comă, urmată de moarte.
+\- Supradoza de lobelia poate cauza scaderea tensiunii arteriale, probleme respiratorii si chiar coma, urmata de moarte.
 
 Tinctura de lobelia pentru astm bronsic
 
@@ -184,4 +184,4 @@ Amesteca toate plantele bine. Adauga jumatate de cana de mixtura in 2 litri de a
 
 Remediu natural pentru acrofobie
 
-Remediile din plante si homeopate pot oferi ajutor eficient pentru simptomele asociate cu acrofobia fara riscul de efecte secundare. Aceste remediiofera o alternativa naturala si sigura.Cocculus indicus, Lobelia inflata, Gelsemium și Bryonia alba pot ajuta la ameliorarea senzatiilor de ameteala, greata, dezorientare și transpirație – de cele mai multe ori fiind asociate cu atacurile de panica.
+Remediile din plante si homeopate pot oferi ajutor eficient pentru simptomele asociate cu acrofobia fara riscul de efecte secundare. Aceste remediiofera o alternativa naturala si sigura.Cocculus indicus, Lobelia inflata, Gelsemium si Bryonia alba pot ajuta la ameliorarea senzatiilor de ameteala, greata, dezorientare si transpiratie – de cele mai multe ori fiind asociate cu atacurile de panica.

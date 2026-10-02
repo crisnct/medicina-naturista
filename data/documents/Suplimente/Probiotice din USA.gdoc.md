@@ -47,7 +47,7 @@
  - creste nivelul de calciu si ajuta la metabolizarea calciului
  - trateaza infectiile intestinale
 
-Suplimente care conțin bacteriile mai sus menționate
+Suplimente care contin bacteriile mai sus mentionate
 
 - Biothin Probiotic (Lactobacillus Gasseri)
 - Digestive Advantage (Bacillus Coagulans)

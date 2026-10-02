@@ -14,7 +14,7 @@ Mai mult decat atat, s-a descoperit ca zeolitul are efecte pozitive si in multe 
 
 Zeolitul se administreaza sub forma de pulbere macinata foarte fin, cel mai adesea incapsulata. Zeolit Protect este pulbere de clinoptilolit, singura forma terapeutica de zeolit. Este 100% sigur si non-toxic: metalele grele sunt eliminate din organism dupa 6-8 ore de la ingerare. Zeolit Protect este sigur pentru orice categorie de varsta, inclusiv pentru copii, chiar si pentru animalele de companie.
 
-Tratamentul cu Zeolit Protect ajuta la echilibrarea nivelului pH-ului din organism: ori de câte ori zeolitul micronizat este ingerat, el reface pH-ul normal al organismului (pH 7,35 – 7,45). Zeolitul atrage si limiteaza apoi protonii in exces care produc aciditate, în acest mod fiind de un real folos in cazul unor afectiuni precum hiperaciditate, candidoza, artrita. Prin restabilirea pH-lui alcalin al corpului, Zeolit Protect ajuta la cresterea nivelului energetic, a cantitatii de oxigen din organism si la functionarea normala a sistemului imunitar.
+Tratamentul cu Zeolit Protect ajuta la echilibrarea nivelului pH-ului din organism: ori de cate ori zeolitul micronizat este ingerat, el reface pH-ul normal al organismului (pH 7,35 – 7,45). Zeolitul atrage si limiteaza apoi protonii in exces care produc aciditate, in acest mod fiind de un real folos in cazul unor afectiuni precum hiperaciditate, candidoza, artrita. Prin restabilirea pH-lui alcalin al corpului, Zeolit Protect ajuta la cresterea nivelului energetic, a cantitatii de oxigen din organism si la functionarea normala a sistemului imunitar.
 
 O alta actiune majora a zeolitului este detoxifierea organismului, care este mai mult decat necesara pentru prevenirea si tratarea constipatiei, pentru prevenirea problemelor de tranzit intestinal lent, pentru o mai buna funcionare a organelor interne, pentru pierderea in greutate etc. Igienizarea colonului – „groapa de gunoi“ a organismului – este primul pas care trebuie facut pentru detoxifierea organismului.
 
@@ -62,7 +62,7 @@ Semne care ne arata ca este important sa realizam o cura de detoxifiere a organi
 
 - Supraponderalitate sau predispozitie la obezitate.
 
-Unele produse detoxifiante au anumite efecte secundare, in sensul ca, dupa ce metalele grele si toxinele sunt eliminate din tesuturi, ele sunt apoi eliberate in sange. Organismul este atunci bombardat de toate aceste toxine in acelasi timp, ceea ce determina efecte secundare neplacute. In schimb, dupa ce Zeolit Protect indeparteaza din tesuturi toxinele si metalele grele, acestea sunt prinse în cusca zeolitului si organismul nu este reexpus la ele, reducand astfel posibilitatea resimtirii efectelor secundare negative.
+Unele produse detoxifiante au anumite efecte secundare, in sensul ca, dupa ce metalele grele si toxinele sunt eliminate din tesuturi, ele sunt apoi eliberate in sange. Organismul este atunci bombardat de toate aceste toxine in acelasi timp, ceea ce determina efecte secundare neplacute. In schimb, dupa ce Zeolit Protect indeparteaza din tesuturi toxinele si metalele grele, acestea sunt prinse in cusca zeolitului si organismul nu este reexpus la ele, reducand astfel posibilitatea resimtirii efectelor secundare negative.
 
 Zeolitul nu afecteaza plombele din mercur, tijele sau articulatiile metalice implantate. El ajuta doar la indepartarea metalelor dizolvate la nivel celular (cele in forma cationica) si nu afecteaza metalul in stare solida (nedizolvat). Va extrage insa din organism mercurul si alte metale grele ajunse acolo in urma dizolvarii lente a acestora.
 

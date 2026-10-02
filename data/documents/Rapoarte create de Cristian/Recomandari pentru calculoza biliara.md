@@ -1,32 +1,32 @@
-# Recomandări pentru Calculoza biliară
+# Recomandari pentru Calculoza biliara
 
-\- infuzie 2 lingurițe la cană de apă din **[Peliniță și Pelin]{.underline}**, 2 căni pe zi pe stomacul gol
+\- infuzie 2 lingurite la cana de apa din **[Pelinita si Pelin]{.underline}**, 2 cani pe zi pe stomacul gol
 
-\- infuzie din 2-3 lingurițe de **[flori de Coada-șoricelului]{.underline}** la o cană; 1-2 căni pe zi
+\- infuzie din 2-3 lingurite de **[flori de Coada-soricelului]{.underline}** la o cana; 1-2 cani pe zi
 
-\- baie cu apă caldă și sare(de bucătărie) la picioare
+\- baie cu apa calda si sare(de bucatarie) la picioare
 
 \- **suc de morcovi** 200-1000ml pe zi
 
-\- **suc de castraveți** 100-300ml pe zi
+\- **suc de castraveti** 100-300ml pe zi
 
-\- **ulei de măsline 250ml + sucul de la patru lămâi**, se bea în două zile dimineața pe stomacul gol
+\- **ulei de masline 250ml + sucul de la patru lamai**, se bea in doua zile dimineata pe stomacul gol
 
-\- **miere de albine 1kg + semințe măcinate de morcov** 7 linguri, se macerează 10 zile după care se iau 3 lingurițe pe zi pe stomacul gol
+\- **miere de albine 1kg + seminte macinate de morcov** 7 linguri, se macereaza 10 zile dupa care se iau 3 lingurite pe zi pe stomacul gol
 
 \- **vitamina C**: 200-600mg pe zi
 
-\- **frunze de Păpădie:** infuzie din 3 lingurite la o cana de apa; se beau 1-2 cani pe zi
+\- **frunze de Papadie:** infuzie din 3 lingurite la o cana de apa; se beau 1-2 cani pe zi
 
-\- **rădăcină de Lemn-dulce:** 1 lingurita de planta se pune la macerat in o cana de apa timp de 8 ore; se strecoara si se bea in cursul unei zile
+\- **radacina de Lemn-dulce:** 1 lingurita de planta se pune la macerat in o cana de apa timp de 8 ore; se strecoara si se bea in cursul unei zile
 
 \- supliment mineral care contine cupru
 
-\- o linguriță de apă de viță de vie se ia dimineața pe stomacul gol
+\- o lingurita de apa de vita de vie se ia dimineata pe stomacul gol
 
 \- orele optime la care sa se ia una din dozele de tratament: 1-2-3 (noaptea)
 
-\- pielițe de pe pipota găinilor: 1 linguriță dimineața pe stomacul gol
+\- pielite de pe pipota gainilor: 1 lingurita dimineata pe stomacul gol
 
 **- vitaminele A si B~6~**
 
@@ -49,60 +49,60 @@
 
 \- **Sucul de ridichie neagra :** se optine cu ajutorul mixerului di ridighi fara coaja . Cura incepe cu 100 ml suc luat dimineata pe stomacul gol , crescand in urmatoarele trei saptamani pana la 400 ml , deci in fiecare saptamana creste cu 100 ml . In urmatoarele saptamani descresteti pana la 100 ml . Daca suferiti de stomac aceasta cura nu poate fi luata . Un ceai excelent este urmatorul : 20 gr \[ o lingurita \] **patrunjel de camp, iedera, hamei, turita mare, menta si pelin** toate aceste plante uscate se amesteca in proportii egale . Din acest amestec se iau 3 linguri de planta si se pun intru-n litru de **vin de mere** sau must de mere \[ vil faceti singuri in mixer \] . Compozitia se pune rece pe foc se lasa sa se infierbante pana ce da un clocot ,apoi se ia de pe foc si se lasa 3 minute sase infuzeze . Peste zi se iau 8-9 linguri de lichid din ora in ora . Pentru ca bautura trebuie sa fie cat mai firbinte ea trebuie tinuta in termos . In aceasta perioada este bine sa tineti o cura de apa minerala .
 
-\-**Preparat care sfarâmă și elimină pietrele de la fiere :**
+\-**Preparat care sfarama si elimina pietrele de la fiere :**
 
-**-** 250ml rachiu de drojdie de bere \[se găsește în comerț\]
+**-** 250ml rachiu de drojdie de bere \[se gaseste in comert\]
 
-\- 250ml zeamă de lămâie
+\- 250ml zeama de lamaie
 
-\- 250ml ulei de măsline
+\- 250ml ulei de masline
 
 \- 250gr miere de albine
 
-\- 2 boabe de tămâie sfărâmate\[boabele să fie de mărimea unui bob de mazare\].
+\- 2 boabe de tamaie sfaramate\[boabele sa fie de marimea unui bob de mazare\].
 
-Totul se amestecă, se pune în sticle acoperite, în cămară la rece și întuneric timp de 8 zile. Se va agita de 2-3 ori pe zi. După cele 8 zile, se bea un păhărel de țuică dimineața pe stomacul gol, până se termină lichidul. Este bine să se bea în tot acest timp și 1litru de ceai pe zi din : mătase de porumb, coada șoricelului, coada calului, amestecate și preparate sub formă de infuzie.
+Totul se amesteca, se pune in sticle acoperite, in camara la rece si intuneric timp de 8 zile. Se va agita de 2-3 ori pe zi. Dupa cele 8 zile, se bea un paharel de tuica dimineata pe stomacul gol, pana se termina lichidul. Este bine sa se bea in tot acest timp si 1litru de ceai pe zi din : matase de porumb, coada soricelului, coada calului, amestecate si preparate sub forma de infuzie.
 
-Primul lucru care trebuie săl faceți este să treceți la un regim alimentar sever \[ post cu lichide \] vreme de o săptămână. Adică doar ceaiuri sucuri de legume, supă de zarzavat. Se recomandă în schimb : consumul a 2-3 cepe, mult hrean, usturoi salate de legume crude, amestecate cu mult ulei presat la rece.
+Primul lucru care trebuie sal faceti este sa treceti la un regim alimentar sever \[ post cu lichide \] vreme de o saptamana. Adica doar ceaiuri sucuri de legume, supa de zarzavat. Se recomanda in schimb : consumul a 2-3 cepe, mult hrean, usturoi salate de legume crude, amestecate cu mult ulei presat la rece.
 
 **Sirop Anoregin**
 
 [Ingrediente:]{.underline}
 
-> -- rădăcină de Ghințură -- 5 lingurițe
+> -- radacina de Ghintura -- 5 lingurite
 >
-> -- rizomi de Obligeană -- 5 lingurițe
+> -- rizomi de Obligeana -- 5 lingurite
 >
-> -- Rostopască -- 5 lingurițe
+> -- Rostopasca -- 5 lingurite
 >
-> -- aspirină -- 2 comprimate
+> -- aspirina -- 2 comprimate
 >
-> -- zahăr -- q.s (apr 350g)
+> -- zahar -- q.s (apr 350g)
 >
-> -- apă -- 350ml
+> -- apa -- 350ml
 
 [Mod de preparare:]{.underline}
 
-> Se face infuzie cu 250ml apă și rădăcina de Ghințură. După ce s-a răcit se adaugă rizomii de Obligeană și se lasă la macerat 8 ore după care se strecoară.
+> Se face infuzie cu 250ml apa si radacina de Ghintura. Dupa ce s-a racit se adauga rizomii de Obligeana si se lasa la macerat 8 ore dupa care se strecoara.
 >
-> Se face infuzie cu 100ml apă și rostopască. După ce s-a răcit se strecoară și se amestecă cu soluția preparată anterior. Se adaugă apoi zahărul și aspirina pisată și se agită recipientul până la dizolvarea acestora.
+> Se face infuzie cu 100ml apa si rostopasca. Dupa ce s-a racit se strecoara si se amesteca cu solutia preparata anterior. Se adauga apoi zaharul si aspirina pisata si se agita recipientul pana la dizolvarea acestora.
 >
-> Siropul se păstrează numai la răcoare în locuri ferite de lumină.
+> Siropul se pastreaza numai la racoare in locuri ferite de lumina.
 >
-> Este recomandat ca siropul să nu fie păstrat mai mult de 2 luni.
+> Este recomandat ca siropul sa nu fie pastrat mai mult de 2 luni.
 
-[Indicații:]{.underline}
+[Indicatii:]{.underline}
 
-> [anorexii]{.underline}, [colici hepato-biliare]{.underline}, [dischinezie biliara]{.underline}, [enterocolite]{.underline}, helmintiaze, tulburări neuro-vegetative, [gastrite hiperacide]{.underline}, [ulcer gastric]{.underline}, [ulcer duodenal]{.underline}, [disconfort abdominal]{.underline}, [dureri abdominale]{.underline}, [calculoză biliară]{.underline}, dismenoree, ameliorant în bolile aparatului respirator.
+> [anorexii]{.underline}, [colici hepato-biliare]{.underline}, [dischinezie biliara]{.underline}, [enterocolite]{.underline}, helmintiaze, tulburari neuro-vegetative, [gastrite hiperacide]{.underline}, [ulcer gastric]{.underline}, [ulcer duodenal]{.underline}, [disconfort abdominal]{.underline}, [dureri abdominale]{.underline}, [calculoza biliara]{.underline}, dismenoree, ameliorant in bolile aparatului respirator.
 
-Alimentația
+Alimentatia
 -----------
 
 **- Alimente recomandate**: cartofi, [masline]{.underline}, [lamaie]{.underline}, [ridiche]{.underline}, must, vin alb fiert, sare iodata, [branza de burduf]{.underline}(contine o foarte mare cantitate de calciu), sfecla rosie, [patrunjel]{.underline}.
 
 \- **Fructe recomandate**: stafide, coacaze, prune, cirese, porumbe, portocale, struguri, asmatui
 
-\- C**ontraindicate**: grăsimile, varza, fasolea, ouăle, afumăturile, laptele, cafeaua, alcoolul, prăjelurile, dulciurile, cartofii, usturoiul, cacao, conserve, mezeluri, branzeturi, tutun, alcool
+\- C**ontraindicate**: grasimile, varza, fasolea, ouale, afumaturile, laptele, cafeaua, alcoolul, prajelurile, dulciurile, cartofii, usturoiul, cacao, conserve, mezeluri, branzeturi, tutun, alcool
 
 **-A se evita:** spanacul, stevia, loboda, cacao, ciocolata deoarece contin oxalati care se depun in fiere si se impiedica absorbtia calciului
 
@@ -110,4 +110,4 @@ Alimentația
 
 **-A se evita** zaharul si prajelurile
 
-\- Se va reduce consumul de carbohidrati și acizi
+\- Se va reduce consumul de carbohidrati si acizi

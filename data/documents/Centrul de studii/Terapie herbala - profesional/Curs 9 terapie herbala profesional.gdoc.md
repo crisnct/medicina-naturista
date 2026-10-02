@@ -2,55 +2,55 @@ Cursul 9
 
 Ierburile diaforetice
 
-Diaforeticele sunt unele dintre cele mai importante grupuri de plante medicinale. Acestea **induc transpirația în următoarele moduri: intra in circulatie si sunt apoi aruncate afara de glandele sudoripare; stimulează fibrele nervoase locale ca acestor glande să le crească acțiunea.** Ierburile ce furnizeaza această acțiune sunt rădăcina de șarpe de Virginia,senega, sasafras, sarsaparila, jaborandi, etc
+Diaforeticele sunt unele dintre cele mai importante grupuri de plante medicinale. Acestea **induc transpiratia in urmatoarele moduri: intra in circulatie si sunt apoi aruncate afara de glandele sudoripare; stimuleaza fibrele nervoase locale ca acestor glande sa le creasca actiunea.** Ierburile ce furnizeaza aceasta actiune sunt radacina de sarpe de Virginia,senega, sasafras, sarsaparila, jaborandi, etc
 
-**Acestea influențează nervii senzitivi periferici, care relaxeaza si dilata capilarele și vasele superficiale. Acestea influențează în primul rând circulația de suprafața și apoi întreaga circulație, iar transpirația este un rezultat al cresterii fluxului sanguin. Ierburile și terapiile care oferă această acțiune sunt cayenne,muștarul, Lobelia, ipeca, etc, de asemenea, baile de vapori, băile turcești, pachetele umede, tratamentul cu foi reci, etc**
+**Acestea influenteaza nervii senzitivi periferici, care relaxeaza si dilata capilarele si vasele superficiale. Acestea influenteaza in primul rand circulatia de suprafata si apoi intreaga circulatie, iar transpiratia este un rezultat al cresterii fluxului sanguin. Ierburile si terapiile care ofera aceasta actiune sunt cayenne,mustarul, Lobelia, ipeca, etc, de asemenea, baile de vapori, baile turcesti, pachetele umede, tratamentul cu foi reci, etc**
 
-Ele **stimuleaza glandele sudoripare indirect, prin stimularea celulelor din sistemul nervos central (maduva spinarii), din care provine nervul fibrelor ce controleaza acțiunea glandelor sudoripare.** Ierburile ce caracterizează această acțiune **sunt lobelia, jaborandi**, etc. Glandele sebacee sau uleiul glandelor lucrează în colaborare cu glandele sudoripare. Acestea oferă flexibilitatea și moliciunea pielii. Atunci când aceste glande nu funcționează corespunzător, pielea devine aspra și iritata. Trebuie produsa transpirația; glandele sebacee trebuie să fie, de asemenea, stimulate. Printre condițiile care necesită această acțiune se numără scarlatina si eczemele. Semințele de brusture (Arctium lappa) și de floarea-soarelui (Helianthus annuus) sunt excelente pentru aceste afectiuni. Acestea ar trebui să fie administrat în infuzii fierbinti. Diaforeza sau transpirația este una dintre cele mai sigure mijloace de restabilire a sănătatii într-un număr mare de cazuri, pentru ca atunci când milioane de pori din piele sunt închisi, fluxul sanguin devine repede impur, otrăvind întregul sistem. În trecut, atunci când oamenii nu isi puteau permite un medic, stiau ca trebuie indusa transpirația pentru a ajuta la vindecarea bolnavilor. Vechii vindecatori cu ajutorul plantelor au cautat sa egalizeze circulatia. Ei au inventat celebra baie de aburi , impreuna cu diaforeticele pe bază de plante, pentru a trata febra, inflamatia, receala, congestiile, etc
+Ele **stimuleaza glandele sudoripare indirect, prin stimularea celulelor din sistemul nervos central (maduva spinarii), din care provine nervul fibrelor ce controleaza actiunea glandelor sudoripare.** Ierburile ce caracterizeaza aceasta actiune **sunt lobelia, jaborandi**, etc. Glandele sebacee sau uleiul glandelor lucreaza in colaborare cu glandele sudoripare. Acestea ofera flexibilitatea si moliciunea pielii. Atunci cand aceste glande nu functioneaza corespunzator, pielea devine aspra si iritata. Trebuie produsa transpiratia; glandele sebacee trebuie sa fie, de asemenea, stimulate. Printre conditiile care necesita aceasta actiune se numara scarlatina si eczemele. Semintele de brusture (Arctium lappa) si de floarea-soarelui (Helianthus annuus) sunt excelente pentru aceste afectiuni. Acestea ar trebui sa fie administrat in infuzii fierbinti. Diaforeza sau transpiratia este una dintre cele mai sigure mijloace de restabilire a sanatatii intr-un numar mare de cazuri, pentru ca atunci cand milioane de pori din piele sunt inchisi, fluxul sanguin devine repede impur, otravind intregul sistem. In trecut, atunci cand oamenii nu isi puteau permite un medic, stiau ca trebuie indusa transpiratia pentru a ajuta la vindecarea bolnavilor. Vechii vindecatori cu ajutorul plantelor au cautat sa egalizeze circulatia. Ei au inventat celebra baie de aburi , impreuna cu diaforeticele pe baza de plante, pentru a trata febra, inflamatia, receala, congestiile, etc
 
-Trebuie să te gândesti la diaforeza, în orice caz care implica circulația generală, cum ar fi inflamatia plamanilor, pleurezia, peritonita, inflamarea stomacala, a splinei, intestinelor, rinichilor, vezicii urinare, uterulului sau creierului. Diaforeza este practic esențiala atunci când ai nevoie sa egalizeyi circulatia. Menține o frecventa exterioara a fluxului de sânge și pacientul va fi pe drumul catre recuperare. Desigur, diaforeticele trebuie să se acorde calde. Dacă sunt date reci, vor influența rinichii. Intestinele trebuie sa fie cât mai curate posibil. Dacă intestinele nu sunt curate, foloseste o injecție de apă caldă pentru a le curăța. Diaforeticele vor acționa apoi mai repede. Nu ar trebui să se acorde băuturi reci între doze. Nu exagera cu diaforeza până la punctul de a epuiza pacientul, provocând oprimarea respirației și puls tremurător. Apa caldă singura este un diaforetic- Combinata cu diaforeticele pe bază de plante, aceasta este unul dintre cele mai valoroase instrumente de vindecare. Cand trateyi o boala, gandeste-te in primul rând la o baie fierbinte pe bază de plante și diaforetice interne. Laxativele nu ar trebui să fie date înainte sau în timpul administrării de diaforetice. Diaforeticele inductranspirația crescuta cu influențarea transpiratiei glandelor sudoripare. Aceste plante relaxeaza glandele sudoripare și cresc transpirația. Influența lor este în principal asupra suprafaței, deschiderii porilor și astfel se scurg otrăvurile din organism și se păstreaza sângele pur. Sistemul nervos este, de asemenea, influențat și ,în cele din urmă, întreaga circulație este afectată ca rezultatul fluxului sanguin crescut. Însoțeste diaforeticele interne cu bai stimulative si frecare cu un prosop aspru sau masaj. Diaforeticele sunt una dintre cele mai importante grupe de plante medicinale deoarece curata condițiile mucoase din întregul corp. Sudorificele stimuleaza glandele sudoripare, producând transpirație abundentă și vizibila, care sta ca margelele pe suprafata pielii atunci când sunt luate calde și acționează benefic ca tonice, atunci când luate reci.
+Trebuie sa te gandesti la diaforeza, in orice caz care implica circulatia generala, cum ar fi inflamatia plamanilor, pleurezia, peritonita, inflamarea stomacala, a splinei, intestinelor, rinichilor, vezicii urinare, uterulului sau creierului. Diaforeza este practic esentiala atunci cand ai nevoie sa egalizeyi circulatia. Mentine o frecventa exterioara a fluxului de sange si pacientul va fi pe drumul catre recuperare. Desigur, diaforeticele trebuie sa se acorde calde. Daca sunt date reci, vor influenta rinichii. Intestinele trebuie sa fie cat mai curate posibil. Daca intestinele nu sunt curate, foloseste o injectie de apa calda pentru a le curata. Diaforeticele vor actiona apoi mai repede. Nu ar trebui sa se acorde bauturi reci intre doze. Nu exagera cu diaforeza pana la punctul de a epuiza pacientul, provocand oprimarea respiratiei si puls tremurator. Apa calda singura este un diaforetic- Combinata cu diaforeticele pe baza de plante, aceasta este unul dintre cele mai valoroase instrumente de vindecare. Cand trateyi o boala, gandeste-te in primul rand la o baie fierbinte pe baza de plante si diaforetice interne. Laxativele nu ar trebui sa fie date inainte sau in timpul administrarii de diaforetice. Diaforeticele inductranspiratia crescuta cu influentarea transpiratiei glandelor sudoripare. Aceste plante relaxeaza glandele sudoripare si cresc transpiratia. Influenta lor este in principal asupra suprafatei, deschiderii porilor si astfel se scurg otravurile din organism si se pastreaza sangele pur. Sistemul nervos este, de asemenea, influentat si ,in cele din urma, intreaga circulatie este afectata ca rezultatul fluxului sanguin crescut. Insoteste diaforeticele interne cu bai stimulative si frecare cu un prosop aspru sau masaj. Diaforeticele sunt una dintre cele mai importante grupe de plante medicinale deoarece curata conditiile mucoase din intregul corp. Sudorificele stimuleaza glandele sudoripare, producand transpiratie abundenta si vizibila, care sta ca margelele pe suprafata pielii atunci cand sunt luate calde si actioneaza benefic ca tonice, atunci cand luate reci.
 
 # Coada soricelului(Achillea millefolium; A. lanulosa; COMPOSITAE)
 
-Denumire: Achillea millefolium. Numele vine de la grecescul Achilleia, nume dat în cinstea eroului Achilles, care , învățând arta tămăduirii bolilor de la centaurul Chiron, a folosit această plantă pentru tămăduirea rănilor lui Telephos și a altor războinici. Cuvântul millefolium este format din cuvintele latine mille=o mie și folium=frunze referindu-se la frunzele sale subdivizate în mai multe lacinii.
+Denumire: Achillea millefolium. Numele vine de la grecescul Achilleia, nume dat in cinstea eroului Achilles, care , invatand arta tamaduirii bolilor de la centaurul Chiron, a folosit aceasta planta pentru tamaduirea ranilor lui Telephos si a altor razboinici. Cuvantul millefolium este format din cuvintele latine mille=o mie si folium=frunze referindu-se la frunzele sale subdivizate in mai multe lacinii.
 
 Caracteristici de identificare:
 
-Este înaltă până la 80 cm, având două feluri de tulpini aeriene: unele mai groase florifere, foliate, ramificate la partea superioară și care se termină cu capitule formate din flori mici și altele sterile purtând numai frunze. Frunzele sunt alterne, penat \- sectate, mai mult sau mai puțin păroase și cu miros slab aromat și gust astringent. Florile sunt grupate în capitule ovoide reunite la rândul lor în corimb la extremitatea tulpinei. Fiecare capitul conține 5-6 flori marginale pentamere, de culoare albă, uneori rozăpână la roșie.
+Este inalta pana la 80 cm, avand doua feluri de tulpini aeriene: unele mai groase florifere, foliate, ramificate la partea superioara si care se termina cu capitule formate din flori mici si altele sterile purtand numai frunze. Frunzele sunt alterne, penat \- sectate, mai mult sau mai putin paroase si cu miros slab aromat si gust astringent. Florile sunt grupate in capitule ovoide reunite la randul lor in corimb la extremitatea tulpinei. Fiecare capitul contine 5-6 flori marginale pentamere, de culoare alba, uneori rozapana la rosie.
 
-Locuri de creștere:
+Locuri de crestere:
 
-Crește prin locuri cultivate și necultivate, din zona de șes până în cea montană, prin fânețe, poieni, margini de păduri, drumuri și căi ferate, în special pe soluri nisipoase ușoare. Înflorește din iunie până în septembrie.
+Creste prin locuri cultivate si necultivate, din zona de ses pana in cea montana, prin fanete, poieni, margini de paduri, drumuri si cai ferate, in special pe soluri nisipoase usoare. Infloreste din iunie pana in septembrie.
 
 Actiune terapeutica:
 
-Datorită uleiului volatil are următoarele acțiuni: stomahice, astringente, antiinflamatoare, calmante și ușor antiseptice și tonic-amare.
+Datorita uleiului volatil are urmatoarele actiuni: stomahice, astringente, antiinflamatoare, calmante si usor antiseptice si tonic-amare.
 
-Intern: antiseptic bronșic, dezinfectant și calmant gastro-intestinal în inflamațiile gastro-intestinale, diminuează secrețiile gastrice, topic, antispasmodic ale căilor biliare, decongestiv hemoroidal.
+Intern: antiseptic bronsic, dezinfectant si calmant gastro-intestinal in inflamatiile gastro-intestinale, diminueaza secretiile gastrice, topic, antispasmodic ale cailor biliare, decongestiv hemoroidal.
 
-Extern: calmant, antiinflamator și dezinfectant (băi și comprese)
+Extern: calmant, antiinflamator si dezinfectant (bai si comprese)
 
 Uz medicinal:
 
 Intern:
 
-În anorexie- datorită gustului amar imprimat de achileină crește apetitul.
+In anorexie- datorita gustului amar imprimat de achileina creste apetitul.
 
-În hemoroizi, hipermenoree și dismenoree, datorită achileinei, care reduce timpul de coagulare a sângelui, diminează congestia, usucă secreția, și are proprietăți calmante și dezinfectante.
+In hemoroizi, hipermenoree si dismenoree, datorita achileinei, care reduce timpul de coagulare a sangelui, dimineaza congestia, usuca secretia, si are proprietati calmante si dezinfectante.
 
-Proprietățile antiinflamatorii, antiseptice și protectoare epiteliale sunt întărite și datorită prezenței uleiului volatil. Coada șoricelului mai este utilizată cu bune rezultate și în bronșite, gastrite, balonari abdominale și boli ale vezicii urinare.
+Proprietatile antiinflamatorii, antiseptice si protectoare epiteliale sunt intarite si datorita prezentei uleiului volatil. Coada soricelului mai este utilizata cu bune rezultate si in bronsite, gastrite, balonari abdominale si boli ale vezicii urinare.
 
 Extern:
 
-Sub formă de comprese calmează tenul roșu și iritat.
+Sub forma de comprese calmeaza tenul rosu si iritat.
 
-Se mai utilizează în arsuri, plăgi purulente, abcese dentare, ulcer varicos. În hemoroizi, sub formă de ceai în amestec cu frunze de urzică, iar în caz de constipație se adaugă și coadă de crușin.
+Se mai utilizeaza in arsuri, plagi purulente, abcese dentare, ulcer varicos. In hemoroizi, sub forma de ceai in amestec cu frunze de urzica, iar in caz de constipatie se adauga si coada de crusin.
 
-Preparare Coada Șoricelului:
+Preparare Coada Soricelului:
 
-Intern: sub formă de infuzie 2-5 g% (200-300 ml pe zi) se ia în enterocolite, gastrite și anorexii. O altă formulă de preparare: infuzie din 2 linguri de flori la 500 ml apă clocotită, se bea călduț și fracționat în 4-5 reprize în cursul unei zile. O infuzie mai concentrată făcută din 10g plantă la 100 ml apă ajută la eliminarea viermilor intestinali (ceaiul se bea dimineața pe stomacul gol).
+Intern: sub forma de infuzie 2-5 g% (200-300 ml pe zi) se ia in enterocolite, gastrite si anorexii. O alta formula de preparare: infuzie din 2 linguri de flori la 500 ml apa clocotita, se bea caldut si fractionat in 4-5 reprize in cursul unei zile. O infuzie mai concentrata facuta din 10g planta la 100 ml apa ajuta la eliminarea viermilor intestinali (ceaiul se bea dimineata pe stomacul gol).
 
-Extern: infuzia 10 % sau 3 linguri la 500 ml apă clocotită, sub formă de băi sau comprese se folosește ca antiinflamator, dezinfectant și calmant în arsuri, plăgi purulente, hemoragii.
+Extern: infuzia 10 % sau 3 linguri la 500 ml apa clocotita, sub forma de bai sau comprese se foloseste ca antiinflamator, dezinfectant si calmant in arsuri, plagi purulente, hemoragii.
 
 Formule:
 
@@ -58,23 +58,23 @@ Infuzia de coada soricelului
 
 1 lingurita coada soricelului (Achillea millefolium)
 
- 1 cană cu apă clocotită-fierbinte (preferabil apa distilată)
+ 1 cana cu apa clocotita-fierbinte (preferabil apa distilata)
 
-Mod de preparare: Se tine timp de 15 minute într-un loc cald, se acoperă cu o farfurie.
+Mod de preparare: Se tine timp de 15 minute intr-un loc cald, se acopera cu o farfurie.
 
- Dozare: 3-4 cani pe zi, cu 1 oră înainte de mese și înainte de culcare.
+ Dozare: 3-4 cani pe zi, cu 1 ora inainte de mese si inainte de culcare.
 
-Notă: Cantitatea va fi de 1 lingurita pentru fiecare cana.
+Nota: Cantitatea va fi de 1 lingurita pentru fiecare cana.
 
 Decoct de coada soricelului
 
 28g coada soricelului, uscata (Achillea millefolium) sau4 lingurite coada soricelului, verde (Achillea millefolium)
 
-1 litru de apă distilată
+1 litru de apa distilata
 
-Mod de preparare: Se pune planta in apa rece, se aduce la fierbere și se fierbe până la o jumatate de litru de lichid, se raceste, se pune in sticlă și se păstreaza într-un loc răcoros.
+Mod de preparare: Se pune planta in apa rece, se aduce la fierbere si se fierbe pana la o jumatate de litru de lichid, se raceste, se pune in sticla si se pastreaza intr-un loc racoros.
 
-Dozare: Se ia rece în doza de 1/2 ceasca.
+Dozare: Se ia rece in doza de 1/2 ceasca.
 
 *Febra*
 
@@ -82,7 +82,7 @@ Dozare: Se ia rece în doza de 1/2 ceasca.
 
 28g Angelica (Angelica atropurpurea)
 
-Mod de preparare: Aduci plante la fierbere sau se toarna 1 litru de apa fierbinte peste ierburi, se fierb la 1 litru, se racesc, se pun in sticla și se păstreaza într-un loc răcoros.
+Mod de preparare: Aduci plante la fierbere sau se toarna 1 litru de apa fierbinte peste ierburi, se fierb la 1 litru, se racesc, se pun in sticla si se pastreaza intr-un loc racoros.
 
  Dozare: cca. 56ml de lichid (cald) la fiecare 2 ore.
 
@@ -92,9 +92,9 @@ Mod de preparare: Aduci plante la fierbere sau se toarna 1 litru de apa fierbint
 
  1 parte Mullein (Verbascum Thapsus)
 
-Mod de preparare: Se amestecă în apă clocotită, se acoperă și se lasa la racit.
+Mod de preparare: Se amesteca in apa clocotita, se acopera si se lasa la racit.
 
-Dozare: 1 cana, de 2 până la 3 ori pe zi.
+Dozare: 1 cana, de 2 pana la 3 ori pe zi.
 
 *Enurezis* (udatul patului, incontinenta de urina)
 
@@ -108,17 +108,17 @@ Dozare: 1 cana, de 2 până la 3 ori pe zi.
 
 7 gcrin alb(Nymphaea odorata)
 
-Mod de preparare: Se aduce la fierbere în 1 litru de apă, se fierbe încet timp de 10 minute, se raceste.
+Mod de preparare: Se aduce la fierbere in 1 litru de apa, se fierbe incet timp de 10 minute, se raceste.
 
-Dozaj: 1 lingura la 56 ml de lichid, de 3 până la 4 ori pe zi.
+Dozaj: 1 lingura la 56 ml de lichid, de 3 pana la 4 ori pe zi.
 
- Notă: masajul peste regiunea lombară stimuleaza nervii vezicii.
+ Nota: masajul peste regiunea lombara stimuleaza nervii vezicii.
 
 Plante surori: Sneezewort (Achillea Ptarmica)- frunze- guturai, epilepsie, probleme uterine.
 
-# Mușețel sau musetel roman (Chamaemelum nobile; Anthemis nobilis; Compositae)
+# Musetel sau musetel roman (Chamaemelum nobile; Anthemis nobilis; Compositae)
 
-Cuvântul matricaria provine de la latinescul mater \= mamă, făcând aluzie la utilizarea plantei în bolile femeilor. După alții se apreciază că derivă de la latinescul matrix- matricis \= uter, aluzie la folosirea plantei în tulburările menstruale. Cuvântul chamomilla derivă din grecescul kamaimelon, numele plantei. Alții apreciază că ar rezulta din cuvintele grecești kamai \= mic, și milon \= măr, aluzie la mirosul fin al florilor de mușețel asemănătoarea cu al unor specii de măr.
+Cuvantul matricaria provine de la latinescul mater \= mama, facand aluzie la utilizarea plantei in bolile femeilor. Dupa altii se apreciaza ca deriva de la latinescul matrix- matricis \= uter, aluzie la folosirea plantei in tulburarile menstruale. Cuvantul chamomilla deriva din grecescul kamaimelon, numele plantei. Altii apreciaza ca ar rezulta din cuvintele grecesti kamai \= mic, si milon \= mar, aluzie la mirosul fin al florilor de musetel asemanatoarea cu al unor specii de mar.
 
 Caracteristici de identificare:
 
@@ -210,37 +210,37 @@ Se recomanda in acest caz o cura de fond cu doua cesti pe zi, in timpul ultimei 
 
 Preparare: extract fluid, infuzie, ulei, praf, tinctura.
 
-Infuzie: Nu fierbe și păstreaza strâns acoperit, datorită uleiului volatil puternic.
+Infuzie: Nu fierbe si pastreaza strans acoperit, datorita uleiului volatil puternic.
 
 Dozare
 
-Fluid extract 10-60 picături (1 lingurita)
+Fluid extract 10-60 picaturi (1 lingurita)
 
- Perfuzabilă 56 ml de lichid, de 3 sau 4 ori pe zi.
+ Perfuzabila 56 ml de lichid, de 3 sau 4 ori pe zi.
 
-Ulei 1-5 picături (foloseste întotdeauna în doze mici, atunci când e utilizat intern)
+Ulei 1-5 picaturi (foloseste intotdeauna in doze mici, atunci cand e utilizat intern)
 
 Tinctura 1/2-1 lingurita.
 
-Administrare: Cimbrul este, în general, administrat în combinație cu alte remedii. Infuzia este preferabila pentru copii.
+Administrare: Cimbrul este, in general, administrat in combinatie cu alte remedii. Infuzia este preferabila pentru copii.
 
-Tuse convulsivă
+Tuse convulsiva
 
 2 grame de cimbru (Thymus vulgaris)
 
 5 grame de vasc (Viscum album)
 
-Mod de preparare: Infuzati în 1 litru de apă.
+Mod de preparare: Infuzati in 1 litru de apa.
 
-Dozare: 1 lingură la fiecare oră sau după cum este necesar. Copii: ajustati în funcție de vârsta.
+Dozare: 1 lingura la fiecare ora sau dupa cum este necesar. Copii: ajustati in functie de varsta.
 
 Compusul ulei antiseptic(un substitut bun pentru Listerine)
 
 1/2 lingurita de ulei de cimbru sau Olium Thymi (Thymus vulgaris)
 
-1 linguriță de cimbru (Thymus vulgaris)
+1 lingurita de cimbru (Thymus vulgaris)
 
-1/2 linguriță Eugenol (aromaticus Caryophyllus, Eugenia aromatica)
+1/2 lingurita Eugenol (aromaticus Caryophyllus, Eugenia aromatica)
 
 1/2 lingurita de mentol (Mentha piperita)
 
@@ -248,37 +248,37 @@ Compusul ulei antiseptic(un substitut bun pentru Listerine)
 
 14 ml de ulei de masline (Olea europaea)
 
-Mod de preparare: Se încălzește ușor uleiul de măsline până cand este destul de cald (nu prea fierbinte), se amestecă în alte ingrediente până se dizolvă și se limpezeste, se acoperă și se lasă să se răcească, se pune in sticle și se pune capac.
+Mod de preparare: Se incalzeste usor uleiul de masline pana cand este destul de cald (nu prea fierbinte), se amesteca in alte ingrediente pana se dizolva si se limpezeste, se acopera si se lasa sa se raceasca, se pune in sticle si se pune capac.
 
-Dozare: Poate fi luat pe plan intern sau extern, cu rezultate uimitoare. Pe plan intern: 1 lingurita la 1 ceașcă de apă, indulcit cu 1 lingură de miere, de 3 până la 4 ori pe zi, bun pentru bronșita infecțioasa, diaree, cancer, diabet, dizenterie, ulcerații, gonoree, leucoree, catar vezical, difterie, stomatită cu febra, febra tifoida, viermi, sifilis. Extern (Dozare): Pentru boli de piele, ulcere, cancer, cangrena, răni putrede, etc aplica pe comprese din bumbac și schimba-le ori de câte ori este necesar, pentru ulceratiile gâtului se aplică exterior și se acoperă cu flanel, pentru reumatism, sciatică, lumbago, încheieturi sau mușchi înțepenite, freca bine si acopera pentru a reține căldura, pentru picioare urat mirositoare, spala picioarele bine, apoi freca în uleiuri (5 minute pentru fiecare picior), spray nazal- o emulsie cu parti egale de apa cu lamaie.
+Dozare: Poate fi luat pe plan intern sau extern, cu rezultate uimitoare. Pe plan intern: 1 lingurita la 1 ceasca de apa, indulcit cu 1 lingura de miere, de 3 pana la 4 ori pe zi, bun pentru bronsita infectioasa, diaree, cancer, diabet, dizenterie, ulceratii, gonoree, leucoree, catar vezical, difterie, stomatita cu febra, febra tifoida, viermi, sifilis. Extern (Dozare): Pentru boli de piele, ulcere, cancer, cangrena, rani putrede, etc aplica pe comprese din bumbac si schimba-le ori de cate ori este necesar, pentru ulceratiile gatului se aplica exterior si se acopera cu flanel, pentru reumatism, sciatica, lumbago, incheieturi sau muschi intepenite, freca bine si acopera pentru a retine caldura, pentru picioare urat mirositoare, spala picioarele bine, apoi freca in uleiuri (5 minute pentru fiecare picior), spray nazal- o emulsie cu parti egale de apa cu lamaie.
 
-Uscare si conservare: Fii atent, deoarece o mare parte din valoarea medicamentelor din cimbru se datorează uleiului sau volatil.
+Uscare si conservare: Fii atent, deoarece o mare parte din valoarea medicamentelor din cimbru se datoreaza uleiului sau volatil.
 
 Plante surori: cimbrul salbatic
 
 # Isop (Hyssopus officinalis; Labiatae)
 
-Isopul este o plantă perenă, care în condiții de cultură crește și produce 10–15 ani. Tulpina este ramificată, lignificată la bază și erbacee în partea superioară, patru-unghiulară și acoperită cu perișori cu înălțimea de până la 80 cm.
+Isopul este o planta perena, care in conditii de cultura creste si produce 10–15 ani. Tulpina este ramificata, lignificata la baza si erbacee in partea superioara, patru-unghiulara si acoperita cu perisori cu inaltimea de pana la 80 cm.
 
-Isopul (Hyssopus) este un gen cam de 10-12 specii, erbacee, mai rar semilemnoase, plante în familia lamiaceae, nativ din estul zonei mediteraneene până în centrul Asiei. Isopul se mai găsește din regiunile calcaroase și aride ale Europei meridionale, până în Europa Centrală și în nordul Africii. Hyssopus officinalis la noi în țară trebuie cultivat.
+Isopul (Hyssopus) este un gen cam de 10-12 specii, erbacee, mai rar semilemnoase, plante in familia lamiaceae, nativ din estul zonei mediteraneene pana in centrul Asiei. Isopul se mai gaseste din regiunile calcaroase si aride ale Europei meridionale, pana in Europa Centrala si in nordul Africii. Hyssopus officinalis la noi in tara trebuie cultivat.
 
-Actiune terapeutica: În scopuri medicinale, se folosește planta întreagă \- Herba Hyssopi. Ea are un miros plăcut și un gust aromatic, datorită uleiului volatil pe care îl conține. Sub formă de infuzie se întrebuințează în afecțiunie cronice ale căilor respiratorii, manifestate prin răgușeală, tuse, astmă, ușurând expectorația și transpirația. Ceaiul de isop favorizează eliminarea apei din țesuturi. Isopul are de asemenea ațiune antiseptică și cicatrizantă asupra rănilor, folosindu-se sub formă de băi sau comprese. Datorită unei substante amare, isopul stimulează pofta de mâncare și reglează funcțiile digestive. Dintre glicozidele flavonice,isopul conține hesperidinu, care are proprietatea de a scădea presiunea sanguină, datorită dilatației arteriale.
+Actiune terapeutica: In scopuri medicinale, se foloseste planta intreaga \- Herba Hyssopi. Ea are un miros placut si un gust aromatic, datorita uleiului volatil pe care il contine. Sub forma de infuzie se intrebuinteaza in afectiunie cronice ale cailor respiratorii, manifestate prin raguseala, tuse, astma, usurand expectoratia si transpiratia. Ceaiul de isop favorizeaza eliminarea apei din tesuturi. Isopul are de asemenea atiune antiseptica si cicatrizanta asupra ranilor, folosindu-se sub forma de bai sau comprese. Datorita unei substante amare, isopul stimuleaza pofta de mancare si regleaza functiile digestive. Dintre glicozidele flavonice,isopul contine hesperidinu, care are proprietatea de a scadea presiunea sanguina, datorita dilatatiei arteriale.
 
-Această plantă intră în compozitia ceaiurilor antiastmație, pectoral și sudorific.
+Aceasta planta intra in compozitia ceaiurilor antiastmatie, pectoral si sudorific.
 
 Preparare:
 
 Extract fluid, infuzie, pulbere, tinctura. Dozare Extract fluid 1/2-2 lingurite
 
-Perfuzabilă 56 ml de lichid luate frecvent ( la fiecare oră)
+Perfuzabila 56 ml de lichid luate frecvent ( la fiecare ora)
 
- Pulbere 1/4 \-1 / 2 linguriță luată frecvent (la fiecare oră)
+ Pulbere 1/4 \-1 / 2 lingurita luata frecvent (la fiecare ora)
 
  Tinctura 1/2 \- 1 lingurita de lichid
 
-Administrare: Isopul se administreaza de obicei sub forma de infuzie calda, luata frecvent, în general folosit în combinație cu alte remedii.
+Administrare: Isopul se administreaza de obicei sub forma de infuzie calda, luata frecvent, in general folosit in combinatie cu alte remedii.
 
-*Febra, inflamație a gâtului* (se deschid porii, se egalizează circulația)
+*Febra, inflamatie a gatului* (se deschid porii, se egalizeaza circulatia)
 
 14 g Isop (Hyssopus officinalis)
 
@@ -292,9 +292,9 @@ Administrare: Isopul se administreaza de obicei sub forma de infuzie calda, luat
 
 Mod de preparare: se fierb primele 4 plante in 1 litru de apa distilata pentru 20 minute, se strecoara fierbinte peste Cayenne.
 
-Dozare: 1 lingurita (calda) la fiecare oră. Administrare: Se bea cald (preferabil)
+Dozare: 1 lingurita (calda) la fiecare ora. Administrare: Se bea cald (preferabil)
 
-*Tuse convulsivă*
+*Tuse convulsiva*
 
 14g de Isop (Hyssopus officinalis)
 
@@ -306,42 +306,42 @@ Dozare: 1 lingurita (calda) la fiecare oră. Administrare: Se bea cald (preferab
 
 14gde Cimbru (Thymus vulgaris)
 
- Mod de preparare: se fierb primele 4 plante încet în 1-1/2 litri de apa pentru 15 minute, se toarna peste cimbru și se fierb 1/2 ora, acoperite.
+ Mod de preparare: se fierb primele 4 plante incet in 1-1/2 litri de apa pentru 15 minute, se toarna peste cimbru si se fierb 1/2 ora, acoperite.
 
-Dozare: 2 lingurite pentru copiii sub 6 ani (doza poate fi crescuta pentru copiii mai mari), asigura-te că menții picioarele calde și uscate.
+Dozare: 2 lingurite pentru copiii sub 6 ani (doza poate fi crescuta pentru copiii mai mari), asigura-te ca mentii picioarele calde si uscate.
 
 # Salvia (Salvia officinalis; Labiatae)
 Salvia, originara din bazinul mediteraneean este un arbust lemnos aromatic. Frunzele sale mici sunt groase si pufoase. Negustorii germani de vin obisnuiau sa adauge extract de salvie la vinurile de Rin pentru a le imbogati aroma, iar uleiul esential este folosit in industra vinurilor.
 
-Salvia se numără printre plantele medicinale cu cel mai îndelungat istoric, folosită pentru proprietățile terapeutice încă de pe vremea romanilor. Se crede că denumirea ei provine din latinescul „salvere", care înseamnă „a salva". Planta cu frunze amărui se poate administra intern (infuzie, pulbere, tinctură), extern (comprese, cataplasme) sau prin inhalarea uleiului volatil obținut din frunze.
+Salvia se numara printre plantele medicinale cu cel mai indelungat istoric, folosita pentru proprietatile terapeutice inca de pe vremea romanilor. Se crede ca denumirea ei provine din latinescul „salvere", care inseamna „a salva". Planta cu frunze amarui se poate administra intern (infuzie, pulbere, tinctura), extern (comprese, cataplasme) sau prin inhalarea uleiului volatil obtinut din frunze.
 
 Salvia este un subarbust de cultura, cu baza lignificata, inalt pana la 80 cm, cu tulpina dreapta, cu frunze dispuse opus, ovale pana la lanceolate, cu nervuri proeminente mai ales pe partea inferioara. Florile sunt asezate in spiculete simple sau ramificate de culoare albastra-violacee.
 
 Proprietati terapeutice:
 
-Acționează ca un tonic digestiv Persoanele care suferă de afecțiuni intestinale precum balonările sau sindromul intestinului iritabil beneficiază de pe urma proprietăților dezinfectante ale salviei. Două-trei căni cu infuzie de salvie consumate zilnic sunt utile în caz de enterocolite, dar și de diaree provenită din alte cauze. Frunzele proaspete de plantă presărate peste alimente stimulează apetitul și ușurează digestia. Ele conferă mâncării un gust ușor amărui, care acționează ca un tonic digestiv.
+Actioneaza ca un tonic digestiv Persoanele care sufera de afectiuni intestinale precum balonarile sau sindromul intestinului iritabil beneficiaza de pe urma proprietatilor dezinfectante ale salviei. Doua-trei cani cu infuzie de salvie consumate zilnic sunt utile in caz de enterocolite, dar si de diaree provenita din alte cauze. Frunzele proaspete de planta presarate peste alimente stimuleaza apetitul si usureaza digestia. Ele confera mancarii un gust usor amarui, care actioneaza ca un tonic digestiv.
 
- Stimulează memoria. Observațiile empirice au fost confirmate de studiile științifice: salvia înviorează simțurile și stimulează capacitatea de concentrare și de memorare. Infuzia de salvie calmează durerile de cap și îmbunătățește tonusul psihic, fiind, deci, utilă în perioadele de suprasolicitare intelectuală. Din același motiv, planta este contraindicată însă persoanelor care suferă de epilepsie, dar și copiilor cu vârste mai mici de 10 ani. Datorită capacității ei de stimulare a memoriei și a raționamentului, planta este considerată utilă persoanelor care suferă de boli degenerative precum maladia Alzheimer.
+ Stimuleaza memoria. Observatiile empirice au fost confirmate de studiile stiintifice: salvia invioreaza simturile si stimuleaza capacitatea de concentrare si de memorare. Infuzia de salvie calmeaza durerile de cap si imbunatateste tonusul psihic, fiind, deci, utila in perioadele de suprasolicitare intelectuala. Din acelasi motiv, planta este contraindicata insa persoanelor care sufera de epilepsie, dar si copiilor cu varste mai mici de 10 ani. Datorita capacitatii ei de stimulare a memoriei si a rationamentului, planta este considerata utila persoanelor care sufera de boli degenerative precum maladia Alzheimer.
 
-Purifică organismul În medicina ayurvedică se spune că fumul obținut prin arderea frunzelor de salvie purifică atmosfera din casă și îndepărtează energiile negative. În loc de fum, poți încerca uleiul volatil din salvie picurat în lampa aromatizantă sau în apa de baie. Datorită proprietăților depurative, o cură de 2-3 luni cu infuzie de salvie (câte 2-3 căni pe zi) ajută la eliminarea toxinelor din corp.
+Purifica organismul In medicina ayurvedica se spune ca fumul obtinut prin arderea frunzelor de salvie purifica atmosfera din casa si indeparteaza energiile negative. In loc de fum, poti incerca uleiul volatil din salvie picurat in lampa aromatizanta sau in apa de baie. Datorita proprietatilor depurative, o cura de 2-3 luni cu infuzie de salvie (cate 2-3 cani pe zi) ajuta la eliminarea toxinelor din corp.
 
-Stimulează regenerarea tenului Salvia conține acizi fenolici și enzime cu proprietăți antioxidante. Una dintre ele este superoxid dismutaza, enzima antiîmbătrânire ce corectează defectele apărute în timpul multiplicării celulare, încetinind, astfel, procesul de degradare a țesuturilor. Din acest motiv, planta este folosită în industria cosmetică, pentru prepararea cremelor, a săpunurilor și a șampoanelor. Compresele cu infuzie de salvie preparată în casă au efect ușor astringent și revigorează tenul obosit și ofilit. În plus, ajută la vindecarea rănilor, ulcerațiilor cutanate și eczemelor și îmbunătățesc aspectul pielii afectate de psoriazis. Decoctul de salvie poate fi folosit pentru colorarea firelor de păr albe, iar infuzia, folosită la ultima clătire, dă strălucire părului șaten.
+Stimuleaza regenerarea tenului Salvia contine acizi fenolici si enzime cu proprietati antioxidante. Una dintre ele este superoxid dismutaza, enzima antiimbatranire ce corecteaza defectele aparute in timpul multiplicarii celulare, incetinind, astfel, procesul de degradare a tesuturilor. Din acest motiv, planta este folosita in industria cosmetica, pentru prepararea cremelor, a sapunurilor si a sampoanelor. Compresele cu infuzie de salvie preparata in casa au efect usor astringent si revigoreaza tenul obosit si ofilit. In plus, ajuta la vindecarea ranilor, ulceratiilor cutanate si eczemelor si imbunatatesc aspectul pielii afectate de psoriazis. Decoctul de salvie poate fi folosit pentru colorarea firelor de par albe, iar infuzia, folosita la ultima clatire, da stralucire parului saten.
 
 Dozare Extract fluid 1/2 \-1 lingurita
 
- Infuzie 56ml de lichid, de 3 până la 4 ori pe zi
+ Infuzie 56ml de lichid, de 3 pana la 4 ori pe zi
 
 Pulbere 1-2 grame
 
-Tinctura 1/4-1 linguriță (20-60 picături)
+Tinctura 1/4-1 lingurita (20-60 picaturi)
 
-Infuzie de salvie 28g frunze de salvie, tăiate (Salvia officinalis) 1-2 litri de apa distilata4 lingurite glicerina pură
+Infuzie de salvie 28g frunze de salvie, taiate (Salvia officinalis) 1-2 litri de apa distilata4 lingurite glicerina pura
 
-Mod de preparare: Se fierbe apa si se toarna peste planta, se acoperă și se tine 20 minute într-un loc cald, se strecoara, se adaugă glicerina, se pune in sticlă și se păstreaza într-un loc răcoros. Dozare: 56ml de lichid, de 3-4 ori pe zi.
+Mod de preparare: Se fierbe apa si se toarna peste planta, se acopera si se tine 20 minute intr-un loc cald, se strecoara, se adauga glicerina, se pune in sticla si se pastreaza intr-un loc racoros. Dozare: 56ml de lichid, de 3-4 ori pe zi.
 
-Apă de gură pentru gargara( pentru gat) 28g frunze de salvie, tăiate sau praf (Salvia officinalis) 2 lingurite de miere (miere sălbatică, daca este posibil)
+Apa de gura pentru gargara( pentru gat) 28g frunze de salvie, taiate sau praf (Salvia officinalis) 2 lingurite de miere (miere salbatica, daca este posibil)
 
-Mod de preparare: Se pune în 1 litru de apa calda, dar nu fierbinte si se tine sub capac până când se răcește. Dacă este dorită o gargara mai stimulativa, utilizeaza 1 ceașcă de apă și 1 ceașcă de oțet de mere în pregătire, în loc de 1 litru de apă.
+Mod de preparare: Se pune in 1 litru de apa calda, dar nu fierbinte si se tine sub capac pana cand se raceste. Daca este dorita o gargara mai stimulativa, utilizeaza 1 ceasca de apa si 1 ceasca de otet de mere in pregatire, in loc de 1 litru de apa.
 
 Tonic stomacal
 
@@ -349,11 +349,11 @@ Tonic stomacal
 
 3 grame de pelin (Artemisia absinthium)
 
- 1 gram de ienupăr (Juniperus communis)
+ 1 gram de ienupar (Juniperus communis)
 
 2 grame de menta (Mentha piperita)
 
-Combinații bune: Salvia de gradina se combină bine cu fructe de padure sumac (Rhus glabra).
+Combinatii bune: Salvia de gradina se combina bine cu fructe de padure sumac (Rhus glabra).
 
 # Menta (Mentha spicata, M. viridis; Labiatae)
 
@@ -375,52 +375,52 @@ Dozare: Extract fluid 1/4 \-1 lingurita
 
 Infuzie 56 ml de lichid
 
- Ulei 1-3 picături
+ Ulei 1-3 picaturi
 
  Pulbere 1-4 grame
 
- Tinctura 1/2-1 linguriță de lichid
+ Tinctura 1/2-1 lingurita de lichid
 
 Administrare :
 
-Anal Hemoroizi: injecteaza cantități mici de infuzie în rect.
+Anal Hemoroizi: injecteaza cantitati mici de infuzie in rect.
 
-Oral Greață și vărsături in timpul sarcinii: Foloseste numai menta sau in combinație cu alte plante.
+Oral Greata si varsaturi in timpul sarcinii: Foloseste numai menta sau in combinatie cu alte plante.
 
 Unguent pentru astm, catar nazal si mucoasa iritata
 
-1 parte ulei de mentă (Mentha spicata)
+1 parte ulei de menta (Mentha spicata)
 
 1 parte ulei de menta (Mentha piperita)
 
 suficienta vaselina
 
-Mod de preparare: Se amesteca uleiurile in vaselina pentru a potenta adecvat (suficient în acțiunea sa astringenta). Administrare: Aplica în nări.
+Mod de preparare: Se amesteca uleiurile in vaselina pentru a potenta adecvat (suficient in actiunea sa astringenta). Administrare: Aplica in nari.
 
-Colici, flatulență, isterie
+Colici, flatulenta, isterie
 
-3 parti de mentă (Mentha spicata)
+3 parti de menta (Mentha spicata)
 
  1 parte de ghimbir (Zingiber officinalis)
 
- Mod de preparare: Se amestecă și se infuzeaza 1 lingurita la fiecare ceașcă de apă caldă.
+ Mod de preparare: Se amesteca si se infuzeaza 1 lingurita la fiecare ceasca de apa calda.
 
-Dozare: Bea ceaiul limpede și strecoara sedimentele.
+Dozare: Bea ceaiul limpede si strecoara sedimentele.
 
-Greață și vărsături in timpul sarcinii
+Greata si varsaturi in timpul sarcinii
 
-14g mentă (Mentha spicata)
+14g menta (Mentha spicata)
 
-2 lingurite cuișoare (Syzygium aromaticum, Eugenia aromatica)
+2 lingurite cuisoare (Syzygium aromaticum, Eugenia aromatica)
 
 2 lingurite de scortisoara (Cinnamomum zeylanicum)
 
 2 lingurite de rubarba turceasca (Rheum palmatum)
 
-Mod de preparare: Infuzeaya în 1 litru de apa fierbinte, tine acoperit 20 minute.
+Mod de preparare: Infuzeaya in 1 litru de apa fierbinte, tine acoperit 20 minute.
 
 Dozare: 3-4 linguri la fiecare 30 de minute.
 
-Combinații bune: se combină cu ghimbir (Zingiber officinalis), pentru a intensifica și accelera acțiunea sa.
+Combinatii bune: se combina cu ghimbir (Zingiber officinalis), pentru a intensifica si accelera actiunea sa.
 
-Plante surori: Menta (Mentha piperita, Labiatae). Isop (Hyssopus officinalis) menta(Mentha cardiaca, M. gentilis, Labiatae, are frunzele mai mici) Mentă ondulata(Mentha crispa, M. aquatica, Labiatae) cultivata sub formă de spearmint.
+Plante surori: Menta (Mentha piperita, Labiatae). Isop (Hyssopus officinalis) menta(Mentha cardiaca, M. gentilis, Labiatae, are frunzele mai mici) Menta ondulata(Mentha crispa, M. aquatica, Labiatae) cultivata sub forma de spearmint.

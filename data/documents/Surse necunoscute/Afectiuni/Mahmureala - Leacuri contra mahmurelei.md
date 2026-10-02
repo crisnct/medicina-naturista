@@ -1,7 +1,7 @@
 # Leacuri contra mahmurelei
 
-Usturoi cu pătrunjel : tocați 2-3 căței de usturoi și 2-3 fire de pătrunjel verde. Amestecați-le cu 10 picături de untdelemn. Amestecul întinde pe pâine și se mănâncă imediat ce băutura se urcă la cap.
+Usturoi cu patrunjel : tocati 2-3 catei de usturoi si 2-3 fire de patrunjel verde. Amestecati-le cu 10 picaturi de untdelemn. Amestecul intinde pe paine si se mananca imediat ce bautura se urca la cap.
 
-Suc de varză : amestecați circa 30gr suc de varză dulce cu 30mg rachiu și 30mg suc de ceapă. Lichidul obținut se încălzește cât să nu fiarbă și se bea pe nerăsuflate.
+Suc de varza : amestecati circa 30gr suc de varza dulce cu 30mg rachiu si 30mg suc de ceapa. Lichidul obtinut se incalzeste cat sa nu fiarba si se bea pe nerasuflate.
 
-Aburi cu oțet de mere : puneți într-o cratiță largă și smălțuită, oțet de mere și apă în părți egale. Vasul se pune pe foc și se lasă să fiarbă încet. Când începe să iasă aburi, se apleacă capul deasupra vasului și se inhalează adânc. Toate aceste rețete au fost verificate și au dat rezultate.
+Aburi cu otet de mere : puneti intr-o cratita larga si smaltuita, otet de mere si apa in parti egale. Vasul se pune pe foc si se lasa sa fiarba incet. Cand incepe sa iasa aburi, se apleaca capul deasupra vasului si se inhaleaza adanc. Toate aceste retete au fost verificate si au dat rezultate.

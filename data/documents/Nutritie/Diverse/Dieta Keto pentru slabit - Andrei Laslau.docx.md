@@ -1,4 +1,4 @@
-Lecții de dietă keto
+Lectii de dieta keto
 
 Dieta ketogenica cere ca din totalul caloriilor zilnice 65% sa provina din grasimi, 30% din proteina si 5% din glucide. Diminuarea glucidelor in dieta, scade nivelul de insulina, iar aceasta duce la activarea lipazei. Aceasta desface trigliceridele din tesutul adipos in acizi grasi.
 

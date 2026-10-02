@@ -1,6 +1,6 @@
 # OCR imagini Medicina
 
-Document combinat din 33 fișiere Markdown generate prin OCR local.
+Document combinat din 33 fisiere Markdown generate prin OCR local.
 
 # 10644803_728964157236579_8804234524315948838_n.jpg
 
@@ -19,9 +19,9 @@ Stin
 foot
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -56,9 +56,9 @@ and stress
 for improving concentration
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -106,9 +106,9 @@ PIERDERI DE MEMORIE: rodie, sfecla, struguri
 NERVOZITATE: morcovi, rodie
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -154,9 +154,9 @@ Anaso!
 Scortisoara
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -199,9 +199,9 @@ which are beneficial for digestive health.
 buckwheat, peanuts, soybeans, lentils, potatoes, and tomatoes.
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -243,9 +243,9 @@ in antioxidants and fiber.
 - Avoid coffee, but drink two to three cups of green tea every day.
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -287,9 +287,9 @@ high in antioxidants and fiber.
 - Drink green tea every day for extra immune system benefits.
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -331,9 +331,9 @@ grass-fed meat several times a week for strength.
 - Avoid coffee, but drink green tea every day.
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -371,9 +371,9 @@ Type AB should avoid red meat, chicken, corn flour and consume
 soy and seafood.
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -431,9 +431,9 @@ Tumorile maligne (canceroase)au doar un procent mic de cancer. Cand partea cance
 tumoarea scade (se contracta)din volum fata de cum era canceroasa.
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -493,9 +493,9 @@ Construieste-ti calea de marire a dozajului zilnic, organismul tau iti v-a spune
 nu prin aceste simtome enumerate.
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -549,9 +549,9 @@ celulelor albe din sange.
 dieta, minerale, laetrile (B17) si enzime pancreatice.
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -623,9 +623,9 @@ SILICON
 péine integral, apa mineralé
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -697,9 +697,9 @@ SILICON
 péine integral, apa mineralé
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -841,9 +841,9 @@ Carpatina SA
 Neamt
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -893,9 +893,9 @@ Dr David
 Pauline
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -945,9 +945,9 @@ se
 ae
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -992,9 +992,9 @@ foods)
 wae
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1063,9 +1063,9 @@ with each meal and at bedtime; a standard PP! dosage is added to the regimen and
 Data from references 5, 25 to 29.
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1098,9 +1098,9 @@ eS
 ca
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1146,9 +1146,9 @@ Visit: PositiveMed.com
 Broccoli
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1177,9 +1177,9 @@ status: "no_text"
 ```text
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1247,9 +1247,9 @@ SILICON
 —— > | Cashews, nuts, seeds
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1315,9 +1315,9 @@ jos
 Palma dreapta In los
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1349,9 +1349,9 @@ la |
 Er
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1380,9 +1380,9 @@ status: "no_text"
 ```text
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1444,9 +1444,9 @@ PICIORUL DREPT
 PICIORUL STANG
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1500,9 +1500,9 @@ PALMA STANGA
 PALMADREAPTA
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1552,9 +1552,9 @@ un
 ect
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1594,9 +1594,9 @@ a
 Inima
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1644,9 +1644,9 @@ Piciorul drept
 Piciorul stang
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1711,9 +1711,9 @@ ee
 nls
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1742,9 +1742,9 @@ status: "no_text"
 ```text
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1780,9 +1780,9 @@ GodBlueprint.com
 \
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1813,9 +1813,9 @@ Body Surfing
 SexGodBlueprint.com
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1852,9 +1852,9 @@ Stuy
 SexGodBlueprint.com
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.
 
 ---
 
@@ -1917,6 +1917,6 @@ INDIGESTIE
 ananas, morcov, lamdie, menta
 ```
 
-## Notă
+## Nota
 
-Textul este rezultatul OCR local și poate conține erori de recunoaștere.
+Textul este rezultatul OCR local si poate contine erori de recunoastere.

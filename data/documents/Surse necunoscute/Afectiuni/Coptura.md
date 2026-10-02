@@ -1,5 +1,5 @@
-# **Coptură, puroi la deget**
+# **Coptura, puroi la deget**
 
-Se pune pe locul respectiv zahăr pudră, zahărul absoarbe secrețiile și distruge mediu prielnic înmulțiri microbilor.
+Se pune pe locul respectiv zahar pudra, zaharul absoarbe secretiile si distruge mediu prielnic inmultiri microbilor.
 
-Se pune pe locul respectiv frunză de aloe tăiată cu partea zemoasă pe rană. Se bandajează, după un timp frunză de aloe va trage tot puroiul și rana se va vindeca.
+Se pune pe locul respectiv frunza de aloe taiata cu partea zemoasa pe rana. Se bandajeaza, dupa un timp frunza de aloe va trage tot puroiul si rana se va vindeca.

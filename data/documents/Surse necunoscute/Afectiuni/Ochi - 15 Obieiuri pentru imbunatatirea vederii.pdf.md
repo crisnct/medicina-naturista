@@ -1,748 +1,748 @@
 Cuprins
 Introducere 2
 Partea I: Ochii: Organele Luminii
-1. Expune-te la lumina solară 4
-2. Lucrează într-un mediu luminos 7
+1. Expune-te la lumina solara 4
+2. Lucreaza intr-un mediu luminos 7
 3. Ergonomia vederii la calculator 9
 4. Regula 10 x 10 x 10 11
-Partea II: Mișcarea și vederea bună
-5. Sportul te ajută să vezi bine 14
-6. Odihnește-ți ochii 16
-7. Evită să ții ochii ficși 17
-8. Nu vizualiza cu ochii deschiși 19
-Partea III: Alimentația și Îmbunătățirea V ederii
-9. Alimentează-te sănătos 22
-10. Hrănește-ți corpul cu apă 25
-11. Clătește-ți ochii cu apă caldă și rece 27
-Partea IV: Atenția și vederea Clară
-12. Vizualizează cum se relaxează vederea 29
+Partea II: Miscarea si vederea buna
+5. Sportul te ajuta sa vezi bine 14
+6. Odihneste-ti ochii 16
+7. Evita sa tii ochii ficsi 17
+8. Nu vizualiza cu ochii deschisi 19
+Partea III: Alimentatia si Imbunatatirea V ederii
+9. Alimenteaza-te sanatos 22
+10. Hraneste-ti corpul cu apa 25
+11. Clateste-ti ochii cu apa calda si rece 27
+Partea IV: Atentia si vederea Clara
+12. Vizualizeaza cum se relaxeaza vederea 29
 13. Cuvintele vederii 31
 14. Somnul eficient 33
 15. Jurnalul vizual 35
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
 Introducere
-Aceste obiceiurile ce sunt detaliate în aceste pagini sunt complementare
-principiilor vederii clare, obiceiurilor și exercițiilor oculare prezentate în cartea
-„Renunță la Ochelari” necesare în procesul de îmbunătățire și restaurare a
+Aceste obiceiurile ce sunt detaliate in aceste pagini sunt complementare
+principiilor vederii clare, obiceiurilor si exercitiilor oculare prezentate in cartea
+„Renunta la Ochelari” necesare in procesul de imbunatatire si restaurare a
 vederii tale.
-Dacă efectuezi doar exercițiile oculare înseamnă că nu faci toți pașii necesari
-îmbunătățirii vederii tale, este necesar să aplici obiceiurile esențiale și principiile
-vederii clare care sunt prezente în cartea „Renunță la Ochelari”.
-Aceste 15 obiceiuri te vor ajuta să ai grija de ochii tăi în diverse momente
-ale zilei, și mai ales să îți mărești capacitatea de atenție asupra stării ochilor tăi.
-De aceea, aceste obiceiuri trebuie să le incluzi în rutina ta zilnică pentru
-a spori eficiența procesului de îmbunătățire și restaurare a vederii tale, cât și
-pentru a o păstra clară, odihnitoare și sănătoasă.
-Sfatul meu este s ă începi să folosești câte 2 obiceiuri pe săptămână până
-când acestea vor intra în reflexul tău zilnic. Apoi vei introduce în rutina ta de
-zi cu zi următoarele 2 obiceiuri la fiecare săptămână.
-Dacă vei încerca să faci toate obiceiurile de la început în fiecare zi, vei fi
-suprasolicitat de câte lucruri trebuie să faci și vei fi tentant să le abandonezi.
-Așadar începe cu primele 2 obiceiuri pentru prima săptămână și efectuea-
-ză-le conștient în fiecare zi până când acestea vor intra în reflexul tău, apoi
-începe și următoarele obiceiuri zilnice împreună cu principiile, obiceiurile și
-exercițiile din cartea „Renunță La Ochelari” cât și sfaturile din „Vitaminele ;i
-Mineralele Vederii” - așa vei obține și păstra vederea clară.
+Daca efectuezi doar exercitiile oculare inseamna ca nu faci toti pasii necesari
+imbunatatirii vederii tale, este necesar sa aplici obiceiurile esentiale si principiile
+vederii clare care sunt prezente in cartea „Renunta la Ochelari”.
+Aceste 15 obiceiuri te vor ajuta sa ai grija de ochii tai in diverse momente
+ale zilei, si mai ales sa iti maresti capacitatea de atentie asupra starii ochilor tai.
+De aceea, aceste obiceiuri trebuie sa le incluzi in rutina ta zilnica pentru
+a spori eficienta procesului de imbunatatire si restaurare a vederii tale, cat si
+pentru a o pastra clara, odihnitoare si sanatoasa.
+Sfatul meu este s a incepi sa folosesti cate 2 obiceiuri pe saptamana pana
+cand acestea vor intra in reflexul tau zilnic. Apoi vei introduce in rutina ta de
+zi cu zi urmatoarele 2 obiceiuri la fiecare saptamana.
+Daca vei incerca sa faci toate obiceiurile de la inceput in fiecare zi, vei fi
+suprasolicitat de cate lucruri trebuie sa faci si vei fi tentant sa le abandonezi.
+Asadar incepe cu primele 2 obiceiuri pentru prima saptamana si efectuea-
+za-le constient in fiecare zi pana cand acestea vor intra in reflexul tau, apoi
+incepe si urmatoarele obiceiuri zilnice impreuna cu principiile, obiceiurile si
+exercitiile din cartea „Renunta La Ochelari” cat si sfaturile din „Vitaminele ;i
+Mineralele Vederii” - asa vei obtine si pastra vederea clara.
 
 PARTEA I:
 OCHII: ORGANELE
 LUMINII
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-1 Expune-te la lumina solară
-De ce trebuie să te expui zilnic la soare?
-Încă din timpuri străvechi, oamenii cinsteau soarele ca pe un mare zeu
-dătător de viață și putere. Ei au știut că prin lumina soarelui se obține o foarte
-mare bogăție.
-Aceasta se numește vitamina D.
-În ziua de astăzi oamenii cred că e dăunător să stea la soare chiar și câteva
-minute datorită razelor ultraviolete. Acesta este un foarte mare neadevăr.
-Soarele este sursa noastră de sănătate. În lipsa lui nu am mai exista.
-Vitamina D, una dintre cele mai importante vitamine ale sănătății noastre se
-sintetizează doar în momentul în care te expui razelor ultraviolete ale soarelui.
-Efectul va fi maxim dacă vei limita utilizarea nenumăratelor produse pentru
-așa zisa ”protecție solară”. Soarele este un bun stimulator pentru corp, prin
-lumină și căldură activând funcțiile din timpul zilei a corpului.
-Cât timp trebuie să te expui la soare?
-Ajunge să stai 20 de minute la soare pe zi și corpul tău își va reface rezervele
-de vitamina D pentru 100 de zile. Desigur că îți poți procura doza zilnică de
-vitamina D și din surse alimentare, cum ar fi peștele și uleiul de pește, însă
-recomandarea mea este să te expui la soare.
-Alegerea îți aparține: 20 de minute de stat la soare, care e gratis, sau alimente
-în fiecare zi pe care trebuie să dai bani. Trebuie să îți spun că oricât de mult
-ai sta la soare și oricât de multă vitamină D ar sintetiza și ar depozita corpul
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+1 Expune-te la lumina solara
+De ce trebuie sa te expui zilnic la soare?
+Inca din timpuri stravechi, oamenii cinsteau soarele ca pe un mare zeu
+datator de viata si putere. Ei au stiut ca prin lumina soarelui se obtine o foarte
+mare bogatie.
+Aceasta se numeste vitamina D.
+In ziua de astazi oamenii cred ca e daunator sa stea la soare chiar si cateva
+minute datorita razelor ultraviolete. Acesta este un foarte mare neadevar.
+Soarele este sursa noastra de sanatate. In lipsa lui nu am mai exista.
+Vitamina D, una dintre cele mai importante vitamine ale sanatatii noastre se
+sintetizeaza doar in momentul in care te expui razelor ultraviolete ale soarelui.
+Efectul va fi maxim daca vei limita utilizarea nenumaratelor produse pentru
+asa zisa ”protectie solara”. Soarele este un bun stimulator pentru corp, prin
+lumina si caldura activand functiile din timpul zilei a corpului.
+Cat timp trebuie sa te expui la soare?
+Ajunge sa stai 20 de minute la soare pe zi si corpul tau isi va reface rezervele
+de vitamina D pentru 100 de zile. Desigur ca iti poti procura doza zilnica de
+vitamina D si din surse alimentare, cum ar fi pestele si uleiul de peste, insa
+recomandarea mea este sa te expui la soare.
+Alegerea iti apartine: 20 de minute de stat la soare, care e gratis, sau alimente
+in fiecare zi pe care trebuie sa dai bani. Trebuie sa iti spun ca oricat de mult
+ai sta la soare si oricat de multa vitamina D ar sintetiza si ar depozita corpul
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-tău, excesul nu va fi niciodată toxic. Însă, dacă iei suplimente există riscul de
-toxicitate în cazul în care depășești doza.
-Desigur că nu te sfătuiesc să stai o zi întreagă la soare, ci să nu eviți soarele.
-Moderația este bună pentru oricine. Pielea, cel mai mare organ al nostru îți
-va oferi și cea mai bună protecție prin această vitamină.
-Vitamina D este stâlpul sănătății tale. Prin vitamina D atât calciul, mag-
-neziul cât și restul vitaminelor de care are nevoie întregul organism se fixează
-mai bine în organism.
-Pielea ta funcționează ca o imensă fabrică de medicamente doar pentru tine.
-Imaginează-ți ce s-ar întâmpla cu lumea plantelor în lipsa soarelui, în condi-
-țiile în care soarele este factorul primordial cu ajutorul căruia are loc fotosinteza.
-Care este cel mai indicat moment să te expui la soare?
-Expune-te la lumina naturală-solară în fiecare dimineață, imediat după ce
-te trezești pentru 5-10 minute. Acest lucru te va ajuta să ai mai multă energie
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+tau, excesul nu va fi niciodata toxic. Insa, daca iei suplimente exista riscul de
+toxicitate in cazul in care depasesti doza.
+Desigur ca nu te sfatuiesc sa stai o zi intreaga la soare, ci sa nu eviti soarele.
+Moderatia este buna pentru oricine. Pielea, cel mai mare organ al nostru iti
+va oferi si cea mai buna protectie prin aceasta vitamina.
+Vitamina D este stalpul sanatatii tale. Prin vitamina D atat calciul, mag-
+neziul cat si restul vitaminelor de care are nevoie intregul organism se fixeaza
+mai bine in organism.
+Pielea ta functioneaza ca o imensa fabrica de medicamente doar pentru tine.
+Imagineaza-ti ce s-ar intampla cu lumea plantelor in lipsa soarelui, in condi-
+tiile in care soarele este factorul primordial cu ajutorul caruia are loc fotosinteza.
+Care este cel mai indicat moment sa te expui la soare?
+Expune-te la lumina naturala-solara in fiecare dimineata, imediat dupa ce
+te trezesti pentru 5-10 minute. Acest lucru te va ajuta sa ai mai multa energie
 pentru acea zi.
-Dacă reușești să te expui la lumina răsăritului și apusului de soare, efectul
-asupra ochilor tăi este mult amplificat. Vei avea energie în acea zi echivalentă
-unei căni de cafea - căreia îi știm cu toții efectele adverse.
-Când spun să te expui la lumina solară/naturală nu mă refer să te uiți în
-soare, ci doar în așa fel încât lumina naturală să cadă ușor pe ochii tăi și pe
-corpul tău, și să îi simți căldura.
-Cum te mai ajută expunerea la soare?
-Expunerea imediată la soare după ce te trezești îți va oferi o stare energetică
-ridicată și în acest fel vei avea ochii mai energizați și vederea ta va fi mai bună.
-Acest lucru te va ajuta ca în timp să nu mai fii atât de sensibil la lumina
-puternică și să elimini fotofobia: te vei simți mai confortabil atunci când stai
-la plajă, mergi prin zăpadă sau în zile foarte însorite.
-Un alt mare beneficiu este că prin expunerea frecventă la soare elimini defi-
-nitiv senzația de fotofobie și elimini mai ales dependența de ochelari de soare.
-Dacă ai pielea mai deschisă la culoare te sfătuiesc să dublezi timpul cât stai
-la soare deoarece cantitatea scăzută de pigment va îngreuna formarea vita -
-minei D. Ca să beneficiezi din plin de energia de la soare folosește ochelarii
-de soare vara doar între orele 11-15, în medii cu reflecții (zăpadă sau nisip) și
+Daca reusesti sa te expui la lumina rasaritului si apusului de soare, efectul
+asupra ochilor tai este mult amplificat. Vei avea energie in acea zi echivalenta
+unei cani de cafea - careia ii stim cu totii efectele adverse.
+Cand spun sa te expui la lumina solara/naturala nu ma refer sa te uiti in
+soare, ci doar in asa fel incat lumina naturala sa cada usor pe ochii tai si pe
+corpul tau, si sa ii simti caldura.
+Cum te mai ajuta expunerea la soare?
+Expunerea imediata la soare dupa ce te trezesti iti va oferi o stare energetica
+ridicata si in acest fel vei avea ochii mai energizati si vederea ta va fi mai buna.
+Acest lucru te va ajuta ca in timp sa nu mai fii atat de sensibil la lumina
+puternica si sa elimini fotofobia: te vei simti mai confortabil atunci cand stai
+la plaja, mergi prin zapada sau in zile foarte insorite.
+Un alt mare beneficiu este ca prin expunerea frecventa la soare elimini defi-
+nitiv senzatia de fotofobie si elimini mai ales dependenta de ochelari de soare.
+Daca ai pielea mai deschisa la culoare te sfatuiesc sa dublezi timpul cat stai
+la soare deoarece cantitatea scazuta de pigment va ingreuna formarea vita -
+minei D. Ca sa beneficiezi din plin de energia de la soare foloseste ochelarii
+de soare vara doar intre orele 11-15, in medii cu reflectii (zapada sau nisip) si
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-atunci când conduci.
-Un aspect foarte important al expunerii la lumina naturală(solară) este
-faptul că în sânge se formează somatoide (microzime) foarte importante
-pentru creșterea imunității. Aceste somatoide mai pot fi obținute doar din
-consumarea plantelor crescute sub lumina directă a soarelui.
-Un alt lucru interesant despre expunerea la lumină este faptul că ea deter-
-mină ciclul somn-trezire. Somnul este dat de prezența unui hormon numit
-melatonină. Acesta este produs de o glandă mică numită glanda pineală.
-Când nivelul luminii începe să scadă aceasta glandă începe să producă
-melatonina care circulă prin sânge și dă senzația de somn.
-Dimineața, datorită apariției luminii și a contactului corpului tău cu ea,
-melatonina se descompune și este eliminată iar senzația de somn dispare.
-În schimb glanda pineală, sub influența luminii naturale, începe să producă
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+atunci cand conduci.
+Un aspect foarte important al expunerii la lumina naturala(solara) este
+faptul ca in sange se formeaza somatoide (microzime) foarte importante
+pentru cresterea imunitatii. Aceste somatoide mai pot fi obtinute doar din
+consumarea plantelor crescute sub lumina directa a soarelui.
+Un alt lucru interesant despre expunerea la lumina este faptul ca ea deter-
+mina ciclul somn-trezire. Somnul este dat de prezenta unui hormon numit
+melatonina. Acesta este produs de o glanda mica numita glanda pineala.
+Cand nivelul luminii incepe sa scada aceasta glanda incepe sa produca
+melatonina care circula prin sange si da senzatia de somn.
+Dimineata, datorita aparitiei luminii si a contactului corpului tau cu ea,
+melatonina se descompune si este eliminata iar senzatia de somn dispare.
+In schimb glanda pineala, sub influenta luminii naturale, incepe sa produca
 un alt hormon, numit serotonina - ce este considerat hormonul FERICIRII.
-Pe măsură ce serotonina începe să fie eliberată devii mai activ, mai energic.
-Acest lucru îți îmbunătățește starea de motivare și concentrare din timpul zilei.
-Expunerea la soare și absorbția vitaminelor
-Un aspect foarte important pentru care îți atrag atenția este că absorbția
-vitaminelor și mineralelor, oricât de multe ar fi, bineînțeles din surse vegetale,
-nu este maximală atât timp cât nu există suficientă vitamina D în corpul tău.
-Adică poți să ai lipsă de vitamine și exces de minerale(calcifieri) din cauza
-malabsorbției, chiar dacă consumi alimente crude - atât timp cât nu te expui
-suficient timp la soare și corpul tău nu sintetizează suficientă vitamina D - cât
+Pe masura ce serotonina incepe sa fie eliberata devii mai activ, mai energic.
+Acest lucru iti imbunatateste starea de motivare si concentrare din timpul zilei.
+Expunerea la soare si absorbtia vitaminelor
+Un aspect foarte important pentru care iti atrag atentia este ca absorbtia
+vitaminelor si mineralelor, oricat de multe ar fi, bineinteles din surse vegetale,
+nu este maximala atat timp cat nu exista suficienta vitamina D in corpul tau.
+Adica poti sa ai lipsa de vitamine si exces de minerale(calcifieri) din cauza
+malabsorbtiei, chiar daca consumi alimente crude - atat timp cat nu te expui
+suficient timp la soare si corpul tau nu sintetizeaza suficienta vitamina D - cat
 are nevoie corpul.
-Astfel, mușchii extraoculari devin rigizi și globul ocular își schimbă forma
-sferică pentru că calciul nu este absorbit corect în corp, fiind astfel prezent în
-exces în mușchii extraoculari sau chiar în globul ocular.
-Așadar, degeaba consumi multe vitamine(provitamine) dacă acestea nu sunt
-absorbite în corp - și toate din cauză că nu te expui suficient la soare!
+Astfel, muschii extraoculari devin rigizi si globul ocular isi schimba forma
+sferica pentru ca calciul nu este absorbit corect in corp, fiind astfel prezent in
+exces in muschii extraoculari sau chiar in globul ocular.
+Asadar, degeaba consumi multe vitamine(provitamine) daca acestea nu sunt
+absorbite in corp - si toate din cauza ca nu te expui suficient la soare!
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-2Lucrează într-un mediu luminos
-Ce înseamnă un mediu de lucru luminos?
-Oricare ar fi activitățile tale din timpul zilei folosește tot timpul o sursă sau
-mai multe surse de lumină care să creeze nu mediu ambiental luminos - ideal,
-care să reproducă lumina naturală.
-O lumină adecvată înseamnă combinarea a două surse de lumină, o sursă de
-lumină albă (de la monitor, neon) și o sursă de lumină galbenă prin becurile
-cu incandescență.
-Astfel se creează cât mai mult din spectrul de lumină asemănător luminii
-naturale, care este benefic ochilor tăi și întregului tău corp.
-De ce este important pentru ochii tăi un mediu luminat?
-În mediul artificial de lucru ochii tăi obosesc mai rapid,și din acest motiv
-se recomandă ochelari cu filtru antireflex care relaxează de tot ochii. Dar, din
-păcate, acest lucru conduce în timp la apariția și mărirea gradului de sensibi-
-litate la lumină - fotofobie. Atenție, crearea unui mediu luminos la lucru nu
-înlocuiește deloc expunerea la lumina naturală a soarelui!
-Din acest motiv, după ce lucrezi multe ore într-un mediu închis - acasă
-sau la birou - unde lumina este artificială, te dor ochii și nu reziști să ții ochii
-normal deschiși la lumina soarelui fără să mai ai senzația de a strânge din ochi
-sau să stai cu ochii mijiți.
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+2Lucreaza intr-un mediu luminos
+Ce inseamna un mediu de lucru luminos?
+Oricare ar fi activitatile tale din timpul zilei foloseste tot timpul o sursa sau
+mai multe surse de lumina care sa creeze nu mediu ambiental luminos - ideal,
+care sa reproduca lumina naturala.
+O lumina adecvata inseamna combinarea a doua surse de lumina, o sursa de
+lumina alba (de la monitor, neon) si o sursa de lumina galbena prin becurile
+cu incandescenta.
+Astfel se creeaza cat mai mult din spectrul de lumina asemanator luminii
+naturale, care este benefic ochilor tai si intregului tau corp.
+De ce este important pentru ochii tai un mediu luminat?
+In mediul artificial de lucru ochii tai obosesc mai rapid,si din acest motiv
+se recomanda ochelari cu filtru antireflex care relaxeaza de tot ochii. Dar, din
+pacate, acest lucru conduce in timp la aparitia si marirea gradului de sensibi-
+litate la lumina - fotofobie. Atentie, crearea unui mediu luminos la lucru nu
+inlocuieste deloc expunerea la lumina naturala a soarelui!
+Din acest motiv, dupa ce lucrezi multe ore intr-un mediu inchis - acasa
+sau la birou - unde lumina este artificiala, te dor ochii si nu rezisti sa tii ochii
+normal deschisi la lumina soarelui fara sa mai ai senzatia de a strange din ochi
+sau sa stai cu ochii mijiti.
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-De ce obosesc mai rapid ochii tăi în mediu întunecat?
-Ochii tăi obosesc oarecum mai rapid într-un mediu lipsit de lumină naturală
-deoarece musculatura irisului este stimulată să se contracte și să se relaxeze
-în prezența luminii ultraviolete ce este produsă natural doar de către soare.
-În ziua de astăzi se lucrează într-un mediu artificial în proporție de 80%
-din timp, față de acum câțiva zeci de ani. Atunci raportul de lucru într-un
-mediu luminat artificial era de maxim 10% și restul timpului se lucra într-un
-mediu cu lumină naturală.
-În plus, conform unui studiu efectuat de Dr. Fritz Hollowich încă din 1980,
-crește nivelul de stres și scade capacitatea de concentrare și învățare atunci când
-se lucrează într-un mediu luminat cu becuri sau tuburi fluorescente.
-De ce? Pentru că lumina artificială este un substitut foarte slab pentru
-lumina naturală și dereglează întregul tău sistem vizual.
-Cum creezi o ambianță de lucru plăcută ochilor?
-În primul rând lumina în care îți desfășori activitatea nu trebuie să aibă
-o intensitate foarte mare, pentru că se transformă într-o sursă de oboseală a
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+De ce obosesc mai rapid ochii tai in mediu intunecat?
+Ochii tai obosesc oarecum mai rapid intr-un mediu lipsit de lumina naturala
+deoarece musculatura irisului este stimulata sa se contracte si sa se relaxeze
+in prezenta luminii ultraviolete ce este produsa natural doar de catre soare.
+In ziua de astazi se lucreaza intr-un mediu artificial in proportie de 80%
+din timp, fata de acum cativa zeci de ani. Atunci raportul de lucru intr-un
+mediu luminat artificial era de maxim 10% si restul timpului se lucra intr-un
+mediu cu lumina naturala.
+In plus, conform unui studiu efectuat de Dr. Fritz Hollowich inca din 1980,
+creste nivelul de stres si scade capacitatea de concentrare si invatare atunci cand
+se lucreaza intr-un mediu luminat cu becuri sau tuburi fluorescente.
+De ce? Pentru ca lumina artificiala este un substitut foarte slab pentru
+lumina naturala si deregleaza intregul tau sistem vizual.
+Cum creezi o ambianta de lucru placuta ochilor?
+In primul rand lumina in care iti desfasori activitatea nu trebuie sa aiba
+o intensitate foarte mare, pentru ca se transforma intr-o sursa de oboseala a
 musculaturii irisului.
-Așadar, sursa de lumină în care lucrezi nu trebuie să se reflecte direct în ochi,
-ci doar să creeze o ambianță odihnitoare și plăcută ochilor tăi.
-Pentru a complementa calitatea luminii din mediul tău de lucru îți reco -
-mand să folosești o lampă cu bec incandescent mai ales seara - sau să lucrezi
-lângă un geam.
-De ce becuri incandescente? Pentru că acestea reproduc o parte din spectrul
-de raze naturale necesare întregului tău corp. De ce nu becuri „economice”?
-Pentru că ele produc smog electric și provoacă migrene; trebuie să se afle la cel
-puțin 2 m distanță de cap, în acest caz neputând fi folosite la lămpile de birou.
+Asadar, sursa de lumina in care lucrezi nu trebuie sa se reflecte direct in ochi,
+ci doar sa creeze o ambianta odihnitoare si placuta ochilor tai.
+Pentru a complementa calitatea luminii din mediul tau de lucru iti reco -
+mand sa folosesti o lampa cu bec incandescent mai ales seara - sau sa lucrezi
+langa un geam.
+De ce becuri incandescente? Pentru ca acestea reproduc o parte din spectrul
+de raze naturale necesare intregului tau corp. De ce nu becuri „economice”?
+Pentru ca ele produc smog electric si provoaca migrene; trebuie sa se afle la cel
+putin 2 m distanta de cap, in acest caz neputand fi folosite la lampile de birou.
 Aceste becuri economice emit un spectru luminos ceva mai apropiat de
-cel al luminii naturale și păcălește corpul uman, inhibând astfel producția
-nocturnă de melatonină. Melatonina ne protejează de câteva tipuri de cancer,
-printre care cel mamar și de prostată. Aceste becuri emană substanțe chimice
-care cauzează cancer printre care se numără fenolul.
-O ambianță ideală diferă de la persoană la persoană și, ca să afli cum se
-potrivește cel mai bine ochilor tăi, trebuie să testezi acest lucru.
+cel al luminii naturale si pacaleste corpul uman, inhiband astfel productia
+nocturna de melatonina. Melatonina ne protejeaza de cateva tipuri de cancer,
+printre care cel mamar si de prostata. Aceste becuri emana substante chimice
+care cauzeaza cancer printre care se numara fenolul.
+O ambianta ideala difera de la persoana la persoana si, ca sa afli cum se
+potriveste cel mai bine ochilor tai, trebuie sa testezi acest lucru.
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
 3Ergonomia vederii la calculator
 Acest capitol despre ergonomia vederii la calculator este foarte important
-pentru că sfaturile pe care le vei învăța te vor ajuta să îți protejezi vederea
-atunci când lucrezi la calculator.
-Calculatorul deteriorează vederea?
-În primul rând vreau să îți amintesc că prin construcția sa, corpul uman a
-fost proiectat pentru mișcare permanentă și nu pentru situații statice. De aceea
-este foarte important ca atunci când lucrezi la calculator să nu îți încătușezi
-corpul în scaun într-o poziție fixă și nici nu privi FIX tot timpul la calculator
-de la accesași distanță.
-Dar și mai important este faptul că monitoarele de la calculator ca și cărțile
-sau televizoarele sunt un medii/realități bi-dimensionale.
-În acest mediu bi-dimensional(cu doar lungime și lățime), în lipsa dimen-
-siuni de spațiu, ochii sunt forțați să privească la o distanță statică – în care
-factorul aproape - distanță lipsește.
-Astfel, ochilor nu li se mai permite să își schimbe atenția pentru a focaliza
-pe distanțe apropiate sau distanțate, așa cum au fost proiectați - să fie folosiți
+pentru ca sfaturile pe care le vei invata te vor ajuta sa iti protejezi vederea
+atunci cand lucrezi la calculator.
+Calculatorul deterioreaza vederea?
+In primul rand vreau sa iti amintesc ca prin constructia sa, corpul uman a
+fost proiectat pentru miscare permanenta si nu pentru situatii statice. De aceea
+este foarte important ca atunci cand lucrezi la calculator sa nu iti incatusezi
+corpul in scaun intr-o pozitie fixa si nici nu privi FIX tot timpul la calculator
+de la accesasi distanta.
+Dar si mai important este faptul ca monitoarele de la calculator ca si cartile
+sau televizoarele sunt un medii/realitati bi-dimensionale.
+In acest mediu bi-dimensional(cu doar lungime si latime), in lipsa dimen-
+siuni de spatiu, ochii sunt fortati sa priveasca la o distanta statica – in care
+factorul aproape - distanta lipseste.
+Astfel, ochilor nu li se mai permite sa isi schimbe atentia pentru a focaliza
+pe distante apropiate sau distantate, asa cum au fost proiectati - sa fie folositi
 pentru un mediu tridimensional.
-Același lucru a reieșit și dintr-un studiu efectuat asupra a doi caței, ținuți 2
-luni de zile doar într-o cutie de 2 metri pătrați. Apoi la sfârșitul celor 2 luni
-s-a observat că nu se puteau descurca când trebuiau să alerge după lucruri
-aflate la distanță.
+Acelasi lucru a reiesit si dintr-un studiu efectuat asupra a doi catei, tinuti 2
+luni de zile doar intr-o cutie de 2 metri patrati. Apoi la sfarsitul celor 2 luni
+s-a observat ca nu se puteau descurca cand trebuiau sa alerge dupa lucruri
+aflate la distanta.
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-Ceea ce îți recomand este să îți miști ochii și capul dintr-un loc al altuia
-al monitorului atunci când lucrezi la calculator - evitând astfel să ții ochii și
-gâtul fix și rigid.
-Așadar, vederea ta nu se deteriorează din cauza calculatorului, ci din cauza
-modului fix și rigid de a folosi ochii atunci când lucrezi la calculator. Atât timp
-cât eviți să păstrezi corpul și ochii tăi într-o poziție statică și rigidă pentru
-un timp îndelungat, vederea ta nu se va deteriora când lucrezi la calculator.
-Care este postura corectă atunci când lucrezi la calculator?
-Poziția ta la calculator este un aspect important atunci când vrei să ai grijă
-de vederea ta. O altă greșeală frecventă care generează o poziție a corpului
-incorectă este amplasarea joasă a monitorului. În acest fel corpul trebuie să fie
-înclinat sau chiar aplecat asupra monitorului.
-Ce se întâmplă cu corpul tău atunci când ai o postură ne-sănătoasă? Ei
-bine, acest lucru facilitează apariția tensiunii pe coloană, la nivelul umerilor
-și a gâtului tău.
-Lucrul în această postură îți va provoca o mobilitate foarte scăzută a cor-
-pului deoarece corpul are o poziție ne-naturală care îți va afecta și modul cum
-respiri, deci vei avea o respirație superficială.
-Iar în momentul când nu respiri corespunzător cantitatea de oxigen de care
-corpul tău are nevoie să o primească scade și vei obosi mai rapid iar tensiunea
-acumulată va afecta în mod DIRECT și vederea ta.
-La fel este și aspectul în care monitorul este poziționat în dreapta sau în
-stânga ta. Așa ești nevoit să ții pentru o perioadă îndelungată de timp capul
-într-o poziție nenaturală pentru corp - să ții capul întors spre stânga sau
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+Ceea ce iti recomand este sa iti misti ochii si capul dintr-un loc al altuia
+al monitorului atunci cand lucrezi la calculator - evitand astfel sa tii ochii si
+gatul fix si rigid.
+Asadar, vederea ta nu se deterioreaza din cauza calculatorului, ci din cauza
+modului fix si rigid de a folosi ochii atunci cand lucrezi la calculator. Atat timp
+cat eviti sa pastrezi corpul si ochii tai intr-o pozitie statica si rigida pentru
+un timp indelungat, vederea ta nu se va deteriora cand lucrezi la calculator.
+Care este postura corecta atunci cand lucrezi la calculator?
+Pozitia ta la calculator este un aspect important atunci cand vrei sa ai grija
+de vederea ta. O alta greseala frecventa care genereaza o pozitie a corpului
+incorecta este amplasarea joasa a monitorului. In acest fel corpul trebuie sa fie
+inclinat sau chiar aplecat asupra monitorului.
+Ce se intampla cu corpul tau atunci cand ai o postura ne-sanatoasa? Ei
+bine, acest lucru faciliteaza aparitia tensiunii pe coloana, la nivelul umerilor
+si a gatului tau.
+Lucrul in aceasta postura iti va provoca o mobilitate foarte scazuta a cor-
+pului deoarece corpul are o pozitie ne-naturala care iti va afecta si modul cum
+respiri, deci vei avea o respiratie superficiala.
+Iar in momentul cand nu respiri corespunzator cantitatea de oxigen de care
+corpul tau are nevoie sa o primeasca scade si vei obosi mai rapid iar tensiunea
+acumulata va afecta in mod DIRECT si vederea ta.
+La fel este si aspectul in care monitorul este pozitionat in dreapta sau in
+stanga ta. Asa esti nevoit sa tii pentru o perioada indelungata de timp capul
+intr-o pozitie nenaturala pentru corp - sa tii capul intors spre stanga sau
 spre dreapta.
-O postură incorectă pentru corp, pe care trebuie să o eviți este și atunci
-când tastatura este plasată spre dreapta sau spre stânga în așa fel încât trebuie
-să ții mâinile într-un unghi care îți va provoca tensiune în brațe și în mâini.
-Poziția corectă și sănătoasă de lucru la calculator este cea în care corpul
-tău este drept, rezemat de spătarul scaunului și astfel capul și ochii se mișcă
-cu ușurință. Astfel acesta va avea un grad mare de mobilitate și îți va permite
-să fii mai mobil și tu să respiri eficient - astfel elimini constant tensiunea din
-sistemul tău vizual.
+O postura incorecta pentru corp, pe care trebuie sa o eviti este si atunci
+cand tastatura este plasata spre dreapta sau spre stanga in asa fel incat trebuie
+sa tii mainile intr-un unghi care iti va provoca tensiune in brate si in maini.
+Pozitia corecta si sanatoasa de lucru la calculator este cea in care corpul
+tau este drept, rezemat de spatarul scaunului si astfel capul si ochii se misca
+cu usurinta. Astfel acesta va avea un grad mare de mobilitate si iti va permite
+sa fii mai mobil si tu sa respiri eficient - astfel elimini constant tensiunea din
+sistemul tau vizual.
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
 4Regula 10 x 10 x 10
-De ce trebuie să folosești regula 10 x 10 x 10?
-Atunci când lucrezi la calculator folosește această regulă pentru a-ți păstra
-vederea bună și pentru a nu avea o vedere dependentă de ochelarii anti-reflex
-cu protecție la calculator.
-Așadar, la fiecare 10 minute de lucrat la calculator privește pentru 10 respi-
-rații la o distanță de cel puțin 10 metri de calculator. În acest fel întregul tău
+De ce trebuie sa folosesti regula 10 x 10 x 10?
+Atunci cand lucrezi la calculator foloseste aceasta regula pentru a-ti pastra
+vederea buna si pentru a nu avea o vedere dependenta de ochelarii anti-reflex
+cu protectie la calculator.
+Asadar, la fiecare 10 minute de lucrat la calculator priveste pentru 10 respi-
+ratii la o distanta de cel putin 10 metri de calculator. In acest fel intregul tau
 sistem vizual se va relaxa.
-Dacă simți nevoia să stai cu ochii închiși, poți să îi ții închiși pentru 10
-respirații. Atât timp cât ochii tăi se relaxează obiectivul este atins.
-De ce au nevoie ochii tăi de această regula?
-Pentru că în acest fel nu doar mușchii extraoculari se relaxează, ci și întregul
-sistem vizual - mintea se relaxează, emisferele cerebrale se echilibrează ajutând
+Daca simti nevoia sa stai cu ochii inchisi, poti sa ii tii inchisi pentru 10
+respiratii. Atat timp cat ochii tai se relaxeaza obiectivul este atins.
+De ce au nevoie ochii tai de aceasta regula?
+Pentru ca in acest fel nu doar muschii extraoculari se relaxeaza, ci si intregul
+sistem vizual - mintea se relaxeaza, emisferele cerebrale se echilibreaza ajutand
 astfel la restaurarea vederii tale.
-De asemenea, poți să și clipești conștient de 10 ori la fiecare 10 minute,
-mai ales că atunci când lucrăm la calculator și devenim atât de prinși de ceea
-ce facem încât uităm să clipim și musculatura oculară este ținută fix - rigid,
-în acest timp generându-se un stres continuu.
-Cum te ajută această regulă în protecția vederii?
-Pur și simplu prin aplicarea acestei reguli, o dată la 10 minute, nu doar că
+De asemenea, poti sa si clipesti constient de 10 ori la fiecare 10 minute,
+mai ales ca atunci cand lucram la calculator si devenim atat de prinsi de ceea
+ce facem incat uitam sa clipim si musculatura oculara este tinuta fix - rigid,
+in acest timp generandu-se un stres continuu.
+Cum te ajuta aceasta regula in protectia vederii?
+Pur si simplu prin aplicarea acestei reguli, o data la 10 minute, nu doar ca
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-devii conștient de starea vederii tale, dar în acest fel eviți constant ca ochii tăi
-să fie rigizi și tensionați. Permiți astfel ca ochii tăi să fie relaxați, mobili și cu
-o capacitate mare de focaliza cu ușurință indiferent de distanță la care privești.
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+devii constient de starea vederii tale, dar in acest fel eviti constant ca ochii tai
+sa fie rigizi si tensionati. Permiti astfel ca ochii tai sa fie relaxati, mobili si cu
+o capacitate mare de focaliza cu usurinta indiferent de distanta la care privesti.
 
 PARTEA II:
-MIȘCAREA ȘI VEDEREA
-BUNĂ
+MISCAREA SI VEDEREA
+BUNA
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-5 Sportul te ajută să vezi bine
-Cum te ajută sportul să vezi bine?
-Un studiu efectuat la Universitatea din Columbia a relevat că efectuarea
-zilnică a activităților sportive ajută la îmbunătățirea vederii. Mai exact, acel
-studiu arată că nu trebuie să fii sportiv de performanță, dar efectuarea zilnică
-a 10-15 minute de mișcare sunt suficiente pentru eliberarea tensiunii din
-musculatura oculară.
-Mișcarea zilnică pentru un minim de 10 minute pe zi reduce tensiunea
-oculară cu 20%. Astfel riscul ca problemele de vedere să apară sunt cu 20%
-mai mici. În felul acesta șansele de apariție a problemelor de ochi sau mai ales
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+5 Sportul te ajuta sa vezi bine
+Cum te ajuta sportul sa vezi bine?
+Un studiu efectuat la Universitatea din Columbia a relevat ca efectuarea
+zilnica a activitatilor sportive ajuta la imbunatatirea vederii. Mai exact, acel
+studiu arata ca nu trebuie sa fii sportiv de performanta, dar efectuarea zilnica
+a 10-15 minute de miscare sunt suficiente pentru eliberarea tensiunii din
+musculatura oculara.
+Miscarea zilnica pentru un minim de 10 minute pe zi reduce tensiunea
+oculara cu 20%. Astfel riscul ca problemele de vedere sa apara sunt cu 20%
+mai mici. In felul acesta sansele de aparitie a problemelor de ochi sau mai ales
 a glaucomului sunt mai aproape de zero.
-De ce trebuie să faci sport?
-În decursul unei zile, mai ales dacă activitatea de lucru este la calculator,
-corpul nostru acumulează multă tensiune. Dacă tensiunea nu este eliminată,
-ea va afecta nervii, iar aceștia vor încorda mușchii din corp.
-Atunci când lucrezi mai mult în fața calculatorului sau stai mult timp pe
-scaun sau într-o poziție FIXĂ și RIGIDĂ timp de mai multe ore mu șchii
-din jurul gâtului, umerilor vor acumula cea mai mare parte a tensiunii. Acest
-lucru îți poate provoca dureri de cap, amețeli, nu te mai poți concentra la ce
-trebuie să faci și ochii te vor durea foarte tare.
+De ce trebuie sa faci sport?
+In decursul unei zile, mai ales daca activitatea de lucru este la calculator,
+corpul nostru acumuleaza multa tensiune. Daca tensiunea nu este eliminata,
+ea va afecta nervii, iar acestia vor incorda muschii din corp.
+Atunci cand lucrezi mai mult in fata calculatorului sau stai mult timp pe
+scaun sau intr-o pozitie FIXA si RIGIDA timp de mai multe ore mu schii
+din jurul gatului, umerilor vor acumula cea mai mare parte a tensiunii. Acest
+lucru iti poate provoca dureri de cap, ameteli, nu te mai poti concentra la ce
+trebuie sa faci si ochii te vor durea foarte tare.
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-Cum să elimini tensiunea acumulată?
-Ca să elimini acest disconfort cauzat de tensiunea din corp e bine să faci
-mișcare 3-5 minute o dată la 2 ore. Sportul sau activitatea fizică sub orice
-formă ar fi ea este una dintre cele mai importante activități pentru a-ți men-
-ține sănătatea ochilor.
-Dacă ai hotărât să ai grijă de tot ce ține de sănătatea ochilor tăi, mișcarea este
-următorul pas care îți va completa programul. Prin sport îți vei elibera mușchii
-de tensiune și astfel aceștia vor deveni flexibili având și o rezistență sporită.
-În momentul în care depui efort fizic, nu doar că mușchii și corpul tău vor
-lucra la capacitate maximă, dar în acela și timp vei reuși să ai o coordonare,
-concentrare vizuală, un echilibru și o precizie de invidiat.
-Când faci sport, creierul tău va lucra pentru a estima distanța și viteza obiecte-
-lor ceea este foarte benefic pentru ochii tăi, echilibrându-se emisferele cerebrale.
-Atunci când începi să alergi, aleargă ca să îți relaxezi corpul și astfel din
-corpul tău tensiunea va fi eliberată. Practicând zilnic alergatul de exemplu,
-irigarea ochilor și calitatea fluidelor către ochii tăi va crește.
-De asemenea, mișcarea te va ajuta la detoxifierea corpului. Comparativ cu
-sistemul sanguin care permite sângelui să circule prin corp prin intermediul
-vaselor de sânge - sângele fiind pompat de inimă, sistemul limfatic funcționează
-atunci când corpul este în mișcare.
-În momentul când corpul nostru este în mișcare, prin sistemul limfatic are
-loc colectarea și eliberarea toxinelor din corp, deci și a tensiunilor „bio-chimice”.
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+Cum sa elimini tensiunea acumulata?
+Ca sa elimini acest disconfort cauzat de tensiunea din corp e bine sa faci
+miscare 3-5 minute o data la 2 ore. Sportul sau activitatea fizica sub orice
+forma ar fi ea este una dintre cele mai importante activitati pentru a-ti men-
+tine sanatatea ochilor.
+Daca ai hotarat sa ai grija de tot ce tine de sanatatea ochilor tai, miscarea este
+urmatorul pas care iti va completa programul. Prin sport iti vei elibera muschii
+de tensiune si astfel acestia vor deveni flexibili avand si o rezistenta sporita.
+In momentul in care depui efort fizic, nu doar ca muschii si corpul tau vor
+lucra la capacitate maxima, dar in acela si timp vei reusi sa ai o coordonare,
+concentrare vizuala, un echilibru si o precizie de invidiat.
+Cand faci sport, creierul tau va lucra pentru a estima distanta si viteza obiecte-
+lor ceea este foarte benefic pentru ochii tai, echilibrandu-se emisferele cerebrale.
+Atunci cand incepi sa alergi, alearga ca sa iti relaxezi corpul si astfel din
+corpul tau tensiunea va fi eliberata. Practicand zilnic alergatul de exemplu,
+irigarea ochilor si calitatea fluidelor catre ochii tai va creste.
+De asemenea, miscarea te va ajuta la detoxifierea corpului. Comparativ cu
+sistemul sanguin care permite sangelui sa circule prin corp prin intermediul
+vaselor de sange - sangele fiind pompat de inima, sistemul limfatic functioneaza
+atunci cand corpul este in miscare.
+In momentul cand corpul nostru este in miscare, prin sistemul limfatic are
+loc colectarea si eliberarea toxinelor din corp, deci si a tensiunilor „bio-chimice”.
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-6Odihnește-ți ochii
-De ce trebuie să îți odihnești ochii?
-Peste 80% din informațiile pe care le căpătăm zilnic, și ajung la creier, sunt
-obținute prin ochi. Chiar dacă nu suntem conștienți în majoritatea momen-
-telor ce informații transmit ochii la creier, ochii sunt foarte importanți pentru
-scanarea și adaptarea noastră la mediul înconjurător.
-S-a demonstrat prin hipnoză faptul că creierul are capacitatea de a descrie
-detalii ale unor obiecte/imagini pe care pacientul nu le-a conștientizat, lucru
-ce conduce la faptul că ochii captează foarte multe informații, nu doar pe cele
-pe care noi le observăm conștient.
-Cum să îți odihnești rapid ochii?
-Te sfătuiesc ca în momentul în care sesizezi cea mai mică prezență a oboselii
-să ții ochii închiși pentru 20-30 de respirații, iar o dată la 60 minute să ții
-ochii închiși pentru 30 secunde. Imediat o să-ți simți ochii mult mai relaxați
-și mult mai odihniți.
-De asemenea, pentru a-ți odihni ochii, acoperă ochii cu palmele (folosește
-palmarea) dacă lumina din mediul tău este prea puternică. Ochii se odihnesc
-cel mai bine în întuneric total.
-Un alt mod de a-ți odihni/relaxa ochii este să îți miști încet ochii atunci
-când efectuezi palmarea, dar mai ales oricând în timpul zilei - ochii au fost
-concepuți pentru a fi mereu în mișcare.
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+6Odihneste-ti ochii
+De ce trebuie sa iti odihnesti ochii?
+Peste 80% din informatiile pe care le capatam zilnic, si ajung la creier, sunt
+obtinute prin ochi. Chiar daca nu suntem constienti in majoritatea momen-
+telor ce informatii transmit ochii la creier, ochii sunt foarte importanti pentru
+scanarea si adaptarea noastra la mediul inconjurator.
+S-a demonstrat prin hipnoza faptul ca creierul are capacitatea de a descrie
+detalii ale unor obiecte/imagini pe care pacientul nu le-a constientizat, lucru
+ce conduce la faptul ca ochii capteaza foarte multe informatii, nu doar pe cele
+pe care noi le observam constient.
+Cum sa iti odihnesti rapid ochii?
+Te sfatuiesc ca in momentul in care sesizezi cea mai mica prezenta a oboselii
+sa tii ochii inchisi pentru 20-30 de respiratii, iar o data la 60 minute sa tii
+ochii inchisi pentru 30 secunde. Imediat o sa-ti simti ochii mult mai relaxati
+si mult mai odihniti.
+De asemenea, pentru a-ti odihni ochii, acopera ochii cu palmele (foloseste
+palmarea) daca lumina din mediul tau este prea puternica. Ochii se odihnesc
+cel mai bine in intuneric total.
+Un alt mod de a-ti odihni/relaxa ochii este sa iti misti incet ochii atunci
+cand efectuezi palmarea, dar mai ales oricand in timpul zilei - ochii au fost
+conceputi pentru a fi mereu in miscare.
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-7Evită să ții ochii ficși
-De ce trebuie să eviți privitul fix?
-Lumea are tendința ca atunci când citește sau stă la calculator, să privească
-și să citească fix fără să permită globului ocular să se mai miște. De multe ori
-poate ți s-a spus că dacă vrei să te concentrezi la ceva anume trebuie să privești
-fix obiectul respectiv. Acest lucru nu este adevărat.
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+7Evita sa tii ochii ficsi
+De ce trebuie sa eviti privitul fix?
+Lumea are tendinta ca atunci cand citeste sau sta la calculator, sa priveasca
+si sa citeasca fix fara sa permita globului ocular sa se mai miste. De multe ori
+poate ti s-a spus ca daca vrei sa te concentrezi la ceva anume trebuie sa privesti
+fix obiectul respectiv. Acest lucru nu este adevarat.
 Cititul, de exemplu, se presupune a fi responsabil pentru deteriorarea vederii
-prin slăbirea mușchilor oculari, dar de fapt cititul este una dintre metodele
-cele mai bune pentru a-ți menține ochii sănătoși - din pagina 191 a cărții
-„Renunță la Ochelari” poți afla și cum poți transforma cititul într-o ocazie de
-a-ți îmbunăți vederea.
-În momentul când ochii tăi sunt ficși, aceștia nu vor putea clipi la ritmul
-normal și firesc, iar ochii tăi vor fi încordați și rigizi - ceea ce va determina
-apariția tensiunii suplimentare în sistemul tău vizual.
-Cum să eviți cititul fix?
-Mișcă-ți ochii permanent, nu îi fixa pe text, pe un cuvant, sau pe o parte
-a unui obiect pe care-l privești. Parcurge, atunci când citești, fără să fii atent
-la fiecare literă din cuvânt, mintea ta va ști să compună imaginea pe care
-o conștientizezi.
+prin slabirea muschilor oculari, dar de fapt cititul este una dintre metodele
+cele mai bune pentru a-ti mentine ochii sanatosi - din pagina 191 a cartii
+„Renunta la Ochelari” poti afla si cum poti transforma cititul intr-o ocazie de
+a-ti imbunati vederea.
+In momentul cand ochii tai sunt ficsi, acestia nu vor putea clipi la ritmul
+normal si firesc, iar ochii tai vor fi incordati si rigizi - ceea ce va determina
+aparitia tensiunii suplimentare in sistemul tau vizual.
+Cum sa eviti cititul fix?
+Misca-ti ochii permanent, nu ii fixa pe text, pe un cuvant, sau pe o parte
+a unui obiect pe care-l privesti. Parcurge, atunci cand citesti, fara sa fii atent
+la fiecare litera din cuvant, mintea ta va sti sa compuna imaginea pe care
+o constientizezi.
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-Ce se întâmplă dacă privești fix?
-Bineînțeles, privind fix, mușchii extra oculari vor deveni rigizi și tensionați,
-iar tensiunea nu va rămâne doar în mușchii extraoculari. Tensiunea va afecta
-și gâtul, umerii și chiar va genera dezechilibru între cele 2 emisfere cerebrale.
-Odată ce va exista un dezechilibru între cele 2 emisfere, vor apărea și alte
-probleme de sănătate, pentru că organele corpului sunt interconectate între ele.
-În acest mod nu te alegi nu doar o vedere încețoșată, ci și cu alte probleme
-de sănătate!
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+Ce se intampla daca privesti fix?
+Bineinteles, privind fix, muschii extra oculari vor deveni rigizi si tensionati,
+iar tensiunea nu va ramane doar in muschii extraoculari. Tensiunea va afecta
+si gatul, umerii si chiar va genera dezechilibru intre cele 2 emisfere cerebrale.
+Odata ce va exista un dezechilibru intre cele 2 emisfere, vor aparea si alte
+probleme de sanatate, pentru ca organele corpului sunt interconectate intre ele.
+In acest mod nu te alegi nu doar o vedere incetosata, ci si cu alte probleme
+de sanatate!
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-8Nu vizualiza cu ochii deschiși
-Ai avut momente când priveai un obiect, dar mintea ta era în altă parte, te
-gândeai la ceva din trecut sau din viitor?
-Sunt sigur că da. Toată lumea a avut cel puțin un astfel de moment.
-Cum este influențată vederea?
-Razele de lumină care sunt receptate de ochii noștri sunt transmise la creier,
-iar creierul este cel care procesează razele de lumină și generează imaginea pe
-care noi o conștientizăm. De asemenea, creierul mai are capacitatea de a crea
-imagini la care noi ne gândim.
-Iar creierul nu poate face diferența intre o imagine reală și una imaginară!
-Adică, dacă privești un obiect, și în același timp mintea ta se gândește,
-vizualizând ceva din trecut sau din viitor, atunci în creier apar două tipuri de
-imagini, una transmisă de către ochi și alta creată de către creier.
-De ce această situație este dăunătoare vederii?
-Din cauză că există 2 imagini în creier, acest lucru nu este un lucru benefic
-pentru creier, pentru că apare un așa numit HAZARD de imagine, datorită
-faptului că creierul trebuie să analizeze simultan două tipuri de imagini.
-Acest lucru duce în timp la slăbirea capacității creierului de a analiza și de
-crea imagini. Pentru a împiedica acest lucru, atunci când te gândești la ceva,
-îți recomand să ții ochii închiși.
-Ca o analogie, încearcă să scrii simultan cu ambele mâini cuvântul “Vedere”.
-Cum te simți? Poți să scrii la fel de bine și repede cu ambele mâini?
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+8Nu vizualiza cu ochii deschisi
+Ai avut momente cand priveai un obiect, dar mintea ta era in alta parte, te
+gandeai la ceva din trecut sau din viitor?
+Sunt sigur ca da. Toata lumea a avut cel putin un astfel de moment.
+Cum este influentata vederea?
+Razele de lumina care sunt receptate de ochii nostri sunt transmise la creier,
+iar creierul este cel care proceseaza razele de lumina si genereaza imaginea pe
+care noi o constientizam. De asemenea, creierul mai are capacitatea de a crea
+imagini la care noi ne gandim.
+Iar creierul nu poate face diferenta intre o imagine reala si una imaginara!
+Adica, daca privesti un obiect, si in acelasi timp mintea ta se gandeste,
+vizualizand ceva din trecut sau din viitor, atunci in creier apar doua tipuri de
+imagini, una transmisa de catre ochi si alta creata de catre creier.
+De ce aceasta situatie este daunatoare vederii?
+Din cauza ca exista 2 imagini in creier, acest lucru nu este un lucru benefic
+pentru creier, pentru ca apare un asa numit HAZARD de imagine, datorita
+faptului ca creierul trebuie sa analizeze simultan doua tipuri de imagini.
+Acest lucru duce in timp la slabirea capacitatii creierului de a analiza si de
+crea imagini. Pentru a impiedica acest lucru, atunci cand te gandesti la ceva,
+iti recomand sa tii ochii inchisi.
+Ca o analogie, incearca sa scrii simultan cu ambele maini cuvantul “Vedere”.
+Cum te simti? Poti sa scrii la fel de bine si repede cu ambele maini?
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-Dacă ai reușit, ești o super excepție... dar majoritatea persoanelor nu reușesc
-deoarece creierul este creat în așa fel încât să efectueze doar o singură activitate
-odată, pe moment.
-Manifestarea ideală este atunci când ochii și creierul văd exact aceeași ima-
-gine - a realității. Acest lucru este în strânsă legătură cu capacitatea de atenție.
-Acest lucru mai este numit și “Puterea Prezentului”- pentru că așa ești
-conștient și poți să ai control asupra a ceea ce observi, dacă ochii și creierul
-privesc ca un întreg către același „lucru”.
-Atunci când vezi prezentul așa cum este, fără să reacționezi prin gânduri
-față de trecut sau față de viitor, vei avea o vedere cu mult mai bună fiindcă
-ochii nu trebuie să se adapteze prin reacție musculară.
-Imaginile mentale apărute din frica de viitor sau din emoțiile trecutului
-produc încordări ale musculaturii oculare și acestea vor determina ca globul
-ocular să își schimbe forma și în acest fel imaginile realității, pe care le vei dori
-să le vezi prin ochi, nu vor fi clare.
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+Daca ai reusit, esti o super exceptie... dar majoritatea persoanelor nu reusesc
+deoarece creierul este creat in asa fel incat sa efectueze doar o singura activitate
+odata, pe moment.
+Manifestarea ideala este atunci cand ochii si creierul vad exact aceeasi ima-
+gine - a realitatii. Acest lucru este in stransa legatura cu capacitatea de atentie.
+Acest lucru mai este numit si “Puterea Prezentului”- pentru ca asa esti
+constient si poti sa ai control asupra a ceea ce observi, daca ochii si creierul
+privesc ca un intreg catre acelasi „lucru”.
+Atunci cand vezi prezentul asa cum este, fara sa reactionezi prin ganduri
+fata de trecut sau fata de viitor, vei avea o vedere cu mult mai buna fiindca
+ochii nu trebuie sa se adapteze prin reactie musculara.
+Imaginile mentale aparute din frica de viitor sau din emotiile trecutului
+produc incordari ale musculaturii oculare si acestea vor determina ca globul
+ocular sa isi schimbe forma si in acest fel imaginile realitatii, pe care le vei dori
+sa le vezi prin ochi, nu vor fi clare.
 
 PARTEA III:
-ALIMENTAȚIA ȘI
-ÎMBUNĂTĂȚIREA VEDERII
+ALIMENTATIA SI
+IMBUNATATIREA VEDERII
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-9Alimentează-te sănătos
-Cât de mult contează o alimentație sănătoasă?
-Un “combustibil” de calitate va determina starea de sănătate a întregului
-tău corp și bineînțeles a ochilor tăi. Mai bine spus, sănătatea ta începe și din
-farfurie și este determinat de ceea ce mănânci. Pentru a-ți recâștiga vederea sau
-pentru a o menține într-o stare bună ceea ce mănânci îți poate decide soarta.
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+9Alimenteaza-te sanatos
+Cat de mult conteaza o alimentatie sanatoasa?
+Un “combustibil” de calitate va determina starea de sanatate a intregului
+tau corp si bineinteles a ochilor tai. Mai bine spus, sanatatea ta incepe si din
+farfurie si este determinat de ceea ce mananci. Pentru a-ti recastiga vederea sau
+pentru a o mentine intr-o stare buna ceea ce mananci iti poate decide soarta.
  La fel ca orice parte a corpului nostru, ochii sunt unul din cele mai com -
-plexe organe care are nevoie de o varietate de nutrienți pentru a “lucra” la
-capacitate maximă.
-De ce este importantă alimentația sănătoasă?
-Când vitaminele sau mineralele lipsesc sau sunt în exces, ochii tăi vor începe
-să dea semne de slăbiciune. Acest lucru este un prim semnal pe care corpul
-tău ți-l dă.
-Mâncărurile prăjite, sucurile acidulate, cafeaua, tutunul sau orice aliment de
-origine animală, reprezintă o alimentație foarte săracă în vitamine și afectează
-în deosebi musculatura oculară.
-Cum să mănânci sănătos?
-Înlocuiește mâncărurile prăjite cu mâncărurile fierte la foc mic sau la abur,
-pâinea albă cu pâinea neagră sau cu semințe și sucurile acidulate cu apă de
-izvor. Redu până la minim consumul de cafea și ciocolată.
+plexe organe care are nevoie de o varietate de nutrienti pentru a “lucra” la
+capacitate maxima.
+De ce este importanta alimentatia sanatoasa?
+Cand vitaminele sau mineralele lipsesc sau sunt in exces, ochii tai vor incepe
+sa dea semne de slabiciune. Acest lucru este un prim semnal pe care corpul
+tau ti-l da.
+Mancarurile prajite, sucurile acidulate, cafeaua, tutunul sau orice aliment de
+origine animala, reprezinta o alimentatie foarte saraca in vitamine si afecteaza
+in deosebi musculatura oculara.
+Cum sa mananci sanatos?
+Inlocuieste mancarurile prajite cu mancarurile fierte la foc mic sau la abur,
+painea alba cu painea neagra sau cu seminte si sucurile acidulate cu apa de
+izvor. Redu pana la minim consumul de cafea si ciocolata.
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-Aceștia sunt câțiva pași pe care trebuie să îi faci pentru o sănătate perfectă.
-Apoi consumă cât mai multe fructe și legume în stare proaspătă, ca atare, sub
-formă de salate, sucuri, supe, preparate la aburi sau în cât mai puțină apă la
-temperatură foarte mică. Una dintre mesele zilei ar trebui să fie alcătuită doar
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+Acestia sunt cativa pasi pe care trebuie sa ii faci pentru o sanatate perfecta.
+Apoi consuma cat mai multe fructe si legume in stare proaspata, ca atare, sub
+forma de salate, sucuri, supe, preparate la aburi sau in cat mai putina apa la
+temperatura foarte mica. Una dintre mesele zilei ar trebui sa fie alcatuita doar
 din alimente crude!
-Te mai sfătuiesc să introduci în alimentația ta de zi cu zi cât mai multe
-cereale integrale sub orice formă și germenii din diferite semințe. Când îți
-vine poftă să mănânci chipsuri mănâncă o mână de alune, de nuci, semințe de
-floarea soarelui, migdale, dovleac sau orice fel de semințe, dar în stare crudă.
-Bineînțeles, nu le prăji deoarece vei pierde nutrienții din ele.
-Când simți nevoia de dulciuri mănâncă stafide, curmale, smochine sau
-orice fel de fruct deshidratat. Apoi amintește-ți să consumi semințe de in și
-semințe de susan în stare crudă pe care trebuie să le macini. Le poți adăuga
-apoi în toate salatele sau mâncărurile tale.
-Te sfătuiesc să faci un experiment. Înlocuiește apa cu care îți uzi florile cu
-sucuri acidulate sau alcool doar câteva zile. La finalul zilelor uită-te și vezi
-dacă ești mulțumit de rezultat. În ce stare se află florile tale? Același lucru se
-întâmplă și cu corpul tău.
-Ce tip de alimentație îți deteriorează vederea?
-Poate cel mai important sfat pe care ți-l pot da legat de alimentație este să
-nu mai mănânci de la Fast-food: hot-dog, hamburger și alte mâncăruri deloc
-bogate în elemente nutritive.
-Aceste mâncăruri preparate rapid conțin din păcate elemente care nu sunt
-recunoscute de organism ca fiind sănătoase, sigure pentru organism și alertează
+Te mai sfatuiesc sa introduci in alimentatia ta de zi cu zi cat mai multe
+cereale integrale sub orice forma si germenii din diferite seminte. Cand iti
+vine pofta sa mananci chipsuri mananca o mana de alune, de nuci, seminte de
+floarea soarelui, migdale, dovleac sau orice fel de seminte, dar in stare cruda.
+Bineinteles, nu le praji deoarece vei pierde nutrientii din ele.
+Cand simti nevoia de dulciuri mananca stafide, curmale, smochine sau
+orice fel de fruct deshidratat. Apoi aminteste-ti sa consumi seminte de in si
+seminte de susan in stare cruda pe care trebuie sa le macini. Le poti adauga
+apoi in toate salatele sau mancarurile tale.
+Te sfatuiesc sa faci un experiment. Inlocuieste apa cu care iti uzi florile cu
+sucuri acidulate sau alcool doar cateva zile. La finalul zilelor uita-te si vezi
+daca esti multumit de rezultat. In ce stare se afla florile tale? Acelasi lucru se
+intampla si cu corpul tau.
+Ce tip de alimentatie iti deterioreaza vederea?
+Poate cel mai important sfat pe care ti-l pot da legat de alimentatie este sa
+nu mai mananci de la Fast-food: hot-dog, hamburger si alte mancaruri deloc
+bogate in elemente nutritive.
+Aceste mancaruri preparate rapid contin din pacate elemente care nu sunt
+recunoscute de organism ca fiind sanatoase, sigure pentru organism si alerteaza
 leucocitele intestinale.
-Astfel se produc inflamații cronice-intestinale ce modifică permeabilitatea
-intestinului. Odată absorbite sunt foarte dificil de eliminat si ajung să fie
-depozitate în corp, în țesutul adipos și în fluide, inclusiv la țesuturile ochilor.
-Amintește-ți mereu, corpul tău este ca un templu. Când vrei să reziste mulți
-ani, în fața multor pericole, ce fel de materiale vei folosi la construcția lui?
-Multe persoane însă spun că nu au timp pentru a mânca sănătos, că o astfel
-de hrană necesită bani și timp suplimentar.
-Însă cei care nu vor avea timp să mănânce sănătos, vor fi nevoiți mai târziu
-să își facă timp pentru a-și trata bolile, să cheltuiască bani suplimentari pentru
-medicamente și doctori.
+Astfel se produc inflamatii cronice-intestinale ce modifica permeabilitatea
+intestinului. Odata absorbite sunt foarte dificil de eliminat si ajung sa fie
+depozitate in corp, in tesutul adipos si in fluide, inclusiv la tesuturile ochilor.
+Aminteste-ti mereu, corpul tau este ca un templu. Cand vrei sa reziste multi
+ani, in fata multor pericole, ce fel de materiale vei folosi la constructia lui?
+Multe persoane insa spun ca nu au timp pentru a manca sanatos, ca o astfel
+de hrana necesita bani si timp suplimentar.
+Insa cei care nu vor avea timp sa manance sanatos, vor fi nevoiti mai tarziu
+sa isi faca timp pentru a-si trata bolile, sa cheltuiasca bani suplimentari pentru
+medicamente si doctori.
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-Întotdeauna este mai bine să previi decât să tratezi fiindcă adesea modifi-
-cările devin ireversibile, iar suferința oculară definitivă.
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+Intotdeauna este mai bine sa previi decat sa tratezi fiindca adesea modifi-
+carile devin ireversibile, iar suferinta oculara definitiva.
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-10Hrănește-ți corpul cu apă
-Care este rolul apei pentru îmbunătățirea vederii?
-Apa, cea mai întâlnită substanță de pe pământ, are proprietăți vindecătoare
-pentru întreg organismul uman. Corpul tău are nevoie de apă din mai multe
-motive. Apa, împreună cu mineralele, are un rol foarte important în regulari-
-zarea circulației sanguine din corpul tău.
-Ea este utilizată pentru a transporta nutrienții dar și toxinele spre eliminare
-și îndeplinește rolul unui lubrifiant al articulațiilor dar și al ochilor. Apoi, apa
-este utilizată în corp pentru a menține constantă temperatura corpului și
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+10Hraneste-ti corpul cu apa
+Care este rolul apei pentru imbunatatirea vederii?
+Apa, cea mai intalnita substanta de pe pamant, are proprietati vindecatoare
+pentru intreg organismul uman. Corpul tau are nevoie de apa din mai multe
+motive. Apa, impreuna cu mineralele, are un rol foarte important in regulari-
+zarea circulatiei sanguine din corpul tau.
+Ea este utilizata pentru a transporta nutrientii dar si toxinele spre eliminare
+si indeplineste rolul unui lubrifiant al articulatiilor dar si al ochilor. Apoi, apa
+este utilizata in corp pentru a mentine constanta temperatura corpului si
 nivelul fluxului sanguin.
-Când este ideal să bei apă?
-Pentru a păstra rata de refracție a umorii apoase din interiorul apei, în fiecare
-dimineață când te trezești primul lucru pe care să îl faci este să bei 250 de
-ml de apă. Da, un sfert de litru de apă pentru că întregul tău organism este
-însetat după o noapte de somn și trebuie să fie hidratat.
-Pentru început poți să începi să bei 120 de ml de apă și apoi vei reuși în
-timp să ajungi la cei de 250 de ml, în fiecare dimineață. De asemenea, este
-important ca globul ocular să fie mereu umed pentru a avea mobilitate de
-mișcare, ce este posibil și prin intermediul clipitului. Pentru acest lucru sunt
-responsabile lacrimile, dar calitatea lacrimilor este determinată de ceea ce bei
-și ceea ce mănânci.
+Cand este ideal sa bei apa?
+Pentru a pastra rata de refractie a umorii apoase din interiorul apei, in fiecare
+dimineata cand te trezesti primul lucru pe care sa il faci este sa bei 250 de
+ml de apa. Da, un sfert de litru de apa pentru ca intregul tau organism este
+insetat dupa o noapte de somn si trebuie sa fie hidratat.
+Pentru inceput poti sa incepi sa bei 120 de ml de apa si apoi vei reusi in
+timp sa ajungi la cei de 250 de ml, in fiecare dimineata. De asemenea, este
+important ca globul ocular sa fie mereu umed pentru a avea mobilitate de
+miscare, ce este posibil si prin intermediul clipitului. Pentru acest lucru sunt
+responsabile lacrimile, dar calitatea lacrimilor este determinata de ceea ce bei
+si ceea ce mananci.
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-Câtă apă trebuie să bei zilnic?
-În mod normal să bei câtă apă simți. Iar ideal este sa bei cam 1 litru și
-jumătate de apă pe zi pentru a acoperi nevoile organismului. Însă, această
-cantitate se poate mări atunci când temperatura este ridicată și corpul pierde
-ușor apă sau când în corpul tău se găsesc multe toxine și corpul are nevoie de
-mai multă apă pentru a le elimina.
-Legat de consumul zilnic de apă vreau să îți recomand un
-lucru foarte important pentru sănătatea întregului corp, nu doar
-a ochilor, consumă pentru cel puțin 30 de zile câte 1-2 litri de
-„apă vie” pe zi și vederea ta se va îmbunătăți spectaculos.
-Ce înseamnă “apă vie”?
-“Apa vie” este acea apă ce are un conținut foarte scăzut de poluanți, de pesti-
-cide sau de alte impurități care îi afectează proprietățile benefice. O poți obține
-din izvoarele de apă - îndeosebi apa din fântânele din exteriorul orașelor. De
-asemenea, evită și consumă cât mai puțin apă de la robinet sau de la un filtru.
-Deci, nu încerca să înlocuiești consumul de apă cu cafea, ceaiuri cu foarte
-multă cofeină, sucuri acidulate sau alcool pentru că lipsurile nu se vor acoperi.
-Din contră îți vei otrăvi corpul și mai mult.
-Însă, există foarte multe fructe sau legume care conțin o cantitate foarte
-mare de apă pe care le poți consuma oricând: pepenele verde sau galben, varza,
-castraveții, căpșunile, cireșele, roșiile, etc.
-Dacă te simți slăbit pe parcursul zilei, acest lucru se poate datora faptului
-că organismul tău are nevoie de apă vie!
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+Cata apa trebuie sa bei zilnic?
+In mod normal sa bei cata apa simti. Iar ideal este sa bei cam 1 litru si
+jumatate de apa pe zi pentru a acoperi nevoile organismului. Insa, aceasta
+cantitate se poate mari atunci cand temperatura este ridicata si corpul pierde
+usor apa sau cand in corpul tau se gasesc multe toxine si corpul are nevoie de
+mai multa apa pentru a le elimina.
+Legat de consumul zilnic de apa vreau sa iti recomand un
+lucru foarte important pentru sanatatea intregului corp, nu doar
+a ochilor, consuma pentru cel putin 30 de zile cate 1-2 litri de
+„apa vie” pe zi si vederea ta se va imbunatati spectaculos.
+Ce inseamna “apa vie”?
+“Apa vie” este acea apa ce are un continut foarte scazut de poluanti, de pesti-
+cide sau de alte impuritati care ii afecteaza proprietatile benefice. O poti obtine
+din izvoarele de apa - indeosebi apa din fantanele din exteriorul oraselor. De
+asemenea, evita si consuma cat mai putin apa de la robinet sau de la un filtru.
+Deci, nu incerca sa inlocuiesti consumul de apa cu cafea, ceaiuri cu foarte
+multa cofeina, sucuri acidulate sau alcool pentru ca lipsurile nu se vor acoperi.
+Din contra iti vei otravi corpul si mai mult.
+Insa, exista foarte multe fructe sau legume care contin o cantitate foarte
+mare de apa pe care le poti consuma oricand: pepenele verde sau galben, varza,
+castravetii, capsunile, ciresele, rosiile, etc.
+Daca te simti slabit pe parcursul zilei, acest lucru se poate datora faptului
+ca organismul tau are nevoie de apa vie!
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-Clătește-ți ochii
-cu apă caldă și rece
-Pentru a continua procesul de protejare și de îmbunătățire a vederii tale,
-îți recomand să îți clătești abundent cu apă rece și/sau caldă ochii mai ales
-dimineața imediat după ce trezești și seara înainte de culcare.
-În acest fel vei curăța ochii de impuritățile acumulate în timpul zilei și le
-vei oferi o stare energetică ridicată.
-Cum ajută compresele de apă îmbunătățirea vederii?
-Apa fierbinte dilată și relaxează vasele sanguine, deci e bine să te clătești mai
-ales seara sau când ești supus stresului. Apa rece contractă și tonifică vasele
-de sânge, deci e de preferat să utilizezi această metodă dimineața și în cursul
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+Clateste-ti ochii
+cu apa calda si rece
+Pentru a continua procesul de protejare si de imbunatatire a vederii tale,
+iti recomand sa iti clatesti abundent cu apa rece si/sau calda ochii mai ales
+dimineata imediat dupa ce trezesti si seara inainte de culcare.
+In acest fel vei curata ochii de impuritatile acumulate in timpul zilei si le
+vei oferi o stare energetica ridicata.
+Cum ajuta compresele de apa imbunatatirea vederii?
+Apa fierbinte dilata si relaxeaza vasele sanguine, deci e bine sa te clatesti mai
+ales seara sau cand esti supus stresului. Apa rece contracta si tonifica vasele
+de sange, deci e de preferat sa utilizezi aceasta metoda dimineata si in cursul
 zilei pentru energizare.
-Folosite împreună sunt remediul perfect pentru a echilibra fluidele trupului
-și pH-ul sângelui din corpul tău. Poți să faci comprese cu apă atunci când
-simți că te ustură ochii. Poți să folosești de asemenea 2 linguri pe care le pui
-în congelator câteva minute sau gheață. Când s-au răcit ți le așezi pe ochi.
-Ce fel de comprese mai poți folosi?
-Iar compresele cu lapte, cartof crud ras, felii de castravete, apă sărată te vor
-ajuta ca cearcănele să dispară. Extrem de benefice pentru atenuarea cearcănelor
-și revigorarea ochilor obosiți sunt compresele cu ceai călduț de albăstrele, tei,
+Folosite impreuna sunt remediul perfect pentru a echilibra fluidele trupului
+si pH-ul sangelui din corpul tau. Poti sa faci comprese cu apa atunci cand
+simti ca te ustura ochii. Poti sa folosesti de asemenea 2 linguri pe care le pui
+in congelator cateva minute sau gheata. Cand s-au racit ti le asezi pe ochi.
+Ce fel de comprese mai poti folosi?
+Iar compresele cu lapte, cartof crud ras, felii de castravete, apa sarata te vor
+ajuta ca cearcanele sa dispara. Extrem de benefice pentru atenuarea cearcanelor
+si revigorarea ochilor obositi sunt compresele cu ceai caldut de albastrele, tei,
 ceai negru.
-Un alt tip de comprese benefice pentru ochii tăi sunt cele cu ceai de mușețel,
-cu felii de castraveți, ce te vor ajuta să ai ochii relaxați și energici.
+Un alt tip de comprese benefice pentru ochii tai sunt cele cu ceai de musetel,
+cu felii de castraveti, ce te vor ajuta sa ai ochii relaxati si energici.
 
 PARTEA IV:
-ATENȚIA ȘI VEDEREA
-CLARĂ
+ATENTIA SI VEDEREA
+CLARA
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-Vizualizează
-cum se relaxează
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+Vizualizeaza
+cum se relaxeaza
 vederea
-Sunt sigur că știi cum se dau jos foile de varză. Acest principiu îl poți folosi
-pentru a-ți detensiona și relaxa mușchii extraoculari, în special acei mușchii
-care simți că sunt încordați-tensionați.
-Cum să vizualizezi că vederea ta se relaxează?
-Pentru început mișcă ochii în cele 12 direcții, ca cele de la ceas, și observă
-în care direcție ochii tăi nu se pot mișca așa cum se pot mișca și în celelalte
-direcții.
-Apoi vizualizează mușchiul care este tensionat, rigid care împiedică să miști
-ochii uniform în cele 12 direcții. Dacă e nevoie privește o poză cu mușchii
-extraoculari pentru a putea vizualiza acel mușchi mai bine, mai clar, cu o mai
-mare ușurință.
-Pasul următor este să închizi ochii și să observi, vizualizând, cum arată
-tensiunea-încordarea mușchiului extra ocular. S-ar putea să vezi această tensiune
-ca un petic, ca o pieliță care ține încordat mușchiul extra ocular.
-Pasul urmator: eliberează tensiunea
-În pasul următor, îndepărtează vizual, eliberând folie cu folie din tensiunea care ai
-vizualizat-o în pasul anterior. Repetă procedeul până în momentul când simți
-și vezi vizual că nu mai există tensiune. Vei simți imediat ce eliberezi o parte
-din tensiune, cum ochii tăi devin mai relaxați, precum și senzații de răcoare
+Sunt sigur ca stii cum se dau jos foile de varza. Acest principiu il poti folosi
+pentru a-ti detensiona si relaxa muschii extraoculari, in special acei muschii
+care simti ca sunt incordati-tensionati.
+Cum sa vizualizezi ca vederea ta se relaxeaza?
+Pentru inceput misca ochii in cele 12 directii, ca cele de la ceas, si observa
+in care directie ochii tai nu se pot misca asa cum se pot misca si in celelalte
+directii.
+Apoi vizualizeaza muschiul care este tensionat, rigid care impiedica sa misti
+ochii uniform in cele 12 directii. Daca e nevoie priveste o poza cu muschii
+extraoculari pentru a putea vizualiza acel muschi mai bine, mai clar, cu o mai
+mare usurinta.
+Pasul urmator este sa inchizi ochii si sa observi, vizualizand, cum arata
+tensiunea-incordarea muschiului extra ocular. S-ar putea sa vezi aceasta tensiune
+ca un petic, ca o pielita care tine incordat muschiul extra ocular.
+Pasul urmator: elibereaza tensiunea
+In pasul urmator, indeparteaza vizual, eliberand folie cu folie din tensiunea care ai
+vizualizat-o in pasul anterior. Repeta procedeul pana in momentul cand simti
+si vezi vizual ca nu mai exista tensiune. Vei simti imediat ce eliberezi o parte
+din tensiune, cum ochii tai devin mai relaxati, precum si senzatii de racoare
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-sau de căldură a ochilor tăi.
-Așa de simplu?
-Da. Poate că pare ciudat, poate că pare altfel, însă funcționează. E un
-modalitate simplă care funcționează și pe care o aplic ori de câte ori simt că
-unele părți din corpul meu se încordează.
-Alocă 2-3 minute pentru acest obicei, însă nu-l efectua înainte de somn,
-pentru că ai nevoie de energie și odihnă pentru a-l efectua, așadar îți reco-
-mand să-l efectuezi când ai energie.
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+sau de caldura a ochilor tai.
+Asa de simplu?
+Da. Poate ca pare ciudat, poate ca pare altfel, insa functioneaza. E un
+modalitate simpla care functioneaza si pe care o aplic ori de cate ori simt ca
+unele parti din corpul meu se incordeaza.
+Aloca 2-3 minute pentru acest obicei, insa nu-l efectua inainte de somn,
+pentru ca ai nevoie de energie si odihna pentru a-l efectua, asadar iti reco-
+mand sa-l efectuezi cand ai energie.
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
 13Cuvintele vederii
 
-Ochii tăi aud ce cuvinte folosești
-Ai grijă ce cuvinte folosești pentru că ochii tăi le percep. De exemplu fii
-atent la expresii de genul „nu pot să mai văd așa ceva”, „mă dor ochii„ sau
-„ochii mei sunt obosiți pentru că lucrez mult la calculator”. Cuvintele pe care
-le spui despre sistemul tău vizual se vor manifesta la nivelul acestuia.
-Este foarte posibil că ochii tăi să fie obosiți, însă soluția nu este să reac-
-ționezi la această stare, ci să acționezi ca ochii tăi să fie relaxați și odihniți.
-Cuvintele pe care le folosești, de genul „nu pot să văd așa ceva” vor determina
-încordarea nefirească a mușchilor extraoculari ce va genera modificarea formei
+Ochii tai aud ce cuvinte folosesti
+Ai grija ce cuvinte folosesti pentru ca ochii tai le percep. De exemplu fii
+atent la expresii de genul „nu pot sa mai vad asa ceva”, „ma dor ochii„ sau
+„ochii mei sunt obositi pentru ca lucrez mult la calculator”. Cuvintele pe care
+le spui despre sistemul tau vizual se vor manifesta la nivelul acestuia.
+Este foarte posibil ca ochii tai sa fie obositi, insa solutia nu este sa reac-
+tionezi la aceasta stare, ci sa actionezi ca ochii tai sa fie relaxati si odihniti.
+Cuvintele pe care le folosesti, de genul „nu pot sa vad asa ceva” vor determina
+incordarea nefireasca a muschilor extraoculari ce va genera modificarea formei
 globilor oculari.
-„La început a fost cuvântul” - deci orice gânduri ai, verbalizându-le sau
-doar în mintea ta, acestea se vor manifesta în sistemul tău vizual pentru că îți
-vor asculta dorința.
-De exemplu dorința de a nu-l mai „vedea pe șeful” nu va determina ca șeful
-să dispară și sa nu mai existe în viața ta, însă subconștientul tău îți va asculta
-dorința de a nu-l vedea pe șefu - încețoșându-ți vederea.
-Care este soluția?
-Sugestia mea este să fii conștient la modul cum reacționezi față de ceea ce
-vezi, față de orice vezi. Chiar dacă nu îți place ceea ce vezi, oricum nu îl poți
-schimba, mai ales că nu poți schimba comportamentul sau felul de a fi al
+„La inceput a fost cuvantul” - deci orice ganduri ai, verbalizandu-le sau
+doar in mintea ta, acestea se vor manifesta in sistemul tau vizual pentru ca iti
+vor asculta dorinta.
+De exemplu dorinta de a nu-l mai „vedea pe seful” nu va determina ca seful
+sa dispara si sa nu mai existe in viata ta, insa subconstientul tau iti va asculta
+dorinta de a nu-l vedea pe sefu - incetosandu-ti vederea.
+Care este solutia?
+Sugestia mea este sa fii constient la modul cum reactionezi fata de ceea ce
+vezi, fata de orice vezi. Chiar daca nu iti place ceea ce vezi, oricum nu il poti
+schimba, mai ales ca nu poti schimba comportamentul sau felul de a fi al
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
 unei persoane.
-Odată ce devii conștient, evită să generezi orice fel de gânduri față de ceea
-ce vezi. Cel mult spune „este așa cum este”. În momentul când generezi deja
-un gând față de ceea ce vezi, implică automat că vezi deja clar. Iar faptul că
-reacționezi la ceea ce vezi clar determină automat o modificare a globului ocular.
-Acest lucru a fost demonstrat de W. Bates care a și concluzionat că atunci
-când ne forțăm să vedem ceea ce vedem deja, iar această forțare este una
-mentală, va determina încordarea mușchilor oculari și implicit vederea va
-deveni încețoșată.
+Odata ce devii constient, evita sa generezi orice fel de ganduri fata de ceea
+ce vezi. Cel mult spune „este asa cum este”. In momentul cand generezi deja
+un gand fata de ceea ce vezi, implica automat ca vezi deja clar. Iar faptul ca
+reactionezi la ceea ce vezi clar determina automat o modificare a globului ocular.
+Acest lucru a fost demonstrat de W. Bates care a si concluzionat ca atunci
+cand ne fortam sa vedem ceea ce vedem deja, iar aceasta fortare este una
+mentala, va determina incordarea muschilor oculari si implicit vederea va
+deveni incetosata.
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
 14 Somnul eficient
 
-Când îți poți odihni eficient vederea?
-Pe lângă odihna din timpul zilei, un somn eficient își are și el rostul lui. Când
-dormi, tot organismul se reface și se pregătește pentru o nouă zi. Dacă treci
-peste orele de somn sau dormi foarte puțin, acest lucru îți va afecta vederea;
-îți vor apărea cearcăne, ochi umflați și dureroși.
-De ce se întâmplă acest lucru? Pentru că atunci când ochii și corpul tău
-sunt deja obosiți și tu continui să folosești ochii - deja îi fortezi și acest lucru
-determină încordarea musculaturii oculare și tensionarea ei.
-Odihna dă răgaz organismului să se refacă, iar ochii tăi vor avea timp să se
-curețe de toxine și să se umple iar de energie. Odihnește-ți eficient ochii și ei
-vor avea grijă ca tu să vezi bine.
-Atunci când ții ochii închiși, înainte să adormi, îți recomand să îți imagi-
+Cand iti poti odihni eficient vederea?
+Pe langa odihna din timpul zilei, un somn eficient isi are si el rostul lui. Cand
+dormi, tot organismul se reface si se pregateste pentru o noua zi. Daca treci
+peste orele de somn sau dormi foarte putin, acest lucru iti va afecta vederea;
+iti vor aparea cearcane, ochi umflati si durerosi.
+De ce se intampla acest lucru? Pentru ca atunci cand ochii si corpul tau
+sunt deja obositi si tu continui sa folosesti ochii - deja ii fortezi si acest lucru
+determina incordarea musculaturii oculare si tensionarea ei.
+Odihna da ragaz organismului sa se refaca, iar ochii tai vor avea timp sa se
+curete de toxine si sa se umple iar de energie. Odihneste-ti eficient ochii si ei
+vor avea grija ca tu sa vezi bine.
+Atunci cand tii ochii inchisi, inainte sa adormi, iti recomand sa iti imagi-
 nezi la alegere 6 lucruri imposibile care au rostul de a realiza conexiuni noi
-între creierul vederii (occipital) și restul creierului, iar acest lucru conduce la
-dezvoltarea intuiției. Creierul tău va învăța astfel să acceseze domenii și idei
-pe care le credea imposibile și să le integreze pentru adaptare.
-De asemenea, pentru un somn eficient îți recomand ca în camera în care
-dormi, să nu fie surse de sunet, lumină și de zgomot. Astfel corpul tău și vederea
-ta va fi profund relaxată.
-Pentru ca ochii tăi să fie mai aproape de cum se întâmplă în natură, îți
-recomand ca în camera în care dormi să fie întuneric beznă, așa cum e firesc
-în natură fără lumină artificială, folosind o draperie opacă.
+intre creierul vederii (occipital) si restul creierului, iar acest lucru conduce la
+dezvoltarea intuitiei. Creierul tau va invata astfel sa acceseze domenii si idei
+pe care le credea imposibile si sa le integreze pentru adaptare.
+De asemenea, pentru un somn eficient iti recomand ca in camera in care
+dormi, sa nu fie surse de sunet, lumina si de zgomot. Astfel corpul tau si vederea
+ta va fi profund relaxata.
+Pentru ca ochii tai sa fie mai aproape de cum se intampla in natura, iti
+recomand ca in camera in care dormi sa fie intuneric bezna, asa cum e firesc
+in natura fara lumina artificiala, folosind o draperie opaca.
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-Ce să faci înainte să dormi?
-Îți mai recomand să nu mănânci cu 4-5 ore înainte să dormi pentru ca
-să ai un somn odihnitor, din care să nu te trezești în timpul nopții pentru a
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+Ce sa faci inainte sa dormi?
+Iti mai recomand sa nu mananci cu 4-5 ore inainte sa dormi pentru ca
+sa ai un somn odihnitor, din care sa nu te trezesti in timpul noptii pentru a
 merge la baie.
-Însă un sfat și mai important legat de ochii direct, este să nu te uiți la nici o
-emisiune la TV sau film la calculator cu 3-4 ore înainte să dormi pentru că ceea
-ce vezi va rula în timpul somnului în mintea ta obosind-o. Iar in funcție de ce
-visezi - va determina modul în care ochii tăi sunt folosi (da, chiar și în somn).
- Deci este foarte important ceea ce vezi înainte să dormi pentru că acest
-lucru va influența calitatea somnului tău și ceea ce poate chiar visezi. De aceea
-îți recomand să ai o activitate relaxantă, de socializare sau prin care să citești o
-carte care te ajută cu adevărat în viața ta - ci nu să te refugiezi aparent pentru
+Insa un sfat si mai important legat de ochii direct, este sa nu te uiti la nici o
+emisiune la TV sau film la calculator cu 3-4 ore inainte sa dormi pentru ca ceea
+ce vezi va rula in timpul somnului in mintea ta obosind-o. Iar in functie de ce
+visezi - va determina modul in care ochii tai sunt folosi (da, chiar si in somn).
+ Deci este foarte important ceea ce vezi inainte sa dormi pentru ca acest
+lucru va influenta calitatea somnului tau si ceea ce poate chiar visezi. De aceea
+iti recomand sa ai o activitate relaxanta, de socializare sau prin care sa citesti o
+carte care te ajuta cu adevarat in viata ta - ci nu sa te refugiezi aparent pentru
 a te relaxa la un film.
-Dacă nu ai nimic de citit, mergi la o plimbare la aer curat pentru 30 de
-minute înainte de culcare- te va ajuta infinit mai mult decât să te uiți la un film!
+Daca nu ai nimic de citit, mergi la o plimbare la aer curat pentru 30 de
+minute inainte de culcare- te va ajuta infinit mai mult decat sa te uiti la un film!
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
 15 Jurnalul vizual
-Ține un jurnal asupra ceea ce ai reacționat că ai văzut
-Ceea ce îți recomand în acest ultim obicei este să ții o evidență a lucrurilor,
-persoanelor și evenimentelor asupra carora ai reacționat vizual. Poate ceva de
-genul: „e o prostie, nu vreau să mai văd așa ceva în fața ochilor mei”.
-Ține acest jurnal pe telefon, calculator sau într-o agendă chiar și vei observa
-după un timp care sunt tiparele mentale pe care le folosești și le transmiți
-simțului tău vizual.
+Tine un jurnal asupra ceea ce ai reactionat ca ai vazut
+Ceea ce iti recomand in acest ultim obicei este sa tii o evidenta a lucrurilor,
+persoanelor si evenimentelor asupra carora ai reactionat vizual. Poate ceva de
+genul: „e o prostie, nu vreau sa mai vad asa ceva in fata ochilor mei”.
+Tine acest jurnal pe telefon, calculator sau intr-o agenda chiar si vei observa
+dupa un timp care sunt tiparele mentale pe care le folosesti si le transmiti
+simtului tau vizual.
 Care este scopul acestui jurnal?
-Scopul acestui jurnal este să găsești tiparul sau tiparele mentale pe care le
-folosești asupra ochilor, vederii tale. Odată ce le vei schimba, vederea se va
-schimba. Trebuie doar să urmărești tiparele și să le înlocuiești, e simplu.
-Atenție, am zis că este simplu - nu că este ușor. Schimbându-ți tiparele
-mentale îți schimbi și viața, nu doar vederea!
-Modul cum tu vezi lucrurile nu reprezintă altceva decât reflexia interioară
-a ta, a modului în care tu ești. Deci schimbându-ți tiparele mentale vizuale te
-schimbi pe tine... având în noua versiune o vedere clară!
-Schimbările nu vor avea loc peste noapte, ai răbdare, fii perseverent și rezul-
-tatele vor apărea în cele din urmă.
+Scopul acestui jurnal este sa gasesti tiparul sau tiparele mentale pe care le
+folosesti asupra ochilor, vederii tale. Odata ce le vei schimba, vederea se va
+schimba. Trebuie doar sa urmaresti tiparele si sa le inlocuiesti, e simplu.
+Atentie, am zis ca este simplu - nu ca este usor. Schimbandu-ti tiparele
+mentale iti schimbi si viata, nu doar vederea!
+Modul cum tu vezi lucrurile nu reprezinta altceva decat reflexia interioara
+a ta, a modului in care tu esti. Deci schimbandu-ti tiparele mentale vizuale te
+schimbi pe tine... avand in noua versiune o vedere clara!
+Schimbarile nu vor avea loc peste noapte, ai rabdare, fii perseverent si rezul-
+tatele vor aparea in cele din urma.
 
-15 Obiceiuri pentru îmbunătățirea vederii
-Creat de Flavius Adrian Țurcanu - renuntalaochelari.ro
-Gând de final
-Acestea sunt cele 15 obiceiuri de care trebuie să fii conștient zi de zi pentru
-a-ți îmbunătăți vederea împreună cu principiile, obiceiurilor și exercițiile oculare
-precum și a alimentației cu adevărat sănătoasă.
-Daca vei practica aceste obiceiuri conștient timp de 30 de zile, vei ajunge
-să efectuezi multe dintre ele din reflex - fără să te mai gândești la ele.
+15 Obiceiuri pentru imbunatatirea vederii
+Creat de Flavius Adrian Turcanu - renuntalaochelari.ro
+Gand de final
+Acestea sunt cele 15 obiceiuri de care trebuie sa fii constient zi de zi pentru
+a-ti imbunatati vederea impreuna cu principiile, obiceiurilor si exercitiile oculare
+precum si a alimentatiei cu adevarat sanatoasa.
+Daca vei practica aceste obiceiuri constient timp de 30 de zile, vei ajunge
+sa efectuezi multe dintre ele din reflex - fara sa te mai gandesti la ele.
 Succes ;-)
-Tu ești singura persoană care poate avea ...
-...grijă de ochii tăi,
-Flavius Țurcanu
+Tu esti singura persoana care poate avea ...
+...grija de ochii tai,
+Flavius Turcanu

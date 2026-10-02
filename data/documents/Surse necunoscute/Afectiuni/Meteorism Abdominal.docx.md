@@ -1,19 +1,19 @@
-# Recomandări pentru meteorism abdominal
+# Recomandari pentru meteorism abdominal
 
-- Tinctura din anason și coriandru: 1 linguriță înainte de fiecare masă
+- Tinctura din anason si coriandru: 1 lingurita inainte de fiecare masa
 
-- Zeama de varză murată: o cană după masa de seară
+- Zeama de varza murata: o cana dupa masa de seara
 
-- Rizomi de obligeană: decoct dintr-o linguriță la o cană. Se bea în trei reprize în cursul zilei DUPĂ mesele principale.
+- Rizomi de obligeana: decoct dintr-o lingurita la o cana. Se bea in trei reprize in cursul zilei DUPA mesele principale.
 
-- Ceai de salvie și busuioc: se amestecă plantele în proporții egale și se face infuzie din 2 lingurițe la o cană. Se beau două căni pe zi în mai multe reprize.
+- Ceai de salvie si busuioc: se amesteca plantele in proportii egale si se face infuzie din 2 lingurite la o cana. Se beau doua cani pe zi in mai multe reprize.
 
-- Ceai/tinctură de anghinare
+- Ceai/tinctura de anghinare
 
-- 4-5 mese pe zi , și se va mânca puțin la o masă
+- 4-5 mese pe zi , si se va manca putin la o masa
 
-- Dacă la o masă se consumă carne , atunci nu se vor consuma și carbohidrați (pâine, mămăligă,…) sau fructe. În schimb, cu carnea, se pot asocia legumele proaspete sau murate.
+- Daca la o masa se consuma carne , atunci nu se vor consuma si carbohidrati (paine, mamaliga,…) sau fructe. In schimb, cu carnea, se pot asocia legumele proaspete sau murate.
 
-- La orice masă se va mesteca lent.
+- La orice masa se va mesteca lent.
 
-- Renunțare totală la grăsimi animale. În schimb este permis consumul uleiului vegetal. Prăjirea alimentelor în ulei este total interzisă pe perioada tratamentului.
+- Renuntare totala la grasimi animale. In schimb este permis consumul uleiului vegetal. Prajirea alimentelor in ulei este total interzisa pe perioada tratamentului.

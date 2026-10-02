@@ -1,185 +1,185 @@
-# Arta vindecării la poporul român
+# Arta vindecarii la poporul roman
 
-Arta vindecării la poporul român are o vechime milenară, putând fi considerată un dar strămoșesc. Fondul său inalienabil, comun tuturor regiunilor locuite de români, permite identificarea unui tezaur originar, arhaic al acestui meșteșug care, după anumite indicii istorice, arheologice, antropologice, geoclimatice, poate fi atribuit sacerdoților geto-daci. Condițiile climaterice ale Daciei, corelate cu bogăția celor geografice (șes, deal și munte, ape curgătoare și tezaure minerale) au favorizat existența în acest spațiu a unei incredibile diversități de specii vegetale, multe fiind endemice, adică locale.
+Arta vindecarii la poporul roman are o vechime milenara, putand fi considerata un dar stramosesc. Fondul sau inalienabil, comun tuturor regiunilor locuite de romani, permite identificarea unui tezaur originar, arhaic al acestui mestesug care, dupa anumite indicii istorice, arheologice, antropologice, geoclimatice, poate fi atribuit sacerdotilor geto-daci. Conditiile climaterice ale Daciei, corelate cu bogatia celor geografice (ses, deal si munte, ape curgatoare si tezaure minerale) au favorizat existenta in acest spatiu a unei incredibile diversitati de specii vegetale, multe fiind endemice, adica locale.
 
-## Vechimea milenară a artei vindecării
+## Vechimea milenara a artei vindecarii
 
-Încă de pe vremea dacilor, o serie de plante ce cresc pe teritoriul de astăzi al României erau întrebuințate ca ierburi de leac. Chiar expresiile neaoș românești **a lecui, leac, o leacă** (intim înrudite cu grecescul oligo - puțin) trimit la remedii în aparență infime (cantitativ vorbind), care însă pot vindeca sau menține sănătatea celor care le cunosc adevărata întrebuințare. Renumele unora dintre aceste plante merge până acolo încât și astăzi ele apar în percepția populară ca fiind înzestrate cu virtuți vindecătoare magice, extraordinare, legate de o adevărată mitologie vegetală.\
+Inca de pe vremea dacilor, o serie de plante ce cresc pe teritoriul de astazi al Romaniei erau intrebuintate ca ierburi de leac. Chiar expresiile neaos romanesti **a lecui, leac, o leaca** (intim inrudite cu grecescul oligo - putin) trimit la remedii in aparenta infime (cantitativ vorbind), care insa pot vindeca sau mentine sanatatea celor care le cunosc adevarata intrebuintare. Renumele unora dintre aceste plante merge pana acolo incat si astazi ele apar in perceptia populara ca fiind inzestrate cu virtuti vindecatoare magice, extraordinare, legate de o adevarata mitologie vegetala.\
 \
 ## Plantele considerate sfinte
 
-Multe dintre plante sînt considerate sfinte, precum **Busuiocul** (Ocimum basilicum), unele făcând cândva obiectul unui cult specific, așa cum este cazul **Mătrăgunei** (Atropa belladona), al cărei nume este cu totul consonant, în mod uimitor, cu două cuvinte din vocabularul mistic al Vedelor (matra și guna). Acest cult urmărește întotdeauna rezultate din domeniul medicinei magice, cum este cazul descântecelor ce se săvârșesc cu ajutorul anumitor ierburi.\
+Multe dintre plante sint considerate sfinte, precum **Busuiocul** (Ocimum basilicum), unele facand candva obiectul unui cult specific, asa cum este cazul **Matragunei** (Atropa belladona), al carei nume este cu totul consonant, in mod uimitor, cu doua cuvinte din vocabularul mistic al Vedelor (matra si guna). Acest cult urmareste intotdeauna rezultate din domeniul medicinei magice, cum este cazul descantecelor ce se savarsesc cu ajutorul anumitor ierburi.\
 \
-## Plante de mare importanță biologică
+## Plante de mare importanta biologica
 
-Plante de o mare importanță biologică pentru om, prin principiile lor active, sunt întâlnite acolo unde odinioară erau așezările dacilor. Iată în această privință mărturia cunoscutului fitoterapeut Ovidiu Bojor: *„În urmă cu mulți ani, lucram pe teren în zona Grădiștei, aproape de sanctuarul vechii cetăți regale Sarmizegetusa, împreună cu un amic care nu prea cunoștea plantele și efectele lor. Am găsit acolo, printre alte specii, și specia Circaea lutetiana sau Circaea intermedia, popular numită Tilișcă, Iarba vrăjitoarei... Seara i-am făcut tovarășului meu de drum un ceai din această plantă. Omul depășise bine a doua vârstă. Dimineața următoare mi-a povestit că de mult timp nu a avut o noapte atât de frumoasă și că s-a simțit ca la douăzeci de ani. A cules mai multe plante și pentru acasă. Din păcate, prin uscare ele și-au pierdut acel efect cu adevărat miraculos."* Această plantă era cunoscută și de antichitatea greacă, numele ei științific, Circaea, fiind conex cu grecescul kirke, adică vrăjitoare (cu puțină intuiție putem sesiza și legătura cu termenul popular românesc „hârcă", ce desemnează adesea o babă pricepută în ale vrăjitoriei).\
+Plante de o mare importanta biologica pentru om, prin principiile lor active, sunt intalnite acolo unde odinioara erau asezarile dacilor. Iata in aceasta privinta marturia cunoscutului fitoterapeut Ovidiu Bojor: *„In urma cu multi ani, lucram pe teren in zona Gradistei, aproape de sanctuarul vechii cetati regale Sarmizegetusa, impreuna cu un amic care nu prea cunostea plantele si efectele lor. Am gasit acolo, printre alte specii, si specia Circaea lutetiana sau Circaea intermedia, popular numita Tilisca, Iarba vrajitoarei... Seara i-am facut tovarasului meu de drum un ceai din aceasta planta. Omul depasise bine a doua varsta. Dimineata urmatoare mi-a povestit ca de mult timp nu a avut o noapte atat de frumoasa si ca s-a simtit ca la douazeci de ani. A cules mai multe plante si pentru acasa. Din pacate, prin uscare ele si-au pierdut acel efect cu adevarat miraculos."* Aceasta planta era cunoscuta si de antichitatea greaca, numele ei stiintific, Circaea, fiind conex cu grecescul kirke, adica vrajitoare (cu putina intuitie putem sesiza si legatura cu termenul popular romanesc „harca", ce desemneaza adesea o baba priceputa in ale vrajitoriei).\
 \
-De remarcat că în Grecia și în regiunile mediteraneene această plantă nu crește (de fapt, din cele cinci specii de Circaea răspândite pe planetă, trei cresc pe teritoriul României), ceea ce-l determină pe Bojor să considere că planta era procurată de anticii greci din Dacia, unde era cunoscută și folosită. În ce privește mentalitatea așa-zis populară despre plante, din pespectiva ei, mare parte dintre ierburi se află sub puterea celor mai temute și mai respectate dintre ființele lumii nevăzute. Se folosesc astfel expresiile **Grădina Milostivelor, Grădinile Frumușelelor**, cu trimitere la **Iele** sau **Rusalii**.\
+De remarcat ca in Grecia si in regiunile mediteraneene aceasta planta nu creste (de fapt, din cele cinci specii de Circaea raspandite pe planeta, trei cresc pe teritoriul Romaniei), ceea ce-l determina pe Bojor sa considere ca planta era procurata de anticii greci din Dacia, unde era cunoscuta si folosita. In ce priveste mentalitatea asa-zis populara despre plante, din pespectiva ei, mare parte dintre ierburi se afla sub puterea celor mai temute si mai respectate dintre fiintele lumii nevazute. Se folosesc astfel expresiile **Gradina Milostivelor, Gradinile Frumuselelor**, cu trimitere la **Iele** sau **Rusalii**.\
 \
-Deloc întâmplător, tocmai în acele zone cresc flori precum **Bănuțeii** (Bellis perennis), folosiți contra bronșitei cronice, **Saschiul** (Vinca minor), **Banatul** (Geranium), folosit în practica populară contra junghiurilor și **Vâzdoagele** sau **Garoafa de munte** (Dianthus superbus). Ultima, care are o floare frumoasă, este numită și **Buruiană de urât**, este considerată ca „aducătoare de urât", considerându-se, din motive obscure pentru mintea omului modern, că cel ce o poartă este respins de ceilalți oameni.\
+Deloc intamplator, tocmai in acele zone cresc flori precum **Banuteii** (Bellis perennis), folositi contra bronsitei cronice, **Saschiul** (Vinca minor), **Banatul** (Geranium), folosit in practica populara contra junghiurilor si **Vazdoagele** sau **Garoafa de munte** (Dianthus superbus). Ultima, care are o floare frumoasa, este numita si **Buruiana de urat**, este considerata ca „aducatoare de urat", considerandu-se, din motive obscure pentru mintea omului modern, ca cel ce o poarta este respins de ceilalti oameni.\
 \
-## Credințe și ritualuri la culegerea plantelor
+## Credinte si ritualuri la culegerea plantelor
 
-În Moldova de peste Prut, țăranii nu administrau niciodată bolnavilor o plantă de leac, indiferent de puterea ei vindecătoare, fără descântec sau fără anumite practici magice. Acest fapt demonstrează filiația ancestrală a medicinei populare, care se originează într-o medicină sacerdotală, singura în care restabilirea sănătății era pusă în legătură cu forțe supranaturale. În cazul **Buruienii cu cinci degete** (Potentila recta), numită și **Iarba faptului** pentru că i se atribuie puterea de a desface vrăjile, aceasta era adusă acasă, iar după ce se spăla icoana Maicii Domnului, cu apa respectivă se stropea **Buruiana cu cinci degete**, care se punea la icoană și, dacă planta urma să fie fiartă în ulcică nouă, se băteau trei mătănii, rostindu-se: ***„Te primim cu pâine și sare, să ne fii folositoare."***\
+In Moldova de peste Prut, taranii nu administrau niciodata bolnavilor o planta de leac, indiferent de puterea ei vindecatoare, fara descantec sau fara anumite practici magice. Acest fapt demonstreaza filiatia ancestrala a medicinei populare, care se origineaza intr-o medicina sacerdotala, singura in care restabilirea sanatatii era pusa in legatura cu forte supranaturale. In cazul **Buruienii cu cinci degete** (Potentila recta), numita si **Iarba faptului** pentru ca i se atribuie puterea de a desface vrajile, aceasta era adusa acasa, iar dupa ce se spala icoana Maicii Domnului, cu apa respectiva se stropea **Buruiana cu cinci degete**, care se punea la icoana si, daca planta urma sa fie fiarta in ulcica noua, se bateau trei matanii, rostindu-se: ***„Te primim cu paine si sare, sa ne fii folositoare."***\
 \
-Conform unei credințe populare, cunoașterea virtuților magico-terapeutice ale plantelor poate fi însușită în mod direct de la ele, prin intermediul miticului șarpe alb. În prima jumătate a secolului al XIX-lea, în Transilvania era renumit vraciul țăran Mihai Sas, din Toplița Română, care spunea că un șarpe năzdrăvan i-a dat cunoștința graiului tuturor ierburilor de leac. În casa lui era un adevărat pelerinaj al bolnavilor, care erau vindecați cu descântecele și leacurile pregătite de el din ierburi. \
+Conform unei credinte populare, cunoasterea virtutilor magico-terapeutice ale plantelor poate fi insusita in mod direct de la ele, prin intermediul miticului sarpe alb. In prima jumatate a secolului al XIX-lea, in Transilvania era renumit vraciul taran Mihai Sas, din Toplita Romana, care spunea ca un sarpe nazdravan i-a dat cunostinta graiului tuturor ierburilor de leac. In casa lui era un adevarat pelerinaj al bolnavilor, care erau vindecati cu descantecele si leacurile pregatite de el din ierburi. \
 \
-Culegerea plantelor de leac se desfășoară de asemenea după un anumit calendar cosmic, urmând un ritual specific. Unele plante, precum **Usturoiul** sau **Pelinul**, își păstrează virtuțile vindecătoare pe tot parcursul anului, altele, precum **Săgetătura**, erau culese înainte de Sfredelul Rusaliilor, ele pierzându-și puterea binefăcătoare timp de o lună după aceea, până la sfârșitul Săptămânii Mari. Uscarea plantelor se face în mănunchiuri legate, care se atârnă de o grindă în pod.\
+Culegerea plantelor de leac se desfasoara de asemenea dupa un anumit calendar cosmic, urmand un ritual specific. Unele plante, precum **Usturoiul** sau **Pelinul**, isi pastreaza virtutile vindecatoare pe tot parcursul anului, altele, precum **Sagetatura**, erau culese inainte de Sfredelul Rusaliilor, ele pierzandu-si puterea binefacatoare timp de o luna dupa aceea, pana la sfarsitul Saptamanii Mari. Uscarea plantelor se face in manunchiuri legate, care se atarna de o grinda in pod.\
 \
 # Anticii despre fitoterapia geto-dacilor
 
 **ANTICII DESPRE FITOTERAPIA GETO-DACILOR**\
 ### Herodot
 
-**Herodot** scria că dacii că sunt ***„buni cunoscători ai plantelor, având și un meșteșug deosebit pentru îngrijirea bolnavilor cu ajutorul plantelor".***\
+**Herodot** scria ca dacii ca sunt ***„buni cunoscatori ai plantelor, avand si un mestesug deosebit pentru ingrijirea bolnavilor cu ajutorul plantelor".***\
 \
 ### Homer
 
-**Homer**, marele poet al Antichității, scria despre geto-daci că, ***„în afară de curajul și bărbăția dovedite în lupte, ei manifestau și o înaltă educație morală, evidențată prin grija față de străini, de bolnavi și de răniții căzuți pe pământul lor". ***\
+**Homer**, marele poet al Antichitatii, scria despre geto-daci ca, ***„in afara de curajul si barbatia dovedite in lupte, ei manifestau si o inalta educatie morala, evidentata prin grija fata de straini, de bolnavi si de ranitii cazuti pe pamantul lor". ***\
 \
 ### Strabon
 
-**Strabon** afirmă că la geți preoții erau medici (iatros) și cunoscători de descântece, vraci (goes) totodată. \
+**Strabon** afirma ca la geti preotii erau medici (iatros) si cunoscatori de descantece, vraci (goes) totodata. \
 \
 ### Ovidius
 
-În creația poetică a lui **Ovidius** (43 î.e.n.-17 e.n.), completată în timpul exilului său la Tomis-Constanța (8-17 e.n.), erau menționate multe plante medicinale care creșteau în spațiul carpato-danubian și mai ales la Marea Neagră (Pontus Euxinus). \
+In creatia poetica a lui **Ovidius** (43 i.e.n.-17 e.n.), completata in timpul exilului sau la Tomis-Constanta (8-17 e.n.), erau mentionate multe plante medicinale care cresteau in spatiul carpato-danubian si mai ales la Marea Neagra (Pontus Euxinus). \
 \
 ### Platon
 
-**Platon**, în dialogul său Charmides, pomenește **leacurile și descântecele medicilor daci**, în cuvintele ***„Așa stau lucrurile, Charmides, și cu descântecul nostru. L-am învățat cu prilejul unei expediții, de la unul dintre medicii din Tracia ai lui Zalmoxis, despre care se zice că au darul de a te face nemuritor".*** Tot el consemnează principiile holiste ale medicinei geto-dace, punându-le în gura unui medic din Tracia al lui Zalmoxis: *„Zalmoxis, regele nostru, care este un zeu și un mare înțelept, ne învață că, după cum e nepotrivit să încercăm îngrijirea ochilor fără să vindecăm întâi capul, tot la fel, nici capul nu poate fi îngrijit nesocotind trupul; având în vedere acest adevăr, trupul trebuie să fie îngrijit, în același fel, într-un mod potrivit, împreună cu sufletul. Căci motivul pentru care medicii greci nu se pricep la cele mai multe boli este acela că ei nu cunosc tainele întregului pe care-l au de îngrijit. Dacă acest întreg e bolnav, atunci nici partea nu poate fi sănătoasă. Dacă însă partea tulburată va fi vindecată, atunci și întregul va fi din nou armonios, așa cum trebuie să fie, iar omul va trăi mult timp, plin de vigoare, bun la suflet și fericit. Căci toate se trag din suflet, atât cele rele, cât și cele bune ale trupului și ale ființei noastre întregi, revărsându-se din suflet, așa cum se răsfrâng de la cap asupra ochiului. Ca urmare. mai întâi sufletului trebuie să-i dăm îngrijire, dacă vrem ca deopotrivă capul și restul trupului s-o ducă bine. Iar sufletul se îngrijește cu descântece. Să nu te lași înduplecat să îngrijești capul nimănui, dacă nu-ți va fi încredințat mai întâi sufletul spre îngrijirea prin descântec. Aceasta este greșeala pe care, acum, o săvârșesc oamenii, încercând să vindece o parte fără cealaltă."*\
+**Platon**, in dialogul sau Charmides, pomeneste **leacurile si descantecele medicilor daci**, in cuvintele ***„Asa stau lucrurile, Charmides, si cu descantecul nostru. L-am invatat cu prilejul unei expeditii, de la unul dintre medicii din Tracia ai lui Zalmoxis, despre care se zice ca au darul de a te face nemuritor".*** Tot el consemneaza principiile holiste ale medicinei geto-dace, punandu-le in gura unui medic din Tracia al lui Zalmoxis: *„Zalmoxis, regele nostru, care este un zeu si un mare intelept, ne invata ca, dupa cum e nepotrivit sa incercam ingrijirea ochilor fara sa vindecam intai capul, tot la fel, nici capul nu poate fi ingrijit nesocotind trupul; avand in vedere acest adevar, trupul trebuie sa fie ingrijit, in acelasi fel, intr-un mod potrivit, impreuna cu sufletul. Caci motivul pentru care medicii greci nu se pricep la cele mai multe boli este acela ca ei nu cunosc tainele intregului pe care-l au de ingrijit. Daca acest intreg e bolnav, atunci nici partea nu poate fi sanatoasa. Daca insa partea tulburata va fi vindecata, atunci si intregul va fi din nou armonios, asa cum trebuie sa fie, iar omul va trai mult timp, plin de vigoare, bun la suflet si fericit. Caci toate se trag din suflet, atat cele rele, cat si cele bune ale trupului si ale fiintei noastre intregi, revarsandu-se din suflet, asa cum se rasfrang de la cap asupra ochiului. Ca urmare. mai intai sufletului trebuie sa-i dam ingrijire, daca vrem ca deopotriva capul si restul trupului s-o duca bine. Iar sufletul se ingrijeste cu descantece. Sa nu te lasi induplecat sa ingrijesti capul nimanui, daca nu-ti va fi incredintat mai intai sufletul spre ingrijirea prin descantec. Aceasta este greseala pe care, acum, o savarsesc oamenii, incercand sa vindece o parte fara cealalta."*\
 \
 ### Pseudo-Apuleius
 
-**Pseudo-Apuleius**, scriitor și botanist din veacul al II-lea e.n., în lucrarea sa „**De medica minibus herbarum**", menționa alte 37 de plante cu efecte terapeutice existente în Dacia: aniarsexe-iarba sărată, budathla-limba boului, chlodela-țelina de câmp, ciborastra-brusture, diesema-coada vacii, dyn-urzică, dzena-cucută de apă, kardama-papură, koikodila-păpălău, kroustane-rostopască, mantia-mure, mizela-cimbru, skite-scai. Multe din aceste plante sunt utilizate și astăzi în arsenalul fitoterapeutic.\
+**Pseudo-Apuleius**, scriitor si botanist din veacul al II-lea e.n., in lucrarea sa „**De medica minibus herbarum**", mentiona alte 37 de plante cu efecte terapeutice existente in Dacia: aniarsexe-iarba sarata, budathla-limba boului, chlodela-telina de camp, ciborastra-brusture, diesema-coada vacii, dyn-urzica, dzena-cucuta de apa, kardama-papura, koikodila-papalau, kroustane-rostopasca, mantia-mure, mizela-cimbru, skite-scai. Multe din aceste plante sunt utilizate si astazi in arsenalul fitoterapeutic.\
 \
-# „Buruienile de leac”, singurele medicamente folosite odinioară
+# „Buruienile de leac”, singurele medicamente folosite odinioara
 
-**„BURUIENILE DE LEAC", SINGURELE MEDICAMENTE FOLOSITE ODINIOARĂ**\
-Pe la mijlocul secolului al XX-la, farmacistul Dr. Gh. P. Grințescu prezenta într-o carte premiată de Academie (Botanică farmaceutică. Cultura și recolta plantelor farmaceutice, publicată în 1945 la București) o listă cu 500 de plante de leac ale poporului român, bună parte din ele necunoscute în medicină și farmacie. Acesta afirma că în popor plantele de leac au o reputație bine stabilită, cunoștințele despre ele fiind moștenite din tată în fiu și păstrate în taină de acei ce le știau mânui. Importanța unora este foarte mare și rămășițele populare ale cunoștințelor despre ele provin dintr-un tezaur sacerdotal străvechi și unic în spațiul carpatic, lucru confirmat de faptul că aceleași buruieni sunt cunoscute sub același nume și pentru același tratament, din Maramureș până în Oltenia și din Apuseni până în Moldova nordică.\
+**„BURUIENILE DE LEAC", SINGURELE MEDICAMENTE FOLOSITE ODINIOARA**\
+Pe la mijlocul secolului al XX-la, farmacistul Dr. Gh. P. Grintescu prezenta intr-o carte premiata de Academie (Botanica farmaceutica. Cultura si recolta plantelor farmaceutice, publicata in 1945 la Bucuresti) o lista cu 500 de plante de leac ale poporului roman, buna parte din ele necunoscute in medicina si farmacie. Acesta afirma ca in popor plantele de leac au o reputatie bine stabilita, cunostintele despre ele fiind mostenite din tata in fiu si pastrate in taina de acei ce le stiau manui. Importanta unora este foarte mare si ramasitele populare ale cunostintelor despre ele provin dintr-un tezaur sacerdotal stravechi si unic in spatiul carpatic, lucru confirmat de faptul ca aceleasi buruieni sunt cunoscute sub acelasi nume si pentru acelasi tratament, din Maramures pana in Oltenia si din Apuseni pana in Moldova nordica.\
 \
-## Plante și întrebuințările lor în medicina populară
+## Plante si intrebuintarile lor in medicina populara
 
-Iată câteva plante, împreună cu întrebuințările lor în medicina populară:\
-### Pentru junghi (pneumonie și dureri reumatismale)
+Iata cateva plante, impreuna cu intrebuintarile lor in medicina populara:\
+### Pentru junghi (pneumonie si dureri reumatismale)
 
-**Pentru junghi (pneumonie și dureri reumatismale):** Coada racului sau Scrântitoare (Potentilla anserinna), folosită și pentru scrântituri sau friguri, Rocoțea sau Buruiana junghiului (Stellaria graminea).\
+**Pentru junghi (pneumonie si dureri reumatismale):** Coada racului sau Scrantitoare (Potentilla anserinna), folosita si pentru scrantituri sau friguri, Rocotea sau Buruiana junghiului (Stellaria graminea).\
 ### Nebunie
 
-**Nebunie:** Sică (Statice Gmelini).\
-### Febră tifoidă
+**Nebunie:** Sica (Statice Gmelini).\
+### Febra tifoida
 
-**Febră tifoidă:** Drob (Cytisus Heufelianus), Ononis hircina.\
+**Febra tifoida:** Drob (Cytisus Heufelianus), Ononis hircina.\
 ### Blenoragie
 
-**Blenoragie:** Negrușcă (Nigella arvensis), Ciucușoară sau Albiță (Berteroa incana), potolnic (Genista tinctoria).\
+**Blenoragie:** Negrusca (Nigella arvensis), Ciucusoara sau Albita (Berteroa incana), potolnic (Genista tinctoria).\
 ### Boli de piept
 
-**Boli de piept:** Turiță mare (Agrimonia eupatorium), Cinci degete (Potentilla reptans), Lytospermum arvense, Helyanthemum vulgare.\
+**Boli de piept:** Turita mare (Agrimonia eupatorium), Cinci degete (Potentilla reptans), Lytospermum arvense, Helyanthemum vulgare.\
 ### Reumatism
 
-**Reumatism:** Cinci degete (Potentilla alba), Pidosnic (Cerinthe minor), Trifoi roșu (Trifolium pratense), Cervană sau Iarba lui ceas rău (Lycopus europaeus), Urzică mare (Urtica dioica), Răchită (Salix fragilis).\
+**Reumatism:** Cinci degete (Potentilla alba), Pidosnic (Cerinthe minor), Trifoi rosu (Trifolium pratense), Cervana sau Iarba lui ceas rau (Lycopus europaeus), Urzica mare (Urtica dioica), Rachita (Salix fragilis).\
 ### Debilitate
 
-**Debilitate:** Năsturel sau Iarba voinicului (Nasturtum silvestre) -- se folosește și ca salată de primăvară, Solovârfiță (Phlomis tuberosa) -- se pune în baia lăuzelor, Răchitan, Florile zânelor sau Sburătoare (Lytrum salicaria) -- folosită și împotriva paraliziei, Bobornic (Veronica beccabunga) -- în popor se folosește și împotriva neputinței la urinare, a hidropiziei și pentru curățirea sângelui, Cătină (Tamarix Palassi), Slăbănog sau Buruiana celor slabi (Impatiens noli-tangere) -- are proprietăți diuretice.\
-### Icter sau hepatită
+**Debilitate:** Nasturel sau Iarba voinicului (Nasturtum silvestre) -- se foloseste si ca salata de primavara, Solovarfita (Phlomis tuberosa) -- se pune in baia lauzelor, Rachitan, Florile zanelor sau Sburatoare (Lytrum salicaria) -- folosita si impotriva paraliziei, Bobornic (Veronica beccabunga) -- in popor se foloseste si impotriva neputintei la urinare, a hidropiziei si pentru curatirea sangelui, Catina (Tamarix Palassi), Slabanog sau Buruiana celor slabi (Impatiens noli-tangere) -- are proprietati diuretice.\
+### Icter sau hepatita
 
-**Icter sau hepatită:** Buruiana gălbinării sau Iarba faptului (Potentilla recta), Morcov (Daucus carota), Hrean (Armoraceae rustica) -- se folosește și la tuberculoză.\
+**Icter sau hepatita:** Buruiana galbinarii sau Iarba faptului (Potentilla recta), Morcov (Daucus carota), Hrean (Armoraceae rustica) -- se foloseste si la tuberculoza.\
 ### Dureri de stomac
 
-**Dureri de stomac:** Cinci degete (Potentilla reptans), Volbură (Convulvulus arvensis), Brustan (Telechia speciosa) -- considerat bun pentru toate bolile, Spirea filipendula, Salvia silvestris, Orobus niger, Ononis hircina.\
+**Dureri de stomac:** Cinci degete (Potentilla reptans), Volbura (Convulvulus arvensis), Brustan (Telechia speciosa) -- considerat bun pentru toate bolile, Spirea filipendula, Salvia silvestris, Orobus niger, Ononis hircina.\
 ### Hernie
 
-**Hernie:** Studeniță (Arenaria serpillyfolia), Sânziene (Galium mollugo), Phelipaea ramosa.\
+**Hernie:** Studenita (Arenaria serpillyfolia), Sanziene (Galium mollugo), Phelipaea ramosa.\
 ### Dalac sau antrax
 
-**Dalac sau antrax:** Izma broaștei (Mentha aquatica) -- folosită ca stimulent în convalesență și contra palpitațiilor, Brâna ursului (Heracleum sphonylium), Rostogol sau Măciuca ciobanului (Echinops sphaerocephalum), un soi de neghină (Agrostema coronaria), Heracleum sibiricum.\
+**Dalac sau antrax:** Izma broastei (Mentha aquatica) -- folosita ca stimulent in convalesenta si contra palpitatiilor, Brana ursului (Heracleum sphonylium), Rostogol sau Maciuca ciobanului (Echinops sphaerocephalum), un soi de neghina (Agrostema coronaria), Heracleum sibiricum.\
 ### Epilepsie
 
-**Epilepsie:** Silnic sau Rotundioară (Glechoma hederacea), Sburătoare sau Pufuliță (Epilobium hirsutum), Unghia Găii (Astragalus glycyphyllos), Asperula cznanchica.\
+**Epilepsie:** Silnic sau Rotundioara (Glechoma hederacea), Sburatoare sau Pufulita (Epilobium hirsutum), Unghia Gaii (Astragalus glycyphyllos), Asperula cznanchica.\
 ### Cancer
 
-**Cancer:** rădăcini de la diferite specii de spini și ciulini, Cardus și Cirsium. Spin (Carduus acanthoides), Scai (Carduus candicans), Pălămidă (Carduus crispus), Ciulin (Carduus nutans), Crăpușnic (Cirsium boujarti), Colțul lupului (Cirsium erisithales), Crăstăval (Cirsium oleraceum), Captalan (Cirsium rivulare).\
+**Cancer:** radacini de la diferite specii de spini si ciulini, Cardus si Cirsium. Spin (Carduus acanthoides), Scai (Carduus candicans), Palamida (Carduus crispus), Ciulin (Carduus nutans), Crapusnic (Cirsium boujarti), Coltul lupului (Cirsium erisithales), Crastaval (Cirsium oleraceum), Captalan (Cirsium rivulare).\
 ### Dizenterie
 
-**Dizenterie:** Cioroi (Inula salicina), Cătușnica sau Iarba vântului (Nepeta cataria), Priboi sau Pălăria cucului (Geranium phaeum).\
+**Dizenterie:** Cioroi (Inula salicina), Catusnica sau Iarba vantului (Nepeta cataria), Priboi sau Palaria cucului (Geranium phaeum).\
 ### Oreion
 
-**Oreion:** Zârnă sau Umbra nopții (Solanum nigrum), Silnic (Glechoma hederacea), Crăițe sau Vâzdoage (Taegetes erecta).\
-### Prostată
+**Oreion:** Zarna sau Umbra noptii (Solanum nigrum), Silnic (Glechoma hederacea), Craite sau Vazdoage (Taegetes erecta).\
+### Prostata
 
-**Prostată:** Talpa gâștei (Leonorus cardiaca, Rocoină (Stalaria media).\
-## Pentru răni și furuncule
+**Prostata:** Talpa gastei (Leonorus cardiaca, Rocoina (Stalaria media).\
+## Pentru rani si furuncule
 
-**Pentru răni și furuncule**, se utilizau frunzele de patlagină sau de mușcată. În faza de inflamație acută, frunzele aveau efecte de înmuiere a pielii, iar enzimele proteolitice acționau prin macerarea colagenului din țesuturi, astfel ca furunculul să erupă.\
+**Pentru rani si furuncule**, se utilizau frunzele de patlagina sau de muscata. In faza de inflamatie acuta, frunzele aveau efecte de inmuiere a pielii, iar enzimele proteolitice actionau prin macerarea colagenului din tesuturi, astfel ca furunculul sa erupa.\
 \
-## Medicina populară în mănăstiri
+## Medicina populara in manastiri
 
-În secolele XIV-XV, medicina populară se practica în bolnițele existente în majoritatea mânăstirilor, cum ar fi Tismana, Bistrița (din Oltenia), Neamț, Prislop (din Moldova), în care se foloseau plante medicinale recoltate din flora spontană din jurul mânăstirii sau cultivate în grădinile proprii. Bolile tămăduite erau cunoscute prin anumite denumiri populare: aprindere (congestie pulmonară), oftică (tuberculoză), rac (cancer), blândă (urticarie), brâncă (erizipel), buboaie (furunculoză), cârtițe (varice), dalac (antrax), gălbinare (icter), lungoare (febră tifoidă), vătămătură (hernie), trânji (hemoroizi), gâlci (amigdalită).\
+In secolele XIV-XV, medicina populara se practica in bolnitele existente in majoritatea manastirilor, cum ar fi Tismana, Bistrita (din Oltenia), Neamt, Prislop (din Moldova), in care se foloseau plante medicinale recoltate din flora spontana din jurul manastirii sau cultivate in gradinile proprii. Bolile tamaduite erau cunoscute prin anumite denumiri populare: aprindere (congestie pulmonara), oftica (tuberculoza), rac (cancer), blanda (urticarie), branca (erizipel), buboaie (furunculoza), cartite (varice), dalac (antrax), galbinare (icter), lungoare (febra tifoida), vatamatura (hernie), tranji (hemoroizi), galci (amigdalita).\
 \
-### Plantele folosite de călugări, vraci și doftoroaie
+### Plantele folosite de calugari, vraci si doftoroaie
 
-Pentru fiecare boală, călugării din mânăstiri, precum și vracii și doftoroaiele satelor, foloseau anumite plante cunoscute ca tămăduitoare: angelica la vătămătură și boli de inimă, rostopască la gălbinare, fierea pământului la friguri, alior la reumatism și pecingine, captalan la lungoare.\
-### Alte plante în tratamentul bolilor
+Pentru fiecare boala, calugarii din manastiri, precum si vracii si doftoroaiele satelor, foloseau anumite plante cunoscute ca tamaduitoare: angelica la vatamatura si boli de inima, rostopasca la galbinare, fierea pamantului la friguri, alior la reumatism si pecingine, captalan la lungoare.\
+### Alte plante in tratamentul bolilor
 
-În tratamentul altor boli se mai foloseau brusturele, brustanul, scrântitoarea, coada calului, coada șoricelului, pojarnița, mușețelul, zămoșița, bozul, busuiocul, sunătoarea.\
+In tratamentul altor boli se mai foloseau brusturele, brustanul, scrantitoarea, coada calului, coada soricelului, pojarnita, musetelul, zamosita, bozul, busuiocul, sunatoarea.\
 \
-# Înlesniri ale domnitorilor pentru negustorii de plante medicinale
+# Inlesniri ale domnitorilor pentru negustorii de plante medicinale
 
-**ÎNLESNIRI ALE DOMNITORILOR PENTRU NEGUSTORII DE PLANTE MEDICINALE**\
-Domnitorii din acele vremi încurajau utilizarea plantelor medicinale prin mijloacele avute la dispoziție. Alexandru cel Bun din Moldova a acordat privilegii deosebite negustorilor din Lvov (anul 1408), iar Mircea cel Bătrân a acordat privilegii negustorilor din Brașov (anul 1413), pentru a se aduce produse farmaceutice din plante și condimente procurate din străinătate (tămâie, piper, șofran, scorțișoară, cuișoare, nucșoară, ghimbir).\
+**INLESNIRI ALE DOMNITORILOR PENTRU NEGUSTORII DE PLANTE MEDICINALE**\
+Domnitorii din acele vremi incurajau utilizarea plantelor medicinale prin mijloacele avute la dispozitie. Alexandru cel Bun din Moldova a acordat privilegii deosebite negustorilor din Lvov (anul 1408), iar Mircea cel Batran a acordat privilegii negustorilor din Brasov (anul 1413), pentru a se aduce produse farmaceutice din plante si condimente procurate din strainatate (tamaie, piper, sofran, scortisoara, cuisoare, nucsoara, ghimbir).\
 \
-Putem exemplifica unele remedii naturale aplicate cu succes, păstrate în memoria poporului timp de multe veacuri. Ștefan cel Mare, rănit la picior în luptele cu turcii, la Cetatea Chiliei, a fost tratat de medicii italieni Matteo Muriano și Ieronim da Cesena, cu loțiuni și cataplasme de mușețel, isop, tătăneasă și eucalipt. Mai târziu, Alexandru Lăpușneanu, fiind bolnav de ochi (în anul 1558), a fost îngrijit de un spițer din Transilvania cu niște plante, printre care mentă, isop, muștar și scorțișoară.\
+Putem exemplifica unele remedii naturale aplicate cu succes, pastrate in memoria poporului timp de multe veacuri. Stefan cel Mare, ranit la picior in luptele cu turcii, la Cetatea Chiliei, a fost tratat de medicii italieni Matteo Muriano si Ieronim da Cesena, cu lotiuni si cataplasme de musetel, isop, tataneasa si eucalipt. Mai tarziu, Alexandru Lapusneanu, fiind bolnav de ochi (in anul 1558), a fost ingrijit de un spiter din Transilvania cu niste plante, printre care menta, isop, mustar si scortisoara.\
 \
-## Cele mai vechi texte de fitoterapie și aromaterapie
+## Cele mai vechi texte de fitoterapie si aromaterapie
 
-Printre cele mai vechi texte păstrate în țara noastră în domeniul fitoterapiei și aromaterapiei se numără manuscrisul intitulat Folosirea plantelor de leac, datat din secolul al XVI-lea și conservat în Arhivele Statului din București. Aici sunt menționate unele preocupări de fitoterapie casnică, utilizând multe specii medicinale folosite la acea vreme (brusture, ghințură, iarba tăieturii, patlagină, pătrunjel de câmp, schinel, șopârlaiță, traista ciobanului, urzică) precum și unele specii aromatice alimentare (angelica, mărarul, melisa). Menta era considerată ca un leac foarte prețios, „cu mare putere de a vindeca toate bolile și de a smulge toate stricăciunile lăuntrice".\
+Printre cele mai vechi texte pastrate in tara noastra in domeniul fitoterapiei si aromaterapiei se numara manuscrisul intitulat Folosirea plantelor de leac, datat din secolul al XVI-lea si conservat in Arhivele Statului din Bucuresti. Aici sunt mentionate unele preocupari de fitoterapie casnica, utilizand multe specii medicinale folosite la acea vreme (brusture, ghintura, iarba taieturii, patlagina, patrunjel de camp, schinel, soparlaita, traista ciobanului, urzica) precum si unele specii aromatice alimentare (angelica, mararul, melisa). Menta era considerata ca un leac foarte pretios, „cu mare putere de a vindeca toate bolile si de a smulge toate stricaciunile launtrice".\
 \
-# Primele farmacii, în Evul Mediu
+# Primele farmacii, in Evul Mediu
 
-**PRIMELE FARMACII, ÎN EVUL MEDIU**\
-În Evul Mediu au fost înființate primele farmacii orășenești, susținute financiar de primăriile din Sibiu (1494), Brașov (1512), Bistrița (1516) și Făgăraș, care livrau extracte, siropuri și uleiuri eterice din plante, mai ales ape de roze, mentă, tei și soc. La sfârșitul secolului al XVI-lea, plantele medicinale pentru tratamente erau denumite „specii" și se distribuiau de către spițer, în timp ce plantele aromatice erau distribuite de aromatori, cunoscuți în Iași încă din anul 1594. În „Pravila" lui Vasile Lupu (1646), aromatorii se mai numeau „vraci", iar în timpul domnitorului Dimitrie Cantemir erau denumiți „apotecari" (în greacă, apotheke înseamnă depozit).\
+**PRIMELE FARMACII, IN EVUL MEDIU**\
+In Evul Mediu au fost infiintate primele farmacii orasenesti, sustinute financiar de primariile din Sibiu (1494), Brasov (1512), Bistrita (1516) si Fagaras, care livrau extracte, siropuri si uleiuri eterice din plante, mai ales ape de roze, menta, tei si soc. La sfarsitul secolului al XVI-lea, plantele medicinale pentru tratamente erau denumite „specii" si se distribuiau de catre spiter, in timp ce plantele aromatice erau distribuite de aromatori, cunoscuti in Iasi inca din anul 1594. In „Pravila" lui Vasile Lupu (1646), aromatorii se mai numeau „vraci", iar in timpul domnitorului Dimitrie Cantemir erau denumiti „apotecari" (in greaca, apotheke inseamna depozit).\
 \
 ## Primele spitale care au folosit plante autohtone
 
-Primul spital din țară care a folosit, cu predilecție, plantele medicinale autohtone a fost construit în București, lângă mânăstirea Colțea, între anii 1695-1708, pe baza planurilor elaborate de spătarul Mihai Cantacuzino. Spitalul avea 24 de paturi destinate bolnavilor săraci, care erau tratați cu diferite plante tămăduitoare.\
+Primul spital din tara care a folosit, cu predilectie, plantele medicinale autohtone a fost construit in Bucuresti, langa manastirea Coltea, intre anii 1695-1708, pe baza planurilor elaborate de spatarul Mihai Cantacuzino. Spitalul avea 24 de paturi destinate bolnavilor saraci, care erau tratati cu diferite plante tamaduitoare.\
 \
-## Spitalul „Sfântul Spiridon” din Moldova
+## Spitalul „Sfantul Spiridon” din Moldova
 
-În timpul domniei lui Grigore al III-lea Ghica din Moldova este fondat Spitalul „Sfântul Spiridon" din Iași (1757), în care tratamentele pentru toate bolile îmbinau folosirea plantelor de leac cu rugăciunea pentru vindecarea suferințelor și iertarea păcatelor. Necesarul de plante era asigurat de spițerul Anton Faermann, decedat cu întreaga sa familie în timpul ciumei din anul 1770.\
+In timpul domniei lui Grigore al III-lea Ghica din Moldova este fondat Spitalul „Sfantul Spiridon" din Iasi (1757), in care tratamentele pentru toate bolile imbinau folosirea plantelor de leac cu rugaciunea pentru vindecarea suferintelor si iertarea pacatelor. Necesarul de plante era asigurat de spiterul Anton Faermann, decedat cu intreaga sa familie in timpul ciumei din anul 1770.\
 \
-## Mănăstirea — alt lăcaș de tămăduire prin plante
+## Manastirea — alt lacas de tamaduire prin plante
 
-Un alt lăcaș bisericesc orientat spre folosirea plantelor în tămăduirea bolnavilor a fost Mănăstirea Obedeanu, în incinta căreia a luat ființă spitalul din Craiova în anul 1777.\
+Un alt lacas bisericesc orientat spre folosirea plantelor in tamaduirea bolnavilor a fost Manastirea Obedeanu, in incinta careia a luat fiinta spitalul din Craiova in anul 1777.\
 \
-# Începutul cercetărilor moderne
+# Inceputul cercetarilor moderne
 
-**ÎNCEPUTUL CERCETĂRILOR MODERNE**\
-La începutul secolului al XIX-lea, arsenalul plantelor cu proprietăți medicinale folosite în țările române s-a lărgit prin introducerea unor specii sau produse aduse din străinătate: scoarța arborelui de China, anason, revent, siminichie, șofran, piper negru, scorțișoară, cuișoare, nucșoară, ienibahar, cassia, camfor, salep și sabur. Tot în această perioadă s-au importat și unele preparate din plante aromatice exotice, prezentate sub formă de balsamuri, extracte, elixire, tincturi, uleiuri, unguente și ape aromate (de melisă, fragi, isop, măgheran și portocale).\
-## Organizarea colectării științifice a plantelor
+**INCEPUTUL CERCETARILOR MODERNE**\
+La inceputul secolului al XIX-lea, arsenalul plantelor cu proprietati medicinale folosite in tarile romane s-a largit prin introducerea unor specii sau produse aduse din strainatate: scoarta arborelui de China, anason, revent, siminichie, sofran, piper negru, scortisoara, cuisoare, nucsoara, ienibahar, cassia, camfor, salep si sabur. Tot in aceasta perioada s-au importat si unele preparate din plante aromatice exotice, prezentate sub forma de balsamuri, extracte, elixire, tincturi, uleiuri, unguente si ape aromate (de melisa, fragi, isop, magheran si portocale).\
+## Organizarea colectarii stiintifice a plantelor
 
-Pentru a organiza colectarea științifică a plantelor medicinale și aromatice din flora spontană sau de la cultivatori, care erau necesare prelucrării în laboratoarele farmaceutice, a luat ființă un prim laborator de cercetare „Planta Vorel" din Piatra Neamț, prin hrisovul dat de voievodul Ioan Sandu Sturdza, domnul Moldovei (1825). Sistemul de valorificare și distribuție a produselor medicinale prin rețeaua de farmacii a fost mai bine structurat după anul 1831, ca urmare a aplicării prevederilor Regulamentului Organic, introdus în ambele țări românești.\
-## Sistematizarea rețetelor farmaceutice
+Pentru a organiza colectarea stiintifica a plantelor medicinale si aromatice din flora spontana sau de la cultivatori, care erau necesare prelucrarii in laboratoarele farmaceutice, a luat fiinta un prim laborator de cercetare „Planta Vorel" din Piatra Neamt, prin hrisovul dat de voievodul Ioan Sandu Sturdza, domnul Moldovei (1825). Sistemul de valorificare si distributie a produselor medicinale prin reteaua de farmacii a fost mai bine structurat dupa anul 1831, ca urmare a aplicarii prevederilor Regulamentului Organic, introdus in ambele tari romanesti.\
+## Sistematizarea retetelor farmaceutice
 
-Sistematizarea datelor științifice privind alcătuirea rețetelor farmaceutice a făcut obiectul unei ample lucrări de sinteză, realizată de un larg colectiv de specialiști, la îndemnul dr. Carol Davila. Colectivul a fost condus de farmacistul Constantin C. Hepites (1802-1890). Acesta a elaborat prima farmacopee română (1862), care avea 790 de pagini și era apreciată ca fiind una dintre cele mai valoroase lucrări de acest gen din Europa. În afara indicațiilor din farmacopee, sistemul de preparare a produselor farmaceutice, naturale și de sinteză a fost reglementat prin apariția unei „Legi sanitare" din 1874, elaborată de Anastasie Fătu și I. Felix.\
+Sistematizarea datelor stiintifice privind alcatuirea retetelor farmaceutice a facut obiectul unei ample lucrari de sinteza, realizata de un larg colectiv de specialisti, la indemnul dr. Carol Davila. Colectivul a fost condus de farmacistul Constantin C. Hepites (1802-1890). Acesta a elaborat prima farmacopee romana (1862), care avea 790 de pagini si era apreciata ca fiind una dintre cele mai valoroase lucrari de acest gen din Europa. In afara indicatiilor din farmacopee, sistemul de preparare a produselor farmaceutice, naturale si de sinteza a fost reglementat prin aparitia unei „Legi sanitare" din 1874, elaborata de Anastasie Fatu si I. Felix.\
 \
-# Apariția medicamentelor de sinteză chimică
+# Aparitia medicamentelor de sinteza chimica
 
-**APARIȚIA MEDICAMENTELOR DE SINTEZĂ CHIMICĂ**\
-Avântul imperios al medicației cu produse de sinteză chimică, cu efecte incerte și adesea dăunătoare, a împins fitoterapia din România în subsolul medicinii pe o perioadă destul de lungă.\
-Prin dezvoltarea aberantă a chimioterapiei, până la mijlocul secolului XX, farmacopeele din lume au înregistrat peste 100.000 de preparate chimice. În ultimii 40-50 de ani, pe lângă prea puținele succese de necontestat, au fost semnalate tot mai multe scandaluri și cazuri de intoxicații grave cu medicamente de sinteză chimică, nu de puține ori mortale, care s-au datorat efectelor secundare, necunoscute sau ascunse inițial din interese comerciale.\
+**APARITIA MEDICAMENTELOR DE SINTEZA CHIMICA**\
+Avantul imperios al medicatiei cu produse de sinteza chimica, cu efecte incerte si adesea daunatoare, a impins fitoterapia din Romania in subsolul medicinii pe o perioada destul de lunga.\
+Prin dezvoltarea aberanta a chimioterapiei, pana la mijlocul secolului XX, farmacopeele din lume au inregistrat peste 100.000 de preparate chimice. In ultimii 40-50 de ani, pe langa prea putinele succese de necontestat, au fost semnalate tot mai multe scandaluri si cazuri de intoxicatii grave cu medicamente de sinteza chimica, nu de putine ori mortale, care s-au datorat efectelor secundare, necunoscute sau ascunse initial din interese comerciale.\
 \
 # Redescoperirea fitoterapiei
 
 **REDESCOPERIREA FITOTERAPIEI**\
-Împotriva poluării medicamentoase, devenită un flagel amenințător, se ridică, peste tot în lume, din ce în ce mai multe personalități științifice care cer reevaluarea mijloacelor terapeutice tradiționale și revenirea la remediile naturale ale fitoterapiei.\
+Impotriva poluarii medicamentoase, devenita un flagel amenintator, se ridica, peste tot in lume, din ce in ce mai multe personalitati stiintifice care cer reevaluarea mijloacelor terapeutice traditionale si revenirea la remediile naturale ale fitoterapiei.\
 \
-În ultimele 3-4 decenii, practica multor medici din România s-a orientat tot mai mult spre „redescoperirea" plantelor medicinale și limitarea tendinței de medicație exclusiv alopată, promovată de marile concernuri farmaceutice. Se apreciază că extinderea culturilor de plante medicinale pe teritoriul românesc va putea asigura tot necesarul de materii prime și produse finite pentru industria farmaceutică, farmacii, spitale și consumul casnic. Este anormal ca, având un asemenea tezaur de excepțională valoare, țara noastră să importe, de la firme străine, produse naturiste la prețuri exagerat de mari. Nu cere un efort prea mare ca, în viitorul apropiat, dealurile rămase golașe și erodate, colinele necultivate și luncile cu soluri bogate și umede să devină, treptat, izvoare de sănătate pentru populația țării.\
+In ultimele 3-4 decenii, practica multor medici din Romania s-a orientat tot mai mult spre „redescoperirea" plantelor medicinale si limitarea tendintei de medicatie exclusiv alopata, promovata de marile concernuri farmaceutice. Se apreciaza ca extinderea culturilor de plante medicinale pe teritoriul romanesc va putea asigura tot necesarul de materii prime si produse finite pentru industria farmaceutica, farmacii, spitale si consumul casnic. Este anormal ca, avand un asemenea tezaur de exceptionala valoare, tara noastra sa importe, de la firme straine, produse naturiste la preturi exagerat de mari. Nu cere un efort prea mare ca, in viitorul apropiat, dealurile ramase golase si erodate, colinele necultivate si luncile cu soluri bogate si umede sa devina, treptat, izvoare de sanatate pentru populatia tarii.\
 \
 # Surse
 
 SURSE\
-Mătrăguna. O etnobotanică magică. Leacuri și remedii magice, de Cornel Dan Niculae\
-Medicina naturistă în tradițiile poporului român, articol al prof. univ. dr. Constantin I. Milică, specialist în fitoterapie.
+Matraguna. O etnobotanica magica. Leacuri si remedii magice, de Cornel Dan Niculae\
+Medicina naturista in traditiile poporului roman, articol al prof. univ. dr. Constantin I. Milica, specialist in fitoterapie.
 
 sursa: ecolife.ro

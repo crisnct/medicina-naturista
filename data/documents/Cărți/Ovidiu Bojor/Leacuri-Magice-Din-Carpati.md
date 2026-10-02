@@ -1,617 +1,617 @@
-## DESPRE LOCUL ETN0MEDICINEI ÎN SPAȚIUL CARPATIC
+## DESPRE LOCUL ETN0MEDICINEI IN SPATIUL CARPATIC
 
-> ***DESPRE LOCUL ETN0MEDICINEI ÎN SPAȚIUL* CARPATIC**
+> ***DESPRE LOCUL ETN0MEDICINEI IN SPATIUL* CARPATIC**
 >
-> Datorită unor particularități zonale, medicina magico-cmpirică s-a păstrat la români, aproape instituționalizată, până în secolul al XX-lea. lată, în acest sens, ce consemna un medic districtual în 1935: \"Trebuie să mărturisesc că în popor medicina băbească si descântecele cu tot empirismul lor, au rămas mijlocul i\"o Cujsdpsic la care recurg țăranii noștrii în caz de boală. Ei cred orbește în puterea descântecului. Sunt zile din săptămână, cum e miercuri, duminica, dar mai ales vinerea, când bolnavii din cele mai îndepărtate sate, vin la câte o babă meșteră descântătoare, făcând coadă cu căruțele la usa ei.\"^1^
+> Datorita unor particularitati zonale, medicina magico-cmpirica s-a pastrat la romani, aproape institutionalizata, pana in secolul al XX-lea. lata, in acest sens, ce consemna un medic districtual in 1935: \"Trebuie sa marturisesc ca in popor medicina babeasca si descantecele cu tot empirismul lor, au ramas mijlocul i\"o Cujsdpsic la care recurg taranii nostrii in caz de boala. Ei cred orbeste in puterea descantecului. Sunt zile din saptamana, cum e miercuri, duminica, dar mai ales vinerea, cand bolnavii din cele mai indepartate sate, vin la cate o baba mestera descantatoare, facand coada cu carutele la usa ei.\"^1^
 >
-> Arta vindecării la poporul român are o vechime milenară, putând fi considerată un dar strămoșesc, iar fondul său inalienabil, comun tuturor regiunilor locuite de români, permite să identificăm o formă primară, arhaică a acestei arte, care, după anumite indicii istorice și de limbă, o putem atribui *tracilor,* mai exact sacerdoților *geto-daci.*
+> Arta vindecarii la poporul roman are o vechime milenara, putand fi considerata un dar stramosesc, iar fondul sau inalienabil, comun tuturor regiunilor locuite de romani, permite sa identificam o forma primara, arhaica a acestei arte, care, dupa anumite indicii istorice si de limba, o putem atribui *tracilor,* mai exact sacerdotilor *geto-daci.*
 
-Un aspect particular referitor la tradițiile medicale preistorice, sesizat deja, este acela că începând din mileniul IX î.Hr., au fost produse în Spațiul Carpatic figurine de lut cu caracter artistico-biologic, reprezentând bărbați sau femei, figurine ce prezintă mici orificii ca niște împunsături de ac, corespunzătoare punctelor de acupunctura cunoscute de medicina tradițională chineză. Au fost descoperite, de asemenea, statuete și vase antropomorfe care prezintă spirale sau romburi spiralate situate exact în dreptul plexurilor psiho-energetice, cunoscute în fiziologia mistică indiană sub numele de *cakra* (\"roată\"). Aceste reprezentări au avut cea mai mare răspândire în mileniul IV î.Hr., perfecționându-se până la ocupația romană a Daciei^1^. Numărul statuetelor autohtone străvechi la care au fost indentificate până în prezent incizii de trasee (reprezentând schematic meridiane energetice) sau puncte de ordin bio-energetic acupunctural, se ridică la 238, douăzeci dintre acestea găsindu-se la Muzeul Național de Istoria României. Toate aceste statuete sunt de pe teritoriul României, iar punctele marcate (coincidente cu cele din acupunctura chineză) sunt reale, neconfundându-se cu punctele de eroziune, sunt rotunde și bilateral dispuse (simetrice), cu topografie identică hărților moderne de acupunctura chineză\*.
+Un aspect particular referitor la traditiile medicale preistorice, sesizat deja, este acela ca incepand din mileniul IX i.Hr., au fost produse in Spatiul Carpatic figurine de lut cu caracter artistico-biologic, reprezentand barbati sau femei, figurine ce prezinta mici orificii ca niste impunsaturi de ac, corespunzatoare punctelor de acupunctura cunoscute de medicina traditionala chineza. Au fost descoperite, de asemenea, statuete si vase antropomorfe care prezinta spirale sau romburi spiralate situate exact in dreptul plexurilor psiho-energetice, cunoscute in fiziologia mistica indiana sub numele de *cakra* (\"roata\"). Aceste reprezentari au avut cea mai mare raspandire in mileniul IV i.Hr., perfectionandu-se pana la ocupatia romana a Daciei^1^. Numarul statuetelor autohtone stravechi la care au fost indentificate pana in prezent incizii de trasee (reprezentand schematic meridiane energetice) sau puncte de ordin bio-energetic acupunctural, se ridica la 238, douazeci dintre acestea gasindu-se la Muzeul National de Istoria Romaniei. Toate aceste statuete sunt de pe teritoriul Romaniei, iar punctele marcate (coincidente cu cele din acupunctura chineza) sunt reale, neconfundandu-se cu punctele de eroziune, sunt rotunde si bilateral dispuse (simetrice), cu topografie identica hartilor moderne de acupunctura chineza\*.
 
-> Pentru desemnarea traseelor bioenergetice proiectate la suprafața corpului omenesc, numite de indieni *nadi* (cu sensul literal de canale, vase, dar și \"nervi\") iar de chinezi \"meridiane\", există corespondentul românesc de *\"râuri\",* folosit de practicienii populari ai unei terapii acupuncturale specific țărănească, care se practică într-o serie de locuri din țară (a se vedea pentru exemplificare, la ultimul capitol, tratamentul nr. 7 al icterului sau tratamentul nr. 17 pentru indigestie).
+> Pentru desemnarea traseelor bioenergetice proiectate la suprafata corpului omenesc, numite de indieni *nadi* (cu sensul literal de canale, vase, dar si \"nervi\") iar de chinezi \"meridiane\", exista corespondentul romanesc de *\"rauri\",* folosit de practicienii populari ai unei terapii acupuncturale specific taraneasca, care se practica intr-o serie de locuri din tara (a se vedea pentru exemplificare, la ultimul capitol, tratamentul nr. 7 al icterului sau tratamentul nr. 17 pentru indigestie).
 >
-> Dacă se ține cont de vârsta celor mai vechi dintre aceste figurine antice antropomorfe găsite pe teritoriul ce ține de Carpați (datând cu începere din mileniul IX î.Hr.), ar rezulta logic că, cu multe mii de ani în urmă, aici se stăpâneau cunoștințe medicale și de fiziologie energetică subtilă care aveau să devină mai târziu specifice medicinei tradiționale chineze (acupunctura) și mistici\*^1^ indiene *(tantra-yoga).* Asemenea afirmații pot părea hazardate, dar-\^dacă se ține cont de faptul că migrațiile popoarelor indo-europene au pornit dintr-un punct comun acum mai multe mii de ani în urmă, punct situat chiar în Carpați, și că popoarele de aici au ajuns până în peninsula indiană (sub numele de arieni), ele devin probabile. Un arheolog american afirma în această privință că \"civilizația s-a născut acum 13-15 mii de ani acolo unde trăiește astăzi poporul român, răspândindu-se apoi atât spre răsărit cât și Spre apus\"^1^.
+> Daca se tine cont de varsta celor mai vechi dintre aceste figurine antice antropomorfe gasite pe teritoriul ce tine de Carpati (datand cu incepere din mileniul IX i.Hr.), ar rezulta logic ca, cu multe mii de ani in urma, aici se stapaneau cunostinte medicale si de fiziologie energetica subtila care aveau sa devina mai tarziu specifice medicinei traditionale chineze (acupunctura) si mistici\*^1^ indiene *(tantra-yoga).* Asemenea afirmatii pot parea hazardate, dar-\^daca se tine cont de faptul ca migratiile popoarelor indo-europene au pornit dintr-un punct comun acum mai multe mii de ani in urma, punct situat chiar in Carpati, si ca popoarele de aici au ajuns pana in peninsula indiana (sub numele de arieni), ele devin probabile. Un arheolog american afirma in aceasta privinta ca \"civilizatia s-a nascut acum 13-15 mii de ani acolo unde traieste astazi poporul roman, raspandindu-se apoi atat spre rasarit cat si Spre apus\"^1^.
 >
-> N-ar trebui să mai surprindă astăzi că cele mai vechi civilizații europene cunoscute au apărut, cu milenii înainte de era noastră, în Spațiul Carpatic (adevărată \"matcă\" a populațiilor indo-europene), de aici răspândindu-se, mai întâi spre vest și sud, mai apoi spre est, până în India^2^.
+> N-ar trebui sa mai surprinda astazi ca cele mai vechi civilizatii europene cunoscute au aparut, cu milenii inainte de era noastra, in Spatiul Carpatic (adevarata \"matca\" a populatiilor indo-europene), de aici raspandindu-se, mai intai spre vest si sud, mai apoi spre est, pana in India^2^.
 >
-> Referitor la \"acupunctura\" străveche a tracilor, clarvăzătoarea Vanga din Bulgaria, o veritabilă sibilă tracă, spunea unui medic acupuncturist că, pentru a fi eficient tratamentul, acele trebuiesc să fie din argilă arsă și nu din metal, iar aceste ace din argilă arsă trebuie să fie încinse pe jar înainte de folosire^.^
+> Referitor la \"acupunctura\" straveche a tracilor, clarvazatoarea Vanga din Bulgaria, o veritabila sibila traca, spunea unui medic acupuncturist ca, pentru a fi eficient tratamentul, acele trebuiesc sa fie din argila arsa si nu din metal, iar aceste ace din argila arsa trebuie sa fie incinse pe jar inainte de folosire^.^
 
-Cercetări paleontologice, de arheologie stereoscopică, făcute în România în anii 1967-1969, în Carpații Meridionali cu precădere, asupra gravurilor pe stânci ce țin de neolitic, au dus la identificarea unor figurări criptice ce țin de tehnica magică a sculpturii megalitice (în care contribuția omului se poate limita chiar și numai la amenajarea unei anumite configurații a unei stânci). Aceste figurări nu devin vizibile decât în anumite momente ale zilei, în care trebuie să coincidă luminozitatea, punctul de observație și \"inițierea mitică a observatorului\". Concluzia șefului echipei de cercetători, paleontologul peruvian Daniel Ruzo, este că în zona vârfului Omu din munții Bucegi ai lanțului carpatic ar trebui să existe o peșteră sau o rețea de galerii subterane care să conțină un tezaur inițiatic ancestral^1^, în acord cu faptul că, \"Carpații sunt într-o regiune a lumii în care se situa centrul european al celei mai vechi culturi cunoscute în ziua de azi\"^2^.
+Cercetari paleontologice, de arheologie stereoscopica, facute in Romania in anii 1967-1969, in Carpatii Meridionali cu precadere, asupra gravurilor pe stanci ce tin de neolitic, au dus la identificarea unor figurari criptice ce tin de tehnica magica a sculpturii megalitice (in care contributia omului se poate limita chiar si numai la amenajarea unei anumite configuratii a unei stanci). Aceste figurari nu devin vizibile decat in anumite momente ale zilei, in care trebuie sa coincida luminozitatea, punctul de observatie si \"initierea mitica a observatorului\". Concluzia sefului echipei de cercetatori, paleontologul peruvian Daniel Ruzo, este ca in zona varfului Omu din muntii Bucegi ai lantului carpatic ar trebui sa existe o pestera sau o retea de galerii subterane care sa contina un tezaur initiatic ancestral^1^, in acord cu faptul ca, \"Carpatii sunt intr-o regiune a lumii in care se situa centrul european al celei mai vechi culturi cunoscute in ziua de azi\"^2^.
 
-> Amintim aceste cercetări și concluziile lor pentru a putea crea o imagine mai largă asupra contextului în care au apărut vestigiile milenare de medicină ce au fost descoperite în aceste locuri.
+> Amintim aceste cercetari si concluziile lor pentru a putea crea o imagine mai larga asupra contextului in care au aparut vestigiile milenare de medicina ce au fost descoperite in aceste locuri.
 >
-> Locul \"inițiatic\", care a trezit interesul cercetărilor paleontologice din 1967-1969, anume spațiul muntos ce se întinde de la Sfinxul Carpatic până la Vârful Omu, se află în interiorul unei uriașe \"Zone crepusculare\", zonă care, cu aproximație, acoperă uriașul dreptunghi geografic delimitat de meridianele de 23 și 26 grade și de paralele de 45 și 46 grade. în această zonă au fost semnalate repetate fenomene O.Z.N., «lumini» rostogolindu-se în miez de noapte, dar mai ales au fost efectuate fotografii \"astrale\", fotografii care 1-a developare revelau prezența unor fenomene luminoase stranii. Astfel de fotografii au surprins o imensă coloană luminoasă ridicându-se din zona Vârfului Omu și pierzându-se în spațiul cosmic (precum un *\*axis mundi»,* după cum au apreciat unii dintre cei ce au studiat-o). Aceste imagini par să vină în întâmpinarea mitologiei trace nord-dunăreane, conform căreia în Carpați este localizată una din cele șapte coloane ale cerului^1^.
+> Locul \"initiatic\", care a trezit interesul cercetarilor paleontologice din 1967-1969, anume spatiul muntos ce se intinde de la Sfinxul Carpatic pana la Varful Omu, se afla in interiorul unei uriase \"Zone crepusculare\", zona care, cu aproximatie, acopera uriasul dreptunghi geografic delimitat de meridianele de 23 si 26 grade si de paralele de 45 si 46 grade. in aceasta zona au fost semnalate repetate fenomene O.Z.N., «lumini» rostogolindu-se in miez de noapte, dar mai ales au fost efectuate fotografii \"astrale\", fotografii care 1-a developare revelau prezenta unor fenomene luminoase stranii. Astfel de fotografii au surprins o imensa coloana luminoasa ridicandu-se din zona Varfului Omu si pierzandu-se in spatiul cosmic (precum un *\*axis mundi»,* dupa cum au apreciat unii dintre cei ce au studiat-o). Aceste imagini par sa vina in intampinarea mitologiei trace nord-dunareane, conform careia in Carpati este localizata una din cele sapte coloane ale cerului^1^.
 >
-> Această *Zonă crepusculară,* care este de fapt centrul geografic al României (ca și al vechii Dacii), cuprinde cei mai înalți munți ai Carpaților, în care sunt prezente atât reprezentări megalitice, cât și vechiul sanctuar magic dac de la Sarmisegetusa. Mai mult decât probabil, tot în această *Zonă* se află și *Cogai-non-ul,* muntele în care s-a retras spre nemurire marele-zeu dac Zalmoxe.
+> Aceasta *Zona crepusculara,* care este de fapt centrul geografic al Romaniei (ca si al vechii Dacii), cuprinde cei mai inalti munti ai Carpatilor, in care sunt prezente atat reprezentari megalitice, cat si vechiul sanctuar magic dac de la Sarmisegetusa. Mai mult decat probabil, tot in aceasta *Zona* se afla si *Cogai-non-ul,* muntele in care s-a retras spre nemurire marele-zeu dac Zalmoxe.
 
-în Dacia preistorică exista o *Cale Sacră* care, plecând din sudul Daciei, mergea - după cum indica Pindar - până la locul comun de adunare al *hiperboreilor.* Enigmatica *Hyperboreea -*raiul nordic al antichității *(Shamballa* popoarelor europene antice) - era pentru vechi traci, locul de permanentă reîntoarcere. Acea cale inițiatică, numită de Herodot *Exampaeos,* era marcată de vechi sanctuare și de monumente megalitice^2^, sau trecea prin impresionante chei naturale cu stânci special amplasate, așa cum sunt Cheile Bacului din Carpații orientali care încep dincolo de Prut și continuă peste Nistru până la Don, ca o cale triumfală de tipul aliniamentului megalitic. Multe dintre aceste monumente megalitice mai pot fi încă văzute, dar
+in Dacia preistorica exista o *Cale Sacra* care, plecand din sudul Daciei, mergea - dupa cum indica Pindar - pana la locul comun de adunare al *hiperboreilor.* Enigmatica *Hyperboreea -*raiul nordic al antichitatii *(Shamballa* popoarelor europene antice) - era pentru vechi traci, locul de permanenta reintoarcere. Acea cale initiatica, numita de Herodot *Exampaeos,* era marcata de vechi sanctuare si de monumente megalitice^2^, sau trecea prin impresionante chei naturale cu stanci special amplasate, asa cum sunt Cheile Bacului din Carpatii orientali care incep dincolo de Prut si continua peste Nistru pana la Don, ca o cale triumfala de tipul aliniamentului megalitic. Multe dintre aceste monumente megalitice mai pot fi inca vazute, dar
 
-> arareori. Altele sunt astăzi distruse. Așa este cazul complexului megalitic cu statuia menhir ce o reprezenta pe Dochia (Dacia). Acest monument se afla înălțat pe cel mai înalt munte al Moldovei, Ceahlăul. Despre acest monument scria pe la 1700 domnitorul Moldovei, spunând că în vârful muntelui se vede o \"statuie foarte veche\", înaltă de 11 metrii și reprezentând o femeie bătrână, de la baza căreia izvorăște un izvor nesecat de apă. Pe dealurile din jurul muntelui se văd \"urme de cai, de câini și păsări imprimate pe stânci\", care sunt numite de popor \"La sămne\"^1^.
+> arareori. Altele sunt astazi distruse. Asa este cazul complexului megalitic cu statuia menhir ce o reprezenta pe Dochia (Dacia). Acest monument se afla inaltat pe cel mai inalt munte al Moldovei, Ceahlaul. Despre acest monument scria pe la 1700 domnitorul Moldovei, spunand ca in varful muntelui se vede o \"statuie foarte veche\", inalta de 11 metrii si reprezentand o femeie batrana, de la baza careia izvoraste un izvor nesecat de apa. Pe dealurile din jurul muntelui se vad \"urme de cai, de caini si pasari imprimate pe stanci\", care sunt numite de popor \"La samne\"^1^.
 
-O interesantă întâmplare, petrecută în 1979, în Bulgaria, vorbește îndeajuns despre stranietatea și funcționalitatea monumentelor de tip megalitic încă existente pe vechiul teritoriu trac. într-o zi, renumita sibilă Vanga, clar-văzătoare și vindecătoare, a început să îi descrie amănunțit unei nepoate un loc aflat la munte, cerându-i să fie acolo la data de 5 mai. Este interesant de precizat că Vanga a ales să locuiască la Rupi, deasupra unor străvechi sanctuare trace, spunând că de aici își trage energia și forța pentru a-și face prezicerile^2^. Acest loc, la Rupi, este un important nod și pentru traseele păsărilor migratoare. De aici pleacă spre sud toamna, și aici se întorc primăvara mari stoluri de păsări.
+O interesanta intamplare, petrecuta in 1979, in Bulgaria, vorbeste indeajuns despre stranietatea si functionalitatea monumentelor de tip megalitic inca existente pe vechiul teritoriu trac. intr-o zi, renumita sibila Vanga, clar-vazatoare si vindecatoare, a inceput sa ii descrie amanuntit unei nepoate un loc aflat la munte, cerandu-i sa fie acolo la data de 5 mai. Este interesant de precizat ca Vanga a ales sa locuiasca la Rupi, deasupra unor stravechi sanctuare trace, spunand ca de aici isi trage energia si forta pentru a-si face prezicerile^2^. Acest loc, la Rupi, este un important nod si pentru traseele pasarilor migratoare. De aici pleaca spre sud toamna, si aici se intorc primavara mari stoluri de pasari.
 
-Au plecat în această expediție pornită din indicațiile vizionarei un grup de prieteni, printre care se afla și nepoata Vangăi. Ajungând la muntele indicat s-au oprit la poalele unei stâncii ce avea cioplite în partea superioară trei cercuri de mărimea unor farfurioare ce formau un triunghi cu vârful ascuțit îndreptat spre sol. Conform indicațiilor Vangăi, stânca trebuia privită la primele raze ale Soarelui și ale Lunii. Exploratorii au fost martorii unui interesant joc al luminii, atât la apariția soarelui, cât și la cea a lunii, dar ceea ce avea să fie frapant s-a întâmplat mai târziu, în noapte, când partea netedă dinspre sud a stâncii s-a iluminat, parcă din interior, asemenea ecranului unui televizor și, în mijlocul întunericului montan, s-au conturat imagini în nuanțe cenușiu deschis. \"O clipă mai târziu - relatează nepoata Vangăi - au apărut, profilându-se într-o lumină albă\... două chipuri! Erau imense, ocupând aproape tot spațiul luminat - stânca netedă avea cel puțin cinci metri înălțime și trei sau patru metri lățime. Figurile se vedeau atât de clar și se conturau atât de bine, încât am avut sentimentul că, din clipă în clipă, se vor desprinde de stâncă și o vor porni spre noi. Era atât de cutremurător, încât am încremenit\...\" Imaginea din primul plan era aceea a unui bărbat în vârstă, în mărime naturală, îmbrăcat cu o robă lungă până la pământ, și având plete lungi până la umeri. Mâna stângă îi atârna pe lângă corp, iar cea dreaptă ținea un obiect sferic.
+Au plecat in aceasta expeditie pornita din indicatiile vizionarei un grup de prieteni, printre care se afla si nepoata Vangai. Ajungand la muntele indicat s-au oprit la poalele unei stancii ce avea cioplite in partea superioara trei cercuri de marimea unor farfurioare ce formau un triunghi cu varful ascutit indreptat spre sol. Conform indicatiilor Vangai, stanca trebuia privita la primele raze ale Soarelui si ale Lunii. Exploratorii au fost martorii unui interesant joc al luminii, atat la aparitia soarelui, cat si la cea a lunii, dar ceea ce avea sa fie frapant s-a intamplat mai tarziu, in noapte, cand partea neteda dinspre sud a stancii s-a iluminat, parca din interior, asemenea ecranului unui televizor si, in mijlocul intunericului montan, s-au conturat imagini in nuante cenusiu deschis. \"O clipa mai tarziu - relateaza nepoata Vangai - au aparut, profilandu-se intr-o lumina alba\... doua chipuri! Erau imense, ocupand aproape tot spatiul luminat - stanca neteda avea cel putin cinci metri inaltime si trei sau patru metri latime. Figurile se vedeau atat de clar si se conturau atat de bine, incat am avut sentimentul ca, din clipa in clipa, se vor desprinde de stanca si o vor porni spre noi. Era atat de cutremurator, incat am incremenit\...\" Imaginea din primul plan era aceea a unui barbat in varsta, in marime naturala, imbracat cu o roba lunga pana la pamant, si avand plete lungi pana la umeri. Mana stanga ii atarna pe langa corp, iar cea dreapta tinea un obiect sferic.
 
-> Numeroasa populație a *tracilor -* cu adânci rădăcini în întregul spațiu carpato-balcanic - este cunoscută din cele mai vechi timpuri, din zorii istoriei. începând cu *Iliada* lui Homer, izvoarele literare și istorice au menționat existența tracilor de-a lungul a două milenii, până când, în urma expansiunii altor popoare, ei au trecut - pierzându-și numele - în ființa popoarelor moderne din acest spațiu. Toate națiunile care trăiesc astăzi în această zonă geografică în centrul căreia se află România, au suferit, în trecutul îndepărtat, într-o măsură mai mică sau mai mare, influența tracilor. Cea mai mare pondere a acestei influențe o întâlnim la poporul român, urmaș direct al dacilor, \"cei mai drepți dintre traci\". Totuși urmele tracilor sunt vizibile atât la nord de Dunăre, în România și în Basarabia îndeosebi, cât și la sudul Dunării, în Bulgaria de exemplu, unde întâlnim monumente megalitice, tradiții și obiceiuri de sorginte tracă, asemănătoare sau identice cu cele din România.
+> Numeroasa populatie a *tracilor -* cu adanci radacini in intregul spatiu carpato-balcanic - este cunoscuta din cele mai vechi timpuri, din zorii istoriei. incepand cu *Iliada* lui Homer, izvoarele literare si istorice au mentionat existenta tracilor de-a lungul a doua milenii, pana cand, in urma expansiunii altor popoare, ei au trecut - pierzandu-si numele - in fiinta popoarelor moderne din acest spatiu. Toate natiunile care traiesc astazi in aceasta zona geografica in centrul careia se afla Romania, au suferit, in trecutul indepartat, intr-o masura mai mica sau mai mare, influenta tracilor. Cea mai mare pondere a acestei influente o intalnim la poporul roman, urmas direct al dacilor, \"cei mai drepti dintre traci\". Totusi urmele tracilor sunt vizibile atat la nord de Dunare, in Romania si in Basarabia indeosebi, cat si la sudul Dunarii, in Bulgaria de exemplu, unde intalnim monumente megalitice, traditii si obiceiuri de sorginte traca, asemanatoare sau identice cu cele din Romania.
 >
-> Este cunoscut faptul că Iordanes, scriind despre sacerdoții geto-daci (în *Getica),* afirma că aceștia observau efectele plantelor asupra oamenilor, adică studiau virtuțile medicale ale acestora. Studii consacrate spiritualității și vieții geto-dacilor conchid că ei au cunoscut o dezvoltată medicină populară și că atinseseră chiar faza medicinei hieratice^1^.
+> Este cunoscut faptul ca Iordanes, scriind despre sacerdotii geto-daci (in *Getica),* afirma ca acestia observau efectele plantelor asupra oamenilor, adica studiau virtutile medicale ale acestora. Studii consacrate spiritualitatii si vietii geto-dacilor conchid ca ei au cunoscut o dezvoltata medicina populara si ca atinsesera chiar faza medicinei hieratice^1^.
 
-Sacerdoții daci trăiau retrași în vârfurile munților, ocupându-se cu medicina, cu astronomia, cu științele naturii, cu filozofia\... Ei erau numiți de către romani *pileați,* de la \"pileus\", un fel de căciulită de pâslă, însemn distinctiv al castei sacerdotale. Aceștia - după Iordanes - îi instruiau pe ceilalți daci în *\*legile fizicii»,* făcându-i să trăiască în armonie cu natura. El spune că aceste «legi», care aveau bineînțeles un caracter global, de la macrocosmos la microcosmos, se mai păstrau încă pe vremea sa, sub formă scrisă, numindu-se *«belagines».*
+Sacerdotii daci traiau retrasi in varfurile muntilor, ocupandu-se cu medicina, cu astronomia, cu stiintele naturii, cu filozofia\... Ei erau numiti de catre romani *pileati,* de la \"pileus\", un fel de caciulita de pasla, insemn distinctiv al castei sacerdotale. Acestia - dupa Iordanes - ii instruiau pe ceilalti daci in *\*legile fizicii»,* facandu-i sa traiasca in armonie cu natura. El spune ca aceste «legi», care aveau bineinteles un caracter global, de la macrocosmos la microcosmos, se mai pastrau inca pe vremea sa, sub forma scrisa, numindu-se *«belagines».*
 
-> Un loc important în terapeutica dacilor l-au deținut și virtuțile plantelor, căci întâlnim în *De materia medica* a lui Pedanios Dioscoride (scrisă în a doua jumătate a sec I d.Hr.) mai multe nume de plante vindecătoare în forma lor dacică.
+> Un loc important in terapeutica dacilor l-au detinut si virtutile plantelor, caci intalnim in *De materia medica* a lui Pedanios Dioscoride (scrisa in a doua jumatate a sec I d.Hr.) mai multe nume de plante vindecatoare in forma lor dacica.
 >
-> Cel mai edificator autor, referitor la imaginea din antichitate a tracilor a fost însă Platon, care într-unui din celebrele lui dialoguri, *Charmides,* spunea: \"Așa stau lucrurile, Charmides, și cu descântecul nostru. L-am învățat cu prilejul unei expediții, de la unul dintre medicii traci ai lui Zalmoxis, \[medici-călugări\] despre care se zice că au și darul de-a te face nemuritor. Iar tracul acesta arăta că medicii greci spun, pe bună dreptate, cele pe care le-am amintit eu acum: *mumai că Zalmoxis, adăuga el, regele nostru, care este zeu, mai spune că, așa cum nu trebuie să încerci a vindeca ochii fără să vindeci capul și nici capul fără trup, la fel nu poți vindeca nici trupul fără suflet, iar tocmai aceasta e pricina pentru care cele mai multe boli rămân nevindecate de medicii greci, faptul că ei nu țin seama de întregul a cărui îngrijire ar trebui s-o întreprindă și că, dacă acesta nu se simte bine, este cu neputință ca partea să se simtă bine».* Căci, spunea el? toate se trag din suflet, atât cele rele cât si cele bune ale trupului și ale ființei noastre întregi, revărsându-se din suflet, așa cum se răsfrâng de la cap asupra ochiului. Ca urmare, mai ales sufletului trebuie să-i dăm îngrijire, dacă vrem ca deopotrivă capul cât și restul trupului s-o ducă bine. Iar sufletul, spunea el, se îngrijește cu anumite descântece\... Arătându-mi deci leacul și descântecul, el îmi spunea: *«Să nu te lași înduplecat să îngrijești capul nimănui, care nu-și va fi dăruit mai întâi sufletul spre îngrijire descântecului. Aceasta, zicea el, este greșeala pe care, acum, o săvârșesc oamenii, că încearcă să devină un fel de medici ai câte unei părți, fără de cealaltă»\".*
+> Cel mai edificator autor, referitor la imaginea din antichitate a tracilor a fost insa Platon, care intr-unui din celebrele lui dialoguri, *Charmides,* spunea: \"Asa stau lucrurile, Charmides, si cu descantecul nostru. L-am invatat cu prilejul unei expeditii, de la unul dintre medicii traci ai lui Zalmoxis, \[medici-calugari\] despre care se zice ca au si darul de-a te face nemuritor. Iar tracul acesta arata ca medicii greci spun, pe buna dreptate, cele pe care le-am amintit eu acum: *mumai ca Zalmoxis, adauga el, regele nostru, care este zeu, mai spune ca, asa cum nu trebuie sa incerci a vindeca ochii fara sa vindeci capul si nici capul fara trup, la fel nu poti vindeca nici trupul fara suflet, iar tocmai aceasta e pricina pentru care cele mai multe boli raman nevindecate de medicii greci, faptul ca ei nu tin seama de intregul a carui ingrijire ar trebui s-o intreprinda si ca, daca acesta nu se simte bine, este cu neputinta ca partea sa se simta bine».* Caci, spunea el? toate se trag din suflet, atat cele rele cat si cele bune ale trupului si ale fiintei noastre intregi, revarsandu-se din suflet, asa cum se rasfrang de la cap asupra ochiului. Ca urmare, mai ales sufletului trebuie sa-i dam ingrijire, daca vrem ca deopotriva capul cat si restul trupului s-o duca bine. Iar sufletul, spunea el, se ingrijeste cu anumite descantece\... Aratandu-mi deci leacul si descantecul, el imi spunea: *«Sa nu te lasi induplecat sa ingrijesti capul nimanui, care nu-si va fi daruit mai intai sufletul spre ingrijire descantecului. Aceasta, zicea el, este greseala pe care, acum, o savarsesc oamenii, ca incearca sa devina un fel de medici ai cate unei parti, fara de cealalta»\".*
 
-*Incantațiile magice* sau *descântecele* le întâlnim pretutindeni unde se află românii, și probabil că tot așa era și pe vremea dacilor și a celorlalți traci, după cum este atestat de către cel mai mare filozof grec după Socrate. Multe din cuvintele descântecelor românești au sensuri pierdute astăzi, ele părând să aparțină acelui fond de cuvinte dacice, astăzi uitate. O serie de practici magico-rituale și de empirism medical, nemaiîntâlnite la vecinii românilor sau la alte popoare vin să ateste ideea că ele aparțin medicinei hieratice, sacerdotală, a strămoșilor daci. Acele *\*belagine»* de care amintea Iordanes, «legile naturii» ale sacerdo-ților daci, se transmiteau de către poporul neștiutor de carte, din generație în generație, în chip tainic, pe cale orală, cântându-le, așa cum se obișnuia pe atunci cu toate legile. Unii cercetători cred că ele s-au păstrat fragmentar, ca relicve arheologice, în descântecele poporului român^1^.
+*Incantatiile magice* sau *descantecele* le intalnim pretutindeni unde se afla romanii, si probabil ca tot asa era si pe vremea dacilor si a celorlalti traci, dupa cum este atestat de catre cel mai mare filozof grec dupa Socrate. Multe din cuvintele descantecelor romanesti au sensuri pierdute astazi, ele parand sa apartina acelui fond de cuvinte dacice, astazi uitate. O serie de practici magico-rituale si de empirism medical, nemaiintalnite la vecinii romanilor sau la alte popoare vin sa ateste ideea ca ele apartin medicinei hieratice, sacerdotala, a stramosilor daci. Acele *\*belagine»* de care amintea Iordanes, «legile naturii» ale sacerdo-tilor daci, se transmiteau de catre poporul nestiutor de carte, din generatie in generatie, in chip tainic, pe cale orala, cantandu-le, asa cum se obisnuia pe atunci cu toate legile. Unii cercetatori cred ca ele s-au pastrat fragmentar, ca relicve arheologice, in descantecele poporului roman^1^.
 
-> O notă aparte în specificul conceptual tracic este descifrarea, din relatarea lui Platon, a unei doctrine analoage integralismului hipocratic grecesc. Acest lucru poate fi asociat însă cu relatarea vechilor biografi ai lui Hipocrate, care afirmă că el a stat o vreme în nordul Traciei, și cu constatarea anumitor autori moderni că unele cărți hipocratice au fost scrise într-o \"greacă tracică\" (cărțile I și III ale *Epidemiilor)^1^.*
+> O nota aparte in specificul conceptual tracic este descifrarea, din relatarea lui Platon, a unei doctrine analoage integralismului hipocratic grecesc. Acest lucru poate fi asociat insa cu relatarea vechilor biografi ai lui Hipocrate, care afirma ca el a stat o vreme in nordul Traciei, si cu constatarea anumitor autori moderni ca unele carti hipocratice au fost scrise intr-o \"greaca tracica\" (cartile I si III ale *Epidemiilor)^1^.*
 
-Pentru mulți istorici ai religiilor au fost evidente asemănările existente între formele de manifestare spirituală ale *cehilor* și cele ale *tracilor* și, evident, ale *dacilor.* întradevăr, sunt posibile unele contacte, căci, după cum se știe, populația celtică a viețuit vreme de cîteva secole pe teritoriul românesc al Transilvaniei de astăzi, până la domnia regelui geto-dac Burebista, care i-a alungat pe celți odată cu întemeierea statului centralizat dac. De fapt foarte aproape, la sud de Transilvania, s-au aflat cele mai importante așezări dacice, în frunte cu Sarmi-zegetusa, capitala regatului dac.
+Pentru multi istorici ai religiilor au fost evidente asemanarile existente intre formele de manifestare spirituala ale *cehilor* si cele ale *tracilor* si, evident, ale *dacilor.* intradevar, sunt posibile unele contacte, caci, dupa cum se stie, populatia celtica a vietuit vreme de citeva secole pe teritoriul romanesc al Transilvaniei de astazi, pana la domnia regelui geto-dac Burebista, care i-a alungat pe celti odata cu intemeierea statului centralizat dac. De fapt foarte aproape, la sud de Transilvania, s-au aflat cele mai importante asezari dacice, in frunte cu Sarmi-zegetusa, capitala regatului dac.
 
-\"Geții și celții se cunoșteau din secolul al IV-lea înainte de Hristos - scria un fost colaborator al lui Mircea Eliade^2^. Organizarea clerului celtic, *Druizii,* se aseamănă în mare, cu cea a Ktistailor geți. Ca și aceștia, Druizii se găseau sub autoritatea unui mare preot^3^. Ca și preoții geții, Druizii se ocupau de sacrificii publice și particulare, administrând pedepsele și sancțiunile grave printre care interdicția sacrificiului era cea mai mare, în sfârșit ei predau teologia unui număr considerabil de tineri^1^. Aceleași privilegii sociale și același prestigiu moral la preoții geți ca și la druizi: scutire de impozit, dispensă de stagiul militar și de alte oblogații, imunitate absolută, autoritate supremă în materie de justiție și câteodată chiar și în domeniul politic, tribunal superlativ în domeniile religios, oracular și moral^2^. Semnalăm deasemenea analogiile de doctrină între cele două teologii, getică și druidică: nemurirea sufletului, vitejia în fața morții, cercetarea aștrilor și mișcările lor, puterea zeilor nemuritori. Asemănarea unora dintre aceste elemente merge până la identitatea între ele. Această identitate în mod sigur nu este accidentală. Ea se poate explica, până la un anumit ounct, prin originea comună indo-europeană a celor două popoare: get și celtic.\" Totuși, același autor remarcă: \"Reforma sacerdotală a lui Deceneu (primul Mare Preot al dacilor - n.a.) este posterioară cadrelor bine stabilite ale spiritualității celtice\[\...j Nemurirea spiritului, existența fericită de *dincolo* \[de lumea aceasta\] și puterea nemărginită a lui Dzeu erau obiecte ale credinței mai vechi la Geți decât la Celți.\"
+\"Getii si celtii se cunosteau din secolul al IV-lea inainte de Hristos - scria un fost colaborator al lui Mircea Eliade^2^. Organizarea clerului celtic, *Druizii,* se aseamana in mare, cu cea a Ktistailor geti. Ca si acestia, Druizii se gaseau sub autoritatea unui mare preot^3^. Ca si preotii getii, Druizii se ocupau de sacrificii publice si particulare, administrand pedepsele si sanctiunile grave printre care interdictia sacrificiului era cea mai mare, in sfarsit ei predau teologia unui numar considerabil de tineri^1^. Aceleasi privilegii sociale si acelasi prestigiu moral la preotii geti ca si la druizi: scutire de impozit, dispensa de stagiul militar si de alte oblogatii, imunitate absoluta, autoritate suprema in materie de justitie si cateodata chiar si in domeniul politic, tribunal superlativ in domeniile religios, oracular si moral^2^. Semnalam deasemenea analogiile de doctrina intre cele doua teologii, getica si druidica: nemurirea sufletului, vitejia in fata mortii, cercetarea astrilor si miscarile lor, puterea zeilor nemuritori. Asemanarea unora dintre aceste elemente merge pana la identitatea intre ele. Aceasta identitate in mod sigur nu este accidentala. Ea se poate explica, pana la un anumit ounct, prin originea comuna indo-europeana a celor doua popoare: get si celtic.\" Totusi, acelasi autor remarca: \"Reforma sacerdotala a lui Deceneu (primul Mare Preot al dacilor - n.a.) este posterioara cadrelor bine stabilite ale spiritualitatii celtice\[\...j Nemurirea spiritului, existenta fericita de *dincolo* \[de lumea aceasta\] si puterea nemarginita a lui Dzeu erau obiecte ale credintei mai vechi la Geti decat la Celti.\"
 
-Această similitudine între structura și doctrina sacerdotală daco-celtică este vizibilă \"îndeosebi în consecințele practice ale credinței în nemurire: Herodot și Cezar explică aproape în aceiași termeni că grație acestei credințe Geții și Celții fac dovada unui curaj excepțional și nu se tem de moarte. Herodot precizează chiar că «Geții sunt cei mai curajoși și mai drepți dintre Traci»\".
+Aceasta similitudine intre structura si doctrina sacerdotala daco-celtica este vizibila \"indeosebi in consecintele practice ale credintei in nemurire: Herodot si Cezar explica aproape in aceiasi termeni ca gratie acestei credinte Getii si Celtii fac dovada unui curaj exceptional si nu se tem de moarte. Herodot precizeaza chiar ca «Getii sunt cei mai curajosi si mai drepti dintre Traci»\".
 
-De fapt, în ceea ce privește formele de exprimare a învățăturii sacerdotale a *druizilor* (preoții celților) și a *pileați/or* (preoții dacilor), ele merg uneori până la identificare. Din păcate, totuși, \"ca și celții - scria M. Eliade -, sacerdoții și asceții
+De fapt, in ceea ce priveste formele de exprimare a invataturii sacerdotale a *druizilor* (preotii celtilor) si a *pileati/or* (preotii dacilor), ele merg uneori pana la identificare. Din pacate, totusi, \"ca si celtii - scria M. Eliade -, sacerdotii si ascetii
 
-> traci și geto-daci nu se încredințau scrierii. Puținul pe care îl știm despre mitologia, teologia și riturile lor ne-a fost transmis prin autorii greci și latini, adică printr-o *interpretatio graeca* și *latina.\"^1^* Este o întâmplare datorată așezării geografice faptul că de la autorii antici s-au păstrat mai multe informații despre celți decât despre traci sau despre daci, căci romanii îi aveau pe celți ca vecini în nordul peninsulei Italice, desemnându-i cu numele de *gali.*
+> traci si geto-daci nu se incredintau scrierii. Putinul pe care il stim despre mitologia, teologia si riturile lor ne-a fost transmis prin autorii greci si latini, adica printr-o *interpretatio graeca* si *latina.\"^1^* Este o intamplare datorata asezarii geografice faptul ca de la autorii antici s-au pastrat mai multe informatii despre celti decat despre traci sau despre daci, caci romanii ii aveau pe celti ca vecini in nordul peninsulei Italice, desemnandu-i cu numele de *gali.*
 
-Sunt remarcabile în primul rând paginile lui Iulius Cezar consacrate druzilor (în *De bello Gallico).* Totuși, chiar aceste informații sunt asemănătoare celor pe care le avem despre daci. Astfel, Cezar arăta că druizii sunt preocupați de astre și de mișcările lor, de mărimea lumii și a pământului, în timp ce despre daci, Strabon și Porphyrios arătau că Zalmoxis avea cunoștințe astronomice, iar Iordanes *{Getica,* 69-70) spune că Deceneu, Marele Preot al dacilor, îi învăța pe daci \"teoria celor 12 semne ale zodiacului, mersul planetelor și toate secretele astronomice\...\". Aceste afirmații au fost confirmate. în ce îi privește pe celți, prin descoperirea celor câteva fragmente de calendare gravate în bronz, cum sunt cele de la Coligny și Moizanus; iar pe de altă parte, referitor la daci, săpăturile din România au scos la iveală resturile a două sanctuare-calendar, la Sarmizegetusa și la Costești, în centrele ceremoniale geto-dace.
+Sunt remarcabile in primul rand paginile lui Iulius Cezar consacrate druzilor (in *De bello Gallico).* Totusi, chiar aceste informatii sunt asemanatoare celor pe care le avem despre daci. Astfel, Cezar arata ca druizii sunt preocupati de astre si de miscarile lor, de marimea lumii si a pamantului, in timp ce despre daci, Strabon si Porphyrios aratau ca Zalmoxis avea cunostinte astronomice, iar Iordanes *{Getica,* 69-70) spune ca Deceneu, Marele Preot al dacilor, ii invata pe daci \"teoria celor 12 semne ale zodiacului, mersul planetelor si toate secretele astronomice\...\". Aceste afirmatii au fost confirmate. in ce ii priveste pe celti, prin descoperirea celor cateva fragmente de calendare gravate in bronz, cum sunt cele de la Coligny si Moizanus; iar pe de alta parte, referitor la daci, sapaturile din Romania au scos la iveala resturile a doua sanctuare-calendar, la Sarmizegetusa si la Costesti, in centrele ceremoniale geto-dace.
 
-De la nici un alt autor antic latin nu ni s-a transmis atâta material de medicină magică și de leacuri \"populare\", câte au rămas de la medicul gal (deci celt) Marcellus Empiricus în scrierea sa *De medicamentis liber.* Găsim aici, pe lângă sute de leacuri, peste 60 de incantații magice. Faptul că Marcellus, numit sugestiv Empiricus, era de fapt celt, explică abundența aceasta de \"empirisme\", de fapt împrumuturi dintr-o altă înțelepciune decât
+De la nici un alt autor antic latin nu ni s-a transmis atata material de medicina magica si de leacuri \"populare\", cate au ramas de la medicul gal (deci celt) Marcellus Empiricus in scrierea sa *De medicamentis liber.* Gasim aici, pe langa sute de leacuri, peste 60 de incantatii magice. Faptul ca Marcellus, numit sugestiv Empiricus, era de fapt celt, explica abundenta aceasta de \"empirisme\", de fapt imprumuturi dintr-o alta intelepciune decat
 
-> cele romană sau greacă. Deosebit de interesant este faptul că, așa cum s-a remarcat deja, incantațiile pe care ni le-a transmis Marcellus Empiricus prezintă uneori uimitoare identificări cu incantațiile descântecelor românești. Iată, spre exemplificare, unele versuri ce par pur și simplu traduse din textul latin al medicului celt.
+> cele romana sau greaca. Deosebit de interesant este faptul ca, asa cum s-a remarcat deja, incantatiile pe care ni le-a transmis Marcellus Empiricus prezinta uneori uimitoare identificari cu incantatiile descantecelor romanesti. Iata, spre exemplificare, unele versuri ce par pur si simplu traduse din textul latin al medicului celt.
 >
 > Textul latin:
 >
 > *Pastores te invenerunt Sine manibus colligerunt, Sine foco coxerunt, Sine dentibus comederunt*
 >
-> (din *De medicamentis,* XXI, 3; și XXVIII, 16.) si cel românesc:
+> (din *De medicamentis,* XXI, 3; si XXVIII, 16.) si cel romanesc:
 >
-> *Ciobănașii te aflară, Fără mâini te prinseră, Fără foc de fripseră. Fără gură te mănâncă*
+> *Ciobanasii te aflara, Fara maini te prinsera, Fara foc de fripsera. Fara gura te mananca*
 >
-> (Ch. Laugier, *Etnografia medicală a Olteniei)*
+> (Ch. Laugier, *Etnografia medicala a Olteniei)*
 
-O serie de motive populare românești vin să întregească tabloul asemănărilor dintre expresiile cultuale dacice cu cele ale colților. Este vorba de crucea înscrisă în cerc (considerată de unii autori ca fiind simbolul Centrului Lumii, este întâlnită și ca simbol al Vechilor Curți domnești românești^1^), spirala înlănțuită, roata solară (în Maramureș și Țara Hațegului), animalele totemice (mistrețul, cerbul ș.a.), conceptul asupra Marii Treceri din lumea aceasta în cealaltă, identificarea omului cu plantele, motivul sacrificiului uman pentru realizarea unui scop înalt^2^. Basme românești, cuprinse în colecțiile românești
+O serie de motive populare romanesti vin sa intregeasca tabloul asemanarilor dintre expresiile cultuale dacice cu cele ale coltilor. Este vorba de crucea inscrisa in cerc (considerata de unii autori ca fiind simbolul Centrului Lumii, este intalnita si ca simbol al Vechilor Curti domnesti romanesti^1^), spirala inlantuita, roata solara (in Maramures si Tara Hategului), animalele totemice (mistretul, cerbul s.a.), conceptul asupra Marii Treceri din lumea aceasta in cealalta, identificarea omului cu plantele, motivul sacrificiului uman pentru realizarea unui scop inalt^2^. Basme romanesti, cuprinse in colectiile romanesti
 
-> cele mai vechi^1^, conțin motive comune cu cele din poveștile galeze cuprinse în antologia *Mabinogion^2^,* care au rămas mai puțin alterate de literatura franco-normandă, păstrând încă spiritul celtic. (Galezii din Țara Galilor, ca și o mare parte a irlandezilor și scoțienilor, sunt urmașii vechilor celți care s-au stabilit în aceste locuri după anul 500 î.e.n., iar singurele monumente ale literaturii celtice provin de la celții insulari, adică de la irlandezi și galezi.)
+> cele mai vechi^1^, contin motive comune cu cele din povestile galeze cuprinse in antologia *Mabinogion^2^,* care au ramas mai putin alterate de literatura franco-normanda, pastrand inca spiritul celtic. (Galezii din Tara Galilor, ca si o mare parte a irlandezilor si scotienilor, sunt urmasii vechilor celti care s-au stabilit in aceste locuri dupa anul 500 i.e.n., iar singurele monumente ale literaturii celtice provin de la celtii insulari, adica de la irlandezi si galezi.)
 
-Putem găsi în lumea poveștilor galeze din *Mabinogion* omniprezența zânelor, care, ca și în credințele și basmele românilor vin de pe Tărâmul Celălalt sau locuiesc acolo. La celți ,ca și la daci, trecerea pe Tărâmul Celălalt nu era un motiv de tristețe întrucât oamenii își puteau continua astfel existența într-o lume subpământeană, *Annwn,* \"Țara de sub pământ\" sau \"Tărâmul Celălalt\". Nu știm sigur cum îi ziceau dacii acestui loc al nemuririi, dar știm că acolo se retrăsese Zalmoxe prin Muntele Ascuns, iar românii i-au zis «Tărâmul Celălalt», «Tărâmul Blajinilor», «Tărâmul Vieții fără de moarte și al Tinereții fără de bătrânețe», «Nedeia Cetate» sau «Gura de Rai». Celții vorbeau despre ființele fabuloase ale acelui loc tainic, cum ar fi acei câini \"de un alb strălucitor, ce te orbea ca zăpada bătută de soare, și cu urechile roșii; pe măsura strălucirii albului, scânteia și roșul urechilor lor\"^3^. La români avem corespondent *Cățelul Pământului,* care exact ca la celți, prin lătratul său strident prevestește moartea. Există în credința celților un moment (numit *Walspurgisnacht)* când o vizită din (sau în) Paradisul subpământean nu era un lucru neobișnuit. Acest moment corespunde la români Nopții de Sânziene (noaptea dinspre 24 Iunie), când se \"pot deschide cerurile\" pentru cei aleși.
+Putem gasi in lumea povestilor galeze din *Mabinogion* omniprezenta zanelor, care, ca si in credintele si basmele romanilor vin de pe Taramul Celalalt sau locuiesc acolo. La celti ,ca si la daci, trecerea pe Taramul Celalalt nu era un motiv de tristete intrucat oamenii isi puteau continua astfel existenta intr-o lume subpamanteana, *Annwn,* \"Tara de sub pamant\" sau \"Taramul Celalalt\". Nu stim sigur cum ii ziceau dacii acestui loc al nemuririi, dar stim ca acolo se retrasese Zalmoxe prin Muntele Ascuns, iar romanii i-au zis «Taramul Celalalt», «Taramul Blajinilor», «Taramul Vietii fara de moarte si al Tineretii fara de batranete», «Nedeia Cetate» sau «Gura de Rai». Celtii vorbeau despre fiintele fabuloase ale acelui loc tainic, cum ar fi acei caini \"de un alb stralucitor, ce te orbea ca zapada batuta de soare, si cu urechile rosii; pe masura stralucirii albului, scanteia si rosul urechilor lor\"^3^. La romani avem corespondent *Catelul Pamantului,* care exact ca la celti, prin latratul sau strident prevesteste moartea. Exista in credinta celtilor un moment (numit *Walspurgisnacht)* cand o vizita din (sau in) Paradisul subpamantean nu era un lucru neobisnuit. Acest moment corespunde la romani Noptii de Sanziene (noaptea dinspre 24 Iunie), cand se \"pot deschide cerurile\" pentru cei alesi.
 
-> Dragostea pentru eroi și pentru glia stămoșească este evidențiată la celți de prezența în limba galeză a cuvântului
+> Dragostea pentru eroi si pentru glia stamoseasca este evidentiata la celti de prezenta in limba galeza a cuvantului
 >
-> «hiraeth», care nu poate fi tradus în engleză (limbă oficială în Țara Galilor), dar care poate fi acoperit în limba română de conceptul *dor^1^* sau de \"iubirea de *moșie\".*
+> «hiraeth», care nu poate fi tradus in engleza (limba oficiala in Tara Galilor), dar care poate fi acoperit in limba romana de conceptul *dor^1^* sau de \"iubirea de *mosie\".*
 >
-> Deși originea druidismului este practic învăluită în mister, în mod sigur în antichitate se credea uneori că el își are obârșia în sacerdoțiul trac. Acest fapt este ilustrat de afirmația unuia dintre părinții bisericii creștine, anume că druidismul a fost introdus la celți de către \"tracul Zamolxis (Zalmoxe - n.a.) care învățase \[apoi\] pe druizi, printre altele și divinațiunea prin fișe și numere\" (Origene, în *Philosophumena,* I, 2 și 22)^2^.
+> Desi originea druidismului este practic invaluita in mister, in mod sigur in antichitate se credea uneori ca el isi are obarsia in sacerdotiul trac. Acest fapt este ilustrat de afirmatia unuia dintre parintii bisericii crestine, anume ca druidismul a fost introdus la celti de catre \"tracul Zamolxis (Zalmoxe - n.a.) care invatase \[apoi\] pe druizi, printre altele si divinatiunea prin fise si numere\" (Origene, in *Philosophumena,* I, 2 si 22)^2^.
 >
-> Conform celor mai multe indicii, apropierea dintre spiritualitatea și cunoștințele celților cu cele ale dacilor se datorează nu unui contact însoțit de schimburi reciproce, ci unei duble inițieri, atât a celților, cât și a tracilor (și a dacilor), dintr-o sursă comună. Instituirea sacerdoțiului la cele două mari popoare provine, astfel, din legendara *Hyperboreea,* despre care vechii greci spuneau că se află în nordul cețos al Europei și al Asiei. (Așa cum s-a întâmplat mai târziu în cazul creștinismul, popoarele creștine au fost creștinate îndeosebi prin misionariatul apostolic, și nu prin contacte și împrumuturi reciproce.)
+> Conform celor mai multe indicii, apropierea dintre spiritualitatea si cunostintele celtilor cu cele ale dacilor se datoreaza nu unui contact insotit de schimburi reciproce, ci unei duble initieri, atat a celtilor, cat si a tracilor (si a dacilor), dintr-o sursa comuna. Instituirea sacerdotiului la cele doua mari popoare provine, astfel, din legendara *Hyperboreea,* despre care vechii greci spuneau ca se afla in nordul cetos al Europei si al Asiei. (Asa cum s-a intamplat mai tarziu in cazul crestinismul, popoarele crestine au fost crestinate indeosebi prin misionariatul apostolic, si nu prin contacte si imprumuturi reciproce.)
 
-Există surse celte care afirmă faptul că druidismul nu s-a format în interiorul triburilor celtice, ci este de proveniență exterioară. Aflăm astfel din tradiția irlandeză că druidismul vine nu de celți, ci de la *Thuâta De Dânann,* seminție preceltică a zeiței *Dana.* Ei au construit monumentele megalitice în Irlanda, în legătură cu celelalte popoare de tradiție celtică. *Thuâta De Dânann* (tribul *Danei)* ar fi primit învățătura druidică în insulele din nordul lumii, în faimoasa Hyperboreea^3^. Chiar învățăturile grecilor despre un Alt Tărâm, par să provină din Hyperboreea, căci într-un dialog atribuit lui Platon *(Axiochos,* 11,3) Socrate
+Exista surse celte care afirma faptul ca druidismul nu s-a format in interiorul triburilor celtice, ci este de provenienta exterioara. Aflam astfel din traditia irlandeza ca druidismul vine nu de celti, ci de la *Thuata De Danann,* semintie preceltica a zeitei *Dana.* Ei au construit monumentele megalitice in Irlanda, in legatura cu celelalte popoare de traditie celtica. *Thuata De Danann* (tribul *Danei)* ar fi primit invatatura druidica in insulele din nordul lumii, in faimoasa Hyperboreea^3^. Chiar invataturile grecilor despre un Alt Taram, par sa provina din Hyperboreea, caci intr-un dialog atribuit lui Platon *(Axiochos,* 11,3) Socrate
 
-> vorbește despre niște table triunghiulare de aramă, aduse de două fecioare hyperboreene, în care se spune că \"după ce s-a despărțit de trup, sufletul se duce spre un ținut ascuns de orice vedere\" (care ținut era la vechii greci Regatul subteran numit Hades, în care aveau un loc al lor Fericiții).
+> vorbeste despre niste table triunghiulare de arama, aduse de doua fecioare hyperboreene, in care se spune ca \"dupa ce s-a despartit de trup, sufletul se duce spre un tinut ascuns de orice vedere\" (care tinut era la vechii greci Regatul subteran numit Hades, in care aveau un loc al lor Fericitii).
 >
-> Diodor din Sicilia preciza că Hyperboreea se afla în vecinătatea teritoriilor celților, ceea ce poate sugera că cei ce îi cunoșteau direct pe nemuritorii hiperborei, erau celți; dar am văzut că și tracii avea legăturile lor cu \"țara de sus\" (cum este numită în poveștile populare românești), aliniamentul megalitic spre Hyperboreea plecând din Tracia. *Thuăta De Dânann,* sau Ginta zeiței *Dana,* erau un popor misterios care se consideră că i-a precedat imediat pe galezi. \"Numele *Thuăta,* cu consonanță runică - conchide dl. Marc Questin -, este apropiat de *Thiuh,* Dumnezeu la hiperborei, regent al Polului și al insulei Thule. Unul dintre cele mai arhaice texte irlandeze, *Lupta Magului Tured,* aduce o precizare: *«Thuâta De Dânann* erau în insulele Nordului Lumii, studiind știința, magia, druidismul, vrăjitoria și înțelepciunea, întrecând toți înțelepții\...»\"
+> Diodor din Sicilia preciza ca Hyperboreea se afla in vecinatatea teritoriilor celtilor, ceea ce poate sugera ca cei ce ii cunosteau direct pe nemuritorii hiperborei, erau celti; dar am vazut ca si tracii avea legaturile lor cu \"tara de sus\" (cum este numita in povestile populare romanesti), aliniamentul megalitic spre Hyperboreea plecand din Tracia. *Thuata De Danann,* sau Ginta zeitei *Dana,* erau un popor misterios care se considera ca i-a precedat imediat pe galezi. \"Numele *Thuata,* cu consonanta runica - conchide dl. Marc Questin -, este apropiat de *Thiuh,* Dumnezeu la hiperborei, regent al Polului si al insulei Thule. Unul dintre cele mai arhaice texte irlandeze, *Lupta Magului Tured,* aduce o precizare: *«Thuata De Danann* erau in insulele Nordului Lumii, studiind stiinta, magia, druidismul, vrajitoria si intelepciunea, intrecand toti inteleptii\...»\"
 >
-> în limbajul curent termenul de *moș* indică un bătrân venerabil, în cel tradițional el însumează conceptele de Dumnezeu, de strămoș și de mare Sacerdot.
+> in limbajul curent termenul de *mos* indica un batran venerabil, in cel traditional el insumeaza conceptele de Dumnezeu, de stramos si de mare Sacerdot.
 >
-> Relatând una dintre viziunile ei de la Rupi, locul unor vechi sanctuare *trace,* aceeași vizionară Vanga arăta: \"Am intrat în casă și m-am așezat în mijlocul holului iar ei s-au rânduit în jurul meu. Erau cu toții bărbați în vârstă, mai degrabă bătrâni, îmbrăcați în haine strălucitoare. Străluceau atât de puternic, încât holul părea scăldat în lumina soarelui.\" Acești *moși* luminoși, în afara unor relatări confidențiale despre viitor, i-au arătat Vangăi că va veni vremea când, pentru a reinstaura echilibrul lumii, vor fi nevoiți să vorbească cu oamenii Este remarcabil pe teritoriul României, faptul că geto-dacii au lăsat foarte multe *gropi rituale.* Acest obicei este străvechi, începând încă din neolitic și continuând neîntrerupt pe toată durata de existență a etnicului geto-dacic. Urmele din aceste gropi au dus la concluzia că geto-dacii practicau anumite ritualuri religioase însoțite de banchete la care, în apropierea unor focuri se spărgeau vase de lut. Aceste resturi, împreună cu vase de lut întregi și chiar cu alte obiecte, erau depuse în gropi speciale. Au fost găsite chiar gropi-fântâni cu ceramică de lux. Asemenea gropi de cult se întâlnesc și în spațiile ce au fost locuite de celți, care depuneau în ele diverse ofrande, vase și obiecte, pentru a comunica cu lumea subpământeană^1^. în primul rând dacii erau cei cei credeau în această lume, deoarece Zalmoxe le promisese nemurirea, el însuși rctrăgându-se în Muntele Ascuns, într-o locuință subpământeană, pentru a deveni Nemuritor.
+> Relatand una dintre viziunile ei de la Rupi, locul unor vechi sanctuare *trace,* aceeasi vizionara Vanga arata: \"Am intrat in casa si m-am asezat in mijlocul holului iar ei s-au randuit in jurul meu. Erau cu totii barbati in varsta, mai degraba batrani, imbracati in haine stralucitoare. Straluceau atat de puternic, incat holul parea scaldat in lumina soarelui.\" Acesti *mosi* luminosi, in afara unor relatari confidentiale despre viitor, i-au aratat Vangai ca va veni vremea cand, pentru a reinstaura echilibrul lumii, vor fi nevoiti sa vorbeasca cu oamenii Este remarcabil pe teritoriul Romaniei, faptul ca geto-dacii au lasat foarte multe *gropi rituale.* Acest obicei este stravechi, incepand inca din neolitic si continuand neintrerupt pe toata durata de existenta a etnicului geto-dacic. Urmele din aceste gropi au dus la concluzia ca geto-dacii practicau anumite ritualuri religioase insotite de banchete la care, in apropierea unor focuri se spargeau vase de lut. Aceste resturi, impreuna cu vase de lut intregi si chiar cu alte obiecte, erau depuse in gropi speciale. Au fost gasite chiar gropi-fantani cu ceramica de lux. Asemenea gropi de cult se intalnesc si in spatiile ce au fost locuite de celti, care depuneau in ele diverse ofrande, vase si obiecte, pentru a comunica cu lumea subpamanteana^1^. in primul rand dacii erau cei cei credeau in aceasta lume, deoarece Zalmoxe le promisese nemurirea, el insusi rctragandu-se in Muntele Ascuns, intr-o locuinta subpamanteana, pentru a deveni Nemuritor.
 >
-> O străveche datină, foarte importantă la români, *Sărbătoarea Moșilor,* ne amintește de aceste vase sparte ale geto-dacilor. *Moșii* sau *Sărbătoarea Moșilor* sunt o moștenire dacică ce a luat forma unui cult al strămoșilor, \"moșii\" fiind la români un concept apropiat de acela al zeităților tutelare. în unele locuri, bătrânii înșiși sunt cei încurajează cultul strămoșilor \"moși\", după cum își amintește unul dintre cei mai importanți folcloriști români contemporani: \"îmi amintesc - spunea el - de un moș din partea mamei, o figură de plăieș înalt, voinic și grav, care spunea nepoților lui: «Măi copii, ce vă rugați la icoane, rugați-vă la strămoșii noștri morți să vă ajute, că sunteți din spița lor omenească»\"^2^. De fapt, în tradiția românească Dumnezeu însuși este numit \"Moșul\" *(Moșul* fiind Strămoșul tuturor *stămoșilor),* iar oamenii sunt legați între ei prin \"iubirea de moșie\", \"moșia\" însemnând pământul ce îl locuiesc, dar și, cu mult mai important, unitatea etno-spirituală în decursul anului se țineau odinioară mai mulți \"Moși\" (la 19 date calendaristice diferite), care uneori se numeau și *Nedeia,* căci sărbătoarea prototipală a daco-românilor, care marchează trecerea anilor este *Nedeia,* la data de 24 Iunie. Proveniența celor mai mulți \"Moși\" este cert arhaică, lipsită de influențe creștine. Astfel sunt: *Moșii de Rusalii, Moșii de Sânziene, Moșii de Rusitori, Moșii de Sănmedru, Moșii de flori de mărțișor^1^.* La anumiți \"Moși\" se rcluau străvechi urcări rituale pe munte, cum erau cele pe muntele Găina sau pe muntele Ceahlău. Pe bună dreptate s-a apreciat că urcările pe munte sunt supraviețuiri ale pelerinajelor în Carpați, \"la schimniciile bătrânilor *ktiști* (ordin monahal zalmoxian care face parte din categoria *pileaților,* \"căciulaților\" -n.a.), cocoțate pe culmile considerate sfinte de tradiția dacică\"^2^.
+> O straveche datina, foarte importanta la romani, *Sarbatoarea Mosilor,* ne aminteste de aceste vase sparte ale geto-dacilor. *Mosii* sau *Sarbatoarea Mosilor* sunt o mostenire dacica ce a luat forma unui cult al stramosilor, \"mosii\" fiind la romani un concept apropiat de acela al zeitatilor tutelare. in unele locuri, batranii insisi sunt cei incurajeaza cultul stramosilor \"mosi\", dupa cum isi aminteste unul dintre cei mai importanti folcloristi romani contemporani: \"imi amintesc - spunea el - de un mos din partea mamei, o figura de plaies inalt, voinic si grav, care spunea nepotilor lui: «Mai copii, ce va rugati la icoane, rugati-va la stramosii nostri morti sa va ajute, ca sunteti din spita lor omeneasca»\"^2^. De fapt, in traditia romaneasca Dumnezeu insusi este numit \"Mosul\" *(Mosul* fiind Stramosul tuturor *stamosilor),* iar oamenii sunt legati intre ei prin \"iubirea de mosie\", \"mosia\" insemnand pamantul ce il locuiesc, dar si, cu mult mai important, unitatea etno-spirituala in decursul anului se tineau odinioara mai multi \"Mosi\" (la 19 date calendaristice diferite), care uneori se numeau si *Nedeia,* caci sarbatoarea prototipala a daco-romanilor, care marcheaza trecerea anilor este *Nedeia,* la data de 24 Iunie. Provenienta celor mai multi \"Mosi\" este cert arhaica, lipsita de influente crestine. Astfel sunt: *Mosii de Rusalii, Mosii de Sanziene, Mosii de Rusitori, Mosii de Sanmedru, Mosii de flori de martisor^1^.* La anumiti \"Mosi\" se rcluau stravechi urcari rituale pe munte, cum erau cele pe muntele Gaina sau pe muntele Ceahlau. Pe buna dreptate s-a apreciat ca urcarile pe munte sunt supravietuiri ale pelerinajelor in Carpati, \"la schimniciile batranilor *ktisti* (ordin monahal zalmoxian care face parte din categoria *pileatilor,* \"caciulatilor\" -n.a.), cocotate pe culmile considerate sfinte de traditia dacica\"^2^.
 >
-> La \"Moși\", când se țineau în București, până acum vreo sută de ani, se strângea poporul de peste tot, se încingeau hore uriașe, se lua masa pe iarba verde și se bea vin din oale noi. Trebuie remarcat că totul se făcea în cinstea stră-Moșilor, pentru că obiceiul, deși era o instituție tradițională legată de datini imemoriale, se ținea atunci când, primăvara sau toamna, calendarul ortodox indica *Sâmbăta morților.* Ceea ce ne trimite la gropile rituale ale dacilor, este faptul că participanții, ce își dădeau vasele de lut din mână în mână și din gură în gură, la un anumit moment dat, după ce se lăsa seara, ca la un semnal, trânteau vasele și le spărgeau, căci *așa \"voia tradiția locului\"^3^.* Tot astfel trebuie să fi procedat și dacii, care apoi adunau cioburile și le depuneau în gropile lor rituale pentru a ajunge ca ofrande - în spirit - nemuritorilor de sub pământ.
+> La \"Mosi\", cand se tineau in Bucuresti, pana acum vreo suta de ani, se strangea poporul de peste tot, se incingeau hore uriase, se lua masa pe iarba verde si se bea vin din oale noi. Trebuie remarcat ca totul se facea in cinstea stra-Mosilor, pentru ca obiceiul, desi era o institutie traditionala legata de datini imemoriale, se tinea atunci cand, primavara sau toamna, calendarul ortodox indica *Sambata mortilor.* Ceea ce ne trimite la gropile rituale ale dacilor, este faptul ca participantii, ce isi dadeau vasele de lut din mana in mana si din gura in gura, la un anumit moment dat, dupa ce se lasa seara, ca la un semnal, tranteau vasele si le spargeau, caci *asa \"voia traditia locului\"^3^.* Tot astfel trebuie sa fi procedat si dacii, care apoi adunau cioburile si le depuneau in gropile lor rituale pentru a ajunge ca ofrande - in spirit - nemuritorilor de sub pamant.
 
-După cum am spus, la români Dumnezeu este identificat cu \"Moșul\", care este și zeu, și strămoș totemic, și Mare Preot. Atunci când perpetuă atributele marelui preot, \"Moșul\" este numit și Omul Alb, spunându-se că ar fi conducătorul *zgrimințe-șilor* sau al *solomonarilor,* un tip de sacerdoți-rătăcitori
+Dupa cum am spus, la romani Dumnezeu este identificat cu \"Mosul\", care este si zeu, si stramos totemic, si Mare Preot. Atunci cand perpetua atributele marelui preot, \"Mosul\" este numit si Omul Alb, spunandu-se ca ar fi conducatorul *zgriminte-silor* sau al *solomonarilor,* un tip de sacerdoti-ratacitori
 
-> (continuatori ai ordinului monahal dac al *kapnobatai-lor •* \"cei care merg printre nori\" -, despre care relatează Strabon) ce își au sediul central ascuns undeva sub munți, de unde pleacă și cutreieră satele pentru a verifica moralitatea poporului, starea lui de credincioșenie, procedând asemenea *pileaților* daci, a căror funcție o continuă. \"Mai mare peste zgrimințeși era Omul Alb -relata o munteancă din munții Apuseni. Era alb tot, bine. Și mergea cu vitele și să-ntâlnea cu oamenii si-i întreba: «Ce aveți de mâncare? Cum trăiți? Aveți oarece mâncare, aveți oarece hrană acasă? Dacă nu aveți să-mi spuneți». Tot era ca neaua. Tot. Tot bine alb.\"^1^ Personal am auzit vorbindu-se despre Omul Alb chiar și la unii munteni din munții Bucegi, în apropierea muntelui Omu, care apăruse de curând și prevenise oamenii despre vremurile ce urmau să vină (o iarnă grea și tulburări în țară).
+> (continuatori ai ordinului monahal dac al *kapnobatai-lor •* \"cei care merg printre nori\" -, despre care relateaza Strabon) ce isi au sediul central ascuns undeva sub munti, de unde pleaca si cutreiera satele pentru a verifica moralitatea poporului, starea lui de credinciosenie, procedand asemenea *pileatilor* daci, a caror functie o continua. \"Mai mare peste zgrimintesi era Omul Alb -relata o munteanca din muntii Apuseni. Era alb tot, bine. Si mergea cu vitele si sa-ntalnea cu oamenii si-i intreba: «Ce aveti de mancare? Cum traiti? Aveti oarece mancare, aveti oarece hrana acasa? Daca nu aveti sa-mi spuneti». Tot era ca neaua. Tot. Tot bine alb.\"^1^ Personal am auzit vorbindu-se despre Omul Alb chiar si la unii munteni din muntii Bucegi, in apropierea muntelui Omu, care aparuse de curand si prevenise oamenii despre vremurile ce urmau sa vina (o iarna grea si tulburari in tara).
 >
-> Cele mai vechi reprezentări populare românești ale \"Moșului\"-Dumnezeu îl înfățișează cutreierând în ceruri, îmbrăcat în cojoc, cu căciulă și opinci ciobănești, cu fluier la brâu și bâtă în mână. își are reședința la o stână cocoțată pe crestele înnegurate ale *Carpaților cerești* (când în muntele Ceahlău, când pe muntele Caraiman, când pe muntele Parâng, când în munții Apuseni). însemnele puterii și domniei lui pastorale în *Carpații cerești* sânt lumina, soarele, luna și astrele. De aceea, în descinderile sale terestre apare *încărcat de atribute solare.* Fiind conducătorul suprem al conclavului și cortegiului de *Moși-divini* (sau de «sfinți populari»), el deține toate elementele și puterile conducerii universale^2^.
+> Cele mai vechi reprezentari populare romanesti ale \"Mosului\"-Dumnezeu il infatiseaza cutreierand in ceruri, imbracat in cojoc, cu caciula si opinci ciobanesti, cu fluier la brau si bata in mana. isi are resedinta la o stana cocotata pe crestele innegurate ale *Carpatilor ceresti* (cand in muntele Ceahlau, cand pe muntele Caraiman, cand pe muntele Parang, cand in muntii Apuseni). insemnele puterii si domniei lui pastorale in *Carpatii ceresti* sant lumina, soarele, luna si astrele. De aceea, in descinderile sale terestre apare *incarcat de atribute solare.* Fiind conducatorul suprem al conclavului si cortegiului de *Mosi-divini* (sau de «sfinti populari»), el detine toate elementele si puterile conducerii universale^2^.
 
-în unele sate de munte din Vrancea, în ceremonialul înmormântării apăreau până nu de mult măștile de *moși.* Masca/ea participanților la ritual se făcea undeva \"în afara satului, pe o culme sau într-o pădure care simbolizează spațiul *De dincolo de iunie,* de unde, pe înserate, veneau ca arătări\...\". Treceau înșiruiți unul după altul pe ulițele satului, în privirile celor ce îi așteptau.
+in unele sate de munte din Vrancea, in ceremonialul inmormantarii apareau pana nu de mult mastile de *mosi.* Masca/ea participantilor la ritual se facea undeva \"in afara satului, pe o culme sau intr-o padure care simbolizeaza spatiul *De dincolo de iunie,* de unde, pe inserate, veneau ca aratari\...\". Treceau insiruiti unul dupa altul pe ulitele satului, in privirile celor ce ii asteptau.
 
-Călcau încet, în tăcere, auzinduli-se numai pasul pe pământ. Când ajungeau la casa îndoliată băteau ritmic cu bastoanele în poartă și, fără să aștepte răspunsul, intrau pe rând în curte, înaintând până în fața unui rug aprins. Aici se prindeau de mâini și porneau o horă în jurul rugului, cântând astfel:
+Calcau incet, in tacere, auzinduli-se numai pasul pe pamant. Cand ajungeau la casa indoliata bateau ritmic cu bastoanele in poarta si, fara sa astepte raspunsul, intrau pe rand in curte, inaintand pana in fata unui rug aprins. Aici se prindeau de maini si porneau o hora in jurul rugului, cantand astfel:
 
-\"Omule-pomule,/ nu te milui,/ nu te jelui;/ bucură-te, bucură/ că rădăcina ta/ murind în pământ/ a prins în cer,/ și lutul tău/ s-a încurcat/ de unde-a venit/ în vis liniștit./ Bucurați-vă, bucurați-vă/ și voi ceilalți/ oamenilor-pomilor,/ femei și bărbați;/ beți și mâncați,/ cântați și jucați/ că \[\...\] nu e răpus/ e numai dus, e numai întors/ în lumea ce-o fos\...\"
+\"Omule-pomule,/ nu te milui,/ nu te jelui;/ bucura-te, bucura/ ca radacina ta/ murind in pamant/ a prins in cer,/ si lutul tau/ s-a incurcat/ de unde-a venit/ in vis linistit./ Bucurati-va, bucurati-va/ si voi ceilalti/ oamenilor-pomilor,/ femei si barbati;/ beti si mancati,/ cantati si jucati/ ca \[\...\] nu e rapus/ e numai dus, e numai intors/ in lumea ce-o fos\...\"
 
-> *Moșii* bat apoi cu toiegele în poartă, în ușa prispei și a casei, în mesele cu *pomană,* chemându-1 pe mort într-o limbă bolborosită, cu cuvinte neînțelese^1^.
+> *Mosii* bat apoi cu toiegele in poarta, in usa prispei si a casei, in mesele cu *pomana,* chemandu-1 pe mort intr-o limba bolborosita, cu cuvinte neintelese^1^.
 
-Ciobanului analfabet Petrache Lupu din Maglavit, i-a apărut întâia dată *Moșul* în mai și în iunie 1935, în perioada sărbătorii *Rusaliilor,* acset eveniment schimbându-i întreaga viață. *Moșul,* așa cum 1-a văzut Petrache Lupu, avea o barbă lungă până la brâu, mustăți mari, părul alb și lung până la picioare. Labele picioarelor le avea goale și ciobanul îi vedea chiar și unghiile. Când apărea, *Moșul* se afla la o distanță de două palme deasupra solului, iar când dispărea era luat de un nor pătrat. în urma lui rămânea un cerc de pământ ars cu diametrul de 2 metri. Cea mai interesantă comunicarea a *Moșului,* făcută ciobanului, este aceea că \"Dacia va redeveni centrul spiritual al lumii\"^2^.
+Ciobanului analfabet Petrache Lupu din Maglavit, i-a aparut intaia data *Mosul* in mai si in iunie 1935, in perioada sarbatorii *Rusaliilor,* acset eveniment schimbandu-i intreaga viata. *Mosul,* asa cum 1-a vazut Petrache Lupu, avea o barba lunga pana la brau, mustati mari, parul alb si lung pana la picioare. Labele picioarelor le avea goale si ciobanul ii vedea chiar si unghiile. Cand aparea, *Mosul* se afla la o distanta de doua palme deasupra solului, iar cand disparea era luat de un nor patrat. in urma lui ramanea un cerc de pamant ars cu diametrul de 2 metri. Cea mai interesanta comunicarea a *Mosului,* facuta ciobanului, este aceea ca \"Dacia va redeveni centrul spiritual al lumii\"^2^.
 
-> Așa cum bine s-a remarcat din toată activitatea ulterioară a lui Petrache Lupu, după primele apărații ale Moșului, când ciobanul începe să predice către lume, el nu propăvăduiește credința creștină, nu vorbește despre Sfânta Treime sau despre Mântuitor, ci despre un Moș-Dumnezeu, asemeni acelor sfinți-vrăjitori populari, numiți *solomonari,* care sunt mai degrabă
+> Asa cum bine s-a remarcat din toata activitatea ulterioara a lui Petrache Lupu, dupa primele aparatii ale Mosului, cand ciobanul incepe sa predice catre lume, el nu propavaduieste credinta crestina, nu vorbeste despre Sfanta Treime sau despre Mantuitor, ci despre un Mos-Dumnezeu, asemeni acelor sfinti-vrajitori populari, numiti *solomonari,* care sunt mai degraba
 >
-> interesați de o moralitate aproape materială, legată strict de pedepse naturale: foamete, ploi, dezastre, asupra poporului păcătos, și nu de conceptul creștin al pedepsei veșnice sau al mântuirii sufletului. \"Dacă ne pocăim, *\[Moșul\]* ne dă sănătate, ne dă grâu, ne dă porumb\...\" spunea în acest sens Petrache Lupu.
+> interesati de o moralitate aproape materiala, legata strict de pedepse naturale: foamete, ploi, dezastre, asupra poporului pacatos, si nu de conceptul crestin al pedepsei vesnice sau al mantuirii sufletului. \"Daca ne pocaim, *\[Mosul\]* ne da sanatate, ne da grau, ne da porumb\...\" spunea in acest sens Petrache Lupu.
 >
-> Mulți dintre cei ce l-au însoțit pe ciobanul predicator în acea perioadă, vedeau o flacără ca de foc în jurul trupului său.în urma investirii lui spirituale de către *Moș,* Petrache Lupu citește gândurile celorlați și le cunoaște trecutul, prevestește apropierea războiului (care într-adevăr avea să se declanșeze peste 4-5 ani) și a altor necazuri pentru popor. Băgându-și mâna în foc, ea nu i-a ars deloc, iar cu altă ocazie, aflădu-se în fruntea unei procesiuni populare în câmp, pentru a invoca ploaia, a mers cu o lumânare aprinsă în bătaia puternică a vântului, fără ca aceasta să se stingă. într-o altă împrejurare, s-a rugat de *Moș* și ploaia a fost îndepărtată de la locul unde avuseseră loc arătări ale *Moșului,* și unde în acel moment se afla o mare mulțime de oameni.
+> Multi dintre cei ce l-au insotit pe ciobanul predicator in acea perioada, vedeau o flacara ca de foc in jurul trupului sau.in urma investirii lui spirituale de catre *Mos,* Petrache Lupu citeste gandurile celorlati si le cunoaste trecutul, prevesteste apropierea razboiului (care intr-adevar avea sa se declanseze peste 4-5 ani) si a altor necazuri pentru popor. Bagandu-si mana in foc, ea nu i-a ars deloc, iar cu alta ocazie, afladu-se in fruntea unei procesiuni populare in camp, pentru a invoca ploaia, a mers cu o lumanare aprinsa in bataia puternica a vantului, fara ca aceasta sa se stinga. intr-o alta imprejurare, s-a rugat de *Mos* si ploaia a fost indepartata de la locul unde avusesera loc aratari ale *Mosului,* si unde in acel moment se afla o mare multime de oameni.
 
-Cea mai populară activitate a ciobanului de la Maglavit consta însă într-un fel de spovedanii publice ale miilor de oameni care veneau la locul aparițiilor *Moșului* pentru a se vindeca de tot felul de boli. în acel loc, numit \"La Buturugă\", se aflau niște copaci, plopi și sălcii, din ale căror ramuri uscate izvorau în chip minunat picături de apă tămăduitoare, ce erau bune pentru orice durere și suferință. Fiecare pelerin ținea mâna să culeagă măcar trei picături, numai că picăturile se îndeseau sau se răreau după mâna care stătea întinsă, după faptele celui care le cerșea. \"Unii iau câteva picături, alții nimic - relata un martor ocular. Zeci și sute de mii de suflete se perindă pe sub plută pentru picătura făcătoare de minuni. Un surd se pleacă pentru a primi picătura drept în ureche. Și îndată murmură: încep să aud. Doamne, aud. Un orb se spală pe ochi cu această picătură și vederea îi revine. Lucruri care te uimesc și te înfricoșează\"^1^.
+Cea mai populara activitate a ciobanului de la Maglavit consta insa intr-un fel de spovedanii publice ale miilor de oameni care veneau la locul aparitiilor *Mosului* pentru a se vindeca de tot felul de boli. in acel loc, numit \"La Buturuga\", se aflau niste copaci, plopi si salcii, din ale caror ramuri uscate izvorau in chip minunat picaturi de apa tamaduitoare, ce erau bune pentru orice durere si suferinta. Fiecare pelerin tinea mana sa culeaga macar trei picaturi, numai ca picaturile se indeseau sau se rareau dupa mana care statea intinsa, dupa faptele celui care le cersea. \"Unii iau cateva picaturi, altii nimic - relata un martor ocular. Zeci si sute de mii de suflete se perinda pe sub pluta pentru picatura facatoare de minuni. Un surd se pleaca pentru a primi picatura drept in ureche. Si indata murmura: incep sa aud. Doamne, aud. Un orb se spala pe ochi cu aceasta picatura si vederea ii revine. Lucruri care te uimesc si te infricoseaza\"^1^.
 
-\"Creștini mulți - relata un preot^1^ -, grupați în jurul lor (al sălciilor vindecătoare), așteaptă să le picure în sticle, în ochi, în urechi sau pe câte o rană, câteva picături din această apă binecuvântată\[\...\] Pe aceste locuri, poporul își mărturisește cu îndrăzneală păcatul și lăcrimând așteaptă iertare. Aceste sălcii plângătoare au auzit multe inimi suspinând și multe suflete oftând din greu. în fața lor, poporul s-a mărturisit deschis. Sunt cazuri unde s-a așteptat ore întregi și n-a curs nici măcar o singură picătură, în timp ce la alții au curs ca la comandă, repede și frumos, zeci de picături.\" O altă față bisericească consemna, la rându-i: \"Dintr-o cracă uscată ca un ciot care părea o mână de om având lipsă laba, picura ca și o lacrimă din ochiul omului, picături de apă limpede ca cristalul\[\...\] Am privit o vreme și am văzut cu mirare cum unora le picura în palmă mai repede, pe când altora mai încet și chiar cu greutate\... îți dădea impresia că picătura sfântă cântărește mai întâi de meriți sau nu să te împărtășești de puterea ei miraculoasă.\"^2^
+\"Crestini multi - relata un preot^1^ -, grupati in jurul lor (al salciilor vindecatoare), asteapta sa le picure in sticle, in ochi, in urechi sau pe cate o rana, cateva picaturi din aceasta apa binecuvantata\[\...\] Pe aceste locuri, poporul isi marturiseste cu indrazneala pacatul si lacrimand asteapta iertare. Aceste salcii plangatoare au auzit multe inimi suspinand si multe suflete oftand din greu. in fata lor, poporul s-a marturisit deschis. Sunt cazuri unde s-a asteptat ore intregi si n-a curs nici macar o singura picatura, in timp ce la altii au curs ca la comanda, repede si frumos, zeci de picaturi.\" O alta fata bisericeasca consemna, la randu-i: \"Dintr-o craca uscata ca un ciot care parea o mana de om avand lipsa laba, picura ca si o lacrima din ochiul omului, picaturi de apa limpede ca cristalul\[\...\] Am privit o vreme si am vazut cu mirare cum unora le picura in palma mai repede, pe cand altora mai incet si chiar cu greutate\... iti dadea impresia ca picatura sfanta cantareste mai intai de meriti sau nu sa te impartasesti de puterea ei miraculoasa.\"^2^
 
-> Importanța socială a predicilor ciobanului de la Maglavit, care din îndemnul *Moșului* cerea românilor să se lase de hoții, de bogății și de vrăjmășii, a fost înregistrată de ziarele vremii, care constatau că \"lumea s-a lăsat într-o mare măsură de bătăi și de omoruri, s-au împuținat judecățile și o influență moralizatoare se resimte asupra vieții țărănimii oltenești, de pe urma Maglavitului\"^3^. Atunci când vine în capitala țării, la București, în anul 1938, Petrache Lupu se oprește în parohia Bisericii Oborului Vechi, lângă Calea Moșilor, deci în acel loc al orașului unde se celebra Sărbătoarea Moșilor (sub numele de Târgul Moșilor), iar celor ce îi sărutau mâna le spunea: *Fraților, nu mie îmi sărutați mâna, ci Moșului!.*
+> Importanta sociala a predicilor ciobanului de la Maglavit, care din indemnul *Mosului* cerea romanilor sa se lase de hotii, de bogatii si de vrajmasii, a fost inregistrata de ziarele vremii, care constatau ca \"lumea s-a lasat intr-o mare masura de batai si de omoruri, s-au imputinat judecatile si o influenta moralizatoare se resimte asupra vietii taranimii oltenesti, de pe urma Maglavitului\"^3^. Atunci cand vine in capitala tarii, la Bucuresti, in anul 1938, Petrache Lupu se opreste in parohia Bisericii Oborului Vechi, langa Calea Mosilor, deci in acel loc al orasului unde se celebra Sarbatoarea Mosilor (sub numele de Targul Mosilor), iar celor ce ii sarutau mana le spunea: *Fratilor, nu mie imi sarutati mana, ci Mosului!.*
 >
-> Petrache Lupu a fost cel mai celebru țăran căruia i s-a arătat *Moșul,* dar el nu a fost singurul. Astfel, în 1928 el i-a apărut văcarului Bănică Doleanu din satul Cassota - Buzău, ca un moș cu pletele și barba albă. în urma apariției Moșului, la trei zile, s-a arătat pe cer un glob de foc, care a fost văzut de multă lume, și care a căzut făcând o groapă în pământ.
+> Petrache Lupu a fost cel mai celebru taran caruia i s-a aratat *Mosul,* dar el nu a fost singurul. Astfel, in 1928 el i-a aparut vacarului Banica Doleanu din satul Cassota - Buzau, ca un mos cu pletele si barba alba. in urma aparitiei Mosului, la trei zile, s-a aratat pe cer un glob de foc, care a fost vazut de multa lume, si care a cazut facand o groapa in pamant.
 >
-> *Moșul* din tradițiile populare românești putem conchide că este atât imaginea Dumnezeului dacilor, cât și a Marelui lor Preot, fiind patronul spiritual al sacerdoților populari,*zgrimințeșii* sau *solomonarii,* care până nu de mult impuneau respectul absolut în satele de munte din Carpați.
+> *Mosul* din traditiile populare romanesti putem conchide ca este atat imaginea Dumnezeului dacilor, cat si a Marelui lor Preot, fiind patronul spiritual al sacerdotilor populari,*zgrimintesii* sau *solomonarii,* care pana nu de mult impuneau respectul absolut in satele de munte din Carpati.
 >
-> Vom mai aminti, în treacăt, câteva din aparițiile mai remarcabile ale unui *Moș\\* Astfel, în vara anului 1784, unui țăran din satul Chitid i-a fost indicat de către un *Moș* necunoscut un loc anumit în munții Grădistei Muncelului (munții în care se află Sarmizegetusa, vechea capitală a regatului dac). Ulterior în acest loc au fost găsite comori îngropate de către daci. Peste timp, în secolul nostru, un țăran de lângă Ștefăncști-Muntenia a întâlnit, într-o noapte de vineri, pe timp de viscol, un bătrân cu fața luminoasă (\"cuprinsă ca de o flacără\") care i-o ordonat să sape o fântână în locul în care s-au întâlnit.
+> Vom mai aminti, in treacat, cateva din aparitiile mai remarcabile ale unui *Mos\\* Astfel, in vara anului 1784, unui taran din satul Chitid i-a fost indicat de catre un *Mos* necunoscut un loc anumit in muntii Gradistei Muncelului (muntii in care se afla Sarmizegetusa, vechea capitala a regatului dac). Ulterior in acest loc au fost gasite comori ingropate de catre daci. Peste timp, in secolul nostru, un taran de langa Stefancsti-Muntenia a intalnit, intr-o noapte de vineri, pe timp de viscol, un batran cu fata luminoasa (\"cuprinsa ca de o flacara\") care i-o ordonat sa sape o fantana in locul in care s-au intalnit.
 
-în anul 1938, într-o casă din comuna Gura Vulcanii (județul Dâmbovița) a intrat un *Moș* cu o barbă mare și albă, cu o icoană pe piept, îmbrăcat în haine strălucitoare și ale cărui picioare nu atingeau pământul. în acel loc s-au făcut vindecări și, peste ani, în aceeași casă s-a născut Daniela Tudose (care locuiește actualmente în București) și care poate fi considerată ca \"cea mai eficace și echilibrată bioterapeută din România, în prezent, dotată și cu posibilități de premoniție\"^2^.
+in anul 1938, intr-o casa din comuna Gura Vulcanii (judetul Dambovita) a intrat un *Mos* cu o barba mare si alba, cu o icoana pe piept, imbracat in haine stralucitoare si ale carui picioare nu atingeau pamantul. in acel loc s-au facut vindecari si, peste ani, in aceeasi casa s-a nascut Daniela Tudose (care locuieste actualmente in Bucuresti) si care poate fi considerata ca \"cea mai eficace si echilibrata bioterapeuta din Romania, in prezent, dotata si cu posibilitati de premonitie\"^2^.
 
-în general, s-a remarcat că apariția *moșilor* a fost însoțita sau facilitată de fenomene de tip OZN (de la obiectele aeriene clasice și până la perdelele de lumină orbitoare). Vom mai reda un caz, de dată recentă, în care este evident fenomenul OZN. Primarul orașului Brad (din munții Bucegi), domnul căpitan P.F., relata în anul 1990 că, în urmă cu câțiva ani, mergând cu motocicleta spre o tabără de vară militară situată în zona Murgașu, din apropierea muntelui Găina, a întâlnit în drumul său un *moș* îmbrăcat în haine curate dar peticite, cu ochii albaștrii, venind pe drum spre vale, adică în sens invers deplasării domnului căpitan, care urca. Stând de vorbă cu *moșul,* a aflat că acesta se îndrepta (sau dorea să se îndrepte) înspre același loc, adică înapoia sa, spre tabăra militară. S-au despărțit, deși d-nul căpitan 1-a poftit să îl ducă cu motocicleta în locul spre care se îndreptau de fapt amândoi. Mergând încă multă vreme cu motocicleta spre tabără, care se afla la o mare distanță, în vârf de munte, dl. P. F. ajunge la tabără fără ca pe unicul drum să fi fost depășit de vreun alt vehicul. Cu toate acestea îl găsește acolo pe *moșul* pe care îl întâlnise pe drum. Acesta ajunsese acolo de mai multă vreme, înaintea sa. După ce a stat de vorbă aproape o oră cu bătrânul, căpitanul i-a propus acestuia să rămână pestei noapte în tabără, deoarece se înnoptase. *Moșul* a refuzat din nou și a plecat de unul singur, prin beznă, spre vale. După câtva timp\] însă, militarii din tabără au apreciat că *moșul* ar putea fi îni pericol, că i s-ar putea întâmpla ceva noaptea și, în consecință, au plecat cu o mașină să îl caute. Nu l-au mai găsit, în schimb au dat peste un cioban speriat, care văzuse de curând un obiect zburător de formă elipsoidală ce emana o lumină portocalie, și care zburase peste Piatra Buzului îndreptându-se spre muntele Găina. (După doi ani de la această întâmplare, același căpitan P.F. aflându-se în orașul Câmpulung Muscel, pentru un raliu de coastă, s-a întâlnit cu un *moș* foarte asemănător cu cel din muntele Găina, îmbrăcat în haine lungi, și care 1-a avertizat să se ferească de un accident care i se va întâmpla cât de curând. Căpitanul a pierdut ora fixată pentru start iar cel ce a plecat în locul său a suferit accidentul prevestit.)
+in general, s-a remarcat ca aparitia *mosilor* a fost insotita sau facilitata de fenomene de tip OZN (de la obiectele aeriene clasice si pana la perdelele de lumina orbitoare). Vom mai reda un caz, de data recenta, in care este evident fenomenul OZN. Primarul orasului Brad (din muntii Bucegi), domnul capitan P.F., relata in anul 1990 ca, in urma cu cativa ani, mergand cu motocicleta spre o tabara de vara militara situata in zona Murgasu, din apropierea muntelui Gaina, a intalnit in drumul sau un *mos* imbracat in haine curate dar peticite, cu ochii albastrii, venind pe drum spre vale, adica in sens invers deplasarii domnului capitan, care urca. Stand de vorba cu *mosul,* a aflat ca acesta se indrepta (sau dorea sa se indrepte) inspre acelasi loc, adica inapoia sa, spre tabara militara. S-au despartit, desi d-nul capitan 1-a poftit sa il duca cu motocicleta in locul spre care se indreptau de fapt amandoi. Mergand inca multa vreme cu motocicleta spre tabara, care se afla la o mare distanta, in varf de munte, dl. P. F. ajunge la tabara fara ca pe unicul drum sa fi fost depasit de vreun alt vehicul. Cu toate acestea il gaseste acolo pe *mosul* pe care il intalnise pe drum. Acesta ajunsese acolo de mai multa vreme, inaintea sa. Dupa ce a stat de vorba aproape o ora cu batranul, capitanul i-a propus acestuia sa ramana pestei noapte in tabara, deoarece se innoptase. *Mosul* a refuzat din nou si a plecat de unul singur, prin bezna, spre vale. Dupa catva timp\] insa, militarii din tabara au apreciat ca *mosul* ar putea fi ini pericol, ca i s-ar putea intampla ceva noaptea si, in consecinta, au plecat cu o masina sa il caute. Nu l-au mai gasit, in schimb au dat peste un cioban speriat, care vazuse de curand un obiect zburator de forma elipsoidala ce emana o lumina portocalie, si care zburase peste Piatra Buzului indreptandu-se spre muntele Gaina. (Dupa doi ani de la aceasta intamplare, acelasi capitan P.F. aflandu-se in orasul Campulung Muscel, pentru un raliu de coasta, s-a intalnit cu un *mos* foarte asemanator cu cel din muntele Gaina, imbracat in haine lungi, si care 1-a avertizat sa se fereasca de un accident care i se va intampla cat de curand. Capitanul a pierdut ora fixata pentru start iar cel ce a plecat in locul sau a suferit accidentul prevestit.)
 
-> *[Salmanii]{.underline}. - SaczAdoți popuZasU -*
+> *[Salmanii]{.underline}. - SaczAdoti popuZasU -*
 
-Am arătat mai înainte că Omul alb - Moșul este mai marele *zgrimințeșilor* sau al *solomonarilor,* un ordin de sacerdoți populari enigmatici, un fel de preoți-magi ce își au sediul secret în interiorul munților sau în adâncul pământului. Deși se vorbește despre ei în tot spațiul arcului carpatic, sunt foarte greu de întâlnit, probabil nici un folclorist neîntâlnindu-se direct cu un zgrimințeș activ^1^.
+Am aratat mai inainte ca Omul alb - Mosul este mai marele *zgrimintesilor* sau al *solomonarilor,* un ordin de sacerdoti populari enigmatici, un fel de preoti-magi ce isi au sediul secret in interiorul muntilor sau in adancul pamantului. Desi se vorbeste despre ei in tot spatiul arcului carpatic, sunt foarte greu de intalnit, probabil nici un folclorist neintalnindu-se direct cu un zgrimintes activ^1^.
 
-> . Uncie relatări vorbesc despre aceste ființe enigmatice ca despre niște oameni sfinți, bătrâni, cu barbă lungă, albă și cu o carte în mână^2^, dar această imagine nu este generală.
+> . Uncie relatari vorbesc despre aceste fiinte enigmatice ca despre niste oameni sfinti, batrani, cu barba lunga, alba si cu o carte in mana^2^, dar aceasta imagine nu este generala.
 >
-> De la început, informându-ne asupra acestori sacerdoți populari, putem observa că ei prezintă numeroase caracteristici comune cu monahii daci ai lui Zalmoxe, numiți de către Strabon (VII, 33) *kapnobatai,* \"cei ce umblă pe nori\" (sau \"cei care umblă printre nori\", după V. Pârvan, *Getica. O protoistorie a Daciei;* Buc 1926, pag. 162). Tot Strabon arăta că *kapnobataii,* în virtutea credinței lor, se abțin de la orice fel de aliment din carne, consumând numai vegetale, miere și lactate, fiind asceți solitari și pioși, trăind departe de femei. Totodată, se știe despre majoritatea călugărilor daci că trăiau retrași în incinte subterane, în peșteri sau în locuri în care pătrundeau prin scorbura vreunui copac, urmând parcă astfel traiectul inițiatic al lui Zalmoxe, care se retrăsese într-o \"locuință\" subterană (de unde se întorsese la un moment dat și unde s-a retras apoi definitiv). în acel loc subteran le promisese Marele lor Preot că se vor muta și ei, trăind de-a pururea și având parte de toate bucuriile Țăranii și muntenii români spun despre acești sacerdoți populari că locuiesc, cel puțin în perioada inițierii lor, undeva sub pământ, și că, în timpul activității lor, zboară pe balauri printre nori, precum *kapnobataii* daci (la daci *balaurul* era chiar stindardul statului teocrat dac). Am arătat mai sus mărturia lui Socrate, că întâlnise \"unul dintre acei doctori\[-preoți\] ai regelui trac \[Mare Preotj Zalmoxe\", care îi dezvăluise secretele descântecelor, în care preoții daci erau neîntrecuți, și care posedau chiar \"meșteșugul\" de a te face nemuritor (Platon, *Charmides).* Remarcabil că cei mai mari cunoscători ai descântecelor sunt, după tradițiile românești, chiar sacerdoții populari, cunoscuți ca *zgrimințeși* sau *solomonari,* conform denumirii lor din ultimele secole.
+> De la inceput, informandu-ne asupra acestori sacerdoti populari, putem observa ca ei prezinta numeroase caracteristici comune cu monahii daci ai lui Zalmoxe, numiti de catre Strabon (VII, 33) *kapnobatai,* \"cei ce umbla pe nori\" (sau \"cei care umbla printre nori\", dupa V. Parvan, *Getica. O protoistorie a Daciei;* Buc 1926, pag. 162). Tot Strabon arata ca *kapnobataii,* in virtutea credintei lor, se abtin de la orice fel de aliment din carne, consumand numai vegetale, miere si lactate, fiind asceti solitari si piosi, traind departe de femei. Totodata, se stie despre majoritatea calugarilor daci ca traiau retrasi in incinte subterane, in pesteri sau in locuri in care patrundeau prin scorbura vreunui copac, urmand parca astfel traiectul initiatic al lui Zalmoxe, care se retrasese intr-o \"locuinta\" subterana (de unde se intorsese la un moment dat si unde s-a retras apoi definitiv). in acel loc subteran le promisese Marele lor Preot ca se vor muta si ei, traind de-a pururea si avand parte de toate bucuriile Taranii si muntenii romani spun despre acesti sacerdoti populari ca locuiesc, cel putin in perioada initierii lor, undeva sub pamant, si ca, in timpul activitatii lor, zboara pe balauri printre nori, precum *kapnobataii* daci (la daci *balaurul* era chiar stindardul statului teocrat dac). Am aratat mai sus marturia lui Socrate, ca intalnise \"unul dintre acei doctori\[-preoti\] ai regelui trac \[Mare Preotj Zalmoxe\", care ii dezvaluise secretele descantecelor, in care preotii daci erau neintrecuti, si care posedau chiar \"mestesugul\" de a te face nemuritor (Platon, *Charmides).* Remarcabil ca cei mai mari cunoscatori ai descantecelor sunt, dupa traditiile romanesti, chiar sacerdotii populari, cunoscuti ca *zgrimintesi* sau *solomonari,* conform denumirii lor din ultimele secole.
 >
-> Trebuie să mai precizăm și faptul că zeul Orfeu, atât de venerat cândva de către greci și de către romani, este de obârșie tracă. El este primul personaj mitologic care coboară în *tărâmul celălalt,* orfismul fiind strâns legat de instituția *misterelor* grecești, Orfeu fiind totodată considerat de către cercetători drept instituitorul de *mistere* prin excelență, *misterele* constând în esența lor în coborâri sau călătorii rituale pe celălalt tărâm. întemeietorul statului roman, troianul Enea, atunci când coboară în *Elizeuum* (numele roman al paradisul subteran) îl găsește acolo pe \"preotul din Tracia (pe Orfeu - n.a.), în haina lui cea lungă\" cântând celorlați *fericiți* (Vergilius, *Eneidă).*
+> Trebuie sa mai precizam si faptul ca zeul Orfeu, atat de venerat candva de catre greci si de catre romani, este de obarsie traca. El este primul personaj mitologic care coboara in *taramul celalalt,* orfismul fiind strans legat de institutia *misterelor* grecesti, Orfeu fiind totodata considerat de catre cercetatori drept instituitorul de *mistere* prin excelenta, *misterele* constand in esenta lor in coborari sau calatorii rituale pe celalalt taram. intemeietorul statului roman, troianul Enea, atunci cand coboara in *Elizeuum* (numele roman al paradisul subteran) il gaseste acolo pe \"preotul din Tracia (pe Orfeu - n.a.), in haina lui cea lunga\" cantand celorlati *fericiti* (Vergilius, *Eneida).*
 
-Totodată a fost remarcată la vechii greci o înrudire între partea religioasă a pitagorismului și orfismul inițial, înrudire atât de strânsă încât a fost admisă nu doar o origine comună a lor, ci chiar o perioadă de nedeterminare în care ar fi existat o religie orfico-pitagoriciană\"^1^. Această \"religie orfico-pitagoriciană\" se raportează de fapt, atât direct, cât și indirect la mitologia tracă. Orfeu a fost trac, iar despre Pitagora, Herodot spune, repetând relatările unor greci de la Marea Neagră, că acesta 1-a cunoscut
+Totodata a fost remarcata la vechii greci o inrudire intre partea religioasa a pitagorismului si orfismul initial, inrudire atat de stransa incat a fost admisa nu doar o origine comuna a lor, ci chiar o perioada de nedeterminare in care ar fi existat o religie orfico-pitagoriciana\"^1^. Aceasta \"religie orfico-pitagoriciana\" se raporteaza de fapt, atat direct, cat si indirect la mitologia traca. Orfeu a fost trac, iar despre Pitagora, Herodot spune, repetand relatarile unor greci de la Marea Neagra, ca acesta 1-a cunoscut
 
-pe Zalmoxe, grecii remarcând de fapt similaritatea doctrinelor tracului Zalmoxe cu cea a lui Pitagora. Anticii greci relatau astfel că Pitagora a coborât, pentru o periodă de timp de șapte ani, într-o ascunzătoare subterană (sursele pitagoriciene indică, mai precis, o călătorie pe tărâmul celălalt), ceea ce trimite imediat la coborârea similară a lui Zalmoxe. Pentru a demonstra că tradițiile referitoare la o lume subterană a nemuritorilor este anterioară la traci, grecii cunoscându-le prin legăturile preistorice ce le-au avut cu tracii, este important de subliniat că Herodot, citându-i pe aceiași greci pontici, precizează că Zalmoxe \"a trăit de fapt cu mult înainte de Pitagora\"^1^. Această apropiere dintre Pitagora și Zalmoxe, este simplu de explicat prin înrudirea tracă dintre Orfeu și Zalmoxe, orfismul stând apoi la baza filosofiei lui Pitagora. Această filiație spirituală transpare și din interdicția consumului de carne, pe care o regăsim deopotrivă în cultul lui Zalmoxis, în orfism și în filosofia lui Pitagora.
+pe Zalmoxe, grecii remarcand de fapt similaritatea doctrinelor tracului Zalmoxe cu cea a lui Pitagora. Anticii greci relatau astfel ca Pitagora a coborat, pentru o perioda de timp de sapte ani, intr-o ascunzatoare subterana (sursele pitagoriciene indica, mai precis, o calatorie pe taramul celalalt), ceea ce trimite imediat la coborarea similara a lui Zalmoxe. Pentru a demonstra ca traditiile referitoare la o lume subterana a nemuritorilor este anterioara la traci, grecii cunoscandu-le prin legaturile preistorice ce le-au avut cu tracii, este important de subliniat ca Herodot, citandu-i pe aceiasi greci pontici, precizeaza ca Zalmoxe \"a trait de fapt cu mult inainte de Pitagora\"^1^. Aceasta apropiere dintre Pitagora si Zalmoxe, este simplu de explicat prin inrudirea traca dintre Orfeu si Zalmoxe, orfismul stand apoi la baza filosofiei lui Pitagora. Aceasta filiatie spirituala transpare si din interdictia consumului de carne, pe care o regasim deopotriva in cultul lui Zalmoxis, in orfism si in filosofia lui Pitagora.
 
-> Solitudinea, care era specificul monahilor daci, este la originea numelui *orficilor,* \"orphoi\" însemnând \"însingurații\", iar coborârea lui Orfeu în *Hades* are, conform unui poem orfic, rolul inițierii în tainele lumii de dincolo. Este important de remarcat că orficii și pitagoricienii, spre deosebire de alte secte grecești, au instituit o viață de abstinență și de renunțare, așa cum o făceau deja călugării traci ai lui Zalmoxe, orficii fiind și remarcabili stăpânitori ai \"incantațiilor cele bune ale lui Orfeu\", cei mai reputați descântători ai acelor vremuri fiind însă, după cum arăta Platon, preoții-medici traci. De altfel, încă din antichitate, Strabon și Plutarh au considerat că orfismul provine din Tracia, iar Vergiliu confirmă obârșia tracă a lui Orfeu. (De altfel, Vergiliu era inițiat al misterelor neo-pitagoriciene.)
+> Solitudinea, care era specificul monahilor daci, este la originea numelui *orficilor,* \"orphoi\" insemnand \"insinguratii\", iar coborarea lui Orfeu in *Hades* are, conform unui poem orfic, rolul initierii in tainele lumii de dincolo. Este important de remarcat ca orficii si pitagoricienii, spre deosebire de alte secte grecesti, au instituit o viata de abstinenta si de renuntare, asa cum o faceau deja calugarii traci ai lui Zalmoxe, orficii fiind si remarcabili stapanitori ai \"incantatiilor cele bune ale lui Orfeu\", cei mai reputati descantatori ai acelor vremuri fiind insa, dupa cum arata Platon, preotii-medici traci. De altfel, inca din antichitate, Strabon si Plutarh au considerat ca orfismul provine din Tracia, iar Vergiliu confirma obarsia traca a lui Orfeu. (De altfel, Vergiliu era initiat al misterelor neo-pitagoriciene.)
 >
-> Venind în întâmpinarea apropierilor antice ale lui Zalmoxe sau ale tracilor în general cu personaje istorice sau fabuloase din cultura greacă, caracterizate prin fapte și calități deosebite, cum sunt coborârea în paradisul subteran, inițierea, doctrinele escatologice în legătură cu nemurirea, transa șamanică\... - Mircea Eliade conchide că: \"într-adevăr, Zalmoxis aparține acestui mediu religios și cultural, propriu mai ales tracilor și populațiilor înrudite, balcanice și carpato-dunărene. Este ceva adevărat în clișeele atât de populare în Grecia ulterioară lui Herodot, care-1 plasau pe Zalmoxis alături de Pitagora, Orfeu, Musaios (personaj grec cu prestigiu de taumaturg, care coboară în *Hades* unde îi vede pe cei virtuoși într-un loc paradisiac - n.a.) și mai târziu de Zoroastru, de «înțelepții egipteni» sau de druizi. Toate aceste personaje erau cunoscute ca având experiențe extatice și capabile să reveleze mistere privind sufletul omenesc și supraviețuirea lui. Chiar informația lui Mnases din Patara, elev al lui Erathostene, după care geții l-ar venera pe Kronos numindu-1 Zalmoxis, se poate interpreta în același sens. Căci Kronos (zeu al timpului - n.a) era stăpân în Insulele Feriților, unde sunt admiși numai oamenii pioși.\"^1^ De altfel, grecii au localizat Insula Leuke (Insula Albă), una dintre Insulele Fericiților, în apropierea Tracici, în Marea Neagră (actuala Insulă a Șerpilor).
+> Venind in intampinarea apropierilor antice ale lui Zalmoxe sau ale tracilor in general cu personaje istorice sau fabuloase din cultura greaca, caracterizate prin fapte si calitati deosebite, cum sunt coborarea in paradisul subteran, initierea, doctrinele escatologice in legatura cu nemurirea, transa samanica\... - Mircea Eliade conchide ca: \"intr-adevar, Zalmoxis apartine acestui mediu religios si cultural, propriu mai ales tracilor si populatiilor inrudite, balcanice si carpato-dunarene. Este ceva adevarat in cliseele atat de populare in Grecia ulterioara lui Herodot, care-1 plasau pe Zalmoxis alaturi de Pitagora, Orfeu, Musaios (personaj grec cu prestigiu de taumaturg, care coboara in *Hades* unde ii vede pe cei virtuosi intr-un loc paradisiac - n.a.) si mai tarziu de Zoroastru, de «inteleptii egipteni» sau de druizi. Toate aceste personaje erau cunoscute ca avand experiente extatice si capabile sa reveleze mistere privind sufletul omenesc si supravietuirea lui. Chiar informatia lui Mnases din Patara, elev al lui Erathostene, dupa care getii l-ar venera pe Kronos numindu-1 Zalmoxis, se poate interpreta in acelasi sens. Caci Kronos (zeu al timpului - n.a) era stapan in Insulele Feritilor, unde sunt admisi numai oamenii piosi.\"^1^ De altfel, grecii au localizat Insula Leuke (Insula Alba), una dintre Insulele Fericitilor, in apropierea Tracici, in Marea Neagra (actuala Insula a Serpilor).
 >
-> Lumea subterană a celuilalt tărâm, este evocată adeseori de tradițiile populare și de poveștile românești. Mitologia română arată că sub pământul nostru se mai află o lume. Acolo sunt *tărâmurile celelalte,* unde nu au ajuns decât eroii populari, precum Făt-Frumos, ce ajunge în *Țara tinereții fără bătrânețe și a vieții fără de moarte.* Pe tărâmurile acelea, numite și *Ostroavele Blajinilor* sau *Ostroavele Albe* locuiesc o seamă de oameni sfinți ce se numesc Rohmani sau Rugmani. \"Sunt și ei creștini și credința \[lor\] e tot așa ca și la noi, numai că n-au luat învățătura de la Hristos\...\"^2^ Sunt numiți *\"Blajini\"* pentru că sunt considerați cuvioși, blânzi și drepți. Locul în care trăiesc *Rohmanii* sau *Blajinii,* acțiunea lor de susținere a ordinii cosmice (ei susțin \"stâlpii Pământului\"), caracteristicile lor de oameni sfinți, fericiți și blajini, cerebrarea lor rituală în libații și ofrande (pomeni), ca și alte motivații, au dus la concluzia că avem de a face cu o formă a străvechiului cult autohton al strămoșilor^1^. Se spune despre *Blajini* că, fiind călugări pustnici, sunt căști, se hrănesc numai cu poame, sunt virtuoși și postesc mult timp, aproape tot timpul.
+> Lumea subterana a celuilalt taram, este evocata adeseori de traditiile populare si de povestile romanesti. Mitologia romana arata ca sub pamantul nostru se mai afla o lume. Acolo sunt *taramurile celelalte,* unde nu au ajuns decat eroii populari, precum Fat-Frumos, ce ajunge in *Tara tineretii fara batranete si a vietii fara de moarte.* Pe taramurile acelea, numite si *Ostroavele Blajinilor* sau *Ostroavele Albe* locuiesc o seama de oameni sfinti ce se numesc Rohmani sau Rugmani. \"Sunt si ei crestini si credinta \[lor\] e tot asa ca si la noi, numai ca n-au luat invatatura de la Hristos\...\"^2^ Sunt numiti *\"Blajini\"* pentru ca sunt considerati cuviosi, blanzi si drepti. Locul in care traiesc *Rohmanii* sau *Blajinii,* actiunea lor de sustinere a ordinii cosmice (ei sustin \"stalpii Pamantului\"), caracteristicile lor de oameni sfinti, fericiti si blajini, cerebrarea lor rituala in libatii si ofrande (pomeni), ca si alte motivatii, au dus la concluzia ca avem de a face cu o forma a stravechiului cult autohton al stramosilor^1^. Se spune despre *Blajini* ca, fiind calugari pustnici, sunt casti, se hranesc numai cu poame, sunt virtuosi si postesc mult timp, aproape tot timpul.
 >
-> Unele tradiții vorbesc despre *Nedeia Cetate,* ascunsă undeva într-un munte din Carpați, cetate veșnică unde domnește atemporalitatea. Originea cuvântului *Nedeia* a fost găsită ca fiind o anagramă sau o alitera ție a cuvântului *India,* în semnificația lui originară, adică nu țara cunoscută sub acest nume, ci Spațiul din apropierea Centrului Suprem al Lumii. *Nedeia Cetate* este amintită într-unui dintre cele mai vechi basme românești *(Fiul Vânătorului,* în colecția P. Ispirescu) și în unele tradiții orale, neculesc încă, conform cărora ea este cufundată sub cel mai sacru munte din Carpații românești, în ea are loc o euharistie continuă, uneori unii oameni cucernici putând să audă clopotele Cetății sunând atunci când apune soarele și răsare luceafărul^2^.
+> Unele traditii vorbesc despre *Nedeia Cetate,* ascunsa undeva intr-un munte din Carpati, cetate vesnica unde domneste atemporalitatea. Originea cuvantului *Nedeia* a fost gasita ca fiind o anagrama sau o alitera tie a cuvantului *India,* in semnificatia lui originara, adica nu tara cunoscuta sub acest nume, ci Spatiul din apropierea Centrului Suprem al Lumii. *Nedeia Cetate* este amintita intr-unui dintre cele mai vechi basme romanesti *(Fiul Vanatorului,* in colectia P. Ispirescu) si in unele traditii orale, neculesc inca, conform carora ea este cufundata sub cel mai sacru munte din Carpatii romanesti, in ea are loc o euharistie continua, uneori unii oameni cucernici putand sa auda clopotele Cetatii sunand atunci cand apune soarele si rasare luceafarul^2^.
 >
-> Numită deasemenea *Nedeia,* românii au o sărbătoare foarte bine cunoscută, care marchează un moment foarte important al anului, solstițiul de vară, în *Noaptea de Sânziene* (spre 24 Iunie); sărbătoarea (ce ținea trei zile) a degenerat însă în ultimele secole în simple târguri. La origini *Nedeiile* erau urcări pe munte cu semnificație magico-mitică, de legătură cu sacrul (tradiția cea mai veche trebuie să fi semnificat comuniunea cu *Nedeia Cetate,* ulterior *Nedeiile* fiind însă travestite în sărbători creștine). Conform tuturor tradițiilor românești, comuniunea cu tărâmul celălalt se face prin intermediul apelor (care sunt consubstanțiale cu Apa Sâmbetei ce curge până pe lumea cealaltă, pe ea fiind și *Ostroavele Blajinilor),* astfel că și cu ocazia *Nedeei* prezența unei ape este indispensabilă (este de vorba de lacuri alimentate de izvoare subterane). Astfel, în regiune Olteniei, la *Nedeie* se aduna foarte multă lume în jurul unui lac în care se zicea că s-ar afla ascuns un *balaur* (stihia primordială). Aici există muntele numit Nedeia Mare, având pe el un lac cu același nume și în jurul căruia cu ocazia *Nedeei* se încingea o horă mare de către cei ce urcau pe munte^1^.
+> Numita deasemenea *Nedeia,* romanii au o sarbatoare foarte bine cunoscuta, care marcheaza un moment foarte important al anului, solstitiul de vara, in *Noaptea de Sanziene* (spre 24 Iunie); sarbatoarea (ce tinea trei zile) a degenerat insa in ultimele secole in simple targuri. La origini *Nedeiile* erau urcari pe munte cu semnificatie magico-mitica, de legatura cu sacrul (traditia cea mai veche trebuie sa fi semnificat comuniunea cu *Nedeia Cetate,* ulterior *Nedeiile* fiind insa travestite in sarbatori crestine). Conform tuturor traditiilor romanesti, comuniunea cu taramul celalalt se face prin intermediul apelor (care sunt consubstantiale cu Apa Sambetei ce curge pana pe lumea cealalta, pe ea fiind si *Ostroavele Blajinilor),* astfel ca si cu ocazia *Nedeei* prezenta unei ape este indispensabila (este de vorba de lacuri alimentate de izvoare subterane). Astfel, in regiune Olteniei, la *Nedeie* se aduna foarte multa lume in jurul unui lac in care se zicea ca s-ar afla ascuns un *balaur* (stihia primordiala). Aici exista muntele numit Nedeia Mare, avand pe el un lac cu acelasi nume si in jurul caruia cu ocazia *Nedeei* se incingea o hora mare de catre cei ce urcau pe munte^1^.
 
-\"Și Nedeia spațială și cea temporală aveau ca scop să actualizeze *India adevărată,* într-un punct din timp și spațiu\"^2^. De Sânziene (24 iunie, zi de celebrare a *Nedeei),* când se deschid porțile cerurilor pentru o clipă, unii români se duceau la anumite izvoare, mai cu seamă la un lac ce izvora pe muntele Semenic. Ei ziceau că se duc să afle \"ușurare de toată durerea și neputința\"^3^. Aici, pe Semenic, aproape de vârful celui mai înalt munte din Banat, se află micul lac *Nedeia^4^,* numit și *Scăldătoarea Vulturilor,* loc de care se leagă credințe și obiceiuri magico-medicale populare românești^5^. Amândouă numele acestui loc au o deosebită importanță. Am văzut semnificația *Nedeei,* de suspendare a barierelor temporalității. în ceea ce privește al doilea nume, el este legat de imaginea mitologică a Vulturului, de chezaș al nemuririi și al veșnicei tinereți. în această ipostază îl întâlnim pe monumentele funerare din Dacia și în străvechea artă traco-getică^6^. După credințele românilor, odată la 30 de ani, Vulturul se duce la un izvor cu apă vie (\"la fântâna lui Iordan\" - adică în Centrul Lumii), se scaldă acolo și întinerește^1^. Și în Vedele indiene Vulturul înfruntând soarele îi iau foc penele, apoi \"se aruncă într-o apă curată, dobândind astfel o nouă tinerețe\"^2^. în basmele românești, Vulturul este cel ce îi aduce eroului apa vie și apa moartă (Isp., basmul *Țugulea fiul unchiașului și al mătușei;* Ret., basmul *Crâncu, vânătorul codrului).* Vulturul este o ființă ce are legături cu *lumea cealaltă* si poate fi astfel călăuză într-o călătorie dincolo de lumea profană^3^. Acest aspect este semnificativ, dacă îl punem în relație cu faptul că un anumit ritual petrecut în noaptea de Sânziene (noapte specială, ce conține momentul de transcendere cosmică) este centrat asupra lacului *Scăldătoarea Vulturilor,* care prin numele său indică identificarea cu izvoarele *apei vii,* situate mitic pe *celălalt tărâm.* Precum în miturile antice era evocat talismanul magic necesar pentru a întreprinde o călătorie în lumea de dincolo, reprezentat simbolic de *Creanga de Aur,* românii vorbesc și despre *Fulgul Auriu* al Vulturilor, investit cu aceași funcție. Exprimând un motiv mai vechi, care în timp și-a pierdut sensul (sau care, oricum, este extrem de ocultat), un colind românesc *(\"Dalbe zori de ziuă, Voi nu vă grăbiți Și nu-mi răsăriți, C-am fost depărtați Peste-ăi vârfi de munți, Unde ne-ncetat Doi vulturi se bat Pe-un fulg aurel\"^A^)* aduc simbolic celor colindați Fulgul fermecat al Vulturului, ale cărui posibilități pot activa chiar și în planul material (deși nu aceasta este funcția sa originară), precum în basmul *Povestea lui Pantilie* (din colecția George Cătană), basm din aceleași locuri cu muntele Semenic (din Banat), și în care \"pana fermecată\" poate aduce casă și avere sau poate preface un om în câine (de exemplu). Credem că versurile de colind de mai sus redau imaginea mitică a colindătorilor care, în timpul nopții magice, au fost sus pe muntele Vulturilor după \"fulgul aurel\",
+\"Si Nedeia spatiala si cea temporala aveau ca scop sa actualizeze *India adevarata,* intr-un punct din timp si spatiu\"^2^. De Sanziene (24 iunie, zi de celebrare a *Nedeei),* cand se deschid portile cerurilor pentru o clipa, unii romani se duceau la anumite izvoare, mai cu seama la un lac ce izvora pe muntele Semenic. Ei ziceau ca se duc sa afle \"usurare de toata durerea si neputinta\"^3^. Aici, pe Semenic, aproape de varful celui mai inalt munte din Banat, se afla micul lac *Nedeia^4^,* numit si *Scaldatoarea Vulturilor,* loc de care se leaga credinte si obiceiuri magico-medicale populare romanesti^5^. Amandoua numele acestui loc au o deosebita importanta. Am vazut semnificatia *Nedeei,* de suspendare a barierelor temporalitatii. in ceea ce priveste al doilea nume, el este legat de imaginea mitologica a Vulturului, de chezas al nemuririi si al vesnicei tinereti. in aceasta ipostaza il intalnim pe monumentele funerare din Dacia si in stravechea arta traco-getica^6^. Dupa credintele romanilor, odata la 30 de ani, Vulturul se duce la un izvor cu apa vie (\"la fantana lui Iordan\" - adica in Centrul Lumii), se scalda acolo si intinereste^1^. Si in Vedele indiene Vulturul infruntand soarele ii iau foc penele, apoi \"se arunca intr-o apa curata, dobandind astfel o noua tinerete\"^2^. in basmele romanesti, Vulturul este cel ce ii aduce eroului apa vie si apa moarta (Isp., basmul *Tugulea fiul unchiasului si al matusei;* Ret., basmul *Crancu, vanatorul codrului).* Vulturul este o fiinta ce are legaturi cu *lumea cealalta* si poate fi astfel calauza intr-o calatorie dincolo de lumea profana^3^. Acest aspect este semnificativ, daca il punem in relatie cu faptul ca un anumit ritual petrecut in noaptea de Sanziene (noapte speciala, ce contine momentul de transcendere cosmica) este centrat asupra lacului *Scaldatoarea Vulturilor,* care prin numele sau indica identificarea cu izvoarele *apei vii,* situate mitic pe *celalalt taram.* Precum in miturile antice era evocat talismanul magic necesar pentru a intreprinde o calatorie in lumea de dincolo, reprezentat simbolic de *Creanga de Aur,* romanii vorbesc si despre *Fulgul Auriu* al Vulturilor, investit cu aceasi functie. Exprimand un motiv mai vechi, care in timp si-a pierdut sensul (sau care, oricum, este extrem de ocultat), un colind romanesc *(\"Dalbe zori de ziua, Voi nu va grabiti Si nu-mi rasariti, C-am fost departati Peste-ai varfi de munti, Unde ne-ncetat Doi vulturi se bat Pe-un fulg aurel\"^A^)* aduc simbolic celor colindati Fulgul fermecat al Vulturului, ale carui posibilitati pot activa chiar si in planul material (desi nu aceasta este functia sa originara), precum in basmul *Povestea lui Pantilie* (din colectia George Catana), basm din aceleasi locuri cu muntele Semenic (din Banat), si in care \"pana fermecata\" poate aduce casa si avere sau poate preface un om in caine (de exemplu). Credem ca versurile de colind de mai sus redau imaginea mitica a colindatorilor care, in timpul noptii magice, au fost sus pe muntele Vulturilor dupa \"fulgul aurel\",
 
-> cheie a porților nevăzutului^1^.
+> cheie a portilor nevazutului^1^.
 >
-> Vrem să redăm în continuare, pentru farmecul său aparte, descrierea ritualului ancestral al unei asemenea ascensiuni pe munte, așa cum a fost el văzut de ochii unui tânăr care avea să devină după ani unul dintre cei mai importanți folcloriști români contemporani.
+> Vrem sa redam in continuare, pentru farmecul sau aparte, descrierea ritualului ancestral al unei asemenea ascensiuni pe munte, asa cum a fost el vazut de ochii unui tanar care avea sa devina dupa ani unul dintre cei mai importanti folcloristi romani contemporani.
 >
-> \"în dimineața ajunului sărbătorii s-au urcat pe Ceahlău patru buciumași cu buciume de alun. Până după amiază au strâns vreascuri de jnepeni și brad și au întocmit *patru ruguri* mari în cele patru puncte cardinale ale muntelui. După masă, la începutul asfințitului, pentru a anunța urcarea pe munte, au aprins rugurile simultan și au început să buciume îndelung. La pâlpâitul rugurilor pe cer ca niște luceferi și la chemarea buviumelor s-a început escaladarea muntelui de pelerini, în convoaie domoale, din cele patru părți ale poalelor muntelui. Convoaiele care urcau în monom muntele erau călăuzite de bătrâni. La convoaie participau maturi, tineri și copii, toți îmbrăcați în haine de sărbătoare\... Nu vorbeau, mergeau solemn în pas încet, căci ritualul impunea să se ajungă sus, pe culme, înainte de miezul nopții. Cum drumurile erau prin pădurea sub-montană, care abia sub culme lăsa locul jnepenișului, și noaptea căzuse, pelerinii urcau orbește. Din cinci în cinci pelerini, unul purta o făclie. Când în pădure întunericul nopții a luat proporții de beznă, făcliile au fost aprinse. Convoiul urca solemn, într-o tăcere turburată numai de fâlfâitul flăcărilor fumegânde, de trosnetul vreascurilor călcate în picioare sau de vreo pală de vânt care fremăta bolta înaltă a frunzișului des. Odată ajunși sus, pelerinii s-au strâns în cerc, în jurul rugurilor, unde după tradiție trebuiau să vegheze până la răsăritul soarelui\...\"^2^.
+> \"in dimineata ajunului sarbatorii s-au urcat pe Ceahlau patru buciumasi cu buciume de alun. Pana dupa amiaza au strans vreascuri de jnepeni si brad si au intocmit *patru ruguri* mari in cele patru puncte cardinale ale muntelui. Dupa masa, la inceputul asfintitului, pentru a anunta urcarea pe munte, au aprins rugurile simultan si au inceput sa buciume indelung. La palpaitul rugurilor pe cer ca niste luceferi si la chemarea buviumelor s-a inceput escaladarea muntelui de pelerini, in convoaie domoale, din cele patru parti ale poalelor muntelui. Convoaiele care urcau in monom muntele erau calauzite de batrani. La convoaie participau maturi, tineri si copii, toti imbracati in haine de sarbatoare\... Nu vorbeau, mergeau solemn in pas incet, caci ritualul impunea sa se ajunga sus, pe culme, inainte de miezul noptii. Cum drumurile erau prin padurea sub-montana, care abia sub culme lasa locul jnepenisului, si noaptea cazuse, pelerinii urcau orbeste. Din cinci in cinci pelerini, unul purta o faclie. Cand in padure intunericul noptii a luat proportii de bezna, facliile au fost aprinse. Convoiul urca solemn, intr-o tacere turburata numai de falfaitul flacarilor fumegande, de trosnetul vreascurilor calcate in picioare sau de vreo pala de vant care fremata bolta inalta a frunzisului des. Odata ajunsi sus, pelerinii s-au strans in cerc, in jurul rugurilor, unde dupa traditie trebuiau sa vegheze pana la rasaritul soarelui\...\"^2^.
 >
-> Am arătat diferite credințe populare românești despre lumea cealaltă, cea de sub pământ, încercând să stabilim câteva trăsături generale ale unei tradiții unice, ancestrale, ce a supraviețuit în aceste credințe. Această tradiție a fost instaurată în Carpații Sud-Estici de către tracii ce urmau învățătura lui Zalmoxe. Sacerdoții traco-daci s-au transformat în sacerdoți populari ai românilor, deși ei aparțineau mai mult spiritualității unei lumi apuse, a *moșilor-strămoși* daci, identitatea lor oscilând între personajul mitologic și vrăjitorul meteorologic popular. Iată cum au fost ei descriși:
+> Am aratat diferite credinte populare romanesti despre lumea cealalta, cea de sub pamant, incercand sa stabilim cateva trasaturi generale ale unei traditii unice, ancestrale, ce a supravietuit in aceste credinte. Aceasta traditie a fost instaurata in Carpatii Sud-Estici de catre tracii ce urmau invatatura lui Zalmoxe. Sacerdotii traco-daci s-au transformat in sacerdoti populari ai romanilor, desi ei apartineau mai mult spiritualitatii unei lumi apuse, a *mosilor-stramosi* daci, identitatea lor osciland intre personajul mitologic si vrajitorul meteorologic popular. Iata cum au fost ei descrisi:
 >
-> \"în vremurile nu tare de demult, ba în unele locuri și acum, umblă niște oameni zdrențăroși din casă\'n casă și din sat în sat, neavând cu ei decât o desagă în spate și sunt tare bine primiți, ori unde se prezintă.
+> \"in vremurile nu tare de demult, ba in unele locuri si acum, umbla niste oameni zdrentarosi din casa\'n casa si din sat in sat, neavand cu ei decat o desaga in spate si sunt tare bine primiti, ori unde se prezinta.
 >
-> Aceștia sunt *solomonarii.* Românii cred despre ei că sunt oameni tare evlavioși și mai ales cu multă știință de carte și foarte deschiși la minte.\[\...\]
+> Acestia sunt *solomonarii.* Romanii cred despre ei ca sunt oameni tare evlaviosi si mai ales cu multa stiinta de carte si foarte deschisi la minte.\[\...\]
 
-Pe calea norilor, așa se\'ntorc solomonarii înapoi în țara noastră, și-n satul de unde au plecat. Și-i conduc \[pe nori\] așa cum vor ei. Ei stau pe nori ca pe un cal, țin în mână o cârjă, cu care conduc norul și cartea cu toate învățăturile lumii. Ei pot sta în nori, cât vor ei. Numai din când în când se mai scoboară pe pământ, ca să cerce pe oameni, dacă ascultă de învățăturile *creștinești* (!) și dacă li-i tare credința. De aceea ei umblă rău îmbrăcați și desculți, cerșind din poartă-n poartă\... Dacă i-ai mulțumit și i-ai omenit cum trebuie și i-ai dăruit după starea ta, atunci solomonarul te răsplătește, mergându-ți toate în plin. Acei, însă, care-i disprețuiesc, ori îi alungă sunt pedepsiți de Solomonari, căci le bat ogoarele cu grindină și furtună și le ^me^rge rău în *Pravila lui Matei Basarab,* datând din 1652, se fi referiri la sacerdoții populari cu puteri meteorologice, fiin numiți \"gonitori de nori\" (la acea vreme numele de *solomonar* nefiind încă consemnat). Acest fapt dovedește că numele vechi al sacerdotilor populari nu era cel de *solomonari* (nume dobândit prin contaminarea iudeo-creștină), căci ei nu sunt numiți astfel de către *Pravilă,* ci \"gonitori de nori\". Ne putem întreba, care a fost numeFe original daco-român cu care erau desemnați?
+Pe calea norilor, asa se\'ntorc solomonarii inapoi in tara noastra, si-n satul de unde au plecat. Si-i conduc \[pe nori\] asa cum vor ei. Ei stau pe nori ca pe un cal, tin in mana o carja, cu care conduc norul si cartea cu toate invataturile lumii. Ei pot sta in nori, cat vor ei. Numai din cand in cand se mai scoboara pe pamant, ca sa cerce pe oameni, daca asculta de invataturile *crestinesti* (!) si daca li-i tare credinta. De aceea ei umbla rau imbracati si desculti, cersind din poarta-n poarta\... Daca i-ai multumit si i-ai omenit cum trebuie si i-ai daruit dupa starea ta, atunci solomonarul te rasplateste, mergandu-ti toate in plin. Acei, insa, care-i dispretuiesc, ori ii alunga sunt pedepsiti de Solomonari, caci le bat ogoarele cu grindina si furtuna si le ^me^rge rau in *Pravila lui Matei Basarab,* datand din 1652, se fi referiri la sacerdotii populari cu puteri meteorologice, fiin numiti \"gonitori de nori\" (la acea vreme numele de *solomonar* nefiind inca consemnat). Acest fapt dovedeste ca numele vechi al sacerdotilor populari nu era cel de *solomonari* (nume dobandit prin contaminarea iudeo-crestina), caci ei nu sunt numiti astfel de catre *Pravila,* ci \"gonitori de nori\". Ne putem intreba, care a fost numeFe original daco-roman cu care erau desemnati?
 
-> în concepția populară, imaginea finală a *solomonarului* sau a *zgrimințieșului^1^* este destul de complexă. Ea unește tradiția primă, a preoției ascetice traco-daco-getă (ce pare că avea atribute meteorologice), cu legendele populare referitoare la sfântul Ilie sau - în unele regiuni -, cu textele apocrife referitoare la regele Solomon. Se pare că în regiunea Maramureșului, acolo unde este întrebuințat numele de *zgrimințieș,* imaginea sa este mai apropiată de cea originară.
+> in conceptia populara, imaginea finala a *solomonarului* sau a *zgrimintiesului^1^* este destul de complexa. Ea uneste traditia prima, a preotiei ascetice traco-daco-geta (ce pare ca avea atribute meteorologice), cu legendele populare referitoare la sfantul Ilie sau - in unele regiuni -, cu textele apocrife referitoare la regele Solomon. Se pare ca in regiunea Maramuresului, acolo unde este intrebuintat numele de *zgriminties,* imaginea sa este mai apropiata de cea originara.
 >
-> Considerăm *zgrimințieșul* un sacerdot popular și pentru că este singurul personaj din conștiința mitico-populară la care actul inițierii este menționat în mod expres. Inițierea sa este obligatorie și, legat de aceasta, sunt consemnate o serie de credințe și de legende extraordinare.
+> Consideram *zgrimintiesul* un sacerdot popular si pentru ca este singurul personaj din constiinta mitico-populara la care actul initierii este mentionat in mod expres. Initierea sa este obligatorie si, legat de aceasta, sunt consemnate o serie de credinte si de legende extraordinare.
 >
-> Ei sunt recrutați de când sunt copii și ințiați într-un loc ascuns, inaccesibil profanilor. Inițierea lor în tainele văzduhului, ale munților, ale peșterilor cele mai adânci și ale iezerelor înalte (într-un cuvânt ale Cosmosului tradițional), durează de regulă un număr impar de ani. Numărul lor este mic, pentru că școala ce o urmează durează mult și nu sunt aleși decât dacă îndeplinesc condiții speciale. Intră în această școală numai câte șapte sau nouă viitori sacerdoți purtători ai norilor.
+> Ei sunt recrutati de cand sunt copii si intiati intr-un loc ascuns, inaccesibil profanilor. Initierea lor in tainele vazduhului, ale muntilor, ale pesterilor cele mai adanci si ale iezerelor inalte (intr-un cuvant ale Cosmosului traditional), dureaza de regula un numar impar de ani. Numarul lor este mic, pentru ca scoala ce o urmeaza dureaza mult si nu sunt alesi decat daca indeplinesc conditii speciale. Intra in aceasta scoala numai cate sapte sau noua viitori sacerdoti purtatori ai norilor.
 >
-> Devin *zgrimințeși* sau *solomonari* numai copiii ce s-au născut cu *căiță* pe cap (o membrană de piele ce acoperă capul copilului, ca un fel de căciulită naturală - uneori această piele
+> Devin *zgrimintesi* sau *solomonari* numai copiii ce s-au nascut cu *caita* pe cap (o membrana de piele ce acopera capul copilului, ca un fel de caciulita naturala - uneori aceasta piele
 >
-> \"mbracă chiar întregul trup; căița este îndepărtată de către *moașă).* Unii dintre acești copii însemnați din naștere, predestinați deci să cunoască tainele stihiiale ale lumii (în popor se mai crede despre cei născuți cu *căiță* că vor fi *strigoi,* adică vor putea călători în afara trupului), sunt furați de mici de către *zgrimințeși* bătrâni și duși la școala din \"Crugul Pământului\", pe Celălalt Tărâm. Acolo sunt instruiți în chipul cel mai crud, până la vârsta de 20 de ani. Sunt supuși în acel loc la cele mai aspre chinuri imaginabile de către popor.
+> \"mbraca chiar intregul trup; caita este indepartata de catre *moasa).* Unii dintre acesti copii insemnati din nastere, predestinati deci sa cunoasca tainele stihiiale ale lumii (in popor se mai crede despre cei nascuti cu *caita* ca vor fi *strigoi,* adica vor putea calatori in afara trupului), sunt furati de mici de catre *zgrimintesi* batrani si dusi la scoala din \"Crugul Pamantului\", pe Celalalt Taram. Acolo sunt instruiti in chipul cel mai crud, pana la varsta de 20 de ani. Sunt supusi in acel loc la cele mai aspre chinuri imaginabile de catre popor.
 >
-> După ce își însușesc inițierea magică ei devin protectorii drumurilor de munte, stăpâni ai secretelor vămilor văzduhului și ai *stihiilor-balauri* purtătoare ale intemperiilor. Ei descind din măruntaiele munților la vremuri de cumpănă, străbătând satele, cerșind și încercând inimile oamenilor. Pomana ce o primesc o aruncă pe ape curgătoare, pentru a ajunge ofrandă pe Tărâmul Celălalt, parcurgând Apa Sâmbetei. Când sătenii nu se comportă corespunzător, *zgrimințeșii* aduc norii de ploaie și grindină asupra pământurilor lor. în momentul acesta, când călătoresc pe balauri sau pe nori, ei sunt invizibili. Nu pot fi zăriți decât de către alți vrăjitori^1^.
+> Dupa ce isi insusesc initierea magica ei devin protectorii drumurilor de munte, stapani ai secretelor vamilor vazduhului si ai *stihiilor-balauri* purtatoare ale intemperiilor. Ei descind din maruntaiele muntilor la vremuri de cumpana, strabatand satele, cersind si incercand inimile oamenilor. Pomana ce o primesc o arunca pe ape curgatoare, pentru a ajunge ofranda pe Taramul Celalalt, parcurgand Apa Sambetei. Cand satenii nu se comporta corespunzator, *zgrimintesii* aduc norii de ploaie si grindina asupra pamanturilor lor. in momentul acesta, cand calatoresc pe balauri sau pe nori, ei sunt invizibili. Nu pot fi zariti decat de catre alti vrajitori^1^.
 
-Așa cum am văzut, viitorii sacerdoți cu puteri meterologice sunt recrutați dintre copiii ce au avut pe cap în momentul nașterii o piele de forma unei căciulite. Această căciulită este semnul predestinării preoției magice, așa după cum, tot ca semn distinctiv, clerul trac purta pe cap acele *pilos,* niște căciuli de lână. Este evident că preoții-călugări traci erau desemnați de către popor cu alte nume decât cele pe care li le-au dat grecii sau romanii (numele date de greci fiind de fapt caracterizări, ca
+Asa cum am vazut, viitorii sacerdoti cu puteri meterologice sunt recrutati dintre copiii ce au avut pe cap in momentul nasterii o piele de forma unei caciulite. Aceasta caciulita este semnul predestinarii preotiei magice, asa dupa cum, tot ca semn distinctiv, clerul trac purta pe cap acele *pilos,* niste caciuli de lana. Este evident ca preotii-calugari traci erau desemnati de catre popor cu alte nume decat cele pe care li le-au dat grecii sau romanii (numele date de greci fiind de fapt caracterizari, ca
 
-purtătorii de căciuli\" - *pileați, pleistoi, pleiskoi,* \"cei care se tem ^e^ Zeu\" - *theosebeis* sau \"cei care umblă pe nori\" -- *kapnobatai* . După înfrângerea statului teocrat dac, Dacia devenind provincie romană, a urmat prigoana clerului dacilor (o situație similară o regăsim azi în Tibet, deasemenea stat teocrat, unde
+purtatorii de caciuli\" - *pileati, pleistoi, pleiskoi,* \"cei care se tem ^e^ Zeu\" - *theosebeis* sau \"cei care umbla pe nori\" -- *kapnobatai* . Dupa infrangerea statului teocrat dac, Dacia devenind provincie romana, a urmat prigoana clerului dacilor (o situatie similara o regasim azi in Tibet, deasemenea stat teocrat, unde
 
-ocupanții prigonesc cu înverșunare pe sacerdoții *lama).* Este firesc că acesta nu a putut fi cu desăvârșire anihilat. Ascunși în creierii și în măruntaiele munților, sacerdoții daci aveau un statut cu totul deosebit de cel al celorlalți daci, supuși imperiului roman. Cu timpul sacerdoții munților, urmași ai lui Zalmoxe,
+ocupantii prigonesc cu inversunare pe sacerdotii *lama).* Este firesc ca acesta nu a putut fi cu desavarsire anihilat. Ascunsi in creierii si in maruntaiele muntilor, sacerdotii daci aveau un statut cu totul deosebit de cel al celorlalti daci, supusi imperiului roman. Cu timpul sacerdotii muntilor, urmasi ai lui Zalmoxe,
 
-erau din ce în ce mai învăluiți în taină, populația daco-romană considerându-i aproape niște zei. Ei erau încă depozitarii științei
+erau din ce in ce mai invaluiti in taina, populatia daco-romana considerandu-i aproape niste zei. Ei erau inca depozitarii stiintei
 
-magico-religioase a preoției zalmoxiene, stăpâneau secretele văzduhului, ale plantelor, ale cuvintelor. Populația daco-română
+magico-religioase a preotiei zalmoxiene, stapaneau secretele vazduhului, ale plantelor, ale cuvintelor. Populatia daco-romana
 
-de mai târziu a continuat să arate un respect nelimitat în instituția acestor sacerdoți, de care se temeau, dar în care își recunoșteau strămoșii. Desprinși din tradiția religioasă dacă, daco-românii au numit ordinul religios al acestor magi-asceți după chiar numele nemuritorului strămoș - Mare Preot, Zalmoxe
+de mai tarziu a continuat sa arate un respect nelimitat in institutia acestor sacerdoti, de care se temeau, dar in care isi recunosteau stramosii. Desprinsi din traditia religioasa daca, daco-romanii au numit ordinul religios al acestor magi-asceti dupa chiar numele nemuritorului stramos - Mare Preot, Zalmoxe
 
-> (precum și creștinii au fost numiți după Christos, buddhiștii după Buddha, mahomedanii după Mahomed). Filosoful antic grea Porphyrios, scria că rădăcina tracă a numelui zeului Zalmoxis (anume *zalmos)* înseamnă \"piele\" *(Viața lui Pythagoras,* 14); Porphyrios completa această relatare cu o inevitabilă și pitorească invenție greacă, anume că numele lui Zalmoxis i se trage de la faptul că la naștere fusese aruncată asupra lui o *pieli* de urs (de fapt Porhyrios dă două semnificații *posibile* ale numelui lui Zalmoxe, acela de \"purtător de piele\" și cel de \"ort care călătorește\", deci de peregrin), iar un gramatic antic grec, Herodian, arăta că *\"Zamolxis* se mai spune și Zalmaxis și *Salmaxis\"^x^.* Dacă pronunția corectă a numelui Marelui Preot trac *i* fost cea de *Salmaxis,* iar acest nume este asociat ideii de piele, putem aprecia că numele popular daco-român al preoților călugări ar fi fost unul derivat din rădăcina *Salma,* iar nașterea cu o piele pe cap *(căița* la români) sau peste întreg trupul îi desemna pe cei ce urmau să intre în acest ordin monahal de reminiscență dacă. Odată cu pătrunderea puternică a culturii iudeo-creștine în spațiul Carpatic, numele *salma-m\\or* devine cel de *solomonari* (printr-o ușoară apropiere fonetică), poporul asociind știința magică a *salma-m\\ox* cu cea a celui mai mare magician al acestei culturi, regele-vrăjitor Solomon. Ca și precursorii lor, preoții-asceți zalmoxieni, *solomonarii* erau vegetarieni și căști, îndeplineau un sacerdoțiu legat de manifestările meteorologice, trăind de regulă departe de lume. Mutația fonetică *Salman* - *Solomonar* nu ar fi singurul caz de acest gen din limba română. Bunăoară, cuvântul indo-european *Salamandră* devine *Șolomândră^1^* sau *Solomâzdră^2^,* fapt explicabil prin aceea că Salamandra este, și în tradițiile populare românești, o reptilă cu atribute mitico-magice, ceea ce a determinat conștiința populară mai recentă să o pună în legătură cu polul central al magiei din tradiția iudco-creștină, cu același împărat Solomon, alterând numele Salamandrei după cel al lui Solomon. Credințele românilor despre Salamandră (despre reptile în general) se pot înscrie în sfera mai largă a reminiscențelor cultului reptilei (balaurului) la daci. Românii cred că Salamndra vine din cer, odată cu ploaia. Ea nu piere nici dacă o arunci pe cărbuni aprinși, căci învie după ce este arsă. în general, apariția unei șopârle este privită de către români ca un semn bun, ea fiind o ființă sfântă^3^ (întreaga lume antică considera Salamandra ca pe o ființă fantastică; ea poate stinge focul sau poate chiar trăi printre flăcări; animal himeric, este întotdeauna reprezentat în mijlocul flăcărilor stând pe cele patru labe ale sale Ș\' cu capul răsucit; ea apare în emblemele mai multor familii nobile medievale, fiind celebră însă ca emblemă a lui Charles de Valois^1^.) Un alt exemplu îl putem lua din arsenalul leacurilor populare romanești care, incluzând și unele substanțe de proveniență farmaceutică, conține substanța numită *solomniac,* denumire derivată specific de către popor din cea de *salmiac,* nume sub care se comercializa odinioară în \"potică\" (farmacie) clorhidratul de amoniac natural (numele *salmiac* este de sorginte franceză)^2^.
+> (precum si crestinii au fost numiti dupa Christos, buddhistii dupa Buddha, mahomedanii dupa Mahomed). Filosoful antic grea Porphyrios, scria ca radacina traca a numelui zeului Zalmoxis (anume *zalmos)* inseamna \"piele\" *(Viata lui Pythagoras,* 14); Porphyrios completa aceasta relatare cu o inevitabila si pitoreasca inventie greaca, anume ca numele lui Zalmoxis i se trage de la faptul ca la nastere fusese aruncata asupra lui o *pieli* de urs (de fapt Porhyrios da doua semnificatii *posibile* ale numelui lui Zalmoxe, acela de \"purtator de piele\" si cel de \"ort care calatoreste\", deci de peregrin), iar un gramatic antic grec, Herodian, arata ca *\"Zamolxis* se mai spune si Zalmaxis si *Salmaxis\"^x^.* Daca pronuntia corecta a numelui Marelui Preot trac *i* fost cea de *Salmaxis,* iar acest nume este asociat ideii de piele, putem aprecia ca numele popular daco-roman al preotilor calugari ar fi fost unul derivat din radacina *Salma,* iar nasterea cu o piele pe cap *(caita* la romani) sau peste intreg trupul ii desemna pe cei ce urmau sa intre in acest ordin monahal de reminiscenta daca. Odata cu patrunderea puternica a culturii iudeo-crestine in spatiul Carpatic, numele *salma-m\\or* devine cel de *solomonari* (printr-o usoara apropiere fonetica), poporul asociind stiinta magica a *salma-m\\ox* cu cea a celui mai mare magician al acestei culturi, regele-vrajitor Solomon. Ca si precursorii lor, preotii-asceti zalmoxieni, *solomonarii* erau vegetarieni si casti, indeplineau un sacerdotiu legat de manifestarile meteorologice, traind de regula departe de lume. Mutatia fonetica *Salman* - *Solomonar* nu ar fi singurul caz de acest gen din limba romana. Bunaoara, cuvantul indo-european *Salamandra* devine *Solomandra^1^* sau *Solomazdra^2^,* fapt explicabil prin aceea ca Salamandra este, si in traditiile populare romanesti, o reptila cu atribute mitico-magice, ceea ce a determinat constiinta populara mai recenta sa o puna in legatura cu polul central al magiei din traditia iudco-crestina, cu acelasi imparat Solomon, alterand numele Salamandrei dupa cel al lui Solomon. Credintele romanilor despre Salamandra (despre reptile in general) se pot inscrie in sfera mai larga a reminiscentelor cultului reptilei (balaurului) la daci. Romanii cred ca Salamndra vine din cer, odata cu ploaia. Ea nu piere nici daca o arunci pe carbuni aprinsi, caci invie dupa ce este arsa. in general, aparitia unei soparle este privita de catre romani ca un semn bun, ea fiind o fiinta sfanta^3^ (intreaga lume antica considera Salamandra ca pe o fiinta fantastica; ea poate stinge focul sau poate chiar trai printre flacari; animal himeric, este intotdeauna reprezentat in mijlocul flacarilor stand pe cele patru labe ale sale S\' cu capul rasucit; ea apare in emblemele mai multor familii nobile medievale, fiind celebra insa ca emblema a lui Charles de Valois^1^.) Un alt exemplu il putem lua din arsenalul leacurilor populare romanesti care, incluzand si unele substante de provenienta farmaceutica, contine substanta numita *solomniac,* denumire derivata specific de catre popor din cea de *salmiac,* nume sub care se comercializa odinioara in \"potica\" (farmacie) clorhidratul de amoniac natural (numele *salmiac* este de sorginte franceza)^2^.
 >
-> Conform imaginii tradiționale, *solomonarii* au hainele zdrențuite și poartă asupra lor o traistă, o carte magică, un frâu din coajă de mesteacăn, un toiag și un topor de fier descântat. Este unanimă părerea despre puterile supra-omenești ale lor. Un astfel de sacerdot popular spunea: \"Eu știu gândul la toți oamenii, îi știu cum îi cheamă\...\"^3^. Ei sunt întotdeauna scurți la*\'* vorbă, îi auzi arareori vorbind și nu mulțumesc pentru ceea ce primesc de la oameni (ca ultimi reprezentanți ai vechilor stăpâni ai acestor munți, consideră că primesc ce este al lor). Dacă primesc pâine nu o mănâncă, ci o aruncă într-un gest ritualic pe apă (apa curgătoare comunică cu tărâmul celălalt prin *Apa Sâmbetei).* Nu dorm niciodată în casă, chiar \"de ar și crăpa lemnu\' de frig\", cum spun țăranii; locuiesc în munți prin peșteri,\] prin păduri\... Referitor la nașterea celor predestinații sacerdoțiului popular, se crede că ei sunt predestinați să \"poarte vremile\", să stăpânească stihiile lumii. Românii din Carpații! Apuseni spun despre ei că se nasc îmbrăcați într-o *cămașă de\\ piele,* pe care părinții o îngroapă în pământ, acolo ea crescând^1^ odată cu copilul. Când sunt mari ei o dezgroapă și, îmbrăcând-o, au putere peste \"balauri\" (peste forțele ce țin cosmosul)^4^. Pornind de la importanta precizare a filozofului Porphyrios, că! numele lui Zalmoxe însemnă \"piele\" *(Salma* după gramaticul greci Herodian), deoarece la naștere avea asupra sa o piele, considerăm că Marel Zeul dac este prototipul sacerdoților populari români^1^.
+> Conform imaginii traditionale, *solomonarii* au hainele zdrentuite si poarta asupra lor o traista, o carte magica, un frau din coaja de mesteacan, un toiag si un topor de fier descantat. Este unanima parerea despre puterile supra-omenesti ale lor. Un astfel de sacerdot popular spunea: \"Eu stiu gandul la toti oamenii, ii stiu cum ii cheama\...\"^3^. Ei sunt intotdeauna scurti la*\'* vorba, ii auzi arareori vorbind si nu multumesc pentru ceea ce primesc de la oameni (ca ultimi reprezentanti ai vechilor stapani ai acestor munti, considera ca primesc ce este al lor). Daca primesc paine nu o mananca, ci o arunca intr-un gest ritualic pe apa (apa curgatoare comunica cu taramul celalalt prin *Apa Sambetei).* Nu dorm niciodata in casa, chiar \"de ar si crapa lemnu\' de frig\", cum spun taranii; locuiesc in munti prin pesteri,\] prin paduri\... Referitor la nasterea celor predestinatii sacerdotiului popular, se crede ca ei sunt predestinati sa \"poarte vremile\", sa stapaneasca stihiile lumii. Romanii din Carpatii! Apuseni spun despre ei ca se nasc imbracati intr-o *camasa de\\ piele,* pe care parintii o ingroapa in pamant, acolo ea crescand^1^ odata cu copilul. Cand sunt mari ei o dezgroapa si, imbracand-o, au putere peste \"balauri\" (peste fortele ce tin cosmosul)^4^. Pornind de la importanta precizare a filozofului Porphyrios, ca! numele lui Zalmoxe insemna \"piele\" *(Salma* dupa gramaticul greci Herodian), deoarece la nastere avea asupra sa o piele, consideram ca Marel Zeul dac este prototipul sacerdotilor populari romani^1^.
 >
-> Medicii populari ai aromânilor aveau multe trăsături comune cu *solomonarii* din Carpați. Erau numiți \"Mascații\" și se ocupau mai ales cu chirurgia, la sfârșitul secolului trecut fiind mai căutați de popor decât medicii oficiali, știița lor medicală fiind concordantă cu credințele și tradițiile populare. Ei nu pretindeau banii ce îi cereau medicii oficiali, mulțumindu-se întotdeauna cu puțin, de multe ori fiindu-le destul ospătarea ce li se făcea din partea cuiva. Erau mai miloși decât doctorii, ofe-rindu-și cu plăcere serviciile gratuite celor lipsiți de mijloace. Particularitaea lor esențială era aceea de a nu se opri decât foarte puțin prin sate, atâta cât aveau de lucru, în rest călătorind mereu din sat în sat^:^.
+> Medicii populari ai aromanilor aveau multe trasaturi comune cu *solomonarii* din Carpati. Erau numiti \"Mascatii\" si se ocupau mai ales cu chirurgia, la sfarsitul secolului trecut fiind mai cautati de popor decat medicii oficiali, stiita lor medicala fiind concordanta cu credintele si traditiile populare. Ei nu pretindeau banii ce ii cereau medicii oficiali, multumindu-se intotdeauna cu putin, de multe ori fiindu-le destul ospatarea ce li se facea din partea cuiva. Erau mai milosi decat doctorii, ofe-rindu-si cu placere serviciile gratuite celor lipsiti de mijloace. Particularitaea lor esentiala era aceea de a nu se opri decat foarte putin prin sate, atata cat aveau de lucru, in rest calatorind mereu din sat in sat^:^.
 
-\"în călătoria mea prin Macedonia și o parte a Tesaliei am dat de niște astfel de doctori «mascați» - scria un folclorist - și m-am interesat să aflu din gura lor care le e procedeul în diferite boli, precum și pe ce se bazează cunoștința lor medicală\". Un astfel de medic popular, \"pe care l-am întâlnit în Tesalia, în satul românesc Cuțufliani, mi-a arătat o carte în manuscris, compusă după cum m-a încredințat de un moș al său, care practica medicina populară. Cu toată stăruință mea de a o cerceta și a-mi permite să copiez câteva «recete» dintr-însa, mi-a fost imposibil să-1 înduplec. Tot așa de puțin a reușit dorința mea de a i-o cumpăra.\"^1^
+\"in calatoria mea prin Macedonia si o parte a Tesaliei am dat de niste astfel de doctori «mascati» - scria un folclorist - si m-am interesat sa aflu din gura lor care le e procedeul in diferite boli, precum si pe ce se bazeaza cunostinta lor medicala\". Un astfel de medic popular, \"pe care l-am intalnit in Tesalia, in satul romanesc Cutufliani, mi-a aratat o carte in manuscris, compusa dupa cum m-a incredintat de un mos al sau, care practica medicina populara. Cu toata staruinta mea de a o cerceta si a-mi permite sa copiez cateva «recete» dintr-insa, mi-a fost imposibil sa-1 induplec. Tot asa de putin a reusit dorinta mea de a i-o cumpara.\"^1^
 
-> Medicii populari din Epir erau asemenea «mascaților», dar, spre deosebire de ei, cuprindeau în practica lor o paletă mai largă de vindecări. Despre știința medicală a «mascaților», R Papahagi considera că este \"curat empirică, căpătată fie din rețetele transmise lor de predecesori, fie din cea epuizată în unele cărți, poporane desigur, care circulă în peninsula balcanică sub numele *Solomonia\"^2^.* Mai sigură ni se pare trasmiterea științei terapeutice prin viu grai, așa cum se petrece în cazul *moașelor,* bătrâne pricepute care practică o medicină cu totul gratuită. Modul acesta de transmitere a unei învățături era general la toți românii.
+> Medicii populari din Epir erau asemenea «mascatilor», dar, spre deosebire de ei, cuprindeau in practica lor o paleta mai larga de vindecari. Despre stiinta medicala a «mascatilor», R Papahagi considera ca este \"curat empirica, capatata fie din retetele transmise lor de predecesori, fie din cea epuizata in unele carti, poporane desigur, care circula in peninsula balcanica sub numele *Solomonia\"^2^.* Mai sigura ni se pare trasmiterea stiintei terapeutice prin viu grai, asa cum se petrece in cazul *moaselor,* batrane pricepute care practica o medicina cu totul gratuita. Modul acesta de transmitere a unei invataturi era general la toti romanii.
 >
-> Când este vremea să moară o bătrână sau un moș ce este cunoscător de leacuri și de remedii magice ale bolilor, el cheamă pe cel mai iubit dintre fiii săi, ce este în stare să țină minte tot ce i se spune, și îi destăinuie toată știința sa medicală, după ce acesta promite prin jurământ că are să practice medicina aceasta bătrânească, gratuit, fără a pretinde nici un ban, ci numai pentru sufletul său și al părinților săi, considerându-se că urările de bine făcute de cei ajutați și vindecați, atrag bunăvoința cerească. Tânărul mai trebuie să jure că nu va divulga nimănui secretul vindecării bolilor, să se păzească mai cu seamă de a-1 împărtăși vreunui doctor, căci acesta va căuta să monopolizeze tratamentul spre a-i jupui de bani pe oameni. Ultima promisiune ce trebuie ~s~ă o facă moștenitorul științei vindecării, este aceea că, la rândul ~s~ău, când va fi spre sfârșitul vieții sale, va face cunoscută altuia, în aceleași condiții, toată știința ce a căpătat-o.
+> Cand este vremea sa moara o batrana sau un mos ce este cunoscator de leacuri si de remedii magice ale bolilor, el cheama pe cel mai iubit dintre fiii sai, ce este in stare sa tina minte tot ce i se spune, si ii destainuie toata stiinta sa medicala, dupa ce acesta promite prin juramant ca are sa practice medicina aceasta batraneasca, gratuit, fara a pretinde nici un ban, ci numai pentru sufletul sau si al parintilor sai, considerandu-se ca urarile de bine facute de cei ajutati si vindecati, atrag bunavointa cereasca. Tanarul mai trebuie sa jure ca nu va divulga nimanui secretul vindecarii bolilor, sa se pazeasca mai cu seama de a-1 impartasi vreunui doctor, caci acesta va cauta sa monopolizeze tratamentul spre a-i jupui de bani pe oameni. Ultima promisiune ce trebuie ~s~a o faca mostenitorul stiintei vindecarii, este aceea ca, la randul ~s~au, cand va fi spre sfarsitul vietii sale, va face cunoscuta altuia, in aceleasi conditii, toata stiinta ce a capatat-o.
 >
-> Asemenea inițieri cu jurământ, lăsate cu limbă de moarte, \"fac ca adunarea diferitelor formule din Medicina poporului să fie foarte anevoioasă, mai cu seamă pentru partea aceea care prezintă un caracter mistic oarecum, precum sunt descântecele, vrăjile, farmecele etc.\"^1^
+> Asemenea initieri cu juramant, lasate cu limba de moarte, \"fac ca adunarea diferitelor formule din Medicina poporului sa fie foarte anevoioasa, mai cu seama pentru partea aceea care prezinta un caracter mistic oarecum, precum sunt descantecele, vrajile, farmecele etc.\"^1^
 >
-> încheiem prezentarea acestor misterioși sacerdoți-medici, cu două relatări din Tara Hațegului.
+> incheiem prezentarea acestor misteriosi sacerdoti-medici, cu doua relatari din Tara Hategului.
 >
-> Prin 1860-1870 au apărut în satele Ohaba, Grădiște, Zăicani și Băuțari patru cerșetori. Unii săteni i-au miluit cu câte ceva, alții nu. Ajungând în satul Băuțari nu i-a miluit nimeni. în momentul în care ieșeau mânioși din sat, s-au întâlnit cu preotul satului. \"Acesta i-a cunoscut și i-a dus acasă și i-a ospătat. în urmă ei au scos fiecare câte o carte șolomonărească și le-au arătat popii, *și popa a știut ceti în ele.\"* Apoi au zis cerșetorii:
+> Prin 1860-1870 au aparut in satele Ohaba, Gradiste, Zaicani si Bautari patru cersetori. Unii sateni i-au miluit cu cate ceva, altii nu. Ajungand in satul Bautari nu i-a miluit nimeni. in momentul in care ieseau maniosi din sat, s-au intalnit cu preotul satului. \"Acesta i-a cunoscut si i-a dus acasa si i-a ospatat. in urma ei au scos fiecare cate o carte solomonareasca si le-au aratat popii, *si popa a stiut ceti in ele.\"* Apoi au zis cersetorii:
 >
-> --- No, domnule părinte, va fi vai de hotarele acestor sate!\
-> Au plecat apoi, dar la trei zile după aceea a venit o ploaie
+> --- No, domnule parinte, va fi vai de hotarele acestor sate!\
+> Au plecat apoi, dar la trei zile dupa aceea a venit o ploaie
 >
-> cu grindină cât nucile și a nimicit ogoarele tuturor celor cinci sate, cu excepția holdelor celor ce i-au miluit.
+> cu grindina cat nucile si a nimicit ogoarele tuturor celor cinci sate, cu exceptia holdelor celor ce i-au miluit.
 >
-> Solomonarii se duc să scoată balaurii din iezere. Un astfel de iezer este și cel \"al Bistrei\" din munții Bucovei (ce țin de Retezat), nu foarte departe de satele mai sus amintite. La sfârșitul secolului trecut, un sătean din Bucova s-a întâlnit pe munte cu un om călare pe o iapă albă. Călărețul, care era îmbrăcat ca un domn, i-a cerut săteanului să-i indice drumul spre iezerul Bistrei. Săteanul 1-a condus pe cel ce s-a dovedit a fi solomonar, până la iezerul căutat. Ajunși acolo, călărețul i-a zis:
+> Solomonarii se duc sa scoata balaurii din iezere. Un astfel de iezer este si cel \"al Bistrei\" din muntii Bucovei (ce tin de Retezat), nu foarte departe de satele mai sus amintite. La sfarsitul secolului trecut, un satean din Bucova s-a intalnit pe munte cu un om calare pe o iapa alba. Calaretul, care era imbracat ca un domn, i-a cerut sateanului sa-i indice drumul spre iezerul Bistrei. Sateanul 1-a condus pe cel ce s-a dovedit a fi solomonar, pana la iezerul cautat. Ajunsi acolo, calaretul i-a zis:
 
---- Ține calul meu cu tot ce este pe el, numai frâul nu, și\
-du-te cât {, ~putea~ ~de~ ~tare~.
+--- Tine calul meu cu tot ce este pe el, numai fraul nu, si\
+du-te cat {, ~putea~ ~de~ ~tare~.
 
-**Săteanul a luat calul și s-a urcat cu el pe un vârf de munte. De acolo a văzut cum străinul citea tare dintr-o carte. Peste puțin timp apa a început să facă bulbuci și a ieșit din ea un balaur. Străinul 1-a lovit cu frâul în cap și balaurul s-a scufundat iar în apă. începând din nou să citească tare din carte, a ieșit un alt balaur, unul mare. Străinul i-a pus frâul în cap și s-a suit pe el, atunci balaurul s-a ridicat în văzduh și a zburat spre răsărit, trecând peste Țara Românească. Pe unde trecea solomonarul călare pe Balaur, cerul era negru de înnourat, ploua, fulgera și bătea piatra.**
+**Sateanul a luat calul si s-a urcat cu el pe un varf de munte. De acolo a vazut cum strainul citea tare dintr-o carte. Peste putin timp apa a inceput sa faca bulbuci si a iesit din ea un balaur. Strainul 1-a lovit cu fraul in cap si balaurul s-a scufundat iar in apa. incepand din nou sa citeasca tare din carte, a iesit un alt balaur, unul mare. Strainul i-a pus fraul in cap si s-a suit pe el, atunci balaurul s-a ridicat in vazduh si a zburat spre rasarit, trecand peste Tara Romaneasca. Pe unde trecea solomonarul calare pe Balaur, cerul era negru de innourat, ploua, fulgera si batea piatra.**
 
-## VRĂJMAȘII NEVĂZUȚI
+## VRAJMASII NEVAZUTI
 
-> *VRĂJMAȘII NEVĂZUȚI*
+> *VRAJMASII NEVAZUTI*
 >
-> Credința că majoritatea bolilor sunt datorate acțiunii nefaste a duhurilor rele există la toate popoarele vechi, iar credințele românilor referitoare la acțiunea ființelor demonice împotriva sănătății oamenilor nu sunt diferite în esență de celelalte credințe cu un substrat arhaic din întreaga lume, încadrându-se însă în sfera credințelor popoarelor de sorginte indo-europeană.
+> Credinta ca majoritatea bolilor sunt datorate actiunii nefaste a duhurilor rele exista la toate popoarele vechi, iar credintele romanilor referitoare la actiunea fiintelor demonice impotriva sanatatii oamenilor nu sunt diferite in esenta de celelalte credinte cu un substrat arhaic din intreaga lume, incadrandu-se insa in sfera credintelor popoarelor de sorginte indo-europeana.
 >
-> Asemenea ființe nevăzute care populează văzduhul satului românesc, uneori vrăjmașe ale lui Dumnezeu, alteori identiiîcându-se cu Sacralitatea însăși, întotdeauna însă periculoase pcnlru om, au o identitate bine precizată de poporul român, constituindu-se într-o largă paletă a ființelor mitologice.
+> Asemenea fiinte nevazute care populeaza vazduhul satului romanesc, uneori vrajmase ale lui Dumnezeu, alteori identiiicandu-se cu Sacralitatea insasi, intotdeauna insa periculoase pcnlru om, au o identitate bine precizata de poporul roman, constituindu-se intr-o larga paleta a fiintelor mitologice.
 
 Dracii
 
-> Pe primul loc între vrăjmașii omului se află *dracii.* Aici este vorba și despre o categorică influență iudeo-creștină, care s-a grefat, după cum se va vedea, pe credințe arhaice despre demoni conservate în obiceiurile și practicile populare. \"Câți îngeri sunt în lume, atâția și diavoli - spune poporul. Când trimite Dumnezeu câte un înger păzitor copiilor care s-au născut, **trimite** și Satana câte un drăcușor ca să-i îndemne la rele.\" în afara acestor drăcușori personali, veșnici responsabili de tot ceea ^ce^ este rău în om și în faptele sale, sunt dracii cei mari. Un astfel ^de^ drac locuiește undeva departe sau umblă prin locuri îndepăr-^ate^ *(\"unde și-a înțărcat dracul copiii; la dracul în praznic; pe unde ?^l^-^a^ spart dracul opincile\"),* se aciuează în casele pustii, în mori părăsite, pe lângă punți, pe la hotare sau la răscrucile drumurilor, unde stă de la miezul nopții până la cântatul cocoșilor. Alteori locuiește în bălți sau în spini.
+> Pe primul loc intre vrajmasii omului se afla *dracii.* Aici este vorba si despre o categorica influenta iudeo-crestina, care s-a grefat, dupa cum se va vedea, pe credinte arhaice despre demoni conservate in obiceiurile si practicile populare. \"Cati ingeri sunt in lume, atatia si diavoli - spune poporul. Cand trimite Dumnezeu cate un inger pazitor copiilor care s-au nascut, **trimite** si Satana cate un dracusor ca sa-i indemne la rele.\" in afara acestor dracusori personali, vesnici responsabili de tot ceea ^ce^ este rau in om si in faptele sale, sunt dracii cei mari. Un astfel ^de^ drac locuieste undeva departe sau umbla prin locuri indepar-^ate^ *(\"unde si-a intarcat dracul copiii; la dracul in praznic; pe unde ?^l^-^a^ spart dracul opincile\"),* se aciueaza in casele pustii, in mori parasite, pe langa punti, pe la hotare sau la rascrucile drumurilor, unde sta de la miezul noptii pana la cantatul cocosilor. Alteori locuieste in balti sau in spini.
 >
-> Cel mai frecvent dracul este desemnat prin poreclele sale, căci nu este bine să îi spui pe nume, ca să nu fie chemat. Cele mai cunoscute porecle sunt: *Necuratul, Pârdalnicul, Spurcatul, Impielițatul, Sarsailă, Scaraoschi, Antihristul, Ucigă-l Toaca, Ucigă-l Crucea, Bată-l Crucea, Ducă-se-pe-pustii, Aghiuță, Michiduțâ\...*
+> Cel mai frecvent dracul este desemnat prin poreclele sale, caci nu este bine sa ii spui pe nume, ca sa nu fie chemat. Cele mai cunoscute porecle sunt: *Necuratul, Pardalnicul, Spurcatul, Impielitatul, Sarsaila, Scaraoschi, Antihristul, Uciga-l Toaca, Uciga-l Crucea, Bata-l Crucea, Duca-se-pe-pustii, Aghiuta, Michiduta\...*
 
-Atunci când un demon este responsabil de natura unei boli, numele acelei boli se identifică cu cel al demonului. Avem, astfel, pentru boala numită *brâncă,* duhul demon numit Brâncă; pentru *bube,* demonul Bubă; pentru *năjit,* demonul Năjit; pentru *junghiuri,* demonul Junghiu sau Cuțit. Alte nume: Apucătorul, Apucătoare, Bala spurcată, Buzatul, Colțatul, Diochetoarea, Grozavul, Izbitorul, înfiorătorul, Lipitorul, Răhna, Kâmnitoarea, Sâgetătoarea, Ursâtul, Vârtejul\... Ei sunt numiți astfel în limba descântecelor când sunt amenințați și îndemnați să părăsească bolnavul. Deși aceste duhuri necurate sunt nevăzute, descântecele ni-i zugrăvesc lotuși ca și când ar li vizibili. îndeosebi în descântecele de «speriat», ni se dau înfiorătoare portrete și caracterizări de demoni.
+Atunci cand un demon este responsabil de natura unei boli, numele acelei boli se identifica cu cel al demonului. Avem, astfel, pentru boala numita *branca,* duhul demon numit Branca; pentru *bube,* demonul Buba; pentru *najit,* demonul Najit; pentru *junghiuri,* demonul Junghiu sau Cutit. Alte nume: Apucatorul, Apucatoare, Bala spurcata, Buzatul, Coltatul, Diochetoarea, Grozavul, Izbitorul, infioratorul, Lipitorul, Rahna, Kamnitoarea, Sagetatoarea, Ursatul, Vartejul\... Ei sunt numiti astfel in limba descantecelor cand sunt amenintati si indemnati sa paraseasca bolnavul. Desi aceste duhuri necurate sunt nevazute, descantecele ni-i zugravesc lotusi ca si cand ar li vizibili. indeosebi in descantecele de «speriat», ni se dau infioratoare portrete si caracterizari de demoni.
 
-> Iată, un fragment dintr-un descântec de «speriat», din județul Brăila:
+> Iata, un fragment dintr-un descantec de «speriat», din judetul Braila:
 >
-> *\"S-a dus* /\.../ *pe cale, Cu dinții rânjiți,*
+> *\"S-a dus* /\.../ *pe cale, Cu dintii ranjiti,*
 >
-> *Pe cărare, Cu gura căscată,*
+> *Pe carare, Cu gura cascata,*
 >
-> *S-a \'ntâlnit c \'un unchiaș mare, Cu limba lăsată,\
-> Grozav, întunecos, Cu capul cât banița,*
+> *S-a \'ntalnit c \'un unchias mare, Cu limba lasata,\
+> Grozav, intunecos, Cu capul cat banita,*
 >
-> *Cu cojocu \'ntors pe dos, Cu fața cât aria\...\"*
+> *Cu cojocu \'ntors pe dos, Cu fata cat aria\...\"*
 >
-> *Cu ochii sticliți,*
+> *Cu ochii sticliti,*
 >
-> Acești demoni-duhuri sunt de fapt boli mai mici. Personificarea bolilor mari, cum sunt epidemiile, cunosc o largă răspândire. Acești demoni sunt Ciuma, Holera, Vărsatul, Frigurile etc. în afara acestor duhuri-epidemii mari, se mai vorbește și de altele mai mici, cum ar fi despre o Sfântă Anghina într-un sat la un gospodar, într-o seară, s-a deschis ușa casei și a intrat deodată o fată tânără, frumoasă, cu un păr lung ~s~i despletit, care a declarat că este *Sfânta Anghina.* Că de păcatele oamenilor pe pământ, Dumnezeu s-a săturat de mult. Că pân\'acum Sfânta Anghina a curățit copiii cu grebla; de acum înainte are să-i curețe cu mătura».\" Un sătean își îndemna consătenii ca, în cazul când va veni \"sfânta\" în casa lor, să o ia în brațe, să o ducă la foc ca să o încălzescă și să îi dea de mâncare^1^.
+> Acesti demoni-duhuri sunt de fapt boli mai mici. Personificarea bolilor mari, cum sunt epidemiile, cunosc o larga raspandire. Acesti demoni sunt Ciuma, Holera, Varsatul, Frigurile etc. in afara acestor duhuri-epidemii mari, se mai vorbeste si de altele mai mici, cum ar fi despre o Sfanta Anghina intr-un sat la un gospodar, intr-o seara, s-a deschis usa casei si a intrat deodata o fata tanara, frumoasa, cu un par lung ~s~i despletit, care a declarat ca este *Sfanta Anghina.* Ca de pacatele oamenilor pe pamant, Dumnezeu s-a saturat de mult. Ca pan\'acum Sfanta Anghina a curatit copiii cu grebla; de acum inainte are sa-i curete cu matura».\" Un satean isi indemna consatenii ca, in cazul cand va veni \"sfanta\" in casa lor, sa o ia in brate, sa o duca la foc ca sa o incalzesca si sa ii dea de mancare^1^.
 >
-> O serie au nume ce corespund credințelor metafizice populare: *Blânde, Ceas rău, Boală sfântă, Arșiță, Cele din vânt, Dânsele, de Dânsele, Fapt, Făcătură, întâlnitură, întâmpinat, întniiele, Lipitură, Lovitură din Iele, Luată din vânt, Pocitură din Iele, Săgetătură, Zburător, Vânt rău.* Toate relevă o realitate magică, implicarea omului într-un univers în care se manifestă puteri nevăzute.
+> O serie au nume ce corespund credintelor metafizice populare: *Blande, Ceas rau, Boala sfanta, Arsita, Cele din vant, Dansele, de Dansele, Fapt, Facatura, intalnitura, intampinat, intniiele, Lipitura, Lovitura din Iele, Luata din vant, Pocitura din Iele, Sagetatura, Zburator, Vant rau.* Toate releva o realitate magica, implicarea omului intr-un univers in care se manifesta puteri nevazute.
 
 Strigoii
 
-> Strigoiul sau moroiul este fie fantoma unei persoane decedate, și atunci se mai numește și *strigoi mort,* fie manifestarea unei ființe omenești, în cazul *strigoiului viu.* Acestuia din urmă, în timp ce doarme, la miezul nopții (după primul cântat al cocoșilor), îi iese sufletul pe gură iar trupul îi rămâne în pat, ca și mort.
+> Strigoiul sau moroiul este fie fantoma unei persoane decedate, si atunci se mai numeste si *strigoi mort,* fie manifestarea unei fiinte omenesti, in cazul *strigoiului viu.* Acestuia din urma, in timp ce doarme, la miezul noptii (dupa primul cantat al cocosilor), ii iese sufletul pe gura iar trupul ii ramane in pat, ca si mort.
 
-Sub înfățișarea unei umbre *strigoii* cutreieră prin locuri izolate sau prin gospodăriile rudelor și cunoscuților făcându-și de ^ca^P, speriind și pocind trecătorii pe drum. Uneori se dau de trei °\" peste cap și se transformă în fiare (îndeosebi în *pricolici,* omul-lup). Alteori încalecă pe toiege vrăjite (pe bețe de alun) au *pe păsări măiestre* pentru a cutreiera prin lumea aceasta sau P^r^\>n cealaltă, pentru a-și lovi dușmanii și a le face pagubă Strigoii morți, și în special strigoaicele, sunt de o răutate neînchipuită, ucid copiii și le sug sângele, strică căsătoriile, îj sărăcesc pe oameni, iau mana de la vaci și de la semănături. Sufletele strigoilor au zilele lor speciale când se întâlnesc în anumite locuri, pe la răspântii, și dansează sau mimează împreună o bătaie, fie că sunt strigoi vii sau că sunt strigoi morți. Momentele lor de absolută libertate sunt în număr de trei: noaptea dinspre ziua Sfântului Andrei, numită și *Noaptea Strigoilor,* noaptea de *Sântoader* și noaptea de *Sângeorge.* în aceste nopți ei ies cu toții din morminte, se adună și dansează împreună. în noaptea de *Sângeorge* se adună la întruniri pe muntele Retezat, venind de la mari depărtări călare pe cozi de mături și pe bețe. împotriva petrecerilor lor cu efecte malefice, trecătorii pe munte zgârâiau cândva cercuri magice pe suprafața pământului, în care intrau ca să se apere. De altfel, tot în anumite coclauri din lanțul munților Carpați, în munții Retezat, Godeanul și Ceahlăul, se adunau vrăjitoarele, din 7 în 7 ani, în pelerinaje secrete\[ll\], iar în partea de nord a Transilvaniei sa spune că moroii se adună pe muntele Bihor^1^. Strigoii vii nu-și aduc aminte ce au făcut în timpul nopții decât foarte rar, numai atunci când cineva reușește să le rănească sufletul materializați
+Sub infatisarea unei umbre *strigoii* cutreiera prin locuri izolate sau prin gospodariile rudelor si cunoscutilor facandu-si de ^ca^P, speriind si pocind trecatorii pe drum. Uneori se dau de trei °\" peste cap si se transforma in fiare (indeosebi in *pricolici,* omul-lup). Alteori incaleca pe toiege vrajite (pe bete de alun) au *pe pasari maiestre* pentru a cutreiera prin lumea aceasta sau P^r^\>n cealalta, pentru a-si lovi dusmanii si a le face paguba Strigoii morti, si in special strigoaicele, sunt de o rautate neinchipuita, ucid copiii si le sug sangele, strica casatoriile, ij saracesc pe oameni, iau mana de la vaci si de la semanaturi. Sufletele strigoilor au zilele lor speciale cand se intalnesc in anumite locuri, pe la raspantii, si danseaza sau mimeaza impreuna o bataie, fie ca sunt strigoi vii sau ca sunt strigoi morti. Momentele lor de absoluta libertate sunt in numar de trei: noaptea dinspre ziua Sfantului Andrei, numita si *Noaptea Strigoilor,* noaptea de *Santoader* si noaptea de *Sangeorge.* in aceste nopti ei ies cu totii din morminte, se aduna si danseaza impreuna. in noaptea de *Sangeorge* se aduna la intruniri pe muntele Retezat, venind de la mari departari calare pe cozi de maturi si pe bete. impotriva petrecerilor lor cu efecte malefice, trecatorii pe munte zgaraiau candva cercuri magice pe suprafata pamantului, in care intrau ca sa se apere. De altfel, tot in anumite coclauri din lantul muntilor Carpati, in muntii Retezat, Godeanul si Ceahlaul, se adunau vrajitoarele, din 7 in 7 ani, in pelerinaje secrete\[ll\], iar in partea de nord a Transilvaniei sa spune ca moroii se aduna pe muntele Bihor^1^. Strigoii vii nu-si aduc aminte ce au facut in timpul noptii decat foarte rar, numai atunci cand cineva reuseste sa le raneasca sufletul materializati
 
-> în acele nopți luminate de cornul lunii, cei născuți Sâmbăta (care au deci darul de a putea vedea strigoii), dacă stau la pândă, văd, prin curțile bisericilor și prin cimitire, niște chipuri care tot ies din morminte, pleacă și nu se întorc decât după cântatul cocoșului, când au isprăvit tot ce aveau de făcut. Aceștia sunt strigoii morți sau moroii.
+> in acele nopti luminate de cornul lunii, cei nascuti Sambata (care au deci darul de a putea vedea strigoii), daca stau la panda, vad, prin curtile bisericilor si prin cimitire, niste chipuri care tot ies din morminte, pleaca si nu se intorc decat dupa cantatul cocosului, cand au ispravit tot ce aveau de facut. Acestia sunt strigoii morti sau moroii.
 >
-> Dacă cineva lasă ușa descuiată într-una din nopțile în care umblă strigoii, sau dacă nu mănâncă usturoi, este rău de el, \"căci strigoiul, intrând îi mănâncă inima, îi suge sângele, de se îmbolnăvește rău și moare. Cel ce moare din pricina unui strigoi se face și el strigoi.\"\[4\] La al treilea cântat al cocoșilor în cer (\"l^a^ *cântălori\"),* sufletul se întoarce în trupul adormit al strigoilor, sau Strigoii morți sunt considerați mai periculoși decât strigoii vii. Ei pot provoca moartea celor pe care îi agresează. Dintre multele similare, redăm istoria a două cazuri considerate autentice. Primul s-a petrecut la începutul secolului acestuia în comuna Văgiulești (jud. Mehedinți).
+> Daca cineva lasa usa descuiata intr-una din noptile in care umbla strigoii, sau daca nu mananca usturoi, este rau de el, \"caci strigoiul, intrand ii mananca inima, ii suge sangele, de se imbolnaveste rau si moare. Cel ce moare din pricina unui strigoi se face si el strigoi.\"\[4\] La al treilea cantat al cocosilor in cer (\"l^a^ *cantalori\"),* sufletul se intoarce in trupul adormit al strigoilor, sau Strigoii morti sunt considerati mai periculosi decat strigoii vii. Ei pot provoca moartea celor pe care ii agreseaza. Dintre multele similare, redam istoria a doua cazuri considerate autentice. Primul s-a petrecut la inceputul secolului acestuia in comuna Vagiulesti (jud. Mehedinti).
 >
-> Săteanului Dumitru Văideanu, de îndată ce îi năștea nevasta, îi și mureau copiii, ca din senin. Au murit astfel, unul după altul, șapte copii, în afară de cel mai mare. Știindu-i-se necazul, a fost învățat să ia un armăsar alb și să se ducă noaptea în cimitirul satului. Acolo fiind, să treacă, stând călare pe armăsar, peste toate mormintele neamurilor soției sale.
+> Sateanului Dumitru Vaideanu, de indata ce ii nastea nevasta, ii si mureau copiii, ca din senin. Au murit astfel, unul dupa altul, sapte copii, in afara de cel mai mare. Stiindu-i-se necazul, a fost invatat sa ia un armasar alb si sa se duca noaptea in cimitirul satului. Acolo fiind, sa treaca, stand calare pe armasar, peste toate mormintele neamurilor sotiei sale.
 >
-> într-o seară de vineri spre sâmbătă a urmat acest sfat, ducându-se în cimitirul unde își avea îngropați și pruncii. Calul a trecut peste mormintele tuturor rudelor sale, dar când să sară și peste groapa soacrei sale, Ioana Marta (fostă vrăjitoare vestită peste șapte sate), armăsarul alb s-a oprit dintr-o dată, bătând pământul cu picioarele, sforăind și nechezând speriat. Omul nu a putut în nici un chip să îl facă să sară peste acel mormânt.
+> intr-o seara de vineri spre sambata a urmat acest sfat, ducandu-se in cimitirul unde isi avea ingropati si pruncii. Calul a trecut peste mormintele tuturor rudelor sale, dar cand sa sara si peste groapa soacrei sale, Ioana Marta (fosta vrajitoare vestita peste sapte sate), armasarul alb s-a oprit dintr-o data, batand pamantul cu picioarele, sforaind si nechezand speriat. Omul nu a putut in nici un chip sa il faca sa sara peste acel mormant.
 >
-> Peste noapte a plecat împreună cu fiul său să își dezgroape soacra. Când au deschis mormântul au găsit moarta stând turcește, cu un păr mare pe cap, ce îi atârna și peste față. Avea o culoare roșie și unghiile foarte lungi. Tatăl și fiul au strâns de prin cimitir mărăcini uscați și bucăți putrede de cruci, au aruncat cadavrul peste ele și i-au dat foc. Au îngropat apoi la loc rămășițele incinerării și au plecat spre casă. Se încheie relatarea cu precizarea că de atunci nu i-a mai murit nici un prunc nou-născut^1^.
+> Peste noapte a plecat impreuna cu fiul sau sa isi dezgroape soacra. Cand au deschis mormantul au gasit moarta stand turceste, cu un par mare pe cap, ce ii atarna si peste fata. Avea o culoare rosie si unghiile foarte lungi. Tatal si fiul au strans de prin cimitir maracini uscati si bucati putrede de cruci, au aruncat cadavrul peste ele si i-au dat foc. Au ingropat apoi la loc ramasitele incinerarii si au plecat spre casa. Se incheie relatarea cu precizarea ca de atunci nu i-a mai murit nici un prunc nou-nascut^1^.
 >
-> Al doilea caz s-a petrecut la \"poalele castelului lui Dracula\", în salul Căpățîneni, relatarea datând din anul 1969^2^. Este vorba tot despre o bătrână din sat, după moartea căreia au început să moară în sat multe dintre rudele sale. Deoarece s-a considerat că bătrâna poate fi moroi, a fost dezgropată și i s-a deschis coșciugul. Când capacul a fost înlăturat, s-a descoperit că ochii bătrânei erau larg deschiși și că se răsucise în groapă. Fața sa era rumenă. Apreciind semnele ca fiind edificatoare pentru a o considera strigoi, sătenii i-au ars cadavrul.
+> Al doilea caz s-a petrecut la \"poalele castelului lui Dracula\", in salul Capatineni, relatarea datand din anul 1969^2^. Este vorba tot despre o batrana din sat, dupa moartea careia au inceput sa moara in sat multe dintre rudele sale. Deoarece s-a considerat ca batrana poate fi moroi, a fost dezgropata si i s-a deschis cosciugul. Cand capacul a fost inlaturat, s-a descoperit ca ochii batranei erau larg deschisi si ca se rasucise in groapa. Fata sa era rumena. Apreciind semnele ca fiind edificatoare pentru a o considera strigoi, satenii i-au ars cadavrul.
 >
-> în Transilvania strigoii morți sunt de multe ori identificați cu *vampirii,* ce vin și sug sângele celor vii în timp ce aceștia dorm. Pentru că nu se știe sigur niciodată despre nici un om, în momentul când este înmormântat, dacă va fi sau nu strigoi, în unele zone se pune mortului câte un bob de lămâie în fiecare nară, \"ca să nu mai poată răsufla\", în urechi, în ochi și în gură. Mai demult, cadavrele erau exhumate la trei până la șapte ani după înmormântare și, dacă descompunerea lor nu era completă, li se introducea o țeapă în inimă (țeapă se confecționa din lemn de trandafir sălbatic sau din frasin, în alte părți din fier roșu). Ca să piară în sfârșit strigoiul, cei ce l-au dezgropat trebuie să îi\] înfigă țepușa în inimă (sau în buric); sau, despicând \"mortul încă\] viu\" să îi scoată inima din piept ca să fie arsă pe cărbuni, ca siguranță că a murit. Dacă strigoiul-vampir rămâne nedescoperit timp de șapte ani, după ce ucide în voie mai ales copiii neamului său, apoi alți oameni, el poate să plece într-o altă țară sau\] într-un loc unde se vorbește altă limbă și să devină iarăși ființă\] omenească, să se căsătorească și să facă copii care, după moarte, i devin strigoi-vampiri.
+> in Transilvania strigoii morti sunt de multe ori identificati cu *vampirii,* ce vin si sug sangele celor vii in timp ce acestia dorm. Pentru ca nu se stie sigur niciodata despre nici un om, in momentul cand este inmormantat, daca va fi sau nu strigoi, in unele zone se pune mortului cate un bob de lamaie in fiecare nara, \"ca sa nu mai poata rasufla\", in urechi, in ochi si in gura. Mai demult, cadavrele erau exhumate la trei pana la sapte ani dupa inmormantare si, daca descompunerea lor nu era completa, li se introducea o teapa in inima (teapa se confectiona din lemn de trandafir salbatic sau din frasin, in alte parti din fier rosu). Ca sa piara in sfarsit strigoiul, cei ce l-au dezgropat trebuie sa ii\] infiga tepusa in inima (sau in buric); sau, despicand \"mortul inca\] viu\" sa ii scoata inima din piept ca sa fie arsa pe carbuni, ca siguranta ca a murit. Daca strigoiul-vampir ramane nedescoperit timp de sapte ani, dupa ce ucide in voie mai ales copiii neamului sau, apoi alti oameni, el poate sa plece intr-o alta tara sau\] intr-un loc unde se vorbeste alta limba si sa devina iarasi fiinta\] omeneasca, sa se casatoreasca si sa faca copii care, dupa moarte, i devin strigoi-vampiri.
 >
-> Strigoiul mort nu se poate îndepărta prea mult de groapa lui, întrucât trebuie să se întoarcă în ea înainte de răsăritul\] soarelui. Dacă se bănuiește prezența malefică a unui strigoi-vampir într-o zonă, se apelează la un băiat sau la o fată, destul\] de tineri încât să fie încă virgini. Cel ales trebuie să încalece un cal de o singură culoare, alb, roib sau negru, de asemenea virgin. 1 Calul cu călărețul copil este dus la cimitir și pus să treacă peste j toate gropile. Dacă refuză să treacă peste o groapă înseamnă că acolo se află un strigoi. în ceea ce îi privește pe strigoii vii, se consideră că orice persoană care nu mănâncă usturoi, sau care aversiune la usturoi, poate fi un strigoi. Dealtfel, Usturoiul ~te~ considerat cel mai eficient paznic contra strigoilor. -~mP~otriva acțiunii strigoilor trebuie frecate cu usturoi coșul, «aura cheii, ușile și ferestrele.
+> Strigoiul mort nu se poate indeparta prea mult de groapa lui, intrucat trebuie sa se intoarca in ea inainte de rasaritul\] soarelui. Daca se banuieste prezenta malefica a unui strigoi-vampir intr-o zona, se apeleaza la un baiat sau la o fata, destul\] de tineri incat sa fie inca virgini. Cel ales trebuie sa incalece un cal de o singura culoare, alb, roib sau negru, de asemenea virgin. 1 Calul cu calaretul copil este dus la cimitir si pus sa treaca peste j toate gropile. Daca refuza sa treaca peste o groapa inseamna ca acolo se afla un strigoi. in ceea ce ii priveste pe strigoii vii, se considera ca orice persoana care nu mananca usturoi, sau care aversiune la usturoi, poate fi un strigoi. Dealtfel, Usturoiul ~te~ considerat cel mai eficient paznic contra strigoilor. -~mP~otriva actiunii strigoilor trebuie frecate cu usturoi cosul, «aura cheii, usile si ferestrele.
 >
-> Cunoscuți îndeosebi sub numele de moroi, o categorie rie ~o~ formează strigoii pruncilor ce au murit nebotezați, dar ~m~ai ales ai celor născuți de o tânără nemăritată și uciși sau îneropați de vii. \"Iese sufletul copilului din mormânt, în chip de sul de foc, ca de doi pași de lung și începe a cutreiera lumea spre nenorocirea oamenilor, zburând prin aer și umblând pe pământ. El se duce tot drept înainte, nu dă nici într-o latură și, de se atince de cineva, pe loc îl săgeată, îl junghie sau îl și omoară. Când sboară prin aer, mai ales când \[se\] înnorează și se stâr-nesc furtuni, se și zărește scânteind ca fulgerul^1^ și se izbește în oameni, în vite, în copaci, în biserici, în case, de ucide, sfarmă și aprindc\".\[4\] Moroii își chinuiesc mamele în somn. Se așează pe pieptul lor și le înăbușă răsuflarea, provocându-Ie coșmaruri în care îi visează pe ei.
+> Cunoscuti indeosebi sub numele de moroi, o categorie rie ~o~ formeaza strigoii pruncilor ce au murit nebotezati, dar ~m~ai ales ai celor nascuti de o tanara nemaritata si ucisi sau ineropati de vii. \"Iese sufletul copilului din mormant, in chip de sul de foc, ca de doi pasi de lung si incepe a cutreiera lumea spre nenorocirea oamenilor, zburand prin aer si umbland pe pamant. El se duce tot drept inainte, nu da nici intr-o latura si, de se atince de cineva, pe loc il sageata, il junghie sau il si omoara. Cand sboara prin aer, mai ales cand \[se\] innoreaza si se star-nesc furtuni, se si zareste scanteind ca fulgerul^1^ si se izbeste in oameni, in vite, in copaci, in biserici, in case, de ucide, sfarma si aprindc\".\[4\] Moroii isi chinuiesc mamele in somn. Se aseaza pe pieptul lor si le inabusa rasuflarea, provocandu-Ie cosmaruri in care ii viseaza pe ei.
 >
-> în părțile Maramureșului sub numele de *Strigă* se vorbește despre o vrăjitoare (care este un fel de strigoi viu) sau despre o strigoaică-moartă. \"Auzeam și eu povestind pe bunicul - relata în 1979 un bătrîn maramureșean - că, mai demult, când erau bolnavi femeia sau bărbatul, ce să facă? Se apuca bătrâna și-i căuta \[bărbatului\] de deochi, îl uda cu apă și apoi zicea: Mancă *Strâgă* foc Și de bărbatul meu să n-ai noroc.
+> in partile Maramuresului sub numele de *Striga* se vorbeste despre o vrajitoare (care este un fel de strigoi viu) sau despre o strigoaica-moarta. \"Auzeam si eu povestind pe bunicul - relata in 1979 un batrin maramuresean - ca, mai demult, cand erau bolnavi femeia sau barbatul, ce sa faca? Se apuca batrana si-i cauta \[barbatului\] de deochi, il uda cu apa si apoi zicea: Manca *Straga* foc Si de barbatul meu sa n-ai noroc.
 >
-> Și se mai potolea \[boala\]. Și ziceau:
+> Si se mai potolea \[boala\]. Si ziceau:
 
---- Lasă numai până cântă cocoșii, că atunci *strâga* se duce de la noi.
+--- Lasa numai pana canta cocosii, ca atunci *straga* se duce de la noi.
 
-> Și era bine. Doar atâta era greu, până cântau cocoșii și se sculau mâții și mai mieunau pe lângă ușă. Atuncea fugea *strâga,* ^că^ se teme de cocos. Asa ziceau bătrânii.\"^2^
+> Si era bine. Doar atata era greu, pana cantau cocosii si se sculau matii si mai mieunau pe langa usa. Atuncea fugea *straga,* ^ca^ se teme de cocos. Asa ziceau batranii.\"^2^
 >
 > Samca
 >
-> Avestița sau Samca. *Vestica* înseamnă și vrăjitoare, iar *Samca* este totuna cu *Baba-Coaja,* care îi sperie pe copii. Ea poate fi văzută numai de vrăjitori sau de cei născuți sâmbăta. Această ființa supranaturală chinuie copiii și îi îmbolnăvește greu, boala numindu-se chiar *samca* sau *spasm.* în Bucovina (în nordul țării) se crede că sunt atinși de *samca* numai copiii până la patru ani, pe care îi face să tremure, să sară din somn și să ofteze din greu^1^.
+> Avestita sau Samca. *Vestica* inseamna si vrajitoare, iar *Samca* este totuna cu *Baba-Coaja,* care ii sperie pe copii. Ea poate fi vazuta numai de vrajitori sau de cei nascuti sambata. Aceasta fiinta supranaturala chinuie copiii si ii imbolnaveste greu, boala numindu-se chiar *samca* sau *spasm.* in Bucovina (in nordul tarii) se crede ca sunt atinsi de *samca* numai copiii pana la patru ani, pe care ii face sa tremure, sa sara din somn si sa ofteze din greu^1^.
 >
-> *Samca* este un duh feminin îngrozitor la vedere, cu părul capului rar și lung până la călcâie. Are ochii roșii ca de foc și-i joacă în cap ca niște felinare bătute de vânt. Mâinile și trupul îi sunt schimonosite, nu stau o clipă locului, se sucesc și se strâmbă într-una, iar din gură bolborosește într-una cuvinte seânțelese. Se travestește însă sub diferite înfățișări spre a se putea apropia de casele oamenilor, arătându-se femeilor însărcinate și pruncilor, atât ziua cât și noaptea, în diferite chipuri: ca pisică, câine, capră, porc, găină, cioară, broască, lăcustă, muscă, păianjen, umbră și diferite năluciri etc.^:^
+> *Samca* este un duh feminin ingrozitor la vedere, cu parul capului rar si lung pana la calcaie. Are ochii rosii ca de foc si-i joaca in cap ca niste felinare batute de vant. Mainile si trupul ii sunt schimonosite, nu stau o clipa locului, se sucesc si se stramba intr-una, iar din gura bolboroseste intr-una cuvinte seantelese. Se travesteste insa sub diferite infatisari spre a se putea apropia de casele oamenilor, aratandu-se femeilor insarcinate si pruncilor, atat ziua cat si noaptea, in diferite chipuri: ca pisica, caine, capra, porc, gaina, cioara, broasca, lacusta, musca, paianjen, umbra si diferite naluciri etc.^:^
 >
-> \"E ființa cea mai nemiloasă și mai primejdioasă jjin toate duhurile necurate. Se arată femeilor însărcinate\^ mai ales când acestea se află în durerile facerii, le înspăimântă, le frământă și le chinuiește într\'atât, încât unele din ele mor îndată, mai\'nainte de a fi apucat a naște, sau rămân pentru totdeauna schimonosite și neputincioase. Tot așa fac ele și cu pruncii noi-născuți, de nu mor și aceștia mai \'nainte de a se naște. Dacă se întîmplă să nu moară, capătă totuși boala numită *«samca».* Copiii bolnavi de *samca* tremură din tot trupul, tresar noaptea în somn, oftează într-una și slăbesc văzând cu ochii. Uneori capătă un fel de cârcei la stomac, cari îi frământă și-i sgârcesc, de se fac ghem Alteori li se sucesc mâinile sau picioarele, se încrucișează, li se strâmbă fălcile și, dacă nu mor în scurt timp, rămân astfel pentru toată viața\". \[4\] Pentru a feri lăuza sau copiii mici de acest duh, se scrie un fel de amuletă-conjurație care se poartă într-un săculeț la gât; sau, alteori, se recurge la descântece care sunt aceleași ca și pentru \"boala copiilor\".
+> \"E fiinta cea mai nemiloasa si mai primejdioasa jjin toate duhurile necurate. Se arata femeilor insarcinate\^ mai ales cand acestea se afla in durerile facerii, le inspaimanta, le framanta si le chinuieste intr\'atat, incat unele din ele mor indata, mai\'nainte de a fi apucat a naste, sau raman pentru totdeauna schimonosite si neputincioase. Tot asa fac ele si cu pruncii noi-nascuti, de nu mor si acestia mai \'nainte de a se naste. Daca se intimpla sa nu moara, capata totusi boala numita *«samca».* Copiii bolnavi de *samca* tremura din tot trupul, tresar noaptea in somn, ofteaza intr-una si slabesc vazand cu ochii. Uneori capata un fel de carcei la stomac, cari ii framanta si-i sgarcesc, de se fac ghem Alteori li se sucesc mainile sau picioarele, se incruciseaza, li se stramba falcile si, daca nu mor in scurt timp, raman astfel pentru toata viata\". \[4\] Pentru a feri lauza sau copiii mici de acest duh, se scrie un fel de amuleta-conjuratie care se poarta intr-un saculet la gat; sau, alteori, se recurge la descantece care sunt aceleasi ca si pentru \"boala copiilor\".
 
-Tot în Bucovina eczemele infecțioase ale copiilor *(bubele dulci)* sunt numite \"țâțele Samcei\", iar amigdalita și scrofulele *(gâlcile),* \"feciorii Samcei\"^1^. în această parte a țării mai este pomenită și planta: *Samca, Sămcuță^1^,* despre care L. Șăineanu *(op. citat)* afirmă că este întrebuințată ca leac la boala numită *Samca.* Etnobotanica românească a identificat *Samca* cu *Lallemanthia iberica,* iar *Sămcuța* (denumită tot în Bucovina și *Cucută de pădure* sau *Sânziene de pădure),* fie cu *Galium schultesii,* fie cu *Veronica chamaedrys* (cunoscută mai ales ca *Șopârliță,* sau ca *Buruiană de ceas rău, Cuibul necuratului, Iarba șarpeluif.*
+Tot in Bucovina eczemele infectioase ale copiilor *(bubele dulci)* sunt numite \"tatele Samcei\", iar amigdalita si scrofulele *(galcile),* \"feciorii Samcei\"^1^. in aceasta parte a tarii mai este pomenita si planta: *Samca, Samcuta^1^,* despre care L. Saineanu *(op. citat)* afirma ca este intrebuintata ca leac la boala numita *Samca.* Etnobotanica romaneasca a identificat *Samca* cu *Lallemanthia iberica,* iar *Samcuta* (denumita tot in Bucovina si *Cucuta de padure* sau *Sanziene de padure),* fie cu *Galium schultesii,* fie cu *Veronica chamaedrys* (cunoscuta mai ales ca *Soparlita,* sau ca *Buruiana de ceas rau, Cuibul necuratului, Iarba sarpeluif.*
 
-Zburătorul
+Zburatorul
 
-> Zburătorul sau zmeul este un duh erotic masculin, deci un demon incub (există însă unele relatări și despre zmeoaice sau despre zburâtoroaice), el nu este însă un vampir. Când pe o fată o vizitează *zburătorul* se spune că are *\"lipitură\".* Medical, denumirea populară de *zburător* se traduce prin tulburare psihică cu stări isterice sau, în cazul *lipiturii,* tulburare psihică cu aspect melancolico-depresiv. *Zburătorul* este deci numele (și cauza!) tulburărilor și primelor tânjiri de iubire ale fetelor pubere, el este cel ce le provoacă și le întreține patosul sexual. Uneori el tulbură mințile victimelor sale, care tind către obsesia sexuală, mergând până la stări intense, febrile, de excitare urmată de orgasm. Alteori pătrunde nevăzut ca o adiere și tulbură în somn corpul celor ce-1 așteaptă.
+> Zburatorul sau zmeul este un duh erotic masculin, deci un demon incub (exista insa unele relatari si despre zmeoaice sau despre zburatoroaice), el nu este insa un vampir. Cand pe o fata o viziteaza *zburatorul* se spune ca are *\"lipitura\".* Medical, denumirea populara de *zburator* se traduce prin tulburare psihica cu stari isterice sau, in cazul *lipiturii,* tulburare psihica cu aspect melancolico-depresiv. *Zburatorul* este deci numele (si cauza!) tulburarilor si primelor tanjiri de iubire ale fetelor pubere, el este cel ce le provoaca si le intretine patosul sexual. Uneori el tulbura mintile victimelor sale, care tind catre obsesia sexuala, mergand pana la stari intense, febrile, de excitare urmata de orgasm. Alteori patrunde nevazut ca o adiere si tulbura in somn corpul celor ce-1 asteapta.
 >
-> Zburătorul rătăcește noaptea, între miezul nopții și \"cântă-tori\", dând târcoale ulițelor, grădinilor, livezilor și caselor pentru a tulbura fetele de măritat, nevestele părăsite și văduvele ce tânjesc după aventuri sentimentale. Deseori el se metamorfozează chiar în iubitul celor astfel ademenite și petrece cu ele până la \"cântători\". Pasiunea lui se dezlănțuie orgasmică, noapte de noapte, până la neurastenizarea victimei, care poate chiar să moară de freamăt oniric. în timpul zilei fetele chinuite erotic noaptea se cunosc că au fost vizitate de Zburător după semnele de oboseală, după paloarea feței și după o atitudine psihică specifică. Urmele fiziologice lăsate de vizita lui conduc în final la autoflagelarea simțurilor.\[ll\]
+> Zburatorul rataceste noaptea, intre miezul noptii si \"canta-tori\", dand tarcoale ulitelor, gradinilor, livezilor si caselor pentru a tulbura fetele de maritat, nevestele parasite si vaduvele ce tanjesc dupa aventuri sentimentale. Deseori el se metamorfozeaza chiar in iubitul celor astfel ademenite si petrece cu ele pana la \"cantatori\". Pasiunea lui se dezlantuie orgasmica, noapte de noapte, pana la neurastenizarea victimei, care poate chiar sa moara de freamat oniric. in timpul zilei fetele chinuite erotic noaptea se cunosc ca au fost vizitate de Zburator dupa semnele de oboseala, dupa paloarea fetei si dupa o atitudine psihica specifica. Urmele fiziologice lasate de vizita lui conduc in final la autoflagelarea simturilor.\[ll\]
 >
-> \"Se zice că o fată s-a avut bine cu un băiat. După câtva timp, băiatul a lăsat-o, iar fata, de focul lui, îl tot visa noaptea și a căpătat Zburător. Zburătorul venea noaptea, când fata era culcată în pat și se dragostea cu ea. Ea dormea și nu-și da seama că se iubește cu el. El, când se revărsa de zori, pleca la locul lui, iar fata rămânea mai mult bolnavă. S-au iubit ci vreo patru luni, până a simțit mama fetei și a mutat-o în altă casă. Zburătorul a venit la timpul Iui și, negăsind fata, a început s-o caute prin casă. Lumea s-a dus acolo unde era Zburătorul. El atunci s-a prefăcut într-un șarpe care strălucea ca focul și a sburat, de unde a venit, în niște șire cu paie. Lumea, ca să scape fata de el, a dat foc paielor. Când 1-a ajuns focul pe șarpe, el a început să strige, dar tot n-a scăpat și a ars de tot. Fata a mai zăcut un an de zile și a murit\".\'\[4\]
+> \"Se zice ca o fata s-a avut bine cu un baiat. Dupa catva timp, baiatul a lasat-o, iar fata, de focul lui, il tot visa noaptea si a capatat Zburator. Zburatorul venea noaptea, cand fata era culcata in pat si se dragostea cu ea. Ea dormea si nu-si da seama ca se iubeste cu el. El, cand se revarsa de zori, pleca la locul lui, iar fata ramanea mai mult bolnava. S-au iubit ci vreo patru luni, pana a simtit mama fetei si a mutat-o in alta casa. Zburatorul a venit la timpul Iui si, negasind fata, a inceput s-o caute prin casa. Lumea s-a dus acolo unde era Zburatorul. El atunci s-a prefacut intr-un sarpe care stralucea ca focul si a sburat, de unde a venit, in niste sire cu paie. Lumea, ca sa scape fata de el, a dat foc paielor. Cand 1-a ajuns focul pe sarpe, el a inceput sa strige, dar tot n-a scapat si a ars de tot. Fata a mai zacut un an de zile si a murit\".\'\[4\]
 
-Despre *Zmei* se spune că au o cântare a lor specială, numită \"glasul zmeilor\" și că arată ca o \"pară de foc, plutind în aer\". Aceste relatări provin cu precădere din Transilvania, loc în care sunt semnalate frecvente apariții O.Z.N. cu care, ca și în cazul *Ielelor,* se aseamănă relatările populare despre *Zmei.*
+Despre *Zmei* se spune ca au o cantare a lor speciala, numita \"glasul zmeilor\" si ca arata ca o \"para de foc, plutind in aer\". Aceste relatari provin cu precadere din Transilvania, loc in care sunt semnalate frecvente aparitii O.Z.N. cu care, ca si in cazul *Ielelor,* se aseamana relatarile populare despre *Zmei.*
 
-Spunea un bătrân că pe lângă Arieș mergea o lumineală cu \" ruială mare și s-o îngrozit». Relatarea aceasta a fost făcută de Vasile Brata, 54 ani, din satul Ocoliș, care consideră că bătrânul văzuse un *zmeu.^1^*
+Spunea un batran ca pe langa Aries mergea o lumineala cu \" ruiala mare si s-o ingrozit». Relatarea aceasta a fost facuta de Vasile Brata, 54 ani, din satul Ocolis, care considera ca batranul vazuse un *zmeu.^1^*
 
-Zânele
+Zanele
 
-> Poporul are un respect deosebit pentru divinitățile feminine, pe care le numește *Zâne.* Ele sunt considerate fie bune, fie rele. în general basmele și legendele românești vorbesc despre Zânele bune. Nu se știe câte sunt, dar aproape toate locuiesc în palate de cleștar, în preajma apelor sau sub oglinda acestora. *Zânele* sunt nemuritoare și au puteri miraculoase, iar frumusețea lor orbitoare este proverbială. Sunt zvelte, foarte tinere, virgine și îmbrăcate în haine albe sau străvezii. în împărăția Zânelor nu moare nimeni, dar nici nu se naște nimeni, acesta fiind tărâmul \"tinereții fără bătrânețe si al vieții fără de moarte\". Fiind promis din timpuri imemoriale parcă, acest tărâm este veșnic dorit, fiind găsit însă numai de către *Fât-Fntmos.*
+> Poporul are un respect deosebit pentru divinitatile feminine, pe care le numeste *Zane.* Ele sunt considerate fie bune, fie rele. in general basmele si legendele romanesti vorbesc despre Zanele bune. Nu se stie cate sunt, dar aproape toate locuiesc in palate de clestar, in preajma apelor sau sub oglinda acestora. *Zanele* sunt nemuritoare si au puteri miraculoase, iar frumusetea lor orbitoare este proverbiala. Sunt zvelte, foarte tinere, virgine si imbracate in haine albe sau stravezii. in imparatia Zanelor nu moare nimeni, dar nici nu se naste nimeni, acesta fiind taramul \"tineretii fara batranete si al vietii fara de moarte\". Fiind promis din timpuri imemoriale parca, acest taram este vesnic dorit, fiind gasit insa numai de catre *Fat-Fntmos.*
 >
-> Zânele sunt adesea binevoitoare cu oamenii cinstiți, cu cei care luptă pentru dreptate, pentru frumos sau pentru dragoste. Câteodată Zânele chiar se îndrăgostesc de vreun tânăr cu care se căsătoresc, devenind muritoare ca si femeile. Se vorbea cândva de \"locul cu *apele albe\"* din împărăția Zânelor, unde se scaldă Zânele și unde crește misterioasa floare a cărei tulpină este învăluită în \"pânză de piatră\". Omului ce capătă această floare i se deschid toate comorile subterane. Pentru a o dobândi, sufletul omului trebuie să călătorească în tărâmul Zânelor, însă ele nu permit nimănui culegerea ei, de aceea trebuie furată.^2^
+> Zanele sunt adesea binevoitoare cu oamenii cinstiti, cu cei care lupta pentru dreptate, pentru frumos sau pentru dragoste. Cateodata Zanele chiar se indragostesc de vreun tanar cu care se casatoresc, devenind muritoare ca si femeile. Se vorbea candva de \"locul cu *apele albe\"* din imparatia Zanelor, unde se scalda Zanele si unde creste misterioasa floare a carei tulpina este invaluita in \"panza de piatra\". Omului ce capata aceasta floare i se deschid toate comorile subterane. Pentru a o dobandi, sufletul omului trebuie sa calatoreasca in taramul Zanelor, insa ele nu permit nimanui culegerea ei, de aceea trebuie furata.^2^
 >
-> Aromânii le numesc pe Zâne *Albele,* căci sunt îmbrăcate alb ca zăpadă și foarte curat, și le acordă aceeași semnificație pe care românii o acordă *Ielelor.* Le descriu ca pe niște fete de o frumusețe extraordinară. Sunt fecioare candide, dar cu o deosebită putere asupra oamenilor. Ele sunt prezente în locuri anume, foarte frumoase și retrase, în dumbrăvi, pe la izvoare line, fântâni, prin văi frumoase sau chiar prin peșteri râpoase. Oamenii însă pot călca locurile lor, atunci ele lovindu-i și chiar *strigând* la ei. întotdeauna cel lovit de «Albe» suferă de partea corpului unde a fost lovit, iar când lovitura a fost puternică ea poate duce la paralizie.
+> Aromanii le numesc pe Zane *Albele,* caci sunt imbracate alb ca zapada si foarte curat, si le acorda aceeasi semnificatie pe care romanii o acorda *Ielelor.* Le descriu ca pe niste fete de o frumusete extraordinara. Sunt fecioare candide, dar cu o deosebita putere asupra oamenilor. Ele sunt prezente in locuri anume, foarte frumoase si retrase, in dumbravi, pe la izvoare line, fantani, prin vai frumoase sau chiar prin pesteri rapoase. Oamenii insa pot calca locurile lor, atunci ele lovindu-i si chiar *strigand* la ei. intotdeauna cel lovit de «Albe» sufera de partea corpului unde a fost lovit, iar cand lovitura a fost puternica ea poate duce la paralizie.
 >
-> Apele unde locuiesc Zânele sunt bune pentru vindecarea bolilor pricinuite de Zâne. De fapt, cei ce merg la aceste ape invocă ajutorul sau iertarea Zânelor. La sfârșitul veacului trecut mai existau încă mai multe locuri locuite de românii din Macedonia unde se aflau sălașuri ale Zânelor. Așa era *Zâna de la Camberita,* care se găsea în apropierea satului românesc Tristinic. Zâna locuia sub un alun mare și frumos, de sub rădăcinile căruia izvora o apă limpede ca argintul curgând în mici cascade. în fața acestei «fântâni» se afla un platou mic, foarte pitoresc. *Zâna de la Hwbungale* locuia sub un nuc uriaș, de unde curgea o apă foarte limpede, care avea cursul lin. La Moloviște Zânele stăteau într-o dumbravă de sub un fag stufos, lângă care se afla un izvor cu apă puțină, dar care nu seca niciodată. Lumea se temea să calce pe acolo, în singurătatea Zânelor, de teamă să nu își atragă vreo pedeapsă. Aici veneau însă să se spele toți cei \"luați de *Albe\".* Dacă cineva, care nu era bolnav, trecea pe acolo și nu pățea nimic, însemna că ele nu fuseseră acolo în acel moment.
+> Apele unde locuiesc Zanele sunt bune pentru vindecarea bolilor pricinuite de Zane. De fapt, cei ce merg la aceste ape invoca ajutorul sau iertarea Zanelor. La sfarsitul veacului trecut mai existau inca mai multe locuri locuite de romanii din Macedonia unde se aflau salasuri ale Zanelor. Asa era *Zana de la Camberita,* care se gasea in apropierea satului romanesc Tristinic. Zana locuia sub un alun mare si frumos, de sub radacinile caruia izvora o apa limpede ca argintul curgand in mici cascade. in fata acestei «fantani» se afla un platou mic, foarte pitoresc. *Zana de la Hwbungale* locuia sub un nuc urias, de unde curgea o apa foarte limpede, care avea cursul lin. La Moloviste Zanele stateau intr-o dumbrava de sub un fag stufos, langa care se afla un izvor cu apa putina, dar care nu seca niciodata. Lumea se temea sa calce pe acolo, in singuratatea Zanelor, de teama sa nu isi atraga vreo pedeapsa. Aici veneau insa sa se spele toti cei \"luati de *Albe\".* Daca cineva, care nu era bolnav, trecea pe acolo si nu patea nimic, insemna ca ele nu fusesera acolo in acel moment.
 
-La Vlaho-Clisura ele locuiau *la Apa cea rea,* într-o pădure deasă din apropiere, de o frumusețe încântătoare, despre care româncele ziceau că este prietena lor, care se întrece în frumusețe cu dânsele. La Avela (în Epir, provincie cuprinsă azi în Grecia), românii credeau că viețuiesc Zâne la cele trei fântâni din vestul satului, la o oră de mers, într-o frumoasă pajiște în jurul căreia creșteau păduri de fagi. Ele mai apăreau și la o piatră din apropierea satului.
+La Vlaho-Clisura ele locuiau *la Apa cea rea,* intr-o padure deasa din apropiere, de o frumusete incantatoare, despre care romancele ziceau ca este prietena lor, care se intrece in frumusete cu dansele. La Avela (in Epir, provincie cuprinsa azi in Grecia), romanii credeau ca vietuiesc Zane la cele trei fantani din vestul satului, la o ora de mers, intr-o frumoasa pajiste in jurul careia cresteau paduri de fagi. Ele mai apareau si la o piatra din apropierea satului.
 
-în general, majoritatea izvoarelor cu Zâne se află în păduri de fagi, la rădăcina fagilor chiar. La Perivole (tot în Epir) Zânele locuiau pe muntele numit Zâna, \"un munte de toată frumusețea, împodobit cu păduri de pini și fagi, unde isvorăsc niște fântâni line, despre care locuitorii din Perivole spun că dacă ți se întâmplă să mergi odată să bei de acolo, ți se naște misterioasa dorință de a le dori întotdeauna și pururi nu îți ies din minte\... Toți însă se tem să doarmă sub umbra fagilor, unde se crede că repauzeză zânele\"^1^.
+in general, majoritatea izvoarelor cu Zane se afla in paduri de fagi, la radacina fagilor chiar. La Perivole (tot in Epir) Zanele locuiau pe muntele numit Zana, \"un munte de toata frumusetea, impodobit cu paduri de pini si fagi, unde isvorasc niste fantani line, despre care locuitorii din Perivole spun ca daca ti se intampla sa mergi odata sa bei de acolo, ti se naste misterioasa dorinta de a le dori intotdeauna si pururi nu iti ies din minte\... Toti insa se tem sa doarma sub umbra fagilor, unde se crede ca repauzeza zanele\"^1^.
 
-> Dacă sunt mai multe locuri unde se știe sau se crede că sunt Zâne, se preferă a se invoca vindecarea la locul visat de suferind ca fiind cel mai bun. La Gobești, ca și la ceilalți aromâni din Macedonia, se obișnuiește să se cheme vreo trei, patru femei bătrâne, la casa unde se află un bolnav, ca să doarmă acolo punându-și în minte să viseze «ceva» pentru cel îmbolnăvit, anume cam la ce *apă* să fie dus bolnavul pentru a se spăla. A doua zi, știindu-se apa la care trebuie să meargă, după vis, bolnavul trebuie să meargă să se spele cu încredere, căci se va vindeca.
+> Daca sunt mai multe locuri unde se stie sau se crede ca sunt Zane, se prefera a se invoca vindecarea la locul visat de suferind ca fiind cel mai bun. La Gobesti, ca si la ceilalti aromani din Macedonia, se obisnuieste sa se cheme vreo trei, patru femei batrane, la casa unde se afla un bolnav, ca sa doarma acolo punandu-si in minte sa viseze «ceva» pentru cel imbolnavit, anume cam la ce *apa* sa fie dus bolnavul pentru a se spala. A doua zi, stiindu-se apa la care trebuie sa mearga, dupa vis, bolnavul trebuie sa mearga sa se spele cu incredere, caci se va vindeca.
 >
-> Vizita bolnavului la izvoarele Zânelor, «la *albe»,* trebuie făcută mai întotdeauna la revărsatul zorilor, pe nemâncate; în caz contrar, considerându-se batjocorite, *ele* se supără mai rău și îl mai pedepsesc odată. își însușesc vocea vreunei persoane la care ții mai mult și chemându-te pe nume cu vorbe dulci și fermecătoare, te determină a le urma fără a-ți lăsa timpul să îți dai seama unde mergi și ce cauți acolo, până ce te aduc pe marginea unei prăpăstii. Sau te \"lovesc\" și fac să capeți vreo boală periculoasă, o *mpoplexie»* a unei părți oarecare a corpului, urmată de o sudoare rece.
+> Vizita bolnavului la izvoarele Zanelor, «la *albe»,* trebuie facuta mai intotdeauna la revarsatul zorilor, pe nemancate; in caz contrar, considerandu-se batjocorite, *ele* se supara mai rau si il mai pedepsesc odata. isi insusesc vocea vreunei persoane la care tii mai mult si chemandu-te pe nume cu vorbe dulci si fermecatoare, te determina a le urma fara a-ti lasa timpul sa iti dai seama unde mergi si ce cauti acolo, pana ce te aduc pe marginea unei prapastii. Sau te \"lovesc\" si fac sa capeti vreo boala periculoasa, o *mpoplexie»* a unei parti oarecare a corpului, urmata de o sudoare rece.
 >
-> Dacă cel ce le vizitează *pe Albe* (la izvoarele acestora), face greșeala de a răspunde când este strigat de ele, sau răspunde la întrebările lor, amuțește ori își pierde unul dintre simțuri (devine surd etc). Singura salvare a suferindului după această pedepsire constă în a \"vizita toate Zânele\" (toate locurile unde trăiesc ele, toate izvoarele și dumbrăvile lor), prezentându-se cu mare pocăință.
+> Daca cel ce le viziteaza *pe Albe* (la izvoarele acestora), face greseala de a raspunde cand este strigat de ele, sau raspunde la intrebarile lor, amuteste ori isi pierde unul dintre simturi (devine surd etc). Singura salvare a suferindului dupa aceasta pedepsire consta in a \"vizita toate Zanele\" (toate locurile unde traiesc ele, toate izvoarele si dumbravile lor), prezentandu-se cu mare pocainta.
 >
-> Cei ce se duc la izvoarele Zânelor, trebuie să se îmbrace în alb, într-o pânză albă, cu o basma albă, să ia cu sine un j buchet de *Busuioc* uscat *(Ocimum basilicum),* legat cu o ață , roșie, unsă cu miere și cu un ban de argint foarte subțire. Sosind la apa *Albelor* se aprinde o lumânare și, după ce este lipită de îndătina arborelui sau de piatra de sub care țâșnește apa, j suferindul pune banul de argint în apă și adresează o rugă-descântec care se încheie astfel:
+> Cei ce se duc la izvoarele Zanelor, trebuie sa se imbrace in alb, intr-o panza alba, cu o basma alba, sa ia cu sine un j buchet de *Busuioc* uscat *(Ocimum basilicum),* legat cu o ata , rosie, unsa cu miere si cu un ban de argint foarte subtire. Sosind la apa *Albelor* se aprinde o lumanare si, dupa ce este lipita de indatina arborelui sau de piatra de sub care tasneste apa, j suferindul pune banul de argint in apa si adreseaza o ruga-descantec care se incheie astfel:
 >
-> *Să aibi milă și mai mare,*
+> *Sa aibi mila si mai mare,*
 >
-> *Căci om am fost și mă Înșelai:*
+> *Caci om am fost si ma Inselai:*
 >
-> *Căci n-am băgat de seamă unde am călcat,*
+> *Caci n-am bagat de seama unde am calcat,*
 >
-> *N-am simțit unde am scuipat.\"*
+> *N-am simtit unde am scuipat.\"*
 >
-> Bolnavul obișnuiește să își spele organul suferind în apa fântânei (sau izvorului), apoi pleacă degrabă, lăsând lumânarea, *Busuiocul* și celelalte daruri (eventual tămâie, o turtă).
+> Bolnavul obisnuieste sa isi spele organul suferind in apa fantanei (sau izvorului), apoi pleaca degraba, lasand lumanarea, *Busuiocul* si celelalte daruri (eventual tamaie, o turta).
 
-Zânele par mai degrabă rele oamenilor. Nu le place să fii mândru, ci totdeauna plecat. Uneori, văzând tineri frumoși de care se îndrăgostesc fetele, sau văzând fete frumoase și mândre, le ies înainte, când aceștia trec prin locuri mai retrase și caută să îi ademenească pentru a le face rău. Asemenea lucruri se pot întâmpla noaptea, când \"apa doarme și când toate lucrurile tac\"^1^. Românii din Oltenia cinstesc trei Zâne, *«Cele trei fecioare sfinte»,* căci par a se teme de ele. în anumite momente ale anului se fac focuri prin curți cu lemn de *Jugastru, Alun, Corn.* Lângă foc se pune o bucățică de tămâie, un pahar cu apă, trei pâini făcute fără drojdie și trei scaune (câte unul pentru fiecare zână). Aceste focuri sunt făcute de copii până în 15 ani, fiind «curați». î timpul nopții au să vină *cele trei fecioare sfinte* să se spele, să mănânce si să se încălzească la foc. Vor răsplăti cu bine atenția
+Zanele par mai degraba rele oamenilor. Nu le place sa fii mandru, ci totdeauna plecat. Uneori, vazand tineri frumosi de care se indragostesc fetele, sau vazand fete frumoase si mandre, le ies inainte, cand acestia trec prin locuri mai retrase si cauta sa ii ademeneasca pentru a le face rau. Asemenea lucruri se pot intampla noaptea, cand \"apa doarme si cand toate lucrurile tac\"^1^. Romanii din Oltenia cinstesc trei Zane, *«Cele trei fecioare sfinte»,* caci par a se teme de ele. in anumite momente ale anului se fac focuri prin curti cu lemn de *Jugastru, Alun, Corn.* Langa foc se pune o bucatica de tamaie, un pahar cu apa, trei paini facute fara drojdie si trei scaune (cate unul pentru fiecare zana). Aceste focuri sunt facute de copii pana in 15 ani, fiind «curati». i timpul noptii au sa vina *cele trei fecioare sfinte* sa se spele, sa manance si sa se incalzeasca la foc. Vor rasplati cu bine atentia
 
-~ce~ ii se acordă.
+~ce~ ii se acorda.
 
-> Si moții din Transilvania se întâlnesc (\"în zona Tibrulut ) ~cu~ \"năiuci îmbrăcate în haine albe lungi\", pe care le numesc
+> Si motii din Transilvania se intalnesc (\"in zona Tibrulut ) ~cu~ \"naiuci imbracate in haine albe lungi\", pe care le numesc
 >
 > *Pateri*
 >
-> **Ielele** sunt considerate Zâne rele care afectează (\"intră în om\") mâna, trupul, nasul sau piciorul omului, ele tulbură creierii, amuțesc gura, asurzesc urechile, \"mocesc\" mâinile, «lasă de\*iici o treabă» căci «măceșe carnea pe trup, sgârcesc vinele și iau puterea din creierii capului, din vederea ochilor, din rânză, din osânză, din baerele inimii\...»
+> **Ielele** sunt considerate Zane rele care afecteaza (\"intra in om\") mana, trupul, nasul sau piciorul omului, ele tulbura creierii, amutesc gura, asurzesc urechile, \"mocesc\" mainile, «lasa de\*iici o treaba» caci «macese carnea pe trup, sgarcesc vinele si iau puterea din creierii capului, din vederea ochilor, din ranza, din osanza, din baerele inimii\...»
 >
-> Ielele nu au trup de carne, ci sunt «năluci» în chip de femei tinere și vesele. Sunt \"stăpânele *vântului\"* și zboară sau «umblă» prin *văzduh.* Ele se duc la *\"Vântul turbat,* în *gura vântului»,* de aceea sunt considerate de aceeași fire cu *Vântoasele^2^.* Invizibile, noaptea însă pot fi văzute. Sunt frumoase, tinere, seducătoare, voluptoase, nebunatice, vesele, zburdalnice, nemuritoare și sfinte, au aripi și zboară cu părul despletit, dezbrăcate peste mijloc, cu sânii goi, îmbrăcate în mătase albă și purtând coroane pe cap^3^.
+> Ielele nu au trup de carne, ci sunt «naluci» in chip de femei tinere si vesele. Sunt \"stapanele *vantului\"* si zboara sau «umbla» prin *vazduh.* Ele se duc la *\"Vantul turbat,* in *gura vantului»,* de aceea sunt considerate de aceeasi fire cu *Vantoasele^2^.* Invizibile, noaptea insa pot fi vazute. Sunt frumoase, tinere, seducatoare, voluptoase, nebunatice, vesele, zburdalnice, nemuritoare si sfinte, au aripi si zboara cu parul despletit, dezbracate peste mijloc, cu sanii goi, imbracate in matase alba si purtand coroane pe cap^3^.
 >
-> Dintre toate ființele supranaturale care pot face rău oamenilor cele mai temute sunt *Ielele.* Din acest motiv nici o altă ființă mitologică nu are atâtea nume câte au *Ielele,* nume eufemistice, create anume pentru a le îmbuna și a nu atrage efectele mâniei lor. Numele de *\"iele\",* identic cu pronumele personal feminin, *ele,* după cum dovedește sinonimul *Dănsele,* le-a fost dat pentru a evita rostirea unui nume care ar fi putut să le supere. Celelalte nume, formate din epitete, unul mai măgulitor decât altul, sunt extrem de numeroase. Le cităm pe cele mai cunoscute: *Albele, Mândrele, Frumoasele, Frumușelele, Ale-frumoase, Zânele, Sfintele, Ale-sfinte, Milostivele, Miluitele, Vrednicele, Cinstitele, Harnicele, Puternicele, Măiestrele, Șoimanele, Vitezele, Doamnele, Cuconițele, Jupânesele, împărătesele, Lăudatele, Dulcile, Trandafiriile, Preotesele, Vântoasele, Vănturițele, Drăgaicele, Fetele-cămpului, Fetele-lui-Șandru,* etc.\[4\]
+> Dintre toate fiintele supranaturale care pot face rau oamenilor cele mai temute sunt *Ielele.* Din acest motiv nici o alta fiinta mitologica nu are atatea nume cate au *Ielele,* nume eufemistice, create anume pentru a le imbuna si a nu atrage efectele maniei lor. Numele de *\"iele\",* identic cu pronumele personal feminin, *ele,* dupa cum dovedeste sinonimul *Dansele,* le-a fost dat pentru a evita rostirea unui nume care ar fi putut sa le supere. Celelalte nume, formate din epitete, unul mai magulitor decat altul, sunt extrem de numeroase. Le citam pe cele mai cunoscute: *Albele, Mandrele, Frumoasele, Frumuselele, Ale-frumoase, Zanele, Sfintele, Ale-sfinte, Milostivele, Miluitele, Vrednicele, Cinstitele, Harnicele, Puternicele, Maiestrele, Soimanele, Vitezele, Doamnele, Cuconitele, Jupanesele, imparatesele, Laudatele, Dulcile, Trandafiriile, Preotesele, Vantoasele, Vanturitele, Dragaicele, Fetele-campului, Fetele-lui-Sandru,* etc.\[4\]
 >
-> Se crede despre *Iele* că trăiesc în păduri îndepărtate și în zăvoaie, în peșteri și în văzduh, se crede că se hrănesc cu flori și că beau apă din izvoarele pure. De regulă, locul lor de petrecere este în apropierea apelor din păduri și a izvoarelor în care se scaldă, în jurul cărora dansează apoi *în horă* până după miezul nopții. După cum vom mai vedea, acest dans specific, definitoriu pentru *Iele,* cu aspectul unei de roți de foc în mișcare, este asimilabil unor apariții O.Z.N. Pe unde \"au jucat\" ele nu mai crește iarbă. Iarba care a fost verde se usucă, de parcă ar fi fost pârlită de foc. Se vede uneori pe pajiște câte un rotocol fără iarbă, pe unde au călcat *Ielele* jucând. Crește mai târziu altă iarbă pe locul acela «pârlit», cu mult mai frumoasă decât cea dintâi, însă vitele nu vor să o mănânce.\[4\] Românii din Carpații Apuseni spun că \"Ielele frumoasele joacă pe rât, *nu le știe nimeni cum joacă,* numai *vedem câ-i locul roată ca cum joacă hora* și îi mai verde ca celălalt rât, se cunoaște că se fac bureți. Dar le-o auzit destui că doară fac: *șii-șii, pși,* șueră\".^1^ Alți autori pretind că atunci când Ielele trec în zbor prin văzduh, peste vârfurile copacilor, \"dintr-un zăvoi într-altul\", se aude o muzică (un \"cântec\") ca și când ar fi \"din gură, din viori, din fluere sau din cimpoaie\".
+> Se crede despre *Iele* ca traiesc in paduri indepartate si in zavoaie, in pesteri si in vazduh, se crede ca se hranesc cu flori si ca beau apa din izvoarele pure. De regula, locul lor de petrecere este in apropierea apelor din paduri si a izvoarelor in care se scalda, in jurul carora danseaza apoi *in hora* pana dupa miezul noptii. Dupa cum vom mai vedea, acest dans specific, definitoriu pentru *Iele,* cu aspectul unei de roti de foc in miscare, este asimilabil unor aparitii O.Z.N. Pe unde \"au jucat\" ele nu mai creste iarba. Iarba care a fost verde se usuca, de parca ar fi fost parlita de foc. Se vede uneori pe pajiste cate un rotocol fara iarba, pe unde au calcat *Ielele* jucand. Creste mai tarziu alta iarba pe locul acela «parlit», cu mult mai frumoasa decat cea dintai, insa vitele nu vor sa o manance.\[4\] Romanii din Carpatii Apuseni spun ca \"Ielele frumoasele joaca pe rat, *nu le stie nimeni cum joaca,* numai *vedem ca-i locul roata ca cum joaca hora* si ii mai verde ca celalalt rat, se cunoaste ca se fac bureti. Dar le-o auzit destui ca doara fac: *sii-sii, psi,* suera\".^1^ Alti autori pretind ca atunci cand Ielele trec in zbor prin vazduh, peste varfurile copacilor, \"dintr-un zavoi intr-altul\", se aude o muzica (un \"cantec\") ca si cand ar fi \"din gura, din viori, din fluere sau din cimpoaie\".
 >
-> Ielele se pot deplasa cu viteze fabuloase, parcurgând \"nouă mări și nouă țări\" într-o singură noapte, folosind uneori *trăsuri cu cai de foc.* Locurile în care ele au \"horit\" rămâne ars ca de foc, iar crengile copacilor din jur sunt pârlite. Când, mult mai târziu născută de vite, iar solul devine propice dezvoltării ciupercilor din specia *Lingura Zânei (Ganoderma lucidum)^1^.*
+> Ielele se pot deplasa cu viteze fabuloase, parcurgand \"noua mari si noua tari\" intr-o singura noapte, folosind uneori *trasuri cu cai de foc.* Locurile in care ele au \"horit\" ramane ars ca de foc, iar crengile copacilor din jur sunt parlite. Cand, mult mai tarziu nascuta de vite, iar solul devine propice dezvoltarii ciupercilor din specia *Lingura Zanei (Ganoderma lucidum)^1^.*
 
-*\'Numai puțini oameni le pot vedea fără să pățească ceva. Aceștia sunt cei buni la suflet și făcătorii de bine\... Ele sboară prin văzduh înainte de miezul nopții și trec cântând din zale, din gură ori din clopoței, pe deasupra caselor, unde au de pedepsit pe cineva. Cântarea lor e așa de frumoasă, că nu se poate asemăna cu nici o cântare de pe pământ, \[nici\] chiar cu cea de privighetoare. In nopțile cu lună, ielele își aleg câte o livadă mare cu iarbă verde sau vreo poiană înrourată din vreun codru și acolo joc hore svăpăiate, de iau mințile celor care privesc\...*
+*\'Numai putini oameni le pot vedea fara sa pateasca ceva. Acestia sunt cei buni la suflet si facatorii de bine\... Ele sboara prin vazduh inainte de miezul noptii si trec cantand din zale, din gura ori din clopotei, pe deasupra caselor, unde au de pedepsit pe cineva. Cantarea lor e asa de frumoasa, ca nu se poate asemana cu nici o cantare de pe pamant, \[nici\] chiar cu cea de privighetoare. In noptile cu luna, ielele isi aleg cate o livada mare cu iarba verde sau vreo poiana inrourata din vreun codru si acolo joc hore svapaiate, de iau mintile celor care privesc\...*
 
-> *Ielele\... de departe se văd ca niște lumini aprinse ce zbor prin văzduh\... Puținii dintre cei care au văzut jocul lor, fără să fie văzuți de iele - și au scăpat astfel nepociți - spun că este minunat: mai întâi se înșiră în rând și după aceea se\'nvânesc în fel de fel de forme, învânituri și jocuri, de-ți încântă ochii și nu știi pe care s-o admiri mai mult. Iar când trebuie să se despartă, se\'nvânesc roată și așa de iute, încât pare că se vede ca un cerc luminos de foc, așa cum ar fi dacă ar lua cineva o făclie aprinsă și s-ar învârti repede, repede, încât cel care e așezat în mijlocul cercului rămâne zăpăcit, hăbăuc și cu mintea sărită din loc\...*
+> *Ielele\... de departe se vad ca niste lumini aprinse ce zbor prin vazduh\... Putinii dintre cei care au vazut jocul lor, fara sa fie vazuti de iele - si au scapat astfel nepociti - spun ca este minunat: mai intai se insira in rand si dupa aceea se\'nvanesc in fel de fel de forme, invanituri si jocuri, de-ti incanta ochii si nu stii pe care s-o admiri mai mult. Iar cand trebuie sa se desparta, se\'nvanesc roata si asa de iute, incat pare ca se vede ca un cerc luminos de foc, asa cum ar fi daca ar lua cineva o faclie aprinsa si s-ar invarti repede, repede, incat cel care e asezat in mijlocul cercului ramane zapacit, habauc si cu mintea sarita din loc\...*
 >
-> *In zbenguiala lor ielele fac multe șotii. Așa, dacă găsesc în drumul lor vreun tânăr dormind afară noaptea, cu capul pe pragul casei, îl duc fără să simtă în vreo poiană apropiată și acolo îl învață să cânte iar ele joacă în jurul lui. Cântecul acela îi revine apoi mai târziu în minte, dar nu de tot, ci numai în crâmpeie și așa se fac cântecele cele frumoase\...*
+> *In zbenguiala lor ielele fac multe sotii. Asa, daca gasesc in drumul lor vreun tanar dormind afara noaptea, cu capul pe pragul casei, il duc fara sa simta in vreo poiana apropiata si acolo il invata sa cante iar ele joaca in jurul lui. Cantecul acela ii revine apoi mai tarziu in minte, dar nu de tot, ci numai in crampeie si asa se fac cantecele cele frumoase\...*
 >
-> *Pe conducătoarea ielelor o recunosc de stăpână și vrăjitoarele și toate femeile care cu ajutorul duhurilor umblă noaptea călări pe mături*
+> *Pe conducatoarea ielelor o recunosc de stapana si vrajitoarele si toate femeile care cu ajutorul duhurilor umbla noaptea calari pe maturi*
 
-Este interesant că același mod în care mentalitatea arhaică (populară) interpretează anumite fenomene stranii întâlnite în natură, atribuindu-le unor ființe suprafirești, îl întîlnim și astăzi, la civilizația modernă. Este vorba despre consemnările și interpretările asupra Obiectelor Zburătoare Neidentificate, despre care se crede că sunt folosite de ființe extraterestre, întâlnim astfel, în literatura de specialitate, relatări asupra unor fenomene aproape identice cu cele pe care folclorul românesc le atribuie *Ielelor.* Ne referim la acele zone circulare în care iarba sau anumite culturi sunt culcate la pământ într-o singură direcție (ca și când ceva s-ar fi rotit pe deasupra - o \"horă\" deci, conchide țăranul român), ce sunt atribuite aterizării unor O.Z.N., presupuse nave extraterestre, așa cum sunt cele ce apar cu foarte mare frecvență în jurul monumentului megalitic de la Stonehenge. în aceiași situație se află zonele circulare calcinate ce apar peste noapte, fără vreo explicație, în diverse locuri din întreaga lume. Ele sunt atribuite aterizărilor O.Z.N. Ca și în cazurile semnalate oficial ale unor asemenea urme, și în relatările populare din Carpați (mai sus am arătat că poporul a observat la rându-i \"câte un rotocol fără iarbă\", \"parc\'ar fi fost pârlită de foc\", locuri \"pe unde au călcat Ielele jucând\"), nu au fost văzute obiectele sau ființele ce le-au produs, dar uneori au fost văzute lumini prin văzduh și s-au auzit unele zgomote. Cercetătorii fenomenelor O.Z.N. au explicat apariția unor ciuperci pe aceste urme circulare prin deversarea unor substanțe de natură organică din navele extraterestre^1^, în timp ce poporul atribuia apariția bureților în aceste locuri influenței Ielelor. Oricum, fie datorită unor radiații, fie datorită prezenței unor substanțe neidentificate, aceste zone sunt considerate periculoase. \"Dacă trece cineva pe locul unde fac horă sau pe unde au jucat *Ielele* - consemnează folcloriștii -, îl pocesc, și omul nu se mai face bine nici cu leacurile babelor, nici cu ale doftorilor. De aceea, cel ce vedea pe undeva un rotocol de iarbă călcată, să se ferească de a călca pe acolo, căci este locul unde au jucat *Ielele* si poate să-1 pocească: i se sgârcesc mâinile și picioarele. Dacă sade cineva în vatra lor, se spuzește pe tot trupul sau se umple de bube.\"\[4\] Acțiunile nefaste ale *Ielelor* merg până la moartea enigmatică a unor oameni și animale, provocarea unor inundații, uscarea pomilor, aprinderea caselor, paralizare sau schilodire a unor oameni, răpirea și dispariția fără urme a celor ce au reușit să le surprindă și să le învețe cântecele^1^. Se spune că *Vântoasele* au însușirea de *a vânturi* până la demență capetele oamenilor (mai ales ale copiilor), remediul acestei boli fiind considerat o misterioasă plantă numită *Iarba Vântului* (probabil *Apera spica-venti* sau *Geranium columbinum).* în ceea ce privește relatările despre dispariția fără urmă a unor ființe, în urma răpirii de către *Iele,* observăm că există, similar, relatări despre răpiri puse în seama extraterestrilor și a O.Z.N.-urilor.
+Este interesant ca acelasi mod in care mentalitatea arhaica (populara) interpreteaza anumite fenomene stranii intalnite in natura, atribuindu-le unor fiinte suprafiresti, il intilnim si astazi, la civilizatia moderna. Este vorba despre consemnarile si interpretarile asupra Obiectelor Zburatoare Neidentificate, despre care se crede ca sunt folosite de fiinte extraterestre, intalnim astfel, in literatura de specialitate, relatari asupra unor fenomene aproape identice cu cele pe care folclorul romanesc le atribuie *Ielelor.* Ne referim la acele zone circulare in care iarba sau anumite culturi sunt culcate la pamant intr-o singura directie (ca si cand ceva s-ar fi rotit pe deasupra - o \"hora\" deci, conchide taranul roman), ce sunt atribuite aterizarii unor O.Z.N., presupuse nave extraterestre, asa cum sunt cele ce apar cu foarte mare frecventa in jurul monumentului megalitic de la Stonehenge. in aceiasi situatie se afla zonele circulare calcinate ce apar peste noapte, fara vreo explicatie, in diverse locuri din intreaga lume. Ele sunt atribuite aterizarilor O.Z.N. Ca si in cazurile semnalate oficial ale unor asemenea urme, si in relatarile populare din Carpati (mai sus am aratat ca poporul a observat la randu-i \"cate un rotocol fara iarba\", \"parc\'ar fi fost parlita de foc\", locuri \"pe unde au calcat Ielele jucand\"), nu au fost vazute obiectele sau fiintele ce le-au produs, dar uneori au fost vazute lumini prin vazduh si s-au auzit unele zgomote. Cercetatorii fenomenelor O.Z.N. au explicat aparitia unor ciuperci pe aceste urme circulare prin deversarea unor substante de natura organica din navele extraterestre^1^, in timp ce poporul atribuia aparitia buretilor in aceste locuri influentei Ielelor. Oricum, fie datorita unor radiatii, fie datorita prezentei unor substante neidentificate, aceste zone sunt considerate periculoase. \"Daca trece cineva pe locul unde fac hora sau pe unde au jucat *Ielele* - consemneaza folcloristii -, il pocesc, si omul nu se mai face bine nici cu leacurile babelor, nici cu ale doftorilor. De aceea, cel ce vedea pe undeva un rotocol de iarba calcata, sa se fereasca de a calca pe acolo, caci este locul unde au jucat *Ielele* si poate sa-1 poceasca: i se sgarcesc mainile si picioarele. Daca sade cineva in vatra lor, se spuzeste pe tot trupul sau se umple de bube.\"\[4\] Actiunile nefaste ale *Ielelor* merg pana la moartea enigmatica a unor oameni si animale, provocarea unor inundatii, uscarea pomilor, aprinderea caselor, paralizare sau schilodire a unor oameni, rapirea si disparitia fara urme a celor ce au reusit sa le surprinda si sa le invete cantecele^1^. Se spune ca *Vantoasele* au insusirea de *a vanturi* pana la dementa capetele oamenilor (mai ales ale copiilor), remediul acestei boli fiind considerat o misterioasa planta numita *Iarba Vantului* (probabil *Apera spica-venti* sau *Geranium columbinum).* in ceea ce priveste relatarile despre disparitia fara urma a unor fiinte, in urma rapirii de catre *Iele,* observam ca exista, similar, relatari despre rapiri puse in seama extraterestrilor si a O.Z.N.-urilor.
 
-> Imaginarul popular le înfățișează pe *Iele* ca pe niște divinități. Atunci când dansează pe pământ, ele își aleg o poieniță curată, în inima unui codru sau a unui zăvoi, o grădină cu iarbă verde sau o față de arie, unde organizează apoi și un ospăț. Dacă le deranjezi de la vesela lor petrecere, se înrăiesc și te schilodesc. Dacă însă le lași în voia lor, nesupărate, îți pot da, câteodată, tot ce le ceri. Cine aude cântarea lor poate rămâne surd, iar cel ce răspunde, când ele îl strigă pe nume, rămâne mut. \"Dacă cel ce le-a simțit că vin, nu s\'a trântit cu fața la pământ și nu și-a pus ceva în cap, ca să nu le vadă și să nu audă cântarea lor, Ielele vin la dânsul și omul rămâne mut și schilod\... De cele mai multe ori, îi iau mâinile sau picioarele, ori îi strâmbă fața. Atunci se zice că omul e «șoimănit», căci au dat *Șoimanele* peste ^e^l\". \[4\] A te trânti cu fața la pământ, acoperindu-ți chiar capul la apropierea trecerii prin văzduh a *Ielelor,* poate pare o măsură preventivă de neexpunere la anumite radiații periculoase, al căror efect a fost înregistrat de experiența populară ca o consecință a aparițiilor unor cercuri luminoase în mișcare (\"hora\" *Ielelor)* însoțite de un șuierat specific.
+> Imaginarul popular le infatiseaza pe *Iele* ca pe niste divinitati. Atunci cand danseaza pe pamant, ele isi aleg o poienita curata, in inima unui codru sau a unui zavoi, o gradina cu iarba verde sau o fata de arie, unde organizeaza apoi si un ospat. Daca le deranjezi de la vesela lor petrecere, se inraiesc si te schilodesc. Daca insa le lasi in voia lor, nesuparate, iti pot da, cateodata, tot ce le ceri. Cine aude cantarea lor poate ramane surd, iar cel ce raspunde, cand ele il striga pe nume, ramane mut. \"Daca cel ce le-a simtit ca vin, nu s\'a trantit cu fata la pamant si nu si-a pus ceva in cap, ca sa nu le vada si sa nu auda cantarea lor, Ielele vin la dansul si omul ramane mut si schilod\... De cele mai multe ori, ii iau mainile sau picioarele, ori ii stramba fata. Atunci se zice ca omul e «soimanit», caci au dat *Soimanele* peste ^e^l\". \[4\] A te tranti cu fata la pamant, acoperindu-ti chiar capul la apropierea trecerii prin vazduh a *Ielelor,* poate pare o masura preventiva de neexpunere la anumite radiatii periculoase, al caror efect a fost inregistrat de experienta populara ca o consecinta a aparitiilor unor cercuri luminoase in miscare (\"hora\" *Ielelor)* insotite de un suierat specific.
 >
-> Vătămarea ființelor omenești poate avea și un alt motiv decât \"răutatea\" *Ielelor.* O relatare din Carpații Apuseni arată că doi vânători au mers odată pe un vârf de munte, culcându-se peste noapte într-o stână. în timpul nopții, unul dintre vânători a auzit vocile *Vântoaselor* zicând: \"Săracul om, dacă ar fi aici de acum într-un an, am veni și i-am pune oasele la picioare!\" Când s-au trezit dimineața, tovarășul vânătorului care a auzit vocile nu se mai putea ridica, rămăsese fără vlagă în picioare. Peste un an cei doi vânători s-au întors la stâna de pe munte, unul pe picioarele sale, celălalt dus în spatele celui sănătos. Peste noapte ologul și-a recăpătat vlaga picioarelor, astfel încât s-a întors acasă întreg. Morala populară este că li s-a stricat carul *vântoaselor* chiar deasupra stânei unde dormeau vânătorii și le-a trebuit puterea omului pentru a-și urni carul.^1^
+> Vatamarea fiintelor omenesti poate avea si un alt motiv decat \"rautatea\" *Ielelor.* O relatare din Carpatii Apuseni arata ca doi vanatori au mers odata pe un varf de munte, culcandu-se peste noapte intr-o stana. in timpul noptii, unul dintre vanatori a auzit vocile *Vantoaselor* zicand: \"Saracul om, daca ar fi aici de acum intr-un an, am veni si i-am pune oasele la picioare!\" Cand s-au trezit dimineata, tovarasul vanatorului care a auzit vocile nu se mai putea ridica, ramasese fara vlaga in picioare. Peste un an cei doi vanatori s-au intors la stana de pe munte, unul pe picioarele sale, celalalt dus in spatele celui sanatos. Peste noapte ologul si-a recapatat vlaga picioarelor, astfel incat s-a intors acasa intreg. Morala populara este ca li s-a stricat carul *vantoaselor* chiar deasupra stanei unde dormeau vanatorii si le-a trebuit puterea omului pentru a-si urni carul.^1^
 >
-> \"Câteodată doarme cineva pc-afarâ noaptea - spun alte relatări -și când trec ele în sbor pe deasupra lui, îi sucesc mâinile și picioarele, îl damblagesc. Alții mai spun că ele umblă noaptea pe sub streașină casei și, dacă trece omul sau urinează pe-acolo, îl ologesc. Câinii le simt: când trec ele pe lângă casă, încep să urle.\"\[4\]
+> \"Cateodata doarme cineva pc-afara noaptea - spun alte relatari -si cand trec ele in sbor pe deasupra lui, ii sucesc mainile si picioarele, il damblagesc. Altii mai spun ca ele umbla noaptea pe sub streasina casei si, daca trece omul sau urineaza pe-acolo, il ologesc. Cainii le simt: cand trec ele pe langa casa, incep sa urle.\"\[4\]
 
-Aromânii spun că dacă cineva se deșteaptă din somn subit, părându-i-se că cineva îl cheamă pe nume, să nu răspundă de loc, să nu se scoale din așternut și să nu deschidă ferestrele, căci sunt *Albele (Ielele)* care încearcă să îi ademenească și să le facă rău^2^.
+Aromanii spun ca daca cineva se desteapta din somn subit, parandu-i-se ca cineva il cheama pe nume, sa nu raspunda de loc, sa nu se scoale din asternut si sa nu deschida ferestrele, caci sunt *Albele (Ielele)* care incearca sa ii ademeneasca si sa le faca rau^2^.
 
-Se mai zice că ele, în timpul nopții, beau apă din fântâni, și oricine bea după ele - dacă nu lasă un obiect acolo, să cadă \"poceala\" pe acel obiect - va fi vătămat. Chiar și acasă, este bine să acoperi vasele în care se păstrează apa. \"Cine bea apă de unde ~au~ scuipat ele, se alege cu arsuri pe piept, ori cu o sfârșeală, de nu mai scapă de boală, până nu-și descântă. Alt leac mai e: să intre în jocul călușarilor, fără să vorbească, și aceștia să joace călcând pe dânsul.\"\[4\]
+Se mai zice ca ele, in timpul noptii, beau apa din fantani, si oricine bea dupa ele - daca nu lasa un obiect acolo, sa cada \"poceala\" pe acel obiect - va fi vatamat. Chiar si acasa, este bine sa acoperi vasele in care se pastreaza apa. \"Cine bea apa de unde ~au~ scuipat ele, se alege cu arsuri pe piept, ori cu o sfarseala, de nu mai scapa de boala, pana nu-si descanta. Alt leac mai e: sa intre in jocul calusarilor, fara sa vorbeasca, si acestia sa joace calcand pe dansul.\"\[4\]
 
-în general sunt atribuite *Ielelor* bolile de nervi, nebunia și reumatismul articular (denumit în Bucovina *Dânsele* sau *Ielele).* în județul Prahova, când cineva făcea bube pe picioare se credea că este *\"lepădătură din Iele\".* De asemenea, dacă picioarele îi erau răcite sau îl dureau, i se descânta zicându-se că *\"a călcat în loc rău\".* Dacă un om era prins într-un vârtej de aer iscat din senin si apoi îi apăreau orice fel de afecțiuni ale pielii, se spunea că a fost atins de *Iele.* Ca să nu fie \"bântuiți\" de Iele, oamenii sunt sfătuiți să poarte trei căței de usturoi în pungă, în curea sau în brâu.
+in general sunt atribuite *Ielelor* bolile de nervi, nebunia si reumatismul articular (denumit in Bucovina *Dansele* sau *Ielele).* in judetul Prahova, cand cineva facea bube pe picioare se credea ca este *\"lepadatura din Iele\".* De asemenea, daca picioarele ii erau racite sau il dureau, i se descanta zicandu-se ca *\"a calcat in loc rau\".* Daca un om era prins intr-un vartej de aer iscat din senin si apoi ii apareau orice fel de afectiuni ale pielii, se spunea ca a fost atins de *Iele.* Ca sa nu fie \"bantuiti\" de Iele, oamenii sunt sfatuiti sa poarte trei catei de usturoi in punga, in curea sau in brau.
 
-> Lumea rurală mai pune și Leuștean să crească pe la ferestre, ca să nu se poată apropia *Ielele,* căci cine le-ar fi auzit cum cântă, zice că grăiau astfel:
+> Lumea rurala mai pune si Leustean sa creasca pe la ferestre, ca sa nu se poata apropia *Ielele,* caci cine le-ar fi auzit cum canta, zice ca graiau astfel:
 >
-> *\"Dacă n \'ar fi avrămeasă, Mușețel și împărăteasă, Odolean și leuștean, Usturoi de samulastră, Toată lumea ar fi a noastră.\"*
+> *\"Daca n \'ar fi avrameasa, Musetel si imparateasa, Odolean si leustean, Usturoi de samulastra, Toata lumea ar fi a noastra.\"*
 >
-> Unul dintre puținele remedii împotriva răului pricinuit de Iele este descântecul.
+> Unul dintre putinele remedii impotriva raului pricinuit de Iele este descantecul.
 >
-> Redăm un astfel de descântec^1^.
+> Redam un astfel de descantec^1^.
 >
-> în cursul desfășurării sale se folosește o oală nouă, nesmălțuită, cu care se aduce apă de la o apă curgătoare, râu sau pârâu. Pe drumul până la apa curgătoare și pe cel de întoarcere acasă, descântătorul nu trebuie să vorbească cu nimeni, nu trebuie să își facă nevoile, să își sufle nasul său să \"slobozească vreun vânt din el\". în momentul când pleacă de acasă, trebuie să ia cu sine puțină pâine și, ajungând la apă, să arunce pâinea pe apă, zicând: *\"Eu îți dau apă sfântă și colac,/ TU să îmi dai mie leac/ Și sănătate/ Prin oasele, prin toate\".*
+> in cursul desfasurarii sale se foloseste o oala noua, nesmaltuita, cu care se aduce apa de la o apa curgatoare, rau sau parau. Pe drumul pana la apa curgatoare si pe cel de intoarcere acasa, descantatorul nu trebuie sa vorbeasca cu nimeni, nu trebuie sa isi faca nevoile, sa isi sufle nasul sau sa \"slobozeasca vreun vant din el\". in momentul cand pleaca de acasa, trebuie sa ia cu sine putina paine si, ajungand la apa, sa arunce painea pe apa, zicand: *\"Eu iti dau apa sfanta si colac,/ TU sa imi dai mie leac/ Si sanatate/ Prin oasele, prin toate\".*
 >
-> Trebuie să ia apoi apa \"din sus în jos\" (adică se introduce oala în sensul de curgere a apei) Ajuns acasă, descântătorul nu pune apa jos, ci o pune la foc să se încălzească puțin, după care urmează recitarea descântecului de.mai jos (al cărui limbaj nu îl redăm în forma în care a fost cules, căci abundența regionalismelor l-ar face absolut neinteligibil; oricum, ca efect terapeutic, ne interesează mai mult argumentația descântecului, decât limba în care a circulat și care ar putea prezenta interes numai ca monument folcloric):
+> Trebuie sa ia apoi apa \"din sus in jos\" (adica se introduce oala in sensul de curgere a apei) Ajuns acasa, descantatorul nu pune apa jos, ci o pune la foc sa se incalzeasca putin, dupa care urmeaza recitarea descantecului de.mai jos (al carui limbaj nu il redam in forma in care a fost cules, caci abundenta regionalismelor l-ar face absolut neinteligibil; oricum, ca efect terapeutic, ne intereseaza mai mult argumentatia descantecului, decat limba in care a circulat si care ar putea prezenta interes numai ca monument folcloric):
 
-\"--- Sfântă Maică Preacurată, sfântă de Tine, m-am luat de la casa mea, de la masa mea, sănătos și voios, mândru și frumos, pe cale, pe cărare, în poiana mare, la mărul tufos și m-am uitat cu ochi frumoși, cu capul frumos, cu mâinile frumoase, cu șalele frumoase, cu toate încheieturile mele mândre și frumoase și sănătoase. Nimeni în lume nu m-a văzut, nimeni nu m-a auzit în afară de *împăratul Irod și Irodeasa, cu Ileana Brăileana, cu fetele lor, cu slujnicele lor.* în ce loc m-a\[u\] întîmpinat, în brațe m-a\[u\] luat, în înaltul cerului m-a\[u\] ridicat, jos putred m-a\[u\] lăsat, ca pe un fior de cânepă m-a\[u\] melițat, ca pe un snop de grâu m-a\[u\] înblătit, mare batjocură m-a\[u\] batjocorit. Cum nu m-a\[u\] batjocorit!?, că *mi-a\[u\] luat puterea șalelor, puterea mâinilor, puterea spatelor, graiul gurii, auzul urechilor, vederea ochilor, frumusețea obrazului.*
+\"--- Sfanta Maica Preacurata, sfanta de Tine, m-am luat de la casa mea, de la masa mea, sanatos si voios, mandru si frumos, pe cale, pe carare, in poiana mare, la marul tufos si m-am uitat cu ochi frumosi, cu capul frumos, cu mainile frumoase, cu salele frumoase, cu toate incheieturile mele mandre si frumoase si sanatoase. Nimeni in lume nu m-a vazut, nimeni nu m-a auzit in afara de *imparatul Irod si Irodeasa, cu Ileana Braileana, cu fetele lor, cu slujnicele lor.* in ce loc m-a\[u\] intimpinat, in brate m-a\[u\] luat, in inaltul cerului m-a\[u\] ridicat, jos putred m-a\[u\] lasat, ca pe un fior de canepa m-a\[u\] melitat, ca pe un snop de grau m-a\[u\] inblatit, mare batjocura m-a\[u\] batjocorit. Cum nu m-a\[u\] batjocorit!?, ca *mi-a\[u\] luat puterea salelor, puterea mainilor, puterea spatelor, graiul gurii, auzul urechilor, vederea ochilor, frumusetea obrazului.*
 
-> *---* Nu te cânta \[cutare\..., numele pacientului\], nu te văita, că vom strânge *Dânsele, Bunele, Tarile, Frumoasele,* în cereală^1^ roșie încerca-le-vom, în steblă de busuioc mătura-le-vom, în rază (dungă, cută) de pânzătură (haină) lega-le-vom și acolo mâna-le vom în trâmbii (văile) câmpiilor, în vârfii munților. Nadă Nădiță, Nadă Nădiță, să-mi aducă leacul într-această apă sfântă neîncepută de pe toți munții, de pe toți molizii, de pe toate ierburile, de pe toți fagii, de pe toți copacii, de pe toate frunzele, de pe toate florile, de pe toate râpele, de pe toate ulițele, din crucile ulițelor, din coarnele boilor, din staulul oilor, din căruța cailor, din locu\' ce am stat și m-a săgetat și sănătatea mi-a luat. Să-mi aducă leac și sănătate într-astă apă sfântă neîncepută, în ce ceas oi bea și m-oi spăla să-mi vie în ori ca cereala în flori. Amin! Descântecul de la Dumnezeu și de la Maica sfântă Preacurată, să-mi dea leacul și sănătatea prin oasele prin toate.\"
+> *---* Nu te canta \[cutare\..., numele pacientului\], nu te vaita, ca vom strange *Dansele, Bunele, Tarile, Frumoasele,* in cereala^1^ rosie incerca-le-vom, in stebla de busuioc matura-le-vom, in raza (dunga, cuta) de panzatura (haina) lega-le-vom si acolo mana-le vom in trambii (vaile) campiilor, in varfii muntilor. Nada Nadita, Nada Nadita, sa-mi aduca leacul intr-aceasta apa sfanta neinceputa de pe toti muntii, de pe toti molizii, de pe toate ierburile, de pe toti fagii, de pe toti copacii, de pe toate frunzele, de pe toate florile, de pe toate rapele, de pe toate ulitele, din crucile ulitelor, din coarnele boilor, din staulul oilor, din caruta cailor, din locu\' ce am stat si m-a sagetat si sanatatea mi-a luat. Sa-mi aduca leac si sanatate intr-asta apa sfanta neinceputa, in ce ceas oi bea si m-oi spala sa-mi vie in ori ca cereala in flori. Amin! Descantecul de la Dumnezeu si de la Maica sfanta Preacurata, sa-mi dea leacul si sanatatea prin oasele prin toate.\"
 
-Din apa cu care se descântă, bolnavul trebuie să bea puțin si cu restul să-și dea pe corp (să se spele). Apa folosită trebuie strânsă cu grijă, apoi se face o gropă în tindă sau în curte (nu în casă!). Groapa trebuie să fie adâncă numai cât să cuprindă în ea apa cu care s-a descântat și s-a spălat bolnavul. Pe fundul gropii se pune puțin piper și usturoi, care se acoperă cu puțin pământ. După ce bolnavul s-a spălat (mai cu seamă pe parte bolnavă, de regulă pe cap) se lasă să cadă apa în groapă (cel mai bine este ca apa să cadă direct de pe bolnav în groapă). Groapa se acoperă cu pământ și, timp de un an de zile, nu trebuie să o atingă sau să o calce nimeni, \"căci se leagă de el\" (se îmbolnăvește). Descântecul se repetă de 4 ori pe zi, cât timp mai ține acea lună de zile (dacă bolnavul \"a fost luat întru-Ielele\" la mijlocul unei luni și este descântat în altă lună, descântecul se începe la mijlocul lunii în care se descântă și se repetă zinic de 4 ori până la sfârșitul lunii)^1^.
+Din apa cu care se descanta, bolnavul trebuie sa bea putin si cu restul sa-si dea pe corp (sa se spele). Apa folosita trebuie stransa cu grija, apoi se face o gropa in tinda sau in curte (nu in casa!). Groapa trebuie sa fie adanca numai cat sa cuprinda in ea apa cu care s-a descantat si s-a spalat bolnavul. Pe fundul gropii se pune putin piper si usturoi, care se acopera cu putin pamant. Dupa ce bolnavul s-a spalat (mai cu seama pe parte bolnava, de regula pe cap) se lasa sa cada apa in groapa (cel mai bine este ca apa sa cada direct de pe bolnav in groapa). Groapa se acopera cu pamant si, timp de un an de zile, nu trebuie sa o atinga sau sa o calce nimeni, \"caci se leaga de el\" (se imbolnaveste). Descantecul se repeta de 4 ori pe zi, cat timp mai tine acea luna de zile (daca bolnavul \"a fost luat intru-Ielele\" la mijlocul unei luni si este descantat in alta luna, descantecul se incepe la mijlocul lunii in care se descanta si se repeta zinic de 4 ori pana la sfarsitul lunii)^1^.
 
-> într-o altă variantă de descântec pentru *\"de-Dânsele\"^2^,* des-cântătoarea se duce la un pârâu sau la un râu cu o bucățică de pâine, cu un mic drob de sare și cu o oală nouă în mâna dreaptă. Ajungând la râu, se așează în sensul de curgere a apei și face trei metanii, zicând:
+> intr-o alta varianta de descantec pentru *\"de-Dansele\"^2^,* des-cantatoarea se duce la un parau sau la un rau cu o bucatica de paine, cu un mic drob de sare si cu o oala noua in mana dreapta. Ajungand la rau, se aseaza in sensul de curgere a apei si face trei metanii, zicand:
 >
-> *Apă curgătoare, Eu te sorocesc Tot cu pâine și cu sare Să lecuiești pe* \[cutare\]
+> *Apa curgatoare, Eu te sorocesc Tot cu paine si cu sare Sa lecuiesti pe* \[cutare\]
 >
-> apoi aruncă o parte din pâine și sare în undele râului. Se introduce oala și se ia puțină apă \"din apa ce a curs peste pâinea și sarea aruncată\". întreg acest ritual trebuie repetat de trei ori, de fiecare dată mai în susul apei curgătoare, până ce oala se umple cu apă.
+> apoi arunca o parte din paine si sare in undele raului. Se introduce oala si se ia putina apa \"din apa ce a curs peste painea si sarea aruncata\". intreg acest ritual trebuie repetat de trei ori, de fiecare data mai in susul apei curgatoare, pana ce oala se umple cu apa.
 >
-> Ajunsă acasă, lângă bolnav, descântătoarea începe să descânte în oala cu apă neîncepută adusă de la râu. în timp ce descântă aruncă în apa neîncepută nouă cărbuni de fag aprinși (pentru a se stinge în această apă), după care se întoarce cu oala cu apă la apa curgătoare și, fără o vorbă, fără să se uite înapoi, deșartă oala cu apa descântată în râu.
+> Ajunsa acasa, langa bolnav, descantatoarea incepe sa descante in oala cu apa neinceputa adusa de la rau. in timp ce descanta arunca in apa neinceputa noua carbuni de fag aprinsi (pentru a se stinge in aceasta apa), dupa care se intoarce cu oala cu apa la apa curgatoare si, fara o vorba, fara sa se uite inapoi, desarta oala cu apa descantata in rau.
 >
-> în regiunea Banatului, se descântă de *Milostâvnice* (de *Iele)* de către o babă însoțită de opt fete. Se duc toate la un râu, împreună cu bolnavul, fiecare dintre ele ducând în mâini câte un buchețel de un singur fel de floare. Baba udă buchețelul (\"chita\") ei cu apă și îl lovește cu ea pe bolnav în cap, zicând:
+> in regiunea Banatului, se descanta de *Milostavnice* (de *Iele)* de catre o baba insotita de opt fete. Se duc toate la un rau, impreuna cu bolnavul, fiecare dintre ele ducand in maini cate un buchetel de un singur fel de floare. Baba uda buchetelul (\"chita\") ei cu apa si il loveste cu ea pe bolnav in cap, zicand:
 >
 > *Hai la rost, la rost,*
 >
-> *Să meargă snaga* (puterea) *unde-a fost,*
+> *Sa mearga snaga* (puterea) *unde-a fost,*
 >
-> *Mai vârtos de cum a fost.*
+> *Mai vartos de cum a fost.*
 >
-> Cele 8 fete rostesc și ele aceeași incantație, ocolindu-1 pe bolnav de 3 ori. Descântecul se repetă de 3 ori.\[4\]
+> Cele 8 fete rostesc si ele aceeasi incantatie, ocolindu-1 pe bolnav de 3 ori. Descantecul se repeta de 3 ori.\[4\]
 
-în Moldova, \"când vine dambla la o parte a corpului\" și se spune că omul este \"luat de *Iele\",* se aduce apă neâncepută, luată de la un izvor înainte de a cânta dimineața cocoșii, se pune apa
+in Moldova, \"cand vine dambla la o parte a corpului\" si se spune ca omul este \"luat de *Iele\",* se aduce apa neanceputa, luata de la un izvor inainte de a canta dimineata cocosii, se pune apa
 
-într-un vas în care se amestecă leuștean și alte \"buruieni\", ~z~icându-se:
+intr-un vas in care se amesteca leustean si alte \"buruieni\", ~z~icandu-se:
 
-> *Unde fata nu joacă.*
+> *Unde fata nu joaca.*
 >
-> *Vă duceți la vântul turbat,*
+> *Va duceti la vantul turbat,*
 >
-> *Unde ciocârlia se dă peste cap.*
+> *Unde ciocarlia se da peste cap.*
 >
-> *Vă duceți în gura vântului*
+> *Va duceti in gura vantului*
 >
-> *Să vă loviți de toarta pământului.*
+> *Sa va loviti de toarta pamantului.*
 >
-> *Ieșiți din mână, trup, picior,*
+> *Iesiti din mana, trup, picior,*
 >
-> *Și să pieriți sus într-un nor.*
+> *Si sa pieriti sus intr-un nor.*
 >
-> *Dați omului sănătate,*
+> *Dati omului sanatate,*
 >
-> *Că sabie de foc vă bate!*
+> *Ca sabie de foc va bate!*
 >
-> La rândul său, inspirându-se din unele tradiții locale mai puțin răspândite, basmul cult românesc vorbește despre \"palatul Ielelor\" aflat pe un vârf de munte ascuns într-un \"labirint de văi\". Porțile acestui palat, aflat în cel mai frumos loc, dar și cel mai fioros, \"nimic nu Ic deschide făr\' numai o putere, ce unei ierbi s-a dat, ce-a fiarelor se zice\"^1^. *Iarba fiarelor* este planta mirabilă a românilor căreia i se atribuie diverse virtuți magice. Se crede că cine și-o încrustează sub pielea palmei, nu poale fi nici măcar încătușat, putând descuia orice încuietoare prin simpla atingere. Românii maramureșeni cred despre eroul național Pintea Haiducul, că obținuse *Iarba fiarelor* cu ajutorul moașei sale, care se pricepea cum trebuie găsită.
+> La randul sau, inspirandu-se din unele traditii locale mai putin raspandite, basmul cult romanesc vorbeste despre \"palatul Ielelor\" aflat pe un varf de munte ascuns intr-un \"labirint de vai\". Portile acestui palat, aflat in cel mai frumos loc, dar si cel mai fioros, \"nimic nu Ic deschide far\' numai o putere, ce unei ierbi s-a dat, ce-a fiarelor se zice\"^1^. *Iarba fiarelor* este planta mirabila a romanilor careia i se atribuie diverse virtuti magice. Se crede ca cine si-o incrusteaza sub pielea palmei, nu poale fi nici macar incatusat, putand descuia orice incuietoare prin simpla atingere. Romanii maramureseni cred despre eroul national Pintea Haiducul, ca obtinuse *Iarba fiarelor* cu ajutorul moasei sale, care se pricepea cum trebuie gasita.
 >
-> Calitatea *Ierbii Fiarelor* de a deschide porțile palatului Ielelor, a unui presupus tărâm din altă lume, permite asocierea ei cu *Creanga de Aur,* cu ajutorul căreia strămoșul prototipic al romanilor, Enea, ajungea până în tărâmul fericiților din cealaltă lume.
+> Calitatea *Ierbii Fiarelor* de a deschide portile palatului Ielelor, a unui presupus taram din alta lume, permite asocierea ei cu *Creanga de Aur,* cu ajutorul careia stramosul prototipic al romanilor, Enea, ajungea pana in taramul fericitilor din cealalta lume.
 >
 > Rusaliile
 >
-> Rusaliile sunt cvasi-identificate cu *Ielele.* Tbtuși, spre deosebire de Iele, *Rusaliile* umblă pe pământ numai în anumite momente, îndeosebi în Săptămâna Rusaliilor. Ele sunt în general descrise fie ca bătrâne, urâte și gârbovite de bătrânețe, fie ca trei țigănci, în timp ce *Ielele* sunt tinere și frumoase, ademenind lumea cu frumusețea și glasul lor. Dar chiar și *Rusaliile* se mai pot înfățișa uneori ca niște Zâne tinere. în afară de Săptămâna Rusaliilor, Rusaliile mai umblă pe pământ și în ziua de *Todoru-sale* sau *Sfredelul Rusaliilor,* care este într-o zi de miercuri (în prima miercuri după *Duminica Sfintei învieri a Domnului),* cu 24 de zile înainte de Duminica Rusaliilor. în Valahia i se zice zilei acesteia *Strat de Rusalii,* în Bucovina numai *Rusalii^1^,* iar în Moldova *Strada Rusaliilor^2^.*
+> Rusaliile sunt cvasi-identificate cu *Ielele.* Tbtusi, spre deosebire de Iele, *Rusaliile* umbla pe pamant numai in anumite momente, indeosebi in Saptamana Rusaliilor. Ele sunt in general descrise fie ca batrane, urate si garbovite de batranete, fie ca trei tiganci, in timp ce *Ielele* sunt tinere si frumoase, ademenind lumea cu frumusetea si glasul lor. Dar chiar si *Rusaliile* se mai pot infatisa uneori ca niste Zane tinere. in afara de Saptamana Rusaliilor, Rusaliile mai umbla pe pamant si in ziua de *Todoru-sale* sau *Sfredelul Rusaliilor,* care este intr-o zi de miercuri (in prima miercuri dupa *Duminica Sfintei invieri a Domnului),* cu 24 de zile inainte de Duminica Rusaliilor. in Valahia i se zice zilei acesteia *Strat de Rusalii,* in Bucovina numai *Rusalii^1^,* iar in Moldova *Strada Rusaliilor^2^.*
 >
-> După credința românilor din Banat, Rusaliile au fost la început șapte surori, fete curate și nemăritate, pe care Dumnezeu, pentru că au fost așa de curate și plăcute le-a prefăcut pe toate în Zâne. Ele nu vor muri niciodată și, ca Zâne, umblă \"ziua și noaptea printre oameni, însă lumea nu le vede, pentru că e prea stricată și încărcată cu tot felul de păcate și fărădelegi\"^3^. Oricum, ele nu umblă printre oameni decât numai cinci săptămâni, adică până la *Rusitori.* Prima zi în care vin ele este Sfredelul Rusaliilor sau *Todorusalele.* în această zi Rusaliile se întâlnesc cu Sân-Tbaderii, care sunt *Feți-Frumoși,* de aici venind și numele compus, de Todor-Rusale.
+> Dupa credinta romanilor din Banat, Rusaliile au fost la inceput sapte surori, fete curate si nemaritate, pe care Dumnezeu, pentru ca au fost asa de curate si placute le-a prefacut pe toate in Zane. Ele nu vor muri niciodata si, ca Zane, umbla \"ziua si noaptea printre oameni, insa lumea nu le vede, pentru ca e prea stricata si incarcata cu tot felul de pacate si faradelegi\"^3^. Oricum, ele nu umbla printre oameni decat numai cinci saptamani, adica pana la *Rusitori.* Prima zi in care vin ele este Sfredelul Rusaliilor sau *Todorusalele.* in aceasta zi Rusaliile se intalnesc cu San-Tbaderii, care sunt *Feti-Frumosi,* de aici venind si numele compus, de Todor-Rusale.
 >
-> Rusaliile, de bucurie că s-au întâlnit cu frații lor, le dăruiesc Sân-Toaderilor, în noaptea de Tbdorusale, câte un buchet făcut din Dumbravnic *(Melitis melissophylum),* mai ales din vârful acestuia, pe care îl rup, astfel că în ziua de Tbdorusale Dumbravnicul nu mai are nici vârf, nici miros^1^. Nici o plantă de leac nu mai este bună de la această dată.
+> Rusaliile, de bucurie ca s-au intalnit cu fratii lor, le daruiesc San-Toaderilor, in noaptea de Tbdorusale, cate un buchet facut din Dumbravnic *(Melitis melissophylum),* mai ales din varful acestuia, pe care il rup, astfel ca in ziua de Tbdorusale Dumbravnicul nu mai are nici varf, nici miros^1^. Nici o planta de leac nu mai este buna de la aceasta data.
 
-în Banat, românii *hăuliți* (adică \"luați de *Hale\" -* de *Iele -,* atinși de *Vântoase* la mâini, la picioare, la cap^2^) au obiceiul ca în noaptea de *Sfredelul Rusaliilor* (Tbdorusale) să se culce în aer liber, în câmp, între florile numite Frăsinică, spre a se vindeca, iar dimineața, când se scoală, observă că *Halele* au luat vârful Frăsinicăi. în aceeași zi, româncele din Moldova voind să aibă ierburi de leac, se scoală dis-de-dimineață, se spală, se îmbracă curat și se duc să adune ierburile ce le știu de leac, căci, după acest moment, «le chișcă Ielele» și nu mai sunt bune de leac. Tot atunci însă, preventiv, culeg Pelin *(Artemisia absinthium)* cu care umblă toată ziua la brâu, ca \"să se apere de *Iele\"\*.* De la această dată, vreme de nouă săptămâni, plantele medicinale nu mai sunt culese (sau, în alte părți, de la Duminica Rusaliilor). Spre a se apăra de mânia *Rusaliilor* există un obicei românesc ca, în ajunul zilei lor, să se pună Pelin sub căpătâiul patului și să se poarte a doua zi Pelinul la brâu^4^. Tot la brâu, sau în sân, spre a împiedica vătămarea de către *Rusalii,* se poartă Bozul, numit și Socul mic *(Sambucus ebulus)* și Leușteanul^5^.
+in Banat, romanii *hauliti* (adica \"luati de *Hale\" -* de *Iele -,* atinsi de *Vantoase* la maini, la picioare, la cap^2^) au obiceiul ca in noaptea de *Sfredelul Rusaliilor* (Tbdorusale) sa se culce in aer liber, in camp, intre florile numite Frasinica, spre a se vindeca, iar dimineata, cand se scoala, observa ca *Halele* au luat varful Frasinicai. in aceeasi zi, romancele din Moldova voind sa aiba ierburi de leac, se scoala dis-de-dimineata, se spala, se imbraca curat si se duc sa adune ierburile ce le stiu de leac, caci, dupa acest moment, «le chisca Ielele» si nu mai sunt bune de leac. Tot atunci insa, preventiv, culeg Pelin *(Artemisia absinthium)* cu care umbla toata ziua la brau, ca \"sa se apere de *Iele\"\*.* De la aceasta data, vreme de noua saptamani, plantele medicinale nu mai sunt culese (sau, in alte parti, de la Duminica Rusaliilor). Spre a se apara de mania *Rusaliilor* exista un obicei romanesc ca, in ajunul zilei lor, sa se puna Pelin sub capataiul patului si sa se poarte a doua zi Pelinul la brau^4^. Tot la brau, sau in san, spre a impiedica vatamarea de catre *Rusalii,* se poarta Bozul, numit si Socul mic *(Sambucus ebulus)* si Leusteanul^5^.
 
-> în *Săptămâna Rusaliilor,* care începe în *Duminica Rusaliilor,* nu se muncește, căci în zilele consacrate lor, ele zboară prin văzduh, cântă și joacă pe la fântâni, pe la cruci, pe la răspântii, prin poieni, iar pe cine prind că lucrează se răzbună schilodindu-1, scoțându-i ochii, asurzindu-1 sau înnebunindu-1. Sunt descrise ca purtând în mâini niște unelte tăioase și frigări ascuțite cu care vatămă oamenii. O relatare culeasă în Basarabia, arată că un bărbat cu femeia sa s-au dus la prășit în *Lun Rusaliilor* (Lunea din *Săptămâna Rusaliilor).* După amiaza bărbatul s-a culcat la câmp și, dormind, i s-au arătat *Rusaliile* în vis, ca trei femei îmbrăcate complet în alb ce l-au târât într-un joc nebunesc, întinzându-1 și trântindu-1 până ce l-au trezit. Speriat, bărbatul și-a luat soția și au părăsit degrabă locul^1^.
+> in *Saptamana Rusaliilor,* care incepe in *Duminica Rusaliilor,* nu se munceste, caci in zilele consacrate lor, ele zboara prin vazduh, canta si joaca pe la fantani, pe la cruci, pe la raspantii, prin poieni, iar pe cine prind ca lucreaza se razbuna schilodindu-1, scotandu-i ochii, asurzindu-1 sau innebunindu-1. Sunt descrise ca purtand in maini niste unelte taioase si frigari ascutite cu care vatama oamenii. O relatare culeasa in Basarabia, arata ca un barbat cu femeia sa s-au dus la prasit in *Lun Rusaliilor* (Lunea din *Saptamana Rusaliilor).* Dupa amiaza barbatul s-a culcat la camp si, dormind, i s-au aratat *Rusaliile* in vis, ca trei femei imbracate complet in alb ce l-au tarat intr-un joc nebunesc, intinzandu-1 si trantindu-1 pana ce l-au trezit. Speriat, barbatul si-a luat sotia si au parasit degraba locul^1^.
 >
-> Tot în Basarabia se arată că cea mai periculoasă zi din *Săptămâna Rusaliilor* este Miercurea, când este *Zbuciumul Rusaliilor,* zi în care nu se lucrează de loc. în satul Ialoveni sătenii spun că un om s-a dus la prășit pe deal, în ziua de *Zbușiumu Rusaliilor.* Seara a fost adus legat în sat, căci fusese \"zbușiumat\" de către *Rusalii.* A zăcut un an, după care a murit^2^.
+> Tot in Basarabia se arata ca cea mai periculoasa zi din *Saptamana Rusaliilor* este Miercurea, cand este *Zbuciumul Rusaliilor,* zi in care nu se lucreaza de loc. in satul Ialoveni satenii spun ca un om s-a dus la prasit pe deal, in ziua de *Zbusiumu Rusaliilor.* Seara a fost adus legat in sat, caci fusese \"zbusiumat\" de catre *Rusalii.* A zacut un an, dupa care a murit^2^.
 
-Deși numele *Rusaliilor* pare să fie de origine slavă, însemnând un fel de nimfe, poporul român la apropiat însă de \"Rusalim\" (Ierusalim), iar cercetătorii de latinescul *rosalia.* Trebuie subliniat că poporul le consideră, ca și pe *lele,* ca fiind ficclc lui *Rusalim împărat* (numit și *Iraclie* sau, mai cu scamă, *hantief.* In variantele românești ale epopeei populare *Alexandria* (ce descrie aventurile legendare ale lui Alexandru Macedon), se spune că Alexandru ajunge într-un tărâm transcendent, al vieții fără de moarte. De regulă, tradițiile românești numesc acest loc tainic \"Ostrovul Blajinilor\". Așa se face că, atunci când a apărut *Alexandria* în Țările Românești, conținea interpolări specifice poporului român, privind obiceiuri, datini, credințe, elemente supranaturale și tradiții mitologice românești de circulație orală. Astfel, într-unui dintre cele mai vechi manuscrise ale Alexandriei^4^, la fila 52 găsim o miniatură intitulată *\"Alexandru și împăratul Ivantie în Ostrovul Blajinilor\".* Imaginea degajă un aspect paradisiac. Pe un fond de tonalității de verde se detașează figurile lui Alexandru aducând ofrande, a
+Desi numele *Rusaliilor* pare sa fie de origine slava, insemnand un fel de nimfe, poporul roman la apropiat insa de \"Rusalim\" (Ierusalim), iar cercetatorii de latinescul *rosalia.* Trebuie subliniat ca poporul le considera, ca si pe *lele,* ca fiind ficclc lui *Rusalim imparat* (numit si *Iraclie* sau, mai cu scama, *hantief.* In variantele romanesti ale epopeei populare *Alexandria* (ce descrie aventurile legendare ale lui Alexandru Macedon), se spune ca Alexandru ajunge intr-un taram transcendent, al vietii fara de moarte. De regula, traditiile romanesti numesc acest loc tainic \"Ostrovul Blajinilor\". Asa se face ca, atunci cand a aparut *Alexandria* in Tarile Romanesti, continea interpolari specifice poporului roman, privind obiceiuri, datini, credinte, elemente supranaturale si traditii mitologice romanesti de circulatie orala. Astfel, intr-unui dintre cele mai vechi manuscrise ale Alexandriei^4^, la fila 52 gasim o miniatura intitulata *\"Alexandru si imparatul Ivantie in Ostrovul Blajinilor\".* Imaginea degaja un aspect paradisiac. Pe un fond de tonalitatii de verde se detaseaza figurile lui Alexandru aducand ofrande, a
 
-lui *Ivantie (Rusalim) împărat* și a *trei personaje feminine nude.* Acestea sunt fetele împăratului Ostrovului Blajinilor, *Rusaliile.* Este remarcabil cum intuiția populară a identificat acea *Șambalta* vizitată de Alexandru Macedon cu *Ostrovul Blajinilor* (al dacoromânilor) și cu Ierusalimul ceresc *(Rusalim).* Putem concluziona, deci, că *Rusaliile* sunt Zâne ce vin din *Țara tinereții fără bătrânețe și a vieții fără de moarte,* ca și *Ielele.*
+lui *Ivantie (Rusalim) imparat* si a *trei personaje feminine nude.* Acestea sunt fetele imparatului Ostrovului Blajinilor, *Rusaliile.* Este remarcabil cum intuitia populara a identificat acea *Sambalta* vizitata de Alexandru Macedon cu *Ostrovul Blajinilor* (al dacoromanilor) si cu Ierusalimul ceresc *(Rusalim).* Putem concluziona, deci, ca *Rusaliile* sunt Zane ce vin din *Tara tineretii fara batranete si a vietii fara de moarte,* ca si *Ielele.*
 
-> în toată țara, *Sâmbăta Rusaliilor* (Sâmbăta dinaintea *Duminicii Rusaliilor)* este asimilată unei *Sămbete a Moșilor* (\"Sâmbăta morților\" sau \"Sâmbăta morțască\"), fiind foarte cunoscută sub numele de *Moșii de vară,* în Basarbia făcându-se în această zi pomeni cu lapte și mâncare (în unele locuri se dă si o creangă de Trandafir). De *Sâmbăta Rusaliilor* se pun pe jos prin casă, prin tindă ierburi (Simburel - probabil *Anagallis caenilea,* Corovatici - *Salvia nemorosa* sau *Verbascum nigrum, thapsus, phlomoides,* Nuc, iarbă), iar la streșini și pe stâlpii casei se agață crengi și frunze de Plop, de Stejar, de Frasin, de Tei sau de Nuc. Sunt lăsate astfel o săptămână, iar luni dimineața, după *Duminica Rusaliilor,* înainte de a răsări soarele, sunt strânse și sunt duse și ierburile și crengile, la o fântână unde se toarnă peste ele două găleți de apă, \"să iasă *Rusaliili,* să să ducă din sat odată cu șireada \[de vite\]\". în *Sâmbăta Rusaliilor* se curăță izvoarele. La curățatul fântânilor dă ajutor fiecare gospodar, la fântâna de unde ia apă. La Corcmaz (Basarabia), curățirea izvoarelor se face cu mare procesiune religioasă. Preotul ortodox sfințește apa la una dintre fântâni și de aici trece apoi în fruntea procesiunii pe la toate celelalte fântâni din sat, unde citește câteva rugăciuni scurte și stropește izvorul cu apă sfințită.^1^
+> in toata tara, *Sambata Rusaliilor* (Sambata dinaintea *Duminicii Rusaliilor)* este asimilata unei *Sambete a Mosilor* (\"Sambata mortilor\" sau \"Sambata mortasca\"), fiind foarte cunoscuta sub numele de *Mosii de vara,* in Basarbia facandu-se in aceasta zi pomeni cu lapte si mancare (in unele locuri se da si o creanga de Trandafir). De *Sambata Rusaliilor* se pun pe jos prin casa, prin tinda ierburi (Simburel - probabil *Anagallis caenilea,* Corovatici - *Salvia nemorosa* sau *Verbascum nigrum, thapsus, phlomoides,* Nuc, iarba), iar la stresini si pe stalpii casei se agata crengi si frunze de Plop, de Stejar, de Frasin, de Tei sau de Nuc. Sunt lasate astfel o saptamana, iar luni dimineata, dupa *Duminica Rusaliilor,* inainte de a rasari soarele, sunt stranse si sunt duse si ierburile si crengile, la o fantana unde se toarna peste ele doua galeti de apa, \"sa iasa *Rusaliili,* sa sa duca din sat odata cu sireada \[de vite\]\". in *Sambata Rusaliilor* se curata izvoarele. La curatatul fantanilor da ajutor fiecare gospodar, la fantana de unde ia apa. La Corcmaz (Basarabia), curatirea izvoarelor se face cu mare procesiune religioasa. Preotul ortodox sfinteste apa la una dintre fantani si de aici trece apoi in fruntea procesiunii pe la toate celelalte fantani din sat, unde citeste cateva rugaciuni scurte si stropeste izvorul cu apa sfintita.^1^
 >
-> în Valea Timocului (în Banat), cu numele de \"Rusalii\" (sau *Rusale)* sunt desemnate româncele care, în primele trei zile ale *Săptămânii Rusaliilor,* cad în stări de tip mediumnic, numite
+> in Valea Timocului (in Banat), cu numele de \"Rusalii\" (sau *Rusale)* sunt desemnate romancele care, in primele trei zile ale *Saptamanii Rusaliilor,* cad in stari de tip mediumnic, numite
 >
-> \"Căderea Rusaliilor\"^1^. Cei cuprinși de \"Căderea Rusaliilor\" par a fi \"posedați\", ei cad într-un fel de leșin însoțit de o stare de \"transă para-extatică\", după cum se exprima Mircea Eliade.
+> \"Caderea Rusaliilor\"^1^. Cei cuprinsi de \"Caderea Rusaliilor\" par a fi \"posedati\", ei cad intr-un fel de lesin insotit de o stare de \"transa para-extatica\", dupa cum se exprima Mircea Eliade.
 >
-> Aceste \"Căderi ale Rusaliilor\" au fost semnalate și cercetate la românii din regiunea Timocului (în cuprinsul Serbiei). Astfel, în anul 1902, a fost identificată o femeie de vreo patruzeci de ani, pe nume Dochia, \"care din copilărie devine *Rusalie* la sărbătoarea Rusaliilor, și care a început prin a cădea în extaz în zile de mari sărbători, devenind apoi vrăjitoare. La marile sărbători\[\...\] prezice soarta și prescrie medicamente pentru orice fel de boli. Se zice că face aceasta fără să ceară plată\"^2^. Despre o altă asemenea *Rusalie* se relata că, fiind în starea de \"transă\" prezicea bolile, răspunzând la întrebările care i se puneau. \"De aceea, mulți oameni veneau la ea, din satul ei și din satele vecine și ea le răspundea la întrebări și le dădea sfaturi. Adesea, dacă un obiect era furat, dacă cineva era bolnav sau cuiva i se întîmplase o nenorocire, se duceau la această femeie ca să-i ceară sfatul\" *(op. citat).*
+> Aceste \"Caderi ale Rusaliilor\" au fost semnalate si cercetate la romanii din regiunea Timocului (in cuprinsul Serbiei). Astfel, in anul 1902, a fost identificata o femeie de vreo patruzeci de ani, pe nume Dochia, \"care din copilarie devine *Rusalie* la sarbatoarea Rusaliilor, si care a inceput prin a cadea in extaz in zile de mari sarbatori, devenind apoi vrajitoare. La marile sarbatori\[\...\] prezice soarta si prescrie medicamente pentru orice fel de boli. Se zice ca face aceasta fara sa ceara plata\"^2^. Despre o alta asemenea *Rusalie* se relata ca, fiind in starea de \"transa\" prezicea bolile, raspunzand la intrebarile care i se puneau. \"De aceea, multi oameni veneau la ea, din satul ei si din satele vecine si ea le raspundea la intrebari si le dadea sfaturi. Adesea, daca un obiect era furat, daca cineva era bolnav sau cuiva i se intimplase o nenorocire, se duceau la aceasta femeie ca sa-i ceara sfatul\" *(op. citat).*
 >
-> Iată cum s-a consemnat acest fenomen. în *Duminica Rusaliilor,* anumite femei, tinere sau bătrâne, chiar și unii copii, încep să leșine. în prima zi, cam pe la ora trei după amiaza, a doua zi, în jurul prânzului, ziua următoare cam pe la ora nouă dimineața și continuă așa până la căderea nopții. înainte de a leșina o femeie începe să tremure, se culcă la pământ și începe să se agite și să se lovească cu mâinile. Un cercetător care a asistat în aceleași locuri la \"Căderea Rusaliilor\", în anii 1938 și 1939, relata că \"pretutindeni Rusaliile năpădite de duh vorbesc în limbi străine\", iar lumea le ascultă încredințată că pot prevedea viitorul^1^.
+> Iata cum s-a consemnat acest fenomen. in *Duminica Rusaliilor,* anumite femei, tinere sau batrane, chiar si unii copii, incep sa lesine. in prima zi, cam pe la ora trei dupa amiaza, a doua zi, in jurul pranzului, ziua urmatoare cam pe la ora noua dimineata si continua asa pana la caderea noptii. inainte de a lesina o femeie incepe sa tremure, se culca la pamant si incepe sa se agite si sa se loveasca cu mainile. Un cercetator care a asistat in aceleasi locuri la \"Caderea Rusaliilor\", in anii 1938 si 1939, relata ca \"pretutindeni Rusaliile napadite de duh vorbesc in limbi straine\", iar lumea le asculta incredintata ca pot prevedea viitorul^1^.
 
-Existența la români a unor persoane posedate de duhuri si care, prin stările mediumnice în care intră, pot fi consultate oracular sau medical, a fost observată și în prima jumătate a secolului al XVII-lea de către misionarul catolic Marcus Bandinus^2^. Tot așa cum există credința că bolile pot fi provocate de vrăjmași nevăzuți, de duhuri, se crede că vracii pot apela pentru vindecarea bolilor la aceleași duhuri, sau la altele. Vorbind despre *incantatores* și *incantatrices* din Moldova (care practicau arta incantațiilor magice și a vrăjilor), Bandinus arată că i-a văzut schimbându-se la față, tremurând mai întâi din mâini și din picioare, apoi, căzând la pământ, din tot corpul, după care rămâneau ca morți timp de o oră (uneori chiar patru). Când se trezeau, ei își povesteau visele ca pe niște oracole^3^. \"Când cineva pierde un obiect sau se îmbolnăvește - spunea Bandinus, se adresează acestor *incantatores.\"*
+Existenta la romani a unor persoane posedate de duhuri si care, prin starile mediumnice in care intra, pot fi consultate oracular sau medical, a fost observata si in prima jumatate a secolului al XVII-lea de catre misionarul catolic Marcus Bandinus^2^. Tot asa cum exista credinta ca bolile pot fi provocate de vrajmasi nevazuti, de duhuri, se crede ca vracii pot apela pentru vindecarea bolilor la aceleasi duhuri, sau la altele. Vorbind despre *incantatores* si *incantatrices* din Moldova (care practicau arta incantatiilor magice si a vrajilor), Bandinus arata ca i-a vazut schimbandu-se la fata, tremurand mai intai din maini si din picioare, apoi, cazand la pamant, din tot corpul, dupa care ramaneau ca morti timp de o ora (uneori chiar patru). Cand se trezeau, ei isi povesteau visele ca pe niste oracole^3^. \"Cand cineva pierde un obiect sau se imbolnaveste - spunea Bandinus, se adreseaza acestor *incantatores.\"*
 
-Legat de \"Căderea Rusaliilor\" există datina unui întreg ritual de trezire a *Rusaliei,* care are elemente și unele funcții analoage cu ale dansului *Călușului.* Astfel, în jurul *Rusaliei* căzute la pământ, în leșin, se formează un grup de dansatori și dansatoare condus de un bărbat \"impunător\", timp în care alți participanți cântă din diferite instrumente. Conducătorul dansatorilor, care ține în mână un cuțit și anumite plante: pelin, usturoi și mușețel, face o cruce cu cuțitul asupra Rusaliei căzute, apoi toți participanții încep să danseze în jurul ei, acompaniați de un cimpoi. Ei fac o horă în jurul femeii căzute, horă care se învârte de trei ori în sensul acelor de ceas, apoi în sens invers. în timp ce dansează ei strigă: *\"Hop, hop, hop, așa, așa/și-ncă-o dată tot așa\".* La un moment dat, cel ce conduce dansul ia femeia de subsori și traversează cu ea un râu. în timp ce ceilalți dansează, conducătorul ritualului ia un pic de apă din râu, un pic de Pelin și un pic de Usturoi, le amestecă în gură și le scuipă în gura și pe fața femeii, probabil pentru a determina duhul *Rusaliei* să îi părăsească trupul, așa cum procedează și *călușarul* în ritul Călușului. îi dă apoi femeii de două ori un pic de apă pe vârful cuțitului, o spală și o așează acolo unde căzuse, după care ea se scoală singură și începe să danseze, ca și cum nimic nu s-ar fi întâmplat.
+Legat de \"Caderea Rusaliilor\" exista datina unui intreg ritual de trezire a *Rusaliei,* care are elemente si unele functii analoage cu ale dansului *Calusului.* Astfel, in jurul *Rusaliei* cazute la pamant, in lesin, se formeaza un grup de dansatori si dansatoare condus de un barbat \"impunator\", timp in care alti participanti canta din diferite instrumente. Conducatorul dansatorilor, care tine in mana un cutit si anumite plante: pelin, usturoi si musetel, face o cruce cu cutitul asupra Rusaliei cazute, apoi toti participantii incep sa danseze in jurul ei, acompaniati de un cimpoi. Ei fac o hora in jurul femeii cazute, hora care se invarte de trei ori in sensul acelor de ceas, apoi in sens invers. in timp ce danseaza ei striga: *\"Hop, hop, hop, asa, asa/si-nca-o data tot asa\".* La un moment dat, cel ce conduce dansul ia femeia de subsori si traverseaza cu ea un rau. in timp ce ceilalti danseaza, conducatorul ritualului ia un pic de apa din rau, un pic de Pelin si un pic de Usturoi, le amesteca in gura si le scuipa in gura si pe fata femeii, probabil pentru a determina duhul *Rusaliei* sa ii paraseasca trupul, asa cum procedeaza si *calusarul* in ritul Calusului. ii da apoi femeii de doua ori un pic de apa pe varful cutitului, o spala si o aseaza acolo unde cazuse, dupa care ea se scoala singura si incepe sa danseze, ca si cum nimic nu s-ar fi intamplat.
 
-## NUIAUA PE ALUN ȘI RITUALUL CĂLUȘULUI
+## NUIAUA PE ALUN SI RITUALUL CALUSULUI
 
-> NUIAUA PE ALUN ȘI RITUALUL CĂLUȘULUI
+> NUIAUA PE ALUN SI RITUALUL CALUSULUI
 >
-> Ceremonialul magico-profilactic al dansului *călușului,* este strâns legat de vremea *Rusaliilor.* El este considerat panromân, fiind atestat în toate provinciile daco-române, ca și în Macedonia. Scopul *călușului* este acela al alungării duhului-boală si constă în anumite dansuri rituale executate în apropierea bolnavului și în atingerea acestuia cu ierburi de leac. I se scuipă bolnavului în față usturoiul pe care călușarul îl mestecă încontinuu, se sparge lângă el o oală cu apă etc.
+> Ceremonialul magico-profilactic al dansului *calusului,* este strans legat de vremea *Rusaliilor.* El este considerat panroman, fiind atestat in toate provinciile daco-romane, ca si in Macedonia. Scopul *calusului* este acela al alungarii duhului-boala si consta in anumite dansuri rituale executate in apropierea bolnavului si in atingerea acestuia cu ierburi de leac. I se scuipa bolnavului in fata usturoiul pe care calusarul il mesteca incontinuu, se sparge langa el o oala cu apa etc.
 >
-> Executanții dansului ritualic, *călușarii* (exclusivbărbați), au fost descriși în secolul al XVII-lea, de către chiar voievodul Moldovei, Dimitrie Cantemir. în acele vremuri ei umblau cu fața acoperită cu o pânză albă și aveau mai mult de o sută de ritmuri și jocuri, \"unele atât de măiestrite, încât cei care joacă par că nu ating pământul, ci zboară în aer\"^1^ (Mircea Eliade consideră că dansurile lor cu salturi evocă zborul și dansul *zânelor).* Principele Cantemir arăta că în vremea *Rusaliilor, călușarii* nu dorm niciodată decât sub acoperământul unei biserici fiind încredințați că dacă ar dormi în altă parte, ar fi pe dată loviți de *Iele,* \"pe care ei le numesc *Frumoasele\".* \"Cel care a fost primit odată într-o astfel de ceată este dator să se țină de ea, an de an, timp de nouă ani; iar dacă o părăsește, ei zic că este muncit de duhuri rele și că este chinuit de *Frumoase.* Mulțimea superstițioasă crede că ei au puterea de a izgoni bolile cronice, iar vindecarea se face astfel: după ce bolnavul s-a așternut la pământ, aceia încep săriturile lor și, la un anumit loc al cântecu-!ui, calcă, unul după altul, de la cap până la picioare pe cel culcat, în sfârșit îi suflă la ureche câteva cuvinte ticluite și poruncesc bolii să iasă. După ce fac aceasta trei zile, de cele mai multe ori rezultatul răspunde speranței și bolile cele mai grele, care multă vreme își râseseră de meșteșugul celor mai iscusiți doctori,dispar ușor în acest fel.\"^1^
+> Executantii dansului ritualic, *calusarii* (exclusivbarbati), au fost descrisi in secolul al XVII-lea, de catre chiar voievodul Moldovei, Dimitrie Cantemir. in acele vremuri ei umblau cu fata acoperita cu o panza alba si aveau mai mult de o suta de ritmuri si jocuri, \"unele atat de maiestrite, incat cei care joaca par ca nu ating pamantul, ci zboara in aer\"^1^ (Mircea Eliade considera ca dansurile lor cu salturi evoca zborul si dansul *zanelor).* Principele Cantemir arata ca in vremea *Rusaliilor, calusarii* nu dorm niciodata decat sub acoperamantul unei biserici fiind incredintati ca daca ar dormi in alta parte, ar fi pe data loviti de *Iele,* \"pe care ei le numesc *Frumoasele\".* \"Cel care a fost primit odata intr-o astfel de ceata este dator sa se tina de ea, an de an, timp de noua ani; iar daca o paraseste, ei zic ca este muncit de duhuri rele si ca este chinuit de *Frumoase.* Multimea superstitioasa crede ca ei au puterea de a izgoni bolile cronice, iar vindecarea se face astfel: dupa ce bolnavul s-a asternut la pamant, aceia incep sariturile lor si, la un anumit loc al cantecu-!ui, calca, unul dupa altul, de la cap pana la picioare pe cel culcat, in sfarsit ii sufla la ureche cateva cuvinte ticluite si poruncesc bolii sa iasa. Dupa ce fac aceasta trei zile, de cele mai multe ori rezultatul raspunde sperantei si bolile cele mai grele, care multa vreme isi rasesera de mestesugul celor mai iscusiti doctori,dispar usor in acest fel.\"^1^
 >
-> Alte nume consemnate ale *călușarilor* sunt și acelea de *căluceni, călușei* și *călăuzi.* Ei au un repertoriu variat de dansuri rituale, cum sunt: *Căluțul, Căluceanul, Călușul, Floricica* sau *Floricica Călușului, Boricean\...* Jocurile se execută adesea până la extaz, iar vătaful (magisterul) are adeseori o putere magică asupra *călușarilor.*
+> Alte nume consemnate ale *calusarilor* sunt si acelea de *caluceni, calusei* si *calauzi.* Ei au un repertoriu variat de dansuri rituale, cum sunt: *Calutul, Caluceanul, Calusul, Floricica* sau *Floricica Calusului, Boricean\...* Jocurile se executa adesea pana la extaz, iar vataful (magisterul) are adeseori o putere magica asupra *calusarilor.*
 >
-> Principalul obiect ritual al *călușului* este \"steagul\", care constă dintr-o nuia de alun investită ritualic cu funcții magice. Nuiaua de alun se află în fruntea inventarului obiectelor uzuale pentru descântec^3^. Românii cred că duhurile rele se tem de puterea nuielelor de alun, evitând casele la intrarea cărora, rezemată de perete, este lăsată o astfel de nuia. Virtuțile magice ale alunului sunt evidențiate și de credința că vrăjitoarele călătoresc pe toiege de alun, și tot cu ele țin în frâu spiridușii și duhurile rele. Cu un băț de alun, \"lung de stânjen\", trebuie rupt pe furiș vârful legendarei *Ierbi-a-fiarelor,* iar \"bătutul\" cu nuiaua de alun este un gest magico-ritualic prin care demonii sunt alungați \"în pustie\"^4^.
+> Principalul obiect ritual al *calusului* este \"steagul\", care consta dintr-o nuia de alun investita ritualic cu functii magice. Nuiaua de alun se afla in fruntea inventarului obiectelor uzuale pentru descantec^3^. Romanii cred ca duhurile rele se tem de puterea nuielelor de alun, evitand casele la intrarea carora, rezemata de perete, este lasata o astfel de nuia. Virtutile magice ale alunului sunt evidentiate si de credinta ca vrajitoarele calatoresc pe toiege de alun, si tot cu ele tin in frau spiridusii si duhurile rele. Cu un bat de alun, \"lung de stanjen\", trebuie rupt pe furis varful legendarei *Ierbi-a-fiarelor,* iar \"batutul\" cu nuiaua de alun este un gest magico-ritualic prin care demonii sunt alungati \"in pustie\"^4^.
 
-Odinioară, cu niște bețe de alun și în pielea goală, vrăjitoarea satului se ducea lângă iaz ca să aducă (sau să oprească) ploaia și grindina. Aceasta este, însă, în mitologia română, ocupația predilectă a *solomonarului* (a sacerdotului popular, *salman* cum era numit de daco-români), care se execută rintr-o serie de gesturi din sfera de acte mitico-rituale, arhaice si universale (arhetipale). Este vorba, în esență, despre gestul de â iovi centrul apei (cu o bâtă sau o nuia de alun, numită și \"nasul șarpelui\"). Nuiaua de alun a solomonarului *(salman)* a căpătat valențe magice atunci când sacerdotul popular, întâlnind un șarpe față în față cu o broască pe cale să o înghită (sau, mai rar, doi șerpi în conflict), a interpus nuiaua de alun între ei pentru a-i despărți. Recunoaștem aici, gestul mitic al zeului Hermes, ce a interpus caduceul său între doi șerpi aflați în conflict, iar aceștia s-au încolăcit imediat pe el (rezultând imaginea cunoscută a caduceului).
+Odinioara, cu niste bete de alun si in pielea goala, vrajitoarea satului se ducea langa iaz ca sa aduca (sau sa opreasca) ploaia si grindina. Aceasta este, insa, in mitologia romana, ocupatia predilecta a *solomonarului* (a sacerdotului popular, *salman* cum era numit de daco-romani), care se executa rintr-o serie de gesturi din sfera de acte mitico-rituale, arhaice si universale (arhetipale). Este vorba, in esenta, despre gestul de a iovi centrul apei (cu o bata sau o nuia de alun, numita si \"nasul sarpelui\"). Nuiaua de alun a solomonarului *(salman)* a capatat valente magice atunci cand sacerdotul popular, intalnind un sarpe fata in fata cu o broasca pe cale sa o inghita (sau, mai rar, doi serpi in conflict), a interpus nuiaua de alun intre ei pentru a-i desparti. Recunoastem aici, gestul mitic al zeului Hermes, ce a interpus caduceul sau intre doi serpi aflati in conflict, iar acestia s-au incolacit imediat pe el (rezultand imaginea cunoscuta a caduceului).
 
-> A lovi apa, îndeosebi în centru (\"la mijlocul iezerului\", cum spun țăranii români), înseamnă pentru sacerdotul popular a lovi *balaurul* care guvernează stihiile, a-1 deștepta; înseamnă a descătușa o energie latentă ancestrală, pe care o ia în stăpânire, înălțându-se cu ea în văzduh, căpătând \"puteri\"^1^. în asemenea procedee magice, simpla nuielușă de alun este investită cu funcțiile unui *axis mundi* sau \"coloană a cerului\" (ca și coloana vertebrală a yoghinului, *șușumna,* pe care urcă descătușată *lamdalini),* este agentul de legătură cu lumile celelalte, ea deșteaptă *balaurul,* care este o stihie magică cu ajutorul căreia sacerdotul popular român se \"urcă\" la cer, depășind condiția umană și \"purtând vremile\", adică stăpânind natura asemeni unui zeu.
+> A lovi apa, indeosebi in centru (\"la mijlocul iezerului\", cum spun taranii romani), inseamna pentru sacerdotul popular a lovi *balaurul* care guverneaza stihiile, a-1 destepta; inseamna a descatusa o energie latenta ancestrala, pe care o ia in stapanire, inaltandu-se cu ea in vazduh, capatand \"puteri\"^1^. in asemenea procedee magice, simpla nuielusa de alun este investita cu functiile unui *axis mundi* sau \"coloana a cerului\" (ca si coloana vertebrala a yoghinului, *susumna,* pe care urca descatusata *lamdalini),* este agentul de legatura cu lumile celelalte, ea desteapta *balaurul,* care este o stihie magica cu ajutorul careia sacerdotul popular roman se \"urca\" la cer, depasind conditia umana si \"purtand vremile\", adica stapanind natura asemeni unui zeu.
 >
-> Relatările populare românești afirmă faptul că orice descântătoare, fermecătoare sau vrăjitoare, când voiește să descânte de mușcătura șerpilor, *să facă de dragoste* sau *de ursită,* folosește una sau trei bețe de alun (apa descântată cu trei nuielușe de alun ar fi, astfel, un leac imbatabil împotriva mușcăturii de șarpe). \"Se află o seamă de Babe-Cloanțe, care-ți Știu nu numai a descânta, a căuta în palmă și a arunca bobi, ci chiar și a închega apa, a lega ploile, gura câinilor și a lupilor, și, când voiesc, pot să-ți aducă pe cine dorești, călare pe-o prăjină sau pe-o mătură, prin aer, de peste nouă țări și nouă mări. Ei bine!\... Prăjina aceea încă e de alun!\" Pentru a parveni la această teleportare magică (care bănuim că, totuși, se *realizează* \"în spirit\"), Baba-Cloanța \"bate necontenit cu o vărguță de alun peste o ulcică din fața focului, rostind niște cuvinte neînțelese și chemându-i neîncetat pe nume. Și ei trebuie să vie după strigătul vrăjitorilor, ori-de-unde s-ar afla\...\"^1^
+> Relatarile populare romanesti afirma faptul ca orice descantatoare, fermecatoare sau vrajitoare, cand voieste sa descante de muscatura serpilor, *sa faca de dragoste* sau *de ursita,* foloseste una sau trei bete de alun (apa descantata cu trei nuieluse de alun ar fi, astfel, un leac imbatabil impotriva muscaturii de sarpe). \"Se afla o seama de Babe-Cloante, care-ti Stiu nu numai a descanta, a cauta in palma si a arunca bobi, ci chiar si a inchega apa, a lega ploile, gura cainilor si a lupilor, si, cand voiesc, pot sa-ti aduca pe cine doresti, calare pe-o prajina sau pe-o matura, prin aer, de peste noua tari si noua mari. Ei bine!\... Prajina aceea inca e de alun!\" Pentru a parveni la aceasta teleportare magica (care banuim ca, totusi, se *realizeaza* \"in spirit\"), Baba-Cloanta \"bate necontenit cu o varguta de alun peste o ulcica din fata focului, rostind niste cuvinte neintelese si chemandu-i neincetat pe nume. Si ei trebuie sa vie dupa strigatul vrajitorilor, ori-de-unde s-ar afla\...\"^1^
 >
-> Chiar și florile alunului sunt importante, căci sunt bune de leac pentru mai multe boli. Despre alun se spune că înflorește și se și scutură chiar în \"noaptea *de Ispas\"* (noaptea premergătoare zilei *înălțării Domnului,* conform calendarului ortodox). Tot în noaptea aceasta, ca și în aceea a *Izvorului Tămăduirii,* se umblă după apă de gârle și de izvoare, care au puteri lecuitoare^2^; iar crengile de alun sau de paltin culese anume în ziua de *Ispas* sunt investite cu virtuți magice.
+> Chiar si florile alunului sunt importante, caci sunt bune de leac pentru mai multe boli. Despre alun se spune ca infloreste si se si scutura chiar in \"noaptea *de Ispas\"* (noaptea premergatoare zilei *inaltarii Domnului,* conform calendarului ortodox). Tot in noaptea aceasta, ca si in aceea a *Izvorului Tamaduirii,* se umbla dupa apa de garle si de izvoare, care au puteri lecuitoare^2^; iar crengile de alun sau de paltin culese anume in ziua de *Ispas* sunt investite cu virtuti magice.
 >
-> Un fapt mai puțin cunoscut astăzi este faptul că \"o conglo-merație\... de mai multe alune (fructul alunului) se numește *\*călușu\** sau *\'călușel»\"\*,* la fel cum se numește și dansul magico-ritual executat de *călușari, ceea ce* poate înseamnă și că putem vedea în *călușari* unitatea \"călușului\" de alun, după cum reiese și din faptul că momentul când unul dintre executanții ritului cade la pământ, fiind atins cu steagul de alun, se numește \"doborârea din căluș\". Călușarii sunt în timpul funcției lor consubstanțiali cu sacralitatea alunului.
+> Un fapt mai putin cunoscut astazi este faptul ca \"o conglo-meratie\... de mai multe alune (fructul alunului) se numeste *\*calusu\** sau *\'calusel»\"\*,* la fel cum se numeste si dansul magico-ritual executat de *calusari, ceea ce* poate inseamna si ca putem vedea in *calusari* unitatea \"calusului\" de alun, dupa cum reiese si din faptul ca momentul cand unul dintre executantii ritului cade la pamant, fiind atins cu steagul de alun, se numeste \"doborarea din calus\". Calusarii sunt in timpul functiei lor consubstantiali cu sacralitatea alunului.
 >
-> Pregătirea călușarilor se face din timp, dinainte de Duminica Rusaliilor, într-un loc tainic și izolat, de regulă într-o pădure. Aici depun jurământul neofiții ce sunt aceptați de către vătaf, iar membrii mai vechi îl reînnoiesc. Cu mâinile pe steag ei jură să păstreze datinile *călușului,* să se aibă *ca* frații și să își păstreze castitatea până vor fi deslegați de vătaf (până ce *călușul* ~nu~ se va mai juca, iar steagul va fi îngropat). Ei jură să păstreze taina asupra inițierii lor, pe care dacă o încalcă vor fi pedepsiți de *Rusalii* sau de *Iele* prin îmbolnăvire. După jurământ și până la împrăștierea rituală a grupului, călușarii rămân tot timpul împreună.
+> Pregatirea calusarilor se face din timp, dinainte de Duminica Rusaliilor, intr-un loc tainic si izolat, de regula intr-o padure. Aici depun juramantul neofitii ce sunt aceptati de catre vataf, iar membrii mai vechi il reinnoiesc. Cu mainile pe steag ei jura sa pastreze datinile *calusului,* sa se aiba *ca* fratii si sa isi pastreze castitatea pana vor fi deslegati de vataf (pana ce *calusul* ~nu~ se va mai juca, iar steagul va fi ingropat). Ei jura sa pastreze taina asupra initierii lor, pe care daca o incalca vor fi pedepsiti de *Rusalii* sau de *Iele* prin imbolnavire. Dupa juramant si pana la imprastierea rituala a grupului, calusarii raman tot timpul impreuna.
 >
-> Ceea ce poate părea bizar este faptul că patroana călușarilor, *Irodeasa* (prin contaminare cu un motiv biblic), este totodată chiar conducătoarea *Ielelor,* numită . în Transilvania, când se procedează la \"legarea călușarilor\", adică la recrutarea sau reactivarea flăcăilor ce aparțin confreriei, după ce umblă la 9 hotare și iau apă de la 9 izvoare, vătaful lor îi duce la o răscruce de 3 hotare, unde le leagă zurgălăii și face o rugăciune către *Irodeasa, ca* să îi ajute, stropindu-i pe toți călușarii cu apa adunată. După aceasta își ciocnesc ritualic bețele. Niciodată nu încep dansul ritual, fără să pomenească numele *Irodesei,* iar dacă sunt ospătați, prima îmbucătură de mâncare trebuie să fie aruncată sub masă pentru *Irodeasa.^1^*
+> Ceea ce poate parea bizar este faptul ca patroana calusarilor, *Irodeasa* (prin contaminare cu un motiv biblic), este totodata chiar conducatoarea *Ielelor,* numita . in Transilvania, cand se procedeaza la \"legarea calusarilor\", adica la recrutarea sau reactivarea flacailor ce apartin confreriei, dupa ce umbla la 9 hotare si iau apa de la 9 izvoare, vataful lor ii duce la o rascruce de 3 hotare, unde le leaga zurgalaii si face o rugaciune catre *Irodeasa, ca* sa ii ajute, stropindu-i pe toti calusarii cu apa adunata. Dupa aceasta isi ciocnesc ritualic betele. Niciodata nu incep dansul ritual, fara sa pomeneasca numele *Irodesei,* iar daca sunt ospatati, prima imbucatura de mancare trebuie sa fie aruncata sub masa pentru *Irodeasa.^1^*
 
-în multe părți, după ce călușarii s-au legat *frați-jurați,* cim-poierii cântă \"marșul zânelor\". Când dorm, se culcă câte doi, căci dacă s-ar culca numai câte unul, \"zânele\" i-ar poci și ar muri. Regula străveche era că cine a intrat în ceata călușarilor trebuie să rămână nouă ani în ea, altfel are boală rea și îl chinuie *Frumoasele.* în fiecare an, după închierea perioadei *Rusaliilor* ei își sfarmă sau își îngroapă obiectele rituale și fug fără să se uite înapoi, că \"să nu îi pocească Rusaliile\". Este interesant faptul că, *călușarii* sunt reputați cunoscători ai plantelor lecuitoare, în timp ce despre *Iele,* patroanele acestor plante, se spune că se plâng că aceste ierburi le-au fost răpite de către oameni^2^.
+in multe parti, dupa ce calusarii s-au legat *frati-jurati,* cim-poierii canta \"marsul zanelor\". Cand dorm, se culca cate doi, caci daca s-ar culca numai cate unul, \"zanele\" i-ar poci si ar muri. Regula straveche era ca cine a intrat in ceata calusarilor trebuie sa ramana noua ani in ea, altfel are boala rea si il chinuie *Frumoasele.* in fiecare an, dupa inchierea perioadei *Rusaliilor* ei isi sfarma sau isi ingroapa obiectele rituale si fug fara sa se uite inapoi, ca \"sa nu ii poceasca Rusaliile\". Este interesant faptul ca, *calusarii* sunt reputati cunoscatori ai plantelor lecuitoare, in timp ce despre *Iele,* patroanele acestor plante, se spune ca se plang ca aceste ierburi le-au fost rapite de catre oameni^2^.
 
-> O mărturie^1^ arată că, în Oltenia - unde vrăjitoarele au un recunoscut statut social -, cu două săptămâni înainte de Duminica Rusaliilor, călușarii se duceau la o bătrână vrăjitoare. \"Vrăjitoarea le dădea o năframă neagră, purtată de o femeie rea moartă de curând. în colțul năframei lega un cățel de usturoi descântat. Se spunea că, după descântat, usturoiul avea un miros deosebit de pătrunzător. Descântecul n-a putut fi notat, vrăjitoarea păstrând secretul lui absolut. Năframa se fixa la prăjina călușarilor, apoi steagul astfel aranjat era fluturat deasupra capetelor călușarilor. Cel asupra căruia se oprea cu mai multă insistență începea să danseze tot mai repede, până se prăbușea la pământ. în zorii zilei următoare se duceau din nou la vrăjitoare și începeau să joace. Vrăjitoarea se învârtea în jurul cercului de jucători spunând un descântec. Când jocul ajungea la un punct culminant, ea trecea din nou steagul deasupra capetelor călușarilor și dobora pe unul dintre ci. Doborârea era o dovadă că descântecul și-a făcut efectul și steagul a dobândit putere magică. Vrăjitoarea dădea steagul călușarilor, spunându-le: «Duceți-vă în pace!», la care ei răspundeau: «Fără teamă și cu mult noroc!».\"\[10\]
+> O marturie^1^ arata ca, in Oltenia - unde vrajitoarele au un recunoscut statut social -, cu doua saptamani inainte de Duminica Rusaliilor, calusarii se duceau la o batrana vrajitoare. \"Vrajitoarea le dadea o naframa neagra, purtata de o femeie rea moarta de curand. in coltul naframei lega un catel de usturoi descantat. Se spunea ca, dupa descantat, usturoiul avea un miros deosebit de patrunzator. Descantecul n-a putut fi notat, vrajitoarea pastrand secretul lui absolut. Naframa se fixa la prajina calusarilor, apoi steagul astfel aranjat era fluturat deasupra capetelor calusarilor. Cel asupra caruia se oprea cu mai multa insistenta incepea sa danseze tot mai repede, pana se prabusea la pamant. in zorii zilei urmatoare se duceau din nou la vrajitoare si incepeau sa joace. Vrajitoarea se invartea in jurul cercului de jucatori spunand un descantec. Cand jocul ajungea la un punct culminant, ea trecea din nou steagul deasupra capetelor calusarilor si dobora pe unul dintre ci. Doborarea era o dovada ca descantecul si-a facut efectul si steagul a dobandit putere magica. Vrajitoarea dadea steagul calusarilor, spunandu-le: «Duceti-va in pace!», la care ei raspundeau: «Fara teama si cu mult noroc!».\"\[10\]
 
-Timp de două-trei săptămâni, călușarii merg din sat în sat, unde, însoțiți de unul sau mai mulți lăutari, joacă *călușul* ca să îi vindece pe cei bolnavi. în toată aceasta perioadă se crede că și *Rusaliile* sau *Ielele* zboară, cântă și joacă, mai ales noaptea, când unii oameni aud zurgălăi, clopoței, tobe și alte instrumente ale cântăreților nevăzuți ai *Rusaliilor.* Pentru a fi ferit de puterea lor trebuie să ai asupra ta usturoi și pelin, aceleași plante pe care călușarii le pun în săculețul din vârful steagului lor. Relația Rusalii-a5/wș este destul de complexă, astfel încât despre cei atinși de puterea Rusaliilor se mai zice și că sunt \"luați din căluș\". Cu alte cuvinte, dacă careva a îtjcălcat cândva sărbătorile bătrânești, \"când vin Rusaliile, cade definitiv la pat\". Se mai spune că \"luatul din căluș\" nu, este o boală \"din carne și din oase\", și că \"medicii nu pot vindeca această boală\". Pot fi *luați din căluș* și călușarii care calcă jurământul, întreaga ceată, dacă scapă steagul, ca și cei care se apropie prea mult de joc în timpul desfășurării ritualului. De aceea, locul dansului este \"marcat cu un cerc, un vechi cerc magic, peste care nu este bine să treacă cei neinițiați\", și în afara căruia nu pot trece forțele răufăcătoare.\[10\]
+Timp de doua-trei saptamani, calusarii merg din sat in sat, unde, insotiti de unul sau mai multi lautari, joaca *calusul* ca sa ii vindece pe cei bolnavi. in toata aceasta perioada se crede ca si *Rusaliile* sau *Ielele* zboara, canta si joaca, mai ales noaptea, cand unii oameni aud zurgalai, clopotei, tobe si alte instrumente ale cantaretilor nevazuti ai *Rusaliilor.* Pentru a fi ferit de puterea lor trebuie sa ai asupra ta usturoi si pelin, aceleasi plante pe care calusarii le pun in saculetul din varful steagului lor. Relatia Rusalii-a5/ws este destul de complexa, astfel incat despre cei atinsi de puterea Rusaliilor se mai zice si ca sunt \"luati din calus\". Cu alte cuvinte, daca careva a itjcalcat candva sarbatorile batranesti, \"cand vin Rusaliile, cade definitiv la pat\". Se mai spune ca \"luatul din calus\" nu, este o boala \"din carne si din oase\", si ca \"medicii nu pot vindeca aceasta boala\". Pot fi *luati din calus* si calusarii care calca juramantul, intreaga ceata, daca scapa steagul, ca si cei care se apropie prea mult de joc in timpul desfasurarii ritualului. De aceea, locul dansului este \"marcat cu un cerc, un vechi cerc magic, peste care nu este bine sa treaca cei neinitiati\", si in afara caruia nu pot trece fortele raufacatoare.\[10\]
 
-> în afara ritului profilactic, vătaful sau starețul călușarilor, care cunoaște secretelor practicilor vrăjitorești, mai folosește și un procedeu de diagnosticare, bazat pe *melodiile de căluș.* Metoda amintește de repertoriul muzical medical din magia medievală, care era executat până când bolnavul dădea semne că este afectat în chip deosebit de acea melodie, fiind identificat astfel \"spiritul\" bolii^1^.
+> in afara ritului profilactic, vataful sau staretul calusarilor, care cunoaste secretelor practicilor vrajitoresti, mai foloseste si un procedeu de diagnosticare, bazat pe *melodiile de calus.* Metoda aminteste de repertoriul muzical medical din magia medievala, care era executat pana cand bolnavul dadea semne ca este afectat in chip deosebit de acea melodie, fiind identificat astfel \"spiritul\" bolii^1^.
 >
-> însoțit numai de lăutar, vătaful călușarilor intră în camera bolnavului. Se cântă apoi, pe rând, \"melodiile de căluș\" și, când bolnavul mișcă din picioare, este găsită melodia pe care vor juca călușarii, pentru a-1 vindeca pe bolnav^2^.
+> insotit numai de lautar, vataful calusarilor intra in camera bolnavului. Se canta apoi, pe rand, \"melodiile de calus\" si, cand bolnavul misca din picioare, este gasita melodia pe care vor juca calusarii, pentru a-1 vindeca pe bolnav^2^.
 >
-> Doborârea din *căluș* cu ajutorul steagului de alun, care are la capăt o legătură cu usturoi, pelin și un fir de lână roșu, se produce în mod normal în timpul executării *călușului,* fiind chiar actul care aduce vindecarea, căci prin doborârea voită a unui călușar se obține eliberarea bolnavului de suferința sa, ca și când răul iese din cel suferind și intră în călușar. Vindecarea se face în afara satului, pe o luncă, sub un copac sau la marginea pădurii. Pentru aceasta, bolnavul este așezat pe un covor așternut în mijlocul cercului de călușari ce dansează în jurul său. La un moment dat se produce doborârea din *căluș* a unui călușar, din inițiativa vătafului. Acesta ia steagul și îl ține cam la o palmă deasupra capului călușarului care urmează să cadă. în acest timp, ceilalți călușari joacă mereu fără să se uite la ceea ce face vătaful. Călușarul ce urmează să fie doborât devine \"din ce în ce mai abătut, galben, neliniștit, se roșește, nu se gândește la nimic, nu aude, nu vede, se întărește din ce în ce în joc, pe când ceilalți se pierd încetul cu încetul până ce aproape stau\"^1^. Când vătaful aproape a atins capul călușarului, acesta joacă cu înverșunare nefirească, iar când chiar îi atinge capul cu steagul, curg apele de pe el de oboseală și se rostogolește la pământ. în acest moment, bolnavul este obligat să se ridice și să o ia la fugă. Doi călușari îl iau de subsori, îl ridică în sus și fug cu el departe de locul unde s-a făcut vindecarea.
+> Doborarea din *calus* cu ajutorul steagului de alun, care are la capat o legatura cu usturoi, pelin si un fir de lana rosu, se produce in mod normal in timpul executarii *calusului,* fiind chiar actul care aduce vindecarea, caci prin doborarea voita a unui calusar se obtine eliberarea bolnavului de suferinta sa, ca si cand raul iese din cel suferind si intra in calusar. Vindecarea se face in afara satului, pe o lunca, sub un copac sau la marginea padurii. Pentru aceasta, bolnavul este asezat pe un covor asternut in mijlocul cercului de calusari ce danseaza in jurul sau. La un moment dat se produce doborarea din *calus* a unui calusar, din initiativa vatafului. Acesta ia steagul si il tine cam la o palma deasupra capului calusarului care urmeaza sa cada. in acest timp, ceilalti calusari joaca mereu fara sa se uite la ceea ce face vataful. Calusarul ce urmeaza sa fie doborat devine \"din ce in ce mai abatut, galben, nelinistit, se roseste, nu se gandeste la nimic, nu aude, nu vede, se intareste din ce in ce in joc, pe cand ceilalti se pierd incetul cu incetul pana ce aproape stau\"^1^. Cand vataful aproape a atins capul calusarului, acesta joaca cu inversunare nefireasca, iar cand chiar ii atinge capul cu steagul, curg apele de pe el de oboseala si se rostogoleste la pamant. in acest moment, bolnavul este obligat sa se ridice si sa o ia la fuga. Doi calusari il iau de subsori, il ridica in sus si fug cu el departe de locul unde s-a facut vindecarea.
 
-Doborârea din *căluș* se face și prin *spargerea ulcelei* cu apă vrăjită. Vătaful așază în centrul cercului o ulcică cu apă, cu pelin și cu usturoi, după care începe dansul *călușului.* Călușarul pe care vătaful își așază privirile își intensilică jocul, tot mai dezordonat și amețit. Când jocul ajunge la paroxism, vătaful îl stropește cu usturoiul mestecat în gură, scuipându-I, apoi lovește cu bățul în ulcică, apa vrăjită din aceasta stropindul pe călușarul care cade la pământ. Un călușar pe nume Oprea povestea că: \"Pe când înconjuram bolnavul, am simțit deodată un fel de beție. Când m-am apropiat de vătaf ca să sorb usturoi și el s-a uitat drept în ochii mei, m-a apucat amețeala. Când a aplecat steagul asupra mea, am văzut negru înaintea ochilor, parcă aș fi intrat într-o ceață. Când am început să înconjurăm oala, mi-am pierdut
+Doborarea din *calus* se face si prin *spargerea ulcelei* cu apa vrajita. Vataful asaza in centrul cercului o ulcica cu apa, cu pelin si cu usturoi, dupa care incepe dansul *calusului.* Calusarul pe care vataful isi asaza privirile isi intensilica jocul, tot mai dezordonat si ametit. Cand jocul ajunge la paroxism, vataful il stropeste cu usturoiul mestecat in gura, scuipandu-I, apoi loveste cu batul in ulcica, apa vrajita din aceasta stropindul pe calusarul care cade la pamant. Un calusar pe nume Oprea povestea ca: \"Pe cand inconjuram bolnavul, am simtit deodata un fel de betie. Cand m-am apropiat de vataf ca sa sorb usturoi si el s-a uitat drept in ochii mei, m-a apucat ameteala. Cand a aplecat steagul asupra mea, am vazut negru inaintea ochilor, parca as fi intrat intr-o ceata. Cand am inceput sa inconjuram oala, mi-am pierdut
 
-> memoria, nu-mi mai dădeam seama ce face vătaful, mi se părea că mă poartă cineva pe sus. Când a spart oala și m-a stropit apa, eram epuizat cu totul, picioarele mi s-au înmuiat și am căzut la pământ. Nu mai știam ce se întâmplă cu mine.\"^2^\[specifică cea mai elocventă a obiceiurilor de factură magică ale poporului român. Chiar dacă el se caracterizează printr-o spectaculozitate ieșită din comun, pentru a îi putea înțelege sensul și virtuțile terapeutice pe care le dezvoltă, trebuie să ținem seamă de întreg cadrul său de manifestare, pornind de la credințele în puterea și acțiunea *Rusaliilor.*
+> memoria, nu-mi mai dadeam seama ce face vataful, mi se parea ca ma poarta cineva pe sus. Cand a spart oala si m-a stropit apa, eram epuizat cu totul, picioarele mi s-au inmuiat si am cazut la pamant. Nu mai stiam ce se intampla cu mine.\"^2^\[specifica cea mai elocventa a obiceiurilor de factura magica ale poporului roman. Chiar daca el se caracterizeaza printr-o spectaculozitate iesita din comun, pentru a ii putea intelege sensul si virtutile terapeutice pe care le dezvolta, trebuie sa tinem seama de intreg cadrul sau de manifestare, pornind de la credintele in puterea si actiunea *Rusaliilor.*
 
 ## VE0CH1UL
 
 *VE0CH1UL*
 
-> *\"Fugi, deochi, ca vântu Peste tot pămăntu. Cum se despart vânturile Peste toate câmpurile, Așa să se desparte deochetele Din creierii capului, Din fața obrazului.\"*
+> *\"Fugi, deochi, ca vantu Peste tot pamantu. Cum se despart vanturile Peste toate campurile, Asa sa se desparte deochetele Din creierii capului, Din fata obrazului.\"*
 >
-> Cele mai răspândite descântece românești sunt probabil cele \"de *deochi\".* Numit și *săgetătură,* deochiul este o boală de natură magică:
+> Cele mai raspandite descantece romanesti sunt probabil cele \"de *deochi\".* Numit si *sagetatura,* deochiul este o boala de natura magica:
 >
-> în dicționarul manuscris al neobositului cărturar care a fost Marele-vornic Iordache Golescu, citim următoarele însemnări:
+> in dictionarul manuscris al neobositului carturar care a fost Marele-vornic Iordache Golescu, citim urmatoarele insemnari:
 >
-> *«Dăochez* însemnează că vatăm cu ochii, cu vederea, cu uitătura. Adică uitându-mă la oarece, se vatămă acel lucru atât de rău și pătimește atât de mult, încât, de este copil sau vreo vită, peșin se îmbolnăvește și moare. De este sticlă, crapă, pleznește. De este vas de pământ, se sfărâmă, se sparge. De este casă, se prăpădește. De este vie, se strică vița cu totul, de nu mai dă rod. Și multe asemenea zic pentru dăochiat, încât nu este de crezut; dar se întâmplă de multe ori mari boale, mari vătămături și mari stricăciuni, mai ales și mai des la copii. Și, după cum zic, cel ce are această patimă, când dăoache pe cineva, simte că-1 dor ochii, simte o iuțime, o usturime, o arsură la ochi. Are și mare și înfocată dragoste și plăcere către acel lucru ce vede, încât de-ar putea să-1 înghită de viu. Dohtoria dăochiatului nu este alta decât, după obiceiul vechiu, cel ce dăoache vreun copil, să scuipe asupra copilului de trei ori sau să dea semn de la el însuși și cu acel semn să-1 afume pe copil. Cel ce nu voește să se dăoache, scuipă de trei ori în sânul său. Ca să nu să dăocheze copiii, obișnuiesc doicile de atârnă la capul copiilor usturoiu sau un semn de postav roșu, sau vreun ban mare de argint, de aur, sau scule frumoase, care se zic semne de dăochiat, ca, uitându-se cel ce dăoche la copil, să vază mai întâiu acele semne. Și, așa mergând vederea, uitătura întâiu la acele semne, se risipește pe acolo veninul dăochiului și scapă copilul. Iar usturoiul în adevăr este dohtorie împotriva dăochiatului, că iuțimea lui biruește iuțimea ochilor înveninați a celui dăochietor».
+> *«Daochez* insemneaza ca vatam cu ochii, cu vederea, cu uitatura. Adica uitandu-ma la oarece, se vatama acel lucru atat de rau si patimeste atat de mult, incat, de este copil sau vreo vita, pesin se imbolnaveste si moare. De este sticla, crapa, plezneste. De este vas de pamant, se sfarama, se sparge. De este casa, se prapadeste. De este vie, se strica vita cu totul, de nu mai da rod. Si multe asemenea zic pentru daochiat, incat nu este de crezut; dar se intampla de multe ori mari boale, mari vatamaturi si mari stricaciuni, mai ales si mai des la copii. Si, dupa cum zic, cel ce are aceasta patima, cand daoache pe cineva, simte ca-1 dor ochii, simte o iutime, o usturime, o arsura la ochi. Are si mare si infocata dragoste si placere catre acel lucru ce vede, incat de-ar putea sa-1 inghita de viu. Dohtoria daochiatului nu este alta decat, dupa obiceiul vechiu, cel ce daoache vreun copil, sa scuipe asupra copilului de trei ori sau sa dea semn de la el insusi si cu acel semn sa-1 afume pe copil. Cel ce nu voeste sa se daoache, scuipa de trei ori in sanul sau. Ca sa nu sa daocheze copiii, obisnuiesc doicile de atarna la capul copiilor usturoiu sau un semn de postav rosu, sau vreun ban mare de argint, de aur, sau scule frumoase, care se zic semne de daochiat, ca, uitandu-se cel ce daoche la copil, sa vaza mai intaiu acele semne. Si, asa mergand vederea, uitatura intaiu la acele semne, se risipeste pe acolo veninul daochiului si scapa copilul. Iar usturoiul in adevar este dohtorie impotriva daochiatului, ca iutimea lui birueste iutimea ochilor inveninati a celui daochietor».
 >
-> Cum se provoacă deochiul^1^
+> Cum se provoaca deochiul^1^
 >
-> Deochiul se poate provoca simplu, prin privire (prin \"uitătură\"), sau cu vorba.
+> Deochiul se poate provoca simplu, prin privire (prin \"uitatura\"), sau cu vorba.
 
-*a)* O simplă privire este adesea de ajuns ca să afecteze sănătatea cuiva, sau să aducă, într-un fel sau altul, vătămare, nu numai omului, în special copilului, ci chiar și vitelor sai plantelor. Uneori efectele acestei priviri pot fi resimțite chiar d obiectele neânsuflețite. Urmările nefaste ale simplei priviri, făr a se recurge la vreo formulă sau ceremonie magică, constitui caracterul propriu al *deochiului,* al acestei acțiuni magic spontane, care îl deosebește de toate celelalte mijloac întrebuințate de cineva cu scopul de a vătăma, cum sunt vrăjite farmecele, blestemele etc. Această *uitătură,* căreia i se atribuie o putere magică foarte mare, adeseori este îndreptată către cineva sau către ceva fără nici o răutate, fără nici un gând de a-i aduce un neajuns. Ba chiar dimpotrivă, ea poate să fie plină de dragoste sau de admirație. Puterea dăunătoare a acestei priviri este, în cazul acesta, independentă de voința cuiva, este un fel de vrajă involuntară, provocată numai de însușirea ce o au unii de a *deochea.* Unele persoane au această însușire de când s-au născut, iar altele au capătat-o mai târziu, datorită unor anumite împrejurări.
+*a)* O simpla privire este adesea de ajuns ca sa afecteze sanatatea cuiva, sau sa aduca, intr-un fel sau altul, vatamare, nu numai omului, in special copilului, ci chiar si vitelor sai plantelor. Uneori efectele acestei priviri pot fi resimtite chiar d obiectele neansufletite. Urmarile nefaste ale simplei priviri, far a se recurge la vreo formula sau ceremonie magica, constitui caracterul propriu al *deochiului,* al acestei actiuni magic spontane, care il deosebeste de toate celelalte mijloac intrebuintate de cineva cu scopul de a vatama, cum sunt vrajite farmecele, blestemele etc. Aceasta *uitatura,* careia i se atribuie o putere magica foarte mare, adeseori este indreptata catre cineva sau catre ceva fara nici o rautate, fara nici un gand de a-i aduce un neajuns. Ba chiar dimpotriva, ea poate sa fie plina de dragoste sau de admiratie. Puterea daunatoare a acestei priviri este, in cazul acesta, independenta de vointa cuiva, este un fel de vraja involuntara, provocata numai de insusirea ce o au unii de a *deochea.* Unele persoane au aceasta insusire de cand s-au nascut, iar altele au capatat-o mai tarziu, datorita unor anumite imprejurari.
 
-> *b)* Când cineva exprimă prin cuvinte admirația de care este cuprins față de o persoană frumoasă, sănătoasă, fericită sau înzestrată cu calități deosebite, sau când aduce peste măsură laude aceluia ce posedă aceste însușiri, *deochiul* este gata. Chiar însuși vorbitorul se poate *deochea* singur, atunci când își exprimă verbal deplina mulțumire de starea sa, sau când arată că este peste măsură de fericit. Singurul mijloc de a evita urmări magice nefaste ale acestor laude exagerate este expresia *«să nu-i fie de deochi!»* sau *«de nu m-aș deochea!»* și altele de felul acesta.
+> *b)* Cand cineva exprima prin cuvinte admiratia de care este cuprins fata de o persoana frumoasa, sanatoasa, fericita sau inzestrata cu calitati deosebite, sau cand aduce peste masura laude aceluia ce poseda aceste insusiri, *deochiul* este gata. Chiar insusi vorbitorul se poate *deochea* singur, atunci cand isi exprima verbal deplina multumire de starea sa, sau cand arata ca este peste masura de fericit. Singurul mijloc de a evita urmari magice nefaste ale acestor laude exagerate este expresia *«sa nu-i fie de deochi!»* sau *«de nu m-as deochea!»* si altele de felul acesta.
 
 Cine poate fi deocheat?
 
-> Dintre ființele omenești, copiii sunt cei mai expuși deochiului. Este de ajuns ca un copil să fie frumos sau să pară foarte deștept, pentru ca lumea, mirându-se de el și lăudându-1 peste măsură, fără a întrebuința formula obișnuită «să nu-i fie de deochi!», să-1 învenineze cu deochiul. Această credință este răspândită la toate popoarele.
+> Dintre fiintele omenesti, copiii sunt cei mai expusi deochiului. Este de ajuns ca un copil sa fie frumos sau sa para foarte destept, pentru ca lumea, mirandu-se de el si laudandu-1 peste masura, fara a intrebuinta formula obisnuita «sa nu-i fie de deochi!», sa-1 invenineze cu deochiul. Aceasta credinta este raspandita la toate popoarele.
 >
-> Oamenii mari, în special *flăcăii și fetele frumoase, mirele și mireasa,* uneori și *oamenii slăbănogi* sau *bolnăvicioși,* sunt expuși deochiului. *Lăuzele* mai sunt adesea în primejdia de a fi deocheate. De aceea, moașa, îndată după facere, înainte de a lăsa pe cineva străin să intre în casă, suflă peste capul lăuzei și-i descântă de deochi în afară de ființele omenești, pot fi deocheate *animalele domestice,* în special caii și vitele cornute, mai ales când se deosebesc prin frumusețea lor. Mânjii, vițeii, mieii și iezii sunt cei mai expuși a fi deocheați. Afară de acestea, ca și când ar fi însuflețite, pot fi deocheate *plantele* de tot felul, legumele și grânele, florile, poamele și copacii. -
+> Oamenii mari, in special *flacaii si fetele frumoase, mirele si mireasa,* uneori si *oamenii slabanogi* sau *bolnaviciosi,* sunt expusi deochiului. *Lauzele* mai sunt adesea in primejdia de a fi deocheate. De aceea, moasa, indata dupa facere, inainte de a lasa pe cineva strain sa intre in casa, sufla peste capul lauzei si-i descanta de deochi in afara de fiintele omenesti, pot fi deocheate *animalele domestice,* in special caii si vitele cornute, mai ales cand se deosebesc prin frumusetea lor. Manjii, viteii, mieii si iezii sunt cei mai expusi a fi deocheati. Afara de acestea, ca si cand ar fi insufletite, pot fi deocheate *plantele* de tot felul, legumele si granele, florile, poamele si copacii. -
 >
 > **Efectele deochiului**
 >
-> Deochiul prezintă simptome specifice, după care se poate recunoaște că cineva este deocheat. Astfel, când este cineva deocheat, capătă așa deodată, ca din senin, mari dureri de cap.
+> Deochiul prezinta simptome specifice, dupa care se poate recunoaste ca cineva este deocheat. Astfel, cand este cineva deocheat, capata asa deodata, ca din senin, mari dureri de cap.
 >
-> Cel mai cunoscut simptom al deochiului este căscatul încontinuu, deși omului nu îi este somn. Dacă o babă descântă cuiva, presupunând că acela este deocheat, și ea începe să caște în timp ce rostește decântecul, este un semn de netăgăduit că bolnavul este (era) deocheat. Cu cât descântătoarea cască mai mult, cu atât și vindecarea este mai sigură. (Tot astfel se crede și în Franța.)
+> Cel mai cunoscut simptom al deochiului este cascatul incontinuu, desi omului nu ii este somn. Daca o baba descanta cuiva, presupunand ca acela este deocheat, si ea incepe sa caste in timp ce rosteste decantecul, este un semn de netagaduit ca bolnavul este (era) deocheat. Cu cat descantatoarea casca mai mult, cu atat si vindecarea este mai sigura. (Tot astfel se crede si in Franta.)
 >
-> Copiii și chiar oamenii mari, când sunt deocheați, uneori se aprind la față și au călduri, ori le țiuie urechile.
+> Copiii si chiar oamenii mari, cand sunt deocheati, uneori se aprind la fata si au calduri, ori le tiuie urechile.
 >
-> Bolnavii, de li se întâmplă sa fie deocheați, sunt apucați de vărsături sau le curge sânge din nas.
+> Bolnavii, de li se intampla sa fie deocheati, sunt apucati de varsaturi sau le curge sange din nas.
 >
-> Cât privește animalele, în special caii, vitele și mieii, când sunt deocheate, le vezi tremurând, încep să tânjească și, în cele din urmă, se prăpădesc.
+> Cat priveste animalele, in special caii, vitele si mieii, cand sunt deocheate, le vezi tremurand, incep sa tanjeasca si, in cele din urma, se prapadesc.
 >
-> Când sunt deocheate plantele, florile se veștejesc la puțin timp de la deochi, pomii nu mai dau roade și încep să se usuce
+> Cand sunt deocheate plantele, florile se vestejesc la putin timp de la deochi, pomii nu mai dau roade si incep sa se usuce
 >
-> **Stingerea cărbunilor**
+> **Stingerea carbunilor**
 >
-> Pentru a ști dacă cineva este deocheat, *i se sting cărbuni.* Descântătoarea aduce întâi apă neâncepută de la un izvor, de la o fântână sau de la o apă curgătoare din apropiere. Cea mai bună este însă apa adunată din stropii de la roata morii. După ce umple o ulcică sau un pahar cu apă, baba scoate din vatră, cu vârful unui cuțit, 3, 6 sau 9 cărbuni aprinși și-i aruncă apoi, cu mâna, în apa din ulcică, numărând dandaratele: 9, 8, 7\... 1; sau: 6 5, 4 etc. La cel dintâi cărbune pe care-1 aruncă în apă zice: «ăsta-i de potcă», la al doilea: «ăsta-i de deochi», iar la al treilea: «ăsta-i de mirare, de strigare, de căscare». După aceea începe să descânte, în care timp taie mereu în cruciș cu cuțitul pe deasupra apei din pahar sau din ulcică. Dacă omul este deocheat, toți cărbunii aruncați în apă se așează sfârâind pe fundul vasului; dacă nu este deocheat, cărbunii stinși plutesc pe deasupra apei. Cu cât cărbunii sfârâie mai tare și mai îndelung în ulcică, cu atât bolnavul este deocheat mai puternic și primejdia este mai mare. După ce a sfârșit de descântat, baba îi dă bolnavului să soarbă de trei ori din apă, apoi îl udă cu ea pe tâmple, la ochi, pe frunte, la nas, la inimă si la încheieturi, iar restul îl varsă pe un par de la gard, ori pe țâțâna ușii, dar mai adesea pe un câine sau pe o pisică. Dacă animalul se scutură, el ia cu dânsul deochiul, iar bolnavului îi trece. Aruncând apa pe animal, descântătoarea rostește:
+> Pentru a sti daca cineva este deocheat, *i se sting carbuni.* Descantatoarea aduce intai apa neanceputa de la un izvor, de la o fantana sau de la o apa curgatoare din apropiere. Cea mai buna este insa apa adunata din stropii de la roata morii. Dupa ce umple o ulcica sau un pahar cu apa, baba scoate din vatra, cu varful unui cutit, 3, 6 sau 9 carbuni aprinsi si-i arunca apoi, cu mana, in apa din ulcica, numarand dandaratele: 9, 8, 7\... 1; sau: 6 5, 4 etc. La cel dintai carbune pe care-1 arunca in apa zice: «asta-i de potca», la al doilea: «asta-i de deochi», iar la al treilea: «asta-i de mirare, de strigare, de cascare». Dupa aceea incepe sa descante, in care timp taie mereu in crucis cu cutitul pe deasupra apei din pahar sau din ulcica. Daca omul este deocheat, toti carbunii aruncati in apa se aseaza sfaraind pe fundul vasului; daca nu este deocheat, carbunii stinsi plutesc pe deasupra apei. Cu cat carbunii sfaraie mai tare si mai indelung in ulcica, cu atat bolnavul este deocheat mai puternic si primejdia este mai mare. Dupa ce a sfarsit de descantat, baba ii da bolnavului sa soarba de trei ori din apa, apoi il uda cu ea pe tample, la ochi, pe frunte, la nas, la inima si la incheieturi, iar restul il varsa pe un par de la gard, ori pe tatana usii, dar mai adesea pe un caine sau pe o pisica. Daca animalul se scutura, el ia cu dansul deochiul, iar bolnavului ii trece. Aruncand apa pe animal, descantatoarea rosteste:
 
-*Când s-o mai deochea mâța și câinele,*
+*Cand s-o mai deochea mata si cainele,*
 
-*Atunci să se mai deoache* (cutare),
+*Atunci sa se mai deoache* (cutare),
 
-*Atunci și nici atunci!*
+*Atunci si nici atunci!*
 
-Dacă azvârle apa la țâțânile ușii sau pe vârful unui par, zice: *«Câtă apă a rămas pe țâțâni sau în vârful parului, atâta rău să rămâie la* (cutare)». După aceea se împlântă cuțitul în pământ, iar vasul îl întoarce cu gura în jos, zicând: *\*Nu întorc ulcica* (sau paharul), *ci întorc sănătatea și tot binele asupra lui* (cutare)».^1^
+Daca azvarle apa la tatanile usii sau pe varful unui par, zice: *«Cata apa a ramas pe tatani sau in varful parului, atata rau sa ramaie la* (cutare)». Dupa aceea se implanta cutitul in pamant, iar vasul il intoarce cu gura in jos, zicand: *\*Nu intorc ulcica* (sau paharul), *ci intorc sanatatea si tot binele asupra lui* (cutare)».^1^
 
-> în Transilvania, românii și sașii procedează la fel, aruncând într-un pahar cu apă 3 sau 9 cărbuni aprinși. Fac cruce deasupra paharului cu mâna sau cu un cuțit, îi dau copilului bolnav să bea puțin din apă, iar restul o azvârle la țâțâna ușii. Bolnavul se socotește că este deocheat dacă tăciunii s-au așezat pe fundul paharului.
+> in Transilvania, romanii si sasii procedeaza la fel, aruncand intr-un pahar cu apa 3 sau 9 carbuni aprinsi. Fac cruce deasupra paharului cu mana sau cu un cutit, ii dau copilului bolnav sa bea putin din apa, iar restul o azvarle la tatana usii. Bolnavul se socoteste ca este deocheat daca taciunii s-au asezat pe fundul paharului.
 >
 > **Paza de deochi**
 >
-> Cum să ne ferim de deochi? Cel mai sigur și mai răspândit mijloc, când este vorba să ferești un copil, un om mare, o vită, o floare sau un pom, este *să nu te miri* de frumusețea sau de alte calități ale lor, *să nu le aduci laude,* și de a scuipa sau a face gestul scuipatului asupra lor, de trei ori în șir, zicând: «ptiu! ptiu! ptiu! să nu-i fie de deochi!» sau «de nu s-ar deochea!».
+> Cum sa ne ferim de deochi? Cel mai sigur si mai raspandit mijloc, cand este vorba sa feresti un copil, un om mare, o vita, o floare sau un pom, este *sa nu te miri* de frumusetea sau de alte calitati ale lor, *sa nu le aduci laude,* si de a scuipa sau a face gestul scuipatului asupra lor, de trei ori in sir, zicand: «ptiu! ptiu! ptiu! sa nu-i fie de deochi!» sau «de nu s-ar deochea!».
 >
-> Dar nu numai copilul sau omul adult trebuie scuipat ca să fie ferit de urmările funeste ale deochiului, ci și animalele. Dacă vezi ceva frumos, un vițel, o vacă sau o scroafă care a fătat mulți pureci, ca să nu îi deochi, trebuie să îi scuipi și să zici: «să nu-i fie de deochi!».
+> Dar nu numai copilul sau omul adult trebuie scuipat ca sa fie ferit de urmarile funeste ale deochiului, ci si animalele. Daca vezi ceva frumos, un vitel, o vaca sau o scroafa care a fatat multi pureci, ca sa nu ii deochi, trebuie sa ii scuipi si sa zici: «sa nu-i fie de deochi!».
 >
-> Un fel special de a păzi copilul de deochi este acela când se face pe fruntea copilului, de către mama sa, un *\"benghi\"* cu cenușă, cu noroiul de pe tocul sau de pe talpa încălțămintei, amestecat cu puțin scuipat, ori cu funingine, cu cărbune sau cu cerneală. La aromâni, mamele obișnuiesc, pe lângă benghiul făcut pe fruntea copilului cu cărbune, să îi mai înnegrească și vârful nasului sau să îi facă un semn negru pe locul unde se îmbină sprâncenele.
+> Un fel special de a pazi copilul de deochi este acela cand se face pe fruntea copilului, de catre mama sa, un *\"benghi\"* cu cenusa, cu noroiul de pe tocul sau de pe talpa incaltamintei, amestecat cu putin scuipat, ori cu funingine, cu carbune sau cu cerneala. La aromani, mamele obisnuiesc, pe langa benghiul facut pe fruntea copilului cu carbune, sa ii mai innegreasca si varful nasului sau sa ii faca un semn negru pe locul unde se imbina sprancenele.
 
-Copilul nou-născut, pentru a fi apărat de deochi, *trebuie cântărit* înainte de a i se face prima baie. Acest obicei îl au și sârbii, dar nu spun nimănui cât trage copilul la cântar. Și huțulii^1^ se feresc de deochi cântărindu-se.
+Copilul nou-nascut, pentru a fi aparat de deochi, *trebuie cantarit* inainte de a i se face prima baie. Acest obicei il au si sarbii, dar nu spun nimanui cat trage copilul la cantar. Si hutulii^1^ se feresc de deochi cantarindu-se.
 
-> Copilul nu trebuie lăsat, până nu împlinește un an, *să se uite în oglindă,* căci se poate deochea singur. Această credință este foarte răspândită la români. (Scriitorul grec Plutarh, care a trăit pe vremea împăratului Traian, deci atunci când dacii erau cel mai bine cunoscuți de către romani, datorită campaniilor militare în Dacia, pomenește de un oarecare Eutelidas, citând versurile unui poet latin necunoscut: «Frumos la păr era odată Eutelidas, dar oglindindu-se, sărmanul, în undele fluviului, s-a deocheat singur, 1-a lovit boala și și-a prăpădit norocul»).
+> Copilul nu trebuie lasat, pana nu implineste un an, *sa se uite in oglinda,* caci se poate deochea singur. Aceasta credinta este foarte raspandita la romani. (Scriitorul grec Plutarh, care a trait pe vremea imparatului Traian, deci atunci cand dacii erau cel mai bine cunoscuti de catre romani, datorita campaniilor militare in Dacia, pomeneste de un oarecare Eutelidas, citand versurile unui poet latin necunoscut: «Frumos la par era odata Eutelidas, dar oglindindu-se, sarmanul, in undele fluviului, s-a deocheat singur, 1-a lovit boala si si-a prapadit norocul»).
 >
 > Amulete si talismane
 >
-> Pentru a fi ferit de deochi, cel mai sigur mijloc este purtarea unei amulete sau a unui talisman care, însă, sunt de mai multe feluri.
+> Pentru a fi ferit de deochi, cel mai sigur mijloc este purtarea unei amulete sau a unui talisman care, insa, sunt de mai multe feluri.
 >
-> Cea mai simplă amuletă se obține prin legarea copilului, la gât sau la încheietura mâinii, a *un fir roșu* sau a unei panglicuțe roșie. Culoarea roșie joacă un mare rol în credințele despre deochi. Se caută, prin această culoare bătătoare la ochi, să se distragă uitătura rea a individului care, cu voie sau involuntar, ar putea provoca deochiul. Această credință este foarte veche.^1^
+> Cea mai simpla amuleta se obtine prin legarea copilului, la gat sau la incheietura mainii, a *un fir rosu* sau a unei panglicute rosie. Culoarea rosie joaca un mare rol in credintele despre deochi. Se cauta, prin aceasta culoare batatoare la ochi, sa se distraga uitatura rea a individului care, cu voie sau involuntar, ar putea provoca deochiul. Aceasta credinta este foarte veche.^1^
 >
-> O amuletă întrebuințată în Țara-Hațegului se obține prin legarea la gâtul copilului a unei așchii de lemn de la puntea pe unde trec oamenii, tăiată cu toporul dintr-o lovitură.
+> O amuleta intrebuintata in Tara-Hategului se obtine prin legarea la gatul copilului a unei aschii de lemn de la puntea pe unde trec oamenii, taiata cu toporul dintr-o lovitura.
 >
-> Cel mai bun mijloc este însă *usturoiul.* Se înnoadă sau se coase un cățel de usturoi la o panglicuță roșie, sau se atârnă de un fir, și se pune la gâtul sau la scufița copilului. Usturoiul, prin mirosul său pătrunzător, este socotit, din timpurile cele mai vechi, cel mai bun mijloc de a alunga duhurile rele. Românii din Bucovina, când cască vreunul și îi este teamă că a fost deocheat, zice imediat: «Usturoi între ochi, să nu mă deochi!».^2^
+> Cel mai bun mijloc este insa *usturoiul.* Se innoada sau se coase un catel de usturoi la o panglicuta rosie, sau se atarna de un fir, si se pune la gatul sau la scufita copilului. Usturoiul, prin mirosul sau patrunzator, este socotit, din timpurile cele mai vechi, cel mai bun mijloc de a alunga duhurile rele. Romanii din Bucovina, cand casca vreunul si ii este teama ca a fost deocheat, zice imediat: «Usturoi intre ochi, sa nu ma deochi!».^2^
 >
-> în Transilvania se întrebuințează ca amuletă un săculeț, în care se pun trei fire de usturoi, trei de piper, trei de grâu de toamnă, trei boabe de tămâie, trei de sare, trei fărâmițe de pâine și trei bucățele din «casa» copilului.
+> in Transilvania se intrebuinteaza ca amuleta un saculet, in care se pun trei fire de usturoi, trei de piper, trei de grau de toamna, trei boabe de tamaie, trei de sare, trei faramite de paine si trei bucatele din «casa» copilului.
 >
-> Altă amuletă întrebuințată la noi este un săculeț cu *cărbuni, căite,* se pune copilului la gât.
+> Alta amuleta intrebuintata la noi este un saculet cu *carbuni, caite,* se pune copilului la gat.
 >
-> Nu mai puțin curios este următoarea amuletă ce se pune copiilor, la aromâni, spre a-i feri de deochi: se prinde o *cârtiță,* i se scoate omoplatul drept și se atârnă de scufița copilului.
+> Nu mai putin curios este urmatoarea amuleta ce se pune copiilor, la aromani, spre a-i feri de deochi: se prinde o *cartita,* i se scoate omoplatul drept si se atarna de scufita copilului.
 >
-> Altă amuletă contra deochiului, întrebuințată la aromâni, este purtarea unor *coarne de bubulic.* Așa numesc ei insecta «Lucanus cervus», pe care românii o numesc «răgace», «rădașcă» sau «boul-lui-Dumnezeu». Și în Bucovina, fetele înșiră coarnele acestei insecte ca mărgele, iar băieții le leagă la chiotorile cămășilor, ca să nu se deoche. Tot în Bucovina, femeile poartă coarne de rădașcă în păr, ca să nu li se deoache părul.^1^
+> Alta amuleta contra deochiului, intrebuintata la aromani, este purtarea unor *coarne de bubulic.* Asa numesc ei insecta «Lucanus cervus», pe care romanii o numesc «ragace», «radasca» sau «boul-lui-Dumnezeu». Si in Bucovina, fetele insira coarnele acestei insecte ca margele, iar baietii le leaga la chiotorile camasilor, ca sa nu se deoche. Tot in Bucovina, femeile poarta coarne de radasca in par, ca sa nu li se deoache parul.^1^
 
-Dintre metale, aurul trece drept un bun apărător contra deochiului. De aceea, se coase la scufița copilului, pe lângă altele, și o monedă de aur. Tot astfel se procedează la bulgari și la sașii din Transilvania
+Dintre metale, aurul trece drept un bun aparator contra deochiului. De aceea, se coase la scufita copilului, pe langa altele, si o moneda de aur. Tot astfel se procedeaza la bulgari si la sasii din Transilvania
 
 ## MAGIA POPULARA
 
@@ -621,283 +621,283 @@ Dintre metale, aurul trece drept un bun apărător contra deochiului. De aceea, 
 
 > ***VESCANTECUL***
 >
-> *Descântecul* este elementul cel mai reprezentativ, totodată și cel mai frecvent, al medicinei populare. El este o formă terapeutică complexă, reunind tratamentul psiho-hipnotic (magic), fitoterapeutic, fizic și bioenergetic.
+> *Descantecul* este elementul cel mai reprezentativ, totodata si cel mai frecvent, al medicinei populare. El este o forma terapeutica complexa, reunind tratamentul psiho-hipnotic (magic), fitoterapeutic, fizic si bioenergetic.
 >
-> Esența vizibilă a *descântecului* se compune din incantația magică, al cărei rol terapeutic declarat este fie să alunge duhurile bolilor, fie să desfacă vraja făcută asupra cuiva. Incantația este alcătuită în general din versuri neregulate, uneori chiar lipsite de cadență. O serie de gesturi rituale ce țin de componența descântecului însoțesc incantația magică, necesitând folosirea a diverse obiecte sau plante. Majoritatea plantelor folosite de descântători sunt considerate plante sacre și le regăsim și în farmacopeea medicală.
+> Esenta vizibila a *descantecului* se compune din incantatia magica, al carei rol terapeutic declarat este fie sa alunge duhurile bolilor, fie sa desfaca vraja facuta asupra cuiva. Incantatia este alcatuita in general din versuri neregulate, uneori chiar lipsite de cadenta. O serie de gesturi rituale ce tin de componenta descantecului insotesc incantatia magica, necesitand folosirea a diverse obiecte sau plante. Majoritatea plantelor folosite de descantatori sunt considerate plante sacre si le regasim si in farmacopeea medicala.
 
-Se știe cu siguranță că tracii, străvechi locuitori ai spațiului carpatic, erau reputați descântători. Pliniu (în *Istoria naturală,* XXX, 2) afirma că anticii aveau o desăvârșită încredere în știința medicală a tracilor, iar, după cum informează Euripide, tracii își păstrau știința vindecătoare și leacurile, scrise pe \"tăblițele trace\" (aceste tăblițe cuprindeau în scris \"legile\" tracilor, renumitele *Belagines,* despre care vorbea Jordanes). Aceste tăblițe cuprindeau, în afara preceptelor religioase, și incantațiile magice, căci am văzut că Socrate învățase un descântec de la un medic-preot trac. Despre daci, neam trac ce locuia în nordul Dunării, se știe că aveau descântători cu apă curgătoare, numiți *goisiK*
+Se stie cu siguranta ca tracii, stravechi locuitori ai spatiului carpatic, erau reputati descantatori. Pliniu (in *Istoria naturala,* XXX, 2) afirma ca anticii aveau o desavarsita incredere in stiinta medicala a tracilor, iar, dupa cum informeaza Euripide, tracii isi pastrau stiinta vindecatoare si leacurile, scrise pe \"tablitele trace\" (aceste tablite cuprindeau in scris \"legile\" tracilor, renumitele *Belagines,* despre care vorbea Jordanes). Aceste tablite cuprindeau, in afara preceptelor religioase, si incantatiile magice, caci am vazut ca Socrate invatase un descantec de la un medic-preot trac. Despre daci, neam trac ce locuia in nordul Dunarii, se stie ca aveau descantatori cu apa curgatoare, numiti *goisiK*
 
-> Deși numele de *descântec* apare în creațiile folclorice aproape numai în incantațiile cu scop terapeutic (anume atunci când descântătoarea rostește cuvintele: *\"Descântecul de la mine,/ Leacul de la Dumnezeu\"),* în general folcloriștii folosesc denumirea de descântec pentru orice incantație magică. Iată o astfel de definiție: \"Descântecul este totalitatea cuvintelor pe care Ie rostește vrăjitorul sau fermecătorul, care fac *leacul, vraja* sau *farmecul,* de la care așteaptă un rezultat de mai înainte determinat. \[\...\] *Vraja (farmecul)* este totalitatea formelor ceremonialului întrebuințat de vrăjitoare pentru a ajunge la un rezultat ce-I urmărește; descântecul este formula verbală care face parte integrantă și indispensabilă din vrajă\"^1^. însă o categorisire mai veche împarte incantațiile magice în *descântece, vrăji, farmece* și *desfaceri* (ale vrăjilor)^2^. în secolul trecut s-a mai încercat și împărțirea arbitrară în *\"descântări\"* și *\"încântări\",* \"încântările\" cuprinzând vrăjile și farmecele, însă în limba română nu există cuvântul \"încântări\", spre deosebire de cea franceză.
+> Desi numele de *descantec* apare in creatiile folclorice aproape numai in incantatiile cu scop terapeutic (anume atunci cand descantatoarea rosteste cuvintele: *\"Descantecul de la mine,/ Leacul de la Dumnezeu\"),* in general folcloristii folosesc denumirea de descantec pentru orice incantatie magica. Iata o astfel de definitie: \"Descantecul este totalitatea cuvintelor pe care Ie rosteste vrajitorul sau fermecatorul, care fac *leacul, vraja* sau *farmecul,* de la care asteapta un rezultat de mai inainte determinat. \[\...\] *Vraja (farmecul)* este totalitatea formelor ceremonialului intrebuintat de vrajitoare pentru a ajunge la un rezultat ce-I urmareste; descantecul este formula verbala care face parte integranta si indispensabila din vraja\"^1^. insa o categorisire mai veche imparte incantatiile magice in *descantece, vraji, farmece* si *desfaceri* (ale vrajilor)^2^. in secolul trecut s-a mai incercat si impartirea arbitrara in *\"descantari\"* si *\"incantari\",* \"incantarile\" cuprinzand vrajile si farmecele, insa in limba romana nu exista cuvantul \"incantari\", spre deosebire de cea franceza.
 >
-> Oricine poate să descânte, un tânăr sau un bătrân, un bărbat sau o femeie, dar pentru a fi siguri că descântecul \"va fi cu leac\", adică că va vindeca bolnavul, se crede că trebuie să te adresezi unui descântător bătrân, de regulă unei *\"babe\"* sau *\"băbărese\".* Cuvântul însuși de descântător sau descântătoare nu se întâlnește la sate. Persoana care descântă se numește *babă, băbăreasă, doftoroaie, moașă.*
+> Oricine poate sa descante, un tanar sau un batran, un barbat sau o femeie, dar pentru a fi siguri ca descantecul \"va fi cu leac\", adica ca va vindeca bolnavul, se crede ca trebuie sa te adresezi unui descantator batran, de regula unei *\"babe\"* sau *\"babarese\".* Cuvantul insusi de descantator sau descantatoare nu se intalneste la sate. Persoana care descanta se numeste *baba, babareasa, doftoroaie, moasa.*
 
-Prima condiție ce trebuie îndeplinită de o descântătoare este să nu fie \"la lună\", adică să nu fie în perioada menstruală. Apoi trebuie să fie spălată și primenită, să nu fi avut în ziua aceea - sau, dacă este mai în vârstă, de mai multă vreme - relații sexuale. Unele descântătoare postesc toată ziua în care trebuie să descânte. Altele, înainte de a rosti descântecul, își fac cruce
+Prima conditie ce trebuie indeplinita de o descantatoare este sa nu fie \"la luna\", adica sa nu fie in perioada menstruala. Apoi trebuie sa fie spalata si primenita, sa nu fi avut in ziua aceea - sau, daca este mai in varsta, de mai multa vreme - relatii sexuale. Unele descantatoare postesc toata ziua in care trebuie sa descante. Altele, inainte de a rosti descantecul, isi fac cruce
 
-> bat câteva metanii, zic \"Doamne ajută!\" sau rostesc rugăciunea biblică *\"Tatăl nostru\",* și abia apoi încep să descânte.
+> bat cateva metanii, zic \"Doamne ajuta!\" sau rostesc rugaciunea biblica *\"Tatal nostru\",* si abia apoi incep sa descante.
 >
-> în general bărbații nu descântă pentru boli. Numai în cazuri foarte rare, la nevoie se găsește vreun \"unchiaș\" care să știe să descânte. Dintre bărbați, *solomonarii* sunt reputați \"descântători\", însă descântecele lor sunt mai degrabă vrăji, căci nu urmăresc să readucă starea sănătății cuiva, ci să creeze un avantaj prin mijloace magice, să stăpânească stihiile, să \"poarte vremile\" etc.
+> in general barbatii nu descanta pentru boli. Numai in cazuri foarte rare, la nevoie se gaseste vreun \"unchias\" care sa stie sa descante. Dintre barbati, *solomonarii* sunt reputati \"descantatori\", insa descantecele lor sunt mai degraba vraji, caci nu urmaresc sa readuca starea sanatatii cuiva, ci sa creeze un avantaj prin mijloace magice, sa stapaneasca stihiile, sa \"poarte vremile\" etc.
 >
-> în unele părți, babele sunt convinse că darul de a lecui îl au de la Maica Domnului sau de la *Iele,* în urma unei boli grele, în care timp sufletul lor a fost purtat de Iele prin văzduh iar ele au fost învățate să lecuiască. Cred, de asemenea, că sunt ajutate de *Sfânta Vineri,* pe care o cinstesc vinerea prin post și nelucrând.
+> in unele parti, babele sunt convinse ca darul de a lecui il au de la Maica Domnului sau de la *Iele,* in urma unei boli grele, in care timp sufletul lor a fost purtat de Iele prin vazduh iar ele au fost invatate sa lecuiasca. Cred, de asemenea, ca sunt ajutate de *Sfanta Vineri,* pe care o cinstesc vinerea prin post si nelucrand.
 >
-> Descântecul nu trebuie spus nimănui, \"căci altfel își pierde leacul\", adică nu mai vindecă. Această credință e generală. Dacă, însă, îți pui o piatră sub brîu sau sub curea, poți învăța descântecul, fără a-1 strica. Deasemenea, dacă deosebirea de vârstă între descântător și ucenic este de numai 2-3 ani (ucenicul trebuind să fie neapărat mai tânăr decât descântătorul), se crede că se poate transmite descântecul fără a-i pierde puterea vindecătoare. Mamele transmit fetelor lor câte un descântec, mai ales unul împotriva *deochiului,* atunci când au vârsta \"să intre în horă\". Chiar și fetițele de 10-12 ani pot învăța de la mamele sau de la bunicile lor câte un descântec \"de deochi\", ca să-și poată descânta singure, când vor fi deocheate de băieți. Mai târziu învață și alte descântece, dar abia la câțiva ani după ce s-au măritat.
+> Descantecul nu trebuie spus nimanui, \"caci altfel isi pierde leacul\", adica nu mai vindeca. Aceasta credinta e generala. Daca, insa, iti pui o piatra sub briu sau sub curea, poti invata descantecul, fara a-1 strica. Deasemenea, daca deosebirea de varsta intre descantator si ucenic este de numai 2-3 ani (ucenicul trebuind sa fie neaparat mai tanar decat descantatorul), se crede ca se poate transmite descantecul fara a-i pierde puterea vindecatoare. Mamele transmit fetelor lor cate un descantec, mai ales unul impotriva *deochiului,* atunci cand au varsta \"sa intre in hora\". Chiar si fetitele de 10-12 ani pot invata de la mamele sau de la bunicile lor cate un descantec \"de deochi\", ca sa-si poata descanta singure, cand vor fi deocheate de baieti. Mai tarziu invata si alte descantece, dar abia la cativa ani dupa ce s-au maritat.
 
-Totuși, regula de bază este că, pentru a avea leac descântecul, el trebuie furat. \"Tragi cu urechea când baba descântă și-1 înveți «prin furarea șoaptelor», în întregime sau numai câte o frântură din el. Aceste crâmpeie de descântece sau descântecele întregi pe care le-ai furat trebuie să le spui de mai multe ori, când teși la argea sau în timpul cununiei, și atunci sunt mai cu leac.\"\[4\]
+Totusi, regula de baza este ca, pentru a avea leac descantecul, el trebuie furat. \"Tragi cu urechea cand baba descanta si-1 inveti «prin furarea soaptelor», in intregime sau numai cate o frantura din el. Aceste crampeie de descantece sau descantecele intregi pe care le-ai furat trebuie sa le spui de mai multe ori, cand tesi la argea sau in timpul cununiei, si atunci sunt mai cu leac.\"\[4\]
 
-> Descântătoarea nu-și descântă niciodată singură, căci este fără folos, \"n-are leac\". Se duce la o femeie mai bătrână, sau la nevoie chiar la una mai tânără decât dânsa, și aceasta-i descântă. \"Dacă însă nu se găsește în satul ei o descântătoare bună, pune caii la căruță și se duce în alt sat, unde știe că e una. Alteori, descântătoarea, când e bolnavă, învață pe cineva mai mic din casă cum să-i descânte, și-i trece.\"\[4\]
+> Descantatoarea nu-si descanta niciodata singura, caci este fara folos, \"n-are leac\". Se duce la o femeie mai batrana, sau la nevoie chiar la una mai tanara decat dansa, si aceasta-i descanta. \"Daca insa nu se gaseste in satul ei o descantatoare buna, pune caii la caruta si se duce in alt sat, unde stie ca e una. Alteori, descantatoarea, cand e bolnava, invata pe cineva mai mic din casa cum sa-i descante, si-i trece.\"\[4\]
 >
-> Se afirmă că descântecul nu are leac dacă o mamă descântă unui copil al ei, decât dacă își pune o lingură la brâu. Totuși, practica ne-a demonstrat că lucrurile nu stau așa, cel puțin în ceea ce privește descântecul \"de deochi\", deoarece am văzut mame care alungau cu ajutorul descântecului răul copiilor lor. Trebuie amintit și faptul că se întâmplă uneori ca descântătoarea să sufere unele neajunsuri sau chiar să se îmbolnăvească și ea, încercând să-1 lecuiască pe altul. Explicația poate fi simplă în cazul bolilor virotice, a epidemiilor. în i Bucovina se mai crede însă că dacă o descântătoare descântă cuiva mai bătrân decât ca, o doare capul, cască și nu mai poate dormi liniștit.^1^
+> Se afirma ca descantecul nu are leac daca o mama descanta unui copil al ei, decat daca isi pune o lingura la brau. Totusi, practica ne-a demonstrat ca lucrurile nu stau asa, cel putin in ceea ce priveste descantecul \"de deochi\", deoarece am vazut mame care alungau cu ajutorul descantecului raul copiilor lor. Trebuie amintit si faptul ca se intampla uneori ca descantatoarea sa sufere unele neajunsuri sau chiar sa se imbolnaveasca si ea, incercand sa-1 lecuiasca pe altul. Explicatia poate fi simpla in cazul bolilor virotice, a epidemiilor. in i Bucovina se mai crede insa ca daca o descantatoare descanta cuiva mai batran decat ca, o doare capul, casca si nu mai poate dormi linistit.^1^
 
-în general, pentru lecuit, babele descântă în zilele de post (sau *\"de sec\":* Lunea, Miercurea și Vinerea), ca \"să *sece* boala\" (tot ca să influențeze retragere bolii, unele descântece se fac când Luna este în descreștere). Când însă este nevoie absolută, se poate descânta și în celelalte zile lucrătoare ale săptămânii. Numai \"de fapt\" (eczeme!) nu se poate descânta în zi de post. Duminica nu se descântă niciodată. Se descântă în cele mai multe cazuri înainte de răsăritul soarelui sau dimineața, \"pe nemâncate\". Seara sau noaptea, numai în cazuri grave. \"Babele știu să descânte pentru peste șaizeci de boli, dar rar se găsește câte una care să știe să descânte mai mult decât pentru 15-20 de boli. Unele nu cunosc decât trei-patru descântece, ba chiar mai puține, dar toate se pricep să descânte de deochi.\"\[4\]
+in general, pentru lecuit, babele descanta in zilele de post (sau *\"de sec\":* Lunea, Miercurea si Vinerea), ca \"sa *sece* boala\" (tot ca sa influenteze retragere bolii, unele descantece se fac cand Luna este in descrestere). Cand insa este nevoie absoluta, se poate descanta si in celelalte zile lucratoare ale saptamanii. Numai \"de fapt\" (eczeme!) nu se poate descanta in zi de post. Duminica nu se descanta niciodata. Se descanta in cele mai multe cazuri inainte de rasaritul soarelui sau dimineata, \"pe nemancate\". Seara sau noaptea, numai in cazuri grave. \"Babele stiu sa descante pentru peste saizeci de boli, dar rar se gaseste cate una care sa stie sa descante mai mult decat pentru 15-20 de boli. Unele nu cunosc decat trei-patru descantece, ba chiar mai putine, dar toate se pricep sa descante de deochi.\"\[4\]
 
-> Arsenalul descântecelor constă în diverse obiecte de care slujesc lecuitorii. Cele mai multe dintre aceste obiecte sunt menite alungării vrăjmașilor nevăzuți. Amenințarea duhurilor rele, însoțită de argumentația verbală a descântătorului, se face ~C~u obiecte tăioase (cuțit, seceră, topor etc.) sau ascuțite (ac, cui, teapă ș.a.), cu o nuia de alun (precum în descântecele contra mușcăturilor de șarpe), cu «frigarea», cu o mătură, cu usturoi -de care fug toate duhurile rele -, cu o cruce, cu tămâie, aghiasmă sau alte lucruri considerate sfinte.
+> Arsenalul descantecelor consta in diverse obiecte de care slujesc lecuitorii. Cele mai multe dintre aceste obiecte sunt menite alungarii vrajmasilor nevazuti. Amenintarea duhurilor rele, insotita de argumentatia verbala a descantatorului, se face ~C~u obiecte taioase (cutit, secera, topor etc.) sau ascutite (ac, cui, teapa s.a.), cu o nuia de alun (precum in descantecele contra muscaturilor de sarpe), cu «frigarea», cu o matura, cu usturoi -de care fug toate duhurile rele -, cu o cruce, cu tamaie, aghiasma sau alte lucruri considerate sfinte.
 >
-> Și alunul este folosit, destul de frecvent, pentru vrăji. Astfel, un tânăr poate fi fermecat de vreo babă ce i-a făcut \"cu ulcica\". Când face \"cu ulcica\" baba bate cu o verguță de alun peste o ulcică din vatră, chemând necontenit numele iubitului vreunei fete, iar tânărul va veni neîntârziat (uneori chiar pe loc, printr-un zbor magic, chiar dacă este numai o fantomă a celui aflat departe).
+> Si alunul este folosit, destul de frecvent, pentru vraji. Astfel, un tanar poate fi fermecat de vreo baba ce i-a facut \"cu ulcica\". Cand face \"cu ulcica\" baba bate cu o verguta de alun peste o ulcica din vatra, chemand necontenit numele iubitului vreunei fete, iar tanarul va veni neintarziat (uneori chiar pe loc, printr-un zbor magic, chiar daca este numai o fantoma a celui aflat departe).
 >
-> Pentru deochi se descântă cu cărbuni aprinși, care trebuiesc stinși în \"apa neîncepută\". Cărbunii folosiți se aruncă la o răspântie de drumuri, \"ca și deochiul să fugă și să se împrăștie, cum se împrăștie cărbunii\". Cărbunii se sting și în unt proaspăt, dar cel mai frecvent se sting în apă. Apa în care s-au stins cărbunii este bună pentru a vindeca orice boală grabnică^1^.
+> Pentru deochi se descanta cu carbuni aprinsi, care trebuiesc stinsi in \"apa neinceputa\". Carbunii folositi se arunca la o raspantie de drumuri, \"ca si deochiul sa fuga si sa se imprastie, cum se imprastie carbunii\". Carbunii se sting si in unt proaspat, dar cel mai frecvent se sting in apa. Apa in care s-au stins carbunii este buna pentru a vindeca orice boala grabnica^1^.
 >
-> în regiunea Olteniei, pentru \"soare-sec\" (identificat cu in-solația) se descântă cu ajutorul a nouă pietre puse în apă și cu o seceră, rostindu-se cuvintele: \"Cum taie secera toate paiele, toate ierburile și toate gunoaiele, așa să se taie dorul de la \[cutare\]; cum spală apa toate pietrele, toate malurile, așa să se spele toate junghiurile de la \[cutare\]\"^2^.
+> in regiunea Olteniei, pentru \"soare-sec\" (identificat cu in-solatia) se descanta cu ajutorul a noua pietre puse in apa si cu o secera, rostindu-se cuvintele: \"Cum taie secera toate paiele, toate ierburile si toate gunoaiele, asa sa se taie dorul de la \[cutare\]; cum spala apa toate pietrele, toate malurile, asa sa se spele toate junghiurile de la \[cutare\]\"^2^.
 
-Cuțitul este întrebuințat în diferite feluri de descântece. El se învârte în jurul locului unde este boala, se atinge cu el sau se face cruce cu el, se înfige în pâine caldă. Se mai pot întrebuința Și două cuțite încrucișate. Cuțitul \"cununat\" are o importanță
+Cutitul este intrebuintat in diferite feluri de descantece. El se invarte in jurul locului unde este boala, se atinge cu el sau se face cruce cu el, se infige in paine calda. Se mai pot intrebuinta Si doua cutite incrucisate. Cutitul \"cununat\" are o importanta
 
-> deosebită în descântecele românești. Acesta este cuțitul care a stat în brâul mirelui sau în sânul miresei când s-au cununat religios. Se pomenește și despre cuțitul cununat de șapte sau de nouă ori (\"cuțitul cununat, de nouă meșteri lucrat\", sau \"de nouă popi cununat\")^1^.
+> deosebita in descantecele romanesti. Acesta este cutitul care a stat in braul mirelui sau in sanul miresei cand s-au cununat religios. Se pomeneste si despre cutitul cununat de sapte sau de noua ori (\"cutitul cununat, de noua mesteri lucrat\", sau \"de noua popi cununat\")^1^.
 >
-> De multe ori, cuțitul care se folosește în descântec se înfige în pământ după ușă, sau în altă parte. Astfel, după ce se descântă \"de junghi\" se înfige cuțitul în pământ, unde este lăsat de la o jumătate de oră până la trei zile, după care, dacă este ruginit când este scos, este semn că bolnavul nu se va vindeca (\"nu are leac\").
+> De multe ori, cutitul care se foloseste in descantec se infige in pamant dupa usa, sau in alta parte. Astfel, dupa ce se descanta \"de junghi\" se infige cutitul in pamant, unde este lasat de la o jumatate de ora pana la trei zile, dupa care, daca este ruginit cand este scos, este semn ca bolnavul nu se va vindeca (\"nu are leac\").
 >
-> Există o categorie a obiectelor folosite la descântat care se impun prin faptul că îndeplinesc anumite condiții impuse de mentalitatea magică. Astfel, ele pot fi:
+> Exista o categorie a obiectelor folosite la descantat care se impun prin faptul ca indeplinesc anumite conditii impuse de mentalitatea magica. Astfel, ele pot fi:
 
-- apa «neîncepută» și cea «sorocită».
+- apa «neinceputa» si cea «sorocita».
 
-- «de furat»; un cuțit, făină (pentru fumigații în cazuri de\
- > guturai), o prună (pentru abces).
+- «de furat»; un cutit, faina (pentru fumigatii in cazuri de\
+ > guturai), o pruna (pentru abces).
 
-- «de găsit»; un cuțit, ac, fier, os, pieptene, o potcoavă,\
- > biciușca, funie, bucată de mămăligă.
+- «de gasit»; un cutit, ac, fier, os, pieptene, o potcoava,\
+ > biciusca, funie, bucata de mamaliga.
 
-- «părăsit» (prea uzat ca să mai poată fi folosit, stricat sau\
- > de prisos); ac, cuțit, făcăleț, mătură, pieptene, fus, os\...
+- «parasit» (prea uzat ca sa mai poata fi folosit, stricat sau\
+ > de prisos); ac, cutit, facalet, matura, pieptene, fus, os\...
 
-- «nouă»; oala sau ulcica.
+- «noua»; oala sau ulcica.
 
-- cumpărat(ă) fără tocmeală. \[4\]
+- cumparat(a) fara tocmeala. \[4\]
 
-> în fruntea tuturor, apa neîncepută este elementul cel mai important în practicile de terapie magică, fiind folosită pentru cele mai multe descântece. Stropirea cu apă neîncepută este menită în general purificărilor. Se stropesc cu ea casa, animalele domestice, pomii, grădinile.
+> in fruntea tuturor, apa neinceputa este elementul cel mai important in practicile de terapie magica, fiind folosita pentru cele mai multe descantece. Stropirea cu apa neinceputa este menita in general purificarilor. Se stropesc cu ea casa, animalele domestice, pomii, gradinile.
 
-Apa neîncepută este apa adusă de la un izvor sau de la o fântână curată (chiar și de la o altă apă curgătoare) de un om curat, de o femeie sau de o fată mare, în zorii zilei, înainte de a âsării soarele (\"când poteca pe care se duce e încă plină de rouă\"). Numai pentru anumite scăldători, apa trebuie adusă după răsăritul soarelui, dar înainte de apusul său. Astfel, la naștere copiii sunt spălați cu apă neîncepută, considerată sfântă -practică ce trimite întrucâtva la originile botezului. Preoții ortodocși chiar, atunci când pregăteau apa sfințită - *agheasmă* -, foloseau până de curând apa neâncepută, deasupra căreia spuneau rugăciuni, introduceau ritual Busuiocul *(Ocimum basilicum)* și o păstrau în vase de argint. Astăzi, cei mai mulți dintre ei folosesc orice apă.
+Apa neinceputa este apa adusa de la un izvor sau de la o fantana curata (chiar si de la o alta apa curgatoare) de un om curat, de o femeie sau de o fata mare, in zorii zilei, inainte de a asarii soarele (\"cand poteca pe care se duce e inca plina de roua\"). Numai pentru anumite scaldatori, apa trebuie adusa dupa rasaritul soarelui, dar inainte de apusul sau. Astfel, la nastere copiii sunt spalati cu apa neinceputa, considerata sfanta -practica ce trimite intrucatva la originile botezului. Preotii ortodocsi chiar, atunci cand pregateau apa sfintita - *agheasma* -, foloseau pana de curand apa neanceputa, deasupra careia spuneau rugaciuni, introduceau ritual Busuiocul *(Ocimum basilicum)* si o pastrau in vase de argint. Astazi, cei mai multi dintre ei folosesc orice apa.
 
-> Cel ce se duce după apa neîncepută trebuie să fie nemâncat, iar apa pe care o aduce (de la o fântână, de la un izvor sau de la o apă curgătoare) trebuie să fie luată dintr-un loc de unde nu a mai luat nimeni apă în ziua aceea. Apa trebuie să fie adusă într-o oală sau într-o ulcică nouă, bine acoperită sau astupată, și nu trebuie dat nimănui să bea din ea. Astăzi, în mediul urban, se poate constata folosirea apei de robinet investită ad-hoc cu funcțiile apei neîncepute. Se umple un pahar plin cu apă, apoi se aduce lângă bolnav fiind folosit în timpul descântecului. într-un astfel de pahar, unele mame sting pe rând trei bețe de chibrit pentru a alunga *deochiul* copiilor mici, nebotezați.
+> Cel ce se duce dupa apa neinceputa trebuie sa fie nemancat, iar apa pe care o aduce (de la o fantana, de la un izvor sau de la o apa curgatoare) trebuie sa fie luata dintr-un loc de unde nu a mai luat nimeni apa in ziua aceea. Apa trebuie sa fie adusa intr-o oala sau intr-o ulcica noua, bine acoperita sau astupata, si nu trebuie dat nimanui sa bea din ea. Astazi, in mediul urban, se poate constata folosirea apei de robinet investita ad-hoc cu functiile apei neincepute. Se umple un pahar plin cu apa, apoi se aduce langa bolnav fiind folosit in timpul descantecului. intr-un astfel de pahar, unele mame sting pe rand trei bete de chibrit pentru a alunga *deochiul* copiilor mici, nebotezati.
 >
-> După ce i s-a descântat bolnavului în apa neîncepută, e uns cu ea pe frunte, pe la tâmple, i se dă să bea din ea de trei ori sau i se spală cu ea rana. Din apa neîncepută se pot face fierturi cu *buruieni de leac,* sau poate fi scăldat bolnavul în ea. Apa rămasă se aruncă pe parii gardului, la țâțâna ușii sau într-o groapă peste care nu mai trebuie să se calce.
+> Dupa ce i s-a descantat bolnavului in apa neinceputa, e uns cu ea pe frunte, pe la tample, i se da sa bea din ea de trei ori sau i se spala cu ea rana. Din apa neinceputa se pot face fierturi cu *buruieni de leac,* sau poate fi scaldat bolnavul in ea. Apa ramasa se arunca pe parii gardului, la tatana usii sau intr-o groapa peste care nu mai trebuie sa se calce.
 >
-> Apa sorocită este apa care atunci când este adusă acasă de te o apă curgătoare, este investită în momentul adunării ei cu funcții magico-terapeutice. Astfel, înainte de a începe să descânte
+> Apa sorocita este apa care atunci cand este adusa acasa de te o apa curgatoare, este investita in momentul adunarii ei cu functii magico-terapeutice. Astfel, inainte de a incepe sa descante
 >
-> ^de^ *Dânsele\"* (reumatism, spondiloză, eczeme - boală complex), descântătoarea se duce la un râu curgător având la ea o bucățică
+> ^de^ *Dansele\"* (reumatism, spondiloza, eczeme - boala complex), descantatoarea se duce la un rau curgator avand la ea o bucatica
 >
-> ^e^ pâine, un mic drob de sare și o oală nouă în mâna dreaptă. Ajungând la malul râului ea \"bate\" trei metanii cu fața în contra curgerii apei (cu fața spre izvoare, deci), aruncă puțin din pâine și din sare în apă și, cu oala, ia puțin din apa ce a curs peste pâinea și sarea aruncate în râu. în momentul când face cele trei metanii, descântătoarea rostește următoarele cuvinte: *\"Apă curgătoare, Eu te sorocesc Tot cu pâine și cu sare Sfi lecuiești pe* cutare *Din cap până-n picioare Cu leac,*
+> ^e^ paine, un mic drob de sare si o oala noua in mana dreapta. Ajungand la malul raului ea \"bate\" trei metanii cu fata in contra curgerii apei (cu fata spre izvoare, deci), arunca putin din paine si din sare in apa si, cu oala, ia putin din apa ce a curs peste painea si sarea aruncate in rau. in momentul cand face cele trei metanii, descantatoarea rosteste urmatoarele cuvinte: *\"Apa curgatoare, Eu te sorocesc Tot cu paine si cu sare Sfi lecuiesti pe* cutare *Din cap pana-n picioare Cu leac,*
 >
-> *Sănătate și veac!\"*
+> *Sanatate si veac!\"*
 
-De aici se duce mai în sus pe râu (înspre izvoare), și repetă identic gestul sorocirii apei: execută trei metanii, aruncă pâinea și sarea, spune descântecul de sorocire și ia apă. După ce a făcut de trei ori gestul sorocirii apei și și-a umplut oala cu apă fără să o fi observat cineva, se întoarce spre casă fără să
+De aici se duce mai in sus pe rau (inspre izvoare), si repeta identic gestul sorocirii apei: executa trei metanii, arunca painea si sarea, spune descantecul de sorocire si ia apa. Dupa ce a facut de trei ori gestul sorocirii apei si si-a umplut oala cu apa fara sa o fi observat cineva, se intoarce spre casa fara sa
 
-vorbească cu nimeni și fără să privească înapoi (ca și atunci când a venit la râu). Ajunsă acasă, începe să descânte apa din oală cu o mătură de *Busuioc (Ocimum Basilicum)* și cu un ban de argint^1^. Observăm că introducerea în apă a busuiocului și argintului este similară celei din ritualul sfințirii apei de către\]
+vorbeasca cu nimeni si fara sa priveasca inapoi (ca si atunci cand a venit la rau). Ajunsa acasa, incepe sa descante apa din oala cu o matura de *Busuioc (Ocimum Basilicum)* si cu un ban de argint^1^. Observam ca introducerea in apa a busuiocului si argintului este similara celei din ritualul sfintirii apei de catre\]
 
-preoții ortodocși.
+preotii ortodocsi.
 
-> în Ardeal, pentru a soroci apa, vindecătorul aruncă în apă o bucățică de pâine, zicând: *\"Eu îți dau apă sfântă, colac, tu să-mi dai leac\".* Apoi ia apă din sus în jos, cu o oală nouă, nesmălțuită. Acasă apa se încălzește puțin și apoi se descântă^2^.
+> in Ardeal, pentru a soroci apa, vindecatorul arunca in apa o bucatica de paine, zicand: *\"Eu iti dau apa sfanta, colac, tu sa-mi dai leac\".* Apoi ia apa din sus in jos, cu o oala noua, nesmaltuita. Acasa apa se incalzeste putin si apoi se descanta^2^.
 >
-> în Maramureș se folosește o apă lecuitoare de râu, care trebuie «adusă» astfel:
+> in Maramures se foloseste o apa lecuitoare de rau, care trebuie «adusa» astfel:
 >
-> După ce se înserează, vindecătorul se duce la un râu, zicând pe drum toate rugăciunile pe care le știe. Ajuns la râu ia într-un vas (într-o oală) nouă linguri de apă dintr-un loc în care apa bulbucește trecând peste o piatră. După aceasta merge mai în l^os^ P^e^ ^cursu^\' ^a^pei, căutând alte opt locuri în care apa bulbucește peste câte o piatră. Din fiecare loc dintre acestea se ~m~ai iau câte nouă linguri de apă. Trebuie avut grijă ca numărarea lingurilor de apă să se facă invers: 9,8, 7,6\... 1. După ce a adunat toată apa, vindecătorul se duce la casa bolnavului, dându-i să bea trei linguri din apă, cu altele trei să se spele pe obraz etc^1^.
+> Dupa ce se insereaza, vindecatorul se duce la un rau, zicand pe drum toate rugaciunile pe care le stie. Ajuns la rau ia intr-un vas (intr-o oala) noua linguri de apa dintr-un loc in care apa bulbuceste trecand peste o piatra. Dupa aceasta merge mai in l^os^ P^e^ ^cursu^\' ^a^pei, cautand alte opt locuri in care apa bulbuceste peste cate o piatra. Din fiecare loc dintre acestea se ~m~ai iau cate noua linguri de apa. Trebuie avut grija ca numararea lingurilor de apa sa se faca invers: 9,8, 7,6\... 1. Dupa ce a adunat toata apa, vindecatorul se duce la casa bolnavului, dandu-i sa bea trei linguri din apa, cu altele trei sa se spele pe obraz etc^1^.
 >
-> Apa în care cineva se scaldă poate fi investită magic cu anumite calități ce trebuiesc transmise celui ce se îmbăiază. Pot fi puse în această apă flori, precum și anumite obiecte. în acest mod se mai procedează și astăzi când, a doua zi după botezul sugarului, i se face prima baie de către nașii săi. Se pun în apa copilului bani, argint, aur, flori, o cheie, după inspirația fiecăruia.
+> Apa in care cineva se scalda poate fi investita magic cu anumite calitati ce trebuiesc transmise celui ce se imbaiaza. Pot fi puse in aceasta apa flori, precum si anumite obiecte. in acest mod se mai procedeaza si astazi cand, a doua zi dupa botezul sugarului, i se face prima baie de catre nasii sai. Se pun in apa copilului bani, argint, aur, flori, o cheie, dupa inspiratia fiecaruia.
 
-Descântecele pot fi împărțite în câteva categorii care, în mentalitatea arhaică, reprezintă modalitățile distincte de exprimare a funcției magico-terapeutice a cuvântului. Aceste modalități se subordonează de fapt prototipurilor exprimării verbale: *rugămintea, porunca, amenințarea, blestemul, înspâimântarea, indicarea, comparația, enumerația, gradația, dialogul* și *povestirea.* în mod practic, într-un descântec se pot întâlni chiar două modalități de exprimare^2^:
+Descantecele pot fi impartite in cateva categorii care, in mentalitatea arhaica, reprezinta modalitatile distincte de exprimare a functiei magico-terapeutice a cuvantului. Aceste modalitati se subordoneaza de fapt prototipurilor exprimarii verbale: *rugamintea, porunca, amenintarea, blestemul, inspaimantarea, indicarea, comparatia, enumeratia, gradatia, dialogul* si *povestirea.* in mod practic, intr-un descantec se pot intalni chiar doua modalitati de exprimare^2^:
 
-> A. *Rugămintea.* Ex.:
+> A. *Rugamintea.* Ex.:
 >
-> Către Soare, pentru insolație (\"soare sec\"):
+> Catre Soare, pentru insolatie (\"soare sec\"):
 >
-> *\"Răsai, soare,*
+> *\"Rasai, soare,*
 >
-> *Frățioare,*
+> *Fratioare,*
 >
-> *Lasă roiul să roiască,*
+> *Lasa roiul sa roiasca,*
 
-*Dorul din cap să-l potolească\"*
+*Dorul din cap sa-l potoleasca\"*
 
-> Către Apă, pentru \"luatul de Iele\": *\"Apă mare, Doamnă mare, De pe 99 de văi venită, De pe 99 de văi întâlnită Să dai leac* \[cutăruia\], *Aminte să v-aduceți, sfintelor, Bunelor,*
+> Catre Apa, pentru \"luatul de Iele\": *\"Apa mare, Doamna mare, De pe 99 de vai venita, De pe 99 de vai intalnita Sa dai leac* \[cutaruia\], *Aminte sa v-aduceti, sfintelor, Bunelor,*
 >
-> *îndulcitelor Aminte să vă aduceți, Leacul să-i aduceți.*\"
+> *indulcitelor Aminte sa va aduceti, Leacul sa-i aduceti.*\"
 >
-> Către Maica Domnului, Fecioara Măria, pentru *de deochi: \"Maică Sfântă, ne rugăm, Și ne închinăm, Să ne dai sănătate bună Și inimă bună.\"* 4. Către Zâne, îndeosebi către *Iele:*
+> Catre Maica Domnului, Fecioara Maria, pentru *de deochi: \"Maica Sfanta, ne rugam, Si ne inchinam, Sa ne dai sanatate buna Si inima buna.\"* 4. Catre Zane, indeosebi catre *Iele:*
 >
-> *\"Zână albă ,~u~ , zână curată,*
+> *\"Zana alba ,~u~ , zana curata,*
 >
-> *zână fără prihană, zână fără spurcăciune, iaca venii la tine, strălucită\... vindecă-mă de lingoare\"* (febră tifoidă)
+> *zana fara prihana, zana fara spurcaciune, iaca venii la tine, stralucita\... vindeca-ma de lingoare\"* (febra tifoida)
 >
-> B. *Porunca directă.* Este cea mai răspândită formă. Către Soare, pentru insolație (\"soare sec\"):
+> B. *Porunca directa.* Este cea mai raspandita forma. Catre Soare, pentru insolatie (\"soare sec\"):
 >
-> *\"Ieși, soare,*
+> *\"Iesi, soare,*
 >
-> *că te ajunge cel cu picioare\".*
+> *ca te ajunge cel cu picioare\".*
 
-C. *Porunca directă cu amenințări și îngrozire.* Ex.:\
-1. Către duhul bolii *de Izdat* (coilici intestinale):\
-*\"Izdat nebotezat, cu tămânie te-oi tămâia,*
+C. *Porunca directa cu amenintari si ingrozire.* Ex.:\
+1. Catre duhul bolii *de Izdat* (coilici intestinale):\
+*\"Izdat nebotezat, cu tamanie te-oi tamaia,*
 
-> *ieși din inima lui* \[cutare\], *cu aghiasmă te-oi spăla,\
-> de unde ai intrat, cu apă mare te-oi uda.*\"
+> *iesi din inima lui* \[cutare\], *cu aghiasma te-oi spala,\
+> de unde ai intrat, cu apa mare te-oi uda.*\"
 >
-> *că eu atuncea te-oi boteza,*
+> *ca eu atuncea te-oi boteza,*
 >
-> *2* Către duhul bolii *de Bubă:\
-> \'Ieși, buba bubelor, că cu mătură te-oi mătura\
-> puiul ciumelor, și în mare te-oi țipa\",*
+> *2* Catre duhul bolii *de Buba:\
+> \'Iesi, buba bubelor, ca cu matura te-oi matura\
+> puiul ciumelor, si in mare te-oi tipa\",*
 >
-> *ieși bubă de 99 de ani,*
+> *iesi buba de 99 de ani,*
 >
-> D. *Porunca indirectă.* Ex.:
+> D. *Porunca indirecta.* Ex.:
 >
-> 1\. Către planta *Lumânărică (Verbascum Phlomoides),* pentru\
+> 1\. Catre planta *Lumanarica (Verbascum Phlomoides),* pentru\
 > viermi:
 >
-> *\"Lumânărică, lumânărică,*
+> *\"Lumanarica, lumanarica,*
 >
-> *să te duci în locul la vita* \[cutăruia\]\...
+> *sa te duci in locul la vita* \[cutaruia\]\...
 >
-> *și din locul* cutare *să cureți viermii\...\"*
+> *si din locul* cutare *sa cureti viermii\...\"*
 >
-> *2.* Către o pasăre, pentru *de deochi:*
+> *2.* Catre o pasare, pentru *de deochi:*
 >
-> *\"Pasăre albă, cudalbă,*
+> *\"Pasare alba, cudalba,*
 >
-> *nu linge bobocii tăi,*
+> *nu linge bobocii tai,*
 >
 > *ci linge pe* \[cutare\] *de deochi\...*\"
 >
-> E. *Indicarea* și *înspăimăntarea.*
+> E. *Indicarea* si *inspaimantarea.*
 >
-> în aceste descântece se folosesc anumite obiecte, plante, ființe, ce sunt chiar indicate expres în timpul rostirii descântecului. Este vorba de unele lucruri de care duhurile bolilor se tem. în cazul plantelor sunt indicate în descântece Alunul, Bozul, Socul, Viță de Vie, Pelinul, Călinul, Cornul, Arțarul, Sângerai, Trestia, Nucul ș.a. Ex.:
+> in aceste descantece se folosesc anumite obiecte, plante, fiinte, ce sunt chiar indicate expres in timpul rostirii descantecului. Este vorba de unele lucruri de care duhurile bolilor se tem. in cazul plantelor sunt indicate in descantece Alunul, Bozul, Socul, Vita de Vie, Pelinul, Calinul, Cornul, Artarul, Sangerai, Trestia, Nucul s.a. Ex.:
 
-Către *Soc,* pentru viermi. înainte de a răsări soarele, des-cântătoarea se duce la un Soc, având în mână o cracă uscată de Alun. Aici se apucă și lovește cu craca de Alun în Soc, atâta timp cât rostește următorul descântec:
+Catre *Soc,* pentru viermi. inainte de a rasari soarele, des-cantatoarea se duce la un Soc, avand in mana o craca uscata de Alun. Aici se apuca si loveste cu craca de Alun in Soc, atata timp cat rosteste urmatorul descantec:
 
-- *Bună dimineața, Socule! Cu plug roș-poroș,*
+- *Buna dimineata, Socule! Cu plug ros-poros,*
 
-- *Sănătate bună, păcurariule! Cu pogonici roș-poroș,*
+- *Sanatate buna, pacurariule! Cu pogonici ros-poros,*
 
-- *Știi la ce-am venit, Socule? Cu boi roși-poroși,\
- > \~ Oi ști, de mi-i spune, păcurariule. Și te-oi ara*
+- *Stii la ce-am venit, Socule? Cu boi rosi-porosi,\
+ > \~ Oi sti, de mi-i spune, pacurariule. Si te-oi ara*
 
-> *--- Să te duci la* \[cutare\], *până-n sară, în lungiș\
-> Să-i scoți toți viermii afară. Și-n curmeziș,*
+> *--- Sa te duci la* \[cutare\], *pana-n sara, in lungis\
+> Sa-i scoti toti viermii afara. Si-n curmezis,*
 >
-> *Că tu, de nu i scoate, Și mai mult floare albă nu-i face,*
+> *Ca tu, de nu i scoate, Si mai mult floare alba nu-i face,*
 >
-> *Eu mâni demineață la tine-oi veni, Nici boabe merii nu-i coace.*
+> *Eu mani demineata la tine-oi veni, Nici boabe merii nu-i coace.*
 >
-> *Pană soarele n-a răsări, Sănătate bună, Socule!*
+> *Pana soarele n-a rasari, Sanatate buna, Socule!*
 >
-> *^Si^*«\' *veni --- Mergi sănătos păcwariukr*
+> *^Si^*«\' *veni --- Mergi sanatos pacwariukr*
 >
-> F. *Blestemul.* Sunt blestemate persoana sau duhul care a pricinuit boala, astfel dobândindu-se și vindecarea. Ex.:
+> F. *Blestemul.* Sunt blestemate persoana sau duhul care a pricinuit boala, astfel dobandindu-se si vindecarea. Ex.:
 >
 > 1\. Asupra deochetorilor:
 >
-> *\"Pasăre albă, Cine a rămnit*
+> *\"Pasare alba, Cine a ramnit*
 >
-> *cudalbă, a plesnit;*
+> *cudalba, a plesnit;*
 >
-> *sus te suiși, și a rămas* \[cutare\] *curat,*
+> *sus te suisi, si a ramas* \[cutare\] *curat,*
 >
-> *jos plesniși luminat,*
+> *jos plesnisi luminat,*
 >
-> *Plesnească ochii râmnitorului, ca argintul strecurat.\"\
-> plesnească ochii deochetorilor.*
+> *Plesneasca ochii ramnitorului, ca argintul strecurat.\"\
+> plesneasca ochii deochetorilor.*
 >
 > *2.* Asupra Lunii:
 >
-> *\"D-o fi deochiat de lună, pieie-i lumina, întunericu să rămâie.\"*
+> *\"D-o fi deochiat de luna, pieie-i lumina, intunericu sa ramaie.\"*
 >
-> G. *Comparația.* Ex.:
+> G. *Comparatia.* Ex.:
 >
-> *\"La o răchită răsădită, este o fată împodobită, cu un ochi de apă și unul de foc.*
+> *\"La o rachita rasadita, este o fata impodobita, cu un ochi de apa si unul de foc.*
 >
-> H. *Enumerația.* Ex.:
+> H. *Enumeratia.* Ex.:
 >
-> 1\. Pentru \"gâlci\" (scrofule) se descântă frecându-le cu clăbuci\
-> de săpun, și zicând:
+> 1\. Pentru \"galci\" (scrofule) se descanta frecandu-le cu clabuci\
+> de sapun, si zicand:
 >
-> *\"Nouă, opt, șapte, șase, cinci, patru, trei, două, un\<r, r^!^\" una. ptiu.\"*
+> *\"Noua, opt, sapte, sase, cinci, patru, trei, doua, un\<r, r^!^\" una. ptiu.\"*
 >
-> *2.* Pentru \"bubă\":
+> *2.* Pentru \"buba\":
 
-*\"Bubă albă, neagră, roșie, albastră, cu dalac* (antrax), *izdat* (colici intestinale), *bubă domoală, pripită, cu umflături, veninături, căiască, văcească, oiască, căprească, rumăneascl țigănească, rudărească, ursărească, căldărească, boierească, sârbească, ungurească, franțuzească, latinească, nemțească, din toată ziua, din noapte, din toată noaptea, bubă de 99 de feluri de bubă, buba bubelor, sora ciumelor, ieși\...\"*
+*\"Buba alba, neagra, rosie, albastra, cu dalac* (antrax), *izdat* (colici intestinale), *buba domoala, pripita, cu umflaturi, veninaturi, caiasca, vaceasca, oiasca, capreasca, rumaneascl tiganeasca, rudareasca, ursareasca, caldareasca, boiereasca, sarbeasca, ungureasca, frantuzeasca, latineasca, nemteasca, din toata ziua, din noapte, din toata noaptea, buba de 99 de feluri de buba, buba bubelor, sora ciumelor, iesi\...\"*
 
-> I. *Gradația.* Ex.:
+> I. *Gradatia.* Ex.:
 >
-> Pentru \"buboi\", în Transilvania;
+> Pentru \"buboi\", in Transilvania;
 >
-> *\"Buboi, buboi, mare cât un moșinoi, din mare ce ești, să te treci, să te petreci,*
+> *\"Buboi, buboi, mare cat un mosinoi, din mare ce esti, sa te treci, sa te petreci,*
 >
 > J. *Dialogul.* Ex.:
 
-Pentru a nu avea \"friguri\", cel ce vede prima oară într-un an o barză, dialoghează singur:
+Pentru a nu avea \"friguri\", cel ce vede prima oara intr-un an o barza, dialogheaza singur:
 
-> \"--- *Barză, barză,* --- *în picioare?*
+> \"--- *Barza, barza,* --- *in picioare?*
 
-- *Două râschitoare.*
+- *Doua raschitoare.*
 
-- *în pene?*
+- *in pene?*
 
 - *Frigurile mele.*
 
-- *Să te duci 99 de ani cu ele.\"*
+- *Sa te duci 99 de ani cu ele.\"*
 
-> K. *\"Formula magică\".* Această formă de descântec se referă la descântecele care conțin cuvinte neînțelese, neaparținând nici unei limbi. Probabil aceste cuvinte au rolul impresionării bolnavului. Ex.:
+> K. *\"Formula magica\".* Aceasta forma de descantec se refera la descantecele care contin cuvinte neintelese, neapartinand nici unei limbi. Probabil aceste cuvinte au rolul impresionarii bolnavului. Ex.:
 >
-> Descântec \"de turbă\":
+> Descantec \"de turba\":
 >
-> *\"De-a prii prifti, de-a mano manolea, de-a codi codașnic\"*
+> *\"De-a prii prifti, de-a mano manolea, de-a codi codasnic\"*
 >
 > L. *Povestirea.* Ex.:
 >
-> 1\. împotriva \"brâncii\" (erizipel) se descântă în apă, cu un\
-> cuțit. Se face cruce în apă și bolnavul o bea. Descântătoarea zice
+> 1\. impotriva \"brancii\" (erizipel) se descanta in apa, cu un\
+> cutit. Se face cruce in apa si bolnavul o bea. Descantatoarea zice
 >
-> un descântec-poveste:
+> un descantec-poveste:
 >
-> *\"A plecat furca cu brânca la judecată; furca veni, brânca din trupul lui cutare ieși, și rămase cutare curat, luminat, ca Maica Precista ce 1-a lăsat.\"*
+> *\"A plecat furca cu branca la judecata; furca veni, branca din trupul lui cutare iesi, si ramase cutare curat, luminat, ca Maica Precista ce 1-a lasat.\"*
 >
-> 2\. împotriva deochiului:
+> 2\. impotriva deochiului:
 >
-> *\"Se sculă un rumân mare minunat, luă o secure mare minunată, se duse într-o pădure mare minunată, tăie un tufan mare minunat,*
+> *\"Se scula un ruman mare minunat, lua o secure mare minunata, se duse intr-o padure mare minunata, taie un tufan mare minunat,*
 >
-> 3\. Se mai povestește în descântece despre *omul mare,* despre un *om vânt,* despre oameni de diferite culori, care prin acțiunile lor vindecă bolile: *om roșu, om negru, om verde, om galben.* Ex.:
+> 3\. Se mai povesteste in descantece despre *omul mare,* despre un *om vant,* despre oameni de diferite culori, care prin actiunile lor vindeca bolile: *om rosu, om negru, om verde, om galben.* Ex.:
 >
-> De \"roșață\" (pelagră), care se manifestă prin culoarea roșie a organului atins, se descânt;! pisând usturoi cu muchea securii, care este apoi pus într-o cârpă, legat cu fir roșu și așezat pe partea bolnavă, descântându-se cu următoarea poveste:
+> De \"rosata\" (pelagra), care se manifesta prin culoarea rosie a organului atins, se descant;! pisand usturoi cu muchea securii, care este apoi pus intr-o carpa, legat cu fir rosu si asezat pe partea bolnava, descantandu-se cu urmatoarea poveste:
 >
-> *\"Veni un om mare roșu, luă o secure mare roșie, tăie un copac mare roșu. Omul tăie așchiile, sărea brânca baba și vifor fugea și* \[cutare\] *curat rămânea.\"*
+> *\"Veni un om mare rosu, lua o secure mare rosie, taie un copac mare rosu. Omul taie aschiile, sarea branca baba si vifor fugea si* \[cutare\] *curat ramanea.\"*
 >
-> în descântecele de \"obrinteală\" (infecție a rănilor), în cele de \"năjit\" (guturai) și de \"vifor\" (dureri de măsele) este invocat *omul negru,* deși aceste afecțiuni nu au nici o legătură cu culoarea neagră.
+> in descantecele de \"obrinteala\" (infectie a ranilor), in cele de \"najit\" (guturai) si de \"vifor\" (dureri de masele) este invocat *omul negru,* desi aceste afectiuni nu au nici o legatura cu culoarea neagra.
 >
-> 4\. în alte descântece se povestește despre lucruri care în ordinea firească a lucrurilor nu se pot întâmpla, par absurde, dar care nu sunt imposibile ordinii magice, așa cum este ea reflectată de mentalitatea arhaică a acestor descântece: *a te mișca fără a călca pe pământ, a zbura fără aripi, a mânca fără gură, a apuca fără mâini,* existența unei *porți de apă* sau a unui *lacăt de foc.* Un descântec de \"matrice\" (colici) cuprinde asemenea paradoxuri:
+> 4\. in alte descantece se povesteste despre lucruri care in ordinea fireasca a lucrurilor nu se pot intampla, par absurde, dar care nu sunt imposibile ordinii magice, asa cum este ea reflectata de mentalitatea arhaica a acestor descantece: *a te misca fara a calca pe pamant, a zbura fara aripi, a manca fara gura, a apuca fara maini,* existenta unei *porti de apa* sau a unui *lacat de foc.* Un descantec de \"matrice\" (colici) cuprinde asemenea paradoxuri:
 >
-> *\"Matrice mătricată, ce vii cu gura căscată, să îmbuci din \[cutare\] odată? Nu-ți e frică că oi pune trei cotei bodei și te-o prinde fără picioare,*
+> *\"Matrice matricata, ce vii cu gura cascata, sa imbuci din \[cutare\] odata? Nu-ti e frica ca oi pune trei cotei bodei si te-o prinde fara picioare,*
 
-încheierea descântecelor cunoaște mai multe formule care sunt de fapt urări de bine și de sănătate, care ca și *blestemele,* urări de rău și de boală, apelează la forța magică a cuvântului. Iată câteva exemple de formulă finală a descântecului
+incheierea descantecelor cunoaste mai multe formule care sunt de fapt urari de bine si de sanatate, care ca si *blestemele,* urari de rau si de boala, apeleaza la forta magica a cuvantului. Iata cateva exemple de formula finala a descantecului
 
-Un rol important al incantației magice - componenta centrală a descântecelor - este recurgerea în scop terapeutic la mecanismele sugestiei verbale. Faptul că majoritatea covârșitoare a descântecelor aparține medicinei populare umane, și nu celei animale, pare să îndreptățească opinia că mecanismul principal al descântecului se subscrie, prin incantația magică, domeniului
+Un rol important al incantatiei magice - componenta centrala a descantecelor - este recurgerea in scop terapeutic la mecanismele sugestiei verbale. Faptul ca majoritatea covarsitoare a descantecelor apartine medicinei populare umane, si nu celei animale, pare sa indreptateasca opinia ca mecanismul principal al descantecului se subscrie, prin incantatia magica, domeniului
 
 > psihoterapiei.
 >
-> în acest sens trebuie reținut faptul că, în general, succesul descântecului se află în relație directă cu prestigiul personal de care se bucură descântătorul în colectivitatea sătească. Unii descântători se bucurau în trecut de o mare faima, ce^:^ ajungea chiar de la un capăt de țară până în celălalt. Puterea de sugestie a descântătorului este întregită de folosirea unui ton adecvat, în funcție de tipul descântecului *{rugăminte, poruncă, blestem),* la care se adaugă gesturile rituale și mimica. Descântătorul veritabil nu recită monoton și indiferent un text literar, el *interpretează* (aproape spontan uneori) rolul unui magician, al unui cunoscător al stihiilor. \"Atunci când descânt - declara o descântătoare -, cuvântul meu este trăsnet, privirea-mi fulger, iar mâna mea furtună\"^1^. Asemenea elemente subiective pot avea o influență psihică puternică asupra pacientului, dar, în virtutea ritualului magic de care țin, ele pot acționa până în străfundurile cosmice al inconștientului, declanșând sau eliberând forțe nevăzute.
+> in acest sens trebuie retinut faptul ca, in general, succesul descantecului se afla in relatie directa cu prestigiul personal de care se bucura descantatorul in colectivitatea sateasca. Unii descantatori se bucurau in trecut de o mare faima, ce^:^ ajungea chiar de la un capat de tara pana in celalalt. Puterea de sugestie a descantatorului este intregita de folosirea unui ton adecvat, in functie de tipul descantecului *{rugaminte, porunca, blestem),* la care se adauga gesturile rituale si mimica. Descantatorul veritabil nu recita monoton si indiferent un text literar, el *interpreteaza* (aproape spontan uneori) rolul unui magician, al unui cunoscator al stihiilor. \"Atunci cand descant - declara o descantatoare -, cuvantul meu este trasnet, privirea-mi fulger, iar mana mea furtuna\"^1^. Asemenea elemente subiective pot avea o influenta psihica puternica asupra pacientului, dar, in virtutea ritualului magic de care tin, ele pot actiona pana in strafundurile cosmice al inconstientului, declansand sau eliberand forte nevazute.
 >
-> Putem spune deci că descântecele, chiar cele de tip *povestire,* cele în care abundă alegoriile, afurisirile și blestemele (exorcismele), imaginile, comparațiile și metaforele se adresează laturii emoționale a auditoriului, dar acțiunea psihoterapeutică este întărită de formula finală a descântecului, prin care se urează bolnavului să rămână *«curat și luminat,/ ca argintul strecurat»,* sau *\*ca iarba câmpului și frunza codrului»,* ori ca *•rouă de dimineață, ca floarea din făneață».\[14\]*
+> Putem spune deci ca descantecele, chiar cele de tip *povestire,* cele in care abunda alegoriile, afurisirile si blestemele (exorcismele), imaginile, comparatiile si metaforele se adreseaza laturii emotionale a auditoriului, dar actiunea psihoterapeutica este intarita de formula finala a descantecului, prin care se ureaza bolnavului sa ramana *«curat si luminat,/ ca argintul strecurat»,* sau *\*ca iarba campului si frunza codrului»,* ori ca *•roua de dimineata, ca floarea din faneata».\[14\]*
 >
 > •
 >
-> Putem întâlni și situații în care descântătorul execută, în cadrul descântecului, cu ajutorul mâinilor sale, pase bioenergoterapeutice. S-a remarcat astfel că vindecătorii populari folosesc mâna dreaptă pentru a lecui cu ajutorul ei bolile și infirmitățile. Redăm ca exemplu un descântec împotriva durerilor de cap și măsele.
+> Putem intalni si situatii in care descantatorul executa, in cadrul descantecului, cu ajutorul mainilor sale, pase bioenergoterapeutice. S-a remarcat astfel ca vindecatorii populari folosesc mana dreapta pentru a lecui cu ajutorul ei bolile si infirmitatile. Redam ca exemplu un descantec impotriva durerilor de cap si masele.
 >
-> Descântătorul ia într-o mână aluat sau pâine, sare, un ban de argint și cărbuni de tei, și, ținându-le în mână, le rotește în jurul capului bolnavului, recintând incantația magică:
+> Descantatorul ia intr-o mana aluat sau paine, sare, un ban de argint si carbuni de tei, si, tinandu-le in mana, le roteste in jurul capului bolnavului, recintand incantatia magica:
 >
 > *\"Buba ce coace,*
 >
@@ -907,343 +907,343 @@ Un rol important al incantației magice - componenta centrală a descântecelor 
 >
 > *Buba de 99 de neamuri,*
 >
-> *Merge la omul sănătos;*
+> *Merge la omul sanatos;*
 >
-> *în creieri capului,*
+> *in creieri capului,*
 >
-> *In fața obrazului*
+> *In fata obrazului*
 >
-> *în auzitul urechilor,*
+> *in auzitul urechilor,*
 >
-> *în lumina ochilor;*
+> *in lumina ochilor;*
 >
 > *Prin foile nasului*
 >
-> *Se bagă sub piele,*
+> *Se baga sub piele,*
 >
 > *Prin carne,*
 >
-> *Și prin os,*
+> *Si prin os,*
 >
 > *Prin trup tn jos.*
 >
-> *îl împunge*
+> *il impunge*
 >
-> *Și-l străpunge,*
+> *Si-l strapunge,*
 >
-> *Până mai la moarte-l duce.*
+> *Pana mai la moarte-l duce.*
 
-*De-acolo se duce la D-zeu la prânz.*
+*De-acolo se duce la D-zeu la pranz.*
 
-> Ajungând în acest moment al incantației magice, descântătorul înconjoară încă o dată capul bolnavului cu elementele amintite mai sus, apoi, ca și când i-ar lua durerea cu mâna, își coboară încet mâna pe umăr și, de acolo, pe mâna dreaptă a bolnavului până la degete. Fuge, apoi, la ușă și, făcând *~0~* mică groapă cu cuțitul lângă prag, după ușă, îngroapă obiectele cu care a descântat, după care continuă incantația magică:
+> Ajungand in acest moment al incantatiei magice, descantatorul inconjoara inca o data capul bolnavului cu elementele amintite mai sus, apoi, ca si cand i-ar lua durerea cu mana, isi coboara incet mana pe umar si, de acolo, pe mana dreapta a bolnavului pana la degete. Fuge, apoi, la usa si, facand *~0~* mica groapa cu cutitul langa prag, dupa usa, ingroapa obiectele cu care a descantat, dupa care continua incantatia magica:
 >
-> ***\"Argintul l-oi hăznui. Ca oaia la miel,***
+> ***\"Argintul l-oi haznui. Ca oaia la miel,***
 >
-> ***Io acolo oi veni Ca vaca la vițel,***
+> ***Io acolo oi veni Ca vaca la vitel,***
 >
-> ***M-oi întoarce, Ca mama la copil\"***
+> ***M-oi intoarce, Ca mama la copil\"***
 >
-> în spațiul carpatic, folosirea mâinilor în scop terapeutic este atestată de mii de ani. Au rămas de la traci mici statuete sub forma unor mâini, așa numitele \"mâini votive\", care se păstrau în casele tracilor, pe altare, fiind totodată reprezentări ale zeului Sabazios, zeu al Soarelui, și instrumente chirurgicale pentru situații de urgență. Fiind alcătuite astfel încât au trei degete ridicate, erau utilizate în timpul nașterilor ca forcepsuri sau mănuși-for-cepsuri. Și în timpurile noastre, până recent, *moașele* românce foloseau tot în scop obstretical, un așa numit \"deget de naștere\".
+> in spatiul carpatic, folosirea mainilor in scop terapeutic este atestata de mii de ani. Au ramas de la traci mici statuete sub forma unor maini, asa numitele \"maini votive\", care se pastrau in casele tracilor, pe altare, fiind totodata reprezentari ale zeului Sabazios, zeu al Soarelui, si instrumente chirurgicale pentru situatii de urgenta. Fiind alcatuite astfel incat au trei degete ridicate, erau utilizate in timpul nasterilor ca forcepsuri sau manusi-for-cepsuri. Si in timpurile noastre, pana recent, *moasele* romance foloseau tot in scop obstretical, un asa numit \"deget de nastere\".
 >
-> Mâna bolnavului însuși poate fi implicată în actul terapiei magice. Astfel, până în secolul trecut se executau în Muntenia \"oalele de leac\", în care era imprimată mâna celui bolnav: \"într-un sat numit Gura Sutei, de pe \[râul\] Dâmbovița, se confecționau de unii olari așa-zisele «oale de leac», cu motivul decorativ al mâinii celui bolnav, înscris, prin apăsare, în pasta moale, înainte de coacere. Cu aceste oale, în ziua sortită lecuirii, bolnavul și vraciul sau doftoroaia mergeau în pădurea apropiată, numită Nucet, unde într-un hățiș se află o «fântână de leac», alături de care străjuia o movilă de oale sparte. în fața vraciului sau doftoroaiei, bolnavul se dezbrăca în pielea goală și se întorcea cu spatele la fântână. «Vindecătorul» lua din fântână, cu *oala de leac,* apă rece, o descânta și o zvârlea cu putere pe spatele bolnavului, care se înfiora tot. Apoi trântea *oala de leac* în mormanul de cioburi, exorcizând-o.\"^1^
+> Mana bolnavului insusi poate fi implicata in actul terapiei magice. Astfel, pana in secolul trecut se executau in Muntenia \"oalele de leac\", in care era imprimata mana celui bolnav: \"intr-un sat numit Gura Sutei, de pe \[raul\] Dambovita, se confectionau de unii olari asa-zisele «oale de leac», cu motivul decorativ al mainii celui bolnav, inscris, prin apasare, in pasta moale, inainte de coacere. Cu aceste oale, in ziua sortita lecuirii, bolnavul si vraciul sau doftoroaia mergeau in padurea apropiata, numita Nucet, unde intr-un hatis se afla o «fantana de leac», alaturi de care strajuia o movila de oale sparte. in fata vraciului sau doftoroaiei, bolnavul se dezbraca in pielea goala si se intorcea cu spatele la fantana. «Vindecatorul» lua din fantana, cu *oala de leac,* apa rece, o descanta si o zvarlea cu putere pe spatele bolnavului, care se infiora tot. Apoi trantea *oala de leac* in mormanul de cioburi, exorcizand-o.\"^1^
 >
-## VRĂJI ȘI BLESTEME
+## VRAJI SI BLESTEME
 
-> *VRĂJI ȘI BLESTEME*
+> *VRAJI SI BLESTEME*
 >
-> *în* afară duhurilor rele, ce sunt la originea unor bo\|j poporul mai atribuie originea acestora și acțiunii răuvoitoate j unor ființe omenești ce se folosesc de mijloace magice, *vrăjitorii* Aceștia trimit asupra omului tot felul de neplăceri, dar mai ales boli, de care se poate scăpa foarte greu.
+> *in* afara duhurilor rele, ce sunt la originea unor bo\|j poporul mai atribuie originea acestora si actiunii rauvoitoate j unor fiinte omenesti ce se folosesc de mijloace magice, *vrajitorii* Acestia trimit asupra omului tot felul de neplaceri, dar mai ales boli, de care se poate scapa foarte greu.
 >
-> Scopul imediat al *vrăjitor,* este de a constrânge pe cineva, împotriva voinței sale, să asculte și să facă tot ceea ce se dorește de la dânsul. *Vrăji/e* pot despărți doi soți ce trăiesc în cea mai bună înțelegere, sau pe doi tineri ce se iubesc și vor să se căsătorească, pot lua somnul copiilor de țîță și laptele de la vaci, pot nenoroci sau chiar nimici. \"Vrăjitorii și vrăjitoarele sunt priviți în genere de către popor ca niște oameni fără de lege, lepădați de Dumnezeu, care au de-a face mai mult cu spiritele necurate, pentru că ei, în vrăjile ce le rostesc, în loc să se adreseze la Dumnezeu, ființa supremă și atotputernică, ca acesta să le vină într-ajutor spre atingerea scopului ce-1 urmăresc, își iau de cele mai multe ori refugiul la spiritele cele necurate\... ca acestea să le dea ajutorul trebuincios și să le împlinească dorința.\"\'\[4J
+> Scopul imediat al *vrajitor,* este de a constrange pe cineva, impotriva vointei sale, sa asculte si sa faca tot ceea ce se doreste de la dansul. *Vraji/e* pot desparti doi soti ce traiesc in cea mai buna intelegere, sau pe doi tineri ce se iubesc si vor sa se casatoreasca, pot lua somnul copiilor de tita si laptele de la vaci, pot nenoroci sau chiar nimici. \"Vrajitorii si vrajitoarele sunt priviti in genere de catre popor ca niste oameni fara de lege, lepadati de Dumnezeu, care au de-a face mai mult cu spiritele necurate, pentru ca ei, in vrajile ce le rostesc, in loc sa se adreseze la Dumnezeu, fiinta suprema si atotputernica, ca acesta sa le vina intr-ajutor spre atingerea scopului ce-1 urmaresc, isi iau de cele mai multe ori refugiul la spiritele cele necurate\... ca acestea sa le dea ajutorul trebuincios si sa le implineasca dorinta.\"\'\[4J
 
-Unii dintre vrăjitori, așa numiții *fermecători* sau *fermecătoare,* invocă ajutorul duhurilor considerate bune, apelează la elemente curate, precum apa și rouă, despre care au deplina convingere că, dacă se vor spăla cu ele, \"se vor curați și limpezi de toate *aruncăturile și făcăturile,* de tot *datul și faptul,* de toată urgia și urâciunea și se vor face cu mult mai frumoși și atrăgători decât oricine altul\...\" Obiectele întrebuințate de fermecători sunt în general cât se poate de curate și atrăgătoare, mai ales plante frumos mirositoare, și au scopul de a atrage, de a fermeca, de a fura mințile cuiva, pentru ca mai apoi, cel fermecat, să îl iubească și să vorbească numai cu cel care \"i-a *~\]~ făcut de dragoste\"* (1-a fermecat).^2^\[4J
+Unii dintre vrajitori, asa numitii *fermecatori* sau *fermecatoare,* invoca ajutorul duhurilor considerate bune, apeleaza la elemente curate, precum apa si roua, despre care au deplina convingere ca, daca se vor spala cu ele, \"se vor curati si limpezi de toate *aruncaturile si facaturile,* de tot *datul si faptul,* de toata urgia si uraciunea si se vor face cu mult mai frumosi si atragatori decat oricine altul\...\" Obiectele intrebuintate de fermecatori sunt in general cat se poate de curate si atragatoare, mai ales plante frumos mirositoare, si au scopul de a atrage, de a fermeca, de a fura mintile cuiva, pentru ca mai apoi, cel fermecat, sa il iubeasca si sa vorbeasca numai cu cel care \"i-a *~\]~ facut de dragoste\"* (1-a fermecat).^2^\[4J
 
-> Fiecare vrăjitor este un singuratic ce lucrează în \"vizuina\" i~u~j dar au și momente când se adună laolaltă. Dintre elemnetele întrebuințate pentru tot felul de vrăji, găsim pe acelea întrebuințate în practicile magice ale tuturor popoarelor europene: cuțit de găsit; secară; topor; coasă; fier de plug părăsit; potcoave de găsit; fus părăsit; sită; cui de la groapă; dinți de pieptene; săgeată; frigare; stropi de apă culeși de pe roata unei mori; pământ din călcătura piciorului drept, sau de pe un mormânt vechi; petrol; funia unui spânzurat; mâna, un deget sau un os de la un mort; picioare de iepure; labe de liliac; broască fiartă în urină de vacă, etc. Uneori ei folosesc *adusul, legatul, străpunsul* și *îngropatul* unei păpuși de ceară, care îl înfățișează pe cel ce trebuie să cadă victima vrăjitoiriei; se îngroapă și se ard părul sau unghiile tăiate. După cum relatează țăranii români, puterea vrăjitorilor sau a vreunei femei pricepute la vrăji, merge până acolo încât pot face să înghețe apa în mijlocul verii. \[4\]
+> Fiecare vrajitor este un singuratic ce lucreaza in \"vizuina\" i~u~j dar au si momente cand se aduna laolalta. Dintre elemnetele intrebuintate pentru tot felul de vraji, gasim pe acelea intrebuintate in practicile magice ale tuturor popoarelor europene: cutit de gasit; secara; topor; coasa; fier de plug parasit; potcoave de gasit; fus parasit; sita; cui de la groapa; dinti de pieptene; sageata; frigare; stropi de apa culesi de pe roata unei mori; pamant din calcatura piciorului drept, sau de pe un mormant vechi; petrol; funia unui spanzurat; mana, un deget sau un os de la un mort; picioare de iepure; labe de liliac; broasca fiarta in urina de vaca, etc. Uneori ei folosesc *adusul, legatul, strapunsul* si *ingropatul* unei papusi de ceara, care il infatiseaza pe cel ce trebuie sa cada victima vrajitoiriei; se ingroapa si se ard parul sau unghiile taiate. Dupa cum relateaza taranii romani, puterea vrajitorilor sau a vreunei femei pricepute la vraji, merge pana acolo incat pot face sa inghete apa in mijlocul verii. \[4\]
 
-Trimiterea bolilor asupra cuiva de către vrăijitori se face atât printr-un discurs magic, prin rostirea unei vrăji, cât și prin intermediul unui obiect sau al unei ființe vrăjite, care este trimis(ă) în casa celui vizat, și căruia îi pot ajunge în băutură sau în mâncare. Cele mai obișnuite boli provocate prin vrăji se manifestă prin bube, care apar pe tot corpul sau numai pe o parte a lui. Alte asemenea boli aduse de vrăji sunt eczemele *(bubele-dulci),* congestia cerebrală, apoplexia *(damblaua), junghiurile* și afecțiunile oculare precum leucomul, cataracta *(albeața).*
+Trimiterea bolilor asupra cuiva de catre vraijitori se face atat printr-un discurs magic, prin rostirea unei vraji, cat si prin intermediul unui obiect sau al unei fiinte vrajite, care este trimis(a) in casa celui vizat, si caruia ii pot ajunge in bautura sau in mancare. Cele mai obisnuite boli provocate prin vraji se manifesta prin bube, care apar pe tot corpul sau numai pe o parte a lui. Alte asemenea boli aduse de vraji sunt eczemele *(bubele-dulci),* congestia cerebrala, apoplexia *(damblaua), junghiurile* si afectiunile oculare precum leucomul, cataracta *(albeata).*
 
-în rândul vrăjilor cele mai simple, cele discursive, intră și blestemele. Se crede că unele persoane au \"gura pocită\", adică au o legătură cu duhurile, care fac să se împlinească blestemele ce le rostesc cu furie împotriva cuiva. Există blesteme răspândite, precum: *Lovi-l-ar boala (să îl lovească)! - Arde-l-ar focul! - Sări-i-lar ochii! - Mânca-l-ar viermii! - Să se topească carnea pe tine ca lumânarea! - Mânca-ți-ași coliva! - Dormire-ai somnul morții!* etc.
+in randul vrajilor cele mai simple, cele discursive, intra si blestemele. Se crede ca unele persoane au \"gura pocita\", adica au o legatura cu duhurile, care fac sa se implineasca blestemele ce le rostesc cu furie impotriva cuiva. Exista blesteme raspandite, precum: *Lovi-l-ar boala (sa il loveasca)! - Arde-l-ar focul! - Sari-i-lar ochii! - Manca-l-ar viermii! - Sa se topeasca carnea pe tine ca lumanarea! - Manca-ti-asi coliva! - Dormire-ai somnul mortii!* etc.
 
-> Procedeele magice uzuale, folosite pentru vrăji, sunt *adusătura, aruncătura și faptul* (sau *făcătura).*
+> Procedeele magice uzuale, folosite pentru vraji, sunt *adusatura, aruncatura si faptul* (sau *facatura).*
 >
-> *Adusătura* este orice boală adusă în casă prin farmecele sau vrăjile unui dușman. Cele mai folosite pentru *adusătura* sunt broaș-tele, considerate agenți ai duhurilor rele. \"De-ți intră broasca în casă - se spune în popor -, e semn că cineva ți-a trimis-o cu farmece. Atunci trebuie cu un băț s-o dai afară și să zici: «Du-te la cine te-a trimis, căci la noi nu ești primită. Cu ce te-a trimis, dă-i lui, și de capul lui să fie».\"^1^ O largă răspândire cunoaște și folosirea *argintului-viu* (mercurul). *Argintul-viu* este trimis, pe drum, peste garduri sau vâlcele, până la locul sau la omul căruia i-a fost hărăzit a-i face diverse neajunsuri: desbinare, vrăjmășie, boală, înnec ș.a. \"Vrăjitoarea descântă *argintul-viu* și-l trimite cui i se poruncește. *Argintul-viu* pleacă singur de la vrăjitoare și, ajungând în casa unde e hotărât, se risipește în cofe, în străchini, în așternuturi și în toate lucrurile din casă. Cei din casă câteodată îl văd, dar nu pot face nimic ca să-1 \[înjdepărteze. Din toți cei din casă nu se îmbolnăvește decât acela care e ursit de vrăjitoare. Bolnavul simte un fel de cârcei în tot trupul și se umple de spuzeală\...\"\[4\]
+> *Adusatura* este orice boala adusa in casa prin farmecele sau vrajile unui dusman. Cele mai folosite pentru *adusatura* sunt broas-tele, considerate agenti ai duhurilor rele. \"De-ti intra broasca in casa - se spune in popor -, e semn ca cineva ti-a trimis-o cu farmece. Atunci trebuie cu un bat s-o dai afara si sa zici: «Du-te la cine te-a trimis, caci la noi nu esti primita. Cu ce te-a trimis, da-i lui, si de capul lui sa fie».\"^1^ O larga raspandire cunoaste si folosirea *argintului-viu* (mercurul). *Argintul-viu* este trimis, pe drum, peste garduri sau valcele, pana la locul sau la omul caruia i-a fost harazit a-i face diverse neajunsuri: desbinare, vrajmasie, boala, innec s.a. \"Vrajitoarea descanta *argintul-viu* si-l trimite cui i se porunceste. *Argintul-viu* pleaca singur de la vrajitoare si, ajungand in casa unde e hotarat, se risipeste in cofe, in strachini, in asternuturi si in toate lucrurile din casa. Cei din casa cateodata il vad, dar nu pot face nimic ca sa-1 \[injdeparteze. Din toti cei din casa nu se imbolnaveste decat acela care e ursit de vrajitoare. Bolnavul simte un fel de carcei in tot trupul si se umple de spuzeala\...\"\[4\]
 >
-> *Aruncăturile* se fac fie pentru a scăpa de o boală, care este aruncată în drum, fie pentru a provoca o boală cuiva. Dacă cineva cade într-o boală grea, încât nu are putere să lucreze, ci stă într-una supărat (îi vine un \"dor de ducă\" și felurite gânduri rele), înseamnă că i s-au aruncat niște farmece în cale, și s-a îmbolnăvit pentru că a călcat în *ele.^1^ Aruncătura* poate fi urmată și de mari dureri de picioare, astfel încât victima abia se mai poate mișca dintr-un loc într-altul.
+> *Aruncaturile* se fac fie pentru a scapa de o boala, care este aruncata in drum, fie pentru a provoca o boala cuiva. Daca cineva cade intr-o boala grea, incat nu are putere sa lucreze, ci sta intr-una suparat (ii vine un \"dor de duca\" si felurite ganduri rele), inseamna ca i s-au aruncat niste farmece in cale, si s-a imbolnavit pentru ca a calcat in *ele.^1^ Aruncatura* poate fi urmata si de mari dureri de picioare, astfel incat victima abia se mai poate misca dintr-un loc intr-altul.
 
-Dintre toate vrăjile, cea mai periculoasă și mai temută este *faptul* (numită și *făcătură* sau *dat).* Persoana care vrea să dea această boală cuiva, timp de șapte duminici, în timpul cât preotul oficiază slujba religioasă, dar mai ales când se bate toaca, strânge
+Dintre toate vrajile, cea mai periculoasa si mai temuta este *faptul* (numita si *facatura* sau *dat).* Persoana care vrea sa dea aceasta boala cuiva, timp de sapte duminici, in timpul cat preotul oficiaza slujba religioasa, dar mai ales cand se bate toaca, strange
 
-> câte șapte boabe din șapte feluri de semințe de orice plantă, și punându-le într-un săculeț, le descântă, adică, chiar când le strânge, le *menește* omului căruia vrea să-i facă rău. După ce a îndeplinit această primă operație, fierbe toate semințele într-o oală nouă furată, cu apă strânsă tot în acele șapte duminici în care a adunat și semințele, sau numai cu apă neîncepută adusă într-o duminică dimineața. Odată fierte, se duce sau trimite pe altcineva să le toarne în calea omului *menit,* bunăoară în pragul ușii, la poartă sau în cărarea pe unde se știe că trece etc. Cine calcă primul, se umple de boală, și dacă cumva a călcat chiar cel căruia îi este menită vraja, cu atâta boala, adică *faptul,* este mai grea, iar omul mai greu de a fi scăpat. Dacă *faptul* este menit și dat în ziua de Paști, este fără leac; dacă este dat într-o duminică, este greu, dar are mijloc de lecuire; iar dacă este dat într-o zi lucrătoare, este fără pericol. Omul ce a călcat în *fapt* simte imediat că începe să-1 mănânce întreaga piele și că îl doare capul. După o vreme încep să îi iasă felurite bube pe întreg corpul, care pot să cuprindă suprafețe întinse, compacte. Se afirmă că există 12 feluri de/h/M-boală, fiecare având un descântec anume ca leac, iar dacă cel ce lecuiește nu cunoaște bine fiecare fel de *fapt,* spre a folosi descântecul corespunzător, bolnavul ne se Iecuiește.\^4\]
+> cate sapte boabe din sapte feluri de seminte de orice planta, si punandu-le intr-un saculet, le descanta, adica, chiar cand le strange, le *meneste* omului caruia vrea sa-i faca rau. Dupa ce a indeplinit aceasta prima operatie, fierbe toate semintele intr-o oala noua furata, cu apa stransa tot in acele sapte duminici in care a adunat si semintele, sau numai cu apa neinceputa adusa intr-o duminica dimineata. Odata fierte, se duce sau trimite pe altcineva sa le toarne in calea omului *menit,* bunaoara in pragul usii, la poarta sau in cararea pe unde se stie ca trece etc. Cine calca primul, se umple de boala, si daca cumva a calcat chiar cel caruia ii este menita vraja, cu atata boala, adica *faptul,* este mai grea, iar omul mai greu de a fi scapat. Daca *faptul* este menit si dat in ziua de Pasti, este fara leac; daca este dat intr-o duminica, este greu, dar are mijloc de lecuire; iar daca este dat intr-o zi lucratoare, este fara pericol. Omul ce a calcat in *fapt* simte imediat ca incepe sa-1 manance intreaga piele si ca il doare capul. Dupa o vreme incep sa ii iasa felurite bube pe intreg corpul, care pot sa cuprinda suprafete intinse, compacte. Se afirma ca exista 12 feluri de/h/M-boala, fiecare avand un descantec anume ca leac, iar daca cel ce lecuieste nu cunoaste bine fiecare fel de *fapt,* spre a folosi descantecul corespunzator, bolnavul ne se Iecuieste.\^4\]
 
-Dacă cineva simte numai împunsături de cuțit *\^junghiuri\",* precum la durerile reumatice) în întreg trupul, la inimă sau la cap, aceluia «i s-a pus *cuțitul:* Este vorba de același *cuțit* folosit la descântece, un cuțitul investit special înainte de folosire. El este vrăjit cu o incantație magică, fiind menit (ursit sau sorocit) unei persoane sau unei operații. Apoi este înfipt în pământ, după ^u^Șă, în grindă, într-un lemn de alun, într-un pui de găină viu, într-o broască sau într-un om făcut de pământ (numit uneori și •păpușa»). Ciobanii își înfig cuțitul în propriul lor ciomag. *Cuțitul* este ținut înfipt atâta timp cât se dorește chinuirea dușmanului. Dacă se dorește moartea acestuia, nu se mai scoate.
+Daca cineva simte numai impunsaturi de cutit *\^junghiuri\",* precum la durerile reumatice) in intreg trupul, la inima sau la cap, aceluia «i s-a pus *cutitul:* Este vorba de acelasi *cutit* folosit la descantece, un cutitul investit special inainte de folosire. El este vrajit cu o incantatie magica, fiind menit (ursit sau sorocit) unei persoane sau unei operatii. Apoi este infipt in pamant, dupa ^u^Sa, in grinda, intr-un lemn de alun, intr-un pui de gaina viu, intr-o broasca sau intr-un om facut de pamant (numit uneori si •papusa»). Ciobanii isi infig cutitul in propriul lor ciomag. *Cutitul* este tinut infipt atata timp cat se doreste chinuirea dusmanului. Daca se doreste moartea acestuia, nu se mai scoate.
 
-> Pentru aflarea sau pedepsirea hoților se pune cuțitul în «inima» căruței. Hoțul cade bolnav, se zvârcolește de moarte *și* mărturisește. Se spune că uneori picură sânge din inima căruței, iar omul sorocit (făptașul) începe să verse sânge.^1^
+> Pentru aflarea sau pedepsirea hotilor se pune cutitul in «inima» carutei. Hotul cade bolnav, se zvarcoleste de moarte *si* marturiseste. Se spune ca uneori picura sange din inima carutei, iar omul sorocit (faptasul) incepe sa verse sange.^1^
 >
-> Celui căruia i s-a pus cuțitul trebuie să i se descânte, înfigându-se ttn cuțit după ușă. Dacă, după trei zile, când este scos, are vârful ruginit, nu mai încape îndoială că bolnavului \"i s-a pus cuțitul\" (și are puține șanse de vindecare). Oricum există descântece speciale pentru a-i salva pe cei cărora li s-a pus *cuțitul.*
+> Celui caruia i s-a pus cutitul trebuie sa i se descante, infigandu-se ttn cutit dupa usa. Daca, dupa trei zile, cand este scos, are varful ruginit, nu mai incape indoiala ca bolnavului \"i s-a pus cutitul\" (si are putine sanse de vindecare). Oricum exista descantece speciale pentru a-i salva pe cei carora li s-a pus *cutitul.*
 >
-> Cei care se tem că pot fi,victimele unor vrăji pun noaptea sub cap un cuțit cu vârful în afară, căci cuțitul are reputația de apărător împotriva duhurilor și a vrăjilor. Mai sunt și alte metode preventive folosite de români, cum este aceea de a pune vătraiul și toporul, cuțitul și mătura lângă ușă. Se presupune că mătura și vătraiul *\"alunga\",* iar toporul și cuțitul *\"taie\"* farmecele trimise, și astfel ele nu se pot apropia de om. Ca și în aproape toată Europa se obișnuiește și punerea craniului unui cal într-un par al gardului, pentru a împiedica apropierea duhurilor rele.
+> Cei care se tem ca pot fi,victimele unor vraji pun noaptea sub cap un cutit cu varful in afara, caci cutitul are reputatia de aparator impotriva duhurilor si a vrajilor. Mai sunt si alte metode preventive folosite de romani, cum este aceea de a pune vatraiul si toporul, cutitul si matura langa usa. Se presupune ca matura si vatraiul *\"alunga\",* iar toporul si cutitul *\"taie\"* farmecele trimise, si astfel ele nu se pot apropia de om. Ca si in aproape toata Europa se obisnuieste si punerea craniului unui cal intr-un par al gardului, pentru a impiedica apropierea duhurilor rele.
 >
-> Bineînțeles că cele mai folosite remedii magice împotriva vrăjilor, sunt descântecele. Atunci, însă, când nici descântecul nu vindecă afecțiunile aduse de vrăji, se apelează la ajutorul bisericii ortodoxe, plătindu-se pentru rugăciuni care să aducă vindecarea, sau se caută un sihastru ori un călugăr sfânt, renumit ca taumaturg, care să citească bolnavului blestemele *(molitvele)* sfântului Vasile cel Mare împotriva diavolului.
+> Bineinteles ca cele mai folosite remedii magice impotriva vrajilor, sunt descantecele. Atunci, insa, cand nici descantecul nu vindeca afectiunile aduse de vraji, se apeleaza la ajutorul bisericii ortodoxe, platindu-se pentru rugaciuni care sa aduca vindecarea, sau se cauta un sihastru ori un calugar sfant, renumit ca taumaturg, care sa citeasca bolnavului blestemele *(molitvele)* sfantului Vasile cel Mare impotriva diavolului.
 >
-> *Molitvele* sfântului Vasile cel Mare se citesc numai după ce, timp de trei zile, postesc preotul, bolnavul și rudele bolnavului. Preotul trebuie să fi terminat de curând slujba sfintei Liturghii (ca să fie împărtășit cu Sfintele Taine). Acel preot se cere să fie înzestrat cu har. \"Sunt preoți sau călugări care au darul tămăduirii - spun țăranii -, și citind moliftele sf. Vasile, scot pe dracul și omul rămâne sănătos.\"\[4\] Sfântul ortodox Varsanufie recomanda călugărilor să nu citească blestemele, \"că nu mulți din sfinți au îndrăznit să blesteme pe diavolul și de te vei apuca să-1 blestemi mare batjocură vei avea de la draci. Cel mai renumit călugăr, sihastru și stareț încă în viață din Moldova, declara că \"cine citește *molitvele* sfântului Vasile cel Mare și ale sfântului Ioan Gură de Aur are mari ispite\... Un călugăr de la schitul Cozancea citea aceste *molitve,* el însă avea o casă cu gratii de fier și închidea acolo pe cel bolnav, și nu-i dădea bolnavului de mâncare o săptămână. Călugărul stătea la ușă și de acolo citea aceste *molitve.* Am fost de față odată când le citea unuia închis în casa aceea. Mănăstirea avea o iapă, care, după citirea *molitvelor,* s-a dus în vie și s-a aruncat într-un par și s-a omorât. Diavolul și-a căutat loc și s-a răzbunat, fiind alungat din om. Altă dată, când le citea, am văzut cum le-a sucit diavolul capul la toate găinile mânăstirii, și le-a omorât pe toate; și atâta au mai cârâit până ce le-a omorât pe toate!
+> *Molitvele* sfantului Vasile cel Mare se citesc numai dupa ce, timp de trei zile, postesc preotul, bolnavul si rudele bolnavului. Preotul trebuie sa fi terminat de curand slujba sfintei Liturghii (ca sa fie impartasit cu Sfintele Taine). Acel preot se cere sa fie inzestrat cu har. \"Sunt preoti sau calugari care au darul tamaduirii - spun taranii -, si citind moliftele sf. Vasile, scot pe dracul si omul ramane sanatos.\"\[4\] Sfantul ortodox Varsanufie recomanda calugarilor sa nu citeasca blestemele, \"ca nu multi din sfinti au indraznit sa blesteme pe diavolul si de te vei apuca sa-1 blestemi mare batjocura vei avea de la draci. Cel mai renumit calugar, sihastru si staret inca in viata din Moldova, declara ca \"cine citeste *molitvele* sfantului Vasile cel Mare si ale sfantului Ioan Gura de Aur are mari ispite\... Un calugar de la schitul Cozancea citea aceste *molitve,* el insa avea o casa cu gratii de fier si inchidea acolo pe cel bolnav, si nu-i dadea bolnavului de mancare o saptamana. Calugarul statea la usa si de acolo citea aceste *molitve.* Am fost de fata odata cand le citea unuia inchis in casa aceea. Manastirea avea o iapa, care, dupa citirea *molitvelor,* s-a dus in vie si s-a aruncat intr-un par si s-a omorat. Diavolul si-a cautat loc si s-a razbunat, fiind alungat din om. Alta data, cand le citea, am vazut cum le-a sucit diavolul capul la toate gainile manastirii, si le-a omorat pe toate; si atata au mai carait pana ce le-a omorat pe toate!
 >
-> Ghedeon Chinuță, călugăr și preot din mănăstirea Secu, citind într-o zi *molitvele* sfântului Vasile cel Mare s-a trezit cu Molitvelnicul în mână pe străzile orașului Roman, și 1-a întrebat cineva: «Ce cauți aici părinte Ghedeon?» El a zis: «Eu sunt la mănăstirea Secu, cum ce caut?», «Care mănăstire, părinte? Nu vezi că ești în orașul Roman?!» L-a dus diavolul pe când citea, într-o clipă, în orașul Roman. Alungându-1 din alții, diavolul îți dă ție iubire de argint, ori desfrânare, ori altă patimă urâtă, te dărâmă!\"^1^
+> Ghedeon Chinuta, calugar si preot din manastirea Secu, citind intr-o zi *molitvele* sfantului Vasile cel Mare s-a trezit cu Molitvelnicul in mana pe strazile orasului Roman, si 1-a intrebat cineva: «Ce cauti aici parinte Ghedeon?» El a zis: «Eu sunt la manastirea Secu, cum ce caut?», «Care manastire, parinte? Nu vezi ca esti in orasul Roman?!» L-a dus diavolul pe cand citea, intr-o clipa, in orasul Roman. Alungandu-1 din altii, diavolul iti da tie iubire de argint, ori desfranare, ori alta patima urata, te darama!\"^1^
 
-Deși se spune că a adus-o cu sine de la muntele Athos, remarcăm că și în medicina magică romanească cuțitu\" sau alte obiecte ascuțite de înțepat sunt folosite împotriva duhurilor necurate Tot pentru cazuri de boală, se aprind lumânări în biserică și se pun la icoane; se aprinde o candelă în fața icoanei Maicii-Domnului din biserică, se unge bolnavul cu apă sfințită făcută în ziua de *Izvorul Tămăduirii* (prima vineri după ziua Paștelui; se crede că apa luată de la izvoare în această zi este vindecătoare). De *Iele* se descântă cu o cruce, cu tămâie și cu aghiasmă. Tot cu crucea și cu tămâie (de la Bobotează) se descântă pentru *brâncă* (erizipel) și de *întălnitură* (congestie cerebrală, amețeli). Pentru *poceală* (paralizie facială), bolnavul sărută de 27 de ori crucea cu care i s-a descântat. Se descântă cu crucea și pentru *izdat* (colici intestinale), *întâmpinat* (reumatism poliarticular) și *poceală,* boli \"în care necuratul lucrează direct asupra bolnavului\".\[4J
+Desi se spune ca a adus-o cu sine de la muntele Athos, remarcam ca si in medicina magica romaneasca cutitu\" sau alte obiecte ascutite de intepat sunt folosite impotriva duhurilor necurate Tot pentru cazuri de boala, se aprind lumanari in biserica si se pun la icoane; se aprinde o candela in fata icoanei Maicii-Domnului din biserica, se unge bolnavul cu apa sfintita facuta in ziua de *Izvorul Tamaduirii* (prima vineri dupa ziua Pastelui; se crede ca apa luata de la izvoare in aceasta zi este vindecatoare). De *Iele* se descanta cu o cruce, cu tamaie si cu aghiasma. Tot cu crucea si cu tamaie (de la Boboteaza) se descanta pentru *branca* (erizipel) si de *intalnitura* (congestie cerebrala, ameteli). Pentru *poceala* (paralizie faciala), bolnavul saruta de 27 de ori crucea cu care i s-a descantat. Se descanta cu crucea si pentru *izdat* (colici intestinale), *intampinat* (reumatism poliarticular) si *poceala,* boli \"in care necuratul lucreaza direct asupra bolnavului\".\[4J
 
-## ETN0MEDICINA ÎN OBICEIURI ȘI SUPERSTIȚII
+## ETN0MEDICINA IN OBICEIURI SI SUPERSTITII
 
-***ETN0MEDICINA ÎN* OBICEIURI ȘI SUPERSTIȚII**
+***ETN0MEDICINA IN* OBICEIURI SI SUPERSTITII**
 
-> ***\'Credințele, superstițiile, descântecele ți practicile mapce constituac o lume aparte, pe care, oricât a-i încerca să o cunoști, niciodată nu vei izbuti să-i descoperi toate secretele, deoarece căile de investigație ți se închid curând. Din acest punct de vedere, am întâmpinat o rezistență dărză\...\'***
+> ***\'Credintele, superstitiile, descantecele ti practicile mapce constituac o lume aparte, pe care, oricat a-i incerca sa o cunosti, niciodata nu vei izbuti sa-i descoperi toate secretele, deoarece caile de investigatie ti se inchid curand. Din acest punct de vedere, am intampinat o rezistenta darza\...\'***
 >
-> Petre V. Ștefănucă, *Cercetări folclorice pe Valea Nistrului-de-Jos.*
+> Petre V. Stefanuca, *Cercetari folclorice pe Valea Nistrului-de-Jos.*
 >
-## CREDINȚI ȘJ OBICEIURI STRĂVECHI CU CARACTER ETNOHEVICAL
+## CREDINTI SJ OBICEIURI STRAVECHI CU CARACTER ETNOHEVICAL
 
-> *CREDINȚI ȘJ OBICEIURI STRĂVECHI CU* CARACTER *ETNOHEVICAL*
+> *CREDINTI SJ OBICEIURI STRAVECHI CU* CARACTER *ETNOHEVICAL*
 >
-> La sate, atunci când se îmbolnăvea un copil mic care încă nu putea vorbi, în scop diagnostic femeile bătrâne aveau obiceiul să spargă un ou proaspăt căruia îi scoteau gălbenușul și îl purtau pe tot trupul copilului, pentru a află unde îl *junghie.* Unde se spărgea\' gălbenușul acolo era *junghiul.* Dacă nu se spărgea nicăieri, însemna că nu are *junghi^1^.*
+> La sate, atunci cand se imbolnavea un copil mic care inca nu putea vorbi, in scop diagnostic femeile batrane aveau obiceiul sa sparga un ou proaspat caruia ii scoteau galbenusul si il purtau pe tot trupul copilului, pentru a afla unde il *junghie.* Unde se spargea\' galbenusul acolo era *junghiul.* Daca nu se spargea nicaieri, insemna ca nu are *junghi^1^.*
 >
-> Când un bolnav era suspect că suferă de *dalac* (antrax), doftoroaiele luau o broască vie și o lipeau de bubă. Dacă broasca murea, se adeverea că bolnavul are *dalac^1^. (Dalacul* este luat de om de la animalele domestice - cai, vaci, oi - și se manifestă printr-o umflătură sau o bubă de culoare închisă care se înegrește apoi precum cărbunele, de unde și numele popular de buba neagra Când cineva din casă este bolnav, în nordul Carpaților (în Bucovina) se adună mai multe rămurele de *Lemnul Domnului (Artemisia abrotanum)* și se pun într-o oală cu apă, la foc foarte mic (focul să mocnească). Dacă până a doua zi apa se face roșie, bolnavul va muri, dacă însă va fi albă, înseamnă că va trăi^1^.
+> Cand un bolnav era suspect ca sufera de *dalac* (antrax), doftoroaiele luau o broasca vie si o lipeau de buba. Daca broasca murea, se adeverea ca bolnavul are *dalac^1^. (Dalacul* este luat de om de la animalele domestice - cai, vaci, oi - si se manifesta printr-o umflatura sau o buba de culoare inchisa care se inegreste apoi precum carbunele, de unde si numele popular de buba neagra Cand cineva din casa este bolnav, in nordul Carpatilor (in Bucovina) se aduna mai multe ramurele de *Lemnul Domnului (Artemisia abrotanum)* si se pun intr-o oala cu apa, la foc foarte mic (focul sa mocneasca). Daca pana a doua zi apa se face rosie, bolnavul va muri, daca insa va fi alba, inseamna ca va trai^1^.
 >
-> Tot când este cineva grav bolnav, pentru a ști dacă va trăi sau nu, se iau 9 păhărele de apă și se pun într-un vas să stea până a doua zi în casa bolnavului. în ziua următoare se măsoară din nou. Dacă a crescut apa, cu un păhărel sau cu o jumătate de pahar, bolnavul va trăi. Dacă însă apa a scăzut, bolnavul va muri^2^.
+> Tot cand este cineva grav bolnav, pentru a sti daca va trai sau nu, se iau 9 paharele de apa si se pun intr-un vas sa stea pana a doua zi in casa bolnavului. in ziua urmatoare se masoara din nou. Daca a crescut apa, cu un paharel sau cu o jumatate de pahar, bolnavul va trai. Daca insa apa a scazut, bolnavul va muri^2^.
 >
-> Dacă atunci când se descântă unui bolnav, persoana care descântă începe să caște, se adeverește că descântecul va fi lecuitor. Cu cât cască mai mult, cu atât leacul este mai sigur.\[4\]
+> Daca atunci cand se descanta unui bolnav, persoana care descanta incepe sa caste, se adevereste ca descantecul va fi lecuitor. Cu cat casca mai mult, cu atat leacul este mai sigur.\[4\]
 
-Pentru femeia ai cărei copii suferă de *Muma-Pădurii* (adică tresar din somn, țipă și plâng noaptea, fără să adoarmă) sau căreia îi mor copiii, se confecționează o amuletă, numită în popor *baier.* Astfel, într-o cârpă scoasă din spatele cămășii se leagă următoarele ingrediente: tămâie, piper, silitră, pucioasă, sare, \"șarpe\" din testiculele armăsarilor (în testiculele armăsarilor ar exista un asemenea \"șarpe\" pe care îl cunosc cei ce castrează armăsarii^3^), căpățână de șarpe tăiată cu un ban de argint, broască găsită în gura șarpelui, buruieni de \"lipitură\" sau de \"muma-pădurii\", păr luat din ceafa femeii căreia i se face *baierul* (amuleta), patru case de păianjen, culese din patru colțuri opuse ale casei, o așchie din pragul de jos al ușii de la camera de culcare și nouă boabe de grâu. \[4\]
+Pentru femeia ai carei copii sufera de *Muma-Padurii* (adica tresar din somn, tipa si plang noaptea, fara sa adoarma) sau careia ii mor copiii, se confectioneaza o amuleta, numita in popor *baier.* Astfel, intr-o carpa scoasa din spatele camasii se leaga urmatoarele ingrediente: tamaie, piper, silitra, pucioasa, sare, \"sarpe\" din testiculele armasarilor (in testiculele armasarilor ar exista un asemenea \"sarpe\" pe care il cunosc cei ce castreaza armasarii^3^), capatana de sarpe taiata cu un ban de argint, broasca gasita in gura sarpelui, buruieni de \"lipitura\" sau de \"muma-padurii\", par luat din ceafa femeii careia i se face *baierul* (amuleta), patru case de paianjen, culese din patru colturi opuse ale casei, o aschie din pragul de jos al usii de la camera de culcare si noua boabe de grau. \[4\]
 
-> *Baierul* desemnează în primul rând ața sau curelușa cu care se prinde, se leagă, se închide, sau de care se agață ceva. Cămășile tradiționale românești au la guler două *baiere* ca încuietori. Prin extensie, *baierul* se leagă și la gât (în special la al copiilor), oferindu-le o protecție magică împotriva *deochiului* sau ajutând la vindecarea unor boli. Aceste *baiere* profilactice sunt confecționate dintr-o împletitură subțire de fire de lână, descântate, și se pot pune la gâtul copiilor pentru a-și redobândi sănătatea^1^.
+> *Baierul* desemneaza in primul rand ata sau curelusa cu care se prinde, se leaga, se inchide, sau de care se agata ceva. Camasile traditionale romanesti au la guler doua *baiere* ca incuietori. Prin extensie, *baierul* se leaga si la gat (in special la al copiilor), oferindu-le o protectie magica impotriva *deochiului* sau ajutand la vindecarea unor boli. Aceste *baiere* profilactice sunt confectionate dintr-o impletitura subtire de fire de lana, descantate, si se pot pune la gatul copiilor pentru a-si redobandi sanatatea^1^.
 >
-> La data de 1 Martie toate româncele tinere, fetele și copiii își legau la încheietura mâinii sau își atârnau la gât un bănuț de aur sau de argint legat cu un șnuruleț confecționat dintr-un fir alb și unul roșu de mătase sau de bumbac (este probabil că la început se confecționa din lână). Acest *baier* (amuletă) se numește *mărțișor,* trebuie să fie dăruit de cineva și se poartă pentru a feri de boli în tot cursul anului (mai ales însă de bolile primăverii). *Mărțișorul* trebuie purtat până ce purtătorul acestuia vede primul pom înflorit din anul acela. Atunci el ia bănuțul și îl depune pe ramurile pomului înflorit cu gândul ca el însuși să fie frumos, înflorit și mândru precum acesta (se alege de obicei un pom de porumbel, *Prunus spinosa,* sau de păducel, *Crataegus oxyacantha).\[A)*
+> La data de 1 Martie toate romancele tinere, fetele si copiii isi legau la incheietura mainii sau isi atarnau la gat un banut de aur sau de argint legat cu un snurulet confectionat dintr-un fir alb si unul rosu de matase sau de bumbac (este probabil ca la inceput se confectiona din lana). Acest *baier* (amuleta) se numeste *martisor,* trebuie sa fie daruit de cineva si se poarta pentru a feri de boli in tot cursul anului (mai ales insa de bolile primaverii). *Martisorul* trebuie purtat pana ce purtatorul acestuia vede primul pom inflorit din anul acela. Atunci el ia banutul si il depune pe ramurile pomului inflorit cu gandul ca el insusi sa fie frumos, inflorit si mandru precum acesta (se alege de obicei un pom de porumbel, *Prunus spinosa,* sau de paducel, *Crataegus oxyacantha).\[A)*
 >
-> Fierul are reputația universală că alungă duhurile necurate și demonii bolilor. Dacă o româncă se chinuie mult la naștere \"din cauza duhurilor rele\" (care îi provoacă dureri) i se pune sub așternut un topor, un cuțit sau orice alt obiect de metal, care va micșora durerile și va grăbi nașterea^2^. Când un om este pe moarte și \"nu își poate da sufletul\", ca și atunci când se chinuie o femeie să nască, un bărbat ocolește casa cu toporul în mână, amenințând duhurile rele, sau împlântă două topoare în cruciș în vreun stâlp al cerdacului, într-o grindă sau în prag^1^.
+> Fierul are reputatia universala ca alunga duhurile necurate si demonii bolilor. Daca o romanca se chinuie mult la nastere \"din cauza duhurilor rele\" (care ii provoaca dureri) i se pune sub asternut un topor, un cutit sau orice alt obiect de metal, care va micsora durerile si va grabi nasterea^2^. Cand un om este pe moarte si \"nu isi poate da sufletul\", ca si atunci cand se chinuie o femeie sa nasca, un barbat ocoleste casa cu toporul in mana, amenintand duhurile rele, sau implanta doua topoare in crucis in vreun stalp al cerdacului, intr-o grinda sau in prag^1^.
 >
-> Copilului mic, de regulă când este înfășat întâia oară, i se pun în fașă bucățele de fier, toporașe mici ori ciocănele de metal (artizanale)^2^.
+> Copilului mic, de regula cand este infasat intaia oara, i se pun in fasa bucatele de fier, toporase mici ori ciocanele de metal (artizanale)^2^.
 >
-> Copilul nou-născut este în mod deosebit victima duhurilor rele care îl pot îmbolnăvi, îl pot schilodi sau îl pot chiar ucide. De aceea, până nu împlinește șase săptămâni de viață, mai ales dacă nu a fost încă botezat, când este lăsat singur în casă copilului i se pune la cap, în albie sau în leagăn, o bucățică de fier, un cuțit, o pereche de foarfeci, cleștele de la sobă sau vătraiul. în unele părți atunci când își lasă copii mici singuri, tărăncile înfig în pragul ușii un cuțit.\[4\]
+> Copilul nou-nascut este in mod deosebit victima duhurilor rele care il pot imbolnavi, il pot schilodi sau il pot chiar ucide. De aceea, pana nu implineste sase saptamani de viata, mai ales daca nu a fost inca botezat, cand este lasat singur in casa copilului i se pune la cap, in albie sau in leagan, o bucatica de fier, un cutit, o pereche de foarfeci, clestele de la soba sau vatraiul. in unele parti atunci cand isi lasa copii mici singuri, tarancile infig in pragul usii un cutit.\[4\]
 >
-> în Oltenia, înainte de a îmbrăcă copilul cu o cămășuță sau cu o haină nouă, mama trece prin haină sau prin cămășuță un ban de argint, pe care îl bagă prin guler, prin mâneci, pentru a fi ferit de vrăji și de *făcături,* pentru a fi sănătos și norocos^3^.
+> in Oltenia, inainte de a imbraca copilul cu o camasuta sau cu o haina noua, mama trece prin haina sau prin camasuta un ban de argint, pe care il baga prin guler, prin maneci, pentru a fi ferit de vraji si de *facaturi,* pentru a fi sanatos si norocos^3^.
 
-Sarea este considerată, ca și metalele, o armă împotriva duhurilor rele. Pentru a apăra copiii de rele și de duhurile vrăjmașe li se pune sare în scăldătoare^4^. Când îți trimite cineva duhuri rele, pe *necuratul,* să te necăjească noaptea prin somn, trebuie să presari pragurile cu sare sfințită, căci nu se mai pot apropia. Sarea mai trebuie purtată în încălțări, ca să nu se prindă farmecele de cel ce o poartă. Noaptea este bine ca sarea să stea pe fereastră, căci dormi bine și nu se poate apropia nici un rău. Când descânți cuiva de o boală și este și un copil mic în casă, trebuie să presari copilului pe cap sare ori cenușă, ca să nu se prindă boala de el^1^.
+Sarea este considerata, ca si metalele, o arma impotriva duhurilor rele. Pentru a apara copiii de rele si de duhurile vrajmase li se pune sare in scaldatoare^4^. Cand iti trimite cineva duhuri rele, pe *necuratul,* sa te necajeasca noaptea prin somn, trebuie sa presari pragurile cu sare sfintita, caci nu se mai pot apropia. Sarea mai trebuie purtata in incaltari, ca sa nu se prinda farmecele de cel ce o poarta. Noaptea este bine ca sarea sa stea pe fereastra, caci dormi bine si nu se poate apropia nici un rau. Cand descanti cuiva de o boala si este si un copil mic in casa, trebuie sa presari copilului pe cap sare ori cenusa, ca sa nu se prinda boala de el^1^.
 
-> Ca să fie feriți de dureri de șale în cursul anului, oamenii se încing, în ziua de *Sânziene* (24 Iunie), cu o tulpină de Cicoare^2^. \[4\]
+> Ca sa fie feriti de dureri de sale in cursul anului, oamenii se incing, in ziua de *Sanziene* (24 Iunie), cu o tulpina de Cicoare^2^. \[4\]
 >
-> După datinile românilor din Bucovina, *Staphylea pinnata (Clocotișul* sau *Nucușoara)* este un lemn sfânt. Cine îl poartă nu se teme de nimic căci nu se mai poate apropia de el nici un duh vrăjmaș. Femeile poartă la gât nuci de Clocotiș, înșirate ca mărgele, ca să nu se rătăcească în pădure^3^.
+> Dupa datinile romanilor din Bucovina, *Staphylea pinnata (Clocotisul* sau *Nucusoara)* este un lemn sfant. Cine il poarta nu se teme de nimic caci nu se mai poate apropia de el nici un duh vrajmas. Femeile poarta la gat nuci de Clocotis, insirate ca margele, ca sa nu se rataceasca in padure^3^.
 >
-> La fel, *Aconitum napellus,* Omagul, deși foarte otrăvitor, este considerat \"curat\" și folositor, căci de casele unde este cultivat omagul nu se apropie duhurile sau strigoaicele. Cine îl poartă la cap sau la brâu este ferit de *Iele.*
+> La fel, *Aconitum napellus,* Omagul, desi foarte otravitor, este considerat \"curat\" si folositor, caci de casele unde este cultivat omagul nu se apropie duhurile sau strigoaicele. Cine il poarta la cap sau la brau este ferit de *Iele.*
 >
-> Spre a fi feriți de febra tifoidă țăranii poartă asupra lor Leuștean sau Usturoi, iar pentru a fi feriți de friguri poartă la brâu Pelin. Pelinul mai este purtat la guler și pentru a fi feriți de *Rusalii.\[4\]*
+> Spre a fi feriti de febra tifoida taranii poarta asupra lor Leustean sau Usturoi, iar pentru a fi feriti de friguri poarta la brau Pelin. Pelinul mai este purtat la guler si pentru a fi feriti de *Rusalii.\[4\]*
 >
-> Cea mai eficientă armă împotriva duhurilor rele și a stri-goaicelor este Usturoiul sau mirosul lui. înainte de *Noaptea Strigoilor* (noaptea dinspre 29 spre 30 noiembrie), tocurile și balamalele ferestrelor și ușilor se ung cu Usturoi. Se ung cu Usturoi și ușile grajdurilor ca să alunge strigoaicele ce vin să ia mana vacilor. Pentru a fi feriți de friguri, țăranii leagă la încheietura mâinii o ață roșie de care este atârnat un cățel de Usturoi, sau se leagă o cârpă în care se pune niște Usturoi pisat.
+> Cea mai eficienta arma impotriva duhurilor rele si a stri-goaicelor este Usturoiul sau mirosul lui. inainte de *Noaptea Strigoilor* (noaptea dinspre 29 spre 30 noiembrie), tocurile si balamalele ferestrelor si usilor se ung cu Usturoi. Se ung cu Usturoi si usile grajdurilor ca sa alunge strigoaicele ce vin sa ia mana vacilor. Pentru a fi feriti de friguri, taranii leaga la incheietura mainii o ata rosie de care este atarnat un catel de Usturoi, sau se leaga o carpa in care se pune niste Usturoi pisat.
 >
-> în ziua *Duminicii Rusaliilor,* mamele leagă copilelor lor Usturoi la grumaz sau îl pun la tălpi, pentru ca, trecând *Frumoasele {Rusaliile, Ielele),* să nu li se întâmple nimic.\[4J
+> in ziua *Duminicii Rusaliilor,* mamele leaga copilelor lor Usturoi la grumaz sau il pun la talpi, pentru ca, trecand *Frumoasele {Rusaliile, Ielele),* sa nu li se intample nimic.\[4J
 >
-> Broasca este adeseori întrebuințată ca leac. Deoarece se crede că ea absoarbe răutatea din corpul omenesc, se recomandă bolnavilor de friguri să poarte timp de trei zile o broască la gât^1^.
+> Broasca este adeseori intrebuintata ca leac. Deoarece se crede ca ea absoarbe rautatea din corpul omenesc, se recomanda bolnavilor de friguri sa poarte timp de trei zile o broasca la gat^1^.
 >
-> Plantele sunt considerate de țăranul român ființe vii care aud, văd, simt, suferă, au suflet.
+> Plantele sunt considerate de taranul roman fiinte vii care aud, vad, simt, sufera, au suflet.
 >
-> Astfel, în virtutea acestei credințe, la 24 martie (în ajun de Bunavestire), omul se duce la un pom care nu pare să vrea să rodească, îl atinge de trei ori cu tăișul unei securi și îi zice: \"Dacă nu rodești, te tai!\" Pomul, înfricoșat de această amenințare, va da cu siguranță roade în acel an^2^. în munții Apuseni ai Carpaților, amenințarea pomului neroditor se face astfel: \"Mai mulți copii se adună și, cu clopote și securi în mână, pleacă în sunetul clopotelor și înconjoară de trei ori pomul neroditor. Unul dintre copii amenință cu securea că-1 va tăia dacă nu va face poame, iar altul îi răspunde: «Ba nu-1 tăia, că mă bag chezaș că la anul va face poame».\"\[4\]
+> Astfel, in virtutea acestei credinte, la 24 martie (in ajun de Bunavestire), omul se duce la un pom care nu pare sa vrea sa rodeasca, il atinge de trei ori cu taisul unei securi si ii zice: \"Daca nu rodesti, te tai!\" Pomul, infricosat de aceasta amenintare, va da cu siguranta roade in acel an^2^. in muntii Apuseni ai Carpatilor, amenintarea pomului neroditor se face astfel: \"Mai multi copii se aduna si, cu clopote si securi in mana, pleaca in sunetul clopotelor si inconjoara de trei ori pomul neroditor. Unul dintre copii ameninta cu securea ca-1 va taia daca nu va face poame, iar altul ii raspunde: «Ba nu-1 taia, ca ma bag chezas ca la anul va face poame».\"\[4\]
 >
-> Pentru a vindeca un bolnav de hernie, este dus la o salcie unde este culcat pe spate, pe pământ, cu capul spre salcie și cu mâinile întinse în lături, ca răstignit. Se bat apoi patru țăruși. Unul la cap, unul la picioare și câte unul la extremitatea fiecărei mâini. După aceea se scoală bolnavul și se bat în salcie patru cuie dispuse la fel cu cele bătute în pământ: la cap, la picioare și la mâini^3^.
+> Pentru a vindeca un bolnav de hernie, este dus la o salcie unde este culcat pe spate, pe pamant, cu capul spre salcie si cu mainile intinse in laturi, ca rastignit. Se bat apoi patru tarusi. Unul la cap, unul la picioare si cate unul la extremitatea fiecarei maini. Dupa aceea se scoala bolnavul si se bat in salcie patru cuie dispuse la fel cu cele batute in pamant: la cap, la picioare si la maini^3^.
 
-în cazul bolnavilor de epilepsie se procedează prin ducerea bolnavului la un rug *(Roșa canina),* căruia i se despică tulpina de ■~os~ în sus, astfel încât bolnavul să poată trece prin despicătură. Bolnavul trebuie să treacă de nouă ori prin această despicătură. Dacă rugul crește frumos la loc, bolnavul se vindecă. Dacă într-o lună sau două rugul se usucă, atunci bolnavul nu are leac^1^. în *De Medicamentis* (XXXIII, 26), medicul roman de origine celtă, Marcellus Empiricus, dă următorul remediu: \"Dacă un băiat s-a îmbolnăvit de hernie, să despici un cireș drept la mijloc, ca să poți petrece băiatul prin el; apoi leagă la loc arbustul, ungându-1 cu balegă de bou, așa ca să se prindă iarăși despicăturile. Cu cât arbustul își va reveni mai curând, cu atât se va vindeca mai repede hernia băiatului.\"\[4\]
+in cazul bolnavilor de epilepsie se procedeaza prin ducerea bolnavului la un rug *(Rosa canina),* caruia i se despica tulpina de ■~os~ in sus, astfel incat bolnavul sa poata trece prin despicatura. Bolnavul trebuie sa treaca de noua ori prin aceasta despicatura. Daca rugul creste frumos la loc, bolnavul se vindeca. Daca intr-o luna sau doua rugul se usuca, atunci bolnavul nu are leac^1^. in *De Medicamentis* (XXXIII, 26), medicul roman de origine celta, Marcellus Empiricus, da urmatorul remediu: \"Daca un baiat s-a imbolnavit de hernie, sa despici un cires drept la mijloc, ca sa poti petrece baiatul prin el; apoi leaga la loc arbustul, ungandu-1 cu balega de bou, asa ca sa se prinda iarasi despicaturile. Cu cat arbustul isi va reveni mai curand, cu atat se va vindeca mai repede hernia baiatului.\"\[4\]
 
-> în unele părți, pentru a se însănătoși, bolnavul de epilepsie trece de trei ori printr-un șarpe despicat în două, de la cap la coadă (nedespicat însă complet).
+> in unele parti, pentru a se insanatosi, bolnavul de epilepsie trece de trei ori printr-un sarpe despicat in doua, de la cap la coada (nedespicat insa complet).
 >
-> Pentru a scăpa de negi, cel în cauză se duce trei dimineți în șir, înainte de a răsări soarele, la tulpina unui Ulm și atinge de trei ori la rând toți negii cu un bob de sare. După aceea, îngroapă sarea la rădăcina copacului, urmând să îi dispară negii (probabil când se va dizolva bobul de sare din pământ).\[4\]
+> Pentru a scapa de negi, cel in cauza se duce trei dimineti in sir, inainte de a rasari soarele, la tulpina unui Ulm si atinge de trei ori la rand toti negii cu un bob de sare. Dupa aceea, ingroapa sarea la radacina copacului, urmand sa ii dispara negii (probabil cand se va dizolva bobul de sare din pamant).\[4\]
 >
-> Alt mijloc de a scăpa de negi este acela de a lua o ață și de a se face pe ea, de către cel în cauză, atâtea noduri câți negi are și să îngroape ața în pământ. Când ața va putrezi, vor dispare Și negii.
+> Alt mijloc de a scapa de negi este acela de a lua o ata si de a se face pe ea, de catre cel in cauza, atatea noduri cati negi are si sa ingroape ata in pamant. Cand ata va putrezi, vor dispare Si negii.
 >
-> Când copiii mici întârzie să înceapă să meargă, mamele din Muntenia și din Moldova le taie \"piedica\" închipuită dintre picioare. Unul din membrii familiei apucă copilul de mâini și îl duce, în picioare, până la prag. Apoi mama ia foarfecă într-o mână și câteva pene de găină în cealaltă și, mergând înaintea copilului, taie toate penele, zicând că-i taie \"piedica\"^1^. i\^ aromâni, se leagă copilului cu un fir de lână roșie degetul mare al piciorului drept de degetul mare al piciorului stâng. Se pune apoi copilul pe pragul ușii, cu un picior de o parte și cu celălalt de cealaltă parte a pragului și, cu o secure, acolo pe prag, i se taie firul de la jumătate. O femeie întreabă: \"Ce faci acolo?\" și j se răspunde: \"Tîti frica copilului\". în alte părți se obișnuiește sâ se taie \"piedica\" copilului, făcându-i-se pur și simplu gestul tăierii între picioare.\[4\]
+> Cand copiii mici intarzie sa inceapa sa mearga, mamele din Muntenia si din Moldova le taie \"piedica\" inchipuita dintre picioare. Unul din membrii familiei apuca copilul de maini si il duce, in picioare, pana la prag. Apoi mama ia foarfeca intr-o mana si cateva pene de gaina in cealalta si, mergand inaintea copilului, taie toate penele, zicand ca-i taie \"piedica\"^1^. i\^ aromani, se leaga copilului cu un fir de lana rosie degetul mare al piciorului drept de degetul mare al piciorului stang. Se pune apoi copilul pe pragul usii, cu un picior de o parte si cu celalalt de cealalta parte a pragului si, cu o secure, acolo pe prag, i se taie firul de la jumatate. O femeie intreaba: \"Ce faci acolo?\" si j se raspunde: \"Titi frica copilului\". in alte parti se obisnuieste sa se taie \"piedica\" copilului, facandu-i-se pur si simplu gestul taierii intre picioare.\[4\]
 >
-> Primăvara, pentru a se feri de friguri, când vede cineva pentru prima dată un brotăcel, îl prinde și îl scuipă de trei ori în gură, apoi îi dă drumul. Acest procedeu este menționat și de medicul galez Marcelus Empiricus *(De medicamentis* XII, 24) și, în secolul al XVI-lea, în Franța^:^.\[4\]
+> Primavara, pentru a se feri de friguri, cand vede cineva pentru prima data un brotacel, il prinde si il scuipa de trei ori in gura, apoi ii da drumul. Acest procedeu este mentionat si de medicul galez Marcelus Empiricus *(De medicamentis* XII, 24) si, in secolul al XVI-lea, in Franta^:^.\[4\]
 >
-> Calului care este deocheat, trebuie să i se spargă un ou în cap și îi va trece.
+> Calului care este deocheat, trebuie sa i se sparga un ou in cap si ii va trece.
 >
-> Când lemnăria dintr-o casă trosnește tare din când în când, este semn că cineva din acea casă va muri peste un timp^3^.
+> Cand lemnaria dintr-o casa trosneste tare din cand in cand, este semn ca cineva din acea casa va muri peste un timp^3^.
 
-Metoda românească a anesteziei fără anestezic se practica înainte sau după o intervenție chirurgicală pe mână. \"Pentru pregătirea unor operații ușoare, cum ar fi crestarea, arderea cu fierul roșu etc, în cazul unor infecții la mână, se strângeau articulațiile metacarpiene, ca într-o menghine, într-un fel de «clește de lemn» căptușit cu blană de miel. în luxații și entorse, după tratarea prin masaj, mâna și degetele ei erau prinse în legături de pânză de in, înnodate dibaci din loc în loc. Nodurile erau așezate încât să preseze zonele de intervenție ale părților lezate.\"^4^
+Metoda romaneasca a anesteziei fara anestezic se practica inainte sau dupa o interventie chirurgicala pe mana. \"Pentru pregatirea unor operatii usoare, cum ar fi crestarea, arderea cu fierul rosu etc, in cazul unor infectii la mana, se strangeau articulatiile metacarpiene, ca intr-o menghine, intr-un fel de «cleste de lemn» captusit cu blana de miel. in luxatii si entorse, dupa tratarea prin masaj, mana si degetele ei erau prinse in legaturi de panza de in, innodate dibaci din loc in loc. Nodurile erau asezate incat sa preseze zonele de interventie ale partilor lezate.\"^4^
 
-înțelepciunea populară afirmă importanța păstrării legăturii cu pământul. Țăranii umblă de multe ori vara desculți, mai ales la cosit, iar casele țărănești au pământ pe jos și pe prispe (acest pământ conține uneori puțină balegă de vită, care are pro-pietăți speciale, printre care și cele antiseptice). Este bine ca vara copiii să fie lăsați să umble desculți, așa cum umblă de veacuri copiii țăranilor. Cu cât legătura lor cu toate elmentele naturii este mai directă în timpul verii, cu atât ei vor fi mai bine apărați de toate bolile din timpul iernii.
+intelepciunea populara afirma importanta pastrarii legaturii cu pamantul. Taranii umbla de multe ori vara desculti, mai ales la cosit, iar casele taranesti au pamant pe jos si pe prispe (acest pamant contine uneori putina balega de vita, care are pro-pietati speciale, printre care si cele antiseptice). Este bine ca vara copiii sa fie lasati sa umble desculti, asa cum umbla de veacuri copiii taranilor. Cu cat legatura lor cu toate elmentele naturii este mai directa in timpul verii, cu atat ei vor fi mai bine aparati de toate bolile din timpul iernii.
 
-> Dacă o femeie este gravidă este absolut interzis să fure ceva, căci copilul ce îl va naște va ieși însemnat. Dacă fură o floare chiar, ascunzând-o în sân sau la spate, în același loc copilul va avea o pată sau o conglomerație de alunițe. O femeie gravidă - arată o relatare -a furat de la tatăl sau o carafă de vin, dar acesta a surprins-o pe când ieșea din beci. De rușine, ea și-a acoperit fața cu mâna. în același loc în care ea a pus mâna cu care furase vinul, adică pe un obraz, pe o porțiune de nas și pe o porțiune de frunte, copilul ce 1-a născut avea o pată roșie^1^.
+> Daca o femeie este gravida este absolut interzis sa fure ceva, caci copilul ce il va naste va iesi insemnat. Daca fura o floare chiar, ascunzand-o in san sau la spate, in acelasi loc copilul va avea o pata sau o conglomeratie de alunite. O femeie gravida - arata o relatare -a furat de la tatal sau o carafa de vin, dar acesta a surprins-o pe cand iesea din beci. De rusine, ea si-a acoperit fata cu mana. in acelasi loc in care ea a pus mana cu care furase vinul, adica pe un obraz, pe o portiune de nas si pe o portiune de frunte, copilul ce 1-a nascut avea o pata rosie^1^.
 >
-> Atunci când un copil se naște cu \"cămeșuică\" este un copil norocos, sortit cu noroc. Moașa rupe \"cămeșuică\" și scoate copilul, iar pe aceasta o pune la uscat pe Busuioc *(Ocimum basilicum).* Când naște o femeie întâia oară, este bine ca să poarte timp de trei zile în sân o căpățână de Usturoi, până se va scălda. Este bine *a* să țină căpățână în mână, chiar din momentul când sef trudește să nască^2^.
+> Atunci cand un copil se naste cu \"camesuica\" este un copil norocos, sortit cu noroc. Moasa rupe \"camesuica\" si scoate copilul, iar pe aceasta o pune la uscat pe Busuioc *(Ocimum basilicum).* Cand naste o femeie intaia oara, este bine ca sa poarte timp de trei zile in san o capatana de Usturoi, pana se va scalda. Este bine *a* sa tina capatana in mana, chiar din momentul cand sef trudeste sa nasca^2^.
 >
 ## FOCUL VIU
 
 > *FOCUL VIU*
 >
-> Prin colțurile retrase ale Carpaților, prin sate ascunse si prin văile străbătute de cristalinul apelor de munte se aprindea *focul viu,* obicei ce face parte dintre acele tradiții care s-au mai păstrat doar prin munții cei mai neumblați.
+> Prin colturile retrase ale Carpatilor, prin sate ascunse si prin vaile strabatute de cristalinul apelor de munte se aprindea *focul viu,* obicei ce face parte dintre acele traditii care s-au mai pastrat doar prin muntii cei mai neumblati.
 >
-> în vremurile cele mai vechi./ocM/ *viu* se aprindea la casele tuturor sătenilor, în seara dinspre ziua Sf. Gheorghe, fiind apoi păstrat cu sfințenie un an întreg, deoarece casa unde ardea focul viu era dăruită cu noroc și ferită de necazuri^1^.
+> in vremurile cele mai vechi./ocM/ *viu* se aprindea la casele tuturor satenilor, in seara dinspre ziua Sf. Gheorghe, fiind apoi pastrat cu sfintenie un an intreg, deoarece casa unde ardea focul viu era daruita cu noroc si ferita de necazuri^1^.
 >
-> Sosiți în *împărăția Munților* păstorii aveau grijă ca primul foc să nu îl facă nici cu chibriturile, nici cu amnarul, ci numai prin frecarea a două lemne. Acesta era *focul viu,* și se făcea de obicei primăvara, înainte de Rusalii, când ieșeau oile la munte. Ciobanii știau despre acest foc că este sfânt și «viu», și că este mai fierbinte decât focul obișnuit. La multe stâne, în trecut aproape la toate, iar mai aproape de zilele noastre îndeosebi în munții Maramureșului și ai Bucovinei, nu putea fi concepută gospodăria păstorească fără a se face focul viu, iar acest foc avea cea mai mare putere vindecătoare dacă este făcut între doi brazi gemeni. Focul viu era folosit când se \"betejesc de armurare\" vitele, adică când mor într-o oră sau două. \"Focul viu se mai face\... și atunci când ți-e mare lipsă de el, pentru necazuri\", spunea un bătrân de 82 de ani^2^.
+> Sositi in *imparatia Muntilor* pastorii aveau grija ca primul foc sa nu il faca nici cu chibriturile, nici cu amnarul, ci numai prin frecarea a doua lemne. Acesta era *focul viu,* si se facea de obicei primavara, inainte de Rusalii, cand ieseau oile la munte. Ciobanii stiau despre acest foc ca este sfant si «viu», si ca este mai fierbinte decat focul obisnuit. La multe stane, in trecut aproape la toate, iar mai aproape de zilele noastre indeosebi in muntii Maramuresului si ai Bucovinei, nu putea fi conceputa gospodaria pastoreasca fara a se face focul viu, iar acest foc avea cea mai mare putere vindecatoare daca este facut intre doi brazi gemeni. Focul viu era folosit cand se \"betejesc de armurare\" vitele, adica cand mor intr-o ora sau doua. \"Focul viu se mai face\... si atunci cand ti-e mare lipsa de el, pentru necazuri\", spunea un batran de 82 de ani^2^.
 
-Focul viu era făcut de doi veri primari sau de doi feciori și era pus apoi la cele două extremității ale strungii. Printre aceste focuri sacre trebuia să treacă întreagă turma de oi, căci numai așa erau ferite de boli, de fiarele sălbatice, de trăsnet și de duhurile necurate. Tot din focul acesta sacru se ducea la stână și se punea pe vatra colibei, iar în caz că stâna se muta în altă parte, atunci trebuia dus și focul viu la stâna cea nouă și îngrijit ~s~ă nu se stingă, căci altfel se ivea mare nenorocire peste turmă, în trecut focul sacru se putea face numai de către un fecior pur la trup și la suflet, și numai el trebuia să îl păzească și să îl îngrijească până la coborârea stânei spre câmpie.
+Focul viu era facut de doi veri primari sau de doi feciori si era pus apoi la cele doua extremitatii ale strungii. Printre aceste focuri sacre trebuia sa treaca intreaga turma de oi, caci numai asa erau ferite de boli, de fiarele salbatice, de trasnet si de duhurile necurate. Tot din focul acesta sacru se ducea la stana si se punea pe vatra colibei, iar in caz ca stana se muta in alta parte, atunci trebuia dus si focul viu la stana cea noua si ingrijit ~s~a nu se stinga, caci altfel se ivea mare nenorocire peste turma, in trecut focul sacru se putea face numai de catre un fecior pur la trup si la suflet, si numai el trebuia sa il pazeasca si sa il ingrijeasca pana la coborarea stanei spre campie.
 
-> La focul viu se punea un vas cu apă și se lăsa să fiarbă, apoi era spălat cu acea apă animalul bolnav, sau chiar omul ce zăcea \"de boală grea\". Alteori se turna apă peste iasca ce fusese aprinsă cu ajutorul focului viu, și cu ea se spăla locul unde se afla rana, după ce bolnavul sărise mai înainte de nouă ori peste
+> La focul viu se punea un vas cu apa si se lasa sa fiarba, apoi era spalat cu acea apa animalul bolnav, sau chiar omul ce zacea \"de boala grea\". Alteori se turna apa peste iasca ce fusese aprinsa cu ajutorul focului viu, si cu ea se spala locul unde se afla rana, dupa ce bolnavul sarise mai inainte de noua ori peste
 >
 > foc.
 >
-> în Scărișoara (județul Turda) focul viu era făcut pentru oamenii bolnavi de pojar (\"bube de roșață\"), când el cuprindea tot corpul. După ce focul era aprins de către doi veri primari se punea pe el o oală cu apă, care se lăsa să se încălzească și, cu această apă, se spăla bolnavul. \"Apoi, după ce-i bine spălat -spunea un sătean -, bolnavul sare de nouă ori în sus, peste foc, și îi trece. Se mai folosește focul viu și la oi și alte vite mari și numai \[la\] acelea la care ești asigurat\... că nu este râie.\"^1^
+> in Scarisoara (judetul Turda) focul viu era facut pentru oamenii bolnavi de pojar (\"bube de rosata\"), cand el cuprindea tot corpul. Dupa ce focul era aprins de catre doi veri primari se punea pe el o oala cu apa, care se lasa sa se incalzeasca si, cu aceasta apa, se spala bolnavul. \"Apoi, dupa ce-i bine spalat -spunea un satean -, bolnavul sare de noua ori in sus, peste foc, si ii trece. Se mai foloseste focul viu si la oi si alte vite mari si numai \[la\] acelea la care esti asigurat\... ca nu este raie.\"^1^
 >
-> Un alt păstor spunea că focul viu se făcea pentru necazuri și dureri mari la vite, când le cădea părul, de boală grea (când mor). \"Foc viu am făcut odată în muntele Pleșcuța - spunea tot un cioban - și anume când o fost acolo oile noastre, că tare erau betege de șcioapăt și de alte rele. Apoi după ce am făcut foc viu, oile o scăpat de tăte relele, că focu acela fără sămânță (adică nenăscut din scânteie) le ajută la toate năcazurile.\"
+> Un alt pastor spunea ca focul viu se facea pentru necazuri si dureri mari la vite, cand le cadea parul, de boala grea (cand mor). \"Foc viu am facut odata in muntele Plescuta - spunea tot un cioban - si anume cand o fost acolo oile noastre, ca tare erau betege de scioapat si de alte rele. Apoi dupa ce am facut foc viu, oile o scapat de tate relele, ca focu acela fara samanta (adica nenascut din scanteie) le ajuta la toate nacazurile.\"
 >
-> Se poate observa că numele acestui foc, «focul viu», coincide cu cel întrebuințat în multe părți pentru diferite boli de piele (zona zoster, erizipel). (\"Foc viu se face ca un fel de *fapt* (eczemă) pe om, ce se face pe piele\" - comunicare din Săvârșin, jud. Arad). De aceea, focul viu este folosit în general pentru bolile de piele (mai ales pentru cele de origine magică, cum este considerat *faptul,* care este și numele unei vrăji, căci el nu este eficient și împotriva râiei, după cum am văzut, ce este cauzată de un parazit).
+> Se poate observa ca numele acestui foc, «focul viu», coincide cu cel intrebuintat in multe parti pentru diferite boli de piele (zona zoster, erizipel). (\"Foc viu se face ca un fel de *fapt* (eczema) pe om, ce se face pe piele\" - comunicare din Savarsin, jud. Arad). De aceea, focul viu este folosit in general pentru bolile de piele (mai ales pentru cele de origine magica, cum este considerat *faptul,* care este si numele unei vraji, caci el nu este eficient si impotriva raiei, dupa cum am vazut, ce este cauzata de un parazit).
 >
-> \"Când se face foc în om, ori când se face foc la vite, de se duce părul și pielea, atunci numai cu foc viu se poate vindeca acolo. Focu \[viu\] se face așa că se freacă două lemne de brad. După ce se aprind se pune un smoc de iască uscată, care să se aprindă bine și iute, până nu se răcește lemnu\'. Apoi se *cură* (scurge) apă pe iască și cu apa aceia se unge unde-i buba cea rea. Așa-i cu focu sfânt și cu puterea lui de vindecare, că boalele nu se pot vindeca cu orice leac, \[ci\] numai cu el, că-i tare sfânt și curat.\" (George Avram, 42 - Neagra.)
+> \"Cand se face foc in om, ori cand se face foc la vite, de se duce parul si pielea, atunci numai cu foc viu se poate vindeca acolo. Focu \[viu\] se face asa ca se freaca doua lemne de brad. Dupa ce se aprind se pune un smoc de iasca uscata, care sa se aprinda bine si iute, pana nu se raceste lemnu\'. Apoi se *cura* (scurge) apa pe iasca si cu apa aceia se unge unde-i buba cea rea. Asa-i cu focu sfant si cu puterea lui de vindecare, ca boalele nu se pot vindeca cu orice leac, \[ci\] numai cu el, ca-i tare sfant si curat.\" (George Avram, 42 - Neagra.)
 >
-> Alt păstor spunea: \"Focul acela (focul viu) îl iei și faci foc din el și încălzești apa. Cu apa se unge unde se face rana aceea, *care-i tot foc viu\...* Știu că am făcut odată foc viu la o vacă și i-a trecut de boala aceea.\"\'
+> Alt pastor spunea: \"Focul acela (focul viu) il iei si faci foc din el si incalzesti apa. Cu apa se unge unde se face rana aceea, *care-i tot foc viu\...* Stiu ca am facut odata foc viu la o vaca si i-a trecut de boala aceea.\"\'
 >
-## LUNA ÎN EMPIRISMUL POPULAR
+## LUNA IN EMPIRISMUL POPULAR
 
-> ***LUNA ÎN EMPIRISMUL POPULAR***
+> ***LUNA IN EMPIRISMUL POPULAR***
 >
-> Românii privesc Luna ca pe un lucru sfânt, îndeosebi cei bătrâni care se și închină la ea. în unele părți, românii când vedeau întâia oară Lună nouă, ieșeau cu toții afară din casă, își scoteau căciulile din cap și se închinau.
+> Romanii privesc Luna ca pe un lucru sfant, indeosebi cei batrani care se si inchina la ea. in unele parti, romanii cand vedeau intaia oara Luna noua, ieseau cu totii afara din casa, isi scoteau caciulile din cap si se inchinau.
 
-în alte părți femeile ridicau copiii slabi spre Luna nouă, zicând: \"Cum se umple Luna, așa să crească copilul și să se îngrașe!\"; sau, scoțând copiii afară și întinzându-i spre Lună, ziceau: \"Crai nou, sănătoși ne-ai găsit, sănătoși să ne lași!\". Dacă aveau pe cineva bolnav, chiar greu bolnav, îl scoteau afară, îi arătau Luna și îl puneau să se închine, făcându-1 să sară de trei ori drept în sus și să zică: \"Uha, Crai nou, bolnav m-ai găsit, să mă lași sănătos!\" Spuneau astfel de trei ori, la fiecare săritură. Din cele mai vechi timpuri, somnambulismul a fost atribuit influenței Lunii. Din acest motiv românii îl numesc *lunatec* pe cel suferind de somnambulism. în timp ce germanii cred că un copil devine somnambul dacă este ținut în lumina Lunii, pentru românii din Bucovina este suficient ca o femeie însărcinată să bea din apa în care s-a oglindit Luna pentru a naște un copil
+in alte parti femeile ridicau copiii slabi spre Luna noua, zicand: \"Cum se umple Luna, asa sa creasca copilul si sa se ingrase!\"; sau, scotand copiii afara si intinzandu-i spre Luna, ziceau: \"Crai nou, sanatosi ne-ai gasit, sanatosi sa ne lasi!\". Daca aveau pe cineva bolnav, chiar greu bolnav, il scoteau afara, ii aratau Luna si il puneau sa se inchine, facandu-1 sa sara de trei ori drept in sus si sa zica: \"Uha, Crai nou, bolnav m-ai gasit, sa ma lasi sanatos!\" Spuneau astfel de trei ori, la fiecare saritura. Din cele mai vechi timpuri, somnambulismul a fost atribuit influentei Lunii. Din acest motiv romanii il numesc *lunatec* pe cel suferind de somnambulism. in timp ce germanii cred ca un copil devine somnambul daca este tinut in lumina Lunii, pentru romanii din Bucovina este suficient ca o femeie insarcinata sa bea din apa in care s-a oglindit Luna pentru a naste un copil
 
 > \"lunatec\".
 >
-> Uneori, atunci când se descântă se ține cont de faza Lunii (în creștere sau descreștere). Pentru multe boli, ca să ia sfârșit, întocmai ca și Luna, se descântă \"când se pișcă Luna\", adică când Luna este în descreștere (ea are atunci aspectul unei secere în formă de C; când Luna are aspectul invers unui C, încât seamănă cu un D, atunci ea este în faza de Lună nouă, adică începe să
+> Uneori, atunci cand se descanta se tine cont de faza Lunii (in crestere sau descrestere). Pentru multe boli, ca sa ia sfarsit, intocmai ca si Luna, se descanta \"cand se pisca Luna\", adica cand Luna este in descrestere (ea are atunci aspectul unei secere in forma de C; cand Luna are aspectul invers unui C, incat seamana cu un D, atunci ea este in faza de Luna noua, adica incepe sa
 >
-> crească).
+> creasca).
 >
-> Tot când este aproape \"să se știrbească Luna\", unele mame își înțărca pruncii, pentru ca să îi treacă și copilului pofta de țâță. Cel mai des însă mamele își înțărca copiii în momentul Lunei pline, ca să aibă noroc și să le meargă \"în plin\" toată viața, încă de la naștere copilul trebuie păzit încontinuu pentru a nu fi \"văzut\" de Lună, ca aceasta să nu îl *deoache* și să nu îl îmbolnăvească. Astfel, leagănul nu trebuie pus în fața ușii sau în fața ferestrei, ci întotdeauna trebuie să stea în interiorul casei, unde nu poate fi expus pericolului de a îl \"trage\" Luna. Dacă este \"luat de Lună\", copilul se îmbolnăvește, țipă, nu mai poate dormi, nu mai vrea să sugă și are scaune dese. Românii din Macedonia, ca să vindece un astfel de copil bolnav, așteaptă să fie Lună nouă și dau unei «babe» pricepute un ou proaspăt, un vas de aramă și un «semn» de-al copilului (cum ar fi de exemplu, o cămașă, un ciorap), spunându-i și numele copilului, iar ea descântă. Baba umple vasul cu apă, sparge oul aruncându-1 în această apă și acoperă apoi vasul cu «semnul» copilului. Vasul astfel pregătit și descântat este expus noaptea la Lună. A doua zi se ia leacul astfel preparat și se face copilului o baie în apa din vas, astfel: se așează copilul gol în scăldătoare (în albie) iar pe cap i se pune un ciur (o sită) cu funful în sus, prin acesta vărsându-se •apa cu ou». Copilul trebuie îmbrăcat în final cu cămașa ferme-
+> Tot cand este aproape \"sa se stirbeasca Luna\", unele mame isi intarca pruncii, pentru ca sa ii treaca si copilului pofta de tata. Cel mai des insa mamele isi intarca copiii in momentul Lunei pline, ca sa aiba noroc si sa le mearga \"in plin\" toata viata, inca de la nastere copilul trebuie pazit incontinuu pentru a nu fi \"vazut\" de Luna, ca aceasta sa nu il *deoache* si sa nu il imbolnaveasca. Astfel, leaganul nu trebuie pus in fata usii sau in fata ferestrei, ci intotdeauna trebuie sa stea in interiorul casei, unde nu poate fi expus pericolului de a il \"trage\" Luna. Daca este \"luat de Luna\", copilul se imbolnaveste, tipa, nu mai poate dormi, nu mai vrea sa suga si are scaune dese. Romanii din Macedonia, ca sa vindece un astfel de copil bolnav, asteapta sa fie Luna noua si dau unei «babe» pricepute un ou proaspat, un vas de arama si un «semn» de-al copilului (cum ar fi de exemplu, o camasa, un ciorap), spunandu-i si numele copilului, iar ea descanta. Baba umple vasul cu apa, sparge oul aruncandu-1 in aceasta apa si acopera apoi vasul cu «semnul» copilului. Vasul astfel pregatit si descantat este expus noaptea la Luna. A doua zi se ia leacul astfel preparat si se face copilului o baie in apa din vas, astfel: se aseaza copilul gol in scaldatoare (in albie) iar pe cap i se pune un ciur (o sita) cu funful in sus, prin acesta varsandu-se •apa cu ou». Copilul trebuie imbracat in final cu camasa ferme-
 >
-> cată. Procedeul se repetă și următoarele două zile, după care copilul se vindecă^1^.
+> cata. Procedeul se repeta si urmatoarele doua zile, dupa care copilul se vindeca^1^.
 >
-> în Moldova se crede că pentru a-ți crește părul și a-1 avea bogat, este bine să îl tunzi când crește Luna. Această credință este foarte veche - o aveau și romanii - și o regăsim la cele mai multe popoare. Tot în Moldova, vrăjile și farmecele rele se fac numai noaptea, când este *Lună nouă,* iar farmecele bune se fac la *Lună veche.*
+> in Moldova se crede ca pentru a-ti creste parul si a-1 avea bogat, este bine sa il tunzi cand creste Luna. Aceasta credinta este foarte veche - o aveau si romanii - si o regasim la cele mai multe popoare. Tot in Moldova, vrajile si farmecele rele se fac numai noaptea, cand este *Luna noua,* iar farmecele bune se fac la *Luna veche.*
 >
-> Ca să își păstreze sănătatea, până nu demult copiii de la sate obișnuiau ca atunci când vedeau *Luna nouă* să își facă cruce, să sară de trei ori în sus și să -zică: «Lună nouă, Lună nouă, sănătos m-ai găsit, sănătos să mă lași!», sau: «Crai nou, crai nou, sănătos m-ai găsit, sănătos să mă lași!».\[4\]
+> Ca sa isi pastreze sanatatea, pana nu demult copiii de la sate obisnuiau ca atunci cand vedeau *Luna noua* sa isi faca cruce, sa sara de trei ori in sus si sa -zica: «Luna noua, Luna noua, sanatos m-ai gasit, sanatos sa ma lasi!», sau: «Crai nou, crai nou, sanatos m-ai gasit, sanatos sa ma lasi!».\[4\]
 >
-> în unele părți din Muntenia strachina cu apa neîncepută pentru descântec^2^ se pune pe o fereastră dinspre partea de unde răsare Luna pe cer și este lăsată astfel până când apare Luna și se reflectă bine în apă și în fundul straehinei. Abia atunci începe să se descânte.
+> in unele parti din Muntenia strachina cu apa neinceputa pentru descantec^2^ se pune pe o fereastra dinspre partea de unde rasare Luna pe cer si este lasata astfel pana cand apare Luna si se reflecta bine in apa si in fundul straehinei. Abia atunci incepe sa se descante.
 >
-> Momentul când se face trecerea la Crai nou (Lună nouă) nu este favorabil semănăturilor: \"nu se seamănă legume, că nu rodesc\" (se așteaptă pentru aceasta să treacă câteva zile).
+> Momentul cand se face trecerea la Crai nou (Luna noua) nu este favorabil semanaturilor: \"nu se seamana legume, ca nu rodesc\" (se asteapta pentru aceasta sa treaca cateva zile).
 >
-> Despre «roșirea Lunii», românii spun că îi curge sânge, și că aceasta prevestește o mare nenorocire pentru lume.^3^
+> Despre «rosirea Lunii», romanii spun ca ii curge sange, si ca aceasta prevesteste o mare nenorocire pentru lume.^3^
 >
-> Apele și fântânile sunt spurcate în timpul eclipselor totale de Lună, deci nu este bine să se bea apă în aceste momente (probabil conform unei vechi credințe că atunci apar pe pământ cele mai infernale ființe, apa - izvorul îndeosebi - fiind agentul maistral de legătură cu celelalte lumi.
+> Apele si fantanile sunt spurcate in timpul eclipselor totale de Luna, deci nu este bine sa se bea apa in aceste momente (probabil conform unei vechi credinte ca atunci apar pe pamant cele mai infernale fiinte, apa - izvorul indeosebi - fiind agentul maistral de legatura cu celelalte lumi.
 
-La capitolul despre *Leacuri* prezentăm o interesantă terapie pentru astenia fizică, un leac ce folosește radiațiile Lunii
+La capitolul despre *Leacuri* prezentam o interesanta terapie pentru astenia fizica, un leac ce foloseste radiatiile Lunii
 
 ## IERBURILE SACRE
 
 > **IERBURILE SACRE**
 
-Condițiile climaterice ale Daciei, corelate cu cele geografice (șes, deal, munte) au favorizat existența în acest spațiu a unei mari diversități de specii vegetale.
+Conditiile climaterice ale Daciei, corelate cu cele geografice (ses, deal, munte) au favorizat existenta in acest spatiu a unei mari diversitati de specii vegetale.
 
-> Din acest motiv, încă de pe vremea geto-dacilor, o serie de plante ce cresc și astăzi pe teritoriul României, erau cunoscute și întrebuințate ca *ierburi de leac,* reputația unora dintre ele mergând până acolo încât în percepția populară apar și astăzi ca fiind înzestrate cu virtuți extraordinare, motivate de o mitologie specială, *vegetală.* Multe dintre aceste plante sunt considerate sfinte, fac obiectul unui cult de sorginte arhaică, așa cum este cazul *Mătrăgunei (Atropa belladona,* această plantă al cărei nume daco-român este izbitor de rezonant cu două cuvinte sanscrite ale vocabularul mistico-filozofic arian: *matra-guna),* dar întotdeauna acest cult are un scop bine precizat, urmărindu-se rezultate cu caracter magic, inclusiv în domeniul medicinei magice, al acelor *descântece* ce se împlinesc cu ajutorul anumitor ierburi. Aceleași plante însă, și altele, au fost și mai sunt folosite chiar și numai pentru virtuțile lor terapeutice naturale.
+> Din acest motiv, inca de pe vremea geto-dacilor, o serie de plante ce cresc si astazi pe teritoriul Romaniei, erau cunoscute si intrebuintate ca *ierburi de leac,* reputatia unora dintre ele mergand pana acolo incat in perceptia populara apar si astazi ca fiind inzestrate cu virtuti extraordinare, motivate de o mitologie speciala, *vegetala.* Multe dintre aceste plante sunt considerate sfinte, fac obiectul unui cult de sorginte arhaica, asa cum este cazul *Matragunei (Atropa belladona,* aceasta planta al carei nume daco-roman este izbitor de rezonant cu doua cuvinte sanscrite ale vocabularul mistico-filozofic arian: *matra-guna),* dar intotdeauna acest cult are un scop bine precizat, urmarindu-se rezultate cu caracter magic, inclusiv in domeniul medicinei magice, al acelor *descantece* ce se implinesc cu ajutorul anumitor ierburi. Aceleasi plante insa, si altele, au fost si mai sunt folosite chiar si numai pentru virtutile lor terapeutice naturale.
 >
-> Urcând dinspre Țara Hațegului spre locul unde se află ruinele sanctuarului dacic de la Sarmizegztusa, în anumite momente flora spontană naște o simfonie a parfumurilor, miresmele cântă și fascinează, iar vara, înainte de izbucnirea vreunei furtuni, miresmele devin atât de învăluitoare încât duc bucuria trăirii până la extazul mistic și la transcendență^1^. Multe dintre aceste plante conțin importante principii active. Este notabilă relatarea unui cunoscut fitoterapeut român, dr. Ovidiu Bojor:
+> Urcand dinspre Tara Hategului spre locul unde se afla ruinele sanctuarului dacic de la Sarmizegztusa, in anumite momente flora spontana naste o simfonie a parfumurilor, miresmele canta si fascineaza, iar vara, inainte de izbucnirea vreunei furtuni, miresmele devin atat de invaluitoare incat duc bucuria trairii pana la extazul mistic si la transcendenta^1^. Multe dintre aceste plante contin importante principii active. Este notabila relatarea unui cunoscut fitoterapeut roman, dr. Ovidiu Bojor:
 >
-> \"în urmă cu mulți ani lucram pe teren în zona Grădiștei, aproape de sanctuarul vechii cetății regale \[dacice\] Sarmizege-tusa, împreună cu un amic care nu prea cunoștea plantele și efectele lor. Am găsit acolo, printre alte specii și specia *Circaea lutetiana* sau *Circaea intermedia,* popular numită Tilișca, Iarba vrăjitoarei\... Seara i-am făcut tovarășului meu de drum un ceai din această plantă. Omul depășise bine a doua vârstă. Dimineața următoare mi-a povestit că de mult timp nu a avut o noapte atât de frumoasă și că s-a simțit ca la douăzeci de ani. A cules mai multe plante și pentru acasă. Din păcate prin uscare și-au pierdut efectul miraculos\".^1^
+> \"in urma cu multi ani lucram pe teren in zona Gradistei, aproape de sanctuarul vechii cetatii regale \[dacice\] Sarmizege-tusa, impreuna cu un amic care nu prea cunostea plantele si efectele lor. Am gasit acolo, printre alte specii si specia *Circaea lutetiana* sau *Circaea intermedia,* popular numita Tilisca, Iarba vrajitoarei\... Seara i-am facut tovarasului meu de drum un ceai din aceasta planta. Omul depasise bine a doua varsta. Dimineata urmatoare mi-a povestit ca de mult timp nu a avut o noapte atat de frumoasa si ca s-a simtit ca la douazeci de ani. A cules mai multe plante si pentru acasa. Din pacate prin uscare si-au pierdut efectul miraculos\".^1^
 >
-> în *Țara Oașului,* locul unde se duc fetele să culeagă ritualic unele dintre *ierburile sacre* (printre care și *Mătrăguna)* este numit *\"Gradina Milostivelor\"^2^,* nume sub care sunt desemnate *Ielele* sau *Rusaliile.* Faptul acesta arată clar că în mentalitatea populară o mare parte dintre ierburi se află sub puterea celor mai temute și respectate dintre ființele nevăzute. Aceeași credință se manifestă și în alte ținuturi, cum ar fi cel al Năsăudului, unde se vorbește despre florile ce cresc în Grădinile \"Frumușelelor\", grădini care se află prin poieni sau pe colțuri de stânci, intrarea în aceste locuri fiind însă periculoasă, deoarece zânele fură puterile oamenilor, mai ales ale celor ce se culcă pe pajiștile lor înflorate. în aceste Grădini cresc flori precum Bănuțeii *(Bellis perennis -* folosiți contra bronșitei cronice), Saschiul *{Vinca minor),* Banatul *(Geranium -* folosit în practica populară și contra j unghiurilor) și Vâzdoagele sau Garofițele *(Dianthus)^1^.* Ultima, Garoafa de Munte *(Dianthus superbus),* numită și Buruiană de Urât, are o floare foarte frumoasă, dar este cunoscută ca \"aducătoare de urât\" (cel ce o poartă este imediat urât de ceilalți oameni).
+> in *Tara Oasului,* locul unde se duc fetele sa culeaga ritualic unele dintre *ierburile sacre* (printre care si *Matraguna)* este numit *\"Gradina Milostivelor\"^2^,* nume sub care sunt desemnate *Ielele* sau *Rusaliile.* Faptul acesta arata clar ca in mentalitatea populara o mare parte dintre ierburi se afla sub puterea celor mai temute si respectate dintre fiintele nevazute. Aceeasi credinta se manifesta si in alte tinuturi, cum ar fi cel al Nasaudului, unde se vorbeste despre florile ce cresc in Gradinile \"Frumuselelor\", gradini care se afla prin poieni sau pe colturi de stanci, intrarea in aceste locuri fiind insa periculoasa, deoarece zanele fura puterile oamenilor, mai ales ale celor ce se culca pe pajistile lor inflorate. in aceste Gradini cresc flori precum Banuteii *(Bellis perennis -* folositi contra bronsitei cronice), Saschiul *{Vinca minor),* Banatul *(Geranium -* folosit in practica populara si contra j unghiurilor) si Vazdoagele sau Garofitele *(Dianthus)^1^.* Ultima, Garoafa de Munte *(Dianthus superbus),* numita si Buruiana de Urat, are o floare foarte frumoasa, dar este cunoscuta ca \"aducatoare de urat\" (cel ce o poarta este imediat urat de ceilalti oameni).
 >
-> Alte plante, așa cum sunt *Usturoiul, Avrămeasca, Leuștea-nul, Pelinul, Omagul* ș.a. sunt nesuferite duhurilor sau strigoilor, fiind folosite ca atare de către țărani, adică ca niște arme în lupta pentru sănătate.
+> Alte plante, asa cum sunt *Usturoiul, Avrameasca, Leustea-nul, Pelinul, Omagul* s.a. sunt nesuferite duhurilor sau strigoilor, fiind folosite ca atare de catre tarani, adica ca niste arme in lupta pentru sanatate.
 >
-> Prin fânețe sau pe lângă pâraie crește uneori o plantă cu flori roz purpurii numită Dragoste sau Masa Raiului *(Sedum fabaria).* Primăvara, aceasta plantă este adusă din locurile în care crește și se sădește în grădina casei, în loc ferit, curat, în credința că este protectoare a dragostei, că apără pe cei ai casei de cei răi, care vor să o strice. în unele sate, când înflorește, se rupe câte un fir pentru fiecare din casă, se pune la grindă și cel al cărui fir se usucă se spune că va muri în acel an, dar dacă crește și se înfășoară pe după grindă, este semn că va trăi mult^2^.
+> Prin fanete sau pe langa paraie creste uneori o planta cu flori roz purpurii numita Dragoste sau Masa Raiului *(Sedum fabaria).* Primavara, aceasta planta este adusa din locurile in care creste si se sadeste in gradina casei, in loc ferit, curat, in credinta ca este protectoare a dragostei, ca apara pe cei ai casei de cei rai, care vor sa o strice. in unele sate, cand infloreste, se rupe cate un fir pentru fiecare din casa, se pune la grinda si cel al carui fir se usuca se spune ca va muri in acel an, dar daca creste si se infasoara pe dupa grinda, este semn ca va trai mult^2^.
 >
-> O remarcă interesantă, făcută pe valea Nistrului-de-Jos, în Basarabia, este aceea că oricât de mare ar fi puterea lecuitoare a unei plante sau a unei substanțe, nu se administrează niciodată unui bolnav fără descântec sau fără anumite practici magice^3^. Acest fapt denotă filiația ancestrală a medicinei populare dacoromâne de la o medicină sacerdotală, în care era obligatoriu ca restabilirea sănătății să necesite invocarea elementelor supranaturale.
+> O remarca interesanta, facuta pe valea Nistrului-de-Jos, in Basarabia, este aceea ca oricat de mare ar fi puterea lecuitoare a unei plante sau a unei substante, nu se administreaza niciodata unui bolnav fara descantec sau fara anumite practici magice^3^. Acest fapt denota filiatia ancestrala a medicinei populare dacoromane de la o medicina sacerdotala, in care era obligatoriu ca restabilirea sanatatii sa necesite invocarea elementelor supranaturale.
 >
-> Buruienile de leac se culeg atât primăvara, cât și toamna. Recoltatorii nu țin neapărat seama de momentul când planta este în deplinătatea puterilor ei naturale, când a ajuns la maturitate sau când este mai plină de seve. Ea se desfășoară după considerente magice, în anumite momente cosmice, urmând un ritual caracteristic. Totuși, în Basarabia lecuitorii populari obiș-nuiesc să dea uneori, celor ce au nevoie, ierburi culese pe loc. Când se ivește boala ei se duc pe dealuri, prin râpi, la iazuri, pe unde cresc buruienile și le caută. Peste tot însă există regula ca, de la *Sfredelul Rusaliilor* până la sfârșitul Săptămânii Mari *(Săptămâna Rusaliilor),* timp de mai bine de o lună deci, să nu se culeagă *ierburile sacre* (este vorba de ierburile aflate sub puterea *Rusaliilor, Ielelor, Vântoaselor),* căci nu sunt lecuitoare. Celelalte ierburi de leac, precum Usturoiul și Pelinul, nu își pierd virtuțile în această perioadă. \"De-o veni \[însă\] omul la nevoie, și atunci te duci și le culegi\" - se mărturisea o babă doftoroaie din Basarabia^1^. Aceiași doftoroiae arată însă ca există o zi specială în an când se culeg buruienile, în ziua de *Macovei* (1 August). își amintește că înainte să se schimbe \"stilul\" calen-darului ortodox, în această zi se duceau femeile la biserică cu felurite flori și buruieni, iar preotul făcea apă sfințită cu care le stropea. Femeile le duceau apoi acasă și le păstrau uscate. \"Atunci mă sculam și eu - își amintea ea -, dimineața până\'n ziuă, prin rouă strângeam buruienile și le duceam la Biserică, dar amu de când cu *stilu,* s\'o stricat obiceiul și nu mai strâng.\" înainte de *Sfredeliți Rusaliilor* sau *la Macovei,* pentru rccolatrea plantelor, se adună câteva bătrâne, chiar și femei mai tinere, care trebuie însă să fie neapărat \"curate\" (sa nu fie la ciclu), și se duc departe de sat, prin păduri. Totodată ele trebuie să se schimbe, adică să își ia cămăși albe și curate pentru acest eveniment.
+> Buruienile de leac se culeg atat primavara, cat si toamna. Recoltatorii nu tin neaparat seama de momentul cand planta este in deplinatatea puterilor ei naturale, cand a ajuns la maturitate sau cand este mai plina de seve. Ea se desfasoara dupa considerente magice, in anumite momente cosmice, urmand un ritual caracteristic. Totusi, in Basarabia lecuitorii populari obis-nuiesc sa dea uneori, celor ce au nevoie, ierburi culese pe loc. Cand se iveste boala ei se duc pe dealuri, prin rapi, la iazuri, pe unde cresc buruienile si le cauta. Peste tot insa exista regula ca, de la *Sfredelul Rusaliilor* pana la sfarsitul Saptamanii Mari *(Saptamana Rusaliilor),* timp de mai bine de o luna deci, sa nu se culeaga *ierburile sacre* (este vorba de ierburile aflate sub puterea *Rusaliilor, Ielelor, Vantoaselor),* caci nu sunt lecuitoare. Celelalte ierburi de leac, precum Usturoiul si Pelinul, nu isi pierd virtutile in aceasta perioada. \"De-o veni \[insa\] omul la nevoie, si atunci te duci si le culegi\" - se marturisea o baba doftoroaie din Basarabia^1^. Aceiasi doftoroiae arata insa ca exista o zi speciala in an cand se culeg buruienile, in ziua de *Macovei* (1 August). isi aminteste ca inainte sa se schimbe \"stilul\" calen-darului ortodox, in aceasta zi se duceau femeile la biserica cu felurite flori si buruieni, iar preotul facea apa sfintita cu care le stropea. Femeile le duceau apoi acasa si le pastrau uscate. \"Atunci ma sculam si eu - isi amintea ea -, dimineata pana\'n ziua, prin roua strangeam buruienile si le duceam la Biserica, dar amu de cand cu *stilu,* s\'o stricat obiceiul si nu mai strang.\" inainte de *Sfredeliti Rusaliilor* sau *la Macovei,* pentru rccolatrea plantelor, se aduna cateva batrane, chiar si femei mai tinere, care trebuie insa sa fie neaparat \"curate\" (sa nu fie la ciclu), si se duc departe de sat, prin paduri. Totodata ele trebuie sa se schimbe, adica sa isi ia camasi albe si curate pentru acest eveniment.
 >
-> Majoritatea ierburilor sacre se recoltează înainte de *Sfredelul Rusaliilor.* Este și cazul *Săgetăturii,* care după această dată își pierde puterea și poate chiar să \"pocească\", și a-1 *Buruienii cu cinci degete (Potentila recta,* numită și Iarba Faptul pentru că desface vrăjile). Această ultimă plantă se bucură de un mare respect la Nișcani (Basarabia). Când este adusă acasă, se spală mai întâi icoana Maicii Domnului (ce nu lipsește din nici o casă) apoi cu apa aceea se stropește *Buruiana cu cinci degete.* \"Se întrebuințează pentru orice - arăta o tânără din acest sat^1^, referindu-se la plantă -, e bună pentru toate bolile. Poți s-o bei pentru sănătate. E bună s-o ții în casă, pentru că e buruiană scumpă (sfântă). Când o pui la fiert în ulcică nouă, o pui la icoane și bați trei metanii spunând:
+> Majoritatea ierburilor sacre se recolteaza inainte de *Sfredelul Rusaliilor.* Este si cazul *Sagetaturii,* care dupa aceasta data isi pierde puterea si poate chiar sa \"poceasca\", si a-1 *Buruienii cu cinci degete (Potentila recta,* numita si Iarba Faptul pentru ca desface vrajile). Aceasta ultima planta se bucura de un mare respect la Niscani (Basarabia). Cand este adusa acasa, se spala mai intai icoana Maicii Domnului (ce nu lipseste din nici o casa) apoi cu apa aceea se stropeste *Buruiana cu cinci degete.* \"Se intrebuinteaza pentru orice - arata o tanara din acest sat^1^, referindu-se la planta -, e buna pentru toate bolile. Poti s-o bei pentru sanatate. E buna s-o tii in casa, pentru ca e buruiana scumpa (sfanta). Cand o pui la fiert in ulcica noua, o pui la icoane si bati trei metanii spunand:
 >
-> *Te primim cu pâine și cu sare, să ne fii folositoare.*
+> *Te primim cu paine si cu sare, sa ne fii folositoare.*
 >
-> Alte plante se strâng la date bine precizate. Astfel, *Sulfina (Melieotus ofpcinali)* se culege numai în ziua de *Sânziene* și la *Ziua Crucii,* iar *Seminocul (Medicago falcata,* numit și Vârtejul Pământului) se strânge numai pe vremea secerii.
+> Alte plante se strang la date bine precizate. Astfel, *Sulfina (Melieotus ofpcinali)* se culege numai in ziua de *Sanziene* si la *Ziua Crucii,* iar *Seminocul (Medicago falcata,* numit si Vartejul Pamantului) se strange numai pe vremea secerii.
 >
-> La solstițiul de vară, în ziua de Sânziene, femeile din Banat, de pe valea Timocului, pornesc dis-de-dimineață la cules ierburi de leac. în aceași zi, femeile pricepute la vrăji de \"luare a *manei\"* se duc la ogoarele străine, de unde \"fură\" recolta și o transportă în ogoarele lor. Pentru acest lucru ele se desbracă și, umblând goale prin lanuri, trec cu mâna peste rouă acestora. După aceea înfig în ogor o cruciuliță făcută din lemn de alun și rostește un descântec. în aceeași zi, femeile mai în vârstă se duc în afara satului și culeg plantele lecuitoare pe care le numesc \"ierburi de Sf. Ioan\". La întoarcerea în sat se dezlănțuie un ritual în care femeile culegătoare se dăruiesc până la extaz. încă de la intrarea în sat ele sunt așteptate de un cimpoicr și de un toboșar. Muzica și ritmurile produse de cimpoi și de tobă, ca și dansul deslănțuit al femeilor trecute de 40 de ani ce se prind în hore, au un efect aproape hipnotic asupra executantelor ritualului. Purtând în spate snopii de plante se prind în hore conduse pe rând de câte una dintre ele. O horă se sparge și alta îi ia locul, fără ca muzica să înceteze vreo clipă, în timp ce fețele femeilor sunt aprinse și sunt scăldate în nădușeli. Astfel ajung în mijlocul satului unde, după ce fac o ultimă mare horă ce închipuie hora amețitoare a zânelor Sânziene, patronele \"ierburilor de Sf. Ion\", se despart și se îndreaptă cu plantele lor spre case^2^.
+> La solstitiul de vara, in ziua de Sanziene, femeile din Banat, de pe valea Timocului, pornesc dis-de-dimineata la cules ierburi de leac. in aceasi zi, femeile pricepute la vraji de \"luare a *manei\"* se duc la ogoarele straine, de unde \"fura\" recolta si o transporta in ogoarele lor. Pentru acest lucru ele se desbraca si, umbland goale prin lanuri, trec cu mana peste roua acestora. Dupa aceea infig in ogor o cruciulita facuta din lemn de alun si rosteste un descantec. in aceeasi zi, femeile mai in varsta se duc in afara satului si culeg plantele lecuitoare pe care le numesc \"ierburi de Sf. Ioan\". La intoarcerea in sat se dezlantuie un ritual in care femeile culegatoare se daruiesc pana la extaz. inca de la intrarea in sat ele sunt asteptate de un cimpoicr si de un tobosar. Muzica si ritmurile produse de cimpoi si de toba, ca si dansul deslantuit al femeilor trecute de 40 de ani ce se prind in hore, au un efect aproape hipnotic asupra executantelor ritualului. Purtand in spate snopii de plante se prind in hore conduse pe rand de cate una dintre ele. O hora se sparge si alta ii ia locul, fara ca muzica sa inceteze vreo clipa, in timp ce fetele femeilor sunt aprinse si sunt scaldate in naduseli. Astfel ajung in mijlocul satului unde, dupa ce fac o ultima mare hora ce inchipuie hora ametitoare a zanelor Sanziene, patronele \"ierburilor de Sf. Ion\", se despart si se indreapta cu plantele lor spre case^2^.
 >
-> Pentru țărani, uscarea ierburilor strânse este simplă. După ce au fost culese, se fac mănunchiuri lungi de până la 20 cm, se leagă cu una dintre ierburi, iar acasă se pun sub streașină casei sau se atârnă de o grindă în pod. Când devin necesare ele se dau bolnavilor să le bea ca fiertură, să se oblojească cu ele sau să le pună în apa de scăldat.
+> Pentru tarani, uscarea ierburilor stranse este simpla. Dupa ce au fost culese, se fac manunchiuri lungi de pana la 20 cm, se leaga cu una dintre ierburi, iar acasa se pun sub streasina casei sau se atarna de o grinda in pod. Cand devin necesare ele se dau bolnavilor sa le bea ca fiertura, sa se oblojeasca cu ele sau sa le puna in apa de scaldat.
 >
-> Cunoașterea virtuților magico-terapeutice ale plantelor poate fi însușită prin mijloace neobișnuite chiar de la ele, de la plante, conform unei credințe populare larg răspândită, motiv în care un rol important îl deține «Șarpele alb» sau «Șarpele năzdrăvan». O săteancă din Bistrița-Năsăud știa de la tatăl său că cine vede Șarpe alb, să-1 omoare dintr-o dată și să îl mănânce uscat, căci de atunci el va auzi ierburile vorbindu-i: \"pe mine nu mă călca, că sunt bună de leac pentru\...\". Și în Bucovina se crede că în acest scop este bun Șarpele alb, găsit sub un alun alb^1^. în prima jumătate a secolului trecut, în Transilvania era celebru «vraciul» țăran Minai sau Ștefan Sas, din Toplița Română, căruia un Șarpe năzdrăvan, cu care a vorbit și pe care 1-a mâncat, i-a dat cunoștința graiului tuturor ierburilor de leac. în casa sa era un adevărat pelerinaj al bolnavilor din diverse ținuturi, care cereau și foloseau leacurile făcute de el din buruieni. Mihai Sas mai vindeca însă și cu descântece sau cu dietă de mămăligă, făcând chiar și scoateri de draci din bolnavi^2^.
+> Cunoasterea virtutilor magico-terapeutice ale plantelor poate fi insusita prin mijloace neobisnuite chiar de la ele, de la plante, conform unei credinte populare larg raspandita, motiv in care un rol important il detine «Sarpele alb» sau «Sarpele nazdravan». O sateanca din Bistrita-Nasaud stia de la tatal sau ca cine vede Sarpe alb, sa-1 omoare dintr-o data si sa il manance uscat, caci de atunci el va auzi ierburile vorbindu-i: \"pe mine nu ma calca, ca sunt buna de leac pentru\...\". Si in Bucovina se crede ca in acest scop este bun Sarpele alb, gasit sub un alun alb^1^. in prima jumatate a secolului trecut, in Transilvania era celebru «vraciul» taran Minai sau Stefan Sas, din Toplita Romana, caruia un Sarpe nazdravan, cu care a vorbit si pe care 1-a mancat, i-a dat cunostinta graiului tuturor ierburilor de leac. in casa sa era un adevarat pelerinaj al bolnavilor din diverse tinuturi, care cereau si foloseau leacurile facute de el din buruieni. Mihai Sas mai vindeca insa si cu descantece sau cu dieta de mamaliga, facand chiar si scoateri de draci din bolnavi^2^.
 
-De cele mai multe ori sacralitatea plantelor este cea care le conferă puterea tămăduitoare, iar această putere poate fi însoțită de calități de tip oracular, așa cum se întâmplă în cazul Duminicuței *(Lysimachia nummularia),* plantă ce crește prin păduri, prin poieni, prin zăvoaie sau pe malul apelor. în locul de unde este culeasă, se lasă ofrandă de pâine și sare. Adusă acasă se folosește la copiii care nu merg în picioare; se pune lângă foc pe vatră, cu pâine și sare alături, și dacă se înnegrește este semn că vor muri, dacă nu, este semn că vor trăi. (Duminicuța se mai folosește și în scăldătoarea copiilor, că să crească și să se întărească)^1^.
+De cele mai multe ori sacralitatea plantelor este cea care le confera puterea tamaduitoare, iar aceasta putere poate fi insotita de calitati de tip oracular, asa cum se intampla in cazul Duminicutei *(Lysimachia nummularia),* planta ce creste prin paduri, prin poieni, prin zavoaie sau pe malul apelor. in locul de unde este culeasa, se lasa ofranda de paine si sare. Adusa acasa se foloseste la copiii care nu merg in picioare; se pune langa foc pe vatra, cu paine si sare alaturi, si daca se innegreste este semn ca vor muri, daca nu, este semn ca vor trai. (Duminicuta se mai foloseste si in scaldatoarea copiilor, ca sa creasca si sa se intareasca)^1^.
 
-> Am văzut că unele ierburi au putere protectoare în fața supranaturalului. Astfel, odinioară, când mergeau la joc, la ospețe sau cu animalele la sălașe de pe înălțimi unde rămâneau adeseori singure, până toamna, fetelor din Sălciua li se făceau de către mamele lor lăutori cu Odolean *(Valeriana officinalis),* Leuștean și Iarbă Neagră *(Sanicula europaea),* ca să nu le fure zmeii ce se vedeau uneori ieșind ca o pară de foc, ce lumina în noapte și apoi se stingea, dintr-o peșteră numită Poarta Zmeilor,
+> Am vazut ca unele ierburi au putere protectoare in fata supranaturalului. Astfel, odinioara, cand mergeau la joc, la ospete sau cu animalele la salase de pe inaltimi unde ramaneau adeseori singure, pana toamna, fetelor din Salciua li se faceau de catre mamele lor lautori cu Odolean *(Valeriana officinalis),* Leustean si Iarba Neagra *(Sanicula europaea),* ca sa nu le fure zmeii ce se vedeau uneori iesind ca o para de foc, ce lumina in noapte si apoi se stingea, dintr-o pestera numita Poarta Zmeilor,
 >
-#### Mătrăguna
+#### Matraguna
 >
 > --- *Atropa belladonna ---*
 >
-> Cea mai mare parte a denumirilor acestei plante halucinante (viziunile pe care le dă consumarea sa sunt asemănătoare cu cele date de *Peyotl,* fiind însoțite însă de trăiri terifiante, de tulburări afective), așa cum sunt cele de *Doamna Codrului, Doamnă Mare, Iarba (Floarea) Codrului, împărăteasă* (a *Buruienilor),* denotă importanța pe care o are în atenția populară, de ea legându-se o serie de practici magice, mai mult decât de alte ierburi^1^. Toate părțile plantei, mai ales rădăcina, frunzele și fructele au un conținut bogat în alcaloizi (atropină, beladonină, hiosciamină, scopolamină etc), cu puternică acțiune asupra sistemului nervos.
+> Cea mai mare parte a denumirilor acestei plante halucinante (viziunile pe care le da consumarea sa sunt asemanatoare cu cele date de *Peyotl,* fiind insotite insa de trairi terifiante, de tulburari afective), asa cum sunt cele de *Doamna Codrului, Doamna Mare, Iarba (Floarea) Codrului, imparateasa* (a *Buruienilor),* denota importanta pe care o are in atentia populara, de ea legandu-se o serie de practici magice, mai mult decat de alte ierburi^1^. Toate partile plantei, mai ales radacina, frunzele si fructele au un continut bogat in alcaloizi (atropina, beladonina, hiosciamina, scopolamina etc), cu puternica actiune asupra sistemului nervos.
 >
 > .
 
---- *\"Bună seara Mătrăgună, Bună Doamnă și bună maică* (sau: *înălțată Mătrăgună și Puternică Doamnă) care atingi cu capul cerul, care îți înfigi rădăcinile sub pământ și a cărei rochie* (frunziș) *fiutură în vânt. Tu care ești regina cerurilor și a furtunilor, tu care ești regina fiorilor, căci în fața ta toate florile se prosternă și te preamăresc, pe tine te chem și pe tine te rog, cu coatele goale, cu genunchii goi, fruntea plecată până la pământ* (se apleacă și sărută pământul) *să-i dai putere și sănătate, să-i dai leac bolnavului\...\"^1^.*
+--- *\"Buna seara Matraguna, Buna Doamna si buna maica* (sau: *inaltata Matraguna si Puternica Doamna) care atingi cu capul cerul, care iti infigi radacinile sub pamant si a carei rochie* (frunzis) *fiutura in vant. Tu care esti regina cerurilor si a furtunilor, tu care esti regina fiorilor, caci in fata ta toate florile se prosterna si te preamaresc, pe tine te chem si pe tine te rog, cu coatele goale, cu genunchii goi, fruntea plecata pana la pamant* (se apleaca si saruta pamantul) *sa-i dai putere si sanatate, sa-i dai leac bolnavului\...\"^1^.*
 
-> Această invocație este un exemplu edificator asupra conținutului elementului discursiv al ritualului culegerii *Mătrăgunei.* Ritualul este condus de obicei de către o bătrână inițiată, asistată fiind de două fete sau de două femei tinere. Există însă și obiceiul de a pleca doar două tinere după *Mătrăgună.* Când se duc să culeagă planta menită unei vrăji de trezire a dragostei, acestea pleacă spre miezul nopții, goale și despletite, îmbrățișându-se și sărutându-se tot drumul, până la locul unde crește *Mătrăguna* (undeva într-o pădure, departe de orice așezare omenescă)^2^. Când ritualul este condus de către o bătrână, aceasta rostește formule magice în apropierea *Mătrăgunei,* în timp ce însoțitorii ci mănâncă, beau, își spun vorbe de dragoste, se îmbrățișează și se sărută. Când se încheie descântecul, ei dansează în jurul Mătrăgunei, în timp ce bătrâna sapă atent pământul din jurul plantei pentru a nu rupe nici cea mai mică bucățică de rădăcină^3^, în timpul dansului, învârtindu-se în jurul plantei, femeile cântă:
+> Aceasta invocatie este un exemplu edificator asupra continutului elementului discursiv al ritualului culegerii *Matragunei.* Ritualul este condus de obicei de catre o batrana initiata, asistata fiind de doua fete sau de doua femei tinere. Exista insa si obiceiul de a pleca doar doua tinere dupa *Matraguna.* Cand se duc sa culeaga planta menita unei vraji de trezire a dragostei, acestea pleaca spre miezul noptii, goale si despletite, imbratisandu-se si sarutandu-se tot drumul, pana la locul unde creste *Matraguna* (undeva intr-o padure, departe de orice asezare omenesca)^2^. Cand ritualul este condus de catre o batrana, aceasta rosteste formule magice in apropierea *Matragunei,* in timp ce insotitorii ci mananca, beau, isi spun vorbe de dragoste, se imbratiseaza si se saruta. Cand se incheie descantecul, ei danseaza in jurul Matragunei, in timp ce batrana sapa atent pamantul din jurul plantei pentru a nu rupe nici cea mai mica bucatica de radacina^3^, in timpul dansului, invartindu-se in jurul plantei, femeile canta:
 >
-> *Mătrăgună, Doamnă bună*
+> *Matraguna, Doamna buna*
 >
-> *Nu te iau de bolunzăt* (pentru boală)
+> *Nu te iau de bolunzat* (pentru boala)
 >
-> *Ci te iau pe îndrăgit* (să trezești dragostea)
+> *Ci te iau pe indragit* (sa trezesti dragostea)
 >
-> *Nu te iau să bolunzăști*
+> *Nu te iau sa bolunzasti*
 >
-> *Ci te iau să îndrăgești.*
+> *Ci te iau sa indragesti.*
 >
-> Pentru a determina măritișul se cântă astfel:
+> Pentru a determina maritisul se canta astfel:
 >
-> *Mătrăgună, Doamnă bună*
+> *Matraguna, Doamna buna*
 >
-> *Mărită-mă\'n astă lună.*
+> *Marita-ma\'n asta luna.*
 >
-> *De nu\'n asta\'n ha Haltă*
+> *De nu\'n asta\'n ha Halta*
 >
-> *Să nu fiu nemăritată*
+> *Sa nu fiu nemaritata*
 >
-> *Că s\'a ros coada de beartă*
+> *Ca s\'a ros coada de bearta*
 >
 > *Degetele de inele*
 >
-> *Și grumazii de mărgele}*
+> *Si grumazii de margele}*
 >
-> Mircea Eliade consideră că \"rădăcina de *Mătrăgună* poate într-adevăr avea o influență directă asupra forțelor vitale ale omului sau ale naturii: ea are puterea să mărite fetele, să poarte noroc în dragoste și fecunditate în căsnicie\...\"^2^.
+> Mircea Eliade considera ca \"radacina de *Matraguna* poate intr-adevar avea o influenta directa asupra fortelor vitale ale omului sau ale naturii: ea are puterea sa marite fetele, sa poarte noroc in dragoste si fecunditate in casnicie\...\"^2^.
 >
-> Ritul culesului *Mătrăgunei* trebuie îndeplinit pe timp de Lună plină, în aprilie-mai, înaintea Rusaliilor (în unele părți chiar în timpul Rusaliilor), după această dată virtuțile magice ale plantei încetând. Culegătoarea spune: *\"Eu îți dau miere, pâine și sare, dă-mi mie puterea Sfinției tale.\'\".* în groapa lăsată de rădăcina Mătrăgunei se lasă plata, mierea, pâinea și sarea, sau bucăți de zahăr, monede, vin etc (uneori chiar Mătrăguna este scăldată în vin pe la locul culegerii).
+> Ritul culesului *Matragunei* trebuie indeplinit pe timp de Luna plina, in aprilie-mai, inaintea Rusaliilor (in unele parti chiar in timpul Rusaliilor), dupa aceasta data virtutile magice ale plantei incetand. Culegatoarea spune: *\"Eu iti dau miere, paine si sare, da-mi mie puterea Sfintiei tale.\'\".* in groapa lasata de radacina Matragunei se lasa plata, mierea, painea si sarea, sau bucati de zahar, monede, vin etc (uneori chiar Matraguna este scaldata in vin pe la locul culegerii).
 >
-> Culegătoarele Mătrăgunei din Carpații Apuseni trebuie să se dezbrace și să facă trei mătănii cu fața spre răsărit. O înconjoară apoi de trei ori, în timp ce îi descântă sau o vrăjesc. Planta este apoi scoasă cu sapa și culcată spre răsărit. în locul de unde au scos-o, femeile așează pâinea, sarea și banul, adică *plata* sa.
+> Culegatoarele Matragunei din Carpatii Apuseni trebuie sa se dezbrace si sa faca trei matanii cu fata spre rasarit. O inconjoara apoi de trei ori, in timp ce ii descanta sau o vrajesc. Planta este apoi scoasa cu sapa si culcata spre rasarit. in locul de unde au scos-o, femeile aseaza painea, sarea si banul, adica *plata* sa.
 
-Ea trebuie să fie plătită, căci altminteri nu numai că nu este lecuitoare (sau eficientă în scopul culesului), dar noaptea va striga pe cei care au cules-o să o ducă de unde au adus-o, iar dacă nu o duc, se răzbună. în final femeile așează pământul săpat în locul de unde au scos Mătrăguna și fac apoi trei mătănii spre apus.
+Ea trebuie sa fie platita, caci altminteri nu numai ca nu este lecuitoare (sau eficienta in scopul culesului), dar noaptea va striga pe cei care au cules-o sa o duca de unde au adus-o, iar daca nu o duc, se razbuna. in final femeile aseaza pamantul sapat in locul de unde au scos Matraguna si fac apoi trei matanii spre apus.
 
-> O a doua fază a ritului constă în așezarea spate în spate a culegătoarelor, una cu fața la răsărit iar cealaltă la apus. Cea cu fața spre apus ridică Mătrăguna și o transmite astfel celei cu fața spre răsărit^1^.
+> O a doua faza a ritului consta in asezarea spate in spate a culegatoarelor, una cu fata la rasarit iar cealalta la apus. Cea cu fata spre apus ridica Matraguna si o transmite astfel celei cu fata spre rasarit^1^.
 >
-> Deși periculoasă, fiind otrăvitoare, Mătrăguna este folosită uneori pentru felurile boli de lungă durată, consumul ei dând un fel de \"nebunie\" urmată apoi de vindecarea totală. Puțini sunt însă cei ce recurg la acest mijloc, deoarece poate duce chiar la moarte. Se cunoaște cazul unei femei care într-o noapte, după ce se rugase să afle un leac pentru bărbatul său ce zăcea bolnav de șapte ani, a visat că trebuie să se ducă pe o coastă unde va găsi Mătrăguna. în timp ce visa cum trebuie să o folosească a fost trezită de bărbat și nu a mai știut ce i se spunea.
+> Desi periculoasa, fiind otravitoare, Matraguna este folosita uneori pentru felurile boli de lunga durata, consumul ei dand un fel de \"nebunie\" urmata apoi de vindecarea totala. Putini sunt insa cei ce recurg la acest mijloc, deoarece poate duce chiar la moarte. Se cunoaste cazul unei femei care intr-o noapte, dupa ce se rugase sa afle un leac pentru barbatul sau ce zacea bolnav de sapte ani, a visat ca trebuie sa se duca pe o coasta unde va gasi Matraguna. in timp ce visa cum trebuie sa o foloseasca a fost trezita de barbat si nu a mai stiut ce i se spunea.
 >
-> Femeia s-a dus totuși la locul visat, de unde a luat o plantă întreagă de Mătrăgună, cu tot cu fructele sale ca niște boabe. Pe drum s-a întâlnit cu două femei «țâganc», două duhuri întrupate, care au întrebat-o:
+> Femeia s-a dus totusi la locul visat, de unde a luat o planta intreaga de Matraguna, cu tot cu fructele sale ca niste boabe. Pe drum s-a intalnit cu doua femei «taganc», doua duhuri intrupate, care au intrebat-o:
 >
-> --- *Stăpâna mea, unde duci floarea aiasta, că aiasta-i*
+> --- *Stapana mea, unde duci floarea aiasta, ca aiasta-i*
 >
-#### Mătrăgună
+#### Matraguna
 >
-> *--- Da\' cum să folosește, că mi omu\' bolnav?* întreabă la
+> *--- Da\' cum sa foloseste, ca mi omu\' bolnav?* intreaba la
 >
-> rândul său femeia.
+> randul sau femeia.
 >
-> --- *Să-i dai două boabe, nu mai mult.*
+> --- *Sa-i dai doua boabe, nu mai mult.*
 >
-> Femeia însă i-a dat bărbatul mai multe fructe, ceea ce a dus la o otrăvire puternică, încât i s-a umflat și limba în gură. Consultat de doctor i s-a dat, ca la orice otrăvire, să bea lapte dulce. După ce și-a revenit, s-a făcut bine și de boala în care zăcuse șapte ani, ca și când nici nu ar fi fost bolnav^2^.
+> Femeia insa i-a dat barbatul mai multe fructe, ceea ce a dus la o otravire puternica, incat i s-a umflat si limba in gura. Consultat de doctor i s-a dat, ca la orice otravire, sa bea lapte dulce. Dupa ce si-a revenit, s-a facut bine si de boala in care zacuse sapte ani, ca si cand nici nu ar fi fost bolnav^2^.
 >
-> în unele părți se fierbe planta într-o oală nouă. înainte de a-i da să bea, bolnavul este legat de pat, căci după ce gustă din băutură începe să delireze ca un nebun. Tbt timpul trebuie să se păstreze curat. De trei ori pe zi, timp de trei zile la rând, se spală tot trupul bolnavului cu acest \"suc de mătrăgună\" și i se dă să bea totodată câte trei lingurițe. Bolnavul nu are voie să mănânce ceapă crudă (timp de trei zile) sau să bea țuică și vin (timp de mai multe săptămâni). Se pare că se vindecă astfel bolile de picioare, mâini (durerile), rinichi, *frigurile^1^.*
+> in unele parti se fierbe planta intr-o oala noua. inainte de a-i da sa bea, bolnavul este legat de pat, caci dupa ce gusta din bautura incepe sa delireze ca un nebun. Tbt timpul trebuie sa se pastreze curat. De trei ori pe zi, timp de trei zile la rand, se spala tot trupul bolnavului cu acest \"suc de matraguna\" si i se da sa bea totodata cate trei lingurite. Bolnavul nu are voie sa manance ceapa cruda (timp de trei zile) sau sa bea tuica si vin (timp de mai multe saptamani). Se pare ca se vindeca astfel bolile de picioare, maini (durerile), rinichi, *frigurile^1^.*
 >
-> Atunci când se culegea \"pe joc\", adică să fie jucată o fată în horile satului, cele două culegătoare se învârteau de trei ori în jurul Mătrăgunei, strigând:
+> Atunci cand se culegea \"pe joc\", adica sa fie jucata o fata in horile satului, cele doua culegatoare se invarteau de trei ori in jurul Matragunei, strigand:
 >
 > *Hop, hop, hop*
 >
 > *Cu mine\'n joc,*
 >
-> *Mătrăgună Doamnă Bună.*
+> *Matraguna Doamna Buna.*
 >
-> *O* scoteau apoi din pământ și o plăteau, iar când se duceau la joc, o puneau în opincă sau în pantoful drept, în credința că nu vor mai fi ocolite și că de acum înainte vor fi jucatei. Alteori era aruncată în locul unde erau adunați feciorii sau li se strecura în buzunare.
+> *O* scoteau apoi din pamant si o plateau, iar cand se duceau la joc, o puneau in opinca sau in pantoful drept, in credinta ca nu vor mai fi ocolite si ca de acum inainte vor fi jucatei. Alteori era aruncata in locul unde erau adunati feciorii sau li se strecura in buzunare.
 
-Putea fi culeasă și pentru cârciumari, spre a atrage lumea la cârciuma lor. Se plătea atunci două femei care știau să o culeagă. Acestea luau tot felul de băuturi din cârciumă, ca pâine, sare un ban și praf, tot din cârciumă, după ce l-au învârtit de trei ori în jurul unui butoi, contrar mersului soarelui. Cu toate acestea se înconjura în pădure Mătrăguna, închinând și dorindu-le celor ce intră în cârciumă să nu mai iasă cu punga plină de acolo. Astfel culeasă, ea se pune sub butoiul cu vin sau, puțin din ea, în băutură. Odinioară chiar se credea despre unele cârciumi că le merge bine, pentru că le-a fost adusă Mătrăguna.
+Putea fi culeasa si pentru carciumari, spre a atrage lumea la carciuma lor. Se platea atunci doua femei care stiau sa o culeaga. Acestea luau tot felul de bauturi din carciuma, ca paine, sare un ban si praf, tot din carciuma, dupa ce l-au invartit de trei ori in jurul unui butoi, contrar mersului soarelui. Cu toate acestea se inconjura in padure Matraguna, inchinand si dorindu-le celor ce intra in carciuma sa nu mai iasa cu punga plina de acolo. Astfel culeasa, ea se pune sub butoiul cu vin sau, putin din ea, in bautura. Odinioara chiar se credea despre unele carciumi ca le merge bine, pentru ca le-a fost adusa Matraguna.
 
-Când o culegeau \"pe urât\", cele două culegătoare se întorceau cu fața de la ea și, scărpinându-se la spate, ziceau:
+Cand o culegeau \"pe urat\", cele doua culegatoare se intorceau cu fata de la ea si, scarpinandu-se la spate, ziceau:
 
 > *Cine te-o lua*
 >
@@ -1251,382 +1251,382 @@ Când o culegeau \"pe urât\", cele două culegătoare se întorceau cu fața de
 >
 > *Numai cu dosu te-o vedea,*
 >
-> *Cu fața ba.*
+> *Cu fata ba.*
 >
-> Alteori era culeasă \"pe bolunzit\" (pentru a îmbolnăvi pe cineva) sau \"pe moarte\", culegerea fiind însoțită de blesteme. în asemenea cazuri era administrată celui ce îi era destinată, în băutură sau în mâncare^1^.
+> Alteori era culeasa \"pe bolunzit\" (pentru a imbolnavi pe cineva) sau \"pe moarte\", culegerea fiind insotita de blesteme. in asemenea cazuri era administrata celui ce ii era destinata, in bautura sau in mancare^1^.
 >
-> în județul Vaslui s-au păstrat reminiscențele unui cult important al Mătrăgunei. Astfel, exista obiceiul ca într-o zi de Duminică, inițiatul ce dorea să îi dobândească favorurile, să se ducă la locul unde creștea (\"în câmp\"), să îi aducă ofrandă de mâncare și băutură, adică pâine și vin, și să o ia acasă cu lăutari cântând și cu alai de lume. Acasă trebuia ținută în cinste, posesorul ei fiind mereu voios, trebuind să nu se certe cu nimeni și să nu blesteme (dacă încalcă aceste reguli, Mătrăguna îl omora). Mătrăguna putea fi trimisă oriunde de către deținătorul ei, ea ducându-se și aducându-i ceea ce îi cerea. în fiecare Duminică însă, cel ce o deținea trebuia să aducă lăutarii să îi cânte și sătenii să joace, el însuși fiind, mai ales în această zi, foarte bucuros^2^.
+> in judetul Vaslui s-au pastrat reminiscentele unui cult important al Matragunei. Astfel, exista obiceiul ca intr-o zi de Duminica, initiatul ce dorea sa ii dobandeasca favorurile, sa se duca la locul unde crestea (\"in camp\"), sa ii aduca ofranda de mancare si bautura, adica paine si vin, si sa o ia acasa cu lautari cantand si cu alai de lume. Acasa trebuia tinuta in cinste, posesorul ei fiind mereu voios, trebuind sa nu se certe cu nimeni si sa nu blesteme (daca incalca aceste reguli, Matraguna il omora). Matraguna putea fi trimisa oriunde de catre detinatorul ei, ea ducandu-se si aducandu-i ceea ce ii cerea. in fiecare Duminica insa, cel ce o detinea trebuia sa aduca lautarii sa ii cante si satenii sa joace, el insusi fiind, mai ales in aceasta zi, foarte bucuros^2^.
 
-Cercetând Arhiva de Folclor a Academiei Române, Mircea Eliade a relevat o serie de elemente tehnice interesante ale culesului Mătrăgunei. Astfel, în Maramureș, după ce au mâncat și au împlinit vraja culegerii, femeile o ascund în sân și se întorc acasă, nimeni să nu știe că aduc Mătrăguna. îi salută pe toți cei pe care îi întâlnesc și le vorbesc. în comuna Săpânța (Maramureș), culegeau mătrăguna un flăcău și o fată ce trebuiau să nu fie văzuți. Când o luau \"de bine\", după ce îi ofereau daruri dansau goi în jurul ei, chiuind. Scoteau apoi planta cu rădăcina cu tot, fără să o rupă. Când era culeasă \"de rău\", trebuia lovită cu bastonul, tâ-
+Cercetand Arhiva de Folclor a Academiei Romane, Mircea Eliade a relevat o serie de elemente tehnice interesante ale culesului Matragunei. Astfel, in Maramures, dupa ce au mancat si au implinit vraja culegerii, femeile o ascund in san si se intorc acasa, nimeni sa nu stie ca aduc Matraguna. ii saluta pe toti cei pe care ii intalnesc si le vorbesc. in comuna Sapanta (Maramures), culegeau matraguna un flacau si o fata ce trebuiau sa nu fie vazuti. Cand o luau \"de bine\", dupa ce ii ofereau daruri dansau goi in jurul ei, chiuind. Scoteau apoi planta cu radacina cu tot, fara sa o rupa. Cand era culeasa \"de rau\", trebuia lovita cu bastonul, ta-
 
-> rată pe pământ, făcută bucăți și aruncată în calea (sau în curtea) celui căruia i se dorește moartea sau un rău. M. Eliade apreciază că injuriile, loviturile și gesturile grotești indispensabile vrăjii \"de rău\" sunt schimbate între componenții *\"echipei de culegători\",* Mătrăguna rămânând respectată.
+> rata pe pamant, facuta bucati si aruncata in calea (sau in curtea) celui caruia i se doreste moartea sau un rau. M. Eliade apreciaza ca injuriile, loviturile si gesturile grotesti indispensabile vrajii \"de rau\" sunt schimbate intre componentii *\"echipei de culegatori\",* Matraguna ramanand respectata.
 >
-> în scop pur medicinal Mătrăguna, culeasă tot ritualic, se punea pe umflături. Cei cu *friguri* și-o legau la cap, pe frunte (dr. N Leon, în *Istoria naturală medicală a poporului român,* aprecia că acest remediu vindeca într-adevăr/r/gwAvVe, singurul inconvenient fiind acela că se delira după administrarea lui, dar pentru puțin timp. Cu frunze aprinse se trata tușea, iar rădăcina plămădită se folosea contra reumatismului
+> in scop pur medicinal Matraguna, culeasa tot ritualic, se punea pe umflaturi. Cei cu *friguri* si-o legau la cap, pe frunte (dr. N Leon, in *Istoria naturala medicala a poporului roman,* aprecia ca acest remediu vindeca intr-adevar/r/gwAvVe, singurul inconvenient fiind acela ca se delira dupa administrarea lui, dar pentru putin timp. Cu frunze aprinse se trata tusea, iar radacina plamadita se folosea contra reumatismului
 >
-#### Mătrăguna mica
+#### Matraguna mica
 
---- *Scopolia cărnii oi ca*
+--- *Scopolia carnii oi ca*
 
-> Numită și Mutulică sau chiar Iarba Codrului și Mătrăgună (în Carpații Apuseni), această altă plantă halucinogenă pare să preia în unele zone (precum Oltenia și Neamț) întrebuintătile și funcțiile magice ale Mătrăgunei *(Atropa belladona)\\*
+> Numita si Mutulica sau chiar Iarba Codrului si Matraguna (in Carpatii Apuseni), aceasta alta planta halucinogena pare sa preia in unele zone (precum Oltenia si Neamt) intrebuintatile si functiile magice ale Matragunei *(Atropa belladona)\\*
 >
-> în Țara Oltului aproape toate femeile au auzit de ea și de unele nenorociri aduse de ea. cele mai multe o și cunosc. Ritualul de culegere al ei însă îl cunosc mai puține, iar și mai puține sunt cele care îndrăznesc să apeleze la puterile ei aducătoare de noroc, dragoste și moarte. Nu oricine o poate culege, ci numai anumite femei bătrâne sau copii, căci în concepția populară copiii sunt neprihăniți de păcatele lumești, iar femeile bătrâne șterg aceste păcate prin rugi, prin postiri și prin preocupări pentru viața viitoare. Mătrăguna mică trebuie culeasă de către aceștia
+> in Tara Oltului aproape toate femeile au auzit de ea si de unele nenorociri aduse de ea. cele mai multe o si cunosc. Ritualul de culegere al ei insa il cunosc mai putine, iar si mai putine sunt cele care indraznesc sa apeleze la puterile ei aducatoare de noroc, dragoste si moarte. Nu oricine o poate culege, ci numai anumite femei batrane sau copii, caci in conceptia populara copiii sunt neprihaniti de pacatele lumesti, iar femeile batrane sterg aceste pacate prin rugi, prin postiri si prin preocupari pentru viata viitoare. Matraguna mica trebuie culeasa de catre acestia
 >
-> pentru a fi ferită de atingerea cu păcatul lumesc, atingere care ar putea să aducă chiar înrăutățirea stării bolnavului. Culegerea pentru întrebuințări magice implică și mai multe precauții, se aprinde lumină, tămâie, i se duc daruri.
+> pentru a fi ferita de atingerea cu pacatul lumesc, atingere care ar putea sa aduca chiar inrautatirea starii bolnavului. Culegerea pentru intrebuintari magice implica si mai multe precautii, se aprinde lumina, tamaie, i se duc daruri.
 >
-> Ajuns cu ea acasă, cel ce o folosește, taie din rădăcina ei trei (sau chiar nouă) felii subțiri ca o foiță. Le numără apoi invers (\"nouă, opt, șapte\...\", sau \"trei, două, una\"), le pune într-o ulcică nouă în care toarnă și vin. Se lasă apoi să fiarbă la foc până rămâne cât două pahare. După ce s-a fiert se dă bolnavului să bea din decoctul rădăcinei, însă cu teamă și precauție. \"Aia te nebunește dacă o bei\", spun sătenii. Sau: \"Vorbește pustiu omu\' dacă o bea\"; \"Cui o dai nebunește. Să ai om lângă tine că-i vine să deie cu cuțitu\'n cine io hierbe\". Aceste stări sunt de scurtă durată, câteva ore sau o zi, și se spune că mulți s-au vindecat de durerile (reumatice) de șolduri cu ajutorul ei.
+> Ajuns cu ea acasa, cel ce o foloseste, taie din radacina ei trei (sau chiar noua) felii subtiri ca o foita. Le numara apoi invers (\"noua, opt, sapte\...\", sau \"trei, doua, una\"), le pune intr-o ulcica noua in care toarna si vin. Se lasa apoi sa fiarba la foc pana ramane cat doua pahare. Dupa ce s-a fiert se da bolnavului sa bea din decoctul radacinei, insa cu teama si precautie. \"Aia te nebuneste daca o bei\", spun satenii. Sau: \"Vorbeste pustiu omu\' daca o bea\"; \"Cui o dai nebuneste. Sa ai om langa tine ca-i vine sa deie cu cutitu\'n cine io hierbe\". Aceste stari sunt de scurta durata, cateva ore sau o zi, si se spune ca multi s-au vindecat de durerile (reumatice) de solduri cu ajutorul ei.
 >
-> Această plantă arc reputația că alungă umbrele grele ce învăluie viitorul, prvestind durata vieții, dacă omul va trăi mult ori puțin, prevestește vindecarea bolilor grave ori moartea. în credințele bătrânelor ea ghicește până și intențiile celui ce se apropie de ea (mai ales intențiile ce o privesc direct). în fața destinului, a morții, frunzele sale se pleoștesc. \"Iarba Codrului o sapă pentru oamenii bolnavi - spunea o femeie din Mărgineni. Cine o sapă aprinde lumină, tămâie, face mătănii și se roagă lui Dumnezeu. De care dai întâi aia s\'o sapi. Cum pui ochii pe ea i se blegoșează foile că știe că pe ea o sapi. Dacă-i omu de viață rădăcina ei ii sănătoasă, dacă-i de moarte ii scorburoasă.\"
+> Aceasta planta arc reputatia ca alunga umbrele grele ce invaluie viitorul, prvestind durata vietii, daca omul va trai mult ori putin, prevesteste vindecarea bolilor grave ori moartea. in credintele batranelor ea ghiceste pana si intentiile celui ce se apropie de ea (mai ales intentiile ce o privesc direct). in fata destinului, a mortii, frunzele sale se pleostesc. \"Iarba Codrului o sapa pentru oamenii bolnavi - spunea o femeie din Margineni. Cine o sapa aprinde lumina, tamaie, face matanii si se roaga lui Dumnezeu. De care dai intai aia s\'o sapi. Cum pui ochii pe ea i se blegoseaza foile ca stie ca pe ea o sapi. Daca-i omu de viata radacina ei ii sanatoasa, daca-i de moarte ii scorburoasa.\"
 >
-> Pentru a o avea la îndemână unele femei o aduceau și o puneau în grădinița casei, purtându-i o grijă deosebită, ferindu-se în special să arunce pe ea apă murdară sau alte lucruri, nici nu lăsau copiii să se joace în jurul ei, deoarece se crede că planta fie că se usucă, fie că fuge, se duce în altă parte ducând norocul cu ea. Unei femei, după cum îi mărturisea ea lui Vaier Butură, i-au intrat copiii în grădiniță și planta a fugit dincolo de gărduleț. \"Acolo o văzuse ea ultima dată - scria V. Butură -, și mergând într\'acolo să mi-o arate n\'a mai găsit-o. «S\'o fi dus și de aici», mi-a spus.\"
+> Pentru a o avea la indemana unele femei o aduceau si o puneau in gradinita casei, purtandu-i o grija deosebita, ferindu-se in special sa arunce pe ea apa murdara sau alte lucruri, nici nu lasau copiii sa se joace in jurul ei, deoarece se crede ca planta fie ca se usuca, fie ca fuge, se duce in alta parte ducand norocul cu ea. Unei femei, dupa cum ii marturisea ea lui Vaier Butura, i-au intrat copiii in gradinita si planta a fugit dincolo de gardulet. \"Acolo o vazuse ea ultima data - scria V. Butura -, si mergand intr\'acolo sa mi-o arate n\'a mai gasit-o. «S\'o fi dus si de aici», mi-a spus.\"
 >
-> Ca și Mătrăguna, Mătrăguna mică poate fi folosită și în scopuri rele, putând cauza moarte dușmanilor celui ce o folosește \"S-o omorât și aici, da\' eu nu le-am învățat\", spunea Lina Neamțului din Sebeș, vrăjitoare al cărei nume circula prin multe sate din Țara Oltului. Planta aduce boli chinuitoare prin chinuirea micilor vietăți (gângănii în general) ce se găsesc la rădăcina ei, iar prin omorârea lor sau numai prin strivirea rădăcinilor aduce moartea. O săteancă spunea că la rădăcina plantei trăiește o năpârcă, pe care dacă o omori, moare și omul pentru care este săpată. Iată cum este relatat acest fapt: \"Când au pe cineva contra îi sapă Iarba Codrului. Cine o sapă, în ziua aceea nu mănâncă nimic\... Aprinzi tămâie și-o sapi pe gândul ce-1 ai. Ce găsești la rădăcina ei omori\"; \"Când o sapi te pui în genunchi la rădăcina ei, te rogi lui Dumnezeu și faci mătănii. Sapi la rădăcină și acolo-s ghiermi și-i omori pe numele ăluia care ți-a făcut răul. Ghiemi, râme, ce-o fi omori și zici: «Dumnezeu să-i ajute și să-i facă ghine cum le fac eu la ghiermii ăștia»\".
+> Ca si Matraguna, Matraguna mica poate fi folosita si in scopuri rele, putand cauza moarte dusmanilor celui ce o foloseste \"S-o omorat si aici, da\' eu nu le-am invatat\", spunea Lina Neamtului din Sebes, vrajitoare al carei nume circula prin multe sate din Tara Oltului. Planta aduce boli chinuitoare prin chinuirea micilor vietati (ganganii in general) ce se gasesc la radacina ei, iar prin omorarea lor sau numai prin strivirea radacinilor aduce moartea. O sateanca spunea ca la radacina plantei traieste o naparca, pe care daca o omori, moare si omul pentru care este sapata. Iata cum este relatat acest fapt: \"Cand au pe cineva contra ii sapa Iarba Codrului. Cine o sapa, in ziua aceea nu mananca nimic\... Aprinzi tamaie si-o sapi pe gandul ce-1 ai. Ce gasesti la radacina ei omori\"; \"Cand o sapi te pui in genunchi la radacina ei, te rogi lui Dumnezeu si faci matanii. Sapi la radacina si acolo-s ghiermi si-i omori pe numele aluia care ti-a facut raul. Ghiemi, rame, ce-o fi omori si zici: «Dumnezeu sa-i ajute si sa-i faca ghine cum le fac eu la ghiermii astia»\".
 >
-#### Floarea de ferigă
+#### Floarea de feriga
 >
 > --- *Dryopteris filix-mas* --- --- *Potystichum felix mas ---*
 >
-> Mai este numită și *Iarba șarpelui.*
+> Mai este numita si *Iarba sarpelui.*
 >
-> Tradiția populară spune că această plantă are o floare albă și strălucitoare ca o stea, ce înflorește în fiecare an numai în *Noaptea de Sânziene* (23 spre 24 iunie), între ceasurile 10 și 12, și ține numai până la vremea cântării cocoșului. Deși botanist» susțin că floarea Ferigăi este numai o legendă, poporul insistă că floarea sa este foarte frumoasă, că nu o poate vedea oricine, și, legat de această floare, există o seamă de credințe fantastice.
+> Traditia populara spune ca aceasta planta are o floare alba si stralucitoare ca o stea, ce infloreste in fiecare an numai in *Noaptea de Sanziene* (23 spre 24 iunie), intre ceasurile 10 si 12, si tine numai pana la vremea cantarii cocosului. Desi botanist» sustin ca floarea Ferigai este numai o legenda, poporul insista ca floarea sa este foarte frumoasa, ca nu o poate vedea oricine, si, legat de aceasta floare, exista o seama de credinte fantastice.
 
-Floclorul românesc indică că nimeni nu poate vedea și avea *floarea de ferigă,* din cauză că ființele nevăzute voiesc să o aibă numai pentru ele. De regulă numai ele o văd când înflorește. Floarea însă conferă unele puteri deținătorului ei, este \"aducătoare de noroc\", iar celui ce o are în casă îi merge foarte bine,
+Floclorul romanesc indica ca nimeni nu poate vedea si avea *floarea de feriga,* din cauza ca fiintele nevazute voiesc sa o aiba numai pentru ele. De regula numai ele o vad cand infloreste. Floarea insa confera unele puteri detinatorului ei, este \"aducatoare de noroc\", iar celui ce o are in casa ii merge foarte bine,
 
-\"ci va ști ce este pe pământ și în cer, va cunoaște voința și gândurile oamenilor\". Ea trebuie culeasă numai din păduri îndepărtate de așezări omenești, anume de unde cântatul cocoșului nu se aude.
+\"ci va sti ce este pe pamant si in cer, va cunoaste vointa si gandurile oamenilor\". Ea trebuie culeasa numai din paduri indepartate de asezari omenesti, anume de unde cantatul cocosului nu se aude.
 
-> Pentru a sublinia cvasi-imposibilitatea deținerii florii destinate ființelor supranaturale, au fost transmise unele indicații pentru obținerea acesteia, indicații care impun condiții dificil de urmat. Astfel, trebuie ales momentul Nopții de Sânziene pentru ca un grup de șase persoane să se deplaseze într-o pădure îndepărtată, unde crește Feriga. Grupul culegătorilor trebuie compus din doi frați, din doi veri primari după frați și din doi veri de gradul al doilea (din veri primari). Toți trebuie să facă parte din aceeași familie și să fie «curați de păcate», adică să nu întrețină relații sexuale. îmbrăcate în alb, curate, cele șase rude se duc la locul unde înflorește Feriga. Aici se postează toți în jurul Ferigii, fără să se așeze jos, veghind întreaga noapte asupra ei, nevorbind între ei și nerâzând. în timpul cât ei vor veghea în așteptarea înfloririi, se vor petrece tot felul de lucruri nefirești în jurul lor (specifice *Nopții de Sânziene,* când se «deschid cerurile») a căror menire este de a le distrage atenția, pierzând astfel momentul înfloririi, căci astfel nu vor putea culege floarea, ea intrând în posesia ființelor supranaturale. Dacă însă nu vor pierde Feriga din ochi, la un moment dat o vor vedea înflorind, albă și strălucitoare ca o stea. Atunci, cel mai vârstnic dintre veri se duce la floare, o rupe și o pune într-o năframă curată, câte o floare de fiecare, și pleacă ducându-o fiecare la casa lui. Pusă în casă, atrage norocul, fiind sursă de bogăției și belșug.
+> Pentru a sublinia cvasi-imposibilitatea detinerii florii destinate fiintelor supranaturale, au fost transmise unele indicatii pentru obtinerea acesteia, indicatii care impun conditii dificil de urmat. Astfel, trebuie ales momentul Noptii de Sanziene pentru ca un grup de sase persoane sa se deplaseze intr-o padure indepartata, unde creste Feriga. Grupul culegatorilor trebuie compus din doi frati, din doi veri primari dupa frati si din doi veri de gradul al doilea (din veri primari). Toti trebuie sa faca parte din aceeasi familie si sa fie «curati de pacate», adica sa nu intretina relatii sexuale. imbracate in alb, curate, cele sase rude se duc la locul unde infloreste Feriga. Aici se posteaza toti in jurul Ferigii, fara sa se aseze jos, veghind intreaga noapte asupra ei, nevorbind intre ei si nerazand. in timpul cat ei vor veghea in asteptarea infloririi, se vor petrece tot felul de lucruri nefiresti in jurul lor (specifice *Noptii de Sanziene,* cand se «deschid cerurile») a caror menire este de a le distrage atentia, pierzand astfel momentul infloririi, caci astfel nu vor putea culege floarea, ea intrand in posesia fiintelor supranaturale. Daca insa nu vor pierde Feriga din ochi, la un moment dat o vor vedea inflorind, alba si stralucitoare ca o stea. Atunci, cel mai varstnic dintre veri se duce la floare, o rupe si o pune intr-o naframa curata, cate o floare de fiecare, si pleaca ducandu-o fiecare la casa lui. Pusa in casa, atrage norocul, fiind sursa de bogatiei si belsug.
 >
-> în alte timpuri, la Ferigă se duceau fetele să își afle soarta. Săpau o ferigă cu acest gând și dacă avea rădăcina simplă, credeau că nu-și vor afla ursitul, că nu se vor mărita curând; dacă era îngemănată, cu rădăcina bifurcată, credeau că se vor mărita degrabă cu cel ce le este ursit^1^.
+> in alte timpuri, la Feriga se duceau fetele sa isi afle soarta. Sapau o feriga cu acest gand si daca avea radacina simpla, credeau ca nu-si vor afla ursitul, ca nu se vor marita curand; daca era ingemanata, cu radacina bifurcata, credeau ca se vor marita degraba cu cel ce le este ursit^1^.
 >
-> Terapeutic, feriga este pusă în scăldătorile oamenilor bol-năvicioși. Fiartă este bună în *oblojeli* (comprese, împachetări) contra durerilor de piept. Pentru însănătoșirea copiilor rahitici, bolnăvicioși, scrofuloși, care urinează noaptea în pat etc, se confecționează saltele și pernuțe umplute cu ferigă culeasă în Iunie și Iulie. Tot din frunze de Ferigă se fac băi, timp de trei zile la rând, pentru copiii care nu umblă pe picioare.
+> Terapeutic, feriga este pusa in scaldatorile oamenilor bol-naviciosi. Fiarta este buna in *oblojeli* (comprese, impachetari) contra durerilor de piept. Pentru insanatosirea copiilor rahitici, bolnaviciosi, scrofulosi, care urineaza noaptea in pat etc, se confectioneaza saltele si pernute umplute cu feriga culeasa in Iunie si Iulie. Tot din frunze de Feriga se fac bai, timp de trei zile la rand, pentru copiii care nu umbla pe picioare.
 >
-> Administrată intern, rădăcina Ferigăi este unul dintre cei mai puternici vermifugi (îndeosebi contra teniei), însă în doza prea mare poate fi mortală. Decoctul rădăcinei (rizomului) se bea, în Ioc de apă, împotriva astmului.
+> Administrata intern, radacina Ferigai este unul dintre cei mai puternici vermifugi (indeosebi contra teniei), insa in doza prea mare poate fi mortala. Decoctul radacinei (rizomului) se bea, in Ioc de apa, impotriva astmului.
 >
-> Buruiana vieții
+> Buruiana vietii
 >
-> Afară de *apa vie* (care isvorăște din \"munții care se bat în capete\"), basmul și credințele populare vorbesc despre o *Buruiană a vieții* cu care se pot învia oamenii și animalele ce au murit, pe care însă nu o recunosc decât animalele, îndeosebi șerpii. Ca să o dobândească, oamenii omoară un pui de șarpe, apoi așteaptă până vine mama puiului cu *Bumiana vieții* în gură. După șarpele și-a înviat puiul, părăsește iarba și omul o poate lua^1^.
+> Afara de *apa vie* (care isvoraste din \"muntii care se bat in capete\"), basmul si credintele populare vorbesc despre o *Buruiana a vietii* cu care se pot invia oamenii si animalele ce au murit, pe care insa nu o recunosc decat animalele, indeosebi serpii. Ca sa o dobandeasca, oamenii omoara un pui de sarpe, apoi asteapta pana vine mama puiului cu *Bumiana vietii* in gura. Dupa sarpele si-a inviat puiul, paraseste iarba si omul o poate lua^1^.
 
 #### Iarba Fierului (Iarba Fiarelor)
 
 > --- *Vincetoximum officinale* --- *---Actaea spicata* ---
 
-*Iarba fiarelor* este planta miraculoasă a românilor atribui-ndu-i-se cele mai mari virtuți magice. Astfel, cine și-o încrustează sub pielea palmei, nu poate fi nici măcar încătușat, prin simpla atingere putând descuia orice încuietoare. Mai are însușirea ca, pe cel ce o posedă, să îl apere de armele de fier, atrage banii spre stăpânul ei, conferă înțelegerea limbii animalelor și plante-
+*Iarba fiarelor* este planta miraculoasa a romanilor atribui-ndu-i-se cele mai mari virtuti magice. Astfel, cine si-o incrusteaza sub pielea palmei, nu poate fi nici macar incatusat, prin simpla atingere putand descuia orice incuietoare. Mai are insusirea ca, pe cel ce o poseda, sa il apere de armele de fier, atrage banii spre stapanul ei, confera intelegerea limbii animalelor si plante-
 
-> lor, și alte puteri suprafirești. Cu ea se pot deschide *ușile ferecate* ce duc la ascunse comori subpământene. Etnobotanica a identificat această plantă legendară cu *Cynanchum vincetoxicum* (care este o plantă de medie înălțime, cu flori alburii), dar cu aceeași denumire sub desemnate și speciile *Actea spicata, Drosera rotun-difolia, Hepatica nobilis, Verbena officinalis.*
+> lor, si alte puteri suprafiresti. Cu ea se pot deschide *usile ferecate* ce duc la ascunse comori subpamantene. Etnobotanica a identificat aceasta planta legendara cu *Cynanchum vincetoxicum* (care este o planta de medie inaltime, cu flori alburii), dar cu aceeasi denumire sub desemnate si speciile *Actea spicata, Drosera rotun-difolia, Hepatica nobilis, Verbena officinalis.*
 >
-> Credințele românești legate de această plantă sunt neobișnuite. Se spune despre ea că se găsește foarte greu, și că numai puțini oameni o posedă, putând astfel să deschidă orice lacăt, orice încuietoare. O au cei mai mari hoți care o păstrează încrustată în palma dreaptă, sub piele. Se crede că se găsește printre ierburile obișnuite, dar numai un an stă în același loc, în al doilea an răsărind peste trei ape curgătoare și tot așa mai departe, până în al nouălea an, când revine în același loc. în județul Muscel se spune că este roșie ca focul, până când răsare soarele, după aceea însă se face verde și nu se mai distinge^1^.
+> Credintele romanesti legate de aceasta planta sunt neobisnuite. Se spune despre ea ca se gaseste foarte greu, si ca numai putini oameni o poseda, putand astfel sa deschida orice lacat, orice incuietoare. O au cei mai mari hoti care o pastreaza incrustata in palma dreapta, sub piele. Se crede ca se gaseste printre ierburile obisnuite, dar numai un an sta in acelasi loc, in al doilea an rasarind peste trei ape curgatoare si tot asa mai departe, pana in al noualea an, cand revine in acelasi loc. in judetul Muscel se spune ca este rosie ca focul, pana cand rasare soarele, dupa aceea insa se face verde si nu se mai distinge^1^.
 >
-> Când am vorbit despre *lele (Vrăjmașii nevăzuți)* am arătat că basmul românesc amintește despre \"palatul Ielelor\", tărâm mirific aliat pe un vârf de munte, ascuns într-un \"labirint de văi\". Porțile acestui palat (o altă lume, de fapt) pot fi deschise numai cu *Iarba Fiarelor.* O altă poveste, a cărei acțiune s-a petrecut undeva pe Valea Moldovei, arată că bogățiile ascunse în interiorul pământului nu pot fi dobândite decât cu acesta iarbă^2^.
+> Cand am vorbit despre *lele (Vrajmasii nevazuti)* am aratat ca basmul romanesc aminteste despre \"palatul Ielelor\", taram mirific aliat pe un varf de munte, ascuns intr-un \"labirint de vai\". Portile acestui palat (o alta lume, de fapt) pot fi deschise numai cu *Iarba Fiarelor.* O alta poveste, a carei actiune s-a petrecut undeva pe Valea Moldovei, arata ca bogatiile ascunse in interiorul pamantului nu pot fi dobandite decat cu acesta iarba^2^.
 >
-> Calitatea *Ierbii Fiarelor* de a deschide porțile palatului Ielelor, a unui tărâm din altă lume, ca și culoarea ei ca aurul (când înflorește), permite asocierea ei cu *Creanga de Aur* a antichității.
+> Calitatea *Ierbii Fiarelor* de a deschide portile palatului Ielelor, a unui taram din alta lume, ca si culoarea ei ca aurul (cand infloreste), permite asocierea ei cu *Creanga de Aur* a antichitatii.
 >
-> Legendara *Iarbă a Fiarelor* crește numai în anumite locuri, se plimbă noaptea iar când înflorește strălucește ca aurul. Ca să scape de cei ce vor s-o culeagă, intră în pământ, se afundă în ape. Culesul ei implică un anume ritual. Astfel, trebuie să o rogi să se lase smulsă, și să-i promiți că nu o vei folosi împotriva firii ei, ca să faci rău altora^1^. în unele sate se crede că iarba aceasta galbenă are cap ca și omul și este vie, umblă; nu are rădăcină și frunze, ci numai niște aripi din umeri, coadă și picioare^2^.
+> Legendara *Iarba a Fiarelor* creste numai in anumite locuri, se plimba noaptea iar cand infloreste straluceste ca aurul. Ca sa scape de cei ce vor s-o culeaga, intra in pamant, se afunda in ape. Culesul ei implica un anume ritual. Astfel, trebuie sa o rogi sa se lase smulsa, si sa-i promiti ca nu o vei folosi impotriva firii ei, ca sa faci rau altora^1^. in unele sate se crede ca iarba aceasta galbena are cap ca si omul si este vie, umbla; nu are radacina si frunze, ci numai niste aripi din umeri, coada si picioare^2^.
 >
-> Se spune despre caii care pasc în locurile unde crește *Iarba Fiarelor* că, dacă sunt împiedicați cu piedici de fier, se desfac și se eliberează, iar despre cei potcoviți că rămân fără potcoave, într-un sat de lângă Fălticeni, în locul numit la Râpi, se spunea Ia începutul acestui secol că se găsește *Iarba Fiarelor.* Această credință era întemeiată pe faptul că aproape întotdeauna cailor ce pășteau în acel loc li se desfăceau lanțurile cu care erau împiedicați (iar alte vite ce pășteau în același loc ar fi murit).
+> Se spune despre caii care pasc in locurile unde creste *Iarba Fiarelor* ca, daca sunt impiedicati cu piedici de fier, se desfac si se elibereaza, iar despre cei potcoviti ca raman fara potcoave, intr-un sat de langa Falticeni, in locul numit la Rapi, se spunea Ia inceputul acestui secol ca se gaseste *Iarba Fiarelor.* Aceasta credinta era intemeiata pe faptul ca aproape intotdeauna cailor ce pasteau in acel loc li se desfaceau lanturile cu care erau impiedicati (iar alte vite ce pasteau in acelasi loc ar fi murit).
 
-\"Puțină lume cunoaște astăzi *iarba fierului\" -* scria Artur Gorovei^3^. După același autor, ca să o capeți, trebuie să prinzi o femelă de arici cu pui săi, să închizi puii cu gard, în care faci o portiță închisă cu lacăt. Femela de arici neputând intra la pui, caută \"prin lume\" *Iarba Fiarelor,* pe care o aduce să deschidă lacătul. O altă metodă de a recunoaște această plantă, este aceea de a aduna mai multă iarbă din locul unde se crede că se află ea, punându-se toată iarba cosită într-un vas mare cu apă. Iarba
+\"Putina lume cunoaste astazi *iarba fierului\" -* scria Artur Gorovei^3^. Dupa acelasi autor, ca sa o capeti, trebuie sa prinzi o femela de arici cu pui sai, sa inchizi puii cu gard, in care faci o portita inchisa cu lacat. Femela de arici neputand intra la pui, cauta \"prin lume\" *Iarba Fiarelor,* pe care o aduce sa deschida lacatul. O alta metoda de a recunoaste aceasta planta, este aceea de a aduna mai multa iarba din locul unde se crede ca se afla ea, punandu-se toata iarba cosita intr-un vas mare cu apa. Iarba
 
-obișnuită va pluti deasupra apei, în timp ce *Iarba Fiarelor,* fiind mai grea, cade la fundul vasului.
+obisnuita va pluti deasupra apei, in timp ce *Iarba Fiarelor,* fiind mai grea, cade la fundul vasului.
 
-> Cel ce a găsit iarba căutată își jupoaie pielea din palma mâinii dreapte, pune iarba fierului acolo, și apoi coase pielea la loc. După câteva zile tăietura se vindecă, omul rămânând cu puterea de a descuia orice încuietori^1^.
+> Cel ce a gasit iarba cautata isi jupoaie pielea din palma mainii dreapte, pune iarba fierului acolo, si apoi coase pielea la loc. Dupa cateva zile taietura se vindeca, omul ramanand cu puterea de a descuia orice incuietori^1^.
 >
-> *Cynanchum vincetoxicum* este o plantă otrăvitoare, folosită în general de către medicina populară împotriva durerilor de picioare, în afară de denumirea populară care i se dă, de *Iarbă a Fiarelor,* i se mai spune și *Pana Sburătorului* (Zburătorul fiind o ființă fantastică), *Iarba aerului* sau *Luminoasă^1^.* Ea crește prin fânețe și prin păduri, în păduri fiind mai înaltă. Are frunzele lunguiețe, două câte două față în față, cruciș unele deasupra altora. în vârf poartă flori simple, albe-gălbui, cu petalele răsfrânte ca o stea, răspândind un plăcut miros de miere^3^. Rădăcina plantei este folosită cu precauție în medicina tradițională ca expectorant, depurativ, diuretic, vermifug, iar în doze mari ca vomitiv.
+> *Cynanchum vincetoxicum* este o planta otravitoare, folosita in general de catre medicina populara impotriva durerilor de picioare, in afara de denumirea populara care i se da, de *Iarba a Fiarelor,* i se mai spune si *Pana Sburatorului* (Zburatorul fiind o fiinta fantastica), *Iarba aerului* sau *Luminoasa^1^.* Ea creste prin fanete si prin paduri, in paduri fiind mai inalta. Are frunzele lunguiete, doua cate doua fata in fata, crucis unele deasupra altora. in varf poarta flori simple, albe-galbui, cu petalele rasfrante ca o stea, raspandind un placut miros de miere^3^. Radacina plantei este folosita cu precautie in medicina traditionala ca expectorant, depurativ, diuretic, vermifug, iar in doze mari ca vomitiv.
 >
-> Ca diuretic se folosește astfel:
+> Ca diuretic se foloseste astfel:
 >
-> I. Decocție 10---15 g. de plantă la litru, fiartă 10 minute,\
-> câte 2---3 cești de ceai pe zi.
+> I. Decoctie 10---15 g. de planta la litru, fiarta 10 minute,\
+> cate 2---3 cesti de ceai pe zi.
 >
-> II\. Macerație de câteva zile în vin 20---30 g de plantă la un\
-> litru de vin. După strecurare se iau câte două pahare mici pe zi,\
-> în icter și alte tulburări ale ficatului, hidropizie, cloroză, ameno-\
-> ree, tulburări ale sistemului limfatic și glandular, scrofuloză, sifi\
+> II\. Maceratie de cateva zile in vin 20---30 g de planta la un\
+> litru de vin. Dupa strecurare se iau cate doua pahare mici pe zi,\
+> in icter si alte tulburari ale ficatului, hidropizie, cloroza, ameno-\
+> ree, tulburari ale sistemului limfatic si glandular, scrofuloza, sifi\
 > lis, impetigo. Dozele prea mari sunt toxice!
 
-O altă plantă cu care a fost identificată *Iarba Fiarelor* este *Actea spicata,* o plantă cu flori albe, mărunte și dese, așezate în vârful tulpinei. Este otrăvitoare, iar fructele negre și cărnoase, mâncate de copii aduc amețeli, o stare ca de beție. Odinioară era folosită ca plantă de leac contra ciumei, a bolilor de piele și îndeosebi în umflătura obrajilor.
+O alta planta cu care a fost identificata *Iarba Fiarelor* este *Actea spicata,* o planta cu flori albe, marunte si dese, asezate in varful tulpinei. Este otravitoare, iar fructele negre si carnoase, mancate de copii aduc ameteli, o stare ca de betie. Odinioara era folosita ca planta de leac contra ciumei, a bolilor de piele si indeosebi in umflatura obrajilor.
 
-#### **Leușteanul**
+#### **Leusteanul**
 >
 > --- *Levisticum officinale, radix ---*
 >
-> Amintit în cântecele populare, *Leușteanul* este o plantă folosită în descântece împotriva *Ielelor,* de întoarcerea laptelui și împotriva șarpelui. Este cea mai însemnată plantă din grădina de legume, având o influență magică asupra întregii grădini. De aceea se spune că dacă ți se fură *Leuștean* din grădină, ți se vor usca toate verdețurile^1^. în Carpați, rădăcina *Leușteanului* se pune în jurul sicriului unui mort, alături de alte plante, pentru ca mortul să nu se facă strigoi.
+> Amintit in cantecele populare, *Leusteanul* este o planta folosita in descantece impotriva *Ielelor,* de intoarcerea laptelui si impotriva sarpelui. Este cea mai insemnata planta din gradina de legume, avand o influenta magica asupra intregii gradini. De aceea se spune ca daca ti se fura *Leustean* din gradina, ti se vor usca toate verdeturile^1^. in Carpati, radacina *Leusteanului* se pune in jurul sicriului unui mort, alaturi de alte plante, pentru ca mortul sa nu se faca strigoi.
 >
-> Are multe întrebuințări în medicina populară. în bolile de gât se ia o tijă de leuștean folosindu-se ca pai la băutul laptelui cald îndulcit cu miere. Este folosit în ciorbe și în mâncăruri. Țăranul, atunci când îl doare capul pune *Leuștean* pisat la tălpi. Oțetul în care a stat la macerat *Leușteanul* este recomandat pentru frecții. Se mai folosește împotriva umflăturilor, a tifosului și febrei tifoide (chiar este numit în multe părți *Buruiană de lun-goare),* ca diuretic și expectoram cât și pentru stomac (readuce la normal tonusul intestinal, înlăturând atoniile, spasmele, gazele). Ca diuretic dezintoxică organismul, descongestionează ficatul și rinichii, reglează funcțiile uterului în atonii însoțite de ame-noree și nevroze.
+> Are multe intrebuintari in medicina populara. in bolile de gat se ia o tija de leustean folosindu-se ca pai la bautul laptelui cald indulcit cu miere. Este folosit in ciorbe si in mancaruri. Taranul, atunci cand il doare capul pune *Leustean* pisat la talpi. Otetul in care a stat la macerat *Leusteanul* este recomandat pentru frectii. Se mai foloseste impotriva umflaturilor, a tifosului si febrei tifoide (chiar este numit in multe parti *Buruiana de lun-goare),* ca diuretic si expectoram cat si pentru stomac (readuce la normal tonusul intestinal, inlaturand atoniile, spasmele, gazele). Ca diuretic dezintoxica organismul, descongestioneaza ficatul si rinichii, regleaza functiile uterului in atonii insotite de ame-noree si nevroze.
 
 #### Angelica
 
 ---*Angelica arhangelica* ---
 
-> Angelica este o plantă elixir. Ea menține tinerețea și sănătatea. Se spune că haiducul Pintea purta în traista sa de piele o sticlă de palincă în care se aflau rădăcini de Angelică alături de alte ierburi, cu frunze și flori, printre care și Fierea Pământului *(Gentiana cruciata).* Haiducul legendar afirma că acea băutură plăcută la gust dă omului nu numai putere, dar îl apără de multe feluri de boli periculoase
+> Angelica este o planta elixir. Ea mentine tineretea si sanatatea. Se spune ca haiducul Pintea purta in traista sa de piele o sticla de palinca in care se aflau radacini de Angelica alaturi de alte ierburi, cu frunze si flori, printre care si Fierea Pamantului *(Gentiana cruciata).* Haiducul legendar afirma ca acea bautura placuta la gust da omului nu numai putere, dar il apara de multe feluri de boli periculoase
 >
-#### **Măselarița**
+#### **Maselarita**
 >
 > --- *Hyoscyamus niger ---*
 >
-> Este numită și *Nebunariță.* Crește pe lângă drumuri, în locuri grase și umede, printre dărâmături, prin gunoaie, în general prin locuri neumblate. Semințele sale sunt mici, negre și stau într-o capsulă cu căpăcel deasupra.
+> Este numita si *Nebunarita.* Creste pe langa drumuri, in locuri grase si umede, printre daramaturi, prin gunoaie, in general prin locuri neumblate. Semintele sale sunt mici, negre si stau intr-o capsula cu capacel deasupra.
 >
-> La sate, semințele *Măselariței* erau întrebuințate contra durerii de măsele. Se punea la foc o oală nouă, smălțuită, cu *apă neîncepută.* Se lua apoi o strachină, tot nouă, și se punea cu gura în jos, peste jăraticul în care s-a presărat o mână de semințe de *Măselarița.* Când strachina era fierbinte (încât sfârâia când scuipai pe ea), și când apa din aolă clocotea, bolnavul își punea în cap un pled sau o cârpă groasă și se așeza în mijlocul casei. Asistentul, o babă, lua cu cleștele strachina de pe jăratic, o așeza în mijlocul casei și turna în ea apa clocotită din oală.
+> La sate, semintele *Maselaritei* erau intrebuintate contra durerii de masele. Se punea la foc o oala noua, smaltuita, cu *apa neinceputa.* Se lua apoi o strachina, tot noua, si se punea cu gura in jos, peste jaraticul in care s-a presarat o mana de seminte de *Maselarita.* Cand strachina era fierbinte (incat sfaraia cand scuipai pe ea), si cand apa din aola clocotea, bolnavul isi punea in cap un pled sau o carpa groasa si se aseza in mijlocul casei. Asistentul, o baba, lua cu clestele strachina de pe jaratic, o aseza in mijlocul casei si turna in ea apa clocotita din oala.
 >
-> Bolnavul, pe când strachina sfârâia și ieșeau aburi din ea, se așeza cu gura căscată deasupra ei, în aburii ce ieșeau din strachină și sta astfel, cu gura deschisă deasupra strachinei, până ce apa se răcea încât puteai băgă degetul în ea. Se ridica atunci de jos uitându-se în apă. Saliva care îi venea stând cu gura căscată deasupra strachinei, trebuia să o scuipe în strachină. Acum urma un episod ciudat. în popor se credea că durerea de măsele se datorează unor viermi ce se fac din mâncare și care au pătruns spre rădăcina măselelor. Astfel, după ce termina de scuipat în strachină, bolnavul se apuca să numere viermii ce îi rodeau măseaua și pe care \"iuțeala *măselarului* i-a făcut să iasă afară și cadă în apă\"^1^. Acești viermișori opăriți ce pluteau pe deasupra apei sau zăceau pe fundul ei aveau unii capul roșu, alții negru și alții alb. Unii aveau două capete, iar alții aveau chiar și coarne.
+> Bolnavul, pe cand strachina sfaraia si ieseau aburi din ea, se aseza cu gura cascata deasupra ei, in aburii ce ieseau din strachina si sta astfel, cu gura deschisa deasupra strachinei, pana ce apa se racea incat puteai baga degetul in ea. Se ridica atunci de jos uitandu-se in apa. Saliva care ii venea stand cu gura cascata deasupra strachinei, trebuia sa o scuipe in strachina. Acum urma un episod ciudat. in popor se credea ca durerea de masele se datoreaza unor viermi ce se fac din mancare si care au patruns spre radacina maselelor. Astfel, dupa ce termina de scuipat in strachina, bolnavul se apuca sa numere viermii ce ii rodeau maseaua si pe care \"iuteala *maselarului* i-a facut sa iasa afara si cada in apa\"^1^. Acesti viermisori opariti ce pluteau pe deasupra apei sau zaceau pe fundul ei aveau unii capul rosu, altii negru si altii alb. Unii aveau doua capete, iar altii aveau chiar si coarne.
 
-Dacă durerea nu trecea după tratament, se spunea că au mai rămas viermi și tratamentul trebuia repetat.
+Daca durerea nu trecea dupa tratament, se spunea ca au mai ramas viermi si tratamentul trebuia repetat.
 
 #### Socul
 >
 > --- *Sambucus nigra* ---
 >
-> Este un arbore mic răspândit pe marginea pârâurilor, pe lângă garduri, prin locuri uitate, prin păduri. Are inflorescențe melifere și cu recunoscute virtuți medicale, iar ramurile au în mijloc o măduvă albă ușor de extras, fapt ce explică folosirea lor în confecționarea de fluiere.
+> Este un arbore mic raspandit pe marginea paraurilor, pe langa garduri, prin locuri uitate, prin paduri. Are inflorescente melifere si cu recunoscute virtuti medicale, iar ramurile au in mijloc o maduva alba usor de extras, fapt ce explica folosirea lor in confectionarea de fluiere.
 >
-> Se spune că sub Soc locuiește un duh vrăjmaș care păzește comorile îngropate sub el, nelăsând pe nimeni să se apropie de ele. Dacă se încumetă însă cineva să se apropie, este maltratat, i se sucesc picioarele, îi sunt strâmbate fălcile. Locul din jurul Socului \"nu este curat\". Această credință este valabilă mai ales pentru Socul care crește în locuri părăsite, unde se aruncă fel de fel de necurățenii.
+> Se spune ca sub Soc locuieste un duh vrajmas care pazeste comorile ingropate sub el, nelasand pe nimeni sa se apropie de ele. Daca se incumeta insa cineva sa se apropie, este maltratat, i se sucesc picioarele, ii sunt strambate falcile. Locul din jurul Socului \"nu este curat\". Aceasta credinta este valabila mai ales pentru Socul care creste in locuri parasite, unde se arunca fel de fel de necuratenii.
 >
-> De asemenea nu este bine să se culce cineva sub un Soc, căci îl pândesc nenorocirile. Se spune că dacă se întâmplă să treacă atunci \"duhurile cele necurate\" prin acel loc, omul culcat poate chiar să înnebunească^1^. Astfel, unora Ie-a fost strâmbată fața, li s-a sucit vreun picior sau au fost schilodiți pe viață. Oamenii se feresc, de asemnenea, să își lege vitele de vreun Soc, căci pot fi nenorocite ca și oamenii. Nici dacă un Soc este prea aproape de casă, încurcând gospădăria, nu este săpat pentru a fi mutat din loc, căci cel ce îl sapă și îl scoate din pămâmt, se îmbolnăvește curând.
+> De asemenea nu este bine sa se culce cineva sub un Soc, caci il pandesc nenorocirile. Se spune ca daca se intampla sa treaca atunci \"duhurile cele necurate\" prin acel loc, omul culcat poate chiar sa innebuneasca^1^. Astfel, unora Ie-a fost strambata fata, li s-a sucit vreun picior sau au fost schiloditi pe viata. Oamenii se feresc, de asemnenea, sa isi lege vitele de vreun Soc, caci pot fi nenorocite ca si oamenii. Nici daca un Soc este prea aproape de casa, incurcand gospadaria, nu este sapat pentru a fi mutat din loc, caci cel ce il sapa si il scoate din pamamt, se imbolnaveste curand.
 >
-> Lemnul de Soc nu se pune pe foc, căci acest gest atrage dureri de măsele, producând tuturor celor din casă neplăceri și neajunsuri.
+> Lemnul de Soc nu se pune pe foc, caci acest gest atrage dureri de masele, producand tuturor celor din casa neplaceri si neajunsuri.
 >
-> în anumite părți, în timpul șezătorilor, unele dintre fete ies din casă și numără parii din gard. Apoi se duc la un Soc și descântă ca să atragă feciorii la ele. La Soc stă necuratul și dacă greșesc descântecul, au necazuri cu el. După descântec rupe fiecare o creangă de Soc și o duce acasă, o pune pe foc și o arde^2^
+> in anumite parti, in timpul sezatorilor, unele dintre fete ies din casa si numara parii din gard. Apoi se duc la un Soc si descanta ca sa atraga feciorii la ele. La Soc sta necuratul si daca gresesc descantecul, au necazuri cu el. Dupa descantec rupe fiecare o creanga de Soc si o duce acasa, o pune pe foc si o arde^2^
 >
-> Floarea de Soc se întrebuințează în medicina țărănească împotriva tusei, a emfizemului pulmonar (se bea ca infuzie), ră-gușelii (se face o fiertură din flori de Soc și de Mușețel care se bea seara la culcare, învelind bine bolnavul să transpire), vărsatului de vânt (varicelă) și scrofulelor.
+> Floarea de Soc se intrebuinteaza in medicina taraneasca impotriva tusei, a emfizemului pulmonar (se bea ca infuzie), ra-guselii (se face o fiertura din flori de Soc si de Musetel care se bea seara la culcare, invelind bine bolnavul sa transpire), varsatului de vant (varicela) si scrofulelor.
 >
-> Pentru cei ce au vărsat de vânt se fierb flori de Soc într-o oală cu apă proaspătă, *neâncepută.* Fiertura are \"puterea de a svârli răutatea afară\". Vărsatul iese curând pe trup, începe să se usuce și peste puțin timp bolnavul este vindecat.
+> Pentru cei ce au varsat de vant se fierb flori de Soc intr-o oala cu apa proaspata, *neanceputa.* Fiertura are \"puterea de a svarli rautatea afara\". Varsatul iese curand pe trup, incepe sa se usuce si peste putin timp bolnavul este vindecat.
 >
-> Scrofulele la grumaz (amigdalita) se tratează tot cu flori de Soc. Se încinge floarea bine și se pune călduță la scrofule. în unele părți româncele amestecă floarea de Soc cu tărâțe de grâu, o încălzesc bine și o pun la scrofule, care dau înapoi și în scurt timp se vindecă. Cataplasmele cu flori proaspete opărite au și rol calmant și antiinflamator în abcese și furuncule.
+> Scrofulele la grumaz (amigdalita) se trateaza tot cu flori de Soc. Se incinge floarea bine si se pune calduta la scrofule. in unele parti romancele amesteca floarea de Soc cu tarate de grau, o incalzesc bine si o pun la scrofule, care dau inapoi si in scurt timp se vindeca. Cataplasmele cu flori proaspete oparite au si rol calmant si antiinflamator in abcese si furuncule.
 >
-> Din florile de Soc se prepară o băutură răcoritoare, *Șocata,* pe care mulți români o consumă ca pe o cură de primăvară. Pentru prepararea acesteia se iau șapte inflorescențe mari de Soc care se pun la macerat în șapte litri de apă, împreună cu o lămâie tăiată felii. După o zi se filtrează și se adaugă 1 kg de zahăr. După încă o zi poate fi consumată (pentru a se păstra poate fi îmbuteliată și păstrată la rece; după 3-4 săptămâni de conservare la rece are un gust și mai plăcut, mai aromat și sifonat).
+> Din florile de Soc se prepara o bautura racoritoare, *Socata,* pe care multi romani o consuma ca pe o cura de primavara. Pentru prepararea acesteia se iau sapte inflorescente mari de Soc care se pun la macerat in sapte litri de apa, impreuna cu o lamaie taiata felii. Dupa o zi se filtreaza si se adauga 1 kg de zahar. Dupa inca o zi poate fi consumata (pentru a se pastra poate fi imbuteliata si pastrata la rece; dupa 3-4 saptamani de conservare la rece are un gust si mai placut, mai aromat si sifonat).
 >
-> Ceaiul de flori de Soc mărește cantitatea de lapte la femeile care alăptează.
+> Ceaiul de flori de Soc mareste cantitatea de lapte la femeile care alapteaza.
 >
-#### Tătăneasa, Iarba lui latin --- *Symphythum officinale* ---
+#### Tataneasa, Iarba lui latin --- *Symphythum officinale* ---
 
-Este o plantă care rareori depășește înălțimea de 1 metru. Rădăcinile ei cilindrice sunt puternic zbârcite în lung și uneori contorsionate, au culoare cenușie, apropare neagră, sunt folosite în medicația populară în bronșite, în tuse, în ulcer stomacal, în **stoparea cancerului** etc.
+Este o planta care rareori depaseste inaltimea de 1 metru. Radacinile ei cilindrice sunt puternic zbarcite in lung si uneori contorsionate, au culoare cenusie, apropare neagra, sunt folosite in medicatia populara in bronsite, in tuse, in ulcer stomacal, in **stoparea cancerului** etc.
 
-> Poporul deosebește două feluri de Tătăneasă, după culoarea florilor sale, una cu floare galbenă și alta cu floare roșie, folosind-o pe cea cu floare roșie la afecțiunile de hernie *(yătămă-tură,* când \"se umflă boașele\") și în cazuri de scrântire a membrelor. Fiartă în lapte și făcută turtă, este bună de pus la *gâlci* (la amigdale în caz de amigdalită). Pusă pe stomac lecuiește durerile, fiind bună și pentru durerea de pântece Ia vite^1^.
+> Poporul deosebeste doua feluri de Tataneasa, dupa culoarea florilor sale, una cu floare galbena si alta cu floare rosie, folosind-o pe cea cu floare rosie la afectiunile de hernie *(yatama-tura,* cand \"se umfla boasele\") si in cazuri de scrantire a membrelor. Fiarta in lapte si facuta turta, este buna de pus la *galci* (la amigdale in caz de amigdalita). Pusa pe stomac lecuieste durerile, fiind buna si pentru durerea de pantece Ia vite^1^.
 >
-> Pentru *vătămătură* se ia o bucățică de rădăcină de Tătăneasă, se curăță bine să fie cât se poate de curată și se pune într-o sticlă cu rachiu închisă bine să nu răsufle (pusă pisată în rachiu îi dă acestuia culoarea roșie). Se ia o altă bucată de rădăcină de Tătăneasă care se mărunțește bine împreună cu o ceapă (se evită contactul Tătănesei cu fierul), se amestecă cu un ou și cu tărâțe de grâu apoi se pun într-o tigaie la foc. După ce s-au încins bine se face o turtă din tot amestecul, se pune pe un petec de pânză cu care se face o legătură la locul dureros. După ce i s-a pus legătura, bolnavul trebuie să bea din rachiul preparat cu rădăcina de Tătăneasă, în fiecare zi de 3 ori câte un păhărel, dimineața, la amiază și seara. Bolnavul trebuie să respecte repausul în perioada tratamentului.
+> Pentru *vatamatura* se ia o bucatica de radacina de Tataneasa, se curata bine sa fie cat se poate de curata si se pune intr-o sticla cu rachiu inchisa bine sa nu rasufle (pusa pisata in rachiu ii da acestuia culoarea rosie). Se ia o alta bucata de radacina de Tataneasa care se marunteste bine impreuna cu o ceapa (se evita contactul Tatanesei cu fierul), se amesteca cu un ou si cu tarate de grau apoi se pun intr-o tigaie la foc. Dupa ce s-au incins bine se face o turta din tot amestecul, se pune pe un petec de panza cu care se face o legatura la locul dureros. Dupa ce i s-a pus legatura, bolnavul trebuie sa bea din rachiul preparat cu radacina de Tataneasa, in fiecare zi de 3 ori cate un paharel, dimineata, la amiaza si seara. Bolnavul trebuie sa respecte repausul in perioada tratamentului.
 >
-> Altă variantă a tratamentului de *vătămătură* constă în fierberea rădăcinei de Tătăneasă, mărunțirea și amestecarea ei cu făină de secară, obținându-se o turtă cu care se face legătura la pântece. Lichidul în care a fost fiartă rădăcina este băut de către bolnav. în unele părți nu se mai face legătura pe locul bolnav. Se pune rădăcina în rachiu, se lasă să macereze bine apoi se bea în fiecare dimineață câte un păhărel pe stomacul gol^2^.
+> Alta varianta a tratamentului de *vatamatura* consta in fierberea radacinei de Tataneasa, maruntirea si amestecarea ei cu faina de secara, obtinandu-se o turta cu care se face legatura la pantece. Lichidul in care a fost fiarta radacina este baut de catre bolnav. in unele parti nu se mai face legatura pe locul bolnav. Se pune radacina in rachiu, se lasa sa macereze bine apoi se bea in fiecare dimineata cate un paharel pe stomacul gol^2^.
 
-Aproape peste tot în România, *Tătăneasă* era folosită pentru vindecarea scrântiturilor și fracturilor. Se spăla rădăcina, se tăia în bucățele mici, se punea într-o oală cu apă și se fierbea până scădea la jumătate. Se amesteca apoi cu făină de orz, se întindea pe un petic de pânză care să cuprindă toată fractura, se
+Aproape peste tot in Romania, *Tataneasa* era folosita pentru vindecarea scrantiturilor si fracturilor. Se spala radacina, se taia in bucatele mici, se punea intr-o oala cu apa si se fierbea pana scadea la jumatate. Se amesteca apoi cu faina de orz, se intindea pe un petic de panza care sa cuprinda toata fractura, se
 
-stropea cu spirt și se lega, după ce se trăgeau oasele la loc. Se înfășură apoi cu cârpe curate, peste care se puneau lopățelele de lemn, care fixau mâna sau piciorul rupt. Legătura se ținea 2 zile, udându-se cu spirt (rachiu). Se schimba apoi până se vindeca fractura^1^.
+stropea cu spirt si se lega, dupa ce se trageau oasele la loc. Se infasura apoi cu carpe curate, peste care se puneau lopatelele de lemn, care fixau mana sau piciorul rupt. Legatura se tinea 2 zile, udandu-se cu spirt (rachiu). Se schimba apoi pana se vindeca fractura^1^.
 
-> Ca și la alte ierburi, și în folosirea Tătănesei se îmbină empirismul cu magia. Așa este cazul când se dorește sporirea laptelui la o vacă de muls. Cel ce dorește ca laptele vacii sale să fie mai bun și mai spornic, ia o bucățică de pâine și una de sare și, ducându-se la locul unde crește Tătăneasă, face trei mătănii lângă rădăcina ei. Apoi o sapă zicând:
+> Ca si la alte ierburi, si in folosirea Tatanesei se imbina empirismul cu magia. Asa este cazul cand se doreste sporirea laptelui la o vaca de muls. Cel ce doreste ca laptele vacii sale sa fie mai bun si mai spornic, ia o bucatica de paine si una de sare si, ducandu-se la locul unde creste Tataneasa, face trei matanii langa radacina ei. Apoi o sapa zicand:
 >
-> *\"Sântă buruină mare! Eu te sorocesc cu pane și cu sare, Eră tu să soroceșci Și s\'o dărueșci Pe Lunaia* (numele vacii) *mea*
+> *\"Santa buruina mare! Eu te sorocesc cu pane si cu sare, Era tu sa sorocesci Si s\'o daruesci Pe Lunaia* (numele vacii) *mea*
 >
-> După ce a săpat-o și a pus în groapa rămasă de la rădăcina ei pâinea și sarea, o duce acasă, o amestecă cu tărâțe și o dă vacilor de muls să o mănânce. Se zice că acestea dau de îndată lapte mai mult și mai bun\".
+> Dupa ce a sapat-o si a pus in groapa ramasa de la radacina ei painea si sarea, o duce acasa, o amesteca cu tarate si o da vacilor de muls sa o manance. Se zice ca acestea dau de indata lapte mai mult si mai bun\".
 
 #### Usturoiul
 
 *--- Allium sativum ---*
 
-> Atât Usturoiul de toamnă, cât și cel de vară (deosebiți după modul de răsădire), este folosit la diferite leacuri, descântece și vrăji. Cel de toamnă însă, după cum afirmă cunoscătorii, este cu mult mai bun la leacuri și vrăji, fiind de aceea mai întrebuințat. Totodată el este cel mai bun mijloc de apărare împotriva duhurilor vrăjmașe omului.
+> Atat Usturoiul de toamna, cat si cel de vara (deosebiti dupa modul de rasadire), este folosit la diferite leacuri, descantece si vraji. Cel de toamna insa, dupa cum afirma cunoscatorii, este cu mult mai bun la leacuri si vraji, fiind de aceea mai intrebuintat. Totodata el este cel mai bun mijloc de aparare impotriva duhurilor vrajmase omului.
 >
-> Dacă vreun om dobândește o \"pocitură de noapte\" (în g~e~. neral, sub numele *de pocitură* se înțelege atât congestia cerebrală paralizia facială sau alt tip de paralizie, cât și epilepsia; afecti~u~. nea este atribuită în general intervenției *Ielelor),* pentru a fi vin-decât descântătorul ia un fir de Usturoi și, străpungându-1 p~e~ toate părțile cu vârful unui ac, descântă cu următoarea incantație magică:
+> Daca vreun om dobandeste o \"pocitura de noapte\" (in g~e~. neral, sub numele *de pocitura* se intelege atat congestia cerebrala paralizia faciala sau alt tip de paralizie, cat si epilepsia; afecti~u~. nea este atribuita in general interventiei *Ielelor),* pentru a fi vin-decat descantatorul ia un fir de Usturoi si, strapungandu-1 p~e~ toate partile cu varful unui ac, descanta cu urmatoarea incantatie magica:
 
 +---------------------------------+------------------------------------+---+
-| *\"De la casă,* | > *Și cum Iau întâmpinat* | |
+| *\"De la casa,* | > *Si cum Iau intampinat* | |
 +---------------------------------+------------------------------------+---+
-| *De la masă* | > *Prin inimă l\'au săgetat,* | |
+| *De la masa* | > *Prin inima l\'au sagetat,* | |
 +---------------------------------+------------------------------------+---+
-| \[Cutare\] *s\'a sculat* | > *în pal de moarte l\'au culcat,* | |
+| \[Cutare\] *s\'a sculat* | > *in pal de moarte l\'au culcat,* | |
 +---------------------------------+------------------------------------+---+
-| *Și s\'a luat* | > *Bun de nimica 1 au lăsat.* | |
+| *Si s\'a luat* | > *Bun de nimica 1 au lasat.* | |
 +---------------------------------+------------------------------------+---+
-| *Sănătos* | > \[Cutare\] *a prins a se văita* | |
+| *Sanatos* | > \[Cutare\] *a prins a se vaita* | |
 +---------------------------------+------------------------------------+---+
-| *Și voios* | > *Și a se văcra.* | |
+| *Si voios* | > *Si a se vacra.* | |
 +---------------------------------+------------------------------------+---+
 | *Pe cale* | > *Nime nu Va auzit.* | |
 +---------------------------------+------------------------------------+---+
-| *Și cărare.* | > *Ni/ne nu Va văzut* | |
+| *Si carare.* | > *Ni/ne nu Va vazut* | |
 +---------------------------------+------------------------------------+---+
-| *Când a fost la mijloc* | > *Cum se văera\...* | |
+| *Cand a fost la mijloc* | > *Cum se vaera\...* | |
 +---------------------------------+------------------------------------+---+
-| *De cale* | > *Fără Maica Domnului* | |
+| *De cale* | > *Fara Maica Domnului* | |
 +---------------------------------+------------------------------------+---+
-| *Și cărare.* | > *Din poarta ceriului\...* | |
+| *Si carare.* | > *Din poarta ceriului\...* | |
 +---------------------------------+------------------------------------+---+
-| *Pe* \|cutare\] *Iau întâlnit:* | > *Ea Va auzit.* | |
+| *Pe* \|cutare\] *Iau intalnit:* | > *Ea Va auzit.* | |
 +---------------------------------+------------------------------------+---+
-| *Nouă Strigoi.* | > *Ha Va văzut.* | |
+| *Noua Strigoi.* | > *Ha Va vazut.* | |
 +---------------------------------+------------------------------------+---+
-| *Nouă Moroi* | > *Din mâna dreaptă Va luat* | |
+| *Noua Moroi* | > *Din mana dreapta Va luat* | |
 +---------------------------------+------------------------------------+---+
-| *Nouă Strigoaie,* | > *Spre soare 1 \'a întumal* | |
+| *Noua Strigoaie,* | > *Spre soare 1 \'a intumal* | |
 +---------------------------------+------------------------------------+---+
-| *Nouă Moroaie* | > *Sănătate n trup i-a dat\...\"* | |
+| *Noua Moroaie* | > *Sanatate n trup i-a dat\...\"* | |
 +---------------------------------+------------------------------------+---+
-| *Nouă diochiiori,* | | |
+| *Noua diochiiori,* | | |
 +---------------------------------+------------------------------------+---+
-| *Nouă pocitori.* | | |
+| *Noua pocitori.* | | |
 +---------------------------------+------------------------------------+---+
 
-> După ce rostește cuvintele incantației împungând cățelul de Usturoi cu vârful acului, cu o parte a cățelului de Usturoi descântat, descântătorul unge pe cel suferind peste tot trupul, iar cealaltă parte i\'o dă bolnavului să o mănânce.
+> Dupa ce rosteste cuvintele incantatiei impungand catelul de Usturoi cu varful acului, cu o parte a catelului de Usturoi descantat, descantatorul unge pe cel suferind peste tot trupul, iar cealalta parte i\'o da bolnavului sa o manance.
 
-Unii descântători, tot pentru a-1 vindeca pe cel \"pocit\", iau trei sau nouă căței de usturoi și îi pisează bine transformându-i în *mușdei,* cu care îl ung pe omul \"pocit\", descântându-1 de *pocitură* (această ungere cu *mușdei* se face și fără descântec, fiind considerată eficientă). Bolnavul este culcat în pat, se învelește bine și, dormind un răstimp, se vindecă. Când se scoală i se pare că nu mai este același om.
+Unii descantatori, tot pentru a-1 vindeca pe cel \"pocit\", iau trei sau noua catei de usturoi si ii piseaza bine transformandu-i in *musdei,* cu care il ung pe omul \"pocit\", descantandu-1 de *pocitura* (aceasta ungere cu *musdei* se face si fara descantec, fiind considerata eficienta). Bolnavul este culcat in pat, se inveleste bine si, dormind un rastimp, se vindeca. Cand se scoala i se pare ca nu mai este acelasi om.
 
-> Usturoiul de toamnă se folosește și în caz de \"Ceas râu\" (acesta este și numele unui duh, în general însă desemnează epi-
+> Usturoiul de toamna se foloseste si in caz de \"Ceas rau\" (acesta este si numele unui duh, in general insa desemneaza epi-
 >
-> lepsia sau tahicardia). Descântătorul ia un cățel de Usturoi, rostind incantația:
+> lepsia sau tahicardia). Descantatorul ia un catel de Usturoi, rostind incantatia:
 >
-> *\"Nouă voinici ne\'nsurați De sub ciolane,*
+> *\"Noua voinici ne\'nsurati De sub ciolane,*
 >
-> *Pe nouă cai ne\'nvățați Din ficați*
+> *Pe noua cai ne\'nvatati Din ficati*
 >
-> *Au încălicat De sub ficați,*
+> *Au incalicat De sub ficati,*
 >
-> *Și la drum au plecat Din came*
+> *Si la drum au plecat Din came*
 >
-> *în pinteni galbini zurăind De sub came*
+> *in pinteni galbini zuraind De sub came*
 >
-> *în spete drepte tăind, Din toate ciolanele*
+> *in spete drepte taind, Din toate ciolanele*
 >
-> *Tot tăind Din toate \'ncheieturile*
+> *Tot taind Din toate \'ncheieturile*
 >
-> *Și cercând Două fete despletite^1^*
+> *Si cercand Doua fete despletite^1^*
 >
-> *Ceas greu Cu păhărelele împlute*
+> *Ceas greu Cu paharelele implute*
 >
-> *Ceas rău Pe* \[cutare\] *să mi-l părăsiți*
+> *Ceas rau Pe* \[cutare\] *sa mi-l parasiti*
 >
-> *Din fața obrazului, în acest ceas să vă despărțiți*
+> *Din fata obrazului, in acest ceas sa va despartiti*
 >
-> *Din creierii capului; în munți pustii să vă duceți*
+> *Din creierii capului; in munti pustii sa va duceti*
 >
-> *Din inimă Acolo să ședeți*
+> *Din inima Acolo sa sedeti*
 >
-> *De sub inimă Acolo să locuiți*
+> *De sub inima Acolo sa locuiti*
 >
-> *Din ciolane Și-acolo să viefuiți.\"*
+> *Din ciolane Si-acolo sa viefuiti.\"*
 >
-> După această incantație descântătoarea unge peste tot corpul cu Usturoiul descântat pe cel bolnav de *Ceas rău,* afirmân-du-se că tămăduirea este imediată.
+> Dupa aceasta incantatie descantatoarea unge peste tot corpul cu Usturoiul descantat pe cel bolnav de *Ceas rau,* afirman-du-se ca tamaduirea este imediata.
 >
-> Alt obicei este acela de a lua trei fire de Usturoi de toamnă, alte buruieni și obiecte care, de cum se înserează, se pun în mijlocul casei, se ia o mătură și, măturând casa din toate părțile, ungherele și cotloanele asupra acestor obiecte, se descântă: *\"Eu mătur ural Și făcătura,/ Și urgia/ Și pismuireal Și datul/ Și faptul\
-> *(gânduri rele și vrăji venind din partea dușmanilor)/ *Din toate părticelele,/ Din toate unghiurelelej Din toate corurelele/ Din toate\
-> gozurelele\.../ Toată ura/ Și făcătura,/ Toată urgia/ Și pismuireaj Tot datul/ Și faptul/ Pe capul celui ce mi-a făcut/ Și mi-a dat/ înapoi i-am înturnat!\".* După ce se rostește această incantație, se strânge într-un petec de pânză (cel mai urât, mai murdar și mai zdrențuros) tot ceea ce s-a măturat împreună cu Usturoiul. Se duce apoi pachetul astfel realizat și se aruncă în calea dușmanu lui presupus.
+> Alt obicei este acela de a lua trei fire de Usturoi de toamna, alte buruieni si obiecte care, de cum se insereaza, se pun in mijlocul casei, se ia o matura si, maturand casa din toate partile, ungherele si cotloanele asupra acestor obiecte, se descanta: *\"Eu matur ural Si facatura,/ Si urgia/ Si pismuireal Si datul/ Si faptul\
+> *(ganduri rele si vraji venind din partea dusmanilor)/ *Din toate particelele,/ Din toate unghiurelelej Din toate corurelele/ Din toate\
+> gozurelele\.../ Toata ura/ Si facatura,/ Toata urgia/ Si pismuireaj Tot datul/ Si faptul/ Pe capul celui ce mi-a facut/ Si mi-a dat/ inapoi i-am inturnat!\".* Dupa ce se rosteste aceasta incantatie, se strange intr-un petec de panza (cel mai urat, mai murdar si mai zdrenturos) tot ceea ce s-a maturat impreuna cu Usturoiul. Se duce apoi pachetul astfel realizat si se arunca in calea dusmanu lui presupus.
 >
-> Usturoiul este și cel mai bun mijloc de apărare împotriva spiritelor necurate. în seara dinspre Sân-Vasile, Sân-George și Sânt Andrei, când se zice că umblă mai mult duhurile rele, îndeosebi *Strigoii,* care bâtuie casele și grajdurile oamenilor, se ung oamenii și locurile (ușile, ferestrele și încuietorile caselor) cu Usturoi. Se recurge iarăși la ajutorul Usturoiului în Sâmbăta Săptămânei Mari (de fapt, în *Sâmbăta Moșilor de vară,* o zi înainte de căderea *Rusaliilor),* când vin *Vântoasele.* în tot cursul anului se ung în cruciș cu Usturoi, ușile, ușorii, ieslele și obloanele grajdurilor, deasemenea și vitele ce locuiesc în grajduri, mai ales vacile de muls, la pulpe și printre coarne. Astfel, duhurile rele nu se pot propia pentru a face vreun rău.
+> Usturoiul este si cel mai bun mijloc de aparare impotriva spiritelor necurate. in seara dinspre San-Vasile, San-George si Sant Andrei, cand se zice ca umbla mai mult duhurile rele, indeosebi *Strigoii,* care batuie casele si grajdurile oamenilor, se ung oamenii si locurile (usile, ferestrele si incuietorile caselor) cu Usturoi. Se recurge iarasi la ajutorul Usturoiului in Sambata Saptamanei Mari (de fapt, in *Sambata Mosilor de vara,* o zi inainte de caderea *Rusaliilor),* cand vin *Vantoasele.* in tot cursul anului se ung in crucis cu Usturoi, usile, usorii, ieslele si obloanele grajdurilor, deasemenea si vitele ce locuiesc in grajduri, mai ales vacile de muls, la pulpe si printre coarne. Astfel, duhurile rele nu se pot propia pentru a face vreun rau.
 >
-> Alt obicei este acela ca, atunci când bântuie Holera (identificată cu un duh rău), să se înmoaie Usturoi în oțet și să se frece peste tot corpul.
+> Alt obicei este acela ca, atunci cand bantuie Holera (identificata cu un duh rau), sa se inmoaie Usturoi in otet si sa se frece peste tot corpul.
 >
 #### **Busuiocul**
 >
 > --- *Ocimum basilicum* ---
 >
-> Pentru români această plantă este Buruiana Dragostei. Ea atrage deopotrivă dragostea bărbaților sau a femeilor către cei ce o folosesc. Când mergeau duminica sau de sărbători la biserică, la petreceri și la joc, fetele românce își puneau buchețele de Busuioc în păr, la salbe și în sân, iar feciorii îl puneau în pălării și în căciuli.
+> Pentru romani aceasta planta este Buruiana Dragostei. Ea atrage deopotriva dragostea barbatilor sau a femeilor catre cei ce o folosesc. Cand mergeau duminica sau de sarbatori la biserica, la petreceri si la joc, fetele romance isi puneau buchetele de Busuioc in par, la salbe si in san, iar feciorii il puneau in palarii si in caciuli.
 
-Conform mitologiei românești, Busuiocul a crescut dintr-o iubire neîmplinită. Astfel, odată o copilă tânără și frumoasă a murit lăsând în urmă un iubit disperat. în acel timp era foarte mare secetă și arșița soarelui veștejise florile. Iubitul fetei mergea în fiecare zi la mormântul ei și vărsa șiroaie de lacrimi. La capul copilei a început să crească o floare, care fiind mereu udată de lacrimile iubitului ei, crescu și dobândi un frumos miros. Floar\< s-a numit după numele acelui tânăr îndrăgostit, Busuioc^1^.
+Conform mitologiei romanesti, Busuiocul a crescut dintr-o iubire neimplinita. Astfel, odata o copila tanara si frumoasa a murit lasand in urma un iubit disperat. in acel timp era foarte mare seceta si arsita soarelui vestejise florile. Iubitul fetei mergea in fiecare zi la mormantul ei si varsa siroaie de lacrimi. La capul copilei a inceput sa creasca o floare, care fiind mereu udata de lacrimile iubitului ei, crescu si dobandi un frumos miros. Floar\< s-a numit dupa numele acelui tanar indragostit, Busuioc^1^.
 
-El, Busuiocul, este indispensabil în leacurile și în farmecele de dragoste. Deasemenea este indispensabil, conform tuturor descântătoarelor, în descântecele de *Beșică rea* și în cele de *Beșică neagră.*
+El, Busuiocul, este indispensabil in leacurile si in farmecele de dragoste. Deasemenea este indispensabil, conform tuturor descantatoarelor, in descantecele de *Besica rea* si in cele de *Besica neagra.*
 
-> Când se descântă de *Beșică cea rea* (Postula maligna), se pune într-un petic de cârpă (cu care au fost șterse ouăle roșii la Paști, când au fost scoase din ulcica cu roșeală) puțină tămâie, câteva rămurele de Busuioc și câțiva peri de lână smulși dintr-un cojoc. După aceasta se aprinde peticul de cârpă și, învârtindu-1 în jurul *Bubei* și afumându-1, se descântă:
+> Cand se descanta de *Besica cea rea* (Postula maligna), se pune intr-un petic de carpa (cu care au fost sterse ouale rosii la Pasti, cand au fost scoase din ulcica cu roseala) putina tamaie, cateva ramurele de Busuioc si cativa peri de lana smulsi dintr-un cojoc. Dupa aceasta se aprinde peticul de carpa si, invartindu-1 in jurul *Bubei* si afumandu-1, se descanta:
 >
-> Beșică de 99 neamuri.
+> Besica de 99 neamuri.
 >
-> Să piei „
+> Sa piei „
 >
-> Să răspiei
+> Sa raspiei
 >
-> Ca rouă de soare
+> Ca roua de soare
 >
 > Ca spuma de mare.
 >
-> N. să rămâie curat
+> N. sa ramaie curat
 >
-> Și luminat
+> Si luminat
 >
 > Cum Dumnezeu l-a dat.
 >
-> Descântecul de la mine.
+> Descantecul de la mine.
 >
 > Leacul de la Dumnezeu!
 >
-> Descântecul acesta se poate spune oricând, de câte trei ori pe zi, dimineața, la amiază și scara. După ce se pronunță incantația de mai sus, se stinge peticul iar cu cenușa lui se unge *Beșică cea rea.*
+> Descantecul acesta se poate spune oricand, de cate trei ori pe zi, dimineata, la amiaza si scara. Dupa ce se pronunta incantatia de mai sus, se stinge peticul iar cu cenusa lui se unge *Besica cea rea.*
 >
-> Tot pentru *Beșică cea rea,* un remediu mai simplu constă în a lua frunze de Busuioc și, ungându-le cu miere, se leagă cu ele *Beșică cea rea.*
+> Tot pentru *Besica cea rea,* un remediu mai simplu consta in a lua frunze de Busuioc si, ungandu-le cu miere, se leaga cu ele *Besica cea rea.*
 >
-> Alt procedeu este acela de a se lua frunze și rămurele de Busuioc, apoi pânză de păianjen, se învelesc într-un petec de pânză care se aprinde, și cu care se descântă afumând *Beșică.* După ce a isprăvit de rostit incantația magică, descântătorul își udă în gură degetul arătător și, luând cenușa peticul ars pe deget, unge *Beșică* cu ea. Apoi udă tot astfel o frunză de Busuioc și, împreună cu pânză de păianjen, o lipește de *Beșică cea neagră,* care în scurt timp «se întoarce» (adică dă înapoi) și se vindecă.
+> Alt procedeu este acela de a se lua frunze si ramurele de Busuioc, apoi panza de paianjen, se invelesc intr-un petec de panza care se aprinde, si cu care se descanta afumand *Besica.* Dupa ce a ispravit de rostit incantatia magica, descantatorul isi uda in gura degetul aratator si, luand cenusa peticul ars pe deget, unge *Besica* cu ea. Apoi uda tot astfel o frunza de Busuioc si, impreuna cu panza de paianjen, o lipeste de *Besica cea neagra,* care in scurt timp «se intoarce» (adica da inapoi) si se vindeca.
 >
-> Pentru farmecele de dragoste, ritualurile românești legate de Busuioc sunt uneori destul de complexe, fiind cunoscute mai multe variante, de la o regiune la alta.
+> Pentru farmecele de dragoste, ritualurile romanesti legate de Busuioc sunt uneori destul de complexe, fiind cunoscute mai multe variante, de la o regiune la alta.
 >
-> Iată cum procedează o fată din Carpații Apuseni. Către seară, după ce s-a întunecat bine, ea își ia o ulcică și trei fire de Busuioc cu care se duce la un râu, unde își umple ulcica cu apă, o pune pe cap și se întoarce cu ea spre casă rostind un descântec.
+> Iata cum procedeaza o fata din Carpatii Apuseni. Catre seara, dupa ce s-a intunecat bine, ea isi ia o ulcica si trei fire de Busuioc cu care se duce la un rau, unde isi umple ulcica cu apa, o pune pe cap si se intoarce cu ea spre casa rostind un descantec.
 >
-> Ajungând la ușa casei, bea de trei ori din ulcică și rostește următorul descântec:
+> Ajungand la usa casei, bea de trei ori din ulcica si rosteste urmatorul descantec:
 >
-> agj *Cum nu poale face popa aghiasină, Făr\' de Busuioc, Așa să nu poată ncepc feciorii, Făr\' de mine nici un joc!*
+> agj *Cum nu poale face popa aghiasina, Far\' de Busuioc, Asa sa nu poata ncepc feciorii, Far\' de mine nici un joc!*
 >
-> ~s~ Acest descântec se face când este Lună veche, într-o marți, într-o joi sau într-o sâmbătă seara (în alte zile și când este lună nouă, farmecul nu este bun).
+> ~s~ Acest descantec se face cand este Luna veche, intr-o marti, intr-o joi sau intr-o sambata seara (in alte zile si cand este luna noua, farmecul nu este bun).
 >
-> în altă vrajă de dragoste din aceiași munți (din satul Sân-Giorgiu), felele iau o ulcică cu apă, pun în ca câteva fire de
+> in alta vraja de dragoste din aceiasi munti (din satul San-Giorgiu), felele iau o ulcica cu apa, pun in ca cateva fire de
 >
-> Busuioc, ies apoi afară din casă și, uitându-sc la stele, descânți\
-> cu următoarea incantație:
+> Busuioc, ies apoi afara din casa si, uitandu-sc la stele, descanti\
+> cu urmatoarea incantatie:
 >
-> *\"Uila stea De la 99 dopuri fîciorcști,*
+> *\"Uila stea De la 99 dopuri ficiorcsti,*
 >
-> *Logosica! De la 99 struțuri feteșci.*
+> *Logosica! De la 99 struturi fetesci.*
 >
-> *Adă-mi dragostea mea Două stele*
+> *Ada-mi dragostea mea Doua stele*
 >
 > *De trei ori Logostele*
 >
-> *Până-n zori Aduceți dragostile mele,*
+> *Pana-n zori Aduceti dragostile mele,*
 >
-> *La astă ulcea cu flori, De trei ori*
+> *La asta ulcea cu flori, De trei ori*
 >
-> *De la 99 vaci ci viței, Până*\'« *zori*
+> *De la 99 vaci ci vitei, Pana*\'« *zori*
 >
-> *De la 99 oi cu miei, La astă ulcea cu flori\...\"*
+> *De la 99 oi cu miei, La asta ulcea cu flori\...\"*
 >
 > *De la 99 scroafe cu purcei,*
 >
-> Această incantație sejșostește de nouă ori, după care fata, încetând de a se mai uita la stele, bea o parte din apă, cu o parte se spală pe obraz, cu o parte se udă pe cap. iar cu ceea ce mai rămâne din apă, udă de la locul pe unde crede că vor veni feciorii la ea, până la ușa casei, turnând apoi tot restul de apă pe prag. O parte din Busuiocul din ulcică îl rupe și îl presară, ca și apa, pe calea pe unde vor veni feciorii, iar cu cealaltă parte se freacă pe mâini și pe obraz, ducându-se apoi să se culce, așteptând dragostea și visând la voinicul dorit.
+> Aceasta incantatie sejsosteste de noua ori, dupa care fata, incetand de a se mai uita la stele, bea o parte din apa, cu o parte se spala pe obraz, cu o parte se uda pe cap. iar cu ceea ce mai ramane din apa, uda de la locul pe unde crede ca vor veni feciorii la ea, pana la usa casei, turnand apoi tot restul de apa pe prag. O parte din Busuiocul din ulcica il rupe si il presara, ca si apa, pe calea pe unde vor veni feciorii, iar cu cealalta parte se freaca pe maini si pe obraz, ducandu-se apoi sa se culce, asteptand dragostea si visand la voinicul dorit.
 >
-> în Bucovina, într-o joi sau sâmbătă dimineața, înainte de a răsări soarele, se poate începe o vrajă despre care se zice că face ca, fetele să fie foarte iubite, căutate și jucate de toți feciorii. Ele sunt cele dintâi și mai alese la toate adunările și petrecerile.
+> in Bucovina, intr-o joi sau sambata dimineata, inainte de a rasari soarele, se poate incepe o vraja despre care se zice ca face ca, fetele sa fie foarte iubite, cautate si jucate de toti feciorii. Ele sunt cele dintai si mai alese la toate adunarile si petrecerile.
 >
-> Astfel, fata ce își dorește dragostea face un buchet de Busuioc punând în mijlocul lui o pană de păun și un bănuț de argint (un «puișor») și legându-1 cu un șirag de mărgele. Cu acest buchet, cu o bucățică de pâine, cu o fărâmă de sare și cu o ulcică ea se duce la o apă curgătoare (de obicei la un pârâiaș). Ajunsă la apă caută un loc unde valurile apei se lovesc de bolovani făcând spume și zgomot mare. Aici face trei metanii și, aruncând pâinea și sarea In apă, recită:
+> Astfel, fata ce isi doreste dragostea face un buchet de Busuioc punand in mijlocul lui o pana de paun si un banut de argint (un «puisor») si legandu-1 cu un sirag de margele. Cu acest buchet, cu o bucatica de paine, cu o farama de sare si cu o ulcica ea se duce la o apa curgatoare (de obicei la un paraias). Ajunsa la apa cauta un loc unde valurile apei se lovesc de bolovani facand spume si zgomot mare. Aici face trei metanii si, aruncand painea si sarea In apa, recita:
 >
-> *Apă lină cur(g)ătoare.*
+> *Apa lina cur(g)atoare.*
 >
-> *Eu iți dau pâine și sare,*
+> *Eu iti dau paine si sare,*
 >
-> *Er\' ni să-mi dai mie cinste.*
+> *Er\' ni sa-mi dai mie cinste.*
 >
-> *Soroc și dragoste marc.\'\"*
+> *Soroc si dragoste marc.\'\"*
 >
-> După ce-a rostit această incantație, ea ia apă din pârâu cu ulcica în care se află și buchetul de Busuioc, având grijă ca gura ulcelei să fie îndreptată în susul apei, apoi se îndreaptă către casă.
+> Dupa ce-a rostit aceasta incantatie, ea ia apa din parau cu ulcica in care se afla si buchetul de Busuioc, avand grija ca gura ulcelei sa fie indreptata in susul apei, apoi se indreapta catre casa.
 
-Pe drum trebuie să fie atentă să nu verse nici un strop de apă și să nu fie văzută de nimeni, dacă dorește ca farmecul să aibă urmările dorite. Ajunsă acasă, ea se urcă pe o laviță lângă fereastră și rostește o altă incantație magică, ținând lângă sine ulcica cu apa de la pârâu:
+Pe drum trebuie sa fie atenta sa nu verse nici un strop de apa si sa nu fie vazuta de nimeni, daca doreste ca farmecul sa aiba urmarile dorite. Ajunsa acasa, ea se urca pe o lavita langa fereastra si rosteste o alta incantatie magica, tinand langa sine ulcica cu apa de la parau:
 
-> \"--- *Bună dimineața Apă lină, curatoare!*
+> \"--- *Buna dimineata Apa lina, curatoare!*
 >
-> *Apă lină, curatoare! Cum speli munții*
+> *Apa lina, curatoare! Cum speli muntii*
 
-- *Mulțămcsc Dumitale, Și Runcii* (munți mici),\
- > A\'. *Doamnă mare! Dealurile*
+- *Multamcsc Dumitale, Si Runcii* (munti mici),\
+ > A\'. *Doamna mare! Dealurile*
 
-- *Apă lină, curatoare! Și malurile.*
+- *Apa lina, curatoare! Si malurile.*
 
-> *Eu te-am sorocit Toate gârlele*
+> *Eu te-am sorocit Toate garlele*
 >
-> *Cu pane și cu sare Și obârșiile,*
+> *Cu pane si cu sare Si obarsiile,*
 >
-> *Ca tu să-mi dai cinste Toate rădăcinile*
+> *Ca tu sa-mi dai cinste Toate radacinile*
 >
-> *Și dragoste mare!\... De toate mulurile,*
+> *Si dragoste mare!\... De toate mulurile,*
 >
-> *Toți bolovanii*
+> *Toti bolovanii*
 >
-> *Și toți bicășeii*
+> *Si toti bicaseii*
 >
 > *De toate moliturile*
 >
 > *De toate ruginiturile.*
 >
-> *Așa să mă speli și pe mine:*
+> *Asa sa ma speli si pe mine:*
 >
-> *De ură,*
+> *De ura,*
 >
-> *De făcătură,*
+> *De facatura,*
 >
 > *De urgie,*
 >
@@ -1636,59 +1636,59 @@ Pe drum trebuie să fie atentă să nu verse nici un strop de apă și să nu fi
 >
 > *De dat*
 >
-> *De ură de la moșneag,*
+> *De ura de la mosneag,*
 >
-> *De ură de la babă,*
+> *De ura de la baba,*
 >
-> *De ură de la om,*
+> *De ura de la om,*
 >
-> *De ură de femeie,*
+> *De ura de femeie,*
 >
-> *De ură de țigan,*
+> *De ura de tigan,*
 >
-> *De ură de armean.*
+> *De ura de armean.*
 >
-> *De ură de jidan.*
+> *De ura de jidan.*
 >
-> *De-i de la băiet,*
+> *De-i de la baiet,*
 >
-> *De-i de la copilă,*
+> *De-i de la copila,*
 >
-> *Să mă speli, să mă curățeșci\...*
+> *Sa ma speli, sa ma curatesci\...*
 
-*\"Eu întorc strachina, Strachina\'ntoarce vatra. Vatra \'ntoarce focul, Focul întoarce cuptorul, Cuptorul întoarce hornul, Hornu \'ntoarce cahla, Cahla \'ntoarce 44 de răzișoare. Patruzeci și patru de răzișoare Să\'ntoarcă ursitul meu, Care-mi e dat de Dumnezeu Cum bate para focului Din fundul cuptorului\...*
+*\"Eu intorc strachina, Strachina\'ntoarce vatra. Vatra \'ntoarce focul, Focul intoarce cuptorul, Cuptorul intoarce hornul, Hornu \'ntoarce cahla, Cahla \'ntoarce 44 de razisoare. Patruzeci si patru de razisoare Sa\'ntoarca ursitul meu, Care-mi e dat de Dumnezeu Cum bate para focului Din fundul cuptorului\...*
 
-> *Atâția flăcăi după mine să se bată.*
+> *Atatia flacai dupa mine sa se bata.*
 >
 > *Cate fire de Busuioc*
 >
-> *Atâția flăcăi cu cinste*
+> *Atatia flacai cu cinste*
 >
-> *Și cu dragoste mare*
+> *Si cu dragoste mare*
 >
-> *Să mă poftească la joc.*
+> *Sa ma pofteasca la joc.*
 >
-> *Apă lină, curatoare!*
+> *Apa lina, curatoare!*
 >
-> *Foarte mă rog Dumitale*
+> *Foarte ma rog Dumitale*
 >
-> *Cum speli din vârful munților*
+> *Cum speli din varful muntilor*
 >
-> *Pănă-n vârful câmpilor,*
+> *Pana-n varful campilor,*
 >
-> *Așa să mă speli pe mine*
+> *Asa sa ma speli pe mine*
 >
-> *Din vârful capului*
+> *Din varful capului*
 >
-> *Până\'n vârful degetelor.*
+> *Pana\'n varful degetelor.*
 >
 > *Din toate ciolanele,*
 >
 > *Din toate \'ncheieturile:*
 >
-> *De ură,*
+> *De ura,*
 >
-> *De făcătură,*
+> *De facatura,*
 >
 > *De urgie,*
 >
@@ -1698,1454 +1698,1454 @@ Pe drum trebuie să fie atentă să nu verse nici un strop de apă și să nu fi
 >
 > *De fapt,\...*
 >
-> *Să le dai pe Vadul satului*
+> *Sa le dai pe Vadul satului*
 >
 > *Pe capul vinovatului.\"*
 >
 > *A nun la gura cuptorului,*
 >
-> *Arțun la horn,*
+> *Artun la horn,*
 >
-> *Arțun la cahlă,*
+> *Artun la cahla,*
 >
-> *Așa să tragă ursitorul meu,*
+> *Asa sa traga ursitorul meu,*
 >
 > *Care-mi e dat de Dumnezeu,*
 >
-> *Și lumea întreagă*
+> *Si lumea intreaga*
 >
-> *La mine să tragă,*
+> *La mine sa traga,*
 >
 > *Cum trage la foc*
 >
-> *Și la busuioc,*
+> *Si la busuioc,*
 >
-> *Și la aur, și la argint,*
+> *Si la aur, si la argint,*
 >
-> *Și la pane, și la sare,*
+> *Si la pane, si la sare,*
 
-*Așa să tragă la mine.\"*
+*Asa sa traga la mine.\"*
 
-> Incantația se repetă de fiecare dată când se întoarce strachina după soare, adică de trei ori, urmând un alt descâhtec:
+> Incantatia se repeta de fiecare data cand se intoarce strachina dupa soare, adica de trei ori, urmand un alt descahtec:
 >
-> *\"Apă lină, curatoare! Să mă speli, să mă curățeșci,*
+> *\"Apa lina, curatoare! Sa ma speli, sa ma curatesci,*
 >
-> *Foarte mă rog Dumitale, Cu argint să mă zugrăvești.*
+> *Foarte ma rog Dumitale, Cu argint sa ma zugravesti.*
 >
-> *Să mă speli de ură Cu aur să mă polieșci,*
+> *Sa ma speli de ura Cu aur sa ma poliesci,*
 >
-> *Și de făcătură, La norod să mă porunceșci.*\"
+> *Si de facatura, La norod sa ma poruncesci.*\"
 >
-> După ce rostește și aceste versuri, se duce cu strachina cu apă de la\^Vatra focului pe la toate icoanele câte are în casă și «spală» fiecare icoană de sus în jos cu buchetul de Busuioc, zicând: *\"Să fiu sus ca Icoana, Și mare ca cucoana.\"*
+> Dupa ce rosteste si aceste versuri, se duce cu strachina cu apa de la\^Vatra focului pe la toate icoanele cate are in casa si «spala» fiecare icoana de sus in jos cu buchetul de Busuioc, zicand: *\"Sa fiu sus ca Icoana, Si mare ca cucoana.\"*
 >
-> De la icoane se duce la ferestre, pe care desemenea la spală, zicând:
+> De la icoane se duce la ferestre, pe care desemenea la spala, zicand:
 >
-> *\"Cum face fereastra la casă zare*
+> *\"Cum face fereastra la casa zare*
 >
-> *Și luminare, Așa să fac și eu la norod zare*
+> *Si luminare, Asa sa fac si eu la norod zare*
 >
-> *Și luminare, Să fiu mândră și frumoasă*
+> *Si luminare, Sa fiu mandra si frumoasa*
 >
-> *Si luminoasă.*
+> *Si luminoasa.*
 
-Se duce apoi Ia ușă și «spălând» cuiul sau clanță ușei cu buchetul de Busuioc, spune: *\"Cum se prind toți de cuiul ușei, Așa să mă prindă toți flăcăii pe mine, Și cum nu \'namgiură ușa nime, Așa să nu. me\'ncungiure nici pe mine nime!\"*
+Se duce apoi Ia usa si «spaland» cuiul sau clanta usei cu buchetul de Busuioc, spune: *\"Cum se prind toti de cuiul usei, Asa sa ma prinda toti flacaii pe mine, Si cum nu \'namgiura usa nime, Asa sa nu. me\'ncungiure nici pe mine nime!\"*
 
-> în final pune strachina, cu câtă apă a mai rămas și cu buchetul de Busuioc, pe o grindă sau pe o policioară deasupra icoanelor și, când sosește seara, toarnă puțin din apa aceasta în apa de îmbăiat și se spală. Tot așa face și Duminica dimineața înainte de a se porni la biserică și după amiaza înainte de a pleacă la joc.
+> in final pune strachina, cu cata apa a mai ramas si cu buchetul de Busuioc, pe o grinda sau pe o policioara deasupra icoanelor si, cand soseste seara, toarna putin din apa aceasta in apa de imbaiat si se spala. Tot asa face si Duminica dimineata inainte de a se porni la biserica si dupa amiaza inainte de a pleaca la joc.
 >
-> Toată vraja-descântec, de la sosirea cu ulcica de la pârâu și până la sfârșit, este repetată de fată de trei ori, la rând. Când se duce la biserică, la joc sau la o petrecere, fata își pune o parte din Busuiocul din buchet în sân, în brâu sau îl leagă la cingătoare, iar banul de argint și-1 pune în salba de bani de la gât, luând cu sine și pana de păun.^1^
+> Toata vraja-descantec, de la sosirea cu ulcica de la parau si pana la sfarsit, este repetata de fata de trei ori, la rand. Cand se duce la biserica, la joc sau la o petrecere, fata isi pune o parte din Busuiocul din buchet in san, in brau sau il leaga la cingatoare, iar banul de argint si-1 pune in salba de bani de la gat, luand cu sine si pana de paun.^1^
 >
-> Unele românce, atunci când scaldă copiii, și mai ales copilele, pun în scăldătoare și câteva rămurele de Busuioc, pentru ca cei ce se scaldă, când vor fi mari să fie iubiți și căutați de toată lumea. în Carpații Apuseni se făceau din Busuioc și din Saseu *(Vinca minor)* cununiile.
+> Unele romance, atunci cand scalda copiii, si mai ales copilele, pun in scaldatoare si cateva ramurele de Busuioc, pentru ca cei ce se scalda, cand vor fi mari sa fie iubiti si cautati de toata lumea. in Carpatii Apuseni se faceau din Busuioc si din Saseu *(Vinca minor)* cununiile.
 >
-> în scop medicinal Busuiocul se pune la tăieturi și la bube, iar în caz de inflamarea ganglionului limfatic frunzele sale se pun în legături. Fumul rezultat din punerea Busuiocului pe foc se trage în piept, contra tusei, și pe nas contra guturaiul. Cu tulpini aprinse de Busuioc se ard negii. împotriva durerilor de cap se face o legătură cu semințe de Busuioc. Busuiocul este un stimulent general, dar luat ca ceai, o ceașcă seara la culcare, favorizează somnul.
+> in scop medicinal Busuiocul se pune la taieturi si la bube, iar in caz de inflamarea ganglionului limfatic frunzele sale se pun in legaturi. Fumul rezultat din punerea Busuiocului pe foc se trage in piept, contra tusei, si pe nas contra guturaiul. Cu tulpini aprinse de Busuioc se ard negii. impotriva durerilor de cap se face o legatura cu seminte de Busuioc. Busuiocul este un stimulent general, dar luat ca ceai, o ceasca seara la culcare, favorizeaza somnul.
 
-#### Avrămească
+#### Avrameasca
 
 > --- *Gratiola officinalis ---*
 >
-> Avrămească (numită și Milostivă, și Creștinească) face parte din categoria plantelor ce resping duhurile și strigoii. în Banat sunt numite Avrămească ramurile florifere ale speciei *Gratiola officinalis,* iar cele sterile sunt numite Creștinească. Se spune că peste aceste ramuri plâng \"zânele milostive\".
+> Avrameasca (numita si Milostiva, si Crestineasca) face parte din categoria plantelor ce resping duhurile si strigoii. in Banat sunt numite Avrameasca ramurile florifere ale speciei *Gratiola officinalis,* iar cele sterile sunt numite Crestineasca. Se spune ca peste aceste ramuri plang \"zanele milostive\".
 >
-> în Muntenia, în cazurile de psihoze depresive, se foloseau Avrămească, Creștineasca, Leușteanul *(Levisticum officinale),* Odoleanul *{Valeriana officinalis),* Mătrăguna *(Alropa belladonna),* Iarba Ciutei *{Doronicum austriacum)* și Mama-pădurii *(Aspersula odorata).*
+> in Muntenia, in cazurile de psihoze depresive, se foloseau Avrameasca, Crestineasca, Leusteanul *(Levisticum officinale),* Odoleanul *{Valeriana officinalis),* Matraguna *(Alropa belladonna),* Iarba Ciutei *{Doronicum austriacum)* si Mama-padurii *(Aspersula odorata).*
 
-Este o plantă veninoasă cu proprietăți iritante și este considerat un vomitiv drastic, periculos. Cu ea se afumă copiii ce se sperie în somn, epilepticii, suferinzii de psihoze depresive, în general cei ale căror boli sunt cauzate de duhuri, de *Iele,* de *Ceasul Rău..*
+Este o planta veninoasa cu proprietati iritante si este considerat un vomitiv drastic, periculos. Cu ea se afuma copiii ce se sperie in somn, epilepticii, suferinzii de psihoze depresive, in general cei ale caror boli sunt cauzate de duhuri, de *Iele,* de *Ceasul Rau..*
 
 Boz
 
 #### Sambucus ebulus* ---
 
-Bozul are din punct de vedere medicinal aceleași proprietăți farmaceutice ca și Socul *(Sambucus nigra),* dar cu mult mai puternice.
+Bozul are din punct de vedere medicinal aceleasi proprietati farmaceutice ca si Socul *(Sambucus nigra),* dar cu mult mai puternice.
 
-> El este direct implicat în riturile de invocare a ploii, în timp de secetă sau în anumite zile importante din punct de vedere calendaristic în dezvoltarea vegetației.
+> El este direct implicat in riturile de invocare a ploii, in timp de seceta sau in anumite zile importante din punct de vedere calendaristic in dezvoltarea vegetatiei.
 >
-> în Țara Hațegului (ca și în alte regiuni), vara, când este secetă mare, se adună vreo doisprezece copii din sat și îmbracă în Boz pe un copil mai zdravăn, din cap până în tălpi, astfel încât îi acoperă tot capul, tot gâtul, trupul și picioarele până sub tălpi cu frunze de Boz legate cu o ață. Băiatul este așa de plin de frunze de Boz că nici nu mai poate vedea, conducându-1 ceilalți copii de mână. Astfel pregătiți, încep să parcurgă toate ulițele satului. Mergând de-alungul uliței, toți doisprezece strigă din răsputeri, pe un glas:
+> in Tara Hategului (ca si in alte regiuni), vara, cand este seceta mare, se aduna vreo doisprezece copii din sat si imbraca in Boz pe un copil mai zdravan, din cap pana in talpi, astfel incat ii acopera tot capul, tot gatul, trupul si picioarele pana sub talpi cu frunze de Boz legate cu o ata. Baiatul este asa de plin de frunze de Boz ca nici nu mai poate vedea, conducandu-1 ceilalti copii de mana. Astfel pregatiti, incep sa parcurga toate ulitele satului. Mergand de-alungul ulitei, toti doisprezece striga din rasputeri, pe un glas:
 >
 > *\"Ploaie, Doamne, ploaie!*
 >
 > *Cerne eu ciurul*
 >
-> *Toarnă cu ciubărul*
+> *Toarna cu ciubarul*
 >
-> *Pe fântână seacă.*
+> *Pe fantana seaca.*
 >
-> *Ne umple de apă.*
+> *Ne umple de apa.*
 >
 > *Bumburel de-argint*
 >
-> *Ploaie pe pământ;*
+> *Ploaie pe pamant;*
 >
 > *Bumburel de aur*
 >
 > *Ploaie de balaur;*
 >
-> *Rodul până \'n pod.*
+> *Rodul pana \'n pod.*
 >
 > *Spicul*
 >
-> *Cât voinicul.\"*
+> *Cat voinicul.\"*
 >
-> Atunci, mai din fiecare casă iese câte o femeie cu o găleată din care aruncă apa pe Boz (pe băiatul îmbrăcat în Boz), apoi îi dăruiește un ou. Gazda care are fântână aruncă pe Boz câte trei găleți de apă din fântână și-1 dăruiește cu trei ouă^1^.
+> Atunci, mai din fiecare casa iese cate o femeie cu o galeata din care arunca apa pe Boz (pe baiatul imbracat in Boz), apoi ii daruieste un ou. Gazda care are fantana arunca pe Boz cate trei galeti de apa din fantana si-1 daruieste cu trei oua^1^.
 >
-> Alt ritual magic de invocare a ploii este cel al Caloianului, păpușă cu chip de om făcută din lut, împodobită cu flori și cu coji de ouă roșii, care se îngroapă în câmp sau se aruncă în apă (îndeosebi în joia a treia după Paști, în timp de secetă)^1^. în Câmpia Română, Caloianul era îngropat lângă o fântână, între Bozii, cântându-i-se: *Să deschidă porțile,/ Să sloboadă ploile,/ Să curgă gârlele,/ Zilele și nopțile,/ Ca să crească grânele\...*
+> Alt ritual magic de invocare a ploii este cel al Caloianului, papusa cu chip de om facuta din lut, impodobita cu flori si cu coji de oua rosii, care se ingroapa in camp sau se arunca in apa (indeosebi in joia a treia dupa Pasti, in timp de seceta)^1^. in Campia Romana, Caloianul era ingropat langa o fantana, intre Bozii, cantandu-i-se: *Sa deschida portile,/ Sa sloboada ploile,/ Sa curga garlele,/ Zilele si noptile,/ Ca sa creasca granele\...*
 >
 > Cicoare
 >
 > --- *Cichorium intybus ---*
 
-Se spune că Cicoarea a fost o zână frumoasă, Zâna Florilor. Obișnuia să se spele cu rouă de pe flori pe care o culegea dimineața, într-un pahar, crezând că nu o vede nimeni. Dar Soarele, văzând-o, s-a îndrăgostit de ea. El a trimis doi luceferi s-o pețească, dar ca le-a răspuns că nu vrea: *\"Soare soțior, că-i lot călător, ziua peste sate, noaptea peste ape\".* Soarele, mâniat, a spus la rândul său: *\"Lăsați-mi-o-n pace, Că mi-o voi preface Floare de Cicoare cu ochii după Soare, Când oi răsări, ea s-o-nveseli! Când oi asfinți, Ea s-a ofili; când oi scăpata, ea s-a aduna\".* De atunci ea este o plantă, iar florile sale seara se strâng, iar dimineața se desfac iarăși. Fetele de măritat din Bucovina, care nu sunt pețite, invocă ajutorul Cicoarei^2^.
+Se spune ca Cicoarea a fost o zana frumoasa, Zana Florilor. Obisnuia sa se spele cu roua de pe flori pe care o culegea dimineata, intr-un pahar, crezand ca nu o vede nimeni. Dar Soarele, vazand-o, s-a indragostit de ea. El a trimis doi luceferi s-o peteasca, dar ca le-a raspuns ca nu vrea: *\"Soare sotior, ca-i lot calator, ziua peste sate, noaptea peste ape\".* Soarele, maniat, a spus la randul sau: *\"Lasati-mi-o-n pace, Ca mi-o voi preface Floare de Cicoare cu ochii dupa Soare, Cand oi rasari, ea s-o-nveseli! Cand oi asfinti, Ea s-a ofili; cand oi scapata, ea s-a aduna\".* De atunci ea este o planta, iar florile sale seara se strang, iar dimineata se desfac iarasi. Fetele de maritat din Bucovina, care nu sunt petite, invoca ajutorul Cicoarei^2^.
 
-> Este foarte folosită ca plantă de leac, în diferite afecțiuni, în sifilis a fost folosită seva sa cu care se ungeau erupțiile. în Carpații Apuseni se făceau cu ea scăldători și abureli celor răciți, cu mai multe beteșuguri, iar în Vrancea (Carpații de curbură), ca să fie plăcute, fetele se spălau cu floarea ei.
+> Este foarte folosita ca planta de leac, in diferite afectiuni, in sifilis a fost folosita seva sa cu care se ungeau eruptiile. in Carpatii Apuseni se faceau cu ea scaldatori si abureli celor raciti, cu mai multe betesuguri, iar in Vrancea (Carpatii de curbura), ca sa fie placute, fetele se spalau cu floarea ei.
 >
-#### Sânziene
+#### Sanziene
 >
 > --- *Galium venim* ---
 >
-> Numite și *Drăgaica, Sânzienele* sunt flori galbene aurii cu miros plăcut ce cresc prin fânețe, prin livezi sau pe margini de pădure. Sunt între cele mai iubite flori de către popor, de aceea numele lor a fost dat celei mai vechi și importante sărbători românești, *Sânzienelor* (numită și *Nedeia* sau *Drăgaica),* ce se țin la 24 Iunie. în această perioadă majoritatea ierburilor sunt în plină floare, aceasta fiind ziua în care femeile, îmbrăcate de sărbătoare, se duc să culeagă ierburile de vară necesare peste tot anul pentru diverse leacuri. în această zi ele nu lucrează, de teamă să nu se \"pocească\", adică să nu li se \"strâmbe gura\".\[4, pag. 212\]
+> Numite si *Dragaica, Sanzienele* sunt flori galbene aurii cu miros placut ce cresc prin fanete, prin livezi sau pe margini de padure. Sunt intre cele mai iubite flori de catre popor, de aceea numele lor a fost dat celei mai vechi si importante sarbatori romanesti, *Sanzienelor* (numita si *Nedeia* sau *Dragaica),* ce se tin la 24 Iunie. in aceasta perioada majoritatea ierburilor sunt in plina floare, aceasta fiind ziua in care femeile, imbracate de sarbatoare, se duc sa culeaga ierburile de vara necesare peste tot anul pentru diverse leacuri. in aceasta zi ele nu lucreaza, de teama sa nu se \"poceasca\", adica sa nu li se \"strambe gura\".\[4, pag. 212\]
 >
-> Numele acestor flori, ca și al zilei lor, este de fapt cel al unor zâne, *Sânzienele,* ce pot fi uneori văzute jucând asemenea *Ielelor* în Noaptea de Sânziene. Sub numele de *Drăgaice,* folclorul românesc mai desemna unele făpturi fantastice frumoase, însă nemilostive, ce trăiau pe ogoare, prin lunci și păduri\[ll, pag. 490\]. Noaptea de Sânziene este noaptea de 24 Iunie, noapte reputată astăzi pretutindeni ca având virtuți magice. La mijlocul acestei nopți este rânduit un răstimp de liniște, când stau în cumpănă toate stihiile, este un moment de contact între lumea noastră și \"lumea cealaltă\". Pentru o clipă, \"cât ai deschide și ai închide o carte\", se deschid pentru câțiva, *Porțile Cerului.*
+> Numele acestor flori, ca si al zilei lor, este de fapt cel al unor zane, *Sanzienele,* ce pot fi uneori vazute jucand asemenea *Ielelor* in Noaptea de Sanziene. Sub numele de *Dragaice,* folclorul romanesc mai desemna unele fapturi fantastice frumoase, insa nemilostive, ce traiau pe ogoare, prin lunci si paduri\[ll, pag. 490\]. Noaptea de Sanziene este noaptea de 24 Iunie, noapte reputata astazi pretutindeni ca avand virtuti magice. La mijlocul acestei nopti este randuit un rastimp de liniste, cand stau in cumpana toate stihiile, este un moment de contact intre lumea noastra si \"lumea cealalta\". Pentru o clipa, \"cat ai deschide si ai inchide o carte\", se deschid pentru cativa, *Portile Cerului.*
 
-Folclorul tuturor poporelor, *mai cu seamă al celor nordice,* marchează prin sărbători speciale această noapte de mistere. La români ea marchează \"o datină de străveche proveniență, al cărui nume dac s-a pierdut, însă s-a păstrat cel daco-roman de *Sânziene (Sancta Diana).\"\[\\l\]* Sărbătoarea această este de origine pre-celtică și pre-dacică. Numele originar (moștenit de la daci) credem că este cel de *Nedeia* (săbătoare prototipală și pentru *Moși).* Ea a fost transmisă popoarelor nordice prin intermediul druizilor, iar românilor de către sacerdoțiul geto-dac.
+Folclorul tuturor poporelor, *mai cu seama al celor nordice,* marcheaza prin sarbatori speciale aceasta noapte de mistere. La romani ea marcheaza \"o datina de straveche provenienta, al carui nume dac s-a pierdut, insa s-a pastrat cel daco-roman de *Sanziene (Sancta Diana).\"\[\\l\]* Sarbatoarea aceasta este de origine pre-celtica si pre-dacica. Numele originar (mostenit de la daci) credem ca este cel de *Nedeia* (sabatoare prototipala si pentru *Mosi).* Ea a fost transmisa popoarelor nordice prin intermediul druizilor, iar romanilor de catre sacerdotiul geto-dac.
 
-> La români se crede că în această noapte încing hore Sânzienele și că acum trebuiesc culese ierburile de leac pentru a fi eficiente. Tot acum, folosind practici divinatorii, tinerii își află
+> La romani se crede ca in aceasta noapte incing hore Sanzienele si ca acum trebuiesc culese ierburile de leac pentru a fi eficiente. Tot acum, folosind practici divinatorii, tinerii isi afla
 >
-> viitorul, iar animalele, oriunde s-ar afla, se strâng și la stau la sfat. Cine le pândește le poate asculta, și poate afla astfel multe taine sau anumite comori.
+> viitorul, iar animalele, oriunde s-ar afla, se strang si la stau la sfat. Cine le pandeste le poate asculta, si poate afla astfel multe taine sau anumite comori.
 >
-> în această noapte, între ceasurile 10 și 12, apare *floarea de Ferigă,* albă și strălucitoare ca o stea, și care aduce celui ce o are cel mai mare noroc. Sunt puțini cei care pot să o vadă și să o culeagă din pricina duhurilor nevăzute, care cum răsare, o și culege. Trebuie luată dintr-o pădure îndepărtată de orice așezare omenească, unde nu se aude cântecul de cocoș.^1^
+> in aceasta noapte, intre ceasurile 10 si 12, apare *floarea de Feriga,* alba si stralucitoare ca o stea, si care aduce celui ce o are cel mai mare noroc. Sunt putini cei care pot sa o vada si sa o culeaga din pricina duhurilor nevazute, care cum rasare, o si culege. Trebuie luata dintr-o padure indepartata de orice asezare omeneasca, unde nu se aude cantecul de cocos.^1^
 >
-> Unele popoare pentru păstrarea sănătății se scaldă în zorii zilei de 24 Iunie, la Sânziene.\[4, pag. 232\] Acest obicei l-am exemplificat și 1-a români (în primul capitol), pe muntele Seme-nic, în apropierea vârfului *Nedeia.* Ca să fie feriți de dureri de șale în cursul anului, oamenii se încing în ziua Sânzienelor cu o tulpină de Cicoare sau cu Pelin.\[4, pag.248\]
+> Unele popoare pentru pastrarea sanatatii se scalda in zorii zilei de 24 Iunie, la Sanziene.\[4, pag. 232\] Acest obicei l-am exemplificat si 1-a romani (in primul capitol), pe muntele Seme-nic, in apropierea varfului *Nedeia.* Ca sa fie feriti de dureri de sale in cursul anului, oamenii se incing in ziua Sanzienelor cu o tulpina de Cicoare sau cu Pelin.\[4, pag.248\]
 >
-> Legat de Noaptea Sânzienelor vrem să redăm o recentă întâmplare. Există în Transilvania o renumită pădure B. pentru fenomenele stranii ce se petrec în ea. Au fosl executate sute de imagini **foto** cu fenomene din sfera para fizicului, ciud.ite apariții luminoase. Aceste fenomene se produc relativ des. orice incursiune nocturnă aici fiind **o** aventură. Totuși, un moment anume, așa cum este Noaptea de Sânziene, promite o varietate mai marc de fenomene. Pe acest considerent. în noaptea de 23 spre 24 Iunie 1993. o echipă formată din șase **reporteri** de la două ziare au descins în pădurea B. Vom spicui anumite momente din relatarea incursiunii lor. cronologic (respectând ora reală a meridianului, și nu ora convențională \"de vară\", cum au procedat reporterii). Deci: Ora 22. Se intră la pas în pădurea B. Reporterii pășesc încet, urmăriți de farurile unei mașini care îi urmează. Liniștea profundă li se pare \"suspectă\". Ora 22^M^. Dintr-o dată se face foarte cald. Aerul devine fierbinte\... Ca la un semn pădurea prinde viață. Se aud orăcăituri ciudate. Broaște mici. roșii, sar pe drum. Ora 23. Cu toate că este senin, cerul începe să se aprindă. Fulgere rotunde fac din noapte zi. Ora 23^30^. Cerul este aproape alb. Fulgerelor mari. rotunde, le răspund scântei ce țâșnesc din ramurile copacilor. Pare că întreg cerul s-a unit cu pământul. Un reportofon pornește singur, așa cum mai devreme pornise o cameră video. înspre ora 24 reporterii ajung la un lac. Redăm relatarea unuia dintre reporteri:
+> Legat de Noaptea Sanzienelor vrem sa redam o recenta intamplare. Exista in Transilvania o renumita padure B. pentru fenomenele stranii ce se petrec in ea. Au fosl executate sute de imagini **foto** cu fenomene din sfera para fizicului, ciud.ite aparitii luminoase. Aceste fenomene se produc relativ des. orice incursiune nocturna aici fiind **o** aventura. Totusi, un moment anume, asa cum este Noaptea de Sanziene, promite o varietate mai marc de fenomene. Pe acest considerent. in noaptea de 23 spre 24 Iunie 1993. o echipa formata din sase **reporteri** de la doua ziare au descins in padurea B. Vom spicui anumite momente din relatarea incursiunii lor. cronologic (respectand ora reala a meridianului, si nu ora conventionala \"de vara\", cum au procedat reporterii). Deci: Ora 22. Se intra la pas in padurea B. Reporterii pasesc incet, urmariti de farurile unei masini care ii urmeaza. Linistea profunda li se pare \"suspecta\". Ora 22^M^. Dintr-o data se face foarte cald. Aerul devine fierbinte\... Ca la un semn padurea prinde viata. Se aud oracaituri ciudate. Broaste mici. rosii, sar pe drum. Ora 23. Cu toate ca este senin, cerul incepe sa se aprinda. Fulgere rotunde fac din noapte zi. Ora 23^30^. Cerul este aproape alb. Fulgerelor mari. rotunde, le raspund scantei ce tasnesc din ramurile copacilor. Pare ca intreg cerul s-a unit cu pamantul. Un reportofon porneste singur, asa cum mai devreme pornise o camera video. inspre ora 24 reporterii ajung la un lac. Redam relatarea unuia dintre reporteri:
 
-\"Deasupra lacului ceața ia forme înfricoșătoare, schimbându-se dintr-o secundă în alta. Privim înmărmuriți cum contururi de femei apar și dispar de o parte și de cealaltă a lacului. Dintre copaci se aud gemete. Apoi. într-o fracțiune
+\"Deasupra lacului ceata ia forme infricosatoare, schimbandu-se dintr-o secunda in alta. Privim inmarmuriti cum contururi de femei apar si dispar de o parte si de cealalta a lacului. Dintre copaci se aud gemete. Apoi. intr-o fractiune
 
-> de secundă, se aude o bubuitură cumplită și totul revine la normal. începe să plouă mărunt. Pe lac nu se mai vede nimic. Ceasul arată l^05^ (în realitate 24 - n. a.) și până în oraș facem 40 de minute. Ajuns acasă îmi privesc din nou ceasul\... După 40 de minute de drum. ceasul meu indică ora 3 și 40 de minute.\"
+> de secunda, se aude o bubuitura cumplita si totul revine la normal. incepe sa ploua marunt. Pe lac nu se mai vede nimic. Ceasul arata l^05^ (in realitate 24 - n. a.) si pana in oras facem 40 de minute. Ajuns acasa imi privesc din nou ceasul\... Dupa 40 de minute de drum. ceasul meu indica ora 3 si 40 de minute.\"
 
-Dintre zânele Sânziene, una este mai bine cunoscută din basme^2^, prototip al celorlalte, *lâna Sânziana,* sora Soarelui, iubită de el, de care însă fuge, de frica incestului. Este o zeitate astrală ce locuiește în Mănăstirea Albă din Ostrovul Mării (trimitere probabilă la templul lui Apollon din Insula Albă -Leuke). Ea a fost identificată cu zeița traco-dacică Bendis (zeiță a Lunii, a pădurilor și a farmecelor; bustul său de bronz cu sânii proeminenți, găsit la Piatra Roșie, o sugerează și ca zeiță a dragostei), al cărei cult, sub ocupația romană a dacilor, ar fi fost asimilat de cel al Dianei. Astfel, după Mircea Eliade, *Sancta Diana* de la Sarmizegetusa a devenit *Sânziana,* iar forma latină *dianatici* (cei posedați de Diana) a dat în limba română *zănatici^1^.*
+Dintre zanele Sanziene, una este mai bine cunoscuta din basme^2^, prototip al celorlalte, *lana Sanziana,* sora Soarelui, iubita de el, de care insa fuge, de frica incestului. Este o zeitate astrala ce locuieste in Manastirea Alba din Ostrovul Marii (trimitere probabila la templul lui Apollon din Insula Alba -Leuke). Ea a fost identificata cu zeita traco-dacica Bendis (zeita a Lunii, a padurilor si a farmecelor; bustul sau de bronz cu sanii proeminenti, gasit la Piatra Rosie, o sugereaza si ca zeita a dragostei), al carei cult, sub ocupatia romana a dacilor, ar fi fost asimilat de cel al Dianei. Astfel, dupa Mircea Eliade, *Sancta Diana* de la Sarmizegetusa a devenit *Sanziana,* iar forma latina *dianatici* (cei posedati de Diana) a dat in limba romana *zanatici^1^.*
 
-> în ziua de Sânziene, toate fetele tinere virgine din satele învecinate, îmbrăcate în haine noi de sărbătoare, având capetele acoperite cu marame albe și încununate cu cununile de (lori de Sânziene, se adună și o aleg pe cea mai frumoasă dintre ele, căreia îi dau numele de Dragaică sau Sânziana. O petrec pe ogoare cu mare alai, o gătesc cu o cunună împletită din spice și cu mul-ic basmale colorate și îi pun în mâini cheile de la hambare. Sânziana aleasă, împreună cu alaiul ci de fete virgine, joacă hore pe câmp (ca și la intrarea în sate), apoi \"se întoarce de la câmp spre casă cu mâinile întinse și cu basmalele fluturând în vânt, de parcă ar zbura, și cutreieră toate satele din care s-a adunat lume s-o petreacă\... Fetele din Moldova doresc din toată inima să aibă parte de această cinstire sătească, deși în cântecele lor spun mereu, după datină, că fata care a întruchipat Drăgaica nu se poate mărita decât abia după trei ani.\"^4^
+> in ziua de Sanziene, toate fetele tinere virgine din satele invecinate, imbracate in haine noi de sarbatoare, avand capetele acoperite cu marame albe si incununate cu cununile de (lori de Sanziene, se aduna si o aleg pe cea mai frumoasa dintre ele, careia ii dau numele de Dragaica sau Sanziana. O petrec pe ogoare cu mare alai, o gatesc cu o cununa impletita din spice si cu mul-ic basmale colorate si ii pun in maini cheile de la hambare. Sanziana aleasa, impreuna cu alaiul ci de fete virgine, joaca hore pe camp (ca si la intrarea in sate), apoi \"se intoarce de la camp spre casa cu mainile intinse si cu basmalele fluturand in vant, de parca ar zbura, si cutreiera toate satele din care s-a adunat lume s-o petreaca\... Fetele din Moldova doresc din toata inima sa aiba parte de aceasta cinstire sateasca, desi in cantecele lor spun mereu, dupa datina, ca fata care a intruchipat Dragaica nu se poate marita decat abia dupa trei ani.\"^4^
 >
-> în unele sate (din Bistrița-Năsăud) fetele și feciorii ce voiau să se căsătorească se strângeau seara, în ajunul zilei Sânzie-nelor. Băieții făceau ruguri, aprindeau facle și le învârteau în sensul mișcării soarelui la apus, strigând:
+> in unele sate (din Bistrita-Nasaud) fetele si feciorii ce voiau sa se casatoreasca se strangeau seara, in ajunul zilei Sanzie-nelor. Baietii faceau ruguri, aprindeau facle si le invarteau in sensul miscarii soarelui la apus, strigand:
 >
-> *Să le prindă in cunune. Să le pună la pălărie Struțuri pentru cununie. Boabele să le răstească, Pănă-n toamnă să nuntească.*\'
+> *Sa le prinda in cunune. Sa le puna la palarie Struturi pentru cununie. Boabele sa le rasteasca, Pana-n toamna sa nunteasca.*\'
 >
-> Fetele fug pe deal sau la munte, culeg și împletesc cununi, se întorc cu ele în fugă în sat și le aruncă pe casă. Dacă cununile se agață de hornuri, fetele se vor mărita chiar în anul acela. A doua zi dimineața cetele de feciori străbat satele cu buchete de Sânziene la pălărie, strigând în cor: *\"Hai faimoaselor, ce stați, Zâne vreți sâ rămâneți, Că venim după pețitl Până nu v-ați răzgândit.*/\'\[li. pag. 399\]
+> Fetele fug pe deal sau la munte, culeg si impletesc cununi, se intorc cu ele in fuga in sat si le arunca pe casa. Daca cununile se agata de hornuri, fetele se vor marita chiar in anul acela. A doua zi dimineata cetele de feciori strabat satele cu buchete de Sanziene la palarie, strigand in cor: *\"Hai faimoaselor, ce stati, Zane vreti sa ramaneti, Ca venim dupa petitl Pana nu v-ati razgandit.*/\'\[li. pag. 399\]
 >
-> în cursul Noapții de Sânziene sunt lăsate atârnate de streașină flori de scaieți tunse de puf și, după cât crește puful până dimineața, se stabilește cantitatea de noroc (pe anul ce începe de la acest solstițiu până la celălalt) a celor ce le-au pus; iar florile de Sânziene *(Galium venim)* se fac mănunchiuri proaspete cu care se împodobesc ferestrele, porțile, streșinile caselor, pentru a-i apăra pe oameni de duhurile rele.
+> in cursul Noaptii de Sanziene sunt lasate atarnate de streasina flori de scaieti tunse de puf si, dupa cat creste puful pana dimineata, se stabileste cantitatea de noroc (pe anul ce incepe de la acest solstitiu pana la celalalt) a celor ce le-au pus; iar florile de Sanziene *(Galium venim)* se fac manunchiuri proaspete cu care se impodobesc ferestrele, portile, stresinile caselor, pentru a-i apara pe oameni de duhurile rele.
 
-Rouă de pe Sânziene, culeasă în ziua de Sânziene, se întrebuințează în bolile ochilor, iar planta întreagă se pune în scăldătorile copiilor debili pentru a-i întrema. Zeama Sânzienelor lor a fost folosită împotriva frigurilor. Plămădită în rachiu, planta vindeca hernia, iar datorită proprietății sale de a închega laptele se mai numește și *închegătoare.*
+Roua de pe Sanziene, culeasa in ziua de Sanziene, se intrebuinteaza in bolile ochilor, iar planta intreaga se pune in scaldatorile copiilor debili pentru a-i intrema. Zeama Sanzienelor lor a fost folosita impotriva frigurilor. Plamadita in rachiu, planta vindeca hernia, iar datorita proprietatii sale de a inchega laptele se mai numeste si *inchegatoare.*
 
-#### Cânepa, Cannabis sativa
-> în spațiul românesc Cânepa a fost folosită de către sciți încă din secolele VI-VII î.Hr.. Herodot scrie astfel că ei întrebuințau Cânepa ca narcotic. Aruncau firele verzi de Cânepă pe pietre înroșite, inhalau fumul și apoi cădeau în stări extatice, dansând și cântând în jurul focului. Acest obicei este atestat la aproape toți tracii, ei contribuind la cultivarea și răspândirea ei. Dacii au cultivat-o pentru fibre, iar cataplasma din inflorescențe de Cânepă o socoteau cel mai eficient mijloc pentru vindecarea rănilor și arsurilor^1^.
+#### Canepa, Cannabis sativa
+> in spatiul romanesc Canepa a fost folosita de catre sciti inca din secolele VI-VII i.Hr.. Herodot scrie astfel ca ei intrebuintau Canepa ca narcotic. Aruncau firele verzi de Canepa pe pietre inrosite, inhalau fumul si apoi cadeau in stari extatice, dansand si cantand in jurul focului. Acest obicei este atestat la aproape toti tracii, ei contribuind la cultivarea si raspandirea ei. Dacii au cultivat-o pentru fibre, iar cataplasma din inflorescente de Canepa o socoteau cel mai eficient mijloc pentru vindecarea ranilor si arsurilor^1^.
 >
-> Dincolo de întrebuințările casnice ne interesează leacurile și credințele românilor legate de Cânepă. Știm astfel că împotriva durerilor de urechi (de *năjit)* se pun într-o oală nouă cărbuni aprinși și semințe de Cânepă, bolnavul ținându-și urechea deasupra oalei să o pătrundă fumul. în Sălciuca (jud. Alba), femeile când nasc beau câte o ceașcă de ceai de sămânță de Cânepă împotriva durerilor.
+> Dincolo de intrebuintarile casnice ne intereseaza leacurile si credintele romanilor legate de Canepa. Stim astfel ca impotriva durerilor de urechi (de *najit)* se pun intr-o oala noua carbuni aprinsi si seminte de Canepa, bolnavul tinandu-si urechea deasupra oalei sa o patrunda fumul. in Salciuca (jud. Alba), femeile cand nasc beau cate o ceasca de ceai de samanta de Canepa impotriva durerilor.
 
-O altă boală vindecabilă cu ajutorul Cânepii este *junghiul.* Pentru a afla partea corpului unde s-a localizat junghiul, bătrânele de la sate puneau bolnavul cu fața în sus, în pielea goală, spărgeau un ou căruia îi scoteau gălbenușul și îl purtau pe tot trupul bolnavului. în locul unde se spărgea gălbenușul era localizat *junghiul.* Pe gălbenușul spart puneau funingine, tămâie și sare, iar deasupra acestor câlți de cânepă formând un fel de legătură.
+O alta boala vindecabila cu ajutorul Canepii este *junghiul.* Pentru a afla partea corpului unde s-a localizat junghiul, batranele de la sate puneau bolnavul cu fata in sus, in pielea goala, spargeau un ou caruia ii scoteau galbenusul si il purtau pe tot trupul bolnavului. in locul unde se spargea galbenusul era localizat *junghiul.* Pe galbenusul spart puneau funingine, tamaie si sare, iar deasupra acestor calti de canepa formand un fel de legatura.
 
-> Uneori terapia cu Cânepă a *junghiului* are un aspect pur magic. Se ia un fuior de Cânepă din care se împletește o ață numită *«ață de junghi:* în timpul împletirii descântătoarea prevestește «muncile» Cânepei, de la arat și semănat până la împletitul aței sau până la cusutul cămășii, purtarea și ruperea
+> Uneori terapia cu Canepa a *junghiului* are un aspect pur magic. Se ia un fuior de Canepa din care se impleteste o ata numita *«ata de junghi:* in timpul impletirii descantatoarea prevesteste «muncile» Canepei, de la arat si semanat pana la impletitul atei sau pana la cusutul camasii, purtarea si ruperea
 >
-> ei, sau numai o parte a acestor munci, amenințând *junghiul* că va fi supus aceluiași tratament dacă nu părăsește bolnavul.
+> ei, sau numai o parte a acestor munci, amenintand *junghiul* ca va fi supus aceluiasi tratament daca nu paraseste bolnavul.
 >
-> Oricum, ca să te ferești *de junghiuri* trebuie să nu lași pe pat furca și vârtelniță cu care lucrezi Cânepa (sau Inul), iar fusul gol să nu fie ținut în casă. Fusul împrumutat nu se ia înapoi câ poate a făcut cineva \"de ursită\" asupra lui sau vreo altă vrajă. Chiar dacă femeia care 1-a cerut cu împrumut nu știe farmece, el tot îți poate *aduce junghiuri* și ură în casă.
+> Oricum, ca sa te feresti *de junghiuri* trebuie sa nu lasi pe pat furca si vartelnita cu care lucrezi Canepa (sau Inul), iar fusul gol sa nu fie tinut in casa. Fusul imprumutat nu se ia inapoi ca poate a facut cineva \"de ursita\" asupra lui sau vreo alta vraja. Chiar daca femeia care 1-a cerut cu imprumut nu stie farmece, el tot iti poate *aduce junghiuri* si ura in casa.
 >
-> în vechile credințe românești, Cânepa avea și rolul de apărător împotriva strigoilor sau moroilor. Pentru ca mortul să nu se facă strigoi se afuma sicriul cu câlți de Cânepă, iar dacă cineva murea într-o zi de marți, pentru a nu se face strigoi, două-trei femei bătrâne se duceau într-o zi de joi la cimitir, cu puțină Cânepă și cu un cuțit de plug sau cu un briceag. Acolo răsfirau Cânepa pe lângă mormânt, înconjurau mormântul de trei ori cu cuțitul, apoi îl atârnau de cruce, aprindeau o lumânare ce arsese în timpul nopții, înconjurau din nou mormântul de-a-ndaratelea, aprindeau Cânepa răsfirată și descântau
+> in vechile credinte romanesti, Canepa avea si rolul de aparator impotriva strigoilor sau moroilor. Pentru ca mortul sa nu se faca strigoi se afuma sicriul cu calti de Canepa, iar daca cineva murea intr-o zi de marti, pentru a nu se face strigoi, doua-trei femei batrane se duceau intr-o zi de joi la cimitir, cu putina Canepa si cu un cutit de plug sau cu un briceag. Acolo rasfirau Canepa pe langa mormant, inconjurau mormantul de trei ori cu cutitul, apoi il atarnau de cruce, aprindeau o lumanare ce arsese in timpul noptii, inconjurau din nou mormantul de-a-ndaratelea, aprindeau Canepa rasfirata si descantau
 >
-> Cânepă face și obiectul vrăjilor de \"luare a manei\". Astfel, într-un sat din Făgăraș, o femeie goală da ocol Cânepii altuia, strigând:
+> Canepa face si obiectul vrajilor de \"luare a manei\". Astfel, intr-un sat din Fagaras, o femeie goala da ocol Canepii altuia, strigand:
 >
-> *\"Să auză toate Cânepile*
+> *\"Sa auza toate Canepile*
 >
-> *Să-nțeleagă*
+> *Sa-nteleaga*
 >
-> *Că să mărită Cânepa mea:*
+> *Ca sa marita Canepa mea:*
 >
-> *S-ajute fiecare Cănepuță*
+> *S-ajute fiecare Caneputa*
 >
-> *Cu câte-o mânușiță,*
+> *Cu cate-o manusita,*
 >
-> *Cu două*
+> *Cu doua*
 >
-> *Cât o ajunge-o puterea.\"*
+> *Cat o ajunge-o puterea.\"*
 >
-> Tot în sudul Transilvaniei \"măritarea cânepii\" se face uneori la Sânziene, iar practica implică și alte rituri decât luarea *manei*
+> Tot in sudul Transilvaniei \"maritarea canepii\" se face uneori la Sanziene, iar practica implica si alte rituri decat luarea *manei*
 >
-## LEACURI, VRĂJI ȘI VOFTORU
+## LEACURI, VRAJI SI VOFTORU
 
-> ***LEACURI, VRĂJI* ȘI *VOFTORU***
+> ***LEACURI, VRAJI* SI *VOFTORU***
 >
-> Tradiția a conservat și a transmis mai multe forme de luptă împotriva bolilor. Ele pot fi împărțite în câteva mari categorii:
+> Traditia a conservat si a transmis mai multe forme de lupta impotriva bolilor. Ele pot fi impartite in cateva mari categorii:
 >
-> *Legăturile* sunt amestecurile de plante din diferite soiuri, care se pun pe locul bolnav al corpului. Povestitorul Ion Creangă, evocând în *Amintirile* sale cum a fost victima holerei din 1848, arăta că a fost dus la «doftorii satului», care, într-un ceaun pe foc, prăjeau niște plante în seu. Spune că doftorii au întins aceste ierburi «pe pânzătură și m-au înfășurat cu ele peste tot\... Am adormit mort și\... abia a doua zi pe la toacă m-am trezit sănătos ca toți sănătoșii». Această înfășurare cu ierburi este ceea ce vindecătorii numesc o *legătură.*
+> *Legaturile* sunt amestecurile de plante din diferite soiuri, care se pun pe locul bolnav al corpului. Povestitorul Ion Creanga, evocand in *Amintirile* sale cum a fost victima holerei din 1848, arata ca a fost dus la «doftorii satului», care, intr-un ceaun pe foc, prajeau niste plante in seu. Spune ca doftorii au intins aceste ierburi «pe panzatura si m-au infasurat cu ele peste tot\... Am adormit mort si\... abia a doua zi pe la toaca m-am trezit sanatos ca toti sanatosii». Aceasta infasurare cu ierburi este ceea ce vindecatorii numesc o *legatura.*
 >
-> *Frecăturile* sunt frecțiile sau masajele ce se fac cu unt, untdelemn, grăsime, săpun, oțet etc. Tot Creangă, în același loc, arăta că, cu prilejul acelei holeri, doftorii i-au tras mai întâi «o frecătură bună cu oțet de Leuștean» și abia după aceea l-au pus în *legătură.* Aceste practici populare sunt originea fizioterapiei medicale, a masajelor.
+> *Frecaturile* sunt frectiile sau masajele ce se fac cu unt, untdelemn, grasime, sapun, otet etc. Tot Creanga, in acelasi loc, arata ca, cu prilejul acelei holeri, doftorii i-au tras mai intai «o frecatura buna cu otet de Leustean» si abia dupa aceea l-au pus in *legatura.* Aceste practici populare sunt originea fizioterapiei medicale, a masajelor.
 >
-> *Oblojelile* sunt spălaturi cu zeamă de buruieni fierte. Se *oblojesc* părțile din corp care suferă de amunite afecțiuni. Terapeutica populară consideră că apa în care au fiert ierburile trebuie să fie în contact cu pielea, deoarece principiile lor vindecătoare pătrund, cel mai bine prin pielea corpului. Bineînțeles că este folosită și administrarea orală a fierturilor (decocturi, infuzii) sau a extractelor din ierburi lecuitoare.
+> *Oblojelile* sunt spalaturi cu zeama de buruieni fierte. Se *oblojesc* partile din corp care sufera de amunite afectiuni. Terapeutica populara considera ca apa in care au fiert ierburile trebuie sa fie in contact cu pielea, deoarece principiile lor vindecatoare patrund, cel mai bine prin pielea corpului. Bineinteles ca este folosita si administrarea orala a fierturilor (decocturi, infuzii) sau a extractelor din ierburi lecuitoare.
 
-Cea mai răspândită formă a medicinei magice sunt *Descântecele* (pe care le-am prezentat într-un capitol anterior). De cele mai multe ori descântecele, ca incantații magice, sunt însoțite de *remedii empirice.*
+Cea mai raspandita forma a medicinei magice sunt *Descantecele* (pe care le-am prezentat intr-un capitol anterior). De cele mai multe ori descantecele, ca incantatii magice, sunt insotite de *remedii empirice.*
 
-> Practic, împărțirea materialului folcloric medical în *medicină empirică* și *medicină magică* este pur convențională, aspectele magic și empiric fiind strâns împletite, practicate de aceleași persoane, vindecătorii populari. în medicina empirică elementul magic este însă uneori redus la minimum, sau chiar lipsește, în timp ce în medicina magică elementul empiric este întotdeauna asociat cu cel magic, care poate să devină uneori dominant, dar foarte rar exclusiv. Când elementul empiric lipsește complet, avem de a face numai cu sugestia și autosugestia, cu mecanismele magiei pure puse în scopul vindecării.
+> Practic, impartirea materialului folcloric medical in *medicina empirica* si *medicina magica* este pur conventionala, aspectele magic si empiric fiind strans impletite, practicate de aceleasi persoane, vindecatorii populari. in medicina empirica elementul magic este insa uneori redus la minimum, sau chiar lipseste, in timp ce in medicina magica elementul empiric este intotdeauna asociat cu cel magic, care poate sa devina uneori dominant, dar foarte rar exclusiv. Cand elementul empiric lipseste complet, avem de a face numai cu sugestia si autosugestia, cu mecanismele magiei pure puse in scopul vindecarii.
 >
-> Redăm în paginile următoare câteva remedii magice sau empirice din spațiul carpatic și din jurul său (adică din locurile locuite cândva de traci), așa cum ele au fost sau mai sunt încă folosite.
+> Redam in paginile urmatoare cateva remedii magice sau empirice din spatiul carpatic si din jurul sau (adica din locurile locuite candva de traci), asa cum ele au fost sau mai sunt inca folosite.
 >
 ### PENTRU BOLILE VE PIELE
 
 > • *PENTRU BOLILE VE PIELE*
 >
-> A. Eczeme și mâncărime.
+> A. Eczeme si mancarime.
 
-1) Se ține sare în gură să se topească (fără să se înghită).\
- Se pune apoi scuipatul cu sarea pe fundul unei căldări arse, se\
- ia cu degetul și se pune la \"bubă\".\[5\]
+1) Se tine sare in gura sa se topeasca (fara sa se inghita).\
+ Se pune apoi scuipatul cu sarea pe fundul unei caldari arse, se\
+ ia cu degetul si se pune la \"buba\".\[5\]
 
-2) Se recomandă o alifie făcută în casă: *ulei de gălbenuș de\
- ou.* Gălbenușurile de la niște ouă fierte tari, se înțeapă cu o sâr\
- muliță subțire și se țin deasupra unei flăcări de lumânare. La su\
- prafața gălbenușurilor vor apare niște picături. Acestea trebuie\
- culese cu grijă. Ouăle se pot folosi mai departe pentru mâncare.\
- Aceste picături sunt folosite ca \"ulei\" pentru ungerea locurilor\
- afectate. Tratamentul s-a dovedit a fi foarte eficace. Se folosește\
- seara la culcare aplicându-se pe eczeme sau pe herpes.\[18\] Re\
- mediul este eficient și pentru vindecarea fără sechele a arsurilor\
- până la gradul III.
+2) Se recomanda o alifie facuta in casa: *ulei de galbenus de\
+ ou.* Galbenusurile de la niste oua fierte tari, se inteapa cu o sar\
+ mulita subtire si se tin deasupra unei flacari de lumanare. La su\
+ prafata galbenusurilor vor apare niste picaturi. Acestea trebuie\
+ culese cu grija. Ouale se pot folosi mai departe pentru mancare.\
+ Aceste picaturi sunt folosite ca \"ulei\" pentru ungerea locurilor\
+ afectate. Tratamentul s-a dovedit a fi foarte eficace. Se foloseste\
+ seara la culcare aplicandu-se pe eczeme sau pe herpes.\[18\] Re\
+ mediul este eficient si pentru vindecarea fara sechele a arsurilor\
+ pana la gradul III.
 
-3) Când apare o mâncărime fără motiv a întregului trup\
- sau numai a unei părți a corpului, trebuie să se facă spălaturi și\
- legături cu zeamă de *Ștevie* fiartă.\[15\]
+3) Cand apare o mancarime fara motiv a intregului trup\
+ sau numai a unei parti a corpului, trebuie sa se faca spalaturi si\
+ legaturi cu zeama de *Stevie* fiarta.\[15\]
 
-4) Pentru mâncărimi insuportabile pe tot corpul, se pune\
- la fiert 1 kg de orez, iar cu apa în care a fiert orezul se spală\
- întregul corp.\[16\]
+4) Pentru mancarimi insuportabile pe tot corpul, se pune\
+ la fiert 1 kg de orez, iar cu apa in care a fiert orezul se spala\
+ intregul corp.\[16\]
 
-#### Pentru erupția cutanată se fac spălaturi cu apa în care\
- > au fiert rădăcini de Stejar.\[16\]
+#### Pentru eruptia cutanata se fac spalaturi cu apa in care\
+ > au fiert radacini de Stejar.\[16\]
 
 #### Pentru *Focul viu* (zona zoster, erizipel) sau pentru ecze\
  > me trebuie folosit *Focul viu* (a se vedea sub-capitolul despre *Fo\
- > cul viu).* în Arad se spune că \"Focul acela de pe om (eczema de\
- > tipul *faptului)* se vindecă numai așa că se scapără cu un amnar,\
- > în așa fel ca să cadă scântei, acolo pe el și așa se vindecă de boa\
- > la *focului viu.\"* (Tiberiu Morariu, *Obiceiuri, credințe și superstiții\
+ > cul viu).* in Arad se spune ca \"Focul acela de pe om (eczema de\
+ > tipul *faptului)* se vindeca numai asa ca se scapara cu un amnar,\
+ > in asa fel ca sa cada scantei, acolo pe el si asa se vindeca de boa\
+ > la *focului viu.\"* (Tiberiu Morariu, *Obiceiuri, credinte si superstitii\
  > legate de \"focul viu\")*
 
 > B. Herpes.
 
-1) Dacă se umezește locul cu salivă și se presară scrum de\
- > țigară de două ori pe zi, herpesul se vindecă în 5-6 zile, față de\
+1) Daca se umezeste locul cu saliva si se presara scrum de\
+ > tigara de doua ori pe zi, herpesul se vindeca in 5-6 zile, fata de\
  > 11-12 zile.
 
-2) Dacă înainte de apariția herpesului, când este doar sen\
- > zația de mâncărime, se trece un fir de păr de om, bine întins,\
- > peste locul respectiv, de cinci-șase ori sau până dispare senzația\
- > de mâncărime, herpesul nu mai apare^1^.
+2) Daca inainte de aparitia herpesului, cand este doar sen\
+ > zatia de mancarime, se trece un fir de par de om, bine intins,\
+ > peste locul respectiv, de cinci-sase ori sau pana dispare senzatia\
+ > de mancarime, herpesul nu mai apare^1^.
 
-3) După dna Alexandra Moșneaga, terapeută din Moldova,\
- > herpesul se vindecă rapid dacă locul afectat se unge cu albuș de\
- > ou bătut spumă de 3 până la 7 ori pe zi, timp în care diminuează\
- > și se vindecă.
+3) Dupa dna Alexandra Mosneaga, terapeuta din Moldova,\
+ > herpesul se vindeca rapid daca locul afectat se unge cu albus de\
+ > ou batut spuma de 3 pana la 7 ori pe zi, timp in care diminueaza\
+ > si se vindeca.
 
 4) Este bun si remediul *2)* pentru eczeme.
 
-> C. Negi, alunițe, senine din naștere, pete.
+> C. Negi, alunite, senine din nastere, pete.
 
-1) Se ung negii și unghiile stricate cu sucul ce curge din\
- > buruiana *Laptele câinelui* (specie de *Euphorbia).\[12\]* \[17\]
+1) Se ung negii si unghiile stricate cu sucul ce curge din\
+ > buruiana *Laptele cainelui* (specie de *Euphorbia).\[12\]* \[17\]
 
-2) Tăiați câteva paie de cereale sau câteva fire de iarbă.\
- > Apoi rupeți-le din rădăcină pe cele rămase. Cu partea tăioasă a\
- > ierbii crestați negul de câteva ori. Imediat după aceasta îngropa-\
- > ți-o în pământ cu rădăcina în sus. Negii vor dispare imediat ce\
- > paiele (sau iarba) vor putrezi în pământ. A dat bune rezultate în\
- > cazurile unor pete din naștere. Dr. Kourennoff mărturisea: \"Eu\
- > însumi am scăpat de câțiva negi și de un semn din naștere, folo-
+2) Taiati cateva paie de cereale sau cateva fire de iarba.\
+ > Apoi rupeti-le din radacina pe cele ramase. Cu partea taioasa a\
+ > ierbii crestati negul de cateva ori. Imediat dupa aceasta ingropa-\
+ > ti-o in pamant cu radacina in sus. Negii vor dispare imediat ce\
+ > paiele (sau iarba) vor putrezi in pamant. A dat bune rezultate in\
+ > cazurile unor pete din nastere. Dr. Kourennoff marturisea: \"Eu\
+ > insumi am scapat de cativa negi si de un semn din nastere, folo-
 
-> sind această metodă. Negii au dispărut în câteva zile, fără urmă. Aveam o aluniță mare la cot și o ciupeam mereu încât sângera. Din curiozitate am aplicat metoda cu firul de pai și, oricât ar părea de ciudat, aceasta a dispărut în câteva zile.\"
+> sind aceasta metoda. Negii au disparut in cateva zile, fara urma. Aveam o alunita mare la cot si o ciupeam mereu incat sangera. Din curiozitate am aplicat metoda cu firul de pai si, oricat ar parea de ciudat, aceasta a disparut in cateva zile.\"
 
-3) Tăiați un cartof crud în două, aruncați una din jumătăți\
- (ritualul popular cere să fie aruncată peste cap, în spate), apoi\
- frecați negul cu cealaltă jumătate (cu muchia ascuțită) și îngropa-\
- ți-o într-un pământ uscat, încât aceasta să nu încolțească. Imediat\
- ce aceasta se va usca în pământ, negul va dispare.
+3) Taiati un cartof crud in doua, aruncati una din jumatati\
+ (ritualul popular cere sa fie aruncata peste cap, in spate), apoi\
+ frecati negul cu cealalta jumatate (cu muchia ascutita) si ingropa-\
+ ti-o intr-un pamant uscat, incat aceasta sa nu incolteasca. Imediat\
+ ce aceasta se va usca in pamant, negul va dispare.
 
-4) Faceți un nod cu o ață moale și legați-o ușor în jurul\
- negului, astfel încât ața abia să-1 atingă. Apoi îngropați ața, de\
- preferat într-o grămadă de bălegar sau într-un alt loc umed.\
- Negul va dispare imediat ce ața va putrezi, în aproximativ cinci,\
- până la cincisprezece zile. Acest remediu este eficient și în cazul\
- unei \"familii de negi\", care vor trebui legați, după care se aruncă\
- o privire peste ei. Metoda este folositoare și pentru alunițe și\
- semne din naștere.
+4) Faceti un nod cu o ata moale si legati-o usor in jurul\
+ negului, astfel incat ata abia sa-1 atinga. Apoi ingropati ata, de\
+ preferat intr-o gramada de balegar sau intr-un alt loc umed.\
+ Negul va dispare imediat ce ata va putrezi, in aproximativ cinci,\
+ pana la cincisprezece zile. Acest remediu este eficient si in cazul\
+ unei \"familii de negi\", care vor trebui legati, dupa care se arunca\
+ o privire peste ei. Metoda este folositoare si pentru alunite si\
+ semne din nastere.
 
-5) Se freacă negul cu o bucățică de carne crudă și se\
- îngroapă carnea. Procedeul repetându-se încă două zile ea va fi\
- apoi dezgropată pentru fiecare folosire, după care se va îngropa\
- definitiv într-un pământ umed. Metoda va elimina negii în câteva\
- zile. Este foarte cunoscută în întreaga Rusie, de secole.\[18\]
+5) Se freaca negul cu o bucatica de carne cruda si se\
+ ingroapa carnea. Procedeul repetandu-se inca doua zile ea va fi\
+ apoi dezgropata pentru fiecare folosire, dupa care se va ingropa\
+ definitiv intr-un pamant umed. Metoda va elimina negii in cateva\
+ zile. Este foarte cunoscuta in intreaga Rusie, de secole.\[18\]
 
-6) Să tai coada unei șopârle și să ungi negii cu sângele ei.
+6) Sa tai coada unei soparle si sa ungi negii cu sangele ei.
 
-7) Să freci negii cu zeamă de ceapă pisată cu sare multă. \[8\]
+7) Sa freci negii cu zeama de ceapa pisata cu sare multa. \[8\]
 
-8) Se ia o creangă de *Măceș,* se cioplește în patru muchii,\
- se înfierbântă în foc, se udă negii și apoi se apasă pe ei cu țepușa\
- de *Măceș.* Făcând astfel de trei ori, negii pier. \[15\]
+8) Se ia o creanga de *Maces,* se ciopleste in patru muchii,\
+ se infierbanta in foc, se uda negii si apoi se apasa pe ei cu tepusa\
+ de *Maces.* Facand astfel de trei ori, negii pier. \[15\]
 
-9) Se ia un băț de alun cu coajă și se scufundă în băltoaca\
- unde se scaldă porcii până se încarcă de noroi. Astfel pregătit, cu\
- noroiul uscat pe el, se poartă în buzunar de către cel ce are negi,\
- până când vede Luna Nouă. Când vede Luna Nouă rămâne pe\
- loc, se uită la Lună, apoi la băț și la neg, și taie cu cuțitul câte\
- o bucățică din fiecare capăt al bățului și aruncă aceste bucățele.\
- Câți negi are, de atâtea ori repetă operația. După ce a tăiat\
- pentru toți negii, aruncă înspre Lună nuiaua care a rămas.\[l\]
+9) Se ia un bat de alun cu coaja si se scufunda in baltoaca\
+ unde se scalda porcii pana se incarca de noroi. Astfel pregatit, cu\
+ noroiul uscat pe el, se poarta in buzunar de catre cel ce are negi,\
+ pana cand vede Luna Noua. Cand vede Luna Noua ramane pe\
+ loc, se uita la Luna, apoi la bat si la neg, si taie cu cutitul cate\
+ o bucatica din fiecare capat al batului si arunca aceste bucatele.\
+ Cati negi are, de atatea ori repeta operatia. Dupa ce a taiat\
+ pentru toti negii, arunca inspre Luna nuiaua care a ramas.\[l\]
 
-> *10)* Când Luna este pe sfârșite, se leagă negul cu un fir de\
-> păr dn cap. Se poartă legătura trei zile iar negul cade
+> *10)* Cand Luna este pe sfarsite, se leaga negul cu un fir de\
+> par dn cap. Se poarta legatura trei zile iar negul cade
 
-11) Iei o ață pe care faci atâtea noduri câți negi ai, apoi o\
- îngropi în pământ. Când a putrezit ața în pământ, ai scăpat și de\
- negi. \[A. Gh. Popescu, *Terapeutica populară în patologia externă\]*
+11) Iei o ata pe care faci atatea noduri cati negi ai, apoi o\
+ ingropi in pamant. Cand a putrezit ata in pamant, ai scapat si de\
+ negi. \[A. Gh. Popescu, *Terapeutica populara in patologia externa\]*
 
-12) Pentru ca să își curețe fața de petele negre și să și-o\
- facă netedă și moale, fetele mari își fac *zeamă de flori.* Adună\
- felurite flori și le pun într-un vas spart. Deasupra acestuia, pe o\
- tablă de fier sprijinită de ceva, se face foc sau se pune jăratec.\
- Florile înfierbântate lasă un fel de zeamă, care se scurge într-un\
- alt vas prin pomenita spărtură (a vasului în care au fost puse\
- florile). Cu această zeamă se spală fetele când se duc la nuntă,\
- la biserică sau la vreo sărbătoare populară. Deasemenea, se spală\
- pe față și cu pelin fiert înnăbușit.\[15\]
+12) Pentru ca sa isi curete fata de petele negre si sa si-o\
+ faca neteda si moale, fetele mari isi fac *zeama de flori.* Aduna\
+ felurite flori si le pun intr-un vas spart. Deasupra acestuia, pe o\
+ tabla de fier sprijinita de ceva, se face foc sau se pune jaratec.\
+ Florile infierbantate lasa un fel de zeama, care se scurge intr-un\
+ alt vas prin pomenita spartura (a vasului in care au fost puse\
+ florile). Cu aceasta zeama se spala fetele cand se duc la nunta,\
+ la biserica sau la vreo sarbatoare populara. Deasemenea, se spala\
+ pe fata si cu pelin fiert innabusit.\[15\]
 
-#### Pentru petele de pe obraz, piept și mâini, se pune o\
-> mână de hrean tăiat bucățele într-o sticlă, se toarnă peste el un\
-> sfert de kg de oțet bun și se lasă 5-6 zile, apoi se înmoaie o\
-> cârpă de in în oțet și se șterg petele cu ea în fiecare seară. (V.\
-> Bianu, *Doctorul de casă sau dicționarul sănătății;* Buzău 1910)
+#### Pentru petele de pe obraz, piept si maini, se pune o\
+> mana de hrean taiat bucatele intr-o sticla, se toarna peste el un\
+> sfert de kg de otet bun si se lasa 5-6 zile, apoi se inmoaie o\
+> carpa de in in otet si se sterg petele cu ea in fiecare seara. (V.\
+> Bianu, *Doctorul de casa sau dictionarul sanatatii;* Buzau 1910)
 >
 > D. Bube.
 
-1) Trebuiesc atinse bubele de câteva ori cu o bucată crudă\
- > de ficat sau de rinichi, care se aruncă apoi unui câine negru.\
+1) Trebuiesc atinse bubele de cateva ori cu o bucata cruda\
+ > de ficat sau de rinichi, care se arunca apoi unui caine negru.\
  > (Tache Papahagi, *Liter. pop.* pag. 273)
 
-1) Se freacă locul cu *Leuștean (Levisticum Officinale).\[Yl\\*
+1) Se freaca locul cu *Leustean (Levisticum Officinale).\[Yl\\*
 
-2) *Slăbănogul (Impatiens noli-tangere)* sau pătrunjelul fierte\
- > în lapte dulce, alină durerile cauzate de orice bubă.\[12\]
+2) *Slabanogul (Impatiens noli-tangere)* sau patrunjelul fierte\
+ > in lapte dulce, alina durerile cauzate de orice buba.\[12\]
 
-3) Ca să se grăbească coacerea și spargerea bubelor dure\
- > roase sau a celor ce nu se vindecă se aplică ceapă albă coaptă în\
- > seu sau pâine mestecată în gură. Se mai folosește și un amestec\
- > din lapte, foi de pătrunjel și săpun. După spargere, pentru scoa\
- > terea răutăților din bube se aplică pe ele frunze de Calapăr\
- > *(Tanacetum balsamita).\[l2\]* Tot pentru a grăbi coacerea (spre a\
- > putea fi stoarse) se pune la bube o legătură cu pâine amestecată\
+3) Ca sa se grabeasca coacerea si spargerea bubelor dure\
+ > roase sau a celor ce nu se vindeca se aplica ceapa alba coapta in\
+ > seu sau paine mestecata in gura. Se mai foloseste si un amestec\
+ > din lapte, foi de patrunjel si sapun. Dupa spargere, pentru scoa\
+ > terea rautatilor din bube se aplica pe ele frunze de Calapar\
+ > *(Tanacetum balsamita).\[l2\]* Tot pentru a grabi coacerea (spre a\
+ > putea fi stoarse) se pune la bube o legatura cu paine amestecata\
  > cu lapte.\[15\]
 
-> *5)* Bubele de pe față se lecuiesc cu sucul care apare pe un\
-> băț de alun ce este lăsat să ardă încet la foc. \[12\]
+> *5)* Bubele de pe fata se lecuiesc cu sucul care apare pe un\
+> bat de alun ce este lasat sa arda incet la foc. \[12\]
 >
-> *6)* Pentru antrax se pun peste bubă frunze de Podbal\
-> *(Tussilago farfară)* sau de *Iarbă Neagră (Calluna vulgaris).*
+> *6)* Pentru antrax se pun peste buba frunze de Podbal\
+> *(Tussilago farfara)* sau de *Iarba Neagra (Calluna vulgaris).*
 
-7) Pentru coșuri (acnee) se pune un vârf de cuțit de praf\
- > de sulf într-un pahar cu apă călduță, care se bea dimineața pe\
- > nemâncate. Se repetă până dispar coșurile.
+7) Pentru cosuri (acnee) se pune un varf de cutit de praf\
+ > de sulf intr-un pahar cu apa calduta, care se bea dimineata pe\
+ > nemancate. Se repeta pana dispar cosurile.
 
-8) Când se îmbolnăvea un copil de pojar, femeile de la\
- > țară îi dădeau să bea rachiu în care a fost macerat Cârmâz roșu\
- > *(Phytolacca decandră),* iar la stomac i se puneau bucăți de postav\
- > roșu, înmuiate în rachiu cu Cârmâz (acest tratament trebuie să\
- > provoace erupția completă, scurtând astfel evoluția și durata
+8) Cand se imbolnavea un copil de pojar, femeile de la\
+ > tara ii dadeau sa bea rachiu in care a fost macerat Carmaz rosu\
+ > *(Phytolacca decandra),* iar la stomac i se puneau bucati de postav\
+ > rosu, inmuiate in rachiu cu Carmaz (acest tratament trebuie sa\
+ > provoace eruptia completa, scurtand astfel evolutia si durata
 
-> *9)* Ca să se vindece *buba rea,* care se face numai din\
-> deochi (și care este roșie și are în vârf o sămânță albă), se leagă\
-> deasupra ei usturoi pisat și amestecat cu sare sau *bășică de crap\
-> *uscată și pisată.
+> *9)* Ca sa se vindece *buba rea,* care se face numai din\
+> deochi (si care este rosie si are in varf o samanta alba), se leaga\
+> deasupra ei usturoi pisat si amestecat cu sare sau *basica de crap\
+> *uscata si pisata.
 
-10) *Bubele dulci* se vindecă dacă sunt unse cu clei din\
- ureche *(cerumen)* amestecat cu smântână.\[17J
+10) *Bubele dulci* se vindeca daca sunt unse cu clei din\
+ ureche *(cerumen)* amestecat cu smantana.\[17J
 
-11) Dacă se face pe față un fel de crustă (\"scoarță\" - impe-\
- tigo), se spune că este bubă căpătată din descântece (din farme\
- ce). Trebuie să se spele fața cu apă în care s-a fiert Iarba\
+11) Daca se face pe fata un fel de crusta (\"scoarta\" - impe-\
+ tigo), se spune ca este buba capatata din descantece (din farme\
+ ce). Trebuie sa se spele fata cu apa in care s-a fiert Iarba\
  Faptului *(Potentilfo erecta).\[\\l\]*
 
-12) Cel ce are un buboi taie în două o broască și buboiul\
- i se sparge numaidecât.\[l\]
+12) Cel ce are un buboi taie in doua o broasca si buboiul\
+ i se sparge numaidecat.\[l\]
 
-13) Prezentăm o terapie cu restrânsă aplicabilitate. Ea a\
- fost folosită cu succes în cazul unui tânăr a cărui față s-a iritat\
- din cauza unor instrumente de bărbierit nedezinfectate. Fața i se\
- înroșise, acoperindu-se cu răni și cu coji. Nici un fel de medica\
- mente și unguente nu i-au folosit, fiind ineficiente. Soluția sim\
- plă a fost următoarea: un pahar de nămol curat și fin de râu\
- amestecat cu o ceașcă de sare. Din acest amestec se aplică o mas\
- că pe față, cu car&se doarme o noapte. Tânărul, după ce a folo- «•\
- sit această metodă terapeutică, s-a trezit dimineața cu pielea feței\
- curată, albă și neiritată.\[16\]
+13) Prezentam o terapie cu restransa aplicabilitate. Ea a\
+ fost folosita cu succes in cazul unui tanar a carui fata s-a iritat\
+ din cauza unor instrumente de barbierit nedezinfectate. Fata i se\
+ inrosise, acoperindu-se cu rani si cu coji. Nici un fel de medica\
+ mente si unguente nu i-au folosit, fiind ineficiente. Solutia sim\
+ pla a fost urmatoarea: un pahar de namol curat si fin de rau\
+ amestecat cu o ceasca de sare. Din acest amestec se aplica o mas\
+ ca pe fata, cu car&se doarme o noapte. Tanarul, dupa ce a folo- «•\
+ sit aceasta metoda terapeutica, s-a trezit dimineata cu pielea fetei\
+ curata, alba si neiritata.\[16\]
 
 #### . Urcior.
 
-Este cauzat de inflamarea unei glande lacrimale, dar poate fi provocat și de expunerea la curent sau la frig a ochilor. Unii oameni sunt predispuși la astfel de situații. Iată câteva remedii din medicina populară. Acestea trebuie puse în aplicare imediat ce urciorul a apărut.
+Este cauzat de inflamarea unei glande lacrimale, dar poate fi provocat si de expunerea la curent sau la frig a ochilor. Unii oameni sunt predispusi la astfel de situatii. Iata cateva remedii din medicina populara. Acestea trebuie puse in aplicare imediat ce urciorul a aparut.
 
-1) în jurul urciorului se rotește verigheta de nuntă de câte\
- > va ori, apoi ochiul este sărutat (de soț sau soție). Urciorul dispa\
+1) in jurul urciorului se roteste verigheta de nunta de cate\
+ > va ori, apoi ochiul este sarutat (de sot sau sotie). Urciorul dispa\
  > re peste noapte.
 
-2) Se leagă la mână (în zona pulsului) o ață roșie, dar mâ\
- > na să fie cea opusă ochiului cu ulcior. Ața folosită pentru mână\
- > trebuie să fie neapărat din lână roșie. \"O superstiție sau nu,\
+2) Se leaga la mana (in zona pulsului) o ata rosie, dar ma\
+ > na sa fie cea opusa ochiului cu ulcior. Ata folosita pentru mana\
+ > trebuie sa fie neaparat din lana rosie. \"O superstitie sau nu,\
  > aceasta a dat totdeauna rezultate bune\".
 
-3) Se pune puțin sulf într-un mic săculeț de lână, iar acesta\
- > se poartă legat la gât 24 de ore. Urciorul va dispare în acest\
+3) Se pune putin sulf intr-un mic saculet de lana, iar acesta\
+ > se poarta legat la gat 24 de ore. Urciorul va dispare in acest\
  > timp.\[18\]
 
-4) Pentru ulcior\... să iei un fir de orz și, când va fi mămă\
- > liga pe foc și va fierbe, să arunci firul de orz în foc și să ieși pe\
- > ușă afară, să nu te uiți înapoi, și ulciorul va trece. \[6\]
+4) Pentru ulcior\... sa iei un fir de orz si, cand va fi mama\
+ > liga pe foc si va fierbe, sa arunci firul de orz in foc si sa iesi pe\
+ > usa afara, sa nu te uiti inapoi, si ulciorul va trece. \[6\]
 
-> F. Bătături.
+> F. Bataturi.
 >
-> Se scot de Ia ceapă pielițele subțiri dintre foi, iar partea cărnoasă se coace în foc, se înmoaie în oțet și se pune la piciorul cu bătătura.\[15\]
+> Se scot de Ia ceapa pielitele subtiri dintre foi, iar partea carnoasa se coace in foc, se inmoaie in otet si se pune la piciorul cu batatura.\[15\]
 >
-### PENTRU AFECȚIUNI VIN ACCWENTE
+### PENTRU AFECTIUNI VIN ACCWENTE
 
-> • PENTRU *AFECȚIUNI VIN ACCWENTE*
+> • PENTRU *AFECTIUNI VIN ACCWENTE*
 >
-> A. Răni.
+> A. Rani.
 
-1) Pentru rănile infectate metoda următoare este folosită\
- de mai multe secole și se afirmă că a salvat mii de picioare, dege\
- te, mâini și brațe de la amputare. Metoda este folosită chiar și\
- când acestea arată semne de început de cangrenă. (S-a folosit\
- mult pentru animale). Oricând rana arată asemenea tip de infec\
- ție, metoda folosită este următoarea: Pe puțină pâine neagră (de\
- secară) se pune sare multă și se mestecă până când aceasta se\
- îmbibă de salivă. Masa omogenă se așează pe rana infectată și se\
- bandajează strâns. Metoda este foarte eficientă în tratarea sânge\
- lui otrăvit și a începutului de cangrenă.\[18\]
+1) Pentru ranile infectate metoda urmatoare este folosita\
+ de mai multe secole si se afirma ca a salvat mii de picioare, dege\
+ te, maini si brate de la amputare. Metoda este folosita chiar si\
+ cand acestea arata semne de inceput de cangrena. (S-a folosit\
+ mult pentru animale). Oricand rana arata asemenea tip de infec\
+ tie, metoda folosita este urmatoarea: Pe putina paine neagra (de\
+ secara) se pune sare multa si se mesteca pana cand aceasta se\
+ imbiba de saliva. Masa omogena se aseaza pe rana infectata si se\
+ bandajeaza strans. Metoda este foarte eficienta in tratarea sange\
+ lui otravit si a inceputului de cangrena.\[18\]
 
-2) Pânza de păianjen s-a dovedit a fi una dintre cele mai\
- bune substanțe dezinfectante pentru răni deschise. Pânza de pă\
- ianjen se aplică direct pe rană și se bandajează. Aceasta oprește\
- curgerea sângelui și vindecă rapid rana. \[Simeon Rusu-Câmpeanu\
- și Aurelian Borșianu, *Descântece, farmece și leacuri din popor.\
+2) Panza de paianjen s-a dovedit a fi una dintre cele mai\
+ bune substante dezinfectante pentru rani deschise. Panza de pa\
+ ianjen se aplica direct pe rana si se bandajeaza. Aceasta opreste\
+ curgerea sangelui si vindeca rapid rana. \[Simeon Rusu-Campeanu\
+ si Aurelian Borsianu, *Descantece, farmece si leacuri din popor.\
  *Gherla 1927.\]
 
-3) Infectarea rănilor este atribuită în popor și frigului sau\
- > consumului de acrituri. în acest caz se fac oblojeli ale rănii cu\
+3) Infectarea ranilor este atribuita in popor si frigului sau\
+ > consumului de acrituri. in acest caz se fac oblojeli ale ranii cu\
  > Boz *(Sambucus ebulus).\[15\]*
 
-4) Țăranii, atunci când se taie cu coasa ori cu secera, iau\
- > flori proaspete de *Cicoare (Cichoriwn intybus),* le freacă laolaltă,\
- > le strâng și storc sucul lor pe rană, apoi o leagă. După două zile\
- > rana este vindecată.
+4) Taranii, atunci cand se taie cu coasa ori cu secera, iau\
+ > flori proaspete de *Cicoare (Cichoriwn intybus),* le freaca laolalta,\
+ > le strang si storc sucul lor pe rana, apoi o leaga. Dupa doua zile\
+ > rana este vindecata.
 
-5) Dacă te înțepi cu un spin (la picior) și nu îl găsești\
- > pentru a-1 extrage, faci din pâine moale aluat amestecat cu sare\
- > și pui acest amestec pe rană. După câtva timp iei aluatul și rana\
- > va rămâne galben traslucidă, astfel încât poți vedea spinul și îl\
- > poți extrage. După aceea umpli rana cu ceară pentru a nu intra\
- > murdării și a nu coace. \[Simeon Rusu-Câmpeanu și Aurelian\
- > Borșianu, *Descântece, farmece și leacuri din popor.* Gherla 1927.\]
+5) Daca te intepi cu un spin (la picior) si nu il gasesti\
+ > pentru a-1 extrage, faci din paine moale aluat amestecat cu sare\
+ > si pui acest amestec pe rana. Dupa catva timp iei aluatul si rana\
+ > va ramane galben traslucida, astfel incat poti vedea spinul si il\
+ > poti extrage. Dupa aceea umpli rana cu ceara pentru a nu intra\
+ > murdarii si a nu coace. \[Simeon Rusu-Campeanu si Aurelian\
+ > Borsianu, *Descantece, farmece si leacuri din popor.* Gherla 1927.\]
 
-6) O rană care se dobândește într-un loc cu bălți, mlăști\
- > nos, și care se infectează puternic, umflându-se și colectând pu\
- > roi, se vindecă astfel: se găsește o broască, pe cât posibil din\
- > locul unde s-a produs rănirea, se jupoaie, apoi se aplică pielea\
- > broaștei pe locul bolnav, legându-se în acel loc (pielea broaștelor\
- > conține antibiotici naturali foarte puternici). Rana se va vindeca\
+6) O rana care se dobandeste intr-un loc cu balti, mlasti\
+ > nos, si care se infecteaza puternic, umflandu-se si colectand pu\
+ > roi, se vindeca astfel: se gaseste o broasca, pe cat posibil din\
+ > locul unde s-a produs ranirea, se jupoaie, apoi se aplica pielea\
+ > broastei pe locul bolnav, legandu-se in acel loc (pielea broastelor\
+ > contine antibiotici naturali foarte puternici). Rana se va vindeca\
  > repede. \[16\]
 
 #### **Arsuri.**
 
-1) Se pun pe arsură cartofi pisați mărunt sau ciuperca\
- Bășina Calului *(Globaria gigantea).*\[12\]
+1) Se pun pe arsura cartofi pisati marunt sau ciuperca\
+ Basina Calului *(Globaria gigantea).*\[12\]
 
-2) Contra arsurilor de soare și vânt, se unge partea afec\
- tată cu un gălbenuș de ou și se lasă să se usuce. După 20 de mi\
- nute, aceasta se îndepărtează cu apă și săpun. Rezultatele sunt\
+2) Contra arsurilor de soare si vant, se unge partea afec\
+ tata cu un galbenus de ou si se lasa sa se usuce. Dupa 20 de mi\
+ nute, aceasta se indeparteaza cu apa si sapun. Rezultatele sunt\
  uimitoare.\[18\]
 
-3) Se iau două ouă și se fierb tare. După ce au fost fierte,\
- se extrag gălbenușurile ouălelor, se pun într-un recipient și se\
- bagă în cuptor. Se țin până când gălbenușurile se înnegresc. în\
- acel moment în recipientul în care au fost puse gălbenușurile a\
- fost colectat un ulei de culoare închisă, care trebuie strâns\
- pentru a fi folosit ca unguent în arsuri. Folosirea acestui ulei\
- vindecă arsurile fără a lăsa urme. (Experimentat personal).
+3) Se iau doua oua si se fierb tare. Dupa ce au fost fierte,\
+ se extrag galbenusurile oualelor, se pun intr-un recipient si se\
+ baga in cuptor. Se tin pana cand galbenusurile se innegresc. in\
+ acel moment in recipientul in care au fost puse galbenusurile a\
+ fost colectat un ulei de culoare inchisa, care trebuie strans\
+ pentru a fi folosit ca unguent in arsuri. Folosirea acestui ulei\
+ vindeca arsurile fara a lasa urme. (Experimentat personal).
 
-4) La arsură se pune o *legătură* din mămăligă amestecată\
- cu vin și sare.\[15\]
+4) La arsura se pune o *legatura* din mamaliga amestecata\
+ cu vin si sare.\[15\]
 
-#### Infectarea rănilor este atribuită în popor și frigului sau\
- > consumului de acrituri. în acest caz se fac oblojeli ale rănii cu\
+#### Infectarea ranilor este atribuita in popor si frigului sau\
+ > consumului de acrituri. in acest caz se fac oblojeli ale ranii cu\
  > Boz *(Sambucus ebulus).\[15\]*
 
-#### Țăranii, atunci când se taie cu coasa ori cu secera, iau\
- > flori proaspete de *Cicoare (Cichoriwn intybus),* le freacă laolaltă,\
- > le strâng și storc sucul lor pe rană, apoi o leagă. După două zile\
- > rana este vindecată.
+#### Taranii, atunci cand se taie cu coasa ori cu secera, iau\
+ > flori proaspete de *Cicoare (Cichoriwn intybus),* le freaca laolalta,\
+ > le strang si storc sucul lor pe rana, apoi o leaga. Dupa doua zile\
+ > rana este vindecata.
 
-#### Dacă te înțepi cu un spin (la picior) și nu îl găsești\
- > pentru a-1 extrage, faci din pâine moale aluat amestecat cu sare\
- > și pui acest amestec pe rană. După câtva timp iei aluatul și rana\
- > va rămâne galben traslucidă, astfel încât poți vedea spinul și îl\
- > poți extrage. După aceea umpli rana cu ceară pentru a nu intra\
- > murdării și a nu coace. \[Simeon Rusu-Câmpeanu și Aurelian\
- > Borșianu, *Descântece, farmece și leacuri din popor.* Gherla 1927.\]
+#### Daca te intepi cu un spin (la picior) si nu il gasesti\
+ > pentru a-1 extrage, faci din paine moale aluat amestecat cu sare\
+ > si pui acest amestec pe rana. Dupa catva timp iei aluatul si rana\
+ > va ramane galben traslucida, astfel incat poti vedea spinul si il\
+ > poti extrage. Dupa aceea umpli rana cu ceara pentru a nu intra\
+ > murdarii si a nu coace. \[Simeon Rusu-Campeanu si Aurelian\
+ > Borsianu, *Descantece, farmece si leacuri din popor.* Gherla 1927.\]
 
-10) O rană care se dobândește într-un loc cu bălți, mlăști\
- > nos, și care se infectează puternic, umflându-se și colectând pu\
- > roi, se vindecă astfel: se găsește o broască, pe cât posibil din\
- > locul unde s-a produs rănirea, se jupoaie, apoi se aplică pielea\
- > broaștei pe locul bolnav, legându-se în acel loc (pielea broaștelor\
- > conține antibiotici naturali foarte puternici). Rana se va vindeca\
+10) O rana care se dobandeste intr-un loc cu balti, mlasti\
+ > nos, si care se infecteaza puternic, umflandu-se si colectand pu\
+ > roi, se vindeca astfel: se gaseste o broasca, pe cat posibil din\
+ > locul unde s-a produs ranirea, se jupoaie, apoi se aplica pielea\
+ > broastei pe locul bolnav, legandu-se in acel loc (pielea broastelor\
+ > contine antibiotici naturali foarte puternici). Rana se va vindeca\
  > repede. \[16\]
 
 #### **Arsuri.**
 
-5) Se pun pe arsură cartofi pisați mărunt sau ciuperca\
- Bășina Calului *(Globaria gigantea).*\[12\]
+5) Se pun pe arsura cartofi pisati marunt sau ciuperca\
+ Basina Calului *(Globaria gigantea).*\[12\]
 
-6) Contra arsurilor de soare și vânt, se unge partea afec\
- tată cu un gălbenuș de ou și se lasă să se usuce. După 20 de mi\
- nute, aceasta se îndepărtează cu apă și săpun. Rezultatele sunt\
+6) Contra arsurilor de soare si vant, se unge partea afec\
+ tata cu un galbenus de ou si se lasa sa se usuce. Dupa 20 de mi\
+ nute, aceasta se indeparteaza cu apa si sapun. Rezultatele sunt\
  uimitoare.\[18\]
 
-7) Se iau două ouă și se fierb tare. După ce au fost fierte,\
- se extrag gălbenușurile ouălelor, se pun într-un recipient și se\
- bagă în cuptor. Se țin până când gălbenușurile se înnegresc. în\
- acel moment în recipientul în care au fost puse gălbenușurile a\
- fost colectat un ulei de culoare închisă, care trebuie strâns\
- pentru a fi folosit ca unguent în arsuri. Folosirea acestui ulei\
- vindecă arsurile fără a lăsa urme. (Experimentat personal).
+7) Se iau doua oua si se fierb tare. Dupa ce au fost fierte,\
+ se extrag galbenusurile oualelor, se pun intr-un recipient si se\
+ baga in cuptor. Se tin pana cand galbenusurile se innegresc. in\
+ acel moment in recipientul in care au fost puse galbenusurile a\
+ fost colectat un ulei de culoare inchisa, care trebuie strans\
+ pentru a fi folosit ca unguent in arsuri. Folosirea acestui ulei\
+ vindeca arsurile fara a lasa urme. (Experimentat personal).
 
-8) La arsură se pune o *legătură* din mămăligă amestecată\
- cu vin și sare.\[15\]
+8) La arsura se pune o *legatura* din mamaliga amestecata\
+ cu vin si sare.\[15\]
 
-5) Se amestecă gălbenușul unui ou cu o bucată de unt tot\
- > atât de mare cât gălbenușul de ou, se întind pe o pânză și se pun\
- > peste rană.\[15\]
+5) Se amesteca galbenusul unui ou cu o bucata de unt tot\
+ > atat de mare cat galbenusul de ou, se intind pe o panza si se pun\
+ > peste rana.\[15\]
 
-6) Se pun la rană frunze de varză acră.\[15\]
+6) Se pun la rana frunze de varza acra.\[15\]
 
-7) Se ia lut dintr-un cuib de rândunică, se înmoaie în apă\
- > și se pune cu o legătură pe rană. \[15\]
+7) Se ia lut dintr-un cuib de randunica, se inmoaie in apa\
+ > si se pune cu o legatura pe rana. \[15\]
 
 #### **Degeraturi.**
 
-1) Se înmoaie o cârpă în vinarsul în care s-a pus să stea\
- câtva timp o rădăcină de *Spânz (Helleborus),* apoi se bandajează\
+1) Se inmoaie o carpa in vinarsul in care s-a pus sa stea\
+ catva timp o radacina de *Spanz (Helleborus),* apoi se bandajeaza\
  cu ea organul degerat. \[12\]
 
-2) Altă metodă este să pui pe zona degerată cartofi rași pe\
- râzătoare și încălziți puțin.\[12\]
+2) Alta metoda este sa pui pe zona degerata cartofi rasi pe\
+ razatoare si incalziti putin.\[12\]
 
-3) în Moldova, mâinile degerate se învelesc în foi de varză\
- murată, după care se introduc în oale cu saramură sau cu moare\
- de varză (zeama de la varza acrită), la temperatura camerei. \[4\]
+3) in Moldova, mainile degerate se invelesc in foi de varza\
+ murata, dupa care se introduc in oale cu saramura sau cu moare\
+ de varza (zeama de la varza acrita), la temperatura camerei. \[4\]
 
-#### **Umflătură.**
+#### **Umflatura.**
 
-Se face pâine de orz și se frânge în două, fierbinte, apoi se pune într-o putină largă în care intră și bolnavul dezbrăcat. Se acoperă gura putinei, să nu iasă aburul. Bolnavul stă aici până ce umflătura coboară în picioare. Urmează o nouă etapă. Se prepară un amestec din rută, ulei și sare fină cu care se ung picioarele pentru a se dezumfla. \"Și încă cu udul (urina) tău să-1 pui pe o cârpă la picioare și încă te vei folosi\". \[8\]
+Se face paine de orz si se frange in doua, fierbinte, apoi se pune intr-o putina larga in care intra si bolnavul dezbracat. Se acopera gura putinei, sa nu iasa aburul. Bolnavul sta aici pana ce umflatura coboara in picioare. Urmeaza o noua etapa. Se prepara un amestec din ruta, ulei si sare fina cu care se ung picioarele pentru a se dezumfla. \"Si inca cu udul (urina) tau sa-1 pui pe o carpa la picioare si inca te vei folosi\". \[8\]
 
-#### **Curgerea sângelui din** nas.
+#### **Curgerea sangelui din** nas.
 
-1) Spre a se opri curgerea sângelui din nas se leagă degetul\
- mic al mâinii de pe partea nării din care curge sânge cu un fir de\
- mătase, strângându-se tare. Se mai poate recurge și la înnodarea\
- în cruciș a trei fire de păr din creștetul capului. \[4\] Alteori se\
- leagă degetul mare cu firul de mătase. \[19\]
+1) Spre a se opri curgerea sangelui din nas se leaga degetul\
+ mic al mainii de pe partea narii din care curge sange cu un fir de\
+ matase, strangandu-se tare. Se mai poate recurge si la innodarea\
+ in crucis a trei fire de par din crestetul capului. \[4\] Alteori se\
+ leaga degetul mare cu firul de matase. \[19\]
 
-2) Se trage pe nas oțet \[15\] și, în același timp, persoanei\
- bolnave i se leagă între ele trei fire de păr din cap.\[17\].
+2) Se trage pe nas otet \[15\] si, in acelasi timp, persoanei\
+ bolnave i se leaga intre ele trei fire de par din cap.\[17\].
 
-3) Pe vremuri, o mică cheie de fier era legată cu un fir în\
- tins de lână, iar aceasta se lega de gâtul pacientului astfel încât\
- cheia să ajungă între omoplații săi. Sângele se oprea imediat. Cei\
- ce aveau asemenea hemoragii în mod obișnuit, erau sfătuiți să\
- poarte cheia în permanență asupra lor.\[18\]
+3) Pe vremuri, o mica cheie de fier era legata cu un fir in\
+ tins de lana, iar aceasta se lega de gatul pacientului astfel incat\
+ cheia sa ajunga intre omoplatii sai. Sangele se oprea imediat. Cei\
+ ce aveau asemenea hemoragii in mod obisnuit, erau sfatuiti sa\
+ poarte cheia in permanenta asupra lor.\[18\]
 
-> *4)* Se picură trei din picăturile de sânge pe un cărbune care se aruncă după ușă.\[17\]
+> *4)* Se picura trei din picaturile de sange pe un carbune care se arunca dupa usa.\[17\]
 >
 ### PENTRU REUMATISM
 
 > • *PENTRU REUMATISM*
 >
-> *1)* în medicina populară românească au fost folosite cu\
+> *1)* in medicina populara romaneasca au fost folosite cu\
 > succes pentru durerile reumatice furnicile. Se foloseau \"spirtul de\
-> furnici\" sau \"apa de furnici\", a căror acțiune se baza pe acidul\
-> formic conținut de furnici. Se scula o babă la miezul nopții, se\
-> ducea în pădure și lua un furnicar mare, cu cuibul de furnici cu\
-> tot. în aceeași noapte, ajunsă acasă fierbea furnicarul în apă la\
-> foc mic, întreaga noapte. Cu această apă se freca locul dureros,\
-> repetîndu-se procedeul încă de două ori, în lunile următoare. Se\
-> afirmă că astfel a fost vindecat reumatismul poliarticular, în care\
-> membrele erau anchilozate. (Dr. N. Leon, *Istoria naturală medi\
-> cală a poporului român.* București 1903, pag. 89)
+> furnici\" sau \"apa de furnici\", a caror actiune se baza pe acidul\
+> formic continut de furnici. Se scula o baba la miezul noptii, se\
+> ducea in padure si lua un furnicar mare, cu cuibul de furnici cu\
+> tot. in aceeasi noapte, ajunsa acasa fierbea furnicarul in apa la\
+> foc mic, intreaga noapte. Cu aceasta apa se freca locul dureros,\
+> repetindu-se procedeul inca de doua ori, in lunile urmatoare. Se\
+> afirma ca astfel a fost vindecat reumatismul poliarticular, in care\
+> membrele erau anchilozate. (Dr. N. Leon, *Istoria naturala medi\
+> cala a poporului roman.* Bucuresti 1903, pag. 89)
 
-2) Pentru reumatismul cu umflături și dureri la picioare se\
- > fac niște saci din pânză de forma picioarelor, care se umplu cu\
- > frunze verzi de Mesteacăn. Pe parcursul nopții se bagă picioarele\
- > în saci, ele transpirând puternic. După folosire frunzele se arun\
- > că. Se repetă procedeul câteva nopți după care scad durerile și\
- > picioarele se desumflă.
+2) Pentru reumatismul cu umflaturi si dureri la picioare se\
+ > fac niste saci din panza de forma picioarelor, care se umplu cu\
+ > frunze verzi de Mesteacan. Pe parcursul noptii se baga picioarele\
+ > in saci, ele transpirand puternic. Dupa folosire frunzele se arun\
+ > ca. Se repeta procedeul cateva nopti dupa care scad durerile si\
+ > picioarele se desumfla.
 
-3) Loțiune obținută din râme.
+3) Lotiune obtinuta din rame.
 
-> Alifia din râme era considerată în Rusia și în Siberia ca unul dintre cele mai bune remedii pentru durerile artritice și umflături.
+> Alifia din rame era considerata in Rusia si in Siberia ca unul dintre cele mai bune remedii pentru durerile artritice si umflaturi.
 
-Râmele vii, bine spălate, se pun într-un borcan de sticlă apoi se toarnă peste ele alcool cât să le acopere. Borcanul, bine închis, se lasă într-un loc cald sau la soare, până când râmele se dezintegrează complet, cam 3-5 zile. Pasta obținută se amestecă și se pune la rece. La folosire, alifia se întinde pe regiunea bolnavă până când intră în piele, aceasta devenind uscată. Aplicarea se execută de două ori pe zi. Folosirea prelungită a acestei paste duce la dispariția completă a durerilor reumatice și artritice, ca și a umflăturilor. \[18\]
+Ramele vii, bine spalate, se pun intr-un borcan de sticla apoi se toarna peste ele alcool cat sa le acopere. Borcanul, bine inchis, se lasa intr-un loc cald sau la soare, pana cand ramele se dezintegreaza complet, cam 3-5 zile. Pasta obtinuta se amesteca si se pune la rece. La folosire, alifia se intinde pe regiunea bolnava pana cand intra in piele, aceasta devenind uscata. Aplicarea se executa de doua ori pe zi. Folosirea prelungita a acestei paste duce la disparitia completa a durerilor reumatice si artritice, ca si a umflaturilor. \[18\]
 
-*4)* Durerile reumatice sunt numite de români *junghiuri* (si\
-nonim cu \"cuțite\", denumire ce sugerează modul cum este resim\
-țită durerea, precum pătrunderea unui cuțit). Ele sunt împărțite
+*4)* Durerile reumatice sunt numite de romani *junghiuri* (si\
+nonim cu \"cutite\", denumire ce sugereaza modul cum este resim\
+tita durerea, precum patrunderea unui cutit). Ele sunt impartite
 
-> în junghiuri din răceală, din *vânt rău,* din *deochi* și din farmec. Cel mai năprasnic este însă *junghiul morții.* Pentru *junghiuri* se pune pe locul dureros o legătură făcută din pâine muiată în vin roșu. Alt remediu: se caută o hârtie albastră, se unge cu miere, pe deasupra se presară fire de tutun și se pune *la junghi.\[\\5\]*
+> in junghiuri din raceala, din *vant rau,* din *deochi* si din farmec. Cel mai naprasnic este insa *junghiul mortii.* Pentru *junghiuri* se pune pe locul dureros o legatura facuta din paine muiata in vin rosu. Alt remediu: se cauta o hartie albastra, se unge cu miere, pe deasupra se presara fire de tutun si se pune *la junghi.\[\\5\]*
 
-5) Pentru durerile reumatice de la braț sau picior se înfă\
- șoară membrul dureros într-o fâșie de lână roșie, preferabil trico\
- tată. \[18\]
+5) Pentru durerile reumatice de la brat sau picior se infa\
+ soara membrul dureros intr-o fasie de lana rosie, preferabil trico\
+ tata. \[18\]
 
-6) Castanele sălbatice purtate în buzunar sau în căptușeala\
- hainei, se presupune că apără pe cel care le poartă de reumatism\
- și gută.\[18\]
+6) Castanele salbatice purtate in buzunar sau in captuseala\
+ hainei, se presupune ca apara pe cel care le poarta de reumatism\
+ si guta.\[18\]
 
-7) Șamanii din anumite zone ale Siberiei făceau brățări de\
- alamă sau de bronz pentru cel suferind de reumatism. Nenumă\
- rate astfel de brățări au fost descoperite însă și în așezările\
- tracilor. Astăzi, \"brățările magnetice pentru sănătate\" se fabrică\
- în China, în Japonia etc; unii dintre cei care le portă spun că ob\
- țin rezultate surprinzător de bune. \[18\]
+7) Samanii din anumite zone ale Siberiei faceau bratari de\
+ alama sau de bronz pentru cel suferind de reumatism. Nenuma\
+ rate astfel de bratari au fost descoperite insa si in asezarile\
+ tracilor. Astazi, \"bratarile magnetice pentru sanatate\" se fabrica\
+ in China, in Japonia etc; unii dintre cei care le porta spun ca ob\
+ tin rezultate surprinzator de bune. \[18\]
 
-8) Pentru *junghiul* numit *săgetătură* se descântă de trei ori,\
- dimineața, la amiază și seara, cu o săgeată dintre cele căzute pe\
- pământ odată cu trăsnetul (conform credințelor populare româ\
- nești - probabil o săgeată din vechime), iar în lipsă cu un cuțit\
- de găsit. (O săgeată din trăsnet o avea Antohi Dămian din Țepu\
+8) Pentru *junghiul* numit *sagetatura* se descanta de trei ori,\
+ dimineata, la amiaza si seara, cu o sageata dintre cele cazute pe\
+ pamant odata cu trasnetul (conform credintelor populare roma\
+ nesti - probabil o sageata din vechime), iar in lipsa cu un cutit\
+ de gasit. (O sageata din trasnet o avea Antohi Damian din Tepu\
  - Tecuci.) \[15\]
 
-9) Se ia planta Piciorul cocoșului *(Ranunculus acris, Ra-\
- nunculus pedatus, Ranunculus sceleratus;* plantă otrăvitoare), se\
- amestecă cu sare și se lasă să se mureze bine. Se pune amestecul\
- la locul dureros și este lăsat cât timp poate fi suportat. Se face\
- o bășică, scoțându-se toată boala, \"toată răutatea\".\[14\]
+9) Se ia planta Piciorul cocosului *(Ranunculus acris, Ra-\
+ nunculus pedatus, Ranunculus sceleratus;* planta otravitoare), se\
+ amesteca cu sare si se lasa sa se mureze bine. Se pune amestecul\
+ la locul dureros si este lasat cat timp poate fi suportat. Se face\
+ o basica, scotandu-se toata boala, \"toata rautatea\".\[14\]
 
-### PENTRU CÂRCEI
+### PENTRU CARCEI
 
-> PENTRU CÂRCEI
+> PENTRU CARCEI
 >
-> Pentru a scăpa de cârcei, în zona de sud a Transilvaniei se recomandă să se frece mușchii ce au cârcei cu pământ luat de pe lângă tulpina unui gutui.\[12\]
+> Pentru a scapa de carcei, in zona de sud a Transilvaniei se recomanda sa se frece muschii ce au carcei cu pamant luat de pe langa tulpina unui gutui.\[12\]
 >
-### PENTRU DURERI VE ȘALE ȘI DE SPATE
+### PENTRU DURERI VE SALE SI DE SPATE
 
-1) Se încălzește bine varză proaspătă și se pune la șale.\[12\]
+1) Se incalzeste bine varza proaspata si se pune la sale.\[12\]
 
-2) "Căldura de pisică". Metoda foarte simplă constă în a\
- > determina o pisică, cât mai des, să stea în locul dureros. Se afir\
- > mă că energia *(\"căldura\")* pisicii vindecă repede durerile.\[M\]
+2) "Caldura de pisica". Metoda foarte simpla consta in a\
+ > determina o pisica, cat mai des, sa stea in locul dureros. Se afir\
+ > ma ca energia *(\"caldura\")* pisicii vindeca repede durerile.\[M\]
 
-3) Se încălzește *Bobolnic (Veronica beccabunga)* și se pune\
+3) Se incalzeste *Bobolnic (Veronica beccabunga)* si se pune\
  > la spate. \[12\]
 
-4) Se pisează *Cucută (Cicuta virosa),* se îngroașă cu făină\
- > de grâu, se amestecă cu oțet și untdelemn și se pune ca legătură\
- > la șale.\[15\]
+4) Se piseaza *Cucuta (Cicuta virosa),* se ingroasa cu faina\
+ > de grau, se amesteca cu otet si untdelemn si se pune ca legatura\
+ > la sale.\[15\]
 
-### PENTRU CREȘTEREA PĂRULUI
+### PENTRU CRESTEREA PARULUI
 
-> PENTRU CREȘTEREA *PĂRULUI*
+> PENTRU CRESTEREA *PARULUI*
 
-1) Se recoltează cu rădăcini cu tot planta de Brîie (Briu,\
- Buruiană câinească; *Mercurialis perenis),* se face leșie din ea și, cu\
- aceasta, cei ce nu au păr se spală pe cap. \[5\]
+1) Se recolteaza cu radacini cu tot planta de Briie (Briu,\
+ Buruiana caineasca; *Mercurialis perenis),* se face lesie din ea si, cu\
+ aceasta, cei ce nu au par se spala pe cap. \[5\]
 
-2) împotriva pierderii părului (cauzată de eczeme uscate\
- și de alte anomalii ale pielii capului), se recomandă spălarea\
- capului o dată pe săptămână cu apă caldă, urmată de un masaj\
- cu sare brută timp de 15 minute, după care pielea capului se clă\
- tește foarte bine.
+2) impotriva pierderii parului (cauzata de eczeme uscate\
+ si de alte anomalii ale pielii capului), se recomanda spalarea\
+ capului o data pe saptamana cu apa calda, urmata de un masaj\
+ cu sare bruta timp de 15 minute, dupa care pielea capului se cla\
+ teste foarte bine.
 
-> Șase tratamente sunt suficiente pentru eradicarea completă a eczemei, dar tratamentul putea fi continuat mai rar dacă persoana crede că este necesar. Acest tratament dorește oprirea căderii părului.
+> Sase tratamente sunt suficiente pentru eradicarea completa a eczemei, dar tratamentul putea fi continuat mai rar daca persoana crede ca este necesar. Acest tratament doreste oprirea caderii parului.
 >
-> Practicienii medicinei populare din Urali declară: \"Dacă fiecare ar folosi această metodă măcar ocazional, procesul de chelire ar fi eradicat complet în întreaga lume\".\[18\]
+> Practicienii medicinei populare din Urali declara: \"Daca fiecare ar folosi aceasta metoda macar ocazional, procesul de chelire ar fi eradicat complet in intreaga lume\".\[18\]
 
-3) *O* veche concepție mistică rusească, spune că, femeile\
- nu trebuie să își taie părul în timpul când luna este palidă.\
- Această superstiție are cel puțin cinci secole și este încă valabilă\
+3) *O* veche conceptie mistica ruseasca, spune ca, femeile\
+ nu trebuie sa isi taie parul in timpul cand luna este palida.\
+ Aceasta superstitie are cel putin cinci secole si este inca valabila\
  la sate. \[18\]
 
-4) Se ia pielea ce a lepădat-o șarpele și se fierbe în apă\
- sau se fierbe șarpele într-o oală și, cu apa aceasta se spală capul,\
- numai să nu intre în ochi, căci afectează vederea. Chelia dispare\
- după astfel de spălături.\[l\]
+4) Se ia pielea ce a lepadat-o sarpele si se fierbe in apa\
+ sau se fierbe sarpele intr-o oala si, cu apa aceasta se spala capul,\
+ numai sa nu intre in ochi, caci afecteaza vederea. Chelia dispare\
+ dupa astfel de spalaturi.\[l\]
 
-### PENTRU AFECȚIUNILE O.R.L. ȘI OCULARE
+### PENTRU AFECTIUNILE O.R.L. SI OCULARE
 
 Ochi.
 
-1) Pentru leucom, cataractă și cheratite oculare unele babe\
- ling cu limba ochii suferinzi. De câte ori îi ling, ele scuipă jos.\
- Ele afirmă că au vindecat mulți bolnavi prin acest procedeu. (S.\
- FI. Marian, *Descântecele poporane române;* 1904, pag. 9).
+1) Pentru leucom, cataracta si cheratite oculare unele babe\
+ ling cu limba ochii suferinzi. De cate ori ii ling, ele scuipa jos.\
+ Ele afirma ca au vindecat multi bolnavi prin acest procedeu. (S.\
+ FI. Marian, *Descantecele poporane romane;* 1904, pag. 9).
 
-2) Un panaceu în terapeutica populară în ceea ce privește\
- afecțiunile oculare este considerat *apa de viță.* Este vorba de seva\
- care se scurge primăvara dintr-o mlădiță tăiată de Viță de Vie. \[6\]
+2) Un panaceu in terapeutica populara in ceea ce priveste\
+ afectiunile oculare este considerat *apa de vita.* Este vorba de seva\
+ care se scurge primavara dintr-o mladita taiata de Vita de Vie. \[6\]
 
-3) Pentru întărirea vederii se mai recomandă în practicile\
- populare praful de \"foi de pelin\". El se ia de 2-3 ori pe zi, fie în\
- apă, fie în mâncare. \[6\]
+3) Pentru intarirea vederii se mai recomanda in practicile\
+ populare praful de \"foi de pelin\". El se ia de 2-3 ori pe zi, fie in\
+ apa, fie in mancare. \[6\]
 
-4) Manuscrisul în care găsim acest remediu (pentru «al\
- > beață» la ochi), îl recomandă chiar și pentru afecțiunile vechi de\
- > leucom sau cataractă. Se adună furnici \"de cele mari de copaci\"\
- > și se umple cu ele o sticlă de 0,150 1. Se introduce sticla bine\
- > astupată într-o pâine mare crudă care se bagă în cuptor spre coa\
- > cere. După ce este scoasă pâinea din cuptor, se scoate sticla din\
- > ea, se lasă să se răcească, iar lichidul rezultat se pune în ochi,\
- > câte o picătură dimineața și seara \"până îi va trece, măcar să fie\
+4) Manuscrisul in care gasim acest remediu (pentru «al\
+ > beata» la ochi), il recomanda chiar si pentru afectiunile vechi de\
+ > leucom sau cataracta. Se aduna furnici \"de cele mari de copaci\"\
+ > si se umple cu ele o sticla de 0,150 1. Se introduce sticla bine\
+ > astupata intr-o paine mare cruda care se baga in cuptor spre coa\
+ > cere. Dupa ce este scoasa painea din cuptor, se scoate sticla din\
+ > ea, se lasa sa se raceasca, iar lichidul rezultat se pune in ochi,\
+ > cate o picatura dimineata si seara \"pana ii va trece, macar sa fie\
  > veche de 5-6 ani\". \[5\]
 
-#### Remediul universal pentru vederea slabă, este o plantă\
- > mică ce crește pe marginea pădurilor. Ea se numește *Silur, Bure-\
- > niță* sau \"Floare-de-Ochi\" *(Euphrasia officinalis).* Ochii se spală\
- > de două ori pe zi cu o infuzie din această plantă și se ia intern\
- > (doză foarte mică - un vârf de cuțit) o dată pe zi. Vederea se îm\
- > bunătățește radical și într-un timp foarte scurt. Este recomandată\
- > pentru afecțiunile oculare inflamatorii, conjunctivite,\
+#### Remediul universal pentru vederea slaba, este o planta\
+ > mica ce creste pe marginea padurilor. Ea se numeste *Silur, Bure-\
+ > nita* sau \"Floare-de-Ochi\" *(Euphrasia officinalis).* Ochii se spala\
+ > de doua ori pe zi cu o infuzie din aceasta planta si se ia intern\
+ > (doza foarte mica - un varf de cutit) o data pe zi. Vederea se im\
+ > bunatateste radical si intr-un timp foarte scurt. Este recomandata\
+ > pentru afectiunile oculare inflamatorii, conjunctivite,\
  > blefarite.\[18\]
 
-#### Se mai folosește pentru leucom, cataractă și cheratite\
- > oculare (pentru *\"albeață\",* deci) și ungerea ochiului cu *untură de\
- > șarpe.* Acest leac este folosit și pentru *orbeală,* adică de către cei\
- > cărora le slăbește vederea.\[15\]
+#### Se mai foloseste pentru leucom, cataracta si cheratite\
+ > oculare (pentru *\"albeata\",* deci) si ungerea ochiului cu *untura de\
+ > sarpe.* Acest leac este folosit si pentru *orbeala,* adica de catre cei\
+ > carora le slabeste vederea.\[15\]
 
-#### . Afecțiunile gâtului.**
+#### . Afectiunile gatului.**
 >
-> *1)* Dacă simte cineva un nod în gât, sau are vreo *spuzeală,\
-> *topește cositor și-1 poartă la mâna dreaptă, legat la mânecă, de\
-> Miercuri până Vineri. Apoi aruncă cositorul lângă vreun pom\
-> sau îl îngroapă.\[4\]
+> *1)* Daca simte cineva un nod in gat, sau are vreo *spuzeala,\
+> *topeste cositor si-1 poarta la mana dreapta, legat la maneca, de\
+> Miercuri pana Vineri. Apoi arunca cositorul langa vreun pom\
+> sau il ingroapa.\[4\]
 
-##### Pentru \"tușea măgărească\" se leagă la gâtul bolnavului\
- > câțiva căței de Usturoi, iar în timp ce bolnavul doarme i se dă să\
- > miroasă tot Usturoi.
+##### Pentru \"tusea magareasca\" se leaga la gatul bolnavului\
+ > cativa catei de Usturoi, iar in timp ce bolnavul doarme i se da sa\
+ > miroasa tot Usturoi.
 
-##### Redăm un remediu vechi și ciudat contra infecțiilor din gât.
- într-o coajă de nucă goală, se introduce Usturoi pisat, iar\
- > coaja se aplică între index și degetul mare de la mâna pacinetului\
- > și se ține astfel timp de 25 de minute. Mâna să corespundă părții\
- > afectate. în lipsa cojii de nucă, Usturoiul se leagă în același loc\
- > de mâna pacientului, dar metoda cu nuca s-a dovedit a fi superi-\
- > oară.\[18\]
+##### Redam un remediu vechi si ciudat contra infectiilor din gat.
+ intr-o coaja de nuca goala, se introduce Usturoi pisat, iar\
+ > coaja se aplica intre index si degetul mare de la mana pacinetului\
+ > si se tine astfel timp de 25 de minute. Mana sa corespunda partii\
+ > afectate. in lipsa cojii de nuca, Usturoiul se leaga in acelasi loc\
+ > de mana pacientului, dar metoda cu nuca s-a dovedit a fi superi-\
+ > oara.\[18\]
 
-4) Când amigdalele nu prezintă încă puncte cu puroi (mici\
- > abcese albe), se aplică pe ele parafină pură, cu ajutorul unui\
- > ghem de bumbac, care se înfige Ia capătul unui băț. Aceasta se\
- > face de câteva ori pe zi. Procedeul acesta oprește deseori dezvol\
+4) Cand amigdalele nu prezinta inca puncte cu puroi (mici\
+ > abcese albe), se aplica pe ele parafina pura, cu ajutorul unui\
+ > ghem de bumbac, care se infige Ia capatul unui bat. Aceasta se\
+ > face de cateva ori pe zi. Procedeul acesta opreste deseori dezvol\
  > tarea abceselor pe amigdale.\[18\]
 
-5) în cazurile când infecția progresează atât încât pacientul\
- > să nu mai poată vorbi sau să miște limba, în Orient se administra\
- > următorul tratament:
+5) in cazurile cand infectia progreseaza atat incat pacientul\
+ > sa nu mai poata vorbi sau sa miste limba, in Orient se administra\
+ > urmatorul tratament:
 
-Se ținea la gura pacientului o broască vie, el trebuind să . respire în acest timp. Imediat bătăile inimii animalului se accelerau din ce în ce mai mult. Se continua astfel mai multe minute în șir. Apoi broasca se elibera. Ea mai făcea câteva salturi, după care murea. Pacientul se declara vindecat după aceasta.
+Se tinea la gura pacientului o broasca vie, el trebuind sa . respire in acest timp. Imediat bataile inimii animalului se accelerau din ce in ce mai mult. Se continua astfel mai multe minute in sir. Apoi broasca se elibera. Ea mai facea cateva salturi, dupa care murea. Pacientul se declara vindecat dupa aceasta.
 
-> Medicul ce relatează această ciudată terapie, scrie: \"Am fost martorul mai multor experiențe de acest fel, și toate au dat rezultate bune pentru pacient, iar pentru broască au fost fatale. Probabil că broasca, speriată de moarte, face un atac de cord, dar oricare ar fi cauza, pacientul se vindecă imediat\".
+> Medicul ce relateaza aceasta ciudata terapie, scrie: \"Am fost martorul mai multor experiente de acest fel, si toate au dat rezultate bune pentru pacient, iar pentru broasca au fost fatale. Probabil ca broasca, speriata de moarte, face un atac de cord, dar oricare ar fi cauza, pacientul se vindeca imediat\".
 
-Această metodă a fost larg folosită cu secole în urmă în Teheran și s-a răspândit repede și în Caucaz, Turkestan, Tbrcia, sudul Siberiei și în multe provincii din India. în India metoda se
+Aceasta metoda a fost larg folosita cu secole in urma in Teheran si s-a raspandit repede si in Caucaz, Turkestan, Tbrcia, sudul Siberiei si in multe provincii din India. in India metoda se
 
-> practicienii afirmă însă numai că broasca trebuie să fie mare.\[18\]
+> practicienii afirma insa numai ca broasca trebuie sa fie mare.\[18\]
 
-6) Când gâtul amorțește și nu mai poți vorbi, trebuie să îl\
- > legi cu un ștergar și să pui pe cineva să te ridice în sus cu șterga\
+6) Cand gatul amorteste si nu mai poti vorbi, trebuie sa il\
+ > legi cu un stergar si sa pui pe cineva sa te ridice in sus cu sterga\
  > rul.\^\]
 
-7) Se prinde un *Gușter* (cea mai mare șopârlă din Româ\
- > nia, *Lacerta viridis)* într-o zi de Marți din luna Martie și se\
- > omoară între degete. I se taie capul cu *o para* (un ban de argint)\
- > sau chiar cu un cuțit (dar, în acest caz, i se pune de formă un\
- > ban de argint după ceafă, în momentul tăierii, ca și cum i s-ar\
- > tăia capul chiar cu acest ban). Acest cap se păstrează ca un acce\
- > soriu medical popular. Când i se umflă cuiva gâtul și nu poate\
- > înghiți, se spală capul *Gușterului* cu apă proaspătă, care i se dă\
- > bolnavului să o bea.\[15\]
+7) Se prinde un *Guster* (cea mai mare soparla din Roma\
+ > nia, *Lacerta viridis)* intr-o zi de Marti din luna Martie si se\
+ > omoara intre degete. I se taie capul cu *o para* (un ban de argint)\
+ > sau chiar cu un cutit (dar, in acest caz, i se pune de forma un\
+ > ban de argint dupa ceafa, in momentul taierii, ca si cum i s-ar\
+ > taia capul chiar cu acest ban). Acest cap se pastreaza ca un acce\
+ > soriu medical popular. Cand i se umfla cuiva gatul si nu poate\
+ > inghiti, se spala capul *Gusterului* cu apa proaspata, care i se da\
+ > bolnavului sa o bea.\[15\]
 
-#### . **Afecțiunile capului.**
+#### . **Afectiunile capului.**
 
-*1)* Se măsoară cu o ață capul bolnavului. Se pornește o măsurătoare pe partea stângă, plecând de la mijlocul frunții până în spate, la mijlocul cefei, apoi o altă măsurătoare pe partea dreaptă. Dacă ața întinsă este mai lungă la măsurătoarea pe o parte decât pe cealaltă, atunci omul este \"descreierat\", are capul \"hodorogit\" și \"deschiolat\". Pentru a fi vindecat i se strânge capul într-o legătură ce se face în jurul capului și care se strânge ca un șurub cu ajutorul unui băț de lemn (sau a făcălețului de mămăligă), în timp ce se strânge legătura din jurul capului, bolnavul trebuie să țină pe cap un vas plin cu apă (\"o vadră cu apă\"). Operația se repetă de mai multe ori, până când capul \"s-a strâns bine în cercurile lui\". (Dr. Ch. Laugier, *Contribuțiuni la etnografia medicală a Olteniei;* Craiova 1925, pag. 82. Comunicare în I.A. Candrea, *Folklor medical român;* București 1944, pag. 399). în Moldova, deasemenea, când te doare prea tare capul sau de prea multă vreme îți legi capul strâns cu un șervet, iar deasupra, în creștetul capului, pui o cofă plină cu apă. Pe măsură ce strângi mai tare șervetul din jurul capului și cofa trebuie lăsată mai grea din mână.\[15\]
+*1)* Se masoara cu o ata capul bolnavului. Se porneste o masuratoare pe partea stanga, plecand de la mijlocul fruntii pana in spate, la mijlocul cefei, apoi o alta masuratoare pe partea dreapta. Daca ata intinsa este mai lunga la masuratoarea pe o parte decat pe cealalta, atunci omul este \"descreierat\", are capul \"hodorogit\" si \"deschiolat\". Pentru a fi vindecat i se strange capul intr-o legatura ce se face in jurul capului si care se strange ca un surub cu ajutorul unui bat de lemn (sau a facaletului de mamaliga), in timp ce se strange legatura din jurul capului, bolnavul trebuie sa tina pe cap un vas plin cu apa (\"o vadra cu apa\"). Operatia se repeta de mai multe ori, pana cand capul \"s-a strans bine in cercurile lui\". (Dr. Ch. Laugier, *Contributiuni la etnografia medicala a Olteniei;* Craiova 1925, pag. 82. Comunicare in I.A. Candrea, *Folklor medical roman;* Bucuresti 1944, pag. 399). in Moldova, deasemenea, cand te doare prea tare capul sau de prea multa vreme iti legi capul strans cu un servet, iar deasupra, in crestetul capului, pui o cofa plina cu apa. Pe masura ce strangi mai tare servetul din jurul capului si cofa trebuie lasata mai grea din mana.\[15\]
 
-2) Un călugăr român renumit în popor pentru vindecările\
- pe care le aducea mulțimilor de țărani ce îl asaltau, corela dure\
- rile de cap cu o anumită infiltrare a țesutului subcutanat cranian.\
- Dacă, punând mâna pe capul pacientului ce acuză dureri de cap,\
- se observă că între pielea capului și craniu s-a interpus un țesut\
- de 5 mm grosime, moale, ca un burete (deci o piele umflată și\
- moale), el recomanda următorul leac: se ia o mămăligă mai vâr-\
- toasă, fierbinte, se pune într-o cârpă și se pune pe cap, ca o\
- cască. Țesutul se va dezumfla și durerile vor dispare. Mămăliga\
- nu se mănâncă (se poate da la animale).
+2) Un calugar roman renumit in popor pentru vindecarile\
+ pe care le aducea multimilor de tarani ce il asaltau, corela dure\
+ rile de cap cu o anumita infiltrare a tesutului subcutanat cranian.\
+ Daca, punand mana pe capul pacientului ce acuza dureri de cap,\
+ se observa ca intre pielea capului si craniu s-a interpus un tesut\
+ de 5 mm grosime, moale, ca un burete (deci o piele umflata si\
+ moale), el recomanda urmatorul leac: se ia o mamaliga mai var-\
+ toasa, fierbinte, se pune intr-o carpa si se pune pe cap, ca o\
+ casca. Tesutul se va dezumfla si durerile vor dispare. Mamaliga\
+ nu se mananca (se poate da la animale).
 
-3) Dacă a doua zi după o beție te doare capul și ești mah\
- mur, te poți drege și îți poate trece durerea de cap bând din nou\
- vin sau rachiu, adică chiar băutura cu care ai făcut beția, căci \"cui\
+3) Daca a doua zi dupa o betie te doare capul si esti mah\
+ mur, te poti drege si iti poate trece durerea de cap band din nou\
+ vin sau rachiu, adica chiar bautura cu care ai facut betia, caci \"cui\
  pe cui se scoate\". \[4\]
 
-4) Durerea de cap se ia și cu capătul castravetelui dinspre\
- vrej, care se taie cu cuțitul și se pune cu fața dinspre tăietură în\
- mijlocul frunții (unde se va lipi singur).\[15\]
+4) Durerea de cap se ia si cu capatul castravetelui dinspre\
+ vrej, care se taie cu cutitul si se pune cu fata dinspre taietura in\
+ mijlocul fruntii (unde se va lipi singur).\[15\]
 
-5) Se mai folosesc următoarele remedii: spălaturile pe cap\
- cu apa în care a fiert Antonică *(Chaerophyllum aromaticum,* mai\
- este folosită și în spălarea rănilor infectate); legarea la tâmple a\
- Mentei pisate; legarea la cap a verzei acre sau a cartofilor pisați\
- și amestecați cu oțet\[15\]; băi cu Sburătoare *(Eupatorium cannabi-\
- num),* Căptălan *(Petasites hybridus),* Sulfină *(Melieotus officinalis,\
- *strânsă în ziua de *Sânziene* sau de *Ziua Crucii)* sau Calapăr *(Cry-\
+5) Se mai folosesc urmatoarele remedii: spalaturile pe cap\
+ cu apa in care a fiert Antonica *(Chaerophyllum aromaticum,* mai\
+ este folosita si in spalarea ranilor infectate); legarea la tample a\
+ Mentei pisate; legarea la cap a verzei acre sau a cartofilor pisati\
+ si amestecati cu otet\[15\]; bai cu Sburatoare *(Eupatorium cannabi-\
+ num),* Captalan *(Petasites hybridus),* Sulfina *(Melieotus officinalis,\
+ *stransa in ziua de *Sanziene* sau de *Ziua Crucii)* sau Calapar *(Cry-\
  santhemum balsanita)\\\\\]*
 
-6) Pentru durere de cap se folosește și Sovârful *(Origanum\
- vulgare).* Se pune împreună cu apă într-o oală în care nu s-a gă\
- tit, se încălzește și se pune într-un vas în care se fac spălaturi pe\
- cap. Se pot pune și *legături* (cataplasme) cu Sovârf la cap.\[l\]
+6) Pentru durere de cap se foloseste si Sovarful *(Origanum\
+ vulgare).* Se pune impreuna cu apa intr-o oala in care nu s-a ga\
+ tit, se incalzeste si se pune intr-un vas in care se fac spalaturi pe\
+ cap. Se pot pune si *legaturi* (cataplasme) cu Sovarf la cap.\[l\]
 
-7) Se pune la cap o basma cu rădăcină de Hrean pisat care\
+7) Se pune la cap o basma cu radacina de Hrean pisat care\
  ia durerile.\[l\]
 
-### Sinuzitâ
+### Sinuzita
 
-Se fac fumigații cu balegă de vacă.\[15\]
+Se fac fumigatii cu balega de vaca.\[15\]
 
-### Răceli, raceala
+### Raceli, raceala
 
-1) Pentru otită cu guturai *(de năjit),* într-o ceapă scobită\
- se pun râme spălate în vin alb. Se înfășoară ceapa în câlți și se\
- pune să se coacă în spuză. Când ceapa s-a copt bine se scoate\
- din cuptor, iar lichidul rezultat se picură, trei picături într-o\
- ureche și trei în cealaltă.^1^
+1) Pentru otita cu guturai *(de najit),* intr-o ceapa scobita\
+ se pun rame spalate in vin alb. Se infasoara ceapa in calti si se\
+ pune sa se coaca in spuza. Cand ceapa s-a copt bine se scoate\
+ din cuptor, iar lichidul rezultat se picura, trei picaturi intr-o\
+ ureche si trei in cealalta.^1^
 
-2) Pentru răcelile la cap și atunci când nasul curge, \"picta-\
- ți-vă\" tălpile cu tinctură de iod, puneți-vă șosete de lână și dor\
- miți cu ele. Până a doua zi se vindecă orice răceală la cap.\[18\]
+2) Pentru racelile la cap si atunci cand nasul curge, \"picta-\
+ ti-va\" talpile cu tinctura de iod, puneti-va sosete de lana si dor\
+ miti cu ele. Pana a doua zi se vindeca orice raceala la cap.\[18\]
 
-3) Metode preventive contra răcelilor:
+3) Metode preventive contra racelilor:
 
-a) *Brățări din lemn de copac.* Atât în casă cât și în afară\
- > sau peste noapte, se recomandă purtarea brățărilor de lemn, aco\
- > perind încheietura mâinilor (la puls). Siberienii considerau că\
- > brățările roșii sunt mai eficiente. \[18\]
+a) *Bratari din lemn de copac.* Atat in casa cat si in afara\
+ > sau peste noapte, se recomanda purtarea bratarilor de lemn, aco\
+ > perind incheietura mainilor (la puls). Siberienii considerau ca\
+ > bratarile rosii sunt mai eficiente. \[18\]
 
-b) *Talisman de cartofi.* Conform unei vechi credințe, da\
- > că o persoană poartă o bucățică de cartof crud în tot timpul ier\
- > nii, ca talisman, aceasta este ferită de răceli. Această bucată de\
- > cartof se purta în Siberia chiar și când se înnegrea și devenea\
- > tare ca piatra. Este interesant faptul că mulți medici din estul\
- > Rusiei recomandau acest obicei pacienților care aveau predispo\
- > ziție la răceală. \"Este un lucru absurd - afirma dr. G.St.George\
- > din Khabarovsk -, dar cel mai absurd este că merge!\".\[18\]
+b) *Talisman de cartofi.* Conform unei vechi credinte, da\
+ > ca o persoana poarta o bucatica de cartof crud in tot timpul ier\
+ > nii, ca talisman, aceasta este ferita de raceli. Aceasta bucata de\
+ > cartof se purta in Siberia chiar si cand se innegrea si devenea\
+ > tare ca piatra. Este interesant faptul ca multi medici din estul\
+ > Rusiei recomandau acest obicei pacientilor care aveau predispo\
+ > zitie la raceala. \"Este un lucru absurd - afirma dr. G.St.George\
+ > din Khabarovsk -, dar cel mai absurd este ca merge!\".\[18\]
 
-*4)* Catarul respirator cu febră, cunoscut în popor cu nume\
-le de *arșiță* (sau \"fierbințeală\", identificabilă cu rinita cronică\
-alergică dezvoltată pe un fond limfatic), se prezintă ca febră ge\
-nerală interioară însoțită de senzația de înăbușeală, transpirație\
-și greutate în respirație. O *arșiță* veche și nevindecata se poate\
-transforma în *năduf* (astm); deci *arșița* poate fi considerată și o\
-stare pre-astmică.
+*4)* Catarul respirator cu febra, cunoscut in popor cu nume\
+le de *arsita* (sau \"fierbinteala\", identificabila cu rinita cronica\
+alergica dezvoltata pe un fond limfatic), se prezinta ca febra ge\
+nerala interioara insotita de senzatia de inabuseala, transpiratie\
+si greutate in respiratie. O *arsita* veche si nevindecata se poate\
+transforma in *naduf* (astm); deci *arsita* poate fi considerata si o\
+stare pre-astmica.
 
-> *a)* Bolnavului de *arșiță* \"i se *sling frigările\",* care sunt niște fiare alungite de felurite forme: frigări de fript carnea, cuțite,
+> *a)* Bolnavului de *arsita* \"i se *sling frigarile\",* care sunt niste fiare alungite de felurite forme: frigari de fript carnea, cutite,
 
-Remediul acesta este extras dintr-un catastif scris între 1774-1782 de către unul din boierii Donici, în Moldova, ținutul Orheiului. Manuscrisul se află la Muzeul regional Ploiești.
+Remediul acesta este extras dintr-un catastif scris intre 1774-1782 de catre unul din boierii Donici, in Moldova, tinutul Orheiului. Manuscrisul se afla la Muzeul regional Ploiesti.
 
-> dinți de furcă etc. După ce sunt înroșite în foc, \"frigările\" se aruncă în *apa neâncepută,* în timp ce se descântă:
+> dinti de furca etc. Dupa ce sunt inrosite in foc, \"frigarile\" se arunca in *apa neanceputa,* in timp ce se descanta:
 >
-> *Că te bat,*
+> *Ca te bat,*
 >
-> *Cu frigări te frigăresc,*
+> *Cu frigari te frigaresc,*
 >
-> *Te împung Te gâtuesc, în suflet te ajung. Și cum sfârâie* hearâle estea, *Așa să-ți plesnească inima și*
+> *Te impung Te gatuesc, in suflet te ajung. Si cum sfaraie* hearale estea, *Asa sa-ti plesneasca inima si*
 >
-> *Și* \[cutare\] *să-mi fie luminat,*
+> *Si* \[cutare\] *sa-mi fie luminat,*
 >
-> *Cum Dumnezeu l-a lăsat. AminrțlS\]*
+> *Cum Dumnezeu l-a lasat. AminrtlS\]*
 >
-> *b)* Se face bolnavului o baie cu apă în care au fost fierte planta Dârmoz *(Viburnum lantana)* și frunze de Nuc. Se pot folosi chiar și numai frunzele de Nuc, el fiind un reputat anti-limfatic.\[15\]
+> *b)* Se face bolnavului o baie cu apa in care au fost fierte planta Darmoz *(Viburnum lantana)* si frunze de Nuc. Se pot folosi chiar si numai frunzele de Nuc, el fiind un reputat anti-limfatic.\[15\]
 >
 > F. Urechi.
 
-1) Când cineva nu aude cu o ureche sau cu amândouă, pi\
- cură în urechi câte o picătură căldicică de ulei de nucă amestecat\
- cu zeamă de Urechelniță *(Sempervivum tectorum).* Urechelnița\
- este cultivată adesea pe lângă case, în șuri și grajduri, în credința\
- că apără împotriva trăsnetului.\[12\]
+1) Cand cineva nu aude cu o ureche sau cu amandoua, pi\
+ cura in urechi cate o picatura caldicica de ulei de nuca amestecat\
+ cu zeama de Urechelnita *(Sempervivum tectorum).* Urechelnita\
+ este cultivata adesea pe langa case, in suri si grajduri, in credinta\
+ ca apara impotriva trasnetului.\[12\]
 
-2) Pentru durerile urechilor, se ia o fâșie de pânză curată\
- și se unge pe o parte cu ceară topită. După ce s-a întărit ceara\
- se răsucește pânza sub forma unei pâlnii ce se introduce cu capă\
- tul mai subțire în ureche. La celălalt capăt i se dă foc și se lasă\
- să ardă încet până ce \"scoate toate răutățile din ureche\".\[12\]
+2) Pentru durerile urechilor, se ia o fasie de panza curata\
+ si se unge pe o parte cu ceara topita. Dupa ce s-a intarit ceara\
+ se rasuceste panza sub forma unei palnii ce se introduce cu capa\
+ tul mai subtire in ureche. La celalalt capat i se da foc si se lasa\
+ sa arda incet pana ce \"scoate toate rautatile din ureche\".\[12\]
 
-3) Din vânt sau din răceală urechea este afectată de *\"năjit\".\
- *Se folosește în acest caz o verigă din os de corn de cerb, care\
- seamănă cu o verighetă mică. Vechimea ei nu contează. S-a con\
+3) Din vant sau din raceala urechea este afectata de *\"najit\".\
+ *Se foloseste in acest caz o veriga din os de corn de cerb, care\
+ seamana cu o verigheta mica. Vechimea ei nu conteaza. S-a con\
  statat folosirea unei astfel de verigi de os veche de mai bine de\
- o sută de ani. Folosirea ei presupune rostirea unui descântec de\
- *năjit,* punerea verigei de os la urechea bolnavului și suflarea în\
- ureche, prin ea, de trei ori. Se pune cărămidă caldă la ureche să\
- tragă răceala, și apoi se pune veriga la ureche și se suflă de trei\
- ori să se ducă boala. (Veriga are diametrul interior de 3/4 cm și\
+ o suta de ani. Folosirea ei presupune rostirea unui descantec de\
+ *najit,* punerea verigei de os la urechea bolnavului si suflarea in\
+ ureche, prin ea, de trei ori. Se pune caramida calda la ureche sa\
+ traga raceala, si apoi se pune veriga la ureche si se sufla de trei\
+ ori sa se duca boala. (Veriga are diametrul interior de 3/4 cm si\
  grosimea de 5 mm.)\[14\]
 
-> G. Dinți.
+> G. Dinti.
 
-1) Prima dată se freacă încheietura mâinii cu Usturoi cură\
- țat de coajă. Apoi usturoiul se taie mărunt, se pune în regiunea\
- pulsului după care se leagă strâns cu un bandaj (între piele și\
- Usturoi se pune un pansament subțire). Se ține circa 20 de mi\
- nute, cu toate că se spune că durerea încetează imediat.\[18\]
+1) Prima data se freaca incheietura mainii cu Usturoi cura\
+ tat de coaja. Apoi usturoiul se taie marunt, se pune in regiunea\
+ pulsului dupa care se leaga strans cu un bandaj (intre piele si\
+ Usturoi se pune un pansament subtire). Se tine circa 20 de mi\
+ nute, cu toate ca se spune ca durerea inceteaza imediat.\[18\]
 
-2) Ciudatul remediu ce urmează este foarte des întrebuin\
- țat în Rusia pentru abcesele dentare. într-un vas de metal se\
- pune puțină miere, cam de o grosime de 3 cm. Se încălzește apoi\
- în flacără până când devine roșu un cui mare, vechi și ruginit, și\
- se pune în miere. Mierea începe să fiarbă împrejurul cuiului, o\
- masă roșiatică și groasă formându-se împrejurul acestuia. Cuiul\
- se îndepărtează, iar această masă se pune pe partea afectată a\
- gingiei, pe timpul nopții. Abcesul dispare repede.\[18\]
+2) Ciudatul remediu ce urmeaza este foarte des intrebuin\
+ tat in Rusia pentru abcesele dentare. intr-un vas de metal se\
+ pune putina miere, cam de o grosime de 3 cm. Se incalzeste apoi\
+ in flacara pana cand devine rosu un cui mare, vechi si ruginit, si\
+ se pune in miere. Mierea incepe sa fiarba imprejurul cuiului, o\
+ masa rosiatica si groasa formandu-se imprejurul acestuia. Cuiul\
+ se indeparteaza, iar aceasta masa se pune pe partea afectata a\
+ gingiei, pe timpul noptii. Abcesul dispare repede.\[18\]
 
 > II\. Nevralgie.
 >
-> Pentru a alina durerile nevralgice, se recomandă următoarea metodă: se taie un ou fiert tare, iar cele două felii se aplică calde pe partea afectată. Când oul se răcește, durerile dispar.\[18\]
+> Pentru a alina durerile nevralgice, se recomanda urmatoarea metoda: se taie un ou fiert tare, iar cele doua felii se aplica calde pe partea afectata. Cand oul se raceste, durerile dispar.\[18\]
 >
-### PENTRU T.8.C. ȘI BOLI PE PIEPT
+### PENTRU T.8.C. SI BOLI PE PIEPT
 
-> • PENTRU T.8.C. ȘI BOLI PE PIEPT
+> • PENTRU T.8.C. SI BOLI PE PIEPT
 
-1) Primăvara, când sevele noi se urcă în copaci, se face o\
- > gaură adâncă de 3-5 cm cu un sfredel de 5-8 mm grosime în\
- > trunchiul unui Mesteacăn *(Betula alba),* se pune în gaură o țeava\
+1) Primavara, cand sevele noi se urca in copaci, se face o\
+ > gaura adanca de 3-5 cm cu un sfredel de 5-8 mm grosime in\
+ > trunchiul unui Mesteacan *(Betula alba),* se pune in gaura o teava\
  > (preferabil de trestie, nu de metal) prin care va curge mustul de\
- > Mesteacăn ce va fi recoltat. Această sevă este dulce la gust și\
- > bună pentru prepararea unui oțet. Acest must este însă și un bun\
- > remediu pentru ofticoși, care consumându-1 se vor vindeca (A.\
- > Gorovei, *Botanica Populară.* Fălticeni 1915).
+ > Mesteacan ce va fi recoltat. Aceasta seva este dulce la gust si\
+ > buna pentru prepararea unui otet. Acest must este insa si un bun\
+ > remediu pentru ofticosi, care consumandu-1 se vor vindeca (A.\
+ > Gorovei, *Botanica Populara.* Falticeni 1915).
 
-2) Când te strânge la piept, iei baligă de cal și de vacă cu\
- > tărâțe de grâu de vară și fierbi în ceaun. Se pune pe piept.\[l\]
+2) Cand te strange la piept, iei baliga de cal si de vaca cu\
+ > tarate de grau de vara si fierbi in ceaun. Se pune pe piept.\[l\]
 
 ### PENTRU FRIGURI (MALARIE)
 
 > **• PENTRU FRIGURI (MALARIE)**
 >
-> *1)* Se prinde un brotăcel viu (\"un broscoiu de cei ce cântă prin copaci\") și se ține pe buric până se liniștește complet, apoi trebuie îndepărtat. \[5\]
+> *1)* Se prinde un brotacel viu (\"un broscoiu de cei ce canta prin copaci\") si se tine pe buric pana se linisteste complet, apoi trebuie indepartat. \[5\]
 
 2) Se fierbe Floarea de Friguri *(Centaurium umbellaturn\
- > *cât și *Hypericum elegans)* cu vin sau cu lapte și se bea.\[12\]
+ > *cat si *Hypericum elegans)* cu vin sau cu lapte si se bea.\[12\]
 
-3) Se pisează mărunt Lopețică *(Lunaria rediviva),* se ames\
- > tecă cu sare și se bagă în ciorapi, încât să ajungă la tălpile picio-\
+3) Se piseaza marunt Lopetica *(Lunaria rediviva),* se ames\
+ > teca cu sare si se baga in ciorapi, incat sa ajunga la talpile picio-\
  > arelor.\[12\]
 
 4) \"Doftorii\" reputate mai sunt: frunzele de Siminichie\
- > (drogul de *Cassia),* vinul fiert cu sare și piper, frunză de Olean\
- > dru *(Nerium oleander)* pisată și amestecată cu rachiu, ceaiul de\
- > Urzici crăiești *(Unica dioica, Unica urens).* Pentru ca acestea să\
- > aibă efectul dorit, bolnavul trebuie să stea la căldură.\[12\]
+ > (drogul de *Cassia),* vinul fiert cu sare si piper, frunza de Olean\
+ > dru *(Nerium oleander)* pisata si amestecata cu rachiu, ceaiul de\
+ > Urzici craiesti *(Unica dioica, Unica urens).* Pentru ca acestea sa\
+ > aiba efectul dorit, bolnavul trebuie sa stea la caldura.\[12\]
 
-> *5)* Redăm remediul acesta pentru stranietatea pe care o\
-> prezintă, malaria nemaifiind astăzi o problemă. Se ia un ou\
-> proaspăt, de preferat cu coaja subțire. Se îndepărtează coaja\
-> groasă de deasupra, iar oul va rămâne învelit într-un alt înveliș,\
-> foarte subțire. Se înțeapă acest înveliș și se golește conținutul ou\
-> lui (acesta cere o oarecare îndemânare și se pot strica mai multe\
-> ouă). Se lărgește deschizătura din acel înveliș și se introduce în\
-> el degetul arătător (unii practicieni menționează introducerea de\
-> getului mijlociu). Se bandajează ușor în jurul deschizăturii pen\
-> tru ca \"foița\" sau învelișul să fie în contact cu degetul. După ce\
-> această pieliță s-a uscat, bandajul se îndepărtează. Când se opreș\
-> te \"atacul\", se va simți o durere ascuțită în degetul astfel tratat.\
-> Durerea continuă atât timp cât durează criza.
+> *5)* Redam remediul acesta pentru stranietatea pe care o\
+> prezinta, malaria nemaifiind astazi o problema. Se ia un ou\
+> proaspat, de preferat cu coaja subtire. Se indeparteaza coaja\
+> groasa de deasupra, iar oul va ramane invelit intr-un alt invelis,\
+> foarte subtire. Se inteapa acest invelis si se goleste continutul ou\
+> lui (acesta cere o oarecare indemanare si se pot strica mai multe\
+> oua). Se largeste deschizatura din acel invelis si se introduce in\
+> el degetul aratator (unii practicieni mentioneaza introducerea de\
+> getului mijlociu). Se bandajeaza usor in jurul deschizaturii pen\
+> tru ca \"foita\" sau invelisul sa fie in contact cu degetul. Dupa ce\
+> aceasta pielita s-a uscat, bandajul se indeparteaza. Cand se opres\
+> te \"atacul\", se va simti o durere ascutita in degetul astfel tratat.\
+> Durerea continua atat timp cat dureaza criza.
 >
-> Când aceasta încetează, pielița oului se îndepărtează cu apă călduță.
+> Cand aceasta inceteaza, pielita oului se indeparteaza cu apa calduta.
 >
-> Un vindecător relata despre procedeu: \"Am încercat la zeci de cazuri de malarie precum și la mine. Rezultatele erau strălucitoare, dar durerea este atât de puternică, încât mulți nu o pot suporta. Oricum, malaria se vindecă după un singur tratament de acest fel.\"\[18J
+> Un vindecator relata despre procedeu: \"Am incercat la zeci de cazuri de malarie precum si la mine. Rezultatele erau stralucitoare, dar durerea este atat de puternica, incat multi nu o pot suporta. Oricum, malaria se vindeca dupa un singur tratament de acest fel.\"\[18J
 
-*6)* Se dă bolnavului să bea fiertură din rădăcină de Mută-toare *(Bryonia alba).* Mutătoarea este mai bună atunci când o muți din mediul ei natural, din pădure, la \"Ioc curat\". Cea mai bună zi pentru mutatul ei este Lunea, înainte de răsărirul soarelui, în locul de unde o ei, trebuie să lași, ca și la alte buruieni de leac, o fărâmă de mâncare sau de mămăligă (săpatul și mutatul ei se face în deplină muțenie). Mutătoarea pisată se poate lega și la cap. \[15\]
+*6)* Se da bolnavului sa bea fiertura din radacina de Muta-toare *(Bryonia alba).* Mutatoarea este mai buna atunci cand o muti din mediul ei natural, din padure, la \"Ioc curat\". Cea mai buna zi pentru mutatul ei este Lunea, inainte de rasarirul soarelui, in locul de unde o ei, trebuie sa lasi, ca si la alte buruieni de leac, o farama de mancare sau de mamaliga (sapatul si mutatul ei se face in deplina mutenie). Mutatoarea pisata se poate lega si la cap. \[15\]
 
-7) Se sapă și se recoltează o bucată din rădăcina unui Nuc\
- (o vână) căreia i se răzuie coaja gălbuie și, cu aceasta, se face o\
- legătură care se pune ori la o mână, ori la amândouă, în zona\
- încheieturilor.\[15\]
+7) Se sapa si se recolteaza o bucata din radacina unui Nuc\
+ (o vana) careia i se razuie coaja galbuie si, cu aceasta, se face o\
+ legatura care se pune ori la o mana, ori la amandoua, in zona\
+ incheieturilor.\[15\]
 
-8) Se duce bolnavul dimineața în grădină și, desbrăcat fiind\
- până la pielea goală, se scutură peste el rouă de pe pomi.\[15\]
+8) Se duce bolnavul dimineata in gradina si, desbracat fiind\
+ pana la pielea goala, se scutura peste el roua de pe pomi.\[15\]
 
-9) A se vedea și remediul 6 de la Tulburări psihice.
+9) A se vedea si remediul 6 de la Tulburari psihice.
 
-### PENTRU FEBRA TIFOIVĂ (BOALĂ GRABNICĂ)
+### PENTRU FEBRA TIFOIVA (BOALA GRABNICA)
 
-> **• PENTRU FEBRA *TIFOIVĂ (BOALĂ GRABNICĂ)***
+> **• PENTRU FEBRA *TIFOIVA (BOALA GRABNICA)***
 
-Se face o fiertură din Palma-Maicii-Domnului *(Orchis maculata)* și se scaldă bolnavul de trei ori pe zi în fiertură, trei zile în sir, și se va tămădui de *boala grabnică.\[l5\]*
+Se face o fiertura din Palma-Maicii-Domnului *(Orchis maculata)* si se scalda bolnavul de trei ori pe zi in fiertura, trei zile in sir, si se va tamadui de *boala grabnica.\[l5\]*
 
 ### PENTRU BOLILE DIGESTIVE
 
 > ***\* PENTRU BOLILE* DIGESTIVE**
 
-#### Celor stricați la stomac, care au dureri, li se fixează pe\
- > pântece un fitil aprins și se acoperă cu un pahar de sticlă. Când\
- > se stinge lumânarea se produce în acel loc o umflătură: se zice\
- > că este \"sângele cel rău, care s-a strâns acolo\".\[12\]
+#### Celor stricati la stomac, care au dureri, li se fixeaza pe\
+ > pantece un fitil aprins si se acopera cu un pahar de sticla. Cand\
+ > se stinge lumanarea se produce in acel loc o umflatura: se zice\
+ > ca este \"sangele cel rau, care s-a strans acolo\".\[12\]
 
-#### Pentru dispepsie și balonare abdominală, se ia planta\
- > numită Mătăcină (sau Roiniță; *Melissa officinalis)* și se fierbe în\
- > vin alb sau în lapte dulce. Vasul în care s-a pus planta trebuie\
- > acoperit cu o pâine rotundă, până când fierbe. Lichidul fierbinte,\
- > atât cât poate fi suportat, se pune la buric. Se afirmă că durerea\
- > trece numaidecât. \[5\]
+#### Pentru dispepsie si balonare abdominala, se ia planta\
+ > numita Matacina (sau Roinita; *Melissa officinalis)* si se fierbe in\
+ > vin alb sau in lapte dulce. Vasul in care s-a pus planta trebuie\
+ > acoperit cu o paine rotunda, pana cand fierbe. Lichidul fierbinte,\
+ > atat cat poate fi suportat, se pune la buric. Se afirma ca durerea\
+ > trece numaidecat. \[5\]
 
-#### Pentru colicile abdominale redăm tratamentul numit\
- > *ventuza cu oala de pământ,* care se aplica în România cu mult\
- > timp în urmă. El era folosit în cazurile în care durerile abdomi\
- > nale nu erau însoțite și de febră sau tulburări de tranzit (scaune\
- > moi etc). \"Se confecționa o pânză subțire, de formă pătrată, cu\
- > latura de aproximativ 30 cm. La mijlocul pânzei se puneau două\
- > linguri de sare de bucătărie, apoi laturile pânzei se împreunau,\
- > legându-se cu o sfoară, rezultând un fel de pungă. Această pungă\
- > era plasată pe tegumentele din dreptul regiunii abdominale dure\
- > roase, iar capetelor sale libere li se dădea foc. Imediat se așeza\
- > deasupra o oală de pământ, cu gura pe tegumente; consumul oxi-
+#### Pentru colicile abdominale redam tratamentul numit\
+ > *ventuza cu oala de pamant,* care se aplica in Romania cu mult\
+ > timp in urma. El era folosit in cazurile in care durerile abdomi\
+ > nale nu erau insotite si de febra sau tulburari de tranzit (scaune\
+ > moi etc). \"Se confectiona o panza subtire, de forma patrata, cu\
+ > latura de aproximativ 30 cm. La mijlocul panzei se puneau doua\
+ > linguri de sare de bucatarie, apoi laturile panzei se impreunau,\
+ > legandu-se cu o sfoara, rezultand un fel de punga. Aceasta punga\
+ > era plasata pe tegumentele din dreptul regiunii abdominale dure\
+ > roase, iar capetelor sale libere li se dadea foc. Imediat se aseza\
+ > deasupra o oala de pamant, cu gura pe tegumente; consumul oxi-
 
-> genului datorat arderii pânzei crea un anume vid, astfel că tegumentele și țesuturrile subiacente erau absorbite în oală; în același timp, flacăra se stingea din lipsă de oxigen\... Oala de pământ era o oală obișnuită țărănească de uz casnic, cu diametrul gurii de aproximativ 10---15 cm, cu marginile răsfrânte, cu gâtul foarte îngust și cu corpul mai bombat decât gura și gâtul.\"\[2\]
+> genului datorat arderii panzei crea un anume vid, astfel ca tegumentele si tesuturrile subiacente erau absorbite in oala; in acelasi timp, flacara se stingea din lipsa de oxigen\... Oala de pamant era o oala obisnuita taraneasca de uz casnic, cu diametrul gurii de aproximativ 10---15 cm, cu marginile rasfrante, cu gatul foarte ingust si cu corpul mai bombat decat gura si gatul.\"\[2\]
 
-4) Celor stricați la stomac, li se pune pe pântece o legătu\
- > ră făcută cu tărâțe de grâu, hrean pisat, gălbenuș de ou și\
- > oțet.\[15\]
+4) Celor stricati la stomac, li se pune pe pantece o legatu\
+ > ra facuta cu tarate de grau, hrean pisat, galbenus de ou si\
+ > otet.\[15\]
 
-5) Românii din Macedonia liîau o oală și o puneau cu\
- > gura pe pântecele bolnavului cu durere de stomac, după aceea o\
- > întorceau ușor de trei ori în jur, cu grijă însă, să nu se verse apa\
- > caldă ce o conținea. După un sfert sau o jumătate de oră, după\
- > împrejurări, funcție de cât putea suporta pacientul, se scotea oala\
- > iar suferindul scăpa de durere.\[19\]
+5) Romanii din Macedonia liiau o oala si o puneau cu\
+ > gura pe pantecele bolnavului cu durere de stomac, dupa aceea o\
+ > intorceau usor de trei ori in jur, cu grija insa, sa nu se verse apa\
+ > calda ce o continea. Dupa un sfert sau o jumatate de ora, dupa\
+ > imprejurari, functie de cat putea suporta pacientul, se scotea oala\
+ > iar suferindul scapa de durere.\[19\]
 
 6) Un leac curios, tot pentru \"matrice\" (colici intestinale),\
- > consemnai în secolul al XVIII-lea, este acesta: \"lapte de scroafă\
- > neagră să-i dea să bea nefiert \[bolnavului\], când îl apucă, că nu-1\
- > mai doare cât va fi\". \[5\]
+ > consemnai in secolul al XVIII-lea, este acesta: \"lapte de scroafa\
+ > neagra sa-i dea sa bea nefiert \[bolnavului\], cand il apuca, ca nu-1\
+ > mai doare cat va fi\". \[5\]
 
-> *7)* Pentru dizenterie și diarei, se pune sare într-un pahar\
-> cu apă caldă până când soluția se saturează cu sare. Practic se\
-> adaugă sare și se amestecă până când, la un moment dat, sarea\
-> nu se mai dizolvă, așezându-se la fundul paharului. I se dă bolna\
-> vului să înghită o lingură de astfel de apă caldă îmbuibată în\
-> sare, apoi este oprit de a mai mânca sau bea ceva timp de 24 de\
-> ore. Se spune că nenumărate mii de soldați au fost tratați astfel,\
-> într-o singură zi, pe timpul primului război mondial (1914-1918)\
-> \[18\]. Metoda o găsim, asemănătoare, și în nutriționismul japonez\
-> (Nyoiti Sakutezawa, *Zen-ul macrobiotic)* unde se explică diareea\
-> ca un exces de *Yinn* în stomac care trebuie anihilat print-un\
+> *7)* Pentru dizenterie si diarei, se pune sare intr-un pahar\
+> cu apa calda pana cand solutia se satureaza cu sare. Practic se\
+> adauga sare si se amesteca pana cand, la un moment dat, sarea\
+> nu se mai dizolva, asezandu-se la fundul paharului. I se da bolna\
+> vului sa inghita o lingura de astfel de apa calda imbuibata in\
+> sare, apoi este oprit de a mai manca sau bea ceva timp de 24 de\
+> ore. Se spune ca nenumarate mii de soldati au fost tratati astfel,\
+> intr-o singura zi, pe timpul primului razboi mondial (1914-1918)\
+> \[18\]. Metoda o gasim, asemanatoare, si in nutritionismul japonez\
+> (Nyoiti Sakutezawa, *Zen-ul macrobiotic)* unde se explica diareea\
+> ca un exces de *Yinn* in stomac care trebuie anihilat print-un\
 > aport *Yang* (sarea fiind puteric *Yang).*
 
-*8)* Tot în caz de diaree, se ia o castană mare uscată (necomestibilă) și miezul său se dă pe râzătoare pentru a fi apoi pus la macerat în țuică sau palincă. Atunci când cineva are diaree se beau câteva guri din acest preparat și se vindecă, \[culeasă în munții Bucegi\]
+*8)* Tot in caz de diaree, se ia o castana mare uscata (necomestibila) si miezul sau se da pe razatoare pentru a fi apoi pus la macerat in tuica sau palinca. Atunci cand cineva are diaree se beau cateva guri din acest preparat si se vindeca, \[culeasa in muntii Bucegi\]
 
-> *9)* Cel ce are diaree cu sânge, trebuie să bea fiertură de\
-> Scânteuță *(Anagallis arvensis)* și de Iederă *(Hedera helix),* iar cel\
-> cu dizenterie cu sânge, fiertură de Scânteuță de Irmă *{Centau-\
+> *9)* Cel ce are diaree cu sange, trebuie sa bea fiertura de\
+> Scanteuta *(Anagallis arvensis)* si de Iedera *(Hedera helix),* iar cel\
+> cu dizenterie cu sange, fiertura de Scanteuta de Irma *{Centau-\
 > rium umbellatum).\[\\l\\*
 
-10) Când copilul zace de \"pântecărie\" (diaree), îl doare\
- burtica și varsă, i se dă o fiertură din coajă de Nucă (fructul de\
- *Juglans regia)* și Pere, în care se pun și nouă pietricele și nouă\
+10) Cand copilul zace de \"pantecarie\" (diaree), il doare\
+ burtica si varsa, i se da o fiertura din coaja de Nuca (fructul de\
+ *Juglans regia)* si Pere, in care se pun si noua pietricele si noua\
  Coarne (fructe de Corn - *Cornus mas).\[\\\]*
 
-11) Pentru disconfortul digestiv, așa cum este greața, se\
- execută fricțiuni violente la încheietura mâinii.
+11) Pentru disconfortul digestiv, asa cum este greata, se\
+ executa frictiuni violente la incheietura mainii.
 
-> \[Romulus Vulcănescu, *Mina în medicina populară.\]*
+> \[Romulus Vulcanescu, *Mina in medicina populara.\]*
 
-12) Tot pentru greață, mai ales pentru cine mănâncă cu lă\
- comie sau ceva grețos, trebuie să bată din palme, ca să nu i se\
- aplece. \[George S. Ioneanu, *Mica colecțiune de superstițiile popo\
- rului român.* 1888\]
+12) Tot pentru greata, mai ales pentru cine mananca cu la\
+ comie sau ceva gretos, trebuie sa bata din palme, ca sa nu i se\
+ aplece. \[George S. Ioneanu, *Mica colectiune de superstitiile popo\
+ rului roman.* 1888\]
 
-13) Pentru greață avem în Moldova de sud următorul re\
- mediu: se prăjește miez de pâine și se fierbe oțet, apoi se înmoa\
- ie pâinea în oțet, se întinde pe o pânză și pe deasupra se presară\
- frunze uscate și fărâmate de Izmă Creață *(Mentha crispa).* Legă\
+13) Pentru greata avem in Moldova de sud urmatorul re\
+ mediu: se prajeste miez de paine si se fierbe otet, apoi se inmoa\
+ ie painea in otet, se intinde pe o panza si pe deasupra se presara\
+ frunze uscate si faramate de Izma Creata *(Mentha crispa).* Lega\
  tura se pune la buric.\[15\]
 
-14) în caz de atrepsie (tulburare gravă de nutriție la copiii\
- mici), numită în popor *boală câinească* și explicată printr-o stare\
- generală proastă, când copilul mic este slab, nu crește, veșnic\
- tânjește și bolește, se procedează astfel: se face bolnavului scăldă-\
- toare cu apă neâncepută în care s-a fiert Pălămidă seacă *(Cirsium\
+14) in caz de atrepsie (tulburare grava de nutritie la copiii\
+ mici), numita in popor *boala caineasca* si explicata printr-o stare\
+ generala proasta, cand copilul mic este slab, nu creste, vesnic\
+ tanjeste si boleste, se procedeaza astfel: se face bolnavului scalda-\
+ toare cu apa neanceputa in care s-a fiert Palamida seaca *(Cirsium\
  arvense).\[15\]*
 
-15) Pentru greutate la stomac însoțită de leșin se face o le\
- gătură cu orz pisat și se pune la pântece. Altă metodă este de a\
- lua trei rădăcini de Hrean și trei de Brusture, se pisează, se fierb\
- cu *borș,* apoi se îngroașă cu tărâțe de grâu, se pun pe o legătură\
- și se leagă la buric.\[15\]
+15) Pentru greutate la stomac insotita de lesin se face o le\
+ gatura cu orz pisat si se pune la pantece. Alta metoda este de a\
+ lua trei radacini de Hrean si trei de Brusture, se piseaza, se fierb\
+ cu *bors,* apoi se ingroasa cu tarate de grau, se pun pe o legatura\
+ si se leaga la buric.\[15\]
 
-16) în caz de holeră se pune la buricul bolnavului o legă\
- tură cu Pelin sau cu Zârnă *(Solanum dulcamara, Solanum ni-\
- grum)* pisate și amestecate cu mălai și lapte prins. Acest ultim\
- leac este bun și pentru febră tifoidă.\[15\]
+16) in caz de holera se pune la buricul bolnavului o lega\
+ tura cu Pelin sau cu Zarna *(Solanum dulcamara, Solanum ni-\
+ grum)* pisate si amestecate cu malai si lapte prins. Acest ultim\
+ leac este bun si pentru febra tifoida.\[15\]
 
-> *17)* în situațiile de indigestie cu greață *(\"de aplecat\")* se folosește un descântec în care incantația magică este însoțită de masaj în puncte vitale ale organismului. Procedeul se numește *\"a trage de aplecat\".* Se execută un masaj energic (ca o *\"tragere\")* ce pleacă din podul palmei, trecând peste încheietură (prin dreptul degetului mare) până în locul de unde se ia de obicei pulsul. Masajul se repetă de mai multe ori, atât timp cât durează incantația magică. (Mioara Călușiță-Alecu, *Zalmoxis;* București 1993. Autoarea comentează procedeul ce i-a fost administrat personal în mai multe rânduri, arătând că prin *\"tragerea de aplecat\"* se masează zona punctelor numite în acupunctura *Fundul Văii* și *Bariera Internă,* recomandate de medicina energetică chineză în cazuri de migrenă și grețuri.)
+> *17)* in situatiile de indigestie cu greata *(\"de aplecat\")* se foloseste un descantec in care incantatia magica este insotita de masaj in puncte vitale ale organismului. Procedeul se numeste *\"a trage de aplecat\".* Se executa un masaj energic (ca o *\"tragere\")* ce pleaca din podul palmei, trecand peste incheietura (prin dreptul degetului mare) pana in locul de unde se ia de obicei pulsul. Masajul se repeta de mai multe ori, atat timp cat dureaza incantatia magica. (Mioara Calusita-Alecu, *Zalmoxis;* Bucuresti 1993. Autoarea comenteaza procedeul ce i-a fost administrat personal in mai multe randuri, aratand ca prin *\"tragerea de aplecat\"* se maseaza zona punctelor numite in acupunctura *Fundul Vaii* si *Bariera Interna,* recomandate de medicina energetica chineza in cazuri de migrena si greturi.)
 >
-> *18)* în caz de diaree se înmoaie degetele în cenușe și, cu ele astfel murdărite, se răsucește de trei ori buricul bolnavului (astfel se \"încuie\" - printr-un gest magic - stomacul bolnavului). \[Mariana Sefer, *Elemente de etnoiatrie\...* în revista *Microbiologia. Parazitologia. Epidemiologia.* Ian.- Feb. 1971\]
+> *18)* in caz de diaree se inmoaie degetele in cenuse si, cu ele astfel murdarite, se rasuceste de trei ori buricul bolnavului (astfel se \"incuie\" - printr-un gest magic - stomacul bolnavului). \[Mariana Sefer, *Elemente de etnoiatrie\...* in revista *Microbiologia. Parazitologia. Epidemiologia.* Ian.- Feb. 1971\]
 >
-### PENTRU SUGHIȚ
+### PENTRU SUGHIT
 
-> • *PENTRU SUGHIȚ*
+> • *PENTRU SUGHIT*
 
-1) Reținerea respirației și unirea degetului mic de la fieca\
- > re mână cu cel mare, astfel încât să se formeze două cercuri. Me\
- > toda este foarte eficientă. \[18\]
+1) Retinerea respiratiei si unirea degetului mic de la fieca\
+ > re mana cu cel mare, astfel incat sa se formeze doua cercuri. Me\
+ > toda este foarte eficienta. \[18\]
 
-2) Se pune un cuțit pe puntea nasului pacientului, acesta\
- > trebuind să se uite la el fără să clipească. Metoda a dat rezultate\
- > aproape în toate cazurile.\[18\]
+2) Se pune un cutit pe puntea nasului pacientului, acesta\
+ > trebuind sa se uite la el fara sa clipeasca. Metoda a dat rezultate\
+ > aproape in toate cazurile.\[18\]
 
-### PENTRU ICTER SAU GĂLBINARE (HEPATITĂ)
+### PENTRU ICTER SAU GALBINARE (HEPATITA)
 
-> **• *PENTRU ICTER SAU GĂLBINARE (HEPATITĂ)***
+> **• *PENTRU ICTER SAU GALBINARE (HEPATITA)***
 
-1) Dacă este observat la început, icterul se poate vindeca\
- cu rădăcină de ștevie fiartă în lapte dulce și pusă să stea undeva\
- la răcoare o zi întreagă. \[12\]
+1) Daca este observat la inceput, icterul se poate vindeca\
+ cu radacina de stevie fiarta in lapte dulce si pusa sa stea undeva\
+ la racoare o zi intreaga. \[12\]
 
-2) Trebuie găsit un lighean de alamă galbenă, în care să îți\
- poți vedea fața, și trei știuci vii ce se păstrează în apă rece și\
- curată. Tratamentul începe prin așezarea bolnavului cu fața dea-
+2) Trebuie gasit un lighean de alama galbena, in care sa iti\
+ poti vedea fata, si trei stiuci vii ce se pastreaza in apa rece si\
+ curata. Tratamentul incepe prin asezarea bolnavului cu fata dea-
 
-> știuci și o ține deasupra ligheanului, astfel ca bolnavul să o poată privi drept în ochi. După câtva timp, știuca \"se va îngălbeni ca Șofranul și va muri\". Se repetă procedeul și cu celelalte două știuci, după care bolnavul va fi vindecat.^1^ Același procedeu îl întâlnim și într-o altă formă: \"Se zice că dacă un om care are *gălbi-nare,* va pune o mreană într-un lighean de aramă cu apă și se va uita drept în ochii ei, mreană respectivă îndată piere, și după aceea devine atât de veninoasă, că numaidecât trebuie să se îngroape în pământ, ca să nu se atingă cineva cu mâna de dânsa, căci, atingându-se, îndată se înveninează. Omul însă care s-a uitat în ochii ei, nu mult după aceea se vindecă de gălbinare.\" (S. FI. Marian, *Insectele în limba, credințele și obiceiurile românilor,* 1903 pag. 56). în altă relatare se spune: \"Dacă bolnavul de *gălbinare* se uită neclintit câteva ceasuri la o știucă vie, ce o pune într-o doniță cu apă, gălbinarea trece de la om la știucă.\" (Dr. N. Leon, *Istoria naturală medicală a poporului român;* București 1903).
+> stiuci si o tine deasupra ligheanului, astfel ca bolnavul sa o poata privi drept in ochi. Dupa catva timp, stiuca \"se va ingalbeni ca Sofranul si va muri\". Se repeta procedeul si cu celelalte doua stiuci, dupa care bolnavul va fi vindecat.^1^ Acelasi procedeu il intalnim si intr-o alta forma: \"Se zice ca daca un om care are *galbi-nare,* va pune o mreana intr-un lighean de arama cu apa si se va uita drept in ochii ei, mreana respectiva indata piere, si dupa aceea devine atat de veninoasa, ca numaidecat trebuie sa se ingroape in pamant, ca sa nu se atinga cineva cu mana de dansa, caci, atingandu-se, indata se invenineaza. Omul insa care s-a uitat in ochii ei, nu mult dupa aceea se vindeca de galbinare.\" (S. FI. Marian, *Insectele in limba, credintele si obiceiurile romanilor,* 1903 pag. 56). in alta relatare se spune: \"Daca bolnavul de *galbinare* se uita neclintit cateva ceasuri la o stiuca vie, ce o pune intr-o donita cu apa, galbinarea trece de la om la stiuca.\" (Dr. N. Leon, *Istoria naturala medicala a poporului roman;* Bucuresti 1903).
 
-3) Dimineața pe nemâncate, se bea ceai de Șofran și Ros-\
- topască, iar extern se aplică un macerat de floare de pucioasă în\
- rachiu. Se mai recomandă, zilnic, câte o ceșcuță de vin în care s-a\
- macerat Lumânărică *(Gentiana asclepiadea)* și Sabur *(Aloeferox,\
+3) Dimineata pe nemancate, se bea ceai de Sofran si Ros-\
+ topasca, iar extern se aplica un macerat de floare de pucioasa in\
+ rachiu. Se mai recomanda, zilnic, cate o cescuta de vin in care s-a\
+ macerat Lumanarica *(Gentiana asclepiadea)* si Sabur *(Aloeferox,\
  Aloi succotrina).\[7\]*
 
-4) Redăm o metodă neobișnuită care a dat rezultate bune,\
- în special la copii. Se ia o bucată de hârtie galbenă tratată cu\
- ceară de albine, se face cornet și se introduce cu partea ascuțită\
- într-o pâlnie. Spațiul mai strâmt al pâlniei se așează pe buricul\
- celui bolnav (pe ombilic). Cornetul de hârtie din pâlnie se aprin\
- de de la o flacără. Acesta arde încet, iar când flacăra ajunge la\
- ombilic, pâlnia se îndepărtează. Se spune că această metodă \"tra\
- ge fierea pe la ombilic\". Hârtia trebuie să fie neapărat galbe-\
- nă.\[18\]
+4) Redam o metoda neobisnuita care a dat rezultate bune,\
+ in special la copii. Se ia o bucata de hartie galbena tratata cu\
+ ceara de albine, se face cornet si se introduce cu partea ascutita\
+ intr-o palnie. Spatiul mai stramt al palniei se aseaza pe buricul\
+ celui bolnav (pe ombilic). Cornetul de hartie din palnie se aprin\
+ de de la o flacara. Acesta arde incet, iar cand flacara ajunge la\
+ ombilic, palnia se indeparteaza. Se spune ca aceasta metoda \"tra\
+ ge fierea pe la ombilic\". Hartia trebuie sa fie neaparat galbe-\
+ na.\[18\]
 
-> *5)* Pentru bolile de ficat, bilă, hepatită și sechele de\
-> hepatită, se iau trei căței de Usturoi, de mărime potrivită, și se
+> *5)* Pentru bolile de ficat, bila, hepatita si sechele de\
+> hepatita, se iau trei catei de Usturoi, de marime potrivita, si se
 >
-> pisează împreună cu praf de sare până se obține o pastă. Pasta obținută se împarte în două jumătăți. Prima jumătate se pune pe un tifon pătrat cu latura de 3 cm. Se rulează și se face o țigară strînsă la ambele capete. Cu cealaltă jumătate se face o a doua țigaretă. Prima țigaretă se introduce între buza de sus și gingie și se împinge cu limba până sus, unde se ține astfel. A doua țigaretă se introduce sub limbă și se țin astfel în gură, ambele țigarete, timp de 20 de minute. în tot acest timp se stă cu gura ușor întredeschisă deasupra unei chiuvete sau a unui bol, ca să se scurgă excesul de salivă. Trebuie avută mare grijă pentru a nu fi înghițită saliva, care este toxică. Se repetă după opt zile, și apoi după încă opt zile, fâcându-se în total trei tratamente. Se poate relua după o lună^1^.
+> piseaza impreuna cu praf de sare pana se obtine o pasta. Pasta obtinuta se imparte in doua jumatati. Prima jumatate se pune pe un tifon patrat cu latura de 3 cm. Se ruleaza si se face o tigara strinsa la ambele capete. Cu cealalta jumatate se face o a doua tigareta. Prima tigareta se introduce intre buza de sus si gingie si se impinge cu limba pana sus, unde se tine astfel. A doua tigareta se introduce sub limba si se tin astfel in gura, ambele tigarete, timp de 20 de minute. in tot acest timp se sta cu gura usor intredeschisa deasupra unei chiuvete sau a unui bol, ca sa se scurga excesul de saliva. Trebuie avuta mare grija pentru a nu fi inghitita saliva, care este toxica. Se repeta dupa opt zile, si apoi dupa inca opt zile, facandu-se in total trei tratamente. Se poate relua dupa o luna^1^.
 >
-> *6)* Unii țărani pun la buric, în caz de icter, o legătură cu\
-> Rostopască *(Chelidonium majus)* pisată.
+> *6)* Unii tarani pun la buric, in caz de icter, o legatura cu\
+> Rostopasca *(Chelidonium majus)* pisata.
 >
-> *7)* în unele sate de sub Carpații Apuseni există o modalita\
-> te de intervenție chirugicală pentru vindecarea *gălbinării,* consi\
-> derată imbatabilă. \"Am tăiat mult de gălbinare - relata o vindecă\
-> toare transilvăneancă. Unii vin galbeni ca turta de ceară. De *găl\
-> binare* se taie cu briciul în frunte, între sprâncene. Este o vână în\
-> frunte. Când nu-i bolnav tare, iese sânge; când îi petrecut rău,\
-> iese apă\...\"
+> *7)* in unele sate de sub Carpatii Apuseni exista o modalita\
+> te de interventie chirugicala pentru vindecarea *galbinarii,* consi\
+> derata imbatabila. \"Am taiat mult de galbinare - relata o vindeca\
+> toare transilvaneanca. Unii vin galbeni ca turta de ceara. De *gal\
+> binare* se taie cu briciul in frunte, intre sprancene. Este o vana in\
+> frunte. Cand nu-i bolnav tare, iese sange; cand ii petrecut rau,\
+> iese apa\...\"
 >
-> Operația constă în crestarea cu un brici sau cu o lamă a unei vene de deasupra nasului, între sprâncene, iar sângele care curge se introduce cu degetul în ochi. Tăietura se execută de trei ori, din trei în trei zile, respectând următoarele condiții: Luna trebuie să fie în descreștere, Soarele stă să apună și cocoșul cântă de seară. în momentul în care se taie între sprâncene, se spune descântecul:
+> Operatia consta in crestarea cu un brici sau cu o lama a unei vene de deasupra nasului, intre sprancene, iar sangele care curge se introduce cu degetul in ochi. Taietura se executa de trei ori, din trei in trei zile, respectand urmatoarele conditii: Luna trebuie sa fie in descrestere, Soarele sta sa apuna si cocosul canta de seara. in momentul in care se taie intre sprancene, se spune descantecul:
 >
-> *\"Cocoșul cântarea raștiului, pe patru posturi te-o botezat cocoșu raștiu ți l-o mâncat.\"*
+> *\"Cocosul cantarea rastiului, pe patru posturi te-o botezat cocosu rastiu ti l-o mancat.\"*
 
-\"Venea atâta lume la mama să le taie de *gălbinare* - relata în 1971 altă țărancă vindecătoare, Cosmoi Rusalina -. O vinit astă iarnă Oneș să-i tai că-i mai \[mult\] mort. Și o venit a lui Șen-drea și i-am tăiat în frunte și s-o vindecat\... Am învățat de la mama\... A murit în vârstă de 110 ani. Știa multe descântece\...\".\[14\]
+\"Venea atata lume la mama sa le taie de *galbinare* - relata in 1971 alta taranca vindecatoare, Cosmoi Rusalina -. O vinit asta iarna Ones sa-i tai ca-i mai \[mult\] mort. Si o venit a lui Sen-drea si i-am taiat in frunte si s-o vindecat\... Am invatat de la mama\... A murit in varsta de 110 ani. Stia multe descantece\...\".\[14\]
 
-8) Se bea apă dintr-un pahar făcut din ceară galbenă sau\
- rădăcină de Morcov, în care se pune un \"galben\" (ban de aur)\
- sau un inel de aur. \[17\] Am întâlnit și o variantă a acestui proce\
- deu. Se ia un Morcov mare, se face o gaură în el și, printr-un\
- inel de aur, se toarnă apă în gaură. Se ține apă puțin în interio\
- rul Morcovului, apoi se bea pentru a vindeca *gălbinarea.* \[F.\
- Lutz, *Contribuțiuni la cunoașterea medicinei populare.* Cluj 1939\]
+8) Se bea apa dintr-un pahar facut din ceara galbena sau\
+ radacina de Morcov, in care se pune un \"galben\" (ban de aur)\
+ sau un inel de aur. \[17\] Am intalnit si o varianta a acestui proce\
+ deu. Se ia un Morcov mare, se face o gaura in el si, printr-un\
+ inel de aur, se toarna apa in gaura. Se tine apa putin in interio\
+ rul Morcovului, apoi se bea pentru a vindeca *galbinarea.* \[F.\
+ Lutz, *Contributiuni la cunoasterea medicinei populare.* Cluj 1939\]
 
-9) Se unge tot corpul floare de Lumânărică *{Gentiana as-\
+9) Se unge tot corpul floare de Lumanarica *{Gentiana as-\
  clepiadea)\\\\l\]*
 
-*10)* Când are cineva gălbinare, vraciul îl cunoaște după al\
-bul ochilor, care devine galben, uneori având chiar și fața, ba\
-chiar și tot corpul galbene. Atunci el îi taie bolnavului \"cele două\
-vinișoare\" de sub limbă (sau \"frâul limbii\", membrana de sub lim\
-bă), cu scopul de a provoca curgerea sângelui. După ce vraciul\
-îl crestează sub limbă, bolnavul mișcă limba în gură pentru a\
-provoca curgerea sângelui. După ce vraciul consideră că a curs\
-suficient sânge, pe care bolnavul 1-a scuipat, îi oprește sângerarea\
-cu apă rece. în continuare bolnavul trebuie să urmeze un regim\
-alimentar în care este exclusă carnea, înlocuindu-se cu cartofi\
-fierți, zeamă de orez și mult lapte, până dispare boala. *(Vraciul\
-de la Cotorani-Vlașca,* în București Medical, 1936, nr.4-5.)
+*10)* Cand are cineva galbinare, vraciul il cunoaste dupa al\
+bul ochilor, care devine galben, uneori avand chiar si fata, ba\
+chiar si tot corpul galbene. Atunci el ii taie bolnavului \"cele doua\
+vinisoare\" de sub limba (sau \"fraul limbii\", membrana de sub lim\
+ba), cu scopul de a provoca curgerea sangelui. Dupa ce vraciul\
+il cresteaza sub limba, bolnavul misca limba in gura pentru a\
+provoca curgerea sangelui. Dupa ce vraciul considera ca a curs\
+suficient sange, pe care bolnavul 1-a scuipat, ii opreste sangerarea\
+cu apa rece. in continuare bolnavul trebuie sa urmeze un regim\
+alimentar in care este exclusa carnea, inlocuindu-se cu cartofi\
+fierti, zeama de orez si mult lapte, pana dispare boala. *(Vraciul\
+de la Cotorani-Vlasca,* in Bucuresti Medical, 1936, nr.4-5.)
 
 ### PENTRU HERNIE
 
 > • PENTRU HERNIE
 >
-> *1)* Pentru \"surpătură\" (hernie) la bărbat sau la femeie, este bună o buruiană ce se cheamă Coconași *(Consolida ajacis) -* trebuie însă să aibă gogoșile roșii ca cireșele. Luni dimineața, pe nemâncate, se scot rădăcinile de la trei coconași, se pisează bine și se amestecă cu rachiu tare de drojdii. Aceast preparat trebuie băut. Sursa citată nu precizează altceva decât că \"măcar să fie boașele slobozite, se ridică și-i trece\". \[5\]
+> *1)* Pentru \"surpatura\" (hernie) la barbat sau la femeie, este buna o buruiana ce se cheama Coconasi *(Consolida ajacis) -* trebuie insa sa aiba gogosile rosii ca ciresele. Luni dimineata, pe nemancate, se scot radacinile de la trei coconasi, se piseaza bine si se amesteca cu rachiu tare de drojdii. Aceast preparat trebuie baut. Sursa citata nu precizeaza altceva decat ca \"macar sa fie boasele slobozite, se ridica si-i trece\". \[5\]
 
-2) în zona Brăilei se recomanda pentru \"vătămătură\" (her\
- > nie) să se bea ceai din fructe de Soc, de Pojarniță (Sunătoare),\
- > suc de Ceapă cu rachiu, iar pe buric să se aplice rădăcină de\
- > Tătăneasă, pulverizată și friptă cu ceapă, la care se mai adaugă\
- > și puțin rachiu. Se mai folosea maceratul în rachiu al Plămânări-\
- > căi sau ceaiul de Cicoare. \[7\]
+2) in zona Brailei se recomanda pentru \"vatamatura\" (her\
+ > nie) sa se bea ceai din fructe de Soc, de Pojarnita (Sunatoare),\
+ > suc de Ceapa cu rachiu, iar pe buric sa se aplice radacina de\
+ > Tataneasa, pulverizata si fripta cu ceapa, la care se mai adauga\
+ > si putin rachiu. Se mai folosea maceratul in rachiu al Plamanari-\
+ > cai sau ceaiul de Cicoare. \[7\]
 
-3) Se bea fiertură din una dintre următoarele trei ierburi:\
- > Forăstău *(Origanum vulgare),* Tătăneasă *(Symphytum ojfîcinale)\
- > *sau Buruiană Rea *(Linaria vulgaris).\\\\l\]*
+3) Se bea fiertura din una dintre urmatoarele trei ierburi:\
+ > Forastau *(Origanum vulgare),* Tataneasa *(Symphytum ojficinale)\
+ > *sau Buruiana Rea *(Linaria vulgaris).\\\\l\]*
 
-4) Se taie în felii rădăcina de Mutătoare (Bryonia alba), se\
- > înșiră pe o sfoară și se pune la uscat. Se pisează apoi ca o pulbe\
- > re, se pune în rachiu și se bea. Totodată se pune și ca turtă la\
- > pântece, la locul afectat de \"vătămătură\".\[l\]
+4) Se taie in felii radacina de Mutatoare (Bryonia alba), se\
+ > insira pe o sfoara si se pune la uscat. Se piseaza apoi ca o pulbe\
+ > re, se pune in rachiu si se bea. Totodata se pune si ca turta la\
+ > pantece, la locul afectat de \"vatamatura\".\[l\]
 
 ### PENTRU LIPSA VE CALCIU
 
 > • *PENTRU LIPSA VE CALCIU*
 >
-> Se prepară un întăritor din 10-15 lămâi, 10 ouă proaspete cu coajă albă, 360 gr. miere și un pahar de coniac bun (de struguri). Se iau cele zece ouă crude și se pun într-un borcan, iar peste ele se pune sucul de la 10 lămâi, încât să le acopere. Borcanul se acoperă cu o hârtie neagră și se păstrează la loc rece, întunecos, până când coaja ouălor se dizolvă complet (de obicei una până la două săptămâni). De îndată ce coaja se dizolvă iar ouăle devin o masă subțire, se adaugă mierea și coniacul și se amestecă bine. Se lasă la macerat într-un loc cald, întunecos și, periodic, se îndepărtează spuma de la suprafață și se amestecă cu o lingură de lemn. întăritorul este gata când nu se mai formează spumă. Atunci el se strecoară și se păstrează neapărat într-un loc rece și întunecos, într-un borcan de sticlă neagră.
+> Se prepara un intaritor din 10-15 lamai, 10 oua proaspete cu coaja alba, 360 gr. miere si un pahar de coniac bun (de struguri). Se iau cele zece oua crude si se pun intr-un borcan, iar peste ele se pune sucul de la 10 lamai, incat sa le acopere. Borcanul se acopera cu o hartie neagra si se pastreaza la loc rece, intunecos, pana cand coaja oualor se dizolva complet (de obicei una pana la doua saptamani). De indata ce coaja se dizolva iar ouale devin o masa subtire, se adauga mierea si coniacul si se amesteca bine. Se lasa la macerat intr-un loc cald, intunecos si, periodic, se indeparteaza spuma de la suprafata si se amesteca cu o lingura de lemn. intaritorul este gata cand nu se mai formeaza spuma. Atunci el se strecoara si se pastreaza neaparat intr-un loc rece si intunecos, intr-un borcan de sticla neagra.
 
-Se ia din preparat câte un păhărel, de două-trei ori pe zi, după mese. După 2-3 săptămâni preparatul nu mai este bun și trebuie refăcut.\[18\]
+Se ia din preparat cate un paharel, de doua-trei ori pe zi, dupa mese. Dupa 2-3 saptamani preparatul nu mai este bun si trebuie refacut.\[18\]
 
-### PENTRU LAPTE VE MAMĂ
+### PENTRU LAPTE VE MAMA
 
-> • *PENTRU LAPTE VE* MAMĂ
+> • *PENTRU LAPTE VE* MAMA
 
-1) Se pune o mână de boabe de Fasole *(Phaseolus vulgaris)\
- *lângă foc ca să se usuce bine, apoi sunt pisate, se amestecă cu\
- făină de grâu și se face o turtă (cu apă). Ca să aibă lapte, turta\
- se pune pe sânii femeii ce trebuie să alăpteze.\[l\]
+1) Se pune o mana de boabe de Fasole *(Phaseolus vulgaris)\
+ *langa foc ca sa se usuce bine, apoi sunt pisate, se amesteca cu\
+ faina de grau si se face o turta (cu apa). Ca sa aiba lapte, turta\
+ se pune pe sanii femeii ce trebuie sa alapteze.\[l\]
 
-2) Mama ce trebuie să alăpteze mănâncă Ceapă de Apă\
+2) Mama ce trebuie sa alapteze mananca Ceapa de Apa\
  *(Allium cepa).*
 
-### PENTRU TULBURĂRI PSIHICE
+### PENTRU TULBURARI PSIHICE
 
-> • *PENTRU TULBURĂRI PSIHICE*
+> • *PENTRU TULBURARI PSIHICE*
 
-#### Pentru *lipitură* (când cineva este sperios și tresare noap\
- > tea prin somn plângând) trebuie să se bea vin alb în care s-a plă\
- > mădit Lingura-zânii *(Ganoderma lucidum)* pisată.\[15\]
+#### Pentru *lipitura* (cand cineva este sperios si tresare noap\
+ > tea prin somn plangand) trebuie sa se bea vin alb in care s-a pla\
+ > madit Lingura-zanii *(Ganoderma lucidum)* pisata.\[15\]
 
-#### Atunci când un copil este agitat în somn, lovindu-se din\
- > cauza aceasta, se procedează astfel: se așterne pe câmp o pânză\
- > curată, atunci când cade *rouă dimineții* (care conține principii\
- > curative), ca să absoarbă în ea picăturile de pe iarbă și plante.\
- > Apoi, cu această pânză umedă se înfășoară copilul, care se va
+#### Atunci cand un copil este agitat in somn, lovindu-se din\
+ > cauza aceasta, se procedeaza astfel: se asterne pe camp o panza\
+ > curata, atunci cand cade *roua diminetii* (care contine principii\
+ > curative), ca sa absoarba in ea picaturile de pe iarba si plante.\
+ > Apoi, cu aceasta panza umeda se infasoara copilul, care se va
 
-#### Se fac spălaturi cu apa în care s-a fiert fân de pădure, epilepsie
+#### Se fac spalaturi cu apa in care s-a fiert fan de padure, epilepsie
  > copiilor bolnavi de nervi sau suferinzi de epilepsie.\[16\]
 
-#### Pentru *speriat* (tulburare psihică pe fond emotiv) se\
- > pune Buruiană de Speriat *(Dianthus armeria)* pe cărbuni aprinși\
- > și apoi se așează bolnavul cu pieptul dezvelit deasupra, astfel ca\
- > fumul să-i treacă prin piept. Astfel îi va trece.\[l\]
+#### Pentru *speriat* (tulburare psihica pe fond emotiv) se\
+ > pune Buruiana de Speriat *(Dianthus armeria)* pe carbuni aprinsi\
+ > si apoi se aseaza bolnavul cu pieptul dezvelit deasupra, astfel ca\
+ > fumul sa-i treaca prin piept. Astfel ii va trece.\[l\]
 
-#### Când se strică mintea la om îi dai să bea zeamă de Mătură de Grădină
- > Mătură de Grădină *(Kochia scoporia).* Tare-i bună de pus mintea\
+#### Cand se strica mintea la om ii dai sa bea zeama de Matura de Gradina
+ > Matura de Gradina *(Kochia scoporia).* Tare-i buna de pus mintea\
  > la loc!\"\[l\]
 
-#### "Frigurile de speriat\" se lecuiesc punând un păianjen
- > mare între două jumătăți de coji de Nucă. Se închide acolo și se\
- > poartă în sân până moare. Frigurile se duc.\[l\]
+#### "Frigurile de speriat\" se lecuiesc punand un paianjen
+ > mare intre doua jumatati de coji de Nuca. Se inchide acolo si se\
+ > poarta in san pana moare. Frigurile se duc.\[l\]
 
-### PENTRU ASTENIA FIZICA ȘI SLĂBICIUNE GENERALĂ
+### PENTRU ASTENIA FIZICA SI SLABICIUNE GENERALA
 
-> • PENTRU *ASTENIA FIZICA ȘI SLĂBICIUNE GENERALĂ*
+> • PENTRU *ASTENIA FIZICA SI SLABICIUNE GENERALA*
 >
-> *1)* Medicul Vasile Voiculescu, un important adept al medianei populare naturiste, a fost cel mai de seamă scriitor român inițiat într-o serie de practici și cunoștințe în mod tradițional tainice. Inițierea sa a venit probabil prin legăturile sale cu *solomonarii* (pe care îi și descrie în nuvelele sale), stăpânind metode terapeutice neobișnuite, cunoscând și întrebuințând o serie de descântece. Ne interesează acum ceea ce s-ar numi \"băile de lumină lunară\". Această terapie o obișnuia Vasile Voiculescu însuși, la intervale de câteva luni, și o prescria pentru astenie la bolnavii vârstnici și la convalescenți.
+> *1)* Medicul Vasile Voiculescu, un important adept al medianei populare naturiste, a fost cel mai de seama scriitor roman initiat intr-o serie de practici si cunostinte in mod traditional tainice. Initierea sa a venit probabil prin legaturile sale cu *solomonarii* (pe care ii si descrie in nuvelele sale), stapanind metode terapeutice neobisnuite, cunoscand si intrebuintand o serie de descantece. Ne intereseaza acum ceea ce s-ar numi \"baile de lumina lunara\". Aceasta terapie o obisnuia Vasile Voiculescu insusi, la intervale de cateva luni, si o prescria pentru astenie la bolnavii varstnici si la convalescenti.
 >
-> Iată cum descria această terapie orientalistul român Constantin Daniel^1^: \"Expunerea la razele Lunii trebuie făcută mai ales înainte și după Luna plina, pe fața anterioară apoi pe
+> Iata cum descria aceasta terapie orientalistul roman Constantin Daniel^1^: \"Expunerea la razele Lunii trebuie facuta mai ales inainte si dupa Luna plina, pe fata anterioara apoi pe
 
-cea posterioară a întregului corp, pe o durată progresivă, care poate să ajungă până la două ore. Asemenea ședințe de seleno-terapie se pot face și numai pe fața anterioară și posterioară a toracelui, dar cu expunere mai lungă. După câte mi-am putut da seama, selenoterapia avea un efect stenic evident asupra pacienților, care deveneau mai volubili, mai rapizi în elocuție și în mișcări, însă nu am întreprins cercetări sistematice în această problemă, care ar merita totuși să fie investigată.\"\[3\]
+cea posterioara a intregului corp, pe o durata progresiva, care poate sa ajunga pana la doua ore. Asemenea sedinte de seleno-terapie se pot face si numai pe fata anterioara si posterioara a toracelui, dar cu expunere mai lunga. Dupa cate mi-am putut da seama, selenoterapia avea un efect stenic evident asupra pacientilor, care deveneau mai volubili, mai rapizi in elocutie si in miscari, insa nu am intreprins cercetari sistematice in aceasta problema, care ar merita totusi sa fie investigata.\"\[3\]
 
-> Dorim să semnalăm unele precauții legate de acest tratament, în primul rând trebuie avută în vedere faza de creștere a Lunii. Pentru a face *selenoterapie* trebuie așteptat momentul când mai sunt câteva zile (două) până la faza de Lună plină. Pe de altă parte, dacă se face acest tratament în mod nejustificat sunt posibile tulburări ale sistemului nervos. După cum se spune în popor, se poate deveni *\"lunatec\";* să nu uităm că cea mai mare parte a ritualurilor vrăjitorești se desfășoară în lumina Lunei pline, oficiantul, solomonarul sau vrăjitoarea fiind complet dezbrăcați. Pe de altă parte, \"după o perioadă de latență apare -nota tot C.Daniel -, ca urmare a unei asemenea băi lunare, un ușor eritem cutanat.\" Remarcăm totodată că scrierile hipocratice consemnează că dacă razele lunii iradiază pe cineva, aceastea sunt în stare să-i producă stări de agitație psihomotorie, crize de epilepsie și chiar somnambulism.
+> Dorim sa semnalam unele precautii legate de acest tratament, in primul rand trebuie avuta in vedere faza de crestere a Lunii. Pentru a face *selenoterapie* trebuie asteptat momentul cand mai sunt cateva zile (doua) pana la faza de Luna plina. Pe de alta parte, daca se face acest tratament in mod nejustificat sunt posibile tulburari ale sistemului nervos. Dupa cum se spune in popor, se poate deveni *\"lunatec\";* sa nu uitam ca cea mai mare parte a ritualurilor vrajitoresti se desfasoara in lumina Lunei pline, oficiantul, solomonarul sau vrajitoarea fiind complet dezbracati. Pe de alta parte, \"dupa o perioada de latenta apare -nota tot C.Daniel -, ca urmare a unei asemenea bai lunare, un usor eritem cutanat.\" Remarcam totodata ca scrierile hipocratice consemneaza ca daca razele lunii iradiaza pe cineva, aceastea sunt in stare sa-i produca stari de agitatie psihomotorie, crize de epilepsie si chiar somnambulism.
 >
-> Conform medicinei tradiționale chineze, vârstnicii sunt preponderent *Yang,* în timp ce tinerii și copiii sunt aproape complet dominații de principiul energetic feminin, *Yinn* (fapt pentru care unele procedee de tip tantric vizând \"nemurirea\" sunt efectuate de preoții taoiști după vârsta de 50-60 de ani, energia cosmică deșteptată în corp fiind considerată feminină). Lumina lunară este considerată în filozofia orientală ca fiind *Yinn,* feminină, iar cea solară *Yang,* masculină. Astfel, ar putea fi justificată folosirea luminii lunare pentru vârstnici, fiind vorba de un aport energetic ce lipsește organismului. în ceea ce îi privește pe convalescenți trebuie avut grijă, deoarece, oricum, situația generală a zilelor noastre este pentru omenire un excedent de *Yinn.*
+> Conform medicinei traditionale chineze, varstnicii sunt preponderent *Yang,* in timp ce tinerii si copiii sunt aproape complet dominatii de principiul energetic feminin, *Yinn* (fapt pentru care unele procedee de tip tantric vizand \"nemurirea\" sunt efectuate de preotii taoisti dupa varsta de 50-60 de ani, energia cosmica desteptata in corp fiind considerata feminina). Lumina lunara este considerata in filozofia orientala ca fiind *Yinn,* feminina, iar cea solara *Yang,* masculina. Astfel, ar putea fi justificata folosirea luminii lunare pentru varstnici, fiind vorba de un aport energetic ce lipseste organismului. in ceea ce ii priveste pe convalescenti trebuie avut grija, deoarece, oricum, situatia generala a zilelor noastre este pentru omenire un excedent de *Yinn.*
 
-2) Pentru putere și sănătate este bun rachiul în care s-a\
- plămădit Vâsc *(Viscum album).\[\\5\]* Nu se precizează pe ce copac\
- trebuie să fi crescut Vâscul.
+2) Pentru putere si sanatate este bun rachiul in care s-a\
+ plamadit Vasc *(Viscum album).\[\\5\]* Nu se precizeaza pe ce copac\
+ trebuie sa fi crescut Vascul.
 
-3) Se îmbăiază cel vlăguit într-o scăldătoare în care au fost\
- puse nuiele și frunze de Alun *(Corylus avellana, Corylus coturna),\
- *de Plop *(Populus* sau *Nymphaea alba)* sau de Cătușnică *(Marru-\
- bium peregrinum, Melissa officinalis, Mentha arvensis* și *Nepeta\
+3) Se imbaiaza cel vlaguit intr-o scaldatoare in care au fost\
+ puse nuiele si frunze de Alun *(Corylus avellana, Corylus coturna),\
+ *de Plop *(Populus* sau *Nymphaea alba)* sau de Catusnica *(Marru-\
+ bium peregrinum, Melissa officinalis, Mentha arvensis* si *Nepeta\
  cataria).{\\5\\*
 
-4) Copiilor mici ce nu pot umbla în picioare li se face baie\
- în apa în care s-au fiert mlădițe de Corn *(Cornus mas).* Copiii se\
- fac frumoși dacă sunt scăldați cu Mierea Ursului *(Echium vulgare\
- *- eficientă conform poporului în surmenaj și anemie -, *Borago\
- officinalis* - eficientă în spălarea rănilor -, *Pulmonaria angustifolia,\
- Pulmonaria montana* - foarte utilizată în afecțiuni pulmona-\
+4) Copiilor mici ce nu pot umbla in picioare li se face baie\
+ in apa in care s-au fiert mladite de Corn *(Cornus mas).* Copiii se\
+ fac frumosi daca sunt scaldati cu Mierea Ursului *(Echium vulgare\
+ *- eficienta conform poporului in surmenaj si anemie -, *Borago\
+ officinalis* - eficienta in spalarea ranilor -, *Pulmonaria angustifolia,\
+ Pulmonaria montana* - foarte utilizata in afectiuni pulmona-\
  re).\[15\]
 
-5) Cei slabi fac băi cu ierburi de Boz *(Sambucus ebulus),\
- *Urzică *(Unica dioica),* crengi de Prun *(Prunus domestica),* de păr\
- *(Pyrus satira),* de Măr *(Malus pumila)* și de tot felul.fl\]
+5) Cei slabi fac bai cu ierburi de Boz *(Sambucus ebulus),\
+ *Urzica *(Unica dioica),* crengi de Prun *(Prunus domestica),* de par\
+ *(Pyrus satira),* de Mar *(Malus pumila)* si de tot felul.fl\]
 
-6) Se bea în fiecare dimineață câte un păhăruț de rachiu\
- în care s-a macerat rădăcină de Tătăneasă *(Symphytum offîcinale)\
- *tăiată mărunt. Cei slabi se vor împlini.\[l\]
+6) Se bea in fiecare dimineata cate un paharut de rachiu\
+ in care s-a macerat radacina de Tataneasa *(Symphytum officinale)\
+ *taiata marunt. Cei slabi se vor implini.\[l\]
 
-7) Copiii ce cad în boală și slăbesc sunt îmbăiați timp de\
- trei luni în apă în care s-a fiert Buruiană de Boală sau Sporici\
- *(Verbena officinalis).* De fiecare dată, după îmbăiere apa se arun\
- că într-un loc \"curat\", \"ca să nu se calce în picioare\". După scăl\
- dătoare, copilașului i se mai împlinește trupul. \[1\] *Verbena offici\
- nalis* mai este folosită în popor și pentru răni, abcese, dureri de\
- cap, de ficat, splină și rinichi.
+7) Copiii ce cad in boala si slabesc sunt imbaiati timp de\
+ trei luni in apa in care s-a fiert Buruiana de Boala sau Sporici\
+ *(Verbena officinalis).* De fiecare data, dupa imbaiere apa se arun\
+ ca intr-un loc \"curat\", \"ca sa nu se calce in picioare\". Dupa scal\
+ datoare, copilasului i se mai implineste trupul. \[1\] *Verbena offici\
+ nalis* mai este folosita in popor si pentru rani, abcese, dureri de\
+ cap, de ficat, splina si rinichi.
 
-8) Când slăbește un copil se scaldă cu apă în care s-a pus\
- (sau s-a fiert puțin) Iarbă Grasă *(Portulaca oleracea).\[l\]*
+8) Cand slabeste un copil se scalda cu apa in care s-a pus\
+ (sau s-a fiert putin) Iarba Grasa *(Portulaca oleracea).\[l\]*
 
-### PENTRU 801.1 FĂRĂ LEAC
+### PENTRU 801.1 FARA LEAC
 
-> • PENTRU 801.1 FĂRĂ *LEAC*
+> • PENTRU 801.1 FARA *LEAC*
 
-*1)* Acest tratament este folosit pentru orice boală care, cu toate \"căutările\", nu își află leacul. în popor se spune că se folosește pentru *boală grea,* sub această denumire fiind desemnată îndeosebi epilepsia.
+*1)* Acest tratament este folosit pentru orice boala care, cu toate \"cautarile\", nu isi afla leacul. in popor se spune ca se foloseste pentru *boala grea,* sub aceasta denumire fiind desemnata indeosebi epilepsia.
 
-Celui ce zace de o boală grea, i se dă Mătrăgună *(Atropa belladona),* astfel: Se pisează rădăcina de Mătrăgună și se fierbe în apă neîncepută; din fiertură se ia o lingură, se amestecă cu miere și se dă bolnavului care, după ce face trei mătănii, o soarbe de dușcă. Mătrăguna trebuie luată trei zile la rând, când este Lună nouă. Se repetă apoi de două ori administrarea tratamentului, la următoarea și la a doua Lună nouă.
+Celui ce zace de o boala grea, i se da Matraguna *(Atropa belladona),* astfel: Se piseaza radacina de Matraguna si se fierbe in apa neinceputa; din fiertura se ia o lingura, se amesteca cu miere si se da bolnavului care, dupa ce face trei matanii, o soarbe de dusca. Matraguna trebuie luata trei zile la rand, cand este Luna noua. Se repeta apoi de doua ori administrarea tratamentului, la urmatoarea si la a doua Luna noua.
 
-> Administrându-i-se Mătrăguna, bolnavul mai întâi \"înnebunește\" și, când își vine în fire, se trezește sănătos. Dacă nici Mătrăguna nu vindecă *boala grea,* se crede că nu mai există
+> Administrandu-i-se Matraguna, bolnavul mai intai \"innebuneste\" si, cand isi vine in fire, se trezeste sanatos. Daca nici Matraguna nu vindeca *boala grea,* se crede ca nu mai exista
 >
 > remediu.
 >
-> 2\) \"Pentru orice boală\" se folosește Buruiană de Cinci Degete *(Potentilla recta)* sau Buruienile de Cele Sfinte *(Cheli-donium majus,* cunoscută mai bine sub numele de Rostopască) cu care se face scăldătoare.\[l\]
+> 2\) \"Pentru orice boala\" se foloseste Buruiana de Cinci Degete *(Potentilla recta)* sau Buruienile de Cele Sfinte *(Cheli-donium majus,* cunoscuta mai bine sub numele de Rostopasca) cu care se face scaldatoare.\[l\]
 >
-### PENTRU NEPUTINȚA BĂRBĂTEASCĂ
+### PENTRU NEPUTINTA BARBATEASCA
 
-> \* PENTRU NEPUTINȚA BĂRBĂTEASCĂ
+> \* PENTRU NEPUTINTA BARBATEASCA
 >
-> *1)* Omul își face de mai multe ori scaldă cu apă nu prea\
-> rece. în scăldătoare bea câte puțin vin vechi și își «bate pasărea
+> *1)* Omul isi face de mai multe ori scalda cu apa nu prea\
+> rece. in scaldatoare bea cate putin vin vechi si isi «bate pasarea
 >
 > trupului».\[12\]
 
 2) Remediul de mai sus poate fi completat cu cel dintr-un\
- > sat basarabean: se ia Morcov de Câmp *(Daucus carota,* numit aici\
- > Sculătoare; nu se confundă cu Morcovul de Grădină - tot *Daucus\
- > carota,* var. *sativa),* se fierbe cu vin și se dă bărbatului să bea\
- > până într-un kilogram.fi\] Alt procedeu este să se ia florile Mor\
- > covului de Câmp, să se fiarbă în apă sau vin și să se dea bărbați\
- > lor pentru neputință. \[Al. Arvat, *Plantele ornamentale la Nicșani\]*
+ > sat basarabean: se ia Morcov de Camp *(Daucus carota,* numit aici\
+ > Sculatoare; nu se confunda cu Morcovul de Gradina - tot *Daucus\
+ > carota,* var. *sativa),* se fierbe cu vin si se da barbatului sa bea\
+ > pana intr-un kilogram.fi\] Alt procedeu este sa se ia florile Mor\
+ > covului de Camp, sa se fiarba in apa sau vin si sa se dea barbati\
+ > lor pentru neputinta. \[Al. Arvat, *Plantele ornamentale la Nicsani\]*
 
-#### *Sculătoarea (Dactylorhiza maculata* sau *Orchis maculata)\
- > *este considerat un afrodisiac reputat. în regiunea montană a văii\
- > Teleajenului femeile recoltează tuberculii *Sculătoarei* în prima ju\
- > mătate a lunii iunie, pe timp de noapte, cînd e Lună plină sau\
- > Lună în creștere. Tuberculii recoltați se lasă la svântat în contact\
- > cu aerul, în strat subțire. Apoi se iau 6-8 tuberculi, se pisează\
- > într-un mojar de lemn (nu de metal). Se pune praful obținut la\
- > 100 ml țuică. Se dă apoi bărbaților pentru ridicarea potentei\
- > sexuale. Efectul este rapid. Tuberculii pisați (1/4 - 1/2 linguriță)\
- > se pot pune și în mâncarea din farfurie. Efectul este același.
+#### *Sculatoarea (Dactylorhiza maculata* sau *Orchis maculata)\
+ > *este considerat un afrodisiac reputat. in regiunea montana a vaii\
+ > Teleajenului femeile recolteaza tuberculii *Sculatoarei* in prima ju\
+ > matate a lunii iunie, pe timp de noapte, cind e Luna plina sau\
+ > Luna in crestere. Tuberculii recoltati se lasa la svantat in contact\
+ > cu aerul, in strat subtire. Apoi se iau 6-8 tuberculi, se piseaza\
+ > intr-un mojar de lemn (nu de metal). Se pune praful obtinut la\
+ > 100 ml tuica. Se da apoi barbatilor pentru ridicarea potentei\
+ > sexuale. Efectul este rapid. Tuberculii pisati (1/4 - 1/2 lingurita)\
+ > se pot pune si in mancarea din farfurie. Efectul este acelasi.
 
-> Alte specii înrudite cu efect afrodisiac sunt: *Ploșnițoasa (Orchis cariophora),Poroinicul (Orchismilitaris, Orchis purpurea), Untul-vacii {Orchis morio).*
+> Alte specii inrudite cu efect afrodisiac sunt: *Plosnitoasa (Orchis cariophora),Poroinicul (Orchismilitaris, Orchis purpurea), Untul-vacii {Orchis morio).*
 >
-> *4)* Pentru stimularea potentei sexuale și preîntâmpinarea\
-> ejaculării precoce se prepară un decoct din:
+> *4)* Pentru stimularea potentei sexuale si preintampinarea\
+> ejacularii precoce se prepara un decoct din:
 >
-> ---o linguriță tulpini și frunze *ăeLungoare {Ononis hircina)*
+> ---o lingurita tulpini si frunze *aeLungoare {Ononis hircina)*
 
-- o linguriță *Busuioc de câmp {Prunella vulgaris)*
+- o lingurita *Busuioc de camp {Prunella vulgaris)*
 
-- o linguriță *Dumbăț {Teucrium chamaedrys)*
+- o lingurita *Dumbat {Teucrium chamaedrys)*
 
-- o linguriță tuberculi de *Geamănăriță {Orchis papilona-\
+- o lingurita tuberculi de *Geamanarita {Orchis papilona-\
  > cea)*
 
-- o linguriță inflorescență de *Morcov de câmp {Daucus\
+- o lingurita inflorescenta de *Morcov de camp {Daucus\
  > carota)*
 
-- o linguriță tuberculi *Sculătoare {Dactylorhiza maculata\
+- o lingurita tuberculi *Sculatoare {Dactylorhiza maculata\
  > *sau *Orchis maculata)*
 
-- o linguriță frunze și semințe de *Schinduf {Trigonelle\
+- o lingurita frunze si seminte de *Schinduf {Trigonelle\
  > coerulea)*
 
-- o linguriță rădăcină de țelină *{Apium graveolens)*
+- o lingurita radacina de telina *{Apium graveolens)*
 
-> *---* o linguriță frunze și rădăcini de *Priboi {Geranium\
+> *---* o lingurita frunze si radacini de *Priboi {Geranium\
 > macrorrhizum)*
 
-la doi litri de apă clocotită. Se fierbe un minut și se lasă la răcit 15 minute. Se strecoară și se beau 6-8 linguri pe zi, la interval de o oră se ia o lingură, sau înaintea meselor de dimineață, prânz și seara, câte o ceașcă. Cura durează 40 zile.\" (C.Pârvu, *Universul plantelor;* București 1991)
+la doi litri de apa clocotita. Se fierbe un minut si se lasa la racit 15 minute. Se strecoara si se beau 6-8 linguri pe zi, la interval de o ora se ia o lingura, sau inaintea meselor de dimineata, pranz si seara, cate o ceasca. Cura dureaza 40 zile.\" (C.Parvu, *Universul plantelor;* Bucuresti 1991)
 
-> *5)* Românii au desemnat și alte plante cu numele de Sculă\
-> toare, în afara speciilor de *Orchis.* Acestea sunt *Anthyllis vul-\
+> *5)* Romanii au desemnat si alte plante cu numele de Scula\
+> toare, in afara speciilor de *Orchis.* Acestea sunt *Anthyllis vul-\
 > neraria, Asperula odorata, Linaria vulgaris, Scopolia carniolica.\
-> *(Al. Borza, *Dicționar etnobotanic.* București 1968.)
+> *(Al. Borza, *Dictionar etnobotanic.* Bucuresti 1968.)
 >
 ### PENTRU BOLILE VENERICE
 
 > ***PENTRU BOLILE* VENERICE**
 
-*1)* Sifilisul trebuie oblojit cu frunze de Arin *{Alnus glutino-sa)* și de Cel-perit *{Fumăria schleicheri).* După ce frunzele acestor plante au fost fierte în apă, se spală încet și îndelung zona organelor genitale cu fiertura obținută. Mai pot fi folosite pentru spălaturi Spânțul *{Adonis vemalis)* și Spânzul *{Helleborus).\[l5\]*
+*1)* Sifilisul trebuie oblojit cu frunze de Arin *{Alnus glutino-sa)* si de Cel-perit *{Fumaria schleicheri).* Dupa ce frunzele acestor plante au fost fierte in apa, se spala incet si indelung zona organelor genitale cu fiertura obtinuta. Mai pot fi folosite pentru spalaturi Spantul *{Adonis vemalis)* si Spanzul *{Helleborus).\[l5\]*
 
-### PENTRU PARAZIȚI, Limbrici
+### PENTRU PARAZITI, Limbrici
 
-> *PENTRU* PARAZIȚI
+> *PENTRU* PARAZITI
 >
 > **A. Limbrici**
 
 *1)* Se fierbe Iarba Limbricilor *{Astragalus gfycyphyllos)* cu\
-Usturoi *{Allium sativum)* și se dă copilului cu limbrici să bea
+Usturoi *{Allium sativum)* si se da copilului cu limbrici sa bea
 
 > fiertura.\[17\]
 
-*2)* Se mănâncă, în fiecare dimineață, înainte de prânz, sâm\
+*2)* Se mananca, in fiecare dimineata, inainte de pranz, sam\
 buri de Bostan (Dovleac - *Cucurbita maxima)* sau mujdei de
 
 > Usturoi.(17)
 
-*3)* Se mănâncă secară fiartă sau, și mai bine, se adună câte\
-va rădăcini de Ferigă, se usucă bine și se pisează până se fac\
-praf, apoi se iau aproximativ 15-16 gr. din acest praf, se amestecă\
-cu 300-350 gr. de apă și se bea amestecul.\[19\]
+*3)* Se mananca secara fiarta sau, si mai bine, se aduna cate\
+va radacini de Feriga, se usuca bine si se piseaza pana se fac\
+praf, apoi se iau aproximativ 15-16 gr. din acest praf, se amesteca\
+cu 300-350 gr. de apa si se bea amestecul.\[19\]
 
-> *4)* Florile de Limbricariță *{Achillea crithmifolia)* sunt\
+> *4)* Florile de Limbricarita *{Achillea crithmifolia)* sunt\
 > folosite pentru tratarea copiilor care au limbrici. Planta este\
-> foarte asemănătoare cu Coada Șoricelului *{Achillea millefolium),\
-> *fiind specii înrudite. Românii din Banat (din jurul orașelor\
-> Orșova și Moldova Nouă) le deosebesc cu ușurință datorită gus\
-> tului dulce al florilor de Limbricariță față de cel ușor amărui al\
-> Cozii Șoricelului. Cercetări efectuate la Institutul de Medicină și\
-> Farmacie din Târgu-Mureș au demonstrat că, după 20 de minute,\
-> ceaiul (infuzia) de Limbricariță distruge complet paraziții de\
-> *Oxyuris ambigua,* iar după 30 de minute anihilează paraziții de\
-> *Ascaris lumbricoides.* Trebuie subliniat că tratamentul cu extract\
-> de Limbricariță nu este toxic pentru om, spre deosebire de trata\
-> mentul medicamentos obișnuit. \[E. Racz-Kottila și B. Fazakas,\
-> *Acțiunea antiparazitară a inflorescențelor de \"Achillea crithmifolia\
-> W. et K.\",* în *Revista med.,* X, 1964, nr.2\]
+> foarte asemanatoare cu Coada Soricelului *{Achillea millefolium),\
+> *fiind specii inrudite. Romanii din Banat (din jurul oraselor\
+> Orsova si Moldova Noua) le deosebesc cu usurinta datorita gus\
+> tului dulce al florilor de Limbricarita fata de cel usor amarui al\
+> Cozii Soricelului. Cercetari efectuate la Institutul de Medicina si\
+> Farmacie din Targu-Mures au demonstrat ca, dupa 20 de minute,\
+> ceaiul (infuzia) de Limbricarita distruge complet parazitii de\
+> *Oxyuris ambigua,* iar dupa 30 de minute anihileaza parazitii de\
+> *Ascaris lumbricoides.* Trebuie subliniat ca tratamentul cu extract\
+> de Limbricarita nu este toxic pentru om, spre deosebire de trata\
+> mentul medicamentos obisnuit. \[E. Racz-Kottila si B. Fazakas,\
+> *Actiunea antiparazitara a inflorescentelor de \"Achillea crithmifolia\
+> W. et K.\",* in *Revista med.,* X, 1964, nr.2\]
 >
 > R. **Trichomonas**
 
-Deosebit de eficiente în neutralizarea parazitului *Trichomonas vaginalis,* activ mai ales asupra organelor genitale, s-au dovedit florile arbustului *Philadelphus coronarius* (numit de către români Lămâiță sau Sărincaș) și florile de *Calendula officinalis* (numite de către români Gălbenele, Filimică, Călinică, Roșioa-ră). Studiile de laborator efectuate de cercetători, plecând de la rețetele medicinei populare românești, au arătat că florile albe de *Philadelphus coronarius* distrug complet acest parazit în decurs de câteva minute, în timp ce substanța de medicație farmaceutică (medicamentul Flagyl) acționează în câteva ore, prin imobilizarea agentului patogen, fără însă a-1 distruge. încă din anii \'60, la Tîrgu-Mureș a fost obținut un extract din planta *Philadelphus coronarius,* numit Filadelfină, care totuși, deși este mai eficient decât Flagylul, nu este încă cunoscut. \[I. Trombitas, *Tratamentul cu Filadelfină al infestației cu Trichomonas vaginalis,* în *Revista medicală,* IX 1963, nr.3\]
+Deosebit de eficiente in neutralizarea parazitului *Trichomonas vaginalis,* activ mai ales asupra organelor genitale, s-au dovedit florile arbustului *Philadelphus coronarius* (numit de catre romani Lamaita sau Sarincas) si florile de *Calendula officinalis* (numite de catre romani Galbenele, Filimica, Calinica, Rosioa-ra). Studiile de laborator efectuate de cercetatori, plecand de la retetele medicinei populare romanesti, au aratat ca florile albe de *Philadelphus coronarius* distrug complet acest parazit in decurs de cateva minute, in timp ce substanta de medicatie farmaceutica (medicamentul Flagyl) actioneaza in cateva ore, prin imobilizarea agentului patogen, fara insa a-1 distruge. inca din anii \'60, la Tirgu-Mures a fost obtinut un extract din planta *Philadelphus coronarius,* numit Filadelfina, care totusi, desi este mai eficient decat Flagylul, nu este inca cunoscut. \[I. Trombitas, *Tratamentul cu Filadelfina al infestatiei cu Trichomonas vaginalis,* in *Revista medicala,* IX 1963, nr.3\]

@@ -230,34 +230,34 @@ Ortosimpaticul prezinta portiunile:
 
 ## ANALIZATORII
 
-Simțurile sunt subsisteme fiziologice receptoare care fac posibilă reacția la anumite
-categorii de stimuli din lumea exterioară sau din interiorul organismului.
-Organele de simț reprezintă sistemele fiziologice periferice ale recepției
-senzoriale.Acestea ,împreună cu căile nervoase și terminația lor în scoarța cerebrală reprezintă
+Simturile sunt subsisteme fiziologice receptoare care fac posibila reactia la anumite
+categorii de stimuli din lumea exterioara sau din interiorul organismului.
+Organele de simt reprezinta sistemele fiziologice periferice ale receptiei
+senzoriale.Acestea ,impreuna cu caile nervoase si terminatia lor in scoarta cerebrala reprezinta
 un sistem anatomo-fiziologic unitar denumit de Pavlov analizator.
-Cele cinci simțuri sunt văzul, auzul, mirosul, gustul și simțul tactil. Acestea oferă
-varietatea înconjurătoare în cinci moduri de contact fără a reprezenta însă și conștientizarea
-acțiunii diverșilor stimuli externi sau interni.Cea mai simplă și totodată prima formă de
-comunicare informațională cu lumea externă o constituie recepția senzorială. Primul produs
-psihic al recepției senzoriale este senzația.
-Senzația este reflectarea psihică a unor însușiri izolate ale obiectelor din realitate care
-acționează nemijlocit asupra organelor de simț. Deci reflectarea obiectului în senzație are un
-caracter fragmentar, unidimensional, nepermițând identificarea lui. Dacă am rămâne la faza
-recepției senzoriale,fără atributul conștientizării, nu ne-am putea desprinde din lumea animală.
-La om ,conștientizarea senzației pune în funcțiune operatori logici de analiză-evaluare,
-discernere-delimitare între stimul și modelul lui informațional, de raportare designativă(imaginea
-subiectivă internă se raportează la stimulul extern care a provocat-o).
-Senzațiile se caracterizează printr-o serie de calități pe baza cărora le putem identifica,
-compara, analiza, interpreta. Aceste calități sunt : modalitatea, intensitatea, durata, tonalitatea
-afectivă și valoarea cognitivă.
-In funcție de natura surselor care le generează, senzațiile sunt : exteroceptive (sursele
-sunt externe), proprioceptive (sursele sunt la nivelul articulațiilor osteo-musculare) și
+Cele cinci simturi sunt vazul, auzul, mirosul, gustul si simtul tactil. Acestea ofera
+varietatea inconjuratoare in cinci moduri de contact fara a reprezenta insa si constientizarea
+actiunii diversilor stimuli externi sau interni.Cea mai simpla si totodata prima forma de
+comunicare informationala cu lumea externa o constituie receptia senzoriala. Primul produs
+psihic al receptiei senzoriale este senzatia.
+Senzatia este reflectarea psihica a unor insusiri izolate ale obiectelor din realitate care
+actioneaza nemijlocit asupra organelor de simt. Deci reflectarea obiectului in senzatie are un
+caracter fragmentar, unidimensional, nepermitand identificarea lui. Daca am ramane la faza
+receptiei senzoriale,fara atributul constientizarii, nu ne-am putea desprinde din lumea animala.
+La om ,constientizarea senzatiei pune in functiune operatori logici de analiza-evaluare,
+discernere-delimitare intre stimul si modelul lui informational, de raportare designativa(imaginea
+subiectiva interna se raporteaza la stimulul extern care a provocat-o).
+Senzatiile se caracterizeaza printr-o serie de calitati pe baza carora le putem identifica,
+compara, analiza, interpreta. Aceste calitati sunt : modalitatea, intensitatea, durata, tonalitatea
+afectiva si valoarea cognitiva.
+In functie de natura surselor care le genereaza, senzatiile sunt : exteroceptive (sursele
+sunt externe), proprioceptive (sursele sunt la nivelul articulatiilor osteo-musculare) si
 interoceptive (sursele sunt interne, la nivelul viscerelor).
-La baza senzației se află o proprietate funcțională specială a organismelor animale ,
+La baza senzatiei se afla o proprietate functionala speciala a organismelor animale ,
 sensibilitatea.
-Sensibilitatea este funcția unor celule numite receptori care apar și se diferențiază
-treptat în cursul evoluției regnului animal și se exercită ca funcție a unui aparat specific denumit
-sistem de integrare senzorială sau analizator.
+Sensibilitatea este functia unor celule numite receptori care apar si se diferentiaza
+treptat in cursul evolutiei regnului animal si se exercita ca functie a unui aparat specific denumit
+sistem de integrare senzoriala sau analizator.
 
 ### Analizatorul cutanat (pielea)
 
@@ -469,63 +469,63 @@ nu se poare realiza pe pata galbena. Ametropia este determinata de mai multi fac
 #### Culorile
 
 Ochiul poate vedea 7 milioane de culori. Anumite culori pot irita ochii si pot cauza dureri de cap
-.Alte culori sau combinații de culori sunt liniștitoare. Deci folosirea corecta a culorilor poate mari
+.Alte culori sau combinatii de culori sunt linistitoare. Deci folosirea corecta a culorilor poate mari
 productivitatea, minimaliza obosirea vizuala si pot relaxa intreg corpul.
- Culoarea regilor era purpuriu. Pentru persoanele importante, se desfășoară covoare roșii. In
-unele culturi se credea ca anumite culori aveau puteri energizante sau vindecătoare. De
+ Culoarea regilor era purpuriu. Pentru persoanele importante, se desfasoara covoare rosii. In
+unele culturi se credea ca anumite culori aveau puteri energizante sau vindecatoare. De
 exemplu, o pictura a lui Jan Van Eyeck (1434) descrie o mireasa in perioada Renascentista
 
-purtând o rochie verde ,arătând, astfel dorința si posibilitatea de a purta copii. Omul Verde era
-zeul fertilității in cultura celta. Verdele era o culoare sacra pentru egipteni, reprezentând
-speranța si bucuria primăverii.
- Culorile dau anumite stări camerelor . Culorile reci fac camerele sa para mai mari si aduc un
-sentiment de calm . Culorile calde fac camerele mari sa fie mai confortabile si mai călduroase.
-Se crede ca vopsirea sufragerie in negru va face mesele mai plăcute.
-Verdele duce la vitalitate ,si se recomanda vopsirea camerei copiilor in aceasta culoare, dând
-copiilor un plus in activitățile lor.
-Restaurantele nu vopsesc niciodată buradaria in roșu deoarece se pare ca aceasta va duce la
-o stare de enervare a bucătarului. Centrul neliniștii din creier este activat de galben. “La copii
-aceasta va duce la planșete , iar la adulti ,va duce la enervare” declara Carlton Wagner,
+purtand o rochie verde ,aratand, astfel dorinta si posibilitatea de a purta copii. Omul Verde era
+zeul fertilitatii in cultura celta. Verdele era o culoare sacra pentru egipteni, reprezentand
+speranta si bucuria primaverii.
+ Culorile dau anumite stari camerelor . Culorile reci fac camerele sa para mai mari si aduc un
+sentiment de calm . Culorile calde fac camerele mari sa fie mai confortabile si mai calduroase.
+Se crede ca vopsirea sufragerie in negru va face mesele mai placute.
+Verdele duce la vitalitate ,si se recomanda vopsirea camerei copiilor in aceasta culoare, dand
+copiilor un plus in activitatile lor.
+Restaurantele nu vopsesc niciodata buradaria in rosu deoarece se pare ca aceasta va duce la
+o stare de enervare a bucatarului. Centrul nelinistii din creier este activat de galben. “La copii
+aceasta va duce la plansete , iar la adulti ,va duce la enervare” declara Carlton Wagner,
 directorul Institului pentru Studierea Culorilor Wagner.
 Albastru va face o persoana mai atenta la trecerea timpului, si astfel, de exemplu , vor petrece
-mai puțin timp mâncând. Pentru persoanele care adorm mai greu, se recomanda culori ca roz
-pal, verde , albastru si roșu pal. Despre culori:
+mai putin timp mancand. Pentru persoanele care adorm mai greu, se recomanda culori ca roz
+pal, verde , albastru si rosu pal. Despre culori:
 
 - **VERDE**
  - este culoarea cea mai odihnitoare pt ochi
- - poate ajuta la diminuarea durerii, uneori poate chiar alina durerea creșterii dinților la
+ - poate ajuta la diminuarea durerii, uneori poate chiar alina durerea cresterii dintilor la
  bebelusi
- - oamenii care lucrează intr-un mediu colorat in verde au mai puține dureri de stomac
- - Cazurile de sinucidere au scăzut cu 34% când podul Blackfriar din Londra a fost
+ - oamenii care lucreaza intr-un mediu colorat in verde au mai putine dureri de stomac
+ - Cazurile de sinucidere au scazut cu 34% cand podul Blackfriar din Londra a fost
  vopsit in verde
 - **GALBEN**
- - Copii plâng mai mult in camere galbene
- - Soții se cearta mai mult cu soțiile in camere galbene
+ - Copii plang mai mult in camere galbene
+ - Sotii se cearta mai mult cu sotiile in camere galbene
  - Este prima culoare pe care o observa ochiul uman
- - Este cea mai obositoare culoare pentru ca reflecta mai multa lumina, ducând la
+ - Este cea mai obositoare culoare pentru ca reflecta mai multa lumina, ducand la
  stimularea excesiva a ochiului
 
-Un studiu a arătat ca majoritatea copiilor folosesc galben si maro pentru a desena
-supărarea. Un studiu pe copii cu vârste mai mici de 7 ani a arătat ca majoritatea aleg jucării de
-culori pure , nu pastelate. Alt studiu a schimbat culoarea mâncării, dar a arătat ca oamenii nu
-doreau sa mănânce carne gri si salata purpurie. Aceasta a arătat ca oamenii vor ca lucrurile sa
+Un studiu a aratat ca majoritatea copiilor folosesc galben si maro pentru a desena
+supararea. Un studiu pe copii cu varste mai mici de 7 ani a aratat ca majoritatea aleg jucarii de
+culori pure , nu pastelate. Alt studiu a schimbat culoarea mancarii, dar a aratat ca oamenii nu
+doreau sa manance carne gri si salata purpurie. Aceasta a aratat ca oamenii vor ca lucrurile sa
 fie colorate cum ar trebui sa fie.
-O lucrare, a studiat 65 de studenți care au cumpărat schiuri acvatice .Etichetele de
-avertizare au fost de mai multe culori. Rezultatul la crestera probabilitatii de rănire la produsele
-cu avertizări scrise cu roșu, verde si negru.
-O firma comercializează lentile de contact rosii pentru gaini deoarece studii medicale au
-arătat ca găinile care vad roșu in timpul zilei sunt mai fericire si mananca mai putina hrana.
-Purtătorul de cuvânt al firmei a apreciat ca lentile vor imbunatati recolta de oua cu 600
+O lucrare, a studiat 65 de studenti care au cumparat schiuri acvatice .Etichetele de
+avertizare au fost de mai multe culori. Rezultatul la crestera probabilitatii de ranire la produsele
+cu avertizari scrise cu rosu, verde si negru.
+O firma comercializeaza lentile de contact rosii pentru gaini deoarece studii medicale au
+aratat ca gainile care vad rosu in timpul zilei sunt mai fericire si mananca mai putina hrana.
+Purtatorul de cuvant al firmei a apreciat ca lentile vor imbunatati recolta de oua cu 600
 milioane $ pe an.
-Spitalele folosesc albastru si purpuriu in sălile de așteptare pentru a ajuta la calmarea
-pacienților.
+Spitalele folosesc albastru si purpuriu in salile de asteptare pentru a ajuta la calmarea
+pacientilor.
 
 #### Vederea stereoscopica
 
 Oamenii si celelalte animale care sunt capabile sa focalizeze cu ambii ochi asupra unui
-singur obiect sunt capabile de vedere stereoscopica, care este fundamentala pentru o percepție
-mai adânca a lucrurilor. Principiul consta in prezentarea unei imagini din doua unghiuri , puțin
-diferite, pentru ca apoi ochiul sa contopească aceste imagini intr-o singura imagine
+singur obiect sunt capabile de vedere stereoscopica, care este fundamentala pentru o perceptie
+mai adanca a lucrurilor. Principiul consta in prezentarea unei imagini din doua unghiuri , putin
+diferite, pentru ca apoi ochiul sa contopeasca aceste imagini intr-o singura imagine
 tridimensionala.
  Una din categoriile de imagini stereoscopice sunt numite autostereograme, care nu
 necesita intrumente speciale pentru a fi vizualizate, si au putut fi realizare cu ajutorul graficii pe
@@ -534,7 +534,7 @@ normal , imaginea rezultata arata ca un model abstract. Imaginea tridimensionala
 cand ochii privitorului sunt focalizati si de exemplu doua puncte diferite sunt suprapuse, si se
 vede numai unul .
 
-#### Afecțiuni ale vederii
+#### Afectiuni ale vederii
 
 | Boli | Cauze | Simptome | Prevenire |
 |---|---|---|---|
@@ -806,7 +806,7 @@ transf in cel nerv->cale de conducere la centrii de auz
 Stimuli: misc poz capului/corpului. Rasp nu sunt date sub forma de senzatii ci sub forma de
 reflexe statochinetice.
 
-#### Afecțiuni ale urechii
+#### Afectiuni ale urechii
 
 | Boli | Cauze | Simptome | Prevenire |
 |---|---|---|---|

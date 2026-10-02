@@ -1,79 +1,79 @@
-# Tratamente naturiste pentru GRIPĂ
+# Tratamente naturiste pentru GRIPA
 
 ### Eliminarea virusului din organism
 
-- Foarte important de știut: virusurile gripale trăiesc la suprafață pe mucoase și în alveolele pulmonare. Doar în cazurile grave virusurile gripale pătrund în sânge dar pentru o perioadă scurtă de timp. Click here for more details.
+- Foarte important de stiut: virusurile gripale traiesc la suprafata pe mucoase si in alveolele pulmonare. Doar in cazurile grave virusurile gripale patrund in sange dar pentru o perioada scurta de timp. Click here for more details.
 
-- Inhalații cu următoarele uleiuri esențiale: mentă, fenicul, anason, tea tree, eucalipt, geranium, rozmarin, scorțișoară, bergamotă. Pentru inhalații se poate folosi
+- Inhalatii cu urmatoarele uleiuri esentiale: menta, fenicul, anason, tea tree, eucalipt, geranium, rozmarin, scortisoara, bergamota. Pentru inhalatii se poate folosi
 
-- un vas cu apă fierbinte în care se pune uleiul esențial și se stă cu capul deasupra vasului.
+- un vas cu apa fierbinte in care se pune uleiul esential si se sta cu capul deasupra vasului.
 
-- un aparat de aerosoli în care se pune ser fiziologic împreună cu uleiul esențial.
+- un aparat de aerosoli in care se pune ser fiziologic impreuna cu uleiul esential.
 
-- un difuzor de aromoterapie în care se pune apă distilată sau ser fiziologic împreună cu uleiul esențial. Se stă cu capul aplecat deasupra vasului și se inspiră vaporii.
+- un difuzor de aromoterapie in care se pune apa distilata sau ser fiziologic impreuna cu uleiul esential. Se sta cu capul aplecat deasupra vasului si se inspira vaporii.
 
-- Dacă ești fumător atunci picură pe fiecare țigară între 5 și 20 picături din uleiurile esențiale de mai sus.
+- Daca esti fumator atunci picura pe fiecare tigara intre 5 si 20 picaturi din uleiurile esentiale de mai sus.
 
-- Se pune pe degetul mic dintr-unul din uleiurile esențiale de mai sus, și se freacă bine suprafața interioară a nărilor. Nu picurați ulei esențial direct în nas! Aveți grijă cu uleiul esențial de scorțișoară, e destul de agresiv cu pielea.
+- Se pune pe degetul mic dintr-unul din uleiurile esentiale de mai sus, si se freaca bine suprafata interioara a narilor. Nu picurati ulei esential direct in nas! Aveti grija cu uleiul esential de scortisoara, e destul de agresiv cu pielea.
 
-- Gargară cu argint sau aur coloidal timp de 10 minute.
+- Gargara cu argint sau aur coloidal timp de 10 minute.
 
 - Spray nazal cu argint / aur coloidal.
 
 - Zinc: 50mg pe zi. Zincul reduce rata de replicare a virusurilor.
 
-- Ulei din semințe de chimen negru: 1 linguriță de 3 ori pe zi.
+- Ulei din seminte de chimen negru: 1 lingurita de 3 ori pe zi.
 
-### Protecție
+### Protectie
 
 - Lactobacillus casei - probiotic
 
 ### Reducerea simptomelor
 
-- Dintr-una din cărțile Mariei Treben: Odată a venit la mine, plângând, un bărbat mai vârstnic. Cu trei ani în urmă se îmbolnăvise de gripă. De atunci, urina sa era maro închis și suferea de niște dureri de cap insuportabile. Nu i-au folosit numeroasele medicamente administrate. Dimpotrivă, migrenele au devenit tot mai acute, încât omul era în pragul sinuciderii. l-am dat curaj, îndrumându-l spre ceaiul de urzici. Urma să bea 2 litri de ceai, repartizați pe parcursul întregii zile. După 4 zile m-a anunțat telefonic că durerile de cap îi trecuseră total. Ceva mai târziu mi-a transmis printr-o femeie că se simte mai bine acum decât înaintea gripei. Folosiți urzici proaspete, tinere, în special primăvara, și faceți o cură! Vă veți minuna de efectul lor binefăcător.
+- Dintr-una din cartile Mariei Treben: Odata a venit la mine, plangand, un barbat mai varstnic. Cu trei ani in urma se imbolnavise de gripa. De atunci, urina sa era maro inchis si suferea de niste dureri de cap insuportabile. Nu i-au folosit numeroasele medicamente administrate. Dimpotriva, migrenele au devenit tot mai acute, incat omul era in pragul sinuciderii. l-am dat curaj, indrumandu-l spre ceaiul de urzici. Urma sa bea 2 litri de ceai, repartizati pe parcursul intregii zile. Dupa 4 zile m-a anuntat telefonic ca durerile de cap ii trecusera total. Ceva mai tarziu mi-a transmis printr-o femeie ca se simte mai bine acum decat inaintea gripei. Folositi urzici proaspete, tinere, in special primavara, si faceti o cura! Va veti minuna de efectul lor binefacator.
 
-- Decoct din 1 linguriță coajă interioară de stejar alb la o cană de apă.
+- Decoct din 1 lingurita coaja interioara de stejar alb la o cana de apa.
 
-- Infuzii din oricare din plantele următoare: frunze de zmeură, mentă, soc mușetel, tei, salvie, priboi(floarea raiului), trifoi, mac de câmp (petale), busuioc, podbal, lichean de piatră, cuișoare măcinate, rădăcină de brusture, echinaceea, flori de măr, flori de păr. Se pot combina după bunul plac. A se pune cel puțin o lingură de plantă la o cană.
+- Infuzii din oricare din plantele urmatoare: frunze de zmeura, menta, soc musetel, tei, salvie, priboi(floarea raiului), trifoi, mac de camp (petale), busuioc, podbal, lichean de piatra, cuisoare macinate, radacina de brusture, echinaceea, flori de mar, flori de par. Se pot combina dupa bunul plac. A se pune cel putin o lingura de planta la o cana.
 
-- Infuzie de lumânărică. Cercetările noi au demonstrat „in vitro" și acțiunea antivirală asupra anumitor tulpini gripale d tipul A și B și asupra virusului herpetic simplu.
+- Infuzie de lumanarica. Cercetarile noi au demonstrat „in vitro" si actiunea antivirala asupra anumitor tulpini gripale d tipul A si B si asupra virusului herpetic simplu.
 
-- Infuzie de sunătoare. Acțiunea antibacteriană se referă la germenii gram pozitivi șj gram nega-tivi: Escherechia coli, Protcus vulgaris, Pseudomonas aeruginosa, Staphylococcus aureus, Streptococcus mutans. Și ca acțiuni antiviral: în virusul Epstein-Barr, gripal de tipul A și B, vinisul stomatitelor veziculare. Contraindicații
+- Infuzie de sunatoare. Actiunea antibacteriana se refera la germenii gram pozitivi sj gram nega-tivi: Escherechia coli, Protcus vulgaris, Pseudomonas aeruginosa, Staphylococcus aureus, Streptococcus mutans. Si ca actiuni antiviral: in virusul Epstein-Barr, gripal de tipul A si B, vinisul stomatitelor veziculare. Contraindicatii
 
-- Preparatele pe bază de Sunătoare pot produce neplăceri gastrice, în special în cazul în care se administrează pe stomacul gol. În timpul sarcinîi au efectc emenagogc și avortive.
+- Preparatele pe baza de Sunatoare pot produce neplaceri gastrice, in special in cazul in care se administreaza pe stomacul gol. In timpul sarcinii au efectc emenagogc si avortive.
 
-- În ceea ce privește interacțiunea cu alimentele, se vor evita: berea, brânzeturile fermentate, marinata de pește, în special de heringi, vinul și drojdia alimentară. Se vor evita medicamentele inhibitoare de M.A.O.
+- In ceea ce priveste interactiunea cu alimentele, se vor evita: berea, branzeturile fermentate, marinata de peste, in special de heringi, vinul si drojdia alimentara. Se vor evita medicamentele inhibitoare de M.A.O.
 
-- Preparatele pe bază de Sunătoare pentru uzul intem sunt antagoniste efectelor rezerpinei. Timpul de somn al consumatorilor de alcool este de asemenea afectat. Nu se recomandă nici în cazul folosirii ciclosporinelor, anticonvulsivelor și digitalicelor, teofilinâ, triptan.
+- Preparatele pe baza de Sunatoare pentru uzul intem sunt antagoniste efectelor rezerpinei. Timpul de somn al consumatorilor de alcool este de asemenea afectat. Nu se recomanda nici in cazul folosirii ciclosporinelor, anticonvulsivelor si digitalicelor, teofilina, triptan.
 
-- Miere cu usturoi: usturoi dat pe răzătoare și amestecat cu miere de tei (proportie 1:1). Se ia câte o lingură de amestec (cu puțină apă călduță) seara, înainte de culcare.
+- Miere cu usturoi: usturoi dat pe razatoare si amestecat cu miere de tei (proportie 1:1). Se ia cate o lingura de amestec (cu putina apa calduta) seara, inainte de culcare.
 
-- Scorțișoară: ½ linguriță x 2 ori pe zi.
+- Scortisoara: ½ lingurita x 2 ori pe zi.
 
-- Tinctură de smirnă: o linguriță x 2 ori pe zi
+- Tinctura de smirna: o lingurita x 2 ori pe zi
 
-- Tinctură de muguri de plop: 20pic x 3 ori pe zi
+- Tinctura de muguri de plop: 20pic x 3 ori pe zi
 
-- Tinctură de muguri de brad: o lingură x 2-3 ori pe zi
+- Tinctura de muguri de brad: o lingura x 2-3 ori pe zi
 
-- Tinctură de cuișoare: 10-20pic x 2-3 ori pe zi.
+- Tinctura de cuisoare: 10-20pic x 2-3 ori pe zi.
 
-- Tinctură de semințe de negrilică: 10-20pic x 2-3 ori pe zi.
+- Tinctura de seminte de negrilica: 10-20pic x 2-3 ori pe zi.
 
-- Tinctură de fructe de soc. Dacă vreți să preveniți gripa, faceți în timpul epidemiei o cură de două săptămâni cu tinctură de fructe de soc, în care să luați 3-6 linguri pe zi (fiecare doză diluată în apă). Dacă deja v-a prins gripa, veți lua 2 linguri de tinctură diluate în jumătate de pahar de apă, de 3-4 ori pe zi (de preferință la intervale de patru ore o doză de cealaltă).
+- Tinctura de fructe de soc. Daca vreti sa preveniti gripa, faceti in timpul epidemiei o cura de doua saptamani cu tinctura de fructe de soc, in care sa luati 3-6 linguri pe zi (fiecare doza diluata in apa). Daca deja v-a prins gripa, veti lua 2 linguri de tinctura diluate in jumatate de pahar de apa, de 3-4 ori pe zi (de preferinta la intervale de patru ore o doza de cealalta).
 
-- Tinctură de propolis. Un studiu realizat de către un cercetător german, A. Scheller, a arătat că la pacienții care iau 50 de picături de tinctură de propolis de patru ori pe zi, probabilitatea de a face o infecție cu virusul gripal scade cu până la 40%. De asemenea, la majoritatea pacienților tratați astfel cu propolis, timpul de vindecare se reduce la 3-4 zile, față de 6-7 zile la lotul martor.
+- Tinctura de propolis. Un studiu realizat de catre un cercetator german, A. Scheller, a aratat ca la pacientii care iau 50 de picaturi de tinctura de propolis de patru ori pe zi, probabilitatea de a face o infectie cu virusul gripal scade cu pana la 40%. De asemenea, la majoritatea pacientilor tratati astfel cu propolis, timpul de vindecare se reduce la 3-4 zile, fata de 6-7 zile la lotul martor.
 
-- Bitter suedez: o lingură x 3 ori pe zi.
+- Bitter suedez: o lingura x 3 ori pe zi.
 
 - Comprimate cu echinaceea: 2 x 2 ori pe zi.
 
-- Uleiuri esențiale de isop, mentă, eucalipt. Se pot lua intern câte 5-10pic amestecate cu puțină miere de tei. Apoi se bea apă. Sau se pot pune câteva picături pe vată și se pune în nări.
+- Uleiuri esentiale de isop, menta, eucalipt. Se pot lua intern cate 5-10pic amestecate cu putina miere de tei. Apoi se bea apa. Sau se pot pune cateva picaturi pe vata si se pune in nari.
 
-- Leac de la Maria Treben: siropul de podbal pe care ni-l putem fabrica din frunze de podbal se dovedește foarte bun în bronșite și alte afecțiuni pulmonare. Se ia o oală de lut sau un borcan de murături și se introduc alternativ un strat de frunze de podbal și un strat de zahăr nerafinat, se lasă să se așeze și se umple până ce nu mai e loc în vas. Apoi se leagă cu 2-3 straturi de celofan și se îngroapă în pământ. După 8 săptămâni se dezgroapă iar siropul de podbal astfel obținut se dă în 1-2 clocote. După ce se răcește, este turnat în sticle. Acest sirop este mijlocul nostru de apărare cel mai bun în timpul iernii pentru prevenirea gripei.
+- Leac de la Maria Treben: siropul de podbal pe care ni-l putem fabrica din frunze de podbal se dovedeste foarte bun in bronsite si alte afectiuni pulmonare. Se ia o oala de lut sau un borcan de muraturi si se introduc alternativ un strat de frunze de podbal si un strat de zahar nerafinat, se lasa sa se aseze si se umple pana ce nu mai e loc in vas. Apoi se leaga cu 2-3 straturi de celofan si se ingroapa in pamant. Dupa 8 saptamani se dezgroapa iar siropul de podbal astfel obtinut se da in 1-2 clocote. Dupa ce se raceste, este turnat in sticle. Acest sirop este mijlocul nostru de aparare cel mai bun in timpul iernii pentru prevenirea gripei.
 
-- Leac de la Cristian Țone : se face o infuzie concentrată de podbal: la 2 litri de apă se pun 25 linguri de frunze de podbal uscate. Se strecoară bine, iar ceaiul obținut se pune iar la fiert. Când a dat în clocot, se adaugă 18 linguri de frunze de podbal, se amestecă bine, se oprește focul și se acoperă vasul cu un capac. După 5 minute se adaugă două linguri de miere de tei și se amestecă bine. După 6 ore se strecoară foarte bine și se amestecă cu o cantitate dublă de miere de tei. Se păstreză la frigider.
+- Leac de la Cristian Tone : se face o infuzie concentrata de podbal: la 2 litri de apa se pun 25 linguri de frunze de podbal uscate. Se strecoara bine, iar ceaiul obtinut se pune iar la fiert. Cand a dat in clocot, se adauga 18 linguri de frunze de podbal, se amesteca bine, se opreste focul si se acopera vasul cu un capac. Dupa 5 minute se adauga doua linguri de miere de tei si se amesteca bine. Dupa 6 ore se strecoara foarte bine si se amesteca cu o cantitate dubla de miere de tei. Se pastreza la frigider.
 
-- Alimente recomandate: hrean, țelină, ceapă, usturoi, vinete, pătrunjel, usturoi, piper, sfeclă roșie.
+- Alimente recomandate: hrean, telina, ceapa, usturoi, vinete, patrunjel, usturoi, piper, sfecla rosie.
 
-- Renunțarea completă la zahăr pe perioada stării gripale!
+- Renuntarea completa la zahar pe perioada starii gripale!

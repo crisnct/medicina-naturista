@@ -1,4 +1,4 @@
-# Pentru creșterea părului la copii
-se recomandă uleiul de ricin.
+# Pentru cresterea parului la copii
+se recomanda uleiul de ricin.
 
-Se aplică de două ori pe săptămână seara înainte de culcare. Pielea capului se masează bine cu ulei de ricin, se lasă toată noaptea să acționeze, apoi dimineața se spală cu șampon. După ce se restabilește creșterea părului se continuă tratamentul odată la două săptămâni
+Se aplica de doua ori pe saptamana seara inainte de culcare. Pielea capului se maseaza bine cu ulei de ricin, se lasa toata noaptea sa actioneze, apoi dimineata se spala cu sampon. Dupa ce se restabileste cresterea parului se continua tratamentul odata la doua saptamani

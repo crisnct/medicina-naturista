@@ -1,4 +1,4 @@
-Alimente acide și alcaline
+Alimente acide si alcaline
 
 &
 &
@@ -13,7 +13,7 @@ Acidic)
 
 - Dimensiune: 700 × 684 px
 - SHA-256: `ca34e5f885b30e3c719bf68fc4a0578024961c7df2874a393f50526b0a6544da`
-- OCR Tesseract eng încredere medie: 85.1%
+- OCR Tesseract eng incredere medie: 85.1%
 
 ```text
 FRUCTE ALCALINE
@@ -129,7 +129,7 @@ prajite
 
 - Dimensiune: 1054 × 1502 px
 - SHA-256: `e063ff54eff528a34749c5f260bbee26a2e54a970c435e6d6112767d7fd9c666`
-- OCR Tesseract eng încredere medie: 87.1%
+- OCR Tesseract eng incredere medie: 87.1%
 
 ```text
 Alcalina

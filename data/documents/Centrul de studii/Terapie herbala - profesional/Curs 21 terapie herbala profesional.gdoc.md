@@ -37,7 +37,7 @@ Ashwaganda (ginsengul indian)
 
 Exista o alta clasa de substante vindecatoare de nervi, cunoscute ca si compusi de remielinare, care stimuleaza repararea tecii protectoare din jurul axonului neuronilor, cunoscuta ca mielina, si care este adesea vatamata in afectiunile sau disfunctiile neurologice, in special in tulburarile de demielinare autoimune sau induse de vaccinare. Ar trebui de asemenea notat ca pana si muzica si indragostirea au fost studiate ca posibile stimulente ale neurogenezei, regenerarii si/sau repararii neuronilor, indicand ca medicina regenerativa nu cere in mod necesar ingerarea a ceva; mai degraba ar putea fi intrebuintat un larg spectru de actiuni terapeutice pentru a imbunatati sanatatea si bunastarea corpului.
 
-Regenerarea ficatului – Glicirizina, compus gasit in lemnul dulce si care este si un puternic agent antiviral impotriva SARS, a fost gasit ca stimulând regenerarea masei si functiilor hepatice in modelul animal de hepatectomie (extirpare a ficatului). Alte substante regeneratoare ale ficatului includ:
+Regenerarea ficatului – Glicirizina, compus gasit in lemnul dulce si care este si un puternic agent antiviral impotriva SARS, a fost gasit ca stimuland regenerarea masei si functiilor hepatice in modelul animal de hepatectomie (extirpare a ficatului). Alte substante regeneratoare ale ficatului includ:
 
 Carvacrol (un compus volatil din oregano)
 
@@ -100,7 +100,7 @@ Stimularea dietelor, stilurilor de viata si atitudinilor ce duc la regenerarea c
 
 Postul
 
-Perioadă a purificarii sufletesti, postul poate fi si un bun prilej pentru detoxifierea organismului sau, dimpotriva, o perioada in care luam in greutate si pierdem din energie.
+Perioada a purificarii sufletesti, postul poate fi si un bun prilej pentru detoxifierea organismului sau, dimpotriva, o perioada in care luam in greutate si pierdem din energie.
 
 Asta in functie de dieta pe care alegem sa o respectam. Cel mai important lucru pe care trebuie sa il avem in vedere este echilibrul nutritional. Indiferent ca este perioada postului sau nu, avem nevoie de toate grupele de nutrienti: carbohidrati, proteine si grasimi. Asta cu atat mai mult in perioadele cu schimbari climatice puternice cand organismul trebuie sa isi adapteze consumul de energie.
 

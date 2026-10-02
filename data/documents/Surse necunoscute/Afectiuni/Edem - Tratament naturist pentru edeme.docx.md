@@ -14,4 +14,4 @@ Ceai de ghimbir
 
 Proteine
 
-Aminoven, soluție perfuzabilă, 5%/ 10%/ 15% - stimuleaza corpul sa produca proteine
+Aminoven, solutie perfuzabila, 5%/ 10%/ 15% - stimuleaza corpul sa produca proteine

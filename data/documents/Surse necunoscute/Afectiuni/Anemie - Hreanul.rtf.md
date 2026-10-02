@@ -1,7 +1,7 @@
 # Anemie
 
-() Pentru adulþi : 30 gr rãdãcinã de hrean ras
+() Pentru adulþi : 30 gr radacina de hrean ras
 
-ã, pusã intr-un litru de vin. Amestecul se lasã la macerat 8-10 zile dupã care se strecoarã. Se consuma 50 ml de vin înainte de masa.
+a, pusa intr-un litru de vin. Amestecul se lasa la macerat 8-10 zile dupa care se strecoara. Se consuma 50 ml de vin inainte de masa.
 
- Pentru copii : Hreanul se taie in rondele fine si se acoperã cu zahar. Din sucul format se administreazã in fiecare zi câte o linguriþã.
+ Pentru copii : Hreanul se taie in rondele fine si se acopera cu zahar. Din sucul format se administreaza in fiecare zi cate o linguriþa.

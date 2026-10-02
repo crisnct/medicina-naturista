@@ -1,90 +1,90 @@
-Rețete pentru regimul Oshawa
+Retete pentru regimul Oshawa
 
-Pe lângă grâul, orezul, hrișca sau meiul preparate simplu prin fierbere în apă cu sare, se mai pot consuma și următoarele combinații:
-- orez fiert împreună cu făină de grâu, hrișcă sau mei coapte;
-- grâu fiert împreună cu făină de orez copt;
-- hrișcă fiartă împreună cu făină de grâu copt;
-- hrișcă fiartă împreună cu făină de hrișcă.
+Pe langa graul, orezul, hrisca sau meiul preparate simplu prin fierbere in apa cu sare, se mai pot consuma si urmatoarele combinatii:
+- orez fiert impreuna cu faina de grau, hrisca sau mei coapte;
+- grau fiert impreuna cu faina de orez copt;
+- hrisca fiarta impreuna cu faina de grau copt;
+- hrisca fiarta impreuna cu faina de hrisca.
 
 Se pot prepara, de asemenea:
 
-Turtițe de grâu sau hrișcă
+Turtite de grau sau hrisca
 
-Ingrediente: 500g grâu sau hrișcă, 1 linguriță de sare grunjoasă și 150 ml apă.
+Ingrediente: 500g grau sau hrisca, 1 lingurita de sare grunjoasa si 150 ml apa.
 
-Grâul se macină fin cu o râșniță de cafea și se amestecă împreună cu apa și sarea. Coca obținută astfel se lasă să se înmoaie timp de o jumătate de oră după care se modelează turtițele și se coc într-o tigaie fără ulei la foc mic. La cuptor se pot face covrigi, batoane sau orice alte forme. Se procedează la fel în cazul turtelor din hrișcă. Se recomandă să se facă turtițe din făină de grâu amestecată cu făină de hrișcă sau/și cu făină de mei, făina de grâu fiind în proporția cea mai mare.
+Graul se macina fin cu o rasnita de cafea si se amesteca impreuna cu apa si sarea. Coca obtinuta astfel se lasa sa se inmoaie timp de o jumatate de ora dupa care se modeleaza turtitele si se coc intr-o tigaie fara ulei la foc mic. La cuptor se pot face covrigi, batoane sau orice alte forme. Se procedeaza la fel in cazul turtelor din hrisca. Se recomanda sa se faca turtite din faina de grau amestecata cu faina de hrisca sau/si cu faina de mei, faina de grau fiind in proportia cea mai mare.
 
-Placintă de grâu cu orez fiert
+Placinta de grau cu orez fiert
 
-Ingrediente: 500g faină de grâu integrală, 200g orez, 1 linguriță de sare grunjoasă.
+Ingrediente: 500g faina de grau integrala, 200g orez, 1 lingurita de sare grunjoasa.
 
-Din făina de grâu și apa calduță se obține un aluat. În timp ce aluatul se frământă, se fierbe orezul cu puțină sare. Se întinde coca pentru a obține o foaie mai groasă. Se adaugă orezul la mijloc și se rulează foaia ca un rulou. Se așează într-o tavă tapetată cu faină integrală și se coace la foc iute timp de 10-20 de minute.
+Din faina de grau si apa calduta se obtine un aluat. In timp ce aluatul se framanta, se fierbe orezul cu putina sare. Se intinde coca pentru a obtine o foaie mai groasa. Se adauga orezul la mijloc si se ruleaza foaia ca un rulou. Se aseaza intr-o tava tapetata cu faina integrala si se coace la foc iute timp de 10-20 de minute.
 
-Lipie și turte din mei
+Lipie si turte din mei
 
-Făina de mei se combină cu apă și sare până devine un terci subțire. Se lasă 2 ore, după care se frământă bine timp de câteva minute. Se pune în tavă la cuptor, timp de 30 de minute. Din același aluat se pot face turte cu diametrul de 3 cm, care se coc pe o tablă încinsă sau într-o tigaie fără ulei la foc mic.
+Faina de mei se combina cu apa si sare pana devine un terci subtire. Se lasa 2 ore, dupa care se framanta bine timp de cateva minute. Se pune in tava la cuptor, timp de 30 de minute. Din acelasi aluat se pot face turte cu diametrul de 3 cm, care se coc pe o tabla incinsa sau intr-o tigaie fara ulei la foc mic.
 
-Supă de orez cu găluști de grâu
+Supa de orez cu galusti de grau
 
-Folosind faină integrală de grâu, sare și apă se prepară o cocă moale din care se modelează găluști mici care se pun în apa clocotită. După ce au fiert se adaugă orez sau faină de orez. Se mai fierbe 10-15 minute, amestecând des dacă am pus făină de orez pentru a nu se lipi. În loc de orez se poate folosi și hrișcă.
+Folosind faina integrala de grau, sare si apa se prepara o coca moale din care se modeleaza galusti mici care se pun in apa clocotita. Dupa ce au fiert se adauga orez sau faina de orez. Se mai fierbe 10-15 minute, amestecand des daca am pus faina de orez pentru a nu se lipi. In loc de orez se poate folosi si hrisca.
 
-Terci de grâu și orez
+Terci de grau si orez
 
-Așa cum se prepară și mămăliga, se pune apa la fiert cu puțină sare, iar când apa clocotește se adaugă în ploaie făina de grâu integral și făina de orez. Se fierbe amestecul timp de 20-30 de minute. Deoarece atât grâul cât și orezul se umflă la fiert, va trebui să se lase compoziția mai moale și să nu se adauge prea multă făină. De asemenea, se poate realiza și terci din făină de mei sau amestecat cu făină de grâu sau orez.
+Asa cum se prepara si mamaliga, se pune apa la fiert cu putina sare, iar cand apa clocoteste se adauga in ploaie faina de grau integral si faina de orez. Se fierbe amestecul timp de 20-30 de minute. Deoarece atat graul cat si orezul se umfla la fiert, va trebui sa se lase compozitia mai moale si sa nu se adauge prea multa faina. De asemenea, se poate realiza si terci din faina de mei sau amestecat cu faina de grau sau orez.
 
-Grâu, hrișcă sau mei copt
+Grau, hrisca sau mei copt
 
-Se spală foarte bine grâul și se pune într-o tigaie cu sare, în strat subțire, cât să o acopere. Se pune pe foc puternic și se amestecă în continuu cu o lingură de lemn. Se coace până când boabele de grâu plesnesc toate și își schimbă ușor culoarea. Se verifică dacă grâul a devenit crocant și ușor de mestecat. E necesar ca grâul să fie luat de pe foc înainte de a se arde, deoarece începe foarte rapid să se închidă la culoare după ce s-a evaporat apa din boabele de grâu.
+Se spala foarte bine graul si se pune intr-o tigaie cu sare, in strat subtire, cat sa o acopere. Se pune pe foc puternic si se amesteca in continuu cu o lingura de lemn. Se coace pana cand boabele de grau plesnesc toate si isi schimba usor culoarea. Se verifica daca graul a devenit crocant si usor de mestecat. E necesar ca graul sa fie luat de pe foc inainte de a se arde, deoarece incepe foarte rapid sa se inchida la culoare dupa ce s-a evaporat apa din boabele de grau.
 
-Pentru hrișcă sau mei se procedează la fel, cu observația că acestea se vor coace fără a fi umezite înainte. În schimb, se adaugă sarea umezită pentru ca aceasta să adere la boabele de hrișcă sau mei.
+Pentru hrisca sau mei se procedeaza la fel, cu observatia ca acestea se vor coace fara a fi umezite inainte. In schimb, se adauga sarea umezita pentru ca aceasta sa adere la boabele de hrisca sau mei.
 
-Supă de tăiței de hrișcă
+Supa de taitei de hrisca
 
-Se prepară un aluat tare din făină de hrișcă măcinată fin, sare și apă, aluat care apoi se întinde cu făcălețul pe o masă presărată cu făină. Se rulează apoi foaia obținută și se taie felii subțiri. Din aceste felii, când se desfac, se obțin tăiței care se pun într-o sită și se scutură de făină. Se mai țin un sfert de oră să se usuce, apoi se fierb în apă clocotită cu sare timp de 10-15 minute. Opțional se poate adăuga și o mână de orez.
+Se prepara un aluat tare din faina de hrisca macinata fin, sare si apa, aluat care apoi se intinde cu facaletul pe o masa presarata cu faina. Se ruleaza apoi foaia obtinuta si se taie felii subtiri. Din aceste felii, cand se desfac, se obtin taitei care se pun intr-o sita si se scutura de faina. Se mai tin un sfert de ora sa se usuce, apoi se fierb in apa clocotita cu sare timp de 10-15 minute. Optional se poate adauga si o mana de orez.
 
-Mămăligă din mei
+Mamaliga din mei
 
-Ingrediente: 100 g făină de mei, 500 ml apă
+Ingrediente: 100 g faina de mei, 500 ml apa
 
-Făina de mei se pune în apă la foc mic. Se acoperă și se amestecă periodic timp de 20-25 minute.
+Faina de mei se pune in apa la foc mic. Se acopera si se amesteca periodic timp de 20-25 minute.
 
-Cremă de orez
+Crema de orez
 
-Se prăjește moderat orezul până ce devine rumen. Se macină și se adaugă la făina rezultată trei pahare de apă la patru linguri de făină astfel obținută. Se fierbe totul aproximativ 25 de minute, adăugând apă dacă mai este necesar. Sarea se adaugă la final.
+Se prajeste moderat orezul pana ce devine rumen. Se macina si se adauga la faina rezultata trei pahare de apa la patru linguri de faina astfel obtinuta. Se fierbe totul aproximativ 25 de minute, adaugand apa daca mai este necesar. Sarea se adauga la final.
 
-Cremă de hrișcă (1)
+Crema de hrisca (1)
 
-Se rumenește făina de hrișcă, după care se adaugă apă și se lasă să fiarbă până se îngroașă. Se sărează după gust.
+Se rumeneste faina de hrisca, dupa care se adauga apa si se lasa sa fiarba pana se ingroasa. Se sareaza dupa gust.
 
-Cremă de hrișcă (2)
+Crema de hrisca (2)
 
-Într-o cratiță se pune apă la fiert până dă în clocot. Se pune „în ploaie” făina de hrișcă și sarea; se lasă să fiarbă până se îngroașă.
+Intr-o cratita se pune apa la fiert pana da in clocot. Se pune „in ploaie” faina de hrisca si sarea; se lasa sa fiarba pana se ingroasa.
 
-Găluști de hrișcă în stil japonez (Soba-dango)
+Galusti de hrisca in stil japonez (Soba-dango)
 
-Se prepară un aluat din făina de hrișcă și apa ușor sărată, frământând bine. Din aluatul rezultat se face un sul (diametrul de aproximativ 2 cm) și se taie bucăți de 5 cm grosime. Se fierb aceste găluști în 4 pahare cu apă. Când clocotește apa, se adaugă ½ pahar cu apă rece. La o nouă clocotire, se stinge focul și se scurge apa, iar găluștile se stropesc cu apă rece.
+Se prepara un aluat din faina de hrisca si apa usor sarata, framantand bine. Din aluatul rezultat se face un sul (diametrul de aproximativ 2 cm) si se taie bucati de 5 cm grosime. Se fierb aceste galusti in 4 pahare cu apa. Cand clocoteste apa, se adauga ½ pahar cu apa rece. La o noua clocotire, se stinge focul si se scurge apa, iar galustile se stropesc cu apa rece.
 
-Cea mai mare eficacitate o are însă hrana netratată termic. Următoarele rețete au avantajul că evită fierberea cerealelor:
+Cea mai mare eficacitate o are insa hrana netratata termic. Urmatoarele retete au avantajul ca evita fierberea cerealelor:
 
-Hrișcă înmuiată în apă (1)
+Hrisca inmuiata in apa (1)
 
-Se spală hrișca, se toarnă apă clocotită puțin sărată, peste ea, apoi se lasă la înmuiat până când bobul de hrișcă devine moale.
+Se spala hrisca, se toarna apa clocotita putin sarata, peste ea, apoi se lasa la inmuiat pana cand bobul de hrisca devine moale.
 
-Hrișcă înmuiată în apă (2)
+Hrisca inmuiata in apa (2)
 
-Hrișca spălată se lasă la înmuiat în apă rece cu sare timp de minim o oră, până ce bobul devine moale. Timpul de înmuiere depinde de calitatea și vechimea boabelor de hrișcă.
+Hrisca spalata se lasa la inmuiat in apa rece cu sare timp de minim o ora, pana ce bobul devine moale. Timpul de inmuiere depinde de calitatea si vechimea boabelor de hrisca.
 
-Terci de hrișcă (1)
+Terci de hrisca (1)
 
-Este o mâncare delicioasă și foarte sănătoasă, care poate fi consumată des în acest regim. Se macină hrișca cu o râșniță de cafea până se obține o făină fină. Se toarnă apă clocotită, puțin sărată, peste ea și se amestecă, obținându-se o compoziție moale care se lasă la umflat 15-20 de minute. Se observă apoi că făina de hrișcă a absorbit toată apa și terciul a devenit consistent, fiind foarte gustos și hrănitor.
+Este o mancare delicioasa si foarte sanatoasa, care poate fi consumata des in acest regim. Se macina hrisca cu o rasnita de cafea pana se obtine o faina fina. Se toarna apa clocotita, putin sarata, peste ea si se amesteca, obtinandu-se o compozitie moale care se lasa la umflat 15-20 de minute. Se observa apoi ca faina de hrisca a absorbit toata apa si terciul a devenit consistent, fiind foarte gustos si hranitor.
 
-Terci de hrișcă (2)
+Terci de hrisca (2)
 
-Terciul de hrișcă poate fi preparat și cu apă rece puțin sărată, caz în care va trebui lăsat ceva mai mult timp la umflat. Preparat astfel, terciul de hrișcă este la fel de gustos și hrănitor.
+Terciul de hrisca poate fi preparat si cu apa rece putin sarata, caz in care va trebui lasat ceva mai mult timp la umflat. Preparat astfel, terciul de hrisca este la fel de gustos si hranitor.
 
-Pâine „harică” (consumată de călugării isihaști)
+Paine „harica” (consumata de calugarii isihasti)
 
-Făina completă (integrală) de grâu se amestecă cu apă, formându-se o pastă moale. Se lasă la înmuiat 7 ore, apoi se fac turtițe foarte subțiri,care se lasă să se usuce la soare.
+Faina completa (integrala) de grau se amesteca cu apa, formandu-se o pasta moale. Se lasa la inmuiat 7 ore, apoi se fac turtite foarte subtiri,care se lasa sa se usuce la soare.
 
 - Budinca de mei cu grau crocant
 
@@ -108,7 +108,7 @@ Se prepara dupa aceeasi procedura ca si painicile (in orice combinatie de faini:
 
 - “Terci” de cereale
 
-Se prepara la fel ca mamaliguta. Se pune apa la fiert cu putina sare si cand clocoteste se adauga in ploaie faina de mei/ orez/ hrisca/ grau sau o combinatie intre acestea. Deoarece atat graul cat si orezul se umfla la fiert, va trebui să se lase compozitia mai moale si sa nu se adauge prea multa faina.
+Se prepara la fel ca mamaliguta. Se pune apa la fiert cu putina sare si cand clocoteste se adauga in ploaie faina de mei/ orez/ hrisca/ grau sau o combinatie intre acestea. Deoarece atat graul cat si orezul se umfla la fiert, va trebui sa se lase compozitia mai moale si sa nu se adauge prea multa faina.
 
 - Supa crema de hrisca
 
@@ -140,4 +140,4 @@ DAY V
 
 am mancat un orez cu hrisca, o mamaliga de mei, cateva saratele din faina de orez si hrisca cu mei deasupra si 2-3 rondele de orez, plus aproximativ 2 litri de apa
 
-a 11-a zi de dimineață, am mâncat un orez cu morcovi, ceapă, bulion (făcut de tata, din roșii din grădina lui) și foarte puțin ulei, fără pâine. Mi-era parcă milă să nu „stric” purificarea
+a 11-a zi de dimineata, am mancat un orez cu morcovi, ceapa, bulion (facut de tata, din rosii din gradina lui) si foarte putin ulei, fara paine. Mi-era parca mila sa nu „stric” purificarea

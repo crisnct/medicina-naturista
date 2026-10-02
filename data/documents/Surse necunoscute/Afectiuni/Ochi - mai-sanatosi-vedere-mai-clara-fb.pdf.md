@@ -1,18 +1,18 @@
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 DISCLAIMER
 
- Conținutul este ©copyright VEDEREPERFECTA.COM - Toate drepturile rezervate.
+ Continutul este ©copyright VEDEREPERFECTA.COM - Toate drepturile rezervate.
 
- Nicio parte a acestui document NU poate fi transmisă sau reprodusă sub orice formă, prin
-diferite mijloace (e-mail, fotocopiere, înregistrare și altele) fără permisiunea prealabilă a
+ Nicio parte a acestui document NU poate fi transmisa sau reprodusa sub orice forma, prin
+diferite mijloace (e-mail, fotocopiere, inregistrare si altele) fara permisiunea prealabila a
 autorului.
 
- Informațiile din acest raport reprezintă opinii si experiente ale autorului în cea mai mare
-parte, dar sunt și informații inspirate din alte surse cu scop informativ și educațional.
+ Informatiile din acest raport reprezinta opinii si experiente ale autorului in cea mai mare
+parte, dar sunt si informatii inspirate din alte surse cu scop informativ si educational.
 
- Nici autorul și nici VEDEREPERFECTA.COM nu sunt responsabili pentru rezultatele sau
-efectele secundare rezultate în urma aplicării acestor sfaturi.
+ Nici autorul si nici VEDEREPERFECTA.COM nu sunt responsabili pentru rezultatele sau
+efectele secundare rezultate in urma aplicarii acestor sfaturi.
 
  Cu toate acestea, NU ar trebui sa existe nici un efect secundar, atat timp cat sunt aplicate
 sfaturile, tehnicile si metodele asa cum sunt redate mai jos.
@@ -24,7 +24,7 @@ vei observa ca functioneaza.
 daca te inarmezi cu determinare, perseverenta si consecventa, GARANTAT iti vei imbunatati
 vederea indiferent de stadiul in care se afla ACUM!!
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 CUPRINS
 
@@ -34,7 +34,7 @@ Cei mai importanti nutrienti ai vederii …………………………...…….
 Metode naturale de imbunatatire a vederii ……………..………..….….. 15-19
 Concluzie……………………………..…………..………..…………….. 20
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 Introducere…
 Sfaturile din acest PDF se bazeaza pe mai multe cercetari si experimente (pe proprii ochi dar
@@ -50,7 +50,7 @@ sufletului si camerele de vedere ale trupului. Ei ne ajuta sa deosebim culorile,
 naturii si sa ne avertizeze de pericole iminente.
 Printre cele 5 simturi, vederea joaca un rol crucial in supravietuire. Ne folosim vederea ca sa
 apreciem distanta dintre treptele unei scari pentru ca muschii nostrii sa actioneze corespun-
-zator in asa fel incat sa putem urca si mai ales coborî scarile in siguranta. Ne folosim vederea
+zator in asa fel incat sa putem urca si mai ales cobori scarile in siguranta. Ne folosim vederea
 pentru a calcula distanta de la o masina care vine spre noi astfel incat sa fim in stare sa o
 evitam. Defapt, ochii nostri ne tin cel mai mult in siguranta, ne ajuta sa fim mai sanatosi si
 mai fericiti.
@@ -60,10 +60,10 @@ nu este asa o problema majora daca cineva are o vedere slaba, fiindca sunt ochel
 de contact care s-o corecteze. Insa dupa cum ar trebui sa se stie, ochelarii sau lentilele de
 contact nu corecteaza vederea decat atunci cand le porti. Trateaza efectul, nu si cauza erorilor
 de refractie.
-Si pana la urma de ce sa depinzi de aceste ajutoare ca de niste cârje oculare, cand poti obtine
+Si pana la urma de ce sa depinzi de aceste ajutoare ca de niste carje oculare, cand poti obtine
 natural o vedere clara prin aplicarea unor tehnici si metode care trebuie sa iti devina obiceiuri?
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 Cum sa previi si sa tratezi cele mai frecvente
 probleme de vedere
@@ -88,7 +88,7 @@ afectiune minora, deoarece putem lua acea bacterie care provoaca urciorul si far
 afara din casa si sa ne contaminam.
 Totusi, daca ai urcior, nu vrei sa transmiti bacteria la ochii celorlalti. In felul acesta ai putea
 sa le provoci urciori sau alte infectii oculare. Daca ai urcior nu imprumuta prosoapele de fata
-sau pernele si mă refer in special la fețele de perna. Si pastreaza-ti mainile si ochii curati!
+sau pernele si ma refer in special la fetele de perna. Si pastreaza-ti mainile si ochii curati!
 
 Cum sa previi si sa tratezi urciorul
 Cazurile usoare de urcior se vindeca de la sine in cateva zile. In aceasta perioada, poti grabi
@@ -98,7 +98,7 @@ Facand asta, iti vei amorti durerea si urciorul nu se va mai transforma intr-un 
 daca e unul, se va retrage, se va micsora. In cele mai multe cazuri, urciorul se va sparge
 asemenea unui cos si se va vindeca fara alte interventii. Dar lasa sa se intample asta de la
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 sine, sa nu cumva sa incerci sa-l spargi tu ca pe un cos. Nu iti recomand asta! Iti recomand sa
 tamponezi cu o vata cu spirt dupa ce ti s-a spart pentru a steriliza locul afectat.
@@ -112,7 +112,7 @@ aparitiilor urciorilor.
 
 Conjunctivita sau „ochii rosii”
 Aceasta afectiune este o inflamatie a conjunctivei. Conjunctiva este o membrana formata din
-mucus care acoperă sclerotica (albul ochiului) si se afla la marginile interioare ale ochilor.
+mucus care acopera sclerotica (albul ochiului) si se afla la marginile interioare ale ochilor.
 Conjunctiva ajuta la lubrifierea ochiului producand mucus si lacrimi. De asemenea mai
 contribuie la imunitatea locala si ajuta la prevenirea intrarii bacterilor in ochi.
 Conjunctivita poate fi foarte contagioasa si se poate raspandi rapid si la celalalt ochi daca nu
@@ -135,7 +135,7 @@ Cauze
 Sunt cativa factori care cauzeaza conjunctivita dar cel mai comun este intrarea in contact cu
 anumiti virusi sau bacterii la nivelul ochilor.
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 Alte cauze comune includ:
  Alergiile
@@ -148,7 +148,7 @@ sa-ti identifice si tipul de conjunctivita. Mai jos ai cateva tipuri de conjunct
 1. Conjunctivitele virale
 
 Acestea sunt cauzate de infectii ale cailor respiratorii superioare si raceli. Afecteaza deobicei
-un ochi dar îi poate afecta pe amandoi. Conjunctivitele virale produc lacrimari excesive.
+un ochi dar ii poate afecta pe amandoi. Conjunctivitele virale produc lacrimari excesive.
 Acest tip de conjunctivita tinde sa fie mai contagioasa decat tipul bacterian al acesteia.
 
 2. Conjunctivitele bacteriene
@@ -171,7 +171,7 @@ O conjunctivita virala, deobicei dureaza intre patru si sapte zile. Conjunctivit
 pot fi foarte contagioase asa ca, cauta tratament specializat de la un medic oftalmolog.
 Evita contactul cu ceilalti si spala-ti mainile des.
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 2) Conjunctivitele bacteriene
 O conjunctivita bacteriana dureaza cel putin o saptamana. Poate fi tratata cu alifie sau
@@ -180,23 +180,23 @@ pe care oftalmologul ti-l va da chiar si cand simptomele ochilor vor disparea.
 3) Conjunctivitele alergice
 Pentru alergii, conjunctivitele ar trebui sa dispara odata ce alergia este tratata si factorul
 alergen este eliminat. Consulta un doctor daca ai conjunctivita alergica.
-In cazul substantelor iritante, foloseste apa de la robinet pentru a clati/curăța substanta
+In cazul substantelor iritante, foloseste apa de la robinet pentru a clati/curata substanta
 din ochi, timp de 5 minute. A trebui sa apara o imbunatatire in urmatoarele 8 ore. Daca
 conjunctivita este cauzata de o substanta alcalina sau acida cum ar fi inalbitorul, spala-ti
 si curata-ti imediat ochii cu apa din abundenta si suna un medic. Preferabil, oftalmologul.
 Insa fiind mai urgent apeleaza la medicul de familie si va stii ce sa faca in legatura cu tine.
-Cauza cea mai frecventă a conjunctivitei o reprezintă infecția virală. În general, simpto-
-mele dispar în câteva zile, fără a fi nevoie de tratament, doar prin spălarea ochilor cu apă
-călduță. În cazurile persistente, infecția poate fi de natură bacteriană, caz în care este
-necesar tratamentul cu antibiotice sub formă de picături. În cazurile de recurență a bolii,
-este suspectată prezența unor bacterii la marginea pleoapei. Putem preveni situația prin
-spălarea și curățarea pleoapelor în mod regulat (prin masaj sau ștergere ușoară) cu
-ajutorul unei comprese sau șervețel curat și apei călduțe. În multe cazuri este greu de
-determinat dacă persoana respectivă suferă de o formă de alergie cu manifestări la
-nivelul conjunctivei. Dacă nu există alte simptome alergice, determinarea altor factori
-declanșatori este aproape imposibilă. Dacă unul dintre principalele simptome este
-mâncărimea, iar aspectul conjunctivei sugerează hipersensibilitate, se pot recomanda
-picăturile oculare împotriva simptomelor alergice.
+Cauza cea mai frecventa a conjunctivitei o reprezinta infectia virala. In general, simpto-
+mele dispar in cateva zile, fara a fi nevoie de tratament, doar prin spalarea ochilor cu apa
+calduta. In cazurile persistente, infectia poate fi de natura bacteriana, caz in care este
+necesar tratamentul cu antibiotice sub forma de picaturi. In cazurile de recurenta a bolii,
+este suspectata prezenta unor bacterii la marginea pleoapei. Putem preveni situatia prin
+spalarea si curatarea pleoapelor in mod regulat (prin masaj sau stergere usoara) cu
+ajutorul unei comprese sau servetel curat si apei caldute. In multe cazuri este greu de
+determinat daca persoana respectiva sufera de o forma de alergie cu manifestari la
+nivelul conjunctivei. Daca nu exista alte simptome alergice, determinarea altor factori
+declansatori este aproape imposibila. Daca unul dintre principalele simptome este
+mancarimea, iar aspectul conjunctivei sugereaza hipersensibilitate, se pot recomanda
+picaturile oculare impotriva simptomelor alergice.
 
 Sindromul ochiului uscat
 
@@ -212,7 +212,7 @@ motive pentru care pacientii isi consulta medicul oftalmolog. Sindromul ochiului
 este de obicei asociat cu senzatia de uscaciune, mancarime sau arsuri ale ochilor. Apare
 si o roseata la nivelul ochilor. Unii oameni au senzatia ca au o geana sau nisip in ochi.
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 Aceasta afectiune poate duce totusi la lacrimarea ochilor, deoarece uscaciunea poate
 stimula excesul de lacrimi printr-un reflex, numit reflex lacrimal. In stadiile incipiente,
@@ -222,10 +222,10 @@ evita deteriorarea ochilor, este de a recunoaste sindromul ochiului uscat cat ma
 devreme si apoi sa se caute un tratament pentru acesta. Fara tratament, sindromul
 ochiului uscat poate duce la glaucom si chiar la dezlipire de retina si prin urmare la
 pierderea vederii.
- Mulți oameni nu mentioneaza simptomele sindromului ochiului uscat medicilor lor.
-Există mai multe tratamente eficiente pentru pacienți cu astfel de afectiune. Medicii pot
-ajuta pacienții sa elimine sau macar sa amelioreze simptomele sindromului ochiului
-uscat. Intreaba specialistul oftalmolog despre opțiunile disponibile.
+ Multi oameni nu mentioneaza simptomele sindromului ochiului uscat medicilor lor.
+Exista mai multe tratamente eficiente pentru pacienti cu astfel de afectiune. Medicii pot
+ajuta pacientii sa elimine sau macar sa amelioreze simptomele sindromului ochiului
+uscat. Intreaba specialistul oftalmolog despre optiunile disponibile.
 Ochii rosii, senzatia de arsura, uscaciune sau de „nisip in ochi”, care se inrautateste
 seara sau dupa o perioada de citit, dupa ce privesti la televizor, dupa ce lucrezi la
 calculator sau dupa ce conduci, toate sugereaza prezenta sindromului de ochi uscat.
@@ -243,7 +243,7 @@ nevoie de tratament pentru ochii uscati.
 Din ce cauze crezi ca ti se usuca ochii si lacrimile ti se "evapora"?
 Sindromul de ochi uscat are mai multe cauze:
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
  procesul natural de imbatranire, mai ales in timpul menopauzei; dupa 50 de ani devii
 din ce in ce mai expus la riscurile sindromului de „ochi uscat”. Aproape toti pacientii
@@ -254,12 +254,12 @@ parkinsoniene, anticonceptionale;
  climat uscat, cu vant si praf;
  aerul conditionat sau un sistem de incalzire uscata;
  clipitul insuficient, ca in cazul privitului unui ecran de computer pentru o perioada
-indelungata; Din cauza clipitului rar una din cinci persoane suferă de acest sindrom,
-care necesită un tratament sau o terapie îndelungată.
+indelungata; Din cauza clipitului rar una din cinci persoane sufera de acest sindrom,
+care necesita un tratament sau o terapie indelungata.
  boli sistemice, cum ar fi lupusul, artrita reumatoida, acnee rozacee
  purtatul indelungat de lentile de contact;
  fumatul;
- modificări apărute în sistemul nervos, hormonal și imunitar care pot apărea de-a
+ modificari aparute in sistemul nervos, hormonal si imunitar care pot aparea de-a
 lungul timpului.
 
  Sfaturi pentru prevenirea si tratarea „ochiului uscat”
@@ -285,7 +285,7 @@ blefarita
 
 8. Nu mai purta lentile de contact. Renunta la acestea!
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 6 Dintre Cei Mai Importanti
 Nutrienti ai Vederii
@@ -309,52 +309,52 @@ ineficienti, oferindu-ti o vedere dificila, la adaptarea incaperilor/locurilor i
 conditii pe timp de noapte. Acest lucru poate fi periculos deoarece se pot cauza accidente
 rutiere pe timp de noapte.
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 Daca acomodarea la intuneric, se face in mai mult de un minut, rezulta ca ai deficit de
-vitamina A. Deci, este evident ca vitamina A este o vitamina vitală pentru vedere. Ea este
-consumată prin expunerea la căldură și lumină strălucitoare, lumini fluorescente, monitoare de
-calculator și ecrane TV. Nicotina din țigări și alcoolul ard de asemenea vitamina A.
+vitamina A. Deci, este evident ca vitamina A este o vitamina vitala pentru vedere. Ea este
+consumata prin expunerea la caldura si lumina stralucitoare, lumini fluorescente, monitoare de
+calculator si ecrane TV. Nicotina din tigari si alcoolul ard de asemenea vitamina A.
 
-Beta-carotenul este stocat în ficat și apoi transformat în Vitamina A, la cerere. Este mai sigur
-să consumi beta-caroten, întrucât nu există o limită cu privire la cât poți lua. În ceea ce
-privește Vitamina A, limita este de 10 mg/zi, pe o perioadă lungă de timp. Dozajul
-recomandat pentru supliment este de 5 mg si 25 mg pe zi, într-un complex de caroten.
+Beta-carotenul este stocat in ficat si apoi transformat in Vitamina A, la cerere. Este mai sigur
+sa consumi beta-caroten, intrucat nu exista o limita cu privire la cat poti lua. In ceea ce
+priveste Vitamina A, limita este de 10 mg/zi, pe o perioada lunga de timp. Dozajul
+recomandat pentru supliment este de 5 mg si 25 mg pe zi, intr-un complex de caroten.
 
- Cea mai bună sursă de beta-caroten se află în morcovi, mai ales
-în sucul lor proaspăt. De asemenea, se găsește în fructele și
-legumele galbene și verzi.
+ Cea mai buna sursa de beta-caroten se afla in morcovi, mai ales
+in sucul lor proaspat. De asemenea, se gaseste in fructele si
+legumele galbene si verzi.
 
 Vitamina C
 Este cea mai importanta vitamina a vederii. Aproximativ 25% din vitamina C din corp este
-consumata de cei 2 ochi si este vital pentru sănătatea cristalinelor.
+consumata de cei 2 ochi si este vital pentru sanatatea cristalinelor.
 
-Cristalinele conțin de șapte ori mai multă vitamina C decât orice altă parte a corpului.
-Vitamina C este un antioxidant important, necesar luptei împotriva oxidării provocate de
+Cristalinele contin de sapte ori mai multa vitamina C decat orice alta parte a corpului.
+Vitamina C este un antioxidant important, necesar luptei impotriva oxidarii provocate de
 radicalii liberi.
 
-Reține ca fumatul reduce nivelul de vitamina C și este un
-factor important în dezvoltarea de cataracte. Pentru a fi
-complet eficiente, suplimentele de Vitamina C trebuie să
-conțină bioflavonoide. Bioflavonoidele se găsesc în
-coacăzele negre, struguri și merișoare. Dozajul
+Retine ca fumatul reduce nivelul de vitamina C si este un
+factor important in dezvoltarea de cataracte. Pentru a fi
+complet eficiente, suplimentele de Vitamina C trebuie sa
+contina bioflavonoide. Bioflavonoidele se gasesc in
+coacazele negre, struguri si merisoare. Dozajul
 recomandat ca supliment este de 500-1000 mg pe zi.
 Sursele naturale de vitamina C sunt citricele, precum
-lămâia și portocala. Se mai întâlnește în pepeni și roșii.
+lamaia si portocala. Se mai intalneste in pepeni si rosii.
 
-Vitamina C reduce riscul apariției cataractelor, deoarece functionează ca un antioxidant.
-Deasemenea, vitamina C poate să protejeze ochiul împotriva luminii solare.
+Vitamina C reduce riscul aparitiei cataractelor, deoarece functioneaza ca un antioxidant.
+Deasemenea, vitamina C poate sa protejeze ochiul impotriva luminii solare.
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 Vitamina E
-Are rolul de a mentine elasticitatea muschilor oculari si a cristalinelor. Mai ajută ca fluxul
-sanguin să transporte oxigenul necesar și toți nutrienții în toate părțile corpului, inclusiv in
+Are rolul de a mentine elasticitatea muschilor oculari si a cristalinelor. Mai ajuta ca fluxul
+sanguin sa transporte oxigenul necesar si toti nutrientii in toate partile corpului, inclusiv in
 ochi.
 
-Se găsește în germenii de grâu, migdale și nuci, precum și în uleiurile presate la rece.
-Recomand sa eviti vitamina E sintetica. In mod normal, vei obține cea mai mare parte de
-vitamine necesare din mâncarea pe care o mănânci și din suplimentele de multivitamine.
+Se gaseste in germenii de grau, migdale si nuci, precum si in uleiurile presate la rece.
+Recomand sa eviti vitamina E sintetica. In mod normal, vei obtine cea mai mare parte de
+vitamine necesare din mancarea pe care o mananci si din suplimentele de multivitamine.
 
 Si acum iata o lista despre ce trebuie sa mananci/consumi pentru a obtine cele 3 vitamine de
 mai sus in organism.
@@ -377,28 +377,28 @@ Acestea sunt doar o parte din alimentele unde pot fi gasite vitaminele enumerate
  Deasemenea, exista 3 minerale care sunt niste antioxidanti foarte importanti pentru
 imbunatatirea vederii si anume LUTEINA, ZEAXANTINA si ZINCUL.
  1. ZINCUL
- Zincul este o minerală foarte importantă pentru întreaga sănătate a ochilor, în special
-pentru retină. Fără aceasta, vitamina A nu va putea fi transportată de la ficat la ochi. Dacă în
-dieta ta se găsește insuficient zinc, atunci vei pierde vitamina A din corp, vitamina vederii
-nocturne, adică daunează la capacitatea vederii de a se adapta la întuneric.
- Zincul poate fi găsit în următoarele surse de alimentație:
+ Zincul este o minerala foarte importanta pentru intreaga sanatate a ochilor, in special
+pentru retina. Fara aceasta, vitamina A nu va putea fi transportata de la ficat la ochi. Daca in
+dieta ta se gaseste insuficient zinc, atunci vei pierde vitamina A din corp, vitamina vederii
+nocturne, adica dauneaza la capacitatea vederii de a se adapta la intuneric.
+ Zincul poate fi gasit in urmatoarele surse de alimentatie:
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
- fructe de mare, în special stridii
- germeni de grâu prăjiți
- ficat, în special cel de vită
- friptură de vită
- semințe de dovleac
+ fructe de mare, in special stridii
+ germeni de grau prajiti
+ ficat, in special cel de vita
+ friptura de vita
+ seminte de dovleac
  alune
  pepene
- fasole uscată
- ciocolata neagră
-Îți este recomandat să consumi zilnic minim 30 de mg de zinc, pentru a preveni dezvoltarea
-degenerescenței/degenerării maculare și cataractele, dar și pentru îmbunătățirea vederii
+ fasole uscata
+ ciocolata neagra
+Iti este recomandat sa consumi zilnic minim 30 de mg de zinc, pentru a preveni dezvoltarea
+degenerescentei/degenerarii maculare si cataractele, dar si pentru imbunatatirea vederii
 nocturne.
- LUTEINA este stratul galben care acoperă macula ochiului. Se consideră că ea
-protejează împotriva vătămării produse de lumina ultra-violete. In felul acesta poate
+ LUTEINA este stratul galben care acopera macula ochiului. Se considera ca ea
+protejeaza impotriva vatamarii produse de lumina ultra-violete. In felul acesta poate
 preveni cu succes degenerarea maculara produsa de radicalii liberi.
 
 Luteina se comporta ca un filtru de lumina pentru ca ochiul sa nu absoarba prea multa lumina,
@@ -409,7 +409,7 @@ sa-si revina rapid.
 
 Surse bune de luteina
 
-Luteina se găsește în zarzavaturi precum varza, Iăptuca, ardei
+Luteina se gaseste in zarzavaturi precum varza, Iaptuca, ardei
 galbeni, porumb, mango, afine, spanac, brocoli si alte verde-
 turi. Studiile au aratat ca dozajul recomandat zilnic este este
 de 6-20 mg/zi. Daca iei in medie zilnic 10 mg/zi, atunci nu
@@ -422,23 +422,23 @@ macula de radicalii liberi.
  Zeaxantina ajuta si aceasta la prevenirea sau tratarea celor 2 conditii: degenerarea
 maculara si cataracta. Unii specialisti spun ca mai are rolul de a trata sau a preveni
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
-glaucomul. Zeaxantina se găsește mai ales în zona petei galbene, acolo unde vederea
-este extrem de clară.
+glaucomul. Zeaxantina se gaseste mai ales in zona petei galbene, acolo unde vederea
+este extrem de clara.
 
 Surse bune de zeaxantina
 
-Zeaxantina se găsește în ardeiul portocaliu,
-gălbenușul de ou, brocoli, ardei portocalii dulci,
+Zeaxantina se gaseste in ardeiul portocaliu,
+galbenusul de ou, brocoli, ardei portocalii dulci,
 porumb, spanac, mandarine. Dozajul recomandat
-este de 90 mg, împreună cu Luteina.
+este de 90 mg, impreuna cu Luteina.
 
-Include aceste minerale in dieta ta, si în felul acesta te vei asigura ca sanatatea ochilor tai va fi
+Include aceste minerale in dieta ta, si in felul acesta te vei asigura ca sanatatea ochilor tai va fi
 in regula din acest punct de vedere (cel al alimentatiei) si la fel si sanatatea intregului tau
-corp. Dacă mai consumi și suplimente alimentare care conțin aceste minerale, cu atât mai
-bine. Însă tu trebuie să pui accentul pe hrană.
-Ca sfaturi suplimentare, îți mai recomand să reduci consumul de zahar, sare, grasimi, carne
+corp. Daca mai consumi si suplimente alimentare care contin aceste minerale, cu atat mai
+bine. Insa tu trebuie sa pui accentul pe hrana.
+Ca sfaturi suplimentare, iti mai recomand sa reduci consumul de zahar, sare, grasimi, carne
 rosie si faina rafinata, pentru o vedere perfecta!
 Mai vreau sa adaug pe scurt cateva lucruri elementare despre alimentatie. Alimentele pentru
 ochi se impart in 3 categorii:
@@ -446,13 +446,13 @@ ochi se impart in 3 categorii:
  citrice – portocale, lamai, kiwi si altele
  cartenoizi – rosii, morcovi, ardei, dovleci s.a.m.d
 
-Alimentatia este importantă deoarece ochii au mușchi în jurul lor (se mai numesc mușchi
-extrinseci), iar mușchii au nevoie de nutrienții necesari pentru a se dezvolta și pentru a
-funcționa cum trebuie. Iar dacă ei funcționează cum trebuie, atunci este evident că și vederea
-ta funcționează la fel de bine! Doar pana la urma ai nevoie de ochi sănătoși pentru a avea o
-vedere sănătoasa.
+Alimentatia este importanta deoarece ochii au muschi in jurul lor (se mai numesc muschi
+extrinseci), iar muschii au nevoie de nutrientii necesari pentru a se dezvolta si pentru a
+functiona cum trebuie. Iar daca ei functioneaza cum trebuie, atunci este evident ca si vederea
+ta functioneaza la fel de bine! Doar pana la urma ai nevoie de ochi sanatosi pentru a avea o
+vedere sanatoasa.
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 Tehnici si Metode naturale de
 imbunatatire a vederii
@@ -489,7 +489,7 @@ se relaxeze imediat, astfel incat ochii sa nu vada slab la distanta.
 Aceasta nu este o regula dificila; este ceva simplu care te ajuta sa-ti reamintesti cand lucrezi
 de-aproape la un anumit nivel de stres si concentrare. Fa din asta un obicei in tot ce faci. Cu
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 cat implementezi mai repede aceasta tactica in viata ta, cu atat mai putine sanse vei avea sa-ti
 inrautatesti vederea prin intermediului activitatilor de-aproape.
@@ -499,8 +499,8 @@ In timpul lucrului de-aproape, muschii oculari se contracta pentru a regla bine 
 Acesti muschi se contracta constant pentru perioade lungi, exact cum muschii bratelor tale s-
 ar comporta daca ar tine flexat o bara cu greutati. A pune in aplicare aceasta metoda sau
 regula, a fost cel mai greu pentru mine, pentru ca lucram mult la calculator si adesea,
-deveneam atat de implicat in ceea ce faceam, încât uitam cu desavarsire sa ma uit in alta parte.
-Uneori treceau ore pana sa realizez ca nu m-am uitat in alta parte nici măcar odată, decât pe
+deveneam atat de implicat in ceea ce faceam, incat uitam cu desavarsire sa ma uit in alta parte.
+Uneori treceau ore pana sa realizez ca nu m-am uitat in alta parte nici macar odata, decat pe
 ecran.
 
 Metoda # 2: Evita lucratul de aproape, in timpul si dupa mese!
@@ -536,7 +536,7 @@ Priveste la distanta. Inspira adanc, freaca-ti fata, fruntea si zona din jurul o
 Inspira pe nas si lasa-te pe spate, apoi intr-o parte si in alta, apoi expira pe gura si relaxeaza-ti
 privirea.
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 Iti recomand sa lucrezi in intervale de 25 de minute cu 5 minute pauza. Vei observa nu doar
 ca iti vei ajuta vederea dar vei fi si mai eficient in ceea ce faci.
@@ -583,7 +583,7 @@ cont de ea. Sau ai uitat de ea. Fa si acest lucru cand simti ca este nevoie. Est
 
 In felul acesta nu va mai trebui sa stai cocosat cu ochii foarte apropiati de monitor.
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 Metoda # 8: Asigura-ti odihna
  Cu totii stim ca somnul este important pentru noi, dar nu toti avem parte de un somn de
@@ -620,7 +620,7 @@ mai multe. Inspira si expira adanc. Mediteaza in timpul tau liber!
 Sunt mult mai multe metode si tehnici de a scapa de stres, unele mai costisitoare, altele mai
 putin costisitoare sau chiar deloc.
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 Metoda # 11: Clateste-ti ochii
 
@@ -634,19 +634,19 @@ devenind mai relaxati, mai odihniti si mai energizati.
 Pune si aceasta metoda in practica si ai sa vezi ca o sa ajunga sa-ti placa. Si nu doar sa-ti
 placa, dar si sa-ti prinda bine. Ca doar acesta este scopul.
 
-Metoda # 12: Evită forțarea ochilor
+Metoda # 12: Evita fortarea ochilor
 
-Forțarea ochilor este una din cauzele principale pentru vederea proastă pe care o ai.
-Chinuindu-te sa vezi un lucru, de departe sau de-aproape, pe care nu-l poți vedea clar, pui o
-presiune mare pe mușchii tai oculari. E ca și cum ai încerca sa ridici greutați cu care corpul
-tau nu e antrenat sa faca față, îți va forța mușchii și tendoanele.
-Pe de alta parte sa-ți suprasoliciți ochii inlcude: o expunere la un vânt puternic care bate direct
-în ochii tăi, lumini puternice (in special luminile fluorescente), privit prea mult la televizor si
+Fortarea ochilor este una din cauzele principale pentru vederea proasta pe care o ai.
+Chinuindu-te sa vezi un lucru, de departe sau de-aproape, pe care nu-l poti vedea clar, pui o
+presiune mare pe muschii tai oculari. E ca si cum ai incerca sa ridici greutati cu care corpul
+tau nu e antrenat sa faca fata, iti va forta muschii si tendoanele.
+Pe de alta parte sa-ti suprasoliciti ochii inlcude: o expunere la un vant puternic care bate direct
+in ochii tai, lumini puternice (in special luminile fluorescente), privit prea mult la televizor si
 holbatul prea mult la calculator.
 
-Invata sa vezi fara sa fortezi. In mod normal ochii se uita chiorâș in lumina puternica, zapada
-sau in reflectarea luminii unei ape. Pe langa asta, sa citesti chiorâș sau sa privesti chiorâș un
-obiect, nu face decat sa-ti slabeasca si mai rau vederea. Evita privitul chiorâș sau cruciș,
+Invata sa vezi fara sa fortezi. In mod normal ochii se uita chioras in lumina puternica, zapada
+sau in reflectarea luminii unei ape. Pe langa asta, sa citesti chioras sau sa privesti chioras un
+obiect, nu face decat sa-ti slabeasca si mai rau vederea. Evita privitul chioras sau crucis,
 relaxandu-ti sprancenele in mod constient. Aici ai putea sa te ajuti de exercitiile oculare ce
 implica acupunctura pe care ti le-am dat in primul raport. Si nu uita, foarte important este sa
 clipesti.
@@ -658,7 +658,7 @@ calculatorului, cartea pe care o citesti, cand conduci etc), adu-ti aminte sa cl
 dar va impiedica si aparitia sindromului de ochi uscat. Clipitul iti va lubrifia ochii si iti va
 relaxa muschii oculari, iar acest lucru te va feri de zvacniri sau spasme ale ochilor.
 
-Ochi Mai Sănătoși, Vedere Mai Clară Daniel Dinu
+Ochi Mai Sanatosi, Vedere Mai Clara Daniel Dinu
 
 In concluzie…
 
