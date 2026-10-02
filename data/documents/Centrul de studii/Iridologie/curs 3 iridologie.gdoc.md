@@ -1,4 +1,4 @@
-**LECTIA 3- O PRIVIRE ASUPRA OCHIULUI**
+## LECTIA 3- O PRIVIRE ASUPRA OCHIULUI
 
 	Este foarte important sa nu te arunci la examinarea irisului. Ochiul este un organ delicat si sensibil si trebuie tratat ca atare. Pentru a face o examinare eficace a irisului trebuie sa devii experimentat in practica.
 

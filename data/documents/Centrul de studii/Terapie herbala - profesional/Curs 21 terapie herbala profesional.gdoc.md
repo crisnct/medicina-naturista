@@ -8,7 +8,8 @@ Totusi, pe timpul bolii, procesele regenerative sunt depasite de cele degenerati
 
 In ciuda naturii de-a dreptul eretice a lucrurilor care stimuleaza vindecarea si regenerarea vis a vis de care sistemul medical conventional incrunta din sprancene, sau fata de care este neincrezator – a remisiei spontane in favoarea suprimarii simptomelor si a managementului bolii, in decursul ultimilor cativa ani s-au inregistrat o serie de studii remarcabile asupra subiectului.
 
-**Regenerarea nervilor –** Exista actualmente o larga gama de compusi naturali cu efecte dovedite de regenerare a nervilor. Un studiu din 2010 publicat in jurnalul medical Rejuvenation Research (Cercetari asupra Reintineririi), a gasit de exemplu ca o combinatie de afine, ceai verde si carnosina au efecte neuritogenice (promovand regenerarea neurala) si de regenerare a celulei stem in modelul animal al bolii neurodegenerative . Alte substante neuritogenice includ:
+# Regenerarea nervilor
+Exista actualmente o larga gama de compusi naturali cu efecte dovedite de regenerare a nervilor. Un studiu din 2010 publicat in jurnalul medical Rejuvenation Research (Cercetari asupra Reintineririi), a gasit de exemplu ca o combinatie de afine, ceai verde si carnosina au efecte neuritogenice (promovand regenerarea neurala) si de regenerare a celulei stem in modelul animal al bolii neurodegenerative . Alte substante neuritogenice includ:
 
 Curcumina
 
@@ -50,7 +51,8 @@ Vitamina E
 
 Armurariul
 
-**Regenerarea celulelor beta** – Din nefericire comunitatea medicala mai are inca pana sa stapaneasca potentialul de inversare a predispozitiilor spre diabet pe care o poseda compusii naturali. In timp ce terapiile scumpe cu celule stem, transplant de celule pancreatice, si un sir de medicamente sintetice aflate pe cale de a fi dezvoltate sunt punctul focal a miliarde de dolari destinate cercetarii in fiecare an, dulapurile noastre din bucatarie si plantele din spatele curtii ar putea deja contine cura indelung cautata pentru diabetul de tip 1\. Urmatorii compusi au fost demonstrati in mod experimental ca regenerand celulele beta producatoare de insulina, care sunt distruse in diabetul insulinodependent, si care odata refacute, ar putea (in teorie cel putin) restaura sanatatea pacientului pana la punctul in care nu mai are nevoie de insulina:
+# Regenerarea celulelor beta
+Din nefericire comunitatea medicala mai are inca pana sa stapaneasca potentialul de inversare a predispozitiilor spre diabet pe care o poseda compusii naturali. In timp ce terapiile scumpe cu celule stem, transplant de celule pancreatice, si un sir de medicamente sintetice aflate pe cale de a fi dezvoltate sunt punctul focal a miliarde de dolari destinate cercetarii in fiecare an, dulapurile noastre din bucatarie si plantele din spatele curtii ar putea deja contine cura indelung cautata pentru diabetul de tip 1\. Urmatorii compusi au fost demonstrati in mod experimental ca regenerand celulele beta producatoare de insulina, care sunt distruse in diabetul insulinodependent, si care odata refacute, ar putea (in teorie cel putin) restaura sanatatea pacientului pana la punctul in care nu mai are nevoie de insulina:
 
 Gymenna Sylvestre (“distrugatorul de zahar”)
 
@@ -76,7 +78,8 @@ Stevia (planta sud-americana, nu cea de la noi)
 
 Sulforafanul (concentrat in special in inflorescentele broccoli)
 
-**Regenerarea hormonilor** – exista secretagogi, care sporesc abilitatea glandelor endocrine de a secreta mai mult hormon, si exista substante care cu adevarat regenereaza hormonii care s-au degradat (prin emiterea electronilor) in metabolitii “hormoni tranzitorii” cu potential cancerigen. Una dintre aceste substante este vitamina C. Un puternic donator de electroni, aceasta vitamina are capacitatea de a contribui cu electroni pentru a reanima forma si functia estradiolului (estrogen; E2), progesteronului, testosteronului, de exemplu. In tandem cu alimentele capabile sa sprijine functia glandelor, cum ar fi rodia, vitamina C ar putea reprezenta un supliment excelent sau o alternativa la terapia de inlocuire hormonala.
+# Regenerarea hormonilor
+Exista secretagogi, care sporesc abilitatea glandelor endocrine de a secreta mai mult hormon, si exista substante care cu adevarat regenereaza hormonii care s-au degradat (prin emiterea electronilor) in metabolitii “hormoni tranzitorii” cu potential cancerigen. Una dintre aceste substante este vitamina C. Un puternic donator de electroni, aceasta vitamina are capacitatea de a contribui cu electroni pentru a reanima forma si functia estradiolului (estrogen; E2), progesteronului, testosteronului, de exemplu. In tandem cu alimentele capabile sa sprijine functia glandelor, cum ar fi rodia, vitamina C ar putea reprezenta un supliment excelent sau o alternativa la terapia de inlocuire hormonala.
 
 Regenerarea celulelor cardiace – Nu cu prea mult timp in urma, se credea ca tesutul cardiac era in mod unic incapabil de a fi regenerat. Cercetari experimentale noi si tot mai sporite acum indica faptul ca acest lucru pur si simplu nu este adevarat, si exista o clasa de compusi ce regenereaza tesutul inimii, compusi cunoscuti ca substante neocardiogenice. Neocardiogenicele sunt capabile sa stimuleze formarea de celule progenitoare cardiace care se pot diferentia in tesut cardiac sanatos, aceste substante incluzand:
 
@@ -90,7 +93,8 @@ N-acetil-cisteina
 
 Un alt exemplu remarcabil de regenerare a celulelor cardiace este cunoscut ca traficul de celule fetomaternale prin placenta. Un alt lucru extraordinar este si “microhimerismul fetal” prin care fetusul contribuie cu celule stem la tesuturile materne, celule capabile de regenerare a celulelor materne cardiace afectate, si posibil sa contribuie cu o larga gama de alte tipuri de celule.
 
-**Regenerarea cartilagiilor/articulatiilor/coloanei vertebrale** – Curcumina si resveratrolul s-au aratat a imbunatati recuperarea dupa vatamari ale coloanei vertebrale. Cat despre boala degenerativa a articulatiilor, osteoartrita, exista un larg spectru de substante si alimente potential regeneratoare precum bromelaina, avocado, ghimbir, namol de techirghiol, gheara pisicii, MSM si altele.
+# Regenerarea cartilagiilor/articulatiilor/coloanei vertebrale
+Curcumina si resveratrolul s-au aratat a imbunatati recuperarea dupa vatamari ale coloanei vertebrale. Cat despre boala degenerativa a articulatiilor, osteoartrita, exista un larg spectru de substante si alimente potential regeneratoare precum bromelaina, avocado, ghimbir, namol de techirghiol, gheara pisicii, MSM si altele.
 
 Stimularea dietelor, stilurilor de viata si atitudinilor ce duc la regenerarea corpului poate intrerupe circuitul patologic si ne poate ajuta sa atingem libertatea trupeasca si care este de asemenea o conditie preliminara pentru eliberarea sufletului si spiritului uman.
 

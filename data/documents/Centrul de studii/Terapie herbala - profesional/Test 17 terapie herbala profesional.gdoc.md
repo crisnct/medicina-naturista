@@ -1,10 +1,13 @@
 1. Alege trei dintre plantele stimulante și scriereti până la 300 de cuvinte despre ele.
 
-**Cuisoarele** \- In trecut, medicii recomandau cuisoarele impotriva oboselii si a pierderilor de memorie. De asemenea, erau considerate un afrodisiac puternic, dar si spaima moliilor din dulapurile cu haine. Cuisoarele mestecate sau macinate in rasnita de cafea, cate un varf de cutit la nevoie, ajuta digestia, vindeca durerile de gat, crampele de la stomac si te scapa de diaree. Fiind un condiment cu o personalitate destul de puternica, cuisoarele incalzesc mainile si picioarele reci si scad in intensitate durerile de spate.
+# Cuisoarele
+In trecut, medicii recomandau cuisoarele impotriva oboselii si a pierderilor de memorie. De asemenea, erau considerate un afrodisiac puternic, dar si spaima moliilor din dulapurile cu haine. Cuisoarele mestecate sau macinate in rasnita de cafea, cate un varf de cutit la nevoie, ajuta digestia, vindeca durerile de gat, crampele de la stomac si te scapa de diaree. Fiind un condiment cu o personalitate destul de puternica, cuisoarele incalzesc mainile si picioarele reci si scad in intensitate durerile de spate.
 
-**Ghimbir** \- are și proprietăți afrodisiace, stimulative, tonifiante, acționând prin grupul de compuși numiți gingeroli, asupra sistemului nervos. Alte proprietăți ale ghimberului: antitoxic, hipotensiv, antitusiv.
+# Ghimbir
+Are și proprietăți afrodisiace, stimulative, tonifiante, acționând prin grupul de compuși numiți gingeroli, asupra sistemului nervos. Alte proprietăți ale ghimberului: antitoxic, hipotensiv, antitusiv.
 
-**CAYENNE** – este util in caz de apoplexie, tuse, turberculoza, congestie pulmonara, entorse, durere in gat.
+# CAYENNE
+Este util in caz de apoplexie, tuse, turberculoza, congestie pulmonara, entorse, durere in gat.
 
 2. Scrieti despre unele dintre utilizările agrișei(Bayberry).
 

@@ -1,6 +1,6 @@
-LECȚIA ZECE
+# LECȚIA ZECE
 
-Completari
+## Completari
 
 În lecția finală vreau să luam în considerare un număr de subiecte mici, in completarea acestui curs de fitoterapie.
 
@@ -12,7 +12,7 @@ Prin aceasta, mai degrabă decât sa foloseasa singura cale de atac indicata, pe
 
 Același lucru se întâmplă în Herbalism. Unii folosesc fără rușine amestecuri complexe-prescriptii \- de plante. Din nou, se spune că ele sunt alese pentru a se spori una pe alta sau pentru a se compensa una pentru alta. Sfatul meu este sa păstrezi întotdeauna simplitatea. Aminteste-ti că ierburile in sine sunt destul de complicate. Ele sunt organisme dinamice. Odată ce ai începe să utiliezi complexuri, pierzi controlul. Aminteste-ti că sensul original al cuvantului „simplu” a fost un remediu.
 
-Bai de plante
+## Bai de plante
 
 Baia este un loc extrem de bun pentru utilizarea plantelor. Nu trebuie ca o planta să fie luata doar pe plan intern sau aplicata pe suprafața pielii ca o cataplasmă. Adăugarea unei plante la baie, la fel ca si in cazul uleiurilor esențiale aromoterapeutice, este un beneficiu pentru tratarea mai multor boli.
 
@@ -24,35 +24,48 @@ Baile de sezut ar trebui să fie facute cu regularitate pe tot parcursul bolii (
 
 Plantele pot fi adăugate fie direct in baie sau înfășurate într-o pungă de muselină și cufundate în partea fierbinte a cazii. În general, un pumn de planta va fi suficient. Alternativ, în cazul în care planta este disponibila sub formă de punguta de ceai, una sau două pungi de ceai pot fi scufundate în cada.
 
-**Anxietate** Musetelul, valeriana sau scutellaria într-o baie de sezut, de trei ori pe săptămâna.
+### Anxietate
+Musetelul, valeriana sau scutellaria într-o baie de sezut, de trei ori pe săptămâna.
 
-**Artrită** O baie de sezut este foarte utila pentru multe tipuri de dureri artritice. Dacă se face o baie cu urzica, efectul corectiv al baii este crescut.
+### Artrită
+O baie de sezut este foarte utila pentru multe tipuri de dureri artritice. Dacă se face o baie cu urzica, efectul corectiv al baii este crescut.
 
-**Astm bronșic, bronșită și catar** O baie de sezut care conține iarba mare, de două ori sau de trei ori pe săptămână, este de multe ori benefică în ameliorarea unei boli pulmonare, precum și in facilitarea unui catar supărător.
+### Astm bronșic, bronșită și catar
+O baie de sezut care conține iarba mare, de două ori sau de trei ori pe săptămână, este de multe ori benefică în ameliorarea unei boli pulmonare, precum și in facilitarea unui catar supărător.
 
-**Constipație** O baie de sezut de două ori pe săptămână, care conține o planta, cum ar fi fenicul, păpădie sau musetel în partea fierbinte a cazii, va stimula adesea un intestin lent.
+### Constipație
+O baie de sezut de două ori pe săptămână, care conține o planta, cum ar fi fenicul, păpădie sau musetel în partea fierbinte a cazii, va stimula adesea un intestin lent.
 
-**Cistite și infecții ale căilor urinare** O baie de sezut ce conține mușețel sau lavandă poate atenua cistita sau reduce tendința de a dezvolta astfel de infecții.
+### Cistite și infecții ale căilor urinare
+O baie de sezut ce conține mușețel sau lavandă poate atenua cistita sau reduce tendința de a dezvolta astfel de infecții.
 
-**Sindromul de colon iritabil** Acesta raspunde bine la musetel si oricare dintre baile fierbinti de sezut.
+### Sindromul de colon iritabil
+Acesta raspunde bine la musetel si oricare dintre baile fierbinti de sezut.
 
-**Depresie** Baia de sezut conține un decoct de rădăcină de gențiană, de trei ori pe săptămână si poate ajuta depresia usoara.
+### Depresie
+Baia de sezut conține un decoct de rădăcină de gențiană, de trei ori pe săptămână si poate ajuta depresia usoara.
 
-**Hemoroizi** Baie de sezut cu hammamelis de două sau de trei ori pe săptămână.
+### Hemoroizi
+Baie de sezut cu hammamelis de două sau de trei ori pe săptămână.
 
-**Bufeuri** Poate fi de ajutor o baie rece de sezut prin adăugarea unei plante de răcire, de trei ori pe săptămână. O baie de sezut rece este constituita dintr-un loc răcoros in baia principală și o baie de picioare fierbinte.
+### Bufeuri
+Poate fi de ajutor o baie rece de sezut prin adăugarea unei plante de răcire, de trei ori pe săptămână. O baie de sezut rece este constituita dintr-un loc răcoros in baia principală și o baie de picioare fierbinte.
 
-**Mâncărime** Acest lucru poate fi ajutat de o baie rece de sezut și adăugarea de urizici, de trei ori pe săptămână.
+### Mâncărime
+Acest lucru poate fi ajutat de o baie rece de sezut și adăugarea de urizici, de trei ori pe săptămână.
 
-**Dureri in timpul menstruatiei** musetel, menta și frunze de zmeura intr-o baie de sezut.
+### Dureri in timpul menstruatiei
+Musetel, menta și frunze de zmeura intr-o baie de sezut.
 
-**Probleme ale pielii** O baie călduță care conține ovăz va calma eczemele și psoriazisul.
+### Probleme ale pielii
+O baie călduță care conține ovăz va calma eczemele și psoriazisul.
 
-**Tremor** Există mai multe cauze ale tremorului, din tremor congenital, la tireotoxicoză si boala Parkinson. Un aviz medical este important .
+### Tremor
+Există mai multe cauze ale tremorului, din tremor congenital, la tireotoxicoză si boala Parkinson. Un aviz medical este important .
 
 O baie de sezut care conține sunătoare (Hypericum), coada soricelului sau cimbru poate ajuta la toate. Modalitățile de mai sus de a face aceste bai de sezut sunt un mod bun de a invata cum sa utilizezi plantele. Ele vor produce efecte destul de ușoare. În cazul în care e nevoie de un efect mai mare, foloseste 100 de grame de planta uscata sau de trei ori mai mult la un galon de apa rece. Lasa timp de 12 ore, apoi se incalzeste înainte de a strecura. Adauga infuzia la baia de sezut.
 
-*Plante de bucătărie și de interior*
+## Plante de bucătărie și de interior
 
 Dacă esti gradinar, atunci ai probabil deja mai multe plante pe care le cresti in gradina. Mulți oameni nu doresc sau nu sunt în măsură să aibă o gradina în aer liber. Poti găsi cultivarea proriilor plante de interior un lucru plăcut și benefic.
 

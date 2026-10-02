@@ -1,10 +1,10 @@
-**LECȚIA 10**
+## LECȚIA 10
 
-**Indicații ale aspectului ochilor**
+## Indicații ale aspectului ochilor
 
-**Urmărirea absorbției diverselor substanțe**
+## Urmărirea absorbției diverselor substanțe
 
-**ARSENIC**
+## ARSENIC
 
 Arsenicul intra în organism prin intermediul Salvarsan (și a altor medicamente pe bază de arsenic), intoxicații accidentale, Spray verde de Paris , soluția lui Fowler, coloranți și cosmetice.
 
@@ -14,7 +14,7 @@ Se stabilește în zona circulatorie și este eliminat prin sistemul limfatic, r
 
 	Simptomele sunt crampe abdominale, edem general, furunculi, epuizare, erupții cutanate, slăbiciune, căderea părului și a unghiilor, iritabilitate.
 
-**BISMUT**
+## BISMUT
 
 Bismutul intră în corp prin intermediul subcarbonatului de bismut, și al subnitratului de bismut.
 
@@ -24,7 +24,7 @@ Apariția acestui medicament în ochi este de un gri metalic închis, cerc nereg
 
 Simptomele sunt modificări de culoare a pielii, urinare frecventă, linie albastră pe gingii, pete negre pe mucoasa bucală și mucoasa rectală, angina pectorală.
 
-**BROMUL**
+## BROMUL
 
 	Bromul intra în organism prin intermediul Bromo seltzer și prin sedative.
 
@@ -34,7 +34,7 @@ Simptomele sunt modificări de culoare a pielii, urinare frecventă, linie albas
 
 	Simptomele sunt slăbiciunea neuromusculară mereu în picioare, erupții cutanate portocalii sau galbene, dureri de cap violente.
 
-**GUDRONUL DE CĂRBUNE**
+## GUDRONUL DE CĂRBUNE
 
 Produsele din gudron de cărbune intra în organism prin intermediul Aspirinei, Acetanalidei, zaharinei,remediilor pentru febra, unele vitamine.
 
@@ -44,7 +44,7 @@ Apariția acestui medicament în ochi este un gri închis ca de oțel.
 
 Simptomele sunt ușoră oboseală, pierderi de memorie, epilepsie.
 
-**CREOZOTUL**
+## CREOZOTUL
 
 	Creozotul intra în organism prin intermediul remediilor de tuse, sedativul nervului general, Acetanalid, Antipirină, Fenacetina.
 
@@ -54,7 +54,7 @@ Simptomele sunt ușoră oboseală, pierderi de memorie, epilepsie.
 
 	Simptomele sunt tulburări psihice și nervoase, frică, pierderi de memorie, urinare excesivă.
 
-**ERGOTUL**
+## ERGOTUL
 
 Ergotul intră în organism prin intermediul mâncării secarei care conține ergot, preparate medicamentoase.
 
@@ -64,7 +64,7 @@ Apariția acestui medicament în ochi este ușoară culoare roșie, mai deschis 
 
 Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață, vărsături, diaree, amețeli, cangrene.
 
-**GLICERINA**
+## GLICERINA
 
 	Glicerina intra în organism mai ales prin remediile în care este folosită ca suport.
 
@@ -72,7 +72,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 	Apariția acestui medicament în ochi este asemenea unor nori mari albi în zonele de piele, rinichi și plămâni.
 
-**IODUL**
+## IODUL
 
 	Iodul intra în organism prin intermediul Antisepticelor Iodice și a spălăturilor, remedii pentru gușă.
 
@@ -82,7 +82,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 	Simptomele sunt inflamarea gingiilor, răceli, dureri de cap frontale, expectorație spumoasă și tuse, diaree, erupții cutanate, atrofierea glandelor.
 
-**FIERUL**
+## FIERUL
 
 	Fierul intra în organism prin intermediul apei care conține fier, tonice de sânge, bromură de fier.
 
@@ -92,7 +92,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 	Simptomele sunt dureri abdominale, scaun negru, constipație persistentă, eliberare de presiune, carii dentare.
 
-**PLUMBUL**
+## PLUMBUL
 
 	Plumbul intra în organism prin intermediul apei de băut care îł conține din țevile de plumb, muncitorilor care manipulează plumbul, vopseaua, folia de aluminiu. Colorarea proviziilor de conserve.
 
@@ -102,7 +102,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 	Simptomele sunt blocarea încheieturii mâinii, amețeli, dureri neuro-musculare în brațe, umeri și gât, malnutritie, linia de plumb albastră pe gingii, paralizie.
 
-**MERCURUL**
+## MERCURUL
 
 	Mercurul intra în organism prin intermediul hidrargirului 606, prin plombe dentare din amalgam, oglinzi de tinichea și a minerilor de mercur.
 
@@ -112,7 +112,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 	Simptomele sunt gingii ușor umflate, pierderea dinților, ulcere profunde, dinții lui Hutchinson, ataxie locomotorie , degenerarea mentală, gust metalic în gură.
 
-**OPIUL** (cocaina)
+## OPIUL (cocaina)
 
 	Opiul intră în corp prin laudanum, substanțe analgezice, morfină.
 
@@ -122,7 +122,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 	Simptomele sunt stimularea amestecată cu depresie, oboseală psihică și fizică, constipație cronică.
 
-**FOSFORUL**
+## FOSFORUL
 
 	Fosforul intră în organism prin inhalarea de către lucrătorii din fabrici, prin medicamente și intoxicații cu paraziți.
 
@@ -132,7 +132,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 	Simptomele sunt diareea cronică, constipație, dureri de cap cronice, mai târziu, ulcerații ale gingiilor, parodontoza, mâncărime a pielii, necroză a maxilarului.
 
-**CHININA**
+## CHININA
 
 	Chinina (alcaloid de săruri) pătrunde în organism prin chinină de brom preventivă malariei,tonice ale stimulării poftei de mâncare ,tonice de păr care o conțin.
 
@@ -142,7 +142,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 	Simptomele sunt sunete sau vuiete în urechi, surditate, tulburări de vedere, gust de chinină, depresie mintală, erupții cutanate pruriginoase, transpirație.
 
-**ACIDUL SALICILIC**
+## ACIDUL SALICILIC
 
 	Acidul salicilic pătrunde în organism prin intermediul conservanților din alimente și băuturi, din aspirină, remedii împotriva frigului și din uleiul de perișor.
 
@@ -152,7 +152,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 	Simptomele sunt dureri de cap, pierderea părului, pierderea de auz, zgomote în urechi, imprecizie a vederii.
 
-**SODIUL**
+## SODIUL
 
 	Sodiul intră în organism prin intermediul sării de masă, al bicarbonatului de sodiu (bicarbonat de sodiu folosit pentru coacere), alimente sărate, salicilat de sodiu, benzoat de sodiu.
 
@@ -162,7 +162,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 	Simptomele sunt eczeme, furuncule, coșuri, dispnee, arterioscleroză, angina pectorală, constricția pupilei, memorie slabă.
 
-**STRICNINA**
+## STRICNINA
 
 	Stricnina intră în organism prin intermediul stimulentului toxic Nux Vomica.
 
@@ -172,7 +172,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 	Simptomele sunt constipație, fermentație, emaciere, indigestie, foame nefirească, slăbirea inimii, paralizie, anemie.
 
-**SULFUL**
+## SULFUL
 
 	Sulful intră în organism prin intermediul alimentelor sulfurate, apă sulfuroasă și băi, inhalarea gazelor de sulf, medicație. Se stabilește în intestin și stomac și se elimină prin piele, intestin și membranele mucoase.
 
@@ -180,7 +180,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 	Simptomele sunt furuncule, coșuri, eczeme, erupții cutanate, greață, vărsături, febră.
 
-**TURBENTINĂ**
+## TURBENTINĂ
 
 	Turbentina este accidental absorbită prin inhalarea distilatorilor de turbentină, pictorilor, artiștilor. Se stabilește în organele genito-urinare și este eliminată prin organele genito-urinare, rinichi și prin memebranele mucoase.
 
@@ -188,7 +188,7 @@ Simptomele sunt dificultăți de respirație, senzație de amorțeală, greață
 
 	Simptomele sunt suprimarea și reținerea urinei.
 
-**VACCINURILE**
+## VACCINURILE
 
 	Vaccinurile intră în corp prin intermediul injecțiilor prin piele. Sunt eliminate prin piele și prin memebranele mucoase. Apariția acestui medicament în ochi este negru cu pete maronii, tulburi, murdare, cu margini albe, depuse superficial pe suprafața irisului.
 

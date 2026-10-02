@@ -1,4 +1,4 @@
-**Test 4**
+# Test 4
 
 1. Ce caracteristici trebuie sa aiba starea care poate fi tratata cu ierburi de răcire?
 

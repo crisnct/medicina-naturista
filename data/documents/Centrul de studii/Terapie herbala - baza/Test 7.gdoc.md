@@ -1,4 +1,4 @@
-Test curs 7 herbalism
+# Test curs 7 herbalism
 
 1. Care este principiul de bază al homeopatiei?
  Principiul de baza al homeopatiei este sa stimuleze puterea naturala de vindecare a corpului prin administrarea de preparatedin plante medicinale in dilutie foarte slaba.

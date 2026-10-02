@@ -1,6 +1,6 @@
-**LECȚIA 1**
+## LECȚIA 1
 
-**DESCOPERIREA UNEI ȘTIINȚE NATURALE**
+## DESCOPERIREA UNEI ȘTIINȚE NATURALE
 
 ***„Ochii vorbesc o singură limbă peste tot”***
 
@@ -20,7 +20,7 @@ Când te gândești la asta, poți spune multe despre cineva după ochii săi. S
 
 Miscările mușchilor în jurul ochilor, mușchii care ajuta ochii, îi îngustează, îi fac să pară nervoși , blânzi sau triști, acestea îți vorbesc de asemenea despre un individ. În timp ce semnele și ridurile din jurul ochiului , aparțin mai mult fizionomiei decât Iridologiei, totuși acestea ar trebui să fie în studiile noastre.
 
-**Primele observații**
+## Primele observații
 
 Irisul a fost studiat de vindecători, încă de pe meleagurile de la începutul civilizației.Caldeenii au lăsat o mulțime de tăblițe în argilă, despre subiecte pe care ei le considerau valoroase în termenii Medicinei. Includeau inscripții despre ficat și irisurile ochilor. În mod similar, și egiptenii antici pictau semne ale irisului pe modele de ceramică. O asemenea expoziție poate fi văzută în muzeul din Cairo, pentru studenții interesați.
 
@@ -42,7 +42,7 @@ Fondatorul Iridologiei moderne a fost Dr. Ignaz von Peczely (1822-1911), un medi
 
 Când von Peczely a devenit medic, a căutat cu sârguință legătura între bolile interne, efectele accidentelor și chirurgiei și starea irisului. Concluziile sale au fost publicate în 1881 în marea sa lucrare : „Descoperiri în câmpul Științei Naturale și Medicinei: Instruirea în studiul diagnosticării ochiului.” În această carte și-a prezentat principiile de bază ale localizării irisului și producerea unei hărți de învățare a irisului.
 
-**Drumul e deschis**
+## Drumul e deschis
 
 Contempoaran cu von Peczely a fost pastorul suedez Liljequist, care aparent a dedus un sistem destul de independent de diagnosticare al irisului. În 1893 acesta a publicat : „Om Oegendiagnosen” , o carte care conține peste 250 de plăci monocrome ale irisurilor.
 
@@ -54,7 +54,7 @@ Medicina Naturopatică a îndrăgit foarte mult Iridologia. În SUA, Dr. Henry L
 
 În ziua de azi, Iridologia este practicată pe tot globul. Există o mulțime de cercetători faimoși care au continuat să forțeze frontierele cunoașterii și ale căror texte sunt demne de a fi cumpărate pentru a-i mări cuiva cunoștințele. În afara acestui grup select, mai sunt oameni ca Drs. Jenson, Christopher and Kriege, Deck, Vannier and Kronenberger.
 
-**Diferite filozofii**
+## Diferite filozofii
 
 Un cuvânt de avertizare, totuși vei întâlni, ca în orice altă știință naturală pe care o vei parcurge, o dată cu ea. Este corect să spui că ambele sunt școli de gândire,atât cele ortodoxe cât și cele neortodoxe . Unii Iridologi cred că Irisul arată doar schimbările fizice și că orice simptomatologie psihologică poate fi legată doar de schimbările din părțile irisului care oglindesc creierul. Cu alte cuvinte, ei adoptă o abordare complet organică a Iridologiei. Pe de altă parte, unii cred că irisul ilustrează în principal ,viața psihologică, interfața spirituală.
 
@@ -62,7 +62,7 @@ Acest fapt deviază spre o cale de mijloc. Este înțelegerea noastră și convi
 
 De îndată ce vei începe să studiezi hărțile Irisului în acest curs, ar trebui să apreciezi că ele reflectă cercetările și observațiile clinice actuale. Considerăm că hărțile noastre, ale Irisului îți spun mai degrabă despre ceea ce poți vedea decât ceea ce alte școli susțin că ar trebui să fii capabil să vezi.
 
-**Mecanismele**
+## Mecanismele
 
 Acest cuvânt este mai degrabă folosit cu ironie. Iridologii au venit cu mai multe teorii despre mecanismul cu care modelul fibrei irisului se poate schimba astfel încât să arate starea internă a corpului. Unii susțin că aceasta este bazată neurologic, alții că este bazată umoral sau chimic. Într-adevăr, explicațiile sunt numeroase la fel ca numărul celor oferite să explice acupunctura sau homeopatia.
 
@@ -76,7 +76,7 @@ Dar asta nu înseamnă că nu se întâmplă ,nu-i așa?
 
 Din nou, desigur că nu\! Trebuie să ne punem o întrebare provizorie : „Toate fenomenele legate de corp au un scop?”. Este o întrebare dificilă dar , răspunsul este nu. Unele fenomene sunt în întregime consecințe. Și în asta constau schimbările în iris, o consecință a schimbării în corp.
 
-**Teoria Bioplasmei**
+## Teoria Bioplasmei
 
 Să reflectăm asupra naturii incredibil de complicate a vieții umane. Corpurile noastre sunt adunături vaste de celule aranjate ca țesuturi, la randul lor, aranjate în organe care funcționează ca sisteme. Fiecare sistem are un set de funcții care contribuie la funcționarea generală a organismului. Care este puterea organizațională care spune despre un țesut că începe să-și reaprovizioneze celulele? Ce face ca să organizeze numărul noilor celule nevoite de a fi preluate din celulele moarte?
 
@@ -86,7 +86,7 @@ Termenul „bioplasmă” , a fost prima dată folosit de cercetătorii sovietic
 
 Ținând seama de teorie, există o funcție a codului ADN pe care o moștenim la concepție, sau altfel spus, este instrumentul pe care codul ADN obișnuia să transporte propriile instrucțiuni.
 
-**Teoria Holografică și Biologia ECIWO**
+## Teoria Holografică și Biologia ECIWO
 
 O hologramă este o fotografie produsă de o lumină coerentă ( lumina exactă a aceleiasi lungimi de undă) cu un laser, astfel încât, placa negativă conține toată informația despre obiect. Aceasta dacă negativul este fragmentat ,apoi fiecare părticică a negativului ar trebui să fie încă capabilă să reproducă imaginea obiectului dacă este iluminat coerent cu lumina originală . Va fi o pierdere a clarității imaginii, dar asta este tot.
 
@@ -100,6 +100,6 @@ Trebuie admis faptul că vorbind strict, nu vorbim despre corp ca fiind o hologr
 
 Teoria Holografică a biologiei ECIWO ne permite astfel să înțelegem mai bine „mecanismele” Iridologiei. Schmbările în iris sunt inevitabile consecințe ale schimbării corporale care deformează bioplasma să producă propriile schimbări.
 
-**Fotografia Kirilian**
+## Fotografia Kirilian
 
 În 1939, Semyon Kirilian a descoperit din întâmplare că dacă un obiect de pe o placă fotografică este subiectul unui câmp electric de mare voltaj, este creată o imagine pe placă. Imaginea arată ca o aureolă colorată sau descărcare luminescentă. Această imagine se spune că este o manifestare fizică a aurei spirituale sau „forța vieții” care după cum se pretinde, înconjoară fiecare ființă. Scepticii pretind că ceea ce este înregistrat este o umiditate ionizată. Te lăsăm să tragi propriile concluzii.

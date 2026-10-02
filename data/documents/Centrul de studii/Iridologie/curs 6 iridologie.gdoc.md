@@ -1,8 +1,8 @@
-**LECȚIA 6 – Mai multe semne ale irisului**
+## LECȚIA 6 – Mai multe semne ale irisului
 
 Să continuăm turul principalelor semne ale irisului.
 
-**LACUNELE**
+## LACUNELE
 
 Lacunele sunt, probabil, cel mai des intalnite semne ale irisului. Ele sunt fibre inflamate care le dau impresia iridologilor că privesc într-o groapă.
 
@@ -14,33 +14,33 @@ Lacuna poate avea oricare dintre culorile deja menționate (inclusiv culoarea ob
 
 	Există mai multe tipuri diferite de lacune :
 
-**Lacuna Sparanghel**
+## Lacuna Sparanghel
 
 Gândeste-te la aceasta ca având forma de capete de sparanghel. Acestea pot fi găsite în zonele de ovar sau testicul. Aceasta este considerată a fi un semn precanceros, deci atenția trebuie să fie sigur îndreptată spre partea corespunzătoare a corpului.
 
 Ele pot apărea, de asemenea, în zona de creier / minte. Emoțional acest tip de persoană poate avea o gândire rigidă și comportament obsesiv.
 
-**Lacunele Diamant**
+## Lacunele Diamant
 
 Acestea au forma unor cripte mari, forma de diamant. Ele reprezintă un potențial de boală definită. Aceste lacune apar in zona organelor predispuse la boli degenerative: inima, rinichii și ficatul pot manifesta toate aceste semne.
 
-**Lacune Divizate sau Înjumătățite**
+## Lacune Divizate sau Înjumătățite
 
 Acestea sunt observate atunci cand fibrele irisului se formează în modele de arc. Ele reprezintă o stare de slăbire continuă a țesutului conjunctiv în acea zonă.
 
-**Lacune Deschise**
+## Lacune Deschise
 
 Acest lucru apare în bolile acute. Ele indică necesitatea de a se concentra tratamentul pe acea parte a corpului pentru a preveni cronicizarea.
 
-**Lacune Închise**
+## Lacune Închise
 
 Semnificația este că zona corpului a fost zidită funcțional. Cu alte cuvinte, organul are puțin drenaj limfatic eficient, astfel încât va tinde să acumuleze toxine.
 
-**Lacuna Meduză**
+## Lacuna Meduză
 
 Acesta este un semn de iritare acută și inflamație a părții implicate. Există o șansă bună ca tratamentul să poată inversa această iritare.
 
-**Lacuna Pară**
+## Lacuna Pară
 
 Aceasta este un alt semn care indică necesitatea de a se concentra asupra unui organ anume sau asupra unei părți . Este o etapă mai timpurie decat lacuna sparanghel, dar la fel de periculoasă. Aceasta poate fi considerată de asemenea, precanceroasă.
 
@@ -48,7 +48,7 @@ Aceasta este un alt semn care indică necesitatea de a se concentra asupra unui 
 
 ![Imagine image2]
 
-**PANA FICATULUI**
+## PANA FICATULUI
 
 Acesta este un tip special de lacună care trebuie tratată cu atenție. Este o lacună triunghiulară văzută în zona de ficat. Vârful triunghiului este îndreptat în direcția pupilei. Indică o slăbiciune a ficatului, deci trebuie luat în vedere potențialul existenței substanțelor toxice hepatice în corp. Alcoolul poate fi o problemă deosebită, nu doar ca o toxină, ci ca o substanță dependentă la cineva cu o pană de ficat.
 
@@ -56,7 +56,7 @@ Acesta este un tip special de lacună care trebuie tratată cu atenție. Este o 
 
 Dacă o transversală traversează zona ficatului atunci trebuie avută o grijă sporită. Ficatul acestui individ este supus riscului.
 
-**TRANSVERSALA**
+## TRANSVERSALA
 
 Acest semn apare atunci când o fibră a irisului pare să treacă transversal peste iris, mai degrabă decât radial, așa cum te-ai aștepta în mod normal. Acestea sunt tendințe moștenite. Ele sunt aproape invariabil văzute în jumătatea inferioară a irisului. Le-ai putea găsi în zonele ficatului sau splinei. De asemenea, ele sunt destul de comune în zonele spinării. Ele indică faptul că este prezentă o anatomie neobișnuită. În ficat, poate exista o anomalie, la nivelul coloanei vertebrale poate exista o fuziune între vertebre, sau chiar eșecul de dezvoltare embriologică provocând o stare ca „spina bifida oculta” (o parte din măduva spinării nu este complet protejată de osul din partea inferioară) .
 
@@ -64,7 +64,7 @@ O transversală dreaptă indică o problemă funcțională acută. O transversal
 
 Transversalele de aceeași culoare ca și restul irisului indică faptul că starea nu este încă problematică. Când acestea devin vascularizate, ele apar ușor rozalii. Aceasta indică o inflamație acută a părților corespunzătoare.
 
-**RAZE SOLARE**
+## RAZE SOLARE
 
 Acesta este un semn distinctiv al irisului care îl face să arate ca o roată completă cu spițe de culoare închisă. Aceasta indică o tendință de a acumula toxine, și indică locul în care se va întâmpla acest lucru și organele predispuse. Gândeste-te la spițe ca fiind canalele pe care se acumulează toxinele. Urmărește-le și acordă-le o atenție deosebită acelor părți ale corpului. Dar ține minte\! Sursa problemei este întotdeauna posibil să fie la nivelul stomacului și intestinului. Nu te gândi doar la tratarea sau oferirea unui tratament pentru organele țintă care acumulează toxine, trebuie să tratezi stomacul și intestinele pentru a le normaliza.
 
@@ -80,17 +80,17 @@ La unele persoane, razele Solare nu încalcă cununa nervoasă, ci se extinde de
 
 ![Imagine image3]
 
-**FAGURI DE MIERE**
+## FAGURI DE MIERE
 
 Acest semn arată cum sugerează și numele, un model de fagure de miere într-un mic segment al irisului. Vor fi văzute mici celule hexagonale în acea zonă.
 
 Fagurele semnifică o problemă cu procesele funcționale și metabolice în organul implicat. Acestea sunt de natură să apară în zonele digestive, zone pancreatice și în plămâni. De obicei, este o problemă cu organul, moștenită genetic. În organele glandulare sau hormonale se indică probleme endocrine, de exemplu: Diabet, tireotoxicoză etc.
 
-**SEMNUL LALEA**
+## SEMNUL LALEA
 
 Acesta apare când o fibră densă radială, pe măsură ce se apropie, divide marginea irisului, pentru a lua forma unei flori precum o lalea. Acest lucru este cel mai adesea observat la partea superioară a irisului, indicand o problema a tractului respirator superior. Aceasta determină o adunare de toxine la nivelul capului, afectând funcția părții corpului indicată pe hartă.
 
-**PETE PSORICE**
+## PETE PSORICE
 
 Vom încheia turul acestei lecții, luând în considerare un alt semn comun, pata psorică. Nu trebuie să ai o lupă pentru a vedea aceste pete. Ele sunt pistruii de deasupra irisului si se găsesc în culori de sepia și negru.
 

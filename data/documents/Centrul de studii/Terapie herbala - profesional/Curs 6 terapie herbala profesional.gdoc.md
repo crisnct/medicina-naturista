@@ -1,6 +1,6 @@
 Curs 6 terapie herbala profesional
 
-Ierburile antihelmintice
+# Ierburile antihelmintice pentru paraziti
 
 Primele trei cele mai comune tipuri de viermi ce se gasesc in organism sunt: viermii panglica sau de scaun (Oxyuris vermicularis), viermii rotunzi (Ascarislumbricoides-lumbrici) și viermii bandă (Taeince-Taenia solium,Latus bothriocephalus). Există, de asemenea, alte tipuri mai puțin frecvente de viermi care intră in corp, cum ar fi viermii cu cârlig (Ancylostoma duodenale, americanus Nectar) pentru care se foloseste timol și ulei de pelin (American wormseed) și cele de la porcii murdari (Trichinella spiralis), etc, care se dezvolta pe fondul unor conditii toxice în organism. Viermele de scaun este destul de usor de distrus sau de eliminat deoarece se găsește, de obicei, în intestinului inferior și nu aderă la peretele intestinal. Plante medicinale, cum ar fi cathartics, astringente, aloe, Quassia, calumba, cidru de mere, oțet de mere, etc, sunt eficiente împotriva acestor viermi intestinali. Limbricul poate fi găsit de multe ori ținându-se de peretele intestinal și poate provoca daune considerabile si disconfort fizic,mai ales la copii. Dacă viermii rotunzi nu sunt verificati, se poate ajunge la punctul în care acestia intră în stomac și circula chiar până în esofag si faringe, cu rezultatele cele mai neplăcute și supărătoare. Poti vedea viermii rotunzi în scaun și poti, de asemenea, sa ii depistezi pentru că ei perturba foarte mult echilibrul stomacal. Ierburile antihelmintice sunt deosebit de utile și benefice pentru a elimina viermii rotunzi și lați. Agenții antihelmintici sunt clasificati ca acțiuni împotriva viermilor paraziți:
 
@@ -60,18 +60,13 @@ Oral- Viermi rotunzi (vermifugi): Iacca 56 ml de lichid la 1 ceașcă de ceai , 
 
 Piele: reumatism, entorse, nevralgii, etc: aplica o cataplasmă de plante medicinale sau foloseste uleiul ca o alifie.
 
-Cistita (inflamarea vezicii urinare)
+# Cistita (inflamarea vezicii urinare)
 
 2 lingurite Pelin planta (Artemisia absinthium)
-
 2 lingurite rădăcină sau plante medicinale (Senecio aureus)
-
 2 lingurite flori de musetel (Chamaemelum nobile; Anthemis nobilis)
-
 Mod de preparare: se fierb plantele 15 minute în 5 litri (2,380 ml) de apă.
-
 Administrare: bea cat suporti de fierbinte.
-
 Indigestie, dispepsie
 
 3 parti de pelin planta (Artemisia absinthium)
@@ -86,7 +81,7 @@ Mod de preparare: Infuzeaza 1 lingurita de amestec de plante aromatice în 1 lit
 
 Dozare: cca 56 ml de lichid, de 3-4 ori pe zi.
 
-**Migrenă**
+# Migrenă
 
 1 lingurita planta pelin (Artemisia absinthium)
 
@@ -98,7 +93,7 @@ Mod de preparare: se fierb primele două plante pentru 20 de minute în 1 litru 
 
 Dozare: cca 56 ml de lichid, dupa cum este necesar
 
-VIERMI ROTUNZI (vermifuge)
+# VIERMI ROTUNZI (vermifuge)
 
 28g de pelin planta (Artemisia absinthium)
 
@@ -116,7 +111,8 @@ Se colecteaza planta atunci când este în floare, din iunie pana in septembrie 
 
 Uscare și conservarea: Planta trebuie uscatacu grijă, astfel încât proprietățile aromatice și volatile sa nu fie pierdute. Imediat după uscare, planta ar trebui să fie plasata într- un recipient etanș, altfel va absorbi aproximativ 12% din umiditate aerului.
 
-**RODII** (Punica granatum, p. legrellei, p. sempervirehs;PUNICACEAE); denumiri comune : rodie, coaja de rodie, grenadier, granat de mere, măr carthiginian; Granati Cortex (Br.); Ecore do
+# RODII (Punica granatum, p. legrellei, p. sempervirehs;PUNICACEAE)
+Denumiri comune : rodie, coaja de rodie, grenadier, granat de mere, măr carthiginian; Granati Cortex (Br.); Ecore do
 
 Balaustier(Fr.); Granatwurzelrinde, Granatrinde (ger.); Corteza de Granada(SPA); Melogranato, Malicorio, Scorzo del Melogranati(ital.).
 
@@ -186,7 +182,7 @@ Notă: Rezultatele ar trebui să fie obținute în 24 de ore, aceasta poate fi l
 
 Caracteristicile de creștere- Perene, găsite mai ales în zonele cu climă temperată și subtropicale din intreaga lume, originare din Asia de Vest, cresc pe scară largă în țările mediteraneene, sudul Statelor Unite, etc; infloresc din iunie pana in septembrie.
 
-KOUSSO sau KUSSO (Brayera anthelminitica, Hagenia abyssinica;ROSACEAE), denumiri comune: Kousso, Kusso, Cusso, Kooso, Cossoo.
+# KOUSSO sau KUSSO (Brayera anthelminitica, Hagenia abyssinica;ROSACEAE), denumiri comune: Kousso, Kusso, Cusso, Kooso, Cossoo.
 
 Caracteristici de identificare- Trunchi de copac ornamental , frumos, de la 20 la 40 de metri inaltime, ramuri rotunde, ruginii, gălbui, aplatizate, brăzdate, păroase, glandulare,cu noduri, măduvă mare.
 

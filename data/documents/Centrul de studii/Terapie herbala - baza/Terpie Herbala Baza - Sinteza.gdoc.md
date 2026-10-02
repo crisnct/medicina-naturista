@@ -1,4 +1,4 @@
-**Cuprins**
+## Cuprins
 Plante reci	3
 
 Plante calde	4
@@ -39,9 +39,9 @@ CO2 \+ H2O \+ energie solara \= (clorofila) compusi organici \+ O2
 **Conditiile reci** sunt caracterizate de senzatia de frig, congestie, intepenire, incetinirea proceselor. Exemplu de probleme reci: probleme ale pielii, boli circulatorii, reumatism, constipatie, lipsa apetit,
 Plante reci: musetel, papadie, castravete, …
 
-# **Plante reci** {#plante-reci}
+## Plante reci
 
-**Musetelul (Anathemis nobilis)**
+### Musetelul (Anathemis nobilis)
 
 - Te ajuta sa dormi
 - Calmeaza nervii
@@ -50,7 +50,7 @@ Plante reci: musetel, papadie, castravete, …
 - Febrifug
 - Poate decolora parul, daca este clatit cu o infuzie de musetel
 
-**Papadia**
+### Papadia
 
 - Probleme digestive
 - Calmeaza aciditatea
@@ -58,13 +58,13 @@ Plante reci: musetel, papadie, castravete, …
 - Stimuleaza bila
 - Radacina e utila in probleme ale vezicii urinare
 
-**Gentiana**
+### Gentiana
 
 - Anti inflamator
 - Anxietate
 - Probleme digestive
 
-**Hameiul**
+### Hameiul
 
 - Inflamatii digestive
 - Calmant
@@ -72,7 +72,7 @@ Plante reci: musetel, papadie, castravete, …
 - Antispastic, antiseptic
 - Remediu contra mahmurelii
 
-**Busuioc de camp (prunella vulgaris)**
+### Busuioc de camp (prunella vulgaris)
 
 - Ulcer gastric
 - Migrene
@@ -81,26 +81,26 @@ Plante reci: musetel, papadie, castravete, …
 - Sindromul colonului iritabil
 - Extern: rani, ulceratii
 
-**Gura-lupului (Scutellaria galericulata)**
+### Gura-lupului (Scutellaria galericulata)
 
 - Tulburari ale mintii
 - Antispastic
 - Relaxeaza si ajuta la un somn mai bun
 - Risc: poate provoca insuficienta hepatica, cand e luata in doza prea mare sau timp indelungat
 
-**Valeriana**
+### Valeriana
 
 - Antispastic
 - Somnifer
 - Risc: afecteaza ficatul cand e luata in doza prea mare
 
-**Cicoarea**
+### Cicoarea
 
 - Antiinflamator digestiv
 - Stimuleaza bila
 - Laxativ
 
-**Coriandrul**
+### Coriandrul
 
 - Stimuleaza apetitul
 - Antispasmodic
@@ -113,9 +113,9 @@ Plante reci: musetel, papadie, castravete, …
 4\. stimularea pancreasului
 5\. vindecarea mucusului membranei
 
-# **Plante calde** {#plante-calde}
+## Plante calde
 
-**Tataneasa**
+### Tataneasa
 Sub forma de unguent pentru:
 
 - Probleme ale oaselor
@@ -125,32 +125,32 @@ Sub forma de unguent pentru:
 - Alina muschii incordati
 - Ajuta la videcarea varicelor de la picioare
 
-**Ardeiul Cayenne**
+### Ardeiul Cayenne
 
 - Tonic pentru inima
 - Dureri de picioare
 - Circulatie periferica deficitara
 
-**Scortisoara**
+### Scortisoara
 
 - Stimuleaza sistemul digestiv
 - Circulatia lenta a membrelor inferioare
 - Guturai
 - Greata
 
-**Iarba-mare**
+### Iarba-mare
 
 - Expectorant
 - Provoaca transpiratia prin febra
 
-**Chimen dulce**
+### Chimen dulce
 
 - Costipatie
 - Creste fertilitatea
 - Reumatism
 - Slabire
 
-**Spilcuta (Chrysanthemum parthenium)**
+### Spilcuta (Chrysanthemum parthenium)
 
 - Artrita
 - Migrene
@@ -158,35 +158,35 @@ Sub forma de unguent pentru:
 - Incheieturi umflate
 - Sangerarea nasului
 
-**Bubericul**
+### Bubericul
 
 - Extern: eczeme, rani, julituri, hemoroizi
 - Intern: toxic, provoaca tahicardie
 
-**Usturoiul**
+### Usturoiul
 
 - Efect de incalzire pentru sistemul circulator
 
 Consuma patrunjel dupa ce ai mancat usturoi, pentru a contracara mirosul.
 
-**Paducelul**
+### Paducelul
 
 - Tonic pentru inima si sistemul circulator. Poate provoca tahicardie
 - O cataplasma facuta din frunze este buna pentru a extrage puroiul sau aschii care s-au format greu sau care sunt greu de scos.
 
-**Hreanul**
+### Hreanul
 
 - Stimuleaza apetitul
 - Efect antiseptic
 - Elimina viermii si parazitii
 - Infectiile tractului urinar
 
-**Isopul**
+### Isopul
 
 - Expectorant
 - Produce transpiratie in timpul unei infectii respiratorii
 
-**Mustarul**
+### Mustarul
 
 - Elimina flegma
 - Bronsita
@@ -195,7 +195,7 @@ Consuma patrunjel dupa ce ai mancat usturoi, pentru a contracara mirosul.
 
 O doza prea mare luata intern poate produce greata.
 
-**Urzica**
+### Urzica
 
 - Artrita
 - Reumatism
@@ -204,25 +204,25 @@ O doza prea mare luata intern poate produce greata.
 - Stimuleaza cresterea parului
 - Tonic pentru scalp
 
-**Menta**
+### Menta
 
 - Migrene
 - Varice
 - Colita
 - Stimuleaza secretia gastrica
 
-**Trandafirul**
+### Trandafirul
 
 - Remediu pentru multe probleme ale inimii. Se ia amestecat cu miere
 
-**Salvia**
+### Salvia
 
 - Foarte bun in cazul durerilor de gat
 - Efect antiseptic si analgezic
 - Infectii respiratorii
 - Dureri musculare
 
-**Coada-soricelului**
+### Coada-soricelului
 
 - Reduce hemoragia
 - Menstruatii neregulate
@@ -233,9 +233,9 @@ O doza prea mare luata intern poate produce greata.
 - Degeraturi
 - Hemoroizi
 
-# **Tonice** {#tonice}
+## Tonice
 
-**Kelp**
+### Kelp
 
 - Laxativ
 - Ajuta la slăbire
@@ -245,7 +245,7 @@ O doza prea mare luata intern poate produce greata.
 - Congestie
 - Atentie: se ia maxim o luna, dupa care se face pauza tot o luna
 
-**Lemn-dulce**
+### Lemn-dulce
 
 - Stimuleaza glandele suprarenale sa produca hormoni steroidieni
 - Antiinflamator
@@ -257,7 +257,7 @@ O doza prea mare luata intern poate produce greata.
 - Atentie: trebuie luate masuri de precautie de oameni care retin lichidele, deoarece se poate spori acest efect, cu rezultate potențial dăunătoare.
 - Atentie: trebuie evitat de hipertensivi
 
-**In**
+### In
 
 - Oboseala
 - Menopauza
@@ -265,9 +265,9 @@ O doza prea mare luata intern poate produce greata.
 - Calmeaza tusea uscata
 - Curata intestinul
 
-# **Adaptogeni si armonizatori** {#adaptogeni-si-armonizatori}
+## Adaptogeni si armonizatori
 
-**Ginseng**
+### Ginseng
 
 - Stimuleaza glandele suprarenale
 - Stimuleaza corpul sa produca energie
@@ -278,22 +278,22 @@ O doza prea mare luata intern poate produce greata.
 - Grabeste vindecarea ranilor
 - Atentie: nu se ia atunci cand esti agitat
 
-**Radacina de unicorn (Chamaelirium luteum)**
+### Radacina de unicorn (Chamaelirium luteum)
 
 - Armonizeaza sistemul de reproducere feminin
 - Sindrom premenstrual
 - Diuretic
 - Vermifug
 
-**Agnus castus(Vitex agnus-castus, Mielăreaua)**
+### Agnus castus(Vitex agnus-castus, Mielăreaua)
 
 - Armonizeaza sistemul de reproducere feminin
 - Sindrom premenstrual, diminueaza inrosirea fetei
 - Provoaca lactatia
 
-# **Purificatoare de sange** {#purificatoare-de-sange}
+## Purificatoare de sange
 
-**Echinaceea**
+### Echinaceea
 
 - Antiseptic
 - Antimicrobian
@@ -302,26 +302,26 @@ O doza prea mare luata intern poate produce greata.
 - Infectii urinare
 - Se foloseste radacina
 
-**Cleavers (Galium aparine , Lipicioasa)**
+### Cleavers (Galium aparine , Lipicioasa)
 
 - Diuretic excelent
 - Eczeme
 - Psoriazis
 - Infectii urinare
 
-**Iarba Canapea (Couch Grass, Agropyron repens)**
+### Iarba Canapea (Couch Grass, Agropyron repens)
 
 - Infectii urinare
 - Spasme ale cailor urinare
 
-**Patrunjelul**
+### Patrunjelul
 
 - Excelent efect de curatare a nisipului de la rinichi
 - Diuretic puternic
 - Probleme la stomac
 - Nu ar trebui consumat de femeile gravide deoarece poate provoca avortul.
 
-**Podbal (Coltsfoot, Tussilago farfara)**
+### Podbal (Coltsfoot, Tussilago farfara)
 
 - Expectorant
 - Relaxant
@@ -329,7 +329,7 @@ O doza prea mare luata intern poate produce greata.
 - Tuse uscata
 - Dureri de gat
 
-**Ovazul (Avena sativa)**
+### Ovazul (Avena sativa)
 
 - Tulburari ale tesutului nervos
 - Alzheimer
@@ -337,71 +337,101 @@ O doza prea mare luata intern poate produce greata.
 - Antiinflamator
 - Zona zoster
 
-## **Infuzii** {#infuzii}
+## Infuzii
 
-**Aciditate** \- Cretusca (flori, muguri, cu miere ca pe un îndulcitor)
+### Aciditate
+Cretusca (flori, muguri, cu miere ca pe un îndulcitor)
 
-**Antibacterian**\- Iarba mare (o infuzie fierbinte sau decoct de radacina uscata)
+### Antibacterian
+Iarba mare (o infuzie fierbinte sau decoct de radacina uscata)
 
-**Anxietate** \- Musetel (flori)
+### Anxietate
+Musetel (flori)
 
-**Stimulator al poftei de mâncare** \- papadie (frunze) Fenicul (semințe) Ginseng (radacina) Hamei (frunze) Muștar (frunze)
+### Stimulator al poftei de mâncare
+Papadie (frunze) Fenicul (semințe) Ginseng (radacina) Hamei (frunze) Muștar (frunze)
 
-**Artrita** \-Coriandru (seminte) Cayenne (semințe măcinate) Scortisoara (coaja praf) Iarba mare (o infuzie fierbinte sau decoct de radacina uscata) Fenicul (semințe) Urzica (toata planta sau frunzele)
+### Artrita
+Coriandru (seminte) Cayenne (semințe măcinate) Scortisoara (coaja praf) Iarba mare (o infuzie fierbinte sau decoct de radacina uscata) Fenicul (semințe) Urzica (toata planta sau frunzele)
 
-**Probleme ale vezicii urinare-** Pătrunjel (patrunjel uscat sau frunze) Pătrunjel piert (frunze uscate sau proaspete)
+### Probleme ale vezicii urinare
+Pătrunjel (patrunjel uscat sau frunze) Pătrunjel piert (frunze uscate sau proaspete)
 
-**Bronșită** \-iarba mare (o infuzie fierbinte sau un decoct de radacina uscata) Muștar (frunze)
+### Bronșită
+Iarba mare (o infuzie fierbinte sau un decoct de radacina uscata) Muștar (frunze)
 
-**Guturai** \-Isop (flori)
+### Guturai
+Isop (flori)
 
-**Diaforetic**\- Salvie (frunze) Coada soricelului (frunze și flori)
+### Diaforetic
+Salvie (frunze) Coada soricelului (frunze și flori)
 
-**Diuretic**\- Țelină (frunze, semințe și tulpină)
+### Diuretic
+Țelină (frunze, semințe și tulpină)
 
-**Mahmureala**\- Hamei (frunze), armurariu
+### Mahmureala
+Hamei (frunze), armurariu
 
-**Dureri de cap** –iarba fetei (frunze, indulcit cu miere) Salvie (frunze)
+### Dureri de cap
+Iarba fetei (frunze, indulcit cu miere) Salvie (frunze)
 
-**Indigestie** \-Musetel (flori)
+### Indigestie
+Musetel (flori)
 
-**Laxativ** \-Papadia (frunze) Iarba fetei (frunze, indulcit cu miere)
+### Laxativ
+Papadia (frunze) Iarba fetei (frunze, indulcit cu miere)
 
-**Migrena**\- Iarba fetei (frunze, indulcit cu miere)
+### Migrena
+Iarba fetei (frunze, indulcit cu miere)
 
-**Greata**\- Scortisoara (pulbere de coaja)
+### Greata
+Scortisoara (pulbere de coaja)
 
-**Pentru slăbire**\- fenicul (semințe) Țelină (frunze, semințe și tulpină)
+### Pentru slăbire
+Fenicul (semințe) Țelină (frunze, semințe și tulpină)
 
-**Durere în gât**\- Salvie (frunze)
+### Durere în gât
+Salvie (frunze)
 
-**Tinctura de calciu** Ia cojile de la o duzina de oua, usuca-le și scoate membrana din interior, astfel încât sa ai pur și simplu coji de calciu. Pulverizeaza-le și adauga 600 ml sau o jumătate de litru de oțet de mere. Se va face o mulțime de spumă, asa ca foloseste un recipient mare. Se adaugă 50 de grame de miere și se amestecă bine. Păstreaza tinctura într-un recipient cu șurub la cap, din plastic de preferință, în caz de presiune excesiva și nu eliberezi până când tinctura nu este plata. Două linguri, de trei ori pe zi este doza recomandată după masa. Acest lucru ar trebui să fie evitat de cei care suferă de dispepsie sau ulcerație stomacala.
+### Tinctura de calciu
+Ia cojile de la o duzina de oua, usuca-le și scoate membrana din interior, astfel încât sa ai pur și simplu coji de calciu. Pulverizeaza-le și adauga 600 ml sau o jumătate de litru de oțet de mere. Se va face o mulțime de spumă, asa ca foloseste un recipient mare. Se adaugă 50 de grame de miere și se amestecă bine. Păstreaza tinctura într-un recipient cu șurub la cap, din plastic de preferință, în caz de presiune excesiva și nu eliberezi până când tinctura nu este plata. Două linguri, de trei ori pe zi este doza recomandată după masa. Acest lucru ar trebui să fie evitat de cei care suferă de dispepsie sau ulcerație stomacala.
 
-## **Cataplasme** {#cataplasme}
+## Cataplasme
 
-**Arnica**\- excelenta pentru vânătăi și entorse. Să nu se aplice niciodată pe pielea rupta
+### Arnica
+Excelenta pentru vânătăi și entorse. Să nu se aplice niciodată pe pielea rupta
 
-**Varza**\- excelenta pentru a indeparta infectiile de la cap
+### Varza
+Excelenta pentru a indeparta infectiile de la cap
 
-**Morcovul**\- ras si ud, o cataplasmă cu morcov cald este excelenta pentru gatul dureros si congestionat. Este metoda clasica de utilizare în mastita.
+### Morcovul
+Ras si ud, o cataplasmă cu morcov cald este excelenta pentru gatul dureros si congestionat. Este metoda clasica de utilizare în mastita.
 
-**Tataneasa**\- o minunata capacitate de vindecare a rănilor
+### Tataneasa
+O minunata capacitate de vindecare a rănilor
 
-**Usturoiul**\- un preparat antiseptic si antibacterian.
+### Usturoiul
+Un preparat antiseptic si antibacterian.
 
-**Maghiran**\- o cataplasma excelenta pentru entorse
+### Maghiran
+O cataplasma excelenta pentru entorse
 
-**Muștarul**\- când e făcut într-o cataplasma cu ulei de măsline, este excelent pentru relaxarea congestionarii unei parti
+### Muștarul
+Când e făcut într-o cataplasma cu ulei de măsline, este excelent pentru relaxarea congestionarii unei parti
 
-**Ovăzul** \-o cataplasma generală anti-inflamatoare
+### Ovăzul
+O cataplasma generală anti-inflamatoare
 
-**Patlagina**\- foarte buna pentru mușcături, înțepături, paronichie. Ea este minunata pentru tratarea infectiilor degetelor de la picioare
+### Patlagina
+Foarte buna pentru mușcături, înțepături, paronichie. Ea este minunata pentru tratarea infectiilor degetelor de la picioare
 
-**Cartoful** – maruntit si îmbibat este excelent la atenuarea disconfortului ochiului negru și a altor vânătăi rele.
+### Cartoful
+Maruntit si îmbibat este excelent la atenuarea disconfortului ochiului negru și a altor vânătăi rele.
 
-**Salvia**\- excelenta pentru zgârieturi dureroase si escoriatii
+### Salvia
+Excelenta pentru zgârieturi dureroase si escoriatii
 
-# **Homeopatia** {#homeopatia}
+## Homeopatia
 
 *Homeopatia* este o ramura a medicinei care se bazează pe principiul similarității. Intr-un remediu homeopatic este dat ceva care imita simptomele. Ideea este că acest lucru va stimula puterea naturală de vindecare a organismului, forta vitala, pentru a vindeca problema în sine.
 
@@ -420,45 +450,81 @@ Există câteva puncte de apreciat în luarea de comprimate:
 
  4\. Comprimatele trebuie luate două la un moment dat, de trei ori pe zi, în cazurile acute si, treptat, reduse la de două ori pe zi, cand starea se îmbunătățește și oprite atunci când îmbunătățirea a avut loc cu adevărat. În boli acute, remediile se pot lua la fiecare jumătate de oră, dar reducand treptat frecvența dozei și îmbunătățirea va aparea.
 
-# **Uleiuri pentru aromoterapie** {#uleiuri-pentru-aromoterapie}
+## Uleiuri pentru aromoterapie
 
-**Busuioc** \- acesta este un ulei stimulant si tonic. Este util pentru depresie, anxietate,probleme digestive și respiratorii.
+### Busuioc
 
-**Bergamot** \- acesta este un ulei calmant. Este util pentru gâtul inflamat, ulcere recurente dureroase și herpes.
+Acesta este un ulei stimulant si tonic. Este util pentru depresie, anxietate,probleme digestive și respiratorii.
 
-**Camfor** \- acesta este un ulei de răcire. Este util pentru dureri reumatice, constipație, tulburări de somn și acnee.
+### Bergamot
 
-**Cypress** \- acesta este un ulei relaxant. Este excelent pentru calmarea durerilor varicoase dureri și problemelor de menopauză.
+Acesta este un ulei calmant. Este util pentru gâtul inflamat, ulcere recurente dureroase și herpes.
 
-**Eucalipt** \- acesta este un ulei minunat pentru compensarea guturaiului, inhalat sau în apa de baie.
+### Camfor
 
-**Fennel** \- acesta este un ulei relaxant. Este util pentru probleme urinare si disconfortul digestiv.
+Acesta este un ulei de răcire. Este util pentru dureri reumatice, constipație, tulburări de somn și acnee.
 
-**Geranium** \-acesta este un ulei relaxant. Este foarte bun pentru infectii recurente, imunitate redusa si probleme urinare.
+### Cypress
 
-**Isop** \- acesta este la fel ca uleiul de eucalipt. E foarte bun pentru guturai și probleme de respirație.
+Acesta este un ulei relaxant. Este excelent pentru calmarea durerilor varicoase dureri și problemelor de menopauză.
 
-**Ienupar** \- acesta este relaxant. E foarte bun pentru problemele de somn și anxietate generala.
+### Eucalipt
 
-**Levantica** \- acesta este relaxant. E bun pentru depresie si anxietate, probleme digestive.
+Acesta este un ulei minunat pentru compensarea guturaiului, inhalat sau în apa de baie.
 
-**Lamaie** \- acesta este un ulei stimulant si tonic. Este foarte bun pentru circulație lenta, tensiune arterială ridicată. De asemenea, este eficient in problemele pielii.
+### Fennel
 
-**Maghiran** \- acesta este un ulei tonifiant. Este bun pentru circulație, pentru crampe și migrena. De asemenea, accelerează recuperarea dupa entorse și vânătăi.
+Acesta este un ulei relaxant. Este util pentru probleme urinare si disconfortul digestiv.
 
-**Floare de portocal** \- acesta este un ulei relaxant. Este extrem de bun pentru stări de anxietate și pentru cei care au atacuri de panica. De asemenea, e foarte bun pentru problemele de somn.
+### Geranium
 
-**Mentă** \- acesta este un ulei relaxant. Este bun pentru spasm, boală de călătorie, amețeli.
+Acesta este un ulei relaxant. Este foarte bun pentru infectii recurente, imunitate redusa si probleme urinare.
 
-**Trandafir** \- acesta este un ulei calmant si relaxant. Este bun pentru depresie și anxietate.
+### Isop
 
-**Rozmarin** \- acesta este un ulei stimulant si tonic. Este foarte bun pentru neurastenie, epuizare și convalescența de la o infecție.
+Acesta este la fel ca uleiul de eucalipt. E foarte bun pentru guturai și probleme de respirație.
 
-**Salvie** \- acesta este un ulei stimulant si tonic. Este bun pentru circulație și pentru problemele reumatice.
+### Ienupar
 
-**Tea Tree** \- acesta este un ulei calmant și antiseptic. Este excelent pentru curățarea infecțiilor pielii, cum ar fi aftele infecțioase.
+Acesta este relaxant. E foarte bun pentru problemele de somn și anxietate generala.
 
-# **Remediile florale Bach** {#remediile-florale-bach}
+### Levantica
+
+Acesta este relaxant. E bun pentru depresie si anxietate, probleme digestive.
+
+### Lamaie
+
+Acesta este un ulei stimulant si tonic. Este foarte bun pentru circulație lenta, tensiune arterială ridicată. De asemenea, este eficient in problemele pielii.
+
+### Maghiran
+
+Acesta este un ulei tonifiant. Este bun pentru circulație, pentru crampe și migrena. De asemenea, accelerează recuperarea dupa entorse și vânătăi.
+
+### Floare de portocal
+
+Acesta este un ulei relaxant. Este extrem de bun pentru stări de anxietate și pentru cei care au atacuri de panica. De asemenea, e foarte bun pentru problemele de somn.
+
+### Mentă
+
+Acesta este un ulei relaxant. Este bun pentru spasm, boală de călătorie, amețeli.
+
+### Trandafir
+
+Acesta este un ulei calmant si relaxant. Este bun pentru depresie și anxietate.
+
+### Rozmarin
+
+Acesta este un ulei stimulant si tonic. Este foarte bun pentru neurastenie, epuizare și convalescența de la o infecție.
+
+### Salvie
+
+Acesta este un ulei stimulant si tonic. Este bun pentru circulație și pentru problemele reumatice.
+
+### Tea Tree
+
+Acesta este un ulei calmant și antiseptic. Este excelent pentru curățarea infecțiilor pielii, cum ar fi aftele infecțioase.
+
+## Remediile florale Bach
 
 Metoda Soarelui: În acest sens, capetele florilor sunt plasate intr-un vas cu apă minerală proaspătă și lasate afara, in soare, timp de trei ore.Energia florii este absorbită în apă, care este filtrată și conservata cu brandy. Acest lucru face tinctura mama din care sticlele cu remedii sunt produse.
 
@@ -466,80 +532,138 @@ A doua metodă este prin fierbere. Acest lucru este folosit pentru optsprezece r
 
 Dr. Bach a împărțit remediile în 7 grupe:
 
-**Pentru frica**: Rock Rose, Mimulus, Cires, Prune, Aspen, Red Chestnut
+### Pentru frica
+Rock Rose, Mimulus, Cires, Prune, Aspen, Red Chestnut
 
-**Pentru incertitudine**: Cerato, Scleranthus, Gențiana, Gorse, Carpen, Ovăz sălbatic
+### Pentru incertitudine
+Cerato, Scleranthus, Gențiana, Gorse, Carpen, Ovăz sălbatic
 
-**Pentu interesul insuficient în condițiile actuale** Clematis, Honeysuckle, Wild Rose, Măsline, Castan alb, Mustar, Mugur de Castan
+### Pentu interesul insuficient în condițiile actuale
+Clematis, Honeysuckle, Wild Rose, Măsline, Castan alb, Mustar, Mugur de Castan
 
-**Pentru singuratate:** Apă Violet, Impatiens, Iarba Neagra
+### Pentru singuratate
+Apă Violet, Impatiens, Iarba Neagra
 
-**Pentru extra-sensibilitate:** Agrimony, dioc, nuc, Holly
+### Pentru extra-sensibilitate
+Agrimony, dioc, nuc, Holly
 
-**Pentru deznădejde:** Zada, pin, ulm, castan dulce, Steaua din Betleem, Willow, stejar, crab măr
+### Pentru deznădejde
+Zada, pin, ulm, castan dulce, Steaua din Betleem, Willow, stejar, crab măr
 
-**Pentru prea mare grija pentru binele altora**: Cicoare, Verbina, viță de vie, fag, Rock Water.
+### Pentru prea mare grija pentru binele altora
+Cicoare, Verbina, viță de vie, fag, Rock Water.
 
-**Indicații individuale**
+### Agrimony
 
-**Agrimony** Pentru cei care ascund chinul interior și sentimentele în spatele unui chip curajos.
+Pentru cei care ascund chinul interior și sentimentele în spatele unui chip curajos.
 
-**Plop tremurător** Pentru sentimentul de condamnare iminenta.Frica nu este ceva ce individul poate atinge.
+### Plop tremurător
 
-**Fag** Pentru persoanele arogante, critice care găsesc mereu vina la altele. Poate clocoti sub suprafata.
+Pentru sentimentul de condamnare iminenta.Frica nu este ceva ce individul poate atinge.
 
-**Dioc Bun de calcat in picioare**. Atunci când are imposibilitatea de a spune vreodată nu.
+### Fag
 
-**Cerato** Atunci când nu poate hotări de unul singur. Intotdeauna cere opinia altora.
+Pentru persoanele arogante, critice care găsesc mereu vina la altele. Poate clocoti sub suprafata.
 
-**Cherry Plum** Include tipul impulsiv de persoane sinucidale. Ele trăiesc în frica de a pierde controlul.
+### Dioc
 
-**Mugur de castan** Pentru cei care continua să facă aceleași greșeli în viață, fără sa învețe lecția.
+Bun de calcat in picioare. Atunci când are imposibilitatea de a spune vreodată nu.
 
-**Cicoare** Pentru cei posesivi. Pentru martirii care vor saprotejeze și să aibă grijă, dar sfârșesc prin sufocarea celor pe care ii îngrijesc. Prin urmare, acestia se pot simti respinsi și disprețuiti,se simt, ca niste martiri.
+### Cerato
 
-**Clematis** Pentru tipurile creative, care viseaza pe zi, par indiferenți și absenti.
+Atunci când nu poate hotări de unul singur. Intotdeauna cere opinia altora.
 
-**Crab Apple** Pentru auto-dezgust, rușine .
+### Cherry Plum
 
-**Ulm** Pentru cei care se simt copleșiți de responsabilități. Un bun remediu pentruun sentiment de inadecvare temporară.
+Include tipul impulsiv de persoane sinucidale. Ele trăiesc în frica de a pierde controlul.
 
-**Gențiană** Pentru dezamăgire și descurajare.
+### Mugur de castan
 
-**Gorse Defetism** absolut și pesimism. Ele nu se deranjeaza pentru că au impresia că o altă încercare nu merita.
+Pentru cei care continua să facă aceleași greșeli în viață, fără sa învețe lecția.
 
-**Buruiană Heather Vorbaret**, interesat doar de sine, egoist. Oamenii ii pot evita și ei pot deveni singuri, deoarece acestia sunt atât de egoiști, plictisitoari etc
+### Cicoare
 
-**Ilice** Pentru gelozie, furie, ură, răzbunare, toate emoțiile distructive extreme. Poate fi exploziv de furios.
+Pentru cei posesivi. Pentru martirii care vor saprotejeze și să aibă grijă, dar sfârșesc prin sufocarea celor pe care ii îngrijesc. Prin urmare, acestia se pot simti respinsi și disprețuiti,se simt, ca niste martiri.
 
-**Caprifoi** Cei care privesc mereu înapoi in trecut, simt dor de casă. Ei trăiesc în trecut, cu amintirile lor.
+### Clematis
 
-**Carpen** Pentru senimentul de luni dimineața. Pentru starea mentală negativă, epuizanta că o noua zi dificilă incepe.
+Pentru tipurile creative, care viseaza pe zi, par indiferenți și absenti.
 
-**Impatiens** Pentru iritabilitate și nerăbdare. Nervozitate, întotdeauna în grabă
+### Crab Apple
 
-**Larice** Pentru cei lipsiti de încredere în sine. Ei se așteaptă să eșueze. Acest lucru difera de teama de eșec sau teama de pierdere a controlului
+Pentru auto-dezgust, rușine .
 
-**Mimulus** Frica de boală, sărăcie, călătorie, etc .Frica de un lucru specific.
+### Ulm
 
-**Muștar** Pentru depresia neagra care vine brusc, ca o perdea.
+Pentru cei care se simt copleșiți de responsabilități. Un bun remediu pentruun sentiment de inadecvare temporară.
 
-**Stejar** Pentru cei care se luptă in orice circumstanță. Poate fi de multe ori o corvoadă atunci când mintea și corpul lor au nevoie de o perioadă de odihnă. Ei nu recunosc senzația de rău. Atunci când nu pot să facă față sunt furiosi pe ei înșiși\!
+### Gențiană
 
-**Măslin** Pentru epuizare.Când si-au folosit toata energia.
+Pentru dezamăgire și descurajare.
 
-**Pin** Pentru vina. Ei poarta vina cu ei, dar nu pot fi niciodată în măsură să se descarce pentru oricine altcineva.
+### Gorse
 
-**Red Chestnut** Teama ca ceva se intampla persoanei iubite. A nu se confunda cu cicoarea.
+Defetism absolut și pesimism. Ele nu se deranjeaza pentru că au impresia că o altă încercare nu merita.
 
-**Rock Rose** Pentru teroare, panica, frica extrema. Foarte bun pentru coșmaruri și lucruri care au urmat accidentelor sau traumatismelor.
+### Buruiană Heather
 
-## **Remediu de salvare** {#remediu-de-salvare}
+Vorbaret, interesat doar de sine, egoist. Oamenii ii pot evita și ei pot deveni singuri, deoarece acestia sunt atât de egoiști, plictisitoari etc
+
+### Ilice
+
+Pentru gelozie, furie, ură, răzbunare, toate emoțiile distructive extreme. Poate fi exploziv de furios.
+
+### Caprifoi
+
+Cei care privesc mereu înapoi in trecut, simt dor de casă. Ei trăiesc în trecut, cu amintirile lor.
+
+### Carpen
+
+Pentru senimentul de luni dimineața. Pentru starea mentală negativă, epuizanta că o noua zi dificilă incepe.
+
+### Impatiens
+
+Pentru iritabilitate și nerăbdare. Nervozitate, întotdeauna în grabă
+
+### Larice
+
+Pentru cei lipsiti de încredere în sine. Ei se așteaptă să eșueze. Acest lucru difera de teama de eșec sau teama de pierdere a controlului
+
+### Mimulus
+
+Frica de boală, sărăcie, călătorie, etc .Frica de un lucru specific.
+
+### Muștar
+
+Pentru depresia neagra care vine brusc, ca o perdea.
+
+### Stejar
+
+Pentru cei care se luptă in orice circumstanță. Poate fi de multe ori o corvoadă atunci când mintea și corpul lor au nevoie de o perioadă de odihnă. Ei nu recunosc senzația de rău. Atunci când nu pot să facă față sunt furiosi pe ei înșiși\!
+
+### Măslin
+
+Pentru epuizare.Când si-au folosit toata energia.
+
+### Pin
+
+Pentru vina. Ei poarta vina cu ei, dar nu pot fi niciodată în măsură să se descarce pentru oricine altcineva.
+
+### Red Chestnut
+
+Teama ca ceva se intampla persoanei iubite. A nu se confunda cu cicoarea.
+
+### Rock Rose
+
+Pentru teroare, panica, frica extrema. Foarte bun pentru coșmaruri și lucruri care au urmat accidentelor sau traumatismelor.
+
+## Remediu de salvare
 
 Dr. Bach a pledat pentru utilizarea unui tratament compozit (care este vandut direct), pe care l-a numit Remediu de Salvare. Aceasta constă in următoarele: \- Cherry Plum, Clematis, Impatiens, Rock Rose și SteauaBetleem. Acesta este utilizat în situații de urgență pentru șoc, traumatism, vesti proaste, etc .
 
-# **Plantele in bucatarie** {#plantele-in-bucatarie}
+## Plantele in bucatarie
 
 S-a constatat ca aceia care au mancat un pumn de **nuci** de cinci ori pe săptămână, au redus la jumatate riscul de a face un atac de cord.
 
-**Uleiul de masline si uleiul de nuci** protejeaza impotriva bolilor de inima.
+### Uleiul de masline si uleiul de nuci
+protejeaza impotriva bolilor de inima.

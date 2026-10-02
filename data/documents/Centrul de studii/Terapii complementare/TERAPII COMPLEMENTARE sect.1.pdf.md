@@ -1769,7 +1769,7 @@ brate ,iar la baza o codita (care uneori lipseste) inconjurata de 6 solzi mici, 
 bruni. Sub epicarpul subtire se afla mezocarpul carnos, galben-verzui, cu trei seminte tari, mai
 rar una sau doua, cu muchiile rotunjite. Mirosul este aromatic, mai pronuntat prin zdrobire,
 gustul dulceag caracteristic, apoi amarui.
-LA V ANDA
+LAVANDA
 Lavandulae flos – flori uscate desprinse de pe pedunculii inflorescențelor, de culoare albastru-
 violet. Florile au bractee ovate, brune, membranoase, caliciul cilindric, păros și glandulos, cu
 peri glandulari unicelulari sau 8-12 celulari, au 4-6 mm lungime și diametrul de 3-4 mm; de
@@ -1801,7 +1801,7 @@ ca si ursii o cauta cand ies din hibernare, pentru a-si curata stomacul, intesti
 Leurda contine in esenta proprietatile usturoiului nostru, numai ca are o putere curativa mult
 mai mare. Este, de aceea, deosebit de indicata in curele depurative de primavara si ajuta la
 vindecarea bolilor cronice de piele.
-LEV ANTICA
+LEVANTICA
 Subarbust inalt de 30-100 cm, cu ramificatii bogate. Tulpina lemnoasa, patrunghiulara da
 nastere la ramuri ierboase, anuale. Frunzele oblonglanceolate sau ingust-lanceolate, sesile, la
 inceput sunt de culoare aurie, mai tarziu devenind verzi. Infloreste in iunie-august. Florile de

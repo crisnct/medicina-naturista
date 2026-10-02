@@ -1,16 +1,16 @@
-Curs 5
+# Curs 5
 
-**TONICELE**
+## TONICELE
 
 Pentru majoritatea oamenilor, cuvântul "tonic" evocă o imagine a unui agent medical care este luat pentru a consolida sistemul. Oamenii merg la medic cand se simt daramati și au nevoie de un fel de impuls. La un moment dat , un tonic care contine diverse substanțe chimice, va fi prescris. Lucruri cum ar fi stricnina au fost utilizate în mod obișnuit, ca si leacurile amare de degustare și coloranții. A fost aproape o confirmare că tonicele nu erau mai mult decat placebo.
 
 **Tonicele** au efect, cu toate acestea, atunci când acestea sunt realizate și luate în mod corespunzător.**În fitoterapie dăm tonice pentru tonifierea, consolidarea sau restabilirea functiei**. In aceasta ultima funcție, ele sunt mai degrabă ca niste agenți hormonali, care reechilibreaza metabolismul. Aceasta va da siguranță inceptorului pentru a-si reîmprospăta cunoșterea asupra glandelor endocrine ale corpului, hormonilor pe care ii produc și efectele acestor hormoni.
 
-Trei tonice hormonale
+## Trei tonice hormonale
 
 Am de gând să încep cu trei ierburi comune, care sunt toate extrem de utile. Ar trebui să înțelegem însă că, în unele circumstanțe, nu ar trebui să se acorde sau sa fie luate. Este valabil pentru orice tip de tratament \- să înțelegi ceea ce faci.
 
-Bladderwrack (Fucus vesiculosus), **Kelp**, de asemenea, numit sau PopperSea-Weed
+### Bladderwrack (Fucus vesiculosus), Kelp, de asemenea, numit sau PopperSea-Weed
 
 Aspect: alge marine brune comune, găsite pe jumătate acoperite cu pietre , pe litoral.
 
@@ -20,7 +20,7 @@ Ca tonic este bun pentru condiții caracterizate prin tembelism, congestie și c
 
 Metoda: Acesta este disponibil în magazinele naturiste, sub forma de comprimate. Cu toate acsetea, nu se da un tratament prelungit. Se ia maxim o lună , facand apoi o pauză de cel puțin inca o luna. Pot fi luate până la trei tablete pe zi, în doza de 5-10 grame echivalentul plantei uscate. În constipație, extractul praf poate fi luat într-o doză de 5ml , până la trei linguri pe zi.
 
-**Lemnul dulce** (Glycyrrhiza glabra)
+### Lemnul dulce (Glycyrrhiza glabra)
 
 Durata de viață: Aceasta este o planta perena.
 
@@ -32,7 +32,7 @@ Acesta este de obicei folosit pentru a adauga aroma unor remedii pe bază de pla
 
 Metoda: radacina uscata poate fi mestecata direct sau rasă, luata într-o doză de 1-4 grame de radacina de trei ori pe zi, într-o soluție neutră. Acesta poate fi, de asemenea, pusa in alte infuzii.
 
-**INUL** (Linum usitatissimum), luat sub formă de ulei \- ulei de in
+### INUL (Linum usitatissimum), luat sub formă de ulei \- ulei de in
 
 Durată de viață: anual
 
@@ -44,7 +44,7 @@ Metoda: Acesta este disponibil sub formă de capsule la cele mai multe magazine 
 
 Există un motiv pentru care am ales aceste trei plante în aceasta ordine. Vei observa că au o afinitate, respectiv modul de acțiune asupra tiroidei, glandelor suprarenale si ovarelor.
 
-**Armonizatorii si adaptogenii**
+## Armonizatorii si adaptogenii
 
 Vreau acum să vă prezint un grup de plante, care sunt denumite ,în continuare, "adaptogene", cu toate că mie imi place să mă gândesc la ele ca"armonizatoare". Termenul „adaptogen” este conform cu știința fitoterapiei,în timp ce „armonizator” este mai mult în conformitate cu vederea filosofica a artei fitoterapiei. Te las să alegi pe care preferi să îl folosesti.
 
@@ -52,7 +52,7 @@ Un adaptogen este un agent care ajută organismul să se adapteze mai bine func�
 
 Am spus ca prefer termenul de armonizator. Acest lucru se datorează faptului că îmi place să vad sănătatea ca pe o stare de echilibru, iar bolile ca pe un dezechilibru. Plante pot restabili echilibrul prin rearmonizarea corpului.Esti deja familiarizat cu conceptul de cald și rece de dezechilibru.
 
-**GINSENG** (Panax ginseng), numit asiatic ginseng sau Ren Shen
+### GINSENG (Panax ginseng), numit asiatic ginseng sau Ren Shen
 
 Numele botanic Panax este derivat din Panakes grecești, însemnând" vindecare totala" \- (similar cu cuvântul panaceu).
 
@@ -68,7 +68,7 @@ Metoda: O ceasca de dimineata și una seara, de rădăcină infuzata este doza r
 
 Notă importanta: Ginseng nu se ia atunci cand esti agitat, deoarece efectul de încălzire are o tendință de creștere a agitației. În mod similar, în cazul în care parcurgi o perioada grea, efectul de încălzire poate determina o agravare.
 
-**ROOT HELONIAS** (Chamaelirium luteum), numit, de asemenea, Blazing Star si Radacina Falsa a Unicornului
+### ROOT HELONIAS (Chamaelirium luteum), numit, de asemenea, Blazing Star si Radacina Falsa a Unicornului
 
 Aspect: Aceasta este o planta perena, care poate crește până la trei metri înălțime. Ea are tulpini unghiulare și frunze lanceolate, radicale. Acesta produce flori mici alb-verzui. Rădăcina, un rizom, este gri la exterior, cu un corn colorat in interior, asemanantor cu cornul unicornului mitic.
 
@@ -80,7 +80,7 @@ Aceasta usureaza durerile menstruale, prin funcția sa antispastica rezolva foar
 
 Metoda: Poate fi luat ca decoct sau ca tinctura. In forma solida, se ia echivalentul a 1-2 grame de radacina uscata , de trei ori pe zi.
 
-**Agnus Castus** (Vitex agnus-castus), numit de asemenea Pepper Monk și Vitex agnus castus
+### Agnus Castus (Vitex agnus-castus), numit de asemenea Pepper Monk și Vitex agnus castus
 
 Aspect: Acest arbust este lent in creștere și dens, ajungând la numai câtiva centimetri în înălțime. Fructele contin o singura samanta. Când se usucă și se prepara sub forma de pudra are un miros caracteristic piperului.
 
@@ -90,7 +90,7 @@ Acțiune: Acesta este un alt armonizator pentru a doua jumătate a ciclului mens
 
 Metoda: Ca si radacina de Helonius , acesta este cel mai bine luat ca decoct sau ca tinctura. Ar trebui să fie luat în doza de 1 gram ,echivalent al fructelor uscate, de trei ori pe zi.
 
-BITTER
+## BITTER
 
 Am studiat deja Bitter-ul în ultima lecție, dar aș dori să vorbim din nou despre rolul sau.Printre efectele pe care Bitter-ul il are asupra tractului gastro-intestinal sunt următoarele:
 
@@ -114,13 +114,13 @@ Un alt exemplu de efect de armonizare al bitter-ului.
 
 Utilizarea bitter-ului de catre suferinzii ulcerului gastro-duodenal este, probabil, cel mai natural mod de a trata aceste condiții supărătoare.
 
-**PURIFICATORELE DE SANGE**
+## PURIFICATORELE DE SANGE
 
 Următorul grup de luat în considerare e format din plante care au un rol general de curățare sau de eliminare. Am ales să le numim purificatoare de sânge, dar in unele texte vor aparea cu eticheta de "limfatica"; "detoxifianti"și "alteratives".Termenii armonizatori si adaptogeni reflectă mai bine filozofia vânzătorului de plante medicinale.Gandeste-te la ele ca eliminand toxinele din organism, prin intermediul unuia sau altuia dintre sisteme.
 
 Astfel, în cadrul grupului, avem diuretice, laxative, ,expectorante și diaforetice.Locul lor principal în tratament este în boli cronice. Sunt incluse aici problemele cronice ale pielii, artrită, tulburări auto-imune, infecții persistente.
 
-**Echinacea** (Echinacea augustifolia), numita de asemenea Black Samson și coneflower
+### Echinacea (Echinacea augustifolia), numita de asemenea Black Samson și coneflower
 
 Aspect: Aceasta este o planta perena, care creste pana la aproximativ doi sau trei metri în înălțime. Ea are flori roșii, buchețelele așezate in jurul unui mare con. Frunzele sunt eliptice.Rizomul are un miros aromat și este lung și cilindric.
 
@@ -132,7 +132,7 @@ Acesta se utilizeaza în amigdalite cronice și recurente, infecții recurente a
 
 Metoda: Acesta poate fi luata ca un decoct de rădăcină și rizom, ca o lotiune sau sub forma de spalaturi (pentru infecții locale).Doza este, în general, de 1-1.5 grame de radacina, de trei ori pe zi.
 
-**Cleavers** (Galium aparine), numit de asemenea Goosegrass, Stickie-Willie, Clivers și Cleaverwort
+### Cleavers (Galium aparine), numit de asemenea Goosegrass, Stickie-Willie, Clivers și Cleaverwort
 
 Aspect: Aceasta este o bine-cunoscuta planta de gard viu, care crește și prin garduri vii și arbuști. Este verde, tulpinile sunt subțiri, dar sarmoase. Frunzele sunt subtiri si lanceolate. Caracteristică a planta este fructul care se agata de trecători. Copiilor le place sa le adune și să le arunce de la unul la altul, incantati fiind de promptitudinea cu care li se agata de haine.
 
@@ -140,7 +140,7 @@ Acțiune: Este un diuretic excelent, elimina lichidul din sistemul limfatic. Pri
 
 Metoda: Acesta poate fi luat ca tinctura sau o infuzie de planta uscata,2-8 grame de planta uscata, de trei ori pe zi.
 
-**Iarba Canapea** –Couch Grass(Agropyron repens) numita si Iarbă Twitch, Iarba Cainelui, Dintele Câinelui
+### Iarba Canapea –Couch Grass(Agropyron repens) numita si Iarbă Twitch, Iarba Cainelui, Dintele Câinelui
 
 Aceasta este un remediu antic pe bază de plante, care a fost descoperit de Doctrina de analogie, bazat pe ideea că, atunci când sunt blonave, animalele știu instinctiv ce să faca. Estecunoscut faptul ca, pisicile si cainii mesteca instinctiv acesta planta atunci cand stomacul le face probleme.
 
@@ -150,7 +150,7 @@ Acțiune: Este un diuretic slab și blând, care ajută in infecții urinare,usu
 
 Metoda: Un decoct din rizom uscat , 1-3 grame, de trei ori pe zi.
 
-**Patrunjelul** (Petroselinum crispum)
+### Patrunjelul (Petroselinum crispum)
 
 Aspect: Aceasta planta este frecvent cultivata in gradini cu plante medicinale și are un frunziș tipic buclat și un miros distinctiv.
 
@@ -158,7 +158,7 @@ Acțiune: Aceasta planta este un diuretic puternic, care a fost utilizat de seco
 
 Metoda: planta intreaga poate fi preparata ca infuzie, 1-3 grame, de trei ori pe zi. Maslinele reprezinta una dintre cele mai bune surse de grasimi sanatoase, mononesaturate. Acestea reduc nivelul colesterolului rau si impiedica organismul sa asimileze alte grasimi nesanatoase care pot forma depozite adipoase
 
-**Patrunjelul PIERT** (Alchemilla arvensis), de asemenea numit pietriș sau Colicwort
+### Patrunjelul PIERT (Alchemilla arvensis), de asemenea numit pietriș sau Colicwort
 
 Aspect: Este o floare mică sălbatica, găsita în solurile nisipoase. Florile sunt mici și sunt la fel de verzi ca restul plantei. Rareori crește mai mult de trei sau patru centimetri în înălțime.
 
@@ -166,7 +166,7 @@ Acțiune: Aceasta planta este un alt diuretic excelent, care calmeaza durerile d
 
 Metoda: Ca si patrunjelul, este luat sub forma de infuzie de plante medicinale întregi, 2-4 grame, de trei ori pe zi.
 
-**COLTSFOOT** (Tussilago farfara), de asemenea numit Coughwort sau Horsehoof
+### COLTSFOOT (Tussilago farfara), de asemenea numit Coughwort sau Horsehoof
 
 Aspect: Aceasta este o planta cu frunze mari în formă de inima. Florile arata ca niste păpădii mai mici.
 
@@ -174,11 +174,11 @@ Acțiuni: Aceasta planta este un expectorant relaxant, care ajuta la eliminarea 
 
 Metoda: O infuzie din planta intreaga sau numai din flori, 1-2 grame, de trei ori pe zi.
 
-**OVAZUL** \- o cereală minunata
+### OVAZUL \- o cereală minunata
 
 În ultima lecție am invatat despre coriandru, un condiment. In această lecție doresc să va vorbesc despre ovăz, o mult subevaluata cereala și planta medicinala, care poate face multe ca medicament.
 
-OVAZ (Avena sativa)
+### OVAZ (Avena sativa)
 
 Aspect: Aceasta este una dintre culturile majore ale lumii. Toată lumea știe de semințe sale, fulgii de ovăz.
 

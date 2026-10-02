@@ -1,4 +1,4 @@
-Test 6
+# Test 6
 
 1. Ce este un vehicul în sensul fitoterapeutic?
  Un vehicul in sens terapeutic reprezinta mijlocul prin care un medicament sau remediu din plante este administrat pacientului.

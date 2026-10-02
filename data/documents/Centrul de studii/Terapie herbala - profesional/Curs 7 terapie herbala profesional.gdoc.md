@@ -4,7 +4,8 @@ Ierburile astringente
 
 Astringentii sau constringentii promoveaza o densitate și fermitate mai mare a tesutului, comparativ cu laxativele. Aceste plante contracta și condenseaza structurile celulare ale muschilor, arterelor, nervilor, etc. Ele, de asemenea, diminueaza sau impiedica hemoragiile pulmonare, ale organelor renale, intestinale, etc prin coagularea albuminei și ele reduc sau opresc transpiratia excesivă sau transpirațiile nocturne de la nodulii limfatici și țesuturile pielii. Astringentii curăța mucoasele în general, si sunt utilizate pe plan extern pentru a contracta și a consolida o stare de relaxare sau de slabire a fibrelor musculare. In caz de leziuni în cavitatea bucală sau de pierdere a dintilor, unde gingiile trebuie ridicate, astringentii fac o treabă excelentă. Unii astringenti sunt stimulenti, altii sunt sedativi. Astringentii, de asemenea, variază în putere.
 
-**Gorunul European sau Stejarul Pedunculat** (Quercus robur, Q.pubescens, Q. pedunculata, Q. sessiliflora; Fagaceae); denumiri comune: stejar, stejarul lui Tanner, coaja lui Tanner, arbore cu ghindă, cupe și polonice, nucile lui Jove ,catarg,; Bouvre, Rovere, Querciloa (ital.); ruble (SPA).
+# Gorunul European sau Stejarul Pedunculat (Quercus robur, Q.pubescens, Q. pedunculata, Q. sessiliflora; Fagaceae)
+Denumiri comune: stejar, stejarul lui Tanner, coaja lui Tanner, arbore cu ghindă, cupe și polonice, nucile lui Jove ,catarg,; Bouvre, Rovere, Querciloa (ital.); ruble (SPA).
 
 Caracteristici de identificare
 
@@ -140,7 +141,7 @@ Caracteristicile de creștere
 
 Peren; găsit în America de Nord, Europa (o mare parte din specii cresc în Statele Unite). Excrescențele de pe ramurele tinere (cauzate de puncție și de depunerea ovulelor de viespe gallae-tinctoriae) conțin acid tanic 15-75% și acid galic 5% și sunt utilizate pentru hemoragii, diaree, dispepsie, holera, relaxarea omușorului, coriza, difterie, durere de dinți, leucoree, sfarcuri crapate, gonoree, ulcere, hemoroizi, degeraturi, bronsita cronica, tuse convulsivă, tuberculoză(tuberculoza pulmonara), gripa, fisuri, hemoroizi, prolapsul de colon și uter, catar vezical, gingii spongioase, pielea tare în jurul unghiilor încarnate de la picioare, etc, se utilizeaza prin spalaturi cu infuzie, gargara.
 
-Zmeura (Rubus idaeus, R. strigosus; ROSACEAE)
+# Zmeura (Rubus idaeus, R. strigosus; ROSACEAE)
 
 Denumiri comune: Zmeura, zmeura americana, zmeura sălbatica (R. idaeus estesoi cultivat, R. strigosus este soi sălbatic), hindberry; Hindbur (ger.).
 
@@ -202,16 +203,19 @@ Mod de preparare: Se toarnă 1 litru de apa clocotita-fierbinte peste plante și
 
 Administrare: Utilizeaza ca pe apa de gura.
 
-Colici cu oprire a intestinelor: 1/2 litru de zmeură frunze de ceai, infuzie puternică (Rubus idaeus),1 lingurita pulbere de Lobelia (Lobelia inflata),1 lingurita pulbere de Cayenne (Capsicum frutescens; C. minim), 1/2 lingurita mir, guma (Commiphora myrrha, var. Molmol), 1/2 lingurita radacina de valeriana, pulbere (Valeriana officinalis)
+# Colici cu oprire a intestinelor: 
+1/2 litru de zmeură frunze de ceai, infuzie puternică (Rubus idaeus),1 lingurita pulbere de Lobelia (Lobelia inflata),1 lingurita pulbere de Cayenne (Capsicum frutescens; C. minim), 1/2 lingurita mir, guma (Commiphora myrrha, var. Molmol), 1/2 lingurita radacina de valeriana, pulbere (Valeriana officinalis)
 
 Pregatirea: infuzie puternică de frunze de zmeura, apoi se adaugă alte ingrediente din plante, se amestecă bine și se lasă 1/2 ora (bine acoperita); tulpina.Administrare: Se fac spalaturi la temperatura corpului, se repetă în 4ore , iar restul după încă 4 ore. Aceasta va fi urmată de evacuări fecale frecvente în cursul următoarelor 8 ore. In următoarele câteva zile, ierburile astringente și tonice ar trebui să fie administrate pe cale orală ca stomacul pacientului sa fie capabil să le mențină.
 
-Constipatie: Frunze de zmeura 14 grame(Rubus idaeus), 14 gramede Mountain (Linum catharticum), 14 grame plop alb sau interiorul cojii Aspen(Tremuloides Populus), 14 grame radacina de papadie (Taraxacum officinale)
+# Constipatie: 
+Frunze de zmeura 14 grame(Rubus idaeus), 14 gramede Mountain (Linum catharticum), 14 grame plop alb sau interiorul cojii Aspen(Tremuloides Populus), 14 grame radacina de papadie (Taraxacum officinale)
 
 Mod de preparare: se fierb incet intr-un litru de apă.
 
 Dozare: 2 linguri de 4 ori pe zi.
 
-Diabet: 14 grame frunze de zmeură (Rubus idaeus; R. strigosus),3 lingurite Mir, tinctura (Commiphora myrrha, var. Molmol),1 lingurita Cayenne, tinctura (Capsicum frutescens; C. minim)
+# Diabet:
+14 grame frunze de zmeură (Rubus idaeus; R. strigosus),3 lingurite Mir, tinctura (Commiphora myrrha, var. Molmol),1 lingurita Cayenne, tinctura (Capsicum frutescens; C. minim)
 
 Mod de preparare: se infuzeaza frunzele de zmeura la 1/2 litru de apa fierbinte, se acopera bine până se răcește, se strecoara si se adauga smirnă și Cayenne, se amestecă bine; se îndulceste cu miere sau zahăr.Dozare: 2 linguri, de 3 ori pe zi.

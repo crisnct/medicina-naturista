@@ -6,7 +6,7 @@ Organele de reproducere feminine pot fi împărțite în două grupe, interne ș
 
 Cu toate acestea, nu administra catartice drastice sau purgative puternice în cazul în care există dificultăți menstruale, care pot complica și înrăutăți si mai mult starea, dar remediile naturale pe care le oferim intestinului mic sub forma de tonic vor fi întotdeauna benefice și ușor de luat. **Emenagogele sunt corective pentru sexul feminin, care provoacă stimularea și promovarea fluxului menstrual.** Utilizate în mod corespunzător, emenagogele vor reajusta întreaga arie de reproducere, astfel încât fluxul menstrual și va fi normal, si nu excesiv sau absent.
 
-**Busuiocul cerbilor** (Mentha pulegium, LABIATAE)
+# Busuiocul cerbilor (Mentha pulegium, LABIATAE)
 
 Busuiocul-cerbilor (Menta pulegium), numit si musetelul de camp, este o planta ierboasa, cu flori violacee, care creste in locuri umede. Contine tanin, ulei volatil (pulegona, mentona, piperitona).
 
@@ -42,15 +42,15 @@ Recoltare: Se recolteaza partile aeriene ale plantei in momentul cand 50-60% in 
 
 Mod de uscare: Planta se usuca in locuri bine aerisite. Pe cale artificiala se usuca la o temperatura de 35-40 grade C. Din 3,5-4 kg planta proaspata se obtine 1 kg de produs uscat.
 
-**Schinelul** (cnicus benedictus, Carduus sanctus; C. benedictus; Carbenia benedicta; Centaurea benedicta;COMPOSITAE)
+# Schinelul (cnicus benedictus, Carduus sanctus; C. benedictus; Carbenia benedicta; Centaurea benedicta;COMPOSITAE)
 
 Schinelul este o planta din flora spontana europeana, care se dezvolta mai ales in zona mediteraneana. Schinelul poate creste pana la 1 m inaltime, are tulpina in 5 muchii, acoperita cu peri lanosi, de culoare verde. Frunzele sunt alungite, au nervuri proeminente, sunt albicioase si paroase, cu varf ascutit si spinos dintate pe margini. Florile sunt galbene sau verde- deschis si infloresc in iunie \- iulie. Printre elementele chimice din compozitia plantei se numara: ulei volatil, benedictina, cnicina, fitosterine si glicozidele lor, substante amare, acizi grasi, tanin, acizi rezinici, un principiu antibiotic, mucilagii, vitamina B1, acid nicotinic. Principalele sale calitati sunt: stimuleaza secretiile gastrice, dezinfectant, antibiotic, depurativ, febrifug, stimuleaza pofta de mancare, stimulent al sistemului nervos, sedativ al durerilor reumatismale, iar extern este antiseptic si trofic. In fitoterapie este utilizata partea aeriana a plantei, ce se recomanda a se recolta din iunie pana in septembrie.
 
-**Calinul**(Viburnum trilobum; V. Opulus var.americanum; CAPRIFOLIACEAE)
+# Calinul (Viburnum trilobum; V. Opulus var.americanum; CAPRIFOLIACEAE)
 
 Călinul este, probabil, cel mai bun agent de reglare, relaxare a organelor de reproducere feminine și este util în special in cazul menstruatiei dureroase și dificile si pentru afectiuni nervoase care amenință avortul în timpul sarcinii.
 
-**Iarba-amara sau unicornul**(Aletris farinosa ; LILIACEAE)
+# Iarba-amara sau unicornul (Aletris farinosa ; LILIACEAE)
 
 Iarba-amara sau unicornul este o planta care apartine de familia Liliaceae sau Liliacee si are denumirea stiintifica de Aletris farinosa. Numele de iarba-amara vine de la faptul ca este considerata cea mai amara dintre toate ierburile cunoscute pana in prezent.
 
@@ -80,7 +80,7 @@ Menopauza 1 parte rădăcină de iarba amara(Aletris farinosa) 1 parte rădăcin
 
 Dozare: 1/2 \-1 cana de trei ori pe zi.
 
-**Virnant** (ruta graveolens; RUTACEAE)
+# Virnant (ruta graveolens; RUTACEAE)
 
 Carcteristici de identificare:
 
@@ -106,7 +106,7 @@ Compus antispasmodic stimulativ : 28g virnant planta, tăiat (Ruta graveolens) 3
 
 Recoltare: Este o plantă cultivată de la care se folosesc varfurile cu frunziș bogat înainte de deschiderea florilor. Conține alcaloizi specifici, rutozid, ulei volatil, derivați cumarinici etc.
 
-**Talpa gastei** sau creasta cocosului(Leonurus cardiaca;Labiatae)
+# Talpa gastei sau creasta cocosului(Leonurus cardiaca;Labiatae)
 
 Caracteristici de identificare: Planta medicinala care poate atinge si 1,5 metri care creste in zona de campie si deal, la marginea padurilor, poieni. Rizomul este scurt si orizontal. Florile au culoare roz, asezare compacta, in cate 15-20 de flori. Frunzele au forma talpei de gasca. Fructele sunt nucule.
 
@@ -136,7 +136,7 @@ Mod de preparare: Fierbe la foc mic 1 lingurita la o cana, timp de 5 minute, aco
 
 TONIC GASTROINTESTINAL 28g Talpa gastei planta (Leonurus cardiaca) 28g radacina de papadie (Taraxacum officinale) 14g rădăcină de gentiana(Hydrastis Canadensis) 14g planta Secolul European (erythraea Centaurium)7g radacina de ghimbir (Zingiber officinalis) Mod de preparare: se fierb plantele în 3 litri de apă și se reduce până la 1 litru; se îndulceste, se lasă să se răcească, se pune in sticlă și se păstreaza într-un loc răcoros. Dozare: 3 linguri, de 3 până la 4 ori pe zi.
 
-**LEMNUL DOMNULUI**(Artemisia abrotanum, COMPOSITAE)
+# LEMNUL DOMNULUI (Artemisia abrotanum, COMPOSITAE)
 
 Este un subarbust din familia pelinului cu un miros aromat special, care crește în zonele secetoase și calde, fiind adus la noi din sudul continentului european. în fitoterapie ocupă un loc cu totul aparte, datorită efectelor sale antitoxice și depurative deopotrivă puternice și blânde. Este adesea utilizat în tratamentul cancerului și al altor boli grave, deoarece înviorează, curăță de toxine organismul, stimulează pofta de mâncare și are efecte ușor anti-depresive. S-a dovedit a fi foarte folositor în combinație cu plantele toxice (spânz, rostopască, laptele câinelui, brândușă de toamnă), reducându-le efectele adverse, fără a le diminua însă acțiunea terapeutică, ci din contră. Iată câteva detalii despre efectele și indicațiile acestei plante:
 

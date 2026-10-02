@@ -22,7 +22,8 @@ Sa stim proprietățile plantelor nu este suficient pentru procesul de vindecare
 
 Emolientele calmeaza , înmoaie și inlatura iritarea membranelor mucoase . Acestea au proprietăți alunecoase, mucilaginoase sau oleaginoase , care , lubrifiaza și calmeaza membrana inflamata. Acestea protejează împotriva iritației în cazul în care exista unele substanțe nocive asupra mucoaselor , elibereaza de durerea datorata inflamațiilor și hranesc pentru ca vindecarea sa aiba loc .Aceste plante sunt operatorii de transport adecvati , folosite pentru a suspenda alte plante insolubile în amestecuri sau emulsii , astfel încât să poată fi administrate pe cale orală . Termenul " calmant "în general, se referă la agenți angajati intern pentru membranele mucoase , iar termenul " emolient " se referă la agenți utilizati extern, pe piele.
 
-**Tătăneasa sau iarba lui Tatin** (Symphytum officinale) este o plantă medicinală din familia Boraginaceae.
+# Tătăneasa sau iarba lui Tatin (Symphytum officinale)
+Este o plantă medicinală din familia Boraginaceae.
 
 Caracteristici de identificare
 
@@ -52,7 +53,7 @@ Răspândire
 
 Tătăneasa crește în locuri umede, prin lunci, la marginea apelor, uneori chiar pe lângă drumuri. Este răspândită din câmpie până în zona montană.
 
-TONIC PULMONAR
+# TONIC PULMONAR
 
 14g rădăcină de tataneasa (Symphytum officinale)
 
@@ -74,7 +75,7 @@ Mod de preparare: se fierb primele 4 plante lent, în 3 litri de apa, pentru 20 
 
 Dozare: 1-2 linguri la fiecare 2 ore.
 
-Sirop de tuse nervin
+# Sirop de tuse nervin
 
 28g rădăcină de tataneasa (Symphytum officinale)
 
@@ -92,7 +93,7 @@ Mod de preparare: Se fierb plantele încet, în 5 litri de apă, timp de 30 minu
 
 Dozare: 2 lingurite, de 3 sau 4 ori pe zi.
 
-Remediu pentru tuberculoza
+# Remediu pentru tuberculoza
 
 1 halbă mucilagiu de tataneasa (Symphytum officinale)
 
@@ -102,7 +103,7 @@ Mod de preparare: Se amestecă bine sau se agită împreună.
 
 Dozare: 56- 160 ml de lichid, la fiecare 4 ore.
 
-ANEMIE
+# ANEMIE
 
 28g rădăcină de tataneasa (Symphytum officinale)
 
@@ -112,7 +113,7 @@ Mod de preparare: se fierbe amestecul lent, timp de 20 de minute, in 1 litru de 
 
 Dozare: 56g de lichid, la fiecare 4 ore.
 
-Astm
+# Astm
 
 28g rădăcină de tataneasa (Symphytum officinale)
 
@@ -128,7 +129,7 @@ Mod de preparare:se zdrobesc și se afunda plantele în 1 litru de miere timp de
 
 Dozare: 1 lingură luata la fiecare câteva minute, până când se simte o imbunatatire a starii și apoi de mai multe ori pe zi.
 
-Bronșită
+# Bronșită
 
 14g rădăcină de tataneasa (Symphytum officinale)
 
@@ -148,7 +149,7 @@ Mod de preparare: se fierb primele 5 ierburi timp de 20 minute în 1 litru de ap
 
 Dozare: 2 linguri, la fiecare 2 \- 3 ore.
 
-Debilitate
+# Debilitate
 
 112g Tataneasa rădăcină (Symphytum officinale)
 
@@ -174,7 +175,7 @@ Mod de preparare: Se amestecă mierea și uleiul din germeni de grâu în blende
 
 Administrare: Aplicati pasta fierbinte extern, pe zona afectata. Intern, se bea un ceai de tataneasa sau de ananas si tataneasa.
 
-Pleurezie
+# Pleurezie
 
 28g rădăcină de tataneasa (Symphytum officinale)
 
@@ -192,7 +193,7 @@ Dozare: 3 linguri la fiecare 2 \- 3 ore.
 
 Administrare: cu un ceai de urzica puternic (Urticadioica). Se elibereaza orice constipatie cu o clisma cu iarba matei (Nepeta cataria).
 
-Pneumonie
+# Pneumonie
 
 28g rădăcină de tataneasa (Symphytum officinale)
 
@@ -248,7 +249,7 @@ Aplicație externă (cancer, sifilis, boli de piele, etc).Se imbiba fasii de bum
 
 Combinații bune: pentru condițiile ulcerate (intern și extern), rădăcină de tătăneasă în combinație cu radacina de brusture (Arctium lappa) este cel mai benefic leac. Pentru rinichi inflamati sau o boala urinara, tataneasa în combinație cu Eupatorium purpureum.
 
-**Lumînărica** sau Coada Vacii(Verbascum thapsus; SCROPHULARIACEAE)
+# Lumînărica sau Coada Vacii(Verbascum thapsus; SCROPHULARIACEAE)
 
 Carcteristici generale: Dioscoride recomanda această plantă în cazul înțepăturilor de scorpion, al afecțiunilor oculare, durerilor de diți, anginei și tusei. Pliniu se limitează la a-i remarca acțiunea asupra leziunilor iritațiilor pulmonare.În secolul al XIII-lea, sfînta Hildegarde de Bingen o prescria împotriva răgușelii. În perioada următoare, planta a continuat să fie folosită vreme îndelungată în tratarea tusei (ea intră în compoziția tradiționalului “ceai de patru flori”) și, cu un succes mai modest, a tuberculozei. În Irlanda, pentru aceasta se folosea un decoct de frunze proaspete de lumînărică în lapte (considerat benefic impotriva tuberculozei).
 
@@ -332,7 +333,7 @@ Mod de preparare: Se fierbe la foc mic în 2 litri de oțet de mere, se acopera 
 
 Administrare: se aplica pe cat de cald este convenabil, peste plămâni sau peste partea afectata.
 
-**Umflaturi glandulare** (cataplasmă)
+# Umflaturi glandulare (cataplasmă)
 
 28g frunze de lumanarica (Verbascum Thapsus)
 
@@ -354,7 +355,7 @@ Notă: Dacă utilizezi flori proaspete de lumanarica, după o zi de la macerare,
 
 Dozare: 2-6 picaturi de ulei încălzit în ureche, de 2 până la 3 ori pe zi sau frecati orice parte afectată, care este umflata sau iritata.
 
-Astm
+# Astm
 
 3 grame lumanarica (Verbascum Thapsus)
 
@@ -366,7 +367,7 @@ Mod de preparare: se scufunda timp de 15 minute în 1 litru de apă, se strecoar
 
 Dozare: 1 lingura la fiecare oră.
 
-RĂCELI
+# RĂCELI
 
 1 parte lumanarica(Verbascum Thapsus)
 
@@ -392,7 +393,7 @@ RĂCELI
 
 Mod de preparare: Din amestecul de plante aromatice, folositi 1 lingurita la fiecare ceașcă de apa fierbinte,se infuzeaza și se păstreaza într-un loc cald timp de 15 minute. După ce s-a răcit, se ia 1 lingură la fiecare oră sau mai mult atunci când este necesar.
 
-**Difterie** (cataplasmă)
+# Difterie (cataplasmă)
 
 28g lumanarica(Verbascum Thapsus)
 
@@ -404,7 +405,7 @@ Mod de preparare: se fierbe timp de 20 de minute în 1 litru de apa.
 
 Administrare: Scoate plantele și aplică o cataplasmă pe cat de caldă posibil la gât, înfășoara cataplasma bine si lasa pana se raceste. Reincalzeste plantele în lichid.
 
-**Difterie** (decoct)
+# Difterie (decoct)
 
 14g lumanarica (Verbascum Thapsus)
 
@@ -420,7 +421,7 @@ Mod de preparare: se fierb primele 4 plante încet timp de 20 minute în 1 litru
 
  Dozare: 1-2 lingurite la fiecare oră, până când se amelioreaza starea și apoi de 4 până la 5 ori pe zi. Administrare: Vezi care intestinefuncționează corect (foloseste tonicul pentru intestinului mic și, dacă este necesar, o clisma cu Iarba Matei). Sucul de lamaie nediluat și neindulcit este excelent pentru toate tipurile de dureri de gât sau sucul de ananas proaspat.
 
-**Emollient**
+# Emollient
 
  1 parte flori de lumanarica (Verbascum Thapsus)
 
@@ -432,7 +433,7 @@ Mod de preparare: se infuzeza plantele pentru 15 minute într-o cantitate propor
 
 Dozaj: 1 lingura pe oră, mai mult sau mai puțin, în funcție de necesități.
 
-**Oreion** (cataplasme)
+# Oreion (cataplasme)
 
 56g lumanarica, pulbere(Verbascum Thapsus)
 
@@ -442,7 +443,7 @@ Mod de preparare: Se amestecă cu apă distilată fierbinte pentru a forma pasta
 
 Administrare: Aplica pe cat de caldă e posibil, acopera bine și schimba bandajul atunci când se raceste. Repeta până cand umflatura se retrage. Da pacientului ceai de frunze de zmeura (Rubus idaeus) sau scoarță de copac Bayberry (Myrica cerifera), care va curăța stomacul și tractul digestiv.
 
-**Hemoroizi**
+# **Hemoroizi**
 
 1 parte frunze de lumanarica(Verbascum Thapsus)
 
@@ -454,7 +455,7 @@ Administrare: Aplica pe cat de caldă e posibil, acopera bine și schimba bandaj
 
 Combinații bune: Lumanarica se combină bine cu Black Cohosh (Cimicifuga racemosa) și Lobelia (Lobelia inflata), pentru alifii. În cazurile avansate de boala, lumanarica este foarte benefica in combinatie cu radacina de tataneasa (Symphytum officinale) și suc de usturoi/mujdei (Allium sativum).
 
-**Racovina(Stellaria media; CARYOPHYLLACEAE)**
+# **Racovina(Stellaria media; CARYOPHYLLACEAE)**
 
 Răcovina (Stellaria media) este o plantă anuală de sezon rece, nativă Europei, de obicei consumată de găini. Regional, mai este numită și aurică, cuișoriță, ghețișoară, rocoțel, scânteiuță, coadă-de-găină, iarba-găinii, iarbă-de-păsări, steluța-fetei, steluță-albă.
 

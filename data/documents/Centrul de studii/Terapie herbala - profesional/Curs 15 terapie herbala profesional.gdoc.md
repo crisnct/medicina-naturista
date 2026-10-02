@@ -4,7 +4,7 @@ Ierburi stimulente
 
 Stimulentele grăbesc, excita și cresc sensibilitatea nervoasa, stimuland astfel energia în organism și consolidandu-i funcția. Aceste plante stimuleaza în mod natural, în contrast cu medicamente artificiale și alcoolul, care irita și slabesc sistemul. Stimulentele cresc puterea pulsului și transporta sângele in toate părțile corpului, egalizeaza și restabilesc circulația peste tot.
 
-CAYENNE (Capsicum frutescens; C. minimum; C. annuum; SOLANACEAE)
+# CAYENNE (Capsicum frutescens; C. minimum; C. annuum; SOLANACEAE)
 
 Cayenne mai poarta si numele de Capsicum annuum , ardei iute ( chili pepper ) , ardei iute mexican ( Mexican chilies ) , paprika , ardei dulce , ardei de Zanzibar si ardei Tabasco.
 
@@ -28,7 +28,7 @@ Nu exista dozaje standard pentru cayenne.De asemenea nu exista o Doza Zilnica Re
 
 Efecte secundare Din cauza gustului picant , cayenne nu este pentru toata lumea.Persoanele care au ulcer , gastrita si arsuri la stomac nu ar trebui sa consume nici un produs care contine cayenne. Persoanele care sufera de sindromul de colon iritat nu ar trebui sa consume cayenne deoarece ar putea agrava afectiunea lor. Unele persoane pot avea reactii alergice la cayenne , precum si cei care au luat aspirina din cauza interactiunii medicamentului cu cayenne. Inainte de a-ti suplimenta dieta cu cayenne, este important sa consulti un medic/terapeut.
 
-**Apoplexie**
+# **Apoplexie**
 
 1/2 lingurita pulbere de Cayenne (Capsicum frutescens; C. minim)
 
@@ -38,7 +38,7 @@ Efecte secundare Din cauza gustului picant , cayenne nu este pentru toata lumea.
 
 Administrare: pacientul trebuie sa stea in apa de baie fierbinte pe cat e posibil până ce transpira abundent. Trebuie supravegheat cu grija, astfel încât să nu leșine.
 
-**Tuse, tuberculoza**
+# **Tuse, tuberculoza**
 
 1 lingurita pulbere de Cayenne (Capsicum frutescens; C. minim)
 
@@ -52,7 +52,7 @@ Administrare: pacientul trebuie sa stea in apa de baie fierbinte pe cat e posibi
 
 Dozare: se ia de la o lingurita la o lingura, în funcție de vârstă, ori de câte ori e necesar.
 
-**Alifie pentru congestie pulmonară, entorse**
+# **Alifie pentru congestie pulmonară, entorse**
 
 1 lingura pulbere de Cayenne (Capsicum frutescens; C. minim)
 
@@ -62,7 +62,7 @@ Mod de preparare: se fierbe timp de 10 minute într-un recipient închis, se pun
 
  Administrare: se aplică pe zona în care este necesar, fără a masa prea mult.
 
-**Alifie pentru rani, contuzii, arsur**i
+# **Alifie pentru rani, contuzii, arsur**i
 
 28g Cayenne (Capsicum frutescens; C. minim)
 
@@ -74,7 +74,7 @@ Mod de preparare: se fierbe timp de 10 minute într-un recipient închis, se pun
 
  Dozare: Aplica pe suprafața curata atunci când este necesar.
 
-**Durere în gât**
+# **Durere în gât**
 
 1 lingurita pulbere de Cayenne (Capsicum frutescens; C. minim)
 
@@ -90,7 +90,7 @@ Mod de preparare: se pune Cayenne in ceaiul de salvie, apoi se amesteca cu restu
 
 . Dozare: gargara de la 4 pana la 12 ori pe zi. Ia o lingură sau două oral după gargara. Ia amestectul pe cale orală câte ori este nevoie, dar după gargara.
 
-**GHIMBIR** (Zingiber officinalis; ZINGIBERACEAE)
+# GHIMBIR (Zingiber officinalis; ZINGIBERACEAE)
 
 Ghimbirul (Zingiber officinale), denumit popular și „ghimber” sau „gingiber”, este numele dat unei plante erbacee din regiunile tropicale, cu rizom aromatic bogat în uleiuri eterice. Este o specie perenă care are nevoie de o temperatură ridicată și constantă precum și de o umiditate permanentă pentru a se dezvolta corespunzător. Rizomul de ghimbir are o forma neregulată, contorsionată si e noduros, atingând până la 5-6 centimetri în lungime. Ghimbirul e deosebit de prețuit în bucătăriile orientale din India, Malaezia, Nepal, Bangladesh etc. Un nume alternativ al ghimbirului, introdus de turci în Moldova și Muntenia a fost cel de 'piper alb'. Denumirea de ghimbir a fost folosită mai ales în Banat și Ardeal provenind din maghiarul gyömber, iar apoi s-a impus în intreaga țară. În fostele colonii britanice, cum ar fi Canada, Australia, Jamaica, Kenia, se consumă o așa-zisă "bere" din ghimber (ginger beer) care de fapt este o băutură ne-alcoolică, răcoritoare. Substanțele active importante pe care le conține ghimbirul sunt compuși specifici numiți gingeroli, fenoli, ulei volatil.
 
@@ -122,7 +122,7 @@ Abia la începutul anilor 1980 cercetătorii occidentali s-au preocupat de virtu
 
 \-Ghimbirul are și proprietăți afrodisiace, stimulative, tonifiante, acționând prin grupul de compuși numiți gingeroli, asupra sistemului nervos. Alte proprietăți ale ghimberului: antitoxic, hipotensiv, antitusiv.
 
-**Flatulenta**
+# **Flatulenta**
 
 1 lingurita de ghimbir (Zingiber officinalis)
 
@@ -132,7 +132,7 @@ Mod de preparare: Pune ingredientele în 1 pahar de apă caldă si amesteca.
 
 Dozare: Se bea un pahar, după cum este necesar.
 
-**Laxativ** 1/4 linguriță ghimbir(Zingiber officinalis)
+# **Laxativ** 1/4 linguriță ghimbir(Zingiber officinalis)
 
  20 frunze de Senna (Cassia angustifolia)
 
@@ -142,11 +142,11 @@ Dozare: Se bea un pahar, după cum este necesar.
 
 Dozare: Se bea lichidul limpede de la 1 ceasca in sus.
 
-**Radacina de sarpe de Virginia** (Aristolochia serpentaria; ARISTOLOCHIACEAE)
+# Radacina de sarpe de Virginia (Aristolochia serpentaria; ARISTOLOCHIACEAE)
 
 Aristolochia serpentaria \- prezinta un rizom scurt, tulpina subtire, frunze oval cordiforme, perigon bilabiat. Creste în Texas si Mississipi. Rizomul are gust amar si picant, miros asemanator uneori cu cel de camfor, terebentina sau valeriana. În doze mici este excitant, în doze mari emetic si purgativ.
 
-**Izma buna** (Mentha piperita; LABIATAE)
+# Izma buna (Mentha piperita; LABIATAE)
 
 Izma bună (Mentha x piperita) este o plantă medicinală aromată erbacee, perenă, din familia Lamiaceae, cunoscută sub mai multe denumiri populare: izmă de grădină, izmă bună, izmă proastă, izmă de les, camfor, mentă, mintă, mintă de grădină, mintă de câmp, minta calului, mintă sălbatică, vaeșniță.
 
@@ -168,7 +168,7 @@ Intern în infecții gastro-intestinale, balonări abdominale, dispepsii, dischi
 
 Extern, sub formă de cataplasme reci: contribuie la ameliorarea durerilor de cap; în dureri reumatice și urticarie; în îngrijirea tenurilor grase și seboreice.
 
-**Remediu pentru gripa, febra, inflamatie**
+# **Remediu pentru gripa, febra, inflamatie**
 
 28g frunze de menta (Mentha piperita)
 
@@ -178,7 +178,7 @@ Preparare: Se pun într-un vas corespunzător și se toarnă 1/2 litru de apa cl
 
 Dozare: 1 ceașcă de ceai la fiecare 30 \- 45 de minute până când pacientul transpira, apoi 2 linguri la fiecare 1 până la 2 ore.
 
-**Obstructii menstruale** (pentru o persoana extrem de nervoasaa sau isterica)
+# Obstructii menstruale (pentru o persoana extrem de nervoasaa sau isterica)
 
 1 parte menta, planta (Mentha piperita)
 
@@ -186,7 +186,7 @@ Dozare: 1 ceașcă de ceai la fiecare 30 \- 45 de minute până când pacientul 
 
  Pregãtirea: infuzie (se acopera bine). Dozare: cca.60 ml de lichid la fiecare trei ore
 
-**Tonic stomacal**
+# **Tonic stomacal**
 
 3 grame de frunze de mentă (Mentha piperita)
 
@@ -198,7 +198,7 @@ Mod de preparare: se infuzeaza în 1 litru de apă.
 
 Dozare: 56ml de lichid de 3 ori pe zi sau mai mult (în funcție de necesitate).
 
-**Cuisoare** (Syzygium aromaticum; Eugenia aromatica; E. caryophyllata; Caryophyllus aromaticus; MYRTACEAE)
+# Cuisoare (Syzygium aromaticum; Eugenia aromatica; E. caryophyllata; Caryophyllus aromaticus; MYRTACEAE)
 
 Cuișoarele sunt un condiment obținut din mugurii floriferi ai unui arbore exotic (Caryophyllus aromaticus, Eugenia caryophyllata sau Syzygium aromaticum) din familia mirtaceelor, care mai include printre altele mirtul și eucaliptul. Arborele este originar din Insulele Moluce ale Indoneziei, dar în prezent este cultivat și în alte regiuni tropicale sau ecuatoriale, în special în Asia și Africa. Pentru păstrare mugurii sunt uscați și au forma unor mici cuie, de unde și denumirea; uneori cuișoarele sunt măcinate și comercializate sub formă de pulbere. Principalul producător este Indonezia, cu 70–80% din producția mondială, urmată de Madagascar, Tanzania, Sri Lanka și altele.
 
@@ -214,7 +214,7 @@ Infuzia de cuișoare
 
 Mod de preparare: Se fierbe apa și se toarnă peste cuișoare și se tine timp de 20 minute într-un recipient din oțel inoxidabil închis, peste o flacără foarte scăzuta.
 
-**Holera Morbus**
+# **Holera Morbus**
 
 2-3 linguri Cuișoare (Syzygium aromaticum, Eugenia aromatica)
 
@@ -224,7 +224,7 @@ Mod de preparare: Fierbe la foc mic în lapte de soia 5 minute.
 
 Dozare: 1 lingura fierbinte la fiecare 15 minute.
 
-**Greata, varsaturi in timpul sarcinii**
+# **Greata, varsaturi in timpul sarcinii**
 
 1 lingurita cuisoare (Syzygium aromaticum, Eugenia aromatica)
 
@@ -236,7 +236,7 @@ Dozare: 1 lingura fierbinte la fiecare 15 minute.
 
  Mod de preparare: se fierb primele trei plante in 1 litru de apa timp de 5 minute, se toarnă acest decoct peste menta, se pune capacul ermetic și se lasa până se raceste. Dozare: 2 linguri la 1/4 ceașcă la fiecare 1/2 oră, până cand greața dispare.
 
-**Hreanul**(Armoracia rusticana; Cochlearia Armoracia; Rorippa Armoracia; CRUCIFERAE)
+# Hreanul (Armoracia rusticana; Cochlearia Armoracia; Rorippa Armoracia; CRUCIFERAE)
 
 Hreanul (Armoracia rusticana), cunoscut și sub numele de usturoi, rădăcină-sălbatică, tormac, este o plantă legumicolă perenă, din familia Brassicaceae, cu tulpina subterană cilindrică, groasă, albă (folosită în alimentație drept condiment), cu frunzele mari și cu flori albe. Se presupune că hreanul este originar din sud-estul Europei și din vestul Asiei, însă în prezent este popular în toată lumea. Poate atinge până la 1,5 metri înălțime și este cultivat în special pentru rădăcina mare și albă, însă chiar și frunzele sale sunt comestibile.
 
@@ -244,7 +244,8 @@ Proprietati terapeutice:
 
 Hreanul pe lângă întrebuințarea în alimentație este și un bun medicament, fiind utilizat în tratamentul afecțiunilor renale, reumatismului, bronșitei, afecțiunilor dinților (parodontoză), bolilor de inimă, inflamațiilor articulare, sinuzitei, paraziților intestinali. Hreanul are multe calități terapeutice, fiind utilizat și la stimularea poftei de mâncare, tratarea gastritei și echilibrarea tranzitului intestinal. Această plantă medicinală se recomandă a se consuma proaspăt, sau ca principal ingredient în prepararea anumitor produse naturale (exemplu: tinctura de hrean).
 
-**Apatia** (sau lipsa de energie) stomacului si ficatului, cu constipatie
+# Apatia (sau lipsa de energie)
+Stomacului si ficatului, cu constipatie
 
  14g hrean, extract fluid (Armoracia rusticana)
 
@@ -258,7 +259,7 @@ Mod de preparare: Se amestecă foarte bine.
 
 Dozare: o lingura la mesele principale
 
-**Hidropizie**
+# **Hidropizie**
 
  112g rădăcină de hrean, proaspăt ras (Armoracia rusticana)
 
@@ -268,7 +269,7 @@ Dozare: o lingura la mesele principale
 
 Mod de preparare: Pune rădăcina în otet si lasa sa stea 12 ore intr-un loc destul de fierbinte. Slăbeste capacul ocazional, strânge și reagita. După 12 ore de înmuiere, scoate la loc răcoros și lasa încă 12 de ore. Se strecoara si se adauga glicerină. Dozare: 1 lingura la o cana de apa, de 3 până la 4 ori pe zi (înainte de masă si o doza de noapte).
 
-**Piperul negru** (Piper nigrum; PIPERACEAE)
+# Piperul negru (Piper nigrum; PIPERACEAE)
 
 Un varf de piper negru, se adauga la aproape orice fel de reteta culinara. Folosit in trecut ca moneda de schimb si oferit zeilor drept jertfa, piperul este unul din cele mai populare condimente si este disponibil pe tot parcursul anului.
 
@@ -280,7 +281,7 @@ Proprietati terapeutice:
 
 Piperul negru stimuleaza papilele gustative care trimit o comanda stomacului sa creasca secretia de acid clorhidric, imbunatatind astfel digestia. Acidul clorhidric este util pentru digestia proteinelor si a altor componente alimentare din stomac. Atunci cand in organism productia de acid clorhidric este insuficienta, produsele alimentare pot ramane o perioada mai lunga in stomac, ceea ce determina aparitia de arsuri sau indigestii sau pot ajunge in stomac unde servesc ca hrana pentru bacteriile intestinale nocive, ale caror activitati produc gaze, iritatii, diaree ori constipatie. Piperul negru a fost de mult timp recunoscut ca un carminativ, o proprietate datorata probabil, efectului benefic asupra stimularii productiei de acid clorhidric. In plus, piperul negru are efect diaforetic si diuretic.Piperul negru are proprietati antioxidante impresionante si are efect antibacterian \- un al mod in care acest minunat condiment ajuta la pastrarea starii de sanatate a tractului digestiv. Piperul negru va ajuta sa obtineti mai multe beneficii din alimente si chiar stimuleaza distrugerea celulelor de grasime, permitandu-va sa va pastrati greutatea dorita in timp ce va ofera energie pentru a arde grasimile.
 
-**Holera Morbus**
+# **Holera Morbus**
 
  4 lingurite piper negru pulbere (Piper nigrum)
 
@@ -292,9 +293,7 @@ Piperul negru stimuleaza papilele gustative care trimit o comanda stomacului sa 
 
  Dozare: 1 lingură de trei ori pe zi.
 
-**Piperul schiuan** (Zanthoxylum americanum, Z. clava-Herculis, Z. faxineum;
-
-RUTACEAE)
+# Piperul schiuan (Zanthoxylum americanum, Z. clava-Herculis, Z. faxineum; RUTACEAE)
 
 Piperul Sichuan nu face parte din familia piperului, așa cum ai crede. Este de fapt coaja uscată a fructelor unui copac din familia Zanthoxylum, fiind deosebit de apreciat în bucătăria chineză, dar și de mulți dintre medicii din zonă.
 
@@ -314,7 +313,7 @@ Stimulent general, stimulent cardiac, tonic, alterativ, iute, deobstruent, diure
 
  Mod de preparare: se pune în vasul acoperit cu două ore înainte de utilizare.
 
-**Purificator de sânge, imbunatatirea circulatiei sanguine**
+# **Purificator de sânge, imbunatatirea circulatiei sanguine**
 
 14g coaja de piper schiuan (Zanthoxylum americanum, Z. Clava-Herculis)
 
@@ -328,7 +327,7 @@ Mod de preparare: Fierbe la foc mic timp de 15 minute, dar ține acoperit bine p
 
 Dozare: 56ml de lichid, de trei ori pe zi.
 
-**Alifie pentru reumatism**
+# **Alifie pentru reumatism**
 
 28g pulbere de coaja de piper schiuan(Zanthoxylum americanum)
 

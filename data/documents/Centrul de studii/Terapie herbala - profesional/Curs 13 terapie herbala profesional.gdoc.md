@@ -6,7 +6,7 @@ Lobelia este o planta nativa din America de Nord cultivata astazi si in alte reg
 
 Aceasta planta anuala creste salbatic in regiunile americane si era considerata inca din vremuri de demult o planta cu puteri magice pe acele meleaguri de catre vechii amerindieni. De asemenea ei dadeau foc acestei plante ierboase si considerau ca fumul ei ajuta la alungarea spiritelor.Indienii nord-americani foloseau frunzele plantei drept tutun. Si astazi lobelia este utilizata in amestecuri cu anumite tipuri de tutun, ea creeaza usoare senzatii de euforie asemanatoare cu cele care apar atunci cand fumezi marijuana.
 
-Tutun indian \- Lobelia inflata
+# Tutun indian \- Lobelia inflata
 
 Denumire stiintifica: Lobelia inflata
 
@@ -30,13 +30,13 @@ Preparare si administrare: Infuzie \- se toarna o cana de apa fierbinte peste 1/
 
 Tinctura \- 1/2 ml de tinctura de trei ori pe zi
 
-Lobelia cardinalis
+# Lobelia cardinalis
 
 Lobelia este o planta perena care are radacina groasa, alba si fibroasa, tulpina lemnoasa la baza si ramificata, de culoare rosiatica, este subtire si flexibila, inalta de 40-70 cm, acoperita cu mici perisori fini. Frunzele sunt petiolate, alternative, de culoare verde-inchis, iar florile mici, numeroase si tubulare, in nuante de culori deschise albastre sau violet-rozii.Fructele contin numeroase mici seminte maronii. Perioada de inflorire este in lunile iunie si iulie, iar de coacere a fructelor la sfarsitul lunii august.
 
 Planta este bogata in alcaloizi, de aceea in scop terapeutic traditional se folosesc frunzele, mugurii, tulpina, florile si semintele. Toate partile plantei se pun la uscat in locuri uscate si bine aerisite, la umbra, apoi produsul uscat se depoziteaza in saculeti de hartie astfel rezistand timp de 2 ani. Mugurii uscati de la lobelia sunt un bun remediu in tratamentul unor afectiunirespiratorii, astmului, bronsitei, tusei convulsive, in stimularea functiei glandelor suprarenale a unor boli de natura infectioasa. Planta este utilizata pentru uz intern dar si extern.
 
-Lobelia spicata
+# Lobelia spicata
 
 Din cauzaunor substante din compozitia ei, lobelia este considerata de catre specialisti o planta otravitoare, de aceea nu trebuie folosita in doze foarte mari. In caz contrar planta provoaca stari de greata, diaree, varsaturi, dureri de cap si stomac, cresterea tensiunii arteriale si ameteli. Planta se foloseste doar la recomandarea unui medic specialist si in dozele stabilite de acesta.
 
@@ -106,7 +106,7 @@ Amestec cu lobelia pentru astm
 
 In crizele astmatice, foarte bune rezultate da ceaiul dintr-o lingura de potbal, cimbru, lumanarica si lobelia. Se adauga acest amestec de plante la 2 cani cu apa si se fierba la foc mic, timp de 30 de minute. Din acest preparat se ia o lingura, pana se amelioreaza dificultatea respiratorie.
 
-**Tratament pentru artrita**
+# **Tratament pentru artrita**
 
 Lobelia (Lobelia inflata) si coaja de Calin (Viburnum opulus), ambele sub forma de tinctura, se folosesc in masaje locale pentru remedierea contracturii musculare dureroase.
 
@@ -120,7 +120,7 @@ Ceai-infuzie pentru tratarea astumului:
 
 \- frunza sau/si floarea de Verbascum thaspus, in parti egale, baut de 2 ori/zi (la pranz si seara), este foarte valoros. Ceaiul trebuie strecurat foarte bine, printr-o panza de bumbac.Samburii de caise, inmuiati cateva minute in apa fierbinte si curatati de cojite, pot fi striviti si frecati pentru a obtine o pasta, la care se adauga putin cate putin lapte de capra, pana se obtine un fluid mai putin consistent. Solutia se obtine din 15 samburi. Sebea o data pe zi, dimineata, cu 15 minute inainte de micul dejun.
 
-**Tratament pentru dismenoree**
+# **Tratament pentru dismenoree**
 
 Plante medicinale \- seminte de in (Linum usiatissimum)
 
@@ -154,7 +154,7 @@ Pregatiri prealabile:Nu poti incepe detoxifierea ficatului atat timp cat exista 
 
 Consuma alimente fara grasimi la micul dejun si la pranz\! Acest lucru permite acumularea bilei si cresterea presiunii in ficat. Presiunea mai mare conduce la eliminarea mai multor calculi. Nu manca si nu beanimic dupa orele 14:00; daca incalci aceasta regula, s-ar putea sa te simtiti rau mai tarziu.
 
-Tratament pentru ficat:
+# Tratament pentru ficat:
 
 Nu confunda aceste plante pentru ficat cu reteta pentru detoxifierea ficatului. Acesta reteta contine plante cu efecte benefice asupra functiilor ficatului, in timp ce detoxifierea ficatului elimina pietrele din vezica biliara.
 

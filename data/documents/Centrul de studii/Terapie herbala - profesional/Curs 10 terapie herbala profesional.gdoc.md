@@ -12,15 +12,19 @@ Când diureticele acționeaza asupra solidelor renale (dizolvarea calculilor, pi
 
 Bile: Când bila se arată în urină, trateaza ficatul.
 
-Enurezisul: În aproape toate cazurile, aceasta este o condiție nervoasa, nervii sunt uzati și rinichii sunt sensibili.
+# Enurezisul: 
+În aproape toate cazurile, aceasta este o condiție nervoasa, nervii sunt uzati și rinichii sunt sensibili.
 
-Constipatie: iritațiile renale și toxinele pot aparea din cauza constipatiei.
+# Constipatie: 
+iritațiile renale și toxinele pot aparea din cauza constipatiei.
 
-Hidropizie: Acesta este un semn ca rinichii sunt parțial paralizati și nu elimina urina suficient, astfel încât agentul diuretic trebuie utilizat in combinație cu un stimulent difuziv precum ghimbir de Jamaica sau chiar Cayenne.
+# Hidropizie: 
+Acesta este un semn ca rinichii sunt parțial paralizati și nu elimina urina suficient, astfel încât agentul diuretic trebuie utilizat in combinație cu un stimulent difuziv precum ghimbir de Jamaica sau chiar Cayenne.
 
-Probleme ale femeilor: cauza problemelor urinare la femei poate fi în zona genitala, pentru ca sunt foarte legate între ele, astfel incat trebuie tratata aceasta zona, de asemenea.
+# Probleme ale femeilor, infectie urinara: 
+cauza problemelor urinare la femei poate fi în zona genitala, pentru ca sunt foarte legate între ele, astfel incat trebuie tratata aceasta zona, de asemenea.
 
-Patrunjelul (Petroselinum crispum, p. sativum, Carum Petroselinum; ApiumPetroselinum; Umbelliferae)
+# Patrunjelul (Petroselinum crispum, p. sativum, Carum Petroselinum; ApiumPetroselinum; Umbelliferae)
 
 Minunatul patrunjel este un foarte popular ingredient culinar, insa este recunoscut si ca planta medicinala, datorita cantitatii impresionante de antioxidanti. Aceasta planta bianula este originara din regiunea mediteraneana.
 
@@ -88,13 +92,15 @@ Băutură verde și ceai de patrunjel: Patrunjelul este teribil atunci când e a
 
 Plantele medicinale sub formă de ceai acționează rapid, în timp ce capsulele sunt mai lente. Dacă utilizezi patrunjel sub formă de suc, se utilizează moderat, este foarte foarte concentrat și puternic și va lucra foarte repede asupra sistemului. Dacă este folosit excesiv poate cauza dereglari grave.
 
-Piele-Hidropizie: Se amestecă părți egale de ceai din rădăcină de pătrunjel și glicerină și se aplică pe zonele umflate, ține pacientul la căldură, în pat, acoperit. Acest lucru scoate apa prin piele și ajută la ameliorarea poverii asupra rinichilor. În același timp, da ceai din rădăcină de pătrunjel fără glicerină ca o băutură, 1/2 ceașcă, dupa fiecare oră.
+# Piele-Hidropizie: 
+Se amestecă părți egale de ceai din rădăcină de pătrunjel și glicerină și se aplică pe zonele umflate, ține pacientul la căldură, în pat, acoperit. Acest lucru scoate apa prin piele și ajută la ameliorarea poverii asupra rinichilor. În același timp, da ceai din rădăcină de pătrunjel fără glicerină ca o băutură, 1/2 ceașcă, dupa fiecare oră.
 
 Lovituri, sâni umflati, glande extinse: Aplica o cataplasma cu frunze zdrobite.
 
 Uscarea laptelui: Aplica o cataplasma de frunze pe sâni.
 
-Litiaza biliara: 30g de pătrunjel, uscat (sau 3 linguri proaspete) (Petroselinum crispum)
+# Litiaza biliara: 
+30g de pătrunjel, uscat (sau 3 linguri proaspete) (Petroselinum crispum)
 
 15 g ignama salbatica, extract fluid (Dioscorea villosa)
 
@@ -126,7 +132,8 @@ Mod de preparare: Se amestecă bine, apoi se foloseste o lingurita de amestec la
 
 Dozare: cca.60ml de lichid, de 3 sau 4 ori pe zi.
 
-Calculi vezicali: 1 parte frunze de pătrunjel (Petroselinum crispum)
+# Calculi vezicali: 
+1 parte frunze de pătrunjel (Petroselinum crispum)
 
 1 parte Cleaver (Galium aparine)
 
@@ -152,7 +159,8 @@ Mod de preparare: se infuzeaza o lingurita de plante bine amestecate la fiecare 
 
 Dozare: cca.60 ml de lichid la fiecare una sau doua ore, apoi se reduce la cat e necesar.
 
-Probleme ale femeilor: 1 parte frunze de pătrunjel (Petroselinum crispum)
+# Probleme ale femeilor:
+1 parte frunze de pătrunjel (Petroselinum crispum)
 
 1 parte Buchu (Agathosma betulina, A. crenulata, ericoides Diosma)
 
@@ -184,7 +192,7 @@ Mod de preparare: Se înmoaie ierburile timp de 12 ore în apă, se aduc la fier
 
 Caracteristici de crestere: Patrunjelul creste in tufe de dimensiuni mici. Tulpinile acestuia sunt subtiri si inalte de culoare verde deschis. Doua specii diferite de patrunjel sunt folosite in scop culinar: P. Cispum, care are frunzele ondulate si P. Neapolitanum, o specie provenita din Italia, care are frunzele drepte. P. Cispum este folosit in special perntru ornarea mancarurilor, datorita aspectului placut.O alta parte comestibila a patunjelului este radacina. Petroselinum crispum var. tuberosum este o specie de patrunjel plantat special pentru radacina sa, care este mult mai voluminoasa decat cea a speciilor de patrunjel enumerate mai sus. Radacina patrunjelului este alba si asemanatoare ca aspect cu cea a pastarnacului. Florile cresc in buchetele, sunt mici si au petale de culoare alba.
 
-**Strugurii ursului sau murele** (Arctostaphylos uva ursi; Ericaceae)
+# Strugurii ursului sau murele (Arctostaphylos uva ursi; Ericaceae)
 
 Murele sunt fructele murului – un arbust din familia rozaceelor, cu tulpina spinoasa, cu frunze palmat-compuse si cu flori albe sau roz dispuse in umbele, ce apar la sfarsitul primaverii sau inceputul verii. Fructul este comestibil si are un aspect negru-lucios.
 
@@ -392,7 +400,7 @@ Notă: Cu excepția nalbei (calmant), morcov sălbatic poate fi substituit pentr
 
 Administrare: da, de asemenea, pacientului un ceai de ulm sau de in.
 
-Morcov salbatic(Daucus carota; Umbelliferae)
+# Morcov salbatic(Daucus carota; Umbelliferae)
 
 Morcovul sălbatic sau Daucus carota este cunoscut încă din antichitate pentru proprietățile sale medicinale. Este originar din Asia Centrală, însă aria de răspândire s-a extins în Europa și în America. Planta este comestibilă și poate fi folosită cu succes și pentru uz extern.
 
@@ -410,7 +418,7 @@ Sucul din morcovul sălbatic are și proprietatea de a crește globulele roșii 
 
 Grație multitudinii de vitamine conținute, morcovul sălbatic participă la întinerirea țesuturilor pielii, grăbește cicatrizarea rănilor și îmbunătățește vederea. Este recomandat diabeticilor, deoarece determină închiderea rănilor după operații. Pe lângă salate, sucuri și fierturi cu morcovi, opteaza și pentru regenerarea pielii, prin folosirea externă. Pentru aceasta ai nevoie de un morcov, cu tot cu coajă (dar bine spălat) pe care trebuie să-l dai pe răzătoare. Aplica-l pe întreaga față și ține-l timp de un sfert de oră, după care clăteste-te cu apă minerală. Cu sucul obținut prin răzuirea morcovului sălbatic șterge-te pe fața, tamponând o compresă sterilă în suc. Pielea va căpăta un aspect sănătos și odihnit.
 
-Elimină pietrele la rinichi
+# Elimină pietrele la rinichi, calculoza și pietrele la vezica urinară
 
 O metodă populară de fărâmarea pietrelor la rinichi constă în consumarea unui amestec dintr-o linguriță cu pătrunjel, rădăcină de păpădie și flori de morcov sălbatic. Se toacă cât mai mărunt, și peste ingrediente se toarnă patru pahare cu apă. Se fierbe la foc mic timp de 10 minute. Se consumă o cană cu ceai înainte de fiecare masă.
 
@@ -426,7 +434,7 @@ Pulbere 1-2 grame
 
 Tinctura 1/2 \-1 lingurita
 
-Hidropizie
+# Hidropizie
 
 28 g morcov sălbatic (Daucus carota)
 
@@ -438,7 +446,7 @@ Mod de preparare: Fierbeti la foc mic în 3 litri de apa distilata, timp de 20 d
 
 Dozare: 2 linguri la fiecare 2 ore. Utilizați si vaporii sau baia de aburi, de 2 sau 3 ori pe săptămână.
 
-Cistita (inflamarea vezicii urinare)
+# Cistita (inflamarea vezicii urinare)
 
 Cca.14g morcov sălbatic (Daucus carota)
 
@@ -458,7 +466,7 @@ Mod de preparare: Fierbe la foc mic, încet, primele 5 plante pentru 20 de minut
 
 Dozare: 60 ml de lichid,de 4 până la 6 ori pe zi. Administrare: În cazul în care este necesar, se curata intestinele cu infuzie de iarba matei (28g cufundata în 1 litru de apa fierbinte), apoi, după câteva minute se adauga 1/2lingurita praf de compoziție și se injectează atunci când e călduță. De asemenea, aceasta acțiune intestinala poate fi realizată cu 7g de scoarță de dracilă sau scoarță de copac
 
-Inflamarea rinichilor
+# Inflamarea rinichilor
 
 14g morcov sălbatic (Daucus carota)
 

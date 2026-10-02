@@ -2,19 +2,22 @@ CURSUL 8
 
 Ierburile laxative
 
-**Laxativele grăbesc evacuarea intestinală.** **Există diverse produse pe piață în acest scop, substanțe predominant anorganice, care sunt iritante pentru organele sensibile și adesea provoaca deshidratarea.** Acestea sunt cu siguranta dăunătoare procesului funcțional și vibrației în organism: uleiuri minerale, purgative saline (sulfat de magneziu sau sare amara, citrat de magneziu, sulfat de potasiu,tartrat de potasiu, bitartrat de potasiu, sulfat de sodiu sau sare Glauber, fosfat de sodiu, clorură de sodiu, tartrat de sodiu, sulfat de mangan, etc), clorură de mercur sau calomel, etc .
+# Laxativele 
+grăbesc evacuarea intestinală.** **Există diverse produse pe piață în acest scop, substanțe predominant anorganice, care sunt iritante pentru organele sensibile și adesea provoaca deshidratarea.** Acestea sunt cu siguranta dăunătoare procesului funcțional și vibrației în organism: uleiuri minerale, purgative saline (sulfat de magneziu sau sare amara, citrat de magneziu, sulfat de potasiu,tartrat de potasiu, bitartrat de potasiu, sulfat de sodiu sau sare Glauber, fosfat de sodiu, clorură de sodiu, tartrat de sodiu, sulfat de mangan, etc), clorură de mercur sau calomel, etc .
 
 Verifica etichetele de pe produse pentru a le vedea conținutul. Acestea nu ar trebui să fie utilizate în cazul în care sunt dorite rezultate naturale și regenerative. Pot fi utilizate ape minerale naturale de la o sursă organică, cum ar fi **apa Pluto**. Laxativele botanice accelereaza procesele de evacuarea fizica și sunt, de asemenea, vindecători puternici în curățarea, intarirea si tonifierea țesuturilor și organelor defecte. Acești agenți sunt clasificati în mai multe categorii, în funcție de acțiunea lor: **purgativele sau laxativele excita peristaltismul moderat și produc un scaun normal, fără crampe sau iritații.**
 
 Multe fructe sunt laxative, iar ingerarea unei cantități mari de apă este, de asemenea, laxativa. Această categorie de agenti evacuanti este utilizata în general pentru copiii si persoanele foarte slabe**. Laxativele sunt ușoare și lente si acestea ar trebui să fie administrate în general noaptea, înainte de culcare**. **Unii dintre acești agenți, cum ar fi uleiul de măsline, au o afinitate pentru intestinele mici, în timp ce altele, cum ar fi agar și Cascara Sagrada, acționează în mod specific asupra intestinelor mari și unii, cum ar fi lemnul dulce, acționează asupra întregului tract intestinal**. Laxativele sau purgativele simple cauzeaza peristaltismul activ și stimuleaza secreția glandulară a intestinelor, care produce una sau mai multe mișcări semi-lichide in intestin, însoțită de unele iritari și crampe. Acestea acționează de obicei în termen de 8-12 ore și ar trebui să fie administrate dimineața sau între mese, pe stomacul gol. Unii dintre acești agenți au o afinitate pentru anumite zone, cum ar fi pentru duoden (rădăcină Mandrake) sau intestinul gros (aloe, Senna, rubarbă turceasca).
 
-**Purgativele drastice** acționeaza si mai intens și produc peristaltism violent și scaune apoase, cu multe crampe dureroase. Ele irita membrana mucoasa și slăbesc prin faptul ca provoaca serul sa iasa din vasele intestinale. În doze mari, acestea pot provoca inflamatii, prin urmare utilizeaza cele două categorii de mai sus de purgative, ori de câte ori este posibil. De fiecare data cand sunt utilizate purgativele drastice, ia numai în combinație cu agenți corectivi și calmanti. Aceasta este o lista parțială de purgative drastice: ulei de ricin, mere colocynth, gamboge, gard viuisop, jalap, Bryony roșu, Bryony alb.
+# Purgativele drastice
+acționeaza si mai intens și produc peristaltism violent și scaune apoase, cu multe crampe dureroase. Ele irita membrana mucoasa și slăbesc prin faptul ca provoaca serul sa iasa din vasele intestinale. În doze mari, acestea pot provoca inflamatii, prin urmare utilizeaza cele două categorii de mai sus de purgative, ori de câte ori este posibil. De fiecare data cand sunt utilizate purgativele drastice, ia numai în combinație cu agenți corectivi și calmanti. Aceasta este o lista parțială de purgative drastice: ulei de ricin, mere colocynth, gamboge, gard viuisop, jalap, Bryony roșu, Bryony alb.
 
 Agentii hidragogi sau purgativele hidragoge sunt agenti drastici foarte activi și vor elimina cantitati mari de ser și apa din vase, cauzand mari evacuări apoase. Aceasta este o listă parțială de hidragogi: rădăcină mare,gamboge, rostopasca mare , săricică.
 
-**Purgativele colagoge** stimuleaza un flux și o evacuare abilă, în timp ce, în același timp, produc o curățare liberă de culoare verde și scaune lichide. Acestea acționează în principal asupra duodenului și contracteaza ductul biliar, care varsa bila in intestinul subtire, dar nu crește neapărat secreția de bilă ca agenti hepatici, deși unele plante sunt găsite în ambele categorii.
+# Purgativele colagoge
+stimuleaza un flux și o evacuare abilă, în timp ce, în același timp, produc o curățare liberă de culoare verde și scaune lichide. Acestea acționează în principal asupra duodenului și contracteaza ductul biliar, care varsa bila in intestinul subtire, dar nu crește neapărat secreția de bilă ca agenti hepatici, deși unele plante sunt găsite în ambele categorii.
 
-**Cascara Sagrada** (Rhamnuspurshiana; RHAMNACEAE)
+# Cascara Sagrada (Rhamnuspurshiana; RHAMNACEAE)
 
 Denumiri comune: Cascara Sagrada, scoarță de copac sacru, pațachină californiana, coaja persană, scoarță de copac sfânt, spinul lui Hristos; rhamniPurshiani Cortex (Br.); Cascara Sagrada (Fr.); Amerikanisch Faulbaumrinde(Ger.).
 
@@ -84,7 +87,7 @@ Plante surori: cătină sau arinul negru (Rhamnus Frangula, RHAMNACEAE), coaja u
 
 Unguent din coaja proaspata: apendicita, reumatism, viermi, negi, acțiunea sa este mai puternica și mai sigura decât a Cascaras Sagrada și este mai usoara decat Rubarba turceasca; tufis subțire împrăștiat din Europa și Asia de Nord (10-15 de metri in inaltime) și Senna.
 
-**Inul de munte(**Linum cartharticum;Linaceae)
+# Inul de munte(Linum cartharticum;Linaceae)
 
 Denumiri comune: in de munte, in pitic.
 
@@ -136,7 +139,7 @@ Colectarea:Aduna în iulie, când este în floare.
 
 Plante surori:Semintele de in (Linum usitatissimum, Linaceae), semințe coapte uscate: tuse, bronșită, membranele mucoase inflamate (respiratorii, digestive și ale organelor urinare), iritație renală și vezicală, guturai, dizenterie, pietriș, un decoct din ulei e foarte bun pentru clisme, tuse, astm,pleurezie, etc, foloseste uleiul pentru arsuri, arsuri, hemoroizi, laxativ (corecție pentru purgative), erizipel, suprafețe iritate etc; cataplasmă cu coaja de ulm(Ulmus rubra, U.fulva) și semințe de Lobelia (Lobelia inflata) pentru ulcere, abcese,glande marite, umflaturi, pneumonie, tumori, abcese, rani vechi. Cand e conservat neglijent este supus atacului insectelor, acesta ar trebui să fie utilizat după un an pentru cele mai bune rezultate. Semințele au randament de 30-40% in ulei de in și aproximativ 6% mucilagiu.
 
-**SENNA**, Alexandria sau Nubian (Cassia acutifolia, C. Senna;C. emolient, C. officinalis, C. aethiopica, C. Orientalis, LEGUMINOSAE(CAESALPINIOIDEAE subfamilia)SENNA, East Indian sau TINNEVELLY (Cassia angustifolia;C. alungit, C. Medica, LEGUMINOSAE (subfamilia CAESALPINIOIDEAE)
+# SENNA  Alexandria sau Nubian (Cassia acutifolia, C. Senna;C. emolient, C. officinalis, C. aethiopica, C. Orientalis, LEGUMINOSAE(CAESALPINIOIDEAE subfamilia)SENNA, East Indian sau TINNEVELLY (Cassia angustifolia;C. alungit, C. Medica, LEGUMINOSAE (subfamilia CAESALPINIOIDEAE)
 
 Denumiri comune: Alexandria Senna, Nubian Senna, Tripoli Senna, Senna Alexandrina,Senna de munte, Sennae Folia (Br.); Sene-d'Alexandrie (Fr.);Alexandrinische Senna (ger.); Senna Jebel (Arab.).2. East Indian Senna, Tinnevelly Senna, arab Senna, Bombay Senna,Mecca Senna, Mocha Senna, Senna Indica; Sene de I'Inde-de Tinnevelly,Feuilles de Sene (Fr.); Folia Sennae, Sennesblaetter, Indische Senna(Ger.).
 
@@ -188,7 +191,7 @@ Compusul antibilos și de curatare 2 lingurite frunze de siminichie, pulbere(Cas
 
 Colectare: Plantele de siminichie dau două recolte anuale de frunze, cu cea mai mare și cea mai buna la sfârșitul sezonului ploios, în septembrie și mai mică în aprilie, in timpul sezonului uscat. Nativii taie intreaga planta (soiul Alexandria), le pun pe pietre pentru uscarea prin expunere directă la soarele fierbinte, împacheteaza frunzele în pungi de frunze de palmier și le transporta pe cămilă in porturile din piață, acolo frunzele sunt deformate (cernute de corpuri străine) și plasate în baloturi mari pentru export. Uscare si conservare: Frunzele sunt uscate rapid prin expunerea directă la soarele fierbinte (frunzele maron și materia alterata indica procesarea inferioara).
 
-**Matraguna** sau marul de mai (Podophyllum peltatum; Berberidaceae)
+# Matraguna sau marul de mai (Podophyllum peltatum; Berberidaceae)
 
 Denumiri comune: matraguna, mar de mai mătrăgună americana, matraguna sălbatica, merele diavolului; Rizom de Podophyllum (Fr.); Fussblattwurzel (ger.) Caracteristici de identificare Verde pal, neteda, erecta, 1/2-1 in inaltime, se divide la aproximativ 1 picior în două pețiolele care sunt de 3-6 cm lungime și fiecare suporta o singura frunza. Două (una pe fiecare pețiol), mari, palmate (5-7) și
 
@@ -204,7 +207,7 @@ Inflamarea ficatului: Toate plantele vor fi utilizate sub formă de pulbere: 1 l
 
 Mod de preparare: se pun plantele într-un vas adecvat, adaugi 1 litru de alcool și suficientă apă pentru a acoperi plantele, se pune vasul într-un loc cald și se lasa la macerat 3-4 zile; se toarnă 1 litru de lichid, apoi se adaugă 1 litru de apă la restul și se reduce prin fierbe la 1 litru, se amestecă cu 2 kilograme de zahăr galben, se lasă să se răcească, se amestecă cele două cantități de lichid, se pune in sticla și se păstreaza într-un loc răcoros. Dozare: 1 lingură de 3 până la 4 ori pe zi, înainte de mese și la culcare. Combinații bune: Matraguna se combina cu agentii de corecție, cum ar fi ghimbirul, Sagrada cascaras, lemnul dulce, semințele de in, anumite tonice, etc .Caracteristici de creștere: perena, găsita în cea mai mare parte in Statele Unite, crescuta bucati de pamant neregulate sau in grupuri de 100 sau mai multe plante (10-20 picioare latime), preferând locurile mici, umbroase, padurle bogate și umede, în aer liber . Infloreste din mai-iunie; maturizarea fructelor are loc din august-octombrie. Colectarea: Rădăcina ar trebui să fie săpata imediat după ce fructul s-a copt. Plante surori: Indian Podophyllum (Podophyllum hexandrum, p. emodi; Berberidaceae); acțiune terapeutică similară, dar mai puternică;
 
-**Balsamul Galaadului** sau Balsamul plopului sau TACAMAHAC
+# Balsamul Galaadului sau Balsamul plopului sau TACAMAHAC
 
 Denumirile comune: Balsam de Galaad, balsam de plop, plop tacamahac. Caracteristici de identificare: Trunchi de copac mare, 50-70 de metri in inaltime, aproximativ 13 centimetri în diametru; ramurile sunt netede, rotunde si de culoare maron profund. Frunze ovate, se îngustează treptat, apex subliniat, verde intens mai sus, netede pe ambele părți. Mugurii sunt conici (strict ovali), suprapusi, maron lucios, până la 4/5 inch lungime și 1/5 inch grosime,lipiciosi, cu rășină parfumata, obținute din rășini abundente și cristale salicine interne. Gust balsamic și ușor amar, oarecum neplăcut. Miros aromatic (ce al tamaiei), plăcut. Parti de utilizat: coaja, mugurii. Acțiune terapeutică: Coaja: catartica (laxativ ,purgativ simplu), tonic, stimulenta, diuretica, antiscorbutica, stomacala, rezolutiva, curativa, expectoranta. Muguri: stimulanti, tonici, diuretici, expectoranti, nefrotici, demulcenti, emolienti, vindecă rănile, contra-iritanti, antireumatici, antiscorbutici, purificatori (laxativ, purgativ simplu), peristaltici, nutritivi. Medicamentos se utilizează pentru: bronșită, nefrita, guturai, reumatism, sânge rău (scorbut), tuse, plângeri pulmonare, probleme de stomac, boli de piele, de rinichi și boli ale vezicii urinare, constipatie cronica, intestine uscate și debile, durere în gât, colesterol, inflamarea membranelor mucoase din tubul digestiv, guta, raceli, tăieturi, răni, arsuri, eczeme, entorse, vânătăi, matreata, etc
 

@@ -1,6 +1,6 @@
-**Lecția 4**
+## Lecția 4
 
-**Structura și semnele irisului**
+## Structura și semnele irisului
 
 Există trei culori de bază ale irisului, așa cum ai învățat în lecția 2\. Acestea sunt albastru, gri și maron. Fiecare dintre acestea este dependentă în funcție de cantitatea de pigmentare din Iris.
 
@@ -36,7 +36,7 @@ Acesta este un strat subțire de celule care acoperă irisul posterior și se re
 
 ![Imagine image1]
 
-**Introducere în semnele Irisului**
+## Introducere în semnele Irisului
 
 Atunci cănd cineva începe să privească la irisuri par a fi o mulțime de lucruri la care să se uite. Există modificări în structura de fibre, pete de diferite dimensiuni și culori, inele asortate și variațiile de culoare a irisului. Acestea pot fi toate extrem de confuze. Există, de fapt, trei tipuri de semne ale irisului pe care le considerăm principale, acestea sunt :
 
@@ -44,11 +44,11 @@ Atunci cănd cineva începe să privească la irisuri par a fi o mulțime de luc
 2. **Marcaje albe, întunecate și negre**
 3. **Inele și inele parțiale sau arce**
 
-**Leziuni colorate și marcaje**
+## Leziuni colorate și marcaje
 
 Acestea reflectă produse alterate ale metabolismului sau de perturbare ale fluidului corporal în circulație sau sistemul limfatic. Acestea pot fi privite ca modificări ale culorilor galben, roșu-galben, maro, roșu-brun și așa mai departe. Un întreg segment se poate decolora sau pot exista pete. Acestea din urmă au fost menționate ca pete de toxină. Ele apar în general în straturile profunde ale irisului, cum ar fi stratul stromal sau mai adânc.
 
-**Marcaje albe, întunecate și negre**
+## Marcaje albe, întunecate și negre
 
 Acestea reflectă activitatea de inflamație. Gândiți-vă la ele ca la reacții inflamatorii care afectează funcția.
 
@@ -56,7 +56,7 @@ Marcajele albe indică inflamația acută, hiperactivitate, iritație și supra-
 
 Petele negre indică faptul ca nu sunt activități, pierderea funcției și cicatrici funcționale. În cazul în care apendicele este eliminat individul va înregistra o linie neagră în zona anexă pentru o perioadă scurtă de timp.
 
-**Inele și inele parțiale sau arce**
+## Inele și inele parțiale sau arce
 
 De fapt, există câteva tipuri de inele văzute în iris. Primul tip îl constituie inelele de contracție sau constricție. Acestea sunt văzute ca falduri ale structurii reale a irisului. Este ca și cum țesutul a fost înlanțuit în zig-zag ca un felinar chinezesc. Ele sunt văzute dacă privești din afara pupilei, prin zonele stomacului și a intestinelor. Aceasta este zona ciliară a irisului.
 
@@ -84,7 +84,7 @@ Acest semn este cauzat de stagnare în sistemul limfatic al organismului. Drenaj
 
 De exemplu, cineva cu un talon limfatic în zona inferioară a ochiului, în zona 25 \-30, poate avea stagnare acolo. El poate fi predispus la gută și depunerea ulterioară de cristale de acid uric la nivelul articulatiilor piciorului și genunchi. Deși medicina traditionala nu poate recunoaște cele două condiții ca fiind asociate cu drenajul limfatic, cu toate acestea , pare sa fie deci de la analiza Iridologica.
 
-**Grila irisului**
+## Grila irisului
 
 Grila este o metodă de înregistrare a examinării Irisului tău. Ai o rețea închisă, pe care ar fi trebuit să o fotocopiezi de multe ori. Fie asta, fie creează-ți propriile tipare în funcție de sistemul personal de luat notițe.
 

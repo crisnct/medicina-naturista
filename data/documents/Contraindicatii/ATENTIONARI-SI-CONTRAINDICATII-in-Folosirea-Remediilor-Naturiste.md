@@ -14,8 +14,6 @@ Trebuie să știm că, pe lângă nenumăratele beneficii pe care le aduc, plant
 
 ## Tratamentele naturiste și atenționările în administrarea lor
 
-## A
-
 ### Anghinarea
 
 - **Anghinarea** nu se folosește în tratamentul litiazei biliare, în afecțiunile acute hepato-biliare și renale. Planta poate da alergii datorită lactonelor din compoziție. Administrată în cantitate mare poate provoca colici hepato-biliare.

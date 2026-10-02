@@ -4,14 +4,13 @@ Ierburi curative
 
 Printre plantele curative există mai mult de 100 de plante de specialitate care curăța sângele,țesuturile și organele eliminatorii. Calificarea în utilizarea ierburilor curative te va ajuta foarte mult in vindecarea oamenilor. Impuritățile din sânge apar din cauza funcționării necorespunzătoare a unuia sau mai multor organe, cel mai frecvent organele secretorii, care nu reușesc să transporte impuritățile din sânge. Toxicitatea poate veni, de asemenea, de la produse alimentare necorespunzătoare sau impure. În timp ce te straduiesti sa cureti sângele, aflii si cauza bolii , pentru o vindecare completa. Multe plante pot fi clasificate drept curative deoarece acestea promovează eliminarea impurităților. Adevăratele plante curative curata și purifică fluxul sanguin încet dar sigur și, în același timp,tonifiaza organul sau organele care nu pot fi capabile sa secrete impuritățile din sânge. Ficatul, rinichii, pielea sunt organele principale pentru secretia impurităților și deșeurilor. Dacă ficatul este apatic și bila reține în sistem,am putea găsi ca bila reținuta a afectat digestia și, într-un alt caz, a provocat o erupție cutanată. Acneea, de tip erupție cutanata este unul din primele semne ale eșecului de a menține o cale deschisă de eliminare prin ficat și intestine. În cazul în care rinichii nu secreta așa cum ar trebui, fluxul sanguin poate rămâne toxic. Pielea nu poate elimina bine,sau plămânii pot fi în imposibilitatea de a oxigena sângele. Asadar, trebuie să știi ce organ este implicat, pentru prescrierea curativelor. În plus, trebuie să știi calitățile specifice ale fiecărei plante. De exemplu, există curative de stimulare și tonifiere si curative de relaxare Alimentele, aerul, stresul emoțional și alți factori esențiali trebuie să fie îmbunătățiti, în plus față de utilizarea plantelor, altfel fluxul sanguin poate rămâne toxic.
 
-Patlagina (Plantago major; P.lanceolata; Plantaginaceae)Nume comune: Patlagina cucului, patlagina . Patlagina cu frunze late este Plantago lanceolata, care e tratata în acest text ca echivalent medicinal.
+# Patlagina (Plantago major; P.lanceolata; Plantaginaceae)Nume comune: Patlagina cucului, patlagina . 
+Patlagina cu frunze late este Plantago lanceolata, care e tratata în acest text ca echivalent medicinal.
 
 Caracteristici de identificare: tulpina rigida, neteda, inalta de șase, pana la optsprezece centimetri Frunze late: ovale, bonte , lama este de patru pana la opt centimetri lungime, de trei pana la patru centimetri latime, cinci-unsprezece fibre puternice, întregi sau grosiere și margini inegale, zimțate, de culoarea verde inchis. Frunze-lance: lanceolate, cu vârf ascuțit, tulpini puternic striate, de culoare verde inchis. Flori cu frunze late: inflorescență sau patru flori despartite, de culoare purpuriu-brun, de aproximativ cinci centimetri lungime. Celulele de fructe conțin două sau patru semințe (în vârf).
 
 Gust moderat astringent.
-
 Miros: Nici unul.
-
 Partea utilizata:rădăcina, frunzele, florile, semințele.
 
 Acțiune terapeutică: curative de răcire, depurante, diuretice, emoliente,ușor astringente, agenti frigorifici deobstruente, antiseptice, vindecă rănile,stiptice, antisifilis, antihelmintice (vermicide). Atât rădăcinile, cat și frunzele au efecte curative moderat difuze și de stimulare a sistemului circulator. Ele ajuta, de asemenea, pentru sistemul glandular, vindecarea zonelor limfatice și epidermice in bolile scrofulos și de piele. Patlagina este un remediu excelent pentru rinichi și problemele vezicii urinare. Este un remediu eficient pentru mușcăturile și înțepăturile otrăvitoare, deoarece otrava intepaturilor proaspete este extrasa rapid, de multe ori într-o oră. E cea mai buna planta pentru septicemie, reducând inflamația și vindeca complet un membru în care otrăvirea ar duce la amputatie. În cele din urmă, este foarte utila pentru alinarea durerii și vindecarea problemelor tractului intestinal. Aceasta planta valoroasa este adesea găsita în soluri aproape de cele mai multe locuințe, în parcuri, terenuri de sport,etc. Medicinal se foloseste pentru: mușcături otrăvitoare și înțepături, furuncule, abcese, tumori, inflamatie, scrofula, eczeme sau afte, septicemie, ulcere deschise si maligne , sângerare din răni minore, diaree, hemoroizi, tăieturi și zgârieturi, erizipel, arsuri, leucoree, lumbago, enurezis nocturn, sifilis, hidropizie, durere de dinti, viermi, rani, prurit, pecingine, mastita, vânătăi.
@@ -60,7 +59,7 @@ Mod de preparare: se fierb încet, la un loc, toate ingredientele timp de o oră
 
 Caracteristicile de creștere: Rădăcină perena: una dintre cele mai comune „buruieni” înflorita, răspândit cu colonizarea europeană găsita de-a lungul granitelor și în gardurile vii. Colectarea: frunzele proaspete, mature pot fi folosite oricând. Plante surori: patlagina carunta (Plantago media, Plantaginaceae):(Semințe) proprietăți terapeutice similare și utilizări la probleme majore (freaca frunzele verzi pe partea afectată).
 
-Trifoiul, Trifoiul salbatic (Trifolium pratense; leguminosae)Nume comune: caprifoi, trifoi.
+# Trifoiul, Trifoiul salbatic (Trifolium pratense; leguminosae)Nume comune: caprifoi, trifoi.
 
 Caracteristici de identificare: Tulpina dreapta sau rabatabila, mai mult sau mai putin păroasa, ramificata, de șase pana la douăzeci și patru de centimetri inaltime. De obicei, e compus din trei parti, ovale sau alungite, marcate cu o semilună alba și de multe ori închisa în apropierea centrului. Floare terminala, cap ovoid, format din mai multe magente mici,purpuriu-roz, dulce-parfumat, corole tubulare.
 
@@ -100,7 +99,7 @@ Ulcere indolente, cancer: se aplică extractul sau se face baie, pe plan intern 
 
 Cancer genital: infuzeaza un ceai puternic (se introduce in vagin si se păstrează mai multe minute inainte de excludere), de cinci sau șase ori pe zi.
 
-Radacina de brusture(Arctium lappa, Lappa minor; Compositae)
+# Radacina de brusture(Arctium lappa, Lappa minor; Compositae)
 
 Nume comune: radacina de brusture.
 

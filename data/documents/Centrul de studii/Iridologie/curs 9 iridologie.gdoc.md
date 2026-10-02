@@ -1,6 +1,6 @@
-**LECȚIA 9**
+## LECȚIA 9
 
-**Teoria vibratoare**
+## Teoria vibratoare
 
 Mulți practicieni se întreabă dacă irisul dezvăluie condițiile țesuturilor corpului.Dacă ai putea avea ocazia sa privesti irisului unei persoane, imediat după ce a fost implicată într-un accident sau a suferit o anumită problemă mare, vei vedea accidentul înregistrat aproape simultan în iris, ceea ce te face să te întrebi cum aceste marcaje pot să apară acolo atât de repede.Dar ele apar, mai ales în cazul în care persoana implicată în accident este una care nu a avut anestezie și alte tipuri de blocaje care ar interfera cu trecerea vibrațiilor între partea vătămată și iris.
 

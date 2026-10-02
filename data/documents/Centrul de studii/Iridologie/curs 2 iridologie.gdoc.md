@@ -1,10 +1,10 @@
-**LECTIA 2 IRIDIOLOGIE**
+## LECTIA 2 IRIDIOLOGIE
 
 Irisulpoatesaitispunamultedespre un individ. Dacaarunciunochipe o harta a irisuluipotiobtineinformatiiimportante. Caoricedisciplinanoua, pare complicata la inceputdar nu estedelocasa.
 
 Deci, permite-mi sa spun sa nu mergiprearepede cu iridologia. Doaravand o harta a irisului nu inseamnacastiisacitestiirisul. Suntdiferitesemnepe iris care au diferitesemnificatii.Dacaincercisa sari direct la sfarsit o sa-tidaiseamacaincurcilucrurilesicaesticonfuz. Primullucrupe care artrebuisa-l facicandteuiti la iris estesaevaluezi“fundalul”. Acestlucruestefoarte important deoarece in acel moment tuevaluezitipulindividului.
 
-**CONSTITUTIA**
+## CONSTITUTIA
 
 Istoria medicinei ilustreaza diferite idei despre natura umana. Hipocrate din Cos, adesea mentionat ca parintele medicinei, a dezvoltataideeacacelepatruelementemetafizice( pamanat, apa, aer ,foc, a nu se confunda cu elementelechimice din stiintamoderna), candsuntactionate de fortavitaladevin activate in umorisaufluidevitaleodataceele au fostasimilatesiabsorbite de organism.
 
@@ -32,7 +32,7 @@ In timpceveistudiasubiectul in mai mare profunzime, veigasicaexistamaimulteteori
 
 Deoarecescopulnostrude la CentrulInternational de StudiipentruMedicinaComplementara/Alternativaeste de a produce celemai simple sieficientemetode de predarevomincepecu o consideratie fata de culoareairisului.
 
-**CULOAREA IRISULUI**
+## CULOAREA IRISULUI
 
  Complexitateaunuiindivideste o parte foarte mare din constitutialui.Complexitateaesteformata din culoareaparului, a ochilor, a tenului. Acestlucruestepentru a face circulatie, pigmentare, profile hormonalesi tip genetic.
 
@@ -48,7 +48,7 @@ Irisulverdeesteadeseafoarteasemanator cu constitutionalitateairisuluimaron.
 
 Motivul fundamental pentru care noi, iridologiistudiemconstitutiapacientilorestepentru a determinapredispozitia la anumiteboli. Noinumimaceastapredispozitiediateza.Structurafibreloririsuluiesteprobabilbazata 80% genetic. Caracteristiciledobanditesunt de aproape 20 %.
 
-**IRISUL ALBASTRU**
+## IRISUL ALBASTRU
 
 Irisulalbastrueste in general asociat cu o constitutielimfatica. Acestaestedenumituneoriconstitutialimfatico-reumatica –tuberculoasa. Acesta este asociatcuotendință de a dezvoltaprobleme ale sistemuluilimfatic. Astfel, glandele limfatice din gat, axile, sunt toate caracteristici ale acestei constitutii. Copiii fac amigdalita de la aceste glande mari. Daca sunt mai mari pot face febra glandulara sau pot avea splina marita. Ei sunt intotdeauna sensibili, pot face adenoidita si polipi nazali. In plus si glanda tiroida este asociata, asadar pot suferi mai tarziu in viata de hipotiroidism.
 
@@ -56,13 +56,13 @@ Exista o predispozitie mostenita la tuberculoza. Desi aceasta conditie este rar 
 
 Poate exista o tendinta de a dezvolta ateroscleroza producand hipertensiune arterială și care afectează inima si rinichi mai tarziu in viata. Poate aparea formarea cataractei.
 
-**IRISUL GRI**
+## IRISUL GRI
 Acest tip constitutional este aproape cu cel albastru dar sunt mai multe predispozitii la reumatism si probleme arteriale. Acesta estedenumit uneoricaconstituțiareumatico-catarală. Individul poatefi predispus laambele,artrita reumatoida, osteoartritasiartropatiiseronegative, cum ar fi artropatie psoriazica. Pielea este adesea afectata, produce eczeme, psoriazis, afectiuni septice ale pielii si acnee.
 Guturaiul este o mare problema.
 Aceasta poate fi catar respirator superior, care afecteaza in principal sinusurile, urechile si nasul. Poate existaotendințădeosebit desupărătoarepentru infectii in pieptcarepersistacumucus gros, tenace.
 Guturaiulpoate fi de asemeneasuparatorsi sub alteforme. Mucusuliritamaimultecelule ale intestinului care producmaimultiarastapredispuneindividul la sindromul de colon iritabilsicolita
 
-**IRISUL MARON**
+## IRISUL MARO
 
 Acestaindica o acumulare de pigment siun model de ansamblu de congestie. Acesta estedenumit uneoriconstituțiagastrico-bilă-carcinomatoasă. Acest lucru este asociat cu tot felul de tulburari digestive si ale sistemului hepatic. Esecul trecerii celulelor vitale cauzeaza congestie in celulele sistemului. Acest lucru duce la functionarea defectuoasa, umflarea celulelor si in cele din urma la deteriorare daca nu este ameliorare.
 
@@ -74,7 +74,7 @@ Unele sistemede predareîmpartaceste treitipuriînzecesub-grupuri. Acest lucru e
 
 Reducerea de mai jos poate fi facuta uitandu-ne la structura de baza a fundalului, apoi la semnele specifice conform hartii.
 
-**STRUCTURA FUNDALULUI**
+## STRUCTURA FUNDALULUI
 
 Exista patru modele de baza pe care ar trebuie sa le iei in considerare. Acestea ne spun cat de susceptibila este diateza pentru a continua. Ele dau, cu alte cuvinte , cateva idei despre puterea constitutiei. In diagramele anexate am aratat criptele ca niste pete negre. Ele nu sunt de obicei la fel de mari ca pe iris. Aminteste-ti ca acestea sunt numai diagrame. Semnificatia lor este aratata intr-o slabiciune constitutionala.
 
@@ -98,6 +98,3 @@ Figura 2- „ca o lenjerie de matase”, mici cripte aproape de pupila.
 
 Fig 3 –mai mult pigment, mai multe cripte raspandite periferic, inel de constrictie, mai multe fibre iesite afara	Fig 4 \- aspect de fagure de miere al fibrelor destramate., inele de constrictie, pigmentare neregulata.
 
-![Imagine image1]
-
-![Imagine image2]![Imagine image3]![Imagine image4]

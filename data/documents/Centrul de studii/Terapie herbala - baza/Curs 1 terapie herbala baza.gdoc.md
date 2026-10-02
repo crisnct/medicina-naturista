@@ -1,4 +1,4 @@
-CURS 1
+# CURS 1
 
  Herbalismul acopera o gama mare de activitati. Ierburile sunt folosite in horticultura, bucatarie, medicina, in designul ornamental si intr-o multime de alte domenii.
 
@@ -20,13 +20,13 @@ In 1557, Thomas Husser, un poet agricultor englez si favoritul regelui James I, 
 
 Consider ca spiritul scrierilor lui Thomas Tusser ar trebui sa fie scopul nostru in acest curs. Asa ca bine ati venit in lumea ierburilor.
 
-Cateva definitii
+## Cateva definitii
 
 Oamenii sunt cateodata derutati cand vine vorba de ce sunt ierburile si ce este herbalismul. Este despre plante, si totusi nu este o stiinta exacta. Dupa cum am mentionat mai sus, depaseste multe bariere. Haideti sa incepem cu cateva definitii.
 
-Herbalismul holistic
+## Herbalismul holistic
 
-Botanica- stiinta vietii plantelor
+## Botanica- stiinta vietii plantelor
 
 Planta- o forma de viata incapabila de miscare conform propriei vointe. Una din principalele sale trasaturi metaboliceeste capacitatea de fotosinteza.
 
@@ -38,7 +38,7 @@ Herbalism- studiul si folosirea plantelor, in principal ierburi dar si anumite m
 
 Fitoterapie- utilizarea ierburilor si plantelor in medicina. Acesta este un termen folosit cu predilectie pe continent, deseori confundat cu medicina herbalistica.
 
-**Botanica de baza**
+## Botanica de baza
 
 Atat animalele cat si plantele respira. Asta inseamna ca ele iau oxigen din atmosfera. Ele il folosesc in diferse proese metabolice pentru a produce dioxid de carbon, apa si energie. Dioxidul de carbon este un deseu al metabolismului. Animalele mai evoluate absorb oxigenul in plamani atunci cand inspira si elibereaza dioxid de carbon atunci cand expira. Plantele absorb oxigen prin porii minusculi din frunzele lor si, de asemenea, elibereaza dioxidul de carbon tot prin pori.
 
@@ -54,7 +54,7 @@ CO2 \+ H2O \+ energie \= (clorofila) compusi organici \+ O2
 
 Fotosinteza are loc in timpul zilei pe lumina soarelui. Dupa lasarea intunericului plantele respira. Dualitatea metabolismului plantelor este vitala pentru toate formele de viata de pe pamant. Plantele absorb dioxid de carbon si produc oxigen. Animalele produc doar dioxid de carbon. Daca plantele ar disparea de pe pamant, asa cum se intampla cu pretioasele paduri tropicale, atunci am risca alterarea intregii balante a naturii.
 
- Tipuri de plante
+## Tipuri de plante
 
 Exista o multime de tipuri de plante pe aceasta planeta luxurianta pe care traim. De la cele mai simple la cele mai complexe, ele sunt impartite dupa cum urmeaza:
 
@@ -102,7 +102,7 @@ Plantele monocotiledonate sunt plante care au o singura frunza care face parte d
 
 Plantele dicotiledonate au doua frunze care fac parte din embrionul samantei. Acestea includ papadia, piciorul- cocosului, merele si stefarul.
 
-Clasificare
+## Clasificare
 
 Toti gradinarii stiu numele populare si numele botanice ale plantelor cu care lucreaza.Altor oameni acest lucru li se poate parea foarte complicat. Asta este o neintelegere, deoarece scopul in sine al clasificarii este de a simplifica identificarea plantei.
 
@@ -134,7 +134,7 @@ In- Linum usitatissimum (L)
 
 Aceste abrevieri se refera la sistemul de clasificare- de exemplu Linnaeus. Acum va rog sa nu va alarmati la aparenta dificultate a acestor denumiri. Veti descoperi ca, pe parcurs ce studiati acest curs, numele specifice si generice vor incepe sa va ramana in memorie.
 
-Herbalismul- un stil de viata
+## Herbalismul- un stil de viata
 
 Poate suna banal, dar ierburile pot deveni o buna parte din viata unei persoane. Asa cum oamenii fac yoga, simtindu-se mai bine de la eliberarea tensiunii si adancirea cunostintei de sine care urmeaza, asa pot beneficia si de atingerea resurselor lumii plantelor.
 
@@ -148,11 +148,11 @@ In bucatarie vom discuta despre nutritie, conceptia actuala despre valoarea fruc
 
 Dar sanatatea va fi prima noastra grija. Desi acest curs nu-si propune sa sugereze ca herbalismul ar trebui sa fie o alternativa la grija pentru sanatate in maniera ortodoxa, intentia este ca studentul sa invete remedii herbale care sunt sigure si eficace. In lectiile urmatoare ne vom concentra pe folosirea ierburilor ca si tonice naturale. Pentru a putea face acest lucru ne vom uita la un model de sanatate diferit de cel al medicinei ortodoxe. Atunci cand vom face asta, veti intelege de ce am ales cuvantul „tonic”.
 
-Primele voastre doua ierburi
+## Primele voastre doua ierburi
 
 Este foarte important sa aveti simtul de „a pune mana” atunci cand studiem un subiect precum herbalismul. In acest caz, vreau sa va prezint fugitiv doua ierburi care sper ca va vor provoca sa faceti un efort sa le cunoasteti. Ele sunt doua dintre cele mai bune ierburi vindecatoare ale naturii.
 
-Musetelul
+### Musetelul
 
 Musetelul era cunoscut vehchilor egipteni ca un remediu pentru malarie. Era privit ca o planta vindecatoare puternica si vechii doctori egipteni il inchinau zeilor Thoth si Imhotep.
 
@@ -162,7 +162,7 @@ Este o planta cu crestere lenta, taratoare, cu frunze care cresc in manunchiuri 
 
 Aceasta planta este un relaxant excelent. Te ajuta sa dormi, calmeaza nervii si regleaza sistemul digestiv. Majoritatea magazinelor naturiste il vand sub forma de ceai; fie singur, fie combinat cu alte ierburi mai putin amare, ca menta. O ceasca de doua ori pe zi va relaxa pe oricine si este mult mai bun decat ceaiul sau cafeaua. Daca se doreste poate fi indulcit cu o lingurita de zahar sau miere.Un ceainic de ceai de musetel poate fi luat la culcare, lasand suficient pentru o ceasca dimineata. Daca este sorbit la prima ora dimineata va improspata respiratia si isi va inepe efectul calmant inainte de provocarile zilei.
 
-Tataneasa
+### Tataneasa
 
 Tataneasa creste in pajisti si zone umede si poate fi plantata in propria dumneavoastra gradina de ierburi. Cea mai mare valoare a sa este de unguent. Are o tulpina lunga, frunzoasa, acoperita cu fire de par.Frunzele au pana la 24 cm lungime si sunt, de asemenea, paroase.Are flori galbene sau mov.
 

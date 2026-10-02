@@ -1,4 +1,4 @@
-**Test 2 herbalism**
+# Test 2 herbalism
 
 1. Ce intelegi prin expresia Vis Medicatrix Naturae?
  Puterea organismului de a se vindeca singur

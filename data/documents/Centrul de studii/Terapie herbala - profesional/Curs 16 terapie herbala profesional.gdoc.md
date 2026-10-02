@@ -4,7 +4,7 @@ Ierburile tonice
 
 Tonicele cresc permanent tonul de-a lungul întregului sistem, crescand vigoarea, energia și puterea, stimuland asimilarea de substante nutritive.Aceste plante sunt revigorante, răcoritoare și consolideaza permanent fiecareorgan al corpului. Ele lucrează în principal în cadrul sistemului digestiv, dar toate organele sunt influențate pozitiv. Ele produc ton normal țesuturilor unui organ, rezultand un muschi sănătos și funcțional. Aceste plante sporesc pofta de mâncare, promoveaza eliminarea mai bună a resturilor, ajuta la digestie, alina stomacul și, treptat, construiesc forta, energia și sănătatea. Ca o regulă, ierburile tonice sunt amare de obicei si sunt date in timpul perioadei de convalescenta. Asigura-te că pacientul a trecut de faza acuta a bolii înainte dea-i administra ierburi tonice.
 
-**Dracilă**
+# **Dracilă**
 
 Caracteristici de identificare*(Berberis vulgaris; Berberis dumetorum; BERBERIDACEAE)*
 
@@ -16,7 +16,7 @@ Substanțele active din dracilă sunt alcaloizi, în proporție de 2 \- 3 % în 
 
 Actiune terapeutica: Alcaloizii, în special berberina, au acțiune deprimanta cardiac și asupra respirației. Stimulează musculatura netedă a intestinelor, uterului și a altor organe. În doze mici stimulează activitatea cardiacă prin acțiunea asupra coronarelor.Oxiacantina izolată din scoarță acestei specii are acțiune hipotensivă. Extractele din această specie sau unii alcaloizi au remarcabile proprietăți antibiotic, acționând asupra unui mare număr de germeni patogeni.
 
-Colici biliare
+# Colici biliare
 
 56g coaja de dracila (Berberis vulgaris)
 
@@ -32,7 +32,7 @@ Preparare: fierbe primele patru ingrediente ale compusului în 1 litru de apăp�
 
 Dozare: cca 60 ml de lichid, de 4 până la 6 ori pe zi
 
-Icter, tonic digestiv (tinctura)
+# Icter, tonic digestiv (tinctura)
 
 112g coaja de dracila(Berberis vulgaris)
 
@@ -52,7 +52,7 @@ Laxativ, bactericid, oxiuri la copii
 
 1 linguriță de Mandrake, rădăcină sau marde mai tăiat (Podophyllum peltatum)
 
-112gglicerina
+112g glicerina
 
 Mod de preparare: se fierb plantele încet timp de 15 minute, în aproximativ 1-1/2 litri de apă, se strecoara și se retrag, se acoperă plantele (partea de sus a plantelor)cu apă și se fierb până când apa este la acelasi nivel cu ierburile, se strecoara.Pune ambele cantități de lichid într-un vas curat și fierbe; ia aceastăconcentratie de pe foc, amesteca cu glicerină, lasa sa stea pana se răceste, pune intr-o sticlă și păstreaz-o într-un loc răcoros.
 
@@ -60,7 +60,7 @@ Dozare: 1 lingură noaptea și dimineața până cand intestinele se misca liber
 
 Copii: 1/2 \-1 lingurita.
 
-***CALUMBA** (Jateorhiza palmata; J. calumba; Cocculus palmatus;MENISPERMACEAE)*
+# ***CALUMBA** (Jateorhiza palmata; J. calumba; Cocculus palmatus;MENISPERMACEAE)*
 Calumba (Jateorhiza palmate) este o planta cataratoare pe copacii din padurile tropicale (la altitudini de pana la 1500 m) din Africa de Est, Kenya si Mozambic, dar si insulele Madagascar, Ghana, Mauritius. Specialistii au clasat trei specii ale acestui gen Jateorhiza, toate originare din Africa tropicala.
 
 Caracteristici de identificare:
@@ -73,7 +73,7 @@ Radacina plantei in Tanzania era o sursa importanta de medicament folosit la vin
 
 Intotdeauna radacina se dezgroapa pe vreme uscata, iar partea sa suculenta se curata si se taie in felii groase de 1-1,5 cm oblic sau transversal si se usuca in locuri bine aerisite si umbrite. Dupa uscare aceste bucatele de radacina au un colorit galbui-maroniu si gustul amar.
 
-Flatulență (intestinal)
+# Flatulență (intestinal)
 
  1 lingura Calumba pulbere (Jateorhiza palmata)
 
@@ -85,7 +85,7 @@ Mod de preparare: fa o infuzie turnand 1 litru de apa clocotita pesteingrediente
 
 Dozare: cca. 60ml de lichid de 3 ori pe zi.
 
-Digestie slaba și alterata
+# Digestie slaba și alterata
 
 28g Calumba rădăcină (Jateorhiza palmata)
 
@@ -101,7 +101,7 @@ Mod de preparare: se fierb primele patru plante timp de aproximativ 15 de minute
 
 Dozare: 30 ml, de 3 până la 4 ori pe zi.
 
-Dispepsie
+# Dispepsie
 
 28ggentiana americana, tinctura (Frasera caroliniensis)
 
@@ -129,7 +129,7 @@ Mod de preparare: Fierbe la foc mic 1/2 ora in 3 litri de apa, strecoara.
 
 Dozare: 2-3 linguri, de 3 până la 4 ori pe zi.
 
-***GOLDEN SEAL- Gentiana**(Hydrastis Canadensis;RANUNCULACEAE)*
+# ***GOLDEN SEAL- Gentiana**(Hydrastis Canadensis;RANUNCULACEAE)*
 
 Caracteristici de identificare:Planta medicinala care creste in tara noastra in zona alpina, pe stanci si in pasuni (este ocrotita de lege). Frunzele au dimenisuni mari, forma ovala. Florile au culoare galbena si sunt strabatute de puncte brune.
 
@@ -185,7 +185,7 @@ Uz extern:
 
 \- eczeme, mancarimi ale pielii, conjunctivita, pecingine \- sub forma de comprese, cataplasma, bai locale.
 
-Icter
+# Icter
 
 112g de gentiana (Hydrastis Canadensis)
 
@@ -203,7 +203,7 @@ Pregatire: 2 litri de sirop.
 
 Dozare: 2 linguri, după mese.
 
-**Guturai ofensiv**
+# **Guturai ofensiv**
 
 28g gentiana pulbere(Hydrastis Canadensis)
 
@@ -247,7 +247,7 @@ Mod de preparare: se amestecă bine și se lasa sa stea pana e suficient de rece
 
 Administrare: Utilizeaza ca apă de clatire
 
-Gonoree cronica, leucoree
+# Gonoree cronica, leucoree
 
 2 parti gentiana (Hydrastis Canadensis)
 
@@ -257,7 +257,7 @@ Mod de preparare: Se infuzeaza în 1 litru de apa clocotita, se acopera bine pan
 
 Administrare: Aplica de 2 până la 3 ori pe zi cu o perie din păr de cămilă.
 
-INDIGESTIE
+# INDIGESTIE
 
 1 parte de gentiana, tinctura (Hydrastis Canadensis)
 
@@ -271,7 +271,7 @@ Dozare: 25-30 picături în 3 linguri de apa, de 3 ori pe zi, înainte de mese.
 
 Copii: Cayenne poate fi omis; 5-10 picături în apă îndulcită.
 
-RINICHI
+# RINICHI
 
 1 parte de gentiana (Hydrastis Canadensis)
 
@@ -299,7 +299,7 @@ Mod de preparare: ierburile se amestecă împreună și se infuzeaza folosind 1 
 
 Dozare: Infuzie: 2 linguri la 60ml de lichid sau mai mult, după caz, de 3 ori pe zi (se ia rece). Capsule: 1-2 capsule (după caz ) la fiecare 2 ore.
 
-***PERUVIAN BARK** (Cinchona calisaya; C. ledgerana; C. officinalis; C.*
+# ***PERUVIAN BARK** (Cinchona calisaya; C. ledgerana; C. officinalis; C.*
 *succirubra; RUBIACEAE)*
 
 Arborele de chinină crește în zonele din America de Sud. Din scoarța sa se extrage chinina, un alcaloid care, printre altele, are proprietăți anipiretice, analgezice și antiinflamatorii. În limba incașă, chinină înseamnă „scoarța sfântă”.
@@ -382,7 +382,7 @@ Mod de preparare: se lasa la macerat ierburile timp deo săptămână (se agita 
 
 Dozare: 56ml de lichid la fiecare 2- 3 ore până când febra dispare, apoi de 2 pana la 3 ori pe zi.
 
-**Plopul** *(Populus tremuloides; SALICACEAE)*
+# Plopul (Populus tremuloides; SALICACEAE)
 
 Plopul este original din Iran si Turcia, dar a fost aclimatizat cu succes si in Europa. Face parte din familia Salicaceae si in prezent este raspandit pe toate continentele. In Romania ocupa un areal foarte vast, de la campie, pe dealuri si coline joase, pana in zonele submontane, la altitudini de 1.800 metri. Este frecvent intalnit in paduri, poieni umede, zavoaie, depresiuni, luncile raurilor si Delta Dunarii. Il gasim si in parcuri sau in lungul soselelor si a liniilor de cai ferate ca element decorativ.
 
@@ -400,7 +400,7 @@ Uz extern:
 
  \- acnee, inflamatii, leziuni ale pielii, degeraturi, rani cangrenate, alopecie, arsuri, degeraturi, dermatomicoze, hemoroizi, infectii cutanate, reumatism, spondiloza, foliculite, leucoree, piodermite \- sub forma de bai cu infuzie de muguri, cataplasme, alifie, unguent, dar si spalaturi cu carbune si apa (mai ales in leucoree) sau aplicatii locale de pulbere de carbune.
 
-Isterie
+# Isterie
 
 14g scoarță de plop alb (Populus tremuloides)
 

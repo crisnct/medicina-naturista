@@ -1,6 +1,6 @@
-Curs 4 herbalism
+# Curs 4 herbalism
 
-PLANTE DE RACIRE
+## PLANTE DE RACIRE
 
  Acum înțelegem ce inseamna starile reci și a plantele de încălzire. Acum vom vedea care sunt starile fierbinti si plantele de răcire
 
@@ -14,11 +14,12 @@ Arsura caracterizează din nou aceste probleme.Pot fi, de asemenea, pietrele la 
 
 Așa cum am menționat în ultima lecție, vei vedea că unele probleme digestive sunt calde și altele sunt reci. Pierderea poftei de mâncare poate fi rece, pe care am folosit-o ca un exemplu de conditie rece, dar poate fi în egală măsură cauzata de activitatea celulelor din stomac care produc prea mult acid și provoacă arsuri. În acest caz, ar fi necesară o planta de răcire.În mod similar, infertilitatea la femei poate fi o condiție rece, dar ar putea fi, de asemenea, o problemă calda producand endometrioza. Aceasta este o afecțiune în care insulele mici de tesut endometrial , în mod normal găsite numai in captuseala uterului sau in uter, se regăsesc și în alte părți ale bazinului. Pentru aceasta, un maestru erborizator (nu e cazul începătorilor) s-ar gândi sa foloseasca plante de răcire.
 
-PLANTE DE RACIRE
+## PLANTE DE RACIRE
 
 Aceste plante sunt, în general, bune pentru încetinirea sau relaxarea proceselor in organism. Acestea sunt utilizate atunci când există inflamații, cu senzatii de căldură,ardere, etc Urmatoarele plante sunt considerate a fi de răcire: \-musetelul, papadia, gențiana, hameiul , calota,valeriana, galbenul de andocare.
 
-**MUSETELUL** (Anthemis nobilis) a fost cunoscut de vechii egipteni ca un leac pentru friguri. Ei l-au dedicat zeilor lor, Thoth si Imhotep.
+### MUSETELUL (Anthemis nobilis)
+A fost cunoscut de vechii egipteni ca un leac pentru friguri. Ei l-au dedicat zeilor lor, Thoth si Imhotep.
 
 Durata de viață: Aceasta este o planta anuala.
 
@@ -36,7 +37,8 @@ Infuzia poate fi, de asemenea, utilizata extern.
 
 Notă: Există de fapt două tipuri de musetel-adevărat sau roman care este o plantă perenă și mușețel salbatic. De fapt, e greu sa alegi între acțiunile lor, astfel ca se ia în considerare denumirea simpla de "Mușețel".
 
-**Păpădia** (Taraxicum officinale), de asemenea, numit Galeata de Lapte a Diavolului a fost folosita ca medicament timp de multe secole. Durata de viață: Aceasta este o planta perena.
+### Păpădia (Taraxicum officinale)
+De asemenea, numit Galeata de Lapte a Diavolului a fost folosita ca medicament timp de multe secole. Durata de viață: Aceasta este o planta perena.
 
 Aspect: Aceasta planta trebuie să fie cunoscută de aproape fiecare copil. Ea se inalta la aproximativ șase \- nouă centimetri, cu frunze lungi, ondulate, tulpina unică, flori galbene distinctive .Când sunt decupate, tulpinile transpira "lapte". Florile se transforma în cele din urmă in " ceasuri de poveste".
 
@@ -50,7 +52,7 @@ Este bine cunoscuta pentru efectul său benefic asupra ficatului și a sistemulu
 
  Metoda: Frunzele pot fi mestecate ca atare, deși îmbuibarea poate provoca greață. O infuzie din frunze, ca un ceai de plante este, de asemenea, o altamodalitate de a intrebuinta planta. O alternativă ar mai fi radacinile uscate, care pot fi un înlocuitor al cafelei.
 
-**Gențiana (Gentiana lutea)**
+### Gențiana (Gentiana lutea)
 
 Durata de viață: Aceasta este o planta perena.
 
@@ -60,7 +62,8 @@ Aspect: Aceasta planta lemnoasa creste aproximativ patru metri înălțime și e
 
 Metoda: Stocul se poate face prin infuzarea a 28 g de rădăcină rasă într-o halbă cu apa clocotita. Două linguri, de trei ori pe zi, sunt de obicei doza necesara atunci cand este nevoie.
 
-**HAMEIUL (Humulus lupulus)**, planta din care se face berea.
+### HAMEIUL (Humulus lupulus)
+Planta din care se face berea.
 
 Durata de viață: O planta perena.
 
@@ -72,7 +75,8 @@ Acțiuni: Aceasta planta de răcire este un calmant, sedativ, bitter. Ușurează
 
 Metoda: E folosita sub forma de ceai de plante, dar poate fi, de asemenea, mancata ca atare- șase- opt flori crude, luate cu miere, dimineața și seara. E un remediu traditional pentru insomnie. O cataplasmă făcută din tărâțe și hamei este excelenta pentru infecții și abcese.
 
-**AUTO-VINDECARE (Prunella vulgaris), Busuioc de camp**, numit, de asemenea, tot Heal, Sicklewort și Hookweed.
+### AUTO-VINDECARE (Prunella vulgaris), Busuioc de camp
+Numit, de asemenea, tot Heal, Sicklewort și Hookweed.
 
 Durata de viață: Aceasta este o planta perena.
 
@@ -82,7 +86,8 @@ Aspect: Aceasta planta poate creste pana la doi metri în înălțime, deși, de
 
  Metoda: O infuzie din florile sale, cate o lingura de trei ori pe zile pare să funcționeze bine pentru cele mai multe probleme.
 
-**Gura-lupului (Scutellaria galericulata)** este o planta celebra, care a fost folosita de secole.
+### Gura-lupului (Scutellaria galericulata)
+Este o planta celebra, care a fost folosita de secole.
 
  Durata de viață: Aceasta este o planta perena.
 
@@ -94,7 +99,8 @@ Acțiuni: Aceasta planta de răcire este un relaxant remarcabil de eficient și 
 
  Notă: Ar trebui să fie utilizata cu mare prudență, de preferință sub supravegherea unui fitoterapeut, deoarece există riscul de a cauza insuficiență hepatică.
 
-**Valeriana (Valeriana officinalis)**, numita, de asemenea, Heal Sf. Gheorghe.
+### Valeriana (Valeriana officinalis)
+Numita, de asemenea, Heal Sf. Gheorghe.
 
  Durata de viață: Aceasta este o planta perena. Aspect: Ea creste pana la aproximativ patru metri în înălțime și are tulpina erecta. Are frunze pinale, dintate.Finalul tulpinilor dezvolta frumoase buchețelele tubulare de culoarea roz pal.
 
@@ -106,7 +112,7 @@ Metoda: O singura radacina infuzata într-o oala cu apa (nu fierbinte). Două li
 
 Notă: Din păcate, deoarece poate avea un efect dubios asupra ficatului, acesta ar trebui să fie luata numai sub supravegherea unui fitoterapeut.
 
-**Macrisul galben** (Rumex crispus), sau Cicoarea.
+### Macrisul galben (Rumex crispus), sau Cicoarea
 
  Durata de viață: Aceasta este o planta perena.
 
@@ -118,7 +124,7 @@ Acțiuni: Aceasta planta de răcire este un bitter ușor, util pentru **inflamat
 
 Metoda: Se administrează ca infuzie de rădăcină rasă (o lingurita la o cana de apă clocotită), într-o doză de o lingura, de două ori pe zi.
 
-**ALERGIILE** ȘI PLANTELE DE RACIRE
+## ALERGIILE ȘI PLANTELE DE RACIRE
 
  Tulburările alergice sau hipersensisibilitatile la factorii de mediu devin din ce in ce mai comune. Termenul „alergie” ar trebui să fie într-adevăr limitat pentru situațiile în care se poate spune categoric că un complex de simptome și reacții sunt asociate cu expunerea la un alergen și că nu există un raspuns imun implicat demonstrabil, care ar putea fi demonstrat. Hipersensibilitatea e mult mai comuna. Ea nu are un test de laborator demonstrabil (cel putin nu cele care sunt acceptate de medicina clasica)dar, din motive clinice, există o sensibilitate marcată la unii agenti. Cu toate acestea, mulți oameni suferă în prezent din cauza problemelor maride hipersensibilitate sau intoleranță la alimente. O reacție alergică sau de hipersensibilitate poate fi văzuta ca fiind o supra-reacție a unei parti a corpului la anumiti factori. **Ca atare, acesta se încadrează în concepția noastră ca o stare fierbinte \- de foarte multe ori acolo arde, se umfla,** asupra
 
@@ -126,7 +132,7 @@ activității unei părți din organism (dacă aceasta este pielea, intestinul, 
 
 **Cele mai frecvente sensibilitati alimentare sunt la lapte și produse lactate. Pe locul doi, la produsele cu gluten , de exemplu grâu, secară, ovăz și orz. Pe al treilea loc sunt aditivii alimentari, de exemplu, coloranti**. O dieta de excludere este cel mai bun mijloc de a detecta astfel de sensibilități. Produsele alimentare suspectate sunt eliminate în totalitate din dieta. Un minim de o săptămâna și maxim o luna este necesar pentru a observa o îmbunătățire clinică. În acel moment, un test de provocare ușoară va duce la o reacția marcată ca individul intra intr-o faza de hipersensibilitate. După ce s-au găsit alimentele vinovate , atunci este important să se elimine din dieta pentru încă șase luni cel puțin. **O planta de răcire luata în mod regulat în acest timp este probabil să fie benefică, deoarece acestea au un efect de vindecare asupra membranelor mucoase ale canalului gastro-intestinal.**
 
-Bitter si relaxant
+## Bitter si relaxant
 
 După cum vei citi în această lecție, plantele de răcire sunt adesea bitter și relaxante sau ambele.Vom extinde acest subiect. Plantele bitter , cu numele derivate de la gustul amar, posedă o urmare a prezenței de alcaloizi si uleiuri volatile diverse. Te rog sa intelegi că amărăciunea reală este importantă. Deși atunci când bem ceaiuri de plante putem dilua planta, este necesar să se păstreze un anumit gust amar. Acest lucru se datorează faptului că **amarul stimulează papilele gustative, care la rândul său, provoacă organismul să elibereze gastrină** și alti agenti hormonali care afectează partea superioară a tractului gastro-intestinal. Printre efectele pe care bitter-ul le are asupra tractului gastro-intestinal sunt următoarele:
 
@@ -144,7 +150,8 @@ Vom lua în considerare acestea, din nou, în lecția următoare.
 
 Plantele relaxante au un efect calmant, relaxant și antispastic. Unii puristi vor de fapt sa se diferentieze plantele relaxante, cele care au o funcție tranchilizanta sau sedativa și cele care au mai mult un efect antispastic. Cu alte cuvinte, cele care sunt relaxante mental si cele care sunt relaxante fizic. Această diferențiere nu este necesara in cazul plantelor din această lecție, deoarece acestea au tendința de a avea ambele funcții. Studentul trebuie să fie conștient de faptul că există mai multe plante care au un efect extrem de relaxant. Atât de mare, încât acestea sunt, de fapt, menționate ca plante sedativ. Acestea sunt extrem de periculoase și ar trebui să fie utilizate numai de către un vânzător de plante medicinale cu mulți ani de experiență. Exemple de plante sedative : \- Opium, maselarita, umbra noptii mortal,a cires salbatic, iasomie galbena
 
-**Coriandrul** \- un condiment minunat .Vreau acum să luam în considerare un condiment pe care il folosesti sau nu din plin. Dacă nu il folosesti, atunci aș recomanda să-l încerci ca pe o băutură răcoritoare. Acesta este utilizata ca o băutură de beduini, luata atât in starile calde, cat și reci. Când este încălzit, te invioreaza și atunci când esti rece, te incalzeste. În mod ideal, ar trebui să utilizezi un vas special pentru fabricarea acesteia. Un vechi ibric de cafea pe care il poti pune pe foc este perfect dar poti folosi si tigaie de oțel bun ( nu sunt în favoarea folosirii ustensilelor de aluminiu, din cauza riscului potențial de toxicitate dat de aluminiu, care poate deteriora sistemul nervos).
+### Coriandrul
+Un condiment minunat .Vreau acum să luam în considerare un condiment pe care il folosesti sau nu din plin. Dacă nu il folosesti, atunci aș recomanda să-l încerci ca pe o băutură răcoritoare. Acesta este utilizata ca o băutură de beduini, luata atât in starile calde, cat și reci. Când este încălzit, te invioreaza și atunci când esti rece, te incalzeste. În mod ideal, ar trebui să utilizezi un vas special pentru fabricarea acesteia. Un vechi ibric de cafea pe care il poti pune pe foc este perfect dar poti folosi si tigaie de oțel bun ( nu sunt în favoarea folosirii ustensilelor de aluminiu, din cauza riscului potențial de toxicitate dat de aluminiu, care poate deteriora sistemul nervos).
 
 Se dizolvă două lingurițe de miere de calitate într-o jumătate de litru de apă caldă \- Nu trebuie sa fiarba .
 

@@ -1,6 +1,6 @@
-CURS 2
+# CURS 2
 
-Introducere in medicina herbala
+## Introducere in medicina herbala
 
 In lectia anterioara am vazut doua remedii foarte vechi. Ele ar trebui sa se regaseasca in fiecare casa, dupa parerea mea, deoarece sunt simbolul a ceea ce inseamna vindecarea naturala.
 
@@ -8,7 +8,7 @@ Medicina herbala este despre vindecare. In ultima lectie am folosit termenul de 
 
 Desi nu vreau sa crezi ca medicina herbala vine in contradictie cu medicina traditionala, vreau sa apreciezi acolo unde sunt diferente. In principal este vorba de modelul de sanatate.
 
-**Medicina traditionala**
+## Medicina traditionala
 
 Unitatea fundamentala a organismului este celula. Multe celule care sunt in continuitate sau contiguitate preiau functii specializate. Acestea sunt numite tesuturi.Avem tesuturile epiteliale, tesuturile conective si tesuturile nervoase.
 
@@ -28,7 +28,7 @@ Modelul medical folosit se numeste modelul biomedical. Am putea sa ne imaginam m
 
 In general, chirurgia priveste corpul ca pe instalatie soficticata, cu care se lucreaza in mod adecvat. Medicina traditionala lucreaza in principal cu simptome.Astfel, daca esti deprimat primesti un anti-depresiv; daca ai o infectie primesti un antibiotic; daca te doare ceva primesti un analgezic. Toate aceste medicamente sunt produse in masa, artificial si sunt prescrise in doze standard.
 
-Punctul de vedere al herbalismului
+## Punctul de vedere al herbalismului
 
 Inainte de a aborda aceasta problema, te rog sa intelegi ca nu imi propun sa sugerez ca abordarea traditionala este gresita. In mod evident nu este. Corpul este compus din tesuturi care formeaza organe si sisteme. Si schimbarile patologie produc intr-adevar semne si simptome. Ceea ce vreau sa sugerez este ca organismul uman nu este doar un mecanism care are nevoie de hrana si apa pentru a supravietui. Exista si o forta mult mai subtila care actioneaza.
 
@@ -52,7 +52,7 @@ Deci acesta este un raspuns la critica medicinei traditionale asupra standardiza
 
 In continuare vom analiza problema echilibrului.
 
-Un model simplu de echilibru
+## Un model simplu de echilibru
 
 **Modelul „cald si rece”** este probabil el mai vechi model de echilibru al sanatatii din lume. El se bazeaza pe ideea sanatatii ca o stare de echilibru intre cele doua principii opuse de rece si cald.
 
@@ -72,7 +72,7 @@ Asa simplu cum pare acest model (si vei vedea in partea urmatoare a lectiei ca e
 
 **Conditiile reci**, in opozitie, sunt caracterizate de senzatia de frig, intepenire, congestie si incetinirea proceselor, si se remediaza cel mai bine cu ierburi calde sau care incalzesc.. Ne vom intoarce la acest subiect in lectiile urmatoare pe masura ce aprofundam aceste ierburi.
 
-O scurta istorie a medicinei herbale
+## O scurta istorie a medicinei herbale
 
 Medicina herbala are un pedigree incredibil de lung, care se intinde pana in zilele invaluite in ceata ale preistoriei. Descoperiri arheologie au demonstrat ca membrii comunitatilor preparau remedii herbale in neolitic, acum 60.000 ani.
 
@@ -98,21 +98,24 @@ Aceasta este o istorie amestecata a medicinei herbale. Vei vedea ca metoda pe ca
 
 Acesta este un aspect important. Combinatii complexe de ierburi pot produce reactii complexe ce nu pot fi prevazute. Opteaza pentru cat mai putine ierburi odata. Un alt aspect deosebit este intelegerea limitarilor noastre ca herbalisti. Medicina moderna Hi-Tec isi are locul ei. Chiar daca avem semnale de pericol, ca de exemplu o pierdere in greutate severa, pacientul trebuie trimis la doctorul sau pentru teste inainte de a incepe orice tratament herbal.
 
-Urmatoarele trei ierburi
+## Urmatoarele trei ierburi
 
 In prima lectie am vazut **musetelul si tataneasca**. Musetelul, dupa cum cred ca ti-ai dat seama, este o planta de racire. Vom vedea acum inca trei ierburi comune, una rece si doua calde.
 
 Din nou, nu am de gand sa intru in detaliu in legatura cu ele. Vreau sa intelegi proprietatile lor de incalzire/racire.
 
-**Papadia** (taraxicum officinale), numita si Devil’s Milk-Pail (Galeata cu lapte a diavolului).Florile sale galbene sunt speciale precum sunt iubite papadiile albe de catre copii.
+### Papadia (taraxicum officinale)
+Numita si Devil’s Milk-Pail (Galeata cu lapte a diavolului).Florile sale galbene sunt speciale precum sunt iubite papadiile albe de catre copii.
 
 Este o planta amara rece bine-cunoscuta care este folosita pentru probleme digestive de secole. Va calma aciditatea in exces a stomacului, greata si indigestia. Frunzele pot fi mestecate crude, desi abuzul poate cauza unul din lucrurile pe care le usureaza- greata. O infuzie de frunze, bauta ca un ceai herbal este un mod convenabil de a folosi planta. Ca alternativa, radacinile uscate, macinate si transformate in pudra pot fi folosite cu succes ca un inlocuitor de cafea.
 
-**Piperul cayenne** (Capsicum annum) a fost adus in Marea Britanie din India in 1548.este o tufa perena care creste intre 60 cm si 1 metru si 20 cm.
+### Piperul cayenne (Capsicum annum)
+A fost adus in Marea Britanie din India in 1548.este o tufa perena care creste intre 60 cm si 1 metru si 20 cm.
 
 Este o planta calda binecunoscuta, folosit ca tonic pentru inima, pentru dureri de picioare, circulatie lenta, pentru a mari fertilitatea si pentru artrita. Aproximativ un sfert de lingurita se ia cu un pahar de apa de 2 ori pe zi atata timp cat considerati necesar. Odata ce vedeti imbunatatiri, tratamentul trebuie oprit.
 
-**Scortisoara** (Cinnamonum zeylanicum) este o planta lemnoasa folosita in mod regular, cunoscuta tuturor pentru mirosul sau deosebit.
+### Scortisoara (Cinnamonum zeylanicum)
+Este o planta lemnoasa folosita in mod regular, cunoscuta tuturor pentru mirosul sau deosebit.
 
 Este o planta calda folosita pentru a stimula sistemul digestiv atunci cand se crede ca e lent. Stimuleaza miscarea intestinelor si se foloseste pentru circulatia lenta a membrelor inferioare, pentru guturai si pentru a usura greata. Se ia ca piperul cayenne cat timp este necesar.
 

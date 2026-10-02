@@ -10,7 +10,7 @@ Ele **stimuleaza glandele sudoripare indirect, prin stimularea celulelor din sis
 
 Trebuie să te gândesti la diaforeza, în orice caz care implica circulația generală, cum ar fi inflamatia plamanilor, pleurezia, peritonita, inflamarea stomacala, a splinei, intestinelor, rinichilor, vezicii urinare, uterulului sau creierului. Diaforeza este practic esențiala atunci când ai nevoie sa egalizeyi circulatia. Menține o frecventa exterioara a fluxului de sânge și pacientul va fi pe drumul catre recuperare. Desigur, diaforeticele trebuie să se acorde calde. Dacă sunt date reci, vor influența rinichii. Intestinele trebuie sa fie cât mai curate posibil. Dacă intestinele nu sunt curate, foloseste o injecție de apă caldă pentru a le curăța. Diaforeticele vor acționa apoi mai repede. Nu ar trebui să se acorde băuturi reci între doze. Nu exagera cu diaforeza până la punctul de a epuiza pacientul, provocând oprimarea respirației și puls tremurător. Apa caldă singura este un diaforetic- Combinata cu diaforeticele pe bază de plante, aceasta este unul dintre cele mai valoroase instrumente de vindecare. Cand trateyi o boala, gandeste-te in primul rând la o baie fierbinte pe bază de plante și diaforetice interne. Laxativele nu ar trebui să fie date înainte sau în timpul administrării de diaforetice. Diaforeticele inductranspirația crescuta cu influențarea transpiratiei glandelor sudoripare. Aceste plante relaxeaza glandele sudoripare și cresc transpirația. Influența lor este în principal asupra suprafaței, deschiderii porilor și astfel se scurg otrăvurile din organism și se păstreaza sângele pur. Sistemul nervos este, de asemenea, influențat și ,în cele din urmă, întreaga circulație este afectată ca rezultatul fluxului sanguin crescut. Însoțeste diaforeticele interne cu bai stimulative si frecare cu un prosop aspru sau masaj. Diaforeticele sunt una dintre cele mai importante grupe de plante medicinale deoarece curata condițiile mucoase din întregul corp. Sudorificele stimuleaza glandele sudoripare, producând transpirație abundentă și vizibila, care sta ca margelele pe suprafata pielii atunci când sunt luate calde și acționează benefic ca tonice, atunci când luate reci.
 
-**Coada soricelului(**Achillea millefolium; A. lanulosa; COMPOSITAE)
+# Coada soricelului(Achillea millefolium; A. lanulosa; COMPOSITAE)
 
 Denumire: Achillea millefolium. Numele vine de la grecescul Achilleia, nume dat în cinstea eroului Achilles, care , învățând arta tămăduirii bolilor de la centaurul Chiron, a folosit această plantă pentru tămăduirea rănilor lui Telephos și a altor războinici. Cuvântul millefolium este format din cuvintele latine mille=o mie și folium=frunze referindu-se la frunzele sale subdivizate în mai multe lacinii.
 
@@ -116,7 +116,7 @@ Dozaj: 1 lingura la 56 ml de lichid, de 3 până la 4 ori pe zi.
 
 Plante surori: Sneezewort (Achillea Ptarmica)- frunze- guturai, epilepsie, probleme uterine.
 
-**Mușețel** sau musetel roman (Chamaemelum nobile; Anthemis nobilis; Compositae)
+# Mușețel sau musetel roman (Chamaemelum nobile; Anthemis nobilis; Compositae)
 
 Cuvântul matricaria provine de la latinescul mater \= mamă, făcând aluzie la utilizarea plantei în bolile femeilor. După alții se apreciază că derivă de la latinescul matrix- matricis \= uter, aluzie la folosirea plantei în tulburările menstruale. Cuvântul chamomilla derivă din grecescul kamaimelon, numele plantei. Alții apreciază că ar rezulta din cuvintele grecești kamai \= mic, și milon \= măr, aluzie la mirosul fin al florilor de mușețel asemănătoarea cu al unor specii de măr.
 
@@ -172,7 +172,7 @@ Recolta: Pentru scopuri medicinale se folosesc capitulele florale cu pedunculul 
 
 Jumatatea superioara este de culoare galben-verzuie, datorita florilor tubulare neajunse la maturitate. in acest stadiu florile au cel mai ridicat procent de ulei eteric. Produsul obtinut are miros specific, aromat puternic, iar gustul este amarui aromatic.
 
-**CIMBRU** (Thymus vulgaris, Labiatae)
+# CIMBRU (Thymus vulgaris, Labiatae)
 
 Cimbrul s-a nascut, spune legenda, din lacrimile pricinuite Elenei din Troia de dezastrele aduse de frumusetea ei trufasa. In tarile anglo-saxone, se pretinde ca zinele adora aceasta planta aromatica. In orice caz ea este apreciata din cele mai vechi timpuri. Grecii si romanii o ardeau in cursul ceremoniilor rituale. Cimbrul (Thymus vulgaris ) si cimbrisorul (Thymus serpyllum) sunt varianta cultivata, respectiv cea salbatica, a uneia si aceleiasi specii vegetale, avind in linii mari aceleasi proprietati.
 
@@ -256,7 +256,7 @@ Uscare si conservare: Fii atent, deoarece o mare parte din valoarea medicamentel
 
 Plante surori: cimbrul salbatic
 
-Isop (Hyssopus officinalis; Labiatae)
+# Isop (Hyssopus officinalis; Labiatae)
 
 Isopul este o plantă perenă, care în condiții de cultură crește și produce 10–15 ani. Tulpina este ramificată, lignificată la bază și erbacee în partea superioară, patru-unghiulară și acoperită cu perișori cu înălțimea de până la 80 cm.
 
@@ -310,7 +310,8 @@ Dozare: 1 lingurita (calda) la fiecare oră. Administrare: Se bea cald (preferab
 
 Dozare: 2 lingurite pentru copiii sub 6 ani (doza poate fi crescuta pentru copiii mai mari), asigura-te că menții picioarele calde și uscate.
 
-**Salvia**(Salvia officinalis; Labiatae) Salvia, originara din bazinul mediteraneean este un arbust lemnos aromatic. Frunzele sale mici sunt groase si pufoase. Negustorii germani de vin obisnuiau sa adauge extract de salvie la vinurile de Rin pentru a le imbogati aroma, iar uleiul esential este folosit in industra vinurilor.
+# Salvia (Salvia officinalis; Labiatae)
+Salvia, originara din bazinul mediteraneean este un arbust lemnos aromatic. Frunzele sale mici sunt groase si pufoase. Negustorii germani de vin obisnuiau sa adauge extract de salvie la vinurile de Rin pentru a le imbogati aroma, iar uleiul esential este folosit in industra vinurilor.
 
 Salvia se numără printre plantele medicinale cu cel mai îndelungat istoric, folosită pentru proprietățile terapeutice încă de pe vremea romanilor. Se crede că denumirea ei provine din latinescul „salvere", care înseamnă „a salva". Planta cu frunze amărui se poate administra intern (infuzie, pulbere, tinctură), extern (comprese, cataplasme) sau prin inhalarea uleiului volatil obținut din frunze.
 
@@ -354,7 +355,7 @@ Tonic stomacal
 
 Combinații bune: Salvia de gradina se combină bine cu fructe de padure sumac (Rhus glabra).
 
-**Menta** (Mentha spicata, M. viridis; Labiatae)
+# Menta (Mentha spicata, M. viridis; Labiatae)
 
 Menta comuna sau verde (Mentha spicata sive viridis) este o planta perena indigena. Denumirea plantei in diferite limbi europene este uniforma: ”Minze” in germana, ”mynte” in daneza si norvegiana, ”munt” in olandeza, ”menda” in basca, ”munt” in estoniana, ”minttu” in finlandeza, ”mata” in ceha, ”myata” in rusa, ”menta” in romana, ”meta” in lituaniana, ”metra” in letona, ”menthe” in franceza si ”menta” in italiana. Toate aceste denumiri provin din latinescul ”mentha”, care este imprumutat din grecescul ”minthe”. In limbile semite, denumirile sunt de asemenea omogene: ”na’na” in araba, ”nana” in ebraica, ”naghniegh” in malteza, ”nana” in amharica. Aceeasi denumire este reluata si in mai multe limbi din afara familiei afro-asiatice: ”nane” in turca, ”nenexhiku” in albaneza, ”nauna” in pashtu si ”nana” in farsi. Originara din zona mediteraneeana, menta creste astazi peste tot. Exista mai multe varietati de menta care se inmultesc prin diviziune, sau transplant. ”Spearmint” (menta in forma de lance) este o planta perena ce atinge cca. 1 m inaltime, cu frunze de culoare verde-gri si flori mici albastre sau lila. Pentru a usca menta, se agata legaturile intr-un loc cald si aerisit.
 

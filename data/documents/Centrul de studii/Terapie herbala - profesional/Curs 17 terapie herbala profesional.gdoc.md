@@ -2,7 +2,7 @@ Cursul 17
 
 Ierburile tonice (continuare)
 
-**Țintaură** (Erythraea centaurium; GENTIANACEAE)
+# Țintaură (Erythraea centaurium; GENTIANACEAE)
 
 Denumire:
 
@@ -28,7 +28,7 @@ Planta conține principii amare cu structură secoiridoidică, eritrocentaurina,
 
 alcool cerilic, acizi grași, substanțe minerale. Infuzia de țintaură mărește activitatea vezicii biliare. Se bea câte o jumătate de cană înaintea meselor principale.
 
-ANEMIE
+# ANEMIE
 
 3/4 lingurita European Centaury (erythraea Centaurium)
 
@@ -70,7 +70,7 @@ Mod de preparare: se infuzeaza ingredientele în 1 litru de apă.
 
 Doza: O lingurita de apa cu 1/2 oră înainte de mese.
 
-**Schinel** (Cnicus benedictus; Carduus sanctus; C. benedictus; Carbenia benedicta; Centauria benedicta; COMPOSITAE)
+# Schinel (Cnicus benedictus; Carduus sanctus; C. benedictus; Carbenia benedicta; Centauria benedicta; COMPOSITAE)
 
 Denumire:
 
@@ -150,7 +150,7 @@ Mod de preparare: se lasa la macerat timp de 2 săptămâni în 1 litru de rachi
 
 Dozare: 2 linguri după mese.
 
-**Smirnă** (Commiphora myrrha, var. molmol; C. molmol; Balsamodendron myrrha; BURSERACEAE)
+# Smirnă (Commiphora myrrha, var. molmol; C. molmol; Balsamodendron myrrha; BURSERACEAE)
 
 Denumire: Smirna este un tip de rășină obținută din arbuști și arbori ai speciei Commiphora myrrha, din familia Burseraceae, cu ramuri ceruite și cu spini mari, care cresc în zonele deșertice ale Peninsulei Arabice și pe coasta de est a Africii. În Biblie, smirna este menționată frecvent. Evanghelia după Matei menționează ca smirna și tămâia au fost unele dintre darurile aduse de Magi la nașterea lui Isus din Nazaret. În afara de aceasta, smirna este menționată și în Cântarea Cântărilor.
 
@@ -270,7 +270,7 @@ Preparare: Se combină toate plantele și se face o infuzie cu 1 lingurita de in
 
 Dozare: 2 linguri după mese.
 
-**Ghințura galbenă** (Gentiana lutea; GENTIANACEAE)
+# Ghințura galbenă (Gentiana lutea; GENTIANACEAE)
 
 Denumire: Ghințura galbenă (Gentiana lutea) este o plantă cu flori din familia Gentianaceae.
 
