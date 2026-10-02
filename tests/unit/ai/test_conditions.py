@@ -129,6 +129,16 @@ class FileLoadingTests(unittest.TestCase):
         self.assertGreater(len(parsed), 10)
         self.assertTrue(all(len(item.terms) >= 2 for item in parsed))
 
+    def test_shipped_dictionary_is_pure_ascii(self):
+        text = conditions.settings.conditions_file.read_text(encoding="utf-8")
+
+        # Canonical names are written verbatim into chunks.primary/secondary_medical_conditions,
+        # and an extraction artefact such as a soft hyphen splits a term into two
+        # words ("pio\xadtorax" -> "pio torax") that the scanned text never
+        # contains, so the term silently stops matching.
+        offenders = [line for line in text.splitlines() if not line.isascii()]
+        self.assertEqual(offenders, [])
+
     def test_shipped_dictionary_has_no_duplicate_conditions(self):
         text = conditions.settings.conditions_file.read_text(encoding="utf-8")
 
