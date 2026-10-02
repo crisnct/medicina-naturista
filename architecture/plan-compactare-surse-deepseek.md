@@ -2,19 +2,21 @@
 
 **Obiectiv:** sursele din `data/documents/` (recursiv) să aibă semnificativ mai puține caractere, fără să se piardă informație medicală, ca fragmentele trimise la AI să coste mai puțini tokeni.
 
-**Rezultat măsurat pe corpusul real** (prototip rulat pe toate cele 387 de fișiere, tokenizer `intfloat/multilingual-e5-small` ca proxy local):
+**Rezultat măsurat pe corpusul real** (regulile finale rulate pe toate cele 387 de fișiere, tokenizer `intfloat/multilingual-e5-small` ca proxy local):
 
 | Metrică | Înainte | După | Diferență |
 |---|---|---|---|
-| Caractere | 17.657.659 | 17.431.608 | **−1,28%** |
-| Bytes UTF-8 | 18.420.650 | 17.479.195 | **−5,11%** |
-| Tokeni (proxy) | 4.856.078 | 4.617.234 | **−238.844 (−4,92%)** |
-| Fișiere modificate | — | 283 din 387 | — |
+| Caractere | 17.657.661 | 17.598.699 | **−0,33%** |
+| Bytes UTF-8 | 18.420.652 | 17.646.304 | **−4,20%** |
+| Tokeni (proxy) | 4.856.461 | 4.660.035 | **−196.426 (−4,04%)** |
 | Cifre pierdute | — | **0** | invariantă verificată |
 | Titluri pierdute | — | **0** | structura de fragmentare intactă |
-| Fișiere ne-idempotente | — | **0** | a doua rulare nu mai schimbă nimic |
 
-Diferența dintre −1,28% caractere și −5,11% bytes este efectul folding-ului de diacritice: `ă/â/î/ș/ț` sunt 2 bytes în UTF-8, iar `a/i/s/t` este 1 byte. Tokenii scad mai mult decât caracterele pentru că textul ASCII se tokenizează mai eficient.
+Diferența dintre −0,33% caractere și −4,20% bytes este efectul folding-ului de diacritice: `ă/â/î/ș/ț` sunt 2 bytes în UTF-8, iar `a/i/s/t` este 1 byte. Tokenii scad mai mult decât caracterele pentru că textul ASCII se tokenizează mai eficient. Defalcare pe reguli: `furniture:toc` 30.650 caractere, `running_header` 18.083, `page_number_line` 6.506, `colofon` 2.806, `inline_cleanup` 1.421, `phone_number` 488, `phone_label` 95, `email` 23.
+
+> **Corecție după un incident real.** Prima versiune a regulii de headere elimina *orice* linie repetată de ≥5 ori. Pe corpusul acesta asta a șters conținut: în `Herbal Antibiotics` au dispărut 20 din 23 de apariții ale subtitlului „Side Effects and Contraindications" (capul secțiunii de siguranță al fiecărei plante), în Balch au dispărut 132 de apariții ale unui antet de tabel („SUPLIMENT DOZĂ RECOMANDATĂ OBSERVAȚII") și 74 de propoziții de conținut repetate. Regula a fost restrânsă: se elimină **doar linia care repetă titlul documentului**, niciodată un titlu Markdown, niciodată o linie cu dozaj. Efectul corectat este 18.083 caractere în **4 fișiere** (ex. „Heal Yourself - The Natural Way", de 461 de ori), iar numărul de tokeni economisiți a scăzut de la −4,92% (care includea ștergeri dăunătoare) la **−4,04%**. Trei teste de regresie păzesc cazurile: subtitlu de șablon, antet de tabel, titlu Markdown repetat.
+
+**Stare: implementat.** Regulile sunt în `scripts/clean_documents.py` (44 de teste trec în `tests/unit/ai/test_clean_documents.py`). **Sursele nu sunt modificate de mine**: scriptul se rulează manual, de tine — în proiect nimic nu îl apelează automat (nici `rebuild_index.ps1`, nici aplicația), deci `data/documents/` se schimbă doar când execuți `.\scripts\clean_documents.ps1`.
 
 ---
 
@@ -31,7 +33,7 @@ Diferența dintre −1,28% caractere și −5,11% bytes este efectul folding-ulu
 | Tabele / liste | 3,9% din caractere | nu merită reformatare |
 | Eliminarea liniilor de tip „Sursa:” | 564 caractere | neglijabil |
 
-**Ce ajută** (și e în plan): headerele repetate (185.451 caractere), Cuprinsul (30.650), liniile cu număr de pagină (6.506), colofonul (2.806) și folding-ul diacriticelor (−176.312 tokeni singur).
+**Ce ajută** (și e în plan): Cuprinsul (30.650 caractere), antetul de pagină care repetă titlul cărții (18.083), liniile cu număr de pagină (6.506), colofonul (2.806), datele de contact (606) și folding-ul diacriticelor (−176.312 tokeni singur).
 
 ---
 
@@ -77,15 +79,18 @@ _read()                          # decodare + normalizare LF (neschimbat)
 
 ## 4. Regulile noi, cu condițiile exacte
 
-### 4.1. Headere/running titles repetate — **cel mai mare câștig: 185.451 caractere**
+### 4.1. Antetul de pagină care repetă titlul cărții — **18.083 caractere, doar 4 fișiere**
 
-Titlul cărții sau al capitolului, repetat pe fiecare pagină de conversia PDF, este cea mai mare sursă de redundanță (126.827 caractere doar în cartea Balch).
+Conversia PDF tipărește titlul cărții în capul fiecărei pagini. Se elimină toate aparițiile **cu excepția primei**, dar numai dacă toate condițiile sunt adevărate:
 
-Se elimină toate aparițiile unei linii **cu excepția primei**, dacă:
-- linia are ≥ 20 de caractere după `strip()`;
-- apare de **≥ 5 ori** în același fișier (prag care nu poate fi atins întâmplător de conținut);
-- **nu conține o doză strictă** (`\b\d+([.,]\d+)?\s*(mg|mcg|µg|ml|kg|picături|lingură/lingurițe|capsule|comprimate)\b`) — o linie cu dozaj nu este niciodată mobilier;
-- nu conține cuvinte de avertizare (`atenție`, `contraindic`, `avertisment`, `toxicit`).
+- linia apare de **≥ 5 ori** în fișier;
+- linia **repetă titlul documentului** — comparată normalizat (fără extensie, punctuație, diacritice, majuscule) cu numele fișierului și cu titlurile `#` din text; se acceptă și varianta „Titlu - Autor" sau titlul urmat de un număr de pagină;
+- linia **nu este un titlu Markdown** (`#`, `##`, …) — titlurile sunt structura documentului, pe care se sprijină fragmentarea;
+- linia **nu conține o doză** (`\b\d+([.,]\d+)?\s*(mg|mcg|µg|ml|kg|picături|lingurițe|capsule|comprimate)\b`).
+
+**De ce nu e suficientă repetiția** (lecție plătită): corpusul repetă masiv și conținut. `Herbal Antibiotics` are subtitlul „Side Effects and Contraindications" la fiecare plantă (23 de apariții), Balch are un antet de tabel de 132 de ori și propoziții de dozaj repetate în fiecare fișă de supliment. O regulă bazată doar pe „linia apare de ≥5 ori" a șters exact acele linii — de aceea condiția de titlu e obligatorie, iar cele patru condiții de mai sus sunt acoperite de teste de regresie.
+
+Efectul măsurat: 4 fișiere, cel mai mare „Heal Yourself - The Natural Way" (461 de apariții, 14.752 caractere).
 
 ### 4.2. Secțiuni de mobilier: Cuprins, Index/Glosar, Bibliografie — **30.650 caractere (doar Cuprins, în acest corpus)**
 
@@ -105,9 +110,13 @@ Se elimină liniile de credit editorial, doar dacă au < 200 caractere și se af
 
 Restricția de poziție e intenționată: fără ea, orice linie de conținut care pomenește „editura” ar fi dispărut. Varianta agresivă ar fi tăiat 42.884 caractere, dar cu risc de a pierde text medical — am ales varianta sigură, cu câștig mic.
 
-### 4.4. Linii care conțin doar numărul paginii — **6.506 caractere**
+### 4.4. Linii care conțin doar numărul paginii — **7.296 caractere, 42 de fișiere**
 
-Se elimină liniile care, după `strip()`, conțin exclusiv: un număr (eventual cu liniuțe), `pagina N`/`pag. N`, sau un numeral roman. Testul existent `test_keeps_headings_that_merely_mention_pagina` rămâne valid: `### Pagina de start` nu e o linie de număr.
+Se elimină liniile care, după `strip()`, conțin exclusiv: un număr (eventual cu liniuțe), `pagina N`/`pag. N`, `page N` (`Page 104`, `Page 104 of 350`, `Page: 12`, `page viii.`) sau un numeral roman valid.
+
+Formele englezești lipseau: `strip_page_markers()` știa doar `### Page 104` și `<!-- Page 104 -->`, iar regula de linii-număr-de-pagină doar `pagina 104`. În corpus rămăseseră astfel **105 linii „Page N"** (toate în `Herbal Antibiotics`) plus `Page i` … `Page viii`; acum sunt eliminate.
+
+Numeralul roman e validat (`x{0,3}(?:ix|iv|v?i{0,3})`, adică până la XXXIX) în loc de clasa `[ivxlcdm]{1,7}`: altfel o linie care e doar cuvântul „civil" sau „Mix" ar fi fost ștearsă ca numeral. Testul existent `test_keeps_headings_that_merely_mention_pagina` rămâne valid (`### Pagina de start` nu e o linie de număr), iar liniile care doar *încep* cu o referință de pagină rămân neatinse — în corpus: `p.m. At 8 p.m. a full glass…`, `P.M.H. Atwater, LH.D.`, `p. cm. (A medicinal herb guide)` și 13 trimiteri rupte de tipul `p. 358.)`, care sunt conținut, nu mobilier.
 
 ### 4.5. Folding diacritice → ASCII — **−176.312 tokeni (−3,63%) singur**
 
@@ -120,7 +129,21 @@ Argumente de siguranță:
 
 Se adaugă steagul `--keep-diacritics` ca supapă de revenire rapidă.
 
-### 4.6. Regulile existente rămân neatinse
+### 4.6. Date de contact: e-mailuri și numere de telefon
+
+Adresele de e-mail erau deja eliminate de `clean_text()`; regula acceptă acum și forma escapată de extractor (`dspivak\@post-trib.com`), iar eliminările apar în sumar sub regula `email`.
+
+Numerele de telefon sunt noi. Un șir de cifre cu separatoare de telefon este eliminat numai dacă trece testele de formă:
+
+- pe o linie care anunță date de contact (`\b(?:tel|telefon|fax|mobil|mobile|gsm|whatsapp|viber|contact|contactați|sună|sunați|apel)\b`), orice număr de 7–15 cifre care nu e respins mai jos;
+- în rest, doar formele naționale (`0` plus grupuri de 2–4 cifre, 9–11 cifre), cele internaționale (`+`/`00`, 9–15 cifre) sau numerele verzi americane (`1-800-…`);
+- se acceptă și citirea OCR `o` pentru zero inițial (`Tel o21 242 14 46`).
+
+Sunt respinse, ca să nu dispară informație medicală sau bibliografică: cifrele lipite de o unitate (`500 mg`, `10 ani`), cantitățile cu separatori de mii (`4.200.000`, `150.000-300.000`), datele (`11.11.2009`), ISBN-urile, șirurile cu o singură cifră distinctă (`000000000000`, cozi de DOI) și referințele de revistă (`100/1998`, `0079.1-0079.14`). Eticheta rămasă după număr (`tel.`, `mobil:`) se șterge și ea, iar o linie care nu mai conține nimic altceva dispare complet.
+
+Măsurat pe corpus: **39 de numere de telefon și 17 etichete, în 14 fișiere**, plus o adresă de e-mail escapată — 488 + 95 + 23 de caractere. Eliminările sunt înregistrate ca spans whitelistate, deci invarianta cifrelor rămâne la **0 violări**.
+
+### 4.7. Regulile existente rămân neatinse
 
 `strip_extraction_metadata()`, `strip_page_markers()`, `clean_text()` (linkuri, emailuri, „Vezi și”, caractere invizibile, cedile), `collapse_blank_lines()` și logica de scriere cu păstrarea codării originale. Nimic din ce funcționează azi nu se rescrie; regulile noi se adaugă în aceeași conductă.
 
@@ -150,9 +173,8 @@ Verificat pe corpus: **0 violări** (387 de fișiere).
 | `--source PATH` | rădăcina (implicit `data/documents`) — neschimbat |
 | `--dry-run` | listează fișierele care s-ar schimba, fără să scrie — neschimbat |
 | `--keep-diacritics` | **nou**: dezactivează 4.5 (pentru revenire sau comparații) |
-| `--stats` | **nou**: la final, un sumar unic (nu per fișier): fișiere modificate, caractere și bytes eliminate, caractere eliminate pe fiecare regulă, violări |
 
-Ieșirea rămâne o linie per fișier modificat (`Cleaning: <cale>`), plus sumarul. Cod de ieșire: `0` normal, `1` dacă există violări ale invarianței cifrelor sau erori.
+Ieșirea: o linie per fișier modificat (`Cleaning: <cale>` / `Would clean: <cale>`), apoi **întotdeauna** un sumar de trei linii — fișiere modificate, caractere înainte → după, caractere eliminate pe fiecare regulă și starea diacriticelor + numărul de violări ale invarianței. Sumarul nu e opțional: dacă o regulă ar pierde o cifră, informația trebuie să apară oricum în consolă. Cod de ieșire: `0` normal, `1` dacă există violări ale invarianței cifrelor sau erori.
 
 ---
 
@@ -175,7 +197,7 @@ Funcții noi:
 | `numbers(text) -> Counter[str]` | invarianta din §5 |
 | `check_digit_invariant(before, after, removed) -> list[str]` | §5 |
 
-`Removed` = `(rule: str, text: str)` — folosit și pentru invariantă, și pentru sumarul `--stats`.
+`Removed` = `(rule: str, text: str)` — folosit și pentru invariantă, și pentru sumarul de la final.
 
 `clean_documents()` devine: `_read` → regulile existente → `fold_diacritics` → cele patru reguli noi → `collapse_blank_lines` → `check_digit_invariant` → scriere, cu acumularea statisticilor.
 
@@ -189,8 +211,11 @@ Extindere în `tests/unit/ai/test_clean_documents.py` (testele existente rămân
 2. `## INDEX` aflat la mijlocul fișierului, cu text de proză → **păstrat**;
 3. `## REFERINȚE ȘI ANEXE` → **păstrat** (titlu ambiguu);
 4. `## Bibliografie` la sfârșit, cu ≥30% linii terminate în număr → eliminat;
-5. linie repetată de 5 ori → eliminate toate copiile în afară de prima; linie repetată de 4 ori → neatinsă;
-6. linie repetată care conține „500 mg” → **niciodată** eliminată;
+5. linia care repetă titlul documentului, de 5 ori → eliminate toate copiile în afară de prima; de 4 ori → neatinsă;
+6. linia cu dozaj repetată → **niciodată** eliminată, chiar dacă repetă titlul;
+6b. subtitlu de șablon repetat la fiecare intrare („Side Effects and Contraindications") → **păstrat**;
+6c. antet de tabel repetat („SUPLIMENT DOZĂ RECOMANDATĂ OBSERVAȚII") → **păstrat**;
+6d. titlu Markdown (`# Carte`) repetat → **păstrat** (structura documentului);
 7. `### Pagina 8` → eliminată; `### Pagina de start` → păstrată (deja existent);
 8. linii de colofon în primele 300 de linii → eliminate; aceeași linie la mijlocul fișierului → păstrată;
 9. diacritice: `Coadă, șoricel, țuică` → `Coada, soricel, tuica`; cu `--keep-diacritics` → neschimbat;
@@ -201,6 +226,8 @@ Extindere în `tests/unit/ai/test_clean_documents.py` (testele existente rămân
 ---
 
 ## 9. Cum se rulează (rollout)
+
+**Aplicarea pe surse e o decizie a ta, luată manual.** Nimic din proiect nu apelează `clean_documents.py` automat (nici `rebuild_index.ps1`, nici aplicația, nici testele — testele lucrează doar în directoare temporare), deci `data/documents/` se schimbă doar când execuți tu scriptul. Pașii de mai jos se rulează în ordine, când vrei să aplici compactarea.
 
 1. **Backup:** commit git curat înainte de orice (`git status` fără modificări în `data/documents/`); opțional `git stash` nu e necesar — diff-ul e dovada.
 2. **Baseline retrieval:** `python scripts/evaluate_retrieval.py --output tmp/eval-before-doc-clean.json` (pe indexul actual).
@@ -250,12 +277,15 @@ Extindere în `tests/unit/ai/test_clean_documents.py` (testele existente rămân
 
 ## 13. Anexă — cum se remăsoară
 
-Prototipurile de măsurare (nu fac parte din livrare, se pot șterge după implementare):
-
 ```powershell
-$env:PYTHONIOENCODING='utf-8'
-.\.venv\Scripts\python.exe tmp\prototype_compaction_v5.py   # caractere, bytes, tokeni, invariantă, idempotență, titluri
-.\.venv\Scripts\python.exe tmp\verify_digit_invariant.py    # verificare per fișier a cifrelor
+# proba pe surse, fără nicio scriere (listează fișierele și sumarul per regulă)
+.\scripts\clean_documents.ps1 -DryRun
+
+# regulile, invarianta cifrelor, idempotența și păstrarea titlurilor
+.\.venv\Scripts\python.exe -m pytest tests\unit\ai\test_clean_documents.py -q
+
+# poarta de calitate a căutării, după o reindexare
+.\.venv\Scripts\python.exe scripts\evaluate_retrieval.py --output tmp\eval-doc-clean.json
 ```
 
-Tokenizerul de referință este `data/model_cache/models--intfloat--multilingual-e5-small/snapshots/*/tokenizer.json` (biblioteca `tokenizers`, deja instalată). Este un **proxy**: vocabularul DeepSeek diferă, deci cifrele absolute diferă, dar comparația relativă înainte/după este validă. Estimarea brută `caractere / 4` dă 4,42M tokeni față de 4,86M cât dă tokenizer-ul real — suficient de aproape pentru decizii, insuficient pentru facturare.
+Măsurătoarea de tokeni din tabelul de la început s-a făcut cu tokenizerul local al modelului `intfloat/multilingual-e5-small` (biblioteca `tokenizers`, deja instalată, fișierul din `data/model_cache/`), pe toate cele 387 de fișiere, înainte și după. Este un **proxy**: vocabularul DeepSeek diferă, deci cifrele absolute diferă, dar comparația relativă înainte/după este validă. Estimarea brută `caractere / 4` dă 4,42M tokeni față de 4,86M cât dă tokenizer-ul real — suficient de aproape pentru decizii, insuficient pentru facturare.

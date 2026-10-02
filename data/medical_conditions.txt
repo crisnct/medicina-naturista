@@ -1465,7 +1465,7 @@ Coagulopatie dobandita,tulburare dobandita de coagulare,diatesa hemoragica doban
 Coalitie calcaneonaviculara,sinostoza calcaneonaviculara,bara osoasa calcaneonaviculara,coalitie tarsiana,calcaneonavicular coalition,calcaneonavicular synostosis,tarsal coalition
 Coalitio talocalcaneana,sinostoza talocalcaneana,bara osoasa talocalcaneana,coalitie talocalcaneala,talocalcaneal coalition,talocalcaneal synostosis,talocalcaneal bar
 Coarctatie de aorta,coarctatie aortica,strangulare de aorta,stenoza istmica aortica,coarctation of the aorta,aortic coarctation,aortic isthmus stenosis
-Coccidioidomicoza pulmonara,febra Vallée,infectie pulmonara cu Coccidioides immitis,micoza pulmonara cu Coccidioides,coccidioidomicoza a plamanului,febra din desert,coccidioidal lung infection
+Coccidioidomicoza pulmonara,febra Vallee,infectie pulmonara cu Coccidioides immitis,micoza pulmonara cu Coccidioides,coccidioidomicoza a plamanului,febra din desert,coccidioidal lung infection
 Coccidioidomikoza,febra din Valea San Joaquin,infectie cu Coccidioides immitis,micoza cu Coccidioides,coccidioidomycosis,Valley fever,San Joaquin Valley fever
 Coccidioidomikoza diseminata,coccidioidomikoza extrapulmonara,meningita coccidioidomicotica,coccidioidomikoza sistemica,disseminated coccidioidomycosis,extrapulmonary coccidioidomycosis,coccidioidal meningitis
 Coccidioidomikoza pulmonara,pneumonie cu Coccidioides,granulom pulmonar coccidioidomicotic,coccidioidomikoza acuta pulmonara,pulmonary coccidioidomycosis,coccidioidal pneumonia,coccidioides lung infection
@@ -2021,7 +2021,7 @@ Emfizem senil,emfizem al batranului,emfizem involutiv,emfizem senescent,senile e
 Emfizem subcutanat,emfizem al tesutului subcutanat,aer in tesutul subcutanat,enfizem subcutanat,subcutaneous emphysema,surgical emphysema,air in the subcutaneous tissue
 Empiem epidural,empiem spinal epidural,colectie purulenta epidurala,supuratie epidurala,spinal epidural empyema,epidural empyema,purulent epidural collection
 Empiem necesitand drenaj,empiem cu indicatie de drenaj,empiem pleural complicat,empiem cu colectie organizata,empyema requiring drainage,complicated pleural empyema,loculated empyema
-Empiem pleural,empiem,pio­torax,pleurezie purulenta cu empiem,pleural empyema,empyema,pyothorax
+Empiem pleural,empiem,piotorax,pleurezie purulenta cu empiem,pleural empyema,empyema,pyothorax
 Empiem pleural cu anaerobi,empiem anaerob,piotorax anaerob,empiem pleural putrid,anaerobic empyema,putrid empyema,anaerobic pyothorax
 Empiem pleural cu germeni gram-negativi,empiem cu bacili gram-negativi,piotorax gram-negativ,empiem pleural cu Klebsiella,gram-negative empyema,empyema due to gram-negative bacteria,gram-negative pyothorax
 Empiem pleural tuberculos,empiem tuberculos,piotorax tuberculos,empiem pleural cu bacil Koch,tuberculous empyema,tuberculous pyothorax,tuberculous pleural empyema
