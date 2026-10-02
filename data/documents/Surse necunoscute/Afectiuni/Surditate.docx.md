@@ -20,33 +20,3 @@ Remediu vechi pentru surzenie
 În tradiția populară, sucul de ridiche era folosit și pentru tratarea persoanelor care nu mai auzeau bine. Se scobește o ridiche, miezul se presară cu sare și se pune în pământ trei zile. Zeama obținută se scurge în urechea cu probleme, trei zile la rând, o dată pe zi. În cazul durerilor de piept, se scobește o ridiche, se umple cu miere și hrean, apoi se coace, iar zeama obținută se consumă. Pentru umflături la burtă, bunicii noștri mâncau o ridiche rasă, pe stomacul gol, timp de o săptămână. Tot cu ridichea neagră se trata și dizenteria.
 
 Hipoacuzie: deficientele auzului si ale urechii, tin de o tulburare a energiei rinichilor cu care te nasti deficitar.
-
-## Antet 1
-
-Website:
-
-Email:
-
-## Descrieri alternative ale imaginilor
-
-- Informatii medicale despre hipoacuzie
-- herbs house logo.jpg
-
-## Imagini și OCR
-
-### Imagine 1 image1.jpeg
-
-- Dimensiune: 220 × 229 px
-- SHA-256: `3102cd557ddbf6dfb674c3f51e9e8a360936013f555d8007eeb1e90f6ee6a344`
-
-_OCR-ul local nu a recuperat text suficient de fiabil din această imagine._
-
-### Imagine 2 image2.jpeg
-
-- Dimensiune: 132 × 90 px
-- SHA-256: `46f57fd62444c2244a4deb93921dc7d537cc81dbc3f16c78e4b5ef9bfd4fa15c`
-- OCR Tesseract eng încredere medie: 86.9%
-
-```text
-Herbs House
-```

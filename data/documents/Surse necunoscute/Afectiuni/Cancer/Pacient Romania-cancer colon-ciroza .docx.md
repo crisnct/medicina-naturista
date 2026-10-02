@@ -67,25 +67,3 @@ Ceaiul se consuma timp de o luna dupa care se va consuma tot timp de o luna urma
 Se pune apa la fiert iar cand a dat in clocot, se adauga plantele, se opreste focul si se acopera cu un capac. Dupa 30 minute se strecoara si se bea.
 
 Dupa o luna se pot relua aceste doua tipuri de ceaiuri
-
-## Antet 1
-
-Website:
-
-Email:
-
-## Descrieri alternative ale imaginilor
-
-- herbs house logo.jpg
-
-## Imagini și OCR
-
-### Imagine 1 image1.jpeg
-
-- Dimensiune: 132 × 90 px
-- SHA-256: `46f57fd62444c2244a4deb93921dc7d537cc81dbc3f16c78e4b5ef9bfd4fa15c`
-- OCR Tesseract eng încredere medie: 86.9%
-
-```text
-Herbs House
-```

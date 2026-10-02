@@ -1,20 +1,5 @@
 Alimente acide și alcaline
 
-## Descrieri alternative ale imaginilor
-
-- C:\Users\Nelu\Desktop\alimente-alcaline-acide.jpg
-- C:\Users\Nelu\Desktop\fructe10.jpg
-- C:\Users\Nelu\Desktop\tabel-alimente-alcaline.png
-
-## Imagini și OCR
-
-### Imagine 1 image1.jpeg
-
-- Dimensiune: 697 × 367 px
-- SHA-256: `481348e09fc2619620de04a2cb79d1826a6fe4824ff2a80a27aff06cb369ecbc`
-- OCR Tesseract eng încredere medie: 69.7%
-
-```text
 &
 &
 | te

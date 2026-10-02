@@ -13,11 +13,3 @@
 - Post intermitent
 
 - Enzima SOD
-
-## Antet 1
-
-Cristian Țone – absolvent curs fitoterapie
-
-## Subsol 1
-
-1
