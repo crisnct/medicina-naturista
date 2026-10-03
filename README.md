@@ -87,7 +87,6 @@ medicina-naturista/
 │   └── model_cache/              # modelul ONNX local; ignorat de Git
 ├── scripts/
 │   ├── build_hybrid_index.py     # sincronizarea incrementală a indexului în Postgres
-│   ├── rebuild_index.ps1         # lansator PowerShell pentru sincronizare
 │   ├── search_index.ps1          # căutare locală din terminal
 │   ├── clean_documents.py/.ps1   # curățarea surselor Markdown înainte de indexare
 │   ├── fragment_report.py        # simularea fragmentării, fără bază de date
@@ -134,20 +133,16 @@ Aveți nevoie de un Postgres cu extensia `pgvector` pornit și accesibil la `DAT
 ### 2. Sincronizarea indexului
 
 ```powershell
-.\scripts\rebuild_index.ps1
+python scripts\build_hybrid_index.py
 ```
 
-Batch size-ul implicit este `64`; poate fi schimbat astfel:
-
-```powershell
-.\scripts\rebuild_index.ps1 -BatchSize 32
-```
+Baza vine din `DATABASE_URL` (`.env`); `--model` și `--source` sunt opționale. Scriptul pornește cu pythonul din care îl rulezi (pe CPU, fără alt mediu); pe GPU vezi mai jos.
 
 Modelul de embedding este `Qwen/Qwen3-Embedding-0.6B` (vectori de 1024 de dimensiuni); alt model nu este cunoscut de cod. Căutarea citește modelul din `sync_metadata` și scrie întrebările după profilul lui (`ai/embedding_model.py`: instrucțiunea Qwen la întrebare, fără prefix la pasaje). **Dacă baza conține un index făcut cu alt model sau cu altă dimensiune, următorul build reîncorporează toate documentele**, iar coloana `chunks.embedding` este recreată și indexul golit (doar scriptul de build face asta, niciodată aplicația). Pe un PC cu GPU, indexarea durează ~17 minute în loc de ore; rulează din mediul `.venv-gpu`, care are `torch`:
 
 ```powershell
 $env:EMBEDDING_DEVICE = 'cuda'
-.\.venv-gpu\Scripts\python scripts\build_hybrid_index.py --batch-size 8
+.\.venv-gpu\Scripts\python scripts\build_hybrid_index.py
 ```
 
 Prima sincronizare descarcă modelul în `data/model_cache/` și poate dura câteva zeci de minute, apoi scrie fiecare document nou/modificat în Postgres. Următoarele rulări sar complet peste documentele al căror SHA-256 nu s-a schimbat — nu se re-generează embeddings pentru ele; documentele șterse din `data/documents/` sunt șterse și din index. Când se schimbă regulile de fragmentare (`TEXT_REPR_VERSION` din `build_hybrid_index.py`), următoarea sincronizare reindexează totul. Căutările folosesc modelul din cache și rulează offline. În timpul embedding-ului sunt afișate progresul, timpul scurs, viteza și ETA.
@@ -239,7 +234,7 @@ Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit î
 
 ## 🐳 Rulare cu Docker Compose
 
-Înainte de pornire, trebuie să existe `data/documents/`, `data/model_cache/` (cu modelul deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) pornește automat împreună cu restul stivei și este expus doar pe `127.0.0.1:5432`, astfel încât indexul se sincronizează de pe host cu `rebuild_index.ps1`.
+Înainte de pornire, trebuie să existe `data/documents/`, `data/model_cache/` (cu modelul deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) pornește automat împreună cu restul stivei și este expus doar pe `127.0.0.1:5432`, astfel încât indexul se sincronizează de pe host cu `python scripts/build_hybrid_index.py`.
 
 ```powershell
 docker compose build

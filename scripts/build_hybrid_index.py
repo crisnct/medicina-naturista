@@ -4,7 +4,8 @@ medical corpus into Postgres (pgvector for semantic search, tsvector for
 lexical search). A document whose SHA-256 matches what's already stored is
 skipped entirely — no re-chunking, no re-embedding, no DB write — so adding
 or editing one document never touches the rest of the corpus."""
-
+# Run like this:
+# .\.venv-gpu\Scripts\python scripts\build_hybrid_index.py
 from __future__ import annotations
 
 import argparse
@@ -35,12 +36,15 @@ from medicina_naturista.config import settings
 
 # Minimum elapsed time between embedding progress messages.
 PROGRESS_INTERVAL_SECONDS = 10.0
+# Windows embedded per model call. 8 was the fastest on the GPU (fp16); larger
+# batches only add padding and memory (see architecture/plan-migrare-qwen3-embedding.md).
+BATCH_SIZE = 8
 
 # Bumped whenever the text representation fed into embeddings/lexical search
 # changes (e.g. the cleaning rules below), so build() forces a full resync
 # even though every source file's own SHA-256 is unchanged. See build()'s use
 # of TEXT_REPR_VERSION against sync_metadata.
-TEXT_REPR_VERSION = "4"
+TEXT_REPR_VERSION = "5"
 
 
 @dataclass(frozen=True)
@@ -292,7 +296,7 @@ def _write_document(connection, source: SourceFile, chunks: Sequence[Chunk], emb
 # Sync data/documents into Postgres: unchanged files (same SHA-256 already
 # stored) are skipped entirely; new/changed files are re-chunked, re-embedded,
 # and written in one transaction each; files removed from source are deleted.
-def build(source: Path, model_name: str, batch_size: int) -> None:
+def build(source: Path, model_name: str, batch_size: int = BATCH_SIZE) -> None:
     source = source.resolve()
     if not source.is_dir():
         raise FileNotFoundError(f"Source directory does not exist: {source}")
@@ -478,14 +482,13 @@ def parse_args() -> argparse.Namespace:
     project_root = Path(__file__).resolve().parents[1]
     parser.add_argument("--source", type=Path, default=project_root / "data" / "documents")
     parser.add_argument("--model", default=DEFAULT_MODEL)
-    parser.add_argument("--batch-size", type=int, default=64)
     return parser.parse_args()
 
 
 if __name__ == "__main__":
     arguments = parse_args()
     try:
-        build(arguments.source, arguments.model, arguments.batch_size)
+        build(arguments.source, arguments.model)
     except Exception as exc:
         print(f"ERROR: {type(exc).__name__}: {exc}", file=sys.stderr, flush=True)
         raise
