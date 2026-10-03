@@ -34,6 +34,17 @@ def _bool(name: str, default: bool) -> bool:
     raise ValueError(f"{name} must be a boolean value")
 
 
+EMBEDDING_DEVICES = ("cpu", "cuda")
+
+
+# Read EMBEDDING_DEVICE and reject anything that is not a known device.
+def _embedding_device() -> str:
+    device = os.getenv("EMBEDDING_DEVICE", "cpu").strip().casefold()
+    if device not in EMBEDDING_DEVICES:
+        raise ValueError(f"EMBEDDING_DEVICE must be one of {', '.join(EMBEDDING_DEVICES)}")
+    return device
+
+
 AI_PROVIDERS = ("xai", "huggingface", "ollama", "deepseek")
 
 
@@ -52,6 +63,9 @@ class Settings:
     # Threads of the ONNX embedding model. Few threads beat all cores on hybrid
     # (P/E-core) CPUs, so the default is 8, capped at the machine's core count.
     embedding_threads: int = _int("EMBEDDING_THREADS", min(8, os.cpu_count() or 8))
+    # Device of the index build's embedding model: "cpu" (FastEmbed) or "cuda"
+    # (PyTorch fp16, needs the GPU environment). Queries always run on the CPU.
+    embedding_device: str = _embedding_device()
     conditions_file: Path = Path(os.getenv("CONDITIONS_FILE", str(ROOT / "data" / "medical_conditions.txt")))
     frontend_dist_dir: Path = Path(os.getenv("FRONTEND_DIST_DIR", str(ROOT / "frontend" / "dist")))
     database_url: str = os.getenv(
@@ -86,6 +100,9 @@ class Settings:
     log_fragment_text: bool = _bool("LOG_FRAGMENT_TEXT", True)
     log_fragment_text_max_chars: int = _int("LOG_FRAGMENT_TEXT_MAX_CHARS", 4000)
     log_ai_response_text: bool = _bool("LOG_AI_RESPONSE_TEXT", False)
+    # Experiment switch: rank fragments by the semantic signal alone (weights of
+    # P1, P2 and L set to 0). False keeps the normal 4*P1 + 2*P2 + L + V formula.
+    search_semantic_only: bool = _bool("SEARCH_SEMANTIC_ONLY", False)
 
     # Reject an unknown provider even when Settings is built directly (tests).
     def __post_init__(self) -> None:

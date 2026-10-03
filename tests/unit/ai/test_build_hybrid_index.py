@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import dataclasses
 import io
 import tempfile
 import unittest
@@ -14,10 +15,14 @@ from psycopg.rows import namedtuple_row
 from medicina_naturista.ai import categories
 from medicina_naturista.ai import db as db_module
 from medicina_naturista.ai.conditions import ConditionDictionary, parse_conditions
+from medicina_naturista.ai.embedding_model import PROFILES, EmbeddingProfile, get_profile
 from scripts import build_hybrid_index as builder
 from tests.support.postgres import PostgresFixture
 
 _fixture = PostgresFixture()
+QWEN = get_profile(builder.DEFAULT_MODEL)
+# A second, narrower model that only exists in the tests, to exercise a model change.
+OTHER = EmbeddingProfile("test/other-model", 64, "{text}", "{text}", 1400, 240)
 
 
 def setUpModule():
@@ -62,15 +67,15 @@ class FakeEmbeddingModel:
         for index in range(self.count):
             if self.fail_after is not None and index == self.fail_after:
                 raise RuntimeError("embedding failed")
-            vector = np.zeros(builder.MODEL_DIMENSION, dtype=np.float32)
-            vector[index % builder.MODEL_DIMENSION] = 1.0
+            vector = np.zeros(QWEN.dimension, dtype=np.float32)
+            vector[index % QWEN.dimension] = 1.0
             yield vector
 
 
 # Return unit-normalized deterministic embeddings, standing in for the real
 # ONNX model in tests that only care about the sync/DB-write behaviour.
-def fake_embed(_model, chunks, _batch_size):
-    vectors = np.ones((len(chunks), builder.MODEL_DIMENSION), dtype=np.float32)
+def fake_embed(_model, chunks, _batch_size, profile):
+    vectors = np.ones((len(chunks), profile.dimension), dtype=np.float32)
     vectors /= np.linalg.norm(vectors, axis=1, keepdims=True)
     return vectors
 
@@ -92,6 +97,7 @@ class EmbeddingProgressTests(unittest.TestCase):
                 FakeEmbeddingModel(3),
                 chunks,
                 batch_size=64,
+                profile=QWEN,
                 clock=FakeClock(0.0, 3.0, 11.0, 12.0, 15.0),
             )
 
@@ -100,7 +106,7 @@ class EmbeddingProgressTests(unittest.TestCase):
         self.assertIn("elapsed 00:00:11", log)
         self.assertIn("ETA 00:00:05", log)
         self.assertIn("Embedding completed: 3/3 (100.0%)", log)
-        self.assertEqual(embeddings.shape, (3, builder.MODEL_DIMENSION))
+        self.assertEqual(embeddings.shape, (3, QWEN.dimension))
         np.testing.assert_allclose(np.linalg.norm(embeddings, axis=1), np.ones(3))
 
     def test_short_run_still_reports_completion(self):
@@ -111,6 +117,7 @@ class EmbeddingProgressTests(unittest.TestCase):
                 FakeEmbeddingModel(1),
                 [make_chunk(1)],
                 batch_size=64,
+                profile=QWEN,
                 clock=FakeClock(0.0, 1.0, 2.0),
             )
 
@@ -124,23 +131,23 @@ class EmbeddingProgressTests(unittest.TestCase):
         class WindowModel:
             def embed(self, documents, batch_size, parallel):
                 for index, _ in enumerate(documents):
-                    vector = np.zeros(builder.MODEL_DIMENSION, dtype=np.float32)
-                    vector[index % builder.MODEL_DIMENSION] = 1.0
+                    vector = np.zeros(QWEN.dimension, dtype=np.float32)
+                    vector[index % QWEN.dimension] = 1.0
                     yield vector
 
         long_chunk = make_chunk(1, text="Propoziție. " * 300)
-        self.assertGreater(len(long_chunk.text), builder.MAX_CHARS)
-        windows = len(builder._embedding_windows(long_chunk))
+        self.assertGreater(len(long_chunk.text), QWEN.max_chars)
+        windows = len(builder._embedding_windows(long_chunk, QWEN))
         self.assertGreater(windows, 1)
         output = io.StringIO()
 
         with redirect_stdout(output):
             embeddings = builder.embed_chunks(
-                WindowModel(), [long_chunk], batch_size=64,
+                WindowModel(), [long_chunk], batch_size=64, profile=QWEN,
                 clock=FakeClock(0.0, *([1.0] * windows), 5.0),
             )
 
-        self.assertEqual(embeddings.shape, (1, builder.MODEL_DIMENSION))
+        self.assertEqual(embeddings.shape, (1, QWEN.dimension))
         np.testing.assert_allclose(np.linalg.norm(embeddings, axis=1), [1.0], atol=1e-6)
         self.assertIn("Embedding completed: 1/1 (100.0%)", output.getvalue())
 
@@ -148,18 +155,18 @@ class EmbeddingProgressTests(unittest.TestCase):
         class WindowModel:
             def embed(self, documents, batch_size, parallel):
                 for index, _ in enumerate(documents):
-                    vector = np.zeros(builder.MODEL_DIMENSION, dtype=np.float32)
-                    vector[index % builder.MODEL_DIMENSION] = 1.0
+                    vector = np.zeros(QWEN.dimension, dtype=np.float32)
+                    vector[index % QWEN.dimension] = 1.0
                     yield vector
 
         chunks = [make_chunk(1, text="scurt"), make_chunk(2, text="Propoziție. " * 300), make_chunk(3, text="scurt2")]
-        windows = sum(len(builder._embedding_windows(chunk)) for chunk in chunks)
+        windows = sum(len(builder._embedding_windows(chunk, QWEN)) for chunk in chunks)
 
         embeddings = builder.embed_chunks(
-            WindowModel(), chunks, batch_size=64, clock=FakeClock(0.0, *([1.0] * windows), 3.0),
+            WindowModel(), chunks, batch_size=64, profile=QWEN, clock=FakeClock(0.0, *([1.0] * windows), 3.0),
         )
 
-        self.assertEqual(embeddings.shape, (3, builder.MODEL_DIMENSION))
+        self.assertEqual(embeddings.shape, (3, QWEN.dimension))
         for row in embeddings:
             self.assertAlmostEqual(float(np.linalg.norm(row)), 1.0, places=5)
 
@@ -169,17 +176,17 @@ class EmbeddingProgressTests(unittest.TestCase):
         class WindowModel:
             def embed(self, documents, batch_size, parallel):
                 for index, _ in enumerate(documents):
-                    vector = np.zeros(builder.MODEL_DIMENSION, dtype=np.float32)
+                    vector = np.zeros(QWEN.dimension, dtype=np.float32)
                     vector[index] = 1.0
                     yield vector
 
         chunks = [make_chunk(1, text="scurt"), make_chunk(2, text="Propoziție. " * 300)]
-        long_windows = len(builder._embedding_windows(chunks[1]))
+        long_windows = len(builder._embedding_windows(chunks[1], QWEN))
 
-        embeddings = builder.embed_chunks(WindowModel(), chunks, batch_size=64)
+        embeddings = builder.embed_chunks(WindowModel(), chunks, batch_size=64, profile=QWEN)
 
         np.testing.assert_allclose(embeddings[0][0], 1.0)
-        expected = np.zeros(builder.MODEL_DIMENSION, dtype=np.float32)
+        expected = np.zeros(QWEN.dimension, dtype=np.float32)
         expected[1:1 + long_windows] = 1.0 / np.sqrt(long_windows)
         np.testing.assert_allclose(embeddings[1], expected, atol=1e-6)
 
@@ -191,10 +198,38 @@ class EmbeddingProgressTests(unittest.TestCase):
                 FakeEmbeddingModel(3, fail_after=1),
                 [make_chunk(index) for index in range(1, 4)],
                 batch_size=64,
+                profile=QWEN,
                 clock=FakeClock(0.0, 11.0),
             )
 
         self.assertNotIn("Embedding completed", output.getvalue())
+
+
+class EmbeddingProfileTests(unittest.TestCase):
+    def test_qwen_puts_an_instruction_before_the_query_and_no_prefix_before_passages(self):
+        query = QWEN.query_text("ceai pentru tuse")
+
+        self.assertTrue(query.startswith("Instruct: "))
+        self.assertTrue(query.endswith("\nQuery:ceai pentru tuse"))
+        self.assertEqual(QWEN.passage_text("Titlu\ntext"), "Titlu\ntext")
+        self.assertEqual(QWEN.dimension, 1024)
+
+    def test_braces_in_a_question_are_not_template_syntax(self):
+        self.assertEqual(QWEN.query_text("{text} {0}").split("Query:")[1], "{text} {0}")
+
+    def test_windows_follow_the_profile(self):
+        chunk = make_chunk(1, text="Propoziție. " * 300)
+
+        qwen_windows = builder._embedding_windows(chunk, QWEN)
+        prefixed = builder._embedding_windows(chunk, dataclasses.replace(QWEN, passage_template="passage: {text}"))
+
+        self.assertGreater(len(qwen_windows), 1)
+        self.assertTrue(qwen_windows[0].startswith("document\nTitlu\n"))
+        self.assertEqual(prefixed, ["passage: " + window for window in qwen_windows])
+
+    def test_unknown_model_is_an_error(self):
+        with self.assertRaisesRegex(ValueError, "Unknown embedding model"):
+            get_profile("nu/exista")
 
 
 def make_source(relative_path: str, category_id: str) -> builder.SourceFile:
@@ -284,12 +319,17 @@ class SyncTests(unittest.TestCase):
             with connection.cursor(row_factory=namedtuple_row) as cursor:
                 return cursor.execute(f"SELECT {columns} FROM {table} ORDER BY 1").fetchall()
 
-    def _sync(self):
+    def _sync(self, model_name: str = builder.DEFAULT_MODEL):
         with mock.patch.object(builder, "create_embedding_model", return_value=object()), \
              mock.patch.object(builder, "embed_chunks", side_effect=fake_embed) as embed_mock, \
              redirect_stdout(io.StringIO()):
-            builder.build(self.source, builder.DEFAULT_MODEL, batch_size=64)
+            builder.build(self.source, model_name, batch_size=64)
         return embed_mock
+
+    # The vector width of the `chunks.embedding` column, as the catalog sees it.
+    def _column_dimension(self) -> int:
+        with db_module.get_pool().connection() as connection:
+            return db_module._embedding_dimension(connection)
 
     def test_sync_writes_documents_and_chunks(self):
         (self.source / "document.md").write_text(
@@ -432,6 +472,69 @@ class SyncTests(unittest.TestCase):
                 "SELECT value FROM sync_metadata WHERE key = 'text_repr_version'"
             ).fetchone()[0]
         self.assertEqual(stored, builder.TEXT_REPR_VERSION)
+
+    # Register OTHER next to QWEN for one test, and put the column back to the
+    # default width afterwards (the model change tests leave it at OTHER's).
+    def _with_other_model(self):
+        patcher = mock.patch.dict(PROFILES, {OTHER.name: OTHER})
+        patcher.start()
+        self.addCleanup(patcher.stop)
+        self.addCleanup(db_module.ensure_schema, QWEN.dimension)
+
+    def test_changing_the_model_re_embeds_every_document_and_updates_the_metadata(self):
+        self._with_other_model()
+        (self.source / "a.md").write_text("# A\n\nConținut a.", encoding="utf-8")
+        (self.source / "b.md").write_text("# B\n\nConținut b.", encoding="utf-8")
+        self._sync(QWEN.name)
+
+        embed_mock = self._sync(OTHER.name)
+
+        embed_mock.assert_called_once()
+        embedded = {chunk.source_relative_path for chunk in embed_mock.call_args.args[1]}
+        self.assertEqual(embedded, {"a.md", "b.md"})
+        self.assertIs(embed_mock.call_args.args[3], OTHER)
+        with db_module.get_pool().connection() as connection:
+            metadata = dict(connection.execute(
+                "SELECT key, value FROM sync_metadata WHERE key IN ('model_name', 'model_dimension')"
+            ).fetchall())
+        self.assertEqual(metadata, {"model_name": OTHER.name, "model_dimension": str(OTHER.dimension)})
+
+    def test_changing_the_model_recreates_the_vector_column_with_the_new_width(self):
+        self._with_other_model()
+        (self.source / "document.md").write_text("# Remedii\n\nText.", encoding="utf-8")
+        self._sync(QWEN.name)
+        self.assertEqual(self._column_dimension(), QWEN.dimension)
+
+        self._sync(OTHER.name)
+
+        self.assertEqual(self._column_dimension(), OTHER.dimension)
+        self.assertEqual(len(self._rows("chunks", "chunk_id")), 1)
+        with db_module.get_pool().connection() as connection:
+            width = connection.execute("SELECT vector_dims(embedding) FROM chunks").fetchone()[0]
+            nullable = connection.execute(
+                "SELECT is_nullable FROM information_schema.columns "
+                "WHERE table_name = 'chunks' AND column_name = 'embedding'"
+            ).fetchone()[0]
+        self.assertEqual(width, OTHER.dimension)
+        self.assertEqual(nullable, "NO")
+
+    def test_ensure_schema_without_a_dimension_never_touches_an_existing_index(self):
+        (self.source / "document.md").write_text("# Remedii\n\nText.", encoding="utf-8")
+        self._sync(QWEN.name)
+
+        db_module.ensure_schema()
+        db_module.ensure_schema(QWEN.dimension)
+
+        self.assertEqual(len(self._rows("chunks", "chunk_id")), 1)
+
+    def test_unknown_model_fails_before_touching_the_database(self):
+        (self.source / "document.md").write_text("# Remedii\n\nText.", encoding="utf-8")
+        self._sync(QWEN.name)
+
+        with self.assertRaisesRegex(ValueError, "Unknown embedding model"):
+            self._sync("nu/exista")
+
+        self.assertEqual(len(self._rows("chunks", "chunk_id")), 1)
 
     def test_file_removed_from_source_is_deleted_from_the_index(self):
         (self.source / "a.md").write_text("# A\n\nConținut a.", encoding="utf-8")

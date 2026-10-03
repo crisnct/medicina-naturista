@@ -11,8 +11,13 @@ import psycopg
 from psycopg import Connection
 from psycopg_pool import ConnectionPool
 
+from medicina_naturista.ai.embedding_model import DEFAULT_MODEL, get_profile
 from medicina_naturista.config import settings
 
+# Vector width of a table created without an explicit dimension.
+DEFAULT_DIMENSION = get_profile(DEFAULT_MODEL).dimension
+
+# __DIMENSION__ is the embedding model's vector width (see ensure_schema()).
 SCHEMA_SQL = """
 CREATE EXTENSION IF NOT EXISTS vector;
 CREATE EXTENSION IF NOT EXISTS unaccent;
@@ -55,7 +60,7 @@ CREATE TABLE IF NOT EXISTS chunks (
              ELSE ''
         END
     ) STORED,
-    embedding             vector(384) NOT NULL,
+    embedding             vector(__DIMENSION__) NOT NULL,
     text_search           tsvector NOT NULL,
     business_category     TEXT CHECK (business_category IN ('R1', 'R2', 'D1')),
     primary_medical_conditions   TEXT[] NOT NULL DEFAULT '{}',
@@ -97,15 +102,44 @@ def _configure_connection(conn: Connection) -> None:
     register_vector(conn)
 
 
+# Width of the vector column of `chunks`, or None when the table does not exist.
+def _embedding_dimension(connection: Connection) -> int | None:
+    row = connection.execute(
+        """
+        SELECT a.atttypmod FROM pg_attribute a
+        WHERE a.attrelid = to_regclass('chunks') AND a.attname = 'embedding' AND NOT a.attisdropped
+        """
+    ).fetchone()
+    return row[0] if row else None
+
+
 # Create every extension/table/index the hybrid index needs, if not already
 # present. Uses a raw, unpooled connection — deliberately not get_pool() —
 # because the pool's own connections register pgvector's `vector` type on
 # open (see _configure_connection), which fails until CREATE EXTENSION
 # vector has actually run. This must complete before the pool ever opens
 # its first connection.
-def ensure_schema() -> None:
+#
+# `dimension` is the vector width the caller is about to write. When the
+# existing `embedding` column has another width (a model change), the column is
+# recreated and every indexed document is dropped, in one transaction: vectors
+# of two widths (or two models) cannot share an index, and the index is fully
+# rebuildable from the source documents. Only the index build passes it; the web
+# app calls ensure_schema() without one and never touches existing data.
+def ensure_schema(dimension: int | None = None) -> None:
+    width = int(dimension or DEFAULT_DIMENSION)
     with psycopg.connect(settings.database_url) as connection:
-        connection.execute(SCHEMA_SQL)
+        connection.execute(SCHEMA_SQL.replace("__DIMENSION__", str(width)))
+        if dimension is not None:
+            current = _embedding_dimension(connection)
+            if current != width:
+                # DELETE first so the new column can be NOT NULL: it cannot be
+                # added as such to a table that still has rows.
+                connection.execute("DELETE FROM documents")
+                connection.execute("DELETE FROM sync_metadata")
+                connection.execute("ALTER TABLE chunks DROP COLUMN embedding")
+                connection.execute(f"ALTER TABLE chunks ADD COLUMN embedding vector({width})")
+                connection.execute("ALTER TABLE chunks ALTER COLUMN embedding SET NOT NULL")
         connection.commit()
 
 

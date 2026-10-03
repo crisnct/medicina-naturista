@@ -55,7 +55,7 @@ Aplicația este un server FastAPI (`web/main.py`) cu o interfață React (`front
 
 - **3.1.** Apelează `Retriever.collect(session, ai.context_budget())`. Bugetul este limita de context a furnizorului activ: `X_AI_MAX_CONTEXT_CHARS`, `DEEPSEEK_MAX_CONTEXT_CHARS`, `OLLAMA_MAX_CONTEXT_CHARS` (implicit 1.000.000 de caractere) sau `HF_MAX_CONTEXT_CHARS` (implicit 120.000); cu Hugging Face pacientul vede deci mai puține fragmente.
 - **3.2.** Interogarea este **întreaga problemă de sănătate** (`consultation_query()`); istoricul conversației nu este folosit.
-- **3.3.** `rank()` notează toate fragmentele (`score = 8·P1 + 4·P2 + 2·L + V`) și întoarce, în ordinea scorului, doar fragmentele întregi care încap în buget. Detaliile sunt în [fragment-search-and-scoring.md](fragment-search-and-scoring.md).
+- **3.3.** `rank()` notează toate fragmentele (`score = 4·P1 + 2·P2 + L + V`) și întoarce, în ordinea scorului, doar fragmentele întregi care încap în buget. Detaliile sunt în [fragment-search-and-scoring.md](fragment-search-and-scoring.md).
 - **3.4.** Fiecare fragment devine o dovadă `C<chunk_id>` cu `source` (`documents/<cale>:<linie_start>-<linie_end>`), `text` (prefixat cu `Secțiune: <titlu>`), `score`, `relevance_percent` și componentele scorului.
 - **3.5.** Dacă nu există nicio dovadă: „Nu am găsit fragmente relevante în sursele locale.”
 - **3.6.** Altfel, dovezile sunt păstrate în sesiune ca `PendingSearch` (împreună cu profilul de la acel moment), sub un `search_id` aleator. Se păstrează cel mult 12 căutări în așteptare, deci pacientul poate genera și pentru o căutare mai veche din chat.

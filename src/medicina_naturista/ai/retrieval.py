@@ -11,7 +11,7 @@ from medicina_naturista.ai.query_terms import GENERIC_QUERY_WORDS_PATH, meaningf
 from medicina_naturista.ai.search import (
     EVIDENCE_HEADING_PREFIX,
     EVIDENCE_HEADING_SEPARATOR,
-    MAX_SCORE,
+    current_max_score,
     rank,
 )
 from medicina_naturista.config import settings
@@ -85,7 +85,7 @@ class Retriever:
             len(category_ids) if category_ids else 0,
         )
         # The fragment's score is rank()'s score (ai/search.py:
-        # 8*P1 + 4*P2 + 2*L + V, never above MAX_SCORE); relevance_percent is
+        # 4*P1 + 2*P2 + L + V, never above MAX_SCORE); relevance_percent is
         # that score as a percentage of the ceiling. rank() applies the only
         # limit there is, the provider's context budget over the evidence text,
         # by cutting whole fragments from the end of the score-ordered list, so
@@ -104,7 +104,7 @@ class Retriever:
                 # Every consumer (the UI panel, the AI-context budget trimming)
                 # reads these fields directly and formats/orders from them.
                 "score": best["score"],
-                "relevance_percent": best["score"] / MAX_SCORE * 100.0,
+                "relevance_percent": best["score"] / current_max_score() * 100.0,
                 # The components of the score, informational only: L (None when
                 # the query did not match the fragment lexically), V, and the raw
                 # cosine similarity behind V.

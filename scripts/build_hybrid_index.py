@@ -24,16 +24,15 @@ from psycopg.rows import namedtuple_row
 from medicina_naturista.ai.categories import ROOT_CATEGORY_ID
 from medicina_naturista.ai.conditions import load_dictionary
 from medicina_naturista.ai.db import ensure_schema, get_pool
-from medicina_naturista.ai.embedding_model import DEFAULT_MODEL, MODEL_DIMENSION, create_embedding_model
+from medicina_naturista.ai.embedding_model import (
+    DEFAULT_MODEL,
+    EmbeddingProfile,
+    create_embedding_model,
+    get_profile,
+)
 from medicina_naturista.ai.fragmenter import Fragment, fragment_document
 from medicina_naturista.config import settings
 
-# Window size for embedding text: the model reads about this much, so a longer
-# fragment is embedded as overlapping windows of MAX_CHARS whose vectors are
-# averaged (see _embedding_windows()).
-MAX_CHARS = 1400
-# Overlap between consecutive embedding windows of one long fragment.
-OVERLAP_CHARS = 240
 # Minimum elapsed time between embedding progress messages.
 PROGRESS_INTERVAL_SECONDS = 10.0
 
@@ -130,27 +129,28 @@ def _embedding_context(chunk: Chunk) -> str:
     return "\n".join(lines)
 
 
-# Model inputs for one chunk: its context line plus the passage text. A passage
-# longer than MAX_CHARS is cut into overlapping windows, because the ONNX model
-# would otherwise silently truncate it and drop the tail; the windows' vectors
-# are averaged back into one by embed_chunks().
-def _embedding_windows(chunk: Chunk) -> list[str]:
+# Model inputs for one chunk: its context line plus the passage text, written as
+# the model's profile wants a passage. A passage longer than profile.max_chars is
+# cut into overlapping windows, so the model does not silently truncate it and
+# drop the tail; the windows' vectors are averaged back into one by embed_chunks().
+def _embedding_windows(chunk: Chunk, profile: EmbeddingProfile) -> list[str]:
     context = _embedding_context(chunk)
     text = chunk.text
-    step = MAX_CHARS - OVERLAP_CHARS
+    step = profile.max_chars - profile.overlap_chars
     windows = []
     position = 0
     while True:
-        windows.append(f"passage: {context}\n{text[position:position + MAX_CHARS]}")
-        if position + MAX_CHARS >= len(text):
+        window = text[position:position + profile.max_chars]
+        windows.append(profile.passage_text(f"{context}\n{window}"))
+        if position + profile.max_chars >= len(text):
             return windows
         position += step
 
 
 # Convert chunks into model inputs, one per embedding window.
-def iter_embedding_inputs(chunks: Sequence[Chunk]) -> Iterator[str]:
+def iter_embedding_inputs(chunks: Sequence[Chunk], profile: EmbeddingProfile) -> Iterator[str]:
     for chunk in chunks:
-        yield from _embedding_windows(chunk)
+        yield from _embedding_windows(chunk, profile)
 
 
 # Format elapsed and estimated durations as stable terminal-friendly timestamps.
@@ -168,6 +168,7 @@ def embed_chunks(
     model: object,
     chunks: Sequence[Chunk],
     batch_size: int,
+    profile: EmbeddingProfile,
     *,
     progress_interval_seconds: float = PROGRESS_INTERVAL_SECONDS,
     clock: Callable[[], float] | None = None,
@@ -180,7 +181,7 @@ def embed_chunks(
     inputs: list[str] = []
     owners: list[int] = []  # index of the chunk each window belongs to
     for index, chunk in enumerate(chunks):
-        windows = _embedding_windows(chunk)
+        windows = _embedding_windows(chunk, profile)
         inputs += windows
         owners += [index] * len(windows)
     window_total = len(inputs)
@@ -206,9 +207,9 @@ def embed_chunks(
             last_report = now
 
     window_embeddings = np.asarray(vectors, dtype=np.float32)
-    if window_total and window_embeddings.shape != (window_total, MODEL_DIMENSION):
+    if window_total and window_embeddings.shape != (window_total, profile.dimension):
         raise RuntimeError(f"Unexpected embedding matrix shape: {window_embeddings.shape}")
-    embeddings = np.zeros((total, MODEL_DIMENSION), dtype=np.float32)
+    embeddings = np.zeros((total, profile.dimension), dtype=np.float32)
     if window_total:
         norms = np.linalg.norm(window_embeddings, axis=1)
         if not np.isfinite(window_embeddings).all() or np.any(norms == 0):
@@ -296,7 +297,8 @@ def build(source: Path, model_name: str, batch_size: int) -> None:
     if not source.is_dir():
         raise FileNotFoundError(f"Source directory does not exist: {source}")
 
-    ensure_schema()
+    profile = get_profile(model_name)
+    ensure_schema(profile.dimension)
     settings.model_cache_dir.mkdir(parents=True, exist_ok=True)
     pool = get_pool()
 
@@ -316,6 +318,9 @@ def build(source: Path, model_name: str, batch_size: int) -> None:
             stored_version_row = cursor.execute(
                 "SELECT value FROM sync_metadata WHERE key = 'text_repr_version'"
             ).fetchone()
+            stored_model_row = cursor.execute(
+                "SELECT value FROM sync_metadata WHERE key = 'model_name'"
+            ).fetchone()
 
     # A document's own SHA-256 only tells us the *source file* hasn't changed,
     # not that the text representation derived from it (chunking/cleaning
@@ -334,6 +339,13 @@ def build(source: Path, model_name: str, batch_size: int) -> None:
                 "forcing a full resync",
                 flush=True,
             )
+        existing = {}
+
+    # Likewise for the model: vectors of two models live in different spaces and
+    # must never share an index, so a model change re-embeds every document.
+    stored_model = stored_model_row[0] if stored_model_row else None
+    if stored_model is not None and stored_model != model_name:
+        print(f"Embedding model changed ({stored_model} -> {model_name}); forcing a full resync", flush=True)
         existing = {}
 
     dictionary = load_dictionary()
@@ -405,12 +417,12 @@ def build(source: Path, model_name: str, batch_size: int) -> None:
             )
         report_progress(index)
 
-    embeddings = np.empty((0, MODEL_DIMENSION), dtype=np.float32)
+    embeddings = np.empty((0, profile.dimension), dtype=np.float32)
     if all_new_chunks:
-        print(f"Loading local embedding model {model_name}", flush=True)
-        model = create_embedding_model(model_name, MODEL_DIMENSION, settings.model_cache_dir)
+        print(f"Loading local embedding model {model_name} (device {settings.embedding_device})", flush=True)
+        model = create_embedding_model(model_name, settings.model_cache_dir)
         print(f"Embedding {len(all_new_chunks)} chunks from {len(pending)} changed files (batch size {batch_size})", flush=True)
-        embeddings = embed_chunks(model, all_new_chunks, batch_size)
+        embeddings = embed_chunks(model, all_new_chunks, batch_size, profile)
 
         changed_during_sync = []
         for relative, (size, mtime_ns) in initial_stats.items():
@@ -443,7 +455,7 @@ def build(source: Path, model_name: str, batch_size: int) -> None:
             ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value
             """,
             (
-                "model_name", model_name, "model_dimension", str(MODEL_DIMENSION),
+                "model_name", model_name, "model_dimension", str(profile.dimension),
                 "last_synced_utc", utc_now(), "text_repr_version", TEXT_REPR_VERSION,
             ),
         )

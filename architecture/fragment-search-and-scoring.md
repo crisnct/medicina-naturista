@@ -11,7 +11,7 @@ Documentul are două părți: **[Partea I — Rezumat](#partea-i--rezumat)** (ce
 ## Partea I — Rezumat
 
 1. **Recunoașterea afecțiunii** (`resolve_query()`) — mesajul se împarte la virgulă, iar în fiecare parte se caută afecțiunile din `data/medical_conditions.txt` (cu sinonime și toleranță la greșeli de scriere). Pacientul vede în chat ce afecțiune s-a identificat.
-2. **Scorul** — `score = 8·P1 + 4·P2 + 2·L + V` (maximum 15):
+2. **Scorul** — `score = 4·P1 + 2·P2 + L + V` (maximum 8):
    - **P1** — afecțiunea este în titlul fragmentului;
    - **P2** — afecțiunea este în textul fragmentului;
    - **L** — fragmentul conține toate cuvintele căutate (căutare lexicală);
@@ -22,7 +22,7 @@ Documentul are două părți: **[Partea I — Rezumat](#partea-i--rezumat)** (ce
 6. **Setări** — limita de text per furnizor (`*_MAX_CONTEXT_CHARS`), dicționarul (`CONDITIONS_FILE`), modelul (`MODEL_CACHE_DIR`) și baza de date (`DATABASE_URL`).
 
 ```text
-problema pacientului → afecțiuni recunoscute → score = 8·P1 + 4·P2 + 2·L + V
+problema pacientului → afecțiuni recunoscute → score = 4·P1 + 2·P2 + L + V
     → cele mai bune fragmente, cât încap în limita AI → afișate pacientului → trimise la AI
 ```
 
@@ -50,8 +50,8 @@ Problema pacientului este căutată cu **o singură interogare** (`consultation_
 ### 2. Formula scorului
 
 ```text
-score = 8·P1 + 4·P2 + 2·L + 1·V          score ∈ [0, 15]
-relevance_percent = score / 15 × 100
+score = 4·P1 + 2·P2 + 1·L + 1·V          score ∈ [0, 8]
+relevance_percent = score / 8 × 100
 ```
 
 | Termen | Tip | Definiție |
@@ -61,14 +61,14 @@ relevance_percent = score / 15 × 100
 | **L** | [0, 1] | scorul lexical al fragmentului, raportat la cel mai bun scor lexical din căutare; 0 dacă nu se potrivește |
 | **V** | [0, 1] | similaritatea semantică, rescalată între mediana și maximul căutării; 0 sub mediană sau când toate similaritățile sunt egale |
 
-- **2.1. Prioritățile.** Greutățile sunt alese astfel încât P1 să bată orice combinație de semnale inferioare (8 > 4 + 2 + 1) și P2 să bată lexicalul și semanticul împreună (4 > 2 + 1). P3 față de P4 este intenționat **moale**: lexicalul contează dublu, dar o potrivire semantică foarte bună poate depăși una lexicală slabă. Constantele `WEIGHT_*` din `ai/search.py` sunt păzite de un test (`tests/unit/ai/test_search.py`) care verifică inegalitățile.
+- **2.1. Prioritățile.** Greutățile păstrează ordinea priorităților: P1 valorează cât toate semnalele inferioare la maximum (4 = 2 + 1 + 1), iar P2 cât lexicalul și semanticul împreună (2 = 1 + 1). Egalitatea apare doar când fragmentul de rang inferior are potrivire perfectă la tot ce urmează (L = V = 1); în acest caz ordinea o decide `chunk_id`, deci `priority_order_violations` din evaluare nu mai este 0 prin construcție, ci rămâne foarte mic. Lexicalul și semanticul cântăresc la fel: o potrivire semantică foarte bună poate depăși una lexicală slabă și invers. Constantele `WEIGHT_*` din `ai/search.py` sunt păzite de un test (`tests/unit/ai/test_search.py`) care verifică inegalitățile.
 - **2.2. Semnalul lexical (L).**
   - **2.2.1.** Din fiecare expresie se iau cel mult 32 de cuvinte și se păstrează cele relevante: fără cuvintele din `ai/resources/generic_query_words.txt` și fără cele sub 3 caractere (într-o expresie fără afecțiune, dacă nu rămâne niciunul, se păstrează toate). Fiecare cuvânt, fără diacritice și cu litere mici, devine o potrivire pe prefix `stem:*`, unde stemul este cuvântul fără ultimele 2 litere pentru cuvintele de cel puțin 6 caractere (minimum 4 litere păstrate). Indexul folosește configurația `simple` (fără stemming românesc), iar prefixul acoperă flexiunile (`genunchi` găsește `genunchiului`). Coloana `text_search` conține textul, titlul și calea fișierului, deci un cuvânt din titlu sau din numele fișierului se potrivește lexical.
   - **2.2.2.** Între cuvintele unei expresii se aplică **ȘI** (în orice ordine și la orice distanță), între expresii **SAU**. Un fragment primește scor lexical numai dacă îndeplinește toate cuvintele a cel puțin unei expresii; o potrivire parțială are L = 0. Nu există interogare „laxă”.
   - **2.2.3.** Cuvintele care numesc o afecțiune sunt înlocuite cu un **SAU** între toate denumirile ei (nume canonic și sinonime), iar restul expresiei rămâne legat prin **ȘI**: `tratament pentru gripa la copii` → `tratame:* & copii:* & ((gripa:*) | (influen:*) | (season:* & flu:*) | …)`. Un sinonim nu lasă deci fragmentul să ignore celelalte cuvinte scrise de utilizator.
   - **2.2.4.** Textul utilizatorului nu ajunge niciodată ca sintaxă `tsquery`: stemurile conțin doar litere și cifre. Dacă mesajul nu are niciun cuvânt utilizabil, nu se face potrivire lexicală (L = 0 peste tot).
   - **2.2.5.** `ts_rank_cd` cu normalizarea 1 împarte la `1 + log(lungimea)`, deci un fragment scurt și concentrat pe subiect bate același cuvânt pomenit într-un capitol foarte lung. L = `ts_rank_cd / max(ts_rank_cd)` peste fragmentele potrivite.
-- **2.3. Semnalul semantic (V).** Vectorul E5 al mesajului (prefix `query: `, mesajul așa cum a fost scris, normalizat L2), calculat cu modelul înregistrat în `sync_metadata` (eroare dacă indexul nu a fost încă sincronizat), încărcat offline din `data/model_cache` și păstrat în memorie între căutări. Fiind vectori de lungime 1, produsul scalar este chiar similaritatea cosinus, calculată **exact** pentru toate fragmentele (`-(embedding <#> vector)`); `V = clamp((cos − mediană) / (max − mediană), 0, 1)`. Rescalarea este necesară pentru că E5 comprimă similaritățile într-o bandă îngustă (mediana este ≈ 0,79–0,82, maximul ≈ 0,87–0,91) care se mută de la o interogare la alta, deci un prag fix nu ar funcționa.
+- **2.3. Semnalul semantic (V).** Vectorul Qwen3 al mesajului (instrucțiunea din profilul modelului, `Instruct: … Query:`, urmată de mesajul așa cum a fost scris; normalizat L2), calculat pe CPU cu modelul înregistrat în `sync_metadata` (eroare dacă indexul nu a fost încă sincronizat), încărcat offline din `data/model_cache` și păstrat în memorie între căutări. Fiind vectori de lungime 1, produsul scalar este chiar similaritatea cosinus, calculată **exact** pentru toate fragmentele (`-(embedding <#> vector)`); `V = clamp((cos − mediană) / (max − mediană), 0, 1)`. Rescalarea este necesară pentru că similaritățile se adună într-o bandă îngustă, care se mută de la o interogare la alta, deci un prag fix nu ar funcționa.
 - **2.4. Statistici relative la căutare.** Mediana, maximul cosinusului și cel mai bun scor lexical se calculează peste fragmentele categoriilor alese de pacient (filtrul se aplică înainte, și în partea lexicală). Procentul de relevanță arată cât de bun este un fragment **în această căutare** și nu se compară între căutări diferite.
 - **2.5. Categoriile.** `Retriever.collect()` păstrează doar categoriile selectate care există încă în index; dacă nu rămâne niciuna sau sunt selectate toate, căutarea rulează fără filtru. O selecție goală este respinsă înainte de căutare, cu un mesaj către pacient.
 - **2.6. Ordinea.** `ORDER BY score DESC, chunk_id ASC`: departajarea după `chunk_id` face ordinea deterministă.
@@ -127,13 +127,13 @@ Fragmentele nu se unesc: fiecare este o secțiune întreagă (vezi `ai/fragmente
 | `MODEL_CACHE_DIR` | `data/model_cache` | Locul modelului de embeddings folosit pentru întrebare |
 | `DATABASE_URL` | `postgresql://medicina:medicina@127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului |
 
-Constantele din cod (`ai/search.py`): `WEIGHT_PRIMARY = 8`, `WEIGHT_SECONDARY = 4`, `WEIGHT_LEXICAL = 2`, `WEIGHT_SEMANTIC = 1`, `MAX_SCORE = 15`. Din `ai/conditions.py`: `TYPO_CUTOFF = 0.9`, `FUZZY_CUTOFF = 0.84`, `MAX_MATCHED_CONDITIONS = 2`.
+Constantele din cod (`ai/search.py`): `WEIGHT_PRIMARY = 4`, `WEIGHT_SECONDARY = 2`, `WEIGHT_LEXICAL = 1`, `WEIGHT_SEMANTIC = 1`, `MAX_SCORE = 8`. Din `ai/conditions.py`: `TYPO_CUTOFF = 0.9`, `FUZZY_CUTOFF = 0.84`, `MAX_MATCHED_CONDITIONS = 2`.
 
 Postgres rulează în `docker-compose.yaml` cu `shared_buffers=512MB`: tabela `chunks` (~150 MB) depășește valoarea implicită de 128 MB, iar atunci prima căutare după o repornire citește de pe disc.
 
 ### Măsurarea calității
 
-`scripts/evaluate_retrieval.py` rulează `rank()` pe interogările din `tests/eval/retrieval_queries.json` (etichetate prin reguli de cale și titlu, deci stabile la reindexare) și raportează Precision@10, MRR, nDCG@10, Recall@50, latența p50/p95 și `priority_order_violations` (fragmente cu afecțiunea în titlu aflate sub unul fără ea; 0 prin construcția scorului). Scriptul doar citește din baza de date. `--no-conditions` dezactivează recunoașterea afecțiunilor (fără P1/P2 și sinonime), pentru comparație; `--cases` alege alt fișier de interogări.
+`scripts/evaluate_retrieval.py` rulează `rank()` pe interogările din `tests/eval/retrieval_queries.json` (etichetate prin reguli de cale și titlu, deci stabile la reindexare) și raportează Precision@10, MRR, nDCG@10, Recall@50, latența p50/p95 și `priority_order_violations` (fragmente cu afecțiunea în titlu aflate sub unul fără ea; 0 sau foarte aproape de 0, vezi 2.1). Scriptul doar citește din baza de date. `--no-conditions` dezactivează recunoașterea afecțiunilor (fără P1/P2 și sinonime), pentru comparație; `--cases` alege alt fișier de interogări.
 
 ```bash
 python scripts/evaluate_retrieval.py --output after.json

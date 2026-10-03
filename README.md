@@ -23,9 +23,9 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 
 | 🧩 Componentă | Rol |
 |---|---|
-| **Index semantic** | Identifică fragmente apropiate ca sens cu vectori E5 de 384 dimensiuni, stocați în Postgres (`pgvector`). |
+| **Index semantic** | Identifică fragmente apropiate ca sens cu vectori Qwen3-Embedding de 1024 de dimensiuni, stocați în Postgres (`pgvector`). |
 | **Index lexical** | Găsește termeni exacți prin `tsvector`/`ts_rank_cd` în Postgres. |
-| **Scor combinat** | Fiecare fragment primește un singur scor: `8·P1 + 4·P2 + 2·L + V` (afecțiune în titlu › afecțiune în text › potrivire lexicală › potrivire semantică), calculat într-o singură interogare SQL. |
+| **Scor combinat** | Fiecare fragment primește un singur scor: `4·P1 + 2·P2 + L + V` (afecțiune în titlu › afecțiune în text › potrivire lexicală › potrivire semantică), calculat într-o singură interogare SQL. |
 | **Fragmentare pe afecțiuni** | Împarte documentele în fragmente R1 (afecțiunea în titlul capitolului), R2 (afecțiunea în textul capitolului) și D1 (restul textului), folosind dicționarul `data/medical_conditions.txt`. |
 | **Retriever medical** | Ordonează fragmentele după scorul combinat și păstrează, întregi, cele care încap în bugetul de context al furnizorului AI. |
 | **Chat web** | Oferă sesiuni izolate pe tab și afișează recomandările structurate. |
@@ -39,7 +39,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
         ↓
 ✂️ fragmente R1 / R2 / D1, cu afecțiuni, sursă și interval de linii
         ↓
-🧠 embeddings E5  +  🔎 tsvector, în Postgres/pgvector
+🧠 embeddings Qwen3  +  🔎 tsvector, în Postgres/pgvector
         ↓
 ⚖️ scor combinat P1 › P2 › lexical › semantic și bugetul de context
         ↓
@@ -58,9 +58,9 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 |---|---|
 | **Limbaj și runtime** | Python 3.11, PowerShell |
 | **Interfață și API** | React 19, TypeScript, Vite, TanStack Query, FastAPI, Uvicorn |
-| **Embeddings locale** | FastEmbed, ONNX Runtime, `intfloat/multilingual-e5-small` |
+| **Embeddings locale** | FastEmbed, ONNX Runtime, `Qwen/Qwen3-Embedding-0.6B` (indexare opțională pe GPU, PyTorch fp16) |
 | **Stocare index** | PostgreSQL, `pgvector` (similaritate cosinus), `unaccent` + `tsvector` (căutare lexicală) |
-| **Scorul fragmentelor** | `8·P1 + 4·P2 + 2·L + V`, cu priorități stricte pentru afecțiunea din titlu și din text |
+| **Scorul fragmentelor** | `4·P1 + 2·P2 + L + V`, cu prioritate pentru afecțiunea din titlu, apoi din text |
 | **Generare AI** | Responses API (xAI, DeepSeek, Hugging Face sau Ollama, după `AI_PROVIDER`), răspuns JSON structurat |
 | **Documente** | ReportLab pentru PDF, pypdf pentru procesare și verificare |
 | **E-mail** | Gmail API, OAuth2 cu refresh token |
@@ -74,7 +74,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 |---|---|
 | 🧠 [Fluxul de generare a indexului hibrid](architecture/hybrid-index-generation.md) | Fluxul complet: documente → sincronizare incrementală (SHA-256) → fragmente R1/R2/D1 → embeddings → Postgres (`pgvector` + `tsvector`). |
 | 📄 [Fluxul de generare a raportului final](architecture/final-report-generation.md) | Fluxul complet: mesaj → retrieval hibrid → fragmente afișate pacientului → „Generează rețeta” (owner) → furnizorul AI → PDF → download și trimitere pe e-mail către altă persoană. |
-| 🔎 [Căutarea și scoringul fragmentelor](architecture/fragment-search-and-scoring.md) | Fluxul complet: mesaj → afecțiuni recunoscute → scor `8·P1 + 4·P2 + 2·L + V` pentru toate fragmentele → procent de relevanță → limitarea contextului. |
+| 🔎 [Căutarea și scoringul fragmentelor](architecture/fragment-search-and-scoring.md) | Fluxul complet: mesaj → afecțiuni recunoscute → scor `4·P1 + 2·P2 + L + V` pentru toate fragmentele → procent de relevanță → limitarea contextului. |
 
 ## 📁 Structura proiectului
 
@@ -141,6 +141,13 @@ Batch size-ul implicit este `64`; poate fi schimbat astfel:
 
 ```powershell
 .\scripts\rebuild_index.ps1 -BatchSize 32
+```
+
+Modelul de embedding este `Qwen/Qwen3-Embedding-0.6B` (vectori de 1024 de dimensiuni); alt model nu este cunoscut de cod. Căutarea citește modelul din `sync_metadata` și scrie întrebările după profilul lui (`ai/embedding_model.py`: instrucțiunea Qwen la întrebare, fără prefix la pasaje). **Dacă baza conține un index făcut cu alt model sau cu altă dimensiune, următorul build reîncorporează toate documentele**, iar coloana `chunks.embedding` este recreată și indexul golit (doar scriptul de build face asta, niciodată aplicația). Pe un PC cu GPU, indexarea durează ~17 minute în loc de ore; rulează din mediul `.venv-gpu`, care are `torch`:
+
+```powershell
+$env:EMBEDDING_DEVICE = 'cuda'
+.\.venv-gpu\Scripts\python scripts\build_hybrid_index.py --batch-size 8
 ```
 
 Prima sincronizare descarcă modelul în `data/model_cache/` și poate dura câteva zeci de minute, apoi scrie fiecare document nou/modificat în Postgres. Următoarele rulări sar complet peste documentele al căror SHA-256 nu s-a schimbat — nu se re-generează embeddings pentru ele; documentele șterse din `data/documents/` sunt șterse și din index. Când se schimbă regulile de fragmentare (`TEXT_REPR_VERSION` din `build_hybrid_index.py`), următoarea sincronizare reindexează totul. Căutările folosesc modelul din cache și rulează offline. În timpul embedding-ului sunt afișate progresul, timpul scurs, viteza și ETA.
@@ -211,7 +218,7 @@ Sincronizarea scrie în trei tabele:
 | Tabel | Conținut |
 |---|---|
 | `documents` | Un rând per fișier sursă: cale, SHA-256, codificare, număr de linii; categoria (folderul) este o coloană generată din cale. Folosit și pentru a decide ce fișiere sar la sincronizarea următoare. |
-| `chunks` | Un rând per fragment: text, interval de linii, calea titlurilor (`heading`), `business_category` (`R1`/`R2`/`D1`), `primary_medical_conditions`, `secondary_medical_conditions`, vectorul semantic (`embedding vector(384)`) și coloana lexicală (`text_search tsvector`). |
+| `chunks` | Un rând per fragment: text, interval de linii, calea titlurilor (`heading`), `business_category` (`R1`/`R2`/`D1`), `primary_medical_conditions`, `secondary_medical_conditions`, vectorul semantic (`embedding vector(1024)`) și coloana lexicală (`text_search tsvector`). |
 | `sync_metadata` | Modelul de embeddings, dimensiunea vectorilor, versiunea reprezentării textului și data ultimei sincronizări. |
 
 Un document al cărui SHA-256 nu s-a schimbat este complet ignorat la sincronizare; un document nou sau modificat își înlocuiește fragmentele într-o singură tranzacție.
@@ -226,9 +233,9 @@ Fragmentarea (`src/medicina_naturista/ai/fragmenter.py`) folosește dicționarul
 
 Afecțiunile se caută pe cuvinte întregi, fără diacritice și majuscule, cu toleranță la terminațiile românești (`gripa`/`gripei`). Numele fișierului și al folderelor nu se compară cu afecțiunile. Fragmentele R1 și R2 primesc `primary_medical_conditions` (afecțiunile din titlu) și `secondary_medical_conditions` (afecțiunile din text); D1 nu are afecțiuni. R1 și R2 nu au limită de lungime.
 
-La căutare, fiecare fragment primește scorul `8·P1 + 4·P2 + 2·L + V` (maximum 15): P1 = afecțiunea căutată este în `primary_medical_conditions`, P2 = este în `secondary_medical_conditions`, L = potrivirea lexicală relativă, V = similaritatea semantică rescalată între mediana și maximul căutării. Scorul nu se stochează în DB; detaliile sunt în [fragment-search-and-scoring.md](architecture/fragment-search-and-scoring.md).
+La căutare, fiecare fragment primește scorul `4·P1 + 2·P2 + L + V` (maximum 8): P1 = afecțiunea căutată este în `primary_medical_conditions`, P2 = este în `secondary_medical_conditions`, L = potrivirea lexicală relativă, V = similaritatea semantică rescalată între mediana și maximul căutării. Scorul nu se stochează în DB; detaliile sunt în [fragment-search-and-scoring.md](architecture/fragment-search-and-scoring.md).
 
-Pentru embeddings, un fragment mai lung de `MAX_CHARS = 1400` este împărțit în ferestre care se suprapun cu `OVERLAP_CHARS = 240`, iar vectorii lor se mediază. Diacriticele sunt păstrate prin normalizare Unicode NFC.
+Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit în ferestre care se suprapun cu 240, iar vectorii lor se mediază (valorile, dimensiunea vectorilor și prefixele de text ale fiecărui model sunt în profilul lui din `ai/embedding_model.py`). Diacriticele sunt păstrate prin normalizare Unicode NFC.
 
 ## 🐳 Rulare cu Docker Compose
 
@@ -288,6 +295,8 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `DATABASE_URL` | `postgresql://medicina:medicina@127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului hibrid (`pgvector` + `tsvector`). |
 | `MODEL_CACHE_DIR` | `data/model_cache` | Directorul cache-ului local al modelului ONNX. |
 | `EMBEDDING_THREADS` | `8` (cel mult numărul de nuclee) | Firele de execuție ale modelului de embedding (ONNX Runtime), la indexare și la căutare. Pe procesoare hibride P/E-core, mai puține fire sunt de obicei mai rapide decât toate nucleele. |
+| `EMBEDDING_DEVICE` | `cpu` | Dispozitivul modelului de embedding la **construirea** indexului: `cpu` (FastEmbed/ONNX) sau `cuda` (PyTorch fp16, doar din mediul GPU `.venv-gpu`; fără CUDA build-ul se oprește, nu trece pe CPU). Întrebările din aplicație rulează mereu pe CPU. |
+| `SEARCH_SEMANTIC_ONLY` | `false` | Experiment: `true` ordonează fragmentele doar după semnalul semantic V (ponderile P1, P2 și L devin 0). `false` păstrează formula `4·P1 + 2·P2 + L + V`. Util pentru a compara modelele de embedding fără influența condițiilor și a căutării lexicale. |
 | `SESSION_TEMP_DIR` | `var/sessions` (Windows) / `/tmp/naturist-sessions` | Directorul fișierelor temporare ale sesiunilor. |
 | `MAX_CHAT_CHARS` | `4000` | Lungimea maximă a mesajului utilizatorului. |
 | `X_AI_MAX_CONTEXT_CHARS` | `1000000` | Bugetul (în caractere de text al fragmentelor) pentru `AI_PROVIDER=xai`: fragmentele afișate și trimise către AI. Toate fragmentele primesc scor, se ordonează descrescător, iar cele de la coadă care nu încap sunt eliminate întregi, nu trunchiate. Nu există un prag de relevanță separat și nici o limită de candidați per semnal. |
