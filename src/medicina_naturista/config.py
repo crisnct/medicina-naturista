@@ -49,6 +49,9 @@ def _ai_provider(value: str | None = None) -> str:
 class Settings:
     documents_dir: Path = Path(os.getenv("DOCUMENTS_DIR", str(ROOT / "data" / "documents")))
     model_cache_dir: Path = Path(os.getenv("MODEL_CACHE_DIR", str(ROOT / "data" / "model_cache")))
+    # Threads of the ONNX embedding model. Few threads beat all cores on hybrid
+    # (P/E-core) CPUs, so the default is 8, capped at the machine's core count.
+    embedding_threads: int = _int("EMBEDDING_THREADS", min(8, os.cpu_count() or 8))
     conditions_file: Path = Path(os.getenv("CONDITIONS_FILE", str(ROOT / "data" / "medical_conditions.txt")))
     frontend_dist_dir: Path = Path(os.getenv("FRONTEND_DIST_DIR", str(ROOT / "frontend" / "dist")))
     database_url: str = os.getenv(

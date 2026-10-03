@@ -7,6 +7,8 @@ import os
 from functools import lru_cache
 from pathlib import Path
 
+from medicina_naturista.config import settings
+
 # Default multilingual model used for Romanian and English medical retrieval.
 DEFAULT_MODEL = "intfloat/multilingual-e5-small"
 # Vector width produced by DEFAULT_MODEL and required by the generated index.
@@ -47,7 +49,7 @@ def create_embedding_model(model_name: str, dimension: int, cache_dir: Path):
             dim=dimension,
             model_file=MODEL_FILE,
         )
-    return TextEmbedding(model_name=model_name, cache_dir=str(cache_dir), threads=max(1, (os.cpu_count() or 2) - 1))
+    return TextEmbedding(model_name=model_name, cache_dir=str(cache_dir), threads=settings.embedding_threads)
 
 
 @lru_cache(maxsize=4)
