@@ -1,14 +1,4 @@
-**[Familia COMPOSITAE]{.underline}**
-
-**[Coada soricelului (Achillea Millefolium L.)]{.underline}**
-
-[]{.underline}
-
-[]{.underline}
-
-**[Caractere de recunoastere]{.underline}**
-
-[]{.underline}
+# Coada soricelului (Achillea Millefolium L.) [Familia COMPOSITAE]{.underline}**
 
 **Planta:** Specie ierboasa perena, inalta de 20-80 cm; partea subterana: rizom lignificat, oblic sau orizontal, cu stoloni subterani; tulpini aeriene de doua categorii: tulpini florifere groase pana la 0,5 cm ramificate terminal, foliate, cu internodii lungi si paroase terminate cu inflorescente mici si tulpini sterile cu internodii scurte, purtand numai frunze: frunze: dispuse altern, lanceolate, pana la 30 cm lungime si 1-4 cm latime, cele bazale si de 8 cm in medie, cele tulpinale de 2-3 ori penat sectate cu lacinii foarte inguste; flori dispuse in corimburi compuse din peste 100 antodii ovoide, lungi de 4-6 mm, cu involucru din bractee paroase; la fiecare antodiu sunt 5-6 flori radiale albe cu corola cu 3 lobi, femele si cca 20 flori tubuloase, hermafrodite, cu corola cu 5 dinti, 5 stamine concrescute si ovar inferior; fruct: achena alungita (cca 2 mm), grosime 0,2-0,4 mm.
 
@@ -68,16 +58,7 @@ In filoterapia moderna aceasta specie se utilizeaza in special ca tonic-amar in 
 
 Intra in compozitia ceaiurilor: antiastmatic, anticolitic, contra colicilor nr 2, gastric si gastric nr 2, hepatic nr 2, diuretic nr3 si laxativ antihemoroidal.
 
-**Familia SCROPHULARIACEAE**
-
-**[Degetel rosu (Digitalis Purpurea L.)]{.underline}**
-
-[]{.underline}
-
-[]{.underline}
-
-Caractere de recunoastere
-=========================
+# Degetel rosu (Digitalis Purpurea L.)] **Familia SCROPHULARIACEAE**
 
 **Planta:** Specie bienala, exclusiv de cultura, in primul an numai cu o rozeta de frunze, in al doilea an cu tulpina erecta, neramificata, inalta de 30-120 de cm; intreaga planta este paroasa; radacina: pivotanta, lunga de 20-30 de cm, groasa de circa un cm, cu ramificatii subtiri si foarte dese, care acopera in intregime radacina principala; tulpina; formata numai in anul II, groasa pana la 3 cm, este cenusie din cauza perilor numerosi, moi, alipiti; frunzele: in anul I dispuse in rozeta; in anul II frunzele tulpinale apar altern, dimensiunile lor scazand treptat catre varf; toate frunzele au marginea cu dinti rotunjiti, fata superioara zbarcita cu peri scurti si rari, iar cea inferioara cu peri desi, cenusii si nervatiune penata, foarte evidenta; flori: grupate in raceme cu flori numeroase, dispuse intr-o singura directie; florile au cate un pedicel lung de 1-1,5 cm si cate o mica bractee ovala la baza; corola zigimorfa in forma de degetar, lunga de 3,5-5 cm, avand un labiu superior rotunjit (din 2 petale) si unul inferior din unirea a 3 petale, dintre care cea mijlocie se prelungeste ca o limba; culoarea este rosie-purpurie la exterior, roza la interior, cu peri si cu pete punctiforme brune, inconjurate de catre un cerculet alb; dureaza doar 5-6 zile; fructe: capsule ovoide biloculare, lungi de cca 1 cm, protejate de caliciul persistent; in interior numeroase seminte mici, lungi de cca 2 mm, prismatice, caramizii sau brune.
 

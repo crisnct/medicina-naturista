@@ -1,19 +1,13 @@
-# Uleiuri esentiale
-
 ## Acnee
-
 Uleiuri mentionate: Ambra
 
 ## Astm
-
 Uleiuri mentionate: Frankincense, Myrtle, Isop
 
 ## Anti-insecte
-
 Uleiuri mentionate: Citronella, Cajeput
 
 ## Anafrodisiac
-
 Uleiuri mentionate: Marjoram
 
 ## Afrodisiac

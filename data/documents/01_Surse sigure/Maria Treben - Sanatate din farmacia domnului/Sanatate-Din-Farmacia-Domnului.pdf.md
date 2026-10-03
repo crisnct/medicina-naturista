@@ -279,7 +279,7 @@ Cu aceste comprese nu este obligatoriu sa stati la pat; daca sunt bine fixate .-
 sedea sau chiar umbla cu ele prin casa.
 
 PLANTELE MEDICINALE din farmacia Domnului
-### BRUSTURELE* (Petasites officinalis)
+### BRUSTURELE (Petasites officinalis)
 Brusturele creste pe maluri de rauri si paraie, in santuri si
 liziere. Se mai numeste si broscalan, brustur, buedea- ciumei,
 captalan, clocbcean, gula-de-balta, lipan, podval- mare,

@@ -1,10 +1,7 @@
 ### Alimente Care Ucid Creierul
 
-#### Sinteza unei carti de 446 pagini vanduta in 15.000.000 exemplare,
-
-#### scrisa de dr. David Perlmutter si Kristin Loberg.
-
-#### Cartea care te va renaste.
+Sinteza unei carti de 446 pagini vanduta in 15.000.000 exemplare,
+scrisa de dr. David Perlmutter si Kristin Loberg.
 
 "Pastrarea ordinii, mai curand decat corectarea dezordinii, este principiul esential al intelepciunii. A vindeca o boala dupa ce a aparut este ca si cum ai sapa o fantana cand iti este sete sau ati construi arme dupa ce a inceput razboiul."
 

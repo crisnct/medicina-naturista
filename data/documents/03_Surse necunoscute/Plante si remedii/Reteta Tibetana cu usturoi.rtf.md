@@ -1,21 +1,4 @@
-\*02020603050405020304Times New Roman;Times New Roman CE;Times New Roman Cyr;
-
-Times New Roman Greek;Times New Roman Tur;Times New Roman (Hebrew);Times New Roman (Arabic);
-
-Times New Roman Baltic;;;;;;;;;;
-
-;;;;;;;;
-
-Normal;\*Default Paragraph Font;MILUMILU
-
-\*HOME
-
-\*.\*.\*.\*
-)\*()\*()\*(
-
-)\*()\*()
-
- Reþeta Tibetana cu usturoi
+# Reteta Tibetana cu usturoi
 
  Aceasta reþeta este de 5000 de ani ºi este recomandata in vindecarea unor tumori, prevenirea infarctului miocardic, prevenirea unor boli de stomac [ulcer]. In acelaº
 

@@ -1,9 +1,3 @@
-# Retete traditionale
-
-Retete traditionale
-
-## CANCER
-
 ### Cancer, metastaze, SIDA
 
 Cancer, metastaze, SIDA

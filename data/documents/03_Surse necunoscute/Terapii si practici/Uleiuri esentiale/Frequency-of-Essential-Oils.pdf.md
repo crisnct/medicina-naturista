@@ -1,10 +1,3 @@
-
-# Frequency of Essential Oils
-
-Frequency of Essential Oils
-The power of essential oils cannot be fully comprehended
-without some understanding of their bio -electric properties
-– commonly known as “Frequency”. - - - Human
 ## Human Electrical Frequencies and Fields
 
 Electrical Frequencies and Fields
@@ -266,7 +259,3 @@ Mathematicians joined forces to study the concept of how the human brain
 worked. They discovered a combination of analog and digital coding taking place
 within the brain. They used this study to bring us the first computers during World
 War II. Robert 0. Becker, M.D., the book The Body Electric
-
-## Source
-
-Source:

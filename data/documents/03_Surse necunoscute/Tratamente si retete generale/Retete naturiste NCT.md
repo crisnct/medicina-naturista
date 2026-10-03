@@ -1,5 +1,3 @@
-# Preparate naturale (retete)
-
 ## 1. Anoregin
 
 **1.Anoregin**

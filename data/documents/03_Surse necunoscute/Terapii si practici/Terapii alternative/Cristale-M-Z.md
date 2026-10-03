@@ -1,5 +1,3 @@
-# Cristale M-Z
-
 ## Malahit
 
 **Culori:** nuante de verde inchis**\

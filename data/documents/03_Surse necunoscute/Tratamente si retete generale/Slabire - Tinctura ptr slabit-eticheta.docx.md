@@ -49,7 +49,4 @@ Ingrediente:
 - - alcool 50grd – 1l
 
 Administrare:
-
 O lingura dimineata pe stomacul gol si o lingura noaptea inainte de culcare.
-
-Expira: decembrie 2014

@@ -1,9 +1,11 @@
-# Diverse tratamente
+# Cancer
 
 CANCER Cancer, metastaze, SIDA Se face un amestec din urmatoarele ingrediente: - 200 gr. radacina de brusture (Arcticum lappa) - 450 gr. iarba de macris (Rumex acetosella) maruntita - 30 gr. radacina de revent turcesc pisata (Rheum palmatum) - 115 gr. scoarta de ulm cu coaja neteda pisata (Ulmus fulva) Se pun la fiert 7,7 litri de apa distilata intr-o oala de otel inoxidabil. Dupa ce apa a dat in clocot, se pune o cana din amestecul de plante si se lasa compozitia sa fiarba 10 minute, la foc mic, cu capac (restul de plante se depoziteaza intr-un loc uscat, intunecat si racoros). Se lasa oala inchisa timp de 12 ore, apoi se aprinde aragazul la foc mic si se incalzeste pana aproape de fierbere. (nu se lasa mixtura sa dea in clocot). Se stinge focul si se filtreaza lichidul de 2 ori, prin vata, intr-o alta oala din otel inoxidabil. Se toarna lichidul fierbinte in sticle sterilizate, strangand bine capacele. Se lasa la racit si se strang din nou capacele. Se pastreaza la frigider. Se iau 4 linguri de solutie, dimineata pe stomacul gol. Se poate manca dupa 5 minute. Seara la culcare, se iau inca 4 linguri dupa cel putin 2 ore de la ultima masa. Daca aveti ulcer, solutia trebuie diluata cu o cantitate egala de apa distilata. Se face tratamentul cate 21 de zile pe luna, pauza 7 zile si se reia pana la 6 luni. Preparatul nu are efect daca se fac citostatice.\
+
 ### Cancer, scleroza, boli cardiovasculare, boli renale, dezlipire de retina
 
 Cancer, scleroza, boli cardiovasculare, boli renale, dezlipire de retina Se maruntesc si se pun intr-un vas 5 linguri de cetina (muguri verzi, mai mari). Se toarna deasupra 1/2 litru de apa si se fierbe amestecul 10 minute, la foc mic. Se infuzeaza peste noapte, la cald (intr-un termos) si se bea in cursul zilei urmatoare, in loc de apa. Aceasta fiertura poate fi consumata fara restrictii de timp si nu are contraindicatii.\
+
 ### Cancer de piele cu leziuni extinse
 
 Cancer de piele cu leziuni extinse Se aplica pe piele, o jumatate de ora, o compresa imbibata cu o combinatie de tinctura de arnica si tinctura de marul-lupului, in proportii egale. Dupa 2 ore de la inlaturarea compresei, se unge zona afectata cu tinctura de propolis. Tratamentul se aplica cel putin o data pe zi.\
