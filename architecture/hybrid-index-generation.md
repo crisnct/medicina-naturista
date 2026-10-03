@@ -10,7 +10,7 @@ Documentul are două părți: **[Partea I — Rezumat](#partea-i--rezumat)** (ce
 
 ## Partea I — Rezumat
 
-1. **Pornire** — `rebuild_index.ps1` rulează `build_hybrid_index.py` peste `data/documents` (loturi de 64); baza de date vine din `DATABASE_URL`.
+1. **Pornire** — `python scripts/build_hybrid_index.py` procesează `data/documents` (loturi de 8 ferestre); baza de date vine din `DATABASE_URL`.
 2. **Pregătire** — creează tabelele dacă lipsesc (`documents`, `chunks`, `sync_metadata`) și citește ce documente sunt deja indexate. Dacă regulile de fragmentare s-au schimbat (`TEXT_REPR_VERSION`) sau modelul de embedding este altul, totul se reindexează.
 3. **Ce s-a schimbat** — un document cu același SHA-256 ca în bază este sărit complet; doar cele noi sau modificate merg mai departe.
 4. **Împărțirea în fragmente** (`fragment_document()`) — capitolul cu afecțiunea în titlu devine fragment **R1**, cel cu afecțiunea doar în text devine **R2**, iar restul se taie în bucăți **D1** de ~1800 de caractere. Afecțiunile vin din `data/medical_conditions.txt`. Fragmentele R1 și R2 primesc două liste de afecțiuni: `primary_medical_conditions` (cele din titlul fragmentului; la R2 mereu goală) și `secondary_medical_conditions` (cele din textul fragmentului, fără titlu). Fragmentele D1 nu au afecțiuni. Căutarea le folosește la scor (P1 și P2).
@@ -28,18 +28,12 @@ data/documents/*.md → SHA-256 neschimbat? → da: sărit
 
 ## Partea II — Detalii
 
-### 1. Pornirea procesului — `rebuild_index.ps1`
+### 1. Pornirea procesului — `build_hybrid_index.py`
 
-- **1.1.** Primește parametrul `BatchSize`; valoarea implicită este `64`.
-- **1.2.** Configurează PowerShell să se oprească la prima eroare.
-- **1.3.** Determină directorul-rădăcină al proiectului.
-- **1.4.** Elimină `HF_HUB_OFFLINE`, astfel încât modelul să poată fi descărcat dacă nu există deja în cache.
-- **1.5.** Pornește Python din `.venv`.
-- **1.6.** Execută `build_hybrid_index.py` cu următoarele argumente:
-  - **1.6.1.** `--source data/documents`.
-  - **1.6.2.** `--batch-size 64` sau valoarea furnizată de utilizator.
-  - Argumentul `--model` nu este transmis, deci se folosește valoarea implicită `Qwen/Qwen3-Embedding-0.6B`.
-- **1.7.** Returnează codul de ieșire primit de la scriptul Python.
+- **1.1.** Se rulează direct: `python scripts/build_hybrid_index.py`, cu pythonul care are dependențele proiectului (`.venv` sau cel de sistem). Pentru embedding pe GPU (`EMBEDDING_DEVICE=cuda`) se folosește `.venv-gpu`, care are `torch`.
+- **1.2.** Argumente opționale: `--source` (implicit `data/documents`) și `--model` (implicit `Qwen/Qwen3-Embedding-0.6B`). Dimensiunea lotului nu mai e argument, ci constanta `BATCH_SIZE = 8`.
+- **1.3.** Nu modifică variabilele de mediu `HF_HUB_*`: dacă mediul tău are `HF_HUB_OFFLINE=1`, modelul trebuie să existe deja în `data/model_cache`.
+- **1.4.** Codul de ieșire este `0` când sincronizarea reușește; în caz de eroare scrie `ERROR: <tip>: <mesaj>` pe stderr și iese cu cod diferit de zero.
 
 Conexiunea Postgres vine din `.env` (`DATABASE_URL`), citită de `medicina_naturista.config.settings` — nu e un argument al scriptului.
 
@@ -87,7 +81,7 @@ Acesta este mecanismul de sincronizare incrementală: adăugarea sau modificarea
 
 ### 5. Generarea embedding-urilor
 
-Rulează o singură dată, peste **toate** fragmentele tuturor documentelor „de procesat” adunate la pasul 3 — nu per document — pentru eficiență la loturi (`batch_size`). Dacă nu există niciun fragment nou, acest pas este sărit complet: modelul nici măcar nu este încărcat.
+Rulează o singură dată, peste **toate** fragmentele tuturor documentelor „de procesat” adunate la pasul 3 — nu per document — pentru eficiență la loturi (`BATCH_SIZE = 8` ferestre, constantă în `build_hybrid_index.py`). Dacă nu există niciun fragment nou, acest pas este sărit complet: modelul nici măcar nu este încărcat.
 
 - **5.1.** Încarcă modelul din `data/model_cache`, descărcându-l de pe Hugging Face doar dacă lipsește din cache. Cu `EMBEDDING_DEVICE=cpu` (implicit) folosește FastEmbed/ONNX fp32 cu `Qwen/Qwen3-Embedding-0.6B` (cunoscut nativ de FastEmbed: pooling pe ultimul token, normalizat). Numărul de fire vine din `EMBEDDING_THREADS` (implicit 8, cel mult numărul de nuclee). Cu `EMBEDDING_DEVICE=cuda` folosește adaptorul PyTorch fp16 (`CudaEmbedding`, import leneș al `torch`, doar din `.venv-gpu`); fără CUDA disponibil build-ul se oprește cu o eroare, nu trece pe CPU.
 - **5.2.** Construiește fiecare intrare din: categoria documentului (folderele separate prin ` > `, omisă la rădăcină), numele fișierului-sursă fără extensie, `heading` (când există) — câte unul pe linie — urmate de textul fragmentului; totul este scris după șablonul de pasaj al profilului (Qwen: fără prefix).
@@ -119,7 +113,7 @@ Niciun cititor nu vede vreodată un document cu doar o parte din fragmentele lui
 
 - **8.1.** Scrie în `sync_metadata` numele modelului, dimensiunea vectorilor, data/ora ultimei sincronizări și `text_repr_version`.
 - **8.2.** Afișează un rezumat JSON: `status`, numărul de fișiere scanate, nemodificate, sincronizate și eliminate, numărul de fragmente scrise și numărul de avertismente.
-- **8.3.** Returnează codul de ieșire `0` către `rebuild_index.ps1` atunci când sincronizarea reușește.
+- **8.3.** Returnează codul de ieșire `0` atunci când sincronizarea reușește.
 - **8.4.** În caz de eroare, afișează `ERROR: <tip>: <mesaj>` pe stderr, apoi propagă excepția (traceback Python și cod de ieșire diferit de zero).
 
 ---
