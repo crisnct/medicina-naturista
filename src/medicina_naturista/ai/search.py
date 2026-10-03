@@ -16,25 +16,41 @@ from psycopg.rows import namedtuple_row
 
 from medicina_naturista.ai.conditions import ResolvedQuery, resolve_query
 from medicina_naturista.ai.db import get_pool
-from medicina_naturista.ai.embedding_model import cached_query_model
+from medicina_naturista.ai.embedding_model import cached_query_model, get_profile
 from medicina_naturista.ai.query_terms import GENERIC_QUERY_WORDS, plain
 from medicina_naturista.config import settings
 
-# score = 8*P1 + 4*P2 + 2*L + 1*V, with P1/P2 in {0, 1} and L/V in [0, 1].
+# score = 4*P1 + 2*P2 + L + V, with P1/P2 in {0, 1} and L/V in [0, 1].
 #   P1: a condition the user named is in the fragment's primary conditions (title)
 #   P2: a condition the user named is in the fragment's secondary conditions (text)
 #   L : lexical score, relative to the best lexical match of the search
 #   V : semantic similarity, rescaled from [median, max] of the search to [0, 1]
-# The weights make the priorities strict where it matters: P1 beats every
-# combination of the lower signals (8 > 4 + 2 + 1) and P2 beats lexical plus
-# semantic (4 > 2 + 1). P3 vs P4 is deliberately soft: lexical counts double, so
-# an excellent semantic match can still outrank a weak lexical one.
-WEIGHT_PRIMARY = 8
-WEIGHT_SECONDARY = 4
-WEIGHT_LEXICAL = 2
+# The weights keep the priorities in order: P1 is worth as much as every lower
+# signal at its best (4 = 2 + 1 + 1) and P2 as much as lexical plus semantic
+# (2 = 1 + 1). Only in that extreme tie (a perfect match on everything below)
+# can a lower tier match a higher one. Lexical and semantic weigh the same, so
+# an excellent semantic match can outrank a weak lexical one and vice versa.
+WEIGHT_PRIMARY = 4
+WEIGHT_SECONDARY = 2
+WEIGHT_LEXICAL = 1
 WEIGHT_SEMANTIC = 1
 # The highest score a fragment can reach; relevance_percent = score / MAX_SCORE.
 MAX_SCORE = WEIGHT_PRIMARY + WEIGHT_SECONDARY + WEIGHT_LEXICAL + WEIGHT_SEMANTIC
+
+
+
+# The weights rank() applies: the formula above, or only V when the
+# SEARCH_SEMANTIC_ONLY experiment switch is on.
+def active_weights() -> tuple[int, int, int, int]:
+    if settings.search_semantic_only:
+        return 0, 0, 0, WEIGHT_SEMANTIC
+    return WEIGHT_PRIMARY, WEIGHT_SECONDARY, WEIGHT_LEXICAL, WEIGHT_SEMANTIC
+
+
+# The highest score reachable with the active weights (MAX_SCORE in the normal mode).
+def current_max_score() -> int:
+    return sum(active_weights())
+
 
 # What the evidence text of a fragment adds in front of its indexed text (see
 # Retriever._context()): "Secțiune: <heading>" and a blank line. The context
@@ -124,7 +140,7 @@ def _embedding_metadata(cursor) -> tuple[str, int]:
 #             what makes L and V relative to the search (relevance_percent tells
 #             how good a fragment is within this search, not across searches)
 #             (all similarities equal, e.g. a one-fragment selection: V = 0)
-#   scored    score = 8*P1 + 4*P2 + 2*L + V for every fragment
+#   scored    score = 4*P1 + 2*P2 + L + V for every fragment
 #   kept      running sum of the evidence characters in score order, over the
 #             fragments with score > 0 (a condition, a lexical match or a
 #             semantic similarity above the median); only the prefix that fits
@@ -229,14 +245,22 @@ def rank(
     lexical = _LEXICAL_CTE.format(category_and=category_and) if tsquery else _NO_LEXICAL_CTE
     sql = _RANK_SQL.format(category_where=category_where, lexical=lexical)
 
+    w_primary, w_secondary, w_lexical, w_semantic = active_weights()
     with get_pool().connection() as connection:
         with connection.cursor(row_factory=namedtuple_row) as cursor:
             model_name, dimension = _embedding_metadata(cursor)
-            model = cached_query_model(model_name, dimension, settings.model_cache_dir)
+            # The profile of the model the index was built with decides how the
+            # question is written (prefix / instruction) and its vector width.
+            profile = get_profile(model_name)
+            if profile.dimension != dimension:
+                raise RuntimeError(
+                    f"Index dimension {dimension} does not match model {model_name} ({profile.dimension})."
+                )
+            model = cached_query_model(model_name, settings.model_cache_dir)
             # Unit-length vector: the inner product with the (also unit-length,
             # see build_hybrid_index.py's embed_chunks()) fragment vectors is
             # the cosine similarity. The scan is exact, so V is exact too.
-            vector = np.asarray(list(model.query_embed([f"query: {query}"]))[0], dtype=np.float32)
+            vector = np.asarray(list(model.query_embed([profile.query_text(query)]))[0], dtype=np.float32)
             vector /= np.linalg.norm(vector)
             rows = cursor.execute(
                 sql,
@@ -246,10 +270,10 @@ def rank(
                     "tsquery": tsquery,
                     "categories": list(category_ids) if category_ids else None,
                     "heading_overhead": len(EVIDENCE_HEADING_PREFIX) + len(EVIDENCE_HEADING_SEPARATOR),
-                    "w_primary": WEIGHT_PRIMARY,
-                    "w_secondary": WEIGHT_SECONDARY,
-                    "w_lexical": WEIGHT_LEXICAL,
-                    "w_semantic": WEIGHT_SEMANTIC,
+                    "w_primary": w_primary,
+                    "w_secondary": w_secondary,
+                    "w_lexical": w_lexical,
+                    "w_semantic": w_semantic,
                     "max_chars": max_chars if max_chars is not None else UNLIMITED_CHARS,
                 },
             ).fetchall()

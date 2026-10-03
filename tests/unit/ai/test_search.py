@@ -3,6 +3,7 @@ lexical query, the P1 > P2 > P3 > P4 priorities of rank(), the context budget
 and the category filter."""
 from __future__ import annotations
 
+import dataclasses
 import io
 import tempfile
 import unittest
@@ -13,12 +14,14 @@ from unittest import mock
 import numpy as np
 
 from medicina_naturista.ai import conditions, search
+from medicina_naturista.ai import db as db_module
 from medicina_naturista.ai.conditions import ConditionDictionary, parse_conditions
+from medicina_naturista.ai.embedding_model import PROFILES, EmbeddingProfile, get_profile
 from tests.support.postgres import PostgresFixture
 from scripts import build_hybrid_index as builder
 
 _fixture = PostgresFixture()
-DIM = builder.MODEL_DIMENSION
+DIM = get_profile(builder.DEFAULT_MODEL).dimension
 
 # Made-up conditions, so the tests do not depend on the shipped dictionary.
 DICTIONARY_TEXT = "Zorbita,zorbitoza,zorbit disease\nVertigo,ameteala\n"
@@ -41,8 +44,10 @@ def _dictionary() -> ConditionDictionary:
 class FakeQueryModel:
     def __init__(self, vector: np.ndarray) -> None:
         self.vector = vector
+        self.queries: list[str] = []
 
     def query_embed(self, texts):
+        self.queries.extend(texts)
         for _ in texts:
             yield self.vector
 
@@ -72,7 +77,7 @@ def _build_fixture_index(root: Path, documents: dict[str, str], vectors: dict[st
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(text, encoding="utf-8")
 
-    def fake_embed(_model, chunks, _batch_size):
+    def fake_embed(_model, chunks, _batch_size, _profile):
         return np.asarray([vectors[chunk.source_relative_path] for chunk in chunks], dtype=np.float32)
 
     with (
@@ -136,19 +141,28 @@ class LexicalQueryTests(unittest.TestCase):
 
 
 class WeightTests(unittest.TestCase):
-    # The priorities are strict where it matters: a fragment with the condition
-    # in its title beats any combination of the lower signals, and the
-    # condition in the text beats lexical + semantic together.
+    # The priorities are kept in order: a fragment with the condition in its
+    # title is worth at least any combination of the lower signals, and the
+    # condition in the text at least lexical + semantic together. Only a perfect
+    # score on everything below can tie with the tier above.
     def test_weights_keep_the_priority_order(self):
-        self.assertGreater(
+        self.assertGreaterEqual(
             search.WEIGHT_PRIMARY,
             search.WEIGHT_SECONDARY + search.WEIGHT_LEXICAL + search.WEIGHT_SEMANTIC,
         )
-        self.assertGreater(search.WEIGHT_SECONDARY, search.WEIGHT_LEXICAL + search.WEIGHT_SEMANTIC)
-        self.assertGreater(search.WEIGHT_LEXICAL, search.WEIGHT_SEMANTIC)
+        self.assertGreaterEqual(search.WEIGHT_SECONDARY, search.WEIGHT_LEXICAL + search.WEIGHT_SEMANTIC)
+        self.assertGreater(search.WEIGHT_PRIMARY, search.WEIGHT_SECONDARY)
+        self.assertGreater(search.WEIGHT_SECONDARY, search.WEIGHT_LEXICAL)
 
     def test_max_score_is_the_sum_of_the_weights(self):
-        self.assertEqual(search.MAX_SCORE, 15)
+        self.assertEqual(search.MAX_SCORE, 8)
+
+    def test_semantic_only_switch_zeroes_every_weight_but_v(self):
+        self.assertEqual(search.active_weights(), (4, 2, 1, 1))
+        self.assertEqual(search.current_max_score(), 8)
+        with mock.patch.object(search, "settings", dataclasses.replace(search.settings, search_semantic_only=True)):
+            self.assertEqual(search.active_weights(), (0, 0, 0, 1))
+            self.assertEqual(search.current_max_score(), 1)
 
 
 class RankTestCase(unittest.TestCase):
@@ -161,8 +175,9 @@ class RankTestCase(unittest.TestCase):
         self.addCleanup(self.tmp.cleanup)
         _build_fixture_index(Path(self.tmp.name), self.documents, self.vectors)
         # Every query is embedded as e0; a document's vector decides its cosine.
+        self.query_model = FakeQueryModel(_one_hot(DIM, 0))
         for target, value in (
-            (search, mock.patch.object(search, "cached_query_model", return_value=FakeQueryModel(_one_hot(builder.MODEL_DIMENSION, 0)))),
+            (search, mock.patch.object(search, "cached_query_model", return_value=self.query_model)),
             (conditions, mock.patch.object(conditions, "load_dictionary", return_value=_dictionary())),
         ):
             value.start()
@@ -170,6 +185,37 @@ class RankTestCase(unittest.TestCase):
 
     def by_path(self, results) -> dict[str, dict]:
         return {item["source_relative_path"]: item for item in results}
+
+
+class QueryProfileTests(RankTestCase):
+    documents = {"catA/a.md": "# Plante\n\nCeai de musetel."}
+    vectors = {"catA/a.md": _one_hot(DIM, 0)}
+
+    def test_the_query_is_written_the_way_the_indexed_model_expects(self):
+        search.rank("ceai de musetel")
+
+        profile = get_profile(builder.DEFAULT_MODEL)
+        self.assertEqual(self.query_model.queries, [profile.query_text("ceai de musetel")])
+        self.assertTrue(self.query_model.queries[0].startswith("Instruct: "))
+
+    def test_the_profile_comes_from_the_index_not_from_the_default_model(self):
+        other = EmbeddingProfile("test/other-model", DIM, "q: {text}", "{text}", 1400, 240)
+        with db_module.get_pool().connection() as connection:
+            connection.execute("UPDATE sync_metadata SET value = %s WHERE key = 'model_name'", (other.name,))
+            connection.commit()
+
+        with mock.patch.dict(PROFILES, {other.name: other}):
+            search.rank("ceai de musetel")
+
+        self.assertEqual(self.query_model.queries, ["q: ceai de musetel"])
+
+    def test_an_index_whose_dimension_disagrees_with_its_model_is_rejected(self):
+        with db_module.get_pool().connection() as connection:
+            connection.execute("UPDATE sync_metadata SET value = '64' WHERE key = 'model_dimension'")
+            connection.commit()
+
+        with self.assertRaisesRegex(RuntimeError, "does not match model"):
+            search.rank("ceai de musetel")
 
 
 class PriorityRankTests(RankTestCase):

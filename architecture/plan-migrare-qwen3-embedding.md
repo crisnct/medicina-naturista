@@ -162,6 +162,10 @@ măsurată să vină doar din model. Abia după aceea se testează ferestre mai 
      mărunte din surse)
   3. `pip install --no-cache-dir --only-binary=:all: filelock typing-extensions sympy networkx jinja2 fsspec`
   4. `pip install --no-cache-dir --only-binary=:all: sentence-transformers fastembed`
+  5. dependențele build-ului (importate de `scripts/build_hybrid_index.py`; fără ele
+     scriptul pică la `import dotenv`):
+     `pip install --no-cache-dir --only-binary=:all: numpy python-dotenv "psycopg[binary]" psycopg-pool pgvector`
+     și `pip install --no-deps -e .` pentru pachetul `medicina_naturista`
 - **Cache-ul modelului în `data/model_cache`**: build-ul setează
   `HF_HUB_CACHE` la `settings.model_cache_dir` înainte de a importa `torch`.
   Pe PC-ul dezvoltatorului, *Controlled folder access* (Windows Defender) blochează
@@ -196,6 +200,13 @@ ignorată.
 | Cache Windows → Linux | modelul nu se încarcă în container | `_normalize_fastembed_metadata` acoperă deja; verificat în E3 |
 
 ## 5. Pași de implementare
+
+**Stare:** migrarea la Qwen este decisă și codul trecut complet pe Qwen (`DEFAULT_MODEL`,
+fără profil e5). Evaluarea pe 120 de întrebări a arătat un câștig la Recall@50 (+5,3) și,
+cu ponderea V dublată, la nDCG@10 pe întrebările fără afecțiune (+3,8). Formula scorului a
+devenit `4·P1 + 2·P2 + L + V` (echivalentă cu `8·P1 + 4·P2 + 2·L + 2·V`). Indexul oficial
+(`medicina`) se reconstruiește cu Qwen din `.venv-gpu`; baza `medicina_qwen` era doar pentru
+comparație și se poate șterge.
 
 **Pas 0. Baseline (fără cod nou)**
 Rulezi `scripts/evaluate_retrieval.py --output tmp/eval-e5-baseline.json` pe

@@ -498,6 +498,581 @@
       "headings": [
         "alcool"
       ]
+    },
+    {
+      "query": "Cauta remedii naturiste pentru gripa",
+      "paths": [
+        "gripa"
+      ],
+      "headings": [
+        "grip"
+      ]
+    },
+    {
+      "query": "cauta remedii naturiste pentru dureri de picioare",
+      "paths": [],
+      "headings": [
+        "picioar"
+      ]
+    },
+    {
+      "query": "cauta remedii naturiste pentru hernie de disc",
+      "paths": [],
+      "headings": [
+        "hernia de disc",
+        "disc deplasat",
+        "disc intervertebral",
+        "discartroza"
+      ]
+    },
+    {
+      "query": "cum să slăbesc sănătos",
+      "paths": [
+        "slabit",
+        "cum ne ingrasam",
+        "dieta keto"
+      ],
+      "headings": [
+        "slabit",
+        "obezit"
+      ]
+    },
+    {
+      "query": "antioxidanți naturali",
+      "paths": [
+        "antioxidant"
+      ],
+      "headings": [
+        "antioxidant"
+      ]
+    },
+    {
+      "query": "vitamine și minerale",
+      "paths": [
+        "vitamin"
+      ],
+      "headings": [
+        "vitamin",
+        "minerale"
+      ]
+    },
+    {
+      "query": "cum îmi întăresc imunitatea",
+      "paths": [
+        "imunit",
+        "antiviral"
+      ],
+      "headings": [
+        "imunit"
+      ]
+    },
+    {
+      "query": "plante pentru ficat",
+      "paths": [
+        "ficat"
+      ],
+      "headings": [
+        "ficat"
+      ]
+    },
+    {
+      "query": "remedii naturale pentru rinichi",
+      "paths": [
+        "rinich",
+        "calculi renali"
+      ],
+      "headings": [
+        "rinich",
+        "renal"
+      ]
+    },
+    {
+      "query": "ce pot face împotriva oboselii",
+      "paths": [],
+      "headings": [
+        "oboseal"
+      ]
+    },
+    {
+      "query": "dureri de articulații",
+      "paths": [
+        "articulatii"
+      ],
+      "headings": [
+        "articula"
+      ]
+    },
+    {
+      "query": "cataplasme pentru dureri",
+      "paths": [],
+      "headings": [
+        "cataplasm"
+      ]
+    },
+    {
+      "query": "detoxifierea organismului",
+      "paths": [
+        "detoxifiere"
+      ],
+      "headings": [
+        "detoxif"
+      ]
+    },
+    {
+      "query": "De trei zile am nasul înfundat, strănut și mă ustură gâtul. Ce remedii naturiste pot încerca?",
+      "paths": [
+        "raceala"
+      ],
+      "headings": [
+        "raceal",
+        "guturai",
+        "faringit",
+        "nas infundat"
+      ]
+    },
+    {
+      "query": "Tușesc sec mai ales noaptea și simt o iritație în gât. Ce remedii naturale m-ar putea ajuta?",
+      "paths": [
+        "tuse"
+      ],
+      "headings": [
+        "tuse"
+      ]
+    },
+    {
+      "query": "După masă mă balonez și am multe gaze, mai ales când mănânc leguminoase. Ce pot încerca naturist?",
+      "paths": [],
+      "headings": [
+        "balonar",
+        "meteorism",
+        "flatulent"
+      ]
+    },
+    {
+      "query": "Am arsuri în capul pieptului și gust acru în gură când mă întind după cină. Ce remedii naturiste există?",
+      "paths": [],
+      "headings": [
+        "arsuri la stomac",
+        "reflux",
+        "pirozis",
+        "hernie hiatala"
+      ]
+    },
+    {
+      "query": "Am scaun tare la trei-patru zile și trebuie să mă forțez. Ce soluții naturale mă pot ajuta?",
+      "paths": [
+        "constipatie"
+      ],
+      "headings": [
+        "constipat"
+      ]
+    },
+    {
+      "query": "De ieri am scaune moi de trei ori pe zi și crampe ușoare, fără febră. Ce pot folosi naturist?",
+      "paths": [
+        "diaree"
+      ],
+      "headings": [
+        "diaree"
+      ]
+    },
+    {
+      "query": "Mi se face greață când merg cu mașina și uneori amețesc. Există remedii naturale pentru asta?",
+      "paths": [],
+      "headings": [
+        "greata",
+        "rau de miscare",
+        "rau de masina"
+      ]
+    },
+    {
+      "query": "Adorm greu, uneori după o oră, deși mă simt obosit. Ce remedii naturiste pot încerca?",
+      "paths": [
+        "somn mai bun"
+      ],
+      "headings": [
+        "insomni"
+      ]
+    },
+    {
+      "query": "Mă trezesc de două-trei ori pe noapte și dimineața sunt obosit. Ce m-ar putea ajuta natural?",
+      "paths": [
+        "somn mai bun"
+      ],
+      "headings": [
+        "insomni"
+      ]
+    },
+    {
+      "query": "Când sunt stresat, mă simt agitat și îmi este greu să mă relaxez. Ce opțiuni naturiste am?",
+      "paths": [],
+      "headings": [
+        "stres",
+        "anxiet",
+        "nervozitate"
+      ]
+    },
+    {
+      "query": "Seara simt o presiune la tâmple și am ceafa încordată după lucrul la calculator. Ce pot încerca naturist?",
+      "paths": [],
+      "headings": [
+        "cefalee",
+        "durere de cap",
+        "dureri de cap",
+        "ceafa"
+      ]
+    },
+    {
+      "query": "Mă doare ușor zona lombară după ce stau multe ore pe scaun, fără durere în picioare. Ce mă poate ajuta natural?",
+      "paths": [],
+      "headings": [
+        "lombalg",
+        "lombar",
+        "durere de spate",
+        "dureri de spate"
+      ]
+    },
+    {
+      "query": "Genunchii mă dor când urc scările și sunt puțin rigizi dimineața. Ce remedii naturiste pot fi utile?",
+      "paths": [
+        "artroza, coxartroza, gonartroza"
+      ],
+      "headings": [
+        "artroz",
+        "gonartroz",
+        "genunch"
+      ]
+    },
+    {
+      "query": "Am crampe la gambe noaptea, de câteva ori pe săptămână. Ce soluții naturale pot încerca?",
+      "paths": [],
+      "headings": [
+        "crampe la picioare",
+        "crampe musculare",
+        "gambe"
+      ]
+    },
+    {
+      "query": "Pielea mâinilor este uscată, mă mănâncă și se crapă după spălat. Ce pot aplica natural?",
+      "paths": [],
+      "headings": [
+        "piele uscata",
+        "eczem",
+        "dermatit",
+        "crapaturi"
+      ]
+    },
+    {
+      "query": "Am scuame pe scalp și mă mănâncă pielea, mai ales între spălări. Ce remedii naturiste există?",
+      "paths": [],
+      "headings": [
+        "matreat",
+        "seboree"
+      ]
+    },
+    {
+      "query": "Îmi apar coșuri mici pe frunte și bărbie, iar pielea este grasă. Ce îngrijire naturală pot încerca?",
+      "paths": [
+        "acnee"
+      ],
+      "headings": [
+        "acnee"
+      ]
+    },
+    {
+      "query": "Buzele mi se usucă și se crapă frecvent, mai ales când este frig. Ce remediu natural pot folosi?",
+      "paths": [],
+      "headings": [
+        "buze",
+        "cheilit",
+        "herpes labial"
+      ]
+    },
+    {
+      "query": "Primăvara strănut mult, îmi curge nasul și mă mănâncă ochii. Ce remedii naturiste m-ar putea ajuta?",
+      "paths": [],
+      "headings": [
+        "rinita",
+        "alergi",
+        "febra fanului",
+        "polinoz"
+      ]
+    },
+    {
+      "query": "După câteva ore la monitor simt ochii uscați și usturime. Există măsuri naturale care să mă ajute?",
+      "paths": [],
+      "headings": [
+        "ochi uscat",
+        "xeroftalm",
+        "astenopie"
+      ]
+    },
+    {
+      "query": "În primele două zile de menstruație am crampe abdominale și dureri de spate. Ce pot încerca naturist?",
+      "paths": [],
+      "headings": [
+        "dismenoree",
+        "menstrua"
+      ]
+    },
+    {
+      "query": "Înainte de menstruație sunt iritabilă, mă balonez și mă dor sânii. Ce opțiuni naturale există?",
+      "paths": [],
+      "headings": [
+        "premenstrual",
+        "menstrua"
+      ]
+    },
+    {
+      "query": "Am valuri de căldură și transpir noaptea, iar ciclul a devenit neregulat. Ce remedii naturiste pot încerca?",
+      "paths": [
+        "menopauza"
+      ],
+      "headings": [
+        "menopauz"
+      ]
+    },
+    {
+      "query": "Seara simt picioarele grele și gleznele se umflă ușor după stat mult în picioare. Ce mă poate ajuta natural?",
+      "paths": [
+        "varice"
+      ],
+      "headings": [
+        "varice",
+        "varicoas",
+        "edem",
+        "insuficienta venoasa"
+      ]
+    },
+    {
+      "query": "Am o mică ulcerație dureroasă în interiorul obrazului și mă ustură când mănânc acru. Ce remediu natural pot folosi?",
+      "paths": [],
+      "headings": [
+        "afte",
+        "stomatit"
+      ]
+    },
+    {
+      "query": "Ce remedii naturiste pot folosi pentru răceală?",
+      "paths": [
+        "raceala"
+      ],
+      "headings": [
+        "raceal",
+        "guturai",
+        "faringit",
+        "nas infundat"
+      ]
+    },
+    {
+      "query": "Ce opțiuni naturiste există pentru rinita alergică?",
+      "paths": [],
+      "headings": [
+        "rinita",
+        "alergi",
+        "febra fanului",
+        "polinoz"
+      ]
+    },
+    {
+      "query": "Caut remedii naturiste pentru sinuzita cronică.",
+      "paths": [],
+      "headings": [
+        "sinuzit"
+      ]
+    },
+    {
+      "query": "Ce mă poate ajuta naturist pentru reflux gastroesofagian?",
+      "paths": [],
+      "headings": [
+        "arsuri la stomac",
+        "reflux",
+        "pirozis",
+        "hernie hiatala"
+      ]
+    },
+    {
+      "query": "Ce remedii naturiste sunt potrivite pentru gastrită?",
+      "paths": [
+        "gastrit"
+      ],
+      "headings": [
+        "gastrit"
+      ]
+    },
+    {
+      "query": "Caut soluții naturiste pentru constipație.",
+      "paths": [
+        "constipatie"
+      ],
+      "headings": [
+        "constipat"
+      ]
+    },
+    {
+      "query": "Ce remedii naturale există pentru sindromul de intestin iritabil?",
+      "paths": [],
+      "headings": [
+        "colon iritabil",
+        "intestin iritabil",
+        "colopatie"
+      ]
+    },
+    {
+      "query": "Ce pot folosi naturist pentru hemoroizi?",
+      "paths": [
+        "hemoroizi"
+      ],
+      "headings": [
+        "hemoroi"
+      ]
+    },
+    {
+      "query": "Caut remedii naturiste pentru afte bucale.",
+      "paths": [],
+      "headings": [
+        "afte",
+        "stomatit"
+      ]
+    },
+    {
+      "query": "Ce remedii naturiste pot încerca pentru insomnie?",
+      "paths": [
+        "somn mai bun"
+      ],
+      "headings": [
+        "insomni"
+      ]
+    },
+    {
+      "query": "Ce opțiuni naturiste pot ajuta în anxietatea generalizată?",
+      "paths": [],
+      "headings": [
+        "anxiet"
+      ]
+    },
+    {
+      "query": "Caut remedii naturiste pentru migrenă.",
+      "paths": [],
+      "headings": [
+        "migren"
+      ]
+    },
+    {
+      "query": "Ce mă poate ajuta naturist pentru artroza genunchiului?",
+      "paths": [
+        "artroza, coxartroza, gonartroza"
+      ],
+      "headings": [
+        "artroz",
+        "gonartroz",
+        "genunch"
+      ]
+    },
+    {
+      "query": "Ce opțiuni naturiste există pentru tendinită?",
+      "paths": [],
+      "headings": [
+        "tendinit",
+        "tendon"
+      ]
+    },
+    {
+      "query": "Caut remedii naturiste pentru dermatită atopică.",
+      "paths": [],
+      "headings": [
+        "dermatit",
+        "eczem"
+      ]
+    },
+    {
+      "query": "Ce îngrijire naturistă pot folosi pentru psoriazis?",
+      "paths": [],
+      "headings": [
+        "psoriazis"
+      ]
+    },
+    {
+      "query": "Ce remedii naturiste există pentru acnee?",
+      "paths": [
+        "acnee"
+      ],
+      "headings": [
+        "acnee"
+      ]
+    },
+    {
+      "query": "Caut soluții naturiste pentru dermatita seboreică.",
+      "paths": [],
+      "headings": [
+        "seboree",
+        "dermatit"
+      ]
+    },
+    {
+      "query": "Ce remedii naturale pot ajuta în sindromul de ochi uscat?",
+      "paths": [],
+      "headings": [
+        "ochi uscat",
+        "xeroftalm",
+        "astenopie"
+      ]
+    },
+    {
+      "query": "Ce pot încerca naturist pentru sindromul premenstrual?",
+      "paths": [],
+      "headings": [
+        "premenstrual",
+        "menstrua"
+      ]
+    },
+    {
+      "query": "Caut remedii naturiste pentru dismenoree.",
+      "paths": [],
+      "headings": [
+        "dismenoree",
+        "menstrua"
+      ]
+    },
+    {
+      "query": "Ce opțiuni naturiste există pentru bufeurile de menopauză?",
+      "paths": [
+        "menopauza"
+      ],
+      "headings": [
+        "menopauz"
+      ]
+    },
+    {
+      "query": "Ce mă poate ajuta naturist pentru insuficiența venoasă cronică?",
+      "paths": [
+        "varice"
+      ],
+      "headings": [
+        "varice",
+        "varicoas",
+        "edem",
+        "insuficienta venoasa"
+      ]
+    },
+    {
+      "query": "Caut opțiuni naturiste complementare pentru hipertensiune arterială.",
+      "paths": [
+        "hipertensiune"
+      ],
+      "headings": [
+        "hipertensiune",
+        "tensiune arteriala"
+      ]
+    },
+    {
+      "query": "Ce măsuri naturiste pot ajuta la hipercolesterolemie?",
+      "paths": [
+        "colesterol"
+      ],
+      "headings": [
+        "colesterol"
+      ]
     }
   ]
 }

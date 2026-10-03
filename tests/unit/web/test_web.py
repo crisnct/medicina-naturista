@@ -16,6 +16,7 @@ from reportlab.lib.styles import ParagraphStyle
 
 from medicina_naturista.ai.categories import CategoryNode, CategoryTree
 from medicina_naturista.ai.embedding_model import _normalize_fastembed_metadata
+from medicina_naturista.ai.query_terms import plain
 from medicina_naturista.ai.search import MAX_SCORE
 from medicina_naturista.web import handlers, main
 from medicina_naturista.reporting import pdf as reports_module
@@ -931,7 +932,7 @@ class WebTests(unittest.TestCase):
         self.assertEqual(titled, sorted(titled, reverse=True))
         self.assertTrue(any(
             "Plan tratament naturist" in item["source"]
-            and "Tinctură fructe de soc" in item["text"]
+            and "tinctura fructe de soc" in plain(item["text"])
             for item in evidence.values()
         ))
         self.assertLessEqual(sum(len(item["text"]) for item in evidence.values()), 1_000_000)
