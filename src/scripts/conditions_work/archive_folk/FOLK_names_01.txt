@@ -1,0 +1,456 @@
+Abces
+Abces abdominal
+Abces amibian cerebral
+Abces amibian hepatic
+Abces amibian pulmonar
+Abces apendicular
+Abces axilar
+Abces Brodie
+Abces cerebelos
+Abces cerebral
+Abces cornean
+Abces cutanat
+Abces de glanda Bartholin
+Abces dentar
+Abces dentoalveolar
+Abces epidural
+Abces gastric
+Abces hepatic
+Abces hipofizar
+Abces ileocecal
+Abces intestinal
+Abces mamar
+Abces mandibular
+Abces maxilar
+Abces mediastinal
+Abces miocardic
+Abces ocular
+Abces orbital
+Abces pancreatic
+Abces paradontal
+Abces parafaringian
+Abces pelvin
+Abces periamigdalian
+Abces perianal
+Abces periauricular
+Abces perineal
+Abces periodontal
+Abces perirectal
+Abces perirenal
+Abces peritoneal
+Abces peritonsilar
+Abces pilonidal
+Abces pleural
+Abces prostatic
+Abces psoas
+Abces pulmonar
+Abces pulmonar amibian cu anaerobi
+Abces pulmonar cu anaerobi
+Abces pulmonar cu Klebsiella
+Abces pulmonar cu Pseudomonas
+Abces pulmonar cu stafilococ
+Abces pulmonar primar
+Abces pulmonar secundar
+Abces pulpar
+Abces renal
+Abces retinian
+Abces retrofaringian
+Abces retroperitoneal
+Abces septal nazal
+Abces sinusal
+Abces spinal
+Abces splenic
+Abces subcutanat
+Abces subfrenic
+Abces subungueal
+Abces tiroidian
+Abces tubo-ovarian
+Abces vertebral
+Abetalipoproteinemie
+Absces dentar cronic
+Absces subfrenic cronic
+Absenta de femur
+Absenta de perone
+Acalazie
+Acantosis nigricans
+Acatisia
+Accident ischemic tranzitoriu
+Accident vascular cerebral
+Accident vascular cerebral hemoragic
+Accident vascular cerebral ischemic
+Achromatopsie
+Acidemie glutarica tip I
+Acidemie glutarica tip II
+Acidemie izovalerica
+Acidemie metilmalonica
+Acidemie propionica
+Aciditate gastrica scazuta
+Acidoza
+Acidoza lactica
+Acidoza renala tubulara
+Acidoza renala tubulara distala
+Acidoza renala tubulara distala cu surditate
+Acidoza renala tubulara hiperkalemica
+Acidoza renala tubulara proximala
+Acidoza respiratorie
+Acidurie 3-metilglutaconica
+Acidurie argininosuccinica
+Acidurie malonica si metilmalonica combinata
+Acidurie organica
+Acnee
+Acnee cheloida
+Acnee conglobata
+Acnee cosmetica
+Acnee fulminans
+Acnee hormonala
+Acnee mecanica
+Acnee neonatala
+Acnee rozacee
+Acondrogeneza
+Acondroplazie
+Acrocianoza
+Acrodermatita cronica atrofianta
+Acrodermatita enteropatica
+Acrofobie
+Acromegalie
+Acropahie tiroidiana
+Actinomicoza
+Actinomicoza toracica
+Adenocarcinom
+Adenocarcinom adrenal
+Adenocarcinom alveolar
+Adenocarcinom ampular
+Adenocarcinom anal
+Adenocarcinom aortic
+Adenocarcinom apendicular
+Adenocarcinom biliar
+Adenocarcinom bronhiolar
+Adenocarcinom bronsic
+Adenocarcinom cardiac
+Adenocarcinom cecal
+Adenocarcinom cerebral
+Adenocarcinom cervical
+Adenocarcinom colonic
+Adenocarcinom colorectal
+Adenocarcinom conjunctival
+Adenocarcinom cutanat
+Adenocarcinom duodenal
+Adenocarcinom endometrial
+Adenocarcinom endometroid
+Adenocarcinom esofagian
+Adenocarcinom esofagian cervical
+Adenocarcinom esofagian distal
+Adenocarcinom faringian
+Adenocarcinom gastric
+Adenocarcinom gastric cardial
+Adenocarcinom gastric piloric
+Adenocarcinom gingival
+Adenocarcinom hepatic
+Adenocarcinom hipofizar
+Adenocarcinom ileal
+Adenocarcinom intestinal
+Adenocarcinom jejunal
+Adenocarcinom labial
+Adenocarcinom laringian
+Adenocarcinom lingual
+Adenocarcinom mamar
+Adenocarcinom mediastinal
+Adenocarcinom nazal
+Adenocarcinom nazofaringian
+Adenocarcinom ocular
+Adenocarcinom oral
+Adenocarcinom osos
+Adenocarcinom ovarian
+Adenocarcinom pancreatic
+Adenocarcinom pancreatic ductal
+Adenocarcinom paratiroidian
+Adenocarcinom parotidian
+Adenocarcinom penian
+Adenocarcinom peritoneal
+Adenocarcinom pleural
+Adenocarcinom pulmonar
+Adenocarcinom rectal
+Adenocarcinom renal
+Adenocarcinom renal pelvin
+Adenocarcinom retinian
+Adenocarcinom salivar
+Adenocarcinom sigmoidian
+Adenocarcinom sinusal
+Adenocarcinom splenic
+Adenocarcinom suprarenal
+Adenocarcinom testicular
+Adenocarcinom timic
+Adenocarcinom tiroidian
+Adenocarcinom tubar
+Adenocarcinom ureteral
+Adenocarcinom uretral
+Adenocarcinom uterin
+Adenocarcinom vaginal
+Adenocarcinom vezical
+Adenocarcinom vulvar
+Adenoidita
+Adenom
+Adenom adrenal
+Adenom ampular
+Adenom anal
+Adenom bronsic
+Adenom cervical
+Adenom colonic
+Adenom cutanat
+Adenom de canal biliar
+Adenom de prostata
+Adenom de Vater
+Adenom duodenal
+Adenom endometrial
+Adenom esofagian
+Adenom gastric
+Adenom gingival
+Adenom hepatic
+Adenom hipofizar
+Adenom intestinal
+Adenom labial
+Adenom lingual
+Adenom mamar
+Adenom nazal
+Adenom ovarian
+Adenom pancreatic
+Adenom paraganglionar
+Adenom paratiroidian
+Adenom parotidian
+Adenom pineal
+Adenom rectal
+Adenom renal
+Adenom renal cortical
+Adenom salivar
+Adenom sebaceu
+Adenom sinusal
+Adenom suprarenal
+Adenom testicular
+Adenom timic
+Adenom tiroidian
+Adenom toxic tiroidian
+Adenom tubar
+Adenom uterin
+Adenom vaginal
+Adenom vezical
+Adenom vulvar
+Adenomatoza
+Adenomatoza hepatica
+Adenomatoza pulmonara
+Adenomioza
+Adenomioza vezicii biliare
+Adenoza vaginala
+Aderente pelvine
+Adeziviune peritoneala
+ADHD
+Adrenarha prematura
+Adrenoleucodistrofia cerebrala infantila
+Adrenoleucodistrofie
+Afachie
+Afazie primara progresiva
+Afibrinogenemie
+Afte bucale
+Agamaglobulinemie autozomal recesiva
+Agammaglobulinemie
+Agenezie de canal deferent
+Agenezie de corp calos
+Agenezie de nerv cranian
+Agenezie de nerv optic
+Agenezie de penis
+Agenezie de septum pellucidum
+Agenezie ovariana
+Agenezie renala
+Agenezie uterina
+Agengezie pancreatica
+Agengezie pulmonara
+Agorafobie
+Agranulocitoza
+Albinism
+Albuminurie
+Alcaloza
+Alcaloza respiratorie
+Alcaptonurie
+Alcoolism
+Alergie
+Alergie alimentara
+Alergie la acarieni
+Alergie la alune
+Alergie la antiinflamatoare nesteroidiene
+Alergie la arahide
+Alergie la aspirina
+Alergie la capsuni
+Alergie la citrice
+Alergie la contrast iodat
+Alergie la crustacee
+Alergie la fistic
+Alergie la gluten
+Alergie la grau
+Alergie la kiwi
+Alergie la lapte de vaca
+Alergie la latex
+Alergie la lupin
+Alergie la migdale
+Alergie la moluste
+Alergie la mucegai
+Alergie la mustar
+Alergie la nuci
+Alergie la nuci braziliene
+Alergie la nuci caju
+Alergie la nuci macadamia
+Alergie la nuci pecan
+Alergie la ou
+Alergie la par de caine
+Alergie la par de pisica
+Alergie la penicilina
+Alergie la peste
+Alergie la polen
+Alergie la praf de casa
+Alergie la proteina din lapte
+Alergie la rosii
+Alergie la soia
+Alergie la sulfonamide
+Alergie la susan
+Alergie la telina
+Alergie la venin de albina
+Alergie la venin de viespe
+Alergie medicamentoasa
+Alfa-manozidoza
+Alfa-talasemie
+Aloimunizare trombocitara fetala
+Alopecie
+Alopecie androgenetica
+Alopecie areata
+Alunite
+Alveolita
+Alzheimer
+Amaurosis fugax
+Ambliopie
+Amebiaza
+Amebiaza cutanata
+Amebom intestinal
+Amelie
+Ameloblastom
+Amenoree
+Amenoree hipotalamica
+Ametropie
+Amigdalita
+Amigdalita acuta cu anaerobi
+Amigdalita acuta cu Chlamydia
+Amigdalita acuta cu Haemophilus
+Amigdalita acuta cu Mycoplasma
+Amigdalita acuta cu streptococ
+Amigdalita caseoasa
+Amigdalita cu Actinomyces
+Amigdalita cu adenovirus
+Amigdalita cu Aspergillus
+Amigdalita cu candida
+Amigdalita cu celule plasmocitare
+Amigdalita cu Corynebacterium
+Amigdalita cu enterovirus
+Amigdalita cu Fusobacterium
+Amigdalita cu gonococ
+Amigdalita cu Haemophilus
+Amigdalita cu influenza
+Amigdalita cu micobacterii
+Amigdalita cu parainfluenza
+Amigdalita cu Pneumocystis
+Amigdalita cu Treponema
+Amigdalita cu virus Epstein-Barr
+Amigdalita cu virus herpes simplex
+Amigdalita cu virus respirator sincitial
+Amigdalita foliculara
+Amigdalita hipertrofica
+Amigdalita linguala
+Amigdalita pneumococica
+Amigdalita stafilococica
+Amigdalita virala
+Amiloidoza
+Amiloidoza AA
+Amiloidoza AL
+Amiloidoza asociata dializei
+Amiloidoza ATTR
+Amiloidoza cutanata
+Amiloidoza familiala
+Amiloidoza hepatica
+Amiloidoza intestinala
+Amiloidoza renala
+Amiloidoza renala ereditara
+Amiotrofia diabetica
+Amiotrofia nevralgica
+Amiotrofie spinala
+Amiotrofie spinala cu detresa respiratorie
+Amiotrofie spinala cu predominanta la membrele inferioare
+Amiotrofie spinala distala
+Amiotrofie spinala infantila
+Amiotrofie spinala tip II
+Amiotrofie spinala tip III
+Amiotrofie spinala tip IV
+Amnezie disociativa
+Amnezie globala tranzitorie
+Amorteala picioarelor
+Anafilaxie
+Analbuminemie
+Anaplasmoza
+Ancilostomiaza
+Andropauza
+Anemie
+Anemie aplastica
+Anemie aplastica congenitala
+Anemie aplastica idiopatica
+Anemie aplastica severa
+Anemie autoimuna
+Anemie Cooley
+Anemie de cauza necunoscuta
+Anemie de sarcina
+Anemie Diamond-Blackfan
+Anemie din boala cronica
+Anemie din deficit de cupru
+Anemie din deficit de piridoxina
+Anemie din insuficienta renala cronica
+Anemie din neoplazie
+Anemie diseritropoietica
+Anemie diseritropoietica congenitala
+Anemie diseritropoietica congenitala tip I
+Anemie diseritropoietica congenitala tip II
+Anemie diseritropoietica congenitala tip III
+Anemie drepanocitara HbS-beta-talasemie
+Anemie drepanocitara HbSC
+Anemie eritroblastopenica
+Anemie falciforma
+Anemie Fanconi
+Anemie Fanconi tip A
+Anemie Fanconi tip C
+Anemie Fanconi tip G
+Anemie feripriva
+Anemie hemolitica
+Anemie hemolitica autoimuna calda
+Anemie hemolitica autoimuna la rece
+Anemie hemolitica dobandita
+Anemie hemolitica ereditara
+Anemie hemolitica izoimuna
+Anemie hemolitica microangiopatica
+Anemie hemolitica non-sferocitara
+Anemie hemolitica prin deficit de piruvat kinaza
+Anemie hemolitica prin eliptocitoza
+Anemie hemolitica prin hemoglobina instabila
+Anemie hemolitica prin sferocitoza
+Anemie hiperregenerativa
+Anemie hipocroma
+Anemie hipoplastica
+Anemie hiporegenerativa
+Anemie macrocitara
+Anemie megaloblastica
+Anemie megaloblastica eritrocitara
+Anemie megaloblastica prin deficit de folat
+Anemie megaloblastica prin deficit de vitamina B12
+Anemie microcitara
+Anemie neonatala
+Anemie normocitara
+Anemie normocroma
+Anemie pernicioasa
+Anemie posthemoragica
+Anemie prin ancilostomiaza
+Anemie prin deficit de G6PD
+Anemie refractara
+Anemie refractara cu exces de blasti
+Anemie sideroblastica

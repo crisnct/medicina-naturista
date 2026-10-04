@@ -1,0 +1,369 @@
+Acatisia,acatisie,neliniste motorie,acatisia indusa de neuroleptice,akathisia,neuroleptic-induced akathisia,motor restlessness
+Accident ischemic tranzitoriu,AIT,ischemie cerebrala tranzitorie,atac ischemic tranzitoriu,transient ischemic attack,TIA,transient cerebral ischemia
+Accident vascular cerebral hemoragic,AVC hemoragic,hemoragie cerebrala,hematom intracerebral,hemorrhagic stroke,intracerebral hemorrhage,cerebral hemorrhage
+Accident vascular cerebral ischemic,AVC ischemic,infarct cerebral,ischemie cerebrala acuta,ischemic stroke,cerebral infarction,acute ischemic stroke
+Afazie primara progresiva,afazie progresiva primara,afazie nonfluenta progresiva,afazie fara fluenta progresiva,primary progressive aphasia,progressive nonfluent aphasia,progressive aphasia
+Agenezie de corp calos,agenesia corpului calos,disgenezie de corp calos,lipsa corpului calos,corpus callosum agenesis,absence of corpus callosum,dysgenesis of corpus callosum
+Amiotrofia diabetica,amiotrofie diabetica lombosacrala,radiculoplexoneuropatie diabetica,amiotrofie diabetica proximala,diabetic amyotrophy,diabetic lumbosacral radiculoplexus neuropathy,diabetic radiculoplexus neuropathy
+Amiotrofia nevralgica,nevrita plexului brahial amiotrofica,sindrom Parsonage-Turner,amiotrofie nevralgica a umarului,neuralgic amyotrophy,Parsonage-Turner syndrome,brachial plexus neuritis
+Amnezie globala tranzitorie,episod de amnezie globala tranzitorie,amnezie tranzitorie a varstului,amnezie globala tranzitorie idiopatica,transient global amnesia,TGA,transient global amnesia syndrome
+Anencefalie,anencefalia,absenta creierului,lipsa emisferelor cerebrale,anencephaly,anencephalus,absence of the brain
+Angiopatie amiloida cerebrala,amiloidoza vasculara cerebrala,angiopatia amiloida a creierului,hemoragie prin angiopatie amiloida,cerebral amyloid angiopathy,amyloid angiopathy of the brain,cerebral amyloidosis
+Anizocorie,pupile inegale,inegalitate pupilara,diferenta de diametru intre pupile,anisocoria,unequal pupils,pupillary inequality
+Apoplexie hipofizara,apoplexie pituitara,infarct hemoragic hipofizar,hemoragie in adenom hipofizar,pituitary apoplexy,pituitary infarction,apoplexy of pituitary adenoma
+Apraxie,apraxie ideomotorie,apraxie ideatorie,dezorganizare a miscarilor voluntare,apraxia,ideomotor apraxia,ideational apraxia
+Arahnoidita,arahnoidita adeziva,arahnoidita spinala,arahnoidita optico-chiasmatica,arachnoiditis,adhesive arachnoiditis,spinal arachnoiditis
+Artrogripoza,artrogripoza multipla congenitala,contracturi congenitale multiple,artrogripoza congenitala,arthrogryposis,arthrogryposis multiplex congenita,congenital multiple contractures
+Ataxie episodica,ataxie episodica paroxistica,ataxie paroxistica familiala,ataxie episodica familiala,episodic ataxia,paroxysmal ataxia,episodic ataxia syndrome
+Ataxie telangiectazie,sindrom Louis-Bar,ataxie cu telangiectazii,sindrom ataxie telangiectazie,ataxia-telangiectasia,Louis-Bar syndrome,ataxia telangiectasia syndrome
+Ateroscleroza cerebrala,arterioscleroza cerebrala,scleroza vaselor cerebrale,ateromatoza vaselor cerebrale,cerebral atherosclerosis,atherosclerosis of cerebral arteries,cerebrovascular atherosclerosis
+Atetoza,miscari atetozice,atetoza congenitala,atetoza dobandita,athetosis,athetoid movements,congenital athetosis
+Atrofie cerebeloasa,atrofie a cerebelului,atrofie cerebeloasa corticala,degenerescenta cerebeloasa,cerebellar atrophy,cerebellar degeneration,cerebellar cortical atrophy
+Atrofie dentatorubrala,atrofie dentatorubropalidoluiziana,boala dentatorubrala,degenerescenta dentatorubrala,dentatorubral atrophy,dentatorubral-pallidoluysian atrophy,DRPLA
+Atrofie optica,atrofie a nervului optic,atrofie optica primara,atrofie optica secundara,optic atrophy,optic nerve atrophy,optic nerve degeneration
+Balism,hemibalism,miscari balice,balism unilateral,ballismus,hemiballismus,ballistic movements
+Blefarospasm,spasm al pleoapelor,blefarospasm esential,spasm palpebral,blepharospasm,essential blepharospasm,eyelid spasm
+Boala Alpers,boala Alpers-Huttenlocher,degenerescenta neuronala progresiva a copilului,encefalopatia Alpers,Alpers disease,Alpers-Huttenlocher syndrome,progressive neuronal degeneration of childhood
+Boala Charcot-Marie-Tooth,boala CMT,atrofie musculara peroneala,neuropatie motorie si senzoriala ereditara,Charcot-Marie-Tooth disease,CMT,hereditary motor and sensory neuropathy
+Boala Creutzfeldt-Jakob,boala Creutzfeldt-Jakob sporadica,encefalopatia spongiforma Creutzfeldt-Jakob,boala Jakob-Creutzfeldt,Creutzfeldt-Jakob disease,CJD,sporadic Creutzfeldt-Jakob disease
+Boala Creutzfeldt-Jakob varianta,boala vacii nebune la om,encefalopatia spongiforma bovina la om,boala vacii nebune,variant Creutzfeldt-Jakob disease,variant CJD,new variant Creutzfeldt-Jakob disease
+Boala Dejerine-Sottas,neuropatie hipertrofica Dejerine-Sottas,boala CMT tip 3,neuropatie hipertrofica progresiva,Dejerine-Sottas disease,Dejerine-Sottas neuropathy,hypertrophic neuropathy of infancy
+Boala Kennedy,atrofie musculara bulbospinala,amiotrofie bulbospinala ligata de X,atrofie musculara spinala bulbara,Kennedy disease,spinal and bulbar muscular atrophy,SBMA
+Boala Marburg,scleroza multipla acuta maligna,encefalomielita acuta fulminanta,scleroza multipla fulminanta,Marburg disease,acute malignant multiple sclerosis,Marburg variant of multiple sclerosis
+Boala Marchiafava-Bignami,encefalopatia Marchiafava-Bignami,necroza corpului calos,sindrom Marchiafava-Bignami,Marchiafava-Bignami disease,Marchiafava-Bignami syndrome,corpus callosum necrosis
+Boala moyamoya,moyamoya,sindrom moyamoya,ocluzie progresiva a arterelor cerebrale,moyamoya disease,moyamoya syndrome,spontaneous occlusion of the circle of Willis
+Boala Refsum,boala Refsum infantila,neuropatie ataxica heredopatica,sindrom Refsum,Refsum disease,heredopathia atactica polyneuritiformis,phytanic acid storage disease
+Boala Schilder,scleroza difuza cerebrala,leucoencefalita difuza,encefalita periaxiala difuza,Schilder disease,diffuse cerebral sclerosis,myelinoclastic diffuse sclerosis
+Boala Unverricht-Lundborg,epilepsie mioclonica baltica,mioepilepsie baltica,epilepsie mioclonica progresiva baltica,Unverricht-Lundborg disease,Baltic myoclonic epilepsy,progressive myoclonus epilepsy type 1
+Boala Von Hippel-Lindau,boala Hippel-Lindau,angiomatoza retinocerebeloasa,hemangioblastomatoza,Von Hippel-Lindau disease,VHL disease,retinocerebellar angiomatosis
+Cavernom cerebral,hemangiom cavernos cerebral,malformatie cavernoasa cerebrala,angiom cavernos cerebral,cerebral cavernous malformation,cavernous hemangioma of the brain,cavernoma
+Cefalee cervicogena,cefalee de origine cervicala,cefalee cervicala,durere de cap cervicogena,cervicogenic headache,headache of cervical origin,cervical headache
+Cefalee cluster,cefalee in cluster,cefalee histaminica,algie faciala vasculara,cluster headache,histamine cephalalgia,suicide headache
+Cefalee hipnica,cefalee din somn,cefalee nocturna,durere de cap hipnica,hypnic headache,alarm clock headache,sleep-related headache
+Cefalee postpunctie durata,cefalee post-rachianestezie,cefalee dupa punctionare lombara,cefalee post-spinala,post-dural puncture headache,post-lumbar puncture headache,spinal headache
+Cefalee prin abuz de medicamente,cefalee de rebound,cefalee prin abuz de analgezice,cefalee medicamentoasa,medication overuse headache,rebound headache,analgesic overuse headache
+Claudicatie neurogena,claudicatie de cauza spinala,claudicatie prin stenoza de canal,durere la mers de origine medulara,neurogenic claudication,spinal claudication,claudication due to spinal stenosis
+Coma,stare de coma,stare comatoasa,inconstienta profunda,coma state,comatose state,deep unconsciousness
+Compresie medulara,compresiune a maduvei spinarii,sindrom de compresie medulara,compresie a maduvei,spinal cord compression,compression of the spinal cord,myelopathy due to compression
+Coreea benigna ereditara,coreea benigna familiala,coreea benigna non-progresiva,coreea benigna a copilariei,benign hereditary chorea,benign familial chorea,benign hereditary chorea syndrome
+Coreea gravidica,coreea de sarcina,coreea din timpul sarcinii,coreea asociata sarcinii,chorea gravidarum,chorea of pregnancy,gestational chorea
+Coreea Sydenham,coreea minor,coreea reumatica,coreea poststreptococica,Sydenham chorea,chorea minor,rheumatic chorea
+Coreoatetoza,miscari coreoatetozice,coreoatetoza paroxistica,coreoatetoza dobandita,choreoathetosis,choreoathetoid movements,paroxysmal choreoathetosis
+Crampa scriitorului,crampa functionala a mainii,distonie de tip sarcina a mainii,crampa profesionala a mainii,writer's cramp,graphospasm,occupational cramp
+Criza miastenica,criza miastenica acuta,insuficienta respiratorie miastenica,decompensare miastenica,myasthenic crisis,myasthenic respiratory failure,acute myasthenic crisis
+Crize atonice,crize cu cadere,crize astatice,pierdere brusca a tonusului muscular,atonic seizures,astatic seizures,drop attacks
+Crize generalizate tonico-clonice,crize convulsive generalizate,crize de tip grand mal,crize tonico-clonice bilaterale,generalized tonic-clonic seizures,grand mal seizures,bilateral tonic-clonic seizures
+Crize partiale complexe,crize focale cu alterarea constientei,crize psihomotorii,crize partiale complexe focale,complex partial seizures,focal impaired awareness seizures,psychomotor seizures
+Crize partiale simple,crize focale fara alterarea constientei,crize partiale elementare,crize focale cu constienta pastrata,simple partial seizures,focal aware seizures,simple focal seizures
+Degenerescenta corticobazala,degenerescenta gangliono-bazala,sindrom corticobazal,atrofie corticobazala,corticobasal degeneration,corticobasal syndrome,corticobasal ganglionic degeneration
+Dementa asociata bolii Parkinson,dementa parkinsoniana,dementa in boala Parkinson,dementa din parkinson,Parkinson disease dementia,dementia associated with Parkinson disease,Parkinson dementia
+Dementa cu corpi Lewy,dementa cu corpi Lewy difuzi,boala cu corpi Lewy,dementa Lewy,dementia with Lewy bodies,Lewy body dementia,diffuse Lewy body disease
+Dementa frontotemporala,dementa frontala,boala Pick,degenerescenta lobara frontotemporala,frontotemporal dementia,Pick disease,frontotemporal lobar degeneration
+Dementa vasculara,dementa multiinfarct,dementa prin infarcte multiple,dementa arteriopatica,vascular dementia,multi-infarct dementia,arteriopathic dementia
+Dermatomiozita,dermatomiozita idiopatica,polimiozita cu afectare cutanata,dermatomiozita autoimuna,dermatomyositis,idiopathic dermatomyositis,polymyositis with skin involvement
+Diastematomielie,diastematomielia,maduva despicata,malformatie de maduva despicata,diastematomyelia,split cord malformation,split notochord syndrome
+Diplopie,vedere dubla,diplopie binoculara,imagine dubla,diplopia,double vision,binocular diplopia
+Disectie de artera cervicala,disectie carotidiana,disectie de artera vertebrala,disectie arteriala cervicala,cervical artery dissection,carotid artery dissection,vertebral artery dissection
+Diskinezie tardiva,discinezie tardiva,diskinezie orofaciala tardiva,discinezie indusa de neuroleptice,tardive dyskinesia,tardive oral dyskinesia,neuroleptic-induced dyskinesia
+Distonie,distonie musculara,tulburare distonica,spasm distonic,dystonia,dystonic disorder,muscle dystonia
+Distonie cervicala,torticolis spasmodic,torticolis spastic,spasm al muschilor cervicali,cervical dystonia,spasmodic torticollis,wry neck
+Distonie focala,distonie localizata,distonie izolata,distonie de tip focal,focal dystonia,localized dystonia,task-specific dystonia
+Distonie generalizata,distonie generalizata primara,distonie musculara deformanta,distonie idiopatica de torsiune,generalized dystonia,primary generalized dystonia,idiopathic torsion dystonia
+Distonie laringiana,disfonie spastica,spasm laringian distonic,distonie de corzi vocale,laryngeal dystonia,spasmodic dysphonia,vocal cord dystonia
+Distonie oromandibulara,distonie oromandibulata,spasm oromandibular,distonie craniana,oromandibular dystonia,cranial dystonia,oromandibular spasm
+Distonie paroxistica,distonie paroxistica kinetogena,diskinezie paroxistica,distonie paroxistica primara,paroxysmal dystonia,paroxysmal kinesigenic dyskinesia,paroxysmal dyskinesia
+Edem cerebral,edem al creierului,umflare a creierului,edem cerebral difuz,cerebral edema,brain edema,cerebral oedema
+Embolie cerebrala,embol cerebral,embolie arteriala cerebrala,embolie la nivelul creierului,cerebral embolism,brain embolism,embolic stroke
+Empiem epidural,empiem spinal epidural,colectie purulenta epidurala,supuratie epidurala,spinal epidural empyema,epidural empyema,purulent epidural collection
+Empiem subdural,empiem subdural intracranian,colectie purulenta subdurala,supuratie subdurala,subdural empyema,intracranial subdural empyema,purulent subdural collection
+Encefalita autoimuna,encefalita autoimuna limfocitara,encefalita prin autoanticorpi,encefalita autoimuna non-paraneoplazica,autoimmune encephalitis,antibody-mediated encephalitis,autoimmune encephalitis syndrome
+Encefalita cu anticorpi anti-NMDA,encefalita cu anticorpi anti-receptor NMDA,encefalita anti-NMDAR,encefalita autoimuna anti-NMDA,anti-NMDA receptor encephalitis,NMDA receptor antibody encephalitis,anti-NMDAR encephalitis
+Encefalita cu citomegalovirus,encefalita CMV,encefalita cu citomegalovirus uman,ventriculita CMV,cytomegalovirus encephalitis,CMV encephalitis,cytomegalovirus ventriculitis
+Encefalita cu virus varicelo-zosterian,encefalita zosteriana,encefalita cu virusul varicelei-zoster,encefalita dupa varicela,varicella-zoster encephalitis,zoster encephalitis,herpes zoster encephalitis
+Encefalita cu virus West Nile,encefalita West Nile,infectie neuroinvaziva West Nile,encefalita cu virusul West Nile,West Nile encephalitis,West Nile neuroinvasive disease,West Nile virus encephalitis
+Encefalita herpetica,encefalita cu virus herpes simplex,encefalita necrozanta herpetica,encefalita HSV,herpes simplex encephalitis,HSV encephalitis,herpetic encephalitis
+Encefalita japoneza,encefalita B japoneza,encefalita cu virus japonez,infectie cu virusul encefalitei japoneze,Japanese encephalitis,Japanese B encephalitis,JE virus encephalitis
+Encefalita letargica,encefalita von Economo,encefalita epidemica,somnolenta epidemica,encephalitis lethargica,von Economo encephalitis,epidemic encephalitis
+Encefalita limbica,encefalita sistemului limbic,encefalita paraneoplazica limbica,encefalita limbica autoimuna,limbic encephalitis,paraneoplastic limbic encephalitis,limbic system encephalitis
+Encefalita postinfectioasa,encefalita postvaccinala,encefalita parainfectioasa,encefalita postexantematica,postinfectious encephalitis,postvaccinal encephalitis,parainfectious encephalitis
+Encefalita rujeolasa,encefalita postrujeolasa,encefalita morbiloasa,encefalita dupa pojar,measles encephalitis,postmeasles encephalitis,morbillous encephalitis
+Encefalita toxoplasmica,encefalita cu Toxoplasma gondii,toxoplasmoza cerebrala,encefalita toxoplasmotica,toxoplasmic encephalitis,cerebral toxoplasmosis,toxoplasma encephalitis
+Encefalita transmisa de capuse,encefalita cu virus TBE,encefalita de capusa,encefalita central-europeana,tick-borne encephalitis,TBE virus encephalitis,central european encephalitis
+Encefalocel,encefalocel occipital,herniere congenitala a creierului,prolaps congenital al tesutului cerebral,encephalocele,cranial encephalocele,cephalocele
+Encefalomielita hemoragica acuta,boala Hurst,encefalita hemoragica acuta,encefalomielita necrozanta hemoragica,acute hemorrhagic encephalomyelitis,Hurst disease,acute necrotizing hemorrhagic encephalopathy
+Encefalomiopatie mitocondriala,encefalomiopatie mitocondriala cu acid lactic,boala mitocondriala a creierului si muschilor,encefalomiopatie mitocondriala primara,mitochondrial encephalomyopathy,mitochondrial encephalomyopathy with lactic acidosis,mitochondrial myopathy and encephalopathy
+Encefalopatie hipertensiva,encefalopatie prin hipertensiune arteriala,encefalopatie hipertensiva acuta,encefalopatie prin hipertensiune maligna,hypertensive encephalopathy,acute hypertensive encephalopathy,encephalopathy due to hypertension
+Encefalopatie hipoxica ischemica,leziune cerebrala hipoxica,hipoxie cerebrala,leziune cerebrala anoxica,hypoxic-ischemic encephalopathy,HIE,anoxic brain injury
+Encefalopatie posterioara reversibila,sindrom de encefalopatie posterioara,leucoencefalopatie posterioara reversibila,sindrom de encefalopatie posterioara reversibila,posterior reversible encephalopathy syndrome,PRES,reversible posterior leukoencephalopathy syndrome
+Encefalopatie spongiforma,encefalopatie spongiforma transmisibila,boala prionica,encefalopatie spongiforma umana,spongiform encephalopathy,transmissible spongiform encephalopathy,prion disease
+Epilepsie abdominala,epilepsie viscerala,crize abdominale epileptice,epilepsie digestiva,abdominal epilepsy,visceral epilepsy,epileptic abdominal seizures
+Epilepsie absenta,epilepsie cu absente,petit mal,epilepsie absenta a copilului,absence epilepsy,petit mal epilepsy,absence seizures
+Epilepsie absenta a copilariei,epilepsie absenta infantila,petit mal al copilariei,picnolepsie,childhood absence epilepsy,childhood absence seizures,pyknolepsy
+Epilepsie absenta juvenila,epilepsie absenta a adolescentului,absente juvenile,epilepsie cu absente juvenile,juvenile absence epilepsy,juvenile absence seizures,adolescent absence epilepsy
+Epilepsie benigna a copilariei,epilepsie rolandica benigna,epilepsie benigna cu paroxisme rolandice,epilepsie benigna a copilului,benign childhood epilepsy,benign rolandic epilepsy,childhood epilepsy with centrotemporal spikes
+Epilepsie catameniala,epilepsie menstruala,epilepsie legata de ciclul menstrual,epilepsie perimenstruala,catamenial epilepsy,menstrual epilepsy,perimenstrual seizures
+Epilepsie cu convulsii febrile plus,epilepsie generalizata cu convulsii febrile plus,epilepsie cu convulsii febrile ereditara,sindrom de convulsii febrile plus,genetic epilepsy with febrile seizures plus,generalized epilepsy with febrile seizures plus,GEFS plus
+Epilepsie focala,epilepsie partiala,epilepsie localizata,epilepsie cu focar,focal epilepsy,partial epilepsy,localization-related epilepsy
+Epilepsie fotosensibila,epilepsie la lumina intermitenta,epilepsie declansata de lumina,epilepsie prin stimulare luminoasa,photosensitive epilepsy,photogenic epilepsy,light-induced seizures
+Epilepsie frontala,epilepsie de lob frontal,epilepsie frontala nocturna,epilepsie frontala benigna,frontal lobe epilepsy,frontal epilepsy,nocturnal frontal lobe epilepsy
+Epilepsie frontala nocturna autosomala dominanta,epilepsie frontala nocturna familiala,epilepsie cu crize hiperkinetice in somn,epilepsie frontala nocturna ereditara,autosomal dominant nocturnal frontal lobe epilepsy,familial nocturnal frontal lobe epilepsy,sleep-related hypermotor epilepsy
+Epilepsie gelastica,crize gelastice,epilepsie cu accese de ras,epilepsie hipotalamica,gelastic epilepsy,gelastic seizures,hypothalamic hamartoma epilepsy
+Epilepsie generalizata,epilepsie primar generalizata,epilepsie idiopatica generalizata,epilepsie generalizata primara,generalized epilepsy,primary generalized epilepsy,idiopathic generalized epilepsy
+Epilepsie mioclonica juvenila,epilepsie mioclonica a adolescentului,sindrom Janz,crize mioclonice juvenile,juvenile myoclonic epilepsy,Janz syndrome,juvenile myoclonic seizures
+Epilepsie mioclonica progresiva,mioepilepsie progresiva,epilepsie mioclonica progresiva familiala,mioepilepsie progresiva familiala,progressive myoclonic epilepsy,progressive myoclonus epilepsy,myoclonic progressive epilepsy
+Epilepsie neonatala benigna,epilepsie neonatala familiala benigna,crize neonatale familiale benigne,epilepsie neonatala familiala,benign familial neonatal epilepsy,benign neonatal seizures,benign familial neonatal seizures
+Epilepsie occipitala,epilepsie de lob occipital,epilepsie occipitala idiopatica,epilepsie occipitala benigna,occipital lobe epilepsy,occipital epilepsy,idiopathic occipital epilepsy
+Epilepsie parietala,epilepsie de lob parietal,epilepsie parietala cu aura somatosenzitiva,epilepsie parietala idiopatica,parietal lobe epilepsy,parietal epilepsy,somatosensory seizures
+Epilepsie posttraumatica,epilepsie posttraumatica tardiva,crize epileptice posttraumatice,epilepsie dupa traumatism cranian,post-traumatic epilepsy,posttraumatic seizures,traumatic epilepsy
+Epilepsie reflexa,epilepsie declansata de stimuli,epilepsie reflexa senzoriala,epilepsie declansata reflex,reflex epilepsy,stimulus-sensitive epilepsy,sensory-precipitated epilepsy
+Epilepsie temporala,epilepsie de lob temporal,epilepsie psihomotorie,epilepsie cu crize complexe,temporal lobe epilepsy,psychomotor epilepsy,complex partial epilepsy
+Fistula arteriovenoasa durala,fistula durala arteriovenoasa,fistula AV a dura mater,fistula arteriovenoasa durala intracraniana,dural arteriovenous fistula,dural AV fistula,dural arteriovenous malformation
+Fistula carotido-cavernoasa,fistula arteriovenoasa carotido-cavernoasa,fistula carotida-sinus cavernos,fistula carotido-cavernoasa directa,carotid-cavernous fistula,carotid cavernous fistula,CCF
+Hematom epidural,hemoragie epidurala,hematom epidural intracranian,hemoragie extradurala,epidural hematoma,extradural hematoma,epidural hemorrhage
+Hematom epidural spinal,hematom epidural al coloanei,hemoragie epidurala spinala,hematom epidural rahidian,spinal epidural hematoma,spinal epidural hemorrhage,epidural spinal hematoma
+Hematom subdural,hemoragie subdurala,hematom subdural acut,hematom subdural cronic,subdural hematoma,subdural hemorrhage,chronic subdural hematoma
+Hematomielie,hemoragie intramedulara,hematom intramedular,hemoragie in maduva spinarii,hematomyelia,intramedullary hemorrhage,intraspinal hemorrhage
+Hemicrania continua,cefalee unilaterala continua,hemicranie continua,cefalee hemicranica continua,hemicrania continua syndrome,continuous unilateral headache,persistent hemicrania
+Hemicrania paroxistica,hemicrania paroxistica cronica,cefalee paroxistica unilaterala,sindrom Sjaastad,paroxysmal hemicrania,chronic paroxysmal hemicrania,Sjaastad syndrome
+Hemoragie cerebeloasa,hemoragie cerebelara,hematom cerebelos hemoragic,hemoragie intracerebeloasa,cerebellar hemorrhage,cerebellar haematoma,cerebellar haemorrhage
+Hemoragie intraventriculara,hemoragie in ventriculii cerebrali,hemoragie intraventriculara primara,hemoragie in sistemul ventricular cerebral,intraventricular hemorrhage,intraventricular haemorrhage,ventricular hemorrhage
+Hemoragie pontina,hemoragie de trunchi cerebral,hematom pontin,hemoragie pontina hipertensiva,pontine hemorrhage,brainstem hemorrhage,pontine hematoma
+Hemoragie subarahnoidiana,hemoragie subarahnoidiana aneurismala,hemoragie meningeana,hemoragie subarahnoidiana netraumatica,subarachnoid hemorrhage,subarachnoid haemorrhage,aneurysmal subarachnoid hemorrhage
+Hidranencefalie,hidranencefalia,absenta emisferelor cerebrale,distructie completa a emisferelor cerebrale,hydranencephaly,absence of cerebral hemispheres,hydranencephaly of infancy
+Hidrocefalie,hidrocefalie infantila,hidrocefalie congenitala,acumulare de lichid cefalorahidian in ventriculi,hydrocephalus,hydrocephaly,cerebrospinal fluid accumulation in ventricles
+Hidrocefalie comunicanta,hidrocefalie non-obstructiva,hidrocefalie prin comunicare,hidrocefalie comunicanta posthemoragica,communicating hydrocephalus,non-obstructive hydrocephalus,hydrocephalus communicans
+Hidrocefalie cu presiune normala,hidrocefalie normotensiva,hidrocefalie cu presiune normala a LCR,hidrocefalie normotensiva a adultului,normal pressure hydrocephalus,NPH,normal-pressure hydrocephalus
+Hidrocefalie obstructiva,hidrocefalie prin obstructie,hidrocefalie necomunicanta,hidrocefalie prin obstructie de flux,obstructive hydrocephalus,non-communicating hydrocephalus,hydrocephalus due to obstruction
+Hidromielie,hidromielia,dilatare chistica a canalului medular,cavitate hidromielica,hydromyelia,dilated central canal of spinal cord,hydromyelic cavity
+Hiperekplexie,boala de tresarire,hiperekplexia familiala,hiperekplexie congenitala,hyperekplexia,startle disease,startle syndrome
+Hipersomnie,hipersomnia,hipersomnie idiopatica,somnolenta excesiva prelungita,hypersomnia,idiopathic hypersomnia,primary hypersomnia
+Hipertensiune intracraniana,presiune intracraniana crescuta,crestere a presiunii intracraniene,hipertensiune intracraniana crescuta,intracranial hypertension,raised intracranial pressure,increased intracranial pressure
+Hipertensiune intracraniana benigna,pseudotumora cerebrala,hipertensiune intracraniana idiopatica,sindrom de hipertensiune intracraniana benigna,benign intracranial hypertension,idiopathic intracranial hypertension,pseudotumor cerebri
+Holoprozencefalie,holoprozencefalie alobara,holoprozencefalie lobara,holoprozencefalie semilobara,holoprosencephaly,alobar holoprosencephaly,holoprosencephaly sequence
+Infarct cerebral silentios,infarct cerebral asimptomatic,infarct cerebral fara manifestari,infarct cerebral nedetectat clinic,silent cerebral infarction,silent brain infarction,covert cerebral infarction
+Infarct lacunar,AVC lacunar,infarct lacunar cerebral,infarct cerebral mic,lacunar stroke,lacunar infarction,lacunar infarct
+Insomnia familiala fatala,insomnie fatala familiala,insomnie fatala,insomnie prionica familiala,fatal familial insomnia,FFI,fatal familial insomnia disease
+Insuficienta circulatorie cerebrala cronica,ischemie cerebrala cronica,encefalopatie ischemica cronica,hipoperfuzie cerebrala cronica,chronic cerebral ischemia,chronic cerebrovascular insufficiency,chronic cerebral hypoperfusion
+Insuficienta vertebrobazilara,insuficienta circulatorie vertebrobazilara,ischemie vertebrobazilara,insuficienta arterei bazilare,vertebrobasilar insufficiency,vertebrobasilar ischemia,vertebrobasilar artery insufficiency
+Kuru,boala Kuru,boala rasului,encefalopatie spongiforma din Papua,kuru disease,laughing death,kuru encephalopathy
+Leucoencefalopatia multifocala progresiva,leucoencefalita multifocala progresiva,infectie cerebrala cu virus JC,leucoencefalopatia cu papovavirus,progressive multifocal leukoencephalopathy,PML,JC virus encephalopathy
+Leucoencefalopatia vasculara,leucoencefalopatie de origine vasculara,leucoarajoza,boala cronica a substantei albe de origine vasculara,vascular leukoencephalopathy,leukoaraiosis,white matter lesions of vascular origin
+Lissencefalie,lissencefalie clasica,creier neted,agyrie,lissencephaly,smooth brain,agyria
+Malformatie Arnold-Chiari,malformatia Chiari,malformatie Chiari tip I,herniere a amigdalelor cerebeloase,Arnold-Chiari malformation,Chiari malformation,Chiari type I malformation
+Malformatie arteriovenoasa cerebrala,malformatie arteriovenoasa a creierului,AVM cerebral,angiom arteriovenos cerebral,cerebral arteriovenous malformation,brain arteriovenous malformation,AVM of the brain
+Malformatie arteriovenoasa spinala,AVM spinal,malformatie vasculara spinala,fistula arteriovenoasa spinala,spinal arteriovenous malformation,spinal AVM,spinal vascular malformation
+Malformatie venoasa cerebrala,anomalie venoasa de dezvoltare cerebrala,angiom venos cerebral,malformatie venoasa de dezvoltare,developmental venous anomaly,cerebral developmental venous anomaly,venous angioma of the brain
+Megalencefalie,megalencefalia,hemimegalencefalie,creier marit,megalencephaly,hemimegalencephaly,enlarged brain
+Meningism,sindrom meningean,reactie meningeana,iritatie meningeana,meningismus,meningeal irritation,meningeal syndrome
+Meningita aseptica,meningita limfocitara,meningita non-purulenta,sindrom meningean aseptic,aseptic meningitis,lymphocytic meningitis,nonpurulent meningitis
+Meningita criptococica,meningita cu Cryptococcus,meningita fungica criptococica,meningoencefalita criptococica,cryptococcal meningitis,cryptococcus neoformans meningitis,fungal meningitis due to cryptococcus
+Meningita cu Haemophilus influenzae,meningita cu Haemophilus,meningita H influenzae,meningita purulenta cu Haemophilus,haemophilus influenzae meningitis,haemophilus meningitis,meningitis due to haemophilus influenzae
+Meningita cu Listeria,meningita listeriana,meningita cu Listeria monocytogenes,meningoencefalita listeriana,listeria meningitis,listerial meningitis,listeria monocytogenes meningitis
+Meningita eozinofilica,meningita cu eozinofile,meningita parazitara eozinofilica,meningita helmintica,eosinophilic meningitis,eosinophilic meningoencephalitis,parasitic eosinophilic meningitis
+Meningita meningococica,meningita cu Neisseria meningitidis,meningita cerebrospinala epidemica,meningita meningococcica,meningococcal meningitis,neisseria meningitidis meningitis,epidemic cerebrospinal meningitis
+Meningita pneumococica,meningita cu Streptococcus pneumoniae,meningita pneumococcica,meningita cu pneumococ,pneumococcal meningitis,streptococcus pneumoniae meningitis,meningitis due to pneumococcus
+Meningita recurenta,meningita recidivanta,meningita recurenta benigna,meningita Mollaret,recurrent meningitis,recurrent benign meningitis,Mollaret meningitis
+Meningita stafilococica,meningita cu Staphylococcus aureus,meningita stafilococcica,meningita postoperatorie stafilococica,staphylococcal meningitis,staphylococcus aureus meningitis,meningitis due to staphylococcus
+Meningita tuberculoasa,meningita TBC,meningita bazilara tuberculoasa,leptomeningita tuberculoasa,tuberculous meningitis,TB meningitis,tuberculous leptomeningitis
+Meningoencefalita,meningoencefalita acuta,inflamatia meningelor si a creierului,meningoencefalita virala,meningoencephalitis,acute meningoencephalitis,viral meningoencephalitis
+Miastenie generalizata,miastenia gravis generalizata,miastenie generalizata autoimuna,miastenie cu afectare generalizata,generalized myasthenia,generalized myasthenia gravis,generalized autoimmune myasthenia
+Miastenie oculara,miastenia oculara,miastenia gravis oculara,miastenie oculara pura,ocular myasthenia,ocular myasthenia gravis,myasthenia gravis with ocular involvement
+Microcefalie,microcefalie congenitala,circumferinta craniana mica,cap mic congenital,microcephaly,congenital microcephaly,small head circumference
+Mielinoliza extrapontina,mielinoliza extrapontina osmotica,demielinizare osmotica extrapontina,leziuni demielinizante extrapontine,extrapontine myelinolysis,extrapontine demyelination,osmotic extrapontine myelinolysis
+Mielinoliza pontina centrala,mielinoliza centrala a puntii,sindrom de demielinizare osmotica,distructie osmotica pontina,central pontine myelinolysis,osmotic demyelination syndrome,central pontine demyelination
+Mielita acuta flacida,mielita flacida acuta,mielopatia flacida acuta,mielita acuta flacida virala,acute flaccid myelitis,acute flaccid paralysis syndrome,AFM
+Mielita longitudinala extinsa,mielita transversa longitudinala extinsa,leziune medulara longitudinala extinsa,mielita transversa extinsa longitudinal,longitudinally extensive transverse myelitis,LETM,longitudinally extensive myelitis
+Mielita transversa,mielita transversa acuta,mielopatia transversa,inflamatia transversa a maduvei,transverse myelitis,acute transverse myelitis,transverse myelopathy
+Mielita virala,mielita cu virus,mielita postvirala,mielita infectioasa,viral myelitis,postviral myelitis,infectious myelitis
+Mielopatia asociata HIV,mielopatia vacuolara HIV,mielopatia HIV,mielita HIV,HIV-associated myelopathy,vacuolar myelopathy,HIV myelopathy
+Mielopatia asociata HTLV-1,mielopatie HTLV-1,parapareza spastica tropicala,mielopatia tropicala spastica,HTLV-1 associated myelopathy,tropical spastic paraparesis,HAM TSP
+Mielopatia cervicala spondilogena,mielopatie cervicala prin spondiloza,compresie medulara cervicala degenerativa,mielopatie cervicala degenerativa,cervical spondylotic myelopathy,spondylotic cervical myelopathy,degenerative cervical myelopathy
+Mielopatia ischemica,mielopatie prin ischemie medulara,infarct medular,ischemie a maduvei spinarii,ischemic myelopathy,spinal cord ischemia,spinal cord infarction
+Mielopatia radiationica,mielopatie postradioterapie,mielopatie dupa radioterapie,mielita radiationica,radiation myelopathy,radiation-induced myelopathy,post-radiation myelopathy
+Mielopatia toxica,mielopatie indusa de toxice,mielopatie prin toxice,mielopatia prin protoxid de azot,toxic myelopathy,nitrous oxide myelopathy,myelopathy due to toxins
+Mieloradiculita,mieloradiculita acuta,mieloradiculonevrita,inflamatia maduvei si a radacinilor,myeloradiculitis,acute myeloradiculitis,myeloradiculoneuritis
+Migrena abdominala,migrena cu dureri abdominale,migrena digestiva,migrena de tip abdominal,abdominal migraine,migraine with abdominal pain,childhood abdominal migraine
+Migrena bazilara,migrena de trunchi cerebral,migrena vertebrobazilara,migrena cu aura de trunchi cerebral,basilar migraine,basilar-type migraine,migraine with brainstem aura
+Migrena cronica,migrena transformata,migrena cu frecventa crescuta,migrena zilnica cronica,chronic migraine,transformed migraine,migraine chronification
+Migrena cu aura,migrena clasica,migrena cu aura vizuala,migrena cu aura tipica,migraine with aura,classic migraine,migraine with visual aura
+Migrena fara aura,migrena comuna,migrena simpla,migrena fara aura tipica,migraine without aura,common migraine,simple migraine
+Migrena hemiplegica,migrena hemiplegica familiala,migrena cu pareza tranzitorie,migrena hemiplegica sporadica,hemiplegic migraine,familial hemiplegic migraine,migraine with hemiparesis
+Migrena menstruala,migrena catameniala,migrena legata de menstruatie,migrena perimenstruala,menstrual migraine,catamenial migraine,migraine associated with menstruation
+Migrena oftalmica,migrena retiniana,migrena cu pierdere monoculara a vederii,migrena monoculara,retinal migraine,ocular migraine,ophthalmic migraine
+Migrena vestibulara,migrena cu vertij,migrena cu simptome vestibulare,migrena vestibulara episodica,vestibular migraine,migraine with vestibular symptoms,vestibular migraine disorder
+Mioclonii,mioclonus,sindrom mioclonic,spasme mioclonice,myoclonus,myoclonic jerks,myoclonic syndrome
+Mioglobinurie paroxistica,boala Meyer-Betz,mioglobinurie de efort,mioglobinurie idiopatica,paroxysmal myoglobinuria,Meyer-Betz disease,exercise-induced myoglobinuria
+Miopatia alcoolica,miopatie din alcoolism,miopatie acuta alcoolica,miopatie alcoolica cronica,alcoholic myopathy,alcohol-induced myopathy,acute alcoholic myopathy
+Miopatia congenitala,miopatie congenitala structurala,miopatie congenitala ereditara,miopatie ereditara a fibrelor musculare,congenital myopathy,structural congenital myopathy,hereditary congenital myopathy
+Miopatia critica,miopatie a bolnavului critic,miopatie de terapie intensiva,polineuropatie a bolnavului critic,critical illness myopathy,critical illness polyneuropathy,ICU-acquired weakness
+Miopatia hipotiroidiana,miopatie din hipotiroidism,miopatie hipotiroidiana secundara,miopatie mixedematoasa,hypothyroid myopathy,myopathy of hypothyroidism,myxoedematous myopathy
+Miopatia metabolica,miopatie metabolica ereditara,miopatie metabolica primara,miopatie din tulburari metabolice,metabolic myopathy,inherited metabolic myopathy,metabolic muscle disease
+Miopatia mitocondriala,miopatie mitocondriala primara,miopatie mitocondriala respiratorie,citopatie mitocondriala musculara,mitochondrial myopathy,primary mitochondrial myopathy,mitochondrial muscle disease
+Miopatia steroidica,miopatie indusa de corticosteroizi,miopatie prin corticoterapie,miopatie prin glucocorticosteroizi,steroid myopathy,glucocorticoid-induced myopathy,corticosteroid myopathy
+Miopatie centronucleara,miopatie cu nuclei centrali,miopatie miotubulara,miopatie centronucleara ligata de X,centronuclear myopathy,myotubular myopathy,central nuclei myopathy
+Miopatie nemalinica,miopatie cu bastonase,boala corpurilor nemaline,miopatie nemalinica infantila,nemaline myopathy,nemaline rod myopathy,rod body myopathy
+Miotonie congenitala,boala Thomsen,miotonie generalizata,miotonia congenita,congenital myotonia,Thomsen disease,myotonia congenita
+Miozita autoimuna necrozanta,miozita necrozanta autoimuna,miozita necrozanta imuno-mediata,miozita necrozanta cu anticorpi anti-SRP,immune-mediated necrotizing myopathy,necrotizing autoimmune myopathy,IMNM
+Miozita cu corpi de incluziune,miozita cu incluzii,miozita sporadica cu corpi de incluziune,miozita cu incluziuni citoplasmatice,inclusion body myositis,sporadic inclusion body myositis,IBM myositis
+Moarte cerebrala,moarte encefalica,moarte a trunchiului cerebral,deces cerebral,brain death,cerebral death,brainstem death
+Mononeuritis multiplex,mononeuropatie multipla,neuropatie multipla mononeuritica,mononeuropatie multipla progresiva,multifocal mononeuropathy,multiple mononeuropathy,mononeuritis multiplex syndrome
+Mononeuropatie,mononeuropatie periferica,mononeuropatie de nerv periferic,neuropatie de nerv unic,mononeuropathy,mononeuropathy simplex,single nerve neuropathy
+Mutism akinetic,mutism acinetic,stare de mutism cu akinetism,sindrom de mutism akinetic,akinetic mutism,akinetic mutism syndrome,coma vigil
+Neuroborrelioza,neuroborrelioza Lyme,boala Lyme cu afectare neurologica,borrelioza neurologica,Lyme neuroborreliosis,neuroborreliosis,neurological Lyme disease
+Neurocisticercoza,cisticercoza cerebrala,infestare cerebrala cu Taenia solium,cisticercoza parenchimatoasa,neurocysticercosis,cerebral cysticercosis,taenia solium brain infestation
+Neurofibromatoza tip 1,neurofibromatoza 1,boala von Recklinghausen,NF1,neurofibromatosis type 1,von Recklinghausen neurofibromatosis,NF1 neurofibromatosis
+Neurofibromatoza tip 2,neurofibromatoza 2,neurofibromatoza acustica bilaterala,NF2,neurofibromatosis type 2,bilateral acoustic neurofibromatosis,NF2 neurofibromatosis
+Neuromielita optica,boala Devic,neuromielita optica Devic,sindrom Devic,neuromyelitis optica,Devic disease,Devic syndrome
+Neuromiotonia,sindrom Isaacs,activitate musculara continua,sindrom de activitate musculara continua,neuromyotonia,Isaacs syndrome,continuous muscle fiber activity syndrome
+Neuropatia crioglobulinemica,polineuropatie crioglobulinemica,neuropatie din crioglobulinemie,neuropatie asociata crioglobulinemiei,cryoglobulinemic neuropathy,cryoglobulinemic polyneuropathy,neuropathy in cryoglobulinemia
+Neuropatia indusa de chimioterapie,polineuropatie prin citostatice,neuropatie periferica postchimioterapie,neuropatie din citostatice,chemotherapy-induced peripheral neuropathy,chemotherapy-induced neuropathy,cytostatic-induced polyneuropathy
+Neuropatia nervului ulnar,neuropatie ulnara,pareza ulnara,neuropatie de nerv ulnar,ulnar neuropathy,ulnar nerve palsy,ulnar nerve lesion
+Neuropatia optica ischemica,neuropatie optica ischemica anterioara,infarct al nervului optic,neuropatie optica ischemica non-arteritica,ischemic optic neuropathy,anterior ischemic optic neuropathy,optic nerve infarction
+Neuropatie amiloida,neuropatie amiloidotica,polineuropatie amiloida,neuropatie amiloida familiala,amyloid neuropathy,amyloidotic neuropathy,amyloid polyneuropathy
+Neuropatie autonoma,neuropatie vegetativa,disfunctie autonoma neurogena,neuropatie autonoma idiopatica,autonomic neuropathy,autonomic nerve damage,vegetative neuropathy
+Neuropatie autonoma diabetica,neuropatie autonoma din diabet,neuropatie vegetativa diabetica,neuropatie autonoma la diabetici,diabetic autonomic neuropathy,autonomic diabetic neuropathy,diabetic autonomic dysfunction
+Neuropatie craniana,neuropatie a nervilor cranieni,polineuropatie craniana,afectare a nervilor cranieni,cranial neuropathy,multiple cranial nerve palsy,cranial polyneuropathy
+Neuropatie de compresiune,neuropatie prin compresie,neuropatie prin incarcerare,compresie nervoasa periferica,entrapment neuropathy,compression neuropathy,nerve entrapment syndrome
+Neuropatie senzoriala ereditara,neuropatie senzitiva ereditara,neuropatie senzoriala ereditara dominanta,neuropatie senzoriala ereditara tip I,hereditary sensory neuropathy,hereditary sensory and autonomic neuropathy,hereditary sensory neuropathy type 1
+Neuropatie tomaculoasa,neuropatie cu predispozitie la compresie,neuropatie ereditara cu paralizii de compresie,neuropatie prin compresie recidivanta familiala,hereditary neuropathy with liability to pressure palsies,HNPP,tomaculous neuropathy
+Neuropatie toxica,neuropatie medicamentoasa,polineuropatie toxica,neuropatie indusa de substante toxice,toxic neuropathy,toxic polyneuropathy,drug-induced neuropathy
+Neurosifilis,sifilis nervos,sifilis cerebral,neurosifilis parenchimatos,neurosyphilis,cerebral syphilis,syphilis of the nervous system
+Nevralgia glosofaringiana,nevralgia de nerv glosofaringian,durere paroxistica faringiana,nevralgia nervului glosofaringian,glossopharyngeal neuralgia,glossopharyngeal nerve neuralgia,vagoglossopharyngeal neuralgia
+Nevralgia intercostala,nevralgie intercostala,durere intercostala nevralgica,nevralgia de nervi intercostali,intercostal neuralgia,intercostal nerve pain,neuralgia of intercostal nerves
+Nevralgia occipitala,nevralgia Arnold,nevralgia de nerv occipital,nevralgia occipitala mare,occipital neuralgia,Arnold neuralgia,greater occipital nerve neuralgia
+Nevralgia postherpetica,nevralgie postzosteriana,durere postherpetica,nevralgia dupa zona zoster,postherpetic neuralgia,post-zoster neuralgia,herpetic neuralgia
+Nevralgia pudendala,nevralgie pudendala,durere nevralgica pelvina,nevralgia de nerv pudendal,pudendal neuralgia,pudendal nerve entrapment,neuralgia of pudendal nerve
+Nevrita vestibulara,neuronita vestibulara,vestibulopatie periferica acuta,nevrita vestibulara acuta,vestibular neuritis,vestibular neuronitis,acute vestibular neuropathy
+Oftalmoplegie,oftalmoplegie externa,paralizie a muschilor oculari,oftalmoplegie incompleta,ophthalmoplegia,external ophthalmoplegia,ocular muscle paralysis
+Oftalmoplegie externa progresiva,oftalmoplegie externa progresiva cronica,miopatie oculara mitocondriala,oftalmoplegie externa progresiva mitocondriala,progressive external ophthalmoplegia,chronic progressive external ophthalmoplegia,PEO
+Oftalmoplegie internucleara,oftalmoplegie internucleara de tip INO,disociere oculocefala,oftalmoplegie internucleara bilaterala,internuclear ophthalmoplegia,INO,medial longitudinal fasciculus syndrome
+Paralizia bulbara progresiva,paralizie bulbara,boala neuronului motor bulbar,paralizie labioglosofaringiana,progressive bulbar palsy,bulbar palsy,progressive bulbar paralysis
+Paralizia nervului abducens,paralizia nervului cranian VI,pareza abducens,oftalmoplegie abducens,abducens nerve palsy,sixth cranial nerve palsy,abducens palsy
+Paralizia nervului axilar,paralizie axilara,neuropatie axilara,paralizie de nerv circumflex,axillary nerve palsy,axillary neuropathy,circumflex nerve palsy
+Paralizia nervului glosofaringian,paralizia nervului cranian IX,pareza glosofaringiana,glosofaringoplegie,glossopharyngeal nerve palsy,ninth cranial nerve palsy,glossopharyngeal palsy
+Paralizia nervului hipoglos,paralizia nervului cranian XII,pareza hipoglosa,hipoglosoplegie,hypoglossal nerve palsy,twelfth cranial nerve palsy,hypoglossal palsy
+Paralizia nervului musculocutanat,paralizie musculocutanata,neuropatie musculocutanata,paralizie de nerv musculocutanat,musculocutaneous nerve palsy,musculocutaneous neuropathy,musculocutaneous nerve lesion
+Paralizia nervului oculomotor,paralizia nervului cranian III,pareza oculomotorie,oftalmoplegie oculomotorie,oculomotor nerve palsy,third cranial nerve palsy,oculomotor palsy
+Paralizia nervului peroneu,paralizie peroneala,pareza peroneala,picior cazut,peroneal nerve palsy,foot drop,common peroneal nerve palsy
+Paralizia nervului radial,paralizie radiala,mana cazuta,paralizie de nerv radial,radial nerve palsy,radial neuropathy,wrist drop
+Paralizia nervului sciatic,paralizie sciatica,neuropatie de nerv sciatic,paralizie de nerv sciatic,sciatic nerve palsy,sciatic neuropathy,sciatic nerve lesion
+Paralizia nervului spinal,paralizia nervului cranian XI,pareza spinala,paralizie de nerv accesor,spinal accessory nerve palsy,eleventh cranial nerve palsy,accessory nerve palsy
+Paralizia nervului tibial,paralizie tibiala,neuropatie tibiala posterioara,paralizie de nerv tibial,tibial nerve palsy,tibial neuropathy,posterior tibial nerve palsy
+Paralizia nervului trohlear,paralizia nervului cranian IV,pareza trohleara,oftalmoplegie trohleara,trochlear nerve palsy,fourth cranial nerve palsy,trochlear palsy
+Paralizia nervului vag,paralizia nervului cranian X,pareza vagala,vagoplegie,vagus nerve palsy,tenth cranial nerve palsy,vagal palsy
+Paralizia periodica hiperkaliemica,paralizie periodica cu hiperpotasemie,paralizie periodica familiala hiperkaliemica,boala Gamstorp,hyperkalemic periodic paralysis,familial hyperkalemic periodic paralysis,Gamstorp disease
+Paralizia periodica hipokaliemica,paralizie periodica cu hipopotasemie,paralizia periodica familiala hipokaliemica,boala Westphal,hypokalemic periodic paralysis,familial hypokalemic periodic paralysis,Westphal disease
+Paralizia periodica tiroidiana,paralizie periodica tireotoxica,paralizie periodica hipokaliemica tiroidea,paralizie periodica in hipertiroidism,thyrotoxic periodic paralysis,thyrotoxic hypokalemic periodic paralysis,periodic paralysis in thyrotoxicosis
+Paralizia supranucleara progresiva,oftalmoplegie supranucleara progresiva,sindrom Steele-Richardson-Olszewski,paralizia supranucleara progresiva clasica,progressive supranuclear palsy,Steele-Richardson-Olszewski syndrome,PSP
+Paramiotonie congenitala,boala Eulenburg,paramiotonia congenitala,paramiotonie congenitala a lui Eulenburg,paramyotonia congenita,Eulenburg disease,paramyotonia congenita of Eulenburg
+Paraplegie spastica ereditara,paraplegie spastica familiala,boala Strumpell-Lorrain,paraplegia spastica hereditaria,hereditary spastic paraplegia,Strumpell-Lorrain disease,familial spastic paraplegia
+Parkinsonism medicamentos,parkinsonism indus de medicamente,parkinsonism iatrogen,parkinsonism prin neuroleptice,drug-induced parkinsonism,medication-induced parkinsonism,neuroleptic-induced parkinsonism
+Parkinsonism secundar,parkinsonism simptomatic,parkinsonism dobandit,parkinsonism atipic,secondary parkinsonism,symptomatic parkinsonism,acquired parkinsonism
+Parkinsonism vascular,parkinsonism aterosclerotic,parkinsonism prin infarcte lacunare,parkinsonism prin boala vasculara cerebrala,vascular parkinsonism,arteriosclerotic parkinsonism,lower body parkinsonism
+Plexita brahiala,plexita brahiala acuta,nevrita plexului brahial,plexita brahiala idiopatica,brachial plexitis,acute brachial plexitis,brachial neuritis
+Plexopatie brahiala,plexopatie de plex brahial,afectare a plexului brahial,plexopatie brahiala traumatica,brachial plexopathy,brachial plexus neuropathy,brachial plexus lesion
+Plexopatie lombosacrala,plexopatie de plex lombosacral,afectare a plexului lombosacral,plexopatie lombosacrala diabetica,lumbosacral plexopathy,lumbosacral plexus neuropathy,lumbosacral plexus lesion
+Polimicrogirie,polimicrogiria,polimicrogyrie,polimicrogirie focala,polymicrogyria,PMG,cortical malformation with multiple small gyri
+Polimiozita,polimiozita idiopatica,polimiozita autoimuna,miozita polimiozitica,polymyositis,idiopathic polymyositis,primary polymyositis
+Polineuropatia alcoolica,polineuropatie din alcoolism,neuropatie alcoolica,polineuropatie alcoolica cronica,alcoholic polyneuropathy,alcohol-related polyneuropathy,alcoholic neuropathy
+Polineuropatia demielinizanta cronica inflamatorie,polineuropatie demielinizanta cronica,neuropatie demielinizanta cronica,polineuropatie cronica inflamatorie,chronic inflammatory demyelinating polyneuropathy,CIDP,chronic inflammatory demyelinating polyradiculoneuropathy
+Polineuropatia hipotiroidiana,polineuropatie din hipotiroidism,neuropatie hipotiroidiana,polineuropatie din hipotiroidism cronic,hypothyroid polyneuropathy,hypothyroid neuropathy,neuropathy in hypothyroidism
+Polineuropatia paraneoplazica,polineuropatie paraneoplazica,neuropatie asociata cancerului,neuropatie paraneoplazica,paraneoplastic polyneuropathy,paraneoplastic neuropathy,neuropathy associated with malignancy
+Polineuropatia uremica,polineuropatie din insuficienta renala,neuropatie uremica,polineuropatie din boala cronica de rinichi,uremic polyneuropathy,uremic neuropathy,polyneuropathy of chronic kidney disease
+Poliradiculonevrita,poliradiculonevrita acuta,sindrom Guillain-Barre,poliradiculonevrita idiopatica acuta,Guillain-Barre syndrome,acute inflammatory demyelinating polyradiculoneuropathy,AIDP
+Porencefalie,porencefalie congenitala,porencefalie dobandita,porencefalie chistica,porencephaly,encephaloclastic porencephaly,cerebral porus
+Ptosis palpebral,pleoapa cazuta,ptosis palpebrala,blefaroptoza,ptosis,eyelid droop,drooping eyelid
+Pupila Adie,sindrom Holmes-Adie,pupila tonica,pupila Adie tonica,Adie pupil,Holmes-Adie syndrome,tonic pupil
+Rabdomioliza,rabdomioliza acuta,distructie musculara acuta,liza musculara,rhabdomyolysis,acute rhabdomyolysis,muscle breakdown
+Radiculita,radiculita inflamatorie,radiculita lombara,inflamatia radacinilor nervoase,radiculitis,nerve root inflammation,inflammatory radiculopathy
+Radiculopatie cervicala,radiculopatie de coloana cervicala,compresie radiculara cervicala,radiculopatie cervicala discala,cervical radiculopathy,cervical nerve root compression,cervical radicular pain
+Radiculopatie lombara,radiculopatie de coloana lombara,compresie radiculara lombara,radiculopatie lombara discala,lumbar radiculopathy,lumbar nerve root compression,lumbar radicular pain
+Radiculopatie toracica,radiculopatie de coloana toracica,compresie radiculara toracica,radiculopatie toracica discala,thoracic radiculopathy,thoracic nerve root compression,thoracic radicular pain
+Rombencefalita,rombencefalita infectioasa,encefalita trunchiului cerebral,encefalita rombencefalica,rhombencephalitis,brainstem encephalitis,hindbrain encephalitis
+Schizencefalie,schizencefalie cu buze deschise,fisura cerebrala congenitala,schizencefalie cu buze inchise,schizencephaly,open-lip schizencephaly,cleft in cerebral hemisphere
+Schwanomatoza,schwannomatoza,schwanomatoza familiala,schwanomatoza multipla,schwannomatosis,familial schwannomatosis,multiple schwannomas
+Scleroza concentrica Balo,boala Balo,scleroza multipla concentrica,scleroza concentrica,Balo concentric sclerosis,Balo disease,concentric sclerosis of Balo
+Scleroza laterala primara,boala neuronului motor superior,paralizie pseudobulbara spastica,scleroza laterala primara a adultului,primary lateral sclerosis,PLS,upper motor neuron disease
+Scleroza multipla primar progresiva,scleroza multipla cu progresie primara,scleroza multipla cu evolutie progresiva primara,forma primar progresiva de scleroza multipla,primary progressive multiple sclerosis,PPMS,primary progressive MS
+Scleroza multipla secundar progresiva,scleroza multipla cu progresie secundara,scleroza multipla cu evolutie progresiva secundara,forma secundar progresiva de scleroza multipla,secondary progressive multiple sclerosis,SPMS,secondary progressive MS
+Scleroza tuberoasa,boala Bourneville,scleroza tuberoasa complex,scleroza tuberoasa Bourneville,tuberous sclerosis,tuberous sclerosis complex,Bourneville disease
+Sifilis meningovascular,sifilis meningeal,meningosifilis,sifilis vascular cerebral,meningovascular syphilis,meningeal syphilis,syphilitic meningitis
+Sindrom cerebelos,sindrom cerebellar,disfunctie cerebeloasa,sindrom cerebelos dobandit,cerebellar syndrome,cerebellar dysfunction,cerebellar disease
+Sindrom clinic izolat,sindrom demielinizant izolat,sindrom demielinizant inaugural,primul episod demielinizant,clinically isolated syndrome,CIS,first demyelinating event
+Sindrom Dandy-Walker,malformatie Dandy-Walker,chist al vermisului cerebelos,hidrocefalie prin malformatie Dandy-Walker,Dandy-Walker syndrome,Dandy-Walker malformation,Dandy-Walker complex
+Sindrom de apnee centrala,apnee centrala in somn,apnee centrala din somn,apnee centrala primara,central sleep apnea,central sleep apnoea,central sleep apnea syndrome
+Sindrom de coada de cal,sindrom cauda equina,compresie de coada de cal,sindrom de coada de cal prin hernie discala,cauda equina syndrome,cauda equina compression,lumbosacral nerve root compression syndrome
+Sindrom de coasta cervicala,coasta cervicala suplimentara,compresie prin coasta cervicala,sindrom al coastei cervicale,cervical rib syndrome,cervical rib,thoracic outlet compression by cervical rib
+Sindrom de con medular,sindrom de con terminal,sindromul conului medular,sindrom de con medular terminal,conus medullaris syndrome,conus syndrome,medullary cone syndrome
+Sindrom de durere regionala complexa,distrofie simpatica reflexa,cauzalgie,durere regionala complexa,complex regional pain syndrome,reflex sympathetic dystrophy,causalgia
+Sindrom de faza de somn intarziata,tulburare de ritm circadian cu faza intarziata,intarziere a fazei de somn,somn intarziat patologic,delayed sleep phase syndrome,delayed sleep phase disorder,delayed sleep-wake phase disorder
+Sindrom de furt subclavicular,fenomen de furt subclavicular,furt subclavicular,sindrom de furt al arterei subclavii,subclavian steal syndrome,subclavian steal phenomenon,vertebral artery steal syndrome
+Sindrom de hipertermie maligna,hipertermie maligna,hipertermie maligna anestezica,sindrom de hipertermie maligna la anestezie,malignant hyperthermia,malignant hyperthermia susceptibility,anesthetic-induced malignant hyperthermia
+Sindrom de hipoventilatie centrala congenitala,boala Ondine,hipoventilatie alveolara centrala congenitala,hipoventilatie centrala congenitala,congenital central hypoventilation syndrome,Ondine curse,Ondine's curse
+Sindrom de iesire toracica,sindrom de apertura toracica,compresie neurovasculara toracica,sindrom de iesire toracica neurogen,thoracic outlet syndrome,TOS,neurogenic thoracic outlet syndrome
+Sindrom de locked-in,sindrom de incarcerare,sindrom de deconectare,sindrom de incarcerare a trunchiului cerebral,locked-in syndrome,locked in syndrome,de-efferented state
+Sindrom de pronator,compresie a nervului median la antebrat,sindrom de compresie proximala a nervului median,sindrom pronator teres,pronator teres syndrome,median nerve entrapment at forearm,pronator syndrome
+Sindrom de sinus cavernos,oftalmoplegie de sinus cavernos,leziune de sinus cavernos cu oftalmoplegie,sindrom de sinus cavernos de cauza tumorala,cavernous sinus syndrome,cavernous sinus lesion syndrome,cavernous sinus mass
+Sindrom de tunel cubital,compresie a nervului ulnar la cot,tunel cubital,neuropatie de tunel cubital,cubital tunnel syndrome,ulnar nerve entrapment at elbow,ulnar tunnel syndrome
+Sindrom de tunel radial,sindrom de tunel radial la cot,compresie a nervului radial,sindrom de compresie a nervului interos posterior,radial tunnel syndrome,radial nerve entrapment,supinator syndrome
+Sindrom de tunel tarsian,compresie a nervului tibial posterior,tunel tarsian,neuropatie de tunel tarsian,tarsal tunnel syndrome,posterior tibial nerve entrapment,tibial nerve compression
+Sindrom de vasoconstrictie cerebrala reversibila,vasoconstrictie cerebrala reversibila,sindrom de vasospasm cerebral reversibil,sindrom de vasoconstrictie cerebrala tranzitorie,reversible cerebral vasoconstriction syndrome,RCVS,reversible cerebral vasoconstriction
+Sindrom Doose,epilepsie mioclonica-atona a copilului,epilepsie cu crize mioclonice-atonice,epilepsie mioclonica astatica,Doose syndrome,myoclonic-atonic epilepsy,epilepsy with myoclonic-atonic seizures
+Sindrom Dravet,epilepsie mioclonica severa a sugarului,epilepsie polimorfa a sugarului,epilepsie mioclonica severa infantila,Dravet syndrome,severe myoclonic epilepsy of infancy,infantile severe myoclonic epilepsy
+Sindrom Eaton-Lambert,sindrom miastenic Lambert-Eaton,sindrom Lambert-Eaton,miastenie pseudoparalitica,Lambert-Eaton myasthenic syndrome,Eaton-Lambert syndrome,Lambert-Eaton syndrome
+Sindrom Foster Kennedy,atrofie optica cu edem papilar contralateral,atrofie optica cu papiledem contralateral,sindrom Kennedy,Foster Kennedy syndrome,Kennedy syndrome,optic atrophy with contralateral papilledema
+Sindrom Horner,paralizie oculosimpatica,ptosis cu mioza,sindrom Claude Bernard-Horner,Horner syndrome,oculosympathetic palsy,Horner-Bernard syndrome
+Sindrom Kearns-Sayre,oftalmoplegie externa progresiva cu bloc cardiac,boala Kearns-Sayre,sindrom oculocraniosomatic,Kearns-Sayre syndrome,oculocraniosomatic disease,KSS
+Sindrom Kleine-Levin,hipersomnia periodica,hipersomnia recurenta,sindrom de hipersomnie periodica,Kleine-Levin syndrome,recurrent hypersomnia,periodic hypersomnia
+Sindrom Landau-Kleffner,afazie epileptica dobandita,epilepsie cu afazie,sindrom de afazie epileptica,Landau-Kleffner syndrome,acquired epileptic aphasia,epileptic aphasia
+Sindrom Leigh,encefalomielopatia necrozanta subacuta,boala Leigh,encefalopatia necrozanta infantila,Leigh syndrome,subacute necrotizing encephalomyelopathy,Leigh disease
+Sindrom Lennox-Gastaut,encefalopatie epileptica a copilului,epilepsie cu crize polimorfe,encefalopatie epileptica cu crize polimorfe,Lennox-Gastaut syndrome,childhood epileptic encephalopathy,slow spike-and-wave epilepsy
+Sindrom Meige,sindrom Meige-Henner,blefarospasm cu distonie oromandibulara,distonie cranio-cervicala,Meige syndrome,Meige-Henner syndrome,blepharospasm-oromandibular dystonia
+Sindrom MELAS,encefalomiopatie mitocondriala cu acidoza lactica,miopatie mitocondriala cu episoade asemanatoare AVC,MELAS,MELAS syndrome,mitochondrial encephalopathy with stroke-like episodes,mitochondrial lactic acidosis encephalopathy
+Sindrom MERRF,epilepsie mioclonica cu fibre rosu-sfaramate,encefalomiopatie mitocondriala mioclonica,MERRF,myoclonic epilepsy with ragged red fibers,MERRF syndrome,myoclonic epilepsy associated with ragged red fibers
+Sindrom miastenic congenital,miastenie congenitala,sindrom miastenic ereditar,miastenie congenitala hereditara,congenital myasthenic syndrome,congenital myasthenia,hereditary myasthenic syndrome
+Sindrom Miller-Fisher,varianta Miller-Fisher a sindromului Guillain-Barre,oftalmoplegie cu ataxie si areflexie,sindrom Fisher,Miller Fisher syndrome,Miller-Fisher variant,Fisher syndrome
+Sindrom neuroleptic malign,sindrom neurologic malign,hipertermie neuroleptica,rigiditate cu hipertermie la neuroleptice,neuroleptic malignant syndrome,NMS,malignant neuroleptic syndrome
+Sindrom Ohtahara,encefalopatie epileptica infantila precoce,encefalopatie epileptica neonatala,epilepsie neonatala cu supresie,Ohtahara syndrome,early infantile epileptic encephalopathy,suppression burst pattern encephalopathy
+Sindrom opsoclonus mioclonus,opsoclonus-mioclonus,encefalopatie opsoclonica,sindrom cu ochi dansanti,opsoclonus myoclonus syndrome,opsoclonus-myoclonus-ataxia syndrome,dancing eyes syndrome
+Sindrom Panayiotopoulos,epilepsie occipitala benigna precoce,epilepsie autonoma a copilariei,epilepsie occipitala cu simptome autonome,Panayiotopoulos syndrome,early-onset childhood occipital epilepsy,autonomic epilepsy of childhood
+Sindrom Parinaud,sindrom de paralizie a privirii conjugate,retractie palpebrala,sindrom de paralizie verticala a privirii,Parinaud syndrome,dorsal midbrain syndrome,sylvian aqueduct syndrome
+Sindrom Ramsay Hunt,zona zoster otica,paralizie faciala prin zona zoster,sindrom de zona zoster otica,Ramsay Hunt syndrome,herpes zoster oticus,geniculate ganglion zoster
+Sindrom Sturge-Weber,angiomatoza encefalotrigeminala,boala Sturge-Weber,sindrom encefalotrigeminal,Sturge-Weber syndrome,encephalotrigeminal angiomatosis,Sturge-Weber disease
+Sindrom SUNCT,cefalee neuralgiforma unilaterala cu injectie conjunctivala,cefalee cu intepaturi oculare,cefalee neuralgiforma cu lacrimare,SUNCT syndrome,short-lasting unilateral neuralgiform headache,SUNCT headache
+Sindrom Tolosa-Hunt,oftalmoplegie dureroasa,oftalmoplegie dureroasa recidivanta,sindrom de oftalmoplegie dureroasa,Tolosa-Hunt syndrome,painful ophthalmoplegia,recurrent painful ophthalmoplegia
+Sindrom Walker-Warburg,boala Walker-Warburg,lissencefalie cu distrofie musculara,sindrom muschi-ochi-creier,Walker-Warburg syndrome,muscle-eye-brain disease,cobblestone lissencephaly syndrome
+Sindrom West,spasme infantile,encefalopatie mioclonica infantila,sindrom de spasme infantile,West syndrome,infantile spasms,infantile myoclonic encephalopathy
+Sindromul arterei spinale anterioare,infarct al arterei spinale anterioare,ischemie medulara anterioara,sindrom de infarct medular anterior,anterior spinal artery syndrome,anterior spinal cord infarction,Beck syndrome
+Sindromul persoanei rigide,sindromul omului rigid,boala Moersch-Woltman,sindrom de rigiditate musculara,stiff person syndrome,Moersch-Woltman syndrome,stiff man syndrome
+Sindromul picioarelor nelinistite,boala Willis-Ekbom,sindrom de picioare nelinistite,neliniste a picioarelor,restless legs syndrome,Willis-Ekbom disease,Ekbom syndrome
+Sindromul scalenului anterior,sindrom de scalen,compresie prin muschiul scalen anterior,sindrom de compresie scalenica,scalenus anticus syndrome,anterior scalene syndrome,scalene syndrome
+Siringobulbie,siringobulbia,leziune siringomielica bulbara,siringomielie bulbara,syringobulbia,bulbar syringomyelia,syringomyelia of brainstem
+Siringomielie,siringomielie cervicala,cavitati siringomielice in maduva,siringomielie comunicanta,syringomyelia,cervical syringomyelia,spinal syrinx
+Somniloquie,somn vorbit,vorbire in timpul somnului,vorbit in somn,somniloquy,sleep talking,sleep talking disorder
+Somnul periodic al membrelor,miscari periodice ale membrelor in somn,mioclonie nocturna,sindrom de miscari periodice ale membrelor,sleep-related periodic limb movements,periodic limb movement disorder,nocturnal myoclonus
+Spasm hemifacial,spasm facial unilateral,hemispasm facial,spasm hemifacial esential,hemifacial spasm,unilateral facial spasm,facial hemispasm
+Spina bifida,spina bifida aperta,disrafism spinal,defect de inchidere a tubului neural,myelodysplasia,open spina bifida,spinal dysraphism
+Spina bifida oculta,spina bifida inchisa,disrafism spinal ocult,spina bifida oculta lombosacrala,spina bifida occulta,closed spina bifida,occult spinal dysraphism
+Stare de constienta minima,stare de minima constienta,stare de constienta redusa minim,sindrom de constienta minima,minimally conscious state,minimal consciousness state,MCS
+Stare vegetativa,stare vegetativa persistenta,sindrom apalic,stare vegetativa cronica,vegetative state,persistent vegetative state,apallic syndrome
+Status epilepticus,stare de rau epileptica,status convulsiv,stare epileptica prelungita,grand mal status,convulsive status epilepticus,epileptic state
+Status epilepticus nonconvulsiv,status nonconvulsiv,stare de rau nonconvulsiva,status epilepticus subtil,nonconvulsive status epilepticus,NCSE,subclinical status epilepticus
+Status migrenos,stare de migrena prelungita,migrena refractara,migrena in status,status migrainosus,migraine status,refractory migraine attack
+Stenoza carotidiana,stenoza de artera carotida,ingustare a arterei carotide,stenoza de artera carotida interna,carotid stenosis,carotid artery stenosis,narrowing of the carotid artery
+Stenoza de canal lombar,stenoza spinala lombara,canal lombar ingustat,stenoza degenerativa de canal lombar,lumbar spinal stenosis,spinal stenosis of lumbar spine,neurogenic intermittent claudication
+Tabes dorsalis,tabes,sifilis medular,mielosifilis,syphilitic myelopathy,locomotor ataxia,spinal syphilis
+Terori nocturne,pavor nocturn,spaima nocturna,terori in somn,night terrors,sleep terrors,pavor nocturnus
+Ticuri,ticuri motorii,ticuri vocale,ticuri tranzitorii,tics,motor tics,vocal tics
+Transformare hemoragica a infarctului,infarct hemoragic,transformare hemoragica dupa infarct,infarct cerebral hemoragic,hemorrhagic transformation of infarction,hemorrhagic infarction,hemorrhagic transformation
+Tremor esential,tremor esential familial,tremor benign,boala tremorului,essential tremor,benign essential tremor,familial tremor
+Tremor ortostatic,tremor ortostatic primar,boala tremorului ortostatic,tremor ortostatic primar familial,orthostatic tremor,primary orthostatic tremor,shaky legs syndrome
+Tremor secundar,tremor simptomatic,tremor dobandit,tremor de cauza cunoscuta,secondary tremor,symptomatic tremor,acquired tremor
+Tromboza de artera cerebrala,tromboza arteriala cerebrala,ocluzie arteriala cerebrala,tromboza de artera cerebrala medie,cerebral artery thrombosis,intracranial artery thrombosis,thrombotic occlusion of cerebral artery
+Tromboza de sinus cavernos,tromboflebita sinusului cavernos,sindrom de sinus cavernos trombozat,tromboza septica de sinus cavernos,cavernous sinus thrombosis,thrombosis of cavernous sinus,cavernous sinus thrombophlebitis
+Tromboza de sinus venos cerebral,tromboza sinusurilor venoase cerebrale,tromboza venoasa cerebrala,tromboflebita cerebrala,cerebral venous sinus thrombosis,cerebral venous thrombosis,sinus thrombosis of the brain
+Tulburare de comportament in somnul REM,tulburare de comportament in faza REM,comportament motor in somnul REM,tulburare de comportament in somnul paradoxal,REM sleep behavior disorder,RBD,REM sleep behaviour disorder
+Tumora medulara,tumora a maduvei spinarii,tumora intramedulara,neoplasm medular,spinal cord tumor,spinal cord neoplasm,intramedullary tumor
+Vasculita cerebrala,angiita cerebrala,vasculita primara a sistemului nervos central,arterita cerebrala,cerebral vasculitis,primary angiitis of the central nervous system,central nervous system vasculitis
+Vertij central,vertij de origine centrala,vertij cerebral,vertij de cauza centrala,central vertigo,central vestibular vertigo,cerebral vertigo
+Vertij pozitional paroxistic benign,vertij de pozitie,vertij cu otolite,vertij benign de pozitie,benign paroxysmal positional vertigo,BPPV,positional vertigo

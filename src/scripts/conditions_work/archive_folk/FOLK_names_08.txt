@@ -1,0 +1,456 @@
+Malarie cerebrala
+Malarie congenitala
+Malarie cu Plasmodium falciparum
+Malarie cu Plasmodium knowlesi
+Malarie cu Plasmodium malariae
+Malarie cu Plasmodium ovale
+Malarie cu Plasmodium vivax
+Malarie severa
+Malformatie adenomatoasa chistica
+Malformatie anorectala
+Malformatie Arnold-Chiari
+Malformatie arteriovenoasa cerebrala
+Malformatie arteriovenoasa spinala
+Malformatie de ureche interna
+Malformatie de ureche medie
+Malformatie de vitros
+Malformatie intestinala congenitala
+Malformatie Klippel-Feil
+Malformatie vasculara
+Malformatie vasculara hepatica
+Malformatie venoasa cerebrala
+Malnutritie
+Malnutritie proteino-energetica
+Malnutritie severa acuta
+Manie cu simptome psihotice
+Mansoneloza
+Marasm
+Mastita
+Mastocitoza cutanata
+Mastocitoza gastrointestinala
+Mastocitoza sistemica
+Mastoidita
+Mastopatie fibrochistica
+Matreata
+Mediastinita
+Mediastinita cu Mucor
+Mediastinita descendenta necrozanta
+Mediastinita fungica
+Mediastinita granulomatoasa
+Mediastinita sifilitica
+Mediastinita tuberculoasa
+Meduloblastom
+Medulom
+Megacolon
+Megacolon toxic
+Megalencefalie
+Megalocornee
+Megaureter
+Melanom
+Melanom acral
+Melanom amelanotic
+Melanom anorectal
+Melanom conjunctival
+Melanom coroidal
+Melanom esofagian
+Melanom malign familial
+Melanonichie
+Melanoza cutanata
+Melasma
+Melena
+Melioidoza
+Meloreostoza
+Membrana epiretiniana
+Meningiom benign
+Meningiom de teaca nervului optic
+Meningiom malign
+Meningism
+Meningita
+Meningita aseptica
+Meningita criptocococica
+Meningita cu Haemophilus influenzae
+Meningita cu Listeria
+Meningita cu Salmonella
+Meningita enterovirala
+Meningita herpetica
+Meningita meningococica
+Meningita neonatala
+Meningita pneumococica
+Meningita postoperatorie
+Meningita stafilococica
+Meningita urliana
+Meningocel
+Meningococemie
+Meningoencefalita
+Meningoencefalita amibiana primara
+Menopauza
+Menoragie
+Menstruatii neregulate
+Meralgie parestezica
+MERS
+Metagonimoza
+Metaplazie intestinala
+Metaplazie mieloida
+Metastaze cerebrale
+Metastaze cutanate
+Metastaze ganglionare
+Metastaze hepatice
+Metastaze hepatice multiple
+Metastaze osoase
+Metastaze ovariene
+Metastaze peritoneale
+Metastaze pleurale
+Metastaze pulmonare
+Metastaze pulmonare multiple
+Metastaze suprarenale
+Meteorism
+Methemoglobinemie
+Metroendometrita
+Metroragie
+Mezoteliom benign
+Mezoteliom de tunica vaginala testiculara
+Mezoteliom pericardic
+Mezoteliom peritoneal
+Mezoteliom pleural
+Miastenie
+Miastenie generalizata
+Miastenie oculara
+Mica pneumoconioza
+Micetom
+Micobacterioza atipica
+Micoza hepatica
+Micoza intestinala
+Micoza piciorului
+Micoze
+Micozis fungoides
+Microangiopatie trombotica
+Microcefalie
+Microcornee
+Microftalmie
+Micrognatie
+Micropenis
+Microsferofakie
+Microsporidioza
+Microstomie
+Microtie
+Mielinoliza extrapontina
+Mielinoliza pontina centrala
+Mielita acuta flacida
+Mielita longitudinala extinsa
+Mielita transversa
+Mielita virala
+Mielodisplazie secundara
+Mielofibroza primara
+Mieloftizie
+Mielom multiplu
+Mielom multiplu asimptomatic
+Mielopatia asociata HIV
+Mielopatia asociata HTLV-1
+Mielopatia cervicala spondilogena
+Mielopatia ischemica
+Mielopatia radiationica
+Mielopatia toxica
+Mieloradiculita
+Mielosupresie
+Migrena
+Migrena abdominala
+Migrena bazilara
+Migrena cu aura
+Migrena fara aura
+Migrena hemiplegica
+Migrena menstruala
+Migrena oftalmica
+Migrena vestibulara
+Miiaza
+Miliara tuberculoasa pulmonara
+Miliaria rubra
+Milium
+Miocardiopatie ischemica
+Miocardita
+Miocardita gigantocelulara
+Miocardita reumatica
+Mioclonii
+Miodesopsie
+Mioglobinurie paroxistica
+Miom intramural
+Miom submucos
+Miom subseros
+Miopatia alcoolica
+Miopatia congenitala
+Miopatia critica
+Miopatia hipotiroidiana
+Miopatia metabolica
+Miopatia mitocondriala
+Miopatia steroidica
+Miopatie
+Miopatie central core
+Miopatie centronucleara
+Miopatie cu coloana rigida
+Miopatie multicore
+Miopatie nemalinica
+Miopatie prin mutatie RYR1
+Miopatie viscerala intestinala
+Miopie
+Miotonie agravata de potasiu
+Miotonie congenitala
+Miotonie congenitala recesiva
+Miozita
+Miozita autoimuna necrozanta
+Miozita cu corpi de incluziune
+Miozita infectioasa
+Miozita osificanta
+Miozita virala
+Miringita
+Miringita buloasa
+Miringita hemoragica
+Misofonie
+Mixedem
+Mixom
+Mixom atrial
+Moarte cerebrala
+Moarte fetala in utero
+Moarte subita cardiaca
+Mola hidatiforma
+Mola hidatiforma invaziva
+Monocitopenie
+Monocitoza
+Mononeuritis multiplex
+Mononeuropatie
+Mononucleoza cu citomegalovirus
+Mononucleoza infectioasa
+Monturi
+Morfea
+Morva
+Mucinoza cutanata
+Mucocel de sac lacrimal
+Mucocel sinusal
+Mucolipidoza
+Mucolipidoza tip III
+Mucolipidoza tip IV
+Mucopolizaharidoza
+Mucopolizaharidoza tip IX
+Mucormicoza pulmonara
+Mucormikoza
+Mucormikoza cutanata
+Mucormikoza pulmonara
+Mucormikoza rino-orbito-cerebrala
+Muscatura de caine
+Muscatura de paianjen
+Muscatura de sarpe
+Mutatia factorului V Leiden
+Mutism akinetic
+Mutism selectiv
+Nanism
+Nanism cu par scurt si hipoplazie de cartilaj
+Nanism diastrofic
+Nanism psihosocial
+Nanism tanatofor
+Narcolepsie
+Nastere prematura
+Nazofaringita cronica
+Nazofaringita cu adenovirus
+Nazofaringita cu bocavirus
+Nazofaringita cu citomegalovirus
+Nazofaringita cu coronavirus
+Nazofaringita cu enterovirus
+Nazofaringita cu metapneumovirus
+Nazofaringita cu rinovirus
+Nazofaringita cu virus Epstein-Barr
+Nazofaringita cu virus herpes simplex
+Nazofaringita cu virus paragripal
+Nazofaringita cu virus respirator sincitial
+Nazofaringita cu virus rubeolic
+Nazofaringita cu virus rujeolic
+Nazofaringita cu virus sinicial respirator
+Nazofaringita cu virus varicela-zoster
+Nazofaringita virala
+Necroliza epidermica toxica
+Necroza aseptica a capului femural
+Necroza avasculara
+Necroza cutanata
+Necroza de grasime subcutanata a nou-nascutului
+Necroza hepatica
+Necroza pancreatica
+Necroza papilara
+Necroza pulmonara cu stafilococ
+Necroza tubulara acuta
+Nefrita
+Nefrita interstitiala
+Nefroblastom
+Nefrocalcinoza
+Nefronoftizia
+Nefronoftizia infantila
+Nefropatia analgezica
+Nefropatia cu leziuni minime
+Nefropatia de reflux
+Nefropatia gutoasa
+Nefropatia hipercalcemica
+Nefropatia hipokalemica
+Nefropatia IgA
+Nefropatia ischemica
+Nefropatia lupica
+Nefropatia membranoasa
+Nefropatia mielomatoasa
+Nefropatia obstructiva
+Nefropatia purpurica
+Nefropatie diabetica
+Nefropatie hipertensiva
+Nefroptoza
+Negi
+Negi perlati
+Neoplasie endocrina multipla tip 1
+Neoplasie endocrina multipla tip 2a
+Neoplasie endocrina multipla tip 2b
+Neoplasm pleural malign
+Neoplasm pulmonar malign
+Neoplazie intraepiteliala anala
+Neoplazie intraepiteliala cervicala
+Neoplazie intraepiteliala peniana
+Neoplazie intraepiteliala vaginala
+Neoplazie intraepiteliala vulvara
+Neovascularizatie corneana
+Nesidioblastoza
+Neuralgie postherpetica
+Neurastenie
+Neurinom acustic
+Neurita retrobulbara
+Neuroblastom
+Neuroborelioza
+Neurobruceloza
+Neurocisticercoza
+Neurodermatita
+Neurofibrom
+Neurofibromatoza segmentara
+Neurofibromatoza tip 1
+Neurofibromatoza tip 2
+Neuromielita optica
+Neuromiotonia
+Neuropatia crioglobulinemica
+Neuropatia indusa de chimioterapie
+Neuropatia nervului ulnar
+Neuropatia optica ischemica
+Neuropatie amiloida
+Neuropatie auditiva
+Neuropatie autonoma
+Neuropatie autonoma diabetica
+Neuropatie craniana
+Neuropatie de compresiune
+Neuropatie diabetica
+Neuropatie hipomielinizanta congenitala
+Neuropatie optica ereditara Leber
+Neuropatie optica toxica
+Neuropatie periferica
+Neuropatie senzoriala ereditara
+Neuropatie senzoriala ereditara tip II
+Neuropatie senzoriala ereditara tip IV
+Neuropatie senzoriala ereditara tip V
+Neuropatie tomaculoasa
+Neuropatie toxica
+Neuropatie viscerala intestinala
+Neurosarcoidoza
+Neurosifilis
+Neutrofilie
+Neutropenie
+Neutropenie autoimuna
+Neutropenie ciclica
+Neutropenie congenitala
+Neutropenie cronica benigna
+Neutropenie febrila
+Nev conjunctival
+Nev displazic
+Nevo melanocitar
+Nevralgia glosofaringiana
+Nevralgia intercostala
+Nevralgia occipitala
+Nevralgia pudendala
+Nevralgie
+Nevrita
+Nevrita leproasa
+Nevrita vestibulara
+Nevroza
+Nevus sebaceu
+Nevus Spitz
+Nictalopie
+Nisa de cicatrice uterina
+Nistagmus
+Nistagmus congenital
+Nocardioza
+Nocardioza cerebrala
+Nocardioza pulmonara
+Nocardioza pulmonara cavitara
+Nodul reumatoid
+Noduli tiroidieni
+Noduli vocali
+Nonseminom
+Nosofobie
+Obezitate
+Obezitate abdominala
+Obezitate hipotalamica
+Obezitate morbida
+Obstructie duodenala
+Ochi uscat
+Ocluzie de artera centrala a retinei
+Ocluzie de ramura arteriala retiniana
+Ocluzie de ramura venoasa retiniana
+Ocluzie de vena centrala a retinei
+Ocluzie intestinala
+Ocluzie intestinala cu strangulare
+Ocluzie intestinala prin aderente
+Ocluzie intestinala prin tumora
+Odinofagie
+Oftalmie simpatica
+Oftalmopatie tiroidiana
+Oftalmoplegie
+Oftalmoplegie externa progresiva
+Oftalmoplegie internucleara
+Oligoastrocytom
+Oligodendrogliom
+Oligohidramnios
+Oligomenoree
+Oligospermie
+Omfalita
+Omfalocel
+Oncocercoza
+Onicocriptoza
+Onicodistrofie
+Onicogrifoza
+Onicoliza
+Onicomadezis
+Onicomicoza
+Ooforita
+Opacitate corneana
+Opistorhoza
+Oreion
+Orhita
+Orhita urliana
+Origine anormala a coronarei din artera pulmonara
+Orjelet
+Orjelet intern
+Orotacidurie
+Ortorexie
+Osteita condensanta
+Osteoartropatie hipertrofica
+Osteoblastom
+Osteocondrita disecanta
+Osteocondrom
+Osteocondromatoza sinoviala
+Osteocondroza
+Osteodistrofie renala
+Osteofit
+Osteogenesis imperfecta
+Osteogenesis imperfecta tip I
+Osteogenesis imperfecta tip II
+Osteogenesis imperfecta tip III
+Osteogenesis imperfecta tip IV
+Osteogenesis imperfecta tip V
+Osteogenesis imperfecta tip VI
+Osteogenesis imperfecta tip VII
+Osteogenesis imperfecta tip VIII
+Osteoliza
+Osteom
+Osteom osteoid
+Osteomielita
+Osteomielita cronica multifocala recidivanta
+Osteomielita cu Salmonella
+Osteomielita piciorului diabetic
+Osteonecrosa maxilara

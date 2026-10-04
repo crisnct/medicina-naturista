@@ -1,0 +1,85 @@
+Frigiditate|raceala la femei
+Furuncul|buba rea
+Gastrita|arsura la stomac
+Gastroenterita|diaree cu varsaturi
+Gingivita|bube la gingii
+Greata|greturi
+Gripa|gripa
+Hepatita A|hepatita molipsitoare
+Hernie de disc|discul rupt
+Hernie hiatala|hernie la stomac
+Hernie inghinala|hernie la vintre
+Herpes genital|bube la organe
+Herpes labial|buba de frig
+Hipermetropie|vazutul de aproape
+Hiperparatiroidism|glanda paratiroida bolnava
+Hipertensiune arteriala|tensiune mare
+Hipertrigliceridemie|grasimi in sange
+Hiperuricemie|acid uric mare
+Hipoglicemie|zahar mic
+Hipotensiune arteriala|tensiune mica
+Hipotensiune ortostatica|ameata la sculare
+Holera|holera
+Icter|boala galbena
+Impetigo|bube
+Imunitate scazuta|imunitate slaba
+Incontinenta urinara|pisu pe tine
+Infarct miocardic|atac de cord
+Infectie urinara|infectie la urina
+Infertilitate|stearpa
+Insolatie|insolat
+Insomnie|insomnie
+Insuficienta cardiaca|inima slaba
+Insuficienta hepatica|ficat slab
+Insuficienta renala|rinichi slabi
+Insuficienta venoasa|vene slabe
+Intepatura de albina|intepatura de albina
+Intoleranta la lactoza|rau la lapte
+Intoxicatie|otravire
+Intoxicatie cu ciuperci|otravire cu ciuperci
+Intoxicatie cu monoxid de carbon|gaz
+Intoxicatie cu plumb|saturatie cu plumb
+Ischemie|sange oprit
+Laringita|gat infundat
+Lauzie|lauza
+Leucemie|leucemie
+Leucoree|poale albe
+Limfadenopatie|ganglioni umflati
+Lipom|buba de grasime
+Litiaza biliara|pietre la fiere
+Lombalgie|dureri de spate
+Lupus|lupus
+Luxatie|scranta
+Mahmureala|mahmureala
+Malarie|frigurile
+Matreata|matreata
+Melanom|al negru
+Menopauza|climacteriu
+Menoragie|ciclu cu sange mult
+Menstruatii neregulate|ciclu neregulat
+Meteorism|balonare
+Micoza piciorului|piciorul atletului
+Micoze|ciuperci
+Mielom multiplu|mielom
+Migrena|migrena
+Mononucleoza infectioasa|boala sarutului
+Monturi|bataturi la picioare
+Muscatura de caine|muscatura de caine
+Muscatura de paianjen|muscatura de paianjen
+Muscatura de sarpe|muscatura de sarpe
+Nanism|pitic
+Narcolepsie|boala somnului
+Nefrita|boala de rinichi
+Negi|neg
+Neuropatie diabetica|amorteala la picioare
+Neuropatie periferica|amorteala
+Nevralgie|durere de nervi
+Nevroza|boala de nervi
+Nictalopie|orbul gainilor
+Noduli tiroidieni|noduri la tiroida
+Obezitate|gresime
+Ochi uscat|ochi sec
+Onicomicoza|ciuperca la unghii
+Oreion|papusa
+Osteopenie|oase slabe
+Osteoporoza|oase fragile

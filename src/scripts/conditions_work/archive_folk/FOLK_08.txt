@@ -1,0 +1,80 @@
+Malarie cu Plasmodium vivax|friguri
+Malnutritie|desnutritie
+Marasm|atrofiere
+Mastita|buboaie la san
+Mastoidita|ciupitura urechii
+Mastopatie fibrochistica|buba la san
+Megalencefalie|cap mare
+Megalocornee|ochi mare
+Melanonichie|unghie neagra
+Melasma|masa
+Melena|scaun negru
+Menopauza|menopauza
+Menoragie|sangerare
+Menstruatii neregulate|menstre neregulate
+MERS|virusul camilei
+Meteorism|balonare
+Miastenie|oboseala musculara
+Mica pneumoconioza|plaman negru
+Micoza piciorului|ciuperca la picior
+Micoze|ciuperci
+Microcefalie|cap mic
+Migrena|durere de cap
+Miocardiopatie ischemica|inima slabita
+Miocardita|inima inflamata
+Miodesopsie|musculite
+Miopatie|slabiciune musculara
+Miopatie viscerala intestinala|lene de intestin
+Miopie|ochi slab
+Moarte fetala in utero|fat mort
+Mola hidatiforma|ou clar
+Mononucleoza infectioasa|boala sarutului
+Nanism|piticul
+Narcolepsie|boala somnului
+Nastere prematura|nastere inainte de vreme
+Nazofaringita virala|guturai
+Nefrita interstitiala|rinichi inflamat
+Nefrocalcinoza|piatra la rinichi
+Nefropatie diabetica|rinichi de zahar
+Nefroptoza|rinichi cazut
+Neoplasm pulmonar malign|cancer la plaman
+Neoplazie intraepiteliala cervicala|leziune precanceroasa
+Nevralgie|durere de nervi
+Nevrita|nerv inflamat
+Neurinom acustic|tumoare pe nervul auzului
+Neuroblastom|tumoare pe nervi
+Neuropatie diabetica|nerv stricat
+Nevus Spitz|albug
+Nictalopie|orbul gainilor
+Noduli tiroidieni|nod la tiroida
+Noduli vocali|noduli la corzi
+Obezitate|grasime
+Obezitate abdominala|burta mare
+Ocluzie de artera centrala a retinei|orbire brusca
+Ocluzie intestinala|ocol
+Odinofagie|durere la inghitit
+Oftalmopatie tiroidiana|ochi bulbucati
+Oftalmoplegie|paralizie la ochi
+Omfalita|buba la buric
+Omfalocel|buric iesit
+Onicocriptoza|unghie incarnata
+Onicodistrofie|unghii stricate
+Onicogrifoza|unghie groasa
+Onicomicoza|ciuperca la unghii
+Ooforita|inflamatie la ovar
+Oreion|oreion
+Orjelet|orjelet
+Osteita condensanta|os inflamat
+Osteodistrofie renala|oase slabe
+Osteofit|pinten la calcai
+Osteogenesis imperfecta|oase de sticla
+Osteogenesis imperfecta tip I|oase de sticla
+Osteogenesis imperfecta tip II|oase de sticla
+Osteogenesis imperfecta tip III|oase de sticla
+Osteogenesis imperfecta tip IV|oase de sticla
+Osteogenesis imperfecta tip V|oase de sticla
+Osteogenesis imperfecta tip VI|oase de sticla
+Osteogenesis imperfecta tip VII|oase de sticla
+Osteogenesis imperfecta tip VIII|oase de sticla
+Osteom|exostoza
+Osteomielita|os putred
