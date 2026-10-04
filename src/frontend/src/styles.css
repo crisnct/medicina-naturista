@@ -39,7 +39,7 @@ body {
     width: min(100%, 520px);
     max-width: 520px;
     margin: 0 auto;
-    gap: 14px;
+    gap: 6px;
 }
 
 #hero-panel {
@@ -49,7 +49,7 @@ body {
     box-sizing: border-box;
     width: 100%;
     --hero-pad-right: 38px;
-    padding: 22px var(--hero-pad-right) 68px 26px;
+    padding: 22px var(--hero-pad-right) 55px 26px;
     border: 1px solid rgba(47, 125, 109, 0.18);
     border-radius: 20px;
     background: #f4f9f7;
@@ -74,7 +74,7 @@ body {
 .herbs-strip {
     position: absolute;
     right: 25px; /* mirrors the left gap */
-    bottom: 19px;
+    bottom: 6px;
     left: 25px;
     z-index: 0;
     pointer-events: none;
@@ -772,12 +772,34 @@ body {
     flex: 0 0 auto;
 }
 
-.cat-children-summary {
-    margin-left: 26px;
+/* Expand/collapse arrow, in the slot left of the checkbox; points down when open, right when closed. */
+.cat-toggle {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    flex: 0 0 auto;
+    padding: 0;
+    border: 0;
+    border-radius: 4px;
+    background: transparent;
     color: var(--nature-muted);
     cursor: pointer;
-    font-size: 11px;
-    list-style: none;
+}
+
+button.cat-toggle:hover {
+    background: rgba(47, 125, 109, 0.12);
+    color: var(--nature-primary);
+}
+
+button.cat-toggle svg {
+    transform: rotate(-90deg);
+    transition: transform 0.15s ease;
+}
+
+button.cat-toggle.cat-toggle-open svg {
+    transform: rotate(0deg);
 }
 
 .cat-check-label {
@@ -818,7 +840,7 @@ body {
 
     #hero-panel {
         --hero-pad-right: 22px;
-        padding: 26px var(--hero-pad-right) 62px;
+        padding: 26px var(--hero-pad-right) 49px;
         border-radius: 16px;
     }
 

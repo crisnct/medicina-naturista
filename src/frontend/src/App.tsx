@@ -1,6 +1,5 @@
 import { useEffect } from "react";
 import { Hero } from "./components/Hero";
-import { AssistantHeader } from "./components/AssistantHeader";
 import { ChatHistory } from "./components/ChatHistory";
 import { Composer } from "./components/Composer";
 import { CategoryFilterPanel } from "./components/CategoryFilterPanel";
@@ -30,9 +29,9 @@ export function App() {
     <div id="app-shell">
       <Hero />
       <div id="conversation-card">
-        <div id="chat-header">
-          <AssistantHeader />
-        </div>
+        {/*<div id="chat-header">*/}
+        {/*  <AssistantHeader />*/}
+        {/*</div>*/}
         {conversation.isLoading ? (
           <p className="loading-notice">Se încarcă discuția...</p>
         ) : conversation.isError ? (

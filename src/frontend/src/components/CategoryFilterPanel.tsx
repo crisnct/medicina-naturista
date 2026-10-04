@@ -1,3 +1,4 @@
+import { useState } from "react";
 import type { CategoryNode, SearchSignals } from "../api/types";
 import { collectRealIds, nodeCheckState, selectedDocumentCount, toggleNode } from "../lib/categoryTree";
 import { countOn } from "../lib/searchSignals";
@@ -126,11 +127,27 @@ function CategoryNodeRow({
 }) {
   const state = nodeCheckState(node, selected);
   const hasChildren = node.children.length > 0 && !forceLeaf;
+  const [expanded, setExpanded] = useState(false);
 
   return (
     <li className="cat-node">
       <div className="cat-row">
-        <span className="cat-toggle cat-toggle-spacer" aria-hidden="true" />
+        {hasChildren ? (
+          <button
+            type="button"
+            className={`cat-toggle${expanded ? " cat-toggle-open" : ""}`}
+            aria-expanded={expanded}
+            aria-label={`${expanded ? "Restrânge" : "Extinde"} ${node.label}`}
+            title={expanded ? "Restrânge" : "Extinde"}
+            onClick={() => setExpanded((open) => !open)}
+          >
+            <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true" focusable="false">
+              <path d="M2.5 4.25 6 7.75l3.5-3.5" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
+            </svg>
+          </button>
+        ) : (
+          <span className="cat-toggle cat-toggle-spacer" aria-hidden="true" />
+        )}
         <label className="cat-check-label">
           <input
             type="checkbox"
@@ -146,15 +163,12 @@ function CategoryNodeRow({
           </span>
         </label>
       </div>
-      {hasChildren && (
-        <details className="cat-children" open={false}>
-          <summary className="cat-children-summary">Extinde</summary>
-          <ul>
-            {node.children.map((child) => (
-              <CategoryNodeRow key={child.id} node={child} selected={selected} onChange={onChange} />
-            ))}
-          </ul>
-        </details>
+      {hasChildren && expanded && (
+        <ul>
+          {node.children.map((child) => (
+            <CategoryNodeRow key={child.id} node={child} selected={selected} onChange={onChange} />
+          ))}
+        </ul>
       )}
     </li>
   );
