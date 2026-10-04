@@ -85,6 +85,14 @@ export interface SendMessageResponse {
   // retrieval — kept as a separate, slower call so the echo/notice above
   // render immediately instead of waiting for the search to finish too.
   startSearch: boolean;
+  // True when POST /api/condition should be called first: the dictionary does
+  // not know the condition, so the AI is asked for it before the search starts.
+  identifyCondition?: boolean;
+}
+
+export interface ConditionResponse {
+  messages: ChatMessage[];
+  startSearch: boolean;
 }
 
 export interface GenerateResponse {

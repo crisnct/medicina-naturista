@@ -22,6 +22,10 @@ class HealthProfile:
     health_context: list[str] = field(default_factory=list)
     transcript: list[dict[str, str]] = field(default_factory=list)
     asked_field: str | None = None
+    # Conditions the AI identified for health_problem when the dictionary knew
+    # none (ai/condition_ai.py): {"index", "name", "terms"} per message segment.
+    # Cleared with every new message, so it never outlives the text it came from.
+    ai_conditions: tuple[dict[str, Any], ...] = ()
 
     # Store a normalized conversation entry when its role and content are allowed.
     def add_transcript(self, role: str, content: str) -> None:
@@ -40,6 +44,7 @@ class HealthProfile:
         clean = " ".join((message or "").split())[:4000]
         if clean:
             self.health_problem = clean
+            self.ai_conditions = ()
             self.add_health_context(clean)
             self.asked_field = None
 
@@ -50,6 +55,7 @@ class HealthProfile:
         if not clean:
             return
         self.health_problem = clean
+        self.ai_conditions = ()
         self.health_context = [clean]
         self.transcript = [{"role": "user", "content": clean}]
         self.asked_field = None
@@ -73,6 +79,7 @@ class HealthProfile:
             "health_problem": self.health_problem,
             "health_context": list(self.health_context),
             "transcript": [dict(entry) for entry in self.transcript],
+            "ai_conditions": [dict(entry) for entry in self.ai_conditions],
         }
 
 

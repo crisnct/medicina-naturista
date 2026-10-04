@@ -50,7 +50,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 💬 recomandări în chat  +  📄 raport PDF  +  ✉️ e-mail opțional
 ```
 
-> **Local vs. extern:** documentele, fragmentarea, indexarea și retrieval-ul rulează local. Fragmentele selectate și descrierea problemei sunt trimise, după `AI_PROVIDER`, către xAI, direct către DeepSeek (api.deepseek.com, servere în China), către DeepInfra prin routerul Hugging Face sau către Ollama (Cloud, cu modelele `:cloud`) pentru redactarea raportului; politicile de retenție ale fiecărui furnizor rămân de verificat înainte de activare. Livrarea prin Gmail este opțională.
+> **Local vs. extern:** documentele, fragmentarea, indexarea și retrieval-ul rulează local. Fragmentele selectate și descrierea problemei sunt trimise, după `AI_PROVIDER`, către xAI, direct către DeepSeek (api.deepseek.com, servere în China), către DeepInfra prin routerul Hugging Face sau către Ollama (Cloud, cu modelele `:cloud`) pentru redactarea raportului; politicile de retenție ale fiecărui furnizor rămân de verificat înainte de activare. Când dicționarul de afecțiuni nu recunoaște mesajul, acesta este trimis (doar textul mesajului) întâi unui model local Ollama și, dacă acesta este indisponibil, routerului Hugging Face (`CONDITION_AI_BACKENDS`); varianta locală nu trimite nimic în afara mașinii. Livrarea prin Gmail este opțională.
 
 ## 🛠️ Tehnologii folosite
 
@@ -283,6 +283,12 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `OLLAMA_API_KEY` | — | Necesară doar când `OLLAMA_API_BASE` nu este local (ex. `https://ollama.com/v1`). |
 | `OLLAMA_REASONING_EFFORT` | _(gol)_ | Se trimite doar dacă este setat. |
 | `OLLAMA_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru `AI_PROVIDER=ollama`; pentru modele locale mici trebuie coborât. |
+| `CONDITION_AI_BACKENDS` | `local,huggingface` | Backendurile care identifică afecțiunea când dicționarul (`data/medical_conditions.txt`) nu o găsește, în ordinea încercării: `local` (Ollama), `huggingface` (routerul HF, `HF_TOKEN`) sau ambele (HF doar dacă modelul local e indisponibil). Gol → pasul AI este dezactivat. Afecțiunea întoarsă se folosește ca una din dicționar: în chat, în căutare și în titlul PDF-ului. |
+| `CONDITION_AI_LOCAL_MODEL` | `gemma3:1b` | Modelul Ollama local (descărcare: `ollama pull gemma3:1b`; în Docker: `docker compose exec ollama ollama pull gemma3:1b`). |
+| `CONDITION_AI_LOCAL_BASE` | `http://localhost:11434/v1` (direct) / `http://ollama:11434/v1` (Compose) | Adresa Ollama folosită pentru identificarea afecțiunii. |
+| `CONDITION_AI_HF_MODEL` | valoarea `HF_MODEL` | Modelul HF pentru fallback (prin `HF_API_BASE` și `HF_TOKEN`). |
+| `CONDITION_AI_TIMEOUT_SECONDS` | `10` | Timeout per backend la identificarea afecțiunii. |
+| `CONDITION_AI_MAX_OUTPUT_TOKENS` | `300` | Limita răspunsului (un JSON mic) la identificarea afecțiunii. |
 | `AI_STREAM` | `false` | Cere răspunsul ca flux de evenimente (`stream: true`). Timeoutul de citire se aplică între evenimente, deci evită tăierea cererilor lungi de un proxy (ex. 504 după 60 s la routerul HF). Dacă furnizorul nu suportă streaming, lăsați `false`. |
 | `AI_MAX_OUTPUT_TOKENS` | `20000` | `max_output_tokens` al cererii, pentru toți furnizorii (la modelele cu gândire, reasoning-ul consumă din el). |
 | `AI_READ_TIMEOUT_SECONDS` | `300` | Timeoutul de citire al cererii către furnizorul AI. |

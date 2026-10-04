@@ -6,6 +6,8 @@ skipped entirely — no re-chunking, no re-embedding, no DB write — so adding
 or editing one document never touches the rest of the corpus."""
 # Run like this:
 # .\.venv-gpu\Scripts\python scripts\build_hybrid_index.py
+# Monitor GPU cuda usage
+# nvidia-smi --loop=3
 from __future__ import annotations
 
 import argparse

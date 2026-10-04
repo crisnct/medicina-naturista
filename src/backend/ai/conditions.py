@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import logging
 import re
+from collections.abc import Iterable
 from dataclasses import dataclass
 from difflib import get_close_matches
 from functools import lru_cache
@@ -184,6 +185,16 @@ class ConditionDictionary:
 
     def match(self, query: str) -> list[Condition]:
         return [self.conditions[index] for index in self._match(query)[0]]
+
+    # The first condition that has one of `terms` as an exact term (case and
+    # diacritics ignored, no typo tolerance), trying the terms in order; None
+    # when none of them is in the dictionary.
+    def exact(self, terms: Iterable[str]) -> Condition | None:
+        for term in terms:
+            indexes = self._by_term.get(_normalize(term))
+            if indexes:
+                return self.conditions[indexes[0]]
+        return None
 
     @staticmethod
     def _pick(indexes: list[int]) -> list[int]:

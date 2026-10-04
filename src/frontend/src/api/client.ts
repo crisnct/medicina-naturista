@@ -1,5 +1,6 @@
 import type {
   CategoriesResponse,
+  ConditionResponse,
   GenerateResponse,
   MessagesResponse,
   SearchSignals,
@@ -69,6 +70,10 @@ export const api = {
       method: "POST",
       body: JSON.stringify({ message, categories, signals }),
     }),
+  // Asks the AI for the condition the dictionary does not know; only called
+  // when sendMessage() said identifyCondition. Its startSearch says whether
+  // the retrieval should follow.
+  identifyCondition: () => request<ConditionResponse>("/api/condition", { method: "POST" }),
   // Slower retrieval step for the health problem/categories the previous
   // sendMessage() call already stored on the session — only called when
   // that call's startSearch flag says so.

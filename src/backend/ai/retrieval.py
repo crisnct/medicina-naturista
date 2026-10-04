@@ -6,12 +6,14 @@ from pathlib import Path
 from typing import Any
 
 from backend.ai.categories import CategoryTree, load_category_tree
+from backend.ai.condition_ai import resolved_for
 from backend.ai.db import get_pool
 from backend.ai.query_terms import GENERIC_QUERY_WORDS_PATH, meaningful_words as _meaningful_words
 from backend.ai.search import (
     ALL_SIGNALS,
     EVIDENCE_HEADING_PREFIX,
     EVIDENCE_HEADING_SEPARATOR,
+    effective_signals,
     max_score,
     rank,
 )
@@ -96,8 +98,12 @@ class Retriever:
         # only limit there is, the provider's context budget over the evidence
         # text, by cutting whole fragments from the end of the score-ordered
         # list, so every fragment it returns becomes evidence, below.
-        candidates = rank(query, category_ids=category_ids, max_chars=max_chars, signals=signals)
-        ceiling = max_score(signals)
+        # The message resolved as the chat saw it: the dictionary's conditions plus
+        # the ones the AI identified. Without any condition the conditions signal
+        # cannot contribute, so the percentages are relative to the rest.
+        resolved = resolved_for(profile)
+        candidates = rank(query, category_ids=category_ids, max_chars=max_chars, signals=signals, resolved=resolved)
+        ceiling = max_score(effective_signals(signals, resolved))
 
         # Each fragment is one piece of evidence, exactly as indexed (fragments
         # are whole sections, see ai/fragmenter.py), best score first.

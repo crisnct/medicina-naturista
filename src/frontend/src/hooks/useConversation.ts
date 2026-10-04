@@ -68,8 +68,16 @@ export function useConversation() {
       if (first.startSearch) {
         setIsSearching(true);
         try {
-          const second = await api.search();
-          appendMessages(second.messages);
+          let startSearch = true;
+          if (first.identifyCondition) {
+            const condition = await api.identifyCondition();
+            appendMessages(condition.messages);
+            startSearch = condition.startSearch;
+          }
+          if (startSearch) {
+            const second = await api.search();
+            appendMessages(second.messages);
+          }
         } finally {
           setIsSearching(false);
         }
