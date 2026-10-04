@@ -1138,3 +1138,215 @@ Vinul de nuci � recomandat in anemie, diaree, eczeme, guta, reumatism. Ingredi
 ## ZAHARUL INVERTIT
 
 ZAHARUL INVERTIT Zaharul tos este toxic pentru organism. Pentru a fi metabolizat, el este mai intai invertit in interiorul corpului, operatiune care necesita mult calciu, care se preia din oase, dinti, unghii, par. Zaharul invertit este inofensiv pentru organism. Materiale necesare: - 1 kg. zahar tos; - 150 ml. apa (de la robinet sau plata); - o lingurita rasa de sare de lamaie; - un vas emailat (se interzice folosirea inox-ului sau a aluminiului). Mod de preparare: - Se pun toate ingredientele intr-un vas smaltuit, se fierbe totul la foc iute si se amesteca putin cu o lingura de lemn (nu se foloseste nici un fel de metal). - Invertirea zaharului dureaza, in total, 10 minute. - Fierband in clocote, zaharul se transforma intr-o compozitie limpede ca uleiul sau ca mierea; pe marginea vasului se aduna o spuma pamantie la culoare, care se strange cu lingura de lemn si se arunca. - In ultimele 2-3 minute de fierbere, trebuie sa fim atenti ca siropul din vas sa nu se inchida la culoare; pentru aceasta vom micsora intensitatea focului. - Cand este gata, zaharul nu mai colecteaza spuma si are consistenta unei smantani mai subtiri. - Se lasa la racit putin si cand este caldut inca, se toarna in borcane curate prin doua straturi de tifon. - Se foloseste in loc de zahar in ceai, cafea, lapte, prajituri, checuri, cozonac, cu conditia de a micsora cantitatea de lichid, eventual din albusuri (in cazul prajiturilor).
+
+
+# Cancer
+
+## Vitamina B17 (amigdalină, laetrile) și sâmburii de caise
+
+- Vitamina B17 (amigdalină sau laetrile) se găsește în sâmburii cruzi de caise și ai altor fructe (mere, piersici, cireșe, vișine, struguri, prune), în unele tipuri de fasole și în multe ierburi. Este prezentată ca remediu posibil împotriva cancerului de peste 35 de ani.
+- Se susține că în culturi cu multe semințe și sâmburi în alimentația tradițională (indienii Navajo, Hunza, Abhazii) nu s-a raportat niciun caz de cancer.
+- Necesarul recomandat în text: cel puțin 7 sâmburi de caise pe zi. Sâmburele de caisă ar avea cel mai mare conținut de B17.
+- Dr. Krebs (cel care a descoperit vitamina B17) ar fi declarat că 7 sau mai mulți sâmburi de caisă pe zi fac imposibilă dezvoltarea cancerului.
+- Una sau două tablete de B17 (100 mg) pe zi sunt acceptate ca supliment nutritiv.
+- Textul afirmă că la doze mari tumorile s-au contractat. Tumorile maligne ar conține doar un procent mic de celule canceroase, iar când partea canceroasă moare tumoarea scade în volum fără să dispară. Din acest motiv se recomandă continuarea regimului natural și a consumului de sâmburi după contractarea tumorii.
+- Exemplu din text: în tumorile de rinichi, 10% sunt canceroase, deci tumoarea scade doar cu 10%. La o scanare CAT, doctorul ar putea concluziona că nu există șanse. Se recomandă RMN în loc de CAT (câmpuri magnetice, fără radiații). Textul susține că 6 scanări CAT cresc cu 60% șansa de leucemie.
+
+** Recomandări pentru prevenție și tratament **
+
+- Dacă nu ai cancer și vrei să-l previi: 7–10 sâmburi de caisă zilnic, începând cu 1–2 pe zi și crescând treptat.
+- Evită zahărul rafinat (hrănește cancerul), cafeaua/cofeina (dăunătoare pentru ficat și rinichi) și făina albă (se transformă ușor în zahăr).
+- Fără lactate (brânza de vaci/caș este acceptată).
+- Citește etichetele alimentelor. Consumă cât mai multe crudități și evită alimentele procesate.
+- Redu sau elimină carnea. Textul susține că carnea consumă enzimele digestive necesare pentru a distruge peretele proteic din jurul celulelor canceroase.
+- Începe tratamentul cu B17 și sâmburi în cantitate mică și crește treptat, pentru ca sistemul digestiv să se acomodeze.
+- Enzime pancreatice: ananas crud zilnic sau „Megazyme Forte". Ajută la ruperea peretelui proteic din jurul celulelor canceroase.
+- Vitamina C zilnic, crescând treptat până la 10.000–25.000 mg/zi.
+- Zincul este mecanismul de transport al B17. Fără zinc suficient, B17 doar tranzitează corpul.
+- Magneziu, seleniu, vitamina A și B mențin imunitatea.
+- Corpul are nevoie de timp pentru a se acomoda cu dozele zilnice de vitamine, sâmburi și enzime.
+
+## Simptome ale dozelor prea mari
+
+Dureri de cap, grețuri, amețeli, diaree. Textul le consideră semn că organismul se detoxifică prea repede, deci doza trebuie redusă. Doza se crește treptat, în funcție de aceste simptome.
+
+## Detoxifiere și susținerea organismului
+
+- Dacă imunitatea a fost distrusă prin chimioterapie și radiații, trebuie reconstruită cât mai mult.
+- Consumă multă apă pură (nu de la robinet, din cauza clorurilor și nitraților) pentru ca ficatul să elimine toxinele.
+- Nectaruri și sucuri naturale, sfeclă și zeama ei: curăță ficatul și ajută la eliminarea celulelor canceroase moarte. Acestea se elimină prin piele (pete roșii, mâncărimi, eczeme), urină și scaun.
+
+## Pe scurt (din text)
+
+- detoxifierea organismului
+- consum mare de sucuri și nectaruri
+- alimente cu fibre (semințe, sâmburi)
+- plimbări și exerciții în aer curat (la țară sau la munte)
+- soare dimineața și după-amiaza (reglează tensiunea, reduce colesterolul prin transformarea în vitamina D, reduce zahărul și nivelul celulelor albe din sânge)
+- temperament: dorința de a lupta împotriva bolii
+- abstinență și moderație în alimentație
+- odihnă
+- textul afirmă că cancerul se tratează printr-un program nutrițional: dietă, minerale, laetrile (B17) și enzime pancreatice
+
+## Regim alimentar complementar (Robert Silaghi)
+
+*(Fișa nu precizează boala. „Regim complementar" sugerează un regim adjuvant, de exemplu în boli grave. OCR parțial.)*
+
+**Timp de cel puțin 6 luni se evită, până la excluderea completă:**
+- carnea de orice fel, carnea roșie (porc, vită, mezeluri)
+- alimentele conservate, murăturile, alimentele îmbuteliate
+- ciuperci, nuci, castraveți, ananas, condimente, soia, ceai negru, ciocolată, prăjituri, bomboane
+- cafea, tutun, alcool
+- zahăr (se înlocuiește cu miere) și orice alimente cu zahăr (biscuiți, rahat etc.)
+- făină albă și derivatele ei (cornuri, pâine albă, paste făinoase)
+- oțet alimentar (se înlocuiește cu oțet de mere sau zeamă de lămâie)
+- fripturi, prăjeli și rântașuri; mâncare veche sau reîncălzită (se consumă mereu proaspătă)
+
+**Se consumă cu preponderență:**
+1. legume
+2. fructe
+3. cereale (grâu, orez, hrișcă, mei, orz, ovăz)
+4. sucuri proaspăt stoarse de legume și fructe (1–1,5 l pe zi, cu storcător electric centrifugal)
+5. lactate sub formă de lapte prins sau brânză de vaci
+6. ouă fierte (2 buc. pe săptămână)
+
+Moderat (maxim 2 ori pe săptămână): carne fiartă de pui, pește, iepure, fazan.
+
+**Optimizarea alimentației:**
+- Variază alimentele. Oricât de mult îți place un aliment, nu-l consuma excesiv.
+- Porții rezonabile.
+- Nu consuma alimente extrem de grase, dulci, sărate sau condimentate.
+- Nu sări peste mese, în special micul dejun.
+- Lasă un interval de circa 2 ore între ultima masă și somn sau activitate intensă.
+- Hidratează-te corespunzător: 2–3 litri pe zi.
+- Fă-ți un program de masă și echilibrează porțiile între cele 3 mese principale și 1–2 gustări.
+- Evită stimulentele în exces (ciocolată, băuturi energizante, cafea) și nu înlocui mesele cu ele.
+
+# Helicobacter pylori
+
+## Scheme de tratament pentru eradicare
+
+*(Tabel din literatura de specialitate. Vezi notele de la final.)*
+
+| Schemă | Medicamente |
+|---|---|
+| Terapie triplă cu inhibitor al pompei de protoni (IPP) | IPP o dată sau de două ori pe zi; claritromicină 500 mg de două ori pe zi; amoxicilină 1 g de două ori pe zi **sau** metronidazol 500 mg de două ori pe zi |
+| Terapie cvadruplă cu bismut | Bismut 525 mg de 4 ori pe zi; metronidazol 250–500 mg de 4 ori pe zi; tetraciclină 500 mg de 4 ori pe zi; IPP o dată sau de două ori pe zi |
+| Terapie secvențială | IPP o dată sau de două ori pe zi în zilele 1–10; amoxicilină 1 g de două ori pe zi în zilele 1–5; claritromicină 250–500 mg de două ori pe zi în zilele 6–10; metronidazol 250–500 mg de două ori pe zi în zilele 6–10 |
+| Terapie de linia a doua (salvare) pentru infecții persistente | IPP sau blocant H2 o dată sau de două ori pe zi; subsalicilat de bismut 525 mg de 4 ori pe zi; metronidazol 250–500 mg de 4 ori pe zi; tetraciclină 500 mg de 4 ori pe zi. Alternativ: IPP o dată sau de două ori pe zi; amoxicilină 1 g de două ori pe zi; levofloxacină 250 mg de două ori pe zi |
+
+**Note:**
+- Tratamentul este minim eficient dacă se ia 7 zile. Se recomandă 10–14 zile. Medicamentul antisecretor poate continua după tratamentul antimicrobian la pacienții cu istoric de ulcer complicat, sângerare sau la fumătorii mari.
+- IPP la dozele pentru vindecarea ulcerului peptic, o dată sau de două ori pe zi. Blocantul H2 poate înlocui IPP.
+- Citratul de bismut potasic (140 mg) există într-o capsulă preambalată (Pylera), împreună cu metronidazol 125 mg și tetraciclină 125 mg. Se iau trei capsule la fiecare masă și la culcare, plus un IPP standard de două ori pe zi. Toate medicamentele se iau 10 zile.
+- Schema secvențială și cea de salvare cu levofloxacină necesită validare ca terapie de primă linie, respectiv de salvare, în SUA.
+
+# Afecțiuni tratate cu sucuri proaspete
+
+Rețete de sucuri, după două imagini care se completează reciproc.
+
+| Afecțiune | Ingrediente |
+|---|---|
+| Răceală | morcov, ananas, ghimbir, usturoi |
+| Dureri de cap | măr, castravete, varză kale, ghimbir, țelină |
+| Ulcer | varză, morcov, țelină |
+| Hipertensiune | sfeclă, măr, țelină, castravete, ghimbir |
+| Detoxifierea rinichilor | morcov, pepene verde, castravete, coriandru |
+| Pietre la rinichi | portocală, măr, pepene verde, lămâie |
+| Vedere | morcov, țelină |
+| Constipație | morcov, măr, varză proaspătă |
+| Mahmureală | măr, morcov, sfeclă, lămâie *(OCR incomplet, parțial dedus)* |
+| Nervozitate | morcov, țelină, rodie |
+| Depresie | morcov, măr, spanac, sfeclă |
+| Diabet | morcov, spanac, țelină |
+| Astm | morcov, spanac, măr, usturoi, lămâie |
+| Artrită | morcov, țelină, ananas, lămâie |
+| Stres | banană, căpșună, pară |
+| Oboseală | sfeclă, măr verde, lămâie, spanac, morcov |
+| Pierderi de memorie | rodie, sfeclă, struguri |
+| Indigestie | ananas, morcov, lămâie, mentă |
+
+# Pierderi de memorie
+
+Alimente naturale pentru prevenirea pierderii memoriei (PositiveMed): fructe de pădure, conopidă, sardine, spanac, suc de portocale proaspăt stors, germeni, cereale integrale, arahide, broccoli. Vezi și sucul de rodie, sfeclă și struguri, în secțiunea de sucuri.
+
+# Mucus și alimentație
+
+Imagine cu două liste: „Alimente care creează mucus" și „Alimente care elimină mucusul". OCR-ul a păstrat doar cuvinte izolate (de exemplu „cottage cheese", „foods"), deci listele nu se pot reconstitui.
+
+# Dureri și afecțiuni tratate prin acupresură
+
+„Puncte de acupresură pentru ameliorarea durerii". Imaginea indică puncte pentru:
+- dureri de cap și oboseala ochilor
+- greață și vomă
+- probleme stomacale cronice
+- artrită
+- insomnie și stres
+- durere menstruală
+- renunțarea la fumat
+- îmbunătățirea concentrării
+
+*(OCR-ul nu permite asocierea exactă a fiecărei afecțiuni cu un punct.)*
+
+# Reflexoterapie (zone reflexe)
+
+Organe și zone marcate pe imagini. OCR parțial; nu se poate reconstitui poziția exactă.
+
+- **Palmă:** sinus, plămân, gât, stomac, ochi, ficat, umăr, pituitară, braț, diafragmă, tiroidă, colon, suprarenale, intestin subțire, bilă, rinichi, pancreas, vezică, ovar/testicul, zonă lombară.
+- **Talpă:** creier, cap, sinusuri, pituitară, gât, ochi, tiroidă, ureche, plămân, umăr, plex solar, stomac, ficat, splină, pancreas, rinichi, vezică, colon, uretră, intestin, nervul sciatic, piciorul drept/stâng; amigdale, ovare/testicule.
+- **Limbă:** baza limbii, vezică urinară, rinichi drept/stâng, intestine, inimă.
+
+# Alimentație
+
+## Dietă după grupa sanguină
+
+Cinci imagini „Diet Based On Your Blood Type". Titlurile grupelor nu s-au păstrat în OCR, așa că le-am atribuit după conținut. Rezumatul imaginii finale confirmă atribuirile pentru toate cele patru grupe.
+
+| Grupa | Recomandări |
+|---|---|
+| **0** | Carne slabă, organică, hrănită cu iarbă (capră, miel, oaie), de câteva ori pe săptămână. Pește gras din ape reci. Fără lactate, fără grâu, fără făină din grâu. Fasole doar cea benefică. Multe fructe și legume benefice. Evită stimulentele (cafea, cola); ceai verde zilnic. |
+| **A** | Evită sau limitează proteinele animale; proteine din plante, pește ocazional (pește gras din ape reci). Cantități moderate de lactate fermentate, fără lapte proaspăt. Fără exces de cereale, mai ales din grâu. Multe fructe și legume benefice, bogate în antioxidanți și fibre. Ceai verde zilnic. |
+| **B** | Porții mici-moderate de carne slabă, organică (capră, miel, oaie), de mai multe ori pe săptămână; fără pui. Pește gras din ape reci. Lactate fermentate regulat (iaurt, kefir). Fără grâu și porumb. Multe fructe și legume benefice. În loc de cafea, ceai verde. Evită: pui, porumb, hrișcă, arahide, soia, linte, cartofi, roșii. |
+| **AB** | Proteine în principal din surse altele decât carnea roșie: soia și fructe de mare. Fără pui. Lactate fermentate în cantități modeste, limitează lactatele proaspete. Fără exces de cereale, mai ales grâu; fără făină de porumb. Multe fructe și legume benefice, bogate în antioxidanți și fibre. Fără cafea; 2–3 căni de ceai verde pe zi. |
+
+**Rezumat din imagine:** O evită lactatele și grâul, consumă carne slabă, pește de apă rece și ceai verde. A evită proteinele animale și laptele proaspăt, limitează cerealele. B evită grâul, porumbul, arahidele, puiul și consumă carne slabă organică și iaurt. AB evită carnea roșie, puiul și făina de porumb; consumă soia și fructe de mare.
+
+## Pofte alimentare și ce înseamnă
+
+Ce indică poftele: ce lipsește și cu ce se înlocuiesc (din două imagini, una în română, una în engleză).
+
+| Poftă | Nutrient presupus lipsă | Ce să mănânci în loc |
+|---|---|---|
+| Ciocolată | magneziu | nuci, semințe, cereale integrale, zarzavaturi (fructe) |
+| Produse dulci | crom | broccoli, struguri, pui, brânză |
+| | carbon | fructe proaspete |
+| | fosfor | pui, pește gras, ouă, lactate, nuci, cereale, legume |
+| | sulf | hrean, usturoi, ceapă, broccoli, afine, varză, conopidă |
+| | triptofan | lactate, leguminoase, nuci, semințe, spanac (brânză, stafide, cartofi dulci) |
+| Pâine, paste și alți carbohidrați | azot | proteine: carne, pește gras, nuci, fasole, semințe de chia |
+| Alimente grase | calciu | lapte, brânză, legume cu frunze verzi |
+| Produse sărate | clor | pește gras, lapte de capră |
+| *(poftă neclară în OCR)* | siliciu | pâine integrală, apă minerală, caju, nuci, semințe |
+
+## Alimente care încălzesc
+
+Din imagine, în OCR: orez sălbatic, rozmarin, praz, usturoi, mărar, coriandru, chimen, quinoa, anason, scorțișoară (și un aliment ilizibil, posibil papaya).
+
+## Diluții de uleiuri esențiale pentru copii
+
+Pentru 10 ml ulei vegetal. Tabelul a ieșit incomplet din OCR, deoarece se citesc cu certitudine doar intervalele, nu coloanele de ulei esențial (de exemplu cedru).
+
+| Vârsta | Picături de ulei esențial |
+|---|---|
+| Nou-născuți | 0,5–1 |
+| 2–12 luni | 1–2 (și 1–3, în altă coloană) |
+| 2–6 ani | 3–6 |
+| 6–12 ani | 5–9 (și 7–12, în altă coloană) |
+
+# Alte conținuturi din imagini
+
+- **Sănătatea pielii:** imagine „Grandma's Tips for Skin Problems", text nerecunoscut.
+- **Vaccinuri:** imaginea „Vaccination: The Hidden Truth" conține doar nume de medici și sloganul „Nothing is safe from the vaccine invasion, not even our genes". Fără conținut medical util.
+- **Concentrații în apa minerală** (tabel cu mărci românești): OCR neînțeles, coloanele nu se pot reconstitui.
+- **Poziții sexuale:** trei imagini (titlurile: „The G-Drive", „Body Surfing", „The Rocking Release"). Textul nu are conținut medical.
+- **Imagini fără text util:** harta HPV, imagine de vedere tibetană, harta de reflexoterapie (ilizibilă), agriș (*Ribes uva-crispa*).

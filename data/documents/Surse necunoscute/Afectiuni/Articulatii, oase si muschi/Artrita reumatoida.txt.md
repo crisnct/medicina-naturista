@@ -14,7 +14,7 @@ Number One Golden Paste (GP) recipe that has been tried and tested by thousands 
 
 This recipe may be used for humans as well as animals. Ingredients:
 
-### 1/2 cup (125 mls/60gms) turmeric powder
+** 1/2 cup (125 mls/60gms) turmeric powder**
 
 1 cup water (250 mls) PLUS 1 cup water in reserve, if needed 1/3 cup (70 mls) one of the following oils: Raw (unrefined) Cold Pressed Coconut Oil, Linseed (flaxseed) oil or Virgin/Extra Virgin Olive Oil 2-3 teaspoons freshly ground black pepper Please Note: the amount of pepper added has recently been increased (May 2016) on Doug English’s recommendations.
 
