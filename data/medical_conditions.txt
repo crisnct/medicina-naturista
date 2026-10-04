@@ -4607,6 +4607,7 @@ Sindrom DICER1,predispozitie ereditara la blastom pleuropulmonar,sindrom de tumo
 Sindrom Dieulafoy gastric,leziune Dieulafoy gastrica,hemoragie prin leziune Dieulafoy,malformatie Dieulafoy la stomac,gastric Dieulafoy lesion,Dieulafoy lesion of the stomach,Dieulafoy vascular malformation of the stomach
 Sindrom DiGeorge,hipoplazie timica,aplazie timica congenitala,deletie 22q11,DiGeorge syndrome,thymic hypoplasia,22q11.2 deletion syndrome
 Sindrom DIRA,deficit de antagonist al receptorului IL-1,boala inflamatorie multisistemica cu pustuloza,osteomielita cu pustuloza si periostoza,DIRA syndrome,deficiency of interleukin-1 receptor antagonist,IL-1 receptor antagonist deficiency
+Sindrom dispeptic biliar,dispepsie biliara,dispepsie de cauza biliara,dispepsie hepatobiliara,dispepsie de origine biliara,tulburare dispeptica biliara,dischinezie biliara dispeptica,biliary dyspepsia,biliary dyspeptic syndrome,hepatobiliary dyspepsia,dyspepsia of biliary origin,biliary-type dyspepsia
 Sindrom DITRA,deficit de antagonist al receptorului IL-36,pustuloza generalizata ereditara,psoriazis pustulos generalizat familial,DITRA syndrome,deficiency of interleukin-36 receptor antagonist,generalized pustular psoriasis DITRA
 Sindrom Doose,epilepsie mioclonica-atona a copilului,epilepsie cu crize mioclonice-atonice,epilepsie mioclonica astatica,Doose syndrome,myoclonic-atonic epilepsy,epilepsy with myoclonic-atonic seizures
 Sindrom Down,trisomia 21,mongolism,sindromul Down,down syndrome,trisomy 21,down's syndrome
