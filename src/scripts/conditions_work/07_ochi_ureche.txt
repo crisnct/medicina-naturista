@@ -1,0 +1,257 @@
+Abces periauricular,colectie purulenta periauriculara,supuratie in jurul urechii,abces in regiunea auriculara,periauricular abscess,abscess around the ear,periauricular suppuration
+Achromatopsie,acromatopsie,orbire totala la culori,imposibilitatea de a percepe culorile,achromatopsia,total color blindness,monochromatic vision
+Afachie,lipsa cristalinului,absenta cristalinului,ochi fara cristalin,aphakia,absence of the lens,loss of the crystalline lens
+Amaurosis fugax,pierdere tranzitorie a vederii unui ochi,cecitate temporara unilaterala,orbire trecatoare unilaterala,transient monocular blindness,transient visual loss,transient monocular visual loss
+Ametropie,viciu de refractie,eroare de refractie,tulburare de refractie,ametropia,refractive error,error of refraction
+Aniridie,lipsa irisului,absenta congenitala a irisului,aniridia congenitala,aniridia,congenital absence of the iris,absence of the iris
+Anizocorie,pupile inegale,inegalitate a pupilor,diferenta de diametru intre pupile,anisocoria,unequal pupils,pupil size asymmetry
+Anizometropie,refractie diferita intre cei doi ochi,asimetrie de refractie,miopie si hipermetropie la cei doi ochi,anisometropia,unequal refraction between eyes,refractive asymmetry
+Ankiloblefaron,liptirea pleoapelor intre ele,fuziune anormala a pleoapelor,pleoape unite,ankyloblepharon,fusion of the eyelids,eyelid fusion
+Arcul senil,arc cornean senil,gerontoxon,inel albicios la marginea corneei,arcus senilis,corneal arcus,senile arc
+Atelectaza timpanica,atelectaza urechii medii,retractie severa a timpanului,timpan retractat,tympanic atelectasis,middle ear atelectasis,atelectasis of the tympanic membrane
+Atrezie de conduct auditiv extern,atrezie auriculara congenitala,lipsa conductului auditiv extern,imperforatie a conductului auditiv,external auditory canal atresia,congenital aural atresia,absence of the ear canal
+Atrofie corioretiniana,atrofie a coroidei si retinei,degenerare atrofica corioretiniana,subtiere corioretiniana,chorioretinal atrophy,atrophy of the choroid and retina,chorioretinal degeneration
+Atrofie iriana,atrofie a irisului,subtiere a irisului,degenerescenta iriana,iris atrophy,atrophy of the iris,iris degeneration
+Atrofie optica,atrofia nervului optic,degenerescenta nervului optic,palor optic,optic atrophy,optic nerve atrophy,optic nerve degeneration
+Barotrauma auricular,otita barotraumatica,barotita,leziune auriculara prin presiune,ear barotrauma,barotitis media,barotraumatic otitis
+Blefarochalazis,blefarochalazie,atrofie a pielii pleoapei,pleoapa lasata prin slabirea pielii,blepharochalasis,atrophy of the eyelid skin,relaxation of eyelid skin
+Blefaroconjunctivita,inflamatia pleoapei si conjunctivei,blefaroconjunctivita cronica,blefarita cu conjunctivita,blepharoconjunctivitis,eyelid and conjunctival inflammation,marginal blepharoconjunctivitis
+Blefarospasm,spasm palpebral,contractie involuntara a pleoapelor,spasm al muschilor pleoapei,blepharospasm,eyelid spasm,eyelid twitching
+Boala Stargardt,distrofie maculara juvenila,distrofie maculara heredofamiliala,atrofie maculara juvenila,Stargardt disease,Stargardt macular dystrophy,fundus flavimaculatus
+Canaliculita,inflamatia canaliculului lacrimal,infectie a canaliculului lacrimal,canaliculita lacrimala,canaliculitis,inflammation of the lacrimal canaliculus,infection of the lacrimal canaliculus
+Carcinom bazocelular palpebral,carcinom bazocelular al pleoapei,epiteliom bazocelular palpebral,ulcer rodens al pleoapei,basal cell carcinoma of the eyelid,eyelid basal cell carcinoma,rodent ulcer of the eyelid
+Cecitate corticala,orbire corticala,cecitate prin leziune cerebrala,pierderea vederii de origine cerebrala,cortical blindness,cerebral blindness,cortical visual impairment
+Celulita orbitala,celulita orbitara,inflamatia tesutului orbital,infectie a orbitei,orbital cellulitis,infection of the orbit,inflammation of the orbital tissue
+Celulita preseptala,celulita periorbitala,inflamatie a tesuturilor din fata septului orbital,edem inflamator periorbital,preseptal cellulitis,periorbital cellulitis,preorbital cellulitis
+Chalazion,chist meibomian,granulom meibomian,inflamatie cronica a glandei meibomius,meibomian cyst,meibomian gland lipogranuloma,meibomian gland cyst
+Chalcoza oculara,depunere de cupru in ochi,toxicitate oculara cu cupru,intoxicatie oculara cu cupru,chalcosis,ocular chalcosis,copper deposition in the eye
+Chist dermoid orbital,chist dermoid al orbitei,dermoid orbital,chist dermoid periorbital,orbital dermoid cyst,dermoid cyst of the orbit,periorbital dermoid
+Chist irian,chist al irisului,chist de corp ciliar,chist iridociliar,iris cyst,cyst of the iris,ciliary body cyst
+Chorioretinita,inflamatia coroidei si retinei,chorioretinita focala,inflamatie corioretiniana,chorioretinitis,inflammation of the choroid and retina,choroidoretinitis
+Cicatrice corioretiniana,cicatrice coroidiana,leziune cicatriciala corioretiniana,pata atrofica corioretiniana,chorioretinal scar,scar of the choroid and retina,chorioretinal scarring
+Ciclita,inflamatia corpului ciliar,ciclita cronica,inflamatie a corpului ciliar,cyclitis,inflammation of the ciliary body,ciliary body inflammation
+Cisticercoza oculara,cisticerc ocular,larve de tenie in ochi,infestare oculara cu Taenia solium,ocular cysticercosis,eye cysticercosis,cysticercus of the eye
+Colesteatom,colesteatom al urechii medii,tumora epidermoida a urechii medii,chist keratosic al urechii medii,cholesteatoma,middle ear cholesteatoma,epidermoid tumor of the middle ear
+Colobom ocular,colobom irian,colobom coroidian,colobom al segmentului posterior,ocular coloboma,iris coloboma,choroidal coloboma
+Conjunctivita bacteriana,conjunctivita purulenta,conjunctivita cu secretii purulente,infectie bacteriana a conjunctivei,bacterial conjunctivitis,purulent conjunctivitis,pyogenic conjunctivitis
+Conjunctivita de includere,conjunctivita cu corpusculi de incluziune,conjunctivita cu chlamydia,conjunctivita de incluziune la adult,inclusion conjunctivitis,inclusion body conjunctivitis,chlamydial conjunctivitis
+Conjunctivita foliculara,conjunctivita cu foliculi,folliculoza conjunctivala,hiperplazie foliculara conjunctivala,follicular conjunctivitis,conjunctival folliculosis,follicular conjunctival hyperplasia
+Conjunctivita gonococica,conjunctivita cu gonococ,blenoragia oculara,conjunctivita gonoreica,gonococcal conjunctivitis,gonorrheal conjunctivitis,gonococcal ophthalmia
+Conjunctivita lignoasa,conjunctivita pseudomembranoasa,conjunctivita cu membrane de fibrina,inflamatie lignoasa a conjunctivei,ligneous conjunctivitis,pseudomembranous conjunctivitis,fibrinous conjunctivitis
+Conjunctivita neonatala,oftalmia nou-nascutului,conjunctivita la nounascut,infectie oculara neonatala,neonatal conjunctivitis,ophthalmia neonatorum,neonatal eye infection
+Conjunctivita virala,conjunctivita cu adenovirus,conjunctivita virala acuta,infectie virala a conjunctivei,viral conjunctivitis,adenoviral conjunctivitis,adenovirus eye infection
+Conjunctivochalazis,conjunctivochalazie,relaxare a conjunctivei,pliuri conjunctivale,conjunctivochalasis,conjunctival relaxation,conjunctival folds
+Corectopie,pozitie anormala a pupilei,deplasare a pupilei,pupila ectopica,corectopia,pupil displacement,ectopic pupil
+Corioretinita birdshot,coroidopatia birdshot,retinocoroidopatia birdshot,coroidita birdshot,birdshot chorioretinopathy,birdshot retinochoroidopathy,birdshot choroidopathy
+Corioretinopatie,corioretinopatia,boala degenerativa corioretiniana,afectare cronica a coroidei si retinei,chorioretinopathy,choroidoretinopathy,chorioretinal disorder
+Coroidita,inflamatia coroidei,coroidita focala,inflamatie a coroidei,choroiditis,inflammation of the choroid,choroidal inflammation
+Coroidita serpiginoasa,coroidita serpiginosa,coroidopatia serpiginoasa,atrofie corioretiniana serpiginoasa,serpiginous choroiditis,serpiginous choroidopathy,geographic choroiditis
+Cristale in vitros,depuneri cristaline vitriene,asteroizi vitrieni,hiperplazie astrocitara hialina,vitreous crystals,asteroid hyalosis,syneresis scintillans
+Criza glaucomatoasa,acces acut de glaucom,criza de tensiune oculara mare,atac de glaucom,glaucomatous crisis,acute glaucoma attack,acute rise in intraocular pressure
+Cvadranopsie,defect cvadrantic de camp vizual,pierdere a unui cadran din campul vizual,hemianopsie in cadran,quadrantanopia,quadrantanopsia,quadrantic visual field defect
+Dacrioadenita,inflamatia glandei lacrimale,infectie a glandei lacrimale,dacrioadenita acuta,dacryoadenitis,inflammation of the lacrimal gland,infection of the lacrimal gland
+Dacriocistita,inflamatia sacului lacrimal,infectie a sacului lacrimal,dacriocistita acuta,dacryocystitis,inflammation of the lacrimal sac,infection of the lacrimal sac
+Dacriolit,calcul lacrimal,litiaza a cailor lacrimale,piatra in calea lacrimala,dacryolith,lacrimal calculus,lacrimal stone
+Decolament vitrean,dezlipirea vitrosului,detasare de vitros,decolare a vitrosului,vitreous detachment,detachment of the vitreous,posterior vitreous detachment
+Degenerescenta corneana,degenerescenta corneana marginala,degenerare a corneei,modificari degenerative corneene,corneal degeneration,degenerative corneal changes,marginal corneal degeneration
+Degenerescenta maculara umeda,degenerescenta maculara exudativa,DML umeda,forma umeda a degenerescentei maculare,wet macular degeneration,exudative macular degeneration,neovascular age-related macular degeneration
+Degenerescenta maculara usca,degenerescenta maculara atrofica,DML usca,forma usca a degenerescentei maculare,dry macular degeneration,atrophic macular degeneration,non-neovascular age-related macular degeneration
+Degenerescenta retiniana periferica,distrofie retiniana periferica,degenerescenta retinei periferice,distrofie vitreoretiniana periferica,peripheral retinal degeneration,peripheral retinal dystrophy,lattice degeneration of the retina
+Degenerescenta vitreana,degenerescenta vitrosului,lichefiere a vitrosului,sinerezis vitrean,vitreous degeneration,vitreous liquefaction,syneresis of the vitreous
+Dermatita palpebrala,eczema pleoapelor,inflamatia pielii pleoapei,dermatita pleoapelor,eyelid dermatitis,eyelid eczema,dermatitis of the eyelid
+Detasament coroidian,dezlipire a coroidei,detasare de coroida,efuziune coroidiana,choroidal detachment,detachment of the choroid,choroidal effusion
+Deuteranopie,deuteranomalie,orbire la culoarea verde,deficit de percepere a culorii verzi,deuteranopia,deuteran color blindness,green color vision deficiency
+Diplacuzie,auzire dubla,perceptie dubla a sunetelor,distorsiune a perceperii sunetelor,diplacusis,double hearing,diplacusis binauralis
+Disacuzie,distorsiune auditiva,perceptie sonora distorsionata,scadere a tolerantei la sunete,dysacusis,auditory distortion,distorted hearing
+Disfunctie de trompa Eustachio,disfunctia trompei Eustachio,insuficienta tubara,blocaj al trompei Eustachio,eustachian tube dysfunction,eustachian tube obstruction,tubal dysfunction
+Distichiazis,rand dublu de gene,gene suplimentare spre globul ocular,al doilea rand de gene,distichiasis,double row of eyelashes,accessory eyelashes
+Distrofie corneana,distrofie a corneei,distrofie corneana ereditara,degenerescenta corneana ereditara,corneal dystrophy,hereditary corneal dystrophy,familial corneal dystrophy
+Distrofie corneana maculata,distrofie maculara corneana,distrofie corneana tip Groenouw 2,distrofie corneana maculara,Groenouw type II dystrophy,macular corneal dystrophy,spotty corneal dystrophy
+Distrofie coroidiana,distrofie a coroidei,atrofie coroidiana ereditara,distrofie corioretiniana,choroidal dystrophy,choroidal atrophy,hereditary choroidal dystrophy
+Distrofie de conuri si bastonase,distrofie cono-bastonase,degenerescenta de conuri si bastonase,distrofie retiniana de conuri si bastonase,cone-rod dystrophy,cone rod retinal dystrophy,cone-rod degeneration
+Distrofie endoteliala Fuchs,distrofie corneana endoteliala,distrofie endoteliala corneana Fuchs,boala Fuchs a corneei,Fuchs endothelial dystrophy,Fuchs corneal dystrophy,corneal endothelial dystrophy
+Distrofie granulara corneana,distrofie corneana granulara,distrofie corneana tip Groenouw 1,distrofie corneana Groenouw,granular corneal dystrophy,Groenouw type I dystrophy,crumb-like corneal dystrophy
+Distrofie reticulata corneana,distrofie corneana reticulata,distrofie corneana tip lattice,distrofie corneana cu retea,lattice corneal dystrophy,reticular corneal dystrophy,Biber-Haab-Dimmer dystrophy
+Distrofie viteliforma,distrofie maculara viteliforma,distrofie corneana viteliforma Best,boala Best precoce,vitelliform dystrophy,vitelliform macular dystrophy,Best disease
+Ectropion,intoarcere a pleoapei spre exterior,pleoapa intoarsa in afara,marginea pleoapei rasturnata in afara,outward turning eyelid,everted eyelid,eyelid eversion
+Edem corneal,edem al corneei,cornee edematoasa,infiltratie edematoasa corneana,corneal edema,corneal oedema,corneal swelling
+Edem macular,edem al maculei,umflare a maculei,infiltratie edematoasa maculara,macular edema,macular oedema,swelling of the macula
+Edem macular cistoid,edem macular chistic,edem macular cistoid diabetic,edem macular pseudofakic,cystoid macular edema,cystoid macular oedema,cystoid macular swelling
+Edem palpebral,umflarea pleoapelor,pleoape umflate,infiltratie edematoasa a pleoapelor,eyelid edema,swollen eyelids,eyelid swelling
+Edem papilar,papiledem,umflarea discului optic,edem al papilei optice,papilledema,papilloedema,optic disc swelling
+Endoftalmie,infectie intraoculara severa,supuratie intraoculara,endoftalmie purulenta,endophthalmitis,intraocular infection,suppurative intraocular infection
+Enoftalmie,ochi adancit in orbita,retractie a globului ocular,glob ocular in fundul orbitei,enophthalmos,enophthalmus,sunken eye
+Entropion,intoarcere a pleoapei spre interior,marginea pleoapei rotita spre glob,pleoapa intoarsa spre ochi,inward turning eyelid,inverted eyelid,eyelid inversion
+Epiblefaron,epiblefaron congenital,pli cutanat palpebral excesiv,pleoapa cu pliu cutanat peste gene,epiblepharon,congenital epiblepharon,excess eyelid skin fold
+Episclerita,inflamatia tesutului episcleral,congestie episclerala,episclerita idiopatica,episcleritis,episcleral inflammation,inflammation of the episclera
+Esotropie,strabism convergent,strabism intern,deviatie convergenta a ochilor,esotropia,convergent strabismus,internal strabismus
+Exoftalmie,ochi iesit din orbita,protrusie a globului ocular,exoftalmie unilaterala,exophthalmos,exophthalmus,proptosis
+Exostoza conductului auditiv extern,exostoza auriculara,hiperostoza conductului auditiv,urechea surferului,external auditory canal exostosis,exostosis of the ear canal,surfer's ear
+Exotropie,strabism divergent,strabism extern,deviatie divergenta a ochilor,exotropia,divergent strabismus,external strabismus
+Fistula lacrimala,fistula a sacului lacrimal,comunicare anormala a cailor lacrimale,fistula lacrimo-cutanata,lacrimal fistula,fistula of the lacrimal sac,lacrimal passage fistula
+Fistula perilimfatica,fistula perilimfei,fistula labirintica,ruptura ferestrei rotunde,perilymphatic fistula,labyrinthine fistula,round window rupture
+Fistula preauriculara,fistula auriculara congenitala,por preauricular congenital,canal preauricular congenital,preauricular fistula,preauricular sinus,congenital preauricular fistula
+Fotokeratita,cheratita actinica,orbirea zapezii,arsura corneana prin radiatii ultraviolet,photokeratitis,actinic keratitis,snow blindness
+Gaura maculara,ruptura maculara,defect macular,orificiu macular,macular hole,retinal macular hole,idiopathic macular hole
+Glaucom absolut,glaucom terminal,glaucom in faza finala,orbire prin glaucom,absolute glaucoma,terminal glaucoma,end-stage glaucoma
+Glaucom acut cu unghi inchis,glaucom acut de unghi inchis,glaucom prin inchiderea unghiului,glaucom cu unghi inchis,acute angle-closure glaucoma,angle-closure glaucoma,acute closed-angle glaucoma
+Glaucom congenital,glaucom infantil,buftalmie,hidroftalmie congenitala,congenital glaucoma,infantile glaucoma,buphthalmos
+Glaucom exfoliativ,glaucom pseudoexfoliativ,sindrom pseudoexfoliativ cu glaucom,glaucom prin material exfoliativ,exfoliative glaucoma,pseudoexfoliation glaucoma,glaucoma capsulare
+Glaucom juvenil,glaucom cu debut juvenil,glaucom primar juvenil,glaucom la tanar,juvenile glaucoma,juvenile-onset glaucoma,early-onset glaucoma
+Glaucom neovascular,glaucom prin rubeoza iriana,glaucom secundar neovascular,glaucom hemoragic,neovascular glaucoma,hemorrhagic glaucoma,rubeotic glaucoma
+Glaucom pigmentar,glaucom prin dispersie pigmentara,glaucom pigmentar secundar,sindrom de dispersie pigmentara cu glaucom,pigmentary glaucoma,pigment dispersion glaucoma,pigmentary dispersion syndrome
+Glaucom secundar,glaucom simptomatic,glaucom prin afectiune oculara asociata,glaucom dobandit secundar,secondary glaucoma,glaucoma due to ocular disease,acquired secondary glaucoma
+Gliom de nerv optic,gliom al caii optice,astrocytom de nerv optic,tumora de nerv optic,optic nerve glioma,optic pathway glioma,optic nerve astrocytoma
+Goniosinechii,aderente in unghiul iridocornean,sinechii ale unghiului camerei anterioare,goniosinechii periferice,goniosynechiae,peripheral anterior synechiae,angle synechiae
+Granulom de colesterol auricular,granulom de colesterol al urechii medii,chist de colesterol auricular,reactie granulomatoasa la colesterol in ureche,cholesterol granuloma of the middle ear,cholesterol cyst of the middle ear,middle ear cholesterol granuloma
+Hemangiom coroidal,hemangiom al coroidei,hemangiom circumscris coroidian,angiom coroidian,choroidal hemangioma,hemangioma of the choroid,choroidal angioma
+Hemangiom orbital,hemangiom cavernos orbital,angiom al orbitei,tumora vasculara orbitala,orbital hemangioma,cavernous hemangioma of the orbit,orbital vascular tumor
+Hemangiom palpebral,hemangiom al pleoapei,angiom palpebral,hemangiom capilar palpebral,eyelid hemangioma,eyelid angioma,capillary hemangioma of the eyelid
+Hemangiom retinian,hemangiom capilar retinian,angiom retinian,hemangiom al retinei,retinal hemangioma,retinal capillary hemangioma,retinal angioma
+Hematom orbital,hemoragie retrobulbara,hematoamel al orbitei,colectie de sange in orbita,orbital hematoma,retrobulbar hemorrhage,orbital hemorrhage
+Hemianopsie,hemianopsie homonima,pierdere a jumatatii campului vizual,defect hemianopsic,hemianopia,hemianopsia,half visual field loss
+Hemoragie retiniana,hemoragie la nivelul retinei,sangerare retiniana,hemoragie subretiniana,retinal hemorrhage,retinal haemorrhage,bleeding in the retina
+Heterocromie iriana,heterocromie a irisului,ochi cu culori diferite,heterocromie oculare,heterochromia iridis,heterochromia iridum,different colored eyes
+Heteroforie,heteroforia,strabism latent,forie,heterophoria,latent strabismus,phoria
+Hiperacuzie,hipersensibilitate auditiva,intoleranta la sunete puternice,perceptie exagerata a sunetelor,hyperacusis,auditory hypersensitivity,sound sensitivity
+Hipertropie,strabism vertical,deviatie verticala a ochilor,hiperforie,hypertropia,vertical strabismus,vertical deviation of the eye
+Hipopion,puroi in camera anterioara,colectie purulenta in camera anterioara,exudat purulent in camera anterioara,hypopyon,pus in the anterior chamber,purulent anterior chamber exudate
+Insuficienta de convergenta,convergenta insuficienta,exoforie la apropiere,insuficienta de convergenta oculara,convergence insufficiency,insufficient convergence,near exophoria
+Iridociclita heterocromica Fuchs,sindrom Fuchs heterocrom,sindrom de heterocromie iriana Fuchs,ciclita heterocromica,Fuchs heterochromic iridocyclitis,Fuchs heterochromic uveitis,heterochromic cyclitis of Fuchs
+Iridodializa,ruptura insertiei irisului,avulsie a irisului,dezlipire a irisului de corpul ciliar,iridodialysis,iris avulsion,detachment of the iris
+Irita,inflamatia irisului,irita acuta,iritis,iris inflammation,inflammation of the iris,anterior iris inflammation
+Keratita,cheratita,inflamatia corneei,corneal inflammation,inflammation of the cornea,corneitis,corneal inflammatory disease
+Keratita herpetica,cheratita herpetica,keratita cu virus herpes simplex,ulcer herpetic cornean,herpetic keratitis,herpes simplex keratitis,herpetic corneal ulcer
+Keratoconjunctivita epidemica,cheratoconjunctivita epidemica,conjunctivita epidemica,keratoconjunctivita virala epidemica,epidemic keratoconjunctivitis,epidemic keratoconjunctivitis virus infection,shipyard eye
+Keratoconjunctivita herpetica,cheratoconjunctivita herpetica,keratoconjunctivita cu herpes simplex,infectie herpetica a corneei si conjunctivei,herpetic keratoconjunctivitis,herpes simplex keratoconjunctivitis,herpetic epithelial keratoconjunctivitis
+Keratoconjunctivita uscata,cheratoconjunctivita uscata,ochi uscat cu leziuni corneene,keratita sicca,keratoconjunctivitis sicca,sicca keratoconjunctivitis,dry eye with corneal involvement
+Keratoconus,cheratoconus,cornee conica,ectazie corneana conica,conical cornea,conical ectasia of the cornea,corneal conus
+Keratoglob,cheratoglob,cornee globuloasa,marire globala a corneei,keratoglobus,globular cornea,congenital globular cornea
+Labirintita,inflamatia labirintului,labirintita vestibulara,vertij de origine labirintica,labyrinthitis,inflammation of the labyrinth,inner ear inflammation
+Labirintita purulenta,labirintita supurata,labirintita bacteriana,infectie purulenta a labirintului,purulent labyrinthitis,suppurative labyrinthitis,bacterial labyrinthitis
+Labirintita seroasa,labirintita serosa,labirintita virala,labirintita toxica,serous labyrinthitis,viral labyrinthitis,toxic labyrinthitis
+Lagoftalmie,lagoftalmos,imposibilitatea de a inchide pleoapa,ochi cu pleoapa deschisa,lagophthalmos,inability to close the eyelid,eyelid closure failure
+Leucom cornean,leucom al corneei,opacitate corneana alba,cicatrice corneana alba,corneal leukoma,leukoma of the cornea,white corneal opacity
+Linfom orbital,limfom al orbitei,limfom ocular,limfom non-Hodgkin orbital,orbital lymphoma,lymphoma of the orbit,ocular adnexal lymphoma
+Luxatie de cristalin,luxatia cristalinului,dislocare a cristalinului,ectopie a cristalinului,lens dislocation,luxation of the lens,dislocated lens
+Madaroza,caderea genelor,pierderea genelor,alopecie a genelor,madarosis,eyelash loss,loss of eyelashes
+Mastoidita,inflamatia apofizei mastoide,infectie mastoidiana,mastoidita acuta,mastoiditis,mastoid inflammation,mastoid infection
+Melanom conjunctival,melanom al conjunctivei,melanom malign al conjunctivei,melanom de conjunctiva,conjunctival melanoma,malignant melanoma of the conjunctiva,conjunctival melanotic tumor
+Melanom coroidal,melanom uveal,melanom al coroidei,melanom malign coroidian,choroidal melanoma,uveal melanoma,malignant melanoma of the choroid
+Membrana epiretiniana,membrana preretiniana,plic retinian macular,fibroza epiretiniana,epiretinal membrane,preretinal macular fibrosis,macular pucker
+Meningiom de teaca nervului optic,meningiom optic,meningiom al nervului optic,tumora de teaca nervului optic,optic nerve sheath meningioma,optic nerve meningioma,meningioma of the optic nerve
+Microtie,ureche mica congenitala,hipoplazie a pavilionului auricular,malformatie congenitala a urechii externe,microtia,congenital small ear,hypoplasia of the auricle
+Miodesopsie,musca volante,corpi flotanti in vitros,opacitati vitriene,miodesopsia,eye floaters,vitreous floaters
+Miringita,inflamatia membranei timpanice,inflamatia timpanului,miringita acuta,myringitis,inflammation of the tympanic membrane,tympanitis
+Miringita buloasa,miringita buloasa hemoragica,miringita cu basicute,otita medie cu basicute pe timpan,bullous myringitis,bullous hemorrhagic myringitis,myringitis bullosa
+Miringita hemoragica,miringita hemoragica acuta,timpan hemoragic,miringita cu hemoragii subepiteliale,hemorrhagic myringitis,acute hemorrhagic myringitis,hemorrhagic tympanitis
+Misofonie,hipersensibilitate la sunete specifice,iritare la sunetele produse de altii,aversiune la anumite sunete,misophonia,selective sound sensitivity syndrome,soft sound sensitivity
+Mucocel de sac lacrimal,mucocel lacrimal,retentie de mucus in sacul lacrimal,inflamatie cronica cu acumulare de mucus,mucocele of the lacrimal sac,lacrimal sac mucocele,mucocele of the lacrimal duct
+Neovascularizatie corneana,noi vase in cornee,vascularizatie corneana,cornee vascularizata,corneal neovascularization,corneal vascularization,new vessels in the cornea
+Neurinom acustic,schwannom vestibular,tumora de nerv acustic,neurilemom vestibular,acoustic neuroma,vestibular schwannoma,acoustic nerve tumor
+Neurita retrobulbara,nevrita retrobulbara,neurita optica retrobulbara,inflamatia nervului optic in spatele globului,retrobulbar neuritis,retrobulbar optic neuritis,retrobulbar neuropathy
+Neuronita vestibulara,nevrita vestibulara,neuronita vestibulara acuta,vertij prin inflamatia nervului vestibular,vestibular neuritis,vestibular neuronitis,acute unilateral vestibulopathy
+Neuropatie auditiva,neuropatia nervului auditiv,disinchronie auditiva,afectare a nervului auditiv,auditory neuropathy,auditory neuropathy spectrum disorder,auditory dys-synchrony
+Neuropatie optica ischemica,neuropatie optica ischemica anterioara,infarct al nervului optic,ischemie a nervului optic,ischemic optic neuropathy,anterior ischemic optic neuropathy,optic nerve infarction
+Neuropatie optica toxica,ambliopie toxica,nevrita optica toxica,atrofie optica toxica,toxic optic neuropathy,toxic amblyopia,nutritional optic neuropathy
+Nev conjunctival,nev pigmentar conjunctival,alunita conjunctivala,nev benign al conjunctivei,conjunctival nevus,conjunctival mole,benign conjunctival nevus
+Nistagmus,nistagmus ocular,miscari oscilatorii involuntare ale ochilor,tremur al globilor oculari,nystagmus,oscillatory eye movements,involuntary eye movements
+Nistagmus congenital,nistagmus infantil,nistagmus prezent de la nastere,nistagmus ereditar,congenital nystagmus,infantile nystagmus,hereditary nystagmus
+Ocluzie de artera centrala a retinei,obstructie a arterei centrale retiniene,infarct retinian,ocluzie arteriala retiniana,central retinal artery occlusion,retinal artery occlusion,retinal arterial obstruction
+Ocluzie de ramura arteriala retiniana,obstructie de ramura a arterei retiniene,ocluzie arteriala de ramura retiniana,infarct retiniana segmentar,branch retinal artery occlusion,retinal branch artery occlusion,segmental retinal artery occlusion
+Ocluzie de ramura venoasa retiniana,obstructie de ramura a venei retiniene,tromboza de ramura venoasa retiniana,ocluzie venoasa retiniana de ramura,branch retinal vein occlusion,retinal branch vein occlusion,branch vein occlusion of the retina
+Ocluzie de vena centrala a retinei,obstructie a venei centrale retiniene,tromboza venei centrale retiniene,ocluzie venoasa retiniana centrala,central retinal vein occlusion,retinal vein occlusion,central retinal venous obstruction
+Oftalmie simpatica,oftalmie simpatetica,uveita simpatica,inflamatie oculara autoimuna posttraumatica,sympathetic ophthalmia,sympathetic ophthalmitis,sympathetic uveitis
+Oftalmopatia tiroidiana,boala Graves oftalmica,orbitopatie basedowiana,exoftalmie endocrina,thyroid eye disease,Graves ophthalmopathy,thyroid-associated orbitopathy
+Oftalmoplegie externa progresiva,oftalmoplegie progresiva cronica,oftalmoplegie mitocondriala,boala Kiloh-Nevin,progressive external ophthalmoplegia,chronic progressive external ophthalmoplegia,Kiloh-Nevin syndrome
+Oftalmoplegie internucleara,disinergie oculomotorie,leziune a fasciculului longitudinal medial,oftalmoplegie internucleara bilaterala,internuclear ophthalmoplegia,medial longitudinal fasciculus syndrome,internuclear ophthalmoparesis
+Opacitate corneana,opacifiere a corneei,pata alba pe cornee,cicatrice corneana,corneal opacity,opacity of the cornea,corneal scar
+Orjelet,hordeolum,orjelet extern,orjelet palpebral,stye,eyelid stye,external hordeolum
+Orjelet intern,hordeolum intern,abces acut al glandei meibomius,infectie acuta a glandei meibomius,internal hordeolum,internal stye,acute meibomian adenitis
+Otita externa circumscrisa,otita externa localizata,furuncul al conductului auditiv extern,abces al conductului auditiv extern,circumscribed otitis externa,furuncle of the external ear canal,localized otitis externa
+Otita externa maligna,otita externa necrozanta,osteomielita de baza de craniu,otita externa necrotizanta,malignant otitis externa,necrotizing otitis externa,skull base osteomyelitis
+Otita medie acuta,otita medie acuta supurata,infectie acuta a urechii medii,otita medie acuta la copil,acute otitis media,acute suppurative otitis media,acute middle ear infection
+Otita medie adeziva,otita medie adeziva cronica,boala adeziva a urechii medii,aderente timpanice,adhesive otitis media,chronic adhesive otitis media,adhesive middle ear disease
+Otita medie cronica,otita medie cronica supurativa,otita medie cronica simpla,infectie cronica a urechii medii,chronic otitis media,chronic suppurative otitis media,chronic middle ear infection
+Otita medie cronica colesteatomatoasa,otita medie cronica cu colesteatom,otita medie cu colesteatom,otita medie cronica epitimpanica,chronic otitis media with cholesteatoma,cholesteatomatous chronic otitis media,atticoantral chronic otitis media
+Otita medie mucoida,otita medie cu mucus,otita medie mucoasa,efuziune mucoida a urechii medii,mucoid otitis media,mucous otitis media,otitis media with mucous effusion
+Otita medie necrozanta,otita medie necrotica,otita medie cu necroza osoasa,otita medie distructiva,necrotizing otitis media,necrotizing middle ear infection,osteonecrotic otitis media
+Otita medie secretorie,otita medie cu efuziune,otita medie seroasa,ureche cu lichid,secretory otitis media,otitis media with effusion,glue ear
+Otomastoidita,otita medie complicata cu mastoidita,infectie otomastoidiana,inflamatia urechii medii si a mastoidei,otomastoiditis,otitis media with mastoiditis,infection of the mastoid and middle ear
+Otomicoza,micoza urechii,ciuperca in ureche,infectie fungica a urechii,otomycosis,fungal ear infection,fungal otitis externa
+Otoscleroza,otoscleroza stapediana,fixare a scarii la fereastra ovala,ankiloza stapedo-vestibulara,otosclerosis,stapedial otosclerosis,otosclerotic hearing loss
+Otospongioza,otospongioza cochleara,faza activa a otosclerozei,otospongioza retrofenestrala,otospongiosis,cochlear otospongiosis,retrofenestral otospongiosis
+Ototoxicitate,toxicitate auriculara,surditate ototoxica,afectare auditiva de cauza medicamentoasa,ototoxicity,ototoxic hearing loss,drug-induced hearing loss
+Papilita,papilita optica,inflamatia papilei optice,nevrita papilei optice,papillitis,optic papillitis,inflammation of the optic disc
+Papilom conjunctival,papilom al conjunctivei,papiloame conjunctivale,neoplasm benign conjunctival,conjunctival papilloma,squamous papilloma of the conjunctiva,benign conjunctival tumor
+Papilom palpebral,papilom al pleoapei,papilom scuamos palpebral,veruca palpebrala,eyelid papilloma,squamous papilloma of the eyelid,eyelid wart
+Paracuzie,perceptie falsa a sunetelor,distorsiune paracuzica,auzire alterata a sunetelor,paracusis,paracusia,false perception of sound
+Paralizia de acomodatie,paralizie a acomodatiei,cicloplegie,insuficienta de acomodatie,paralysis of accommodation,cycloplegia,accommodation paralysis
+Paralizia nervului abducens,paralizia nervului cranian VI,pareza nervului abducens,oftalmoplegie abducens,abducens nerve palsy,sixth nerve palsy,cranial nerve VI palsy
+Paralizia nervului oculomotor,paralizia nervului cranian III,oftalmoplegie oculomotorie,pareza nervului oculomotor,oculomotor nerve palsy,third nerve palsy,cranial nerve III palsy
+Paralizia nervului trohlear,paralizia nervului cranian IV,pareza nervului trohlear,oftalmoplegie trohleara,trochlear nerve palsy,fourth nerve palsy,cranial nerve IV palsy
+Paralizia privirii,paralizie de convergenta,oftalmoplegie supranucleara,paralizie a miscarilor conjugate ale ochilor,gaze palsy,conjugate gaze palsy,supranuclear gaze palsy
+Perforatie timpanica,ruptura timpanului,gaura in timpan,perforatie a membranei timpanice,tympanic membrane perforation,ruptured eardrum,eardrum perforation
+Pericondrita auriculara,pericondrita urechii,inflamatia pericondrului auricular,infectie a cartilajului urechii,auricular perichondritis,perichondritis of the ear,inflammation of the ear cartilage
+Petrozita,osteomielita apexului petros,inflamatia apexului petros,petrozita supurata,petrositis,petrous apicitis,inflammation of the petrous apex
+Pinguecula,pingecula,ingalbenire a conjunctivei,degenerescenta conjunctivala galbena,conjunctival degeneration,yellow patch on the conjunctiva,pinguecula of the conjunctiva
+Policorie,policoria,pupile multiple,mai multe orificii pupilare,polycoria,multiple pupils,multiple pupillary openings
+Polip auricular,polip al conductului auditiv extern,formatiune polipoida auriculara,polip fibros auricular,aural polyp,ear canal polyp,polyp of the ear
+Presbiacuzie,surditate senila,hipoacuzie de batranete,scaderea auzului la varstnici,presbycusis,age-related hearing loss,senile hearing loss
+Protanopie,protanomalie,orbire la culoarea rosie,deficit de percepere a culorii rosii,protanopia,protan color blindness,red color vision deficiency
+Pseudotumora orbitala,tumora inflamatorie orbitala,miozita orbitala idiopatica,inflamatie orbitala nespecifica,orbital pseudotumor,orbital inflammatory disease,idiopathic orbital inflammation
+Pterigion,pterigium,carne crescuta pe conjunctiva,pliu conjunctival care avanseaza spre cornea,pterygium,conjunctival pterygium,surfer's eye
+Ptoza palpebrala,caderea pleoapei superioare,pleoapa cazuta,blefaroptoza,ptosis,drooping eyelid,blepharoptosis
+Pupila Argyll Robertson,pupila sifilitica,pupila cu reflex fotomotor absent,pupila cu disociere lumina-acomodare,Argyll Robertson pupil,Argyll Robertson syndrome,syphilitic pupil
+Rabdomiosarcom orbital,rabdomiosarcom al orbitei,sarcom embrionar orbital,tumora maligna orbitala la copil,orbital rhabdomyosarcoma,rhabdomyosarcoma of the orbit,embryonal orbital sarcoma
+Retinita cu citomegalovirus,retinita CMV,infectie retiniana cu citomegalovirus,retinita cu citomegalovirus la imunosupresati,cytomegalovirus retinitis,CMV retinitis,cytomegalovirus retinal infection
+Retinoblastom,tumora maligna a retinei,neuroblastom retinian,cancer ocular pediatric,retinoblastoma,malignant retinal tumor,retinal neuroblastoma
+Retinopatie de prematuritate,retinopatia prematurului,fibroplazie retrolenticulara,retinopatie a nou-nascutului prematur,retinopathy of prematurity,retrolental fibroplasia,premature infant retinopathy
+Retinopatie hipertensiva,retinopatie arteriala hipertensiva,retinopatie din hipertensiune,angiopatie retiniana hipertensiva,hypertensive retinopathy,retinopathy due to hypertension,hypertensive retinal changes
+Retinopatie leucemica,retinopatie din leucemie,infiltratie leucemica retiniana,hemoragii retiniene leucemice,leukemic retinopathy,retinopathy of leukemia,leukemic retinal infiltration
+Retinopatie seroasa centrala,corioretinopatia seroasa centrala,retinopatie seroasa idiopatica,detasament seros macular,central serous chorioretinopathy,central serous retinopathy,idiopathic central serous chorioretinopathy
+Retinoschizis,retinoschiza,dezlipire a straturilor retinei,schizis retinian,retinoschisis,retinal schisis,splitting of the retina
+Retinoschizis juvenil legat de X,retinoschiza juvenila legata de X,retinoschizis juvenil congenital,distrofie retiniana juvenila legata de X,X-linked retinoschisis,juvenile retinoschisis,congenital retinoschisis
+Rubeoza iriana,neovascularizare a irisului,noi vase la nivelul irisului,rubeoza irisului,rubeosis iridis,iris neovascularization,neovascularization of the iris
+Ruptura coroidiana,ruptura a coroidei,ruptura corioretiniana,leziune traumatica a coroidei,choroidal rupture,rupture of the choroid,traumatic choroidal rupture
+Sclerita,inflamatia scleroticii,sclerita oculara,inflamatie a peretelui ocular,scleritis,inflammation of the sclera,scleral inflammation
+Sideroza oculara,depunere de fier in ochi,hemosideroza oculara,toxicitate oculara cu fier,siderosis bulbi,ocular siderosis,iron deposition in the eye
+Simblefaron,aderenta conjunctivala,aderenta intre pleoapa si glob,brida conjunctivala,symblepharon,conjunctival adhesion,adhesion of the eyelid to the globe
+Sindrom Adie,pupila Adie,pupila tonica,pupila tonica Adie,Adie syndrome,Adie tonic pupil,tonic pupil
+Sindrom Cogan,sindrom Cogan tipic,cheratita interstitiala cu surditate,boala Cogan,Cogan syndrome,Cogan's syndrome,keratitis with vestibuloauditory symptoms
+Sindrom de dehiscenta a canalului semicircular superior,dehiscenta a canalului semicircular superior,lipsa de acoperire osoasa a canalului semicircular,dehiscence de canal semicircular superior,superior semicircular canal dehiscence syndrome,semicircular canal dehiscence,superior canal dehiscence
+Sindrom de retractie palpebrala,retractie palpebrala,pleoapa retractata,retractie a pleoapei superioare,eyelid retraction,retraction of the eyelid,lid retraction
+Sindrom de tractiune vitreomaculara,tractiune vitreomaculara,aderenta vitreomaculara anormala,tractiune a vitrosului asupra maculei,vitreomacular traction syndrome,vitreomacular adhesion,vitreomacular traction
+Sindrom Duane,retractie congenitala a globului ocular,oftalmoplegie congenitala cu retractie,sindrom de retractie oculara,Duane syndrome,Duane retraction syndrome,Stilling-Turk-Duane syndrome
+Sindrom iridocorneal endotelial,anomalie iridocorneala endoteliala,distrofie endoteliala iridocorneala,sindrom ICE,iridocorneal endothelial syndrome,endothelial iridocorneal syndrome,ICE syndrome
+Sindrom ischemic ocular,ischemie oculara cronica,sindrom de hipoperfuzie oculara,boala oclusiva carotido-oftalmica,ocular ischemic syndrome,chronic ocular ischemia,ocular hypoperfusion syndrome
+Sindrom pseudoexfoliativ,pseudoexfoliatie capsulara,sindrom de exfoliere capsulara,depuneri pseudoexfoliative pe cristalin,pseudoexfoliation syndrome,exfoliation syndrome,capsular exfoliation syndrome
+Sindrom Ramsay Hunt,herpes zoster otic,zona auriculara,paralizie faciala cu eruptie auriculara,Ramsay Hunt syndrome,herpes zoster oticus,herpes zoster of the ear
+Sindrom Sjogren ocular,cheratoconjunctivita sicca din sindrom Sjogren,ochi uscat in sindromul Sjogren,manifestare oculara a sindromului Sjogren,ocular Sjogren syndrome,Sjogren keratoconjunctivitis sicca,Sjogren eye disease
+Sinechii iriene,sinechii ale irisului,aderente iriene,aderenta irisului la cornea,iris synechiae,synechiae of the iris,iridocorneal adhesions
+Spasm de acomodatie,spasm al muschiului ciliar,acomodatie excesiva,pseudomiopie prin spasm,spasm of accommodation,accommodative spasm,pseudomyopia
+Stafilom scleral,stafilom al scleroticii,ectazie sclerala,proeminenta a scleroticii,staphyloma of the sclera,scleral staphyloma,scleral ectasia
+Stenoza de cale lacrimala,obstructie a cailor lacrimale,stenoza de canal lacrimal,insuficienta cailor lacrimale,lacrimal duct stenosis,nasolacrimal duct obstruction,lacrimal passage obstruction
+Stenoza de conduct auditiv extern,ingustare a conductului auditiv extern,stenoza canalului auricular,stenoza dobandita a conductului auditiv,acquired stenosis of the external ear canal,external auditory canal stenosis,ear canal narrowing
+Subluxatie de cristalin,subluxatia cristalinului,luxatie partiala a cristalinului,deplasare partiala a cristalinului,lens subluxation,subluxation of the lens,partial lens dislocation
+Surditate brusca,surditate brusca neurosenzoriala,hipoacuzie brusca,surditate instalata brusc,sudden hearing loss,sudden sensorineural hearing loss,sudden deafness
+Surditate congenitala,surditate din nastere,hipoacuzie congenitala,surditate ereditara,congenital hearing loss,congenital deafness,hereditary hearing loss
+Surditate de transmisie,surditate de conducere,hipoacuzie de transmisie,surditate mecanica,conductive hearing loss,conduction deafness,transmission hearing loss
+Surditate mixta,hipoacuzie mixta,surditate de tip mixt,hipoacuzie de transmisie si neurosenzoriala,mixed hearing loss,mixed deafness,combined hearing loss
+Surditate neurosenzoriala,surditate de perceptie,hipoacuzie neurosenzoriala,surditate senzoriala,sensorineural hearing loss,perceptive deafness,sensorineural deafness
+Timpanoscleroza,scleroza timpanica,placi scleroase pe timpan,miringoscleroza,tympanosclerosis,myringosclerosis,sclerosis of the tympanic membrane
+Tinitus pulsativ,tinitus pulsatil,acufena pulsatila,zgomot pulsatil in ureche,pulsatile tinnitus,vascular tinnitus,pulsatile tinnitus aurium
+Toxocaroza oculara,larva migrans oculara,infestare oculara cu Toxocara,toxocaroza oculare,ocular toxocariasis,ocular larva migrans,Toxocara eye infection
+Toxoplasmoza oculara,coroidita toxoplasmica,retinocoroidita toxoplasmica,infectie oculara cu Toxoplasma,ocular toxoplasmosis,toxoplasmic chorioretinitis,Toxoplasma eye infection
+Trahom,trahom ocular,conjunctivita granulomatoasa trahomatoasa,infectie oculara cu Chlamydia trachomatis,trachoma,granular conjunctivitis,egyptian ophthalmia
+Trihiazis,gene care se indreapta spre globul ocular,gene intoarse spre ochi,pozitie anormala a genelor,trichiasis,inward-growing eyelashes,misdirected eyelashes
+Tritanopie,tritanomalie,orbire la culoarea albastra,deficit de percepere a culorii albastre,tritanopia,tritan color blindness,blue color vision deficiency
+Trompa Eustachio deschisa,trompa patuloasa,autofonie,sindrom de trompa permeabila,patulous eustachian tube,patulous eustachian tube dysfunction,abnormally patent eustachian tube
+Tulburare de procesare auditiva centrala,dezordine de procesare auditiva,deficit de procesare auditiva centrala,tulburare de procesare a sunetelor,central auditory processing disorder,auditory processing disorder,central auditory dysfunction
+Tumora orbitala,tumora a orbitei,neoplasm orbital,formatiune tumorala orbitala,orbital tumor,orbital neoplasm,tumor of the orbit
+Vertij cervical,vertij de origine cervicala,ameteala cervicala,vertij prin afectare cervicala,cervical vertigo,cervicogenic vertigo,cervical dizziness
+Vertij paroxistic benign,vertij paroxistic positional benign,vertij de pozitie paroxistic,VPPB,benign paroxysmal positional vertigo,BPPV,benign positional vertigo
+Vertij postural,vertij positional,vertij la schimbarea pozitiei,ameteala la schimbarea pozitiei corpului,positional vertigo,postural vertigo,positional dizziness
+Vestibulita nazala,rinita vestibulara,inflamatia vestibulului nazal,infectie a vestibulului nazal,nasal vestibulitis,vestibulitis nasi,infection of the nasal vestibule
+Vitreoretinopatie proliferativa,retinopatie proliferativa vitreoretiniana,proliferare fibroasa vitreoretiniana,membrana fibroasa vitreoretiniana,proliferative vitreoretinopathy,vitreoretinal proliferation,proliferative vitreoretinal disease
+Xantelasma palpebrala,xantelasma,placi galbene pe pleoape,depunere de colesterol la nivelul pleoapelor,xanthelasma,xanthelasma palpebrarum,yellow plaques on the eyelids

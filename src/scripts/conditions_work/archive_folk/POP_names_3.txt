@@ -1,0 +1,134 @@
+Anemie hipoplastica
+Anemie hiporegenerativa
+Anemie macrocitara
+Anemie megaloblastica
+Anemie megaloblastica eritrocitara
+Anemie megaloblastica prin deficit de folat
+Anemie megaloblastica prin deficit de vitamina B12
+Anemie microcitara
+Anemie normocitara
+Anemie normocroma
+Anemie pernicioasa
+Anemie posthemoragica acuta
+Anemie posthemoragica cronica
+Anemie prin deficit de G6PD
+Anemie refractara
+Anemie refractara cu exces de blasti
+Anemie sideroblastica
+Anemie talasemica
+Anevrism aortic
+Anevrism cerebral
+Angina pectorala
+Angioedem
+Angiosarcom
+Anorexie nervoasa
+Antrax
+Anxietate
+Apendicita
+Apendicita acuta
+Apetit scazut
+Apnee in somn
+Aritmie atriala
+Aritmie bloc sinoatrial
+Aritmie cardiaca
+Aritmie extrasistolie atriala
+Aritmie extrasistolie supraventriculara
+Aritmie extrasistolie ventriculara
+Aritmie fibrilatie atriala
+Aritmie fibrilatie ventriculara
+Aritmie flutter atrial
+Aritmie nodala
+Aritmie sinusala
+Aritmie supraventriculara
+Aritmie tahicardie atriala
+Aritmie tahicardie ventriculara
+Aritmie ventriculara
+Arsura solara
+Arsuri
+Arsuri la stomac
+Arterioscleroza
+Arterita
+Artrita
+Artrita asociata acromegaliei
+Artrita asociata amiloidozei
+Artrita asociata bolii Behcet
+Artrita asociata bolii Whipple
+Artrita asociata diabetului
+Artrita asociata febrei reumatice
+Artrita asociata hemocromatozei
+Artrita asociata sarcoidozei
+Artrita boreliozica
+Artrita cotului
+Artrita cu cristale de hidroxiapatita
+Artrita cu cristale de pirofosfat
+Artrita enteropatica
+Artrita genunchiului
+Artrita gleznei
+Artrita gonococica
+Artrita gutoasa
+Artrita gutoasa acuta
+Artrita gutoasa cronica
+Artrita idiopatica juvenila
+Artrita infectioasa cu stafilococ
+Artrita infectioasa cu streptococ
+Artrita interfalangiana
+Artrita juvenila asociata entezitei
+Artrita juvenila nediferentiata
+Artrita juvenila oligoarticulara
+Artrita juvenila poliarticulara
+Artrita juvenila psoriazica
+Artrita lupica
+Artrita mainii
+Artrita periferica
+Artrita poliartriculara
+Artrita psoriazica
+Artrita psoriazica axiala
+Artrita psoriazica mutilanta
+Artrita pumnului
+Artrita reactiva postenterica
+Artrita reactiva postinfectioasa
+Artrita reumatoida
+Artrita reumatoida juvenila sistemica
+Artrita reumatoida seronegativa
+Artrita reumatoida seropozitiva
+Artrita sacroiliaca
+Artrita septica
+Artrita soldului
+Artrita sternoclaviculara
+Artrita temporomandibulara
+Artrita tuberculoasa
+Artrita umarului
+Artrita virala
+Artroza
+Ascaridioza
+Ascita
+Aspergiloza
+Astenie
+Astenopie
+Astigmatism
+Astmul bronsic
+Atac de panica
+Ataxie
+Ateroscleroza
+Atrofie multisistemica
+Autism
+Avitaminoza
+Avort spontan
+Balbaiala
+Bataturi
+Blefarita
+Boala Addison
+Boala afectiva sezoniera
+Boala Binswanger
+Boala celiaca
+Boala coronariana
+Boala Crohn
+Boala Fabry
+Boala Graves
+Boala Huntington
+Boala legionarilor
+Boala Lyme
+Boala Meniere
+Boala Paget a mamelonului
+Boala Paget osoasa
+Boala Parkinson

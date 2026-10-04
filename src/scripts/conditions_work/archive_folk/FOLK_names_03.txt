@@ -1,0 +1,456 @@
+Boala Lev
+Boala limfoproliferativa legata de X
+Boala limfoproliferativa post-transplant
+Boala Lowe
+Boala Lyme
+Boala Lyme tardiva
+Boala Machado-Joseph
+Boala maini-picioare-gura
+Boala Marchiafava-Bignami
+Boala membranelor bazale subtiri
+Boala Meniere
+Boala Menkes
+Boala mixta a tesutului conjunctiv
+Boala moyamoya
+Boala Muller-Weiss
+Boala Niemann-Pick
+Boala Niemann-Pick tip A
+Boala Niemann-Pick tip B
+Boala Niemann-Pick tip C
+Boala Niemann-Pick tip C1
+Boala Niemann-Pick tip C2
+Boala nodului sinusal bolnav
+Boala Nonaka
+Boala Osgood-Schlatter
+Boala Osler-Weber-Rendu
+Boala Paget a mamelonului
+Boala Paget extramamara
+Boala Paget osoasa
+Boala Paget vulvara
+Boala Panner
+Boala Parkinson
+Boala Pelizaeus-Merzbacher
+Boala Peyronie
+Boala polichistica hepatica
+Boala polichistica renala autozomal dominanta
+Boala polichistica renala autozomal dominanta tip 1
+Boala polichistica renala autozomal dominanta tip 2
+Boala polichistica renala autozomal recesiva
+Boala Pompe infantila
+Boala Pompe tardiva
+Boala pulmonara cronica neonatala
+Boala pulmonara cronica obstructiva exacerbata
+Boala pulmonara cronica obstructiva foarte severa
+Boala pulmonara cronica obstructiva infectata
+Boala pulmonara cronica obstructiva moderata
+Boala pulmonara cronica obstructiva severa
+Boala pulmonara cronica obstructiva stabila
+Boala pulmonara cronica obstructiva usoara
+Boala Raynaud
+Boala Refsum
+Boala Rosai-Dorfman
+Boala Sandhoff
+Boala Sandhoff tardiva
+Boala Scheuermann
+Boala Schilder
+Boala Schindler
+Boala Segawa
+Boala Sever
+Boala Shwachman-Diamond
+Boala Sinding-Larsen-Johansson
+Boala somnului
+Boala Stargardt
+Boala Still a adultului
+Boala Tangier
+Boala Tay-Sachs
+Boala Tay-Sachs juvenila
+Boala Tay-Sachs tardiva
+Boala Thiemann
+Boala tiroidiana autoimuna
+Boala Unverricht-Lundborg
+Boala urinii cu miros de sirop de artar
+Boala valvulara multipla
+Boala valvulara pulmonara
+Boala vasculara colagenica
+Boala veno-ocluziva
+Boala von Willebrand
+Boala von Willebrand tip 1
+Boala von Willebrand tip 2
+Boala von Willebrand tip 2A
+Boala von Willebrand tip 2B
+Boala von Willebrand tip 2M
+Boala von Willebrand tip 2N
+Boala von Willebrand tip 3
+Boala Weber-Christian
+Boala Wilson
+Boala Wilson fulminanta
+Boala Wilson hepatica
+Boala Wilson neurologica
+Boala Wolman
+Boala zgarieturii de pisica
+Boli autoimune
+Boli cu transmitere sexuala
+Boli pulmonare interstitiale
+Botulism
+Bradicardie
+Bradicardie sinusala
+Brahidactilie
+Bromhidroza
+Bronhomicoza
+Bronhopneumonie
+Bronhopneumonie virala
+Bronhopneumopatia de cadmiu
+Bronhopneumopatie obstructiva cronica
+Bronhospasm
+Bronhospasm postoperatoriu
+Brons malacic
+Bronsectazie
+Bronsectazie cilindrica
+Bronsectazie cilindrica difuza
+Bronsectazie congenitala
+Bronsectazie cu infectie
+Bronsectazie de lob inferior
+Bronsectazie de lob mediu
+Bronsectazie de lob superior
+Bronsectazie de tractiune
+Bronsectazie difuza
+Bronsectazie in mucoviscidoza
+Bronsectazie postinfectioasa
+Bronsectazie sacculara
+Bronsectazie uscata
+Bronsectazie varicoasa
+Bronsie traheala
+Bronsiolita
+Bronsiolita acuta cu obstructie
+Bronsiolita cu anaerobi
+Bronsiolita cu bocavirus
+Bronsiolita cu Bordetella
+Bronsiolita cu celule Paneth
+Bronsiolita cu Chlamydia
+Bronsiolita cu coronavirus
+Bronsiolita cu Escherichia coli
+Bronsiolita cu Haemophilus
+Bronsiolita cu Klebsiella
+Bronsiolita cu metapneumovirus
+Bronsiolita cu micobacterii
+Bronsiolita cu Moraxella
+Bronsiolita cu Mycoplasma
+Bronsiolita cu Pneumocystis
+Bronsiolita cu Pseudomonas
+Bronsiolita cu rinovirus
+Bronsiolita cu Staphylococcus aureus
+Bronsiolita cu Streptococcus pneumoniae
+Bronsiolita cu virus gripal
+Bronsiolita cu virus paragripal
+Bronsiolita cu virus respirator sincitial
+Bronsiolita difuza cu aspirare
+Bronsiolita foliculara
+Bronsiolita obliteranta
+Bronsiolita respiratorie
+Bronsiolita respiratorie asociata fumului
+Bronsiolita tuberculoasa
+Bronsita
+Bronsita acuta cu adenovirus
+Bronsita acuta cu anaerobi
+Bronsita acuta cu aspergillus
+Bronsita acuta cu bocavirus
+Bronsita acuta cu Bordetella
+Bronsita acuta cu candida
+Bronsita acuta cu Chlamydia
+Bronsita acuta cu citomegalovirus
+Bronsita acuta cu coronavirus
+Bronsita acuta cu enterovirus
+Bronsita acuta cu Escherichia coli
+Bronsita acuta cu Klebsiella
+Bronsita acuta cu metapneumovirus
+Bronsita acuta cu Moraxella
+Bronsita acuta cu obstructie
+Bronsita acuta cu Pseudomonas
+Bronsita acuta cu rinovirus
+Bronsita acuta cu virus Epstein-Barr
+Bronsita acuta cu virus gripal
+Bronsita acuta cu virus paragripal
+Bronsita acuta cu virus respirator sincitial
+Bronsita acuta cu virus rujeolic
+Bronsita acuta cu virus varicela-zoster
+Bronsita acuta la copil
+Bronsita astmatiforma
+Bronsita biliara
+Bronsita chimica
+Bronsita cronica cu anaerobi
+Bronsita cronica cu Escherichia coli
+Bronsita cronica cu fungi
+Bronsita cronica cu Haemophilus
+Bronsita cronica cu Klebsiella
+Bronsita cronica cu micobacterii
+Bronsita cronica cu Moraxella
+Bronsita cronica cu Pseudomonas
+Bronsita cronica cu Staphylococcus aureus
+Bronsita cronica cu Streptococcus pneumoniae
+Bronsita cronica mucoasa
+Bronsita cronica obstructiva
+Bronsita cronica purulenta
+Bronsita cu Haemophilus
+Bronsita cu obstructie cronica
+Bronsita micoplasma
+Bronsita nespecificata acuta sau cronica
+Bronsita pneumococica
+Bronsita stafilococica
+Bronsita tuberculoasa
+Bruceloza
+Bruceloza genitala
+Bruceloza osoasa
+Bruxism
+Bufeuri
+Bulbita
+Bulimie
+Burnout
+Bursita
+Bursita anserina
+Bursita infectioasa
+Bursita infrapatelara
+Bursita ischiogluteala
+Bursita olecraniana
+Bursita prepatelara
+Bursita retrocalcaneana
+Bursita subdeltoidiana
+Bursita trohanteriana
+Caderea parului
+Calcaie crapate
+Calcificari metastatice
+Calcifierea inelului mitral
+Calcifilaxie
+Calculi de colesterol
+Calculi pigmentari
+Calculi prostatici
+Calculi renali
+Camptodactilie
+Canaliculita
+Cancer
+Cancer de antru gastric
+Cancer de apendice
+Cancer de cardia
+Cancer de col uterin
+Cancer de colon
+Cancer de epiploon
+Cancer de esofag abdominal
+Cancer de esofag cervical
+Cancer de esofag toracic
+Cancer de ficat
+Cancer de fund gastric
+Cancer de pancreas
+Cancer de pancreas metastatic
+Cancer de piele
+Cancer de pilor
+Cancer de prostata
+Cancer de rinichi
+Cancer de san
+Cancer de stomac
+Cancer de vezica urinara
+Cancer esofagian
+Cancer gastric difuz ereditar
+Cancer laringian
+Cancer mamar si ovarian ereditar
+Cancer ovarian
+Cancer pancreatic familial
+Cancer pulmonar
+Cancer testicular
+Cancer tiroidian
+Candidoza
+Candidoza cutanata
+Candidoza de scutec
+Candidoza diseminata
+Candidoza esofagiana
+Candidoza meningeana
+Candidoza neonatala
+Candidoza orala
+Candidoza pulmonara
+Candidoza renala
+Candidoza unghiala
+Candidoza vulvovaginala
+Cangrena
+Caolinoza
+Capilarioza
+Capilarita
+Capsulita adeziva
+Caput succedaneum
+Carbuncul cutanat
+Carcinoid
+Carcinoid apendicular
+Carcinoid bronhopulmonar
+Carcinoid de intestin subtire
+Carcinoid gastric
+Carcinoid ovarian
+Carcinoid rectal
+Carcinom adenoid chistic
+Carcinom amigdalian
+Carcinom anal scuamos
+Carcinom bazocelular
+Carcinom bazocelular palpebral
+Carcinom bazocelular sclerozant
+Carcinom bazocelular superficial
+Carcinom bronhioloalveolar
+Carcinom cloacogenic
+Carcinom cu celule Miz
+Carcinom cutanat metastatic
+Carcinom de ampula
+Carcinom de ampula Vater
+Carcinom de baza a limbii
+Carcinom de canal anal
+Carcinom de cavitate nazala
+Carcinom de cavitate orala
+Carcinom de cec
+Carcinom de col uterin adenoscuamos
+Carcinom de col uterin scuamos
+Carcinom de colon ascendent
+Carcinom de colon descendent
+Carcinom de colon sigmoid
+Carcinom de colon transvers
+Carcinom de corticosuprarenala
+Carcinom de glanda parotida
+Carcinom de glanda salivara
+Carcinom de glanda sublinguala
+Carcinom de glanda submandibulara
+Carcinom de intestin subtire
+Carcinom de intestin subtire duodenal
+Carcinom de intestin subtire ileal
+Carcinom de intestin subtire jejunal
+Carcinom de limba
+Carcinom de limba mobila
+Carcinom de obraz
+Carcinom de pelvis renala
+Carcinom de planseu bucal
+Carcinom de rect
+Carcinom de rect inferior
+Carcinom de rect superior
+Carcinom de sinus etmoidal
+Carcinom de sinus maxilar
+Carcinom de sinus piriform
+Carcinom de trompa
+Carcinom de urac
+Carcinom de ureter
+Carcinom de uretra
+Carcinom de vezica biliara
+Carcinom de vezica urinara scuamos
+Carcinom endometrial
+Carcinom esofagian cu celule scuamoase
+Carcinom esofagian inferior
+Carcinom esofagian spinocelular
+Carcinom esofagian superior
+Carcinom gastric cu celule in inel cu pecete
+Carcinom gastric difuz
+Carcinom gastric intestinal
+Carcinom gastric precoce
+Carcinom hepatocelular fibrolamelar
+Carcinom hipofaringian
+Carcinom hipofizar
+Carcinom in situ
+Carcinom in situ mamar
+Carcinom laringian glotic
+Carcinom laringian subglotic
+Carcinom laringian supraglotic
+Carcinom mamar ductal
+Carcinom mamar ductal in situ
+Carcinom mamar inflamator
+Carcinom mamar la barbat
+Carcinom mamar lobular
+Carcinom mamar lobular in situ
+Carcinom mamar medular
+Carcinom mamar metaplastic
+Carcinom mamar mucinos
+Carcinom mamar papilar
+Carcinom mamar tubulos
+Carcinom mucoepidermoid
+Carcinom nazofaringian
+Carcinom nazofaringian cheratinizant
+Carcinom nazofaringian necheratinizant
+Carcinom orofaringian
+Carcinom ovarian cu celule clare
+Carcinom ovarian cu celule mici
+Carcinom ovarian endometrioid
+Carcinom ovarian mucinos
+Carcinom ovarian seros
+Carcinom pancreatic al capului
+Carcinom pancreatic al corpului si cozii
+Carcinom paratiroidian
+Carcinom penian
+Carcinom penian scuamos
+Carcinom pulmonar cu celule mari
+Carcinom pulmonar cu celule mici
+Carcinom pulmonar neuroendocrin
+Carcinom pulmonar Pancoast
+Carcinom renal cromofob
+Carcinom renal cu celule clare
+Carcinom renal de duct colector
+Carcinom renal papilar
+Carcinom retrocricoid
+Carcinom sinusian
+Carcinom spinocelular cutanat
+Carcinom tiroidian anaplazic
+Carcinom tiroidian cu celule Hurtle
+Carcinom tiroidian folicular
+Carcinom tiroidian medular
+Carcinom tiroidian papilar
+Carcinom urotelial
+Carcinom urotelial papilar
+Carcinom uterin cu celule clare
+Carcinom uterin papilar seros
+Carcinom vaginal
+Carcinom vaginal scuamos
+Carcinom vulvar
+Carcinom vulvar scuamos
+Carcinomatoza meningeala
+Carcinomatoza peritoneala
+Cardiomegalie
+Cardiomiopatie
+Cardiomiopatie alcoolica
+Cardiomiopatie aritmogena de ventricul drept
+Cardiomiopatie diabetica
+Cardiomiopatie dilatativa
+Cardiomiopatie dilatativa familiala
+Cardiomiopatie hipertrofica
+Cardiomiopatie hipertrofica familiala
+Cardiomiopatie noncompactata
+Cardiomiopatie peripartum
+Cardiomiopatie restrictiva
+Cardiomiopatie restrictiva familiala
+Cardiopatie
+Cardiopatie hipertensiva
+Cardiopatie reumatica
+Cardioscleroza
+Carie dentara
+Carii dentare multiple
+Casexie
+Cataracta
+Cataracta diabetica
+Caverna tuberculoasa pulmonara
+Cavernom cerebral
+Cecita
+Cecitate corticala
+Cefalee cervicogena
+Cefalee cluster
+Cefalee hipnica
+Cefalee postpunctie durata
+Cefalee prin abuz de medicamente
+Cefalhematom
+Celulita
+Celulita orbitala
+Celulita perianala
+Celulita preseptala
+Cervicita cu Chlamydia
+Cervicita gonococica
+Cetoacidoza diabetica
+Chalazion
+Chalcoza oculara
+Cheilita unghiulara
+Chelie
+Chelita actinica
+Cheloid
+Cheratita aspergilara
+Cheratita cu Acanthamoeba
+Cheratoderma
+Cheratoza actinica
+Cheratoza arsenicala
+Cheratoza foliculara
+Cheratoza seboreica
+Cherubism

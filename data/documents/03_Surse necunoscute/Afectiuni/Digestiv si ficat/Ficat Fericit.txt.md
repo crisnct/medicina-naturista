@@ -1,3 +1,0 @@
-- Extract de armurariu, anghinare, brusture
-- Coaja de lamaie
-- Miere

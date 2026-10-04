@@ -1,0 +1,308 @@
+Accident ischemic tranzitoriu,atac ischemic tranzitoriu,ischemie cerebrala tranzitorie,accident ischemic cerebral tranzitoriu,transient ischemic attack,transient ischaemic attack,TIA
+Acrocianoza,cianoza acrala,cianoza periferica,sindrom acrocianotic,acrocyanosis,acral cyanosis,peripheral cyanosis
+Amiloidoza cardiaca,amiloidoza miocardica,cardiomiopatie amiloida,afectare cardiaca amiloidica,cardiac amyloidosis,amyloid cardiomyopathy,amyloid heart disease
+Anevrism de aorta abdominala,anevrism aortic abdominal,anevrism abdominal,anevrism al aortei abdominale,abdominal aortic aneurysm,aneurysm of the abdominal aorta,AAA
+Anevrism de aorta ascendenta,anevrism al aortei ascendente,anevrism aortic ascendent,dilatatie anevrismala a aortei ascendente,ascending aortic aneurysm,aneurysm of the ascending aorta,ascending aorta aneurysm
+Anevrism de aorta toracica,anevrism aortic toracic,anevrism toracic,anevrism al aortei toracice,thoracic aortic aneurysm,aneurysm of the thoracic aorta,TAA
+Anevrism de artera carotidiana,anevrism carotidian,anevrism al arterei carotide,anevrism de carotida,carotid artery aneurysm,extracranial carotid aneurysm,aneurysm of the carotid artery
+Anevrism de artera coronara,anevrism coronarian,anevrism al coronarei,dilatatie anevrismala coronariana,coronary artery aneurysm,coronary aneurysm,aneurysmal coronary dilatation
+Anevrism de artera femurala,anevrism femural,anevrism al arterei femurale,anevrism de artera femorala comuna,femoral artery aneurysm,aneurysm of the femoral artery,common femoral artery aneurysm
+Anevrism de artera hepatica,anevrism hepatic arterial,anevrism al arterei hepatice,dilatatie anevrismala hepatica,hepatic artery aneurysm,aneurysm of the hepatic artery,liver artery aneurysm
+Anevrism de artera mezenterica,anevrism mezenteric,anevrism al arterei mezenterice,anevrism visceral,mesenteric artery aneurysm,aneurysm of the mesenteric artery,visceral artery aneurysm
+Anevrism de artera renala,anevrism renal arterial,anevrism al arterei renale,dilatatie anevrismala a arterei renale,renal artery aneurysm,aneurysm of the renal artery,renal arterial aneurysm
+Anevrism de artera splenica,anevrism splenic,anevrism al arterei splenice,dilatatie anevrismala a arterei splenice,splenic artery aneurysm,aneurysm of the splenic artery,splenic arterial aneurysm
+Anevrism de artera subclavie,anevrism subclavicular,anevrism al arterei subclaviculare,anevrism de artera subclaviculara,subclavian artery aneurysm,aneurysm of the subclavian artery,subclavian aneurysm
+Anevrism iliac,anevrism de artera iliaca,anevrism iliac comun,dilatatie anevrismala iliaca,iliac aneurysm,iliac artery aneurysm,aneurysm of the iliac artery
+Anevrism micotic,anevrism infectios,anevrism bacterian,anevrism fungic,mycotic aneurysm,infectious aneurysm,bacterial aneurysm
+Anevrism popliteu,anevrism de artera poplitee,anevrism al arterei poplitee,dilatatie anevrismala poplitee,popliteal aneurysm,popliteal artery aneurysm,aneurysm of the popliteal artery
+Anevrism ventricular stang,anevrism de ventricul stang,anevrism postinfarct,dilatatie anevrismala ventriculara stanga,left ventricular aneurysm,post-infarction ventricular aneurysm,ventricular aneurysm
+Angina instabila,angor instabil,angina preinfarct,insuficienta coronariana acuta,unstable angina,crescendo angina,preinfarction angina
+Angina stabila,angor stabil,angina de efort stabila,angina pectorala cronica,stable angina,stable angina pectoris,exertional angina
+Angina vasospastica,angina Prinzmetal,angina varianta,angina prin vasospasm coronarian,variant angina,Prinzmetal angina,vasospastic angina
+Angiodisplazie,angiodisplazie intestinala,displazie vasculara,malformatie angiodisplazica,angiodysplasia,intestinal angiodysplasia,vascular dysplasia
+Angiopatie amiloida cerebrala,amiloidoza vasculara cerebrala,angiopatie congofila cerebrala,amiloidoza cerebrala,cerebral amyloid angiopathy,amyloid angiopathy of the brain,CAA
+Aortita,inflamatia aortei,aortita inflamatorie,aortita nespecifica,aortitis,inflammation of the aorta,inflammatory aortitis
+Arteriopatia diabetica,boala arteriala diabetica,angiopatie diabetica,macroangiopatie diabetica,diabetic arteriopathy,diabetic arterial disease,diabetic macroangiopathy
+Arterita cu celule gigante,arterita temporala,boala Horton,arterita craniana,giant cell arteritis,temporal arteritis,Horton disease
+Arterita Takayasu,boala Takayasu,boala fara puls,sindrom de arc aortic,Takayasu arteritis,Takayasu disease,pulseless disease
+Asistolie,asistolie cardiaca,liniste electrica cardiaca,oprire electrica a inimii,asystole,cardiac asystole,flatline rhythm
+Asplenie,lipsa splinei,absenta congenitala a splinei,asplenie congenitala,asplenia,absence of the spleen,congenital asplenia
+Ateroscleroza aortei,boala aterosclerotica a aortei,placi aterosclerotice aortice,ateromatoza aortei,aortic atherosclerosis,atherosclerosis of the aorta,atherosclerotic aorta
+Ateroscleroza cerebrala,boala aterosclerotica cerebrala,ateromatoza cerebrala,scleroza arteriala cerebrala,cerebral atherosclerosis,atherosclerosis of cerebral arteries,brain artery atherosclerosis
+Ateroscleroza coronariana,boala aterosclerotica coronariana,placi aterosclerotice coronariene,ateromatoza coronariana,coronary atherosclerosis,atherosclerotic coronary disease,coronary artery atherosclerosis
+Ateroscleroza obliteranta,arteriopatie obliteranta cronica,boala arteriala obliteranta,arteriopatia aterosclerotica a membrelor inferioare,obliterative atherosclerosis,obliterative arteriopathy,chronic obliterative arterial disease
+Bicuspidia valvei aortice,valva aortica bicuspida,boala valvei aortice bicuspide,valva aortica cu doua cuspide,bicuspid aortic valve,bicuspid aortic valve disease,congenital bicuspid aortic valve
+Bloc atrioventricular congenital,bloc AV congenital,bloc atrioventricular congenital izolat,bloc cardiac congenital,congenital atrioventricular block,congenital AV block,congenital heart block
+Bloc atrioventricular grad I,bloc AV grad I,bloc atrioventricular de gradul intai,bloc AV incomplet de grad I,first degree atrioventricular block,first degree AV block,prolonged PR interval
+Bloc atrioventricular grad II,bloc AV grad II,bloc atrioventricular incomplet de gradul doi,bloc AV partial,second degree atrioventricular block,second degree AV block,Mobitz block
+Bloc atrioventricular grad III,bloc AV grad III,bloc atrioventricular complet,bloc cardiac complet,third degree atrioventricular block,complete heart block,complete AV block
+Bloc bifascicular,bloc bifascicular de ramura,bloc fascicular bilateral,bloc de doua fascicule,bifascicular block,bifascicular bundle branch block,double fascicular block
+Bloc de ramura dreapta,BRD,bloc de ramura dreapta complet,bloc complet de ramura dreapta,right bundle branch block,RBBB,complete right bundle branch block
+Bloc de ramura dreapta incomplet,BRD incomplet,bloc incomplet de ramura dreapta,intarziere incompleta de conducere pe ramura dreapta,incomplete right bundle branch block,incomplete RBBB,IRBBB
+Bloc de ramura stanga,BRS,bloc de ramura stanga complet,bloc complet de ramura stanga,left bundle branch block,LBBB,complete left bundle branch block
+Bloc intraventricular nespecific,intarziere de conducere intraventriculara,bloc intraventricular difuz,tulburare de conducere intraventriculara,nonspecific intraventricular conduction delay,nonspecific intraventricular block,IVCD
+Bloc trifascicular,bloc trifascicular de ramura,bloc fascicular triplu,bloc de trei fascicule,trifascicular block,trifascicular bundle branch block,triple fascicular block
+Boala Buerger,tromboangioita obliteranta,tromboangiita obliteranta,boala Winiwarter-Buerger,Buerger disease,thromboangiitis obliterans,Buerger syndrome
+Boala coronariana microvasculara,sindrom X cardiac,angina microvasculara,sindrom X coronarian,coronary microvascular disease,microvascular angina,cardiac syndrome X
+Boala Kawasaki,sindrom mucocutanat limfoganglionar,boala Kawasaki infantila,poliarterita infantila,Kawasaki disease,mucocutaneous lymph node syndrome,infantile polyarteritis
+Boala Lenegre,boala de conducere progresiva,defect progresiv de conducere cardiaca,boala Lenegre-Lev,Lenegre disease,progressive cardiac conduction defect,PCCD
+Boala Lev,scleroza scheletului cardiac,boala de conducere degenerativa,degenerescenta idiopatica a sistemului de conducere,Lev disease,cardiac skeleton sclerosis,idiopathic conduction system degeneration
+Boala nodului sinusal bolnav,sindrom de sinus bolnav,disfunctie sinusala,boala nodului sinoatrial,sick sinus syndrome,sinus node dysfunction,sinus node disease
+Boala Osler-Weber-Rendu,telangiectazie hemoragica ereditara,sindrom Osler-Rendu-Weber,telangiectazie ereditara hemoragica,hereditary hemorrhagic telangiectasia,Osler-Weber-Rendu disease,HHT
+Boala valvulara multipla,valvulopatie multipla,afectare valvulara combinata,valvulopatii multiple,multiple valve disease,multivalvular disease,combined valvular disease
+Boala valvulara pulmonara,valvulopatie pulmonara,boala valvei pulmonare,afectare a valvei pulmonare,pulmonary valve disease,pulmonary valvular disease,disease of the pulmonary valve
+Boala vasculara colagenica,boala de colagen,vasculita colagenica,boli de tesut conjunctiv cu afectare vasculara,collagen vascular disease,collagen disease,connective tissue vascular disease
+Boala veno-ocluziva,boala venoocluziva hepatica,obstructie venulara hepatica,sindrom veno-ocluziv hepatic,veno-occlusive disease,hepatic veno-occlusive disease,sinusoidal obstruction syndrome
+Bradicardie,ritm cardiac lent,puls lent,batai rare ale inimii,bradycardia,slow heart rate,slow cardiac rhythm
+Bradicardie sinusala,ritm sinusal lent,incetinire a ritmului sinusal,bradicardie de origine sinusala,sinus bradycardia,slow sinus rhythm,reduced sinus rate
+Calcifierea inelului mitral,scleroza inelului mitral,calcificare anulara mitrala,degenerescenta valvulara mitrala,mitral annular calcification,mitral ring calcification,calcification of the mitral annulus
+Calcifilaxie,calcifilaxia,arteriolocalcinoza uremica,calcificare vasculara cu necroza cutanata,calciphylaxis,calcific uremic arteriolopathy,vascular calcification necrosis
+Cardiomegalie,inima marita,marirea dimensiunilor inimii,hipertrofie cardiaca,cardiomegaly,enlarged heart,cardiac enlargement
+Cardiomiopatie,miocardiopatie,boala primitiva a miocardului,afectiune a muschiului cardiac,cardiomyopathy,myocardiopathy,primary myocardial disease
+Cardiomiopatie alcoolica,cardiomiopatie toxica alcoolica,miocardiopatie etanolica,cardiomiopatie din alcoolism,alcoholic cardiomyopathy,alcohol-induced cardiomyopathy,ethanol cardiomyopathy
+Cardiomiopatie aritmogena de ventricul drept,displazie aritmogena de ventricul drept,cardiomiopatie de ventricul drept,boala Naxos,arrhythmogenic right ventricular cardiomyopathy,arrhythmogenic right ventricular dysplasia,ARVC
+Cardiomiopatie diabetica,miocardiopatie diabetica,cardiomiopatie metabolica diabetica,boala miocardica diabetica,diabetic cardiomyopathy,diabetic myocardial disease,diabetes-related cardiomyopathy
+Cardiomiopatie dilatativa,cardiomiopatie congestiva,miocardiopatie dilatativa,CMP dilatativa,dilated cardiomyopathy,congestive cardiomyopathy,DCM
+Cardiomiopatie hipertrofica,cardiomiopatie hipertrofica obstructiva,stenoza subaortica hipertrofica idiopatica,CMP hipertrofica,hypertrophic cardiomyopathy,idiopathic hypertrophic subaortic stenosis,HCM
+Cardiomiopatie peripartum,cardiomiopatie postpartum,cardiomiopatie de sarcina,cardiomiopatie puerperala,peripartum cardiomyopathy,postpartum cardiomyopathy,pregnancy-related cardiomyopathy
+Cardiomiopatie restrictiva,cardiomiopatie infiltrativa,miocardiopatie restrictiva,CMP restrictiva,restrictive cardiomyopathy,infiltrative cardiomyopathy,RCM
+Cardiopatie hipertensiva,boala cardiaca hipertensiva,inima hipertensiva,afectare cardiaca hipertensiva,hypertensive heart disease,hypertensive cardiopathy,hypertension-related heart disease
+Cardiopatie reumatica cronica,boala reumatica a inimii,reumatism cardiac cronic,cardiopatie valvulara reumatica,chronic rheumatic heart disease,rheumatic heart disease,chronic rheumatic carditis
+Cardioscleroza,scleroza miocardica,fibroza miocardica difuza,miocard scleros,cardiosclerosis,myocardial sclerosis,myocardial fibrosis
+Cavernom cerebral,hemangiom cavernos cerebral,malformatie cavernoasa cerebrala,angiom cavernos cerebral,cerebral cavernous malformation,cavernous hemangioma of the brain,cavernoma
+Chist pericardic,chist celomic pericardic,chist pericardic congenital,formatiune chistica pericardica,pericardial cyst,pericardial coelomic cyst,congenital pericardial cyst
+Chist splenic,chist al splinei,chist splenic simplu,formatiune chistica splenica,splenic cyst,cyst of the spleen,simple splenic cyst
+Colaps circulator,colaps vascular,insuficienta circulatorie brusca,prabusire circulatorie,circulatory collapse,vascular collapse,sudden circulatory failure
+Cord pulmonar,boala cardiaca pulmonara,insuficienta cardiaca dreapta prin boala pulmonara,hipertrofie ventriculara dreapta,cor pulmonale,pulmonary heart disease,right heart failure due to lung disease
+Criza hipertensiva,urgenta hipertensiva,criza de tensiune,exacerbare hipertensiva acuta,hypertensive crisis,hypertensive urgency,high blood pressure crisis
+Dementa vasculara,dementa de origine vasculara,dementa arteriopatica,dementa prin infarcte multiple,vascular dementia,vascular cognitive impairment,arteriopathic dementia
+Dermatita de staza,dermatita de staza venoasa,eczema de staza,dermatita de insuficienta venoasa,stasis dermatitis,venous stasis dermatitis,varicose eczema
+Disectie de aorta,anevrism disecant,anevrism disecant de aorta,hematom disecant aortic,aortic dissection,dissecting aortic aneurysm,dissecting aneurysm
+Disectie de artera carotida,disectie carotidiana,disectie a carotidei,hematom disecant carotidian,carotid artery dissection,carotid dissection,spontaneous carotid dissection
+Disectie de artera coronara,disectie coronariana,disectie a coronarei,hematom disecant coronarian,coronary artery dissection,spontaneous coronary artery dissection,SCAD
+Disectie de artera mezenterica,disectie mezenterica,disectie mezenterica izolata,hematom disecant mezenteric,mesenteric artery dissection,isolated mesenteric artery dissection,splanchnic artery dissection
+Disectie de artera renala,disectie renala arteriala,disectie a arterei renale,hematom disecant al arterei renale,renal artery dissection,spontaneous renal artery dissection,renal arterial dissection
+Disectie de artera vertebrala,disectie vertebrala,hematom disecant al arterei vertebrale,disectie vertebrobazilara,vertebral artery dissection,vertebral dissection,dissecting vertebral artery
+Disfunctie de pacemaker,malfunctie de pacemaker,defectiune a pacemakerului,tulburare de functionare a stimulatorului cardiac,pacemaker dysfunction,pacemaker malfunction,pacemaker failure
+Dissociere electromecanica,activitate electrica fara puls,disociere electromecanica cardiaca,AESP,pulseless electrical activity,electromechanical dissociation,PEA
+Edem pulmonar acut,edem pulmonar cardiogen,edem acut de plaman,congestie pulmonara acuta,acute pulmonary edema,acute cardiogenic pulmonary edema,acute lung congestion
+Embolie arteriala,embolie periferica arteriala,obstructie arteriala embolica,embolie de artera periferica,arterial embolism,peripheral arterial embolism,arterial embolic occlusion
+Embolie cerebrala,embolie arteriala cerebrala,embolie la nivel cerebral,ocluzie embolica cerebrala,cerebral embolism,cerebral artery embolism,embolic stroke
+Embolie pulmonara,tromboembolism pulmonar,embolie de artera pulmonara,obstructie tromboembolica pulmonara,pulmonary embolism,pulmonary thromboembolism,PE
+Encefalopatie hipertensiva,encefalopatie din hipertensiune,encefalopatie hipertensiva acuta,sindrom encefalopatic hipertensiv,hypertensive encephalopathy,hypertensive crisis encephalopathy,high blood pressure encephalopathy
+Endocardita infectioasa,endocardita septica,infectie endocardica,endocardita microbiana,infective endocarditis,infectious endocarditis,septic endocarditis
+Endocardita Libman-Sacks,endocardita lupica,endocardita din lupus,valvulita Libman-Sacks,Libman-Sacks endocarditis,lupus endocarditis,verrucous endocarditis of lupus
+Endocardita marantica,endocardita trombotica nonbacteriana,endocardita cahectica,endocardita din boli consumptive,marantic endocarditis,nonbacterial thrombotic endocarditis,NBTE
+Endocardita pe valva protetica,endocardita de proteza valvulara,infectie de valva protetica,endocardita postimplant valvular,prosthetic valve endocarditis,prosthetic valve infection,artificial valve endocarditis
+Endocardita reumatica,valvulita reumatica,endocardita postreumatica,reumatism endocardic,rheumatic endocarditis,rheumatic valvulitis,postrheumatic endocarditis
+Eritromelalgie,boala Mitchell,eritermalgie,hiperemie dureroasa a extremitatilor,erythromelalgia,Mitchell disease,erythermalgia
+Fibrilatie atriala paroxistica,fibrilatie atriala intermitenta,fibrilatie atriala in accese,FA paroxistica,paroxysmal atrial fibrillation,intermittent atrial fibrillation,paroxysmal AF
+Fibrilatie atriala permanenta,fibrilatie atriala cronica,FA permanenta,fibrilatie atriala ireversibila,permanent atrial fibrillation,chronic atrial fibrillation,permanent AF
+Fibrilatie atriala persistenta,FA persistenta,fibrilatie atriala nerevenita la ritm sinusal,fibrilatie atriala sustinuta,persistent atrial fibrillation,persistent AF,sustained atrial fibrillation
+Fibrilatie atriala valvulara,fibrilatie atriala asociata valvulopatiei,FA valvulara,fibrilatie atriala reumatica,valvular atrial fibrillation,rheumatic atrial fibrillation,valve-related atrial fibrillation
+Fibroelastoza endocardica,fibroelastoza endomiocardica,endocardita fibroelastica,fibroza endocardica,endocardial fibroelastosis,endomyocardial fibroelastosis,fibroelastic endocarditis
+Fibrom cardiac,fibrom al inimii,fibrom miocardic,tumora fibroasa cardiaca,cardiac fibroma,fibroma of the heart,myocardial fibroma
+Fistula arteriovenoasa,comunicare arteriovenoasa,fistula AV,shunt arteriovenos patologic,arteriovenous fistula,AV fistula,arteriovenous communication
+Fistula arteriovenoasa pulmonara,fistula arteriovenoasa a plamanului,malformatie arteriovenoasa pulmonara,anevrism arteriovenos pulmonar,pulmonary arteriovenous fistula,pulmonary arteriovenous malformation,PAVM
+Fistula coronariana,fistula arteriovenoasa coronariana,fistula coronaro-cardiaca,comunicare anormala coronariana,coronary fistula,coronary artery fistula,coronary arteriovenous fistula
+Flebotromboza,tromboza venoasa fara inflamatie,flebotromboza profunda,cheag venos profund fara flebita,noninflammatory venous thrombosis,venous thrombosis without phlebitis,deep venous thrombosis without inflammation
+Flutter ventricular,flutter al ventriculilor,aritmie ventriculara tip flutter,tahicardie ventriculara cu aspect de flutter,ventricular flutter,flutter of the ventricles,ventricular flutter rhythm
+Gangrena diabetica,gangrena de cauza diabetica,gangrena la diabetici,necroza diabetica a membrelor,diabetic gangrene,gangrene in diabetes,diabetes-related gangrene
+Granulomatoza cu poliangiita,boala Wegener,granulomatoza Wegener,angita granulomatoasa,granulomatosis with polyangiitis,Wegener granulomatosis,GPA
+Hemangiom,hemangioame,tumora vasculara benigna,angiom,hemangioma,benign vascular tumor,angioma
+Hemangiom hepatic,hemangiom al ficatului,hemangiom cavernos hepatic,angiom hepatic,hepatic hemangioma,liver hemangioma,cavernous hemangioma of the liver
+Hemangiomatoza,hemangiomatoza difuza,angiomatoza,hemangiomatoza sistemica,hemangiomatosis,diffuse hemangiomatosis,angiomatosis
+Hematom aortic intramural,hematom intramural al aortei,hematom disecant intramural,hemoragie intramurala aortic,intramural aortic hematoma,aortic intramural hematoma,intramural hematoma of the aorta
+Hemibloc anterior,hemibloc anterior stang,bloc fascicular anterior,hemibloc stang anterior,left anterior fascicular block,anterior hemiblock,LAFB
+Hemibloc posterior,hemibloc posterior stang,bloc fascicular posterior,hemibloc stang posterior,left posterior fascicular block,posterior hemiblock,LPFB
+Hemocromatoza cardiaca,cardiomiopatie hemocromatosica,afectare cardiaca prin hemocromatoza,sideroza miocardica,cardiac hemochromatosis,hemochromatotic cardiomyopathy,iron overload cardiomyopathy
+Hemopericard,hemoragie in pericard,pericard hemoragic,acumulare de sange in pericard,hemopericardium,bloody pericardial effusion,hemorrhagic pericardial effusion
+Hemoragie cerebrala lobara,hemoragie lobara cerebrala,hematom cerebral lobar,hemoragie intracerebrala lobara,lobar cerebral hemorrhage,lobar intracerebral hemorrhage,cerebral lobar hematoma
+Hemoragie digestiva prin varice,hemoragie variceala,sangerare din varice esofagiene,ruptura de varice esofagiene,variceal bleeding,variceal hemorrhage,bleeding from esophageal varices
+Hemoragie intracerebrala,hemoragie cerebrala parenchimatoasa,hematom intracerebral,sangerare intracerebrala,intracerebral hemorrhage,intracerebral haemorrhage,cerebral parenchymal hemorrhage
+Hemoragie intraventriculara,hemoragie in ventriculii cerebrali,hematom intraventricular,sangerare intraventriculara,intraventricular hemorrhage,intraventricular haemorrhage,brain ventricular hemorrhage
+Hemoragie subarahnoidiana,hemoragie meningeana,sangerare subarahnoidiana,hemoragie prin ruptura de anevrism cerebral,subarachnoid hemorrhage,subarachnoid haemorrhage,leptomeningeal hemorrhage
+Higroma chistic,chist limfatic,limfangiom chistic,higroma chistic al gatului,cystic hygroma,cystic lymphangioma,lymphatic cyst
+Hipersplenism,hiperfunctionare splenica,sindrom hipersplenic,citopenie prin hipersplenism,hypersplenism,splenic hyperfunction,hypersplenic syndrome
+Hipertensiune arteriala labila,hipertensiune instabila,hipertensiune fluctuanta,hipertensiune borderline,labile hypertension,borderline hypertension,fluctuating hypertension
+Hipertensiune arteriala maligna,hipertensiune maligna,hipertensiune accelerata,hipertensiune arteriala accelerata,malignant hypertension,accelerated hypertension,malignant arterial hypertension
+Hipertensiune arteriala pulmonara,hipertensiune pulmonara,presiune pulmonara crescuta,hipertensiune a arterei pulmonare,pulmonary arterial hypertension,pulmonary hypertension,elevated pulmonary artery pressure
+Hipertensiune arteriala rezistenta,hipertensiune refractara,hipertensiune greu controlabila,hipertensiune neresponsiva la tratament,resistant hypertension,refractory hypertension,difficult-to-control hypertension
+Hipertensiune arteriala secundara,hipertensiune secundara,hipertensiune simptomatica,hipertensiune de cauza identificabila,secondary hypertension,secondary arterial hypertension,symptomatic hypertension
+Hipertensiune pulmonara tromboembolica,hipertensiune pulmonara postembolica,boala tromboembolica pulmonara cronica,hipertensiune pulmonara tromboembolica cronica,chronic thromboembolic pulmonary hypertension,thromboembolic pulmonary hypertension,CTEPH
+Hipertensiune sistolica izolata,hipertensiune cu sistolica mare,hipertensiune sistolica pura,sistolica izolat crescuta,isolated systolic hypertension,systolic hypertension,elevated systolic blood pressure
+Hipertrofie ventriculara stanga,hipertrofia ventriculului stang,HVS,ingrosare a peretelui ventricular stang,left ventricular hypertrophy,LVH,left ventricular wall thickening
+Hiposplenism,functie splenica scazuta,hipofunctie splenica,asplenie functionala,hyposplenism,reduced splenic function,functional asplenia
+Hipotensiune postprandiala,hipotensiune dupa masa,hipotensiune postprandiala la varstnici,scadere a tensiunii dupa alimentatie,postprandial hypotension,low blood pressure after meals,post-meal hypotension
+Infarct cerebral,infarct cerebral ischemic,ictus ischemic,necroza cerebrala ischemica,cerebral infarction,ischemic stroke,cerebral infarct
+Infarct cerebral lacunar,infarct lacunar,sindrom lacunar,infarct cerebral mic,lacunar infarction,lacunar stroke,small vessel cerebral infarct
+Infarct de ventricul drept,infarct al ventriculului drept,necroza de ventricul drept,infarct miocardic de ventricul drept,right ventricular infarction,right ventricular myocardial infarction,infarction of the right ventricle
+Infarct miocardic anterior,infarct anterior,infarct miocardic de perete anterior,necroza anterioara miocardica,anterior myocardial infarction,anterior wall myocardial infarction,anterior MI
+Infarct miocardic cu supradenivelare ST,STEMI,infarct miocardic ST elevat,infarct miocardic cu elevare de ST,ST-elevation myocardial infarction,ST elevation myocardial infarction,ST-segment elevation myocardial infarction
+Infarct miocardic fara supradenivelare ST,NSTEMI,infarct miocardic non-STEMI,infarct miocardic fara elevare de ST,non-ST-elevation myocardial infarction,non-ST elevation myocardial infarction,non-ST-segment elevation myocardial infarction
+Infarct miocardic inferior,infarct inferior,infarct miocardic de perete inferior,necroza inferioara miocardica,inferior myocardial infarction,inferior wall myocardial infarction,inferior MI
+Infarct miocardic lateral,infarct lateral,infarct miocardic de perete lateral,necroza laterala miocardica,lateral myocardial infarction,lateral wall myocardial infarction,lateral MI
+Infarct miocardic posterior,infarct posterior,infarct miocardic de perete posterior,necroza posterioara miocardica,posterior myocardial infarction,posterior wall myocardial infarction,posterior MI
+Infarct miocardic silentios,infarct miocardic nedureros,infarct miocardic asimptomatic,infarct miocardic neobservat,silent myocardial infarction,unrecognized myocardial infarction,painless myocardial infarction
+Infarct miocardic subendocardial,infarct subendocardic,necroza subendocardica,infarct miocardic netransmural,subendocardial myocardial infarction,subendocardial infarction,non-transmural myocardial infarction
+Infarct miocardic transmural,infarct transmural,necroza transmurala miocardica,infarct miocardic cu necroza transmurala,transmural myocardial infarction,transmural infarction,full-thickness myocardial infarction
+Infarct miocardic vechi,infarct miocardic vindecat,cicatrice miocardica postinfarct,sechela de infarct miocardic,old myocardial infarction,healed myocardial infarction,previous myocardial infarction
+Infarct pulmonar,infarct de plaman,necroza pulmonara ischemica,infarct hemoragic pulmonar,pulmonary infarction,lung infarction,pulmonary infarct
+Infarct splenic,infarct al splinei,necroza splenica ischemica,infarct hemoragic splenic,splenic infarction,spleen infarction,splenic infarct
+Insuficienta aortica,regurgitare aortica,incompetenta aortica,insuficienta valvei aortice,aortic regurgitation,aortic insufficiency,aortic valve incompetence
+Insuficienta arteriala mezenterica,insuficienta circulatorie mezenterica,hipoperfuzie mezenterica,boala ischemica intestinala,mesenteric arterial insufficiency,mesenteric vascular insufficiency,bowel hypoperfusion
+Insuficienta cardiaca acuta,insuficienta cardiaca acuta decompensata,insuficienta cardiaca acuta severa,insuficienta cardiaca de debut acut,acute heart failure,acute cardiac failure,acute decompensated heart failure
+Insuficienta cardiaca cronica,insuficienta cardiaca de lunga durata,insuficienta miocardica cronica,insuficienta cardiaca compensata,chronic heart failure,chronic cardiac insufficiency,long-standing heart failure
+Insuficienta cardiaca cu fractie de ejectie pastrata,insuficienta cardiaca diastolica,insuficienta cardiaca cu functie sistolica normala,insuficienta cardiaca cu functie sistolica pastrata,heart failure with preserved ejection fraction,diastolic heart failure,HFpEF
+Insuficienta cardiaca cu fractie de ejectie redusa,insuficienta cardiaca sistolica,insuficienta cardiaca cu functie sistolica scazuta,insuficienta cardiaca sistolica cronica,heart failure with reduced ejection fraction,systolic heart failure,HFrEF
+Insuficienta cardiaca cu fractie de ejectie usor redusa,insuficienta cardiaca cu fractie de ejectie intermediara,insuficienta cardiaca intermediara,insuficienta cardiaca borderline,heart failure with mildly reduced ejection fraction,heart failure with mid-range ejection fraction,HFmrEF
+Insuficienta cardiaca dreapta,insuficienta ventriculara dreapta,insuficienta cardiaca a cordului drept,insuficienta cardiaca dreapta congestiva,right heart failure,right ventricular failure,right-sided heart failure
+Insuficienta cardiaca stanga,insuficienta ventriculara stanga,insuficienta cardiaca a cordului stang,insuficienta cardiaca stanga congestiva,left heart failure,left ventricular failure,left-sided heart failure
+Insuficienta circulatorie acuta,insuficienta circulatorie periferica acuta,hipoperfuzie acuta generalizata,soc circulator,acute circulatory failure,acute circulatory insufficiency,acute peripheral circulatory failure
+Insuficienta circulatorie cerebrala cronica,ischemie cerebrala cronica,hipoperfuzie cerebrala cronica,insuficienta vasculara cerebrala cronica,chronic cerebral ischemia,chronic cerebral circulatory insufficiency,chronic cerebral hypoperfusion
+Insuficienta mitrala,regurgitare mitrala,incompetenta mitrala,insuficienta valvei mitrale,mitral regurgitation,mitral insufficiency,mitral valve incompetence
+Insuficienta tricuspidiana,regurgitare tricuspidiana,incompetenta tricuspida,insuficienta valvei tricuspide,tricuspid regurgitation,tricuspid insufficiency,tricuspid valve incompetence
+Insuficienta vertebrobazilara,insuficienta circulatorie vertebrobazilara,sindrom vertebrobazilar,ischemie vertebrobazilara,vertebrobasilar insufficiency,vertebrobasilar ischemia,vertebrobasilar circulatory insufficiency
+Ischemie acuta de membru,ischemie arteriala acuta a membrului,insuficienta arteriala acuta de membru,ischemie acuta periferica,acute limb ischemia,acute limb ischaemia,acute peripheral arterial ischemia
+Ischemie critica de membru,ischemie cronica critica de membru,ischemie periferica critica,ischemie cronica amenintatoare de membru,critical limb ischemia,chronic limb-threatening ischemia,critical limb ischaemia
+Ischemie mezenterica acuta,infarct mezenteric,ischemie intestinala acuta,necroza intestinala ischemica,acute mesenteric ischemia,acute mesenteric ischaemia,mesenteric infarction
+Ischemie mezenterica cronica,angina intestinala,angina abdominala,insuficienta mezenterica cronica,chronic mesenteric ischemia,chronic mesenteric ischaemia,intestinal angina
+Ischemie miocardica cronica,cardiopatie ischemica cronica,ischemie coronariana cronica,boala ischemica miocardica cronica,chronic myocardial ischemia,chronic ischaemic heart disease,chronic coronary ischemia
+Ischemie miocardica silenta,ischemie miocardica asimptomatica,ischemie coronariana fara durere,ischemie miocardica nedureroasa,silent myocardial ischemia,asymptomatic myocardial ischemia,painless myocardial ischemia
+Limfadenita,inflamatia ganglionilor limfatici,adenita,limfadenita acuta,lymphadenitis,inflamed lymph nodes,lymph node inflammation
+Limfadenita cervicala,adenita cervicala,adenopatie cervicala inflamatorie,limfadenita de gat,cervical lymphadenitis,cervical adenitis,inflamed neck lymph nodes
+Limfadenita mezenterica,adenita mezenterica,limfadenita mezenterica acuta,adenolimfita mezenterica,mesenteric lymphadenitis,mesenteric adenitis,mesenteric lymph node inflammation
+Limfangioame,limfangiom,limfangiomatoza,limfangiom cutanat,lymphangioma,lymphangiomas,lymphatic malformation
+Limfangita,limfangoita,inflamatia vaselor limfatice,limfangita acuta,lymphangitis,lymphatic vessel inflammation,acute lymphangitis
+Limfedem primar,limfedem congenital,boala Milroy,limfedem ereditar,primary lymphedema,congenital lymphedema,Milroy disease
+Limfedem secundar,limfedem dobandit,limfedem obstructiv,limfedem postchirurgical,secondary lymphedema,acquired lymphedema,obstructive lymphedema
+Limfocele,chist limfatic postchirurgical,colectie limfatica,limfocele pelvin,lymphocele,lymphatic collection,postsurgical lymphatic cyst
+Lipodermatoscleroza,dermoliposcleroza,scleroza hipodermica de staza,lipodermatoscleroza de gamba,lipodermatosclerosis,dermoliposclerosis,hypodermatosclerosis
+Livedo reticularis,livedo racemosa,piele marmorata,livedo vascular,mottled skin,cutis marmorata,reticular livedo
+Malformatie arteriovenoasa cerebrala,malformatie arteriovenoasa a creierului,AVM cerebral,angiom arteriovenos cerebral,cerebral arteriovenous malformation,brain arteriovenous malformation,cerebral AVM
+Malformatie vasculara,malformatii vasculare,anomalie vasculara congenitala,malformatie angiogenetica,vascular malformation,congenital vascular malformation,vascular anomaly
+Microangiopatie trombotica,angiopatie trombotica,microangiopatie trombotica sistemica,boala trombotica a microvasculaturii,thrombotic microangiopathy,thrombotic angiopathy,TMA
+Miocardiopatie ischemica,cardiomiopatie ischemica,miocardiopatie coronariana,cardiomiopatie de cauza ischemica,ischemic cardiomyopathy,ischaemic cardiomyopathy,coronary cardiomyopathy
+Miocardita acuta,miocardita acuta infectioasa,inflamatie acuta a miocardului,miocardita acuta virala,acute myocarditis,acute myocardial inflammation,acute viral myocarditis
+Miocardita gigantocelulara,miocardita cu celule gigante,miocardita granulomatoasa gigantocelulara,miocardita idiopatica gigantocelulara,giant cell myocarditis,idiopathic giant cell myocarditis,granulomatous giant cell myocarditis
+Miocardita reumatica,miocardita din febra reumatica,miocardita reumatismala,reumatism miocardic,rheumatic myocarditis,myocarditis in rheumatic fever,rheumatic myocardial inflammation
+Mixom atrial,mixom cardiac,mixom al atriului,tumora mixomatoasa atriala,atrial myxoma,cardiac myxoma,myxoma of the atrium
+Moarte subita cardiaca,moarte subita de cauza cardiaca,deces subit cardiac,moarte cardiaca subita,sudden cardiac death,sudden cardiac arrest death,SCD
+Nefropatie hipertensiva,nefroangioscleroza,boala renala hipertensiva,scleroza renala hipertensiva,hypertensive nephropathy,hypertensive renal disease,nephrosclerosis
+Pericardita constrictiva,pericardita adeziva,pericardita fibroasa constrictiva,simfiza pericardica,constrictive pericarditis,adhesive pericarditis,pericardial constriction
+Pericardita idiopatica,pericardita virala idiopatica,pericardita acuta idiopatica,pericardita nespecifica,idiopathic pericarditis,acute idiopathic pericarditis,viral idiopathic pericarditis
+Pericardita neoplazica,pericardita maligna,pericardita neoplazica secundara,pericardita tumorala,neoplastic pericarditis,malignant pericarditis,tumor-related pericarditis
+Pericardita recidivanta,pericardita recurenta,pericardita recidivata,pericardita cu recaderi,recurrent pericarditis,relapsing pericarditis,recurring pericarditis
+Pericardita reumatica,pericardita din febra reumatica,pericardita reumatismala,pericardita postreumatica,rheumatic pericarditis,pericarditis in rheumatic fever,postrheumatic pericarditis
+Pericardita reumatoida,pericardita din artrita reumatoida,pericardita din poliartrita reumatoida,pericardita reumatismala cronica,rheumatoid pericarditis,pericarditis in rheumatoid arthritis,rheumatoid pericardial disease
+Pericardita tuberculoasa,pericardita din tuberculoza,pericardita tuberculosa,pericardita bacilara,tuberculous pericarditis,pericardial tuberculosis,TB pericarditis
+Pericardita uremica,pericardita din insuficienta renala,pericardita renala,pericardita uremica cronica,uremic pericarditis,pericarditis in renal failure,renal pericarditis
+Picior diabetic,sindromul piciorului diabetic,picior diabetic neuropatic,complicatie diabetica a piciorului,diabetic foot,diabetic foot syndrome,diabetic foot disease
+Pneumopericard,aer in pericard,pneumopericard spontan,gaz in cavitatea pericardica,pneumopericardium,air in the pericardial cavity,gas in the pericardial sac
+Poliangiita microscopica,vasculita microscopica sistemica,angita microscopica,microangita sistemica,microscopic polyangiitis,microscopic polyarteritis,MPA
+Poliarterita nodoza,panarterita nodoza,poliarterita nodoasa,boala Kussmaul-Maier,polyarteritis nodosa,periarteritis nodosa,PAN
+Prolaps de valva mitrala,prolaps mitral,sindrom de valva mitrala click,valva mitrala mixomatoasa,mitral valve prolapse,floppy mitral valve,click-murmur syndrome
+Pseudoanevrism,anevrism fals,pseudoanevrism arterial,anevrism fals vascular,pseudoaneurysm,false aneurysm,arterial false aneurysm
+Punte miocardica,brida miocardica,tunel coronarian,punte musculara coronariana,myocardial bridge,coronary artery bridging,intramural coronary artery
+Purpura Henoch-Schonlein,purpura anafilactoida,vasculita IgA,purpura reumatoida,Henoch-Schonlein purpura,IgA vasculitis,anaphylactoid purpura
+Rabdomiom cardiac,rabdomiom al inimii,tumora cardiaca rabdomiomatoasa,rabdomiom miocardic,cardiac rhabdomyoma,rhabdomyoma of the heart,myocardial rhabdomyoma
+Reinfarct,reinfarct miocardic,recidiva de infarct miocardic,al doilea infarct miocardic,reinfarction,recurrent myocardial infarction,repeat heart attack
+Retinopatie hipertensiva,angiopatie retiniana hipertensiva,retinopatie de cauza hipertensiva,afectare hipertensiva a retinei,hypertensive retinopathy,hypertensive retinal disease,high blood pressure retinopathy
+Revarsat pericardic,hidropericard,lichid in pericard,efuziune pericardica,pericardial effusion,hydropericardium,fluid around the heart
+Ritm idioventricular accelerat,ritm ventricular lent accelerat,ritm de scapare ventricular accelerat,ritm idioventricular lent,accelerated idioventricular rhythm,accelerated ventricular rhythm,AIVR
+Ruptura de miocard,ruptura cardiaca,ruptura de perete ventricular,ruptura miocardica postinfarct,myocardial rupture,cardiac rupture,ventricular wall rupture
+Ruptura de splina,ruptura splenica,rupere a splinei,ruptura de capsula splenica,splenic rupture,rupture of the spleen,spleen rupture
+Sarcoidoza cardiaca,sarcoidoza miocardica,afectare cardiaca sarcoidoasa,granulomatoza sarcoida cardiaca,cardiac sarcoidosis,myocardial sarcoidosis,sarcoid heart disease
+Sarcom cardiac,sarcom al inimii,sarcom miocardic,tumora maligna cardiaca primara,cardiac sarcoma,primary cardiac sarcoma,sarcoma of the heart
+Scleroza Monckeberg,scleroza mediala Monckeberg,calcificare mediala a arterelor,arterioscleroza Monckeberg,Monckeberg sclerosis,Monckeberg medial calcific sclerosis,medial arterial calcification
+Scleroza valvei aortice,scleroza aortica valvulara,ingrosare fibroasa a valvei aortice,valva aortica scleroasa,aortic valve sclerosis,sclerotic aortic valve,calcific aortic valve sclerosis
+Sincopa cardiaca,sincopa de cauza cardiaca,sincopa prin aritmie,sincopa cardiogena,cardiac syncope,cardiogenic syncope,arrhythmic syncope
+Sincopa de sinus carotidian,sincopa prin hipersensibilitate a sinusului carotidian,sindrom de sinus carotidian,sincopa la compresia gatului,carotid sinus syncope,carotid sinus syndrome,carotid sinus hypersensitivity syncope
+Sincopa ortostatica,sincopa prin hipotensiune ortostatica,sincopa la ortostatism,sincopa posturala,orthostatic syncope,postural syncope,syncope on standing
+Sincopa situationala,sincopa la mictiune,sincopa la tuse,sincopa situationala reflexa,situational syncope,micturition syncope,cough syncope
+Sincopa vasovagala,sincopa neurocardiogena,sincopa reflexa,lesin vasovagal,vasovagal syncope,neurocardiogenic syncope,reflex syncope
+Sindrom Andersen-Tawil,paralizie periodica cu aritmie,sindrom QT lung tip 7,sindrom Andersen,Andersen-Tawil syndrome,periodic paralysis with arrhythmia,long QT syndrome type 7
+Sindrom aortic acut,sindromul aortei acute,eveniment aortic acut,urgenta aortica acuta,acute aortic syndrome,acute aortic emergency,aortic syndrome
+Sindrom Brugada,boala Brugada,sindrom Brugada tip 1,canalopatie sodica,Brugada syndrome,Brugada disease,sodium channelopathy syndrome
+Sindrom Budd-Chiari,tromboza venelor hepatice,sindrom Budd-Chiari primar,obstructie a fluxului venos hepatic,Budd-Chiari syndrome,hepatic vein thrombosis,hepatic venous outflow obstruction
+Sindrom carcinoid cardiac,boala cardiaca carcinoida,afectare cardiaca carcinoida,cardiopatie carcinoida,carcinoid heart disease,carcinoid cardiac disease,carcinoid syndrome heart involvement
+Sindrom Churg-Strauss,angita eozinofilica cu granulomatoza,granulomatoza alergica,poliarterita alergica,eosinophilic granulomatosis with polyangiitis,Churg-Strauss syndrome,EGPA
+Sindrom coronarian acut,sindrom coronarian instabil,eveniment coronarian acut,accident coronarian acut,acute coronary syndrome,acute coronary event,ACS
+Sindrom de compresie a venei cave inferioare,sindrom de obstructie a venei cave inferioare,compresie de vena cava inferioara,staza venoasa de vena cava inferioara,inferior vena cava syndrome,IVC compression syndrome,inferior vena caval obstruction
+Sindrom de compresie a venei cave superioare,sindrom de obstructie a venei cave superioare,compresie mediastinala venoasa,staza a venei cave superioare,superior vena cava syndrome,SVC syndrome,superior vena caval obstruction
+Sindrom de congestie pelviana,vene varicoase pelviene,varice pelviene,congestie venoasa pelviana,pelvic congestion syndrome,pelvic venous congestion,pelvic varices
+Sindrom de furt subclavicular,furt subclavicular,sindrom de furt al arterei subclaviculare,insuficienta circulatorie prin furt subclavicular,subclavian steal syndrome,subclavian steal phenomenon,vertebral steal syndrome
+Sindrom de iesire toracica arterial,sindrom de compresie a aperturii toracice,sindrom de iesire toracica vascular,compresie arteriala toracobrahiala,arterial thoracic outlet syndrome,thoracic outlet arterial compression,vascular thoracic outlet syndrome
+Sindrom de pacemaker,sindromul stimulatorului cardiac,sindrom postimplantare pacemaker,disincronie atrioventriculara prin pacing,pacemaker syndrome,pacemaker-related syndrome,AV dyssynchrony syndrome
+Sindrom de preexcitare,preexcitare ventriculara,sindrom de preexcitare ventriculara,conducere atrioventriculara accesorie,preexcitation syndrome,ventricular preexcitation,accessory pathway syndrome
+Sindrom de repolarizare precoce,repolarizare precoce,aspect de repolarizare precoce,sindrom de repolarizare precoce benigna,early repolarization syndrome,early repolarization pattern,J-wave syndrome
+Sindrom de vasoconstrictie cerebrala reversibila,vasospasm cerebral reversibil,angiopatie cerebrala cu vasospasm reversibil,sindrom de vasospasm cerebral tranzitoriu,reversible cerebral vasoconstriction syndrome,reversible cerebral vasospasm,RCVS
+Sindrom Dressler,sindrom postinfarct miocardic,pericardita postinfarct miocardic,sindrom postlesiune cardiaca,Dressler syndrome,post-myocardial infarction syndrome,post-cardiac injury syndrome
+Sindrom Ehlers-Danlos vascular,sindrom Ehlers-Danlos tip IV,sindrom Ehlers-Danlos tip vascular,boala Ehlers-Danlos vasculara,vascular Ehlers-Danlos syndrome,Ehlers-Danlos syndrome type IV,vascular EDS
+Sindrom hipereozinofilic cardiac,boala endomiocardica eozinofilica,endocardita Loeffler,miocardita eozinofilica,hypereosinophilic cardiac syndrome,Loeffler endocarditis,eosinophilic myocarditis
+Sindrom Jervell-Lange-Nielsen,sindrom QT lung cu surditate,sindrom cardio-auditiv,QT lung autosomal recesiv,Jervell and Lange-Nielsen syndrome,long QT syndrome with deafness,cardioauditory syndrome
+Sindrom Klippel-Trenaunay,sindrom Klippel-Trenaunay-Weber,nev vascular osteohipertrofic,sindrom angio-osteohipertrofic,Klippel-Trenaunay syndrome,Klippel-Trenaunay-Weber syndrome,angio-osteohypertrophy syndrome
+Sindrom Leriche,boala ocluziva aortoilica,tromboza aortoilica cronica,sindrom de ocluzie a bifurcatiei aortice,Leriche syndrome,aortoiliac occlusive disease,aortic bifurcation occlusion
+Sindrom Lown-Ganong-Levine,sindrom LGL,preexcitare cu interval PR scurt,sindrom de preexcitare cu PR scurt,Lown-Ganong-Levine syndrome,LGL syndrome,short PR syndrome
+Sindrom Marfan,boala Marfan,sindrom Marfan congenital,sindromul Marfan,Marfan syndrome,Marfan disease,Marfan's syndrome
+Sindrom May-Thurner,sindrom de compresie a venei iliace,sindrom Cockett,compresie iliaca venoasa,May-Thurner syndrome,iliac vein compression syndrome,Cockett syndrome
+Sindrom Moya-Moya,boala Moya-Moya,ocluzie progresiva a arterelor cerebrale,vasculopatie Moya-Moya,moyamoya disease,moyamoya syndrome,progressive cerebral arterial occlusion
+Sindrom Paget-Schroetter,tromboza de efort a venei subclavii,tromboza venoasa de efort,sindrom de tromboza axilara de efort,Paget-Schroetter disease,effort thrombosis,effort-induced subclavian vein thrombosis
+Sindrom postpericardiotomie,sindrom postcardiotomie,pericardita postpericardiotomie,sindrom postchirurgie cardiaca,postpericardiotomy syndrome,postcardiotomy syndrome,post-cardiac surgery syndrome
+Sindrom posttrombotic,sindrom postflebitic,boala posttrombotica,sechele posttrombotice,postthrombotic syndrome,postphlebitic syndrome,post-thrombotic sequelae
+Sindrom QT lung,sindrom de QT lung,QT lung congenital,sindrom de repolarizare prelungita,long QT syndrome,prolonged QT syndrome,LQTS
+Sindrom QT scurt,sindrom de QT scurt,QT scurt congenital,sindrom de repolarizare accelerata,short QT syndrome,shortened QT syndrome,SQTS
+Sindrom Romano-Ward,sindrom QT lung autosomal dominant,sindrom QT lung fara surditate,forma dominanta de QT lung,Romano-Ward syndrome,autosomal dominant long QT syndrome,long QT syndrome without deafness
+Sindrom Takotsubo,cardiomiopatie de stres,sindromul cordului frant,balonizare apicala tranzitorie,takotsubo syndrome,stress cardiomyopathy,broken heart syndrome
+Sindrom Wolff-Parkinson-White,sindrom WPW,preexcitare cu cale accesorie,tahicardie prin cale accesorie,Wolff-Parkinson-White syndrome,WPW syndrome,accessory pathway tachycardia
+Soc cardiogen,soc prin insuficienta cardiaca,soc cardiac,soc de origine cardiaca,cardiogenic shock,cardiac shock,shock due to heart failure
+Soc distributiv,soc vasoplegic,soc prin vasodilatatie,soc cu rezistente vasculare scazute,distributive shock,vasoplegic shock,vasodilatory shock
+Soc hemoragic,soc prin hemoragie,soc hemoragic acut,colaps prin pierdere de sange,hemorrhagic shock,haemorrhagic shock,shock due to blood loss
+Soc hipovolemic,soc prin pierdere de volum,soc prin deshidratare severa,soc hipovolemic sever,hypovolemic shock,volume depletion shock,severe hypovolemic shock
+Soc obstructiv,soc prin obstructie mecanica,soc prin tamponada cardiaca,soc obstructiv extracardiac,obstructive shock,mechanical obstructive shock,outflow obstruction shock
+Soc septic,soc septicemic,soc infectios,soc prin sepsis,septic shock,septicemic shock,infection-related shock
+Spasm coronarian,vasospasm coronarian,spasm al arterei coronare,contractie spastica coronariana,coronary artery spasm,coronary vasospasm,coronary spasm
+Splenita,inflamatia splinei,splenita acuta,inflamatie a pulpei splenice,splenitis,inflammation of the spleen,acute splenitis
+Splenomegalie,marirea splinei,splina marita,hipertrofie splenica,splenomegaly,enlarged spleen,splenic enlargement
+Stenoza de artera bazilara,stenoza bazilara,ingustarea arterei bazilare,stenoza de trunchi bazilar,basilar artery stenosis,basilar stenosis,narrowing of the basilar artery
+Stenoza de artera carotida,stenoza carotidiana,ingustarea arterei carotide,stenoza de carotida,carotid artery stenosis,carotid stenosis,narrowing of the carotid artery
+Stenoza de artera renala,stenoza arteriala renala,ingustarea arterei renale,stenoza renovasculara,renal artery stenosis,renal arterial stenosis,narrowing of the renal artery
+Stenoza de artera vertebrala,stenoza vertebrala,ingustarea arterei vertebrale,stenoza vertebrobazilara,vertebral artery stenosis,vertebral stenosis,narrowing of the vertebral artery
+Stenoza mitrala,stenoza valvei mitrale,ingustarea valvei mitrale,stenoza mitrala reumatica,mitral stenosis,mitral valve stenosis,narrowing of the mitral valve
+Stenoza pulmonara,stenoza valvei pulmonare,ingustarea valvei pulmonare,stenoza infundibulara pulmonara,pulmonary stenosis,pulmonary valve stenosis,narrowing of the pulmonary valve
+Stenoza tricuspidiana,stenoza valvei tricuspide,ingustarea valvei tricuspide,stenoza tricuspida,tricuspid stenosis,tricuspid valve stenosis,narrowing of the tricuspid valve
+Stop cardiac,arest cardiac,oprire cardiaca,oprire a inimii,cardiac arrest,circulatory arrest,heart arrest
+Tahicardie atriala multifocala,tahicardie atriala cu focare multiple,tahicardie atriala haotica,ritm atrial multifocal,multifocal atrial tachycardia,chaotic atrial tachycardia,MAT
+Tahicardie de reintrare atrioventriculara,tahicardie de reintrare AV,tahicardie reciprocanta ortodromica,tahicardie prin cale accesorie ortodroma,atrioventricular reentrant tachycardia,AVRT,orthodromic atrioventricular reentrant tachycardia
+Tahicardie de reintrare nodala,tahicardie de reintrare in nodul atrioventricular,tahicardie reciprocanta nodala,tahicardie paroxistica prin reintrare nodala,atrioventricular nodal reentrant tachycardia,AVNRT,nodal reentrant tachycardia
+Tahicardie junctionala,tahicardie nodala,tahicardie atrioventriculara,tahicardie de jonctiune,junctional tachycardia,atrioventricular junctional tachycardia,junctional ectopic tachycardia
+Tahicardie sinusala,ritm sinusal accelerat,puls sinusal rapid,tahicardie de origine sinusala,sinus tachycardia,accelerated sinus rhythm,rapid sinus rhythm
+Tahicardie sinusala inadecvata,tahicardie sinusala inapropriata,sindrom de tahicardie sinusala nonfiziologica,tahicardie sinusala persistenta,inappropriate sinus tachycardia,IST,nonparoxysmal sinus tachycardia
+Tahicardie ventriculara nonsustentata,TV nonsustentata,tahicardie ventriculara de scurta durata,salve de tahicardie ventriculara,nonsustained ventricular tachycardia,NSVT,brief ventricular tachycardia
+Tahicardie ventriculara polimorfa,tahicardie ventriculara cu morfologie variabila,TV polimorfa,tahicardie ventriculara cu axe variabile,polymorphic ventricular tachycardia,polymorphic VT,pleomorphic ventricular tachycardia
+Tamponada cardiaca,tamponada pericardica,compresie cardiaca prin lichid pericardic,sindrom de tamponada,cardiac tamponade,pericardial tamponade,tamponade
+Telangiectazie,telangiectazii,dilatatii capilare vizibile,angiectazie,telangiectasia,spider veins,capillary dilatation
+Torsada varfurilor,torsada de varfuri,tahicardie ventriculara in torsada,torsada ventriculara polimorfa,torsades de pointes,torsade de pointes,torsades de pointes ventricular tachycardia
+Torsiune de splina,torsiune splenica,volvulus splenic,intoarcere a splinei pe pedicul,splenic torsion,torsion of the spleen,wandering spleen torsion
+Tromboflebita migratorie,tromboflebita migrans,sindrom Trousseau,tromboflebita recidivanta migratorie,migratory thrombophlebitis,thrombophlebitis migrans,Trousseau syndrome
+Tromboza de artera cerebrala,tromboza arteriala cerebrala,tromboza a unei artere cerebrale,ocluzie trombotica cerebrala,cerebral artery thrombosis,thrombosis of cerebral artery,cerebral arterial occlusion
+Tromboza de sinus cavernos,tromboza sinusului cavernos,tromboflebita de sinus cavernos,sindrom de sinus cavernos septic,cavernous sinus thrombosis,thrombosis of the cavernous sinus,septic cavernous sinus thrombosis
+Tromboza de sinus venos cerebral,tromboza venoasa cerebrala,tromboza de sinus cerebral,tromboflebita cerebrala,cerebral venous sinus thrombosis,cerebral venous thrombosis,CVST
+Tromboza de vena cava,tromboza venei cave,tromboza de vena cava inferioara,tromboza cavei,vena cava thrombosis,inferior vena cava thrombosis,caval thrombosis
+Tromboza de vena mezenterica,tromboza venoasa mezenterica,tromboza a venei mezenterice,infarct venos mezenteric,mesenteric vein thrombosis,mesenteric venous thrombosis,thrombosis of the mesenteric vein
+Tromboza de vena ovariana,tromboza ovariana,tromboza a venei ovariene,tromboza venoasa ovariana,ovarian vein thrombosis,thrombosis of the ovarian vein,postpartum ovarian vein thrombosis
+Tromboza de vena porta,tromboza portala,tromboza venei portale,cavernom portal posttrombotic,portal vein thrombosis,portal thrombosis,thrombosis of the portal vein
+Tromboza de vena renala,tromboza venei renale,tromboza renala venoasa,tromboza a venei renale,renal vein thrombosis,renal venous thrombosis,thrombosis of the renal vein
+Tromboza de vena splenica,tromboza splenica,tromboza a venei splenice,tromboza venoasa splenica,splenic vein thrombosis,splenic venous thrombosis,thrombosis of the splenic vein
+Tromboza de ventricul stang,tromboza ventriculara stanga,cheag in ventriculul stang,tromboza murala ventriculara stanga,left ventricular thrombosis,left ventricular thrombus,LV thrombus
+Tromboza intracardiaca,tromboza intracavitara,cheag intracardiac,tromboza in cavitatile cardiace,intracardiac thrombosis,intracardiac thrombus,cardiac chamber thrombosis
+Tromboza venoasa a membrelor superioare,tromboza venoasa profunda a bratului,tromboza de vena subclavie,tromboza axilo-subclaviculara,upper extremity deep vein thrombosis,upper limb venous thrombosis,arm vein thrombosis
+Tumora cardiaca,tumora a inimii,neoplasm cardiac,formatiune tumorala cardiaca,cardiac tumor,heart tumor,neoplasm of the heart
+Ulcer arterial al piciorului,ulcer ischemic al piciorului,ulcer arterial de gamba,ulcer prin insuficienta arteriala,arterial leg ulcer,ischemic leg ulcer,arterial foot ulcer
+Valvulita,inflamatia valvelor cardiace,valvulita cardiaca,inflamatie valvulara cardiaca,valvulitis,cardiac valve inflammation,inflammation of the heart valves
+Valvulopatie cardiaca,boala valvulara cardiaca,valvulopatie,afectiune a valvelor cardiace,valvular heart disease,valvular disease of the heart,cardiac valve disease
+Valvulopatie reumatica,boala valvulara reumatica,afectare valvulara reumatica,sechele valvulare reumatice,rheumatic valvular disease,rheumatic valve disease,rheumatic valvulopathy
+Varice esofagiene,varice de esofag,dilatatii venoase esofagiene,varice esofagiene si gastrice,esophageal varices,oesophageal varices,esophageal varicose veins
+Vasculita cerebrala,vasculita a sistemului nervos central,angita cerebrala,vasculita primara cerebrala,cerebral vasculitis,primary angiitis of the central nervous system,central nervous system vasculitis
+Vasculita crioglobulinemica,crioglobulinemie vasculitica,vasculita cu crioglobuline,purpura crioglobulinemica,cryoglobulinemic vasculitis,cryoglobulinemia vasculitis,cryoglobulinemic purpura
+Vasculita leucocitoclastica,vasculita de hipersensibilitate,angita leucocitoclastica,vasculita alergica cutanata,leukocytoclastic vasculitis,hypersensitivity vasculitis,cutaneous small vessel vasculitis

@@ -1,0 +1,324 @@
+Abetalipoproteinemie,sindrom Bassen-Kornzweig,absenta betalipoproteinelor,deficit de apolipoproteina B,abetalipoproteinemia,Bassen-Kornzweig syndrome,betalipoprotein deficiency
+Acidemie izovalerica,acidurie izovalerica,deficit de izovaleril-CoA dehidrogenaza,deficit de IVD,isovaleric acidemia,isovaleric aciduria,isovaleryl-CoA dehydrogenase deficiency
+Acidemie metilmalonica,acidurie metilmalonica,deficit de metilmalonil-CoA mutaza,acidemie metilmalonica izolata,methylmalonic acidemia,methylmalonic aciduria,methylmalonyl-CoA mutase deficiency
+Acidemie propionica,acidurie propionica,deficit de propionil-CoA carboxilaza,deficit de PCC,propionic acidemia,propionyl-CoA carboxylase deficiency,propionic aciduria
+Acidoza lactica,acidoza prin acid lactic,acumulare de acid lactic,acidemie lactica,lactic acidosis,lactic acid acidosis,acidosis due to lactic acid
+Acidoza renala tubulara,acidoza tubulara renala,defect de acidifiere renala,acidoza renala hipercloremica,renal tubular acidosis,tubular acidosis,RTA
+Acidoza respiratorie,acidoza prin hipoventilatie,acidoza gazoasa,acidoza hipercapnica,respiratory acidosis,acidosis due to hypoventilation,hypercapnic acidosis
+Acidurie 3-metilglutaconica,acidurie 3-metilglutaconica tip I,deficit de 3-metilglutaconil-CoA hidrataza,deficit de 3-MG-CoA hidrataza,3-methylglutaconic aciduria,3-methylglutaconic aciduria type I,3-methylglutaconyl-CoA hydratase deficiency
+Acidurie argininosuccinica,acidurie arginino-succinica,deficit de argininosuccinaza,acidurie argininosuccinica neonatala,argininosuccinic aciduria,argininosuccinate lyase deficiency,ASL deficiency
+Acidurie organica,acidemie organica,tulburare de metabolism al acizilor organici,acidurii organice,organic aciduria,organic acidemia,organic acid metabolism disorder
+Acrodermatita enteropatica,deficit congenital de zinc,boala Brandt,dermatita enteropatica,acrodermatitis enteropathica,zinc deficiency disorder,Brandt syndrome
+Acropahie tiroidiana,acropahie,osteodermopatie tiroidiana,acropahie cu osteoartropatie tiroidiana,thyroid acropachy,acropachy,digital clubbing in thyroid disease
+Adenom toxic tiroidian,adenom tiroidian hiperfunctional,nodul tiroidian hiperfunctionant,adenom tiroidian cu hiperfunctie,toxic thyroid adenoma,hyperfunctioning thyroid nodule,toxic nodular adenoma
+Adrenarha prematura,adrenarha precoce,dezvoltare precoce a pilozitatii pubiene,pubarha prematura,premature adrenarche,premature pubarche,early adrenarche
+Alcaloza respiratorie,alcaloza prin hiperventilatie,alcaloza gazoasa,alcaloza hipocapnica,respiratory alkalosis,alkalosis due to hyperventilation,hypocapnic alkalosis
+Alcaptonurie,boala urinei negre,ocronoza,artropatie ocronotica,alkaptonuria,black urine disease,ochronosis
+Alfa-manozidoza,deficit de alfa-manozidaza,manozidoza,manozidoza lizozomala,alpha-mannosidosis,alpha-mannosidase deficiency,mannosidosis
+Amenoree hipotalamica,amenoree de origine hipotalamica,amenoree functionala hipotalamica,amenoree prin blocaj hipotalamic,hypothalamic amenorrhea,functional hypothalamic amenorrhea,hypothalamic amenorrhoea
+Amiloidoza asociata dializei,amiloidoza cu beta-2 microglobulina,amiloidoza la dializati,amiloidoza periatriculara la dializa,dialysis-related amyloidosis,beta-2 microglobulin amyloidosis,dialysis-associated amyloidosis
+Amiloidoza cardiaca,amiloidoza cardiaca senila,cardiomiopatie amiloida,amiloidoza miocardica,cardiac amyloidosis,amyloid cardiomyopathy,senile cardiac amyloidosis
+Amiloidoza familiala,amiloidoza ereditara,amiloidoza genetica,amiloidoza familiala cu polineuropatie,familial amyloidosis,hereditary amyloidosis,hereditary amyloid disease
+Amiloidoza transtiretina,amiloidoza ATTR,amiloidoza prin transtiretina,amiloidoza senila cu transtiretina,transthyretin amyloidosis,ATTR amyloidosis,transthyretin-related amyloidosis
+Analbuminemie,absenta albuminei serice,hipoalbuminemie congenitala,deficit congenital de albumina,analbuminemia,congenital analbuminemia,absence of serum albumin
+Apoplexie hipofizara,infarct hipofizar,criza hipofizara acuta,hemoragie hipofizara,pituitary apoplexy,pituitary infarction,acute pituitary hemorrhage
+Atireoza,absenta glandei tiroide,lipsa tiroidei,atiroidie,athyroidism,absence of thyroid gland,absence of thyroid
+Atrofie testiculara,atrofie a testiculelor,testicul atrofic,atrofie testiculara bilaterala,testicular atrophy,atrophy of the testis,testicular shrinkage
+Beriberi,boala beriberi,beriberi umed,beriberi uscat,wet beriberi,dry beriberi,thiamine deficiency disease
+Beta-manozidoza,deficit de beta-manozidaza,manozidoza beta,deficit lizozomal de beta-manozidaza,beta-mannosidosis,beta-mannosidase deficiency,lysosomal beta-mannosidase deficiency
+Boala cu celule I,mucolipidoza tip II,deficit de N-acetilglucozamin-1-fosfotransferaza,mucolipidoza cu celule I,I-cell disease,mucolipidosis type II,N-acetylglucosamine-1-phosphotransferase deficiency
+Boala depozitelor de esteri de colesterol,deficit partial de lipaza acida lizozomala,boala CESD,lipidoza cu esteri de colesterol,cholesteryl ester storage disease,CESD,partial lysosomal acid lipase deficiency
+Boala Farber,lipogranulomatoza Farber,deficit de ceramidaza acida,lipogranulomatoza diseminata,Farber disease,Farber lipogranulomatosis,acid ceramidase deficiency
+Boala Gaucher,sfingolipidoza cu glucocerebrozida,deficit de glucocerebrozidaza,boala Gaucher adulta,Gaucher disease,glucocerebrosidase deficiency,Gaucher's disease
+Boala hemoragica a nou-nascutului,boala hemoragica neonatala,deficit de vitamina K la nou-nascut,boala hemoragica a sugarului,hemorrhagic disease of the newborn,vitamin K deficiency bleeding,neonatal vitamin K deficiency
+Boala Kashin-Beck,osteodistrofie endemica,boala deformanta endemica a oaselor,poliartroza deformanta endemica,Kashin-Beck disease,endemic osteoarthropathy,osteoarthritis deformans endemica
+Boala Keshan,cardiomiopatie endemica prin deficit de seleniu,boala Keshan endemica,cardiomiopatie prin carenta de seleniu,Keshan disease,endemic cardiomyopathy of selenium deficiency,selenium deficiency cardiomyopathy
+Boala Krabbe,leucodistrofie cu celule globoide,deficit de galactocerebrozidaza,leucodistrofie globoida,Krabbe disease,globoid cell leukodystrophy,galactocerebrosidase deficiency
+Boala Lowe,sindrom oculocerebrorenal,sindrom Lowe-Bickel,deficit de OCRL,oculocerebrorenal syndrome,Lowe syndrome,oculocerebrorenal dystrophy
+Boala Niemann-Pick,sfingomielinoza,deficit de sfingomielinaza,boala Niemann-Pick clasica,Niemann-Pick disease,sphingomyelinosis,sphingomyelinase deficiency
+Boala Refsum,boala depozitelor de acid fitanic,deficit de fitanoil-CoA hidrolaza,boala Refsum infantila,Refsum disease,phytanic acid storage disease,phytanoyl-CoA hydroxylase deficiency
+Boala Tangier,deficit de ABCA1,hipoalfalipoproteinemie familiala,analphalipoproteinemie,Tangier disease,analphalipoproteinemia,familial alpha-lipoprotein deficiency
+Boala Tay-Sachs,gangliozidoza GM2,deficit de hexozaminidaza A,boala Tay-Sachs infantila,Tay-Sachs disease,GM2 gangliosidosis,hexosaminidase A deficiency
+Boala tiroidiana autoimuna,boala autoimuna a tiroidei,afectiune tiroidiana autoimuna,patologie tiroidiana autoimuna,autoimmune thyroid disease,autoimmune thyroid disorder,thyroid autoimmunity
+Boala urinii cu miros de sirop de artar,boala siropului de artar,leucinoza,acidemie cu lant ramificat,maple syrup urine disease,branched-chain ketoaciduria,MSUD
+Boala Wolman,boala Wolman infantila,deficit sever de lipaza acida lizozomala,xantomatosis viscerala,Wolman disease,lysosomal acid lipase deficiency,acid cholesteryl ester hydrolase deficiency
+Calcificari metastatice,calcinoza metastatica,calcificare ectopica,depuneri de calciu in tesuturi moi,metastatic calcification,metastatic calcinosis,ectopic calcification
+Calcifilaxie,arteriolopatia uremica calcificata,calcifilaxie uremica,sindrom de calcifilaxie,calciphylaxis,calcific uremic arteriolopathy,uremic calcific arteriolopathy
+Cardiomiopatie diabetica,miocardiopatie diabetica,boala miocardica diabetica,cardiopatie diabetica,diabetic cardiomyopathy,diabetic heart muscle disease,diabetes-related cardiomyopathy
+Casexie,sindrom de casexie,emaciere generalizata,emaciere extrema,cachexia,cachectic syndrome,wasting syndrome
+Cataracta diabetica,cataracta la diabetic,cataracta metabolica diabetica,cataracta juvenila diabetica,diabetic cataract,cataract in diabetes,diabetes-associated cataract
+Chist de punga Rathke,chist Rathke,chist de buzunar Rathke,chist hipofizar de origine Rathke,rathke cleft cyst,rathke's cleft cyst,rathke pouch cyst
+Cistationinurie,cistationinurie prin deficit de cistationaza,excretie crescuta de cistationina,cistationinurie congenitala,cystathioninuria,cystathionase deficiency,gamma-cystathionase deficiency
+Cistinoza,cistinoza nefropatica,boala depozitelor de cistina,cistinoza infantila,cystinosis,nephropathic cystinosis,cystine storage disease
+Cistinurie,cistinurie renala,pierdere urinara de cistina,cistinurie cu calculi,cystinuria,urinary cystine excretion,cystine stone disease
+Citrulinemie,citrulinemie clasica,deficit de argininosuccinat sintetaza,citrulinemie neonatala,citrullinemia,classic citrullinemia,argininosuccinate synthetase deficiency
+Coma hiperosmolara,coma hiperglicemica hiperosmolara,sindrom hiperosmolar hiperglicemic,coma diabetica hiperosmolara,hyperosmolar coma,hyperglycemic hyperosmolar state,hyperosmolar hyperglycemic nonketotic coma
+Coma hipoglicemica,coma prin hipoglicemie,coma insulinica,hipoglicemie severa cu coma,hypoglycemic coma,hypoglycaemic coma,insulin coma
+Coma mixedematoasa,coma hipotiroidiana,criza mixedematoasa,precoma mixedematos,myxedema coma,myxoedema coma,hypothyroid coma
+Coproporfirie ereditara,porfirie coproporfirica ereditara,deficit de coproporfirinogen oxidaza,porfirie cu coproporfirina,hereditary coproporphyria,coproporphyria,CPOX deficiency
+Corticotropinom,adenom hipofizar secretant de ACTH,adenom hipofizar corticotrof,adenom hipofizar cu ACTH,corticotropinoma,ACTH-secreting pituitary adenoma,corticotroph adenoma
+Cretinism,cretinism endemic,cretinism sporadic,hipotiroidism congenital sever,congenital iodine deficiency syndrome,endemic cretinism,cretinism due to iodine deficiency
+Cretinism mixedematos,cretinism cu mixedem,hipotiroidism congenital mixedematos,cretinism hipotiroidian,myxedematous cretinism,endemic myxedematous cretinism,myxedematous congenital hypothyroidism
+Cretinism neurologic,cretinism neurologic endemic,hipotiroidism congenital cu afectare neurologica,cretinism neurologic cu surditate,neurological cretinism,endemic neurological cretinism,neurologic cretinism
+Deficit combinat de hormoni hipofizari,deficit plurihormonal hipofizar,insuficienta hipofizara plurihormonala,deficit multiplu de hormoni hipofizari,combined pituitary hormone deficiency,multiple pituitary hormone deficiency,plurihormonal pituitary deficiency
+Deficit de 11-beta-hidroxilaza,hiperplazie suprarenala cu hipertensiune,deficit de CYP11B1,deficit de steroid 11-beta-monooxigenaza,11-beta-hydroxylase deficiency,CYP11B1 deficiency,hypertensive congenital adrenal hyperplasia
+Deficit de 17-alfa-hidroxilaza,deficit de CYP17,hiperplazie suprarenala cu hipokalemie,deficit de steroid 17-alfa-monooxigenaza,17-alpha-hydroxylase deficiency,CYP17 deficiency,17-hydroxylase deficiency syndrome
+Deficit de 21-hidroxilaza,hiperplazie suprarenala prin deficit de 21-hidroxilaza,deficit de CYP21A2,deficit de steroid 21-monooxigenaza,21-hydroxylase deficiency,CYP21A2 deficiency,classic congenital adrenal hyperplasia
+Deficit de 3-beta-hidroxisteroid dehidrogenaza,deficit de HSD3B2,blocaj la nivel de 3-beta-hidroxisteroid dehidrogenaza,deficit de 3-beta-HSD,3-beta-hydroxysteroid dehydrogenase deficiency,HSD3B2 deficiency,delta-5 steroid dehydrogenase deficiency
+Deficit de acil-CoA dehidrogenaza cu lant mediu,deficit de MCAD,deficit de acil-CoA dehidrogenaza,deficit de MCAD la sugar,medium-chain acyl-CoA dehydrogenase deficiency,MCAD deficiency,medium-chain fatty acid oxidation defect
+Deficit de acizi grasi esentiali,deficit de omega-3 si omega-6,carenta de acizi grasi esentiali,deficit de acizi grasi polinesaturati,essential fatty acid deficiency,essential fatty acid insufficiency,EFA deficiency
+Deficit de ACTH,deficit de corticotropina,insuficienta corticotropa,hiposecretie de ACTH,ACTH deficiency,corticotropin deficiency,isolated ACTH deficiency
+Deficit de aromataza,insuficienta de aromataza,deficit de enzima aromataza,deficit de CYP19,aromatase deficiency,CYP19 deficiency,estrogen synthetase deficiency
+Deficit de biotina,carenta de biotina,deficit de vitamina H,deficit de vitamina B7,biotin deficiency,vitamin H deficiency,biotin insufficiency
+Deficit de carnitin palmitoiltransferaza II,deficit de CPT II,miopatie prin deficit de CPT II,deficit muscular de CPT II,carnitine palmitoyltransferase II deficiency,CPT II deficiency,CPT2 deficiency
+Deficit de carnitina,deficit primar de carnitina,deficit de transportor de carnitina,deficit sistemic de carnitina,carnitine deficiency,primary carnitine deficiency,carnitine transporter defect
+Deficit de ceruloplasmin,aceruloplasminemie,lipsa ceruloplasminei,boala prin deficit de ceruloplasmin,ceruloplasmin deficiency,aceruloplasminemia,hereditary ceruloplasmin deficiency
+Deficit de crom,carenta de crom,lipsa cromului,deficit de crom trivalent,chromium deficiency,low chromium,chromium insufficiency
+Deficit de fluor,carenta de fluor,hipofluoruroza,lipsa fluorului,fluoride deficiency,low fluoride,fluorine deficiency
+Deficit de folat,carenta de vitamina B9,hipovitaminoza B9,deficit de acid folic,folate deficiency,vitamin B9 deficiency,folic acid deficiency
+Deficit de fosfor,carenta de fosfor,lipsa fosforului,fosfor scazut in organism,phosphorus deficiency,phosphate deficiency,low phosphorus
+Deficit de gonadotropine,deficit de FSH si LH,insuficienta gonadotropa,hiposecretie de gonadotropine,gonadotropin deficiency,LH and FSH deficiency,hypogonadotropic hypogonadism due to pituitary disease
+Deficit de lecitin-colesterol aciltransferaza,deficit de LCAT,boala ochilor de peste,deficit familial de LCAT,lecithin-cholesterol acyltransferase deficiency,LCAT deficiency,fish eye disease
+Deficit de lipoproteina lipaza,deficienta de lipoproteina lipaza,lipsa activitatii lipoproteinei lipaza,deficit congenital de LPL,lipoprotein lipase deficiency,LPL deficiency,hyperlipoproteinemia due to LPL deficiency
+Deficit de mangan,carenta de mangan,lipsa manganului,deficit de mangan nutritional,manganese deficiency,low manganese,manganese insufficiency
+Deficit de molibden,carenta de molibden,deficit de cofactor de molibden,lipsa molibdenului,molybdenum deficiency,molybdenum cofactor deficiency,low molybdenum
+Deficit de niacina,carenta de vitamina B3,hipovitaminoza PP,deficit de acid nicotinic,niacin deficiency,vitamin B3 deficiency,nicotinic acid deficiency
+Deficit de ornitin transcarbamilaza,deficit de OTC,hiperamoniemie prin deficit de OTC,deficit de ornitin-carbamoil transferaza,ornithine transcarbamylase deficiency,OTC deficiency,hyperammonemia due to OTC deficiency
+Deficit de piridoxina,carenta de vitamina B6,hipovitaminoza B6,deficit de piridoxal,pyridoxine deficiency,vitamin B6 deficiency,pyridoxal deficiency
+Deficit de potasiu,carenta de potasiu,lipsa potasiului,potasiu insuficient in organism,potassium deficiency,low potassium,potassium depletion
+Deficit de riboflavina,carenta de vitamina B2,hipovitaminoza B2,ariboflavinoza,riboflavin deficiency,vitamin B2 deficiency,ariboflavinosis
+Deficit de seleniu,carenta de seleniu,hiposelenemie,lipsa seleniului,selenium deficiency,low selenium,selenium insufficiency
+Deficit de sodiu,carenta de sodiu,lipsa sodiului,sodiu insuficient in organism,sodium deficiency,low sodium,sodium depletion
+Deficit de tiamina,carenta de vitamina B1,hipovitaminoza B1,deficit de aneurina,thiamine deficiency,vitamin B1 deficiency,thiamin deficiency
+Deficit de TSH,deficit de tirotropina,insuficienta tireotropa,hiposecretie de TSH,TSH deficiency,thyrotropin deficiency,thyroid-stimulating hormone deficiency
+Deficit de vitamina A,carenta de vitamina A,hipovitaminoza A,hipovitaminoza A severa,vitamin A deficiency,retinol deficiency,hypovitaminosis A
+Deficit de vitamina C,carenta de vitamina C,hipovitaminoza C,deficit de acid ascorbic,vitamin C deficiency,ascorbic acid deficiency,hypovitaminosis C
+Deficit de vitamina E,carenta de vitamina E,hipovitaminoza E,deficit de tocoferol,vitamin E deficiency,tocopherol deficiency,hypovitaminosis E
+Deficit de vitamina K,carenta de vitamina K,hipovitaminoza K,deficit de filochinona,vitamin K deficiency,phylloquinone deficiency,hypovitaminosis K
+Deficit izolat de hormon de crestere,deficit izolat de GH,hiposecretie izolata de hormon somatotrop,deficit de somatotropina,isolated growth hormone deficiency,isolated GH deficiency,somatotropin deficiency
+Dermopatia diabetica,leziuni cutanate diabetice,pete tibiale diabetice,dermopatia diabetica a gambelor,diabetic dermopathy,shin spots,diabetic skin lesions
+Dermopatie tiroidiana,pretibial mixedem,mixedem pretibial,infiltratie mixedematoasa pretibiala,thyroid dermopathy,pretibial myxedema,localized myxedema
+Diabet indus de medicamente,diabet medicamentos,hiperglicemie medicamentoasa,diabet secundar medicamentelor,drug-induced diabetes,medication-induced diabetes,diabetes due to drugs
+Diabet insipid nefrogenic,diabet insipid renal,rezistenta renala la ADH,diabet insipid prin rezistenta la vasopresina,nephrogenic diabetes insipidus,renal diabetes insipidus,ADH resistance
+Diabet MODY,diabet zaharat cu debut la tineri,diabet monogenic,diabet familial cu transmitere autozomal dominanta,MODY diabetes,maturity-onset diabetes of the young,monogenic diabetes
+Diabet pancreatic,diabet prin boli pancreatice,diabet de origine pancreatica,diabet dupa pancreatita cronica,pancreatic diabetes,diabetes due to pancreatic disease,pancreatogenic diabetes
+Diabet secundar,diabet zaharat secundar,diabet simptomatic,diabet de cauza cunoscuta,secondary diabetes,secondary diabetes mellitus,diabetes due to another condition
+Diabet steroidic,diabet indus de corticosteroizi,hiperglicemie indusa de cortizon,diabet prin corticoterapie,steroid diabetes,steroid-induced diabetes,corticosteroid-induced hyperglycemia
+Diabet zaharat instabil,diabet labil,diabet zaharat dificil de controlat,diabet zaharat cu control labil,brittle diabetes,labile diabetes,unstable diabetes
+Diabet zaharat tip 1 cu complicatii,diabet tip 1 cu complicatii cronice,diabet insulinodependent cu complicatii,diabet zaharat tip 1 cu complicatii vasculare,type 1 diabetes with complications,complicated type 1 diabetes,insulin-dependent diabetes with complications
+Diabet zaharat tip 2 cu complicatii,diabet tip 2 cu complicatii cronice,diabet zaharat complicat,diabet zaharat tip 2 cu complicatii vasculare,type 2 diabetes with complications,complicated type 2 diabetes,type 2 diabetes mellitus with complications
+Disgeneza gonadala,disgenezie gonadala,disgeneza gonadelor,agenezie gonadala,gonadal dysgenesis,dysgenetic gonads,gonadal agenesis
+Feocromocitom,tumora cromafina,tumora medulosuprarenala,feocromocitom suprarenal,pheochromocytoma,chromaffin tumor,adrenal medullary tumor
+Feocromocitom malign,feocromocitom metastatic,feocromocitom cu metastaze,cancer medulosuprarenal,malignant pheochromocytoma,metastatic pheochromocytoma,malignant chromaffin tumor
+Furtuna tiroidiana,criza tiroidiana,furtuna tireotoxica,criza tireotoxica,thyroid storm,thyrotoxic storm,thyroid crisis
+Galactozemie,galactozemie clasica,deficit de galactozo-1-fosfat uridiltransferaza,galactozemie prin deficit de GALT,galactosemia,galactosaemia,galactose-1-phosphate uridyltransferase deficiency
+Gastropareza diabetica,gastropareza la diabetic,pareza gastrica diabetica,neuropatie autonoma diabetica gastrica,diabetic gastroparesis,gastroparesis in diabetes,diabetic gastric paresis
+Glicogenoza tip I,boala von Gierke,deficit de glucozo-6-fosfataza,glicogenoza hepatorenala,glycogen storage disease type I,von Gierke disease,glucose-6-phosphatase deficiency
+Glicogenoza tip II,boala Pompe,deficit de alfa-glucosidaza acida,glicogenoza generalizata,glycogen storage disease type II,Pompe disease,acid alpha-glucosidase deficiency
+Glicogenoza tip III,boala Cori,boala Forbes,deficit de enzima de deramificare,glycogen storage disease type III,Cori disease,debranching enzyme deficiency
+Glicogenoza tip IV,boala Andersen,deficit de enzima de ramificare,amilopectinoza,glycogen storage disease type IV,Andersen disease,branching enzyme deficiency
+Glicogenoza tip V,boala McArdle,deficit de miofosforilaza,glicogenoza musculara,glycogen storage disease type V,McArdle disease,muscle phosphorylase deficiency
+Glicogenoza tip VI,boala Hers,deficit de fosforilaza hepatica,glicogenoza prin deficit de fosforilaza,glycogen storage disease type VI,Hers disease,liver phosphorylase deficiency
+Glicogenoza tip VII,boala Tarui,deficit de fosfofructokinaza musculara,glicogenoza prin deficit de fosfofructokinaza,glycogen storage disease type VII,Tarui disease,muscle phosphofructokinase deficiency
+Glicozurie renala,glicozurie normoglicemica,glicozurie familiala,diabet renal,renal glycosuria,renal glucosuria,familial renal glycosuria
+Gonadotropinom,adenom hipofizar secretant de gonadotropine,adenom hipofizar gonadotrof,adenom hipofizar cu FSH si LH,gonadotropinoma,gonadotroph adenoma,FSH-secreting pituitary adenoma
+Gusa cu nodul unic netoxic,nodul tiroidian unic netoxic,gusa unonodulara netoxica,nodul tiroidian solitar netoxic,nontoxic single thyroid nodule,solitary nontoxic thyroid nodule,single thyroid nodule
+Gusa difuza netoxica,gusa difuza simpla,gusa difuza adolescentina,gusa coloida difuza,nontoxic diffuse goiter,diffuse goiter,simple goiter
+Gusa endemica,gusa prin deficit de iod,gusa endemica de carenta iodica,tulburare tiroidiana prin deficit de iod,endemic goiter,iodine deficiency goiter,iodine-deficiency-related goiter
+Gusa multinodulara netoxica,gusa multinodulara,gusa polinodulara netoxica,boala plurinodulara tiroidiana,nontoxic multinodular goiter,multinodular goiter,multinodular goitre
+Gusa multinodulara toxica,boala Plummer,gusa toxica nodulara,hipertiroidism prin gusa multinodulara,toxic multinodular goiter,plummer disease,toxic nodular goiter
+Gusa nodulara,gusa cu noduli,gusa netoxica nodulara,boala nodulara tiroidiana,nodular goiter,nodular goitre,nontoxic nodular goiter
+Hemocromatoza,hemocromatoza ereditara,diabet bronzat,hemocromatoza idiopatica,hemochromatosis,hereditary hemochromatosis,bronze diabetes
+Hemocromatoza secundara,hemosideroza transfuzionala,supraincarcare de fier posttransfuzionala,hemocromatoza transfuzionala,secondary hemochromatosis,transfusional iron overload,transfusional hemosiderosis
+Hemoragie suprarenala,hemoragie in glanda suprarenala,hematom suprarenal,infarct hemoragic suprarenal,adrenal hemorrhage,adrenal haemorrhage,hemorrhagic adrenal infarction
+Hemosideroza,depuneri de hemosiderina,hemosideroza tesutala,hemosideroza sistemica,hemosiderosis,haemosiderosis,tissue iron deposition
+Hemosideroza pulmonara,hemoragie pulmonara recidivanta,sindrom Ceelen,hemosideroza pulmonara idiopatica,pulmonary hemosiderosis,idiopathic pulmonary hemosiderosis,Ceelen syndrome
+Hiperaldosteronism idiopatic,hiperplazie suprarenala bilaterala,aldosteronism idiopatic,hiperaldosteronism prin hiperplazie bilaterala,idiopathic hyperaldosteronism,bilateral adrenal hyperplasia,idiopathic aldosteronism
+Hiperaldosteronism primar,sindrom Conn,aldosteronism primar,hiperaldosteronism cu renina scazuta,primary hyperaldosteronism,conn syndrome,primary aldosteronism
+Hiperaldosteronism remediabil cu glucocorticoizi,hiperaldosteronism familial tip I,aldosteronism remediabil cu dexametazona,hiperaldosteronism sensibil la dexametazona,glucocorticoid-remediable aldosteronism,familial hyperaldosteronism type I,dexamethasone-suppressible hyperaldosteronism
+Hiperaldosteronism secundar,aldosteronism secundar,hiperaldosteronism reactiv,hiperaldosteronism cu renina crescuta,secondary hyperaldosteronism,secondary aldosteronism,reactive hyperaldosteronism
+Hiperamoniemie,amoniac crescut in sange,hiperamoniemie neonatala,hiperamoniemie cronica,hyperammonemia,high blood ammonia,neonatal hyperammonemia
+Hiperandrogenism,exces de androgene,hiperandrogenie,hiperandrogenism ovarian,hyperandrogenism,androgen excess,hyperandrogenemia
+Hipercalcemia maligna,hipercalcemie asociata cancerului,sindrom hipercalcemic malign,hipercalcemie paraneoplazica,malignant hypercalcemia,hypercalcemia of malignancy,cancer-associated hypercalcemia
+Hipercalcemie,calciu crescut in sange,exces de calciu in sange,hipercalcemie cronica,hypercalcemia,high blood calcium,elevated serum calcium
+Hipercalcemie hipocalciurica familiala,hipercalcemie familiala benigna,hipocalciurie hipercalcemica familiala,sindrom de hipercalcemie hipocalciurica,familial hypocalciuric hypercalcemia,familial benign hypercalcemia,FHH
+Hipercalcemie sarcoidozica,hipercalcemie in sarcoidoza,tulburare de metabolism al calciului in sarcoidoza,hipercalcemie sarcoidozica cu hipercalciurie,sarcoid hypercalcemia,sarcoidosis-associated hypercalcemia,hypercalcemia in sarcoidosis
+Hipercalciurie,calciurie crescuta,exces de calciu in urina,hipercalciurie idiopatica,hypercalciuria,high urine calcium,idiopathic hypercalciuria
+Hipercarotenemie,carotenemie,hipercarotenodermie,carotinemie,carotenemia,hypercarotenemia,carotinemia
+Hipercloremie,clor crescut in sange,hipercloremie metabolica,exces de clor in sange,hyperchloremia,high blood chloride,elevated serum chloride
+Hipercolesterolemie familiala,hipercolesterolemie ereditara,deficit de receptori LDL,hipercolesterolemie familiala heterozigota,familial hypercholesterolemia,hereditary hypercholesterolemia,LDL receptor deficiency
+Hiperestrogenism,exces de estrogeni,hiperestrogenie,exces estrogenic,hyperestrogenism,estrogen excess,hyperestrogenemia
+Hiperfosfatemie,fosfor crescut in sange,fosfatemie crescuta,hiperfosfatemie cronica,hyperphosphatemia,high blood phosphate,elevated serum phosphate
+Hiperinsulinism,hipersecretie de insulina,hiperinsulinemie,exces de insulina,hyperinsulinism,insulin excess,hyperinsulinemia
+Hiperlipoproteinemie,crestere a lipoproteinelor,tulburare de metabolism al lipoproteinelor,hiperlipoproteinemii,hyperlipoproteinemia,lipoprotein metabolism disorder,raised lipoproteins
+Hiperlipoproteinemie tip I,hiperchilomicronemie familiala,sindrom de chilomicronemie,hiperchilomicronemie severa,type I hyperlipoproteinemia,familial chylomicronemia,hyperchylomicronemia
+Hiperlipoproteinemie tip IIa,hipercolesterolemie esentiala,hiperlipidemie tip IIa,hipercolesterolemie poligenica,type IIa hyperlipoproteinemia,essential hypercholesterolemia,polygenic hypercholesterolemia
+Hiperlipoproteinemie tip IIb,hiperlipidemie combinata,hiperlipidemie mixta,hiperlipidemie familiala combinata,type IIb hyperlipoproteinemia,combined hyperlipidemia,familial combined hyperlipidemia
+Hiperlipoproteinemie tip III,disbetalipoproteinemie,boala resturilor lipoproteinice,hiperlipoproteinemie prin resturi,type III hyperlipoproteinemia,dysbetalipoproteinemia,remnant removal disease
+Hiperlipoproteinemie tip IV,hiperlipidemie endogena,hiperprebetalipoproteinemie,hiperlipoproteinemie prebetalipoproteinemica,type IV hyperlipoproteinemia,endogenous hypertriglyceridemia,carbohydrate-induced hyperlipidemia
+Hiperlipoproteinemie tip V,hiperchilomicronemie mixta,hiperlipemie mixta severa,hiperlipoproteinemie combinata severa,type V hyperlipoproteinemia,mixed hyperlipoproteinemia,hyperchylomicronemia with hyperprebetalipoproteinemia
+Hipermagnezemie,magneziu crescut in sange,hipermagneziemie,hipermagnezemie cronica,hypermagnesemia,high blood magnesium,elevated serum magnesium
+Hipermetioninemie,hipermetioninemie persistenta,deficit de metionin adenoziltransferaza,hipermetioninemie izolata,hypermethioninemia,persistent hypermethioninemia,MAT deficiency
+Hipernatremie,sodiu crescut in sange,natremie crescuta,hipernatremie cronica,hypernatremia,high blood sodium,elevated serum sodium
+Hiperoxalurie,hiperoxalurie primara,exces de oxalati in urina,hiperoxalurie enterica,hyperoxaluria,primary hyperoxaluria,enteric hyperoxaluria
+Hiperparatiroidism primar,hiperparatiroidism prin adenom,hiperparatiroidism primar sporadic,boala paratiroidiana primara,primary hyperparathyroidism,primary parathyroid hyperfunction,parathyroid adenoma hyperparathyroidism
+Hiperparatiroidism secundar,hiperparatiroidism reactiv,hiperparatiroidism din insuficienta renala,hiperparatiroidism secundar renal,secondary hyperparathyroidism,reactive hyperparathyroidism,renal secondary hyperparathyroidism
+Hiperparatiroidism tertiar,hiperparatiroidism post-transplant,hiperparatiroidism autonom dupa transplant,hiperparatiroidism tertiar posttransplant,tertiary hyperparathyroidism,post-transplant hyperparathyroidism,autonomous hyperparathyroidism after transplantation
+Hiperpituitarism,hipersecretie hipofizara,hiperfunctie hipofizara,hiperpituitarism hipofizar,hyperpituitarism,pituitary hypersecretion,overactive pituitary
+Hiperplazie suprarenala congenitala,hiperplazie adrenala congenitala,blocaj enzimatic suprarenal congenital,hiperplazie suprarenala congenitala clasica,congenital adrenal hyperplasia,congenital adrenogenital hyperplasia,CAH
+Hiperplazie timica,hiperplazie timusului,marirea timusului,hiperplazie timica adevarata,thymic hyperplasia,enlarged thymus,thymus hyperplasia
+Hiperpotasemie,potasiu crescut in sange,kaliemie crescuta,hiperkalemie,hyperkalemia,high blood potassium,elevated serum potassium
+Hiperprolactinemie,prolactina crescuta,exces de prolactina,hiperprolactinemie idiopatica,hyperprolactinemia,elevated prolactin,high prolactin levels
+Hipertermie maligna,hipertermie maligna anestezica,criza hipertermica maligna,reactie hipertermica la anestezice,malignant hyperthermia,malignant hyperthermia crisis,anesthesia-induced hyperthermia
+Hipertiroidism subclinic,hipertiroidism latent,tireotoxicoza subclinic,hipertiroidism compensat,subclinical hyperthyroidism,latent hyperthyroidism,subclinical thyrotoxicosis
+Hipervitaminoza A,hipervitaminoza A cronica,exces de vitamina A,intoxicatie cu vitamina A,hypervitaminosis A,vitamin A toxicity,vitamin A poisoning
+Hipervitaminoza B6,hipervitaminoza B6 cu neuropatie,exces de vitamina B6,intoxicatie cu piridoxina,hypervitaminosis B6,pyridoxine toxicity,vitamin B6 toxicity
+Hipervitaminoza D,hipervitaminoza D cu hipercalcemie,exces de vitamina D,intoxicatie cu vitamina D,hypervitaminosis D,vitamin D toxicity,vitamin D intoxication
+Hipoaldosteronism,deficit de aldosteron,insuficienta de aldosteron,hipoaldosteronism hiporeninemic,hypoaldosteronism,aldosterone deficiency,isolated hypoaldosteronism
+Hipoalfalipoproteinemie,deficit de HDL,lipsa alfalipoproteinelor,nivel scazut de HDL,hypoalphalipoproteinemia,HDL deficiency,familial hypoalphalipoproteinemia
+Hipobetalipoproteinemie,hipobetalipoproteinemie familiala,betalipoproteine scazute,deficit partial de apolipoproteina B,hypobetalipoproteinemia,familial hypobetalipoproteinemia,low beta-lipoproteins
+Hipocloremie,clor scazut in sange,hipocloremie metabolica,deficit de clor,hypochloremia,low blood chloride,low serum chloride
+Hipofosfatazie,deficit de fosfataza alcalina,boala Rathbun,hipofosfatazie infantila,hypophosphatasia,rathbun disease,alkaline phosphatase deficiency
+Hipofosfatemie,fosfor scazut in sange,fosfatemie scazuta,hipofosfatemie cronica,hypophosphatemia,low blood phosphate,low serum phosphate
+Hipofunctie testiculara postoperatorie,hipogonadism postorhidectomie,insuficienta testiculara chirurgicala,deficit de testosteron postchirurgical,postprocedural testicular hypofunction,postoperative testicular hypofunction,testicular hypofunction after orchiectomy
+Hipoglicemie hiperinsulinemica,hipoglicemie prin hiperinsulinism,hipoglicemie endogena hiperinsulinemica,hipoglicemie prin hiperplazie de celule insulare,hyperinsulinemic hypoglycemia,endogenous hyperinsulinemic hypoglycemia,hyperinsulinism hypoglycemia
+Hipoglicemie indusa de medicamente,hipoglicemie medicamentoasa,hipoglicemie prin sulfoniluree,hipoglicemie iatrogena,drug-induced hypoglycemia,medication-induced hypoglycemia,sulfonylurea-induced hypoglycemia
+Hipoglicemie neonatala,hipoglicemie la nou-nascut,hipoglicemie tranzitorie neonatala,hipoglicemie la sugar,neonatal hypoglycemia,hypoglycemia of the newborn,transient neonatal hypoglycemia
+Hipoglicemie reactiva,hipoglicemie postprandiala,hipoglicemie functionala,hipoglicemie alimentara,reactive hypoglycemia,postprandial hypoglycemia,functional hypoglycemia
+Hipogonadism feminin,hipogonadism la femeie,insuficienta ovariana hipogonada,hipofunctie ovariana,female hypogonadism,ovarian hypofunction,hypoestrogenism
+Hipogonadism hipergonadotropic,hipogonadism primar,hipogonadism periferic,hipogonadism gonadal,hypergonadotropic hypogonadism,primary hypogonadism,peripheral hypogonadism
+Hipogonadism hipogonadotropic,hipogonadism central,hipogonadism secundar,hipogonadism de origine hipofizara,hypogonadotropic hypogonadism,central hypogonadism,secondary hypogonadism
+Hipogonadism masculin,hipogonadism la barbat,insuficienta testiculara,hipofunctie testiculara,male hypogonadism,testicular hypofunction,testosterone deficiency
+Hipolipoproteinemie,deficit de lipoproteine,lipoproteine scazute,nivel scazut de lipoproteine,hypolipoproteinemia,lipoprotein deficiency,low lipoprotein levels
+Hiponatremie,sodiu scazut in sange,natremie scazuta,hiponatremie cronica,hyponatremia,low blood sodium,low serum sodium
+Hipoparatiroidism,insuficienta paratiroidiana,hipofunctie paratiroidiana,deficit de parathormon,hypoparathyroidism,parathyroid insufficiency,parathyroid hypofunction
+Hipoparatiroidism congenital,hipoparatiroidism din nastere,agenezie paratiroidiana,hipoplazie paratiroidiana congenitala,congenital hypoparathyroidism,parathyroid agenesis,congenital parathyroid hypoplasia
+Hipoparatiroidism postoperator,hipoparatiroidism postchirurgical,hipoparatiroidism dupa tiroidectomie,insuficienta paratiroidiana postoperatorie,postoperative hypoparathyroidism,post-thyroidectomy hypoparathyroidism,postprocedural hypoparathyroidism
+Hipopituitarism,insuficienta hipofizara,insuficienta hipofizei,hipofunctie hipofizara,hypopituitarism,pituitary insufficiency,pituitary hypofunction
+Hipopituitarism congenital,insuficienta hipofizara congenitala,hipoplazie hipofizara congenitala,hipopituitarism din nastere,congenital hypopituitarism,congenital pituitary insufficiency,pituitary aplasia
+Hipopituitarism idiopatic,insuficienta hipofizara idiopatica,hipopituitarism de etiologie necunoscuta,hipopituitarism primar,idiopathic hypopituitarism,hypopituitarism of unknown cause,adult-onset hypopituitarism
+Hipopituitarism postoperator,hipopituitarism dupa hipofizectomie,insuficienta hipofizara postchirurgicala,hipopituitarism dupa operatie,postoperative hypopituitarism,postprocedural hypopituitarism,postsurgical hypopituitarism
+Hipopituitarism postradioterapie,hipopituitarism dupa radioterapie,insuficienta hipofizara postiradiere,hipopituitarism indus de radiatii,post-irradiation hypopituitarism,radiation-induced hypopituitarism,radiation-induced pituitary insufficiency
+Hipoplazie de celule Leydig,hipoplazie a celulelor Leydig,insensibilitate la LH,disgenezie de celule Leydig,leydig cell hypoplasia,leydig cell aplasia,LH resistance
+Hipopotasemie,potasiu scazut in sange,kaliemie scazuta,hipokalemie,hypokalemia,low blood potassium,low serum potassium
+Hipotiroidism central,hipotiroidism secundar,hipotiroidism hipofizar,hipotiroidism de origine centrala,central hypothyroidism,secondary hypothyroidism,pituitary hypothyroidism
+Hipotiroidism congenital,hipotiroidism neonatal,hipotiroidism la nou-nascut,hipotiroidism congenital primar,congenital hypothyroidism,neonatal hypothyroidism,congenital thyroid deficiency
+Hipotiroidism congenital fara gusa,hipotiroidism congenital disgenetic,hipotiroidism congenital cu glanda in situ,hipotiroidism congenital neereditar,congenital hypothyroidism without goiter,thyroid dysgenesis,thyroid agenesis
+Hipotiroidism dupa tiroidectomie,hipotiroidism post-tiroidectomie,insuficienta tiroidiana postchirurgicala,hipotiroidism postoperator,post-thyroidectomy hypothyroidism,hypothyroidism after thyroidectomy,surgical hypothyroidism
+Hipotiroidism iatrogen,hipotiroidism indus de medicamente,hipotiroidism dupa iod radioactiv,hipotiroidism indus de amiodarona,iatrogenic hypothyroidism,drug-induced hypothyroidism,radioiodine-induced hypothyroidism
+Hipotiroidism prin deficit de iod,hipotiroidism de carenta iodica,hipotiroidism endemic,hipotiroidism prin carenta de iod,iodine deficiency hypothyroidism,endemic hypothyroidism,iodine-deficiency-related hypothyroidism
+Hipotiroidism subclinic,hipotiroidism compensat,hipotiroidism latent,hipotiroidism minor,subclinical hypothyroidism,compensated hypothyroidism,latent hypothyroidism
+Hipovolemie,scadere a volumului circulant,depletie de volum extracelular,hipovolemie absoluta,hypovolemia,volume depletion,decreased circulating volume
+Hirsutism,pilozitate excesiva la femeie,pilozitate de tip masculin la femeie,hirsutism idiopatic,excess terminal hair in women,male-pattern hair growth in women,androgen-dependent hair growth in women
+Homocistinurie,homocistinurie clasica,deficit de cistationin beta-sintaza,homocistinurie prin deficit de CBS,homocystinuria,cystathionine beta-synthase deficiency,CBS deficiency
+Insuficienta ovariana postoperatorie,insuficienta ovariana dupa ooforectomie,insuficienta ovariana chirurgicala,insuficienta ovariana iatrogena,postprocedural ovarian failure,postoperative ovarian failure,ovarian failure after oophorectomy
+Insuficienta ovariana prematura,menopauza precoce,insuficienta ovariana prematura idiopatica,insuficienta ovariana prematura cu cariotip normal,premature ovarian failure,premature ovarian insufficiency,premature menopause
+Insuficienta ovariana primara,insuficienta ovarica,hipofunctie ovariana primara,insuficienta gonadala feminina,primary ovarian insufficiency,primary ovarian failure,ovarian failure
+Insuficienta suprarenala acuta,criza addisoniana,criza suprarenala acuta,insuficienta acuta de corticosuprarenala,acute adrenal insufficiency,addisonian crisis,adrenal crisis
+Insuficienta suprarenala secundara,insuficienta suprarenala centrala,insuficienta suprarenala de origine hipofizara,insuficienta suprarenala prin deficit de ACTH,secondary adrenal insufficiency,secondary adrenocortical insufficiency,adrenal insufficiency due to ACTH deficiency
+Insuficienta suprarenala tertiara,insuficienta suprarenala dupa corticoterapie,supresie suprarenala indusa de corticosteroizi,insuficienta suprarenala prin oprire brusca de cortizon,tertiary adrenal insufficiency,adrenal insufficiency after corticosteroid therapy,steroid-induced adrenal suppression
+Insulinom,tumora insulino-secretanta,adenom de celule beta,tumora secretanta de insulina,insulinoma,insulin-secreting tumor,beta cell adenoma
+Intoleranta la glucoza,toleranta scazuta la glucoza,tulburare de toleranta la glucoza,hiperglicemie postprandiala,impaired glucose tolerance,glucose intolerance,reduced glucose tolerance
+Keratomalacie,cheratomalacie,necrobioza corneei prin carenta de vitamina A,cheratomalacie prin avitaminoza A,keratomalacia,corneal necrosis due to vitamin A deficiency,xerotic keratitis
+Kwashiorkor,kwashiorkor nutritional,malnutritie proteica,sindrom edematos de carenta proteica,protein malnutrition,edematous malnutrition,nutritional edema
+Kwashiorkor marasmic,kwashiorkor cu marasm,malnutritie proteino-energetica mixta,marasm cu edem,marasmic kwashiorkor,marasmic kwashiorkor malnutrition,combined protein-energy malnutrition
+Leucodistrofie metachromatica,boala Scholz,deficit de arilsulfataza A,leucodistrofie sulfatidica,metachromatic leukodystrophy,Scholz disease,arylsulfatase A deficiency
+Lipodistrofie congenitala generalizata,sindrom Berardinelli-Seip,lipoatrofie congenitala generalizata,boala Berardinelli,congenital generalized lipodystrophy,Berardinelli-Seip syndrome,congenital lipodystrophy
+Lipodistrofie partiala,lipoatrofie partiala,sindrom Barraquer-Simons,lipodistrofie partiala progresiva,partial lipodystrophy,Barraquer-Simons syndrome,partial lipoatrophy
+Lipodistrofie totala,lipodistrofie generalizata,lipoatrofie generalizata,lipodistrofie severa,total lipodystrophy,generalized lipodystrophy,generalized lipoatrophy
+Lipomatoza,lipomatoza difuza,lipomatoza simetrica,boala Launois-Bensaude,lipomatosis,diffuse lipomatosis,symmetric lipomatosis
+Malnutritie cronica,malnutritie de lunga durata,malnutritie cu stagnare ponderala,malnutritie cronica cu intarziere de crestere,chronic malnutrition,chronic undernutrition,stunting malnutrition
+Malnutritie proteino-energetica,malnutritie proteino-calorica,malnutritie de grad inalt,malnutritie mixta,protein-calorie malnutrition,protein-energy undernutrition,energy-protein malnutrition
+Malnutritie severa acuta,malnutritie acuta severa,malnutritie cu risc vital,malnutritie acuta complicata,severe acute malnutrition,acute severe malnutrition,wasting malnutrition
+Marasm,marasm nutritional,marasm infantil,malnutritie energetica severa,marasmus,severe energy malnutrition,nutritional marasmus
+Mixedem,mixedem primar,mixedem hipotiroidian,mixedem generalizat,myxedema,myxoedema,myxedema of hypothyroidism
+Mucolipidoza,mucolipidoze,boli prin depozite de mucolipide,mucolipidoza cu depozite lizozomale,mucolipidosis,mucolipid storage disease,mucolipidoses
+Nanism psihosocial,nanism prin privare afectiva,nanism de privare psihosociala,nanism emotional,psychosocial dwarfism,psychosocial short stature,deprivation dwarfism
+Nefrocalcinoza,calcificari renale,depuneri de calciu in rinichi,nefrocalcinoza medulara,nephrocalcinosis,renal calcinosis,kidney calcification
+Nefropatie diabetica,nefropatie diabetica incipienta,boala renala diabetica,glomeruloscleroza diabetica,diabetic nephropathy,diabetic kidney disease,diabetic glomerulosclerosis
+Nesidioblastoza,nesidioblastoza pancreatica,hiperplazie de celule insulare,hiperplazie nesidioblastica,nesidioblastosis,pancreatic nesidioblastosis,islet cell hyperplasia
+Obezitate abdominala,obezitate centrala,obezitate viscerala,obezitate androida,abdominal obesity,central obesity,visceral obesity
+Obezitate hipotalamica,obezitate de origine hipotalamica,obezitate hipotalamica cu hiperfagie,obezitate prin leziune hipotalamica,hypothalamic obesity,obesity of hypothalamic origin,hypothalamic hyperphagia
+Obezitate morbida,obezitate de gradul III,obezitate severa,obezitate patologica,morbid obesity,severe obesity,class III obesity
+Oftalmopatie tiroidiana,oftalmopatie Basedow,exoftalmie tiroidiana,boala oculara tiroidiana,thyroid eye disease,thyroid-associated ophthalmopathy,graves ophthalmopathy
+Orotacidurie,acidurie orotica,deficit de orotat fosforiboziltransferaza,orotacidurie ereditara,orotic aciduria,orotidylic aciduria,OPRT deficiency
+Osteodistrofie renala,boala osoasa renala,distrofie osoasa de origine renala,osteodistrofie renala cu hiperparatiroidism secundar,renal osteodystrophy,renal bone disease,chronic kidney disease mineral bone disorder
+Oxaloza,boala depunerilor de oxalati,oxaloza sistemica,depunere de oxalat de calciu in tesuturi,oxalosis,systemic oxalosis,oxalate storage disease
+Panhipopituitarism,insuficienta hipofizara totala,insuficienta plurihormonala hipofizara,hipopituitarism total,panhypopituitarism,total pituitary insufficiency,complete hypopituitarism
+Paragangliom,tumora paraganglionara,paragangliom secretant,paragangliom extraadrenal,paraganglioma,extra-adrenal pheochromocytoma,paraganglionic tumor
+Pelagra,boala celor trei D,pelagra alcoolica,pelagra endemica,pellagra,niacin deficiency disease,three Ds disease
+Persistenta ductului Muller,sindrom de persistenta a ductului Muller,sindrom de persistenta mulleriana,persistenta mulleriana,persistent Mullerian duct syndrome,Mullerian duct persistence syndrome,persistent mullerian ducts
+Picior diabetic,picior diabetic neuropatic,picior diabetic infectat,ulcer neuropatic diabetic,diabetic foot,diabetic foot syndrome,diabetic foot ulcer
+Porfirie cutanea tarzie,porfirie cutanea tardiva,deficit de uroporfirinogen decarboxilaza,porfirie cutanea simptomatica,porphyria cutanea tarda,PCT,uroporphyrinogen decarboxylase deficiency
+Porfirie eritropoietica,porfirie eritropoietica congenitala,boala Gunther,porfirie eritropoietica severa,erythropoietic porphyria,congenital erythropoietic porphyria,Gunther disease
+Porfirie intermitenta acuta,porfirie acuta intermitenta,deficit de porfobilinogen deaminaza,porfirie intermitenta acuta suedeza,acute intermittent porphyria,porphobilinogen deaminase deficiency,Swedish porphyria
+Porfirie prin deficit de ALAD,deficit de acid delta-aminolevulinic dehidrataza,porfirie Doss,porfirie prin deficit de sintaza a acidului aminolevulinic,ALA dehydratase deficiency porphyria,Doss porphyria,ALA-dehydratase porphyria
+Porfirie variegata,porfirie mixta,deficit de protoporfirinogen oxidaza,porfirie sud-africana,variegate porphyria,mixed porphyria,protoporphyrinogen oxidase deficiency
+Prediabet,stare prediabetica,hiperglicemie intermediara,prediabet cu intoleranta la glucoza,prediabetes,borderline diabetes,intermediate hyperglycemia
+Prolactinom,adenom hipofizar cu prolactina,adenom hipofizar secretant de prolactina,adenom lactotrof,prolactinoma,prolactin-secreting pituitary adenoma,lactotroph adenoma
+Protoporfirie eritropoietica,protoporfirie eritropoietica dependenta de X,deficit de ferrochelataza,protoporfirie eritropoietica autozomal dominanta,erythropoietic protoporphyria,ferrochelatase deficiency,EPP
+Pseudohypoparatiroidism,rezistenta la parathormon,boala Martin-Albright,osteodistrofie ereditara Albright,pseudohypoparathyroidism,parathyroid hormone resistance,albright hereditary osteodystrophy
+Pubertate intarziata,pubertate tardiva,intarziere de pubertate,pubertate intarziata constitutionala,delayed puberty,late puberty,pubertal delay
+Pubertate precoce,pubertate prematura,dezvoltare sexuala precoce,pubertate precoce adevarata,precocious puberty,premature puberty,early puberty
+Pubertate precoce centrala,pubertate precoce gonadotropina-dependenta,pubertate precoce adevarata centrala,pubertate precoce de origine centrala,central precocious puberty,gonadotropin-dependent precocious puberty,precocious puberty of central origin
+Pubertate precoce periferica,pubertate precoce gonadotropina-independenta,pubertate precoce periferica pseudopubertate,pseudopubertate precoce,peripheral precocious puberty,gonadotropin-independent precocious puberty,pseudoprecocious puberty
+Rahitism rezistent la vitamina D,rahitism hipofosfatemie,rahitism rezistent la tratament,rahitism prin pierdere renala de fosfati,vitamin D-resistant rickets,familial hypophosphatemic rickets,x-linked hypophosphatemia
+Scorbut,boala scorbutica,avitaminoza C,scorbut infantil,scurvy,vitamin C deficiency disease,scorbutus
+SIADH,sindrom de secretie inadecvata de ADH,secretie inadecvata de hormon antidiuretic,hiponatremie prin secretie inadecvata de ADH,syndrome of inappropriate antidiuretic hormone secretion,syndrome of inappropriate ADH secretion,Schwartz-Bartter syndrome
+Sialidoza,boala cu depozite de acid sialic,deficit de neuraminidaza,sialidoza tip I,sialidosis,neuraminidase deficiency,cherry-red spot myoclonus syndrome
+Sindrom adrenogenital,sindrom adreno-genital,virilism suprarenal,hiperandrogenism suprarenal,adrenogenital syndrome,adrenogenital disorder,adrenal virilism
+Sindrom carcinoid,sindromul carcinoid,boala carcinoida,tumora carcinoida cu secretie hormonala,carcinoid syndrome,functioning carcinoid syndrome,carcinoid disease
+Sindrom Cushing iatrogen,sindrom Cushing indus de medicamente,hipercortisolism iatrogen,sindrom Cushing prin corticoterapie,iatrogenic Cushing syndrome,drug-induced Cushing syndrome,steroid-induced Cushing syndrome
+Sindrom Cushing subclinic,hipercortisolism subclinic,sindrom Cushing subclinic la incidentalom,hipercortisolism subclinic la incidentalom suprarenal,subclinical Cushing syndrome,subclinical hypercortisolism,preclinical Cushing syndrome
+Sindrom de liza tumorala,liza tumorala,distrugere masiva de celule tumorale,sindrom de liza celulara tumorala,tumor lysis syndrome,tumour lysis syndrome,TLS
+Sindrom de rezistenta la androgeni,insensibilitate completa la androgeni,sindrom de feminizare testiculara,sindrom Morris,androgen insensitivity syndrome,complete androgen insensitivity syndrome,testicular feminization syndrome
+Sindrom de rezistenta la hormoni tiroidieni,rezistenta la hormoni tiroidieni,insensibilitate la hormoni tiroidieni,rezistenta hipofizara la hormoni tiroidieni,thyroid hormone resistance syndrome,resistance to thyroid hormone,thyroid hormone insensitivity
+Sindrom de rezistenta ovariana,sindromul ovarului rezistent,sindrom Savage,rezistenta ovariana la gonadotropine,resistant ovary syndrome,Savage syndrome,ovarian resistance to gonadotropins
+Sindrom ectopic ACTH,secretie ectopica de ACTH,sindrom paraneoplazic cu ACTH,hipersecretie ectopica de corticotropina,ectopic ACTH syndrome,ectopic ACTH secretion,paraneoplastic ACTH syndrome
+Sindrom glucagonomic,glucagonom,tumora secretanta de glucagon,hiperglucagonemie,glucagonoma,glucagonoma syndrome,glucagon-secreting tumor
+Sindrom Hartnup,boala Hartnup,tulburare de transport al aminoacizilor neutri,tulburare de absorbtie a aminoacizilor neutri,hartnup disease,Hartnup disorder,neutral aminoaciduria
+Sindrom Hunter,mucopolizaharidoza tip II,deficit de iduronat sulfataza,boala Hunter,Hunter syndrome,mucopolysaccharidosis type II,iduronate sulfatase deficiency
+Sindrom Hurler,mucopolizaharidoza tip I,gargolizm,boala Hurler,Hurler syndrome,mucopolysaccharidosis type I,gargoylism
+Sindrom Kallmann,sindrom olfactogenital,hipogonadism hipogonadotropic cu anosmie,sindrom de hipogonadism si anosmie,kallmann syndrome,olfactogenital syndrome,hypogonadotropic hypogonadism with anosmia
+Sindrom Klinefelter,sindromul Klinefelter,disgenezie tubulara seminifera,47 XXY,klinefelter syndrome,XXY syndrome,47 XXY karyotype
+Sindrom Laron,rezistenta la hormonul de crestere,deficit de IGF-1,nanism prin rezistenta la hormonul de crestere,Laron syndrome,growth hormone insensitivity,IGF-1 deficiency
+Sindrom Lawrence,lipodistrofie dobandita generalizata,lipoatrofie dobandita,lipodistrofie generalizata dobandita,Lawrence syndrome,acquired generalized lipodystrophy,acquired lipodystrophy
+Sindrom Lesch-Nyhan,deficit de HGPRT,hiperuricemie cu automutilare,deficit de hipoxantin-guanin fosforiboziltransferaza,Lesch-Nyhan syndrome,HGPRT deficiency,hypoxanthine-guanine phosphoribosyltransferase deficiency
+Sindrom Maroteaux-Lamy,mucopolizaharidoza tip VI,deficit de arilsulfataza B,boala Maroteaux-Lamy,Maroteaux-Lamy syndrome,mucopolysaccharidosis type VI,arylsulfatase B deficiency
+Sindrom Morquio,mucopolizaharidoza tip IV,boala Morquio-Brailsford,deficit de galactozamin sulfat sulfataza,Morquio syndrome,mucopolysaccharidosis type IV,Morquio-Brailsford disease
+Sindrom Nelson,adenom hipofizar dupa adrenalectomie,sindrom Nelson-Salassa,tumora hipofizara postadrenalectomie,nelson syndrome,nelson-salassa syndrome,post-adrenalectomy pituitary adenoma
+Sindrom pluriglandular autoimun tip 1,sindrom poliendocrin autoimun tip 1,hipoparatiroidism cu candidoza si insuficienta suprarenala,sindrom APECED,autoimmune polyglandular syndrome type 1,APECED,autoimmune polyendocrinopathy type 1
+Sindrom pluriglandular autoimun tip 2,sindrom Schmidt,sindrom poliendocrin autoimun tip 2,insuficienta suprarenala cu tiroidita autoimuna,autoimmune polyglandular syndrome type 2,Schmidt syndrome,polyglandular autoimmune syndrome
+Sindrom pseudo-Cushing,pseudo-Cushing,stare pseudo-Cushing,hipercortisolism neadenomatos,pseudo-Cushing syndrome,pseudo-Cushing state,non-neoplastic hypercortisolism
+Sindrom Sanfilippo,mucopolizaharidoza tip III,deficit de heparan sulfat sulfataza,boala Sanfilippo,Sanfilippo syndrome,mucopolysaccharidosis type III,heparan sulfatase deficiency
+Sindrom Sheehan,necroza hipofizara postpartum,hipopituitarism postpartum,insuficienta hipofizara dupa nastere,sheehan syndrome,postpartum pituitary necrosis,postpartum hypopituitarism
+Sindrom Sly,mucopolizaharidoza tip VII,deficit de beta-glucuronidaza,boala Sly,Sly syndrome,mucopolysaccharidosis type VII,beta-glucuronidase deficiency
+Sindrom Turner,sindromul Turner,monosomia X,sindrom Bonnevie-Ullrich,turner syndrome,monosomy X,ullrich-turner syndrome
+Sindrom Waterhouse-Friderichsen,apoplexie suprarenala,sindrom de hemoragie suprarenala acuta,insuficienta suprarenala acuta septica,waterhouse-friderichsen syndrome,adrenal apoplexy,septic adrenal crisis
+Sindrom Zellweger,sindrom cerebrohepatorenal,boala peroxizomala,displazie peroxizomala,Zellweger syndrome,cerebrohepatorenal syndrome,peroxisome biogenesis disorder
+Sindrom Zollinger-Ellison,gastrinom,tumora secretanta de gastrina,hipergastrinemie,Zollinger-Ellison syndrome,gastrinoma,gastrin-secreting tumor
+Sindromul sellei turcesti goale,sella turcica goala,sella turcica partial goala,sella turcica goala primara,empty sella syndrome,empty sella turcica,primary empty sella syndrome
+Sitosterolemie,fitosterolemie,hiperabsorbtie de steroli vegetali,boala depozitelor de fitosteroli,sitosterolemia,phytosterolemia,plant sterol storage disease
+Supraincarcare de fier,supraincarcare cu fier,exces de fier in organism,supraincarcare de fier transfuzionala,iron overload,iron overload disorder,excess body iron
+Telarha prematura,telarha izolata precoce,dezvoltare precoce izolata a sanilor,telarha prematura izolata,premature thelarche,isolated premature thelarche,early breast development
+Tetania hipocalcemica,tetanie prin hipocalcemie,spasmofilie hipocalcemica,criza de tetanie hipocalcemica,hypocalcemic tetany,tetany due to hypocalcemia,hypocalcaemic tetany
+Tireotoxicoza,stare tireotoxica,sindrom tireotoxic,toxicoza tiroidiana,thyrotoxic state,thyrotoxic syndrome,toxic thyroid state
+Tireotoxicoza factitia,tireotoxicoza prin administrare de hormoni tiroidieni,hipertiroidism indus de medicamente,tirotoxicoza factitia,thyrotoxicosis factitia,factitious thyrotoxicosis,medication-induced thyrotoxicosis
+Tiroidita acuta,tiroidita supurata,tiroidita bacteriana,tiroidita infectioasa,acute thyroiditis,suppurative thyroiditis,infectious thyroiditis
+Tiroidita limfocitara,tiroidita limfoasa,tiroidita cu infiltrat limfocitar,tiroidita limfocitara focala,lymphocytic thyroiditis,lymphoid thyroiditis,thyroiditis with lymphoid infiltration
+Tiroidita postpartum,tiroidita dupa nastere,tiroidita puerperala,tiroidita autoimuna postpartum,postpartum thyroiditis,postnatal thyroiditis,postpartum autoimmune thyroiditis
+Tiroidita Riedel,tiroidita fibroasa,tiroidita lemnoasa,tiroidita fibroasa invaziva,riedel thyroiditis,ligneous thyroiditis,fibrous thyroiditis
+Tiroidita silentioasa,tiroidita nedureroasa,tiroidita tranzitorie,tiroidita sporadica nedureroasa,silent thyroiditis,painless thyroiditis,painless sporadic thyroiditis
+Tiroidita subacuta,tiroidita De Quervain,tiroidita granulomatoasa,tiroidita gigantocelulara,subacute thyroiditis,de quervain thyroiditis,granulomatous thyroiditis
+Tirotropinom,adenom hipofizar secretant de TSH,adenom hipofizar tireotrop,adenom tireotrof,thyrotropinoma,TSH-secreting pituitary adenoma,thyrotroph adenoma
+Tirozinemie,tirozinemie congenitala,deficit de fumarylacetoacetat hidrolaza,tirozinemie hepatorenala,tyrosinemia,congenital tyrosinemia,fumarylacetoacetate hydrolase deficiency
+Tirozinemie tip II,sindrom Richner-Hanhart,deficit de tirosin aminotransferaza,tirozinemie oculocutanata,tyrosinemia type II,Richner-Hanhart syndrome,tyrosine aminotransferase deficiency
+Tulburare de ciclu al ureei,tulburari ale ciclului ureei,defect de detoxifiere a amoniacului,deficit de enzime ale ciclului ureei,urea cycle disorder,urea cycle defect,disorder of urea cycle
+Tulburare de oxidare a acizilor grasi,defect de beta-oxidare,defect de oxidare mitocondriala a acizilor grasi,defect de transport al acizilor grasi in mitocondrii,fatty acid oxidation disorder,fatty acid oxidation defect,beta-oxidation defect
+Vipom,sindrom Verner-Morrison,tumora secretanta de VIP,diaree apoasa hipokalemica prin VIP,vipoma,Verner-Morrison syndrome,vasoactive intestinal peptide tumor
+Virilizare,virilism feminin,masculinizare,dezvoltare de caractere masculine,virilization,virilism,masculinization
+Xantelasma,xantelasma palpebrala,placarde galbene pe pleoape,xantelasma pleoapelor,xanthelasma,xanthelasma palpebrarum,eyelid xanthoma
+Xantinurie,deficit de xantin oxidaza,litiaza de xantina,xantinurie familiala,xanthinuria,xanthine oxidase deficiency,xanthine stones
+Xantoame,xantom,depozite cutanate de colesterol,xantoame cutanate,xanthomas,xanthoma,cholesterol skin deposits
+Xantogranulom,xantogranulomatoza,granulom xantomatos,xantogranulom juvenil,xanthogranuloma,xanthogranulomatosis,xanthomatous granuloma
+Xantomatosis cerebrotendinoza,boala depozitelor de colestanol,xantomatosis cerebrotendinoasa,boala van Bogaert,cerebrotendinous xanthomatosis,cholestanol storage disease,van Bogaert disease

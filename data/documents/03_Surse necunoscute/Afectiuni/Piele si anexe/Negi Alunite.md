@@ -1,4 +1,0 @@
-# Negi
-:** se pot vindeca printr-o masare cu coaja de nuca pe locul respectiv timp de cateva zile sau se poate pune pe neg o bucatica mica de coaja verde de nuca \[cu partea zemoasa\] sub un plasture, pe timp de noapte. Se mai pot masa cu ulei de ricin de trei ori pe zi . Si alunitele se pot trata cu ulei de ricin masandu-le de trei ori pe zi dar tratamentul este de durata, nu va asteptati la ceva rapid.
-
-**O metoda ciudata care poate fi incercata :** dintr-un ghem de sfoara de canepa se ia un fir pe care se fac atatea noduri, cati negi aveti, spuneti in gand 1 neg si faceti un nod apoi 2 si faceti alt nod si in continuare pana faceti atatea noduri cati negi aveti. Apoi cu un cutit faci o groapa adanca de 4-5cm in pamant se pune sfoara si se acopera cu pamant. Ce se intampla nu se sti dar negii vor dispare dupa cateva zile, fara semn fara durere !!!!!!!!!!!!!! incercati
