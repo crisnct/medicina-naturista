@@ -977,11 +977,28 @@ def _section_heading(
     return Paragraph(text, style)
 
 
+# The lines printed after the bibliography: how many fragments and how many
+# characters of fragment text were sent to the AI, and the "Scor minim" chosen
+# next to "Generează rețeta" (0 = "Toate").
+def generation_summary_lines(evidence: dict[str, dict[str, Any]], min_score: float) -> list[str]:
+    def ro_number(value: int) -> str:
+        return f"{value:,}".replace(",", ".")
+
+    characters = sum(len(str(item.get("text", ""))) for item in evidence.values())
+    threshold = "Toate" if min_score <= 0 else f"≥ {min_score:g}%"
+    return [
+        f"Număr total de fragmente folosite: {ro_number(len(evidence))}",
+        f"Număr total de caractere trimise la AI: {ro_number(characters)}",
+        f"Scor minim selectat: {threshold}",
+    ]
+
+
 # Build the complete PDF report with sections, inline citations, and bibliography.
 def create_pdf(
     profile: dict[str, Any],
     sections: dict[str, list[dict[str, Any]]],
     evidence: dict[str, dict[str, str]],
+    min_score: float = 0,
 ) -> bytes:
     regular, bold = _register_fonts()
     styles = getSampleStyleSheet()
@@ -1197,6 +1214,11 @@ def create_pdf(
         "#52636D",
         bookmark="section-bibliografie",
         outline="6. Bibliografie",
+    ))
+    story.append(Spacer(1, 4 * mm))
+    story.append(Paragraph(
+        "<br/>".join(escape(line) for line in generation_summary_lines(evidence, min_score)),
+        styles["NaturalEmpty"],
     ))
     buffer = BytesIO()
     doc = NatureReportDocTemplate(

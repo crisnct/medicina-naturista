@@ -87,13 +87,14 @@ export function useConversation() {
   });
 
   const generateReport = useMutation({
-    mutationFn: (searchId: string) => api.generateReport(searchId),
-    onMutate: (searchId) => {
+    mutationFn: ({ searchId, minScore }: { searchId: string; minScore: number }) =>
+      api.generateReport(searchId, minScore),
+    onMutate: ({ searchId }) => {
       queryClient.setQueryData(SESSION_KEY, (old: { history: ChatMessage[] } | undefined) =>
         old ? { history: setBusy(old.history, searchId, true) } : old,
       );
     },
-    onSuccess: (result, searchId) => {
+    onSuccess: (result, { searchId }) => {
       if (result.ownerNotice) {
         setBanner(result.ownerNotice);
         queryClient.setQueryData(SESSION_KEY, (old: { history: ChatMessage[] } | undefined) =>
@@ -112,7 +113,7 @@ export function useConversation() {
         return { history: replaceGenerateMessage(old.history, searchId, result.messages) };
       });
     },
-    onError: (_error, searchId) => {
+    onError: (_error, { searchId }) => {
       setBanner("Rețeta nu a putut fi generată. Încercați din nou.");
       queryClient.setQueryData(SESSION_KEY, (old: { history: ChatMessage[] } | undefined) =>
         old ? { history: setBusy(old.history, searchId, false) } : old,
@@ -131,6 +132,6 @@ export function useConversation() {
     isSending: sendMessage.isPending,
     isSearching,
     isGenerating: generateReport.isPending,
-    generateReport: (searchId: string) => generateReport.mutate(searchId),
+    generateReport: (searchId: string, minScore: number) => generateReport.mutate({ searchId, minScore }),
   };
 }

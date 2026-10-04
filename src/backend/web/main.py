@@ -62,6 +62,7 @@ TAB_ID_RE = re.compile(r"^[A-Za-z0-9_-]{8,64}$")
 OWNER_COOKIE = "naturist_owner"
 OWNER_COOKIE_MAX_AGE = 10 * 365 * 24 * 3600
 OWNER_ONLY_MESSAGE = "Generarea rețetei este disponibilă doar pentru autorul acestui chatbot."
+NO_FRAGMENT_ABOVE_MIN_SCORE = "Niciun fragment nu atinge scorul minim selectat. Alegeți un prag mai mic."
 WELCOME = "Bună ziua! 👋"
 store = SessionStore(settings.temp_dir, settings.session_idle_seconds, settings.session_max_seconds)
 retriever = Retriever(settings.documents_dir)
@@ -417,6 +418,12 @@ class MessageRequest(BaseModel):
     signals: SignalsPayload = Field(default_factory=SignalsPayload)
 
 
+# The "Scor minim" chosen next to "Generează rețeta": only fragments whose
+# relevance_percent is at least this value are sent to the AI (0 = all).
+class GenerateRequest(BaseModel):
+    minScore: float = Field(default=0, ge=0, le=100)
+
+
 # Email the finished report to the address typed in chat and return the chat reply.
 def _send_report_email(session: SessionData, address: str) -> dict:
     latest = session.reports.get(session.report_id or "")
@@ -564,8 +571,22 @@ def post_search(request: Request):
         return {"messages": list(session.history[before:])}
 
 
-# Send the fragments the patient already reviewed to the AI, generate the PDF, and update the chat.
-def _generate_report(session: SessionData, search_id: str) -> list[dict]:
+# Keep only the fragments whose relevance_percent reaches min_score (inclusive);
+# a fragment without a percentage counts as 0. Returns a new dict, so the
+# pending search keeps all its fragments for a retry with another threshold.
+def _evidence_above(evidence: dict[str, dict], min_score: float) -> dict[str, dict]:
+    if min_score <= 0:
+        return dict(evidence)
+    return {
+        evidence_id: item
+        for evidence_id, item in evidence.items()
+        if (item.get("relevance_percent") or 0.0) >= min_score
+    }
+
+
+# Send the fragments the patient already reviewed (those reaching min_score) to
+# the AI, generate the PDF, and update the chat.
+def _generate_report(session: SessionData, search_id: str, min_score: float = 0) -> list[dict]:
     with session.lock:
         before = len(session.history)
         search = session.searches.get(search_id)
@@ -573,7 +594,19 @@ def _generate_report(session: SessionData, search_id: str) -> list[dict]:
             logger.info("report_skipped tab_id=%s reason=no_pending_evidence", session.tab_id)
             _append(session, _text("assistant", "Nu există fragmente pregătite. Descrieți din nou problema de sănătate."))
             return list(session.history[before:])
-        profile, evidence = search.profile, search.evidence
+        profile = search.profile
+        evidence = _evidence_above(search.evidence, min_score)
+        logger.info(
+            "report_min_score tab_id=%s min_score=%s evidence_total=%s evidence_kept=%s",
+            session.tab_id,
+            min_score,
+            len(search.evidence),
+            len(evidence),
+        )
+        if not evidence:
+            # The UI disables the button in this case; kept as a server-side guard.
+            _append(session, _text("assistant", NO_FRAGMENT_ABOVE_MIN_SCORE))
+            return list(session.history[before:])
         try:
             logger.info("report_stage_started stage=ai tab_id=%s evidence_entries=%s", session.tab_id, len(evidence))
             sections = ai.generate(profile, evidence)
@@ -583,7 +616,7 @@ def _generate_report(session: SessionData, search_id: str) -> list[dict]:
                 sum(len(items) for items in sections.values()),
             )
             logger.info("report_stage_started stage=pdf tab_id=%s", session.tab_id)
-            report = create_pdf(profile, sections, evidence)
+            report = create_pdf(profile, sections, evidence, min_score)
             logger.info("report_stage_completed stage=pdf tab_id=%s bytes=%s", session.tab_id, len(report))
             report_id = secrets.token_urlsafe(18)
             session.add_report(
@@ -608,12 +641,13 @@ def _generate_report(session: SessionData, search_id: str) -> list[dict]:
 
 @app.post("/api/searches/{search_id}/generate")
 # Reject non-owner visitors with a notice; otherwise generate the report for the clicked search.
-def generate(search_id: str, request: Request):
+def generate(search_id: str, request: Request, payload: GenerateRequest | None = None):
     session = _current(request)
     if not _is_owner(request.headers.get("cookie", "")):
         logger.info("report_skipped tab_id=%s reason=not_owner", session.tab_id)
         return {"messages": [], "ownerNotice": OWNER_ONLY_MESSAGE}
-    return {"messages": _generate_report(session, search_id), "ownerNotice": None}
+    min_score = payload.minScore if payload is not None else 0
+    return {"messages": _generate_report(session, search_id, min_score), "ownerNotice": None}
 
 
 @app.post("/api/session/end")

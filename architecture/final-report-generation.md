@@ -64,8 +64,8 @@ Aplicația este un server FastAPI (`web/main.py`) cu o interfață React (`front
 
 - **4.1.** În chat se adaugă mesajul `fragments`: „Am găsit N fragmente relevante în M documente locale”, cu lista fragmentelor ordonată după scor.
 - **4.2.** Pentru fiecare fragment: textul complet, `Scor relevanță: X%`, scorul semantic și lexical, `Afecțiune în titlu` / `Afecțiune în text`, `Găsire Lexicală` și calea documentului.
-- **4.3.** Panoul are filtre (scor minim, scor semantic, afecțiune, găsire lexicală, document) și un sumar cu numărul de fragmente, documente și caractere. Filtrele schimbă doar ce se vede, nu ce se trimite la AI.
-- **4.4.** Sub panou apare mesajul `generate`: „Trimite-le la AI pentru a le combina și generează apoi documentul cu recomandări” și butonul „💊 Generează rețeta”.
+- **4.3.** Panoul are filtre (scor minim, scor semantic, afecțiune, găsire lexicală, document) și un sumar cu numărul de fragmente, documente și caractere. Filtrele din acest panou schimbă doar ce se vede, nu ce se trimite la AI.
+- **4.4.** Sub panou apare mesajul `generate`: „Trimite-le la AI pentru a le combina și generează apoi documentul cu recomandări”, selectorul „Scor minim” (Toate, ≥ 25%, ≥ 50%, ≥ 75%, ≥ 90%; implicit Toate) și butonul „💊 Generează rețeta”. Selectorul este independent de filtrul cu același nume din panoul de fragmente și **decide ce fragmente se trimit la AI**: doar cele cu `relevance_percent` ≥ pragul ales (pragul este inclus). Dacă niciun fragment al căutării nu atinge pragul, butonul este dezactivat și apare „Niciun fragment nu atinge scorul minim selectat.”
 
 ### 5. Pornirea generării — `POST /api/searches/{search_id}/generate`
 
@@ -74,6 +74,7 @@ Aplicația este un server FastAPI (`web/main.py`) cu o interfață React (`front
 - **5.3.** Un vizitator care nu este owner primește notificarea „Generarea rețetei este disponibilă doar pentru autorul acestui chatbot.”, butonul revine la normal și nu se face niciun apel către AI. Cookie-ul owner (valabil 10 ani) se obține accesând `/owner?key=<OWNER_KEY>`.
 - **5.4.** Pentru owner, `_generate_report()` ia blocarea sesiunii și citește `PendingSearch`-ul căutării apăsate: profilul și fragmentele deja afișate, fără a recalcula căutarea.
 - **5.5.** Dacă acea căutare nu mai există (de exemplu, a ieșit din cele 12 păstrate): „Nu există fragmente pregătite. Descrieți din nou problema de sănătate.”
+- **5.6.** Corpul cererii poate conține `{"minScore": N}` (0–100, implicit 0; altă valoare → HTTP 422). `_evidence_above()` păstrează, într-o copie, doar fragmentele cu `relevance_percent` ≥ N (un fragment fără procent contează ca 0). `PendingSearch` rămâne neschimbat, deci generarea se poate relua cu alt prag. Dacă nu rămâne niciun fragment (protecție pe server, interfața dezactivează deja butonul): „Niciun fragment nu atinge scorul minim selectat. Alegeți un prag mai mic.”, fără apel AI, iar căutarea rămâne în așteptare.
 
 ### 6. Cererea către furnizorul AI — `ResponsesClient.generate()`
 
@@ -86,7 +87,7 @@ Aplicația este un server FastAPI (`web/main.py`) cu o interfață React (`front
   | `huggingface` | `HF_TOKEN` | `deepseek-ai/DeepSeek-V4-Flash:deepinfra` | promptul de sistem |
   | `ollama` | `OLLAMA_API_KEY` (nu e necesară pe un host local) | `deepseek-v4.1-flash:cloud` | promptul de sistem |
 
-- **6.2.** Dovezile sunt ordonate după `score`, descrescător, ca înregistrări `id`, `source`, `text`. **Toate** sunt trimise nemodificate; bugetul a fost deja aplicat la căutare.
+- **6.2.** Dovezile sunt ordonate după `score`, descrescător, ca înregistrări `id`, `source`, `text`. Sunt trimise nemodificate toate dovezile care au trecut de pragul „Scor minim” (pasul 5.6); bugetul a fost deja aplicat la căutare. Aceleași dovezi filtrate sunt folosite și pentru PDF și pentru bibliografia din chat.
 - **6.3.** Se înregistrează în log inventarul fragmentelor trimise (textul doar dacă `LOG_FRAGMENT_TEXT` este activ, tăiat la `LOG_FRAGMENT_TEXT_MAX_CHARS`).
 - **6.4.** Promptul utilizatorului conține profilul (JSON) și lista fragmentelor; promptul de sistem este `ai/prompts/generate_report_system.md`.
 - **6.5.** `complete_json()` trimite o singură cerere `POST {base_url}/responses` (Responses API), cu `max_output_tokens=AI_MAX_OUTPUT_TOKENS` (implicit 20000) și timeout de citire `AI_READ_TIMEOUT_SECONDS` (implicit 300 s; conectare 10 s). Cu `AI_STREAM=true` răspunsul este citit ca flux de evenimente, iar timeout-ul se aplică între evenimente.
@@ -103,7 +104,8 @@ Aplicația este un server FastAPI (`web/main.py`) cu o interfață React (`front
 - **7.5.** Cele cinci secțiuni colorate (`RoundedSection`); o secțiune goală afișează „Nu au fost identificate informații suficient de relevante în sursele disponibile.” Nutriția este grupată prin `nutrition_display_groups()`: rețetele sunt elemente separate, celelalte categorii sunt grupate.
 - **7.6.** Fiecare recomandare cu dovezi primește legătura „→ Surse N” către bibliografie.
 - **7.7.** Secțiunea „6. Bibliografie” grupează sursele pe fișier; fiecare intrare are legătura „← înapoi” către prima recomandare care o citează.
-- **7.8.** Documentul este construit în memorie cu ReportLab (A4, semne de carte, subsol „Remedii naturiste de la Dr. Cuișor” și numărul paginii) și întors ca octeți.
+- **7.8.** După bibliografie, `generation_summary_lines()` adaugă trei rânduri: „Număr total de fragmente folosite”, „Număr total de caractere trimise la AI” (suma caracterelor din textele fragmentelor trimise, fără promptul de sistem și profil) și „Scor minim selectat” („Toate” sau „≥ N%”), toate pentru fragmentele rămase după pragul de la pasul 5.6.
+- **7.9.** Documentul este construit în memorie cu ReportLab (A4, semne de carte, subsol „Remedii naturiste de la Dr. Cuișor” și numărul paginii) și întors ca octeți.
 
 ### 8. Rezultatul în chat și descărcarea
 

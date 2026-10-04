@@ -25,7 +25,13 @@ from backend.reporting import pdf as reports_module
 from backend.ai.client import GENERATE_REPORT_SYSTEM_PROMPT_PATH, XAIClient
 from backend.config import settings
 from backend.core.models import HEALTH_PROBLEM_QUESTION, HealthProfile
-from backend.reporting.pdf import SECTION_PRESENTATION, create_pdf, format_recommendation, report_title
+from backend.reporting.pdf import (
+    SECTION_PRESENTATION,
+    create_pdf,
+    format_recommendation,
+    generation_summary_lines,
+    report_title,
+)
 from backend.ai import conditions as conditions_module
 from backend.ai.conditions import ConditionDictionary, parse_conditions
 from backend.ai.retrieval import Retriever, _meaningful_words, consultation_query
@@ -1202,6 +1208,57 @@ class WebTests(unittest.TestCase):
 
         main.store.delete(sid, tab)
 
+    # Verify "Scor minim" next to "Generează rețeta": only fragments at or above
+    # the threshold reach the AI, nothing reaching it skips the AI and keeps the
+    # search, no body sends everything, and an out-of-range value is rejected.
+    def test_generate_sends_only_fragments_reaching_min_score(self):
+        sid, tab = "M" * 43, "tab-minscore01"
+
+        class TwoFragments(FakeRetriever):
+            def collect(self, session, max_chars=None):
+                return {
+                    "C1": {"source": "documents/a.md:1-5", "text": "Fragment slab.", "score": 1.0, "relevance_percent": 30.0},
+                    "C2": {"source": "documents/b.md:1-5", "text": "Fragment bun.", "score": 3.0, "relevance_percent": 50.0},
+                }
+
+        class RecordingAI(FakeAI):
+            sent = []
+
+            def generate(self, profile, evidence):
+                type(self).sent.append(sorted(evidence))
+                return super().generate(profile, evidence)
+
+        with patch.object(main, "ai", RecordingAI()), patch.object(main, "retriever", TwoFragments()):
+            self.client.get("/api/session", headers=_headers(sid, tab))
+
+            def new_search():
+                return _by_kind(_send(self.client, sid, tab, "Gripă", []), "generate")["searchId"]
+
+            def generate(search_id, body):
+                return self.client.post(
+                    f"/api/searches/{search_id}/generate", json=body, headers=_headers(sid, tab, owner=True)
+                )
+
+            # Nothing reaches 75%: no AI call, a notice, and the search stays pending.
+            search_id = new_search()
+            messages = generate(search_id, {"minScore": 75}).json()["messages"]
+            self.assertEqual(messages[-1]["content"], main.NO_FRAGMENT_ABOVE_MIN_SCORE)
+            self.assertEqual(RecordingAI.sent, [])
+            self.assertIn(search_id, main.store.get(sid, tab).searches)
+
+            # The threshold is inclusive: 50% keeps the 50.0 fragment only.
+            self.assertIsNotNone(_by_kind(generate(search_id, {"minScore": 50}).json()["messages"], "download"))
+            self.assertEqual(RecordingAI.sent[-1], ["C2"])
+
+            # No body (older clients) sends every fragment.
+            search_id = new_search()
+            self.client.post(f"/api/searches/{search_id}/generate", headers=_headers(sid, tab, owner=True))
+            self.assertEqual(RecordingAI.sent[-1], ["C1", "C2"])
+
+            self.assertEqual(generate(new_search(), {"minScore": 150}).status_code, 422)
+
+        main.store.delete(sid, tab)
+
     # Verify a Google API failure keeps the report available and tells the user in chat.
     def test_email_failure_keeps_report_available(self):
         sid, tab = "D" * 43, "tab-emailfail1"
@@ -1504,6 +1561,26 @@ class WebTests(unittest.TestCase):
         ]
         self.assertGreaterEqual(len(links), 2)
         self.assertTrue(all("/Dest" in link for link in links))
+
+    # Verify the PDF ends, after the bibliography, with the fragment count, the
+    # characters of fragment text sent to the AI and the chosen "Scor minim".
+    def test_pdf_ends_with_generation_summary_after_bibliography(self):
+        evidence = {
+            "C1": {"source": "documents/test.md:1-3", "text": "a" * 1200},
+            "C2": {"source": "documents/alt.md:4-8", "text": "b" * 34},
+        }
+        sections = {"uz_intern": [{"text": "Recomandare.", "evidence_ids": ["C1"]}]}
+        profile = {"health_problem": "tuse", "transcript": []}
+
+        text = " ".join(
+            " ".join(page.extract_text() for page in PdfReader(io.BytesIO(create_pdf(profile, sections, evidence, 50))).pages).split()
+        )
+
+        self.assertIn("Număr total de fragmente folosite: 2", text)
+        self.assertIn("Număr total de caractere trimise la AI: 1.234", text)
+        self.assertIn("Scor minim selectat: ≥ 50%", text)
+        self.assertLess(text.index("Bibliografie"), text.index("Număr total de fragmente folosite"))
+        self.assertEqual(generation_summary_lines(evidence, 0)[-1], "Scor minim selectat: Toate")
 
     # Verify the PDF uses clean numbered headers and outlined white section cards.
     def test_pdf_section_headers_use_colored_bands_without_symbols(self):
