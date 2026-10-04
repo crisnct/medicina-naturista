@@ -65,10 +65,10 @@ Fiecare fază e un commit (sau PR) separat; aplicația funcționează după fiec
 
 | Loc | Cum folosește fișierul sau schema | Ce devine |
 |---|---|---|
-| `src/medicina_naturista/ai/db.py` | `SCHEMA_SQL` + `ensure_schema()` creează tabelele la prima conexiune | Schema trece în migrările `0001`–`0004`; `SCHEMA_SQL` și `ensure_schema()` se șterg (faza 1) |
+| `src/backend/ai/db.py` | `SCHEMA_SQL` + `ensure_schema()` creează tabelele la prima conexiune | Schema trece în migrările `0001`–`0004`; `SCHEMA_SQL` și `ensure_schema()` se șterg (faza 1) |
 | `scripts/build_hybrid_index.py:299`, `tests/support/postgres.py:38`, `tests/unit/ai/test_build_hybrid_index.py:356` | apelează `ensure_schema()` | `alembic upgrade head` (faza 1) |
-| `src/medicina_naturista/config.py:52` | `conditions_file` (`CONDITIONS_FILE`) | Se șterge (faza 7) |
-| `src/medicina_naturista/ai/conditions.py` | `parse_conditions()`, cache pe `mtime`, `load_dictionary()` | Încărcare din DB, cache pe revizie (faza 4) |
+| `src/backend/config.py:52` | `conditions_file` (`CONDITIONS_FILE`) | Se șterge (faza 7) |
+| `src/backend/ai/conditions.py` | `parse_conditions()`, cache pe `mtime`, `load_dictionary()` | Încărcare din DB, cache pe revizie (faza 4) |
 | `ai/fragmenter.py`, `ai/search.py`, `web/main.py`, `reporting/pdf.py`, `scripts/fragment_report.py`, `scripts/evaluate_retrieval.py` | `load_dictionary()` / `resolve_query()` / `find_conditions()` | Neschimbat |
 | `scripts/audit_conditions.py`, `scripts/audit_near_dupes.py`, `scripts/conditions_work/*` | citesc / rescriu fișierul | Se șterg (rămân în istoria git) |
 | `tests/unit/ai/test_conditions.py` | `parse_conditions(SAMPLE)`; testele „shipped dictionary” citesc fișierul | Rescrise (fazele 3–4) |
@@ -86,7 +86,7 @@ Fiecare fază e un commit (sau PR) separat; aplicația funcționează după fiec
 - **D6. Unicitatea termenilor e garantată de DB.** Fiecare termen are cheia normalizată `term_key` cu `UNIQUE`; invariantul „niciun termen la două afecțiuni”, verificat azi de `test_shipped_dictionary_has_no_shared_terms`, devine constrângere. O migrare care l-ar încălca eșuează și se anulează integral (Postgres rulează DDL și DML tranzacțional).
 - **D7. Revizia dicționarului.** Un trigger crește `sync_metadata.conditions_revision` la orice scriere în tabelele dicționarului (deci și la fiecare migrare de date). `load_dictionary()` reconstruiește dicționarul doar când revizia s-a schimbat.
 - **D8. Sincronizarea reține revizia folosită** (`indexed_conditions_revision`). Când diferă de cea curentă, `GET /api/admin/index/status` raportează `conditions_stale: true`; re-fragmentarea rămâne o decizie explicită (`mode: "full"`).
-- **D9. Indexarea rulează în procesul web, pe un fir separat, ca job persistent** în `index_jobs`; un singur job o dată (`pg_try_advisory_lock`). Plan B, dacă memoria containerului (`mem_limit: 2g`) nu ajunge: subproces `python -m medicina_naturista.indexing`.
+- **D9. Indexarea rulează în procesul web, pe un fir separat, ca job persistent** în `index_jobs`; un singur job o dată (`pg_try_advisory_lock`). Plan B, dacă memoria containerului (`mem_limit: 2g`) nu ajunge: subproces `python -m backend.indexing`.
 - **D10. Endpoint-urile de admin cer `ADMIN_API_KEY`** (`Authorization: Bearer …`, `hmac.compare_digest`); fără cheie configurată răspund `404`. Nu există API de scriere pentru dicționar — scrierile trec doar prin migrări (D2).
 
 ### Faza 0 — Linia de bază
@@ -286,7 +286,7 @@ Interfața publică rămâne: `Condition`, `ConditionDictionary`, `load_dictiona
 
 ### Faza 5 — Indexarea ca modul al aplicației
 
-Logica din `scripts/build_hybrid_index.py` se mută în `src/medicina_naturista/indexing/sync.py`, fără schimbări de algoritm (imaginea Docker nu conține `scripts/`).
+Logica din `scripts/build_hybrid_index.py` se mută în `src/backend/indexing/sync.py`, fără schimbări de algoritm (imaginea Docker nu conține `scripts/`).
 
 - **5.1.** `build()` devine `sync_index(source, model_name, batch_size, *, mode, progress=None) -> dict`, care returnează rezumatul; `mode="full"` golește harta `existing`, ca la schimbarea `TEXT_REPR_VERSION`.
 - **5.2.** `print(...)` de progres → apeluri `progress(event)` cu date structurate; `embed_chunks()` primește callback-ul.
