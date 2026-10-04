@@ -39,7 +39,7 @@ Aplicația este un server FastAPI (`web/main.py`) cu o interfață React (`front
 - **1.3.** Sesiunea stă doar în memoria procesului (`SessionData`): istoricul chatului, profilul (`HealthProfile`), căutările în așteptare și rapoartele generate. Nicio informație medicală nu se scrie în baza de date.
 - **1.4.** Pentru o sesiune nouă, istoricul începe cu „Bună ziua! 👋” și întrebarea despre problema de sănătate.
 - **1.5.** Istoricul păstrează ultimele 60 de mesaje. Fiecare mesaj are un tip (`kind`): `text`, `fragments`, `generate` sau `download`; frontend-ul afișează fiecare tip cu componenta lui.
-- **1.6.** `GET /api/categories` întoarce arborele categoriilor (folderele din `data/documents`) pentru panoul „Setează sursele”; implicit sunt bifate toate.
+- **1.6.** `GET /api/categories` întoarce arborele categoriilor (folderele din `data/documents`) pentru panoul „Căutare avansată”; implicit sunt bifate toate.
 
 ### 2. Mesajul pacientului — `POST /api/messages`
 

@@ -3,7 +3,7 @@
 ## 1. Context și starea actuală
 
 Modelul de embedding influențează **doar semnalul V** din scorul de căutare
-`8·P1 + 4·P2 + 2·L + V` (`src/medicina_naturista/ai/search.py`). P1, P2 și L nu
+`8·P1 + 4·P2 + 2·L + V` (`src/backend/ai/search.py`). P1, P2 și L nu
 depind de model. Consecință practică: câștigul se va vedea în principal la
 întrebările **fără o afecțiune recunoscută** și la departajarea fragmentelor cu
 același P1/P2/L. Evaluarea trebuie deci raportată separat pe aceste grupe
@@ -165,7 +165,7 @@ măsurată să vină doar din model. Abia după aceea se testează ferestre mai 
   5. dependențele build-ului (importate de `scripts/build_hybrid_index.py`; fără ele
      scriptul pică la `import dotenv`):
      `pip install --no-cache-dir --only-binary=:all: numpy python-dotenv "psycopg[binary]" psycopg-pool pgvector`
-     și `pip install --no-deps -e .` pentru pachetul `medicina_naturista`
+     și `pip install --no-deps -e .` pentru pachetul `backend`
 - **Cache-ul modelului în `data/model_cache`**: build-ul setează
   `HF_HUB_CACHE` la `settings.model_cache_dir` înainte de a importa `torch`.
   Pe PC-ul dezvoltatorului, *Controlled folder access* (Windows Defender) blochează

@@ -24,8 +24,8 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 | 🧩 Componentă | Rol |
 |---|---|
 | **Index semantic** | Identifică fragmente apropiate ca sens cu vectori Qwen3-Embedding de 1024 de dimensiuni, stocați în Postgres (`pgvector`). |
-| **Index lexical** | Găsește termeni exacți prin `tsvector`/`ts_rank_cd` în Postgres. |
-| **Scor combinat** | Fiecare fragment primește un singur scor: `4·P1 + 2·P2 + L + V` (afecțiune în titlu › afecțiune în text › potrivire lexicală › potrivire semantică), calculat într-o singură interogare SQL. |
+| **Index lexical** | Găsește expresiile căutate, ca fraze exacte, prin `tsvector` în Postgres. |
+| **Scor combinat** | Fiecare fragment primește un singur scor, din semnalele pe care pacientul le bifează în „Căutare avansată” (afecțiuni, lexical, semantic). Cu toate trei: `4·P1 + 2·P2 + L + V` (afecțiune în titlu › afecțiune în text › potrivire lexicală › potrivire semantică), calculat într-o singură interogare SQL. |
 | **Fragmentare pe afecțiuni** | Împarte documentele în fragmente R1 (afecțiunea în titlul capitolului), R2 (afecțiunea în textul capitolului) și D1 (restul textului), folosind dicționarul `data/medical_conditions.txt`. |
 | **Retriever medical** | Ordonează fragmentele după scorul combinat și păstrează, întregi, cele care încap în bugetul de context al furnizorului AI. |
 | **Chat web** | Oferă sesiuni izolate pe tab și afișează recomandările structurate. |
@@ -41,7 +41,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
         ↓
 🧠 embeddings Qwen3  +  🔎 tsvector, în Postgres/pgvector
         ↓
-⚖️ scor combinat P1 › P2 › lexical › semantic și bugetul de context
+⚖️ scor combinat din semnalele alese (P1 › P2 › lexical › semantic) și bugetul de context
         ↓
 👁️ utilizatorul verifică fragmentele găsite
         ↓
@@ -60,7 +60,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 | **Interfață și API** | React 19, TypeScript, Vite, TanStack Query, FastAPI, Uvicorn |
 | **Embeddings locale** | FastEmbed, ONNX Runtime, `Qwen/Qwen3-Embedding-0.6B` (indexare opțională pe GPU, PyTorch fp16) |
 | **Stocare index** | PostgreSQL, `pgvector` (similaritate cosinus), `unaccent` + `tsvector` (căutare lexicală) |
-| **Scorul fragmentelor** | `4·P1 + 2·P2 + L + V`, cu prioritate pentru afecțiunea din titlu, apoi din text |
+| **Scorul fragmentelor** | `4·P1 + 2·P2 + L + V` cu toate semnalele, cu prioritate pentru afecțiunea din titlu, apoi din text; pacientul poate alege oricare combinație de semnale |
 | **Generare AI** | Responses API (xAI, DeepSeek, Hugging Face sau Ollama, după `AI_PROVIDER`), răspuns JSON structurat |
 | **Documente** | ReportLab pentru PDF, pypdf pentru procesare și verificare |
 | **E-mail** | Gmail API, OAuth2 cu refresh token |
@@ -74,7 +74,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 |---|---|
 | 🧠 [Fluxul de generare a indexului hibrid](architecture/hybrid-index-generation.md) | Fluxul complet: documente → sincronizare incrementală (SHA-256) → fragmente R1/R2/D1 → embeddings → Postgres (`pgvector` + `tsvector`). |
 | 📄 [Fluxul de generare a raportului final](architecture/final-report-generation.md) | Fluxul complet: mesaj → retrieval hibrid → fragmente afișate pacientului → „Generează rețeta” (owner) → furnizorul AI → PDF → download și trimitere pe e-mail către altă persoană. |
-| 🔎 [Căutarea și scoringul fragmentelor](architecture/fragment-search-and-scoring.md) | Fluxul complet: mesaj → afecțiuni recunoscute → scor `4·P1 + 2·P2 + L + V` pentru toate fragmentele → procent de relevanță → limitarea contextului. |
+| 🔎 [Căutarea și scoringul fragmentelor](architecture/fragment-search-and-scoring.md) | Fluxul complet: mesaj → afecțiuni recunoscute → scor (`4·P1 + 2·P2 + L + V` cu toate semnalele alese) pentru toate fragmentele → procent de relevanță → limitarea contextului. |
 
 ## 📁 Structura proiectului
 
@@ -85,25 +85,26 @@ medicina-naturista/
 │   ├── documents/                # corpusul Markdown local
 │   ├── medical_conditions.txt    # dicționarul de afecțiuni și sinonime
 │   └── model_cache/              # modelul ONNX local; ignorat de Git
-├── scripts/
-│   ├── build_hybrid_index.py     # sincronizarea incrementală a indexului în Postgres
-│   ├── search_index.ps1          # căutare locală din terminal
-│   ├── clean_documents.py/.ps1   # curățarea surselor Markdown înainte de indexare
-│   ├── fragment_report.py        # simularea fragmentării, fără bază de date
-│   ├── evaluate_retrieval.py     # măsurarea calității căutării (P@10, MRR, nDCG)
-│   ├── google_oauth_setup.py     # autorizare Gmail OAuth2
-│   ├── extract_pdf_text.py       # extragerea textului din PDF
-│   ├── extract_pdf_markdown.py   # extragerea structurată în Markdown
-│   ├── text_to_markdown.py       # conversia textului în Markdown
-│   └── merge_book_pdfs.py        # combinarea părților de carte PDF
-├── frontend/                     # aplicația React/TypeScript (Vite)
-├── src/medicina_naturista/
-│   ├── ai/                       # fragmentare, afecțiuni, căutare, retrieval, clienți AI și prompturi
-│   ├── core/                     # modele și sesiuni izolate
-│   ├── integrations/             # integrarea Gmail
-│   ├── reporting/                # generarea raportului PDF
-│   └── web/                      # API JSON FastAPI (servește și build-ul React)
-├── tests/                        # teste unitare și de integrare
+├── src/
+│   ├── backend/
+│   │   ├── ai/                       # fragmentare, afecțiuni, căutare, retrieval, clienți AI și prompturi
+│   │   ├── core/                     # modele și sesiuni izolate
+│   │   ├── integrations/             # integrarea Gmail
+│   │   ├── reporting/                # generarea raportului PDF
+│   │   └── web/                      # API JSON FastAPI (servește și build-ul React)
+│   ├── frontend/                 # aplicația React/TypeScript (Vite)
+│   ├── scripts/
+│   │   ├── build_hybrid_index.py     # sincronizarea incrementală a indexului în Postgres
+│   │   ├── search_index.ps1          # căutare locală din terminal
+│   │   ├── clean_documents.py/.ps1   # curățarea surselor Markdown înainte de indexare
+│   │   ├── fragment_report.py        # simularea fragmentării, fără bază de date
+│   │   ├── evaluate_retrieval.py     # măsurarea calității căutării (P@10, MRR, nDCG)
+│   │   ├── google_oauth_setup.py     # autorizare Gmail OAuth2
+│   │   ├── extract_pdf_text.py       # extragerea textului din PDF
+│   │   ├── extract_pdf_markdown.py   # extragerea structurată în Markdown
+│   │   ├── text_to_markdown.py       # conversia textului în Markdown
+│   │   └── merge_book_pdfs.py        # combinarea părților de carte PDF
+│   └── tests/                    # teste unitare și de integrare
 ├── docker-compose.yaml
 ├── Dockerfile
 └── pyproject.toml
@@ -122,18 +123,18 @@ py -3.11 -m venv .venv
 Plasați documentele sursă în `data/documents/`. Nu publicați corpusul dacă include materiale private sau protejate. Opțional, curățați-le înainte de indexare (metadate de extragere PDF, linkuri, marcaje de pagină, trimiteri „Vezi și”, diacritice românești transcrise în litere ASCII: `ă/â → a`, `î → i`, `ș → s`, `ț → t`):
 
 ```powershell
-.\scripts\clean_documents.ps1 -DryRun   # doar raportează
-.\scripts\clean_documents.ps1           # rescrie fișierele modificate
+.\src\scripts\clean_documents.ps1 -DryRun   # doar raportează
+.\src\scripts\clean_documents.ps1           # rescrie fișierele modificate
 ```
 
-Înlocuirea diacriticelor e activă implicit; `.\scripts\clean_documents.ps1 -KeepDiacritics` (sau `--no-fold-diacritics`) le păstrează.
+Înlocuirea diacriticelor e activă implicit; `.\src\scripts\clean_documents.ps1 -KeepDiacritics` (sau `--no-fold-diacritics`) le păstrează.
 
 Aveți nevoie de un Postgres cu extensia `pgvector` pornit și accesibil la `DATABASE_URL` (implicit `postgresql://medicina:medicina@127.0.0.1:5432/medicina`); cel mai simplu e `docker compose up -d db`.
 
 ### 2. Sincronizarea indexului
 
 ```powershell
-python scripts\build_hybrid_index.py
+python src\scripts\build_hybrid_index.py
 ```
 
 Baza vine din `DATABASE_URL` (`.env`); `--model` și `--source` sunt opționale. Scriptul pornește cu pythonul din care îl rulezi (pe CPU, fără alt mediu); pe GPU vezi mai jos.
@@ -142,7 +143,7 @@ Modelul de embedding este `Qwen/Qwen3-Embedding-0.6B` (vectori de 1024 de dimens
 
 ```powershell
 $env:EMBEDDING_DEVICE = 'cuda'
-.\.venv-gpu\Scripts\python scripts\build_hybrid_index.py
+.\.venv-gpu\Scripts\python src\scripts\build_hybrid_index.py
 ```
 
 Prima sincronizare descarcă modelul în `data/model_cache/` și poate dura câteva zeci de minute, apoi scrie fiecare document nou/modificat în Postgres. Următoarele rulări sar complet peste documentele al căror SHA-256 nu s-a schimbat — nu se re-generează embeddings pentru ele; documentele șterse din `data/documents/` sunt șterse și din index. Când se schimbă regulile de fragmentare (`TEXT_REPR_VERSION` din `build_hybrid_index.py`), următoarea sincronizare reindexează totul. Căutările folosesc modelul din cache și rulează offline. În timpul embedding-ului sunt afișate progresul, timpul scurs, viteza și ETA.
@@ -151,28 +152,28 @@ Pentru a vedea ce fragmente ar rezulta, fără bază de date și fără embeddin
 
 ```powershell
 $env:PYTHONPATH = "src"
-.\.venv\Scripts\python.exe scripts\fragment_report.py
+.\.venv\Scripts\python.exe src\scripts\fragment_report.py
 ```
 
 ### 3. Căutarea locală
 
 ```powershell
-.\scripts\search_index.ps1 "plante și măsuri pentru tuse"
+.\src\scripts\search_index.ps1 "plante și măsuri pentru tuse"
 ```
 
 Pentru rezultate ușor de procesat programatic:
 
 ```powershell
-.\scripts\search_index.ps1 "plante și măsuri pentru tuse" -Json
+.\src\scripts\search_index.ps1 "plante și măsuri pentru tuse" -Json
 ```
 
-Căutarea din terminal întoarce toate fragmentele cu scor pozitiv (fără limita de context a furnizorului AI). Fiecare rezultat păstrează documentul sursă, intervalul de linii și componentele scorului (`P1`, `P2`, `L`, `V`), astfel încât pasajul să poată fi verificat în fișierul original.
+Căutarea din terminal întoarce toate fragmentele cu scor pozitiv (fără limita de context a furnizorului AI). Fiecare rezultat păstrează documentul sursă, intervalul de linii și componentele scorului (`P1`, `P2`, `L`, `V`), astfel încât pasajul să poată fi verificat în fișierul original. `--signals` alege semnalele scorului (orice combinație de `A` afecțiuni, `B` lexical, `C` semantic; implicit `ABC`), de exemplu `python -m backend.ai.search "gripa" --signals AB`.
 
-Calitatea căutării se măsoară pe interogările etichetate din `tests/eval/retrieval_queries.json`:
+Calitatea căutării se măsoară pe interogările etichetate din `src/tests/eval/retrieval_queries.json`:
 
 ```powershell
 $env:PYTHONPATH = "src"
-.\.venv\Scripts\python.exe scripts\evaluate_retrieval.py --output after.json
+.\.venv\Scripts\python.exe src\scripts\evaluate_retrieval.py --output after.json
 ```
 
 ### 4. Pornirea aplicației în dezvoltare
@@ -186,10 +187,10 @@ OWNER_KEY=o-cheie-secreta-lunga
 COOKIE_SECURE=false
 ```
 
-Construiți interfața React (FastAPI servește `frontend/dist`):
+Construiți interfața React (FastAPI servește `src/frontend/dist`):
 
 ```powershell
-cd frontend
+cd src/frontend
 npm install
 npm run build
 cd ..
@@ -199,12 +200,12 @@ Apoi porniți aplicația:
 
 ```powershell
 $env:PYTHONPATH = "src"
-.\.venv\Scripts\python.exe -m uvicorn medicina_naturista.web.main:app --host 127.0.0.1 --port 7860
+.\.venv\Scripts\python.exe -m uvicorn backend.web.main:app --host 127.0.0.1 --port 7860
 ```
 
 Deschideți o dată `http://127.0.0.1:7860/owner?key=<OWNER_KEY>`, ca browserul să fie marcat ca owner, apoi `http://127.0.0.1:7860`. Endpointul de stare este `http://127.0.0.1:7860/healthz` (503 dacă lipsește cheia furnizorului AI).
 
-Pentru dezvoltarea interfeței cu reîncărcare automată, rulați `npm run dev` în `frontend/`: Vite servește interfața și trimite `/api`, `/healthz` și `/owner` către backend-ul de pe portul 7860.
+Pentru dezvoltarea interfeței cu reîncărcare automată, rulați `npm run dev` în `src/frontend/`: Vite servește interfața și trimite `/api`, `/healthz` și `/owner` către backend-ul de pe portul 7860.
 
 ## 📦 Schema indexului hibrid (Postgres)
 
@@ -218,7 +219,7 @@ Sincronizarea scrie în trei tabele:
 
 Un document al cărui SHA-256 nu s-a schimbat este complet ignorat la sincronizare; un document nou sau modificat își înlocuiește fragmentele într-o singură tranzacție.
 
-Fragmentarea (`src/medicina_naturista/ai/fragmenter.py`) folosește dicționarul `data/medical_conditions.txt` (o afecțiune pe linie: numele canonic, apoi sinonimele) și aplică pe rând:
+Fragmentarea (`src/backend/ai/fragmenter.py`) folosește dicționarul `data/medical_conditions.txt` (o afecțiune pe linie: numele canonic, apoi sinonimele) și aplică pe rând:
 
 | Categorie | Criteriu |
 |---|---|
@@ -228,13 +229,13 @@ Fragmentarea (`src/medicina_naturista/ai/fragmenter.py`) folosește dicționarul
 
 Afecțiunile se caută pe cuvinte întregi, fără diacritice și majuscule, cu toleranță la terminațiile românești (`gripa`/`gripei`). Numele fișierului și al folderelor nu se compară cu afecțiunile. Fragmentele R1 și R2 primesc `primary_medical_conditions` (afecțiunile din titlu) și `secondary_medical_conditions` (afecțiunile din text); D1 nu are afecțiuni. R1 și R2 nu au limită de lungime.
 
-La căutare, fiecare fragment primește scorul `4·P1 + 2·P2 + L + V` (maximum 8): P1 = afecțiunea căutată este în `primary_medical_conditions`, P2 = este în `secondary_medical_conditions`, L = potrivirea lexicală relativă, V = similaritatea semantică rescalată între mediana și maximul căutării. Scorul nu se stochează în DB; detaliile sunt în [fragment-search-and-scoring.md](architecture/fragment-search-and-scoring.md).
+La căutare, fiecare fragment primește scorul `4·P1 + 2·P2 + L + V` (maximum 8, cu toate semnalele bifate): P1 = afecțiunea căutată este în `primary_medical_conditions`, P2 = este în `secondary_medical_conditions`, L = fracțiunea de expresii (separate prin virgulă) regăsite în fragment, V = similaritatea semantică rescalată între mediana și maximul căutării. Pacientul poate debifa semnale în panoul „Setează sursele”, iar formula se adaptează (de exemplu `L + V` sau doar `2·P1 + P2`). Scorul nu se stochează în DB; detaliile sunt în [fragment-search-and-scoring.md](architecture/fragment-search-and-scoring.md).
 
 Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit în ferestre care se suprapun cu 240, iar vectorii lor se mediază (valorile, dimensiunea vectorilor și prefixele de text ale fiecărui model sunt în profilul lui din `ai/embedding_model.py`). Diacriticele sunt păstrate prin normalizare Unicode NFC.
 
 ## 🐳 Rulare cu Docker Compose
 
-Înainte de pornire, trebuie să existe `data/documents/`, `data/model_cache/` (cu modelul deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) pornește automat împreună cu restul stivei și este expus doar pe `127.0.0.1:5432`, astfel încât indexul se sincronizează de pe host cu `python scripts/build_hybrid_index.py`.
+Înainte de pornire, trebuie să existe `data/documents/`, `data/model_cache/` (cu modelul deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) pornește automat împreună cu restul stivei și este expus doar pe `127.0.0.1:5432`, astfel încât indexul se sincronizează de pe host cu `python src/scripts/build_hybrid_index.py`.
 
 ```powershell
 docker compose build
@@ -291,7 +292,6 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `MODEL_CACHE_DIR` | `data/model_cache` | Directorul cache-ului local al modelului ONNX. |
 | `EMBEDDING_THREADS` | `8` (cel mult numărul de nuclee) | Firele de execuție ale modelului de embedding (ONNX Runtime), la indexare și la căutare. Pe procesoare hibride P/E-core, mai puține fire sunt de obicei mai rapide decât toate nucleele. |
 | `EMBEDDING_DEVICE` | `cpu` | Dispozitivul modelului de embedding la **construirea** indexului: `cpu` (FastEmbed/ONNX) sau `cuda` (PyTorch fp16, doar din mediul GPU `.venv-gpu`; fără CUDA build-ul se oprește, nu trece pe CPU). Întrebările din aplicație rulează mereu pe CPU. |
-| `SEARCH_SEMANTIC_ONLY` | `false` | Experiment: `true` ordonează fragmentele doar după semnalul semantic V (ponderile P1, P2 și L devin 0). `false` păstrează formula `4·P1 + 2·P2 + L + V`. Util pentru a compara modelele de embedding fără influența condițiilor și a căutării lexicale. |
 | `SESSION_TEMP_DIR` | `var/sessions` (Windows) / `/tmp/naturist-sessions` | Directorul fișierelor temporare ale sesiunilor. |
 | `MAX_CHAT_CHARS` | `4000` | Lungimea maximă a mesajului utilizatorului. |
 | `X_AI_MAX_CONTEXT_CHARS` | `1000000` | Bugetul (în caractere de text al fragmentelor) pentru `AI_PROVIDER=xai`: fragmentele afișate și trimise către AI. Toate fragmentele primesc scor, se ordonează descrescător, iar cele de la coadă care nu încap sunt eliminate întregi, nu trunchiate. Nu există un prag de relevanță separat și nici o limită de candidați per semnal. |
@@ -306,7 +306,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `LOG_AI_RESPONSE_TEXT` | `false` | Include în loguri textul complet al răspunsului AI, fără limită. |
 | `APP_HOST_PORT` | `8760` (Docker Compose) | Portul de pe host la care Compose publică aplicația. |
 | `PUBLIC_ROOT_PATH` | gol (direct) / `/medicina` (Docker Compose) | Prefixul căii publice, necesar când aplicația este expusă prin Caddy sub `/medicina` (folosit și la build-ul frontend-ului, ca `PUBLIC_BASE_PATH`). |
-| `FRONTEND_DIST_DIR` | `frontend/dist` | Directorul cu build-ul React servit ca fișiere statice de FastAPI. |
+| `FRONTEND_DIST_DIR` | `src/frontend/dist` | Directorul cu build-ul React servit ca fișiere statice de FastAPI. |
 | `TRUST_PROXY` | `false` (direct) / `true` (Docker Compose) | Folosește primul IP din `X-Forwarded-For` pentru limitarea cererilor când traficul vine prin proxy de încredere. |
 
 Creșterea bugetului de context (`*_MAX_CONTEXT_CHARS`) mărește numărul de fragmente afișate, timpul de procesare și dimensiunea requestului trimis către furnizorul AI. În medii în care logurile nu au acces controlat, setați `LOG_FRAGMENT_TEXT=false`.
@@ -326,7 +326,7 @@ GOOGLE_REFRESH_TOKEN=...
 Autorizarea inițială se face o singură dată:
 
 ```powershell
-.\.venv\Scripts\python.exe scripts\google_oauth_setup.py
+.\.venv\Scripts\python.exe src\scripts\google_oauth_setup.py
 ```
 
 Este solicitat numai scope-ul `gmail.send`. Tokenul nu este afișat și nu trebuie publicat. Dacă integrarea nu este complet configurată, raportul rămâne disponibil în aplicație, iar livrarea e-mail este omisă.
@@ -357,7 +357,7 @@ $env:PYTHONPATH = "src"
 Testele interfeței:
 
 ```powershell
-cd frontend
+cd src/frontend
 npm test
 npm run typecheck
 ```

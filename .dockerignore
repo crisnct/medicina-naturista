@@ -11,5 +11,5 @@ data/documents
 data/model_cache
 tests
 var/output
-frontend/node_modules
-frontend/dist
+src/frontend/node_modules
+src/frontend/dist

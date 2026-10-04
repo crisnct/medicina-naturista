@@ -29,17 +29,17 @@ Fapte verificate în arborele curent:
 | Loc | Rol acum | Devine |
 |---|---|---|
 | `data/medical_conditions.txt` (985.313 B, 5468 linii) | 5468 afecțiuni, 39.792 termeni, 0 linii goale/comentate, max 23 termeni/afecțiune, nume canonice unice | șters (E5); sursa devine `conditions.jsonl` (D2, §5) |
-| `src/medicina_naturista/ai/conditions.py` | `parse_conditions()` (:70), `_normalize()` (:65), `_load()` cu `lru_cache` pe `mtime` (:227), `load_dictionary()` (:236), `find_conditions()` (:246), `resolve_query()` (:252) | citește din DB (§6); `_normalize()` se mută în `ai/normalization.py` |
-| `src/medicina_naturista/config.py:52` | `conditions_file` / `CONDITIONS_FILE` | se șterge (E5) |
+| `src/backend/ai/conditions.py` | `parse_conditions()` (:70), `_normalize()` (:65), `_load()` cu `lru_cache` pe `mtime` (:227), `load_dictionary()` (:236), `find_conditions()` (:246), `resolve_query()` (:252) | citește din DB (§6); `_normalize()` se mută în `ai/normalization.py` |
+| `src/backend/config.py:52` | `conditions_file` / `CONDITIONS_FILE` | se șterge (E5) |
 | Consumatori care nu se schimbă | `ai/fragmenter.py:218`, `ai/search.py:223`, `reporting/pdf.py:899`, `web/main.py:99`, `scripts/fragment_report.py:43`, `scripts/evaluate_retrieval.py:74` | aceleași semnături |
-| `scripts/build_hybrid_index.py` | `build()` (:294), `ensure_schema()` (:299), `TEXT_REPR_VERSION="4"` (:44), `embed_chunks()` cu `print()` (:167–231), progres pe scanare (:346), model încărcat la :411 | se mută în `src/medicina_naturista/indexing/` (E3) |
+| `scripts/build_hybrid_index.py` | `build()` (:294), `ensure_schema()` (:299), `TEXT_REPR_VERSION="4"` (:44), `embed_chunks()` cu `print()` (:167–231), progres pe scanare (:346), model încărcat la :411 | se mută în `src/backend/indexing/` (E3) |
 | `scripts/rebuild_index.ps1` | pornește scriptul Python local, scoate `HF_HUB_OFFLINE` ca să poată descărca modelul | client HTTP subțire (E4); rămâne și un CLI local pentru prima descărcare a modelului |
 | `Dockerfile:30` | `COPY data/medical_conditions.txt` | se șterge; `scripts/` **nu** e copiat în imagine, deci indexerul trebuie mutat în `src/` ca să poată rula în container (E3) |
-| `src/medicina_naturista/ai/db.py` | `SCHEMA_SQL` idempotent (`CREATE ... IF NOT EXISTS`) + `ensure_schema()` (:106), apelat de `get_pool()` (:118) | primește cele 3 tabele noi + `bootstrap_database()` (§4, §5) |
+| `src/backend/ai/db.py` | `SCHEMA_SQL` idempotent (`CREATE ... IF NOT EXISTS`) + `ensure_schema()` (:106), apelat de `get_pool()` (:118) | primește cele 3 tabele noi + `bootstrap_database()` (§4, §5) |
 | `docker-compose.yaml` | `app`: `read_only`, user `10001`, `mem_limit: 2g`, `HF_HUB_OFFLINE=1`, `data/documents` montat read-only, `data/model_cache` montat citire-scriere, `APP_HOST_PORT` (implicit 8760) → 7860 | + `INDEX_TOKEN`; documentat că modelul trebuie să fie deja în cache |
 | `Caddyfile` | doar `reverse_proxy app:7860`, fără reguli de cale | + blocarea `/api/index/*` pe site-ul public (E4) |
-| `src/medicina_naturista/ai/retrieval.py:32-46` | `Retriever` citește `document_count` și `category_tree` **o singură dată**, în `__init__` | + `Retriever.refresh()` apelat după un sync reușit (E4) |
-| `src/medicina_naturista/ai/search.py:235`, `web/main.py:148` | `cached_query_model()` (lru_cache) și `warm_up_search()` la pornire | reutilizate de indexer, ca să nu existe două copii ale modelului în proces (§7) |
+| `src/backend/ai/retrieval.py:32-46` | `Retriever` citește `document_count` și `category_tree` **o singură dată**, în `__init__` | + `Retriever.refresh()` apelat după un sync reușit (E4) |
+| `src/backend/ai/search.py:235`, `web/main.py:148` | `cached_query_model()` (lru_cache) și `warm_up_search()` la pornire | reutilizate de indexer, ca să nu existe două copii ale modelului în proces (§7) |
 | `tests/support/postgres.py:38,51` | `ensure_schema()` la start, `TRUNCATE chunks, documents, sync_metadata` între teste | `bootstrap_database()` + re-seed după truncate (§10) |
 | `tests/unit/ai/test_conditions.py:105-174` | `FileLoadingTests` (fișier lipsă, reîncărcare pe `mtime`) + 4 teste „shipped dictionary” care citesc fișierul | rescrise pe DB, respectiv pe resursa `conditions.jsonl` (§10) |
 | `README.md` (liniile 29, 86, 89-90, 132-144, 207-233, 285), `architecture/hybrid-index-generation.md` (16, 49-54, 120), `architecture/fragment-search-and-scoring.md` (13, 39, 126) | descriu fișierul, `CONDITIONS_FILE`, `ensure_schema()` și lansarea din PowerShell | actualizate (E5) |
@@ -50,12 +50,12 @@ Fapte verificate în arborele curent:
 ## 3. Decizii de arhitectură
 
 - **D1. Nu introduc Alembic în acest pas.** Deploymentul e o singură instanță (`--workers 1`), schema se creează deja idempotent în `SCHEMA_SQL`, iar schimbarea de aici e strict aditivă (3 tabele noi + 1 funcție/2 triggere). Versionarea schemei e o decizie separată, care se poate adăuga ulterior peste aceleași tabele. *Amăruntul care contează:* dacă mai târziu se adoptă o unealtă de migrare, tabelele din acest plan intră într-o migrare inițială marcată ca aplicată pe bazele existente.
-- **D2. Un singur artefact sursă al dicționarului, în pachet:** `src/medicina_naturista/ai/resources/conditions.jsonl`, în format JSON Lines, o linie per afecțiune: `{"name": "Abces", "terms": ["Abces", "buboi", ...]}`. Aplicația **nu îl citește niciodată la runtime**; îl folosește doar seeding-ul. Am ales JSONL în loc de CSV pentru că termenii conțin virgule și caractere care ar cere escaping, iar în loc de SQL pentru că un diff de o linie = o afecțiune schimbată, exact ca la fișierul de azi.
+- **D2. Un singur artefact sursă al dicționarului, în pachet:** `src/backend/ai/resources/conditions.jsonl`, în format JSON Lines, o linie per afecțiune: `{"name": "Abces", "terms": ["Abces", "buboi", ...]}`. Aplicația **nu îl citește niciodată la runtime**; îl folosește doar seeding-ul. Am ales JSONL în loc de CSV pentru că termenii conțin virgule și caractere care ar cere escaping, iar în loc de SQL pentru că un diff de o linie = o afecțiune schimbată, exact ca la fișierul de azi.
 - **D3. `name` (numele canonic) este cheia primară** a afecțiunilor, pentru că exact aceste șiruri sunt scrise în `chunks.primary_medical_conditions` / `secondary_medical_conditions`; nu e nevoie de un id surrogate. `sort_order` păstrează ordinea din fișier, pentru că ordinea dicționarului poate influența egalitățile din potrivirea fuzzy (`get_close_matches` / `_pick()`), iar A1/A2 cer rezultate identice bit cu bit.
 - **D4. `condition_terms.term_key` este cheie primară**, deci invariantul „un termen aparține unei singure afecțiuni” — azi doar testat (`test_shipped_dictionary_has_no_shared_terms`) — devine constrângere de bază de date: un seed care l-ar încălca eșuează și se anulează integral.
 - **D5. Seed idempotent, condus de hash.** `sha256(conditions.jsonl)` se păstrează în `sync_metadata['conditions_source_sha256']`; dacă hash-ul diferă (sau lipsește), dicționarul se rescrie complet într-o singură tranzacție. Restarturile nu produc scrieri, iar o bază nu poate rămâne în urmă față de resursa livrată.
 - **D6. Cache invalidat pe revizie.** Un trigger pe cele două tabele incrementează `sync_metadata['conditions_revision']`; `load_dictionary()` citește revizia (o căutare pe cheie primară) și reconstruiește obiectul Python doar când s-a schimbat. Fără cache pe `mtime`, fără TTL, fără reîncărcare la fiecare cerere.
-- **D7. Crearea fragmentelor = un job HTTP asincron.** `POST /api/index/sync` creează un rând în `index_runs` și pornește sincronizarea pe un **fir separat în procesul web**; progresul se scrie în rând (cel mult o dată la ~2 s), deci clientul îl citește prin polling. Un singur job activ e garantat de `pg_try_advisory_lock`. Fir, nu subproces, pentru că indexerul poate refolosi modelul de embedding deja încărcat de `warm_up_search()` — important sub `mem_limit: 2g`. *Plan B*, dacă măsurătorile arată că embedding-ul în proces afectează latența căutărilor: `python -m medicina_naturista.indexing` ca subproces, cu aceleași endpointuri și aceeași tabelă de stare.
+- **D7. Crearea fragmentelor = un job HTTP asincron.** `POST /api/index/sync` creează un rând în `index_runs` și pornește sincronizarea pe un **fir separat în procesul web**; progresul se scrie în rând (cel mult o dată la ~2 s), deci clientul îl citește prin polling. Un singur job activ e garantat de `pg_try_advisory_lock`. Fir, nu subproces, pentru că indexerul poate refolosi modelul de embedding deja încărcat de `warm_up_search()` — important sub `mem_limit: 2g`. *Plan B*, dacă măsurătorile arată că embedding-ul în proces afectează latența căutărilor: `python -m backend.indexing` ca subproces, cu aceleași endpointuri și aceeași tabelă de stare.
 - **D8. Endpointurile de indexare sunt de operare, nu de utilizator.** Token bearer `INDEX_TOKEN` comparat cu `hmac.compare_digest`; dacă variabila nu e configurată, răspund `503` cu mesaj explicit (fail-closed, dar diagnosticabil — nu `404` mut). În plus, `Caddyfile` răspunde `404` pe `/api/index/*` pentru domeniul public, deci calea de acces rămâne `127.0.0.1:${APP_HOST_PORT}`.
 - **D9. Nu există endpoint de scriere a dicționarului.** Dicționarul se schimbă prin resursă + redeploy/restart, adică printr-o modificare revizuită în git; endpointurile HTTP doar citesc și declanșează indexarea.
 - **D10. Polling, nu SSE/WebSocket.** Un sync durează minute-zeci de minute, clientul e un script de operare, iar un endpoint de status simplu e mai ușor de testat și de urmărit din orice unealtă.
@@ -128,7 +128,7 @@ Chei noi în `sync_metadata` (tabel existent, perechi cheie/valoare):
 
 ## 5. Seeding-ul dicționarului
 
-Fișier nou `src/medicina_naturista/ai/conditions_store.py`:
+Fișier nou `src/backend/ai/conditions_store.py`:
 
 ```python
 CONDITIONS_RESOURCE = Path(__file__).resolve().parent / "resources" / "conditions.jsonl"
@@ -173,13 +173,13 @@ Interfața publică rămâne neschimbată: `Condition`, `ConditionDictionary`, `
 
 ## 7. Indexerul devine modul al aplicației
 
-Mutare din `scripts/build_hybrid_index.py` în `src/medicina_naturista/indexing/` (obligatoriu: imaginea nu copiază `scripts/`):
+Mutare din `scripts/build_hybrid_index.py` în `src/backend/indexing/` (obligatoriu: imaginea nu copiază `scripts/`):
 
 ```text
-src/medicina_naturista/indexing/__init__.py
-src/medicina_naturista/indexing/pipeline.py   # sync_index(), embed_chunks(), _write_document(), TEXT_REPR_VERSION
-src/medicina_naturista/indexing/jobs.py       # pornire job, progres, recuperare după restart
-src/medicina_naturista/indexing/__main__.py   # CLI local (python -m medicina_naturista.indexing)
+src/backend/indexing/__init__.py
+src/backend/indexing/pipeline.py   # sync_index(), embed_chunks(), _write_document(), TEXT_REPR_VERSION
+src/backend/indexing/jobs.py       # pornire job, progres, recuperare după restart
+src/backend/indexing/__main__.py   # CLI local (python -m backend.indexing)
 ```
 
 - **E1.** `build(source, model_name, batch_size)` → `sync_index(source, *, model_name, batch_size, full=False, on_progress=None) -> dict`. `full=True` golește harta `existing` (aceeași cale pe care `TEXT_REPR_VERSION` schimbat o forțează azi) și reindexează tot.
@@ -194,14 +194,14 @@ src/medicina_naturista/indexing/__main__.py   # CLI local (python -m medicina_na
   `embed_chunks()` primește callback-ul; CLI-ul local pasează un callback care scrie exact liniile de consolă de azi, deci comportamentul din terminal nu se schimbă.
 - **E3.** Modelul de embedding: `sync_index()` primește modelul de la apelant, iar apelantul din web folosește `cached_query_model(...)` — aceeași instanță pe care `warm_up_search()` a încărcat-o deja. CLI-ul local păstrează `create_embedding_model()` (cu posibilitatea de descărcare), pentru prima populare a cache-ului.
 - **E4.** La începutul rulării se citește `conditions_revision` (instantaneu al dicționarului folosit), la final se scrie `indexed_conditions_revision` — baza pentru `conditions_stale`.
-- **E5.** `scripts/build_hybrid_index.py` rămâne o coajă de 5 linii care apelează `medicina_naturista.indexing.__main__`, ca să nu se rupă obiceiul local; `rebuild_index.ps1` devine client HTTP (E4, §8), cu păstrarea variantei CLI pentru prima descărcare a modelului.
+- **E5.** `scripts/build_hybrid_index.py` rămâne o coajă de 5 linii care apelează `backend.indexing.__main__`, ca să nu se rupă obiceiul local; `rebuild_index.ps1` devine client HTTP (E4, §8), cu păstrarea variantei CLI pentru prima descărcare a modelului.
 - **E6.** Testele existente din `tests/unit/ai/test_build_hybrid_index.py` își schimbă doar importurile; `builder.TEXT_REPR_VERSION` și restul numelor publice rămân.
 
 ---
 
 ## 8. API-ul de indexare
 
-Router nou `src/medicina_naturista/web/index_api.py`, montat în `web/main.py` (care nu are azi niciun router de admin).
+Router nou `src/backend/web/index_api.py`, montat în `web/main.py` (care nu are azi niciun router de admin).
 
 | Metodă | Rută | Corp | Răspuns |
 |---|---|---|---|
@@ -246,7 +246,7 @@ Router nou `src/medicina_naturista/web/index_api.py`, montat în `web/main.py` (
 | `tests/unit/ai/test_conditions_store.py` (nou, Postgres efemer) | seed din resursă; idempotență (al doilea apel nu scrie, revizia rămâne); `force=True` rescrie; `term_key` duplicat e respins de constrângere; revizia crește la scriere manuală și `load_dictionary()` o vede |
 | `tests/unit/ai/test_conditions.py` (rescris) | testele pure de potrivire rămân (construiesc `ConditionDictionary` direct); cele 4 teste „shipped dictionary” validează **resursa JSONL** (nume unice, termeni unici, linii complete) și, după bootstrap, conținutul tabelelor; `FileLoadingTests` (fișier lipsă / `mtime`) dispar |
 | `tests/unit/ai/test_conditions_equivalence.py` (nou, temporar) | dicționarul din DB == `tmp/conditions-baseline.json`; se șterge după ce etapa 2 e închisă |
-| `tests/unit/ai/test_build_hybrid_index.py` (adaptat) | importuri din `medicina_naturista.indexing`; `full=True` forțează reindexarea; `TEXT_REPR_VERSION` schimbat forțează reindexarea (test existent) |
+| `tests/unit/ai/test_build_hybrid_index.py` (adaptat) | importuri din `backend.indexing`; `full=True` forțează reindexarea; `TEXT_REPR_VERSION` schimbat forțează reindexarea (test existent) |
 | `tests/unit/web/test_index_api.py` (nou) | contractul API din §8/E8 |
 | `tests/support/postgres.py` (adaptat) | `bootstrap_database()` la start; `reset()` trunchiază și `conditions`, `condition_terms`, `index_runs`, apoi re-seed (`seed_conditions(force=True)`) ca testele următoare să aibă dicționar |
 | `scripts/evaluate_retrieval.py` (rulare manuală, nu test) | A2: aceleași rezultate de ranking înainte/după |
@@ -262,7 +262,7 @@ Fiecare etapă e un commit care lasă aplicația funcțională; E0 și E2 au por
 | **E0. Linie de bază** | dump dicționar → `tmp/conditions-baseline.json`; `scripts/fragment_report.py` → `tmp/fragments-baseline.json`; `scripts/evaluate_retrieval.py` → `tmp/eval-before.json`; suita de teste verde | fișierele există și suita trece |
 | **E1. Date în DB** | `ai/normalization.py`; `conditions.jsonl` + `scripts/export_conditions_jsonl.py`; tabelele + triggerul în `SCHEMA_SQL`; `ai/conditions_store.py`; `bootstrap_database()`; teste store | resursa round-trip-ează identic cu `.txt`; seed-ul e idempotent |
 | **E2. Citire din DB** | `ai/conditions.py` citește din DB, pe revizie; consumatorii nu se ating | **A1** (diff gol) și **A2** (fragmente identice) |
-| **E3. Indexer în pachet** | mutare în `medicina_naturista/indexing/`; progres pe callback; CLI local; teste adaptate | teste verzi; `python -m medicina_naturista.indexing` dă aceeași ieșire ca azi |
+| **E3. Indexer în pachet** | mutare în `backend/indexing/`; progres pe callback; CLI local; teste adaptate | teste verzi; `python -m backend.indexing` dă aceeași ieșire ca azi |
 | **E4. API** | `web/index_api.py`; `index_runs`; `Retriever.refresh()`; `INDEX_TOKEN`; `Caddyfile`; `rebuild_index.ps1` client | **A4, A5, A6**; un sync incremental după primul raportează `files_changed=0` |
 | **E5. Curățenie** | ștergerea fișierului și a uneltelor one-off; `config.py`; `Dockerfile`; README + cele două documente de arhitectură | **A3**; `docker compose up` pe o bază existentă pornește fără reindexare |
 | **E6.** *(opțional)* | `POST /api/index/documents` (un singur document); reutilizarea embedding-urilor (hash al intrării de embedding, ca un `full` după o schimbare de dicționar să nu re-embeduiască tot) | măsurători înainte de adoptare |
@@ -276,8 +276,8 @@ Fiecare etapă e un commit care lasă aplicația funcțională; E0 și E2 au por
 | Dicționarul din DB diferă de fișier → fragmente diferite, căutări schimbate | A1 (diff pe dump) și A2 (raport de fragmentare identic) sunt porți de etapă, nu verificări finale |
 | O bază rămâne cu un dicționar vechi după deploy | seed condus de hash la fiecare pornire (D5); `conditions_source_sha256` arată ce resursă a fost aplicată |
 | Normalizarea se schimbă și `term_key` devine inconsistent | `normalize_term()` într-un modul unic; orice schimbare a ei cere re-seed (se face singur, prin hash) și o verificare de coliziuni; test care fixează câteva `term_key` cunoscute |
-| Sync în procesul web consumă CPU/memorie și încetinește căutările | model reutilizat (`cached_query_model`), progres + heartbeat, `batch_size` reglabil; măsurare în timpul unui sync mare; plan B: subproces (`python -m medicina_naturista.indexing`) |
-| Modelul de embedding lipsește în container (rulează offline) | `data/model_cache` e bind mount, iar prima descărcare rămâne un pas pe host, prin CLI-ul local (`python -m medicina_naturista.indexing`); la lipsă, jobul eșuează cu mesaj clar, nu blochează aplicația |
+| Sync în procesul web consumă CPU/memorie și încetinește căutările | model reutilizat (`cached_query_model`), progres + heartbeat, `batch_size` reglabil; măsurare în timpul unui sync mare; plan B: subproces (`python -m backend.indexing`) |
+| Modelul de embedding lipsește în container (rulează offline) | `data/model_cache` e bind mount, iar prima descărcare rămâne un pas pe host, prin CLI-ul local (`python -m backend.indexing`); la lipsă, jobul eșuează cu mesaj clar, nu blochează aplicația |
 | Restart al containerului în timpul unui sync | scriere per document, tranzacțională → re-rulare incrementală; rândurile `running` se marchează `error` la pornire (E2 din §8) |
 | Endpoint accesibil public → reindexare declanșată de oricine | token fail-closed + `respond 404` în Caddy pe `/api/index/*` |
 | Fragmente cu afecțiuni vechi după o schimbare de dicționar | `conditions_stale` în `/api/index/status`; reindexare `full` explicită; E6 opțional o face ieftină |
@@ -307,7 +307,7 @@ curl -H "Authorization: Bearer $INDEX_TOKEN" http://127.0.0.1:8760/api/index/sta
 .\scripts\rebuild_index.ps1 -Full      # reindexare completă (după o schimbare de dicționar sau de reguli)
 ```
 
-Modificarea dicționarului: se editează `src/medicina_naturista/ai/resources/conditions.jsonl` (o linie = o afecțiune), se rulează testele, se face deploy. La pornire, seed-ul vede hash-ul nou, rescrie tabelele și crește revizia; `/api/index/status` raportează `conditions_stale: true` până la un sync (recomandat `full`, pentru că numele canonice scrise în fragmente se pot schimba).
+Modificarea dicționarului: se editează `src/backend/ai/resources/conditions.jsonl` (o linie = o afecțiune), se rulează testele, se face deploy. La pornire, seed-ul vede hash-ul nou, rescrie tabelele și crește revizia; `/api/index/status` raportează `conditions_stale: true` până la un sync (recomandat `full`, pentru că numele canonice scrise în fragmente se pot schimba).
 
 ---
 

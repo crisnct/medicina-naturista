@@ -26,7 +26,7 @@ dependencies = [
 dev = ["testcontainers[postgres]>=4,<5"]
 
 [project.scripts]
-medical-search = "medicina_naturista.ai.search:main"
+medical-search = "backend.ai.search:main"
 
 [tool.setuptools]
 package-dir = {"" = "src"}
@@ -36,7 +36,7 @@ include-package-data = true
 where = ["src"]
 
 [tool.setuptools.package-data]
-medicina_naturista = [
+backend = [
     "ai/prompts/*.md",
     "ai/resources/*.txt",
     "reporting/assets/*.png",
@@ -46,4 +46,4 @@ medicina_naturista = [
 
 [tool.pytest.ini_options]
 pythonpath = ["src"]
-testpaths = ["tests"]
+testpaths = ["src/tests"]

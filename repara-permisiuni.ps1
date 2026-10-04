@@ -58,7 +58,7 @@ Write-Host "Rulez elevat ca $user." -ForegroundColor Green
 
 # Eticheta de integritate joasa, cu mostenire pe containere si obiecte.
 # *S-1-16-4096 = Low Mandatory Level (SID bine-cunoscut, deci independent de limba).
-$targets = @('.', 'src', 'data', 'var', 'tmp', 'frontend')
+$targets = @('.', 'src', 'data', 'var', 'tmp', 'src/frontend')
 
 Write-Host ''
 Write-Host '--- Pasul 1/2: aplic eticheta de integritate "Low" (cu mostenire) ---' -ForegroundColor Cyan

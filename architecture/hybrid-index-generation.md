@@ -10,7 +10,7 @@ Documentul are două părți: **[Partea I — Rezumat](#partea-i--rezumat)** (ce
 
 ## Partea I — Rezumat
 
-1. **Pornire** — `python scripts/build_hybrid_index.py` procesează `data/documents` (loturi de 8 ferestre); baza de date vine din `DATABASE_URL`.
+1. **Pornire** — `python src/scripts/build_hybrid_index.py` procesează `data/documents` (loturi de 8 ferestre); baza de date vine din `DATABASE_URL`.
 2. **Pregătire** — creează tabelele dacă lipsesc (`documents`, `chunks`, `sync_metadata`) și citește ce documente sunt deja indexate. Dacă regulile de fragmentare s-au schimbat (`TEXT_REPR_VERSION`) sau modelul de embedding este altul, totul se reindexează.
 3. **Ce s-a schimbat** — un document cu același SHA-256 ca în bază este sărit complet; doar cele noi sau modificate merg mai departe.
 4. **Împărțirea în fragmente** (`fragment_document()`) — capitolul cu afecțiunea în titlu devine fragment **R1**, cel cu afecțiunea doar în text devine **R2**, iar restul se taie în bucăți **D1** de ~1800 de caractere. Afecțiunile vin din `data/medical_conditions.txt`. Fragmentele R1 și R2 primesc două liste de afecțiuni: `primary_medical_conditions` (cele din titlul fragmentului; la R2 mereu goală) și `secondary_medical_conditions` (cele din textul fragmentului, fără titlu). Fragmentele D1 nu au afecțiuni. Căutarea le folosește la scor (P1 și P2).
@@ -30,12 +30,12 @@ data/documents/*.md → SHA-256 neschimbat? → da: sărit
 
 ### 1. Pornirea procesului — `build_hybrid_index.py`
 
-- **1.1.** Se rulează direct: `python scripts/build_hybrid_index.py`, cu pythonul care are dependențele proiectului (`.venv` sau cel de sistem). Pentru embedding pe GPU (`EMBEDDING_DEVICE=cuda`) se folosește `.venv-gpu`, care are `torch`.
+- **1.1.** Se rulează direct: `python src/scripts/build_hybrid_index.py`, cu pythonul care are dependențele proiectului (`.venv` sau cel de sistem). Pentru embedding pe GPU (`EMBEDDING_DEVICE=cuda`) se folosește `.venv-gpu`, care are `torch`.
 - **1.2.** Argumente opționale: `--source` (implicit `data/documents`) și `--model` (implicit `Qwen/Qwen3-Embedding-0.6B`). Dimensiunea lotului nu mai e argument, ci constanta `BATCH_SIZE = 8`.
 - **1.3.** Nu modifică variabilele de mediu `HF_HUB_*`: dacă mediul tău are `HF_HUB_OFFLINE=1`, modelul trebuie să existe deja în `data/model_cache`.
 - **1.4.** Codul de ieșire este `0` când sincronizarea reușește; în caz de eroare scrie `ERROR: <tip>: <mesaj>` pe stderr și iese cu cod diferit de zero.
 
-Conexiunea Postgres vine din `.env` (`DATABASE_URL`), citită de `medicina_naturista.config.settings` — nu e un argument al scriptului.
+Conexiunea Postgres vine din `.env` (`DATABASE_URL`), citită de `backend.config.settings` — nu e un argument al scriptului.
 
 ### 2. Pregătirea — `build_hybrid_index.py`
 
@@ -62,7 +62,7 @@ Acesta este mecanismul de sincronizare incrementală: adăugarea sau modificarea
 - **4.1.** Citește conținutul brut al fișierului.
 - **4.2.** Încearcă succesiv decodificarea `UTF-8 BOM`, `UTF-8`, `UTF-16`, `CP1250` și `CP1252`; dacă toate eșuează, decodifică `UTF-8` cu caractere de înlocuire și adaugă un avertisment.
 - **4.3.** Recalculează SHA-256 din bytes-urile citite; dacă diferă de cel de la 3.2, oprește sincronizarea (fișierul s-a schimbat în timpul rulării).
-- **4.4.** Normalizează sfârșiturile de linie și elimină caracterele NUL. Sursele trebuie să fie deja curate (`scripts/clean_documents.py`); aici nu se mai elimină linkuri sau trimiteri.
+- **4.4.** Normalizează sfârșiturile de linie și elimină caracterele NUL. Sursele trebuie să fie deja curate (`src/scripts/clean_documents.py`); aici nu se mai elimină linkuri sau trimiteri.
 - **4.5.** Normalizează Unicode la NFC, păstrând diacriticele românești.
 - **4.6.** Creează metadatele `SourceFile`: cale relativă și absolută, dimensiune, data modificării (UTC), SHA-256, codificare, număr de linii, număr de caractere și categoria documentului.
 - **4.7.** Împarte documentul în fragmente cu `fragment_document()` (`ai/fragmenter.py`). Fiecare fragment primește o categorie de business (`business_category`: `R1`, `R2` sau `D1`) și, pentru R1 și R2, afecțiunile din dicționar despre care este vorba. Un capitol este un titlu Markdown (`#` … `######`); marcajele de pagină (`Pagina N`, `Pagina N din M`, `Page N`) nu sunt titluri. **Numele fișierului și folderele nu se compară cu afecțiunile**; nu există fragment „document întreg”. Pașii 4.9–4.12 se aplică în ordine.
@@ -118,4 +118,4 @@ Niciun cititor nu vede vreodată un document cu doar o parte din fragmentele lui
 
 ---
 
-Indexul este consumat la rulare de `src/medicina_naturista/ai/search.py` (`rank()`) și `ai/retrieval.py`; vezi [fluxul de generare a raportului final](final-report-generation.md) și [căutarea, unirea și scoringul fragmentelor](fragment-search-and-scoring.md).
+Indexul este consumat la rulare de `src/backend/ai/search.py` (`rank()`) și `ai/retrieval.py`; vezi [fluxul de generare a raportului final](final-report-generation.md) și [căutarea, unirea și scoringul fragmentelor](fragment-search-and-scoring.md).
