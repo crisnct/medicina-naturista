@@ -464,10 +464,24 @@ body {
 
 .generate-recipe-copy {
     display: flex;
-    align-items: center;
-    gap: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
     color: var(--nature-text);
     font-size: 11px;
+}
+
+.generate-recipe-warning {
+    color: #d64545;
+    font-weight: 700;
+}
+
+.generate-recipe-actions {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: flex-end;
+    gap: 12px;
+    margin-left: auto;
 }
 
 .generate-inline {
@@ -867,6 +881,12 @@ button.cat-toggle.cat-toggle-open svg {
     #message-row {
         align-items: stretch;
         flex-direction: column;
+    }
+
+    .generate-recipe-actions {
+        align-items: stretch;
+        flex-direction: column;
+        margin-left: 0;
     }
 
     .pdf-download,

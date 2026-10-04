@@ -78,8 +78,12 @@ export const api = {
   // sendMessage() call already stored on the session — only called when
   // that call's startSearch flag says so.
   search: () => request<MessagesResponse>("/api/search", { method: "POST" }),
-  generateReport: (searchId: string) =>
-    request<GenerateResponse>(`/api/searches/${encodeURIComponent(searchId)}/generate`, { method: "POST" }),
+  // minScore: only fragments whose relevance percent reaches it go to the AI (0 = all).
+  generateReport: (searchId: string, minScore: number) =>
+    request<GenerateResponse>(`/api/searches/${encodeURIComponent(searchId)}/generate`, {
+      method: "POST",
+      body: JSON.stringify({ minScore }),
+    }),
   endSession: () => request<MessagesResponse>("/api/session/end", { method: "POST" }),
   // keepalive fetch (not navigator.sendBeacon, which can't carry the X-Tab-Id
   // header) so the request has a chance to complete after the page unloads.

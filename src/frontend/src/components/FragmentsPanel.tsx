@@ -1,5 +1,6 @@
 import { useMemo, useState } from "react";
 import type { FragmentItem, FragmentsMessage } from "../api/types";
+import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
 import { ALL_SIGNALS } from "../lib/searchSignals";
 
 type LexicalFilter = "all" | "yes" | "no";
@@ -37,7 +38,7 @@ function applyFilters(
   minSemantic: number,
 ): FragmentItem[] {
   return fragments.filter((fragment) => {
-    if (minScore > 0 && (fragment.relevancePercent ?? 0) < minScore) return false;
+    if (!reachesMinScore(fragment.relevancePercent, minScore)) return false;
     // Strictly greater than the threshold; fragments without a semantic score never pass.
     if (minSemantic > 0 && !((fragment.semanticScore ?? -Infinity) > minSemantic)) return false;
     if (condition !== "all" && (fragment.conditionMatch ?? "none") !== condition) return false;
@@ -90,11 +91,11 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
           <label className="fragments-panel-filter">
             Scor minim
             <select value={minScore} onChange={(event) => setMinScore(Number(event.target.value))}>
-              <option value={0}>Toate</option>
-              <option value={25}>≥ 25%</option>
-              <option value={50}>≥ 50%</option>
-              <option value={75}>≥ 75%</option>
-              <option value={90}>≥ 90%</option>
+              {MIN_SCORE_OPTIONS.map(({ value, label }) => (
+                <option key={value} value={value}>
+                  {label}
+                </option>
+              ))}
             </select>
           </label>
           {signals.semantic && (
