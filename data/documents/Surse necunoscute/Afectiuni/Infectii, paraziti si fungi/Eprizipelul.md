@@ -1,0 +1,2 @@
+# Eprizipelul
+o reteta sigura pe o perioada scurta -- cumparati de la farmacie 2 flacoane de ampicilina, 2 pliculete de burovin si comandati la farmacie o solutie contra epidermofitiei, compusa din ; iod metaloid 1gr + acid salicilc 3gr + glicerina 10gr + alcool de 70 grade 100ml. Luati medicamentele in modul urmator : ampicilina cate 2 capsule odata la interval de 6 ore, timp de 5 zile. Cu solutia contra epidermofitiei se badijoneaza talpa piciorului si mai ales spatiile dintre degete. Cu burovinul se pun comprese pe locurile dureroase. Se recomanda repaus la pat.
