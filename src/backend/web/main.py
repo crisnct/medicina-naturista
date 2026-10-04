@@ -26,7 +26,12 @@ from backend.config import settings
 from backend.ai.client import AIUnavailable, create_ai_client
 from backend.integrations.gmail import EMAIL_SKIPPED, send_report
 from backend.reporting.pdf import create_pdf
-from backend.ai.conditions import resolve_query
+from backend.ai.condition_ai import (
+    identify_conditions,
+    resolved_for,
+    warm_up as warm_up_condition_ai,
+)
+from backend.ai.conditions import ResolvedQuery, resolve_query
 from backend.ai.retrieval import Retriever
 from backend.ai.search import ALL_SIGNALS, SearchSignals, warm_up as warm_up_search
 from backend.core.models import PendingSearch, SessionData, StoredReport
@@ -63,6 +68,14 @@ retriever = Retriever(settings.documents_dir)
 NO_CATEGORY_SELECTED_MESSAGE = (
     "Nicio sursă selectată. Bifați cel puțin o categorie în panoul „Căutare avansată” înainte de căutare."
 )
+CONDITION_AI_NOTICE = (
+    "🤖 Nu am găsit afecțiunea în dicționarul meu. Încerc să o identific cu ajutorul AI. Vă rog să așteptați."
+)
+CONDITION_NOT_IDENTIFIED_MESSAGE = "⚠️ Nu am putut identifica afecțiunea din mesaj."
+CONDITION_NOT_IDENTIFIED_CONTINUES = f"{CONDITION_NOT_IDENTIFIED_MESSAGE} Caut după textul mesajului."
+CONDITION_NOT_IDENTIFIED_STOPS = (
+    f"{CONDITION_NOT_IDENTIFIED_MESSAGE} Scrieți denumirea afecțiunii (ex. gripă, hipertensiune)."
+)
 EMAIL_OFFER = (
     "Dacă doriți să trimiteți documentul pe mail la cineva, spuneți-mi la ce adresă să îl trimit."
 )
@@ -84,6 +97,12 @@ def _document_count_for_categories(category_ids: set[str]) -> int:
     return sum(tree.nodes[category_id].own_documents for category_id in category_ids if category_id in known)
 
 
+# Whether the message goes to the condition AI: the conditions signal is on, a
+# backend is configured and the dictionary names no condition in any segment.
+def _needs_condition_ai(health_problem: str, signals: SearchSignals) -> bool:
+    return bool(signals.conditions and settings.condition_ai_backends and not resolve_query(health_problem).conditions)
+
+
 # Build the "Caut rapid în cele N documente" notice for the categories
 # currently selected on the session.
 def _report_started_message(session: SessionData) -> dict:
@@ -100,9 +119,13 @@ def _report_started_message(session: SessionData) -> dict:
 # near-identical spelling of one) — the only case in which the lexical search
 # uses the synonyms (see ai/search.py's lexical_queries()). With the lexical
 # signal alone, only those conditions are named; with neither, nothing is.
-# None when nothing is to be named.
-def _condition_identified_message(health_problem: str, signals: SearchSignals = ALL_SIGNALS) -> dict | None:
-    resolved = resolve_query(health_problem)
+# None when nothing is to be named. `health_problem` is the typed text, or the
+# message already resolved (dictionary plus AI conditions, see resolved_for());
+# `by_ai` marks the conditions as identified by the AI rather than the dictionary.
+def _condition_identified_message(
+    health_problem: str | ResolvedQuery, signals: SearchSignals = ALL_SIGNALS, by_ai: bool = False
+) -> dict | None:
+    resolved = health_problem if isinstance(health_problem, ResolvedQuery) else resolve_query(health_problem)
     whole = {
         condition.name
         for segment in resolved.segments if segment.whole_condition
@@ -118,7 +141,8 @@ def _condition_identified_message(health_problem: str, signals: SearchSignals = 
         return None
     lines = []
     for condition in conditions:
-        line = f"✅ Am identificat afecțiunea: **{condition.name}**."
+        label = "Am identificat afecțiunea (cu ajutorul AI)" if by_ai else "Am identificat afecțiunea"
+        line = f"✅ {label}: **{condition.name}**."
         if signals.lexical and condition.name in whole and len(condition.terms) > 1:
             line += f" O caut și după denumirile: {', '.join(condition.terms[1:])}."
         lines.append(line)
@@ -165,6 +189,11 @@ async def lifespan(app: FastAPI):
         await asyncio.to_thread(warm_up_search)
     except Exception:
         logger.warning("search_warm_up_failed", exc_info=True)
+    # The local condition model loads on its first request; do that one now.
+    try:
+        await asyncio.to_thread(warm_up_condition_ai)
+    except Exception:
+        logger.warning("condition_ai_warm_up_failed", exc_info=True)
     try:
         yield
     finally:
@@ -417,7 +446,7 @@ def post_message(payload: MessageRequest, request: Request):
     session = _current(request)
     message = (payload.message or "").strip()
     if not message:
-        return {"messages": [], "startSearch": False}
+        return {"messages": [], "startSearch": False, "identifyCondition": False}
     if len(message) > settings.max_chat_chars:
         raise HTTPException(status_code=422, detail=f"Mesajul depășește limita de {settings.max_chat_chars} caractere.")
     with session.lock:
@@ -425,7 +454,7 @@ def post_message(payload: MessageRequest, request: Request):
         if session.report_bytes is not None and EMAIL_PATTERN.fullmatch(message):
             _append(session, _text("user", message))
             _append(session, _send_report_email(session, message))
-            return {"messages": list(session.history[before:]), "startSearch": False}
+            return {"messages": list(session.history[before:]), "startSearch": False, "identifyCondition": False}
 
         previous_health_problem = session.profile.health_problem
         _append(session, _text("user", message))
@@ -445,15 +474,57 @@ def post_message(payload: MessageRequest, request: Request):
 
         if not session.profile.report_ready:
             _append(session, _text("assistant", "Descrieți problema de sănătate înainte de căutare."))
-            return {"messages": list(session.history[before:]), "startSearch": False}
+            return {"messages": list(session.history[before:]), "startSearch": False, "identifyCondition": False}
         if getattr(retriever, "category_tree", None) is not None and not session.selected_categories:
             logger.info("fragments_skipped tab_id=%s reason=no_category_selected", session.tab_id)
             _append(session, _text("assistant", NO_CATEGORY_SELECTED_MESSAGE))
-            return {"messages": list(session.history[before:]), "startSearch": False}
+            return {"messages": list(session.history[before:]), "startSearch": False, "identifyCondition": False}
+
+        if _needs_condition_ai(session.profile.health_problem, session.search_signals):
+            # The dictionary knows no condition in the message: tell the patient what happens
+            # next; POST /api/condition asks the AI and then announces the search.
+            _append(session, _text("assistant", CONDITION_AI_NOTICE))
+            return {"messages": list(session.history[before:]), "startSearch": True, "identifyCondition": True}
 
         identified = _condition_identified_message(session.profile.health_problem, session.search_signals)
         if identified is not None:
             _append(session, identified)
+        _append(session, _report_started_message(session))
+        return {"messages": list(session.history[before:]), "startSearch": True, "identifyCondition": False}
+
+
+@app.post("/api/condition")
+# Ask the AI for the condition of a message the dictionary does not know (the
+# patient was told so by POST /api/messages), announce the result and then the
+# search. The AI call runs outside the session lock, so other requests of the
+# session do not wait for the network.
+def post_condition(request: Request):
+    session = _current(request)
+    with session.lock:
+        health_problem = session.profile.health_problem
+        signals = session.search_signals
+    if not _needs_condition_ai(health_problem, signals):
+        return {"messages": [], "startSearch": True}
+    logger.info("report_stage_started stage=condition_ai tab_id=%s", session.tab_id)
+    result = identify_conditions(resolve_query(health_problem))
+    with session.lock:
+        if session.profile.health_problem != health_problem:
+            # A newer message replaced this one while the AI worked: its own flow follows.
+            logger.info("condition_ai_result_discarded tab_id=%s reason=message_replaced", session.tab_id)
+            return {"messages": [], "startSearch": False}
+        before = len(session.history)
+        session.profile.ai_conditions = result.answers
+        resolved = resolved_for(session.profile)
+        if result.identified:
+            identified = _condition_identified_message(resolved, signals, by_ai=True)
+            if identified is not None:
+                _append(session, identified)
+        elif not (signals.lexical or signals.semantic):
+            # Only the conditions signal and no condition: nothing can score.
+            _append(session, _text("assistant", CONDITION_NOT_IDENTIFIED_STOPS))
+            return {"messages": list(session.history[before:]), "startSearch": False}
+        else:
+            _append(session, _text("assistant", CONDITION_NOT_IDENTIFIED_CONTINUES))
         _append(session, _report_started_message(session))
         return {"messages": list(session.history[before:]), "startSearch": True}
 
@@ -467,6 +538,11 @@ def post_search(request: Request):
     session = _current(request)
     with session.lock:
         before = len(session.history)
+        signals = session.search_signals
+        if signals.conditions and not (signals.lexical or signals.semantic) and not resolved_for(session.profile).conditions:
+            # Only the conditions signal and no condition (the AI step is off): nothing can score.
+            _append(session, _text("assistant", CONDITION_NOT_IDENTIFIED_STOPS))
+            return {"messages": list(session.history[before:])}
         logger.info("report_stage_started stage=retrieval tab_id=%s", session.tab_id)
         evidence = retriever.collect(session, ai.context_budget())
         logger.info(
@@ -476,11 +552,10 @@ def post_search(request: Request):
             sum(len(item["text"]) for item in evidence.values()),
         )
         if not evidence:
-            _append(session, _text("assistant", "Nu am găsit fragmente relevante în sursele locale."))
+            _append(session, _text("assistant", "Nu am găsit fragmente relevante în sursele locale. Încercați o căutare semantică sau introduceți altă denumire a afecțiunii."))
             return {"messages": list(session.history[before:])}
 
         search_id = secrets.token_hex(6)
-        signals = session.search_signals
         session.add_search(
             search_id, PendingSearch(profile=session.profile.as_dict(), evidence=evidence, signals=signals)
         )

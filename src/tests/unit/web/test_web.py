@@ -5,9 +5,10 @@ import io
 import os
 from dataclasses import replace
 import tempfile
+import threading
 import unittest
 from pathlib import Path
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
 
 from fastapi.testclient import TestClient
 from pypdf import PdfReader
@@ -15,6 +16,7 @@ from reportlab.lib import colors
 from reportlab.lib.styles import ParagraphStyle
 
 from backend.ai.categories import CategoryNode, CategoryTree
+from backend.ai.condition_ai import AIConditionResult, resolved_for
 from backend.ai.embedding_model import _normalize_fastembed_metadata
 from backend.ai.query_terms import plain
 from backend.ai.search import ALL_SIGNALS, SearchSignals, max_score
@@ -129,7 +131,12 @@ def _send(
     response = client.post("/api/messages", json=body, headers=_headers(sid, tab))
     body = response.json()
     messages = list(body["messages"])
-    if body["startSearch"]:
+    start_search = body["startSearch"]
+    if start_search and body.get("identifyCondition"):
+        condition = client.post("/api/condition", headers=_headers(sid, tab)).json()
+        messages += condition["messages"]
+        start_search = condition["startSearch"]
+    if start_search:
         messages += client.post("/api/search", headers=_headers(sid, tab)).json()["messages"]
     return messages
 
@@ -142,6 +149,15 @@ class WebTests(unittest.TestCase):
         # Module-level rate limiting state (see web/main.py's rate_events)
         # would otherwise accumulate across tests sharing one TestClient IP.
         main.rate_events.clear()
+        # The condition AI never reaches the network from these tests: by default
+        # it is "disabled"; the tests of that step patch it with their own answer.
+        no_ai = patch.object(main, "identify_conditions", return_value=AIConditionResult(reason="disabled"))
+        no_ai.start()
+        self.addCleanup(no_ai.stop)
+        # ... and no backend is configured, unless a test turns the step on (_with_ai_backends).
+        no_backends = patch.object(main, "settings", replace(settings, condition_ai_backends=()))
+        no_backends.start()
+        self.addCleanup(no_backends.stop)
         self.client = TestClient(main.app, base_url="https://testserver")
         self.addCleanup(self.client.close)
 
@@ -174,7 +190,7 @@ class WebTests(unittest.TestCase):
         self.assertTrue(profile.report_ready)
         self.assertIsNone(profile.next_question())
         self.assertEqual(profile.as_dict()["health_problem"], "Gripă și răceală")
-        self.assertEqual(set(profile.as_dict()), {"health_problem", "health_context", "transcript"})
+        self.assertEqual(set(profile.as_dict()), {"health_problem", "health_context", "transcript", "ai_conditions"})
 
     # Verify a later problem fully replaces the active retrieval/report context.
     def test_profile_replaces_previous_health_problem_context(self):
@@ -748,6 +764,212 @@ class WebTests(unittest.TestCase):
             self.assertIn("guta articulara", main._condition_identified_message("gout")["content"])
             typo = main._condition_identified_message("artrita gutosa", SearchSignals.from_code("B"))
             self.assertIn("O caut și după denumirile", typo["content"])
+
+    # --- Condition identified by the AI when the dictionary knows none --------
+
+    # Run the two-phase send with the AI step answering `result`, a dictionary of
+    # Artrita gutoasa only (so "durere de cap" is unknown to it) and a retriever
+    # that records the conditions its search sees; returns (messages, ai mock, session, seen).
+    def _send_with_ai(self, message: str, result: AIConditionResult, signals: dict | None = None, tab: str = "tab-condai0001"):
+        class Recording(FakeRetriever):
+            category_tree = None
+            document_count = 3
+            seen = None
+
+            def collect(self, session, max_chars=None):
+                type(self).seen = resolved_for(session.profile).condition_names
+                return super().collect(session, max_chars)
+
+        dictionary = ConditionDictionary(parse_conditions("Artrita gutoasa,guta articulara,gout\n"))
+        sid = "C" * 43
+        ai_step = MagicMock(return_value=result)
+        with (
+            patch.object(main, "settings", replace(settings, condition_ai_backends=("local",))),
+            patch.object(main, "retriever", Recording()),
+            patch.object(main, "identify_conditions", ai_step),
+            patch.object(conditions_module, "load_dictionary", return_value=dictionary),
+        ):
+            self.client.get("/api/session", headers=_headers(sid, tab))
+            messages = _send(self.client, sid, tab, message, [], signals=signals)
+            session = main.store.get(sid, tab)
+        self.addCleanup(main.store.delete, sid, tab)
+        return messages, ai_step, session, Recording.seen
+
+    def _identified(self) -> AIConditionResult:
+        return AIConditionResult(
+            answers=({"index": 1, "name": "Cefalee", "terms": ["Cefalee", "migrena", "headache"]},),
+            backend="local",
+            reason="identified",
+        )
+
+    def test_the_dictionary_finding_a_condition_never_calls_the_ai(self):
+        messages, ai_step, _session, seen = self._send_with_ai("gout", self._identified())
+
+        ai_step.assert_not_called()
+        self.assertEqual(seen, ("Artrita gutoasa",))
+        self.assertFalse(any("Am identificat" in m.get("content", "") and "AI" in m.get("content", "") for m in messages))
+
+    def test_an_ai_condition_is_announced_after_the_searching_notice_and_before_the_fragments(self):
+        messages, ai_step, session, seen = self._send_with_ai("durere de cap", self._identified())
+
+        ai_step.assert_called_once()
+        kinds = [(m["kind"], m.get("content", "")) for m in messages]
+        notice = next(i for i, (_, c) in enumerate(kinds) if c == main.CONDITION_AI_NOTICE)
+        announced = next(i for i, (_, c) in enumerate(kinds) if "Am identificat" in c)
+        searching = next(i for i, (_, c) in enumerate(kinds) if "Caut rapid" in c)
+        fragments = next(i for i, (kind, _) in enumerate(kinds) if kind == "fragments")
+        # The patient is told what happens, then the AI's answer, then the search starts.
+        self.assertLess(notice, announced)
+        self.assertLess(announced, searching)
+        self.assertLess(searching, fragments)
+        self.assertEqual(
+            messages[announced]["content"],
+            "✅ Am identificat afecțiunea (cu ajutorul AI): **Cefalee**. O caut și după denumirile: migrena, headache.",
+        )
+        # The search saw the AI's condition, and the pending search carries it to the report.
+        self.assertEqual(seen, ("Cefalee",))
+        self.assertEqual(session.profile.ai_conditions[0]["name"], "Cefalee")
+        pending = session.searches[_by_kind(messages, "generate")["searchId"]]
+        self.assertEqual(pending.profile["ai_conditions"][0]["terms"], ["Cefalee", "migrena", "headache"])
+
+    def test_the_ai_is_asked_for_the_segments_of_the_message(self):
+        _messages, ai_step, _session, _seen = self._send_with_ai("durere de cap, ameteli", self._identified())
+
+        resolved = ai_step.call_args.args[0]
+        self.assertEqual([segment.text for segment in resolved.segments], ["durere de cap", "ameteli"])
+
+    def test_a_message_the_ai_cannot_identify_says_so_and_the_search_goes_on(self):
+        result = AIConditionResult(reason="none", backend="local")
+
+        messages, _ai_step, _session, seen = self._send_with_ai("ce plante sunt bune?", result)
+
+        contents = [m.get("content", "") for m in messages]
+        self.assertIn(main.CONDITION_NOT_IDENTIFIED_CONTINUES, contents)
+        self.assertEqual(seen, ())
+        searching = next(i for i, c in enumerate(contents) if "Caut rapid" in c)
+        self.assertLess(contents.index(main.CONDITION_NOT_IDENTIFIED_CONTINUES), searching)
+
+    def test_an_unavailable_ai_is_the_same_notice_whatever_the_reason(self):
+        for reason in ("timeout", "error", "no_token"):
+            with self.subTest(reason=reason):
+                messages, *_ = self._send_with_ai("durere de cap", AIConditionResult(reason=reason), tab=f"tab-condai-{reason}")
+                self.assertIn(main.CONDITION_NOT_IDENTIFIED_CONTINUES, [m.get("content") for m in messages])
+
+    def test_only_the_conditions_signal_stops_the_search_when_no_condition_is_found(self):
+        only_conditions = {"conditions": True, "lexical": False, "semantic": False}
+
+        messages, _ai_step, session, _seen = self._send_with_ai(
+            "durere de cap", AIConditionResult(reason="none"), signals=only_conditions, tab="tab-condai0002"
+        )
+
+        self.assertEqual(messages[-1]["content"], main.CONDITION_NOT_IDENTIFIED_STOPS)
+        self.assertFalse(any(m["kind"] == "fragments" for m in messages))
+        self.assertEqual(session.searches, {})
+
+    def test_without_the_conditions_signal_the_ai_step_does_not_run_and_nothing_is_said(self):
+        signals = {"conditions": False, "lexical": True, "semantic": True}
+
+        messages, ai_step, _session, _seen = self._send_with_ai("durere de cap", self._identified(), signals=signals, tab="tab-condai0003")
+
+        ai_step.assert_not_called()
+        self.assertFalse(any("afecțiunea" in m.get("content", "") for m in messages))
+        self.assertTrue(any(m["kind"] == "fragments" for m in messages))
+
+    def test_without_configured_backends_the_ai_step_does_not_run_and_nothing_is_said(self):
+        with patch.object(main, "_needs_condition_ai", return_value=False):
+            messages, ai_step, _session, _seen = self._send_with_ai("durere de cap", self._identified(), tab="tab-condai0004")
+
+        ai_step.assert_not_called()
+        self.assertFalse(any("afecțiunea" in m.get("content", "") for m in messages))
+        self.assertTrue(any(m["kind"] == "fragments" for m in messages))
+
+    def test_a_new_message_clears_the_conditions_of_the_previous_one(self):
+        sid, tab = "D" * 43, "tab-condai0005"
+        dictionary = ConditionDictionary(parse_conditions("Artrita gutoasa,guta articulara,gout\n"))
+        with (
+            patch.object(main, "settings", replace(settings, condition_ai_backends=("local",))),
+            patch.object(main, "retriever", FakeRetriever()),
+            patch.object(main, "identify_conditions", return_value=self._identified()),
+            patch.object(conditions_module, "load_dictionary", return_value=dictionary),
+        ):
+            self.client.get("/api/session", headers=_headers(sid, tab))
+            _send(self.client, sid, tab, "durere de cap", [])
+            self.assertEqual(main.store.get(sid, tab).profile.ai_conditions[0]["name"], "Cefalee")
+            self.client.post("/api/messages", json={"message": "gout", "categories": []}, headers=_headers(sid, tab))
+            self.assertEqual(main.store.get(sid, tab).profile.ai_conditions, ())
+        main.store.delete(sid, tab)
+
+    # The AI works outside the session lock; a message that arrives meanwhile
+    # replaces the problem, and the late answer is thrown away.
+    def test_an_answer_for_a_replaced_message_is_discarded(self):
+        sid, tab = "E" * 43, "tab-condai0006"
+        dictionary = ConditionDictionary(parse_conditions("Artrita gutoasa,guta articulara,gout\n"))
+
+        def slow_ai(resolved):
+            session = main.store.get(sid, tab)
+            # The lock is free during the call (RLock: another thread could take it).
+            took = []
+
+            def try_lock():
+                took.append(session.lock.acquire(blocking=False))
+                if took[0]:
+                    session.lock.release()
+
+            thread = threading.Thread(target=try_lock)
+            thread.start()
+            thread.join()
+            self.assertEqual(took, [True])
+            session.profile.replace_health_problem("gout")
+            return self._identified()
+
+        with (
+            patch.object(main, "settings", replace(settings, condition_ai_backends=("local",))),
+            patch.object(main, "retriever", FakeRetriever()),
+            patch.object(main, "identify_conditions", side_effect=slow_ai),
+            patch.object(conditions_module, "load_dictionary", return_value=dictionary),
+        ):
+            self.client.get("/api/session", headers=_headers(sid, tab))
+            self.client.post("/api/messages", json={"message": "durere de cap", "categories": []}, headers=_headers(sid, tab))
+            body = self.client.post("/api/condition", headers=_headers(sid, tab)).json()
+            messages = body["messages"]
+            session = main.store.get(sid, tab)
+
+        self.assertEqual((messages, body["startSearch"]), ([], False))
+        self.assertEqual(session.profile.ai_conditions, ())
+        main.store.delete(sid, tab)
+
+    def test_the_condition_notice_names_the_ai_only_with_by_ai(self):
+        with patch.object(conditions_module, "load_dictionary", return_value=ConditionDictionary([])):
+            resolved = resolved_for({"health_problem": "x", "ai_conditions": [{"index": 1, "name": "Cefalee", "terms": ["Cefalee"]}]})
+
+        self.assertEqual(
+            main._condition_identified_message(resolved, by_ai=True)["content"],
+            "✅ Am identificat afecțiunea (cu ajutorul AI): **Cefalee**.",
+        )
+        self.assertEqual(main._condition_identified_message(resolved)["content"], "✅ Am identificat afecțiunea: **Cefalee**.")
+
+    def test_the_fragments_percent_is_relative_to_the_signals_that_could_contribute(self):
+        profile = HealthProfile()
+        profile.set_health_problem("durere de cap")
+        session = type("SyntheticSession", (), {"profile": profile, "search_signals": ALL_SIGNALS})()
+        retriever = Retriever(settings.documents_dir)
+        ranked = [{
+            **self._ranked(1, "a.md", 1, 5, 0.5), "score": 2.0,
+            "condition_in_title": None, "condition_in_text": None,
+            "lexical_score": 1.0, "semantic_score": 1.0, "semantic_similarity": 0.9,
+        }]
+        dictionary = ConditionDictionary(parse_conditions("Artrita gutoasa,gout\n"))
+
+        with (
+            patch.object(conditions_module, "load_dictionary", return_value=dictionary),
+            patch("backend.ai.retrieval.rank", return_value=ranked),
+        ):
+            without_condition = retriever.collect(session)
+            profile.ai_conditions = ({"index": 1, "name": "Cefalee", "terms": ["Cefalee"]},)
+            with_ai_condition = retriever.collect(session)
+
+        self.assertAlmostEqual(without_condition["C1"]["relevance_percent"], 100.0)  # A left out: ceiling 2
+        self.assertAlmostEqual(with_ai_condition["C1"]["relevance_percent"], 25.0)  # A on: ceiling 8
 
     # --- Fragment message building (pure function, no HTTP round trip needed) --
 

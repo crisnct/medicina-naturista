@@ -210,6 +210,8 @@ class ResponsesClient:
         elif provider.json_format == "response_format":
             payload["response_format"] = {"type": "json_object"}
         payload["max_output_tokens"] = max_tokens
+        if provider.temperature is not None:
+            payload["temperature"] = provider.temperature
         if provider.send_store:
             payload["store"] = False
         if provider.stream:

@@ -894,10 +894,19 @@ def _join_romanian(names: list[str]) -> str:
 
 # Canonical names (lowercase, with diacritics) of the conditions the health
 # problem text names according to the conditions dictionary: whole-word matches
-# first, the typo-tolerant resolution of the search when there are none.
-def condition_names_for(problem: str) -> list[str]:
+# first, the typo-tolerant resolution of the search when there are none. When the
+# dictionary knows none, the conditions the AI identified for the message
+# (profile["ai_conditions"], see ai/condition_ai.py) name it.
+def condition_names_for(problem: str, ai_conditions: Any = ()) -> list[str]:
     conditions = find_conditions(problem) or list(resolve_query(problem).conditions)
-    names = [_restore_romanian_diacritics(condition.name.lower()) for condition in conditions]
+    names = [condition.name for condition in conditions]
+    if not names:
+        names = [
+            " ".join(str(answer["name"]).split())
+            for answer in ai_conditions or ()
+            if isinstance(answer, dict) and str(answer.get("name") or "").strip()
+        ]
+    names = [_restore_romanian_diacritics(name.lower()) for name in names]
     return list(dict.fromkeys(names))
 
 
@@ -905,7 +914,7 @@ def condition_names_for(problem: str) -> list[str]:
 def report_title(profile: dict[str, Any]) -> str:
     """Return the title shared by the PDF metadata, document heading and download name."""
     problem = " ".join(str(profile.get("health_problem") or "").split())[:240]
-    names = condition_names_for(problem)
+    names = condition_names_for(problem, profile.get("ai_conditions"))
     if names:
         return f"Remedii naturiste pentru {_join_romanian(names)}"
     # No condition recognised: fall back to the typed text (first synonym only).

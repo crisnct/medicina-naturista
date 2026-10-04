@@ -12,7 +12,7 @@ from unittest import mock
 
 import numpy as np
 
-from backend.ai import conditions, search
+from backend.ai import condition_ai, conditions, search
 from backend.ai import db as db_module
 from backend.ai.conditions import ConditionDictionary, parse_conditions
 from backend.ai.embedding_model import PROFILES, EmbeddingProfile, get_profile
@@ -820,6 +820,59 @@ class CategoryFilterTests(RankTestCase):
         empty = search.rank("zorbita", category_ids=frozenset())
 
         self.assertEqual(_paths(baseline), _paths(empty))
+
+
+class AIConditionRankTests(RankTestCase):
+    """rank(resolved=...): a condition the AI identified counts like a dictionary one."""
+
+    documents = {
+        "x/titlu.md": "# Zorbita\n\nRepaus si ceai calduros la pat.",
+        "x/migrena.md": "# Altele\n\nMigrena trece cu odihna si liniste.",
+        "x/gradina.md": "# Diverse\n\nCeva despre gradinarit.",
+    }
+    vectors = {path: _one_hot(DIM, index + 3) for index, path in enumerate(documents)}
+
+    @staticmethod
+    def _ai(answer_name: str, *synonyms: str, text: str = "tulburare ciudata"):
+        answers = [{"index": 1, "name": answer_name, "terms": [answer_name, *synonyms]}]
+        return condition_ai.with_ai_conditions(_dictionary().resolve(text), answers)
+
+    def test_a_name_that_is_a_dictionary_term_scores_p1_and_p2_through_the_canonical_name(self):
+        resolved = self._ai("Zorbitoza")
+        results = self.by_path(search.rank("tulburare ciudata", resolved=resolved))
+
+        self.assertEqual(resolved.condition_names, ("Zorbita",))
+        self.assertTrue(results["x/titlu.md"]["condition_in_title"])
+        self.assertGreaterEqual(results["x/titlu.md"]["score"], search.weights(search.ALL_SIGNALS)[0])
+
+    def test_a_name_outside_the_dictionary_is_searched_lexically_under_its_names_only(self):
+        resolved = self._ai("Cefalee", "migrena")
+        results = self.by_path(search.rank("tulburare ciudata", resolved=resolved))
+
+        migrena = results["x/migrena.md"]
+        self.assertTrue(migrena["found_by_lexical"])
+        self.assertAlmostEqual(migrena["lexical_score"], 1.0)
+        # No fragment is indexed under a name the index does not know: P1 = P2 = 0.
+        self.assertFalse(any(item["condition_in_title"] or item["condition_in_text"] for item in results.values()))
+        # The conditions signal stays on, because the message has a (AI) condition.
+        self.assertEqual(results["x/migrena.md"]["signals"], search.ALL_SIGNALS)
+
+    def test_the_same_message_without_the_ai_does_not_find_the_synonym(self):
+        results = self.by_path(search.rank("tulburare ciudata"))
+
+        self.assertNotIn("x/migrena.md", [path for path, item in results.items() if item["found_by_lexical"]])
+
+    def test_a_message_without_any_condition_ranks_without_the_conditions_signal(self):
+        results = search.rank("tulburare ciudata")
+
+        self.assertTrue(results)
+        for item in results:
+            self.assertEqual(item["signals"], _signals("BC"))
+            self.assertIsNone(item["condition_in_title"])
+            self.assertLessEqual(item["score"], search.max_score(_signals("BC")) + 1e-9)
+
+    def test_the_conditions_signal_alone_with_no_condition_still_finds_nothing(self):
+        self.assertEqual(search.rank("tulburare ciudata", signals=_signals("A")), [])
 
 
 if __name__ == "__main__":

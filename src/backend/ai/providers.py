@@ -31,6 +31,8 @@ class ProviderConfig:
     max_output_tokens: int
     read_timeout_seconds: int
     stream: bool = False
+    # Sampling temperature sent with the request; None leaves the provider's default.
+    temperature: float | None = None
 
 
 # Whether the URL points at this machine (or the Docker host), where Ollama needs no key.

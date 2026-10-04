@@ -10,7 +10,7 @@ import argparse
 import json
 import re
 import sys
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 
 import numpy as np
 from psycopg.rows import namedtuple_row
@@ -82,6 +82,21 @@ _WEIGHTS: dict[str, tuple[int, int, int, int]] = {
 
 def weights(signals: SearchSignals) -> tuple[int, int, int, int]:
     return _WEIGHTS[signals.code]
+
+
+# The signals a search can actually use. The conditions signal needs a condition
+# in the message (from the dictionary or identified by the AI, see
+# ai/condition_ai.py): without one no fragment can score on it, so it is left out
+# and the other signals keep their weights, which makes relevance_percent
+# relative to what could contribute (the best fragment can still reach 100%).
+# With the conditions signal alone there is nothing else to fall back on and it
+# stays (the search then finds nothing).
+def effective_signals(signals: SearchSignals, resolved: ResolvedQuery) -> SearchSignals:
+    if not signals.conditions or resolved.conditions:
+        return signals
+    if not (signals.lexical or signals.semantic):
+        return signals
+    return replace(signals, conditions=False)
 
 
 # The highest score a fragment can reach with these signals;
@@ -286,7 +301,12 @@ _NO_LEXICAL_VALUE = "0::double precision"
 # fragment with score 0 is not returned. The conditions the message names (see
 # ai/conditions.py; each comma-separated expression is recognised on its own)
 # decide P1/P2; the lexical signal looks for each expression on its own (see
-# lexical_queries()); the semantic signal uses the message as typed.
+# lexical_queries()); the semantic signal uses the message as typed. `resolved`
+# is the message already resolved (the dictionary's conditions completed with
+# the ones the AI identified, see condition_ai.resolved_for()); without it the
+# message is resolved against the dictionary alone.
+# Without any condition in the message the conditions signal is dropped (see
+# effective_signals()); the results carry the signals actually used.
 #
 # category_ids optionally restricts the search to chunks whose category_id is
 # one of the given ids (see backend.ai.categories) — None or an
@@ -309,13 +329,16 @@ def rank(
     category_ids: frozenset[str] | None = None,
     max_chars: int | None = None,
     signals: SearchSignals = ALL_SIGNALS,
+    resolved: ResolvedQuery | None = None,
 ) -> list[dict[str, object]]:
     query = " ".join(query.split())
     if not query:
         return []
-    resolved = resolve_query(query)
+    if resolved is None:
+        resolved = resolve_query(query)
     if not resolved.segments:  # no word at all, e.g. "?!": nothing to search for
         return []
+    signals = effective_signals(signals, resolved)
     condition_names = list(resolved.condition_names) if signals.conditions else []
     expressions = lexical_queries(resolved) if signals.lexical else []
     # Every signal that is on has nothing to look for (e.g. only the conditions

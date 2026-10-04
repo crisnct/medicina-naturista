@@ -56,6 +56,20 @@ def _ai_provider(value: str | None = None) -> str:
     return provider
 
 
+CONDITION_AI_BACKEND_NAMES = ("huggingface", "local")
+
+
+# Read CONDITION_AI_BACKENDS: an ordered, comma-separated list of the backends
+# that identify a condition the dictionary does not know. Empty disables the step.
+def _condition_ai_backends() -> tuple[str, ...]:
+    raw = os.getenv("CONDITION_AI_BACKENDS", "local,huggingface")
+    names = tuple(dict.fromkeys(part.strip().casefold() for part in raw.split(",") if part.strip()))
+    unknown = [name for name in names if name not in CONDITION_AI_BACKEND_NAMES]
+    if unknown:
+        raise ValueError(f"CONDITION_AI_BACKENDS must only contain {', '.join(CONDITION_AI_BACKEND_NAMES)}")
+    return names
+
+
 @dataclass(frozen=True)
 class Settings:
     documents_dir: Path = Path(os.getenv("DOCUMENTS_DIR", str(ROOT / "data" / "documents")))
@@ -89,6 +103,17 @@ class Settings:
     deepseek_api_base: str = os.getenv("DEEPSEEK_API_BASE", "https://api.deepseek.com").rstrip("/")
     deepseek_reasoning_effort: str = os.getenv("DEEPSEEK_REASONING_EFFORT", "").strip()
     deepseek_max_context_chars: int = _int("DEEPSEEK_MAX_CONTEXT_CHARS", 1_000_000)
+    # Identification of a condition the dictionary does not know (ai/condition_ai.py):
+    # backends are tried in order; the local one is an Ollama model, the other
+    # goes through the Hugging Face router (HF_API_BASE, HF_TOKEN).
+    condition_ai_backends: tuple[str, ...] = _condition_ai_backends()
+    condition_ai_hf_model: str = os.getenv(
+        "CONDITION_AI_HF_MODEL", os.getenv("HF_MODEL", "deepseek-ai/DeepSeek-V4-Flash:deepinfra")
+    )
+    condition_ai_local_model: str = os.getenv("CONDITION_AI_LOCAL_MODEL", "gemma3:1b")
+    condition_ai_local_base: str = os.getenv("CONDITION_AI_LOCAL_BASE", "http://localhost:11434/v1").rstrip("/")
+    condition_ai_timeout_seconds: int = _int("CONDITION_AI_TIMEOUT_SECONDS", 10)
+    condition_ai_max_output_tokens: int = _int("CONDITION_AI_MAX_OUTPUT_TOKENS", 300)
     ai_stream: bool = _bool("AI_STREAM", False)
     ai_max_output_tokens: int = _int("AI_MAX_OUTPUT_TOKENS", 20000)
     ai_read_timeout_seconds: int = _int("AI_READ_TIMEOUT_SECONDS", 300)
