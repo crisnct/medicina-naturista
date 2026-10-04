@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <section id="hero-panel" aria-labelledby="hero-title">
       <div className="hero-kicker">
-        🌿Asistent AI de medicină naturistă bazat pe surse
+        🌿Asistent AI de medicină naturistă bazat pe surse locale
       </div>
       <HerbsStrip />
       <img className="hero-doctor" src={doctorPortrait} alt="Dr. Cuișor" />
