@@ -1,0 +1,6 @@
+? C16.0   Jonctiunea cardio-esofagiana   [titlu: Cardia]  <Malignant neoplasm of cardia>  ~ 
+? C16.0   Jonctiunea gastro-esofagiana   [titlu: Cardia]  <Malignant neoplasm of cardia>  ~ 
+? C65     Jonctiunea pelvi-ureterala   [titlu: Tumora maligna a bazinetului renal]  <Malignant neoplasm of renal pelvis>  ~ 
+? D37.5   Jonctiunea recto-sigmoidiana   [titlu: Rect]  <Neoplasm of uncertain behavior of rectum>  ~ 
+? F63.0   Jucarea compulsiva de jocuri de noroc   [titlu: Patologia jocurilor de noroc]  <Pathological gambling>  ~ 
+? M12.0   Jaccond   [titlu: Artropatia cronica post-reumatismala [Jaccond]]  <Chronic postrheumatic arthropathy [Jaccoud]>  ~ 

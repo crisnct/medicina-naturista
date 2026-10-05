@@ -1,4 +1,4 @@
-===== NOU (180)
+===== NOU (177)
 B00.1   Dermita veziculara datorita virusului herpetic  <Herpesviral vesicular dermatitis>
 B70     Diphyllobothriaza si sparganoza  <Diphyllobothriasis and sparganosis>
 D81.5   Deficit in purine nucleosidfosforilaza [PNP]  <Purine nucleoside phosphorylase [PNP] deficiency>
@@ -63,11 +63,9 @@ G83.0   Diplegia membrelor superioare  {Diplegia (superioara) / Paralizia ambelo
 H01.1   Dermatoza neinfectioasa a pleoapei  <Noninfectious dermatoses of eyelid>
 H05.3   Deformarea orbitei  {Atrofia orbitei / Exostoza orbitei}  <Deformity of orbit>
 H11.1   Depuneri si afectiuni degenerative ale conjuctivei  <Conjunctival degenerations and deposits>
-H31.2   Distrofia ereditara a choroidei  {Choroideremia / Distrofia, choroidala (central areolara) (generalizata) (peripapilara) / Atrofia girata, choroida}  <Hereditary choroidal dystrophy>
 H33.2   Dezlipirea seroasei retiniene  <Serous retinal detachment>
 H35.3   Degenerescenta maculei si polului posterior  {Striatii angioide ale maculei / Cute ale maculei / Dungi (degenerative) ale maculei / Gauri ale maculei / Pliuri ale maculei / Degenerescenta Kuhnt-Junius / Degenerescenta maculara senila (atrofica) (exudativa) / Maculopatia toxica}  <Degeneration of macula and posterior pole>
 H57.1   Durere oculara  <Ocular pain>
-H69.0   Distensiunea trompei Eustache  <Patulous Eustachian tube>
 H74.2   Disociatia si dislocarea oscioarelor urechii  <Discontinuity and dislocation of ear ossicles>
 I49.1   Depolarizare atriala prematura  {Batai atriale premature}  <Atrial premature depolarization>
 I49.2   Depolarizare jonctionala prematura  <Junctional premature depolarization>
@@ -88,7 +86,6 @@ L27.2   Dermatita datorita ingestiei de alimente  <Dermatitis due to ingested fo
 L27.8   Dermatita datorita altor substante ingerate  <Dermatitis due to other substances taken internally>
 L27.9   Dermatita datorita unei substante ingerate nespecificate  <Dermatitis due to unspecified substance taken internally>
 L50.3   Dermatografism urticarian  <Dermatographic urticaria>
-L81.7   Dermatoza purpurica pigmentata  {Angiomul serpiginos}  <Pigmented purpuric dermatosis>
 M14.3   Dermato-artrita lipoida (E78.8†)
 M20     Deformatii dobandite ale degetelor de la mana si picior  <Acquired deformities of fingers and toes>
 M20.0   Deformatia deget(e) de la mana  {Deformatii in 'butoniera' si in 'gat de lebada'}  <Deformity of finger(s)>
@@ -179,10 +176,9 @@ Q86.2   Dismorfism datorita warfarinei  <Dysmorphism due to warfarin>
 Q89.41  Dicefalia  {Doua capete}
 Q92.4   Dublarea observata numai in prometafaza
 Q92.5   Dublarea cu alte rearanjamente complexe  <Duplications with other complex rearrangements>
-===== POSIBIL (253)
+===== POSIBIL (238)
 A36.1   Difteria nazo-faringiana  <Nasopharyngeal diphtheria> ~ Faringita cu Corynebacterium
 B66.2   Dicrocoeliaza  {Infectie datorita Dricocoelium dendriticum / Infectie cu parazit Lancet}  <Dicroceliasis> ~ Dicrocelioza
-B70.0   Diphyllobothriaza  {Infectia cu Diphyllobothrium (adult) (latum) (pacificum) / Cestoda pestelui (infectia)}  <Diphyllobothriasis> ~ Difilobotrioza
 D56.2   Delta-beta-thalasemia  <Delta-beta thalassemia> ~ Beta-talasemie
 D80.2   Deficit selectiv de imunoglobuline A [lgA]  <Selective deficiency of immunoglobulin A [IgA]> ~ Deficit selectiv de IgA
 D80.3   Deficit selectiv in subclasele imunoglobulinelor G [lgG]  <Selective deficiency of immunoglobulin G [IgG] subclasses> ~ Deficit de subclase IgG | Deficit selectiv de IgA
@@ -315,8 +311,7 @@ G24.1   Distonia idiopatica familiala  {Distonia idiopatica}  <Genetic torsion d
 G31.1   Degenerescenta senila a creierului, neclasificata altundeva  <Senile degeneration of brain, not elsewhere classified> ~ Boala Canavan
 G90.3   Degenerescenta multisistemica  {Hipotensiunea ortostatica neurogena [Shy-Drager]}  <Multi-system degeneration of the autonomic nervous system> ~ Atrofie multisistemica
 H18.5   Distrofia corneeana ereditara  <Hereditary corneal dystrophies> ~ Distrofie corneana
-H31.1   Degenerescenta choroidiana  {Atrofia choroidei / Scleroza choroidei}  <Choroidal degeneration> ~ Degenerescenta corneana | Atrofie iriana | Distrofie coroidiana
-H31.4   Dezlipirea choroidei  <Choroidal detachment> ~ Detasament coroidian
+H31.1   Degenerescenta choroidiana  {Atrofia choroidei / Scleroza choroidei}  <Choroidal degeneration> ~ Degenerescenta corneana | Atrofie iriana | Atrofie tiroidiana | Distrofie coroidiana
 H33     Dezlipiri si rupturi ale retinei  <Retinal detachments and breaks> ~ Dezlipire de retina
 H33.0   Dezlipirea retinei cu ruptura retiniana  {Dezlipirea retinei rhegmatogene}  <Retinal detachment with retinal break> ~ Dezlipire de retina
 H33.4   Detasare mecanica (tractiune) a retinei  {tractiune / Vitroretinopatia proliferativa cu dezlipirea retinei}  <Traction detachment of retina> ~ Dezlipire de retina
@@ -336,10 +331,8 @@ K00.1   Dinti supranumerari  {Distomolari / Al patrulea molar / Meziodinte / Par
 K03.6   Depozite [acumulare] pe dinti  {acumulare}  <Deposits [accretions] on teeth> ~ Tulburare de acumulare
 K04.2   Degenerescenta pulpara  {Denticuli / Calcificare pulpara / Pulpoliti}  <Pulp degeneration> ~ Degenerescenta maculara | Degenerescenta maculara usca
 K22.5   Diverticul dobandit al esofagului  {Punga esofagiana, dobandita}  <Diverticulum of esophagus, acquired> ~ Diverticul al esofagului
-K59.1   Diareea functionala  <Functional diarrhea> ~ Diaree functionala
 K76.0   Degenerescenta grasoasa a ficatului, neclasificata altundeva  <Fatty (change of) liver, not elsewhere classified> ~ Steatoza hepatica | Steatoza hepatica alcoolica
 L21.1   Dermatita seboreica infantila  <Seborrheic infantile dermatitis> ~ Dermatita | Dermatita seboreica faciala
-L22     Dermita (iritatie de scutec)  {iritatie de scutec}  <Diaper dermatitis> ~ Dermatita
 L23.0   Dermatita alergica de contact datorita metalelor  {Crom / Nichel}  <Allergic contact dermatitis due to metals> ~ Dermatita | Dermatita de contact alergica
 L23.1   Dermatita alergica de contact datorita adezivilor  <Allergic contact dermatitis due to adhesives> ~ Dermatita | Dermatita de contact alergica
 L23.2   Dermatita alergica de contact datorita cosmeticelor  <Allergic contact dermatitis due to cosmetics> ~ Dermatita | Dermatita de contact alergica
@@ -350,7 +343,6 @@ L23.6   Dermatita alergica de contact datorita alimentelor in contact cu pielea 
 L23.7   Dermatita alergica de contact datorita vegetalelor, exceptand alimentele  <Allergic contact dermatitis due to plants, except food> ~ Dermatita | Dermatita de contact alergica
 L23.8   Dermatita alergica de contact datorita altor agenti  <Allergic contact dermatitis due to other agents> ~ Dermatita | Dermatita de contact alergica
 L23.9   Dermatita alergica de contact, cauza nespecificata  {Eczema alergica de contact}  <Allergic contact dermatitis, unspecified cause> ~ Dermatita | Dermatita de contact alergica
-L24     Dermatita iritanta de contact  <Irritant contact dermatitis> ~ Dermatita | Dermatita de contact iritativa | Dermatita de scutec
 L24.0   Dermatita iritanta de contact datorita detergentilor  <Irritant contact dermatitis due to detergents> ~ Dermatita | Dermatita de contact iritativa
 L24.1   Dermatita iritanta de contact datorita uleiurilor si grasimilor  <Irritant contact dermatitis due to oils and greases> ~ Dermatita | Dermatita de contact iritativa
 L24.2   Dermatita iritanta de contact datorita solventilor  <Irritant contact dermatitis due to solvents> ~ Dermatita | Dermatita de contact iritativa
@@ -369,10 +361,8 @@ L25.4   Dermatita de contact nespecificata datorita alimentelor in contact cu pi
 L25.5   Dermatita de contact nespecificata dato-rita vegetalelor, exceptand alimentele  <Unspecified contact dermatitis due to plants, except food> ~ Dermatita
 L25.8   Dermatita de contact nespecificata datorita altor agenti  <Unspecified contact dermatitis due to other agents> ~ Dermatita
 L25.9   Dermatita de contact nespecificata din cauze nespecificate  <Unspecified contact dermatitis, unspecified cause> ~ Dermatita | Edera otravitoare | Dermatita de contact alergica
-L30.0   Dermita numulara  <Nummular dermatitis> ~ Dermatita numulara
 L30.3   Dermatita infectioasa  {Dermatita eczematoida infectioasa}  <Infective dermatitis> ~ Hepatita A | Artrita septica | Esofagita infectioasa
 L56.2   Dermita de fotocontact [dermatita dupa folosire cosmetice antisolare]  {dermatita dupa folosire cosmetice antisolare}  <Photocontact dermatitis [berloque dermatitis]> ~ Dermatita
-L60.3   Distrofia unghiilor  <Nail dystrophy> ~ Onicodistrofie
 L98.1   Dermatita factice  {Excoriatii nevrotice}  <Factitial dermatitis> ~ Dermatita actinica cronica | Eczema
 L98.2   Dermatoza neutrofila febrila [Sweet]  {Sweet}  <Febrile neutrophilic dermatosis [Sweet]> ~ Sindrom Sweet
 M21.1   Deformatia in varus, neclasificata altundeva  <Varus deformity, not elsewhere classified> ~ Boala Blount
@@ -383,7 +373,6 @@ M43.9   Dorsopatia deformanta, nespecificata  {Deviatia coloanei vertebrale / Sp
 M46.4   Discita, nespecificata  <Discitis, unspecified> ~ Spondilodiscita
 M62.0   Diastaza musculara  <Separation of muscle (nontraumatic)> ~ Rabdomioliza
 N18.91  Deficienta renala cronica ~ Insuficienta renala | Boala Addison
-N25.1   Diabet insipid nefrogen  <Nephrogenic diabetes insipidus> ~ Diabet insipid | Diabet insipid nefrogenic
 N87     Displazia colului uterin  <Dysplasia of cervix uteri> ~ Displazie cervicala | Polip cervical
 N87.0   Displazia usoara a colului uterin  {Neoplazia intraepiteliala a colului uterin [CIN], gradul I}  <Mild cervical dysplasia> ~ Displazie cervicala | Neoplazie intraepiteliala cervicala
 N87.1   Displazia moderata a colului uterin  {Neoplazia intraepiteliala a colului uterin [CIN], gradul II}  <Moderate cervical dysplasia> ~ Displazie cervicala | Neoplazie intraepiteliala cervicala
@@ -394,8 +383,8 @@ N90.0   Displazia usoara a vulvei  {Neoplazia intraepiteliala vulvara [VIN], gra
 N90.1   Displazia moderata a vulvei  {Neoplazia intraepiteliala vulvara [VIN], gradul II}  <Moderate vulvar dysplasia> ~ Neoplazie intraepiteliala vulvara
 N94     Durere si alte afectiuni asociate cu organele genitale feminine si cu ciclul menstrual  <Pain and other conditions associated with female genital organs and menstrual cycle> ~ Dismenoree
 N94.0   Dureri intermenstruale  <Mittelschmerz> ~ Dismenoree
-N94.4   Dismenoree primara  <Primary dysmenorrhea> ~ Dismenoree | Oligomenoree
-N94.5   Dismenoree secundara  <Secondary dysmenorrhea> ~ Dismenoree
+N94.4   Dismenoree primara  <Primary dysmenorrhea> ~ Dismenoree | Amenoree primara | Oligomenoree
+N94.5   Dismenoree secundara  <Secondary dysmenorrhea> ~ Dismenoree | Amenoree secundara
 O24     Diabet mellitus in sarcina  <Diabetes mellitus in pregnancy, childbirth, and the puerperium> ~ Diabet gestational
 O24.0   Diabet mellitus pre-existent, tip 1, in sarcina  <Pre-existing type 1 diabetes mellitus, in pregnancy, childbirth and the puerperium> ~ Diabet gestational | Diabet zaharat tip 1
 O24.1   Diabetul mellitus pre-existent, tip 2, in sarcina  <Pre-existing type 2 diabetes mellitus, in pregnancy, childbirth and the puerperium> ~ Diabet gestational | Diabet zaharat
@@ -407,10 +396,7 @@ O45     Dezlipirea prematura a placentei [hematom retro-placentar]  {hematom ret
 O45.9   Dezlipirea prematura a placentei, nespecificata  {Dezlipirea precoce a placentei [abruptio placentae]}  <Premature separation of placenta, unspecified> ~ Decolment prematur de placenta
 O66.0   Distocia de obstacol datorita unei distocii a umarului  {Umar angajat}  <Obstructed labor due to shoulder dystocia> ~ Distocie de umar
 P12.3   Distrugerea scalpului datorita traumatismului la nastere  <Bruising of scalp due to birth injury> ~ Traumatism obstetric
-P70.2   Diabet mellitus neonatal  <Neonatal diabetes mellitus> ~ Diabet neonatal
 P78.3   Diareea neinfectioasa neonatala  {Diareea neonatala}  <Noninfective neonatal diarrhea> ~ Diabet neonatal | Apnee prematurului | Acnee neonatala
-Q21.2   Defect septal atrio-ventricular  {Canal atrio-ventricular comun / Defectul pliurilor endocardice / Defect septal atrial al ostium primum (tip I)}  <Atrioventricular septal defect> ~ Comunicare interventriculara | Defect de sept atrioventricular
-Q21.4   Defect septal aorto-pulmonar  {Defect septal aortic / Fistula aorto-pulmonara}  <Aortopulmonary septal defect> ~ Fereastra aortopulmonara | Comunicare interatriala
 Q39.5   Dilatatia congenitala a esofagului  <Congenital dilatation of esophagus> ~ Duplicatie esofagiana | Megaureter
 Q39.81  Duplicare congenitala a esofagului ~ Duplicatie esofagiana
 Q43.4   Duplicatia intestinului  <Duplication of intestine> ~ Dublura intestinala | Neuropatie viscerala intestinala | Miopatie viscerala intestinala
@@ -425,15 +411,11 @@ Q65.9   Deformatia congenitala a soldului, nespecificata  <Congenital deformity 
 Q68.0   Deformatii congenitale ale muschiului sternocleidomastoidian  {Torticolis (muschi sternomastoidian) congenital / Contractura a muschiului sternocleidomastoidian / Tumora muschi sternomastoidian (congenital)}  <Congenital deformity of sternocleidomastoid muscle> ~ Torticolis congenital
 Q69.2   Deget(e) de la picioare supranumerar(e)  {Hallux accesoriu}  <Accessory toe(s)> ~ Polidactilie
 Q74.08  Deformatia Sprengel  {Proeminenta congenitala a scapulei} ~ Sindrom Sprengel
-Q75.4   Disostoza mandibulo-faciala  <Mandibulofacial dysostosis> ~ Sindrom Treacher Collins | Sindrom Crouzon
 Q75.81  Displazia fronto-nasala  {Sindromul fisurii faciale mediane} ~ Displazie frontonazala
-Q77.5   Displazia distrofica  {Nanism distrofic}  <Diastrophic dysplasia> ~ Nanism diastrofic
 Q78.1   Displazia fibroasa poliostotica  {Sindromul Albright(-McCune) (-Sternberg)}  <Polyostotic fibrous dysplasia> ~ Displazie fibroasa
-Q78.5   Displazia metafizei  {Sindromul Pyle}  <Metaphyseal dysplasia> ~ Displazie metaphizara | Sindrom metabolic
-Q82.3   Deficienta pigmentara  <Incontinentia pigmenti> ~ Insuficienta placentara | Intarziere mentala | Retinita pigmentara
 Q82.4   Displazia ectodermala (anhidrotica)  {anhidrotica}  <Ectodermal dysplasia (anhidrotic)> ~ Sindrom Ellis-van Creveld | Displazie ectodermica | Anhidroza
 Q89.31  Dextrocardia cu situs inversus ~ Situs inversus
-===== EXISTA (64)
+===== EXISTA (82)
 A06.0   Dizenteria amibiana acuta = Dizenterie amibiana [temporal (G1)]
 A09     Diareea si gastro-enterita probabil infectioase = Tuberculoza [exact]
 A36     Difteria = Difterie [terminatii]
@@ -443,6 +425,7 @@ A36.3   Difteria cutanata = Difterie cutanata [terminatii]
 A90     Denga (denga clasica) = Denga [exact]
 B35     Dermatofitoze = Dermatofitoza [terminatii]
 B65.3   Dermatita cercariara = Dermatita schistosomica [terminatii]
+B70.0   Diphyllobothriaza = Difilobotrioza [exact]
 B72     Dracunculoza = Dracunculoza [exact]
 D50.1   Disfagia sideropenica = Sindrom Plummer-Vinson [terminatii]
 D69.1   Defecte calitative ale trombocitelor = Boala Glanzmann [exact]
@@ -463,41 +446,58 @@ G71.0   Distrofia musculara = Distrofie musculara [terminatii]
 G90.1   Disautonomia familiala [Riley-Day] = Sindrom Riley-Day [terminatii]
 H04.0   Dacrioadenita = Dacrioadenita [exact]
 H18.4   Degenerescenta corneei = Arcul senil [terminatii]
+H31.2   Distrofia ereditara a choroidei = Distrofie coroidiana [exact]
+H31.4   Dezlipirea choroidei = Detasament coroidian [exact]
 H35.4   Degenerescenta retiniana periferica = Degenerescenta retiniana periferica [exact]
 H53.2   Diplopia = Diplopie [exact]
+H69.0   Distensiunea trompei Eustache = Trompa Eustachio deschisa [exact]
 K22.4   Dischinezia esofagului = Spasme esofagiene difuze [exact]
 K29.8   Duodenita = Duodenita [exact]
 K30     Dispepsia = Dispepsie [terminatii]
 K31.0   Dilatatia acuta a stomacului = Dilatatie gastrica acuta [terminatii]
 K31.4   Diverticul gastric = Diverticul gastric [exact]
+K59.1   Diareea functionala = Diaree functionala [exact]
 L13.0   Dermatita herpetiforma = Dermatita herpetiforma [exact]
 L20     Dermatita atopica = Eczema [exact]
 L21     Dermatita seboreica = Dermatita [exact]
+L22     Dermita (iritatie de scutec) = Dermatita de scutec [exact]
 L23     Dermatita alergica de contact = Dermatita de contact alergica [exact]
+L24     Dermatita iritanta de contact = Dermatita de contact iritativa [exact]
 L25     Dermatita de contact nespecificata = Dermatita [exact]
 L26     Dermatita exfoliativa = Dermatita exfoliativa [exact]
+L30.0   Dermita numulara = Dermatita numulara [exact]
 L30.1   Dishidroza [pompholyx] = Dermatita disidrozica [exact]
 L30.9   Dermatita, nespecificata = Dermatita [exact]
+L60.3   Distrofia unghiilor = Onicodistrofie [exact]
 L71.0   Dermatita periorala = Dermatita periorala [exact]
+L81.7   Dermatoza purpurica pigmentata = Capilarita [exact]
 M33.0   Dermatomiozita juvenila = Dermatomiozita juvenila [exact]
 M54.5   Dorsalgie joasa = Lombalgie [exact]
 M65.3   Deget "in resort" = Deget in resort [exact]
 M85.0   Displazia fibroasa (localizata) = Displazie fibroasa [terminatii]
+N25.1   Diabet insipid nefrogen = Diabet insipid nefrogenic [exact]
 N36.1   Diverticul uretral = Diverticul uretral [exact]
 N94.1   Dispareunie = Dispareunie [exact]
 N94.6   Dismenoree, nespecificata = Dismenoree [exact]
+P70.2   Diabet mellitus neonatal = Diabet neonatal [exact]
 Q06.2   Diastematomielia = Diastematomielie [exact]
 Q21.0   Defect septal ventricular = Comunicare interventriculara [exact]
 Q21.1   Defect septal atrial = Comunicare interatriala [exact]
+Q21.2   Defect septal atrio-ventricular = Defect de sept atrioventricular [exact]
+Q21.4   Defect septal aorto-pulmonar = Fereastra aortopulmonara [exact]
 Q24.0   Dextrocardia = Dextrocardia [exact]
 Q39.6   Diverticul al esofagului = Diverticul al esofagului [exact]
 Q43.0   Diverticul Meckel = Diverticul Meckel [exact]
 Q69.0   Deget(e) supranumerar(e) = Polidactilie [terminatii]
 Q70.1   Degete lipite = Sindactilie [exact]
 Q75.1   Disostoza cranio-faciala = Sindrom Crouzon [exact]
+Q75.4   Disostoza mandibulo-faciala = Sindrom Treacher Collins [exact]
+Q77.5   Displazia distrofica = Nanism diastrofic [exact]
 Q77.6   Displazia condroectodermala = Sindrom Ellis-van Creveld [terminatii]
 Q77.7   Displazia spondiloepifizara = Displazie spondiloepifizara [terminatii]
 Q78.3   Displazia progresiva diafizala = Sindrom Camurati-Engelmann [terminatii]
+Q78.5   Displazia metafizei = Displazie metaphizara [exact]
+Q82.3   Deficienta pigmentara = Incontinentia pigmenti [exact]
 ===== ELIMINAT (23)
 A36.9   Difteria, nespecificata [dublura categoriei parinte (nespecificat)]
 B35.9   Dermatofitoze, nespecificate [dublura categoriei parinte (nespecificat)]

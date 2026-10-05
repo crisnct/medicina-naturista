@@ -1,0 +1,185 @@
+? A22.1   Boala colectorilor de zdrente   [titlu: Antrax pulmonar]  <Pulmonary anthrax>  ~ 
+? A22.1   Boala sortatorilor de lana   [titlu: Antrax pulmonar]  <Pulmonary anthrax>  ~ 
+? A39.9   Boala meningococica   [titlu: Infectia meningococica, nespecificata]  <Meningococcal infection, unspecified>  ~ Artrita meningococica
+? A50.5   Boala Clutton†   [titlu: Alte forme tardive de sifilis congenital, simptomatic]  <Other late congenital syphilis, symptomatic>  ~ Sindrom Clouston | Boala Bruton
+? A52.7   Boala glomerulara in sifilis†   [titlu: Alte forme de sifilis tardiv, cu simptome]  <Other symptomatic late syphilis>  ~ 
+? A55     Bubonul climatic sau tropical   [titlu: Limfogranulomatoza veneriana cu Chlamydia]  <Chlamydial lymphogranuloma (venereum)>  ~ 
+? A55     Boala Durand-Nicolas-Favre   [titlu: Limfogranulomatoza veneriana cu Chlamydia]  <Chlamydial lymphogranuloma (venereum)>  ~ Limfogranulom venereu
+? A65     Bejel   [titlu: Sifilisul nevenerian]  <Nonvenereal syphilis>  ~ 
+? A75.1   boala Brill   [titlu: Tifosul recrudescent [boala Brill]]  <Recrudescent typhus [Brill's disease]>  ~ Artrita idiopatica juvenila
+? A75.1   Boala Brill-Zinsser   [titlu: Tifosul recrudescent [boala Brill]]  <Recrudescent typhus [Brill's disease]>  ~ 
+? A81.9   Boala cu prion a sistemului nervos central   [titlu: Infectia cu virus atipic a sistemului nervos central, nespecificata]  <Atypical virus infection of central nervous system, unspecified>  ~ Nocardioza cerebrala | Vasculita cerebrala | Limfom primar al sistemului nervos central
+? A83.4   Boala virala de Kunjin   [titlu: Encefalita australiana]  <Australian encephalitis>  ~ 
+? A84.8   Boala Louping (encefalomielita ovina)   [titlu: Alte encefalite cu virus transmis de capuse]  <Other tick-borne viral encephalitis>  ~ 
+? A84.8   Boala virala Powassan   [titlu: Alte encefalite cu virus transmis de capuse]  <Other tick-borne viral encephalitis>  ~ 
+? A85.8   Boala Von Economo-Cruchet   [titlu: Alte encefalite virale specificate]  <Other specified viral encephalitis>  ~ 
+? A93.8   Boala virala Piry   [titlu: Alte febre virale specificate, transmise de artropode]  <Other specified arthropod-borne viral fevers>  ~ 
+? B00.4   Boala Simian B   [titlu: Encefalita cu virusul herpetic]  <Herpesviral encephalitis>  ~ 
+? B08.0   Boala cu virusul Orf   [titlu: Alte infectii prin orthopoxvirus]  <Other orthopoxvirus infections>  ~ Boala cu virusul Ebola | Infectie cu virusul Zika | Boala cu virusul Marburg
+? B19.9   Bolile prin virusul imunodeficientei umane (HIV)   [titlu: Hepatita virala nespecificata fara coma hepatica]  <Unspecified viral hepatitis without hepatic coma>  ~ Sida
+? B48.0   Blastomicoza cheloida   [titlu: Lobomicoza]  <Lobomycosis>  ~ 
+? B48.0   Boala Lobo   [titlu: Lobomicoza]  <Lobomycosis>  ~ Boala Lowe | Sindrom Good | Scleroza concentrica Balo
+? B49     Boli prin protozoare   [titlu: Micoze nespecificate]  <Unspecified mycosis>  ~ 
+? B56.0   Boala somnului din Africa occidentala   [titlu: Trypanosomiaza gambiense]  <Gambiense trypanosomiasis>  ~ 
+? B56.1   Boala somnului din Africa orientala   [titlu: Trypanosomiaza rhodesiense]  <Rhodesiense trypanosomiasis>  ~ 
+? B65     bilharziaza   [titlu: Schistosomiaza [bilharziaza]]  <Schistosomiasis [bilharziasis]>  ~ Schistosomiaza
+? B66.1   Boala chineza cu parazit hepatic   [titlu: Clonorchiaza]  <Clonorchiasis>  ~ 
+? B66.1   Boala orientala cu parazit hepatic   [titlu: Clonorchiaza]  <Clonorchiasis>  ~ 
+? B66.4   Boala prin parazit pulmonar   [titlu: Paragonimoza]  <Paragonimiasis>  ~ 
+? B74.3   Boala viermilor din specia Nematoda din Africa   [titlu: Loiasis]  <Loiasis>  ~ 
+? B96.5   Burkholderia pseudommallei   [titlu: Pseudomonas, (aeruginosa) (Burkholderia pseudommallei) (mallei) cauza unor boli clasate la alte capitole]  <Pseudomonas (aeruginosa) (mallei) (pseudomallei) as the cause of diseases classified elsewhere>  ~ Melioidoza
+? C32.1   Benzile ventriculare   [titlu: Supraglota]  <Malignant neoplasm of supraglottis>  ~ 
+? C72.2   Bulbul olfactiv   [titlu: Nervul olfactiv]  <Malignant neoplasm of olfactory nerve>  ~ 
+? C94.0   Boala Di Guglielmo   [titlu: Eritremia acuta si eritroleucemia]  <Acute erythroid leukemia>  ~ 
+? C94.1   Boala Heilmeyer-Schöner   [titlu: Eritremia cronica]  <>  ~ 
+? D33.3   Bulbul olfactiv   [titlu: Nervi cranieni]  <Benign neoplasm of cranial nerves>  ~ 
+? D47.9   Boala limfoproliferativa   [titlu: Tumora cu evolutie imprevizibila sau comportament necunoscut a tesuturilor limfoid, hematopoietic si inrudite, nespecificata]  <Neoplasm of uncertain behavior of lymphoid, hematopoietic and related tissue, unspecified>  ~ Boala limfoproliferativa legata de X
+? D57.0   Boala Hb-SS cu crize   [titlu: Anemia cu hematii falciforme (anemie drepanocitara) cu crize]  <Hb-SS disease with crisis>  ~ 
+? D59.1   Boala hemolitica autoimuna (tipul la rece) (tipul la cald)   [titlu: Alte anemii hemolitice autoimune]  <Other autoimmune hemolytic anemias>  ~ 
+? D59.1   Boala hemoglutinica cronica la rece   [titlu: Alte anemii hemolitice autoimune]  <Other autoimmune hemolytic anemias>  ~ 
+? D70     Boala Kostmann   [titlu: Agranulocitoza]  <Neutropenia>  ~ Sindrom Kostmann | Sindrom Omenn
+? D71     Boala granulomatoasa cronica (infantila)   [titlu: Tulburari functionale ale polinuclearelor neutrofile]  <Functional disorders of polymorphonuclear neutrophils>  ~ Boala granulomatoasa cronica legata de X | Boala granulomatoasa cronica | Sindrom CINCA
+? D74.0   Boala hemoglobina-M [Hb-M]   [titlu: Methemoglobinemia congenitala]  <Congenital methemoglobinemia>  ~ Boala HbM | Boala hemoglobinei H
+? D76.0   Boala Hand-Schuller-Christian   [titlu: Histiocitoza celulelor Langerhans, neclasificata altundeva]  <>  ~ 
+? D82.3   Boala limfoproliferativa legata de cromozomul X   [titlu: Imuno-deficienta ca urmare a raspunsului defectiv ereditar la infectia cu virusul Epstein-Barr]  <Immunodeficiency following hereditary defective response to Epstein-Barr virus>  ~ Boala limfoproliferativa legata de X
+? D89.9   Boala imunitara   [titlu: Tulburari implicand sistemul imunitar, nespecificate]  <Disorder involving the immune mechanism, unspecified>  ~ 
+? D89.9   Boli endocrine, de nutritie si metabolism   [titlu: Tulburari implicand sistemul imunitar, nespecificate]  <Disorder involving the immune mechanism, unspecified>  ~ 
+? E16.9   Bolile altor glande endocrine   [titlu: Tulburari ale secretiei interne pancreatice, nespecificate]  <Disorder of pancreatic internal secretion, unspecified>  ~ 
+? E29.1   Biosinteza defectuoasa a hormonului androgen testicular   [titlu: Hipofunctia testiculara]  <Testicular hypofunction>  ~ 
+? E75.5   Bogaert-Scherer-Epstein]   [titlu: Alte tulburari ale lipidelor de rezerva]  <Other lipid storage disorders>  ~ 
+? E78.2   Betalipoproteinemia larga sau flotanta   [titlu: Hiperlipidemie mixta]  <Mixed hyperlipidemia>  ~ 
+? E83.0   Boala Menkes (par cret)(par otelit)   [titlu: Tulburari de metabolism al cuprului]  <Disorders of copper metabolism>  ~ 
+? E88.0   Bisalbuminemia   [titlu: Tulburari de metabolism al alfa-proteinelor, neclasificate altundeva]  <Disorders of plasma-protein metabolism, not elsewhere classified>  ~ Analbuminemie
+? F09     Betie acuta in alcoolism   [titlu: Tulburare mentala organica sau simptomatica, nespecificata]  <Unspecified mental disorder due to known physiological condition>  ~ 
+? F23.0   Bufeu delirant fara simptome de schizofrenie sau   [titlu: Tulburare psihotica polimorfa acuta, fara simptome schizofrenice]  <>  ~ 
+? F23.1   Bufeu delirant cu simptome de schizofrenie   [titlu: Tulburare psihotica acuta cu simptome schizofrenice]  <>  ~ 
+? F99     Boala mentala   [titlu: Tulburare mentala, nespecificata altminteri]  <Mental disorder, not otherwise specified>  ~ 
+? F99     Bolile sistemului nervos   [titlu: Tulburare mentala, nespecificata altminteri]  <Mental disorder, not otherwise specified>  ~ Candidoza meningeana | Limfom primar al sistemului nervos central | Meningita criptocococica | Neurobruceloza | Neurocisticercoza | Neurosarcoidoza
+? F99     Boli inflamatorii ale sistemului nervos central   [titlu: Tulburare mentala, nespecificata altminteri]  <Mental disorder, not otherwise specified>  ~ Limfom primar al sistemului nervos central
+? G32.8   Boli demielinizante ale sistemului nervos central   [titlu: Alte tulburari degenerative specificate ale sistemului nervos in boli clasificate altundeva]  <Other specified degenerative disorders of nervous system in diseases classified elsewhere>  ~ 
+? G37.5   Baló   [titlu: Scleroza concentrica [Baló]]  <Concentric sclerosis [Balo] of central nervous system>  ~ Scleroza concentrica Balo
+? G60.8   Boala Morvan   [titlu: Alte neuropatii ereditare si idiopatice]  <Other hereditary and idiopathic neuropathies>  ~ Sindrom Morton | Sindrom Marfan
+? G99.8   Bolile ochiului si anexelor sale   [titlu: Alte afectiuni specificate ale sistemului nervos in boli clasificate altundeva]  <Other specified disorders of nervous system in diseases classified elsewhere>  ~ 
+? H30.8   Boala Harada   [titlu: Alte chorioretinite]  <Other chorioretinal inflammations>  ~ Sindrom Brugada
+? H59.9   Bolile urechii si apofizei mastoide   [titlu: Afectiune postprocedurala a ochiului si anexelor, nespecificata]  <>  ~ 
+? H59.9   Boli ale urechii externe   [titlu: Afectiune postprocedurala a ochiului si anexelor, nespecificata]  <>  ~ Microtie | Otita externa
+? H62.8   Boli ale urechii medii si apofizei mastoide   [titlu: Alte afectiuni ale urechii externe in boli clasificate altundeva]  <Other disorders of external ear in diseases classified elsewhere>  ~ 
+? H66.1   Boala tubo-timpanica cronica   [titlu: Otita medie cronica tubo-timpanica supurata]  <Chronic tubotympanic suppurative otitis media>  ~ 
+? H66.2   Boala atticoantrala cronica   [titlu: Otita medie cronica atticoantrala supurata]  <Chronic atticoantral suppurative otitis media>  ~ 
+? H75.8   Boli ale urechii interne   [titlu: Alte afectiuni specificate ale urechii medii si apofizei mastoide in boli clasificate altundeva]  <Other specified disorders of middle ear and mastoid in diseases classified elsewhere>  ~ 
+? H95.9   Bolile sistemului circulator   [titlu: Afectiuni postprocedurale la nivelul urechii si apofizei mastoide, nespecificate]  <>  ~ 
+? I09.8   Boala reumatismala a valvei pulmonare   [titlu: Alte cardiopatii reumatismale specificate]  <Other specified rheumatic heart diseases>  ~ Boala valvulara pulmonara
+? I09.9   Bolile hipertensive   [titlu: Cardiopatia reumatismala, nespecificata]  <Rheumatic heart disease, unspecified>  ~ 
+? I15.9   Bolile ischemice ale inimii   [titlu: Hipertensiunea secundara,nespecificata]  <Secondary hypertension, unspecified>  ~ 
+? I44.3   Bloc atrioventricular   [titlu: Alte blocuri atrio-ventriculare si nespecificate]  <Other and unspecified atrioventricular block>  ~ Bloc atrioventricular congenital | Bloc atrioventricular grad I | Bloc atrioventricular grad II | Bloc atrioventricular grad III
+? I45.1   Bloc al ramurii drepte al fascicolului   [titlu: Alte blocuri ale ramurii drepte a fascicolului si nespecificate]  <Other and unspecified right bundle-branch block>  ~ 
+? I45.5   Bloc sinoatrial   [titlu: Alte blocuri cardiace specificate]  <Other specified heart block>  ~ Aritmie bloc sinoatrial
+? I45.5   Bloc sinoauricular   [titlu: Alte blocuri cardiace specificate]  <Other specified heart block>  ~ 
+? I45.9   Blocul inimii   [titlu: Tulburari de conducere, nespecificate]  <Conduction disorder, unspecified>  ~ 
+? I49.1   Batai atriale premature   [titlu: Depolarizare atriala prematura]  <Atrial premature depolarization>  ~ 
+? I49.4   Batai ectopice   [titlu: Alte depolarizari premature si nespecificate]  <Other and unspecified premature depolarization>  ~ 
+? I52.8   Bolile cerebro-vasculare   [titlu: Alte cardiopatii in alte boli clasificate altundeva]  <>  ~ 
+? I69.8   Bolile arterelor, arteriolelor si capilarelor   [titlu: Sechelele altor boli cerebrovasculare si nespecificate]  <Sequelae of other cerebrovascular diseases>  ~ 
+? I73.1   Buerger   [titlu: Trombangeita obliteranta [Buerger]]  <Thromboangiitis obliterans [Buerger's disease]>  ~ Boala Buerger
+? I78.0   Boala Rendu-Osler-Weber   [titlu: Teleangiectazia hemoragica ereditara]  <Hereditary hemorrhagic telangiectasia>  ~ Boala Osler-Weber-Rendu
+? I79.8   Bolile venelor, vaselor limfatice si ganglionilor limfatici   [titlu: Alte boli ale arterelor, arteriolelor si capilarelor in boli clasificate altundeva]  <Other disorders of arteries, arterioles and capillaries in diseases classified elsewhere>  ~ 
+? I99     Bolile sistemului respirator   [titlu: Alte afectiuni ale sistemului circulator si nespecificate]  <Other and unspecified disorders of circulatory system>  ~ 
+? J10.0   Bronho   [titlu: Gripa cu pneumonie, virus gripal identificat (Bronho)pneumonia virala, virus gripal identificat]  <Influenza due to other identified influenza virus with pneumonia>  ~ 
+? J11.0   Bronho   [titlu: Gripa cu pneumonie, virus neidentificat (Bronho)pneumonia virala, nespecificata sau virus specific neidentificat]  <Influenza due to unidentified influenza virus with pneumonia>  ~ 
+? J13     Bronhopneumonia datorita Streptococcus pneumoniae   [titlu: Pneumonia datorita Streptococcus pneumoniae]  <Pneumonia due to Streptococcus pneumoniae>  ~ 
+? J14     Bronhopneumonia datorita Haemophilus influenzae   [titlu: Pneumonia datorita Haemophilus influenzae]  <Pneumonia due to Hemophilus influenzae>  ~ 
+? J38.7   Boala a laringelui   [titlu: Alte boli ale laringelui]  <Other diseases of larynx>  ~ 
+? J45.9   Bronsita astmatica   [titlu: Astm, nespecificat]  <Other and unspecified asthma>  ~ Bronsita acuta cu obstructie | Bronsita astmatiforma
+? J67.0   Boala mucegaiului de fan   [titlu: Pulmonul fermierului]  <Farmer's lung>  ~ 
+? J67.2   Boala pulmonara a crescatorilor de papagali   [titlu: Plamanul crescatorilor de pasari]  <Bird fancier's lung>  ~ 
+? J67.2   Boala pulmonara a crescatorilor de porumbei   [titlu: Plamanul crescatorilor de pasari]  <Bird fancier's lung>  ~ 
+? J67.3   Boala sau pulmonul manipulatorilor de scoarta de pluta   [titlu: Suberoza]  <Suberosis>  ~ 
+? J67.3   Boala sau pulmonul muncitorilor cu scoarta de pluta   [titlu: Suberoza]  <Suberosis>  ~ 
+? J67.8   Boala datorita sequoei   [titlu: Pneumopatii prin hipersensibilitate la alte pulberi organice]  <Hypersensitivity pneumonitis due to other organic dusts>  ~ 
+? J80     Boala membranelor hialine la adult   [titlu: Sindrom de suferinta respiratorie la adult]  <Acute respiratory distress syndrome>  ~ Sindrom de detresa respiratorie acuta la nou-nascut
+? J84.8   Bronsiolita obliteranta care provoaca pneumonia [BOOP]   [titlu: Alte boli pulmonare interstitiale specificate]  <Other specified interstitial pulmonary diseases>  ~ Bronsiolita obliteranta
+? J98.0   Bronholitiaza   [titlu: Afectiuni ale traheii si bronhiilor, neclasificate altundeva]  <Diseases of bronchus, not elsewhere classified>  ~ 
+? J98.4   Boala chistica a pulmonului (dobandita)   [titlu: Alte modificari pulmonare]  <Other disorders of lung>  ~ 
+? J98.4   Boala pulmonului   [titlu: Alte modificari pulmonare]  <Other disorders of lung>  ~ Boala somnului
+? J98.9   Boala respiratorie (cronica)   [titlu: Tulburare respiratorie, nespecificata]  <Respiratory disorder, unspecified>  ~ Acidoza respiratorie
+? J99.8   Bolile sistemului digestiv   [titlu: Tulburari respiratorii in alte boli, clasificate altundeva]  <>  ~ 
+? J99.8   Bolile cavitatii bucale, glandelor salivare si maxilarelor   [titlu: Tulburari respiratorii in alte boli, clasificate altundeva]  <>  ~ 
+? K11.8   Boala Mikulicz   [titlu: Alte boli ale glandelor salivare]  <Other diseases of salivary glands>  ~ 
+? K50.8   Boala Crohn atat a intestinului subtire cat si a intestinului gros   [titlu: Alte forme ale bolii Crohn]  <Crohn's disease of both small and large intestine>  ~ 
+? K56.5   bride   [titlu: Aderente intestinale [bride] cu obstructie]  <Intestinal adhesions [bands] with obstruction (postinfection)>  ~ 
+? K67.8   Bolile ficatului   [titlu: Alte tulburari ale peritoneului in boli infectioase clasificate altundeva]  <>  ~ 
+? K90.8   Boala Whipple †   [titlu: Alte malabsorbtii intestinale]  <Other intestinal malabsorption>  ~ 
+? K93.8   Bolile pielii si tesutului celular subcutanat   [titlu: Afectiunile altor organe digestive specificate in boli clasificate altundeva]  <>  ~ 
+? L00     Boala Ritter   [titlu: Sindromul stafilococic al necrozei epidermice toxice]  <Staphylococcal scalded skin syndrome>  ~ Sindromul pielii oparite | Artrita reactiva | Distrofie miotonica tip 2 | Boala Darier
+? L03.10  Brat   [titlu: Celulita membrului superior]  <>  ~ 
+? L13.1   Boala Sneddon-Wilkinson   [titlu: Dermatoza pustuloasa subcorneeana]  <Subcorneal pustular dermatitis>  ~ 
+? L40.1   Boala von Zumbusch   [titlu: Psoriazis pustular generalizat]  <Generalized pustular psoriasis>  ~ 
+? L41.0   Boala Mucha-Habermann   [titlu: Pitiriazis lichenoid si varioliform acut]  <Pityriasis lichenoides et varioliformis acuta>  ~ Papuloza limfomatoida | Pitiriazis lichenoid cronic
+? L54.8   Bolile pielii si ale tesutului celular subcutanat legate de o iradiere   [titlu: Eritemul in alte boli clasificate altundeva]  <>  ~ 
+? L82     Boala Leser-Trélat   [titlu: Cheratoza seboreica]  <Seborrheic keratosis>  ~ 
+? M10.0   Bursita gutoasa   [titlu: Guta idiopatica]  <Idiopathic gout>  ~ Artrita gutoasa
+? M32.1   Boala Libman-Sacks   [titlu: Lupus eritematos sistemic cu atingerea unor organe sau sisteme]  <Systemic lupus erythematosus with organ or system involvement>  ~ Endocardita Libman-Sacks
+? M35.9   Boala autoimuna (sistemica)   [titlu: Atingeri sistemice ale tesutului conjuctiv, nespecificate]  <Systemic involvement of connective tissue, unspecified>  ~ Mastocitoza sistemica
+? M35.9   Boala de colagen (vascular)   [titlu: Atingeri sistemice ale tesutului conjuctiv, nespecificate]  <Systemic involvement of connective tissue, unspecified>  ~ 
+? M42.0   Boala Calve   [titlu: Osteocondroza vertebrala juvenila]  <Juvenile osteochondrosis of spine>  ~ Glicogenoza tip V | Pemfigoid bulos | Boala Lev
+? M70.7   Bursita ischiala   [titlu: Alte bursite ale soldului]  <Other bursitis of hip>  ~ Bursita ischiogluteala
+? M71.2   Baker   [titlu: Chist sinovial al spatiului popliteu [Baker]]  <Synovial cyst of popliteal space [Baker]>  ~ 
+? M75.3   Bursa calcifianta a umarului   [titlu: Tendinita calcificanta a umarului]  <Calcific tendinitis of shoulder>  ~ Tendinita calcifianta a umarului
+? M76.6   Bursita tendonului lui Ahile   [titlu: Tendinita tendonului lui Ahille]  <Achilles tendinitis>  ~ Tendinita achiliana
+? M99.9   Bolile sistemului genito-urinar   [titlu: Leziune biomecanica, nespecificata]  <Biomechanical lesion, unspecified>  ~ 
+? M99.9   Boli glomerulare   [titlu: Leziune biomecanica, nespecificata]  <Biomechanical lesion, unspecified>  ~ Glomerulonefrita
+? N08.8   Bolile renale tubulo-interstitiale   [titlu: Tulburari glomerulare in alte boli clasificate altundeva]  <>  ~ Nefrita interstitiala
+? N22.0   bilharziaza   [titlu: Litiaza urinara in schistosomiaza [bilharziaza] (B65.-†)]  <>  ~ Schistosomiaza
+? N28.9   Boala renala   [titlu: Tulburare a rinichiului si a ureterului, nespecificata]  <Disorder of kidney and ureter, unspecified>  ~ Colica renala | Boala Fabry renala
+? N39.9   Bolile organelor genitale la barbat   [titlu: Tulburare a sistemului urinar, nespecificata]  <Disorder of urinary system, unspecified>  ~ 
+? N40     Bara mediana (a prostatei)   [titlu: Hiperplazia prostatei]  <Benign prostatic hyperplasia>  ~ 
+? N48.0   Balanita xerotica obliteranta   [titlu: Leucoplazia penisului]  <Leukoplakia of penis>  ~ Leucoplazie de penis
+? N64.9   Boli inflamatorii ale organelor pelviene feminine   [titlu: Afectiune a sanului, nespecificata]  <Disorder of breast, unspecified>  ~ 
+? N75.8   Bartholinita   [titlu: Alte boli ale glandei Bartholin]  <Other diseases of Bartholin's gland>  ~ Bartolinita
+? O01.9   Boala trofoblastica   [titlu: Mola hidatiforma, nespecificata]  <Hydatidiform mole, unspecified>  ~ 
+? O33.1   Bazin ingust cauzand disproportie   [titlu: Ingrijiri acordate mamei pentru o disproportie datorita bazinului matern ingust in general]  <Maternal care for disproportion due to generally contracted pelvis>  ~ 
+? O64.4   Brat prolabat   [titlu: Distocia de obstacol datorita unei prezentatii umerale]  <Obstructed labor due to shoulder presentation>  ~ 
+? P94.2   Bebelus moale   [titlu: Hipotonia congenitala]  <Congenital hypotonia>  ~ 
+? Q43.32  bride   [titlu: Aderente intraabdominale [bride] congenitale]  <>  ~ 
+? Q61.8   Boala chistica glomerulara   [titlu: Alte boli chistice ale rinichiului]  <Other cystic kidney diseases>  ~ Glomerulonefrita
+? Q75.01  Brahicefalia   [titlu: Craniosinostoza coronala]  <Sagittal craniosynostosis>  ~ 
+? Q75.31  benigna   [titlu: Macrocefalia (benigna) familiala]  <>  ~ 
+? Q78.4   Boala Ollier   [titlu: Encondromatoza]  <Enchondromatosis>  ~ Boala Kohler | Meloreostoza | Fenilcetonurie
+? Q92.2   Bratul intreg sau mai multe duplicate   [titlu: Trisomia majora partiala]  <Partial trisomy>  ~ 
+= A18.7   Boala Addison, tuberculoasa  -> Tuberculoza suprarenaliana
+= A24.4   Boala Whitmore  -> Melioidoza
+= A30     Boala Hansen  -> Lepra
+= A49.9   Bacteremia  -> Bacteriemie
+= B33.0   Boala Bornholm  -> Pleurodinia
+= B56.9   Boala somnului  -> Boala somnului
+= C90.0   Boala Kahler  -> Mielom multiplu
+= D67     Boala Christmas  -> Hemofilie B
+= D69.1   Boala Glanzmann  -> Boala Glanzmann
+= D75.8   Bazofilia  -> Bazofilie
+= E05.0   Boala Graves  -> Boala Graves
+= E27.1   Boala Addison  -> Boala Addison
+= E59     Boala Keshan  -> Boala Keshan
+= E65     Burelet adipos  -> Adipozitate localizata
+= E72.0   Boala Hartnup  -> Sindrom Hartnup
+= E75.5   Boala Wolman  -> Boala Wolman
+= E78.6   Boala Tangier  -> Boala Tangier
+= E83.0   Boala Wilson  -> Boala Wilson
+= F09     Betie  -> Alcoolism
+= G31.0   Boala Pick  -> Dementa frontotemporala
+= G37.0   Boala Schilder  -> Boala Schilder
+= H02.5   Blefarofimoza  -> Blefarofimoza
+= I67.3   Boala Binswanger  -> Boala Binswanger
+= K29.6   Boala Ménétrier  -> Gastropatie hipertrofica
+= L13.0   Boala Duhring  -> Dermatita herpetiforma
+= L75.2   Boala Fox-Fordyce  -> Boala Fox-Fordyce
+= M08.2   Boala Still  -> Artrita idiopatica juvenila
+= M20.1   Bunion  -> Monturi
+= M35.1   Boala mixta a tesutului conjunctiv  -> Boala mixta a tesutului conjunctiv
+= M42.0   Boala Scheuermann  -> Boala Scheuermann
+= M89.4   Boala Marie-Bamberger  -> Osteoartropatie hipertrofica
+= N48.6   Boala Peyronie  -> Boala Peyronie
+= P22.0   Boala membranei hialine  -> Sindrom de detresa respiratorie acuta la nou-nascut
+= Q15.0   Buftalmia  -> Glaucom congenital
+= Q75.1   Boala Crouzon  -> Sindrom Crouzon
+= Q85.0   Boala Von Recklinghausen  -> Neurofibromatoza tip 1
+= Q85.1   Boala Bourneville  -> Scleroza tuberoasa

@@ -1,4 +1,4 @@
-===== NOU (57)
+===== NOU (54)
 A30.0   Lepra nedeterminata  {Lepra grupa I}  <Indeterminate leprosy>
 A55     Limfogranulomatoza veneriana cu Chlamydia  {Bubonul climatic sau tropical / Boala Durand-Nicolas-Favre / Esthiomene / Limfogranulomul inghinal}  <Chlamydial lymphogranuloma (venereum)>
 A66.0   Leziunile initiale ale pianului  {Sancrul pianic / Framboesia initiala sau primara / Ulcerul framboesian initial / Pianul mama}  <Initial lesions of yaws>
@@ -8,11 +8,9 @@ A67.1   Leziunile intermediare ale pintei  {Placile eritematoase ale pintei [car
 A67.2   Leziunile tardive ale pintei  {Leziuni cardiovasculare† ale pintei [carate]}  <Late lesions of pinta>
 A67.3   Leziunile mixte ale pintei  {Leziunile cutanate acromice si hipercromice ale pintei [carate]}  <Mixed lesions of pinta>
 B55     Leishmaniaza  <Leishmaniasis>
-B55.2   Leishmaniaza cutaneo-mucoasa  <Mucocutaneous leishmaniasis>
 C84     Limfoame periferice si cutanate cu celule T  <Mature T/NK-cell lymphomas>
 C84.2   Limfom al zonei T
 C91.5   Leucemia adultului cu limfocite T  <Adult T-cell lymphoma/leukemia (HTLV-1-associated)>
-C94.2   Leucemia acuta cu megacarioblasti  <Acute megakaryoblastic leukemia>
 C95.2   Leucemia subacuta cu celule de tip nespecificat
 C96.3   Limfom histiocitar adevarat
 E75.4   Lipofuscinoza cu ceroide neuronale  <Neuronal ceroid lipofuscinosis>
@@ -29,7 +27,6 @@ L04.1   Limfadenita acuta a trunchiului  <Acute lymphadenitis of trunk>
 L04.2   Limfadenita acuta a membrului superior  {Axila / Umar}  <Acute lymphadenitis of upper limb>
 L04.3   Limfadenita acuta a membrului inferior  {Sold}  <Acute lymphadenitis of lower limb>
 L04.8   Limfadenita acuta cu alte localizari  <Acute lymphadenitis of other sites>
-L44.1   Lichen neted  <Lichen nitidus>
 L60.4   Liniile Beau  <Beau's lines>
 L90.0   Lichen scleros si atrofic  <Lichen sclerosus et atrophicus>
 M22.0   Luxatia recidivanta a rotulei  <Recurrent dislocation of patella>
@@ -56,22 +53,17 @@ Q24.1   Levocardia  <Levocardia>
 Q33.1   Lob pulmonar accesoriu  <Accessory lobe of lung>
 Q72.7   Laba piciorului despicata  <Split foot>
 Q76.44  Lordoza congenitala, de postura
-===== POSIBIL (77)
+===== POSIBIL (69)
 A18.2   Limfadenopatia tuberculoasa periferica  {Adenita tuberculoasa}  <Tuberculous peripheral lymphadenopathy> ~ Tuberculoza ganglionara | Tuberculoza splenica | Tuberculoza intestinala
-A30.2   Lepra tuberculoida de tip intermediar atipic  {Lepra grup BT}  <Borderline tuberculoid leprosy> ~ Lepra borderline | Lepra tuberculoida
-A30.3   Lepra de tip intermediar atipic  {Lepra grup BB}  <Borderline leprosy> ~ Lepra borderline
 A30.4   Lepra lepromatoasa de tip intermediar atipic  {Lepra grup BL}  <Borderline lepromatous leprosy> ~ Lepra borderline | Lepra lepromatoasa
 A32.0   Listerioza cutanata  <Cutaneous listeriosis> ~ Elastoza | Piele uscata | Aspergiloza cutanata
 B48.0   Lobomicoza  {Blastomicoza cheloida / Boala Lobo}  <Lobomycosis> ~ Otomicoza
-B55.1   Leishmaniaza cutanata  <Cutaneous leishmaniasis> ~ Leishmanioza cutanata | Leishmanioza mucocutanata
-C82     Limfom folicular (nodular) non  {nodular}  <Follicular lymphoma> ~ Limfom folicular
 C82.9   Limfom folicular non Hodgkin, nespecificat  {Limform nodular non Hodgkin}  <Follicular lymphoma, unspecified> ~ Limfom | Limfom folicular
 C83     Limfom difuz non Hodgkin  <Non-follicular lymphoma> ~ Limfom
 C84.3   Limfom limfoepiteloid  {Limfom Lennert} ~ Limfom limfoplasmocitic
 C84.5   Limfom cu celule T, altele si nespecificate ~ Limfom enteropatic cu celule T
 C85.0   Limfosarcom ~ Liposarcom | Leiomiosarcom
 C85.1   Limfom cu celule B, nespecificat  <Unspecified B-cell lymphoma> ~ Limfom cu celule de manta | Limfom difuz cu celule B mari | Limfom folicular | Limfom intravascular
-C91     Leucemia limfoida  <Lymphoid leukemia> ~ Leucemie limfoblastica acuta
 C91.1   Leucemia limfoida cronica  <Chronic lymphocytic leukemia of B-cell type> ~ Leucemie limfoblastica acuta | Leucemie limfocitara cronica | Leucemie mieloida
 C91.2   Leucemia limfoida subacuta ~ Leucemie limfoblastica acuta
 C91.3   Leucemia cu prolimfocite  <Prolymphocytic leukemia of B-cell type> ~ Leucemie cu plasmocite
@@ -91,12 +83,10 @@ J04.2   Laringo-traheita acuta  {Laringo-traheita / Traheita (acuta) cu laringit
 J06.0   Laringo-faringita acuta  <Acute laryngopharyngitis> ~ Raceala
 J37.1   Laringo-traheita cronica  {Laringita, cronica, cu traheita (cronica) / Traheita, cronica, cu laringita}  <Chronic laryngotracheitis> ~ Laringita | Traheita
 K13.2   Leucoplazia si alte anomalii ale epiteliului bucal, inclusiv limba  {Eritroplazia epiteliului bucal, inclusiv limba / Leucoedem al epiteliului bucal, inclusiv limba / Leucocheratoza nicotinica a palatului / Palatul fumatorilor}  <Leukoplakia and other disturbances of oral epithelium, including tongue> ~ Leucoplazie | Eritroplazie
-K13.3   Leucoplazia piloasa  <Hairy leukoplakia> ~ Leucoplazie pilosa
 L04.0   Limfadenita acuta a fetei, capului si gatului  <Acute lymphadenitis of face, head and neck> ~ Limfadenita cervicala
 L28     Lichen simplex cronic si prurigo  <Lichen simplex chronicus and prurigo> ~ Lichen simplex cronic | Prurigo | Prurigo simplex acuta
 L43.0   Lichen plan hipertrofic  <Hypertrophic lichen planus> ~ Lichen plan
 L43.1   Lichen plan bulos  <Bullous lichen planus> ~ Lichen plan | Lichen plan oral
-L44.2   Lichen striat  <Lichen striatus> ~ Lichen striatus
 L44.3   Lichen ruber moniliform  <Lichen ruber moniliformis> ~ Lichen plan
 L93.1   Lupus eritematos cutanat subacut  <Subacute cutaneous lupus erythematosus> ~ Lupus
 M32.0   Lupus eritematos sistemic datorita medicamentelor  <Drug-induced systemic lupus erythematosus> ~ Lupus
@@ -130,25 +120,30 @@ P15.3   Leziunea ochiului datorita traumatismului la nastere  {Hemoragia subconj
 P15.4   Leziune faciala datorita traumatismului la nastere  {Congestia faciala datorita traumatismului la nastere}  <Birth injury to face> ~ Traumatism obstetric
 P15.5   Leziunea organelor genitale externe datorita traumatismului la nastere  <Birth injury to external genitalia> ~ Traumatism obstetric
 P91.2   Leucomalacia cerebrala neonatala  {Leucomalacia periventriculara (PVL) / Leucomalacia subcorticala}  <Neonatal cerebral leukomalacia> ~ Leucomalacie periventriculara
-Q12.1   Luxatia congenitala a cristalinului  <Congenital displaced lens> ~ Luxatie de cristalin | Subluxatie de cristalin
-Q31.5   Laringo-malacia congenitala  <Congenital laryngomalacia> ~ Laringomalacie congenitala | Siringomielie congenitala
+Q12.1   Luxatia congenitala a cristalinului  <Congenital displaced lens> ~ Luxatie de cristalin | Afakie congenitala | Subluxatie de cristalin
 Q82.0   Limfoedem ereditar  <Hereditary lymphedema> ~ Limfedem primar | Angioedem ereditar
-Q84.4   Luechonichia congenitala  <Congenital leukonychia> ~ Microtie
-===== EXISTA (56)
+Q84.4   Luechonichia congenitala  <Congenital leukonychia> ~ Microtie | Anonichie
+===== EXISTA (67)
 A27     Leptospiroza = Leptospiroza [exact]
 A27.0   Leptospiroza ictero-hemoragica = Leptospiroza icterica [exact]
 A30     Lepra [Boala Hansen] = Lepra [exact]
 A30.1   Lepra tuberculoida = Lepra tuberculoida [exact]
+A30.2   Lepra tuberculoida de tip intermediar atipic = Lepra borderline [exact]
+A30.3   Lepra de tip intermediar atipic = Lepra borderline [exact]
 A30.5   Lepra lepromatoasa = Lepra lepromatoasa [exact]
 A30.9   Lepra, nespecificata = Lepra [exact]
 A32     Listerioza = Listerioza [exact]
 A81.2   Leucoencefalopatia multifocala progresiva = Leucoencefalopatia multifocala progresiva [exact]
 B55.0   Leishmaniaza viscerala = Leishmanioza viscerala [exact]
+B55.1   Leishmaniaza cutanata = Leishmanioza cutanata [exact]
+B55.2   Leishmaniaza cutaneo-mucoasa = Leishmanioza mucocutanata [exact]
 B74.3   Loiasis = Loaza [exact]
 B83.0   Larva migrans visceral = Toxocaroza [terminatii]
+C82     Limfom folicular (nodular) non = Limfom folicular [exact]
 C84.4   Limfom periferic cu celule T = Limfom cu celule T periferic [exact]
 C85.9   Limfom non Hodgkin, de tip nespecificat = Limfom [exact]
 C90.1   Leucemia cu plasmocite = Leucemie cu plasmocite [terminatii]
+C91     Leucemia limfoida = Leucemie limfoblastica acuta [exact]
 C91.0   Leucemia limfoblastica acuta = Leucemie limfoblastica acuta [terminatii]
 C91.4   Leucemia cu celule paroase = Leucemie cu celule panoase [terminatii]
 C92     Leucemia mieloida = Leucemie mieloida [terminatii]
@@ -161,6 +156,7 @@ C93     Leucemia monocitara = Leucemie monocitara acuta [terminatii]
 C93.0   Leucemia monocitara acuta = Leucemie monocitara acuta [terminatii]
 C93.1   Leucemia monocitara cronica = Leucemie monocitara acuta [temporal (G1)]
 C93.2   Leucemia monocitara subacuta = Leucemie monocitara acuta [temporal (G1)]
+C94.2   Leucemia acuta cu megacarioblasti = Leucemie megacarioblastica acuta [exact]
 C95.9   Leucemia, nespecificata = Leucemie [terminatii]
 D76.1   Limfohistiocitoza hemofagocitara = Limfohistiocitoza hemofagocitara [exact]
 E88.2   Lipomatoza, neclasificata altundeva = Lipomatoza [exact]
@@ -178,11 +174,14 @@ J04.0   Laringita acuta = Laringita [exact]
 J05     Laringita acuta obstructiva [crup] si epiglotita = Crup [exact]
 J05.0   Laringita obtructiva acuta [crup] = Crup [exact]
 J37.0   Laringita cronica = Laringita [exact]
+K13.3   Leucoplazia piloasa = Leucoplazie pilosa [exact]
 K14.1   Limba geografica = Glosita geometrica [exact]
 L04     Limfadenita acuta = Limfadenita [exact]
 L28.0   Lichen simplex cronic = Lichen simplex cronic [exact]
 L43     Lichen plan = Lichen plan [exact]
 L43.3   Lichen plan subacut (activ) = Lichen plan [temporal (G1)]
+L44.1   Lichen neted = Lichen nitidus [exact]
+L44.2   Lichen striat = Lichen striatus [exact]
 L66.1   Lichen plano-pilar = Lichen plan pilar [exact]
 L81.5   Leucodermia, neclasificata altundeva = Vitiligo [terminatii]
 L93     Lupus eritematos = Lupus [exact]
@@ -191,6 +190,7 @@ M32     Lupus eritematos sistemic = Lupus [exact]
 N21.0   Litiaza vezicala = Litiaza vezicala [exact]
 P37.2   Listerioza neonatala (diseminata) = Listerioza neonatala [exact]
 Q31.3   Laringocel = Laringocel [exact]
+Q31.5   Laringo-malacia congenitala = Laringomalacie congenitala [exact]
 ===== ELIMINAT (84)
 A27.9   Leptospiroza, nespecificata [dublura categoriei parinte (nespecificat)]
 A32.9   Listerioza, nespecificata [dublura categoriei parinte (nespecificat)]

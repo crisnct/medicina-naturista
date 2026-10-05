@@ -1,0 +1,112 @@
+? A25.1   Febra streptobacilara datorita muscaturii de sobolan   [titlu: Streptobaciloza]  <Streptobacillosis>  ~ Febra muscaturii de sobolan
+? A28.1   Febra zgarieturii de pisica   [titlu: Boala de zgarietura de pisica]  <Cat-scratch disease>  ~ Boala zgarieturii de pisica
+? A44.0   Febra de Oroya   [titlu: Bartonelloza sistemica]  <Systemic bartonellosis>  ~ Bartoneloza
+? A48.2   febra Pontiac   [titlu: Boala legionarilor fara semne pulmonare [febra Pontiac]]  <Nonpneumonic Legionnaires' disease [Pontiac fever]>  ~ 
+? A66.0   Framboesia initiala sau primara   [titlu: Leziunile initiale ale pianului]  <Initial lesions of yaws>  ~ 
+? A66.2   Framboesia pianului timpuriu   [titlu: Alte leziuni cutanate precoce ale pianului]  <Other early skin lesions of yaws>  ~ 
+? A66.4   Framboeside gomoase   [titlu: Gomele si ulcerele pianice]  <Gummata and ulcers of yaws>  ~ 
+? A69.1   Faringita fusospirochetala   [titlu: Alte infectii Vincent]  <Other Vincent's infections>  ~ 
+? A70     Febra datorita papagalului   [titlu: Infectia cu Chlamydia psittaci]  <Chlamydia psittaci infections>  ~ Psitacoza
+? A71     Faza initiala a trahomului   [titlu: Trahomul]  <Trachoma>  ~ 
+? A79.1   Febra de Kew Garden   [titlu: Rickettsioza variceliforma prin Rickettsia akari]  <Rickettsialpox due to Rickettsia akari>  ~ 
+? A89     Febre virale transmise de artropode si febre virale hemoragice   [titlu: Infectiile virale ale sistemului nervos central, nespecificate]  <Unspecified viral infection of central nervous system>  ~ 
+? A92.8   Febra de padure Barmah   [titlu: Alte febre virale specificate, transmise de tantari]  <Other specified mosquito-borne viral fevers>  ~ 
+? A93.0   Febra de Oropouche   [titlu: Boala prin virusul Oropouche]  <Oropouche virus disease>  ~ Febra Oropouche
+? B00.2   Faringita cu virusul herpetic   [titlu: Gingivo-stomatita si faringo-amigdalita cu virusul herpetic]  <Herpesviral gingivostomatitis and pharyngotonsillitis>  ~ Faringita herpetica
+? B08.8   Faringita limfonodulara cu enterovirus   [titlu: Alte infectii virale caracterizate prin leziuni cutaneo-mucoase]  <Other specified viral infections characterized by skin and mucous membrane lesions>  ~ Faringita acuta cu enterovirus
+? B49     Fungemia   [titlu: Micoze nespecificate]  <Unspecified mycosis>  ~ 
+? C01     Fata dorsala a bazei limbii   [titlu: Tumora maligna a bazei limbii]  <Malignant neoplasm of base of tongue>  ~ 
+? C06.0   Fata interna a obrajilor   [titlu: Mucoasa obrajilor]  <Malignant neoplasm of cheek mucosa>  ~ 
+? C10.0   foseta   [titlu: Santul (foseta) gloso-epiglotic]  <Malignant neoplasm of vallecula>  ~ 
+? C11.2   Foseta Rossenmüller   [titlu: Peretele lateral al nazo-faringelui]  <Malignant neoplasm of lateral wall of nasopharynx>  ~ 
+? C12     Fosa piriforma   [titlu: Tumora maligna a sinusului piriform]  <Malignant neoplasm of pyriform sinus>  ~ 
+? C32.1   Fata posterioara (laringiana) a epiglotei   [titlu: Supraglota]  <Malignant neoplasm of supraglottis>  ~ 
+? C49.5   Fesa   [titlu: Tesutul conjunctiv si tesuturile moi ale pelvisului]  <Malignant neoplasm of connective and soft tissue of pelvis>  ~ 
+? D12.3   Flexura hepatica   [titlu: Colon transvers]  <Benign neoplasm of transverse colon>  ~ 
+? D12.3   Flexura splenica   [titlu: Colon transvers]  <Benign neoplasm of transverse colon>  ~ Sindrom de flexura splenica
+? D69.8   Fragilitate capilara (ereditara)   [titlu: Alte afectiuni hemoragice specificate]  <Other specified hemorrhagic conditions>  ~ 
+? D73.8   Fibroza splinei   [titlu: Alte boli ale splinei]  <Other diseases of spleen>  ~ Fibroza cutanata
+? D77     Fibroza splinei in schistosomiaza [bilharzioza]   [titlu: Alte boli ale sangelui si ale organelor hematopoietice in unele boli clasificate altundeva]  <Other disorders of blood and blood-forming organs in diseases classified elsewhere>  ~ 
+? E34.5   Feminizare testiculara (sindrom)   [titlu: Sindromul de rezistenta la androgeni]  <Androgen insensitivity syndrome>  ~ Sindrom de rezistenta la androgeni
+? E85.0   Febra familiala mediteraneana   [titlu: Amiloidoza heredofamiliala non-neuropatica]  <Non-neuropathic heredofamilial amyloidosis>  ~ Febra mediteraneana familiala
+? F09     Flashback-uri   [titlu: Tulburare mentala organica sau simptomatica, nespecificata]  <Unspecified mental disorder due to known physiological condition>  ~ 
+? F40.9   Fobia   [titlu: Tulburari anxioase fobice, nespecificate]  <Phobic anxiety disorder, unspecified>  ~ 
+? F65.1   Fetisism de travestire   [titlu: Travestismul fetisist]  <Transvestic fetishism>  ~ 
+? F65.8   Frecare   [titlu: Alte tulburari de preferinta sexuala]  <Other paraphilias>  ~ 
+? F91.2   Furt in compania altora   [titlu: Tulburare de conduita socializata]  <Conduct disorder, adolescent-onset type>  ~ 
+? G40.0   focala, partiala   [titlu: Epilepsia idiopatica legata de localizare (focala, partiala) si sindroame epileptice cu atacuri cu debut localizat]  <Localization-related (focal) (partial) idiopathic epilepsy and epileptic syndromes with seizures of localized onset>  ~ Crize partiale complexe
+? G40.1   focala, partiala   [titlu: Epilepsia simptomatica legata de localizare (focala, partiala) si sindroame epileptice cu atacuri partiale simple]  <Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures>  ~ Crize partiale complexe
+? G40.2   focala, partiala   [titlu: Epilepsia simptomatica legata de localizare (focala, partiala) si sindroame epileptice cu atacuri partiale complexe]  <Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with complex partial seizures>  ~ Crize partiale complexe
+? G95.1   Feblita si tromboflebita intraspinale, nonpiogenice   [titlu: Mielopatii vasculare]  <Vascular myelopathies>  ~ 
+? H00.0   Furunculul pleoapei   [titlu: Orgelet si alte inflamatii profunde ale pleoapei]  <Hordeolum (externum) (internum) of eyelid>  ~ 
+? H18.0   Fascicolul Krukenberg   [titlu: Pigmentatia si depunerea corneeana]  <Corneal pigmentations and deposits>  ~ 
+? H25.8   Forme combinate de cataracta senila   [titlu: Alte cataracte senile]  <Other age-related cataract>  ~ Cataracta
+? H35.1   Fibroplazia retrolentala   [titlu: Retinopatia prematuritatii]  <Retinopathy of prematurity>  ~ Retinopatie de prematuritate
+? H53.3   Fuziunea cu anomalia viziunii stereoscopice   [titlu: Alte tulburari de viziune binoculara]  <Other and unspecified disorders of binocular vision>  ~ 
+? H58.0   Fenomenul Argyll Robertson sau pupila, sifilitica   [titlu: Anomalii functionale ale pupilei in boli clasificate altundeva]  <>  ~ Pupila Argyll Robertson
+? H60.0   Furuncul al auriculului sau al conductului auditiv extern   [titlu: Abces al urechii externe]  <Abscess of external ear>  ~ Otita externa circumscrisa
+? H70.1   Fistula mastoidei   [titlu: Mastoidita cronica]  <Chronic mastoiditis>  ~ 
+? I25.4   Fistula coronariana arteriovenoasa, dobandita   [titlu: Anevrismul arterei coronare]  <Coronary artery aneurysm and dissection>  ~ Fistula arteriovenoasa | Fistula coronariana
+? I42.3   Fibroza endomiocardiaca (tropicala)   [titlu: Boala endomiocardica (eosinofilica)]  <Endomyocardial (eosinophilic) disease>  ~ 
+? I51.4   Fibroza miocardica   [titlu: Miocardita, nespecificata]  <Myocarditis, unspecified>  ~ Cardioscleroza | Fibrom cardiac | Hemocromatoza cardiaca | Fibroelastoza endocardica
+? I77.2   Fistula arteriala   [titlu: Ruptura arterelor]  <Rupture of artery>  ~ Fistula anala | Fistula lacrimala | Fistula gastrojejunala
+? I83.9   Flebectazia extremitatilor inferioare [orice parte] sau cu localizare   [titlu: Vene varicoase ale extremitatilor inferioare fara ulceratie sau inflamatie]  <Asymptomatic varicose veins of lower extremities>  ~ 
+? J70.1   Fibroza pulmonara dupa iradiere   [titlu: Afectiuni pulmonare cronice si altele, datorite iradierii]  <Chronic and other pulmonary manifestations due to radiation>  ~ Pneumopatie fibrozanta | Fibroza pulmonara postinflamatorie | Fibroza pulmonara familiala
+? J98.5   Fibroza mediastinului   [titlu: Bolile mediastinului, neclasificate altundeva]  <Diseases of mediastinum, not elsewhere classified>  ~ Mediastinita | Emfizem mediastinal
+? K00.2   Fuziunea dintilor   [titlu: Anomalii de volum si de forma ale dintilor]  <Abnormalities of size and form of teeth>  ~ Abraziune dentara
+? K00.3   Fluoroza dentara   [titlu: Dinti patati]  <Mottled teeth>  ~ 
+? K06.1   Fibromatoza gingivala   [titlu: Hiperplazia gingivala]  <Gingival enlargement>  ~ 
+? K38.1   Fecalomul apendicelui   [titlu: Concretiuni apendiculare]  <Appendicular concretions>  ~ 
+? L10.3   fogo selvagen   [titlu: Pemfigus brazilian [fogo selvagen]]  <Brazilian pemphigus [fogo selvagem]>  ~ 
+? L67.8   Fragilitatea parului   [titlu: Alte anomalii de pigmentatie sau ale tecii parului]  <Other hair color and hair shaft abnormalities>  ~ 
+? M48.1   Forestier   [titlu: Hiperostoza anchilozanta [Forestier]]  <Ankylosing hyperostosis [Forestier]>  ~ Boala Forestier
+? M49.5   Fractura metastatica a unei vertebre   [titlu: Colaps al vertebrelor in boli clasificate altundeva]  <>  ~ 
+? M72.9   Fasciita   [titlu: Afectiuni fibroblastice, nespecificate]  <Fibroblastic disorder, unspecified>  ~ Ascita | Sindrom miofascial
+? N40     Fibroadenomul prostatei   [titlu: Hiperplazia prostatei]  <Benign prostatic hyperplasia>  ~ 
+? N40     Fibromul prostatei   [titlu: Hiperplazia prostatei]  <Benign prostatic hyperplasia>  ~ 
+? N48.2   Furunculul corpului cavernos si penisului   [titlu: Alte tulburari inflamatorii ale penisului]  <Other inflammatory disorders of penis>  ~ 
+? N49.9   Furuncul al unui organ genital masculin   [titlu: Afectiune inflamatorie a organelor genitale masculine nespecificata]  <Inflammatory disorder of unspecified male genital organ>  ~ 
+? N50.8   Fistula, uretro-scrotala   [titlu: Alte afectiuni specificate ale organelor genitale masculine]  <Other specified disorders of male genital organs>  ~ 
+? N76.4   Furuncul al vulvei   [titlu: Abces al vulvei]  <Abscess of vulva>  ~ 
+? N82.4   Fistula intestino-uterina   [titlu: Alte fistule ale tractului genito-intestinal feminin]  <Other female intestinal-genital tract fistulae>  ~ Fistula rectouretrala | Fistula colovesicala | Fistula rectovaginala
+? N83.3   Fallope   [titlu: Atrofia dobandita a ovarului si trompei]  <Acquired atrophy of ovary and fallopian tube>  ~ 
+? N83.4   Fallope   [titlu: Prolaps si hernie a ovarului si trompei]  <Prolapse and hernia of ovary and fallopian tube>  ~ 
+? N85.8   Fibroza uterului   [titlu: Alte tulburari neinflamatorii specificate ale uterului]  <Other specified noninflammatory disorders of uterus>  ~ 
+? P11.5   Fractura coloanei vertebrale datorita traumatismului la nastere   [titlu: Leziunea coloanei vertebrale si a maduvei spinarii datorita traumatismului la nastere]  <Birth injury to spine and spinal cord>  ~ Traumatism obstetric
+? P27.8   Fibroza pulmonara congenitala   [titlu: Alte boli respiratorii cronice survenind in perioada perinatala]  <Other chronic respiratory diseases originating in the perinatal period>  ~ Pneumopatie fibrozanta | Stenoza pulmonara congenitala | Fibroza pulmonara familiala | Fibroza pulmonara idiopatica
+? P81.9   Febra nou-nascutului   [titlu: Tulburari ale reglarii termice la nou-nascut, nespecificate]  <Disturbance of temperature regulation of newborn, unspecified>  ~ Icter neonatal | Asfixie perinatala | Acnee neonatala
+? P95     Fat nascut mort   [titlu: Moarte fetala de cauza nespecificata]  <Stillbirth>  ~ 
+? Q21.4   Fistula aorto-pulmonara   [titlu: Defect septal aorto-pulmonar]  <Aortopulmonary septal defect>  ~ Fereastra aortopulmonara | Fistula arteriovenoasa pulmonara
+? Q31.8   Fisura cartilagiului tiroid   [titlu: Alte malformatii congenitale ale laringelui]  <Other congenital malformations of larynx>  ~ 
+? Q31.8   Fisura epiglotei   [titlu: Alte malformatii congenitale ale laringelui]  <Other congenital malformations of larynx>  ~ 
+? Q31.8   Fisura posterioara a cartilagiului cricoid   [titlu: Alte malformatii congenitale ale laringelui]  <Other congenital malformations of larynx>  ~ 
+? Q34.9   Fisura labiala si fisura palatina   [titlu: Malformatia congenitala a sistemului respirator, nespecificata]  <Congenital malformation of respiratory system, unspecified>  ~ Fisura labiala | Fisura palatina
+? Q38.4   Fistula congenitala a glandelor salivare   [titlu: Malformatii congenitale ale glandelor si canalelor salivare]  <Congenital malformations of salivary glands and ducts>  ~ Aplazie de glande salivare
+? Q44.7   Ficat accesoriu   [titlu: Alte malformatii congenitale ale ficatului]  <Other congenital malformations of liver>  ~ 
+? Q50.69  Fallope si a ligamentului larg   [titlu: Alte malformatii congenitale ale trompei Fallope si ale ligamentului larg]  <>  ~ 
+? Q55.1   Fuzionarea testiculelor   [titlu: Hipoplazia testiculului si scrotului]  <Hypoplasia of testis and scrotum>  ~ 
+? Q71.1   Focomelia bratului   [titlu: Absenta congenitala a bratului si antebratului cu prezenta mainii]  <Congenital absence of upper arm and forearm with hand present>  ~ 
+? Q72.1   Focomelia membrului inferior   [titlu: Absenta congenitala a coapsei si a gambei cu prezenta labei piciorului]  <Congenital absence of thigh and lower leg with foot present>  ~ 
+? Q75.09  Fuziunea imperfecta a craniului   [titlu: Alte craniosinostoze]  <>  ~ 
+? Q76.3   Fuziunea sau esec de segmentatie cu scolioza   [titlu: Scolioza congenitala datorita malformatiilor congenitale ale oaselor]  <Congenital scoliosis due to congenital bony malformation>  ~ 
+? Q78.0   Fragilitatea oaselor   [titlu: Osteogeneza imperfecta]  <Osteogenesis imperfecta>  ~ 
+? Q87.04  Franceschetti   [titlu: Sindromul Treacher Collins [-Franceschetti] [-Klein]]  <>  ~ 
+? Q93.1   fara disjunctie mitotica   [titlu: Monosomia totala a cromozomilor, mozaicism (fara disjunctie mitotica)]  <Whole chromosome monosomy, mosaicism (mitotic nondisjunction)>  ~ 
+= A25.1   Febra de Haverhill  -> Febra de Haverhill
+= A66.1   Framboesia  -> Framboesia
+= A75.3   Febra Tsutsugamushi  -> Tifos scrub
+= B33.1   Febra Ross River  -> Febra Ross River
+= D55.0   Favism  -> Deficit de glucozo-6-fosfat dehidrogenaza
+= E74.1   Fructozuria esentiala  -> Fructozurie esentiala
+= E77.1   Fucozidoza  -> Fucozidoza
+= F52.0   Frigiditate  -> Frigiditate
+= H04.6   Fistula lacrimala  -> Fistula lacrimala
+= H53.1   Fotofobia  -> Fotofobie
+= J84.1   Fibroza pulmonara difuza  -> Fibroza pulmonara interstitiala difuza
+= J84.1   Fibroza pulmonara idiopatica  -> Fibroza pulmonara idiopatica
+= K86.8   Fibroza pancreasului  -> Fibroza pancreatica
+= L02.9   Furunculoza  -> Furuncul
+= M61.1   Fibrodisplazia osificanta progresiva  -> Fibrodisplazie osificanta progresiva
+= M72.9   Fibromatoza  -> Fibromatoza
+= M79.0   Fibromialgia  -> Fibromialgie
+= M79.0   Fibrozita  -> Fibrozita

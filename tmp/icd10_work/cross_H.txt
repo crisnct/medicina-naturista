@@ -1,0 +1,172 @@
+? A66.6   Hidrartroza pianica (precoce) (tardiva)   [titlu: Leziunile pianice articulare si osoase]  <Bone and joint lesions of yaws>  ~ 
+? A67.1   Hipercheratoza pintei [carate]   [titlu: Leziunile intermediare ale pintei]  <Intermediate lesions of pinta>  ~ 
+? B17.8   Hepatita non-A non-B (acuta) (virala) NEC   [titlu: Alte hepatite virale acute specificate]  <Other specified acute viral hepatitis>  ~ Hepatita | Hepatita B | Hepatita cronica B
+? B64     Helmintiaze   [titlu: Boli prin protozoare nespecificate]  <Unspecified protozoal disease>  ~ 
+? B66.8   Heterophyaza   [titlu: Alte infectii specificate cu paraziti]  <Other specified fluke infections>  ~ 
+? C22.0   Hepatomul   [titlu: Carcinomul celulei hepatice]  <Liver cell carcinoma>  ~ 
+? C34.0   Hilul (plamanului)   [titlu: Trunchiul bronhial]  <Malignant neoplasm of main bronchus>  ~ 
+? C49.4   Hipocondrul   [titlu: Tesutul conjunctiv si tesuturile moi ale abdomenului]  <Malignant neoplasm of connective and soft tissue of abdomen>  ~ Ipohondrie
+? C82.7   Hodgkin   [titlu: Alte forme de limfom folicular non]  <>  ~ 
+? C83.8   Hodgkin   [titlu: Alte forme de limfom difuz non]  <Other non-follicular lymphoma>  ~ 
+? C85     Hodgkin si   [titlu: Alte tipuri ale limfomului non]  <Other specified and unspecified types of non-Hodgkin lymphoma>  ~ 
+? C85.7   Hodgkin   [titlu: Alte tipuri specificate de limfom non]  <>  ~ 
+? D47.3   hemoragica   [titlu: Trombocitemie esentiala (hemoragica)]  <Essential (hemorrhagic) thrombocythemia>  ~ Hemoragie
+? D57.3   Hemoglobina S heterozigota   [titlu: Fizionomia bolii hematiilor falciforme [drepanocitare]]  <Sickle-cell trait>  ~ 
+? D61.9   Hipoplazia medulara   [titlu: Anemia aplazica, nespecificata]  <Aplastic anemia, unspecified>  ~ Micrognatie | Spina bifida | Anemie aplastica
+? D65     Hemoragie fibrinolitica, dobandita   [titlu: Coagularea intravasculara diseminata (sindromul de defibrinare)]  <Disseminated intravascular coagulation [defibrination syndrome]>  ~ 
+? D68.0   Hemofilia vasculara   [titlu: Boala von Willebrand]  <Von Willebrand disease>  ~ Hemoliza acuta
+? D68.3   Hemoragie dupa aplicarea anticoagulantelor pe termen indelungat   [titlu: Tulburari hemoragice datorita anticoagulantelor circulante]  <Hemorrhagic disorder due to circulating anticoagulants>  ~ 
+? D68.3   Hiperheparinemia   [titlu: Tulburari hemoragice datorita anticoagulantelor circulante]  <Hemorrhagic disorder due to circulating anticoagulants>  ~ 
+? D76.1   Histiocitoza fagocitelor mononucleare altele decat celulele Langerhans   [titlu: Limfohistiocitoza hemofagocitara]  <Hemophagocytic lymphohistiocytosis>  ~ Histiocitoza cu celule Langerhans
+? E00.9   Hipotiroidia prin deficienta congenitala de iod   [titlu: Sindromul deficientei congenitale de iod, nespecificat]  <Congenital iodine-deficiency syndrome, unspecified>  ~ 
+? E01.8   Hipotiroidia prin carenta de iod dobandita   [titlu: Alte afectiuni tiroidiene si inrudite legate de carenta de iod]  <Other iodine-deficiency related thyroid disorders and allied conditions>  ~ Deficit de iod | Hipotiroidism prin deficit de iod
+? E05     hipertiroidia   [titlu: Tireotoxicoza [hipertiroidia]]  <Thyrotoxicosis [hyperthyroidism]>  ~ Hipertiroidism
+? E06.3   Hashitoxicoza (tranzitorie)   [titlu: Tiroidita autoimuna]  <Autoimmune thyroiditis>  ~ 
+? E07.8   Hemoragia tiroidei   [titlu: Alte afectiuni specificate ale tiroidei]  <Other specified disorders of thyroid>  ~ 
+? E15     Hiperinsulinism cu coma hipoglicemica   [titlu: Coma hipoglicemica nondiabetica]  <Nondiabetic hypoglycemic coma>  ~ Coma hipoglicemica
+? E16.1   Hipoglicemia nonhiperinsulinemica functionala   [titlu: Alte hipoglicemii]  <Other hypoglycemia>  ~ Hipoglicemie reactiva
+? E16.4   Hipergastrinemia   [titlu: Secretie anormala de gastrina]  <Increased secretion of gastrin>  ~ 
+? E16.9   Hiperplazia celulelor insulelor lui   [titlu: Tulburari ale secretiei interne pancreatice, nespecificate]  <Disorder of pancreatic internal secretion, unspecified>  ~ 
+? E16.9   Hiperplazia celulelor insulelor pancreatice   [titlu: Tulburari ale secretiei interne pancreatice, nespecificate]  <Disorder of pancreatic internal secretion, unspecified>  ~ 
+? E22.0   Hipersecretia hormonului de crestere   [titlu: Acromegalia si gigantismul pituitar]  <Acromegaly and pituitary gigantism>  ~ Gigantism | Acromegalie
+? E24.0   Hipersecretia de ACTH pituitar   [titlu: Boala Cushing pituitaro-dependenta]  <Pituitary-dependent Cushing's disease>  ~ 
+? E24.0   Hiperadrenocorticismul pituitaro-dependent   [titlu: Boala Cushing pituitaro-dependenta]  <Pituitary-dependent Cushing's disease>  ~ 
+? E25.0   Hiperplazia suprarenala congenitala cu pierdere de sare   [titlu: Tulburari adrenogenitale congenitale legate de un deficit enzimatic]  <Congenital adrenogenital disorders associated with enzyme deficiency>  ~ Hiperplazie suprarenala congenitala | Hiperplazie adrenala congenitala cu pierdere de sare
+? E27.0   Hipersecretia de ACTH, nelegata de boala   [titlu: Alte hiperfunctiuni adrenocorticale]  <Other adrenocortical overactivity>  ~ 
+? E28.8   Hiperfunctia ovariana   [titlu: Alte disfunctii ovariene]  <Other ovarian dysfunction>  ~ Hipogonadism feminin
+? E70.2   Hipertirosinemia   [titlu: Tulburari in metabolismul tirozinei]  <Disorders of tyrosine metabolism>  ~ 
+? E71.1   Hiperleucine-izoleucinemia   [titlu: Alte tulburari de metabolism ale aminoacizilor cu lant ramificat]  <Other disorders of branched-chain amino-acid metabolism>  ~ 
+? E71.1   Hipervalinemia   [titlu: Alte tulburari de metabolism ale aminoacizilor cu lant ramificat]  <Other disorders of branched-chain amino-acid metabolism>  ~ 
+? E72.2   Hiperamonemia   [titlu: Tulburari de metabolism al ciclului ureei]  <Disorders of urea cycle metabolism>  ~ Hiperamoniemie
+? E72.3   Hidroxilizinemia   [titlu: Tulburari de metabolism al lizinei si hidroxilizinei]  <Disorders of lysine and hydroxylysine metabolism>  ~ 
+? E72.3   Hiperlizinemia   [titlu: Tulburari de metabolism al lizinei si hidroxilizinei]  <Disorders of lysine and hydroxylysine metabolism>  ~ 
+? E72.5   Hiperhidroxiprolinemia   [titlu: Tulburari de metabolism al glicinei]  <Disorders of glycine metabolism>  ~ 
+? E72.5   Hiperprolinemia (tip I, II)   [titlu: Tulburari de metabolism al glicinei]  <Disorders of glycine metabolism>  ~ Hiperlipoproteinemie tip III
+? E72.5   Hiperglicinemia noncetozica   [titlu: Tulburari de metabolism al glicinei]  <Disorders of glycine metabolism>  ~ Sindrom hiperglicinemie nechetotica
+? E83.3   Hipopotasemia familiala   [titlu: Tulburari de metabolism al fosforului]  <Disorders of phosphorus metabolism and phosphatases>  ~ 
+? E83.4   Hipomagnezemia   [titlu: Tulburari de metabolism al magneziului]  <Disorders of magnesium metabolism>  ~ Deficit de magneziu | Hipermagnezemie
+? E83.5   Hipocalcemia hipocalciurica familiala   [titlu: Tulburari de metabolism al calciului]  <Disorders of calcium metabolism>  ~ Hipercalcemie hipocalciurica familiala
+? F45.2   Hipochondria   [titlu: Tulburare hipocondriaca]  <Hypochondriacal disorders>  ~ Ipohondrie
+? F50.2   Hiperorexie nervoasa   [titlu: Bulimie nervoasa]  <Bulimia nervosa>  ~ Anorexie nervoasa
+? G20     Hemiparkinsonism   [titlu: Boala Parkinson]  <Parkinson's disease>  ~ Boala Parkinson
+? G36.1   Hurst   [titlu: Leucoencefalita hemoragica acuta si subacuta [Hurst]]  <Acute and subacute hemorrhagic leukoencephalitis [Hurst]>  ~ Encefalomielita hemoragica acuta
+? G90.3   Hipotensiunea ortostatica neurogena [Shy-Drager]   [titlu: Degenerescenta multisistemica]  <Multi-system degeneration of the autonomic nervous system>  ~ Atrofie multisistemica
+? G93.5   Hernia creierului (stem)   [titlu: Compresiunea creierului]  <Compression of brain>  ~ 
+? H02.8   Hipertricoza pleoapei   [titlu: Alte afectiuni specificate ale pleoapei]  <Other specified disorders of eyelid>  ~ 
+? H05.2   Hemoragia orbitei   [titlu: Exoftalmia]  <Exophthalmic conditions>  ~ 
+? H18.0   Hematocorneea   [titlu: Pigmentatia si depunerea corneeana]  <Corneal pigmentations and deposits>  ~ 
+? H18.8   Hipoestezia corneei   [titlu: Alte afectiuni specificate ale corneei]  <Other specified disorders of cornea>  ~ 
+? H40.0   Hipertensiune oculara   [titlu: Glaucomul la limita]  <Glaucoma suspect>  ~ Hipertensiune arteriala secundara | Hipertensiune arteriala pulmonara | Hipertensiune portala
+? H44.8   Hemoftalmia   [titlu: Alte afectiuni ale globului ocular]  <Other disorders of globe>  ~ 
+? H47.0   Hemoragia la teaca nervului optic   [titlu: Afectiuni ale nervului optic, neclasificate altundeva]  <Disorders of optic nerve, not elsewhere classified>  ~ Meningiom de teaca nervului optic
+? H50.2   Hipotropia   [titlu: Strabism vertical]  <Vertical strabismus>  ~ 
+? H53.1   Halouri vizuale   [titlu: Tulburari subiective de vedere]  <Subjective visual disturbances>  ~ 
+? H53.4   Hemianopsia (heteronimia) (homonimia)   [titlu: Anomalia campului vizual]  <Visual field defects>  ~ 
+? H81.0   Hidrolabirint   [titlu: Boala Ménière]  <Meniere's disease>  ~ 
+? H83.2   Hipersensibilitatea labirintului   [titlu: Disfunctia labirintica]  <Labyrinthine dysfunction>  ~ Alergie la nuci | Alergie la rosii | Alergie la lupin
+? H83.2   Hipofunctia labirintului   [titlu: Disfunctia labirintica]  <Labyrinthine dysfunction>  ~ 
+? I60.8   Hemoragia meningeala   [titlu: Alte hemoragii subarahnoide]  <Other nontraumatic subarachnoid hemorrhage>  ~ Hemoragie subarahnoidiana
+? I95.8   Hipotensiunea cronica   [titlu: Alte hipotensiuni]  <Other hypotension>  ~ 
+? J95.0   Hemoragia orificiului traheostomiei   [titlu: Functionarea defectuoasa a unei traheostomii]  <Tracheostomy complications>  ~ 
+? J98.5   Hernia mediastinului   [titlu: Bolile mediastinului, neclasificate altundeva]  <Diseases of mediastinum, not elsewhere classified>  ~ 
+? K00.0   Hipodontia   [titlu: Anodontia]  <Anodontia>  ~ 
+? K00.4   Hipoplazia smaltului (neonatala) (postnatala) (prenatala)   [titlu: Tulburari de formare a dintilor]  <Disturbances in tooth formation>  ~ 
+? K06.2   Hiperplazia iritativa a crestei edentate [hiperplazia danturii]   [titlu: Leziuni gingivale si ale crestei alveolare edentale asociate cu un traumatism]  <Gingival and edentulous alveolar ridge lesions associated with trauma>  ~ 
+? K08.8   Hipertrofia crestei alveolare   [titlu: Alte afectiuni specificate ale dintilor si parodontiului]  <Other specified disorders of teeth and supporting structures>  ~ Atrofie a crestei alveolare
+? K11.7   Hipoptialism   [titlu: Tulburarile secretiei salivare]  <Disturbances of salivary secretion>  ~ Hipersalivatie
+? K14.8   Hipertrofia limbii   [titlu: Alte boli ale limbii]  <Other diseases of tongue>  ~ 
+? K22.8   Hemoragia esofagului   [titlu: Alte boli specificate ale esofagului]  <Other specified diseases of esophagus>  ~ 
+? K38.9   Hernia   [titlu: Boala apendicelui, nespecificata]  <Disease of appendix, unspecified>  ~ 
+? K76.8   Hepatoptoza   [titlu: Alte boli specificate ale ficatului]  <Other specified diseases of liver>  ~ 
+? K77.0   Hepatita cu virus herpetic [herpes simplex]   [titlu: Tulburari hepatice in boli infectioase si parazitare clasificate altundeva]  <>  ~ Hepatita herpetica | Hsv | Keratita herpetica
+? K77.0   Hipertensiune portala in schistosomiaza   [titlu: Tulburari hepatice in boli infectioase si parazitare clasificate altundeva]  <>  ~ Hipertensiune portala | Schistosomiaza hepatoesplenica | Pneumonie cu Schistosoma
+? K83.8   Hipertrofia cailor biliare   [titlu: Alte boli specifice ale cailor biliare]  <Other specified diseases of biliary tract>  ~ 
+? L67.1   Heterocromia parului   [titlu: Anomalii de culoare a parului]  <Variations in hair color>  ~ Heterocromie iriana
+? L87.0   Hiperkeratoza foliculara penetranta   [titlu: Keratoza foliculara si parafoliculara penetrand in piele [Kyrle]]  <Keratosis follicularis et parafollicularis in cutem penetrans>  ~ 
+? M62.8   Hernia muschiului (teaca)   [titlu: Alte afectiuni specificate ale muschiului]  <Other specified disorders of muscle>  ~ 
+? M85.8   Hiperostoza oaselor, exceptand craniul   [titlu: Alte afectiuni specificate ale densitatii si structurii osoase]  <Other specified disorders of bone density and structure>  ~ 
+? M89.8   Hiperostoza corticala infantila   [titlu: Alte boli specificate ale oaselor]  <Other specified disorders of bone>  ~ 
+? N25.8   Hiperparatiroidie secundara de origine renala   [titlu: Alte tulburari datorite unei functionari tubulare renale deficitare]  <Other disorders resulting from impaired renal tubular function>  ~ 
+? N28.8   Hipertrofia rinichiului   [titlu: Alte tulburari specificate ale rinichiului si ureterului]  <Other specified disorders of kidney and ureter>  ~ Atrofie renala
+? N48.8   Hipertrofia corpului cavernos si penisului   [titlu: Alte afectiuni specificate ale penisului]  <Other specified disorders of penis>  ~ 
+? N50.1   Hematocel al organelor genitale masculine   [titlu: Afectiuni vasculare ale organelor genitale masculine]  <Vascular disorders of male genital organs>  ~ 
+? N50.1   Hemoragie a organelor genitale masculine   [titlu: Afectiuni vasculare ale organelor genitale masculine]  <Vascular disorders of male genital organs>  ~ 
+? N89.6   Himen rigid   [titlu: Inel himenal strans]  <Tight hymenal ring>  ~ 
+? N90.8   Hipertrofia clitorisului   [titlu: Alte afectiuni neinflamatorii specificate ale vulvei si perineului]  <Other specified noninflammatory disorders of vulva and perineum>  ~ Clitoromegalie | Estenoza pilorica hipertrofica
+? O20.0   Hemoragia specificata ca fiind datorata iminentei de avort   [titlu: Iminenta de avort]  <Threatened abortion>  ~ 
+? O45     hematom retro-placentar   [titlu: Dezlipirea prematura a placentei [hematom retro-placentar]]  <Premature separation of placenta [abruptio placentae]>  ~ Decolment prematur de placenta
+? O67.8   Hemoragia intrapartum excesiva   [titlu: Alte hemoragii intrapartum]  <Other intrapartum hemorrhage>  ~ 
+? O69.4   Hemoragia datorita vasa praevia   [titlu: Travaliul si nasterea complicate de vasa praevia]  <Labor and delivery complicated by vasa previa>  ~ Vasa praevia
+? O72.1   Hemoragie urmand expulziei placentei   [titlu: Alte hemoragii imediat postpartum]  <Other immediate postpartum hemorrhage>  ~ 
+? O72.1   Hemoragie postpartum (atonica)   [titlu: Alte hemoragii imediat postpartum]  <Other immediate postpartum hemorrhage>  ~ Hemoragie postpartum | Hemoragie postpartum tardiva
+? P02.1   Hemoragia accidentala   [titlu: Fat si nou-nascut afectati de alte forme de dezlipire si hemoragie placentara [abruptio placentae]]  <Newborn affected by other forms of placental separation and hemorrhage>  ~ 
+? P02.1   Hemoragia antepartum   [titlu: Fat si nou-nascut afectati de alte forme de dezlipire si hemoragie placentara [abruptio placentae]]  <Newborn affected by other forms of placental separation and hemorrhage>  ~ 
+? P15.3   Hemoragia subconjunctivala datorita traumatismului la nastere   [titlu: Leziunea ochiului datorita traumatismului la nastere]  <Birth injury to eye>  ~ Traumatism obstetric
+? P21.9   Hipoxia   [titlu: Astixia la nastere, nespecificata]  <>  ~ 
+? P23.6   Haemophilus influenzae   [titlu: Pneumonia congenitala datorita altor agenti bacterieni]  <Congenital pneumonia due to other bacterial agents>  ~ Amigdalita acuta cu Haemophilus | Amigdalita cu Haemophilus | Artrita cu Haemophilus influenzae | Bronsiolita cu Haemophilus | Bronsita cronica cu Haemophilus | Bronsita cu Haemophilus
+? P28.5   Hipoventilatia nou-nascutului   [titlu: Insuficienta respiratorie a nou-nascutului]  <Respiratory failure of newborn>  ~ 
+? P37.1   Hidrocefalus datorita toxoplasmozei congenitale   [titlu: Toxoplasmoza congenitala]  <Congenital toxoplasmosis>  ~ Toxoplasmoza congenitala
+? P50.9   Hemoragia fetala   [titlu: Pierdere de sange fetal, nespecificata]  <Newborn affected by intrauterine (fetal) blood loss, unspecified>  ~ 
+? P59.0   Hiperbilirubinemia prematuritatii   [titlu: Icter neonatal asociat nasterii inainte de termen]  <Neonatal jaundice associated with preterm delivery>  ~ Icter neonatal prelungit
+? P70.4   Hipoglicemia neonatala tranzitorie   [titlu: Alte hipoglicemii neonatale]  <Other neonatal hypoglycemia>  ~ Hipoglicemie neonatala
+? P72.2   Hipotiroidism neonatal tranzitoriu   [titlu: Alte tulburari neonatale tranzitorii ale functiei tiroidiene, neclasificate altundeva]  <Other transitory neonatal disorders of thyroid function, not elsewhere classified>  ~ Hipotiroidism congenital
+? P80.8   Hipotermia usoara la nou-nascut   [titlu: Alte forme de hipotermie la nou-nascut]  <Other hypothermia of newborn>  ~ Hipotermie neonatala
+? Q00.01  Hemianencefalia   [titlu: Anencefalia incompleta]  <>  ~ Hidranencefalie | Anencefalie | Iniencefalie
+? Q00.01  Hemicefalia   [titlu: Anencefalia incompleta]  <>  ~ Hemimelie
+? Q02     Hidromicrocefalia   [titlu: Microcefalia]  <Microcephaly>  ~ 
+? Q04.39  Hipoplazia partiala a creierului   [titlu: Alte anomalii de reducere a creierului]  <>  ~ 
+? Q11.2   Hipoplazia ochiului   [titlu: Microftalmia]  <Microphthalmos>  ~ 
+? Q15.0   Hidroftalmia   [titlu: Glaucom congenital]  <Congenital glaucoma>  ~ Microftalmie
+? Q18.6   Hipertrofia buzei, congenitala   [titlu: Macrocheilia]  <Macrocheilia>  ~ 
+? Q25.7   Hipoplazia arterei pulmonare   [titlu: Alte malformatii congenitale ale arterei pulmonare]  <Other congenital malformations of pulmonary artery>  ~ Hipoplazie pulmonara
+? Q50.39  Hipoplazia ovarului   [titlu: Alte malformatii congenitale ale ovarului]  <Other congenital malformation of ovary>  ~ 
+? Q51.8   Hipoplazia uterului si cervixului   [titlu: Alte malformatii congenitale ale uterului si cervixului]  <Other congenital malformations of uterus and cervix>  ~ Hipoplazie uterina
+? Q55.6   Hipoplazia penisului   [titlu: Alte malformatii congenitale ale penisului]  <Other congenital malformations of penis>  ~ 
+? Q66.3   Hallux varus, congenital   [titlu: Alte deformati congenitale de varus ale piciorului]  <Other congenital varus deformities of feet>  ~ Halux varus
+? Q69.2   Hallux accesoriu   [titlu: Deget(e) de la picioare supranumerar(e)]  <Accessory toe(s)>  ~ 
+? Q71.8   Hipoplazia mainii si degetelor   [titlu: Alte corectari de defecte ale membrului(lor) superior(oare)]  <Other reduction defects of upper limb>  ~ 
+? Q72.8   Hipoplazia congenitala a labei piciorului şi degetului(lor)   [titlu: Alte corectari ale defectelor la membrul(e) inferior(e)]  <Other reduction defects of lower limb>  ~ 
+? Q73.89  Hemimelia a membrului(lor)   [titlu: Alte defecte corectate ale unui(or) membru(e) nespecificat(e)]  <>  ~ 
+? Q74.82  Hemihipertrofia congenitala   [titlu: Supracrestere congenitala a membrului(lor)]  <>  ~ 
+? Q83.8   Hipoplazia sanului   [titlu: Alte malformatii congenitale ale sanului]  <Other congenital malformations of breast>  ~ 
+? Q85.9   Hamartoza   [titlu: Facomatoza, nespecificata]  <Phakomatosis, unspecified>  ~ Hemartroza
+? Q89.09  Hipoplazia splinei   [titlu: Alte malformatii congenitale specificate ale splinei]  <Congenital malformations of spleen>  ~ 
+= A60     herpes simplex  -> Hsv
+= B00     herpes simplex  -> Hsv
+= B02     herpes zoster  -> Zona zoster
+= B09     Hepatita virala  -> Hepatita
+= D56.4   HPFH  -> Persistenta ereditara de hemoglobina fetala
+= D58.2   Hemoglobina anormala  -> Hemoglobinopatie
+= D68.1   Hemofilia C  -> Hemofilie C
+= D76.3   Histiocitoza sinusala cu limfadenopatie masiva  -> Boala Rosai-Dorfman
+= E05.9   Hipertiroidism  -> Hipertiroidism
+= E25.0   Hiperplazia suprarenala congenitala  -> Hiperplazie suprarenala congenitala
+= E50.9   Hipovitaminoza A  -> Deficit de vitamina A
+= E72.1   Homocistinuria  -> Homocistinurie
+= E78.4   Hiperlipidemia familiala combinata  -> Hiperlipoproteinemie tip IIb
+= E78.6   Hipoalfalipoproteinemia  -> Hipoalfalipoproteinemie
+= E78.6   Hipobetalipoproteinemia (familiala)  -> Hipobetalipoproteinemie
+= E83.1   Hemocromatoza  -> Hemocromatoza
+= E83.3   Hipofosfatazia  -> Hipofosfatazie
+= E83.4   Hipermagnezemia  -> Hipermagnezemie
+= E83.5   Hipercalciuria idiopatica  -> Hipercalciurie
+= F20.1   Hebefrenia  -> Schizofrenie hebefrenica
+= G44.0   Hemicrania paroxistica cronica  -> Hemicrania paroxistica
+= G47.1   hipersomnie  -> Hipersomnie
+= G95.1   Hematomielia  -> Hematomielie
+= H50.2   Hipertropia  -> Hipertropie
+= H53.1   Hemeralopia  -> Nictalopie
+= H93.2   Hiperacuzia  -> Hiperacuzie
+= J94.8   Hidrotorax  -> Pleurezie transudativa
+= K75.9   Hepatita  -> Hepatita
+= K76.8   Hiperplazia nodulara focala a ficatului  -> Hiperplazie focala nodulara hepatica
+= L74.4   Hipohidroza  -> Hipohidroza
+= M20.3   Hallux varus  -> Halux varus
+= N70.1   Hidrosalpinx  -> Hidrosalpinx
+= N91.5   Hipomenoree  -> Hipomenoree
+= P01.3   Hidramnios  -> Polihidramnios
+= P02.1   Hematom retroplacentar  -> Decolment prematur de placenta
+= P28.3   Hipoventilatia centrala congenitala  -> Sindrom de hipoventilatie centrala congenitala
+= P29.3   Hipertensiune pulmonara persistenta a nou-nascutului  -> Hipertensiune pulmonara persistenta a nou-nascutului
+= P35.2   herpes simplex  -> Hsv
+= Q77.4   Hipocondroplazia  -> Hipocondroplazie

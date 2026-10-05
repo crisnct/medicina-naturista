@@ -1,0 +1,140 @@
+? A04.4   Enterita prin Escherichia coli   [titlu: Alte infectii intestinale prin Escherichia coli]  <Other intestinal Escherichia coli infections>  ~ 
+? A04.9   Enterita bacteriana   [titlu: Infectia intestinala bacteriana, nespecificata]  <Bacterial intestinal infection, unspecified>  ~ Artrita septica | Traheita bacteriana | Colita actinica
+? A05.2   Enterita acuta necrozanta   [titlu: Intoxicatia alimentara prin Clostridium perfringens [Clostridium welchii]]  <Foodborne Clostridium perfringens [Clostridium welchii] intoxication>  ~ Esofagita necrozanta
+? A08.1   Enterita cu virus mic rotund   [titlu: Gastro-enteropatia acuta prin agentul]  <Acute gastroenteropathy due to Norwalk agent and other small round viruses>  ~ 
+? A15.6   Empiemul tuberculos confirmat bacteriologic si histologic   [titlu: Pleurezia tuberculoasa, cu confirmare bacteriologica si histologica]  <Tuberculous pleurisy>  ~ Empiem pleural tuberculos
+? A18.4   Erythema induratum, tuberculoasa   [titlu: Tuberculoza pielii si tesutului celular subcutanat]  <Tuberculosis of skin and subcutaneous tissue>  ~ Eritema indurat
+? A25.1   Eritemul artritic epidemic   [titlu: Streptobaciloza]  <Streptobacillosis>  ~ 
+? A41.51  E. Coli   [titlu: Sepsis datorita Escherichia coli [E. Coli]]  <Sepsis due to Escherichia coli [E. coli]>  ~ Bronsiolita cu Escherichia coli | Bronsita acuta cu Escherichia coli | Bronsita cronica cu Escherichia coli | Colibaciloza | Colita hemoragica | Faringita acuta cu Escherichia coli
+? A55     Esthiomene   [titlu: Limfogranulomatoza veneriana cu Chlamydia]  <Chlamydial lymphogranuloma (venereum)>  ~ 
+? A69.2   Eritemul cronic migrator datorit Borrelia burgdorferi   [titlu: Boala Lyme]  <Lyme disease>  ~ Eritem migrator
+? A81.0   Encefalita spongioasa subacuta   [titlu: Boala Creutzfeldt-Jakob]  <Creutzfeldt-Jakob disease>  ~ Boala Creutzfeldt-Jakob
+? A81.1   Encefalita subacuta cu incluzii Dawson   [titlu: Panencefalita sclerozanta subacuta]  <Subacute sclerosing panencephalitis>  ~ 
+? A88.0   exantemul de Boston   [titlu: Febra exantematoasa cu enterovirus [exantemul de Boston]]  <Enteroviral exanthematous fever [Boston exanthem]>  ~ 
+? B00     Eczema herpetica   [titlu: Infectii cu virusul herpetic [herpes simplex]]  <Herpesviral [herpes simplex] infections>  ~ Eczema herpeticum
+? B05.0   Encefalita postmorbilioasa   [titlu: Rujeola complicata cu encefalita]  <Measles complicated by encephalitis>  ~ Encefalita rujeolasa | Encefalita cu virus varicela-zoster | Encefalita postinfectioasa
+? B30.3   enterovirala   [titlu: Conjunctivita hemoragica acuta epidemica (enterovirala)]  <Acute epidemic hemorrhagic conjunctivitis (enteroviral)>  ~ 
+? B46.8   Entomophthoromicoza   [titlu: Alte zygomicoze]  <Other zygomycoses>  ~ Entomophthoromikoza
+? B66.8   Echinostomiaza   [titlu: Alte infectii specificate cu paraziti]  <Other specified fluke infections>  ~ 
+? B67.9   Echinococcoza   [titlu: Alte infectii cu Echinococcus si nespecificate]  <Echinococcosis, other and unspecified>  ~ Hidatidoza
+? B74.3   Edemul de Calabar   [titlu: Loiasis]  <Loiasis>  ~ Loaza
+? B86     Eritem sarcoptic   [titlu: Scabia]  <Scabies>  ~ 
+? B99     Exista un numar de grupuri morfologice   [titlu: Boli infectioase, alte si nespecificate]  <Other and unspecified infectious diseases>  ~ 
+? C10.1   Epiglota, marginea libera   [titlu: Fata anterioara a epiglotei]  <Malignant neoplasm of anterior surface of epiglottis>  ~ 
+? C16.0   Esofagul si stomacul   [titlu: Cardia]  <Malignant neoplasm of cardia>  ~ 
+? C32.1   Epiglota (portiunea supra-hioidiana)   [titlu: Supraglota]  <Malignant neoplasm of supraglottis>  ~ 
+? C45.1   Epiploon   [titlu: Mesoteliomul peritoneului]  <Mesothelioma of peritoneum>  ~ 
+? C48.1   Epiploon   [titlu: Parti specificate ale peritoneului]  <Malignant neoplasm of specified parts of peritoneum>  ~ 
+? C75.3   epifiza   [titlu: Glanda pineala (epifiza)]  <Malignant neoplasm of pineal gland>  ~ 
+? D02.0   Epiglota (partea suprahioida)   [titlu: Laringe]  <Carcinoma in situ of larynx>  ~ 
+? D07.4   Eritroplazia Queyrat   [titlu: Penis]  <Carcinoma in situ of penis>  ~ 
+? D10.5   Epiglota, versantul anterior   [titlu: Alte parti ale orofaringelui]  <Benign neoplasm of other parts of oropharynx>  ~ 
+? D14.1   Epiglota (portiunea suprahioida)   [titlu: Laringe]  <Benign neoplasm of larynx>  ~ 
+? D33.0   Emisferele cerebrale   [titlu: Creier, supratentorial]  <Benign neoplasm of brain, supratentorial>  ~ Anencefalie | Hidranencefalie
+? D38.0   Epiglota (portiunea suprahioidiana)   [titlu: Laringe]  <Neoplasm of uncertain behavior of larynx>  ~ 
+? D43.0   Emisferele cerebrale   [titlu: Creier, supratentorial]  <Neoplasm of uncertain behavior of brain, supratentorial>  ~ Anencefalie | Hidranencefalie
+? D45     Eritremia cronica au de asemenea un cod morfologic   [titlu: Policitemia esentiala]  <Polycythemia vera>  ~ 
+? D60     eritroblastopenia   [titlu: Aplazia pura de celule rosii dobandita [eritroblastopenia]]  <Acquired pure red cell aplasia [erythroblastopenia]>  ~ Aplasia eritrocitara pura | Anemie eritroblastopenica
+? E01.0   endemica   [titlu: Gusa difuza (endemica) legata de carenta de iod]  <Iodine-deficiency related diffuse (endemic) goiter>  ~ 
+? E01.1   endemica   [titlu: Gusa multinodulara (endemica) legata de o carenta de iod]  <Iodine-deficiency related multinodular (endemic) goiter>  ~ 
+? E01.2   endemica   [titlu: Gusa (endemica) legata de carenta de iod, nespecificata]  <Iodine-deficiency related (endemic) goiter, unspecified>  ~ 
+? E43     Edem de infometare   [titlu: Malnutritia proteino-energetica grava, nespecificata]  <Unspecified severe protein-calorie malnutrition>  ~ 
+? E87.0   Exces de sodiu [Na]   [titlu: Hiperosmolaritate si hipernatremie]  <Hyperosmolality and hypernatremia>  ~ 
+? E87.5   Exces de potasiu [K]   [titlu: Hiperpotasemie]  <Hyperkalemia>  ~ 
+? F31.8   Episoade maniacale recurente   [titlu: Alte tulburari afective bipolare]  <Other bipolar disorders>  ~ 
+? F32.8   Episoade unice de depresie 'mascata'   [titlu: Alte episoade depresive]  <Other depressive episodes>  ~ Depresie cu simptome somatice
+? F38.0   Episod afectiv mixt   [titlu: Alte tulburari unice ale dispozitiei [afective]]  <>  ~ Stare mixta
+? F38.1   Episoade depresive recurente de scurta durata   [titlu: Alte tulburari recurente ale dispozitiei [afective]]  <>  ~ 
+? F54     Exemplele de folosire a acestei categorii   [titlu: Factori psihologici si comportamentali asociati bolilor sau tulburarilor clasificate altundeva]  <Psychological and behavioral factors associated with disorders or diseases classified elsewhere>  ~ 
+? F60.6   evitanta   [titlu: Tulburare de personalitate anxioasa [evitanta]]  <Avoidant personality disorder>  ~ 
+? G04.8   Encefalita si encefalomielita postinfectioase   [titlu: Alte encefalite, mielite si encefalomielite]  <Other encephalitis, myelitis and encephalomyelitis>  ~ Encefalita postinfectioasa
+? G13.1   Encefalopatia limbica paraneoplazica   [titlu: Alte atrofii sistemice afectand in principal sistemul nervos central in boli tumorale]  <Other systemic atrophy primarily affecting central nervous system in neoplastic disease>  ~ 
+? G31.8   Encefalopatia subacuta necrotizanta [boala   [titlu: Alte afectiuni degenerative specificate ale sistemului nervos]  <Other specified degenerative diseases of nervous system>  ~ 
+? G37.0   Encefalita periaxiala   [titlu: Scleroza difuza]  <Diffuse sclerosis of central nervous system>  ~ Boala Schilder
+? G40.5   Epilepsia partiala continua [Kozhevnikof]   [titlu: Sindroame epileptice in cazuri speciale]  <Epileptic seizures related to external causes>  ~ Epilepsie focala
+? G40.8   Epilepsii si sindroame epileptice ca fiind focalizate sau generalizate   [titlu: Alte epilepsii]  <Other epilepsy and recurrent seizures>  ~ Epilepsie generalizata
+? G45.1   emisferic   [titlu: Sindrom carotidian (emisferic)]  <Carotid artery syndrome (hemispheric)>  ~ 
+? G93.3   Encefalomielita mialgica benigna   [titlu: Sindromul de oboseala postvirala]  <Postviral and related fatigue syndromes>  ~ Encefalomielita
+? G93.8   Encefalopatia dupa radioterapie   [titlu: Alte afectiuni specificate ale creierului]  <Other specified disorders of brain>  ~ Mielopatia radiationica
+? G95.1   Edem al maduvei spinarii   [titlu: Mielopatii vasculare]  <Vascular myelopathies>  ~ Mielopatia ischemica | Tumora medulara | Amielie
+? H04.5   Eversiunea punctului lacrimal   [titlu: Stenoza si insuficienta cailor lacrimale]  <Stenosis and insufficiency of lacrimal passages>  ~ 
+? H05.3   Exostoza orbitei   [titlu: Deformarea orbitei]  <Deformity of orbit>  ~ 
+? H18.8   Eroziunea recidivanta a corneei   [titlu: Alte afectiuni specificate ale corneei]  <Other specified disorders of cornea>  ~ 
+? H19.0   Episclerita sifilitica   [titlu: Sclerita si episclerita in boli clasificate altundeva]  <>  ~ Episclerita | Sifilis ocular
+? H19.0   Episclerita tuberculoasa   [titlu: Sclerita si episclerita in boli clasificate altundeva]  <>  ~ Tuberculoza pleurala | Peritonita tuberculoasa | Tuberculoza splenica
+? H44.1   Endoftalmia parazitara   [titlu: Alte endoftalmii]  <Other endophthalmitis>  ~ 
+? H49.3   externa   [titlu: Oftalmoplegia totala (externa)]  <Total (external) ophthalmoplegia>  ~ 
+? H50.0   Esotropia (alternanta) (monoculara), cu exceptia celei intermitente   [titlu: Strabism convergent concomitent]  <Esotropia>  ~ 
+? H50.1   Exotropia (alternanta) (monoculara), cu exceptia celei intermitente   [titlu: Strabism divergent concomitent]  <Exotropia>  ~ 
+? H50.5   Esoforia   [titlu: Heteroforia]  <Heterophoria>  ~ 
+? H50.5   Exoforia   [titlu: Heteroforia]  <Heterophoria>  ~ 
+? H68     Eustache   [titlu: Salpingita si obstructia trompei]  <Eustachian salpingitis and obstruction>  ~ 
+? H69.8   Eustache   [titlu: Alte afectiuni specificate ale trompei]  <Other specified disorders of Eustachian tube>  ~ 
+? H70.0   Empiemul mastoidei   [titlu: Mastoidita acuta]  <Acute mastoiditis>  ~ 
+? I42.3   eosinofilica   [titlu: Boala endomiocardica (eosinofilica)]  <Endomyocardial (eosinophilic) disease>  ~ Eozinofilie
+? I42.3   Endocardita Löffler   [titlu: Boala endomiocardica (eosinofilica)]  <Endomyocardial (eosinophilic) disease>  ~ Sindrom hipereozinofilic cardiac
+? I45.6   Excitatie anormala atrioventriculara   [titlu: Sindrom de pre-excitatie]  <Pre-excitation syndrome>  ~ 
+? I49.4   Extrasistole   [titlu: Alte depolarizari premature si nespecificate]  <Other and unspecified premature depolarization>  ~ 
+? I77.2   Eroziunea arteriala   [titlu: Ruptura arterelor]  <Rupture of artery>  ~ Arterioscleroza | Eroziune de col uterin
+? I77.6   Endarterita   [titlu: Arterita, nespecificata]  <Arteritis, unspecified>  ~ Enterita | Arterita
+? I80.3   Embolia sau troboza extremitatilor inferioare   [titlu: Flebita si tromboflebita extremitatilor inferioare, nespecificata]  <Phlebitis and thrombophlebitis of lower extremities, unspecified>  ~ 
+? I97.2   Elefantiaza datorita mastectomiei   [titlu: Sindromul limfedemului dupa mastectomie]  <Postmastectomy lymphedema syndrome>  ~ 
+? J10.8   Encefalopatie datorita gripei, virus gripal identificat   [titlu: Gripa cu alte manifestari, virus gripal identificat]  <Influenza due to other identified influenza virus with other manifestations>  ~ Gripa cu virus identificat | Gripa fara virus identificat
+? J11.8   Encefalopatia datorita gripei sau virus specific neidentificat   [titlu: Gripa cu alte manifestari, virus neidentificat]  <Influenza due to unidentified influenza virus with other manifestations>  ~ Gripa fara virus identificat
+? J35.8   Excrescenta amigdaliana   [titlu: Alte boli cronice ale amigdalelor si adenoizilor]  <Other chronic diseases of tonsils and adenoids>  ~ 
+? J39.2   Edem al faringelui sau rino-faringelui   [titlu: Alte boli ale faringelui]  <Other diseases of pharynx>  ~ 
+? K00.6   Eruptia dentara precoce   [titlu: Tulburari de eruptie dentara]  <Disturbances in tooth eruption>  ~ 
+? K06.8   Epulis fibros   [titlu: Alte afectiuni specifice ale gingiei si ale crestei alveolare edentate]  <Other specified disorders of gingiva and edentulous alveolar ridge>  ~ 
+? K06.8   Epulis cu celule gigante   [titlu: Alte afectiuni specifice ale gingiei si ale crestei alveolare edentate]  <Other specified disorders of gingiva and edentulous alveolar ridge>  ~ Pneumonie cu celule gigante | Arterita cu celule gigante
+? K10.8   Exostoza maxilarului   [titlu: Alte boli specificate ale maxilarelor]  <>  ~ 
+? K13.2   Eritroplazia epiteliului bucal, inclusiv limba   [titlu: Leucoplazia si alte anomalii ale epiteliului bucal, inclusiv limba]  <Leukoplakia and other disturbances of oral epithelium, including tongue>  ~ Eritroplazie
+? K21.0   Esofagita cu reflux   [titlu: Boala refluxului gastro-esofagian cu esofagita]  <Gastro-esophageal reflux disease with esophagitis>  ~ Esofagita de reflux
+? K29.6   Eroziunea (acuta) a stomacului   [titlu: Alte gastrite]  <Other gastritis>  ~ 
+? K46.9   Enterita si colita neinfectioase   [titlu: Hernia abdominala nespecificata fara obstructie sau gangrena]  <Unspecified abdominal hernia without obstruction or gangrene>  ~ 
+? K51.9   Enterita ulcerativa   [titlu: Colita ulcerativa, nespecificata]  <Ulcerative colitis, unspecified>  ~ Ulcer cornean | Piodermita gangrenoasa | Proctita ulcerativa
+? K56.4   Enterolit   [titlu: Alte obstructii ale intestinului]  <Other impaction of intestine>  ~ Enterocolita | Enterita
+? K56.6   Entero-stenoza   [titlu: Alte obstructii intestinale si nespecificate]  <Other and unspecified intestinal obstruction>  ~ 
+? L23.9   Eczema alergica de contact   [titlu: Dermatita alergica de contact, cauza nespecificata]  <Allergic contact dermatitis, unspecified cause>  ~ Dermatita de contact alergica
+? L24.9   Eczema iritanta de contact   [titlu: Dermatita iritanta de contact, cauza nespecificata]  <Irritant contact dermatitis, unspecified cause>  ~ 
+? L30.2   Eczematide   [titlu: Autosensibilizarea cutanata]  <Cutaneous autosensitization>  ~ 
+? L53.9   Eritem   [titlu: Afectiune eritematoasa, nespecificata]  <Erythematous condition, unspecified>  ~ Policitemia vera
+? L98.1   Excoriatii nevrotice   [titlu: Dermatita factice]  <Factitial dermatitis>  ~ 
+? M35.4   eosinofilica   [titlu: Fasciita difuza (eosinofilica)]  <Diffuse (eosinophilic) fasciitis>  ~ Eozinofilie
+? M92.9   Epifizita specificata ca fiind juvenila, localizare   [titlu: Osteocondroza juvenila, nespecificata]  <Juvenile osteochondrosis, unspecified>  ~ 
+? M93.9   Epifizita specificata ca fiind juvenila sau la adult, localizare   [titlu: Osteocondropatia, nespecificata]  <Osteochondropathy, unspecified>  ~ 
+? N48.3   Erectie dureroasa   [titlu: Priapism]  <Priapism>  ~ Priapism
+? N72     Endocervicita cu sau fara eroziune sau ectropion   [titlu: Boala inflamatorie a colului uterin]  <Inflammatory disease of cervix uteri>  ~ 
+? N72     Exocervicita cu sau fara eroziune sau ectropion   [titlu: Boala inflamatorie a colului uterin]  <Inflammatory disease of cervix uteri>  ~ 
+? N74.1   Endometrita tuberculoasa   [titlu: Boala inflamatorie pelviana tuberculoasa feminina (A18.1†)]  <>  ~ Tuberculoza intestinala | Tuberculoza renala | Tuberculoza epididimara
+? N91.0   Esec in pornirea menstruatiei la pubertate   [titlu: Amenoree primara]  <Primary amenorrhea>  ~ Amenoree primara
+? O08.0   Endometrita dupa afectiunile clasificabile la   [titlu: Infectia pelviana si a tractului genital urmand avortului si sarcinii ectopice si molare]  <Genital tract and pelvic infection following ectopic and molar pregnancy>  ~ 
+? O26.88  Epuizare si oboseala   [titlu: Alte afectiuni specificate legate de sarcina]  <>  ~ 
+? O63.1   expulzia   [titlu: Prelungirea perioadei a doua [expulzia]]  <Prolonged second stage (of labor)>  ~ 
+? O88.8   Embolia grasoasa de origine obstetricala   [titlu: Alte embolii obstetricale]  <Other obstetric embolism>  ~ 
+? O92.3   Esecul alaptarii   [titlu: Agalactia]  <Agalactia>  ~ Agalactie
+? P03.5   Expulzia rapida   [titlu: Fat si nou-nascut afectati de nastere precipitata]  <Newborn affected by precipitate delivery>  ~ 
+? P28.0   Esec primar pentru dilatarea unitatilor respiratorii terminale   [titlu: Atelectazia primara a nou-nascutului]  <Primary atelectasis of newborn>  ~ 
+? P54.5   Echimoze la fat sau nou-nascut   [titlu: Hemoragia cutanata neonatala]  <Neonatal cutaneous hemorrhage>  ~ 
+? Q16.1   extern   [titlu: Absenta, atrezia sau strictura conductului auditiv (extern)]  <Congenital absence, atresia and stricture of auditory canal (external)>  ~ 
+? Q39.89  Esofag absent   [titlu: Alte malformatii congenitale ale esofagului]  <>  ~ 
+? Q62.6   Ectopia ureteului sau a orificiului ureteral   [titlu: Malpozitia ureterului]  <Malposition of ureter>  ~ Ectopie de ureter
+? Q73.89  Ectromelia a membrului(lor)   [titlu: Alte defecte corectate ale unui(or) membru(e) nespecificat(e)]  <>  ~ 
+? Q76.63  Excl de: coasta cervicala   [titlu: Coasta accesorie]  <>  ~ Sindrom de coasta cervicala
+? Q79.1   Eventratia diafragmului   [titlu: Alte malformatii congenitale ale diafragmului]  <Other congenital malformations of diaphragm>  ~ Eventratie diafragmatica
+? Q85.1   Epiloia   [titlu: Scleroza tuberoasa]  <Tuberous sclerosis>  ~ Epiglotita
+= A85.8   Encefalita letargica  -> Encefalita letargica
+= E10.23  ESRD  -> Insuficienta renala cronica terminala
+= E11.23  ESRD  -> Insuficienta renala cronica terminala
+= E13.23  ESRD  -> Insuficienta renala cronica terminala
+= E14.23  ESRD  -> Insuficienta renala cronica terminala
+= H61.8   Exostoza conductului auditiv extern  -> Exostoza conductului auditiv extern
+= K22.4   Esofag in tirbuson  -> Spasme esofagiene difuze
+= K50     enterita regionala  -> Boala Crohn
+= K50.9   Enterita regionala  -> Boala Crohn
+= L30.9   Eczema  -> Eczema
+= L53.9   Eritrodermia  -> Eritrodermie
+= L57.4   Elastoza senila  -> Elastoza
+= L89     Escare  -> Escara
+= M07.4   enterita regionala  -> Boala Crohn
+= M09.1   enterita regionala  -> Boala Crohn
+= N45.9   Epididimita  -> Epididimita

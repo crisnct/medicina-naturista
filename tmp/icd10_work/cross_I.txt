@@ -1,0 +1,140 @@
+? A01.0   Infectie datorita Salmonellei typhi   [titlu: Febra tifoida]  <Typhoid fever>  ~ Salmoneloza
+? A01.4   Infectie datorita Salmonellei paratyphi   [titlu: Paratifos, nespecificat]  <Paratyphoid fever, unspecified>  ~ Febra paratifoida A | Febra paratifoida B | Febra paratifoida C | Salmoneloza
+? A05.1   Intoxicatia alimentara clasica datorita   [titlu: Botulismul]  <Botulism food poisoning>  ~ Toxiinfectie alimentara
+? A06.3   intestinala   [titlu: Amiliaza (intestinala)]  <Ameboma of intestine>  ~ Meteorism | Paralizie intestinala | Gastroenterita
+? A24.0   Infectia cu Pseudomonas mallei   [titlu: Morva]  <Glanders>  ~ 
+? A24.4   Infectia datorita Burkholderia pseudomallei   [titlu: Melioidoza, nespecificata]  <>  ~ Melioidoza
+? A48.4   Infectia sistemica cu Haemophilus aegyptius   [titlu: Febra purpurica din Brazilia]  <Brazilian purpuric fever>  ~ 
+? A53.9   Infectia datorita Treponema pallidum   [titlu: Sifilis, nespecificat]  <Syphilis, unspecified>  ~ Sifilis
+? A78     Infectia datorita Coxiella burnetii   [titlu: Febra Q]  <Q fever>  ~ 
+? A79.9   Infactia prin Rickettsioze   [titlu: Rickettsioza, nespecificata]  <Rickettsiosis, unspecified>  ~ 
+? A79.9   Infectii virale ale sistemului nervos central   [titlu: Rickettsioza, nespecificata]  <Rickettsiosis, unspecified>  ~ Viroza
+? A94     Infectia cu arbovirus   [titlu: Febra virala transmisa de artropode, nespecificata]  <Unspecified arthropod-borne viral fever>  ~ Infectie cu astrovirus | Infectie cu rotavirus | Infectie cu norovirus
+? B48.2   Infectia datorita Pseudallescheria boydii   [titlu: Allescheriaza]  <Allescheriasis>  ~ 
+? B56.0   Infectie datorita Trypanosoma brucei gambiense   [titlu: Trypanosomiaza gambiense]  <Gambiense trypanosomiasis>  ~ 
+? B56.1   Infectie datorita Trypanosoma brucei rhodensiense   [titlu: Trypanosomiaza rhodesiense]  <Rhodesiense trypanosomiasis>  ~ 
+? B66.1   Infectia datorita Clonorchis sinensis   [titlu: Clonorchiaza]  <Clonorchiasis>  ~ 
+? B66.2   Infectie datorita Dricocoelium dendriticum   [titlu: Dicrocoeliaza]  <Dicroceliasis>  ~ 
+? B66.2   Infectie cu parazit Lancet   [titlu: Dicrocoeliaza]  <Dicroceliasis>  ~ 
+? B66.4   Infectie datorita unei specii de Paragonimus   [titlu: Paragonimoza]  <Paragonimiasis>  ~ 
+? B66.5   Infectie datorita Fasciolopsis buski   [titlu: Fasciolopsiaza]  <Fasciolopsiasis>  ~ 
+? B70.0   Infectia cu Diphyllobothrium (adult) (latum) (pacificum)   [titlu: Diphyllobothriaza]  <Diphyllobothriasis>  ~ 
+? B72     Infectia cu vierme de Guineea   [titlu: Dracunculoza]  <Dracunculiasis>  ~ 
+? B72     Infectia datorita Dracunculus medinensis   [titlu: Dracunculoza]  <Dracunculiasis>  ~ 
+? B75     Infectie datorita unor specii de Trichinella   [titlu: Trichinelloza]  <Trichinellosis>  ~ 
+? B76.0   Infectia datorita unor specii de Ancylostoma   [titlu: Ankylostomiaza]  <Ancylostomiasis>  ~ 
+? B76.1   Infectia datorita Necator americanus   [titlu: Necatoriaza]  <Necatoriasis>  ~ 
+? B81.0   Infectia datorita larvei Anisakis   [titlu: Anisakiaza]  <Anisakiasis>  ~ 
+? B81.1   Infectia datorita Capillaria philippinensis   [titlu: Capillariaza intestinala]  <Intestinal capillariasis>  ~ 
+? B85.0   Infestatia capului cu paduchi   [titlu: Pediculoza cu Pediculus humanus capitis]  <Pediculosis due to Pediculus humanus capitis>  ~ Pediculoza
+? B85.1   Infestatia corpului cu paduchi   [titlu: Pediculoza cu Pediculus humanus corporis]  <Pediculosis due to Pediculus humanus corporis>  ~ 
+? B88.1   infestatia cu purici de nisip   [titlu: Tungiasis [infestatia cu purici de nisip]]  <Tungiasis [sandflea infestation]>  ~ 
+? B88.3   Infestatia cu lipitori   [titlu: Hirudiniaza externa]  <External hirudiniasis>  ~ 
+? B88.8   Ichtyoparazitism datorit Vandellia cirrhosa   [titlu: Alte infestatii specificate]  <Other specified infestations>  ~ 
+? C04.0   Inaintea jonctiunii premolar-canina   [titlu: Planseul anterior al gurii]  <Malignant neoplasm of anterior floor of mouth>  ~ 
+? C18.9   Intestinul gros   [titlu: Colon, nespecificat]  <Malignant neoplasm of colon, unspecified>  ~ Meteorism
+? C25.4   Insulele Langerhans   [titlu: Pancreasul endrocrin]  <Malignant neoplasm of endocrine pancreas>  ~ 
+? C26.0   Intestinul   [titlu: Tract intestinal, parte nespecificata]  <Malignant neoplasm of intestinal tract, part unspecified>  ~ 
+? C71.7   Infratentorial   [titlu: Trunchiul cerebral]  <Malignant neoplasm of brain stem>  ~ 
+? C76.1   Intratoracic   [titlu: Torace]  <Malignant neoplasm of thorax>  ~ 
+? C76.3   Inghinal   [titlu: Pelvis]  <Malignant neoplasm of pelvis>  ~ Amigdalita
+? D12.6   Intestinul gros   [titlu: Colon, nespecificat]  <Benign neoplasm of colon, unspecified>  ~ Meteorism
+? D13.7   Insulele lui Langerhans   [titlu: Pancreas endocrin]  <Benign neoplasm of endocrine pancreas>  ~ 
+? D13.9   Intestinul   [titlu: Localizari rau definite ale sistemului digestiv]  <Benign neoplasm of ill-defined sites within the digestive system>  ~ 
+? D48.7   Inima   [titlu: Alte localizari specificate]  <Neoplasm of uncertain behavior of other specified sites>  ~ Cardiopatie
+? D58.0   Icter acholuric (familial)   [titlu: Sferocitoza ereditara]  <Hereditary spherocytosis>  ~ 
+? D58.0   Icter hemolitic congenital (sferocitar)   [titlu: Sferocitoza ereditara]  <Hereditary spherocytosis>  ~ Icter hemolitic
+? D86.8   Iridociclita in sarcoidoza†   [titlu: Sarcoidoza cu alte localizari si combinate]  <Sarcoidosis of other sites>  ~ Sarcoidoza oculara
+? E07.8   Infarctul tiroidei   [titlu: Alte afectiuni specificate ale tiroidei]  <Other specified disorders of thyroid>  ~ 
+? E23.0   Insuficienta idiopatica a hormonului de crestere   [titlu: Hipopituitarism]  <Hypopituitarism>  ~ 
+? E30.0   Intarzierea dezvoltarii constitutionale   [titlu: Pubertate intarziata]  <Delayed puberty>  ~ 
+? E71.3   Insuficienta de carnitine palmitiltransferaza musculara   [titlu: Tulburari de metabolism al acizilor grasi]  <Disorders of fatty-acid metabolism>  ~ 
+? F01.0   In cazuri rare, un singur infarct masiv poate fi cauza   [titlu: Dementa vasculara cu debut acut]  <>  ~ 
+? F09     Intoxicatie patologica   [titlu: Tulburare mentala organica sau simptomatica, nespecificata]  <Unspecified mental disorder due to known physiological condition>  ~ Intoxicatie cu plumb
+? F30.2   In plus fata de tabloul clinic descris la   [titlu: Manie cu simptome psihotice]  <Manic episode, severe with psychotic symptoms>  ~ 
+? F40.2   izolate   [titlu: Fobii specifice (izolate)]  <Specific (isolated) phobias>  ~ 
+? F41.8   Isterie anxioasa   [titlu: Alte tulburari anxioase specificate]  <Other specified anxiety disorders>  ~ 
+? F52.2   Impotenta psihogena   [titlu: Esec al raspunsului genital]  <Sexual arousal disorders>  ~ 
+? F81.9   Incapacitatea de dobandire a cunostintelor   [titlu: Tulburare de dezvoltare a abilitatilor scolare, nespecificata]  <Developmental disorder of scholastic skills, unspecified>  ~ 
+? F98.0   Incontinenta urinara de origine neorganica   [titlu: Enuresis neorganica]  <Enuresis not due to a substance or known physiological condition>  ~ Incontinenta urinara
+? F98.1   Incontinenta de fecale de origine neorganica   [titlu: Encopresie neorganica]  <Encopresis not due to a substance or known physiological condition>  ~ 
+? G47.2   Iregularitate de ritm veghe-somn   [titlu: Tulburari de ciclu veghe-somn]  <Circadian rhythm sleep disorders>  ~ 
+? G95.1   Infarctul acut al maduvei spinarii (embolic) (nonembolic)   [titlu: Mielopatii vasculare]  <Vascular myelopathies>  ~ 
+? H18.0   Inelul Kayser-Fleischer   [titlu: Pigmentatia si depunerea corneeana]  <Corneal pigmentations and deposits>  ~ 
+? H21.4   Iris bombat   [titlu: Membrane pupilare]  <Pupillary membranes>  ~ 
+? H26.4   Inelul Soemmerring   [titlu: Sechele de cataracta]  <Secondary cataract>  ~ 
+? H53.4   Ingustarea generalizata a campului vizual   [titlu: Anomalia campului vizual]  <Visual field defects>  ~ 
+? H53.5   Incapacitatea dobandita a viziunii culorilor   [titlu: Tulburari ale viziunii culorilor]  <Color vision deficiencies>  ~ 
+? H70.2   Inflamatia osului petros (acuta) (cronica)   [titlu: Apexita [petrosita]]  <Petrositis>  ~ 
+? H95.1   Inflamatia cronica dupa mastoidectomie   [titlu: Alte afectiuni survenind dupa mastoidectomie]  <Other disorders of ear and mastoid process following mastoidectomy>  ~ 
+? I11.0   Insuficienta inimii hipertensiva   [titlu: Cardiopatia hipertensiva cu insuficienta (congestiva) a inimii]  <Hypertensive heart disease with heart failure>  ~ 
+? I11.9   Insuficienta inimii hipertensiva   [titlu: Cardiopatia hipertensiva fara insuficienta (congestiva) a inimii]  <Hypertensive heart disease without heart failure>  ~ 
+? I12.0   Insuficienta renala hipertensiva   [titlu: Nefropatia hipertensiva cu insuficienta renala]  <Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease>  ~ Insuficienta renala | Nefropatie hipertensiva
+? I12.9   Insuficienta renala hipertensiva   [titlu: Nefropatia hipertensiva fara insuficienta renala]  <Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease>  ~ Insuficienta renala | Nefropatie hipertensiva
+? I60.6   Implicatia multipla a arterelor intracraniene   [titlu: Hemoragia subarahnoida de la alte artere intracraniene]  <Nontraumatic subarachnoid hemorrhage from other intracranial arteries>  ~ 
+? I67.8   Insuficienta cerebrovasculara acuta   [titlu: Alte boli cerebrovasculare, specificate]  <Other specified cerebrovascular diseases>  ~ Insuficienta renala
+? K07     inclusiv malocluzia   [titlu: Anomalii dento-faciale [inclusiv malocluzia]]  <>  ~ 
+? K07.2   Incalecare (anterioara) (posterioara)   [titlu: Anomalii de raport intre arcadele dentare]  <>  ~ 
+? K07.3   Incalecare a unuia sau mai multor dinti   [titlu: Anomalii pozitionale ale dintilor]  <>  ~ 
+? K07.5   Inchiderea anormala a maxilarului   [titlu: Anomalii functionale dento-faciale]  <>  ~ 
+? K31.5   Ileus duodenal (cronic)   [titlu: Obstructia duodenului]  <Obstruction of duodenum>  ~ Ulc duodenal cronic | Ulcer duodenal
+? K38.8   Invaginatia apendicelui   [titlu: Alte boli specificate ale apendicelui]  <Other specified diseases of appendix>  ~ Apendicita
+? K56.6   Ileus obstructiv   [titlu: Alte obstructii intestinale si nespecificate]  <Other and unspecified intestinal obstruction>  ~ Ocluzie intestinala cu strangulare | Soc obstructiv
+? K71.1   Insuficienta hepatica (acuta) (cronica) datorita medicamentelor   [titlu: Boala toxica a ficatului cu necroza hepatica]  <Toxic liver disease with hepatic necrosis>  ~ Insuficienta hepatica
+? K93.8   Infectiile pielii si ale tesutului celular subcutanat   [titlu: Afectiunile altor organe digestive specificate in boli clasificate altundeva]  <>  ~ 
+? L03.0   Infectia unghiei   [titlu: Celulita degetelor de la maini si picioare]  <Cellulitis and acute lymphangitis of finger and toe>  ~ Candidoza unghiala | Onicomicoza | Micoze
+? L03.10  Incheietura mainii   [titlu: Celulita membrului superior]  <>  ~ 
+? L22     iritatie de scutec   [titlu: Dermita (iritatie de scutec)]  <Diaper dermatitis>  ~ 
+? L23.5   Insecticide   [titlu: Dermatita alergica de contact datorita produselor chimice]  <Allergic contact dermatitis due to other chemical products>  ~ 
+? L24.5   Insecticide   [titlu: Dermatita iritanta de contact datorita altor produse chimice]  <Irritant contact dermatitis due to other chemical products>  ~ 
+? L25.3   Insecticide   [titlu: Dermatita de contact nespecificata datorita altor produse chimice]  <Unspecified contact dermatitis due to other chemical products>  ~ 
+? L40.1   Impetigo herpetiform   [titlu: Psoriazis pustular generalizat]  <Generalized pustular psoriasis>  ~ 
+? M23.8   Instabilitate ligamentara a genunchiului   [titlu: Alte afectiuni interne ale genunchiului]  <Other internal derangements of knee>  ~ Instabilitate de genunchi
+? M24.2   Instabilitate secundara unei leziuni ligamentare vechi   [titlu: Afectiune a ligamentului]  <Disorder of ligament>  ~ 
+? M54.5   Intindere a zonei inferioare a spatelui   [titlu: Dorsalgie joasa]  <Low back pain>  ~ 
+? M86.9   Infectia osului   [titlu: Osteomielita, nespecificata]  <Osteomyelitis, unspecified>  ~ Mastita
+? N15.9   Infectia rinichiului   [titlu: Boala tubulo-interstitiala renala, nespecificata]  <Renal tubulo-interstitial disease, unspecified>  ~ Pielonefrita
+? N39.4   Incontinenta reflexa   [titlu: Alte forme specificate de incontinenta urinara]  <Other specified urinary incontinence>  ~ 
+? N39.4   Incontinenta imperioasa   [titlu: Alte forme specificate de incontinenta urinara]  <Other specified urinary incontinence>  ~ 
+? N49.8   Inflamatia cu localizari multiple ale organelor genitale masculine   [titlu: Afectiuni inflamatorii ale altor organe genitale masculine specificate]  <Inflammatory disorders of other specified male genital organs>  ~ 
+? N64.5   Induratia sanului   [titlu: Alte semne si simptome observate la san]  <Other signs and symptoms in breast>  ~ Mastita
+? N73.9   Infectia sau inflamatia pelviana feminina   [titlu: Boala inflamatorie pelviana feminina, nespecificata]  <Female pelvic inflammatory disease, unspecified>  ~ 
+? N92.1   Intervale scurte, neregulate intre cicluri   [titlu: Menstruatie excesiva si frecventa cu ciclu menstrual neregulat]  <Excessive and frequent menstruation with irregular cycle>  ~ 
+? N96     Investigatie sau ingrijiri acordate unei femei care nu este gravida   [titlu: Avort obisnuit]  <Recurrent pregnancy loss>  ~ 
+? N96     Infertilitate relativa   [titlu: Avort obisnuit]  <Recurrent pregnancy loss>  ~ 
+? O12     indusa de sarcina   [titlu: Edem si proteinurie gestationala [indusa de sarcina] fara hipertensiune]  <Gestational [pregnancy-induced] edema and proteinuria without hypertension>  ~ Preeclampsie | Rinita hormonala
+? O13     indusa de sarcina   [titlu: Hipertensiune gestationala [indusa de sarcina] fara proteinurie semnificativa]  <Gestational [pregnancy-induced] hypertension without significant proteinuria>  ~ Preeclampsie | Rinita hormonala
+? O14     indusa de sarcina   [titlu: Hipertensiune gestationala [indusa de sarcina] cu proteinurie semnificativa]  <Pre-eclampsia>  ~ Preeclampsie | Rinita hormonala
+? O23.9   Infectia tractului genito-urinar in sarcina   [titlu: Alte infectii ale tractului genito-urinar in sarcina si nespecificate]  <Unspecified genitourinary tract infection in pregnancy>  ~ Infectie urinara
+? O29.0   Inhalare de continut sau secretii gastrice   [titlu: Complicatiile pulmonare ale unei anestezii in timpul sarcinii]  <Pulmonary complications of anesthesia during pregnancy>  ~ 
+? O44.0   Implantatia joasa a placentei specificata ca fara hemoragie   [titlu: Placenta praevia specificata ca fara hemoragie]  <Complete placenta previa NOS or without hemorrhage>  ~ 
+? O44.1   Implantare joasa a placentei, sau cu hemoragie   [titlu: Placenta praevia cu hemoragie]  <Complete placenta previa with hemorrhage>  ~ 
+? O62.2   Inertia uterina   [titlu: Alte forme de inertie uterina]  <Other uterine inertia>  ~ 
+? O69.2   Innodarea cordoanelor gemenilor intr-un sac amniotic unic   [titlu: Travaliul si nasterea complicate de o alta forma de innodare de cordon]  <Labor and delivery complicated by other cord entanglement, with compression>  ~ 
+? O71.6   Indepartarea traumatica a simfisei (pubiene) de origine obstetricala   [titlu: Leziune de origine obstetricala a articulatiilor si ligamentelor pelviene]  <Obstetric damage to pelvic joints and ligaments>  ~ 
+? O86.3   Infectia puerperala a tractului genito-urinar   [titlu: Alte infectii ale cailor genito-urinare survenind dupa nastere]  <>  ~ Infectie puerperala | Infectie urinara
+? O92.4   Insuficienta producerii laptelui   [titlu: Hipogalactia]  <Hypogalactia>  ~ 
+? P03.6   Inertia uterina   [titlu: Fat si nou-nascut afectati de contractii anormale ale uterului]  <Newborn affected by abnormal uterine contractions>  ~ 
+? P05.0   Intarziere de crestere asimetrica   [titlu: Greutate mica pentru varsta gestationala]  <Newborn light for gestational age>  ~ 
+? P05.1   Intarziere de crestere simetrica   [titlu: Talie mica pentru varsta gestationala]  <Newborn small for gestational age>  ~ Restrictie de crestere intrauterina
+? P05.9   Intarziere de crestere intrauterina (IUGR)   [titlu: Cresterea lenta a fatului, nespecificata]  <Newborn affected by slow intrauterine growth, unspecified>  ~ Restrictie de crestere intrauterina
+? P12.4   Incizia pentru prelevare   [titlu: Monitorizarea traumatismului scalpului la nou-nascut]  <Injury of scalp of newborn due to monitoring equipment>  ~ 
+? P29.9   Infectii specifice perioadei perinatale   [titlu: Tulburare cardio-vasculara survenind in perioada perinatala, nespecificata]  <Cardiovascular disorder originating in the perinatal period, unspecified>  ~ 
+? Q20.5   Inversia ventriculara   [titlu: Comunicatia atrioventriculara discordanta]  <Discordant atrioventricular connection>  ~ 
+? Q41.1   Imperforarea jejunului   [titlu: Absenta, atrezia si stenoza congenitala a jejunului]  <Congenital absence, atresia and stenosis of jejunum>  ~ 
+? Q62.6   Implantare, anormala a ureterului sau a orificiului ureteral   [titlu: Malpozitia ureterului]  <Malposition of ureter>  ~ 
+= B73     Infectia cu Onchocerca volvulus  -> Oncocercoza
+= B74.3   Infectia cu Loa loa  -> Loaza
+= D82.0   Imunodeficienta cu trombocitopenie si eczema  -> Sindrom Wiskott-Aldrich
+= E74.1   Intoleranta ereditara la fructoza  -> Intoleranta la fructoza
+= E84.1   Ileus meconial†  -> Ileus meconial
+= G45.9   Ischemia cerebrala tranzitorie  -> Accident ischemic tranzitoriu
+= G47.0   insomnii  -> Insomnie
+= H21.5   Iridodializa  -> Iridodializa
+= I67.8   Ischemia cerebrala (cronica)  -> Insuficienta circulatorie cerebrala cronica
+= J31.2   Inflamatia cronica a faringelui  -> Faringita
+= K30     Indigestia  -> Dispepsie
+= K90.0   Intoleranta la gluten  -> Boala celiaca
+= N16.8   Insuficienta renala  -> Insuficienta renala
+= N39.4   Incontinenta prin supraplin  -> Incontinenta prin revarsare
+= P76.0   Ileus meconial  -> Ileus meconial
