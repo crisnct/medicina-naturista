@@ -1,4 +1,4 @@
-===== NOU (66)
+===== NOU (62)
 A48.4   Febra purpurica din Brazilia  {Infectia sistemica cu Haemophilus aegyptius}  <Brazilian purpuric fever>
 A77     Febra purpurie (Rickettsia de capuse)  {Rickettsia de capuse}  <Spotted fever [tick-borne rickettsioses]>
 A77.0   Febra purpurie prin Rickettsia rickettsii  {Febra purpurie a Muntilor Stancosi / Febra Sao Paulo}  <Spotted fever due to Rickettsia rickettsii>
@@ -10,7 +10,6 @@ A92.2   Febra ecvina de Venezuela  <Venezuelan equine fever>
 A92.9   Febra virala transmisa de tantari, nespecificata  <Mosquito-borne viral fever, unspecified>
 A93.1   Febra tantarului de nisip  {Febra Pappataci / Febra Phlebotomus}  <Sandfly fever>
 A94     Febra virala transmisa de artropode, nespecificata  {Febra cu arbovirus / Infectia cu arbovirus}  <Unspecified arthropod-borne viral fever>
-D56.3   Fizionomia thalasemica  <Thalassemia minor>
 F54     Factori psihologici si comportamentali asociati bolilor sau tulburarilor clasificate altundeva  {Exemplele de folosire a acestei categorii}  <Psychological and behavioral factors associated with disorders or diseases classified elsewhere>
 F55     Folosire daunatoare de substante nedeterminand dependenta  <Abuse of non-psychoactive substances>
 F65.0   Fetisism  <Fetishism>
@@ -28,8 +27,6 @@ J95.0   Functionarea defectuoasa a unei traheostomii  {Hemoragia orificiului tra
 K03.0   Frecarea excesiva a dintilor  <Excessive attrition of teeth>
 K04.3   Formatiune anormala de tesut dentar dur in pulpa  {Dentina secundara sau neregulara}  <Abnormal hard tissue formation in pulp>
 K08.81  Fractura patologica a dintelui  <Primary occlusal trauma>
-K11.4   Fistula glandelor salivare  <Fistula of salivary gland>
-K12.2   Flegmonul si abcesul gurii  {Flegmonul planseului bucal / Abces submandibular}  <Cellulitis and abscess of mouth>
 K13.5   Fibroza submucoasa a gurii  {Fibroza submucoasa a limbii}  <Oral submucous fibrosis>
 K38.3   Fistula apendicelui  <Fistula of appendix>
 K75.1   Flebita venei porte  {Pileflebita}  <Phlebitis of portal vein>
@@ -63,35 +60,21 @@ Q43.6   Fistula congenitala a rectului si anusului  <Congenital fistula of rectu
 Q52.5   Fuziunea vulvei  <Fusion of labia>
 Q68.3   Femur curbat congenital  <Congenital bowing of femur>
 Q76.62  Fuziunea congenitala a coastelor
-Q80.4   Fat arlechin  <Harlequin fetus>
 Q85     Facomatoze, neclasificate altundeva  <Phakomatoses, not elsewhere classified>
-===== POSIBIL (75)
+===== POSIBIL (60)
 A01     Febre tifoide si paratifoide  <Typhoid and paratyphoid fevers> ~ Febra paratifoida A | Febra tifoida
 A25     Febre datorite muscaturii de sobolan  <Rat-bite fevers> ~ Febra muscaturii de sobolan
 A25.9   Febra cauzata de muscatura de sobolan, nespecificata  <Rat-bite fever, unspecified> ~ Febra muscaturii de sobolan
-A68.0   Febra recurenta prin paduche  {Febra recurenta datorita Borrelia recurrentis}  <Louse-borne relapsing fever> ~ Febra recurenta transmisa de paduchi
-A68.1   Febra recurenta prin capuse  <Tick-borne relapsing fever> ~ Febra recurenta transmisa de capuse
 A71.1   Faza activa a trahomului  {Conjunctivita granuloasa (trahomatoasa)}  <Active stage of trachoma> ~ Trahom
 A77.9   Febra purpurie, nespecificata  {Tifosul de capuse}  <Spotted fever, unspecified> ~ Febra pustoaselor stancoase
-A91     Febra hemoragica datorita virusului de denga  <Dengue hemorrhagic fever> ~ Denga | Febra hemoragica denga
 A92.0   Febra de Chikcungunya  {Febra (hemoragica) de Chikcungunya}  <Chikungunya virus disease> ~ Febra chikungunya | Febra hemoragica denga
-A92.3   Febra cu virus West Nile  <West Nile virus infection> ~ Encefalita West Nile
-A92.4   Febra de Rift Valley  <Rift Valley fever> ~ Febra de Valea Riftului
-A93.2   Febra de capuse Colorado  <Colorado tick fever> ~ Febra de Colorado
 A95.0   Febra galbena silvestra  {Febra galbena de jungla}  <Sylvatic yellow fever> ~ Febra galbena
 A95.1   Febra galbena citadina  <Urban yellow fever> ~ Febra galbena
 A96     Febra hemoragica cu Arenavirus  <Arenaviral hemorrhagic fever> ~ Febra hemoragica brasiliana | Febra hemoragica argentina
-A96.0   Febra hemoragica Junin  {Febra hemoragica argentiniana}  <Junin hemorrhagic fever> ~ Febra hemoragica argentina | Febra hemoragica Omsk | Febra hemoragica brasiliana
-A96.1   Febra hemoragica de Machupo  {Febra hemoragica de Bolivia}  <Machupo hemorrhagic fever> ~ Febra hemoragica boliviana | Febra hemoragica denga | Boala cu virusul Ebola
-A96.2   Febra de Lassa  <Lassa fever> ~ Febra Lassa
-A98.0   Febra hemoragica de Crimeia [de Congo]  {de Congo / Febra hemoragica de Asia Centrala}  <Crimean-Congo hemorrhagic fever> ~ Febra hemoragica Crimeea-Congo | Febra hemoragica denga
-A98.1   Febra hemoragica de Omsk  <Omsk hemorrhagic fever> ~ Febra hemoragica Omsk | Boala cu virusul Ebola | Febra hemoragica denga
 A99     Febra virala hemoragica, nespecificata  <Unspecified viral hemorrhagic fever> ~ Leptospiroza
 B30.2   Faringo-conjunctivita virala  <Viral pharyngoconjunctivitis> ~ Conjunctivita virala | Faringoconjunctivita
-B66.3   Fasciolaza  <Fascioliasis> ~ Fascioloza
 B74.1   Filarioza datorita Brugia malay  <Filariasis due to Brugia malayi> ~ Filarioza cu Brugia malayi
 B74.2   Filarioza datorita Brugia timori  <Filariasis due to Brugia timori> ~ Filarioza cu Brugia malayi
-B85.3   Ftiriaza  <Phthiriasis> ~ Phtiriaza
 D57.3   Fizionomia bolii hematiilor falciforme [drepanocitare]  {drepanocitare / Fizionomia Hb-S / Hemoglobina S heterozigota}  <Sickle-cell trait> ~ Anemie falciforma
 E70.0   Fenilcetonuria clasica  <Classical phenylketonuria> ~ Fenilcetonurie atipica
 E84.0   Fibroza chistica cu manifestari pulmonare  <Cystic fibrosis with pulmonary manifestations> ~ Fibroza chistica | Pneumopatie fibrozanta
@@ -101,7 +84,7 @@ I48     Fibrilatia atriala si flutter  <Atrial fibrillation and flutter> ~ Fibri
 I49.0   Fibrilatia ventriculara si flutter  <Ventricular fibrillation and flutter> ~ Flutter ventricular
 I77.0   Fistula arterio-venoasa, dobindita  {Anevrismul varicelor / Anevrism arteriovenos, dobandit}  <Arteriovenous fistula, acquired> ~ Malformatie arteriovenoasa spinala | Fistula arteriovenoasa durala | Fistula arteriovenoasa pulmonara
 I80.0   Flebita si tromboflebita vaselor superficiale ale extremitatilor inferioare  <Phlebitis and thrombophlebitis of superficial vessels of lower extremities> ~ Flebita | Tromboflebita
-J02.0   Faringita streptococica  {Durere de gat streptococica}  <Streptococcal pharyngitis> ~ Laringita streptococica | Angina streptococica | Faringita
+K11.4   Fistula glandelor salivare  <Fistula of salivary gland> ~ Atrofie de glanda salivara | Abces de glanda salivara
 K60     Fisura si fistula regiunilor anale si rectale  <Fissure and fistula of anal and rectal regions> ~ Fistula anala | Fisura anala
 K60.4   Fistula rectala  {Fistula rectala la piele}  <Rectal fistula> ~ Fistula anala | Persistenta de urac | Fistula rectovaginala
 K60.5   Fistula anorectala  <Anorectal fistula> ~ Fistula rectouretrala | Fistula rectovaginala | Fistula anala | Fisura anala
@@ -110,7 +93,6 @@ K70.2   Fibroza si scleroza alcoolica a ficatului  <Alcoholic fibrosis and scler
 K74     Fibroza si ciroza ficatului  <Fibrosis and cirrhosis of liver> ~ Ciroza hepatica | Fibroza hepatica
 K74.2   Fibroza hepatica cu scleroza hepatica  <Hepatic fibrosis with hepatic sclerosis> ~ Fibroza hepatica
 K83.3   Fistula cailor biliare  {Fistula coledocoduodenala}  <Fistula of bile duct> ~ Fistula colecistoduodenala
-M35.4   Fasciita difuza (eosinofilica)  {eosinofilica}  <Diffuse (eosinophilic) fasciitis> ~ Fascita eozinofilica | Eozinofilie
 M72.0   Fibromatoza fasciala palmara [Dupuytren]  {Dupuytren}  <Palmar fascial fibromatosis [Dupuytren]> ~ Boala Dupuytren
 M72.4   Fibromatoza pseudosarcomatoasa  {Fasciita nodulara}  <Pseudosarcomatous fibromatosis> ~ Vasculita nodulara
 M90.7   Fractura osoasa in bolile neoplazice (C00-D48†) ~ Fractura
@@ -125,7 +107,6 @@ O92.1   Fisura mamelonului asociata nasterii  {Fisura mamelonului, gestationala 
 P13.0   Fractura craniului datorita traumatismului la nastere  <Fracture of skull due to birth injury> ~ Traumatism obstetric
 P13.4   Fractura claviculei datorita traumatismului la nastere  <Fracture of clavicle due to birth injury> ~ Traumatism obstetric
 Q27.4   Flebectazia congenitala  <Congenital phlebectasia> ~ Bronsectazie congenitala
-Q35     Fisura palatului  <Cleft palate> ~ Fisura labiopalatina | Fisura palatina submucoasa | Fisura palatina
 Q35.1   Fisura boltii palatului  <Cleft hard palate> ~ Fisura palatina submucoasa
 Q36.0   Fisura labiala bilaterala  <Cleft lip, bilateral> ~ Fisura labiala | Fisura labiala mediana
 Q37     Fisura palatului cu fisura labiala  <Cleft palate with cleft lip> ~ Fisura labiala
@@ -141,19 +122,33 @@ Q39.22  Fistula bronho-esofagiana congenitala fara atrezie ~ Atrezie esofagiana 
 Q51.7   Fistula congenitala intre uter si tractul digestiv si urinar  <Congenital fistulae between uterus and digestive and urinary tracts> ~ Fistula intestinala
 Q52.2   Fistula recto-vaginala congenitala  <Congenital rectovaginal fistula> ~ Fistula rectovaginala | Fistula branhiala | Fistula rectovestibulara
 Q64.75  Fistula tractului gastro-intestinal-urinar congenitala  {Fistula uretro-rectala}  <Double urinary meatus> ~ Fistula intestinala | Fistula anala
-===== EXISTA (38)
+===== EXISTA (57)
 A01.0   Febra tifoida = Febra tifoida [exact]
 A54.5   Faringita gonococica = Faringita gonococica [exact]
 A68     Febre recurente = Febra [temporal (G1)]
+A68.0   Febra recurenta prin paduche = Febra recurenta transmisa de paduchi [exact]
+A68.1   Febra recurenta prin capuse = Febra recurenta transmisa de capuse [exact]
 A78     Febra Q = Febra Q [exact]
 A79.0   Febra de transee = Febra de transee [exact]
+A91     Febra hemoragica datorita virusului de denga = Febra hemoragica denga [exact]
 A92.1   Febra O'nyong-nyong = Febra O'nyong-nyong [exact]
+A92.3   Febra cu virus West Nile = Encefalita West Nile [exact]
+A92.4   Febra de Rift Valley = Febra de Valea Riftului [exact]
+A93.2   Febra de capuse Colorado = Febra de Colorado [exact]
 A95     Febra galbena = Febra galbena [exact]
+A96.0   Febra hemoragica Junin = Febra hemoragica argentina [exact]
+A96.1   Febra hemoragica de Machupo = Febra hemoragica boliviana [exact]
+A96.2   Febra de Lassa = Febra Lassa [exact]
+A98.0   Febra hemoragica de Crimeia [de Congo] = Febra hemoragica Crimeea-Congo [exact]
+A98.1   Febra hemoragica de Omsk = Febra hemoragica Omsk [exact]
 A98.5   Febra hemoragica cu sindrom renal = Infectie cu hantavirus [exact]
 B08.5   Faringita veziculara prin enterovirus = Herpangina [exact]
+B66.3   Fasciolaza = Fascioloza [exact]
 B66.5   Fasciolopsiaza = Fasciolopsidoza [exact]
 B74     Filarioza = Filarioza [exact]
 B74.0   Filarioza cu Wuchereria bancrofti = Filarioza limfatica [exact]
+B85.3   Ftiriaza = Phtiriaza [exact]
+D56.3   Fizionomia thalasemica = Talasemie minor [exact]
 E84     Fibroza chistica = Fibroza chistica [exact]
 E84.1   Fibroza chistica cu manifestari intestinale = Ileus meconial [exact]
 F40.1   Fobii sociale = Fobie sociala [terminatii]
@@ -163,8 +158,10 @@ F63.2   Furt patologic [cleptomanie] = Cleptomanie [exact]
 H83.1   Fistula labirintica = Fistula perilimfatica [exact]
 I42.4   Fibroelastoza endocardica = Fibroelastoza endocardica [exact]
 J02     Faringita acuta = Faringita [exact]
+J02.0   Faringita streptococica = Angina streptococica [exact]
 J31.2   Faringita cronica = Faringita [exact]
 J94.1   Fibrotorax = Fibrotorax [exact]
+K12.2   Flegmonul si abcesul gurii = Abces submandibular [exact]
 K31.6   Fistula stomacului si duodenului = Fistula gastrocolica [exact]
 K60.0   Fisura anala acuta = Fisura anala [temporal (G1)]
 K60.1   Fisura anala cronica = Fisura anala [exact]
@@ -172,14 +169,17 @@ K60.2   Fisura anala, nespecificata = Fisura anala [exact]
 K60.3   Fistula anala = Fistula anala [exact]
 K74.0   Fibroza hepatica = Fibroza hepatica [exact]
 K82.3   Fistula vezicii biliare = Fistula colecistoduodenala [exact]
+M35.4   Fasciita difuza (eosinofilica) = Fascita eozinofilica [exact]
 M72.2   Fibromatoza fasciala plantara = Pinten calcanean [exact]
 M72.6   Fasciita necrozanta = Fascita necrozanta [exact]
 N82.0   Fistula vezico-vaginala = Fistula vezicovaginala [exact]
 N82.3   Fistula vaginului cu intestinul gros = Fistula rectovaginala [exact]
+Q35     Fisura palatului = Fisura palatina [exact]
 Q36     Fisura labiala = Fisura labiala [exact]
 Q36.1   Fisura labiala mediana = Fisura labiala mediana [exact]
 Q36.9   Fisura labiala unilaterala = Fisura labiala [exact]
 Q73.1   Focomelia, membru nespecificat = Focomelie [exact]
+Q80.4   Fat arlechin = Ihtioza harlequin [exact]
 ===== ELIMINAT (79)
 A68.9   Febra recurenta, nespecificata [dublura categoriei parinte (nespecificat)]
 A95.9   Febra galbena, nespecificata [dublura categoriei parinte (nespecificat)]
