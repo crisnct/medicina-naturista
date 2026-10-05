@@ -238,6 +238,7 @@
 {"name": "Adenom paratiroidian", "synonyms": ["tumora benigna glandulara paratiroidian", "neoplasm adenomatos paratiroidian", "adenom glandular paratiroidian", "parathyroid gland adenoma", "benign glandular tumor of parathyroid gland", "benign adenomatous neoplasm of parathyroid gland"]}
 {"name": "Adenom parotidian", "synonyms": ["tumora benigna glandulara parotidian", "neoplasm adenomatos parotidian", "adenom glandular parotidian", "parotid gland adenoma", "benign glandular tumor of parotid gland", "benign adenomatous neoplasm of parotid gland"]}
 {"name": "Adenom pineal", "synonyms": ["tumora benigna glandulara pineal", "neoplasm adenomatos pineal", "adenom glandular pineal", "pineal gland adenoma", "benign glandular tumor of pineal gland", "benign adenomatous neoplasm of pineal gland"]}
+{"name": "Adenom pleomorf", "synonyms": ["tumora mixta de glanda salivara", "tumora mixta benigna", "adenom pleomorf parotidian", "pleomorphic adenoma", "benign mixed tumor", "mixed tumor of salivary gland"]}
 {"name": "Adenom rectal", "synonyms": ["tumora benigna glandulara rectal", "neoplasm adenomatos rectal", "adenom glandular rectal", "rectum adenoma", "benign glandular tumor of rectum", "benign adenomatous neoplasm of rectum"]}
 {"name": "Adenom renal", "synonyms": ["tumora benigna glandulara renal", "neoplasm adenomatos renal", "adenom glandular renal", "kidney adenoma", "benign glandular tumor of kidney", "benign adenomatous neoplasm of kidney"]}
 {"name": "Adenom renal cortical", "synonyms": ["tumora benigna glandulara renal cortical", "neoplasm adenomatos renal cortical", "adenom glandular renal cortical", "renal cortex adenoma", "benign glandular tumor of renal cortex", "benign adenomatous neoplasm of renal cortex"]}
@@ -284,6 +285,7 @@
 {"name": "Agenezie de penis", "synonyms": ["absenta penisului", "lipsa penisului", "aplazie peniana", "penile agenesis", "aphallia", "absence of the penis"]}
 {"name": "Agenezie de septum pellucidum", "synonyms": ["absenta septum pellucidum", "lipsa septului transparent", "disgenezie de septum pellucidum", "agenesis of the septum pellucidum", "absent septum pellucidum", "septal agenesis"]}
 {"name": "Agenezie de vezica urinara", "synonyms": ["absenta congenitala a vezicii urinare", "agenezie vezicala", "agenezie de vezica si uretra", "bladder agenesis", "congenital absence of bladder", "agenesis of urinary bladder"]}
+{"name": "Agenezie esofagiana", "synonyms": ["absenta congenitala a esofagului", "esofag absent", "aplazie esofagiana", "esophageal agenesis", "congenital absence of esophagus", "absent esophagus"]}
 {"name": "Agenezie ovariana", "synonyms": ["absenta congenitala a ovarelor", "lipsa ovarelor", "aplazie ovariana", "ovarian agenesis", "congenital absence of the ovaries", "absent ovaries"]}
 {"name": "Agenezie renala", "synonyms": ["ageneza renala", "absenta congenitala a rinichiului", "lipsa congenitala a rinichiului", "renal agenesis", "congenital absence of kidney", "absent kidney"]}
 {"name": "Agenezie suprarenala", "synonyms": ["absenta congenitala a glandei suprarenale", "aplazie suprarenala", "agenezie adrenala", "adrenal agenesis", "congenital absence of adrenal gland", "adrenal aplasia"]}
@@ -503,6 +505,7 @@
 {"name": "Anemie sideroblastica", "synonyms": ["forma sideroblastica de anemie", "tip sideroblastica de anemie", "anemie de tip sideroblastica", "sideroblastic anemia", "sideroblastic anaemia", "anemia of sideroblastic type"]}
 {"name": "Anemie sideroblastica legata de X", "synonyms": ["anemie sideroblastica X-linkata", "anemie sideroblastica ereditara", "anemie sideroblastica mostenita", "X-linked sideroblastic anemia", "hereditary sideroblastic anemia", "XLSA"]}
 {"name": "Anemie talasemica", "synonyms": ["forma talasemica de anemie", "tip talasemica de anemie", "anemie de tip talasemica", "thalassemic anemia", "thalassemic anaemia", "anemia of thalassemic type"]}
+{"name": "Anemie von Jaksch", "synonyms": ["pseudoleucemia infantila", "anemie pseudoleucemica infantila", "sindrom von Jaksch-Hayem", "von Jaksch anemia", "anemia pseudoleukemica infantum", "von Jaksch-Luzet syndrome"]}
 {"name": "Anencefalie", "synonyms": ["anencefalia", "absenta creierului", "lipsa emisferelor cerebrale", "anencephaly", "anencephalus", "absence of the brain"]}
 {"name": "Anetodermie", "synonyms": ["atrofie maculara cutanata", "anetodermie Schweninger-Buzzi", "anetodermie Jadassohn-Pellizzari", "anetoderma", "macular atrophy of skin", "anetoderma of Jadassohn-Pellizzari"]}
 {"name": "Anevrism aortic", "synonyms": ["anevrism al aortei", "dilatare anevrismala a aortei", "anevrism de aorta", "aortic aneurysm", "aneurysm of the aorta", "aortic artery aneurysm"]}
@@ -539,9 +542,11 @@
 {"name": "Angioedem ereditar tip I", "synonyms": ["angioedem ereditar cu deficit de C1 inhibitor", "deficit cantitativ de C1 inhibitor", "forma tip I de angioedem ereditar", "hereditary angioedema type I", "HAE type I", "quantitative C1 inhibitor deficiency"]}
 {"name": "Angioedem ereditar tip II", "synonyms": ["angioedem ereditar cu C1 inhibitor disfunctional", "deficit functional de C1 inhibitor", "forma tip II de angioedem ereditar", "hereditary angioedema type II", "HAE type II", "functional C1 inhibitor deficiency"]}
 {"name": "Angioedem ereditar tip III", "synonyms": ["angioedem ereditar cu factor XII normal", "angioedem familial fara deficit de C1 inhibitor", "angioedem ereditar estrogen-dependent", "hereditary angioedema type III", "HAE type III", "estrogen-dependent hereditary angioedema"]}
+{"name": "Angiofibrom nazofaringian juvenil", "synonyms": ["angiofibrom juvenil", "fibrom nazofaringian juvenil", "angiofibrom nazofaringian", "juvenile nasopharyngeal angiofibroma", "juvenile angiofibroma", "nasopharyngeal angiofibroma"]}
 {"name": "Angiom senil", "synonyms": ["hemangiom senil", "angiom cherry", "angiom rubin", "cherry angioma", "senile hemangioma", "cherry hemangioma"]}
 {"name": "Angiomatoza bacilara", "synonyms": ["pelioza bacilara", "angiomatoza bacilara hepatica", "pelioza hepatica cu Bartonella", "bacillary angiomatosis", "bacillary peliosis", "epithelioid angiomatosis"]}
 {"name": "Angiomatoza cutanata", "synonyms": ["angiomatoza pielii", "angiomatoza difuza", "hemangiomatoza cutanata", "cutaneous angiomatosis", "diffuse angiomatosis", "skin angiomatosis"]}
+{"name": "Angiomiolipom", "synonyms": ["angiomiolipom renal", "hamartom angiomiolipomatos", "angiomiolipom al rinichiului", "angiomyolipoma", "renal angiomyolipoma", "kidney angiomyolipoma"]}
 {"name": "Angiopatie amiloida cerebrala", "synonyms": ["amiloidoza vasculara cerebrala", "angiopatia amiloida a creierului", "hemoragie prin angiopatie amiloida", "cerebral amyloid angiopathy", "amyloid angiopathy of the brain", "cerebral amyloidosis", "angiopatie congofila cerebrala", "amiloidoza cerebrala", "CAA"]}
 {"name": "Angiosarcom", "synonyms": ["sarcom vascular", "sarcom al endoteliului vascular", "neoplasm malign vascular", "angiosarcoma", "vascular sarcoma", "malignant endothelial tumor"]}
 {"name": "Angiosarcom hepatic", "synonyms": ["hemangiosarcom hepatic", "sarcom cu celule Kupffer", "angiosarcomul ficatului", "hepatic angiosarcoma", "liver angiosarcoma", "Kupffer cell sarcoma"]}
@@ -574,6 +579,8 @@
 {"name": "Antrax injectional", "synonyms": ["antrax la consumatorii de droguri injectabile", "antrax subcutanat la heroinomani", "antrax prin injectare", "injectional anthrax", "injection anthrax", "anthrax in injecting drug users"]}
 {"name": "Antrax meningeal", "synonyms": ["meningita cu Bacillus anthracis", "meningoencefalita antracoida", "hemoragie meningeana antracoida", "anthrax meningitis", "meningeal anthrax", "hemorrhagic meningitis due to anthrax"]}
 {"name": "Antrax pulmonar", "synonyms": ["antrax inhalator", "boala lanarilor", "antrax respirator", "inhalational anthrax", "pulmonary anthrax", "woolsorter's disease"]}
+{"name": "Antrax septicemic", "synonyms": ["septicemie carbunoasa", "sepsis antracic", "septicemie cu Bacillus anthracis", "anthrax sepsis", "septicemic anthrax", "anthrax septicaemia"]}
+{"name": "Anus ectopic", "synonyms": ["ectopia anusului", "anus anterior ectopic", "anus deplasat anterior", "ectopic anus", "anterior ectopic anus", "anteriorly displaced anus"]}
 {"name": "Anus imperforat", "synonyms": ["imperforatie anala", "atresie anorectala", "lipsa orificiului anal", "imperforate anus", "anal atresia", "anorectal atresia"]}
 {"name": "Anxietate", "synonyms": ["tulburare anxioasa", "stare de anxietate", "anxietate generalizata", "anxiety", "anxiety disorder", "generalized anxiety disorder"]}
 {"name": "Anxietate de sanatate", "synonyms": ["anxietate legata de sanatate", "ingrijorare excesiva pentru sanatate", "preocupare hipocondriaca", "health anxiety", "illness anxiety disorder", "health-related anxiety"]}
@@ -816,6 +823,7 @@
 {"name": "Atrezie rectala", "synonyms": ["atrezia rectului", "lipsa congenitala a rectului", "obstructie rectala congenitala", "rectal atresia", "congenital rectal atresia", "atresia of the rectum"]}
 {"name": "Atrezie tricuspidiana", "synonyms": ["atrezia valvei tricuspide", "lipsa orificiului tricuspidian", "atresia valvei tricuspide", "tricuspid atresia", "congenital tricuspid atresia", "tricuspid valve atresia"]}
 {"name": "Atrezie vaginala", "synonyms": ["lipsa congenitala a vaginului", "absenta congenitala a vaginului", "vagin imperforat", "vaginal atresia", "congenital absence of the vagina", "vaginal agenesis"]}
+{"name": "Atritie dentara", "synonyms": ["frecarea excesiva a dintilor", "uzura dentara prin atritie", "uzura ocluzala a dintilor", "excessive attrition of teeth", "dental attrition", "tooth attrition"]}
 {"name": "Atrofie a crestei alveolare", "synonyms": ["resorbtie a crestei alveolare", "atrofia crestei alveolare edentate", "resorbtie osoasa alveolara", "alveolar ridge atrophy", "atrophy of edentulous alveolar ridge", "alveolar ridge resorption"]}
 {"name": "Atrofie blanca", "synonyms": ["atrofie alba", "purpura pigmentata", "atrofie alba doloroasa", "atrophie blanche", "segmentary hyalinizing vasculitis", "white atrophy"]}
 {"name": "Atrofie cerebeloasa", "synonyms": ["atrofie a cerebelului", "atrofie cerebeloasa corticala", "degenerescenta cerebeloasa", "cerebellar atrophy", "cerebellar degeneration", "cerebellar cortical atrophy"]}
@@ -840,6 +848,7 @@
 {"name": "Atrofie vaginala", "synonyms": ["atrofie a mucoasei vaginale", "vaginita atrofica", "uscaciune vaginala", "vaginal atrophy", "atrophic vaginitis", "genitourinary syndrome of menopause"]}
 {"name": "Atrofie vulvara", "synonyms": ["atrofie a vulvei", "vulvita atrofica", "distrofie vulvara", "vulvar atrophy", "atrophic vulvitis", "vulvar dystrophy"]}
 {"name": "Atrofodermie", "synonyms": ["atrofodermie Pasini-Pierini", "atrofodermie idiopatica", "atrofie cutanata localizata", "atrophoderma", "atrophoderma of Pasini and Pierini", "idiopathic atrophoderma"]}
+{"name": "Atrofodermie vermiculata", "synonyms": ["foliculita uleritematoasa reticulata", "atrofie vermiculata", "acnee vermoulanta", "folliculitis ulerythematosa reticulata", "atrophoderma vermiculatum", "honeycomb atrophy"]}
 {"name": "Autism", "synonyms": ["tulburare de spectru autist", "tulburare autista", "autism infantil", "autism spectrum disorder", "autistic disorder", "childhood autism"]}
 {"name": "Autism atipic", "synonyms": ["psihoza infantila atipica", "tulburare pervaziva de dezvoltare atipica", "autism cu debut atipic", "atypical autism", "atypical childhood psychosis", "pervasive developmental disorder not otherwise specified"]}
 {"name": "Aversiune sexuala", "synonyms": ["repulsie sexuala", "dezinteres sexual marcat", "aversiune fata de contact sexual", "sexual aversion disorder", "sexual aversion", "aversion to sexual contact"]}

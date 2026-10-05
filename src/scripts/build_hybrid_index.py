@@ -46,7 +46,7 @@ BATCH_SIZE = 8
 # changes (e.g. the cleaning rules below), so build() forces a full resync
 # even though every source file's own SHA-256 is unchanged. See build()'s use
 # of TEXT_REPR_VERSION against sync_metadata.
-TEXT_REPR_VERSION = "5"
+TEXT_REPR_VERSION = "6"
 
 
 @dataclass(frozen=True)
