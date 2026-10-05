@@ -1,0 +1,73 @@
+? A19.9   Unele antropozoonoze bacteriene   [titlu: Tuberculoza miliara, nespecificata]  <Miliary tuberculosis, unspecified>  ~ 
+? A57     Ulcus molle   [titlu: Sancrul moale]  <Chancroid>  ~ 
+? A66.0   Ulcerul framboesian initial   [titlu: Leziunile initiale ale pianului]  <Initial lesions of yaws>  ~ 
+? C57.8   Utero-ovariana   [titlu: Leziune depasind organele genitale la femeie]  <Malignant neoplasm of overlapping sites of female genital organs>  ~ Atrofie ovariana
+? D02.3   Urechea medie   [titlu: Alte parti ale sistemului respirator]  <Carcinoma in situ of other parts of respiratory system>  ~ 
+? D38.5   Urechea medie   [titlu: Alte organe respiratorii]  <Neoplasm of uncertain behavior of other respiratory organs>  ~ 
+? D77     Unele tulburari ale sistemului imunitar   [titlu: Alte boli ale sangelui si ale organelor hematopoietice in unele boli clasificate altundeva]  <Other disorders of blood and blood-forming organs in diseases classified elsewhere>  ~ 
+? F09     Urmatoarele subdiviziuni cu patru caractere sunt   [titlu: Tulburare mentala organica sau simptomatica, nespecificata]  <Unspecified mental disorder due to known physiological condition>  ~ 
+? F32     Urmatoarele subdiviziuni cu cinci   [titlu: Episod depresiv]  <Depressive episode>  ~ 
+? G40     Urmatoarea subdiviziune cu al cincilea   [titlu: Epilepsia]  <Epilepsy and recurrent seizures>  ~ 
+? G82     Urmatoarele subdiviziuni cu cinci   [titlu: Paraplegia si tetraplegia]  <Paraplegia (paraparesis) and quadriplegia (quadriparesis)>  ~ 
+? H00.0   Urcior   [titlu: Orgelet si alte inflamatii profunde ale pleoapei]  <Hordeolum (externum) (internum) of eyelid>  ~ 
+? H20.0   Uveita anterioara   [titlu: Iridociclita acuta si subacuta]  <Acute and subacute iridocyclitis>  ~ 
+? H65.3   Ureche cu mucozitati   [titlu: Otita medie mucoida cronica]  <Chronic mucoid otitis media>  ~ 
+? I77.2   Ulceratia arteriala   [titlu: Ruptura arterelor]  <Rupture of artery>  ~ 
+? I83.0   Ulcer varicos (extremitatile inferioare, orice parte)   [titlu: Vene varicoase cu ulceratie ale extremitatilor inferioare]  <Varicose veins of lower extremities with ulcer>  ~ Ulcere ale picioarelor
+? I86.8   Ulcer varicos al septului nazal   [titlu: Vene varicoase cu alte localizari specificate]  <Varicose veins of other specified sites>  ~ Ulcere ale picioarelor
+? J34.0   Ulceratia nazala (sept)   [titlu: Abces, furuncul si antraxul nasului]  <Abscess, furuncle and carbuncle of nose>  ~ 
+? J35.8   Ulcer amigdalian   [titlu: Alte boli cronice ale amigdalelor si adenoizilor]  <Other chronic diseases of tonsils and adenoids>  ~ Carcinom amigdalian | Abces periamigdalian
+? J38.7   Ulceratia laringelui   [titlu: Alte boli ale laringelui]  <Other diseases of larynx>  ~ 
+? J98.0   Ulcerul bronhiilor   [titlu: Afectiuni ale traheii si bronhiilor, neclasificate altundeva]  <Diseases of bronchus, not elsewhere classified>  ~ 
+? K14.0   Ulceratia (traumatica) a limbii   [titlu: Glosita]  <Glossitis>  ~ 
+? K40     Urmatoarele subdiviziuni cu cinci caractere   [titlu: Hernia inghinala]  <Inguinal hernia>  ~ 
+? K57     Urmatoarele subdiviziuni cu cinci   [titlu: Boli diverticulare ale intestinului]  <Diverticular disease of intestine>  ~ 
+? K80     Urmatoarele subdiviziuni cu cinci   [titlu: Colelitiaza]  <Cholelithiasis>  ~ 
+? K83.8   Ulcerul cailor biliare   [titlu: Alte boli specifice ale cailor biliare]  <Other specified diseases of biliary tract>  ~ Colangiocarcinom
+? L02.4   Umar   [titlu: Abces cutanat, furuncul si carbuncul al membrului]  <Cutaneous abscess, furuncle and carbuncle of limb>  ~ 
+? L03.10  Umar   [titlu: Celulita membrului superior]  <>  ~ 
+? L04.2   Umar   [titlu: Limfadenita acuta a membrului superior]  <Acute lymphadenitis of upper limb>  ~ 
+? L45     Urticaria si eritemul   [titlu: Tulburari papulo-scuamoase in boli clasificate altundeva]  <Papulosquamous disorders in diseases classified elsewhere>  ~ 
+? L95.9   Ulceratia membrului inferior   [titlu: Vasculita limitata a pielii, nespecificata]  <Vasculitis limited to the skin, unspecified>  ~ 
+? N13.6   Uropatia obstructiva cu infectie   [titlu: Pionefroza]  <Pyonephrosis>  ~ Nefropatia obstructiva
+? N28.8   Ureterita chistica   [titlu: Alte tulburari specificate ale rinichiului si ureterului]  <Other specified disorders of kidney and ureter>  ~ Ureterita
+? N30.3   Uretro-trigonita   [titlu: Trigonita]  <Trigonitis>  ~ 
+? N34.2   Ulcerul uretrei (meatului)   [titlu: Alte uretrite]  <Other urethritis>  ~ 
+? N36.3   Uretrocel, barbat   [titlu: Prolapsul mucoasei uretrale]  <>  ~ 
+? N85.2   Uter largit sau voluminos   [titlu: Hipertrofia uterului]  <Hypertrophy of uterus>  ~ 
+? N86     Ulcer decubit (trofic) al colului   [titlu: Eroziune si ectropion ai colului uterin]  <Erosion and ectropion of cervix uteri>  ~ Escara
+? N89.8   Ulcer al vaginului datorita pessarului   [titlu: Alte afectiuni neinflamatorii specificate ale vaginului]  <Other specified noninflammatory disorders of vagina>  ~ 
+? O66.0   Umar angajat   [titlu: Distocia de obstacol datorita unei distocii a umarului]  <Obstructed labor due to shoulder dystocia>  ~ 
+? O99.8   Unele afectiuni ale caror origine se situeaza in perioada perinatala   [titlu: Alte boli si afectiuni specificate complicand sarcina, nasterea si lauzia]  <Other specified diseases and conditions complicating pregnancy, childbirth and the puerperium>  ~ 
+? P00.5   Unele afectiuni ale caror origine se situeaza in perioada perinatala   [titlu: Fat si nou-nascut afectati de un traumatism al mamei]  <Newborn affected by maternal injury>  ~ 
+? P02.4   Unele afectiuni ale caror origine se situeaza in perioada perinatala   [titlu: Fat si nou-nascut afectati de procidenta cordonului ombilical]  <Newborn affected by prolapsed cord>  ~ 
+? P04.4   Unele afectiuni ale caror origine se situeaza in perioada perinatala   [titlu: Fat si nou-nascut afectati de toxicomania materna]  <Newborn affected by maternal use of drugs of addiction>  ~ 
+? P05.0   Usor pentru varsta gestationala   [titlu: Greutate mica pentru varsta gestationala]  <Newborn light for gestational age>  ~ 
+? P07.31  Unele afectiuni ale caror origine se situeaza in perioada perinatala   [titlu: Alti copii nascuti inainte de termen, 28 sau mai multe saptamani complete dar mai putin de 32 saptamani complete]  <Preterm newborn, gestational age 28 completed weeks>  ~ 
+? P11.9   Unele afectiuni ale caror origine se situeaza in perioada perinatala   [titlu: Leziunea sistemului nervos central datorita traumatismului la nastere, nespecificata]  <Birth injury to central nervous system, unspecified>  ~ 
+? P20.1   Unele afectiuni ale caror origine se situeaza in perioada perinatala   [titlu: Hipoxia intrauterina constatata pentru prima oara in timpul travaliului si nasterii]  <>  ~ 
+? P26.0   Unele afectiuni ale caror origine se situeaza in perioada perinatala   [titlu: Hemoragia traheo-bronsica survenind in perioada perinatala]  <Tracheobronchial hemorrhage originating in the perinatal period>  ~ 
+? P29.9   Unele afectiuni ale caror origine se situeaza in perioada perinatala   [titlu: Tulburare cardio-vasculara survenind in perioada perinatala, nespecificata]  <Cardiovascular disorder originating in the perinatal period, unspecified>  ~ 
+? P39.1   Unele afectiuni ale caror origine se situeaza in perioada perinatala   [titlu: Conjunctivita si dacriocistita neonatala]  <Neonatal conjunctivitis and dacryocystitis>  ~ 
+? P54     Unele afectiuni ale caror origine se situeaza in perioada perinatala   [titlu: Alte hemoragii neonatale]  <Other neonatal hemorrhages>  ~ 
+? P61     Unele afectiuni ale caror origine se situeaza in perioada perinatala   [titlu: Alte tulburari hematologice ale perioadei perinatale]  <Other perinatal hematological disorders>  ~ 
+? P74.30  Unele afectiuni ale caror origine se situeaza in perioada perinatala   [titlu: Pertubarea echilibrului potasiului la nou-nascut, nespecificata]  <>  ~ 
+? P78.8   Ulcer peptic la nou-nascut   [titlu: Alte tulburari perinatale specificate ale sistemului digestiv]  <Other specified perinatal digestive system disorders>  ~ Ulcer gastric
+? P83.3   Unele afectiuni ale caror origine se situeaza in perioada perinatala   [titlu: Edeme, altele si nespecificate, specifice fatului si nou-nascutului]  <Other and unspecified edema specific to newborn>  ~ 
+? P83.8   Urticaria neonatala   [titlu: Alte afectiuni specificate ale tegumentelor, specifice fatului si nou-nascutului]  <Other specified conditions of integument specific to newborn>  ~ 
+? P96.0   Uremia la nou-nascut   [titlu: Insuficienta renala congenitala]  <Congenital renal failure>  ~ Anemie neonatala | Varicela congenitala | Sepsis neonatal
+? P96.0   Unele afectiuni ale caror origine se situeaza in perioada perinatala   [titlu: Insuficienta renala congenitala]  <Congenital renal failure>  ~ 
+? Q17.3   Ureche cu varf ascutit   [titlu: Alte diformitati ale urechii]  <Other misshapen ear>  ~ 
+? Q62.39  Ureterocel congenital   [titlu: Alte defecte obstructive congenitale ale pelvisului renal si ureterului]  <Other obstructive defects of renal pelvis and ureter>  ~ Megaureter | Agenezie ureterala | Hidrocel
+? Q62.4   Ureter absent   [titlu: Agenezia ureterului]  <Agenesis of ureter>  ~ Agenezie ureterala
+? Q62.5   Ureter accesoriu   [titlu: Dublarea ureterului]  <Duplication of ureter>  ~ 
+? Q64.32  Uretra impermeabila   [titlu: Strictura congenitala a uretrei]  <Congenital stricture of urethra>  ~ 
+? Q82.2   Urticaria pigmentara   [titlu: Mastocitoza]  <Congenital cutaneous mastocytosis>  ~ Mastocitoza cutanata | Retinita pigmentara
+= A31.1   Ulcerul Buruli  -> Ulcerul Buruli
+= H44.1   Uveita simpatica  -> Oftalmie simpatica
+= K12.0   Ulceratia aftoasa recidivanta  -> Stomatita aftoasa recidivanta
+= M75.0   Umar blocat  -> Sindrom de iesire toracica
+= N18.90  Uremia cronica  -> Uremie
+= N19     Uremia  -> Uremie
+= N28.8   Ureterocel  -> Ureterocel
+= Q51.2   Uter dublu  -> Uter didelf

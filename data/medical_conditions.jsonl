@@ -6156,11 +6156,20 @@
 {"name": "Ulcer de decubit infectat", "synonyms": ["escara infectata", "ulcer de presiune infectat", "plaga de decubit infectata", "infected pressure ulcer", "infected bedsore", "infected decubitus ulcer"]}
 {"name": "Ulcer duodenal", "synonyms": ["ulcer de duoden", "ulcer duodenal cronic", "ulcer bulbar", "duodenal ulcer", "duodenal peptic ulcer", "ulcer of the duodenum"]}
 {"name": "Ulcer gastric", "synonyms": ["rana la stomac", "ulcer de stomac", "ulcer peptic", "ulcer gastroduodenal", "gastric ulcer", "peptic ulcer", "stomach ulcer"]}
+{"name": "Ulcer gastrojejunal", "synonyms": ["ulcer gastro-jejunal", "ulcer anastomotic", "ulcer marginal", "ulcer peptic jejunal", "gastrojejunal ulcer", "anastomotic ulcer", "marginal ulcer", "stomal ulcer"]}
+{"name": "Ulcer intestinal", "synonyms": ["ulcer al intestinului", "ulcer primar al intestinului subtire", "ulceratie intestinala", "ulcer of intestine", "intestinal ulcer", "small bowel ulcer"]}
 {"name": "Ulcer neuropatic", "synonyms": ["ulcer trophoneurotic", "ulcer de origine nervoasa", "ulcerare neuropatica", "neuropathic ulcer", "trophic ulcer", "trophoneurotic ulcer"]}
+{"name": "Ulcer penian", "synonyms": ["ulceratia penisului", "ulceratie peniana", "ulcer al penisului", "ulcer of penis", "penile ulcer", "penile ulceration"]}
+{"name": "Ulcer rectal solitar", "synonyms": ["ulcerul anusului si rectului", "sindromul ulcerului rectal solitar", "ulcer solitar al rectului", "ulcer rectal", "ulcer of anus and rectum", "solitary rectal ulcer syndrome", "solitary rectal ulcer", "rectal ulcer"]}
+{"name": "Ulcer tropical", "synonyms": ["ulcer fagedenic tropical", "ulcus tropicum", "ulcer tropical al gambei", "tropical ulcer", "tropical phagedenic ulcer", "Naga sore", "Malabar ulcer"]}
+{"name": "Ulcer vaginal", "synonyms": ["ulceratie a vaginului", "ulceratie vaginala", "ulcer al vaginului", "ulceration of vagina", "vaginal ulcer", "vaginal ulceration"]}
+{"name": "Ulcer vulvar", "synonyms": ["ulceratie a vulvei", "ulceratie vulvara", "ulcer al vulvei", "ulceration of vulva", "vulvar ulcer", "vulvar ulceration"]}
 {"name": "Ulcere ale picioarelor", "synonyms": ["rane la picioare", "rani la picioare", "rana la picior", "ulcer varicos", "ulcer de gamba", "ulcer venos", "leg ulcer", "venous leg ulcer", "varicose ulcer"]}
 {"name": "Ulcere ale pielii", "synonyms": ["ulceratii cutanate", "ulcer cutanat", "plaga deschisa a pielii", "skin ulcer", "cutaneous ulceration", "skin ulceration"]}
 {"name": "Ulcerul Buruli", "synonyms": ["ulcer Buruli", "infectie cu Mycobacterium ulcerans", "ulcer necrozant tropical", "Buruli ulcer", "Mycobacterium ulcerans infection", "Bairnsdale ulcer"]}
 {"name": "Unghii fragile", "synonyms": ["unghii casante", "onicoschizie", "unghii care se sparg", "brittle nails", "fragile nails", "onychoschizia"]}
+{"name": "Ureche in conopida", "synonyms": ["urechi in floare de varza", "ureche de luptator", "ureche de boxer", "cauliflower ear", "wrestler's ear", "boxer's ear"]}
+{"name": "Ureche proeminenta", "synonyms": ["urechi clapauge", "urechi decolate", "ureche in forma de liliac", "prominent ear", "bat ear", "protruding ears"]}
 {"name": "Uremie", "synonyms": ["sindrom uremic", "intoxicatie cu uree", "uremie cronica", "uremia", "uremic syndrome", "uraemia"]}
 {"name": "Ureterita", "synonyms": ["inflamatia ureterului", "infectie ureterala", "ureterita cronica", "ureteritis", "ureteral inflammation", "inflammation of the ureter"]}
 {"name": "Ureterocel", "synonyms": ["ureterocel simplu", "ureterocel ectopic", "dilatatie chistica a ureterului terminal", "ureterocele", "ureteral cyst", "cystic dilatation of the ureter"]}
@@ -6174,12 +6183,14 @@
 {"name": "Urticarie la frig", "synonyms": ["urticarie la rece", "urticarie prin frig", "alergie la frig", "cold urticaria", "cold-induced urticaria", "acquired cold urticaria"]}
 {"name": "Urticarie solara", "synonyms": ["urticarie la soare", "urticarie prin expunere solara", "fotoalergie urticariana", "solar urticaria", "sun urticaria", "light-induced urticaria"]}
 {"name": "Urticarie vasculitica", "synonyms": ["vasculita urticariana", "urticarie cu vasculita", "angioedem cu vasculita", "urticarial vasculitis", "hypocomplementemic urticarial vasculitis", "urticaria with vasculitis"]}
+{"name": "Urticarie vibratorie", "synonyms": ["urticaria provocata de vibratii", "angioedem vibrator", "urticarie indusa de vibratii", "vibratory urticaria", "vibratory angioedema", "vibration-induced urticaria"]}
 {"name": "Uter arcuat", "synonyms": ["uter fundic arcuit", "malformatie uterina arcuata", "uter cu fundul concav", "arcuate uterus", "uterus arcuatus", "arcuate uterine malformation"]}
 {"name": "Uter bicorn", "synonyms": ["uter bicornuat", "uter cu doua coarne", "malformatie uterina bicornuata", "bicornuate uterus", "uterus bicornis", "bicornuate uterine malformation"]}
 {"name": "Uter didelf", "synonyms": ["uter dublu", "uter didelfus", "duplicatie uterina", "uterus didelphys", "double uterus", "didelphic uterus"]}
 {"name": "Uter septat", "synonyms": ["uter cu sept", "septum uterin", "malformatie uterina septata", "septate uterus", "uterine septum", "uterus with septum"]}
 {"name": "Uter unicorn", "synonyms": ["uter cu un singur corn", "malformatie uterina uniconuata", "uter unicornuat", "unicornuate uterus", "uterus unicornis", "unicorn uterus"]}
 {"name": "Uveita", "synonyms": ["inflamatia uveei", "iridociclita", "inflamatie intraoculara", "uveitis", "uveal inflammation", "intraocular inflammation"]}
+{"name": "Uveita facoantigenica", "synonyms": ["iridociclita indusa de cristalin", "uveita facoanafilactica", "endoftalmita facoanafilactica", "lens-induced iridocyclitis", "phacoantigenic uveitis", "phacoanaphylactic endophthalmitis"]}
 {"name": "Vaginism", "synonyms": ["contractura reflexa a muschilor vaginali", "contractura vaginala involuntara", "spasm al muschilor vaginali", "vaginismus", "vaginal spasm", "involuntary vaginal contraction"]}
 {"name": "Vaginita", "synonyms": ["inflamatia vaginului", "vaginita acuta", "infectie vaginala", "vaginitis", "vaginal infection", "vaginal inflammation"]}
 {"name": "Vaginita bacteriana", "synonyms": ["vaginoza bacteriana", "infectie cu Gardnerella vaginalis", "vaginita nespecifica", "bacterial vaginosis", "Gardnerella vaginitis", "non-specific vaginitis"]}
