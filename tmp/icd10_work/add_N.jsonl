@@ -12,3 +12,8 @@
 {"name": "Nevus flammeus", "synonyms": ["nev flameus", "pata de vin de Porto", "malformatie capilara cutanata", "port-wine stain", "port-wine birthmark", "capillary malformation"], "codes": ["Q82.5"]}
 {"name": "Nocardioza cutanata", "synonyms": ["nocardioza cutanata primara", "infectie cutanata cu Nocardia", "nocardioza limfocutanata", "cutaneous nocardiosis", "primary cutaneous nocardiosis", "lymphocutaneous nocardiosis"], "codes": ["A43.1"]}
 {"name": "Nodul Schmorl", "synonyms": ["noduli Schmorl", "hernie Schmorl", "hernie intraspongioasa", "Schmorl's nodes", "Schmorl node", "intravertebral disc herniation"], "codes": ["M51.4"]}
+{"name": "Necroza corticala renala", "synonyms": ["insuficienta renala acuta cu necroza corticala acuta", "necroza corticala renala acuta", "necroza corticala bilaterala", "renal cortical necrosis", "acute kidney failure with acute cortical necrosis", "acute cortical necrosis"], "codes": ["N17.1"]}
+{"name": "Nodulul mulgatorilor", "synonyms": ["pseudovaccin", "nodulul mulgatorilor de lapte", "infectie cu virusul pseudocowpox", "milker's nodule", "pseudocowpox", "paravaccinia"], "codes": ["B08.0"]}
+{"name": "Neoplasm mielodisplazic", "synonyms": ["neoplazie mielodisplazica", "preleucemie", "sindrom mielodisplazic primar", "myelodysplastic neoplasm", "preleukemia", "primary myelodysplastic syndrome"], "codes": ["D46"]}
+{"name": "Nod adevarat de cordon ombilical", "synonyms": ["nod de cordon", "nod de cordon ombilical", "innodare de cordon", "true knot of umbilical cord", "umbilical cord knot", "true cord knot"], "codes": ["O69.2"]}
+{"name": "Nev coroidian", "synonyms": ["nev al coroidei", "nev coroidal", "nev uveal posterior", "choroidal nevus", "choroidal naevus", "nevus of choroid"], "codes": ["D31.3"]}

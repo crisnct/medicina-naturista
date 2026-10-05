@@ -3542,6 +3542,7 @@
 {"name": "Necroza adipoasa a sanului", "synonyms": ["steatonecroza mamara", "citosteatonecroza mamara", "necroza grasoasa a sanului", "fat necrosis of breast", "breast fat necrosis", "mammary fat necrosis"]}
 {"name": "Necroza aseptica a capului femural", "synonyms": ["necrosa avasculara a capului femural", "necrosa ischemica a soldului", "osteonecrosa femurala", "femoral head necrosis", "avascular necrosis of the femoral head", "osteonecrosis of the femoral head"]}
 {"name": "Necroza avasculara", "synonyms": ["osteonecrosa", "necrosa aseptica osoasa", "necrosa osoasa ischemica", "avascular necrosis", "aseptic bone necrosis", "ischemic bone necrosis"]}
+{"name": "Necroza corticala renala", "synonyms": ["insuficienta renala acuta cu necroza corticala acuta", "necroza corticala renala acuta", "necroza corticala bilaterala", "renal cortical necrosis", "acute kidney failure with acute cortical necrosis", "acute cortical necrosis"]}
 {"name": "Necroza cutanata", "synonyms": ["necroza pielii", "necroliza tisulara cutanata", "distructie tisulara cutanata", "skin necrosis", "cutaneous necrosis", "necrosis of the skin"]}
 {"name": "Necroza de grasime subcutanata a nou-nascutului", "synonyms": ["necrosis adiposa neonatorum", "necroza adiposa neonatala", "necroza de grasime a nou-nascutului", "subcutaneous fat necrosis of the newborn", "neonatal subcutaneous fat necrosis", "subcutaneous fat necrosis"]}
 {"name": "Necroza hepatica", "synonyms": ["necroza a ficatului", "necroza hepatocelulara", "moarte celulara hepatica", "hepatic necrosis", "liver necrosis", "hepatocellular necrosis"]}
@@ -3579,6 +3580,7 @@
 {"name": "Neoplasie endocrina multipla tip 1", "synonyms": ["sindrom MEN 1", "adenomatoza endocrina multipla", "sindrom Wermer", "multiple endocrine neoplasia type 1", "MEN1 syndrome", "Wermer syndrome"]}
 {"name": "Neoplasie endocrina multipla tip 2a", "synonyms": ["sindrom MEN 2a", "sindrom Sipple", "carcinom medular tiroidian familial", "multiple endocrine neoplasia type 2a", "MEN2a syndrome", "Sipple syndrome"]}
 {"name": "Neoplasie endocrina multipla tip 2b", "synonyms": ["sindrom MEN 2b", "sindrom MEN 3", "carcinom medular tiroidian cu fenotip marfanoid", "multiple endocrine neoplasia type 2b", "MEN2b syndrome", "MEN3 syndrome"]}
+{"name": "Neoplasm mielodisplazic", "synonyms": ["neoplazie mielodisplazica", "preleucemie", "sindrom mielodisplazic primar", "myelodysplastic neoplasm", "preleukemia", "primary myelodysplastic syndrome"]}
 {"name": "Neoplasm pleural malign", "synonyms": ["cancer pleural", "tumora maligna pleurala", "carcinom pleural", "malignant pleural neoplasm", "malignant pleural tumor", "pleural malignancy"]}
 {"name": "Neoplasm pulmonar malign", "synonyms": ["cancer al plamanilor", "tumora maligna pulmonara", "carcinom pulmonar malign", "malignant pulmonary neoplasm", "malignant lung tumor", "malignant neoplasm of the lung"]}
 {"name": "Neoplazie intraepiteliala anala", "synonyms": ["AIN", "neoplazie intraepiteliala a canalului anal", "neoplazie anala intraepiteliala", "anal intraepithelial neoplasia", "AIN anal lesion", "anal intraepithelial neoplasm"]}
@@ -3637,6 +3639,7 @@
 {"name": "Neutropenie febrila", "synonyms": ["neutropenie cu febra", "febra neutropenica", "episod febril neutropenic", "febrile neutropenia", "neutropenic fever", "fever with neutropenia"]}
 {"name": "Neutropenie neonatala", "synonyms": ["neutropenia neonatala tranzitorie", "neutropenie tranzitorie a nou-nascutului", "neutropenie aloimuna neonatala", "transient neonatal neutropenia", "neonatal neutropenia", "neonatal alloimmune neutropenia"]}
 {"name": "Nev conjunctival", "synonyms": ["nev pigmentar conjunctival", "alunita conjunctivala", "nev benign al conjunctivei", "conjunctival nevus", "conjunctival mole", "benign conjunctival nevus"]}
+{"name": "Nev coroidian", "synonyms": ["nev al coroidei", "nev coroidal", "nev uveal posterior", "choroidal nevus", "choroidal naevus", "nevus of choroid"]}
 {"name": "Nev displazic", "synonyms": ["nev atipic", "nev melanocitar displazic", "nev Clark", "dysplastic nevus", "atypical nevus", "dysplastic melanocytic nevus", "Nevus displazic", "nev cu risc de transformare", "dysplastic naevus"]}
 {"name": "Nev stelat", "synonyms": ["angiom stelat", "steluta vasculara", "nev arahnoidian", "spider nevus", "spider angioma", "vascular spider", "nevus araneus"]}
 {"name": "Nevo melanocitar", "synonyms": ["nev melanocitar", "nev pigmentar melanocitar", "alunita pigmentara", "melanocytic nevus", "melanocytic naevus", "pigmented mole"]}
@@ -3662,10 +3665,12 @@
 {"name": "Nocardioza cutanata", "synonyms": ["nocardioza cutanata primara", "infectie cutanata cu Nocardia", "nocardioza limfocutanata", "cutaneous nocardiosis", "primary cutaneous nocardiosis", "lymphocutaneous nocardiosis"]}
 {"name": "Nocardioza pulmonara", "synonyms": ["pneumonie cu Nocardia", "abces pulmonar cu Nocardia", "infectie pulmonara cu Nocardia", "pulmonary nocardiosis", "nocardial pneumonia", "Nocardia lung infection"]}
 {"name": "Nocardioza pulmonara cavitara", "synonyms": ["nocardioza cavitara pulmonara", "nocardioza pulmonara cronica", "pneumopatie nocardiozica cavitara", "cavitary pulmonary nocardiosis", "chronic pulmonary nocardiosis", "nocardial cavitary lung disease"]}
+{"name": "Nod adevarat de cordon ombilical", "synonyms": ["nod de cordon", "nod de cordon ombilical", "innodare de cordon", "true knot of umbilical cord", "umbilical cord knot", "true cord knot"]}
 {"name": "Nodul reumatoid", "synonyms": ["nodul reumatismal", "nodul subcutanat reumatoid", "nodul din artrita reumatoida", "rheumatoid nodule", "rheumatoid nodulosis", "subcutaneous rheumatoid nodule"]}
 {"name": "Nodul Schmorl", "synonyms": ["noduli Schmorl", "hernie Schmorl", "hernie intraspongioasa", "Schmorl's nodes", "Schmorl node", "intravertebral disc herniation"]}
 {"name": "Noduli tiroidieni", "synonyms": ["nod la tiroida", "noduri la tiroida", "nodul tiroidian", "chisturi tiroidiene", "formatiuni nodulare ale tiroidei", "thyroid nodules", "thyroid nodule", "thyroid cyst"]}
 {"name": "Noduli vocali", "synonyms": ["noduli ai corzilor vocale", "noduli ai coardelor vocale", "cherele cantaretei", "vocal cord nodules", "vocal fold nodules", "singer's nodes"]}
+{"name": "Nodulul mulgatorilor", "synonyms": ["pseudovaccin", "nodulul mulgatorilor de lapte", "infectie cu virusul pseudocowpox", "milker's nodule", "pseudocowpox", "paravaccinia"]}
 {"name": "Nonseminom", "synonyms": ["tumora germinala nonseminomatoasa", "nonseminom testicular", "tumora testiculara nonseminomatoasa", "nonseminoma", "non-seminomatous germ cell tumor", "nonseminomatous testicular tumor"]}
 {"name": "Nosofobie", "synonyms": ["teama de imbolnavire", "frica de boli", "teama de boli", "nosophobia", "fear of illness", "sickness phobia"]}
 {"name": "Obezitate", "synonyms": ["gresime", "exces ponderal", "supraponderabilitate", "grasime in exces", "obesity", "overweight", "excess body fat"]}

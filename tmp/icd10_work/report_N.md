@@ -8,7 +8,7 @@
   - rezidual: 1
 - găsite automat în dicționar (P4.1–P4.3): **19**
 - de decis manual (`nou` + `posibil`): **59**
-- **afecțiuni adăugate: 14**
+- **afecțiuni adăugate: 19**
 
 ## Decizii manuale
 
@@ -19,6 +19,7 @@
 - **Găsite prin termenii de includere (cross_N):** `Nanofietiaza` (B66.8), `Nevroza de compensatie` (F68.0; titlul codului e la D, „Dezvoltare a simptomelor fizice din motive psihologice” — de verificat la D să nu fie adăugat a doua oară).
 - **Sinonime insuficiente / omise:** neuropatia progresivă idiopatică (G60.3, fără denumiri alternative reale), nevroza psihastenică (F48.8, termen istoric suprapus cu `Tulburare obsesiv-compulsiva`), nevroza de caracter (F60.9, reziduală), necrofilia (F65.8 — dicționarul nu conține parafilii, deci nu introduc tipul).
 - **Amânate la altă literă:** `Hipersexualitate` (F52.7 „Necesitate sexuală excesivă”, cu nimfomanie și satiriazis) → H, în `pending_from_N.jsonl`. Sifilisul nevenerian / njovera (A65) are titlul la S și rămâne pe seama literei S (nu e în dicționar).
+- **Amânate de la alte litere, adăugate la unire (coordonator, 5):** `Necroza corticala renala` (N17.1; de la I); `Nodulul mulgatorilor` (B08.0; de la P); `Neoplasm mielodisplazic` (D46; de la S); `Nod adevarat de cordon ombilical` (O69.2; de la T); `Nev coroidian` (D31.3; de la T). Verificate față de dicționarul unit al tuturor literelor (G3, G6).
 
 ## Adăugate
 
@@ -28,16 +29,21 @@
 | Nanofietiaza | B66.8 | nanophyetiaza; infectie cu Nanophyetus salmincola; trematodoza cu Nanophyetus; nanophyetiasis; Nanophyetus salmincola infection; salmon fluke infection |
 | Necrobioza lipoidica | L92.1 | necrobioza lipoida; necrobioza lipoidica diabeticorum; boala Oppenheim-Urbach; necrobiosis lipoidica; necrobiosis lipoidica diabeticorum; Oppenheim-Urbach disease |
 | Necroza adipoasa a sanului | N64.1 | steatonecroza mamara; citosteatonecroza mamara; necroza grasoasa a sanului; fat necrosis of breast; breast fat necrosis; mammary fat necrosis |
+| Necroza corticala renala | N17.1 | insuficienta renala acuta cu necroza corticala acuta; necroza corticala renala acuta; necroza corticala bilaterala; renal cortical necrosis; acute kidney failure with acute cortical necrosis; acute cortical necrosis |
 | Necroza pulpara | K04.1 | gangrena pulpara; necroza pulpei dentare; pulpa dentara necrotica; necrosis of pulp; pulp necrosis; pulpal gangrene |
 | Nefropatia balcanica | N15.0 | nefropatia endemica balcanica; nefropatia endemica din Balcani; nefropatie endemica familiala danubiana; Balkan nephropathy; Balkan endemic nephropathy; Danubian endemic familial nephropathy |
 | Nefropatia toxica | N14.1, N14.2, N14.3, N14.4 | nefropatie medicamentoasa; nefropatie indusa de medicamente; nefropatie prin metale grele; nefrotoxicitate; toxic nephropathy; drug-induced nephropathy; heavy metal nephropathy; nephrotoxicity |
+| Neoplasm mielodisplazic | D46 | neoplazie mielodisplazica; preleucemie; sindrom mielodisplazic primar; myelodysplastic neoplasm; preleukemia; primary myelodysplastic syndrome |
 | Neuropatie serica | G61.1 | neuropatia serica; nevrita serica; neuropatie din boala serului; serum neuropathy; serum sickness neuropathy; serum sickness neuritis |
 | Neutropenie neonatala | P61.5 | neutropenia neonatala tranzitorie; neutropenie tranzitorie a nou-nascutului; neutropenie aloimuna neonatala; transient neonatal neutropenia; neonatal neutropenia; neonatal alloimmune neutropenia |
+| Nev coroidian | D31.3 | nev al coroidei; nev coroidal; nev uveal posterior; choroidal nevus; choroidal naevus; nevus of choroid |
 | Nev stelat | I78.1 | angiom stelat; steluta vasculara; nev arahnoidian; spider nevus; spider angioma; vascular spider; nevus araneus |
 | Nevroza de compensatie | F68.0 | nevroza de renta; sinistroza; nevroza de accident; compensation neurosis; accident neurosis; litigation neurosis |
 | Nevus flammeus | Q82.5 | nev flameus; pata de vin de Porto; malformatie capilara cutanata; port-wine stain; port-wine birthmark; capillary malformation |
 | Nocardioza cutanata | A43.1 | nocardioza cutanata primara; infectie cutanata cu Nocardia; nocardioza limfocutanata; cutaneous nocardiosis; primary cutaneous nocardiosis; lymphocutaneous nocardiosis |
+| Nod adevarat de cordon ombilical | O69.2 | nod de cordon; nod de cordon ombilical; innodare de cordon; true knot of umbilical cord; umbilical cord knot; true cord knot |
 | Nodul Schmorl | M51.4 | noduli Schmorl; hernie Schmorl; hernie intraspongioasa; Schmorl's nodes; Schmorl node; intravertebral disc herniation |
+| Nodulul mulgatorilor | B08.0 | pseudovaccin; nodulul mulgatorilor de lapte; infectie cu virusul pseudocowpox; milker's nodule; pseudocowpox; paravaccinia |
 
 ## Decise manual, neadăugate
 
