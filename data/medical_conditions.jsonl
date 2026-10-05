@@ -1211,6 +1211,8 @@
 {"name": "Calcificari metastatice", "synonyms": ["calcinoza metastatica", "calcificare ectopica", "depuneri de calciu in tesuturi moi", "metastatic calcification", "metastatic calcinosis", "ectopic calcification"]}
 {"name": "Calcifierea inelului mitral", "synonyms": ["scleroza inelului mitral", "calcificare anulara mitrala", "degenerescenta valvulara mitrala", "mitral annular calcification", "mitral ring calcification", "calcification of the mitral annulus"]}
 {"name": "Calcifilaxie", "synonyms": ["arteriolopatia uremica calcificata", "calcifilaxie uremica", "sindrom de calcifilaxie", "calciphylaxis", "calcific uremic arteriolopathy", "uremic calcific arteriolopathy", "calcifilaxia", "arteriolocalcinoza uremica", "calcificare vasculara cu necroza cutanata", "vascular calcification necrosis", "calcificare a vaselor mici", "arteriolocalcinoza", "calcific arteriolopathy"]}
+{"name": "Calcinoza cutanata", "synonyms": ["calcinosis cutis", "calcificare cutanata", "calcinoza tegumentara", "cutaneous calcinosis", "cutaneous calcification", "skin calcinosis"]}
+{"name": "Calcul uretral", "synonyms": ["calcul in uretra", "litiaza uretrala", "uretrolitiaza", "urethral calculus", "urethral stone", "calculus in urethra"]}
 {"name": "Calculi de colesterol", "synonyms": ["litiaza biliara de colesterol", "pietre biliare de colesterol", "calculi biliari de colesterol", "cholesterol gallstones", "cholesterol stones", "cholesterol biliary calculi"]}
 {"name": "Calculi pigmentari", "synonyms": ["litiaza biliara pigmentara", "pietre biliare pigmentare", "calculi biliari pigmentari", "pigment gallstones", "pigment stones", "pigment biliary calculi"]}
 {"name": "Calculi prostatici", "synonyms": ["piatra la prostata", "calculi ai prostatei", "pietre in prostata", "litiaza prostatica", "prostatic calculi", "prostate stones", "prostatic lithiasis"]}
@@ -1218,8 +1220,10 @@
 {"name": "Camptodactilie", "synonyms": ["deget flectat congenital", "contractura congenitala a degetului", "flexie permanenta a degetului", "camptodactyly", "congenital finger flexion contracture", "congenital bent finger"]}
 {"name": "Canaliculita", "synonyms": ["inflamatia canaliculului lacrimal", "infectie a canaliculului lacrimal", "canaliculita lacrimala", "canaliculitis", "inflammation of the lacrimal canaliculus", "infection of the lacrimal canaliculus"]}
 {"name": "Cancer", "synonyms": ["racul", "tumora maligna", "neoplasm malign", "boala canceroasa", "malignant tumor", "malignancy", "malignant neoplasm"]}
+{"name": "Cancer cu sediu primar necunoscut", "synonyms": ["cancer cu punct de plecare necunoscut", "carcinom cu sediu primar necunoscut", "cancer de origine primara necunoscuta", "cancer of unknown primary", "carcinoma of unknown primary", "malignant neoplasm of unknown primary site", "occult primary cancer"]}
 {"name": "Cancer de antru gastric", "synonyms": ["cancer antral", "carcinom antral gastric", "neoplasm antral", "gastric antrum cancer", "antral carcinoma", "cancer of the gastric antrum"]}
 {"name": "Cancer de apendice", "synonyms": ["cancer apendicular", "carcinom apendicular", "tumora maligna apendiculara", "appendix cancer", "appendiceal carcinoma", "cancer of the appendix"]}
+{"name": "Cancer de buza", "synonyms": ["tumora maligna a buzei", "cancer labial", "carcinom labial", "carcinom al buzei", "malignant neoplasm of lip", "lip cancer", "carcinoma of lip"]}
 {"name": "Cancer de cardia", "synonyms": ["cancer cardial", "carcinom al cardiei gastrice", "neoplasm cardial", "gastric cardia cancer", "cardia carcinoma", "cancer of the gastric cardia"]}
 {"name": "Cancer de col uterin", "synonyms": ["cancer cervical", "carcinom de col uterin", "neoplasm de col uterin", "cervical cancer", "cervical carcinoma", "cancer of the cervix"]}
 {"name": "Cancer de colon", "synonyms": ["cancer colorectal", "carcinom de colon", "neoplasm colonic", "colon cancer", "colorectal cancer", "bowel cancer"]}
@@ -1229,6 +1233,7 @@
 {"name": "Cancer de esofag toracic", "synonyms": ["cancer al esofagului toracic", "carcinom esofagian toracic", "neoplasm esofagian toracic", "thoracic esophageal cancer", "thoracic esophagus carcinoma", "cancer of the thoracic esophagus"]}
 {"name": "Cancer de ficat", "synonyms": ["cancer hepatic", "carcinom hepatocelular", "neoplasm hepatic", "liver cancer", "hepatocellular carcinoma", "hepatic carcinoma"]}
 {"name": "Cancer de fund gastric", "synonyms": ["cancer al fundului gastric", "carcinom fundic", "neoplasm fundic", "gastric fundus cancer", "fundic carcinoma", "cancer of the gastric fundus"]}
+{"name": "Cancer de palat", "synonyms": ["tumora maligna a palatului", "cancer palatin", "carcinom de palat", "malignant neoplasm of palate", "palate cancer", "palatal carcinoma"]}
 {"name": "Cancer de pancreas", "synonyms": ["cancer pancreatic", "carcinom pancreatic", "neoplasm pancreatic", "pancreatic cancer", "pancreatic carcinoma", "cancer of the pancreas"]}
 {"name": "Cancer de pancreas metastatic", "synonyms": ["metastaze pancreatice", "cancer pancreatic secundar", "neoplasm pancreatic secundar", "pancreatic metastases", "metastatic pancreatic cancer", "secondary pancreatic cancer"]}
 {"name": "Cancer de piele", "synonyms": ["carcinom cutanat", "neoplasm cutanat", "cancer cutanat", "skin cancer", "cutaneous carcinoma", "nonmelanoma skin cancer"]}
@@ -1237,16 +1242,26 @@
 {"name": "Cancer de rinichi", "synonyms": ["cancer renal", "carcinom renal", "neoplasm renal", "kidney cancer", "renal cell carcinoma", "renal carcinoma"]}
 {"name": "Cancer de san", "synonyms": ["cancer mamar", "carcinom mamar", "neoplasm mamar", "breast cancer", "mammary carcinoma", "breast carcinoma"]}
 {"name": "Cancer de stomac", "synonyms": ["cancer gastric", "carcinom gastric", "neoplasm gastric", "stomach cancer", "gastric cancer", "gastric carcinoma"]}
+{"name": "Cancer de ureche medie", "synonyms": ["tumora maligna a urechii medii", "carcinom de ureche medie", "carcinom al urechii medii", "malignant neoplasm of middle ear", "middle ear cancer", "middle ear carcinoma"]}
 {"name": "Cancer de vezica urinara", "synonyms": ["carcinom vezical", "neoplasm vezical", "tumora maligna a vezicii urinare", "bladder cancer", "urinary bladder carcinoma", "cancer of the bladder"]}
 {"name": "Cancer esofagian", "synonyms": ["cancer de esofag", "carcinom esofagian", "neoplasm esofagian", "esophageal cancer", "oesophageal cancer", "cancer of the esophagus"]}
 {"name": "Cancer gastric difuz ereditar", "synonyms": ["cancer gastric familial difuz", "sindrom de cancer gastric ereditar", "cancer gastric cu celule in inel cu pecete ereditar", "hereditary diffuse gastric cancer", "familial diffuse gastric cancer", "HDGC"]}
+{"name": "Cancer gingival", "synonyms": ["tumora maligna a gingiei", "cancer de gingie", "carcinom gingival", "malignant neoplasm of gum", "gingival cancer", "gingival carcinoma", "gum cancer"]}
 {"name": "Cancer laringian", "synonyms": ["cancer de laringe", "carcinom laringian", "neoplasm laringian", "laryngeal cancer", "cancer of the larynx", "laryngeal carcinoma"]}
 {"name": "Cancer mamar si ovarian ereditar", "synonyms": ["sindrom cancer mamar-ovarian ereditar", "predispozitie ereditara la cancer mamar si ovarian", "cancer mamar si ovarian familial", "hereditary breast and ovarian cancer syndrome", "HBOC syndrome", "BRCA-related hereditary breast and ovarian cancer"]}
+{"name": "Cancer mediastinal", "synonyms": ["tumora maligna a mediastinului", "tumora mediastinala maligna", "neoplasm mediastinal malign", "malignant neoplasm of mediastinum", "mediastinal cancer", "malignant mediastinal tumor"]}
+{"name": "Cancer ocular", "synonyms": ["tumora maligna a ochiului si anexelor sale", "cancer al ochiului", "tumora maligna oculara", "malignant neoplasm of eye and adnexa", "eye cancer", "ocular cancer", "ocular malignancy"]}
+{"name": "Cancer osos", "synonyms": ["tumora maligna a oaselor si cartilagiilor articulare", "cancer al oaselor", "cancer osos primar", "neoplasm osos malign", "malignant neoplasm of bone and articular cartilage", "bone cancer", "primary bone cancer", "malignant bone tumor"]}
 {"name": "Cancer ovarian", "synonyms": ["cancer de ovar", "carcinom ovarian", "neoplasm ovarian", "ovarian cancer", "ovarian carcinoma", "cancer of the ovary"]}
 {"name": "Cancer pancreatic familial", "synonyms": ["cancer pancreatic ereditar", "sindrom de cancer pancreatic familial", "cancer pancreatic cu agregare familiala", "familial pancreatic cancer", "hereditary pancreatic cancer", "familial pancreatic adenocarcinoma"]}
+{"name": "Cancer peritoneal primar", "synonyms": ["tumora maligna a peritoneului", "carcinom peritoneal primar", "carcinom seros peritoneal primar", "malignant neoplasm of peritoneum", "primary peritoneal carcinoma", "primary peritoneal cancer"]}
 {"name": "Cancer pulmonar", "synonyms": ["cancer de plamani", "carcinom bronhopulmonar", "neoplasm pulmonar", "lung cancer", "pulmonary carcinoma", "bronchogenic carcinoma"]}
+{"name": "Cancer scrotal", "synonyms": ["tumora maligna a scrotului", "carcinom scrotal", "cancerul cosarilor", "malignant neoplasm of scrotum", "scrotal cancer", "scrotal carcinoma", "chimney sweeps' cancer"]}
+{"name": "Cancer suprarenal", "synonyms": ["tumora maligna a glandei suprarenale", "cancer de glanda suprarenala", "neoplasm suprarenal malign", "malignant neoplasm of adrenal gland", "adrenal cancer", "adrenal gland cancer", "malignant adrenal tumor"]}
 {"name": "Cancer testicular", "synonyms": ["cancer la testicul", "cancer de testicul", "carcinom testicular", "tumora testiculara maligna", "testicular cancer", "testicular carcinoma", "cancer of the testis"]}
 {"name": "Cancer tiroidian", "synonyms": ["cancer de tiroida", "carcinom tiroidian", "neoplasm tiroidian", "thyroid cancer", "thyroid carcinoma", "cancer of the thyroid"]}
+{"name": "Cancer traheal", "synonyms": ["tumora maligna a traheei", "cancer de trahee", "carcinom traheal", "malignant neoplasm of trachea", "tracheal cancer", "tracheal carcinoma"]}
+{"name": "Cancer uterin", "synonyms": ["tumora maligna a corpului uterin", "cancer de corp uterin", "cancer de uter", "neoplasm uterin malign", "malignant neoplasm of corpus uteri", "uterine cancer", "cancer of the uterus", "uterine corpus cancer"]}
 {"name": "Candidoza", "synonyms": ["bube albe", "candida", "infectie cu candida", "micoza cu candida", "candidiasis", "candida infection", "yeast infection"]}
 {"name": "Candidoza cutanata", "synonyms": ["intertrigo candidozic", "candidoza a pliurilor pielii", "candidoza tegumentara", "cutaneous candidiasis", "candidal intertrigo", "skin candidiasis"]}
 {"name": "Candidoza de scutec", "synonyms": ["candidoza in zona scutecului", "infectie candidozica de scutec", "candidoza de scutec la sugar", "diaper candidiasis", "candidal diaper dermatitis", "candida nappy rash"]}
@@ -1260,8 +1275,10 @@
 {"name": "Candidoza unghiala", "synonyms": ["paronichie candidozica", "onichia candidozica", "infectie candidozica a unghiei", "candidal paronychia", "candida nail infection", "candidal onychia"]}
 {"name": "Candidoza vulvovaginala", "synonyms": ["micoza vaginala", "candidoza genitala", "vaginita candidozica", "vulvovaginal candidiasis", "vaginal yeast infection", "vulvovaginal candidosis"]}
 {"name": "Cangrena", "synonyms": ["gangrena", "necroza tisulara", "gangrena umeda", "gangrene", "tissue necrosis", "dry gangrene"]}
+{"name": "Canitie prematura", "synonyms": ["incaruntire prematura", "albirea prematura a parului", "par gri prematur", "premature canities", "premature graying of hair", "early graying of hair"]}
 {"name": "Caolinoza", "synonyms": ["pneumoconioza cu caolin", "plaman de caolin", "caolinoza pulmonara", "kaolinosis", "kaolin pneumoconiosis", "kaolin dust lung disease"]}
 {"name": "Capilarioza", "synonyms": ["infestare cu Capillaria philippinensis", "enteropatia cu Capillaria", "capilarioza intestinala", "capillariasis", "Capillaria philippinensis infection", "intestinal capillariasis"]}
+{"name": "Capilarioza hepatica", "synonyms": ["capillariaza hepatica", "infectie cu Capillaria hepatica", "infectie cu Calodium hepaticum", "hepatic capillariasis", "Capillaria hepatica infection", "Calodium hepaticum infection"]}
 {"name": "Capilarita", "synonyms": ["capilarita cutanata", "capilarita pigmentara purpurica", "purpura capilarita", "capillaritis", "pigmented purpuric dermatosis", "capillary inflammation"]}
 {"name": "Capsulita adeziva", "synonyms": ["umar inghetat", "periartrita scapulohumerala", "capsulita retractila a umarului", "adhesive capsulitis", "frozen shoulder", "periarthritis of the shoulder"]}
 {"name": "Caput succedaneum", "synonyms": ["edem de scalp la nastere", "tumefiere seroasa a scalpului", "tumefiere a scalpului la nastere", "neonatal scalp edema", "birth swelling of the scalp", "caput succedaneum of the newborn"]}
@@ -1383,6 +1400,7 @@
 {"name": "Carcinom tiroidian medular", "synonyms": ["cancer tiroidian medular", "carcinom medular tiroidian", "carcinom cu celule C tiroidian", "medullary thyroid carcinoma", "medullary carcinoma of the thyroid", "medullary thyroid cancer"]}
 {"name": "Carcinom tiroidian papilar", "synonyms": ["cancer tiroidian papilar", "carcinom papilar tiroidian", "carcinom papilar al tiroidei", "papillary thyroid carcinoma", "papillary carcinoma of the thyroid", "papillary thyroid cancer"]}
 {"name": "Carcinom urotelial", "synonyms": ["carcinom cu celule tranzitionale", "carcinom de tract urinar", "carcinom tranzitional", "urothelial carcinoma", "transitional cell carcinoma", "urothelial cancer"]}
+{"name": "Carcinom urotelial in situ", "synonyms": ["carcinom in situ al vezicii urinare", "carcinom in situ vezical", "carcinom urotelial plan in situ", "carcinoma in situ of bladder", "urothelial carcinoma in situ", "bladder carcinoma in situ"]}
 {"name": "Carcinom urotelial papilar", "synonyms": ["carcinom tranzitional papilar", "carcinom urotelial de tip papilar", "tumora uroteliala papilara", "papillary urothelial carcinoma", "papillary transitional cell carcinoma", "papillary urothelial neoplasm"]}
 {"name": "Carcinom uterin cu celule clare", "synonyms": ["carcinom endometrial cu celule clare", "adenocarcinom uterin cu celule clare", "carcinom cu celule clare endometrial", "clear cell carcinoma of the uterus", "uterine clear cell carcinoma", "clear cell endometrial carcinoma"]}
 {"name": "Carcinom uterin papilar seros", "synonyms": ["carcinom seros uterin", "adenocarcinom papilar seros endometrial", "carcinom endometrial seros papilar", "uterine papillary serous carcinoma", "serous carcinoma of the uterus", "uterine serous adenocarcinoma"]}
@@ -1405,29 +1423,42 @@
 {"name": "Cardiomiopatie peripartum", "synonyms": ["cardiomiopatie postpartum", "cardiomiopatie de sarcina", "cardiomiopatie puerperala", "peripartum cardiomyopathy", "postpartum cardiomyopathy", "pregnancy-related cardiomyopathy"]}
 {"name": "Cardiomiopatie restrictiva", "synonyms": ["cardiomiopatie infiltrativa", "miocardiopatie restrictiva", "CMP restrictiva", "restrictive cardiomyopathy", "infiltrative cardiomyopathy", "RCM"]}
 {"name": "Cardiomiopatie restrictiva familiala", "synonyms": ["cardiomiopatie restrictiva ereditara", "CMP restrictiva familiala", "cardiomiopatie restrictiva genetica", "familial restrictive cardiomyopathy", "hereditary restrictive cardiomyopathy", "familial RCM"]}
+{"name": "Cardiomiopatie toxica", "synonyms": ["cardiomiopatie medicamentoasa", "cardiomiopatie indusa medicamentos", "cardiomiopatie la antracicline", "toxic cardiomyopathy", "drug-induced cardiomyopathy", "cardiomyopathy due to drug and external agent"]}
+{"name": "Cardionefropatie hipertensiva", "synonyms": ["cardio-nefropatie hipertensiva", "boala cardiaca si renala hipertensiva", "boala hipertensiva cardiorenala", "hypertensive heart and chronic kidney disease", "hypertensive heart and kidney disease", "hypertensive cardiorenal disease"]}
 {"name": "Cardiopatie", "synonyms": ["boala de inima", "boli de inima", "afectiuni cardiace", "heart disease", "cardiac disease", "heart condition"]}
+{"name": "Cardiopatie cifoscoliotica", "synonyms": ["cord pulmonar cifoscoliotic", "boala cardiaca cifoscoliotica", "cord pulmonar cronic in cifoscolioza", "kyphoscoliotic heart disease", "kyphoscoliotic cor pulmonale", "cor pulmonale due to kyphoscoliosis"]}
 {"name": "Cardiopatie hipertensiva", "synonyms": ["boala cardiaca hipertensiva", "inima hipertensiva", "afectare cardiaca hipertensiva", "hypertensive heart disease", "hypertensive cardiopathy", "hypertension-related heart disease"]}
 {"name": "Cardiopatie reumatica", "synonyms": ["boala reumatica a inimii", "cardita reumatica cronica", "valvulopatie reumatica", "rheumatic heart disease", "chronic rheumatic heart disease", "rheumatic valvular disease", "Cardiopatie reumatica cronica", "reumatism cardiac cronic", "cardiopatie valvulara reumatica", "chronic rheumatic carditis", "boala valvulara reumatica", "afectare valvulara reumatica", "sechele valvulare reumatice", "rheumatic valve disease", "rheumatic valvulopathy"]}
 {"name": "Cardioscleroza", "synonyms": ["scleroza miocardica", "fibroza miocardica difuza", "miocard scleros", "cardiosclerosis", "myocardial sclerosis", "myocardial fibrosis"]}
 {"name": "Carie dentara", "synonyms": ["masea stricata", "carii", "cariile dentare", "degradare a dintelui", "dental caries", "tooth decay", "cavities"]}
 {"name": "Carii dentare multiple", "synonyms": ["carii multiple", "carie dentara extinsa", "dinti cu multiple carii", "multiple dental caries", "extensive tooth decay", "widespread cavities"]}
+{"name": "Caruncul uretral", "synonyms": ["caruncula uretrala", "carunculul uretrei", "caruncul meatal", "urethral caruncle", "caruncle of urethra", "meatal caruncle"]}
 {"name": "Casexie", "synonyms": ["sindrom de casexie", "emaciere generalizata", "emaciere extrema", "cachexia", "cachectic syndrome", "wasting syndrome"]}
 {"name": "Cataracta", "synonyms": ["pata la ochi", "piatra neagra", "opacifierea cristalinului", "cataracta senila", "cataracta congenitala", "cataract", "lens opacity", "clouding of the lens"]}
+{"name": "Cataracta complicata", "synonyms": ["cataracta secundara afectiunilor oculare", "cataracta in iridociclita cronica", "cataracta uveitica", "complicated cataract", "cataract secondary to ocular disease", "uveitic cataract"]}
 {"name": "Cataracta diabetica", "synonyms": ["cataracta la diabetic", "cataracta metabolica diabetica", "cataracta juvenila diabetica", "diabetic cataract", "cataract in diabetes", "diabetes-associated cataract"]}
+{"name": "Cataracta juvenila", "synonyms": ["cataracta infantila juvenila si presenila", "cataracta infantila", "cataracta presenila", "infantile and juvenile cataract", "juvenile cataract", "infantile cataract", "presenile cataract"]}
+{"name": "Cataracta medicamentoasa", "synonyms": ["cataracta provocata de medicamente", "cataracta cortizonica", "cataracta indusa de corticosteroizi", "drug-induced cataract", "steroid-induced cataract", "corticosteroid-induced cataract"]}
+{"name": "Cataracta secundara", "synonyms": ["opacifierea capsulei posterioare", "cataracta secundara postoperatorie", "inel Soemmerring", "secondary cataract", "posterior capsule opacification", "after-cataract"]}
+{"name": "Cataracta traumatica", "synonyms": ["cataracta posttraumatica", "cataracta prin traumatism ocular", "cataracta contuziva", "traumatic cataract", "post-traumatic cataract", "contusion cataract"]}
 {"name": "Caverna tuberculoasa pulmonara", "synonyms": ["caverna ftizica", "caverna tuberculoasa", "cavitate tuberculoasa pulmonara", "tuberculous lung cavity", "tuberculous pulmonary cavern", "cavitary pulmonary tuberculosis"]}
 {"name": "Cavernom cerebral", "synonyms": ["malformatie cavernoasa cerebrala", "hemangiom cavernos cerebral", "angiom cavernos cerebral", "cerebral cavernous malformation", "cavernous hemangioma of the brain", "cerebral cavernoma", "cavernoma", "Hemangiom cavernos", "hemangiom cavitar", "angiom cavernos", "hemangiom venos", "cavernous hemangioma", "venous hemangioma", "angiom cavernos cutanat", "malformatie vasculara cavernoasa", "cavernous angioma", "cavernous vascular malformation"]}
 {"name": "Cecita", "synonyms": ["inflamatia cecului", "cecita acuta", "tiflita", "cecitis", "typhlitis", "inflammation of the cecum"]}
+{"name": "Cecitate", "synonyms": ["orbire", "pierderea vederii", "amauroza", "blindness", "vision loss", "amaurosis"]}
 {"name": "Cecitate corticala", "synonyms": ["orbire corticala", "cecitate prin leziune cerebrala", "pierderea vederii de origine cerebrala", "cortical blindness", "cerebral blindness", "cortical visual impairment"]}
 {"name": "Cefalee cervicogena", "synonyms": ["cefalee de origine cervicala", "cefalee cervicala", "durere de cap cervicogena", "cervicogenic headache", "headache of cervical origin", "cervical headache"]}
 {"name": "Cefalee cluster", "synonyms": ["cefalee in cluster", "cefalee histaminica", "algie faciala vasculara", "cluster headache", "histamine cephalalgia", "suicide headache"]}
 {"name": "Cefalee hipnica", "synonyms": ["cefalee din somn", "cefalee nocturna", "durere de cap hipnica", "hypnic headache", "alarm clock headache", "sleep-related headache"]}
 {"name": "Cefalee postpunctie durata", "synonyms": ["cefalee post-rachianestezie", "cefalee dupa punctionare lombara", "cefalee post-spinala", "post-dural puncture headache", "post-lumbar puncture headache", "spinal headache"]}
+{"name": "Cefalee posttraumatica", "synonyms": ["cefalee cronica post-traumatica", "cefalee dupa traumatism cranian", "durere de cap posttraumatica", "post-traumatic headache", "chronic post-traumatic headache", "headache attributed to traumatic injury to the head"]}
 {"name": "Cefalee prin abuz de medicamente", "synonyms": ["cefalee de rebound", "cefalee prin abuz de analgezice", "cefalee medicamentoasa", "medication overuse headache", "rebound headache", "analgesic overuse headache"]}
 {"name": "Cefalhematom", "synonyms": ["hematom subperiostal la nou-nascut", "cefalematom neonatal", "cefalhematom al nou-nascutului", "cephalhematoma", "cephalhematoma of the newborn", "subperiosteal hemorrhage of the newborn"]}
 {"name": "Celulita", "synonyms": ["coaja de portocala", "piele cu aspect de coaja de portocala", "lipodistrofie ginoida", "depozite de grasime subcutanata", "cellulite", "orange peel skin", "gynoid lipodystrophy"]}
+{"name": "Celulita eozinofila", "synonyms": ["sindrom Wells", "celulita eozinofilica", "dermatita granulomatoasa eozinofilica recidivanta", "eosinophilic cellulitis", "Wells syndrome", "recurrent granulomatous dermatitis with eosinophilia"]}
 {"name": "Celulita orbitala", "synonyms": ["celulita orbitara", "inflamatia tesutului orbital", "infectie a orbitei", "orbital cellulitis", "infection of the orbit", "inflammation of the orbital tissue"]}
 {"name": "Celulita perianala", "synonyms": ["celulita anaeroba perianala", "flegmon perianal", "infectie necrozanta perianala", "perianal cellulitis", "anaerobic perianal cellulitis", "perianal phlegmon"]}
 {"name": "Celulita preseptala", "synonyms": ["celulita periorbitala", "inflamatie a tesuturilor din fata septului orbital", "edem inflamator periorbital", "preseptal cellulitis", "periorbital cellulitis", "preorbital cellulitis"]}
+{"name": "Cenuroza", "synonyms": ["coenuroza", "infectie cu Taenia multiceps", "infestare cu Coenurus cerebralis", "coenurosis", "coenuriasis", "Taenia multiceps infection"]}
 {"name": "Cervicita cu Chlamydia", "synonyms": ["cervicita clamidiana", "endocervicita cu Chlamydia", "infectie cervicala cu Chlamydia", "chlamydial cervicitis", "chlamydia cervicitis", "chlamydial endocervicitis"]}
 {"name": "Cervicita gonococica", "synonyms": ["endocervicita gonococica", "gonoree cervicala", "infectie gonococica cervicala", "gonococcal cervicitis", "gonococcal endocervicitis", "gonorrheal cervicitis"]}
 {"name": "Cetoacidoza diabetica", "synonyms": ["coma diabetica", "cetoacidoza", "coma cetoacidozica", "acidoza diabetica", "diabetic ketoacidosis", "ketoacidosis", "diabetic acidosis"]}
@@ -1440,11 +1471,13 @@
 {"name": "Cheratita aspergilara", "synonyms": ["ulcer cornean aspergilar", "cheratita fungica cu Aspergillus", "micoza corneana cu Aspergillus", "aspergillus keratitis", "aspergillus corneal ulcer", "fungal keratitis due to aspergillus"]}
 {"name": "Cheratita cu Acanthamoeba", "synonyms": ["cheratita amibiana", "ulcer cornean cu Acanthamoeba", "infectie corneana cu Acanthamoeba", "acanthamoeba keratitis", "amoebic keratitis", "corneal acanthamoeba infection"]}
 {"name": "Cheratoderma", "synonyms": ["cheratodermie", "keratoderma palmoplantar", "cheratoza palmoplantara", "keratoderma", "keratodermia", "palmoplantar keratoderma"]}
+{"name": "Cheratopatie buloasa", "synonyms": ["keratopatie buloasa", "cheratopatie buloasa pseudofaca", "edem cornean bulos", "bullous keratopathy", "pseudophakic bullous keratopathy", "bullous corneal edema"]}
 {"name": "Cheratoza actinica", "synonyms": ["keratoza actinica", "cheratoza solara", "keratoza senila", "actinic keratosis", "solar keratosis", "senile keratosis", "keratoza solara"]}
 {"name": "Cheratoza arsenicala", "synonyms": ["keratoza arsenicala", "cheratoza profesionala arsenicala", "leziuni cutanate prin arsenic", "arsenical keratosis", "arsenic keratosis", "occupational arsenical keratosis"]}
 {"name": "Cheratoza foliculara", "synonyms": ["keratosis pilaris", "piele de gaina", "keratoza foliculara", "follicular keratosis", "chicken skin", "keratosis pilaris of the follicles"]}
 {"name": "Cheratoza seboreica", "synonyms": ["keratoza seboreica", "veruca seboreica", "batatura seboreica", "seborrheic keratosis", "seborrhoeic keratosis", "senile wart"]}
 {"name": "Cherubism", "synonyms": ["displazie fibroasa a maxilarelor", "boala chisturilor maxilare", "cherubism familial", "cherubism cu debut in copilarie", "familial fibrous dysplasia of the jaws", "SH3BP2-related cherubism"]}
+{"name": "Chilocel", "synonyms": ["chilocel al tunicii vaginale", "hidrocel chilos", "colectie chiloasa scrotala", "chylocele", "chylous hydrocele", "chylocele of tunica vaginalis"]}
 {"name": "Chilotorax", "synonyms": ["revarsat chilos pleural", "lichid limfatic in pleura", "chil in cavitatea pleurala", "chylothorax", "chylous pleural effusion", "chyle in the pleural cavity"]}
 {"name": "Chilotorax nontraumatic", "synonyms": ["chilotorax netraumatic", "chilotorax de cauza medicala", "chilotorax spontan nontraumatic", "nontraumatic chylothorax", "spontaneous chylothorax", "medical chylothorax"]}
 {"name": "Chist branhial", "synonyms": ["chist de arc branhial", "chist cervical lateral congenital", "chist branchiogen", "cervical cleft cyst", "branchial cleft cyst", "branchial cyst"]}
@@ -1459,6 +1492,7 @@
 {"name": "Chist de menisc", "synonyms": ["chist meniscal", "chist parameniscal", "chist al meniscului", "meniscal cyst", "parameniscal cyst", "meniscus cyst"]}
 {"name": "Chist de punga Rathke", "synonyms": ["chist Rathke", "chist de buzunar Rathke", "chist hipofizar de origine Rathke", "rathke cleft cyst", "rathke's cleft cyst", "rathke pouch cyst"]}
 {"name": "Chist de sinus maxilar", "synonyms": ["chist mucos al sinusului maxilar", "chist sinusal maxilar", "chist de retentie sinusal", "maxillary sinus cyst", "mucous cyst of the maxillary sinus", "retention cyst of the sinus"]}
+{"name": "Chist dentiger", "synonyms": ["chist dentigen", "chist folicular dentar", "chist pericoronar", "dentigerous cyst", "follicular odontogenic cyst", "dentigerous follicular cyst"]}
 {"name": "Chist dermoid", "synonyms": ["chist dermoid ovarian", "teratom dermoid chistic", "chist dermoid cutanat", "dermoid cyst", "dermoid cyst of the ovary", "cystic dermoid teratoma", "teratom dermoid", "dermoid cyst of skin", "mature cystic teratoma"]}
 {"name": "Chist dermoid orbital", "synonyms": ["chist dermoid al orbitei", "dermoid orbital", "chist dermoid periorbital", "orbital dermoid cyst", "dermoid cyst of the orbit", "periorbital dermoid"]}
 {"name": "Chist folicular ovarian", "synonyms": ["chist ovarian functional", "chist folicular simplu", "chist ovarian de tip folicular", "follicular ovarian cyst", "functional ovarian cyst", "follicular cyst of the ovary"]}
@@ -1467,6 +1501,8 @@
 {"name": "Chist hidatic pulmonar", "synonyms": ["echinococoza pulmonara", "hidatidoza pulmonara", "chist hidatic al plamanului", "pulmonary hydatid cyst", "lung hydatid disease", "pulmonary echinococcosis"]}
 {"name": "Chist hidatic pulmonar rupt", "synonyms": ["hidatidoza pulmonara complicata", "chist hidatic pulmonar fisurat", "ruptura de chist hidatic pulmonar", "ruptured pulmonary hydatid cyst", "complicated pulmonary hydatid disease", "ruptured echinococcal lung cyst"]}
 {"name": "Chist irian", "synonyms": ["chist al irisului", "chist de corp ciliar", "chist iridociliar", "iris cyst", "cyst of the iris", "ciliary body cyst"]}
+{"name": "Chist mamar", "synonyms": ["chist solitar al sanului", "chist al sanului", "chist mamar simplu", "solitary cyst of breast", "breast cyst", "simple breast cyst"]}
+{"name": "Chist mezenteric", "synonyms": ["chist al mezenterului", "chist mezenteric congenital", "chist chilos mezenteric", "mesenteric cyst", "cyst of mesentery", "chylous mesenteric cyst"]}
 {"name": "Chist Naboth", "synonyms": ["chisturi Naboth", "chist de glanda cervicala", "chist nabotian", "Nabothian cyst", "nabothian follicle", "cervical glandular cyst"]}
 {"name": "Chist nazolabial", "synonyms": ["chist nazoalveolar", "chist de duct nazolacrimal", "chist nazolabial congenital", "nasolabial cyst", "nasoalveolar cyst", "Klestadt cyst"]}
 {"name": "Chist osos", "synonyms": ["chist osos simplu", "chist osos solitar", "chist osos juvenil", "bone cyst", "simple bone cyst", "solitary bone cyst"]}
@@ -1478,12 +1514,14 @@
 {"name": "Chist pleural", "synonyms": ["chist al pleurei", "chist pleural simplu", "chist pleural congenital", "pleural cyst", "cyst of the pleura", "congenital pleural cyst"]}
 {"name": "Chist popliteu", "synonyms": ["chist Baker", "chist sinovial popliteu", "bursita poplitee", "popliteal cyst", "Baker cyst", "Baker's cyst"]}
 {"name": "Chist pulmonar congenital", "synonyms": ["chist bronsogenic pulmonar", "chist aerian pulmonar congenital", "malformatie chistica pulmonara", "congenital pulmonary cyst", "congenital lung cyst", "bronchogenic cyst of the lung"]}
+{"name": "Chist radicular", "synonyms": ["chist periapical", "chist radiculodentar", "chist apical", "radicular cyst", "periapical cyst", "apical periodontal cyst"]}
 {"name": "Chist renal complicat", "synonyms": ["chist cu apa la rinichi", "chist renal hemoragic", "chist renal infectat", "chist renal cu complicatii", "complicated renal cyst", "hemorrhagic renal cyst", "infected kidney cyst"]}
 {"name": "Chist renal simplu", "synonyms": ["chist la rinichi", "chist renal solitar", "chist renal cortical", "chist renal benign", "simple renal cyst", "simple kidney cyst", "solitary renal cyst"]}
 {"name": "Chist salivar", "synonyms": ["mucocel salivar", "chist de glanda salivara", "chist mucos salivar", "salivary gland cyst", "ranula", "mucocele of the salivary gland"]}
 {"name": "Chist sebaceu", "synonyms": ["chist epidermoid", "chisturi sebacee", "chist cutanat", "sebaceous cyst", "epidermoid cyst", "skin cyst"]}
 {"name": "Chist sinovial", "synonyms": ["ganglion", "chist ganglionar", "chist sinovial articular", "synovial cyst", "ganglion cyst", "ganglionic cyst"]}
 {"name": "Chist splenic", "synonyms": ["chist de splina", "chisturi splenice", "chist splenic congenital", "splenic cyst", "spleen cyst", "cyst of the spleen", "chist al splinei", "chist splenic simplu", "formatiune chistica splenica", "simple splenic cyst"]}
+{"name": "Chist Stafne", "synonyms": ["chist latent osos al maxilarului", "defect osos Stafne", "cavitate osoasa statica a mandibulei", "Stafne bone cyst", "Stafne defect", "static bone cavity", "lingual mandibular bone depression"]}
 {"name": "Chist trichilemal", "synonyms": ["chist pilar", "chist trichilemal proliferativ", "chist folicular", "pilar cyst", "trichilemmal cyst", "epithelial cyst of the hair follicle"]}
 {"name": "Chist vocal", "synonyms": ["chist de coarda vocala", "chist subepitelial vocal", "chist laringian vocal", "vocal cord cyst", "vocal fold cyst", "subepithelial vocal cyst"]}
 {"name": "Chisturi", "synonyms": ["chist", "formatiuni chistice", "chisturi benigne", "cysts", "cyst", "cystic lesions"]}
@@ -1505,6 +1543,7 @@
 {"name": "Circulatie periferica deficitara", "synonyms": ["tulburari de circulatie periferica", "arteriopatie periferica", "claudicatie intermitenta", "peripheral circulation disorder", "peripheral artery disease", "poor peripheral circulation"]}
 {"name": "Ciroza alcoolica", "synonyms": ["ciroza hepatica alcoolica", "ciroza Laennec", "ciroza din alcoolism", "alcoholic cirrhosis", "laennec cirrhosis", "alcoholic liver cirrhosis"]}
 {"name": "Ciroza biliara primitiva", "synonyms": ["colangita biliara primitiva", "ciroza biliara primara", "boala biliara autoimuna", "primary biliary cholangitis", "primary biliary cirrhosis", "autoimmune biliary disease"]}
+{"name": "Ciroza biliara secundara", "synonyms": ["ciroza biliara obstructiva", "ciroza colestatica secundara", "ciroza prin obstructie biliara cronica", "secondary biliary cirrhosis", "obstructive biliary cirrhosis", "biliary cirrhosis due to bile duct obstruction"]}
 {"name": "Ciroza cardiaca", "synonyms": ["ciroza congestiva", "ficat de staza", "ciroza din insuficienta cardiaca", "cardiac cirrhosis", "congestive cirrhosis", "congestive hepatopathy"]}
 {"name": "Ciroza hepatica", "synonyms": ["ficat cirozat", "ciroza", "ciroza de ficat", "fibroza hepatica avansata", "liver cirrhosis", "cirrhosis", "cirrhosis of the liver"]}
 {"name": "Cistationinurie", "synonyms": ["cistationinurie prin deficit de cistationaza", "excretie crescuta de cistationina", "cistationinurie congenitala", "cystathioninuria", "cystathionase deficiency", "gamma-cystathionase deficiency"]}
@@ -1540,14 +1579,19 @@
 {"name": "Cloasma", "synonyms": ["cloasma gravidic", "masca de sarcina", "melasma gravidic", "chloasma", "pigmentary mask of pregnancy", "chloasma gravidarum"]}
 {"name": "Clonorhoza", "synonyms": ["infestare cu Clonorchis sinensis", "distomatoza hepatica orientala", "distomatoza cu Clonorchis", "clonorchiasis", "Clonorchis sinensis infection", "Chinese liver fluke disease"]}
 {"name": "Coagulare intravasculara diseminata", "synonyms": ["cheaguri in sange", "coagulopatie de consum", "sindrom de defibrinare", "coagulare intravasculara generalizata", "disseminated intravascular coagulation", "consumption coagulopathy", "DIC"]}
+{"name": "Coagulopatie", "synonyms": ["defect de coagulare", "tulburare a coagularii sangelui", "anomalie de coagulare", "coagulopathy", "coagulation defect", "blood clotting disorder"]}
 {"name": "Coagulopatie dobandita", "synonyms": ["tulburare dobandita de coagulare", "diatesa hemoragica dobandita", "coagulopatie secundara", "acquired coagulopathy", "acquired coagulation disorder", "acquired bleeding disorder"]}
+{"name": "Coagulopatie postpartum", "synonyms": ["tulburare de coagulare postpartum", "afibrinogenemie postpartum", "coagulopatie obstetricala", "postpartum coagulation defect", "postpartum coagulopathy", "obstetric coagulopathy"]}
 {"name": "Coalitie calcaneonaviculara", "synonyms": ["sinostoza calcaneonaviculara", "bara osoasa calcaneonaviculara", "coalitie tarsiana", "calcaneonavicular coalition", "calcaneonavicular synostosis", "tarsal coalition"]}
 {"name": "Coalitio talocalcaneana", "synonyms": ["sinostoza talocalcaneana", "bara osoasa talocalcaneana", "coalitie talocalcaneala", "talocalcaneal coalition", "talocalcaneal synostosis", "talocalcaneal bar"]}
 {"name": "Coarctatie de aorta", "synonyms": ["coarctatie aortica", "strangulare de aorta", "stenoza istmica aortica", "coarctation of the aorta", "aortic coarctation", "aortic isthmus stenosis"]}
+{"name": "Coccidioidomicoza cutanata", "synonyms": ["coccidioidomikoza cutanata", "coccidioidomicoza pielii", "coccidioidomicoza cutanata primara", "cutaneous coccidioidomycosis", "primary cutaneous coccidioidomycosis", "coccidioidomycosis of skin"]}
 {"name": "Coccidioidomicoza pulmonara", "synonyms": ["febra Vallee", "infectie pulmonara cu Coccidioides immitis", "micoza pulmonara cu Coccidioides", "coccidioidomicoza a plamanului", "febra din desert", "coccidioidal lung infection"]}
 {"name": "Coccidioidomikoza", "synonyms": ["febra din Valea San Joaquin", "infectie cu Coccidioides immitis", "micoza cu Coccidioides", "coccidioidomycosis", "Valley fever", "San Joaquin Valley fever"]}
 {"name": "Coccidioidomikoza diseminata", "synonyms": ["coccidioidomikoza extrapulmonara", "meningita coccidioidomicotica", "coccidioidomikoza sistemica", "disseminated coccidioidomycosis", "extrapulmonary coccidioidomycosis", "coccidioidal meningitis"]}
 {"name": "Coccidioidomikoza pulmonara", "synonyms": ["pneumonie cu Coccidioides", "granulom pulmonar coccidioidomicotic", "coccidioidomikoza acuta pulmonara", "pulmonary coccidioidomycosis", "coccidioidal pneumonia", "coccidioides lung infection"]}
+{"name": "Coccigodinie", "synonyms": ["coccidinie", "durere coccigiana", "sindrom coccigian dureros", "coccygodynia", "coccydynia", "tailbone pain"]}
+{"name": "Colagenoza perforanta reactiva", "synonyms": ["colagenoza perforanta reactiva dobandita", "dermatoza perforanta reactiva", "dermatoza perforanta dobandita", "reactive perforating collagenosis", "acquired reactive perforating collagenosis", "acquired perforating dermatosis"]}
 {"name": "Colangiocarcinom", "synonyms": ["cancer al cailor biliare", "carcinom colangiocelular", "carcinom al ductelor biliare", "cholangiocarcinoma", "bile duct carcinoma", "cancer of the bile ducts"]}
 {"name": "Colangiocarcinom extrahepatic", "synonyms": ["cancer extrahepatic al cailor biliare", "colangiocarcinom al cailor biliare extrahepatice", "carcinom al ductelor biliare extrahepatice", "extrahepatic cholangiocarcinoma", "extrahepatic bile duct carcinoma", "extrahepatic bile duct cancer"]}
 {"name": "Colangiocarcinom intrahepatic", "synonyms": ["cancer intrahepatic al cailor biliare", "colangiocarcinom hepatic", "carcinom al ductelor biliare intrahepatice", "intrahepatic cholangiocarcinoma", "intrahepatic bile duct carcinoma", "intrahepatic bile duct cancer"]}
@@ -1564,7 +1608,9 @@
 {"name": "Colestaza gravidica", "synonyms": ["colestaza intrahepatica de sarcina", "colestaza din sarcina", "prurit gravidic cu colestaza", "intrahepatic cholestasis of pregnancy", "obstetric cholestasis", "cholestasis of pregnancy"]}
 {"name": "Colestaza neonatala", "synonyms": ["icter colestatic neonatal", "colestaza la nou-nascut", "colestaza a nou-nascutului", "neonatal cholestasis", "cholestasis of the newborn", "neonatal cholestatic jaundice"]}
 {"name": "Colesteatom", "synonyms": ["colesteatom al urechii medii", "tumora epidermoida a urechii medii", "chist keratosic al urechii medii", "cholesteatoma", "middle ear cholesteatoma", "epidermoid tumor of the middle ear"]}
+{"name": "Colesteatom de conduct auditiv extern", "synonyms": ["colesteatomul urechii externe", "colesteatom al conductului auditiv extern", "colesteatom de canal auditiv extern", "cholesteatoma of external ear", "external auditory canal cholesteatoma", "external ear canal cholesteatoma"]}
 {"name": "Colesterol crescut", "synonyms": ["hipercolesterolemie", "colesterol ridicat", "colesterol mare", "high cholesterol", "hypercholesterolemia", "elevated cholesterol"]}
+{"name": "Colesteroloza veziculara", "synonyms": ["colesteroloza vezicii biliare", "vezica biliara in forma de fraga", "colesteroza veziculara", "cholesterolosis of gallbladder", "strawberry gallbladder", "gallbladder cholesterolosis"]}
 {"name": "Colibaciloza", "synonyms": ["infectie cu E. coli", "infectie cu Escherichia coli", "colibaciloza intestinala", "e coli infection", "escherichia coli infection", "colibacillosis"]}
 {"name": "Colica biliara", "synonyms": ["colici biliare", "durere de vezica biliara", "colica hepatica", "biliary colic", "gallbladder attack", "gallstone colic"]}
 {"name": "Colica renala", "synonyms": ["durere de rinichi", "criza de rinichi", "colici renale", "durere renala spastica", "colica nefretica", "renal colic", "kidney colic", "nephritic colic"]}
@@ -1597,11 +1643,14 @@
 {"name": "Complex extrofie-epispadias", "synonyms": ["spectru extrofie-epispadias", "malformatie extrofica vezicala", "complex de extrofie si epispadias", "exstrophy-epispadias complex", "exstrophy-epispadias sequence", "bladder exstrophy-epispadias complex"]}
 {"name": "Complexul Carney", "synonyms": ["boala Carney", "sindrom Carney cu pigmentare si mixom", "complex Carney cu mixoame", "Carney complex", "Carney syndrome", "NAME syndrome"]}
 {"name": "Complicatie a gastrectomiei", "synonyms": ["sindrom postgastrectomie", "stare postgastrectomie", "sechele dupa gastrectomie", "postgastrectomy syndrome", "post-gastrectomy state", "sequelae of gastrectomy"]}
+{"name": "Compresie cerebrala", "synonyms": ["compresiunea creierului", "hernie cerebrala", "angajare cerebrala", "compression of brain", "brain herniation", "cerebral herniation", "brain compression"]}
 {"name": "Compresie medulara", "synonyms": ["compresiune a maduvei spinarii", "sindrom de compresie medulara", "compresie a maduvei", "spinal cord compression", "compression of the spinal cord", "myelopathy due to compression"]}
 {"name": "Comunicare interatriala", "synonyms": ["defect de sept atrial", "CIA", "comunicare intre atrii", "atrial septal defect", "ASD", "interatrial septal defect", "defect septal atrial"]}
 {"name": "Comunicare interventriculara", "synonyms": ["defect de sept ventricular", "CIV", "gaura dintre ventriculi", "ventricular septal defect", "VSD", "interventricular septal defect", "malformatie cardiaca congenitala", "congenital heart defect", "defect septal ventricular"]}
 {"name": "Condilom acuminat", "synonyms": ["negii genitali", "condiloame acuminate", "vegetatii veneriene", "condyloma acuminatum", "genital warts", "anogenital warts", "veruci genitale", "negi genitali", "condylomata acuminata"]}
 {"name": "Condroblastom", "synonyms": ["tumora Codman", "condroblastom benign", "epifizom chondromatos", "chondroblastoma", "Codman tumor", "benign chondroblastoma"]}
+{"name": "Condrodermatita nodulara a helixului", "synonyms": ["condrodermatita nodulara cronica a helixului", "boala Winkler", "nodul dureros al helixului", "chondrodermatitis nodularis helicis", "chondrodermatitis nodularis chronica helicis", "Winkler disease"]}
+{"name": "Condrodisplazie punctata", "synonyms": ["condrodistrofie calcifianta congenitala", "sindrom Conradi-Hunermann", "boala Conradi", "chondrodysplasia punctata", "Conradi-Hunermann syndrome", "chondrodystrophia calcificans congenita", "stippled epiphyses"]}
 {"name": "Condrom", "synonyms": ["tumora cartilaginoasa benigna", "enchondrom", "condrom osos", "chondroma", "benign cartilaginous tumor", "enchondroma"]}
 {"name": "Condromalacia rotuliana", "synonyms": ["condromalacia rotulei", "condropatia rotuliana", "condromalacia patelara", "chondromalacia patellae", "patellar chondromalacia", "patellofemoral chondromalacia"]}
 {"name": "Condromalacie", "synonyms": ["condromalacia", "malacie cartilaginoasa", "necroza cartilajului", "chondromalacia", "cartilage softening", "chondral softening"]}
@@ -1615,6 +1664,7 @@
 {"name": "Conjunctivita de includere", "synonyms": ["conjunctivita cu corpusculi de incluziune", "conjunctivita cu chlamydia", "conjunctivita de incluziune la adult", "inclusion conjunctivitis", "inclusion body conjunctivitis", "chlamydial conjunctivitis"]}
 {"name": "Conjunctivita foliculara", "synonyms": ["conjunctivita cu foliculi", "folliculoza conjunctivala", "hiperplazie foliculara conjunctivala", "follicular conjunctivitis", "conjunctival folliculosis", "follicular conjunctival hyperplasia"]}
 {"name": "Conjunctivita gonococica", "synonyms": ["conjunctivita cu gonococ", "blenoragia oculara", "conjunctivita gonoreica", "gonococcal conjunctivitis", "gonorrheal conjunctivitis", "gonococcal ophthalmia"]}
+{"name": "Conjunctivita hemoragica acuta", "synonyms": ["conjunctivita hemoragica acuta epidemica", "conjunctivita hemoragica epidemica", "conjunctivita enterovirala", "acute hemorrhagic conjunctivitis", "acute epidemic hemorrhagic conjunctivitis", "epidemic hemorrhagic conjunctivitis", "Apollo disease"]}
 {"name": "Conjunctivita lignoasa", "synonyms": ["conjunctivita pseudomembranoasa", "conjunctivita cu membrane de fibrina", "inflamatie lignoasa a conjunctivei", "ligneous conjunctivitis", "pseudomembranous conjunctivitis", "fibrinous conjunctivitis"]}
 {"name": "Conjunctivita neonatala", "synonyms": ["oftalmia nou-nascutului", "conjunctivita la nounascut", "infectie oculara neonatala", "neonatal conjunctivitis", "ophthalmia neonatorum", "neonatal eye infection"]}
 {"name": "Conjunctivita virala", "synonyms": ["conjunctivita cu adenovirus", "conjunctivita virala acuta", "infectie virala a conjunctivei", "viral conjunctivitis", "adenoviral conjunctivitis", "adenovirus eye infection"]}
@@ -1623,14 +1673,17 @@
 {"name": "Contractura articulara", "synonyms": ["retractie articulara", "contractura de flexie articulara", "limitare de mobilitate articulara", "joint contracture", "articular contracture", "joint retraction"]}
 {"name": "Contractura musculara", "synonyms": ["muschi contractat", "scurtare musculara", "contractura musculara fixa", "muscle contracture", "muscular contracture", "muscle tightness"]}
 {"name": "Convulsii", "synonyms": ["spasme", "crize convulsive", "spasme convulsive", "convulsii febrile", "convulsions", "seizures", "convulsive fits"]}
+{"name": "Convulsii disociative", "synonyms": ["crize psihogene neepileptice", "crize disociative", "pseudocrize epileptice", "dissociative convulsions", "psychogenic nonepileptic seizures", "conversion disorder with seizures", "pseudoseizures"]}
 {"name": "Convulsii neonatale", "synonyms": ["convulsii la nou-nascut", "epilepsie neonatala", "crize convulsive neonatale", "neonatal seizures", "neonatal convulsions", "seizures in the newborn"]}
 {"name": "Coproporfirie ereditara", "synonyms": ["porfirie coproporfirica ereditara", "deficit de coproporfirinogen oxidaza", "porfirie cu coproporfirina", "hereditary coproporphyria", "coproporphyria", "CPOX deficiency"]}
 {"name": "Coptura", "synonyms": ["buba de la fund", "iritatie in pliurile pielii", "eritem fesier", "intertrigo", "diaper rash", "skin fold irritation", "chafing"]}
 {"name": "Cord pulmonar", "synonyms": ["inima obosita de plamani", "boala cardiaca pulmonara", "insuficienta cardiaca dreapta prin boala pulmonara", "hipertrofie ventriculara dreapta", "cor pulmonale", "pulmonary heart disease", "right heart failure due to lung disease"]}
+{"name": "Cord triatrial", "synonyms": ["cor triatriatum", "cord triatriat", "inima triatriala", "triatrial heart", "cor triatriatum sinister", "divided left atrium"]}
 {"name": "Cordon penian", "synonyms": ["curbura peniana congenitala", "deviatie peniana in erectie", "indoire peniana congenitala", "chordee", "congenital penile curvature", "penile chordee"]}
 {"name": "Corectopie", "synonyms": ["pozitie anormala a pupilei", "deplasare a pupilei", "pupila ectopica", "corectopia", "pupil displacement", "ectopic pupil"]}
 {"name": "Coreea benigna ereditara", "synonyms": ["coreea benigna familiala", "coreea benigna non-progresiva", "coreea benigna a copilariei", "benign hereditary chorea", "benign familial chorea", "benign hereditary chorea syndrome"]}
 {"name": "Coreea gravidica", "synonyms": ["coreea de sarcina", "coreea din timpul sarcinii", "coreea asociata sarcinii", "chorea gravidarum", "chorea of pregnancy", "gestational chorea"]}
+{"name": "Coreea medicamentoasa", "synonyms": ["coreea provocata medicamentos", "coree indusa medicamentos", "coree iatrogena", "drug-induced chorea", "medication-induced chorea", "iatrogenic chorea"]}
 {"name": "Coreea Sydenham", "synonyms": ["coreea minor", "coreea reumatica", "coreea poststreptococica", "Sydenham chorea", "chorea minor", "rheumatic chorea"]}
 {"name": "Coreoatetoza", "synonyms": ["miscari coreoatetozice", "coreoatetoza paroxistica", "coreoatetoza dobandita", "choreoathetosis", "choreoathetoid movements", "paroxysmal choreoathetosis"]}
 {"name": "Corioamnionita", "synonyms": ["corioamniotita", "infectie intraamniotica", "corioamnionita clinica", "chorioamnionitis", "intra-amniotic infection", "amniotic infection syndrome"]}
@@ -1638,8 +1691,11 @@
 {"name": "Corioencefalita limfocitara", "synonyms": ["boala Armstrong", "corioencefalita limfocitara benigna", "infectie cu virusul coriomeningitei limfocitare", "lymphocytic choriomeningitis", "lymphocytic choriomeningitis virus infection", "Armstrong disease"]}
 {"name": "Corioretinita birdshot", "synonyms": ["coroidopatia birdshot", "retinocoroidopatia birdshot", "coroidita birdshot", "birdshot chorioretinopathy", "birdshot retinochoroidopathy", "birdshot choroidopathy"]}
 {"name": "Corioretinopatie", "synonyms": ["corioretinopatia", "boala degenerativa corioretiniana", "afectare cronica a coroidei si retinei", "chorioretinopathy", "choroidoretinopathy", "chorioretinal disorder"]}
+{"name": "Corn cutanat", "synonyms": ["cornu cutaneum", "excrescenta cornoasa cutanata", "proliferare cornoasa a pielii", "cutaneous horn", "keratin horn", "cutaneous keratin horn"]}
+{"name": "Coroideremie", "synonyms": ["choroideremie", "distrofie tapetocoroidiana progresiva", "degenerescenta tapetocoroidiana", "choroideremia", "progressive tapetochoroidal dystrophy", "tapetochoroidal dystrophy"]}
 {"name": "Coroidita", "synonyms": ["inflamatia coroidei", "coroidita focala", "inflamatie a coroidei", "choroiditis", "inflammation of the choroid", "choroidal inflammation"]}
 {"name": "Coroidita serpiginoasa", "synonyms": ["coroidita serpiginosa", "coroidopatia serpiginoasa", "atrofie corioretiniana serpiginoasa", "serpiginous choroiditis", "serpiginous choroidopathy", "geographic choroiditis"]}
+{"name": "Corp liber intraarticular", "synonyms": ["corp liber in articulatie", "corp liber articular", "soarece articular", "loose body in joint", "intra-articular loose body", "joint mouse"]}
 {"name": "Corticotropinom", "synonyms": ["adenom hipofizar secretant de ACTH", "adenom hipofizar corticotrof", "adenom hipofizar cu ACTH", "corticotropinoma", "ACTH-secreting pituitary adenoma", "corticotroph adenoma"]}
 {"name": "Cosmar recurent", "synonyms": ["cosmaruri repetate", "vis urat repetitiv", "cosmar cu trezire din somn", "recurrent nightmare", "nightmare disorder", "repeated nightmares"]}
 {"name": "Coxa vara", "synonyms": ["coxa vara dobindita", "deformare in vara a soldului", "unghi cervicodiafizar scazut", "coxa vara deformity", "reduced neck-shaft angle", "varus deformity of the hip"]}
@@ -1648,7 +1704,9 @@
 {"name": "Coxartroza pe displazie", "synonyms": ["coxartroza displazica", "artroza soldului displazic", "artroza pe displazie de sold", "dysplastic hip osteoarthritis", "dysplastic coxarthrosis", "osteoarthritis in hip dysplasia"]}
 {"name": "Crampa scriitorului", "synonyms": ["crampa functionala a mainii", "distonie de tip sarcina a mainii", "crampa profesionala a mainii", "writer's cramp", "graphospasm", "occupational cramp"]}
 {"name": "Crampe musculare", "synonyms": ["crampe", "spasme musculare", "contractii musculare dureroase", "muscle cramps", "muscle spasms", "cramps"]}
+{"name": "Craniofaringiom", "synonyms": ["tumora de punga Rathke", "tumora a canalului craniofaringian", "adamantinom hipofizar", "tumora Erdheim", "craniopharyngioma", "Rathke pouch tumor", "craniopharyngeal duct tumor", "Erdheim tumor"]}
 {"name": "Craniolacunia", "synonyms": ["os cranian cu lacune", "lacune craniene congenitale", "craniu cu lacune", "cranial lacunae of the newborn", "congenital cranial lacunae", "luckenschadel skull"]}
+{"name": "Craniorahischisis", "synonyms": ["cranio-rahischisis", "craniorahischisis totala", "disrafism craniospinal total", "craniorachischisis", "craniorachischisis totalis", "total craniospinal dysraphism"]}
 {"name": "Craniosinostoza", "synonyms": ["craniostenoza", "sinostoza craniana prematura", "inchidere prematura a suturilor craniene", "craniosynostosis", "premature cranial suture fusion", "cranial synostosis"]}
 {"name": "Cretinism", "synonyms": ["cretin", "cretinism endemic", "cretinism sporadic", "hipotiroidism congenital sever", "congenital iodine deficiency syndrome", "endemic cretinism", "cretinism due to iodine deficiency"]}
 {"name": "Cretinism mixedematos", "synonyms": ["cretinism cu mixedem", "hipotiroidism congenital mixedematos", "cretinism hipotiroidian", "myxedematous cretinism", "endemic myxedematous cretinism", "myxedematous congenital hypothyroidism"]}
@@ -1657,6 +1715,7 @@
 {"name": "Criptita", "synonyms": ["criptita anala", "inflamatia criptelor anale", "cripta anala infectata", "anal cryptitis", "cryptitis of the anus", "inflamed anal crypts"]}
 {"name": "Criptococoza", "synonyms": ["toruloza", "infectie cu Cryptococcus neoformans", "micoza cu Cryptococcus", "cryptococcosis", "torulosis", "Cryptococcus neoformans infection"]}
 {"name": "Criptococoza cutanata", "synonyms": ["criptococoza tegumentara", "leziuni cutanate cu Cryptococcus", "criptococoza a pielii", "cutaneous cryptococcosis", "cryptococcal skin infection", "skin cryptococcosis"]}
+{"name": "Criptococoza diseminata", "synonyms": ["criptococcoza diseminata", "criptococoza generalizata", "criptococoza sistemica", "disseminated cryptococcosis", "generalized cryptococcosis", "systemic cryptococcosis"]}
 {"name": "Criptococoza pulmonara", "synonyms": ["pneumonie cu Cryptococcus", "noduli pulmonari criptocococici", "criptocococom pulmonar", "cryptococcal pneumonia", "cryptococcus lung infection", "pulmonary cryptococcosis"]}
 {"name": "Criptococoza pulmonara la imunodeprimat", "synonyms": ["criptococoza pulmonara la HIV", "criptococoza pulmonara oportunista", "infectie pulmonara criptococica la imunodeprimat", "cryptococcal pneumonia in immunocompromised host", "opportunistic pulmonary cryptococcosis", "AIDS-related pulmonary cryptococcosis"]}
 {"name": "Criptoftalmie", "synonyms": ["criptoftalmia", "fuziunea pleoapelor", "lipsa fantei palpebrale", "cryptophthalmos", "fused eyelids", "cryptophthalmia"]}
