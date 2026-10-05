@@ -1,5 +1,5 @@
 """Splits one document into fragments, each with a business category and the
-medical conditions (data/medical_conditions.txt) it is about. How relevant a
+medical conditions (data/medical_conditions.jsonl) it is about. How relevant a
 fragment is to a search (its priority) is decided at search time, not here (see
 ai/search.py).
 

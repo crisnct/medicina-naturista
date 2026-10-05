@@ -27,7 +27,7 @@ RUN pip install --no-cache-dir -r requirements-web.txt
 
 COPY pyproject.toml README.md ./
 COPY src/backend ./src/backend
-COPY data/medical_conditions.txt ./data/medical_conditions.txt
+COPY data/medical_conditions.jsonl ./data/medical_conditions.jsonl
 COPY --from=frontend-build /frontend/dist ./src/frontend/dist
 
 RUN useradd --uid 10001 --create-home appuser \

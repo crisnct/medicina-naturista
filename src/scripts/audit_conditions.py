@@ -1,12 +1,13 @@
-"""Read-only audit of data/medical_conditions.txt: structure, duplicates, anomalies."""
+"""Read-only audit of data/medical_conditions.jsonl: structure, duplicates, anomalies."""
 from __future__ import annotations
 
 import collections
+import json
 import re
 import sys
 from pathlib import Path
 
-PATH = Path(__file__).resolve().parents[2] / "data" / "medical_conditions.txt"
+PATH = Path(__file__).resolve().parents[2] / "data" / "medical_conditions.jsonl"
 
 
 def plain(value: str) -> str:
@@ -21,19 +22,25 @@ def normalize(value: str) -> str:
 lines = PATH.read_text(encoding="utf-8").splitlines()
 print(f"total lines: {len(lines)}")
 print(f"blank lines: {sum(1 for l in lines if not l.strip())}")
-print(f"comment lines: {sum(1 for l in lines if l.strip().startswith('#'))}")
 
 widths = collections.Counter()
 rows: list[tuple[int, list[str]]] = []
+invalid: list[int] = []
 for number, line in enumerate(lines, 1):
-    if not line.strip() or line.strip().startswith("#"):
+    if not line.strip():
         continue
-    parts = [p.strip() for p in line.split(",")]
+    try:
+        record = json.loads(line)
+        parts = [" ".join(p.split()) for p in [record["name"], *record["synonyms"]]]
+    except (ValueError, KeyError, TypeError, AttributeError):
+        invalid.append(number)
+        continue
     widths[len(parts)] += 1
     rows.append((number, parts))
 
+print(f"invalid lines: {invalid}")
 print(f"data rows: {len(rows)}")
-print(f"column counts (raw, before dedup): {dict(sorted(widths.items()))}")
+print(f"term counts (raw, before dedup): {dict(sorted(widths.items()))}")
 
 # how many fields survive the parser's exact-duplicate removal
 def surviving(parts: list[str]) -> list[str]:
@@ -46,7 +53,7 @@ def surviving(parts: list[str]) -> list[str]:
 
 
 survived = collections.Counter(len(surviving(p)) for _, p in rows)
-print(f"columns after dedup (parser view): {dict(sorted(survived.items()))}")
+print(f"terms after dedup (parser view): {dict(sorted(survived.items()))}")
 
 # canonical (first) names
 canon = [p[0] for _, p in rows]
@@ -93,7 +100,7 @@ for sub, term in nested[:25]:
 if len(nested) > 25:
     print(f"  ... and {len(nested) - 25} more")
 
-# non-ascii / diacritics usage in the canonical column
+# non-ascii / diacritics usage in the canonical names
 diacritic = [c for c in canon if any(ch in c for ch in "ăâîșțĂÂÎȘȚ")]
 print(f"\ncanonical names containing diacritics: {len(diacritic)} -> {diacritic[:15]}")
 

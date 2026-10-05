@@ -26,7 +26,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 | **Index semantic** | Identifică fragmente apropiate ca sens cu vectori Qwen3-Embedding de 1024 de dimensiuni, stocați în Postgres (`pgvector`). |
 | **Index lexical** | Găsește expresiile căutate, ca fraze exacte, prin `tsvector` în Postgres. |
 | **Scor combinat** | Fiecare fragment primește un singur scor, din semnalele pe care pacientul le bifează în „Căutare avansată” (afecțiuni, lexical, semantic). Cu toate trei: `4·P1 + 2·P2 + L + V` (afecțiune în titlu › afecțiune în text › potrivire lexicală › potrivire semantică), calculat într-o singură interogare SQL. |
-| **Fragmentare pe afecțiuni** | Împarte documentele în fragmente R1 (afecțiunea în titlul capitolului), R2 (afecțiunea în textul capitolului) și D1 (restul textului), folosind dicționarul `data/medical_conditions.txt`. |
+| **Fragmentare pe afecțiuni** | Împarte documentele în fragmente R1 (afecțiunea în titlul capitolului), R2 (afecțiunea în textul capitolului) și D1 (restul textului), folosind dicționarul `data/medical_conditions.jsonl`. |
 | **Retriever medical** | Ordonează fragmentele după scorul combinat și păstrează, întregi, cele care încap în bugetul de context al furnizorului AI. |
 | **Chat web** | Oferă sesiuni izolate pe tab și afișează recomandările structurate. |
 | **Raport PDF** | Include recomandări, atenționări, citări și bibliografie navigabilă. |
@@ -83,7 +83,7 @@ medicina-naturista/
 ├── architecture/                 # documentația fluxurilor principale
 ├── data/
 │   ├── documents/                # corpusul Markdown local
-│   ├── medical_conditions.txt    # dicționarul de afecțiuni și sinonime
+│   ├── medical_conditions.jsonl  # dicționarul de afecțiuni și sinonime
 │   └── model_cache/              # modelul ONNX local; ignorat de Git
 ├── src/
 │   ├── backend/
@@ -219,7 +219,7 @@ Sincronizarea scrie în trei tabele:
 
 Un document al cărui SHA-256 nu s-a schimbat este complet ignorat la sincronizare; un document nou sau modificat își înlocuiește fragmentele într-o singură tranzacție.
 
-Fragmentarea (`src/backend/ai/fragmenter.py`) folosește dicționarul `data/medical_conditions.txt` (o afecțiune pe linie: numele canonic, apoi sinonimele) și aplică pe rând:
+Fragmentarea (`src/backend/ai/fragmenter.py`) folosește dicționarul `data/medical_conditions.jsonl` (o afecțiune pe linie, ca obiect JSON: `{"name": ..., "synonyms": [...]}`) și aplică pe rând:
 
 | Categorie | Criteriu |
 |---|---|
@@ -283,7 +283,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `OLLAMA_API_KEY` | — | Necesară doar când `OLLAMA_API_BASE` nu este local (ex. `https://ollama.com/v1`). |
 | `OLLAMA_REASONING_EFFORT` | _(gol)_ | Se trimite doar dacă este setat. |
 | `OLLAMA_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru `AI_PROVIDER=ollama`; pentru modele locale mici trebuie coborât. |
-| `CONDITION_AI_BACKENDS` | `local,huggingface` | Backendurile care identifică afecțiunea când dicționarul (`data/medical_conditions.txt`) nu o găsește, în ordinea încercării: `local` (Ollama), `huggingface` (routerul HF, `HF_TOKEN`) sau ambele (HF doar dacă modelul local e indisponibil). Gol → pasul AI este dezactivat. Afecțiunea întoarsă se folosește ca una din dicționar: în chat, în căutare și în titlul PDF-ului. |
+| `CONDITION_AI_BACKENDS` | `local,huggingface` | Backendurile care identifică afecțiunea când dicționarul (`data/medical_conditions.jsonl`) nu o găsește, în ordinea încercării: `local` (Ollama), `huggingface` (routerul HF, `HF_TOKEN`) sau ambele (HF doar dacă modelul local e indisponibil). Gol → pasul AI este dezactivat. Afecțiunea întoarsă se folosește ca una din dicționar: în chat, în căutare și în titlul PDF-ului. |
 | `CONDITION_AI_LOCAL_MODEL` | `gemma3:1b` | Modelul Ollama local (descărcare: `ollama pull gemma3:1b`; în Docker: `docker compose exec ollama ollama pull gemma3:1b`). |
 | `CONDITION_AI_LOCAL_BASE` | `http://localhost:11434/v1` (direct) / `http://ollama:11434/v1` (Compose) | Adresa Ollama folosită pentru identificarea afecțiunii. |
 | `CONDITION_AI_HF_MODEL` | valoarea `HF_MODEL` | Modelul HF pentru fallback (prin `HF_API_BASE` și `HF_TOKEN`). |
@@ -293,7 +293,8 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `AI_MAX_OUTPUT_TOKENS` | `20000` | `max_output_tokens` al cererii, pentru toți furnizorii (la modelele cu gândire, reasoning-ul consumă din el). |
 | `AI_READ_TIMEOUT_SECONDS` | `300` | Timeoutul de citire al cererii către furnizorul AI. |
 | `DOCUMENTS_DIR` | `data/documents` | Directorul documentelor locale. |
-| `CONDITIONS_FILE` | `data/medical_conditions.txt` | Dicționarul de afecțiuni și sinonime, folosit la fragmentare și la căutare; se reîncarcă automat când se modifică. |
+| `CONDITIONS_FILE` | `data/medical_conditions.jsonl` | Dicționarul de afecțiuni și sinonime (JSON Lines), folosit la fragmentare și la căutare; se reîncarcă automat când se modifică. Un `CONDITIONS_FILE` setat explicit spre vechiul `medical_conditions.txt` trebuie actualizat. |
+| `HERBS_FILE` | `data/herbs.jsonl` | Catalogul de plante medicinale (JSON Lines, o specie pe linie), citit de `backend/ai/herbs.py`; se reîncarcă automat când se modifică. Încă nu e folosit de căutare sau de fragmentare. |
 | `DATABASE_URL` | `postgresql://medicina:medicina@127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului hibrid (`pgvector` + `tsvector`). |
 | `MODEL_CACHE_DIR` | `data/model_cache` | Directorul cache-ului local al modelului ONNX. |
 | `EMBEDDING_THREADS` | `8` (cel mult numărul de nuclee) | Firele de execuție ale modelului de embedding (ONNX Runtime), la indexare și la căutare. Pe procesoare hibride P/E-core, mai puține fire sunt de obicei mai rapide decât toate nucleele. |

@@ -17,6 +17,7 @@ from backend.ai import db as db_module
 from backend.ai.conditions import ConditionDictionary, parse_conditions
 from backend.ai.embedding_model import PROFILES, EmbeddingProfile, get_profile
 from scripts import build_hybrid_index as builder
+from tests.support.conditions import conditions_jsonl
 from tests.support.postgres import PostgresFixture
 
 _fixture = PostgresFixture()
@@ -359,7 +360,7 @@ class SyncTests(unittest.TestCase):
 
         with mock.patch.object(
             builder, "load_dictionary",
-            return_value=ConditionDictionary(parse_conditions("Gripa,gripe\nFebra\n")),
+            return_value=ConditionDictionary(parse_conditions(conditions_jsonl("Gripa,gripe\nFebra\n"))),
         ):
             self._sync()
 

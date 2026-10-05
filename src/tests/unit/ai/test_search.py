@@ -16,6 +16,7 @@ from backend.ai import condition_ai, conditions, search
 from backend.ai import db as db_module
 from backend.ai.conditions import ConditionDictionary, parse_conditions
 from backend.ai.embedding_model import PROFILES, EmbeddingProfile, get_profile
+from tests.support.conditions import conditions_jsonl
 from tests.support.postgres import PostgresFixture
 from scripts import build_hybrid_index as builder
 
@@ -35,7 +36,7 @@ def tearDownModule():
 
 
 def _dictionary() -> ConditionDictionary:
-    return ConditionDictionary(parse_conditions(DICTIONARY_TEXT))
+    return ConditionDictionary(parse_conditions(conditions_jsonl(DICTIONARY_TEXT)))
 
 
 # A fake FastEmbed model whose query_embed always returns the same fixed

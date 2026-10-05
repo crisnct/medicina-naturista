@@ -2,11 +2,13 @@
 from __future__ import annotations
 
 import base64
+import io
 import json
 import os
 import unittest
 from email import message_from_bytes
 from unittest.mock import patch
+from urllib.error import HTTPError
 
 from backend.integrations.gmail import (
     EMAIL_SENT,
@@ -136,6 +138,36 @@ class MailerTests(unittest.TestCase):
         self.assertEqual(message["To"], "dest@example.com")
         self.assertEqual(message.get_payload()[1].get_content_type(), "application/pdf")
         self.assertEqual(GMAIL_SEND_SCOPE, "https://www.googleapis.com/auth/gmail.send")
+
+    def test_token_refresh_error_includes_only_oauth_error_code(self):
+        config = MailConfig(
+            from_address="reports@gmail.com",
+            username="username@gmail.com",
+            client_id="client-id",
+            client_secret="client-secret",
+            refresh_token="refresh-token",
+        )
+
+        def failing_urlopen(request, timeout):
+            body = json.dumps(
+                {"error": "invalid_grant", "error_description": "Token has been expired or revoked."}
+            ).encode("utf-8")
+            raise HTTPError(request.full_url, 400, "Bad Request", {}, io.BytesIO(body))
+
+        with self.assertRaises(RuntimeError) as raised:
+            send_report(
+                "Gripă",
+                b"%PDF-test",
+                "raport.pdf",
+                "dest@example.com",
+                config=config,
+                urlopen_factory=failing_urlopen,
+            )
+
+        self.assertEqual(
+            str(raised.exception),
+            "Google Gmail OAuth token refresh failed with HTTP 400 (invalid_grant)",
+        )
 
 
 if __name__ == "__main__":
