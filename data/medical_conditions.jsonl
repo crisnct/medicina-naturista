@@ -29,6 +29,7 @@
 {"name": "Abces miocardic", "synonyms": ["colectie purulenta miocardic", "supuratie localizata miocardic", "abces localizat miocardic", "myocardium abscess", "localized abscess of myocardium", "suppurative infection of myocardium"]}
 {"name": "Abces ocular", "synonyms": ["colectie purulenta ocular", "supuratie localizata ocular", "abces localizat ocular", "eye abscess", "localized abscess of eye", "suppurative infection of eye"]}
 {"name": "Abces orbital", "synonyms": ["colectie purulenta orbital", "supuratie localizata orbital", "abces localizat orbital", "orbit abscess", "localized abscess of orbit", "suppurative infection of orbit"]}
+{"name": "Abces palpebral", "synonyms": ["abces al pleoapei", "furuncul palpebral", "colectie purulenta palpebrala", "eyelid abscess", "abscess of eyelid", "palpebral abscess"]}
 {"name": "Abces pancreatic", "synonyms": ["colectie purulenta pancreatic", "supuratie localizata pancreatic", "abces localizat pancreatic", "pancreas abscess", "localized abscess of pancreas", "suppurative infection of pancreas"]}
 {"name": "Abces paradontal", "synonyms": ["abces periodontal lateral", "abces parodontal", "supuratie parodontala", "paradontal abscess", "periodontal abscess", "lateral periodontal abscess"]}
 {"name": "Abces parafaringian", "synonyms": ["colectie purulenta parafaringian", "supuratie localizata parafaringian", "abces localizat parafaringian", "parapharyngeal space abscess", "localized abscess of parapharyngeal space", "suppurative infection of parapharyngeal space"]}
@@ -65,6 +66,7 @@
 {"name": "Abces splenic", "synonyms": ["colectie purulenta splenic", "supuratie localizata splenic", "abces localizat splenic", "spleen abscess", "localized abscess of spleen", "suppurative infection of spleen"]}
 {"name": "Abces subcutanat", "synonyms": ["colectie purulenta subcutanat", "supuratie localizata subcutanat", "abces localizat subcutanat", "subcutaneous tissue abscess", "localized abscess of subcutaneous tissue", "suppurative infection of subcutaneous tissue"]}
 {"name": "Abces subfrenic", "synonyms": ["colectie purulenta subfrenic", "supuratie localizata subfrenic", "abces localizat subfrenic", "subphrenic space abscess", "localized abscess of subphrenic space", "suppurative infection of subphrenic space"]}
+{"name": "Abces submandibular", "synonyms": ["abces al spatiului submandibular", "abces submaxilar", "colectie purulenta submandibulara", "submandibular abscess", "submandibular space abscess", "submaxillary abscess"]}
 {"name": "Abces subungueal", "synonyms": ["infectie subunghiala", "colectie purulenta sub unghie", "abces deget", "subungual abscess", "subungual infection", "infection under the nail"]}
 {"name": "Abces timic", "synonyms": ["abcesul timusului", "abces al timusului", "colectie purulenta timica", "thymic abscess", "abscess of thymus", "thymus abscess"]}
 {"name": "Abces tiroidian", "synonyms": ["colectie purulenta tiroidian", "supuratie localizata tiroidian", "abces localizat tiroidian", "thyroid gland abscess", "localized abscess of thyroid gland", "suppurative infection of thyroid gland"]}
@@ -82,6 +84,7 @@
 {"name": "Acalazie", "synonyms": ["acalazie esofagiana", "acalazie cardiala", "cardiospasm esofagian", "achalasia", "esophageal achalasia", "cardiospasm"]}
 {"name": "Acantamebioza", "synonyms": ["infectie cu Acanthamoeba", "acantamoebioza", "amebioza cu Acanthamoeba", "acanthamoebiasis", "acanthamebiasis", "Acanthamoeba infection"]}
 {"name": "Acantosis nigricans", "synonyms": ["keratoza nigricans", "distrofie papilara pigmentara", "hiperpigmentare a pliurilor", "acanthosis nigricans", "keratosis nigricans", "papillary pigmented dystrophy"]}
+{"name": "Acatalazie", "synonyms": ["acatalasemie", "boala Takahara", "deficit ereditar de catalaza", "acatalasia", "acatalasemia", "Takahara disease"]}
 {"name": "Acatisia", "synonyms": ["acatisie", "neliniste motorie", "acatisia indusa de neuroleptice", "akathisia", "neuroleptic-induced akathisia", "motor restlessness"]}
 {"name": "Accident ischemic tranzitoriu", "synonyms": ["AIT", "ischemie cerebrala tranzitorie", "atac ischemic tranzitoriu", "transient ischemic attack", "TIA", "transient cerebral ischemia", "accident ischemic cerebral tranzitoriu", "transient ischaemic attack"]}
 {"name": "Accident vascular cerebral", "synonyms": ["paralizie", "avc", "accident cerebral vascular", "atac cerebral", "apoplexie", "stroke", "cerebrovascular accident", "brain attack"]}
@@ -425,6 +428,7 @@
 {"name": "Amnezie globala tranzitorie", "synonyms": ["episod de amnezie globala tranzitorie", "amnezie tranzitorie a varstului", "amnezie globala tranzitorie idiopatica", "transient global amnesia", "TGA", "transient global amnesia syndrome"]}
 {"name": "Amnezie posttraumatica", "synonyms": ["amnezie post-traumatica", "amnezie dupa traumatism cranian", "pierdere de memorie posttraumatica", "post-traumatic amnesia", "posttraumatic amnesia", "amnesia after head injury"]}
 {"name": "Amorteala picioarelor", "synonyms": ["amortirea talpilor", "furnicaturi in talpi", "parestezii ale talpilor", "numb feet", "foot numbness", "paresthesia of the feet"]}
+{"name": "Amputatie congenitala", "synonyms": ["amputatie congenitala a membrului", "absenta congenitala transversala a membrului", "deficienta transversala congenitala a membrului", "congenital amputation", "congenital transverse limb deficiency", "transverse reduction defect of limb"]}
 {"name": "Anafilaxie", "synonyms": ["soc anafilactic", "reactie alergica severa", "anafilaxie alergica", "anaphylaxis", "anaphylactic shock", "severe allergic reaction"]}
 {"name": "Analbuminemie", "synonyms": ["absenta albuminei serice", "hipoalbuminemie congenitala", "deficit congenital de albumina", "analbuminemia", "congenital analbuminemia", "absence of serum albumin"]}
 {"name": "Anaplasmoza", "synonyms": ["infectie cu Anaplasma phagocytophilum", "ehrlichioza granulocitara umana", "anaplasmoza granulocitara", "human granulocytic anaplasmosis", "anaplasmosis", "Anaplasma phagocytophilum infection"]}
@@ -580,10 +584,12 @@
 {"name": "Aplasia eritrocitara pura", "synonyms": ["aplazia eritrocitara", "eritroblastopenie cronica", "aplazie cronica de serie rosie", "pure red cell aplasia", "erythroid aplasia", "chronic erythroblastopenia"]}
 {"name": "Aplazie biliara", "synonyms": ["atresie biliara", "atresie a cailor biliare", "lipsa congenitala a cailor biliare", "biliary atresia", "atresia of the bile ducts", "congenital biliary atresia"]}
 {"name": "Aplazie cutis congenita", "synonyms": ["aplazie cutanata congenitala", "lipsa congenitala de piele", "defect congenital de piele", "aplasia cutis congenita", "congenital absence of skin", "congenital skin defect"]}
+{"name": "Aplazie de glande salivare", "synonyms": ["absenta congenitala a glandelor salivare", "agenezie de glande salivare", "atrezie de canale salivare", "salivary gland aplasia", "congenital absence of salivary glands", "salivary gland agenesis"]}
 {"name": "Aplazie de hipofiza", "synonyms": ["agenezie hipofizara", "lipsa congenitala a hipofizei", "hipofiza absenta din nastere", "hypophyseal aplasia", "congenital absence of the pituitary", "pituitary agenesis"]}
 {"name": "Aplazie pulmonara", "synonyms": ["lipsa plamanului", "absenta congenitala a plamanului", "aplazie de plaman", "pulmonary aplasia", "absence of the lung", "congenital absence of lung"]}
 {"name": "Aplazie radiala", "synonyms": ["absenta congenitala de radius", "hemimelie radiala", "deficit radial longitudinal", "radial aplasia", "radial longitudinal deficiency", "radial club hand"]}
 {"name": "Aplazie traheala", "synonyms": ["agenezie de trahee", "lipsa congenitala a traheei", "absenta congenitala a traheei", "tracheal agenesis", "congenital absence of the trachea", "tracheal aplasia"]}
+{"name": "Aplazie ulnara", "synonyms": ["hemimelie ulnara", "absenta congenitala a cubitusului", "deficienta longitudinala ulnara", "ulnar hemimelia", "congenital absence of ulna", "longitudinal ulnar deficiency"]}
 {"name": "Apnee in somn", "synonyms": ["apnee de somn", "sindrom de apnee in somn", "opriri respiratorii in somn", "sleep apnea", "obstructive sleep apnea", "sleep apnoea"]}
 {"name": "Apnee obstructiva neonatala", "synonyms": ["apnee obstructiva la nou-nascut", "apnee neonatala obstructiva", "apnee obstructiva a nou-nascutului", "obstructive apnea of newborn", "neonatal obstructive apnea", "obstructive apnoea of the newborn"]}
 {"name": "Apnee prematurului", "synonyms": ["apnee neonatala", "apnee de prematuritate", "apnee centrala la prematur", "apnea of prematurity", "neonatal apnea", "apnea of the newborn"]}
@@ -828,6 +834,7 @@
 {"name": "Atrofie optica", "synonyms": ["atrofie a nervului optic", "atrofie optica primara", "atrofie optica secundara", "optic atrophy", "optic nerve atrophy", "optic nerve degeneration", "atrofia nervului optic", "degenerescenta nervului optic", "palor optic"]}
 {"name": "Atrofie ovariana", "synonyms": ["atrofia dobandita a ovarului", "atrofie de ovar", "atrofie ovariana dobandita", "ovarian atrophy", "acquired atrophy of ovary", "atrophic ovary"]}
 {"name": "Atrofie pancreatica", "synonyms": ["atrofia pancreasului", "pancreas atrofic", "atrofie acinara pancreatica", "pancreatic atrophy", "atrophy of the pancreas", "acinar pancreatic atrophy"]}
+{"name": "Atrofie renala", "synonyms": ["rinichi mic scleros", "rinichi contractat", "atrofia rinichiului", "renal atrophy", "contracted kidney", "atrophic kidney"]}
 {"name": "Atrofie testiculara", "synonyms": ["atrofie a testiculelor", "testicul atrofic", "atrofie testiculara bilaterala", "testicular atrophy", "atrophy of the testis", "testicular shrinkage"]}
 {"name": "Atrofie tiroidiana", "synonyms": ["atrofia tiroidei", "atrofie tiroidiana dobandita", "tiroida atrofica", "thyroid atrophy", "acquired atrophy of thyroid", "atrophic thyroid"]}
 {"name": "Atrofie vaginala", "synonyms": ["atrofie a mucoasei vaginale", "vaginita atrofica", "uscaciune vaginala", "vaginal atrophy", "atrophic vaginitis", "genitourinary syndrome of menopause"]}
@@ -1533,9 +1540,7 @@
 {"name": "Cloasma", "synonyms": ["cloasma gravidic", "masca de sarcina", "melasma gravidic", "chloasma", "pigmentary mask of pregnancy", "chloasma gravidarum"]}
 {"name": "Clonorhoza", "synonyms": ["infestare cu Clonorchis sinensis", "distomatoza hepatica orientala", "distomatoza cu Clonorchis", "clonorchiasis", "Clonorchis sinensis infection", "Chinese liver fluke disease"]}
 {"name": "Coagulare intravasculara diseminata", "synonyms": ["cheaguri in sange", "coagulopatie de consum", "sindrom de defibrinare", "coagulare intravasculara generalizata", "disseminated intravascular coagulation", "consumption coagulopathy", "DIC"]}
-{"name": "Coagulopatie", "synonyms": ["defect de coagulare", "tulburare a coagularii sangelui", "anomalie de coagulare", "coagulopathy", "coagulation defect", "blood clotting disorder"]}
 {"name": "Coagulopatie dobandita", "synonyms": ["tulburare dobandita de coagulare", "diatesa hemoragica dobandita", "coagulopatie secundara", "acquired coagulopathy", "acquired coagulation disorder", "acquired bleeding disorder"]}
-{"name": "Coagulopatie postpartum", "synonyms": ["tulburare de coagulare postpartum", "afibrinogenemie postpartum", "coagulopatie obstetricala", "postpartum coagulation defect", "postpartum coagulopathy", "obstetric coagulopathy"]}
 {"name": "Coalitie calcaneonaviculara", "synonyms": ["sinostoza calcaneonaviculara", "bara osoasa calcaneonaviculara", "coalitie tarsiana", "calcaneonavicular coalition", "calcaneonavicular synostosis", "tarsal coalition"]}
 {"name": "Coalitio talocalcaneana", "synonyms": ["sinostoza talocalcaneana", "bara osoasa talocalcaneana", "coalitie talocalcaneala", "talocalcaneal coalition", "talocalcaneal synostosis", "talocalcaneal bar"]}
 {"name": "Coarctatie de aorta", "synonyms": ["coarctatie aortica", "strangulare de aorta", "stenoza istmica aortica", "coarctation of the aorta", "aortic coarctation", "aortic isthmus stenosis"]}
@@ -1787,7 +1792,6 @@
 {"name": "Deficit de vitamina D", "synonyms": ["carenta de vitamina D", "hipovitaminoza D", "lipsa vitaminei D", "vitamin d deficiency", "low vitamin d", "hypovitaminosis d"]}
 {"name": "Deficit de vitamina E", "synonyms": ["carenta de vitamina E", "hipovitaminoza E", "deficit de tocoferol", "vitamin E deficiency", "tocopherol deficiency", "hypovitaminosis E"]}
 {"name": "Deficit de vitamina K", "synonyms": ["carenta de vitamina K", "hipovitaminoza K", "lipsa vitaminei K", "vitamin K deficiency", "hypovitaminosis K", "vitamin K deficiency state", "deficit de filochinona", "phylloquinone deficiency"]}
-{"name": "Deficit de vitamine B", "synonyms": ["avitaminoza B", "carenta de vitamine din grupul B", "hipovitaminoza B", "vitamin B deficiency", "B vitamin deficiency", "vitamin B complex deficiency"]}
 {"name": "Deficit de zinc", "synonyms": ["carenta de zinc", "hipozincemie", "lipsa zincului", "zinc deficiency", "hypozincemia", "low zinc"]}
 {"name": "Deficit izolat de hormon de crestere", "synonyms": ["deficit izolat de GH", "hiposecretie izolata de hormon somatotrop", "deficit de somatotropina", "isolated growth hormone deficiency", "isolated GH deficiency", "somatotropin deficiency"]}
 {"name": "Deficit multiplu de sulfataza", "synonyms": ["boala Austin", "sulfatidoza multipla", "mucosulfatidoza", "multiple sulfatase deficiency", "Austin disease", "mucosulfatidosis"]}
@@ -2039,7 +2043,6 @@
 {"name": "Duplicatie gastrica", "synonyms": ["chist duplicat gastric", "duplicatie de stomac", "duplicatie chistica gastrica", "gastric duplication", "duplication cyst of the stomach", "gastric duplication cyst"]}
 {"name": "Duplicatie ureterala", "synonyms": ["ureter dublu", "ureter bifid", "duplicatie de ureter", "ureteral duplication", "duplex ureter", "double ureter"]}
 {"name": "Durere de cap", "synonyms": ["cefalee", "dureri de cap", "cefalee de tensiune", "headache", "tension headache", "head pain"]}
-{"name": "Durere faciala atipica", "synonyms": ["algie faciala atipica", "durere faciala idiopatica persistenta", "prosopalgie atipica", "atypical facial pain", "persistent idiopathic facial pain", "atypical facial neuralgia"]}
 {"name": "Echimoza", "synonyms": ["vanataie", "contuzie", "vanatai", "bruise", "bruising", "ecchymosis"]}
 {"name": "Echinococoza alveolara", "synonyms": ["echinococoza multiloculara", "boala cu Echinococcus multilocularis", "echinococoza cu Echinococcus alveolaris", "alveolar echinococcosis", "multilocular echinococcosis", "Echinococcus multilocularis infection"]}
 {"name": "Echinococoza renala", "synonyms": ["chist hidatic renal", "hidatidoza renala", "chist echinococic renal", "renal echinococcosis", "hydatid cyst of the kidney", "renal hydatid disease"]}
@@ -2072,7 +2075,6 @@
 {"name": "Edem Reinke", "synonyms": ["edem al spatiului Reinke", "cordite edematoase", "edem cronic al corzilor vocale", "Reinke edema", "Reinke's edema", "chronic edematous vocal cords"]}
 {"name": "Edera otravitoare", "synonyms": ["iedera otravitoare", "otravire cu edera otravitoare", "dermatita de contact cu edera", "poison ivy", "poison ivy rash", "toxicodendron dermatitis"]}
 {"name": "Efelide", "synonyms": ["pistrui", "efelide solare", "lentigo simplu", "freckles", "ephelides", "solar lentigines"]}
-{"name": "Efluviu anagen", "synonyms": ["caderea parului in faza anagen", "alopecie anagena", "efluviu anagenic", "anagen effluvium", "anagen hair loss", "anagen alopecia"]}
 {"name": "Efuziune pleurala postoperatorie", "synonyms": ["pleurezie postoperatorie", "revarsat pleural dupa operatie", "lichid pleural postchirurgical", "postoperative pleural effusion", "pleural effusion after surgery", "post-surgical pleural effusion"]}
 {"name": "Ehrlichioza", "synonyms": ["anaplasmoza umana", "infectie cu Ehrlichia chaffeensis", "ehrlichioza monocitara", "human ehrlichiosis", "ehrlichiosis", "Ehrlichia chaffeensis infection"]}
 {"name": "Ejaculare precoce", "synonyms": ["ejaculare prematura", "ejaculare rapida", "tulburare de ejaculare", "premature ejaculation", "early ejaculation", "rapid ejaculation"]}
@@ -2176,7 +2178,6 @@
 {"name": "Entropion", "synonyms": ["intoarcere a pleoapei spre interior", "marginea pleoapei rotita spre glob", "pleoapa intoarsa spre ochi", "inward turning eyelid", "inverted eyelid", "eyelid inversion"]}
 {"name": "Enurezis", "synonyms": ["pipi in pat", "enurezis nocturn", "udarea in pat", "bedwetting", "nocturnal enuresis", "enuresis"]}
 {"name": "Enurezis diurn", "synonyms": ["incontinenta diurna la copil", "scapare de urina ziua", "pierderi diurne de urina", "diurnal enuresis", "daytime wetting", "daytime urinary incontinence in children"]}
-{"name": "Enzimopatie eritrocitara", "synonyms": ["anemie prin tulburari enzimatice", "anemie hemolitica prin deficit enzimatic eritrocitar", "enzimopatie a globulelor rosii", "red cell enzymopathy", "anemia due to enzyme disorders", "erythrocyte enzyme deficiency"]}
 {"name": "Eozinofilie", "synonyms": ["eozinofilie periferica", "numar crescut de eozinofile", "cresterea eozinofilelor", "eosinophilia", "peripheral eosinophilia", "high eosinophil count"]}
 {"name": "Eozinofilie gastrointestinala", "synonyms": ["gastroenterita eozinofilica", "boala eozinofilica gastrointestinala", "infiltratie eozinofilica digestiva", "eosinophilic gastroenteritis", "gastrointestinal eosinophilia", "eosinophilic gastrointestinal disease"]}
 {"name": "Eozinofilie pulmonara", "synonyms": ["pneumonie eozinofilica", "infiltrat pulmonar eozinofilic", "boala pulmonara eozinofilica", "pulmonary eosinophilia", "eosinophilic pneumonia", "eosinophilic lung disease", "Pneumonie eozinofilica acuta", "Pneumonie eozinofilica cronica", "pneumonie eozinofilica idiopatica acuta", "sindrom de pneumonie eozinofilica", "pneumonie eozinofilica fulminanta", "acute eosinophilic pneumonia", "idiopathic acute eosinophilic pneumonia", "fulminant eosinophilic pneumonia", "pneumonie eozinofilica idiopatica cronica", "sindrom Carrington", "pneumonie eozinofilica persistenta", "chronic eosinophilic pneumonia", "Carrington syndrome", "idiopathic chronic eosinophilic pneumonia"]}
@@ -2354,8 +2355,6 @@
 {"name": "Fenilcetonurie atipica", "synonyms": ["fenilcetonurie prin deficit de BH4", "hiperfenilalaninemie atipica", "fenilcetonurie non-clasica", "atypical phenylketonuria", "BH4-deficient phenylketonuria", "tetrahydrobiopterin deficiency phenylketonuria"]}
 {"name": "Feocromocitom", "synonyms": ["tumora cromafina", "tumora medulosuprarenala", "feocromocitom suprarenal", "pheochromocytoma", "chromaffin tumor", "adrenal medullary tumor"]}
 {"name": "Feocromocitom malign", "synonyms": ["feocromocitom metastatic", "cancer al medulosuprarenalei", "feocromocitom invaziv", "malignant pheochromocytoma", "metastatic pheochromocytoma", "malignant adrenal medullary tumor", "feocromocitom cu metastaze", "cancer medulosuprarenal", "malignant chromaffin tumor"]}
-{"name": "Feohifomicoza cerebrala", "synonyms": ["abces feomicotic cerebral", "abces cerebral feohifomicotic", "cromomicoza cerebrala", "cerebral phaeohyphomycosis", "phaeomycotic brain abscess", "cerebral chromomycosis"]}
-{"name": "Feohifomicoza subcutanata", "synonyms": ["abces feomicotic subcutanat", "chist feomicotic subcutanat", "feohifomicoza cutanata", "subcutaneous phaeohyphomycosis", "subcutaneous phaeomycotic abscess", "phaeomycotic cyst"]}
 {"name": "Fereastra aortopulmonara", "synonyms": ["defect de sept aortopulmonar", "comunicare aortopulmonara congenitala", "fereastra aorto-pulmonara", "aortopulmonary window", "aortopulmonary septal defect", "congenital aortopulmonary communication"]}
 {"name": "Fibrilatie atriala paroxistica", "synonyms": ["fibrilatie atriala intermitenta", "fibrilatie atriala in accese", "FA paroxistica", "paroxysmal atrial fibrillation", "intermittent atrial fibrillation", "paroxysmal AF"]}
 {"name": "Fibrilatie atriala permanenta", "synonyms": ["fibrilatie atriala cronica", "FA permanenta", "fibrilatie atriala ireversibila", "permanent atrial fibrillation", "chronic atrial fibrillation", "permanent AF"]}
@@ -2451,10 +2450,8 @@
 {"name": "Fructozurie esentiala", "synonyms": ["fructozurie benigna", "deficit de fructokinaza", "fructozurie familiala", "essential fructosuria", "benign fructosuria", "fructokinase deficiency"]}
 {"name": "Fucozidoza", "synonyms": ["deficit de alfa-fukozidaza", "boala depozitelor de fucoza", "fukozidoza infantila", "fucosidosis", "alpha-fucosidase deficiency", "fucose storage disease"]}
 {"name": "Fuga disociativa", "synonyms": ["fuga psihogena", "fuga cu amnezie", "calatorie cu amnezie", "dissociative fugue", "psychogenic fugue", "fugue state"]}
-{"name": "Funiculita", "synonyms": ["inflamatia cordonului spermatic", "deferentita", "vasita", "funiculitis", "inflammation of spermatic cord", "vasitis"]}
 {"name": "Furtuna tiroidiana", "synonyms": ["criza tiroidiana", "furtuna tireotoxica", "criza tireotoxica", "thyroid storm", "thyrotoxic storm", "thyroid crisis"]}
 {"name": "Furuncul", "synonyms": ["buba rea", "buba coapta", "furunculoza", "infectie stafilococica a foliculului pilos", "boil", "furuncle", "furunculosis"]}
-{"name": "Furuncul nazal", "synonyms": ["abces al nasului", "furuncul al vestibulului nazal", "furunculoza nazala", "nasal furuncle", "abscess of nose", "nasal vestibular furunculosis"]}
 {"name": "Fusarioza", "synonyms": ["infectie cu Fusarium", "cheratita cu Fusarium", "micoza cu Fusarium", "fusariosis", "fusarium keratitis", "fusarium infection"]}
 {"name": "Fuziune de labii mici", "synonyms": ["adherenta labiala", "labii mici lipite", "aderenta labiilor mici", "labial fusion", "labial adhesions", "fused labia minora"]}
 {"name": "Galactosialidoza", "synonyms": ["deficit de proteina protectoare", "boala Goldberg", "sindrom Goldberg", "galactosialidosis", "protective protein deficiency", "Goldberg syndrome"]}
@@ -2465,7 +2462,6 @@
 {"name": "Gammapatie monoclonala", "synonyms": ["gamapatie monoclonala", "imunoglobulina monoclonala crescuta", "paraproteinemie", "monoclonal gammopathy", "paraproteinemia", "monoclonal immunoglobulin disorder"]}
 {"name": "Gammapatie monoclonala de semnificatie nedeterminata", "synonyms": ["gamapatie monoclonala benigna", "gamapatie monoclonala asimptomatica", "gamapatie monoclonala de sens necunoscut", "monoclonal gammopathy of undetermined significance", "MGUS", "benign monoclonal gammopathy"]}
 {"name": "Ganglioneurom", "synonyms": ["ganglioneurom benign", "tumora ganglionara benigna", "neurom ganglionar", "ganglioneuroma", "benign ganglionic tumor", "ganglionic neuroma"]}
-{"name": "Ganglionita geniculata", "synonyms": ["nevralgie geniculata", "inflamatia ganglionului geniculat", "nevralgie de ganglion geniculat", "geniculate ganglionitis", "geniculate neuralgia", "nervus intermedius neuralgia"]}
 {"name": "Gangliozidoza GM1", "synonyms": ["boala depozitelor de gangliozidoza GM1", "deficit de beta-galactozidaza", "boala Landing", "GM1 gangliosidosis", "beta-galactosidase deficiency", "Landing disease"]}
 {"name": "Gangliozidoza GM1 infantila", "synonyms": ["boala Landing infantila", "GM1 gangliozidoza de tip I", "gangliozidoza GM1 cu debut infantil", "infantile GM1 gangliosidosis", "GM1 gangliosidosis type I", "Landing disease infantile form"]}
 {"name": "Gangliozidoza GM1 juvenila", "synonyms": ["GM1 gangliozidoza de tip II", "gangliozidoza GM1 cu debut tardiv", "boala depozitelor de GM1 juvenila", "juvenile GM1 gangliosidosis", "GM1 gangliosidosis type II", "late-infantile GM1 gangliosidosis"]}
@@ -2725,7 +2721,6 @@
 {"name": "Hidronefroza congenitala", "synonyms": ["hidronefroza la nou-nascut", "dilatatie pielocaliceala congenitala", "hidronefroza prin obstructie congenitala", "congenital hydronephrosis", "neonatal hydronephrosis", "congenital pelvicalyceal dilatation"]}
 {"name": "Hidropneumotorax", "synonyms": ["hidro-pneumotorax", "pneumotorax cu revarsat", "pneumotorax si pleurezie", "hydropneumothorax", "pneumothorax with effusion", "hydro-pneumothorax"]}
 {"name": "Hidrops fetal", "synonyms": ["hidrops fetalis", "edem fetal generalizat", "anasarca fetala", "hydrops fetalis", "fetal hydrops", "generalized fetal edema"]}
-{"name": "Hidrops fetal non-imun", "synonyms": ["anasarca feto-placentara non-imuna", "hidrops fetal nonimun", "hidrops fetal neimun", "nonimmune hydrops fetalis", "non-immune fetal hydrops", "hydrops fetalis not due to hemolytic disease"]}
 {"name": "Hidrosadenita", "synonyms": ["hidrosadenita supurativa", "boala Verneuil", "acnee inversa", "hidradenitis suppurativa", "acne inversa", "Verneuil disease"]}
 {"name": "Hidrosalpinx", "synonyms": ["hidrosalpinx tubar", "acumulare de lichid in trompa", "trompa umpluta cu lichid", "hydrosalpinx", "fluid-filled fallopian tube", "tubal hydrosalpinx"]}
 {"name": "Hidroureteronefroza", "synonyms": ["hidroureter", "dilatatie a ureterului si bazinetului", "ureterohidronefroza", "hydroureteronephrosis", "hydroureter", "ureterohydronephrosis"]}
@@ -2753,7 +2748,6 @@
 {"name": "Hipercolesterolemie familiala homozigota", "synonyms": ["hipercolesterolemie familiala severa", "hiperlipoproteinemie tip IIa homozigota", "hipercolesterolemie familiala cu doua mutatii", "homozygous familial hypercholesterolemia", "severe familial hypercholesterolemia", "homozygous FH"]}
 {"name": "Hiperekplexie", "synonyms": ["boala de tresarire", "hiperekplexia familiala", "hiperekplexie congenitala", "hyperekplexia", "startle disease", "startle syndrome"]}
 {"name": "Hiperestrogenism", "synonyms": ["exces de estrogeni", "hiperestrogenie", "exces estrogenic", "hyperestrogenism", "estrogen excess", "hyperestrogenemia"]}
-{"name": "Hiperfagie psihogena", "synonyms": ["apetit excesiv psihogen", "supraalimentare psihogena", "mancat excesiv psihogen", "psychogenic overeating", "psychogenic hyperphagia", "overeating associated with psychological disturbances"]}
 {"name": "Hiperfosfatemie", "synonyms": ["fosfor crescut in sange", "fosfatemie crescuta", "hiperfosfatemie cronica", "hyperphosphatemia", "high blood phosphate", "elevated serum phosphate"]}
 {"name": "Hipergamaglobulinemie", "synonyms": ["cresterea gamaglobulinelor", "hiperimunoglobulinemie", "hipergamaglobulinemie policlonala", "hypergammaglobulinemia", "increased gamma globulins", "polyclonal hypergammaglobulinemia"]}
 {"name": "Hiperglicemie", "synonyms": ["zahar mare", "glicemie crescuta", "zahar crescut in sange", "nivel ridicat al zaharului din sange", "hyperglycemia", "high blood sugar", "elevated blood glucose"]}
@@ -2833,7 +2827,6 @@
 {"name": "Hipocalcemie neonatala", "synonyms": ["hipocalcemia la nou-nascut", "hipocalcemie tranzitorie neonatala", "hipocalcemie a nou-nascutului", "neonatal hypocalcemia", "hypocalcemia of the newborn", "transient neonatal hypocalcemia"]}
 {"name": "Hipocloremie", "synonyms": ["clor scazut in sange", "hipocloremie metabolica", "deficit de clor", "hypochloremia", "low blood chloride", "low serum chloride"]}
 {"name": "Hipocondroplazie", "synonyms": ["hipocondroplazia", "nanism hipocondroplazic", "displazie hipocondroplazica", "hypochondroplasia", "hypochondroplastic dwarfism", "hypochondroplasia syndrome"]}
-{"name": "Hipodontie", "synonyms": ["agenezie dentara", "lipsa congenitala a unor dinti", "oligodontie", "hypodontia", "tooth agenesis", "oligodontia"]}
 {"name": "Hipofibrinogenemie congenitala", "synonyms": ["hipofibrinogenemie ereditara", "deficit partial congenital de fibrinogen", "hipofibrinogenemie familiala", "congenital hypofibrinogenemia", "hereditary hypofibrinogenemia", "familial hypofibrinogenemia"]}
 {"name": "Hipofosfatazie", "synonyms": ["deficit de fosfataza alcalina", "boala Rathbun", "hipofosfatazie infantila", "hypophosphatasia", "rathbun disease", "alkaline phosphatase deficiency"]}
 {"name": "Hipofosfatemie", "synonyms": ["fosfor scazut in sange", "fosfatemie scazuta", "hipofosfatemie cronica", "hypophosphatemia", "low blood phosphate", "low serum phosphate"]}
@@ -3269,7 +3262,6 @@
 {"name": "Luxatie congenitala de sold", "synonyms": ["luxatie de sold congenitala", "sold luxat congenital", "displazie de sold cu luxatie", "congenital hip dislocation", "congenital dislocation of the hip", "developmental dislocation of the hip"]}
 {"name": "Luxatie de cristalin", "synonyms": ["luxatia cristalinului", "dislocare a cristalinului", "ectopie a cristalinului", "lens dislocation", "luxation of the lens", "dislocated lens"]}
 {"name": "Macrodactilie", "synonyms": ["deget gigant congenital", "hipertrofie de deget", "crestere excesiva a degetului", "macrodactyly", "enlarged digit", "congenital digital overgrowth"]}
-{"name": "Macroftalmie", "synonyms": ["megaloftalmie", "macroftalmie congenitala", "glob ocular marit congenital", "macrophthalmos", "megalophthalmos", "congenital macrophthalmia"]}
 {"name": "Macroglobulinemie Waldenstrom", "synonyms": ["boala Waldenstrom", "macroglobulinemie primara", "limfom limfoplasmocitic cu IgM", "Waldenstrom macroglobulinaemia", "Waldenstrom's macroglobulinemia", "primary macroglobulinemia", "Waldenstrom macroglobulinemia", "Waldenstrom disease"]}
 {"name": "Macroglosie", "synonyms": ["limba mare congenitala", "hipertrofie linguala", "limba marita", "macroglossia", "congenital large tongue", "enlarged tongue"]}
 {"name": "Macrostomie", "synonyms": ["gura mare congenitala", "fisura faciala transversala", "comisura bucala largita", "macrostomia", "congenital macrostomia", "transverse facial cleft"]}
@@ -3304,7 +3296,6 @@
 {"name": "Manie cu simptome psihotice", "synonyms": ["manie deliranta", "episod maniacal cu psihoza", "manie halucinatorie", "manic episode with psychotic features", "psychotic mania", "delirious mania"]}
 {"name": "Mansoneloza", "synonyms": ["infectie cu Mansonella", "filarioza cutanata cu Mansonella", "mansoneloza perstans", "mansonelliasis", "Mansonella infection", "mansonellosis"]}
 {"name": "Marasm", "synonyms": ["marasm nutritional", "marasm infantil", "malnutritie energetica severa", "marasmus", "severe energy malnutrition", "nutritional marasmus"]}
-{"name": "Mariska anala", "synonyms": ["mariska", "apendice hemoroidal rezidual", "pliu cutanat anal", "anal skin tag", "residual hemorrhoidal skin tag", "perianal skin tag"]}
 {"name": "Mastita", "synonyms": ["inflamatia sanului", "mastita puerperala", "infectie a sanului", "mastitis", "breast inflammation", "breast infection"]}
 {"name": "Mastocitoza cutanata", "synonyms": ["mastocitoza cutanata difuza", "mastocitom cutanat", "mastocitoza pielii", "cutaneous mastocytosis", "urticaria pigmentosa", "skin mastocytosis", "mastocitoza maculopapulara", "mastocitoza difuza cutanata", "mastocytosis of the skin", "diffuse cutaneous mastocytosis"]}
 {"name": "Mastocitoza gastrointestinala", "synonyms": ["mastocitoza digestiva", "infiltratie mastocitara intestinala", "boala mastocitara digestiva", "gastrointestinal mastocytosis", "digestive mastocytosis", "intestinal mast cell infiltration"]}
@@ -3502,7 +3493,6 @@
 {"name": "Morfea", "synonyms": ["sclerodermie localizata morfea", "sclerodermie circumscrisa", "boala scleroderma morphea", "morphea", "localized scleroderma", "circumscribed scleroderma"]}
 {"name": "Morva", "synonyms": ["malleus", "farcim", "infectie cu Burkholderia mallei", "glanders", "farcy", "Burkholderia mallei infection"]}
 {"name": "Mucinoza cutanata", "synonyms": ["boala mucinoza cutanata", "mucinoza papulara", "depunere de mucina in piele", "cutaneous mucinosis", "papular mucinosis", "lichen myxedematosus"]}
-{"name": "Mucinoza foliculara", "synonyms": ["alopecie mucinoasa", "alopecia mucinoasa Pinkus", "mucinoza foliculara Pinkus", "follicular mucinosis", "alopecia mucinosa", "Pinkus follicular mucinosis"]}
 {"name": "Mucocel de sac lacrimal", "synonyms": ["mucocel lacrimal", "retentie de mucus in sacul lacrimal", "inflamatie cronica cu acumulare de mucus", "mucocele of the lacrimal sac", "lacrimal sac mucocele", "mucocele of the lacrimal duct"]}
 {"name": "Mucocel sinusal", "synonyms": ["mucocel de sinus", "mucocel frontal", "mucocel paranazal", "sinus mucocele", "mucocele of the paranasal sinus", "frontal mucocele"]}
 {"name": "Mucolipidoza", "synonyms": ["mucolipidoze", "boli prin depozite de mucolipide", "mucolipidoza cu depozite lizozomale", "mucolipidosis", "mucolipid storage disease", "mucolipidoses"]}
@@ -4224,7 +4214,6 @@
 {"name": "Prurigo nodular", "synonyms": ["prurigo nodularis", "neurodermatita nodulara", "lichenificare nodulara", "nodular prurigo", "nodular neurodermatitis", "Hyde prurigo"]}
 {"name": "Prurigo simplex acuta", "synonyms": ["prurigo acut din intepaturi", "prurigo infantil acut", "prurigo strophulus", "prurigo simplex acuta infantum", "strophulus", "acute childhood prurigo"]}
 {"name": "Prurit anal", "synonyms": ["prurit perianal", "manacarime anala", "manacarimi la anus", "anal itching", "pruritus ani", "perianal itching"]}
-{"name": "Pseudalescherioza", "synonyms": ["alescherioza", "infectie cu Pseudallescheria boydii", "infectie cu Scedosporium boydii", "allescheriasis", "pseudallescheriasis", "Pseudallescheria boydii infection"]}
 {"name": "Pseudoanevrism", "synonyms": ["anevrism fals", "pseudoanevrism arterial", "anevrism fals vascular", "pseudoaneurysm", "false aneurysm", "arterial false aneurysm"]}
 {"name": "Pseudodementa", "synonyms": ["pseudodementa depresiva", "dementa simulata prin depresie", "tablou pseudodemential", "pseudodementia", "depressive pseudodementia", "reversible dementia-like state"]}
 {"name": "Pseudoguta", "synonyms": ["condrocalcinoza", "boala cu cristale de pirofosfat de calciu", "artropatie de pirofosfat", "pseudogout", "chondrocalcinosis", "calcium pyrophosphate deposition disease"]}
@@ -4288,7 +4277,6 @@
 {"name": "Rau de miscare", "synonyms": ["rau de drum", "boala masinii", "rau de masina", "rau de mare", "cinetoza", "motion sickness", "car sickness", "travel sickness"]}
 {"name": "Reactie de doliu patologic", "synonyms": ["doliu patologic", "doliu prelungit", "tristete patologica de doliu", "pathological grief reaction", "prolonged grief disorder", "complicated grief"]}
 {"name": "Reactie hemolitica transfuzionala", "synonyms": ["hemoliza posttransfuzionala", "incompatibilitate transfuzionala", "reactie transfuzionala prin hemoliza", "hemolytic transfusion reaction", "transfusion hemolysis", "blood transfusion incompatibility"]}
-{"name": "Reactie id", "synonyms": ["autosensibilizare cutanata", "autoeczematizare", "eczematide", "id reaction", "autoeczematization", "cutaneous autosensitization"]}
 {"name": "Reactie leproasa", "synonyms": ["reactie de reversiune leproasa", "reactie leproasa tip 1", "reactie imunologica in lepra", "leprosy reaction", "leprosy type 1 reaction", "reversal reaction"]}
 {"name": "Reactie leucemoida", "synonyms": ["reactie leucemoida neutrofilica", "leucocitoza reactiva extrema", "reactie leucemoida limfocitara", "leukemoid reaction", "leukaemoid reaction", "extreme reactive leukocytosis"]}
 {"name": "Rectocel", "synonyms": ["rectocel vaginal", "herniere a rectului in vagin", "prolaps anterior al rectului", "rectocele", "herniation of rectum into vagina", "posterior vaginal wall prolapse"]}
@@ -4549,7 +4537,6 @@
 {"name": "Sindrom Caplan", "synonyms": ["sindrom Caplan-Colinet", "artrita reumatoida cu pneumoconioza", "pneumoconioza reumatoioda", "Caplan syndrome", "Caplan-Colinet syndrome", "rheumatoid pneumoconiosis"]}
 {"name": "Sindrom carcinoid", "synonyms": ["boala carcinoida", "sindrom carcinoidian", "criza carcinoida", "carcinoid syndrome", "carcinoid heart disease", "functioning carcinoid syndrome", "sindromul carcinoid", "tumora carcinoida cu secretie hormonala", "carcinoid disease", "Sindrom carcinoid cardiac", "boala cardiaca carcinoida", "afectare cardiaca carcinoida", "cardiopatie carcinoida", "carcinoid cardiac disease", "carcinoid syndrome heart involvement", "sindrom carcinoide"]}
 {"name": "Sindrom cardiofaciocutanat", "synonyms": ["sindrom CFC", "displazie cardiofaciocutanata", "sindrom cardiofacio-cutaneu", "cardiofaciocutaneous syndrome", "CFC syndrome", "cardio-facio-cutaneous syndrome"]}
-{"name": "Sindrom Carpenter", "synonyms": ["acrocefalopolisindactilie tip II", "acrocefalopolisindactilie", "sindromul Carpenter", "Carpenter syndrome", "acrocephalopolysyndactyly type II", "acrocephalopolysyndactyly"]}
 {"name": "Sindrom Carvajal", "synonyms": ["cardiomiopatie dilatativa cu par pufos si keratoderma", "keratoderma palmoplantar cu cardiomiopatie", "boala Carvajal", "Carvajal syndrome", "dilated cardiomyopathy with woolly hair and keratoderma", "striate palmoplantar keratoderma with cardiomyopathy"]}
 {"name": "Sindrom cerebelos", "synonyms": ["sindrom cerebellar", "disfunctie cerebeloasa", "sindrom cerebelos dobandit", "cerebellar syndrome", "cerebellar dysfunction", "cerebellar disease"]}
 {"name": "Sindrom cerebral organic", "synonyms": ["psihoza organica", "tulburare mentala organica", "encefalopatie cronica organica", "organic brain syndrome", "organic mental disorder", "chronic organic brain disease"]}
@@ -4739,7 +4726,6 @@
 {"name": "Sindrom Ganser", "synonyms": ["sindromul raspunsurilor alaturi", "psihoza Ganser", "tulburare disociativa cu raspunsuri aproximative", "ganser syndrome", "approximate answers syndrome", "nonsense syndrome"]}
 {"name": "Sindrom Gardner", "synonyms": ["polipoza Gardner", "polipoza coli cu tumori extraintestinale", "boala Gardner", "Gardner syndrome", "gardner's syndrome", "familial adenomatous polyposis with extracolonic tumors", "Sindrom Gardner cutanat", "chisturi sebacee multiple cu polipoza", "tumori cutanate in sindromul Gardner", "cutaneous Gardner syndrome", "familial colorectal polyposis with skin cysts"]}
 {"name": "Sindrom Gerstmann-Straussler-Scheinker", "synonyms": ["encefalopatie spongiforma familiala", "boala prionica familiala", "ataxie prionica", "Gerstmann-Straussler-Scheinker syndrome", "Gerstmann-Straussler syndrome", "GSS syndrome"]}
-{"name": "Sindrom Gianotti-Crosti", "synonyms": ["acrodermatita papuloasa infantila", "acrodermatita eritemato-papuloasa infantila", "boala Gianotti-Crosti", "Gianotti-Crosti syndrome", "infantile papular acrodermatitis", "papular acrodermatitis of childhood"]}
 {"name": "Sindrom Gitelman", "synonyms": ["hipokalemie hipomagnezemica familiara", "boala Gitelman", "sindrom Gitelman cu hipomagnezemie", "Gitelman syndrome", "familial hypokalemic hypomagnesemia", "primary renal magnesium wasting"]}
 {"name": "Sindrom Goldenhar", "synonyms": ["displazie oculo-auriculo-vertebrala", "spectru oculoauriculovertebral", "microsomie hemifaciala", "oculoauriculovertebral spectrum", "Goldenhar syndrome", "hemifacial microsomia"]}
 {"name": "Sindrom Goldmann-Favre", "synonyms": ["sindrom Favre-Goldmann", "degenerescenta vitreoretiniana Goldmann-Favre", "sindromul Goldmann-Favre", "Goldmann-Favre syndrome", "enhanced S-cone syndrome", "clumped pigmentary retinal degeneration"]}
@@ -5161,7 +5147,6 @@
 {"name": "Tenosinovita", "synonyms": ["tendosinovita", "inflamatia tecii tendonului", "tenosinovita acuta", "tenosynovitis", "tendon sheath inflammation", "inflammation of the tendon sheath"]}
 {"name": "Tenosinovita crepitanta", "synonyms": ["tenosinovita cu crepitatie", "tenosinovita fibrinosa", "tenosinovita uscata", "crepitant tenosynovitis", "fibrinous tenosynovitis", "crepitant tenosynovitis of the wrist"]}
 {"name": "Tenosinovita De Quervain", "synonyms": ["boala De Quervain", "tenosinovita stenozanta De Quervain", "tenosinovita abductorului lung", "De Quervain tenosynovitis", "De Quervain disease", "first dorsal compartment tenosynovitis"]}
-{"name": "Tenosinovita supurativa", "synonyms": ["abces al tecii tendonului", "tenosinovita septica", "tenosinovita purulenta", "suppurative tenosynovitis", "abscess of tendon sheath", "septic tenosynovitis"]}
 {"name": "Tenosinovita tuberculoasa", "synonyms": ["tenosinovita din tuberculoza", "sinovita tuberculoasa a tecilor", "tendosinovita tuberculoasa", "tuberculous tenosynovitis", "tuberculous synovitis of the tendon sheath", "mycobacterial tenosynovitis"]}
 {"name": "Teratom benign", "synonyms": ["teratom matur", "teratom chistic benign", "teratom bine diferentiat", "benign teratoma", "mature teratoma", "benign cystic teratoma"]}
 {"name": "Teratom malign", "synonyms": ["teratom imatur", "teratocarcinom", "teratom malign ovarian", "malignant teratoma", "immature teratoma", "teratocarcinoma"]}
