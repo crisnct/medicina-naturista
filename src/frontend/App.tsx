@@ -29,9 +29,6 @@ export function App() {
     <div id="app-shell">
       <Hero />
       <div id="conversation-card">
-        {/*<div id="chat-header">*/}
-        {/*  <AssistantHeader />*/}
-        {/*</div>*/}
         {conversation.isLoading ? (
           <p className="loading-notice">Se încarcă discuția...</p>
         ) : conversation.isError ? (
