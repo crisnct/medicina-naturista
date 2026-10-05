@@ -10,7 +10,7 @@
   - agent cauzal, nu boala: 1
 - găsite automat în dicționar (P4.1–P4.3): **208**
 - de decis manual (`nou` + `posibil`): **343**
-- **afecțiuni adăugate: 72**
+- **afecțiuni adăugate: 85**
 
 ## Decizii manuale
 
@@ -23,6 +23,7 @@
 - **Amânate la altă literă (`pending_from_S.jsonl`):** `Neoplasm mielodisplazic` (N, D46), `Antrax septicemic` (A, A22.7), `Epilepsie partiala continua` (E, G40.5), `Fetopatie diabetica` (F, P70.0–P70.1), `Polimastie` (P, Q83.1), `Tulburare dezintegrativa a copilariei` (T, F84.3, sindromul Heller). Lăsate literei titlului (le vede alt pas): satiriaza/hipersexualitatea (F52.7, titlu la N), deficitul HLA clasa I / sindromul limfocitelor goale tip I (D81.6, titlu la D), sindromul instituțional (F94.2, titlu la T), condrodisplazia punctată/sindromul Conradi (Q77.3, titlu la C). Sifilisul nevenerian/endemic (A65, Bejel) nu l-am adăugat — e la B.
 - **Din `pending_by_letter.jsonl`:** `Sindrom Gianotti-Crosti` (L44.4) și `Sindrom Carpenter` (Q87.01) — reverificate (lookup, G6), adăugate.
 - **Risc la unire:** câteva eponime adăugate aici stau, în CIM-10, sub coduri cu titlul la altă literă (Pendred — E07.1 „Gușă…”, McCune-Albright — Q78.1 „Displazie fibroasă poliostotică”, Maffucci — Q78.4 „Encondromatoză”, trombocite gri — D69.1); dacă pașii D/E/G le pun ca sinonime ale titlului lor, apare conflict G6 la unire.
+- **Amânate de la alte litere, adăugate la unire (coordonator, 13):** `Sindrom Vogt-Koyanagi-Harada` (H30.8; de la B); `Sarcom de parti moi` (C49; de la C); `Sarcom mastocitar` (C96.2; de la C); `Stenoza ureterala` (N13.5; de la C); `Sindrom fetal warfarinic` (Q86.2; de la D); `Sindrom Frohlich` (E23.6; de la D); `Stenoza de apeduct Sylvius` (Q03.0; de la M); `Sindrom fetal valproic` (Q86.81; de la M); `Stenoza de artera cerebrala` (I66; de la O); `Sarcina anembrionara` (O02.0; de la O); `Sindrom HHH` (E72.4; de la O); `Silicotuberculoza` (J65; de la P); `Sigmatism` (F80.8; de la V). Verificate față de dicționarul unit al tuturor literelor (G3, G6).
 
 ## Adăugate
 
@@ -30,7 +31,10 @@
 |---|---|---|
 | Sadomasochism | F65.5 | sado-masochism; algolagnie; tulburare sadomasochista; sexual sadomasochism; algolagnia; sadomasochistic disorder |
 | Salpingita eustachiana | H68.0 | salpingita trompei Eustache; eustachita; tubita; eustachian salpingitis; eustachitis; eustachian tube inflammation |
+| Sarcina anembrionara | O02.0 | ou anembrionar; sarcina anembrionica; sac gestational fara embrion; blighted ovum; anembryonic pregnancy; anembryonic gestation |
 | Sarcocistoza | A07.8 | sarcosporidioza; infectie cu Sarcocystis; sarcocistoza intestinala; sarcocystosis; sarcosporidiosis; Sarcocystis infection |
+| Sarcom de parti moi | C49 | tumora maligna a tesutului conjunctiv si a tesuturilor moi; sarcom de tesuturi moi; tumora maligna de parti moi; soft tissue sarcoma; malignant neoplasm of connective and soft tissue; malignant soft tissue tumor |
+| Sarcom mastocitar | C96.2 | tumora maligna cu mastocite; mastocitom malign; sarcom cu mastocite; mast cell sarcoma; malignant mast cell neoplasm; malignant mastocytoma |
 | Sarcom mieloid | C92.3 | clorom; sarcom granulocitar; tumora mieloida extramedulara; myeloid sarcoma; chloroma; granulocytic sarcoma |
 | Sarcozinemie | E72.5 | sarcozinemia; hipersarcozinemie; deficit de sarcozin-dehidrogenaza; sarcosinemia; hypersarcosinemia; sarcosine dehydrogenase deficiency |
 | Sclerodermie liniara | L94.1 | sclerodermia lineara; morfee liniara; sclerodermie in lovitura de sabie; linear scleroderma; linear morphea; en coup de sabre |
@@ -45,6 +49,8 @@
 | Sepsis pneumococic | A40.3 | septicemie pneumococica; sepsis datorita Streptococcus pneumoniae; sepsis cu pneumococ; sepsis due to Streptococcus pneumoniae; pneumococcal sepsis; pneumococcal septicaemia |
 | Sialectazie | K11.8 | sialectazia; dilatatie a canalelor salivare; ectazie ductala salivara; sialectasis; sialectasia; salivary duct ectasia |
 | Sialometaplazie necrozanta | K11.8 | sialometaplazia necrozanta; sialometaplazie necrotica; metaplazie necrozanta a glandelor salivare; necrotizing sialometaplasia; necrotising sialometaplasia; necrotizing sialometaplasia of palate |
+| Sigmatism | F80.8 | vorbire peltica; vorbire sasaita; vorbire sopotita; lisp; lisping; sigmatismus |
+| Silicotuberculoza | J65 | pneumoconioza asociata cu tuberculoza; silicoza cu tuberculoza; tuberculoza silicotica; pneumoconiosis associated with tuberculosis; silicotuberculosis; silicotic tuberculosis |
 | Sindrom Brown | H50.6 | sindromul tecii Brown; sindromul tecii tendonului oblic superior; sindrom de teaca a muschiului oblic superior; Brown syndrome; superior oblique tendon sheath syndrome; Brown tendon sheath syndrome |
 | Sindrom Carpenter | Q87.01 | acrocefalopolisindactilie tip II; acrocefalopolisindactilie; sindromul Carpenter; Carpenter syndrome; acrocephalopolysyndactyly type II; acrocephalopolysyndactyly |
 | Sindrom cervicobrahial | M53.1 | sindrom cervico-brahial; nevralgie cervicobrahiala; cervicobrahialgie; cervicobrachial syndrome; cervicobrachial neuralgia; cervicobrachialgia |
@@ -62,9 +68,13 @@
 | Sindrom dumping | K91.1 | sindromul dumping; sindrom de golire gastrica rapida; dumping postgastrectomie; dumping syndrome; rapid gastric emptying syndrome; postgastrectomy dumping |
 | Sindrom Eisenmenger | Q21.8 | complex Eisenmenger; reactie Eisenmenger; fiziologie Eisenmenger; Eisenmenger syndrome; Eisenmenger complex; Eisenmenger physiology |
 | Sindrom eutiroidian bolnav | E07.8 | sindromul disfunctiei eutiroidiene; sindrom de boala netiroidiana; sindromul T3 scazut; euthyroid sick syndrome; nonthyroidal illness syndrome; low T3 syndrome |
+| Sindrom fetal valproic | Q86.81 | sindrom fetal la valproat; embriopatie valproica; malformatii congenitale datorite valproatului; fetal valproate syndrome; fetal valproate spectrum disorder; valproate embryopathy |
+| Sindrom fetal warfarinic | Q86.2 | dismorfism datorita warfarinei; embriopatie warfarinica; embriopatie cumarinica; dysmorphism due to warfarin; fetal warfarin syndrome; warfarin embryopathy; coumarin embryopathy |
 | Sindrom Fraser | Q87.03 | sindromul criptoftalmic; sindrom criptoftalmie-sindactilie; sindromul Fraser; Fraser syndrome; cryptophthalmos syndrome; cryptophthalmos-syndactyly syndrome |
+| Sindrom Frohlich | E23.6 | distrofie adiposo-genitala; sindrom adipozogenital; boala Babinski-Frohlich; adiposogenital dystrophy; Frohlich syndrome; Babinski-Frohlich syndrome |
 | Sindrom Gianotti-Crosti | L44.4 | acrodermatita papuloasa infantila; acrodermatita eritemato-papuloasa infantila; boala Gianotti-Crosti; Gianotti-Crosti syndrome; infantile papular acrodermatitis; papular acrodermatitis of childhood |
 | Sindrom Hallermann-Streiff | Q87.05 | sindromul Hallerman-Streiff; sindrom Hallermann-Streiff-Francois; sindrom oculo-mandibulo-facial; Hallermann-Streiff syndrome; oculomandibulofacial syndrome; oculomandibulodyscephaly |
+| Sindrom HHH | E72.4 | sindrom hiperornitinemie hiperamoniemie homocitrulinurie; deficit de translocaza a ornitinei; deficit de transportor mitocondrial al ornitinei; HHH syndrome; hyperornithinemia-hyperammonemia-homocitrullinuria syndrome; ornithine translocase deficiency; ORNT1 deficiency |
 | Sindrom hidantoinic fetal | Q86.1 | sindromul hidantoinei fetale; sindrom fetal la fenitoina; embriopatie hidantoinica; fetal hydantoin syndrome; fetal phenytoin syndrome; hydantoin embryopathy |
 | Sindrom Holt-Oram | Q87.21 | sindrom inima-mana; sindromul atrio-digital; displazie atriodigitala; Holt-Oram syndrome; heart-hand syndrome; atriodigital dysplasia |
 | Sindrom Jeune | Q77.2 | sindromul coastei scurte; displazie toracica asfixianta; boala Jeune; short rib syndrome; Jeune syndrome; asphyxiating thoracic dysplasia |
@@ -81,14 +91,18 @@
 | Sindrom scimitar | Q26.8 | sindromul venei scimitar; sindrom venolobar pulmonar congenital; sindromul plamanului hipogenetic; scimitar syndrome; congenital pulmonary venolobar syndrome; hypogenetic lung syndrome |
 | Sindrom Swyer | Q97.3 | sex feminin cu cariotip 46 XY; disgenezie gonadala pura 46 XY; disgenezie gonadala completa XY; female with 46 XY karyotype; Swyer syndrome; 46 XY complete gonadal dysgenesis |
 | Sindrom Taussig-Bing | Q20.1 | sindromul Taussig-Bing; anomalie Taussig-Bing; ventricul drept cu dubla iesire cu DSV subpulmonar; Taussig-Bing anomaly; Taussig-Bing syndrome; double outlet right ventricle with subpulmonary VSD |
+| Sindrom Vogt-Koyanagi-Harada | H30.8 | boala Harada; boala Vogt-Koyanagi-Harada; sindrom uveomeningoencefalitic; Vogt-Koyanagi-Harada disease; Harada disease; uveomeningoencephalitic syndrome; VKH syndrome |
 | Sindrom Wilson-Mikity | P27.0 | dismaturitate pulmonara; boala Wilson-Mikity; dismaturitate pulmonara a prematurului; Wilson-Mikity syndrome; pulmonary dysmaturity; Wilson-Mikity disease |
 | Siringocel uretral | Q64.78 | siringocel uretral congenital; siringocel Cowper; chist de canal Cowper; urethral syringocele; Cowper syringocele; Cowper duct cyst |
 | Splina ratacitoare | Q89.09 | splina ectopica; splina mobila; splenoptoza; wandering spleen; ectopic spleen; splenoptosis |
 | Spondilolisteza congenitala | Q76.2, Q76.21, Q76.22 | spondilolisteza congenitala si spondiloliza; spondilolisteza displazica; spondiloliza congenitala; congenital spondylolisthesis; dysplastic spondylolisthesis; congenital spondylolysis |
 | Spondilopatie traumatica | M48.3 | boala Kummell; osteonecroza vertebrala posttraumatica; boala Kummell-Verneuil; traumatic spondylopathy; Kummell disease; posttraumatic vertebral osteonecrosis |
+| Stenoza de apeduct Sylvius | Q03.0 | malformatii ale apeductului Sylvius; stenoza apeductala congenitala; stenoza apeductului cerebral; malformations of aqueduct of Sylvius; aqueductal stenosis; congenital aqueductal stenosis |
+| Stenoza de artera cerebrala | I66 | stenoza arterelor cerebrale; stenoza arteriala intracraniana; stenoza aterosclerotica intracraniana; cerebral artery stenosis; intracranial arterial stenosis; intracranial atherosclerotic stenosis; intracranial stenosis |
 | Stenoza de col uterin | N88.2 | strictura si stenoza colului uterin; stenoza cervicala uterina; strictura de col uterin; stricture and stenosis of cervix uteri; uterine cervical stenosis; cervical os stenosis |
 | Stenoza de duct salivar | K11.8 | stenoza canalului salivar; strictura ductului salivar; sialostenoza; salivary duct stenosis; salivary duct stricture; sialostenosis |
 | Stenoza mitrala congenitala | Q23.2 | stenoza congenitala a valvei mitrale; valva mitrala in parasuta; inel supravalvular mitral; congenital mitral stenosis; congenital mitral valve stenosis; parachute mitral valve |
+| Stenoza ureterala | N13.5 | strictura ureterala; ingustare ureterala; stenoza a ureterului; ureteral stricture; ureteric stricture; ureteral stenosis |
 | Stenoza vaginala | N89.5 | strictura si atrezia vaginului; strictura vaginala; ingustare vaginala dobandita; stricture and atresia of vagina; vaginal stenosis; vaginal stricture |
 | Stern bifid | Q76.72 | fisura sternala congenitala; despicatura sternala; stern despicat; bifid sternum; sternal cleft; cleft sternum |
 | Stomac in clepsidra | K31.2 | stomac biloculat; stenoza mediogastrica; strictura in clepsidra a stomacului; hourglass stomach; hourglass stricture of stomach; bilocular stomach |
