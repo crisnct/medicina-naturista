@@ -1,0 +1,4 @@
+? B66.8   Watsoniaza   [titlu: Alte infectii specificate cu paraziti]  <Other specified fluke infections>  ~ 
+? G12.0   Werdning-Hoffman   [titlu: Atrofia musculara spinala infantila, tip I (Werdning-Hoffman)]  <Infantile spinal muscular atrophy, type I [Werdnig-Hoffman]>  ~ 
+? L98.3   Wells   [titlu: Celulita eosinofila [Wells]]  <Eosinophilic cellulitis [Wells]>  ~ 
+? M35.6   Weber-Christian   [titlu: Paniculita recidivanta [Weber-Christian]]  <Relapsing panniculitis [Weber-Christian]>  ~ Boala Weber-Christian
