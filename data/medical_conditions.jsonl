@@ -3689,6 +3689,7 @@
 {"name": "Omfalita", "synonyms": ["infectie a ombilicului", "omfalita neonatala", "infectie a bontului ombilical", "omphalitis", "umbilical infection", "infection of the umbilical stump"]}
 {"name": "Omfalocel", "synonyms": ["omfalocel congenital", "exomfalos", "eventratie ombilicala congenitala", "omphalocele", "exomphalos", "congenital umbilical hernia"]}
 {"name": "Oncocercoza", "synonyms": ["cecitatea raurilor", "oncocercom", "infectie cu Onchocerca volvulus", "onchocerciasis", "river blindness", "onchocercosis"]}
+{"name": "Oncocitom renal", "synonyms": ["oncocitom al rinichiului", "adenom oncocitar renal", "oncocitom", "renal oncocytoma", "oncocytoma of kidney", "oncocytic adenoma of kidney"]}
 {"name": "Onicauxis", "synonyms": ["unghii marite sau hipertrofice", "hipertrofie unghiala", "ingrosarea unghiilor", "enlarged and hypertrophic nails", "onychauxis", "nail hypertrophy", "thickened nails"]}
 {"name": "Onicocriptoza", "synonyms": ["unghie incarnata", "unghie incarnata dureroasa", "unghie crescuta in carne", "ingrown nail", "onychocryptosis", "ingrowing nail"]}
 {"name": "Onicodistrofie", "synonyms": ["distrofie unghiala", "unghii deformate", "distrofie a unghiilor", "onychodystrophy", "nail dystrophy", "dystrophic nails"]}
@@ -3703,6 +3704,7 @@
 {"name": "Opistorhoza", "synonyms": ["infestare cu Opisthorchis felineus", "distomatoza felina", "distomatoza cu Opisthorchis", "opisthorchiasis", "Opisthorchis felineus infection", "cat liver fluke infection"]}
 {"name": "Oprire epifizara", "synonyms": ["oprire a cresterii epifizare", "punte osoasa fizara", "inchidere prematura a cartilajului de crestere", "physeal arrest", "growth plate arrest", "physeal bar", "premature physeal closure"]}
 {"name": "Oreion", "synonyms": ["papusa", "parotidita epidemica", "oreionul", "parotidita urliana", "mumps", "epidemic parotitis", "infectious parotitis"]}
+{"name": "Orf", "synonyms": ["boala cu virusul Orf", "dermatita pustuloasa contagioasa", "infectie cu virusul Orf", "orf virus disease", "contagious pustular dermatitis", "ecthyma contagiosum", "orf virus infection"]}
 {"name": "Orhita", "synonyms": ["inflamatia testiculului", "orita", "infectie testiculara", "orchitis", "testicular inflammation", "inflammation of the testis"]}
 {"name": "Orhita urliana", "synonyms": ["orita urliana", "orhopatia din oreion", "orhita epidemica", "mumps orchitis", "orchitis due to mumps", "parotitic orchitis"]}
 {"name": "Origine anormala a coronarei din artera pulmonara", "synonyms": ["sindrom ALCAPA", "anomalie Bland-White-Garland", "coronara stanga din artera pulmonara", "anomalous origin of the left coronary artery", "ALCAPA", "Bland-White-Garland syndrome"]}

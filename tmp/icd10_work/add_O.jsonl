@@ -15,3 +15,5 @@
 {"name": "Otocefalie", "synonyms": ["complex agnatie-otocefalie", "complex otocefalie-disgnatie", "sinotie cu agnatie", "otocephaly", "agnathia-otocephaly complex", "otocephaly-dysgnathia complex"], "codes": ["Q18.2"]}
 {"name": "Obstructie congenitala de col vezical", "synonyms": ["obstructia congenitala a gatului vezicii", "boala Marion", "scleroza congenitala de col vezical", "congenital bladder neck obstruction", "Marion disease", "congenital bladder neck contracture"], "codes": ["Q64.31"]}
 {"name": "Onicauxis", "synonyms": ["unghii marite sau hipertrofice", "hipertrofie unghiala", "ingrosarea unghiilor", "enlarged and hypertrophic nails", "onychauxis", "nail hypertrophy", "thickened nails"], "codes": ["Q84.5"]}
+{"name": "Orf", "synonyms": ["boala cu virusul Orf", "dermatita pustuloasa contagioasa", "infectie cu virusul Orf", "orf virus disease", "contagious pustular dermatitis", "ecthyma contagiosum", "orf virus infection"], "codes": ["B08.0"]}
+{"name": "Oncocitom renal", "synonyms": ["oncocitom al rinichiului", "adenom oncocitar renal", "oncocitom", "renal oncocytoma", "oncocytoma of kidney", "oncocytic adenoma of kidney"], "codes": ["D30.0"]}

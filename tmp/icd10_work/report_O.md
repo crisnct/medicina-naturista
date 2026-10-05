@@ -8,7 +8,7 @@
   - procedura: 3
 - găsite automat în dicționar (P4.1–P4.3): **39**
 - de decis manual (`nou` + `posibil`): **116**
-- **afecțiuni adăugate: 17**
+- **afecțiuni adăugate: 19**
 
 ## Decizii manuale
 
@@ -21,6 +21,7 @@
 - **Sinonime insuficiente (2.4):** odontoclazia / melanodonția infantilă (K02.4 — doar două denumiri românești reale); ovarul accesoriu / supranumerar (Q50.39 — „accesoriu” și „supranumerar” sunt tipuri diferite, nu sinonime); boala Haas (M92.0) și boala Mauclaire (M92.2), osteocondroze juvenile rare fără denumiri românești consacrate.
 - **Amânate la altă literă** (`pending_from_O.jsonl`): `Boala van Neck-Odelberg` (B, M91.0), `Stenoza de artera cerebrala` (S, I66 — ocluzia are deja `Tromboza de artera cerebrala`, stenoza nu), `Sarcina anembrionara` (S, O02.0), `Sindrom HHH` (S, E72.4 ornitinemia tip II; tipul I e `Atrofie girata a coroidei si retinei`), `Ventricul stang cu dubla iesire` (V, Q20.2, pereche cu `Ventricul drept cu dubla iesire`). Opacitatea glaucomatoasă (H26.2) ține de cataracta complicată, la C.
 - **Audit near-dupes:** perechile noi sunt toate de tip „părinte ⊂ variantă” (`Obezitate` ⊂ `Obezitate medicamentoasa`, `Osteoporoza idiopatica` ⊂ `Osteoporoza idiopatica juvenila` etc.), la fel ca variantele deja existente; niciun duplicat real.
+- **Amânate de la alte litere, adăugate la unire (coordonator, 2):** `Orf` (B08.0; de la B); `Oncocitom renal` (D30.0; de la T). Verificate față de dicționarul unit al tuturor literelor (G3, G6).
 
 ## Adăugate
 
@@ -33,10 +34,12 @@
 | Ocluzie intestinala prin lapte ingrosat | P76.2 | obstructia intestinala datorita laptelui ingrosat; obstructie intestinala prin lapte ingrosat; sindromul laptelui ingrosat; intestinal obstruction due to inspissated milk; inspissated milk syndrome; milk curd obstruction |
 | Odontodisplazie regionala | K00.4 | dinti fantoma; odontodisplazie localizata; displazie odontala regionala; regional odontodysplasia; ghost teeth; localized arrested tooth development; unilateral dental malformation |
 | Oligodontie | K00.0 | agenezie dentara multipla; hipodontie severa; absenta congenitala a mai multor dinti; oligodontia; severe hypodontia; multiple tooth agenesis; congenital absence of multiple teeth |
+| Oncocitom renal | D30.0 | oncocitom al rinichiului; adenom oncocitar renal; oncocitom; renal oncocytoma; oncocytoma of kidney; oncocytic adenoma of kidney |
 | Onicauxis | Q84.5 | unghii marite sau hipertrofice; hipertrofie unghiala; ingrosarea unghiilor; enlarged and hypertrophic nails; onychauxis; nail hypertrophy; thickened nails |
 | Onixis | L03.0 | onichie; inflamatia matricei unghiale; inflamatia patului unghial; onychia; onychitis; nail matrix inflammation |
 | Ophiasis | L63.2 | ofiazis; alopecie areata ofiazica; alopecie areata in banda; ophiasis alopecia areata; ophiasis pattern alopecia areata; band-like alopecia areata |
 | Oprire epifizara | M89.1 | oprire a cresterii epifizare; punte osoasa fizara; inchidere prematura a cartilajului de crestere; physeal arrest; growth plate arrest; physeal bar; premature physeal closure |
+| Orf | B08.0 | boala cu virusul Orf; dermatita pustuloasa contagioasa; infectie cu virusul Orf; orf virus disease; contagious pustular dermatitis; ecthyma contagiosum; orf virus infection |
 | Osificarea ligamentului longitudinal posterior | M48.8 | osificarea ligamentului vertebral comun posterior; osificare ligamentara longitudinala posterioara; OPLL; ossification of the posterior longitudinal ligament; posterior longitudinal ligament ossification; ossified posterior longitudinal ligament |
 | Osteita fibrochistica | E21.0 | osteita fibrochistica generalizata; boala osoasa von Recklinghausen; osteita fibroasa chistica; osteitis fibrosa cystica; von Recklinghausen disease of bone; osteitis fibrosa cystica generalisata |
 | Osteomielita maxilarelor | K10.2 | osteita maxilarului; osteomielita mandibulara; osteomielita maxilara; osteomyelitis of the jaw; jaw osteomyelitis; mandibular osteomyelitis; osteitis of the jaw |
