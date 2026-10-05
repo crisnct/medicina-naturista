@@ -1,0 +1,280 @@
+? A05.2   Pig-bel   [titlu: Intoxicatia alimentara prin Clostridium perfringens [Clostridium welchii]]  <Foodborne Clostridium perfringens [Clostridium welchii] intoxication>  ~ 
+? A20.8   Pesta avortiva   [titlu: Alte forme de pesta]  <Other forms of plague>  ~ 
+? A20.8   Pesta asimptomatica   [titlu: Alte forme de pesta]  <Other forms of plague>  ~ Astm bronsic necontrolat
+? A20.8   Pesta minora   [titlu: Alte forme de pesta]  <Other forms of plague>  ~ 
+? A59.0   Prostatita† datorita Trichomonas (vaginalis)   [titlu: Trichomoniaza uro-genitala]  <Urogenital trichomoniasis>  ~ 
+? A66.0   Pianul mama   [titlu: Leziunile initiale ale pianului]  <Initial lesions of yaws>  ~ 
+? A66.4   Pian tardiv modular (ulcerat)   [titlu: Gomele si ulcerele pianice]  <Gummata and ulcers of yaws>  ~ 
+? A66.6   Periostita (hipertrofica) pianica (precoce) (tardiva)   [titlu: Leziunile pianice articulare si osoase]  <Bone and joint lesions of yaws>  ~ 
+? A67.0   Papula (initiala) a pintei [carate]   [titlu: Leziunile initiale de pinta]  <Primary lesions of pinta>  ~ 
+? A67.1   Placile eritematoase ale pintei [carate]   [titlu: Leziunile intermediare ale pintei]  <Intermediate lesions of pinta>  ~ 
+? A67.1   Pintide ale pintei [carate]   [titlu: Leziunile intermediare ale pintei]  <Intermediate lesions of pinta>  ~ 
+? A74.0   Paratrahomul   [titlu: Conjunctivita prin Chlamydia]  <Chlamydial conjunctivitis>  ~ 
+? A74.8   Peritonita prin Chlamydia†   [titlu: Alte afectiuni specificate cu Chlamydia]  <Other chlamydial diseases>  ~ Peritonita biliara
+? B05.2   Pneumonia postmorbilioasa   [titlu: Rujeola complicata cu pneumonie]  <Measles complicated by pneumonia>  ~ 
+? B08.0   Pseudovaccin [nodulul mulgatorilor de lapte]   [titlu: Alte infectii prin orthopoxvirus]  <Other orthopoxvirus infections>  ~ 
+? B33.1   Poliartrita epidemica exantematoasa   [titlu: Boala Ross River]  <Ross River disease>  ~ 
+? B36.1   Pityriasis nigra   [titlu: Tinea nigra]  <Tinea nigra>  ~ Pitiriazis rozat
+? B46.9   Phicomicoza   [titlu: Zygomicoza, nespecificata]  <Zygomycosis, unspecified>  ~ Onicomicoza
+? B47.0   Piciorul de Madura. micotic   [titlu: Eumicetomul]  <Eumycetoma>  ~ Micetom
+? B47.9   Piciorul de Madura   [titlu: Micetomul, nespecificat]  <Mycetoma, unspecified>  ~ Micetom
+? B50.8   Paludismul cu Plasmodium falciparum sever sau complicat   [titlu: Alte forme severe sau complicatii ale paludismului cu Plasmodium falciparum]  <Other severe and complicated Plasmodium falciparum malaria>  ~ 
+? B53.8   Paludismul confirmat parazitologic   [titlu: Alte paludisme specificate, cu confirmare parazitologica, neclasificate altundeva]  <Other malaria, not elsewhere classified>  ~ 
+? B60.0   Piroplasmoza   [titlu: Babesioza]  <Babesiosis>  ~ Babesioza | Histoplasmoza
+? B83.9   Pediculoza, acariaza si alte infestatii   [titlu: Helmintiaza, nespecificata]  <Helminthiasis, unspecified>  ~ 
+? B88.8   Porocefaliaza   [titlu: Alte infestatii specificate]  <Other specified infestations>  ~ 
+? B88.9   Paraziti de piele   [titlu: Infestatia, nespecificata]  <Infestation, unspecified>  ~ 
+? B96.0   Pleuro-pneumonia ca si organism [PPLO]   [titlu: Mycoplasma pneumoniae [M. pneumoniae], cauza unor boli clasate la alte capitole]  <Mycoplasma pneumoniae [M. pneumoniae] as the cause of diseases classified elsewhere>  ~ 
+? C01     Partea fixa a limbii   [titlu: Tumora maligna a bazei limbii]  <Malignant neoplasm of base of tongue>  ~ 
+? C02.3   Partea mobila a limbii   [titlu: Doua treimi anterioare ale limbii, parte nespecificata]  <Malignant neoplasm of anterior two-thirds of tongue, part unspecified>  ~ 
+? C10.1   Pliul (pliurile) gloso-epiglotic(e)   [titlu: Fata anterioara a epiglotei]  <Malignant neoplasm of anterior surface of epiglottis>  ~ 
+? C11.9   Peretele rino-faringian   [titlu: Nazo-faringe, nespecificat]  <Malignant neoplasm of nasopharynx, unspecified>  ~ 
+? C13.9   Peretele hipofaringian   [titlu: Hipofaringe, nespecificat]  <Malignant neoplasm of hypopharynx, unspecified>  ~ 
+? C32.1   Pliul ary-epiglotic, versantul laringian   [titlu: Supraglota]  <Malignant neoplasm of supraglottis>  ~ 
+? C34.0   Pintenul (carina)   [titlu: Trunchiul bronhial]  <Malignant neoplasm of main bronchus>  ~ 
+? C38.0   Pericard   [titlu: Inima]  <Malignant neoplasm of heart>  ~ Pericardita | Hemopericard
+? C45.1   Peritoneu (parietal) (pelvian)   [titlu: Mesoteliomul peritoneului]  <Mesothelioma of peritoneum>  ~ 
+? C49.4   Peretele abdominal   [titlu: Tesutul conjunctiv si tesuturile moi ale abdomenului]  <Malignant neoplasm of connective and soft tissue of abdomen>  ~ Dehiscence de perete abdominal | Hernie inghinala | Hernie lombara | Hernie Richter
+? C49.5   Peritoneu   [titlu: Tesutul conjunctiv si tesuturile moi ale pelvisului]  <Malignant neoplasm of connective and soft tissue of pelvis>  ~ Hemoperitoneu
+? C51.9   Pudendum   [titlu: Vulva, nespecificata]  <Malignant neoplasm of vulva, unspecified>  ~ 
+? C63.2   Pielea scrotului   [titlu: Scrot]  <Malignant neoplasm of scrotum>  ~ 
+? D01.7   Pancreas   [titlu: Alte organe digestive specificate]  <Carcinoma in situ of other specified digestive organs>  ~ Pancreatita
+? D02.0   Pliul ary-epiglotic, versantul laringian   [titlu: Laringe]  <Carcinoma in situ of larynx>  ~ 
+? D12.6   Polipoza (ereditara) a colonului   [titlu: Colon, nespecificat]  <Benign neoplasm of colon, unspecified>  ~ 
+? D17.7   Peritoneu   [titlu: Tumora lipomatoasa benigna cu alte localizari]  <Benign lipomatous neoplasm of other sites>  ~ Hemoperitoneu
+? D29.4   Pielea scrotului   [titlu: Scrot]  <Benign neoplasm of scrotum>  ~ 
+? D38.0   Pliul ary-epiglotic, versantul laringian   [titlu: Laringe]  <Neoplasm of uncertain behavior of larynx>  ~ 
+? D39.7   Pielea organelor genitale la femeie   [titlu: Alte organe genitale la femeie]  <>  ~ 
+? D40.7   Pielea organelor genitale la barbat   [titlu: Alte organe genitale la barbat]  <>  ~ 
+? D46.9   Preleucemia (sindrom)   [titlu: Sindrom mielodisplazic, nespecificat]  <Myelodysplastic syndrome, unspecified>  ~ 
+? D48.9   'Proliferare tumorala'   [titlu: Tumora cu evolutie imprevizibila si necunoscuta, nespecificata]  <Neoplasm of uncertain behavior, unspecified>  ~ 
+? D61.9   Panmieloftizia   [titlu: Anemia aplazica, nespecificata]  <Aplastic anemia, unspecified>  ~ Mieloftizie
+? D64.8   Pseudoleucemia infantila   [titlu: Alte anemii specificate]  <Other specified anemias>  ~ 
+? D68.8   Prezenta inhibatorului lupusului eritematos sistemic [SLE]   [titlu: Alte anomalii specificate de coagulare]  <Other specified coagulation defects>  ~ Lupus
+? D69.8   Pseudohemofilia vasculara   [titlu: Alte afectiuni hemoragice specificate]  <Other specified hemorrhagic conditions>  ~ 
+? D73.8   Perisplenita   [titlu: Alte boli ale splinei]  <Other diseases of spleen>  ~ Splenita
+? D86.8   Paralizia multipla a nervilor cranieni in sarcoidoza†   [titlu: Sarcoidoza cu alte localizari si combinate]  <Sarcoidosis of other sites>  ~ 
+? E27.0   Pubertate adrenocorticala precoce   [titlu: Alte hiperfunctiuni adrenocorticale]  <Other adrenocortical overactivity>  ~ Pubertate precoce
+? E34.5   Pseudohermafroditism masculin cu rezistenta la androgeni   [titlu: Sindromul de rezistenta la androgeni]  <Androgen insensitivity syndrome>  ~ Pseudohermafroditism | Sindrom de rezistenta la androgeni
+? E50.1   Pete Bitot la copilul mic   [titlu: Avitaminoza A cu pete Bitot si xeroza conjunctivei]  <Vitamin A deficiency with Bitot's spot and conjunctival xerosis>  ~ 
+? E74.8   Pentosuria esentiala   [titlu: Alte tulburari specificate de metabolism al carbohidratilor]  <Other specified disorders of carbohydrate metabolism>  ~ 
+? E85.1   Polineuropatia amiloida (portugheza)   [titlu: Amiloidoza heredofamiliala neuropatica]  <Neuropathic heredofamilial amyloidosis>  ~ Neuropatie amiloida
+? F04.9   Psihoza sau sindromul Korsakov, nealcoolic   [titlu: Sindromul amnezic, nespecificat]  <>  ~ 
+? F06.2   Psihoza de tip schizofrenic in epilepsie   [titlu: Tulburare deliranta [de alura schizofrenica] organica]  <Psychotic disorder with delusions due to known physiological condition>  ~ Schizofrenie
+? F06.8   Psihoza epileptica   [titlu: Alte tulburari mentale specificate datorite unei vatamari si disfunctii cerebrale si unei boli fizice]  <Other specified mental disorders due to known physiological condition>  ~ 
+? F07.9   Psihosindromul organic   [titlu: Tulburare organica de personalitate si comportament datorita unei boli, vatamari si disfunctii cerebrale, nespecificata]  <Unspecified personality and behavioral disorder due to known physiological condition>  ~ 
+? F22.0   Paranoia   [titlu: Tulburare deliranta]  <>  ~ 
+? F22.8   Paranoia cverulenta   [titlu: Alte tulburari delirante persistente]  <>  ~ 
+? F23.0   Psihoza cicloida fara simptome de schizofrenie sau   [titlu: Tulburare psihotica polimorfa acuta, fara simptome schizofrenice]  <>  ~ 
+? F23.1   Psihoza cicloida cu simptome de schizofrenie   [titlu: Tulburare psihotica acuta cu simptome schizofrenice]  <>  ~ 
+? F23.3   Psihoza paranoica psihogena   [titlu: Alte tulburari psihotice acute predominant delirante]  <>  ~ Psihoza reactiva
+? F23.9   Psihoza reactionala scurta   [titlu: Tulburare psihotica acuta si tranzitorie, nespecificata]  <>  ~ 
+? F23.9   Psihoza reactionala   [titlu: Tulburare psihotica acuta si tranzitorie, nespecificata]  <>  ~ Psihoza reactiva
+? F25.0   Psihoza schizo-afectiva, tip maniacal   [titlu: Tulburare schizo-afectiva, tip maniacal]  <Schizoaffective disorder, bipolar type>  ~ 
+? F25.0   Psihoza schizofreniforma, tip maniacal   [titlu: Tulburare schizo-afectiva, tip maniacal]  <Schizoaffective disorder, bipolar type>  ~ 
+? F25.1   Psihoza schizo-afectiva, tip depresiv   [titlu: Tulburare schizo-afectiva, tip depresiv]  <Schizoaffective disorder, depressive type>  ~ 
+? F25.1   Psihoza schizofreniforma, tip depresiv   [titlu: Tulburare schizo-afectiva, tip depresiv]  <Schizoaffective disorder, depressive type>  ~ 
+? F25.2   Psihoza afectiva si schizofrenica mixta   [titlu: Tulburari schizo-afective, tip mixt]  <>  ~ Schizofrenie
+? F25.9   Psihoza schizo-afectiva   [titlu: Tulburare schizo-afectiva, nespecificata]  <Schizoaffective disorder, unspecified>  ~ Tulburare schizoafectiva | Schizofrenie
+? F33.2   Psihoza maniaco-depresiva, tipul depresiv fara simptome psihotice   [titlu: Tulburare depresiva recurenta, episod actual sever fara simptome psihotice]  <Major depressive disorder, recurrent severe without psychotic features>  ~ Tulburare bipolara
+? F33.3   Psihoza maniaco-depresiva, tipul depresiv cu simptome psihotice   [titlu: Tulburare depresiva recurenta, episod actual sever cu simptome psihotice]  <Major depressive disorder, recurrent, severe with psychotic symptoms>  ~ Tulburare bipolara
+? F34.0   Personalitatea cicloida   [titlu: Ciclotimie]  <Cyclothymic disorder>  ~ Personalitate schizoida
+? F34.0   Personalitatea ciclotimica   [titlu: Ciclotimie]  <Cyclothymic disorder>  ~ 
+? F39     Psihoza afectiva   [titlu: Tulburari nespecificate ale dispozitiei (afective)]  <Unspecified mood [affective] disorder>  ~ Psihoza reactiva | Tulburare schizoafectiva | Tulburare psihotica acuta
+? F45.4   Psihalgie   [titlu: Sindrom dureros somatoform persistent]  <Pain disorders related to psychological factors>  ~ 
+? F48.8   Psihastenie   [titlu: Alte tulburari nevrotice specificate]  <Other specified nonpsychotic mental disorders>  ~ Miastenie
+? F50.8   Pica la adulti   [titlu: Alte tulburari de apetit]  <Other eating disorders>  ~ 
+? F50.8   Pierderea psihogena a apetitului   [titlu: Alte tulburari de apetit]  <Other eating disorders>  ~ Apetit scazut
+? F53.1   Psihoza purperala   [titlu: Tulburari mentale si de comportament severe asociate cu puerperium, neclaificate altundeva]  <Puerperal psychosis>  ~ Psihoza postpartum
+? F60.9   Personalitate patologica   [titlu: Tulburare de personalitate, nespecificata]  <Personality disorder, unspecified>  ~ Personalitate sadica | Personalitate antisociala | Personalitate histrionica
+? F84.3   Psihoza dezintegrativa   [titlu: Alta tulburare de dezintegrare a copilariei]  <Other childhood disintegrative disorder>  ~ 
+? F84.3   Psihoza simbiotica   [titlu: Alta tulburare de dezintegrare a copilariei]  <Other childhood disintegrative disorder>  ~ 
+? F84.5   Psihopatie autistica   [titlu: Sindromul Asperger]  <Asperger's syndrome>  ~ 
+? F94.2   Psihopatie prin lipsa de afectiune   [titlu: Tulburari privind dezinhibitia fata de anturaj in copilarie]  <Disinhibited attachment disorder of childhood>  ~ 
+? G12.1   Paralizia bulbara progresiva a copilului [Fazio-Londe]   [titlu: Alte atrofii musculare spinale ereditare]  <Other inherited spinal muscular atrophy>  ~ Paralizia bulbara progresiva
+? G52.7   Polinevrita craniana   [titlu: Afectiunile mai multor nervi cranieni]  <Disorders of multiple cranial nerves>  ~ 
+? G56.2   Paralizia lenta a nervului ulnar   [titlu: Leziunea nervului ulnar]  <Lesion of ulnar nerve>  ~ 
+? G57.3   Paralizia nervului peronier   [titlu: Leziunea nervului sciatic popliteu lateral]  <Lesion of lateral popliteal nerve>  ~ Paralizia nervului peroneu | Paralizia nervului trohlear | Paralizia nervului spinal
+? G59     Polineuropatii si alte afectiuni ale sistemului nervos periferic   [titlu: Mononeuropatia in boli clasificate altundeva]  <Mononeuropathy in diseases classified elsewhere>  ~ 
+? G61.0   Polineurita acuta (post-)infectioasa   [titlu: Sindromul Guillain-Barre]  <Guillain-Barre syndrome>  ~ 
+? G62.8   Polineuropatia datorita iradierii   [titlu: Alte polineuropatii specificate]  <Other specified polyneuropathies>  ~ 
+? G73.7   Paralizia cerebrala si alte sindroame paralitice   [titlu: Miopatia in alte boli clasificate altundeva]  <Myopathy in diseases classified elsewhere>  ~ 
+? G83.0   Paralizia ambelor membre superioare   [titlu: Diplegia membrelor superioare]  <Diplegia of upper limbs>  ~ 
+? G83.1   Paralizia membrelor inferioare   [titlu: Monoplegia membrelor inferioare]  <Monoplegia of lower limb>  ~ Sirenomelie
+? G83.2   Paralizia membrelor superioare   [titlu: Monoplegia membrelor superioare]  <Monoplegia of upper limb>  ~ 
+? G83.8   Paralizia Todd (postepileptica)   [titlu: Alte sindroame paralitice specificate]  <Other specified paralytic syndromes>  ~ 
+? H05.0   Periostita orbitei   [titlu: Inflamatii acute ale orbitei]  <Acute inflammation of orbit>  ~ 
+? H11.8   Pseudopterigion   [titlu: Alte afectiuni specificate ale conjuctivei]  <Other specified disorders of conjunctiva>  ~ 
+? H16.4   Panus (cornean)   [titlu: Neovascularizare corneeana]  <Corneal neovascularization>  ~ 
+? H33.1   Pseudochist al retinei   [titlu: Retinoschisis si chisturi retiniene]  <Retinoschisis and retinal cysts>  ~ 
+? H34.2   Placa Hollenhorst   [titlu: Alte ocluzii ale unor artere retiniene]  <Other retinal artery occlusions>  ~ 
+? H35.3   Pliuri ale maculei   [titlu: Degenerescenta maculei si polului posterior]  <Degeneration of macula and posterior pole>  ~ 
+? H44.0   Panoftalmia   [titlu: Endoftalmia purulenta]  <Purulent endophthalmitis>  ~ Anoftalmie
+? H47.2   Paloarea temporala a papilei optice   [titlu: Atrofia optica]  <Optic atrophy>  ~ 
+? H47.3   Pseudoedem papilar   [titlu: Alte afectiuni ale papilei optice]  <Other disorders of optic disc>  ~ Edem papilar
+? H52.5   Pareza de acomodare   [titlu: Tulburari de acomodare]  <Disorders of accommodation>  ~ Paralizia de acomodatie
+? H53.1   Pierderea subita a vederii   [titlu: Tulburari subiective de vedere]  <Subjective visual disturbances>  ~ 
+? H53.3   Perceptia simultana fara fuziune   [titlu: Alte tulburari de viziune binoculara]  <Other and unspecified disorders of binocular vision>  ~ 
+? H54     Perceperea luminii   [titlu: Cecitatea si scaderea vazului]  <Blindness and low vision>  ~ 
+? H70.2   petrosita   [titlu: Apexita [petrosita]]  <Petrositis>  ~ Petrozita | Periostita
+? H74.3   Pierderea partiala a oscioarelor urechii   [titlu: Alte anormalitati dobindite ale oscioarelor urechii]  <Other acquired abnormalities of ear ossicles>  ~ 
+? H83.2   Pierderea functiei labirintului   [titlu: Disfunctia labirintica]  <Labyrinthine dysfunction>  ~ 
+? H83.3   Pierderea auzului datorita zgomotului   [titlu: Consecintele zgomotului asupra urechii interne]  <Noise effects on inner ear>  ~ 
+? I01.8   Pancardita acuta reumatismala   [titlu: Alte boli cardiatice reumatismale acute]  <Other acute rheumatic heart disease>  ~ 
+? I05.8   Prolaps (valva) mitral   [titlu: Alte boli ale valvei mitrale]  <Other rheumatic mitral valve diseases>  ~ Prolaps de valva mitrala
+? I10     primara   [titlu: Hipertensiunea esentiala (primara)]  <Essential (primary) hypertension>  ~ 
+? I31.8   Placi epicardice   [titlu: Alte boli specificate ale pericardului]  <Other specified diseases of pericardium>  ~ 
+? I33.9   Pariendocardita acuta sau subacuta   [titlu: Endocardita acuta, nespecificata]  <Acute and subacute endocarditis, unspecified>  ~ 
+? I51.8   Pancardita (acuta) (cronica)   [titlu: Alte boli cardiace rau definite]  <Other ill-defined heart diseases>  ~ 
+? I87.2   periferica   [titlu: Insuficienta venoasa (cronica) (periferica)]  <Venous insufficiency (chronic) (peripheral)>  ~ 
+? J30.1   Polinoza   [titlu: Rinita alergica datorita polenului]  <Allergic rhinitis due to pollen>  ~ Caolinoza
+? J38.7   Pahidermia laringelui   [titlu: Alte boli ale laringelui]  <Other diseases of larynx>  ~ Laringita hiperplastica
+? J38.7   Perichondrita laringelui   [titlu: Alte boli ale laringelui]  <Other diseases of larynx>  ~ 
+? J63.0   pulmonara   [titlu: Aluminoza (pulmonara)]  <Aluminosis (of lung)>  ~ 
+? J63.1   pulmonara   [titlu: Fibroza (pulmonara) datorita bauxitei]  <Bauxite fibrosis (of lung)>  ~ 
+? J63.3   pulmonara   [titlu: Fibroza (pulmonara) datorita grafitului]  <Graphite fibrosis (of lung)>  ~ 
+? J67.1   Pneumopatia datorita prelucrarii trestiei de zahar   [titlu: Bagasoza]  <Bagassosis>  ~ 
+? J70.0   Pneumopatia prin iradiere   [titlu: Afectiuni pulmonare acute datorite iradierii]  <Acute pulmonary manifestations due to radiation>  ~ Pneumopatia de iradiere | Pneumonita de radiatii
+? J82     Pneumonia Löffler   [titlu: Eozinofilia pulmonara, neclasificata altundeva]  <Pulmonary eosinophilia, not elsewhere classified>  ~ 
+? J84.9   Pneumonia interstitiala   [titlu: Boala pulmonara interstitiala, nespecificata]  <Interstitial pulmonary disease, unspecified>  ~ Bronsiolita respiratorie asociata fumului | Fibroza pulmonara familiala | Pneumonie cu celule gigante | Pneumonie interstitiala asociata pneumoconiozei | Pneumonie interstitiala din colagenoze | Pneumonie interstitiala medicamentoasa
+? J90     Pleurita cu efuziune   [titlu: Revarsare pleurala, neclasificata altundeva]  <Pleural effusion, not elsewhere classified>  ~ 
+? J98.6   Paralizia diafragmului   [titlu: Bolile diafragmului]  <Disorders of diaphragm>  ~ 
+? K00.1   Paramolar   [titlu: Dinti supranumerari]  <Supernumerary teeth>  ~ 
+? K00.3   Pete de smalt neasociate fluorozei   [titlu: Dinti patati]  <Mottled teeth>  ~ 
+? K00.8   Pigmentatia intrinseca a dintilor   [titlu: Alte tulburari de odontogeneza]  <Other disorders of tooth development>  ~ 
+? K04.2   Pulpoliti   [titlu: Degenerescenta pulpara]  <Pulp degeneration>  ~ Pulpita dentara
+? K07.1   Prognatism (mandibular) (maxilar)   [titlu: Anomalii de raport intre maxilare si baza craniului]  <>  ~ Prognatism
+? K09.8   Perle Epstein   [titlu: Alte chisturi ale regiunii bucale, neclasificate altundeva]  <Other cysts of oral region, not elsewhere classified>  ~ 
+? K10.2   Periostita (acuta) (cronica) (supurativa)   [titlu: Afectiuni inflamatorii ale maxilarelor]  <>  ~ 
+? K12.0   Periadenita mucoasa necrotica recidivanta   [titlu: Afte bucale recidivante]  <Recurrent oral aphthae>  ~ 
+? K13.2   Palatul fumatorilor   [titlu: Leucoplazia si alte anomalii ale epiteliului bucal, inclusiv limba]  <Leukoplakia and other disturbances of oral epithelium, including tongue>  ~ 
+? K22.5   Punga esofagiana, dobandita   [titlu: Diverticul dobandit al esofagului]  <Diverticulum of esophagus, acquired>  ~ 
+? K62.8   Perforatia (nontraumatica) a rectului   [titlu: Alte boli specificate ale anusului si rectului]  <Other specified diseases of anus and rectum>  ~ 
+? K63.58  Polip hiperplazic   [titlu: Alt polip al colonului]  <>  ~ 
+? K65.8   Peritonita proliferativa cronica   [titlu: Alte peritonite]  <Other peritonitis>  ~ 
+? K75.1   Pileflebita   [titlu: Flebita venei porte]  <Phlebitis of portal vein>  ~ 
+? L00     Pemfigus neonatal   [titlu: Sindromul stafilococic al necrozei epidermice toxice]  <Staphylococcal scalded skin syndrome>  ~ 
+? L02.2   Perete abdominal   [titlu: Abces cutanat, furuncul si furuncul antracoid al trunchiului]  <Cutaneous abscess, furuncle and carbuncle of trunk>  ~ Dehiscence de perete abdominal | Hernie inghinala | Hernie lombara | Hernie Richter
+? L02.2   Perete toracic   [titlu: Abces cutanat, furuncul si furuncul antracoid al trunchiului]  <Cutaneous abscess, furuncle and carbuncle of trunk>  ~ 
+? L02.2   Perineu   [titlu: Abces cutanat, furuncul si furuncul antracoid al trunchiului]  <Cutaneous abscess, furuncle and carbuncle of trunk>  ~ 
+? L03.0   Perionichia   [titlu: Celulita degetelor de la maini si picioare]  <Cellulitis and acute lymphangitis of finger and toe>  ~ 
+? L03.11  Picior   [titlu: Celulita membrului inferior]  <Cellulitis of other parts of limb>  ~ 
+? L03.3   Perete abdominal   [titlu: Celulita trunchiului]  <Cellulitis and acute lymphangitis of trunk>  ~ Dehiscence de perete abdominal | Hernie inghinala | Hernie lombara | Hernie Richter
+? L03.3   Perete toracic   [titlu: Celulita trunchiului]  <Cellulitis and acute lymphangitis of trunk>  ~ 
+? L03.3   Perineu   [titlu: Celulita trunchiului]  <Cellulitis and acute lymphangitis of trunk>  ~ 
+? L23.5   Plastic   [titlu: Dermatita alergica de contact datorita produselor chimice]  <Allergic contact dermatitis due to other chemical products>  ~ 
+? L26     Pityriasis Hebra   [titlu: Dermatita exfoliativa]  <Exfoliative dermatitis>  ~ Pitiriazis rozat
+? L40.8   Psoriazis flexural   [titlu: Alte forme de psoriazis]  <Other psoriasis>  ~ 
+? L57.8   Piele de fermier   [titlu: Alte modificari ale pielii datorite expunerii cronice la raze neionizante]  <Other skin changes due to chronic exposure to nonionizing radiation>  ~ 
+? L57.8   Piele de marinar   [titlu: Alte modificari ale pielii datorite expunerii cronice la raze neionizante]  <Other skin changes due to chronic exposure to nonionizing radiation>  ~ Cheratoza foliculara
+? L67.1   Par gri (prematur)   [titlu: Anomalii de culoare a parului]  <Variations in hair color>  ~ 
+? L81.8   Pigmentatie datorita fierului   [titlu: Alte anomalii specificate ale pigmentatiei]  <Other specified disorders of pigmentation>  ~ 
+? L81.8   Pigmentatia prin tatuaj   [titlu: Alte anomalii specificate ale pigmentatiei]  <Other specified disorders of pigmentation>  ~ 
+? L83     Papilomatoza reticulata si confluenta   [titlu: Acanthosis nigricans]  <Acanthosis nigricans>  ~ 
+? L85.2   palmara si plantara   [titlu: Keratoza punctata (palmara si plantara)]  <Keratosis punctata (palmaris et plantaris)>  ~ 
+? M03.6   Poliartropatii inflamatorii   [titlu: Artropatia de reactie in alte boli clasificate altundeva]  <>  ~ 
+? M12.2   pigmentara   [titlu: Sinovita villonodulara (pigmentara)]  <Villonodular synovitis (pigmented)>  ~ 
+? M15.3   Poliartroza post-traumatica   [titlu: Artroza secundara multipla]  <Secondary multiple arthritis>  ~ Artroza posttraumatica
+? M32.1   Pericardita lupica   [titlu: Lupus eritematos sistemic cu atingerea unor organe sau sisteme]  <Systemic lupus erythematosus with organ or system involvement>  ~ Pericardita uremica | Endocardita Libman-Sacks | Pericardita reumatica
+? M36.0   poli   [titlu: Dermato(poli)miozita in boli neoplazice (C00-D48†)]  <Dermato(poly)myositis in neoplastic disease>  ~ Poliomielita
+? M46.3   piogena   [titlu: Infectia (piogena) a unui disc intervertebral]  <Infection of intervertebral disc (pyogenic)>  ~ 
+? M60.0   Piomiozita tropicala   [titlu: Miozita infectioasa]  <Infective myositis>  ~ 
+? M62.3   paraplegica   [titlu: Sindromul de imobilitate (paraplegica)]  <Immobility syndrome (paraplegic)>  ~ 
+? M75.0   Periartrita umarului   [titlu: Capsulita rectractila a umarului]  <Adhesive capsulitis of shoulder>  ~ Artrita umarului | Artroza umarului
+? M76.4   Pellegrini-Stieda   [titlu: Bursita tibiala colaterala [Pellegrini-Stieda]]  <Tibial collateral bursitis [Pellegrini-Stieda]>  ~ 
+? M84.1   pseudoartroza   [titlu: Fractura neconsolidata [pseudoartroza]]  <>  ~ 
+? M86.9   Periostita fara mentionarea osteomielitei   [titlu: Osteomielita, nespecificata]  <Osteomyelitis, unspecified>  ~ 
+? N11.8   Pielonefrita cronica neobstructiva   [titlu: Alta nefrita tubulo-interstitiala cronica]  <Other chronic tubulo-interstitial nephritis>  ~ Bronsita cronica obstructiva
+? N20.1   Piatra ureterala   [titlu: Litiaza ureterului]  <Calculus of ureter>  ~ Litiaza de ureter
+? N20.9   Pielonefrita cu litiaza   [titlu: Litiaza urinara, nespecificata]  <Urinary calculus, unspecified>  ~ Pielonefrita
+? N28.8   Pielita chistica   [titlu: Alte tulburari specificate ale rinichiului si ureterului]  <Other specified disorders of kidney and ureter>  ~ 
+? N28.8   Pieloureterita chistica   [titlu: Alte tulburari specificate ale rinichiului si ureterului]  <Other specified disorders of kidney and ureter>  ~ 
+? N42.0   Piatra prostatica   [titlu: Calculul prostatei]  <Calculus of prostate>  ~ Calculi prostatici | Atrofie de prostata
+? N47     Preput aderent   [titlu: Hipertrofia preputului, fimoza, parafimoza]  <Disorders of prepuce>  ~ 
+? N47     Pielea anterioara stransa si aderenta de preput   [titlu: Hipertrofia preputului, fimoza, parafimoza]  <Disorders of prepuce>  ~ 
+? N81.1   Prolaps al (peretelui) vaginal (anterior)   [titlu: Cistocel]  <Cystocele>  ~ Prolaps vaginal
+? N81.6   Prolaps al peretelui vaginal posterior   [titlu: Rectocel]  <Rectocele>  ~ Prolaps vaginal
+? O11     Pre-eclampsie supra-adaugata   [titlu: Tulburare hipertensiva preexistenta cu proteinurie supra-adaugata]  <Pre-existing hypertension with pre-eclampsia>  ~ Preeclampsie suprapusa
+? O13     Pre-eclampsie usoara   [titlu: Hipertensiune gestationala [indusa de sarcina] fara proteinurie semnificativa]  <Gestational [pregnancy-induced] hypertension without significant proteinuria>  ~ Preeclampsie severa
+? O26.7   pubiene   [titlu: Subluxatia simfisei (pubiene) in sarcina, nastere si lauzie]  <Subluxation of symphysis (pubis) in pregnancy, childbirth and the puerperium>  ~ 
+? O29.0   Pneumonia prin aspiratie datorita unei anestezii in cursul sarcinii   [titlu: Complicatiile pulmonare ale unei anestezii in timpul sarcinii]  <Pulmonary complications of anesthesia during pregnancy>  ~ Pneumonie prin aspiratie
+? O41.1   Placentita   [titlu: Infectia sacului amniotic si a membranelor]  <Infection of amniotic sac and membranes>  ~ 
+? O43.1   Placenta anormala   [titlu: Malformatia placentei]  <Malformation of placenta>  ~ 
+? O43.1   Placenta circumvalata   [titlu: Malformatia placentei]  <Malformation of placenta>  ~ 
+? O72.0   perioada a treia   [titlu: Hemoragia dupa nastere (perioada a treia)]  <Third-stage hemorrhage>  ~ 
+? O89.0   Pneumopatia prin aspiratie datorita unei anestezii in timpul lauziei   [titlu: Complicatii pulmonare ale anesteziei in timpul lauziei]  <Pulmonary complications of anesthesia during the puerperium>  ~ 
+? O90.8   Polip placentar   [titlu: Alte complicatii puerperale, neclasificate altundeva]  <Other complications of the puerperium, not elsewhere classified>  ~ 
+? P01.7   Prezentatie pelvina inainte de travaliu   [titlu: Fat si nou-nascut afectati de prezentatia anormala inainte de travaliu]  <Newborn affected by malpresentation before labor>  ~ 
+? P01.7   Prezentatia fetei inainte de travaliu   [titlu: Fat si nou-nascut afectati de prezentatia anormala inainte de travaliu]  <Newborn affected by malpresentation before labor>  ~ 
+? P01.7   Pozitie transversa inainte de travaliu   [titlu: Fat si nou-nascut afectati de prezentatia anormala inainte de travaliu]  <Newborn affected by malpresentation before labor>  ~ 
+? P01.7   Pozitie instabila inainte de travaliu   [titlu: Fat si nou-nascut afectati de prezentatia anormala inainte de travaliu]  <Newborn affected by malpresentation before labor>  ~ 
+? P02.1   Pierdere de sange matern   [titlu: Fat si nou-nascut afectati de alte forme de dezlipire si hemoragie placentara [abruptio placentae]]  <Newborn affected by other forms of placental separation and hemorrhage>  ~ Hemoragie
+? P02.6   Procidenta vaselor cordonului   [titlu: Fat si nou-nascut afectati de alte afectiuni ale cordonului ombilical si nespecificate]  <Newborn affected by other and unspecified conditions of umbilical cord>  ~ Prolaps de cordon ombilical
+? P02.7   Placentita   [titlu: Fat si nou-nascut afectati de chorio-amnionita]  <Newborn affected by chorioamnionitis>  ~ 
+? P03.1   Pelvis stramt   [titlu: Fat si nou-nascut afectati de alte prezentatii si pozitii vicioase ale fatului si disproportii feto-pelviene in cursul travaliului si nasterii]  <Newborn affected by other malpresentation, malposition and disproportion during labor and delivery>  ~ 
+? P03.1   Prezentatie occipito-posterioara persistenta   [titlu: Fat si nou-nascut afectati de alte prezentatii si pozitii vicioase ale fatului si disproportii feto-pelviene in cursul travaliului si nasterii]  <Newborn affected by other malpresentation, malposition and disproportion during labor and delivery>  ~ 
+? P03.1   Prezentatia transversa   [titlu: Fat si nou-nascut afectati de alte prezentatii si pozitii vicioase ale fatului si disproportii feto-pelviene in cursul travaliului si nasterii]  <Newborn affected by other malpresentation, malposition and disproportion during labor and delivery>  ~ 
+? P11.3   Paralizia faciala datorita traumatismului la nastere   [titlu: Leziunea nervului facial datorita traumatismului la nastere]  <Birth injury to facial nerve>  ~ Paralizie faciala | Traumatism obstetric
+? P24.0   Pneumopatia datorita meconiumului   [titlu: Aspiratia de meconiu in perioada neonatala]  <Meconium aspiration>  ~ 
+? P24.9   Pneumonia neonatala de aspiratie   [titlu: Sindrom de aspiratie in perioada neonatala, nespecificat]  <Neonatal aspiration, unspecified>  ~ Pneumonie congenitala | Pneumonie prin aspiratie | Sindrom de aspiratie neonatala
+? P27.8   Pulmon de ventilatie a nou-nascutului   [titlu: Alte boli respiratorii cronice survenind in perioada perinatala]  <Other chronic respiratory diseases originating in the perinatal period>  ~ 
+? P35.0   Pneumopatia rubeolei congenitale   [titlu: Sindrom de rubeola congenitala]  <Congenital rubella syndrome>  ~ Rubeola
+? P39.4   Piodermia neonatala   [titlu: Infectia neonatala a pielii]  <Neonatal skin infection>  ~ Hipotermie neonatala
+? P54.5   Petesii la fat sau nou-nascut   [titlu: Hemoragia cutanata neonatala]  <Neonatal cutaneous hemorrhage>  ~ 
+? P54.6   Pseudomenstruatia   [titlu: Hemoragia vaginala neonatala]  <Neonatal vaginal hemorrhage>  ~ 
+? P78.1   Peritonita neonatala   [titlu: Alte peritonite neonatale]  <Other neonatal peritonitis>  ~ Peritonita meconiala
+? Q04.35  Poligiria   [titlu: Microgiria si pahigiria]  <>  ~ 
+? Q17.4   Pozitia joasa a urechii   [titlu: Anomalia de pozitie a urechii]  <Misplaced ear>  ~ 
+? Q18.2   Pavilion cervical   [titlu: Alte malformatii ale fisurii branhiale]  <Other branchial cleft malformations>  ~ 
+? Q18.3   Pterigium colli   [titlu: Gat membranat]  <Webbing of neck>  ~ Pterigium cervical
+? Q20.3   Pozitionare la dreapta aortei   [titlu: Comunicatie ventriculo-auriculara discordanta]  <Discordant ventriculoarterial connection>  ~ 
+? Q21.8   Pentalogia Fallot   [titlu: Alte malformatii congenitale ale septurilor cardiace]  <Other congenital malformations of cardiac septa>  ~ Tetralogia Fallot
+? Q26.8   Persistenta venei cardinale posterioare stangi   [titlu: Alte malformatii congenitale ale venelor mari]  <Other congenital malformations of great veins>  ~ 
+? Q39.6   Punga esofagiana   [titlu: Diverticul al esofagului]  <Congenital diverticulum of esophagus>  ~ 
+? Q39.82  Pseudo-obstructia esofagului   [titlu: Dismotilitate esofagiana]  <>  ~ 
+? Q45.39  Pancreas accesoriu   [titlu: Alte malformatii congenitale ale pancreasului si canalului pancreatic]  <>  ~ 
+? Q45.81  partiala   [titlu: Absenta (completa) (partiala) a cailor digestive, neclasificate altundeva]  <>  ~ 
+? Q55.29  Poliorhism   [titlu: Alte malformatii congenitale ale testiculelor si scrotului]  <Other congenital malformations of testis and scrotum>  ~ 
+? Q64.49  Prolaps al uracei   [titlu: Alte malformatii specificate ale uracei]  <>  ~ 
+? Q66.8   Picior in forma de maciuca   [titlu: Alte deformatii congenitale ale piciorului]  <Other congenital deformities of feet>  ~ 
+? Q74.08  Proeminenta congenitala a scapulei   [titlu: Deformatia Sprengel]  <>  ~ Sindrom Sprengel
+? Q74.09  Pseudoartroza congenitala a claviculei   [titlu: Alte malformatii congenitale ale membrului(lor) superior(oare), inclusiv centura humerala]  <>  ~ 
+? Q75.89  Platibazia   [titlu: Alte malformatii congenitale specificate ale craniului si oaselor fetei]  <>  ~ 
+? Q82.8   Pemfigus benign familial [Hailey-Hailey]   [titlu: Alte malformatii congenitale specificate ale pielii]  <Other specified congenital malformations of skin>  ~ Boala Hailey-Hailey
+? Q84.1   Par perlat   [titlu: Tulburari morfologice congenitale ale parului, neclasificate altundeva]  <Congenital morphological disturbances of hair, not elsewhere classified>  ~ 
+? Q84.1   Pili inelati   [titlu: Tulburari morfologice congenitale ale parului, neclasificate altundeva]  <Congenital morphological disturbances of hair, not elsewhere classified>  ~ 
+? Q84.1   Pili turtiti   [titlu: Tulburari morfologice congenitale ale parului, neclasificate altundeva]  <Congenital morphological disturbances of hair, not elsewhere classified>  ~ 
+? Q84.5   Pachionichia   [titlu: Unghii marite sau hipertrofice]  <Enlarged and hypertrophic nails>  ~ 
+? Q87.12  Pitic Amsterdam [sindromul Brachmann-de Lange]   [titlu: Sindromul Cornelia de Lange]  <>  ~ Sindrom Cornelia de Lange
+? Q91     Patau   [titlu: Sindromul Edwards si sindromul]  <Trisomy 18 and Trisomy 13>  ~ Trisomia 13
+= A70     Psittacosis  -> Psitacoza
+= B35.3   Picior de atlet  -> Micoza piciorului
+= B65.3   Pruritul inotatorilor  -> Dermatita schistosomica
+= E22.8   Pubertate precoce centrala  -> Pubertate precoce centrala
+= E34.8   Progeria  -> Progeria
+= E52     pelagra  -> Pelagra
+= F28     Psihoza halucinatorie cronica  -> Psihoza halucinatorie
+= F63.1   piromanie  -> Piromanie
+= F84.1   Psihoza infantila atipica  -> Autism atipic
+= G20     Paralizia agitanta  -> Boala Parkinson
+= H53.5   Protanomalia  -> Protanopie
+= H53.5   Protanopia  -> Protanopie
+= I31.9   Pericardita (cronica)  -> Pericardita
+= J34.8   Perforatia septului nazal  -> Perforatie de sept nazal
+= K11.7   Ptialism  -> Hipersalivatie
+= K59.4   Proctalgia fugace  -> Proctalgie fugace
+= K62.8   Proctita  -> Proctita
+= L03.0   Paronichia  -> Paronichie
+= L30.1   pompholyx  -> Dermatita disidrozica
+= L66     pierdere de par cicatriciala  -> Alopecie cicatriciala
+= M31.1   Purpura trombocitopenica trombotica  -> Purpura trombocitopenica trombotica
+= M77.9   Periartrita  -> Periartrita
+= M89.4   Pahidermoperiostoza  -> Pahidermoperiostoza
+= N12     Pielita  -> Pielita
+= N12     Pielonefrita  -> Pielonefrita
+= N20.0   Piatra la rinichi  -> Calculi renali
+= N41.9   Prostatita  -> Prostatita
+= N92.0   Polimenoree  -> Polimenoree
+= P08.2   Postmaturitate  -> Sarcina depasita
+= Q04.60  Porencefalia  -> Porencefalie
+= Q20.0   Persistenta canalului arterial  -> Persistenta canalului arterial
