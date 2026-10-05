@@ -27,10 +27,11 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 | **Index lexical** | Găsește expresiile căutate, ca fraze exacte, prin `tsvector` în Postgres. |
 | **Scor combinat** | Fiecare fragment primește un singur scor, din semnalele pe care pacientul le bifează în „Căutare avansată” (afecțiuni, lexical, semantic). Cu toate trei: `4·P1 + 2·P2 + L + V` (afecțiune în titlu › afecțiune în text › potrivire lexicală › potrivire semantică), calculat într-o singură interogare SQL. |
 | **Fragmentare pe afecțiuni** | Împarte documentele în fragmente R1 (afecțiunea în titlul capitolului), R2 (afecțiunea în textul capitolului) și D1 (restul textului), folosind dicționarul `data/medical_conditions.jsonl`. |
-| **Retriever medical** | Ordonează fragmentele după scorul combinat și păstrează, întregi, cele care încap în bugetul de context al furnizorului AI. |
+| **Filtrare pe surse** | În același panou „Căutare avansată”, căutarea poate fi restrânsă la anumite foldere din `data/documents/` (categoria unui document este folderul lui). |
+| **Retriever medical** | Ordonează fragmentele după scorul combinat și păstrează, întregi, cele care încap în bugetul de context al furnizorului AI. Lângă „Generează rețeta”, „Scor minim” (procent de relevanță) limitează fragmentele trimise către AI. |
 | **Chat web** | Oferă sesiuni izolate pe tab și afișează recomandările structurate. |
 | **Raport PDF** | Include recomandări, atenționări, citări și bibliografie navigabilă. |
-| **Livrare e-mail** | Poate trimite raportul prin Gmail API cu OAuth2, dacă este configurat. |
+| **Livrare e-mail** | După generare, poate trimite raportul prin Gmail API cu OAuth2 la adresa scrisă de utilizator în chat, dacă este configurat. |
 
 ## 🎨 Cum funcționează
 
@@ -80,7 +81,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 
 ```text
 medicina-naturista/
-├── architecture/                 # documentația fluxurilor principale
+├── architecture/                 # documentația fluxurilor principale și planurile de lucru (plan-*.md)
 ├── data/
 │   ├── documents/                # corpusul Markdown local
 │   ├── medical_conditions.jsonl  # dicționarul de afecțiuni și sinonime
@@ -98,7 +99,12 @@ medicina-naturista/
 │   │   ├── build_hybrid_index.py     # sincronizarea incrementală a indexului în Postgres
 │   │   ├── search_index.ps1          # căutare locală din terminal
 │   │   ├── clean_documents.py/.ps1   # curățarea surselor Markdown înainte de indexare
+│   │   ├── fix_spelling.py           # corectarea erorilor OCR/de scriere (dicționar Hunspell ro_RO; --apply)
 │   │   ├── fragment_report.py        # simularea fragmentării, fără bază de date
+│   │   ├── audit_conditions.py       # audit read-only al dicționarului de afecțiuni
+│   │   ├── audit_near_dupes.py       # afecțiuni canonice aproape duplicate (read-only)
+│   │   ├── audit_herbs.py            # raport read-only despre herbs.jsonl (în tmp/herbs_review.md)
+│   │   ├── icd10_work/               # scripturi one-off pentru completarea dicționarului după ICD-10
 │   │   ├── evaluate_retrieval.py     # măsurarea calității căutării (P@10, MRR, nDCG)
 │   │   ├── google_oauth_setup.py     # autorizare Gmail OAuth2
 │   │   ├── extract_pdf_text.py       # extragerea textului din PDF
@@ -106,9 +112,11 @@ medicina-naturista/
 │   │   ├── text_to_markdown.py       # conversia textului în Markdown
 │   │   └── merge_book_pdfs.py        # combinarea părților de carte PDF
 │   └── tests/                    # teste unitare și de integrare
+├── Caddyfile
 ├── docker-compose.yaml
 ├── Dockerfile
-└── pyproject.toml
+├── pyproject.toml
+└── requirements-web.txt          # dependențele aplicației (include requirements-lock.txt)
 ```
 
 ## 🚀 Pornire rapidă
@@ -130,19 +138,21 @@ Plasați documentele sursă în `data/documents/`. Nu publicați corpusul dacă 
 
 Înlocuirea diacriticelor e activă implicit; `.\src\scripts\clean_documents.ps1 -KeepDiacritics` (sau `--no-fold-diacritics`) le păstrează.
 
-Aveți nevoie de un Postgres cu extensia `pgvector` pornit și accesibil la `DATABASE_URL` (implicit `postgresql://medicina:medicina@127.0.0.1:5432/medicina`); cel mai simplu e `docker compose up -d db`.
+Aveți nevoie de un Postgres cu extensia `pgvector` pornit și accesibil la `DATABASE_URL` (implicit `postgresql://medicina:medicina@127.0.0.1:5432/medicina`); cel mai simplu e `docker compose up -d db`, care cere `POSTGRES_PASSWORD` în `.env` (utilizatorul și baza sunt implicit `medicina`), deci `DATABASE_URL` trebuie să folosească aceeași parolă.
 
 ### 2. Sincronizarea indexului
 
 ```powershell
+$env:PYTHONPATH = "src"
 python src\scripts\build_hybrid_index.py
 ```
 
-Baza vine din `DATABASE_URL` (`.env`); `--model` și `--source` sunt opționale. Scriptul pornește cu pythonul din care îl rulezi (pe CPU, fără alt mediu); pe GPU vezi mai jos.
+Scriptul importă pachetul `backend`, deci are nevoie de `PYTHONPATH=src`. Baza vine din `DATABASE_URL` (`.env`); `--model` și `--source` sunt opționale. Scriptul pornește cu pythonul din care îl rulezi (pe CPU, fără alt mediu); pe GPU vezi mai jos.
 
 Modelul de embedding este `Qwen/Qwen3-Embedding-0.6B` (vectori de 1024 de dimensiuni); alt model nu este cunoscut de cod. Căutarea citește modelul din `sync_metadata` și scrie întrebările după profilul lui (`ai/embedding_model.py`: instrucțiunea Qwen la întrebare, fără prefix la pasaje). **Dacă baza conține un index făcut cu alt model sau cu altă dimensiune, următorul build reîncorporează toate documentele**, iar coloana `chunks.embedding` este recreată și indexul golit (doar scriptul de build face asta, niciodată aplicația). Pe un PC cu GPU, indexarea durează ~17 minute în loc de ore; rulează din mediul `.venv-gpu`, care are `torch`:
 
 ```powershell
+$env:PYTHONPATH = "src"
 $env:EMBEDDING_DEVICE = 'cuda'
 .\.venv-gpu\Scripts\python src\scripts\build_hybrid_index.py
 ```
@@ -194,7 +204,7 @@ Construiți interfața React (FastAPI servește `src/frontend/dist`):
 cd src/frontend
 npm install
 npm run build
-cd ..
+cd ..\..
 ```
 
 Apoi porniți aplicația:
@@ -208,6 +218,21 @@ Deschideți o dată `http://127.0.0.1:7860/owner?key=<OWNER_KEY>`, ca browserul 
 
 Pentru dezvoltarea interfeței cu reîncărcare automată, rulați `npm run dev` în `src/frontend/`: Vite servește interfața și trimite `/api`, `/healthz` și `/owner` către backend-ul de pe portul 7860.
 
+API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; documentația OpenAPI (`/docs`) este dezactivată. Cererile `/api/...` cu sesiune trimit antetul `X-Tab-Id` (identificatorul tabului).
+
+| Endpoint | Rol |
+|---|---|
+| `GET /healthz` | Starea aplicației; 503 dacă lipsește cheia furnizorului AI activ. |
+| `GET /owner?key=<OWNER_KEY>` | Marchează browserul ca owner (cookie), apoi redirecționează la pagina principală; 404 la cheie greșită. |
+| `GET /api/session` | Creează sesiunea tabului și întoarce istoricul conversației. |
+| `GET /api/categories` | Arborele categoriilor (folderele surselor) și selecția implicită (toate). |
+| `POST /api/messages` | Salvează mesajul, categoriile și semnalele alese; dacă există deja un raport, o adresă de e-mail trimite raportul. |
+| `POST /api/condition` | Identifică prin AI afecțiunea pe care dicționarul nu o cunoaște (`CONDITION_AI_BACKENDS`). |
+| `POST /api/search` | Rulează căutarea și întoarce fragmentele găsite și secțiunea „Generează rețeta”. |
+| `POST /api/searches/{search_id}/generate` | Doar owner: trimite către AI fragmentele cu relevanța ≥ `minScore` și generează PDF-ul. |
+| `GET /api/reports/{tab_id}/{report_id}` | Descarcă PDF-ul generat în sesiunea tabului. |
+| `POST /api/session/end`, `POST /api/session/unload` | Închid sesiunea tabului (la cerere, respectiv la închiderea paginii). |
+
 ## 📦 Schema indexului hibrid (Postgres)
 
 Sincronizarea scrie în trei tabele:
@@ -215,7 +240,7 @@ Sincronizarea scrie în trei tabele:
 | Tabel | Conținut |
 |---|---|
 | `documents` | Un rând per fișier sursă: cale, SHA-256, codificare, număr de linii; categoria (folderul) este o coloană generată din cale. Folosit și pentru a decide ce fișiere sar la sincronizarea următoare. |
-| `chunks` | Un rând per fragment: text, interval de linii, calea titlurilor (`heading`), `business_category` (`R1`/`R2`/`D1`), `primary_medical_conditions`, `secondary_medical_conditions`, vectorul semantic (`embedding vector(1024)`) și coloana lexicală (`text_search tsvector`). |
+| `chunks` | Un rând per fragment: text, interval de linii, calea titlurilor (`heading`), categoria generată din cale (`category_id`, folosită de filtrarea pe surse), `business_category` (`R1`/`R2`/`D1`), `primary_medical_conditions`, `secondary_medical_conditions`, vectorul semantic (`embedding vector(1024)`) și coloana lexicală (`text_search tsvector`). |
 | `sync_metadata` | Modelul de embeddings, dimensiunea vectorilor, versiunea reprezentării textului și data ultimei sincronizări. |
 
 Un document al cărui SHA-256 nu s-a schimbat este complet ignorat la sincronizare; un document nou sau modificat își înlocuiește fragmentele într-o singură tranzacție.
@@ -230,13 +255,13 @@ Fragmentarea (`src/backend/ai/fragmenter.py`) folosește dicționarul `data/medi
 
 Afecțiunile se caută pe cuvinte întregi, fără diacritice și majuscule, cu toleranță la terminațiile românești (`gripa`/`gripei`). Numele fișierului și al folderelor nu se compară cu afecțiunile. Fragmentele R1 și R2 primesc `primary_medical_conditions` (afecțiunile din titlu) și `secondary_medical_conditions` (afecțiunile din text); D1 nu are afecțiuni. R1 și R2 nu au limită de lungime.
 
-La căutare, fiecare fragment primește scorul `4·P1 + 2·P2 + L + V` (maximum 8, cu toate semnalele bifate): P1 = afecțiunea căutată este în `primary_medical_conditions`, P2 = este în `secondary_medical_conditions`, L = fracțiunea de expresii (separate prin virgulă) regăsite în fragment, V = similaritatea semantică rescalată între mediana și maximul căutării. Pacientul poate debifa semnale în panoul „Setează sursele”, iar formula se adaptează (de exemplu `L + V` sau doar `2·P1 + P2`). Scorul nu se stochează în DB; detaliile sunt în [fragment-search-and-scoring.md](architecture/fragment-search-and-scoring.md).
+La căutare, fiecare fragment primește scorul `4·P1 + 2·P2 + L + V` (maximum 8, cu toate semnalele bifate): P1 = afecțiunea căutată este în `primary_medical_conditions`, P2 = este în `secondary_medical_conditions`, L = fracțiunea de expresii (separate prin virgulă) regăsite în fragment, V = similaritatea semantică rescalată între mediana și maximul căutării. Pacientul poate debifa semnale în panoul „Căutare avansată”, iar formula se adaptează (de exemplu `L + V` sau doar `2·P1 + P2`). Scorul nu se stochează în DB; detaliile sunt în [fragment-search-and-scoring.md](architecture/fragment-search-and-scoring.md).
 
 Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit în ferestre care se suprapun cu 240, iar vectorii lor se mediază (valorile, dimensiunea vectorilor și prefixele de text ale fiecărui model sunt în profilul lui din `ai/embedding_model.py`). Diacriticele sunt păstrate prin normalizare Unicode NFC.
 
 ## 🐳 Rulare cu Docker Compose
 
-Înainte de pornire, trebuie să existe `data/documents/`, `data/model_cache/` (cu modelul deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) pornește automat împreună cu restul stivei și este expus doar pe `127.0.0.1:5432`, astfel încât indexul se sincronizează de pe host cu `python src/scripts/build_hybrid_index.py`.
+Înainte de pornire, trebuie să existe `data/documents/`, `data/model_cache/` (cu modelul deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Stiva are patru servicii: `db`, `ollama`, `app` și `caddy`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) este expus doar pe `127.0.0.1:5432` (`DB_HOST_PORT`), astfel încât indexul se sincronizează de pe host cu `python src/scripts/build_hybrid_index.py` (cu `PYTHONPATH=src` și un `DATABASE_URL` spre `127.0.0.1` cu parola `POSTGRES_PASSWORD`). Serviciul `ollama` rulează modelul local de identificare a afecțiunii (`CONDITION_AI_LOCAL_BASE=http://ollama:11434/v1`), este accesibil doar din rețeaua internă, rezervă GPU-urile NVIDIA (`deploy.resources.reservations`) și are nevoie ca modelul să fie descărcat o dată: `docker compose exec ollama ollama pull gemma3:1b`.
 
 ```powershell
 docker compose build
@@ -247,14 +272,14 @@ Invoke-WebRequest http://localhost:8760/healthz
 
 Aplicația este publicată pe host la `127.0.0.1:8760` (`APP_HOST_PORT`; în container rămâne portul 7860, iar 8760 evită intervalul de porturi rezervat de Windows) și, prin Caddy, pe porturile 80/443. Rulează într-un container read-only, fără capabilități Linux suplimentare, ca utilizator non-root. Documentele sunt montate read-only, iar fișierele temporare folosesc `tmpfs`. Indexul locuiește în Postgres (volum named `pg_data`), nu mai e nevoie de bind-mount sau de oprirea aplicației la resincronizare.
 
-Oprire fără ștergerea stării Caddy:
+Oprire fără ștergerea volumelor:
 
 ```powershell
 docker compose down
 ```
 
 > [!WARNING]
-> `docker compose down -v` șterge volumele Caddy, inclusiv starea și certificatele gestionate de acesta.
+> `docker compose down -v` șterge toate volumele named: indexul din Postgres (`pg_data`), modelele Ollama (`ollama_models`) și starea și certificatele Caddy (`caddy_data`, `caddy_config`).
 
 Pentru publicare, `APP_DOMAIN` conține doar hostname-ul. Cu ngrok, folosiți `CADDY_SITE_SCHEME=http` și tunelul către portul `80`. Pentru un domeniu administrat direct de server, folosiți `CADDY_SITE_SCHEME=https` și configurați DNS-ul și porturile 80/443.
 
@@ -313,7 +338,11 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `LOG_FRAGMENT_TEXT_MAX_CHARS` | `4000` | Limita textului logat per fragment. |
 | `LOG_AI_RESPONSE_TEXT` | `false` | Include în loguri textul complet al răspunsului AI, fără limită. |
 | `APP_HOST_PORT` | `8760` (Docker Compose) | Portul de pe host la care Compose publică aplicația. |
-| `PUBLIC_ROOT_PATH` | gol (direct) / `/medicina` (Docker Compose) | Prefixul căii publice, necesar când aplicația este expusă prin Caddy sub `/medicina` (folosit și la build-ul frontend-ului, ca `PUBLIC_BASE_PATH`). |
+| `POSTGRES_PASSWORD` | — (obligatoriu în Docker Compose) | Parola Postgres a serviciului `db`; Compose construiește din ea `DATABASE_URL` pentru aplicație. |
+| `POSTGRES_USER` / `POSTGRES_DB` | `medicina` / `medicina` (Docker Compose) | Utilizatorul și baza serviciului `db`. |
+| `DB_HOST_PORT` | `5432` (Docker Compose) | Portul de pe host (doar `127.0.0.1`) la care Compose publică Postgres. |
+| `APP_DOMAIN` / `CADDY_SITE_SCHEME` | `localhost` / `http` (Docker Compose) | Hostname-ul și schema site-ului servit de Caddy. |
+| `PUBLIC_ROOT_PATH` | gol (direct) / `/medicina` (Docker Compose) | Prefixul căii publice, necesar când aplicația este expusă de un reverse proxy sub `/medicina`: intră în linkul de descărcare a PDF-ului și, la build-ul imaginii, devine `PUBLIC_BASE_PATH` pentru frontend. |
 | `FRONTEND_DIST_DIR` | `src/frontend/dist` | Directorul cu build-ul React servit ca fișiere statice de FastAPI. |
 | `TRUST_PROXY` | `false` (direct) / `true` (Docker Compose) | Folosește primul IP din `X-Forwarded-For` pentru limitarea cererilor când traficul vine prin proxy de încredere. |
 
@@ -349,10 +378,10 @@ Este solicitat numai scope-ul `gmail.send`. Tokenul nu este afișat și nu trebu
 
 ## 🧪 Testare
 
-Testele care ating indexul pornesc un Postgres efemer (`pgvector/pgvector:pg16`) prin `testcontainers`, deci au nevoie de Docker pornit și de dependența de dezvoltare:
+Testele care ating indexul pornesc un Postgres efemer (`pgvector/pgvector:pg16`) prin `testcontainers`, deci au nevoie de Docker pornit și de dependența de dezvoltare. Testele PDF citesc rapoartele cu `pypdf`, prezent în `pyproject.toml`, dar nu și în `requirements-web.txt`:
 
 ```powershell
-.\.venv\Scripts\python.exe -m pip install "testcontainers[postgres]>=4,<5"
+.\.venv\Scripts\python.exe -m pip install "testcontainers[postgres]>=4,<5" "pypdf>=6,<7"
 ```
 
 Rulați întreaga suită backend:
