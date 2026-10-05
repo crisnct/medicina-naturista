@@ -5131,6 +5131,7 @@
 {"name": "Talasemie minor", "synonyms": ["talasemie minora usoara", "anemie talasemica minora", "talasemie minora cu anemie usoara", "thalassemia minor", "minor thalassemia", "mild thalassemic anemia"]}
 {"name": "Talkoza", "synonyms": ["pneumoconioza cu talc", "plaman de talc", "talkoza pulmonara", "talcosis", "talc pneumoconiosis", "talcum powder lung disease"]}
 {"name": "Tamponada cardiaca", "synonyms": ["tamponada pericardica", "compresie cardiaca prin lichid pericardic", "sindrom de tamponada", "cardiac tamponade", "pericardial tamponade", "tamponade"]}
+{"name": "Tartru dentar", "synonyms": ["depozite pe dinti", "calcul dentar", "piatra pe dinti", "deposits on teeth", "dental calculus", "tartar", "tooth tartar"]}
 {"name": "Telangiectazie", "synonyms": ["telangiectazii", "dilatatii capilare vizibile", "angiectazie", "telangiectasia", "spider veins", "capillary dilatation", "Telangiectazia", "capilare dilatate", "vene mici dilatate", "dilated capillaries"]}
 {"name": "Telangiectazie intestinala", "synonyms": ["telangiectazii intestinale", "ectazie vasculara intestinala", "leziune vasculara intestinala", "intestinal telangiectasia", "telangiectasia of the intestine", "intestinal vascular ectasia"]}
 {"name": "Telarha prematura", "synonyms": ["telarha izolata precoce", "dezvoltare precoce izolata a sanilor", "telarha prematura izolata", "premature thelarche", "isolated premature thelarche", "early breast development"]}
@@ -5170,10 +5171,12 @@
 {"name": "Tibie curba congenitala", "synonyms": ["tibia si peroneu curbat congenital", "incurbare congenitala a tibiei", "curbura congenitala a tibiei", "congenital bowing of tibia and fibula", "congenital tibial bowing", "congenital bowing of the tibia"]}
 {"name": "Tic dureros", "synonyms": ["tic doloros", "nevralgie faciala", "durere faciala paroxistica", "tic douloureux", "facial neuralgia", "paroxysmal facial pain"]}
 {"name": "Ticuri", "synonyms": ["ticuri motorii", "ticuri vocale", "ticuri tranzitorii", "tics", "motor tics", "vocal tics"]}
+{"name": "Tifos de capuse Queensland", "synonyms": ["febra purpurie prin Rickettsia australis", "tifosul de Queensland de capuse", "rickettsioza cu Rickettsia australis", "spotted fever due to Rickettsia australis", "Queensland tick typhus", "Australian tick typhus"]}
 {"name": "Tifos endemic", "synonyms": ["tifos murin", "tifos transmis de purici", "infectie cu Rickettsia typhi", "endemic typhus", "murine typhus", "Rickettsia typhi infection"]}
 {"name": "Tifos epidemic", "synonyms": ["tifos exantematic", "tifos transmis de paduchi", "infectie cu Rickettsia prowazekii", "epidemic typhus", "louse-borne typhus", "Rickettsia prowazekii infection"]}
 {"name": "Tifos recrudescent", "synonyms": ["boala Brill-Zinsser", "boala Brill", "tifos exantematic recrudescent", "recrudescent typhus", "Brill-Zinsser disease", "Brill disease"]}
 {"name": "Tifos scrub", "synonyms": ["tifosul tufisurilor", "febra tsutsugamushi", "infectie cu Orientia tsutsugamushi", "scrub typhus", "tsutsugamushi disease", "mite-borne typhus"]}
+{"name": "Tifos siberian de capuse", "synonyms": ["febra purpurie prin Rickettsia siberica", "febra nord-asiatica de capuse", "rickettsioza nord-asiatica", "spotted fever due to Rickettsia siberica", "Siberian tick typhus", "North Asian tick fever"]}
 {"name": "Timom", "synonyms": ["timom benign", "tumora epiteliala timica", "neoplasm timic benign", "thymoma", "benign thymoma", "thymic epithelial tumor"]}
 {"name": "Timom malign", "synonyms": ["timom invaziv", "timom de grad inalt", "carcinom timic", "malignant thymoma", "invasive thymoma", "thymic carcinoma"]}
 {"name": "Timpanoscleroza", "synonyms": ["scleroza timpanica", "placi scleroase pe timpan", "miringoscleroza", "tympanosclerosis", "myringosclerosis", "sclerosis of the tympanic membrane"]}
@@ -5294,6 +5297,7 @@
 {"name": "Transpozitie corectata de mari vase", "synonyms": ["transpozitie corectata congenital", "transpozitie fiziologic corectata", "levotranspozitie a marilor artere", "congenitally corrected transposition of the great arteries", "l-transposition of the great arteries", "levotransposition of the great arteries"]}
 {"name": "Transpozitie dentara", "synonyms": ["transpozitia dintilor", "transpozitie a unuia sau mai multor dinti", "dinti transpusi", "tooth transposition", "dental transposition", "transposed teeth"]}
 {"name": "Transsexualism", "synonyms": ["transsexualitate", "dizforie de gen transexuala", "schimbare de sex dorita", "transsexuality", "transgender identity", "gender identity disorder of adulthood"]}
+{"name": "Trasatura drepanocitara", "synonyms": ["siclemie heterozigota", "hemoglobina S heterozigota", "purtator de hemoglobina S", "sickle-cell trait", "heterozygous hemoglobin S", "sickle cell carrier"]}
 {"name": "Traumatism obstetric", "synonyms": ["leziune de nastere", "traumatism la nastere", "traumatism de nastere", "birth trauma", "obstetric trauma", "birth injury"]}
 {"name": "Traumatisme musculare", "synonyms": ["leziuni musculare", "contuzii musculare", "rupturi musculare", "muscle injury", "muscle strain", "muscle tear"]}
 {"name": "Travaliu precipitat", "synonyms": ["nastere precipitata", "travaliu rapid", "nastere rapida", "precipitate labor", "precipitous labor", "precipitous delivery"]}
@@ -5430,6 +5434,7 @@
 {"name": "Tulburare de trance", "synonyms": ["tulburare de transa", "stare de trance patologica", "transa disociativa", "trance disorder", "dissociative trance disorder", "pathological trance"]}
 {"name": "Tulburare deliranta", "synonyms": ["tulburare cu idei delirante", "psihoza deliranta", "parafrenie", "delusional disorder", "delusional psychosis", "paraphrenia"]}
 {"name": "Tulburare deliranta organica", "synonyms": ["tulburare deliranta organica de tip schizofrenic", "psihoza schizofreniforma organica", "stare paranoida organica", "organic delusional disorder", "organic schizophrenia-like disorder", "organic paranoid state"]}
+{"name": "Tulburare dezintegrativa a copilariei", "synonyms": ["dementa infantila", "sindrom Heller", "psihoza dezintegrativa", "childhood disintegrative disorder", "Heller syndrome", "dementia infantilis", "disintegrative psychosis"]}
 {"name": "Tulburare disforica premenstruala", "synonyms": ["disforie premenstruala", "tulburare premenstruala disforica", "disforie lunara", "premenstrual dysphoric disorder", "premenstrual dysphoria", "late luteal phase dysphoric disorder"]}
 {"name": "Tulburare dismorfica corporala", "synonyms": ["dismorfofobie", "teama de deformare corporala", "preocupare patologica pentru un defect fizic", "body dysmorphic disorder", "body dysmorphia", "dysmorphophobia"]}
 {"name": "Tulburare factice", "synonyms": ["sindrom Munchausen", "tulburare factice cu simptome fizice", "patomimie", "factitious disorder", "munchausen syndrome", "hospital addiction"]}

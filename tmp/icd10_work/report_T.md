@@ -8,7 +8,7 @@
   - procedura: 6
 - găsite automat în dicționar (P4.1–P4.3): **122**
 - de decis manual (`nou` + `posibil`): **488**
-- **afecțiuni adăugate: 43**
+- **afecțiuni adăugate: 48**
 
 ## Decizii manuale
 
@@ -25,12 +25,14 @@
 - **Amânate la altă literă** (`pending_from_T.jsonl`, 23): `Efluviu telogen` (E, L65.0), `Coccigodinie` (C, M53.3), `Parafilie` (P, F65), `Personalitate impulsiva` (P, F60.30), `Dislalie` (D, F80.0), `Disortografie` (D, F81.1), `Circulara de cordon ombilical` (C, O69.1), `Nod adevarat de cordon ombilical` (N, O69.2), `Macrosomie fetala` (M, P08), iar din tumorile benigne: `Angiofibrom nazofaringian juvenil`, `Adenom pleomorf`, `Angiomiolipom` (A), `Hamartom pulmonar`, `Hemangioblastom` (H), `Fibroelastom papilar`, `Fibroadenom mamar` (F), `Papilom intraductal`, `Papilom vezical` (P), `Chistadenom seros ovarian`, `Chistadenom mucinos ovarian`, `Craniofaringiom` (C), `Oncocitom renal` (O), `Nev coroidian` (N).
 - **Linia din `pending_by_letter.jsonl`:** `Tenosinovita supurativa` (M65.0) re-verificată (fără conflict G6, nu există sub alt nume) și adăugată; preia și M65.1.
 - **Din cross, adăugate la T:** `Telazioza` (B83.8), `Tulburare bipolara tip II` (F31.8), `Transpozitie dentara` (K07.3), `Testicul retractil` (cu „testicul migrant” din Q55.29).
+- **Amânate de la alte litere, adăugate la unire (coordonator, 5):** `Tartru dentar` (K03.6; de la D); `Tulburare dezintegrativa a copilariei` (F84.3; de la D, P, S); `Tifos siberian de capuse` (A77.2; de la F); `Tifos de capuse Queensland` (A77.3; de la F); `Trasatura drepanocitara` (D57.3; de la F). Verificate față de dicționarul unit al tuturor literelor (G3, G6).
 
 ## Adăugate
 
 | Nume canonic | Coduri | Sinonime |
 |---|---|---|
 | Tahicardie supraventriculara | I47.1 | tahicardie paroxistica supraventriculara; tahicardie supraventriculara paroxistica; TPSV; supraventricular tachycardia; paroxysmal supraventricular tachycardia; PSVT |
+| Tartru dentar | K03.6 | depozite pe dinti; calcul dentar; piatra pe dinti; deposits on teeth; dental calculus; tartar; tooth tartar |
 | Telazioza | B83.8 | thelazioza; infestatie oculara cu Thelazia; helmintiaza oculara cu Thelazia; thelaziasis; thelaziosis; Thelazia eye infection |
 | Tendinita bicipitala | M75.2 | tendinita bicepsului; tendinita capului lung al bicepsului; tendinopatie bicipitala; bicipital tendinitis; biceps tendinitis; bicipital tendinopathy |
 | Tendinita gluteala | M76.0 | tendinita fesiera; tendinopatie gluteala; tendinita muschilor fesieri; gluteal tendinitis; gluteal tendinopathy; gluteus medius tendinitis |
@@ -40,7 +42,9 @@
 | Tetanos obstetrical | A34 | tetanos matern; tetanos puerperal; tetanos postabortum; obstetrical tetanus; maternal tetanus; puerperal tetanus |
 | Tetraplegie | G82.3, G82.4, G82.5 | cvadriplegie; tetrapareza; paralizia celor patru membre; tetraplegia; quadriplegia; quadriparesis |
 | Tibie curba congenitala | Q68.4 | tibia si peroneu curbat congenital; incurbare congenitala a tibiei; curbura congenitala a tibiei; congenital bowing of tibia and fibula; congenital tibial bowing; congenital bowing of the tibia |
+| Tifos de capuse Queensland | A77.3 | febra purpurie prin Rickettsia australis; tifosul de Queensland de capuse; rickettsioza cu Rickettsia australis; spotted fever due to Rickettsia australis; Queensland tick typhus; Australian tick typhus |
 | Tifos recrudescent | A75.1 | boala Brill-Zinsser; boala Brill; tifos exantematic recrudescent; recrudescent typhus; Brill-Zinsser disease; Brill disease |
+| Tifos siberian de capuse | A77.2 | febra purpurie prin Rickettsia siberica; febra nord-asiatica de capuse; rickettsioza nord-asiatica; spotted fever due to Rickettsia siberica; Siberian tick typhus; North Asian tick fever |
 | Timom | D15.0, D38.4 | timom benign; tumora epiteliala timica; neoplasm timic benign; thymoma; benign thymoma; thymic epithelial tumor |
 | Tinea imbricata | B35.5 | tokelau; tricofitie imbricata; dermatofitoza cu Trichophyton concentricum; Tokelau ringworm; herpes desquamans; Trichophyton concentricum infection |
 | Tireotoxicoza prin tesut tiroidian ectopic | E05.3 | tireotoxicoza datorita tesutului ectopic tiroidian; hipertiroidism prin tesut tiroidian ectopic; hipertiroidism ectopic; thyrotoxicosis from ectopic thyroid tissue; hyperthyroidism from ectopic thyroid tissue; ectopic hyperthyroidism |
@@ -50,6 +54,7 @@
 | Torsiune de trompa uterina | N83.5 | torsiune tubara; torsiune izolata a trompei uterine; torsiunea trompei Fallope; fallopian tube torsion; isolated tubal torsion; tubal torsion |
 | Toxoplasmoza pulmonara | B58.3 | pneumonie toxoplasmica; pneumonita cu Toxoplasma; toxoplasmoza a plamanului; pulmonary toxoplasmosis; toxoplasma pneumonia; toxoplasmic pneumonitis |
 | Transpozitie dentara | K07.3 | transpozitia dintilor; transpozitie a unuia sau mai multor dinti; dinti transpusi; tooth transposition; dental transposition; transposed teeth |
+| Trasatura drepanocitara | D57.3 | siclemie heterozigota; hemoglobina S heterozigota; purtator de hemoglobina S; sickle-cell trait; heterozygous hemoglobin S; sickle cell carrier |
 | Travaliu precipitat | O62.3 | nastere precipitata; travaliu rapid; nastere rapida; precipitate labor; precipitous labor; precipitous delivery |
 | Travaliu prelungit | O63 | nastere prelungita; travaliu trenant; travaliu lung; prolonged labor; long labor; protracted labor |
 | Travestism bivalent | F64.1 | travestism cu rol dublu; travestism nefetisist; transvestism bivalent; dual-role transvestism; nonfetishistic transvestism; gender identity disorder nontranssexual type |
@@ -67,6 +72,7 @@
 | Tulburare de rivalitate intre frati | F93.3 | gelozie intre frati; rivalitate intre frati; rivalitate fraterna; sibling rivalry disorder; sibling jealousy; sibling rivalry |
 | Tulburare de ruminatie | F98.2 | tulburare de ruminatie a sugarului; mericism; sindrom de ruminatie; rumination disorder; merycism; rumination syndrome |
 | Tulburare deliranta organica | F06.2 | tulburare deliranta organica de tip schizofrenic; psihoza schizofreniforma organica; stare paranoida organica; organic delusional disorder; organic schizophrenia-like disorder; organic paranoid state |
+| Tulburare dezintegrativa a copilariei | F84.3 | dementa infantila; sindrom Heller; psihoza dezintegrativa; childhood disintegrative disorder; Heller syndrome; dementia infantilis; disintegrative psychosis |
 | Tulburare mixta anxios-depresiva | F41.2 | tulburare anxioasa si depresiva mixta; sindrom anxios-depresiv; depresie anxioasa; mixed anxiety and depressive disorder; mixed anxiety-depressive disorder; anxious depression |
 | Tulburare schizofreniforma | F23.2 | tulburare psihotica acuta asemanatoare schizofreniei; psihoza schizofreniforma; tulburare psihotica schizofreniforma; schizophreniform disorder; acute schizophrenia-like psychotic disorder; schizophreniform psychosis |
 | Tumora adenomatoida | D19, D29 | tumora adenomatoida a epididimului; tumora adenomatoida uterina; mezoteliom benign al tractului genital; adenomatoid tumor; adenomatoid tumor of epididymis; benign mesothelioma of genital tract |
