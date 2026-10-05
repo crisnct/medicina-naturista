@@ -1,0 +1,76 @@
+? A52.3   Goma (sifilitica) a sistemului central nervos   [titlu: Sifilis nervos, nespecificat]  <Neurosyphilis, unspecified>  ~ 
+? A66.6   Ganglionul pianic (precoce) (tardiv)   [titlu: Leziunile pianice articulare si osoase]  <Bone and joint lesions of yaws>  ~ 
+? A66.6   Goundou pianic (tardiv)   [titlu: Leziunile pianice articulare si osoase]  <Bone and joint lesions of yaws>  ~ 
+? A66.6   Goma osoasa pianica (tardiva)   [titlu: Leziunile pianice articulare si osoase]  <Bone and joint lesions of yaws>  ~ 
+? A69.0   Gangrena fusospirochetala   [titlu: Stomatita ulcero-necrotica]  <Necrotizing ulcerative stomatitis>  ~ 
+? B83.8   Gongylonemiaza   [titlu: Alte helmintiaze specificate]  <Other specified helminthiases>  ~ 
+? C06.1   Gutiera bucala (superioara) (inferioara)   [titlu: Vestibul bucal]  <Malignant neoplasm of vestibule of mouth>  ~ 
+? C06.1   Gutiera labiala (superioara) (inferioara)   [titlu: Vestibul bucal]  <Malignant neoplasm of vestibule of mouth>  ~ 
+? C51.0   Glanda Bartholin [vestibulara mai mare]   [titlu: Buzele mari]  <Malignant neoplasm of labium majus>  ~ 
+? C69.4   Globul ocular   [titlu: Corpul ciliar]  <Malignant neoplasm of ciliary body>  ~ Anoftalmie | Ciclopie | Distichiazis | Enoftalmie | Exoftalmie | Microftalmie
+? D10.3   Glanda salivara accesorie   [titlu: Alte localizari ale gurii si nespecificate]  <Benign neoplasm of other and unspecified parts of mouth>  ~ 
+? D30.7   Glandele parauretrale   [titlu: Alte organe urinare]  <>  ~ 
+? D31.4   Glob ocular   [titlu: Corpi ciliari]  <Benign neoplasm of ciliary body>  ~ Anoftalmie | Ciclopie | Distichiazis | Enoftalmie | Exoftalmie | Microftalmie
+? D71     Granulomatoza septica progresiva   [titlu: Tulburari functionale ale polinuclearelor neutrofile]  <Functional disorders of polymorphonuclear neutrophils>  ~ Boala granulomatoasa cronica
+? D76.0   Granulom eosinofilic   [titlu: Histiocitoza celulelor Langerhans, neclasificata altundeva]  <>  ~ 
+? E04.1   Gusa uninodulara netoxica   [titlu: Nodul tiroidian unic, netoxic]  <Nontoxic single thyroid nodule>  ~ Gusa cu nodul unic netoxic | Gusa multinodulara netoxica
+? E05.0   Gusa exoftalmica sau toxica   [titlu: Tireotoxicoza cu gusa difuza]  <Thyrotoxicosis with diffuse goiter>  ~ Boala Graves
+? E05.0   Gusa toxica difuza   [titlu: Tireotoxicoza cu gusa difuza]  <Thyrotoxicosis with diffuse goiter>  ~ 
+? E05.2   Gusa nodulara toxica   [titlu: Tireotoxicoza cu gusa multinodulara toxica]  <Thyrotoxicosis with toxic multinodular goiter>  ~ Gusa multinodulara toxica | Gusa nodulara | Gusa cu nodul unic netoxic | Gusa multinodulara netoxica
+? E06.3   Gusa limfadenoida   [titlu: Tiroidita autoimuna]  <Autoimmune thyroiditis>  ~ 
+? E34.4   Gigantism constitutional   [titlu: Statura inalta constitutionala]  <Constitutional tall stature>  ~ 
+? E74.0   Glicogenoza cardiaca   [titlu: Boala depozitarii glicogenului]  <Glycogen storage disease>  ~ 
+? F93.3   Gelozie intre frati   [titlu: Tulburare de rivalitate intre frati]  <>  ~ 
+? F95.2   Gilles de la Tourette   [titlu: Tulburare de ticuri multiple motorii combinate cu ticuri vocale [Gilles de la Tourette]]  <Tourette's disorder>  ~ Sindrom Tourette
+? F98.5   gangaveala   [titlu: Balbaiala [gangaveala]]  <Adult onset fluency disorder>  ~ 
+? H05.1   Granulomul orbitei   [titlu: Afectiuni inflamatoare cronice ale orbitei]  <Chronic inflammatory disorders of orbit>  ~ 
+? H33.3   Gaura rotunda a retinei, fara dezlipire   [titlu: Ruptura retiniana fara dezlipire]  <Retinal breaks without detachment>  ~ Dezlipire de retina
+? H35.3   Gauri ale maculei   [titlu: Degenerescenta maculei si polului posterior]  <Degeneration of macula and posterior pole>  ~ 
+? H95.1   Granulom dupa mastoidectomie   [titlu: Alte afectiuni survenind dupa mastoidectomie]  <Other disorders of ear and mastoid process following mastoidectomy>  ~ 
+? I70.2   Gangrena aterosclerotica   [titlu: Ateroscleroza arterelor extremitatilor]  <Atherosclerosis of native arteries of the extremities>  ~ Ateroscleroza
+? J00     guturaiul comun   [titlu: Rino-faringita acuta [guturaiul comun]]  <Acute nasopharyngitis [common cold]>  ~ 
+? J06.9   Gripa si pneumonia   [titlu: Infectii acute ale cailor respiratorii superioare, nespecificate]  <Acute upper respiratory infection, unspecified>  ~ Pneumonie cu virus influenza | Pneumonie la varstnici | Pneumonie cu Giardia
+? J30.1   Guturai 'de fan'   [titlu: Rinita alergica datorita polenului]  <Allergic rhinitis due to pollen>  ~ 
+? J38.3   Granulom al corzii(lor) vocale   [titlu: Alte boli ale corzilor vocale]  <Other diseases of vocal cords>  ~ Granulom laringian | Carcinom laringian glotic
+? J69.1   grasimi   [titlu: Pneumopatia datorita inhalatiei de uleiuri(grasimi) si esente]  <Pneumonitis due to inhalation of oils and essences>  ~ 
+? K00.2   Geminatia dintilor   [titlu: Anomalii de volum si de forma ale dintilor]  <Abnormalities of size and form of teeth>  ~ 
+? K03.3   Granulom intern al pulpei   [titlu: Rezorbtia patologica a dintilor]  <Pathological resorption of teeth>  ~ 
+? K04.1   Gangrena pulpara   [titlu: Necroza pulpara]  <Necrosis of pulp>  ~ Gangrena pulmonara | Gangrena gazoasa
+? K04.5   Granulom apical sau periapical   [titlu: Periodontita apicala cronica]  <Chronic apical periodontitis>  ~ Absces dentar cronic
+? K06.8   Granulom periferic cu celule gigante   [titlu: Alte afectiuni specifice ale gingiei si ale crestei alveolare edentate]  <Other specified disorders of gingiva and edentulous alveolar ridge>  ~ Granulomatoza cu celule gigante
+? K06.8   Granulom gingival piogen   [titlu: Alte afectiuni specifice ale gingiei si ale crestei alveolare edentate]  <Other specified disorders of gingiva and edentulous alveolar ridge>  ~ 
+? K14.1   Glosita migratorie benigna   [titlu: Limba geografica]  <Geographic tongue>  ~ 
+? K14.1   Glosita exfoliativa marginala   [titlu: Limba geografica]  <Geographic tongue>  ~ 
+? K14.9   Glosopatia   [titlu: Boala limbii, nespecificata]  <Disease of tongue, unspecified>  ~ 
+? K29.6   Gastrita hipertrofica giganta   [titlu: Alte gastrite]  <Other gastritis>  ~ Gastropatie hipertrofica
+? K52.8   Gastrita sau gastroenterita eosinofilice   [titlu: Alte gastroenterite si colite neinfectioase specificate]  <Other specified noninfective gastroenteritis and colitis>  ~ 
+? L03.11  Genunchi   [titlu: Celulita membrului inferior]  <Cellulitis of other parts of limb>  ~ 
+? L11.1   Grover   [titlu: Dermatoza acantolitica tranzitorie [Grover]]  <Transient acantholytic dermatosis [Grover]>  ~ 
+? L44.4   Giannotti-Crosti   [titlu: Acrodermatita eritemato-papuloasa infantila [Giannotti-Crosti]]  <Infantile papular acrodermatitis [Gianotti-Crosti]>  ~ 
+? M23.8   Genunchi 'in resort'   [titlu: Alte afectiuni interne ale genunchiului]  <Other internal derangements of knee>  ~ Genunchi varus
+? M99.9   Glomerulonefrita extracapilara   [titlu: Leziune biomecanica, nespecificata]  <Biomechanical lesion, unspecified>  ~ Glomerulonefrita membranoproliferativa
+? M99.9   Glomerulonefrita proliferativa   [titlu: Leziune biomecanica, nespecificata]  <Biomechanical lesion, unspecified>  ~ Glomerulonefrita membranoproliferativa
+? N18.90  Glomerulonefrita sclerozanta difuza   [titlu: Insuficienta renala cronica nespecificata]  <>  ~ 
+? N64.8   Galactocel   [titlu: Alte afectiuni specificate ale sanului]  <Other specified disorders of breast>  ~ 
+? O33.7   Gemeni lipiti cauzand o disproportie   [titlu: Ingrijiri acordate mamei pentru o disproportie datorita altor anomalii ale fatului]  <Maternal care for disproportion due to other fetal deformities>  ~ 
+? O92.7   Galactocel puerperal   [titlu: Alte tulburari de lactatie si nespecificate]  <Other and unspecified disorders of lactation>  ~ 
+? P01.5   Gemeni (sarcina)   [titlu: Fat si nou-nascut afectati de sarcina multipla]  <Newborn affected by multiple pregnancy>  ~ 
+? P15.3   Glaucom traumatic datorita traumatismului la nastere   [titlu: Leziunea ochiului datorita traumatismului la nastere]  <Birth injury to eye>  ~ Traumatism obstetric
+? Q38.4   Glande si canale salivare accesorii   [titlu: Malformatii congenitale ale glandelor si canalelor salivare]  <Congenital malformations of salivary glands and ducts>  ~ 
+? Q89.19  Glanda suprarenala accesorie   [titlu: Alte malformatii congenitale specificate ale glandei suprarenale]  <>  ~ 
+? Q89.19  Glanda suprarenala ectopica   [titlu: Alte malformatii congenitale specificate ale glandei suprarenale]  <>  ~ 
+? Q89.42  Gemeni cu capetele lipite   [titlu: Craniopagus]  <>  ~ 
+? Q89.43  Gemeni cu toracele lipit   [titlu: Toracopagus]  <>  ~ 
+? Q89.44  Gemeni cu pelvisul lipit sau xifoid   [titlu: Xifopagus]  <>  ~ 
+? Q89.45  Gemeni cu fesele lipite   [titlu: Pigopagus]  <>  ~ 
+? Q89.49  Gemeni uniti   [titlu: Alte forme specificate de gemeni uniti]  <>  ~ 
+= E74.2   Galactosemia  -> Galactozemie
+= E74.8   Glicozuria renala  -> Glicozurie renala
+= H21.5   Goniosinechia  -> Goniosinechii
+= H36     Glaucom  -> Glaucom
+= H44.5   Glaucom absolut  -> Glaucom absolut
+= K14.4   Glosita atrofica  -> Glosita atrofica
+= K29.6   Gastrita granulomatoasa  -> Gastrita granulomatoasa
+= K31.88  Gastroptoza  -> Gastroptoza
+= N62     Ginecomastia  -> Ginecomastie
+= Q87.32  Gigantism cerebral  -> Sindrom Sotos
