@@ -1,0 +1,222 @@
+===== NOU (78)
+A50.3   Oculopatia sifilitica congenitala tardiva  {Keratita interstitiala sifilitica congenitala tardiva† / NEC†}  <Late congenital syphilitic oculopathy>
+B26.8   Oreionul cu alte complicatii  <Mumps with other complications>
+B26.9   Oreionul fara complicatii  <Mumps without complication>
+B58.0   Oculopatia cu Toxoplasma  {Chorioretinita cu Toxoplasma†}  <Toxoplasma oculopathy>
+E66.0   Obezitate datorita unui exces caloric  <Obesity due to excess calories>
+E66.1   Obezitate indusa medicamentos  <Drug-induced obesity>
+F66.1   Orientara sexuala egodistonica
+H00     Orgelet si chalazion  <Hordeolum and chalazion>
+H34     Ocluzia vasculara retiniana  <Retinal vascular occlusions>
+H34.0   Ocluzia tranzitorie a arterei retiniene  <Transient retinal artery occlusion>
+H34.1   Ocluzia arterei retiniene centrale  <Central retinal artery occlusion>
+H43.2   Opacitati cristaline ale corpului vitros  <Crystalline deposits in vitreous body>
+H49.3   Oftalmoplegia totala (externa)  {externa}  <Total (external) ophthalmoplegia>
+H80.0   Otoscleroza neobliteranta, interesind fereastra ovala  <Otosclerosis involving oval window, nonobliterative>
+H80.1   Otoscleroza obliteranta, interesind fereastra ovala  <Otosclerosis involving oval window, obliterative>
+H80.2   Otoscleroza cohleara  <Cochlear otosclerosis>
+H92     Otalgia si otoreea  <Otalgia and effusion of ear>
+H92.0   Otalgia  <Otalgia>
+H92.2   Otoragia  <Otorrhagia>
+I65.3   Ocluzia si stenoza multiplelor artere precerebrale bilaterale
+I65.8   Ocluzia si stenoza altor artere precerebrale  <Occlusion and stenosis of other precerebral arteries>
+I66.0   Ocluzia si stenoza arterei cerebrale medii  <Occlusion and stenosis of middle cerebral artery>
+I66.1   Ocluzia si stenoza arterei cerebrale anterioare  <Occlusion and stenosis of anterior cerebral artery>
+I66.2   Ocluzia si stenoza arterei cerebrale posterioare  <Occlusion and stenosis of posterior cerebral artery>
+I66.3   Ocluzia si stenoza arterelor cerebeloase  <Occlusion and stenosis of cerebellar arteries>
+I66.4   Ocluzia si stenoza arterelor cerebrale multiple si bilaterale
+I66.8   Ocluzia si stenoza altor artere cerebrale  {Ocluzia si stenoza arterelor perforante}  <Occlusion and stenosis of other cerebral arteries>
+I66.9   Ocluzia si stenoza arterelor cerebrale nespecificate  <Occlusion and stenosis of unspecified cerebral artery>
+K02.4   Odontoclazia  {Melanodontia infantila / Melanodontoclazia}
+K22.2   Obstructia esofagului  {Compresiunea esofagului / Constrictia esofagului / Scleroza esofagului / Stenoza esofagului}  <Esophageal obstruction>
+K82.0   Obstructia vezicii biliare  <Obstruction of gallbladder>
+M46.2   Osteomielita vertebrala  <Osteomyelitis of vertebra>
+M80     Osteoporoza cu fractura patologica  <Osteoporosis with current pathological fracture>
+M80.0   Osteoporoza postmenopauza cu fractura patologica  <Age-related osteoporosis with current pathological fracture>
+M80.1   Osteoporoza postovarectomie cu fractura patologica
+M80.4   Osteoporoza datorita unor medicamente cu fractura patologica
+M80.5   Osteoporoza idiopatica cu fractura patologica
+M81     Osteoporoza fara fractura patologica  <Osteoporosis without current pathological fracture>
+M81.1   Osteoporoza dupa ovarectomie
+M81.4   Osteoporoza datorita unor medicamente
+M81.6   Osteoporoza localizata [Lequesue]  {Lequesue}  <Localized osteoporosis [Lequesne]>
+M82.0   Osteoporoza in mielomatoza multipla (C90.0†)
+M82.1   Osteoporoza in bolile endocrine (E00-E34†)
+M83     Osteomalacia adultului  <Adult osteomalacia>
+M83.0   Osteomalacia puerperala  <Puerperal osteomalacia>
+M83.1   Osteomalacia senila  <Senile osteomalacia>
+M83.2   Osteomalacia adultului datorita unei malabsorbtii  {Osteomalacia datorita unei malabsorbtii postprocedurale la adulti}  <Adult osteomalacia due to malabsorption>
+M83.3   Osteomalacia adultului datorita malnutritiei  <Adult osteomalacia due to malnutrition>
+M86.0   Osteomielita hematogena acuta  <Acute hematogenous osteomyelitis>
+M86.4   Osteomielita cronica cu fistula de drenaj  <Chronic osteomyelitis with draining sinus>
+M87.1   Osteonecroza datorita unor medicamente  <Osteonecrosis due to drugs>
+M87.2   Osteonecroza datorita unui traumatism anterior  <Osteonecrosis due to previous trauma>
+M89.1   Oprire epifizara  <Physeal arrest>
+M89.6   Osteopatia dupa poliomielita  <Osteopathy after poliomyelitis>
+M90.2   Osteopatia in alte boli infectioase clasificate altundeva
+M90.3   Osteonecroza in boala de cheson (T70.3†)
+M90.4   Osteonecroza datorita hemoglobinopatiilor (D50-D64†)
+M91     Osteocondroza juvenila a soldului si pelvisului  <Juvenile osteochondrosis of hip and pelvis>
+M91.0   Osteocondroza juvenila a pelvisului  <Juvenile osteochondrosis of pelvis>
+M91.9   Osteocondroza juvenila a soldului si bazinului, nespecificata  <Juvenile osteochondrosis of hip and pelvis, unspecified>
+M92.0   Osteocondroza juvenila a humerusului  <Juvenile osteochondrosis of humerus>
+M92.1   Osteocondroza juvenila a radiusului si cubitusului  <Juvenile osteochondrosis of radius and ulna>
+M92.2   Osteocondroza juvenila a mainii  <Juvenile osteochondrosis, hand>
+M92.4   Osteocondroza juvenila a patelei  <Juvenile osteochondrosis of patella>
+M92.5   Osteocondroza juvenila a tibiei si peroneului  <Juvenile osteochondrosis of tibia and fibula>
+M92.6   Osteocondroza juvenila a tarsului  <Juvenile osteochondrosis of tarsus>
+M92.7   Osteocondroza juvenila a metatarsului  <Juvenile osteochondrosis of metatarsus>
+N32.0   Obstructia colului vezicii urinare  <Bladder-neck obstruction>
+P38     Omfalita nou-nascutului cu sau fara hemoragie usoara  <Omphalitis of newborn>
+Q11.0   Ochi chistic  <Cystic eyeball>
+Q13.3   Opacitatea congenitala a corneei  <Congenital corneal opacity>
+Q20.1   Orificiu dublu al ventriculului drept  {Sindromul Taussig-Bing}  <Double outlet right ventricle>
+Q20.2   Orificiu dublu al ventriculului stang  <Double outlet left ventricle>
+Q50.31  Ovar striat  <Accessory ovary>
+Q64.31  Obstructia congenitala a gatului vezicii  <Congenital bladder neck obstruction>
+Q74.01  Oase carpiene accesorii
+Q77     Osteocondrodisplazia cu defecte de crestere ale oaselor tubulare si ale coloanei vertebrale  <Osteochondrodysplasia with defects of growth of tubular bones and spine>
+Q78.9   Osteocondrodisplazia, nespecificata  {Condrodistrofia / Osteodistrofia}  <Osteochondrodysplasia, unspecified>
+===== POSIBIL (46)
+B66.0   Opistorchiaza  <Opisthorchiasis> ~ Opistorhoza
+E66.2   Obezitate extrema cu hipoventilatie alveolara  {Sindromul Pickwickian}  <Morbid (severe) obesity with alveolar hypoventilation> ~ Hipoventilatie asociata obezitatii | Sindrom de hipoventilatie alveolara
+G23.1   Oftalmoplegia supranucleara pregresiva [Steele-Richardson-Olszewski]  {Steele-Richardson-Olszewski}  <Progressive supranuclear ophthalmoplegia [Steele-Richardson-Olszewski]> ~ Paralizia privirii | Paralizie supranucleara progresiva
+H00.0   Orgelet si alte inflamatii profunde ale pleoapei  {Abcesul pleoapei / Furunculul pleoapei / Urcior}  <Hordeolum (externum) (internum) of eyelid> ~ Blefarita
+H60.5   Otita externa acuta, neinfectioasa  <Acute noninfective otitis externa> ~ Otita externa
+H62.0   Otita externa in bolile bacteriene clasificate altundeva  {Otita externa in erizipel} ~ Otita externa
+H62.1   Otita externa in bolile virale clasificate altundeva ~ Otita externa
+H62.2   Otita externa in micoze ~ Otita externa
+H62.3   Otita externa in alte boli infectioase si parazitare clasificate altundeva ~ Otita externa
+H65     Otita medie nesupurata  <Nonsuppurative otitis media> ~ Otita medie | Otita medie necrozanta
+H66     Otita medie supurativa si nespecificata  <Suppurative and unspecified otitis media> ~ Otita medie
+H66.0   Otita medie acuta supurativa  <Acute suppurative otitis media> ~ Otita medie
+H66.1   Otita medie cronica tubo-timpanica supurata  {Otita medie cronica supurata benigna / Boala tubo-timpanica cronica}  <Chronic tubotympanic suppurative otitis media> ~ Otita medie
+H66.2   Otita medie cronica atticoantrala supurata  {Boala atticoantrala cronica}  <Chronic atticoantral suppurative otitis media> ~ Otita medie
+H66.4   Otita medie supurata, nespecificata  {Otita medie purulenta}  <Suppurative otitis media, unspecified> ~ Otita medie | Otita medie secretorie
+H67.0   Otita medie in boli bacteriene clasificate altundeva ~ Otita medie
+H67.1   Otita medie in boli virale, clasificate altundeva  {Otita medie in gripa}  <Otitis media in diseases classified elsewhere, right ear> ~ Otita medie
+H68.1   Obstructia trompei Eustache  {Compresiunea trompei Eustache / Stenoza trompei Eustache / Strictura trompei Eustache}  <Obstruction of Eustachian tube> ~ Disfunctie de trompa Eustachio
+H92.1   Otoreea  <Otorrhea> ~ Gonoree
+I65     Ocluzia si stenoza arterelor precerebrale, nerezultand in infarct cerebral  <Occlusion and stenosis of precerebral arteries, not resulting in cerebral infarction> ~ Accident vascular cerebral ischemic
+I65.0   Ocluzia si stenoza arterei vertebrale  <Occlusion and stenosis of vertebral artery> ~ Stenoza de artera vertebrala
+I65.1   Ocluzia si stenoza arterei bazilare  <Occlusion and stenosis of basilar artery> ~ Stenoza de artera bazilara
+I65.2   Ocluzia si stenoza arterei carotide  <Occlusion and stenosis of carotid artery> ~ Stenoza carotidiana
+I65.9   Ocluzia si stenoza unei arterei precerebrale nespecificata  {Artera precerebrala}  <Occlusion and stenosis of unspecified precerebral artery> ~ Vasculita cerebrala | Moarte cerebrala
+I66     Ocluzia si stenoza arterelor cerebrale, nerezultand in infarct cerebral  <Occlusion and stenosis of cerebral arteries, not resulting in cerebral infarction> ~ Accident vascular cerebral ischemic
+K31.5   Obstructia duodenului  {Constrictia duodenului / Stenoza duodenului / Scleroza duodenului / Ileus duodenal (cronic)}  <Obstruction of duodenum> ~ Obstructie duodenala
+K83.1   Obstructia cailor biliare  {Ocluzia cailor biliare fara calculi / Stenoza cailor biliare fara calculi / Strictura cailor biliare fara calculi}  <Obstruction of bile duct> ~ Stenoza de cale lacrimala | Litiaza biliara
+L60.1   Onicholiza  <Onycholysis> ~ Onicoliza
+L63.2   Ophiasis  <Ophiasis> ~ Loaza
+M42.1   Osteocondroza vertebrala a adultului  <Adult osteochondrosis of spine> ~ Boala Scheuermann
+M80.2   Osteoporoza de inactivitate cu fractura patologica ~ Osteoporoza de imobilizare
+M81.0   Osteoporoza postmenopauza  <Age-related osteoporosis without current pathological fracture> ~ Osteoporoza postmenopauzala
+M81.5   Osteoporoza idiopatica ~ Osteoporoza idiopatica juvenila | Osteoporoza secundara
+M85.3   Osteita condensata  <Osteitis condensans> ~ Osteita condensanta
+M86.3   Osteomielita multifocala cronica  <Chronic multifocal osteomyelitis> ~ Osteomielita cronica multifocala recidivanta | Sindrom Majeed
+M87     Osteonecroza  <Osteonecrosis> ~ Necroza avasculara | Osteoradionecroza | Osteoscleroza
+M90.6   Osteita deformanta in bolile neoplazice (C00-D48†)  {Osteita deformanta in tumora maligna a oaselor}  <Osteitis deformans in neoplastic diseases> ~ Boala Paget osoasa | Cancer
+M91.1   Osteocondroza juvenila a capului femural [Legg-Calve-Perthes]  {Legg-Calve-Perthes}  <Juvenile osteochondrosis of head of femur [Legg-Calve-Perthes]> ~ Boala Legg-Calve-Perthes
+M92.9   Osteocondroza juvenila, nespecificata  {Apofizita specificata ca fiind juvenila, localizare / Epifizita specificata ca fiind juvenila, localizare / Osteocondrita specificata ca fiind juvenila, localizare / Osteocondroza specificata ca fiind juvenila, localizare}  <Juvenile osteochondrosis, unspecified> ~ Osteoporoza senila
+N45     Orhita si epididimita  <Orchitis and epididymitis> ~ Epididimo-orhita
+N45.0   Orhita, epididimita si epididimo-orhita cu abces  {Abces al epididimului sau testiculului} ~ Epididimo-orhita
+N91.4   Oligomenoree secundara  <Secondary oligomenorrhea> ~ Oligomenoree
+O02.0   Ou clar si mola nehidatiforma  <Blighted ovum and nonhydatidiform mole> ~ Mola hidatiforma
+P76.2   Obstructia intestinala datorita laptelui ingrosat  <Intestinal obstruction due to inspissated milk> ~ Ocluzie intestinala
+P76.9   Obstructia intestinala a nou-nascutului, nespecificata  <Intestinal obstruction of newborn, unspecified> ~ Ocluzie intestinala
+Q78.2   Osteopetroza  {Sindromul Albers-Schönberg}  <Osteopetrosis> ~ Osteoporoza | Osteogenesis imperfecta | Osteoscleroza | Osteopetrosis
+===== EXISTA (31)
+B26     Oreion = Oreion [exact]
+B26.0   Orhita urliana = Orhita urliana [exact]
+B73     Onchocercoza = Oncocercoza [terminatii]
+E66     Obezitate = Obezitate [exact]
+H49.4   Oftalmoplegia externa progresiva = Oftalmoplegie externa progresiva [terminatii]
+H51.2   Oftalmoplegia internucleara = Oftalmoplegie internucleara [terminatii]
+H60     Otita externa = Otita externa [exact]
+H60.2   Otita externa maligna = Otita externa maligna [exact]
+H65.0   Otita medie seroasa acuta = Otita medie secretorie [temporal (G1)]
+H65.2   Otita medie seroasa cronica = Otita medie secretorie [temporal (G1)]
+H65.3   Otita medie mucoida cronica = Otita medie mucoida [temporal (G1)]
+H66.9   Otita medie, nespecificata = Otita medie [exact]
+H80     Otoscleroza = Otoscleroza [exact]
+L60.2   Onichogrifoza = Onicogrifoza [exact]
+M25.7   Osteofit = Osteofit [exact]
+M42     Osteocondroza vertebrala = Boala Scheuermann [exact]
+M42.0   Osteocondroza vertebrala juvenila = Boala Scheuermann [exact]
+M81.2   Osteoporoza de inactivitate = Osteoporoza de imobilizare [exact]
+M81.9   Osteoporoza, nespecificata = Osteoporoza [exact]
+M86     Osteomielita = Osteomielita [exact]
+M86.2   Osteomielita subacuta = Osteomielita [temporal (G1)]
+M89.5   Osteoliza = Osteoliza [exact]
+M93.2   Osteocondrita disecanta = Osteocondrita disecanta [exact]
+M93.9   Osteocondropatia, nespecificata = Osteocondroza [terminatii]
+N25.0   Osteodistrofia renala = Osteodistrofie renala [terminatii]
+N45.9   Orhita, epididimita si epididimo-orhita fara abces = Epididimita [exact]
+N91.3   Oligomenoree primara = Oligomenoree [exact]
+N91.5   Oligomenoree, nespecificata = Oligomenoree [exact]
+O41.0   Oligohidramnios = Oligohidramnios [exact]
+Q20.4   Orificiu dublu ventricular = Ventricul unic [exact]
+Q78.0   Osteogeneza imperfecta = Osteogenesis imperfecta [exact]
+===== ELIMINAT (63)
+C10.9   Orofaringe, nesepcificat [subzona de organ (D5)]
+C40.0   Omoplatul si oasele lungi ale membrelor superioare [subzona de organ (D5)]
+C40.1   Oasele scurte ale membrelor superioare [subzona de organ (D5)]
+C40.2   Oasele lungi ale membrelor inferioare [subzona de organ (D5)]
+C40.3   Oasele scurte ale membrelor inferioare [subzona de organ (D5)]
+C40.9   Oasele si cartilagiile articulare ale membrelor, nespecificate [subzona de organ (D5)]
+C41.0   Oasele craniene si ale fetei [subzona de organ (D5)]
+C41.01  Oasele cranio-faciale [subzona de organ (D5)]
+C41.02  Oasele maxilo-faciale [subzona de organ (D5)]
+C41.4   Oasele pelvisului, sacrum si coccis [subzona de organ (D5)]
+C41.9   Oase si cartilagii, nespecificate [subzona de organ (D5)]
+C57.9   Organ genital la femeie, nespecificata [subzona de organ (D5)]
+C63.9   Organ genital la barbat, nespecificat [subzona de organ (D5)]
+C67.6   Orificiul ureteral [subzona de organ (D5)]
+C68.9   Organ urinar, nespecificat [subzona de organ (D5)]
+C69.6   Orbita [subzona de organ (D5)]
+C69.9   Ochiul, nespecificat [subzona de organ (D5)]
+D01.9   Organ digestiv, nespecificat [subzona de organ (D5)]
+D09.2   Ochi [subzona de organ (D5)]
+D15.9   Organe intratoracice, nespecificate [subzona de organ (D5)]
+D16.0   Omoplat si oase lungi ale membrului superior [subzona de organ (D5)]
+D16.1   Oase scurte ale membrului superior [subzona de organ (D5)]
+D16.2   Oase lungi ale membrului inferior [subzona de organ (D5)]
+D16.3   Oase scurte ale membrului inferior [subzona de organ (D5)]
+D16.4   Oasele craniului si fetei [subzona de organ (D5)]
+D16.41  Oase cranio-faciale [subzona de organ (D5)]
+D16.42  Oase maxilo-faciale [subzona de organ (D5)]
+D16.5   Os mandibula [subzona de organ (D5)]
+D16.8   Oase pelviene, sacrum, coccis [subzona de organ (D5)]
+D16.9   Os, cartilagiu articular, nespecificat [subzona de organ (D5)]
+D28.9   Organ genital la femeie, nespecificat [subzona de organ (D5)]
+D29.9   Organ genital al barbatului, nespecificat [subzona de organ (D5)]
+D30.9   Organe urinare, nespecificate [subzona de organ (D5)]
+D31.6   Orbita, nespecificata [subzona de organ (D5)]
+D31.9   Ochi, nespecificat [subzona de organ (D5)]
+D38.6   Organ respirator, nespecificat [subzona de organ (D5)]
+D39.1   Ovar [subzona de organ (D5)]
+D39.9   Organele genitale la femeie, nespecificate [subzona de organ (D5)]
+D40.9   Organele genitale la barbat, nespecificate [subzona de organ (D5)]
+D41.9   Organe urinare, nespecificate [subzona de organ (D5)]
+D48.0   Os si cartilagiu articular [subzona de organ (D5)]
+E66.9   Obezitate, nespecificata [dublura categoriei parinte (nespecificat)]
+H34.9   Ocluzie vasculara retiniana, nespecificata [dublura categoriei parinte (nespecificat)]
+H60.9   Otita externa, nespecificata [dublura categoriei parinte (nespecificat)]
+H62.4   Otita externa in alte boli clasificate altundeva [asterisc (in alte boli)]
+H65.9   Otita medie nesupurata, nespecificata [dublura categoriei parinte (nespecificat)]
+H67     Otita medie in boli clasificate altundeva [asterisc (in alte boli)]
+H67.8   Otita medie in alte boli clasificate altundeva [asterisc (in alte boli)]
+H80.9   Otoscleroza, nespecificata [dublura categoriei parinte (nespecificat)]
+K91.3   Obstructia intestinala postprocedurala [procedura]
+M42.9   Osteocondroza vertebrala, nespecificata [dublura categoriei parinte (nespecificat)]
+M80.3   Osteoporoza consecutiva unei malabsorbtii postprocedurale cu fractura patologica [procedura]
+M80.9   Osteoporoza nespecificata cu fractura patologica [dublura categoriei parinte (nespecificat)]
+M81.3   Osteoporoza datorita malabsorbtiei postprocedurale [procedura]
+M82     Osteoporoza in boli clasificate altundeva [asterisc (in alte boli)]
+M82.8   Osteoporoza in alte boli clasificate altundeva [asterisc (in alte boli)]
+M83.9   Osteomalacia adultului, nespecificata [dublura categoriei parinte (nespecificat)]
+M86.9   Osteomielita, nespecificata [dublura categoriei parinte (nespecificat)]
+M87.9   Osteonecroza, nespecificata [dublura categoriei parinte (nespecificat)]
+M90     Osteopatia in boli clasificate altundeva [asterisc (in alte boli)]
+M90.5   Osteonecroza in alte boli clasificate altundeva [asterisc (in alte boli)]
+M90.8   Osteopatia in alte boli clasificate altundeva [asterisc (in alte boli)]
+Q77.9   Osteocondrodisplazia cu defecte de crestere ale oaselor tubulare si ale coloanei vertebrale, nespecificata [dublura categoriei parinte (nespecificat)]

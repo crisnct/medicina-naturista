@@ -1,0 +1,85 @@
+# + latin|denumire;denumire   -> denumiri regionale adaugate din cunostinte (sursa "cunostinte")
+# - latin|denumire;denumire   -> zgomot scos (fraze, OCR rupt, nume englezesti sau latine)
++ Vaccinium myrtillus|afine negre
++ Corylus avellana|alun de padure
++ Angelica archangelica|anghelina
++ Alnus glutinosa|anin negru
++ Silybum marianum|ciulinul laptelui
++ Acer platanoides|paltin de camp
++ Vicia faba|bob de gradina
++ Sambucus ebulus|bozie;socul mic
++ Abies alba|brad alb
++ Paeonia officinalis|bujor de gradina
++ Trollius europaeus|bulbuci
++ Erigeron canadensis|batranis
++ Prunus armeniaca|zarzar
++ Tanacetum balsamita|calapar
++ Solanum tuberosum|crumpene;picioici
++ Castanea sativa|castan dulce
++ Nepeta cataria|iarba-matei
++ Buxus sempervirens|merisor
++ Coriandrum sativum|chisnet
++ Cornus mas|cornel
++ Malus sylvestris|mar salbatic
++ Picea abies|brad rosu
++ Matricaria chamomilla|musetel de camp
++ Althaea officinalis|nalba alba
++ Valeriana officinalis|valeriana
++ Plantago major|patlagina mare
++ Artemisia vulgaris|pelin negru
++ Pinus sylvestris|pin silvestru
++ Chelidonium majus|iarba-de-negi
++ Salvia rosmarinus|rosmarin
++ Tilia cordata|tei de padure;tei mic
++ Trifolium pratense|trifoi de livada
++ Urtica dioica|urzica mare
+- Arctium lappa|de brusture
+- Thymus vulgaris|cimbri sorul
+- Satureja hortensis|cimbr de cultura
+- Triticum aestivum|gra
+- Gentiana lutea|tinctura. aceste
+- Gentiana punctata|tinctura. aceste
+- Ginkgo biloba|ginkgo biloba
+- Nepeta cataria|catnip
+- Erigeron canadensis|batrani sul
+- Galega officinalis|ciumareaa
+- Claviceps purpurea|corn secarei
+- Coronilla varia|coronistea
+- Coriandrum sativum|coriandr
+- Tanacetum cinerariifolium|piretr
+- Lathraea squamaria|muma paduriiy
+- Juniperus communis|boabe de ienupar
+- Glycyrrhiza glabra|lemnul-dulce
+- Linum usitatissimum|inul
+- Betula pubescens|mesteacanul
+- Vitex agnus-castus|mielareaa;agnus castus
+- Valeriana officinalis|de valeriana
+- Tussilago farfara|podbul
+- Raphanus niger|ridichea
+- Robinia pseudoacacia|robinia pseudacacia
+- Sorbus aucuparia|scoru sul de munte
+- Sanguisorba officinalis|sorbestreaa
+- Symphytum officinale|halba mucilagiu de tataneasa
+- Capsella bursa-pastoris|banului
+- Tilia tomentosa|teiul argintiu
+- Menyanthes trifoliata|trifoistea de balta
+- Marrubium vulgare|horehound
+- Orchis morio|unt vacii
+- Allium sativum|mujdei proaspat
+- Rubus idaeus|gfrunze de zmeura
+- Stachys officinalis|vindeceaa;wood betony
+- Stachys germanica|vindeceaa
+- Ruta graveolens|taiat
+- Galium aparine|cleavers
+- Rheum palmatum|de revent turcesc pisata
+- Citrus limon|felie de lamaie
+- Rumex acetosella|macri sul;macrisul marunt
+- Euphorbia cyparissias|lapte cainelui
+- Euphorbia seguieriana|lapte cainelui
+- Euphorbia stepposa|lapte cainelui
+- Arum maculatum|rod pamantului
+- Arum orientale|rod pamantului
+- Aristolochia clematitis|mar lupului
+- Lycopus europaeus|picior lupului
+- Ranunculus repens|piciorul cocosului
+- Capsicum frutescens|cayenne

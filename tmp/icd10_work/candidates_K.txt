@@ -1,0 +1,26 @@
+===== NOU (6)
+H16.3   Keratita interstitiala si profunda  <Interstitial and deep keratitis>
+H19.2   Keratita si kerato-conjunctivita in alte boli infectioase si parazitare clasificate altundeva  {Keratita si keratoconjunctivita (interstitiala)}
+L85.2   Keratoza punctata (palmara si plantara)  {palmara si plantara}  <Keratosis punctata (palmaris et plantaris)>
+Q96.0   Kariotip 45, X  <Karyotype 45, X>
+Q96.1   Kariotip 46, X iso (Xq)  <Karyotype 46, X iso (Xq)>
+Q96.2   Kariotip 46, X cu cromozom sexual anormal, cu exceptia iso (Xq)  <Karyotype 46, X with abnormal sex chromosome, except iso (Xq)>
+===== POSIBIL (9)
+B30.0   Keratoconjunctivita cu adenovirus  {Keratoconjunctivita apidemica / Ochiul Shipyard}  <Keratoconjunctivitis due to adenovirus> ~ Conjunctivita virala | Keratoconjunctivita epidemica
+B96.1   Klebsiella pneumoniae [K. pneumoniae], cauza unor boli clasate la alte capitole  {K. pneumoniae}  <Klebsiella pneumoniae [K. pneumoniae] as the cause of diseases classified elsewhere> ~ Pneumonie | Pneumonita
+E42     Kwashiorkor de marasm  {Malnutritie proteino-energetica grava [ca la}  <Marasmic kwashiorkor> ~ Kwashiorkor marasmic | Malnutritie proteino-energetica
+H16.2   Keratoconjuctivita  <Keratoconjunctivitis> ~ Keratoconjunctivita uscata
+H18.6   Keratocon  <Keratoconus> ~ Keratoconus
+H19.1   Keratita si kerato-conjunctivita datorita virusului herpetic (B00.5†)  {Keratita dendritica si dupa capsulotomie} ~ Keratita herpetica
+L87.0   Keratoza foliculara si parafoliculara penetrand in piele [Kyrle]  {Kyrle / Hiperkeratoza foliculara penetranta}  <Keratosis follicularis et parafollicularis in cutem penetrans> ~ Cheratoza foliculara
+Q97.0   Kariotip 47, XXX  <Karyotype 47, XXX> ~ Sindrom triplu X | Triploidie
+Q98.5   Kariotip 47, XYY  <Karyotype 47, XYY> ~ Sindrom XYY
+===== EXISTA (4)
+E40     Kwashiorkor = Kwashiorkor [exact]
+H16     Keratita = Keratita [exact]
+L57.0   Keratoza actinica = Cheratoza actinica [exact]
+L85.1   Keratoza [keratodermia] palmara si plantara dobandita = Cheratoderma [exact]
+===== ELIMINAT (3)
+H16.9   Keratita, nespecificata [dublura categoriei parinte (nespecificat)]
+H19.3   Keratita si kerato-conjunctivita in alte boli clasificate altundeva [asterisc (in alte boli)]
+L86     Keratodermia in boli clasificate altundeva [asterisc (in alte boli)]

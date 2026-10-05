@@ -1,0 +1,898 @@
+Vaccinium myrtillus|Afin|pomusoare;coacaze;afine de munte
+Filipendula vulgaris|Aglica|
+Ribes uva-crispa|Agris|pomusoare
+Allium victorialis|Ai de munte|
+Allium scorodoprasum|Aiul sarpelui|
+Centaurea cyanus|Albastrele|maturica;vinetea;floarea paiului;floarea graului;tatai sa vanata;iarba frigurilor
+Euphorbia esula|Alior|
+Aloe arborescens|Aloe|
+Aloe vera|Aloe|
+Corylus avellana|Alun|
+Corylus colurna|Alun turcesc|
+Amaranthus paniculatus|Amarant paniculat|
+Polygala amara|Amareala|soparlita
+Polygala comosa|Amareala|
+Polygala vulgaris|Amareala|soparlita
+Polygala major|Amareala mare|
+Ammi majus|Ammi|
+Pimpinella anisum|Anason|chimen dulce;chimion dulce;badean;anis;anison
+Cichorium endivia|Andiva|
+Angelica archangelica|Angelica|angelina;iarba ingerilor;bucinis
+Ostericum palustre|Angelica|
+Angelica sylvestris|Angelica de padure|angelina;iarba ingerilor;anghelica
+Cynara scolymus|Anghinare|
+Scolymus hispanicus|Anghinare salbatica|
+Chaerophyllum aromaticum|Antonica|
+Arachis hypogaea|Arahide|alune americane;alune de pamant
+Phellodendron amurense|Arborele de pluta de Amur|
+Capsicum annuum|Ardei|ardei iute
+Capsicum frutescens|Ardei iute|cayenne
+Alnus glutinosa|Arin negru|anin
+Silybum marianum|Armurariu|armurari;argintica;scai argintat
+Arnica montana|Arnica|carul padurarilor;carul zanelor;podbal de munte
+Allium schoenoprasum|Arpagic|
+Acer platanoides|Artar|
+Abelmoschus esculentus|Bame|
+Bellis perennis|Banutei|paralute
+Chaerophyllum temulum|Baraboi|
+Ajuga laxmannii|Barba boierului|
+Tragopogon pratensis|Barba-caprei|
+Usnea barbata|Barba-ungurului|
+Equisetum palustre|Barba-ursului|
+Calvatia gigantea|Basica-porcului|basina calului
+Colutea arborescens|Basicoasa|
+Vicia faba|Bob|fasole mare
+Lathyrus sylvestris|Bob de tarina|
+Veronica beccabunga|Bobornic|
+Ranunculus sceleratus|Boglari|
+Sambucus ebulus|Boz|
+Pyrola carpatica|Brabanoi|
+Bunias orientalis|Brabin|
+Abies alba|Brad|brad argintiu
+Diphasiastrum alpinum|Bradisor|
+Huperzia selago|Bradisor|
+Heracleum sphondylium|Branca-ursului|
+Sisymbrium officinale|Brancuta|
+Colchicum arenarium|Brandusa|
+Colchicum triphyllum|Brandusa|
+Colchicum autumnale|Brandusa-de-toamna|
+Corydalis bulbosa|Brebenei|
+Corydalis cava|Brebenei|brebenel;breaban
+Mercurialis perennis|Brei|
+Telekia speciosa|Brustan|laptucul oii;bruscan;bruscalan;brusture;brusturul caprei;brusturul oii
+Arctium lappa|Brusture|ciulin;captalan;lipan;de brusture
+Arctium minus|Brusture mic|
+Spartium junceum|Bucsau|
+Neottia ovata|Buhai|
+Paeonia officinalis|Bujor|
+Paeonia lactiflora|Bujor chinezesc|
+Paeonia tenuifolia|Bujor de camp|
+Rhododendron kotschyi|Bujor de munte|
+Paeonia peregrina|Bujor romanesc|
+Trollius europaeus|Bulbuc de munte|
+Gossypium herbaceum|Bumbac|
+Erigeron canadensis|Bunghisor|batrani sul
+Neottia nidus-avis|Buruiana-de-tranji|tranji
+Euphorbia lathyris|Buruiana de venin|
+Potentilla incana|Buruiana junghiului|
+Seseli rigidum|Buruiana-vantului|
+Ocimum basilicum|Busuioc|vasilisc;bosioc;borjolica;matacina;floarea bisericii;bazilic
+Prunella vulgaris|Busuioc-de-camp|
+Prunella grandiflora|Busuioc-de-camp mare|
+Clinopodium vulgare|Busuioc salbatic|
+Mentha pulegium|Busuiocul-cerbilor|
+Prunus armeniaca|Cais|
+Clinopodium nepeta|Calamint|
+Citrus microcarpa|Calamondin|
+Caltha palustris|Calcea-calului|
+Aquilegia vulgaris|Caldarusa|clopotei mari
+Viburnum opulus|Calin|bulgare de zapada
+Tanacetum balsamita|Calomfir|vetriceaua
+Geum rivale|Caltunul-doamnei|
+Eupatorium cannabinum|Cancioc|
+Cannabis sativa|Canepa|
+Lonicera xylosteum|Caprifoi|
+Lonicera japonica|Caprifoi japonez|
+Fragaria x ananassa|Capsun|
+Fragaria viridis|Capsun de camp|capsunul de pajiste
+Cirsium rivulare|Captalan|
+Petasites hybridus|Captalan|
+Petasites albus|Captalan alb|
+Leontodon hispidus|Capul-calugarului|
+Ephedra distachya|Carcel|
+Cynara cardunculus|Cardon|
+Phytolacca americana|Carmaz|rumeioara
+Solanum tuberosum|Cartof|baraboi;barabula
+Ipomoea batatas|Cartof dulce|
+Castanea sativa|Castan comestibil|
+Aesculus hippocastanum|Castan salbatic|castan;castan porcesc
+Cucumis sativus|Castravete|
+Momordica charantia|Castravete amar|
+Ballota nigra|Cataroaica|
+Hippophae rhamnoides|Catina-alba|catina;catina cenusie;catina de rau;tufisul de nisip
+Myricaria germanica|Catina mica|
+Nepeta cataria|Catusnica|catnip
+Nepeta nuda|Catusnica salbatica|
+Allium cepa|Ceapa|
+Muscari neglectum|Ceapa ciorii|zambila motata
+Nonea pulla|Ceara-albinei|
+Asclepias syriaca|Ceara-albinelor|
+Ailanthus altissima|Cenuser|fals otetar
+Ceratocephalus testiculatus|Ceratocefal|
+Geum urbanum|Cerentel|ridichioara;caltunul doamnei;cuisorita;floarea mandrei;telul
+Juniperus sabina|Cetina-de-negi|
+Inonotus obliquus|Chaga|
+Nigella damascena|Chica-voinicului|
+Carum carvi|Chimen|secarica;chimion;piparus
+Nigella sativa|Chimen negru|negrilica;cernusca
+Mutellina adonidifolia|Chimionul-ursului|
+Chlorella vulgaris|Chlorella|
+Cichorium intybus|Cicoare|floricica;andiva
+Thymus pulegioides|Cimbrisor|
+Clinopodium acinos|Cimbrisor de camp|izmusoara de camp
+Thymus serpyllum|Cimbrisor de camp|
+Thymus x citriodorus|Cimbrisor de lamaie|
+Thymus vulgaris|Cimbru|cimbri sorul;cimbrisorul de camp;cimbrisorul de pajiste;cimbrisorul de faneata;cimbrul salbatic;cimbru de camp
+Satureja hortensis|Cimbru de gradina|cimbr de cultura;lamaioara;lamaita;iarba cucului;cimbru
+Satureja montana|Cimbru de munte|
+Actaea europaea|Cimicifuga|
+Buxus sempervirens|Cimisir|
+Potentilla cinerea|Cinci-degete|
+Potentilla recta|Cinci-degete|
+Potentilla reptans|Cinci-degete|
+Potentilla alba|Cinci-degete alb|
+Jacobaea maritima|Cinerarie|
+Salvia glutinosa|Cinstet|
+Erodium cicutarium|Ciocul-berzei|
+Geranium columbinum|Ciocul-cocorului|
+Geranium divaricatum|Ciocul-cocorului|
+Geranium pusillum|Ciocul-cocorului mic|
+Geranium sanguineum|Ciocul-cocorului rosu|
+Inula salicina|Cioroi|
+Prunus avium|Cires|
+Primula elatior|Ciubotica-cucului|tata vacii;tata oii;anglicea
+Primula veris|Ciubotica-cucului|tata vacii;tata oii;anglicea
+Primula vulgaris|Ciubotica-cucului galbena|
+Cotoneaster integerrimus|Ciucure|
+Berteroa incana|Ciucusoara|
+Alyssum montanum|Ciucusoara de munte|
+Carduus nutans|Ciulin|
+Datura stramonium|Ciumafaie|laur;bolandarita;laur porcesc
+Galega officinalis|Ciumarea|ciumareaa;scrantitoare
+Rhinanthus minor|Clocotici|
+Staphylea pinnata|Clocotis|
+Ribes aureum|Coacaz auriu|
+Ribes nigrum|Coacaz negru|pomusor
+Ribes rubrum|Coacaz rosu|
+Equisetum arvense|Coada-calului|barba ursului;coada manzului
+Equisetum hyemale|Coada-calului de iarna|
+Equisetum sylvaticum|Coada-calului de padure|
+Equisetum telmateia|Coada-calului mare|
+Trametes versicolor|Coada-curcanului|
+Argentina anserina|Coada-racului|iarba gastii;zolotnic;argintica
+Achillea millefolium|Coada-soricelului|iarba oilor;bradatel;sorocina
+Calla palustris|Coada-zmeului|
+Hericium erinaceus|Coama-leului|
+Adonis aestivalis|Cocosei-de-camp|
+Tribulus terrestris|Coltii-babei|
+Cirsium erisithales|Coltul-lupului|
+Tropaeolum majus|Condurul-doamnei|
+Cordyceps militaris|Cordyceps|
+Coriandrum sativum|Coriandru|coriandr;piper alb;pucioasa
+Cornus mas|Corn|
+Trapa natans|Cornaci|castanul de apa
+Ruscus hypoglossum|Cornisor|
+Claviceps purpurea|Cornul-secarei|corn secarei;pintenul secarei
+Coronilla varia|Coronisca|coronistea
+Lepidium coronopus|Coronopus|
+Astragalus dasyanthus|Cosaci|
+Tagetes erecta|Craite|botanca
+Cirsium oleraceum|Crastavet|
+Celosia argentea|Creasta cocosului|
+Lepidium sativum|Creson|
+Alchemilla connivens|Cretisoara|
+Alchemilla mollis|Cretisoara|
+Alchemilla vulgaris|Cretisoara|
+Alchemilla alpina|Cretisoara alpina|
+Filipendula ulmaria|Cretusca|
+Lilium candidum|Crin alb|
+Lilium martagon|Crin de padure|
+Lilium lancifolium|Crin tigrat|
+Hepatica transsilvanica|Crucea voinicului|
+Senecio vulgaris|Cruciulita|
+Frangula alnus|Crusin|crusan;lemn cainesc;pasachina;salba moale;patachina;spinul cerbului
+Digitalis ferruginea|Cucenta|
+Conium maculatum|Cucuta|dudau
+Cicuta virosa|Cucuta de apa|
+Spiraea chamaedryfolia|Cununita|
+Cynanchum acutum|Curpen cainesc|curpene cainesc
+Clematis vitalba|Curpen de padure|
+Gongolaria barbata|Cystoseira|
+Daphne laureola|Dafin|
+Paris quadrifolia|Dalac|
+Viburnum lantana|Darmoz|
+Pulsatilla grandis|Dedita|
+Pulsatilla pratensis|Dedita|deditel;floarea vantului;iarba vantului;oite albe;vanturele;adormitele
+Pulsatilla montana|Dedita de munte|
+Soldanella angusta|Degetarele|
+Soldanella montana|Degetarut|degetarele;potirase
+Digitalis grandiflora|Degetel galben|degetar galben
+Digitalis lanata|Degetel lanos|degetarita;degetelul de camp
+Digitalis purpurea|Degetel rosu|
+Bidens tripartita|Dentita|
+Salvia aethiopis|Desfacatoare|
+Falcaria vulgaris|Dornic|
+Lotus dorycnium|Dorycnium|
+Cucurbita pepo|Dovleac|bostan;patison
+Cucurbita maxima|Dovleac turcesc|
+Berberis vulgaris|Dracila|dracina;gard viu;dragina;lemn galben;coaja de dracila
+Rumex scutatus|Dragavei|
+Lysimachia nummularia|Dretele|galbajoara
+Cytisus scoparius|Drob|maturice;matura verde
+Genista germanica|Drobita|
+Genista tinctoria|Drobita|galbenuta
+Isatis tinctoria|Drobusor|
+Saccharomyces cerevisiae|Drojdie de bere|
+Morus alba|Dud alb|dud;agud;fragar
+Morus nigra|Dud negru|dud;agud;fragar
+Teucrium chamaedrys|Dumbat|
+Teucrium montanum|Dumbat de munte|
+Mellitis melissophyllum|Dumbravnic|
+Echinacea angustifolia|Echinacea|
+Echinacea pallida|Echinacea|
+Echinacea purpurea|Echinacea|
+Fagus sylvatica|Fag|
+Phaseolus vulgaris|Fasole|
+Herniaria glabra|Feciorica|sapunas
+Herniaria incana|Feciorica|
+Herniaria hirsuta|Feciorica paroasa|
+Foeniculum vulgare|Fenicul|chimen dulce;anason dulce;anason nemtesc
+Dryopteris carthusiana|Feriga|
+Dryopteris filix-mas|Feriga|ferega;iarba sarpelui
+Pteridium aquilinum|Feriga de camp|
+Athyrium filix-femina|Feriga femeiasca|
+Asplenium trichomanes|Feriguta|
+Polypodium vulgare|Feriguta|iarba dulce
+Centaurium erythraea|Fierea-pamantului|tintaura;floare de friguri;centaura
+Marchantia polymorpha|Fierea-pamantului|
+Nymphaea lotus|Floare de tau|
+Phacelia tanacetifolia|Floarea albinelor|
+Passiflora caerulea|Floarea-pasiunii|
+Passiflora incarnata|Floarea-pasiunii|
+Anemone nemorosa|Floarea-pastelui|pastisor;pastita
+Helianthus annuus|Floarea-soarelui|rasarita;sora soarelui
+Parnassia palustris|Fluturasi|
+Pinguicula vulgaris|Foaie-grasa|
+Fragaria vesca|Frag|fragi de padure;fraguta
+Fragaria moschata|Frag de gradina|
+Fraxinus excelsior|Frasin|frasin comun
+Fraxinus angustifolia|Frasin de lunca|
+Fraxinus pallisiae|Frasin pufos|
+Dictamnus albus|Frasinel|
+Geranium palustre|Frigari|
+Fumana procumbens|Fumana|
+Fumaria officinalis|Fumarita|
+Fumaria schleicheri|Fumarita|
+Calendula officinalis|Galbenele|rujulita;calinica;filimica;ochi galben
+Lysimachia vulgaris|Galbinele|iarba ciorilor
+Dianthus caryophyllus|Garoafa|
+Dianthus carthusianorum|Garofita|
+Dianthus chinensis|Garofita chinezeasca|
+Dianthus armeria|Garofita de camp|
+Dianthus superbus|Garofita de munte|
+Anacamptis papilionacea|Gemanarita|
+Ruscus aculeatus|Ghimpe|ghimpe paduret
+Gentiana asclepiadea|Ghintura albastra|
+Gentianella amarella|Ghintura amara|
+Gentiana acaulis|Ghintura fara tulpina|
+Gentiana lutea|Ghintura galbena|fierea pamantului;intura;ghimbere de munte;tinctura. aceste
+Gentiana punctata|Ghintura punctata|fierea pamantului;intura;ghimbere de munte;tinctura. aceste
+Galanthus plicatus|Ghiocei|
+Leucojum vernum|Ghiocei bogati|
+Leucojum aestivum|Ghiocei de balta|ghiocel de vara
+Galanthus nivalis|Ghiocel|
+Lotus corniculatus|Ghizdei|
+Ginkgo biloba|Ginkgo|ginkgo biloba;patru-bani;arborele templier japonez;caisa argintie
+Lycium barbarum|Goji|catina de garduri
+Quercus petraea|Gorun|
+Triticum aestivum|Grau|gra
+Grindelia squarrosa|Grindelia|
+Genista sagittalis|Grozama|
+Peucedanum officinale|Gura-lupului|
+Phlomoides tuberosa|Gura-lupului|
+Scutellaria altissima|Gura-lupului|
+Scutellaria galericulata|Gura-lupului|
+Silene conica|Gusa-porumbelului|
+Silene noctiflora|Gusa-porumbelului|
+Silene vulgaris|Gusa-porumbelului|
+Cydonia oblonga|Gutui|
+Hamamelis virginiana|Hamamelis|
+Humulus lupulus|Hamei|maiuga;mamluga;tofolean;himel
+Peganum harmala|Harmala|
+Anthriscus cerefolium|Hasmatuchi|asmatui;asmatuchi;hasmaciuca
+Anthriscus sylvestris|Hasmatuchi de padure|hasmatuchi
+Xanthium spinosum|Holera|ghimpe;asprica;scaiete mocanesc;scaiete muscalesc;spin alb
+Armoracia rusticana|Hrean|
+Armoracia macrocarpa|Hrean salbaticit|
+Fagopyrum esculentum|Hrisca|grau negru
+Hydrocharis morsus-ranae|Iarba broastelor|
+Doronicum austriacum|Iarba-ciutei|
+Sedum acre|Iarba-de-soaldina|iarba ciutei;verzisoara;iarba tutunului
+Botrychium lunaria|Iarba-dracului|
+Imperatoria ostruthium|Iarba-dracului|
+Sedum album|Iarba faptului|
+Vincetoxicum fuscatum|Iarba fiarelor|
+Vincetoxicum hirundinaria|Iarba-fiarelor|
+Hylotelephium maximum|Iarba-grasa|
+Hylotelephium telephium|Iarba-grasa|
+Portulaca oleracea|Iarba-grasa|troscot gras;floare de piatra;grasita
+Sedum fabaria|Iarba-grasa|
+Inula helenium|Iarba-mare|omag;ochiul boului;smantanica
+Pentanema ensifolium|Iarba-mare ingusta|
+Inula britannica|Iarba-mare mica|
+Milium effusum|Iarba-meiului|mei
+Calluna vulgaris|Iarba-neagra|martaloaga
+Scrophularia nodosa|Iarba-neagra|
+Polygonum persicaria|Iarba-rosie|ardeias;iarba amara
+Echium vulgare|Iarba-sarpelui|
+Veronica urticifolia|Iarba sarpelui|
+Saxifraga aizoon|Iarba-surzilor|
+Saxifraga paniculata|Iarba-surzilor|
+Pulicaria dysenterica|Iarba-zgaibei|
+Fomes fomentarius|Iasca|
+Phellinus igniarius|Iasca de salcie|burete de stejar;iasca
+Fomitopsis betulina|Iasca mesteacanului|
+Jasminum officinale|Iasomie|
+Philadelphus coronarius|Iasomie|
+Hedera helix|Iedera|
+Daphne blagayana|Iedera alba|
+Juniperus communis|Ienupar|cetena;bradisor;jireapan;jneap;turtei;boabe de ienupar
+Linum usitatissimum|In|inul
+Linum hirsutum|In paros|
+Linum catharticum|In salbatic|
+Camelina sativa|Ineagra|
+Gypsophila paniculata|Ipcarige|gipsarita;coroana miresei;ciuin alb;ciuin;ipsarita
+Hyssopus officinalis|Isop|
+Mentha x gracilis|Izma|
+Mentha aquatica|Izma-broastei|izma de balta
+Mentha crispa|Izma creata|
+Mentha arvensis|Izma de camp|
+Mentha spicata|Izma verde|
+Stachys recta|Jale de camp|
+Stachys sylvatica|Jale de padure|
+Salvia sclarea|Jales muscat|
+Pinus mugo|Jneapan|jep;pin
+Visnaga daucoides|Khella|ammi
+Convallaria majalis|Lacramioara|lacrimioara;margaritar
+Citrus limon|Lamai|alamai;felie de lamaie
+Euphorbia cyparissias|Laptele-cainelui|lapte cainelui;laptele cucului;alior
+Euphorbia seguieriana|Laptele-cainelui|lapte cainelui;laptele cucului;alior
+Euphorbia stepposa|Laptele-cainelui|lapte cainelui;laptele cucului;alior
+Euphorbia helioscopia|Laptele-cucului|lapte cainelui;alior
+Euphorbia amygdaloides|Laptele-cucului de padure|
+Larix decidua|Larice|zada
+Solanum dulcamara|Lasnicior|
+Lathyrus sativus|Latir|
+Ilex aquifolium|Laur-de-padure|
+Datura innoxia|Laur paros|
+Nerium oleander|Leandru|
+Ligustrum vulgare|Lemn-cainesc|cununita;malin negru;cires de padure;tulichioara
+Glycyrrhiza glabra|Lemn-dulce|iarba dulce;iarba tare;firuta;raculet;lemnul-dulce
+Glycyrrhiza echinata|Lemn-dulce salbatic|
+Artemisia abrotanum|Lemnul-Domnului|lemn domnului;lemnus;pelin domnesc;lemnul lui dumnezeu
+Allium ursinum|Leurda|usturoita;usturoi salbatic;usturoiul ursului
+Levisticum officinale|Leustean|
+Lavandula angustifolia|Levantica|levand;spichinel;levantica de gradina
+Parmelia sulcata|Lichen|
+Cetraria islandica|Lichen de piatra|muschi de munte;muschiul de piatra;muschi cret
+Lobaria pulmonaria|Lichen de plamani|branca
+Evernia prunastri|Lichen de stejar|
+Peltigera canina|Lichenul cainilor|lichen cainilor
+Cladonia rangiferina|Lichenul renilor|
+Syringa vulgaris|Liliac|
+Anchusa officinalis|Limba-boului|miruta
+Cynoglossum officinale|Limba-cainelui|
+Asplenium scolopendrium|Limba-cerbului|
+Gymnadenia conopsea|Limba cucului|
+Borago officinalis|Limba-mielului|
+Ophioglossum vulgatum|Limba sarpelui|
+Alisma lanceolatum|Limbarita|
+Alisma plantago-aquatica|Limbarita|limba broastei
+Achillea crithmifolia|Limbricarita|
+Linaria vulgaris|Linarita|bumbac de camp;inisor;bumbacarita
+Cochlearia borzaeana|Lingurea|
+Cochlearia pyrenaica|Lingurea|
+Galeopsis tetrahit|Lingurica|
+Vicia lens|Linte|
+Lathyrus niger|Linte neagra|
+Lathyrus latifolius|Lintea-pratului|
+Lathyrus pratensis|Lintea-pratului|
+Galium aparine|Lipicioasa|cleavers
+Viscaria vulgaris|Lipicioasa|
+Lobelia cardinalis|Lobelia rosie|
+Atriplex hortensis|Loboda|
+Agastache foeniculum|Lofant|
+Lunaria rediviva|Lopatica|
+Medicago sativa|Lucerna|
+Medicago falcata|Lucerna galbena|
+Verbascum densiflorum|Lumanarica|coada boului;coada lupului;lipean
+Verbascum phlomoides|Lumanarica|coada boului;coada lupului;lipean
+Verbascum thapsus|Lumanarica|
+Verbascum nigrum|Lumanarica neagra|
+Oenothera biennis|Luminita-noptii|luminita
+Oenothera glazioviana|Luminita-noptii|
+Clematis recta|Luminoasa|
+Galeopsis segetum|Lungurica|
+Lupinus albus|Lupin|
+Phelipanche ramosa|Lupoaie|
+Eschscholzia californica|Mac californian|
+Glaucium corniculatum|Mac cornut|
+Papaver rhoeas|Mac de camp|mac iepuresc;macul cucului
+Papaver somniferum|Mac de gradina|macul alb;mac
+Glaucium flavum|Mac galben de mare|
+Papaver bracteatum|Mac iranian|
+Rosa canina|Maces|trandafir salbatic;cacadar;rasura;rug salbatic
+Rosa pendulina|Maces de munte|
+Rumex acetosa|Macris|
+Rumex crispus|Macris cret|
+Rumex acetosella|Macris marunt|macri sul;macrisul marunt;iarba de macris
+Oxalis acetosella|Macrisul-iepurelui|macrisul caprei
+Origanum majorana|Maghiran|margaran;maioran;mageran;madiran
+Magnolia liliiflora|Magnolie|
+Mahonia aquifolium|Mahonie|
+Grifola frondosa|Maitake|
+Helianthemum alpestre|Malaoaie|
+Prunus padus|Malin|
+Malus domestica|Mar|
+Malus sylvestris|Mar paduret|
+Anethum graveolens|Marar|
+Oenanthe aquatica|Mararul-cainelui|
+Leucanthemum vulgare|Margareta|
+Aristolochia clematitis|Marul-lupului|mar lupului;cucurbetica;cubertica
+Aristolochia lutea|Marul lupului|
+Hyoscyamus niger|Maselarita|nebunarita;maselar
+Dracocephalum moldavica|Matacina|mataciunea
+Dracocephalum austriacum|Mataciune|
+Dracocephalum ruyschiana|Mataciune|
+Atropa belladonna|Matraguna|cireasa lupului;doamna codrului;doamna mare;beladona
+Lathyrus oleraceus|Mazare|
+Vicia sativa|Mazariche|
+Panicum miliaceum|Mei|
+Lithospermum officinale|Mei-pasaresc|margeluse
+Mentha x piperita|Menta|izma de leac;minta;minta de gradina
+Vaccinium vitis-idaea|Merisor|afin rosu;smardar;merisor de munte
+Chimaphila umbellata|Merisor de padure|
+Betula pendula|Mesteacan|mastacan;mastacin;mesteacan argintiu
+Betula nana|Mesteacan pitic|
+Betula pubescens|Mesteacan pufos|mesteacanul
+Betula humilis|Mestecanas|
+Erysimum odoratum|Micsandra salbatica|
+Erysimum cheiranthoides|Micsandre salbatice|
+Erysimum diffusum|Micsandre salbatice|
+Erysimum witmannii|Micsandre salbatice|
+Vitex agnus-castus|Mielarea|mielareaa;scai de tufa mare;lemnul lui avram;agnus castus
+Pulmonaria angustifolia|Mierea-ursului|
+Pulmonaria montana|Mierea-ursului|
+Pulmonaria obscura|Mierea ursului|
+Pulmonaria officinalis|Mierea-ursului|cuscrisor;plamanarica
+Pulmonaria rubra|Mierea ursului|
+Prunus dulcis|Migdal|
+Myrtus communis|Mirt|
+Setaria italica|Mohor|mei
+Fraxinus ornus|Mojdrean|frasin de munte;frasin negru
+Picea abies|Molid|
+Trigonella caerulea|Molotru|
+Daucus carota|Morcov|morcov de gradina;morcov salbatic;morcovul campului;rusinea fetei
+Seseli libanotis|Morcovul-ciutei|
+Mespilus germanica|Mosmon|mosmoana
+Amaranthus caudatus|Motul curcanului|
+Lathraea squamaria|Muma padurii|muma paduriiy
+Rubus fruticosus|Mur|rug de mure;mur salbatic
+Rubus plicatus|Mur|
+Rubus caesius|Mur de camp|
+Pelargonium odoratissimum|Muscata|
+Pelargonium radens|Muscata|
+Pelargonium zonale|Muscata|
+Knautia arvensis|Muscata-dracului|
+Polytrichum commune|Muschi de pamant|
+Sphagnum palustre|Muschi de turba|
+Matricaria chamomilla|Musetel|romanita;moruna
+Tripleurospermum inodorum|Musetel nemirositor|romanita nemirositoare
+Chamaemelum nobile|Musetel roman|romanitoi;romanita mare;romanita nobila;musetel
+Sinapis alba|Mustar alb|mustar de gradina;rapita alba;rapita de gradina
+Brassica nigra|Mustar negru|hardal;mustar de camp;mustar salbatic
+Brassica juncea|Mustar vanat|
+Bryonia alba|Mutatoare|
+Bryonia dioica|Mutatoare|
+Scopolia carniolica|Mutulica|matraguna mica
+Malva thuringiaca|Nalba de camp|
+Alcea rosea|Nalba de gradina|
+Althaea rosea|Nalba de gradina|nalba neagra
+Alcea biennis|Nalba de padure|
+Malva sylvestris|Nalba de padure|colaceii babei;nalba salbatica;nalba
+Althaea officinalis|Nalba-mare|ruja;nalba buna
+Malva neglecta|Nalba mica|colaceii babei;nalba salbatica;nalba de padure
+Malva pusilla|Nalba mica|
+Malva verticillata|Nalba verticilata|
+Brassica rapa|Nap|curechi chinezesc
+Geranium robertianum|Napraznic|
+Narcissus poeticus|Narcise albe|narcise
+Narcissus pseudonarcissus|Narcise galbene|narcisa
+Nasturtium officinale|Nasturel|cardama
+Cicer arietinum|Naut|
+Agrostemma githago|Neghina|
+Nigella arvensis|Negrusca|
+Delphinium consolida|Nemtisor de camp|iarba de facut copii
+Hesperis matronalis|Nopticoasa|
+Hesperis sylvestris|Nopticoasa|
+Mirabilis jalapa|Noptita|
+Myosotis scorpioides|Nu-ma-uita|miozotis;ochii pasaruicii
+Juglans regia|Nuc|
+Juglans cinerea|Nuc cenusiu|
+Juglans nigra|Nuc negru|
+Nymphaea alba|Nufar alb|
+Nuphar lutea|Nufar galben|
+Acorus calamus|Obligeana|speteaza pestrita;speteaza tarcata;calin;calmuz
+Valeriana officinalis|Odolean|iarba pisicii;gusa porumbelului;de valeriana
+Valeriana tripteris|Odolean de munte|
+Aconitum napellus|Omag|
+Aconitum plicatum|Omag|
+Aconitum anthora|Omag galben|
+Silene latifolia|Opaita|
+Actaea spicata|Orbalt|iarba lui cristofor;cohosul negru
+Lathyrus tuberosus|Oresnita|
+Oryza sativa|Orez|
+Hordeum vulgare|Orz|orz de primavara;orz de toamna
+Ononis arvensis|Osul-iepurelui|
+Ononis spinosa|Osul-iepurelui|casul iepurelui;lingoare;salastioara
+Koelreuteria paniculata|Otetar galben|
+Avena sativa|Ovaz|ovaz alb;zob
+Crataegus laevigata|Paducel|gherghinar;malai moale;maracine alb;maracine
+Crataegus monogyna|Paducel|gherghinar;malai moale;maracine alb;maracine
+Crataegus pentagyna|Paducel|
+Lepidium ruderale|Paduchernita|
+Carduus crispus|Palamida|
+Cirsium arvense|Palamida|
+Geranium phaeum|Palaria-cucului|
+Paliurus spina-christi|Paliur|spinul lui cristos
+Taraxacum officinale|Papadie|laptuca;papalunga;gusa gainii;floarea turcului
+Alkekengi officinarum|Papalau|papala
+Cypripedium calceolus|Papucul-doamnei|
+Pyrus communis|Par|
+Parietaria officinalis|Parachernita|
+Antennaria dioica|Parpian|talpa matei;sunatoare de munte;floarea patului;siminic
+Pastinaca sativa|Pastarnac|
+Anemone ranunculoides|Pastita|pascuta
+Geranium pratense|Pastita de livada|
+Solanum lycopersicum|Patlagele rosii|tomate;patlagica rosie;rosie
+Plantago major|Patlagina|
+Plantago media|Patlagina carunta|
+Plantago arenaria|Patlagina de nisip|ochiul lupului
+Plantago lanceolata|Patlagina ingusta|patlagina;limba oii;limba broastei
+Petroselinum crispum|Patrunjel|
+Peucedanum arenarium|Patrunjel de nisip|
+Aethusa cynapium|Patrunjelul-cainelui|
+Stachys germanica|Pavaza|vindeceaa
+Polygonatum latifolium|Pecetea-lui-Solomon|
+Polygonatum multiflorum|Pecetea-lui-Solomon|
+Polygonatum odoratum|Pecetea-lui-Solomon|
+Lycopodium clavatum|Pedicuta|bradisor;barba ursului;palamida
+Spinulum annotinum|Pedicuta|
+Artemisia absinthium|Pelin|pelinas;pelinita;iarba fecioarelor
+Artemisia scoparia|Pelin de maturi|
+Artemisia santonicum|Pelin de saratura|
+Artemisia annua|Pelin dulce|
+Artemisia pontica|Pelin mic|
+Artemisia vulgaris|Pelinarita|
+Artemisia austriaca|Pelinita austriaca|
+Cucumis melo|Pepene galben|zemos;bostan galben;cantalup
+Citrullus lanatus|Pepene verde|lubenita;harbuz
+Perilla frutescens|Perila|
+Orthilia secunda|Perisor|
+Pyrola rotundifolia|Perisor|
+Pimpinella saxifraga|Petrinjel|
+Aegopodium podagraria|Piciorul-caprei|
+Ranunculus acris|Piciorul-cocosului|
+Ranunculus auricomus|Piciorul-cocosului|
+Ranunculus oxyspermus|Piciorul-cocosului|
+Ranunculus polyanthemos|Piciorul-cocosului|
+Ranunculus bulbosus|Piciorul-cocosului bulbos|
+Ranunculus repens|Piciorul-cocosului taratoare|piciorul cocosului
+Lycopus europaeus|Piciorul-lupului|picior lupului
+Lycopus exaltatus|Piciorul-lupului inalt|
+Cerinthe minor|Pidosnic|
+Prunus persica|Piersic|
+Pinus sylvestris|Pin|
+Pinus nigra subsp. banatica|Pin de Banat|
+Pinus nigra|Pin negru|
+Persicaria hydropiper|Piperul-apei|piper de halta;dintele dracului
+Elymus repens|Pir|chir;ragalie;graul matii
+Tanacetum cinerariifolium|Piretru|piretr
+Ecballium elaterium|Plesnitoare|castravete salbatic
+Populus alba|Plop alb|
+Populus nigra|Plop negru|plop plutas
+Populus tremula|Plop tremurator|
+Asarum europaeum|Pochivnic|popalnic;piperul lupului;popilnic
+Tussilago farfara|Podbal|podbul;brusturel;cenusoara;limba vecinului
+Hepatica nobilis|Popilnic|popalnic iepuresc;trei rai
+Orchis militaris|Poroinic|
+Orchis purpurea|Poroinic|
+Citrus x sinensis|Portocal|
+Zea mays|Porumb|cucuruz;papusoi
+Prunus spinosa|Porumbar|spin;corcodel;scorombar
+Allium ampeloprasum|Praz|
+Geranium macrorrhizum|Pribolnic|
+Prunus domestica|Prun|perj
+Epilobium hirsutum|Pufulita|pufulita paroasa
+Epilobium anagallidifolium|Pufulita alpina|
+Epilobium parviflorum|Pufulita cu flori mici|
+Epilobium collinum|Pufulita de colina|
+Epilobium palustre|Pufulita de mlastina|
+Epilobium montanum|Pufulita de munte|
+Chamaenerion fleischeri|Pufulita-de-pietris|
+Epilobium lanceolatum|Pufulita lanceolata|
+Epilobium obscurum|Pufulita verde-inchis|
+Salix purpurea|Rachita rosie|rachita;rosioara
+Chamaenerion angustifolium|Rachitan|
+Lythrum salicaria|Rachitan|floarea zanei;lemnusca
+Lythrum virgatum|Rachitan|
+Epilobium roseum|Racitoaica|
+Bistorta officinalis|Racovina|raculet
+Brassica napus|Rapita|nap;curechi chinezesc
+Barbarea vulgaris|Rapita salbatica|
+Ganoderma lucidum|Reishi|
+Rheum officinale|Revent|rubarba;rabarbura
+Rheum palmatum|Revent|rubarba;rabarbura;de revent turcesc pisata
+Reseda luteola|Rezeda|
+Reseda lutea|Rezeda salbatica|rechie
+Rhodiola rosea|Rhodiola|
+Ricinus communis|Ricin|capusa
+Raphanus sativus|Ridiche|
+Raphanus niger|Ridiche neagra|ridichea
+Raphanus raphanistrum|Ridiche salbatica|
+Stellaria media|Rocoina|racovina
+Stellaria graminea|Rocotea|
+Punica granatum|Rodie|
+Arum cylindraceum|Rodul-pamantului|
+Arum maculatum|Rodul-pamantului|rod pamantului;calendarul codrului
+Arum orientale|Rodul-pamantului|rod pamantului;calendarul codrului
+Carex riparia|Rogoz|
+Rubia tinctorum|Roiba|iarba de vopsea;garanta
+Melissa officinalis|Roinita|iarba roiului;busuiocul stupului;roiste
+Anthemis ruthenica|Romanita de camp|
+Cota tinctoria|Romanita galbena|floare de perina
+Echinops sphaerocephalus|Rostogol|
+Echinops ritro|Rostogol albastru|
+Chelidonium majus|Rostopasca|negelarita
+Drosera intermedia|Roua-cerului|
+Drosera rotundifolia|Roua-cerului|
+Salvia rosmarinus|Rozmarin|
+Rheum rhabarbarum|Rubarba|
+Eruca sativa|Rucola|
+Eruca vesicaria|Rucola|
+Rudbeckia laciniata|Rudbeckia|
+Succisa pratensis|Ruinita|
+Adonis vernalis|Ruscuta-de-primavara|
+Lactuca sativa|Salata|salata verde;marole;laptuca
+Ulva lactuca|Salata de mare|
+Lactuca virosa|Salata salbatica|
+Euonymus europaeus|Salba moale|lemnul cainelui;vonicer
+Euonymus latifolius|Salba rau-mirositoare|salba moale;lemnul cainelui;vonicer
+Robinia pseudoacacia|Salcam|brebene;lemn alb;salcam alb;acacie;robinia pseudacacia;salcim
+Laburnum anagyroides|Salcam galben|
+Styphnolobium japonicum|Salcam japonez|salcam boieresc;sofora
+Amorpha fruticosa|Salcam mic|amorfa;amorfa arbustiva;salcam pitic
+Salix daphnoides|Salcie|
+Salix fragilis|Salcie|
+Salix rosmarinifolia|Salcie taratoare|
+Elaeagnus angustifolia|Salcioara|
+Salvia officinalis|Salvie|salbie;serlai;jales bun
+Salvia pratensis|Salvie de camp|
+Salvia sylvestris|Salvie salbatica|
+Lathyrus hirsutus|Sangele-voinicului|
+Cornus sanguinea|Sanger|
+Sanicula europaea|Sanisoara|
+Galium palustre|Sanziene|
+Galium verum|Sanziene|dragaica;sanziana
+Galium album|Sanziene albe|
+Galium mollugo|Sanziene albe|
+Cruciata laevipes|Sanziene-galbene de padure|
+Saponaria officinalis|Sapunarita|vacarita;sapunel;berbecei;odogaci
+Vinca herbacea|Saschiu|
+Vinca minor|Saschiu|saschi;merisor;brebenoc
+Vinca major|Saschiu mare|
+Carduus candicans|Scai|
+Eryngium maritimum|Scai de mare|scai dracului;vitrigon
+Centaurea solstitialis|Scai galben|
+Centaurea calcitrapa|Scai ghimpos|maturi;ghimpe;scaiete
+Onopordum acanthium|Scai magaresc|ghimpe mare
+Eryngium planum|Scai vanat|spinul vantului;scai albastru
+Dipsacus laciniatus|Scaiete|
+Eryngium campestre|Scaiul-dracului|
+Lysimachia arvensis|Scanteiuta|scinteuta
+Potentilla ternata|Scantieuta de munte|
+Polemonium caeruleum|Scara-Domnului|scaricica
+Trigonella foenum-graecum|Schinduf|sfindoc
+Centaurea benedicta|Schinel|sofran salbatic;iarba amara
+Potentilla erecta|Sclipeti|
+Phlomis herba-venti subsp. pungens|Scorogoi|
+Cormus domestica|Scorus|par
+Sorbus aucuparia|Scorus de munte|scoru sul de munte;scorus pasaresc
+Potentilla argentea|Scrantitoare|
+Dactylorhiza maculata|Sculatoare|
+Cotinus coggygria|Scumpie|otetar
+Secale cereale|Secara|
+Beta vulgaris|Sfecla|mangold
+Beta rubra|Sfecla rosie|
+Lentinula edodes|Shiitake|
+Limonium gmelini|Sica|
+Glechoma hederacea|Silnic|
+Glechoma hirsuta|Silnic paros|
+Euphrasia officinalis|Silur|
+Euphrasia stricta|Silur|
+Helichrysum arenarium|Siminoc|floare de paie;siminic
+Gnaphalium uliginosum|Siminoc de balta|
+Impatiens noli-tangere|Slabanog|
+Seseli tortuosum|Smeoaie|
+Ficus carica|Smochin|
+Sambucus nigra|Soc|coramnic;soc negru;iboz
+Crocus sativus|Sofran|
+Carthamus tinctorius|Sofranel|
+Glycine max|Soia|
+Silphiodaucus prutenicus|Somnoroasa|
+Veronica orchidea|Soparlaita|
+Melampyrum arvense|Sor-cu-frate|
+Torminalis glaberrima|Sorb|
+Poterium sanguisorba|Sorbestrea|
+Sanguisorba officinalis|Sorbestrea|sorbestreaa;cerbarea;cerbareaua
+Origanum vulgare|Sovarf|sovarv;busuioc de padure;trifoiste;sovirv
+Senecio jacobaea|Spalacioasa|
+Spinacia oleracea|Spanac|
+Helleborus odorus|Spanz|
+Helleborus purpurascens|Spanz|spant;spanz comun
+Asparagus officinalis|Sparanghel|
+Asparagus tenuifolius|Sparanghel salbatic|
+Spergularia rubra|Spergularia|
+Tanacetum parthenium|Spilcuta|calomfir;vetriceaua
+Carduus acanthoides|Spin|
+Chrysosplenium alternifolium|Splina-pamantului|
+Solidago virgaurea|Splinuta|
+Solidago canadensis|Splinuta canadiana|sanziene de gradina;sanziene canadiene
+Iris germanica|Stanjenel|
+Iris pseudacorus|Stanjenel de balta|stanjenel galben
+Quercus robur|Stejar|tufan
+Quercus pubescens|Stejar pufos|
+Veronica chamaedrys|Stejarel|
+Stevia rebaudiana|Stevia|
+Rumex alpinus|Stevia stanelor|
+Rumex patientia|Stevie|dragomir;macris de gradina
+Amaranthus graecizans|Stir african|
+Amaranthus albus|Stir alb|
+Amaranthus blitum|Stir verde|
+Veratrum album|Stirigoaie|
+Veratrum lobelianum|Stirigoaie|
+Veratrum nigrum|Stirigoaie neagra|stirigoaie
+Arctostaphylos uva-ursi|Strugurii-ursului|caminei
+Arenaria serpyllifolia|Studenita|
+Scleranthus annuus|Studenita|
+Scleranthus uncinatus|Studenita|
+Phragmites australis|Stuf|
+Platanthera bifolia|Stupinita|
+Platanthera chlorantha|Stupinita|
+Lamium amplexicaule|Sugel|
+Melilotus officinalis|Sulfina|sulcina;sarcina
+Melilotus albus|Sulfina alba|
+Hypericum elegans|Sunatoare|
+Hypericum maculatum|Sunatoare|
+Hypericum perforatum|Sunatoare|pojarnita
+Hypericum tetrapterum|Sunatoare|
+Hypericum hirsutum|Sunatoare paroasa|
+Sonchus oleraceus|Susai|
+Sesamum indicum|Susan|
+Swertia perennis|Swertie|volovatic
+Leonurus cardiaca|Talpa-gastei|catusnita;talpa lupului;laba lupului;somnisor
+Astrantia major|Talpa-ursului|
+Daphne cneorum|Tamaita|
+Dysphania ambrosioides|Tamaita|lamaita
+Tamarix gallica|Tamarisc|
+Galeopsis ladanum|Taposnic|
+Artemisia dracunculus|Tarhon|
+Symphytum officinale|Tataneasa|tataneata;barba tatei;iarba intaritoare;halba mucilagiu de tataneasa
+Spiraea crenata|Taula|
+Tilia x europaea|Tei|
+Tilia tomentosa|Tei argintiu|tei;teiul argintiu;teiul alb;teiul varatic
+Tilia platyphyllos|Tei cu frunza mare|
+Tilia cordata|Tei pucios|
+Abutilon theophrasti|Teisor|
+Apium graveolens|Telina|puterea barbatului;telina de balta
+Lagenaria siceraria|Tidva|
+Circaea intermedia|Tilisca|
+Circaea lutetiana|Tilisca|
+Gentiana cruciata|Tintaura mare|tiana
+Taxus baccata|Tisa|
+Helianthus tuberosus|Topinambur|cartoful saracilor;guli;morcov porcesc;mar de pamant;nap porcesc;napi porcesti
+Viola odorata|Toporas|tamaioara;zambila de gradina;viorea
+Viola canina|Toporas cainesc|
+Viola reichenbachiana|Toporas de padure|
+Viola hirta|Toporas paros|
+Cuscuta europaea|Torel|
+Cuscuta epilinum|Torel de in|
+Capsella bursa-pastoris|Traista-ciobanului|buruiana de friguri;coada pisicii;banului
+Rosa centifolia|Trandafir|trandafir de gradina
+Rosa gallica|Trandafir de camp|
+Rosa damascena|Trandafir de Damasc|
+Rosa rugosa|Trandafir japonez|
+Ranunculus illyricus|Tranjoaica|
+Viola tricolor|Trei-frati-patati|panseluta salbatica;tamaioara;carligei
+Viola arvensis|Trei-frati-patati de camp|trei frati patati;panseluta salbatica;tamaioara;carligei
+Mercurialis annua|Trepadatoare|
+Trifolium repens|Trifoi alb|
+Trifolium montanum|Trifoi de munte|
+Trifolium pratense|Trifoi rosu|
+Trifolium campestre|Trifoias|
+Menyanthes trifoliata|Trifoiste-de-balta|trifoistea de balta;trifoiste
+Polygonum aviculare|Troscot|iarba gainilor;motul curcanului
+Persicaria amphibia|Troscot de balta|pomul broastelor
+Thuja occidentalis|Tuia|
+Platycladus orientalis|Tuia orientala|tuia
+Daphne mezereum|Tulichina|piperul lupului
+Agrimonia eupatoria|Turita-mare|cornatel;buruiana de friguri
+Carlina acaulis|Turta|ciurul zanelor
+Carlina vulgaris|Turtita|
+Ulmus minor|Ulm|
+Astragalus glycyphyllos|Unghia-gaii|
+Marrubium vulgare|Unguras|baltatura;iarba flocoasa;gutuita;voronic;horehound
+Ranunculus ficaria|Untisor|salatica;grausor
+Dioscorea communis|Untul-pamantului|fluieratoarea
+Orchis morio|Untul-vacii|unt vacii;poroinic
+Bupleurum falcatum|Urechea-iepurelui|
+Auricularia auricula-judae|Urechea-lui-Iuda|
+Primula auricula|Urechea-ursului|
+Sempervivum ruthenicum|Urechelnita|
+Sempervivum tectorum|Urechelnita|tata mielului;verzisoara
+Urtica dioica|Urzica|urzica de padure;urzica creata
+Urtica urens|Urzica mica|
+Lamium album|Urzica-moarta|urzica alba;sugel alb
+Lamium galeobdolon|Urzica-moarta galbena|
+Allium sativum|Usturoi|mujdei proaspat
+Alliaria petiolata|Usturoita|
+Dipsacus fullonum|Varga-ciobanului|
+Brassica oleracea|Varza|broccoli;conopida broccoli;varza creata;varza nemteasca
+Viscum album|Vasc|vasc european
+Loranthus europaeus|Vasc de stejar|
+Anthyllis vulneraria|Vatamatoare|
+Gratiola officinalis|Veninarita|
+Veronica officinalis|Ventrilica|stratorica
+Verbena officinalis|Verbina|sporici
+Aloysia citrodora|Verbina de lamaie|
+Rhamnus cathartica|Verigar|spinul cerbului
+Veronica spicata|Veronica|
+Tanacetum vulgare|Vetrice|calomfir;vetriceaua
+Tanacetum corymbosum|Vetrice de padure|napraznic
+Galium odoratum|Vinarita|mireasa vinului
+Catharanthus roseus|Vinca roz|
+Betonica officinalis|Vindecea|
+Stachys officinalis|Vindecea|vindeceaa;wood betony
+Ajuga genevensis|Vinerita|
+Ajuga reptans|Vinerita|vinetica
+Solanum melongena|Vinete|patlagica vanata;vanata
+Viola collina|Viorele salbatice|
+Centaurea jacea|Vipereasca|
+Ruta graveolens|Virnant|taiat
+Prunus cerasus|Visin|
+Vitis vinifera|Vita-de-vie|
+Anthoxanthum odoratum|Vitelar|parangina;iarba fanului
+Sisymbrium strictissimum|Voinicica|
+Convolvulus arvensis|Volbura|rochita randunelei;poala randunicii;poala maicii domnului;adormitea;rochita-randunicii
+Hieracium transylvanicum|Vulturica|
+Hieracium umbellatum|Vulturica|
+Pilosella officinarum|Vulturica|
+Pinus cembra|Zambru|
+Hibiscus trionum|Zamosita|macul ciorii
+Solanum nigrum|Zarna|
+Centaurea phrygia|Zglavoc|
+Lapsana communis|Zgrabunta|
+Laserpitium latifolium|Zmeoaica|
+Rubus idaeus|Zmeur|malina;gfrunze de zmeura
+Ipomoea purpurea|Zorele|buna dimineata
+897

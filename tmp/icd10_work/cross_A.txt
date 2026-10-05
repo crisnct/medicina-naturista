@@ -1,0 +1,108 @@
+A18.2   Adenita tuberculoasa   [titlu: Limfadenopatia tuberculoasa periferica]  <Tuberculous peripheral lymphadenopathy>  ~ Tuberculoza ganglionara | Tuberculoza splenica | Tuberculoza intestinala
+A52.1   Artropatia Charcot†   [titlu: Sifilis nervos simptomatic]  <Symptomatic neurosyphilis>  ~ 
+A54.1   Abcesul gonococic al glandelor Bartholin   [titlu: Infectia gonococica a partii inferioare a tractului genito-urinar, cu abces periuretral sau al glandelor anexe]  <Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess>  ~ Abces de glanda Bartholin
+A69.9   Alte boli prin Chlamydia   [titlu: Infectia cu spirochete, nespecificata]  <Spirochetal infection, unspecified>  ~ Chlamydia
+B24     AIDS cu legaturi complexe [ARC]   [titlu: Bolile prin virusul imunodeficientei umane [HIV] nespecificate]  <>  ~ 
+B24     Alte boli virale   [titlu: Bolile prin virusul imunodeficientei umane [HIV] nespecificate]  <>  ~ Viroza
+B96.5   aeruginosa   [titlu: Pseudomonas, (aeruginosa) (Burkholderia pseudommallei) (mallei) cauza unor boli clasate la alte capitole]  <Pseudomonas (aeruginosa) (mallei) (pseudomallei) as the cause of diseases classified elsewhere>  ~ 
+C20     Ampula rectala   [titlu: Tumora maligna a rectului]  <Malignant neoplasm of rectum>  ~ 
+C78.6   Ascite maligne   [titlu: Tumora maligna secundara a retroperitoneului si peritoneului]  <Secondary malignant neoplasm of retroperitoneum and peritoneum>  ~ 
+D80.0   Agammaglobulinemia autosoma recesiva (tip elvetian)   [titlu: Hipogammaglobulinemia ereditara]  <Hereditary hypogammaglobulinemia>  ~ 
+D80.1   Agammaglobulinemia cu limfocite B purtatori de imunoglobine   [titlu: Hipogammaglobulinemia nonfamiliala]  <Nonfamilial hypogammaglobulinemia>  ~ 
+D80.1   Agammaglobulinemia comuna variabila [CVAgamma]   [titlu: Hipogammaglobulinemia nonfamiliala]  <Nonfamilial hypogammaglobulinemia>  ~ 
+D89.9   Afectiunile glandei tiroide   [titlu: Tulburari implicand sistemul imunitar, nespecificate]  <Disorder involving the immune mechanism, unspecified>  ~ 
+E71.3   Adenoleucodistrofia [Addison-Schilder]   [titlu: Tulburari de metabolism al acizilor grasi]  <Disorders of fatty-acid metabolism>  ~ Adrenoleucodistrofie
+E72.3   Aciduria glutarica   [titlu: Tulburari de metabolism al lizinei si hidroxilizinei]  <Disorders of lysine and hydroxylysine metabolism>  ~ Acidemie glutarica tip I | Acidemie glutarica tip II
+E80.3   Acatalazia [Takahara]   [titlu: Deficit in catalaza si peroxidaza]  <Defects of catalase and peroxidase>  ~ 
+F00.0   Alzheimer, debut presenil   [titlu: Dementa in boala Alzheimer, cu debut precoce (G30.0†)]  <>  ~ 
+F00.1   Alzheimer, debut senil   [titlu: Dementa in boala Alzheimer, cu debut tardiv (G30.1†)]  <>  ~ 
+F06.3   afective   [titlu: Tulburari ale dispozitiei [afective] organice]  <Mood disorder due to known physiological condition>  ~ 
+F06.6   astenica   [titlu: Tulburare organica labila [astenica] emotional]  <>  ~ Astenie
+F34     afectiva   [titlu: Tulburari persistente de dispozitie [afectiva]]  <Persistent mood [affective] disorders>  ~ 
+F34.9   afective   [titlu: Tulburare a dispozitiei [afective], nespecificata]  <Persistent mood [affective] disorder, unspecified>  ~ 
+F39     afective   [titlu: Tulburari nespecificate ale dispozitiei (afective)]  <Unspecified mood [affective] disorder>  ~ 
+F52.3   Anorgasm psihogen   [titlu: Disfunctie orgasmica]  <Orgasmic disorder>  ~ 
+G40.1   Atacuri fara alterarea cunostintei   [titlu: Epilepsia simptomatica legata de localizare (focala, partiala) si sindroame epileptice cu atacuri partiale simple]  <Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures>  ~ 
+G40.1   Atacuri partiale simple evoluand catre atacuri secundare generalizate   [titlu: Epilepsia simptomatica legata de localizare (focala, partiala) si sindroame epileptice cu atacuri partiale simple]  <Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with simple partial seizures>  ~ 
+G40.2   Atacuri cu alterarea cunostintei, deseori cu automatisme   [titlu: Epilepsia simptomatica legata de localizare (focala, partiala) si sindroame epileptice cu atacuri partiale complexe]  <Localization-related (focal) (partial) symptomatic epilepsy and epileptic syndromes with complex partial seizures>  ~ 
+G83.9   Alte afectiuni ale sistemului nervos   [titlu: Sindrom paralitic, nespecificat]  <Paralytic syndrome, unspecified>  ~ Candidoza meningeana | Limfom primar al sistemului nervos central | Meningita criptocococica | Neurobruceloza
+H00.0   Abcesul pleoapei   [titlu: Orgelet si alte inflamatii profunde ale pleoapei]  <Hordeolum (externum) (internum) of eyelid>  ~ 
+H05.0   Abcesul orbitei   [titlu: Inflamatii acute ale orbitei]  <Acute inflammation of orbit>  ~ Abces uretral
+H05.3   Atrofia orbitei   [titlu: Deformarea orbitei]  <Deformity of orbit>  ~ 
+H31.1   Atrofia choroidei   [titlu: Degenerescenta choroidiana]  <Choroidal degeneration>  ~ Atrofie tiroidiana | Distrofie coroidiana
+H49.2   abductor   [titlu: Paralizia celui de-al saselea nerv [abductor]]  <Sixth [abducent] nerve palsy>  ~ 
+H54     Acuitate vizuala cu cea mai buna posibilitate de corectie   [titlu: Cecitatea si scaderea vazului]  <Blindness and low vision>  ~ 
+H54.7   Alte afectiuni ale ochiului si anexelor sale   [titlu: Pierdere de vedere, nespecificata]  <Unspecified visual loss>  ~ 
+H83.9   Alte afectiuni ale urechii   [titlu: Boala urechii interne, nespecificata]  <Unspecified disease of inner ear>  ~ 
+I00     Artrita, reumatica, acuta sau subacuta   [titlu: Reumatismul articular acut fara mentionarea complicatiilor cardiace]  <Rheumatic fever without heart involvement>  ~ 
+I05.9   Afectiune (cronica) (valva) mitrala   [titlu: Boala valvei mitrale, nespecificata]  <Rheumatic mitral valve disease, unspecified>  ~ Atrezie mitrala | Insuficienta mitrala | Prolaps de valva mitrala | Stenoza mitrala
+I07.9   Afectiunea valvei tricuspide   [titlu: Boala valvei tricuspide, nespecificata]  <Rheumatic tricuspid valve disease, unspecified>  ~ Atrezie tricuspidiana
+I28.9   Alte forme de cardiopatii   [titlu: Boala vaselor pulmonare, nespecificata]  <Disease of pulmonary vessels, unspecified>  ~ 
+I51.6   Accident cardiovascular   [titlu: Boala cardiovasculara, nespecificata]  <>  ~ 
+I60.7   Anevrism granulat (congenital) rupt   [titlu: Hemoragia subarahnoida de la artere intracraniene, nespecificate]  <Nontraumatic subarachnoid hemorrhage from unspecified intracranial artery>  ~ 
+I64     Accident cerebrovascular   [titlu: Ictus, nespecificat ca hemoragic sau ca infarct]  <>  ~ Accident vascular cerebral
+I65.9   Artera precerebrala   [titlu: Ocluzia si stenoza unei arterei precerebrale nespecificata]  <Occlusion and stenosis of unspecified precerebral artery>  ~ Vasculita cerebrala | Moarte cerebrala
+I71.0   Anevrismul disecant al aortei (ruptura)   [titlu: Disectia aortei]  <Dissection of aorta>  ~ Anevrism aortic | Disectie de aorta
+I77.0   Anevrismul varicelor   [titlu: Fistula arterio-venoasa, dobindita]  <Arteriovenous fistula, acquired>  ~ 
+I77.0   Anevrism arteriovenos, dobandit   [titlu: Fistula arterio-venoasa, dobindita]  <Arteriovenous fistula, acquired>  ~ Fistula arteriovenoasa pulmonara
+I88.1   Adenita cronica, orice ganglion limfatic cu exceptia celui mezenteric   [titlu: Limfadenita cronica, exceptind cea mezenterica]  <Chronic lymphadenitis, except mesenteric>  ~ Limfadenita mezenterica
+J22     Alte boli ale cailor respiratorii superioare   [titlu: Infectii acute ale cailor respiratorii inferioare nespecificate]  <Unspecified acute lower respiratory infection>  ~ 
+J30.1   Alergia datorita polenului   [titlu: Rinita alergica datorita polenului]  <Allergic rhinitis due to pollen>  ~ Alergie la polen
+J67.4   Alveolita datorita Aspergillus clavatus   [titlu: Pulmonul lucratorilor cu malt]  <Maltworker's lung>  ~ 
+J67.6   Alveolita datorita Cryptostroma corticale   [titlu: Pulmonul decojitorilor de artar]  <Maple-bark-stripper's lung>  ~ 
+J86.9   Alte afectiuni ale pleurei   [titlu: Piotorax fara fistula]  <Pyothorax without fistula>  ~ 
+K00.1   Al patrulea molar   [titlu: Dinti supranumerari]  <Supernumerary teeth>  ~ 
+K00.4   Aplazia si hipoplazia de ciment   [titlu: Tulburari de formare a dintilor]  <Disturbances in tooth formation>  ~ 
+K03.6   acumulare   [titlu: Depozite [acumulare] pe dinti]  <Deposits [accretions] on teeth>  ~ Tulburare de acumulare
+K12.2   Abces submandibular   [titlu: Flegmonul si abcesul gurii]  <Cellulitis and abscess of mouth>  ~ Abces de glanda salivara | Abces mandibular
+K52.9   Alte boli ale intestinelor   [titlu: Gastroenterita si colita neinfectioase, nespecificate]  <Noninfective gastroenteritis and colitis, unspecified>  ~ 
+K76.4   Angiomatoza hepatica   [titlu: Pelioza hepatica]  <Peliosis hepatis>  ~ Angiomatoza bacilara | Adenomatoza hepatica | Fascioloza | Hemangiom hepatic
+L03.10  Axila   [titlu: Celulita membrului superior]  <>  ~ 
+L03.10  Antebrat   [titlu: Celulita membrului superior]  <>  ~ 
+L04.2   Axila   [titlu: Limfadenita acuta a membrului superior]  <Acute lymphadenitis of upper limb>  ~ 
+L75.9   Alte afectiuni ale pielii si tesutului celular subcutanat   [titlu: Tulburarea glandelor sudoripare apocrine, nespecificata]  <Apocrine sweat disorder, unspecified>  ~ 
+M30.1   Angeita granulomatoasa alergica   [titlu: Poliarterita cu atingere pulmonara [Churg-Strauss]]  <Polyarteritis with lung involvement [Churg-Strauss]>  ~ Granulomatoza cu poliangiita
+M34.1   Asociere a calcinozei, fenomenului   [titlu: Sindromul CR(E)ST]  <CR(E)ST syndrome>  ~ 
+M92.9   Apofizita specificata ca fiind juvenila, localizare   [titlu: Osteocondroza juvenila, nespecificata]  <Juvenile osteochondrosis, unspecified>  ~ 
+N23     Alte tulburari ale rinichiului si ureterului   [titlu: Colica nefritica nespecificata]  <Unspecified renal colic>  ~ 
+N26     Atrofia rinichiului (terminala)   [titlu: Rinichi scleros nespecificat]  <Unspecified contracted kidney>  ~ 
+N45.0   Abces al epididimului sau testiculului   [titlu: Orhita, epididimita si epididimo-orhita cu abces]  <>  ~ 
+N85.4   Anteversia uterului   [titlu: Malpozitia uterului]  <Malposition of uterus>  ~ 
+N88.1   Aderente ale colului uterin   [titlu: Laceratia veche a colului uterin]  <Old laceration of cervix uteri>  ~ 
+N89.6   Acces stramt   [titlu: Inel himenal strans]  <Tight hymenal ring>  ~ 
+N97.1   Asociata cu anomalia congenitala a trompei   [titlu: Infertilitatea femeii de origine tubara]  <Female infertility of tubal origin>  ~ 
+N97.2   Asociata cu anomalia congenitala a uterului   [titlu: Infertilitatea femeii de origine uterina]  <Female infertility of uterine origin>  ~ 
+O16     Alte tulburari materne legate in mod predominant de sarcina   [titlu: Hipertensiunea mamei, nespecificata]  <Unspecified maternal hypertension>  ~ 
+O29.2   Anoxia cerebrala datorita anesteziei in timpul sarcinii   [titlu: Complicatii ale sistemului nervos central datorite anesteziei in timpul sarcinii]  <Central nervous system complications of anesthesia during pregnancy>  ~ 
+O41.1   Amniotita   [titlu: Infectia sacului amniotic si a membranelor]  <Infection of amniotic sac and membranes>  ~ Anotie
+O62.4   Activitate uterina necoordonata   [titlu: Contractii uterine hipertonice, neacordate si prelungite]  <Hypertonic, incoordinate, and prolonged uterine contractions>  ~ 
+O89.2   Anoxia cerebrala datorita unei anestezii in timpul lauziei   [titlu: Complicatiile sistemului nervos central datorita unei anestezii in timpul lauziei]  <Central nervous system complications of anesthesia during the puerperium>  ~ 
+Q06.1   Atelomielia   [titlu: Hipoplazia si displazia maduvei spinarii]  <Hypoplasia and dysplasia of spinal cord>  ~ 
+Q07.82  Atrofia optica congenitala   [titlu: Hipoplazia nervului optic]  <>  ~ Atrofie optica | Sindrom de regresie testiculara
+Q14.1   Anevrism retinal congenital   [titlu: Malformatii congenitale ale retinei]  <Congenital malformation of retina>  ~ Anevrism cerebral congenital
+Q17.9   Anomalia congenitala a urechii   [titlu: Malformatia congenitala a urechii, nespecificata]  <Congenital malformation of ear, unspecified>  ~ Malformatie de ureche medie | Anotie
+Q18.9   Anomalia congenitala a fetei si gatului   [titlu: Malformatia congenitala a fetei si gatului, nespecificata]  <Congenital malformation of face and neck, unspecified>  ~ 
+Q23.2   Atrezia mitrala congenitala   [titlu: Stenoza mitrala congenitala]  <Congenital mitral stenosis>  ~ Atrezie mitrala | Atrezie nazala congenitala | Atrezie de col uterin
+Q24.5   Anevrism congenital al (artera) coronarei   [titlu: Malformatia vaselor coronariene]  <Malformation of coronary vessels>  ~ Anevrism de artera coronara
+Q26.9   Anomalia venei cave (inferioara)(superioara)   [titlu: Malformatia congenitala a unei vene mari, nespecificata]  <Congenital malformation of great vein, unspecified>  ~ 
+Q27.3   Anevrism arterio-venos   [titlu: Malformatia arterio-venoasa periferica]  <Arteriovenous malformation (peripheral)>  ~ Fistula arteriovenoasa pulmonara
+Q27.9   Anomalia unei artere sau vene   [titlu: Malformatia congenitala a sistemului vascular periferic, nespecificata]  <Congenital malformation of peripheral vascular system, unspecified>  ~ 
+Q28.0   Anevrism precerebral arterio-venos congenital (fara ruptura)   [titlu: Malformatia arterio-venoasa a vaselor precerebrale]  <Arteriovenous malformation of precerebral vessels>  ~ 
+Q28.2   Anevrism cerebral arterio-venos congenital (fara ruptura)   [titlu: Malformatia arterio-venoasa a vaselor cerebrale]  <Arteriovenous malformation of cerebral vessels>  ~ Anevrism cerebral | Anevrism cerebral congenital
+Q37.9   Alte malformatii congenitale ale sistemului digestiv   [titlu: Fisura palatului nespecificata cu fisura labiala unilaterala]  <Unspecified cleft palate with unilateral cleft lip>  ~ 
+Q38.4   Absenta glandelor si canalelor salivare   [titlu: Malformatii congenitale ale glandelor si canalelor salivare]  <Congenital malformations of salivary glands and ducts>  ~ 
+Q38.4   Atrezia glandelor si canalelor salivare   [titlu: Malformatii congenitale ale glandelor si canalelor salivare]  <Congenital malformations of salivary glands and ducts>  ~ 
+Q38.5   Absenta luetei   [titlu: Malformatii congenitale ale palatului, neclasificate altundeva]  <Congenital malformations of palate, not elsewhere classified>  ~ Agenezie ureterala | Agenezie uterina
+Q38.5   Arc inalt al palatului   [titlu: Malformatii congenitale ale palatului, neclasificate altundeva]  <Congenital malformations of palate, not elsewhere classified>  ~ 
+Q71.4   Absenta radiusului   [titlu: Corectarea longitudinala a defectelor radiusului]  <Longitudinal reduction defect of radius>  ~ Aplazie radiala | Sindrom TAR | Arhinie | Agenezie de penis
+Q71.5   Absenta cubitusului   [titlu: Corectarea longitudinala a defectelor cubitusului]  <Longitudinal reduction defect of ulna>  ~ Agenezie uterina
+Q71.9   Amputatia congenitala a membrului superior   [titlu: Corectarea de defecte a membrului(lor) superior(oare), nespecificata]  <Unspecified reduction defect of upper limb>  ~ 
+Q72.5   Absenta tibiei   [titlu: Corectarea longitudinala a defectelor tibiei]  <Longitudinal reduction defect of tibia>  ~ Displazie tibiala
+Q72.6   Absenta peroneului   [titlu: Corectarea longitudinala a defectelor peroneului]  <Longitudinal reduction defect of fibula>  ~ Absenta de perone | Agenezie de penis | Agenezie uterina | Atelie
+Q72.9   Amputatia congenitala a membrului inferior   [titlu: Corectarea defectelor la membrul inferior, nespecificata]  <Unspecified reduction defect of lower limb>  ~ 
+Q74.9   Anomalia congenitala a membrului(lor)   [titlu: Malformatia congenitala nespecificata a membrului(lor)]  <Unspecified congenital malformation of limb(s)>  ~ 
+Q77.1   Asocierea nanism/trigonocefalie tanatoforica   [titlu: Pitic tanatoforic]  <Thanatophoric short stature>  ~ 
+Q78.6   Aclazia diafizala   [titlu: Exostoza congenitala multipla]  <Multiple congenital exostoses>  ~ 
+Q79.9   Alte malformatii congenitale   [titlu: Malformatia congenitala a sistemului musculo-scheletal, nespecificata]  <Congenital malformation of musculoskeletal system, unspecified>  ~ Comunicare interventriculara | Malformatie anorectala | Malformatie intestinala congenitala | Microtie
+Q82.4   anhidrotica   [titlu: Displazia ectodermala (anhidrotica)]  <Ectodermal dysplasia (anhidrotic)>  ~ Anhidroza
+Q89.9   Anomalii cromozomiale   [titlu: Malformatia congenitala, nespecificata]  <Congenital malformation, unspecified>  ~ 

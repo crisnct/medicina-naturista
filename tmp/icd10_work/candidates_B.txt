@@ -1,0 +1,321 @@
+===== NOU (112)
+A07.9   Boala intestinala prin protozoare, nespecificata  {Diareea prin flagellate}  <Protozoal intestinal disease, unspecified>
+A23.0   Brucelloza cu Brucella melitensis  <Brucellosis due to Brucella melitensis>
+A23.1   Brucelloza cu Brucela abortus  <Brucellosis due to Brucella abortus>
+A23.2   Brucelloza cu Brucella suis  <Brucellosis due to Brucella suis>
+A23.3   Brucelloza cu Brucella canis  <Brucellosis due to Brucella canis>
+A39.5   Boala de inima meningococica  <Meningococcal heart disease>
+A44.1   Bartonelloza cutanata sau cutaneo-mucoasa  {Verruga peruana}  <Cutaneous and mucocutaneous bartonellosis>
+A48.2   Boala legionarilor fara semne pulmonare [febra Pontiac]  {febra Pontiac}  <Nonpneumonic Legionnaires' disease [Pontiac fever]>
+A83.6   Boala virotica Rocio  <Rocio virus disease>
+A98.2   Boala de padurea Kyasanur  <Kyasanur Forest disease>
+B00.7   Boala diseminata cu virus herpetic  {Sepsis cu virus herpetic}  <Disseminated herpesviral disease>
+B57.0   Boala Chagas acuta cu atingerea inimii  {Boala Chagas acuta cu miocardita†}  <Acute Chagas' disease with heart involvement>
+B57.2   Boala Chagas (cronica) cu atingerea inimii  {cronica / Trypanosomiaza americana}  <Chagas' disease (chronic) with heart involvement>
+B57.3   Boala Chagas (cronica) cu atingerea aparatului digestiv  {cronica}  <Chagas' disease (chronic) with digestive system involvement>
+B57.4   Boala Chagas (cronica) cu atingerea sistemului nervos  {cronica}  <Chagas' disease (chronic) with nervous system involvement>
+B57.5   Boala Chagas (cronica) cu atingerea altor organe  {cronica}  <Chagas' disease (chronic) with other organ involvement>
+B64     Boli prin protozoare nespecificate  {Helmintiaze}  <Unspecified protozoal disease>
+B76     Boli cu nematode  <Hookworm diseases>
+B96.6   Bacillus fragilis [B. fragilis], cauza unor boli clasate la alte capitole  {B. fragilis}  <Bacteroides fragilis [B. fragilis] as the cause of diseases classified elsewhere>
+C88     Bolile imunoproliferative maligne  <Malignant immunoproliferative diseases and certain other B-cell lymphomas>
+C88.9   Boala imunoproliferativa maligna, nespecificata  {Boala imunoproliferativa}  <Malignant immunoproliferative disease, unspecified>
+D73     Bolile splinei  <Diseases of spleen>
+D75.9   Boala a sangelui si a organelor hematopoietice, nespecificata  <Disease of blood and blood-forming organs, unspecified>
+E24.0   Boala Cushing pituitaro-dependenta  {Hipersecretia de ACTH pituitar / Hiperadrenocorticismul pituitaro-dependent}  <Pituitary-dependent Cushing's disease>
+E32     Bolile timusului  <Diseases of thymus>
+E74.0   Boala depozitarii glicogenului  {Glicogenoza cardiaca}  <Glycogen storage disease>
+F98.6   Bolborosirea [limbaj precipitat]  {limbaj precipitat}
+G23.0   Boala Hallervorden-Spatz  {Degenerescenta palidala pigmentara}  <Hallervorden-Spatz disease>
+G23.9   Boala degenerativa a ganglionilor bazali, nespecificata  <Degenerative disease of basal ganglia, unspecified>
+G30.0   Boala Alzheimer cu debut precoce  <Alzheimer's disease with early onset>
+H83.9   Boala urechii interne, nespecificata  {Alte afectiuni ale urechii}  <Unspecified disease of inner ear>
+I01.9   Boala cardiatica reumatismala acuta, nespecificata  <Acute rheumatic heart disease, unspecified>
+I05     Bolile reumatismale ale valvei mitrale  <Rheumatic mitral valve diseases>
+I06     Bolile reumatismale ale valvei aortice  <Rheumatic aortic valve diseases>
+I06.9   Boala reumatismala a valvei aortice, nespecificata  {Boala reumatismala (valva) aortica}  <Rheumatic aortic valve disease, unspecified>
+I07     Bolile reumatismale ale valvei tricuspide  <Rheumatic tricuspid valve diseases>
+I09.1   Boala reumatismala a endocardului, valva nespecificata  <Rheumatic diseases of endocardium, valve unspecified>
+I25.0   Boala cardio-vasculara aterosclerotica, astfel descrisa
+I44.7   Bloc al ramurii stangi, nespecificat  <Left bundle-branch block, unspecified>
+I45.0   Bloc fascicular drept  <Right fascicular block>
+I67.9   Boala cerebrovasculara, nespecificata  <Cerebrovascular disease, unspecified>
+I78     Bolile capilarelor  <Diseases of capillaries>
+J20.2   Bronsita acuta datorita streptococilor  <Acute bronchitis due to streptococcus>
+J20.4   Bronsita acuta datorita virusului para-influenzae  <Acute bronchitis due to parainfluenza virus>
+J20.7   Bronsita acuta datorita echovirus  <Acute bronchitis due to echovirus>
+J20.8   Bronsita acuta datorita altor microorganisme specificate  <Acute bronchitis due to other specified organisms>
+J21.8   Bronsiolita acuta datorita altor microorganisme specificate  <Acute bronchiolitis due to other specified organisms>
+J35     Bolile cronice ale amigdalelor si adenoizilor  <Chronic diseases of tonsils and adenoids>
+J35.9   Boala cronica a amigdalelor si a adenoizilor, nespecificata  {Boala (cronica) a amigdalelor si adenoizilor}  <Chronic disease of tonsils and adenoids, unspecified>
+J39.9   Boala a cailor respiratorii superioare, nespecificate  {Boli cronice ale cailor respiratorii inferioare}  <Disease of upper respiratory tract, unspecified>
+J66.1   Boala pieptanarilor de in  <Flax-dressers' disease>
+J67.1   Bagasoza  {Boala datorita prelucrarii trestiei de zahar / Pneumopatia datorita prelucrarii trestiei de zahar}  <Bagassosis>
+J67.7   Boala pulmonara datorita sistemelor de conditionare si umezire a aerului  <Air conditioner and humidifier lung>
+J98.6   Bolile diafragmului  {Diafragmatita / Paralizia diafragmului / Relaxarea diafragmului}  <Disorders of diaphragm>
+K03.9   Boala tesutului dentar dur, nespecificata  <Disease of hard tissues of teeth, unspecified>
+K04     Boala pulpei si tesuturilor periapicale  <Diseases of pulp and periapical tissues>
+K10.9   Boala maxilarelor, nespecificata
+K13.0   Bolile buzelor  <Diseases of lips>
+K14     Bolile limbii  <Diseases of tongue>
+K31.9   Boala stomacului si duodenului, nespecificata  {Bolile apendicelui}  <Disease of stomach and duodenum, unspecified>
+K38.9   Boala apendicelui, nespecificata  {Hernia}  <Disease of appendix, unspecified>
+K50.1   Boala Crohn a intestinului gros  <Crohn's disease of large intestine>
+K57.0   Boli diverticulare ale intestinului subtire, cu perforatie si abces  {Boli diverticulare ale intestinului subtire cu peritonita}  <Diverticulitis of small intestine with perforation and abscess>
+K57.1   Boli diverticulare ale intestinului subtire, fara perforatie si abces  {Boli diverticulare ale intestinului subtire}  <Diverticular disease of small intestine without perforation or abscess>
+K57.2   Boli diverticulare ale intestinului gros cu perforatie si abces  {Boli diverticulare ale colonului cu peritonita}  <Diverticulitis of large intestine with perforation and abscess>
+K57.3   Boli diverticulare ale intestinului gros fara perforatie sau abces  {Boli diverticulare ale colonului}  <Diverticular disease of large intestine without perforation or abscess>
+K57.4   Boli diverticulare atat ale intestinului gros cat si ale intestinului subtire cu perforatie si abces  <Diverticulitis of both small and large intestine with perforation and abscess>
+K57.5   Boli diverticulare atat ale intestinului gros cat si ale intestinului subtire fara perforatie sau abces  <Diverticular disease of both small and large intestine without perforation or abscess>
+K57.8   Boli diverticulare ale intestinului, parte nespecificata, cu perforatie si abces  {Boli diverticulare ale intestinului cu peritonita}  <Diverticulitis of intestine, part unspecified, with perforation and abscess>
+K62.9   Boala anusului si rectului, nespecificata  <Disease of anus and rectum, unspecified>
+K66.9   Boala peritoneului, nespecificata  <Disorder of peritoneum, unspecified>
+K71.0   Boala toxica a ficatului cu colestaza  {Colestaza 'pura' / Colestaza cu leziuni hepatocite}  <Toxic liver disease with cholestasis>
+K71.2   Boala toxica a ficatului cu hepatita acuta  <Toxic liver disease with acute hepatitis>
+K71.4   Boala toxica a ficatului cu hepatita lobulara cronica  <Toxic liver disease with chronic lobular hepatitis>
+K71.6   Boala toxica a ficatului cu hepatita, neclasificata altundeva  <Toxic liver disease with hepatitis, not elsewhere classified>
+K71.8   Boala toxica a ficatului cu alte tulburari ale ficatului  <Toxic liver disease with other disorders of liver>
+K92.9   Boala sistemului digestiv, nespecificata  <Disease of digestive system, unspecified>
+L60     Bolile unghiei  <Nail disorders>
+L60.9   Boala unghiei, nespecificata  <Nail disorder, unspecified>
+M11.0   Boala prin depozitarea hidroxiapatitei  <Hydroxyapatite deposition disease>
+M70.1   Bursita mainii  <Bursitis of hand>
+M83.4   Boala osoasa datorita aluminiului  <Aluminum bone disease>
+M88.8   Boala Paget a altor oase  <Osteitis deformans of other bones>
+M88.9   Boala Paget a unui os, nespecificat  <Osteitis deformans of unspecified bone>
+M93.1   Boala Kienbock la adult  {Osteocondroza la adult a osului carpal lunar}  <Kienbock's disease of adults>
+N41     Boli inflamatorii ale prostatei  <Inflammatory diseases of prostate>
+N71     Boala inflamatorie a uterului, exceptand colul  <Inflammatory disease of uterus, except cervix>
+N71.0   Boala inflamatorie acuta a uterului  <Acute inflammatory disease of uterus>
+N71.1   Boala inflamatorie cronica a uterului  <Chronic inflammatory disease of uterus>
+N72     Boala inflamatorie a colului uterin  {Cervicita cu sau fara eroziune sau ectropion / Endocervicita cu sau fara eroziune sau ectropion / Exocervicita cu sau fara eroziune sau ectropion}  <Inflammatory disease of cervix uteri>
+N74.2   Boala inflamatorie pelviana sifilitica feminina (A51.4†; A52.7†)
+N88.3   Beanta colului uterin  <Incompetence of cervix uteri>
+O26.81  Boala renala, legata de sarcina  <Pregnancy related exhaustion and fatigue>
+O98     Boli infectioase si parazitare ale mamei clasificabile altundeva dar complicand sarcina, nasterea si lauzia  <Maternal infectious and parasitic diseases classifiable elsewhere but complicating pregnancy, childbirth and the puerperium>
+O98.6   Boli datorite protozoarelor, complicand sarcina, nasterea si lauzia  <Protozoal diseases complicating pregnancy, childbirth and the puerperium>
+O98.9   Boala infectioasa si parazitara a mamei complicand sarcina, nasterea si lauzia, nespecificata  <Unspecified maternal infectious and parasitic disease complicating pregnancy, childbirth and the puerperium>
+O99.2   Boli endocrine, de nutritie si metabolism complicand sarcina, nasterea si lauzia  <Endocrine, nutritional and metabolic diseases complicating pregnancy, childbirth and the puerperium>
+O99.4   Bolile sistemului circulator complicand sarcina, nasterea si lauzia  <Diseases of the circulatory system complicating pregnancy, childbirth and the puerperium>
+O99.5   Bolile sistemului respirator complicand sarcina, nasterea si lauzia  <Diseases of the respiratory system complicating pregnancy, childbirth and the puerperium>
+O99.6   Bolile sistemului digestiv complicand sarcina, nasterea si lauzia  <Diseases of the digestive system complicating pregnancy, childbirth and the puerperium>
+O99.7   Bolile pielii si tesutului celular subcutanat complicand sarcina, nasterea si lauzia  <Diseases of the skin and subcutaneous tissue complicating pregnancy, childbirth and the puerperium>
+P27     Boala respiratorie cronica survenind in perioada perinatala  <Chronic respiratory disease originating in the perinatal period>
+P27.1   Boala cronica a plamanului survenind in perioada perinatala  {Displazie bronho-pulmonara survenind in perioada perinatala}  <Bronchopulmonary dysplasia originating in the perinatal period>
+P35     Boli virale congenitale  <Congenital viral diseases>
+P37.9   Boli infectioase si parazitare congenitale, nespecificate  <Congenital infectious or parasitic disease, unspecified>
+P96.81  Bebelus nervos  <Exposure to (parental) (environmental) tobacco smoke in the perinatal period>
+Q24.6   Bloc congenital al inimii  <Congenital heart block>
+Q43.11  Boala Hirschsprung a unui segment scurt
+Q43.12  Boala Hirschsprung a unui segment lung
+Q61     Boala chistica a rinichiului  <Cystic kidney disease>
+Q98.6   Barbat cu cromozom sexual anormal structurat  <Male with structurally abnormal sex chromosome>
+Q98.7   Barbat cu mozaicism cu cromozomi sexuali  <Male with sex chromosome mosaicism>
+===== POSIBIL (113)
+A23     Brucelloza  <Brucellosis> ~ Bruceloza
+A28.1   Boala de zgarietura de pisica  {Febra zgarieturii de pisica}  <Cat-scratch disease> ~ Boala zgarieturii de pisica
+A44     Bartonelloza  <Bartonellosis> ~ Bartoneloza
+A44.0   Bartonelloza sistemica  {Febra de Oroya}  <Systemic bartonellosis> ~ Bartoneloza
+A93.0   Boala prin virusul Oropouche  {Febra de Oropouche}  <Oropouche virus disease> ~ Febra Oropouche
+A98.3   Boala cu virusul de Marburg  <Marburg virus disease> ~ Boala cu virusul Marburg
+B20     Bolile prin virusul imunodeficientei umane [HIV] asociate cu alte boli infectioase si parazitare  <Human immunodeficiency virus [HIV] disease> ~ Sida
+B21     Bolile prin virusul imunodeficientei umane [HIV] asociate cu tumori maligne ~ Cancer | Sida
+B22     Bolile prin virusul imunodeficientei umane [HIV] asociate cu alte boli specificate ~ Sida
+B23     Bolile prin virusul imunodeficientei umane [HIV] asociate cu alte afectiuni ~ Sida
+B23.8   Boala prin HIV asociata cu alte afectiuni specificate  {Boala HIV asociata cu limfadenopatie generalizata (persistenta)} ~ Complex asociat SIDA
+B24     Bolile prin virusul imunodeficientei umane [HIV] nespecificate  {Sindromul dobandit al imunodeficientei [AIDS] / AIDS cu legaturi complexe [ARC] / Alte boli virale} ~ Sida | Imunodeficiente secundare
+B25     Boala cu cytomegalovirus  <Cytomegaloviral disease> ~ Colita cu citomegalovirus
+B25.9   Boli cu cytomegalovirus, nespecificate  <Cytomegaloviral disease, unspecified> ~ Colita cu citomegalovirus
+B40     Blastomicoza  <Blastomycosis> ~ Blastomikoza | Blastocistoza
+B40.0   Blastomicoza pulmonara acuta  <Acute pulmonary blastomycosis> ~ Blastomikoza pulmonara
+B40.1   Blastomicoza pulmonara cronica  <Chronic pulmonary blastomycosis> ~ Blastomikoza pulmonara | Histoplasmoza pulmonara | Aspergiloza pulmonara cronica
+B40.2   Blastomicoza pulmonara, nespecificata  <Pulmonary blastomycosis, unspecified> ~ Blastomikoza pulmonara | Pneumonie cu Blastoschizomyces | Pneumonie cu Actinomyces
+B40.3   Blastomicoza cutanata  <Cutaneous blastomycosis> ~ Blastomikoza cutanata | Elastoza | Mastocitoza cutanata
+B40.7   Blastomicoza diseminata  {Blastomicoza generalizata}  <Disseminated blastomycosis> ~ Blastomikoza diseminata | Listerioza | Cutis laxa | Scleromixedem
+C81     Boala Hodgkin  <Hodgkin lymphoma> ~ Sindrom Rapp-Hodgkin | Sindrom de hipoventilatie centrala congenitala
+C88.3   Boala imunoproliferativa a intestinului subtire  {Limfomul mediteranean}  <Immunoproliferative small intestinal disease> ~ Enteropatia autoimuna
+D47.1   Boala mieloproliferativa cronica  {Mielofibroza (cu metaplazie mieloida) / Boala mieloproliferativa / Mieloscleroza (megacariocitara) cu metaplazie mieloida}  <Chronic myeloproliferative disease> ~ Sindrom mieloproliferativ cronic | Mielofibroza primara | Metaplazie mieloida
+D73.9   Boala splinei, nespecificata  <Disease of spleen, unspecified> ~ Boala Iselin
+E32.9   Boala timusului, nespecificata  <Disease of thymus, unspecified> ~ Boala Parkinson | Infectie cu virusul herpes B
+E71.0   Boala urinei cu miros de sirop de artar  <Maple-syrup-urine disease> ~ Boala urinii cu miros de sirop de artar
+F50.3   Bulimie atipica nervoasa ~ Bulimie
+G12.2   Bolile neuronului motor  {Degenerescenta familiala a neuronului motor}  <Motor neuron disease> ~ Scleroza laterala amiotrofica | Amiotrofie spinala | Paralizia bulbara progresiva | Scleroza laterala amiotrofica familiala | Scleroza laterala primara | Vezica neurogena flasca
+G30.1   Boala Alzheimer cu debut tardiv  <Alzheimer's disease with late onset> ~ Boala Pompe tardiva | Boala Fabry tardiva | Leucodistrofie metacromatica cu debut tardiv
+G37.9   Boli demielinizate ale sistemului nervos central, nespecificate  {Tulburari episodice si paroxistice}  <Demyelinating disease of central nervous system, unspecified> ~ Ataxie episodica
+H02.3   Blefarochalasis  <Blepharochalasis> ~ Blefarochalazis
+H10.5   Blefaroconjuctivita  <Blepharoconjunctivitis> ~ Blefaroconjunctivita | Faringoconjunctivita
+H74.1   Boala urechii medii adezive  {Otita adeziva}  <Adhesive middle ear disease> ~ Otita medie adeziva
+I05.9   Boala valvei mitrale, nespecificata  {Afectiune (cronica) (valva) mitrala}  <Rheumatic mitral valve disease, unspecified> ~ Atrezie mitrala | Insuficienta mitrala | Prolaps de valva mitrala | Stenoza mitrala
+I07.9   Boala valvei tricuspide, nespecificata  {Afectiunea valvei tricuspide}  <Rheumatic tricuspid valve disease, unspecified> ~ Anomalie Ebstein | Atrezie tricuspidiana | Insuficienta tricuspidiana | Insuficienta tricuspidiana congenitala | Stenoza tricuspidiana
+I08     Boli multiple valvulare  <Multiple valve diseases> ~ Boala valvulara multipla
+I28.9   Boala vaselor pulmonare, nespecificata  {Alte forme de cardiopatii}  <Disease of pulmonary vessels, unspecified> ~ Boala valvulara pulmonara
+I42.3   Boala endomiocardica (eosinofilica)  {eosinofilica / Fibroza endomiocardiaca (tropicala) / Endocardita Löffler}  <Endomyocardial (eosinophilic) disease> ~ Eozinofilie
+I44     Bloc atrio-ventricular si bloc de ramura stanga  <Atrioventricular and left bundle-branch block> ~ Bloc de ramura stanga
+I44.0   Bloc atrio-ventricular, primul grad  <Atrioventricular block, first degree> ~ Bloc atrioventricular grad I | Bloc atrioventricular grad II | Bloc atrioventricular grad III
+I44.1   Bloc atrio-ventricular, gradul doi  {Bloc atrio-ventricular, tip I si II / Bloc Möbitz, tip I si II / Bloc gradul doi, tip I si II / Bloc Wenckebach}  <Atrioventricular block, second degree> ~ Bloc atrioventricular grad I | Bloc atrioventricular grad II | Bloc atrioventricular grad III
+I44.4   Bloc fascicular anterior stang  <Left anterior fascicular block> ~ Hemibloc anterior | Hemibloc posterior
+I44.5   Bloc fascicular posterior stang  <Left posterior fascicular block> ~ Hemibloc posterior | Hemibloc anterior
+I45.4   Bloc intraventricular nespecificat  {Bloc al ramurii fascicolului}  <Nonspecific intraventricular block> ~ Bloc intraventricular nespecific | Hemoragie intraventriculara
+I51.6   Boala cardiovasculara, nespecificata  {Accident cardiovascular} ~ Cord pulmonar
+I78.9   Boala capilarelor, nespecificata  <Disease of capillaries, unspecified> ~ Discinezia ciliara primara
+J20.0   Bronsita acuta datorita Mycoplasma pneumoniae  <Acute bronchitis due to Mycoplasma pneumoniae> ~ Bronsita micoplasma
+J20.1   Bronsita acuta datorita Haemophilus influenzae  <Acute bronchitis due to Hemophilus influenzae> ~ Bronsita cronica cu Haemophilus | Bronsita cu Haemophilus
+J20.3   Bronsita acuta datorita virusului  {Coxsackie}  <Acute bronchitis due to coxsackievirus> ~ Bronsita acuta cu virus Epstein-Barr | Bronsita acuta cu virus gripal | Bronsita acuta cu virus paragripal | Bronsita acuta cu virus respirator sincitial | Bronsita acuta cu virus rujeolic | Bronsita acuta cu virus varicela-zoster
+J20.5   Bronsita acuta datorita virusului respirator sincitial  <Acute bronchitis due to respiratory syncytial virus> ~ Bronsita acuta cu virus respirator sincitial
+J20.6   Bronsita acuta datorita rinovirus  <Acute bronchitis due to rhinovirus> ~ Bronsita acuta cu rinovirus
+J21.0   Bronsiolita acuta datorita virusului respirator sincitial  <Acute bronchiolitis due to respiratory syncytial virus> ~ Bronsiolita cu virus respirator sincitial | Bronsita acuta cu virus respirator sincitial
+J40     Bronsita, nespecificata ca acuta sau cronica  <Bronchitis, not specified as acute or chronic> ~ Bronsita nespecificata acuta sau cronica
+J41     Bronsita cronica simpla si mucopurulenta  <Simple and mucopurulent chronic bronchitis> ~ Traheobronsita mucopurulenta
+J41.0   Bronsita cronica simpla  <Simple chronic bronchitis> ~ Sinusita cronica fara polipi | Bronsita cronica obstructiva | Bronsita
+J41.1   Bronsita cronica mucopurulenta  <Mucopurulent chronic bronchitis> ~ Traheobronsita mucopurulenta | Bronsita cronica purulenta | Bronsita cronica mucoasa
+J41.8   Bronsita cronica mixta simpla si mucopurulenta  <Mixed simple and mucopurulent chronic bronchitis> ~ Traheobronsita mucopurulenta
+J44.0   Boala pulmonara obstructiva cronica cu infectie acuta a cailor respiratorii inferioare  <Chronic obstructive pulmonary disease with (acute) lower respiratory infection> ~ Bronhopneumopatie obstructiva cronica
+J44.1   Boala pulmonara obstructiva cronica cu exacerbare acuta, nespecificata  <Chronic obstructive pulmonary disease with (acute) exacerbation> ~ Bronhopneumopatie obstructiva cronica
+J47     Bronsiectazia  {Bronsiolectazia / Boli pulmonare datorite agentilor externi}  <Bronchiectasis> ~ Bronsectazie
+J66.0   Bisinoza  {Boala cailor respiratorii datorita pulberilor de bumbac}  <Byssinosis> ~ Plaman de bumbac | Cistinoza
+J68.0   Bronsita si pneumopatia datorita substantelor chimice, emanatiilor de gaze, fumuri si vapori  {Bronsita (acuta) datorita substantelor chimice}  <Bronchitis and pneumonitis due to chemicals, gases, fumes and vapors> ~ Bronsita chimica
+J84.9   Boala pulmonara interstitiala, nespecificata  {Pneumonia interstitiala / Boli supurative si necrotice ale cailor respiratorii inferioare}  <Interstitial pulmonary disease, unspecified> ~ Boli pulmonare interstitiale | Emfizem interstitial | Fibroza pulmonara interstitiala difuza | Bronsiolita respiratorie asociata fumului | Fibroza pulmonara familiala | Pneumonie cu celule gigante
+K05.6   Boala periodontala, nespecificata  <Periodontal disease, unspecified> ~ Parodontoza
+K10.0   Boli legate de dezvoltarea maxilarelor  {Chist latent osos al maxilarului / Chist Stafne} ~ Chist osos
+K11     Bolile glandelor salivare  <Diseases of salivary glands> ~ Carcinom de glanda salivara | Carcinom mucoepidermoid | Chist salivar | Sialadenita | Sialolitoza
+K11.9   Boala glandelor salivare, nespecificata  {Sialoadenopatia}  <Disease of salivary gland, unspecified> ~ Carcinom de glanda salivara | Carcinom mucoepidermoid | Chist salivar | Sialadenita | Sialolitoza
+K14.9   Boala limbii, nespecificata  {Glosopatia / Bolile esofagului, stomacului si duodenului}  <Disease of tongue, unspecified> ~ Ascaridioza
+K21     Boala refluxului gastro-esofagian  <Gastro-esophageal reflux disease> ~ Reflux gastroesofagian
+K21.0   Boala refluxului gastro-esofagian cu esofagita  {Esofagita cu reflux}  <Gastro-esophageal reflux disease with esophagitis> ~ Esofagita de reflux
+K21.9   Boala refluxului gastro-esofagian fara esofagita  {Reflux esofagian}  <Gastro-esophageal reflux disease without esophagitis> ~ Esofagita de reflux | Reflux gastroesofagian
+K22.9   Boala esofagului, nespecificata  <Disease of esophagus, unspecified> ~ Duplicatie esofagiana | Boala somnului
+K50.0   Boala Crohn a intestinului subtire  <Crohn's disease of small intestine> ~ Enteropatia autoimuna
+K57     Boli diverticulare ale intestinului  {Urmatoarele subdiviziuni cu cinci}  <Diverticular disease of intestine> ~ Diverticul intestinal
+K57.9   Boli diverticulare ale intestinului, parte nespecificata, fara perforatie si abces  {Boli diverticulare ale intestinului}  <Diverticular disease of intestine, part unspecified, without perforation or abscess> ~ Diverticul intestinal
+K63.9   Boala a intestinului, nespecificata  {Bolile peritoneului}  <Disease of intestine, unspecified> ~ Polip intestinal
+K70     Boala alcoolica a ficatului  <Alcoholic liver disease> ~ Steatoza hepatica alcoolica | Hidatidoza hepatica
+K71     Boala toxica a ficatului  <Toxic liver disease> ~ Hidatidoza hepatica
+K71.1   Boala toxica a ficatului cu necroza hepatica  {Insuficienta hepatica (acuta) (cronica) datorita medicamentelor}  <Toxic liver disease with hepatic necrosis> ~ Necroza hepatica | Insuficienta hepatica
+K71.3   Boala toxica a ficatului cu hepatita persistenta cronica  <Toxic liver disease with chronic persistent hepatitis> ~ Hepatita
+K71.5   Boala toxica a ficatului cu hepatita activa cronica  {Boala toxica a ficatului cu hepatita lupoida}  <Toxic liver disease with chronic active hepatitis> ~ Hepatita cronica activa | Hepatita autoimuna
+K71.7   Boala toxica a ficatului cu fibroza si ciroza ficatului  <Toxic liver disease with fibrosis and cirrhosis of liver> ~ Ciroza hepatica | Fibroza hepatica
+K76.5   Boala veno-ocluziva a ficatului  <Hepatic veno-occlusive disease> ~ Boala veno-ocluziva
+K76.9   Boala ficatului, nespecificata  <Liver disease, unspecified> ~ Mononucleoza infectioasa
+K82.9   Boala vezicii biliare, nespecificata  <Disease of gallbladder, unspecified> ~ Adenomioza vezicii biliare | Atrezie de vezica biliara | Carcinom de vezica biliara | Colecistita | Colecistita acuta alitiazica | Colecistita acuta calculoasa
+K83.9   Boala cailor biliare, nespecificata  <Disease of biliary tract, unspecified> ~ Adenom de canal biliar | Aplazie biliara | Ascaridioza biliara | Atrezie biliara intrahepatica | Boala Caroli | Chist coledocian
+K86.9   Boala pancreasului, nespecificata  <Disease of pancreas, unspecified> ~ Fibroza pancreatica | Boala Kuru
+L12.2   Boala cronica buloasa a copilariei  {Dermatita juvenila herpetiforma}  <Chronic bullous disease of childhood> ~ Dermatita herpetiforma
+M06.2   Bursita reumatoida  <Rheumatoid bursitis> ~ Artrita reumatoida | Vasculita reumatoida
+M12.1   Boala Kaschin-Beck  <Kaschin-Beck disease> ~ Boala Kashin-Beck
+M70.6   Bursite trohanteriene  {Tendinita trohanteriana}  <Trochanteric bursitis> ~ Bursita trohanteriana | Tendinita rotuliana
+M73.0   Bursita gonococica (A54.4†) ~ Uretrita gonococica | Rinita gonococica | Artrita gonococica
+M73.1   Bursita sifilitica (A52.7†) ~ Sifilis ocular | Rinita sifilitica | Sifilis cardiovascular
+M75.5   Bursita umarului  <Bursitis of shoulder> ~ Bursita subdeltoidiana | Artrita umarului
+M76.4   Bursita tibiala colaterala [Pellegrini-Stieda]  {Pellegrini-Stieda}  <Tibial collateral bursitis [Pellegrini-Stieda]> ~ Bursita anserina
+M88.0   Boala Paget a craniului  <Osteitis deformans of skull> ~ Boala Paget a mamelonului
+M89.9   Boala a oaselor, nespecificata  <Disorder of bone, unspecified> ~ Artrita reumatoida
+N15.9   Boala tubulo-interstitiala renala, nespecificata  {Infectia rinichiului}  <Renal tubulo-interstitial disease, unspecified> ~ Pielonefrita
+N18.0   Boala renala in stadiul final ~ Insuficienta renala cronica terminala
+N71.9   Boala inflamatorie a uterului, nespecificata  <Inflammatory disease of uterus, unspecified> ~ Apendicita | Boala inflamatorie pelvina
+N73.9   Boala inflamatorie pelviana feminina, nespecificata  {Infectia sau inflamatia pelviana feminina}  <Female pelvic inflammatory disease, unspecified> ~ Boala inflamatorie pelvina | Boala inflamatorie pelvina gonococica
+N74.1   Boala inflamatorie pelviana tuberculoasa feminina (A18.1†)  {Endometrita tuberculoasa} ~ Tuberculoza intestinala | Tuberculoza renala | Tuberculoza epididimara
+N74.3   Boala inflamatorie pelviana gonococica feminina (A54.2†) ~ Boala inflamatorie pelvina gonococica
+N74.4   Boala inflamatorie pelviana feminina cu Chlamydia (A56.1†) ~ Boala inflamatorie pelvina cu Chlamydia
+N75     Bolile glandei Bartholin  <Diseases of Bartholin's gland> ~ Abces de glanda Bartholin | Bartolinita | Chist de glanda Bartholin
+N75.9   Boala glandei Bartholin, nespecificata  <Disease of Bartholin's gland, unspecified> ~ Abces de glanda Bartholin | Bartolinita | Chist de glanda Bartholin
+P35.9   Boala virala congenitala, nespecificata  <Congenital viral disease, unspecified> ~ Boala Caroli | Sindrom Sprengel | Coxa vara congenitala
+P53     Boala hemoragica a fatului si nou-nascutului  {Deficienta in vitamina K la nou-nascut}  <Hemorrhagic disease of newborn> ~ Boala hemoragica a nou-nascutului
+P55     Boala hemolitica imuna la fat si nou-nascut  <Hemolytic disease of newborn> ~ Boala hemolitica a nou-nascutului
+P55.9   Boala hemolitica a fatului si nou-nascutului, nespecificata  <Hemolytic disease of newborn, unspecified> ~ Boala hemolitica a nou-nascutului
+Q32.2   Bronhomalacia congenitala  <Congenital bronchomalacia> ~ Laringomalacie congenitala
+Q33.4   Bronsiectazia congenitala  <Congenital bronchiectasis> ~ Bronsectazie congenitala
+Q44.6   Boala chistica a ficatului  <Cystic disease of liver> ~ Boala polichistica hepatica | Hidatidoza hepatica
+===== EXISTA (62)
+A05.1   Botulismul = Botulism [terminatii]
+A07.0   Balantidiaza = Balantidioza [terminatii]
+A48.1   Boala legionarilor = Boala legionarilor [exact]
+A64     Bolile transmise sexual, nespecificate = Boli cu transmitere sexuala [terminatii]
+A69.2   Boala Lyme = Boala Lyme [exact]
+A81.0   Boala Creutzfeldt-Jakob = Boala Creutzfeldt-Jakob [exact]
+A98.4   Boala cu virusul Ebola = Boala cu virusul Ebola [exact]
+B33.1   Boala Ross River = Febra Ross River [exact]
+B57     Boala Chagas = Boala Chagas [exact]
+B57.1   Boala Chagas acuta fara atingerea inimii = Boala Chagas [temporal (G1)]
+B60.0   Babesioza = Babesioza [exact]
+B89     Boli parazitare nespecificate = Parazitoze [exact]
+B99     Boli infectioase, alte si nespecificate = Tumoare [terminatii]
+C88.1   Boala lanturilor grele alfa = Boala cu lanturi grele [exact]
+C88.2   Boala lanturilor grele gamma = Boala cu lanturi grele [exact]
+C96.0   Boala Letterer-Siwe = Histiocitoza cu celule Langerhans [exact]
+D56.1   Beta-thalasemia = Anemie Cooley [terminatii]
+D68.0   Boala von Willebrand = Boala von Willebrand [exact]
+E51.1   Beriberi = Beriberi [exact]
+F50.2   Bulimie nervoasa = Bulimie [exact]
+F98.5   Balbaiala [gangaveala] = Balbaiala [exact]
+G10     Boala Huntington = Boala Huntington [exact]
+G20     Boala Parkinson = Boala Parkinson [exact]
+G24.5   Blefarospasm = Blefarospasm [exact]
+G30     Boala Alzheimer = Alzheimer [exact]
+G60.1   Boala Refsum = Boala Refsum [exact]
+H01.0   Blefarita = Blefarita [exact]
+H81.0   Boala Ménière = Boala Meniere [exact]
+I08.9   Boala valvulara multipla, nespecificata = Boala valvulara multipla [exact]
+I31.9   Boala pericardului, nespecificata = Pericardita [temporal (G1)]
+I44.2   Bloc atrio-ventricular complet = Bloc atrioventricular grad III [exact]
+I45.2   Bloc bifascicular = Bloc bifascicular [exact]
+I45.3   Bloc trifascicular = Bloc trifascicular [exact]
+I67.5   Boala Moyamoya = Boala moyamoya [exact]
+I73.9   Boala vasculara periferica, nespecificata = Circulatie periferica deficitara [terminatii]
+J18.0   Bronhopneumonie, nespecificata = Bronhopneumonie [exact]
+J20     Bronsita acuta = Bronsita [exact]
+J21     Bronsiolita acuta = Bronsiolita [exact]
+J42     Bronsita cronica nespecificata = Bronsita [exact]
+J44.9   Boala pulmonara obstructiva cronica, nespecificata = Bronhopneumopatie obstructiva cronica [exact]
+J63.2   Berilioza = Pneumopatia de beriliu [exact]
+J98.5   Bolile mediastinului, neclasificate altundeva = Mediastinita [exact]
+K50     Boala Crohn [enterita regionala] = Boala Crohn [exact]
+K50.9   Boala Crohn, nespecificata = Boala Crohn [exact]
+K75.9   Boala inflamatorie a ficatului, nespecificata = Hepatita [exact]
+K90.0   Boala celiaca = Boala celiaca [exact]
+L75.0   Bromhidroza = Bromhidroza [exact]
+L84     Bataturi si calozitati = Bataturi [exact]
+M02.3   Boala Reiter = Artrita reactiva [exact]
+M05.1   Boala pulmonara reumatoida = Plaman reumatoid [exact]
+M06.1   Boala Still cu debut la adulti = Boala Still a adultului [terminatii]
+M35.2   Boala Behçet = Boala Behcet [exact]
+M70.2   Bursita olecraniana = Bursita olecraniana [exact]
+M70.4   Bursite prepatelare = Bursita prepatelara [terminatii]
+M71.9   Bursopatia, nespecificata = Bursita [exact]
+M88     Boala Paget a oaselor [osteita deformanta] = Boala Paget osoasa [exact]
+N41.9   Boala inflamatorie a prostatei, nespecificata = Prostatita [exact]
+N48.1   Balanopostita = Balanopostita [exact]
+Q22.5   Boala Ebstein = Anomalie Ebstein [exact]
+Q43.1   Boala Hirschsprung = Boala Hirschsprung [exact]
+Q43.10  Boala Hirschsprung, nespecificata = Boala Hirschsprung [exact]
+Q74.81  Brahidactilia = Brahidactilie [terminatii]
+===== ELIMINAT (30)
+A23.9   Brucelloza, nespecificata [dublura categoriei parinte (nespecificat)]
+A44.9   Bartonelloza, nespecificata [dublura categoriei parinte (nespecificat)]
+B40.9   Blastomicoza, nespecificata [dublura categoriei parinte (nespecificat)]
+C00.0   Buza superioara, marginea libera [subzona de organ (D5)]
+C00.1   Buza inferioara, marginea libera [subzona de organ (D5)]
+C00.2   Buza, marginea libera, nepsecificata [subzona de organ (D5)]
+C00.3   Buza superioara, fata interna [subzona de organ (D5)]
+C00.4   Buza inferioara, fata interna [subzona de organ (D5)]
+C00.5   Buza, fata interna, nespecificata [subzona de organ (D5)]
+C00.9   Buza, nespecificata [subzona de organ (D5)]
+C34.9   Bronhii si plaman, nespecificate [subzona de organ (D5)]
+C51.0   Buzele mari [subzona de organ (D5)]
+C51.1   Buzele mici [subzona de organ (D5)]
+C67.1   Bolta vezicii [subzona de organ (D5)]
+C81.9   Boala Hodgkin, nespecificata [dublura categoriei parinte (nespecificat)]
+D00.0   Buza, cavitate bucala si faringe [subzona de organ (D5)]
+D02.2   Bronhii si plaman [subzona de organ (D5)]
+D10.0   Buza [subzona de organ (D5)]
+D14.3   Bronhii si plaman [subzona de organ (D5)]
+D37.0   Buza, cavitate bucala si faringe [subzona de organ (D5)]
+G30.9   Boala Alzheimer, nespecificata [dublura categoriei parinte (nespecificat)]
+I79     Bolile arterelor, arteriolelor si capilarelor in boli clasificate altundeva [asterisc (in alte boli)]
+J20.9   Bronsita acuta, nespecificata [dublura categoriei parinte (nespecificat)]
+J21.9   Bronsiolita acuta, nespecificata [dublura categoriei parinte (nespecificat)]
+K70.9   Boala alcoolica a ficatului, nespecificata [dublura categoriei parinte (nespecificat)]
+K71.9   Boala toxica a ficatului, nespecificata [dublura categoriei parinte (nespecificat)]
+L62.8   Bolile unghiei in alte boli clasificate altundeva [asterisc (in alte boli)]
+N51.2   Balanita in boli clasificate altundeva [asterisc (in alte boli)]
+P27.9   Boala respiratorie cronica nespecificata survenind in perioada perinatala [dublura categoriei parinte (nespecificat)]
+Q61.9   Boala chistica a rinichiului, nespecificata [dublura categoriei parinte (nespecificat)]

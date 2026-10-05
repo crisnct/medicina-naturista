@@ -1,0 +1,129 @@
+===== NOU (37)
+A08.1   Gastro-enteropatia acuta prin agentul  {Norwalk / Enterita cu virus mic rotund}  <Acute gastroenteropathy due to Norwalk agent and other small round viruses>
+A66.4   Gomele si ulcerele pianice  {Framboeside gomoase / Pian tardiv modular (ulcerat)}  <Gummata and ulcers of yaws>
+B48.3   Geotrichoza  {Stomatita prin Geotrichum}  <Geotrichosis>
+E07.1   Gusa datorita unei tulburari a sintezei hormonale  {Gusa familiala datorita unei tulburari a sintezei hormonale / Sindromul Pendred}  <Dyshormogenetic goiter>
+F42.0   Ganduri predominant obsedante sau de meditare
+F42.2   Ganduri si acte obsedante mixte  <Mixed obsessional thoughts and acts>
+H40.2   Glaucom primar in unghi ingust  {Glaucom in unghi ingust (primar)(stadiu}  <Primary angle-closure glaucoma>
+H40.3   Glaucom secundar unui traumatism ocular  <Glaucoma secondary to eye trauma>
+H40.4   Glaucom secundar unei inflamatii a ochiului  <Glaucoma secondary to eye inflammation>
+H40.5   Glaucom secundar altor afectiuni oculare  <Glaucoma secondary to other eye disorders>
+H40.6   Glaucom provocat de medicamente  <Glaucoma secondary to drugs>
+H42.0   Glaucom in bolile endocrine, de nutritie si metabolism
+K05     Gingivita si bolile periodontale  <Gingivitis and periodontal diseases>
+K13.4   Granulomul si leziunile pseudo-granuloase ale mucoasei bucale  {Granulom eozinofilic al mucoasei bucale / Granulom piogenic al mucoasei bucale / Xantom verucos al mucoasei bucale}  <Granuloma and granuloma-like lesions of oral mucosa>
+K14.2   Glosita romboida mediana  <Median rhomboid glossitis>
+K14.6   Glosodinia  {Glosopiroza / Glosalgia}  <Glossodynia>
+K29     Gastrita si duodenita  <Gastritis and duodenitis>
+K29.9   Gastro-duodenita, nespecificata  <Gastroduodenitis, unspecified>
+K52.0   Gastroenterite si colite datorite iradierii  <Gastroenteritis and colitis due to radiation>
+K52.1   Gastroenterite si colite toxice  <Toxic gastroenteritis and colitis>
+K52.2   Gastroenterite si colite alimentare si alergice  {Gastroenterita sau colita datorita hipersensibilitatii alimentare}  <Allergic and dietetic gastroenteritis and colitis>
+K52.9   Gastroenterita si colita neinfectioase, nespecificate  {Alte boli ale intestinelor}  <Noninfective gastroenteritis and colitis, unspecified>
+L57.5   Granulom actinic  <Actinic granuloma>
+M17.0   Gonartroza primara, bilaterala  <Bilateral primary osteoarthritis of knee>
+M17.2   Gonartroza post-traumatica bilaterala  <Bilateral post-traumatic osteoarthritis of knee>
+M31.2   Granulom malign al liniei mediane  <Lethal midline granuloma>
+N64.3   Galactoree neasociata cu nasterea  <Galactorrhea not associated with childbirth>
+O92.6   Galactoreea  <Galactorrhea>
+P05.0   Greutate mica pentru varsta gestationala  {Intarziere de crestere asimetrica / Usor pentru varsta gestationala}  <Newborn light for gestational age>
+P07.0   Greutate la nastere foarte mica  <Extremely low birth weight newborn>
+P07.01  Greutate la nastere foarte mica de 499g sau mai putin  <Extremely low birth weight newborn, less than 500 grams>
+P07.02  Greutate la nastere foarte mica de 500 - 749g  <Extremely low birth weight newborn, 500-749 grams>
+P07.03  Greutate la nastere foarte mica  <Extremely low birth weight newborn, 750-999 grams>
+P28.83  Gafaitul la nou-nascut
+P72.0   Gusa neonatala, neclasificata altundeva  {Gusa congenitala tranzitorie cu functionare normala}  <Neonatal goiter, not elsewhere classified>
+Q89.4   Gemeni uniti  <Conjoined twins>
+Q89.46  Geaman acardiac
+===== POSIBIL (26)
+A66.5   Gangosa  {Rinofaringita mutilanta}  <Gangosa> ~ Raceala
+B00.2   Gingivo-stomatita si faringo-amigdalita cu virusul herpetic  {Faringita cu virusul herpetic}  <Herpesviral gingivostomatitis and pharyngotonsillitis> ~ Amigdalita cu virus herpes simplex | Gingivostomatita herpetica | Faringita herpetica
+B83.1   Gnathostomiaza  {Dermatita cu edem calator}  <Gnathostomiasis> ~ Gnatostomoza
+E01.0   Gusa difuza (endemica) legata de carenta de iod  {endemica}  <Iodine-deficiency related diffuse (endemic) goiter> ~ Deficit de iod
+E01.1   Gusa multinodulara (endemica) legata de o carenta de iod  {endemica / Gusa nodulara legata de carenta de iod}  <Iodine-deficiency related multinodular (endemic) goiter> ~ Deficit de iod | Gusa multinodulara netoxica
+E75.0   Gangliosidoza GM2  <GM2 gangliosidosis> ~ Boala Tay-Sachs | Gangliozidoza GM1
+H40.0   Glaucomul la limita  {Hipertensiune oculara}  <Glaucoma suspect> ~ Hipertensiune arteriala secundara | Hipertensiune arteriala pulmonara | Hipertensiune portala
+H40.1   Glaucom primar in unghi deschis  <Open-angle glaucoma> ~ Glaucom
+J10     Gripa datorita unui virus gripal identificat  <Influenza due to other identified influenza virus> ~ Gripa cu virus identificat | Gripa fara virus identificat
+J10.0   Gripa cu pneumonie, virus gripal identificat (Bronho)pneumonia virala, virus gripal identificat  {Bronho}  <Influenza due to other identified influenza virus with pneumonia> ~ Gripa cu virus identificat | Gripa fara virus identificat | Pneumonie | Pneumonie cu virus influenza
+J10.8   Gripa cu alte manifestari, virus gripal identificat  {Encefalopatie datorita gripei, virus gripal identificat}  <Influenza due to other identified influenza virus with other manifestations> ~ Gripa cu virus identificat | Gripa fara virus identificat
+J11     Gripa, virus neidentificat  <Influenza due to unidentified influenza virus> ~ Gripa fara virus identificat | Gripa cu virus identificat
+J11.0   Gripa cu pneumonie, virus neidentificat (Bronho)pneumonia virala, nespecificata sau virus specific neidentificat  {Bronho}  <Influenza due to unidentified influenza virus with pneumonia> ~ Gripa fara virus identificat | Pneumonie | Pneumonie cu virus influenza
+J11.8   Gripa cu alte manifestari, virus neidentificat  {Encefalopatia datorita gripei sau virus specific neidentificat}  <Influenza due to unidentified influenza virus with other manifestations> ~ Gripa fara virus identificat
+J85.0   Gangrena si necroza pulmonara  <Gangrene and necrosis of lung> ~ Gangrena pulmonara
+K10.1   Granulom cu celule gigante, central  {Granulom cu celule gigante} ~ Granulomatoza cu celule gigante | Tumora cu celule gigante
+K29.0   Gastrita hemoragica acuta  {Gastrita (eroziva) acuta cu hemoragie}  <Acute gastritis> ~ Cistita hemoragica | Miringita hemoragica | Encefalomielita hemoragica acuta
+K29.2   Gastrita alcoolica  <Alcoholic gastritis> ~ Hepatita alcoolica | Gastrita | Gastrita atrofica
+L92.2   Granulom facial [granulom eosinofilic al pielii fetei]  {granulom eosinofilic al pielii fetei}  <Granuloma faciale [eosinophilic granuloma of skin]> ~ Granulom laringian | Granulom nazal
+L92.3   Granulom datorita prezentei unui corp strain al pielii si tesutului celular subcutanat  <Foreign body granuloma of the skin and subcutaneous tissue> ~ Granulom de la corpi straini
+M10.0   Guta idiopatica  {Bursita gutoasa / Guta primara / Tofi gutosi ai inimii†}  <Idiopathic gout> ~ Rinita vasomotorie | Urticarie | Artrita gutoasa
+M10.1   Guta prin intoxicatia cu plumb  <Lead-induced gout> ~ Intoxicatie cu plumb
+M10.2   Guta de origine medicamentoasa  <Drug-induced gout> ~ Alergie medicamentoasa
+M10.3   Guta datorita deficientei functiei renale  <Gout due to renal impairment> ~ Nefropatia gutoasa
+M60.2   Granulom aparut datorita prezentei unui corp strain in tesutul conjunctiv, neclasificat altundeva  <Foreign body granuloma of soft tissue, not elsewhere classified> ~ Granulom de la corpi straini
+Q18.3   Gat membranat  {Pterigium colli}  <Webbing of neck> ~ Pterigium cervical
+===== EXISTA (26)
+A07.1   Giardiaza [lambliaza] = Giardiaza [exact]
+A48.0   Gangrena gazoasa = Gangrena gazoasa [exact]
+A58     Granulom inghinal = Granulom inghinal [exact]
+E01.2   Gusa (endemica) legata de carenta de iod, nespecificata = Gusa endemica [exact]
+E04.0   Gusa difuza netoxica = Gusa difuza netoxica [exact]
+E04.2   Gusa multinodulara netoxica = Gusa multinodulara netoxica [exact]
+E04.9   Gusa netoxica, nespecificata = Gusa [exact]
+H40     Glaucom = Glaucom [exact]
+J10.1   Gripa cu alte manifestari respiratorii, virus gripal identificat = Gripa [exact]
+J11.1   Gripa cu alte manifestari respiratorii, virus neidentificat = Gripa [exact]
+K05.0   Gingivita acuta = Gingivita [temporal (G1)]
+K05.1   Gingivita cronica = Gingivita [exact]
+K14.0   Glosita = Glosita [exact]
+K29.3   Gastrita superficiala cronica = Gastrita cronica neatrofica [exact]
+K29.4   Gastrita atrofica cronica = Gastrita atrofica [temporal (G1)]
+K29.5   Gastrita cronica, nespecificata = Gastrita [exact]
+K29.7   Gastrita, nespecificata = Gastrita [exact]
+L92.0   Granulom inelar = Granulom inelar [exact]
+L98.0   Granulom piogenic = Granulom piogenic [exact]
+M10     Guta = Guta [exact]
+M17     Gonartroza [artroza genunchiului] = Gonartroza [exact]
+M17.9   Gonartroza, nespecificata = Gonartroza [exact]
+M31.3   Granulomatoza Wegener = Granulomatoza cu poliangiita [exact]
+M67.4   Ganglion = Chist sinovial [exact]
+Q15.0   Glaucom congenital = Glaucom congenital [exact]
+Q79.3   Gastroschizis = Gastroschizis [exact]
+===== ELIMINAT (36)
+C03.0   Gingia superioara [subzona de organ (D5)]
+C03.1   Gingia inferioara [subzona de organ (D5)]
+C03.9   Gingia, nespecificata [subzona de organ (D5)]
+C06.9   Gura, nespecificata [subzona de organ (D5)]
+C08.0   Glanda submandibulara [subzona de organ (D5)]
+C08.1   Glanda sublinguala [subzona de organ (D5)]
+C08.9   Glanda salivara principala, nespecificata [subzona de organ (D5)]
+C32.0   Glota [subzona de organ (D5)]
+C60.1   Glandul penisului [subzona de organ (D5)]
+C68.1   Glandele uretrale [subzona de organ (D5)]
+C69.5   Glanda lacrimala si canalul lacrimal [subzona de organ (D5)]
+C75.0   Glanda paratiroida [subzona de organ (D5)]
+C75.3   Glanda pineala (epifiza) [subzona de organ (D5)]
+C75.5   Glomus aortic si alti paraganglioni [subzona de organ (D5)]
+C75.9   Glanda endocrina, nespecificata [subzona de organ (D5)]
+C77.0   Ganglionii limfatici ai capului, fetei si gatului [subzona de organ (D5)]
+C77.1   Ganglionii limfatici intratoracici [subzona de organ (D5)]
+C77.2   Ganglionii limfatici intra-abdominali [subzona de organ (D5)]
+C77.3   Ganglionii limfatici ai axilei si membrului superior [subzona de organ (D5)]
+C77.4   Ganglionii limfatici inghinali si ai membrului inferior [subzona de organ (D5)]
+C77.5   Ganglionii limfatici intrapelvieni [subzona de organ (D5)]
+C77.8   Ganglionii limfatici cu localizari multiple [subzona de organ (D5)]
+C77.9   Ganglioni limfatici, nespecificati [subzona de organ (D5)]
+D11.0   Glanda parotida [subzona de organ (D5)]
+D11.9   Glanda salivara principala, nespecificata [subzona de organ (D5)]
+D31.5   Glande lacrimale si canal lacrimal [subzona de organ (D5)]
+D35.6   Glomus aortic si alti paraganglioni [subzona de organ (D5)]
+D35.9   Glande endrocrine, nespecificate [subzona de organ (D5)]
+D36.0   Ganglioni limfatici [subzona de organ (D5)]
+D44.7   Glomus aortic si alti paraganglioni [subzona de organ (D5)]
+D44.9   Glande endocrine, nespecificate [subzona de organ (D5)]
+D47.2   Gammapatie monoclonala [subzona de organ (D5)]
+H40.9   Glaucom, nespecificat [dublura categoriei parinte (nespecificat)]
+H42     Glaucom in boli clasificate altundeva [asterisc (in alte boli)]
+H42.8   Glaucom in alte boli clasificate altundeva [asterisc (in alte boli)]
+M10.9   Guta, nespecificata [dublura categoriei parinte (nespecificat)]

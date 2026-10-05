@@ -1,0 +1,81 @@
+===== NOU (21)
+B01.8   Varicela cu alte complicatii  <Varicella with other complications>
+B07     Veruca de origine virala  <Viral warts>
+F50.5   Voma asociata cu alte tulburari psihologice  {Voma psihogena}
+F52.5   Vaginism neorganic  {Vaginism psihogen}  <Vaginismus not due to a substance or known physiological condition>
+F55.4   Vitamine  <Abuse of vitamins>
+F65.3   Voyerism  <Voyeurism>
+H52     Vicii de refractie si tulburari de acomodare  <Disorders of refraction and accommodation>
+I86.0   Varice sublinguale  <Sublingual varices>
+I86.3   Varice vulvare  <Vulval varices>
+K56.2   Volvulus  {Strangularea colonului sau intestinului / Torsiunea colonului sau intestinului / Rasucirea colonului sau intestinului}  <Volvulus>
+K91.0   Voma consecutiva chirurgiei gastro-intestinale  <Vomiting following gastrointestinal surgery>
+L95     Vasculita limitata a pielii, neclasificata altundeva  <Vasculitis limited to skin, not elsewhere classified>
+M31.9   Vasculopatia necrozanta, nespecificata  <Necrotizing vasculopathy, unspecified>
+N31.0   Vezica urinara neuropatica neinhibata, neclasificata altundeva  <Uninhibited neuropathic bladder, not elsewhere classified>
+N31.2   Vezica urinara neuropatica flasca, neclasificata altundeva  <Flaccid neuropathic bladder, not elsewhere classified>
+N76.1   Vaginita subcuta si cronica  <Subacute and chronic vaginitis>
+N76.3   Vulvita subacuta si cronica  <Subacute and chronic vulvitis>
+O21.2   Voma tardiva a sarcinii  <Late vomiting of pregnancy>
+O22.1   Varicele organelor genitale in sarcina  {Varicele perineului in sarcina / Varice vaginale in sarcina / Varice vulvare in sarcina}  <Genital varices in pregnancy>
+Q64.42  Vizibilitatea uracei
+Q66.2   Varus al metatarsului  <Congenital metatarsus (primus) varus>
+===== POSIBIL (20)
+A63.0   Veruce ano-genitale (veneriene)  {veneriene}  <Anogenital (venereal) warts> ~ Condilom acuminat
+A88.1   Vertigo epidemic  <Epidemic vertigo> ~ Tifos epidemic
+B03     Variola  <Smallpox> ~ Varice | Varicela
+I83     Vene varicoase ale extremitatilor inferioare  <Varicose veins of lower extremities> ~ Varice
+I83.0   Vene varicoase cu ulceratie ale extremitatilor inferioare  {Ulcer varicos (extremitatile inferioare, orice parte)}  <Varicose veins of lower extremities with ulcer> ~ Varice | Ulcere ale picioarelor
+I83.2   Vene varicoase ale extremitatilor inferioare cu ulceratie si inflamatie  <Varicose veins of lower extremities with both ulcer and inflammation> ~ Flebita | Varice
+I83.9   Vene varicoase ale extremitatilor inferioare fara ulceratie sau inflamatie  {Flebectazia extremitatilor inferioare [orice parte] sau cu localizare / Varice ale extremitatilor inferioare [orice parte] sau cu localizare}  <Asymptomatic varicose veins of lower extremities> ~ Flebita | Varice
+I85.0   Varice esofagiene cu sangerare  <Esophageal varices> ~ Hemoragie digestiva prin varice | Varice esofagiene
+I86     Vene varicoase cu alte localizari  <Varicose veins of other sites> ~ Varice
+I86.8   Vene varicoase cu alte localizari specificate  {Ulcer varicos al septului nazal}  <Varicose veins of other specified sites> ~ Varice | Ulcere ale picioarelor
+L95.0   Vasculita livida  {Atrofia alba (in placi)}  <Livedoid vasculitis> ~ Livedo vasculita | Purpura Henoch-Schonlein | Atrofie blanca
+N31.1   Vezica urinara neuropatica reflexa, neclasificata altundeva  <Reflex neuropathic bladder, not elsewhere classified> ~ Vezica neurogena spastica
+N95.2   Vaginita atrofica postmenopauza  {Vaginita senila (atrofica)}  <Postmenopausal atrophic vaginitis> ~ Atrofie vaginala
+O21     Voma excesiva in sarcina  <Excessive vomiting in pregnancy> ~ Greturi matinale
+O21.9   Voma in sarcina, nespecificata  <Vomiting of pregnancy, unspecified> ~ Greturi matinale
+O22.0   Vene varicoase ale extremitatilor inferioare in sarcina  <Varicose veins of lower extremity in pregnancy> ~ Varice
+P92.0   Voma la nou-nascut  <Vomiting of newborn> ~ Malarie congenitala | Varicela congenitala
+Q52.1   Vagin dublu  {Vagin cu sept}  <Doubling of vagina> ~ Diplopie
+Q64.21  Valve uretrale posterioare congenitale  {Membrana uretrala posterioara obstructiva congenitala (COPUM)} ~ Valve uretrale posterioare
+Q64.22  Valve uretrale anterioare congenitale ~ Valve uretrale posterioare
+===== EXISTA (18)
+B01     Varicela = Varicela [exact]
+B01.9   Varicela fara complicatii = Varicela [exact]
+H52.7   Viciu de refractie, nespecificat = Ametropie [exact]
+H81.1   Vertij paroxistic benign = Vertij pozitional paroxistic benign [exact]
+H81.4   Vertijul de origine centrala = Vertij central [terminatii]
+I83.1   Vene varicoase cu inflamatie ale extremitatilor inferioare = Dermatita de staza [exact]
+I85     Varice esofagiene = Varice esofagiene [exact]
+I85.9   Varice esofagiene fara sangerare = Varice esofagiene [exact]
+I86.1   Varice scrotale = Varicocel [exact]
+I86.2   Varice pelviene = Sindrom de congestie pelviana [exact]
+I86.4   Varice gastrice = Varice gastrice [exact]
+L80     Vitiligo = Vitiligo [exact]
+M05.2   Vasculita reumatoida = Vasculita reumatoida [exact]
+N76.0   Vaginita acuta = Vaginita [exact]
+N76.2   Vulvita acuta = Vulvita [exact]
+N94.2   Vaginism = Vaginism [exact]
+Q64.2   Valve uretrale congenitale = Valve uretrale posterioare [exact]
+Q64.20  Valve uretrale congenitale, nespecificate = Valve uretrale posterioare [exact]
+===== ELIMINAT (18)
+B97     Virusi drept cauza unor boli clasificate la alte capitole [agent cauzal, nu boala]
+B97.4   Virus respirator sincitial, cauza unor boli clasificate la alte capitole [agent cauzal, nu boala]
+C06.1   Vestibul bucal [subzona de organ (D5)]
+C51.9   Vulva, nespecificata [subzona de organ (D5)]
+C67.9   Vezica urinara, nespecificata [subzona de organ (D5)]
+C71.5   Ventricul cerebral [subzona de organ (D5)]
+D07.1   Vulva [subzona de organ (D5)]
+D07.2   Vagin [subzona de organ (D5)]
+D09.0   Vezica urinara [subzona de organ (D5)]
+D28.0   Vulva [subzona de organ (D5)]
+D28.1   Vagin [subzona de organ (D5)]
+D30.3   Vezica urinara [subzona de organ (D5)]
+D41.4   Vezica urinara [subzona de organ (D5)]
+I98.2   Varice esofagiene in boli clasificate altundeva [asterisc (in alte boli)]
+I98.20  Varice esofagiene in boli clasificate altundeva fara sangerare [asterisc (in alte boli)]
+I98.21  Varice esofagiene in boli clasificate altundeva cu sangerare [asterisc (in alte boli)]
+L95.9   Vasculita limitata a pielii, nespecificata [dublura categoriei parinte (nespecificat)]
+N77.1   Vaginita, vulvita si vulvo-vaginita in boli infectioase si parazitare clasificate altundeva [asterisc (in alte boli)]

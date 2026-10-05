@@ -1,0 +1,524 @@
+===== NOU (180)
+B00.1   Dermita veziculara datorita virusului herpetic  <Herpesviral vesicular dermatitis>
+B70     Diphyllobothriaza si sparganoza  <Diphyllobothriasis and sparganosis>
+D81.5   Deficit in purine nucleosidfosforilaza [PNP]  <Purine nucleoside phosphorylase [PNP] deficiency>
+D81.7   Deficit in complex major de histocompatibilitate clasa II  <Major histocompatibility complex class II deficiency>
+E14.0   Diabet mellitus nespecificat cu hiperosmolaritate
+E14.02  Diabet mellitus nespecificat cu hiperosmolaritate, cu coma
+E14.1   Diabet mellitus nespecificat cu acidoza
+E14.11  Diabet mellitus nespecificat cu acidocetoză, fara coma  {Diabet mellitus cu acidocetoză}
+E14.12  Diabet mellitus nespecificat cu acidocetoză, cu coma  {Diabet mellitus cu coma hiperglicemica}
+E14.31  Diabet mellitus nespecificat cu retinopatie de fond
+E14.32  Diabet mellitus nespecificat cu retinopatie preproliferativa
+E14.33  Diabet mellitus nespecificat cu retinopatie proliferativa
+E14.34  Diabet mellitus nespecificat cu alte retinopatii
+E14.35  Diabet mellitus nespecificat cu boala oculara avansata
+E14.4   Diabet mellitus nespecificat cu complicatii neurologice
+E14.40  Diabet mellitus nespecificat cu neuropatie nespecificata
+E14.41  Diabet mellitus nespecificat cu mononeuropatie diabetica
+E14.42  Diabet mellitus nespecificat cu polineuropatie diabetica
+E14.49  Diabet mellitus nespecificat cu alte complicatii neurologice specificate
+E14.5   Diabet mellitus nespecificat cu complicatii circulatorii
+E14.51  Diabet mellitus nespecificat cu agiopatie periferica, fara gangrena
+E14.52  Diabet mellitus nespecificat cu agiopatie periferica, cu gangrena
+E14.6   Diabet mellitus nespecificat cu alte complicatii specificate
+E14.61  Diabet mellitus nespecificat cu complicatii diabetice musculoscheletale si ale tesutului conjunctiv specificate
+E14.62  Diabet mellitus nespecificat cu complicatii ale pielii si tesutului subcutanat specificate
+E14.63  Diabet mellitus nespecificat cu complicatii periodontale specificate
+E14.64  Diabet mellitus nespecificat cu hipoglicemie
+E14.65  Diabet mellitus nespecificat cu control slab
+E14.69  Diabet mellitus nespecificat cu alte complicatii specifice
+E14.7   Diabet mellitus nespecificat cu complicatii multiple
+E14.71  Diabet mellitus nespecificat cu complicatii microvasculare multiple
+E14.73  Diabet mellitus nespecificat cu ulceratia piciorului datorita unor cauze multiple  {Diabet mellitus cu ulceratia}
+E14.8   Diabet mellitus nespecificat cu complicatii nespecificate
+E14.9   Diabet mellitus nespecificat fara complicatii
+E31     Disfunctiuni pluriglandulare  <Polyglandular dysfunction>
+E31.9   Disfunctii poliglandulare, nespecificate  <Polyglandular dysfunction, unspecified>
+E63.1   Dezechilibru constituentilor alimentari ingerati  <Imbalance of constituents of food intake>
+E80.3   Deficit in catalaza si peroxidaza  {Acatalazia [Takahara]}  <Defects of catalase and peroxidase>
+F02.2   Dementa in boala Huntington (G10†)  {Dementa in choreea Huntington}
+F05     Delir, neindus de alcool si alte substante psiho-active  <Delirium due to known physiological condition>
+F05.0   Delir nesupra-adaugat unei demente, descrisa ca atare
+F05.1   Delir supra-adaugat unei demente
+F20.4   Depresie post-schizofrenica
+F45.30  Disfunctie autonoma somatoforma, organ sau sistem nespecificate
+F45.31  Disfunctie autonoma somatoforma, inima si sistem cardiovascular
+F45.32  Disfunctie autonoma somatoforma, tract gastrointestinal superior
+F45.33  Disfunctie autonoma somatoforma, tract gastrointestinal inferior
+F45.34  Disfunctie autonoma somatoforma, sistem respirator
+F45.35  Disfunctie autonoma somatoforma, sistem genito-urinar
+F45.38  Disfunctie autonoma somatoforma, alt organ sau sistem
+F45.39  Disfunctie autonoma somatoforma, organe sau sisteme multiple
+F52     Disfuntie sexuala, neprovocata de o tulburare sau boala organica  <Sexual dysfunction not due to a substance or known physiological condition>
+F52.3   Disfunctie orgasmica  {Orgasmul fie nu are loc, fie este intarziat in mod deosebit / Orgasm inhibat (femeie) (barbat) / Anorgasm psihogen}  <Orgasmic disorder>
+F68.0   Dezvoltare a simptomelor fizice din motive psihologice  {Nevroza de compensatie}
+G24.0   Distonia provocata medicamentos  <Drug induced dystonia>
+G24.2   Distonia idiopatica nonfamiliala  <Idiopathic nonfamilial dystonia>
+G24.4   Distonia buco-faciala  {Dischinezia buco-faciala}  <Idiopathic orofacial dystonia>
+G31.2   Degenerescenta sistemului nervos datorita alcoolului  <Degeneration of nervous system due to alcohol>
+G36.9   Demielinizari acute diseminate, nespecificate  <Acute disseminated demyelination, unspecified>
+G37.1   Demielinizarea centrala a corpului calos  <Central demyelination of corpus callosum>
+G83.0   Diplegia membrelor superioare  {Diplegia (superioara) / Paralizia ambelor membre superioare}  <Diplegia of upper limbs>
+H01.1   Dermatoza neinfectioasa a pleoapei  <Noninfectious dermatoses of eyelid>
+H05.3   Deformarea orbitei  {Atrofia orbitei / Exostoza orbitei}  <Deformity of orbit>
+H11.1   Depuneri si afectiuni degenerative ale conjuctivei  <Conjunctival degenerations and deposits>
+H31.2   Distrofia ereditara a choroidei  {Choroideremia / Distrofia, choroidala (central areolara) (generalizata) (peripapilara) / Atrofia girata, choroida}  <Hereditary choroidal dystrophy>
+H33.2   Dezlipirea seroasei retiniene  <Serous retinal detachment>
+H35.3   Degenerescenta maculei si polului posterior  {Striatii angioide ale maculei / Cute ale maculei / Dungi (degenerative) ale maculei / Gauri ale maculei / Pliuri ale maculei / Degenerescenta Kuhnt-Junius / Degenerescenta maculara senila (atrofica) (exudativa) / Maculopatia toxica}  <Degeneration of macula and posterior pole>
+H57.1   Durere oculara  <Ocular pain>
+H69.0   Distensiunea trompei Eustache  <Patulous Eustachian tube>
+H74.2   Disociatia si dislocarea oscioarelor urechii  <Discontinuity and dislocation of ear ossicles>
+I49.1   Depolarizare atriala prematura  {Batai atriale premature}  <Atrial premature depolarization>
+I49.2   Depolarizare jonctionala prematura  <Junctional premature depolarization>
+I49.3   Depolarizare ventriculara prematura  <Ventricular premature depolarization>
+I51.0   Defect septal dobandit  <Cardiac septal defect, acquired>
+I67.0   Disectia arterelor cerebrale, fara ruptura  <Dissection of cerebral arteries, nonruptured>
+I77.3   Displazia fibromusculara arteriala  <Arterial fibromuscular dysplasia>
+J33.1   Degenerescenta polipoida a sinusului  {Sindromul Woakes sau etmoidita}  <Polypoid sinus degeneration>
+K00.3   Dinti patati  {Fluoroza dentara / Smalt patat / Pete de smalt neasociate fluorozei}  <Mottled teeth>
+K01     Dinti inclusi si inclavati  <Embedded and impacted teeth>
+K01.0   Dinti inclusi  <Embedded teeth>
+K01.1   Dinti inclavati  <Impacted teeth>
+K38.2   Diverticulul apendicelui  <Diverticulum of appendix>
+L11.1   Dermatoza acantolitica tranzitorie [Grover]  {Grover}  <Transient acantholytic dermatosis [Grover]>
+L13.1   Dermatoza pustuloasa subcorneeana  {Boala Sneddon-Wilkinson}  <Subcorneal pustular dermatitis>
+L27     Dermatita datorita substantelor ingerate  <Dermatitis due to substances taken internally>
+L27.2   Dermatita datorita ingestiei de alimente  <Dermatitis due to ingested food>
+L27.8   Dermatita datorita altor substante ingerate  <Dermatitis due to other substances taken internally>
+L27.9   Dermatita datorita unei substante ingerate nespecificate  <Dermatitis due to unspecified substance taken internally>
+L50.3   Dermatografism urticarian  <Dermatographic urticaria>
+L81.7   Dermatoza purpurica pigmentata  {Angiomul serpiginos}  <Pigmented purpuric dermatosis>
+M14.3   Dermato-artrita lipoida (E78.8†)
+M20     Deformatii dobandite ale degetelor de la mana si picior  <Acquired deformities of fingers and toes>
+M20.0   Deformatia deget(e) de la mana  {Deformatii in 'butoniera' si in 'gat de lebada'}  <Deformity of finger(s)>
+M20.6   Deformatia dobandita a degetului(lor) de la picior, nespecificata  <Acquired deformities of toe(s), unspecified>
+M21.0   Deformatia valgus, neclasificata altundeva  <Valgus deformity, not elsewhere classified>
+M21.2   Deformatia in flexiune  <Flexion deformity>
+M21.9   Deformatii dobandite ale membrelor, nespecificate  <Unspecified acquired deformity of limb and hand>
+M53.9   Dorsopatia, nespecificata  <Dorsopathy, unspecified>
+M54     Dorsalgia  <Dorsalgia>
+M71.4   Depozit de calciu in bursa  <Calcium deposit in bursa>
+M79.6   Durere la nivelul unui membru  <Pain in limb, hand, foot, fingers and toes>
+M95.0   Diformitate dobandita a nasului  <Acquired deformity of nose>
+M95.3   Diformitate dobandita a gatului  <Acquired deformity of neck>
+M95.4   Diformitate dobandita a toracelui si coastelor  <Acquired deformity of chest and rib>
+M95.5   Diformitate dobandita a pelvisului  <Acquired deformity of pelvis>
+M95.9   Diformitate dobandita a sistemului musculo-scheletal, nespecificata  <Acquired deformity of musculoskeletal system, unspecified>
+M99.0   Disfunctie segmentara si somatica  <Segmental and somatic dysfunction>
+N31     Disfunctia neuro-musculara a vezicii urinare  <Neuromuscular dysfunction of bladder, not elsewhere classified>
+N31.9   Disfunctiunea neuro-musculara a vezicii urinare, nespecificata  <Neuromuscular dysfunction of bladder, unspecified>
+N32.3   Diverticulul vezicii urinare  <Diverticulum of bladder>
+N60     Displazia mamara benigna  <Benign mammary dysplasia>
+N89.2   Displazia severa a vaginului, neclasificata altundeva  {Displazia vaginala severa}
+N89.3   Displazia vaginului, nespecificata  <Dysplasia of vagina, unspecified>
+N90.2   Displazia severa a vulvei, neclasificata altundeva  {Displazia vulvara severa}
+N90.3   Displazia vulvei, nespecificata  <Dysplasia of vulva, unspecified>
+O09     Durata sarcinii  <Supervision of high risk pregnancy>
+O09.0   Durata sarcinii < 5 saptamani complete  <Supervision of pregnancy with history of infertility>
+O09.1   Durata sarcinii 5-13 saptamani complete  <Supervision of pregnancy with history of ectopic pregnancy>
+O09.2   Durata sarcinii 14-19 saptamani complete  <Supervision of pregnancy with other poor reproductive or obstetric history>
+O09.3   Durata sarcinii 20-25 saptamani complete  <Supervision of pregnancy with insufficient antenatal care>
+O09.4   Durata sarcinii 26-33 saptamani complete  <Supervision of pregnancy with grand multiparity>
+O09.5   Durata sarcinii 34-36 saptamani complete  <Supervision of elderly primigravida and multigravida>
+O45.0   Dezlipirea prematura a placentei cu anomalii de coagulare  {Dezlipirea prematura a placentei cu}  <Premature separation of placenta with coagulation defect>
+O64     Distocia de obstacol datorita unei pozitii si prezentatii anormale a fatului  <Obstructed labor due to malposition and malpresentation of fetus>
+O64.0   Distocia de obstacol datorita unei rotatii incomplete a capului fatului  {Oprirea in pozitie transversa / Distocia de obstacol datorita persistentei}  <Obstructed labor due to incomplete rotation of fetal head>
+O64.1   Distocia de obstacol datorita unei prezentatii pelvine  <Obstructed labor due to breech presentation>
+O64.2   Distocia de obstacol datorita unei prezentatii faciale  {Distocia de obstacol datorita prezentatiei cu barbia}  <Obstructed labor due to face presentation>
+O64.3   Distocia de obstacol datorita unei prezentatii frontale  <Obstructed labor due to brow presentation>
+O64.4   Distocia de obstacol datorita unei prezentatii umerale  {Brat prolabat}  <Obstructed labor due to shoulder presentation>
+O64.5   Distocia de obstacol datorita unei prezentatii complexe  <Obstructed labor due to compound presentation>
+O64.8   Distocia de obstacol datorita altor pozitii si prezentatii anormale  <Obstructed labor due to other malposition and malpresentation>
+O64.9   Distocia de obstacol datorita unei pozitii si prezentatii anormale, nespecificate  <Obstructed labor due to malposition and malpresentation, unspecified>
+O65     Distocia de obstacol datorita unei anomalii pelviene a mamei  <Obstructed labor due to maternal pelvic abnormality>
+O65.0   Distocia de obstacol datorita unei deformari pelviene  <Obstructed labor due to deformed pelvis>
+O65.1   Distocia de obstacol datorita unui bazin ingust in general  <Obstructed labor due to generally contracted pelvis>
+O65.2   Distocia de obstacol datorita unei ingustari a stramtorii superioare  <Obstructed labor due to pelvic inlet contraction>
+O65.3   Distocia de obstacol datorita unei ingustari a stramtorii inferioare si a cavitatii medii  <Obstructed labor due to pelvic outlet and mid-cavity contraction>
+O65.4   Distocia de obstacol datorita unei disproportii feto-pelviene, nespecificata  <Obstructed labor due to fetopelvic disproportion, unspecified>
+O65.5   Distocia de obstacol datorita unei anomalii a organelor pelviene ale mamei  <Obstructed labor due to abnormality of maternal pelvic organs>
+O65.8   Distocia de obstacol datorita altor anomalii pelviene ale mamei  <Obstructed labor due to other maternal pelvic abnormalities>
+O66.1   Distocia de obstacol gemelar  <Obstructed labor due to locked twins>
+O66.2   Distocia de obstacol datorita unui fat anormal de mare  <Obstructed labor due to unusually large fetus>
+O66.3   Distocia de obstacol datorita anomaliilor fetale  <Obstructed labor due to other abnormalities of fetus>
+O66.9   Distocia de obstacol, nespecificata  <Obstructed labor, unspecified>
+O90.0   Desprinderea unei suturi de cezariana  <Disruption of cesarean delivery wound>
+O90.1   Desprinderea unei suturi obstetricale la nivelul perineului  <Disruption of perineal obstetric wound>
+O95     Deces obstetrical datorita unei cauze nespecificate
+O96     Deces de origine obstetricala, survenind peste mai mult de 42 zile dar mai putin de un an dupa nastere
+O97     Deces prin sechele survenind dintr-o cauza obstetricala directa
+P74.1   Deshidratarea nou-nascutului  <Dehydration of newborn>
+P91.4   Diminuarea activitatii cerebrale la nou-nascut  <Neonatal cerebral depression>
+P92.5   Dificultati in alaptarea nou-nascutului  <Neonatal difficulty in feeding at breast>
+Q04.4   Displazia septului si cailor optice  <Septo-optic dysplasia of brain>
+Q39.82  Dismotilitate esofagiana  {Pseudo-obstructia esofagului}
+Q45.82  Duplicatia organelor digestive, neclasificate altundeva
+Q62     Defecte obstructive congenitale ale pelvisului renal si malformatiile congenitale ale ureterului  <Congenital obstructive defects of renal pelvis and congenital malformations of ureter>
+Q62.5   Dublarea ureterului  {Ureter accesoriu}  <Duplication of ureter>
+Q64.43  Diverticul al uracei
+Q64.6   Diverticul congenital al vezicii  <Congenital diverticulum of bladder>
+Q65     Deformatii congenitale ale soldului  <Congenital deformities of hip>
+Q65.0   Dislocarea congenitala a soldului, unilaterala  <Congenital dislocation of hip, unilateral>
+Q65.1   Dislocarea congenitala a soldului, bilaterala  <Congenital dislocation of hip, bilateral>
+Q66     Deformatii congenitale ale piciorului  <Congenital deformities of feet>
+Q66.9   Deformatia congenitala a piciorului, nespecificata  <Congenital deformity of feet, unspecified>
+Q67     Deformatii congenitale musculo-scheletale ale capului, fetei, coloanei vertebrale si pieptului  <Congenital musculoskeletal deformities of head, face, spine and chest>
+Q67.2   Dolicocefalia  <Dolichocephaly>
+Q67.42  Deviatia septului nasal, congenitala
+Q67.5   Deformatii congenitale ale coloanei vertebrale  <Congenital deformity of spine>
+Q68.1   Deformatii congenitale ale mainii  {Degete in foma de bata congenitale / Mana in forma de sapa (congenitala)}  <Congenital deformity of finger(s) and hand>
+Q68.2   Deformatii congenitale ale genunchiului  <Congenital deformity of knee>
+Q70.0   Degete fuzionate  {Sindactilia complexa a degetelor de la mana cu sinostoza}  <Fused fingers>
+Q70.2   Degetele de la picioare fuzionate  {Sindactilia complexa a degetelor de la picioare cu sinostoza}  <Fused toes>
+Q70.3   Degetele de la picioare unite  {Sindactilia simpla a degetelor de la picioare fara sinostoza}  <Webbed toes>
+Q74.03  Deget mare de la mana trifalangian
+Q74.07  Deget(e) bifid(e) al membrului superior
+Q75.5   Disostoza oculo-mandibulara  <Oculomandibular dysostosis>
+Q86.2   Dismorfism datorita warfarinei  <Dysmorphism due to warfarin>
+Q89.41  Dicefalia  {Doua capete}
+Q92.4   Dublarea observata numai in prometafaza
+Q92.5   Dublarea cu alte rearanjamente complexe  <Duplications with other complex rearrangements>
+===== POSIBIL (253)
+A36.1   Difteria nazo-faringiana  <Nasopharyngeal diphtheria> ~ Faringita cu Corynebacterium
+B66.2   Dicrocoeliaza  {Infectie datorita Dricocoelium dendriticum / Infectie cu parazit Lancet}  <Dicroceliasis> ~ Dicrocelioza
+B70.0   Diphyllobothriaza  {Infectia cu Diphyllobothrium (adult) (latum) (pacificum) / Cestoda pestelui (infectia)}  <Diphyllobothriasis> ~ Difilobotrioza
+D56.2   Delta-beta-thalasemia  <Delta-beta thalassemia> ~ Beta-talasemie
+D80.2   Deficit selectiv de imunoglobuline A [lgA]  <Selective deficiency of immunoglobulin A [IgA]> ~ Deficit selectiv de IgA
+D80.3   Deficit selectiv in subclasele imunoglobulinelor G [lgG]  <Selective deficiency of immunoglobulin G [IgG] subclasses> ~ Deficit de subclase IgG | Deficit selectiv de IgA
+D80.4   Deficit selectiv in imunoglobuline M [lgM]  <Selective deficiency of immunoglobulin M [IgM]> ~ Deficit selectiv de IgA
+D80.6   Deficit in anticorpi cu imunoglobuline aproape normale sau cu hiperimunoglobulinemie  <Antibody deficiency with near-normal immunoglobulins or with hyperimmunoglobulinemia> ~ Deficit selectiv de IgA
+D81.3   Deficit de adenosin dezaminaza [ADA]  <Adenosine deaminase [ADA] deficiency> ~ Deficit de adenozin deaminaza | Deficit de mioadenilat deaminaza
+D81.6   Deficit in complex major de histocompatibilitate clasa I  {Sindromul limfocitelor goale}  <Major histocompatibility complex class I deficiency> ~ Imunodeficienta cu deficit de HLA clasa II
+E10     Diabet mellitus tip 1  <Type 1 diabetes mellitus> ~ Diabet zaharat tip 1
+E10.1   Diabet mellitus tip 1 cu acidoza  <Type 1 diabetes mellitus with ketoacidosis> ~ Diabet zaharat tip 1
+E10.11  Diabet mellitus tip 1 cu acidocetoză, fara coma  <Type 1 diabetes mellitus with ketoacidosis with coma> ~ Diabet zaharat tip 1
+E10.12  Diabet mellitus tip 1 cu acidocetoză, cu coma ~ Diabet zaharat tip 1
+E10.13  Diabet mellitus tip 1 cu acidoza lactica, fara coma ~ Acidoza lactica | Diabet zaharat tip 1
+E10.14  Diabet mellitus tip 1 cu acidoza lactica, cu coma ~ Acidoza lactica | Diabet zaharat tip 1
+E10.15  Diabet mellitus tip 1 cu acidocetoză, cu acidoza lactica, fara coma ~ Acidoza lactica | Diabet zaharat tip 1
+E10.16  Diabet mellitus tip 1 cu acidocetoză, cu acidoza lactica, cu coma ~ Acidoza lactica | Diabet zaharat tip 1
+E10.2   Diabet mellitus tip 1 cu complicatii renale  <Type 1 diabetes mellitus with kidney complications> ~ Diabet zaharat tip 1 | Glicozurie renala
+E10.21  Diabet mellitus tip 1 cu nefropatie diabetica incipienta  <Type 1 diabetes mellitus with diabetic nephropathy> ~ Diabet zaharat tip 1 | Nefropatie diabetica
+E10.22  Diabet mellitus tip 1 cu nefropatie diabetica stabilita  <Type 1 diabetes mellitus with diabetic chronic kidney disease> ~ Diabet zaharat tip 1 | Nefropatie diabetica
+E10.29  Diabet mellitus tip 1 cu alte complicatii renale specificate  <Type 1 diabetes mellitus with other diabetic kidney complication> ~ Diabet zaharat tip 1 | Glicozurie renala
+E10.3   Diabet mellitus tip 1 cu complicatii oculare  <Type 1 diabetes mellitus with ophthalmic complications> ~ Diabet zaharat tip 1 | Retinopatie diabetica | Diabet zaharat tip 1 cu complicatii
+E10.31  Diabet mellitus tip 1 cu retinopatie de fond  <Type 1 diabetes mellitus with unspecified diabetic retinopathy> ~ Diabet zaharat tip 1
+E10.32  Diabet mellitus tip 1 cu retinopatie preproliferativa  <Type 1 diabetes mellitus with mild nonproliferative diabetic retinopathy> ~ Diabet zaharat tip 1
+E10.33  Diabet mellitus tip 1 cu retinopatie proliferativa  <Type 1 diabetes mellitus with moderate nonproliferative diabetic retinopathy> ~ Diabet zaharat tip 1
+E10.34  Diabet mellitus tip 1 cu alte retinopatii  <Type 1 diabetes mellitus with severe nonproliferative diabetic retinopathy> ~ Diabet zaharat tip 1
+E10.35  Diabet mellitus tip 1 cu boala oculara avansata  <Type 1 diabetes mellitus with proliferative diabetic retinopathy> ~ Diabet zaharat tip 1
+E10.36  Diabet mellitus tip 1 cu cataracta diabetica  <Type 1 diabetes mellitus with diabetic cataract> ~ Cataracta diabetica | Diabet zaharat tip 1
+E10.39  Diabet mellitus tip 1 cu alte complicatii oculare specificate  <Type 1 diabetes mellitus with other diabetic ophthalmic complication> ~ Diabet zaharat tip 1 | Retinopatie diabetica
+E10.4   Diabet mellitus tip 1 cu cataracta cu complicatii neurologi  <Type 1 diabetes mellitus with neurological complications> ~ Diabet zaharat tip 1
+E10.41  Diabet mellitus tip 1 cu mononeuropatie diabetica  <Type 1 diabetes mellitus with diabetic mononeuropathy> ~ Diabet zaharat tip 1
+E10.42  Diabet mellitus tip 1 cu polineuropatie diabetica  <Type 1 diabetes mellitus with diabetic polyneuropathy> ~ Diabet zaharat tip 1
+E10.43  Diabet mellitus tip 1 cu neuropatie diabetica autonoma  <Type 1 diabetes mellitus with diabetic autonomic (poly)neuropathy> ~ Diabet zaharat tip 1 | Neuropatie autonoma | Neuropatie autonoma diabetica | Neuropatie diabetica
+E10.49  Diabet mellitus tip 1 cu alte complicatii neurologice specificate  <Type 1 diabetes mellitus with other diabetic neurological complication> ~ Diabet zaharat tip 1
+E10.5   Diabet mellitus tip 1 cu complicatii circulatorii  <Type 1 diabetes mellitus with circulatory complications> ~ Diabet zaharat tip 1
+E10.51  Diabet mellitus tip 1 cu angiopatie periferica, fara gangrena  <Type 1 diabetes mellitus with diabetic peripheral angiopathy without gangrene> ~ Diabet zaharat tip 1
+E10.52  Diabet mellitus tip 1 cu angiopatie periferica, cu gangrena  <Type 1 diabetes mellitus with diabetic peripheral angiopathy with gangrene> ~ Diabet zaharat tip 1
+E10.53  Diabet mellitus tip 1 cu cardiomiopatie ischemica diabetica ~ Cardiomiopatie diabetica | Diabet zaharat tip 1 | Miocardiopatie ischemica
+E10.6   Diabet mellitus tip 1 cu alte complicatii specificate  <Type 1 diabetes mellitus with other specified complications> ~ Diabet zaharat tip 1
+E10.61  Diabet mellitus tip 1 cu complicatii diabetice musculoscheletale si ale tesutului conjunctiv specificate  <Type 1 diabetes mellitus with diabetic arthropathy> ~ Diabet zaharat tip 1
+E10.62  Diabet mellitus tip 1 cu complicatii ale pielii si tesutului subcutanat specificate  <Type 1 diabetes mellitus with skin complications> ~ Diabet zaharat tip 1
+E10.63  Diabet mellitus tip 1 cu complicatii periodontale specificate  <Type 1 diabetes mellitus with oral complications> ~ Diabet zaharat tip 1
+E10.64  Diabet mellitus tip 1 cu hipoglicemie  <Type 1 diabetes mellitus with hypoglycemia> ~ Diabet zaharat tip 1
+E10.65  Diabet mellitus tip 1 cu control slab  <Type 1 diabetes mellitus with hyperglycemia> ~ Diabet zaharat tip 1
+E10.69  Diabet mellitus tip 1 cu alte complicatii specificate  <Type 1 diabetes mellitus with other specified complication> ~ Diabet zaharat tip 1
+E10.7   Diabet mellitus tip 1 cu complicatii multiple ~ Diabet zaharat tip 1
+E10.71  Diabet mellitus tip 1 cu complicatii microvasculare multiple ~ Diabet zaharat tip 1
+E10.73  Diabet mellitus tip 1 cu ulceratia piciorului datorita unor cauze multiple ~ Diabet zaharat tip 1
+E10.8   Diabet mellitus tip 1 cu complicatii nespecificate  <Type 1 diabetes mellitus with unspecified complications> ~ Diabet zaharat tip 1 | Diabet zaharat tip 1 cu complicatii
+E10.9   Diabet mellitus tip 1 fara complicatii  <Type 1 diabetes mellitus without complications> ~ Diabet zaharat tip 1
+E11     Diabet mellitus tip 2 ec etiei de insulina  <Type 2 diabetes mellitus> ~ Diabet zaharat
+E11.0   Diabet mellitus tip 2 cu hiperosmolaritate  <Type 2 diabetes mellitus with hyperosmolarity> ~ Diabet zaharat
+E11.01  Diabet mellitus tip 2 cu hiperosmolaritate fara coma noncetotica hiperglicemica-hiperosmolara [NKHHC]  {NKHHC}  <Type 2 diabetes mellitus with hyperosmolarity with coma> ~ Coma hiperosmolara | Diabet zaharat
+E11.02  Diabet mellitus tip 2 cu hiperosmolaritate cu coma ~ Diabet zaharat
+E11.1   Diabet mellitus tip 2 cu acidoza  <Type 2 diabetes mellitus with ketoacidosis> ~ Diabet zaharat
+E11.11  Diabet mellitus tip 2 cu acidocetoză, fara coma  <Type 2 diabetes mellitus with ketoacidosis with coma> ~ Diabet zaharat
+E11.12  Diabet mellitus tip 2 cu acidocetoză, cu coma ~ Diabet zaharat
+E11.13  Diabet mellitus tip 2 cu acidoza lactica, fara coma ~ Acidoza lactica | Diabet zaharat
+E11.14  Diabet mellitus tip 2 cu acidoza lactica, cu coma ~ Acidoza lactica | Diabet zaharat
+E11.15  Diabet mellitus tip 2 cu acidocetoză, cu acidoza lactica, fara coma ~ Acidoza lactica | Diabet zaharat
+E11.16  Diabet mellitus tip 2 cu acidocetoză, cu acidoza lactica, cu coma ~ Acidoza lactica | Diabet zaharat
+E11.2   Diabet mellitus tip 2 cu complicatii renale  <Type 2 diabetes mellitus with kidney complications> ~ Diabet zaharat | Glicozurie renala
+E11.21  Diabet mellitus tip 2 cu nefropatie diabetica incipienta  <Type 2 diabetes mellitus with diabetic nephropathy> ~ Diabet zaharat | Nefropatie diabetica
+E11.22  Diabet mellitus tip 2 cu nefropatie diabetica stabilita  <Type 2 diabetes mellitus with diabetic chronic kidney disease> ~ Diabet zaharat | Nefropatie diabetica
+E11.29  Diabet mellitus tip 2 cu alte complicatii renale specificate  <Type 2 diabetes mellitus with other diabetic kidney complication> ~ Diabet zaharat | Glicozurie renala
+E11.3   Diabet mellitus tip 2 cu complicatii oculare  <Type 2 diabetes mellitus with ophthalmic complications> ~ Diabet zaharat | Retinopatie diabetica | Diabet zaharat tip 2 cu complicatii
+E11.31  Diabet mellitus tip 2 cu retonopatie de fond  <Type 2 diabetes mellitus with unspecified diabetic retinopathy> ~ Diabet zaharat
+E11.32  Diabet mellitus tip 2 cu retinopatie preproliferativa  <Type 2 diabetes mellitus with mild nonproliferative diabetic retinopathy> ~ Diabet zaharat
+E11.33  Diabet mellitus tip 2 cu retinopatie proliferativa  <Type 2 diabetes mellitus with moderate nonproliferative diabetic retinopathy> ~ Diabet zaharat
+E11.34  Diabet mellitus tip 2 cu alte retinopatii  <Type 2 diabetes mellitus with severe nonproliferative diabetic retinopathy> ~ Diabet zaharat
+E11.35  Diabet mellitus tip 2 cu boala oculara avansata  <Type 2 diabetes mellitus with proliferative diabetic retinopathy> ~ Diabet zaharat
+E11.36  Diabet mellitus tip 2 cu cataracta diabetica  <Type 2 diabetes mellitus with diabetic cataract> ~ Cataracta diabetica | Diabet zaharat
+E11.39  Diabet mellitus tip 2 cu alte complicatii oculare specificate  <Type 2 diabetes mellitus with other diabetic ophthalmic complication> ~ Diabet zaharat | Retinopatie diabetica
+E11.4   Diabet mellitus tip 2 cu complicatii neurologice  <Type 2 diabetes mellitus with neurological complications> ~ Diabet zaharat
+E11.40  Diabet mellitus tip 2 cu neuropatie nespecificata  <Type 2 diabetes mellitus with diabetic neuropathy, unspecified> ~ Diabet zaharat
+E11.41  Diabet mellitus tip 2 cu mononeuropatie diabetica  <Type 2 diabetes mellitus with diabetic mononeuropathy> ~ Diabet zaharat
+E11.42  Diabet mellitus tip 2 cu polineuropatie diabetica  <Type 2 diabetes mellitus with diabetic polyneuropathy> ~ Diabet zaharat
+E11.43  Diabet mellitus tip 2 cu neuropatie diabetica autonoma  <Type 2 diabetes mellitus with diabetic autonomic (poly)neuropathy> ~ Diabet zaharat | Neuropatie autonoma | Neuropatie autonoma diabetica | Neuropatie diabetica
+E11.49  Diabet mellitus tip 2 cu alte complicatii neurologice specificate  <Type 2 diabetes mellitus with other diabetic neurological complication> ~ Diabet zaharat
+E11.5   Diabet mellitus tip 2 cu complicatii circulatorii  <Type 2 diabetes mellitus with circulatory complications> ~ Diabet zaharat
+E11.51  Diabet mellitus tip 2 cu angiopatie periferica, fara gangrena (E11  <Type 2 diabetes mellitus with diabetic peripheral angiopathy without gangrene> ~ Diabet zaharat
+E11.52  Diabet mellitus tip 2 cu angiopatie periferica, cu gangrena  <Type 2 diabetes mellitus with diabetic peripheral angiopathy with gangrene> ~ Diabet zaharat
+E11.53  Diabet mellitus tip 2 cu cardiomiopatie ischemica diabetica ~ Cardiomiopatie diabetica | Diabet zaharat | Miocardiopatie ischemica
+E11.6   Diabet mellitus tip 2 cu alte complicatii specificate  <Type 2 diabetes mellitus with other specified complications> ~ Diabet zaharat
+E11.61  Diabet mellitus tip 2 cu complicatii diabetice musculoscheletale si ale tesutului conjunctiv specificate  <Type 2 diabetes mellitus with diabetic arthropathy> ~ Diabet zaharat
+E11.62  Diabet mellitus tip 2 cu complicatii ale pielii si tesutului subcutanat specificate  <Type 2 diabetes mellitus with skin complications> ~ Diabet zaharat
+E11.63  Diabet mellitus tip 2 cu complicatii periodontale specificate  <Type 2 diabetes mellitus with oral complications> ~ Diabet zaharat
+E11.64  Diabet mellitus tip 2 cu hipoglicemie  <Type 2 diabetes mellitus with hypoglycemia> ~ Diabet zaharat
+E11.65  Diabet mellitus tip 2 cu control slab  <Type 2 diabetes mellitus with hyperglycemia> ~ Diabet zaharat
+E11.69  Diabet mellitus tip 2 cu alte complicatii specificate  <Type 2 diabetes mellitus with other specified complication> ~ Diabet zaharat
+E11.71  Diabet mellitus tip 2 cu complicatii microvasculare multiple ~ Diabet zaharat
+E11.72  Diabet mellitus tip 2 cu caracteristici de rezistenta la insulina ~ Diabet zaharat | Rezistenta la insulina
+E11.73  Diabet mellitus tip 2 cu ulceratia piciorului datorita unor cauze multiple ~ Diabet zaharat
+E11.8   Diabet mellitus tip 2 cu complicatii nespecificate  <Type 2 diabetes mellitus with unspecified complications> ~ Diabet zaharat | Diabet zaharat tip 2 cu complicatii
+E11.9   Diabet mellitus tip 2 fara complicatii  <Type 2 diabetes mellitus without complications> ~ Diabet zaharat
+E14     Diabet mellitus nespecificat ~ Diabet zaharat
+E14.01  Diabet mellitus nespecificat cu hiperosmolaritate, fara coma noncetotica hiperglicemica-hiperosmolara [NKHHC]  {NKHHC / Diabet mellitus cu hiperosmolaritate} ~ Coma hiperosmolara
+E14.13  Diabet mellitus nespecificat cu acidoza lactica, fara coma  {Diabet mellitus cu acidoza lactica} ~ Acidoza lactica
+E14.14  Diabet mellitus nespecificat cu acidoza lactica, cu coma ~ Acidoza lactica
+E14.15  Diabet mellitus nespecificat cu acidocetoză, cu acidoza lactica, fara coma  {Diabet mellitus cu acidocetoză cu acidoza lactica} ~ Acidoza lactica
+E14.16  Diabet mellitus nespecificat cu acidocetoză, cu acidoza lactica, cu coma ~ Acidoza lactica
+E14.2   Diabet mellitus nespecificat cu complicatii renale ~ Glicozurie renala
+E14.21  Diabet mellitus nespecificat cu nefropatie diabetica incipienta ~ Nefropatie diabetica
+E14.22  Diabet mellitus nespecificat cu nefropatie diabetica stabilita ~ Nefropatie diabetica
+E14.29  Diabet mellitus nespecificat cu alte complicatii renale specificate ~ Glicozurie renala
+E14.3   Diabet mellitus nespecificat cu complicatii oculare ~ Retinopatie diabetica
+E14.36  Diabet mellitus nespecificat cu cataracta diabetica ~ Cataracta diabetica
+E14.39  Diabet mellitus nespecificat cu alte complicatii oculare specificate  {Diabet mellitus cu cataracta cu debut la varsta timpurie} ~ Retinopatie diabetica
+E14.43  Diabet mellitus nespecificat cu neuropatie diabetica autonoma ~ Neuropatie autonoma | Neuropatie autonoma diabetica | Neuropatie diabetica
+E14.53  Diabet mellitus nespecificat cu cardiomiopatie ischemica diabetica ~ Cardiomiopatie diabetica | Miocardiopatie ischemica
+E14.72  Diabet mellitus nespecificat cu caracteristici de rezistenta la insulina ~ Rezistenta la insulina
+E28     Disfunctia ovariana  <Ovarian dysfunction> ~ Hipogonadism feminin
+E29     Disfunctia testiculara  <Testicular dysfunction> ~ Hipogonadism masculin | Orhita
+E73.0   Deficit congenital in lactaza  <Congenital lactase deficiency> ~ Intoleranta la lactoza | Acrodermatita enteropatica
+E73.1   Deficit secundar in lactaza  <Secondary lactase deficiency> ~ Intoleranta la lactoza
+E77.0   Deficit de transformare post-traductionala a enzimelor lisosomale  {Mucolipidoza II [boala celulelor I] / Mucolipidoza III [polidistrofia pseudo-Hurler]}  <Defects in post-translational modification of lysosomal enzymes> ~ Boala cu celule I
+F00     Dementa in boala Alzheimer (G30.-†) ~ Alzheimer
+F00.0   Dementa in boala Alzheimer, cu debut precoce (G30.0†)  {Dementa presenila, tip Alzheimer / Dementa degenerativa primara de tip / Alzheimer, debut presenil} ~ Alzheimer | Schizofrenie
+F00.1   Dementa in boala Alzheimer, cu debut tardiv (G30.1†)  {Dementa degenerativa primara de tip / Alzheimer, debut senil / Dementa senila, tip Alzheimer} ~ Alzheimer | Dementa mixta
+F00.2   Dementa in boala Alzheimer, forma atipica sau mixta (G30.8†)  {Dementa atipica, tip Alzheimer} ~ Alzheimer | Dementa mixta
+F01.0   Dementa vasculara cu debut acut  {In cazuri rare, un singur infarct masiv poate fi cauza} ~ Dementa vasculara
+F01.1   Dementa vasculara prin infarcte multiple  {Dementa predominant corticala} ~ Dementa vasculara
+F01.3   Dementa vasculara mixta, corticala si subcorticala ~ Boala Binswanger | Dementa mixta | Dementa vasculara
+F02.0   Dementa in boala Pick (G31.0†) ~ Dementa asociata bolii Parkinson
+F02.1   Dementa in boala Creutzfeldt-Jakob (A81.0†) ~ Boala Creutzfeldt-Jakob
+F02.4   Dementa in boala cu virusul imunodeficientei umane [HIV] (B22†)  {Dementa care se dezvolta in cursul bolii} ~ Sida
+F05.9   Delir nespecificat ~ Delirium
+F52.6   Dispareunie neorganica  {Dispareunie psihogena}  <Dyspareunia not due to a substance or known physiological condition> ~ Disfonie functionala
+F52.9   Disfunctie sexuala nespecificata, necauzata de o tulburare sau o boala organica  <Unspecified sexual dysfunction not due to a substance or known physiological condition> ~ Disfunctie sexuala
+G23.2   Degenerescenta striato-nigrica [nigrostriate]  {nigrostriate}  <Striatonigral degeneration> ~ Atrofie multisistemica
+G24.1   Distonia idiopatica familiala  {Distonia idiopatica}  <Genetic torsion dystonia> ~ Distonie generalizata | Rinita vasomotorie
+G31.1   Degenerescenta senila a creierului, neclasificata altundeva  <Senile degeneration of brain, not elsewhere classified> ~ Boala Canavan
+G90.3   Degenerescenta multisistemica  {Hipotensiunea ortostatica neurogena [Shy-Drager]}  <Multi-system degeneration of the autonomic nervous system> ~ Atrofie multisistemica
+H18.5   Distrofia corneeana ereditara  <Hereditary corneal dystrophies> ~ Distrofie corneana
+H31.1   Degenerescenta choroidiana  {Atrofia choroidei / Scleroza choroidei}  <Choroidal degeneration> ~ Degenerescenta corneana | Atrofie iriana | Distrofie coroidiana
+H31.4   Dezlipirea choroidei  <Choroidal detachment> ~ Detasament coroidian
+H33     Dezlipiri si rupturi ale retinei  <Retinal detachments and breaks> ~ Dezlipire de retina
+H33.0   Dezlipirea retinei cu ruptura retiniana  {Dezlipirea retinei rhegmatogene}  <Retinal detachment with retinal break> ~ Dezlipire de retina
+H33.4   Detasare mecanica (tractiune) a retinei  {tractiune / Vitroretinopatia proliferativa cu dezlipirea retinei}  <Traction detachment of retina> ~ Dezlipire de retina
+H35.5   Distrofia retiniana ereditara  <Hereditary retinal dystrophy> ~ Retinita pigmentara | Degenerescenta retiniana periferica | Distrofie corneana
+H35.7   Dezlipirea straturilor retinei  {Chorioretinopatia seroasa centrala / Dezlipire de epiteliu pigmentar retinian}  <Separation of retinal layers> ~ Retinoschizis | Retinopatie seroasa centrala
+H61.2   Dop de cerumen  {Ceara in ureche}  <Impacted cerumen> ~ Otomicoza
+H83.2   Disfunctia labirintica  {Hipersensibilitatea labirintului / Hipofunctia labirintului / Pierderea functiei labirintului}  <Labyrinthine dysfunction> ~ Alergie la nuci | Alergie la rosii | Alergie la lupin
+I23.1   Defect septal atrial cu o complicatie curenta urmand infarctului miocardic acut  <Atrial septal defect as current complication following acute myocardial infarction> ~ Comunicare interatriala | Infarct miocardic
+I23.2   Defect septal ventricular ca o complicatie curenta urmand infarctului miocardic acut  <Ventricular septal defect as current complication following acute myocardial infarction> ~ Comunicare interventriculara | Infarct miocardic
+I51.5   Degenerescenta miocardului  <Myocardial degeneration> ~ Degenerescenta vitreana
+I71.0   Disectia aortei  {Anevrismul disecant al aortei (ruptura)}  <Dissection of aorta> ~ Disectie de aorta | Anevrism aortic
+I71.00  Disectia aortei, localizare nespecificata  <Dissection of unspecified site of aorta> ~ Disectie de aorta
+I71.01  Disectia aortei toracice  <Dissection of thoracic aorta> ~ Disectie de aorta
+I71.02  Disectia aortei abdominale  <Dissection of abdominal aorta> ~ Disectie de aorta
+I71.03  Disectia aortei toraco-abdominale  <Dissection of thoracoabdominal aorta> ~ Disectie de aorta
+K00.1   Dinti supranumerari  {Distomolari / Al patrulea molar / Meziodinte / Paramolar / Dinti suplimentari}  <Supernumerary teeth> ~ Rinichi supranumerar
+K03.6   Depozite [acumulare] pe dinti  {acumulare}  <Deposits [accretions] on teeth> ~ Tulburare de acumulare
+K04.2   Degenerescenta pulpara  {Denticuli / Calcificare pulpara / Pulpoliti}  <Pulp degeneration> ~ Degenerescenta maculara | Degenerescenta maculara usca
+K22.5   Diverticul dobandit al esofagului  {Punga esofagiana, dobandita}  <Diverticulum of esophagus, acquired> ~ Diverticul al esofagului
+K59.1   Diareea functionala  <Functional diarrhea> ~ Diaree functionala
+K76.0   Degenerescenta grasoasa a ficatului, neclasificata altundeva  <Fatty (change of) liver, not elsewhere classified> ~ Steatoza hepatica | Steatoza hepatica alcoolica
+L21.1   Dermatita seboreica infantila  <Seborrheic infantile dermatitis> ~ Dermatita | Dermatita seboreica faciala
+L22     Dermita (iritatie de scutec)  {iritatie de scutec}  <Diaper dermatitis> ~ Dermatita
+L23.0   Dermatita alergica de contact datorita metalelor  {Crom / Nichel}  <Allergic contact dermatitis due to metals> ~ Dermatita | Dermatita de contact alergica
+L23.1   Dermatita alergica de contact datorita adezivilor  <Allergic contact dermatitis due to adhesives> ~ Dermatita | Dermatita de contact alergica
+L23.2   Dermatita alergica de contact datorita cosmeticelor  <Allergic contact dermatitis due to cosmetics> ~ Dermatita | Dermatita de contact alergica
+L23.3   Dermatita alergica de contact datorita medicamentelor in contact cu pielea  <Allergic contact dermatitis due to drugs in contact with skin> ~ Dermatita | Dermatita de contact alergica
+L23.4   Dermatita alergica de contact datorita vopselelor  <Allergic contact dermatitis due to dyes> ~ Dermatita | Dermatita de contact alergica
+L23.5   Dermatita alergica de contact datorita produselor chimice  {Ciment / Insecticide / Plastic / Cauciuc}  <Allergic contact dermatitis due to other chemical products> ~ Dermatita | Dermatita de contact alergica
+L23.6   Dermatita alergica de contact datorita alimentelor in contact cu pielea  <Allergic contact dermatitis due to food in contact with the skin> ~ Dermatita | Dermatita de contact alergica
+L23.7   Dermatita alergica de contact datorita vegetalelor, exceptand alimentele  <Allergic contact dermatitis due to plants, except food> ~ Dermatita | Dermatita de contact alergica
+L23.8   Dermatita alergica de contact datorita altor agenti  <Allergic contact dermatitis due to other agents> ~ Dermatita | Dermatita de contact alergica
+L23.9   Dermatita alergica de contact, cauza nespecificata  {Eczema alergica de contact}  <Allergic contact dermatitis, unspecified cause> ~ Dermatita | Dermatita de contact alergica
+L24     Dermatita iritanta de contact  <Irritant contact dermatitis> ~ Dermatita | Dermatita de contact iritativa | Dermatita de scutec
+L24.0   Dermatita iritanta de contact datorita detergentilor  <Irritant contact dermatitis due to detergents> ~ Dermatita | Dermatita de contact iritativa
+L24.1   Dermatita iritanta de contact datorita uleiurilor si grasimilor  <Irritant contact dermatitis due to oils and greases> ~ Dermatita | Dermatita de contact iritativa
+L24.2   Dermatita iritanta de contact datorita solventilor  <Irritant contact dermatitis due to solvents> ~ Dermatita | Dermatita de contact iritativa
+L24.3   Dermatita iritanta de contact datorita cosmeticelor  <Irritant contact dermatitis due to cosmetics> ~ Dermatita | Dermatita de contact iritativa
+L24.4   Dermatita iritanta de contact datorita medicamentelor in contact cu pielea  <Irritant contact dermatitis due to drugs in contact with skin> ~ Dermatita | Dermatita de contact iritativa
+L24.5   Dermatita iritanta de contact datorita altor produse chimice  {Ciment / Insecticide}  <Irritant contact dermatitis due to other chemical products> ~ Dermatita | Dermatita de contact iritativa
+L24.6   Dermatita iritanta de contact datorita alimentelor in contact cu pielea  <Irritant contact dermatitis due to food in contact with skin> ~ Dermatita | Dermatita de contact iritativa
+L24.7   Dermatita iritanta de contact datorita vegetalelor, exceptand alimentele  <Irritant contact dermatitis due to plants, except food> ~ Dermatita | Dermatita de contact iritativa
+L24.8   Dermatita iritanta de contact datorita altor agenti  {Vopsea}  <Irritant contact dermatitis due to other agents> ~ Dermatita | Dermatita de contact iritativa
+L24.9   Dermatita iritanta de contact, cauza nespecificata  {Eczema iritanta de contact}  <Irritant contact dermatitis, unspecified cause> ~ Dermatita | Dermatita de contact iritativa
+L25.0   Dermatita de contact nespecificata datorita cosmeticelor  <Unspecified contact dermatitis due to cosmetics> ~ Dermatita
+L25.1   Dermatita de contact nespecificata datorita medicamentelor in contact cu pielea  <Unspecified contact dermatitis due to drugs in contact with skin> ~ Dermatita
+L25.2   Dermatita de contact nespecificata datorita vopselelor  <Unspecified contact dermatitis due to dyes> ~ Dermatita
+L25.3   Dermatita de contact nespecificata datorita altor produse chimice  {Ciment / Insecticide}  <Unspecified contact dermatitis due to other chemical products> ~ Dermatita
+L25.4   Dermatita de contact nespecificata datorita alimentelor in contact cu pielea  <Unspecified contact dermatitis due to food in contact with skin> ~ Dermatita
+L25.5   Dermatita de contact nespecificata dato-rita vegetalelor, exceptand alimentele  <Unspecified contact dermatitis due to plants, except food> ~ Dermatita
+L25.8   Dermatita de contact nespecificata datorita altor agenti  <Unspecified contact dermatitis due to other agents> ~ Dermatita
+L25.9   Dermatita de contact nespecificata din cauze nespecificate  <Unspecified contact dermatitis, unspecified cause> ~ Dermatita | Edera otravitoare | Dermatita de contact alergica
+L30.0   Dermita numulara  <Nummular dermatitis> ~ Dermatita numulara
+L30.3   Dermatita infectioasa  {Dermatita eczematoida infectioasa}  <Infective dermatitis> ~ Hepatita A | Artrita septica | Esofagita infectioasa
+L56.2   Dermita de fotocontact [dermatita dupa folosire cosmetice antisolare]  {dermatita dupa folosire cosmetice antisolare}  <Photocontact dermatitis [berloque dermatitis]> ~ Dermatita
+L60.3   Distrofia unghiilor  <Nail dystrophy> ~ Onicodistrofie
+L98.1   Dermatita factice  {Excoriatii nevrotice}  <Factitial dermatitis> ~ Dermatita actinica cronica | Eczema
+L98.2   Dermatoza neutrofila febrila [Sweet]  {Sweet}  <Febrile neutrophilic dermatosis [Sweet]> ~ Sindrom Sweet
+M21.1   Deformatia in varus, neclasificata altundeva  <Varus deformity, not elsewhere classified> ~ Boala Blount
+M25.5   Durere in articulatie  <Pain in joint> ~ Sindrom al articulatiei temporo-mandibulare | Luxatie
+M33     Dermatopolimiozita  <Dermatopolymyositis> ~ Dermatomiozita
+M36.0   Dermato(poli)miozita in boli neoplazice (C00-D48†)  {poli}  <Dermato(poly)myositis in neoplastic disease> ~ Poliomielita
+M43.9   Dorsopatia deformanta, nespecificata  {Deviatia coloanei vertebrale / Spondilopatii}  <Deforming dorsopathy, unspecified> ~ Boala Paget osoasa | Scolioza
+M46.4   Discita, nespecificata  <Discitis, unspecified> ~ Spondilodiscita
+M62.0   Diastaza musculara  <Separation of muscle (nontraumatic)> ~ Rabdomioliza
+N18.91  Deficienta renala cronica ~ Insuficienta renala | Boala Addison
+N25.1   Diabet insipid nefrogen  <Nephrogenic diabetes insipidus> ~ Diabet insipid | Diabet insipid nefrogenic
+N87     Displazia colului uterin  <Dysplasia of cervix uteri> ~ Displazie cervicala | Polip cervical
+N87.0   Displazia usoara a colului uterin  {Neoplazia intraepiteliala a colului uterin [CIN], gradul I}  <Mild cervical dysplasia> ~ Displazie cervicala | Neoplazie intraepiteliala cervicala
+N87.1   Displazia moderata a colului uterin  {Neoplazia intraepiteliala a colului uterin [CIN], gradul II}  <Moderate cervical dysplasia> ~ Displazie cervicala | Neoplazie intraepiteliala cervicala
+N87.2   Displazia severa a colului uterin, neclasificata altundeva ~ Displazie cervicala
+N89.0   Displazia usoara a vaginului  {Neoplazia intraepiteliala vaginala [VAIN], gradul I}  <Mild vaginal dysplasia> ~ Neoplazie intraepiteliala vaginala
+N89.1   Displazia moderata a vaginului  {Neoplazia intraepiteliala vaginala [VAIN], gradul II}  <Moderate vaginal dysplasia> ~ Neoplazie intraepiteliala vaginala
+N90.0   Displazia usoara a vulvei  {Neoplazia intraepiteliala vulvara [VIN], gradul I}  <Mild vulvar dysplasia> ~ Neoplazie intraepiteliala vulvara
+N90.1   Displazia moderata a vulvei  {Neoplazia intraepiteliala vulvara [VIN], gradul II}  <Moderate vulvar dysplasia> ~ Neoplazie intraepiteliala vulvara
+N94     Durere si alte afectiuni asociate cu organele genitale feminine si cu ciclul menstrual  <Pain and other conditions associated with female genital organs and menstrual cycle> ~ Dismenoree
+N94.0   Dureri intermenstruale  <Mittelschmerz> ~ Dismenoree
+N94.4   Dismenoree primara  <Primary dysmenorrhea> ~ Dismenoree | Oligomenoree
+N94.5   Dismenoree secundara  <Secondary dysmenorrhea> ~ Dismenoree
+O24     Diabet mellitus in sarcina  <Diabetes mellitus in pregnancy, childbirth, and the puerperium> ~ Diabet gestational
+O24.0   Diabet mellitus pre-existent, tip 1, in sarcina  <Pre-existing type 1 diabetes mellitus, in pregnancy, childbirth and the puerperium> ~ Diabet gestational | Diabet zaharat tip 1
+O24.1   Diabetul mellitus pre-existent, tip 2, in sarcina  <Pre-existing type 2 diabetes mellitus, in pregnancy, childbirth and the puerperium> ~ Diabet gestational | Diabet zaharat
+O24.2   Diabetul mellitus pre-existent, alt tip specificat, in sarcina ~ Diabet gestational
+O24.3   Diabetul mellitus pre-existent, nespecificat, in sarcina  <Unspecified pre-existing diabetes mellitus in pregnancy, childbirth and the puerperium> ~ Diabet gestational
+O24.4   Diabetul mellitus survenit in timpul sarcinii  {Diabetul mellitus gestational}  <Gestational diabetes mellitus> ~ Diabet gestational
+O24.9   Diabetul mellitus in sarcina, cu debut nespecificat  <Unspecified diabetes mellitus in pregnancy, childbirth and the puerperium> ~ Diabet gestational
+O45     Dezlipirea prematura a placentei [hematom retro-placentar]  {hematom retro-placentar}  <Premature separation of placenta [abruptio placentae]> ~ Decolment prematur de placenta
+O45.9   Dezlipirea prematura a placentei, nespecificata  {Dezlipirea precoce a placentei [abruptio placentae]}  <Premature separation of placenta, unspecified> ~ Decolment prematur de placenta
+O66.0   Distocia de obstacol datorita unei distocii a umarului  {Umar angajat}  <Obstructed labor due to shoulder dystocia> ~ Distocie de umar
+P12.3   Distrugerea scalpului datorita traumatismului la nastere  <Bruising of scalp due to birth injury> ~ Traumatism obstetric
+P70.2   Diabet mellitus neonatal  <Neonatal diabetes mellitus> ~ Diabet neonatal
+P78.3   Diareea neinfectioasa neonatala  {Diareea neonatala}  <Noninfective neonatal diarrhea> ~ Diabet neonatal | Apnee prematurului | Acnee neonatala
+Q21.2   Defect septal atrio-ventricular  {Canal atrio-ventricular comun / Defectul pliurilor endocardice / Defect septal atrial al ostium primum (tip I)}  <Atrioventricular septal defect> ~ Comunicare interventriculara | Defect de sept atrioventricular
+Q21.4   Defect septal aorto-pulmonar  {Defect septal aortic / Fistula aorto-pulmonara}  <Aortopulmonary septal defect> ~ Fereastra aortopulmonara | Comunicare interatriala
+Q39.5   Dilatatia congenitala a esofagului  <Congenital dilatation of esophagus> ~ Duplicatie esofagiana | Megaureter
+Q39.81  Duplicare congenitala a esofagului ~ Duplicatie esofagiana
+Q43.4   Duplicatia intestinului  <Duplication of intestine> ~ Dublura intestinala | Neuropatie viscerala intestinala | Miopatie viscerala intestinala
+Q61.4   Displazia renala  <Renal dysplasia> ~ Displazie renala multichistica | Displazie de rect
+Q61.40  Displazia renala, nespecificata  {Rinichi displazic multichistic} ~ Displazie renala multichistica | Displazie de rect
+Q61.41  Displazia renala chistica, unilaterala  {Rinichi displazic multichistic, unilateral} ~ Displazie renala multichistica
+Q61.42  Displazia renala chistica, bilaterala  {Rinichi displazic multichistic, bilateral} ~ Displazie renala multichistica
+Q63.81  Diverticul calicial congenital ~ Diverticul Meckel
+Q64.71  Diverticul uretral anterior congenital  <Congenital prolapse of urethra> ~ Diverticul uretral
+Q65.2   Dislocarea congenitala a soldului, nespecificata  <Congenital dislocation of hip, unspecified> ~ Luxatie congenitala de cap radial
+Q65.9   Deformatia congenitala a soldului, nespecificata  <Congenital deformity of hip, unspecified> ~ Coxa vara congenitala
+Q68.0   Deformatii congenitale ale muschiului sternocleidomastoidian  {Torticolis (muschi sternomastoidian) congenital / Contractura a muschiului sternocleidomastoidian / Tumora muschi sternomastoidian (congenital)}  <Congenital deformity of sternocleidomastoid muscle> ~ Torticolis congenital
+Q69.2   Deget(e) de la picioare supranumerar(e)  {Hallux accesoriu}  <Accessory toe(s)> ~ Polidactilie
+Q74.08  Deformatia Sprengel  {Proeminenta congenitala a scapulei} ~ Sindrom Sprengel
+Q75.4   Disostoza mandibulo-faciala  <Mandibulofacial dysostosis> ~ Sindrom Treacher Collins | Sindrom Crouzon
+Q75.81  Displazia fronto-nasala  {Sindromul fisurii faciale mediane} ~ Displazie frontonazala
+Q77.5   Displazia distrofica  {Nanism distrofic}  <Diastrophic dysplasia> ~ Nanism diastrofic
+Q78.1   Displazia fibroasa poliostotica  {Sindromul Albright(-McCune) (-Sternberg)}  <Polyostotic fibrous dysplasia> ~ Displazie fibroasa
+Q78.5   Displazia metafizei  {Sindromul Pyle}  <Metaphyseal dysplasia> ~ Displazie metaphizara | Sindrom metabolic
+Q82.3   Deficienta pigmentara  <Incontinentia pigmenti> ~ Insuficienta placentara | Intarziere mentala | Retinita pigmentara
+Q82.4   Displazia ectodermala (anhidrotica)  {anhidrotica}  <Ectodermal dysplasia (anhidrotic)> ~ Sindrom Ellis-van Creveld | Displazie ectodermica | Anhidroza
+Q89.31  Dextrocardia cu situs inversus ~ Situs inversus
+===== EXISTA (64)
+A06.0   Dizenteria amibiana acuta = Dizenterie amibiana [temporal (G1)]
+A09     Diareea si gastro-enterita probabil infectioase = Tuberculoza [exact]
+A36     Difteria = Difterie [terminatii]
+A36.0   Difteria faringiana = Faringita cu Corynebacterium [terminatii]
+A36.2   Difteria laringiana = Difterie laringiana [terminatii]
+A36.3   Difteria cutanata = Difterie cutanata [terminatii]
+A90     Denga (denga clasica) = Denga [exact]
+B35     Dermatofitoze = Dermatofitoza [terminatii]
+B65.3   Dermatita cercariara = Dermatita schistosomica [terminatii]
+B72     Dracunculoza = Dracunculoza [exact]
+D50.1   Disfagia sideropenica = Sindrom Plummer-Vinson [terminatii]
+D69.1   Defecte calitative ale trombocitelor = Boala Glanzmann [exact]
+E10.23  Diabet mellitus tip 1 cu boala renala stadiu final [ESRD] = Insuficienta renala cronica terminala [exact]
+E11.23  Diabet mellitus tip 2 cu boala renala stadiu final [ESRD] = Insuficienta renala cronica terminala [exact]
+E14.23  Diabet mellitus nespecificat cu boala renala stadiu final [ESRD] = Insuficienta renala cronica terminala [exact]
+E23.2   Diabetul insipid = Diabet insipid [terminatii]
+E77.1   Deficit de degradare a glicoproteinelor = Fucozidoza [exact]
+E78.6   Deficit in lipoproteine = Abetalipoproteinemie [exact]
+F01     Dementa vasculara = Dementa vasculara [exact]
+F01.2   Dementa vasculara subcorticala = Boala Binswanger [exact]
+F02.3   Dementa in boala Parkinson (G20†) = Dementa asociata bolii Parkinson [exact]
+F03     Dementa nespecificata = Dementa [exact]
+F34.1   Distimie = Distimie [exact]
+F45.3   Disfunctia somatoforma autonoma = Astenie neurocirculatora [exact]
+G24     Distonia = Distonie [terminatii]
+G71.0   Distrofia musculara = Distrofie musculara [terminatii]
+G90.1   Disautonomia familiala [Riley-Day] = Sindrom Riley-Day [terminatii]
+H04.0   Dacrioadenita = Dacrioadenita [exact]
+H18.4   Degenerescenta corneei = Arcul senil [terminatii]
+H35.4   Degenerescenta retiniana periferica = Degenerescenta retiniana periferica [exact]
+H53.2   Diplopia = Diplopie [exact]
+K22.4   Dischinezia esofagului = Spasme esofagiene difuze [exact]
+K29.8   Duodenita = Duodenita [exact]
+K30     Dispepsia = Dispepsie [terminatii]
+K31.0   Dilatatia acuta a stomacului = Dilatatie gastrica acuta [terminatii]
+K31.4   Diverticul gastric = Diverticul gastric [exact]
+L13.0   Dermatita herpetiforma = Dermatita herpetiforma [exact]
+L20     Dermatita atopica = Eczema [exact]
+L21     Dermatita seboreica = Dermatita [exact]
+L23     Dermatita alergica de contact = Dermatita de contact alergica [exact]
+L25     Dermatita de contact nespecificata = Dermatita [exact]
+L26     Dermatita exfoliativa = Dermatita exfoliativa [exact]
+L30.1   Dishidroza [pompholyx] = Dermatita disidrozica [exact]
+L30.9   Dermatita, nespecificata = Dermatita [exact]
+L71.0   Dermatita periorala = Dermatita periorala [exact]
+M33.0   Dermatomiozita juvenila = Dermatomiozita juvenila [exact]
+M54.5   Dorsalgie joasa = Lombalgie [exact]
+M65.3   Deget "in resort" = Deget in resort [exact]
+M85.0   Displazia fibroasa (localizata) = Displazie fibroasa [terminatii]
+N36.1   Diverticul uretral = Diverticul uretral [exact]
+N94.1   Dispareunie = Dispareunie [exact]
+N94.6   Dismenoree, nespecificata = Dismenoree [exact]
+Q06.2   Diastematomielia = Diastematomielie [exact]
+Q21.0   Defect septal ventricular = Comunicare interventriculara [exact]
+Q21.1   Defect septal atrial = Comunicare interatriala [exact]
+Q24.0   Dextrocardia = Dextrocardia [exact]
+Q39.6   Diverticul al esofagului = Diverticul al esofagului [exact]
+Q43.0   Diverticul Meckel = Diverticul Meckel [exact]
+Q69.0   Deget(e) supranumerar(e) = Polidactilie [terminatii]
+Q70.1   Degete lipite = Sindactilie [exact]
+Q75.1   Disostoza cranio-faciala = Sindrom Crouzon [exact]
+Q77.6   Displazia condroectodermala = Sindrom Ellis-van Creveld [terminatii]
+Q77.7   Displazia spondiloepifizara = Displazie spondiloepifizara [terminatii]
+Q78.3   Displazia progresiva diafizala = Sindrom Camurati-Engelmann [terminatii]
+===== ELIMINAT (23)
+A36.9   Difteria, nespecificata [dublura categoriei parinte (nespecificat)]
+B35.9   Dermatofitoze, nespecificate [dublura categoriei parinte (nespecificat)]
+C02.3   Doua treimi anterioare ale limbii, parte nespecificata [subzona de organ (D5)]
+C17.0   Duoden [subzona de organ (D5)]
+C17.3   Diverticulul Meckel [subzona de organ (D5)]
+C81.3   Depletie limfocitara [subzona de organ (D5)]
+D13.2   Duoden [subzona de organ (D5)]
+E28.9   Disfunctia ovariana, nespecificata [dublura categoriei parinte (nespecificat)]
+E29.9   Disfunctia testiculara, nespecificata [dublura categoriei parinte (nespecificat)]
+F00.9   Dementa in boala Alzheimer, nespecificata (G30.9†) [dublura categoriei parinte (nespecificat)]
+F01.9   Dementa vasculara, nespecificata [dublura categoriei parinte (nespecificat)]
+F02     Dementa in alte boli clasificate altundeva [asterisc (in alte boli)]
+F02.8   Dementa in alte boli clasificate altundeva [asterisc (in alte boli)]
+G24.9   Distonia, nespecificata [dublura categoriei parinte (nespecificat)]
+G32.0   Degenerescenta combinata subacuta a maduvei spinarii in boli clasificate altundeva [asterisc (in alte boli)]
+L20.9   Dermatita atopica, nespecificata [dublura categoriei parinte (nespecificat)]
+L21.9   Dermatita seboreica, nespecificata [dublura categoriei parinte (nespecificat)]
+M33.9   Dermatopolimiozita, nespecificata [dublura categoriei parinte (nespecificat)]
+M54.9   Dorsalgia, nespecificata [dublura categoriei parinte (nespecificat)]
+N60.9   Displazia mamara benigna, nespecificata [dublura categoriei parinte (nespecificat)]
+N87.9   Displazia colului uterin, nespecificata [dublura categoriei parinte (nespecificat)]
+O09.9   Durata sarcinii nespecificata [dublura categoriei parinte (nespecificat)]
+O65.9   Distocia de obstacol datorita unei anomalii pelviene a mamei nespecificata [dublura categoriei parinte (nespecificat)]

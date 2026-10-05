@@ -1,0 +1,365 @@
+===== NOU (80)
+A31     Infectie datorita altor micobacterii  <Infection due to other mycobacteria>
+A56.3   Infectia anusului si rectului cu Chlamydia  <Chlamydial infection of anus and rectum>
+A56.8   Infectia prin Chlamydia transmisa pe caile sexuale, alte localizari  <Sexually transmitted chlamydial infection of other sites>
+A81     Infectii cu virusi atipici ai sistemului nervos central  <Atypical virus infections of central nervous system>
+B04     Infectii cu variola de maimute  <Monkeypox>
+B34.2   Infectia coronavirala, nespecificata  <Coronavirus infection, unspecified>
+B34.4   Infectia papovavirala, nespecificata  <Papovavirus infection, unspecified>
+B66.9   Infectii cu paraziti, nespecificate  <Fluke infection, unspecified>
+B67.0   Infectia ficatului cu Echinococcus granulosus  <Echinococcus granulosus infection of liver>
+B67.1   Infectia pulmonara cu Echinococcus granulosus  <Echinococcus granulosus infection of lung>
+B67.3   Infectia cu Echinococcus granulosus, alte si cu localizari multiple  <Echinococcus granulosus infection, other and multiple sites>
+B67.4   Infectia cu Echinococcus granulosus, nespecificata  <Echinococcus granulosus infection, unspecified>
+B67.8   Infectia ficatului cu Echinococcus, nespecificata  <Echinococcosis, unspecified, of liver>
+B71.0   Infectie cu Hymenolepsis  {Cestoda pitica (infectie) / Cestoda sobolanului (infectie)}  <Hymenolepiasis>
+B71.1   Infectia cu Dipylidium  {Cestoda cainelui (infectie)}  <Dipylidiasis>
+B71.9   Infectia prin cestode, nespecificata  {Cestoda (infectie)}  <Cestode infection, unspecified>
+B88.9   Infestatia, nespecificata  {Infestatia (cutanata) / Infestatia prin acaride / Paraziti de piele}  <Infestation, unspecified>
+D80     Imunodeficienta cu anomalii de anticorp predominante  <Immunodeficiency with predominantly antibody defects>
+D80.5   Imuno-deficienta cu cresterea imunoglobulinei M [lgM]  <Immunodeficiency with increased immunoglobulin M [IgM]>
+D80.9   Imuno-deficienta predominanta cu anomalii ale anticorpilor, nespecificata  <Immunodeficiency with predominantly antibody defects, unspecified>
+D82     Imunodeficienta asociata cu alte anomalii majore  <Immunodeficiency associated with other major defects>
+D82.8   Imunodeficienta asociata cu alte anomalii majore specificate  <Immunodeficiency associated with other specified major defects>
+D82.9   Imunodeficienta asociata cu o anomalie majora, nespecificata  <Immunodeficiency associated with major defect, unspecified>
+E27.3   Insuficienta adrenocorticala primara indusa medicamentos  <Drug-induced adrenocortical insufficiency>
+E27.4   Insuficienta adrenocorticala, alta si nespecificata  <Other and unspecified adrenocortical insufficiency>
+H04.3   Inflamatia acuta si nespecificata a cailor lacrimale  {Dacriocistita (flegmonoasa) acuta, subacuta sau / Dacriopericistita acuta, subacuta sau / Canaliculita lacrimala acuta, subacuta sau}  <Acute and unspecified inflammation of lacrimal passages>
+H05.0   Inflamatii acute ale orbitei  {Abcesul orbitei / Celulita orbitei / Osteomielita orbitei / Periostita orbitei / Tenonita orbitei}  <Acute inflammation of orbit>
+H20.0   Iridociclita acuta si subacuta  {Uveita anterioara / Ciclita acuta, recenta sau subacuta / Irita acuta, recenta sau subacuta}  <Acute and subacute iridocyclitis>
+H20.2   Iridociclita datorita lentilelor de contact  <Lens-induced iridocyclitis>
+H22.0   Iridociclita in bolile infectioase si parazitare clasificate altundeva
+I25.6   Ischemie silentioasa a miocardului  <Silent myocardial ischemia>
+J06     Infectii acute ale cailor respiratorii superioare, cu localizari multiple si nespecificate  <Acute upper respiratory infections of multiple and unspecified sites>
+J68.2   Inflamatia cailor respiratorii superioare datorita substantelor chimice, emanatiilor de gaze, fumuri si vapori, neclasificate altundeva  <Upper respiratory inflammation due to chemicals, gases, fumes and vapors, not elsewhere classified>
+K56.1   Invaginatia  <Intussusception>
+K59.2   Intestin neurogen, neclasificat altundeva  <Neurogenic bowel, not elsewhere classified>
+K76.3   Infarct al ficatului  <Infarction of liver>
+L01     Impetiginizarea altor dermatoze  <Impetigo>
+L01.1   Impetigo in alte dermatoze  <Impetiginization of other dermatoses>
+L30.4   Intertrigo eritematos  <Erythema intertrigo>
+L85.9   Ingrosari ale epidermei, nespecificate  <Epidermal thickening, unspecified>
+M21.7   Inegalitate privind lungimea membrelor (dobandita)  {dobandita}  <Unequal limb length (acquired)>
+M46.3   Infectia (piogena) a unui disc intervertebral  {piogena}  <Infection of intervertebral disc (pyogenic)>
+M53.2   Instabilitati ale coloanei vertebrale  <Spinal instabilities>
+M62.2   Infarctul ischemic muscular  <Nontraumatic ischemic infarction of muscle>
+M62.6   Intinderea musculara
+M84.2   Intarziere in consolidarea unei fracturi
+N28.0   Ischemia si infarctul rinichiului  <Ischemia and infarction of kidney>
+N48.4   Impotenta de origine organica
+N74.0   Infectia tuberculoasa a colului uterin (A18.1†)
+N89.6   Inel himenal strans  {Himen rigid / Acces stramt}  <Tight hymenal ring>
+N97     Infertilitate feminina  <Female infertility>
+N97.0   Infertilitatea femeii asociata cu anovulatie  <Female infertility associated with anovulation>
+N97.1   Infertilitatea femeii de origine tubara  {Asociata cu anomalia congenitala a trompei}  <Female infertility of tubal origin>
+N97.2   Infertilitatea femeii de origine uterina  {Asociata cu anomalia congenitala a uterului / Neimplantarea oului}  <Female infertility of uterine origin>
+N97.3   Infertilitatea femeii de origine cervicala
+N97.4   Infertilitatea femeii asociata cu factori masculini
+N97.8   Infertilitatea femeii de alta origine  <Female infertility of other origin>
+N97.9   Infertilitatea femeii, nespecificata  <Female infertility, unspecified>
+N98.0   Infectia asociata cu inseminarea artificiala  <Infection associated with artificial insemination>
+O20.0   Iminenta de avort  {Hemoragia specificata ca fiind datorata iminentei de avort}  <Threatened abortion>
+O23.5   Infectiile tractului genital in sarcina  <Infections of the genital tract in pregnancy>
+O26.2   Ingrijiri in cursul sarcinii acordate unei persoane ce practica avortul in mod obisnuit  <Pregnancy care for patient with recurrent pregnancy loss>
+O62.1   Inertia uterina secundara  {Oprirea fazei active a travaliului / Disfunctia hipotonica uterina secundara}  <Secondary uterine inertia>
+O71.2   Inversiunea postpartum a uterului  <Postpartum inversion of uterus>
+O86.0   Infectia plagii chirurgicale de origine obstetricala  <Infection of obstetric surgical wound>
+O91.0   Infectia mamelonului asociata nasterii  <Infection of nipple associated with pregnancy, the puerperium and lactation>
+O92.0   Invaginatia mamelonului asociata nasterii  <Retracted nipple associated with pregnancy, the puerperium, and lactation>
+P07.2   Imaturitate extrema  <Extreme immaturity of newborn>
+P07.21  Imaturitate extrema, mai putin de 24 de saptamani complete  <Extreme immaturity of newborn, gestational age less than 23 completed weeks>
+P07.22  Imaturitate extrema, 24 sau mai multe saptamani complete dar mai putin de 28 de saptamani complete  <Extreme immaturity of newborn, gestational age 23 completed weeks>
+P29.4   Ischemia tranzitorie a miocardului la nou-nascut  <Transient myocardial ischemia in newborn>
+P39.2   Infectia intra-amniotica a fatului, neclasificata altundeva  <Intra-amniotic infection affecting newborn, not elsewhere classified>
+P55.1   Izoimunizare ABO a fatului si nou-nascutului  <ABO isoimmunization of newborn>
+P91.3   Iritabilitatea cerebrala a nou-nascutului  <Neonatal cerebral irritability>
+P96.3   Intarzierea de inchidere a suturii craniene  {Craniotabes neonatal}  <Wide cranial sutures of newborn>
+Q20.6   Isomerism al auriculelor cardiace  {Isomerism al auriculelor cardiace cu asplenie sau polisplenie}  <Isomerism of atrial appendages>
+Q80.1   Ihtioza cu asociere  <X-linked ichthyosis>
+Q95.1   Inversia cromozomilor la indivizi normali  <Chromosome inversion in normal individual>
+Q95.4   Indivizi cu markeri heterocromatici
+Q95.5   Indivizi cu pozitie autosomala fragila  <Individual with autosomal fragile site>
+===== POSIBIL (142)
+A02.2   Infectii localizate cu Salmonella  <Localized salmonella infections> ~ Salmoneloza
+A04.0   Infectia enteropatogena prin Escherichia coli patogen  <Enteropathogenic Escherichia coli infection> ~ Colibaciloza
+A04.1   Infectia enterotoxigena prin Escherichia coli toxigen  <Enterotoxigenic Escherichia coli infection> ~ Colibaciloza
+A04.2   Infectia enteroinvaziva prin Escherichia coli  <Enteroinvasive Escherichia coli infection> ~ Colibaciloza
+A04.3   Infectia enterohemoragica prin Escherichia coli  <Enterohemorrhagic Escherichia coli infection> ~ Colibaciloza
+A04.9   Infectia intestinala bacteriana, nespecificata  {Enterita bacteriana}  <Bacterial intestinal infection, unspecified> ~ Infectii bacteriene | Artrita septica | Traheita bacteriana | Colita actinica
+A05.0   Intoxicatia alimentara prin stafilococi  <Foodborne staphylococcal intoxication> ~ Toxiinfectie alimentara | Intoxicatie cu Staphylococcus aureus
+A05.2   Intoxicatia alimentara prin Clostridium perfringens [Clostridium welchii]  {Clostridium welchii / Enterita acuta necrozanta / Pig-bel}  <Foodborne Clostridium perfringens [Clostridium welchii] intoxication> ~ Intoxicatie cu Clostridium perfringens | Toxiinfectie alimentara
+A05.3   Intoxicatia alimentara prin Vibrio parahaemolyticus  <Foodborne Vibrio parahaemolyticus intoxication> ~ Toxiinfectie alimentara
+A05.4   Intoxicatia alimentara prin Bacillus cereus  <Foodborne Bacillus cereus intoxication> ~ Intoxicatie cu Bacillus cereus | Toxiinfectie alimentara
+A05.9   Intoxicatia alimentara de origine bacteriana, nespecificata  <Bacterial foodborne intoxication, unspecified> ~ Toxiinfectie alimentara
+A08     Infectii virale si alte infectii intestinale specificate  <Viral and other specified intestinal infections> ~ Viroza
+A08.4   Infectia intestinala virala, nespecificata  <Viral intestinal infection, unspecified> ~ Viroza
+A31.0   Infectia pulmonara cu Mycobacterium  <Pulmonary mycobacterial infection> ~ Pneumonie cu Fusobacterium | Pneumonie cu Citrobacter | Pneumonie cu Campylobacter
+A31.9   Infectia cu Mycobacterium, nespecificata  {Infectia atipica cu Mycobacterium / Micobacterioza}  <Mycobacterial infection, unspecified> ~ Infectie cu Mycobacterium avium complex | Lepra | Ulcerul Buruli
+A39     Infectia meningococica  <Meningococcal infection> ~ Meningita meningococica
+A49     Infectia bacteriana cu localizare nespecificata  <Bacterial infection of unspecified site> ~ Infectii bacteriene
+A49.0   Infectia stafilococica, nespecificata  <Staphylococcal infection, unspecified site> ~ Amigdalita stafilococica | Bronsiolita cu Staphylococcus aureus | Bronsita stafilococica | Faringita stafilococica | Furuncul | Traheobronsita cu Staphylococcus aureus
+A49.1   Infectia streptococica, nespecificata  <Streptococcal infection, unspecified site> ~ Erizipel | Laringita streptococica | Sepsis streptococic | Ectima | Angina streptococica
+A49.2   Infectia cu Haemophilus influenzae, nespecificata  <Hemophilus influenzae infection, unspecified site> ~ Meningita cu Haemophilus influenzae | Laringita cu Haemophilus | Faringita acuta cu Haemophilus
+A49.3   Infectia cu Mycoplasma, nespecificata  <Mycoplasma infection, unspecified site> ~ Amigdalita acuta cu Mycoplasma | Bronsiolita cu Mycoplasma | Bronsita micoplasma | Faringita acuta cu Mycoplasma | Infectie cu Mycoplasma genitalium | Infectie cu Mycoplasma pneumoniae
+A54.0   Infectia gonococica a partii inferioare a tractului genito-urinar, fara abces periuretral sau al glandelor anexe  <Gonococcal infection of lower genitourinary tract without periurethral or accessory gland abscess> ~ Gonoree | Infectie urinara
+A54.1   Infectia gonococica a partii inferioare a tractului genito-urinar, cu abces periuretral sau al glandelor anexe  {Abcesul gonococic al glandelor Bartholin}  <Gonococcal infection of lower genitourinary tract with periurethral and accessory gland abscess> ~ Gonoree | Infectie urinara | Abces de glanda Bartholin
+A54.3   Infectia gonococica a ochiului  <Gonococcal infection of eye> ~ Gonoree
+A54.4   Infectia gonococica a sistemului musculo-scheletal  <Gonococcal infection of musculoskeletal system> ~ Gonoree
+A54.6   Infectia gonococica a anusului si rectului  <Gonococcal infection of anus and rectum> ~ Gonoree
+A56.1   Infectia cu Chlamydia, pelvi-peritoneala si a altor organe genito-urinare  <Chlamydial infection of pelviperitoneum and other genitourinary organs> ~ Infectie urinara
+A56.2   Infectia cu Chlamydia a tractului genito-urinar, nespecificata  <Chlamydial infection of genitourinary tract, unspecified> ~ Infectie urinara
+A56.4   Infectia faringelui cu Chlamydia  <Chlamydial infection of pharynx> ~ Faringita acuta cu Chlamydia
+A60.0   Infectiile organelor genitale si ale tractului genito-urinar prin virusul herpetic  {Infectia prin virusul herpetic a tractului}  <Herpesviral infection of genitalia and urogenital tract> ~ Herpes genital | Hsv | Infectie urinara
+A60.1   Infectia perianala a pielii si a anusului prin virusul herpetic  <Herpesviral infection of perianal skin and rectum> ~ Hsv
+A60.9   Infectia ano-genitala prin virusul herpetic, nespecificata  <Anogenital herpesviral infection, unspecified> ~ Herpes genital | Hsv
+A69.9   Infectia cu spirochete, nespecificata  {Alte boli prin Chlamydia}  <Spirochetal infection, unspecified> ~ Chlamydia
+A74.9   Infectia cu Chlamydia, nespecificata  {Chlamidioza / Rickettsioze}  <Chlamydial infection, unspecified> ~ Amigdalita acuta cu Chlamydia | Boala inflamatorie pelvina cu Chlamydia | Bronsiolita cu Chlamydia | Bronsita acuta cu Chlamydia | Cervicita cu Chlamydia | Chlamydia
+A81.9   Infectia cu virus atipic a sistemului nervos central, nespecificata  {Boala cu prion a sistemului nervos central}  <Atypical virus infection of central nervous system, unspecified> ~ Nocardioza cerebrala | Vasculita cerebrala | Limfom primar al sistemului nervos central
+A89     Infectiile virale ale sistemului nervos central, nespecificate  {Febre virale transmise de artropode si febre virale hemoragice}  <Unspecified viral infection of central nervous system> ~ Viroza
+B00.9   Infectia prin virusul herpetic, nespecificata  {Infectia cu herpes simplex}  <Herpesviral infection, unspecified> ~ Hsv | Nazofaringita cu virus herpes simplex | Traheita cu virus herpes simplex
+B33.3   Infectia cu retrovirus neclasificata altundeva  <Retrovirus infections, not elsewhere classified> ~ Infectie cu astrovirus | Infectie cu rotavirus | Infectie cu norovirus
+B34     Infectii virale cu localizare nespecificata  <Viral infection of unspecified site> ~ Viroza
+B34.0   Infectia adenovirala, nespecificata  <Adenovirus infection, unspecified> ~ Viroza
+B34.1   Infectia enterovirala, nespecificata  {Infectia cu virus coxsackie / Infectia cu virus ECHO}  <Enterovirus infection, unspecified> ~ Amigdalita cu enterovirus | Pleurita virala
+B34.3   Infectia parvovirala, nespecificata  <Parvovirus infection, unspecified> ~ Viroza
+B67.2   Infectia osoasa cu Echinococcus granulosus  <Echinococcus granulosus infection of bone> ~ Osteomielita
+B67.5   Infectia ficatului cu Echinococcus multilocularis  <Echinococcus multilocularis infection of liver> ~ Echinococoza alveolara
+B67.6   Infectia cu Echinococcus multilocularis, alte si localizari multiple  <Echinococcus multilocularis infection, other and multiple sites> ~ Echinococoza alveolara
+B67.7   Infectia cu Echinococcus multilocularis, nespecificata  <Echinococcus multilocularis infection, unspecified> ~ Echinococoza alveolara
+B68.0   Infectia cu Taenia solium  {Cestoda porcului (infectie)}  <Taenia solium taeniasis> ~ Teniaza cu Taenia solium
+B68.1   Infectia cu Taenia saginata  {Cestoda de vita (infectie) / Infectie datorita cestodei adulte Taenia saginata}  <Taenia saginata taeniasis> ~ Teniaza cu Taenia saginata
+B68.9   Infectia cu Taenia, nespecificata  <Taeniasis, unspecified> ~ Candidoza | Babesioza
+D73.5   Infarctul splinei  {Ruptura splenica, nontraumatica / Torsiunea splinei}  <Infarction of spleen> ~ Infarct splenic | Ruptura de splina
+D81     Imunodeficiente combinate  <Combined immunodeficiencies> ~ Deficit de JAK3 | Imunodeficienta combinata severa legata de X | Imunodeficienta severa combinata | Sindrom Omenn | Imunodeficiente secundare
+D82.2   Imunodeficienta cu micromelie  <Immunodeficiency with short-limbed stature> ~ Sindrom Good
+D82.3   Imuno-deficienta ca urmare a raspunsului defectiv ereditar la infectia cu virusul Epstein-Barr  {Boala limfoproliferativa legata de cromozomul X / L ista Tabelară a Bolilor RoDRG}  <Immunodeficiency following hereditary defective response to Epstein-Barr virus> ~ Infectie cronica cu virus Epstein-Barr | Mononucleoza infectioasa | Boala limfoproliferativa legata de X
+D83.0   Imunodeficienta comuna variabila cu predominenta anomaliilor de numar si a functiei limfocitelor B  <Common variable immunodeficiency with predominant abnormalities of B-cell numbers and function> ~ Imunodeficienta variabila comuna
+D83.1   Imunodeficienta comuna variabila cu predominenta tulburarilor la limfocitele T imunoregulatoare  <Common variable immunodeficiency with predominant immunoregulatory T-cell disorders> ~ Imunodeficienta variabila comuna
+D83.2   Imunodeficienta comuna variabila cu auto-anticorpi pe limfocitele B sau T  <Common variable immunodeficiency with autoantibodies to B- or T-cells> ~ Imunodeficienta variabila comuna
+E34.3   Insuficienta staturala, neclasificata altundeva  <Short stature due to endocrine disorder> ~ Disfunctie sexuala | Insuficienta mitrala | Disfunctie de trompa Eustachio
+E45     Intarzierea de dezvoltare datorita malnutritiei proteino-energetice  <Retarded development following protein-calorie malnutrition> ~ Malnutritie proteino-energetica
+F51.0   Insomnie neorganica  <Insomnia not due to a substance or known physiological condition> ~ Disfonie functionala
+H30     Inflamatii chorioretinale  <Chorioretinal inflammation> ~ Chorioretinita
+I05.1   Insuficienta mitrala, reumatismala  <Rheumatic mitral insufficiency> ~ Insuficienta mitrala
+I06.1   Insuficienta aortica reumatismala  <Rheumatic aortic insufficiency> ~ Insuficienta aortica
+I07.1   Insuficienta tricuspida  {Insuficienta (valva) tricuspida (reumatismala)}  <Rheumatic tricuspid insufficiency> ~ Insuficienta tricuspidiana | Insuficienta tricuspidiana congenitala
+I21.0   Infarct miocardic acut transmural al peretului anterior  <ST elevation (STEMI) myocardial infarction of anterior wall> ~ Infarct miocardic | Infarct miocardic anterior | Infarct miocardic transmural
+I21.1   Infarct miocardic acut transmural al peretului inferior  <ST elevation (STEMI) myocardial infarction of inferior wall> ~ Infarct miocardic | Infarct miocardic inferior | Infarct miocardic transmural
+I21.2   Infarct miocardic acut transmural cu alte localizari  <ST elevation (STEMI) myocardial infarction of other sites> ~ Infarct miocardic | Infarct miocardic transmural
+I21.4   Infarct miocardic acut subendocardic  {Infarct miocardic nontransmural}  <Non-ST elevation (NSTEMI) myocardial infarction> ~ Infarct miocardic | Infarct miocardic subendocardial | Infarct miocardic transmural
+I22     Infarct miocardic ulterior  <Subsequent ST elevation (STEMI) and non-ST elevation (NSTEMI) myocardial infarction> ~ Infarct miocardic | Infarct miocardic anterior | Infarct miocardic posterior | Infarct miocardic inferior
+I22.0   Infarct miocardic recurent al peretului anterior  <Subsequent ST elevation (STEMI) myocardial infarction of anterior wall> ~ Infarct miocardic | Infarct miocardic anterior
+I22.1   Infarct miocardic ulterior al peretului inferior  <Subsequent ST elevation (STEMI) myocardial infarction of inferior wall> ~ Infarct miocardic | Infarct miocardic inferior
+I22.8   Infarct miocardic ulterior cu alte localizari specificate  <Subsequent ST elevation (STEMI) myocardial infarction of other sites> ~ Infarct miocardic
+I22.9   Infarct miocardic ulterior cu localizare nespecificata  <Subsequent ST elevation (STEMI) myocardial infarction of unspecified site> ~ Infarct miocardic
+I36.1   Insuficienta nereumatismala (valva) tricuspida  {valva}  <Nonrheumatic tricuspid (valve) insufficiency> ~ Insuficienta tricuspidiana congenitala
+I37.1   Insuficienta valvei pulmonare  <Nonrheumatic pulmonary valve insufficiency> ~ Boala valvulara pulmonara | Sindrom de insuficienta respiratorie | Insuficienta mitrala | Insuficienta aortica
+I63.0   Infarctul cerebral datorita trombozei arterelor precerebrale  <Cerebral infarction due to thrombosis of precerebral arteries> ~ Accident vascular cerebral ischemic | Tromboza de artera cerebrala
+I63.1   Infarctul cerebral datorita emboliei arterelor precerebrale  <Cerebral infarction due to embolism of precerebral arteries> ~ Accident vascular cerebral ischemic | Embolie cerebrala
+I63.2   Infarctul cerebral datorita ocluziei sau stenozei nespecificate ale arterelor precerebrale  <Cerebral infarction due to unspecified occlusion or stenosis of precerebral arteries> ~ Accident vascular cerebral ischemic
+I63.3   Infarctul cerebral datorita trombozei arterelor cerebrale  <Cerebral infarction due to thrombosis of cerebral arteries> ~ Accident vascular cerebral ischemic | Tromboza de artera cerebrala
+I63.4   Infarctul cerebral datorira emboliei arterelor cerebrale  <Cerebral infarction due to embolism of cerebral arteries> ~ Accident vascular cerebral ischemic | Embolie cerebrala
+I63.5   Infarctul cerebral datorita ocluziei sau stenozei nespecificate ale arterelor cerebrale  <Cerebral infarction due to unspecified occlusion or stenosis of cerebral arteries> ~ Accident vascular cerebral ischemic
+I63.6   Infarctul cerebral datorita trombozei venelor cerebrale, nonpiogenic  <Cerebral infarction due to cerebral venous thrombosis, nonpyogenic> ~ Accident vascular cerebral ischemic
+I64     Ictus, nespecificat ca hemoragic sau ca infarct  {Accident cerebrovascular} ~ Transformare hemoragica a infarctului | Accident vascular cerebral
+J06.9   Infectii acute ale cailor respiratorii superioare, nespecificate  {Gripa si pneumonia}  <Acute upper respiratory infection, unspecified> ~ Viroza respiratorie | Infectie acuta de cai respiratorii inferioare | Pneumonie cu virus influenza | Pneumonie la varstnici | Pneumonie cu Giardia
+J22     Infectii acute ale cailor respiratorii inferioare nespecificate  {Infectii acute (cai) respiratorii (inferioare) / Alte boli ale cailor respiratorii superioare}  <Unspecified acute lower respiratory infection> ~ Infectie acuta de cai respiratorii inferioare | Viroza respiratorie
+J95.1   Insuficienta pulmonara acuta urmand unei interventii chirurgicale toracice  <Acute pulmonary insufficiency following thoracic surgery> ~ Sindrom de insuficienta respiratorie
+J95.2   Insuficienta pulmonara acuta urmand unei interventii chirurgicale netoracice  <Acute pulmonary insufficiency following nonthoracic surgery> ~ Sindrom de insuficienta respiratorie
+J95.3   Insuficienta pulmonara cronica dupa o interventie chirurgicala  <Chronic pulmonary insufficiency following surgery> ~ Sindrom de insuficienta respiratorie
+K51.1   Ileocolita (cronica) ulceroasa  {cronica} ~ Tuberculoza intestinala | Colita ulcerativa totala
+K56     Ileus paralitic si obstructia intestinala fara hernie  <Paralytic ileus and intestinal obstruction without hernia> ~ Ileus paralitic | Ocluzie intestinala | Paralizie intestinala
+K56.7   Ileus, nespecificat  <Ileus, unspecified> ~ Hemoroizi
+K70.4   Insuficienta hepatica alcoolica  <Alcoholic hepatic failure> ~ Hepatita alcoolica | Insuficienta hepatica
+K72.0   Insuficienta hepatica acuta si subacuta  <Acute and subacute hepatic failure> ~ Insuficienta hepatica
+L08.9   Infectii locale ale pielii si tesutului celular subcutunat, nespecificate  {Dermatoze buloase}  <Local infection of the skin and subcutaneous tissue, unspecified> ~ Dermatita buloasa autoimuna | Dermatita buloasa IgA
+M23.5   Instabilitate cronica a genunchiului  <Chronic instability of knee> ~ Instabilitate de genunchi | Instabilitate de glezna
+N17.0   Insuficienta renala acuta cu necroza tubulara  <Acute kidney failure with tubular necrosis> ~ Insuficienta renala | Necroza tubulara acuta
+N17.1   Insuficienta renala acuta cu necroza corticala acuta  <Acute kidney failure with acute cortical necrosis> ~ Insuficienta renala
+N17.2   Insuficienta renala acuta cu necroza medulara  <Acute kidney failure with medullary necrosis> ~ Insuficienta medulara | Insuficienta renala
+N39.0   Infectia tractului urinar, cu localizare nespecificata  <Urinary tract infection, site not specified> ~ Infectie urinara
+N39.3   Incontinenta urinara de stress  <Stress incontinence (female) (male)> ~ Incontinenta urinara | Incontinenta de efort
+N85.5   Inversia uterina  <Inversion of uterus> ~ Inversiune uterina
+O08.0   Infectia pelviana si a tractului genital urmand avortului si sarcinii ectopice si molare  {Endometrita dupa afectiunile clasificabile la}  <Genital tract and pelvic infection following ectopic and molar pregnancy> ~ Avort septic
+O08.4   Insuficienta renala urmand avortului si sarcinii ectopice si molare  {Oliguria dupa afectiunile clasificabile la}  <Renal failure following ectopic and molar pregnancy> ~ Insuficienta renala
+O23     Infectii ale tractului genito-urinar in sarcina  <Infections of genitourinary tract in pregnancy> ~ Infectie urinara
+O23.0   Infectii renale in sarcina  <Infections of kidney in pregnancy> ~ Pielonefrita
+O23.1   Infectiile vezicii urinare in sarcina  <Infections of bladder in pregnancy> ~ Cistita | Infectie urinara
+O23.2   Infectiile uretrei in sarcina  <Infections of urethra in pregnancy> ~ Uretrita
+O23.3   Infectiile altor parti ale tractului urinar in sarcina  <Infections of other parts of urinary tract in pregnancy> ~ Infectie urinara
+O23.4   Infectiile nespecificate ale tractului urinar in sarcina  <Unspecified infection of urinary tract in pregnancy> ~ Infectie urinara
+O41.1   Infectia sacului amniotic si a membranelor  {Amniotita / Chorioamniotita / Membranita / Placentita}  <Infection of amniotic sac and membranes> ~ Anotie
+O86.2   Infectia cailor urinare survenind dupa nastere  <Urinary tract infection following delivery> ~ Infectie puerperala | Infectie urinara
+O90.4   Insuficienta renala acuta postpartum  {Sindrom hepato-renal urmand travaliului si nasterii}  <Postpartum acute kidney failure> ~ Insuficienta renala | Insuficienta hepato-renala
+O91     Infectii ale sanului asociate nasterii  <Infections of breast associated with pregnancy, the puerperium and lactation> ~ Mastita
+O98.2   Infectia gonococica complicand sarcina, nasterea si lauzia  <Gonorrhea complicating pregnancy, childbirth and the puerperium> ~ Gonoree
+P28.5   Insuficienta respiratorie a nou-nascutului  {Hipoventilatia nou-nascutului}  <Respiratory failure of newborn> ~ Insuficienta respiratorie | Sindrom de insuficienta respiratorie | Sindrom de detresa respiratorie acuta la sugari
+P29.0   Insuficienta cardiaca neonatala  <Neonatal cardiac failure> ~ Insuficienta cardiaca | Insuficienta cardiaca dreapta
+P35.1   Infectia congenitala cu citomegalovirus  <Congenital cytomegalovirus infection> ~ Citomegalovirus congenital | Infectie cu citomegalovirus | Encefalita cu citomegalovirus | Traheita cu citomegalovirus
+P39.3   Infectia neonatala a tractului urinar  <Neonatal urinary tract infection> ~ Infectie urinara
+P39.4   Infectia neonatala a pielii  {Piodermia neonatala}  <Neonatal skin infection> ~ Hipotermie neonatala
+P39.9   Infectie specifica perioadei perinatale, nespecificate  {Tulburari hemoragice si hematologice ale fatului si nou-nascutului}  <Infection specific to the perinatal period, unspecified> ~ Boala hemoragica a nou-nascutului
+P55.0   Izoimunizare Rh a fatului si nou-nascutului  <Rh isoimmunization of newborn> ~ Boala hemolitica a nou-nascutului
+P57.0   Icter nuclear datorita izoimunizarii  <Kernicterus due to isoimmunization> ~ Kernicterus
+P58     Icter neonatal datorita altor hemolize excesive  <Neonatal jaundice due to other excessive hemolysis> ~ Icter hemolitic | Icter neonatal
+P58.0   Icter neonatal datorita contuziilor  <Neonatal jaundice due to bruising> ~ Icter neonatal
+P58.1   Icter neonatal datorita sangerarii  <Neonatal jaundice due to bleeding> ~ Icter neonatal
+P58.2   Icter neonatal datorita unei infectii  <Neonatal jaundice due to infection> ~ Icter neonatal
+P58.3   Icter neonatal datorita unei policitemii  <Neonatal jaundice due to polycythemia> ~ Icter neonatal | Policitemie neonatala
+P58.4   Icter neonatal datorita medicamentelor sau toxinelor transmise de mama sau administrate nou-nascutului  <Neonatal jaundice due to drugs or toxins transmitted from mother or given to newborn> ~ Icter neonatal
+P58.5   Icter neonatal datorita deglutitiei sangelui matern  <Neonatal jaundice due to swallowed maternal blood> ~ Icter neonatal
+P58.8   Icter neonatal datorita altor hemolize excesive specificate  <Neonatal jaundice due to other specified excessive hemolysis> ~ Icter hemolitic | Icter neonatal
+P58.9   Icter neonatal datorita unei hemolize excesive, nespecificat  <Neonatal jaundice due to excessive hemolysis, unspecified> ~ Icter hemolitic | Icter neonatal
+P59     Icter neonatal din alte cauze si nespecificate  <Neonatal jaundice from other and unspecified causes> ~ Icter neonatal
+P59.0   Icter neonatal asociat nasterii inainte de termen  {Hiperbilirubinemia prematuritatii}  <Neonatal jaundice associated with preterm delivery> ~ Icter neonatal | Icter neonatal prelungit
+P59.2   Icter neonatal datorita altor leziuni hepato-celulare si nespecificate  <Neonatal jaundice from other and unspecified hepatocellular damage> ~ Icter neonatal
+P59.3   Icter neonatal datorita inhibitorilor de lactatie  <Neonatal jaundice from breast milk inhibitor> ~ Icter neonatal
+P59.8   Icter neonatal datorita altor cauze specificate  <Neonatal jaundice from other specified causes> ~ Icter neonatal
+P75     Ileus meconial in fibroza chistica (E84.1†) ~ Fibroza chistica | Ileus meconial
+P76.1   Ileus tranzitoriu al nou-nascutului  <Transitory ileus of newborn> ~ Sindrom de detresa respiratorie tranzitorie
+P91.0   Ischemia cerebrala neonatala  <Neonatal cerebral ischemia> ~ Accident vascular cerebral ischemic | Insuficienta circulatorie cerebrala cronica | Encefalopatie neonatala | Edem cerebral neonatal
+P96.0   Insuficienta renala congenitala  {Uremia la nou-nascut / Unele afectiuni ale caror origine se situeaza in perioada perinatala / Tabelară a Bolilor RoDRG}  <Congenital renal failure> ~ Insuficienta renala | Insuficienta suprarenala secundara | Insuficienta renala cronica terminala | Anemie neonatala | Varicela congenitala | Sepsis neonatal
+Q22.2   Insuficienta congenitala a valvei pulmonare  {Reflux congenital la nivelul valvei pulmonare}  <Congenital pulmonary valve insufficiency> ~ Boala valvulara pulmonara | Sindrom de insuficienta respiratorie
+Q23.3   Insuficienta mitrala congenitala  <Congenital mitral insufficiency> ~ Insuficienta mitrala | Hipopituitarism congenital | Insuficienta tricuspidiana congenitala
+Q80     Ihtioza congenitala  <Congenital ichthyosis> ~ Ihtioza en confetti | Ihtioza epidermolitica | Ihtioza harlequin | Ptoza congenitala | Listerioza neonatala | Fimoza
+===== EXISTA (55)
+A07.3   Infectia cu Isospora = Isosporoza [exact]
+A31.1   Infectia cutanata cu Mycobacterium = Ulcerul Buruli [exact]
+A49.9   Infectia bacteriana, nespecificata = Infectii bacteriene [terminatii]
+A54     Infectia gonococica = Gonoree [terminatii]
+A60     Infectia ano-genitala prin virusul herpetic [herpes simplex] = Hsv [exact]
+A70     Infectia cu Chlamydia psittaci = Psitacoza [terminatii]
+B00     Infectii cu virusul herpetic [herpes simplex] = Hsv [exact]
+B09     Infectii virale caracterizate prin leziuni cutaneo-mucoase, nespecificate = Hepatita [exact]
+B34.9   Infectia virala, nespecificata = Viroza [terminatii]
+D81.0   Imuno-deficienta combinata severa [SCID] cu disgenezie reticulara = Imunodeficienta severa combinata [exact]
+D81.1   Imuno-deficienta combinata severa [SCID] cu numar scazut de celule B si T = Imunodeficienta severa combinata [exact]
+D81.2   Imuno-deficienta combinata severa [SCID] cu numar scazut sau normal de celule B = Imunodeficienta severa combinata [exact]
+D81.9   Imunodeficienta, nespecificata = Imunitate scazuta [exact]
+D83     Imunodeficienta comuna variabila = Imunodeficienta variabila comuna [exact]
+D84.9   Imunodeficienta, nespecificata = Imunitate scazuta [exact]
+E27.1   Insuficienta adrenocorticala primara = Boala Addison [exact]
+E28.3   Insuficienta ovariana primara = Insuficienta ovariana primara [exact]
+E31.0   Insuficienta poliglandulara autoimuna = Sindrom pluriglandular autoimun tip 2 [terminatii]
+E73     Intoleranta la lactoza = Intoleranta la lactoza [exact]
+F63.1   Incendiere patologica [piromanie] = Piromanie [exact]
+H01.9   Inflamatia pleoapei, nespecificata = Blefarita [terminatii]
+H04.4   Inflamatia cronica a cailor lacrimale = Dacriocistita [temporal (G1)]
+H20     Iridociclita = Uveita [exact]
+H20.1   Iridociclita cronica = Uveita [temporal (G1)]
+I21     Infarct miocardic acut = Infarct miocardic [temporal (G1)]
+I21.3   Infarct miocardic acut transmural cu localizari nespecificate = Infarct miocardic transmural [exact]
+I25.2   Infarct miocardic vechi = Infarct miocardic vechi [exact]
+I34.0   Insuficienta mitrala (valva) = Insuficienta mitrala [exact]
+I35.1   Insuficienta (valva) aortica = Insuficienta aortica [exact]
+I50     Insuficienta cardiaca = Insuficienta cardiaca [exact]
+I50.0   Insuficienta cardiaca congestiva = Insuficienta cardiaca [exact]
+I50.1   Insuficienta ventriculara stanga = Insuficienta cardiaca stanga [exact]
+I63     Infarctul cerebral = Accident vascular cerebral ischemic [terminatii]
+I87.2   Insuficienta venoasa (cronica) (periferica) = Insuficienta venoasa [exact]
+J96     Insuficienta respiratorie, neclasificata altundeva = Insuficienta respiratorie [exact]
+J96.0   Insuficienta respiratorie acuta = Insuficienta respiratorie [exact]
+J96.1   Insuficienta respiratorie cronica = Insuficienta respiratorie [exact]
+K56.0   Ileus paralitic = Ileus paralitic [exact]
+K56.3   Ileus biliar = Ileus biliar [exact]
+K72     Insuficienta hepatica, neclasificata altundeva = Insuficienta hepatica [exact]
+K72.1   Insuficienta hepatica cronica = Insuficienta hepatica [exact]
+L01.0   Impetigo [orice micro-organism] [orice localizare] = Impetigo [exact]
+L85.0   Ihtioza dobandita = Ihtioza dobandita [exact]
+N17     Insuficienta renala acuta = Insuficienta renala [exact]
+N18     Insuficienta renala cronica = Insuficienta renala [exact]
+N19     Insuficienta renala nespecificata = Insuficienta renala [exact]
+N46     Infertilitatea la barbat = Azoospermie [exact]
+N48.6   Induratia penis plastica = Boala Peyronie [exact]
+P35.2   Infectie virala congenitala herpetica [herpes simplex] = Hsv [exact]
+P57     Icter nuclear [kernicterus] = Kernicterus [exact]
+P57.9   Icter nuclear, nespecificat = Kernicterus [exact]
+P59.9   Icter neonatal, nespecificat = Icter neonatal [exact]
+Q23.1   Insuficienta congenitala a valvei aortice = Bicuspidia valvei aortice [exact]
+Q80.0   Ihtioza vulgara = Ihtioza vulgara [exact]
+Q80.2   Ihtioza lamelara = Ihtioza lamelara [exact]
+===== ELIMINAT (84)
+A39.9   Infectia meningococica, nespecificata [dublura categoriei parinte (nespecificat)]
+A54.9   Infectia gonococica, nespecificata [dublura categoriei parinte (nespecificat)]
+C14.2   Inelul Waldeyer [subzona de organ (D5)]
+C17.2   Ileon [subzona de organ (D5)]
+C17.9   Intestinul subtire, nespecificat [subzona de organ (D5)]
+C38.0   Inima [subzona de organ (D5)]
+C54.0   Istm uterin [subzona de organ (D5)]
+C83.4   Imunoblastic (difuz) [subzona de organ (D5)]
+D15.1   Inima [subzona de organ (D5)]
+D37.2   Intestinul subtire [subzona de organ (D5)]
+D83.9   Imunodeficienta comuna variabila, nespecificata [dublura categoriei parinte (nespecificat)]
+E73.9   Intoleranta la lactoza, nespecificata [dublura categoriei parinte (nespecificat)]
+E89.4   Insuficienta ovariana postprocedurala [procedura]
+H03.0   Infestatia parazitara a pleoapei in boli clasificate altundeva [asterisc (in alte boli)]
+H06.1   Infectii parazitare ale orbitei in boli clasificate altundeva [asterisc (in alte boli)]
+H20.9   Iridociclita, nespecificata [dublura categoriei parinte (nespecificat)]
+H22.1   Iridociclita in alte boli clasificate altundeva [asterisc (in alte boli)]
+H32     Inflamatii chorioretinale in boli clasificate altundeva [asterisc (in alte boli)]
+H32.0   Inflamatii chorioretinale in boli infectioase si parazitare clasificate altundeva [asterisc (in alte boli)]
+I21.9   Infarct miocardic acut, nespecificat [dublura categoriei parinte (nespecificat)]
+I50.9   Insuficienta cardiaca, nespecificata [dublura categoriei parinte (nespecificat)]
+I63.9   Infarctul cerebral, nespecificat [dublura categoriei parinte (nespecificat)]
+J96.9   Insuficienta respiratorie, nespecificata [dublura categoriei parinte (nespecificat)]
+K72.9   Insuficienta hepatica, nespecificata [dublura categoriei parinte (nespecificat)]
+N17.9   Insuficienta renala acuta, nespecificata [dublura categoriei parinte (nespecificat)]
+N18.9   Insuficienta renala cronica, nespecificata [dublura categoriei parinte (nespecificat)]
+N18.90  Insuficienta renala cronica nespecificata [dublura categoriei parinte (nespecificat)]
+N99.0   Insuficienta renala postprocedurala [procedura]
+O26     Ingrijiri acordate mamei pentru alte afectiuni predominante legate de sarcina [factor/ingrijire]
+O32     Ingrijiri acordate mamei pentru o prezentatie anormala a fatului, cunoscuta sau suspectata a a mamei, sau pentru operatie cezariana inainte de debutul travaliului [factor/ingrijire]
+O32.0   Ingrijiri acordate mamei pentru o pozitie instabila [factor/ingrijire]
+O32.1   Ingrijiri acordate mamei pentru o prezentatie pelviana [factor/ingrijire]
+O32.2   Ingrijiri acordate mamei pentru o pozitie transversa si oblica [factor/ingrijire]
+O32.3   Ingrijiri acordate mamei pentru o prezentatie faciala, a fruntii sau a barbiei [factor/ingrijire]
+O32.4   Ingrijiri acordate mamei pentru un cap inalt la termen [factor/ingrijire]
+O32.5   Ingrijiri acordate mamei pentru o sarcina multipla cu prezentatie anormala a unuia sau mai multor feti [factor/ingrijire]
+O32.6   Ingrijiri acordate mamei pentru o prezentatie complexa [factor/ingrijire]
+O32.8   Ingrijiri acordate mamei pentru alta prezentatie anormala a fatului [factor/ingrijire]
+O32.9   Ingrijiri acordate mamei pentru o prezentatie anormala a fatului, nespecificata [factor/ingrijire]
+O33     Ingrijiri acordate mamei pentru o disproportie feto-pelviana cunoscuta sau suspectata [factor/ingrijire]
+O33.0   Ingrijiri acordate mamei pentru o disproportie datorita unei malformatii de bazin al mamei [factor/ingrijire]
+O33.1   Ingrijiri acordate mamei pentru o disproportie datorita bazinului matern ingust in general [factor/ingrijire]
+O33.2   Ingrijiri acordate mamei pentru o disproportie datorita ingustarii stramtorii superioare a bazinului matern [factor/ingrijire]
+O33.3   Ingrijiri acordate mamei pentru o disproportie datorita unei ingustari a stramtorii inferioare [factor/ingrijire]
+O33.4   Ingrijiri acordate mamei pentru o disproportie feto-pelviana, de origine mixta materna si fetala [factor/ingrijire]
+O33.5   Ingrijiri acordate mamei pentru o disproportie datorita fatului anormal de mare [factor/ingrijire]
+O33.6   Ingrijiri acordate mamei pentru o disproportie datorita fatului hidrocefal [factor/ingrijire]
+O33.7   Ingrijiri acordate mamei pentru o disproportie datorita altor anomalii ale fatului [factor/ingrijire]
+O33.8   Ingrijiri acordate mamei pentru o disproportie de alte origini [factor/ingrijire]
+O33.9   Ingrijiri acordate mamei pentru o disproportie, nespecificata [factor/ingrijire]
+O34     Ingrijiri acordate mamei pentru o anomalie cunoscuta sau suspectata a organelor pelviene [factor/ingrijire]
+O34.0   Ingrijiri acordate mamei pentru malformatie congenitala a uterului [factor/ingrijire]
+O34.1   Ingrijiri acordate mamei pentru tumora corpului uterin [factor/ingrijire]
+O34.2   Ingrijiri acordate mamei pentru cicatrice uterina datorita unei interventii chirurgicale anterioare [factor/ingrijire]
+O34.3   Ingrijiri acordate mamei pentru beanta colului [factor/ingrijire]
+O34.4   Ingrijiri acordate mamei pentru alte anomalii de col uterin [factor/ingrijire]
+O34.5   Ingrijiri acordate mamei pentru alte anomalii ale uterului gravid [factor/ingrijire]
+O34.6   Ingrijiri acordate mamei pentru anomalii ale vaginului [factor/ingrijire]
+O34.7   Ingrijiri acordate mamei pentru anomalii ale vulvei si perineului [factor/ingrijire]
+O34.8   Ingrijiri acordate mamei pentru alte anomalii ale organelor pelviene [factor/ingrijire]
+O34.9   Ingrijiri acordate mamei pentru anomalia de organ pelvian, nespecificate [factor/ingrijire]
+O35     Ingrijiri acordate mamei pentru o anomalie sau o leziune fetala cunoscuta sau suspectata [factor/ingrijire]
+O35.0   Ingrijiri acordate mamei pentru o malformatie (suspectata) a sistemului nervos central al fatului [factor/ingrijire]
+O35.1   Ingrijiri acordate mamei pentru anomalii cromozomiale (suspectate) ale fatului [factor/ingrijire]
+O35.2   Ingrijiri acordate mamei pentru boli ereditare (suspectate) ale fatului [factor/ingrijire]
+O35.3   Ingrijiri acordate mamei pentru leziuni fetale (suspectate) rezultand de la o boala virala a mamei [factor/ingrijire]
+O35.4   Ingrijiri acordate mamei pentru leziuni fetale (suspectate) datorita alcoolismului matern [factor/ingrijire]
+O35.5   Ingrijiri acordate mamei pentru leziuni fetale (suspectate) rezultand din medicamente [factor/ingrijire]
+O35.6   Ingrijiri acordate mamei pentru leziuni fetale (suspectate) datorita iradiatiilor [factor/ingrijire]
+O35.7   Ingrijiri acordate mamei pentru leziuni fetale (suspectate) rezultand din alte proceduri medicale [factor/ingrijire]
+O35.8   Ingrijiri acordate mamei pentru alte anomalii si leziuni fetale (suspectate) [factor/ingrijire]
+O35.9   Ingrijiri acordate mamei pentru anomalii si leziuni fetale (suspectate), nespecificate [factor/ingrijire]
+O36     Ingrijiri acordate mamei pentru alte afectiuni fetale cunoscute sau suspectate [factor/ingrijire]
+O36.0   Ingrijiri acordate mamei pentru izo-imunizare anti Rh [factor/ingrijire]
+O36.1   Ingrijiri acordate mamei pentru alte izoimunizari [factor/ingrijire]
+O36.2   Ingrijiri acordate mamei pentru anasarca feto-placentara [factor/ingrijire]
+O36.3   Ingrijiri acordate mamei pentru semne de hipoxie fetala [factor/ingrijire]
+O36.4   Ingrijiri acordate mamei pentru decesul intrauterin al fatului [factor/ingrijire]
+O36.5   Ingrijiri acordate mamei pentru cresterea insuficienta a fatului [factor/ingrijire]
+O36.6   Ingrijiri acordate mamei pentru cresterea excesiva a fatului [factor/ingrijire]
+O36.7   Ingrijiri acordate mamei pentru o sarcina abdominala cu fat viabil [factor/ingrijire]
+O36.8   Ingrijiri acordate mamei pentru alte afectiuni specificate ale fatului [factor/ingrijire]
+O36.9   Ingrijiri acordate mamei pentru o afectiune a fatului, nespecificata [factor/ingrijire]
+Q80.9   Ihtioza congenitala, nespecificata [dublura categoriei parinte (nespecificat)]

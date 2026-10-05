@@ -1,0 +1,401 @@
+===== NOU (125)
+A00.0   Holera cu Vibrio cholerae 01, biovar cholerae  {Holera clasica}  <Cholera due to Vibrio cholerae 01, biovar cholerae>
+A66.3   Hipercheratoza pianica  {Mana de vampir / Talpi mancate de viermi}  <Hyperkeratosis of yaws>
+B58.1   Hepatita cu Toxoplasma  <Toxoplasma hepatitis>
+B81.4   Helmintiaza intestinala mixta  {Helmintiaza mixta}  <Mixed intestinal helminthiases>
+B83.4   Hirudiniaza interna  <Internal hirudiniasis>
+B88.3   Hirudiniaza externa  {Infestatia cu lipitori}  <External hirudiniasis>
+C22.2   Hepatoblastom  <Hepatoblastoma>
+D18     Hemangiom si limfangiom  <Hemangioma and lymphangioma, any site>
+D59.6   Hemoglobinuria datorita hemolizei din alte cauze externe  <Hemoglobinuria due to hemolysis from other external causes>
+D80.0   Hipogammaglobulinemia ereditara  {Agammaglobulinemia autosoma recesiva (tip elvetian)}  <Hereditary hypogammaglobulinemia>
+D80.1   Hipogammaglobulinemia nonfamiliala  {Agammaglobulinemia cu limfocite B purtatori de imunoglobine / Agammaglobulinemia comuna variabila [CVAgamma] / Hipogammaglobulinemia}  <Nonfamilial hypogammaglobulinemia>
+D80.7   Hipogammaglobulinemia tranzitorie a primei copilarii  <Transient hypogammaglobulinemia of infancy>
+E03.0   Hipotiroidia congenitala, cu gusa difuza  <Congenital hypothyroidism with diffuse goiter>
+E03.2   Hipotiroidia datorita unor medicamente si altor substante exogene  <Hypothyroidism due to medicaments and other exogenous substances>
+E07.0   Hipersecretia de calcitonina  {Hiperplazia de celule C a tiroidei / Hipersecretia de tirocalcitonina}  <Hypersecretion of calcitonin>
+E16.3   Hipersecretia de glucagon  {Hiperplazia celulelor endocrine pancreatice cu exces de glucagon}  <Increased secretion of glucagon>
+E20.0   Hipoparatiroidism idiopatic  <Idiopathic hypoparathyroidism>
+E21     Hiperparatiroidism si alte tulburari ale glandei paratiroide  <Hyperparathyroidism and other disorders of parathyroid gland>
+E22     Hipersecretia glandei pituitare  <Hyperfunction of pituitary gland>
+E23     Hiposecretia si alte tulburari ale glandei pituitare  <Hypofunction and other disorders of the pituitary gland>
+E23.1   Hipopituitarismul indus medicamentos  <Drug-induced hypopituitarism>
+E27.5   Hiperfunctia adreno-medulara  {Hiperplazia adreno-medulara / Hipersecretia catecolaminei}  <Adrenomedullary hyperfunction>
+E31.1   Hiperfunctia poliglandulara  <Polyglandular hyperfunction>
+E79.0   Hiperuricemia fara semne de artrita inflamatorie sau de boala tofacee  {Hiperuricemia asimptomatica}  <Hyperuricemia without signs of inflammatory arthritis and tophaceous disease>
+E87.0   Hiperosmolaritate si hipernatremie  {Exces de sodiu [Na] / Supraincarcare cu sodiu [Na]}  <Hyperosmolality and hypernatremia>
+F51.1   Hipersomnie neorganica  <Hypersomnia not due to a substance or known physiological condition>
+G81     Hemiplegia  <Hemiplegia and hemiparesis>
+G81.0   Hemiplegia flasca  <Flaccid hemiplegia>
+G81.1   Hemiplegia spastica  <Spastic hemiplegia>
+G91.3   Hidrocefalia post-traumatica, nespecificata  <Post-traumatic hydrocephalus, unspecified>
+G94.0   Hidrocefalia in bolile infectioase si parazitare clasificate altundeva(A00-
+G94.1   Hidrocefalia in bolile neoplazice clasificate altundeva (C00-D48†)
+G97.2   Hipotensiunea intracraniana ca urmare a shuntului ventricular  <Intracranial hypotension following ventricular shunting>
+H11.3   Hemoragia conjuctivala  {Hemoragia subconjunctivala}  <Conjunctival hemorrhage>
+H21.0   Hiphema  <Hyphema>
+H43.1   Hemoragia corpului vitros  <Vitreous hemorrhage>
+H44.4   Hipotonia ochiului  <Hypotony of eye>
+H50.3   Heterotropia intermitenta  <Intermittent heterotropia>
+I15.1   Hipertensiunea secundara altor afectiuni renale  <Hypertension secondary to other renal disorders>
+I15.2   Hipertensiunea secundara tulburarilor endocrine  <Hypertension secondary to endocrine disorders>
+I60.0   Hemoragia subarahnoida de la sifonul si bifurcatia carotidei  <Nontraumatic subarachnoid hemorrhage from carotid siphon and bifurcation>
+I60.2   Hemoragia subarahnoida de la artera comunicanta anterioara  <Nontraumatic subarachnoid hemorrhage from anterior communicating artery>
+I60.3   Hemoragia subarahnoida de la artera comunicanta posterioara  <Nontraumatic subarachnoid hemorrhage from posterior communicating artery>
+I60.4   Hemoragia subarahnoida de la artera bazilara  <Nontraumatic subarachnoid hemorrhage from basilar artery>
+I60.5   Hemoragia subarahnoida de la artera vertebrala  <Nontraumatic subarachnoid hemorrhage from vertebral artery>
+I60.6   Hemoragia subarahnoida de la alte artere intracraniene  {Implicatia multipla a arterelor intracraniene}  <Nontraumatic subarachnoid hemorrhage from other intracranial arteries>
+I60.7   Hemoragia subarahnoida de la artere intracraniene, nespecificate  {Anevrism granulat (congenital) rupt}  <Nontraumatic subarachnoid hemorrhage from unspecified intracranial artery>
+I61.2   Hemoragia intracerebrala in emisfere, nespecificata  <Nontraumatic intracerebral hemorrhage in hemisphere, unspecified>
+I61.4   Hemoragia intracerebrala in cerebel  <Nontraumatic intracerebral hemorrhage in cerebellum>
+I61.6   Hemoragia intracerebrala cu localizare multipla  <Nontraumatic intracerebral hemorrhage, multiple localized>
+I62.9   Hemoragia intacraniana (netraumatica), nespecificata  {netraumatica}  <Nontraumatic intracranial hemorrhage, unspecified>
+I95.0   Hipotensiunea idiopatica  <Idiopathic hypotension>
+I95.2   Hipotensiunea datorita medicamentelor  <Hypotension due to drugs>
+J35.2   Hipertrofia adenoizilor  {Hiperplazia adenoizilor}  <Hypertrophy of adenoids>
+K03.4   Hipercimentoza  {Hiperplazia de cimentare}  <Hypercementosis>
+K06.1   Hiperplazia gingivala  {Fibromatoza gingivala}  <Gingival enlargement>
+K11.1   Hipertrofia gladelor salivare  <Hypertrophy of salivary gland>
+K13.6   Hiperplazia inflamatorie a mucoasei bucale  <Irritative hyperplasia of oral mucosa>
+K38.0   Hiperplazia apendicelui  <Hyperplasia of appendix>
+K62.5   Hemoragia anusului si rectului  <Hemorrhage of anus and rectum>
+K75.2   Hepatita reactiva nespecifica  <Nonspecific reactive hepatitis>
+K92.0   Hematemeza  <Hematemesis>
+K92.2   Hemoragia gastro-intestinala, nespecificata  <Gastrointestinal hemorrhage, unspecified>
+L68.1   Hipertricoza lanuginoasa dobandita  <Acquired hypertrichosis lanuginosa>
+M12.4   Hidartroza intermitenta  <Intermittent hydrarthrosis>
+M20.2   Hallux rigidus  <Hallux rigidus>
+M25.2   Hiperlaxitate articulara  <Flail joint>
+M67.2   Hipertrofia sinoviala, neclasificata altundeva  <Synovial hypertrophy, not elsewhere classified>
+M79.4   Hipertrofia infrapatelara grasoasa  <Hypertrophy of (infrapatellar) fat pad>
+M85.2   Hiperostoza craniului  <Hyperostosis of skull>
+M89.3   Hipertrofia oaselor  <Hypertrophy of bone>
+N02     Hematuria persistenta si recurenta  <Recurrent and persistent hematuria>
+N13.0   Hidronefroza cu obstructia jonctiunii pelviene-ureterale  <Hydronephrosis with ureteropelvic junction obstruction>
+N13.1   Hidronefroza cu strictura ureterala, neclasificata altundeva  <Hydronephrosis with ureteral stricture, not elsewhere classified>
+N13.2   Hidronefroza cu obstructie calculoasa renala si ureterala  <Hydronephrosis with renal and ureteral calculous obstruction>
+N13.3   Hidronefroza, alta si nespecificata  <Other and unspecified hydronephrosis>
+N43     Hidrocel si spermatocel  <Hydrocele and spermatocele>
+N43.0   Hidrocel inchistat  <Encysted hydrocele>
+N43.1   Hidrocel infectat  <Infected hydrocele>
+N47     Hipertrofia preputului, fimoza, parafimoza  {Preput aderent / Pielea anterioara stransa si aderenta de preput}  <Disorders of prepuce>
+N83.7   Hematom al ligamentului larg  <Hematoma of broad ligament>
+N85.0   Hiperplazia glandulara a endometrului  <Endometrial hyperplasia>
+N85.1   Hiperplazia adenomatoasa a endometrului  {Hiperplazia endometrului, atipica (adenomatoasa)}
+N90.6   Hipertrofia vulvei  {Hipertrofia labiilor}  <Hypertrophy of vulva>
+O08.1   Hemoragia severa sau intirziata urmand avortului si sarcinii ectopice si molare  <Delayed or excessive hemorrhage following ectopic and molar pregnancy>
+O10.0   Hipertensiunea esentiala pre-existenta, complicand sarcina, nasterea si lauzia  <Pre-existing essential hypertension complicating pregnancy, childbirth and the puerperium>
+O10.4   Hipertensiunea secundara pre-existenta complicand sarcina, nasterea si lauzia  <Pre-existing secondary hypertension complicating pregnancy, childbirth and the puerperium>
+O10.9   Hipertensiunea pre-existenta nespecificata complicand sarcina, nasterea si lauzia  <Unspecified pre-existing hypertension complicating pregnancy, childbirth and the puerperium>
+O20     Hemoragia la debutul sarcinii  <Hemorrhage in early pregnancy>
+O22.4   Hemoroizii in sarcina  <Hemorrhoids in pregnancy>
+O26.4   Herpes gestational  <Herpes gestationis>
+O46.0   Hemoragia antepartum cu anomalie de coagulare  {Hemoragia antepartum (excesiva)}  <Antepartum hemorrhage with coagulation defect>
+O67.0   Hemoragia intrapartum cu anomalie de coagulare  {Hemoragie intrapartum (excesiva) asociata}  <Intrapartum hemorrhage with coagulation defect>
+O67.9   Hemoragia intrapartum excesiva, nespecificata  <Intrapartum hemorrhage, unspecified>
+O71.7   Hematom pelvian de origine obstetricala  <Obstetric hematoma of pelvis>
+O87.2   Hemoroizi in timpul lauziei  <Hemorrhoids in the puerperium>
+O90.2   Hematomul la nivelul unei plagi obstetricale  <Hematoma of obstetric wound>
+O92.4   Hipogalactia  {Insuficienta producerii laptelui}  <Hypogalactia>
+P20     Hipoxia intrauterina
+P20.0   Hipoxia intrauterina constatata pentru prima oara inainte de debutul travaliului
+P20.1   Hipoxia intrauterina constatata pentru prima oara in timpul travaliului si nasterii  {Unele afectiuni ale caror origine se situeaza in perioada perinatala / Tabelară a Bolilor RoDRG}
+P26     Hemoragia pulmonara survenind in perioada perinatala  <Pulmonary hemorrhage originating in the perinatal period>
+P26.0   Hemoragia traheo-bronsica survenind in perioada perinatala  {Unele afectiuni ale caror origine se situeaza in perioada perinatala / Tabelară a Bolilor RoDRG}  <Tracheobronchial hemorrhage originating in the perinatal period>
+P26.1   Hemoragia pulmonara masiva survenind in perioada perinatala  <Massive pulmonary hemorrhage originating in the perinatal period>
+P50.3   Hemoragia intre gemeni  <Newborn affected by hemorrhage into co-twin>
+P50.4   Hemoragia in circulatia sangvina materna  <Newborn affected by hemorrhage into maternal circulation>
+P51     Hemoragia ombilicala a nou-nascutului  <Umbilical hemorrhage of newborn>
+P51.0   Hemoragia ombilicala masiva a nou-nascutului  <Massive umbilical hemorrhage of newborn>
+P52     Hemoragia intracraniana netraumatica a fatului si nou-nascutului  <Intracranial nontraumatic hemorrhage of newborn>
+P52.4   Hemoragia intracerebrala (netraumatica) a fatului si nou-nascutului  {netraumatica}  <Intracerebral (nontraumatic) hemorrhage of newborn>
+P52.5   Hemoragia subarahnoida (netraumatica) a fatului si nou-nascutului  {netraumatica}  <Subarachnoid (nontraumatic) hemorrhage of newborn>
+P54.0   Hematemeza neonatala  <Neonatal hematemesis>
+P71.2   Hipomagnezemia neonatala  <Neonatal hypomagnesemia>
+P71.4   Hipoparatiroidism neonatal tranzitoriu  <Transitory neonatal hypoparathyroidism>
+P72.1   Hipertiroidism neonatal tranzitoriu  {Tireotoxicoza neonatala}  <Transitory neonatal hyperthyroidism>
+P81.0   Hipertermia nou-nascutului datorita mediului  <Environmental hyperthermia of newborn>
+Q06.1   Hipoplazia si displazia maduvei spinarii  {Atelomielia / Mielatelia / Mielodisplazia maduvei spinarii}  <Hypoplasia and dysplasia of spinal cord>
+Q33.6   Hipoplazia si displazia pulmonului  <Congenital hypoplasia and dysplasia of lung>
+Q54.0   Hipospadias balanic  <Hypospadias, balanic>
+Q54.2   Hipospadias peno-scrotal  <Hypospadias, penoscrotal>
+Q54.3   Hipospadias perineal  <Hypospadias, perineal>
+Q55.1   Hipoplazia testiculului si scrotului  {Fuzionarea testiculelor}  <Hypoplasia of testis and scrotum>
+Q64.34  Hipoplazia uretrei
+Q76.45  Hemivertebra
+Q89.12  Hipoplazia congenitala a glandei suprarenale
+===== POSIBIL (142)
+A00.1   Holera cu Vibrio cholerae 01, biovar eltor  {Holera eltor}  <Cholera due to Vibrio cholerae 01, biovar eltor> ~ Holera El Tor
+B15     Hepatita acuta A  <Acute hepatitis A> ~ Hepatita | Hepatita A
+B15.0   Hepatita A cu coma hepatica  <Hepatitis A with hepatic coma> ~ Encefalopatie hepatica
+B15.9   Hepatita A fara coma hepatica  {Hepatita A (acuta) (virala)}  <Hepatitis A without hepatic coma> ~ Encefalopatie hepatica | Hepatita | Artrita asociata hepatitei | Hepatita B | Hepatita C | Hepatita colestatica
+B16     Hepatita acuta B  <Acute hepatitis B> ~ Hepatita B | Hepatita cronica B | Artrita asociata hepatitei | Hepatita E | Hepatita
+B16.0   Hepatita acuta B cu agent Delta (coinfectie) si coma hepatica  {coinfectie}  <Acute hepatitis B with delta-agent with hepatic coma> ~ Encefalopatie hepatica | Hepatita B | Hepatita cronica B | Hepatita D
+B16.1   Hepatita acuta B cu agent Delta (coinfectie) si fara coma hepatica  {coinfectie}  <Acute hepatitis B with delta-agent without hepatic coma> ~ Encefalopatie hepatica | Hepatita B | Hepatita cronica B | Hepatita D
+B16.2   Hepatita acuta B fara agent Delta, cu coma hepatica  <Acute hepatitis B without delta-agent with hepatic coma> ~ Encefalopatie hepatica | Hepatita B | Hepatita cronica B | Hepatita D
+B16.9   Hepatita acuta B fara agent Delta si fara coma hepatica  {Hepatita B (acuta) (virala)}  <Acute hepatitis B without delta-agent and without hepatic coma> ~ Encefalopatie hepatica | Hepatita B | Hepatita cronica B | Hepatita D | Hepatita | Traheita virala
+B17.1   Hepatita acuta C  <Acute hepatitis C> ~ Hepatita C | Hepatita cronica C | Hepatita
+B17.2   Hepatita acuta E  <Acute hepatitis E> ~ Hepatita E | Hepatita | Hepatita A cu icter
+B18.0   Hepatita virala cronica B cu agent Delta  <Chronic viral hepatitis B with delta-agent> ~ Hepatita | Hepatita B | Hepatita cronica B | Hepatita D
+B18.1   Hepatita virala cronica B fara agent Delta  {Hepatita cronica (virala) B}  <Chronic viral hepatitis B without delta-agent> ~ Hepatita | Hepatita B | Hepatita cronica B | Hepatita D | Hepatita colestatica
+B18.2   Hepatita virala cronica C  <Chronic viral hepatitis C> ~ Hepatita C | Hepatita | Hepatita cronica C | Hepatita cronica B
+B19.0   Hepatita virala nespecificata cu coma hepatica  <Unspecified viral hepatitis with hepatic coma> ~ Encefalopatie hepatica | Hepatita
+B25.1   Hepatita cu cytomegalovirus  <Cytomegaloviral hepatitis> ~ Mononucleoza cu citomegalovirus | Traheita cu citomegalovirus | Retinita cu citomegalovirus
+B39.0   Histoplasmoza pulmonara acuta prin Histoplasma capsulatum  <Acute pulmonary histoplasmosis capsulati> ~ Histoplasmoza pulmonara
+B39.1   Histoplasmoza pulmonara cronica prin Histoplasma capsulatum  <Chronic pulmonary histoplasmosis capsulati> ~ Histoplasmoza pulmonara
+B39.2   Histoplasmoza pulmonara prin Histoplasma capsulatum, nespecificata  <Pulmonary histoplasmosis capsulati, unspecified> ~ Histoplasmoza pulmonara
+B39.3   Histoplasmoza diseminata prin Histoplasma capsulatum  {Histoplasmoza generalizata prin Histoplasma capsulatum}  <Disseminated histoplasmosis capsulati> ~ Histoplasmoza diseminata
+B39.4   Histoplasmoza prin Histoplasma capsulatum, nespecificata  {Histoplasmoza americana}  <Histoplasmosis capsulati, unspecified> ~ Histoplasmoza africana
+B82.0   Helmintiaza intestinala, nespecificata  <Intestinal helminthiasis, unspecified> ~ Yersinioza
+B96.3   Haemophilus influenzae [H influenzae], cauza unor boli clasate la alte capitole  {H influenzae}  <Hemophilus influenzae [H. influenzae] as the cause of diseases classified elsewhere> ~ Meningita cu Haemophilus influenzae | Gripa | Gripa porcina
+D59.5   Hemoglobinuria nocturna paroxistica (Marchiafava-Micheli)  {Marchiafava-Micheli}  <Paroxysmal nocturnal hemoglobinuria [Marchiafava-Micheli]> ~ Hemoglobinurie paroxistica nocturna
+D76.0   Histiocitoza celulelor Langerhans, neclasificata altundeva  {Granulom eosinofilic / Boala Hand-Schuller-Christian / Histocitoza X (cronica) / L ista Tabelară a Bolilor RoDRG} ~ Histiocitoza cu celule Langerhans
+D89.2   Hipergammaglobulinemia, nespecificata  <Hypergammaglobulinemia, unspecified> ~ Hipergamaglobulinemie | Hipogamaglobulinemie
+E02     Hipotiroidia prin carenta subclinica de iod  <Subclinical iodine-deficiency hypothyroidism> ~ Deficit de iod | Hipotiroidism prin deficit de iod
+E03.1   Hipotiroidia congenitala fara gusa  {Aplazia tiroidei (cu mixedem)}  <Congenital hypothyroidism without goiter> ~ Hipotiroidism congenital fara gusa
+E03.3   Hipotiroidia postinfectioasa  <Postinfectious hypothyroidism> ~ Tiroidita
+E16.0   Hipoglicemia indusa medicamentos, fara coma  <Drug-induced hypoglycemia without coma> ~ Coma hipoglicemica
+E26     Hiperaldosteronism  <Hyperaldosteronism> ~ Hiperaldosteronism primar | Hiperaldosteronism secundar | Hipoaldosteronism
+E29.0   Hiperfunctia testiculara  {Hipersecretia de hormoni testiculari}  <Testicular hyperfunction> ~ Hipogonadism masculin
+E32.0   Hiperplazia persistenta a timusului  {Hipertrofia timusului}  <Persistent hyperplasia of thymus> ~ Hiperplazie timica | Estenoza pilorica hipertrofica
+E78.1   Hipergliceridemia esentiala  {Hipergliceridemia endogena / Hiperlipoproteinemia Fredrickson, tip IV / Hiperlipidemia, grupa B / Hiperbetalipoproteinemia / Hiperlipoproteinemia cu lipoproteine de densitate foarte joasa [VLDL]}  <Pure hyperglyceridemia> ~ Hiperlipoproteinemie tip IV
+E78.3   Hiperchilomicroanemie  {Hiperlipoproteinemia Fredrickson, tip I sau V / Hiperlipidemia, grupa D / Hipergliceridemia mixta}  <Hyperchylomicronemia> ~ Hiperlipoproteinemie tip V | Hiperlipoproteinemie tip I
+E87.1   Hipo-osmolaritate si hiponatremie  {Carenta de sodiu [Na]}  <Hypo-osmolality and hyponatremia> ~ Deficit de sodiu
+G51.3   Hemispasm facial clonic  <Clonic hemifacial spasm> ~ Spasm hemifacial
+H31.3   Hemoragia si ruptura choroidei  <Choroidal hemorrhage and rupture> ~ Ruptura coroidiana
+I10     Hipertensiunea esentiala (primara)  {primara / Tensiunea sanguina ridicata}  <Essential (primary) hypertension> ~ Hipertensiune gestationala | Hipertensiune arteriala secundara | Hipertensiune arteriala
+I15.0   Hipertensiunea renovasculara  <Renovascular hypertension> ~ Hipertensiune arteriala rezistenta
+I15.9   Hipertensiunea secundara,nespecificata  {Bolile ischemice ale inimii}  <Secondary hypertension, unspecified> ~ Hipertensiune arteriala secundara | Hipertensiune arteriala pulmonara
+I23.0   Hemopericard ca o complicatie curenta urmand infarctului miocardic acut  <Hemopericardium as current complication following acute myocardial infarction> ~ Infarct miocardic
+I27.0   Hipertensiunea pulmonara primara  {Hipertensiune pulmonara (arteriala) (idiopatica) (primara)}  <Primary pulmonary hypertension> ~ Hipertensiune arteriala pulmonara | Hipertensiune pulmonara persistenta a nou-nascutului | Hipertensiune arteriala | Hipertensiune arteriala secundara
+I60     Hemoragia subarahnoida  <Nontraumatic subarachnoid hemorrhage> ~ Hemoragie subarahnoidiana
+I60.1   Hemoragia subarahnoida de la artera cerebrala medie  <Nontraumatic subarachnoid hemorrhage from middle cerebral artery> ~ Accident vascular cerebral hemoragic
+I61     Hemoragia intracerebrala  <Nontraumatic intracerebral hemorrhage> ~ Hemoragie cerebrala lobara | Hemoragie cerebeloasa | Accident vascular cerebral hemoragic
+I61.0   Hemoragia intracerebrala in emisfere, subcorticala  {Hemoragia intracerebrala profunda}  <Nontraumatic intracerebral hemorrhage in hemisphere, subcortical> ~ Hemoragie cerebrala lobara
+I61.1   Hemoragia intracerebrala in emisfere, corticala  {Hemoragia lobilor cerebrali / Hemoragia intracerebrala superficiala}  <Nontraumatic intracerebral hemorrhage in hemisphere, cortical> ~ Accident vascular cerebral hemoragic | Hemoragie cerebrala lobara
+I61.3   Hemoragia intracerebrala in trunchiul cerebral  <Nontraumatic intracerebral hemorrhage in brain stem> ~ Accident vascular cerebral hemoragic
+I61.5   Hemoragia intracerebrala, intraventriculara  <Nontraumatic intracerebral hemorrhage, intraventricular> ~ Hemoragie intraventriculara
+I62.1   Hemoragia extradurala netraumatica  {Hemoragia epidurala netraumatica}  <Nontraumatic extradural hemorrhage> ~ Hematom epidural
+I84.0   Hemoroizi interni trombozati ~ Hemoroizi | Hemoroizi trombosati
+I84.1   Hemoroizi interni cu alte complicatii ~ Hemoroizi
+I84.3   Hemoroizi externi trombozati ~ Hemoroizi | Hemoroizi trombosati
+I84.4   Hemoroizi externi cu alte complicatii ~ Hemoroizi
+I84.8   Hemoroizi nespecificati cu alte complicatii  {Hemoroizi ca interni sau} ~ Hemoroizi
+J34.3   Hipertrofia cornetelor nazale  <Hypertrophy of nasal turbinates> ~ Rinita hipertrofica
+J35.1   Hipertrofia amigdalelor  {Hiperplazia amigdalelor}  <Hypertrophy of tonsils> ~ Amigdalita hipertrofica | Hipertrofie de amigdale si vegetatii | Sindrom de apnee obstructiva la copil cu adenoidita
+J35.3   Hipertrofia amigdalelor cu hipertrofia adenoizilor  <Hypertrophy of tonsils with hypertrophy of adenoids> ~ Amigdalita hipertrofica
+K14.3   Hipertrofia papilelor linguale  {Limba neagra paroasa / Limba incarcata / Hipertrofia papilelor foliate / Limba neagra viloasa}  <Hypertrophy of tongue papillae> ~ Macroglosie | Glosita atrofica
+K40.0   Hernia inghinala bilaterala, cu obstructie, fara gangrena  <Bilateral inguinal hernia, with obstruction, without gangrene> ~ Hernie inghinala
+K40.1   Hernia inghinala bilaterala, cu gangrena  <Bilateral inguinal hernia, with gangrene> ~ Hernie inghinala
+K40.2   Hernia inghinala bilaterala, fara obstructie si gangrena  {Hernia inghinala bilaterala}  <Bilateral inguinal hernia, without obstruction or gangrene> ~ Hernie inghinala | Hernie inghinala strangulata
+K40.3   Hernia inghinala unilaterala sau nespecificata, cu obstructie, fara gangrena  <Unilateral inguinal hernia, with obstruction, without gangrene> ~ Hernie inghinala
+K40.4   Hernia inghinala, unilaterala sau nespecificata, cu gangrena  {Hernia inghinala cu gangrena}  <Unilateral inguinal hernia, with gangrene> ~ Hernie inghinala
+K40.9   Hernia inghinala unilaterala sau nespecificata, fara obstructie sau gangrena  {Hernia inghinala (unilaterala)}  <Unilateral inguinal hernia, without obstruction or gangrene> ~ Hernie inghinala
+K41.0   Hernia femurala bilaterala, cu obstructie, fara gangrena  <Bilateral femoral hernia, with obstruction, without gangrene> ~ Hernie femurala
+K41.1   Hernia femurala bilaterala, cu gangrena  <Bilateral femoral hernia, with gangrene> ~ Hernie femurala
+K41.2   Hernia femurala bilaterala, fara obstructie sau gangrena  {Hernia femurala bilaterala}  <Bilateral femoral hernia, without obstruction or gangrene> ~ Hernie femurala
+K41.3   Hernia femurala unilaterala sau nespecificata, cu obstructie, fara gangrena  <Unilateral femoral hernia, with obstruction, without gangrene> ~ Hernie femurala
+K41.4   Hernia femurala unilaterala sau nespecificata, cu gangrena  <Unilateral femoral hernia, with gangrene> ~ Hernie femurala
+K41.9   Hernia femurala unilaterala sau nespecificata, cu obstructie, fara obstructie sau gangrena  {Hernia femurala (unilaterala)}  <Unilateral femoral hernia, without obstruction or gangrene> ~ Hernie femurala
+K42.0   Hernia ombilicala cu obstructie, fara gangrena  <Umbilical hernia with obstruction, without gangrene> ~ Hernie inghinala
+K42.1   Hernia ombilicala cu gangrena  {Hernia ombilicala gangrenoasa}  <Umbilical hernia with gangrene> ~ Hernie inghinala
+K43     Hernia ventrala  <Ventral hernia> ~ Hernie incisionala | Hernie Spiegel
+K43.0   Hernia ventrala cu obstructie, fara gangrena  <Incisional hernia with obstruction, without gangrene> ~ Hernie incisionala
+K43.1   Hernia ventrala, cu gangrena  {Hernia ventrala gangrenoasa}  <Incisional hernia with gangrene> ~ Hernie incisionala
+K43.9   Hernia ventrala fara ocluzie sau gangrena  {Hernia ventrala}  <Ventral hernia without obstruction or gangrene> ~ Hernie incisionala | Hernie Spiegel
+K44.0   Hernia diafragmatica cu obstructie, fara gangrena  <Diaphragmatic hernia with obstruction, without gangrene> ~ Hernie diafragmatica
+K44.1   Hernia diafragmatica cu gangrena  {Hernia diafragmatica gangrenoasa}  <Diaphragmatic hernia with gangrene> ~ Hernie diafragmatica | Hernie diafragmatica congenitala | Hernie Morgagni
+K46.0   Hernia abdominala nespecificata cu obstructie, fara gangrena  <Unspecified abdominal hernia with obstruction, without gangrene> ~ Hernie inghinala
+K46.1   Hernia abdominala nespecificata cu gangrena  <Unspecified abdominal hernia with gangrene> ~ Hernie inghinala
+K73.0   Hepatita persistenta cronica, neclasificata altundeva  <Chronic persistent hepatitis, not elsewhere classified> ~ Hepatita
+K73.1   Hepatita lobulara cronica, neclasificata altundeva  <Chronic lobular hepatitis, not elsewhere classified> ~ Hepatita cronica B
+K76.6   Hipertensiunea portala  <Portal hypertension> ~ Hipertensiune portala | Hipertensiune arteriala | Hipotensiune ortostatica
+L68.2   Hipertricoza localizata  <Localized hypertrichosis> ~ Hipertricoza
+L73.2   Hidradenita supurata  <Hidradenitis suppurativa> ~ Hidrosadenita
+L81.0   Hiperpigmentatia post-inflamatorie  <Postinflammatory hyperpigmentation> ~ Hiperpigmentare postinflamatorie | Hipopigmentare postinflamatorie
+M48.1   Hiperostoza anchilozanta [Forestier]  {Forestier / Hiperostoza scheletala idiopatica difuza [DISH]}  <Ankylosing hyperostosis [Forestier]> ~ Boala Forestier
+N13.4   Hidro-ureter  <Hydroureter> ~ Hidroureteronefroza
+N40     Hiperplazia prostatei  {Hipertrofia adenofibromatoasa a prostatei / Adenomul (benign) prostatei / Hiperplazia (benigna) a prostatei / Fibroadenomul prostatei / Fibromul prostatei / Hipertrofia (benigna) a prostatei / Miomul prostatei / Bara mediana (a prostatei) / Obstructia prostatica}  <Benign prostatic hyperplasia> ~ Adenom de prostata
+N85.2   Hipertrofia uterului  {Uter largit sau voluminos}  <Hypertrophy of uterus> ~ Estenoza pilorica hipertrofica
+N85.7   Hematometria  {Hematosalpinx cu hematometrie}  <Hematometra> ~ Hematometra | Hematomielie
+N98.1   Hiperstimularea ovarelor  <Hyperstimulation of ovaries> ~ Sindrom de hiperstimulare ovariana
+O10     Hipertensiune pre-existenta complicand sarcina, nasterea si lauzia  <Pre-existing hypertension complicating pregnancy, childbirth and the puerperium> ~ Hipertensiune gestationala
+O14     Hipertensiune gestationala [indusa de sarcina] cu proteinurie semnificativa  {indusa de sarcina}  <Pre-eclampsia> ~ Hipertensiune gestationala | Preeclampsie | Rinita hormonala
+O16     Hipertensiunea mamei, nespecificata  {Alte tulburari materne legate in mod predominant de sarcina}  <Unspecified maternal hypertension> ~ Hipertensiune arteriala maligna
+O21.0   Hiperemeza gravidica usoara  <Mild hyperemesis gravidarum> ~ Greturi matinale
+O21.1   Hiperemeza gravidica cu tulburari metabolice  <Hyperemesis gravidarum with metabolic disturbance> ~ Greturi matinale
+O46     Hemoragie antepartum, neclasificata altundeva  <Antepartum hemorrhage, not elsewhere classified> ~ Hemoragie postpartum
+O72.2   Hemoragia postpartum, tardiva si secundara  {Hemoragia asociata cu retentia partiala a placentei sau membranelor / Retentia produselor de conceptie , urmand nasterii}  <Delayed and secondary postpartum hemorrhage> ~ Hemoragie postpartum tardiva | Hemoragie postpartum | Retentie de placenta
+O98.4   Hepatita virala complicand sarcina, nasterea si lauzia  <Viral hepatitis complicating pregnancy, childbirth and the puerperium> ~ Hepatita
+P10.0   Hemoragia subdurala datorita traumatismului la nastere  {Hematom subdural (localizat) datorita traumatismului la nastere}  <Subdural hemorrhage due to birth injury> ~ Hematom subdural | Traumatism obstetric
+P10.1   Hemoragia cerebrala datorita traumatismului la nastere  <Cerebral hemorrhage due to birth injury> ~ Accident vascular cerebral hemoragic | Traumatism obstetric
+P10.2   Hemoragia intraventriculara datorita traumatismului la nastere  <Intraventricular hemorrhage due to birth injury> ~ Hemoragie intraventriculara | Traumatism obstetric
+P10.3   Hemoragia subarahnoidiana datorita traumatismului la nastere  <Subarachnoid hemorrhage due to birth injury> ~ Hemoragie subarahnoidiana | Traumatism obstetric
+P12.1   Hematom in coc datorita traumatismului la nastere  <Chignon (from vacuum extraction) due to birth injury> ~ Traumatism obstetric
+P12.2   Hemoragia epicraniana subaponevrotica datorita traumatismului la nastere  <Epicranial subaponeurotic hemorrhage due to birth injury> ~ Traumatism obstetric
+P29.2   Hipertensiune neonatala  <Neonatal hypertension> ~ Hipertensiune pulmonara persistenta a nou-nascutului | Hipertensiune portala | Hipertensiune arteriala labila | Hipertensiune arteriala
+P29.81  Hipotensiunea neonatala  <Cardiac arrest of newborn> ~ Hipotonie neonatala | Hipotermie neonatala | Hipotensiune ortostatica
+P35.3   Hepatita virala congenitala  <Congenital viral hepatitis> ~ Hepatita
+P52.0   Hemoragia intraventriculara (netraumatica), gradul 1, a fatului si nou-nascutului  {netraumatica / Hemoragia subependimala (fara extindere intraventriculara)}  <Intraventricular (nontraumatic) hemorrhage, grade 1, of newborn> ~ Hemoragie intraventriculara
+P52.1   Hemoragia intraventriculara (netraumatica), gradul 2, a fatului si nou-nascutului  {netraumatica / Hemoragia subependimala cu extindere intraventriculara}  <Intraventricular (nontraumatic) hemorrhage, grade 2, of newborn> ~ Hemoragie intraventriculara
+P52.2   Hemoragia intraventriculara (netraumatica), gradul 3, a fatului si nou-nascutului  {netraumatica}  <Intraventricular (nontraumatic) hemorrhage, grade 3 and grade 4, of newborn> ~ Hemoragie intraventriculara
+P52.3   Hemoragia intraventriculara (netraumatica) a fatului si nou-nascutului, nespecificata  {netraumatica}  <Unspecified intraventricular (nontraumatic) hemorrhage of newborn> ~ Hemoragie intraventriculara
+P52.6   Hemoragia cerebelara si a fosei posterioare (netraumatica) a fatului si nou-nascutului  {netraumatica}  <Cerebellar (nontraumatic) and posterior fossa hemorrhage of newborn> ~ Hemoragie cerebeloasa
+P54.2   Hemoragia rectala neonatala  <Neonatal rectal hemorrhage> ~ Hemoragie suprarenala neonatala
+P54.5   Hemoragia cutanata neonatala  {Contuzii la fat sau nou-nascut / Echimoze la fat sau nou-nascut / Petesii la fat sau nou-nascut / Hematom superficial la fat sau nou-nascut}  <Neonatal cutaneous hemorrhage> ~ Hemoragie suprarenala neonatala | Hemoragie pulmonara neonatala
+P54.6   Hemoragia vaginala neonatala  {Pseudomenstruatia}  <Neonatal vaginal hemorrhage> ~ Hemoragie suprarenala neonatala
+P54.9   Hemoragia neonatala, nespecificata  <Neonatal hemorrhage, unspecified> ~ Hemoragie cerebeloasa neonatala | Hemoragie pulmonara neonatala | Hemoragie subarahnoidiana neonatala | Hemoragie subdurala neonatala | Hemoragie suprarenala neonatala | Boala hemoragica a nou-nascutului
+P70.3   Hipoglicemia neonatala iatrogena  <Iatrogenic neonatal hypoglycemia> ~ Hipoglicemie indusa de medicamente | Hipoglicemie neonatala
+P71.0   Hipocalcemia nou-nascutului datorita laptelui de vaca  <Cow's milk hypocalcemia in newborn> ~ Hipocalcemie neonatala
+P74.21  Hipernatremia la nou-nascut  <Hypernatremia of newborn> ~ Hipocalcemie neonatala
+P74.22  Hiponatremia la nou-nascut  <Hyponatremia of newborn> ~ Hipocalcemie neonatala | Hipotonie neonatala | Hipoglicemie neonatala
+P74.31  Hiperkalemia nou-nascutului  <Hyperkalemia of newborn> ~ Hipocalcemie neonatala | Hipotermie neonatala | Conjunctivita neonatala
+P74.32  Hipokalemia nou-nascutului  <Hypokalemia of newborn> ~ Hipocalcemie neonatala | Hipotermie neonatala | Conjunctivita neonatala
+P78.2   Hematemeza si melena neonatala datorita deglutitiei de sange matern  <Neonatal hematemesis and melena due to swallowed maternal blood> ~ Boala hemoragica a nou-nascutului
+P80     Hipotermia nou-nascutului  <Hypothermia of newborn> ~ Hipotermie neonatala | Policitemie neonatala | Hipocalcemie neonatala
+P94.1   Hipertonia congenitala  <Congenital hypertonia> ~ Paramiotonie congenitala | Ptoza congenitala | Miotonie congenitala
+P94.2   Hipotonia congenitala  {Bebelus moale / Sindromul bebelusului moale nespecific}  <Congenital hypotonia> ~ Miotonie congenitala | Paramiotonie congenitala
+Q04.2   Holoprosencefalia  <Holoprosencephaly> ~ Holoprozencefalie
+Q07.82  Hipoplazia nervului optic  {Atrofia optica congenitala} ~ Agenezie de nerv optic | Displazie septo-optica | Atrofie optica | Sindrom de regresie testiculara
+Q31.2   Hipoplazia laringelui  <Laryngeal hypoplasia> ~ Leucoplazie laringiana
+Q40.1   Hernia hiatala congenitala  {Deplasarea cardiei de-a lungul hiatului esofagian}  <Congenital hiatus hernia> ~ Hernie hiatala | Hernie inghinala congenitala
+Q52.3   Himen neperforat  <Imperforate hymen> ~ Imperforatie de himen | Himen microperforat
+Q54.1   Hipospadias penil  <Hypospadias, penile> ~ Hipospadias
+Q60.3   Hipoplazia renala unilaterala  <Renal hypoplasia, unilateral> ~ Hipoplazie renala
+Q60.4   Hipoplazia renala bilaterala  <Renal hypoplasia, bilateral> ~ Hipoplazie renala | Hiperaldosteronism idiopatic
+Q62.34  Hidroureter congenital ~ Hidrocel
+Q76.31  Hemivertebra unica cu scolioza congenitala ~ Scolioza congenitala
+Q77.03  Hipocondrogeneza ~ Acondrogeneza
+Q79.0   Hernia congenitala a diafragmului  <Congenital diaphragmatic hernia> ~ Hernie diafragmatica congenitala | Hernie diafragmatica
+===== EXISTA (91)
+A00     Holera = Holera [exact]
+B18     Hepatita virala cronica = Hepatita [temporal (G1)]
+B19     Hepatita virala nespecificata = Hepatita [exact]
+B19.9   Hepatita virala nespecificata fara coma hepatica = Hepatita [exact]
+B39     Histoplasmoza = Histoplasmoza [exact]
+B39.5   Histoplasmoza cu Histoplasma duboisii = Histoplasmoza africana [exact]
+B83.9   Helmintiaza, nespecificata = Parazitoze [exact]
+C96.1   Histiocitoza maligna = Histiocitoza maligna [exact]
+D18.0   Hemangiom = Hemangiom [exact]
+D73.0   Hiposplenism = Hiposplenism [exact]
+D73.1   Hipersplenism = Hipersplenism [exact]
+E03.9   Hipotiroidia, nespecificata = Mixedem [exact]
+E16.2   Hipoglicemie nespecificata = Hipoglicemie [exact]
+E20     Hipoparatiroidism = Hipoparatiroidism [exact]
+E21.0   Hiperparatiroidism primar = Hiperparatiroidism primar [exact]
+E21.1   Hiperparatiroidism secundar, neclasificat altundeva = Hiperparatiroidism secundar [exact]
+E21.3   Hiperparatiroidism, nespecificat = Hiperparatiroidism [exact]
+E22.1   Hiperprolactinemia = Hiperprolactinemie [terminatii]
+E23.0   Hipopituitarism = Hipopituitarism [exact]
+E26.0   Hiperaldosteronism primar = Hiperaldosteronism primar [exact]
+E26.1   Hiperaldosteronism secundar = Hiperaldosteronism secundar [exact]
+E28.0   Hiperestrogenia = Hiperestrogenism [terminatii]
+E28.1   Hiperandrogenia = Hiperandrogenism [terminatii]
+E29.1   Hipofunctia testiculara = Hipogonadism masculin [terminatii]
+E67.0   Hipervitaminoza A = Hipervitaminoza A [exact]
+E67.1   Hipercarotenemia = Hipercarotenemie [terminatii]
+E67.3   Hipervitaminoza D = Hipervitaminoza D [exact]
+E78.0   Hipercolesterolemie esentiala = Hiperlipoproteinemie tip IIa [exact]
+E78.2   Hiperlipidemie mixta = Hiperlipoproteinemie tip IIb [exact]
+E78.5   Hiperlipidemia, nespecificata = Dislipidemie [terminatii]
+E86     Hipovolemia, deshidratarea = Deshidratare [exact]
+E87.5   Hiperpotasemie = Hiperpotasemie [exact]
+E87.6   Hipopotasemie = Hipopotasemie [exact]
+F06.0   Halucinoza organica = Tulburare halucinatorie [exact]
+F30.0   Hipomanie = Hipomanie [exact]
+G91     Hidrocefalia = Hidrocefalie [terminatii]
+G91.0   Hidrocefalia comunicanta = Hidrocefalie comunicanta [terminatii]
+G91.1   Hidrocefalia obstructiva = Hidrocefalie obstructiva [terminatii]
+G91.2   Hidrocefalia cu presiune normala = Hidrocefalie cu presiune normala [terminatii]
+G93.2   Hipertensiune intracraniana benigna = Hipertensiune intracraniana benigna [exact]
+H35.6   Hemoragia retiniana = Hemoragie retiniana [terminatii]
+H50.5   Heteroforia = Heteroforie [exact]
+H52.0   Hipermetropia = Hipermetropie [terminatii]
+I15     Hipertensiune secundara = Hipertensiune arteriala secundara [exact]
+I31.2   Hemopericard, neclasificat altundeva = Hemopericard [exact]
+I62.0   Hemoragia subdurala (acuta) (netraumatica) = Hematom subdural [terminatii]
+I84     Hemoroizi = Hemoroizi [exact]
+I84.2   Hemoroizi interni fara complicatii = Hemoroizi [exact]
+I84.5   Hemoroizi externi fara complicatii = Hemoroizi [exact]
+I84.7   Hemoroizi trombozati, nespecificati = Hemoroizi trombosati [exact]
+I84.9   Hemoroizi nespecificati fara complicatii = Hemoroizi [exact]
+I95     Hipotensiune = Hipotensiune arteriala [exact]
+I95.1   Hipotensiunea ortostatica = Hipotensiune ortostatica [exact]
+J94.2   Hemotorax = Pleurezie hemoragica [exact]
+K40     Hernia inghinala = Hernie inghinala [terminatii]
+K41     Hernia femurala = Hernie femurala [terminatii]
+K42     Hernia ombilicala = Hernie inghinala [terminatii]
+K42.9   Hernia ombilicala fara obstructie sau gangrena = Hernie inghinala [terminatii]
+K44     Hernia diafragmatica = Hernie diafragmatica [terminatii]
+K44.9   Hernia diafragmatica fara obstructie sau gangrena = Hernie diafragmatica [terminatii]
+K46     Hernia abdominala nespecificata = Hernie inghinala [terminatii]
+K46.9   Hernia abdominala nespecificata fara obstructie sau gangrena = Hernie inghinala [terminatii]
+K66.1   Hemoperitoneu = Hemoperitoneu [exact]
+K70.1   Hepatita alcoolica = Hepatita alcoolica [exact]
+K73     Hepatita cronica, neclasificata altundeva = Hepatita [exact]
+K73.2   Hepatita activa cronica, neclasificata altundeva = Hepatita cronica activa [exact]
+K75.3   Hepatita granulomatoasa, neclasificata altundeva = Hepatita granulomatoasa [exact]
+K75.4   Hepatita autoimuna = Hepatita autoimuna [exact]
+K82.1   Hidrocolecist = Hidrocolecist [exact]
+L68     Hipertricoza = Hipertricoza [exact]
+L68.0   Hirsutism = Hirsutism [exact]
+M20.1   Hallux valgus (dobandit) = Monturi [exact]
+M25.0   Hemartroza = Hemartroza [exact]
+N43.3   Hidrocel, nespecificat = Hidrocel [exact]
+N62     Hipertrofia sanului = Ginecomastie [terminatii]
+N83.6   Hematosalpinx = Hematosalpinx [exact]
+N89.7   Hematocolpos = Hematocolpos [exact]
+O13     Hipertensiune gestationala [indusa de sarcina] fara proteinurie semnificativa = Hipertensiune gestationala [exact]
+O40     Hidramnios = Polihidramnios [exact]
+O72     Hemoragia postpartum = Hemoragie postpartum [terminatii]
+O72.0   Hemoragia dupa nastere (perioada a treia) = Hemoragie postpartum [terminatii]
+P54.4   Hemoragia suprarenala neonatala = Hemoragie suprarenala neonatala [terminatii]
+P83.5   Hidrocel congenital = Hidrocel [exact]
+Q03     Hidrocefalia congenitala = Hidrocefalie [terminatii]
+Q04.36  Hidranencefalia = Hidranencefalie [exact]
+Q06.4   Hidromielia = Hidromielie [exact]
+Q54     Hipospadias = Hipospadias [exact]
+Q56.0   Hermafroditism, neclasificat altundeva = Hermafroditism [exact]
+Q60.5   Hipoplazia renala, nespecificata = Hipoplazie renala [terminatii]
+Q62.0   Hidronefroza congenitala = Hidronefroza congenitala [exact]
+Q75.2   Hipertelorism = Hipertelorism [exact]
+===== ELIMINAT (39)
+A00.9   Holera, nespecificata [dublura categoriei parinte (nespecificat)]
+B18.9   Hepatita virala cronica, nespecificata [dublura categoriei parinte (nespecificat)]
+B39.9   Histoplasmoza, nespecificata [dublura categoriei parinte (nespecificat)]
+B96.31  Haemophilus influenzae [H influenzae] tip B, cauza unor boli clasificate la alte capitole [agent cauzal, nu boala]
+B96.38  Haemophilus influenzae [H influenzae] alt tip specificat, cauza unor boli clasificate la alte capitole [agent cauzal, nu boala]
+B96.39  Haemophilus influenzae [H influenzae] tip nespecificat, cauza unor boli clasificate la alte capitole [agent cauzal, nu boala]
+B96.81  Helicobacter pylori [H. pylori] cauza unor boli clasificate la alte capitole [agent cauzal, nu boala]
+C13.9   Hipofaringe, nespecificat [subzona de organ (D5)]
+C75.1   Hipofiza [subzona de organ (D5)]
+D10.7   Hipofaringe [subzona de organ (D5)]
+D35.2   Hipofiza [subzona de organ (D5)]
+D44.3   Hipofiza [subzona de organ (D5)]
+E20.9   Hipoparatiroidism, nespecificat [dublura categoriei parinte (nespecificat)]
+E22.9   Hipersecretia glandei pituitare, nespecificat [dublura categoriei parinte (nespecificat)]
+E26.9   Hiperaldosteronism, nespecificat [dublura categoriei parinte (nespecificat)]
+E89.0   Hipotiroidism postprocedural [procedura]
+E89.1   Hipoinsulinemia postprocedurala [procedura]
+E89.2   Hipoparatiroidism postprocedural [procedura]
+E89.3   Hipopituitarism postprocedural [procedura]
+E89.5   Hipofunctiunea testiculara postprocedurala [procedura]
+E89.6   Hipofunctiunea adrenocorticala (medulara) postprocedurala [procedura]
+G81.9   Hemiplegia, nespecificata [dublura categoriei parinte (nespecificat)]
+G91.9   Hidrocefalia, nespecificata [dublura categoriei parinte (nespecificat)]
+G94.2   Hidrocefalia in alte boli clasificate altundeva [asterisc (in alte boli)]
+H45.0   Hemoragia corpului vitros in boli clasificate altundeva [asterisc (in alte boli)]
+I60.9   Hemoragia subarahnoida, nespecificata [dublura categoriei parinte (nespecificat)]
+I61.9   Hemoragia intracerebrala, nespecificata [dublura categoriei parinte (nespecificat)]
+I95.9   Hipotensiune, nespecificata [dublura categoriei parinte (nespecificat)]
+K73.9   Hepatita cronica, nespecificata [dublura categoriei parinte (nespecificat)]
+L68.9   Hipertricoza, nespecificata [dublura categoriei parinte (nespecificat)]
+O20.9   Hemoragie la debutul sarcinii, nespecificata [dublura categoriei parinte (nespecificat)]
+O46.9   Hemoragia antepartum, nespecificata [dublura categoriei parinte (nespecificat)]
+P20.9   Hipoxia intrauterina, nespecificata [dublura categoriei parinte (nespecificat)]
+P26.9   Hemoragie pulmonara nespecificata survenind in perioada perinatala [dublura categoriei parinte (nespecificat)]
+P51.9   Hemoragia ombilicala a nou-nascutului, nespecificata [dublura categoriei parinte (nespecificat)]
+P52.9   Hemoragia intracraniana (netraumatica) a fatului si nou-nascutului, nespecificata [dublura categoriei parinte (nespecificat)]
+P80.9   Hipotermia nou-nascutului, nespecificata [dublura categoriei parinte (nespecificat)]
+Q03.9   Hidrocefalia congenitala, nespecificata [dublura categoriei parinte (nespecificat)]
+Q54.9   Hipospadias, nespecificat [dublura categoriei parinte (nespecificat)]
