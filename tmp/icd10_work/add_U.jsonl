@@ -8,3 +8,4 @@
 {"name": "Ulcer vaginal", "synonyms": ["ulceratie a vaginului", "ulceratie vaginala", "ulcer al vaginului", "ulceration of vagina", "vaginal ulcer", "vaginal ulceration"], "codes": ["N76.5"]}
 {"name": "Ulcer vulvar", "synonyms": ["ulceratie a vulvei", "ulceratie vulvara", "ulcer al vulvei", "ulceration of vulva", "vulvar ulcer", "vulvar ulceration"], "codes": ["N76.6"]}
 {"name": "Ureche proeminenta", "synonyms": ["urechi clapauge", "urechi decolate", "ureche in forma de liliac", "prominent ear", "bat ear", "protruding ears"], "codes": ["Q17.5"]}
+{"name": "Uveita facoantigenica", "synonyms": ["iridociclita indusa de cristalin", "uveita facoanafilactica", "endoftalmita facoanafilactica", "lens-induced iridocyclitis", "phacoantigenic uveitis", "phacoanaphylactic endophthalmitis"], "codes": ["H20.2"]}

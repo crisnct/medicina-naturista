@@ -6,3 +6,4 @@
 - **Sinonime insuficiente / neclar:** uretra ectopică sau orificiul uretral ectopic (Q64.74) — termenii disponibili se suprapun cu hipospadiasul/epispadiasul (G5), nu am adăugat; urticaria localizată la căldură (L50.2) — termenul „urticarie la caldura” e deja sinonim al `Urticarie colinergica` (G6).
 - **Amânate la altă literă** (`pending_from_U.jsonl`): `Duplicatie uretrala` (Q64.73, D), `Pahionichie congenitala` (Q84.5, P).
 - **Semnalat pentru curățare ulterioară (D6, nemodificat):** „umar blocat” (M75.0, umărul înghețat) apare ca sinonim al `Sindrom de iesire toracica`, deși e capsulita adezivă (`Capsulita adeziva`) — sinonim greșit în dicționar.
+- **Amânate de la alte litere, adăugate la unire (coordonator, 1):** `Uveita facoantigenica` (H20.2; de la I). Verificate față de dicționarul unit al tuturor literelor (G3, G6).

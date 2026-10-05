@@ -5487,6 +5487,7 @@
 {"name": "Uter septat", "synonyms": ["uter cu sept", "septum uterin", "malformatie uterina septata", "septate uterus", "uterine septum", "uterus with septum"]}
 {"name": "Uter unicorn", "synonyms": ["uter cu un singur corn", "malformatie uterina uniconuata", "uter unicornuat", "unicornuate uterus", "uterus unicornis", "unicorn uterus"]}
 {"name": "Uveita", "synonyms": ["inflamatia uveei", "iridociclita", "inflamatie intraoculara", "uveitis", "uveal inflammation", "intraocular inflammation"]}
+{"name": "Uveita facoantigenica", "synonyms": ["iridociclita indusa de cristalin", "uveita facoanafilactica", "endoftalmita facoanafilactica", "lens-induced iridocyclitis", "phacoantigenic uveitis", "phacoanaphylactic endophthalmitis"]}
 {"name": "Vaginism", "synonyms": ["contractura reflexa a muschilor vaginali", "contractura vaginala involuntara", "spasm al muschilor vaginali", "vaginismus", "vaginal spasm", "involuntary vaginal contraction"]}
 {"name": "Vaginita", "synonyms": ["inflamatia vaginului", "vaginita acuta", "infectie vaginala", "vaginitis", "vaginal infection", "vaginal inflammation"]}
 {"name": "Vaginita bacteriana", "synonyms": ["vaginoza bacteriana", "infectie cu Gardnerella vaginalis", "vaginita nespecifica", "bacterial vaginosis", "Gardnerella vaginitis", "non-specific vaginitis"]}
