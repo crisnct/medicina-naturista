@@ -7,7 +7,7 @@
   - asterisc (in alte boli): 3
 - găsite automat în dicționar (P4.1–P4.3): **90**
 - de decis manual (`nou` + `posibil`): **197**
-- **afecțiuni adăugate: 20**
+- **afecțiuni adăugate: 26**
 
 ## Decizii manuale
 
@@ -18,6 +18,8 @@
 - **Variante păstrate separat (G4):** `Bronsita acuta cu streptococ` (dicționarul are bronșite acute separate după agent; `Bronsita pneumococica` rămâne doar pneumococul), `Bartoneloza cutanata` (verruga peruana, forma eruptivă, separat de febra Oroya), `Boala Alzheimer cu debut precoce` (ca `Boala Pompe tardiva` / `Boala Krabbe tardiva`), `Bronhomalacie congenitala` (ca `Bronsectazie congenitala`, `Laringomalacie congenitala`; `Brons malacic` rămâne forma generală), `Bursita reumatoida` (ca `Pericardita reumatoida`, `Vasculita reumatoida`), `Brahicefalie` (craniosinostoza bicoronală, pereche cu `Plagiocefalie`), `Boala glomerulochistica renala` (Q61.8, distinctă de bolile polichistice existente).
 - **Sinonime insuficiente (2.4) sau entități nesigure:** bisalbuminemia E88.0 (variantă de laborator, practic asimptomatică; fără 3 termeni românești reali), boala virală Piry A93.8, eritremia cronică Heilmeyer-Schöner C94.1 (entitate istorică), boala Calvé M42.0 (vertebra plana; termeni românești insuficienți), boala Morvan G60.8 (ambiguă: neuropatia senzitivă ereditară vs. sindromul Morvan autoimun), bursita mâinii M70.1.
 - **Amânate la altă literă (în `pending_from_B.jsonl`):** `Cardita meningococica` (C, A39.5), `Encefalita Rocio` (E, A83.6; stilul dicționarului pentru encefalitele arbovirale), `Febra Pontiac` (F, A48.2), `Orf` (O, B08.0), `Plaman de aer conditionat` (P, J67.7), `Sindrom Vogt-Koyanagi-Harada` (S, H30.8, apare doar ca „boala Harada” sub „Alte corioretinite”). Nu le-am trecut în pending pe cele cu titlul CIM-10 chiar la litera lor, pe care pasul acelei litere le găsește singur: `Lobomicoza` (L, B48.0), `Psoriazis pustular generalizat` (P, L40.1, boala von Zumbusch; în dicționar e doar forma familială, `Sindrom DITRA`), `Suberoza` (S, J67.3).
+- **Corecturi la unirea literelor (coordonator):** scoase `Boala Brill-Zinsser` (A75.1, aceeași boală cu `Tifos recrudescent` de la T, titlul CIM-10, care are deja sinonimele „boala Brill-Zinsser” / „boala Brill”) și `Boala Ollier` (Q78.4, aceeași boală cu `Encondromatoza` de la E, titlul CIM-10, care are deja sinonimul „boala Ollier”). `Boala Mikulicz` rămâne aici; dubla ei de la L (`Leziune limfoepiteliala benigna`) a fost scoasă.
+- **Amânate de la alte litere, adăugate la unire (coordonator, 8):** `Boala Fahr` (G23.8; de la C); `Boala Grover` (L11.1; de la D, G); `Bursita calcificata` (M71.4; de la D); `Boala Hoffa` (M79.4; de la H); `Boala Caffey` (M89.8; de la H); `Boala Kyrle` (L87.0; de la H, K); `Boala van Neck-Odelberg` (M91.0; de la O); `Boala Fazio-Londe` (G12.1; de la P). Verificate față de dicționarul unit al tuturor literelor (G3, G6).
 
 ## Adăugate
 
@@ -27,21 +29,27 @@
 | Bartoneloza cutanata | A44.1 | bartonelloza cutanata sau cutaneo-mucoasa; verruga peruana; bartoneloza cutaneo-mucoasa; faza eruptiva a bolii Carrion; cutaneous and mucocutaneous bartonellosis; Peruvian wart; verruga peruviana; eruptive phase of Carrion's disease |
 | Bejel | A65 | sifilisul nevenerian; sifilis endemic; infectie cu Treponema pallidum endemicum; nonvenereal syphilis; endemic syphilis; Treponema pallidum endemicum infection |
 | Boala Alzheimer cu debut precoce | G30.0 | dementa Alzheimer cu debut precoce; boala Alzheimer presenila; dementa presenila de tip Alzheimer; Alzheimer's disease with early onset; early-onset Alzheimer's disease; presenile Alzheimer's dementia |
-| Boala Brill-Zinsser | A75.1 | tifosul recrudescent; boala Brill; tifos exantematic recrudescent; recrudescent typhus; Brill-Zinsser disease; Brill disease |
+| Boala Caffey | M89.8 | sindrom Caffey; hiperostoza corticala infantila; sindrom Caffey-Silverman; Caffey disease; infantile cortical hyperostosis; Caffey-Silverman syndrome |
+| Boala Fahr | G23.8 | sindrom Fahr; calcificarea ganglionilor bazali; calcificare idiopatica a ganglionilor bazali; Fahr disease; Fahr syndrome; idiopathic basal ganglia calcification; primary familial brain calcification |
+| Boala Fazio-Londe | G12.1 | paralizia bulbara progresiva a copilului; atrofie musculara spinala bulbara infantila; paralizie bulbara progresiva juvenila; Fazio-Londe disease; progressive bulbar palsy of childhood; infantile progressive bulbar palsy |
 | Boala glomerulochistica renala | Q61.8 | boala chistica glomerulara; rinichi glomerulochistic; glomerulochistoza renala; glomerulocystic kidney disease; glomerulocystic disease; GCKD |
+| Boala Grover | L11.1 | dermatoza acantolitica tranzitorie; dermatoza acantolitica persistenta; dermatoza Grover; transient acantholytic dermatosis; Grover disease; persistent acantholytic dermatosis |
 | Boala Hallervorden-Spatz | G23.0 | degenerescenta palidala pigmentara; neurodegenerare asociata pantotenat-kinazei; neurodegenerare cu acumulare cerebrala de fier tip 1; Hallervorden-Spatz disease; pantothenate kinase-associated neurodegeneration; PKAN; neurodegeneration with brain iron accumulation type 1 |
+| Boala Hoffa | M79.4 | sindrom Hoffa; hipertrofia corpului adipos infrapatelar; hipertrofia infrapatelara grasoasa; Hoffa disease; Hoffa fat pad syndrome; hypertrophy of infrapatellar fat pad |
+| Boala Kyrle | L87.0 | hiperkeratoza foliculara penetranta; keratoza foliculara si parafoliculara penetranta; hiperkeratoza foliculara si parafoliculara penetranta; Kyrle disease; hyperkeratosis follicularis penetrans; hyperkeratosis penetrans |
 | Boala Mikulicz | K11.8 | sindrom Mikulicz; leziune limfoepiteliala benigna; dacrioadenita si sialadenita asociata IgG4; Mikulicz disease; Mikulicz syndrome; benign lymphoepithelial lesion; IgG4-related dacryoadenitis and sialadenitis |
-| Boala Ollier | Q78.4 | encondromatoza; encondromatoza multipla; discondroplazie; enchondromatosis; Ollier disease; multiple enchondromatosis; dyschondroplasia |
 | Boala osoasa prin aluminiu | M83.4 | boala osoasa datorita aluminiului; osteomalacie indusa de aluminiu; osteopatie aluminica; aluminum bone disease; aluminium-induced osteomalacia; aluminum-related bone disease |
 | Boala padurii Kyasanur | A98.2 | boala de padurea Kyasanur; febra hemoragica Kyasanur; infectie cu virusul padurii Kyasanur; Kyasanur Forest disease; Kyasanur Forest virus infection; monkey fever; KFD |
 | Boala Pellegrini-Stieda | M76.4 | bursita tibiala colaterala; sindrom Pellegrini-Stieda; osificarea ligamentului colateral medial al genunchiului; tibial collateral bursitis; Pellegrini-Stieda syndrome; medial collateral ligament ossification |
 | Boala Sneddon-Wilkinson | L13.1 | dermatoza pustuloasa subcorneana; pustuloza subcorneana; dermatita pustuloasa subcorneana; subcorneal pustular dermatitis; subcorneal pustular dermatosis; Sneddon-Wilkinson disease; subcorneal pustulosis |
+| Boala van Neck-Odelberg | M91.0 | osteocondroza ischiopubiana; osteocondrita sincondrozei ischiopubiene; boala van Neck; van Neck-Odelberg disease; ischiopubic osteochondrosis; van Neck disease; ischiopubic osteochondritis |
 | Boala Whipple | K90.8 | lipodistrofie intestinala; infectie cu Tropheryma whipplei; boala lui Whipple; Whipple disease; intestinal lipodystrophy; Tropheryma whipplei infection |
 | Bolborosire | F98.6 | limbaj precipitat; tahilalie; tumultus sermonis; cluttering; tachyphemia; cluttered speech |
 | Brahicefalie | Q75.01 | craniosinostoza coronala; sinostoza bicoronala; craniosinostoza coronala bilaterala; brachycephaly; bicoronal craniosynostosis; bilateral coronal synostosis |
 | Bronholitiaza | J98.0 | litiaza bronsica; calculi bronsici; broncolitiaza; broncholithiasis; bronchial lithiasis; bronchial calculi |
 | Bronhomalacie congenitala | Q32.2 | bronhomalacia congenitala; malacie bronsica congenitala; bronhomalacie primara; congenital bronchomalacia; primary bronchomalacia; congenital bronchial malacia |
 | Bronsita acuta cu streptococ | J20.2 | bronsita acuta datorita streptococilor; bronsita streptococica; infectie bronsica cu streptococ; acute bronchitis due to streptococcus; streptococcal bronchitis; streptococcal acute bronchitis |
+| Bursita calcificata | M71.4 | depozit de calciu in bursa; bursita calcara; calcificare a bursei; calcium deposit in bursa; calcific bursitis; bursal calcification |
 | Bursita reumatoida | M06.2 | bursita din artrita reumatoida; bursita din poliartrita reumatoida; bursopatie reumatoida; rheumatoid bursitis; bursitis in rheumatoid arthritis; rheumatoid arthritis bursitis |
 
 ## Decise manual, neadăugate
