@@ -8,7 +8,7 @@
   - factor/ingrijire: 1
 - găsite automat în dicționar (P4.1–P4.3): **24**
 - de decis manual (`nou` + `posibil`): **116**
-- **afecțiuni adăugate: 12**
+- **afecțiuni adăugate: 13**
 
 ## Decizii manuale
 
@@ -21,6 +21,7 @@
 - **Sinonime insuficiente:** rinichiul hiperplazic sau gigant (`Q63.3`); ruptura membranei Descemet (`H18.3`, și e de regulă traumatică sau din keratocon).
 - **Amânate la altă literă (`pending_from_R.jsonl`):** `Febra Sennetsu` (F, `A79.8`, titlu rezidual „Alte rickettsioze”), `Limfadenopatie dermatopatica` (L, `I89.8`, „reticuloza lipomelanotica”), `Meningita rujeolica` (M, `B05.1`), `Pneumonie cu virus rujeolic` (P, `B05.2`; dicționarul are deja bronșita, faringita, traheita cu virus rujeolic), `Sindrom cenusiu al nou-nascutului` (S, `P93`, sindromul Grey prin cloramfenicol).
 - **Lăsate pasului literei titlului (termeni cu R sub coduri cu titlu la altă literă):** retroversia/retroflexia uterină (`N85.4`, „Malpozitia uterului” → M), rinichiul Goldblatt (`I70.1` → A), ruptura esofagului / sindromul Boerhaave (`K22.3`, „Perforatia esofagului” → P), ruptura căilor biliare (`K83.2` → P), rotația dinților (`K07.3` → A), rinofaringita mutilantă (`A66.5`, `Gangosa` → G), reacția paranoică (`F23.3`, reziduală; apropiată de `Delir paranoid`).
+- **Amânate de la alte litere, adăugate la unire (coordonator, 1):** `Ruptura perineala obstetricala` (O70; de la L). Verificate față de dicționarul unit al tuturor literelor (G3, G6).
 
 ## Adăugate
 
@@ -36,6 +37,7 @@
 | Rinichi spongios medular | Q61.5 | rinichi spongios; boala Cacchi-Ricci; ectazie tubulara precaliceala; medullary sponge kidney; Cacchi-Ricci disease; sponge kidney; precalyceal tubular ectasia |
 | Ruptura de cordaje tendinoase | I51.1, I23.4 | ruptura coardei tendinoase; ruptura cordajelor tendinoase; ruptura de cordaj mitral; rupture of chordae tendineae; chordae tendineae rupture; ruptured chordae tendineae; chordal rupture |
 | Ruptura de muschi papilar | I51.2, I23.5 | ruptura muschiului papilar; ruptura de pilier; ruptura muschiului papilar postinfarct; rupture of papillary muscle; papillary muscle rupture; ruptured papillary muscle; post-infarction papillary muscle rupture |
+| Ruptura perineala obstetricala | O70 | laceratia perineala in timpul nasterii; ruptura de perineu la nastere; sfasierea perineului la nastere; perineal laceration during delivery; obstetric perineal tear; perineal tear during childbirth |
 | Ruptura spontana a vezicii urinare | N32.4 | ruptura vezicii urinare netraumatica; ruptura vezicala spontana; ruptura vezicala netraumatica; nontraumatic rupture of bladder; spontaneous bladder rupture; nontraumatic bladder rupture; spontaneous rupture of urinary bladder |
 | Ruptura spontana de tendon | M66, M66.1, M66.2, M66.3, M66.4, M66.5 | ruptura spontana a sinoviei si tendonului; ruptura spontana a tendonului; ruptura tendinoasa spontana; ruptura tendinoasa netraumatica; spontaneous rupture of synovium and tendon; spontaneous tendon rupture; nontraumatic tendon rupture; spontaneous rupture of tendon |
 
