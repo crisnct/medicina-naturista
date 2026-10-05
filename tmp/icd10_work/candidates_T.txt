@@ -1,4 +1,4 @@
-===== NOU (253)
+===== NOU (244)
 A15     Tuberculoza respiratorie confirmata bacteriologic si histologic  <Respiratory tuberculosis>
 A16     Tuberculoza respiratorie neconfirmata bacteriologic si histologic
 A16.1   Tubercoloza pulmonara, fara investigatii bacteriologice sau histologice bacteriologice si histologice neefectuate histologice neefectuate histologice neefectuate
@@ -12,10 +12,8 @@ A34     Tetanosul obstetrical  <Obstetrical tetanus>
 A59.0   Trichomoniaza uro-genitala  {Leucoreea (vaginala) datorita Trichomonas (vaginalis) / Prostatita† datorita Trichomonas (vaginalis)}  <Urogenital trichomoniasis>
 A71.0   Trahomul dubios  <Initial stage of trachoma>
 A75.9   Tifos, nespecificat  {Tifos (febra)}  <Typhus fever, unspecified>
-B35.4   Tinea corpului  <Tinea corporis>
 B35.5   Tinea imbricata  {Tokelau}  <Tinea imbricata>
 B58.8   Toxoplasma cu atingerea altor organe  <Toxoplasmosis with other organ involvement>
-C83.7   Tumora Burkitt  <Burkitt lymphoma>
 D10     Tumora benigna a gurii si faringelui  <Benign neoplasm of mouth and pharynx>
 D11     Tumora benigna a glandelor salivare principale  <Benign neoplasm of major salivary glands>
 D12     Tumora benigna a colonului, rectului, anusului si canalului anal  <Benign neoplasm of colon, rectum, anus and anal canal>
@@ -47,7 +45,6 @@ D42     Tumora cu evolutie imprevizibila sau comportament necunoscut a meningelu
 D44     Tumora cu evolutie imprevizibila sau comportament necunoscut a glandelor endocrine  <Neoplasm of uncertain behavior of endocrine glands>
 D47.0   Tumori cu histiocite si mastocite cu evolutie imprevizibila sau comportament necunoscut  {Tumora cu mastocite / Mastocitom}  <Mast cell neoplasms of uncertain behavior>
 D48     Tumora cu evolutie imprevizibila sau comportament necunoscut cu alte localizari si nespecificate  <Neoplasm of uncertain behavior of other and unspecified sites>
-D56     Thalasemia  <Thalassemia>
 D89.9   Tulburari implicand sistemul imunitar, nespecificate  {Boala imunitara / Boli endocrine, de nutritie si metabolism / Categoriile cu asterisc de la acest / Afectiunile glandei tiroide}  <Disorder involving the immune mechanism, unspecified>
 E01     Tulburari tiroidiene si afectiuni inrudite legate de deficienta de iod  <Iodine-deficiency related thyroid disorders and allied conditions>
 E05.3   Tireotoxicoza datorita tesutului ectopic tiroidian  <Thyrotoxicosis from ectopic thyroid tissue>
@@ -100,11 +97,9 @@ F40     Tulburari fobice de anxietate  <Phobic anxiety disorders>
 F44.3   Tulburari privind starea de transa si posesie
 F44.4   Tulburari motorii disociative  <Conversion disorder with motor symptom or deficit>
 F45     Tulburari somatoforme  <Somatoform disorders>
-F50     Tulburari privind modul de a manca  <Eating disorders>
 F51     Tulburari de somn neorganice  <Sleep disorders not due to a substance or known physiological condition>
 F51.2   Tulburare neorganica de orar somn/veghe
 F53     Tulburari comportamentale si mentale asociate cu puerperium, neclasificate altundeva  <Mental and behavioral disorders associated with the puerperium, not elsewhere classified>
-F53.0   Tulburari mentale si de comportament usoare asociate cu puerperium, neclasificate altundeva  <Postpartum depression>
 F53.9   Tulburare mentala puerperala, nespecificata
 F60.30  Tip impulsiv
 F60.31  Tip limita
@@ -123,7 +118,6 @@ F80     Tulburari de dezvoltare specifice privind vorbirea si limbajul  <Specifi
 F80.0   Tulburare specifica de articulare a vorbirii  <Phonological disorder>
 F81     Tulburari specifice de dezvoltare privind abilitatile scolare  <Specific developmental disorders of scholastic skills>
 F81.1   Tulburari specifice de rostire si ortografie  {Retardare specifica de rostire (fara tulburarea de citire)}
-F81.2   Tulburare specifica privind abilitatile aritmetice  <Mathematics disorder>
 F81.3   Tulburare mixta de abilitati scolare
 F81.9   Tulburare de dezvoltare a abilitatilor scolare, nespecificata  {Incapacitatea de dobandire a cunostintelor}  <Developmental disorder of scholastic skills, unspecified>
 F82     Tulburare de dezvoltare specifica a functiei motorii  {Sindromul copilului impiedicat}  <Specific developmental disorder of motor function>
@@ -134,7 +128,6 @@ F84.9   Tulburare profunda de dezvoltare, nespecificata  <Pervasive developmenta
 F90.1   Tulburare de conduita hiperkinetica  {Tulburare hiperkinetica asociata cu tulburarea de conduita}  <Attention-deficit hyperactivity disorder, predominantly hyperactive type>
 F91.0   Tulburare de conduita limitata la contextul familial  <Conduct disorder confined to family context>
 F91.1   Tulburare de conduita nesocializata  {Tulburare agresiva nesocializata}  <Conduct disorder, childhood-onset type>
-F91.3   Tulburare de provocare opozitionala  <Oppositional defiant disorder>
 F92     Tulburari mixte de conduita si emotii
 F93     Tulburari emotionale cu debut specific in copilarie  <Emotional disorders with onset specific to childhood>
 F93.0   Tulburare de anxietate a separarii de copilarie  <Separation anxiety disorder of childhood>
@@ -149,7 +142,6 @@ F95.0   Tulburare de tic tranzitor  <Transient tic disorder>
 F98.2   Tulburare a alimentatiei sugarului si a copilului  {Tulburare de ruminatie a sugarului}  <Other feeding disorders of infancy and childhood>
 F98.4   Tulburari de miscari stereotipe  {Tulburare de deprindere/stereotipie}  <Stereotyped movement disorders>
 F99     Tulburare mentala, nespecificata altminteri  {Boala mentala / Bolile sistemului nervos / Categoriile cu asterisc de la acest / Boli inflamatorii ale sistemului nervos central}  <Mental disorder, not otherwise specified>
-G25.0   Tremuraturi esentiale  <Essential tremor>
 G25.1   Tremuraturi provocate medicamentos  <Drug-induced tremor>
 G25.6   Ticuri provocate medicamentos si alte ticuri de origine organica  <Drug induced tics and other tics of organic origin>
 G25.9   Tulburari extrapiramidale si de motricitate, nespecificate  <Extrapyramidal and movement disorder, unspecified>
@@ -183,7 +175,6 @@ M53.3   Tulburări sacro-coccigiene, neclasificate altundeva  {Coccigodinie}  <S
 M75.2   Tendinita bicepsului  <Bicipital tendinitis>
 M76.0   Tendinita gluteala  <Gluteal tendinitis>
 M76.1   Tendinita psoasului  <Psoas tendinitis>
-M76.5   Tendinita patelei  <Patellar tendinitis>
 N08.0   Tulburari glomerulare in bolile infectioase si parazitare, clasificate altundeva
 N08.1   Tulburari glomerulare in bolile tumorale
 N08.2   Tulburari glomerulare in boli de singe si in tulburarile sistemului imunitar
@@ -252,7 +243,7 @@ Q92.3   Trisomia minora partiala  {Mai putin decat intrega ramura duplicata}
 Q92.7   Triploidia si poliploidia  <Triploidy and polyploidy>
 Q92.9   Trisomia sau trisomia partiala a autosomilor, nespecificata  <Trisomy and partial trisomy of autosomes, unspecified>
 Q95.0   Translocatii si insertii echilibrate la indivizi normali  <Balanced translocation and insertion in normal individual>
-===== POSIBIL (265)
+===== POSIBIL (244)
 A15.0   Tuberculoza pulmonara, confirmata prin examen microscopic al sputei, cu sau fara culturi  <Tuberculosis of lung> ~ Tuberculoza | Tuberculoza pulmonara postprimara | Tuberculoza pulmonara primara
 A15.1   Tuberculoza pulmonara, confirmata numai prin culturi ~ Tuberculoza | Tuberculoza pulmonara postprimara | Tuberculoza pulmonara primara
 A15.2   Tuberculoza pulmonara, cu confirmare histologica ~ Tuberculoza | Tuberculoza pulmonara postprimara | Tuberculoza pulmonara primara
@@ -269,9 +260,6 @@ A17.1   Tuberculomul meningeal  {Tuberculomul meningelor}  <Meningeal tuberculom
 A18.4   Tuberculoza pielii si tesutului celular subcutanat  {Erythema induratum, tuberculoasa}  <Tuberculosis of skin and subcutaneous tissue> ~ Tuberculoza cutanata | Eritema indurat
 A19.0   Tuberculoza miliara acuta, localizare unica si specificată  <Acute miliary tuberculosis of a single specified site> ~ Tuberculoza miliara
 A19.1   Tuberculoza miliara acuta, localizari multiple  <Acute miliary tuberculosis of multiple sites> ~ Tuberculoza miliara
-A21.0   Tularemia ulcero-glandulara  <Ulceroglandular tularemia> ~ Tularemie ulceroglandulara | Tularemie oculoglandulara
-A21.1   Tularemia oculo-glandulara  {Tularemia oftalmica}  <Oculoglandular tularemia> ~ Tularemie oculoglandulara | Tularemie ulceroglandulara
-A33     Tetanosul nou-nascutului  <Tetanus neonatorum> ~ Tetanos neonatal | Icter neonatal
 A37.0   Tusea convulsiva cu Bordetella pertussis  <Whooping cough due to Bordetella pertussis> ~ Tuse convulsiva | Tuse convulsiva cu Bordetella pertussis | Tuse convulsiva cu Bordetella parapertussis
 A37.1   Tusea convulsiva cu Bordetella parapertussis  <Whooping cough due to Bordetella parapertussis> ~ Tuse convulsiva | Tuse convulsiva cu Bordetella parapertussis | Tuse convulsiva cu Bordetella pertussis
 A37.8   Tusea convulsiva datorata altor specii de Bordetella  <Whooping cough due to other Bordetella species> ~ Tuse convulsiva
@@ -279,15 +267,9 @@ A75.0   Tifosul exantematic de paduche, datorit  {Rickettsia prowazekii / Tifos 
 A75.1   Tifosul recrudescent [boala Brill]  {boala Brill / Boala Brill-Zinsser}  <Recrudescent typhus [Brill's disease]> ~ Artrita idiopatica juvenila
 A75.2   Tifosul datorita Rickettsia typhi  {Tifosul murin (provocat de purici)}  <Typhus fever due to Rickettsia typhi> ~ Tifos endemic
 B35.0   Tinea barbii si partii paroase a capului  {Tinea barbii / Kerion / Tinea partii paroase a capului / Sicoza, micotica}  <Tinea barbae and tinea capitis> ~ Tinea barbae
-B35.2   Tinea mainii  {Dermatofitoza mainii}  <Tinea manuum> ~ Tinea manuum | Tinea barbae
-B35.6   Tinea crurala  {Scabia Dhobi / Tinea vintrelor / Scabia Jock}  <Tinea cruris> ~ Tinea cruris
-B56     Trypanosomiaza africana  <African trypanosomiasis> ~ Boala somnului | Boala Chagas | Tripanosomiaza africana estica
 B56.0   Trypanosomiaza gambiense  {Infectie datorita Trypanosoma brucei gambiense / Boala somnului din Africa occidentala}  <Gambiense trypanosomiasis> ~ Tripanosomiaza africana vestica
 B56.1   Trypanosomiaza rhodesiense  {Boala somnului din Africa orientala / Infectie datorita Trypanosoma brucei rhodensiense}  <Rhodesiense trypanosomiasis> ~ Tripanosomiaza africana estica
 B58.3   Toxoplasma pulmonara (J17.3*)  <Pulmonary toxoplasmosis> ~ Histoplasmoza pulmonara | Cancer pulmonar | Toxoplasmoza oculara
-B75     Trichinelloza  {Infectie datorita unor specii de Trichinella / Trichiniaza}  <Trichinellosis> ~ Trichineloza
-B79     Trichuriaza  {Trichocephaliaza / Trichocefalus (boala) (infectie)}  <Trichuriasis> ~ Tricocefaloza
-B81.2   Trichostrongyliaza  <Trichostrongyliasis> ~ Tricostrongiloidoza
 C00     Tumora maligna a buzei  <Malignant neoplasm of lip> ~ Cancer | Carcinom de uretra | Retinoblastom
 C01     Tumora maligna a bazei limbii  {Fata dorsala a bazei limbii / Partea fixa a limbii / Treimea posterioara a limbii}  <Malignant neoplasm of base of tongue> ~ Cancer
 C02     Tumora maligna a limbii, alte parti si nespecificate  <Malignant neoplasm of other and unspecified parts of tongue> ~ Cancer
@@ -390,17 +372,17 @@ D33     Tumora benigna a creierului si altor parti ale sistemului nervos central
 D34     Tumora benigna a glandei tiroide  <Benign neoplasm of thyroid gland> ~ Adenom tiroidian
 D43     Tumora cu evolutie imprevizibila sau comportament necunoscut a creierului si sistemului nervos central  <Neoplasm of uncertain behavior of brain and central nervous system> ~ Tumora cerebrala
 D47.9   Tumora cu evolutie imprevizibila sau comportament necunoscut a tesuturilor limfoid, hematopoietic si inrudite, nespecificata  {Boala limfoproliferativa}  <Neoplasm of uncertain behavior of lymphoid, hematopoietic and related tissue, unspecified> ~ Boala limfoproliferativa legata de X
+D56     Thalasemia  <Thalassemia> ~ Acatalazie
 D68.3   Tulburari hemoragice datorita anticoagulantelor circulante  {Hemoragie dupa aplicarea anticoagulantelor pe termen indelungat / Hiperheparinemia}  <Hemorrhagic disorder due to circulating anticoagulants> ~ Lupus anticoagulant
 D69.5   Trombocitopenia secundara  <Secondary thrombocytopenia> ~ Trombocitopenie
 D71     Tulburari functionale ale polinuclearelor neutrofile  {Boala granulomatoasa cronica (infantila) / Disfagocitoza congenitala / Granulomatoza septica progresiva}  <Functional disorders of polymorphonuclear neutrophils> ~ Boala granulomatoasa cronica legata de X | Boala granulomatoasa cronica | Sindrom CINCA
 D75.2   Trombocitoza esentiala ~ Trombocitemie
 E05.1   Tireotoxicoza cu nodul unic tiroidian  {Tireotoxicoza cu gusa uninodulara toxica}  <Thyrotoxicosis with toxic single thyroid nodule> ~ Noduli tiroidieni
 E05.2   Tireotoxicoza cu gusa multinodulara toxica  {Gusa nodulara toxica}  <Thyrotoxicosis with toxic multinodular goiter> ~ Gusa multinodulara netoxica | Gusa multinodulara toxica | Gusa nodulara | Gusa cu nodul unic netoxic
-E05.4   Tireotoxicoza factica  <Thyrotoxicosis factitia> ~ Tireotoxicoza factitia
 E06.2   Tiroidita cronica cu tireotoxicoza tranzitorie  <Chronic thyroiditis with transient thyrotoxicosis> ~ Tiroidita silentioasa
 E21.5   Tulburare a glandei paratiroide, nespecificata  <Disorder of parathyroid gland, unspecified> ~ Hiperparatiroidism
 E25     Tulburari adrenogenitale  <Adrenogenital disorders> ~ Sindrom adrenogenital
-E27.9   Tulburari ale glandei adrenale, nespecificate  <Disorder of adrenal gland, unspecified> ~ Adenocarcinom adrenal | Adenocarcinom suprarenal | Adenom adrenal | Metastaze suprarenale | Tuberculoza suprarenaliana
+E27.9   Tulburari ale glandei adrenale, nespecificate  <Disorder of adrenal gland, unspecified> ~ Adenocarcinom adrenal | Adenocarcinom suprarenal | Adenom adrenal | Agenezie suprarenala | Metastaze suprarenale | Tuberculoza suprarenaliana
 E70     Tulburari de metabolism ale aminoacizilor aromatici  <Disorders of aromatic amino-acid metabolism> ~ Acidurie organica
 E70.9   Tulburari de metabolism al aminoacizilori aromatici, nespecificate  <Disorder of aromatic amino-acid metabolism, unspecified> ~ Acidurie organica
 E71.3   Tulburari de metabolism al acizilor grasi  {Adenoleucodistrofia [Addison-Schilder] / Insuficienta de carnitine palmitiltransferaza musculara}  <Disorders of fatty-acid metabolism> ~ Acidurie organica | Adrenoleucodistrofie
@@ -419,7 +401,6 @@ F06.2   Tulburare deliranta [de alura schizofrenica] organica  {de alura schizof
 F06.6   Tulburare organica labila [astenica] emotional  {astenica} ~ Astenie
 F07.9   Tulburare organica de personalitate si comportament datorita unei boli, vatamari si disfunctii cerebrale, nespecificata  {Psihosindromul organic}  <Unspecified personality and behavioral disorder due to known physiological condition> ~ Sindrom cerebral organic | Tulburare organica de personalitate
 F23.2   Tulburare psihotica acuta asemanatoare schizofreniei  {Schizofrenie acuta (nediferentiata)} ~ Schizofrenie nediferentiata
-F24     Tulburare deliranta indusa  {Nebunie in doi}  <Shared psychotic disorder> ~ Tulburare deliranta
 F25     Tulburari schizo-afective  <Schizoaffective disorders> ~ Tulburare schizoafectiva
 F25.2   Tulburari schizo-afective, tip mixt  {Schizofrenia ciclica / Psihoza afectiva si schizofrenica mixta} ~ Schizofrenie nediferentiata
 F31.0   Tulburare afectiva bipolara, episod actual hipomaniacal  <Bipolar disorder, current episode hypomanic> ~ Hipomanie | Tulburare bipolara
@@ -440,15 +421,9 @@ F44.7   Tulburari disociative [de conversie] mixte  {de conversie / Combinatie d
 F44.82  Tulburari disociative tranzitorii [de conversie] care se produc in copilarie si adolescenta  {de conversie} ~ Tulburare de conversie
 F45.1   Tulburare somatoforma nediferentiata  {Tulburare psihosomatica nediferentiata}  <Undifferentiated somatoform disorder> ~ Tulburare de durere somatoforma
 F50.9   Tulburare de apetit, nespecificata  <Eating disorder, unspecified> ~ Disfunctie erectila | Discalculie | Tulburare de excitare
-F53.1   Tulburari mentale si de comportament severe asociate cu puerperium, neclaificate altundeva  {Psihoza purperala}  <Puerperal psychosis> ~ Psihoza postpartum
 F60     Tulburari de personalitate specifice  <Specific personality disorders> ~ Personalitate sadica | Personalitate schizoida | Personalitate narcisica
-F60.2   Tulburare de personalitate disociala  <Antisocial personality disorder> ~ Personalitate antisociala | Personalitate sadica | Personalitate schizotipala
-F60.3   Tulburare de personalitate instabila emotional  <Borderline personality disorder> ~ Personalitate borderline | Personalitate histrionica | Personalitate schizotipala
-F60.5   Tulburare de personalitate anancastica  <Obsessive-compulsive personality disorder> ~ Personalitate narcisica | Personalitate sadica | Personalitate antisociala
-F60.6   Tulburare de personalitate anxioasa [evitanta]  {evitanta}  <Avoidant personality disorder> ~ Personalitate evitanta | Personalitate antisociala | Personalitate paranoida | Personalitate narcisica
 F60.9   Tulburare de personalitate, nespecificata  {Nevroza de caracter / Personalitate patologica}  <Personality disorder, unspecified> ~ Personalitate borderline | Personalitate sadica | Personalitate imatura
 F64     Tulburari de identitate sexuala  <Gender identity disorders> ~ Disfunctie sexuala
-F64.0   Trans-sexualism  <Transsexualism> ~ Transsexualism
 F65     Tulburari de preferinta sexuala  <Paraphilias> ~ Disfunctie sexuala
 F80.9   Tulburare de dezvoltare a vorbirii si limbajului, nespecificata  {Tulburare de limbaj}  <Developmental disorder of speech and language, unspecified> ~ Tulburare de limbaj receptiv | Tulburare de limbaj expresiv
 F81.0   Tulburari specifice de citire  {'Citirea inversata' / Dislexia de dezvoltare / Retardarea specifica privind citirea}  <Specific reading disorder> ~ Tulburare de invatare
@@ -457,7 +432,6 @@ F90     Tulburari hiperkinetice  <Attention-deficit hyperactivity disorders> ~ A
 F91.2   Tulburare de conduita socializata  {Tulburare de conduita, tip grup / Delicventa de grup / Delicte comise in banda / Furt in compania altora / Chiul de la scoala}  <Conduct disorder, adolescent-onset type> ~ Tulburare de conduita
 F92.0   Tulburare de conduita depresiva ~ Tulburare de conduita
 F93.2   Tulburare de anxietate sociala a copilariei  {Tulburare de evitare in copilarie sau adolescenta} ~ Fobie sociala
-F95     Tulburari de ticuri  <Tic disorder> ~ Ticuri | Menstruatii neregulate
 F95.1   Tulburare de tic motor sau vocal cronic  <Chronic motor or vocal tic disorder> ~ Tulburare de tic motor persistent
 F95.2   Tulburare de ticuri multiple motorii combinate cu ticuri vocale [Gilles de la Tourette]  {Gilles de la Tourette}  <Tourette's disorder> ~ Ticuri | Sindrom Tourette
 F98.9   Tulburari nespecificate comportamentale si emotionale cu debut de obicei in copilarie si adolescenta  {Tulburare mentala}  <Unspecified behavioral and emotional disorders with onset usually occurring in childhood and adolescence> ~ Sindrom premenstrual | Disfunctie sexuala
@@ -470,19 +444,15 @@ I47     Tahicardia paroxistica  <Paroxysmal tachycardia> ~ Tahicardie de reintra
 I47.1   Tahicardia supraventriculara  <Supraventricular tachycardia> ~ Tahicardie junctionala
 I47.2   Tahicardia ventriculara  <Ventricular tachycardia> ~ Aritmie tahicardie ventriculara | Flutter ventricular | Tahicardie ventriculara nonsustentata | Tahicardie ventriculara polimorfa | Torsada varfurilor | Tahicardie junctionala
 I73.1   Trombangeita obliteranta [Buerger]  {Buerger}  <Thromboangiitis obliterans [Buerger's disease]> ~ Boala Buerger
-I78.0   Teleangiectazia hemoragica ereditara  {Boala Rendu-Osler-Weber}  <Hereditary hemorrhagic telangiectasia> ~ Boala Osler-Weber-Rendu
-I82.1   Tromboflebita migratoare  <Thrombophlebitis migrans> ~ Tromboflebita migratorie
 J98.9   Tulburare respiratorie, nespecificata  {Boala respiratorie (cronica)}  <Respiratory disorder, unspecified> ~ Tularemie pulmonara | Acidoza respiratorie
 K59.9   Tulburare functionala a intestinului, nespecificata  <Functional intestinal disorder, unspecified> ~ Disfonie functionala
 L13.9   Tulburare buloasa, nespecificata  <Bullous disorder, unspecified> ~ Tulburare bipolara | Anxietate
 M51.1   Tulburari ale discului lombar si ale altor discuri intervertebrale cu radiculopatie (G55.1*)  {Sciatica datorita unei afectiuni a discului intervertebral}  <Thoracic, thoracolumbar and lumbosacral intervertebral disc disorders with radiculopathy> ~ Radiculopatie lombara
-M65.2   Tendinita calcificanta  <Calcific tendinitis> ~ Tendinita calcifianta a umarului | Tendinita achiliana | Tendinita
 M65.4   Tenosinovita stiloida radiala [de  {Quervain]}  <Radial styloid tenosynovitis [de Quervain]> ~ Tenosinovita De Quervain
 M75.3   Tendinita calcificanta a umarului  {Bursa calcifianta a umarului}  <Calcific tendinitis of shoulder> ~ Tendinita calcifianta a umarului
-M76.6   Tendinita tendonului lui Ahille  {Bursita tendonului lui Ahile}  <Achilles tendinitis> ~ Tendinita achiliana
 M90.0   Tuberculoza osoasa (A18.0†) ~ Bronsiolita tuberculoasa | Bruceloza osoasa | Tuberculoza asociata HIV
 N28.9   Tulburare a rinichiului si a ureterului, nespecificata  {Nefropatia / Boala renala}  <Disorder of kidney and ureter, unspecified> ~ Nefropatia IgA | Neuropatie periferica | Nefroptoza
-N32.9   Tulburare a vezicii urinare, nespecificata  <Bladder disorder, unspecified> ~ Cancer de vezica urinara | Carcinom de vezica urinara scuamos | Cistita | Cistocel | Fistula vezicovaginala | Litiaza vezicala
+N32.9   Tulburare a vezicii urinare, nespecificata  <Bladder disorder, unspecified> ~ Agenezie de vezica urinara | Cancer de vezica urinara | Carcinom de vezica urinara scuamos | Cistita | Cistocel | Fistula vezicovaginala
 N36.9   Tulburare uretrala, nespecificata  <Urethral disorder, unspecified> ~ Sindrom uretral | Sindrom premenstrual | Sindrom Rett | Tulburare de trance
 N44     Torsiunea testiculului  <Noninflammatory disorders of testis> ~ Torsiune de testicul
 O11     Tulburare hipertensiva preexistenta cu proteinurie supra-adaugata  {Pre-eclampsie supra-adaugata}  <Pre-existing hypertension with pre-eclampsia> ~ Preeclampsie suprapusa
@@ -518,7 +488,7 @@ Q91.2   Trisomia 18, translocatie  <Trisomy 18, translocation> ~ Trisomia 18 | S
 Q91.4   Trisomia 13, nedisjunctia meiotica  <Trisomy 13, nonmosaicism (meiotic nondisjunction)> ~ Trisomia 13
 Q91.5   Trisomia 13, mozaicism (nedisjunctia mitotica)  {nedisjunctia mitotica}  <Trisomy 13, mosaicism (mitotic nondisjunction)> ~ Trisomia 13 | Sindrom Down in mozaic | Sindrom Warkany
 Q91.6   Trisomia 13, translocatia  <Trisomy 13, translocation> ~ Trisomia 13 | Sindrom Down prin translocatie
-===== EXISTA (92)
+===== EXISTA (122)
 A16.9   Tuberculoza cailor respiratorii, nespecificata, fara mentiunea confirmarii bacteriologice sau histologice = Tuberculoza [exact]
 A18.5   Tuberculoza ochiului = Tuberculoza oculara [exact]
 A18.6   Tuberculoza urechii = Tuberculoza otitica [exact]
@@ -526,25 +496,37 @@ A18.7   Tuberculoza glandelor suprarenale = Tuberculoza suprarenaliana [exact]
 A19     Tuberculoza miliara = Tuberculoza miliara [exact]
 A19.2   Tuberculoza miliara acuta, nespecificata = Tuberculoza miliara [temporal (G1)]
 A21     Tularemia = Tularemie [exact]
+A21.0   Tularemia ulcero-glandulara = Tularemie ulceroglandulara [exact]
+A21.1   Tularemia oculo-glandulara = Tularemie oculoglandulara [exact]
 A21.2   Tularemia pulmonara = Tularemie pulmonara [terminatii]
 A21.7   Tularemia generalizata = Tularemie tifoidala [terminatii]
+A33     Tetanosul nou-nascutului = Tetanos neonatal [exact]
 A37     Tusea convulsiva = Tuse convulsiva [exact]
 A59     Trichomoniaza = Tricomonaza [exact]
 A71     Trahomul = Trahom [terminatii]
 A75     Tifosul exantematic = Tifos epidemic [terminatii]
 A75.3   Tifosul cu Rickettsia tsutsugamushi = Tifos scrub [exact]
 B35.1   Tinea unghiilor = Onicomicoza [exact]
+B35.2   Tinea mainii = Tinea manuum [exact]
 B35.3   Tinea piciorului = Micoza piciorului [terminatii]
+B35.4   Tinea corpului = Tinea corporis [exact]
+B35.6   Tinea crurala = Tinea cruris [exact]
 B36.1   Tinea nigra = Tinea nigra [exact]
+B56     Trypanosomiaza africana = Boala somnului [exact]
 B58     Toxoplasmoza = Toxoplasmoza [exact]
 B68     Teniaza = Teniaza [exact]
+B75     Trichinelloza = Trichineloza [exact]
+B79     Trichuriaza = Tricocefaloza [exact]
+B81.2   Trichostrongyliaza = Tricostrongiloidoza [exact]
 B88.1   Tungiasis [infestatia cu purici de nisip] = Tungiaza [exact]
 C58     Tumora maligna a placentei = Coriocarcinom [terminatii]
 C61     Tumora maligna a prostatei = Cancer de prostata [exact]
+C83.7   Tumora Burkitt = Limfom Burkitt [exact]
 D48.9   Tumora cu evolutie imprevizibila si necunoscuta, nespecificata = Tumoare [exact]
 D69.6   Trombocitopenia, nespecificata = Trombocitopenie [terminatii]
 E05     Tireotoxicoza [hipertiroidia] = Tireotoxicoza [exact]
 E05.0   Tireotoxicoza cu gusa difuza = Boala Graves [exact]
+E05.4   Tireotoxicoza factica = Tireotoxicoza factitia [exact]
 E05.9   Tireotoxicoza, nespecificata = Tireotoxicoza [exact]
 E06     Tiroidita = Tiroidita [exact]
 E06.0   Tiroidita acuta = Tiroidita [exact]
@@ -567,6 +549,7 @@ F07.0   Tulburare organica de personalitate = Tulburare organica de personalitat
 F09     Tulburare mentala organica sau simptomatica, nespecificata = Alcoolism [exact]
 F21     Tulburare schizotipala = Tulburare schizotipala [exact]
 F22.0   Tulburare deliranta = Tulburare deliranta [exact]
+F24     Tulburare deliranta indusa = Psihoza indusa [exact]
 F31     Tulburare afectiva bipolara = Tulburare bipolara [exact]
 F33     Tulburare depresiva recurenta = Depresie [temporal (G1)]
 F41.0   Tulburare de panica [anxietate episodica paroxistica] = Atac de panica [exact]
@@ -578,27 +561,44 @@ F44.81  Tulburare de personalitate multipla = Tulburare de identitate disociativ
 F45.0   Tulburare de somatizare = Tulburare de somatizare [exact]
 F45.2   Tulburare hipocondriaca = Ipohondrie [exact]
 F48.9   Tulburare nevrotica, nespecificata = Nevroza [exact]
+F50     Tulburari privind modul de a manca = Tulburari de alimentatie [exact]
 F51.4   Teroare in somn [teroare nocturna] = Teroare nocturna [exact]
+F53.0   Tulburari mentale si de comportament usoare asociate cu puerperium, neclasificate altundeva = Depresie postnatala [exact]
+F53.1   Tulburari mentale si de comportament severe asociate cu puerperium, neclaificate altundeva = Psihoza postpartum [exact]
 F60.0   Tulburare de personalitate paranoida = Personalitate paranoida [exact]
 F60.1   Tulburare de personalitate schizoida = Personalitate schizoida [exact]
+F60.2   Tulburare de personalitate disociala = Personalitate antisociala [exact]
+F60.3   Tulburare de personalitate instabila emotional = Personalitate borderline [exact]
 F60.4   Tulburare de personalitate histrionica = Personalitate histrionica [exact]
+F60.5   Tulburare de personalitate anancastica = Personalitate obsesiv-compulsiva [exact]
+F60.6   Tulburare de personalitate anxioasa [evitanta] = Personalitate evitanta [exact]
 F60.7   Tulburare de personalitate dependenta = Personalitate dependenta [exact]
 F63.3   Trichotilomanie = Tricotilomanie [exact]
+F64.0   Trans-sexualism = Transsexualism [exact]
 F80.1   Tulburare de limbaj expresiv = Tulburare de limbaj expresiv [exact]
 F80.2   Tulburare de limbaj receptiv = Tulburare de limbaj receptiv [exact]
+F81.2   Tulburare specifica privind abilitatile aritmetice = Discalculie [exact]
 F91     Tulburari de conduita = Tulburare de conduita [terminatii]
+F91.3   Tulburare de provocare opozitionala = Tulburare de opozitie sfidare [exact]
+F95     Tulburari de ticuri = Sindrom Tourette [exact]
 G24.3   Torticolis spasmodic = Distonie cervicala [exact]
+G25.0   Tremuraturi esentiale = Tremor esential [exact]
 G47     Tulburari de somn = Insomnie [exact]
 G47.0   Tulburari de adormire si mentinere a somnului [insomnii] = Insomnie [terminatii]
 G47.1   Tulburari de somn prin somnolenta excesiva [hipersomnie] = Hipersomnie [exact]
 H53.1   Tulburari subiective de vedere = Astenopie [terminatii]
 H53.5   Tulburari ale viziunii culorilor = Achromatopsie [terminatii]
 I51.3   Tromboza intracardiaca, neclasificata altundeva = Tromboza intracardiaca [exact]
+I78.0   Teleangiectazia hemoragica ereditara = Boala Osler-Weber-Rendu [exact]
 I81     Tromboza venei porte = Tromboza de vena porta [terminatii]
+I82.1   Tromboflebita migratoare = Tromboflebita migratorie [exact]
 J04.1   Traheita acuta = Traheita [exact]
 K11.7   Tulburarile secretiei salivare = Hipersalivatie [exact]
 M43.6   Torticolis = Torticolis [exact]
 M49.0   Tuberculoza vertebrala (A18.0†) = Spondilita tuberculoasa [exact]
+M65.2   Tendinita calcificanta = Tendinita calcifianta a umarului [exact]
+M76.5   Tendinita patelei = Tendinita rotuliana [exact]
+M76.6   Tendinita tendonului lui Ahille = Tendinita achiliana [exact]
 M76.7   Tendinita peroniera = Tendinita peroneala [exact]
 N30.3   Trigonita = Trigonita [exact]
 O90.5   Tiroidita postpartum = Tiroidita postpartum [exact]
