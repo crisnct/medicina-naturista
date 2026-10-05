@@ -8,7 +8,7 @@
   - agent cauzal, nu boala: 1
 - găsite automat în dicționar (P4.1–P4.3): **121**
 - de decis manual (`nou` + `posibil`): **281**
-- **afecțiuni adăugate: 59**
+- **afecțiuni adăugate: 67**
 
 ## Decizii manuale
 
@@ -21,6 +21,7 @@
 - **Sinonime insuficiente:** criptococoza osoasă, condroliza, chistul vulvar, concrescența dinților, craniul în frunză de trifoi, calcoza oculară, conjunctivita Newcastle.
 - **Amânate la altă literă** (`pending_from_C.jsonl`): `Sarcom de parti moi` (`C49`), `Sarcom mastocitar` (`C96.2`), `Stenoza ureterala` (`N13.5`) → S; `Tumora phyllodes` (`D48.6`, „cistosarcom phyllodes”) → T; `Macrosomie fetala` (`P08.0`) → M; `Hipoacuzie indusa de zgomot` (`H83.3`) → H; `Keratochist odontogen` (`K09.0`) → K; `Deficit de transcobalamina II` (`D51.2`) → D; `Feohifomicoza` (`B43.1`–`B43.2`) → F; `Boala Fahr` (`G23.8`) → B. Tetraplegia (`G82`) și gemenii uniți (`Q89.4`) au titlul la T, respectiv G, și rămân pașilor acelor litere.
 - **Din `pending_by_letter.jsonl`:** `Coagulopatie` (`D68.9`, generică, distinctă de `Coagulopatie dobandita`) și `Coagulopatie postpartum` (`O72.3`) — re-verificate (G6), adăugate.
+- **Amânate de la alte litere, adăugate la unire (coordonator, 8):** `Cardita meningococica` (A39.5; de la B); `Campilobacterioza` (A04.5; de la E); `Calus vicios` (M84.0; de la F); `Ciuma meningeala` (A20.3; de la P); `Ciuma cutanata` (A20.1; de la P); `Circulara de cordon ombilical` (O69.1; de la T); `Chistadenom seros ovarian` (D27; de la T); `Chistadenom mucinos ovarian` (D27; de la T). Verificate față de dicționarul unit al tuturor literelor (G3, G6).
 
 ## Adăugate
 
@@ -28,6 +29,8 @@
 |---|---|---|
 | Calcinoza cutanata | L94.2 | calcinosis cutis; calcificare cutanata; calcinoza tegumentara; cutaneous calcinosis; cutaneous calcification; skin calcinosis |
 | Calcul uretral | N21.1 | calcul in uretra; litiaza uretrala; uretrolitiaza; urethral calculus; urethral stone; calculus in urethra |
+| Calus vicios | M84.0 | fractura rau consolidata; consolidare vicioasa a fracturii; consolidare vicioasa; malunion of fracture; fracture malunion; malunited fracture |
+| Campilobacterioza | A04.5 | enterita prin Campylobacter; infectie intestinala cu Campylobacter; enterocolita cu Campylobacter; campylobacteriosis; Campylobacter enteritis; Campylobacter infection |
 | Cancer cu sediu primar necunoscut | C80 | cancer cu punct de plecare necunoscut; carcinom cu sediu primar necunoscut; cancer de origine primara necunoscuta; cancer of unknown primary; carcinoma of unknown primary; malignant neoplasm of unknown primary site; occult primary cancer |
 | Cancer de buza | C00 | tumora maligna a buzei; cancer labial; carcinom labial; carcinom al buzei; malignant neoplasm of lip; lip cancer; carcinoma of lip |
 | Cancer de palat | C05 | tumora maligna a palatului; cancer palatin; carcinom de palat; malignant neoplasm of palate; palate cancer; palatal carcinoma |
@@ -47,6 +50,7 @@
 | Cardiomiopatie toxica | I42.7 | cardiomiopatie medicamentoasa; cardiomiopatie indusa medicamentos; cardiomiopatie la antracicline; toxic cardiomyopathy; drug-induced cardiomyopathy; cardiomyopathy due to drug and external agent |
 | Cardionefropatie hipertensiva | I13 | cardio-nefropatie hipertensiva; boala cardiaca si renala hipertensiva; boala hipertensiva cardiorenala; hypertensive heart and chronic kidney disease; hypertensive heart and kidney disease; hypertensive cardiorenal disease |
 | Cardiopatie cifoscoliotica | I27.1 | cord pulmonar cifoscoliotic; boala cardiaca cifoscoliotica; cord pulmonar cronic in cifoscolioza; kyphoscoliotic heart disease; kyphoscoliotic cor pulmonale; cor pulmonale due to kyphoscoliosis |
+| Cardita meningococica | A39.5 | boala de inima meningococica; afectare cardiaca meningococica; miocardita meningococica; pericardita meningococica; meningococcal heart disease; meningococcal carditis; meningococcal myocarditis; meningococcal pericarditis |
 | Caruncul uretral | N36.2 | caruncula uretrala; carunculul uretrei; caruncul meatal; urethral caruncle; caruncle of urethra; meatal caruncle |
 | Cataracta complicata | H26.2 | cataracta secundara afectiunilor oculare; cataracta in iridociclita cronica; cataracta uveitica; complicated cataract; cataract secondary to ocular disease; uveitic cataract |
 | Cataracta juvenila | H26.0 | cataracta infantila juvenila si presenila; cataracta infantila; cataracta presenila; infantile and juvenile cataract; juvenile cataract; infantile cataract; presenile cataract |
@@ -64,7 +68,12 @@
 | Chist mezenteric | Q45.84 | chist al mezenterului; chist mezenteric congenital; chist chilos mezenteric; mesenteric cyst; cyst of mesentery; chylous mesenteric cyst |
 | Chist radicular | K04.8 | chist periapical; chist radiculodentar; chist apical; radicular cyst; periapical cyst; apical periodontal cyst |
 | Chist Stafne | K10.0 | chist latent osos al maxilarului; defect osos Stafne; cavitate osoasa statica a mandibulei; Stafne bone cyst; Stafne defect; static bone cavity; lingual mandibular bone depression |
+| Chistadenom mucinos ovarian | D27 | chistadenom mucinos; cistadenom mucinos ovarian; tumora mucinoasa benigna ovariana; mucinous cystadenoma; ovarian mucinous cystadenoma; benign mucinous ovarian tumor |
+| Chistadenom seros ovarian | D27 | chistadenom seros; cistadenom seros ovarian; tumora seroasa benigna ovariana; serous cystadenoma; ovarian serous cystadenoma; benign serous ovarian tumor |
+| Circulara de cordon ombilical | O69.1 | circulara de cordon; cordon ombilical in jurul gatului; circulara cervicala de cordon; nuchal cord; cord around neck; nuchal umbilical cord |
 | Ciroza biliara secundara | K74.4 | ciroza biliara obstructiva; ciroza colestatica secundara; ciroza prin obstructie biliara cronica; secondary biliary cirrhosis; obstructive biliary cirrhosis; biliary cirrhosis due to bile duct obstruction |
+| Ciuma cutanata | A20.1 | pesta cutanata; ciuma celulocutanata; pesta celulocutanata; cellulocutaneous plague; cutaneous plague; skin plague |
+| Ciuma meningeala | A20.3 | pesta meningeala; meningita pestoasa; meningita cu Yersinia pestis; plague meningitis; meningeal plague; Yersinia pestis meningitis |
 | Coagulopatie | D68.9 | defect de coagulare; tulburare a coagularii sangelui; anomalie de coagulare; coagulopathy; coagulation defect; blood clotting disorder |
 | Coagulopatie postpartum | O72.3 | tulburare de coagulare postpartum; afibrinogenemie postpartum; coagulopatie obstetricala; postpartum coagulation defect; postpartum coagulopathy; obstetric coagulopathy |
 | Coccidioidomicoza cutanata | B38.3 | coccidioidomikoza cutanata; coccidioidomicoza pielii; coccidioidomicoza cutanata primara; cutaneous coccidioidomycosis; primary cutaneous coccidioidomycosis; coccidioidomycosis of skin |
