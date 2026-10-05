@@ -3928,8 +3928,10 @@
 {"name": "Nanism", "synonyms": ["pitic", "statura mica patologica", "deficit de hormon de crestere", "nanism hipofizar", "dwarfism", "short stature", "growth hormone deficiency"]}
 {"name": "Nanism cu par scurt si hipoplazie de cartilaj", "synonyms": ["hipoplazie de cartilaj cu par scurt", "nanism metaphizar imunodeficient", "nanism cu hipoplazie de cartilaj", "cartilage-hair hypoplasia", "McKusick metaphyseal chondrodysplasia", "short-limbed dwarfism with hair hypoplasia"]}
 {"name": "Nanism diastrofic", "synonyms": ["displazie diastrofica", "displazie diastrofica congenitala", "deformari articulare congenitale", "diastrophic dysplasia", "diastrophic dwarfism", "diastrophic dysplasia syndrome"]}
+{"name": "Nanism metatropic", "synonyms": ["displazie metatropica", "condrodisplazie metatropica", "acondroplazie hiperplastica", "metatropic dysplasia", "metatropic dwarfism", "hyperplastic achondroplasia"]}
 {"name": "Nanism psihosocial", "synonyms": ["nanism prin privare afectiva", "nanism de privare psihosociala", "nanism emotional", "psychosocial dwarfism", "psychosocial short stature", "deprivation dwarfism"]}
 {"name": "Nanism tanatofor", "synonyms": ["displazie tanatofora", "distrofie toracica asfixianta", "nanism tanatofor congenital", "thanatophoric dysplasia", "thanatophoric dwarfism", "thanatophoric dysplasia syndrome"]}
+{"name": "Nanofietiaza", "synonyms": ["nanophyetiaza", "infectie cu Nanophyetus salmincola", "trematodoza cu Nanophyetus", "nanophyetiasis", "Nanophyetus salmincola infection", "salmon fluke infection"]}
 {"name": "Narcolepsie", "synonyms": ["somnolenta patologica", "atacuri de somn", "tulburare de somn narcolepsie", "narcolepsy", "sleep attacks", "excessive daytime sleepiness"]}
 {"name": "Nastere prematura", "synonyms": ["travaliu prematur", "nastere inainte de termen", "prematuritate", "premature birth", "preterm birth", "preterm labor"]}
 {"name": "Nazofaringita cronica", "synonyms": ["rinofaringita cronica", "catar nazofaringian cronic", "inflamatie cronica a nazofaringelui", "chronic nasopharyngitis", "chronic rhinopharyngitis", "chronic postnasal catarrh"]}
@@ -3949,15 +3951,19 @@
 {"name": "Nazofaringita cu virus sinicial respirator", "synonyms": ["nazofaringita cu virus sinicial", "infectie nazofaringiana cu VSR", "guturai cu VSR", "respiratory syncytial virus pharyngitis", "RSV pharyngitis", "RSV upper airway infection"]}
 {"name": "Nazofaringita cu virus varicela-zoster", "synonyms": ["nazofaringita cu VZV", "infectie nazofaringiana cu varicela-zoster", "faringita cu VZV", "varicella-zoster nasopharyngitis", "VZV pharyngitis", "VZV upper respiratory infection"]}
 {"name": "Nazofaringita virala", "synonyms": ["rinofaringita virala", "infectie virala a nazofaringelui", "guturai viral", "viral nasopharyngitis", "viral rhinopharyngitis", "common cold viral infection"]}
+{"name": "Necrobioza lipoidica", "synonyms": ["necrobioza lipoida", "necrobioza lipoidica diabeticorum", "boala Oppenheim-Urbach", "necrobiosis lipoidica", "necrobiosis lipoidica diabeticorum", "Oppenheim-Urbach disease"]}
 {"name": "Necroliza epidermica toxica", "synonyms": ["sindrom Lyell", "necroza epidermica acuta", "epidermoliza toxica", "toxic epidermal necrolysis", "Lyell syndrome", "acute epidermal necrolysis"]}
+{"name": "Necroza adipoasa a sanului", "synonyms": ["steatonecroza mamara", "citosteatonecroza mamara", "necroza grasoasa a sanului", "fat necrosis of breast", "breast fat necrosis", "mammary fat necrosis"]}
 {"name": "Necroza aseptica a capului femural", "synonyms": ["necrosa avasculara a capului femural", "necrosa ischemica a soldului", "osteonecrosa femurala", "femoral head necrosis", "avascular necrosis of the femoral head", "osteonecrosis of the femoral head"]}
 {"name": "Necroza avasculara", "synonyms": ["osteonecrosa", "necrosa aseptica osoasa", "necrosa osoasa ischemica", "avascular necrosis", "aseptic bone necrosis", "ischemic bone necrosis"]}
+{"name": "Necroza corticala renala", "synonyms": ["insuficienta renala acuta cu necroza corticala acuta", "necroza corticala renala acuta", "necroza corticala bilaterala", "renal cortical necrosis", "acute kidney failure with acute cortical necrosis", "acute cortical necrosis"]}
 {"name": "Necroza cutanata", "synonyms": ["necroza pielii", "necroliza tisulara cutanata", "distructie tisulara cutanata", "skin necrosis", "cutaneous necrosis", "necrosis of the skin"]}
 {"name": "Necroza de grasime subcutanata a nou-nascutului", "synonyms": ["necrosis adiposa neonatorum", "necroza adiposa neonatala", "necroza de grasime a nou-nascutului", "subcutaneous fat necrosis of the newborn", "neonatal subcutaneous fat necrosis", "subcutaneous fat necrosis"]}
 {"name": "Necroza hepatica", "synonyms": ["necroza a ficatului", "necroza hepatocelulara", "moarte celulara hepatica", "hepatic necrosis", "liver necrosis", "hepatocellular necrosis"]}
 {"name": "Necroza pancreatica", "synonyms": ["pancreatita necrozanta", "necroza acuta a pancreasului", "pancreonecroza", "pancreatic necrosis", "necrotizing pancreatitis", "acute necrotizing pancreatitis"]}
 {"name": "Necroza papilara", "synonyms": ["necrosa papilei renale", "necrosa medulara renala", "sindrom de necrosa papilara", "renal papillary necrosis", "papillary necrosis of the kidney", "necrotizing papillitis"]}
 {"name": "Necroza pulmonara cu stafilococ", "synonyms": ["necroza pulmonara stafilococica", "distructie pulmonara cu stafilococ", "pneumonie necrozanta stafilococica", "staphylococcal lung necrosis", "staphylococcal necrotizing pneumonia", "staphylococcal pulmonary necrosis"]}
+{"name": "Necroza pulpara", "synonyms": ["gangrena pulpara", "necroza pulpei dentare", "pulpa dentara necrotica", "necrosis of pulp", "pulp necrosis", "pulpal gangrene"]}
 {"name": "Necroza tubulara acuta", "synonyms": ["necrosa tubulara renala", "NTA", "necrosa epiteliala tubulara", "acute tubular necrosis", "ATN", "tubular necrosis of the kidney"]}
 {"name": "Nefrita", "synonyms": ["boala de rinichi", "inflamatia rinichilor", "nefropatie inflamatorie", "nephritis", "kidney inflammation", "glomerulonephritis"]}
 {"name": "Nefrita interstitiala", "synonyms": ["rinichi inflamat cu febra", "nefrita tubulointerstitiala", "nefropatie interstitiala", "boala renala tubulointerstitiala", "interstitial nephritis", "tubulointerstitial nephritis", "interstitial kidney inflammation"]}
@@ -3966,6 +3972,7 @@
 {"name": "Nefronoftizia", "synonyms": ["nefronoftizie juvenila", "boala chistica medulara renala", "complex nefronoftizie", "nephronophthisis", "juvenile nephronophthisis", "medullary cystic disease complex"]}
 {"name": "Nefronoftizia infantila", "synonyms": ["nefronoftizie infantila", "nefronoftizia cu debut infantil", "boala chistica medulara infantila", "infantile nephronophthisis", "early-onset nephronophthisis", "nephronophthisis type 1"]}
 {"name": "Nefropatia analgezica", "synonyms": ["nefropatia prin analgezice", "nefrita analgezica", "boala renala prin abuz de analgezice", "analgesic nephropathy", "phenacetin nephropathy", "analgesic kidney disease"]}
+{"name": "Nefropatia balcanica", "synonyms": ["nefropatia endemica balcanica", "nefropatia endemica din Balcani", "nefropatie endemica familiala danubiana", "Balkan nephropathy", "Balkan endemic nephropathy", "Danubian endemic familial nephropathy"]}
 {"name": "Nefropatia cu leziuni minime", "synonyms": ["boala cu leziuni minime glomerulare", "nefroza cu leziuni minime", "glomerulopatia cu leziuni minime", "minimal change disease", "minimal change nephropathy", "nil disease"]}
 {"name": "Nefropatia de reflux", "synonyms": ["nefropatie de reflux vezicoureteral", "nefropatia refluxului vezicoureteral", "pielonefrita de reflux", "reflux nephropathy", "reflux nephritis", "vesicoureteral reflux nephropathy"]}
 {"name": "Nefropatia gutoasa", "synonyms": ["nefropatia urica", "boala renala din guta", "nefropatia cu urati", "gouty nephropathy", "urate nephropathy", "uric acid nephropathy"]}
@@ -3978,6 +3985,7 @@
 {"name": "Nefropatia mielomatoasa", "synonyms": ["rinichi mielomatos", "nefropatia din mielom multiplu", "nefropatia cu cilindri", "myeloma kidney", "cast nephropathy", "myeloma cast nephropathy"]}
 {"name": "Nefropatia obstructiva", "synonyms": ["uropatie obstructiva", "nefropatie prin obstructie urinara", "boala renala postrenala", "obstructive nephropathy", "obstructive uropathy", "postrenal kidney disease"]}
 {"name": "Nefropatia purpurica", "synonyms": ["nefrita purpurica", "nefropatia din purpura Henoch-Schonlein", "nefropatia IgA sistemica", "purpura nephritis", "Henoch-Schonlein nephritis", "IgA vasculitis nephritis"]}
+{"name": "Nefropatia toxica", "synonyms": ["nefropatie medicamentoasa", "nefropatie indusa de medicamente", "nefropatie prin metale grele", "nefrotoxicitate", "toxic nephropathy", "drug-induced nephropathy", "heavy metal nephropathy", "nephrotoxicity"]}
 {"name": "Nefropatie diabetica", "synonyms": ["nefropatie diabetica incipienta", "boala renala diabetica", "glomeruloscleroza diabetica", "diabetic nephropathy", "diabetic kidney disease", "diabetic glomerulosclerosis"]}
 {"name": "Nefropatie hipertensiva", "synonyms": ["nefroangioscleroza", "boala renala hipertensiva", "scleroza renala hipertensiva", "hypertensive nephropathy", "hypertensive renal disease", "nephrosclerosis"]}
 {"name": "Nefroptoza", "synonyms": ["rinichi mobil", "rinichi cazut", "ptoza renala", "nephroptosis", "floating kidney", "mobile kidney"]}
@@ -3986,6 +3994,7 @@
 {"name": "Neoplasie endocrina multipla tip 1", "synonyms": ["sindrom MEN 1", "adenomatoza endocrina multipla", "sindrom Wermer", "multiple endocrine neoplasia type 1", "MEN1 syndrome", "Wermer syndrome"]}
 {"name": "Neoplasie endocrina multipla tip 2a", "synonyms": ["sindrom MEN 2a", "sindrom Sipple", "carcinom medular tiroidian familial", "multiple endocrine neoplasia type 2a", "MEN2a syndrome", "Sipple syndrome"]}
 {"name": "Neoplasie endocrina multipla tip 2b", "synonyms": ["sindrom MEN 2b", "sindrom MEN 3", "carcinom medular tiroidian cu fenotip marfanoid", "multiple endocrine neoplasia type 2b", "MEN2b syndrome", "MEN3 syndrome"]}
+{"name": "Neoplasm mielodisplazic", "synonyms": ["neoplazie mielodisplazica", "preleucemie", "sindrom mielodisplazic primar", "myelodysplastic neoplasm", "preleukemia", "primary myelodysplastic syndrome"]}
 {"name": "Neoplasm pleural malign", "synonyms": ["cancer pleural", "tumora maligna pleurala", "carcinom pleural", "malignant pleural neoplasm", "malignant pleural tumor", "pleural malignancy"]}
 {"name": "Neoplasm pulmonar malign", "synonyms": ["cancer al plamanilor", "tumora maligna pulmonara", "carcinom pulmonar malign", "malignant pulmonary neoplasm", "malignant lung tumor", "malignant neoplasm of the lung"]}
 {"name": "Neoplazie intraepiteliala anala", "synonyms": ["AIN", "neoplazie intraepiteliala a canalului anal", "neoplazie anala intraepiteliala", "anal intraepithelial neoplasia", "AIN anal lesion", "anal intraepithelial neoplasm"]}
@@ -4029,6 +4038,7 @@
 {"name": "Neuropatie senzoriala ereditara tip II", "synonyms": ["neuropatie senzoriala si autonoma tip II", "HSAN tip II", "neuropatie senzoriala recesiva", "hereditary sensory neuropathy type II", "HSAN II", "hereditary sensory and autonomic neuropathy type II"]}
 {"name": "Neuropatie senzoriala ereditara tip IV", "synonyms": ["insensibilitate congenitala la durere cu anhidroza", "HSAN tip IV", "neuropatie senzoriala cu anhidroza", "congenital insensitivity to pain with anhidrosis", "CIPA", "hereditary sensory and autonomic neuropathy type IV"]}
 {"name": "Neuropatie senzoriala ereditara tip V", "synonyms": ["insensibilitate congenitala la durere", "HSAN tip V", "neuropatie senzoriala cu lipsa durerii", "congenital insensitivity to pain", "HSAN V", "hereditary sensory and autonomic neuropathy type V"]}
+{"name": "Neuropatie serica", "synonyms": ["neuropatia serica", "nevrita serica", "neuropatie din boala serului", "serum neuropathy", "serum sickness neuropathy", "serum sickness neuritis"]}
 {"name": "Neuropatie tomaculoasa", "synonyms": ["neuropatie cu predispozitie la compresie", "neuropatie ereditara cu paralizii de compresie", "neuropatie prin compresie recidivanta familiala", "hereditary neuropathy with liability to pressure palsies", "HNPP", "tomaculous neuropathy"]}
 {"name": "Neuropatie toxica", "synonyms": ["neuropatie medicamentoasa", "polineuropatie toxica", "neuropatie indusa de substante toxice", "toxic neuropathy", "toxic polyneuropathy", "drug-induced neuropathy"]}
 {"name": "Neuropatie viscerala intestinala", "synonyms": ["neuropatia intestinului", "visceroneuropatie digestiva", "tulburare nervoasa intestinala", "intestinal visceral neuropathy", "visceral neuropathy of the gut", "enteric neuropathy"]}
@@ -4041,8 +4051,11 @@
 {"name": "Neutropenie congenitala", "synonyms": ["neutropenie ereditara", "neutropenie constitutionala", "neutropenie genetica", "congenital neutropenia", "hereditary neutropenia", "constitutional neutropenia"]}
 {"name": "Neutropenie cronica benigna", "synonyms": ["neutropenie benigna a copilariei", "neutropenie cronica idiopatica", "neutropenie cronica a adultului", "chronic benign neutropenia", "benign neutropenia of childhood", "chronic idiopathic neutropenia"]}
 {"name": "Neutropenie febrila", "synonyms": ["neutropenie cu febra", "febra neutropenica", "episod febril neutropenic", "febrile neutropenia", "neutropenic fever", "fever with neutropenia"]}
+{"name": "Neutropenie neonatala", "synonyms": ["neutropenia neonatala tranzitorie", "neutropenie tranzitorie a nou-nascutului", "neutropenie aloimuna neonatala", "transient neonatal neutropenia", "neonatal neutropenia", "neonatal alloimmune neutropenia"]}
 {"name": "Nev conjunctival", "synonyms": ["nev pigmentar conjunctival", "alunita conjunctivala", "nev benign al conjunctivei", "conjunctival nevus", "conjunctival mole", "benign conjunctival nevus"]}
+{"name": "Nev coroidian", "synonyms": ["nev al coroidei", "nev coroidal", "nev uveal posterior", "choroidal nevus", "choroidal naevus", "nevus of choroid"]}
 {"name": "Nev displazic", "synonyms": ["nev atipic", "nev melanocitar displazic", "nev Clark", "dysplastic nevus", "atypical nevus", "dysplastic melanocytic nevus", "Nevus displazic", "nev cu risc de transformare", "dysplastic naevus"]}
+{"name": "Nev stelat", "synonyms": ["angiom stelat", "steluta vasculara", "nev arahnoidian", "spider nevus", "spider angioma", "vascular spider", "nevus araneus"]}
 {"name": "Nevo melanocitar", "synonyms": ["nev melanocitar", "nev pigmentar melanocitar", "alunita pigmentara", "melanocytic nevus", "melanocytic naevus", "pigmented mole"]}
 {"name": "Nevralgia glosofaringiana", "synonyms": ["nevralgia de nerv glosofaringian", "durere paroxistica faringiana", "nevralgia nervului glosofaringian", "glossopharyngeal neuralgia", "glossopharyngeal nerve neuralgia", "vagoglossopharyngeal neuralgia"]}
 {"name": "Nevralgia intercostala", "synonyms": ["nevralgie intercostala", "durere intercostala nevralgica", "nevralgia de nervi intercostali", "intercostal neuralgia", "intercostal nerve pain", "neuralgia of intercostal nerves"]}
@@ -4053,6 +4066,8 @@
 {"name": "Nevrita leproasa", "synonyms": ["lepra nervoasa", "neuropatia leproasa", "nevrita in lepra", "leprous neuritis", "leprosy neuropathy", "neural leprosy"]}
 {"name": "Nevrita vestibulara", "synonyms": ["neuronita vestibulara", "vestibulopatie periferica acuta", "nevrita vestibulara acuta", "vestibular neuritis", "vestibular neuronitis", "acute vestibular neuropathy", "neuronita vestibulara acuta", "vertij prin inflamatia nervului vestibular", "acute unilateral vestibulopathy"]}
 {"name": "Nevroza", "synonyms": ["boala de nervi", "nevroze", "tulburare nevrotica", "nevrotism", "neurosis", "neurotic disorder", "psychoneurosis"]}
+{"name": "Nevroza de compensatie", "synonyms": ["nevroza de renta", "sinistroza", "nevroza de accident", "compensation neurosis", "accident neurosis", "litigation neurosis"]}
+{"name": "Nevus flammeus", "synonyms": ["nev flameus", "pata de vin de Porto", "malformatie capilara cutanata", "port-wine stain", "port-wine birthmark", "capillary malformation"]}
 {"name": "Nevus sebaceu", "synonyms": ["nev sebaceu Jadassohn", "hamartom sebaceu", "nev sebaceu", "nevus sebaceus", "nevus sebaceus of Jadassohn", "Jadassohn sebaceous nevus"]}
 {"name": "Nevus Spitz", "synonyms": ["nev Spitz", "melanom juvenil benign", "nev cu celule fusiforme", "Spitz nevus", "Spitz naevus", "benign juvenile melanoma"]}
 {"name": "Nictalopie", "synonyms": ["orbul gainilor", "orbire nocturna", "vedere slaba noaptea", "hemeralopie", "night blindness", "nyctalopia", "poor night vision"]}
@@ -4061,11 +4076,15 @@
 {"name": "Nistagmus congenital", "synonyms": ["nistagmus infantil", "nistagmus prezent de la nastere", "nistagmus ereditar", "congenital nystagmus", "infantile nystagmus", "hereditary nystagmus"]}
 {"name": "Nocardioza", "synonyms": ["infectie cu Nocardia", "nocardioza sistemica", "nocardioza diseminata", "nocardiosis", "Nocardia infection", "disseminated nocardiosis"]}
 {"name": "Nocardioza cerebrala", "synonyms": ["abces cerebral cu Nocardia", "nocardioza a sistemului nervos central", "meningita cu Nocardia", "cerebral nocardiosis", "nocardial brain abscess", "central nervous system nocardiosis"]}
+{"name": "Nocardioza cutanata", "synonyms": ["nocardioza cutanata primara", "infectie cutanata cu Nocardia", "nocardioza limfocutanata", "cutaneous nocardiosis", "primary cutaneous nocardiosis", "lymphocutaneous nocardiosis"]}
 {"name": "Nocardioza pulmonara", "synonyms": ["pneumonie cu Nocardia", "abces pulmonar cu Nocardia", "infectie pulmonara cu Nocardia", "pulmonary nocardiosis", "nocardial pneumonia", "Nocardia lung infection"]}
 {"name": "Nocardioza pulmonara cavitara", "synonyms": ["nocardioza cavitara pulmonara", "nocardioza pulmonara cronica", "pneumopatie nocardiozica cavitara", "cavitary pulmonary nocardiosis", "chronic pulmonary nocardiosis", "nocardial cavitary lung disease"]}
+{"name": "Nod adevarat de cordon ombilical", "synonyms": ["nod de cordon", "nod de cordon ombilical", "innodare de cordon", "true knot of umbilical cord", "umbilical cord knot", "true cord knot"]}
 {"name": "Nodul reumatoid", "synonyms": ["nodul reumatismal", "nodul subcutanat reumatoid", "nodul din artrita reumatoida", "rheumatoid nodule", "rheumatoid nodulosis", "subcutaneous rheumatoid nodule"]}
+{"name": "Nodul Schmorl", "synonyms": ["noduli Schmorl", "hernie Schmorl", "hernie intraspongioasa", "Schmorl's nodes", "Schmorl node", "intravertebral disc herniation"]}
 {"name": "Noduli tiroidieni", "synonyms": ["nod la tiroida", "noduri la tiroida", "nodul tiroidian", "chisturi tiroidiene", "formatiuni nodulare ale tiroidei", "thyroid nodules", "thyroid nodule", "thyroid cyst"]}
 {"name": "Noduli vocali", "synonyms": ["noduli ai corzilor vocale", "noduli ai coardelor vocale", "cherele cantaretei", "vocal cord nodules", "vocal fold nodules", "singer's nodes"]}
+{"name": "Nodulul mulgatorilor", "synonyms": ["pseudovaccin", "nodulul mulgatorilor de lapte", "infectie cu virusul pseudocowpox", "milker's nodule", "pseudocowpox", "paravaccinia"]}
 {"name": "Nonseminom", "synonyms": ["tumora germinala nonseminomatoasa", "nonseminom testicular", "tumora testiculara nonseminomatoasa", "nonseminoma", "non-seminomatous germ cell tumor", "nonseminomatous testicular tumor"]}
 {"name": "Nosofobie", "synonyms": ["teama de imbolnavire", "frica de boli", "teama de boli", "nosophobia", "fear of illness", "sickness phobia"]}
 {"name": "Obezitate", "synonyms": ["gresime", "exces ponderal", "supraponderabilitate", "grasime in exces", "obesity", "overweight", "excess body fat"]}

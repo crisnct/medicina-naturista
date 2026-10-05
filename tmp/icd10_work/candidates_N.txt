@@ -1,4 +1,4 @@
-===== NOU (40)
+===== NOU (39)
 B76.1   Necatoriaza  {Infectia datorita Necator americanus}  <Necatoriasis>
 D22.0   Nev melanocit al buzei  <Melanocytic nevi of lip>
 D22.1   Nev melanocit al pleoapei, inclusiv cantus  <Melanocytic nevi of eyelid, including canthus>
@@ -11,7 +11,6 @@ D22.7   Nev melanocit al membrului inferior, inclusiv soldul  <Melanocytic nevi 
 F52.7   Necesitate sexuala excesiva  {Nimfomanie / Satiriaza}
 G47.4   Narcolepsia si catalepsia  <Narcolepsy and cataplexy>
 G60     Neuropatia ereditara si idiopatica  <Hereditary and idiopathic neuropathy>
-G60.2   Neuropatia asociata unei ataxii ereditare  <Neuropathy in association with hereditary ataxia>
 G60.3   Neuropatia progresiva idiopatica  <Idiopathic progressive neuropathy>
 H55     Nistagmus si alte miscari anormale ale ochiului  <Nystagmus and other irregular eye movements>
 I77.5   Necroza arterei  <Necrosis of artery>
@@ -39,19 +38,17 @@ P61.5   Neutropenia neonatala tranzitorie  <Transient neonatal neutropenia>
 Q30.2   Nas fisurat, crestat sau deschis  <Fissured, notched and cleft nose>
 Q77.81  Nanism metatropic  {Displazia metatropica}
 Q82.5   Nev congenital non-neoplazic  {Semn de nastere}  <Congenital non-neoplastic nevus>
-===== POSIBIL (23)
+===== POSIBIL (20)
 A43.1   Nocardioza cutanata  <Cutaneous nocardiosis> ~ Candidoza cutanata | Necroza cutanata
 B60.2   Naegleriaza  {Meningoencefalita amoebiana primara†}  <Naegleriasis> ~ Meningoencefalita amibiana primara
 D22     Nev melanocit  <Melanocytic nevi> ~ Nevo melanocitar
 G13.0   Neuromiopatia si neuropatia paraneoplazice  {Neuromiopatia carcinomatoasa / Neuropatia senzoriala paraneoplazica [Denny Brown]}  <Paraneoplastic neuromyopathy and neuropathy> ~ Polineuropatia paraneoplazica | Carcinom mamar inflamator
 G53.0   Nevralgia post-zosteriana (B02.2†) ~ Neuralgie postherpetica
-G54.5   Nevralgia amiotrofica  {Sindromul Parsonage-Aldren-Turner / Nevrita centurii scapulare}  <Neuralgic amyotrophy> ~ Amiotrofia nevralgica
 G58.0   Neuropatia intercostala  <Intercostal neuropathy> ~ Nevralgia intercostala | Nefrita interstitiala
-G60.0   Neuropatia ereditara motrice si senzoriala  <Hereditary motor and sensory neuropathy> ~ Neuropatie senzoriala ereditara
+G60.2   Neuropatia asociata unei ataxii ereditare  <Neuropathy in association with hereditary ataxia> ~ Ataxie ereditara
 G61.1   Neuropatia serica  <Serum neuropathy> ~ Nefropatia gutoasa | Neuropatie diabetica | Nefropatia ischemica
 G90.0   Neuropatia autonoma periferica idiopatica  {Sincopa sinusului carotidian}  <Idiopathic peripheral autonomic neuropathy> ~ Neuropatie autonoma | Neuropatie periferica | Sincopa de sinus carotidian
 G99.0   Neuropatia autonoma in bolile endrocrine si de metabolism  {Neuropatia autonoma amiloida}  <Autonomic neuropathy in diseases classified elsewhere> ~ Neuropatie autonoma | Neuropatie amiloida | Sindrom Riley-Day
-H16.4   Neovascularizare corneeana  {Vase de neoformatie (ale corneei) / Panus (cornean)}  <Corneal neovascularization> ~ Neovascularizatie corneana
 I12.0   Nefropatia hipertensiva cu insuficienta renala  {Insuficienta renala hipertensiva}  <Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease> ~ Insuficienta renala | Nefropatie hipertensiva
 I12.9   Nefropatia hipertensiva fara insuficienta renala  {Insuficienta renala hipertensiva}  <Hypertensive chronic kidney disease with stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease> ~ Insuficienta renala | Nefropatie hipertensiva
 J38.2   Nodulii corzilor vocale  {Cordita (fibrinoasa) (nodulara) (tuberoasa) / Nodulii corzilor vocale ale cantaretilor / Nodulii corzilor vocale ale profesorilor}  <Nodules of vocal cords> ~ Noduli vocali | Polip laringian
@@ -62,14 +59,16 @@ N11     Nefrita tubulo-interstitiala cronica  <Chronic tubulo-interstitial nephr
 N14.4   Nefropatia toxica, neclasificata altundeva  <Toxic nephropathy, not elsewhere classified> ~ Neuropatie toxica | Nefropatia gutoasa | Nefropatia IgA
 N15.0   Nefropatia balcanica  {Nefropatia endemica balcanica}  <Balkan nephropathy> ~ Nefropatia lupica
 O10.2   Nefropatia hipertensiva pre-existenta complicand sarcina, nasterea si lauzia  <Pre-existing hypertensive chronic kidney disease complicating pregnancy, childbirth and the puerperium> ~ Nefropatie hipertensiva
-O60     Nasterea inainte de termen  <Preterm labor> ~ Nastere prematura
-===== EXISTA (15)
+===== EXISTA (19)
 A43     Nocardioza = Nocardioza [exact]
 A43.0   Nocardioza pulmonara = Nocardioza pulmonara [exact]
 E04.1   Nodul tiroidian unic, netoxic = Gusa cu nodul unic netoxic [exact]
 F48.0   Neurastenie = Neurastenie [exact]
 G36.0   Neuromielita optica [Devic] = Neuromielita optica [exact]
 G50.0   Nevralgia de trigemen = Nevralgie [terminatii]
+G54.5   Nevralgia amiotrofica = Amiotrofia nevralgica [exact]
+G60.0   Neuropatia ereditara motrice si senzoriala = Boala Charcot-Marie-Tooth [exact]
+H16.4   Neovascularizare corneeana = Neovascularizatie corneana [exact]
 H46     Nevrita optica = Nevrita [exact]
 H81.2   Neuronita vestibulara = Nevrita vestibulara [exact]
 I12     Nefropatia hipertensiva = Nefropatie hipertensiva [terminatii]
@@ -78,6 +77,7 @@ M06.3   Nodul reumatoid = Nodul reumatoid [exact]
 N07     Nefropatie ereditara, neclasificata altundeva = Sindrom Alport [exact]
 N12     Nefrita tubulo-interstitiala, nespecificata ca acuta sau cronica = Nefrita interstitiala [exact]
 N14.0   Nefropatia analgezica = Nefropatia analgezica [exact]
+O60     Nasterea inainte de termen = Nastere prematura [exact]
 Q85.0   Neurofibromatoza (nemaligna) = Neurofibromatoza tip 1 [exact]
 ===== ELIMINAT (26)
 A43.9   Nocardioza, nespecificata [dublura categoriei parinte (nespecificat)]
