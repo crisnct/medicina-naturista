@@ -1,0 +1,74 @@
+? A53.0   Reactia serologica pozitiva pentru sifilis   [titlu: Sifilis latent, nespecificat ca fiind recent sau tardiv]  <Latent syphilis, unspecified as early or late>  ~ 
+? A66.5   Rinofaringita mutilanta   [titlu: Gangosa]  <Gangosa>  ~ Raceala
+? A74.9   Rickettsioze   [titlu: Infectia cu Chlamydia, nespecificata]  <Chlamydial infection, unspecified>  ~ 
+? A75.0   Rickettsia prowazekii   [titlu: Tifosul exantematic de paduche, datorit]  <Epidemic louse-borne typhus fever due to Rickettsia prowazekii>  ~ Tifos epidemic
+? A77     Rickettsia de capuse   [titlu: Febra purpurie (Rickettsia de capuse)]  <Spotted fever [tick-borne rickettsioses]>  ~ 
+? A79.8   Rickettsioza datorita Ehrlichia sennetsu   [titlu: Alte rickettsioze specificate]  <Other specified rickettsioses>  ~ 
+? C11.2   Recesul faringian   [titlu: Peretele lateral al nazo-faringelui]  <Malignant neoplasm of lateral wall of nasopharynx>  ~ 
+? C19     Recto-sigmoid (colon)   [titlu: Tumora maligna a jonctiunii recto-sigmoidiene]  <Malignant neoplasm of rectosigmoid junction>  ~ 
+? C83.3   Reticulosarcom   [titlu: Celule mari (difuze)]  <Diffuse large B-cell lymphoma>  ~ 
+? C91.4   Reticulo-endotelioza leucemica   [titlu: Leucemia cu celule paroase]  <Hairy cell leukemia>  ~ 
+? C96.1   Reticuloza histiocitica medulara   [titlu: Histiocitoza maligna]  <>  ~ 
+? D17.7   Retroperitoneu   [titlu: Tumora lipomatoasa benigna cu alte localizari]  <Benign lipomatous neoplasm of other sites>  ~ Hemoperitoneu
+? D73.5   Ruptura splenica, nontraumatica   [titlu: Infarctul splinei]  <Infarction of spleen>  ~ Ruptura de splina
+? D76.1   Reticuloza hemofagocitara familiala   [titlu: Limfohistiocitoza hemofagocitara]  <Hemophagocytic lymphohistiocytosis>  ~ Limfohistiocitoza hemofagocitara
+? D76.3   Reticulohistiocitom (celule gigante)   [titlu: Alte sindroame histiocitare]  <Other histiocytosis syndromes>  ~ Reticulohistiocitoza
+? E07.9   Reglementarea intolerantei la glucoza si diabetul mellitus   [titlu: Afectiunea tiroidei, nespecificata]  <Disorder of thyroid, unspecified>  ~ Intoleranta la glucoza
+? F21     Reactie schizofrenica latenta   [titlu: Tulburare schizotipala]  <Schizotypal disorder>  ~ 
+? F23.3   Reactie paranoica   [titlu: Alte tulburari psihotice acute predominant delirante]  <>  ~ 
+? F42.1   ritualuri obsedante   [titlu: Acte predominant compulsive [ritualuri obsedante]]  <>  ~ 
+? F43.2   Reactie la mahnire ada   [titlu: Tulburare de adaptare]  <Adjustment disorders>  ~ 
+? F69     Retardare mentala   [titlu: Tulburare nespecificata de personalitate si de comportament la adult]  <Unspecified disorder of adult personality and behavior>  ~ 
+? F81.0   Retardarea specifica privind citirea   [titlu: Tulburari specifice de citire]  <Specific reading disorder>  ~ 
+? F81.1   Retardare specifica de rostire (fara tulburarea de citire)   [titlu: Tulburari specifice de rostire si ortografie]  <>  ~ 
+? F84.1   Retardare mentala cu trasaturi autistice   [titlu: Autism atipic]  <>  ~ 
+? F84.2   Retardarea mentala severa rezulta aproape invariabil   [titlu: Sindromul Rett]  <Rett's syndrome>  ~ 
+? F90.9   Reactie hiperkinetica a copilariei sau adolescentei   [titlu: Tulburare hiperkinetica, nespecificata]  <Attention-deficit hyperactivity disorder, unspecified type>  ~ 
+? G90.1   Riley-Day   [titlu: Disautonomia familiala [Riley-Day]]  <Familial dysautonomia [Riley-Day]>  ~ Sindrom Riley-Day
+? H02.8   Retentia de corp strain in pleoapa   [titlu: Alte afectiuni specificate ale pleoapei]  <Other specified disorders of eyelid>  ~ 
+? H18.3   Ruptura membranei Descemet   [titlu: Alteratia membranelor corneene]  <Changes of corneal membranes>  ~ 
+? H21.5   Recesiunea unghiului iridocorneean   [titlu: Alte aderente si perturbari ale irisului si corpilor ciliari]  <Other and unspecified adhesions and disruptions of iris and ciliary body>  ~ 
+? H30.9   Retinita   [titlu: Chorioretinita, nespecificata]  <Unspecified chorioretinal inflammation>  ~ Rinita | Retinita cu citomegalovirus
+? H30.9   Retinochoroidita   [titlu: Chorioretinita, nespecificata]  <Unspecified chorioretinal inflammation>  ~ 
+? H31.0   Retinita solara   [titlu: Cicatrice chorioretiniana]  <Chorioretinal scars>  ~ 
+? H36     Retinopatia aterosclerotica   [titlu: Afectiuni retiniene in boli clasificate altundeva]  <Retinal disorders in diseases classified elsewhere>  ~ 
+? H36     Retinopatia proliferanta in anemia cu hematii falciforme   [titlu: Afectiuni retiniene in boli clasificate altundeva]  <Retinal disorders in diseases classified elsewhere>  ~ Anemie falciforma
+? H44.5   Retractia globului ocular   [titlu: Afectiuni degenerative ale globului ocular]  <Degenerated conditions of globe>  ~ Enoftalmie | Sindrom Duane | Exoftalmie
+? H93.2   Recuperare auditorie   [titlu: Alte perceptii de auz anormale]  <Other abnormal auditory perceptions>  ~ 
+? I28.8   Ruptura vaselor pulmonare   [titlu: Alte boli specificate ale vaselor pulmonare]  <Other diseases of pulmonary vessels>  ~ 
+? I60.8   Ruptura malformatiei arteriovenoase cerebrale   [titlu: Alte hemoragii subarahnoide]  <Other nontraumatic subarachnoid hemorrhage>  ~ Malformatie arteriovenoasa cerebrala
+? I70.1   Rinichi Goldblatt   [titlu: Ateroscleroza arterei renale]  <Atherosclerosis of renal artery>  ~ 
+? I71.8   Ruptura aortei   [titlu: Anevrismul aortic cu localizare nespecificata, cu ruptura]  <Aortic aneurysm of unspecified site, ruptured>  ~ Ruptura coroidiana
+? I89.8   Reticuloza lipomelanotica   [titlu: Alte afectiuni neinfectioase specificate ale vaselor limfatice si ganglionilor limfatici]  <Other specified noninfective disorders of lymphatic vessels and lymph nodes>  ~ 
+? J30.3   Rinita alergica persistenta   [titlu: Alte rinite alergice]  <>  ~ Rinita | Rinita alergica | Rinita alergica perena
+? J98.5   Retractia mediastinului   [titlu: Bolile mediastinului, neclasificate altundeva]  <Diseases of mediastinum, not elsewhere classified>  ~ 
+? J98.6   Relaxarea diafragmului   [titlu: Bolile diafragmului]  <Disorders of diaphragm>  ~ Eventratie diafragmatica
+? K07.1   Retrognatism (mandibular) (maxilar)   [titlu: Anomalii de raport intre maxilare si baza craniului]  <>  ~ Retrognatism
+? K07.3   Rotatia unuia sau mai multor dinti   [titlu: Anomalii pozitionale ale dintilor]  <>  ~ 
+? K21.9   Reflux esofagian   [titlu: Boala refluxului gastro-esofagian fara esofagita]  <Gastro-esophageal reflux disease without esophagitis>  ~ Reflux gastroesofagian
+? K22.3   Ruptura esofagului   [titlu: Perforatia esofagului]  <Perforation of esophagus>  ~ Duplicatie esofagiana
+? K56.2   Rasucirea colonului sau intestinului   [titlu: Volvulus]  <Volvulus>  ~ 
+? K83.2   Ruptura cailor biliare   [titlu: Perforatia cailor biliare]  <Perforation of bile duct>  ~ 
+? L02.3   Regiunea fesiera   [titlu: Abces cutanat, furuncul si furuncul antracoid al fesei]  <Cutaneous abscess, furuncle and carbuncle of buttock>  ~ 
+? M23.2   Ruptura veche in 'maner de galeata'   [titlu: Leziunea meniscului datorita unei rupturi sau leziuni vechi]  <Derangement of meniscus due to old tear or injury>  ~ 
+? M34.1   Raynaud, disfunctiei esofagiene, sclerodactiliei, telangiectaziei   [titlu: Sindromul CR(E)ST]  <CR(E)ST syndrome>  ~ 
+? N64.5   Retractia mamelonului   [titlu: Alte semne si simptome observate la san]  <Other signs and symptoms in breast>  ~ 
+? N85.4   Retroflexia uterului   [titlu: Malpozitia uterului]  <Malposition of uterus>  ~ 
+? N85.4   Retroversia uterului   [titlu: Malpozitia uterului]  <Malposition of uterus>  ~ 
+? O00.1   Ruptura trompei (Fallope) datorita sarcinii   [titlu: Sarcina tubara]  <Tubal pregnancy>  ~ 
+? O72.0   Retentia placentei   [titlu: Hemoragia dupa nastere (perioada a treia)]  <Third-stage hemorrhage>  ~ Retentie de placenta | Retentie de resturi placentare
+? O72.2   Retentia produselor de conceptie , urmand nasterii   [titlu: Hemoragia postpartum, tardiva si secundara]  <Delayed and secondary postpartum hemorrhage>  ~ 
+? P05.9   Restrictionarea cresterii fetale   [titlu: Cresterea lenta a fatului, nespecificata]  <Newborn affected by slow intrauterine growth, unspecified>  ~ 
+? P05.9   Retardare de crestere   [titlu: Cresterea lenta a fatului, nespecificata]  <Newborn affected by slow intrauterine growth, unspecified>  ~ 
+? P15.0   Ruptura ficatului datorita traumatismului obstetrical   [titlu: Traumatismul la nastere al ficatului]  <Birth injury to liver>  ~ 
+? P15.1   Ruptura splinei datorita traumatismului obstetrical   [titlu: Traumatism la nastere al splinei]  <Birth injury to spleen>  ~ Ruptura de splina
+? Q22.2   Reflux congenital la nivelul valvei pulmonare   [titlu: Insuficienta congenitala a valvei pulmonare]  <Congenital pulmonary valve insufficiency>  ~ Boala valvulara pulmonara
+? Q42.1   Rect imperforat   [titlu: Absenta, atrezia si stenoza congenitala a rectului, fara fistula]  <Congenital absence, atresia and stenosis of rectum without fistula>  ~ 
+? Q61.40  Rinichi displazic multichistic   [titlu: Displazia renala, nespecificata]  <>  ~ Displazie renala multichistica
+? Q61.41  Rinichi displazic multichistic, unilateral   [titlu: Displazia renala chistica, unilaterala]  <>  ~ Displazie renala multichistica
+? Q61.42  Rinichi displazic multichistic, bilateral   [titlu: Displazia renala chistica, bilaterala]  <>  ~ Displazie renala multichistica
+? Q63.09  Rinichi accesoriu   [titlu: Alte forme de rinichi accesoriu]  <>  ~ 
+? Q63.19  Rinichi lobular fara ectopie   [titlu: Alte anomalii de contopire a rinichiului specificate]  <>  ~ 
+= H21.1   Rubeoza irisului  -> Rubeoza iriana
+= H95.9   Reumatismul articular acut  -> Febra reumatica
+= J34.8   Rinolit  -> Rinolit
