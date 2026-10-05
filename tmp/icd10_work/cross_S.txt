@@ -1,0 +1,289 @@
+? A02.0   Salmonelloza   [titlu: Enterita cu Salmonella]  <Salmonella enteritis>  ~ Salmoneloza
+? A07.8   Sarcocystoza   [titlu: Alte boli intestinale prin protozoare, specificate]  <Other specified protozoal intestinal diseases>  ~ 
+? A07.8   Sarcosporidioza   [titlu: Alte boli intestinale prin protozoare, specificate]  <Other specified protozoal intestinal diseases>  ~ Rinosporidioza | Sarcoidoza | Microsporidioza
+? A66.0   Sancrul pianic   [titlu: Leziunile initiale ale pianului]  <Initial lesions of yaws>  ~ 
+? A67.0   Sancrul (initial) al pintei [carate]   [titlu: Leziunile initiale de pinta]  <Primary lesions of pinta>  ~ 
+? B00.7   Sepsis cu virus herpetic   [titlu: Boala diseminata cu virus herpetic]  <Disseminated herpesviral disease>  ~ 
+? B08.8   Sindromul picior-gura   [titlu: Alte infectii virale caracterizate prin leziuni cutaneo-mucoase]  <Other specified viral infections characterized by skin and mucous membrane lesions>  ~ 
+? B08.8   Sindromul viral Tanapox   [titlu: Alte infectii virale caracterizate prin leziuni cutaneo-mucoase]  <Other specified viral infections characterized by skin and mucous membrane lesions>  ~ 
+? B08.8   Sindromul viral Yabapox   [titlu: Alte infectii virale caracterizate prin leziuni cutaneo-mucoase]  <Other specified viral infections characterized by skin and mucous membrane lesions>  ~ 
+? B24     Sindromul dobandit al imunodeficientei [AIDS]   [titlu: Bolile prin virusul imunodeficientei umane [HIV] nespecificate]  <>  ~ Imunodeficiente secundare | Sida
+? B35.0   Sicoza, micotica   [titlu: Tinea barbii si partii paroase a capului]  <Tinea barbae and tinea capitis>  ~ Tinea barbae | Sinuzita fungica
+? B35.6   Scabia Dhobi   [titlu: Tinea crurala]  <Tinea cruris>  ~ 
+? B35.6   Scabia Jock   [titlu: Tinea crurala]  <Tinea cruris>  ~ 
+? B48.3   Stomatita prin Geotrichum   [titlu: Geotrichoza]  <Geotrichosis>  ~ 
+? B88.2   Scarabiaza   [titlu: Alte infestatii prin artropode]  <Other arthropod infestations>  ~ Ascaridioza
+? B89     Sechelele unor boli infectioase si parazitare   [titlu: Boli parazitare nespecificate]  <Unspecified parasitic disease>  ~ 
+? C18.7   Sigmoid [unghi]   [titlu: Colonul sigmoid]  <Malignant neoplasm of sigmoid colon>  ~ 
+? C21.1   Sfincterul anal   [titlu: Canalul anal]  <Malignant neoplasm of anal canal>  ~ 
+? C22.3   Sarcomul celulelor Kupffer   [titlu: Angiosarcomul ficatului]  <Angiosarcoma of liver>  ~ Angiosarcom hepatic
+? C30.0   Septul nasului   [titlu: Fosele nazale]  <Malignant neoplasm of nasal cavity>  ~ 
+? C49.6   Spate   [titlu: Tesutul conjunctiv si tesuturile moi ale trunchiului, nespecificat]  <Malignant neoplasm of connective and soft tissue of trunk, unspecified>  ~ 
+? C54.0   Segmentul uterin inferior   [titlu: Istm uterin]  <Malignant neoplasm of isthmus uteri>  ~ 
+? C68.9   Sistemul urinar   [titlu: Organ urinar, nespecificat]  <Malignant neoplasm of urinary organ, unspecified>  ~ 
+? C69.5   Sacul lacrimal   [titlu: Glanda lacrimala si canalul lacrimal]  <Malignant neoplasm of lacrimal gland and duct>  ~ Dacriocistita | Fistula lacrimala | Mucocel de sac lacrimal | Dacriolit
+? C71.0   Supratentorial   [titlu: Creierul, exceptand lobii si ventriculii]  <Malignant neoplasm of cerebrum, except lobes and ventricles>  ~ 
+? D02.3   Sinusurile accesorii   [titlu: Alte parti ale sistemului respirator]  <Carcinoma in situ of other parts of respiratory system>  ~ 
+? D13.9   Sistemul digestiv   [titlu: Localizari rau definite ale sistemului digestiv]  <Benign neoplasm of ill-defined sites within the digestive system>  ~ Fistula intestinala
+? D13.9   Splina   [titlu: Localizari rau definite ale sistemului digestiv]  <Benign neoplasm of ill-defined sites within the digestive system>  ~ 
+? D21.6   Spate   [titlu: Tesut conjunctiv si alte tesuturi moi ale trunchiului, nespecificate]  <Benign neoplasm of connective and other soft tissue of trunk, unspecified>  ~ 
+? D30.9   Sistemul urinar   [titlu: Organe urinare, nespecificate]  <Benign neoplasm of urinary organ, unspecified>  ~ 
+? D31.5   Sacul lacrimal   [titlu: Glande lacrimale si canal lacrimal]  <Benign neoplasm of lacrimal gland and duct>  ~ Dacriocistita | Fistula lacrimala | Mucocel de sac lacrimal | Dacriolit
+? D38.5   Sinusurile accesorii   [titlu: Alte organe respiratorii]  <Neoplasm of uncertain behavior of other respiratory organs>  ~ 
+? D50.1   Sindromul Kelly-Paterson   [titlu: Disfagia sideropenica]  <Sideropenic dysphagia>  ~ Sindrom Plummer-Vinson
+? D58.8   Stomatocitoza   [titlu: Alte anemii hemolitice ereditare specificate]  <Other specified hereditary hemolytic anemias>  ~ Mastocitoza sistemica | Stomatita
+? D69.1   Sindromul Bernard-Soulier [trombocite gigante)   [titlu: Defecte calitative ale trombocitelor]  <Qualitative platelet defects>  ~ Sindrom Bernard-Soulier
+? D69.1   Sindromul trombocitelor gri   [titlu: Defecte calitative ale trombocitelor]  <Qualitative platelet defects>  ~ 
+? D81.6   Sindromul limfocitelor goale   [titlu: Deficit in complex major de histocompatibilitate clasa I]  <Major histocompatibility complex class I deficiency>  ~ Imunodeficienta cu deficit de HLA clasa II
+? E05.8   Supraproductia de hormon tiroido-stimulant   [titlu: Alte tireotoxicoze]  <Other thyrotoxicosis>  ~ 
+? E06.3   Strumita limfomatoasa   [titlu: Tiroidita autoimuna]  <Autoimmune thyroiditis>  ~ 
+? E07.1   Sindromul Pendred   [titlu: Gusa datorita unei tulburari a sintezei hormonale]  <Dyshormogenetic goiter>  ~ 
+? E07.8   Sindromul disfunctiei eutiroidiene   [titlu: Alte afectiuni specificate ale tiroidei]  <Other specified disorders of thyroid>  ~ 
+? E23.0   Sindromul eunucoidismului fertil   [titlu: Hipopituitarism]  <Hypopituitarism>  ~ 
+? E35.1   Siondromul Waterhouse-Friderichsen (meningococic)   [titlu: Tulburarile glandei adrenale in boli clasificate altundeva]  <>  ~ Sindrom Waterhouse-Friderichsen
+? E65     Sort abdominal sau proeminent   [titlu: Adipozitate localizata]  <Localized adiposity>  ~ 
+? E66.2   Sindromul Pickwickian   [titlu: Obezitate extrema cu hipoventilatie alveolara]  <Morbid (severe) obesity with alveolar hypoventilation>  ~ Hipoventilatie asociata obezitatii
+? E72.0   Sindromul Fanconi(-de Toni)(-Debré)   [titlu: Tulburari in transportul aminoacizilor]  <Disorders of amino-acid transport>  ~ 
+? E72.0   Sindromul Lowe   [titlu: Tulburari in transportul aminoacizilor]  <Disorders of amino-acid transport>  ~ Boala Lowe | Leptospiroza icterica | Sindrom Down | Sindrom metabolic
+? E72.5   Sarcosinemia   [titlu: Tulburari de metabolism al glicinei]  <Disorders of glycine metabolism>  ~ 
+? E77.1   Sialidoza [mucolipidoza I]   [titlu: Deficit de degradare a glicoproteinelor]  <Defects in glycoprotein degradation>  ~ Sialidoza
+? E87.0   Supraincarcare cu sodiu [Na]   [titlu: Hiperosmolaritate si hipernatremie]  <Hyperosmolality and hypernatremia>  ~ 
+? E87.5   Supraincarcare cu potasiu [K]   [titlu: Hiperpotasemie]  <Hyperkalemia>  ~ 
+? F06.0   Stare de halucinatie organica (nealcoolica)   [titlu: Halucinoza organica]  <Psychotic disorder with hallucinations due to known physiological condition>  ~ 
+? F06.2   Starile organice paranoice si halucinant-paranoice   [titlu: Tulburare deliranta [de alura schizofrenica] organica]  <Psychotic disorder with delusions due to known physiological condition>  ~ 
+? F09     Sindromul cerebral alcoolic cronic   [titlu: Tulburare mentala organica sau simptomatica, nespecificata]  <Unspecified mental disorder due to known physiological condition>  ~ 
+? F19     Schizofrenie, tulburari schizotipale si delirante   [titlu: Tulburari mentale si de comportament datorite folosirii drogurilor multiple si altor substante psihoactive]  <Other psychoactive substance related disorders>  ~ 
+? F20.8   Schizofrenia cenestopata   [titlu: Alte forme de schizofrenie]  <Other schizophrenia>  ~ 
+? F22.8   Stare paranoica involutionala   [titlu: Alte tulburari delirante persistente]  <>  ~ 
+? F23.2   Schizofrenie acuta (nediferentiata)   [titlu: Tulburare psihotica acuta asemanatoare schizofreniei]  <>  ~ Schizofrenie nediferentiata
+? F25.2   Schizofrenia ciclica   [titlu: Tulburari schizo-afective, tip mixt]  <>  ~ Schizofrenie nediferentiata
+? F40.9   Stare fobica   [titlu: Tulburari anxioase fobice, nespecificate]  <Phobic anxiety disorder, unspecified>  ~ Febra
+? F43.2   Soc cultural   [titlu: Tulburare de adaptare]  <Adjustment disorders>  ~ 
+? F43.2   Spitalizare la copil   [titlu: Tulburare de adaptare]  <Adjustment disorders>  ~ 
+? F44.6   Surditate psihogena   [titlu: Anestezie disociativa si pierdere sensoriala]  <Conversion disorder with sensory symptom or deficit>  ~ Presbiacuzie
+? F45.3   Sindromul Da Costa   [titlu: Disfunctia somatoforma autonoma]  <>  ~ Astenie neurocirculatora
+? F48.0   Sindromul de oboseala   [titlu: Neurastenie]  <>  ~ Sindromul oboselii cronice
+? F48.8   Sindrom Dhat   [titlu: Alte tulburari nevrotice specificate]  <Other specified nonpsychotic mental disorders>  ~ Sindrom al articulatiei temporo-mandibulare | Sindrom Dravet | Sindrom DIRA
+? F48.8   Sincopa psihogena   [titlu: Alte tulburari nevrotice specificate]  <Other specified nonpsychotic mental disorders>  ~ Psihoza reactiva | Sincopa cardiaca
+? F52.7   Satiriaza   [titlu: Necesitate sexuala excesiva]  <>  ~ 
+? F62.8   Sindrom de personalitate cu dureri cronice   [titlu: Alte schimbari durabile de personalitate]  <>  ~ 
+? F68.1   Sindromul adresabilitatii frecvente pentru spitalizare   [titlu: Producere intentionata sau simulare a simptomelor sau incapacitatii, fie fizice, fie psihologice [tulburare artificiala]]  <Factitious disorder imposed on self>  ~ 
+? F82     Sindromul copilului impiedicat   [titlu: Tulburare de dezvoltare specifica a functiei motorii]  <Specific developmental disorder of motor function>  ~ 
+? F84.3   Sindromul Heller   [titlu: Alta tulburare de dezintegrare a copilariei]  <Other childhood disintegrative disorder>  ~ Sindrom HELLP | Leptospiroza icterica | Sindrom Hurler
+? F94.2   Sindrom institutional   [titlu: Tulburari privind dezinhibitia fata de anturaj in copilarie]  <Disinhibited attachment disorder of childhood>  ~ 
+? F98.8   Scobitul in nas   [titlu: Alte tulburari specificate ale tulburarilor comportamentale si emotionale cu debut de obicei in copilarie si adolescenta]  <Other specified behavioral and emotional disorders with onset usually occurring in childhood and adolescence>  ~ 
+? F98.8   Sugerea policelui   [titlu: Alte tulburari specificate ale tulburarilor comportamentale si emotionale cu debut de obicei in copilarie si adolescenta]  <Other specified behavioral and emotional disorders with onset usually occurring in childhood and adolescence>  ~ 
+? G23.1   Steele-Richardson-Olszewski   [titlu: Oftalmoplegia supranucleara pregresiva [Steele-Richardson-Olszewski]]  <Progressive supranuclear ophthalmoplegia [Steele-Richardson-Olszewski]>  ~ Paralizie supranucleara progresiva
+? G25.8   Sindromul omului teapan   [titlu: Alte tulburari extrapiramidale si de motricitate specificate]  <Other specified extrapyramidal and movement disorders>  ~ 
+? G45.9   Spasm al arterei cerebrale   [titlu: Atac ischemic cerebral tranzitoriu, nespecificat]  <Transient cerebral ischemic attack, unspecified>  ~ Anevrism cerebral
+? G47.2   Sindrom de retard al fazelor de somn   [titlu: Tulburari de ciclu veghe-somn]  <Circadian rhythm sleep disorders>  ~ 
+? G50.0   Sindromul nevralgiei faciale paroxistice   [titlu: Nevralgia de trigemen]  <Trigeminal neuralgia>  ~ Tic dureros
+? G54.0   Sindromul toracelui cu supapa   [titlu: Afectiunile plexului brahial]  <Brachial plexus disorders>  ~ 
+? G54.5   Sindromul Parsonage-Aldren-Turner   [titlu: Nevralgia amiotrofica]  <Neuralgic amyotrophy>  ~ Amiotrofia nevralgica
+? G57.1   Sindromul nervului cutanat lateral al coapsei   [titlu: Meralgia parestezica]  <Meralgia paresthetica>  ~ 
+? G60.8   Sindromul Nelaton   [titlu: Alte neuropatii ereditare si idiopatice]  <Other hereditary and idiopathic neuropathies>  ~ Sindrom Angelman | Sindrom Nelson | Sindrom Felty
+? G80.8   Sindroame mixte de paralizii cerebrale   [titlu: Alte paralizii cerebrale]  <Other cerebral palsy>  ~ 
+? G90.0   Sincopa sinusului carotidian   [titlu: Neuropatia autonoma periferica idiopatica]  <Idiopathic peripheral autonomic neuropathy>  ~ Sincopa de sinus carotidian
+? G99.2   Sindroame de compresiune a arterei vertebrale si spinale anterioare   [titlu: Mielopatia in boli clasificate altundeva]  <Myelopathy in diseases classified elsewhere>  ~ Sindromul arterei spinale anterioare
+? H15.8   Stafilom ecuatorial   [titlu: Alte afectiuni ale sclerei]  <Other disorders of sclera>  ~ 
+? H15.8   Sclerectazia   [titlu: Alte afectiuni ale sclerei]  <Other disorders of sclera>  ~ Stafilom scleral
+? H31.1   Scleroza choroidei   [titlu: Degenerescenta choroidiana]  <Choroidal degeneration>  ~ 
+? H35.0   Schimbari in aparitia vaselor retiniene   [titlu: Retinopatia de fond si modificarile vasculare ale retinei]  <Background retinopathy and retinal vascular changes>  ~ 
+? H35.3   Striatii angioide ale maculei   [titlu: Degenerescenta maculei si polului posterior]  <Degeneration of macula and posterior pole>  ~ 
+? H44.3   Sideroza ochiului   [titlu: Alte afectiuni degenerative ale globului ocular]  <Other and unspecified degenerative disorders of globe>  ~ 
+? H50.4   Strabism concomitent   [titlu: Alte heterotropii si nespecificate]  <Other and unspecified heterotropia>  ~ 
+? H50.4   Sindrom de monofixare   [titlu: Alte heterotropii si nespecificate]  <Other and unspecified heterotropia>  ~ 
+? H52.5   Spasm de acomodare   [titlu: Tulburari de acomodare]  <Disorders of accommodation>  ~ Spasm de acomodatie
+? H53.1   Scotom scintilant   [titlu: Tulburari subiective de vedere]  <Subjective visual disturbances>  ~ 
+? H68.1   Stenoza trompei Eustache   [titlu: Obstructia trompei Eustache]  <Obstruction of Eustachian tube>  ~ 
+? H68.1   Strictura trompei Eustache   [titlu: Obstructia trompei Eustache]  <Obstruction of Eustachian tube>  ~ 
+? H81.0   Sindromul sau vertijul Ménière   [titlu: Boala Ménière]  <Meniere's disease>  ~ Boala Meniere
+? H81.3   Sindromul Lermoyez   [titlu: Alte vertijuri periferice]  <Other peripheral vertigo>  ~ Sindrom Reye
+? H81.9   Sindromul de vertij   [titlu: Afectiunea functiei vestibulare, nespecificata]  <Unspecified disorder of vestibular function>  ~ Vertij
+? H93.0   Surditate ischemica tranzitorie   [titlu: Afectiuni vasculare si degenerative ale urechii]  <Degenerative and vascular disorders of ear>  ~ 
+? I20.8   Stenocardia   [titlu: Alte forme de angina pectorala]  <Other forms of angina pectoris>  ~ Endocardita
+? I28.8   Stenoza vaselor pulmonare   [titlu: Alte boli specificate ale vaselor pulmonare]  <Other diseases of pulmonary vessels>  ~ Stenoza pulmonara
+? I28.8   Strictura vaselor pulmonare   [titlu: Alte boli specificate ale vaselor pulmonare]  <Other diseases of pulmonary vessels>  ~ 
+? I34.1   Sindromul prolapsului valvei mitrale   [titlu: Prolapsul (valva) mitral]  <Nonrheumatic mitral (valve) prolapse>  ~ Prolaps de valva mitrala
+? I42.1   Stenoza subaortica hipertrofica   [titlu: Cardiomiopatia hipertrofica obstructiva]  <Obstructive hypertrophic cardiomyopathy>  ~ Cardiomiopatie hipertrofica | Stenoza subaortica | Estenoza pilorica hipertrofica
+? I44.6   Semibloc al ramurii stangi a fascicolului   [titlu: Alte blocuri fasciculare si nespecificate]  <Other and unspecified fascicular block>  ~ 
+? I45.9   Sindromul Stokes-Adams   [titlu: Tulburari de conducere, nespecificate]  <Conduction disorder, unspecified>  ~ 
+? I47.9   Sindromul Bouveret(-Hoffmann)   [titlu: Tahicardia paroxistica, nespecificata]  <Paroxysmal tachycardia, unspecified>  ~ 
+? I70.2   Scleroza (mijlocie) Mönckeberg   [titlu: Ateroscleroza arterelor extremitatilor]  <Atherosclerosis of native arteries of the extremities>  ~ Scleroza Monckeberg
+? I73.9   Spasmul arterei   [titlu: Boala vasculara periferica, nespecificata]  <Peripheral vascular disease, unspecified>  ~ Spasm coronarian
+? I74.0   Sindromul bifurcatiei aortice   [titlu: Embolia si tromboza aortei abdominale]  <Embolism and thrombosis of abdominal aorta>  ~ Sindrom Leriche
+? I87.1   Stenoza venei   [titlu: Compresiunea venei]  <Compression of vein>  ~ 
+? I87.1   Sindromul venei cave (inferior) (superior)   [titlu: Compresiunea venei]  <Compression of vein>  ~ 
+? J01.8   Sinuzita acuta implicand mai mult decat un sinus dar fara pansinuzita   [titlu: Alte sinuzite acute]  <Other acute sinusitis>  ~ 
+? J32.8   Sinuzita (cronica) la mai mult de un sinus dar nu pansinuzita   [titlu: Alte sinuzite cronice]  <Other chronic sinusitis>  ~ 
+? J33.1   Sindromul Woakes sau etmoidita   [titlu: Degenerescenta polipoida a sinusului]  <Polypoid sinus degeneration>  ~ 
+? J68.3   Sindromul disfunctiei reactive a cailor respiratorii   [titlu: Alte afectiuni respiratorii acute si subacute datorita substantelor chimice, emanatiilor de gaze, fumuri si vapori]  <Other acute and subacute respiratory conditions due to chemicals, gases, fumes and vapors>  ~ 
+? J84.1   Sindromul Hamman-Rich   [titlu: Alte boli pulmonare interstitiale cu fibroza]  <Other interstitial pulmonary diseases with fibrosis>  ~ 
+? J95.0   Sepsis al orificiului traheostomiei   [titlu: Functionarea defectuoasa a unei traheostomii]  <Tracheostomy complications>  ~ 
+? J98.0   Stenoza bronhiilor   [titlu: Afectiuni ale traheii si bronhiilor, neclasificate altundeva]  <Diseases of bronchus, not elsewhere classified>  ~ Stenoza bronsica
+? K00.3   Smalt patat   [titlu: Dinti patati]  <Mottled teeth>  ~ 
+? K00.8   Schimbarea culorii in timpul formarii dintelui   [titlu: Alte tulburari de odontogeneza]  <Other disorders of tooth development>  ~ 
+? K03.8   Smalt iradiat   [titlu: Alte boli specificate ale tesutului dentar dur]  <Other specified diseases of hard tissues of teeth>  ~ 
+? K03.8   Sensibilitatea dentitei   [titlu: Alte boli specificate ale tesutului dentar dur]  <Other specified diseases of hard tissues of teeth>  ~ 
+? K07.3   Spatiere anormala a unuia sau mai multor dinti   [titlu: Anomalii pozitionale ale dintilor]  <>  ~ 
+? K07.6   Sindrom sau complex Costen   [titlu: Afectiunea articulatiei temporo-mandibulare]  <>  ~ 
+? K07.6   Sindrom de disfunctie dureroasa a articulatiei temporo-mandibulare   [titlu: Afectiunea articulatiei temporo-mandibulare]  <>  ~ Sindrom al articulatiei temporo-mandibulare
+? K08.8   Structura alveolara neregulata   [titlu: Alte afectiuni specificate ale dintilor si parodontiului]  <Other specified disorders of teeth and supporting structures>  ~ 
+? K10.2   Sechestru de os al maxilarului   [titlu: Afectiuni inflamatorii ale maxilarelor]  <>  ~ 
+? K11.8   Sialometaplazia necrozanta   [titlu: Alte boli ale glandelor salivare]  <Other diseases of salivary glands>  ~ 
+? K11.8   Sialectazia   [titlu: Alte boli ale glandelor salivare]  <Other diseases of salivary glands>  ~ 
+? K11.8   Stenoza canalului salivar   [titlu: Alte boli ale glandelor salivare]  <Other diseases of salivary glands>  ~ Stenoza de conduct auditiv extern
+? K11.8   Scleroza canalului salivar   [titlu: Alte boli ale glandelor salivare]  <Other diseases of salivary glands>  ~ 
+? K11.9   Sialoadenopatia   [titlu: Boala glandelor salivare, nespecificata]  <Disease of salivary gland, unspecified>  ~ 
+? K12.0   Stomatita aftoasa (majora) (minora)   [titlu: Afte bucale recidivante]  <Recurrent oral aphthae>  ~ Stomatita
+? K12.0   Stomatita herpetiforma   [titlu: Afte bucale recidivante]  <Recurrent oral aphthae>  ~ Gingivostomatita herpetica | Dermatita herpetiforma | Hepatita herpetica
+? K22.2   Scleroza esofagului   [titlu: Obstructia esofagului]  <Esophageal obstruction>  ~ 
+? K22.2   Stenoza esofagului   [titlu: Obstructia esofagului]  <Esophageal obstruction>  ~ Stenoza de esofag cicatriceala | Atrezie esofagiana | Estenoza esofagiana
+? K22.4   Spasm al esofagului   [titlu: Dischinezia esofagului]  <Dyskinesia of esophagus>  ~ Melanom esofagian
+? K31.5   Stenoza duodenului   [titlu: Obstructia duodenului]  <Obstruction of duodenum>  ~ Stenoza duodenala
+? K31.5   Scleroza duodenului   [titlu: Obstructia duodenului]  <Obstruction of duodenum>  ~ 
+? K38.1   Stercolitul apendicelui   [titlu: Concretiuni apendiculare]  <Appendicular concretions>  ~ 
+? K56.2   Strangularea colonului sau intestinului   [titlu: Volvulus]  <Volvulus>  ~ 
+? K56.6   Stenoza colonului sau intestinului   [titlu: Alte obstructii intestinale si nespecificate]  <Other and unspecified intestinal obstruction>  ~ 
+? K56.6   Scleroza colonului sau intestinului   [titlu: Alte obstructii intestinale si nespecificate]  <Other and unspecified intestinal obstruction>  ~ 
+? K77.0   Schistosomiaza hepato-splenica   [titlu: Tulburari hepatice in boli infectioase si parazitare clasificate altundeva]  <>  ~ Schistosomiaza hepatoesplenica
+? K83.1   Stenoza cailor biliare fara calculi   [titlu: Obstructia cailor biliare]  <Obstruction of bile duct>  ~ Litiaza biliara
+? K83.1   Strictura cailor biliare fara calculi   [titlu: Obstructia cailor biliare]  <Obstruction of bile duct>  ~ Estenoza biliara | Litiaza biliara
+? K90.0   Steatoreea idiopatica   [titlu: Boala celiaca]  <Celiac disease>  ~ 
+? K90.0   Sprue netropical   [titlu: Boala celiaca]  <Celiac disease>  ~ Sprue tropical
+? K91.2   Sindromul postprocedural de ansa oarba   [titlu: Malabsorbtia postprocedurala, neclasificata altundeva]  <Postsurgical malabsorption, not elsewhere classified>  ~ 
+? L02.2   Spate [orice parte, cu exceptia feselor]   [titlu: Abces cutanat, furuncul si furuncul antracoid al trunchiului]  <Cutaneous abscess, furuncle and carbuncle of trunk>  ~ 
+? L02.4   Sold   [titlu: Abces cutanat, furuncul si carbuncul al membrului]  <Cutaneous abscess, furuncle and carbuncle of limb>  ~ 
+? L02.8   Scalp   [titlu: Abces cutanat, furuncul si furuncul antracoid cu alte localizari]  <Cutaneous abscess, furuncle and carbuncle of other sites>  ~ 
+? L03.11  Sold   [titlu: Celulita membrului inferior]  <Cellulitis of other parts of limb>  ~ 
+? L03.3   Spate [orice parte]   [titlu: Celulita trunchiului]  <Cellulitis and acute lymphangitis of trunk>  ~ 
+? L03.8   Scalp   [titlu: Celulita cu alte localizari]  <Cellulitis and acute lymphangitis of other sites>  ~ 
+? L04.3   Sold   [titlu: Limfadenita acuta a membrului inferior]  <Acute lymphadenitis of lower limb>  ~ 
+? L10.4   Sindromul Senear-Usher   [titlu: Pemfigus eritematos]  <Pemphigus erythematosus>  ~ 
+? L11     stratul spinos al pielii   [titlu: Alte tulburari acantolitice (stratul spinos al pielii)]  <Other acantholytic disorders>  ~ 
+? L73.8   Sicozis al barbii   [titlu: Alte forme specificate de tulburari foliculare]  <Other specified follicular disorders>  ~ Sicoza stafilococica | Tinea barbae
+? L98.2   Sweet   [titlu: Dermatoza neutrofila febrila [Sweet]]  <Febrile neutrophilic dermatosis [Sweet]>  ~ Sindrom Sweet
+? M08.3   sero-negativa   [titlu: Poliartrita juvenila (sero-negativa)]  <Juvenile rheumatoid polyarthritis (seronegative)>  ~ 
+? M24.8   Sold iritabil   [titlu: Alte afectiuni articulare specifice, neclasificate altundeva]  <Other specific joint derangements, not elsewhere classified>  ~ Sindromul intestinului iritabil
+? M30.8   Sindromul de poliangeita extensiva   [titlu: Alte afectiuni inrudite cu poliarterita nodoasa]  <Other conditions related to polyarteritis nodosa>  ~ 
+? M43.9   Spondilopatii   [titlu: Dorsopatia deformanta, nespecificata]  <Deforming dorsopathy, unspecified>  ~ 
+? M47.8   Spondiloza cervicala fara mielopatie sau radiculopatie   [titlu: Alte spondiloze]  <Other spondylosis>  ~ Mielopatia cervicala spondilogena | Radiculopatie cervicala | Spondiloza
+? M47.8   Spondiloza lombo-sacrala fara mielopatie sau radiculopatie   [titlu: Alte spondiloze]  <Other spondylosis>  ~ 
+? M47.8   Spondiloza toracica fara mielopatie sau radiculopatie   [titlu: Alte spondiloze]  <Other spondylosis>  ~ Radiculopatie toracica
+? M51.1   Sciatica datorita unei afectiuni a discului intervertebral   [titlu: Tulburari ale discului lombar si ale altor discuri intervertebrale cu radiculopatie (G55.1*)]  <Thoracic, thoracolumbar and lumbosacral intervertebral disc disorders with radiculopathy>  ~ 
+? M76.8   Sindromul tibial anterior   [titlu: Alte entezopatii ale membrului inferior, exceptind piciorul]  <Other specified enthesopathies of lower limb, excluding foot>  ~ 
+? M89.0   Sindromul umar-mana   [titlu: Algoneurodistrofia]  <Algoneurodystrophy>  ~ Sindrom Marfan
+? N25.8   Sindromul Lightwood-Albright   [titlu: Alte tulburari datorite unei functionari tubulare renale deficitare]  <Other disorders resulting from impaired renal tubular function>  ~ 
+? N26     Scleroza renala   [titlu: Rinichi scleros nespecificat]  <Unspecified contracted kidney>  ~ Nefropatie hipertensiva | Arterioscleroza
+? N60.1   San chistic   [titlu: Mastopatia chistica difuza]  <Diffuse cystic mastopathy>  ~ 
+? N64.5   Scurgere prin mamelon   [titlu: Alte semne si simptome observate la san]  <Other signs and symptoms in breast>  ~ 
+? N64.8   Subinvolutia sanului (postlactatie)   [titlu: Alte afectiuni specificate ale sanului]  <Other specified disorders of breast>  ~ 
+? N83.8   Sindromul laceratiei ligamentului larg [Allen-Masters]   [titlu: Alte afectiuni neinflamatorii ale ovarului, trompei Fallope si ligamentului larg]  <Other noninflammatory disorders of ovary, fallopian tube and broad ligament>  ~ 
+? N90.5   Stenoza vulvei   [titlu: Atrofia vulvei]  <Atrophy of vulva>  ~ 
+? N92.1   Sangerare intermenstruala neregulata   [titlu: Menstruatie excesiva si frecventa cu ciclu menstrual neregulat]  <Excessive and frequent menstruation with irregular cycle>  ~ 
+? N92.2   Sangerare excesiva asociata cu debutul ciclurilor menstruale   [titlu: Menstruatie excesiva la pubertate]  <Excessive menstruation at puberty>  ~ Menoragie
+? N92.2   Sangerare la pubertate   [titlu: Menstruatie excesiva la pubertate]  <Excessive menstruation at puberty>  ~ 
+? N93.8   Sangerare disfunctionala sau functionala a uterului sau vaginului   [titlu: Alte sangerari anormale specificate ale uterului si vaginului]  <Other specified abnormal uterine and vaginal bleeding>  ~ 
+? N99.8   Sindromul ovarului rezidual   [titlu: Alte afectiuni postprocedurale ale sistemului genito-urinar]  <Other intraoperative and postprocedural complications and disorders of genitourinary system>  ~ Sindrom de rezistenta ovariana
+? N99.9   Sarcina, nasterea si lauzia   [titlu: Afectiune postprocedurala a sistemului genito-urinar, nespecificata]  <>  ~ 
+? N99.9   Sarcina terminata prin avort   [titlu: Afectiune postprocedurala a sistemului genito-urinar, nespecificata]  <>  ~ 
+? O08.8   Stop cardiac dupa afectiunile clasificabile la   [titlu: Alte complicatii urmand avortului si sarcinii ectopice si molare]  <Other complications following an ectopic and molar pregnancy>  ~ Stop cardiac
+? O29.0   Sindrom Mendelson datorit unei anestezii in cursul sarcinii   [titlu: Complicatiile pulmonare ale unei anestezii in timpul sarcinii]  <Pulmonary complications of anesthesia during pregnancy>  ~ 
+? O35.0   suspectata   [titlu: Ingrijiri acordate mamei pentru o malformatie (suspectata) a sistemului nervos central al fatului]  <Maternal care for (suspected) central nervous system malformation in fetus>  ~ 
+? O35.1   suspectate   [titlu: Ingrijiri acordate mamei pentru anomalii cromozomiale (suspectate) ale fatului]  <Maternal care for (suspected) chromosomal abnormality in fetus>  ~ 
+? O35.2   suspectate   [titlu: Ingrijiri acordate mamei pentru boli ereditare (suspectate) ale fatului]  <Maternal care for (suspected) hereditary disease in fetus>  ~ 
+? O35.3   suspectate   [titlu: Ingrijiri acordate mamei pentru leziuni fetale (suspectate) rezultand de la o boala virala a mamei]  <Maternal care for (suspected) damage to fetus from viral disease in mother>  ~ 
+? O35.4   suspectate   [titlu: Ingrijiri acordate mamei pentru leziuni fetale (suspectate) datorita alcoolismului matern]  <Maternal care for (suspected) damage to fetus from alcohol>  ~ 
+? O35.5   suspectate   [titlu: Ingrijiri acordate mamei pentru leziuni fetale (suspectate) rezultand din medicamente]  <Maternal care for (suspected) damage to fetus by drugs>  ~ 
+? O35.6   suspectate   [titlu: Ingrijiri acordate mamei pentru leziuni fetale (suspectate) datorita iradiatiilor]  <Maternal care for (suspected) damage to fetus by radiation>  ~ 
+? O35.7   suspectate   [titlu: Ingrijiri acordate mamei pentru leziuni fetale (suspectate) rezultand din alte proceduri medicale]  <Maternal care for (suspected) damage to fetus by other medical procedures>  ~ 
+? O35.8   suspectate   [titlu: Ingrijiri acordate mamei pentru alte anomalii si leziuni fetale (suspectate)]  <Maternal care for other (suspected) fetal abnormality and damage>  ~ 
+? O35.9   suspectate   [titlu: Ingrijiri acordate mamei pentru anomalii si leziuni fetale (suspectate), nespecificate]  <Maternal care for (suspected) fetal abnormality and damage, unspecified>  ~ 
+? O71.6   Smulgerea cartilagiului inelar al simfisei de origine obstetricala   [titlu: Leziune de origine obstetricala a articulatiilor si ligamentelor pelviene]  <Obstetric damage to pelvic joints and ligaments>  ~ 
+? O75.3   Sepsis in timpul travaliului   [titlu: Alte infectii in timpul travaliului]  <Other infection during labor>  ~ 
+? O89.0   Sindromul Mendelson datorita unei anestezii in timpul lauziei   [titlu: Complicatii pulmonare ale anesteziei in timpul lauziei]  <Pulmonary complications of anesthesia during the puerperium>  ~ 
+? O90.4   Sindrom hepato-renal urmand travaliului si nasterii   [titlu: Insuficienta renala acuta postpartum]  <Postpartum acute kidney failure>  ~ Insuficienta hepato-renala
+? P23.6   Streptococi, cu exceptia grupei B   [titlu: Pneumonia congenitala datorita altor agenti bacterieni]  <Congenital pneumonia due to other bacterial agents>  ~ 
+? P24.0   Sindromul de aspiratie de meconium   [titlu: Aspiratia de meconiu in perioada neonatala]  <Meconium aspiration>  ~ Sindrom de aspiratie de meconiu
+? P37.52  Sepsis candidial neonatal generalizat   [titlu: Candidoza neonatala invaziva]  <>  ~ Sepsis neonatal
+? P60     Sindromul de defibrinare la fat si nou-nascut   [titlu: Coagularea intravasculara diseminata la fat si nou-nascut]  <Disseminated intravascular coagulation of newborn>  ~ 
+? P83.8   Sindromul de "bebelus bronzat"   [titlu: Alte afectiuni specificate ale tegumentelor, specifice fatului si nou-nascutului]  <Other specified conditions of integument specific to newborn>  ~ 
+? P83.8   Scleroderma neonatala   [titlu: Alte afectiuni specificate ale tegumentelor, specifice fatului si nou-nascutului]  <Other specified conditions of integument specific to newborn>  ~ Scleroedem neonatal
+? P93     Sindromul Grey din cauza cloramfenicolului administrat la nou-nascut   [titlu: Reactii si intoxicatii datorita administrarii de medicamente la fat si nou-nascut]  <Reactions and intoxications due to drugs administered to newborn>  ~ 
+? P94.2   Sindromul bebelusului moale nespecific   [titlu: Hipotonia congenitala]  <Congenital hypotonia>  ~ 
+? Q07.89  Sindromul Cayler   [titlu: Alte malformatii congenitale specificate ale sistemului nervos]  <>  ~ Sindrom CHARGE
+? Q20.1   Sindromul Taussig-Bing   [titlu: Orificiu dublu al ventriculului drept]  <Double outlet right ventricle>  ~ 
+? Q21.8   Sindromul Eisenmenger   [titlu: Alte malformatii congenitale ale septurilor cardiace]  <Other congenital malformations of cardiac septa>  ~ 
+? Q26.8   Sindromul scimitar   [titlu: Alte malformatii congenitale ale venelor mari]  <Other congenital malformations of great veins>  ~ 
+? Q30.0   Stenoza congenitala a narilor (anterioara) (posterioara)   [titlu: Atrezia choanelor]  <Choanal atresia>  ~ 
+? Q31.8   Stenoza congenitala a laringelui NEC   [titlu: Alte malformatii congenitale ale laringelui]  <Other congenital malformations of larynx>  ~ 
+? Q41.1   Sindromul 'coaja de mar'   [titlu: Absenta, atrezia si stenoza congenitala a jejunului]  <Congenital absence, atresia and stenosis of jejunum>  ~ 
+? Q61.9   Sindromul Meckel-Gruber   [titlu: Boala chistica a rinichiului, nespecificata]  <Cystic kidney disease, unspecified>  ~ 
+? Q70.0   Sindactilia complexa a degetelor de la mana cu sinostoza   [titlu: Degete fuzionate]  <Fused fingers>  ~ 
+? Q70.1   Sindactilia simpla a degetelor de la mana fara sinostoza   [titlu: Degete lipite]  <Webbed fingers>  ~ 
+? Q70.2   Sindactilia complexa a degetelor de la picioare cu sinostoza   [titlu: Degetele de la picioare fuzionate]  <Fused toes>  ~ 
+? Q70.3   Sindactilia simpla a degetelor de la picioare fara sinostoza   [titlu: Degetele de la picioare unite]  <Webbed toes>  ~ 
+? Q71.8   Scurtarea congenitala a membrului(lor) superior(oare)   [titlu: Alte corectari de defecte ale membrului(lor) superior(oare)]  <Other reduction defects of upper limb>  ~ 
+? Q71.9   Sindromul de inel constrinctor al membrului superior   [titlu: Corectarea de defecte a membrului(lor) superior(oare), nespecificata]  <Unspecified reduction defect of upper limb>  ~ 
+? Q72.8   Scurtarea congenitala a membrului(lor) inferior(oare)   [titlu: Alte corectari ale defectelor la membrul(e) inferior(e)]  <Other reduction defects of lower limb>  ~ 
+? Q72.9   Sindromul de inel constrinctor al membrului inferior   [titlu: Corectarea defectelor la membrul inferior, nespecificata]  <Unspecified reduction defect of lower limb>  ~ 
+? Q73.89  Sindromul de inel constrictor al unui(or) membru(e)(e)   [titlu: Alte defecte corectate ale unui(or) membru(e) nespecificat(e)]  <>  ~ 
+? Q74.09  Spasm sub forma de tragaci al degetului   [titlu: Alte malformatii congenitale ale membrului(lor) superior(oare), inclusiv centura humerala]  <>  ~ 
+? Q75.06  Sindromul de deformare   [titlu: Craniu sub forma de frunza de trifoi]  <>  ~ Coagulare intravasculara diseminata
+? Q75.81  Sindromul fisurii faciale mediane   [titlu: Displazia fronto-nasala]  <>  ~ 
+? Q77.3   Sindromul Conradi (-Hunerman)   [titlu: Condrodisplazia punctata]  <Chondrodysplasia punctata>  ~ 
+? Q77.3   Sindromul rizomelic   [titlu: Condrodisplazia punctata]  <Chondrodysplasia punctata>  ~ 
+? Q78.1   Sindromul Albright(-McCune) (-Sternberg)   [titlu: Displazia fibroasa poliostotica]  <Polyostotic fibrous dysplasia>  ~ 
+? Q78.2   Sindromul Albers-Schönberg   [titlu: Osteopetroza]  <Osteopetrosis>  ~ Osteopetrosis
+? Q78.4   Sindromul Maffucci   [titlu: Encondromatoza]  <Enchondromatosis>  ~ 
+? Q78.5   Sindromul Pyle   [titlu: Displazia metafizei]  <Metaphyseal dysplasia>  ~ Displazie metaphizara | Sindrom metabolic
+? Q81.1   Sindromul Herlitz   [titlu: Epidermoliza buloasa letala]  <Epidermolysis bullosa letalis>  ~ Epidermoliza buloasa junctionala Herlitz | Sindrom Felty
+? Q82.5   Semn de nastere   [titlu: Nev congenital non-neoplazic]  <Congenital non-neoplastic nevus>  ~ 
+? Q87.06  Sindromul si episodul Robin   [titlu: Episodul Pierre Robin]  <>  ~ 
+? Q87.29  Sindroame de malformatii congenitale implicand in special membrele   [titlu: Alte sindroame de malformatii congenitale specificate implicand in special membrele]  <>  ~ 
+? Q89.09  Splenomegalia congenitala [hiperplazia splinei]   [titlu: Alte malformatii congenitale specificate ale splinei]  <Congenital malformations of spleen>  ~ 
+? Q89.09  Splina accesorie   [titlu: Alte malformatii congenitale specificate ale splinei]  <Congenital malformations of spleen>  ~ 
+? Q89.09  Splina ectopica   [titlu: Alte malformatii congenitale specificate ale splinei]  <Congenital malformations of spleen>  ~ Sarcina extrauterina | Corectopie
+? Q93.3   Sindromul Wolff-Hirschorn   [titlu: Absenta ramurii scurte a cromozomului 4]  <Deletion of short arm of chromosome 4>  ~ Sindrom Wolf-Hirschhorn
+? Q99.2   Sindromul cromozomului X fragil   [titlu: Cromozom X fragil]  <Fragile X chromosome>  ~ Sindrom fragile X
+? Q99.9   Subcategoriile reziduale, numerotate   [titlu: Anomalii cromozomiale, nespecificate]  <Chromosomal abnormality, unspecified>  ~ 
+= D50.1   Sindromul Plummer-Vinson  -> Sindrom Plummer-Vinson
+= D51.1   Sindromul Imerslund(-Grasbeck)  -> Sindrom Imerslund-Grasbeck
+= D65     sindromul de defibrinare  -> Coagulare intravasculara diseminata
+= D69.3   Sindromul Evans  -> Sindrom Evans
+= D73.8   Splenita  -> Splenita
+= D81.0   SCID  -> Imunodeficienta severa combinata
+= D81.1   SCID  -> Imunodeficienta severa combinata
+= D81.2   SCID  -> Imunodeficienta severa combinata
+= E25.9   Sindrom adrenogenital  -> Sindrom adrenogenital
+= E26.0   Sindromul Conn  -> Hiperaldosteronism primar
+= E26.8   Sindromul Bartter  -> Sindrom Bartter
+= E28.3   Sindromul ovarului rezistent  -> Sindrom de rezistenta ovariana
+= E31.0   Sindromul Schmidt  -> Sindrom pluriglandular autoimun tip 2
+= E54     Scorbut  -> Scorbut
+= E76.1   Sindromul Hunter  -> Sindrom Hunter
+= E80.6   Sindromul Dubin-Johnson  -> Sindrom Dubin-Johnson
+= E80.6   Sindromul Rotor  -> Sindrom Rotor
+= F68.1   Sindromul Münchausen  -> Tulburare factice
+= F90.9   Sindrom hiperkinetic  -> ADHD
+= G25.8   Sindromul picioarelor nelinistite  -> Sindromul picioarelor nelinistite
+= G47.8   Sindromul Kleine-Levin  -> Sindrom Kleine-Levin
+= H04.1   Sindromul ochiului uscat  -> Ochi uscat
+= H11.2   Simblefaron  -> Simblefaron
+= H49.8   Sindromul Kearns-Sayre  -> Sindrom Kearns-Sayre
+= H50.8   Sindromul Duane  -> Sindrom Duane
+= I74.0   Sindromul Leriche  -> Sindrom Leriche
+= J62.8   Silicoza  -> Silicoza
+= K22.4   Spasm esofagian difuz  -> Spasme esofagiene difuze
+= K77.0   Sifilisul hepatic  -> Sifilis hepatic
+= L51.1   Sindrom Stevens-Johnson  -> Sindrom Stevens-Johnson
+= M31.0   Sindromul Goodpasture  -> Sindrom Goodpasture
+= P01.4   Sarcina abdominala  -> Sarcina abdominala
+= Q03.1   Sindromul Dandy-Walker  -> Sindrom Dandy-Walker
+= Q04.60  Schizencefalia  -> Schizencefalie
+= Q44.7   Sindromul Alagille  -> Sindrom Alagille
+= Q77.6   Sindromul Ellis-van Creveld  -> Sindrom Ellis-van Creveld
+= Q78.3   Sindromul Camurati-Engelmann  -> Sindrom Camurati-Engelmann
+= Q87.02  Sindromul Apert  -> Sindrom Apert
+= Q87.26  Sindromul TAR  -> Sindrom TAR
+= Q93.4   Sindromul Cri-du-chat  -> Sindrom Cri du chat
