@@ -36,13 +36,11 @@ P28.83  Gafaitul la nou-nascut
 P72.0   Gusa neonatala, neclasificata altundeva  {Gusa congenitala tranzitorie cu functionare normala}  <Neonatal goiter, not elsewhere classified>
 Q89.4   Gemeni uniti  <Conjoined twins>
 Q89.46  Geaman acardiac
-===== POSIBIL (26)
+===== POSIBIL (24)
 A66.5   Gangosa  {Rinofaringita mutilanta}  <Gangosa> ~ Raceala
 B00.2   Gingivo-stomatita si faringo-amigdalita cu virusul herpetic  {Faringita cu virusul herpetic}  <Herpesviral gingivostomatitis and pharyngotonsillitis> ~ Amigdalita cu virus herpes simplex | Gingivostomatita herpetica | Faringita herpetica
-B83.1   Gnathostomiaza  {Dermatita cu edem calator}  <Gnathostomiasis> ~ Gnatostomoza
 E01.0   Gusa difuza (endemica) legata de carenta de iod  {endemica}  <Iodine-deficiency related diffuse (endemic) goiter> ~ Deficit de iod
 E01.1   Gusa multinodulara (endemica) legata de o carenta de iod  {endemica / Gusa nodulara legata de carenta de iod}  <Iodine-deficiency related multinodular (endemic) goiter> ~ Deficit de iod | Gusa multinodulara netoxica
-E75.0   Gangliosidoza GM2  <GM2 gangliosidosis> ~ Boala Tay-Sachs | Gangliozidoza GM1
 H40.0   Glaucomul la limita  {Hipertensiune oculara}  <Glaucoma suspect> ~ Hipertensiune arteriala secundara | Hipertensiune arteriala pulmonara | Hipertensiune portala
 H40.1   Glaucom primar in unghi deschis  <Open-angle glaucoma> ~ Glaucom
 J10     Gripa datorita unui virus gripal identificat  <Influenza due to other identified influenza virus> ~ Gripa cu virus identificat | Gripa fara virus identificat
@@ -63,14 +61,16 @@ M10.2   Guta de origine medicamentoasa  <Drug-induced gout> ~ Alergie medicament
 M10.3   Guta datorita deficientei functiei renale  <Gout due to renal impairment> ~ Nefropatia gutoasa
 M60.2   Granulom aparut datorita prezentei unui corp strain in tesutul conjunctiv, neclasificat altundeva  <Foreign body granuloma of soft tissue, not elsewhere classified> ~ Granulom de la corpi straini
 Q18.3   Gat membranat  {Pterigium colli}  <Webbing of neck> ~ Pterigium cervical
-===== EXISTA (26)
+===== EXISTA (28)
 A07.1   Giardiaza [lambliaza] = Giardiaza [exact]
 A48.0   Gangrena gazoasa = Gangrena gazoasa [exact]
 A58     Granulom inghinal = Granulom inghinal [exact]
+B83.1   Gnathostomiaza = Gnatostomoza [exact]
 E01.2   Gusa (endemica) legata de carenta de iod, nespecificata = Gusa endemica [exact]
 E04.0   Gusa difuza netoxica = Gusa difuza netoxica [exact]
 E04.2   Gusa multinodulara netoxica = Gusa multinodulara netoxica [exact]
 E04.9   Gusa netoxica, nespecificata = Gusa [exact]
+E75.0   Gangliosidoza GM2 = Boala Tay-Sachs [exact]
 H40     Glaucom = Glaucom [exact]
 J10.1   Gripa cu alte manifestari respiratorii, virus gripal identificat = Gripa [exact]
 J11.1   Gripa cu alte manifestari respiratorii, virus neidentificat = Gripa [exact]
