@@ -1,0 +1,222 @@
+? A07.9   Diareea prin flagellate   [titlu: Boala intestinala prin protozoare, nespecificata]  <Protozoal intestinal disease, unspecified>  ~ 
+? A50.4   Dementa paralitica juvenila   [titlu: Sifilis congenital nervos tardiv (neuro-sifilis juvenil)]  <Late congenital neurosyphilis [juvenile neurosyphilis]>  ~ 
+? A98.0   de Congo   [titlu: Febra hemoragica de Crimeia [de Congo]]  <Crimean-Congo hemorrhagic fever>  ~ 
+? B35.1   Dermatofitoza unghiei   [titlu: Tinea unghiilor]  <Tinea unguium>  ~ 
+? B35.2   Dermatofitoza mainii   [titlu: Tinea mainii]  <Tinea manuum>  ~ Tinea barbae
+? B35.3   Dermatofitoza piciorului   [titlu: Tinea piciorului]  <Tinea pedis>  ~ Tinea corporis | Tinea capitis
+? B43.0   Dermatita verucoasa   [titlu: Chromomicoza cutanata]  <Cutaneous chromomycosis>  ~ Cromoblastomikoza | Dermatita de staza
+? B74.8   Dirofilariaza   [titlu: Alte filarioze]  <Other filariases>  ~ 
+? B83.1   Dermatita cu edem calator   [titlu: Gnathostomiaza]  <Gnathostomiasis>  ~ 
+? B88.0   Dermatite prin acarieni   [titlu: Alte acariaze]  <Other acariasis>  ~ 
+? C02.0   Doua treimi anterioare ale limbii, suprafata dorsala   [titlu: Fata dorsala a limbii]  <Malignant neoplasm of dorsal surface of tongue>  ~ 
+? C02.2   Doua treimi anterioare ale limbii, fata inferioara   [titlu: Fata ventrala a limbii]  <Malignant neoplasm of ventral surface of tongue>  ~ 
+? C49.3   Diafragma   [titlu: Tesutul conjunctiv si tesuturile moi ale toracelui]  <Malignant neoplasm of connective and soft tissue of thorax>  ~ 
+? C83.0   difuze   [titlu: Celule mici (difuze)]  <Small cell B-cell lymphoma>  ~ 
+? C83.1   difuze   [titlu: Celule mici crestate (difuze)]  <Mantle cell lymphoma>  ~ 
+? C83.2   difuze   [titlu: Amestec de celule mici si mari (difuze)]  <>  ~ 
+? C83.3   difuze   [titlu: Celule mari (difuze)]  <Diffuse large B-cell lymphoma>  ~ 
+? C83.4   difuz   [titlu: Imunoblastic (difuz)]  <>  ~ 
+? C83.5   difuz   [titlu: Limfoblastic (difuz)]  <Lymphoblastic (diffuse) lymphoma>  ~ 
+? C83.6   difuz   [titlu: Nediferentiat (difuz)]  <>  ~ 
+? D21.3   Diafragma   [titlu: Tesut conjunctiv si alte tesuturi moi ale toracelui]  <Benign neoplasm of connective and other soft tissue of thorax>  ~ 
+? D57.2   drepanocitare   [titlu: Afectiuni cu hematii falciforme [drepanocitare] heterozigota dubla]  <Sickle-cell/Hb-C disease>  ~ Anemie falciforma
+? D57.3   drepanocitare   [titlu: Fizionomia bolii hematiilor falciforme [drepanocitare]]  <Sickle-cell trait>  ~ Anemie falciforma
+? D57.8   drepanocitare   [titlu: Alte afectiuni cu hematii falciforme [drepanocitare]]  <Other sickle-cell disorders>  ~ Anemie falciforma
+? D68.1   Deficitul in precursorul tromboplastinei plasmatice [PTA]   [titlu: Carenta ereditara prin lipsa factorului XI]  <Hereditary factor XI deficiency>  ~ 
+? D71     Disfagocitoza congenitala   [titlu: Tulburari functionale ale polinuclearelor neutrofile]  <Functional disorders of polymorphonuclear neutrophils>  ~ Diskeratoza congenitala | Scolioza congenitala
+? D74.0   Deficit congenital de NADH-methemoglobin reductaza   [titlu: Methemoglobinemia congenitala]  <Congenital methemoglobinemia>  ~ Sindrom Smith-Lemli-Opitz
+? D80.8   Deficienta lantului Kappa usor   [titlu: Alte imuno-deficiente predominenta cu anomalii ale anticorpilor]  <Other immunodeficiencies with predominantly antibody defects>  ~ 
+? D81.8   Deficit de carboxilaza biotin-dependenta   [titlu: Alte imuno-deficiente combinate]  <Other combined immunodeficiencies>  ~ Deficit de biotina
+? E03.4   dobandita   [titlu: Atrofia tiroidei (dobandita)]  <Atrophy of thyroid (acquired)>  ~ 
+? E13.01  Diabet mellitus NEC cu hiperosmolaritate   [titlu: Alte forme specificate de diabet mellitus cu hiperosmolaritate, fara coma noncetotica hiperglicemica-hiperosmolara [NKHHC]]  <Other specified diabetes mellitus with hyperosmolarity with coma>  ~ 
+? E13.11  Diabet mellitus NEC cu acidocetoză   [titlu: Alte forme specificate de diabet mellitus cu acidocetoză, fara coma]  <Other specified diabetes mellitus with ketoacidosis with coma>  ~ 
+? E13.12  Diabet mellitus NEC cu coma hiperglicemica   [titlu: Alte forme specificate de diabet mellitus cu acidocetoză, cu coma]  <>  ~ 
+? E13.13  Diabet mellitus NEC cu acidoza lactica   [titlu: Alte forme specificate de diabet mellitus cu acidoza lactica, fara coma]  <>  ~ Acidoza lactica
+? E13.15  Diabet mellitus NEC cu acidocetoză cu acidoza lactica   [titlu: Alte forme specificate de diabet mellitus cu acidocetoză, cu acidoza lactica, fara coma]  <>  ~ Acidoza lactica
+? E13.39  Diabet mellitus NEC cu cataracta cu debut la varsta timpurie   [titlu: Alte forme specificate de diabet mellitus cu alte complicatii oculare specificate]  <Other specified diabetes mellitus with other diabetic ophthalmic complication>  ~ 
+? E13.73  Diabet mellitus NEC cu ulceratia   [titlu: Alte forme specificate de diabet mellitus ulceratia piciorului datorita unor cauza multiple]  <>  ~ 
+? E23.6   Distrofia adiposo-genitala   [titlu: Alte tulburari ale glandei pituitare]  <Other disorders of pituitary gland>  ~ 
+? E28.3   Diminuarea estrogenilor   [titlu: Insuficienta ovariana primara]  <Primary ovarian failure>  ~ 
+? E30.0   Dezvoltare sexuala intarziata   [titlu: Pubertate intarziata]  <Delayed puberty>  ~ Hermafroditism
+? E34.8   Disfunctia glandei pineale   [titlu: Alte tulburari hormonale specificate]  <Other specified endocrine disorders>  ~ 
+? E46     Dezechilibru proteino-energetic   [titlu: Malnutritia proteino-energetica nespecificata]  <Unspecified protein-calorie malnutrition>  ~ 
+? E72.1   Deficit in sulfit oxidaza   [titlu: Tulburari de metabolism al aminoacizilor sulfurati]  <Disorders of sulfur-bearing amino-acid metabolism>  ~ 
+? E74.2   Deficit de galactochinaza   [titlu: Tulburari de metabolism al galactozei]  <Disorders of galactose metabolism>  ~ Galactozemie tip II | Intoleranta la lactoza | Boala Krabbe
+? E83.3   Deficit in fosfataza acida   [titlu: Tulburari de metabolism al fosforului]  <Disorders of phosphorus metabolism and phosphatases>  ~ Hipofosfatazie
+? E86     Depletia volumului de plasma sau a lichidului extracelular   [titlu: Hipovolemia, deshidratarea]  <Volume depletion>  ~ Hipovolemie
+? E88.8   Defecte ale canalului respirator   [titlu: Alte tulburari de metabolism specificate]  <Other specified metabolic disorders>  ~ 
+? F05.8   Delir de origine mixta   [titlu: Alte forme de delir]  <>  ~ 
+? F06.2   de alura schizofrenica   [titlu: Tulburare deliranta [de alura schizofrenica] organica]  <Psychotic disorder with delusions due to known physiological condition>  ~ Schizofrenie
+? F06.2   Delirurile pot fi insotite de halucinatii   [titlu: Tulburare deliranta [de alura schizofrenica] organica]  <Psychotic disorder with delusions due to known physiological condition>  ~ 
+? F09     Dipsomanie   [titlu: Tulburare mentala organica sau simptomatica, nespecificata]  <Unspecified mental disorder due to known physiological condition>  ~ Hipomanie
+? F09     Delirium tremens (indus de alcool)   [titlu: Tulburare mentala organica sau simptomatica, nespecificata]  <Unspecified mental disorder due to known physiological condition>  ~ Delirium tremens
+? F22.8   Dismorfo-fobia deliranta   [titlu: Alte tulburari delirante persistente]  <>  ~ 
+? F32.2   Depresie agitata, episod unic fara simptome psihotice   [titlu: Episod depresiv sever, fara simptome psihotice]  <Major depressive disorder, single episode, severe without psychotic features>  ~ Depresie agitata | Depresie psihotica
+? F32.2   Depresie majora, episod unic fara simptome psihotice   [titlu: Episod depresiv sever, fara simptome psihotice]  <Major depressive disorder, single episode, severe without psychotic features>  ~ Depresie | Depresie psihotica
+? F32.2   Depresie vitala, episod unic fara simptome psihotice   [titlu: Episod depresiv sever, fara simptome psihotice]  <Major depressive disorder, single episode, severe without psychotic features>  ~ Depresie psihotica
+? F33.2   Depresie majora, recurenta fara simptome psihotice   [titlu: Tulburare depresiva recurenta, episod actual sever fara simptome psihotice]  <Major depressive disorder, recurrent severe without psychotic features>  ~ Depresie | Depresie psihotica
+? F33.2   Depresie vitala, recurenta fara simptome psihotice   [titlu: Tulburare depresiva recurenta, episod actual sever fara simptome psihotice]  <Major depressive disorder, recurrent severe without psychotic features>  ~ Depresie psihotica
+? F33.9   Depresia monopolara   [titlu: Tulburare depresiva recurenta, nespecificata]  <Major depressive disorder, recurrent, unspecified>  ~ 
+? F41.2   Depresie anxioasa (usoara sau nepersistenta)   [titlu: Tulburare anxioasa si depresiva mixta]  <>  ~ Distimie
+? F44     de conversie   [titlu: Tulburari disociative [de conversie]]  <Dissociative and conversion disorders>  ~ Tulburare de conversie
+? F44.7   de conversie   [titlu: Tulburari disociative [de conversie] mixte]  <Conversion disorder with mixed symptom presentation>  ~ Tulburare de conversie
+? F44.8   de conversie   [titlu: Alte tulburari disociative [de conversie]]  <Other dissociative and conversion disorders>  ~ Tulburare de conversie
+? F44.82  de conversie   [titlu: Tulburari disociative tranzitorii [de conversie] care se produc in copilarie si adolescenta]  <>  ~ Tulburare de conversie
+? F44.88  de conversie   [titlu: Alte tulburari disociative [de conversie] specificate]  <>  ~ Tulburare de conversie
+? F44.9   de conversie   [titlu: Tulburare disociativa [de conversie], nespecificata]  <Dissociative and conversion disorder, unspecified>  ~ Tulburare de conversie
+? F45.2   Dismorfo-fobia (nedeliranta)   [titlu: Tulburare hipocondriaca]  <Hypochondriacal disorders>  ~ 
+? F59     Disfunctia fiziologica psihogena   [titlu: Sindroame comportamentale nespecificate asociate perturbarilor fiziologice si factorilor fizici]  <Unspecified behavioral syndromes associated with physiological disturbances and physical factors>  ~ 
+? F65.9   Deviere sexuala   [titlu: Tulburari de preferinta sexuala, nespecificate]  <Paraphilia, unspecified>  ~ 
+? F80.1   Disfazia sau afazia de dezvoltare, tipul expresiv   [titlu: Tulburare de limbaj expresiv]  <Expressive language disorder>  ~ Tulburare de limbaj expresiv
+? F80.2   Deficienta auditiva congenitala   [titlu: Tulburare de limbaj receptiv]  <Mixed receptive-expressive language disorder>  ~ 
+? F81.0   Dislexia de dezvoltare   [titlu: Tulburari specifice de citire]  <Specific reading disorder>  ~ 
+? F84.3   Dementa infantila   [titlu: Alta tulburare de dezintegrare a copilariei]  <Other childhood disintegrative disorder>  ~ 
+? F91.2   Delicventa de grup   [titlu: Tulburare de conduita socializata]  <Conduct disorder, adolescent-onset type>  ~ 
+? F91.2   Delicte comise in banda   [titlu: Tulburare de conduita socializata]  <Conduct disorder, adolescent-onset type>  ~ 
+? G12.2   Degenerescenta familiala a neuronului motor   [titlu: Bolile neuronului motor]  <Motor neuron disease>  ~ Scleroza laterala amiotrofica | Scleroza laterala amiotrofica familiala
+? G23.0   Degenerescenta palidala pigmentara   [titlu: Boala Hallervorden-Spatz]  <Hallervorden-Spatz disease>  ~ 
+? G31.8   Degenerescenta materiei cenusii [boala   [titlu: Alte afectiuni degenerative specificate ale sistemului nervos]  <Other specified degenerative diseases of nervous system>  ~ 
+? G36.0   Devic   [titlu: Neuromielita optica [Devic]]  <Neuromyelitis optica [Devic]>  ~ Neuromielita optica
+? G36.0   Demielinizare in neurita optica   [titlu: Neuromielita optica [Devic]]  <Neuromyelitis optica [Devic]>  ~ 
+? G71.1   Distrofia miotonica [Steinert]   [titlu: Afectiuni miotonice]  <Myotonic disorders>  ~ Distrofie miotonica
+? H03.0   Dermatita pleoapei datorita unor specii de Demodex   [titlu: Infestatia parazitara a pleoapei in boli clasificate altundeva]  <>  ~ Demodicoza | Dermatita palpebrala
+? H04.1   Dacriops   [titlu: Alte afectiuni ale glandei lacrimale]  <Other disorders of lacrimal gland>  ~ 
+? H04.3   Dacriocistita (flegmonoasa) acuta, subacuta sau   [titlu: Inflamatia acuta si nespecificata a cailor lacrimale]  <Acute and unspecified inflammation of lacrimal passages>  ~ 
+? H04.3   Dacriopericistita acuta, subacuta sau   [titlu: Inflamatia acuta si nespecificata a cailor lacrimale]  <Acute and unspecified inflammation of lacrimal passages>  ~ 
+? H04.5   Dacriolitiaza   [titlu: Stenoza si insuficienta cailor lacrimale]  <Stenosis and insufficiency of lacrimal passages>  ~ Dacriolit
+? H05.2   Deplasarea (laterala) a globului   [titlu: Exoftalmia]  <Exophthalmic conditions>  ~ 
+? H36     Distrofia retiniana in tulburarile lipidelor de rezerva   [titlu: Afectiuni retiniene in boli clasificate altundeva]  <Retinal disorders in diseases classified elsewhere>  ~ 
+? H47.3   Druse ale papilei optice   [titlu: Alte afectiuni ale papilei optice]  <Other disorders of optic disc>  ~ Edem papilar
+? H53.3   Disparitia viziunii binoculare   [titlu: Alte tulburari de viziune binoculara]  <Other and unspecified disorders of binocular vision>  ~ 
+? I45.8   Disociere atrioventriculara [AV]   [titlu: Alte tulburari de conducere specificate]  <Other specified conduction disorders>  ~ 
+? I45.8   Disociere de interferenta   [titlu: Alte tulburari de conducere specificate]  <Other specified conduction disorders>  ~ 
+? I71.9   Dilatatia aortei   [titlu: Anevrismul aortic, cu localizare nespecificata, fara mentiunea rupturii]  <Aortic aneurysm of unspecified site, without rupture>  ~ Anevrism de aorta ascendenta | Aortita
+? J02.0   Durere de gat streptococica   [titlu: Faringita streptococica]  <Streptococcal pharyngitis>  ~ Faringita
+? J34.2   Deflexia sau deviatia septului (nazal) (dobandita)   [titlu: Sept nazal deviat]  <Deviated nasal septum>  ~ Decubit de cornet
+? J98.6   Diafragmatita   [titlu: Bolile diafragmului]  <Disorders of diaphragm>  ~ 
+? K00.4   Dilacerarea dintilor   [titlu: Tulburari de formare a dintilor]  <Disturbances in tooth formation>  ~ 
+? K00.4   Dinte Turner   [titlu: Tulburari de formare a dintilor]  <Disturbances in tooth formation>  ~ 
+? K00.5   Dentinogeneza imperfecta   [titlu: Anomalii ereditare ale structurii dentare, neclasificate altundeva]  <Hereditary disturbances in tooth structure, not elsewhere classified>  ~ 
+? K00.5   Displazia dentitiei   [titlu: Anomalii ereditare ale structurii dentare, neclasificate altundeva]  <Hereditary disturbances in tooth structure, not elsewhere classified>  ~ 
+? K00.5   Dinte in forma de scoica   [titlu: Anomalii ereditare ale structurii dentare, neclasificate altundeva]  <Hereditary disturbances in tooth structure, not elsewhere classified>  ~ 
+? K00.6   Dinte natal   [titlu: Tulburari de eruptie dentara]  <Disturbances in tooth eruption>  ~ 
+? K00.6   Dinte neonatal   [titlu: Tulburari de eruptie dentara]  <Disturbances in tooth eruption>  ~ Icter neonatal | Diabet neonatal
+? K04.3   Dentina secundara sau neregulara   [titlu: Formatiune anormala de tesut dentar dur in pulpa]  <Abnormal hard tissue formation in pulp>  ~ 
+? K07.2   Distocluziunea   [titlu: Anomalii de raport intre arcadele dentare]  <>  ~ 
+? K07.2   Deviata mediana a arcadei dentare   [titlu: Anomalii de raport intre arcadele dentare]  <>  ~ 
+? K07.3   Diastema unuia sau mai multor dinti   [titlu: Anomalii pozitionale ale dintilor]  <>  ~ 
+? K07.3   Deplasare a unuia sau mai multor dinti   [titlu: Anomalii pozitionale ale dintilor]  <>  ~ 
+? K07.6   Disfunctia articulatiei temporo-mandibulare   [titlu: Afectiunea articulatiei temporo-mandibulare]  <>  ~ Sindrom al articulatiei temporo-mandibulare | Artroza temporomandibulara
+? K59.3   Dilatatia colonului   [titlu: Megacolon, neclasificat altundeva]  <Megacolon, not elsewhere classified>  ~ Megacolon | Sindrom Ogilvie | Megacolon toxic | Colita
+? L08.9   Dermatoze buloase   [titlu: Infectii locale ale pielii si tesutului celular subcutunat, nespecificate]  <Local infection of the skin and subcutaneous tissue, unspecified>  ~ Dermatita buloasa autoimuna | Dermatita buloasa IgA
+? L12.2   Dermatita juvenila herpetiforma   [titlu: Boala cronica buloasa a copilariei]  <Chronic bullous disease of childhood>  ~ Dermatita herpetiforma
+? L14     Dermatite si eczeme   [titlu: Tulburari buloase in boli clasificate altundeva]  <Bullous disorders in diseases classified elsewhere>  ~ 
+? L30.2   Dermatofitide   [titlu: Autosensibilizarea cutanata]  <Cutaneous autosensitization>  ~ Dermatofitoza
+? L57.8   Dermatita solara   [titlu: Alte modificari ale pielii datorite expunerii cronice la raze neionizante]  <Other skin changes due to chronic exposure to nonionizing radiation>  ~ Dermatita numulara | Dermatita
+? L59.0   dermatita datorita focului   [titlu: Eritemul datorita focului [dermatita datorita focului]]  <Erythema ab igne [dermatitis ab igne]>  ~ 
+? L82     Dermatoza papuloasa neagra   [titlu: Cheratoza seboreica]  <Seborrheic keratosis>  ~ Dermatita buloasa IgA
+? L85.3   Dermatita cu piele uscata   [titlu: Xeroza cutanata]  <Xerosis cutis>  ~ Piele uscata
+? L88     Dermatita gangrenoasa   [titlu: Piodermita gangrenoasa]  <Pyoderma gangrenosum>  ~ Piodermita gangrenoasa | Stomatita gangrenoasa
+? L90.5   Desfigurare datorita cicatricelor   [titlu: Cicatrice si fibroze cutanate]  <Scar conditions and fibrosis of skin>  ~ 
+? M20.1   dobandit   [titlu: Hallux valgus (dobandit)]  <Hallux valgus (acquired)>  ~ 
+? M20.3   dobandite   [titlu: Alte deformatii de hallux (dobandite)]  <Hallux varus (acquired)>  ~ 
+? M20.4   dobandite   [titlu: Alte deformatii sub forma de ciocan ale degetului(lor) de la picior (dobandite)]  <Other hammer toe(s) (acquired)>  ~ 
+? M20.5   dobandite   [titlu: Alte deformatii ale degetului(lor) de la picior (dobandite)]  <Other deformities of toe(s) (acquired)>  ~ 
+? M21.3   dobandit   [titlu: Pumn si picior "atarnat" (dobandit)]  <Wrist or foot drop (acquired)>  ~ 
+? M21.4   dobandit   [titlu: Picior plat [pes planus] (dobandit)]  <Flat foot [pes planus] (acquired)>  ~ 
+? M21.5   dobandit   [titlu: Mana si picior sub forma de maciuca sau in gheara (dobandit)]  <Acquired clawhand, clubhand, clawfoot and clubfoot>  ~ 
+? M21.7   dobandita   [titlu: Inegalitate privind lungimea membrelor (dobandita)]  <Unequal limb length (acquired)>  ~ 
+? M23.3   Degenerescenta meniscului   [titlu: Alte dereglari ale meniscului]  <Other meniscus derangements>  ~ Degenerescenta vitreana | Discopatia degenerativa
+? M36.8   Dorsopatii   [titlu: Tuburari sistemice ale tesutului conjuctiv in alte boli clasificate altundeva]  <Systemic disorders of connective tissue in other diseases classified elsewhere>  ~ 
+? M36.8   Dorsopatii prin deformare   [titlu: Tuburari sistemice ale tesutului conjuctiv in alte boli clasificate altundeva]  <Systemic disorders of connective tissue in other diseases classified elsewhere>  ~ 
+? M49.0   Deviatia Pott   [titlu: Tuberculoza vertebrala (A18.0†)]  <>  ~ 
+? M67.0   dobandita   [titlu: Scurtarea tendonului lui Achille (dobandita)]  <Short Achilles tendon (acquired)>  ~ 
+? M72.0   Dupuytren   [titlu: Fibromatoza fasciala palmara [Dupuytren]]  <Palmar fascial fibromatosis [Dupuytren]>  ~ Boala Dupuytren
+? M89.0   Distrofia de reflex simpatica   [titlu: Algoneurodistrofia]  <Algoneurodystrophy>  ~ Sindrom de durere regionala complexa
+? N81.8   Deficienta perineumului   [titlu: Alt prolaps genital la femeie]  <Other female genital prolapse>  ~ 
+? N90.4   Distrofia vulvei   [titlu: Leucoplazia vulvei]  <Leukoplakia of vulva>  ~ Atrofie vulvara
+? O08.9   Durata sarcinii   [titlu: Complicatiile urmand avortului si sarcinii ectopice si molare, nespecificate]  <Unspecified complication following an ectopic and molar pregnancy>  ~ 
+? O29.0   datorita unei anestezii in cursul sarcinii   [titlu: Complicatiile pulmonare ale unei anestezii in timpul sarcinii]  <Pulmonary complications of anesthesia during pregnancy>  ~ 
+? O33.0   Deformatia pelviana cauzand o disproportie   [titlu: Ingrijiri acordate mamei pentru o disproportie datorita unei malformatii de bazin al mamei]  <Maternal care for disproportion due to deformity of maternal pelvic bones>  ~ 
+? O33.5   Disproportie de origine fetala cu fat normal   [titlu: Ingrijiri acordate mamei pentru o disproportie datorita fatului anormal de mare]  <Maternal care for disproportion due to unusually large fetus>  ~ 
+? O33.5   Disproportie fetala   [titlu: Ingrijiri acordate mamei pentru o disproportie datorita fatului anormal de mare]  <Maternal care for disproportion due to unusually large fetus>  ~ Bazin strimt
+? O33.9   Disproportie cefalo-pelviana   [titlu: Ingrijiri acordate mamei pentru o disproportie, nespecificata]  <Maternal care for disproportion, unspecified>  ~ Bazin strimt
+? O33.9   Disproportie feto-pelviana   [titlu: Ingrijiri acordate mamei pentru o disproportie, nespecificata]  <Maternal care for disproportion, unspecified>  ~ Bazin strimt
+? O48     Dupa date   [titlu: Sarcina prelungita]  <Late pregnancy>  ~ 
+? O48     Dupa termen   [titlu: Sarcina prelungita]  <Late pregnancy>  ~ 
+? O62.0   Dilatatia insuficienta a colului   [titlu: Contractia initiala insuficienta]  <Primary inadequate contractions>  ~ 
+? O62.0   Disfunctie hipotonica primara a uterului   [titlu: Contractia initiala insuficienta]  <Primary inadequate contractions>  ~ 
+? O62.1   Disfunctia hipotonica uterina secundara   [titlu: Inertia uterina secundara]  <Secondary uterine inertia>  ~ 
+? O62.2   Disfunctia uterina hipotonica   [titlu: Alte forme de inertie uterina]  <Other uterine inertia>  ~ 
+? O62.4   Distocia inelului de contractie   [titlu: Contractii uterine hipertonice, neacordate si prelungite]  <Hypertonic, incoordinate, and prolonged uterine contractions>  ~ 
+? O62.4   Disfunctia uterina hipertonica   [titlu: Contractii uterine hipertonice, neacordate si prelungite]  <Hypertonic, incoordinate, and prolonged uterine contractions>  ~ 
+? O62.4   Distocia uterului   [titlu: Contractii uterine hipertonice, neacordate si prelungite]  <Hypertonic, incoordinate, and prolonged uterine contractions>  ~ 
+? O63.0   dilatatia   [titlu: Prelungirea primei perioade [dilatatia]]  <Prolonged first stage (of labor)>  ~ 
+? O68     detresa   [titlu: Travaliul si nasterea complicate de suferinta fetala [detresa]]  <Labor and delivery complicated by abnormality of fetal acid-base balance>  ~ 
+? O71.3   Dezlipirea inelara a colului uterin   [titlu: Laceratia colului uterin de origine obstetricala]  <Obstetric laceration of cervix>  ~ 
+? P02.1   Dezlipire prematura a placentei   [titlu: Fat si nou-nascut afectati de alte forme de dezlipire si hemoragie placentara [abruptio placentae]]  <Newborn affected by other forms of placental separation and hemorrhage>  ~ Decolment prematur de placenta
+? P27.0   Dismaturitate pulmonara   [titlu: Sindromul Wilson-Mikity]  <Wilson-Mikity syndrome>  ~ 
+? P27.1   Displazie bronho-pulmonara survenind in perioada perinatala   [titlu: Boala cronica a plamanului survenind in perioada perinatala]  <Bronchopulmonary dysplasia originating in the perinatal period>  ~ 
+? P37.2   diseminata   [titlu: Listerioza neonatala (diseminata)]  <Neonatal (disseminated) listeriosis>  ~ 
+? P53     Deficienta in vitamina K la nou-nascut   [titlu: Boala hemoragica a fatului si nou-nascutului]  <Hemorrhagic disease of newborn>  ~ Boala hemoragica a nou-nascutului
+? P74.8   Disfunctia renala tranzitorie la nou-nascut   [titlu: Alte perturbari metabolice tranzitorii ale nou-nascutului]  <Other transitory metabolic disturbances of newborn>  ~ Insuficienta renala
+? P96.9   Debilitate congenitala   [titlu: Afectiune survenind in perioada perinatala, nespecificata]  <Condition originating in the perinatal period, unspecified>  ~ Surditate congenitala
+? Q07.89  Diplegia faciala congenitala   [titlu: Alte malformatii congenitale specificate ale sistemului nervos]  <>  ~ Sindrom Moebius | Pterigium cervical
+? Q07.89  Deplasarea plexului brahial   [titlu: Alte malformatii congenitale specificate ale sistemului nervos]  <>  ~ Plexopatie brahiala
+? Q11.2   Displazia ochiului   [titlu: Microftalmia]  <Microphthalmos>  ~ 
+? Q21.9   Defect septal (inima)   [titlu: Malformatia congenitala a unui sept cardiac, nespecificata]  <Congenital malformation of cardiac septum, unspecified>  ~ 
+? Q32.4   Diverticul al bronhiilor   [titlu: Alte malformatii congenitale ale bronhiilor]  <Other congenital malformations of bronchus>  ~ 
+? Q38.7   Diverticul al faringelui   [titlu: Punga faringiana]  <Congenital pharyngeal pouch>  ~ Diverticul al esofagului
+? Q39.89  Deplasarea congenitala a esofagului   [titlu: Alte malformatii congenitale ale esofagului]  <>  ~ Duplicatie esofagiana
+? Q40.1   Deplasarea cardiei de-a lungul hiatului esofagian   [titlu: Hernia hiatala congenitala]  <Congenital hiatus hernia>  ~ 
+? Q43.2   Dilatarea congenitala a colonului   [titlu: Alte tulburari functionale congenitale ale colonului]  <Other congenital functional disorders of colon>  ~ Atrezie colica | Megacolon
+? Q50.39  Displazia ovarului   [titlu: Alte malformatii congenitale ale ovarului]  <Other congenital malformation of ovary>  ~ 
+? Q61.8   Degenerescenta sau boala renala fibrochistica   [titlu: Alte boli chistice ale rinichiului]  <Other cystic kidney diseases>  ~ 
+? Q62.2   Dilatarea congenitala a ureterului   [titlu: Megaloureter congenital]  <Congenital megaureter>  ~ Megaureter | Agenezie uterina
+? Q62.51  Dublarea complexa a ureterului   [titlu: Ureter dublu]  <>  ~ 
+? Q62.59  Duplicare a ureterului   [titlu: Alte forme de duplicare a ureterului]  <>  ~ 
+? Q62.6   Deviatia ureterului sau a orificiului ureteral   [titlu: Malpozitia ureterului]  <Malposition of ureter>  ~ 
+? Q62.6   Deplasarea ureterului sau a orificiului ureteral   [titlu: Malpozitia ureterului]  <Malposition of ureter>  ~ 
+? Q63.01  Dublarea rinichiului   [titlu: Rinichi dublu]  <>  ~ 
+? Q65.8   Displazia acetabulara congenitala   [titlu: Alte deformatii congenitale ale soldului]  <Other congenital deformities of hip>  ~ Displazie de sold
+? Q66.8   Deget in ciocan, congenital   [titlu: Alte deformatii congenitale ale piciorului]  <Other congenital deformities of feet>  ~ Deget in ciocan | Macrodactilie
+? Q67.49  Deformatia congenitala a craniului, fetei si maxilarelor   [titlu: Alte deformatii congenitale ale craniului, fetei si maxilarelor]  <>  ~ 
+? Q67.59  Deformatia congenitala a sirei spinarii   [titlu: Alte deformatii congenitale specificate ale sirei spinarii]  <>  ~ 
+? Q67.8   Deformatii congenitale ale peretelui pieptului   [titlu: Alte deformatii congenitale ale pieptului]  <Other congenital deformities of chest>  ~ 
+? Q69.9   Deget(e) supranumerar(e)   [titlu: Polidactilia, nespecificata]  <Polydactyly, unspecified>  ~ Polidactilie
+? Q72.4   Deficienta focala femurala proximala   [titlu: Corectarea longitudinala a defectelor femurului]  <Longitudinal reduction defect of femur>  ~ 
+? Q74.02  degetele de la mana   [titlu: Macrodactilia (degetele de la mana)]  <>  ~ 
+? Q74.04  Disostoza radio-cubitala   [titlu: Sinostoza radio-cubitala]  <>  ~ Sindrom Crouzon
+? Q74.09  Disostoza cleido-craniana   [titlu: Alte malformatii congenitale ale membrului(lor) superior(oare), inclusiv centura humerala]  <>  ~ Displazie cleidocraniana
+? Q74.09  Deformitatea Madelung   [titlu: Alte malformatii congenitale ale membrului(lor) superior(oare), inclusiv centura humerala]  <>  ~ Deformitate Madelung | Boala Haglund
+? Q75.89  Deformatia congenitala a fruntii   [titlu: Alte malformatii congenitale specificate ale craniului si oaselor fetei]  <>  ~ 
+? Q77.1   Displazia tanatoforica (cu craniu sub forma de frunza de trifoi )   [titlu: Pitic tanatoforic]  <Thanatophoric short stature>  ~ 
+? Q77.2   Displazia toracica asfixianta [Jeune]   [titlu: Sindromul coastei scurte]  <Short rib syndrome>  ~ 
+? Q77.3   Displazia epifizara multipla congenitala   [titlu: Condrodisplazia punctata]  <Chondrodysplasia punctata>  ~ Displazie epifizara multipla
+? Q77.81  Displazia metatropica   [titlu: Nanism metatropic]  <>  ~ 
+? Q77.82  Disostoza metafizara   [titlu: Condroplazia metafizara]  <>  ~ 
+? Q77.89  Displazia Kniest   [titlu: Alte forme de osteocondrodisplazie cu defecte de crestere ale oaselor tubulare si coloanei vertebrale]  <>  ~ 
+? Q85.82  Dimitri   [titlu: Sindromul Sturge-Weber(-Dimitri)]  <Other Cowden syndrome>  ~ 
+? Q86.0   dismorfic   [titlu: Sindromul (dismorfic) fetal datorita consumului mare de alcool de catre mama in timpul sarcinii]  <Fetal alcohol syndrome (dysmorphic)>  ~ 
+? Q87.09  Discraniopigofalangism   [titlu: Alte sindroame de malformatii congenitale afectand in special fizionomia fetei]  <>  ~ 
+? Q89.09  Deformitatea splinei   [titlu: Alte malformatii congenitale specificate ale splinei]  <Congenital malformations of spleen>  ~ 
+? Q89.71  Dismorfism   [titlu: Trasaturi dismorfice]  <>  ~ 
+? Q99.1   Disgeneza gonadica pura   [titlu: 46, XX hermafrodit real]  <46, XX true hermaphrodite>  ~ Disgeneza gonadala
+= A03.9   Dizenteria bacilara  -> Dizenterie
+= A07.0   Dizenteria balantidiana  -> Balantidioza
+= A58     Donovanosis  -> Granulom inghinal
+= B66.4   Distomatoza pulmonara  -> Paragonimoza
+= B66.5   Distomatoza intestinala  -> Fasciolopsidoza
+= D57     drepanocitoze  -> Anemie falciforma
+= E86     Deshidratare  -> Deshidratare
+= F09     Dementa alcoolica  -> Dementa alcoolica
+= F32.8   Depresie atipica  -> Depresie atipica
+= F32.9   Depresie  -> Depresie
+= H04.4   Dacriocistita cronica  -> Dacriocistita
+= H53.5   Daltonismul  -> Daltonism
+= H53.5   Deuteranomalia  -> Deuteranopie
+= H53.5   Deuteranopia  -> Deuteranopie
+= H93.2   Diplacuzia  -> Diplacuzie
+= I83.1   Dermatita de staza  -> Dermatita de staza
+= K10.8   Displazia fibroasa a maxilarului  -> Cherubism
+= N92.0   Dismenoree  -> Dismenoree
