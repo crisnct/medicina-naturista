@@ -9,7 +9,7 @@
   - asterisc (in alte boli): 2
 - găsite automat în dicționar (P4.1–P4.3): **105**
 - de decis manual (`nou` + `posibil`): **253**
-- **afecțiuni adăugate: 62**
+- **afecțiuni adăugate: 66**
 
 ## Decizii manuale
 
@@ -20,13 +20,17 @@
 - **Din pending_by_letter (pasul A), re-verificate și adăugate:** `Hiperfagie psihogena` (F50.4), `Hidrops fetal non-imun` (P83.2; forma non-imună, separată de `Hidrops fetal` generic), `Hipodontie` (K00.0; distinctă de `Anodontie`).
 - **Sinonime insuficiente (2.4):** hepatita reactivă nespecifică (`K75.2`), hiperfuncția poliglandulară (`E31.1`), hipoplazia uretrei (`Q64.34`), hipocondrogeneza (`Q77.03`), hipervalinemia și hiperleucin-izoleucinemia (`E71.1`), hidroxilizinemia și hiperhidroxiprolinemia, hernia mediastinului (`J98.5`), hernia musculară (`M62.8`), hipoplazia splinei (`Q89.09`), hiperplazia iritativă a mucoasei bucale (`K13.6`), hipergastrinemia (`E16.4`, partea clinică e acoperită de `Gastrinom`, care are ca sinonim sindromul Zollinger-Ellison), sângele matern înghițit la nou-născut (`P78.2`).
 - **Amânate la altă literă (pending_from_H):** `Boala Hoffa` (M79.4, hipertrofia corpului adipos infrapatelar) → B; `Boala Caffey` (M89.8, hiperostoza corticală infantilă) → B; `Boala Kyrle` (L87.0, hiperkeratoza foliculară penetrantă) → B; `Limba neagra paroasa` (K14.3, hipertrofia papilelor linguale) → L.
+- **Corecturi la unirea literelor (coordonator):** scoasă `Hernie cerebrala` (G93.5; titlul codului este „Compresia creierului”, adăugată la C ca `Compresie cerebrala`, cu herniația ca sinonim). La `Hipodontie` am scos „oligodontie” / „oligodontia” (sunt acum afecțiunea `Oligodontie` de la O) și am adăugat „anodontie partiala” / „partial anodontia”; la `Hiperplazie gingivala` am scos „fibromatoza gingivala” / „gingival fibromatosis” (afecțiunea `Fibromatoza gingivala` de la F) și am adăugat „hiperplazia gingiilor”.
+- **Amânate de la alte litere, adăugate la unire (coordonator, 5):** `Hipoacuzie indusa de zgomot` (H83.3; de la C); `Hidatidoza osoasa` (B67.2; de la I); `Hipersexualitate` (F52.7; de la N); `Hamartom pulmonar` (D14.3; de la T); `Hemangioblastom` (D33.1; de la T). Verificate față de dicționarul unit al tuturor literelor (G3, G6).
 
 ## Adăugate
 
 | Nume canonic | Coduri | Sinonime |
 |---|---|---|
 | Hallux rigidus | M20.2 | halux rigid; rigiditate a halucelui; artroza metatarsofalangiana a halucelui; hallux limitus; first metatarsophalangeal joint arthritis; stiff big toe |
+| Hamartom pulmonar | D14.3 | condrohamartom pulmonar; hamartom condroid pulmonar; hamartom bronhopulmonar; pulmonary hamartoma; lung hamartoma; pulmonary chondroid hamartoma |
 | Hashitoxicoza | E06.3 | hashitoxicoza tranzitorie; tireotoxicoza din tiroidita Hashimoto; faza hipertiroidiana a tiroiditei Hashimoto; hashitoxicosis; Hashimoto thyrotoxicosis; transient hashitoxicosis |
+| Hemangioblastom | D33.1 | hemangioblastom cerebelos; angioblastom; hemangioblastom al sistemului nervos central; hemangioblastoma; cerebellar hemangioblastoma; angioblastoma |
 | Hematocornee | H18.0 | impregnare hematica a corneei; imbibitie sanguina a corneei; pigmentatie hematica corneana; corneal blood staining; hematocornea; blood staining of cornea |
 | Hematom de ligament larg | N83.7 | hematom al ligamentului larg; hematom intraligamentar; hematomul ligamentului larg uterin; hematoma of broad ligament; broad ligament hematoma; intraligamentous hematoma |
 | Hemihipertrofie congenitala | Q74.82 | hemihipertrofie; hemihiperplazie; hemihiperplazie izolata; congenital hemihypertrophy; hemihypertrophy; hemihyperplasia |
@@ -44,8 +48,8 @@
 | Hepatita virala congenitala | P35.3 | hepatita virala neonatala; hepatita congenitala; hepatita virala a nou-nascutului; congenital viral hepatitis; neonatal viral hepatitis; congenital hepatitis |
 | Hepatoblastom | C22.2 | hepatoblastom infantil; tumora hepatica embrionara; tumora maligna embrionara a ficatului; hepatoblastoma; embryonal liver tumor; childhood hepatoblastoma |
 | Hepatoptoza | K76.8 | ptoza hepatica; ficat ptozat; ficat migrator; hepatoptosis; wandering liver; ptosis of liver |
-| Hernie cerebrala | G93.5 | angajare cerebrala; herniere cerebrala; hernia creierului; brain herniation; cerebral herniation; cerebral hernia |
 | Hernie hiatala congenitala | Q40.1 | hernie de hiat congenitala; hernie hiatala la nou-nascut; deplasarea congenitala a cardiei prin hiatusul esofagian; congenital hiatus hernia; congenital hiatal hernia; congenital esophageal hiatus hernia |
+| Hidatidoza osoasa | B67.2 | infectia osoasa cu Echinococcus granulosus; echinococoza osoasa; chist hidatic osos; Echinococcus granulosus infection of bone; bone hydatid disease; osseous echinococcosis |
 | Hidrocefalie posttraumatica | G91.3 | hidrocefalie post-traumatica; hidrocefalie dupa traumatism cranian; hidrocefalie secundara traumatismului cranian; post-traumatic hydrocephalus; posttraumatic hydrocephalus; hydrocephalus after traumatic brain injury |
 | Hidrops fetal non-imun | P83.2 | anasarca feto-placentara non-imuna; hidrops fetal nonimun; hidrops fetal neimun; nonimmune hydrops fetalis; non-immune fetal hydrops; hydrops fetalis not due to hemolytic disease |
 | Hifema | H21.0 | hemoragie in camera anterioara; sange in camera anterioara a ochiului; hemoragie intracamerulara; hyphema; hyphaema; anterior chamber hemorrhage |
@@ -56,8 +60,9 @@
 | Hiperplazie adrenomedulara | E27.5 | hiperfunctie adrenomedulara; hiperplazie medulosuprarenala; hipersecretie de catecolamine; adrenomedullary hyperplasia; adrenomedullary hyperfunction; adrenal medullary hyperplasia |
 | Hiperplazie de apendice | K38.0 | hiperplazia apendicelui; hiperplazie limfoida apendiculara; hiperplazie limfoida a apendicelui; hyperplasia of appendix; appendiceal lymphoid hyperplasia; lymphoid hyperplasia of appendix |
 | Hiperplazie de celule C | E07.0 | hipersecretie de calcitonina; hiperplazie de celule C tiroidiene; hipersecretie de tirocalcitonina; hypersecretion of calcitonin; C-cell hyperplasia; thyroid C-cell hyperplasia |
-| Hiperplazie gingivala | K06.1 | hipertrofie gingivala; fibromatoza gingivala; marire de volum gingivala; gingival enlargement; gingival hyperplasia; gingival overgrowth; gingival fibromatosis |
+| Hiperplazie gingivala | K06.1 | hipertrofie gingivala; marire de volum gingivala; hiperplazia gingiilor; gingival enlargement; gingival hyperplasia; gingival overgrowth |
 | Hiperprolinemie | E72.5 | hiperprolinemie tip I; hiperprolinemie tip II; deficit de prolin oxidaza; hyperprolinemia; hyperprolinemia type I; proline oxidase deficiency |
+| Hipersexualitate | F52.7 | necesitate sexuala excesiva; nimfomanie; satiriazis; apetit sexual excesiv; excessive sexual drive; hypersexuality; nymphomania; satyriasis |
 | Hipertensiune cronica in sarcina | O10, O10.0, O10.4, O10.9 | hipertensiune preexistenta complicand sarcina; hipertensiune arteriala cronica la gravida; hipertensiune esentiala preexistenta in sarcina; chronic hypertension in pregnancy; pre-existing hypertension complicating pregnancy; pre-existing essential hypertension in pregnancy |
 | Hipertensiune neonatala | P29.2 | hipertensiune arteriala neonatala; hipertensiunea nou-nascutului; hipertensiune arteriala la nou-nascut; neonatal hypertension; hypertension of newborn; neonatal arterial hypertension |
 | Hipertensiune oculara | H40.0 | hipertensiune intraoculara; glaucom la limita; suspiciune de glaucom; ocular hypertension; glaucoma suspect; borderline glaucoma |
@@ -67,7 +72,8 @@
 | Hipertricoza lanuginoasa dobandita | L68.1 | hipertricoza lanuginoasa paraneoplazica; hipertricoza lanuginoasa maligna; hypertrichosis lanuginosa acquisita; acquired hypertrichosis lanuginosa; malignant down; paraneoplastic hypertrichosis lanuginosa |
 | Hipertrofie de glanda salivara | K11.1 | hipertrofia glandelor salivare; hipertrofie salivara; marire de volum a glandelor salivare; salivary gland hypertrophy; hypertrophy of salivary gland; salivary gland enlargement |
 | Hipertrofie labiala | N90.6 | hipertrofia vulvei; hipertrofia labiilor; hipertrofia labiilor mici; hypertrophy of vulva; labial hypertrophy; labia minora hypertrophy |
-| Hipodontie | K00.0 | agenezie dentara; lipsa congenitala a unor dinti; oligodontie; hypodontia; tooth agenesis; oligodontia |
+| Hipoacuzie indusa de zgomot | H83.3 | trauma acustica; pierderea auzului datorita zgomotului; surditate profesionala prin zgomot; noise-induced hearing loss; acoustic trauma; noise effects on inner ear |
+| Hipodontie | K00.0 | agenezie dentara; lipsa congenitala a unor dinti; anodontie partiala; hypodontia; tooth agenesis; partial anodontia |
 | Hipogalactie | O92.4 | insuficienta producerii laptelui; lactatie insuficienta; hipolactatie; hypogalactia; insufficient milk supply; low milk supply |
 | Hipogamaglobulinemie tranzitorie a copilariei | D80.7 | hipogamaglobulinemia tranzitorie a primei copilarii; hipogamaglobulinemie tranzitorie a sugarului; hipogamaglobulinemie tranzitorie infantila; transient hypogammaglobulinemia of infancy; transient hypogammaglobulinaemia of infancy; THI |
 | Hipomagnezemie neonatala | P71.2 | hipomagneziemie neonatala; hipomagnezemia nou-nascutului; deficit de magneziu neonatal; neonatal hypomagnesemia; hypomagnesemia of newborn; neonatal hypomagnesaemia |

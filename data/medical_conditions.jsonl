@@ -2568,8 +2568,10 @@
 {"name": "Halitoza", "synonyms": ["miros urat de gura", "respiratie urat mirositoare", "respiratie cu miros neplacut", "miros urat al gurii", "halitosis", "bad breath", "foul breath"]}
 {"name": "Hallux rigidus", "synonyms": ["halux rigid", "rigiditate a halucelui", "artroza metatarsofalangiana a halucelui", "hallux limitus", "first metatarsophalangeal joint arthritis", "stiff big toe"]}
 {"name": "Halux varus", "synonyms": ["hallux varus", "deviere mediala a halucelui", "deget mare in varus", "hallux varus deformity", "medial deviation of the great toe", "varus deformity of the hallux"]}
+{"name": "Hamartom pulmonar", "synonyms": ["condrohamartom pulmonar", "hamartom condroid pulmonar", "hamartom bronhopulmonar", "pulmonary hamartoma", "lung hamartoma", "pulmonary chondroid hamartoma"]}
 {"name": "Hashitoxicoza", "synonyms": ["hashitoxicoza tranzitorie", "tireotoxicoza din tiroidita Hashimoto", "faza hipertiroidiana a tiroiditei Hashimoto", "hashitoxicosis", "Hashimoto thyrotoxicosis", "transient hashitoxicosis"]}
 {"name": "Helicobacter pylori", "synonyms": ["infectie cu Helicobacter pylori", "h pylori", "infectie cu helicobacter", "helicobacter pylori infection", "h. pylori infection", "pylori infection"]}
+{"name": "Hemangioblastom", "synonyms": ["hemangioblastom cerebelos", "angioblastom", "hemangioblastom al sistemului nervos central", "hemangioblastoma", "cerebellar hemangioblastoma", "angioblastoma"]}
 {"name": "Hemangioendoteliom", "synonyms": ["tumora vasculara intermediara", "hemangioendoteliom epitelioid", "tumora endoteliala vasculara", "hemangioendothelioma", "epithelioid hemangioendothelioma", "vascular endothelial tumor"]}
 {"name": "Hemangiom", "synonyms": ["tumora vasculara benigna", "angiom benign", "hemangiom congenital", "hemangioma", "benign vascular tumor", "benign angioma", "hemangioame", "angiom", "angioma"]}
 {"name": "Hemangiom capilar", "synonyms": ["hemangiom plan", "hemangiom superficial", "pat vascular congenital", "capillary hemangioma", "superficial hemangioma", "flat hemangioma"]}
@@ -2695,7 +2697,6 @@
 {"name": "Hepatosplenomegalie", "synonyms": ["marirea ficatului si splinei", "hepatosplenomegalia", "ficat si splina marite", "hepatosplenomegaly", "enlarged liver and spleen", "liver and spleen enlargement"]}
 {"name": "Hermafroditism", "synonyms": ["hermafroditism adevarat", "gonade ovotesticulare", "dezvoltare sexuala ambigua", "true hermaphroditism", "ovotesticular disorder of sex development", "ambiguous genitalia"]}
 {"name": "Hernie Bochdalek", "synonyms": ["hernie diafragmatica posterolaterala", "hernie pleuroperitoneala", "defect diafragmatic posterior", "Bochdalek hernia", "posterolateral diaphragmatic hernia", "pleuroperitoneal hernia"]}
-{"name": "Hernie cerebrala", "synonyms": ["angajare cerebrala", "herniere cerebrala", "hernia creierului", "brain herniation", "cerebral herniation", "cerebral hernia"]}
 {"name": "Hernie de disc", "synonyms": ["discul rupt", "hernie discala", "protruzie de disc", "discopatie herniata", "herniated disc", "slipped disc", "disc herniation"]}
 {"name": "Hernie diafragmatica", "synonyms": ["hernie la piept", "hernie de diafragm", "hernie prin hiatus diafragmatic", "ruptura diafragmatica cu herniere", "diaphragmatic hernia", "herniation through the diaphragm", "phrenic hernia"]}
 {"name": "Hernie diafragmatica congenitala", "synonyms": ["defect diafragmatic congenital", "hernie congenitala de diafragm", "agenezie diafragmatica partiala", "congenital diaphragmatic hernia", "CDH", "congenital defect of the diaphragm"]}
@@ -2728,6 +2729,7 @@
 {"name": "Heterotopie neuronala", "synonyms": ["heterotopie de substanta cenusie", "heterotopie periventriculara", "heterotopie nodulara", "neuronal heterotopia", "gray matter heterotopia", "periventricular nodular heterotopia"]}
 {"name": "Hidatidoza", "synonyms": ["echinococoza", "chist hidatic", "boala hidatica", "hydatid disease", "echinococcosis", "hydatidosis"]}
 {"name": "Hidatidoza hepatica", "synonyms": ["chist cu apa la ficat", "chist hidatic hepatic", "echinococoza hepatica", "boala hidatica a ficatului", "hepatic hydatid cyst", "echinococcal liver cyst", "liver hydatid disease"]}
+{"name": "Hidatidoza osoasa", "synonyms": ["infectia osoasa cu Echinococcus granulosus", "echinococoza osoasa", "chist hidatic osos", "Echinococcus granulosus infection of bone", "bone hydatid disease", "osseous echinococcosis"]}
 {"name": "Hidranencefalie", "synonyms": ["hidranencefalia", "absenta emisferelor cerebrale", "distructie completa a emisferelor cerebrale", "hydranencephaly", "absence of cerebral hemispheres", "hydranencephaly of infancy"]}
 {"name": "Hidrartroza", "synonyms": ["hidrops articular", "revarsat articular seros", "articulatie cu lichid", "hydrarthrosis", "joint effusion", "serous joint effusion"]}
 {"name": "Hidrocefalie", "synonyms": ["cap mare", "hidrocefalie infantila", "hidrocefalie congenitala", "acumulare de lichid cefalorahidian in ventriculi", "hydrocephalus", "hydrocephaly", "cerebrospinal fluid accumulation in ventricles"]}
@@ -2815,7 +2817,7 @@
 {"name": "Hiperplazie de celule C", "synonyms": ["hipersecretie de calcitonina", "hiperplazie de celule C tiroidiene", "hipersecretie de tirocalcitonina", "hypersecretion of calcitonin", "C-cell hyperplasia", "thyroid C-cell hyperplasia"]}
 {"name": "Hiperplazie endometriala", "synonyms": ["hiperplazie de endometru", "ingrosare a endometrului", "hiperplazie endometriala atipica", "endometrial hyperplasia", "thickened endometrium", "endometrial thickening"]}
 {"name": "Hiperplazie focala nodulara hepatica", "synonyms": ["hiperplazie nodulara focala a ficatului", "tumora hepatica benigna nodulara", "hiperplazie focala nodulara", "focal nodular hyperplasia", "focal nodular hyperplasia of the liver", "benign nodular liver tumor"]}
-{"name": "Hiperplazie gingivala", "synonyms": ["hipertrofie gingivala", "fibromatoza gingivala", "marire de volum gingivala", "gingival enlargement", "gingival hyperplasia", "gingival overgrowth", "gingival fibromatosis"]}
+{"name": "Hiperplazie gingivala", "synonyms": ["hipertrofie gingivala", "marire de volum gingivala", "hiperplazia gingiilor", "gingival enlargement", "gingival hyperplasia", "gingival overgrowth"]}
 {"name": "Hiperplazie limfoida a laringelui", "synonyms": ["hiperplazie limfoida laringiana", "laringita limfoida", "foliculi limfoidi laringieni", "lymphoid hyperplasia of the larynx", "laryngeal lymphoid hyperplasia", "lymphoid laryngitis"]}
 {"name": "Hiperplazie sebacee", "synonyms": ["hiperplazie a glandelor sebacee", "adenom sebaceu hiperplazic", "hiperplazie glandulara sebacee", "sebaceous hyperplasia", "senile sebaceous hyperplasia", "sebaceous gland hyperplasia"]}
 {"name": "Hiperplazie suprarenala congenitala", "synonyms": ["hiperplazie adrenala congenitala", "blocaj enzimatic suprarenal congenital", "hiperplazie suprarenala congenitala clasica", "congenital adrenal hyperplasia", "congenital adrenogenital hyperplasia", "CAH"]}
@@ -2825,6 +2827,7 @@
 {"name": "Hiperprolinemie", "synonyms": ["hiperprolinemie tip I", "hiperprolinemie tip II", "deficit de prolin oxidaza", "hyperprolinemia", "hyperprolinemia type I", "proline oxidase deficiency"]}
 {"name": "Hiperreactivitate bronsica", "synonyms": ["hiperresponsivitate bronsica", "reactivitate bronsica crescuta", "hiperreactivitate a cailor aeriene", "bronchial hyperresponsiveness", "airway hyperresponsiveness", "bronchial hyperreactivity"]}
 {"name": "Hipersalivatie", "synonyms": ["ptialism", "sialoree", "secretie salivara excesiva", "hypersalivation", "ptyalism", "sialorrhea"]}
+{"name": "Hipersexualitate", "synonyms": ["necesitate sexuala excesiva", "nimfomanie", "satiriazis", "apetit sexual excesiv", "excessive sexual drive", "hypersexuality", "nymphomania", "satyriasis"]}
 {"name": "Hipersomnie", "synonyms": ["hipersomnia", "hipersomnie idiopatica", "somnolenta excesiva prelungita", "hypersomnia", "idiopathic hypersomnia", "primary hypersomnia"]}
 {"name": "Hipersplenism", "synonyms": ["hiperfunctie splenica", "sindrom hipersplenic", "hiperactivitate splenica", "hypersplenism", "splenic hyperfunction", "overactive spleen", "hiperfunctionare splenica", "citopenie prin hipersplenism", "hypersplenic syndrome"]}
 {"name": "Hipertelorism", "synonyms": ["ochi departati", "hiperseparare orbitara", "hipertelorism orbital", "ocular hypertelorism", "orbital hypertelorism", "wide-set eyes"]}
@@ -2863,13 +2866,14 @@
 {"name": "Hipervitaminoza A", "synonyms": ["hipervitaminoza A cronica", "exces de vitamina A", "intoxicatie cu vitamina A", "hypervitaminosis A", "vitamin A toxicity", "vitamin A poisoning"]}
 {"name": "Hipervitaminoza B6", "synonyms": ["hipervitaminoza B6 cu neuropatie", "exces de vitamina B6", "intoxicatie cu piridoxina", "hypervitaminosis B6", "pyridoxine toxicity", "vitamin B6 toxicity"]}
 {"name": "Hipervitaminoza D", "synonyms": ["hipervitaminoza D cu hipercalcemie", "exces de vitamina D", "intoxicatie cu vitamina D", "hypervitaminosis D", "vitamin D toxicity", "vitamin D intoxication"]}
+{"name": "Hipoacuzie indusa de zgomot", "synonyms": ["trauma acustica", "pierderea auzului datorita zgomotului", "surditate profesionala prin zgomot", "noise-induced hearing loss", "acoustic trauma", "noise effects on inner ear"]}
 {"name": "Hipoaldosteronism", "synonyms": ["deficit de aldosteron", "insuficienta de aldosteron", "hipoaldosteronism hiporeninemic", "hypoaldosteronism", "aldosterone deficiency", "isolated hypoaldosteronism"]}
 {"name": "Hipoalfalipoproteinemie", "synonyms": ["deficit de HDL", "lipsa alfalipoproteinelor", "nivel scazut de HDL", "hypoalphalipoproteinemia", "HDL deficiency", "familial hypoalphalipoproteinemia"]}
 {"name": "Hipobetalipoproteinemie", "synonyms": ["hipobetalipoproteinemie familiala", "betalipoproteine scazute", "deficit partial de apolipoproteina B", "hypobetalipoproteinemia", "familial hypobetalipoproteinemia", "low beta-lipoproteins"]}
 {"name": "Hipocalcemie neonatala", "synonyms": ["hipocalcemia la nou-nascut", "hipocalcemie tranzitorie neonatala", "hipocalcemie a nou-nascutului", "neonatal hypocalcemia", "hypocalcemia of the newborn", "transient neonatal hypocalcemia"]}
 {"name": "Hipocloremie", "synonyms": ["clor scazut in sange", "hipocloremie metabolica", "deficit de clor", "hypochloremia", "low blood chloride", "low serum chloride"]}
 {"name": "Hipocondroplazie", "synonyms": ["hipocondroplazia", "nanism hipocondroplazic", "displazie hipocondroplazica", "hypochondroplasia", "hypochondroplastic dwarfism", "hypochondroplasia syndrome"]}
-{"name": "Hipodontie", "synonyms": ["agenezie dentara", "lipsa congenitala a unor dinti", "oligodontie", "hypodontia", "tooth agenesis", "oligodontia"]}
+{"name": "Hipodontie", "synonyms": ["agenezie dentara", "lipsa congenitala a unor dinti", "anodontie partiala", "hypodontia", "tooth agenesis", "partial anodontia"]}
 {"name": "Hipofibrinogenemie congenitala", "synonyms": ["hipofibrinogenemie ereditara", "deficit partial congenital de fibrinogen", "hipofibrinogenemie familiala", "congenital hypofibrinogenemia", "hereditary hypofibrinogenemia", "familial hypofibrinogenemia"]}
 {"name": "Hipofosfatazie", "synonyms": ["deficit de fosfataza alcalina", "boala Rathbun", "hipofosfatazie infantila", "hypophosphatasia", "rathbun disease", "alkaline phosphatase deficiency"]}
 {"name": "Hipofosfatemie", "synonyms": ["fosfor scazut in sange", "fosfatemie scazuta", "hipofosfatemie cronica", "hypophosphatemia", "low blood phosphate", "low serum phosphate"]}
