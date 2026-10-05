@@ -1,0 +1,91 @@
+? A66.6   Osteita pianica (precoce) (tardiva)   [titlu: Leziunile pianice articulare si osoase]  <Bone and joint lesions of yaws>  ~ 
+? A66.6   Osteita sau periostita pianica (tardiva)   [titlu: Leziunile pianice articulare si osoase]  <Bone and joint lesions of yaws>  ~ 
+? B05.3   Otita medie postmorbilioasa   [titlu: Rujeola complicata cu otita medie]  <Measles complicated by otitis media>  ~ Otita medie
+? B30.0   Ochiul Shipyard   [titlu: Keratoconjunctivita cu adenovirus]  <Keratoconjunctivitis due to adenovirus>  ~ 
+? B35.1   Onichia dermatofitica   [titlu: Tinea unghiilor]  <Tinea unguium>  ~ Dermatofitoza
+? B97.3   Oncovirus   [titlu: Retrovirusi, cauza unor boli clasificate la alte capitole]  <Retrovirus as the cause of diseases classified elsewhere>  ~ 
+? C11.2   Orificiul trompei Eustache   [titlu: Peretele lateral al nazo-faringelui]  <Malignant neoplasm of lateral wall of nasopharynx>  ~ 
+? C16.0   Orificiul cardiac   [titlu: Cardia]  <Malignant neoplasm of cardia>  ~ 
+? C41.1   Osul maxilarului inferior   [titlu: Mandibula]  <Malignant neoplasm of mandible>  ~ 
+? C51.9   Organele genitale externe ale femeii   [titlu: Vulva, nespecificata]  <Malignant neoplasm of vulva, unspecified>  ~ 
+? C57.0   Oviduct   [titlu: Trompa Fallope]  <Malignant neoplasm of fallopian tube>  ~ 
+? C60.0   O cuta a pielii care acopera preputul   [titlu: Preput]  <Malignant neoplasm of prepuce>  ~ 
+? C67.5   Orificiul uretral intern   [titlu: Colul vezical]  <Malignant neoplasm of bladder neck>  ~ 
+? C76.0   Obraz   [titlu: Cap, fata si gat]  <Malignant neoplasm of head, face and neck>  ~ 
+? D48.7   Ochi   [titlu: Alte localizari specificate]  <Neoplasm of uncertain behavior of other specified sites>  ~ 
+? D58.1   Ovalocitoza (congenitala) (ereditara)   [titlu: Elliptocitoza ereditara]  <Hereditary elliptocytosis>  ~ Eliptocitoza ereditara
+? E21.0   Osteita fibro-chistica generalizata [boala osoasa von Recklinghausen]   [titlu: Hiperparatiroidism primar]  <Primary hyperparathyroidism>  ~ Neurofibromatoza tip 1
+? E64.9   Obezitatea si alte tulburari prin exces de aport   [titlu: Sechele de carente nutritionale nespecificate]  <Sequelae of unspecified nutritional deficiency>  ~ 
+? E72.4   Ornitinemia (tip I, II)   [titlu: Tulburari de metabolism al ornitinei]  <Disorders of ornithine metabolism>  ~ 
+? E74.8   Oxaluria   [titlu: Alte tulburari specificate de metabolism al carbohidratilor]  <Other specified disorders of carbohydrate metabolism>  ~ 
+? F02.3   O dementa care se dezvolta in cursul bolii   [titlu: Dementa in boala Parkinson (G20†)]  <>  ~ 
+? F09     'Obiceiuri daunatoare' (droguri)   [titlu: Tulburare mentala organica sau simptomatica, nespecificata]  <Unspecified mental disorder due to known physiological condition>  ~ 
+? F52.3   Orgasmul fie nu are loc, fie este intarziat in mod deosebit   [titlu: Disfunctie orgasmica]  <Orgasmic disorder>  ~ 
+? F52.3   Orgasm inhibat (femeie) (barbat)   [titlu: Disfunctie orgasmica]  <Orgasmic disorder>  ~ 
+? G44.0   ochi sau tampla   [titlu: Sindromul durerii de cap unilaterale (ochi sau tampla)]  <Cluster headaches and other trigeminal autonomic cephalgias (TAC)>  ~ 
+? H05.0   Osteomielita orbitei   [titlu: Inflamatii acute ale orbitei]  <Acute inflammation of orbit>  ~ 
+? H26.2   Opacitate glaucomatoasa (subcapsulara)   [titlu: Cataracta complicata]  <Complicated cataract>  ~ 
+? H30.2   Orbiculus ciliaris   [titlu: Ciclita posterioara]  <Posterior cyclitis>  ~ 
+? H33.3   Opercul   [titlu: Ruptura retiniana fara dezlipire]  <Retinal breaks without detachment>  ~ 
+? H49.0   oculomotor   [titlu: Paralizia celui de-al treilea nerv [oculomotor]]  <Third [oculomotor] nerve palsy>  ~ 
+? H52.5   Oftalmoplegia interna (completa) (totala)   [titlu: Tulburari de acomodare]  <Disorders of accommodation>  ~ 
+? H66.3   Otita medie cronica supurata   [titlu: Alte otite medii cronice supurate]  <Other chronic suppurative otitis media>  ~ Otita medie
+? H74.1   Otita adeziva   [titlu: Boala urechii medii adezive]  <Adhesive middle ear disease>  ~ Otita medie adeziva
+? I05.0   Obstructia (valvei) mitrale (reumatismala)   [titlu: Stenoza mitrala]  <Rheumatic mitral stenosis>  ~ 
+? I06.0   Obstructia reumatismala (valva) aortica   [titlu: Stenoza aortica reumatismala]  <Rheumatic aortic stenosis>  ~ 
+? I81     Obstructia (vena) porta   [titlu: Tromboza venei porte]  <Portal vein thrombosis>  ~ Tromboza de vena porta
+? I97.2   Obliterarea vaselor limfatice datorita mastectomiei   [titlu: Sindromul limfedemului dupa mastectomie]  <Postmastectomy lymphedema syndrome>  ~ 
+? J31.0   Ozena   [titlu: Rinita cronica]  <Chronic rhinitis>  ~ 
+? J95.0   Obstructia orificiului traheostomiei   [titlu: Functionarea defectuoasa a unei traheostomii]  <Tracheostomy complications>  ~ 
+? K00.0   Oligodontia   [titlu: Anodontia]  <Anodontia>  ~ 
+? K00.4   Odontodisplazia regionala   [titlu: Tulburari de formare a dintilor]  <Disturbances in tooth formation>  ~ 
+? K00.5   Odontogeneza imperfecta   [titlu: Anomalii ereditare ale structurii dentare, neclasificate altundeva]  <Hereditary disturbances in tooth structure, not elsewhere classified>  ~ 
+? K07.2   Ocluzia deschisa (anterioara) (posterioara)   [titlu: Anomalii de raport intre arcadele dentare]  <>  ~ 
+? K09.0   odontogeneza   [titlu: Chist dentar legat de dezvoltare (odontogeneza)]  <Developmental odontogenic cysts>  ~ 
+? K10.2   Osteita maxilarului (acuta) (cronica) (supurativa)   [titlu: Afectiuni inflamatorii ale maxilarelor]  <>  ~ 
+? K10.2   Osteomielita (neonatala) (acuta) (cronica) (supurativa)   [titlu: Afectiuni inflamatorii ale maxilarelor]  <>  ~ 
+? K10.2   Osteoradionecroza (acuta) (cronica) (supurativa)   [titlu: Afectiuni inflamatorii ale maxilarelor]  <>  ~ 
+? K56.3   Obstructia intestinului prin calculi biliari   [titlu: Ileus biliar]  <Gallstone ileus>  ~ Litiaza biliara
+? K56.6   Ocluzia colonului sau intestinului   [titlu: Alte obstructii intestinale si nespecificate]  <Other and unspecified intestinal obstruction>  ~ 
+? L01.0   orice micro-organism   [titlu: Impetigo [orice micro-organism] [orice localizare]]  <Impetigo>  ~ 
+? L01.0   orice localizare   [titlu: Impetigo [orice micro-organism] [orice localizare]]  <Impetigo>  ~ 
+? L02.2   Ombilic   [titlu: Abces cutanat, furuncul si furuncul antracoid al trunchiului]  <Cutaneous abscess, furuncle and carbuncle of trunk>  ~ 
+? L03.0   Onichia   [titlu: Celulita degetelor de la maini si picioare]  <Cellulitis and acute lymphangitis of finger and toe>  ~ 
+? L03.3   Ombilic   [titlu: Celulita trunchiului]  <Cellulitis and acute lymphangitis of trunk>  ~ 
+? M15.9   Osteo-artrita generalizata   [titlu: Poliartroza, nespecificata]  <Polyosteoarthritis, unspecified>  ~ Artroza generalizata
+? M48.8   Osificarea ligamentului longitudinal posterior   [titlu: Alte spondilopatii specificate]  <Other specified spondylopathies>  ~ 
+? M79.9   Osteopatii si condropatii   [titlu: Afectiune a tesuturilor moi, nespecificata]  <Soft tissue disorder, unspecified>  ~ 
+? M89.8   Osificare subperiostala post-traumatica   [titlu: Alte boli specificate ale oaselor]  <Other specified disorders of bone>  ~ 
+? M93.1   Osteocondroza la adult a osului carpal lunar   [titlu: Boala Kienbock la adult]  <Kienbock's disease of adults>  ~ 
+? N13.9   Obstructia tractului urinar   [titlu: Uropatia cu reflux si obstructiva, nespecificata]  <Obstructive and reflux uropathy, unspecified>  ~ 
+? N40     Obstructia prostatica   [titlu: Hiperplazia prostatei]  <Benign prostatic hyperplasia>  ~ 
+? O08.4   Oliguria dupa afectiunile clasificabile la   [titlu: Insuficienta renala urmand avortului si sarcinii ectopice si molare]  <Renal failure following ectopic and molar pregnancy>  ~ 
+? O62.1   Oprirea fazei active a travaliului   [titlu: Inertia uterina secundara]  <Secondary uterine inertia>  ~ 
+? O64.0   Oprirea in pozitie transversa   [titlu: Distocia de obstacol datorita unei rotatii incomplete a capului fatului]  <Obstructed labor due to incomplete rotation of fetal head>  ~ 
+? P03.8   Operatia destructiva pentru a facilita nasterea   [titlu: Fat si nou-nascut afectati de alte complicatii specificate ale travaliului si nasterii]  <Newborn affected by other specified complications of labor and delivery>  ~ 
+? P29.3   Obturatia intarziata a canalului arterial   [titlu: Persistenta circulatiei fetale]  <Persistent fetal circulation>  ~ 
+? P39.1   Oftalmia neonatala   [titlu: Conjunctivita si dacriocistita neonatala]  <Neonatal conjunctivitis and dacryocystitis>  ~ Omfalita
+? Q11.2   Ochi rudimentar   [titlu: Microftalmia]  <Microphthalmos>  ~ 
+? Q14.0   Opacitatea congenitala a corpului vitros   [titlu: Malformatii congenitale ale corpului vitros]  <Congenital malformation of vitreous humor>  ~ 
+? Q18.2   Otocefalia   [titlu: Alte malformatii ale fisurii branhiale]  <Other branchial cleft malformations>  ~ 
+? Q50.39  Ovar accesoriu   [titlu: Alte malformatii congenitale ale ovarului]  <Other congenital malformation of ovary>  ~ 
+? Q56.0   Ovotestis   [titlu: Hermafroditism, neclasificat altundeva]  <Hermaphroditism, not elsewhere classified>  ~ 
+? Q56.4   Organe genitale ambigue   [titlu: Sex nedeterminat, nespecificat]  <Indeterminate sex, unspecified>  ~ 
+? Q71.8   oare   [titlu: Alte corectari de defecte ale membrului(lor) superior(oare)]  <Other reduction defects of upper limb>  ~ 
+? Q71.9   oare   [titlu: Corectarea de defecte a membrului(lor) superior(oare), nespecificata]  <Unspecified reduction defect of upper limb>  ~ 
+? Q74.09  oare   [titlu: Alte malformatii congenitale ale membrului(lor) superior(oare), inclusiv centura humerala]  <>  ~ 
+? Q75.04  Oxicefalia   [titlu: Craniosinostoza cu alte suturi multiple]  <Lambdoid craniosynostosis>  ~ Oxycefalie
+? Q78.8   Osteopoichiloza   [titlu: Alte osteocondrodisplazii specificate]  <Other specified osteochondrodysplasias>  ~ 
+? Q84.5   Onychauxis congenitala   [titlu: Unghii marite sau hipertrofice]  <Enlarged and hypertrophic nails>  ~ 
+= A18.6   Otita medie tuberculoasa  -> Tuberculoza otitica
+= A70     Ornitoza  -> Psitacoza
+= B35.1   Onicomicoza  -> Onicomicoza
+= E66.8   Obezitate morbida  -> Obezitate morbida
+= E70.2   Ocronoza  -> Alcaptonurie
+= E74.8   Oxaloza  -> Oxaloza
+= H49.8   Oftalmoplegia externa  -> Oftalmoplegie
+= H60.8   Otita externa cronica  -> Otita externa
+= K10.3   Osteita alveolara  -> Alveolita
+= M88     osteita deformanta  -> Boala Paget osoasa
+= N46     Oligospermia  -> Oligospermie
+= Q79.2   Omfalocel  -> Omfalocel
