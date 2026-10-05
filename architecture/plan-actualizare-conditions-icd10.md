@@ -1,6 +1,6 @@
 # Plan: completarea `medical_conditions.jsonl` din CIM-10 (ICD-10), pe litere
 
-**Stare:** aprobat (2026-10-05: Î1 da, Î2 da, Î3 da). Pasul 0 făcut. Pasul 1 (A) făcut și refăcut după D4 revizuit: **79 de afecțiuni cu nume la A** adăugate (5469 → 5548), raport în `tmp/icd10_work/report_A.md`. 22 de afecțiuni găsite la A, dar cu nume la altă literă, așteaptă în `tmp/icd10_work/pending_by_letter.jsonl`. Urmează B.
+**Stare:** aprobat (2026-10-05: Î1 da, Î2 da, Î3 da). Pasul 0 făcut. Pasul 1 (A) făcut și refăcut după D4 revizuit: **79 de afecțiuni cu nume la A** adăugate (5469 → 5548), raport în `tmp/icd10_work/report_A.md`. **Pașii 2–26 făcuți** (2026-10-05), la cererea ta în paralel, fiecare literă pe branch-ul ei, cu câte un PR (§10): **+736 de afecțiuni** după unire (5548 → 6284), raport general în `tmp/icd10_work/report_total.md`. Cele 22 de afecțiuni din `pending_by_letter.jsonl` au intrat la literele lor. Rămân: deciziile din §10.4 și reindexarea (7.5).
 
 **Scop:** pentru fiecare literă din alfabetul englez (A–Z, 26 de pași) se caută în CIM-10, în limba română, toate bolile și afecțiunile care încep cu acea literă și **nu** există în `data/medical_conditions.jsonl`. Ce se găsește se adaugă în fișier, cu sinonime în română și în engleză. Regulile actuale ale proiectului despre gruparea mai multor afecțiuni într-una singură rămân valabile (§3).
 
@@ -177,3 +177,11 @@ Fiecare pas aplică P1–P8 pe litera lui. Coloana „Ce conține CIM-10” arat
 - **Î1.** Accepți descărcarea celor două surse (D1: PDF RoDRG v1, ~22,5 MB, `hosptm.ro`; D2: codurile ICD-10-CM, CMS)?
 - **Î2.** Granularitatea D5 (categoria de 3 caractere implicit, subcategoriile doar când sunt entități distincte) e cea dorită?
 - **Î3.** Punctul de control după litera A (D7) — da sau nu?
+
+### 10. Execuția pașilor 2–26 (adăugat la implementare)
+
+- **10.1. În paralel.** Ai cerut (2026-10-05) ca pașii rămași să ruleze în paralel, pe branch-uri diferite, cu câte un PR pe branch: B pe `claude/elegant-allen-thlr5k`, C–Z pe `claude/icd10-litera-<L>`, plus `claude/icd10-finalizare` (completarea literei A, acest plan, `TEXT_REPR_VERSION` 5 → 6, `report_total.md`). D8 (fără commit) e înlocuit de această cerere.
+- **10.2. Amânatele, fără `pending_by_letter.jsonl` comun.** Fiecare literă a scris afecțiunile cu nume la altă literă în `tmp/icd10_work/pending_from_<L>.jsonl` (D4). La unire, cele deja adăugate de litera-țintă au fost eliminate (31), restul (94) au fost verificate pe dicționarul unit și adăugate cu un commit în plus pe branch-ul literei lor.
+- **10.3. Unirea.** Dublurile apărute între litere (aceeași boală sub două nume, pe branch-uri diferite: 6) și termenii comuni (G6: 2) au fost corectați pe branch-ul care nu avea titlul CIM-10; detaliile în `report_total.md` și în `notes_<L>.md`. Dicționarul unit trece `test_conditions.py`, iar perechile noi din `audit_near_dupes.py` sunt toate de tip bază ⊂ subtip (G4).
+- **10.4. De decis:** parafiliile (F65), intrările la limita G7 și corecturile propuse pentru liniile existente (D6) — listele în `report_total.md`.
+- **10.5. Ordinea de integrare a PR-urilor.** Toate modifică `data/medical_conditions.jsonl` în zone diferite; două litere vecine care inserează la aceeași graniță (ultima linie a uneia, prima a celeilalte) dau conflict la al doilea PR integrat. Se rezolvă păstrând ambele linii în ordinea sortată. `claude/icd10-finalizare` se integrează ultimul (reindexarea forțată).
