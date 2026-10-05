@@ -6,7 +6,7 @@
   - dublura categoriei parinte (nespecificat): 1
 - găsite automat în dicționar (P4.1–P4.3): **6**
 - de decis manual (`nou` + `posibil`): **13**
-- **afecțiuni adăugate: 6**
+- **afecțiuni adăugate: 7**
 
 ## Decizii manuale
 
@@ -19,12 +19,14 @@
 - **Lăsate literei titlului:** `Kleeblattschadel` (Q75.06) e incluziune sub „Craniu sub forma de frunza de trifoi” — apare în `candidates_C.txt`, deci decide pasul C (nu există în dicționar: „cloverleaf skull” lipsește).
 - **De urmărit la integrare (G6):** `Keratoza obturanta` are ca sinonim „keratoza obturativa a urechii externe”, care e și incluziune la H60.4 (titlu la C, `Colesteatomul urechii externe`); `Kerion` e incluziune la B35.0 (titlu la T, `Tinea barbii si partii paroase a capului`). Dacă pașii C/T au pus acești termeni ca sinonime la alte afecțiuni, la reunire trebuie păstrați aici.
 - **Sinonime insuficiente:** niciuna. Candidați posibili care nu apar în sursa românească (incluziuni OMS la H16.1/H16.2: keratoconjunctivita flictenulară, keratita neurotrofică, keratita punctată superficială Thygeson) nu au fost adăugați — nu sunt în lista RoDRG.
+- **Amânate de la alte litere, adăugate la unire (coordonator, 1):** `Keratochist odontogen` (K09.0; de la C). Verificate față de dicționarul unit al tuturor literelor (G3, G6).
 
 ## Adăugate
 
 | Nume canonic | Coduri | Sinonime |
 |---|---|---|
 | Keratita interstitiala | H16.3 | keratita interstitiala si profunda; cheratita interstitiala; keratita parenchimatoasa; keratita profunda; interstitial and deep keratitis; interstitial keratitis; parenchymatous keratitis; deep keratitis |
+| Keratochist odontogen | K09.0 | cheratochist odontogen; tumora keratochistica odontogena; chist primordial; odontogenic keratocyst; keratocystic odontogenic tumor; primordial cyst |
 | Keratoconjunctivita | H16.2 | cheratoconjunctivita; keratita superficiala cu conjunctivita; inflamatia corneei si conjunctivei; keratoconjunctivitis; superficial keratitis with conjunctivitis; inflammation of the cornea and conjunctiva |
 | Keratopatie in banda | H18.4 | keratopatia in bandelete; cheratopatie in banda; keratopatie calcara in banda; degenerescenta corneana in banda; band keratopathy; calcific band keratopathy; band-shaped keratopathy; calcific band-shaped keratopathy |
 | Keratoza obturanta | H60.4 | keratoza obturativa a urechii externe; keratoza obturanta a conductului auditiv extern; cheratoza obturanta; keratosis obturans; keratosis obturans of the external auditory canal; keratosis obturans of the ear |
