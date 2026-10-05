@@ -1,0 +1,20 @@
+? A50.3   Keratita interstitiala sifilitica congenitala tardiva†   [titlu: Oculopatia sifilitica congenitala tardiva]  <Late congenital syphilitic oculopathy>  ~ 
+? B35.0   Kerion   [titlu: Tinea barbii si partii paroase a capului]  <Tinea barbae and tinea capitis>  ~ 
+? B36.1   Keratomicoza nigricans a palmei   [titlu: Tinea nigra]  <Tinea nigra>  ~ 
+? B60.1   Keratoconjunctivita datorita   [titlu: Acanthamoebioza]  <Acanthamebiasis>  ~ Keratoconjunctivita uscata | Keratoconjunctivita herpetica
+? E50.8   Keratoza foliculara datorita avitaminozei A   [titlu: Alte manifestari ale avitaminozei A]  <Other manifestations of vitamin A deficiency>  ~ Cheratoza foliculara
+? H18.4   Keratopatia in bandelete   [titlu: Degenerescenta corneei]  <Corneal degeneration>  ~ 
+? H19.8   Keratocon in sindromul Down   [titlu: Alte afectiuni ale sclerei si corneei in boli clasificate altundeva]  <>  ~ 
+? H60.4   Keratoza obturativa a urechii externe (conduct)   [titlu: Colesteatomul urechii externe]  <Cholesteatoma of external ear>  ~ 
+? M30.3   Kawasaki   [titlu: Sindromul ganglionilor limfatici muco-cutanati [Kawasaki]]  <Mucocutaneous lymph node syndrome [Kawasaki]>  ~ Boala Kawasaki
+? N48.0   Kraurosisul penisului   [titlu: Leucoplazia penisului]  <Leukoplakia of penis>  ~ 
+? N90.4   Kraurosis a vulvei   [titlu: Leucoplazia vulvei]  <Leukoplakia of vulva>  ~ Lichen sclerosus vulvar
+? P23.6   Klebsiella pneumoniae   [titlu: Pneumonia congenitala datorita altor agenti bacterieni]  <Congenital pneumonia due to other bacterial agents>  ~ Abces pulmonar cu Klebsiella | Bronsiolita cu Klebsiella | Bronsita acuta cu Klebsiella | Bronsita cronica cu Klebsiella | Faringita acuta cu Klebsiella | Pneumonie cu Klebsiella
+? Q15.0   Keratoglob congenital, cu glaucom   [titlu: Glaucom congenital]  <Congenital glaucoma>  ~ Glaucom congenital
+? Q75.06  Kleeblattschadel   [titlu: Craniu sub forma de frunza de trifoi]  <>  ~ 
+? Q82.8   Keratoza ereditara palmara si plantara   [titlu: Alte malformatii congenitale specificate ale pielii]  <Other specified congenital malformations of skin>  ~ 
+? Q82.8   Keratoza foliculara [Dariei-White]   [titlu: Alte malformatii congenitale specificate ale pielii]  <Other specified congenital malformations of skin>  ~ Cheratoza foliculara
+? Q87.04  Klein   [titlu: Sindromul Treacher Collins [-Franceschetti] [-Klein]]  <>  ~ Sincopa
+= A81.8   Kuru  -> Boala Kuru
+= B55.0   Kala-azar  -> Leishmanioza viscerala
+= P57     kernicterus  -> Kernicterus
