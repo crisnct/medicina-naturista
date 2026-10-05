@@ -1,0 +1,261 @@
+? A05.1   Clostridium botulinum   [titlu: Botulismul]  <Botulism food poisoning>  ~ 
+? A05.2   Clostridium welchii   [titlu: Intoxicatia alimentara prin Clostridium perfringens [Clostridium welchii]]  <Foodborne Clostridium perfringens [Clostridium welchii] intoxication>  ~ 
+? A09     Catar, enteric sau intestinal   [titlu: Diareea si gastro-enterita probabil infectioase]  <Infectious gastroenteritis and colitis, unspecified>  ~ 
+? A51.3   Condilomul plat   [titlu: Sifilis secundar al pielii si mucoaselor]  <Secondary syphilis of skin and mucous membranes>  ~ 
+? A71.1   Conjunctivita granuloasa (trahomatoasa)   [titlu: Faza activa a trahomului]  <Active stage of trachoma>  ~ Trahom
+? A74.9   Chlamidioza   [titlu: Infectia cu Chlamydia, nespecificata]  <Chlamydial infection, unspecified>  ~ Chlamydia
+? B16.0   coinfectie   [titlu: Hepatita acuta B cu agent Delta (coinfectie) si coma hepatica]  <Acute hepatitis B with delta-agent with hepatic coma>  ~ 
+? B16.1   coinfectie   [titlu: Hepatita acuta B cu agent Delta (coinfectie) si fara coma hepatica]  <Acute hepatitis B with delta-agent without hepatic coma>  ~ 
+? B30.8   Conjunctivita Newcastle   [titlu: Alte conjunctivite virale]  <Other viral conjunctivitis>  ~ Conjunctivita neonatala
+? B43.1   Chromomicoza cerebrala   [titlu: Abcesul phaeomycotic al creierului]  <Pheomycotic brain abscess>  ~ 
+? B57.2   cronica   [titlu: Boala Chagas (cronica) cu atingerea inimii]  <Chagas' disease (chronic) with heart involvement>  ~ 
+? B57.3   cronica   [titlu: Boala Chagas (cronica) cu atingerea aparatului digestiv]  <Chagas' disease (chronic) with digestive system involvement>  ~ 
+? B57.4   cronica   [titlu: Boala Chagas (cronica) cu atingerea sistemului nervos]  <Chagas' disease (chronic) with nervous system involvement>  ~ 
+? B57.5   cronica   [titlu: Boala Chagas (cronica) cu atingerea altor organe]  <Chagas' disease (chronic) with other organ involvement>  ~ 
+? B58.0   Chorioretinita cu Toxoplasma†   [titlu: Oculopatia cu Toxoplasma]  <Toxoplasma oculopathy>  ~ 
+? B60.1   Conjunctivita datorita Acanthamoeba†   [titlu: Acanthamoebioza]  <Acanthamebiasis>  ~ 
+? B68.0   Cestoda porcului (infectie)   [titlu: Infectia cu Taenia solium]  <Taenia solium taeniasis>  ~ 
+? B68.1   Cestoda de vita (infectie)   [titlu: Infectia cu Taenia saginata]  <Taenia saginata taeniasis>  ~ 
+? B70.0   Cestoda pestelui (infectia)   [titlu: Diphyllobothriaza]  <Diphyllobothriasis>  ~ 
+? B71.0   Cestoda pitica (infectie)   [titlu: Infectie cu Hymenolepsis]  <Hymenolepiasis>  ~ 
+? B71.0   Cestoda sobolanului (infectie)   [titlu: Infectie cu Hymenolepsis]  <Hymenolepiasis>  ~ 
+? B71.1   Cestoda cainelui (infectie)   [titlu: Infectia cu Dipylidium]  <Dipylidiasis>  ~ 
+? B71.8   Cenuroza   [titlu: Alte infectii cu cestode, specificate]  <Other specified cestode infections>  ~ 
+? B71.9   Cestoda (infectie)   [titlu: Infectia prin cestode, nespecificata]  <Cestode infection, unspecified>  ~ 
+? B83.8   Capillariaza hepatica   [titlu: Alte helmintiaze specificate]  <Other specified helminthiases>  ~ 
+? C06.9   Cavitate bucala   [titlu: Gura, nespecificata]  <Malignant neoplasm of mouth, unspecified>  ~ 
+? C10.4   Chistul brahial [localizarea tumorii]   [titlu: Fenta branhiala]  <Malignant neoplasm of branchial cleft>  ~ 
+? C16.4   Canalul piloric   [titlu: Pilorul]  <Malignant neoplasm of pylorus>  ~ 
+? C19     Colonul cu rectul   [titlu: Tumora maligna a jonctiunii recto-sigmoidiene]  <Malignant neoplasm of rectosigmoid junction>  ~ 
+? C25.7   Colul pancreasului   [titlu: Alte parti ale pancreasului]  <Malignant neoplasm of other parts of pancreas>  ~ 
+? C30.0   Cartilagiul nasului   [titlu: Fosele nazale]  <Malignant neoplasm of nasal cavity>  ~ 
+? C30.0   Cornete, nazale   [titlu: Fosele nazale]  <Malignant neoplasm of nasal cavity>  ~ Rinita hipertrofica
+? C32.0   Coarda vocala (adevarata)   [titlu: Glota]  <Malignant neoplasm of glottis>  ~ 
+? C32.1   Coarda vocala falsa   [titlu: Supraglota]  <Malignant neoplasm of supraglottis>  ~ 
+? C39.9   Caile respiratorii   [titlu: Localizari rau definite ale sistemului respirator]  <Malignant neoplasm of lower respiratory tract, part unspecified>  ~ 
+? C41.02  Cornete nazale   [titlu: Oasele maxilo-faciale]  <>  ~ Rinita hipertrofica
+? C44.0   Carcinomul basocelular al buzei   [titlu: Pielea buzelor]  <Other and unspecified malignant neoplasm of skin of lip>  ~ 
+? C57.7   Corpul sau canalul Wolffian   [titlu: Alte organe genitale specificate la femeie]  <Malignant neoplasm of other specified female genital organs>  ~ 
+? C57.9   Caile genito-urinare la femeie   [titlu: Organ genital la femeie, nespecificata]  <Malignant neoplasm of female genital organ, unspecified>  ~ 
+? C58     Corioepiteliomul   [titlu: Tumora maligna a placentei]  <Malignant neoplasm of placenta>  ~ Tricoepiteliom
+? C63.9   Caile genito-urinare la barbat   [titlu: Organ genital la barbat, nespecificat]  <Malignant neoplasm of male genital organ, unspecified>  ~ 
+? C65     Calicele renal   [titlu: Tumora maligna a bazinetului renal]  <Malignant neoplasm of renal pelvis>  ~ 
+? C69.5   Canalul nazo-lacrimal   [titlu: Glanda lacrimala si canalul lacrimal]  <Malignant neoplasm of lacrimal gland and duct>  ~ 
+? C80     Cancer cu localizare (primara) (secundara)   [titlu: Tumori maligne cu sediu nespecificat]  <Malignant neoplasm without specification of site>  ~ 
+? C80     Carcinom cu localizare (primara) (secundara)   [titlu: Tumori maligne cu sediu nespecificat]  <Malignant neoplasm without specification of site>  ~ 
+? C80     Carcinomatoza cu localizare (primara) (secundara)   [titlu: Tumori maligne cu sediu nespecificat]  <Malignant neoplasm without specification of site>  ~ 
+? C92.3   Clorom   [titlu: Sarcom mieloid]  <Myeloid sarcoma>  ~ 
+? D02.3   Cavitatile nazale   [titlu: Alte parti ale sistemului respirator]  <Carcinoma in situ of other parts of respiratory system>  ~ Carcinom de cavitate nazala
+? D13.4   Caile biliare intrahepatice   [titlu: Ficat]  <Benign neoplasm of liver>  ~ Atrezie biliara intrahepatica
+? D14.0   Cartilagiul nasului   [titlu: Urechea medie, fosele nazale si sinusul fetei]  <Benign neoplasm of middle ear, nasal cavity and accessory sinuses>  ~ 
+? D29.7   Cordonul spermatic   [titlu: Alte organe genitale ale barbatului]  <>  ~ Torsiune de testicul | Varicocel
+? D31.5   Canalul nazo-lacrimal   [titlu: Glande lacrimale si canal lacrimal]  <Benign neoplasm of lacrimal gland and duct>  ~ 
+? D38.5   Cartilagiul nasului   [titlu: Alte organe respiratorii]  <Neoplasm of uncertain behavior of other respiratory organs>  ~ 
+? D38.5   Cavitatile nazale   [titlu: Alte organe respiratorii]  <Neoplasm of uncertain behavior of other respiratory organs>  ~ Carcinom de cavitate nazala
+? D39.2   Chorio-adenom destructiv   [titlu: Placenta]  <Neoplasm of uncertain behavior of placenta>  ~ Mola hidatiforma invaziva
+? D48.6   Cistosarcomul phillodes   [titlu: San]  <Neoplasm of uncertain behavior of breast>  ~ 
+? D48.9   Categoriile cu asterisc de la acest   [titlu: Tumora cu evolutie imprevizibila si necunoscuta, nespecificata]  <Neoplasm of uncertain behavior, unspecified>  ~ 
+? D50.0   cronica   [titlu: Anemia prin carenta de fier secundara unei pierderi de sange (cronica)]  <Iron deficiency anemia secondary to blood loss (chronic)>  ~ 
+? D68.0   Carenta prin lipsa factorului VIII cu anomalie vasculara   [titlu: Boala von Willebrand]  <Von Willebrand disease>  ~ 
+? D89.9   Categoriile cu asterisc de la acest   [titlu: Tulburari implicand sistemul imunitar, nespecificate]  <Disorder involving the immune mechanism, unspecified>  ~ 
+? E00.0   Cretinism edemic de tip neurologic   [titlu: Sindromul deficientei congenitale de iod de tip neurologic]  <Congenital iodine-deficiency syndrome, neurological type>  ~ Cretinism neurologic
+? E00.2   Cretinism endemic de tip mixt   [titlu: Sindromul deficientei congenitale de iod de tip mixt]  <Congenital iodine-deficiency syndrome, mixed type>  ~ Cretinism
+? E07.9   Criteriile OMS pentru diabet   [titlu: Afectiunea tiroidei, nespecificata]  <Disorder of thyroid, unspecified>  ~ 
+? E27.0   Cushing   [titlu: Alte hiperfunctiuni adrenocorticale]  <Other adrenocortical overactivity>  ~ Sindrom Cushing
+? E75.5   Colesteroza cerebrotendinoasa [van   [titlu: Alte tulburari ale lipidelor de rezerva]  <Other lipid storage disorders>  ~ 
+? E76.2   Carenta de ß-glucoronidasa   [titlu: Alte mucopolizaharidoze]  <Other mucopolysaccharidoses>  ~ 
+? E87.1   Carenta de sodiu [Na]   [titlu: Hipo-osmolaritate si hiponatremie]  <Hypo-osmolality and hyponatremia>  ~ Deficit de sodiu
+? E87.6   Carenta de potasiu [K]   [titlu: Hipopotasemie]  <Hypokalemia>  ~ Deficit de potasiu
+? E89.9   Categoriile cu asterisc de la acest   [titlu: Tulburari metabolice si endrocrine postprocedurale, nespecificate]  <>  ~ 
+? F44.7   Combinatie de tulburari specificate la   [titlu: Tulburari disociative [de conversie] mixte]  <Conversion disorder with mixed symptom presentation>  ~ 
+? F44.88  Confuzie psihogena   [titlu: Alte tulburari disociative [de conversie] specificate]  <>  ~ Confuzie mentala | Amnezie disociativa
+? F81.0   'Citirea inversata'   [titlu: Tulburari specifice de citire]  <Specific reading disorder>  ~ 
+? F91.2   Chiul de la scoala   [titlu: Tulburare de conduita socializata]  <Conduct disorder, adolescent-onset type>  ~ 
+? F99     Categoriile cu asterisc de la acest   [titlu: Tulburare mentala, nespecificata altminteri]  <Mental disorder, not otherwise specified>  ~ 
+? G23.8   Calcificarea ganglionilor bazali   [titlu: Alte boli degenerative specificate ale ganglionilor bazali]  <Other specified degenerative diseases of basal ganglia>  ~ 
+? G25.5   Coreea   [titlu: Alte categorii de coree]  <Other chorea>  ~ Boala Huntington
+? G40.6   cu sau fara petit mal   [titlu: Atacuri de "grand mal", nespecificate (cu sau fara petit mal)]  <>  ~ Epilepsie absenta | Epilepsie absenta a copilariei
+? G51.4   clonii musculare segmentare   [titlu: Miochimia faciala (clonii musculare segmentare)]  <Facial myokymia>  ~ 
+? G82     Cvadriplegia acuta, nontraumatica, cronica   [titlu: Paraplegia si tetraplegia]  <Paraplegia (paraparesis) and quadriplegia (quadriparesis)>  ~ 
+? G82.5   Cvadriplegia   [titlu: Tetraplegia, nespecificata]  <Quadriplegia>  ~ 
+? G99.8   Categoriile cu asterisc de la acest   [titlu: Alte afectiuni specificate ale sistemului nervos in boli clasificate altundeva]  <Other specified disorders of nervous system in diseases classified elsewhere>  ~ 
+? H02.7   Cloasma pleoapei   [titlu: Alte afectiuni degenerative ale pleoapei si ale regiunii perioculare]  <Other and unspecified degenerative disorders of eyelid and periocular area>  ~ Colobom palpebral
+? H04.3   Canaliculita lacrimala acuta, subacuta sau   [titlu: Inflamatia acuta si nespecificata a cailor lacrimale]  <Acute and unspecified inflammation of lacrimal passages>  ~ Canaliculita
+? H05.0   Celulita orbitei   [titlu: Inflamatii acute ale orbitei]  <Acute inflammation of orbit>  ~ Celulita orbitala
+? H05.5   Corp strain retro-ocular   [titlu: Retentia(veche)de corp strain ca urmare a unei plagi penetrante a orbitei]  <Retained (old) foreign body following penetrating wound of orbit>  ~ 
+? H05.8   Chistul orbitei   [titlu: Alte afectiuni ale orbitei]  <Other disorders of orbit>  ~ Chist dermoid orbital
+? H18.3   Cuta a membranei Descemet   [titlu: Alteratia membranelor corneene]  <Changes of corneal membranes>  ~ 
+? H20.0   Ciclita acuta, recenta sau subacuta   [titlu: Iridociclita acuta si subacuta]  <Acute and subacute iridocyclitis>  ~ 
+? H26.4   Cataracta secundara   [titlu: Sechele de cataracta]  <Secondary cataract>  ~ Cataracta
+? H31.2   Choroideremia   [titlu: Distrofia ereditara a choroidei]  <Hereditary choroidal dystrophy>  ~ 
+? H33.1   Chist marginea anterioara a retinei senzoriale   [titlu: Retinoschisis si chisturi retiniene]  <Retinoschisis and retinal cysts>  ~ 
+? H33.1   Chist parazitar al retinei   [titlu: Retinoschisis si chisturi retiniene]  <Retinoschisis and retinal cysts>  ~ 
+? H35.3   Cute ale maculei   [titlu: Degenerescenta maculei si polului posterior]  <Degeneration of macula and posterior pole>  ~ 
+? H35.7   Chorioretinopatia seroasa centrala   [titlu: Dezlipirea straturilor retinei]  <Separation of retinal layers>  ~ Retinopatie seroasa centrala
+? H44.3   Chalcoza   [titlu: Alte afectiuni degenerative ale globului ocular]  <Other and unspecified degenerative disorders of globe>  ~ 
+? H47.0   Compresiunea nervului optic   [titlu: Afectiuni ale nervului optic, neclasificate altundeva]  <Disorders of optic nerve, not elsewhere classified>  ~ 
+? H50.4   Ciclotropia   [titlu: Alte heterotropii si nespecificate]  <Other and unspecified heterotropia>  ~ 
+? H53.1   Cecitatea diurna   [titlu: Tulburari subiective de vedere]  <Subjective visual disturbances>  ~ 
+? H59.8   Cicatrice chorioretiniene dupa chirurgie pentru dezlipire   [titlu: Alte afectiuni postprocedurale ale ochiului si anexelor]  <Other intraoperative and postprocedural complications and disorders of eye and adnexa, not elsewhere classified>  ~ 
+? H59.9   Categoriile cu asterisc de la acest   [titlu: Afectiune postprocedurala a ochiului si anexelor, nespecificata]  <>  ~ 
+? H60.0   Carbuncul al auriculului sau al conductului auditiv extern   [titlu: Abces al urechii externe]  <Abscess of external ear>  ~ 
+? H61.0   Chondrodermatita nodulara cronica a helixului   [titlu: Perichondrita urechii externe]  <Chondritis and perichondritis of external ear>  ~ 
+? H61.2   Ceara in ureche   [titlu: Dop de cerumen]  <Impacted cerumen>  ~ Otomicoza
+? H61.3   Colapsul conductului auditiv extern   [titlu: Stenoza dobandita a conductului auditiv extern]  <Acquired stenosis of external ear canal>  ~ Atrezie de conduct auditiv extern | Polip auricular | Otita externa circumscrisa
+? H65.2   Catar cronic tubotimpanic   [titlu: Otita medie seroasa cronica]  <Chronic serous otitis media>  ~ 
+? H68.1   Compresiunea trompei Eustache   [titlu: Obstructia trompei Eustache]  <Obstruction of Eustachian tube>  ~ 
+? H95.1   Chist mucos dupa mastoidectomie   [titlu: Alte afectiuni survenind dupa mastoidectomie]  <Other disorders of ear and mastoid process following mastoidectomy>  ~ 
+? H95.9   Categoriile cu asterisc de la acest   [titlu: Afectiuni postprocedurale la nivelul urechii si apofizei mastoide, nespecificate]  <>  ~ 
+? I31.1   Calcificare pericardica   [titlu: Pericardita cronica constrictiva]  <Chronic constrictive pericarditis>  ~ 
+? I42.2   Cardiomiopatia hipertrofica neobstructiva   [titlu: Alte cardiomiopatii hipertrofice]  <Other hypertrophic cardiomyopathy>  ~ Cardiomiopatie hipertrofica | Cardiomiopatie hipertrofica familiala
+? I42.4   Cardiomiopatia congenitala   [titlu: Fibroelastoza endocardica]  <Endocardial fibroelastosis>  ~ Miopatia congenitala | Cardiomiopatie dilatativa | Paramiotonie congenitala
+? I42.5   Cardiomiopatia constrictoare   [titlu: Alte cardiomiopatii restrictive]  <Other restrictive cardiomyopathy>  ~ 
+? I50.0   Cardiopatia congestiva   [titlu: Insuficienta cardiaca congestiva]  <>  ~ Cardiomiopatie dilatativa
+? I51.8   Cardita (acuta) (cronica)   [titlu: Alte boli cardiace rau definite]  <Other ill-defined heart diseases>  ~ Cardiopatie reumatica | Gastrita cronica activa
+? I52.1   Cardiopatia pulmonara in schistosomiaza   [titlu: Alte cardiopatii in alte boli infectioase si parazitare clasificate altundeva]  <>  ~ Pneumonie cu Schistosoma
+? I52.8   Cardita reumatoida   [titlu: Alte cardiopatii in alte boli clasificate altundeva]  <>  ~ Pericardita reumatoida | Artrita reumatoida | Vasculita reumatoida
+? I87.2   cronica   [titlu: Insuficienta venoasa (cronica) (periferica)]  <Venous insufficiency (chronic) (peripheral)>  ~ 
+? I89.8   Chilocel (nonfilarial)   [titlu: Alte afectiuni neinfectioase specificate ale vaselor limfatice si ganglionilor limfatici]  <Other specified noninfective disorders of lymphatic vessels and lymph nodes>  ~ 
+? J00     Coriza (acuta)   [titlu: Rino-faringita acuta [guturaiul comun]]  <Acute nasopharyngitis [common cold]>  ~ 
+? J00     Catar nazal, acut   [titlu: Rino-faringita acuta [guturaiul comun]]  <Acute nasopharyngitis [common cold]>  ~ Rinita
+? J20.3   Coxsackie   [titlu: Bronsita acuta datorita virusului]  <Acute bronchitis due to coxsackievirus>  ~ 
+? J34.0   Celulita nazala (sept)   [titlu: Abces, furuncul si antraxul nasului]  <Abscess, furuncle and carbuncle of nose>  ~ 
+? J35.8   Cicatrice amigdaliana (si adenoida)   [titlu: Alte boli cronice ale amigdalelor si adenoizilor]  <Other chronic diseases of tonsils and adenoids>  ~ 
+? J36     Celulita periamigdaliana   [titlu: Angina flegmonoasa]  <Peritonsillar abscess>  ~ 
+? J38.2   Cordita (fibrinoasa) (nodulara) (tuberoasa)   [titlu: Nodulii corzilor vocale]  <Nodules of vocal cords>  ~ 
+? J38.3   Celulita corzii(lor) vocale   [titlu: Alte boli ale corzilor vocale]  <Other diseases of vocal cords>  ~ 
+? J38.7   Celulita laringelui   [titlu: Alte boli ale laringelui]  <Other diseases of larynx>  ~ 
+? J39.1   Celulita faringelui   [titlu: Alte abcese faringiene]  <Other abscess of pharynx>  ~ 
+? J39.2   Chist al faringelui sau rino-faringelui   [titlu: Alte boli ale faringelui]  <Other diseases of pharynx>  ~ 
+? J67.6   Cryptostromoza   [titlu: Pulmonul decojitorilor de artar]  <Maple-bark-stripper's lung>  ~ 
+? J81     Congestia pulmonara (pasiva)   [titlu: Edem pulmonar]  <Pulmonary edema>  ~ Edem pulmonar
+? J98.0   Calcificarea bronhiilor   [titlu: Afectiuni ale traheii si bronhiilor, neclasificate altundeva]  <Diseases of bronchus, not elsewhere classified>  ~ 
+? J98.4   Calcificarea pulmonului   [titlu: Alte modificari pulmonare]  <Other disorders of lung>  ~ 
+? K00.2   Concrescenta dintilor   [titlu: Anomalii de volum si de forma ale dintilor]  <Abnormalities of size and form of teeth>  ~ 
+? K04.2   Calcificare pulpara   [titlu: Degenerescenta pulpara]  <Pulp degeneration>  ~ 
+? K06.8   Creasta flotanta   [titlu: Alte afectiuni specifice ale gingiei si ale crestei alveolare edentate]  <Other specified disorders of gingiva and edentulous alveolar ridge>  ~ 
+? K09.8   Chist dermoid al gurii   [titlu: Alte chisturi ale regiunii bucale, neclasificate altundeva]  <Other cysts of oral region, not elsewhere classified>  ~ Chist dermoid | Chist dermoid orbital
+? K09.8   Chist epidermoid al gurii   [titlu: Alte chisturi ale regiunii bucale, neclasificate altundeva]  <Other cysts of oral region, not elsewhere classified>  ~ Chist sebaceu | Chist dermoid orbital
+? K09.8   Chist limfoepitelial al gurii   [titlu: Alte chisturi ale regiunii bucale, neclasificate altundeva]  <Other cysts of oral region, not elsewhere classified>  ~ 
+? K09.8   Chist nazo-alveolar   [titlu: Alte chisturi ale regiunii bucale, neclasificate altundeva]  <Other cysts of oral region, not elsewhere classified>  ~ Chist nazolabial
+? K09.8   Chist nazo-labial   [titlu: Alte chisturi ale regiunii bucale, neclasificate altundeva]  <Other cysts of oral region, not elsewhere classified>  ~ Chist nazolabial
+? K10.0   Chist latent osos al maxilarului   [titlu: Boli legate de dezvoltarea maxilarelor]  <>  ~ Chist osos
+? K10.0   Chist Stafne   [titlu: Boli legate de dezvoltarea maxilarelor]  <>  ~ 
+? K11.5   Calcul al glandelor salivare sau canalului salivar   [titlu: Sialolitiaza]  <Sialolithiasis>  ~ Sialolitoza
+? K14.8   Crenelarea limbii   [titlu: Alte boli ale limbii]  <Other diseases of tongue>  ~ 
+? K22.2   Compresiunea esofagului   [titlu: Obstructia esofagului]  <Esophageal obstruction>  ~ 
+? K22.2   Constrictia esofagului   [titlu: Obstructia esofagului]  <Esophageal obstruction>  ~ 
+? K31.5   Constrictia duodenului   [titlu: Obstructia duodenului]  <Obstruction of duodenum>  ~ Obstructie duodenala
+? K31.88  Contractia in clepsidra a stomacului   [titlu: Alte boli specificate ale stomacului si duodenului]  <>  ~ 
+? K51.0   cronica   [titlu: Enterocolita (cronica) ulceroasa]  <Ulcerative (chronic) pancolitis>  ~ 
+? K51.1   cronica   [titlu: Ileocolita (cronica) ulceroasa]  <>  ~ 
+? K51.2   cronica   [titlu: Rectita (cronica) ulceroasa]  <Ulcerative (chronic) proctitis>  ~ 
+? K51.3   cronica   [titlu: Rectosigmoidita (cronica) ulceroasa]  <Ulcerative (chronic) rectosigmoiditis>  ~ 
+? K71.0   Colestaza 'pura'   [titlu: Boala toxica a ficatului cu colestaza]  <Toxic liver disease with cholestasis>  ~ 
+? K71.0   Colestaza cu leziuni hepatocite   [titlu: Boala toxica a ficatului cu colestaza]  <Toxic liver disease with cholestasis>  ~ 
+? K86.8   Calcul al pancreasului   [titlu: Alte boli specificate ale pancreasului]  <Other specified diseases of pancreas>  ~ 
+? K86.8   Ciroza pancreasului   [titlu: Alte boli specificate ale pancreasului]  <Other specified diseases of pancreas>  ~ Fibroza pancreatica | Atrofie pancreatica | Chist pancreatic
+? L02.8   Cap [orice parte, cu exceptia fetei]   [titlu: Abces cutanat, furuncul si furuncul antracoid cu alte localizari]  <Cutaneous abscess, furuncle and carbuncle of other sites>  ~ 
+? L21.0   Cruste solzoase ale scalpului   [titlu: Seboreea capului]  <Seborrhea capitis>  ~ 
+? L23.0   Crom   [titlu: Dermatita alergica de contact datorita metalelor]  <Allergic contact dermatitis due to metals>  ~ 
+? L23.5   Ciment   [titlu: Dermatita alergica de contact datorita produselor chimice]  <Allergic contact dermatitis due to other chemical products>  ~ 
+? L23.5   Cauciuc   [titlu: Dermatita alergica de contact datorita produselor chimice]  <Allergic contact dermatitis due to other chemical products>  ~ 
+? L24.5   Ciment   [titlu: Dermatita iritanta de contact datorita altor produse chimice]  <Irritant contact dermatitis due to other chemical products>  ~ 
+? L25.3   Ciment   [titlu: Dermatita de contact nespecificata datorita altor produse chimice]  <Unspecified contact dermatitis due to other chemical products>  ~ 
+? L30.2   Candidoza [levuri]   [titlu: Autosensibilizarea cutanata]  <Cutaneous autosensitization>  ~ 
+? L57.2   ceafa romboidala   [titlu: Piele romboidala (ceafa romboidala)]  <Cutis rhomboidalis nuchae>  ~ 
+? L63.0   capitis   [titlu: Alopecia totala (capitis)]  <Alopecia (capitis) totalis>  ~ Carie dentara
+? L67.1   Canitia   [titlu: Anomalii de culoare a parului]  <Variations in hair color>  ~ 
+? L84     Calozitate   [titlu: Bataturi si calozitati]  <Corns and callosities>  ~ 
+? L85.8   Corn cutanat   [titlu: Alte forme specificate de ingrosari ale epidermei]  <Other specified epidermal thickening>  ~ Ulcere ale pielii
+? L99.8   Categoriile cu asterisc de la acest   [titlu: Alte afectiuni specificate ale pielii si tesutului celular subcutanat in boli clasificate altundeva]  <>  ~ 
+? M15.1   cu artropatie   [titlu: Nodozitati Heberden (cu artropatie)]  <Heberden's nodes (with arthropathy)>  ~ 
+? M15.2   cu artropatie   [titlu: Nodozitati Bouchard (cu artropatie)]  <Bouchard's nodes (with arthropathy)>  ~ 
+? M23.1   congenital   [titlu: Menisc discoid (congenital)]  <>  ~ Tuberculoza congenitala | Citomegalovirus congenital | Sifilis congenital
+? M30.1   Churg-Strauss   [titlu: Poliarterita cu atingere pulmonara [Churg-Strauss]]  <Polyarteritis with lung involvement [Churg-Strauss]>  ~ Granulomatoza eozinofilica cu poliangeita
+? M47.1   Compresiunea coloanei vertebrale datorita unei spondiloze   [titlu: Alte spondiloze cu mielopatie]  <Other spondylosis with myelopathy>  ~ 
+? M48.5   Colapsul vertebrelor   [titlu: Prabusire vertebrala, neclasificata altundeva]  <Collapsed vertebra, not elsewhere classified>  ~ 
+? M53.3   Coccigodinie   [titlu: Tulburări sacro-coccigiene, neclasificate altundeva]  <Sacrococcygeal disorders, not elsewhere classified>  ~ 
+? M77.9   Capsulita   [titlu: Entezopatia, nespecificata]  <Enthesopathy, unspecified>  ~ 
+? M90.8   Condropatii   [titlu: Osteopatia in alte boli clasificate altundeva]  <Osteopathy in diseases classified elsewhere>  ~ 
+? M99.9   Categoriile cu asterisc de la acest   [titlu: Leziune biomecanica, nespecificata]  <Biomechanical lesion, unspecified>  ~ 
+? N21.8   calculi   [titlu: Alte litiaze [calculi] ale cailor urinare inferioare]  <Other lower urinary tract calculus>  ~ 
+? N21.9   calcul   [titlu: Litiaza [calcul] cailor urinare inferioare, nespecificata]  <Calculus of lower urinary tract, unspecified>  ~ 
+? N36.0   Cale uretrala falsa   [titlu: Fistula uretrala]  <Urethral fistula>  ~ 
+? N48.2   Carbunculul corpului cavernos si penisului   [titlu: Alte tulburari inflamatorii ale penisului]  <Other inflammatory disorders of penis>  ~ 
+? N48.2   Celulita corpului cavernos si penisului   [titlu: Alte tulburari inflamatorii ale penisului]  <Other inflammatory disorders of penis>  ~ 
+? N48.2   Cavernita (penisului)   [titlu: Alte tulburari inflamatorii ale penisului]  <Other inflammatory disorders of penis>  ~ Agenezie de penis
+? N49.9   Carbuncul al unui organ genital masculin   [titlu: Afectiune inflamatorie a organelor genitale masculine nespecificata]  <Inflammatory disorder of unspecified male genital organ>  ~ 
+? N49.9   Celulita unui organ genital masculin   [titlu: Afectiune inflamatorie a organelor genitale masculine nespecificata]  <Inflammatory disorder of unspecified male genital organ>  ~ 
+? N50.8   Chilocel al tunicii vaginale (nefilarian)   [titlu: Alte afectiuni specificate ale organelor genitale masculine]  <Other specified disorders of male genital organs>  ~ 
+? N51.8   Chilocel filarian, tunica vaginala   [titlu: Alte afectiuni ale organelor genitale masculine in boli clasificate altundeva]  <>  ~ 
+? N72     Cervicita cu sau fara eroziune sau ectropion   [titlu: Boala inflamatorie a colului uterin]  <Inflammatory disease of cervix uteri>  ~ 
+? N83.2   Chist retentional al ovarului   [titlu: Alte chisturi ale ovarului si nespecificate]  <Other and unspecified ovarian cysts>  ~ 
+? N83.2   Chist simplu al ovarului   [titlu: Alte chisturi ale ovarului si nespecificate]  <Other and unspecified ovarian cysts>  ~ 
+? O41.1   Chorioamniotita   [titlu: Infectia sacului amniotic si a membranelor]  <Infection of amniotic sac and membranes>  ~ Corioamnionita
+? O48     Complicatiile travaliului si nasterii   [titlu: Sarcina prelungita]  <Late pregnancy>  ~ 
+? O62.2   Contractii slabe   [titlu: Alte forme de inertie uterina]  <Other uterine inertia>  ~ 
+? O80     Cazuri cu asistenta minima sau fara asistenta   [titlu: Nastere unica spontana]  <Encounter for full-term uncomplicated delivery>  ~ 
+? O82     Complicatiile legate in principal de lauzie   [titlu: Nastere unica prin cezariana]  <Encounter for cesarean delivery without indication>  ~ 
+? O86.1   Cervicita dupa nastere   [titlu: Alte infectii ale tractului genital dupa nastere]  <Other infection of genital tract following delivery>  ~ 
+? O99.8   Categoriile cu asterisc de la acest   [titlu: Alte boli si afectiuni specificate complicand sarcina, nasterea si lauzia]  <Other specified diseases and conditions complicating pregnancy, childbirth and the puerperium>  ~ 
+? P02.5   Cordon (strans) in jurul gatului   [titlu: Fat si nou-nascut afectati de alte forme de compresiune ale cordonului ombilical]  <Newborn affected by other compression of umbilical cord>  ~ 
+? P02.6   Cordon scurt   [titlu: Fat si nou-nascut afectati de alte afectiuni ale cordonului ombilical si nespecificate]  <Newborn affected by other and unspecified conditions of umbilical cord>  ~ 
+? P04.1   Chimioterapia cancerului   [titlu: Fat si nou-nascut afectati de alte medicamente absorbite de mama]  <Newborn affected by other maternal medication>  ~ 
+? P15.4   Congestia faciala datorita traumatismului la nastere   [titlu: Leziune faciala datorita traumatismului la nastere]  <Birth injury to face>  ~ Traumatism obstetric
+? P54.5   Contuzii la fat sau nou-nascut   [titlu: Hemoragia cutanata neonatala]  <Neonatal cutaneous hemorrhage>  ~ 
+? P78.8   Ciroza congenitala (a ficatului)   [titlu: Alte tulburari perinatale specificate ale sistemului digestiv]  <Other specified perinatal digestive system disorders>  ~ Ciroza hepatica
+? P96.3   Craniotabes neonatal   [titlu: Intarzierea de inchidere a suturii craniene]  <Wide cranial sutures of newborn>  ~ 
+? Q14.2   Coloboma papilei optice   [titlu: Malformatii congenitale ale papilei optice]  <Congenital malformation of optic disc>  ~ 
+? Q14.8   Coloboma fundului de ochi   [titlu: Alte malformatii congenitale ale camerei posterioare a ochiului]  <Other congenital malformations of posterior segment of eye>  ~ 
+? Q16.3   Coalescenta oscioarelor urechii   [titlu: Malformatia congenitala a oscioarelor urechii]  <Congenital malformation of ear ossicles>  ~ 
+? Q20.4   Cord trilocular bilateral   [titlu: Orificiu dublu ventricular]  <Double inlet ventricle>  ~ 
+? Q21.2   Canal atrio-ventricular comun   [titlu: Defect septal atrio-ventricular]  <Atrioventricular septal defect>  ~ Defect de sept atrioventricular
+? Q26.8   Continuarea venei cave inferioare in vena azigos   [titlu: Alte malformatii congenitale ale venelor mari]  <Other congenital malformations of great veins>  ~ 
+? Q43.7   Cloaca   [titlu: Persistenta cloacei]  <Persistent cloaca>  ~ 
+? Q44.5   Canal hepatic accesoriu   [titlu: Alte malformatii congenitale ale cailor biliare]  <Other congenital malformations of bile ducts>  ~ 
+? Q45.81  completa   [titlu: Absenta (completa) (partiala) a cailor digestive, neclasificate altundeva]  <>  ~ 
+? Q53.9   Criptohidia   [titlu: Testicul necoborat, nespecificat]  <Undescended testicle, unspecified>  ~ Criptorhidie
+? Q55.6   Curbarea penisului (laterala)   [titlu: Alte malformatii congenitale ale penisului]  <Other congenital malformations of penis>  ~ 
+? Q63.89  Calculi renali congenitali   [titlu: Alte malformatii congenitale ale rinichiului specificate]  <>  ~ Calculi renali
+? Q67.3   Cap asimetric   [titlu: Plagiocefalia]  <Plagiocephaly>  ~ Plagiocefalie
+? Q68.0   Contractura a muschiului sternocleidomastoidian   [titlu: Deformatii congenitale ale muschiului sternocleidomastoidian]  <Congenital deformity of sternocleidomastoid muscle>  ~ 
+? Q73.89  Corectarea longitudinala a deformatiei unui(or) membru(e)(e)   [titlu: Alte defecte corectate ale unui(or) membru(e) nespecificat(e)]  <>  ~ 
+? Q74.09  Cubitus valgus congenital si cubitus varus congenital   [titlu: Alte malformatii congenitale ale membrului(lor) superior(oare), inclusiv centura humerala]  <>  ~ 
+? Q74.89  Contractarea congenitala a membrului   [titlu: Alte malformatii congenitale specificate ale membrului(lor)]  <>  ~ Camptodactilie | Amputatie congenitala
+? Q76.39  Cifoscolioza datorita malformatiei congenitale a oaselor   [titlu: Scolioza congenitala datorita malformatiilor congenitale ale oaselor specificate]  <>  ~ 
+? Q78.9   Condrodistrofia   [titlu: Osteocondrodisplazia, nespecificata]  <Osteochondrodysplasia, unspecified>  ~ 
+? Q80.2   Copil vascos   [titlu: Ihtioza lamelara]  <Lamellar ichthyosis>  ~ 
+? Q82.8   Cute palmare anormale   [titlu: Alte malformatii congenitale specificate ale pielii]  <Other specified congenital malformations of skin>  ~ 
+? Q82.8   Cute accesorii ale pielii   [titlu: Alte malformatii congenitale specificate ale pielii]  <Other specified congenital malformations of skin>  ~ 
+? Q82.8   Cute laxe (hiperelastice)   [titlu: Alte malformatii congenitale specificate ale pielii]  <Other specified congenital malformations of skin>  ~ 
+? Q87.02  Cefalodactilia Vogt   [titlu: Acrocefalosindactilia]  <>  ~ 
+? Q87.09  Ciclopia [ciclop][ciclopism][sinoftalmia]   [titlu: Alte sindroame de malformatii congenitale afectand in special fizionomia fetei]  <>  ~ 
+= A07.3   Coccidioza intestinala  -> Isosporoza
+= A67     carate  -> Pinta
+= A69.0   Cancrum oris  -> Stomatita gangrenoasa
+= B73     Cecitatea raurilor  -> Oncocercoza
+= C16.9   Cancerul gastric  -> Cancer de stomac
+= C58     Coriocarcinomul  -> Coriocarcinom
+= E00.9   Cretinism endemic  -> Cretinism
+= E72.0   Cistinoza  -> Cistinoza
+= E72.0   Cistinuria  -> Cistinurie
+= E72.1   Cistationinuria  -> Cistationinurie
+= E72.2   Citrulinemia  -> Citrulinemie
+= E80.2   Coproporfiria ereditara  -> Coproporfirie ereditara
+= F40.2   Claustrofobie  -> Claustrofobie
+= F63.2   cleptomanie  -> Cleptomanie
+= G10     Coreea Huntington  -> Boala Huntington
+= I26.0   Cord pulmonar acut  -> Cord pulmonar
+= I31.3   Chilopericard  -> Pericardita chiloasa
+= I73.9   Claudicatia intermitenta  -> Circulatie periferica deficitara
+= J05     crup  -> Crup
+= J05.0   crup  -> Crup
+= K10.8   Cherubism  -> Cherubism
+= K22.0   Cardiospasm  -> Acalazie
+= K83.0   colangita  -> Colangita
+= M11.2   Condrocalcinoza  -> Pseudoguta
+= M71.3   Chist sinovial  -> Chist sinovial
+= Q11.2   Criptoftalmia  -> Criptoftalmie
+= Q13.2   Corectopia  -> Corectopie
+= Q75.09  Craniosinostoza  -> Craniosinostoza

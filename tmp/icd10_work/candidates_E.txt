@@ -1,11 +1,9 @@
-===== NOU (88)
+===== NOU (83)
 A04.5   Enterita prin Campylobacter  <Campylobacter enteritis>
 A04.6   Enterita prin Yersinia enterocolitica  <Enteritis due to Yersinia enterocolitica>
 A04.7   Enterocolita prin Clostridium difficile  <Enterocolitis due to Clostridium difficile>
 A83     Encefalita cu virus transmis de tantari  <Mosquito-borne viral encephalitis>
-A83.1   Encefalita ecvina occidentala  <Western equine encephalitis>
 A85.2   Encefalita cu virus transmis de artropode, nespecificata  <Arthropod-borne viral encephalitis, unspecified>
-C94.0   Eritremia acuta si eritroleucemia  {Mieloza eritremica acuta / Boala Di Guglielmo}  <Acute erythroid leukemia>
 D75.0   Eritrocitoza familiala  <Familial erythrocytosis>
 F32     Episod depresiv  {Urmatoarele subdiviziuni cu cinci}  <Depressive episode>
 F32.0   Episod depresiv usor  <Major depressive disorder, single episode, mild>
@@ -32,7 +30,6 @@ I82.9   Embolia si tromboza unor vene nespecificate  {Embolia venei / Tromboza (
 J38.4   Edem al laringelui  <Edema of larynx>
 J91     Efuziune pleurala in cursul unor boli clasificate altundeva  <Pleural effusion in conditions classified elsewhere>
 J94.0   Efuziune chiloasa  {Efuziune chiliforma}  <Chylous effusion>
-K03.2   Eroziunea dintilor  <Erosion of teeth>
 K08.0   Exfoliatia dentara datorita unor cauze sistemice  <Exfoliation of teeth due to systemic causes>
 L27.0   Eruptie a pielii generalizata datorita drogurilor si medicamentelor  <Generalized skin eruption due to drugs and medicaments taken internally>
 L27.1   Eruptie a pielii localizata datorita drogurilor si medicamentelor  <Localized skin eruption due to drugs and medicaments taken internally>
@@ -45,7 +42,6 @@ M25.4   Epansament articular  <Effusion of joint>
 M76     Entezopatia membrului inferior, exceptand piciorul  <Enthesopathies, lower limb, excluding foot>
 M76.2   Exostoza crestei iliace  <Iliac crest spur>
 M76.9   Entezopatia membrului inferior, nespecificata  <Unspecified enthesopathy, lower limb, excluding foot>
-M77.3   Exostoza calcaneana  <Calcaneal spur>
 M93.0   Epifiza femurala superioara alunecata (nontraumatica)  {nontraumatica}  <Slipped upper femoral epiphysis (nontraumatic)>
 N60.4   Ectazia canalelor galactofore  <Mammary duct ectasia>
 N80.2   Endometrioza trompei Fallope  <Endometriosis of fallopian tube>
@@ -79,7 +75,6 @@ O88.0   Embolia gazoasa obstetricala  <Obstetric air embolism>
 O88.3   Embolia pioemica si septica de origine obstetricala  <Obstetric pyemic and septic embolism>
 O89.6   Esecul sau dificultatea intubatiei in timpul lauziei  <Failed or difficult intubation for anesthesia during the puerperium>
 P83.3   Edeme, altele si nespecificate, specifice fatului si nou-nascutului  {Unele afectiuni ale caror origine se situeaza in perioada perinatala / Tabelară a Bolilor RoDRG}  <Other and unspecified edema specific to newborn>
-Q01     Encefalocel eningo-encefalocel  <Encephalocele>
 Q01.8   Encefalocel cu alte localizari  <Encephalocele of other sites>
 Q01.84  Encefalocel nasofaringian
 Q01.89  Encefalocel al altor localizari specificate
@@ -87,11 +82,8 @@ Q10.2   Entropion congenital  <Congenital entropion>
 Q43.5   Ectopia anusului  <Ectopic anus>
 Q63.22  Ectopia incrucisata a rinichiului fara anomalie de contopire
 Q63.23  Ectopia incrucisata a rinichiului cu anomalie de contopire
-===== POSIBIL (73)
+===== POSIBIL (65)
 A08.0   Enterita prin Rotavirus  <Rotaviral enteritis> ~ Infectie cu rotavirus
-A08.2   Enterita prin adenovirus  <Adenoviral enteritis> ~ Infectie cu adenovirus enteric
-A83.2   Encefalita ecvina orientala  <Eastern equine encephalitis> ~ Encefalita ecvina estica | Encefalita ecvina vestica
-A83.3   Encefalita de Saint-Louis  <St Louis encephalitis> ~ Encefalita Saint Louis
 A83.9   Encefalita virala transmisa de tantari, nespecificata  <Mosquito-borne viral encephalitis, unspecified> ~ Encefalita
 A84     Encefalita cu virus transmis de capuse  <Tick-borne viral encephalitis> ~ Encefalita transmisa de capuse
 A84.0   Encefalita de taiga transmisa de capuse [encefalita primavara-vara rusa]  {encefalita primavara-vara rusa}  <Far Eastern tick-borne encephalitis [Russian spring-summer encephalitis]> ~ Encefalita transmisa de capuse | Encefalita rusa de primavara-vara
@@ -104,10 +96,7 @@ B26.2   Encefalita urliana  <Mumps encephalitis> ~ Encefalita Murray Valley | Ne
 B37.6   Endocardita prin Candida  <Candidal endocarditis> ~ Endocardita fungica
 B37.81  Esofagita prin Candida  <Candidal esophagitis> ~ Candidoza esofagiana
 B47.0   Eumicetomul  {Piciorul de Madura. micotic / Maduromicoza}  <Eumycetoma> ~ Micetom
-B67     Echinococcoza  <Echinococcosis> ~ Hidatidoza
 B96.2   Escherichia coli [E. coli], cauza unor boli clasate la alte capitole  {E. coli}  <Escherichia coli [E. coli ] as the cause of diseases classified elsewhere> ~ Bronsiolita cu Escherichia coli | Bronsita acuta cu Escherichia coli | Bronsita cronica cu Escherichia coli | Colibaciloza | Colita hemoragica | Faringita acuta cu Escherichia coli
-D58.1   Elliptocitoza ereditara  {Elliptocitoza (congenitala) / Ovalocitoza (congenitala) (ereditara)}  <Hereditary elliptocytosis> ~ Eliptocitoza ereditara | Stomatocitoza ereditara | Sferocitoza ereditara | Ptoza congenitala | Listerioza neonatala
-D72.1   Eosinofilia  <Eosinophilia> ~ Eozinofilie
 F32.2   Episod depresiv sever, fara simptome psihotice  {Depresie agitata, episod unic fara simptome psihotice / Depresie majora, episod unic fara simptome psihotice / Depresie vitala, episod unic fara simptome psihotice}  <Major depressive disorder, single episode, severe without psychotic features> ~ Depresie agitata | Depresie psihotica
 F32.3   Episod depresiv sever cu simptome psihotice  <Major depressive disorder, single episode, severe with psychotic features> ~ Depresie psihotica
 F98.1   Encopresie neorganica  {Encopresie functionala / Incontinenta de fecale de origine neorganica / Encopresie psihogena}  <Encopresis not due to a substance or known physiological condition> ~ Tulburare organica afectiva
@@ -120,13 +109,13 @@ G40.3   Epilepsia generalizata idiopatica si sindroame epileptice  <Generalized 
 G93.4   Encefalopatia, nespecificata  <Other and unspecified encephalopathy> ~ Boala Kuru | Dementa la HIV
 H51.1   Excesul si insuficienta convergentei  <Convergence insufficiency and excess> ~ Insuficienta de convergenta
 I01.1   Endocardita reumatismala acuta  {Valvulita reumatismala acuta}  <Acute rheumatic endocarditis> ~ Endocardita reumatica
-I26     Embolia vaselor pulmonare  <Pulmonary embolism> ~ Embolie pulmonara
 I33.0   Endocardita acuta si subacuta infectioasa  <Acute and subacute infective endocarditis> ~ Endocardita infectioasa
 I74     Embolia si tromboza arteriala  <Arterial embolism and thrombosis> ~ Embolie arteriala
 I74.4   Embolia si tromboza arterelor extremitatilor, nespecificate  {Embolia arteriala periferica}  <Embolism and thrombosis of arteries of extremities, unspecified> ~ Embolie arteriala | Embolie cerebrala
 I82.2   Embolia si tromboza venei cave  <Embolism and thrombosis of vena cava and other thoracic veins> ~ Tromboza de vena cava
 I82.3   Embolia si tromboza venei renale  <Embolism and thrombosis of renal vein> ~ Tromboza de vena renala
 J68.1   Edem pulmonar acut datorita substantelor chimice, emanatiilor de gaze, fumuri si vapori  {Edem pulmonar (acut) datorit substantelor chimice}  <Pulmonary edema due to chemicals, gases, fumes and vapors> ~ Edem pulmonar
+K03.2   Eroziunea dintilor  <Erosion of teeth> ~ Abraziune dentara
 K23.0   Esofagita tuberculoasa (A18.8†) ~ Faringita tuberculoasa | Tuberculoza renala | Tuberculoza oculara
 K51.0   Enterocolita (cronica) ulceroasa  {cronica}  <Ulcerative (chronic) pancolitis> ~ Colita ulcerativa totala | Enterocolita | Enterocolita necrozanta
 K63.4   Enteroptoza  <Enteroptosis> ~ Nefroptoza | Oxiuroza
@@ -137,7 +126,6 @@ L54.0   Eritem marginat in febra reumatica acuta (I00†) ~ Febra reumatica
 M46.0   Entezopatia coloanei vertebrale  <Spinal enthesopathy> ~ Scolioza
 N80.1   Endometrioza ovarului  <Endometriosis of ovary> ~ Endometriom ovarian | Endometrioza
 N80.4   Endometrioza septului recto-vaginal si a vaginului  <Endometriosis of rectovaginal septum and vagina> ~ Sept vaginal
-N81.5   Enterocel vaginal  <Vaginal enterocele> ~ Enterocel | Uretrocel
 N86     Eroziune si ectropion ai colului uterin  {Ulcer decubit (trofic) al colului / Eversiune a colului}  <Erosion and ectropion of cervix uteri> ~ Eroziune de col uterin | Escara
 O07.0   Esecul unei tentative de avort provocat medical, complicat prin infectie pelvina si a tractului genital  <Genital tract and pelvic infection following failed attempted termination of pregnancy> ~ Avort septic
 O07.5   Esecul unei tentative de avort provocat, altul si nespecificat, complicat prin infectie pelvina si a tractului genital ~ Avort septic
@@ -160,20 +148,27 @@ Q78.6   Exostoza congenitala multipla  {Aclazia diafizala}  <Multiple congenital
 Q80.3   Eritrodermie ihtioziforma buloasa congenitala  <Congenital bullous ichthyosiform erythroderma> ~ Ihtioza epidermolitica
 Q81.1   Epidermoliza buloasa letala  {Sindromul Herlitz}  <Epidermolysis bullosa letalis> ~ Epidermoliza buloasa junctionala Herlitz | Epidermoliza buloasa | Epidermoliza buloasa simpla | Sindrom Felty
 Q87.06  Episodul Pierre Robin  {Sindromul si episodul Robin} ~ Sindrom Pierre Robin
-Q89.81  Episod de displazie caudala  <Kabuki syndrome> ~ Sindrom de regresie caudala
-===== EXISTA (65)
+===== EXISTA (78)
 A02.0   Enterita cu Salmonella = Enterocolita cu Salmonella [exact]
+A08.2   Enterita prin adenovirus = Infectie cu adenovirus enteric [exact]
 A26     Erizipeloid = Erizipeloid [exact]
 A26.0   Erizipeloid cutanat = Erizipeloid [exact]
 A46     Erizipelul = Erizipel [terminatii]
 A83.0   Encefalita japoneza = Encefalita japoneza [exact]
+A83.1   Encefalita ecvina occidentala = Encefalita ecvina vestica [exact]
+A83.2   Encefalita ecvina orientala = Encefalita ecvina estica [exact]
+A83.3   Encefalita de Saint-Louis = Encefalita Saint Louis [exact]
 A83.4   Encefalita australiana = Encefalita Murray Valley [exact]
 A83.5   Encefalita de California = Encefalita californiana [exact]
 A86     Encefalita virala, nespecificata = Encefalita [exact]
 B02.0   Encefalita zosteriana = Encefalita cu virus varicela-zoster [exact]
 B08.2   Exantemul subit [a sasea boala] = Roseola infantum [terminatii]
 B08.3   Eritemul infectios [a cinea boala] = Eritem infectios [terminatii]
+B67     Echinococcoza = Hidatidoza [exact]
 B80     Enterobioza = Oxiuroza [exact]
+C94.0   Eritremia acuta si eritroleucemia = Leucemie eritroleucemie [exact]
+D58.1   Elliptocitoza ereditara = Eliptocitoza ereditara [exact]
+D72.1   Eosinofilia = Eozinofilie [exact]
 E51.2   Encefalopatia Wernicke = Encefalopatie Wernicke [terminatii]
 F30     Episod maniacal = Episod maniacal [exact]
 F52.4   Ejaculare prematura = Ejaculare precoce [exact]
@@ -186,6 +181,7 @@ H05.4   Enoftalmia = Enoftalmie [terminatii]
 H15.1   Episclerita = Episclerita [exact]
 H44.0   Endoftalmia purulenta = Endoftalmie [terminatii]
 H47.1   Edem papilar, nespecificat = Edem papilar [exact]
+I26     Embolia vaselor pulmonare = Embolie pulmonara [exact]
 I26.0   Embolia vaselor pulmonare cu mentiunea cordului pulmonar acut = Cord pulmonar [temporal (G1)]
 I26.9   Embolia vaselor pulmonare fara mentiunea cordului pulmonar acut = Embolie pulmonara [terminatii]
 I31.3   Efuziune pericardica (neinflamatorie) = Revarsat pericardic [exact]
@@ -209,14 +205,17 @@ L52     Eritem nodos = Eritema nodos [terminatii]
 L53.0   Eritem toxic = Eritema toxic [terminatii]
 M77.0   Epicondilita mediala = Epitrocleita [exact]
 M77.1   Epicondilita laterala = Epicondilita [exact]
+M77.3   Exostoza calcaneana = Pinten calcanean [exact]
 M77.9   Entezopatia, nespecificata = Entezita [terminatii]
 N80     Endometrioza = Endometrioza [exact]
 N80.0   Endometrioza uterului = Adenomioza [exact]
+N81.5   Enterocel vaginal = Enterocel [exact]
 O15     Eclampsia = Preeclampsie [exact]
 O15.9   Eclampsia, fara specificarea perioadei = Preeclampsie [exact]
 O88.1   Embolia amniotica = Embolie de lichid amniotic [terminatii]
 P83.1   Eritemul toxic al nou-nascutului = Eritema toxic [terminatii]
 P91.81  Encefalopatia neonatala = Encefalopatie neonatala [terminatii]
+Q01     Encefalocel eningo-encefalocel = Encefalocel [exact]
 Q01.0   Encefalocel frontal = Encefalocel nazal [exact]
 Q01.2   Encefalocel occipital = Encefalocel [exact]
 Q01.9   Encefalocel, nespecificat = Encefalocel [exact]
@@ -227,6 +226,7 @@ Q79.2   Exomfalos = Omfalocel [exact]
 Q81     Epidermoliza buloasa = Epidermoliza buloasa [exact]
 Q81.0   Epidermoliza buloasa simpla = Epidermoliza buloasa simpla [exact]
 Q81.2   Epidermoliza buloasa distrofica = Epidermoliza buloasa distrofica [exact]
+Q89.81  Episod de displazie caudala = Sindrom Kabuki [exact]
 ===== ELIMINAT (36)
 A26.9   Erizipeloid, nespecificat [dublura categoriei parinte (nespecificat)]
 A84.9   Encefalita cu virus transmis de capuse, nespecificata [dublura categoriei parinte (nespecificat)]

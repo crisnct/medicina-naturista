@@ -1,4 +1,4 @@
-===== NOU (168)
+===== NOU (163)
 B37.2   Candidiaza pielii si unghiilor  <Candidiasis of skin and nail>
 B37.3   Candidiaza vulvei si vaginului(M77.1*)  {Vulvovaginita prin Candida / Vulvovaginita prin Monilia / Muguetul vaginal}  <Candidiasis of vulva and vagina>
 B37.4   Candidiaza altor localizari uro-genitale  <Candidiasis of other urogenital sites>
@@ -12,8 +12,6 @@ B69.8   Cysticercoza, alte localizari  <Cysticercosis of other sites>
 B96.7   Clostridium perfringens [C. perfringens], cauza unor boli clasate la alte capitole  {C. perfringens}  <Clostridium perfringens [C. perfringens] as the cause of diseases classified elsewhere>
 D51.2   Carenta de transcobalamina II  <Transcobalamin II deficiency>
 D66     Carenta ereditara prin lipsa factorului VIII  {Carenta prin lipsa factorului VIII (cu anomalie functionala) / L ista Tabelară a Bolilor RoDRG}  <Hereditary factor VIII deficiency>
-E51     Carenta in tiamina  <Thiamine deficiency>
-E53.1   Carenta in piridoxina  <Pyridoxine deficiency>
 E61     Carenta de alte elemente nutritionale  <Deficiency of other nutrient elements>
 E61.7   Carenta mai multor elemente nutritionale  <Deficiency of multiple nutrient elements>
 E61.8   Carenta de alte elemente nutritionale specificate  <Deficiency of other specified nutrient elements>
@@ -38,7 +36,6 @@ H26.2   Cataracta complicata  {Cataracta in iridociclita cronica / Cataracta sec
 H26.3   Cataracta provocata de medicamente  <Drug-induced cataract>
 H30.1   Chorioretinita diseminata  <Disseminated chorioretinal inflammation>
 H30.2   Ciclita posterioara  {Orbiculus ciliaris}  <Posterior cyclitis>
-H53.6   Cecitate nocturna  <Night blindness>
 H54     Cecitatea si scaderea vazului  {Categorii de deficiente vizuale / Acuitate vizuala cu cea mai buna posibilitate de corectie / Maximum mai / Perceperea luminii}  <Blindness and low vision>
 H54.0   Cetitatea ambilor ochi  <Blindness, both eyes>
 H54.1   Cecitatea unui ochi, scaderea vederii celuilalt ochi  <Blindness, one eye, low vision other eye>
@@ -90,7 +87,6 @@ M40     Cifoza si lordoza  <Kyphosis and lordosis>
 M61     Calcificarea si osificarea muschilor  <Calcification and ossification of muscle>
 M61.9   Calcificari si osificari ale unui muschi, nespecificat  <Calcification and ossification of muscle, unspecified>
 M79.5   Corp strain rezidual in tesutul moale  <Residual foreign body in soft tissue>
-M85.5   Chist anevrismal al osului  <Aneurysmal bone cyst>
 M96.2   Cifoza dupa iradiere  <Postradiation kyphosis>
 M96.3   Cifoza dupa laminectomie  <Postlaminectomy kyphosis>
 N13.5   Cudura si strictura ureterala fara hidronefroza  <Crossing vessel and stricture of ureter without hydronephrosis>
@@ -156,7 +152,6 @@ Q71     Corectarea defectelor membrelor superioare  <Reduction defects of upper 
 Q71.9   Corectarea de defecte a membrului(lor) superior(oare), nespecificata  {oare / Amputatia congenitala a membrului superior / Sindromul de inel constrinctor al membrului superior}  <Unspecified reduction defect of upper limb>
 Q72     Corectarea defectelor membrelor inferioare  <Reduction defects of lower limb>
 Q72.4   Corectarea longitudinala a defectelor femurului  {Deficienta focala femurala proximala}  <Longitudinal reduction defect of femur>
-Q72.9   Corectarea defectelor la membrul inferior, nespecificata  {Amputatia congenitala a membrului inferior / Sindromul de inel constrinctor al membrului inferior}  <Unspecified reduction defect of lower limb>
 Q73     Corectarea defectelor unui membru nespecificat  <Reduction defects of unspecified limb>
 Q73.80  Corectarea defectelor unui membru(e) nespecificat(e), nespecificata  {Corectarea defectului unui(or) membru(e)}
 Q74.83  Cresterea congenitala sub nivelul normal a membrului(lor)
@@ -167,29 +162,15 @@ Q89.24  Chist gloso-tiroid
 Q89.42  Craniopagus  {Gemeni cu capetele lipite}
 Q92.6   Cromozomi extra markeri  <Marker chromosomes>
 Q99.0   Chimera 46, XX/46, XY  <Chimera 46, XX/46, XY>
-===== POSIBIL (139)
+===== POSIBIL (118)
 A06.2   Colita amibiana nedizenterica  <Amebic nondysenteric colitis> ~ Colita amibiana | Dizenterie amibiana
-A07.2   Cryptosporidioza  <Cryptosporidiosis> ~ Criptosporidioza | Microsporidioza
-A74.0   Conjunctivita prin Chlamydia  {Paratrahomul}  <Chlamydial conjunctivitis> ~ Conjunctivita de includere
-A87.2   Choriomeningita limfocitara  {Meningoencefalita limfocitara}  <Lymphocytic choriomeningitis> ~ Meningita aseptica | Corioencefalita limfocitara | Meningita urliana
 B30.1   Conjunctivita prin adenovirus  {Conjunctivita foliculara acuta prin adenovirus / Conjunctivita piscinelor}  <Conjunctivitis due to adenovirus> ~ Conjunctivita virala | Febra faringoconjunctivala | Conjunctivita foliculara
 B30.3   Conjunctivita hemoragica acuta epidemica (enterovirala)  {enterovirala}  <Acute epidemic hemorrhagic conjunctivitis (enteroviral)> ~ Keratoconjunctivita epidemica
 B33.2   Cardita virala  <Viral carditis> ~ Miocardita | Artrita virala | Faringita virala
-B37     Candidiaza  <Candidiasis> ~ Candidoza
-B37.1   Candidiaza pulmonara  <Pulmonary candidiasis> ~ Candidoza pulmonara | Pneumonie cu Giardia | Nocardioza pulmonara
-B38     Coccidioidomicoza  <Coccidioidomycosis> ~ Coccidioidomikoza | Paracoccidioidomikoza
 B38.3   Coccidioidomicoza cutanata  <Cutaneous coccidioidomycosis> ~ Coccidioidomicoza pulmonara | Coccidioidomikoza pulmonara
-B38.7   Coccidioidomicoza diseminata  {Coccidioidomicoza generalizata}  <Disseminated coccidioidomycosis> ~ Coccidioidomikoza diseminata | Coccidioidomicoza pulmonara
 B43.0   Chromomicoza cutanata  {Dermatita verucoasa}  <Cutaneous chromomycosis> ~ Cromoblastomikoza | Dermatita de staza
 B43.9   Chromomicoza, nespecificata  <Chromomycosis, unspecified> ~ Cromoblastomikoza
-B45     Criptococcoza  <Cryptococcosis> ~ Criptococoza
-B45.0   Criptococcoza pulmonara  <Pulmonary cryptococcosis> ~ Criptococoza pulmonara | Criptococoza pulmonara la imunodeprimat
 B45.1   Criptococcoza cerebrala  {Meningita cu criptococcus† / Criptococcoza cerebro-meningiala}  <Cerebral cryptococcosis> ~ Chist hidatic cerebral | Neurocisticercoza | Meningita criptocococica
-B45.2   Criptococcoza cutanata  <Cutaneous cryptococcosis> ~ Criptococoza cutanata
-B66.1   Clonorchiaza  {Boala chineza cu parazit hepatic / Infectia datorita Clonorchis sinensis / Boala orientala cu parazit hepatic}  <Clonorchiasis> ~ Clonorhoza
-B69     Cysticercoza  <Cysticercosis> ~ Cisticercoza
-B69.0   Cysticercoza sistemului nervos central  <Cysticercosis of central nervous system> ~ Neurocisticercoza | Nocardioza cerebrala
-B81.1   Capillariaza intestinala  {Capillariaza / Infectia datorita Capillaria philippinensis}  <Intestinal capillariasis> ~ Capilarioza | Capilarita
 C22.0   Carcinomul celulei hepatice  {Carcinomul hepato-celular / Hepatomul}  <Liver cell carcinoma> ~ Cancer de ficat | Carcinom bazocelular | Adenom hepatic
 D00     Carcinom in situ al cavitatii bucale, esofagului si stomacului  <Carcinoma in situ of oral cavity, esophagus and stomach> ~ Carcinom in situ
 D01     Carcinom in situ al altor organe digestive si nespecificate  <Carcinoma in situ of other and unspecified digestive organs> ~ Carcinom in situ
@@ -209,7 +190,6 @@ E56.8   Carenta de alte vitamine  <Deficiency of other vitamins> ~ Deficit de vi
 E58     Carenta alimentara de calciu  <Dietary calcium deficiency> ~ Deficit de calciu
 E61.6   Carenta de vanadiu  <Vanadium deficiency> ~ Deficit de sodiu | Deficit de vitamina D | Deficit de magneziu
 E63.9   Carenta nutritionala, nespecificata  {Cardiomiopatie nutritionala †}  <Nutritional deficiency, unspecified> ~ Malnutritie
-F51.5   Cosmaruri  {Tulburare de anxietate in vis}  <Nightmare disorder> ~ Acnee | Fobie sociala
 G93.0   Chist cerebral  {Chist arahnoid / Chist porencefalic, dobandit}  <Cerebral cysts> ~ Chist hidatic cerebral
 G95.2   Compresiune maduvei, nespecificata  <Other and unspecified cord compression> ~ Compresie medulara
 H10.0   Conjuctivita muco-purulenta  <Mucopurulent conjunctivitis> ~ Conjunctivita bacteriana
@@ -235,11 +215,8 @@ J34.1   Chist si mucocel al nasului si sinusului nazal  <Cyst and mucocele of no
 K02.0   Caria limitata la smalt  {Leziuni cu pete albe [caria incipienta]} ~ Vitiligo
 K02.3   Caria dentara stabilizata  <Arrested dental caries> ~ Carie dentara
 K04.8   Chist radicular  <Radicular cyst> ~ Chist trichilemal
-K51     Colita ulceroasa  <Ulcerative colitis> ~ Colita ulcerativa totala | Colita ulcerativa | Cistita hemoragica
-K70.0   Ciroza alcoolica grasoasa a ficatului  <Alcoholic fatty liver> ~ Ciroza alcoolica | Ciroza hepatica
 K74.4   Ciroza biliara secundara  <Secondary biliary cirrhosis> ~ Ciroza biliara primitiva
 K74.5   Ciroza biliara, nespecificata  <Biliary cirrhosis, unspecified> ~ Ciroza biliara primitiva
-K80     Colelitiaza  {Urmatoarele subdiviziuni cu cinci}  <Cholelithiasis> ~ Coledocolitiaza | Colestaza
 K80.1   Calcul al vezicii biliare cu o alta forma de colecistita  {Colecistita cu colelitiaza}  <Calculus of gallbladder with other cholecystitis> ~ Colecistita acuta calculoasa | Colecistita acuta alitiazica
 K80.3   Calculul canalelor biliare cu angiocolita  <Calculus of bile duct with cholangitis> ~ Litiaza biliara
 K80.4   Calculul canalelor biliare cu colecistita  <Calculus of bile duct with cholecystitis> ~ Colecistita acuta alitiazica | Colecistita acuta calculoasa | Litiaza biliara
@@ -265,7 +242,7 @@ N21.1   Calcul in uretra  <Calculus in urethra> ~ Litiaza de ureter
 N23     Colica nefritica nespecificata  {Alte tulburari ale rinichiului si ureterului}  <Unspecified renal colic> ~ Colica renala
 N33.0   Cistita tuberculoasa (A18.1†) ~ Rinita tuberculoasa | Peritonita tuberculoasa | Tuberculoza epididimara
 N36.2   Caruncul uretral  <Urethral caruncle> ~ Litiaza de ureter
-N42.0   Calculul prostatei  {Piatra prostatica}  <Calculus of prostate> ~ Calculi prostatici
+N42.0   Calculul prostatei  {Piatra prostatica}  <Calculus of prostate> ~ Calculi prostatici | Atrofie de prostata
 N60.0   Chist solitar al sanului  {Chist al sanului}  <Solitary cyst of breast> ~ Chist irian | Chist pancreatic | Chist de menisc
 N75.0   Chistul glandei Bartholin  <Cyst of Bartholin's gland> ~ Chist de glanda Bartholin | Abces de glanda Bartholin
 N83.0   Chist folicular al ovarului  {Chist al foliculului De Graaf / Chist folicular hemoragic (al ovarului)}  <Follicular cyst of ovary> ~ Chist trichilemal | Chist folicular ovarian
@@ -283,8 +260,6 @@ Q04.6   Chist cerebral congenital  <Congenital cerebral cysts> ~ Chist pleural |
 Q13.0   Coloboma irisului  {Colobom}  <Coloboma of iris> ~ Colobom ocular
 Q20.5   Comunicatia atrioventriculara discordanta  {Transpozitia corectata / Transpozitia la stanga / Inversia ventriculara}  <Discordant atrioventricular connection> ~ Transpozitie corectata de mari vase
 Q25.1   Coarctatia istmului aortic  {Coarctatia aortei (inaintea canalului) (dupa canal)}  <Coarctation of aorta> ~ Coarctatie de aorta
-Q26.2   Conexiune venoasa pulmonara aberanta totala  <Total anomalous pulmonary venous connection> ~ Drenaj venos pulmonar anormal total
-Q26.3   Conexiune venoasa pulmonara aberanta partiala  <Partial anomalous pulmonary venous connection> ~ Drenaj venos pulmonar anormal partial
 Q26.4   Conexiune venoasa pulmonara aberanta, nespecificata  <Anomalous pulmonary venous connection, unspecified> ~ Drenaj venos pulmonar anormal total
 Q45.2   Chist pancreatic congenital  <Congenital pancreatic cyst> ~ Chist pancreatic | Chist splenic | Chist pericardic
 Q45.84  Chist mezenteric congenital, neclasificat altundeva ~ Chist splenic
@@ -297,22 +272,35 @@ Q54.4   Chorga congenital  <Congenital chordee> ~ Cloaca persistenta | Cifoza co
 Q61.0   Chist renal unic congenital  {Chist al rinichiului (congenital) (unic)}  <Congenital renal cyst> ~ Chist splenic | Chist bronsogenic
 Q64.41  Chist al uracei ~ Persistenta de urac | Chist pleural
 Q71.4   Corectarea longitudinala a defectelor radiusului  {Absenta radiusului / Mana in forma de bata (congenital) / Mana in forma de bata radiala}  <Longitudinal reduction defect of radius> ~ Aplazie radiala | Sindrom TAR | Arhinie | Agenezie de penis
-Q71.5   Corectarea longitudinala a defectelor cubitusului  {Absenta cubitusului}  <Longitudinal reduction defect of ulna> ~ Agenezie uterina
+Q71.5   Corectarea longitudinala a defectelor cubitusului  {Absenta cubitusului}  <Longitudinal reduction defect of ulna> ~ Aplazie ulnara | Agenezie uterina
 Q72.5   Corectarea longitudinala a defectelor tibiei  {Absenta tibiei}  <Longitudinal reduction defect of tibia> ~ Displazie tibiala
-Q72.6   Corectarea longitudinala a defectelor peroneului  {Absenta peroneului}  <Longitudinal reduction defect of fibula> ~ Absenta de perone | Agenezie de penis | Agenezie uterina
-Q75.01  Craniosinostoza coronala  {Brahicefalia}  <Sagittal craniosynostosis> ~ Sindrom Muenke
+Q72.6   Corectarea longitudinala a defectelor peroneului  {Absenta peroneului}  <Longitudinal reduction defect of fibula> ~ Absenta de perone | Agenezie de penis | Agenezie uterina | Atelie
+Q72.9   Corectarea defectelor la membrul inferior, nespecificata  {Amputatia congenitala a membrului inferior / Sindromul de inel constrinctor al membrului inferior}  <Unspecified reduction defect of lower limb> ~ Amputatie congenitala
 Q75.02  Craniosinostoza sagitala  {Csafocefalia}  <Coronal craniosynostosis> ~ Scafocefalie
 Q75.06  Craniu sub forma de frunza de trifoi  {Sindromul de deformare / Kleeblattschadel} ~ Coagulare intravasculara diseminata
-Q76.5   Coasta cervicala  {Coaste supranumerare in regiunea cervicala}  <Cervical rib> ~ Sindrom de coasta cervicala
 Q76.63  Coasta accesorie  {Excl de: coasta cervicala} ~ Sindrom de coasta cervicala
 Q93.2   Cromozomi replasati cu inel sau dicentrici  <Chromosome replaced with ring, dicentric or isochromosome> ~ Cromozom inel
 Q99.2   Cromozom X fragil  {Sindromul cromozomului X fragil}  <Fragile X chromosome> ~ Sindrom fragile X
-===== EXISTA (95)
+===== EXISTA (121)
+A07.2   Cryptosporidioza = Criptosporidioza [exact]
+A74.0   Conjunctivita prin Chlamydia = Conjunctivita de includere [exact]
+A87.2   Choriomeningita limfocitara = Corioencefalita limfocitara [exact]
 B30     Conjunctivita virala = Conjunctivita virala [exact]
+B37     Candidiaza = Candidoza [exact]
+B37.1   Candidiaza pulmonara = Candidoza pulmonara [exact]
 B37.9   Candidiaza, nespecificată = Candidoza orala [terminatii]
+B38     Coccidioidomicoza = Coccidioidomikoza [exact]
 B38.0   Coccidioidomicoza pulmonara acuta = Coccidioidomicoza pulmonara [temporal (G1)]
 B38.1   Coccidioidomicoza pulmonara cronica = Coccidioidomicoza pulmonara [temporal (G1)]
 B38.2   Coccidioidomicoza pulmonara, nespecificata = Coccidioidomicoza pulmonara [exact]
+B38.7   Coccidioidomicoza diseminata = Coccidioidomikoza diseminata [exact]
+B45     Criptococcoza = Criptococoza [exact]
+B45.0   Criptococcoza pulmonara = Criptococoza pulmonara [exact]
+B45.2   Criptococcoza cutanata = Criptococoza cutanata [exact]
+B66.1   Clonorchiaza = Clonorhoza [exact]
+B69     Cysticercoza = Cisticercoza [exact]
+B69.0   Cysticercoza sistemului nervos central = Neurocisticercoza [exact]
+B81.1   Capillariaza intestinala = Capilarioza [exact]
 C22.1   Carcinomul canalului biliar intrahepatic = Colangiocarcinom [terminatii]
 D05     Carcinom in situ al sanului = Carcinom in situ mamar [exact]
 D09.9   Carcinom in situ, nespecificat = Carcinom in situ [exact]
@@ -324,8 +312,10 @@ D89.1   Crioglobulinemia = Crioglobulinemie [terminatii]
 E03.5   Coma mixedematoasa = Coma mixedematoasa [exact]
 E15     Coma hipoglicemica nondiabetica = Coma hipoglicemica [exact]
 E27.2   Criza addisoniana = Insuficienta suprarenala acuta [exact]
+E51     Carenta in tiamina = Deficit de tiamina [exact]
 E52     Carenta in acid nicotinic (pelagra) = Pelagra [exact]
 E53.0   Carenta in riboflavine = Deficit de riboflavina [exact]
+E53.1   Carenta in piridoxina = Deficit de piridoxina [exact]
 E54     Carenta de acid ascorbic = Deficit de vitamina C [exact]
 E55     Carenta de vitamina D = Deficit de vitamina D [exact]
 E56.0   Carenta de vitamina E = Deficit de vitamina E [exact]
@@ -340,6 +330,7 @@ E61.4   Carenta de crom = Deficit de crom [exact]
 E61.5   Carenta de molibden = Deficit de molibden [exact]
 E63.0   Carenta de acizi grasi esentiali [EFA] = Deficit de acizi grasi esentiali [exact]
 F34.0   Ciclotimie = Ciclotimie [exact]
+F51.5   Cosmaruri = Cosmar recurent [exact]
 G44.2   Cefalee de tensiune = Durere de cap [exact]
 G56.4   Cauzalgia = Sindrom de durere regionala complexa [terminatii]
 H00.1   Chalazion = Chalazion [exact]
@@ -349,6 +340,7 @@ H25     Cataracta senila = Cataracta [exact]
 H26.9   Cataracta, nespecificata = Cataracta [exact]
 H30.0   Chorioretinita focala = Chorioretinita [exact]
 H30.9   Chorioretinita, nespecificata = Chorioretinita [exact]
+H53.6   Cecitate nocturna = Nictalopie [exact]
 I02     Coreea reumatica = Coreea Sydenham [exact]
 I11     Cardiopatia hipertensiva = Cardiopatie hipertensiva [terminatii]
 I24.9   Cardiopatia ischemica acuta, nespecificata = Boala coronariana [temporal (G1)]
@@ -364,10 +356,13 @@ I51.7   Cardiomegalia = Cardiomegalie [terminatii]
 I51.9   Cardiopatia, nespecificata = Cardiopatie [terminatii]
 J98.1   Colaps pulmonar = Atelectazie pulmonara [terminatii]
 K02     Carii dentare = Carie dentara [terminatii]
+K51     Colita ulceroasa = Colita ulcerativa [exact]
 K51.9   Colita ulcerativa, nespecificata = Colita ulcerativa [exact]
 K59.0   Constipatia = Constipatie [terminatii]
+K70.0   Ciroza alcoolica grasoasa a ficatului = Steatoza hepatica alcoolica [exact]
 K70.3   Ciroza alcoolica a ficatului = Ciroza alcoolica [exact]
 K74.3   Ciroza biliara primitiva = Ciroza biliara primitiva [exact]
+K80     Colelitiaza = Litiaza biliara [exact]
 K81     Colecistita = Colecistita [exact]
 K81.0   Colecistita acuta = Colecistita [exact]
 K81.1   Colecistita cronica = Colecistita [exact]
@@ -387,6 +382,7 @@ M23.0   Chist al meniscului = Chist de menisc [exact]
 M62.4   Contractura musculara = Contractura musculara [exact]
 M75.0   Capsulita rectractila a umarului = Sindrom de iesire toracica [exact]
 M85.4   Chist osos solitar = Chist osos [exact]
+M85.5   Chist anevrismal al osului = Chist osos anevrismal [exact]
 M91.2   Coxa plana = Boala Legg-Calve-Perthes [exact]
 M94.2   Condromalacia = Condromalacie [exact]
 N20.0   Calculii rinichiului = Calculi renali [exact]
@@ -400,9 +396,13 @@ P37.5   Candidoza neonatala = Candidoza neonatala [exact]
 P37.50  Candidoza neonatala, nespecificata = Candidoza neonatala [exact]
 Q04.60  Chist cerebral congenital, nespecificat = Porencefalie [terminatii]
 Q12.0   Cataracta congenitala = Cataracta [exact]
+Q26.2   Conexiune venoasa pulmonara aberanta totala = Drenaj venos pulmonar anormal total [exact]
+Q26.3   Conexiune venoasa pulmonara aberanta partiala = Drenaj venos pulmonar anormal partial [exact]
 Q44.4   Chist al coledocului = Chist de coledoc [exact]
 Q75.0   Craniosinostoza = Craniosinostoza [exact]
+Q75.01  Craniosinostoza coronala = Scafocefalie [exact]
 Q75.04  Craniosinostoza cu alte suturi multiple = Oxycefalie [terminatii]
+Q76.5   Coasta cervicala = Sindrom de coasta cervicala [exact]
 ===== ELIMINAT (107)
 B30.9   Conjunctivite virale, nespecificate [dublura categoriei parinte (nespecificat)]
 B38.9   Coccidioidomicoza, nespecificata [dublura categoriei parinte (nespecificat)]
