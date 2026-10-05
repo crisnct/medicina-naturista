@@ -1,0 +1,89 @@
+? A08.1   Norwalk   [titlu: Gastro-enteropatia acuta prin agentul]  <Acute gastroenteropathy due to Norwalk agent and other small round viruses>  ~ 
+? A50.3   NEC†   [titlu: Oculopatia sifilitica congenitala tardiva]  <Late congenital syphilitic oculopathy>  ~ 
+? A50.4   neuro-sifilis juvenil   [titlu: Sifilis congenital nervos tardiv (neuro-sifilis juvenil)]  <Late congenital neurosyphilis [juvenile neurosyphilis]>  ~ 
+? A65     Njovera   [titlu: Sifilisul nevenerian]  <Nonvenereal syphilis>  ~ 
+? A66.7   Noduli juxta-articulari pianici   [titlu: Alte manifestari ale pianului]  <Other manifestations of yaws>  ~ 
+? B66.8   Nanophyetiaza   [titlu: Alte infectii specificate cu paraziti]  <Other specified fluke infections>  ~ 
+? C30.0   Nasul intern   [titlu: Fosele nazale]  <Malignant neoplasm of nasal cavity>  ~ 
+? C69.6   Nervii periferici ai orbitei   [titlu: Orbita]  <Malignant neoplasm of orbit>  ~ 
+? C82     nodular   [titlu: Limfom folicular (nodular) non]  <Follicular lymphoma>  ~ 
+? D31.6   Nervii periferici ai orbitei   [titlu: Orbita, nespecificata]  <Benign neoplasm of unspecified site of orbit>  ~ 
+? D48.7   Nervii periferici ai orbitei   [titlu: Alte localizari specificate]  <Neoplasm of uncertain behavior of other specified sites>  ~ 
+? E11.01  NKHHC   [titlu: Diabet mellitus tip 2 cu hiperosmolaritate fara coma noncetotica hiperglicemica-hiperosmolara [NKHHC]]  <Type 2 diabetes mellitus with hyperosmolarity with coma>  ~ 
+? E13.01  NKHHC   [titlu: Alte forme specificate de diabet mellitus cu hiperosmolaritate, fara coma noncetotica hiperglicemica-hiperosmolara [NKHHC]]  <Other specified diabetes mellitus with hyperosmolarity with coma>  ~ 
+? E14.01  NKHHC   [titlu: Diabet mellitus nespecificat cu hiperosmolaritate, fara coma noncetotica hiperglicemica-hiperosmolara [NKHHC]]  <>  ~ 
+? F24     Nebunie in doi   [titlu: Tulburare deliranta indusa]  <Shared psychotic disorder>  ~ 
+? F40.1   Nevroza sociala   [titlu: Fobii sociale]  <Social phobias>  ~ 
+? F43.1   Nevroza traumatica   [titlu: Tulburare de stress post-traumatica]  <Post-traumatic stress disorder (PTSD)>  ~ 
+? F45.2   Nevroza hipochondriaca   [titlu: Tulburare hipocondriaca]  <Hypochondriacal disorders>  ~ 
+? F45.3   Nevroza gastrica   [titlu: Disfunctia somatoforma autonoma]  <>  ~ Neurastenie | Gastroptoza
+? F48.8   Nevroza profesionala, incluzand crampa la mana a scriitorului   [titlu: Alte tulburari nevrotice specificate]  <Other specified nonpsychotic mental disorders>  ~ Crampa scriitorului
+? F48.8   Nevroza psihastenica   [titlu: Alte tulburari nevrotice specificate]  <Other specified nonpsychotic mental disorders>  ~ Neurastenie
+? F60.9   Nevroza de caracter   [titlu: Tulburare de personalitate, nespecificata]  <Personality disorder, unspecified>  ~ 
+? F65.8   Necrofilie   [titlu: Alte tulburari de preferinta sexuala]  <Other paraphilias>  ~ Neutrofilie
+? F68.0   Nevroza de compensatie   [titlu: Dezvoltare a simptomelor fizice din motive psihologice]  <>  ~ 
+? G23.2   nigrostriate   [titlu: Degenerescenta striato-nigrica [nigrostriate]]  <Striatonigral degeneration>  ~ 
+? G52.1   Nevralgia gloso-faringiana   [titlu: Afectiunile nervului gloso-faringian]  <Disorders of glossopharyngeal nerve>  ~ Nevralgia glosofaringiana
+? G56.8   Neurom interdigital al membrului superior   [titlu: Alte mononeuropatii ale membrului superior]  <Other specified mononeuropathies of upper limb>  ~ Sindrom Morton
+? G57.8   Neurom interdigital al membrului inferior   [titlu: Alte mononeuropatii ale membrului inferior]  <Other specified mononeuropathies of lower limb>  ~ Sindrom Morton
+? H21.1   Neovascularizarea irisului si a corpilor ciliari   [titlu: Alte tulburari vasculare ale irisului sau corpilor ciliari]  <Other vascular disorders of iris and ciliary body>  ~ 
+? H70.1   Necroza mastoidei   [titlu: Mastoidita cronica]  <Chronic mastoiditis>  ~ 
+? H81.4   Nistagmus central   [titlu: Vertijul de origine centrala]  <Vertigo of central origin>  ~ Nistagmus congenital
+? I31.3   neinflamatorie   [titlu: Efuziune pericardica (neinflamatorie)]  <Pericardial effusion (noninflammatory)>  ~ 
+? I62.0   netraumatica   [titlu: Hemoragia subdurala (acuta) (netraumatica)]  <Nontraumatic subdural hemorrhage>  ~ 
+? I62.9   netraumatica   [titlu: Hemoragia intacraniana (netraumatica), nespecificata]  <Nontraumatic intracranial hemorrhage, unspecified>  ~ 
+? I69     No a: Aceasta grupa este utilizata pentru a indica afectiunile de la   [titlu: Sechele ale bolilor cerebrovasculare]  <Sequelae of cerebrovascular disease>  ~ 
+? I71.9   Necroza hialina a aortei   [titlu: Anevrismul aortic, cu localizare nespecificata, fara mentiunea rupturii]  <Aortic aneurysm of unspecified site, without rupture>  ~ 
+? J34.0   Necroza nazala (sept)   [titlu: Abces, furuncul si antraxul nasului]  <Abscess, furuncle and carbuncle of nose>  ~ 
+? J38.7   Necroza laringelui   [titlu: Alte boli ale laringelui]  <Other diseases of larynx>  ~ Tuberculoza laringiana | Leucoplazie laringiana
+? K63.1   nontraumatica   [titlu: Perforatia intestinului (nontraumatica)]  <Perforation of intestine (nontraumatic)>  ~ 
+? L23.0   Nichel   [titlu: Dermatita alergica de contact datorita metalelor]  <Allergic contact dermatitis due to metals>  ~ 
+? L28.0   Neurodermatita circumscrisa   [titlu: Lichen simplex cronic]  <Lichen simplex chronicus>  ~ Lichen simplex cronic | Neurodermatita | Morfea
+? M62.1   netraumatice   [titlu: Alte rupturi musculare (netraumatice)]  <Other rupture of muscle (nontraumatic)>  ~ 
+? M93.0   nontraumatica   [titlu: Epifiza femurala superioara alunecata (nontraumatica)]  <Slipped upper femoral epiphysis (nontraumatic)>  ~ 
+? N28.9   Nefropatia   [titlu: Tulburare a rinichiului si a ureterului, nespecificata]  <Disorder of kidney and ureter, unspecified>  ~ Nefropatia IgA | Neuropatie periferica | Nefroptoza
+? N63     Nodul(i) al sanului   [titlu: Tumefactia nespecificata a sanului]  <Unspecified lump in breast>  ~ 
+? N87.0   Neoplazia intraepiteliala a colului uterin [CIN], gradul I   [titlu: Displazia usoara a colului uterin]  <Mild cervical dysplasia>  ~ Neoplazie intraepiteliala cervicala
+? N87.1   Neoplazia intraepiteliala a colului uterin [CIN], gradul II   [titlu: Displazia moderata a colului uterin]  <Moderate cervical dysplasia>  ~ Neoplazie intraepiteliala cervicala
+? N89.0   Neoplazia intraepiteliala vaginala [VAIN], gradul I   [titlu: Displazia usoara a vaginului]  <Mild vaginal dysplasia>  ~ Neoplazie intraepiteliala vaginala
+? N89.1   Neoplazia intraepiteliala vaginala [VAIN], gradul II   [titlu: Displazia moderata a vaginului]  <Moderate vaginal dysplasia>  ~ Neoplazie intraepiteliala vaginala
+? N90.0   Neoplazia intraepiteliala vulvara [VIN], gradul I   [titlu: Displazia usoara a vulvei]  <Mild vulvar dysplasia>  ~ Neoplazie intraepiteliala vulvara
+? N90.1   Neoplazia intraepiteliala vulvara [VIN], gradul II   [titlu: Displazia moderata a vulvei]  <Moderate vulvar dysplasia>  ~ Neoplazie intraepiteliala vulvara
+? N97.2   Neimplantarea oului   [titlu: Infertilitatea femeii de origine uterina]  <Female infertility of uterine origin>  ~ 
+? O32.4   Neangajarea capului   [titlu: Ingrijiri acordate mamei pentru un cap inalt la termen]  <Maternal care for high head at term>  ~ 
+? O69.2   Nod de cordon   [titlu: Travaliul si nasterea complicate de o alta forma de innodare de cordon]  <Labor and delivery complicated by other cord entanglement, with compression>  ~ 
+? O75.9   Nasterea   [titlu: Complicatiile travaliului si nasterii, nespecificate]  <Complication of labor and delivery, unspecified>  ~ 
+? P02.5   Nodul cordonului   [titlu: Fat si nou-nascut afectati de alte forme de compresiune ale cordonului ombilical]  <Newborn affected by other compression of umbilical cord>  ~ 
+? P52.0   netraumatica   [titlu: Hemoragia intraventriculara (netraumatica), gradul 1, a fatului si nou-nascutului]  <Intraventricular (nontraumatic) hemorrhage, grade 1, of newborn>  ~ 
+? P52.1   netraumatica   [titlu: Hemoragia intraventriculara (netraumatica), gradul 2, a fatului si nou-nascutului]  <Intraventricular (nontraumatic) hemorrhage, grade 2, of newborn>  ~ 
+? P52.2   netraumatica   [titlu: Hemoragia intraventriculara (netraumatica), gradul 3, a fatului si nou-nascutului]  <Intraventricular (nontraumatic) hemorrhage, grade 3 and grade 4, of newborn>  ~ 
+? P52.3   netraumatica   [titlu: Hemoragia intraventriculara (netraumatica) a fatului si nou-nascutului, nespecificata]  <Unspecified intraventricular (nontraumatic) hemorrhage of newborn>  ~ 
+? P52.4   netraumatica   [titlu: Hemoragia intracerebrala (netraumatica) a fatului si nou-nascutului]  <Intracerebral (nontraumatic) hemorrhage of newborn>  ~ 
+? P52.5   netraumatica   [titlu: Hemoragia subarahnoida (netraumatica) a fatului si nou-nascutului]  <Subarachnoid (nontraumatic) hemorrhage of newborn>  ~ 
+? P52.6   netraumatica   [titlu: Hemoragia cerebelara si a fosei posterioare (netraumatica) a fatului si nou-nascutului]  <Cerebellar (nontraumatic) and posterior fossa hemorrhage of newborn>  ~ 
+? P52.8   netraumatice   [titlu: Alte hemoragii intracraniene (netraumatice) ale fatului si nou-nascutului]  <Other intracranial (nontraumatic) hemorrhages of newborn>  ~ 
+? P52.9   netraumatica   [titlu: Hemoragia intracraniana (netraumatica) a fatului si nou-nascutului, nespecificata]  <Intracranial (nontraumatic) hemorrhage of newborn, unspecified>  ~ 
+? P95     Nascut mort   [titlu: Moarte fetala de cauza nespecificata]  <Stillbirth>  ~ 
+? Q30.8   Nas accesoriu   [titlu: Alte malformatii congenitale ale nasului]  <Other congenital malformations of nose>  ~ 
+? Q77.5   Nanism distrofic   [titlu: Displazia distrofica]  <Diastrophic dysplasia>  ~ Nanism diastrofic
+? Q87.01  Noack   [titlu: Acrocefalopolisindactilia]  <>  ~ 
+? Q90.1   nedisjunctia mitotica   [titlu: Trisomia 21, mozaicism (nedisjunctia mitotica)]  <Trisomy 21, mosaicism (mitotic nondisjunction)>  ~ 
+? Q91.1   nedisjunctia mitotica   [titlu: Trisomia 18, mozaicism (nedisjunctia mitotica)]  <Trisomy 18, mosaicism (mitotic nondisjunction)>  ~ 
+? Q91.5   nedisjunctia mitotica   [titlu: Trisomia 13, mozaicism (nedisjunctia mitotica)]  <Trisomy 13, mosaicism (mitotic nondisjunction)>  ~ 
+? Q92.1   nedisjunctie mitotica   [titlu: Trisomie completa a cromozomului, mozaicism (nedisjunctie mitotica)]  <Whole chromosome trisomy, mosaicism (mitotic nondisjunction)>  ~ 
+= A69.0   Noma  -> Stomatita gangrenoasa
+= D48.9   Neoplasm  -> Tumoare
+= D48.9   Neoformatie  -> Tumoare
+= E85.0   Nefropatia amiloida ereditara  -> Amiloidoza renala ereditara
+= F45.2   Nosofobia  -> Nosofobie
+= F45.3   Nevroza cardiaca  -> Astenie neurocirculatora
+= F48.9   Nevroza  -> Nevroza
+= G62.9   Neuropatia  -> Neuropatie periferica
+= G63.8   Neuropatia uremica  -> Polineuropatia uremica
+= H47.0   Neuropatia optica ischemica  -> Neuropatia optica ischemica
+= N20.0   Nefrolitiaza  -> Calculi renali
+= N28.8   Nefroptoza  -> Nefroptoza
+= Q61.51  Nefronoftizia  -> Nefronoftizia
+= Q77.4   Nanism acondroplazic  -> Acondroplazie
+= Q87.16  Nanism cu cap de pasare  -> Sindrom Seckel
+= Q87.16  Nanism primordial microcefalic  -> Sindrom Seckel
