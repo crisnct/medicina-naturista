@@ -7,7 +7,7 @@
   - dublura categoriei parinte (nespecificat): 8
 - găsite automat în dicționar (P4.1–P4.3): **57**
 - de decis manual (`nou` + `posibil`): **122**
-- **afecțiuni adăugate: 33**
+- **afecțiuni adăugate: 39**
 
 ## Decizii manuale
 
@@ -19,6 +19,7 @@
 - **Din pending_by_letter (pasul A), re-verificate și adăugate:** `Feohifomicoza cerebrala` (B43.1), `Feohifomicoza subcutanata` (B43.2), `Furuncul nazal` (J34.0), `Funiculita` (N49.1).
 - **Sinonime insuficiente (2.4):** fibroza splinei (D73.8), fibroza uterului (N85.8), fibroza pulmonară congenitală (P27.8), fragilitatea capilară ereditară (D69.8), fistula uretro-scrotală (N50.8), fistula intestino-uterină (N82.4), fistulele genito-cutanate la femeie (N82.5), fistula congenitală uter–tract digestiv/urinar (Q51.7), formațiunea de țesut dentar dur în pulpă (K04.3).
 - **Amânate la altă literă** (`pending_from_F.jsonl`, 11): T — `Tifos siberian de capuse` (A77.2), `Tifos de capuse Queensland` (A77.3), `Travestism fetisist` (F65.1), `Trasatura drepanocitara` (D57.3); E — `Exantem Boston` (A88.0); P — `Pileflebita` (K75.1), `Pseudartroza` (M84.1); C — `Calus vicios` (M84.0); A — `Atritie dentara` (K03.0), `Atrofodermie vermiculata` (L66.4); U — `Uvula bifida` (Q35.7).
+- **Amânate de la alte litere, adăugate la unire (coordonator, 6):** `Feohifomicoza` (B43.1, B43.2; de la C); `Fistula de lichid cefalorahidian` (G96.0; de la P); `Febra Sennetsu` (A79.8; de la R); `Fetopatie diabetica` (P70.0, P70.1; de la S); `Fibroelastom papilar` (D15.1; de la T); `Fibroadenom mamar` (D24; de la T). Verificate față de dicționarul unit al tuturor literelor (G3, G6).
 
 ## Adăugate
 
@@ -29,10 +30,15 @@
 | Febra pappataci | A93.1 | febra tantarului de nisip; febra flebotomilor; febra Phlebotomus; sandfly fever; pappataci fever; phlebotomus fever |
 | Febra Pontiac | A48.2 | boala legionarilor fara semne pulmonare; legioneloza nepneumonica; forma nepneumonica a legionelozei; nonpneumonic Legionnaires' disease; Pontiac fever; non-pneumonic legionellosis |
 | Febra purpurica braziliana | A48.4 | febra purpurica din Brazilia; infectie sistemica cu Haemophilus aegyptius; sepsis cu Haemophilus aegyptius; Brazilian purpuric fever; systemic Haemophilus aegyptius infection; Haemophilus aegyptius sepsis |
+| Febra Sennetsu | A79.8 | rickettsioza datorita Ehrlichia sennetsu; ehrlichioza Sennetsu; neorickettsioza Sennetsu; infectie cu Neorickettsia sennetsu; Sennetsu fever; Sennetsu ehrlichiosis; Sennetsu neorickettsiosis; Neorickettsia sennetsu infection |
 | Femur curbat congenital | Q68.3 | curbura congenitala a femurului; femur arcuat congenital; incurbare congenitala a femurului; congenital bowing of femur; congenital femoral bowing; congenital curvature of femur |
+| Feohifomicoza | B43.1, B43.2 | abces feomicotic; infectie cu fungi dematiacei; micoza cu fungi pigmentati; phaeohyphomycosis; phaeomycotic abscess; dematiaceous fungal infection |
 | Feohifomicoza cerebrala | B43.1 | abces feomicotic cerebral; abces cerebral feohifomicotic; cromomicoza cerebrala; cerebral phaeohyphomycosis; phaeomycotic brain abscess; cerebral chromomycosis |
 | Feohifomicoza subcutanata | B43.2 | abces feomicotic subcutanat; chist feomicotic subcutanat; feohifomicoza cutanata; subcutaneous phaeohyphomycosis; subcutaneous phaeomycotic abscess; phaeomycotic cyst |
 | Fetisism | F65.0 | fetisism sexual; tulburare fetisista; parafilie fetisista; fetishism; fetishistic disorder; sexual fetishism |
+| Fetopatie diabetica | P70.0, P70.1 | sindromul copilului cu mama diabetica; embriofetopatie diabetica; nou-nascut din mama diabetica; syndrome of infant of a diabetic mother; diabetic fetopathy; infant of diabetic mother |
+| Fibroadenom mamar | D24 | fibroadenom; adenofibrom mamar; fibroadenom al sanului; fibroadenoma; breast fibroadenoma; fibroadenoma of breast |
+| Fibroelastom papilar | D15.1 | fibroelastom papilar cardiac; fibroelastom valvular; tumora papilara valvulara; papillary fibroelastoma; cardiac papillary fibroelastoma; valvular papillary fibroelastoma |
 | Fibromatoza gingivala | K06.1 | fibromatoza gingivala ereditara; elefantiazis gingival; hiperplazie gingivala fibromatoasa; gingival fibromatosis; hereditary gingival fibromatosis; elephantiasis gingivae |
 | Fibroscleroza multifocala | M35.5 | fibroscleroza multifocala idiopatica; fibroscleroza sistemica idiopatica; fibroza sistemica idiopatica; multifocal fibrosclerosis; idiopathic multifocal fibrosclerosis; systemic idiopathic fibrosclerosis |
 | Fibroza endomiocardica | I42.3 | fibroza endomiocardica tropicala; boala Davies; fibroza endomiocardica africana; endomyocardial fibrosis; tropical endomyocardial fibrosis; Davies disease |
@@ -42,6 +48,7 @@
 | Fistula arterioportala | Q26.6 | fistula intre vena porta si artera hepatica; fistula arterioportala congenitala; fistula arteriovenoasa hepatoportala; portal vein-hepatic artery fistula; arterioportal fistula; hepatoportal arteriovenous fistula |
 | Fistula articulara | M25.1 | fistula articulatiei; fistula sinoviala; fistula sinoviocutanata; fistula of joint; joint fistula; synovial fistula |
 | Fistula biliara | K83.3 | fistula cailor biliare; fistula coledocoduodenala; fistula a canalului biliar; fistula of bile duct; biliary fistula; bile duct fistula |
+| Fistula de lichid cefalorahidian | G96.0 | pierdere de lichid cefalorahidian; scurgere de lichid cefalorahidian; fistula de LCR; cerebrospinal fluid leak; CSF leak; cerebrospinal fluid fistula |
 | Fistula enterovaginala | N82.2 | fistula vaginului cu intestinul subtire; fistula intestino-vaginala; fistula ileovaginala; fistula of vagina to small intestine; enterovaginal fistula; ileovaginal fistula |
 | Fistula salivara | K11.4, Q38.4 | fistula glandelor salivare; fistula parotidiana; fistula salivara cutanata; fistula of salivary gland; salivary fistula; parotid fistula |
 | Fistula uretrala | N36.0 | fistula a uretrei; fistula uretrocutanata; fistula uretroperineala; urethral fistula; urethrocutaneous fistula; fistula of urethra |
