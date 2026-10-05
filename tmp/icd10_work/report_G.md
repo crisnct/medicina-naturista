@@ -7,7 +7,7 @@
   - asterisc (in alte boli): 2
 - găsite automat în dicționar (P4.1–P4.3): **28**
 - de decis manual (`nou` + `posibil`): **61**
-- **afecțiuni adăugate: 25**
+- **afecțiuni adăugate: 24**
 
 ## Decizii manuale
 
@@ -20,6 +20,7 @@
 - **Gastroduodenita** (K29.9) adăugată separat: e diagnosticul uzual al titlului K29, iar dicționarul are doar `Gastrita` și `Duodenita` separat.
 - **Amânate la altă literă** (`pending_from_G.jsonl`): `Boala Grover` (B, L11.1), `Hipertensiune oculara` (H, H40.0), `Necroza pulpara` (N, K04.1 „gangrena pulpară”), `Resorbtie dentara` (R, K03.3 „granulom intern al pulpei”), `Sindrom Pendred` (S, E07.1), `Tulburare de rivalitate intre frati` (T, F93.3 „gelozie între frați”), `Xantom verucos` (X, K13.4). `Sindrom Gianotti-Crosti` (L44.4) era deja în așteptare de la A.
 - **Sinonime insuficiente:** niciuna. „Granulomul eozinofilic al mucoasei bucale” (K13.4, ulcerul traumatic eozinofilic) nu a fost adăugat: denumirile lui reale sunt puține și instabile.
+- **Corecturi la unirea literelor (coordonator):** scoasă `Granulom periferic cu celule gigante` (K06.8): e aceeași entitate cu `Epulis gigantocelular` de la E, care are deja sinonimele „granulom periferic cu celule gigante” / „peripheral giant cell granuloma”.
 
 ## Adăugate
 
@@ -46,7 +47,6 @@
 | Granulom actinic | L57.5 | granulom actinic O'Brien; granulom elastolitic anular cu celule gigante; granulom inelar actinic; actinic granuloma; annular elastolytic giant cell granuloma; O'Brien actinic granuloma |
 | Granulom facial | L92.2 | granulom eosinofilic al pielii fetei; granulom facial eozinofilic; granulom eozinofilic al fetei; granuloma faciale; granuloma faciale eosinophilicum; facial granuloma with eosinophilia |
 | Granulom letal al liniei mediane | M31.2 | granulom malign al liniei mediane; granulom malign centrofacial; reticuloza polimorfa; lethal midline granuloma; malignant midline granuloma; polymorphic reticulosis |
-| Granulom periferic cu celule gigante | K06.8 | epulis cu celule gigante; epulis gigantocelular; granulom reparator periferic cu celule gigante; peripheral giant cell granuloma; giant cell epulis; peripheral giant cell reparative granuloma |
 | Gusa dishormonogenetica | E07.1 | gusa datorita unei tulburari a sintezei hormonale; gusa familiala dishormonogenetica; dishormonogeneza tiroidiana; dyshormogenetic goiter; dyshormonogenetic goiter; thyroid dyshormonogenesis; familial dyshormonogenetic goiter |
 | Gusa neonatala | P72.0 | gusa congenitala tranzitorie cu functionare normala; gusa congenitala tranzitorie; gusa a nou-nascutului; neonatal goiter; transient congenital goiter; newborn goiter |
 | Guta saturnina | M10.1 | guta prin intoxicatia cu plumb; guta indusa de plumb; guta din saturnism; lead-induced gout; saturnine gout; lead gout |
