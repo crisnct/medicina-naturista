@@ -1,0 +1,9 @@
+? E50.8   Xerodermia datorita avitaminozei A†   [titlu: Alte manifestari ale avitaminozei A]  <Other manifestations of vitamin A deficiency>  ~ 
+? E78.2   Xantom tubero-eruptiv   [titlu: Hiperlipidemie mixta]  <Mixed hyperlipidemia>  ~ 
+? E78.2   Xantom tuberos   [titlu: Hiperlipidemie mixta]  <Mixed hyperlipidemia>  ~ 
+? E79.8   Xantinuria ereditara   [titlu: Alte tulburari de metabolism al purinelor si pirimidinei]  <Other disorders of purine and pyrimidine metabolism>  ~ 
+? K13.4   Xantom verucos al mucoasei bucale   [titlu: Granulomul si leziunile pseudo-granuloase ale mucoasei bucale]  <Granuloma and granuloma-like lesions of oral mucosa>  ~ 
+? L86     Xerodermia datorita carentei de vitamina A   [titlu: Keratodermia in boli clasificate altundeva]  <Keratoderma in diseases classified elsewhere>  ~ Deficit de vitamina A
+= D76.3   Xantogranulom  -> Xantogranulom juvenil
+= E50.7   Xeroftalmia  -> Ochi uscat
+= K11.7   Xerostomia  -> Xerostomie
