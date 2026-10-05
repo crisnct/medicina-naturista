@@ -1,0 +1,159 @@
+? A22.8   Meningita carbunoasa†   [titlu: Alte forme de antrax]  <Other forms of anthrax>  ~ 
+? A31.9   Micobacterioza   [titlu: Infectia cu Mycobacterium, nespecificata]  <Mycobacterial infection, unspecified>  ~ Infectii bacteriene | Infectie cu Mycobacterium avium complex
+? A66.3   Mana de vampir   [titlu: Hipercheratoza pianica]  <Hyperkeratosis of yaws>  ~ 
+? A83.5   Meningoencefalita de California   [titlu: Encefalita de California]  <California encephalitis>  ~ Meningita cu Listeria
+? A85.1   Meningoencefalita cu adenovirus   [titlu: Encefalita cu adenovirus]  <Adenoviral encephalitis>  ~ Amigdalita cu adenovirus
+? A87.2   Meningoencefalita limfocitara   [titlu: Choriomeningita limfocitara]  <Lymphocytic choriomeningitis>  ~ Corioencefalita limfocitara | Meningita aseptica | Meningita urliana
+? B00.4   Meningoencefalita cu virusul herpetic   [titlu: Encefalita cu virusul herpetic]  <Herpesviral encephalitis>  ~ 
+? B02.0   Meningoencefalita zosteriana   [titlu: Encefalita zosteriana]  <Zoster encephalitis>  ~ Meningita cu Listeria | Meningita urliana | Encefalita cu virus varicela-zoster
+? B05.1   Meningita postmorbilioasa   [titlu: Rujeola complicata cu meningita]  <Measles complicated by meningitis>  ~ 
+? B27.0   Mononucleoza prin virusul Epstein-Barr   [titlu: Subfamilie gammaherpesvirusuri (mononucleoza)]  <Gammaherpesviral mononucleosis>  ~ Mononucleoza infectioasa
+? B36.1   Microsporosis nigra   [titlu: Tinea nigra]  <Tinea nigra>  ~ 
+? B37.3   Muguetul vaginal   [titlu: Candidiaza vulvei si vaginului(M77.1*)]  <Candidiasis of vulva and vagina>  ~ 
+? B45.1   Meningita cu criptococcus†   [titlu: Criptococcoza cerebrala]  <Cerebral cryptococcosis>  ~ Meningita criptocococica
+? B47.0   Maduromicoza   [titlu: Eumicetomul]  <Eumycetoma>  ~ Micetom
+? B60.2   Meningoencefalita amoebiana primara†   [titlu: Naegleriaza]  <Naegleriasis>  ~ Meningoencefalita amibiana primara
+? B66.8   Metagonimiaza   [titlu: Alte infectii specificate cu paraziti]  <Other specified fluke infections>  ~ Metagonimoza
+? B83.2   Meningocefalita cu eosinofile†   [titlu: Angiostrongyliaza datorita Parastrongylus cantonensis]  <Angiostrongyliasis due to Parastrongylus cantonensis>  ~ Angiostrongiloidoza
+? B83.8   Metastrongyliaza   [titlu: Alte helmintiaze specificate]  <Other specified helminthiases>  ~ 
+? B96.4   mirabilis   [titlu: Proteus (mirabilis) (morganii), cauza unor boli clasate la alte capitole]  <Proteus (mirabilis) (morganii) as the cause of diseases classified elsewhere>  ~ 
+? B96.4   morganii   [titlu: Proteus (mirabilis) (morganii), cauza unor boli clasate la alte capitole]  <Proteus (mirabilis) (morganii) as the cause of diseases classified elsewhere>  ~ 
+? B96.5   mallei   [titlu: Pseudomonas, (aeruginosa) (Burkholderia pseudommallei) (mallei) cauza unor boli clasate la alte capitole]  <Pseudomonas (aeruginosa) (mallei) (pseudomallei) as the cause of diseases classified elsewhere>  ~ 
+? C41.0   Maxilar (superior)   [titlu: Oasele craniene si ale fetei]  <Malignant neoplasm of bones of skull and face>  ~ 
+? C41.02  Maxilar (superior)   [titlu: Oasele maxilo-faciale]  <>  ~ 
+? C41.9   Melanomul si alte tumori maligne ale pielii   [titlu: Oase si cartilagii, nespecificate]  <Malignant neoplasm of bone and articular cartilage, unspecified>  ~ Cancer | Melanom
+? C48.1   Mesenter   [titlu: Parti specificate ale peritoneului]  <Malignant neoplasm of specified parts of peritoneum>  ~ 
+? C48.1   Mesocolon   [titlu: Parti specificate ale peritoneului]  <Malignant neoplasm of specified parts of peritoneum>  ~ 
+? C69.6   Muschiul extra-ocular   [titlu: Orbita]  <Malignant neoplasm of orbit>  ~ 
+? C94.0   Mieloza eritremica acuta   [titlu: Eritremia acuta si eritroleucemia]  <Acute erythroid leukemia>  ~ 
+? D10.6   Marginea posterioara a septului si choanelor   [titlu: Nazo-faringele]  <Benign neoplasm of nasopharynx>  ~ 
+? D19.9   Mesoteliom benign   [titlu: Tesut mesotelial, nespecificat]  <Benign neoplasm of mesothelial tissue, unspecified>  ~ Mezoteliom benign
+? D31.6   Muschiul extra-ocular   [titlu: Orbita, nespecificata]  <Benign neoplasm of unspecified site of orbit>  ~ 
+? D47.0   Mastocitom   [titlu: Tumori cu histiocite si mastocite cu evolutie imprevizibila sau comportament necunoscut]  <Mast cell neoplasms of uncertain behavior>  ~ Astrocitom | Mastocitoza sistemica
+? D47.1   Mielofibroza (cu metaplazie mieloida)   [titlu: Boala mieloproliferativa cronica]  <Chronic myeloproliferative disease>  ~ Mielofibroza primara | Metaplazie mieloida
+? D47.1   Mieloscleroza (megacariocitara) cu metaplazie mieloida   [titlu: Boala mieloproliferativa cronica]  <Chronic myeloproliferative disease>  ~ Metaplazie mieloida
+? D59.5   Marchiafava-Micheli   [titlu: Hemoglobinuria nocturna paroxistica (Marchiafava-Micheli)]  <Paroxysmal nocturnal hemoglobinuria [Marchiafava-Micheli]>  ~ Hemoglobinurie paroxistica nocturna
+? D74.8   Methemoglobinemia dobandita (cu sulfhemoglominemie)   [titlu: Alte methemoglobinemii]  <Other methemoglobinemias>  ~ 
+? E28.3   Menopauza prematura   [titlu: Insuficienta ovariana primara]  <Primary ovarian failure>  ~ 
+? E30.1   Menstruatie precoce   [titlu: Pubertate precoce]  <Precocious puberty>  ~ 
+? E30.8   Menarha prematura   [titlu: Alte tulburari ale pubertatii]  <Other disorders of puberty>  ~ Adrenarha prematura | Telarha prematura
+? E42     Malnutritie proteino-energetica grava [ca la   [titlu: Kwashiorkor de marasm]  <Marasmic kwashiorkor>  ~ Malnutritie proteino-energetica | Kwashiorkor marasmic
+? E72.1   Metioninemia   [titlu: Tulburari de metabolism al aminoacizilor sulfurati]  <Disorders of sulfur-bearing amino-acid metabolism>  ~ Hipermetioninemie
+? E76.2   Mucopolizaharidoza, tip III, IV, VI, VII   [titlu: Alte mucopolizaharidoze]  <Other mucopolysaccharidoses>  ~ Sindrom Maroteaux-Lamy | Sindrom Morquio | Sindrom Sanfilippo | Sindrom Sanfilippo tip A | Sindrom Sly | Sindrom Sanfilippo tip D
+? E77.0   Mucolipidoza II [boala celulelor I]   [titlu: Deficit de transformare post-traductionala a enzimelor lisosomale]  <Defects in post-translational modification of lysosomal enzymes>  ~ Boala cu celule I
+? E77.0   Mucolipidoza III [polidistrofia pseudo-Hurler]   [titlu: Deficit de transformare post-traductionala a enzimelor lisosomale]  <Defects in post-translational modification of lysosomal enzymes>  ~ Mucolipidoza tip III
+? E89.6   medulara   [titlu: Hipofunctiunea adrenocorticala (medulara) postprocedurala]  <Postprocedural adrenocortical (-medullary) hypofunction>  ~ 
+? F30.9   Manie   [titlu: Episod maniacal nespecificat]  <Manic episode, unspecified>  ~ Episod maniacal
+? F51.3   mersul prin somn   [titlu: Somnambulism [mersul prin somn]]  <Sleepwalking [somnambulism]>  ~ Somnambulism
+? F65.5   Masochism   [titlu: Sado-masochism]  <Sadomasochism>  ~ 
+? F98.8   Masturbare excesiva   [titlu: Alte tulburari specificate ale tulburarilor comportamentale si emotionale cu debut de obicei in copilarie si adolescenta]  <Other specified behavioral and emotional disorders with onset usually occurring in childhood and adolescence>  ~ Transpiratie excesiva
+? G31.8   Mioencefalopatia mitocondriala   [titlu: Alte afectiuni degenerative specificate ale sistemului nervos]  <Other specified degenerative diseases of nervous system>  ~ Encefalomiopatie mitocondriala | Miopatia mitocondriala
+? G43.8   Migrena oftalmoplegica   [titlu: Alte migrene]  <Other migraine>  ~ Migrena oftalmica
+? G57.6   Metatarsalgia Morton   [titlu: Leziunea nervului plantar]  <Lesion of plantar nerve>  ~ 
+? G95.9   Mielopatia   [titlu: Afectiune a maduvei spinarii, nespecificata]  <Disease of spinal cord, unspecified>  ~ Mielopatia asociata HIV
+? H02.7   Madaroza pleoapei   [titlu: Alte afectiuni degenerative ale pleoapei si ale regiunii perioculare]  <Other and unspecified degenerative disorders of eyelid and periocular area>  ~ 
+? H06.1   Miaza orbitei   [titlu: Infectii parazitare ale orbitei in boli clasificate altundeva]  <>  ~ 
+? H35.3   Maculopatia toxica   [titlu: Degenerescenta maculei si polului posterior]  <Degeneration of macula and posterior pole>  ~ Mielopatia toxica
+? H43.3   Membrane si fibre ale corpului vitros   [titlu: Alte opacitati ale corpului vitros]  <Other vitreous opacities>  ~ 
+? H50.4   Microtropia   [titlu: Alte heterotropii si nespecificate]  <Other and unspecified heterotropia>  ~ Microtie | Microstomie
+? H53.1   Metamorfopsia   [titlu: Tulburari subiective de vedere]  <Subjective visual disturbances>  ~ 
+? H54     Maximum mai   [titlu: Cecitatea si scaderea vazului]  <Blindness and low vision>  ~ 
+? H93.2   Modificarea temporara a pragului auditiv   [titlu: Alte perceptii de auz anormale]  <Other abnormal auditory perceptions>  ~ 
+? I31.0   Mediastinopericardita adeziva   [titlu: Pericardita cronica adeziva]  <Chronic adhesive pericarditis>  ~ 
+? I33.9   Mioendocardita acuta sau subacuta   [titlu: Endocardita acuta, nespecificata]  <Acute and subacute endocarditis, unspecified>  ~ 
+? J60     mina de carbune   [titlu: Pneumoconioza minerilor (mina de carbune)]  <Coalworker's pneumoconiosis>  ~ 
+? J84.0   Microlitiaza alveolara a plamanului   [titlu: Pneumopatii alveolare si parietoalveolare]  <Alveolar and parieto-alveolar conditions>  ~ 
+? K00.1   Meziodinte   [titlu: Dinti supranumerari]  <Supernumerary teeth>  ~ 
+? K02.4   Melanodontia infantila   [titlu: Odontoclazia]  <>  ~ 
+? K02.4   Melanodontoclazia   [titlu: Odontoclazia]  <>  ~ 
+? K07.2   Mesiocluziunea   [titlu: Anomalii de raport intre arcadele dentare]  <>  ~ 
+? K07.6   Mandibula luxabila spontan   [titlu: Afectiunea articulatiei temporo-mandibulare]  <>  ~ 
+? K13.7   Mucinoza orala focala   [titlu: Alte leziuni ale mucoasei bucale si nespecificate]  <Other and unspecified lesions of oral mucosa>  ~ 
+? L03.10  Mana   [titlu: Celulita membrului superior]  <>  ~ 
+? L29.9   Mancarime   [titlu: Prurit, nespecificat]  <Pruritus, unspecified>  ~ Scabie
+? M23.3   Menisc detasat   [titlu: Alte dereglari ale meniscului]  <Other meniscus derangements>  ~ 
+? M23.3   Menisc blocat   [titlu: Alte dereglari ale meniscului]  <Other meniscus derangements>  ~ 
+? M61.2   Miozita osificanta asociata cu cvadriplegia sau paraplegia   [titlu: Calcificare si osificare paralitica a unui muschi]  <Paralytic calcification and ossification of muscle>  ~ Miozita osificanta
+? M61.3   Miozita osificanta asociata cu arsuri   [titlu: Calcificare si osificare a muschilor asociata cu arsuri]  <Calcification and ossification of muscles associated with burns>  ~ Miozita osificanta
+? N28.8   Mega-ureter   [titlu: Alte tulburari specificate ale rinichiului si ureterului]  <Other specified disorders of kidney and ureter>  ~ Megaureter
+? N34.2   Meatita, uretrala   [titlu: Alte uretrite]  <Other urethritis>  ~ 
+? N35.9   Meat sub forma de gaura de ac   [titlu: Strictura uretrala, nespecificata]  <Urethral stricture, unspecified>  ~ 
+? N40     Miomul prostatei   [titlu: Hiperplazia prostatei]  <Benign prostatic hyperplasia>  ~ 
+? N60.3   Mastopatia chistica cu proliferare epiteliala   [titlu: Fibroscleroza sanului]  <Fibrosclerosis of breast>  ~ 
+? N91.3   Menstruatie care este putin abundenta sau rara de la inceput   [titlu: Oligomenoree primara]  <Primary oligomenorrhea>  ~ Menoragie | Oligomenoree
+? O02.1   Moarte fetala precoce cu retentia fatului mort   [titlu: Avort fals]  <Missed abortion>  ~ 
+? O41.1   Membranita   [titlu: Infectia sacului amniotic si a membranelor]  <Infection of amniotic sac and membranes>  ~ 
+? O91.1   Mastita purulenta gestationala sau puerperala   [titlu: Abcesul sanului asociat nasterii]  <Abscess of breast associated with pregnancy, the puerperium and lactation>  ~ Mastita
+? P00.4   Malnutritia materna   [titlu: Fat si nou-nascut afectati de tulburarile de nutritie ale mamei]  <Newborn affected by maternal nutritional disorders>  ~ 
+? P02.7   Membranita   [titlu: Fat si nou-nascut afectati de chorio-amnionita]  <Newborn affected by chorioamnionitis>  ~ 
+? P04.1   Medicamente citotoxice   [titlu: Fat si nou-nascut afectati de alte medicamente absorbite de mama]  <Newborn affected by other maternal medication>  ~ 
+? P05.1   Mic si usor pentru varsta gestationala   [titlu: Talie mica pentru varsta gestationala]  <Newborn small for gestational age>  ~ 
+? P05.1   Mic pentru varsta gestationala   [titlu: Talie mica pentru varsta gestationala]  <Newborn small for gestational age>  ~ 
+? P23.6   Mycoplasma   [titlu: Pneumonia congenitala datorita altor agenti bacterieni]  <Congenital pneumonia due to other bacterial agents>  ~ 
+? P83.4   Mastita neinfectioasa a nou-nascutului   [titlu: Congestia sanului la nou-nascut]  <Breast engorgement of newborn>  ~ 
+? P96.9   Malformatii congenitale, deformatii si anomalii cromozomiale   [titlu: Afectiune survenind in perioada perinatala, nespecificata]  <Condition originating in the perinatal period, unspecified>  ~ 
+? P96.9   Malformatii congenitale ale sistemului nervos   [titlu: Afectiune survenind in perioada perinatala, nespecificata]  <Condition originating in the perinatal period, unspecified>  ~ 
+? Q03.1   Magendie   [titlu: Atrezia fisurii Luschka si a foramenului]  <Atresia of foramina of Magendie and Luschka>  ~ 
+? Q06.1   Mielatelia   [titlu: Hipoplazia si displazia maduvei spinarii]  <Hypoplasia and dysplasia of spinal cord>  ~ 
+? Q06.1   Mielodisplazia maduvei spinarii   [titlu: Hipoplazia si displazia maduvei spinarii]  <Hypoplasia and dysplasia of spinal cord>  ~ Amielie
+? Q06.8   Maduva spinarii limitata congenital   [titlu: Alte malformatii congenitale specificate ale maduvei spinarii]  <Other specified congenital malformations of spinal cord>  ~ 
+? Q10.6   Malformatii congenitale ale aparatului lacrimal   [titlu: Alte malformatii congenitale ale aparatului lacrimal]  <Other congenital malformations of lacrimal apparatus>  ~ 
+? Q13.2   Malformatia congenitala a irisului   [titlu: Alte malformatii congenitale ale irisului]  <Other congenital malformations of iris>  ~ Aniridie
+? Q13.4   Malformatii congenitale ale corneei   [titlu: Alte malformatii congenitale ale corneei]  <Other congenital corneal malformations>  ~ 
+? Q13.4   Microcorneea   [titlu: Alte malformatii congenitale ale corneei]  <Other congenital corneal malformations>  ~ Microcornee
+? Q15.0   Macrocorneea cu glaucom   [titlu: Glaucom congenital]  <Congenital glaucoma>  ~ 
+? Q15.0   Macroftalmia in glaucomul congenital   [titlu: Glaucom congenital]  <Congenital glaucoma>  ~ Glaucom congenital
+? Q15.0   Megalocorneea cu glaucom   [titlu: Glaucom congenital]  <Congenital glaucoma>  ~ 
+? Q16.4   Malformatii congenitale ale urechii medii   [titlu: Alte malformatii congenitale ale urechii medii]  <Other congenital malformations of middle ear>  ~ Malformatie de ureche medie | Microtie
+? Q18.2   Malformatia fisurii branhiale   [titlu: Alte malformatii ale fisurii branhiale]  <Other branchial cleft malformations>  ~ 
+? Q22.3   Malformatii congenitale ale valvei pulmonare   [titlu: Alte malformatii congenitale ale valvei pulmonare]  <Other congenital malformations of pulmonary valve>  ~ Boala valvulara pulmonara
+? Q27.2   Malformatii congenitale ale arterei renale   [titlu: Alte malformatii congenitale ale arterei renale]  <Other congenital malformations of renal artery>  ~ Malformatie intestinala congenitala
+? Q32.4   Malformatia congenitala a bronhiilor   [titlu: Alte malformatii congenitale ale bronhiilor]  <Other congenital malformations of bronchus>  ~ 
+? Q38.6   Malformatii congenitale ale gurii   [titlu: Alte malformatii congenitale ale gurii]  <Other congenital malformations of mouth>  ~ 
+? Q38.8   Malformatii congenitale ale faringelui   [titlu: Alte malformatii congenitale ale faringelui]  <Other congenital malformations of pharynx>  ~ 
+? Q43.10  Megacolon (aganglionic) congenital   [titlu: Boala Hirschsprung, nespecificata]  <>  ~ Boala Hirschsprung
+? Q43.39  Membrana Jackson   [titlu: Alte malformatii congenitale de fixare a intestinului]  <>  ~ 
+? Q43.39  Malformatia de fixare a intestinului   [titlu: Alte malformatii congenitale de fixare a intestinului]  <>  ~ 
+? Q43.39  Mezenter universal   [titlu: Alte malformatii congenitale de fixare a intestinului]  <>  ~ 
+? Q44.5   Malformatia congenitala a cailor biliare   [titlu: Alte malformatii congenitale ale cailor biliare]  <Other congenital malformations of bile ducts>  ~ Aplazie biliara
+? Q45.39  Malformatii congenitale ale pancreasului si canalului pancreatic   [titlu: Alte malformatii congenitale ale pancreasului si canalului pancreatic]  <>  ~ 
+? Q50.39  Malformatii congenitale ale ovarului   [titlu: Alte malformatii congenitale ale ovarului]  <Other congenital malformation of ovary>  ~ 
+? Q50.69  Malformatia congenitala a trompei   [titlu: Alte malformatii congenitale ale trompei Fallope si ale ligamentului larg]  <>  ~ 
+? Q52.4   Malformatia congenitala a vaginului   [titlu: Alte anomalii congenitale ale vaginului]  <Other congenital malformations of vagina>  ~ Atrezie vaginala
+? Q55.01  Monorhism   [titlu: Absenta si aplazia testiculului, unilateral]  <>  ~ 
+? Q55.29  Malformatii congenitale ale testiculelor si scrotului   [titlu: Alte malformatii congenitale ale testiculelor si scrotului]  <Other congenital malformations of testis and scrotum>  ~ 
+? Q55.6   Malformatii congenitale ale penisului   [titlu: Alte malformatii congenitale ale penisului]  <Other congenital malformations of penis>  ~ 
+? Q56.4   Malformatii congenitale ale sistemului urinar   [titlu: Sex nedeterminat, nespecificat]  <Indeterminate sex, unspecified>  ~ 
+? Q61.9   Microcefalia cu boala chistica a rinichiului   [titlu: Boala chistica a rinichiului, nespecificata]  <Cystic kidney disease, unspecified>  ~ 
+? Q63.29  Malrotatia rinichiului   [titlu: Alte forme specificate de ectopie renala]  <>  ~ 
+? Q64.21  Membrana uretrala posterioara obstructiva congenitala (COPUM)   [titlu: Valve uretrale posterioare congenitale]  <>  ~ 
+? Q64.49  Malformatia uracei   [titlu: Alte malformatii specificate ale uracei]  <>  ~ 
+? Q64.72  mucoasa   [titlu: Prolaps congenital al vezicii (mucoasa)]  <Congenital prolapse of urinary meatus>  ~ 
+? Q64.73  Meat urinar dublu   [titlu: Uretra dubla]  <Congenital urethrorectal fistula>  ~ 
+? Q68.1   Mana in forma de sapa (congenitala)   [titlu: Deformatii congenitale ale mainii]  <Congenital deformity of finger(s) and hand>  ~ 
+? Q71.4   Mana in forma de bata (congenital)   [titlu: Corectarea longitudinala a defectelor radiusului]  <Longitudinal reduction defect of radius>  ~ 
+? Q71.4   Mana in forma de bata radiala   [titlu: Corectarea longitudinala a defectelor radiusului]  <Longitudinal reduction defect of radius>  ~ 
+? Q75.39  Macrocefalia   [titlu: Alte forme de macrocefalie]  <>  ~ Microcefalie
+? Q76.69  Malformatia congenitala a coastelor   [titlu: Alte malformatii congenitale ale coastelor]  <>  ~ 
+? Q76.79  Malformatia congenitala a sternului   [titlu: Alte malformatii congenitale specificate ale sternului]  <>  ~ 
+? Q79.1   Malformatia congenitala a diafragmului   [titlu: Alte malformatii congenitale ale diafragmului]  <Other congenital malformations of diaphragm>  ~ 
+? Q84.1   Moniletrix   [titlu: Tulburari morfologice congenitale ale parului, neclasificate altundeva]  <Congenital morphological disturbances of hair, not elsewhere classified>  ~ 
+? Q89.09  Malformatia a splinei   [titlu: Alte malformatii congenitale specificate ale splinei]  <Congenital malformations of spleen>  ~ 
+? Q89.19  Malformatia a glandei suprarenale   [titlu: Alte malformatii congenitale specificate ale glandei suprarenale]  <>  ~ 
+? Q89.89  Malformatia congenitala   [titlu: Alte malformatii congenitale specificate]  <Other specified congenital malformations>  ~ Comunicare interventriculara | Malformatie anorectala | Malformatie intestinala congenitala | Microtie | Miopatia congenitala | Malarie congenitala
+? Q92.3   Mai putin decat intrega ramura duplicata   [titlu: Trisomia minora partiala]  <>  ~ 
+= B27.0   mononucleoza  -> Mononucleoza infectioasa
+= B34.9   Micoze  -> Micoze
+= B37.0   Muguetul  -> Candidoza orala
+= B37.9   Muguetul  -> Candidoza orala
+= C90.2   Mielomul solitar  -> Medulom
+= D46.9   Mielodisplazia  -> Spina bifida
+= D74.8   Methemoglobinemia toxica  -> Methemoglobinemie
+= E03.9   Mixedem  -> Mixedem
+= E35.8   Malnutritia  -> Malnutritie
+= E77.1   Manozidoza  -> Alfa-manozidoza
+= G43.8   Migrena retiniana  -> Migrena oftalmica
+= G71.9   Miopatia ereditara  -> Distrofie musculara
+= J98.5   Mediastinita  -> Mediastinita
+= K14.8   Macroglosia  -> Macroglosie
+= L94.0   morfea  -> Morfea
