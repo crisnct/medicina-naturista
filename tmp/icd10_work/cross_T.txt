@@ -1,0 +1,161 @@
+? A07.8   Trichomonaza intestinala   [titlu: Alte boli intestinale prin protozoare, specificate]  <Other specified protozoal intestinal diseases>  ~ Micoza intestinala | Tricostrongiloidoza
+? A15.6   Tuberculoza pleurei confirmata bacteriologic si histologic   [titlu: Pleurezia tuberculoasa, cu confirmare bacteriologica si histologica]  <Tuberculous pleurisy>  ~ Tuberculoza pleurala
+? A15.8   Tuberculoza mediastinala confirmata bacteriologic si histologic   [titlu: Alte forme de tuberculoza a cailor respiratorii, cu confirmare bacteriologica si histologica]  <Other respiratory tuberculosis>  ~ Mediastinita tuberculoasa
+? A15.8   Tuberculoza nazo-faringiana confirmata bacteriologic si histologic   [titlu: Alte forme de tuberculoza a cailor respiratorii, cu confirmare bacteriologica si histologica]  <Other respiratory tuberculosis>  ~ Faringita tuberculoasa
+? A17.0   Tuberculoza meningelor (cerebral) (spinal)   [titlu: Meningita tuberculoasa]  <Tuberculous meningitis>  ~ Tuberculom cerebral | Tuberculoza meningeana
+? A17.0   Tuberculoza leptomeningelui   [titlu: Meningita tuberculoasa]  <Tuberculous meningitis>  ~ Tuberculoza meningeana | Tuberculoza laringiana
+? A17.8   Tuberculom al creierului   [titlu: Alte forme de tuberculoza a sistemului nervos]  <Other tuberculosis of nervous system>  ~ 
+? A17.8   Tuberculom al maduvei spinarii   [titlu: Alte forme de tuberculoza a sistemului nervos]  <Other tuberculosis of nervous system>  ~ Tumora medulara
+? A66.3   Talpi mancate de viermi   [titlu: Hipercheratoza pianica]  <Hyperkeratosis of yaws>  ~ 
+? A77.1   Tifosul african de capuse   [titlu: Febra purpurie prin Rickettsia conorii]  <Spotted fever due to Rickettsia conorii>  ~ 
+? A77.2   Tifosul siberian de capuse   [titlu: Febra purpurie prin Rickettsia siberica]  <Spotted fever due to Rickettsia siberica>  ~ 
+? A77.3   Tifos de Queensland de capuse   [titlu: Febra purpurie prin Rickettsia australis]  <Spotted fever due to Rickettsia australis>  ~ 
+? A77.9   Tifosul de capuse   [titlu: Febra purpurie, nespecificata]  <Spotted fever, unspecified>  ~ Febra pustoaselor stancoase
+? B36.2   Tinea alba   [titlu: Piedra alba]  <White piedra>  ~ 
+? B57.2   Trypanosomiaza americana   [titlu: Boala Chagas (cronica) cu atingerea inimii]  <Chagas' disease (chronic) with heart involvement>  ~ Boala Chagas | Boala somnului | Tripanosomiaza africana vestica
+? B83.0   Toxocariaza   [titlu: Larva migrans visceral]  <Visceral larva migrans>  ~ Toxocaroza
+? B83.8   Thelazioza   [titlu: Alte helmintiaze specificate]  <Other specified helminthiases>  ~ 
+? B99     Tumori maligne ale buzei, cavitatii bucale si faringelui   [titlu: Boli infectioase, alte si nespecificate]  <Other and unspecified infectious diseases>  ~ Cancer
+? C02.3   Treimea mijlocie a limbii   [titlu: Doua treimi anterioare ale limbii, parte nespecificata]  <Malignant neoplasm of anterior two-thirds of tongue, part unspecified>  ~ 
+? C11.1   Tesut adenoid   [titlu: Peretele posterior al nazo-faringelui]  <Malignant neoplasm of posterior wall of nasopharynx>  ~ 
+? C26.9   Tractul sau canalul alimentar   [titlu: Localizari rau definite ale sistemului digestiv]  <Malignant neoplasm of ill-defined sites within the digestive system>  ~ 
+? C26.9   Tractul gastrointestinal   [titlu: Localizari rau definite ale sistemului digestiv]  <Malignant neoplasm of ill-defined sites within the digestive system>  ~ Antrax gastrointestinal
+? C26.9   Tumori maligne ale organelor respiratorii si intratoracice   [titlu: Localizari rau definite ale sistemului digestiv]  <Malignant neoplasm of ill-defined sites within the digestive system>  ~ Cancer
+? C30.1   Trompa Eustache   [titlu: Urechea medie]  <Malignant neoplasm of middle ear>  ~ Absenta congenitala a trompei lui Eustache
+? C39.9   Tumori maligne ale oaselor si cartilagiilor articulare   [titlu: Localizari rau definite ale sistemului respirator]  <Malignant neoplasm of lower respiratory tract, part unspecified>  ~ Cancer
+? C50.9   Tumori maligne ale organelor genitale feminine   [titlu: San, nespecificat]  <Malignant neoplasm of breast of unspecified site>  ~ Cancer
+? C57.8   Tubo-ovariana   [titlu: Leziune depasind organele genitale la femeie]  <Malignant neoplasm of overlapping sites of female genital organs>  ~ Abces tubo-ovarian | Tromboza de vena ovariana
+? C63.7   Tunica vaginala   [titlu: Alte organe genitale specificate la barbat]  <Malignant neoplasm of other specified male genital organs>  ~ Mezoteliom de tunica vaginala testiculara | Candidoza vulvovaginala
+? C63.9   Tumori maligne ale cailor urinare   [titlu: Organ genital la barbat, nespecificat]  <Malignant neoplasm of male genital organ, unspecified>  ~ Cancer
+? C69.6   Tesutul conjunctiv al orbitei   [titlu: Orbita]  <Malignant neoplasm of orbit>  ~ 
+? C69.6   Tesutul retro-ocular   [titlu: Orbita]  <Malignant neoplasm of orbit>  ~ 
+? C69.6   Tesutul retrobulbar   [titlu: Orbita]  <Malignant neoplasm of orbit>  ~ 
+? C72.9   Tumori maligne ale tiroidei si altor glande endocrine   [titlu: Sistem nervos central, nespecificat]  <Malignant neoplasm of central nervous system, unspecified>  ~ Cancer
+? C75.9   Tumori maligne cu localizari rau definite, secundare si   [titlu: Glanda endocrina, nespecificata]  <Malignant neoplasm of endocrine gland, unspecified>  ~ Cancer
+? C90.2   Tumora maligna cu plasmocite   [titlu: Plasmacitom extra-medular]  <Extramedullary plasmacytoma>  ~ Cancer
+? D09.9   Tumori benigne   [titlu: Carcinom in situ, nespecificat]  <Carcinoma in situ, unspecified>  ~ Adenom | Adenom adrenal | Adenom ampular | Adenom anal | Adenom bronsic | Adenom cervical
+? D13.7   Tumora insulelor celulare   [titlu: Pancreas endocrin]  <Benign neoplasm of endocrine pancreas>  ~ 
+? D29.7   Tunica vaginala   [titlu: Alte organe genitale ale barbatului]  <>  ~ Mezoteliom de tunica vaginala testiculara | Candidoza vulvovaginala
+? D31.6   Tesutul conjunctiv al orbitei   [titlu: Orbita, nespecificata]  <Benign neoplasm of unspecified site of orbit>  ~ 
+? D31.6   Tesutul retro-ocular   [titlu: Orbita, nespecificata]  <Benign neoplasm of unspecified site of orbit>  ~ 
+? D31.6   Tesutul retrobulbar   [titlu: Orbita, nespecificata]  <Benign neoplasm of unspecified site of orbit>  ~ 
+? D33.1   Trunchiul cerebral   [titlu: Creier, infratentorial]  <Benign neoplasm of brain, infratentorial>  ~ Moarte cerebrala | Rombencefalita
+? D43.1   Trunchiul cerebral   [titlu: Creier, infratentorial]  <Neoplasm of uncertain behavior of brain, infratentorial>  ~ Moarte cerebrala | Rombencefalita
+? D48.6   Tesutul conjunctiv al sanului   [titlu: San]  <Neoplasm of uncertain behavior of breast>  ~ 
+? D69.1   Tromboastenia (hemoragica) (ereditara)   [titlu: Defecte calitative ale trombocitelor]  <Qualitative platelet defects>  ~ 
+? D73.5   Torsiunea splinei   [titlu: Infarctul splinei]  <Infarction of spleen>  ~ Torsiune de splina
+? D81.9   Tulburari severe ale imunodeficientei, combinate [SCID]   [titlu: Imunodeficienta, nespecificata]  <Combined immunodeficiency, unspecified>  ~ Imunodeficienta severa combinata
+? E20.9   Tetania paratiroida   [titlu: Hipoparatiroidism, nespecificat]  <Hypoparathyroidism, unspecified>  ~ 
+? E25.8   Tulburare adrenogenitala idiopatica   [titlu: Alte tulburari adrenogenitale]  <Other adrenogenital disorders>  ~ 
+? E34.5   Tulburarea receptorilor hormonali periferici   [titlu: Sindromul de rezistenta la androgeni]  <Androgen insensitivity syndrome>  ~ 
+? E68     Tulburari de metabolism   [titlu: Sechele ale excesului de aport]  <Sequelae of hyperalimentation>  ~ 
+? E89.2   Tetania paratireopriva   [titlu: Hipoparatiroidism postprocedural]  <Postprocedural hypoparathyroidism>  ~ 
+? F07.8   Tulburare afectiva organica a emisferei drepte   [titlu: Alte tulburari organice de personalitate si de comportament datorite unei boli, vatamari si disfunctii cerebrale]  <Other personality and behavioral disorders due to known physiological condition>  ~ Tulburare organica afectiva
+? F29     Tulburari ale dispozitiei [afective]   [titlu: Psihoza neorganica nespecificata]  <Unspecified psychosis not due to a substance or known physiological condition>  ~ 
+? F31.8   Tulburare bipolara II   [titlu: Alte tulburari afective bipolare]  <Other bipolar disorders>  ~ Tulburare bipolara
+? F34.0   Tulburarea afectiva de personalitate   [titlu: Ciclotimie]  <Cyclothymic disorder>  ~ Tulburare organica de personalitate | Personalitate borderline
+? F51.5   Tulburare de anxietate in vis   [titlu: Cosmaruri]  <Nightmare disorder>  ~ Fobie sociala
+? F52.0   Tulburare privind dorinta sexuala hipoactiva   [titlu: Absenta sau pierdere a dorintei sexuale]  <Hypoactive sexual desire disorder>  ~ 
+? F52.2   Tulburare de raspuns sexual la femeie   [titlu: Esec al raspunsului genital]  <Sexual arousal disorders>  ~ 
+? F52.2   Tulburare de erectie masculina   [titlu: Esec al raspunsului genital]  <Sexual arousal disorders>  ~ Disfunctie erectila
+? F59     Tulburari de personalitate si de comportament la adulti   [titlu: Sindroame comportamentale nespecificate asociate perturbarilor fiziologice si factorilor fizici]  <Unspecified behavioral syndromes associated with physiological disturbances and physical factors>  ~ 
+? F68.1   tulburare artificiala   [titlu: Producere intentionata sau simulare a simptomelor sau incapacitatii, fie fizice, fie psihologice [tulburare artificiala]]  <Factitious disorder imposed on self>  ~ 
+? F68.8   Tulburare de caracter   [titlu: Alte tulburari specificate de personalitate si de comportament la adult]  <Other specified disorders of adult personality and behavior>  ~ Tulburare de trance | Ametropie | Disgrafie
+? F68.8   Tulburare de relatii   [titlu: Alte tulburari specificate de personalitate si de comportament la adult]  <Other specified disorders of adult personality and behavior>  ~ Ametropie | Disfunctie erectila | Tulburare de keratinizare
+? F79     Tulburari de dezvoltare psihologica   [titlu: Retardare mentala nespecificata]  <Unspecified intellectual disabilities>  ~ 
+? F81.8   Tulburarea de dezvoltare a scrierii expresive   [titlu: Alte tulburari de dezvoltare a abilitatilor scolare]  <Other developmental disorders of scholastic skills>  ~ 
+? F84.0   Tulburare autistica   [titlu: Autism infantil]  <Autistic disorder>  ~ Autism | Distonie | Distimie
+? F84.5   Tulburare schizoida a copilariei   [titlu: Sindromul Asperger]  <Asperger's syndrome>  ~ 
+? F93.8   Tulburare de identitate   [titlu: Alte tulburari emotionale ale copilariei]  <Other childhood emotional disorders>  ~ Tulburare de identitate de gen | Tulburare de invatare | Tulburare de excitare
+? F93.8   Tulburare hiperanxioasa   [titlu: Alte tulburari emotionale ale copilariei]  <Other childhood emotional disorders>  ~ Anxietate
+? F98.8   Tulburare de deficienta atentiei fara hiperactivitate   [titlu: Alte tulburari specificate ale tulburarilor comportamentale si emotionale cu debut de obicei in copilarie si adolescenta]  <Other specified behavioral and emotional disorders with onset usually occurring in childhood and adolescence>  ~ ADHD
+? G13.8   Tulburari extrapiramidale si ale motricitatii   [titlu: Atrofii sistemice afectand in principal sistemul nervos central in alte boli clasificate altundeva]  <Systemic atrophy primarily affecting central nervous system in other diseases classified elsewhere>  ~ 
+? G25.2   Tremuraturi intentionate   [titlu: Alte forme specificate de tremuraturi]  <Other specified forms of tremor>  ~ 
+? G37.9   Tulburari episodice si paroxistice   [titlu: Boli demielinizate ale sistemului nervos central, nespecificate]  <Demyelinating disease of central nervous system, unspecified>  ~ Ataxie episodica
+? G64     Tulburari ale sistemului nervos periferic   [titlu: Alte tulburari ale sistemului nervos periferic]  <Other disorders of peripheral nervous system>  ~ 
+? G82     Tetraplegia acuta, nontraumatica, cronica   [titlu: Paraplegia si tetraplegia]  <Paraplegia (paraparesis) and quadriplegia (quadriparesis)>  ~ 
+? G95.1   Tromboza arteriala a maduvei spinarii   [titlu: Mielopatii vasculare]  <Vascular myelopathies>  ~ 
+? H05.0   Tenonita orbitei   [titlu: Inflamatii acute ale orbitei]  <Acute inflammation of orbit>  ~ 
+? H33.4   tractiune   [titlu: Detasare mecanica (tractiune) a retinei]  <Traction detachment of retina>  ~ 
+? H52.7   Tulburari de vedere si cecitate   [titlu: Viciu de refractie, nespecificat]  <Unspecified disorder of refraction>  ~ 
+? H73.0   Timpanita acuta   [titlu: Miringita acuta]  <Acute myringitis>  ~ Episod maniacal | Limfangita | Rinita
+? H73.1   Timpanita cronica   [titlu: Miringita cronica]  <Chronic myringitis>  ~ Rinita | Tendinita
+? H83.3   Trauma acustica   [titlu: Consecintele zgomotului asupra urechii interne]  <Noise effects on inner ear>  ~ 
+? I10     Tensiunea sanguina ridicata   [titlu: Hipertensiunea esentiala (primara)]  <Essential (primary) hypertension>  ~ 
+? I31.9   Tamponarea inimii   [titlu: Boala pericardului, nespecificata]  <Disease of pericardium, unspecified>  ~ 
+? I43.8   Tofi gutosi ai inimii   [titlu: Cardiomiopatia in alte boli clasificate altundeva]  <>  ~ 
+? I80.2   Tromboza unei vene profunde   [titlu: Flebita si tromboflebita altor vase profunde ale extremitatilor inferioare]  <Phlebitis and thrombophlebitis of other and unspecified deep vessels of lower extremities>  ~ 
+? I82.9   Tromboza (vena)   [titlu: Embolia si tromboza unor vene nespecificate]  <Embolism and thrombosis of unspecified vein>  ~ Ocluzie de vena centrala a retinei | Sindrom Budd-Chiari | Sindrom Paget-Schroetter | Tromboza de vena cava | Tromboza de vena mezenterica | Tromboza de vena ovariana
+? J04.2   Traheita (acuta) cu laringita (acuta)   [titlu: Laringo-traheita acuta]  <Acute laryngotracheitis>  ~ 
+? J37.1   Traheita, cronica, cu laringita   [titlu: Laringo-traheita cronica]  <Chronic laryngotracheitis>  ~ 
+? K07.3   Transpozitia unuia sau mai multor dinti   [titlu: Anomalii pozitionale ale dintilor]  <>  ~ 
+? K56.2   Torsiunea colonului sau intestinului   [titlu: Volvulus]  <Volvulus>  ~ 
+? M10.0   Tofi gutosi ai inimii†   [titlu: Guta idiopatica]  <Idiopathic gout>  ~ 
+? M25.9   Tulburari ale tesutului conjunctiv sistemic   [titlu: Afectiune articulara, nespecificata]  <Joint disorder, unspecified>  ~ 
+? M31.4   Takayasu   [titlu: Sindromul crosei aortice [Takayasu]]  <Aortic arch syndrome [Takayasu]>  ~ Arterita Takayasu
+? M48.5   Tasare a vertebrelor   [titlu: Prabusire vertebrala, neclasificata altundeva]  <Collapsed vertebra, not elsewhere classified>  ~ 
+? M65.1   teno   [titlu: Alte (teno)sinovite infectioase]  <Other infective (teno)synovitis>  ~ 
+? M67.1   teaca   [titlu: Alte contracturi ale tendonului (teaca)]  <>  ~ 
+? M70.6   Tendinita trohanteriana   [titlu: Bursite trohanteriene]  <Trochanteric bursitis>  ~ Tendinita rotuliana
+? M76.8   Tendinita tibiala posterioara   [titlu: Alte entezopatii ale membrului inferior, exceptind piciorul]  <Other specified enthesopathies of lower limb, excluding foot>  ~ Tendinita tibialului posterior
+? M94.0   Tietze   [titlu: Sindromul jonctiunii condro-costale [Tietze]]  <Chondrocostal junction syndrome [Tietze]>  ~ Sindrom Tietze
+? N25.0   Tulburari tubulare cu pierdere de fosfati   [titlu: Osteodistrofia renala]  <Renal osteodystrophy>  ~ 
+? N48.8   Tromboza corpului cavernos si penisului   [titlu: Alte afectiuni specificate ale penisului]  <Other specified disorders of penis>  ~ 
+? N50.1   Tromboza organelor genitale masculine   [titlu: Afectiuni vasculare ale organelor genitale masculine]  <Vascular disorders of male genital organs>  ~ 
+? N51.8   Tulburari ale sanului   [titlu: Alte afectiuni ale organelor genitale masculine in boli clasificate altundeva]  <>  ~ 
+? N77.8   Tulburari neinflamatorii ale tractului genital feminin   [titlu: Ulceratia si inflamatia vulvo-vaginala in alte boli clasificate altundeva]  <>  ~ 
+? O22.3   Tromboza venoasa profunda, antepartum   [titlu: Flebotromboza profunda in sarcina]  <Deep phlebothrombosis in pregnancy>  ~ Tromboza venoasa profunda | Tromboza venoasa a membrelor superioare
+? O62.2   Travaliu sporadic   [titlu: Alte forme de inertie uterina]  <Other uterine inertia>  ~ 
+? O62.2   Travaliu neregulat   [titlu: Alte forme de inertie uterina]  <Other uterine inertia>  ~ 
+? O62.4   Travaliu necoordonat   [titlu: Contractii uterine hipertonice, neacordate si prelungite]  <Hypertonic, incoordinate, and prolonged uterine contractions>  ~ 
+? O87.1   Tromboza venoasa profunda, postpartum   [titlu: Flebotromboza profunda in timpul lauziei]  <Deep phlebothrombosis in the puerperium>  ~ Tromboza puerperala | Tromboza venoasa profunda | Tromboza venoasa a membrelor superioare
+? O87.1   Tromboflebita pelviana, postpartum   [titlu: Flebotromboza profunda in timpul lauziei]  <Deep phlebothrombosis in the puerperium>  ~ 
+? O99.8   Tabelară a Bolilor RoDRG   [titlu: Alte boli si afectiuni specificate complicand sarcina, nasterea si lauzia]  <Other specified diseases and conditions complicating pregnancy, childbirth and the puerperium>  ~ 
+? P00.5   Tabelară a Bolilor RoDRG   [titlu: Fat si nou-nascut afectati de un traumatism al mamei]  <Newborn affected by maternal injury>  ~ 
+? P01.5   Tripleti (sarcina)   [titlu: Fat si nou-nascut afectati de sarcina multipla]  <Newborn affected by multiple pregnancy>  ~ 
+? P02.4   Tabelară a Bolilor RoDRG   [titlu: Fat si nou-nascut afectati de procidenta cordonului ombilical]  <Newborn affected by prolapsed cord>  ~ 
+? P02.5   Torsiunea cordonului   [titlu: Fat si nou-nascut afectati de alte forme de compresiune ale cordonului ombilical]  <Newborn affected by other compression of umbilical cord>  ~ 
+? P03.6   Travaliu hipertonic   [titlu: Fat si nou-nascut afectati de contractii anormale ale uterului]  <Newborn affected by abnormal uterine contractions>  ~ 
+? P03.8   Travaliu provocat   [titlu: Fat si nou-nascut afectati de alte complicatii specificate ale travaliului si nasterii]  <Newborn affected by other specified complications of labor and delivery>  ~ 
+? P04.4   Tabelară a Bolilor RoDRG   [titlu: Fat si nou-nascut afectati de toxicomania materna]  <Newborn affected by maternal use of drugs of addiction>  ~ 
+? P04.9   Tulburari referitoare la durata gestatiei si cresterea fatului   [titlu: Fat si nou-nascut afectati de influente nocive materne, nespecificate]  <Newborn affected by maternal noxious substance, unspecified>  ~ 
+? P07.31  Tabelară a Bolilor RoDRG   [titlu: Alti copii nascuti inainte de termen, 28 sau mai multe saptamani complete dar mai putin de 32 saptamani complete]  <Preterm newborn, gestational age 28 completed weeks>  ~ 
+? P11.9   Tabelară a Bolilor RoDRG   [titlu: Leziunea sistemului nervos central datorita traumatismului la nastere, nespecificata]  <Birth injury to central nervous system, unspecified>  ~ 
+? P12.4   Traumatism al scalpului datorita bornei unui electrod   [titlu: Monitorizarea traumatismului scalpului la nou-nascut]  <Injury of scalp of newborn due to monitoring equipment>  ~ 
+? P20.1   Tabelară a Bolilor RoDRG   [titlu: Hipoxia intrauterina constatata pentru prima oara in timpul travaliului si nasterii]  <>  ~ 
+? P26.0   Tabelară a Bolilor RoDRG   [titlu: Hemoragia traheo-bronsica survenind in perioada perinatala]  <Tracheobronchial hemorrhage originating in the perinatal period>  ~ 
+? P39.1   Tabelară a Bolilor RoDRG   [titlu: Conjunctivita si dacriocistita neonatala]  <Neonatal conjunctivitis and dacryocystitis>  ~ 
+? P39.9   Tulburari hemoragice si hematologice ale fatului si nou-nascutului   [titlu: Infectie specifica perioadei perinatale, nespecificate]  <Infection specific to the perinatal period, unspecified>  ~ Boala hemoragica a nou-nascutului
+? P54     Tabelară a Bolilor RoDRG   [titlu: Alte hemoragii neonatale]  <Other neonatal hemorrhages>  ~ 
+? P61     Tabelară a Bolilor RoDRG   [titlu: Alte tulburari hematologice ale perioadei perinatale]  <Other perinatal hematological disorders>  ~ 
+? P72.1   Tireotoxicoza neonatala   [titlu: Hipertiroidism neonatal tranzitoriu]  <Transitory neonatal hyperthyroidism>  ~ 
+? P74.30  Tabelară a Bolilor RoDRG   [titlu: Pertubarea echilibrului potasiului la nou-nascut, nespecificata]  <>  ~ 
+? P74.9   Tulburari ale sistemului digestiv al fatului si nou-nascutului   [titlu: Perturbari metabolice tranzitorii ale nou-nascutului, nespecificate]  <Transitory metabolic disturbance of newborn, unspecified>  ~ 
+? P83.3   Tabelară a Bolilor RoDRG   [titlu: Edeme, altele si nespecificate, specifice fatului si nou-nascutului]  <Other and unspecified edema specific to newborn>  ~ 
+? P96.0   Tabelară a Bolilor RoDRG   [titlu: Insuficienta renala congenitala]  <Congenital renal failure>  ~ 
+? Q17.0   Tragus accesoriu   [titlu: Pavilion supranumerar]  <Accessory auricle>  ~ 
+? Q20.3   Transpozitia vaselor mari (completa)   [titlu: Comunicatie ventriculo-auriculara discordanta]  <Discordant ventriculoarterial connection>  ~ Transpozitia marilor vase
+? Q20.5   Transpozitia corectata   [titlu: Comunicatia atrioventriculara discordanta]  <Discordant atrioventricular connection>  ~ Transpozitie corectata de mari vase
+? Q20.5   Transpozitia la stanga   [titlu: Comunicatia atrioventriculara discordanta]  <Discordant atrioventricular connection>  ~ 
+? Q55.29  Testicul migrant   [titlu: Alte malformatii congenitale ale testiculelor si scrotului]  <Other congenital malformations of testis and scrotum>  ~ Testicul ectopic
+? Q63.02  Triplarea rinichiului   [titlu: Rinichi triplu]  <>  ~ Atrofie renala
+? Q68.0   Torticolis (muschi sternomastoidian) congenital   [titlu: Deformatii congenitale ale muschiului sternocleidomastoidian]  <Congenital deformity of sternocleidomastoid muscle>  ~ Torticolis congenital
+? Q68.0   Tumora muschi sternomastoidian (congenital)   [titlu: Deformatii congenitale ale muschiului sternocleidomastoidian]  <Congenital deformity of sternocleidomastoid muscle>  ~ 
+? Q87.13  Turner   [titlu: Sindromul Noonan]  <>  ~ Sindrom Turner
+? Q89.33  Transpozitia viscerelor abdominale   [titlu: Situs inversus abdominal]  <>  ~ 
+? Q89.34  Transpozitia viscerelor toracice   [titlu: Situs inversus toracic]  <>  ~ 
+= A09     Tuberculoza  -> Tuberculoza
+= A16.8   Tuberculoza mediastinala  -> Mediastinita tuberculoasa
+= A35     Tetanos  -> Tetanos
+= B35.9   Tinea  -> Dermatofitoza
+= B99     Tumori  -> Tumoare
+= B99     Tumori maligne  -> Cancer
+= D69.1   Trombocitopatia  -> Trombocitopatii
+= F32.9   Tulburare depresiva  -> Depresie
+= F63.8   Tulburare exploziva intermitenta  -> Explozivitate intermitenta
+= G50.0   Tic dureros  -> Tic dureros
+= H93.1   tinnitus  -> Tinitus
+= M77.9   Tendinita  -> Tendinita
+= P08.2   Traumatisme la nastere  -> Traumatism obstetric
+= Q75.04  Turricefalia  -> Oxycefalie
+= Q89.35  Triada Kartagener  -> Sindrom Kartagener
