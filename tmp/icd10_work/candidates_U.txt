@@ -1,0 +1,62 @@
+===== NOU (14)
+K22.1   Ulcerul esofagului  <Ulcer of esophagus>
+K62.6   Ulcerul anusului si rectului  <Ulcer of anus and rectum>
+L50.4   Urticaria provocata de vibratii  <Vibratory urticaria>
+M95.1   Urechi in "floare de varza"  <Cauliflower ear>
+N13.7   Uropatia asociata cu un reflux vezico-ureteral  <Vesicoureteral-reflux>
+N34     Uretrita si sindromul uretral  <Urethritis and urethral syndrome>
+N48.5   Ulceratia penisului  <Ulcer of penis>
+N76.5   Ulceratie a vaginului  <Ulceration of vagina>
+N76.6   Ulceratie a vulvei  <Ulceration of vulva>
+N81.0   Uretrocel la femeie  <Urethrocele>
+Q17.5   Ureche proeminenta  {Ureche in forma de liliac}  <Prominent ear>
+Q62.52  Ureter triplu
+Q64.74  Uretra ectopica sau orificiu uretral ectopic  <Double urethra>
+Q84.5   Unghii marite sau hipertrofice  {Onychauxis congenitala / Pachionichia}  <Enlarged and hypertrophic nails>
+===== POSIBIL (11)
+K27     Ulcer peptic, localizare nespecificata  <Peptic ulcer, site unspecified> ~ Ulcer gastric
+K28     Ulcer gastro-jejunal  <Gastrojejunal ulcer> ~ Ulcer gastric
+K63.3   Ulcer al intestinului  {Ulcer primar al intestinului subtire}  <Ulcer of intestine> ~ Polip intestinal | Lipom intestinal | Volvulus intestinal
+L50.0   Urticaria alergica  <Allergic urticaria> ~ Urticarie de contact | Urticarie colinergica
+L50.2   Urticaria provocata de frig sau caldura  <Urticaria due to cold and heat> ~ Urticarie colinergica | Urticarie la frig
+L98.4   Ulceratia cronica a pielii, neclasificata altundeva  {Ulcer tropical / Ulceratia pielii}  <Non-pressure chronic ulcer of skin, not elsewhere classified> ~ Ulcerul Buruli
+N13     Uropatia cu reflux si obstructiva  <Obstructive and reflux uropathy> ~ Nefropatia obstructiva
+N34.1   Uretrita nespecifica  <Nonspecific urethritis> ~ Aortita
+Q51.1   Uter dublu cu cervix si vagin duble  <Doubling of uterus with doubling of cervix and vagina> ~ Uter didelf
+Q62.32  Ureterocel ortotopic  <Cecoureterocele> ~ Ureterocel
+Q64.73  Uretra dubla  {Meat urinar dublu}  <Congenital urethrorectal fistula> ~ Duplicatie ureterala
+===== EXISTA (14)
+H16.0   Ulcer cornean = Ulcer cornean [exact]
+K25     Ulcer gastric = Ulcer gastric [exact]
+K26     Ulcer duodenal = Ulcer duodenal [exact]
+L50     Urticaria = Urticarie [exact]
+L50.1   Urticaria idiopatica = Urticarie [terminatii]
+L50.5   Urticaria colinergica = Urticarie colinergica [terminatii]
+L50.6   Urticaria de contact = Urticarie de contact [terminatii]
+L56.3   Urticaria solara = Urticarie solara [terminatii]
+L60.0   Unghia incarnata = Onicocriptoza [terminatii]
+L89     Ulceratia de decubitus = Escara [terminatii]
+Q51.3   Uter bicorn = Uter bicorn [exact]
+Q51.4   Uter unicorn = Uter unicorn [exact]
+Q62.31  Ureterocel ectopic = Ureterocel [exact]
+Q62.51  Ureter dublu = Duplicatie ureterala [exact]
+===== ELIMINAT (19)
+C18.3   Unghiul hepatic al colonului [subzona de organ (D5)]
+C18.5   Unghiul splenic al colonului [subzona de organ (D5)]
+C30.1   Urechea medie [subzona de organ (D5)]
+C67.7   Uraca [subzona de organ (D5)]
+C68.0   Uretra [subzona de organ (D5)]
+D14.0   Urechea medie, fosele nazale si sinusul fetei [subzona de organ (D5)]
+D26.9   Uter, nespecificat [subzona de organ (D5)]
+D30.2   Ureter [subzona de organ (D5)]
+D30.4   Uretra [subzona de organ (D5)]
+D39.0   Uter [subzona de organ (D5)]
+D41.2   Ureter [subzona de organ (D5)]
+D41.3   Uretra [subzona de organ (D5)]
+D76     Unele boli ale tesutului limforeticular si ale sistemului reticulo-histocitar [rezidual]
+L50.9   Urticaria, nespecificata [dublura categoriei parinte (nespecificat)]
+N13.9   Uropatia cu reflux si obstructiva, nespecificata [dublura categoriei parinte (nespecificat)]
+N37.0   Uretrita in boli clasificate altundeva [asterisc (in alte boli)]
+N77     Ulceratia si inflamatia vulvo-vaginale in boli clasificate altundeva [asterisc (in alte boli)]
+N77.0   Ulceratia vulvei in boli infectioase si parazitare clasificate altundeva [asterisc (in alte boli)]
+N77.8   Ulceratia si inflamatia vulvo-vaginala in alte boli clasificate altundeva [asterisc (in alte boli)]

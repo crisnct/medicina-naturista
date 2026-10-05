@@ -1,0 +1,40 @@
+{"latin": "Candida albicans", "reason": "patogen (levura), nu are utilizare medicinala"}
+{"latin": "Candida boidinii", "reason": "levura industriala, fara utilizare medicinala"}
+{"latin": "Malassezia furfur", "reason": "patogen al pielii"}
+{"latin": "Entamoeba histolytica", "reason": "parazit"}
+{"latin": "Giardia duodenalis", "reason": "parazit"}
+{"latin": "Plasmodium falciparum", "reason": "parazit (malarie)"}
+{"latin": "Toxoplasma gondii", "reason": "parazit"}
+{"latin": "Peronospora arborescens", "reason": "patogen al plantelor"}
+{"latin": "Peronospora crustosa", "reason": "patogen al plantelor"}
+{"latin": "Plasmopara mei-foeniculi", "reason": "patogen al plantelor"}
+{"latin": "Albugo candida", "reason": "patogen al plantelor"}
+{"latin": "Puccinia angelicae", "reason": "patogen al plantelor (rugina)"}
+{"latin": "Puccinia apii", "reason": "patogen al plantelor (rugina)"}
+{"latin": "Puccinia carissae", "reason": "patogen al plantelor (rugina)"}
+{"latin": "Puccinia graminis", "reason": "patogen al plantelor (rugina)"}
+{"latin": "Puccinia malvacearum", "reason": "patogen al plantelor (rugina)"}
+{"latin": "Puccinia nitida", "reason": "patogen al plantelor (rugina)"}
+{"latin": "Fusarium graminearum", "reason": "patogen al plantelor"}
+{"latin": "Fusarium roseum", "reason": "patogen al plantelor"}
+{"latin": "Erysiphe heraclei", "reason": "patogen al plantelor (fainare)"}
+{"latin": "Cercospora apii", "reason": "patogen al plantelor"}
+{"latin": "Colletotrichum fuscum", "reason": "patogen al plantelor"}
+{"latin": "Septoria digitalis", "reason": "patogen al plantelor"}
+{"latin": "Septoria saponariae", "reason": "patogen al plantelor"}
+{"latin": "Ramularia digitalis", "reason": "patogen al plantelor"}
+{"latin": "Ramularia coriandri", "reason": "patogen al plantelor"}
+{"latin": "Asteromella saponariae", "reason": "patogen al plantelor"}
+{"latin": "Sclerotinia sclerotiorum", "reason": "patogen al plantelor"}
+{"latin": "Podosphaera pannosa", "reason": "patogen al plantelor (fainare)"}
+{"latin": "Trichophyton mentagrophytes", "reason": "patogen al pielii (dermatofit)"}
+{"latin": "Trichoderma vinosum", "reason": "ciuperca de sol, fara utilizare medicinala"}
+{"latin": "Acer campestre", "reason": "doar descriere botanica in Flora medicinala, fara utilizare"}
+{"latin": "Chamaerops humilis", "reason": "palmier ornamental, pomenit doar ca tip de gradina"}
+{"latin": "Phoenix canariensis", "reason": "palmier ornamental, pomenit doar ca tip de gradina"}
+{"latin": "Trachycarpus fortunei", "reason": "palmier ornamental, pomenit doar ca tip de gradina"}
+{"latin": "Salvia nemorosa", "reason": "utilizare rituala, nu medicinala"}
+{"latin": "Ambrosia artemisiifolia", "reason": "pomenita doar ca alergen"}
+{"latin": "Apera spica-venti", "reason": "identificare nesigura (probabil) a unei plante ritualice"}
+{"latin": "Salvia ekimiana", "reason": "fals pozitiv: 'Salvia elimina excesul...'"}
+{"latin": "Clematis brasiliana", "reason": "fals pozitiv: 'Clematis integri' rezolvat gresit"}

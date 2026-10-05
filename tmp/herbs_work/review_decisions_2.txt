@@ -1,0 +1,280 @@
+Crataegus pentagyna|Paducel|S
+Crocus sativus|Sofran|C
+Croton lechleri|Sangele dragonului|M
+Cruciata laevipes|Sanziene-galbene de padure|S
+Cucumis melo|Pepene galben|C
+Cucumis sativus|Castravete|C
+Cucurbita maxima|Dovleac turcesc|C
+Cucurbita pepo|Dovleac|C
+Cuminum cyminum|Chimion|M
+Curcuma longa|Turmeric|M
+Curcuma xanthorrhiza|Curcuma javaneza|M
+Curcuma zanthorrhiza|Curcuma javaneza|M
+Cuscuta epilinum|Torel de in|I
+Cuscuta europaea|Torel|S
+Cyamopsis tetragonoloba|Guar|M
+Cydonia oblonga|Gutui|C
+Cymbopogon citratus|Iarba de lamaie|M
+Cynanchum acutum|Curpen cainesc|S
+Cynara cardunculus|Cardon|C
+Cynara scolymus|Anghinare|C
+Cynoglossum officinale|Limba-cainelui|S
+Cypripedium calceolus|Papucul-doamnei|S
+Cytisus scoparius|Drob|S
+Dactylorhiza maculata|Sculatoare|S
+Daphne mezereum|Tulichina|S
+Datura stramonium|Ciumafaie|I
+Daucus carota|Morcov|S
+Delphinium consolida|Nemtisor de camp|S
+Dianthus armeria|Garofita de camp|S
+Dianthus carthusianorum|Garofita|S
+Dianthus caryophyllus|Garoafa|C
+Dianthus chinensis|Garofita chinezeasca|C
+Dianthus superbus|Garofita de munte|S
+Dicentra canadensis||M
+Dicentra formosa||M
+Dictamnus albus|Frasinel|S
+Digitalis grandiflora|Degetel galben|S
+Digitalis lanata|Degetel lanos|S
+Digitalis purpurea|Degetel rosu|C
+Dioscorea communis|Untul-pamantului|S
+Dioscorea villosa|Igname salbatic|M
+Diospyros virginiana|Curmal american|M
+Dipsacus fullonum|Varga-ciobanului|S
+Doronicum austriacum|Iarba-ciutei|S
+Dracocephalum moldavica|Matacina|C
+Drimia maritima|Ceapa-de-mare|M
+Drosera intermedia|Roua-cerului|S
+Drosera latifolia|Roua-cerului|M
+Drosera rotundifolia|Roua-cerului|S
+Dryopteris carthusiana|Feriga|S
+Dryopteris filix-mas|Feriga|S
+Dysphania ambrosioides|Tamaita|I
+Ecballium elaterium|Plesnitoare|I
+Echinacea angustifolia|Echinacea|C
+Echinacea pallida|Echinacea|C
+Echinacea purpurea|Echinacea|C
+Echinops ritro|Rostogol albastru|S
+Echinops sphaerocephalus|Rostogol|S
+Echium vulgare|Iarba-sarpelui|S
+Elettaria cardamomum|Cardamom|M
+Eleutherococcus senticosus|Ginseng siberian|M
+Elymus repens|Pir|S
+Endodeca serpentaria||M
+Ephedra distachya|Carcel|S
+Ephedra nevadensis||M
+Ephedra viridis||M
+Epilobium anagallidifolium|Pufulita alpina|S
+Epilobium collinum|Pufulita de colina|S
+Epilobium hirsutum|Pufulita|S
+Epilobium lanceolatum|Pufulita lanceolata|S
+Epilobium montanum|Pufulita de munte|S
+Epilobium obscurum|Pufulita verde-inchis|S
+Epilobium palustre|Pufulita de mlastina|S
+Epilobium parviflorum|Pufulita cu flori mici|S
+Epilobium roseum|Racitoaica|S
+Equisetum arvense|Coada-calului|S
+Equisetum hyemale|Coada-calului de iarna|S
+Equisetum palustre|Barba-ursului|S
+Equisetum sylvaticum|Coada-calului de padure|S
+Equisetum telmateia|Coada-calului mare|S
+Erica cinerea|Erica|M
+Erigeron canadensis|Bunghisor|I
+Erodium cicutarium|Ciocul-berzei|S
+Eruca sativa|Rucola|C
+Eruca vesicaria|Rucola|C
+Eryngium campestre|Scaiul-dracului|S
+Eryngium maritimum|Scai de mare|S
+Eryngium planum|Scai vanat|S
+Erysimum cheiranthoides|Micsandre salbatice|S
+Erysimum diffusum|Micsandre salbatice|S
+Erythroxylum coca|Coca|M
+Eschscholzia californica|Mac californian|C
+Eucalyptus amygdalina|Eucalipt|M
+Eucalyptus globulus|Eucalipt|M
+Eucalyptus polybractea|Eucalipt|M
+Eucalyptus smithii|Eucalipt|M
+Eugenia aromatica|Cuisoare|M
+Euonymus atropurpureus||M
+Euonymus europaeus|Salba moale|S
+Euonymus latifolius|Salba rau-mirositoare|S
+Eupatorium cannabinum|Cancioc|S
+Eupatorium perfoliatum||M
+Eupatorium purpureum||M
+Euphorbia amygdaloides|Laptele-cucului de padure|S
+Euphorbia cyparissias|Laptele-cainelui|S
+Euphorbia esula|Alior|S
+Euphorbia helioscopia|Laptele-cucului|S
+Euphorbia hypericifolia||M
+Euphorbia lathyris|Buruiana de venin|C
+Euphorbia pilulifera||M
+Euphorbia seguieriana|Laptele-cainelui|S
+Euphorbia stepposa|Laptele-cainelui|S
+Euphrasia officinalis|Silur|S
+Euphrasia stricta|Silur|S
+Evernia prunastri|Lichen de stejar|S
+Fagopyrum esculentum|Hrisca|C
+Fagus sylvatica|Fag|S
+Ferula moschata|Sumbul|M
+Ficus carica|Smochin|C
+Filipendula ulmaria|Cretusca|S
+Filipendula vulgaris|Aglica|S
+Foeniculum vulgare|Fenicul|C
+Fomes fomentarius|Iasca|S
+Fomitopsis betulina|Iasca mesteacanului|S
+Fragaria ananassa|Capsun|C
+Fragaria moschata|Frag de gradina|S
+Fragaria vesca|Frag|S
+Fragaria viridis|Capsun de camp|S
+Frangula alnus|Crusin|S
+Frangula californica||M
+Frangula purshiana|Cascara|M
+Frasera caroliniensis||M
+Fraxinus angustifolia|Frasin de lunca|S
+Fraxinus excelsior|Frasin|S
+Fraxinus ornus|Mojdrean|S
+Fucus vesiculosus|Fucus|M
+Fumaria officinalis|Fumarita|S
+Fumaria schleicheri|Fumarita|S
+Galanthus nivalis|Ghiocel|S
+Galega officinalis|Ciumarea|S
+Galeopsis segetum|Lungurica|I
+Galeopsis tetrahit|Lingurica|S
+Galium album|Sanziene albe|S
+Galium aparine|Lipicioasa|S
+Galium mollugo|Sanziene albe|S
+Galium odoratum|Vinarita|S
+Galium verum|Sanziene|S
+Ganoderma lucidum|Reishi|S
+Gaultheria procumbens|Gaulteria|M
+Gaylussacia brachycera||M
+Gelidium amansii|Agar|M
+Genista sagittalis|Grozama|S
+Genista tinctoria|Drobita|S
+Gentiana acaulis|Ghintura fara tulpina|S
+Gentiana asclepiadea|Ghintura albastra|S
+Gentiana cruciata|Tintaura mare|S
+Gentiana lutea|Ghintura galbena|S
+Gentiana punctata|Ghintura punctata|S
+Gentiana purpurea|Ghintura purpurie|M
+Gentianella amarella|Ghintura amara|S
+Geranium columbinum|Ciocul-cocorului|S
+Geranium divaricatum|Ciocul-cocorului|S
+Geranium macrorrhizum|Pribolnic|S
+Geranium maculatum||M
+Geranium palustre|Frigari|S
+Geranium phaeum|Palaria-cucului|S
+Geranium pratense|Pastita de livada|S
+Geranium pusillum|Ciocul-cocorului mic|S
+Geranium robertianum|Napraznic|S
+Geranium sanguineum|Ciocul-cocorului rosu|S
+Geum rivale|Caltunul-doamnei|S
+Geum urbanum|Cerentel|S
+Ginkgo biloba|Ginkgo|C
+Glaucium corniculatum|Mac cornut|S
+Glaucium flavum|Mac galben de mare|S
+Glechoma hederacea|Silnic|S
+Glycine max|Soia|C
+Glycyrrhiza echinata|Lemn-dulce salbatic|S
+Glycyrrhiza glabra|Lemn-dulce|S
+Glycyrrhiza inflata|Lemn-dulce|M
+Glycyrrhiza uralensis|Lemn-dulce chinezesc|M
+Gnaphalium uliginosum|Siminoc de balta|S
+Gomphocarpus fruticosus||M
+Gongolaria barbata|Cystoseira|S
+Gossypium herbaceum|Bumbac|C
+Gratiola officinalis|Veninarita|S
+Griffonia simplicifolia|Griffonia|M
+Grifola frondosa|Maitake|S
+Grindelia hirsutula||M
+Grindelia squarrosa|Grindelia|I
+Guaiacum officinale|Lemn sfant|M
+Gymnema sylvestre|Gymnema|M
+Gypsophila paniculata|Ipcarige|S
+Hagenia abyssinica|Kousso|M
+Hamamelis virginiana|Hamamelis|C
+Handroanthus impetiginosum|Pau d'arco|M
+Harpagophytum procumbens|Gheara diavolului|M
+Harpagophytum zeyheri|Gheara diavolului|M
+Hedera helix|Iedera|S
+Helianthus annuus|Floarea-soarelui|C
+Helianthus tuberosus|Topinambur|I
+Helichrysum arenarium|Siminoc|S
+Helleborus odorus|Spanz|S
+Helleborus purpurascens|Spanz|S
+Hepatica nobilis|Popilnic|S
+Heracleum sphondylium|Branca-ursului|S
+Hericium erinaceus|Coama-leului|S
+Herniaria glabra|Feciorica|S
+Herniaria hirsuta|Feciorica paroasa|S
+Herniaria incana|Feciorica|S
+Hesperis matronalis|Nopticoasa|S
+Hesperis sylvestris|Nopticoasa|S
+Hibiscus sabdariffa|Hibiscus|M
+Hibiscus trionum|Zamosita|S
+Hieracium transylvanicum|Vulturica|S
+Hieracium umbellatum|Vulturica|S
+Hippophae rhamnoides|Catina-alba|S
+Holacantha emoryi||M
+Hordeum vulgare|Orz|C
+Humulus lupulus|Hamei|S
+Huperzia selago|Bradisor|S
+Huperzia serrata||M
+Hydrastis canadensis|Hydrastis|M
+Hydrocharis morsus|Iarba-broastelor|S
+Hydrocotyle asiatica|Gotu kola|M
+Hylotelephium maximum|Iarba-grasa|S
+Hylotelephium telephium|Iarba-grasa|S
+Hyoscyamus niger|Maselarita|S
+Hypericum elegans|Sunatoare|S
+Hypericum hirsutum|Sunatoare paroasa|S
+Hypericum maculatum|Sunatoare|S
+Hypericum perforatum|Sunatoare|S
+Hypericum tetrapterum|Sunatoare|S
+Hypoxis hemerocallidea||M
+Hyssopus officinalis|Isop|C
+Ilex aquifolium|Laur-de-padure|S
+Ilex paraguariensis|Mate|M
+Ilex verticillata||M
+Illicium verum|Anason stelat|M
+Impatiens noli-tangere|Slabanog|S
+Imperatoria ostruthium|Iarba-dracului|S
+Inonotus obliquus|Chaga|S
+Inula britannica|Iarba-mare mica|S
+Inula helenium|Iarba-mare|S
+Inula salicina|Cioroi|S
+Ipomoea batatas|Cartof dulce|C
+Ipomoea jalapa|Jalapa|M
+Ipomoea purga|Jalapa|M
+Ipomoea purpurea|Zorele|C
+Iris germanica|Stanjenel|C
+Iris pseudacorus|Stanjenel de balta|S
+Iris versicolor||M
+Isatis tinctoria|Drobusor|S
+Isotrema californicum||M
+Jacobaea maritima|Cinerarie|C
+Jasminum grandiflorum|Iasomie|M
+Jateorhiza palmata|Calumba|M
+Jatropha cinerea||M
+Juglans cinerea|Nuc cenusiu|C
+Juglans major||M
+Juglans nigra|Nuc negru|C
+Juglans regia|Nuc|C
+Juniperus communis|Ienupar|S
+Juniperus sabina|Cetina-de-negi|S
+Justicia adhatoda|Vasaka|M
+Knautia arvensis|Muscata-dracului|S
+Koelreuteria paniculata|Otetar galben|C
+Laburnum anagyroides|Salcam galben|C
+Lactuca sativa|Salata|C
+Lactuca virosa|Salata salbatica|S
+Lagenaria siceraria|Tidva|C
+Laminaria digitata|Laminaria|M
+Lamium album|Urzica-moarta|S
+Lamium galeobdolon|Urzica-moarta galbena|S
+Lapsana communis|Zgrabunta|S
+Larix decidua|Larice|S
+Laserpitium latifolium|Zmeoaica|S
+Lathyrus hirsutus|Sangele-voinicului|S
+Lathyrus latifolius|Lintea-pratului|S
+Lathyrus niger|Linte neagra|S

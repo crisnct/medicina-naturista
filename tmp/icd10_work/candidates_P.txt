@@ -1,0 +1,538 @@
+===== NOU (173)
+A01.1   Paratifosul A  <Paratyphoid fever A>
+A01.2   Paratifosul B  <Paratyphoid fever B>
+A01.3   Paratifosul C  <Paratyphoid fever C>
+A15.7   Primo-infectia tuberculoasa a cailor respiratorii, cu confirmare bacteriologica si histologica  <Primary respiratory tuberculosis>
+A16.7   Primo-infectia tuberculoasa a cailor respiratorii, fara mentiunea de confirmare bacteriologica sau histologica
+A20     Pesta  <Plague>
+A20.3   Pesta meningeala  <Plague meningitis>
+A66.8   Pianul latent  {Pianul fara semne clinice, cu serologie pozitiva}  <Latent yaws>
+B01.2   Pneumonia variceloasa  <Varicella pneumonia>
+B36.2   Piedra alba  {Tinea alba}  <White piedra>
+B50.0   Paludismul cu Plasmodium falciparum cu complicatii cerebrale  {Paludismul cerebral}  <Plasmodium falciparum malaria with cerebral complications>
+B51.8   Paludismul cu Plasmodium vivax, cu alte complicatii  <Plasmodium vivax malaria with other complications>
+B52.0   Paludismul cu Plasmodium malariae, cu nefropatie  <Plasmodium malariae malaria with nephropathy>
+B52.8   Paludismul cu Plasmodium malariae, cu alte complicatii  <Plasmodium malariae malaria with other complications>
+B53.1   Paludismul cu plasmodii simiene  <Malaria due to simian plasmodia>
+B85     Pediculoza si ftiriaza  <Pediculosis and phthiriasis>
+B85.1   Pediculoza cu Pediculus humanus corporis  {Infestatia corpului cu paduchi}  <Pediculosis due to Pediculus humanus corporis>
+B85.4   Pediculoza si ftiriaza combinate  <Mixed pediculosis and phthiriasis>
+B96.4   Proteus (mirabilis) (morganii), cauza unor boli clasate la alte capitole  {mirabilis / morganii}  <Proteus (mirabilis) (morganii) as the cause of diseases classified elsewhere>
+B96.5   Pseudomonas, (aeruginosa) (Burkholderia pseudommallei) (mallei) cauza unor boli clasate la alte capitole  {aeruginosa / Burkholderia pseudommallei / mallei}  <Pseudomonas (aeruginosa) (mallei) (pseudomallei) as the cause of diseases classified elsewhere>
+D45     Policitemia esentiala  {Eritremia cronica au de asemenea un cod morfologic}  <Polycythemia vera>
+F63.0   Patologia jocurilor de noroc  {Jucarea compulsiva de jocuri de noroc}  <Pathological gambling>
+F65.4   Pedofilie  <Pedophilia>
+F90.0   Perturbare a activitatii si atentiei  <Attention-deficit hyperactivity disorder, predominantly inattentive type>
+F98.3   Pica sugarului si a copilului  <Pica of infancy and childhood>
+G21.2   Parkinsonism secundar datorita altor agenti externi  <Secondary parkinsonism due to other external agents>
+G21.3   Parkinsonism postencefalitic  <Postencephalitic parkinsonism>
+G53.2   Paralizia mai multor nervi cranieni in sarcoidoza (D86.8†)
+G53.3   Paralizia mai multor nervi cranieni in bolile neoplazice (C00-D48†)
+G62.0   Polineurita provocata medicamentos  <Drug-induced polyneuropathy>
+G63.1   Polineuropatia in bolile neoplazice (C00-D48†)
+G63.3   Polineuropatia in bolile endrocrine si metabolice (E00-E07†; E15-E16†;
+G63.4   Polineuropatia in carenta nutritionala (E40-E64†)
+G63.5   Polineuropatia in afectiunile sistemice ale tesutului conjuctiv (M30-M35†)
+G63.6   Polinevrita in alte afectiuni osteo-articulare si ale muschilor (M00-M25†;
+G80     Paralizia cerebrala  <Cerebral palsy>
+G80.0   Paralizia cerebrala spastica  <Spastic quadriplegic cerebral palsy>
+G80.00  Paralizia cerebrala spastica, nespecificata
+G80.01  Paralizia cerebrala spastica diplegica
+G80.02  Paralizia cerebrala spastica hemiplegica
+G80.03  Paralizia cerebrala spastica cvadriplegica  {Paralizia cerebrala spastica tetraplegica}
+G80.3   Paralizia cerebrala dischinetica  {Paralizia cerebrala atetozica / Paralizia cerebrala distonica}  <Athetoid cerebral palsy>
+G80.4   Paralizia cerebrala ataxica  <Ataxic cerebral palsy>
+G82     Paraplegia si tetraplegia  {Paraplegia acuta, nontraumatica, cronica / Cvadriplegia acuta, nontraumatica, cronica / Tetraplegia acuta, nontraumatica, cronica / Urmatoarele subdiviziuni cu cinci}  <Paraplegia (paraparesis) and quadriplegia (quadriparesis)>
+G82.0   Paraplegia flasca
+G82.2   Paraplegia, nespecificata  {Paralizia ambelor membre inferioare / Paraplegia (inferioara)}  <Paraplegia>
+G97.0   Pierdere de lichid cefalorahidian dupa punctia spinala  <Cerebrospinal fluid leak from spinal puncture>
+H13.0   Parazitoze filariene ale conjuctivei (B74.- †)
+H13.3   Pemphigoid ocular (L12.- †)
+H18.0   Pigmentatia si depunerea corneeana  {Hematocorneea / Inelul Kayser-Fleischer / Fascicolul Krukenberg / Linia Staehli}  <Corneal pigmentations and deposits>
+H43.0   Prolaps al corpului vitros  <Vitreous prolapse>
+H49.0   Paralizia celui de-al treilea nerv [oculomotor]  {oculomotor}  <Third [oculomotor] nerve palsy>
+H49.1   Paralizia celui de-al patrulea nerv [patetic]  {patetic}  <Fourth [trochlear] nerve palsy>
+H49.2   Paralizia celui de-al saselea nerv [abductor]  {abductor}  <Sixth [abducent] nerve palsy>
+H54.3   Pierderea vederii necalificata a ambilor ochi  <Unqualified visual loss, both eyes>
+H54.6   Pierderea vederii necalificata a unui ochi  <Unqualified visual loss, one eye>
+H54.7   Pierdere de vedere, nespecificata  {Alte afectiuni ale ochiului si anexelor sale}  <Unspecified visual loss>
+H74.4   Polip al urechii medii  <Polyp of middle ear>
+H91.0   Pierderea auzului prin ototoxicitate  <Ototoxic hearing loss>
+I32.0   Pericardita in boli bacteriene clasificata altundeva
+I32.1   Pericardita in alte boli infectioase si parazitare clasificata altundeva
+I32.8   Pericardita in alte boli clasificata altundeva
+J12.2   Pneumonia datorita virusului parainfluenzae  <Parainfluenza virus pneumonia>
+J15.2   Pneumonia datorira stafilococilor  <Pneumonia due to staphylococcus>
+J16     Pneumonia datorita altor microorganisme infectioase, neclasificate altundeva  <Pneumonia due to other infectious organisms, not elsewhere classified>
+J16.8   Pneumonia datorita altor microorganisme infectioase specificate  <Pneumonia due to other specified infectious organisms>
+J17.0   Pneumonia in boli bacteriene clasificate altundeva
+J17.2   Pneumonia in micoze
+J17.3   Pneumonii in boli parazitare
+J18     Pneumonia cu microorganism nespecificat  <Pneumonia, unspecified organism>
+J38.0   Paralizia corzilor vocale si a laringelui  {Laringoplegia / Paralizia glotei}  <Paralysis of vocal cords and larynx>
+J38.00  Paralizia corzilor vocale si a laringelui, nespecificata  <Paralysis of vocal cords and larynx, unspecified>
+J38.01  Paralizia corzilor vocale si a laringelui, unilaterala, partiala  <Paralysis of vocal cords and larynx, unilateral>
+J38.02  Paralizia corzilor vocale si a laringelui, unilaterala, complexa  <Paralysis of vocal cords and larynx, bilateral>
+J38.03  Paralizia corzilor vocale si a laringelui, bilaterala, partiala
+J63     Pneumoconioza datorita altor pulberi neorganice  <Pneumoconiosis due to other inorganic dusts>
+J63.8   Pneumoconioza datorita altor pulberi neorganice specificate
+J65     Pneumoconioza asociata cu tuberculoza  <Pneumoconiosis associated with tuberculosis>
+J67     Pneumopatia prin hipersensibilitate la pulberi organice  <Hypersensitivity pneumonitis due to organic dust>
+J67.0   Pulmonul fermierului  {Pulmonul seceratorilor / Pulmonul cositorilor de fan / Boala mucegaiului de fan}  <Farmer's lung>
+J67.4   Pulmonul lucratorilor cu malt  {Alveolita datorita Aspergillus clavatus}  <Maltworker's lung>
+J67.6   Pulmonul decojitorilor de artar  {Alveolita datorita Cryptostroma corticale / Cryptostromoza}  <Maple-bark-stripper's lung>
+J67.8   Pneumopatii prin hipersensibilitate la alte pulberi organice  {Pulmonul spalatorilor de branza / Pulmonul muncitorilor cu cafea / Pulmonul muncitorilor care prepara alimente pe baza de peste / Pulmonul blanarilor / Boala datorita sequoei}  <Hypersensitivity pneumonitis due to other organic dusts>
+J69     Pneumopatia datorita substantelor solide si lichide  <Pneumonitis due to solids and liquids>
+J69.0   Pneumopatia datorita inhalatiei de alimente si vomismente  <Pneumonitis due to inhalation of food and vomit>
+J69.1   Pneumopatia datorita inhalatiei de uleiuri(grasimi) si esente  {grasimi / Pneumopatia prin uleiuri (grasimi)}  <Pneumonitis due to inhalation of oils and essences>
+J69.8   Pneumopatii datorite inhalatiei altor substante solide si lichide  {Pneumopatia datorita aspiratiei de sange}  <Pneumonitis due to inhalation of other solids and liquids>
+J86.0   Piotorax cu fistula  <Pyothorax with fistula>
+J86.9   Piotorax fara fistula  {Alte afectiuni ale pleurei}  <Pyothorax without fistula>
+K04.4   Periodontita apicala acuta de origine pulpara  {Periodontita apicala acuta}  <Acute apical periodontitis of pulpal origin>
+K08.1   Pierdere de dinti consecutiva accidentelor, extractiei sau afectiunii periodontale locale  <Complete loss of teeth>
+K51.4   Pseudopolipoza colonului  <Inflammatory polyps of colon>
+K51.5   Proctocolita mucoasa  <Left sided colitis>
+K62.7   Proctita datorita iradierii  <Radiation proctitis>
+K63.5   Polip al colonului  <Polyp of colon>
+K63.51  Polip juvenil al colonului
+K86.0   Pancreatita cronica provocata de alcool  <Alcohol-induced chronic pancreatitis>
+K91.4   Proasta functiune a stomelor de colon si enterale
+L10     Pemfigus  <Pemphigus>
+L10.3   Pemfigus brazilian [fogo selvagen]  {fogo selvagen}  <Brazilian pemphigus [fogo selvagem]>
+L10.5   Pemfigus provocat medicamentos  <Drug-induced pemphigus>
+L20.0   Prurigo Besnier  <Besnier's prurigo>
+L29     Prurit  <Pruritus>
+L29.1   Prurit scrotal  <Pruritus scroti>
+L29.2   Prurit vulvar  <Pruritus vulvae>
+L29.3   Prurit ano-genital, nespecificat  <Anogenital pruritus, unspecified>
+L30.5   Pityriasis alba  <Pityriasis alba>
+L40.3   Pustuloza palmara si plantara  <Pustulosis palmaris et plantaris>
+L41.5   Parapsoriazis retiform  <Retiform parapsoriasis>
+L44.0   Pitiriasis rubra pilar  <Pityriasis rubra pilaris>
+L57.2   Piele romboidala (ceafa romboidala)  {ceafa romboidala}  <Cutis rhomboidalis nuchae>
+L57.3   Poikilodermia Civatte  <Poikiloderma of Civatte>
+L62.0   Pahidermoperiostoza cu unghie sub forma de maciuca (M89.4-†)
+L66.3   Perifoliculita capului abscedens  <Perifolliculitis capitis abscedens>
+L68.3   Politrichia  <Polytrichia>
+L73.1   Pseudo-foliculita barbii  <Pseudofolliculitis barbae>
+L81.3   Pete "cafea cu lapte"  <Cafe au lait spots>
+L94.4   Papulele Gottron  <Gottron's papules>
+M21.3   Pumn si picior "atarnat" (dobandit)  {dobandit}  <Wrist or foot drop (acquired)>
+M24.7   Protruzia acetabulara  <Protrusio acetabuli>
+M48.5   Prabusire vertebrala, neclasificata altundeva  {Colapsul vertebrelor / Tasare a vertebrelor}  <Collapsed vertebra, not elsewhere classified>
+M54.0   Paniculita afectand gatul si spatele  <Panniculitis affecting regions of neck and back>
+M72.1   Pernita falangelor  <Knuckle pads>
+M91.3   Pseudocoxalgia  <Pseudocoxalgia>
+M96.0   Pseudartroza dupa fuziune sau artrodeza  <Pseudarthrosis after fusion or arthrodesis>
+N06     Proteinurie izolata cu leziune morfologica specificata  <Isolated proteinuria with specified morphological lesion>
+N39.2   Proteinuria ortostatica, nespecificata
+N41.3   Prostato-cistita  <Prostatocystitis>
+N73.0   Parametrita si celulita pelviana acuta  <Acute parametritis and pelvic cellulitis>
+N73.1   Parametrita si celulita pelviana cronica  <Chronic parametritis and pelvic cellulitis>
+N73.2   Parametrita si celulita pelviana, nespecificata  <Unspecified parametritis and pelvic cellulitis>
+N73.3   Pelvi-peritonita acuta la femeie  <Female acute pelvic peritonitis>
+N73.4   Pelvi-peritonita cronica la femeie  <Female chronic pelvic peritonitis>
+N73.5   Pelvi-peritonita la femeie, nespecificata  <Female pelvic peritonitis, unspecified>
+N81     Prolaps genital feminin  <Female genital prolapse>
+N83.4   Prolaps si hernie a ovarului si trompei  {Fallope}  <Prolapse and hernia of ovary and fallopian tube>
+N84     Polip al tractului genital feminin  <Polyp of female genital tract>
+N84.3   Polip al vulvei  {Polip al labiilor}  <Polyp of vulva>
+N84.8   Polip al altor parti ale tractului genital feminin  <Polyp of other parts of female genital tract>
+O02.9   Produs anormal de conceptie, nespecificat  <Abnormal product of conception, unspecified>
+O14.0   Pre-eclampsia moderata  <Mild to moderate pre-eclampsia>
+O63.0   Prelungirea primei perioade [dilatatia]  {dilatatia}  <Prolonged first stage (of labor)>
+O63.1   Prelungirea perioadei a doua [expulzia]  {expulzia}  <Prolonged second stage (of labor)>
+O74.0   Pneumopatia prin aspiratie datorita unei anestezii in timpul travaliului si nasterii  <Aspiration pneumonitis due to anesthesia during labor and delivery>
+O75.2   Pirexia in timpul travaliului, neclasificata altundeva  <Pyrexia during labor, not elsewhere classified>
+O86.4   Pirexia de origine necunoscuta survenind dupa nastere  <Pyrexia of unknown origin following delivery>
+P25.1   Pneumothorax survenind in perioada perinatala  <Pneumothorax originating in the perinatal period>
+P25.2   Pneumo-mediastin survenind in perioada perinatala  <Pneumomediastinum originating in the perinatal period>
+P25.3   Pneumo-pericard survenind in perioada perinatala  <Pneumopericardium originating in the perinatal period>
+P37.3   Paludism congenital cu Plasmodium falciparum  <Congenital falciparum malaria>
+P50.1   Pierderea de sange fetal prin ruptura cordonului ombilical  <Newborn affected by intrauterine (fetal) blood loss from ruptured cord>
+P50.2   Pierderea de sange fetal de origine placentara  <Newborn affected by intrauterine (fetal) blood loss from placenta>
+P50.5   Pierderea de sange fetal la capatul taiat al cordonului fatului geaman  <Newborn affected by intrauterine (fetal) blood loss from cut end of co-twin's cord>
+P74.2   Pertubarea echilibrului sodiului la nou-nascut  <Disturbances of sodium balance of newborn>
+P74.20  Pertubarea echilibrului sodiului la nou-nascut, nespecificata
+P74.3   Pertubarea echilibrului potasiului la nou-nascut  <Disturbances of potassium balance of newborn>
+P74.30  Pertubarea echilibrului potasiului la nou-nascut, nespecificata  {Unele afectiuni ale caror origine se situeaza in perioada perinatala / Tabelară a Bolilor RoDRG}
+P74.9   Perturbari metabolice tranzitorii ale nou-nascutului, nespecificate  {Tulburari ale sistemului digestiv al fatului si nou-nascutului}  <Transitory metabolic disturbance of newborn, unspecified>
+P83.6   Polip ombilical al nou-nascutului  <Umbilical polyp of newborn>
+Q17.0   Pavilion supranumerar  {Tragus accesoriu / Poliotia / Accesoriu sau capat preauricular}  <Accessory auricle>
+Q26.1   Persistenta venei cave superioare stangi  <Persistent left superior vena cava>
+Q31.0   Pterigionul laringelui  <Web of larynx>
+Q33.0   Pulmon chistic congenital  <Congenital cystic lung>
+Q39.4   Pterigiomul esofagului  <Esophageal web>
+Q64.72  Prolaps congenital al vezicii (mucoasa)  {mucoasa}  <Congenital prolapse of urinary meatus>
+Q66.0   Piciorul stramb equinovarus  <Congenital talipes equinovarus>
+Q66.1   Piciorul stramb calcaneovarus  <Congenital talipes calcaneovarus>
+Q66.4   Picior stramb calcaneovalgus  <Congenital talipes calcaneovalgus>
+Q66.7   Picior boltit  <Congenital pes cavus>
+Q67.6   Piept infundat  {Piept in palnie congenital}  <Pectus excavatum>
+Q69.1   Police supranumerar  <Accessory thumb(s)>
+Q77.1   Pitic tanatoforic  {Asocierea nanism/trigonocefalie tanatoforica / Displazia tanatoforica (cu craniu sub forma de frunza de trifoi )}  <Thanatophoric short stature>
+Q89.45  Pigopagus  {Gemeni cu fesele lipite}
+===== POSIBIL (144)
+A01.4   Paratifos, nespecificat  {Infectie datorita Salmonellei paratyphi}  <Paratyphoid fever, unspecified> ~ Febra paratifoida A | Febra paratifoida B | Febra paratifoida C | Salmoneloza
+A15.6   Pleurezia tuberculoasa, cu confirmare bacteriologica si histologica  {Tuberculoza pleurei confirmata bacteriologic si histologic / Empiemul tuberculos confirmat bacteriologic si histologic}  <Tuberculous pleurisy> ~ Tuberculoza pleurala
+A16.5   Pleurezia tuberculoasa fara mentiunea de confirmare bacteriologica sau histologica ~ Tuberculoza pleurala
+A20.1   Pesta cutanata  <Cellulocutaneous plague> ~ Epiblefaron | Elastoza
+A20.2   Pesta pulmonara  <Pneumonic plague> ~ Stenoza pulmonara | Pneumoconioza de perlit
+A28.0   Pasteurelloza  <Pasteurellosis> ~ Pasteureloza
+A54.2   Pelviperitonita gonococica si alte infectii genito-urinare gonococice  <Gonococcal pelviperitonitis and other gonococcal genitourinary infection> ~ Gonoree | Infectie urinara
+A80.0   Poliomielita paralitica acuta, asociata virusului vaccinal  <Acute paralytic poliomyelitis, vaccine-associated> ~ Poliomielita paralitica
+A80.1   Poliomielita paralitica acuta, cu virus salbatic importat  <Acute paralytic poliomyelitis, wild virus, imported> ~ Poliomielita paralitica
+A80.2   Poliomielita paralitica acuta, cu virus salbatic indigen  <Acute paralytic poliomyelitis, wild virus, indigenous> ~ Poliomielita paralitica
+A80.3   Poliomielita paralitica acuta, alte si nespecificate  <Acute paralytic poliomyelitis, other and unspecified> ~ Poliomielita paralitica | Poliomielita non-paralitica
+A80.4   Poliomielita acuta neparalitica  <Acute nonparalytic poliomyelitis> ~ Poliomielita paralitica | Poliomielita non-paralitica
+B00.0   Pustula variceliforma Kaposi  <Eczema herpeticum> ~ Eczema herpeticum
+B25.0   Pneumopatia cu cytomegalovirus (J17.1*)  <Cytomegaloviral pneumonitis> ~ Pneumonie cu citomegalovirus | Mononucleoza cu citomegalovirus
+B25.2   Pancreatita cu cytomegalovirus  <Cytomegaloviral pancreatitis> ~ Encefalita cu citomegalovirus | Retinita cu citomegalovirus | Mononucleoza cu citomegalovirus
+B26.3   Pancreatita urliana  <Mumps pancreatitis> ~ Oreion | Pancreatita acuta recidivanta | Pancreatita ereditara
+B36.3   Piedra neagra  <Black piedra> ~ Cataracta
+B41     Paracoccidioidomicoza  <Paracoccidioidomycosis> ~ Paracoccidioidomikoza | Coccidioidomikoza
+B41.7   Paracoccidioidomicoza diseminata  {Paracoccidioidomicoza generalizata}  <Disseminated paracoccidioidomycosis> ~ Coccidioidomikoza diseminata | Pneumonie cu Paracoccidioides
+B48.4   Penicilloza  <Penicillosis> ~ Penicilioza
+B50     Paludismul cu Plasmodium falciparum  <Plasmodium falciparum malaria> ~ Malarie cu Plasmodium falciparum
+B51     Paludismul cu Plasmodium vivax  <Plasmodium vivax malaria> ~ Malarie cu Plasmodium vivax
+B51.0   Paludismul cu Plasmodium vivax cu ruptura splinei  <Plasmodium vivax malaria with rupture of spleen> ~ Ruptura de splina
+B51.9   Paludismul cu Plasmodium vivax, fara complicatii  {Paludismul cu Plasmodium vivax}  <Plasmodium vivax malaria without complication> ~ Malarie cu Plasmodium vivax
+B52     Paludismul cu Plasmodium malariae  <Plasmodium malariae malaria> ~ Malarie cu Plasmodium malariae
+B52.9   Paludismul cu Plasmodium malariae, fara complicatii  {Paludismul cu Plasmodium malariae}  <Plasmodium malariae malaria without complication> ~ Malarie cu Plasmodium malariae
+B53.0   Paludismul cu Plasmodium ovale  <Plasmodium ovale malaria> ~ Malarie cu Plasmodium ovale
+B59     Pneumocystoza (J17.3*)  {Pneumonia datorita Pneumocystis carinii}  <Pneumocystosis> ~ Pneumocistoza
+B85.0   Pediculoza cu Pediculus humanus capitis  {Infestatia capului cu paduchi}  <Pediculosis due to Pediculus humanus capitis> ~ Pediculoza
+D69     Purpura si alte afectiuni hemoragice  <Purpura and other hemorrhagic conditions> ~ Purpura trombocitopenica
+D69.0   Purpura alergica  {L ista Tabelară a Bolilor RoDRG}  <Allergic purpura> ~ Purpura trombocitopenica
+E20.1   Pseudohipoparatiroidism  <Pseudohypoparathyroidism> ~ Pseudohypoparatiroidism | Hipoparatiroidism
+E24.4   Pseudo-sindromul Cushing indus de alcool  <Alcohol-induced pseudo-Cushing's syndrome> ~ Sindrom pseudo-Cushing
+E80.1   Porfirie cutanata tardiva  <Porphyria cutanea tarda> ~ Porfirie cutanea tarzie
+G04.1   Paraplegia spastica tropicala  <Tropical spastic paraplegia> ~ Mielopatia asociata HTLV-1 | Paraplegie spastica ereditara
+G40.7   Petit mal, nespecificat, fara atacuri de grand mal ~ Epilepsie absenta
+G61     Polineuropatii inflamatorii  <Inflammatory polyneuropathy> ~ Polineuropatia demielinizanta cronica inflamatorie | Nefrita
+G62.2   Polineuropatia datorita altor agenti toxici  <Polyneuropathy due to other toxic agents> ~ Neuropatie toxica
+G72.3   Paralizii periodice  <Periodic paralysis> ~ Paralizia periodica hiperkaliemica | Paralizia periodica hipokaliemica | Paralizia periodica tiroidiana | Sindrom Andersen-Tawil
+G82.1   Paraplegia spastica ~ Paraplegie spastica ereditara | Paraplegie spastica ereditara tip 1 | Paraplegie spastica ereditara tip 11 | Paraplegie spastica ereditara tip 15 | Paraplegie spastica ereditara tip 17 | Paraplegie spastica ereditara tip 2
+G96.0   Pierdere de lichid cefalorahidian  <Cerebrospinal fluid leak> ~ Rinoree cerebrospinala
+H51.0   Paralizia conjugarii privirii  <Palsy (spasm) of conjugate gaze> ~ Paralizia privirii
+H52.4   Presbitia  <Presbyopia> ~ Presbiopie
+H61.0   Perichondrita urechii externe  {Chondrodermatita nodulara cronica a helixului}  <Chondritis and perichondritis of external ear> ~ Pericondrita auriculara
+H72     Perforatia membranei timpanului  <Perforation of tympanic membrane> ~ Perforatie timpanica
+H72.0   Perforatia centrala a membranei timpanului  <Central perforation of tympanic membrane> ~ Perforatie timpanica
+H72.1   Perforatia attica a membranei timpanului  {Perforatia - pars flaccida}  <Attic perforation of tympanic membrane> ~ Perforatie timpanica
+H91.2   Pierderea idiopatica subita a auzului  {Pierderea subita a auzului}  <Sudden idiopathic hearing loss> ~ Surditate
+H91.9   Pierderea auzului, nespecificata  <Unspecified hearing loss> ~ Surditate | Alopecie | Apetit scazut
+I30.0   Pericardita idiopatica acuta nespecifica  <Acute nonspecific idiopathic pericarditis> ~ Pericardita idiopatica
+I30.1   Pericardita infectioasa  <Infective pericarditis> ~ Endocardita infectioasa | Pericardita chiloasa | Tiroidita
+J12.1   Pneumonia datorita virusului respirator sincitial  <Respiratory syncytial virus pneumonia> ~ Pneumonie cu virus respirator sincitial
+J13     Pneumonia datorita Streptococcus pneumoniae  {Bronhopneumonia datorita Streptococcus pneumoniae}  <Pneumonia due to Streptococcus pneumoniae> ~ Pneumonie pneumococica | Pneumonie streptococica
+J14     Pneumonia datorita Haemophilus influenzae  {Bronhopneumonia datorita Haemophilus influenzae}  <Pneumonia due to Hemophilus influenzae> ~ Pneumonie cu Haemophilus
+J15.0   Pneumonia datorita Klebsiella pneumoniae  <Pneumonia due to Klebsiella pneumoniae> ~ Pneumonie cu Klebsiella
+J15.1   Pneumonia datorita Pseudomonas  <Pneumonia due to Pseudomonas> ~ Pneumonie cu Pseudomonas | Pneumonie cu Burkholderia
+J15.3   Pneumonia datorita streptococilor, grupa B  <Pneumonia due to streptococcus, group B> ~ Pneumonie streptococica
+J15.4   Pneumonia datorita altor streptococi  <Pneumonia due to other streptococci> ~ Pneumonie streptococica
+J15.5   Pneumonia datorita Escherichia coli  <Pneumonia due to Escherichia coli> ~ Pneumonie cu Escherichia coli
+J15.6   Pneumonia datorita altor bacterii aerobe gram-negative  {Pneumonia datorita Serratia marcescens}  <Pneumonia due to other Gram-negative bacteria> ~ Pneumonie cu Serratia
+J15.7   Pneumonia datorita Mycoplasma pneumoniae  <Pneumonia due to Mycoplasma pneumoniae> ~ Infectie cu Mycoplasma pneumoniae
+J15.9   Pneumonia bacteriena, nespecificata  <Unspecified bacterial pneumonia> ~ Pneumonie | Pneumonita de radiatii | Pneumonie cu Bacteroides
+J16.0   Pneumonia datorita Chlamydia  <Chlamydial pneumonia> ~ Pneumonie cu Chlamydia trachomatis | Pneumonie cu Chlamydophila pneumoniae
+J17.1   Pneumonia in boli virale clasificate altundeva ~ Pneumonie
+J33.0   Polipul foselor nazale  <Polyp of nasal cavity> ~ Polipi nazali
+J38.1   Polipul corzilor vocale si al laringelui  <Polyp of vocal cord and larynx> ~ Polip laringian
+J62     Pneumoconioza datorita pulberilor de siliciu  <Pneumoconiosis due to dust containing silica> ~ Silicoza
+J62.0   Pneumoconioza datorita prafului de talc  <Pneumoconiosis due to talc dust> ~ Talkoza
+J67.2   Plamanul crescatorilor de pasari  {Boala pulmonara a crescatorilor de papagali / Boala pulmonara a crescatorilor de porumbei}  <Bird fancier's lung> ~ Plaman de pasari
+J67.5   Pulmonul cultivatorilor de ciuperci  <Mushroom-worker's lung> ~ Plaman de fermier de ciuperci
+J84.0   Pneumopatii alveolare si parietoalveolare  {Proteinoza alveolara / Microlitiaza alveolara a plamanului}  <Alveolar and parieto-alveolar conditions> ~ Alveolita
+J92.0   Placa pleurala cu azbestoza  <Pleural plaque with presence of asbestos> ~ Placa pleurala
+J93.0   Pneumotorax spontan cu presiune pozitiva  <Spontaneous tension pneumothorax> ~ Pneumotorax | Pneumotorax spontan secundar
+K04.0   Pulpita  <Pulpitis> ~ Pulpita dentara
+K04.5   Periodontita apicala cronica  {Granulom apical sau periapical / Periodontita apicala}  <Chronic apical periodontitis> ~ Absces dentar cronic
+K05.3   Periodontita cronica  {Pericoronarita cronica}  <Chronic periodontitis> ~ Proctita | Rinita
+K22.3   Perforatia esofagului  {Ruptura esofagului}  <Perforation of esophagus> ~ Duplicatie esofagiana
+K31.7   Polip al stomacului si duodenului  <Polyp of stomach and duodenum> ~ Polip gastric
+K62.0   Polip anal  <Anal polyp> ~ Polipi nazali
+K62.1   Polip rectal  <Rectal polyp> ~ Prolaps rectal | Polip vezical
+K62.2   Prolaps anal  {Prolaps al canalului anal}  <Anal prolapse> ~ Prolaps hemoroidal | Prolaps vaginal
+K63.1   Perforatia intestinului (nontraumatica)  {nontraumatica}  <Perforation of intestine (nontraumatic)> ~ Neuropatie viscerala intestinala | Miopatie viscerala intestinala | Paralizie intestinala
+K63.50  Polip al colonului, nespecificat  {Polip} ~ Poliomielita
+K67.0   Peritonita cu Chlamydia (A74.8†) ~ Cervicita cu Chlamydia | Uretrita cu Chlamydia | Bronsiolita cu Chlamydia
+K67.1   Peritonita gonococica (A54.8†) ~ Rinita gonococica | Proctita gonococica | Faringita gonococica
+K67.2   Peritonita sifilitica (A52.7†) ~ Sifilis osos | Rinita sifilitica | Sifilis ocular
+K76.4   Pelioza hepatica  {Angiomatoza hepatica}  <Peliosis hepatis> ~ Angiomatoza bacilara | Micoza hepatica | Ciroza hepatica | Necroza hepatica | Adenomatoza hepatica | Fascioloza
+K82.2   Perforatia vezicii biliare  <Perforation of gallbladder> ~ Colecistita | Polip biliar
+K83.2   Perforatia cailor biliare  {Ruptura cailor biliare}  <Perforation of bile duct> ~ Colangita
+K86.3   Pseudochistul pancreasului  <Pseudocyst of pancreas> ~ Chist pancreatic
+L08.0   Piodermita  <Pyoderma> ~ Impetigo | Radiodermita
+L12     Pemfigoid  <Pemphigoid> ~ Pemfigoid bulos
+L28.1   Prurigo nodular Hyde  <Prurigo nodularis> ~ Prurigo nodular
+L40.1   Psoriazis pustular generalizat  {Impetigo herpetiform / Boala von Zumbusch}  <Generalized pustular psoriasis> ~ Sindrom DITRA
+L40.4   Psoriazis in picaturi  <Guttate psoriasis> ~ Psoriazis
+L41.3   Parapsoriazis cu placi mici  <Small plaque parapsoriasis> ~ Parapsoriazis
+L41.4   Parapsoriazis cu placi mari  <Large plaque parapsoriasis> ~ Parapsoriazis
+L42     Pitiriazis rozeu Gilbert  <Pityriasis rosea> ~ Pitiriazis rozat
+L66.0   Pseudo pelada  <Pseudopelade> ~ Pseudopelada
+L94.5   Poikilodermia vasculara atrofica  <Poikiloderma vasculare atrophicans> ~ Poikilodermie vasculara atrofianta | Poikiloderma
+M06.4   Poliatropatia inflamatorie  <Inflammatory polyarthropathy> ~ Colita
+M13.0   Poliartrita, nespecificata  <Polyarthritis, unspecified> ~ Periartrita
+M15     Poliartroza  <Polyosteoarthritis> ~ Artroza generalizata
+M30     Poliarterita nodoasa si afectiuni inrudite  <Polyarteritis nodosa and related conditions> ~ Poliarterita nodoza
+M30.1   Poliarterita cu atingere pulmonara [Churg-Strauss]  {Churg-Strauss / Angeita granulomatoasa alergica}  <Polyarteritis with lung involvement [Churg-Strauss]> ~ Granulomatoza eozinofilica cu poliangeita
+M30.2   Poliarterita juvenila  <Juvenile polyarteritis> ~ Artrita idiopatica juvenila
+M35.3   Polimialgia reumatismala  <Polymyalgia rheumatica> ~ Polimialgia reumatica
+M35.6   Paniculita recidivanta [Weber-Christian]  {Weber-Christian}  <Relapsing panniculitis [Weber-Christian]> ~ Ascita refractara | Pancreatita acuta recidivanta | Diverticulita | Boala Weber-Christian
+M77.2   Periartrita pumnului  <Periarthritis of wrist> ~ Artrita pumnului | Artroza pumnului
+M79.3   Paniculita, nespecificata  <Panniculitis, unspecified> ~ Canaliculita | Radiculita
+M90.1   Periostita in alte boli infectioase clasificate altundeva  {Periostita sifilitica secundara} ~ Sifilis osos | Rinita luetica
+N11.0   Pielonefrita neobstructiva cronica asociata cu un reflux  <Nonobstructive reflux-associated chronic pyelonephritis> ~ Nefropatia de reflux
+N11.1   Pielonefrita obstructiva cronica  <Chronic obstructive pyelonephritis> ~ Bronsita cronica obstructiva
+N39.1   Proteinuria persistenta, nespecificata ~ Pleurita
+N81.2   Prolaps utero-vaginal incomplet  {Prolaps al colului}  <Incomplete uterovaginal prolapse> ~ Prolaps vaginal
+N81.3   Prolaps utero-vaginal complet  {Procidenta (uterului)}  <Complete uterovaginal prolapse> ~ Prolaps vaginal
+N81.4   Prolaps utero-vaginal, nespecificat  {Prolaps al uterului}  <Uterovaginal prolapse, unspecified> ~ Prolaps vaginal | Prolaps uterin
+N84.0   Polip al corpului uterin  <Polyp of corpus uteri> ~ Polip endometrial | Polip cervical
+N84.2   Polip al vaginului  <Polyp of vagina> ~ Prolaps vaginal
+N99.3   Prolaps al peretelui vaginal dupa histerectomie  <Prolapse of vaginal vault after hysterectomy> ~ Prolaps vaginal
+O12.1   Proteinurie gestationala  <Gestational proteinuria> ~ Hipertensiune gestationala
+O14.1   Pre-eclampsia severa  <Severe pre-eclampsia> ~ Preeclampsie severa
+O14.9   Pre-eclampsia, nespecificata  <Unspecified pre-eclampsia> ~ Preeclampsie
+O44.0   Placenta praevia specificata ca fara hemoragie  {Implantatia joasa a placentei specificata ca fara hemoragie}  <Complete placenta previa NOS or without hemorrhage> ~ Placenta praevia
+O44.1   Placenta praevia cu hemoragie  {Implantare joasa a placentei, sau cu hemoragie}  <Complete placenta previa with hemorrhage> ~ Placenta praevia
+P14.0   Paralizie Duchenne-Erb datorita traumatismului la nastere  <Erb's paralysis due to birth injury> ~ Paralizie brahiala obstetrica | Traumatism obstetric
+P14.1   Paralizia Dejerine-Klumpke datorita traumatismului la nastere  <Klumpke's paralysis due to birth injury> ~ Traumatism obstetric
+P14.2   Paralizia nervului frenic datorita traumatismului la nastere  <Phrenic nerve paralysis due to birth injury> ~ Traumatism obstetric
+P23.0   Pneumonia congenitala datorita unui agent viral  <Congenital pneumonia due to viral agent> ~ Pneumonie | Pneumonie congenitala
+P23.1   Pneumonia congenitala cu Chlamydia  <Congenital pneumonia due to Chlamydia> ~ Pneumonie congenitala | Pneumonie cu Chlamydia trachomatis
+P23.2   Pneumonia congenitala cu stafilococi  <Congenital pneumonia due to staphylococcus> ~ Pneumonie congenitala
+P23.3   Pneumonia congenitala cu streptococi, grupa B  <Congenital pneumonia due to streptococcus, group B> ~ Pneumonie congenitala | Pneumonie streptococica
+P23.4   Pneumonia congenitala cu Escherichia coli  <Congenital pneumonia due to Escherichia coli> ~ Pneumonie congenitala | Pneumonie cu Escherichia coli
+P23.5   Pneumonia congenitala cu Pseudomonas  <Congenital pneumonia due to Pseudomonas> ~ Pneumonie congenitala | Pneumonie cu Pseudomonas
+P23.6   Pneumonia congenitala datorita altor agenti bacterieni  {Haemophilus influenzae / Klebsiella pneumoniae / Mycoplasma / Streptococi, cu exceptia grupei B}  <Congenital pneumonia due to other bacterial agents> ~ Pneumonie congenitala | Amigdalita acuta cu Haemophilus | Amigdalita cu Haemophilus | Artrita cu Haemophilus influenzae | Bronsiolita cu Haemophilus | Bronsita cronica cu Haemophilus
+P23.8   Pneumonia congenitala datorita altor micro-organisme  <Congenital pneumonia due to other organisms> ~ Pneumonie congenitala
+P50     Pierdere de sange fetal  <Newborn affected by intrauterine (fetal) blood loss> ~ Hemoragie
+P50.0   Pierderea de sange fetal prin procidenta vaselor cordonului  <Newborn affected by intrauterine (fetal) blood loss from vasa previa> ~ Prolaps de cordon ombilical
+P78.0   Perforatia intestinala perinatala  {Peritonita meconiana}  <Perinatal intestinal perforation> ~ Peritonita meconiala
+Q38.7   Punga faringiana  {Diverticul al faringelui}  <Congenital pharyngeal pouch> ~ Diverticul al esofagului
+Q56.3   Pseudofermafroditism, nespecificat  <Pseudohermaphroditism, unspecified> ~ Pseudohermafroditism
+Q62.33  Polip congenital al ureterului ~ Agenezie uterina | Atrezie rectala
+Q67.7   Piept carinat  {Piept de porumbel congenital}  <Pectus carinatum> ~ Torace in carena
+Q70.4   Polisindactilia  <Polysyndactyly, unspecified> ~ Polidactilie | Sindactilie
+===== EXISTA (102)
+A20.0   Pesta bubonica = Ciuma bubonica [exact]
+A20.7   Pesta septicemica = Ciuma septicemica [exact]
+A66     Pianul = Framboesia [terminatii]
+A66.1   Papilomul multiplu si pianul-crab umed = Framboesia [exact]
+A67     Pinta [carate] = Pinta [exact]
+A67.9   Pinta, nespecificata = Pinta [exact]
+A80     Poliomielita acuta = Poliomielita [temporal (G1)]
+A81.1   Panencefalita sclerozanta subacuta = Panencefalita sclerozanta subacuta [exact]
+B36.0   Pityriasis versicolor = Pitiriazis versicolor [exact]
+B41.0   Paracoccidioidomicoza pulmonara = Pneumonie cu Paracoccidioides [exact]
+B54     Paludism, nespecificat = Malarie [exact]
+B66.4   Paragonimoza = Paragonimoza [exact]
+B82     Parazitoze intestinale nespecificate = Parazitoze intestinale [exact]
+B85.2   Pediculoza, nespecificata = Pediculoza [exact]
+D56.4   Persistenta ereditara a hemoglobinei fetale [HPFH] = Persistenta ereditara de hemoglobina fetala [exact]
+D69.3   Purpura trombopenica idiopatica = Sindrom Evans [terminatii]
+D75.1   Policitemia secundara = Policitemie secundara [terminatii]
+E30.0   Pubertate intarziata = Pubertate intarziata [exact]
+E30.1   Pubertate precoce = Pubertate precoce [exact]
+E80.0   Porfirie eritropoietica ereditara = Porfirie eritropoietica [exact]
+F29     Psihoza neorganica nespecificata = Psihoza [exact]
+F68.1   Producere intentionata sau simulare a simptomelor sau incapacitatii, fie fizice, fie psihologice [tulburare artificiala] = Tulburare factice [terminatii]
+G11.4   Paraplegia spastica ereditara = Paraplegie spastica ereditara [terminatii]
+G21     Parkinsonism secundar = Parkinsonism secundar [exact]
+G51.0   Paralizia Bell = Paralizie faciala [terminatii]
+G62.1   Polineuropatia alcoolica = Polineuropatia alcoolica [exact]
+G62.9   Polineuropatia, nespecificata = Neuropatie periferica [terminatii]
+H02.4   Ptoza palpebrala = Ptosis palpebral [exact]
+H11.0   Pterigion = Pterigion [exact]
+H91.1   Presbiacuzia = Presbiacuzie [terminatii]
+I01.0   Pericardita reumatismala acuta = Pericardita reumatica [temporal (G1)]
+I09.2   Pericardita reumatismala cronica = Pericardita reumatoida [exact]
+I30     Pericardita acuta = Pericardita [exact]
+I31.0   Pericardita cronica adeziva = Pericardita constrictiva [exact]
+I31.1   Pericardita cronica constrictiva = Pericardita constrictiva [exact]
+I34.1   Prolapsul (valva) mitral = Prolaps de valva mitrala [terminatii]
+J01.4   Pansinuzita acuta = Pansinuzita [temporal (G1)]
+J12     Pneumonia virala, neclasificata altundeva = Pneumonie [terminatii]
+J12.0   Pneumonia cu adenovirusi = Pneumonie cu adenovirus [terminatii]
+J15     Pneumonia bacteriana, neclasificata altundeva = Pneumonie [terminatii]
+J18.1   Pneumonia lobara, nespecificata = Pneumonie lobara [terminatii]
+J18.2   Pneumonia hipostatica, nespecificata = Pneumonie hipostatica [terminatii]
+J18.9   Pneumonie, nespecificata = Pneumonie [exact]
+J32.4   Pansinuzita cronica = Pansinuzita [temporal (G1)]
+J33     Polip nazal = Polipi nazali [exact]
+J60     Pneumoconioza minerilor (mina de carbune) = Antracosilicoza [exact]
+J61     Pneumoconioza datorita azbestului si altor fibre minerale = Azbestoza [exact]
+J62.8   Pneumoconioza datorita altor pulberi de siliciu = Silicoza [exact]
+J64     Pneumoconioze nespecificate = Pneumoconioza [exact]
+J86     Piotorax = Empiem pleural [exact]
+J92     Placa pleurala = Placa pleurala [exact]
+J92.9   Placa pleurala fara azbestoza = Placa pleurala [exact]
+J93     Pneumotorax = Pneumotorax [exact]
+K05.2   Periodontita acuta = Abces paradontal [exact]
+K05.4   Parodontoza = Parodontoza [exact]
+K62.3   Prolaps rectal = Prolaps rectal [exact]
+K65     Peritonita = Peritonita [exact]
+K65.0   Peritonita acuta = Peritonita [exact]
+K67.3   Peritonita tuberculoasa (A18.3†) = Peritonita tuberculoasa [exact]
+K85     Pancreatita acuta = Pancreatita [exact]
+L10.0   Pemfigus vulgar = Pemfigus vulgar [exact]
+L10.1   Pemfigus vegetant = Pemfigus vegetant [exact]
+L10.2   Pemfigus foliaceu = Pemfigus foliaceu [exact]
+L10.4   Pemfigus eritematos = Pemfigus foliaceu [exact]
+L12.0   Pemfigoid bulos = Pemfigoid bulos [exact]
+L12.1   Pemfigoid cicatricial = Pemfigoid cicatricial [exact]
+L29.0   Prurit anal = Prurit anal [exact]
+L40     Psoriazis = Psoriazis [exact]
+L40.0   Psoriazis vulgaris = Psoriazis [exact]
+L41     Parapsoriazis = Parapsoriazis [exact]
+L41.0   Pitiriazis lichenoid si varioliform acut = Papuloza limfomatoida [exact]
+L41.1   Pitiriazis lichenoid cronic = Pitiriazis lichenoid cronic [exact]
+L41.2   Papuloza limfomatoida = Papuloza limfomatoida [exact]
+L57.4   Piele laxa senila = Elastoza [exact]
+L65.9   Pierdere de par necicatriciala, nespecificata = Alopecie [exact]
+L81.2   Pistrui = Efelide [exact]
+L88     Piodermita gangrenoasa = Piodermita gangrenoasa [exact]
+M08.3   Poliartrita juvenila (sero-negativa) = Artrita idiopatica juvenila [exact]
+M21.4   Picior plat [pes planus] (dobandit) = Picior plat [exact]
+M30.0   Poliarterita nodoasa = Poliarterita nodoza [exact]
+M33.2   Polimiozita = Polimiozita [exact]
+M94.1   Policondritele recidivante = Policondrita recidivanta [terminatii]
+N13.6   Pionefroza = Pionefroza [exact]
+N36.3   Prolapsul mucoasei uretrale = Uretrocel [terminatii]
+N41.0   Prostatita acuta = Prostatita [exact]
+N41.1   Prostatita cronica = Prostatita [exact]
+N48.3   Priapism = Priapism [exact]
+N84.1   Polip al colului uterin = Polip cervical [exact]
+O44     Placenta praevia = Placenta praevia [exact]
+P07.30  Prematuritate, nespecificata = Nastere prematura [exact]
+P23     Pneumonia congenitala = Pneumonie congenitala [terminatii]
+P29.3   Persistenta circulatiei fetale = Hipertensiune pulmonara persistenta a nou-nascutului [exact]
+P61.1   Policitemia nou-nascutului = Policitemie neonatala [exact]
+Q10.0   Ptoza congenitala = Ptoza congenitala [exact]
+Q25.0   Permeabilitatea canalului arterial = Persistenta canalului arterial [exact]
+Q43.7   Persistenta cloacei = Cloaca persistenta [terminatii]
+Q45.1   Pancreas inelar = Pancreas inelar [exact]
+Q56.1   Pseudohermafroditism masculin, neclasificat altundeva = Pseudohermafroditism [exact]
+Q56.2   Pseudohermafroditism feminin, neclasificat altundeva = Pseudohermafroditism [exact]
+Q66.5   Picior plat congenital = Picior plan congenital [exact]
+Q67.3   Plagiocefalia = Plagiocefalie [terminatii]
+Q69     Polidactilia = Polidactilie [exact]
+===== ELIMINAT (115)
+A20.9   Pesta, nespecificata [dublura categoriei parinte (nespecificat)]
+A66.9   Pianul, nespecificat [dublura categoriei parinte (nespecificat)]
+A80.9   Poliomielita acuta, nespecificata [dublura categoriei parinte (nespecificat)]
+B41.9   Paracoccidioidomicoza, nespecificata [dublura categoriei parinte (nespecificat)]
+B50.9   Paludismul cu Plasmodium falciparum, nespecificat [dublura categoriei parinte (nespecificat)]
+B82.9   Parazitoza intestinala, nespecificata [dublura categoriei parinte (nespecificat)]
+B97.6   Parvovirusi, cauza unor boli clasificate la alte capitole [agent cauzal, nu boala]
+B97.7   Papillomavirusi, cauza unor boli clasificate la alte capitole [agent cauzal, nu boala]
+C02.1   Partea jugala a limbii [subzona de organ (D5)]
+C04.0   Planseul anterior al gurii [subzona de organ (D5)]
+C04.1   Planseul lateral al gurii [subzona de organ (D5)]
+C04.9   Planseul gurii, nespecificata [subzona de organ (D5)]
+C05.0   Parte dura a palatului [subzona de organ (D5)]
+C05.1   Parte moale a palatului [subzona de organ (D5)]
+C05.9   Palat, nespecificata [subzona de organ (D5)]
+C09.1   Pilierul amigdalei (anterior) (posterior) [subzona de organ (D5)]
+C10.2   Peretele lateral al orofaringelui [subzona de organ (D5)]
+C10.3   Peretele posterior al orofaringelui [subzona de organ (D5)]
+C11.0   Peretele superior al nazo-faringelui [subzona de organ (D5)]
+C11.1   Peretele posterior al nazo-faringelui [subzona de organ (D5)]
+C11.2   Peretele lateral al nazo-faringelui [subzona de organ (D5)]
+C11.3   Peretele anterior al nazo-faringelui [subzona de organ (D5)]
+C13.1   Pliul ary-epiglotic, versant hipofaringian [subzona de organ (D5)]
+C13.2   Peretele posterior al hipofaringelui [subzona de organ (D5)]
+C16.4   Pilorul [subzona de organ (D5)]
+C25.4   Pancreasul endrocrin [subzona de organ (D5)]
+C25.9   Pancreas, nespecificat [subzona de organ (D5)]
+C38.4   Pleura [subzona de organ (D5)]
+C44.0   Pielea buzelor [subzona de organ (D5)]
+C44.1   Pielea pleoapelor, inclusiv cantusul [subzona de organ (D5)]
+C44.2   Pielea urechii si a conductului auditiv extern [subzona de organ (D5)]
+C44.3   Pielea fetei, alte localizari si nespecificate [subzona de organ (D5)]
+C44.4   Pielea scalpului si gatului [subzona de organ (D5)]
+C44.5   Pielea trunchiului [subzona de organ (D5)]
+C44.6   Pielea membrelor superioare, inclusiv umarul [subzona de organ (D5)]
+C44.7   Pielea membrelor inferioare, inclusiv soldul [subzona de organ (D5)]
+C48.1   Parti specificate ale peritoneului [subzona de organ (D5)]
+C48.2   Peritoneu, nespecificat [subzona de organ (D5)]
+C50.1   Partea centrala a sanului [subzona de organ (D5)]
+C50.6   Prelungirea axilara a sanului [subzona de organ (D5)]
+C57.3   Parametru [subzona de organ (D5)]
+C60.0   Preput [subzona de organ (D5)]
+C60.9   Penis, nespecificat [subzona de organ (D5)]
+C67.2   Peretele lateral al vezicii [subzona de organ (D5)]
+C67.3   Peretele anterior al vezicii [subzona de organ (D5)]
+C67.4   Peretele posterior al vezicii [subzona de organ (D5)]
+C76.3   Pelvis [subzona de organ (D5)]
+C81.0   Predominenta limfocitara [subzona de organ (D5)]
+C90.2   Plasmacitom extra-medular [subzona de organ (D5)]
+C94.4   Panmieloza acuta [subzona de organ (D5)]
+D04.0   Pielea buzei [subzona de organ (D5)]
+D04.1   Pielea pleoapei, inclusiv cantul [subzona de organ (D5)]
+D04.2   Pielea urechii si a conductului auditiv extern [subzona de organ (D5)]
+D04.3   Pielea altor parti ale fetei si nespecificate [subzona de organ (D5)]
+D04.4   Pielea scalpului si a gatului [subzona de organ (D5)]
+D04.5   Pielea trunchiului [subzona de organ (D5)]
+D04.6   Pielea membrului superior, inclusiv umarul [subzona de organ (D5)]
+D04.7   Pielea membrului inferior, inclusiv soldul [subzona de organ (D5)]
+D04.8   Pielea altor localizari [subzona de organ (D5)]
+D04.9   Piele, nespecificata [subzona de organ (D5)]
+D07.4   Penis [subzona de organ (D5)]
+D07.5   Prostata [subzona de organ (D5)]
+D10.2   Planseul gurii [subzona de organ (D5)]
+D13.6   Pancreas [subzona de organ (D5)]
+D13.7   Pancreas endocrin [subzona de organ (D5)]
+D20.1   Peritoneu [subzona de organ (D5)]
+D23.0   Pielea buzei [subzona de organ (D5)]
+D23.1   Pielea pleoapei, inclusiv cantus [subzona de organ (D5)]
+D23.2   Pielea urechii si conductului auditiv extern [subzona de organ (D5)]
+D23.3   Pielea altei parti a fetei si nespecificata [subzona de organ (D5)]
+D23.4   Pielea scalpului si gatului [subzona de organ (D5)]
+D23.5   Pielea trunchiului [subzona de organ (D5)]
+D23.6   Pielea membrului superior, inclusiv umarul [subzona de organ (D5)]
+D23.7   Pielea membrului inferior, inclusiv soldul [subzona de organ (D5)]
+D23.9   Piele, nespecificata [subzona de organ (D5)]
+D29.0   Penis [subzona de organ (D5)]
+D29.1   Prostata [subzona de organ (D5)]
+D30.1   Pelvis renal [subzona de organ (D5)]
+D35.1   Paratiroida [subzona de organ (D5)]
+D38.2   Pleura [subzona de organ (D5)]
+D39.2   Placenta [subzona de organ (D5)]
+D40.0   Prostata [subzona de organ (D5)]
+D41.1   Pelvis renal [subzona de organ (D5)]
+D44.2   Paratiroida [subzona de organ (D5)]
+D48.4   Peritoneu [subzona de organ (D5)]
+D48.5   Piele [subzona de organ (D5)]
+G21.9   Parkinsonism secundar, nespecificat [dublura categoriei parinte (nespecificat)]
+G22     Parkinsonism in boli clasificate altundeva [asterisc (in alte boli)]
+G53.1   Paralizia mai multor nervi cranieni in boli infectioase si parazitare clasificate altundeva(A00-B99†) [asterisc (in alte boli)]
+G61.9   Polineuropatia inflamatorie, nespecificata [dublura categoriei parinte (nespecificat)]
+G63     Polineuropatia in boli clasificate altundeva [asterisc (in alte boli)]
+G63.0   Polineuropatia in boli infectioase si parazitare clasificate altundeva [asterisc (in alte boli)]
+G63.8   Polinevrita in alte boli clasificate altundeva [asterisc (in alte boli)]
+G80.9   Paralizia cerebrala, nespecificata [dublura categoriei parinte (nespecificat)]
+H72.9   Perforatia membranei timpanului, nespecificata [dublura categoriei parinte (nespecificat)]
+I30.9   Pericardita acuta, nespecificata [dublura categoriei parinte (nespecificat)]
+I32     Pericardita in boli clasificate altundeva [asterisc (in alte boli)]
+J12.9   Pneumonia virala, nespecificata [dublura categoriei parinte (nespecificat)]
+J17     Pneumonia in boli clasificate altundeva [asterisc (in alte boli)]
+J17.8   Pneumonia in alte boli clasificate altundeva [asterisc (in alte boli)]
+J33.9   Polip nazal, nespecificat [dublura categoriei parinte (nespecificat)]
+J67.9   Pneumopatii prin hipersensibilitate la pulberi organice, nespecificate [dublura categoriei parinte (nespecificat)]
+J93.9   Pneumotorax, nespecificat [dublura categoriei parinte (nespecificat)]
+K65.9   Peritonita, nespecificata [dublura categoriei parinte (nespecificat)]
+L10.9   Pemfigus, nespecificat [dublura categoriei parinte (nespecificat)]
+L12.9   Pemfigoid, nespecificat [dublura categoriei parinte (nespecificat)]
+L29.9   Prurit, nespecificat [dublura categoriei parinte (nespecificat)]
+L40.9   Psoriazis, nespecificat [dublura categoriei parinte (nespecificat)]
+L41.9   Parapsoriazis, nespecificat [dublura categoriei parinte (nespecificat)]
+M15.9   Poliartroza, nespecificata [dublura categoriei parinte (nespecificat)]
+N81.9   Prolaps genital feminin, nespecificat [dublura categoriei parinte (nespecificat)]
+N84.9   Polip al tractului genital feminin, nespecificat [dublura categoriei parinte (nespecificat)]
+P23.9   Pneumonia congenitala, nespecificata [dublura categoriei parinte (nespecificat)]
+P50.9   Pierdere de sange fetal, nespecificata [dublura categoriei parinte (nespecificat)]
+Q69.9   Polidactilia, nespecificata [dublura categoriei parinte (nespecificat)]

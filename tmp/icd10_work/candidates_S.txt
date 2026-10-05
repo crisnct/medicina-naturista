@@ -1,0 +1,651 @@
+===== NOU (188)
+A03.0   Shigelloza datorita Shigellei dyzenteriae  {Shigelloza grup A [dizenteria Shiga-Kruse]}  <Shigellosis due to Shigella dysenteriae>
+A03.1   Shigelloza datorita Shigellei flexneri  {Shigelloza grup B}  <Shigellosis due to Shigella flexneri>
+A03.2   Shigelloza datorita Shigellei boydii  {Shigelloza grup C}  <Shigellosis due to Shigella boydii>
+A03.3   Shigelloza datorita Shigellei sonnei  {Shigelloza grup D}  <Shigellosis due to Shigella sonnei>
+A22.7   Septicemie carbunoasa  <Anthrax sepsis>
+A26.7   Sepsis cu Erysipelothrix  <Erysipelothrix sepsis>
+A32.7   Sepsis listerian  <Listerial sepsis>
+A40.0   Sepsis datorita unui streptococ, grupa A  <Sepsis due to streptococcus, group A>
+A40.1   Sepsis datorita unui streptococ, grupa B  <Sepsis due to streptococcus, group B>
+A40.2   Sepsis datorita unui streptococ, grupa D
+A40.3   Sepsis datorita Streptococcus pneumoniae  {Septicemia pneumococica}  <Sepsis due to Streptococcus pneumoniae>
+A41.0   Sepsis datorita stafilococului auriu  <Sepsis due to Staphylococcus aureus>
+A41.1   Sepsis datorita altor stafilococi, specificati  {Sepsis datorit stafilococului de coaguloza-negativa}  <Sepsis due to other specified staphylococcus>
+A41.2   Sepsis datorita unui stafilococ nespecificat  <Sepsis due to unspecified staphylococcus>
+A41.4   Sepsis datorita anaerobilor  <Sepsis due to anaerobes>
+A41.5   Sepsis datorita altor organisme Gram-negative  <Sepsis due to other Gram-negative organisms>
+A41.50  Sepsis datorita organismelor Gram-negative nespecificate  {Septicemia Gram-negativa}  <Gram-negative sepsis, unspecified>
+A41.52  Sepsis datorita pseudomonas  <Sepsis due to Pseudomonas>
+A41.58  Sepsis datorita altor organisme Gram-negative
+A42.7   Sepsis actinomicotic  <Actinomycotic sepsis>
+A51.0   Sifilis genital primar  {Sancrul sifilitic}  <Primary genital syphilis>
+A51.2   Sifilis primar, cu alte localizari  <Primary syphilis of other sites>
+A51.3   Sifilis secundar al pielii si mucoaselor  {Condilomul plat}  <Secondary syphilis of skin and mucous membranes>
+A65     Sifilisul nevenerian  {Bejel / Sifilisul endemic / Njovera}  <Nonvenereal syphilis>
+B37.7   Sepsis prin Candida  <Candidal sepsis>
+B78.1   Strongyloidiaza cutanata  <Cutaneous strongyloidiasis>
+B83.3   Syngamiaza  {Syngamoza}  <Syngamiasis>
+B95.0   Streptococ, grupa A, cauza unor boli clasate la alte capitole  <Streptococcus, group A, as the cause of diseases classified elsewhere>
+B95.1   Streptococ, grupa B, cauza unor boli clasate la alte capitole  <Streptococcus, group B, as the cause of diseases classified elsewhere>
+B95.2   Streptococ, grupa D, cauza unor boli clasate la alte capitole  <Enterococcus as the cause of diseases classified elsewhere>
+B95.3   Streptococcus pneumoniae, cauza unor boli clasate la alte capitole  <Streptococcus pneumoniae as the cause of diseases classified elsewhere>
+B95.48  Streptococ, alta grupa specificata
+B95.5   Streptococ nespecificat drept cauza unor boli clasate la alte capitole  <Unspecified streptococcus as the cause of diseases classified elsewhere>
+B95.6   Staphilococcus aureus, cauza unor boli clasate la alte capitole  <Staphylococcus aureus as the cause of diseases classified elsewhere>
+B95.8   Stafilococ nespecificat drept cauza unor boli clasate la alte capitole  <Unspecified staphylococcus as the cause of diseases classified elsewhere>
+D73.2   Splenomegalia congestiva cronica  {L ista Tabelară a Bolilor RoDRG}  <Chronic congestive splenomegaly>
+D76.2   Sindromul hemofagocitar asociat unei infectii  <Hemophagocytic syndrome, infection-associated>
+D82.4   Sindromul hiperimunoglobulinei E [lgE]  <Hyperimmunoglobulin E [IgE] syndrome>
+D86.0   Sarcoidoza plamanului  <Sarcoidosis of lung>
+E00     Sindromul deficientei congenitale de iod  <Congenital iodine-deficiency syndrome>
+E00.1   Sindromul deficientei congenitale de iod de tip mixedematos  <Congenital iodine-deficiency syndrome, myxedematous type>
+E22.2   Sindromul secretiei anormale a hormonului antidiuretic  <Syndrome of inappropriate secretion of antidiuretic hormone>
+E34.2   Secretia hormonala ectopica, neclasificata altundeva  <Ectopic hormone secretion, not elsewhere classified>
+E34.4   Statura inalta constitutionala  {Gigantism constitutional}  <Constitutional tall stature>
+E75.3   Sfincolipidoza, nespecificata  <Sphingolipidosis, unspecified>
+F04     Sindromul amnezic organic, neindus de alcool si alte substante psiho-active  <Amnestic disorder due to known physiological condition>
+F44.2   Stupoare disociativa  <Dissociative stupor>
+F55.5   Steroizi sau hormoni
+F59     Sindroame comportamentale nespecificate asociate perturbarilor fiziologice si factorilor fizici  {Disfunctia fiziologica psihogena / Tulburari de personalitate si de comportament la adulti}  <Unspecified behavioral syndromes associated with physiological disturbances and physical factors>
+F62     Schimbari durabile de personalitate, care nu pot fi atribuite unei leziuni si boli cerebrale
+F62.0   Schimbare durabila de personalitate dupa o experienta catastrofica
+F62.1   Schimbare durabila de personalitate dupa o boala psihiatrica
+F62.9   Schimbare durabila de personalitate, nespecificata
+F65.5   Sado-masochism  {Masochism / Sadism}  <Sadomasochism>
+G41.2   Stare de "mal epileptic" partial complex
+G43.2   Stare de "mal migrenos"
+G46     Sindroame vasculare cerebrale in bolile cerebrovasculare (I60-I67†)  <Vascular syndromes of brain in cerebrovascular diseases>
+G46.0   Sindromul arterei cerebrale mijlocii (I66.0†)  <Middle cerebral artery syndrome>
+G46.2   Sindromul arterei cerebrale posterioara (I66.2†)  <Posterior cerebral artery syndrome>
+G46.3   Sindroame vasculare de trunchi cerebral (I60-I67†)  <Brain stem stroke syndrome>
+G46.5   Sindrom lacunar motor pur (I60-I67†)  <Pure motor lacunar syndrome>
+G46.6   Sindrom lacunar senzitiv pur (I60-I67†)  <Pure sensory lacunar syndrome>
+G51.2   Sindromul Melkersson  {Sindromul Melkersson-Rosenthal}  <Melkersson's syndrome>
+G54.6   Sindromul dureros de "membru fantoma"  <Phantom limb syndrome with pain>
+G54.7   Sindromul de "membru fantoma" fara element dureros  {Sindromul de "membru fantoma"}  <Phantom limb syndrome without pain>
+G57.5   Sindromul canalului tarsian  <Tarsal tunnel syndrome>
+G73.0   Sindrom miastenic in bolile endrocrine  {Sindrom miastenic in tireotoxicoza [hipertiroidism] (}
+G83.4   Sindromul cozii de cal  <Cauda equina syndrome>
+G95.0   Siringomielia si siringobulbia  <Syringomyelia and syringobulbia>
+H50.6   Strabism mecanic  {Sindromul tecii Brown / Strabism datorit aderentelor / Limitare traumatica a miscarilor muschilor oculari}  <Mechanical strabismus>
+H54.2   Scaderea vederii ambilor ochi  <Low vision, both eyes>
+H54.5   Scaderea vederii unui ochi  <Low vision, one eye>
+H59.0   Sindromul corpului vitros dupa chirurgia cataractei  <Disorders of the eye following cataract surgery>
+H68     Salpingita si obstructia trompei  {Eustache}  <Eustachian salpingitis and obstruction>
+H68.0   Salpingita trompei Eustache  <Eustachian salpingitis>
+H90.3   Surditate neurosensoriala bilaterala  <Sensorineural hearing loss, bilateral>
+H90.4   Surditate neurosensoriala unilaterala fara alterarea auditiei celeilalte urechi  <Sensorineural hearing loss, unilateral with unrestricted hearing on the contralateral side>
+H91.3   Surdo-mutitate, neclasificata altundeva  <Deaf nonspeaking, not elsewhere classified>
+I49.5   Sindromul de boala sinusala  {Sindromul tahicardiei-bradicardiei}  <Sick sinus syndrome>
+I97.2   Sindromul limfedemului dupa mastectomie  {Elefantiaza datorita mastectomiei / Obliterarea vaselor limfatice datorita mastectomiei}  <Postmastectomy lymphedema syndrome>
+J43.0   Sindromul MacLeod  <Unilateral pulmonary emphysema [MacLeod's syndrome]>
+J67.3   Suberoza  {Boala sau pulmonul manipulatorilor de scoarta de pluta / Boala sau pulmonul muncitorilor cu scoarta de pluta}  <Suberosis>
+K00.7   Sindromul de eruptie dentara  <Teething syndrome>
+K12     Stomatite si afectiuni inrudite  <Stomatitis and related lesions>
+K31.2   Stomac in clepsidra si stenoza stomacului  <Hourglass stricture and stenosis of stomach>
+K90.2   Sindromul de ansa oarba, neclasificata altundeva  <Blind loop syndrome, not elsewhere classified>
+K90.3   Steatoreea pancreatica  <Pancreatic steatorrhea>
+K91.1   Sindroame dupa chirurgia gastrica  <Postgastric surgery syndromes>
+L60.5   Sindromul unghiei galbene  <Yellow nail syndrome>
+L90.6   Striatii atrofice  <Striae atrophicae>
+L94.1   Sclerodermia lineara  {Leziuni in lovitura de sabie}  <Linear scleroderma>
+L94.3   Sclerodactilia  <Sclerodactyly>
+M07.2   Spondilita psoriazica (L40.5†)
+M12.2   Sinovita villonodulara (pigmentara)  {pigmentara}  <Villonodular synovitis (pigmented)>
+M40.3   Sindromul spatelui plat  <Flatback syndrome>
+M41.3   Scolioza prin anomalie toracica  <Thoracogenic scoliosis>
+M41.4   Scolioza neuromusculara  <Neuromuscular scoliosis>
+M43.3   Subluxatia atlanto-axiala recurenta cu mielopatie  <Recurrent atlantoaxial dislocation with myelopathy>
+M48.3   Spondilopatia traumatica  <Traumatic spondylopathy>
+M49.2   Spondilita entero-bacteriana (A01-A04†)
+M49.3   Spondilopatia in alte boli infectioase si parazitare clasificate altundeva
+M49.4   Spondilopatia neuropatica
+M53.0   Sindrom cervico-cranian  {Sindrom simpatic cervical posterior}  <Cervicocranial syndrome>
+M53.1   Sindrom cervico-brahial  <Cervicobrachial syndrome>
+M65     Sinovita si tenosinovita  <Synovitis and tenosynovitis>
+M67.0   Scurtarea tendonului lui Achille (dobandita)  {dobandita}  <Short Achilles tendon (acquired)>
+M68.0   Sinovita si tenosinovita in boli bacteriene clasificate altundeva
+M70.0   Sinovita crepitanta cronica a mainii si pumnului  <Crepitant synovitis (acute) (chronic) of hand and wrist>
+M75.1   Sindromul tecii rotatorului  {Sindromul supraspinos}  <Rotator cuff tear or rupture, not specified as traumatic>
+M75.4   Sindromul de lovire a umarului  <Impingement syndrome of shoulder>
+M76.3   Sindromul bandeletei ilio-tibiale  <Iliotibial band syndrome>
+M96.1   Sindromul de pseudo-laminectomie, neclasificat altundeva  <Postlaminectomy syndrome, not elsewhere classified>
+M96.5   Scolioza dupa iradiere  <Postradiation scoliosis>
+M99.1   Subluxatie complexa (vertebrala)  {vertebrala}  <Subluxation complex (vertebral)>
+M99.2   Stenoza canalului rahidian prin subluxatie  <Subluxation stenosis of neural canal>
+M99.3   Stenoza osoasa a canalului rahidian  <Osseous stenosis of neural canal>
+M99.4   Stenoza canalului rahidian prin tesut conjunctiv  <Connective tissue stenosis of neural canal>
+M99.5   Stenoza canalului rahidian prin leziune discala  <Intervertebral disc stenosis of neural canal>
+M99.6   Stenoza osoasa si prin luxatie a orificiilor intervertebrale  <Osseous and subluxation stenosis of intervertebral foramina>
+M99.7   Stenoza tesutului conjunctiv si discala la nivelul ferestrelor intervertebrale  <Connective tissue and disc stenosis of intervertebral foramina>
+N01     Sindrom nefritic progresiv rapid  <Rapidly progressive nephritic syndrome>
+N39.81  Sindromul hematuriei/durerii in lombe
+N70.0   Salpingita si ooforita acuta  <Acute salpingitis and oophoritis>
+N85.3   Subinvolutia uterului  <Subinvolution of uterus>
+N88.2   Strictura si stenoza colului uterin  <Stricture and stenosis of cervix uteri>
+N89.5   Strictura si atrezia vaginului  <Stricture and atresia of vagina>
+N92.3   Sangerarile ovulatiei  {Sangerare intermenstruala regulata}  <Ovulation bleeding>
+N92.4   Sangerari excesive in perioada de premenopauza  <Excessive bleeding in the premenopausal period>
+N93.9   Sangerare anormala a uterului si vaginului, nespecificata  <Abnormal uterine and vaginal bleeding, unspecified>
+N95.1   Stari de menopauza si climacterice feminine  <Menopausal and female climacteric states>
+N95.3   Stari asociate cu menopauza artificiala  {Sindrom postmenopauza artificiala}
+O08.3   Socul urmand avortului si sarcinii ectopice si molare  <Shock following ectopic and molar pregnancy>
+O26.5   Sindrom de hipotensiune materna  {Sindromul hipotensiv in clino-statism}  <Maternal hypotension syndrome>
+O26.7   Subluxatia simfisei (pubiene) in sarcina, nastere si lauzie  {pubiene}  <Subluxation of symphysis (pubis) in pregnancy, childbirth and the puerperium>
+O26.82  Sindromul tunelului carpal in sarcina  <Pregnancy related peripheral neuritis>
+O30     Sarcina multipla  <Multiple gestation>
+O30.0   Sarcina gemelara  <Twin pregnancy>
+O30.1   Sarcina cu tripleti  <Triplet pregnancy>
+O30.2   Sarcina quadrupla  <Quadruplet pregnancy>
+O43.0   Sindromul transfuziei placentare  <Placental transfusion syndromes>
+O75.1   Socul in timpul sau dupa travaliu si nastere  {Soc obstetrical}  <Shock during or following labor and delivery>
+O92.5   Suprimarea lactatiei  {Agalactia}  <Suppressed lactation>
+O98.1   Sifilisul complicand sarcina, nasterea si lauzia  <Syphilis complicating pregnancy, childbirth and the puerperium>
+P22     Suferinta respiratorie a nou-nascutului  <Respiratory distress of newborn>
+P25     Sindromul de infiltrare a aerului survenind in perioada perinatala  <Interstitial emphysema and related conditions originating in the perinatal period>
+P27.0   Sindromul Wilson-Mikity  {Dismaturitate pulmonara}  <Wilson-Mikity syndrome>
+P59.1   Sindromul "bilei ingrosate"  <Inspissated bile syndrome>
+P70.1   Sindromul copilului cu mama diabetica  <Syndrome of infant of a diabetic mother>
+P92.3   Subalimentarea nou-nascutului  <Underfeeding of newborn>
+P92.4   Supraalimentarea nou-nascutului  <Overfeeding of newborn>
+P96.1   Simptome neonatale de privatiune datorita toxicomaniei mamei  {Simptomul de sevraj la copil din cauza dependentei mamei}  <Neonatal withdrawal symptoms from maternal use of drugs of addiction>
+P96.2   Simptome de privatiune din cauza folosirii terapeutice a unor medicamente la nou-nascut  <Withdrawal symptoms from therapeutic use of drugs in newborn>
+P96.4   Sfarsitul sarcinii, fat si nou-nascut
+Q07.81  Sindromul mandibulei tremurande  {Sindromul Marcus Gunn}
+Q12.4   Sferofachia  <Spherophakia>
+Q13.5   Sclerotica albastra  <Blue sclera>
+Q22.6   Sindromul inimii drepte hipoplazice  <Hypoplastic right heart syndrome>
+Q23.4   Sindromul inimii stangi hipoplazice  <Hypoplastic left heart syndrome>
+Q30.3   Sept nasal perforat congenital  <Congenital perforated nasal septum>
+Q39.3   Stenoza congenitala si strictura esofagului  <Congenital stenosis and stricture of esophagus>
+Q55.22  Scrot bifid  <Retractile testis>
+Q56     Sex nedeterminat si pseudohermafroditism  <Indeterminate sex and pseudohermaphroditism>
+Q56.4   Sex nedeterminat, nespecificat  {Organe genitale ambigue / Malformatii congenitale ale sistemului urinar}  <Indeterminate sex, unspecified>
+Q64.77  Sindrom de megacistita-megaureter
+Q64.78  Siringocel uretral congenital
+Q65.3   Subluxatia congenitala a soldului, unilaterala  <Congenital partial dislocation of hip, unilateral>
+Q65.4   Subluxatia congenitala a soldului, bilaterala  <Congenital partial dislocation of hip, bilateral>
+Q65.6   Sold nestabil  <Congenital unstable hip>
+Q65.60  Sold nestabil, nespecificat
+Q65.61  Sold nestabil, unilateral
+Q65.62  Sold nestabil, bilateral
+Q74.82  Supracrestere congenitala a membrului(lor)  {Hemihipertrofia congenitala}
+Q76.21  Spondilolisteza congenitala
+Q76.72  Stern bifid
+Q83.1   San accesoriu  {San supranumerar}  <Accessory breast>
+Q86     Sindroame de malformatii congenitale datorite unor cauze exogene cunoscute, neclasificate altundeva  <Congenital malformation syndromes due to known exogenous causes, not elsewhere classified>
+Q87.0   Sindroame de malformatii congenitale afectand in special fizionomia fetei  <Congenital malformation syndromes predominantly affecting facial appearance>
+Q87.05  Sindromul Hallerman-Streiff
+Q87.07  Sindromul Pena-Shokeir
+Q87.1   Sindroame de malformatii congenitale asociate in special cu statura scurta  <Congenital malformation syndromes predominantly associated with short stature>
+Q87.2   Sindroame de malformatii congenitale implicand in special membrele  <Congenital malformation syndromes predominantly involving limbs>
+Q87.21  Sindromul Holt-Oram
+Q87.23  Sindromul rotulei fixe
+Q87.3   Sindroame de malformatii congenitale implicand cresterea rapida precoce  <Congenital malformation syndromes involving early overgrowth>
+Q97.1   Sex feminin cu mai mult de trei cromozomi X  <Female with more than three X chromosomes>
+Q97.3   Sex feminin cu kariotip 46, XY  <Female with 46, XY karyotype>
+Q98.1   Sindromul Klinefelter, masculin, cu mai mult de doi cromozomi X  <Klinefelter syndrome, male with more than two X chromosomes>
+Q98.2   Sindromul Klinefelter, masculin, cu kariotip 46, XX
+===== POSIBIL (191)
+A02.1   Sepsis cu Salmonella  <Salmonella sepsis> ~ Osteomielita cu Salmonella | Bacteriemie cu Salmonella
+A02.9   Salmonelloze, nespecificata  <Salmonella infection, unspecified> ~ Salmoneloza
+A03     Shigelloza  <Shigellosis> ~ Dizenterie
+A41.3   Sepsis datorita Haemophilus influenzae  <Sepsis due to Hemophilus influenzae> ~ Artrita cu Haemophilus influenzae
+A41.51  Sepsis datorita Escherichia coli [E. Coli]  {E. Coli}  <Sepsis due to Escherichia coli [E. coli]> ~ Bronsiolita cu Escherichia coli | Bronsita acuta cu Escherichia coli | Bronsita cronica cu Escherichia coli | Colibaciloza | Colita hemoragica | Faringita acuta cu Escherichia coli
+A48.3   Sindromul de soc toxic  <Toxic shock syndrome> ~ Sindrom de soc toxic streptococic | Soc toxic stafilococic
+A50.0   Sifilis congenital precoce, simptomatic  <Early congenital syphilis, symptomatic> ~ Sifilis congenital
+A50.1   Sifilis congenital precoce, latent  <Early congenital syphilis, latent> ~ Sifilis congenital | Sifilis latent precoce
+A50.4   Sifilis congenital nervos tardiv (neuro-sifilis juvenil)  {neuro-sifilis juvenil / Dementa paralitica juvenila}  <Late congenital neurosyphilis [juvenile neurosyphilis]> ~ Neurosifilis | Sifilis congenital | Sifilis congenital tardiv | Sifilis tertiar
+A50.6   Sifilis congenital tardiv, latent  <Late congenital syphilis, latent> ~ Sifilis congenital | Sifilis congenital tardiv | Sifilis latent tardiv | Sifilis tertiar
+A51     Sifilis precoce  <Early syphilis> ~ Sifilis congenital | Sifilis latent precoce
+A51.1   Sifilis anal primar  <Primary anal syphilis> ~ Sifilis primar
+A51.5   Sifilis recent, latent  <Early syphilis, latent> ~ Sifilis latent precoce
+A52.1   Sifilis nervos simptomatic  {Artropatia Charcot†}  <Symptomatic neurosyphilis> ~ Neurosifilis
+A52.2   Sifilis nervos asimptomatic  <Asymptomatic neurosyphilis> ~ Neurosifilis
+A52.8   Sifilis tardiv, latent  <Late syphilis, latent> ~ Sifilis latent tardiv | Sifilis tertiar
+A57     Sancrul moale  {Ulcus molle}  <Chancroid> ~ Sancroid
+B08.4   Stomatita veziculara cu exantem, prin enterovirus  {Sindromul picior-mana-gura}  <Enteroviral vesicular stomatitis with exanthem> ~ Boala maini-picioare-gura
+B17.0   Suprainfectia acuta prin agent Delta la un purtator de hepatita  <Acute delta-(super) infection of hepatitis B carrier> ~ Hepatita D
+B23.0   Sindromul de infectie acuta prin HIV ~ Infectie acuta cu HIV | Sida | Tuberculoza asociata HIV
+B42.1   Sporotrichoza limfo-cutanata  <Lymphocutaneous sporotrichosis> ~ Sporotrichoza limfocutanata | Sporotrichoza diseminata
+B65.0   Schistosomiaza prin Schistosoma haematobium [schistosomiaza urimara]  {schistosomiaza urimara}  <Schistosomiasis due to Schistosoma haematobium [urinary schistosomiasis]> ~ Schistosomiaza urinara | Schistosomiaza japoneza | Schistosomiaza intestinala | Pneumonie cu Schistosoma
+B78     Strongyloidiaza  <Strongyloidiasis> ~ Strongiloidoza
+B78.0   Strongyloidiaza intestinala  <Intestinal strongyloidiasis> ~ Strongiloidoza | Tricostrongiloidoza
+B78.7   Strongyloidiaza diseminata  <Disseminated strongyloidiasis> ~ Strongiloidoza diseminata
+B95.41  Streptococ, grupa C ~ Faringita cu streptococ de grup C
+B95.42  Streptococ, grupa G ~ Faringita cu streptococ de grup G
+C46.0   Sarcomul Kaposi al pielii  <Kaposi's sarcoma of skin> ~ Sarcom cutanat | Sarcom Kaposi
+C46.1   Sarcomul Kaposi al tesuturilor moi  <Kaposi's sarcoma of soft tissue> ~ Sarcom Kaposi
+C46.2   Sarcomul Kaposi al palatului  <Kaposi's sarcoma of palate> ~ Sarcom Kaposi
+C46.3   Sarcomul Kaposi al ganglionilor limfatici  <Kaposi's sarcoma of lymph nodes> ~ Linfangiosarcom | Sarcom Kaposi
+C46.7   Sarcomul Kaposi cu alte localizari  <Kaposi's sarcoma of other sites> ~ Sarcom Kaposi
+C46.8   Sarcomul Kaposi la multiple organe ~ Sarcom Kaposi
+C92.3   Sarcom mieloid  {Clorom / Sarcomul granulocitar}  <Myeloid sarcoma> ~ Sarcom epitelioid
+D82.1   Sindromul Di George  {Sindromul pungii faringiene}  <Di George's syndrome> ~ Sindrom DiGeorge
+D86.1   Sarcoidoza ganglionilor limfatici  <Sarcoidosis of lymph nodes> ~ Sarcoidoza ganglionara | Limfadenopatie
+D86.2   Sarcoidoza plamanului si a ganglionilor limfatici  <Sarcoidosis of lung with sarcoidosis of lymph nodes> ~ Sarcoidoza ganglionara
+D86.8   Sarcoidoza cu alte localizari si combinate  {Iridociclita in sarcoidoza† / Paralizia multipla a nervilor cranieni in sarcoidoza†}  <Sarcoidosis of other sites> ~ Sarcoidoza oculara
+E00.0   Sindromul deficientei congenitale de iod de tip neurologic  {Cretinism edemic de tip neurologic}  <Congenital iodine-deficiency syndrome, neurological type> ~ Cretinism neurologic
+E00.2   Sindromul deficientei congenitale de iod de tip mixt  {Cretinism endemic de tip mixt}  <Congenital iodine-deficiency syndrome, mixed type> ~ Cretinism
+E24.2   Sindromul Cushing indus medicamentos  <Drug-induced Cushing's syndrome> ~ Sindrom Cushing iatrogen
+E24.3   Sindromul de secretie ectopica de ACTH  <Ectopic ACTH syndrome> ~ Sindrom ectopic ACTH | SIADH
+E67.2   Sindrom de hipervitaminoza B6  <Megavitamin-B6 syndrome> ~ Hipervitaminoza B6
+E80.5   Sindromul Crigler-Najjar  <Crigler-Najjar syndrome> ~ Sindrom Crigler-Najjar tip I | Sindrom Crigler-Najjar tip II
+E87.7   Supraincarcare cu lichide  <Fluid overload> ~ Supraincarcare de fier
+F07.1   Sindrom postencefalitic ~ Sindrom posttrombotic
+F45.4   Sindrom dureros somatoform persistent  {Psihalgie}  <Pain disorders related to psychological factors> ~ Tulburare de durere somatoforma
+F48.1   Sindrom de depersonalizare-derealizare  <Depersonalization-derealization syndrome> ~ Depersonalizare
+G21.0   Sindrom malign dupa neuroleptice  <Malignant neuroleptic syndrome> ~ Sindrom neuroleptic malign
+G40.5   Sindroame epileptice in cazuri speciale  {Epilepsia partiala continua [Kozhevnikof]}  <Epileptic seizures related to external causes> ~ Epilepsie focala
+G41.0   Stare de "grand mal" epileptic  {Stare de rau epileptic tonico-clonic} ~ Status epilepticus
+G41.1   Stare de "petit mal" epileptic  {Stare de absenta epileptica} ~ Epilepsie absenta | Status epilepticus
+G41.9   Stare de "mal epileptic", nespecificata ~ Status epilepticus
+G45.0   Sindrom vertebro-bazilar  <Vertebro-basilar artery syndrome> ~ Insuficienta vertebrobazilara
+G45.1   Sindrom carotidian (emisferic)  {emisferic}  <Carotid artery syndrome (hemispheric)> ~ Sindrom carcinoid | Boala coronariana microvasculara | Sincopa de sinus carotidian
+G46.1   Sindromul arterei cerebrale anterioara (I66.1†)  <Anterior cerebral artery syndrome> ~ Sindromul arterei spinale anterioare
+G46.4   Sindrom cerebelos vascular (I60-I67†)  <Cerebellar stroke syndrome> ~ Sindrom cerebelos
+G47.31  Sindromul central al apneei de somn  {Sindromul central al hipoapneei de somn}  <Primary central sleep apnea> ~ Sindrom de apnee centrala | Sindrom de apnee centrala in somn | Apnee in somn | Sindrom de apnee in somn centrala la adult
+G47.32  Sindromul apneei de somn obstructive  {Sindromul hipoapneei de somn obstructive}  <High altitude periodic breathing> ~ Apnee in somn | Sindrom de apnee in somn la copil
+G47.33  Sindromul hipoventilatiei in timpul somnului  <Obstructive sleep apnea (adult) (pediatric)> ~ Sindrom de rezistenta a cailor aeriene superioare
+G56.0   Sindromul canalului carpian  <Carpal tunnel syndrome> ~ Sindrom de tunel carpian
+G83.9   Sindrom paralitic, nespecificat  {Alte afectiuni ale sistemului nervos}  <Paralytic syndrome, unspecified> ~ Stare vegetativa | Candidoza meningeana | Limfom primar al sistemului nervos central | Meningita criptocococica | Neurobruceloza | Neurocisticercoza
+G93.3   Sindromul de oboseala postvirala  {Encefalomielita mialgica benigna}  <Postviral and related fatigue syndromes> ~ Encefalomielita
+H04.5   Stenoza si insuficienta cailor lacrimale  {Dacriolitiaza / Eversiunea punctului lacrimal}  <Stenosis and insufficiency of lacrimal passages> ~ Stenoza de cale lacrimala | Dacriolit
+H49     Strabism paralitic  <Paralytic strabismus> ~ Rabie paralitica
+H50.0   Strabism convergent concomitent  {Esotropia (alternanta) (monoculara), cu exceptia celei intermitente}  <Esotropia> ~ Esotropie
+H50.1   Strabism divergent concomitent  {Exotropia (alternanta) (monoculara), cu exceptia celei intermitente}  <Exotropia> ~ Exotropie
+H61.3   Stenoza dobandita a conductului auditiv extern  {Colapsul conductului auditiv extern}  <Acquired stenosis of external ear canal> ~ Stenoza de conduct auditiv extern | Atrezie de conduct auditiv extern | Polip auricular | Otita externa circumscrisa
+H74.0   Scleroza timpanului  <Tympanosclerosis> ~ Timpanoscleroza
+H90     Surditate de transmisie si neurosenzoriala  <Conductive and sensorineural hearing loss> ~ Surditate de transmisie | Surditate neurosenzoriala | Surditate mixta
+H90.0   Surditate bilaterala de transmisie  <Conductive hearing loss, bilateral> ~ Surditate de transmisie
+H90.1   Surditate unilaterala de transmisie, fara alterarea auditiei celeilalte urechi  <Conductive hearing loss, unilateral with unrestricted hearing on the contralateral side> ~ Surditate de transmisie
+H90.6   Surditate bilaterala mixta de transmisie si neurosensoriala  <Mixed conductive and sensorineural hearing loss, bilateral> ~ Surditate de transmisie | Surditate mixta
+H90.7   Surditate unilaterala mixta de transmisie si neurosensoriala fara alterarea auditiei celeilalte urechi  <Mixed conductive and sensorineural hearing loss, unilateral with unrestricted hearing on the contralateral side> ~ Surditate de transmisie | Surditate mixta
+H90.8   Surditate mixta de transmisie si neurosensoriala, nespecificata  <Mixed conductive and sensorineural hearing loss, unspecified> ~ Surditate de transmisie | Surditate mixta
+I05.2   Stenoza mitrala cu insuficienta  {Stenoza mitrala cu insuficienta sau regurgitare}  <Rheumatic mitral stenosis with insufficiency> ~ Insuficienta mitrala | Stenoza mitrala
+I06.0   Stenoza aortica reumatismala  {Obstructia reumatismala (valva) aortica}  <Rheumatic aortic stenosis> ~ Stenoza aortica
+I06.2   Stenoza aortica reumatismala cu insuficienta  {Stenoza aortica reumatismala cu insuficienta sau regurgitare}  <Rheumatic aortic stenosis with insufficiency> ~ Insuficienta aortica | Stenoza aortica
+I07.2   Stenoza tricuspida cu insuficienta  <Rheumatic tricuspid stenosis and insufficiency> ~ Stenoza tricuspidiana
+I34.2   Stenoza (valvei) mitrala nereumatismala  {valvei}  <Nonrheumatic mitral (valve) stenosis> ~ Stenoza mitrala
+I35.2   Stenoza si insuficienta (valva) aortica  {valva}  <Nonrheumatic aortic (valve) stenosis with insufficiency> ~ Insuficienta aortica | Stenoza aortica
+I36.0   Stenoza nereumatismala (valva) tricuspida  {valva}  <Nonrheumatic tricuspid (valve) stenosis> ~ Stenoza tricuspidiana
+I36.2   Stenoza nereumatismala cu insuficienta valvei tricuspide  <Nonrheumatic tricuspid (valve) stenosis with insufficiency> ~ Insuficienta tricuspidiana | Insuficienta tricuspidiana congenitala | Stenoza tricuspidiana
+I37.2   Stenoza valvei pulmonare cu insuficienta  <Nonrheumatic pulmonary valve stenosis with insufficiency> ~ Boala valvulara pulmonara | Sindrom de insuficienta respiratorie | Stenoza pulmonara
+I45.6   Sindrom de pre-excitatie  {Excitatie anormala atrioventriculara}  <Pre-excitation syndrome> ~ Sindrom de preexcitare
+I46.0   Stop cardiac cu resuscitare reusita ~ Stop cardiac
+I77.1   Stenoza arterelor  <Stricture of artery> ~ Stenoza carotidiana | Stenoza de artera bazilara | Stenoza de artera renala | Stenoza de artera vertebrala | Stenoza de artere pulmonare periferice
+I77.4   Sindromul de compresiune a arterei celiace  <Celiac artery compression syndrome> ~ Sindrom May-Thurner
+J34.2   Sept nazal deviat  {Deflexia sau deviatia septului (nazal) (dobandita)}  <Deviated nasal septum> ~ Decubit de cornet
+J38.6   Stenoza laringelui  <Stenosis of larynx> ~ Stenoza laringiana | Atrezie laringiana
+J63.4   Sideroza  <Siderosis> ~ Bromhidroza | Dermatita disidrozica | Hemosideroza
+J63.5   Stanioza  <Stannosis> ~ Stanoza
+J80     Sindrom de suferinta respiratorie la adult  {Boala membranelor hialine la adult}  <Acute respiratory distress syndrome> ~ Sindrom de detresa respiratorie acuta | Sindrom de detresa respiratorie acuta la nou-nascut
+J95.4   Sindromul Mendelson  <Chemical pneumonitis due to anesthesia> ~ Sindrom Nelson
+K11.2   Sialoadenita  <Sialoadenitis> ~ Sialadenita
+K11.5   Sialolitiaza  {Calcul al glandelor salivare sau canalului salivar / Litiaza glandelor salivare sau canalului salivar}  <Sialolithiasis> ~ Sialolitoza
+K31.1   Stenoza pilorica hipertrofica a adultului  {Stenoza pilorica}  <Adult hypertrophic pyloric stenosis> ~ Estenoza pilorica hipertrofica | Estenoza pilorica | Stenoza aortica
+K58.0   Sindromul intestinului iritabil cu diaree  <Irritable bowel syndrome with diarrhea> ~ Sindrom de intestin iritabil cu diaree | Sindromul intestinului iritabil
+K62.4   Strictura anusului si rectului  {Strictura anusului (sfincter)}  <Stenosis of anus and rectum> ~ Estenoza anala
+K74.1   Scleroza hepatica  <Hepatic sclerosis> ~ Ciroza hepatica | Necroza hepatica | Steatoza hepatica
+K83.4   Spasmul sfincterului Oddi  <Spasm of sphincter of Oddi> ~ Disfunctie a sfincterului Oddi
+K91.5   Sindromul de postcolecistectomie  <Postcholecystectomy syndrome> ~ Stare postcolecistectomie
+L00     Sindromul stafilococic al necrozei epidermice toxice  {Pemfigus neonatal / Boala Ritter}  <Staphylococcal scalded skin syndrome> ~ Necroliza epidermica toxica
+L21.0   Seboreea capului  {Cruste solzoase ale scalpului}  <Seborrhea capitis> ~ Leptospiroza anicterica
+L72.2   Steatochistoza multipla  <Steatocystoma multiplex> ~ Steatocistom | Osteocondrom
+M08.1   Spondilita anchilozanta juvenila  <Juvenile ankylosing spondylitis> ~ Spondilita anchilozanta
+M22.1   Subluxatia recidivanta a rotulei  {Sindrom de compresie patello-femurala}  <Recurrent subluxation of patella> ~ Sindrom patelofemural
+M30.3   Sindromul ganglionilor limfatici muco-cutanati [Kawasaki]  {Kawasaki}  <Mucocutaneous lymph node syndrome [Kawasaki]> ~ Boala Kawasaki
+M31.4   Sindromul crosei aortice [Takayasu]  {Takayasu}  <Aortic arch syndrome [Takayasu]> ~ Arterita Takayasu
+M34.0   Scleroza sistemica progresiva  <Progressive systemic sclerosis> ~ Sclerodermie
+M34.1   Sindromul CR(E)ST  {Asociere a calcinozei, fenomenului / Raynaud, disfunctiei esofagiene, sclerodactiliei, telangiectaziei}  <CR(E)ST syndrome> ~ Sindrom CREST | Sindrom metabolic
+M34.2   Scleroza sistemica datorita unui medicament sau unui produs chimic  <Systemic sclerosis induced by drug and chemical> ~ Sclerodermie
+M41.0   Scolioza idiopatica infantila  <Infantile idiopathic scoliosis> ~ Scolioza idiopatica
+M41.1   Scolioza idiopatica juvenila  {Scolioza adolescentului}  <Juvenile and adolescent idiopathic scoliosis> ~ Scolioza idiopatica | Osteoporoza idiopatica juvenila | Artrita idiopatica juvenila
+M46.1   Sacro-ileita, neclasificata altundeva  <Sacroiliitis, not elsewhere classified> ~ Sacroiliita
+M46.9   Spondilopatia inflamatorie, nespecificata  <Unspecified inflammatory spondylopathy> ~ Colita
+M47.0   Sindromul de compresiune a arterei vertebrale si spinale anterioare (G99.2*)  <Anterior spinal and vertebral artery compression syndromes> ~ Sindromul arterei spinale anterioare
+M48.0   Stenoza canalului medular  {Stenoza caudala}  <Spinal stenosis> ~ Stenoza de conduct auditiv extern | Estenoza anala
+M48.9   Spondilopatia, nespecificata  <Spondylopathy, unspecified> ~ Spondiloartrita seronegativa | Spondiloliza
+M49.1   Spondilita in bruceloza (A23.-†) ~ Bruceloza osoasa
+M62.3   Sindromul de imobilitate (paraplegica)  {paraplegica}  <Immobility syndrome (paraplegic)> ~ Sindrom de hipermobilitate
+M67.3   Sinovita tranzitorie  {Sinovita toxica}  <Transient synovitis> ~ Sinovita tranzitorie de sold | Tiroidita silentioasa
+M94.0   Sindromul jonctiunii condro-costale [Tietze]  {Tietze}  <Chondrocostal junction syndrome [Tietze]> ~ Sindrom Tietze
+N29.0   Sifilisul tardiv al rinichiului (A52.7†) ~ Sifilis tertiar
+N35.0   Strictura uretrala, post-traumatica  <Post-traumatic urethral stricture> ~ Strictura uretrala
+N35.1   Strictura uretrala post-infectioasa, neclasificata altundeva  <Postinfective urethral stricture, not elsewhere classified> ~ Strictura uretrala
+N70     Salpingita si ooforita  <Salpingitis and oophoritis> ~ Boala inflamatorie pelvina
+N93.0   Sangerari postcoitale si de contact  <Postcoital and contact bleeding> ~ Sangerare postcoitala
+P10.4   Sfasiera a tentei creierului mic datorita traumatismului la nastere  <Tentorial tear due to birth injury> ~ Traumatism obstetric
+P24.9   Sindrom de aspiratie in perioada neonatala, nespecificat  {Pneumonia neonatala de aspiratie}  <Neonatal aspiration, unspecified> ~ Sindrom de aspiratie neonatala | Pneumonie congenitala | Pneumonie prin aspiratie
+P28.82  Stenoza subglotica dobandita la nou-nascut  {Stenoza subglotica postintubare la nou-nascut} ~ Stenoza subglotica
+P35.0   Sindrom de rubeola congenitala  {Pneumopatia rubeolei congenitale}  <Congenital rubella syndrome> ~ Rubeola | Sindrom congenital Zika
+P36     Sepsis bacterian la nou-nascut  <Bacterial sepsis of newborn> ~ Sepsis neonatal
+P36.0   Sepsis la nou-nascut cu streptococi, grupa B  <Sepsis of newborn due to streptococcus, group B> ~ Sepsis neonatal | Sepsis neonatal cu streptococ de grup B
+P36.1   Sepsis la nou-nascut cu alti streptococi si nespecificati  <Sepsis of newborn due to other and unspecified streptococci> ~ Sepsis neonatal
+P36.2   Sepsis la nou-nascut cu Staphylococcus aureus  <Sepsis of newborn due to Staphylococcus aureus> ~ Sepsis neonatal | Sepsis stafilococic
+P36.3   Sepsis la nou-nascut cu alti stafilococi si nespecificati  <Sepsis of newborn due to other and unspecified staphylococci> ~ Sepsis neonatal
+P36.4   Sepsis la nou-nascut cu Escherichia coli  <Sepsis of newborn due to Escherichia coli> ~ Sepsis neonatal
+P36.5   Sepsis la nou-nascut datorita anaerobilor  <Sepsis of newborn due to anaerobes> ~ Sepsis neonatal
+P70.0   Sindromul copilului a carui mama are un diabet gestational  <Syndrome of infant of mother with gestational diabetes> ~ Diabet gestational
+P80.0   Sindromul hipotermic al nou-nascutului  <Cold injury syndrome> ~ Hipotermie neonatala
+P83.0   Scleremul nou-nascutului  <Sclerema neonatorum> ~ Scleroedem neonatal | Icter neonatal
+Q05.0   Spina bifida, cervicala, cu hidrocefalie  <Cervical spina bifida with hydrocephalus> ~ Spina bifida
+Q05.1   Spina bifida, toracica, cu hidrocefalie  <Thoracic spina bifida with hydrocephalus> ~ Spina bifida
+Q05.2   Spina bifida, lombara, cu hidrocefalie  {Spina bifida lombo-sacrala cu hidrocefalie}  <Lumbar spina bifida with hydrocephalus> ~ Spina bifida
+Q05.3   Spina bifida sacrala cu hidrocefalie  <Sacral spina bifida with hydrocephalus> ~ Spina bifida
+Q05.4   Spina bifida nespecificata cu hidrocefalie  <Unspecified spina bifida with hydrocephalus> ~ Spina bifida
+Q05.5   Spina bifida cervicala fara hidrocefalie  <Cervical spina bifida without hydrocephalus> ~ Spina bifida
+Q05.6   Spina bifida, toracica fara hidrocefalie  <Thoracic spina bifida without hydrocephalus> ~ Spina bifida
+Q05.7   Spina bifida lombara fara hidrocefalie  {Spina bifida lombaro-sacrala}  <Lumbar spina bifida without hydrocephalus> ~ Spina bifida | Spina bifida oculta
+Q05.8   Spina bifida sacrala fara hidrocefalie  <Sacral spina bifida without hydrocephalus> ~ Spina bifida
+Q07.0   Sindrom Arnold-Chiari  <Arnold-Chiari syndrome> ~ Malformatie Arnold-Chiari | Sindrom Budd-Chiari
+Q10.5   Stenoza sau sclerozarea congenitala a canalului lacrimal  <Congenital stenosis and stricture of lacrimal duct> ~ Stenoza de cale lacrimala
+Q18.0   Sinus, fistula si chist al fisurii branhiale  {Vestigiu branhial}  <Sinus, fistula and cyst of branchial cleft> ~ Chist branhial | Fistula branhiala | Sinus branhial
+Q18.1   Sinus si chist preauricular  <Preauricular sinus and cyst> ~ Fistula preauriculara
+Q22.1   Stenoza congenitala a valvei pulmonare  <Congenital pulmonary valve stenosis> ~ Stenoza pulmonara congenitala | Boala valvulara pulmonara | Stenoza pulmonara | Stenoza aortica congenitala
+Q23.2   Stenoza mitrala congenitala  {Atrezia mitrala congenitala}  <Congenital mitral stenosis> ~ Stenoza mitrala | Estenoza intestinala congenitala | Atrezie de col uterin | Atrezie mitrala | Atrezie nazala congenitala
+Q24.3   Stenoza infundibulului pulmonar  <Pulmonary infundibular stenosis> ~ Stenoza pulmonara
+Q24.4   Stenoza congenitala subaortica  <Congenital subaortic stenosis> ~ Stenoza subaortica
+Q25.3   Stenoza aortei  {Stenoza supravalvulara a aortei}  <Supravalvular aortic stenosis> ~ Stenoza aortica | Stenoza subaortica | Stenoza supravalvulara aortica
+Q25.6   Stenoza arterei pulmonare  <Stenosis of pulmonary artery> ~ Stenoza de artere pulmonare periferice | Stenoza pulmonara | Sindrom de sling pulmonar
+Q26.0   Stenoza congenitala a venei cave  {Stenoza congenitala a venei cave (inferioare)(superioare)}  <Congenital stenosis of vena cava> ~ Stenoza aortica congenitala
+Q27.1   Stenoza congenitala a arterei renale  <Congenital renal artery stenosis> ~ Stenoza de artera renala
+Q31.1   Stenoza congenitala subglotica  <Congenital subglottic stenosis> ~ Stenoza subglotica
+Q32.3   Stenoza congenitala a bronhiilor  <Congenital stenosis of bronchus> ~ Stenoza bronsica | Atrezie bronsica
+Q33.2   Sechestratia pulmonara  <Sequestration of lung> ~ Sechestru pulmonar | Hernie pulmonara
+Q40.0   Stenoza congenitala hipertrofica a pilorului  <Congenital hypertrophic pyloric stenosis> ~ Estenoza pilorica
+Q44.3   Stenoza congenitala si strictura cailor biliare  <Congenital stenosis and stricture of bile ducts> ~ Estenoza biliara
+Q64.32  Strictura congenitala a uretrei  {Strictura congenitala (stenoza) uretrei anterioare / Uretra impermeabila}  <Congenital stricture of urethra> ~ Strictura uretrala
+Q64.33  Strictura congenitala a meatului uretral  <Congenital stricture of urinary meatus> ~ Strictura uretrala
+Q65.5   Subluxatia congenitala a soldului, nespecificata  <Congenital partial dislocation of hip, unspecified> ~ Luxatie congenitala de sold
+Q67.51  Scolioza congenitala, de postura ~ Scolioza congenitala
+Q74.04  Sinostoza radio-cubitala  {Disostoza radio-cubitala} ~ Sindrom Crouzon | Sinostoza radioulnara
+Q74.05  Sinostoza humero-ulnara ~ Sinostoza radioulnara
+Q74.06  Sinostoza humero-radiala ~ Artroza cotului
+Q76.2   Spondilolisteza congenitala si spondiloliza  {Spondiloliza congenitala}  <Congenital spondylolisthesis> ~ Scolioza congenitala | Candidoza neonatala
+Q76.22  Spondiloliza congenitala ~ Scolioza congenitala | Candidoza neonatala
+Q76.3   Scolioza congenitala datorita malformatiilor congenitale ale oaselor  {Fuziunea sau esec de segmentatie cu scolioza}  <Congenital scoliosis due to congenital bony malformation> ~ Scolioza congenitala
+Q76.39  Scolioza congenitala datorita malformatiilor congenitale ale oaselor specificate  {Scolioza congenitala datorita malformatiei congenitale a oaselor / Cifoscolioza datorita malformatiei congenitale a oaselor} ~ Scolioza congenitala
+Q77.2   Sindromul coastei scurte  {Displazia toracica asfixianta [Jeune] / Sindromul Jeune}  <Short rib syndrome> ~ Sindrom aortic acut
+Q79.4   Sindromul intestinului taiat  <Prune belly syndrome> ~ Sindromul intestinului iritabil
+Q86.0   Sindromul (dismorfic) fetal datorita consumului mare de alcool de catre mama in timpul sarcinii  {dismorfic}  <Fetal alcohol syndrome (dysmorphic)> ~ Alcoolism
+Q86.1   Sindromul hidantoinei fetale  {Sindromul Meadow}  <Fetal hydantoin syndrome> ~ Sindrom Down
+Q87.03  Sindromul criptoftalmic  {Sindromul Fraser} ~ Sindrom Frasier | Sindrom Turner | Sindromul pielii oparite
+Q87.25  Sindromul de sirenomelie ~ Sirenomelie
+Q87.84  Sindromul William  <Laurence-Moon syndrome> ~ Sindrom Williams | Leptospiroza icterica
+Q89.3   Situs inversus evocardia (Q24.1)  <Situs inversus> ~ Situs inversus
+Q89.33  Situs inversus abdominal  {Situs transversus abdominal / Transpozitia viscerelor abdominale} ~ Situs inversus
+Q89.34  Situs inversus toracic  {Situs transversus toracic / Transpozitia viscerelor toracice} ~ Situs inversus
+Q91     Sindromul Edwards si sindromul  {Patau}  <Trisomy 18 and Trisomy 13> ~ Trisomia 18 | Trisomia 13
+Q98.0   Sindromul Klinefelter, kariotip 47, XXY  <Klinefelter syndrome karyotype 47, XXY> ~ Sindrom Klinefelter
+===== EXISTA (172)
+A25.0   Spiriloza = Febra muscaturii de sobolan [exact]
+A25.1   Streptobaciloza = Febra de Haverhill [exact]
+A38     Scarlatina = Scarlatina [exact]
+A39.1   Sindromul Waterhouse-Friderichsen (E35.1*) = Sindrom Waterhouse-Friderichsen [terminatii]
+A40     Sepsis streptococic = Sepsis streptococic [exact]
+A41.9   Sepsis, nespecificat = Septicemie [exact]
+A50     Sifilis congenital = Sifilis congenital [exact]
+A50.2   Sifilis congenital precoce, nespecificat = Sifilis congenital [exact]
+A50.7   Sifilis congenital tardiv, nespecificat = Sifilis congenital tardiv [exact]
+A52     Sifilis tardiv = Sifilis tertiar [exact]
+A52.0   Sifilis cardio-vascular = Sifilis cardiovascular [exact]
+A52.3   Sifilis nervos, nespecificat = Neurosifilis [exact]
+A53.0   Sifilis latent, nespecificat ca fiind recent sau tardiv = Sifilis tertiar [exact]
+A53.9   Sifilis, nespecificat = Sifilis [exact]
+A69.0   Stomatita ulcero-necrotica = Stomatita gangrenoasa [exact]
+B27.0   Subfamilie gammaherpesvirusuri (mononucleoza) = Mononucleoza infectioasa [exact]
+B37.0   Stomatita prin Candida = Candidoza orala [terminatii]
+B42     Sporotrichoza = Sporotrichoza [exact]
+B42.0   Sporotrichoza pulmonara = Pneumonie cu Sporothrix [exact]
+B42.7   Sporotrichoza diseminata = Sporotrichoza diseminata [exact]
+B65     Schistosomiaza [bilharziaza] = Schistosomiaza [exact]
+B65.1   Schistosomiaza prin Schistosoma mansoni [schistosomiaza intestinala] = Schistosomiaza intestinala [exact]
+B65.2   Schistosomiaza prin Schistosoma japonicum = Schistosomiaza japoneza [exact]
+B65.9   Schistosomiaza, nespecificata = Schistosomiaza [exact]
+B70.1   Sparganoza = Sparganoza [exact]
+B86     Scabia = Scabie [terminatii]
+C46     Sarcomul Kaposi = Sarcom Kaposi [exact]
+D46     Sindroamele mielodisplazice = Spina bifida [terminatii]
+D46.9   Sindrom mielodisplazic, nespecificat = Spina bifida [exact]
+D58.0   Sferocitoza ereditara = Sferocitoza ereditara [exact]
+D59.3   Sindromul hemolitic uremic = Sindrom hemolitic uremic [terminatii]
+D81.4   Sindrom Nezelof = Sindrom Nezelof [exact]
+D82.0   Sindromul Wiskott-Aldrich = Sindrom Wiskott-Aldrich [terminatii]
+D86     Sarcoidoza = Sarcoidoza [exact]
+D86.3   Sarcoidoza pielii = Sarcoidoza cutanata [exact]
+E16.4   Secretie anormala de gastrina = Gastrinom [terminatii]
+E24     Sindromul Cushing = Sindrom Cushing [terminatii]
+E24.1   Sindromul Nelson = Sindrom Nelson [terminatii]
+E28.2   Sindrom ovarian polichistic = Sindromul ovarelor polichistice [terminatii]
+E34.0   Sindrom carcinoid = Sindrom carcinoid [exact]
+E34.5   Sindromul de rezistenta la androgeni = Sindrom de rezistenta la androgeni [terminatii]
+E79.1   Sindromul Lesch-Nyhan = Sindrom Lesch-Nyhan [terminatii]
+E80.4   Sindromul Gilbert = Boala Gilbert [terminatii]
+F04.9   Sindromul amnezic, nespecificat = Sindrom amnestic [terminatii]
+F07.2   Sindrom postcomotional = Sindrom postcomotional [exact]
+F20     Schizofrenie = Schizofrenie [exact]
+F20.0   Schizofrenia paranoida = Schizofrenie paranoida [terminatii]
+F20.1   Schizofrenie hebefrenica = Schizofrenie hebefrenica [exact]
+F20.2   Schizofrenie catatonica = Schizofrenie catatonica [exact]
+F20.3   Schizofrenie nediferentiata = Schizofrenie nediferentiata [exact]
+F20.5   Schizofrenie reziduala = Schizofrenie reziduala [exact]
+F20.6   Schizofrenie simpla = Schizofrenie simpla [exact]
+F44.80  Sindromul Ganser = Sindrom Ganser [terminatii]
+F51.3   Somnambulism [mersul prin somn] = Somnambulism [exact]
+F84.2   Sindromul Rett = Sindrom Rett [terminatii]
+F84.5   Sindromul Asperger = Sindrom Asperger [terminatii]
+G35     Scleroza multipla = Scleroza multipla [exact]
+G37.0   Scleroza difuza = Boala Schilder [exact]
+G37.5   Scleroza concentrica [Baló] = Scleroza concentrica Balo [exact]
+G41     Stare de rau epileptic = Status epilepticus [terminatii]
+G44.0   Sindromul durerii de cap unilaterale (ochi sau tampla) = Hemicrania paroxistica [exact]
+G61.0   Sindromul Guillain-Barre = Poliradiculonevrita [terminatii]
+G73.1   Sindromul Lambert-Eaton (C80†) = Sindrom Eaton-Lambert [terminatii]
+G90.2   Sindromul Horner = Sindrom Horner [terminatii]
+G93.7   Sindromul Reye = Sindrom Reye [exact]
+H15.0   Sclerita = Sclerita [exact]
+H50.2   Strabism vertical = Hipertropie [exact]
+H50.9   Strabism, nespecificat = Strabism [exact]
+H90.2   Surditate de transmisie, nespecificata = Surditate de transmisie [exact]
+H90.5   Surditate neurosensoriala, nespecificata = Surditate congenitala [exact]
+I05.0   Stenoza mitrala = Stenoza mitrala [exact]
+I07.0   Stenoza tricuspida = Stenoza tricuspidiana [exact]
+I24.1   Sindromul Dressler = Sindrom Dressler [terminatii]
+I35.0   Stenoza (valva) aortica = Stenoza aortica [exact]
+I37.0   Stenoza valvei pulmonarei = Stenoza pulmonara [terminatii]
+I46     Stop cardiac = Stop cardiac [exact]
+I73.0   Sindromul Raynaud = Boala Raynaud [terminatii]
+I82.0   Sindromul Budd-Chiari = Sindrom Budd-Chiari [terminatii]
+I87.0   Sindromul postflebitic = Sindrom posttrombotic [terminatii]
+I97.0   Sindromul postcardiotomie = Sindrom postpericardiotomie [terminatii]
+I98.0   Sifilis cardiovascular = Sifilis cardiovascular [exact]
+J01     Sinuzita acuta = Sinuzita [exact]
+J01.0   Sinuzita maxilara acuta = Sinuzita maxilara [exact]
+J01.1   Sinuzita frontala acuta = Sinuzita frontala [exact]
+J01.2   Sinuzita etmoidala acuta = Sinuzita etmoidala [temporal (G1)]
+J01.3   Sinuzita sfenoidala acuta = Sinuzita sfenoidala [temporal (G1)]
+J32     Sinuzita cronica = Sinuzita [exact]
+J32.0   Sinuzita maxilara cronica = Sinuzita maxilara [temporal (G1)]
+J32.1   Sinuzita frontala cronica = Sinuzita frontala [temporal (G1)]
+J32.2   Sinuzita etmoidala cronica = Sinuzita etmoidala [temporal (G1)]
+J32.3   Sinuzita sfenoidala cronica = Sinuzita sfenoidala [temporal (G1)]
+J38.5   Spasm laringian = Laringism [exact]
+J46     Stare de "mal" astmatic = Astm bronsic sever [temporal (G1)]
+K22.6   Sindrom de dilacerare hemoragica gastro-esofagiana = Sindrom Mallory-Weiss [exact]
+K31.3   Spasm piloric, neclasificat altundeva = Hipertrofie de pilor [exact]
+K58     Sindromul intestinului iritabil = Sindromul intestinului iritabil [exact]
+K58.9   Sindromul intestinului iritabil fara diaree = Sindromul intestinului iritabil [exact]
+K59.4   Spasm anal = Proctalgie fugace [terminatii]
+K76.7   Sindromul hepato-renal = Insuficienta hepato-renala [terminatii]
+K90.1   Sprue tropical = Sprue tropical [exact]
+L94.0   Sclerodermia localizata [morfea] = Morfea [exact]
+M05.0   Sindrom Felty = Sindrom Felty [exact]
+M34     Scleroza sistemica = Sclerodermie [exact]
+M35.0   Sindrom Sicca [Sjogren] = Sindrom Sjogren [exact]
+M35.7   Sindrom de hipermobilitate = Sindrom de hipermobilitate [exact]
+M41     Scolioza = Scolioza [exact]
+M43.0   Spondiloliza = Spondiloliza [exact]
+M43.1   Spondilolisteza = Spondilolisteza [exact]
+M45     Spondilita anchilozanta = Spondilita anchilozanta [exact]
+M47     Spondiloza = Spondiloza [exact]
+M54.3   Sciatica = Sciatica [exact]
+N00     Sindrom nefritic acut = Sindrom nefritic [exact]
+N03     Sindrom nefritic cronic = Sindrom nefritic [temporal (G1)]
+N04     Sindrom nefrotic = Sindrom nefrotic [exact]
+N05     Sindrom nefritic nespecificat = Sindrom nefritic [exact]
+N34.3   Sindrom uretral, nespecificat = Sindrom uretral [exact]
+N35     Strictura uretrala = Strictura uretrala [exact]
+N43.4   Spermatocel = Spermatocel [exact]
+N70.1   Salpingita si ooforita cronica = Hidrosalpinx [exact]
+N85.6   Sinechia intrauterina = Sinechii uterine [terminatii]
+N94.3   Sindrom de tensiune premenstruala = Sindrom premenstrual [exact]
+N95.0   Sangerari postmenopauza = Sangerare postmenopauza [terminatii]
+O00     Sarcina ectopica = Sarcina extrauterina [exact]
+O00.0   Sarcina abdominala = Sarcina abdominala [exact]
+O00.1   Sarcina tubara = Sarcina extrauterina [exact]
+O00.2   Sarcina ovariana = Sarcina ovariana [exact]
+O48     Sarcina prelungita = Sarcina depasita [exact]
+O85     Sepsis puerperal = Sepsis puerperal [exact]
+P22.0   Sindromul de suferinta respiratorie a nou-nascutului = Sindrom de detresa respiratorie acuta la nou-nascut [terminatii]
+P24     Sindrom de aspiratie neonatal = Sindrom de aspiratie neonatala [terminatii]
+P76.0   Sindromul dopului meconial = Ileus meconial [exact]
+Q05     Spina bifida = Spina bifida [exact]
+Q22.4   Stenoza congenitala a valvei tricuspide = Atrezie tricuspidiana [exact]
+Q23.0   Stenoza congenitala a valvei aortice = Stenoza aortica congenitala [exact]
+Q60.6   Sindrom Potter = Secventa Potter [exact]
+Q70     Sindactilia = Sindactilie [exact]
+Q74.85  Sindromul Larsen = Sindrom Larsen [terminatii]
+Q75.05  Sindromul Pfeiffer = Sindrom Pfeiffer [terminatii]
+Q76.0   Spina bifida occulta = Spina bifida oculta [exact]
+Q76.1   Sindromul Klippel-Feil = Malformatie Klippel-Feil [terminatii]
+Q79.6   Sindromul Ehlers-Danlos = Boala Ehlers-Danlos [terminatii]
+Q85.1   Scleroza tuberoasa = Scleroza tuberoasa [exact]
+Q85.81  Sindromul Peutz-Jeghers = Sindrom Peutz-Jeghers [terminatii]
+Q85.82  Sindromul Sturge-Weber(-Dimitri) = Sindrom Sturge-Weber [terminatii]
+Q85.83  Sindromul Von Hippel-Lindau = Sindrom Von Hippel-Lindau [terminatii]
+Q85.84  Sindromul Gardner = Sindrom Gardner [terminatii]
+Q87.04  Sindromul Treacher Collins [-Franceschetti] [-Klein] = Sindrom Treacher Collins [terminatii]
+Q87.11  Sindromul Cockayne = Sindrom Cockayne [terminatii]
+Q87.12  Sindromul Cornelia de Lange = Sindrom Cornelia de Lange [terminatii]
+Q87.13  Sindromul Noonan = Sindrom Noonan [terminatii]
+Q87.14  Sindromul Prader-Willi = Sindrom Prader-Willi [exact]
+Q87.15  Sindromul Russell-Silver = Sindrom Silver-Russell [terminatii]
+Q87.16  Sindromul Seckel = Sindrom Seckel [terminatii]
+Q87.17  Sindromul Smith-Lemli-Opitz = Sindrom Smith-Lemli-Opitz [terminatii]
+Q87.18  Sindromul Sjogren-Larsson = Sindrom Sjogren-Larsson [terminatii]
+Q87.22  Sindromul Klippel-Trenaunay-Weber = Sindrom Klippel-Trenaunay [terminatii]
+Q87.24  Sindromul Rubinstein-Taybi = Sindrom Rubinstein-Taybi [terminatii]
+Q87.31  Sindromul Beckwith-Wiedemann = Sindrom Beckwith-Wiedemann [terminatii]
+Q87.32  Sindromul Sotos = Sindrom Sotos [terminatii]
+Q87.33  Sindromul Weaver = Sindrom Weaver [terminatii]
+Q87.4   Sindromul Marfan = Sindrom Marfan [exact]
+Q87.81  Sindromul Alport = Sindrom Alport [terminatii]
+Q87.82  Sindromul Laurence-Moon-Biedl = Sindrom Bardet-Biedl [terminatii]
+Q87.83  Sindromul Zellweger = Sindrom Zellweger [terminatii]
+Q87.85  Sindromul Angelman = Sindrom Angelman [exact]
+Q89.30  Situs inversus, nespecificat = Situs inversus [exact]
+Q89.35  Sindromul Kartagener = Sindrom Kartagener [terminatii]
+Q90     Sindromul Down = Sindrom Down [exact]
+Q91.3   Sindromul Edwards, nespecificat = Trisomia 18 [terminatii]
+Q91.7   Sindromul Patau, nespecificat = Trisomia 13 [terminatii]
+Q96     Sindromul Turner = Sindrom Turner [exact]
+Q98.4   Sindromul Klinefelter, nespecificat = Sindrom Klinefelter [exact]
+===== ELIMINAT (96)
+A03.9   Shigelloza, nespecificata [dublura categoriei parinte (nespecificat)]
+A40.9   Sepsis streptococic, nespecificat [dublura categoriei parinte (nespecificat)]
+A50.9   Sifilis congenital, nespecificat [dublura categoriei parinte (nespecificat)]
+A51.9   Sifilis precoce, nespecificat [dublura categoriei parinte (nespecificat)]
+A52.9   Sifilis tardiv, nespecificat [dublura categoriei parinte (nespecificat)]
+B42.9   Sporotrichoza, nespecificata [dublura categoriei parinte (nespecificat)]
+B78.9   Strongyloidiaza, nespecificata [dublura categoriei parinte (nespecificat)]
+B90     Sechelele tuberculozei [sechele]
+B90.0   Sechelele tuberculozei sistemului nervos central [sechele]
+B90.1   Sechelele tuberculozei genito-urinare [sechele]
+B90.2   Sechelele tuberculozei osoase si articulatiilor [sechele]
+B90.8   Sechelele tuberculozei altor organe [sechele]
+B90.9   Sechelele tuberculozei respiratorii si nespecificate [sechele]
+B91     Sechelele poliomielitei [sechele]
+B92     Sechelele leprei [sechele]
+B94     Sechelele altor boli infectioase si parazitare si nespecificate [sechele]
+B94.0   Sechelele trahomului [sechele]
+B94.1   Sechelele encefalitei virale [sechele]
+B94.2   Sechelele hepatitei virale [sechele]
+B94.8   Sechelele altor boli infectioase si parazitare specificate [sechele]
+B94.9   Sechelele unor boli infectioase si parazitare nespecificate [sechele]
+B95     Streptococ si stafilococ drept cauza a altor boli clasificate la alte capitole [agent cauzal, nu boala]
+C10.0   Santul (foseta) gloso-epiglotic [subzona de organ (D5)]
+C16.9   Stomacul, nespecificat [subzona de organ (D5)]
+C26.1   Splina [subzona de organ (D5)]
+C31.0   Sinusul maxilar [subzona de organ (D5)]
+C31.1   Sinusul etmoidal [subzona de organ (D5)]
+C31.2   Sinusul frontal [subzona de organ (D5)]
+C31.3   Sinusul sfenoidal [subzona de organ (D5)]
+C31.9   Sinus accesoriu, nespecificat [subzona de organ (D5)]
+C32.1   Supraglota [subzona de organ (D5)]
+C32.2   Subglota [subzona de organ (D5)]
+C46.9   Sarcomul Kaposi, nespecificat [dublura categoriei parinte (nespecificat)]
+C50.9   San, nespecificat [subzona de organ (D5)]
+C63.2   Scrot [subzona de organ (D5)]
+C72.9   Sistem nervos central, nespecificat [subzona de organ (D5)]
+C74.9   Suprarenala, nespecificata [subzona de organ (D5)]
+C81.1   Scleroza nodulara [subzona de organ (D5)]
+D00.2   Stomac [subzona de organ (D5)]
+D02.4   Sistem respirator, nespecificat [subzona de organ (D5)]
+D13.1   Stomac [subzona de organ (D5)]
+D14.4   Sistemul respirator, nespecificat [subzona de organ (D5)]
+D29.4   Scrot [subzona de organ (D5)]
+D33.9   Sistem nervos central, nespecificat [subzona de organ (D5)]
+D35.0   Suprarenala [subzona de organ (D5)]
+D37.1   Stomac [subzona de organ (D5)]
+D37.9   Sistem digestiv, nespecificat [subzona de organ (D5)]
+D43.9   Sistem nervos central, nespecificat [subzona de organ (D5)]
+D44.1   Suprarenala [subzona de organ (D5)]
+D48.6   San [subzona de organ (D5)]
+D86.9   Sarcoidoza, nespecificata [dublura categoriei parinte (nespecificat)]
+E00.9   Sindromul deficientei congenitale de iod, nespecificat [dublura categoriei parinte (nespecificat)]
+E24.9   Sindromul Cushing, nespecificat [dublura categoriei parinte (nespecificat)]
+E64     Sechele ale malnutritiei si alte carente nutritionale [sechele]
+E64.0   Sechele ale malnutritiei proteino-energetica [sechele]
+E64.1   Sechele ale avitaminozei A [sechele]
+E64.2   Sechele ale avitaminozei C [sechele]
+E64.3   Sechele de rahitism [sechele]
+E64.8   Sechele ale altor carente nutritionale [sechele]
+E64.9   Sechele de carente nutritionale nespecificate [sechele]
+E68     Sechele ale excesului de aport [sechele]
+F20.9   Schizofrenia, nespecificata [dublura categoriei parinte (nespecificat)]
+G09     Sechelele bolilor inflamatorii ale sistemului nervos central [sechele]
+G73.3   Sindromul miastenic in alte boli clasificate altundeva [asterisc (in alte boli)]
+H19.0   Sclerita si episclerita in boli clasificate altundeva [asterisc (in alte boli)]
+H26.4   Sechele de cataracta [sechele]
+H49.9   Strabism paralitic, nespecificat [dublura categoriei parinte (nespecificat)]
+I46.9   Stop cardiac, nespecificat [dublura categoriei parinte (nespecificat)]
+I69     Sechele ale bolilor cerebrovasculare [sechele]
+I69.0   Sechelele hemoragiei subarahnoide [sechele]
+I69.1   Sechelele hemoragiei intracerebrale [sechele]
+I69.2   Sechelele altor hemoragii intracraniene netraumatice [sechele]
+I69.3   Sechelele infarctului cerebral [sechele]
+I69.4   Sechelele ictusului, nespecificat ca hemoragie sau infarct [sechele]
+I69.8   Sechelele altor boli cerebrovasculare si nespecificate [sechele]
+J01.9   Sinuzita acuta, nespecificata [dublura categoriei parinte (nespecificat)]
+J32.9   Sinuzita cronica, nespecificata [dublura categoriei parinte (nespecificat)]
+J95.5   Stenoza subglotica postprocedurala [procedura]
+M34.9   Scleroza sistemica, nespecificata [dublura categoriei parinte (nespecificat)]
+M41.9   Scolioza, nespecificata [dublura categoriei parinte (nespecificat)]
+M47.9   Spondiloza, nespecificata [dublura categoriei parinte (nespecificat)]
+M49     Spondilopatia in boli clasificate altundeva [asterisc (in alte boli)]
+M49.8   Spondilopatia in alte boli clasificate altundeva [asterisc (in alte boli)]
+M65.9   Sinovita si tenosinovita, nespecificate [dublura categoriei parinte (nespecificat)]
+N35.9   Strictura uretrala, nespecificata [dublura categoriei parinte (nespecificat)]
+N70.9   Salpingita si ooforita, nespecificate [dublura categoriei parinte (nespecificat)]
+N99.1   Strictura uretrala postprocedurala [procedura]
+O00.9   Sarcina ectopica, nespecificata [dublura categoriei parinte (nespecificat)]
+O30.9   Sarcina multipla, nespecificata [dublura categoriei parinte (nespecificat)]
+O94     Sechele ale complicatiilor sarcinii, nasterii si lauziei [sechele]
+P22.9   Suferinta respiratorie a nou-nascutului, nespecificata [dublura categoriei parinte (nespecificat)]
+P36.9   Sepsis bacterian la nou-nascut, nespecificat [dublura categoriei parinte (nespecificat)]
+Q05.9   Spina bifida, nespecificata [dublura categoriei parinte (nespecificat)]
+Q70.9   Sindactilia, nespecificata [dublura categoriei parinte (nespecificat)]
+Q90.9   Sindromul Down, nespecificat [dublura categoriei parinte (nespecificat)]
+Q96.9   Sindromul Turner, nespecificat [dublura categoriei parinte (nespecificat)]

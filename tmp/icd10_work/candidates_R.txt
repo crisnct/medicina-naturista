@@ -1,0 +1,161 @@
+===== NOU (72)
+A79.9   Rickettsioza, nespecificata  {Infactia prin Rickettsioze / Infectii virale ale sistemului nervos central}  <Rickettsiosis, unspecified>
+A82.0   Rabia de padure  <Sylvatic rabies>
+A82.1   Rabia citadina  <Urban rabies>
+B05.1   Rujeola complicata cu meningita  {Meningita postmorbilioasa}  <Measles complicated by meningitis>
+B05.2   Rujeola complicata cu pneumonie  {Pneumonia postmorbilioasa}  <Measles complicated by pneumonia>
+B05.4   Rujeola cu complicatii intestinale  <Measles with intestinal complications>
+B05.8   Rujeola cu alte complicatii  {Rujeola cu keratita si keratoconjunctivita†}  <Measles with other complications>
+E55.0   Rahitism evolutiv  <Rickets, active>
+F43     Reactie la stress sever si tulburari de adaptare  <Reaction to severe stress, and adjustment disorders>
+F43.9   Reactie la un factor de stress sever, nespecificata  <Reaction to severe stress, unspecified>
+F55.6   Remedii specifice din plante sau populare
+F71     Retardare mentala moderata  <Moderate intellectual disabilities>
+F73     Retardare mentala profunda  <Profound intellectual disabilities>
+F79     Retardare mentala nespecificata  {Tulburari de dezvoltare psihologica}  <Unspecified intellectual disabilities>
+H05.5   Retentia(veche)de corp strain ca urmare a unei plagi penetrante a orbitei  {veche / Corp strain retro-ocular}  <Retained (old) foreign body following penetrating wound of orbit>
+H33.1   Retinoschisis si chisturi retiniene  {Chist marginea anterioara a retinei senzoriale / Chist parazitar al retinei / Pseudochist al retinei}  <Retinoschisis and retinal cysts>
+H35.0   Retinopatia de fond si modificarile vasculare ale retinei  {Schimbari in aparitia vaselor retiniene}  <Background retinopathy and retinal vascular changes>
+H44.6   Retentia (veche) intraoculara de corp strain magnetic  {veche / Retentia (veche) intraoculara de corp strain}  <Retained (old) intraocular foreign body, magnetic>
+H44.7   Retentia (veche) intraoculara de corp strain nonmagnetic  {veche / Retentia (veche) intraoculara de corp strain}  <Retained (old) intraocular foreign body, nonmagnetic>
+I51.1   Ruptura coardei tendinoase, neclasificata altundeva  <Rupture of chordae tendineae, not elsewhere classified>
+I51.2   Ruptura muschiului papilar, neclasificata altundeva  <Rupture of papillary muscle, not elsewhere classified>
+J31     Rinita, rino-faringita si faringita cronica  <Chronic rhinitis, nasopharyngitis and pharyngitis>
+J39.3   Reactia de hipersensibilitate a cailor respiratorii superioare, localizare nespecificata  <Upper respiratory tract hypersensitivity reaction, site unspecified>
+K03.3   Rezorbtia patologica a dintilor  {Granulom intern al pulpei / Rezorbtia dentara (externa)}  <Pathological resorption of teeth>
+K06.0   Rectratia gingivala  <Gingival recession>
+K08.3   Radacina dentara restanta  <Retained dental root>
+L56.0   Reactia fototoxica la un medicament  <Drug phototoxic response>
+M54.6   Rahialgie toracica  <Pain in thoracic spine>
+M66     Ruptura spontana a sinoviei si tendonului  <Spontaneous rupture of synovium and tendon>
+M66.2   Ruptura spontana a tendoanelor extensoare  <Spontaneous rupture of extensor tendons>
+M66.3   Ruptura spontana a tendoanelor flexoare  <Spontaneous rupture of flexor tendons>
+M66.4   Ruptura spontana a altor tendoane
+M66.5   Ruptura spontana a unui tendon nespecificat  {Ruptura jonctiunii musculo-tendinoase, nontraumatica}
+N26     Rinichi scleros nespecificat  {Atrofia rinichiului (terminala) / Scleroza renala}  <Unspecified contracted kidney>
+N27.0   Rinichi mic, unilateral  <Small kidney, unilateral>
+N27.1   Rinichi mic, bilateral  <Small kidney, bilateral>
+N32.4   Ruptura vezicii urinare, netraumatica
+O26.3   Retentia unui dispozitiv contraceptiv intrauterin in sarcina  <Retained intrauterine contraceptive device in pregnancy>
+O28.0   Rezultate hematologice anormale ale screening-ului prenatal al mamei  <Abnormal hematological finding on antenatal screening of mother>
+O28.1   Rezultate biochimice anormale ale screening-ului prenatal al mamei  <Abnormal biochemical finding on antenatal screening of mother>
+O28.2   Rezultate citologice anormale ale screening-ului prenatal al mamei  <Abnormal cytological finding on antenatal screening of mother>
+O28.3   Rezultate ecografice anormale ale screening-ului prenatal al mamei  <Abnormal ultrasonic finding on antenatal screening of mother>
+O28.4   Rezultate radiologice anormale ale screening-ului prenatal al mamei  <Abnormal radiological finding on antenatal screening of mother>
+O28.5   Rezultate cromozomice si genetice anormale ale screening-ului prenatal al mamei  <Abnormal chromosomal and genetic finding on antenatal screening of mother>
+O28.9   Rezultat anormal constatat la screening-ul prenatal al mamei, nespecificat  <Unspecified abnormal findings on antenatal screening of mother>
+O29.3   Reactia toxica la anestezia locala in timpul sarcinii  <Toxic reaction to local anesthesia during pregnancy>
+O42.0   Ruperea prematura a membranelor, cu debutul travaliului in 24 ore  <Premature rupture of membranes, onset of labor within 24 hours of rupture>
+O42.1   Ruperea prematura a membranelor, cu debutul travaliului dupa 24 ore  <Premature rupture of membranes, onset of labor more than 24 hours following rupture>
+O42.11  Ruperea prematura a membranelor, cu debutul travaliului intre 1-7 zile mai tarziu  <Preterm premature rupture of membranes, onset of labor more than 24 hours following rupture>
+O42.12  Ruperea prematura a membranelor, cu debutul travaliului dupa mai mult de 7 zile  <Full-term premature rupture of membranes, onset of labor more than 24 hours following rupture>
+O74.4   Reactia toxica a unei anestezii locale in timpul travaliului si nasterii  <Toxic reaction to local anesthesia during labor and delivery>
+O89.3   Reactia toxica la o anestezie locala in timpul lauziei  <Toxic reaction to local anesthesia during the puerperium>
+P92.1   Regurgitarea si ruminarea la nou-nascut  <Regurgitation and rumination of newborn>
+P93     Reactii si intoxicatii datorita administrarii de medicamente la fat si nou-nascut  {Sindromul Grey din cauza cloramfenicolului administrat la nou-nascut}  <Reactions and intoxications due to drugs administered to newborn>
+Q43.31  Rotatia colonului
+Q61.5   Rinichi chistic medular  <Medullary cystic kidney>
+Q61.50  Rinichi chistic medular, nespecificat  {Rinichi spongios}
+Q61.52  Rinichi chistic medular tip adult
+Q62.7   Reflux congenital vezico-uretero-renal  <Congenital vesico-uretero-renal reflux>
+Q62.70  Reflux congenital vezico-uretero-renal, nespecificat
+Q62.71  Reflux congenital vezico-uretero-renal, unilateral
+Q62.72  Reflux congenital vezico-uretero-renal, bilateral
+Q63.0   Rinichi accesoriu  <Accessory kidney>
+Q63.01  Rinichi dublu  {Dublarea rinichiului}
+Q63.02  Rinichi triplu  {Triplarea rinichiului}
+Q63.1   Rinichi lobular, contopit si in forma de copita de cal  <Lobulated, fused and horseshoe kidney>
+Q63.11  Rinichi in forma de copita de cal
+Q63.3   Rinichi hiperplazic sau gigant  <Hyperplastic and giant kidney>
+Q95     Rearanjare echilibrata si markeri structurali, neclasificati altundeva  <Balanced rearrangements and structural markers, not elsewhere classified>
+Q95.2   Rearanjamente autosomale echilibrate la indivizi anormali  <Balanced autosomal rearrangement in abnormal individual>
+Q95.3   Rearanjamente sex/autosomale echilibrate la indivizi anormali  <Balanced sex/autosomal rearrangement in abnormal individual>
+Q95.9   Rearanjamente echilibrate si markeri structurali, nespecificati  <Balanced rearrangement and structural marker, unspecified>
+===== POSIBIL (49)
+A79.1   Rickettsioza variceliforma prin Rickettsia akari  {Febra de Kew Garden}  <Rickettsialpox due to Rickettsia akari> ~ Rickettsioza variceliforma
+B05.0   Rujeola complicata cu encefalita  {Encefalita postmorbilioasa}  <Measles complicated by encephalitis> ~ Encefalita rujeolasa | Encefalita cu virus varicela-zoster | Encefalita postinfectioasa
+B05.3   Rujeola complicata cu otita medie  {Otita medie postmorbilioasa}  <Measles complicated by otitis media> ~ Otita medie
+B06.0   Rubeola cu complicatii neurologice  <Rubella with neurological complications> ~ Encefalita rubeolica
+B06.8   Rubeola cu alte complicatii  <Rubella with other complications> ~ Encefalita rubeolica
+E09     Reglementarea intolerantei la glucoza  <Drug or chemical induced diabetes mellitus> ~ Intoleranta la glucoza
+E09.0   Reglementarea intolerantei la glucoza cu angiopatie periferica  <Drug or chemical induced diabetes mellitus with hyperosmolarity> ~ Intoleranta la glucoza
+E09.01  Reglementarea intolerantei la glucoza cu angiopatie periferica fara gangrena  <Drug or chemical induced diabetes mellitus with hyperosmolarity with coma> ~ Intoleranta la glucoza
+E09.02  Reglementarea intolerantei la glucoza cu angiopatie periferica cu gangrena ~ Intoleranta la glucoza
+E09.1   Reglementarea intolerantei la glucoza cu caracteristici de rezistenta la insulina  <Drug or chemical induced diabetes mellitus with ketoacidosis> ~ Intoleranta la glucoza | Rezistenta la insulina
+E09.8   Reglementarea intolerantei la glucoza cu complicatii nespecificate  <Drug or chemical induced diabetes mellitus with unspecified complications> ~ Intoleranta la glucoza
+E09.9   Reglementarea intolerantei la glucoza fara complicatii  <Drug or chemical induced diabetes mellitus without complications> ~ Intoleranta la glucoza
+F43.0   Reactie acuta la stress  <Acute stress reaction> ~ Psihoza reactiva | Tulburare de stres acut
+F70     Retardare mentala usoara  <Mild intellectual disabilities> ~ Retard mintal usor
+F72     Retardare mentala severa  <Severe intellectual disabilities> ~ Retard mintal sever
+H33.3   Ruptura retiniana fara dezlipire  {Ruptura in poctoava de cal a retinei, fara dezlipire / Gaura rotunda a retinei, fara dezlipire / Opercul / Ruptura retiniana}  <Retinal breaks without detachment> ~ Dezlipire de retina
+H35.1   Retinopatia prematuritatii  {Fibroplazia retrolentala}  <Retinopathy of prematurity> ~ Retinopatie de prematuritate
+I00     Reumatismul articular acut fara mentionarea complicatiilor cardiace  {Artrita, reumatica, acuta sau subacuta}  <Rheumatic fever without heart involvement> ~ Cardiopatie reumatica | Febra reumatica | Reumatism
+I01     Reumatismul articular acut cu complicatii cardiace  <Rheumatic fever with heart involvement> ~ Cardiopatie reumatica | Febra reumatica | Reumatism
+I23.3   Ruptura peretului cardiac fara hemopericard ca o complicatie curenta urmand infarctului miocardic acut  <Rupture of cardiac wall without hemopericardium as current complication following acute myocardial infarction> ~ Infarct miocardic | Ruptura de miocard
+I23.4   Ruptura unei corzi tendinoase ca o complicatie curenta urmand infarctului miocardic acut  <Rupture of chordae tendineae as current complication following acute myocardial infarction> ~ Infarct miocardic
+I23.5   Ruptura muschiului papilar ca o complicatie curenta urmand infarctului miocardic acut  <Rupture of papillary muscle as current complication following acute myocardial infarction> ~ Infarct miocardic
+I77.2   Ruptura arterelor  {Eroziunea arteriala / Fistula arteriala / Ulceratia arteriala}  <Rupture of artery> ~ Arterioscleroza | Eroziune de col uterin
+J00     Rino-faringita acuta [guturaiul comun]  {guturaiul comun / Coriza (acuta) / Catar nazal, acut}  <Acute nasopharyngitis [common cold]> ~ Raceala | Faringita | Nazofaringita virala
+J30     Rinita alergica si vasomotorie  <Vasomotor and allergic rhinitis> ~ Rinita alergica | Rinita vasomotorie
+J30.1   Rinita alergica datorita polenului  {Alergia datorita polenului / Guturai 'de fan' / Polinoza}  <Allergic rhinitis due to pollen> ~ Rinita alergica | Rinita alergica sezoniera | Alergie la polen
+J31.1   Rino-faringita cronica  <Chronic nasopharyngitis> ~ Nazofaringita cronica | Faringita
+J90     Revarsare pleurala, neclasificata altundeva  {Pleurita cu efuziune}  <Pleural effusion, not elsewhere classified> ~ Pleurezie de cauza virala
+K51.2   Rectita (cronica) ulceroasa  {cronica}  <Ulcerative (chronic) proctitis> ~ Cistita hemoragica | Proctita ulcerativa | Sindromul de ulcere recidivante
+L43.2   Reactia lichenoida la medicamente  <Lichenoid drug reaction> ~ Alergie medicamentoasa
+L56.1   Reactia fotoalergica la un medicament  <Drug photoallergic response> ~ Alergie medicamentoasa
+L58     Radiodermatita  <Radiodermatitis> ~ Dermatita actinica cronica | Radiodermita
+L58.0   Radiodermatita acuta  <Acute radiodermatitis> ~ Dermatita actinica cronica
+M25.6   Rigiditate articulara, neclasificata altundeva  <Stiffness of joint, not elsewhere classified> ~ Ankiloza articulatiei
+M66.0   Ruptura unui chist popliteu  <Rupture of popliteal cyst> ~ Chist popliteu
+M66.1   Ruptura sinoviei  {Ruptura chistului sinovial}  <Rupture of synovium> ~ Chist sinovial | Ruptura de chist ovarian
+N27     Rinichi mic de cauza necunoscuta  <Small kidney of unknown cause> ~ Anemie de cauza necunoscuta
+N27.9   Rinichi mic, nespecificat  <Small kidney, unspecified> ~ Nefroptoza
+O42.2   Ruperea prematura a membranelor, travaliu intarziat prin tratament ~ Nastere prematura
+O42.9   Ruperea prematura a membranelor, nespecificata  <Premature rupture of membranes, unspecified as to length of time between rupture and onset of labor> ~ Ruptura prematura de membrane
+O71.0   Ruptura uterului inainte de debutul travaliului  <Rupture of uterus (spontaneous) before onset of labor> ~ Ruptura uterina
+O71.1   Ruptura uterului in timpul travaliului  {Ruptura uterului ca survenind inainte de debutul travaliului}  <Rupture of uterus during labor> ~ Ruptura uterina
+O73     Retentia de placenta si de membrane, fara hemoragie  <Retained placenta and membranes, without hemorrhage> ~ Retentie de placenta
+O73.0   Retentia placentei fara hemoragie  <Retained placenta without hemorrhage> ~ Retentie de placenta
+O73.1   Retentia partiala a placentei si a membranelor, fara hemoragie  {Retentia produselor de conceptie urmand nasterii, fara hemoragie}  <Retained portions of placenta and membranes, without hemorrhage> ~ Retentie de placenta
+Q61.1   Rinichi polichistic, autosomal recesiv  {Rinichi polichistic, tip infantil}  <Polycystic kidney, infantile type> ~ Boala polichistica renala autozomal recesiva | Boala polichistica renala autozomal dominanta
+Q61.2   Rinichi polichistic, autosomal dominant  {Rinichi polichistic, tip adult}  <Polycystic kidney, adult type> ~ Boala polichistica renala autozomal dominanta | Boala polichistica renala autozomal recesiva
+Q61.3   Rinichi polichistic, nespecificat  <Polycystic kidney, unspecified> ~ Boala polichistica renala autozomal dominanta | Boala polichistica renala autozomal recesiva
+Q63.21  Rinichi pelvian ~ Rinichi ectopic
+===== EXISTA (19)
+A82     Rabia = Rabie [terminatii]
+B05     Rujeola = Pojar [exact]
+B05.9   Rujeola, fara complicatii = Pojar [exact]
+B06     Rubeola [rujeola germana] = Rubeola [exact]
+B06.9   Rubeola, fara complicatii = Rubeola [exact]
+B48.1   Rinosporidioza = Rinosporidioza [exact]
+J30.0   Rinita vasomotorie = Rinita vasomotorie [exact]
+J30.4   Rinita alergica, nespecificata = Rinita alergica [exact]
+J31.0   Rinita cronica = Rinita [exact]
+K51.3   Rectosigmoidita (cronica) ulceroasa = Colita ulcerativa distala [exact]
+L58.1   Radiodermatita cronica = Dermatita actinica cronica [exact]
+L71.1   Rhinophyma = Rinofima [exact]
+M12.3   Reumatism palindromic = Reumatism palindromic [exact]
+M54.1   Radiculopatia = Radiculopatie [terminatii]
+M79.0   Reumatism, nespecificat = Reumatism [exact]
+N81.6   Rectocel = Rectocel [exact]
+O42     Ruptura prematura a membranelor = Ruptura prematura de membrane [exact]
+Q61.51  Rinichi chistic medular juvenil = Nefronoftizia [exact]
+Q63.2   Rinichi ectopic = Rinichi ectopic [exact]
+===== ELIMINAT (17)
+A82.9   Rabia, nespecificata [dublura categoriei parinte (nespecificat)]
+B97.3   Retrovirusi, cauza unor boli clasificate la alte capitole [agent cauzal, nu boala]
+B97.5   Reovirusi, cauza unor boli clasificate la alte capitole [agent cauzal, nu boala]
+C06.2   Regiunea retromolara [subzona de organ (D5)]
+C48.0   Retroperitoneu [subzona de organ (D5)]
+C69.2   Retina [subzona de organ (D5)]
+C84.1   Reticuloza Sezary [subzona de organ (D5)]
+D01.2   Rect [subzona de organ (D5)]
+D12.8   Rect [subzona de organ (D5)]
+D20.0   Retroperitoneu [subzona de organ (D5)]
+D30.0   Rinichi [subzona de organ (D5)]
+D31.2   Retina [subzona de organ (D5)]
+D37.5   Rect [subzona de organ (D5)]
+D41.0   Rinichi [subzona de organ (D5)]
+D48.3   Retroperitoneu [subzona de organ (D5)]
+L58.9   Radiodermatita, nespecificata [dublura categoriei parinte (nespecificat)]
+O28     Rezultate anormale ale screening-ului prenatal al mamei v zi Indexul Alfabetic ingrijiri acordate mamei legate de fat si cavitatea amniotica si probleme posibile de nastere (O30-O48) [factor/ingrijire]

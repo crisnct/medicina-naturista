@@ -1,0 +1,131 @@
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.95 rel=  21 cand=  203     40ms  gută
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.95 rel=  21 cand=  203    103ms  guta tratament naturist
+P@10=0.3 RR=1.00 nDCG@10=0.45 R@50= 0.14 rel=  22 cand=    4     19ms  artrita gutoasa
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.32 rel=  31 cand=   12     17ms  artroză de genunchi
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.32 rel=  31 cand=   12     22ms  gonartroza
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.39 rel=  31 cand=   18     18ms  coxartroza
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.89 rel=  19 cand=  181     46ms  anemie
+P@10=0.2 RR=1.00 nDCG@10=0.36 R@50= 0.11 rel=  19 cand=    6     54ms  anemia feripriva
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 1.00 rel=  29 cand=  248     34ms  constipație
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 1.00 rel=  29 cand=  248     33ms  constipatie cronica
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.83 rel=  23 cand=  299     78ms  depresie
+P@10=0.5 RR=0.25 nDCG@10=0.38 R@50= 0.28 rel=  29 cand=  186    173ms  depresia si anxietate
+P@10=0.9 RR=1.00 nDCG@10=0.92 R@50= 0.17 rel= 282 cand=  530    157ms  cancer
+P@10=0.8 RR=1.00 nDCG@10=0.86 R@50= 0.26 rel=  39 cand=   15     34ms  hepatita B
+P@10=0.8 RR=1.00 nDCG@10=1.00 R@50= 1.00 rel=   8 cand=   26     25ms  helicobacter pylori
+P@10=0.4 RR=1.00 nDCG@10=0.78 R@50= 0.67 rel=   6 cand=   10     24ms  HPV
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  15 cand=    0     31ms  herpes
+P@10=0.9 RR=1.00 nDCG@10=0.89 R@50= 1.00 rel=  13 cand=   53     21ms  leucemie
+P@10=0.5 RR=1.00 nDCG@10=0.65 R@50= 0.37 rel=  19 cand=   28     16ms  chisturi
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 1.00 rel=  14 cand=  149     26ms  menopauza
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.21 rel=  61 cand=   40     17ms  infecție urinară
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.39 rel=  61 cand=   94     22ms  cistita
+P@10=0.8 RR=1.00 nDCG@10=0.87 R@50= 0.23 rel=  35 cand=  110     23ms  ulcer gastric
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.91 rel=  22 cand=  170     44ms  gripă
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.80 rel=  15 cand=  213     31ms  insomnie
+P@10=0.1 RR=1.00 nDCG@10=0.22 R@50= 0.07 rel=  29 cand=   59     17ms  paraziți intestinali
+P@10=0.6 RR=1.00 nDCG@10=0.65 R@50= 0.65 rel=  49 cand=  722     98ms  diabet zaharat
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.95 rel=  20 cand=   67     20ms  ciroza hepatica
+P@10=0.7 RR=1.00 nDCG@10=0.78 R@50= 0.75 rel=  16 cand=  104     21ms  acnee
+P@10=0.1 RR=1.00 nDCG@10=0.25 R@50= 0.12 rel=   8 cand=   17     16ms  căderea părului
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 1.00 rel=  22 cand=  218     54ms  astm bronsic
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 1.00 rel=  14 cand=  145     56ms  hemoroizi
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.56 rel=  32 cand=  322     42ms  hipertensiune arterială
+P@10=0.9 RR=1.00 nDCG@10=0.94 R@50= 0.55 rel=  20 cand=   33     59ms  colesterol mărit
+P@10=0.2 RR=1.00 nDCG@10=0.36 R@50= 0.07 rel=  29 cand=    2     61ms  tiroida Hashimoto
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.71 rel=  14 cand=   86     37ms  osteoporoza
+P@10=0.5 RR=0.20 nDCG@10=0.37 R@50= 0.69 rel=  16 cand=   87     24ms  varice
+P@10=0.9 RR=1.00 nDCG@10=0.93 R@50= 1.00 rel=  12 cand=  111     29ms  migrena
+P@10=0.7 RR=1.00 nDCG@10=1.00 R@50= 1.00 rel=   7 cand=   52     33ms  sinuzita
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  20 cand=    0     86ms  prostata mărită
+P@10=0.8 RR=1.00 nDCG@10=0.87 R@50= 1.00 rel=  15 cand=   73     24ms  psoriazis
+P@10=0.7 RR=1.00 nDCG@10=0.80 R@50= 0.54 rel=  13 cand=  129     24ms  colici abdominali
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.94 rel=  34 cand=  244     29ms  bronsita
+P@10=0.3 RR=1.00 nDCG@10=0.45 R@50= 0.14 rel=  22 cand=    4     14ms  gout
+P@10=0.3 RR=1.00 nDCG@10=0.45 R@50= 0.14 rel=  22 cand=    4     49ms  artrita gutosa
+P@10=0.4 RR=1.00 nDCG@10=0.91 R@50= 1.00 rel=   4 cand=   36     17ms  cuperoza
+P@10=0.4 RR=1.00 nDCG@10=0.91 R@50= 1.00 rel=   4 cand=   36     18ms  rosacea
+P@10=0.4 RR=1.00 nDCG@10=0.56 R@50= 0.20 rel=  20 cand=    8     15ms  hiperplazie benigna de prostata
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=   8 cand=    2     13ms  alopecie androgenetica
+P@10=0.8 RR=1.00 nDCG@10=1.00 R@50= 1.00 rel=   8 cand=   71     20ms  boala Alzheimer
+P@10=0.7 RR=1.00 nDCG@10=0.78 R@50= 0.78 rel=   9 cand=   76     19ms  amigdalita cronica
+P@10=0.4 RR=1.00 nDCG@10=1.00 R@50= 1.00 rel=   4 cand=   63     20ms  angina pectorala
+P@10=0.5 RR=0.50 nDCG@10=0.70 R@50= 0.83 rel=   6 cand=   41     18ms  aritmie cardiaca
+P@10=0.2 RR=1.00 nDCG@10=0.29 R@50= 0.05 rel=  41 cand=   60     38ms  alergie alimentara
+P@10=0.5 RR=1.00 nDCG@10=0.65 R@50= 0.23 rel=  26 cand=  103     27ms  artrita reumatoida
+P@10=0.7 RR=1.00 nDCG@10=1.00 R@50= 1.00 rel=   7 cand=  113     22ms  ateroscleroza
+P@10=0.9 RR=1.00 nDCG@10=0.93 R@50= 0.91 rel=  11 cand=   70     23ms  alcoolism
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.91 rel=  22 cand=  170     85ms  Cauta remedii naturiste pentru gripa
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  44 cand=    0     59ms  cauta remedii naturiste pentru dureri de picioare
+P@10=0.1 RR=1.00 nDCG@10=0.34 R@50= 0.80 rel=   5 cand=   14     49ms  cauta remedii naturiste pentru hernie de disc
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  51 cand=    0    160ms  cum să slăbesc sănătos
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  21 cand=    0    152ms  antioxidanți naturali
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel= 102 cand=    0    141ms  vitamine și minerale
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  68 cand=    0    176ms  cum îmi întăresc imunitatea
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel= 114 cand=    0    136ms  plante pentru ficat
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  85 cand=    0    161ms  remedii naturale pentru rinichi
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  12 cand=    0    170ms  ce pot face împotriva oboselii
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  77 cand=    0    154ms  dureri de articulații
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  40 cand=    0    174ms  cataplasme pentru dureri
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  40 cand=    0    173ms  detoxifierea organismului
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  32 cand=    0    209ms  De trei zile am nasul înfundat, strănut și mă ustură gâtul. Ce remedii naturiste pot încerca?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  25 cand=    0     32ms  Tușesc sec mai ales noaptea și simt o iritație în gât. Ce remedii naturale m-ar putea ajuta?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  16 cand=    0    171ms  După masă mă balonez și am multe gaze, mai ales când mănânc leguminoase. Ce pot încerca naturist?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=   9 cand=   18     43ms  Am arsuri în capul pieptului și gust acru în gură când mă întind după cină. Ce remedii naturiste există?
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 1.00 rel=  29 cand=  248     79ms  Am scaun tare la trei-patru zile și trebuie să mă forțez. Ce soluții naturale mă pot ajuta?
+P@10=0.0 RR=0.01 nDCG@10=0.00 R@50= 0.00 rel=  14 cand=  459    159ms  De ieri am scaune moi de trei ori pe zi și crampe ușoare, fără febră. Ce pot folosi naturist?
+P@10=0.8 RR=1.00 nDCG@10=0.87 R@50= 0.80 rel=  10 cand=  270     89ms  Mi se face greață când merg cu mașina și uneori amețesc. Există remedii naturale pentru asta?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  15 cand=    0    200ms  Adorm greu, uneori după o oră, deși mă simt obosit. Ce remedii naturiste pot încerca?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  15 cand= 3208    259ms  Mă trezesc de două-trei ori pe noapte și dimineața sunt obosit. Ce m-ar putea ajuta natural?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  22 cand=    0    140ms  Când sunt stresat, mă simt agitat și îmi este greu să mă relaxez. Ce opțiuni naturiste am?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  19 cand=    0     32ms  Seara simt o presiune la tâmple și am ceafa încordată după lucrul la calculator. Ce pot încerca naturist?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  19 cand= 3208    289ms  Mă doare ușor zona lombară după ce stau multe ore pe scaun, fără durere în picioare. Ce mă poate ajuta natural?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  35 cand=    0     31ms  Genunchii mă dor când urc scările și sunt puțin rigizi dimineața. Ce remedii naturiste pot fi utile?
+P@10=0.3 RR=0.14 nDCG@10=0.21 R@50= 0.70 rel=  10 cand= 3238    297ms  Am crampe la gambe noaptea, de câteva ori pe săptămână. Ce soluții naturale pot încerca?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  29 cand=    0    224ms  Pielea mâinilor este uscată, mă mănâncă și se crapă după spălat. Ce pot aplica natural?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=   6 cand=    1    127ms  Am scuame pe scalp și mă mănâncă pielea, mai ales între spălări. Ce remedii naturiste există?
+P@10=0.7 RR=1.00 nDCG@10=0.78 R@50= 0.75 rel=  16 cand=  104    129ms  Îmi apar coșuri mici pe frunte și bărbie, iar pielea este grasă. Ce îngrijire naturală pot încerca?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=   2 cand=    0    163ms  Buzele mi se usucă și se crapă frecvent, mai ales când este frig. Ce remediu natural pot folosi?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  46 cand=    0    193ms  Primăvara strănut mult, îmi curge nasul și mă mănâncă ochii. Ce remedii naturiste m-ar putea ajuta?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=   4 cand=    0     31ms  După câteva ore la monitor simt ochii uscați și usturime. Există măsuri naturale care să mă ajute?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  24 cand=  129     48ms  În primele două zile de menstruație am crampe abdominale și dureri de spate. Ce pot încerca naturist?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  21 cand=    0    177ms  Înainte de menstruație sunt iritabilă, mă balonez și mă dor sânii. Ce opțiuni naturale există?
+P@10=0.1 RR=1.00 nDCG@10=0.22 R@50= 0.64 rel=  14 cand=   44    102ms  Am valuri de căldură și transpir noaptea, iar ciclul a devenit neregulat. Ce remedii naturiste pot încerca?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  28 cand=    0     31ms  Seara simt picioarele grele și gleznele se umflă ușor după stat mult în picioare. Ce mă poate ajuta natural?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=   9 cand=    0     32ms  Am o mică ulcerație dureroasă în interiorul obrazului și mă ustură când mănânc acru. Ce remediu natural pot folosi?
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.69 rel=  32 cand=  158     75ms  Ce remedii naturiste pot folosi pentru răceală?
+P@10=0.6 RR=0.50 nDCG@10=0.57 R@50= 0.17 rel=  46 cand=   32     43ms  Ce opțiuni naturiste există pentru rinita alergică?
+P@10=0.7 RR=1.00 nDCG@10=1.00 R@50= 1.00 rel=   7 cand=   52     49ms  Caut remedii naturiste pentru sinuzita cronică.
+P@10=0.3 RR=0.50 nDCG@10=0.34 R@50= 0.44 rel=   9 cand=   26     40ms  Ce mă poate ajuta naturist pentru reflux gastroesofagian?
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 1.00 rel=  20 cand=  114     47ms  Ce remedii naturiste sunt potrivite pentru gastrită?
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 1.00 rel=  29 cand=  248     72ms  Caut soluții naturiste pentru constipație.
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=   4 cand=    0     34ms  Ce remedii naturale există pentru sindromul de intestin iritabil?
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 1.00 rel=  14 cand=  145     70ms  Ce pot folosi naturist pentru hemoroizi?
+P@10=0.4 RR=0.50 nDCG@10=0.43 R@50= 0.44 rel=   9 cand=   44     61ms  Caut remedii naturiste pentru afte bucale.
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.80 rel=  15 cand=  213     77ms  Ce remedii naturiste pot încerca pentru insomnie?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=   8 cand=    0     40ms  Ce opțiuni naturiste pot ajuta în anxietatea generalizată?
+P@10=0.9 RR=1.00 nDCG@10=0.93 R@50= 1.00 rel=  12 cand=  111     79ms  Caut remedii naturiste pentru migrenă.
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.29 rel=  35 cand=   12     37ms  Ce mă poate ajuta naturist pentru artroza genunchiului?
+P@10=0.1 RR=1.00 nDCG@10=0.47 R@50= 0.67 rel=   3 cand=   14     54ms  Ce opțiuni naturiste există pentru tendinită?
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.71 rel=  24 cand=  152     63ms  Caut remedii naturiste pentru dermatită atopică.
+P@10=0.8 RR=1.00 nDCG@10=0.87 R@50= 1.00 rel=  15 cand=   73     61ms  Ce îngrijire naturistă pot folosi pentru psoriazis?
+P@10=0.7 RR=1.00 nDCG@10=0.78 R@50= 0.75 rel=  16 cand=  104     75ms  Ce remedii naturiste există pentru acnee?
+P@10=0.5 RR=1.00 nDCG@10=0.65 R@50= 0.60 rel=  10 cand=   44     48ms  Caut soluții naturiste pentru dermatita seboreică.
+P@10=0.3 RR=1.00 nDCG@10=0.83 R@50= 0.75 rel=   4 cand=    9     36ms  Ce remedii naturale pot ajuta în sindromul de ochi uscat?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  21 cand=    0     48ms  Ce pot încerca naturist pentru sindromul premenstrual?
+P@10=0.7 RR=1.00 nDCG@10=0.80 R@50= 0.29 rel=  24 cand=   59     68ms  Caut remedii naturiste pentru dismenoree.
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 1.00 rel=  14 cand=  149     44ms  Ce opțiuni naturiste există pentru bufeurile de menopauză?
+P@10=0.0 RR=0.00 nDCG@10=0.00 R@50= 0.00 rel=  28 cand=    6     34ms  Ce mă poate ajuta naturist pentru insuficiența venoasă cronică?
+P@10=1.0 RR=1.00 nDCG@10=1.00 R@50= 0.55 rel=  33 cand=  322     95ms  Caut opțiuni naturiste complementare pentru hipertensiune arterială.
+P@10=0.9 RR=1.00 nDCG@10=0.94 R@50= 0.55 rel=  20 cand=   33     40ms  Ce măsuri naturiste pot ajuta la hipercolesterolemie?
+{
+  "signals": "A",
+  "queries": 120,
+  "precision_at_10": 0.4891666666666667,
+  "mrr": 0.6467268567211631,
+  "ndcg_at_10": 0.5497126147118675,
+  "recall_at_50": 0.4530311963622378,
+  "latency_p50_ms": 44.77214999860735,
+  "latency_p95_ms": 192.85839999793097,
+  "priority_order_violations": 0
+}

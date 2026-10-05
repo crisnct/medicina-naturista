@@ -1,0 +1,281 @@
+# latin|ro|origin  (origin: S spontan, I spontan (introdus), C cultivat, M importat; ro gol = fara nume romanesc sigur)
+Abelmoschus esculentus|Bame|C
+Abies alba|Brad|S
+Abies fraseri|Brad Fraser|M
+Abutilon theophrasti|Teisor|I
+Acaciella angustissima||M
+Acer platanoides|Artar|S
+Achillea crithmifolia|Limbricarita|S
+Achillea millefolium|Coada-soricelului|S
+Aconitum anthora|Omag galben|S
+Aconitum carmichaelii||M
+Aconitum napellus|Omag|S
+Aconitum plicatum|Omag|S
+Acorus calamus|Obligeana|I
+Actaea asiatica||M
+Actaea europaea|Cimicifuga|S
+Actaea racemosa|Cohos negru|M
+Actaea spicata|Orbalt|S
+Adonis aestivalis|Cocosei-de-camp|S
+Adonis vernalis|Ruscuta-de-primavara|S
+Aegonychon purpurocaeruleum||S
+Aegopodium podagraria|Piciorul-caprei|S
+Aesculus californica||M
+Aesculus glabra||M
+Aesculus hippocastanum|Castan salbatic|I
+Aethusa cynapium|Patrunjelul-cainelui|S
+Agathosma betulina|Buchu|M
+Agrimonia eupatoria|Turita-mare|S
+Agrimonia pilosa||S
+Agrimonia procera||S
+Agrostemma githago|Neghina|S
+Ailanthus altissima|Cenuser|I
+Ajuga genevensis|Vinerita|S
+Ajuga reptans|Vinerita|S
+Albizia anthelmintica||M
+Alcea biennis|Nalba de padure|S
+Alcea rosea|Nalba de gradina|C
+Alchemilla alpina|Cretisoara alpina|S
+Alchemilla mollis|Cretisoara|C
+Alchemilla vulgaris|Cretisoara|S
+Aletris farinosa||M
+Alisma lanceolatum|Limbarita|S
+Alisma plantago-aquatica|Limbarita|S
+Alkekengi officinarum|Papalau|S
+Alliaria petiolata|Usturoita|S
+Allium ampeloprasum|Praz|C
+Allium cepa|Ceapa|C
+Allium sativum|Usturoi|C
+Allium schoenoprasum|Arpagic|C
+Allium ursinum|Leurda|S
+Alnus glutinosa|Arin negru|S
+Aloe arborescens|Aloe|C
+Aloe ferox|Aloe|M
+Aloe vera|Aloe|C
+Aloysia citrodora|Verbina de lamaie|C
+Alpinia galanga|Galanga|M
+Alpinia oxyphylla||M
+Althaea officinalis|Nalba-mare|S
+Althaea rosea|Nalba de gradina|C
+Alyssum montanum|Ciucusoara de munte|S
+Ammi majus|Ammi|C
+Amorpha fruticosa|Salcam mic|I
+Ananas comosus|Ananas|M
+Anchusa officinalis|Limba-boului|S
+Andrographis paniculata||M
+Anemone nemorosa|Floarea-pastelui|S
+Anemone ranunculoides|Pastita|S
+Anemopsis californica||M
+Anethum graveolens|Marar|C
+Angelica archangelica|Angelica|S
+Angelica sinensis|Dong quai|M
+Angelica sylvestris|Angelica de padure|S
+Antennaria dioica|Parpian|S
+Anthoxanthum odoratum|Vitelar|S
+Anthriscus cerefolium|Hasmatuchi|C
+Anthriscus sylvestris|Hasmatuchi de padure|S
+Anthyllis vulneraria|Vatamatoare|S
+Apium graveolens|Telina|C
+Apocynum androsaemifolium||M
+Apocynum cannabinum||M
+Aquilegia vulgaris|Caldarusa|S
+Arachis hypogaea|Arahide|C
+Aralia hispida||M
+Aralia nudicaulis||M
+Aralia racemosa||M
+Aralia spinosa||M
+Arctium lappa|Brusture|S
+Arctium minus|Brusture mic|S
+Arctostaphylos uva-ursi|Strugurii-ursului|S
+Arenaria serpyllifolia|Studenita|S
+Argentina anserina|Coada-racului|S
+Aristolochia clematitis|Marul-lupului|S
+Aristolochia watsonii||M
+Armoracia rusticana|Hrean|I
+Arnica montana|Arnica|S
+Artemisia abrotanum|Lemnul-Domnului|C
+Artemisia absinthium|Pelin|S
+Artemisia annua|Pelin dulce|I
+Artemisia austriaca|Pelinita austriaca|S
+Artemisia caruifolia||M
+Artemisia dracunculus|Tarhon|C
+Artemisia pontica|Pelin mic|S
+Artemisia tridentata||M
+Artemisia vulgaris|Pelinarita|S
+Arthrospira platensis|Spirulina|M
+Arum cylindraceum|Rodul-pamantului|S
+Arum maculatum|Rodul-pamantului|S
+Arum orientale|Rodul-pamantului|S
+Asarum europaeum|Pochivnic|S
+Asclepias asperula||M
+Asclepias incarnata||M
+Asclepias subulata||M
+Asclepias tuberosa||M
+Ascophyllum nodosum|Alga bruna|M
+Asparagus officinalis|Sparanghel|C
+Asplenium scolopendrium|Limba-cerbului|S
+Asplenium trichomanes|Feriguta|S
+Astragalus dasyanthus|Cosaci|S
+Astragalus glycyphyllos|Unghia-gaii|S
+Astragalus gummifer|Tragacanta|M
+Astrantia major|Talpa-ursului|S
+Athyrium filix-femina|Feriga femeiasca|S
+Atriplex hortensis|Loboda|C
+Atropa belladonna|Matraguna|S
+Auricularia auricula-judae|Urechea-lui-Iuda|S
+Avena sativa|Ovaz|C
+Azadirachta indica|Neem|M
+Bacopa monniera|Bacopa|M
+Ballota nigra|Cataroaica|S
+Banisteriopsis caapi|Ayahuasca|M
+Barbarea vulgaris|Rapita salbatica|S
+Bellis perennis|Banutei|S
+Berberis dumetorum||C
+Berberis vulgaris|Dracila|S
+Berteroa incana|Ciucusoara|S
+Beta rubra|Sfecla rosie|C
+Beta vulgaris|Sfecla|C
+Betonica officinalis|Vindecea|S
+Betula pendula|Mesteacan|S
+Betula pubescens|Mesteacan pufos|S
+Bidens tripartita|Dentita|S
+Bistorta officinalis|Racovina|S
+Borago officinalis|Limba-mielului|C
+Boswellia serrata|Tamaie indiana|M
+Botrychium lunaria|Iarba-dracului|S
+Brassica campestris|Nap|C
+Brassica napus|Rapita|C
+Brassica nigra|Mustar negru|C
+Brassica oleracea|Varza|C
+Brassica rapa|Nap|C
+Brucea javanica||M
+Bryonia alba|Mutatoare|S
+Bryonia dioica|Mutatoare|S
+Bunias orientalis|Brabin|S
+Bupleurum falcatum|Urechea-iepurelui|S
+Bursera microphylla||M
+Buxus sempervirens|Cimisir|C
+Calendula officinalis|Galbenele|C
+Calla palustris|Coada-zmeului|S
+Calluna vulgaris|Iarba-neagra|S
+Caltha palustris|Calcea-calului|S
+Calvatia gigantea|Basica-porcului|S
+Camelina sativa|Ineagra|C
+Camellia sinensis|Ceai|M
+Cannabis sativa|Canepa|C
+Capsella bursa-pastoris|Traista-ciobanului|S
+Capsicum annuum|Ardei|C
+Capsicum frutescens|Ardei iute|C
+Carapichea ipecacuanha|Ipeca|M
+Carduus acanthoides|Spin|S
+Carduus candicans|Scai|S
+Carduus crispus|Palamida|S
+Carduus nutans|Ciulin|S
+Carex arenaria|Rogoz de nisip|M
+Carex riparia|Rogoz|S
+Carica papaya|Papaya|M
+Carlina acaulis|Turta|S
+Carlina vulgaris|Turtita|S
+Carthamus tinctorius|Sofranel|C
+Carum carvi|Chimen|S
+Cassia abbreviata||M
+Castanea sativa|Castan comestibil|C
+Catharanthus roseus|Vinca roz|C
+Caulophyllum thalictroides|Cohos albastru|M
+Ceanothus thyrsiflorus||M
+Centaurea benedicta|Schinel|C
+Centaurea calcitrapa|Scai ghimpos|S
+Centaurea cyanus|Albastrele|S
+Centaurea jacea|Vipereasca|S
+Centaurea solstitialis|Scai galben|S
+Centaurium erythraea|Fierea-pamantului|S
+Centella asiatica|Gotu kola|M
+Ceratocephalus testiculatus|Ceratocefal|S
+Ceratonia siliqua|Roscov|M
+Cerinthe minor|Pidosnic|S
+Cetraria islandica|Lichen de piatra|S
+Chaerophyllum aromaticum|Antonica|S
+Chaerophyllum temulum|Baraboi|S
+Chamaelirium luteum||M
+Chamaemelum nobile|Musetel roman|C
+Chamaenerion angustifolium|Rachitan|S
+Chamaenerion fleischeri|Pufulita-de-pietris|S
+Chelidonium majus|Rostopasca|S
+Chelone glabra||M
+Chimaphila umbellata|Merisor de padure|S
+Chionanthus virginicus||M
+Chlorella vulgaris|Chlorella|S
+Chrysanthemum cinerariaefolium|Piretru|C
+Chrysosplenium alternifolium|Splina-pamantului|S
+Cicer arietinum|Naut|C
+Cichorium endivia|Andiva|C
+Cichorium intybus|Cicoare|S
+Cicuta virosa|Cucuta de apa|S
+Cinchona calisaya|Arborele de chinina|M
+Cinchona officinalis|Arborele de chinina|M
+Cinchona pubescens|Arborele de chinina|M
+Cinnamomum camphora|Arborele de camfor|M
+Cinnamomum cassia|Scortisoara chinezeasca|M
+Cinnamomum verum|Scortisoara|M
+Circaea intermedia|Tilisca|S
+Circaea lutetiana|Tilisca|S
+Cirsium erisithales|Coltul-lupului|S
+Cirsium oleraceum|Crastavet|S
+Cirsium rivulare|Captalan|S
+Cistus creticus|Cistus|M
+Citrullus lanatus|Pepene verde|C
+Citrus aurantiifolia|Lime|M
+Citrus aurantium|Portocal amar|M
+Citrus grandis|Pomelo|M
+Citrus limon|Lamai|C
+Citrus medica|Chitru|M
+Citrus microcarpa|Calamondin|C
+Citrus paradisi|Grepfrut|M
+Citrus reticulata|Mandarin|M
+Cladonia rangiferina|Lichenul renilor|S
+Claviceps purpurea|Cornul-secarei|S
+Clematis recta|Luminoasa|S
+Clematis vitalba|Curpen de padure|S
+Clinacanthus nutans||M
+Clinopodium acinos|Cimbrisor de camp|S
+Clinopodium nepeta|Calamint|S
+Clinopodium vulgare|Busuioc salbatic|S
+Coccinia grandis||M
+Cocculus indicus||M
+Cochlearia officinalis|Lingurea|M
+Cochlearia pyrenaica|Lingurea|S
+Cocos nucifera|Cocotier|M
+Coffea arabica|Cafea|M
+Coffea canephora|Cafea robusta|M
+Coffea liberica|Cafea liberica|M
+Cola acuminata|Cola|M
+Cola nitida|Cola|M
+Cola verticillata|Cola|M
+Colchicum autumnale|Brandusa-de-toamna|S
+Coleus barbatus|Coleus forskohlii|M
+Colutea arborescens|Basicoasa|S
+Commiphora myrrha|Smirna|M
+Commiphora wightii|Guggul|M
+Conioselinum tataricum||S
+Conium maculatum|Cucuta|S
+Convallaria majalis|Lacramioara|S
+Convolvulus arvensis|Volbura|S
+Coptis chinensis||M
+Corallorhiza maculata||M
+Cordyceps militaris|Cordyceps|S
+Coriandrum sativum|Coriandru|C
+Cormus domestica|Scorus|S
+Cornus mas|Corn|S
+Cornus officinalis||M
+Cornus sanguinea|Sanger|S
+Coronilla varia|Coronisca|S
+Corydalis bulbosa|Brebenei|S
+Corydalis cava|Brebenei|S
+Corylus avellana|Alun|S
+Corylus colurna|Alun turcesc|S
+Cota tinctoria|Romanita galbena|S
+Cotinus coggygria|Scumpie|S
+Cotoneaster integerrimus|Ciucure|S
+Crataegus azarolus|Azarol|M
+Crataegus laevigata|Paducel|S
+Crataegus monogyna|Paducel|S

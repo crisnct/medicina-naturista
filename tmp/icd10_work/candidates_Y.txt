@@ -1,0 +1,5 @@
+===== NOU (0)
+===== POSIBIL (1)
+A28.2   Yersinioza extra-intestinala  <Extraintestinal yersiniosis> ~ Yersinioza
+===== EXISTA (0)
+===== ELIMINAT (0)

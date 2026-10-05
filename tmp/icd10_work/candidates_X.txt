@@ -1,0 +1,8 @@
+===== NOU (1)
+Q89.44  Xifopagus  {Gemeni cu pelvisul lipit sau xifoid}
+===== POSIBIL (1)
+Q82.1   Xeroderma pigmentara  <Xeroderma pigmentosum> ~ Xeroderma pigmentosum | Xeroderma pigmentosum varianta V
+===== EXISTA (2)
+H02.6   Xantelasma pleoapei = Xantelasma [terminatii]
+L85.3   Xeroza cutanata = Piele uscata [exact]
+===== ELIMINAT (0)

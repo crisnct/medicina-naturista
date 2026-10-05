@@ -1,0 +1,2211 @@
+===== NOU (244)
+A06.1   Amibiaza intestinala cronica  <Chronic intestinal amebiasis>
+A06.5   Abcesul amibian al plamanului  {Abcesul amibian al plamanului (si ficatului)}  <Amebic lung abscess>
+A06.6   Abcesul amibian al creierului  {Abcesul amibian al creierului (si ficatului) (si plamanului)}  <Amebic brain abscess>
+A42.2   Actinomicoza cervico-faciala  <Cervicofacial actinomycosis>
+B43.1   Abcesul phaeomycotic al creierului  {Chromomicoza cerebrala}  <Pheomycotic brain abscess>
+B44.2   Aspergilloza amigdaliana  <Tonsillar aspergillosis>
+B47.1   Actinomicetomul  <Actinomycetoma>
+B48.2   Allescheriaza  {Infectia datorita Pseudallescheria boydii}  <Allescheriasis>
+B60.1   Acanthamoebioza  {Conjunctivita datorita Acanthamoeba† / Keratoconjunctivita datorita / Acanthamoeba†}  <Acanthamebiasis>
+B77.0   Ascariaza cu complicatii intestinale prin Ascaris  <Ascariasis with intestinal complications>
+B77.8   Ascariaza cu alte complicatii  <Ascariasis with other complications>
+C22.3   Angiosarcomul ficatului  {Sarcomul celulelor Kupffer}  <Angiosarcoma of liver>
+D52     Anemia prin carenta de acid folic  <Folate deficiency anemia>
+D52.1   Anemia prin carenta de acid folic provocata de medicamente  <Drug-induced folate deficiency anemia>
+D53.0   Anemia prin carenta de proteine  {Anemia prin carenta de aminoacizi / Anemia orotacidurica}  <Protein deficiency anemia>
+D53.2   Anemia scorbutica  <Scorbutic anemia>
+D53.8   Anemia asociata cu alte carente nutritionale specificate  <Other specified nutritional anemias>
+D55     Anemia datorita tulburarilor enzimatice  <Anemia due to enzyme disorders>
+D55.1   Anemia datorita altor tulburari ale metabolismului glutationului  <Anemia due to other disorders of glutathione metabolism>
+D55.2   Anemia datorita tulburarilor enzimelor glicolitice  <Anemia due to disorders of glycolytic enzymes>
+D55.3   Anemia datorita tulburarilor de metabolism al nucleotidelor  <Anemia due to disorders of nucleotide metabolism>
+D60.0   Aplazia pura de celule rosii dobandita cronica  <Chronic acquired pure red cell aplasia>
+D60.1   Aplazia pura de celule rosii dobandita tranzitorie  <Transient acquired pure red cell aplasia>
+D60.9   Aplazii pure de celule rosii dobandite, nespecificate  <Acquired pure red cell aplasia, unspecified>
+D61.0   Anemia aplazica constitutionala  <Constitutional aplastic anemia>
+D61.1   Anemia aplazica provocata de medicamente  <Drug-induced aplastic anemia>
+D61.2   Anemia aplazica datorita altor agenti externi  <Aplastic anemia due to other external agents>
+D63     Anemia in bolile cronice clasificate altundeva  <Anemia in chronic diseases classified elsewhere>
+D63.0   Anemia in bolile neoplazice  <Anemia in neoplastic disease>
+D63.8   Anemia in cursul altor boli cronice clasificate altundeva  <Anemia in other chronic diseases classified elsewhere>
+D68.9   Anomalia de coagulare, nespecificata  <Coagulation defect, unspecified>
+D72.0   Anomaliile genetice ale leucocitelor  {Anomalia (granulatia) (granulocite) sau}  <Genetic anomalies of leukocytes>
+D72.9   Anomalia celulelor albe, nespecificata  <Disorder of white blood cells, unspecified>
+D73.3   Abcesul splinei  <Abscess of spleen>
+D84.0   Anomalia functiunii limfocitare antigen I [LFA-1]  <Lymphocyte function antigen-1 [LFA-1] defect>
+E03.4   Atrofia tiroidei (dobandita)  {dobandita}  <Atrophy of thyroid (acquired)>
+E32.1   Abcesul timusului  <Abscess of thymus>
+E50.0   Avitaminoza A cu xeroza conjunctivei  <Vitamin A deficiency with conjunctival xerosis>
+E50.1   Avitaminoza A cu pete Bitot si xeroza conjunctivei  {Pete Bitot la copilul mic}  <Vitamin A deficiency with Bitot's spot and conjunctival xerosis>
+E50.2   Avitaminoza A cu xeroza corneei  <Vitamin A deficiency with corneal xerosis>
+E50.5   Avitaminoza A cu hemeralopie vesperala  <Vitamin A deficiency with night blindness>
+E50.6   Avitaminoza A cu cicatrice xeroftalmica a corneei  <Vitamin A deficiency with xerophthalmic scars of cornea>
+E53.9   Avitaminoze din grupa B, nespecificate  <Vitamin B deficiency, unspecified>
+E65     Adipozitate localizata  {Sort abdominal sau proeminent / Burelet adipos}  <Localized adiposity>
+F04.01  Amnezia post-traumatica, durata de < 24 de ore
+F04.02  Amnezia post-traumatica, durata de ≥ 24 de ore si < 14 zile
+F04.03  Amnezia post-traumatica, durata de ≥ 14 zile
+F40.00  Agorafobie fara mentionarea tulburarii de panica  <Agoraphobia, unspecified>
+F40.01  Agorafobie cu tulburare de panica  <Agoraphobia with panic disorder>
+F42.1   Acte predominant compulsive [ritualuri obsedante]  {ritualuri obsedante}
+F50.4   Apetit excesiv asociat cu alte tulburari psihologice  {Apetit excesiv psihogen}
+F52.1   Aversiunea sexuala si lipsa de placere sexuala  {Anhedonie (sexuala)}  <Sexual aversion disorder>
+F55.0   Antidepresive  <Abuse of antacids>
+F55.2   Analgezice  <Abuse of laxatives>
+F55.3   Antiacide  <Abuse of steroids or hormones>
+F84.1   Autism atipic  {Psihoza infantila atipica / Retardare mentala cu trasaturi autistice}
+G06     Abces si granulom intracranian si intrarahidian  <Intracranial and intraspinal abscess and granuloma>
+G06.0   Abces si granulom intracranian  <Intracranial abscess and granuloma>
+G06.1   Abces si granulom intrarahidian  {Abces (embolic) al maduvei spinarii [orice parte]}  <Intraspinal abscess and granuloma>
+G06.2   Abces extradural si subdural, nespecificat  <Extradural and subdural abscess, unspecified>
+G11     Ataxia ereditara  <Hereditary ataxia>
+G11.0   Ataxia congenitala neprogresiva  <Congenital nonprogressive ataxia>
+G13.2   Atrofii sistemice afectand in principal sistemul nervos central in mixedem (E00.1†; E03.-†)  <Systemic atrophy primarily affecting the central nervous system in myxedema>
+G45     Atacuri cerebrale ischemice tranzitorii si sindroame inrudite  <Transient cerebral ischemic attacks and related syndromes>
+G45.3   Amauroza fugace  <Amaurosis fugax>
+G50     Afectiunile nervului trigemen  <Disorders of trigeminal nerve>
+G50.1   Algia faciala atipica  <Atypical facial pain>
+G51.1   Afectiunea ganglionului geniculat  <Geniculate ganglionitis>
+G52.0   Afectiunile nervului olfactiv  {Afectiunea primului nerv cranian}  <Disorders of olfactory nerve>
+G52.2   Afectiunile nervului vag  <Disorders of vagus nerve>
+G52.3   Afectiunile nervului hipoglos  <Disorders of hypoglossal nerve>
+G52.7   Afectiunile mai multor nervi cranieni  {Polinevrita craniana}  <Disorders of multiple cranial nerves>
+G52.8   Afectiunile altor nervi cranieni specificati  <Disorders of other specified cranial nerves>
+G54.2   Afectiunile radiculare cervicale, neclasificate altundeva  <Cervical root disorders, not elsewhere classified>
+G54.3   Afectiunile radiculare toracice, neclasificate altundeva  <Thoracic root disorders, not elsewhere classified>
+G54.4   Afectiunile radiculare lombo-sacrale, neclasificate altundeva  <Lumbosacral root disorders, not elsewhere classified>
+G96.1   Afectiunile meningelui, neclasificate altundeva  {Aderente ale meningelui (cerebrale) (spinale)}  <Disorders of meninges, not elsewhere classified>
+H03.1   Atingerea pleoapei in alte boli infectiose clasificate altundeva
+H18.3   Alteratia membranelor corneene  {Cuta a membranei Descemet / Ruptura membranei Descemet}  <Changes of corneal membranes>
+H21.9   Afectiunea irisului si corpilor ciliari, nespecificata  <Unspecified disorder of iris and ciliary body>
+H27.0   Afakia  <Aphakia>
+H51.9   Anomaliile miscarilor binoculare, nespecificate  <Unspecified disorder of binocular movement>
+H52.3   Anisometria si anisoiconia  <Anisometropia and aniseikonia>
+H53.0   Ambliopia si anopsia  <Amblyopia ex anopsia>
+H53.4   Anomalia campului vizual  {Largirea petei oarbe / Ingustarea generalizata a campului vizual / Hemianopsia (heteronimia) (homonimia) / Anopsia cvadranta}  <Visual field defects>
+H69.9   Afectiunea trompei Eustache, nespecificata  <Unspecified Eustachian tube disorder>
+H74.9   Afectiunea urechii medii si a apofizei mastoide, nespecificata  <Unspecified disorder of middle ear and mastoid>
+I25.3   Anevrismul inimii  <Aneurysm of heart>
+I34     Afectiunile nereumatice ale valvei mitrale  <Nonrheumatic mitral valve disorders>
+I34.9   Afectiunea nereumatismala a valvulei mitrale, nespecificata  <Nonrheumatic mitral valve disorder, unspecified>
+I35     Afectiunile nereumatismale ale valvei aortice  <Nonrheumatic aortic valve disorders>
+I35.9   Afectiunea valvei aortice, nespecificata  <Nonrheumatic aortic valve disorder, unspecified>
+I36.9   Afectiunea nereumatica a valvei tricuspide, nespecificata  <Nonrheumatic tricuspid valve disorder, unspecified>
+I70.1   Ateroscleroza arterei renale  {Rinichi Goldblatt}  <Atherosclerosis of renal artery>
+I70.20  Ateroscleroza arterelor extremitatilor, nespecificata  <Unspecified atherosclerosis of native arteries of extremities>
+I70.22  Ateroscleroza arterelor extremitatilor cu durere la repaos  <Atherosclerosis of native arteries of extremities with rest pain>
+I70.23  Ateroscleroza arterelor extremitatilor cu ulceratie  <Atherosclerosis of native arteries of right leg with ulceration>
+I70.24  Ateroscleroza arterelor extremitatilor cu gangrena  <Atherosclerosis of native arteries of left leg with ulceration>
+I70.9   Ateroscleroza generalizata si nespecificata  <Other and unspecified atherosclerosis>
+I72.1   Anevrismul arterei extremitatilor superioare  <Aneurysm of artery of upper extremity>
+I72.4   Anevrismul arterei extremitatilor inferioare  <Aneurysm of artery of lower extremity>
+I72.8   Anevrismul altor artere specificate  <Aneurysm of other specified arteries>
+I72.9   Anevrismul cu localizari nespecificate  <Aneurysm of unspecified site>
+I84.6   Apendice hemoroidal rezidual  {Apendice hemoroidal al anusului si rectului}
+J03.8   Amigdalita acuta datorita altor microorganisme specificate  <Acute tonsillitis due to other specified organisms>
+J34.0   Abces, furuncul si antraxul nasului  {Celulita nazala (sept) / Necroza nazala (sept) / Ulceratia nazala (sept)}  <Abscess, furuncle and carbuncle of nose>
+J45.8   Astmul asociat
+K03.1   Abraziunea dintilor  <Abrasion of teeth>
+K03.5   Anchiloza dentara  <Ankylosis of teeth>
+K06.9   Afectiunea gingiei si a crestei alveolare edentate, nespecificata  <Disorder of gingiva and edentulous alveolar ridge, unspecified>
+K07.9   Anomalia dento-faciala, nespecificata
+K08.2   Atrofia crestei alveolare edentate  <Atrophy of edentulous alveolar ridge>
+K08.9   Afectiunea interesand dintii si parodontiul, nespecificata  <Disorder of teeth and supporting structures, unspecified>
+K11.0   Atrofia gladelor salivare  <Atrophy of salivary gland>
+K11.3   Abcesul glandelor salivare  <Abscess of salivary gland>
+K31.81  Angiodisplazia stomacului si duodenului fara mentionarea hemoragiei  <Angiodysplasia of stomach and duodenum>
+K31.82  Angiodisplazia stomacului si duodenului cu hemoragie  <Dieulafoy lesion (hemorrhagic) of stomach and duodenum>
+K55.2   Angiodisplazia colonului  <Angiodysplasia of colon>
+K61     Abces al regiunilor anale si rectale  <Abscess of anal and rectal regions>
+K61.2   Abces anorectal  <Anorectal abscess>
+K61.3   Abces ischiorectal  {Abces al fosei ischiorectale}  <Ischiorectal abscess>
+K61.4   Abces intrasfincterian  <Intrasphincteric abscess>
+L30.2   Autosensibilizarea cutanata  {Candidoza [levuri] / Dermatofitide / Eczematide}  <Cutaneous autosensitization>
+L40.2   Acrodermatita continua  <Acrodermatitis continua>
+L44.4   Acrodermatita eritemato-papuloasa infantila [Giannotti-Crosti]  {Giannotti-Crosti}  <Infantile papular acrodermatitis [Gianotti-Crosti]>
+L57.1   Actino-reticuloza  <Actinic reticuloid>
+L63.1   Alopecia universala  <Alopecia universalis>
+L65.1   Anagen  <Anagen effluvium>
+L65.2   Alopecia flucinoasa Pinkus  <Alopecia mucinosa>
+L70.3   Acneea tropicala  <Acne tropica>
+L70.5   Acneea excoriata a tinerelor fete  <Acne excoriee>
+L87.9   Anomalia eliminarii transepidermice, nespecificata  <Transepidermal elimination disorder, unspecified>
+L90     Afectiunile atrofice ale pielii  <Atrophic disorders of skin>
+L90.1   Anetodermia Schweniger-Buzzi  <Anetoderma of Schweninger-Buzzi>
+L90.2   Anetodermia Jadassohn-Pellizzari  <Anetoderma of Jadassohn-Pellizzari>
+L94.6   Ainhum  <Ainhum>
+M00.0   Artrita si poliartrita stafilococica  <Staphylococcal arthritis and polyarthritis>
+M00.8   Artrita si poliartrita datorita altor agenti bacterieni specificati  <Arthritis and polyarthritis due to other bacteria>
+M01.3   Atrita in alte boli bacteriene clasificate altundeva
+M01.6   Artrita in micoze (B35-B49†)
+M02     Artropatii de reactie  <Postinfective and reactive arthropathies>
+M02.0   Artropatia dupa derivatia intestinala  <Arthropathy following intestinal bypass>
+M02.1   Artropatia postdizenterica  <Postdysenteric arthropathy>
+M02.2   Artropatia dupa vaccin  <Postimmunization arthropathy>
+M03.1   Artropatia postinfectioasa in sifilis  {Articulatii Clutton}
+M07.5   Atropatia in colita ulceroasa (K51.-†)
+M09.2   Artrita juvenila in colita ulceroasa (K51.†)
+M11.9   Artropatia datorita microcristalelor, nespecificata  <Crystal arthropathy, unspecified>
+M12.0   Artropatia cronica post-reumatismala [Jaccond]  {Jaccond}  <Chronic postrheumatic arthropathy [Jaccoud]>
+M12.5   Artropatia traumatica  <Traumatic arthropathy>
+M14.1   Artropatia cu microcristale in alte tulburari metabolice  {Artropatia cu microcristale in hiperparatiroidism}
+M14.5   Artropatia in alte boli endocrine, de nutritie si metabolism
+M14.8   Artropatia in alte boli specificate clasificate altundeva  <Arthropathies in other specified diseases classified elsewhere>
+M18.0   Artroza primara a primei articulatii carpo-metacarpiene, bilaterala  <Bilateral primary osteoarthritis of first carpometacarpal joints>
+M18.2   Artroza post-traumatica a primelor articulatii carpo-metacarpiene, bilaterala  <Bilateral post-traumatic osteoarthritis of first carpometacarpal joints>
+M22     Afectiunile rotulei  <Disorder of patella>
+M22.9   Afectiunea rotulei, nespecificata  <Unspecified disorder of patella>
+M23     Afectiunea interna a genunchiului  <Internal derangement of knee>
+M36.1   Artropatia in boli neoplazice, clasificate altundeva (C00-D48†)  <Arthropathy in neoplastic disease>
+M36.3   Artropatia in alte tulburari sangvine (D50-D76†)  <Arthropathy in other blood disorders>
+M48.2   Artroza interspinoasa  <Kissing spine>
+M50.9   Afectiunea unui disc cervical, nespecificata  <Cervical disc disorder, unspecified>
+M51.9   Afectiunea unui disc intervertebral, nespecificat  <Unspecified thoracic, thoracolumbar and lumbosacral intervertebral disc disorder>
+M62.5   Atrofia si reducerea musculara, neclasificata altundeva  {Atrofia NEC}  <Muscle wasting and atrophy, not elsewhere classified>
+M65.0   Abcesul tecii tendonului  <Abscess of tendon sheath>
+M71.0   Abcesul bursei  <Abscess of bursa>
+M94.9   Afectiunea cartilagiului, nespecificata  {Alte boli ale sistemului musculo-scheletal si tesutului conjunctiv}  <Disorder of cartilage, unspecified>
+N42.2   Atrofia prostatei
+N49.0   Afectiunile inflamatorii ale veziculelor seminale  <Inflammatory disorders of seminal vesicle>
+N50.9   Afectiunea organelor genitale masculine, nespecificata  <Disorder of male genital organs, unspecified>
+N60.2   Adenofibroza sanului  <Fibroadenosis of breast>
+N76.4   Abces al vulvei  {Furuncul al vulvei}  <Abscess of vulva>
+N83.3   Atrofia dobandita a ovarului si trompei  {Fallope}  <Acquired atrophy of ovary and fallopian tube>
+N88.4   Alungirea hipertrofica a colului uterin  <Hypertrophic elongation of cervix uteri>
+N91     Amenoree, oligomenoree si hipomenoree  <Absent, scanty and rare menstruation>
+N96     Avort obisnuit  {Investigatie sau ingrijiri acordate unei femei care nu este gravida / Infertilitate relativa}  <Recurrent pregnancy loss>
+O02.1   Avort fals  {Moarte fetala precoce cu retentia fatului mort}  <Missed abortion>
+O04     Avort medical  <Complications following (induced) termination of pregnancy>
+O43     Anomaliile placentei  <Placental disorders>
+O43.2   Aderare anormala a placentei  <Morbidly adherent placenta>
+O62     Anormalitati de contractie uterina si de dilatare a colului  <Abnormalities of forces of labor>
+O62.9   Anomalia contractiei uterine si dilatatia de col, nespecificata  <Abnormality of forces of labor, unspecified>
+O72.3   Anomalia de coagulare postpartum  <Postpartum coagulation defects>
+O92.3   Agalactia  {Esecul alaptarii / Agalactia primara}  <Agalactia>
+P21     Asfixia la nastere
+P21.0   Asfixia la nastere severa
+P21.1   Asfixia la nastere usoara sau moderata
+P28.42  Apneea obstructiva a nou-nascutului  <Obstructive apnea of newborn>
+P56     Anasarca feto-placentara datorita bolii hemolitice  <Hydrops fetalis due to hemolytic disease>
+P56.0   Anasarca feto-placentara datorita izoimunizarii  <Hydrops fetalis due to isoimmunization>
+P56.9   Anasarca feto-placentara datorita altor boli hemolitice nespecificate  <Hydrops fetalis due to other and unspecified hemolytic disease>
+P74.0   Acidoza metabolica a nou-nascutului  {Acidoza metabolica tardiva a nou-nascutului}  <Late metabolic acidosis of newborn>
+P83.2   Anasarca feto-placentara nedatorita unei boli hemolitice  {Anasarca feto-placentara}  <Hydrops fetalis not due to hemolytic disease>
+Q00     Anencefalia si malformatii similare  <Anencephaly and similar malformations>
+Q00.21  Acefalia, deschisa
+Q00.22  Acefalia, inchisa
+Q04.34  Agiria si lissencefalia
+Q11     Anoftalmia, microftalmia si macroftalmia  <Anophthalmos, microphthalmos and macrophthalmos>
+Q16.1   Absenta, atrezia sau strictura conductului auditiv (extern)  {extern / Atrezia sau strictura meatului auditiv osos}  <Congenital absence, atresia and stricture of auditory canal (external)>
+Q16.2   Absenta trompei Eustache  <Absence of eustachian tube>
+Q17.4   Anomalia de pozitie a urechii  {Pozitia joasa a urechii}  <Misplaced ear>
+Q25.2   Atrezia aortei  <Atresia of aorta>
+Q27.0   Absenta congenitala si hipoplazia arterei ombilicale  {Artera ombilicala unica}  <Congenital absence and hypoplasia of umbilical artery>
+Q30.0   Atrezia choanelor  {Atrezia narilor (anterioara) (posterioara) / Stenoza congenitala a narilor (anterioara) (posterioara)}  <Choanal atresia>
+Q41.0   Absenta, atrezia si stenoza congenitala a duodenului  <Congenital absence, atresia and stenosis of duodenum>
+Q41.1   Absenta, atrezia si stenoza congenitala a jejunului  {Sindromul 'coaja de mar' / Imperforarea jejunului}  <Congenital absence, atresia and stenosis of jejunum>
+Q41.2   Absenta, atrezia si stenoza congenitala a ileonului  <Congenital absence, atresia and stenosis of ileum>
+Q42.2   Absenta, atrezia si stenoza congenitala a anusului cu fistula  <Congenital absence, atresia and stenosis of anus with fistula>
+Q42.20  Absenta, atrezia si stenoza congenitala a anusului cu fistula nespecificata
+Q42.29  Absenta, atrezia si stenoza congenitala a anusului cu alta fistula
+Q45.81  Absenta (completa) (partiala) a cailor digestive, neclasificate altundeva  {completa / partiala}
+Q50.61  Absenta trompei Fallope si a ligamentului larg
+Q55.00  Absenta si aplazia testiculului, nespecificat
+Q55.01  Absenta si aplazia testiculului, unilateral  {Monorhism}
+Q55.02  Absenta si aplazia testiculului, bilateral
+Q55.3   Atrezia vasului deferent  <Atresia of vas deferens>
+Q62.1   Atrezia si stenoza ureterului  <Congenital occlusion of ureter>
+Q62.11  Atrezia si stenoza jonctiunii uterero-pelviene, unilaterala  <Congenital occlusion of ureteropelvic junction>
+Q62.12  Atrezia si stenoza jonctiunii uterero-pelviene, bilaterala  <Congenital occlusion of ureterovesical orifice>
+Q62.13  Atrezia si stenoza jonctiunii uterero-vezicale, unilaterala
+Q62.14  Atrezia si stenoza jonctiunii uterero-vezicale, bilaterala
+Q62.18  Atrezia si stenoza altor parti si nespecificate ale ureterului, unilaterala  {Atrezia si stenoza ureterului}
+Q62.19  Atrezia si stenoza altor parti si nespecificate ale ureterului, bilaterala
+Q62.4   Agenezia ureterului  {Ureter absent}  <Agenesis of ureter>
+Q64.5   Absenta congenitala a vezicii si uretrei  <Congenital absence of bladder and urethra>
+Q67.0   Asimetria faciala  <Congenital facial asymmetry>
+Q71.1   Absenta congenitala a bratului si antebratului cu prezenta mainii  {Focomelia bratului}  <Congenital absence of upper arm and forearm with hand present>
+Q71.2   Absenta congenitala atat a antebratului cat si a mainii  <Congenital absence of both forearm and hand>
+Q71.31  Absenta congenitala a degetului(lor) cu mana ramasa intacta  <Congenital absence of right hand and finger>
+Q71.32  Absenta congenitala a degetului mare cu toate celelalte degete intacte  <Congenital absence of left hand and finger>
+Q72.1   Absenta congenitala a coapsei si a gambei cu prezenta labei piciorului  {Focomelia membrului inferior}  <Congenital absence of thigh and lower leg with foot present>
+Q72.2   Absenta congenitala atat a gambei cat si a labei piciorului  <Congenital absence of both lower leg and foot>
+Q72.3   Absenta congenitala a labei piciorului si a degetului(lor)  <Congenital absence of foot and toe(s)>
+Q72.31  Absenta congenitala a degetului(lor) cu laba piciorului ramasa intacta  <Congenital absence of right foot and toe(s)>
+Q72.32  Absenta congenitala a degetului mare cu celelalte degete intacte  <Congenital absence of left foot and toe(s)>
+Q72.33  Absenta congenitala a labei piciorului si a degetului(lor)  <Congenital absence of foot and toe(s), bilateral>
+Q76.41  Absenta congenitala a unei(or) vertebre  <Congenital kyphosis>
+Q83.0   Absenta congenitala a sanului cu absenta mamelonului  <Congenital absence of breast with absent nipple>
+Q83.2   Absenta mamelonului  <Absent nipple>
+Q89.11  Absenta congenitala a glandei suprarenale
+Q89.32  Aranjament atrial imagine in oglinda cu pozitie inversa
+Q93.6   Absenta observata numai in prometafaza
+Q93.7   Absenta cu alte rearanjamente complexe  <Deletions with other complex rearrangements>
+Q93.9   Absenta de autosomi, nespecificata  <Deletion from autosomes, unspecified>
+===== POSIBIL (237)
+A06     Amibiaza  <Amebiasis> ~ Amebiaza | Miiaza | Giardiaza
+A06.3   Amiliaza (intestinala)  {intestinala}  <Ameboma of intestine> ~ Miiaza | Giardiaza | Meteorism | Paralizie intestinala | Gastroenterita
+A06.4   Abcesul amibian al ficatului  {Amibiaza hepatica}  <Amebic liver abscess> ~ Amiloidoza hepatica | Micoza hepatica
+A06.7   Amibiaza cutanata  <Cutaneous amebiasis> ~ Amebiaza cutanata | Miiaza | Amiloidoza cutanata
+A22.2   Antrax gastro-intestinal  <Gastrointestinal anthrax> ~ Antrax gastrointestinal
+A28.9   Antropo-zoonoze bacteriene, nespecificate  {Alte boli bacteriene}  <Zoonotic bacterial disease, unspecified> ~ Infectii bacteriene
+A42.1   Actinomicoza abdominala  <Abdominal actinomycosis> ~ Rinita actinomicotica
+B43.2   Abcesul si chistul phaeomycotic subcutanat  <Subcutaneous pheomycotic abscess and cyst> ~ Abces subcutanat
+B44     Aspergilloza  <Aspergillosis> ~ Aspergiloza | Aspergilom pulmonar
+B44.0   Aspergilloza pulmonara invaziva  <Invasive pulmonary aspergillosis> ~ Aspergiloza pulmonara cronica | Aspergiloza invaziva
+B44.7   Aspergilloza diseminata  {Aspergilloza generalizata}  <Disseminated aspergillosis> ~ Aspergiloza invaziva | Listerioza | Scleroza multipla | Hipertricoza | Artroza generalizata
+B76.0   Ankylostomiaza  {Infectia datorita unor specii de Ancylostoma}  <Ancylostomiasis> ~ Ancilostomiaza
+B81.0   Anisakiaza  {Infectia datorita larvei Anisakis}  <Anisakiasis> ~ Anisakidoza
+B81.3   Angiostrongyloza intestinala  {Angiostrongyloza datorita Parastrongylus costaricensis}  <Intestinal angiostrongyliasis> ~ Tricostrongiloidoza | Strongiloidoza
+B83.2   Angiostrongyliaza datorita Parastrongylus cantonensis  {Meningocefalita cu eosinofile†}  <Angiostrongyliasis due to Parastrongylus cantonensis> ~ Angiostrongiloidoza
+D50     Anemia prin carenta de fier  <Iron deficiency anemia> ~ Deficit de fier
+D51     Anemia prin carenta in vitamina B12  <Vitamin B12 deficiency anemia> ~ Deficit de vitamina A | Deficit de vitamina B12
+D51.0   Anemia prin carenta de vitamina B12, datorita carentei unui factor intrinsec  <Vitamin B12 deficiency anemia due to intrinsic factor deficiency> ~ Deficit de vitamina A | Deficit de vitamina B12
+D51.9   Anemii prin carenta de vitamina B12, nespecificate  <Vitamin B12 deficiency anemia, unspecified> ~ Deficit de vitamina A | Deficit de vitamina B12 | Boala hemoragica a nou-nascutului
+D52.0   Anemia prin carenta alimentara de acid folic  {Anemia megaloblastica de nutritie}  <Dietary folate deficiency anemia> ~ Anemie megaloblastica
+D56.0   Alfa-thalasemia  <Alpha thalassemia> ~ Alfa-talasemie
+D57.1   Anemia cu hematii falciforme fara crize  <Sickle-cell disease without crisis> ~ Anemie falciforma
+D59.0   Anemia hemolitica auto-imuna provocata de medicamente  <Drug-induced autoimmune hemolytic anemia> ~ Anemie hemolitica
+D59.2   Anemia hemolitica non-auto-imuna provocata de medicamente  {Anemia prin deficit enzimatic provocata de medicamente}  <Drug-induced nonautoimmune hemolytic anemia> ~ Anemie hemolitica
+D60     Aplazia pura de celule rosii dobandita [eritroblastopenia]  {eritroblastopenia}  <Acquired pure red cell aplasia [erythroblastopenia]> ~ Aplasia eritrocitara pura | Anemie eritroblastopenica
+D61.3   Anemia aplazica idiopatica  <Idiopathic aplastic anemia> ~ Anemie aplastica idiopatica
+D61.9   Anemia aplazica, nespecificata  {Anemia hipoplazica / Hipoplazia medulara / Panmieloftizia}  <Aplastic anemia, unspecified> ~ Anemie aplastica | Anemie hipoplastica
+D62     Anemia post-hemoragica acuta  <Acute posthemorrhagic anemia> ~ Anemie posthemoragica
+D64.1   Anemia sideroblastica secundara datorita unei boli  <Secondary sideroblastic anemia due to disease> ~ Anemie sideroblastica
+D64.2   Anemia sideroblastica secundara, provocata de medicamente si toxine  <Secondary sideroblastic anemia due to drugs and toxins> ~ Anemie sideroblastica
+E07.9   Afectiunea tiroidei, nespecificata  {Reglementarea intolerantei la glucoza si diabetul mellitus / Criteriile OMS pentru diabet}  <Disorder of thyroid, unspecified> ~ Intoleranta la glucoza
+E22.0   Acromegalia si gigantismul pituitar  {Artropatia asociata cu acromegalia / Hipersecretia hormonului de crestere}  <Acromegaly and pituitary gigantism> ~ Artrita asociata acromegaliei
+E50     Avitaminoza A  <Vitamin A deficiency> ~ Avitaminoza | Scorbut | Deficit de vitamina A
+E50.3   Avitaminoza A cu ulceratia corneei si xeroza  <Vitamin A deficiency with corneal ulceration and xerosis> ~ Ulcer cornean
+E50.4   Avitaminoza A cu cheratomalacie  <Vitamin A deficiency with keratomalacia> ~ Keratomalacie
+E85.1   Amiloidoza heredofamiliala neuropatica  {Polineuropatia amiloida (portugheza)}  <Neuropathic heredofamilial amyloidosis> ~ Neuropatie amiloida
+E85.2   Amiloidoza heredofamiliara, nespecificata  <Heredofamilial amyloidosis, unspecified> ~ Amiloidoza familiala
+E85.3   Amiloidoza sistemica secundara  {Amiloidoza asociata cu hemodializa}  <Secondary systemic amyloidosis> ~ Amiloidoza | Amiloidoza ATTR | Amiloidoza AA | Amiloidoza asociata dializei
+E85.4   Amiloidoza la unul sau mai multe organe  {Amiloidoza localizata}  <Organ-limited amyloidosis> ~ Amiloidoza cutanata | Amiloidoza asociata dializei
+F04.0   Amnezia post-traumatica ~ Artroza posttraumatica
+F04.00  Amnezia post-traumatica, nespecificata ~ Artroza posttraumatica
+F44.6   Anestezie disociativa si pierdere sensoriala  {Surditate psihogena}  <Conversion disorder with sensory symptom or deficit> ~ Presbiacuzie
+F50.1   Anorexie nervoasa atipica ~ Anorexie nervoasa
+F80.3   Afazie dobindita cu epilepsie [Landau-Kleffner]  {Landau-Kleffner} ~ Sindrom Landau-Kleffner
+G11.1   Ataxia cerebeloasa cu debut precoce  <Early-onset cerebellar ataxia> ~ Ataxie
+G11.2   Ataxia cerebeloasa tardiva  <Late-onset cerebellar ataxia> ~ Ataxie | Ataxie spinocerebeloasa tip 6
+G11.3   Ataxia cerebeloasa cu defect de reparatie a AND  {Ataxia telangiectazica [Louis-Bar]}  <Cerebellar ataxia with defective DNA repair> ~ Ataxie | Ataxie telangiectatica
+G12     Atrofia musculara spinala si sindroame inrudite  <Spinal muscular atrophy and related syndromes> ~ Amiotrofie spinala
+G12.0   Atrofia musculara spinala infantila, tip I (Werdning-Hoffman)  {Werdning-Hoffman}  <Infantile spinal muscular atrophy, type I [Werdnig-Hoffman]> ~ Amiotrofie spinala | Amiotrofie spinala infantila | Amiotrofie spinala tip II
+G40.6   Atacuri de "grand mal", nespecificate (cu sau fara petit mal)  {cu sau fara petit mal} ~ Epilepsie absenta | Epilepsie absenta a copilariei
+G45.2   Atac ischemic tranzitoriu al teritoriilor arteriale precerebrale multiple si bilaterale  <Multiple and bilateral precerebral artery syndromes> ~ Accident ischemic tranzitoriu
+G47.30  Apneea de somn, nespecificata  <Sleep apnea, unspecified> ~ Apnee in somn
+G52.1   Afectiunile nervului gloso-faringian  {Nevralgia gloso-faringiana}  <Disorders of glossopharyngeal nerve> ~ Nevralgia glosofaringiana
+G54.0   Afectiunile plexului brahial  {Sindromul toracelui cu supapa}  <Brachial plexus disorders> ~ Plexopatie brahiala
+G54.1   Afectiunile plexului lombosacral  <Lumbosacral plexus disorders> ~ Plexopatie lombosacrala
+H05.9   Afectiunea orbitei, nespecificata  <Unspecified disorder of orbit> ~ Celulita orbitala
+H60.0   Abces al urechii externe  {Abces al auriculului sau al conductului auditiv extern / Carbuncul al auriculului sau al conductului auditiv extern / Furuncul al auriculului sau al conductului auditiv extern}  <Abscess of external ear> ~ Otita externa circumscrisa
+H70.2   Apexita [petrosita]  {petrosita / Inflamatia osului petros (acuta) (cronica)}  <Petrositis> ~ Boala inflamatorie pelvina | Petrozita | Periostita
+H81.9   Afectiunea functiei vestibulare, nespecificata  {Sindromul de vertij}  <Unspecified disorder of vestibular function> ~ Vertij
+H93.3   Afectiunile nervului auditiv  <Disorders of acoustic nerve> ~ Neuropatie auditiva
+H93.9   Afectiunea urechii, nespecificata  <Unspecified disorder of ear> ~ Otita
+I20.1   Angina pectorala cu spasm inregistrat  <Angina pectoris with documented spasm> ~ Angina pectorala | Angina stabila
+I25.4   Anevrismul arterei coronare  {Fistula coronariana arteriovenoasa, dobandita}  <Coronary artery aneurysm and dissection> ~ Anevrism de artera coronara | Spasm coronarian | Anevrism de artera carotidiana | Fistula arteriovenoasa | Fistula coronariana
+I28.1   Anevrismul arterei pulmonare  <Aneurysm of pulmonary artery> ~ Fistula arteriovenoasa pulmonara
+I37     Afectiunile valvei pulmonare  <Nonrheumatic pulmonary valve disorders> ~ Boala valvulara pulmonara
+I37.9   Afectiunea valvei pulmonare, nespecificata  <Nonrheumatic pulmonary valve disorder, unspecified> ~ Boala valvulara pulmonara | Atrezie pulmonara
+I47.0   Aritmia ventriculara de reintrare  <Re-entry ventricular arrhythmia> ~ Aritmie ventriculara
+I67.1   Anevrism cerebral, fara ruptura  <Cerebral aneurysm, nonruptured> ~ Anevrism cerebral | Hemoragie subarahnoidiana
+I68.0   Angiopatia cerebrala amiloida (E85.-†)  <Cerebral amyloid angiopathy> ~ Angiopatie amiloida cerebrala
+I68.1   Arterita cerebrala in bolile infectioase si parazitare clasificate altundeva ~ Vasculita cerebrala
+I70.2   Ateroscleroza arterelor extremitatilor  {Gangrena aterosclerotica / Scleroza (mijlocie) Mönckeberg}  <Atherosclerosis of native arteries of the extremities> ~ Ateroscleroza
+I70.21  Ateroscleroza arterelor extremitatilor cu claudicatie intermitenta  <Atherosclerosis of native arteries of extremities with intermittent claudication> ~ Circulatie periferica deficitara
+I70.8   Ateroscleroza altor artere  <Atherosclerosis of other arteries> ~ Ateroscleroza aortei
+I71     Anevrismul si disectia aortica  <Aortic aneurysm and dissection> ~ Anevrism aortic
+I71.1   Anevrismul toracic, cu ruptura  <Thoracic aortic aneurysm, ruptured> ~ Anevrism de aorta toracica
+I71.2   Anevrismul toracic, fara mentiunea rupturii  <Thoracic aortic aneurysm, without rupture> ~ Anevrism de aorta toracica
+I71.3   Anevrismul abdominal, cu ruptura  <Abdominal aortic aneurysm, ruptured> ~ Anevrism de aorta abdominala
+I71.4   Anevrismul abdominal, fara mentiunea rupturii  <Abdominal aortic aneurysm, without rupture> ~ Anevrism de aorta abdominala
+I71.5   Anevrismul toraco-abdominal, cu ruptura  <Thoracoabdominal aortic aneurysm, ruptured> ~ Anevrism de aorta abdominala
+I71.6   Anevrismul toraco-abdominal, fara mentiunea rupturii  <Thoracoabdominal aortic aneurysm, without rupture> ~ Anevrism de aorta abdominala
+I71.8   Anevrismul aortic cu localizare nespecificata, cu ruptura  {Ruptura aortei}  <Aortic aneurysm of unspecified site, ruptured> ~ Anevrism aortic | Ruptura coroidiana
+I71.9   Anevrismul aortic, cu localizare nespecificata, fara mentiunea rupturii  {Anevrismul aortei / Dilatatia aortei / Necroza hialina a aortei}  <Aortic aneurysm of unspecified site, without rupture> ~ Anevrism aortic | Anevrism aortic toracic familial | Anevrism de aorta abdominala | Anevrism de aorta ascendenta | Anevrism de aorta toracica | Disectie de aorta
+I72.0   Anevrismul arterei carodite  <Aneurysm of carotid artery> ~ Anevrism de artera carotidiana | Anevrism popliteu
+I72.2   Anevrismul arterei renale  <Aneurysm of renal artery> ~ Anevrism de artera renala | Anevrism cerebral | Anevrism de artera femurala
+I72.3   Anevrismul arterei iliace  <Aneurysm of iliac artery> ~ Anevrism iliac | Anevrism de artera splenica
+J03.0   Amigdalita streptococica  <Streptococcal tonsillitis> ~ Amigdalita acuta cu streptococ | Angina streptococica | Amigdalita stafilococica
+J39.0   Abces parafaringian si retrofaringian  {Abces perifaringian}  <Retropharyngeal and parapharyngeal abscess> ~ Abces parafaringian | Abces retrofaringian | Abces periamigdalian
+J45.0   Astmul cu predominenta alergica ~ Astmul bronsic
+J45.1   Astmul nonalergic  {Astm idiosincratic / Astm nonalergic intrinsec} ~ Astmul bronsic
+J85     Abcesul pulmonar si al mediastinului  <Abscess of lung and mediastinum> ~ Abces pulmonar | Abces pulmonar primar | Abces pulmonar secundar
+J85.1   Abcesul pulmonar cu pneumopatie  <Abscess of lung with pneumonia> ~ Abces pulmonar | Abces pulmonar primar | Abces pulmonar secundar | Abces pulmonar cu Pseudomonas
+J85.3   Abcesul mediastinului  <Abscess of mediastinum> ~ Abces mediastinal
+K00.0   Anodontia  {Hipodontia / Oligodontia}  <Anodontia> ~ Parodontoza | Anotie
+K04.6   Abces periapical cu fistula  {Abces dentar cu fistula / Abces dento-alveolar cu fistula}  <Periapical abscess with sinus> ~ Abces dentar
+K07.6   Afectiunea articulatiei temporo-mandibulare  {Sindrom sau complex Costen / Disfunctia articulatiei temporo-mandibulare / Mandibula luxabila spontan / Sindrom de disfunctie dureroasa a articulatiei temporo-mandibulare} ~ Sindrom al articulatiei temporo-mandibulare | Artroza temporomandibulara
+K35.0   Apendicita acuta cu peritonita generalizata ~ Peritonita | Peritonita acuta generalizata
+K35.1   Apendicita acuta cu abces peritoneal  {Abcesul apendicelui} ~ Abces peritoneal
+K55.21  Angiodisplazia colonului fara mentionarea hemoragiei  {Angiodisplazia colonului}  <Angiodysplasia of colon with hemorrhage> ~ Hemoragie digestiva inferioara
+K55.22  Angiodisplazia colonului cu hemoragie ~ Hemoragie digestiva inferioara
+K56.5   Aderente intestinale [bride] cu obstructie  {bride / Aderente peritoneale [bride] cu obstructie intestinala}  <Intestinal adhesions [bands] with obstruction (postinfection)> ~ Ocluzie intestinala
+K63.0   Abces al intestinului  <Abscess of intestine> ~ Abces intestinal | Abces perineal
+K75.0   Abces al ficatului  <Abscess of liver> ~ Abces amibian hepatic
+L02     Abces cutanat, furuncul si furuncul antracoid  <Cutaneous abscess, furuncle and carbuncle> ~ Abces cutanat
+L02.0   Abces cutanat, furuncul si furuncul antracoid al fetei  <Cutaneous abscess, furuncle and carbuncle of face> ~ Abces cutanat
+L02.1   Abces cutanat, furuncul si furuncul antracoid al gatului  <Cutaneous abscess, furuncle and carbuncle of neck> ~ Abces cutanat
+L02.2   Abces cutanat, furuncul si furuncul antracoid al trunchiului  {Perete abdominal / Spate [orice parte, cu exceptia feselor] / Perete toracic / Vintre / Perineu / Ombilic}  <Cutaneous abscess, furuncle and carbuncle of trunk> ~ Abces cutanat | Dehiscence de perete abdominal | Hernie inghinala | Hernie lombara | Hernie Richter
+L02.3   Abces cutanat, furuncul si furuncul antracoid al fesei  {Regiunea fesiera}  <Cutaneous abscess, furuncle and carbuncle of buttock> ~ Abces cutanat
+L02.4   Abces cutanat, furuncul si carbuncul al membrului  {Axila / Sold / Umar}  <Cutaneous abscess, furuncle and carbuncle of limb> ~ Abces cutanat | Carbuncul cutanat
+L02.8   Abces cutanat, furuncul si furuncul antracoid cu alte localizari  {Cap [orice parte, cu exceptia fetei] / Scalp}  <Cutaneous abscess, furuncle and carbuncle of other sites> ~ Abces cutanat
+L55     Arsura de soare  <Sunburn> ~ Arsura solara
+L55.0   Arsura de soare, eritem  <Sunburn of first degree> ~ Arsura solara
+L55.1   Arsura de soare, profunzime partiala  <Sunburn of second degree> ~ Arsura solara
+L55.2   Arsura de soare, profunzime adanca  <Sunburn of third degree> ~ Arsura solara
+L63.0   Alopecia totala (capitis)  {capitis}  <Alopecia (capitis) totalis> ~ Carie dentara
+L64     Alopecia androgena  <Androgenic alopecia> ~ Alopecie androgenetica
+L64.0   Alopecia androgenica datorita medicamentelor  <Drug-induced androgenic alopecia> ~ Alopecie androgenetica
+L64.9   Alopecia androgenica, nespecificata  <Androgenic alopecia, unspecified> ~ Alopecie androgenetica
+L66     Alopecia cicatriciala [pierdere de par cicatriciala]  {pierdere de par cicatriciala}  <Cicatricial alopecia [scarring hair loss]> ~ Acnee cheloida | Pseudopelada | Atelectazie cicatriciala
+L66.9   Alopecia cicatriciala, nespecificata  <Cicatricial alopecia, unspecified> ~ Acnee cheloida | Pseudopelada | Atelectazie cicatriciala
+L70     Acneea  <Acne> ~ Acnee
+L70.0   Acneea vulgaris  <Acne vulgaris> ~ Acnee
+L70.1   Acneea conglobata  <Acne conglobata> ~ Acnee conglobata | Rosacea fulminans
+L70.2   Acneea varioliforma  {Acneea necrotica miliara}  <Acne varioliformis> ~ Acnee fulminans
+L70.4   Acneea infantila  <Infantile acne> ~ Acnee neonatala
+L71     Acneea rozacee  <Rosacea> ~ Acnee rozacee
+L71.9   Acneea rosacee, nespecificata  <Rosacea, unspecified> ~ Acnee rozacee
+L73.0   Acneea cheloida  <Acne keloid> ~ Acnee cheloida
+L90.3   Atrofodermia Pasini si Pierini  <Atrophoderma of Pasini and Pierini> ~ Atrofodermie
+M00     Artrita piogenica  <Pyogenic arthritis> ~ Sindrom PAPA
+M00.1   Artrita si poliartrita pneumococica  <Pneumococcal arthritis and polyarthritis> ~ Artrita pneumococica
+M01.2   Artrita in cursul bolii Lyme (A69.2†) ~ Boala Lyme tardiva
+M01.4   Artrita in rubeola (B06.8†) ~ Artrita brucelozica
+M01.5   Artrita in alte boli virale clasificate altundeva ~ Artrita virala
+M01.8   Artrita in alte boli infectioase si parazitare clasificate altundeva ~ Artrita septica
+M03.0   Atrita postmeningococica (A39.8†) ~ Artrita meningococica
+M05.3   Artrita reumatoida cu implicarea altor organe sau sisteme  <Rheumatoid heart disease with rheumatoid arthritis> ~ Artrita reumatoida
+M07     Artropatii psoriazice si enteropatice  <Enteropathic arthropathies> ~ Artrita enteropatica | Artrita psoriazica
+M07.0   Artropatia psoriazica interfalangiana distala (L40.5†) ~ Artrita interfalangiana | Artrita psoriazica | Artroza interfalangiana distala
+M07.1   Artrita mutilanta (L40.5†) ~ Artrita psoriazica mutilanta
+M08     Artrita juvenila  <Juvenile arthritis> ~ Artrita idiopatica juvenila | Artrita juvenila asociata entezitei | Artrita juvenila nediferentiata | Artrita juvenila oligoarticulara | Artrita juvenila poliarticulara | Artrita juvenila psoriazica
+M08.4   Artrita juvenila pauciarticulara  <Pauciarticular juvenile rheumatoid arthritis> ~ Artrita juvenila poliarticulara | Artrita juvenila oligoarticulara
+M09.0   Artrita juvenila in psoriazis (L40.5†) ~ Artrita juvenila psoriazica
+M14.0   Artropatia gutoasa datorita unui deficit enzimatic si altor tulburari ereditare ~ Artrita gutoasa
+M14.4   Artropatia in amiloidoza (E85.-†) ~ Artrita asociata amiloidozei
+M15.3   Artroza secundara multipla  {Poliartroza post-traumatica}  <Secondary multiple arthritis> ~ Artroza posttraumatica
+M18     Artroza primei articulatii carpo-metacarpiene  <Osteoarthritis of first carpometacarpal joint> ~ Rizartroza
+M19.0   Artroza primara a altor articulatii  {Artroza primara}  <Primary osteoarthritis of other joints> ~ Artroza | Artroza secundara | Artroza generalizata | Hiperoxalurie primara tip 1
+M24.6   Anchiloza articulatiei  <Ankylosis of joint> ~ Ankiloza articulatiei
+M31.5   Arterita cu celule gigante cu polimialgie reumatismala  <Giant cell arteritis with polymyalgia rheumatica> ~ Arterita cu celule gigante
+M35.9   Atingeri sistemice ale tesutului conjuctiv, nespecificate  {Boala autoimuna (sistemica) / Boala de colagen (vascular)}  <Systemic involvement of connective tissue, unspecified> ~ Mastocitoza sistemica
+M36.4   Artropatia in reactiile de hipersensibilitate clasificate altundeva  {Artropatia in purpura Henoch(-Schönlein)}  <Arthropathy in hypersensitivity reactions classified elsewhere> ~ Purpura Henoch-Schonlein | Nefropatia purpurica
+M89.0   Algoneurodistrofia  {Sindromul umar-mana / Atrofia Sudeck / Distrofia de reflex simpatica}  <Algoneurodystrophy> ~ Sindrom Marfan
+N15.1   Abces renal si perirenal  <Renal and perinephric abscess> ~ Abces perirenal | Abces renal
+N34.0   Abces uretral  <Urethral abscess> ~ Abces renal | Abces cerebral
+N41.2   Abcesul prostatei  <Abscess of prostate> ~ Abces prostatic
+N49.1   Afectiunile inflamatorii ale cordonului spermatic, tunicii vaginale si canalului deferent  {Vasita}  <Inflammatory disorders of spermatic cord, tunica vaginalis and vas deferens> ~ Ascita
+N50.0   Atrofia testiculului  <Atrophy of testis> ~ Atrofie testiculara
+N64.2   Atrofia sanului  <Atrophy of breast> ~ Atrofie pancreatica
+N73.6   Aderente peritoneale pelviene  <Female pelvic peritoneal adhesions (postinfective)> ~ Aderente pelvine | Adeziviune peritoneala
+N75.1   Abcesul glandei Bartholin  <Abscess of Bartholin's gland> ~ Abces de glanda Bartholin | Chist de glanda Bartholin
+N90.5   Atrofia vulvei  {Stenoza vulvei}  <Atrophy of vulva> ~ Atrofie vulvara
+N91.0   Amenoree primara  {Esec in pornirea menstruatiei la pubertate}  <Primary amenorrhea> ~ Amenoree | Oligomenoree
+N91.1   Amenoree secundara  {Absenta menstruatiei la o femeie care a avut menstruatie anterior}  <Secondary amenorrhea> ~ Amenoree
+O91.1   Abcesul sanului asociat nasterii  {Abces mamar gestational sau puerperal / Mastita purulenta gestationala sau puerperala / Abces subareolar gestational sau puerperal}  <Abscess of breast associated with pregnancy, the puerperium and lactation> ~ Abces mamar
+O99.0   Anemia complicand sarcina, nasterea si lauzia  <Anemia complicating pregnancy, childbirth and the puerperium> ~ Anemie de sarcina
+P15.6   Adipo-necroza subcutanata datorita traumatismului la nastere  <Subcutaneous fat necrosis due to birth injury> ~ Traumatism obstetric
+P21.9   Astixia la nastere, nespecificata  {Anoxia / Asfixia / Hipoxia} ~ Anorexie nervoasa | Anotie
+P24.0   Aspiratia de meconiu in perioada neonatala  {Sindromul de aspiratie de meconium / Pneumopatia datorita meconiumului}  <Meconium aspiration> ~ Sindrom de aspiratie de meconiu | Sindrom de aspiratie neonatala
+P24.2   Aspiratia de sange in perioada neonatala  <Neonatal aspiration of blood> ~ Sindrom de aspiratie neonatala
+P24.3   Aspiratia de lapte si alimente regurgitate in perioada neonatala  <Neonatal aspiration of milk and regurgitated food> ~ Sindrom de aspiratie neonatala
+P28.0   Atelectazia primara a nou-nascutului  {Esec primar pentru dilatarea unitatilor respiratorii terminale}  <Primary atelectasis of newborn> ~ Atelectazie neonatala
+P28.40  Apneea nou-nascutului, nespecificata  <Unspecified apnea of newborn> ~ Acnee neonatala | Anemie neonatala | Pneumonie congenitala
+P28.41  Apneea prematuritatii  <Central neonatal apnea of newborn> ~ Apnee prematurului
+P61.2   Anemia prematuritatii  <Anemia of prematurity> ~ Anemie neonatala
+P61.3   Anemia congenitala prin pierderi de sange fetal  <Congenital anemia from fetal blood loss> ~ Hemoragie
+P92.2   Alimentatia lenta a nou-nascutului  <Slow feeding of newborn> ~ Meningita neonatala
+Q00.01  Anencefalia incompleta  {Hemianencefalia / Hemicefalia} ~ Hidranencefalie | Anencefalie | Iniencefalie
+Q00.2   Acefalia  <Iniencephaly> ~ Anencefalie | Raceala
+Q00.20  Acefalia, nespecificata ~ Anencefalie | Raceala
+Q04.01  Agenezia corpului calos ~ Agenezie de corp calos | Boala Marchiafava-Bignami
+Q04.1   Arhinencefalia  <Arhinencephaly> ~ Anencefalie | Iniencefalie | Hidranencefalie
+Q06.0   Amielia  <Amyelia> ~ Amelie | Milium
+Q10.4   Absenta si agenezia aparatului lacrimal  {Absenta orificiului lacrimal}  <Absence and agenesis of lacrimal apparatus> ~ Imperforatie de himen | Atrezie de punct lacrimal
+Q12.3   Afachia congenitala  <Congenital aphakia> ~ Fimoza | Cloaca persistenta | Cifoza congenitala
+Q16.0   Absenta congenitala a pavilionului urechii  <Congenital absence of (ear) auricle> ~ Anotie
+Q25.5   Atrezia arterei pulmonare  <Atresia of pulmonary artery> ~ Atrezie pulmonara
+Q30.1   Agenezia si hipoplazia nasului  {Absenta congenitala a nasului}  <Agenesis and underdevelopment of nose> ~ Arhinie | Agengezie pancreatica | Aniridie | Atrezie vaginala
+Q33.3   Agenezia pulmonara  {Absenta plamanului (lob)}  <Agenesis of lung> ~ Agengezie pulmonara | Stenoza pulmonara | Gangrena pulmonara
+Q39.1   Atrezia esofagului cu fistula traheo-esofagiana  {Atrezia esofagului cu fistula bronho-esofagiana}  <Atresia of esophagus with tracheo-esophageal fistula> ~ Atrezie esofagiana | Atrezie esofagiana cu fistula | Fistula traheoesofagiana | Fistula bronhoesofagiana
+Q39.11  Atrezia esofagului cu fistula intre trahee si punga esofagiana superioara ~ Atrezie esofagiana | Atrezie esofagiana cu fistula | Fistula traheoesofagiana
+Q39.12  Atrezia esofagului cu fistula intre trahee si punga esofagiana inferioara ~ Atrezie esofagiana | Atrezie esofagiana cu fistula | Fistula traheoesofagiana
+Q39.19  Atrezia esofagului cu fistula traheo-esofagiana ~ Atrezie esofagiana | Atrezie esofagiana cu fistula | Fistula traheoesofagiana
+Q41     Absenta congenitala, atrezia si stenoza intestinului subtire  <Congenital absence, atresia and stenosis of small intestine> ~ Estenoza intestinala congenitala
+Q41.8   Absenta, atrezia si stenoza congenitala a altor parti specificate ale intestinului subtire  <Congenital absence, atresia and stenosis of other specified parts of small intestine> ~ Estenoza intestinala congenitala
+Q41.9   Absenta, atrezia si stenoza congenitala a intestinului subtire, parte nespecificata  {Absenta, atrezia si stenoza congenitala a intestinului}  <Congenital absence, atresia and stenosis of small intestine, part unspecified> ~ Estenoza intestinala congenitala
+Q42     Absenta, atrezia si stenoza congenitala a intestinului gros  <Congenital absence, atresia and stenosis of large intestine> ~ Estenoza intestinala congenitala
+Q42.0   Absenta, atrezia si stenoza congenitala a rectului cu fistula  <Congenital absence, atresia and stenosis of rectum with fistula> ~ Atrezie rectala
+Q42.00  Absenta, atrezia si stenoza congenitala a rectului cu fistula nespecificata ~ Atrezie rectala
+Q42.01  Absenta, atrezia si stenoza congenitala a rectului cu fistula recto-uretrala ~ Atrezie rectala | Fistula rectouretrala | Strictura uretrala
+Q42.02  Absenta, atrezia si stenoza congenitala a rectului cu fistula recto-vezicala ~ Atrezie rectala
+Q42.03  Absenta, atrezia si stenoza congenitala a rectului cu fistula recto-vulvara ~ Atrezie rectala
+Q42.04  Absenta, atrezia si stenoza congenitala a rectului cu fistula recto-cutanata ~ Atrezie rectala
+Q42.05  Absenta, atrezia si stenoza congenitala a rectului cu fistula recto-cloacala ~ Atrezie rectala
+Q42.09  Absenta, atrezia si stenoza congenitala a rectului cu alta fistula ~ Atrezie rectala
+Q42.1   Absenta, atrezia si stenoza congenitala a rectului, fara fistula  {Rect imperforat}  <Congenital absence, atresia and stenosis of rectum without fistula> ~ Atrezie rectala
+Q42.21  Absenta, atrezia si stenoza congenitala a anusului cu fistula ano-cutanata ~ Fistula anala
+Q42.22  Absenta, atrezia si stenoza congenitala a anusului cu fistula ano-vestibulara ~ Fistula anala
+Q42.8   Absenta, atrezia si stenoza congenitala a altor parti ale intestinului gros  <Congenital absence, atresia and stenosis of other parts of large intestine> ~ Estenoza intestinala congenitala
+Q42.9   Absenta, atrezia si stenoza congenitala a intestinului gros, parte nespecificata  {Atrezia colonului}  <Congenital absence, atresia and stenosis of large intestine, part unspecified> ~ Estenoza intestinala congenitala | Atrezie pilorica
+Q43.32  Aderente intraabdominale [bride] congenitale  {bride} ~ Adeziviune peritoneala
+Q44.0   Agenezia, aplazia si hipoplazia vezicii biliare  <Agenesis, aplasia and hypoplasia of gallbladder> ~ Aplazie biliara
+Q44.2   Atrezia cailor biliare  <Atresia of bile ducts> ~ Atrezie biliara intrahepatica | Aplazie biliara | Colangita
+Q50.01  Absenta congenitala a ovarului, unilaterala  <Congenital absence of ovary, unilateral> ~ Agenezie ovariana
+Q50.02  Absenta congenitala a ovarului, bilaterala  <Congenital absence of ovary, bilateral> ~ Agenezie ovariana
+Q51.0   Agenezia si aplazia uterului  {Absenta congenitala a uterului}  <Agenesis and aplasia of uterus> ~ Agenezie uterina | Absenta de perone | Aniridie | Anosmie congenitala
+Q51.5   Agenezia si aplazia cervixului  {Absenta congenitala a cervixului}  <Agenesis and aplasia of cervix> ~ Anoftalmie | Atrezie vaginala | Atrezie de vezica biliara
+Q55.0   Absenta si aplazia testiculului  {Anorhism}  <Absence and aplasia of testis> ~ Anorhidie
+Q55.5   Absenta congenitala si aplazia penisului  <Congenital absence and aplasia of penis> ~ Agenezie de penis | Absenta de perone | Aniridie
+Q60     Agenezia renala si alte defecte de reducere a rinichiului  <Renal agenesis and other reduction defects of kidney> ~ Agenezie renala
+Q60.0   Agenezia renala unilaterala  <Renal agenesis, unilateral> ~ Agenezie renala
+Q60.1   Agenezia renala bilaterala  <Renal agenesis, bilateral> ~ Agenezie renala | Secventa Potter
+Q71.0   Absenta completa congenitala a membrului(lor) superior(e)  {Amelia membrelor superioare}  <Congenital complete absence of upper limb> ~ Amelie
+Q71.3   Absenta congenitala a mainii si degetului(lor)  <Congenital absence of hand and finger> ~ Aniridie | Agenezie renala | Atrezie vaginala
+Q71.33  Absenta congenitala a mainii si degetului(lor)  <Congenital absence of hand and finger, bilateral> ~ Aniridie | Agenezie renala | Atrezie vaginala
+Q72.0   Absenta completa congenitala a membrului(lor) inferior(e)  {Amelia membrului inferior}  <Congenital complete absence of lower limb> ~ Amelie
+Q74.3   Artrogripoza congenitala multipla  <Arthrogryposis multiplex congenita> ~ Artrogripoza
+Q74.84  Asimetria congenitala a membrelor ~ Amelie
+Q76.42  Anomalia congenitala a vertebrei(lor) sacrale  {Agenezia sacrala}  <Congenital lordosis> ~ Agenezie renala
+Q76.61  Absenta congenitala a coastelor ~ Agenezie ovariana | Amelie | Anorhidie
+Q76.71  Absenta congenitala a sternului ~ Absenta de perone | Aniridie | Agenezie renala
+Q77.01  Acondrogeneza, tip I ~ Acondrogeneza
+Q77.02  Acondrogeneza, tip II ~ Acondrogeneza
+Q84.0   Alopecia congenitala  {Atricoza congenitala}  <Congenital alopecia> ~ Cloaca persistenta | Miopatia congenitala | Leucemie congenitala | Atetoza | Ptoza congenitala | Artrogripoza
+Q84.3   Anonichia  {Absenta congenitala a unghiei}  <Anonychia> ~ Anotie | Aplazie traheala | Asplenie
+Q87.01  Acrocefalopolisindactilia  {Acrocefalopolisindactilia tip I, sindromul / Noack / Acrocefalopolisindactilia tip II, sindromul Carpenter} ~ Sindrom Apert
+Q87.27  Asocierea VATER  {Asocierea VACTERL} ~ Sindrom VACTERL
+Q93.3   Absenta ramurii scurte a cromozomului 4  {Sindromul Wolff-Hirschorn}  <Deletion of short arm of chromosome 4> ~ Sindrom Wolf-Hirschhorn
+===== EXISTA (111)
+A22     Antrax = Antrax [exact]
+A22.0   Antrax cutanat = Antrax cutanat [exact]
+A22.1   Antrax pulmonar = Antrax pulmonar [exact]
+A42     Actinomicoza = Actinomicoza [exact]
+A42.0   Actinomicoza pulmonara = Pneumonie cu Actinomyces [exact]
+B76.9   Ankylostomiaza, nespecificata = Larva migrans cutanata [terminatii]
+B77     Ascariaza = Ascaridioza [exact]
+D50.0   Anemia prin carenta de fier secundara unei pierderi de sange (cronica) = Anemie posthemoragica [terminatii]
+D51.1   Anemia prin carenta de vitamina B12, datorita unei malabsorbtii selective a vitaminei B12, cu proteinurie = Sindrom Imerslund-Grasbeck [terminatii]
+D53.9   Anemia nutritionala, nespecificata = Anemie hemolitica [terminatii]
+D55.0   Anemia datorita unei carente de glucozo-6-fosfat dehidrogenaza [G-6-PD] = Deficit de glucozo-6-fosfat dehidrogenaza [exact]
+D57.0   Anemia cu hematii falciforme (anemie drepanocitara) cu crize = Anemie falciforma [exact]
+D58.9   Anemie hemolitica ereditara, nespecificata = Anemie hemolitica ereditara [exact]
+D59     Anemia hemolitica dobandita = Anemie hemolitica dobandita [terminatii]
+D64.0   Anemia sideroblastica ereditara = Anemie sideroblastica legata de X [terminatii]
+D64.4   Anemia diseritropoietica congenitala = Anemie diseritropoietica congenitala [terminatii]
+D64.9   Anemia, nespecificata = Anemie [exact]
+D70     Agranulocitoza = Agranulocitoza [exact]
+E56.9   Avitaminoza, nespecificata = Avitaminoza [exact]
+E70.3   Albinism = Albinism [exact]
+E85     Amiloidoza = Amiloidoza [exact]
+E85.0   Amiloidoza heredofamiliala non-neuropatica = Amiloidoza renala ereditara [terminatii]
+E87.2   Acidoza = Acidoza [exact]
+E87.3   Alcaloza = Alcaloza [exact]
+F40.0   Agorafobie = Agorafobie [exact]
+F44.0   Amnezie disociativa = Amnezie disociativa [exact]
+F50.0   Anorexie nervoasa = Anorexie nervoasa [exact]
+F52.0   Absenta sau pierdere a dorintei sexuale = Frigiditate [exact]
+F84.0   Autism infantil = Autism [exact]
+G12.9   Atrofia musculara spinala, nespecificata = Amiotrofie spinala [terminatii]
+G31.0   Atrofia cerebrala circumscrisa = Dementa frontotemporala [exact]
+G45.4   Amnezia globala tranzitorie = Amnezie globala tranzitorie [terminatii]
+G45.9   Atac ischemic cerebral tranzitoriu, nespecificat = Accident ischemic tranzitoriu [terminatii]
+G47.3   Apnee de somn = Apnee in somn [exact]
+H47.2   Atrofia optica = Atrofie optica [terminatii]
+H52.2   Astigmatism = Astigmatism [exact]
+H93.1   Acufene (tinnitus) = Tinitus [exact]
+I20     Angina pectorala = Angina pectorala [exact]
+I20.0   Angina instabila = Angina instabila [exact]
+I49.9   Aritmia cardiaca, nespecificata = Aritmie cardiaca [terminatii]
+I67.2   Ateroscleroza cerebrala = Ateroscleroza cerebrala [exact]
+I67.7   Arterita cerebrala, neclasificata altundeva = Vasculita cerebrala [exact]
+I70     Ateroscleroza = Ateroscleroza [exact]
+I70.0   Ateroscleroza aortei = Ateroscleroza aortei [exact]
+I77.6   Arterita, nespecificata = Arterita [exact]
+J03     Amigdalita acuta = Amigdalita [exact]
+J35.0   Amigdalita cronica = Amigdalita [exact]
+J36     Angina flegmonoasa = Abces periamigdalian [exact]
+J45     Astm = Astmul bronsic [exact]
+J63.0   Aluminoza (pulmonara) = Intoxicatie cu aluminiu [exact]
+J85.2   Abcesul pulmonar fara pneumopatie = Abces pulmonar [terminatii]
+K04.7   Abces periapical fara fistula = Abces dentar [exact]
+K10.3   Alveolita maxilarelor = Alveolita [exact]
+K12.0   Afte bucale recidivante = Afte bucale [temporal (G1)]
+K14.4   Atrofia papilelor limbii = Glosita atrofica [exact]
+K22.0   Acalazia cardiei = Acalazie [terminatii]
+K35     Apendicita acuta = Apendicita [exact]
+K37     Apendicita, nespecificata = Apendicita [exact]
+K61.0   Abces anal = Abces perianal [exact]
+K61.1   Abces rectal = Abces perirectal [exact]
+K66.0   Aderente peritoneale = Adeziviune peritoneala [exact]
+K83.0   Angiocolita [colangita] = Colangita [exact]
+L02.9   Abces cutanat, furuncul si carbuncul, nespecificat = Furuncul [exact]
+L40.5   Artropatia psoriazica (M07.0-M07.3*, M09.0*) = Artrita psoriazica [terminatii]
+L63     Alopecia areata = Alopecie areata [exact]
+L74.4   Anhidroza = Anhidroza [exact]
+L83     Acanthosis nigricans = Acantosis nigricans [exact]
+L90.4   Acrodermatita cronica atrofianta = Acrodermatita cronica atrofianta [exact]
+L99.0   Amiloidoza cutanata (E85.-†) = Amiloidoza cutanata [exact]
+M01.0   Artrita meningococica (A39.8†) = Artrita meningococica [exact]
+M01.1   Artrita tuberculoasa (A18.0†) = Artrita tuberculoasa [exact]
+M05     Artrita reumatoida seropozitiva = Artrita reumatoida seropozitiva [exact]
+M06.0   Artrita reumatoida seronegativa = Artrita reumatoida seronegativa [exact]
+M06.9   Artrita reumatoida, nespecificata = Artrita reumatoida [exact]
+M07.4   Artropatia in boala Crohn [enterita regionala] (K50.-†) = Boala Crohn [exact]
+M08.0   Artrita reumatoida juvenila = Artrita idiopatica juvenila [exact]
+M08.2   Artrita juvenila cu debut sistemic = Artrita idiopatica juvenila [exact]
+M09.1   Artrita juvenila in boala Crohn [enterita regionala] (K50.- †) = Boala Crohn [exact]
+M13.9   Artrita, nespecificata = Artrita [exact]
+M14.6   Artropatia neuropatica = Artropatie neuropatica [terminatii]
+M19.1   Artroza post-traumatica a altor articulatii = Artroza posttraumatica [exact]
+M19.9   Artroza, nespecificata = Artroza [exact]
+M31.0   Angeita de hipersensibilitate = Sindrom Goodpasture [terminatii]
+M36.2   Artropatia hemofilica (D66-D68†) = Artropatia hemofilica [exact]
+N91.2   Amenoree, nespecificata = Amenoree [exact]
+O03     Avort spontan = Avort spontan [exact]
+O06     Avort nespecificat = Avort spontan [exact]
+P24.1   Aspiratia lichidului amniotic si a mucusului in perioada neonatala = Sindrom de aspiratie neonatala [terminatii]
+P28.3   Apneea primitiva de somn a nou-nascutului = Sindrom de hipoventilatie centrala congenitala [terminatii]
+Q00.0   Anencefalia = Anencefalie [exact]
+Q00.00  Anencefalia, nespecificata = Anencefalie [exact]
+Q03.1   Atrezia fisurii Luschka si a foramenului = Sindrom Dandy-Walker [terminatii]
+Q13.1   Absenta irisului = Aniridie [exact]
+Q22.0   Atrezia valvei pulmonarei = Atrezie pulmonara [terminatii]
+Q38.1   Anchiloglosia = Ankyloglosie [exact]
+Q39.0   Atrezia esofagului, fara fistula = Atrezie esofagiana [exact]
+Q42.3   Absenta, atrezia si stenoza congenitala a anusului, fara fistula = Anus imperforat [exact]
+Q45.0   Agenezia, aplazia si hipoplazia pancreasului = Agengezie pancreatica [exact]
+Q50.0   Absenta congenitala a ovarului = Agenezie ovariana [terminatii]
+Q50.00  Absenta congenitala a ovarului, nespecificata = Agenezie ovariana [terminatii]
+Q52.0   Absenta congenitala a vaginului = Atrezie vaginala [exact]
+Q60.2   Agenezia renala, nespecificata = Agenezie renala [terminatii]
+Q63.10  Anomalia de contopire a rinichiului, nespecificata = Rinichi in potcoava [terminatii]
+Q73.0   Absenta congenitala a unui membru(e) nespecificat(e) = Amelie [exact]
+Q77.0   Acondrogeneza = Acondrogeneza [exact]
+Q77.00  Acondrogeneza, nespecificata = Acondrogeneza [exact]
+Q77.4   Acondroplazia = Acondroplazie [terminatii]
+Q84.81  Aplazia cutanata congenitala = Aplazie cutis congenita [terminatii]
+Q87.02  Acrocefalosindactilia = Sindrom Apert [terminatii]
+Q89.01  Asplenia congenitala = Asplenie [terminatii]
+Q93.4   Absenta ramurii scurte a cromozomului 5 = Sindrom Cri du chat [terminatii]
+===== ELIMINAT (1615)
+A02     Alte salmonelloze [rezidual]
+A02.8   Alte infectii specificate prin Salmonella [rezidual]
+A03.8   Alte shigelloze [rezidual]
+A04     Alte infectii intestinale bacteriene [rezidual]
+A04.4   Alte infectii intestinale prin Escherichia coli [rezidual]
+A04.8   Alte infectii intestinale bacteriene specificate [rezidual]
+A05     Alte intoxicatii bacteriene de origine alimentara [rezidual]
+A05.8   Alte intoxicatii alimentare de origine bacteriana [rezidual]
+A06.8   Alte localizari ale unei infectii amibiene [rezidual]
+A06.9   Amibiaza, nespecificata [dublura categoriei parinte (nespecificat)]
+A07     Alte boli intestinale protozoare [rezidual]
+A07.8   Alte boli intestinale prin protozoare, specificate [rezidual]
+A08.3   Alte enterite virale [rezidual]
+A08.5   Alte infectii intestinale specificate [rezidual]
+A15.8   Alte forme de tuberculoza a cailor respiratorii, cu confirmare bacteriologica si histologica [rezidual]
+A16.8   Alte forme de tuberculoza ale cailor respiratorii fara mentiunea de confirmare bacteriologica sau histologica [rezidual]
+A17.8   Alte forme de tuberculoza a sistemului nervos [rezidual]
+A19.8   Alte tuberculoze miliare [rezidual]
+A20.8   Alte forme de pesta [rezidual]
+A21.8   Alte forme de tularemie [rezidual]
+A22.8   Alte forme de antrax [rezidual]
+A22.9   Antrax, nespecificat [dublura categoriei parinte (nespecificat)]
+A23.8   Alte brucelloze [rezidual]
+A24.3   Alte melioidoze [rezidual]
+A26.8   Alte erizipeloide [rezidual]
+A27.8   Alte forme de leptospiroza [rezidual]
+A28     Alte boli bacteriene antropozoonoze, neclasificate altundeva [rezidual]
+A28.8   Alte antropo-zoonoze bacteriene, specificate, neclasificate altundeva [rezidual]
+A30.8   Alte forme de lepra [rezidual]
+A31.8   Alte infectii cu Mycobacterium [rezidual]
+A32.8   Alte listerioze [rezidual]
+A35     Alte forme de tetanos [rezidual]
+A36.8   Alte forme de difterie [rezidual]
+A39.8   Alte infectii cu meningococi [rezidual]
+A40.8   Alte tipuri de sepsis cu streptococi [rezidual]
+A41     Alte tipuri de sepsis [rezidual]
+A41.8   Alte tipuri de sepsis specificate [rezidual]
+A42.8   Alte forme de actinomicoza [rezidual]
+A42.9   Actinomicoza, nespecificata [dublura categoriei parinte (nespecificat)]
+A43.8   Alte nocardioze [rezidual]
+A44.8   Alte forme de bartonelloza [rezidual]
+A48     Alte boli bacteriene, neclasificate altundeva [rezidual]
+A48.8   Alte boli bacteriane specificate [rezidual]
+A49.8   Alte infectii bacteriene cu localizare nespecificata [rezidual]
+A50.5   Alte forme tardive de sifilis congenital, simptomatic [rezidual]
+A51.4   Alte forme de sifilis secundar [rezidual]
+A52.7   Alte forme de sifilis tardiv, cu simptome [rezidual]
+A53     Alte forme de sifilis si nespecificate [rezidual]
+A54.8   Alte infectii gonococice [rezidual]
+A56     Alte boli cu Chlamydia transmise sexual [rezidual]
+A56.0   Afectiuni cu Chlamydia ale partii inferioare a tractului genito-urinar [categorie generica (nu o boala anume)]
+A59.8   Alte localizari ale trichomoniazei [rezidual]
+A63     Alte boli al caror mod de transmitere este in special sexual, neclasificate altundeva [rezidual]
+A63.8   Alte boli specificate al caror mod de transmitere este in special cel sexual [rezidual]
+A66.2   Alte leziuni cutanate precoce ale pianului [rezidual]
+A66.7   Alte manifestari ale pianului [rezidual]
+A69     Alte infectii prin spirochete [rezidual]
+A69.1   Alte infectii Vincent [rezidual]
+A69.8   Alte infectii specificate cu spirochete [rezidual]
+A74     Alte boli provocate de Chlamydia [rezidual]
+A74.8   Alte afectiuni specificate cu Chlamydia [rezidual]
+A77.8   Alte febre purpurii [rezidual]
+A79     Alte Rickettsioze [rezidual]
+A79.8   Alte rickettsioze specificate [rezidual]
+A81.8   Alte infectii cu virusi atipici ale sistemului nervos central [rezidual]
+A83.8   Alte encefalite virale transmise de tantari [rezidual]
+A84.8   Alte encefalite cu virus transmis de capuse [rezidual]
+A85     Alte encefalite virale, neclasificate altundeva [rezidual]
+A85.8   Alte encefalite virale specificate [rezidual]
+A87.8   Alte meningite virale [rezidual]
+A88     Alte infectii virale ale sistemului nervos central, neclasificate altundeva [rezidual]
+A88.8   Alte infectii virale specificate ale sistemului nervos central [rezidual]
+A92     Alte febre cu virus transmis de tantari [rezidual]
+A92.8   Alte febre virale specificate, transmise de tantari [rezidual]
+A93     Alte febre virale transmise de artropode, neclasificate altundeva [rezidual]
+A93.8   Alte febre virale specificate, transmise de artropode [rezidual]
+A96.8   Alte febre hemoragice cu Arenavirus [rezidual]
+A98     Alte febre virale hemoragice, neclasificate altundeva [rezidual]
+A98.8   Alte febre virale hemoragice specificate [rezidual]
+B00.5   Afectiuni oculare cu virus herpetic [categorie generica (nu o boala anume)]
+B00.8   Alte forme de infectii cu virus herpetic [rezidual]
+B08     Alte infectii virale caracterizate prin leziuni cutaneo-mucoase, neclasificate altundeva [rezidual]
+B08.0   Alte infectii prin orthopoxvirus [rezidual]
+B08.8   Alte infectii virale caracterizate prin leziuni cutaneo-mucoase [rezidual]
+B17     Alte hepatite virale acute [rezidual]
+B17.8   Alte hepatite virale acute specificate [rezidual]
+B18.8   Alte hepatite virale cronice [rezidual]
+B25.8   Alte boli cu cytomegalovirus [rezidual]
+B27.8   Alte mononucleoze infectioase [rezidual]
+B30.8   Alte conjunctivite virale [rezidual]
+B33     Alte boli virale neclasificate altundeva [rezidual]
+B33.8   Alte boli virale specificate [rezidual]
+B34.8   Alte boli virale, cu localizare nespecificataa [rezidual]
+B35.8   Alte dermatofitoze [rezidual]
+B36     Alte micoze superficiale [rezidual]
+B36.8   Alte micoze superficiale specificate [rezidual]
+B38.8   Alte forme de coccidioidomicoza [rezidual]
+B40.8   Alte forme de blastomicoza [rezidual]
+B41.8   Alte forme de paracoccidioidomicoza [rezidual]
+B42.8   Alte forme de sporotrichoza [rezidual]
+B43.8   Alte forme de chromomicoza [rezidual]
+B44.1   Alte aspergilloze pulmonare [rezidual]
+B44.8   Alte forme de aspergilloza [rezidual]
+B44.9   Aspergilloza, nespecificata [dublura categoriei parinte (nespecificat)]
+B45.8   Alte forme de criptococcoza [rezidual]
+B46.8   Alte zygomicoze [rezidual]
+B48     Alte micoze neclasificate altundeva [rezidual]
+B48.8   Alte micoze specificate [rezidual]
+B50.8   Alte forme severe sau complicatii ale paludismului cu Plasmodium falciparum [rezidual]
+B53     Alte forme de paludism confirmate parazitologic [rezidual]
+B53.8   Alte paludisme specificate, cu confirmare parazitologica, neclasificate altundeva [rezidual]
+B60     Alte boli prin protozoare neclasificate altundeva [rezidual]
+B60.8   Alte boli specificate prin protozoare [rezidual]
+B65.8   Alte forme de schistosomiaza [rezidual]
+B66     Alte infectii cu paraziti [rezidual]
+B66.8   Alte infectii specificate cu paraziti [rezidual]
+B67.9   Alte infectii cu Echinococcus si nespecificate [rezidual]
+B71     Alte infectii cu cestode [rezidual]
+B71.8   Alte infectii cu cestode, specificate [rezidual]
+B74.8   Alte filarioze [rezidual]
+B76.8   Alte ankylostomiaze [rezidual]
+B77.9   Ascariaza, nespecificata [dublura categoriei parinte (nespecificat)]
+B81     Alte helmintiaze intestinale, neclasificate altundeva [rezidual]
+B81.8   Alte helmintiaze intestinale specificate [rezidual]
+B83     Alte helmintiaze [rezidual]
+B83.8   Alte helmintiaze specificate [rezidual]
+B88     Alte infestatii [rezidual]
+B88.0   Alte acariaze [rezidual]
+B88.2   Alte infestatii prin artropode [rezidual]
+B88.8   Alte infestatii specificate [rezidual]
+B95.4   Alt streptococ drept cauza unor boli clasate la alte capitole [rezidual]
+B95.7   Alt stafilococ drept cauza unor boli clasate la alte capitole [rezidual]
+B96     Alti agenti bacterieni cauza unor boli clasificate la alte capitole [rezidual]
+B96.8   Alti agenti bacterieni specificati, cauza unor boli clasate la alte capitole [rezidual]
+B96.88  Alti agenti bacterieni si nespecificati drept cauza a unor boli clasificate la alte capitole [rezidual]
+B97.0   Adenovirusi, cauza unor boli clasificate la alte capitole [agent cauzal, nu boala]
+B97.8   Alti virusi, cauza unor boli clasificate la alte capitole [rezidual]
+C02.4   Amigdala linguala [subzona de organ (D5)]
+C09.9   Amigdala, nespecificata [subzona de organ (D5)]
+C16.3   Antrul piloric [subzona de organ (D5)]
+C18.1   Apendicele [subzona de organ (D5)]
+C21.0   Anus, nespecificat [subzona de organ (D5)]
+C22.4   Alte sarcoame ale ficatului [rezidual]
+C22.7   Alte carcinoame specificate ale ficatului [rezidual]
+C24.1   Ampula Vater [subzona de organ (D5)]
+C25.7   Alte parti ale pancreasului [rezidual]
+C44     Alte tumori maligne ale pielii [rezidual]
+C57.4   Anexele uterului, nespecificate [subzona de organ (D5)]
+C57.7   Alte organe genitale specificate la femeie [rezidual]
+C63.7   Alte organe genitale specificate la barbat [rezidual]
+C75.8   Atingere pluriglandulara, nespecificata [subzona de organ (D5)]
+C76.2   Abdomen [subzona de organ (D5)]
+C76.7   Alte localizari nespecificate [rezidual]
+C81.7   Alta forma a bolii Hodgkin [rezidual]
+C82.1   Amestec de celule mici crestate si celule mari foliculare [subzona de organ (D5)]
+C82.7   Alte forme de limfom folicular non [rezidual]
+C83.2   Amestec de celule mici si mari (difuze) [subzona de organ (D5)]
+C83.8   Alte forme de limfom difuz non [rezidual]
+C85     Alte tipuri ale limfomului non [rezidual]
+C85.7   Alte tipuri specificate de limfom non [rezidual]
+C88.7   Alte boli imunoproliferative maligne [rezidual]
+C91.7   Alte leucemii limfoide [rezidual]
+C92.7   Alte leucemii mieloide [rezidual]
+C93.7   Alte leucemii monocitare [rezidual]
+C94     Alte leucemii cu celule de tip specificat [rezidual]
+C94.7   Alte leucemii specificate [rezidual]
+C95.7   Alte leucemii cu celule de tip nespecificat [rezidual]
+C96     Alte tumori maligne si nespecificate ale tesuturilor limfoid, hematopoietic si inrudite [rezidual]
+C96.7   Alte tumori maligne specificate ale tesutului limfoid, hematopoietic si inrudite [rezidual]
+D01.3   Anus si canalul anal [subzona de organ (D5)]
+D01.4   Alte parti ale intestinului si nespecificate [rezidual]
+D01.7   Alte organe digestive specificate [rezidual]
+D02.3   Alte parti ale sistemului respirator [rezidual]
+D05.7   Alt carcinom in situ al sanului [rezidual]
+D06.7   Alte parti ale colului uterin [rezidual]
+D07.3   Alte organe genitale ale femeii si nespecificate [rezidual]
+D07.6   Alte organe genitale ale barbatului si nespecificate [rezidual]
+D09.1   Alte organe urinare si nespecificate [rezidual]
+D10.3   Alte localizari ale gurii si nespecificate [rezidual]
+D10.4   Amigdala [subzona de organ (D5)]
+D10.5   Alte parti ale orofaringelui [rezidual]
+D11.7   Alte glande salivare principale [rezidual]
+D12.1   Apendice [subzona de organ (D5)]
+D12.9   Anus si canalul anal [subzona de organ (D5)]
+D13.3   Alte parti din intestinul subtire si nespecificate [rezidual]
+D15.7   Alte organe intratoracice specificate [rezidual]
+D21     Alte tumori benigne ale tesutului conjunctiv si ale altor tesuturi moi [rezidual]
+D23     Alte tumori benigne ale pielii [rezidual]
+D26     Alte tumori benigne ale uterului [rezidual]
+D26.7   Alte parti ale uterului [rezidual]
+D28.7   Alte organe genitale la femeie, specificate [rezidual]
+D29.7   Alte organe genitale ale barbatului [rezidual]
+D30.7   Alte organe urinare [rezidual]
+D33.7   Alte parti specificate ale sistemului nervos central [rezidual]
+D35.7   Alte glande endrocrine specificate [rezidual]
+D35.8   Atingeri pluriglandulare [subzona de organ (D5)]
+D36.7   Alte localizari specificate [rezidual]
+D37.3   Apendice [subzona de organ (D5)]
+D37.7   Alte organe digestive [rezidual]
+D38.5   Alte organe respiratorii [rezidual]
+D39.7   Alte organe genitale la femeie [rezidual]
+D40.7   Alte organe genitale la barbat [rezidual]
+D41.7   Alte organe urinare [rezidual]
+D43.7   Alte parti ale sistemul nervos central [rezidual]
+D44.8   Atingere pluriglandulara [subzona de organ (D5)]
+D46.0   Anemie refractara fara sideroblasti, astfel declarata [subzona de organ (D5)]
+D46.1   Anemie refractara cu sideroblasti [subzona de organ (D5)]
+D46.2   Anemie refractara cu exces de blasti [subzona de organ (D5)]
+D46.3   Anemie refractara cu exces de blasti in transformare [subzona de organ (D5)]
+D46.4   Anemie refractara, nespecificata [subzona de organ (D5)]
+D46.7   Alte sidroame mielodisplazice [rezidual]
+D47     Alte tumori cu evolutie imprevizibila sau comportament necunoscut ale tesuturilor limfoid, hematopoietic si inrudite [rezidual]
+D47.7   Alte tumori specificate cu evolutie imprevizibila sau comportament necunoscut ale tesuturilor limfoid, hematopoietic si inrudite [rezidual]
+D48.7   Alte localizari specificate [rezidual]
+D50.8   Alte anemii prin carenta de fier [rezidual]
+D50.9   Anemia prin carenta de fier, nespecificata [dublura categoriei parinte (nespecificat)]
+D51.3   Alte anemii prin carenta alimentara de vitamina B12 [rezidual]
+D51.8   Alte anemii prin carenta de vitamana B12 [rezidual]
+D52.8   Alte anemii prin carenta de acid folic [rezidual]
+D52.9   Anemia prin carenta de acid folic, nespecificata [dublura categoriei parinte (nespecificat)]
+D53     Alte anemii de nutritie [rezidual]
+D53.1   Alte anemii megaloblastice, neclasificate altundeva [rezidual]
+D55.8   Alte anemii datorita tulburarilor enzimatice [rezidual]
+D55.9   Anemia datorita tulburarilor enzimatice, nespecificata [dublura categoriei parinte (nespecificat)]
+D56.8   Alte thalasemii [rezidual]
+D57     Afectiuni cu hematii falciforme [drepanocitoze] [categorie generica (nu o boala anume)]
+D57.2   Afectiuni cu hematii falciforme [drepanocitare] heterozigota dubla [categorie generica (nu o boala anume)]
+D57.8   Alte afectiuni cu hematii falciforme [drepanocitare] [rezidual]
+D58     Alte anemii hemolitice ereditare [rezidual]
+D58.2   Alte homoglobinopatii [rezidual]
+D58.8   Alte anemii hemolitice ereditare specificate [rezidual]
+D59.1   Alte anemii hemolitice autoimune [rezidual]
+D59.4   Alte anemii hemolitice non-auto-imune [rezidual]
+D59.8   Alte anemii hemolitice dobandite [rezidual]
+D59.9   Anemii hemolitice dobandite, nespecificate [dublura categoriei parinte (nespecificat)]
+D60.8   Alte aplazii pure de celule rosii dobandite [rezidual]
+D61     Alte anemii aplazice [rezidual]
+D61.8   Alte anemii aplazice specificate [rezidual]
+D64     Alte anemii [rezidual]
+D64.3   Alte anemii sideroblastice [rezidual]
+D64.8   Alte anemii specificate [rezidual]
+D68     Alte anomalii de coagulare [rezidual]
+D68.8   Alte anomalii specificate de coagulare [rezidual]
+D69.2   Alte purpure non-trombocitopenice [rezidual]
+D69.4   Alte trombocitopenii primare [rezidual]
+D69.8   Alte afectiuni hemoragice specificate [rezidual]
+D69.9   Afectiuni hemoragice, nespecificate [categorie generica (nu o boala anume)]
+D72     Alte anomalii ale celulelor albe [rezidual]
+D72.8   Alte anomalii specificate ale celulelor albe [rezidual]
+D73.8   Alte boli ale splinei [rezidual]
+D74.8   Alte methemoglobinemii [rezidual]
+D75     Alte boli ale sangelui si ale orgnelor formatoare [rezidual]
+D75.8   Alte boli specificate ale sangelui si ale organelor hematopoietice [rezidual]
+D76.3   Alte sindroame histiocitare [rezidual]
+D77     Alte boli ale sangelui si ale organelor hematopoietice in unele boli clasificate altundeva [rezidual]
+D80.8   Alte imuno-deficiente predominenta cu anomalii ale anticorpilor [rezidual]
+D81.8   Alte imuno-deficiente combinate [rezidual]
+D83.8   Alte imunodeficiente comune variabile [rezidual]
+D84     Alte imunodeficiente [rezidual]
+D84.1   Anomalii ale sistemului complementar [categorie generica (nu o boala anume)]
+D84.8   Alte imunodeficiente specificate [rezidual]
+D89     Alte tulburari implicand sistemul imunitar, neclasificate altundeva [rezidual]
+D89.8   Alte tulburari specificate implicand sistemul imunitar, neclasificate altundeva [rezidual]
+E01.8   Alte afectiuni tiroidiene si inrudite legate de carenta de iod [rezidual]
+E03     Alte hipotiroidii [rezidual]
+E03.8   Alte hipotiroidii specificate [rezidual]
+E04     Alte guse netoxice [rezidual]
+E04.8   Alte guse netoxice, specificate [rezidual]
+E05.8   Alte tireotoxicoze [rezidual]
+E06.5   Alte tiroidite cronice [rezidual]
+E07     Alte afectiuni ale tiroidei [rezidual]
+E07.8   Alte afectiuni specificate ale tiroidei [rezidual]
+E13     Alte forme specificate de diabet mellitus [rezidual]
+E13.0   Alte forme specificate de diabet mellitus cu hiperosmolaritate [rezidual]
+E13.01  Alte forme specificate de diabet mellitus cu hiperosmolaritate, fara coma noncetotica hiperglicemica-hiperosmolara [NKHHC] [rezidual]
+E13.02  Alte forme specificate de diabet mellitus cu hiperosmolaritate, cu coma [rezidual]
+E13.1   Alte forme specificate de diabet mellitus cu acidoza [rezidual]
+E13.11  Alte forme specificate de diabet mellitus cu acidocetoză, fara coma [rezidual]
+E13.12  Alte forme specificate de diabet mellitus cu acidocetoză, cu coma [rezidual]
+E13.13  Alte forme specificate de diabet mellitus cu acidoza lactica, fara coma [rezidual]
+E13.14  Alte forme specificate de diabet mellitus cu acidoza lactica, cu coma [rezidual]
+E13.15  Alte forme specificate de diabet mellitus cu acidocetoză, cu acidoza lactica, fara coma [rezidual]
+E13.16  Alte forme specificate de diabet mellitus cu acidocetoză, cu acidoza lactica, cu coma [rezidual]
+E13.2   Alte forme specificate de diabet mellitus cu complicatii renale [rezidual]
+E13.21  Alte forme specificate de diabet mellitus cu nefropatie diabetica incipienta [rezidual]
+E13.22  Alte forme specificate de diabet mellitus cu nefropatie diabetica stabilita [rezidual]
+E13.23  Alte forme specificate de diabet mellitus cu boala renala stadiu final [ESRD] [rezidual]
+E13.29  Alte forme specificate de diabet mellitus cu alte complicatii renale specificate [rezidual]
+E13.3   Alte forme specificate de diabet mellitus cu complicatii oculare [rezidual]
+E13.31  Alte forme specificate de diabet mellitus cu retinopatie de fond [rezidual]
+E13.32  Alte forme specificate de diabet mellitus cu retinopatie preproliferativa [rezidual]
+E13.33  Alte forme specificate de diabet mellitus cu retinopatie proliferativa [rezidual]
+E13.34  Alte forme specificate de diabet mellitus cu alte retinopatii [rezidual]
+E13.35  Alte forme specificate de diabet mellitus cu boala oculara avansata [rezidual]
+E13.36  Alte forme specificate de diabet mellitus cu cataracta diabetica [rezidual]
+E13.39  Alte forme specificate de diabet mellitus cu alte complicatii oculare specificate [rezidual]
+E13.4   Alte forme specificate de diabet mellitus cu complicatii neurologice [rezidual]
+E13.40  Alte forme specificate de diabet mellitus cu neuropatie nespecificata [rezidual]
+E13.41  Alte forme specificate de diabet mellitus cu mononeuropatie diabetica [rezidual]
+E13.42  Alte forme specificate de diabet mellitus cu polineuropatie diabetica [rezidual]
+E13.43  Alte forme specificate de diabet mellitus cu neuropatie diabetica autonoma [rezidual]
+E13.49  Alte forme specificate de diabet mellitus cu alte complicatii neurologice specificate [rezidual]
+E13.5   Alte forme specificate de diabet mellitus cu complicatii circulatorii [rezidual]
+E13.51  Alte forme specificate de diabet mellitus cu angiopatie periferica, fara gangrena [rezidual]
+E13.52  Alte forme specificate de diabet mellitus cu angiopatie periferica, cu gangrena [rezidual]
+E13.53  Alte forme specificate de diabet mellitus cu cardiomiopatie ischemica diabetica [rezidual]
+E13.6   Alte forme specificate de diabet mellitus cu alte complicatii specificate [rezidual]
+E13.61  Alte forme specificate de diabet mellitus cu complicatii diabetice musculoscheletale si ale tesutului conjunctiv specificate [rezidual]
+E13.62  Alte forme specificate de diabet mellitus cu complicatii ale pielii si tesutului subcutanat specificate [rezidual]
+E13.63  Alte forme specificate de diabet mellitus cu complicatii periodontale specificate [rezidual]
+E13.64  Alte forme specificate de diabet mellitus cu hipoglicemie [rezidual]
+E13.65  Alte forme specificate de diabet mellitus cu control slab [rezidual]
+E13.69  Alte forme specificate de diabet mellitus cu alte complicatii specificate [rezidual]
+E13.7   Alte forme specificate de diabet mellitus cu complicatii multiple [rezidual]
+E13.71  Alte forme specificate de diabet mellitus cu complicatii microvasculare multiple [rezidual]
+E13.72  Alte forme specificate de diabet mellitus cu caracteristici de rezistenta la insulina [rezidual]
+E13.73  Alte forme specificate de diabet mellitus ulceratia piciorului datorita unor cauza multiple [rezidual]
+E13.8   Alte forme specificate de diabet mellitus cu complicatii nespecificate [rezidual]
+E13.9   Alte forme specificate de diabet mellitus fara complicatii [rezidual]
+E16     Alte tulburari ale secretiei interne pancreatice [rezidual]
+E16.1   Alte hipoglicemii [rezidual]
+E16.8   Alte tulburari specificate ale secretiei interne pancreatice [rezidual]
+E20.8   Alte hipoparatiroidisme [rezidual]
+E21.2   Alte hiperparatiroidisme [rezidual]
+E21.4   Alte tulburari specificate ale glandei paratiroide [rezidual]
+E22.8   Alte hipersecretii ale glandei pituitare [rezidual]
+E23.6   Alte tulburari ale glandei pituitare [rezidual]
+E24.8   Alte sindroame Cushing [rezidual]
+E25.8   Alte tulburari adrenogenitale [rezidual]
+E26.8   Alte hiperaldosteronisme [rezidual]
+E27     Alte tulburari adrenocorticale [rezidual]
+E27.0   Alte hiperfunctiuni adrenocorticale [rezidual]
+E27.8   Alte tulburari specificate ale glandei adrenale [rezidual]
+E28.8   Alte disfunctii ovariene [rezidual]
+E29.8   Alte disfunctii testiculare [rezidual]
+E30.8   Alte tulburari ale pubertatii [rezidual]
+E31.8   Alte disfunctii poliglandulare [rezidual]
+E32.8   Alte boli ale timusului [rezidual]
+E34     Alte tulburari endocrine [rezidual]
+E34.1   Alte hipersecretii de hormoni intestinali [rezidual]
+E34.8   Alte tulburari hormonale specificate [rezidual]
+E50.7   Alte manifestari oculare ale avitaminozei [rezidual]
+E50.8   Alte manifestari ale avitaminozei A [rezidual]
+E50.9   Avitaminoza A, nespecificata [dublura categoriei parinte (nespecificat)]
+E51.8   Alte manifestari ale carentei in tiamina [rezidual]
+E53     Alte avitaminoze din grupa B anemia prin carenta de vitamina [rezidual]
+E56     Alte avitaminoze [rezidual]
+E63     Alte carente nutritionale [rezidual]
+E63.8   Alte carente nutritionale specificate [rezidual]
+E66.8   Alte obezitati [rezidual]
+E67     Alte excese de aport [rezidual]
+E67.8   Alte excese de aport specificate [rezidual]
+E70.1   Alte hiperfenilalanilemii [rezidual]
+E70.8   Alte tulburari de metabolism al aminoacizilor aromatici [rezidual]
+E71.1   Alte tulburari de metabolism ale aminoacizilor cu lant ramificat [rezidual]
+E72     Alte tulburari de metabolism al aminoacizilor [rezidual]
+E72.8   Alte tulburari specificate de metabolism al aminoacizilor [rezidual]
+E73.8   Alte intolerante la lactoza [rezidual]
+E74     Alte tulburari de metabolism al carbohidratilor [rezidual]
+E74.8   Alte tulburari specificate de metabolism al carbohidratilor [rezidual]
+E75.1   Alte gangliosidoze [rezidual]
+E75.2   Alte sfingolipidoze [rezidual]
+E75.5   Alte tulburari ale lipidelor de rezerva [rezidual]
+E76.2   Alte mucopolizaharidoze [rezidual]
+E76.8   Alte tulburari de metabolism al glicosaminoglicani [rezidual]
+E77.8   Alte tulburari de metabolism al glicoproteinelor [rezidual]
+E78.4   Alte hiperlipidemii [rezidual]
+E78.8   Alte tulburari de metabolism al lipoproteinelor [rezidual]
+E79.8   Alte tulburari de metabolism al purinelor si pirimidinei [rezidual]
+E80.2   Alte porfirii [rezidual]
+E80.6   Alte tulburari de metabolism al bilirubinei [rezidual]
+E83.8   Alte tulburari de metabolism al mineralelor [rezidual]
+E85.8   Alte amiloidoze [rezidual]
+E85.9   Amiloidoza, nespecificata [dublura categoriei parinte (nespecificat)]
+E87     Alte tulburari de echilibru acido-bazic, hidric si electrolitic [rezidual]
+E88     Alte tulburari de metabolism [rezidual]
+E88.8   Alte tulburari de metabolism specificate [rezidual]
+E89.8   Alte tulburari metabolice si endrocrine postprocedurale [rezidual]
+F01.8   Alte forme de dementa vasculara [rezidual]
+F05.8   Alte forme de delir [rezidual]
+F06     Alte tulburari mentale datorita vatamarii si disfunctiei creierului si bolii fizice [rezidual]
+F06.8   Alte tulburari mentale specificate datorite unei vatamari si disfunctii cerebrale si unei boli fizice [rezidual]
+F07.8   Alte tulburari organice de personalitate si de comportament datorite unei boli, vatamari si disfunctii cerebrale [rezidual]
+F20.8   Alte forme de schizofrenie [rezidual]
+F22.8   Alte tulburari delirante persistente [rezidual]
+F23.3   Alte tulburari psihotice acute predominant delirante [rezidual]
+F23.8   Alte tulburari psihotice acute si tranzitorii [rezidual]
+F25.8   Alte tulburari schizo-afective [rezidual]
+F28     Alte tulburari psihotice neorganice [rezidual]
+F30.8   Alte episoade maniacale [rezidual]
+F31.8   Alte tulburari afective bipolare [rezidual]
+F32.8   Alte episoade depresive [rezidual]
+F33.8   Alte tulburari depresive recurente [rezidual]
+F34.8   Alte tulburari persistente ale dispozitiei [afective] [rezidual]
+F38     Alte tulburari ale dispozitiei [afective] [rezidual]
+F38.0   Alte tulburari unice ale dispozitiei [afective] [rezidual]
+F38.1   Alte tulburari recurente ale dispozitiei [afective] [rezidual]
+F38.8   Alte tulburari specificate ale dispozitiei [afective] [rezidual]
+F40.8   Alte tulburari anxioase fobice [rezidual]
+F41     Alte tulburari anxioase [rezidual]
+F41.3   Alte tulburari anxioase mixte [rezidual]
+F41.8   Alte tulburari anxioase specificate [rezidual]
+F42.8   Alte tulburari obsesiv-compulsive [rezidual]
+F43.8   Alte reactii la un factor de stress sever [rezidual]
+F44.8   Alte tulburari disociative [de conversie] [rezidual]
+F44.88  Alte tulburari disociative [de conversie] specificate [rezidual]
+F45.8   Alte tulburari somatoforme [rezidual]
+F48     Alte tulburari nevrotice [rezidual]
+F48.8   Alte tulburari nevrotice specificate [rezidual]
+F50.8   Alte tulburari de apetit [rezidual]
+F51.8   Alte tulburari de somn neorganice [rezidual]
+F52.8   Alta disfunctie sexuala necauzata de o tulburare sau o boala organica [rezidual]
+F53.8   Alte tulburari mentale si de comportament asociate cu puerperium, neclasificate altundeva [rezidual]
+F55.8   Alte substante care nu produc dependenta [rezidual]
+F60.8   Alte tulburari specifice de personalitate [rezidual]
+F62.8   Alte schimbari durabile de personalitate [rezidual]
+F63.8   Alte tulburari de impulsuri si de obiceiuri [rezidual]
+F64.8   Alte tulburari de identitate sexuala [rezidual]
+F65.8   Alte tulburari de preferinta sexuala [rezidual]
+F66.8   Alte tulburari de dezvoltare psihosexuala [rezidual]
+F68     Alte tulburari de personalitate si comportament la adult [rezidual]
+F68.8   Alte tulburari specificate de personalitate si de comportament la adult [rezidual]
+F78     Alta retardare mentala [rezidual]
+F80.8   Alte tulburari de dezvoltare a vorbirii si limbajului [rezidual]
+F81.8   Alte tulburari de dezvoltare a abilitatilor scolare [rezidual]
+F84.3   Alta tulburare de dezintegrare a copilariei [rezidual]
+F84.8   Alte tulburari profunde de dezvoltare [rezidual]
+F88     Alte tulburari de dezvoltare psihologica [rezidual]
+F90.8   Alte tulburari hiperkinetice [rezidual]
+F91.8   Alte tulburari de conduita [rezidual]
+F92.8   Alte tulburari mixte de conduita si emotionale [rezidual]
+F93.8   Alte tulburari emotionale ale copilariei [rezidual]
+F94.8   Alte tulburari de functie sociala in copilarie [rezidual]
+F95.8   Alte tulburari de ticuri [rezidual]
+F98     Alte tulburari emotionale si comportamentale cu debut survenind de obicei in copilarie si adolescenta [rezidual]
+F98.8   Alte tulburari specificate ale tulburarilor comportamentale si emotionale cu debut de obicei in copilarie si adolescenta [rezidual]
+G00.8   Alte meningite bacteriene [rezidual]
+G04.8   Alte encefalite, mielite si encefalomielite [rezidual]
+G07     Abces si granulom intracranian si intrarahidian in boli clasificate altundeva [asterisc (in alte boli)]
+G11.8   Alte ataxii ereditare [rezidual]
+G11.9   Ataxia ereditara, nespecificata [dublura categoriei parinte (nespecificat)]
+G12.1   Alte atrofii musculare spinale ereditare [rezidual]
+G12.8   Alte atrofii musculare spinale si sindroame inrudite [rezidual]
+G13     Atrofii sistemice afectand in principal sistemul nervos central in boli clasificate altundeva [asterisc (in alte boli)]
+G13.1   Alte atrofii sistemice afectand in principal sistemul nervos central in boli tumorale [rezidual]
+G13.8   Atrofii sistemice afectand in principal sistemul nervos central in alte boli clasificate altundeva [asterisc (in alte boli)]
+G21.1   Alte parkinsonisme secundare provocate medicamentos [rezidual]
+G21.8   Alte parkinsonisme secundare [rezidual]
+G23     Alte boli degenerative ale ganglionilor bazali [rezidual]
+G23.8   Alte boli degenerative specificate ale ganglionilor bazali [rezidual]
+G24.8   Alte distonii [rezidual]
+G25     Alte tulburari extrapiramidale si de motricitate [rezidual]
+G25.2   Alte forme specificate de tremuraturi [rezidual]
+G25.5   Alte categorii de coree [rezidual]
+G25.8   Alte tulburari extrapiramidale si de motricitate specificate [rezidual]
+G30.8   Alte forme de boala Alzheimer [rezidual]
+G31     Alte boli degenerative ale sistemului nervos, neclasificate altundeva [rezidual]
+G31.8   Alte afectiuni degenerative specificate ale sistemului nervos [rezidual]
+G31.9   Afectiuni degenerative ale sistemului nervos, nespecificate [categorie generica (nu o boala anume)]
+G32     Alte tulburari degenerative ale sistemului nervos in boli clasificate altundeva [rezidual]
+G32.8   Alte tulburari degenerative specificate ale sistemului nervos in boli clasificate altundeva [rezidual]
+G36     Alte afectiuni demielinizante acute diseminate [rezidual]
+G36.8   Alte demielinizari acute diseminate specificate [rezidual]
+G37     Alte boli demielinizante ale sistemului nervos central [rezidual]
+G37.8   Alte boli demielinizante specificate ale sistemului nervos central [rezidual]
+G40.4   Alte epilepsii generalizate si sindroame epileptice [rezidual]
+G40.8   Alte epilepsii [rezidual]
+G41.8   Alte stari de "mal epileptic" [rezidual]
+G43.8   Alte migrene [rezidual]
+G44     Alte sindroame de algii cefalice [rezidual]
+G44.8   Alte sindroame specificate de algie cefalica [rezidual]
+G45.8   Alte atacuri ischemice cerebrale tranzitorii si sindroame inrudite [rezidual]
+G46.7   Alte sindroame lacunare (I60-I67†) [rezidual]
+G46.8   Alte sindroame vasculare cerebrale in bolile cerebro-vasculare (I60-I67†) [rezidual]
+G47.39  Alte apnei de somn [rezidual]
+G47.8   Alte tulburari de somn [rezidual]
+G50.8   Alte afectiuni ale nervului trigemen [rezidual]
+G50.9   Afectiune a nervului trigemen, nespecificata [categorie generica (nu o boala anume)]
+G51     Afectiuni ale nervului facial [categorie generica (nu o boala anume)]
+G51.8   Alte afectiuni ale nervului facial [rezidual]
+G51.9   Afectiune a nervului facial, nespecificata [categorie generica (nu o boala anume)]
+G52     Afectiuni ale altor nervi cranieni [categorie generica (nu o boala anume)]
+G52.9   Afectiune a nervului cranian, nespecificata [categorie generica (nu o boala anume)]
+G53     Afectiunile nervilor cranieni in boli clasificate altundeva [asterisc (in alte boli)]
+G53.8   Alte afectiuni ale nervilor cranieni in alte boli clasificate altundeva [rezidual]
+G54     Afectiuni ale radacinilor si plexurilor nervoase [categorie generica (nu o boala anume)]
+G54.8   Alte afectiuni ale radacinilor si plexurilor nervoase [rezidual]
+G54.9   Afectiune a radacinilor si plexurilor nervoase, nespecificata [categorie generica (nu o boala anume)]
+G56.1   Alte leziuni ale nervului median [rezidual]
+G56.8   Alte mononeuropatii ale membrului superior [rezidual]
+G57.8   Alte mononeuropatii ale membrului inferior [rezidual]
+G58     Alte mononeuropatii [rezidual]
+G58.8   Alte mononeuropatii specificate [rezidual]
+G60.8   Alte neuropatii ereditare si idiopatice [rezidual]
+G61.8   Alte polineuropatii inflamatorii [rezidual]
+G62     Alte polineuropatii [rezidual]
+G62.8   Alte polineuropatii specificate [rezidual]
+G64     Alte tulburari ale sistemului nervos periferic [rezidual]
+G70.1   Afectiuni neuro-musculare toxice [categorie generica (nu o boala anume)]
+G70.8   Alte afectiuni neuro-musculare specificate [rezidual]
+G70.9   Afectiune neuro-musculara, nespecificata [categorie generica (nu o boala anume)]
+G71     Afectiuni musculare primare [categorie generica (nu o boala anume)]
+G71.1   Afectiuni miotonice [categorie generica (nu o boala anume)]
+G71.8   Alte afectiuni musculare primare [rezidual]
+G71.9   Afectiuni musculare primare, nespecificate [categorie generica (nu o boala anume)]
+G72     Alte miopatii [rezidual]
+G72.8   Alte miopatii specificate [rezidual]
+G73     Afectiuni ale jonctiunilor mioneurale si musculare in boli clasificate altundeva [asterisc (in alte boli)]
+G73.2   Alte sindroame miastenice in bolile neoplazice (C00-D48†) [rezidual]
+G80.09  Alte paralizii cerebrale spastice [rezidual]
+G80.8   Alte paralizii cerebrale [rezidual]
+G83     Alte sindroame paralitice [rezidual]
+G83.8   Alte sindroame paralitice specificate [rezidual]
+G90     Afectiuni ale sistemului nervos autonom [categorie generica (nu o boala anume)]
+G90.8   Alte afectiuni ale sistemului nervos autonom [rezidual]
+G90.9   Afectiune a sistemului nervos autonom, nespecificata [categorie generica (nu o boala anume)]
+G91.8   Alte hidrocefalii [rezidual]
+G93     Alte afectiuni ale creierului [rezidual]
+G93.8   Alte afectiuni specificate ale creierului [rezidual]
+G93.9   Afectiune cerebrala, nespecificata [categorie generica (nu o boala anume)]
+G94     Alte afectiuni ale creierului in boli clasificate altundeva [rezidual]
+G94.8   Alte afectiuni specificate ale creierului in boli clasificate altundeva [rezidual]
+G95     Alte afectiuni ale maduvei spinarii [rezidual]
+G95.8   Alte afectiuni specificate ale maduvei spinarii [rezidual]
+G95.9   Afectiune a maduvei spinarii, nespecificata [categorie generica (nu o boala anume)]
+G96     Alte afectiuni ale sistemului nervos central [rezidual]
+G96.8   Alte afectiuni specificate ale sistemului nervos central [rezidual]
+G96.9   Afectiune a sistemului nervos central, nespecificata [categorie generica (nu o boala anume)]
+G97     Afectiunile postprocedurale ale sistemului nervos, neclasificate altundeva [procedura]
+G97.1   Alte reactii secundare ale punctiei spinale si lombare [rezidual]
+G97.8   Alte afectiuni postprocedurale ale sistemului nervos [rezidual]
+G97.9   Afectiuni postprocedurale ale sistemului nervos, nespecificate [procedura]
+G98     Alte afectiuni ale sistemului nervos, neclasificate altundeva [rezidual]
+G99     Alte afectiuni ale sistemului nervos in boli clasificate altundeva [rezidual]
+G99.1   Alte afectiuni ale sistemului nervos autonom in alte boli clasificate altundeva [rezidual]
+G99.8   Alte afectiuni specificate ale sistemului nervos in boli clasificate altundeva [rezidual]
+H01     Alte inflamatii ale pleoapei [rezidual]
+H01.8   Alte inflamatii specificate ale pleoapei [rezidual]
+H02     Alte afectiuni ale pleoapei [rezidual]
+H02.5   Alte tulburari afectand functia palpebrala [rezidual]
+H02.7   Alte afectiuni degenerative ale pleoapei si ale regiunii perioculare [rezidual]
+H02.8   Alte afectiuni specificate ale pleoapei [rezidual]
+H02.9   Afectiune a pleoapei, nespecificata [categorie generica (nu o boala anume)]
+H03     Afectiuni ale pleoapei in boli clasificate altundeva [asterisc (in alte boli)]
+H03.8   Atingerea pleoapei in alte boli clasificate altundeva [asterisc (in alte boli)]
+H04     Afectiuni ale aparatului lacrimal [categorie generica (nu o boala anume)]
+H04.1   Alte afectiuni ale glandei lacrimale [rezidual]
+H04.6   Alte afectiuni ale cailor lacrimale [rezidual]
+H04.8   Alte afectiuni ale aparatului lacrimal [rezidual]
+H04.9   Afectiune a aparatului lacrimal, nespecificata [categorie generica (nu o boala anume)]
+H05     Afectiuni ale orbitei [categorie generica (nu o boala anume)]
+H05.1   Afectiuni inflamatoare cronice ale orbitei [categorie generica (nu o boala anume)]
+H05.8   Alte afectiuni ale orbitei [rezidual]
+H06     Afectiuni ale aparatului lacrimal si ale orbitei in boli clasificate altundeva [asterisc (in alte boli)]
+H06.0   Afectiuni ale aparatului lacrimal in boli clasificate altundeva [asterisc (in alte boli)]
+H06.3   Alte afectiuni ale orbitei in boli clasificate altundeva [rezidual]
+H10.2   Alte conjuctivite acute [rezidual]
+H10.8   Alte conjuctivite [rezidual]
+H11     Alte afectiuni ale conjunctivei [rezidual]
+H11.4   Alte tulburari vasculare si chistul conjuctivei [rezidual]
+H11.8   Alte afectiuni specificate ale conjuctivei [rezidual]
+H11.9   Afectiuni ale conjuctivei, nespecificate [categorie generica (nu o boala anume)]
+H13     Afectiuni ale conjunctivei in boli clasificate altundeva [asterisc (in alte boli)]
+H13.8   Alte afectiuni ale conjuctivei in boli clasificate altundeva [rezidual]
+H15     Afectiuni ale sclerei [categorie generica (nu o boala anume)]
+H15.8   Alte afectiuni ale sclerei [rezidual]
+H15.9   Afectiune a sclerei, nespecificata [categorie generica (nu o boala anume)]
+H16.1   Alte keratite superficiale fara conjunctivita [rezidual]
+H16.8   Alte keratite [rezidual]
+H17.1   Alte opacitati corneene centrale [rezidual]
+H17.8   Alte cicatrice si opacitati corneene [rezidual]
+H18     Alte afectiuni ale corneei [rezidual]
+H18.2   Alte edeme ale corneei [rezidual]
+H18.7   Alte deformatii ale corneei [rezidual]
+H18.8   Alte afectiuni specificate ale corneei [rezidual]
+H18.9   Afectiuni ale corneei, nespecificate [categorie generica (nu o boala anume)]
+H19     Afectiuni ale sclerei si corneei in boli clasificate altundeva [asterisc (in alte boli)]
+H19.8   Alte afectiuni ale sclerei si corneei in boli clasificate altundeva [rezidual]
+H20.8   Alte iridociclite [rezidual]
+H21     Alte afectiuni ale irisului si corpilor ciliari [rezidual]
+H21.1   Alte tulburari vasculare ale irisului sau corpilor ciliari [rezidual]
+H21.2   Afectiuni degenerative ale irisului si corpilor ciliari [categorie generica (nu o boala anume)]
+H21.5   Alte aderente si perturbari ale irisului si corpilor ciliari [rezidual]
+H21.8   Alte afectiuni specificate ale irisului si corpilor ciliari [rezidual]
+H22     Afectiuni ale irisului si corpilor ciliari in boli clasificate altundeva [asterisc (in alte boli)]
+H22.8   Alte afectiuni ale irisului si corpilor ciliari in boli clasificate altundeva [rezidual]
+H25.8   Alte cataracte senile [rezidual]
+H26     Alte cataracte [rezidual]
+H26.8   Alte cataracte specificate [rezidual]
+H27     Alte afectiuni ale cristalinului [rezidual]
+H27.8   Alte afectiuni specificate ale cristalinului [rezidual]
+H27.9   Afectiuni ale cristalinului, nespecificate [categorie generica (nu o boala anume)]
+H28.8   Alte afectiuni ale cristalinului in boli clasificate altundeva [rezidual]
+H30.8   Alte chorioretinite [rezidual]
+H31     Alte afectiuni ale choroidei [rezidual]
+H31.8   Alte afectiuni specificate ale choroidei [rezidual]
+H31.9   Afectiuni ale choroidei, nespecificate [categorie generica (nu o boala anume)]
+H32.8   Alte inflamatii chorioretinale in boli clasificate altundeva [rezidual]
+H33.5   Alte dezlipiri ale retinei [rezidual]
+H34.2   Alte ocluzii ale unor artere retiniene [rezidual]
+H34.8   Alte ocluzii vasculare retiniene [rezidual]
+H35     Alte afectiuni retiniene [rezidual]
+H35.2   Alte retinopatii proliferante [rezidual]
+H35.8   Alte afectiuni retiniene specificate [rezidual]
+H35.9   Afectiuni retiniene, nespecificate [categorie generica (nu o boala anume)]
+H36     Afectiuni retiniene in boli clasificate altundeva [asterisc (in alte boli)]
+H40.8   Alte glaucoame [rezidual]
+H43     Afectiuni ale corpului vitros [categorie generica (nu o boala anume)]
+H43.3   Alte opacitati ale corpului vitros [rezidual]
+H43.8   Alte afectiuni ale corpului vitros [rezidual]
+H43.9   Afectiuni ale corpului vitros, nespecificate [categorie generica (nu o boala anume)]
+H44     Afectiuni ale globului ocular [categorie generica (nu o boala anume)]
+H44.1   Alte endoftalmii [rezidual]
+H44.3   Alte afectiuni degenerative ale globului ocular [rezidual]
+H44.5   Afectiuni degenerative ale globului ocular [categorie generica (nu o boala anume)]
+H44.8   Alte afectiuni ale globului ocular [rezidual]
+H44.9   Afectiune a globului ocular, nespecificata [categorie generica (nu o boala anume)]
+H45     Afectiuni ale corpului vitros si globului ocular in boli clasificate altundeva [asterisc (in alte boli)]
+H45.8   Alte afectiuni ale corpului vitros si ale globului ocular in boli clasificate altundeva [rezidual]
+H47     Alte afectiuni ale nervului optic [al 2-lea] si cailor optice [rezidual]
+H47.0   Afectiuni ale nervului optic, neclasificate altundeva [categorie generica (nu o boala anume)]
+H47.3   Alte afectiuni ale papilei optice [rezidual]
+H47.4   Afectiuni ale chiasmei optice [categorie generica (nu o boala anume)]
+H47.5   Afectiuni ale altor cai optice [categorie generica (nu o boala anume)]
+H47.6   Afectiuni ale cortexului vizual [categorie generica (nu o boala anume)]
+H47.7   Afectiuni ale cailor optice, nespecificate [categorie generica (nu o boala anume)]
+H48     Afectiuni ale nervului optic [al 2-lea] si cailor optice in boli clasificate altundeva [asterisc (in alte boli)]
+H48.0   Atrofia optica in boli clasificate altundeva [asterisc (in alte boli)]
+H48.8   Alte afectiuni ale nervului si cailor optice in boli clasificate altundeva [rezidual]
+H49.8   Alte strabisme paralitice [rezidual]
+H50     Alte strabisme [rezidual]
+H50.4   Alte heterotropii si nespecificate [rezidual]
+H50.8   Alte strabisme specificate [rezidual]
+H51     Alte anomalii de miscare binoculara [rezidual]
+H51.8   Alte anomalii specificate de miscare binoculara [rezidual]
+H52.6   Alte vicii de refractie [rezidual]
+H53.3   Alte tulburari de viziune binoculara [rezidual]
+H53.8   Alte tulburari de vedere [rezidual]
+H57     Alte afectiuni ale ochiului si anexelor [rezidual]
+H57.0   Anomalii functionale ale pupilei [categorie generica (nu o boala anume)]
+H57.8   Alte afectiuni specificate ale ochiului si anexelor [rezidual]
+H57.9   Afectiuni ale ochiului si anexelor nespecificate [categorie generica (nu o boala anume)]
+H58     Alte afectiuni ale ochiului si anexelor in boli clasificate altundeva [rezidual]
+H58.0   Anomalii functionale ale pupilei in boli clasificate altundeva [asterisc (in alte boli)]
+H58.8   Alte afectiuni ale ochiului si anexelor in boli clasificate altundeva [rezidual]
+H59     Afectiuni postprocedurale ale ochiului si anexelor, neclasificate altundeva [procedura]
+H59.8   Alte afectiuni postprocedurale ale ochiului si anexelor [rezidual]
+H59.9   Afectiune postprocedurala a ochiului si anexelor, nespecificata [procedura]
+H60.3   Alte otite externe infectioase [rezidual]
+H60.8   Alte otite externe [rezidual]
+H61     Alte afectiuni ale urechii externe [rezidual]
+H61.1   Afectiuni neinfectioase ale pavilionului urechii [categorie generica (nu o boala anume)]
+H61.8   Alte afectiuni specificate ale urechii externe [rezidual]
+H61.9   Afectiuni ale urechii externe, nespecificate [categorie generica (nu o boala anume)]
+H62     Afectiuni ale urechii externe in boli clasificate altundeva [asterisc (in alte boli)]
+H62.8   Alte afectiuni ale urechii externe in boli clasificate altundeva [rezidual]
+H65.1   Alte otite medii acute nesupurative [rezidual]
+H65.4   Alte otite medii cronice nesupurative [rezidual]
+H66.3   Alte otite medii cronice supurate [rezidual]
+H69     Alte afectiuni ale trompei Eustache [rezidual]
+H69.8   Alte afectiuni specificate ale trompei [rezidual]
+H70.8   Alte mastoidite si afectiuni inrudite [rezidual]
+H72.2   Alte perforatii marginale ale membranei timpanului [rezidual]
+H72.8   Alte perforatii ale membranei timpanului [rezidual]
+H73     Alte afectiuni ale membranei timpanului [rezidual]
+H73.8   Alte afectiuni specificate ale membranei timpanului [rezidual]
+H73.9   Afectiuni ale membranei timpanului, nespecificate [categorie generica (nu o boala anume)]
+H74     Alte afectiuni ale urechii medii si apofizei mastoide [rezidual]
+H74.3   Alte anormalitati dobindite ale oscioarelor urechii [rezidual]
+H74.8   Alte afectiuni specificate ale urechii medii si apofizei mastoide [rezidual]
+H75     Alte afectiuni ale urechii medii si apofizei mastoide in boli clasificate altundeva [rezidual]
+H75.8   Alte afectiuni specificate ale urechii medii si apofizei mastoide in boli clasificate altundeva [rezidual]
+H80.8   Alte otoscleroze [rezidual]
+H81     Afectiuni ale functiei vestibulare [categorie generica (nu o boala anume)]
+H81.3   Alte vertijuri periferice [rezidual]
+H81.8   Alte afectiuni ale functiei vestibulare [rezidual]
+H83     Alte boli ale urechii interne [rezidual]
+H83.8   Alte afectiuni specificate ale urechii interne [rezidual]
+H91     Alte pierderi ale auzului [rezidual]
+H91.8   Alte pierderi specificate ale auzului [rezidual]
+H93     Alte afectiuni ale urechii, neclasificate altundeva [rezidual]
+H93.0   Afectiuni vasculare si degenerative ale urechii [categorie generica (nu o boala anume)]
+H93.2   Alte perceptii de auz anormale [rezidual]
+H93.8   Alte afectiuni specificate ale urechii [rezidual]
+H94     Alte afectiuni ale urechii in boli clasificate altundeva [rezidual]
+H94.8   Alte afectiuni specificate ale urechii in boli clasificate altundeva [rezidual]
+H95     Afectiuni postprocedurale ale urechii si apofizei mastoide, neclasificate altundeva [procedura]
+H95.1   Alte afectiuni survenind dupa mastoidectomie [rezidual]
+H95.8   Alte afectiuni postprocedurale la nivelul urechii si apofizei mastoide [rezidual]
+H95.9   Afectiuni postprocedurale la nivelul urechii si apofizei mastoide, nespecificate [procedura]
+I01.8   Alte boli cardiatice reumatismale acute [rezidual]
+I05.8   Alte boli ale valvei mitrale [rezidual]
+I06.8   Alte boli reumatismale ale valvei aortice [rezidual]
+I07.8   Alte boli ale valvei tricuspide [rezidual]
+I08.0   Afectiuni ale ambelor valve mitrala si aortica [categorie generica (nu o boala anume)]
+I08.1   Afectiuni ale ambelor valve mitrala si tricuspida [categorie generica (nu o boala anume)]
+I08.2   Afectiuni ale ambelor valve aortica si tricuspida [categorie generica (nu o boala anume)]
+I08.3   Afectiuni combinate ale valvei mitrale, aortice si tricuspide [categorie generica (nu o boala anume)]
+I08.8   Alte boli multiple ale valvelor [rezidual]
+I09     Alte boli reumatismala ale inimii [rezidual]
+I09.8   Alte cardiopatii reumatismale specificate [rezidual]
+I15.8   Alte hipertensiuni secundare [rezidual]
+I20.8   Alte forme de angina pectorala [rezidual]
+I20.9   Angina pectorala, nespecificata [dublura categoriei parinte (nespecificat)]
+I23     Anumite complicatii curente urmand infarctului miocardic acut [rezidual]
+I23.8   Alte complicatii curente urmand infarctului miocardic acut [rezidual]
+I24     Alte boli ischemice cardiace acute [rezidual]
+I24.8   Alte forme de cardiopatie ischemica acuta [rezidual]
+I25.8   Alte forme de cardiopatie ischemica cronica [rezidual]
+I27     Alte cardiopatii pulmonare [rezidual]
+I27.2   Alte hipertensiuni pulmonare secundare [rezidual]
+I27.8   Alte cardiopatii pulmonare specificate [rezidual]
+I28     Alte boli ale vaselor pulmonare [rezidual]
+I28.8   Alte boli specificate ale vaselor pulmonare [rezidual]
+I30.8   Alte forme de pericardita acuta [rezidual]
+I31     Alte boli ale pericardului [rezidual]
+I31.8   Alte boli specificate ale pericardului [rezidual]
+I34.8   Alte afectiuni nereumatismale ale valvulei mitrale [rezidual]
+I35.8   Alte afectiuni ale valvei aortice [rezidual]
+I36     Afectiuni nereumatismale ale valvei tricuspide [categorie generica (nu o boala anume)]
+I36.8   Alte afectiuni nereumatismale ale valvei tricuspide [rezidual]
+I37.8   Alte afectiuni ale valvei pulmonarei [rezidual]
+I39.0   Afectiunile valvei mitrale in boli clasificate altundeva [asterisc (in alte boli)]
+I39.1   Afectiunile valvei aortice in boli clasificate altundeva [asterisc (in alte boli)]
+I39.2   Afectiunile valvei tricuspide in boli clasificate altundeva [asterisc (in alte boli)]
+I39.3   Afectiunile valvei pulmonare in boli clasificate altundeva [asterisc (in alte boli)]
+I39.4   Afectiunile mai multor valve in boli clasificate altundeva [asterisc (in alte boli)]
+I40.8   Alte miocardite acute [rezidual]
+I42.2   Alte cardiomiopatii hipertrofice [rezidual]
+I42.5   Alte cardiomiopatii restrictive [rezidual]
+I42.8   Alte cardiomiopatii [rezidual]
+I44.3   Alte blocuri atrio-ventriculare si nespecificate [rezidual]
+I44.6   Alte blocuri fasciculare si nespecificate [rezidual]
+I45     Alte tulburari de conducere [rezidual]
+I45.1   Alte blocuri ale ramurii drepte a fascicolului si nespecificate [rezidual]
+I45.5   Alte blocuri cardiace specificate [rezidual]
+I45.8   Alte tulburari de conducere specificate [rezidual]
+I49     Alte aritmii cardiace [rezidual]
+I49.4   Alte depolarizari premature si nespecificate [rezidual]
+I49.8   Alte aritmii cardiace specificate [rezidual]
+I51.8   Alte boli cardiace rau definite [rezidual]
+I52     Alte cardiopatii in boli clasificate altundeva [rezidual]
+I52.0   Alte cardiopatii in boli bacteriene clasificate altundeva [rezidual]
+I52.1   Alte cardiopatii in alte boli infectioase si parazitare clasificate altundeva [rezidual]
+I52.8   Alte cardiopatii in alte boli clasificate altundeva [rezidual]
+I60.8   Alte hemoragii subarahnoide [rezidual]
+I61.8   Alte hemoragii intracerebrale [rezidual]
+I62     Alte hemoragii intracraniene netraumatice [rezidual]
+I63.8   Alte infarcte cerebrale [rezidual]
+I67     Alte boli cerebrovasculare [rezidual]
+I67.8   Alte boli cerebrovasculare, specificate [rezidual]
+I68.2   Arterita cerebrala in alte boli clasificate altundeva [asterisc (in alte boli)]
+I68.8   Alte tulburari cerebrovasculare in bolile clasificate altundeva [rezidual]
+I72     Alte anevrisme [rezidual]
+I73     Alte boli vasculare periferice [rezidual]
+I73.8   Alte boli vasculare periferice, specificate [rezidual]
+I77     Alte afectiuni ale arterelor si arteriolelor [rezidual]
+I77.8   Alte afectiuni specificate ale arterelor si arteriolelor [rezidual]
+I77.9   Afectiuni ale arterelor si arteriolelor, nespecificate [categorie generica (nu o boala anume)]
+I78.8   Alte boli ale capilarelor [rezidual]
+I79.0   Anevrismul aortei in boli clasificate altundeva [asterisc (in alte boli)]
+I79.1   Aortita in boli clasificate altundeva [asterisc (in alte boli)]
+I79.2   Angiopatii periferice in boli clasificate altundeva [asterisc (in alte boli)]
+I79.8   Alte boli ale arterelor, arteriolelor si capilarelor in boli clasificate altundeva [rezidual]
+I87     Alte afectiuni ale venelor [rezidual]
+I87.8   Alte afectiuni specificate ale venelor [rezidual]
+I87.9   Afectiuni ale venelor, nespecificate [categorie generica (nu o boala anume)]
+I88.8   Alte limfadenite nespecifice [rezidual]
+I89     Alte afectiuni neinfectioase ale vaselor limfatice si ganglionilor limfatici [rezidual]
+I89.8   Alte afectiuni neinfectioase specificate ale vaselor limfatice si ganglionilor limfatici [rezidual]
+I89.9   Afectiuni ale vaselor limfatice si ganglionilor limfatici, nespecificate [categorie generica (nu o boala anume)]
+I95.8   Alte hipotensiuni [rezidual]
+I97     Afectiuni postprocedurale ale sistemului circulator, neclasificate altundeva [procedura]
+I97.1   Alte tulburari functionale dupa chirurgia cardiaca [rezidual]
+I97.8   Alte tulburari postprocedurale ale sistemului circulator, neclasificate altundeva [rezidual]
+I98     Alte afectiuni ale sistemului circulator in boli clasificate altundeva [rezidual]
+I98.1   Afectiuni cardiovasculare in alte boli infectioase si parazitare clasificate altundeva [categorie generica (nu o boala anume)]
+I98.8   Alte afectiuni specifice ale sistemului circulator in boli clasificate altundeva [rezidual]
+I99     Alte afectiuni ale sistemului circulator si nespecificate [rezidual]
+J01.8   Alte sinuzite acute [rezidual]
+J03.9   Amigdalita acuta, nespecificata [dublura categoriei parinte (nespecificat)]
+J06.8   Alte infectii acute ale cailor respiratorii superioare cu localizari multiple [rezidual]
+J12.8   Alte pneumonii virale [rezidual]
+J15.8   Alte pneumonii bacteriene [rezidual]
+J18.8   Alte pneumonii, cu micro-organisme nespecificate [rezidual]
+J30.2   Alte rinite alergice sezoniere [rezidual]
+J30.3   Alte rinite alergice [rezidual]
+J32.8   Alte sinuzite cronice [rezidual]
+J33.8   Alti polipi ai sinusului [rezidual]
+J34     Alte afectiuni ale nasului si sinusului nazal [rezidual]
+J34.8   Alte boli specificate ale nasului si sinusului nazal [rezidual]
+J35.8   Alte boli cronice ale amigdalelor si adenoizilor [rezidual]
+J38     Afectiuni ale corzilor vocale si laringelui, neclasificate altundeva [categorie generica (nu o boala anume)]
+J38.3   Alte boli ale corzilor vocale [rezidual]
+J38.7   Alte boli ale laringelui [rezidual]
+J39     Alte boli ale cailor respiratorii superioare [rezidual]
+J39.1   Alte abcese faringiene [rezidual]
+J39.2   Alte boli ale faringelui [rezidual]
+J39.8   Alte boli ale cailor respiratorii superioare specificate [rezidual]
+J43.8   Alte emfizeme [rezidual]
+J44     Alte boli pulmonare obstructive cronice [rezidual]
+J44.8   Alte boli pulmonare obstructive cronice specificate [rezidual]
+J45.9   Astm, nespecificat [dublura categoriei parinte (nespecificat)]
+J66     Afectiuni ale cailor aeriene datorita pulberilor organice specificate [categorie generica (nu o boala anume)]
+J66.8   Afectiuni ale cailor aeriene datorite altor pulberi organice specificate [categorie generica (nu o boala anume)]
+J68     Afectiuni respiratorii datorita inhalarii de substante chimice, emanatii de gaze, fumuri si vapori [categorie generica (nu o boala anume)]
+J68.3   Alte afectiuni respiratorii acute si subacute datorita substantelor chimice, emanatiilor de gaze, fumuri si vapori [rezidual]
+J68.4   Afectiuni respiratorii cronice datorita substantelor chimice, emanatiilor de gaze, fumuri si vapori [categorie generica (nu o boala anume)]
+J68.8   Alte afectiuni respiratorii datorita substantelor chimice, emanatiilor de gaze, fumuri si vapori [rezidual]
+J68.9   Afectiune respiratorie datorita substantelor chimice, emanatiilor de gaze, fumuri si vapori, nespecificata [categorie generica (nu o boala anume)]
+J70     Afectiuni respiratorii datorita altor agenti externi [categorie generica (nu o boala anume)]
+J70.0   Afectiuni pulmonare acute datorite iradierii [categorie generica (nu o boala anume)]
+J70.1   Afectiuni pulmonare cronice si altele, datorite iradierii [categorie generica (nu o boala anume)]
+J70.2   Afectiuni pulmonare interstitiale acute provocate de medicamente [categorie generica (nu o boala anume)]
+J70.3   Afectiuni pulmonare interstitiale cronice provocate de medicamente [categorie generica (nu o boala anume)]
+J70.4   Afectiuni pulmonare interstitiale provocate de medicamente, nespecificate [categorie generica (nu o boala anume)]
+J70.8   Afectiuni respiratorii datorite altor agenti externi specificati [categorie generica (nu o boala anume)]
+J70.9   Afectiuni respiratorii datorite unui agent extern nespecificat [categorie generica (nu o boala anume)]
+J84     Alte boli pulmonare interstitiale [rezidual]
+J84.1   Alte boli pulmonare interstitiale cu fibroza [rezidual]
+J84.8   Alte boli pulmonare interstitiale specificate [rezidual]
+J93.1   Alte forme de pneumotorax spontan [rezidual]
+J93.8   Alte forme de pneumotorax [rezidual]
+J94     Alte afectiuni pleurale [rezidual]
+J94.8   Alte afectiuni pleurale specificate [rezidual]
+J94.9   Afectiune pleurala, nespecificata [categorie generica (nu o boala anume)]
+J95.8   Alte tulburari respiratorii postprocedurale, nespecificate [rezidual]
+J98     Alte tulburari respiratorii [rezidual]
+J98.0   Afectiuni ale traheii si bronhiilor, neclasificate altundeva [categorie generica (nu o boala anume)]
+J98.4   Alte modificari pulmonare [rezidual]
+J98.8   Alte tulburari respiratorii specificate [rezidual]
+K00.2   Anomalii de volum si de forma ale dintilor [categorie generica (nu o boala anume)]
+K00.5   Anomalii ereditare ale structurii dentare, neclasificate altundeva [categorie generica (nu o boala anume)]
+K00.8   Alte tulburari de odontogeneza [rezidual]
+K02.8   Alte carii dentare [rezidual]
+K03     Alte boli ale tesutului dentar dur [rezidual]
+K03.8   Alte boli specificate ale tesutului dentar dur [rezidual]
+K04.9   Alte boli ale pulpei si tesuturilor periapicale si nespecificate [rezidual]
+K05.5   Alte boli periodontale [rezidual]
+K06     Alte afectiuni ale gingiei si crestei alveolare edentate [rezidual]
+K06.8   Alte afectiuni specifice ale gingiei si ale crestei alveolare edentate [rezidual]
+K07     Anomalii dento-faciale [inclusiv malocluzia] [categorie generica (nu o boala anume)]
+K07.0   Anomalii majore ale dimensiunii maxilarului [categorie generica (nu o boala anume)]
+K07.1   Anomalii de raport intre maxilare si baza craniului [categorie generica (nu o boala anume)]
+K07.2   Anomalii de raport intre arcadele dentare [categorie generica (nu o boala anume)]
+K07.3   Anomalii pozitionale ale dintilor [categorie generica (nu o boala anume)]
+K07.5   Anomalii functionale dento-faciale [categorie generica (nu o boala anume)]
+K07.8   Alte anomalii dento-faciale [rezidual]
+K08     Alte afectiuni ale dintilor si paradontiului [rezidual]
+K08.8   Alte afectiuni specificate ale dintilor si parodontiului [rezidual]
+K08.88  Alte afectiuni specificate ale dintilor si paradontiului [rezidual]
+K09.2   Alte chisturi ale mandibulei [rezidual]
+K09.8   Alte chisturi ale regiunii bucale, neclasificate altundeva [rezidual]
+K10     Alte boli ale maxilarelor [rezidual]
+K10.2   Afectiuni inflamatorii ale maxilarelor [categorie generica (nu o boala anume)]
+K10.8   Alte boli specificate ale maxilarelor [rezidual]
+K11.8   Alte boli ale glandelor salivare [rezidual]
+K12.1   Alte forme de stomatite [rezidual]
+K13     Alte boli ale buzelor si mucoasei bucale [rezidual]
+K13.7   Alte leziuni ale mucoasei bucale si nespecificate [rezidual]
+K14.8   Alte boli ale limbii [rezidual]
+K22     Alte boli ale esofagului [rezidual]
+K22.8   Alte boli specificate ale esofagului [rezidual]
+K23     Afectiuni ale esofagului in boli clasificate altundeva [asterisc (in alte boli)]
+K23.8   Afectiuni ale esofagului in alte boli clasificate altundeva [asterisc (in alte boli)]
+K29.1   Alte gastrite acute [rezidual]
+K29.6   Alte gastrite [rezidual]
+K31     Alte boli ale stomacului si duodenului [rezidual]
+K31.8   Alte boli specificate ale stomacului si duodenului [rezidual]
+K31.88  Alte boli specificate ale stomacului si duodenului [rezidual]
+K35.9   Apendicita acuta, nespecificata [dublura categoriei parinte (nespecificat)]
+K36     Alte forme de apendicita [rezidual]
+K38     Alte boli ale apendicelui [rezidual]
+K38.8   Alte boli specificate ale apendicelui [rezidual]
+K45     Alte hernii abdominale [rezidual]
+K45.0   Alte hernii abdominale specificate cu obstructie, fara gangrena [rezidual]
+K45.1   Alte hernii abdominale specificate cu gangrena [rezidual]
+K45.8   Alte hernii abdominale specificate fara obstructie sau gangrena [rezidual]
+K50.8   Alte forme ale bolii Crohn [rezidual]
+K51.8   Alte colite ulcerative [rezidual]
+K52     Alte gastroenterite si colite neinfectioase [rezidual]
+K52.8   Alte gastroenterite si colite neinfectioase specificate [rezidual]
+K55.8   Alte tulburari vasculare ale intestinului [rezidual]
+K56.4   Alte obstructii ale intestinului [rezidual]
+K56.6   Alte obstructii intestinale si nespecificate [rezidual]
+K59     Alte tulburari functionale ale intestinului [rezidual]
+K59.8   Alte tulburari functionale specificate ale intestinului [rezidual]
+K62     Alte boli ale anusului si rectului [rezidual]
+K62.8   Alte boli specificate ale anusului si rectului [rezidual]
+K63     Alte boli ale intestinelor [rezidual]
+K63.58  Alt polip al colonului [rezidual]
+K63.8   Alte boli specificate ale intestinului [rezidual]
+K65.8   Alte peritonite [rezidual]
+K66     Alte tulburari ale peritoneului [rezidual]
+K66.8   Alte tulburari specifice ale peritoneului [rezidual]
+K67.8   Alte tulburari ale peritoneului in boli infectioase clasificate altundeva [rezidual]
+K73.8   Alte hepatite cronice, neclasificate altundeva [rezidual]
+K74.6   Alta ciroza a ficatului si nespecificata [rezidual]
+K75     Alte boli inflamatorii ale ficatului [rezidual]
+K75.8   Alte boli inflamatorii specificate ale ficatului [rezidual]
+K76     Alte boli ale ficatului [rezidual]
+K76.8   Alte boli specificate ale ficatului [rezidual]
+K80.8   Alte colelitiaze [rezidual]
+K81.8   Alte colecistite [rezidual]
+K82     Alte boli ale vezicii biliare [rezidual]
+K82.8   Alte boli specificate ale vezicii biliare [rezidual]
+K83     Alte boli ale tractului biliar [rezidual]
+K83.8   Alte boli specifice ale cailor biliare [rezidual]
+K86     Alte boli ale pancreasului [rezidual]
+K86.1   Alte pancreatite cronice [rezidual]
+K86.8   Alte boli specificate ale pancreasului [rezidual]
+K90.8   Alte malabsorbtii intestinale [rezidual]
+K91.8   Alte tulburari postprocedurale ale sistemului digestiv, neclasificate altundeva [rezidual]
+K91.9   Alte tulburari postprocedurale ale sistemului digestiv, nespecificate [rezidual]
+K92     Alte boli ale sistemului digestiv [rezidual]
+K92.8   Alte boli specificate ale sistemului digestiv [rezidual]
+K93.8   Afectiunile altor organe digestive specificate in boli clasificate altundeva [asterisc (in alte boli)]
+L08     Alte infectii locale ale pielii si tesutului celular subcutanat [rezidual]
+L08.8   Alte infectii locale si specificate ale pielii si tesutului celular subcutanat [rezidual]
+L10.8   Alte forme de pemfigus [rezidual]
+L11     Alte tulburari acantolitice (stratul spinos al pielii) [rezidual]
+L11.8   Alte tulburari acantolitice specificate [rezidual]
+L12.8   Alte forme de pemfigoid [rezidual]
+L13     Alte tulburari buloase [rezidual]
+L13.8   Alte tulburari buloase specificate [rezidual]
+L20.8   Alte dermatite atopice [rezidual]
+L21.8   Alte dermatite seboreice [rezidual]
+L28.2   Alte forme de prurigo [rezidual]
+L29.8   Alte forme de prurit [rezidual]
+L30     Alte dermatite [rezidual]
+L30.8   Alte dermatite specificate [rezidual]
+L40.8   Alte forme de psoriazis [rezidual]
+L41.8   Alte forme de parapsoriazis [rezidual]
+L43.8   Alte forme de lichen plan [rezidual]
+L44     Alte tulburari papulo-scuamoase [rezidual]
+L44.8   Alte tulburari papulo-scuamoase specificate [rezidual]
+L50.8   Alte forme de urticarie [rezidual]
+L51.8   Alte forme de eritem multiform [rezidual]
+L53     Alte afectiuni eritematoase [rezidual]
+L53.3   Alte forme de eritem figurat cronic [rezidual]
+L53.8   Alte afectiuni eritematoase specificate [rezidual]
+L53.9   Afectiune eritematoasa, nespecificata [categorie generica (nu o boala anume)]
+L55.8   Alte tipuri de arsura de soare [rezidual]
+L55.9   Arsura de soare, nespecificata [dublura categoriei parinte (nespecificat)]
+L56     Alte modificari acute ale pielii datorita radiatiilor ultraviolete [rezidual]
+L56.8   Alte modificari acute specificate ale pielii datorite radiatiilor ultraviolete [rezidual]
+L57.8   Alte modificari ale pielii datorite expunerii cronice la raze neionizante [rezidual]
+L59     Alte tulburari ale pielii si tesutului celular subcutanat legate de iradiere [rezidual]
+L59.8   Alte tulburari specifice ale pielii si tesutului celular subcutanat legate de iradiere [rezidual]
+L60.8   Alte boli ale unghiei [rezidual]
+L62     Afectiunile unghiei in boli clasificate altundeva [asterisc (in alte boli)]
+L63.8   Alte forme de alopecie areata [rezidual]
+L63.9   Alopecia areata, nespecificata [dublura categoriei parinte (nespecificat)]
+L64.8   Alte forme de alopecie androgenica [rezidual]
+L65     Alte forme necicatriciale de pierdere a parului [rezidual]
+L65.8   Alte forme necicatriciale, specificate de pierdere a parului [rezidual]
+L66.8   Alte forme de alopecie cicatriciala [rezidual]
+L67     Anomalii de pigmentatie sau ale tecii parului [categorie generica (nu o boala anume)]
+L67.1   Anomalii de culoare a parului [categorie generica (nu o boala anume)]
+L67.8   Alte anomalii de pigmentatie sau ale tecii parului [rezidual]
+L67.9   Anomalii de pigmentatie sau ale tecii parului, nespecificate [categorie generica (nu o boala anume)]
+L68.8   Alte forme de hipertricoza [rezidual]
+L70.8   Alte forme de acnee [rezidual]
+L70.9   Acneea, nespecificata [dublura categoriei parinte (nespecificat)]
+L71.8   Alte forme de acnee rosacee [rezidual]
+L72.8   Alte forme de chist folicular al pielii si tesutului celular subcutanat [rezidual]
+L73     Alte tulburari foliculare [rezidual]
+L73.8   Alte forme specificate de tulburari foliculare [rezidual]
+L74.8   Alte tulburari ale glandelor sudoripare exocrine [rezidual]
+L75.8   Alte tulburari ale glandelor sudoripare apocrine [rezidual]
+L81     Alte anomalii de pigmentatie [rezidual]
+L81.4   Alte hiperpigmentatii de melanina [rezidual]
+L81.6   Alte anomalii legate de o diminuare de formare a melaninei [rezidual]
+L81.8   Alte anomalii specificate ale pigmentatiei [rezidual]
+L81.9   Anomalii de pigmentare, nespecificate [categorie generica (nu o boala anume)]
+L85     Alte ingrosari ale epidermei [rezidual]
+L85.8   Alte forme specificate de ingrosari ale epidermei [rezidual]
+L87     Anomalii de eliminare transepidermica [categorie generica (nu o boala anume)]
+L87.8   Alte anomalii ale eliminarii transepidermice [rezidual]
+L90.8   Alte afectiuni atrofice ale pielii [rezidual]
+L90.9   Afectiune atrofica a pielii, nespecificata [categorie generica (nu o boala anume)]
+L91     Afectiuni hipertrofice ale pielii [categorie generica (nu o boala anume)]
+L91.8   Alte afectiuni hipertrofice ale pielii [rezidual]
+L91.9   Afectiune hipertrofica a pielii, nespecificata [categorie generica (nu o boala anume)]
+L92     Afectiuni granulomatoase ale pielii si tesutului celular subcutanat [categorie generica (nu o boala anume)]
+L92.8   Alte afectiuni granulomatoase ale pielii si tesutului celular subcutanat [rezidual]
+L92.9   Afectiune granulomatoasa a pielii si tesutului celular subcutanat, nespecificata [categorie generica (nu o boala anume)]
+L93.2   Alte forme de Lupus eritematos local [rezidual]
+L94     Alte afectiuni localizate ale tesutului conjunctiv [rezidual]
+L94.8   Alte afectiuni localizate si specificate ale tesutului conjunctiv [rezidual]
+L94.9   Afectiune localizata a tesutului conjunctiv, nespecificata [categorie generica (nu o boala anume)]
+L95.8   Alte vasculite limitate ale pielii [rezidual]
+L98     Alte afectiuni ale pielii si tesutului celular subcutanat, neclasificate altundeva [rezidual]
+L98.6   Alte afectiuni infiltrante ale pielii si tesutului celular subcutanat [rezidual]
+L98.8   Alte afectiuni specificate ale pielii si tesutului celular subcutanat [rezidual]
+L98.9   Afectiune a pielii si tesutului celular subcutanat, nespecificata [categorie generica (nu o boala anume)]
+L99     Alte afectiuni specificate ale pielii si tesutului celular subcutanat in boli clasificate altundeva [rezidual]
+L99.8   Alte afectiuni specificate ale pielii si tesutului celular subcutanat in boli clasificate altundeva [rezidual]
+M00.2   Alte artrite si poliartrite streptococice [rezidual]
+M00.9   Artrita piogenica, nespecificata [dublura categoriei parinte (nespecificat)]
+M01     Artrite infectioase directe in boli infectioase si parazitare clasificate altundeva [asterisc (in alte boli)]
+M02.8   Alte artropatii de reactie [rezidual]
+M02.9   Artropatia de reactie, nespecificata [dublura categoriei parinte (nespecificat)]
+M03     Artropatii de reactie si postinfectioase in boli clasificate altundeva [asterisc (in alte boli)]
+M03.2   Alte artropatii postinfectioase in boli clasificate altundeva [rezidual]
+M03.6   Artropatia de reactie in alte boli clasificate altundeva [asterisc (in alte boli)]
+M05.8   Alte artrite reumatoide seropozitive [rezidual]
+M05.9   Artrite reumatoide seropozitive, nespecificate [dublura categoriei parinte (nespecificat)]
+M06     Alte artrite reumatoide [rezidual]
+M06.8   Alte artrite reumatoide specificate [rezidual]
+M07.3   Alte artropatii psoriazice (L40.5†) [rezidual]
+M07.6   Alte artropatii enteropatice [rezidual]
+M08.8   Alta artrita juvenila [rezidual]
+M08.9   Artrita juvenila, nespecificata [dublura categoriei parinte (nespecificat)]
+M09     Artrita juvenila in boli clasificate altundeva [asterisc (in alte boli)]
+M09.8   Artrita juvenila in alte boli clasificate altundeva [asterisc (in alte boli)]
+M10.4   Alte gute secundare [rezidual]
+M11     Alte artropatii datorite microcristalelor [rezidual]
+M11.2   Alte condrocalcinoze [rezidual]
+M11.8   Alte artropatii datorite microcristalelor specificate [rezidual]
+M12     Alte artropatii specifice [rezidual]
+M12.8   Alte artropatii specifice, neclasificate altundeva [rezidual]
+M13     Alte artrite [rezidual]
+M13.8   Alte artrite specificate [rezidual]
+M14     Artropatia in alte boli clasificate altundeva [asterisc (in alte boli)]
+M15.8   Alte poliartroze [rezidual]
+M16.1   Alte coxartroze primare [rezidual]
+M16.3   Alte coxartroze displazice [rezidual]
+M16.5   Alte coxartroze post-traumatice [rezidual]
+M16.6   Alte coxartroze secundare, bilaterale [rezidual]
+M16.7   Alte coxartroze secundare [rezidual]
+M17.1   Alte gonartroze primare [rezidual]
+M17.3   Alte gonartroze post-traumatice [rezidual]
+M17.4   Alte gonartroze secundare, bilaterale [rezidual]
+M17.5   Alte gonartroze secundare [rezidual]
+M18.1   Alte artroze primare ale primei articulatii carpo-metacarpiene [rezidual]
+M18.3   Alte artroze post-traumatice ale primei articulatii carpo-metacarpiene [rezidual]
+M18.4   Alte artroze secundare ale primelor articulatii carpo-metacarpiene, bilaterale [rezidual]
+M18.5   Alte artroze secundare ale primei articulatii carpo-metacarpiene [rezidual]
+M18.9   Artroza primei articulatii carpo-metacarpiene, nespecificata [dublura categoriei parinte (nespecificat)]
+M19     Alte artroze [rezidual]
+M19.2   Alte artroze secundare [rezidual]
+M19.8   Alte artroze specificate [rezidual]
+M20.3   Alte deformatii de hallux (dobandite) [rezidual]
+M20.4   Alte deformatii sub forma de ciocan ale degetului(lor) de la picior (dobandite) [rezidual]
+M20.5   Alte deformatii ale degetului(lor) de la picior (dobandite) [rezidual]
+M21     Alte deformatii dobandite ale membrelor inferioare [rezidual]
+M21.6   Alte deformitati dobandite ale gleznei si piciorului [rezidual]
+M21.8   Alte deformatii dobandite specificate ale membrelor [rezidual]
+M22.3   Alte dereglari ale rotulei [rezidual]
+M22.8   Alte afectiuni ale rotulei [rezidual]
+M23.3   Alte dereglari ale meniscului [rezidual]
+M23.6   Alte rupturi spontane ale ligamentului(lor) genunchiului [rezidual]
+M23.8   Alte afectiuni interne ale genunchiului [rezidual]
+M23.9   Afectiunea interna a genunchiului, nespecificata [dublura categoriei parinte (nespecificat)]
+M24     Alte afectiuni articulare specifice [rezidual]
+M24.1   Alte tulburari ale cartilajului articular [rezidual]
+M24.2   Afectiune a ligamentului [categorie generica (nu o boala anume)]
+M24.8   Alte afectiuni articulare specifice, neclasificate altundeva [rezidual]
+M24.9   Afectiune a articulatiei, nespecificata [categorie generica (nu o boala anume)]
+M25     Alte afectiuni ale articulatiilor, neclasificate altundeva [rezidual]
+M25.3   Alte instabilitati ale articulatiei [rezidual]
+M25.8   Alte afectiuni articulare specificate [rezidual]
+M25.9   Afectiune articulara, nespecificata [categorie generica (nu o boala anume)]
+M30.8   Alte afectiuni inrudite cu poliarterita nodoasa [rezidual]
+M31     Alte vasculopatii necrozante [rezidual]
+M31.6   Alte arterite cu celule gigante [rezidual]
+M31.8   Alte vasculopatii necrozante specificate [rezidual]
+M32.8   Alte forme de lupus sistemic eritematos [rezidual]
+M33.1   Alte dermatomiozite [rezidual]
+M34.8   Alte forme de scleroza sistemica [rezidual]
+M35     Alte atingeri sistemice ale tesutului conjunctiv [rezidual]
+M35.1   Alte sindroame mixte [rezidual]
+M35.8   Alte atingeri sistemice specificate ale tesutului conjuctiv [rezidual]
+M40.1   Alte cifoze secundare [rezidual]
+M40.2   Alte cifoze si nespecificate [rezidual]
+M40.4   Alte lordoze [rezidual]
+M41.2   Alte scolioze idiopatice [rezidual]
+M41.5   Alta scolioza secundara [rezidual]
+M41.8   Alte forme de scolioza [rezidual]
+M43     Alte dorsopatii prin deformare [rezidual]
+M43.2   Alte fuziuni vertebrale [rezidual]
+M43.4   Alte subluxatii atlanto-axiale recurente [rezidual]
+M43.5   Alte subluxatii vertebrale recurente [rezidual]
+M43.8   Alte dorsopatii deformante specificate [rezidual]
+M46     Alte spondilopatii inflamatorii [rezidual]
+M46.5   Alte spondilopatii infectioase [rezidual]
+M46.8   Alte spondilopatii inflamatorii specificate [rezidual]
+M47.1   Alte spondiloze cu mielopatie [rezidual]
+M47.2   Alte spondiloze cu radiculopatie [rezidual]
+M47.8   Alte spondiloze [rezidual]
+M48     Alte spondilopatii [rezidual]
+M48.8   Alte spondilopatii specificate [rezidual]
+M50     Afectiuni ale discului cervical [categorie generica (nu o boala anume)]
+M50.0   Afectiune a discului cervical cu mielopatie [categorie generica (nu o boala anume)]
+M50.1   Afectiune a discului cervical cu radiculopatie [categorie generica (nu o boala anume)]
+M50.2   Alte deplasari ale unui disc cervical [rezidual]
+M50.3   Alte deteriorari ale unui disc cervical [rezidual]
+M50.8   Alte afectiuni ale unui disc cervical [rezidual]
+M51     Alte afectiuni ale discurilor intervertebrale [rezidual]
+M51.2   Alta deplasarea a unui alt disc intervertebral specificat [rezidual]
+M51.3   Alta deteriorare a unui alt disc intervertebral specificat [rezidual]
+M51.8   Alte afectiuni specificate ale unui disc intervertebral [rezidual]
+M53     Alte dorsopatii, neclasificate altundeva [rezidual]
+M53.8   Alte dorsopatii specificate [rezidual]
+M54.8   Alte dorsalgii [rezidual]
+M60.8   Alte miozite [rezidual]
+M61.4   Alte calcificari ale muschilor [rezidual]
+M61.5   Alte osificari ale unui muschi [rezidual]
+M62     Alte afectiuni ale muschilor [rezidual]
+M62.1   Alte rupturi musculare (netraumatice) [rezidual]
+M62.8   Alte afectiuni specificate ale muschiului [rezidual]
+M62.9   Afectiune a muschiului, nespecificata [categorie generica (nu o boala anume)]
+M63     Afectiuni ale muschilor in boli clasificate altundeva [asterisc (in alte boli)]
+M63.8   Alte afectiuni ale muschilor in boli clasificate altundeva [rezidual]
+M65.1   Alte (teno)sinovite infectioase [rezidual]
+M65.8   Alte sinovite si tenosinovite [rezidual]
+M67     Alte afectiuni ale sinoviei si tendonului [rezidual]
+M67.1   Alte contracturi ale tendonului (teaca) [rezidual]
+M67.8   Alte afectiuni specificate ale sinoviei si tendonului [rezidual]
+M67.9   Afectiune a sinoviei si tendonului, nespecificata [categorie generica (nu o boala anume)]
+M68     Afectiuni ale sinoviei si tendonului in boli clasificate altundeva [asterisc (in alte boli)]
+M68.8   Alte afectiuni ale sinoviei si tendonului in boli clasificate altundeva [rezidual]
+M70     Afectiuni ale tesuturilor moi legate de folosire, solicitare excesiva si presiune [categorie generica (nu o boala anume)]
+M70.3   Alte bursite ale cotului [rezidual]
+M70.5   Alte bursite ale genunchiului [rezidual]
+M70.7   Alte bursite ale soldului [rezidual]
+M70.8   Alte afectiuni ale tesuturilor moi legate de folosire, solicitare excesiva si presiune [rezidual]
+M70.9   Afectiuni nespecificate ale tesuturilor moi legate de folosire, solicitare excesiva si presiune [categorie generica (nu o boala anume)]
+M71     Alte bursopatii [rezidual]
+M71.1   Alte bursite infectioase [rezidual]
+M71.3   Alte chisturi ale bursei [rezidual]
+M71.5   Alte bursite, neclasificate altundeva [rezidual]
+M71.8   Alta bursopatie specificata [rezidual]
+M72     Afectiuni fibroblastice vezi codul de localizare, pag. 290 [categorie generica (nu o boala anume)]
+M72.8   Alte afectiuni fibroblastice [rezidual]
+M72.9   Afectiuni fibroblastice, nespecificate [categorie generica (nu o boala anume)]
+M73     Afectiuni ale tesuturilor moi in boli clasificate altundeva [asterisc (in alte boli)]
+M73.8   Alte afectiuni ale tesuturilor moi in boli clasificate altundeva [rezidual]
+M75.8   Alte leziuni ale umarului [rezidual]
+M76.8   Alte entezopatii ale membrului inferior, exceptind piciorul [rezidual]
+M77     Alte entezopatii [rezidual]
+M77.5   Alte entezopatii ale piciorului [rezidual]
+M77.8   Alte entezopatii, neclasificate altundeva [rezidual]
+M79     Alte afectiuni ale tesuturilor moi, neclasificate altundeva [rezidual]
+M79.8   Alte afectiuni specificate ale tesuturilor moi [rezidual]
+M79.9   Afectiune a tesuturilor moi, nespecificata [categorie generica (nu o boala anume)]
+M80.8   Alte osteoporoze cu fractura patologica [rezidual]
+M81.8   Alte osteoporoze [rezidual]
+M83.5   Alte osteomalacii ale adultului datorita unor medicamente [rezidual]
+M83.8   Alte osteomalacii ale adultului [rezidual]
+M84     Afectiuni ale continuitatii osoase [categorie generica (nu o boala anume)]
+M84.8   Alte afectiuni ale continuitatii osoase [rezidual]
+M84.9   Afectiuni ale continuitatii osoase, nespecificate [categorie generica (nu o boala anume)]
+M85     Alte afectiuni ale densitatii si structurii osoase [rezidual]
+M85.6   Alte chisturi osoase [rezidual]
+M85.8   Alte afectiuni specificate ale densitatii si structurii osoase [rezidual]
+M85.9   Afectiuni ale densitatii si structurii osoase, nespecificate [categorie generica (nu o boala anume)]
+M86.1   Alte osteomielite acute [rezidual]
+M86.5   Alte osteomielite hematogene cronice [rezidual]
+M86.6   Alte osteomielite cronice [rezidual]
+M86.8   Alte osteomielite [rezidual]
+M87.3   Alte osteonecroze secundare [rezidual]
+M87.8   Alte osteonecroze [rezidual]
+M89     Alte afectiuni ale oaselor [rezidual]
+M89.2   Alte tulburari de crestere si dezvoltare a oaselor [rezidual]
+M89.4   Alte osteoartropatii hipertrofiante [rezidual]
+M89.8   Alte boli specificate ale oaselor [rezidual]
+M91.8   Alte osteocondroze juvenile ale soldului si pelvisului [rezidual]
+M92     Alte osteocondroze juvenile [rezidual]
+M92.3   Alte osteocondroze juvenile ale membrului superior [rezidual]
+M92.8   Alte osteocondroze juvenile specificate [rezidual]
+M93     Alte osteocondropatii [rezidual]
+M93.8   Alte osteocondropatii specificate [rezidual]
+M94     Alte afectiuni ale cartilagiilor [rezidual]
+M94.8   Alte afectiuni specificate ale cartilagiilor [rezidual]
+M95     Alte deformatii dobandite ale sistemului musculo-scheletal si tesutului conjunctiv [rezidual]
+M95.2   Alte diformitati dobandite ale capului [rezidual]
+M95.8   Alte diformitati dobandite ale sistemului musculo-scheletal [rezidual]
+M96     Afectiuni musculo-scheletale postprocedurale, neclasificate altundeva [procedura]
+M96.8   Alte afectiuni postprocedurale ale sistemului musculo-scheletal [rezidual]
+M96.9   Afectiune postprocedurala a sistemului musculo-scheletal, nespecificata [procedura]
+M99.8   Alte leziuni biomecanice [rezidual]
+N11.8   Alta nefrita tubulo-interstitiala cronica [rezidual]
+N13.8   Alta uropatie obstructiva si cu reflux [rezidual]
+N14     Afectiuni tubulare si tubulo-interstitiale induse de metale grele si medicamente [categorie generica (nu o boala anume)]
+N15     Alte boli tubulo-interstitiale renale [rezidual]
+N15.8   Alte boli specificate tubulo-interstitiale renale [rezidual]
+N17.8   Alta insuficienta renala acuta [rezidual]
+N18.8   Alta insuficienta renala cronica [rezidual]
+N21.8   Alte litiaze [calculi] ale cailor urinare inferioare [rezidual]
+N25.8   Alte tulburari datorite unei functionari tubulare renale deficitare [rezidual]
+N28     Alte tulburari ale rinichiului si ureterului, neclasificate altundeva [rezidual]
+N28.8   Alte tulburari specificate ale rinichiului si ureterului [rezidual]
+N29     Alte tulburari ale rinichiului si ureterului in boli clasificate altundeva [rezidual]
+N29.1   Alte tulburari ale rinichiului si ureterului in boli infectioase si parazitare clasificate altundeva [rezidual]
+N29.8   Alte tulburari ale rinichiului si ureterului in alte boli clasificate altundeva [rezidual]
+N30.2   Alta cistita cronica [rezidual]
+N30.8   Alta cistita [rezidual]
+N31.8   Alte disfunctii neuro-musculare ale vezicii urinare [rezidual]
+N32     Alte tulburari ale vezicii urinare [rezidual]
+N32.8   Alte tulburari specificate ale vezicii urinare [rezidual]
+N34.2   Alte uretrite [rezidual]
+N35.8   Alta strictura uretrala [rezidual]
+N36     Alte tulburari ale uretrei [rezidual]
+N36.8   Alte tulburari specificate ale uretrei [rezidual]
+N37.8   Alte tulburari uretrale in boli clasificate altundeva [rezidual]
+N39     Alte tulburari ale sistemului urinar [rezidual]
+N39.4   Alte forme specificate de incontinenta urinara [rezidual]
+N39.8   Alte tulburari specificate ale sistemului urinar [rezidual]
+N39.88  Alte tulburari specificate ale sistemului urinar [rezidual]
+N41.8   Alte boli inflamatorii ale prostatei [rezidual]
+N42     Alte afectiuni ale prostatei [rezidual]
+N42.8   Alte tulburari specificate ale prostatei [rezidual]
+N43.2   Alt hidrocel [rezidual]
+N48     Alte afectiuni ale penisului [rezidual]
+N48.2   Alte tulburari inflamatorii ale penisului [rezidual]
+N48.8   Alte afectiuni specificate ale penisului [rezidual]
+N48.9   Afectiune a penisului, nespecificata [categorie generica (nu o boala anume)]
+N49     Afectiuni inflamatorii ale organelor genitale masculine, neclasificate altundeva [categorie generica (nu o boala anume)]
+N49.2   Afectiuni inflamatorii ale scrotului [categorie generica (nu o boala anume)]
+N49.8   Afectiuni inflamatorii ale altor organe genitale masculine specificate [categorie generica (nu o boala anume)]
+N49.9   Afectiune inflamatorie a organelor genitale masculine nespecificata [categorie generica (nu o boala anume)]
+N50     Alte afectiuni ale organelor genitale masculine [rezidual]
+N50.1   Afectiuni vasculare ale organelor genitale masculine [categorie generica (nu o boala anume)]
+N50.8   Alte afectiuni specificate ale organelor genitale masculine [rezidual]
+N51     Afectiuni ale organelor genitale masculine in boli clasificate altundeva [asterisc (in alte boli)]
+N51.0   Afectiuni ale prostatei in boli clasificate altundeva [asterisc (in alte boli)]
+N51.1   Afectiuni ale testiculului si epididimului in boli clasificate altundeva [asterisc (in alte boli)]
+N51.8   Alte afectiuni ale organelor genitale masculine in boli clasificate altundeva [rezidual]
+N60.8   Alte displazii mamare benigne [rezidual]
+N61     Afectiuni inflamatorii ale sanului [categorie generica (nu o boala anume)]
+N64     Alte afectiuni ale sanului [rezidual]
+N64.5   Alte semne si simptome observate la san [rezidual]
+N64.8   Alte afectiuni specificate ale sanului [rezidual]
+N64.9   Afectiune a sanului, nespecificata [categorie generica (nu o boala anume)]
+N73     Alte boli inflamatorii pelviene feminine [rezidual]
+N73.8   Alte boli inflamatorii pelviene specificate feminine [rezidual]
+N75.8   Alte boli ale glandei Bartholin [rezidual]
+N76     Alta inflamatie a vaginului si vulvei [rezidual]
+N76.8   Alta inflamatie specificata a vaginului si vulvei [rezidual]
+N80.8   Alte endometrioze [rezidual]
+N81.8   Alt prolaps genital la femeie [rezidual]
+N82.1   Alte fistule ale tractului genital feminin [rezidual]
+N82.4   Alte fistule ale tractului genito-intestinal feminin [rezidual]
+N82.8   Alte fistule ale tractului genital feminin [rezidual]
+N83     Afectiuni neinflamatorii ale ovarului, trompei Fallope si ligamentului larg [categorie generica (nu o boala anume)]
+N83.2   Alte chisturi ale ovarului si nespecificate [rezidual]
+N83.8   Alte afectiuni neinflamatorii ale ovarului, trompei Fallope si ligamentului larg [rezidual]
+N83.9   Afectiune neinflamatorie a ovarului, trompei Fallope si a ligamentului larg, nespecificata [categorie generica (nu o boala anume)]
+N85     Alte afectiuni neinflamatorii ale uterului, exceptand colul [rezidual]
+N85.8   Alte tulburari neinflamatorii specificate ale uterului [rezidual]
+N85.9   Afectiune neinflamatorie a uterului, nespecificata [categorie generica (nu o boala anume)]
+N88     Alte afectiuni neinflamatorii ale colului uterin [rezidual]
+N88.8   Alte afectiuni neinflamatorii specificate ale colului uterin [rezidual]
+N88.9   Afectiune neinflamatorie a colului uterin, nespecificata [categorie generica (nu o boala anume)]
+N89     Alte afectiuni neinflamatorii ale vaginului [rezidual]
+N89.8   Alte afectiuni neinflamatorii specificate ale vaginului [rezidual]
+N89.9   Afectiune neinflamatorie a vaginului, nespecificata [categorie generica (nu o boala anume)]
+N90     Alte afectiuni neinflamatorii ale vulvei si perineului [rezidual]
+N90.8   Alte afectiuni neinflamatorii specificate ale vulvei si perineului [rezidual]
+N90.9   Afectiune neinflamatorie a vulvei si perineului, nespecificata [categorie generica (nu o boala anume)]
+N92.5   Alta menstruatie neregulata specificata [rezidual]
+N93     Alta sangerare anormala uterina si vaginala [rezidual]
+N93.8   Alte sangerari anormale specificate ale uterului si vaginului [rezidual]
+N94.8   Alte afectiuni specificate asociate cu organele genitale feminine si cu ciclul mentrual [rezidual]
+N94.9   Afectiune nespecificata asociata cu organele genitale feminine si cu ciclul menstrual [categorie generica (nu o boala anume)]
+N95.8   Alte tulburari specificate de menopauza si premenopauza [rezidual]
+N98.8   Alte complicatii asociate cu fertilizarea artificiala [rezidual]
+N99     Afectiuni postprocedurale ale sistemului genito-urinar, neclasificate altundeva [procedura]
+N99.2   Aderente vaginale postprocedurale [procedura]
+N99.4   Aderente pelvi-peritoneale postprocedurale [procedura]
+N99.8   Alte afectiuni postprocedurale ale sistemului genito-urinar [rezidual]
+N99.9   Afectiune postprocedurala a sistemului genito-urinar, nespecificata [procedura]
+O00.8   Alte sarcini ectopice [rezidual]
+O02     Alte produse anormale de conceptie [rezidual]
+O02.8   Alte produse de conceptie anormale specificate [rezidual]
+O05     Alte forme de avort [rezidual]
+O08.7   Alte complicatii venoase urmand avortului si sarcinii ectopice si molare [rezidual]
+O08.8   Alte complicatii urmand avortului si sarcinii ectopice si molare [rezidual]
+O20.8   Alte hemoragii la debutul sarcinii [rezidual]
+O21.8   Alte vome complicand sarcina [rezidual]
+O22.8   Alte complicatii venoase in sarcina [rezidual]
+O23.9   Alte infectii ale tractului genito-urinar in sarcina si nespecificate [rezidual]
+O26.8   Alte afectiuni specificate legate de sarcina [rezidual]
+O26.88  Alte afectiuni specificate legate de sarcina [rezidual]
+O26.9   Afectiuni legate de sarcina, nespecificate [categorie generica (nu o boala anume)]
+O28.8   Alte rezultate anormale ale screening-ului prenatal al mamei [rezidual]
+O29.5   Alte complicatii ale rahianesteziei si ale anesteziei epidurale in timpul sarcinii [rezidual]
+O29.8   Alte complicatii ale anesteziei in timpul sarcinii [rezidual]
+O30.8   Alte forme de sarcina multipla [rezidual]
+O31.8   Alte complicatii specifice unei sarcini multiple [rezidual]
+O41     Alte tulburari ale lichidului amniotic si membranelor [rezidual]
+O41.8   Alte tulburari specificate ale lichidului amniotic si membranelor [rezidual]
+O43.8   Alte anomalii ale placentei [rezidual]
+O43.9   Anomalia placentei, nespecificata [dublura categoriei parinte (nespecificat)]
+O45.8   Alte dezlipiri premature ale placentei [rezidual]
+O46.8   Alte hemoragii antepartum [rezidual]
+O61.8   Alte esecuri de declansare a travaliului [rezidual]
+O62.2   Alte forme de inertie uterina [rezidual]
+O62.8   Alte anomalii ale contractiei uterine si dilatatiei colului [rezidual]
+O66     Alte distocii de obstacol [rezidual]
+O66.8   Alte distocii de obstacol specificate [rezidual]
+O67.8   Alte hemoragii intrapartum [rezidual]
+O71     Alte traumatisme obstetricale [rezidual]
+O71.5   Alte leziuni de origine obstetricala a organelor pelviene [rezidual]
+O71.8   Alte traumatisme obstetricale specificate [rezidual]
+O72.1   Alte hemoragii imediat postpartum [rezidual]
+O74.1   Alte complicatii pulmonare datorite unei anestezii in timpul travaliului si nasterii [rezidual]
+O74.6   Alte complicatii ale rahianesteziei si unei anestezii epidurale in timpul travaliului si nasterii [rezidual]
+O74.8   Alte complicatii ale unei anestezii in timpul travaliului si nasterii [rezidual]
+O75     Alte complicatii ale travaliului si nasterii, neclasificate altundeva [rezidual]
+O75.3   Alte infectii in timpul travaliului [rezidual]
+O75.4   Alte complicatii ale chirurgiei si procedurilor obstetricale [rezidual]
+O75.8   Alte complicatii specificate ale travaliului si nasterii [rezidual]
+O86     Alte infectii puerperale [rezidual]
+O86.1   Alte infectii ale tractului genital dupa nastere [rezidual]
+O86.3   Alte infectii ale cailor genito-urinare survenind dupa nastere [rezidual]
+O86.8   Alte infectii puerperale specificate [rezidual]
+O87.8   Alte complicatii venoase in timpul lauziei [rezidual]
+O88.8   Alte embolii obstetricale [rezidual]
+O89.5   Alte complicatii ale rahianesteziei si anesteziei epidurale in timpul lauziei [rezidual]
+O89.8   Alte complicatii ale anesteziei in timpul lauziei [rezidual]
+O90.8   Alte complicatii puerperale, neclasificate altundeva [rezidual]
+O92     Alte afectiuni ale sanului si de lactatie asociate cu nasterea [rezidual]
+O92.2   Alte afectiuni ale sanului asociate nasterii si nespecificate [rezidual]
+O92.7   Alte tulburari de lactatie si nespecificate [rezidual]
+O98.3   Alte infectii cu mod de transmitere predominant sexual, complicand sarcina, nasterea si lauzia [rezidual]
+O98.5   Alte boli virale complicand sarcina, nasterea si lauzia [rezidual]
+O98.8   Alte boli infectioase si parazitare ale mamei complicand sarcina, nasterea si lauzia [rezidual]
+O99     Alte boli materne clasificabile altundeva dar complicand sarcina, nasterea si lauzia [rezidual]
+O99.1   Alte boli de sange si ale organelor hematopoietice si anumite tulburari ale sistemului imunitar complicand sarcina, nasterea si lauzia [rezidual]
+O99.8   Alte boli si afectiuni specificate complicand sarcina, nasterea si lauzia [rezidual]
+P07.1   Alte greutati mici la nastere [rezidual]
+P07.11  Alte greutati mici la nastere [rezidual]
+P07.12  Alte greutati mici la nastere [rezidual]
+P07.13  Alte greutati mici la nastere [rezidual]
+P07.3   Alti copii nascuti inainte de termen [rezidual]
+P07.31  Alti copii nascuti inainte de termen, 28 sau mai multe saptamani complete dar mai putin de 32 saptamani complete [rezidual]
+P07.32  Alti copii nascuti inainte de termen, 32 sau mai ulte saptamani complete dar mai putin de 37 de saptamani complete [rezidual]
+P08.1   Alti copii mari pentru varsta gestationala [rezidual]
+P10.8   Alte laceratii si hemoragii intracraniene datorite traumatismului la nastere [rezidual]
+P11     Alte leziuni ale sistemului nervos central datorita traumatismului la nastere [rezidual]
+P11.1   Alte leziuni cerebrale specificate datorita traumatismului la nastere [rezidual]
+P12.8   Alte leziuni ale scalpului datorita traumatismului la nastere [rezidual]
+P13.1   Alte leziuni ale craniului datorite traumatismului la nastere [rezidual]
+P14.3   Alte leziuni ale plexului brahial datorita traumatismului la nastere [rezidual]
+P15     Alte traumatisme la nastere [rezidual]
+P15.8   Alte traumatisme la nastere specificate [rezidual]
+P22.8   Alte suferinte respiratorii ale nou-nascutului [rezidual]
+P24.8   Alte sindroame de aspiratie in perioada neonatala [rezidual]
+P25.8   Alte afectiuni legate de sindromul de infiltratie a aerului survenind in perioada perinatala [rezidual]
+P26.8   Alte hemoragii pulmonare survenind in perioada perinatala [rezidual]
+P27.8   Alte boli respiratorii cronice survenind in perioada perinatala [rezidual]
+P28     Alte afectiuni respiratorii survenind in perioada perinatala [rezidual]
+P28.1   Alte atelectazii ale nou-nascutului si nespecificate [rezidual]
+P28.4   Alte apnei ale nou-nascutului [rezidual]
+P28.49  Alte apnei ale nou-nascutului [rezidual]
+P28.8   Alte tulburari respiratorii specificate la nou-nascut [rezidual]
+P28.89  Alte afectiuni respiratorii specificate la nou-nascut [rezidual]
+P28.9   Afectiuni respiratorii la nou-nascut, nespecificate [categorie generica (nu o boala anume)]
+P29.8   Alte tulburari cardio-vasculare survenind in perioada perinatala [rezidual]
+P29.89  Alte tulburari cardiovasculare survenind in perioara perinatala [rezidual]
+P35.8   Alte boli virale congenitale [rezidual]
+P36.8   Alt sepsis bacterian la nou-nascut [rezidual]
+P37     Alte boli infectioase si parazitare congenitale [rezidual]
+P37.4   Alte forme de paludism congenital [rezidual]
+P37.59  Alte forme de candidoza neonatala [rezidual]
+P37.8   Alte boli infectioase si parazitare congenitale specificate [rezidual]
+P39     Alte infectii specifice perioadei perinatale [rezidual]
+P39.8   Alte infectii specificate specifice perioadei perinatale [rezidual]
+P50.8   Alte pierderi de sange la fat [rezidual]
+P51.8   Alte hemoragii ombilicale ale nou-nascutului [rezidual]
+P52.8   Alte hemoragii intracraniene (netraumatice) ale fatului si nou-nascutului [rezidual]
+P54     Alte hemoragii neonatale [rezidual]
+P54.3   Alte hemoragii gastro-intestinale neonatale [rezidual]
+P54.8   Alte hemoragii neonatale specificate [rezidual]
+P55.8   Alte boli hemolitice imune ale fatului si nou-nascutului [rezidual]
+P57.8   Alte forme specificate de icter nuclear [rezidual]
+P61     Alte tulburari hematologice ale perioadei perinatale [rezidual]
+P61.4   Alte anemii congenitale, neclasificate altundeva [rezidual]
+P61.6   Alte tulburari tranzitorii ale coagularii in perioada neonatala [rezidual]
+P61.8   Alte tulburari hematologice specificate ale perioadei perinatale [rezidual]
+P70.4   Alte hipoglicemii neonatale [rezidual]
+P70.8   Alte tulburari tranzitorii de metabolism al carbohidratilor la fat si nou-nascut [rezidual]
+P71.1   Alte hipocalcemii ale nou-nascutului [rezidual]
+P71.8   Alte tulburari tranzitorii neonatale de metabolism al calciului si magneziului [rezidual]
+P72     Alte tulburari endocrine neonatale tranzitorii [rezidual]
+P72.2   Alte tulburari neonatale tranzitorii ale functiei tiroidiene, neclasificate altundeva [rezidual]
+P72.8   Alte tulburari endocrine neonatale tranzitorii specificate [rezidual]
+P74     Alte perturbari electrolitice si metabolice neonatale tranzitorii [rezidual]
+P74.29  Alte pertubari ale echilibrului sodiului la nou-nascut [rezidual]
+P74.39  Alte pertubari ale echilibrului potasiului la nou-nascut [rezidual]
+P74.4   Alte perturbari electrolitice tranzitorii la nou-nascut [rezidual]
+P74.8   Alte perturbari metabolice tranzitorii ale nou-nascutului [rezidual]
+P76     Alte obstructii intestinale la nou-nascut [rezidual]
+P76.8   Alte obstructii intestinale specificate ale nou-nascutului [rezidual]
+P78     Alte tulburari perinatale ale sistemului digestiv [rezidual]
+P78.1   Alte peritonite neonatale [rezidual]
+P78.8   Alte tulburari perinatale specificate ale sistemului digestiv [rezidual]
+P80.8   Alte forme de hipotermie la nou-nascut [rezidual]
+P81     Alte tulburari ale reglarii termice la nou-nascut [rezidual]
+P81.8   Alte tulburari specificate ale reglarii termice la nou-nascut [rezidual]
+P83     Alte afectiuni ale tegumentelor specifice fatului si nou-nascutului [rezidual]
+P83.8   Alte afectiuni specificate ale tegumentelor, specifice fatului si nou-nascutului [rezidual]
+P83.9   Afectiune a tegumentelor specifica fatului si nou-nascutului, nespecificata [categorie generica (nu o boala anume)]
+P91     Alte tulburari cerebrale ale nou-nascutului [rezidual]
+P91.8   Alte tulburari cerebrale specificate ale nou-nascutului [rezidual]
+P91.89  Alte tulburari cerebrale specificate ale nou-nascutului [rezidual]
+P92.8   Alte tulburari de alimentatie a nou-nascutului [rezidual]
+P94.8   Alte tulburari de tonus muscular la nou-nascut [rezidual]
+P96     Alte afectiuni a caror origine se situeaza in perioada perinatala [rezidual]
+P96.8   Alte afectiuni specificate survenind in perioada perinatala [rezidual]
+P96.89  Alte afectiuni specificate survenind in perioada perinatala [rezidual]
+P96.9   Afectiune survenind in perioada perinatala, nespecificata [categorie generica (nu o boala anume)]
+Q00.09  Alte anencefalii [rezidual]
+Q03.8   Alte hidrocefalii congenitale [rezidual]
+Q04     Alte malformatii congenitale ale creierului [rezidual]
+Q04.09  Alte malformatii congenitale ale corpului calos [rezidual]
+Q04.3   Alte deformitati partiale ale creierului [rezidual]
+Q04.31  Anomalii partiale ale creierului [categorie generica (nu o boala anume)]
+Q04.32  Anomalii partiale ale hipotalamusului [categorie generica (nu o boala anume)]
+Q04.33  Anomalii partiale ale cerebelului [categorie generica (nu o boala anume)]
+Q04.39  Alte anomalii de reducere a creierului [rezidual]
+Q04.8   Alte malformatii congenitale specificate ale creierului [rezidual]
+Q06     Alte malformatii congenitale ale maduvei spinarii [rezidual]
+Q06.3   Alte anomalii congenitale ale cozii de cal [rezidual]
+Q06.8   Alte malformatii congenitale specificate ale maduvei spinarii [rezidual]
+Q07     Alte malformatii congenitale ale sistemului nervos [rezidual]
+Q07.8   Alte malformatii congenitale specificate ale sistemului nervos [rezidual]
+Q07.89  Alte malformatii congenitale specificate ale sistemului nervos [rezidual]
+Q10.3   Alte malformatii congenitale ale pleoapei [rezidual]
+Q10.6   Alte malformatii congenitale ale aparatului lacrimal [rezidual]
+Q11.1   Alte forme de anoftalmie [rezidual]
+Q12.8   Alte malformatii congenitale ale cristalinului [rezidual]
+Q13.2   Alte malformatii congenitale ale irisului [rezidual]
+Q13.4   Alte malformatii congenitale ale corneei [rezidual]
+Q13.8   Alte malformatii congenitale ale camerei anterioare a ochiului [rezidual]
+Q14.8   Alte malformatii congenitale ale camerei posterioare a ochiului [rezidual]
+Q15     Alte malformatii congenitale ale ochiului [rezidual]
+Q15.8   Alte malformatii congenitale specificate ale ochiului [rezidual]
+Q16.4   Alte malformatii congenitale ale urechii medii [rezidual]
+Q17     Alte malformatii congenitale ale urechii [rezidual]
+Q17.3   Alte diformitati ale urechii [rezidual]
+Q17.8   Alte malformatii congenitale specificate ale urechii [rezidual]
+Q18     Alte malformatii congenitale ale fetei si gatului [rezidual]
+Q18.2   Alte malformatii ale fisurii branhiale [rezidual]
+Q18.8   Alte malformatii congenitale specificate ale fetei si gatului [rezidual]
+Q20.8   Alte malformatii congenitale ale cavitatilor si orificiilor cardiace [rezidual]
+Q21.8   Alte malformatii congenitale ale septurilor cardiace [rezidual]
+Q22.3   Alte malformatii congenitale ale valvei pulmonare [rezidual]
+Q22.8   Alte malformatii congenitale ale valvei tricuspide [rezidual]
+Q23.8   Alte malformatii congenitale ale valvelor aortice si mitrale [rezidual]
+Q24     Alte malformatii congenitale ale inimii [rezidual]
+Q24.8   Alte malformatii congenitale cardiace specificate [rezidual]
+Q25.4   Alte malformatii congenitale ale aortei [rezidual]
+Q25.7   Alte malformatii congenitale ale arterei pulmonare [rezidual]
+Q25.8   Alte malformatii congenitale ale arterelor mari [rezidual]
+Q26.8   Alte malformatii congenitale ale venelor mari [rezidual]
+Q27     Alte anomalii congenitale ale sistemului vascular periferic [rezidual]
+Q27.2   Alte malformatii congenitale ale arterei renale [rezidual]
+Q27.8   Alte malformatii congenitale specifice sistemului vascular periferic [rezidual]
+Q28     Alte malformatii congenitale ale sistemului circulator [rezidual]
+Q28.1   Alte malformatii ale vaselor precerebrale [rezidual]
+Q28.3   Alte malformatii ale vaselor cerebrale [rezidual]
+Q28.8   Alte malformatii congenitale specificate ale sistemului circulator [rezidual]
+Q30.8   Alte malformatii congenitale ale nasului [rezidual]
+Q31.8   Alte malformatii congenitale ale laringelui [rezidual]
+Q32.1   Alte malformatii congenitale ale traheei [rezidual]
+Q32.4   Alte malformatii congenitale ale bronhiilor [rezidual]
+Q33.8   Alte malformatii congenitale ale pulmonului [rezidual]
+Q34     Alte malformatii congenitale ale sistemului respirator [rezidual]
+Q34.0   Anomalii ale pleurei [categorie generica (nu o boala anume)]
+Q34.8   Alte malformatii congenitale specificate ale sistemului respirator [rezidual]
+Q38     Alte malformatii congenitale ale limbii, gurii si faringelui [rezidual]
+Q38.3   Alte malformatii congenitale ale limbii [rezidual]
+Q38.6   Alte malformatii congenitale ale gurii [rezidual]
+Q38.8   Alte malformatii congenitale ale faringelui [rezidual]
+Q39.8   Alte malformatii congenitale ale esofagului [rezidual]
+Q39.89  Alte malformatii congenitale ale esofagului [rezidual]
+Q40     Alte malformatii congenitale ale cailor digestive superioare [rezidual]
+Q40.2   Alte malformatii congenitale specificate ale stomacului [rezidual]
+Q40.8   Alte malformatii congenitale specificate ale tractului digestiv superior [rezidual]
+Q43     Alte malformatii congenitale ale intestinelor [rezidual]
+Q43.19  Alte forme ale bolii Hirschsprung [rezidual]
+Q43.2   Alte tulburari functionale congenitale ale colonului [rezidual]
+Q43.39  Alte malformatii congenitale de fixare a intestinului [rezidual]
+Q43.8   Alte malformatii congenitale specificate ale intestinului [rezidual]
+Q44.1   Alte malformatii congenitale ale vezicii biliare [rezidual]
+Q44.5   Alte malformatii congenitale ale cailor biliare [rezidual]
+Q44.7   Alte malformatii congenitale ale ficatului [rezidual]
+Q45     Alte malformatii congenitale ale sistemului digestiv [rezidual]
+Q45.3   Alte malformatii congenitale ale pancreasului si canalului pancreatic [rezidual]
+Q45.39  Alte malformatii congenitale ale pancreasului si canalului pancreatic [rezidual]
+Q45.8   Alte malformatii specificate ale sistemului digestiv [rezidual]
+Q45.89  Alte malformatii congenitale specificate ale sistemului digestiv [rezidual]
+Q50.3   Alte malformatii congenitale ale ovarului [rezidual]
+Q50.39  Alte malformatii congenitale ale ovarului [rezidual]
+Q50.6   Alte malformatii congenitale ale trompei Fallope si ale ligamentului larg [rezidual]
+Q50.69  Alte malformatii congenitale ale trompei Fallope si ale ligamentului larg [rezidual]
+Q51.2   Alte forme de uter dublu [rezidual]
+Q51.8   Alte malformatii congenitale ale uterului si cervixului [rezidual]
+Q52     Alte malformatii congenitale ale organelor genitale feminine [rezidual]
+Q52.4   Alte anomalii congenitale ale vaginului [rezidual]
+Q52.7   Alte malformatii congenitale ale vulvei [rezidual]
+Q52.8   Alte malformatii congenitale specificate ale organelor genitale feminine [rezidual]
+Q54.8   Alte forme de hipospadias [rezidual]
+Q55     Alte malformatii congenitale ale organelor genitale masculine [rezidual]
+Q55.2   Alte malformatii congenitale ale testiculelor si scrotului [rezidual]
+Q55.29  Alte malformatii congenitale ale testiculelor si scrotului [rezidual]
+Q55.4   Alte malformatii congenitale ale vasului deferent, epididimului, veziculelor seminale si prostatei [rezidual]
+Q55.6   Alte malformatii congenitale ale penisului [rezidual]
+Q55.8   Alte malformatii congenitale specificate ale organelor genitale masculine [rezidual]
+Q61.8   Alte boli chistice ale rinichiului [rezidual]
+Q62.3   Alte defecte obstructive ale pelvisului renal si ureterului [rezidual]
+Q62.39  Alte defecte obstructive congenitale ale pelvisului renal si ureterului [rezidual]
+Q62.59  Alte forme de duplicare a ureterului [rezidual]
+Q62.8   Alte malformatii congenitale ale ureterului [rezidual]
+Q63     Alte malformatii congenitale ale rinichiului [rezidual]
+Q63.09  Alte forme de rinichi accesoriu [rezidual]
+Q63.19  Alte anomalii de contopire a rinichiului specificate [rezidual]
+Q63.29  Alte forme specificate de ectopie renala [rezidual]
+Q63.8   Alte malformatii congenitale specificate ale rinichiului [rezidual]
+Q63.89  Alte malformatii congenitale ale rinichiului specificate [rezidual]
+Q64     Alte malformatii congenitale ale sistemului urinar [rezidual]
+Q64.3   Alte forme de atrezie si stenoza ale uretrei si gatului vezical [rezidual]
+Q64.39  Alte forme de atrezie si stenoza a uretrei si gatului vezicii [rezidual]
+Q64.49  Alte malformatii specificate ale uracei [rezidual]
+Q64.7   Alte malformatii congenitale ale vezicii si uretrei [rezidual]
+Q64.79  Alte malformatii congenitale ale vezicii si uretrei [rezidual]
+Q64.8   Alte malformatii congenitale specificate ale sistemului urinar [rezidual]
+Q65.8   Alte deformatii congenitale ale soldului [rezidual]
+Q66.3   Alte deformati congenitale de varus ale piciorului [rezidual]
+Q66.6   Alte deformatii congenitale de valgus ale piciorului [rezidual]
+Q66.8   Alte deformatii congenitale ale piciorului [rezidual]
+Q67.4   Alte deformatii congenitale ale craniului, fetei si maxilarelor [rezidual]
+Q67.49  Alte deformatii congenitale ale craniului, fetei si maxilarelor [rezidual]
+Q67.59  Alte deformatii congenitale specificate ale sirei spinarii [rezidual]
+Q67.8   Alte deformatii congenitale ale pieptului [rezidual]
+Q68     Alte deformatii musculo-scheletale congenitale [rezidual]
+Q68.8   Alte deformatii musculo-scheletale congenitale specificate [rezidual]
+Q71.8   Alte corectari de defecte ale membrului(lor) superior(oare) [rezidual]
+Q72.8   Alte corectari ale defectelor la membrul(e) inferior(e) [rezidual]
+Q73.8   Alte corectari ale defectelor unui membru(e) nespecificat(e) [rezidual]
+Q73.89  Alte defecte corectate ale unui(or) membru(e) nespecificat(e) [rezidual]
+Q74     Alte malformatii congenitale ale membrului(lor) [rezidual]
+Q74.0   Alte malformatii congenitale ale membrului(lor) superior(e), inclusiv centura humerala [rezidual]
+Q74.09  Alte malformatii congenitale ale membrului(lor) superior(oare), inclusiv centura humerala [rezidual]
+Q74.1   Anomalii congenitale ale genunchiului [categorie generica (nu o boala anume)]
+Q74.2   Alte malformatii congenitale ale membrului(lor) inferior(e), inclusiv centura pelviana [rezidual]
+Q74.8   Alte malformatii congenitale specificate ale membrului(lor) [rezidual]
+Q74.89  Alte malformatii congenitale specificate ale membrului(lor) [rezidual]
+Q75     Alte malformatii congenitale ale craniului si oaselor fetei [rezidual]
+Q75.09  Alte craniosinostoze [rezidual]
+Q75.39  Alte forme de macrocefalie [rezidual]
+Q75.8   Alte malformatii congenitale specificate ale craniului si oaselor fetei [rezidual]
+Q75.89  Alte malformatii congenitale specificate ale craniului si oaselor fetei [rezidual]
+Q76.4   Alte malformatii congenitale ale coloanei vertebrale, neasociate cu scolioza [rezidual]
+Q76.49  Alte malformatii congenitale ale coloanei vertebrale [rezidual]
+Q76.6   Alte malformatii congenitale ale coastelor [rezidual]
+Q76.69  Alte malformatii congenitale ale coastelor [rezidual]
+Q76.79  Alte malformatii congenitale specificate ale sternului [rezidual]
+Q76.8   Alte malformatii congenitale ale oaselor toracelui [rezidual]
+Q77.09  Alte forme de acondrogeneza [rezidual]
+Q77.8   Alte osteocondrodisplazii cu defecte de crestere ale oaselor tubulare si ale coloanei vertebrale [rezidual]
+Q77.89  Alte forme de osteocondrodisplazie cu defecte de crestere ale oaselor tubulare si coloanei vertebrale [rezidual]
+Q78     Alte osteocondrodisplazii [rezidual]
+Q78.8   Alte osteocondrodisplazii specificate [rezidual]
+Q79.1   Alte malformatii congenitale ale diafragmului [rezidual]
+Q79.5   Alte malformatii congenitale ale peretelui abdominal [rezidual]
+Q79.8   Alte malformatii congenitale ale sistemului musculo-scheletal [rezidual]
+Q80.8   Alte ihtioze congenitale [rezidual]
+Q81.8   Alte epidermolize buloase [rezidual]
+Q82     Alte malformatii congenitale ale pielii [rezidual]
+Q82.8   Alte malformatii congenitale specificate ale pielii [rezidual]
+Q83.8   Alte malformatii congenitale ale sanului [rezidual]
+Q84     Alte malformatii congenitale ale tegumentelor [rezidual]
+Q84.2   Alte malformatii congenitale ale parului [rezidual]
+Q84.6   Alte malformatii congenitale ale unghiilor [rezidual]
+Q84.8   Alte malformatii congenitale specificate ale tegumentelor [rezidual]
+Q84.89  Alte malformatii congenitale specificate ale tegumentelor [rezidual]
+Q85.8   Alte facomatoze [rezidual]
+Q85.89  Alte facomatoze specificate [rezidual]
+Q86.8   Alte sindroame de malformatii congenitale datorite cauzelor exogene cunoscute [rezidual]
+Q87     Alte sindroame de malformatii congenitale specificate afectand sisteme multiple [rezidual]
+Q87.09  Alte sindroame de malformatii congenitale afectand in special fizionomia fetei [rezidual]
+Q87.19  Alte sindroame de malformatii congenitale specificate asociate in special cu statura scurta [rezidual]
+Q87.29  Alte sindroame de malformatii congenitale specificate implicand in special membrele [rezidual]
+Q87.39  Alte sindroame de malformatii congenitale specificate implicand cresterea rapida precoce [rezidual]
+Q87.5   Alte sindroame de malformatii congenitale cu alte modificari scheletale [rezidual]
+Q87.8   Alte sindroame de malformatii congenitale, neclasificate altundeva [rezidual]
+Q87.89  Alte sindroame de malformatii congenitale specificate, neclasificate altundeva [rezidual]
+Q89     Alte malformatii congenitale, neclasificate altundeva [rezidual]
+Q89.09  Alte malformatii congenitale specificate ale splinei [rezidual]
+Q89.19  Alte malformatii congenitale specificate ale glandei suprarenale [rezidual]
+Q89.39  Alte forme de situs inversus specificate [rezidual]
+Q89.49  Alte forme specificate de gemeni uniti [rezidual]
+Q89.8   Alte malformatii congenitale specificate [rezidual]
+Q89.89  Alte malformatii congenitale specificate [rezidual]
+Q92     Alte trisomii si trisomii partiale ale autosomei, neclasificate altundeva [rezidual]
+Q92.8   Alte trisomii sau trisomii partiale specificate ale autosomilor [rezidual]
+Q93.5   Alte forme de absenta a unei parti a cromozomului [rezidual]
+Q93.8   Alte forme de absenta a autosomilor [rezidual]
+Q95.8   Alte aranjamente echilibrate si markeri structurali [rezidual]
+Q96.8   Alte variante ale sindromului Turner [rezidual]
+Q97     Alte anomalii sexuale cromozomiale, fenotip feminin, neclasificate altundeva [rezidual]
+Q97.8   Alte anomalii specificate de cromozomi sexuali, fenotip feminin [rezidual]
+Q97.9   Anomalii de cromozomi sexuali, fenotip feminin, nespecificate [categorie generica (nu o boala anume)]
+Q98     Alte anomalii sexuale cromozomiale, fenotip masculin, neclasificate altundeva [rezidual]
+Q98.3   Alt barbat, cu kariotip 46, XX [rezidual]
+Q98.8   Alte anomalii specificate de cromozomi sexuali, fenotip masculin [rezidual]
+Q98.9   Anomalii ale cromozomilor sexuali, fenotip masculin, nespecificate [categorie generica (nu o boala anume)]
+Q99     Alte anomalii cromozomiale, neclasificate altundeva [rezidual]
+Q99.8   Alte anomali cromozomiale specificate [rezidual]
+Q99.9   Anomalii cromozomiale, nespecificate [categorie generica (nu o boala anume)]

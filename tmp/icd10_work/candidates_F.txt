@@ -1,0 +1,262 @@
+===== NOU (66)
+A48.4   Febra purpurica din Brazilia  {Infectia sistemica cu Haemophilus aegyptius}  <Brazilian purpuric fever>
+A77     Febra purpurie (Rickettsia de capuse)  {Rickettsia de capuse}  <Spotted fever [tick-borne rickettsioses]>
+A77.0   Febra purpurie prin Rickettsia rickettsii  {Febra purpurie a Muntilor Stancosi / Febra Sao Paulo}  <Spotted fever due to Rickettsia rickettsii>
+A77.1   Febra purpurie prin Rickettsia conorii  {Tifosul african de capuse / Febra butunoasa / Febra indiana de capuse / Fabra de Kenia de capuse / Febra de Marsilia / Febra mediteraneeana de capuse}  <Spotted fever due to Rickettsia conorii>
+A77.2   Febra purpurie prin Rickettsia siberica  {Febra Nord Asiatica de capuse / Tifosul siberian de capuse}  <Spotted fever due to Rickettsia siberica>
+A77.3   Febra purpurie prin Rickettsia australis  {Tifos de Queensland de capuse}  <Spotted fever due to Rickettsia australis>
+A88.0   Febra exantematoasa cu enterovirus [exantemul de Boston]  {exantemul de Boston}  <Enteroviral exanthematous fever [Boston exanthem]>
+A92.2   Febra ecvina de Venezuela  <Venezuelan equine fever>
+A92.9   Febra virala transmisa de tantari, nespecificata  <Mosquito-borne viral fever, unspecified>
+A93.1   Febra tantarului de nisip  {Febra Pappataci / Febra Phlebotomus}  <Sandfly fever>
+A94     Febra virala transmisa de artropode, nespecificata  {Febra cu arbovirus / Infectia cu arbovirus}  <Unspecified arthropod-borne viral fever>
+D56.3   Fizionomia thalasemica  <Thalassemia minor>
+F54     Factori psihologici si comportamentali asociati bolilor sau tulburarilor clasificate altundeva  {Exemplele de folosire a acestei categorii}  <Psychological and behavioral factors associated with disorders or diseases classified elsewhere>
+F55     Folosire daunatoare de substante nedeterminand dependenta  <Abuse of non-psychoactive substances>
+F65.0   Fetisism  <Fetishism>
+G08     Flebita si tromboflebita intracraniana si intrarahidiana  <Intracranial and intraspinal phlebitis and thrombophlebitis>
+I80     Flebita si tromboflebita  <Phlebitis and thrombophlebitis>
+I80.1   Flebita si tromboflebita venei femurale  <Phlebitis and thrombophlebitis of femoral vein>
+I80.2   Flebita si tromboflebita altor vase profunde ale extremitatilor inferioare  {Tromboza unei vene profunde}  <Phlebitis and thrombophlebitis of other and unspecified deep vessels of lower extremities>
+I80.3   Flebita si tromboflebita extremitatilor inferioare, nespecificata  {Embolia sau troboza extremitatilor inferioare}  <Phlebitis and thrombophlebitis of lower extremities, unspecified>
+I80.8   Flebita si tromboflebita cu alte localizari  <Phlebitis and thrombophlebitis of other sites>
+I80.9   Flebita si tromboflebita cu localizare nespecificata  <Phlebitis and thrombophlebitis of unspecified site>
+J02.8   Faringita acuta datorita altor organisme specificate  <Acute pharyngitis due to other specified organisms>
+J63.1   Fibroza (pulmonara) datorita bauxitei  {pulmonara}  <Bauxite fibrosis (of lung)>
+J63.3   Fibroza (pulmonara) datorita grafitului  {pulmonara}  <Graphite fibrosis (of lung)>
+J95.0   Functionarea defectuoasa a unei traheostomii  {Hemoragia orificiului traheostomiei / Obstructia orificiului traheostomiei / Sepsis al orificiului traheostomiei / Fistula traheo-esofagiana dupa traheostomie}  <Tracheostomy complications>
+K03.0   Frecarea excesiva a dintilor  <Excessive attrition of teeth>
+K04.3   Formatiune anormala de tesut dentar dur in pulpa  {Dentina secundara sau neregulara}  <Abnormal hard tissue formation in pulp>
+K08.81  Fractura patologica a dintelui  <Primary occlusal trauma>
+K11.4   Fistula glandelor salivare  <Fistula of salivary gland>
+K12.2   Flegmonul si abcesul gurii  {Flegmonul planseului bucal / Abces submandibular}  <Cellulitis and abscess of mouth>
+K13.5   Fibroza submucoasa a gurii  {Fibroza submucoasa a limbii}  <Oral submucous fibrosis>
+K38.3   Fistula apendicelui  <Fistula of appendix>
+K75.1   Flebita venei porte  {Pileflebita}  <Phlebitis of portal vein>
+L66.2   Foliculita decalvanta  <Folliculitis decalvans>
+L66.4   Foliculita uleritematoasa reticulara  <Folliculitis ulerythematosa reticulata>
+M25.1   Fistula articulatiei  <Fistula of joint>
+M35.5   Fibroscleroza multifocala  <Multifocal fibrosclerosis>
+M48.4   Fractura vertebrala de oboseala  {Fractura vertebrala de stress}  <Fatigue fracture of vertebra>
+M84.0   Fractura rau consolidata
+M84.1   Fractura neconsolidata [pseudoartroza]  {pseudoartroza}
+M84.3   Fractura prin solicitare excesiva, neclasificata altundeva  <Stress fracture>
+M84.4   Fractura patologica, neclasificata altundeva  <Pathological fracture, not elsewhere classified>
+M85.1   Fluoroza scheletala  <Skeletal fluorosis>
+N60.3   Fibroscleroza sanului  {Mastopatia chistica cu proliferare epiteliala}  <Fibrosclerosis of breast>
+N82     Fistule implicand tractul genital feminin  <Fistulae involving female genital tract>
+N82.2   Fistula vaginului cu intestinul subtire  <Fistula of vagina to small intestine>
+N82.5   Fistule genito-cutanate la femeie  <Female genital tract-skin fistulae>
+N82.9   Fistula tractului genital feminin, nespecificata  <Female genital tract fistula, unspecified>
+N99.5   Functionarea proasta a unei stomii externe a tractului urinar  <Complications of stoma of urinary tract>
+O31.0   Fat papiraceu  {Fat presat}  <Papyraceous fetus>
+P00.9   Fat si nou-nascuti afectat de o tulburare materna nespecificata  <Newborn affected by unspecified maternal condition>
+P03     Fat si nou-nascuti afectati de alte complicatii ale travaliului si nasterii  <Newborn affected by other complications of labor and delivery>
+P28.81  Fornaitul la nou-nascut  <Respiratory arrest of newborn>
+Q26.6   Fistula intre vena porta si artera hepatica  <Portal vein-hepatic artery fistula>
+Q35.3   Fisura partii moi a palatului  <Cleft soft palate>
+Q35.5   Fisura boltii si partii moi a palatului  <Cleft hard palate with cleft soft palate>
+Q35.7   Fisura luetei  {Lueta bifida}  <Cleft uvula>
+Q37.0   Fisura boltii palatului cu fisura labilala bilaterala  <Cleft hard palate with bilateral cleft lip>
+Q37.1   Fisura boltii palatului cu fisura labilala unilaterala  {Fisura boltii palatului cu fisura labilala}  <Cleft hard palate with unilateral cleft lip>
+Q43.6   Fistula congenitala a rectului si anusului  <Congenital fistula of rectum and anus>
+Q52.5   Fuziunea vulvei  <Fusion of labia>
+Q68.3   Femur curbat congenital  <Congenital bowing of femur>
+Q76.62  Fuziunea congenitala a coastelor
+Q80.4   Fat arlechin  <Harlequin fetus>
+Q85     Facomatoze, neclasificate altundeva  <Phakomatoses, not elsewhere classified>
+===== POSIBIL (75)
+A01     Febre tifoide si paratifoide  <Typhoid and paratyphoid fevers> ~ Febra paratifoida A | Febra tifoida
+A25     Febre datorite muscaturii de sobolan  <Rat-bite fevers> ~ Febra muscaturii de sobolan
+A25.9   Febra cauzata de muscatura de sobolan, nespecificata  <Rat-bite fever, unspecified> ~ Febra muscaturii de sobolan
+A68.0   Febra recurenta prin paduche  {Febra recurenta datorita Borrelia recurrentis}  <Louse-borne relapsing fever> ~ Febra recurenta transmisa de paduchi
+A68.1   Febra recurenta prin capuse  <Tick-borne relapsing fever> ~ Febra recurenta transmisa de capuse
+A71.1   Faza activa a trahomului  {Conjunctivita granuloasa (trahomatoasa)}  <Active stage of trachoma> ~ Trahom
+A77.9   Febra purpurie, nespecificata  {Tifosul de capuse}  <Spotted fever, unspecified> ~ Febra pustoaselor stancoase
+A91     Febra hemoragica datorita virusului de denga  <Dengue hemorrhagic fever> ~ Denga | Febra hemoragica denga
+A92.0   Febra de Chikcungunya  {Febra (hemoragica) de Chikcungunya}  <Chikungunya virus disease> ~ Febra chikungunya | Febra hemoragica denga
+A92.3   Febra cu virus West Nile  <West Nile virus infection> ~ Encefalita West Nile
+A92.4   Febra de Rift Valley  <Rift Valley fever> ~ Febra de Valea Riftului
+A93.2   Febra de capuse Colorado  <Colorado tick fever> ~ Febra de Colorado
+A95.0   Febra galbena silvestra  {Febra galbena de jungla}  <Sylvatic yellow fever> ~ Febra galbena
+A95.1   Febra galbena citadina  <Urban yellow fever> ~ Febra galbena
+A96     Febra hemoragica cu Arenavirus  <Arenaviral hemorrhagic fever> ~ Febra hemoragica brasiliana | Febra hemoragica argentina
+A96.0   Febra hemoragica Junin  {Febra hemoragica argentiniana}  <Junin hemorrhagic fever> ~ Febra hemoragica argentina | Febra hemoragica Omsk | Febra hemoragica brasiliana
+A96.1   Febra hemoragica de Machupo  {Febra hemoragica de Bolivia}  <Machupo hemorrhagic fever> ~ Febra hemoragica boliviana | Febra hemoragica denga | Boala cu virusul Ebola
+A96.2   Febra de Lassa  <Lassa fever> ~ Febra Lassa
+A98.0   Febra hemoragica de Crimeia [de Congo]  {de Congo / Febra hemoragica de Asia Centrala}  <Crimean-Congo hemorrhagic fever> ~ Febra hemoragica Crimeea-Congo | Febra hemoragica denga
+A98.1   Febra hemoragica de Omsk  <Omsk hemorrhagic fever> ~ Febra hemoragica Omsk | Boala cu virusul Ebola | Febra hemoragica denga
+A99     Febra virala hemoragica, nespecificata  <Unspecified viral hemorrhagic fever> ~ Leptospiroza
+B30.2   Faringo-conjunctivita virala  <Viral pharyngoconjunctivitis> ~ Conjunctivita virala | Faringoconjunctivita
+B66.3   Fasciolaza  <Fascioliasis> ~ Fascioloza
+B74.1   Filarioza datorita Brugia malay  <Filariasis due to Brugia malayi> ~ Filarioza cu Brugia malayi
+B74.2   Filarioza datorita Brugia timori  <Filariasis due to Brugia timori> ~ Filarioza cu Brugia malayi
+B85.3   Ftiriaza  <Phthiriasis> ~ Phtiriaza
+D57.3   Fizionomia bolii hematiilor falciforme [drepanocitare]  {drepanocitare / Fizionomia Hb-S / Hemoglobina S heterozigota}  <Sickle-cell trait> ~ Anemie falciforma
+E70.0   Fenilcetonuria clasica  <Classical phenylketonuria> ~ Fenilcetonurie atipica
+E84.0   Fibroza chistica cu manifestari pulmonare  <Cystic fibrosis with pulmonary manifestations> ~ Fibroza chistica | Pneumopatie fibrozanta
+E84.8   Fibroza chistica cu alte manifestari  {Fibroza chistica cu manifestari combinate}  <Cystic fibrosis with other manifestations> ~ Fibroza chistica
+I28.0   Fistula arteriovenoasa a vaselor pulmonare  <Arteriovenous fistula of pulmonary vessels> ~ Fistula arteriovenoasa | Fistula arteriovenoasa pulmonara
+I48     Fibrilatia atriala si flutter  <Atrial fibrillation and flutter> ~ Fibrilatie atriala permanenta
+I49.0   Fibrilatia ventriculara si flutter  <Ventricular fibrillation and flutter> ~ Flutter ventricular
+I77.0   Fistula arterio-venoasa, dobindita  {Anevrismul varicelor / Anevrism arteriovenos, dobandit}  <Arteriovenous fistula, acquired> ~ Malformatie arteriovenoasa spinala | Fistula arteriovenoasa durala | Fistula arteriovenoasa pulmonara
+I80.0   Flebita si tromboflebita vaselor superficiale ale extremitatilor inferioare  <Phlebitis and thrombophlebitis of superficial vessels of lower extremities> ~ Flebita | Tromboflebita
+J02.0   Faringita streptococica  {Durere de gat streptococica}  <Streptococcal pharyngitis> ~ Laringita streptococica | Angina streptococica | Faringita
+K60     Fisura si fistula regiunilor anale si rectale  <Fissure and fistula of anal and rectal regions> ~ Fistula anala | Fisura anala
+K60.4   Fistula rectala  {Fistula rectala la piele}  <Rectal fistula> ~ Fistula anala | Persistenta de urac | Fistula rectovaginala
+K60.5   Fistula anorectala  <Anorectal fistula> ~ Fistula rectouretrala | Fistula rectovaginala | Fistula anala | Fisura anala
+K63.2   Fistula intestinului  <Fistula of intestine> ~ Fistula gastrojejunala | Fistula rectouretrala | Fistula rectovaginala | Fistula intestinala
+K70.2   Fibroza si scleroza alcoolica a ficatului  <Alcoholic fibrosis and sclerosis of liver> ~ Fibroza hepatica
+K74     Fibroza si ciroza ficatului  <Fibrosis and cirrhosis of liver> ~ Ciroza hepatica | Fibroza hepatica
+K74.2   Fibroza hepatica cu scleroza hepatica  <Hepatic fibrosis with hepatic sclerosis> ~ Fibroza hepatica
+K83.3   Fistula cailor biliare  {Fistula coledocoduodenala}  <Fistula of bile duct> ~ Fistula colecistoduodenala
+M35.4   Fasciita difuza (eosinofilica)  {eosinofilica}  <Diffuse (eosinophilic) fasciitis> ~ Fascita eozinofilica | Eozinofilie
+M72.0   Fibromatoza fasciala palmara [Dupuytren]  {Dupuytren}  <Palmar fascial fibromatosis [Dupuytren]> ~ Boala Dupuytren
+M72.4   Fibromatoza pseudosarcomatoasa  {Fasciita nodulara}  <Pseudosarcomatous fibromatosis> ~ Vasculita nodulara
+M90.7   Fractura osoasa in bolile neoplazice (C00-D48†) ~ Fractura
+M96.6   Fractura osoasa dupa insertia unui implant ortopedic, a unei prosteze articulare sau a unei placi osoase  <Fracture of bone following insertion of orthopedic implant, joint prosthesis, or bone plate> ~ Fractura
+N32.1   Fistula vezico-intestinala  <Vesicointestinal fistula> ~ Fistula intestinala | Fistula aortointestinala | Fistula vezicovaginala
+N32.2   Fistula vezicala urinara, neclasificata altundeva  <Vesical fistula, not elsewhere classified> ~ Fistula colovesicala
+N36.0   Fistula uretrala  {Cale uretrala falsa}  <Urethral fistula> ~ Fistula rectouretrala | Persistenta de urac
+N64.0   Fisura si fistula mamelonului  <Fissure and fistula of nipple> ~ Sfarcuri dureroase
+O22.3   Flebotromboza profunda in sarcina  {Tromboza venoasa profunda, antepartum}  <Deep phlebothrombosis in pregnancy> ~ Flebotromboza | Tromboza venoasa profunda | Tromboza venoasa a membrelor superioare
+O87.1   Flebotromboza profunda in timpul lauziei  {Tromboza venoasa profunda, postpartum / Tromboflebita pelviana, postpartum}  <Deep phlebothrombosis in the puerperium> ~ Flebotromboza | Tromboza puerperala | Tromboza venoasa profunda | Tromboza venoasa a membrelor superioare
+O92.1   Fisura mamelonului asociata nasterii  {Fisura mamelonului, gestationala sau puerperala}  <Cracked nipple associated with pregnancy, the puerperium, and lactation> ~ Sfarcuri dureroase
+P13.0   Fractura craniului datorita traumatismului la nastere  <Fracture of skull due to birth injury> ~ Traumatism obstetric
+P13.4   Fractura claviculei datorita traumatismului la nastere  <Fracture of clavicle due to birth injury> ~ Traumatism obstetric
+Q27.4   Flebectazia congenitala  <Congenital phlebectasia> ~ Bronsectazie congenitala
+Q35     Fisura palatului  <Cleft palate> ~ Fisura labiopalatina | Fisura palatina submucoasa | Fisura palatina
+Q35.1   Fisura boltii palatului  <Cleft hard palate> ~ Fisura palatina submucoasa
+Q36.0   Fisura labiala bilaterala  <Cleft lip, bilateral> ~ Fisura labiala | Fisura labiala mediana
+Q37     Fisura palatului cu fisura labiala  <Cleft palate with cleft lip> ~ Fisura labiala
+Q37.2   Fisura partii moi a palatului cu fisura labiala bilaterala  <Cleft soft palate with bilateral cleft lip> ~ Fisura labiala
+Q37.3   Fisura partii moi a palatului cu fisura labiala unilaterala  {Fisura partii moi a palatului cu fisura labiala}  <Cleft soft palate with unilateral cleft lip> ~ Fisura labiala
+Q37.4   Fisura boltii si a partii moi a palatului cu fisura labiala bilaterala  <Cleft hard and soft palate with bilateral cleft lip> ~ Fisura labiala
+Q37.5   Fisura boltii si a partii moi a palatului cu fisura labiala unilaterala  {Fisura boltii si a partii moi a palatului cu fisura labiala}  <Cleft hard and soft palate with unilateral cleft lip> ~ Fisura labiala
+Q37.8   Fisura palatului nespecificata cu fisura labiala bilaterala  <Unspecified cleft palate with bilateral cleft lip> ~ Fisura labiala
+Q37.9   Fisura palatului nespecificata cu fisura labiala unilaterala  {Fisura palatului cu fisura labiala / Alte malformatii congenitale ale sistemului digestiv}  <Unspecified cleft palate with unilateral cleft lip> ~ Fisura labiala
+Q39.2   Fistula traheo-esofagiana congenitala fara atrezie  <Congenital tracheo-esophageal fistula without atresia> ~ Atrezie esofagiana | Atrezie esofagiana cu fistula | Fistula traheoesofagiana
+Q39.21  Fistula traheo-esofagiana congenitala fara atrezie  {Fistula traheo-esofagiana congenitala} ~ Atrezie esofagiana | Atrezie esofagiana cu fistula | Fistula traheoesofagiana | Fistula traheoesofagiana postintubatie
+Q39.22  Fistula bronho-esofagiana congenitala fara atrezie ~ Atrezie esofagiana | Atrezie esofagiana cu fistula | Fistula bronhoesofagiana
+Q51.7   Fistula congenitala intre uter si tractul digestiv si urinar  <Congenital fistulae between uterus and digestive and urinary tracts> ~ Fistula intestinala
+Q52.2   Fistula recto-vaginala congenitala  <Congenital rectovaginal fistula> ~ Fistula rectovaginala | Fistula branhiala | Fistula rectovestibulara
+Q64.75  Fistula tractului gastro-intestinal-urinar congenitala  {Fistula uretro-rectala}  <Double urinary meatus> ~ Fistula intestinala | Fistula anala
+===== EXISTA (38)
+A01.0   Febra tifoida = Febra tifoida [exact]
+A54.5   Faringita gonococica = Faringita gonococica [exact]
+A68     Febre recurente = Febra [temporal (G1)]
+A78     Febra Q = Febra Q [exact]
+A79.0   Febra de transee = Febra de transee [exact]
+A92.1   Febra O'nyong-nyong = Febra O'nyong-nyong [exact]
+A95     Febra galbena = Febra galbena [exact]
+A98.5   Febra hemoragica cu sindrom renal = Infectie cu hantavirus [exact]
+B08.5   Faringita veziculara prin enterovirus = Herpangina [exact]
+B66.5   Fasciolopsiaza = Fasciolopsidoza [exact]
+B74     Filarioza = Filarioza [exact]
+B74.0   Filarioza cu Wuchereria bancrofti = Filarioza limfatica [exact]
+E84     Fibroza chistica = Fibroza chistica [exact]
+E84.1   Fibroza chistica cu manifestari intestinale = Ileus meconial [exact]
+F40.1   Fobii sociale = Fobie sociala [terminatii]
+F40.2   Fobii specifice (izolate) = Fobie specifica [terminatii]
+F44.1   Fuga disociativa = Fuga disociativa [exact]
+F63.2   Furt patologic [cleptomanie] = Cleptomanie [exact]
+H83.1   Fistula labirintica = Fistula perilimfatica [exact]
+I42.4   Fibroelastoza endocardica = Fibroelastoza endocardica [exact]
+J02     Faringita acuta = Faringita [exact]
+J31.2   Faringita cronica = Faringita [exact]
+J94.1   Fibrotorax = Fibrotorax [exact]
+K31.6   Fistula stomacului si duodenului = Fistula gastrocolica [exact]
+K60.0   Fisura anala acuta = Fisura anala [temporal (G1)]
+K60.1   Fisura anala cronica = Fisura anala [exact]
+K60.2   Fisura anala, nespecificata = Fisura anala [exact]
+K60.3   Fistula anala = Fistula anala [exact]
+K74.0   Fibroza hepatica = Fibroza hepatica [exact]
+K82.3   Fistula vezicii biliare = Fistula colecistoduodenala [exact]
+M72.2   Fibromatoza fasciala plantara = Pinten calcanean [exact]
+M72.6   Fasciita necrozanta = Fascita necrozanta [exact]
+N82.0   Fistula vezico-vaginala = Fistula vezicovaginala [exact]
+N82.3   Fistula vaginului cu intestinul gros = Fistula rectovaginala [exact]
+Q36     Fisura labiala = Fisura labiala [exact]
+Q36.1   Fisura labiala mediana = Fisura labiala mediana [exact]
+Q36.9   Fisura labiala unilaterala = Fisura labiala [exact]
+Q73.1   Focomelia, membru nespecificat = Focomelie [exact]
+===== ELIMINAT (79)
+A68.9   Febra recurenta, nespecificata [dublura categoriei parinte (nespecificat)]
+A95.9   Febra galbena, nespecificata [dublura categoriei parinte (nespecificat)]
+A96.9   Febra hemoragica cu Arenavirus, nespecificata [dublura categoriei parinte (nespecificat)]
+B74.9   Filarioza, nespecificata [dublura categoriei parinte (nespecificat)]
+C02.0   Fata dorsala a limbii [subzona de organ (D5)]
+C02.2   Fata ventrala a limbii [subzona de organ (D5)]
+C09.0   Fosa amigdaliana [subzona de organ (D5)]
+C10.1   Fata anterioara a epiglotei [subzona de organ (D5)]
+C10.4   Fenta branhiala [subzona de organ (D5)]
+C14.0   Faringe, nespecificat [subzona de organ (D5)]
+C16.1   Fundul stomacului [subzona de organ (D5)]
+C22.9   Ficat, nespecificat [subzona de organ (D5)]
+C30.0   Fosele nazale [subzona de organ (D5)]
+C54.3   Fundul uterului [subzona de organ (D5)]
+D01.5   Ficat, vezicula si caile biliare [subzona de organ (D5)]
+D10.9   Faringe, nespecificat [subzona de organ (D5)]
+D13.4   Ficat [subzona de organ (D5)]
+D37.6   Ficat si caile biliare [subzona de organ (D5)]
+E84.9   Fibroza chistica, nespecificata [dublura categoriei parinte (nespecificat)]
+J02.9   Faringita acuta, nespecificata [dublura categoriei parinte (nespecificat)]
+P00     Fat si nou-nascut afectati de tulburarile materne care pot sa nu fie legate de sarcina prezenta [fat afectat de mama]
+P00.0   Fat si nou nascut afectati prin tulburarile hipertensive ale mamei [fat afectat de mama]
+P00.1   Fat si nou-nascut afectati de bolile renale si a cailor urinare ale mamei [fat afectat de mama]
+P00.2   Fat si nou-nascut afectati de bolile infectioase si parazitare ale mamei [fat afectat de mama]
+P00.3   Fat si nou-nascut afectati de alte boli ale sistemului circulator si respirator ale mamei [fat afectat de mama]
+P00.4   Fat si nou-nascut afectati de tulburarile de nutritie ale mamei [fat afectat de mama]
+P00.5   Fat si nou-nascut afectati de un traumatism al mamei [fat afectat de mama]
+P00.6   Fat si nou-nascut afectati de o interventie chirurgicala a mamei [fat afectat de mama]
+P00.7   Fat si nou-nascut afectati de alte proceduri medicale ale mamei, neclasificate altundeva [fat afectat de mama]
+P00.8   Fat si nou-nascut afectati de alte tulburari materne [fat afectat de mama]
+P01     Fat si nou-nascut afectati de complicatiile materne ale sarcinii [fat afectat de mama]
+P01.0   Fat si nou-nascut afectati de beanta colului [fat afectat de mama]
+P01.1   Fat si nou-nascut afectati de ruptura prematura a membranelor [fat afectat de mama]
+P01.2   Fat si nou-nascut afectati de oligohidramnios [fat afectat de mama]
+P01.3   Fat si nou-nascut afectati de polihidramnios [fat afectat de mama]
+P01.4   Fat si nou-nascut afectati de sarcina ectopica [fat afectat de mama]
+P01.5   Fat si nou-nascut afectati de sarcina multipla [fat afectat de mama]
+P01.6   Fat si nou-nascut afectati de decesul mamei [fat afectat de mama]
+P01.7   Fat si nou-nascut afectati de prezentatia anormala inainte de travaliu [fat afectat de mama]
+P01.8   Fat si nou-nascut afectati de alte complicatii materne ale sarcinii [fat afectat de mama]
+P01.9   Fat si nou-nascut afectati de complicatiile materne ale sarcinii, nespecificate [fat afectat de mama]
+P02     Fat si nou-nascut afectati de complicatii privind placenta, cordonul ombilical si membranele [fat afectat de mama]
+P02.0   Fat si nou-nascut afectati de placenta praevia [fat afectat de mama]
+P02.1   Fat si nou-nascut afectati de alte forme de dezlipire si hemoragie placentara [abruptio placentae] [fat afectat de mama]
+P02.2   Fat si nou-nascut afectati de alte anomalii morfologice si functionale ale placentei si nespecificate [fat afectat de mama]
+P02.3   Fat si nou-nascut afectati de sindroamele de transfuzie placentara [fat afectat de mama]
+P02.4   Fat si nou-nascut afectati de procidenta cordonului ombilical [fat afectat de mama]
+P02.5   Fat si nou-nascut afectati de alte forme de compresiune ale cordonului ombilical [fat afectat de mama]
+P02.6   Fat si nou-nascut afectati de alte afectiuni ale cordonului ombilical si nespecificate [fat afectat de mama]
+P02.7   Fat si nou-nascut afectati de chorio-amnionita [fat afectat de mama]
+P02.8   Fat si nou-nascut afectati de alte anomalii ale membranelor [fat afectat de mama]
+P02.9   Fat si nou-nascut afectati de o anomalie a membranelor, nespecificata [fat afectat de mama]
+P03.0   Fat si nou-nascut afectati de nastere si o extractie din prezentatia pelviana [fat afectat de mama]
+P03.1   Fat si nou-nascut afectati de alte prezentatii si pozitii vicioase ale fatului si disproportii feto-pelviene in cursul travaliului si nasterii [fat afectat de mama]
+P03.2   Fat si nou-nascut afectati de nasterea cu forceps [fat afectat de mama]
+P03.3   Fat si nou-nascut afectati de nasterea cu extractor pneumatic [ventuza] [fat afectat de mama]
+P03.4   Fat si nou-nascut afectati de nasterea prin cezariana [fat afectat de mama]
+P03.5   Fat si nou-nascut afectati de nastere precipitata [fat afectat de mama]
+P03.6   Fat si nou-nascut afectati de contractii anormale ale uterului [fat afectat de mama]
+P03.8   Fat si nou-nascut afectati de alte complicatii specificate ale travaliului si nasterii [fat afectat de mama]
+P03.9   Fat si nou-nascut afectati de o complicatie a travaliului si nasterii, nespecificata [fat afectat de mama]
+P04     Fat si nou-nascut afectati de efecte nocive transmise pe cale placentara sau prin laptele matern [fat afectat de mama]
+P04.0   Fat si nou-nascut afectati de anestezia si analgezia materna in timpul sarcinii, travaliului si nasterii [fat afectat de mama]
+P04.1   Fat si nou-nascut afectati de alte medicamente absorbite de mama [fat afectat de mama]
+P04.2   Fat si nou-nascut afectati de tabagismul mamei [fat afectat de mama]
+P04.3   Fat si nou-nascut afectati de alcoolismul mamei [fat afectat de mama]
+P04.4   Fat si nou-nascut afectati de toxicomania materna [fat afectat de mama]
+P04.5   Fat si nou-nascut afectati de utilizarea de catre mama a unor substante chimice nutritionale [fat afectat de mama]
+P04.6   Fat si nou-nascut afectati de expunerea mamei la substante chimice din mediu [fat afectat de mama]
+P04.8   Fat si nou-nascut afectati de alte influente nocive materne [fat afectat de mama]
+P04.9   Fat si nou-nascut afectati de influente nocive materne, nespecificate [fat afectat de mama]
+P96.50  Fat si nou-nascut afectati de proceduri intrauterine nespecificate [fat afectat de mama]
+P96.51  Fat si nou-nascut afectati de amniocenteza [fat afectat de mama]
+P96.52  Fat si nou-nascut afectati de recoltarea de vilozitati corionice [fat afectat de mama]
+P96.53  Fat si nou-nascut afectati de recoltarea de sange fetal [fat afectat de mama]
+P96.54  Fat si nou-nascut afectati de complicatiile chirurgiei fetale intrauterine [fat afectat de mama]
+P96.59  Fat si nou-nascut afectati de alte proceduri intrauterine [fat afectat de mama]
+Q35.9   Fisura palatului, nespecificata [dublura categoriei parinte (nespecificat)]
+Q85.9   Facomatoza, nespecificata [dublura categoriei parinte (nespecificat)]

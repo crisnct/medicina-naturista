@@ -1,0 +1,7 @@
+===== NOU (0)
+===== POSIBIL (0)
+===== EXISTA (0)
+===== ELIMINAT (3)
+C17.1   Jejun [subzona de organ (D5)]
+D01.1   Jonctiunea recto-sigmoidiana [subzona de organ (D5)]
+D12.7   Jonctiunea recto-sigmoidiana [subzona de organ (D5)]
