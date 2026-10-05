@@ -1,4 +1,4 @@
-===== NOU (125)
+===== NOU (121)
 A00.0   Holera cu Vibrio cholerae 01, biovar cholerae  {Holera clasica}  <Cholera due to Vibrio cholerae 01, biovar cholerae>
 A66.3   Hipercheratoza pianica  {Mana de vampir / Talpi mancate de viermi}  <Hyperkeratosis of yaws>
 B58.1   Hepatita cu Toxoplasma  <Toxoplasma hepatitis>
@@ -55,12 +55,10 @@ I95.2   Hipotensiunea datorita medicamentelor  <Hypotension due to drugs>
 J35.2   Hipertrofia adenoizilor  {Hiperplazia adenoizilor}  <Hypertrophy of adenoids>
 K03.4   Hipercimentoza  {Hiperplazia de cimentare}  <Hypercementosis>
 K06.1   Hiperplazia gingivala  {Fibromatoza gingivala}  <Gingival enlargement>
-K11.1   Hipertrofia gladelor salivare  <Hypertrophy of salivary gland>
 K13.6   Hiperplazia inflamatorie a mucoasei bucale  <Irritative hyperplasia of oral mucosa>
 K38.0   Hiperplazia apendicelui  <Hyperplasia of appendix>
 K62.5   Hemoragia anusului si rectului  <Hemorrhage of anus and rectum>
 K75.2   Hepatita reactiva nespecifica  <Nonspecific reactive hepatitis>
-K92.0   Hematemeza  <Hematemesis>
 K92.2   Hemoragia gastro-intestinala, nespecificata  <Gastrointestinal hemorrhage, unspecified>
 L68.1   Hipertricoza lanuginoasa dobandita  <Acquired hypertrichosis lanuginosa>
 M12.4   Hidartroza intermitenta  <Intermittent hydrarthrosis>
@@ -80,7 +78,6 @@ N43.0   Hidrocel inchistat  <Encysted hydrocele>
 N43.1   Hidrocel infectat  <Infected hydrocele>
 N47     Hipertrofia preputului, fimoza, parafimoza  {Preput aderent / Pielea anterioara stransa si aderenta de preput}  <Disorders of prepuce>
 N83.7   Hematom al ligamentului larg  <Hematoma of broad ligament>
-N85.0   Hiperplazia glandulara a endometrului  <Endometrial hyperplasia>
 N85.1   Hiperplazia adenomatoasa a endometrului  {Hiperplazia endometrului, atipica (adenomatoasa)}
 N90.6   Hipertrofia vulvei  {Hipertrofia labiilor}  <Hypertrophy of vulva>
 O08.1   Hemoragia severa sau intirziata urmand avortului si sarcinii ectopice si molare  <Delayed or excessive hemorrhage following ectopic and molar pregnancy>
@@ -123,8 +120,7 @@ Q54.3   Hipospadias perineal  <Hypospadias, perineal>
 Q55.1   Hipoplazia testiculului si scrotului  {Fuzionarea testiculelor}  <Hypoplasia of testis and scrotum>
 Q64.34  Hipoplazia uretrei
 Q76.45  Hemivertebra
-Q89.12  Hipoplazia congenitala a glandei suprarenale
-===== POSIBIL (142)
+===== POSIBIL (132)
 A00.1   Holera cu Vibrio cholerae 01, biovar eltor  {Holera eltor}  <Cholera due to Vibrio cholerae 01, biovar eltor> ~ Holera El Tor
 B15     Hepatita acuta A  <Acute hepatitis A> ~ Hepatita | Hepatita A
 B15.0   Hepatita A cu coma hepatica  <Hepatitis A with hepatic coma> ~ Encefalopatie hepatica
@@ -152,14 +148,12 @@ D59.5   Hemoglobinuria nocturna paroxistica (Marchiafava-Micheli)  {Marchiafava-
 D76.0   Histiocitoza celulelor Langerhans, neclasificata altundeva  {Granulom eosinofilic / Boala Hand-Schuller-Christian / Histocitoza X (cronica) / L ista Tabelară a Bolilor RoDRG} ~ Histiocitoza cu celule Langerhans
 D89.2   Hipergammaglobulinemia, nespecificata  <Hypergammaglobulinemia, unspecified> ~ Hipergamaglobulinemie | Hipogamaglobulinemie
 E02     Hipotiroidia prin carenta subclinica de iod  <Subclinical iodine-deficiency hypothyroidism> ~ Deficit de iod | Hipotiroidism prin deficit de iod
-E03.1   Hipotiroidia congenitala fara gusa  {Aplazia tiroidei (cu mixedem)}  <Congenital hypothyroidism without goiter> ~ Hipotiroidism congenital fara gusa
 E03.3   Hipotiroidia postinfectioasa  <Postinfectious hypothyroidism> ~ Tiroidita
 E16.0   Hipoglicemia indusa medicamentos, fara coma  <Drug-induced hypoglycemia without coma> ~ Coma hipoglicemica
 E26     Hiperaldosteronism  <Hyperaldosteronism> ~ Hiperaldosteronism primar | Hiperaldosteronism secundar | Hipoaldosteronism
 E29.0   Hiperfunctia testiculara  {Hipersecretia de hormoni testiculari}  <Testicular hyperfunction> ~ Hipogonadism masculin
 E32.0   Hiperplazia persistenta a timusului  {Hipertrofia timusului}  <Persistent hyperplasia of thymus> ~ Hiperplazie timica | Estenoza pilorica hipertrofica
 E78.1   Hipergliceridemia esentiala  {Hipergliceridemia endogena / Hiperlipoproteinemia Fredrickson, tip IV / Hiperlipidemia, grupa B / Hiperbetalipoproteinemia / Hiperlipoproteinemia cu lipoproteine de densitate foarte joasa [VLDL]}  <Pure hyperglyceridemia> ~ Hiperlipoproteinemie tip IV
-E78.3   Hiperchilomicroanemie  {Hiperlipoproteinemia Fredrickson, tip I sau V / Hiperlipidemia, grupa D / Hipergliceridemia mixta}  <Hyperchylomicronemia> ~ Hiperlipoproteinemie tip V | Hiperlipoproteinemie tip I
 E87.1   Hipo-osmolaritate si hiponatremie  {Carenta de sodiu [Na]}  <Hypo-osmolality and hyponatremia> ~ Deficit de sodiu
 G51.3   Hemispasm facial clonic  <Clonic hemifacial spasm> ~ Spasm hemifacial
 H31.3   Hemoragia si ruptura choroidei  <Choroidal hemorrhage and rupture> ~ Ruptura coroidiana
@@ -184,6 +178,7 @@ I84.8   Hemoroizi nespecificati cu alte complicatii  {Hemoroizi ca interni sau} 
 J34.3   Hipertrofia cornetelor nazale  <Hypertrophy of nasal turbinates> ~ Rinita hipertrofica
 J35.1   Hipertrofia amigdalelor  {Hiperplazia amigdalelor}  <Hypertrophy of tonsils> ~ Amigdalita hipertrofica | Hipertrofie de amigdale si vegetatii | Sindrom de apnee obstructiva la copil cu adenoidita
 J35.3   Hipertrofia amigdalelor cu hipertrofia adenoizilor  <Hypertrophy of tonsils with hypertrophy of adenoids> ~ Amigdalita hipertrofica
+K11.1   Hipertrofia gladelor salivare  <Hypertrophy of salivary gland> ~ Atrofie de glanda salivara
 K14.3   Hipertrofia papilelor linguale  {Limba neagra paroasa / Limba incarcata / Hipertrofia papilelor foliate / Limba neagra viloasa}  <Hypertrophy of tongue papillae> ~ Macroglosie | Glosita atrofica
 K40.0   Hernia inghinala bilaterala, cu obstructie, fara gangrena  <Bilateral inguinal hernia, with obstruction, without gangrene> ~ Hernie inghinala
 K40.1   Hernia inghinala bilaterala, cu gangrena  <Bilateral inguinal hernia, with gangrene> ~ Hernie inghinala
@@ -199,7 +194,6 @@ K41.4   Hernia femurala unilaterala sau nespecificata, cu gangrena  <Unilateral 
 K41.9   Hernia femurala unilaterala sau nespecificata, cu obstructie, fara obstructie sau gangrena  {Hernia femurala (unilaterala)}  <Unilateral femoral hernia, without obstruction or gangrene> ~ Hernie femurala
 K42.0   Hernia ombilicala cu obstructie, fara gangrena  <Umbilical hernia with obstruction, without gangrene> ~ Hernie inghinala
 K42.1   Hernia ombilicala cu gangrena  {Hernia ombilicala gangrenoasa}  <Umbilical hernia with gangrene> ~ Hernie inghinala
-K43     Hernia ventrala  <Ventral hernia> ~ Hernie incisionala | Hernie Spiegel
 K43.0   Hernia ventrala cu obstructie, fara gangrena  <Incisional hernia with obstruction, without gangrene> ~ Hernie incisionala
 K43.1   Hernia ventrala, cu gangrena  {Hernia ventrala gangrenoasa}  <Incisional hernia with gangrene> ~ Hernie incisionala
 K43.9   Hernia ventrala fara ocluzie sau gangrena  {Hernia ventrala}  <Ventral hernia without obstruction or gangrene> ~ Hernie incisionala | Hernie Spiegel
@@ -209,15 +203,9 @@ K46.0   Hernia abdominala nespecificata cu obstructie, fara gangrena  <Unspecifi
 K46.1   Hernia abdominala nespecificata cu gangrena  <Unspecified abdominal hernia with gangrene> ~ Hernie inghinala
 K73.0   Hepatita persistenta cronica, neclasificata altundeva  <Chronic persistent hepatitis, not elsewhere classified> ~ Hepatita
 K73.1   Hepatita lobulara cronica, neclasificata altundeva  <Chronic lobular hepatitis, not elsewhere classified> ~ Hepatita cronica B
-K76.6   Hipertensiunea portala  <Portal hypertension> ~ Hipertensiune portala | Hipertensiune arteriala | Hipotensiune ortostatica
 L68.2   Hipertricoza localizata  <Localized hypertrichosis> ~ Hipertricoza
-L73.2   Hidradenita supurata  <Hidradenitis suppurativa> ~ Hidrosadenita
-L81.0   Hiperpigmentatia post-inflamatorie  <Postinflammatory hyperpigmentation> ~ Hiperpigmentare postinflamatorie | Hipopigmentare postinflamatorie
 M48.1   Hiperostoza anchilozanta [Forestier]  {Forestier / Hiperostoza scheletala idiopatica difuza [DISH]}  <Ankylosing hyperostosis [Forestier]> ~ Boala Forestier
-N13.4   Hidro-ureter  <Hydroureter> ~ Hidroureteronefroza
-N40     Hiperplazia prostatei  {Hipertrofia adenofibromatoasa a prostatei / Adenomul (benign) prostatei / Hiperplazia (benigna) a prostatei / Fibroadenomul prostatei / Fibromul prostatei / Hipertrofia (benigna) a prostatei / Miomul prostatei / Bara mediana (a prostatei) / Obstructia prostatica}  <Benign prostatic hyperplasia> ~ Adenom de prostata
 N85.2   Hipertrofia uterului  {Uter largit sau voluminos}  <Hypertrophy of uterus> ~ Estenoza pilorica hipertrofica
-N85.7   Hematometria  {Hematosalpinx cu hematometrie}  <Hematometra> ~ Hematometra | Hematomielie
 N98.1   Hiperstimularea ovarelor  <Hyperstimulation of ovaries> ~ Sindrom de hiperstimulare ovariana
 O10     Hipertensiune pre-existenta complicand sarcina, nasterea si lauzia  <Pre-existing hypertension complicating pregnancy, childbirth and the puerperium> ~ Hipertensiune gestationala
 O14     Hipertensiune gestationala [indusa de sarcina] cu proteinurie semnificativa  {indusa de sarcina}  <Pre-eclampsia> ~ Hipertensiune gestationala | Preeclampsie | Rinita hormonala
@@ -255,19 +243,17 @@ P78.2   Hematemeza si melena neonatala datorita deglutitiei de sange matern  <Ne
 P80     Hipotermia nou-nascutului  <Hypothermia of newborn> ~ Hipotermie neonatala | Policitemie neonatala | Hipocalcemie neonatala
 P94.1   Hipertonia congenitala  <Congenital hypertonia> ~ Paramiotonie congenitala | Ptoza congenitala | Miotonie congenitala
 P94.2   Hipotonia congenitala  {Bebelus moale / Sindromul bebelusului moale nespecific}  <Congenital hypotonia> ~ Miotonie congenitala | Paramiotonie congenitala
-Q04.2   Holoprosencefalia  <Holoprosencephaly> ~ Holoprozencefalie
 Q07.82  Hipoplazia nervului optic  {Atrofia optica congenitala} ~ Agenezie de nerv optic | Displazie septo-optica | Atrofie optica | Sindrom de regresie testiculara
 Q31.2   Hipoplazia laringelui  <Laryngeal hypoplasia> ~ Leucoplazie laringiana
 Q40.1   Hernia hiatala congenitala  {Deplasarea cardiei de-a lungul hiatului esofagian}  <Congenital hiatus hernia> ~ Hernie hiatala | Hernie inghinala congenitala
-Q52.3   Himen neperforat  <Imperforate hymen> ~ Imperforatie de himen | Himen microperforat
 Q54.1   Hipospadias penil  <Hypospadias, penile> ~ Hipospadias
 Q60.3   Hipoplazia renala unilaterala  <Renal hypoplasia, unilateral> ~ Hipoplazie renala
 Q60.4   Hipoplazia renala bilaterala  <Renal hypoplasia, bilateral> ~ Hipoplazie renala | Hiperaldosteronism idiopatic
 Q62.34  Hidroureter congenital ~ Hidrocel
 Q76.31  Hemivertebra unica cu scolioza congenitala ~ Scolioza congenitala
 Q77.03  Hipocondrogeneza ~ Acondrogeneza
-Q79.0   Hernia congenitala a diafragmului  <Congenital diaphragmatic hernia> ~ Hernie diafragmatica congenitala | Hernie diafragmatica
-===== EXISTA (91)
+Q89.12  Hipoplazia congenitala a glandei suprarenale ~ Agenezie suprarenala
+===== EXISTA (105)
 A00     Holera = Holera [exact]
 B18     Hepatita virala cronica = Hepatita [temporal (G1)]
 B19     Hepatita virala nespecificata = Hepatita [exact]
@@ -279,6 +265,7 @@ C96.1   Histiocitoza maligna = Histiocitoza maligna [exact]
 D18.0   Hemangiom = Hemangiom [exact]
 D73.0   Hiposplenism = Hiposplenism [exact]
 D73.1   Hipersplenism = Hipersplenism [exact]
+E03.1   Hipotiroidia congenitala fara gusa = Hipotiroidism congenital fara gusa [exact]
 E03.9   Hipotiroidia, nespecificata = Mixedem [exact]
 E16.2   Hipoglicemie nespecificata = Hipoglicemie [exact]
 E20     Hipoparatiroidism = Hipoparatiroidism [exact]
@@ -297,6 +284,7 @@ E67.1   Hipercarotenemia = Hipercarotenemie [terminatii]
 E67.3   Hipervitaminoza D = Hipervitaminoza D [exact]
 E78.0   Hipercolesterolemie esentiala = Hiperlipoproteinemie tip IIa [exact]
 E78.2   Hiperlipidemie mixta = Hiperlipoproteinemie tip IIb [exact]
+E78.3   Hiperchilomicroanemie = Hiperlipoproteinemie tip I [exact]
 E78.5   Hiperlipidemia, nespecificata = Dislipidemie [terminatii]
 E86     Hipovolemia, deshidratarea = Deshidratare [exact]
 E87.5   Hiperpotasemie = Hiperpotasemie [exact]
@@ -326,6 +314,7 @@ K40     Hernia inghinala = Hernie inghinala [terminatii]
 K41     Hernia femurala = Hernie femurala [terminatii]
 K42     Hernia ombilicala = Hernie inghinala [terminatii]
 K42.9   Hernia ombilicala fara obstructie sau gangrena = Hernie inghinala [terminatii]
+K43     Hernia ventrala = Hernie incisionala [exact]
 K44     Hernia diafragmatica = Hernie diafragmatica [terminatii]
 K44.9   Hernia diafragmatica fara obstructie sau gangrena = Hernie diafragmatica [terminatii]
 K46     Hernia abdominala nespecificata = Hernie inghinala [terminatii]
@@ -336,14 +325,22 @@ K73     Hepatita cronica, neclasificata altundeva = Hepatita [exact]
 K73.2   Hepatita activa cronica, neclasificata altundeva = Hepatita cronica activa [exact]
 K75.3   Hepatita granulomatoasa, neclasificata altundeva = Hepatita granulomatoasa [exact]
 K75.4   Hepatita autoimuna = Hepatita autoimuna [exact]
+K76.6   Hipertensiunea portala = Hipertensiune portala [exact]
 K82.1   Hidrocolecist = Hidrocolecist [exact]
+K92.0   Hematemeza = Hemoragie digestiva superioara [exact]
 L68     Hipertricoza = Hipertricoza [exact]
 L68.0   Hirsutism = Hirsutism [exact]
+L73.2   Hidradenita supurata = Hidrosadenita [exact]
+L81.0   Hiperpigmentatia post-inflamatorie = Hiperpigmentare postinflamatorie [exact]
 M20.1   Hallux valgus (dobandit) = Monturi [exact]
 M25.0   Hemartroza = Hemartroza [exact]
+N13.4   Hidro-ureter = Hidroureteronefroza [exact]
+N40     Hiperplazia prostatei = Adenom de prostata [exact]
 N43.3   Hidrocel, nespecificat = Hidrocel [exact]
 N62     Hipertrofia sanului = Ginecomastie [terminatii]
 N83.6   Hematosalpinx = Hematosalpinx [exact]
+N85.0   Hiperplazia glandulara a endometrului = Hiperplazie endometriala [exact]
+N85.7   Hematometria = Hematometra [exact]
 N89.7   Hematocolpos = Hematocolpos [exact]
 O13     Hipertensiune gestationala [indusa de sarcina] fara proteinurie semnificativa = Hipertensiune gestationala [exact]
 O40     Hidramnios = Polihidramnios [exact]
@@ -352,13 +349,16 @@ O72.0   Hemoragia dupa nastere (perioada a treia) = Hemoragie postpartum [termin
 P54.4   Hemoragia suprarenala neonatala = Hemoragie suprarenala neonatala [terminatii]
 P83.5   Hidrocel congenital = Hidrocel [exact]
 Q03     Hidrocefalia congenitala = Hidrocefalie [terminatii]
+Q04.2   Holoprosencefalia = Holoprozencefalie [exact]
 Q04.36  Hidranencefalia = Hidranencefalie [exact]
 Q06.4   Hidromielia = Hidromielie [exact]
+Q52.3   Himen neperforat = Imperforatie de himen [exact]
 Q54     Hipospadias = Hipospadias [exact]
 Q56.0   Hermafroditism, neclasificat altundeva = Hermafroditism [exact]
 Q60.5   Hipoplazia renala, nespecificata = Hipoplazie renala [terminatii]
 Q62.0   Hidronefroza congenitala = Hidronefroza congenitala [exact]
 Q75.2   Hipertelorism = Hipertelorism [exact]
+Q79.0   Hernia congenitala a diafragmului = Hernie diafragmatica congenitala [exact]
 ===== ELIMINAT (39)
 A00.9   Holera, nespecificata [dublura categoriei parinte (nespecificat)]
 B18.9   Hepatita virala cronica, nespecificata [dublura categoriei parinte (nespecificat)]
