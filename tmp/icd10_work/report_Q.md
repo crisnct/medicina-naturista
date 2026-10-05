@@ -1,0 +1,34 @@
+# Litera Q — raport CIM-10
+
+- coduri CIM-10 cu titlul la litera Q: **0**
+- eliminate automat (P2): **0**
+- găsite automat în dicționar (P4.1–P4.3): **0**
+- de decis manual (`nou` + `posibil`): **0**
+- **afecțiuni adăugate: 0**
+
+## Decizii manuale
+
+- **Niciun cod la litera Q:** extragerea nu are niciun titlu CIM-10 românesc care să înceapă cu Q (capitolul XVII, codurile `Q00`–`Q99`, are titluri care încep cu „Anomalie”, „Malformație”, „Absență”, „Atrezie” etc., tratate la literele lor). `match_letter.py Q` dă 0 candidați (`nou` 0, `posibil` 0, `exista` 0, `eliminat` 0).
+- **Termeni de includere cu Q sub alte coduri (`cross_Q.txt`):** un singur termen, „Quervain]” la M65.4 (Tenosinovita stiloidă radială [de Quervain]) — fragment de eponim tăiat la extragere, nu un nume de boală începând cu Q; afecțiunea există ca `Tenosinovita De Quervain`.
+- **Există deja, verificate la căutarea manuală:** febra Q (A78) e la F, `Febra Q` (cu `Q fever`, coxieloză); pneumonia cu Coxiella (`Pneumonie cu Coxiella`); febra Quintana (`Febra de transee`); edemul Quincke (`Angioedem`, `Angioedem ereditar`); tiroidita De Quervain (sinonim în `Tiroidita`). Tetraplegia (G82, „quadriplegie”) se numește în română „tetraplegie” și ține de litera T.
+- **Afecțiuni amânate de la pasul A cu litera Q (`pending_by_letter.jsonl`):** niciuna.
+- **Rezultat:** nicio afecțiune adăugată; dicționarul rămâne neschimbat. Nu există `add_Q.jsonl` și nici `pending_from_Q.jsonl`.
+
+## Adăugate
+
+| Nume canonic | Coduri | Sinonime |
+|---|---|---|
+
+## Decise manual, neadăugate
+
+Titluri `nou` / `posibil` care nu au devenit afecțiuni noi: există sub alt nume, sunt variante ale unei categorii (D5), categorii generice sau nu sunt boli (G7). Coloana „Apropiat” e sugestia automată.
+
+| Cod | Titlu CIM-10 | Apropiat |
+|---|---|---|
+
+## Existente (potrivire automată)
+
+Candidații pentru sinonime adăugate ulterior (D6).
+
+| Cod | Titlu CIM-10 | Afecțiune | Potrivire |
+|---|---|---|---|
