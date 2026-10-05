@@ -19,6 +19,7 @@ from backend.ai.search import ALL_SIGNALS, SearchSignals, effective_signals, max
 from backend.config import settings as base_settings
 from backend.core.models import HealthProfile
 from backend.reporting.pdf import report_title
+from tests.support.conditions import conditions_jsonl
 
 DICTIONARY_TEXT = "Hipertiroidism,hipertiroidie,hyperthyroidism\nGripa,influenza,flu\n"
 
@@ -51,7 +52,7 @@ class ConditionAITestCase(unittest.TestCase):
     backends: tuple[str, ...] = ("local",)
 
     def setUp(self):
-        self.dictionary = ConditionDictionary(parse_conditions(DICTIONARY_TEXT))
+        self.dictionary = ConditionDictionary(parse_conditions(conditions_jsonl(DICTIONARY_TEXT)))
         test_settings = replace(base_settings, condition_ai_backends=self.backends)
         env = patch.dict(os.environ, {"HF_TOKEN": "synthetic-token"})
         for manager in (
@@ -378,14 +379,14 @@ class ResolvedForTests(ConditionAITestCase):
 
 class EffectiveSignalsTests(unittest.TestCase):
     def test_the_conditions_signal_is_dropped_when_the_message_names_no_condition(self):
-        resolved = ConditionDictionary(parse_conditions(DICTIONARY_TEXT)).resolve("durere de cap")
+        resolved = ConditionDictionary(parse_conditions(conditions_jsonl(DICTIONARY_TEXT))).resolve("durere de cap")
 
         for code, expected in (("ABC", "BC"), ("AB", "B"), ("AC", "C"), ("A", "A"), ("BC", "BC"), ("B", "B"), ("C", "C")):
             with self.subTest(code=code):
                 self.assertEqual(effective_signals(SearchSignals.from_code(code), resolved).code, expected)
 
     def test_the_signals_stay_when_the_message_names_a_condition(self):
-        resolved = ConditionDictionary(parse_conditions(DICTIONARY_TEXT)).resolve("gripa")
+        resolved = ConditionDictionary(parse_conditions(conditions_jsonl(DICTIONARY_TEXT))).resolve("gripa")
 
         self.assertIs(effective_signals(ALL_SIGNALS, resolved), ALL_SIGNALS)
 
@@ -407,7 +408,7 @@ class EffectiveSignalsTests(unittest.TestCase):
 
 class ReportTitleTests(unittest.TestCase):
     def setUp(self):
-        dictionary = ConditionDictionary(parse_conditions(DICTIONARY_TEXT))
+        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl(DICTIONARY_TEXT)))
         manager = patch.object(conditions, "load_dictionary", return_value=dictionary)
         manager.start()
         self.addCleanup(manager.stop)

@@ -13,7 +13,7 @@ Documentul are două părți: **[Partea I — Rezumat](#partea-i--rezumat)** (ce
 1. **Pornire** — `python src/scripts/build_hybrid_index.py` procesează `data/documents` (loturi de 8 ferestre); baza de date vine din `DATABASE_URL`.
 2. **Pregătire** — creează tabelele dacă lipsesc (`documents`, `chunks`, `sync_metadata`) și citește ce documente sunt deja indexate. Dacă regulile de fragmentare s-au schimbat (`TEXT_REPR_VERSION`) sau modelul de embedding este altul, totul se reindexează.
 3. **Ce s-a schimbat** — un document cu același SHA-256 ca în bază este sărit complet; doar cele noi sau modificate merg mai departe.
-4. **Împărțirea în fragmente** (`fragment_document()`) — capitolul cu afecțiunea în titlu devine fragment **R1**, cel cu afecțiunea doar în text devine **R2**, iar restul se taie în bucăți **D1** de ~1800 de caractere. Afecțiunile vin din `data/medical_conditions.txt`. Fragmentele R1 și R2 primesc două liste de afecțiuni: `primary_medical_conditions` (cele din titlul fragmentului; la R2 mereu goală) și `secondary_medical_conditions` (cele din textul fragmentului, fără titlu). Fragmentele D1 nu au afecțiuni. Căutarea le folosește la scor (P1 și P2).
+4. **Împărțirea în fragmente** (`fragment_document()`) — capitolul cu afecțiunea în titlu devine fragment **R1**, cel cu afecțiunea doar în text devine **R2**, iar restul se taie în bucăți **D1** de ~1800 de caractere. Afecțiunile vin din `data/medical_conditions.jsonl`. Fragmentele R1 și R2 primesc două liste de afecțiuni: `primary_medical_conditions` (cele din titlul fragmentului; la R2 mereu goală) și `secondary_medical_conditions` (cele din textul fragmentului, fără titlu). Fragmentele D1 nu au afecțiuni. Căutarea le folosește la scor (P1 și P2).
 5. **Vectorii de sens** — modelul local `Qwen3-Embedding-0.6B` calculează pentru fiecare fragment un vector de 1024 de valori (fragmentele lungi sunt citite în ferestre de 1400 de caractere).
 6. **Salvarea** — o tranzacție per document: fragmentele vechi sunt înlocuite cu cele noi, cu vectorul (`embedding`) și indexul de cuvinte (`text_search`).
 7. **Curățenia** — documentele șterse din folder sunt șterse și din bază, împreună cu fragmentele lor.
@@ -46,7 +46,7 @@ Conexiunea Postgres vine din `.env` (`DATABASE_URL`), citită de `backend.config
 - **2.5.** Oprește procesul dacă nu este găsit niciun fișier Markdown.
 - **2.6.** Interoghează `documents` pentru harta `cale_relativă → sha256` deja sincronizată și citește `text_repr_version` din `sync_metadata`.
 - **2.7.** Dacă numele modelului stocat în `sync_metadata` diferă de cel cerut, harta de la 2.6 este golită la fel (se afișează „Embedding model changed (… -> …); forcing a full resync”): vectorii a două modele nu au voie să coexiste. La fel, dacă versiunea stocată diferă de `TEXT_REPR_VERSION` (în prezent `"4"`, mărită la fiecare schimbare a regulilor de fragmentare/curățare a textului), harta de la 2.6 este golită: toate documentele vor fi re-procesate, deși niciunul nu s-a schimbat pe disc. La o bază existentă se afișează „Text representation changed (… -> …); forcing a full resync”.
-- **2.8.** Încarcă dicționarul de afecțiuni din `data/medical_conditions.txt` (configurabil prin `CONDITIONS_FILE`); un fișier lipsă produce un dicționar gol, nu o eroare.
+- **2.8.** Încarcă dicționarul de afecțiuni din `data/medical_conditions.jsonl` (configurabil prin `CONDITIONS_FILE`); un fișier lipsă produce un dicționar gol, nu o eroare.
 
 ### 3. Decizia „sar peste” vs. „re-procesez”, per fișier
 

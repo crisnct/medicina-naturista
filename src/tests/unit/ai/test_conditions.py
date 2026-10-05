@@ -1,18 +1,18 @@
 """Tests for the medical-condition dictionary (backend.ai.conditions)."""
 from __future__ import annotations
 
+import json
 import tempfile
 import unittest
 from pathlib import Path
 
 from backend.ai import conditions
 from backend.ai.conditions import ConditionDictionary, parse_conditions
+from tests.support.conditions import conditions_jsonl
 
 SAMPLE = """
-# comment line
 Adenom,tumora adenomatoasa,adenoma
 Adenom de prostata,adenom prostatic,hiperplazie benigna de prostata,benign prostatic hyperplasia
-
 Artrita gutoasa,guta articulara,artrita urica,gout
 Artrita,artrita cronica,arthritis
 Acnee rozacee,rozacee,cuperoza,rosacea
@@ -20,21 +20,40 @@ Acnee rozacee,rozacee,cuperoza,rosacea
 
 
 class ParseTests(unittest.TestCase):
-    def test_first_field_is_the_name_and_blank_and_comment_lines_are_skipped(self):
-        parsed = parse_conditions(SAMPLE)
+    def test_name_comes_first_then_the_synonyms_and_blank_lines_are_skipped(self):
+        parsed = parse_conditions(
+            '{"name": "Guta", "synonyms": ["artrita gutoasa", "gout"]}\n'
+            "\n"
+            '{"name": "Acalazie", "synonyms": []}\n'
+        )
 
-        self.assertEqual([item.name for item in parsed], ["Adenom", "Adenom de prostata", "Artrita gutoasa", "Artrita", "Acnee rozacee"])
-        self.assertIn("gout", parsed[2].terms)
+        self.assertEqual([item.name for item in parsed], ["Guta", "Acalazie"])
+        self.assertEqual(parsed[0].terms, ("Guta", "artrita gutoasa", "gout"))
+        self.assertEqual(parsed[1].terms, ("Acalazie",))
 
     def test_duplicate_terms_within_a_line_are_dropped(self):
-        parsed = parse_conditions("Acalazie,acalazie,ACALAZIE ,cardiospasm")
+        parsed = parse_conditions('{"name": "Acalazie", "synonyms": ["acalazie", "ACALAZIE ", "cardiospasm"]}')
 
         self.assertEqual(parsed[0].terms, ("Acalazie", "cardiospasm"))
+
+    def test_an_invalid_line_raises_with_its_number(self):
+        valid = '{"name": "Guta", "synonyms": ["gout"]}\n'
+        for broken in (
+            '{"name": "Tuse", "synonyms": ["cough"]',  # truncated JSON
+            '["Tuse", "cough"]',
+            '{"synonyms": ["cough"]}',
+            '{"name": " ", "synonyms": []}',
+            '{"name": "Tuse"}',
+            '{"name": "Tuse", "synonyms": "cough"}',
+            '{"name": "Tuse", "synonyms": ["cough", 3]}',
+        ):
+            with self.subTest(line=broken), self.assertRaisesRegex(ValueError, "line 2"):
+                parse_conditions(valid + broken)
 
 
 class MatchTests(unittest.TestCase):
     def setUp(self):
-        self.dictionary = ConditionDictionary(parse_conditions(SAMPLE))
+        self.dictionary = ConditionDictionary(parse_conditions(conditions_jsonl(SAMPLE)))
 
     def names(self, query):
         return [item.name for item in self.dictionary.match(query)]
@@ -60,7 +79,7 @@ class MatchTests(unittest.TestCase):
 
 class ResolveTests(unittest.TestCase):
     def setUp(self):
-        self.dictionary = ConditionDictionary(parse_conditions(SAMPLE + "Tuse,cough\n"))
+        self.dictionary = ConditionDictionary(parse_conditions(conditions_jsonl(SAMPLE + "Tuse,cough\n")))
 
     def segments(self, query):
         return [
@@ -131,18 +150,18 @@ class ResolveTests(unittest.TestCase):
 
 class FileLoadingTests(unittest.TestCase):
     def test_missing_file_gives_an_empty_dictionary(self):
-        result = conditions.load_dictionary(Path(tempfile.gettempdir()) / "definitely-missing-conditions.txt")
+        result = conditions.load_dictionary(Path(tempfile.gettempdir()) / "definitely-missing-conditions.jsonl")
 
         self.assertEqual(result.conditions, [])
         self.assertEqual(result.resolve("gout").condition_names, ())
 
     def test_file_is_loaded_and_reloaded_when_it_changes(self):
         with tempfile.TemporaryDirectory() as directory:
-            path = Path(directory) / "conditions.txt"
-            path.write_text("Guta,gout\n", encoding="utf-8")
+            path = Path(directory) / "conditions.jsonl"
+            path.write_text(conditions_jsonl("Guta,gout\n"), encoding="utf-8")
             self.assertEqual(conditions.load_dictionary(path).match("gout")[0].terms, ("Guta", "gout"))
 
-            path.write_text("Guta,gout,podagra\n", encoding="utf-8")
+            path.write_text(conditions_jsonl("Guta,gout,podagra\n"), encoding="utf-8")
             import os
             os.utime(path, ns=(path.stat().st_atime_ns, path.stat().st_mtime_ns + 5_000_000_000))
 
@@ -162,8 +181,9 @@ class FileLoadingTests(unittest.TestCase):
         # Canonical names are written verbatim into chunks.primary/secondary_medical_conditions,
         # and an extraction artefact such as a soft hyphen splits a term into two
         # words ("pio\xadtorax" -> "pio torax") that the scanned text never
-        # contains, so the term silently stops matching.
-        offenders = [line for line in text.splitlines() if not line.isascii()]
+        # contains, so the term silently stops matching. The terms are checked,
+        # not the lines, so a JSON escape ("­") cannot hide one.
+        offenders = [term for item in parse_conditions(text) for term in item.terms if not term.isascii()]
         self.assertEqual(offenders, [])
 
     def test_shipped_dictionary_has_no_duplicate_conditions(self):
@@ -192,23 +212,22 @@ class FileLoadingTests(unittest.TestCase):
 
     def test_shipped_dictionary_lines_are_complete(self):
         text = conditions.settings.conditions_file.read_text(encoding="utf-8")
-        # the dictionary is written without diacritics; plain() also lowercases,
-        # so compare against a diacritics-only translation
-        diacritics = "ăâîșțşţĂÂÎȘȚŞŢ"
-        table = str.maketrans(diacritics, "aaiststAAISTST")
 
         for number, line in enumerate(text.splitlines(), 1):
-            if not line.strip() or line.strip().startswith("#"):
-                continue
             with self.subTest(line=number):
-                fields = line.split(",")
-                # canonical name + 3 Romanian + 3 English synonyms, no blank field
-                self.assertGreaterEqual(len(fields), 7)
-                self.assertTrue(all(field.strip() for field in fields))
-                self.assertEqual(line, line.strip())
-                self.assertEqual([field.strip() for field in fields], fields)
-                # no diacritics anywhere in the line
-                self.assertEqual(line, line.translate(table))
+                record = json.loads(line)
+                self.assertEqual(list(record), ["name", "synonyms"])
+                terms = [record["name"], *record["synonyms"]]
+                # canonical name + 3 Romanian + 3 English synonyms
+                self.assertGreaterEqual(len(record["synonyms"]), 6)
+                for term in terms:
+                    # no blank term, no stray spaces
+                    self.assertEqual(term, " ".join(term.split()))
+                    self.assertTrue(term)
+                    # a message is split at commas, so a term with a comma could never match
+                    self.assertNotIn(",", term)
+                # written without duplicates: parsing drops none of the terms
+                self.assertEqual(len(parse_conditions(line)[0].terms), len(terms))
 
 
 if __name__ == "__main__":

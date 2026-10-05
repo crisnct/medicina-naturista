@@ -80,7 +80,8 @@ class Settings:
     # Device of the index build's embedding model: "cpu" (FastEmbed) or "cuda"
     # (PyTorch fp16, needs the GPU environment). Queries always run on the CPU.
     embedding_device: str = _embedding_device()
-    conditions_file: Path = Path(os.getenv("CONDITIONS_FILE", str(ROOT / "data" / "medical_conditions.txt")))
+    conditions_file: Path = Path(os.getenv("CONDITIONS_FILE", str(ROOT / "data" / "medical_conditions.jsonl")))
+    herbs_file: Path = Path(os.getenv("HERBS_FILE", str(ROOT / "data" / "herbs.jsonl")))
     frontend_dist_dir: Path = Path(os.getenv("FRONTEND_DIST_DIR", str(ROOT / "src" / "frontend" / "dist")))
     database_url: str = os.getenv(
         "DATABASE_URL", "postgresql://medicina:medicina@127.0.0.1:5432/medicina"

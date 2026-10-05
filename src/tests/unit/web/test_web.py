@@ -36,6 +36,7 @@ from backend.ai import conditions as conditions_module
 from backend.ai.conditions import ConditionDictionary, parse_conditions
 from backend.ai.retrieval import Retriever, _meaningful_words, consultation_query
 from backend.core.sessions import SessionStore
+from tests.support.conditions import conditions_jsonl
 
 # The highest score with every signal on; fragments in these tests are scored against it.
 MAX_SCORE = max_score(ALL_SIGNALS)
@@ -567,9 +568,9 @@ class WebTests(unittest.TestCase):
     # notice naming the condition and listing ALL its synonyms (Romanian and
     # English); an unrecognised one gets no notice at all.
     def test_condition_identified_message_lists_every_synonym(self):
-        dictionary = ConditionDictionary(parse_conditions(
+        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl(
             "Artrita gutoasa,guta articulara,artrita urica,gout\nAcnee rozacee,rozacee,cuperoza,rosacea\n"
-        ))
+        )))
         with patch.object(conditions_module, "load_dictionary", return_value=dictionary):
             message = main._condition_identified_message("gout")
             self.assertEqual(message["role"], "assistant")
@@ -581,7 +582,7 @@ class WebTests(unittest.TestCase):
             self.assertIsNone(main._condition_identified_message("durere de cap"))
 
     def test_condition_identified_message_names_both_conditions_when_two_match(self):
-        dictionary = ConditionDictionary(parse_conditions("Artrita,arthritis\nArtroza,osteoarthritis\n"))
+        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita,arthritis\nArtroza,osteoarthritis\n")))
         with patch.object(conditions_module, "load_dictionary", return_value=dictionary):
             content = main._condition_identified_message("artrita, artroza")["content"]
 
@@ -590,7 +591,7 @@ class WebTests(unittest.TestCase):
         self.assertEqual(content.count("\n"), 1)
 
     def test_condition_without_synonyms_only_names_the_condition(self):
-        dictionary = ConditionDictionary(parse_conditions("Acalazie\n"))
+        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Acalazie\n")))
         with patch.object(conditions_module, "load_dictionary", return_value=dictionary):
             content = main._condition_identified_message("acalazie")["content"]
 
@@ -604,7 +605,7 @@ class WebTests(unittest.TestCase):
             def collect(self, session, max_chars=None):
                 return {}
 
-        dictionary = ConditionDictionary(parse_conditions("Artrita gutoasa,guta articulara,gout\n"))
+        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n")))
         sid, tab = "J" * 43, "tab-condition1"
         with patch.object(main, "retriever", Empty()), patch.object(conditions_module, "load_dictionary", return_value=dictionary):
             self.client.get("/api/session", headers=_headers(sid, tab))
@@ -738,9 +739,9 @@ class WebTests(unittest.TestCase):
     # for a condition that is a whole expression of the message ("gout"), never for one
     # found inside a longer expression ("tuse la copii").
     def test_condition_notice_for_every_combination_of_signals(self):
-        dictionary = ConditionDictionary(parse_conditions(
+        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl(
             "Artrita gutoasa,guta articulara,artrita urica,gout\nTuse,cough,tusea\n"
-        ))
+        )))
         gout = "✅ Am identificat afecțiunea: **Artrita gutoasa**."
         gout_synonyms = gout + " O caut și după denumirile: guta articulara, artrita urica, gout."
         cough = "✅ Am identificat afecțiunea: **Tuse**."
@@ -762,7 +763,7 @@ class WebTests(unittest.TestCase):
     # A message that names nothing gets no notice whatever the signals; a
     # near-identical spelling of a term is still the whole condition.
     def test_condition_notice_is_absent_when_nothing_is_recognised(self):
-        dictionary = ConditionDictionary(parse_conditions("Artrita gutoasa,guta articulara,gout\n"))
+        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n")))
         with patch.object(conditions_module, "load_dictionary", return_value=dictionary):
             for code in ("ABC", "A", "B", "C"):
                 self.assertIsNone(main._condition_identified_message("durere de cap", SearchSignals.from_code(code)))
@@ -786,7 +787,7 @@ class WebTests(unittest.TestCase):
                 type(self).seen = resolved_for(session.profile).condition_names
                 return super().collect(session, max_chars)
 
-        dictionary = ConditionDictionary(parse_conditions("Artrita gutoasa,guta articulara,gout\n"))
+        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n")))
         sid = "C" * 43
         ai_step = MagicMock(return_value=result)
         with (
@@ -891,7 +892,7 @@ class WebTests(unittest.TestCase):
 
     def test_a_new_message_clears_the_conditions_of_the_previous_one(self):
         sid, tab = "D" * 43, "tab-condai0005"
-        dictionary = ConditionDictionary(parse_conditions("Artrita gutoasa,guta articulara,gout\n"))
+        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n")))
         with (
             patch.object(main, "settings", replace(settings, condition_ai_backends=("local",))),
             patch.object(main, "retriever", FakeRetriever()),
@@ -909,7 +910,7 @@ class WebTests(unittest.TestCase):
     # replaces the problem, and the late answer is thrown away.
     def test_an_answer_for_a_replaced_message_is_discarded(self):
         sid, tab = "E" * 43, "tab-condai0006"
-        dictionary = ConditionDictionary(parse_conditions("Artrita gutoasa,guta articulara,gout\n"))
+        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n")))
 
         def slow_ai(resolved):
             session = main.store.get(sid, tab)
@@ -964,7 +965,7 @@ class WebTests(unittest.TestCase):
             "condition_in_title": None, "condition_in_text": None,
             "lexical_score": 1.0, "semantic_score": 1.0, "semantic_similarity": 0.9,
         }]
-        dictionary = ConditionDictionary(parse_conditions("Artrita gutoasa,gout\n"))
+        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita gutoasa,gout\n")))
 
         with (
             patch.object(conditions_module, "load_dictionary", return_value=dictionary),

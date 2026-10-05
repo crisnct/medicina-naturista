@@ -9,6 +9,7 @@ from __future__ import annotations
 import base64
 import json
 import os
+import re
 from dataclasses import dataclass
 from email.message import EmailMessage
 from typing import Callable
@@ -93,6 +94,22 @@ def _http_error(operation: str, error: HTTPError) -> RuntimeError:
     return RuntimeError(f"Google Gmail {operation} failed with HTTP {error.code}")
 
 
+def _oauth_error_code(error: HTTPError) -> str | None:
+    """Return Google's OAuth ``error`` code (e.g. ``invalid_grant``), if safe to log.
+
+    Only the short standard code is kept; the description and any other body
+    content are discarded.
+    """
+    try:
+        payload = json.loads(error.read().decode("utf-8"))
+    except (OSError, UnicodeError, json.JSONDecodeError, TypeError, ValueError):
+        return None
+    code = payload.get("error") if isinstance(payload, dict) else None
+    if isinstance(code, str) and re.fullmatch(r"[a-z_]{1,64}", code):
+        return code
+    return None
+
+
 def _refresh_access_token(
     config: MailConfig,
     *,
@@ -116,7 +133,11 @@ def _refresh_access_token(
         with urlopen_factory(request, timeout=config.timeout_seconds) as response:
             payload = json.loads(response.read().decode("utf-8"))
     except HTTPError as exc:
-        raise _http_error("OAuth token refresh", exc) from exc
+        error = _http_error("OAuth token refresh", exc)
+        oauth_code = _oauth_error_code(exc)
+        if oauth_code:
+            error = RuntimeError(f"{error} ({oauth_code})")
+        raise error from exc
     except (URLError, TimeoutError, OSError) as exc:
         raise RuntimeError("Google OAuth token refresh could not connect") from exc
     except (UnicodeError, json.JSONDecodeError, TypeError, ValueError) as exc:

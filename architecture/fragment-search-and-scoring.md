@@ -10,7 +10,7 @@ Documentul are două părți: **[Partea I — Rezumat](#partea-i--rezumat)** (ce
 
 ## Partea I — Rezumat
 
-1. **Recunoașterea afecțiunii** (`resolve_query()`) — mesajul se împarte la virgulă, iar în fiecare parte se caută afecțiunile din `data/medical_conditions.txt` (cu sinonime și toleranță la greșeli de scriere). Pacientul vede în chat ce afecțiune s-a identificat.
+1. **Recunoașterea afecțiunii** (`resolve_query()`) — mesajul se împarte la virgulă, iar în fiecare parte se caută afecțiunile din `data/medical_conditions.jsonl` (cu sinonime și toleranță la greșeli de scriere). Pacientul vede în chat ce afecțiune s-a identificat.
 2. **Scorul** — pacientul alege din panoul „Căutare avansată” ce semnale intră în scor: **A** (afecțiuni), **B** (lexical), **C** (semantic). Implicit sunt toate trei: `score = 4·P1 + 2·P2 + L + V` (maximum 8):
    - **P1** — afecțiunea este în titlul fragmentului (semnalul A);
    - **P2** — afecțiunea este în textul fragmentului (semnalul A);
@@ -37,7 +37,7 @@ Codul implicat: `ai/conditions.py` (`resolve_query()`), `ai/search.py` (`rank()`
 
 Problema pacientului este căutată cu **o singură interogare** (`consultation_query()`: problema de sănătate, cu spațiile normalizate). Istoricul conversației nu este folosit. Dacă problema este goală sau nu conține niciun cuvânt, căutarea se oprește și returnează un inventar gol.
 
-- **1.1.** **Dicționarul de afecțiuni** (`data/medical_conditions.txt`, calea din `CONDITIONS_FILE`): o afecțiune pe linie, separată prin virgulă, cu numele canonic primul, urmat de sinonimele în română și engleză; liniile goale și cele care încep cu `#` sunt ignorate. Fișierul se reîncarcă automat când se modifică; un fișier lipsă înseamnă că nu se recunoaște nicio afecțiune.
+- **1.1.** **Dicționarul de afecțiuni** (`data/medical_conditions.jsonl`, calea din `CONDITIONS_FILE`): o afecțiune pe linie, ca obiect JSON `{"name": ..., "synonyms": [...]}` — numele canonic, apoi sinonimele în română și engleză; liniile goale sunt ignorate, iar o linie invalidă oprește încărcarea cu o eroare care îi spune numărul. Fișierul se reîncarcă automat când se modifică; un fișier lipsă înseamnă că nu se recunoaște nicio afecțiune.
 - **1.2.** Mesajul se împarte la virgulă în **expresii**, iar afecțiunile se recunosc **în fiecare expresie separat** (`gripa, tuse` → Gripa și Tuse). Comparația ignoră diacriticele, majusculele și punctuația. Potrivirea în cadrul unei expresii, în ordine:
   - **1.2.1.** expresia este exact un termen din dicționar;
   - **1.2.2.** este o scriere aproape identică a unui termen întreg (raport `difflib` ≥ 0,9);
@@ -140,7 +140,7 @@ Fragmentele nu se unesc: fiecare este o secțiune întreagă (vezi `ai/fragmente
 | Variabilă | Implicit | Rol |
 |---|---|---|
 | `X_AI_MAX_CONTEXT_CHARS` / `DEEPSEEK_MAX_CONTEXT_CHARS` / `OLLAMA_MAX_CONTEXT_CHARS` / `HF_MAX_CONTEXT_CHARS` | 1.000.000 (HF: 120.000) | Bugetul textului dovezilor (caractere) pentru furnizorul activ; fragmente întregi eliminate de la coadă |
-| `CONDITIONS_FILE` | `data/medical_conditions.txt` | Dicționarul de afecțiuni și sinonime |
+| `CONDITIONS_FILE` | `data/medical_conditions.jsonl` | Dicționarul de afecțiuni și sinonime |
 | `MODEL_CACHE_DIR` | `data/model_cache` | Locul modelului de embeddings folosit pentru întrebare |
 | `DATABASE_URL` | `postgresql://medicina:medicina@127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului |
 

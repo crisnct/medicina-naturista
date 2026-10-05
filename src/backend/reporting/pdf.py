@@ -519,7 +519,7 @@ _ROMANIAN_DIACRITIC_WORDS = {
 
 
 # Romanian spelling of the words in the canonical condition names
-# (data/medical_conditions.txt is written without diacritics).
+# (data/medical_conditions.jsonl is written without diacritics).
 _CONDITION_DIACRITIC_WORDS = {
     "acidoza": "acidoză",
     "actinomicoza": "actinomicoză",

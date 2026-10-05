@@ -6,16 +6,10 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from backend.ai.conditions import _normalize  # noqa: E402
+from backend.ai.conditions import _normalize, parse_conditions  # noqa: E402
 
-PATH = Path(__file__).resolve().parents[2] / "data" / "medical_conditions.txt"
-rows = []
-for line in PATH.read_text(encoding="utf-8").splitlines():
-    if not line.strip() or line.strip().startswith("#"):
-        continue
-    rows.append([p.strip() for p in line.split(",")])
-
-canon = [r[0] for r in rows]
+PATH = Path(__file__).resolve().parents[2] / "data" / "medical_conditions.jsonl"
+canon = [condition.name for condition in parse_conditions(PATH.read_text(encoding="utf-8"))]
 norm = {_normalize(c): c for c in canon}
 keys = sorted(norm)
 key_set = set(keys)
@@ -45,7 +39,7 @@ for base, names in sorted(stripped.items()):
         print(f"   {base!r} <- {names}")
 
 print()
-print("C) first-column values not starting with an uppercase letter:", [c for c in canon if not c[:1].isupper()])
-print("D) first-column values with trailing/leading issues:", [c for c in canon if c != c.strip() or "  " in c])
+print("C) canonical names not starting with an uppercase letter:", [c for c in canon if not c[:1].isupper()])
+print("D) canonical names with trailing/leading issues:", [c for c in canon if c != c.strip() or "  " in c])
 print(f"E) canonical names containing a comma-safe Latin-1 char: "
       f"{[c for c in canon if any(ord(ch) > 127 for ch in c)]}")

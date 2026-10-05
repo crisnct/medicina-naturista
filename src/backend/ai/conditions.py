@@ -1,11 +1,13 @@
-"""Medical-condition dictionary (data/medical_conditions.txt): one condition per
-line, comma-separated — the canonical name first, then its Romanian and
-English synonyms. Used to recognise which conditions a message names (the
+"""Medical-condition dictionary (data/medical_conditions.jsonl): one condition
+per line, as a JSON object {"name": ..., "synonyms": [...]} — the canonical
+name, then its Romanian and English synonyms. Used to recognise which
+conditions a message names (the
 canonical names drive the P1/P2 priorities of ai/search.py; the synonyms stand
 in for an expression that is the whole condition in its lexical query), so
 "gout" also finds the sections titled "Gută" / "artrită gutoasă"."""
 from __future__ import annotations
 
+import json
 import logging
 import re
 from collections.abc import Iterable
@@ -72,23 +74,34 @@ def _normalize(value: str) -> str:
     return " ".join(re.findall(r"[^\W_]+", plain(value), flags=re.UNICODE))
 
 
-# Parse the dictionary text. Blank lines and lines starting with '#' are skipped.
+# Parse the dictionary text (JSON Lines). Blank lines are skipped; a line that is
+# not {"name": str, "synonyms": [str, ...]} raises ValueError with its number.
+# Terms (the name first, then the synonyms) are deduplicated by _normalize().
 def parse_conditions(text: str) -> list[Condition]:
     conditions: list[Condition] = []
-    for line in text.splitlines():
-        line = line.strip()
-        if not line or line.startswith("#"):
+    for number, line in enumerate(text.splitlines(), 1):
+        if not line.strip():
             continue
+        try:
+            record = json.loads(line)
+        except json.JSONDecodeError as error:
+            raise ValueError(f"conditions line {number}: invalid JSON ({error.msg})") from None
+        if not isinstance(record, dict):
+            raise ValueError(f"conditions line {number}: expected a JSON object")
+        name, synonyms = record.get("name"), record.get("synonyms")
+        if not isinstance(name, str) or not _normalize(name):
+            raise ValueError(f"conditions line {number}: 'name' must be a non-empty string")
+        if not isinstance(synonyms, list) or not all(isinstance(item, str) for item in synonyms):
+            raise ValueError(f"conditions line {number}: 'synonyms' must be a list of strings")
         terms: list[str] = []
         seen: set[str] = set()
-        for part in line.split(","):
+        for part in (name, *synonyms):
             part = " ".join(part.split())
             key = _normalize(part)
             if key and key not in seen:
                 seen.add(key)
                 terms.append(part)
-        if terms:
-            conditions.append(Condition(name=terms[0], terms=tuple(terms)))
+        conditions.append(Condition(name=terms[0], terms=tuple(terms)))
     return conditions
 
 
