@@ -1,0 +1,56 @@
+? A44.1   Verruga peruana   [titlu: Bartonelloza cutanata sau cutaneo-mucoasa]  <Cutaneous and mucocutaneous bartonellosis>  ~ 
+? B08.0   Vaccin natural Cowpox   [titlu: Alte infectii prin orthopoxvirus]  <Other orthopoxvirus infections>  ~ 
+? B08.0   Vaccinia   [titlu: Alte infectii prin orthopoxvirus]  <Other orthopoxvirus infections>  ~ 
+? B34.9   Viremia   [titlu: Infectia virala, nespecificata]  <Viral infection, unspecified>  ~ 
+? B37.3   Vulvovaginita prin Candida   [titlu: Candidiaza vulvei si vaginului(M77.1*)]  <Candidiasis of vulva and vagina>  ~ 
+? B37.3   Vulvovaginita prin Monilia   [titlu: Candidiaza vulvei si vaginului(M77.1*)]  <Candidiasis of vulva and vagina>  ~ 
+? B97.1   Virus Cocksackie   [titlu: Enterovirusi, cauza unor boli clasificate la alte capitole]  <Enterovirus as the cause of diseases classified elsewhere>  ~ 
+? B97.1   Virus ECHO   [titlu: Enterovirusi, cauza unor boli clasificate la alte capitole]  <Enterovirus as the cause of diseases classified elsewhere>  ~ Traheita cu enterovirus
+? C02.1   Varful limbii   [titlu: Partea jugala a limbii]  <Malignant neoplasm of border of tongue>  ~ 
+? C18.0   Valvula ileo-cecala   [titlu: Cecul]  <Malignant neoplasm of cecum>  ~ 
+? C30.0   Vestibulul nasului   [titlu: Fosele nazale]  <Malignant neoplasm of nasal cavity>  ~ 
+? C41.02  Vomer   [titlu: Oasele maxilo-faciale]  <>  ~ 
+? C49.3   Vasele mari   [titlu: Tesutul conjunctiv si tesuturile moi ale toracelui]  <Malignant neoplasm of connective and soft tissue of thorax>  ~ Transpozitia marilor vase | Transpozitie corectata de mari vase
+? C49.5   Vintre   [titlu: Tesutul conjunctiv si tesuturile moi ale pelvisului]  <Malignant neoplasm of connective and soft tissue of pelvis>  ~ 
+? D12.0   Valva ileo-cecala   [titlu: Cec]  <Benign neoplasm of cecum>  ~ 
+? D21.3   Vasele mari   [titlu: Tesut conjunctiv si alte tesuturi moi ale toracelui]  <Benign neoplasm of connective and other soft tissue of thorax>  ~ Transpozitia marilor vase | Transpozitie corectata de mari vase
+? D33.0   Ventriculul cerebral   [titlu: Creier, supratentorial]  <Benign neoplasm of brain, supratentorial>  ~ 
+? D43.0   Ventriculul cerebral   [titlu: Creier, supratentorial]  <Neoplasm of uncertain behavior of brain, supratentorial>  ~ 
+? F80.8   Vorbire sopotita, sasaita   [titlu: Alte tulburari de dezvoltare a vorbirii si limbajului]  <Other developmental disorders of speech and language>  ~ 
+? G04.9   Ventriculita (cerebrala)   [titlu: Encefalita, mielita si encefalomielita, nespecificate]  <Encephalitis, myelitis and encephalomyelitis, unspecified>  ~ Vasculita cerebrala
+? H02.7   Vitiligo al pleoapei   [titlu: Alte afectiuni degenerative ale pleoapei si ale regiunii perioculare]  <Other and unspecified degenerative disorders of eyelid and periocular area>  ~ 
+? H05.5   veche   [titlu: Retentia(veche)de corp strain ca urmare a unei plagi penetrante a orbitei]  <Retained (old) foreign body following penetrating wound of orbit>  ~ 
+? H16.4   Vase de neoformatie (ale corneei)   [titlu: Neovascularizare corneeana]  <Corneal neovascularization>  ~ 
+? H33.4   Vitroretinopatia proliferativa cu dezlipirea retinei   [titlu: Detasare mecanica (tractiune) a retinei]  <Traction detachment of retina>  ~ 
+? H35.2   Vitreoretinopatia proliferanta   [titlu: Alte retinopatii proliferante]  <Other non-diabetic proliferative retinopathy>  ~ Vitreoretinopatie proliferativa
+? H44.6   veche   [titlu: Retentia (veche) intraoculara de corp strain magnetic]  <Retained (old) intraocular foreign body, magnetic>  ~ 
+? H44.7   veche   [titlu: Retentia (veche) intraoculara de corp strain nonmagnetic]  <Retained (old) intraocular foreign body, nonmagnetic>  ~ 
+? H53.2   Vizuine dubla   [titlu: Diplopia]  <Diplopia>  ~ 
+? I01.1   Valvulita reumatismala acuta   [titlu: Endocardita reumatismala acuta]  <Acute rheumatic endocarditis>  ~ Endocardita reumatica
+? I34.0   valva   [titlu: Insuficienta mitrala (valva)]  <Nonrheumatic mitral (valve) insufficiency>  ~ 
+? I34.1   valva   [titlu: Prolapsul (valva) mitral]  <Nonrheumatic mitral (valve) prolapse>  ~ 
+? I34.2   valvei   [titlu: Stenoza (valvei) mitrala nereumatismala]  <Nonrheumatic mitral (valve) stenosis>  ~ 
+? I35.0   valva   [titlu: Stenoza (valva) aortica]  <Nonrheumatic aortic (valve) stenosis>  ~ 
+? I35.1   valva   [titlu: Insuficienta (valva) aortica]  <Nonrheumatic aortic (valve) insufficiency>  ~ 
+? I35.2   valva   [titlu: Stenoza si insuficienta (valva) aortica]  <Nonrheumatic aortic (valve) stenosis with insufficiency>  ~ 
+? I36.0   valva   [titlu: Stenoza nereumatismala (valva) tricuspida]  <Nonrheumatic tricuspid (valve) stenosis>  ~ 
+? I36.1   valva   [titlu: Insuficienta nereumatismala (valva) tricuspida]  <Nonrheumatic tricuspid (valve) insufficiency>  ~ 
+? J35.8   Vegetatii adenoide   [titlu: Alte boli cronice ale amigdalelor si adenoizilor]  <Other chronic diseases of tonsils and adenoids>  ~ Adenoidita | Hipertrofie de amigdale si vegetatii
+? L02.2   Vintre   [titlu: Abces cutanat, furuncul si furuncul antracoid al trunchiului]  <Cutaneous abscess, furuncle and carbuncle of trunk>  ~ 
+? L03.3   Vintre   [titlu: Celulita trunchiului]  <Cellulitis and acute lymphangitis of trunk>  ~ 
+? L24.8   Vopsea   [titlu: Dermatita iritanta de contact datorita altor agenti]  <Irritant contact dermatitis due to other agents>  ~ 
+? M31.8   Vasculita hipocomplementemica   [titlu: Alte vasculopatii necrozante specificate]  <Other specified necrotizing vasculopathies>  ~ 
+? M99.1   vertebrala   [titlu: Subluxatie complexa (vertebrala)]  <Subluxation complex (vertebral)>  ~ 
+? N49.1   Vasita   [titlu: Afectiunile inflamatorii ale cordonului spermatic, tunicii vaginale si canalului deferent]  <Inflammatory disorders of spermatic cord, tunica vaginalis and vas deferens>  ~ Ascita
+? O21.8   Voma datorita unor boli clasificate altundeva, complicand sarcina   [titlu: Alte vome complicand sarcina]  <Other vomiting complicating pregnancy>  ~ Greturi matinale
+? O86.1   Vaginita dupa nastere   [titlu: Alte infectii ale tractului genital dupa nastere]  <Other infection of genital tract following delivery>  ~ 
+? O87.8   Varice genitale in timpul lauziei   [titlu: Alte complicatii venoase in timpul lauziei]  <Other venous complications in the puerperium>  ~ 
+? P01.7   Versiune externa inainte de travaliu   [titlu: Fat si nou-nascut afectati de prezentatia anormala inainte de travaliu]  <Newborn affected by malpresentation before labor>  ~ 
+? P03.3   ventuza   [titlu: Fat si nou-nascut afectati de nasterea cu extractor pneumatic [ventuza]]  <Newborn affected by delivery by vacuum extractor [ventouse]>  ~ 
+? P35.8   Varicela congenitala [varicela]   [titlu: Alte boli virale congenitale]  <Other congenital viral diseases>  ~ Varicela congenitala
+? Q18.0   Vestigiu branhial   [titlu: Sinus, fistula si chist al fisurii branhiale]  <Sinus, fistula and cyst of branchial cleft>  ~ 
+? Q66.6   Valgus al metatarsului   [titlu: Alte deformatii congenitale de valgus ale piciorului]  <Other congenital valgus deformities of feet>  ~ 
+= B83.9   Viermi  -> Parazitoze
+= Q20.4   Ventricul comun  -> Ventricul unic
+= Q20.4   Ventricul unic  -> Ventricul unic
+= Q23.1   Valva aortica bicuspida  -> Bicuspidia valvei aortice
