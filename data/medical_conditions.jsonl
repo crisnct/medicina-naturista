@@ -2080,6 +2080,7 @@
 {"name": "Edera otravitoare", "synonyms": ["iedera otravitoare", "otravire cu edera otravitoare", "dermatita de contact cu edera", "poison ivy", "poison ivy rash", "toxicodendron dermatitis"]}
 {"name": "Efelide", "synonyms": ["pistrui", "efelide solare", "lentigo simplu", "freckles", "ephelides", "solar lentigines"]}
 {"name": "Efluviu anagen", "synonyms": ["caderea parului in faza anagen", "alopecie anagena", "efluviu anagenic", "anagen effluvium", "anagen hair loss", "anagen alopecia"]}
+{"name": "Efluviu telogen", "synonyms": ["alopecie telogena", "alopecie difuza telogena", "caderea telogena a parului", "telogen effluvium", "telogen hair loss", "diffuse telogen hair loss"]}
 {"name": "Efuziune pleurala postoperatorie", "synonyms": ["pleurezie postoperatorie", "revarsat pleural dupa operatie", "lichid pleural postchirurgical", "postoperative pleural effusion", "pleural effusion after surgery", "post-surgical pleural effusion"]}
 {"name": "Ehrlichioza", "synonyms": ["anaplasmoza umana", "infectie cu Ehrlichia chaffeensis", "ehrlichioza monocitara", "human ehrlichiosis", "ehrlichiosis", "Ehrlichia chaffeensis infection"]}
 {"name": "Ejaculare precoce", "synonyms": ["ejaculare prematura", "ejaculare rapida", "tulburare de ejaculare", "premature ejaculation", "early ejaculation", "rapid ejaculation"]}
@@ -2091,6 +2092,8 @@
 {"name": "Embolie cerebrala", "synonyms": ["embol cerebral", "embolie arteriala cerebrala", "embolie la nivelul creierului", "cerebral embolism", "brain embolism", "embolic stroke", "embolie la nivel cerebral", "ocluzie embolica cerebrala", "cerebral artery embolism"]}
 {"name": "Embolie de lichid amniotic", "synonyms": ["embolie cu lichid amniotic", "embolie amniotica", "sindrom de embolie amniotica", "amniotic fluid embolism", "amniotic fluid embolism syndrome", "AFE"]}
 {"name": "Embolie pulmonara", "synonyms": ["tromboembolism pulmonar", "embolie de artera pulmonara", "obstructie tromboembolica pulmonara", "pulmonary embolism", "pulmonary thromboembolism", "PE"]}
+{"name": "Embriopatie cu talidomida", "synonyms": ["malformatii congenitale datorite talidomidei", "sindrom talidomidic", "embriopatie talidomidica", "thalidomide embryopathy", "thalidomide syndrome", "fetal thalidomide syndrome"]}
+{"name": "Embriopatie retinoica", "synonyms": ["malformatii congenitale datorite vitaminei A", "embriopatie la izotretinoina", "sindrom fetal la retinoizi", "retinoic acid embryopathy", "isotretinoin embryopathy", "fetal retinoid syndrome"]}
 {"name": "Emfizem centrilobular", "synonyms": ["emfizem centrolobular", "emfizem al lobulului central", "emfizem centroacinic", "centrilobular emphysema", "centriacinar emphysema", "centrilobular pulmonary emphysema"]}
 {"name": "Emfizem compensator", "synonyms": ["emfizem vicariant", "emfizem de compensare", "hiperinflatie compensatorie", "compensatory emphysema", "vicarious emphysema", "compensatory hyperinflation"]}
 {"name": "Emfizem congenital", "synonyms": ["emfizem lobar congenital", "emfizem neonatal", "hiperinflatie lobara congenitala", "congenital emphysema", "congenital lobar emphysema", "neonatal emphysema"]}
@@ -2132,6 +2135,7 @@
 {"name": "Encefalita Murray Valley", "synonyms": ["encefalita australiana", "infectie cu virusul Murray Valley", "encefalita din Australia", "Murray Valley encephalitis", "Australian encephalitis", "Murray Valley encephalitis virus infection"]}
 {"name": "Encefalita postinfectioasa", "synonyms": ["encefalita autoimuna postinfectioasa", "encefalita parainfectioasa", "encefalita dupa infectie virala", "postinfectious encephalitis", "post-infectious encephalomyelitis", "parainfectious encephalitis", "encefalita postvaccinala", "encefalita postexantematica", "postvaccinal encephalitis"]}
 {"name": "Encefalita Powassan", "synonyms": ["infectie cu virusul Powassan", "encefalita de capuse americana", "encefalomielita Powassan", "Powassan encephalitis", "Powassan virus encephalitis", "Powassan virus infection"]}
+{"name": "Encefalita Rocio", "synonyms": ["boala virotica Rocio", "boala cu virusul Rocio", "encefalita cu virus Rocio", "Rocio virus disease", "Rocio encephalitis", "Rocio virus infection"]}
 {"name": "Encefalita rubeolica", "synonyms": ["encefalita postrubeolica", "complicatie neurologica a rubeolei", "encefalomielita rubeolica", "rubella encephalitis", "postrubella encephalitis", "rubella encephalomyelitis"]}
 {"name": "Encefalita rujeolasa", "synonyms": ["encefalita postrujeolasa", "encefalita morbiloasa", "encefalita dupa pojar", "measles encephalitis", "postmeasles encephalitis", "morbillous encephalitis"]}
 {"name": "Encefalita rusa de primavara-vara", "synonyms": ["encefalita de primavara-vara", "infectie cu virusul RSSE", "encefalita din Extremul Orient", "Russian spring-summer encephalitis", "spring-summer encephalitis", "Far Eastern tick-borne encephalitis"]}

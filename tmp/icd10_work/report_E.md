@@ -8,7 +8,7 @@
   - agent cauzal, nu boala: 1
 - găsite automat în dicționar (P4.1–P4.3): **78**
 - de decis manual (`nou` + `posibil`): **148**
-- **afecțiuni adăugate: 33**
+- **afecțiuni adăugate: 37**
 
 ## Decizii manuale
 
@@ -22,6 +22,7 @@
 - **Din `pending_by_letter.jsonl`:** `Enzimopatie eritrocitara` (D55) și `Efluviu anagen` (L65.1) — re-verificate (lookup, G6), adăugate.
 - **Amânate la altă literă** (`pending_from_E.jsonl`, 7): `Campilobacterioza` (C, A04.5 — lipsea complet), `Mielita` (M, G04 — există doar subtipurile), `Sindrom Maffucci` (S, Q78.4), `Anus ectopic` (A, Q43.5), `Agenezie esofagiana` (A, Q39.8), `Depresie recurenta de scurta durata` (D, F38.1), `Dinti natali` (D, K00.6).
 - **De urmărit la coordonare:** `Exantem de Boston` (A88.0) are titlul CIM-10 la F („Febra exantematoasa cu enterovirus”) — pasul F nu trebuie să-l mai adauge; la fel `Enterita necrozanta` (A05.2, titlul la I: „Intoxicatia alimentara prin Clostridium perfringens”) — dacă pasul I adaugă intoxicația alimentară, să nu preia sinonimele pigbel.
+- **Amânate de la alte litere, adăugate la unire (coordonator, 4):** `Encefalita Rocio` (A83.6; de la B); `Embriopatie cu talidomida` (Q86.83; de la M); `Embriopatie retinoica` (Q86.82; de la M); `Efluviu telogen` (L65.0; de la T). Verificate față de dicționarul unit al tuturor literelor (G3, G6).
 
 ## Adăugate
 
@@ -32,9 +33,13 @@
 | Ectopie renala incrucisata | Q63.22, Q63.23 | ectopia incrucisata a rinichiului; rinichi ectopic incrucisat; ectopie renala incrucisata cu fuziune; crossed renal ectopia; crossed ectopic kidney; crossed fused renal ectopia |
 | Edem laringian | J38.4 | edem al laringelui; edem glotic; edem al glotei; edema of larynx; laryngeal edema; glottic edema |
 | Efluviu anagen | L65.1 | caderea parului in faza anagen; alopecie anagena; efluviu anagenic; anagen effluvium; anagen hair loss; anagen alopecia |
+| Efluviu telogen | L65.0 | alopecie telogena; alopecie difuza telogena; caderea telogena a parului; telogen effluvium; telogen hair loss; diffuse telogen hair loss |
 | Elastoza perforanta serpiginoasa | L87.2 | boala Lutz-Miescher; elastom perforant Miescher; elastoza perforanta Lutz-Miescher; elastosis perforans serpiginosa; Lutz-Miescher disease; Miescher elastoma |
+| Embriopatie cu talidomida | Q86.83 | malformatii congenitale datorite talidomidei; sindrom talidomidic; embriopatie talidomidica; thalidomide embryopathy; thalidomide syndrome; fetal thalidomide syndrome |
+| Embriopatie retinoica | Q86.82 | malformatii congenitale datorite vitaminei A; embriopatie la izotretinoina; sindrom fetal la retinoizi; retinoic acid embryopathy; isotretinoin embryopathy; fetal retinoid syndrome |
 | Encefalita cu adenovirus | A85.1 | encefalita adenovirala; meningoencefalita cu adenovirus; meningoencefalita adenovirala; adenoviral encephalitis; adenovirus encephalitis; adenoviral meningoencephalitis |
 | Encefalita cu enterovirus | A85.0 | encefalita enterovirala; encefalomielita cu enterovirus; encefalomielita enterovirala; enteroviral encephalitis; enterovirus encephalitis; enteroviral encephalomyelitis |
+| Encefalita Rocio | A83.6 | boala virotica Rocio; boala cu virusul Rocio; encefalita cu virus Rocio; Rocio virus disease; Rocio encephalitis; Rocio virus infection |
 | Encefalita urliana | B26.2 | encefalita cu virus urlian; encefalita din oreion; encefalita parotiditica; mumps encephalitis; encephalitis due to mumps; mumps virus encephalitis |
 | Encefalopatie postradica | G93.8 | encefalopatia dupa radioterapie; encefalopatie radica; radionecroza cerebrala; radiation encephalopathy; radiation-induced encephalopathy; cerebral radiation necrosis |
 | Encondromatoza | Q78.4 | boala Ollier; encondromatoza multipla; discondroplazie; enchondromatosis; Ollier disease; dyschondroplasia |
