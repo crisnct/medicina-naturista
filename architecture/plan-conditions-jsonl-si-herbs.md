@@ -1,6 +1,6 @@
 # Plan: dicționarul de afecțiuni în JSONL și catalogul de plante medicinale `herbs.jsonl`
 
-**Stare:** E1 implementat (2026-10-05): conversia a trecut round-trip-ul (5469 de afecțiuni, 39.804 termeni), cele 8789 de fragmente sunt identice înainte și după, .txt-ul și `conditions_work/` sunt șterse. E2 implementat (2026-10-05): `backend/ai/herbs.py`, `HERBS_FILE`, `test_herbs.py`; copierea în `Dockerfile` s-a mutat în E4 (6.1). E3–E4 neîncepute.
+**Stare:** E1 implementat (2026-10-05): conversia a trecut round-trip-ul (5469 de afecțiuni, 39.804 termeni), cele 8789 de fragmente sunt identice înainte și după, .txt-ul și `conditions_work/` sunt șterse. E2 implementat (2026-10-05): `backend/ai/herbs.py`, `HERBS_FILE`, `test_herbs.py`; copierea în `Dockerfile` s-a mutat în E4 (6.1). E3 aprobat (2026-10-05): lista revizuită are 1210 specii (125 adăugate de proprietar). E4 implementat (2026-10-05): `data/herbs.jsonl` cu 1188 de specii (22 de dubluri unite), generat de `src/scripts/herbs_work/build_herbs.py`; 118 specii fără nume românesc au `ro` = numele latin (decizie), 79 au `en` gol (D10); raportul `tmp/herbs_review.md` e generat de `src/scripts/audit_herbs.py`. Scripturile one-off din `src/scripts/herbs_work/` rămân până la acceptarea finală a catalogului.
 
 **Scop:**
 
@@ -172,7 +172,7 @@ Planul are trei părți: **[Partea I — Decizii](#partea-i--decizii)**, **[Part
 
 ### 8. Etapa E4 — popularea câmpurilor și verificarea taxonomică
 
-- **8.1. Taxonomie.** Script `src/scripts/herbs_work/verify_taxonomy.py`; răspunsurile se păstrează în `tmp/herbs_taxonomy_cache.json`, ca rulările repetate să nu mai facă cereri. Se trimit doar numele speciilor. Surse, toate API-uri publice gratuite, fără cheie:
+- **8.1. Taxonomie.** Script `src/scripts/herbs_work/verify_taxonomy.py`; răspunsurile se păstrează în `tmp/herbs_work/gbif_cache.json`, ca rulările repetate să nu mai facă cereri. Se trimit doar numele speciilor. *La implementare (E3):* API-ul POWO e protejat de o verificare anti-bot Cloudflare, deci nu se folosește; numele acceptat vine din GBIF Backbone, iar prezența în România din setul **WCVP** (World Checklist of Vascular Plants, Kew), publicat în GBIF (`species/{key}/distributions`, `TDWG:ROM`), plus numărul de observații GBIF din România. Surse, toate API-uri publice gratuite, fără cheie:
   - **plante vasculare:** Plants of the World Online (Kew, POWO) — nume acceptat, familie, distribuție;
   - **ciuperci, licheni, mușchi, alge:** GBIF Backbone (care integrează Index Fungorum / MycoBank / AlgaeBase) — nume acceptat, familie;
   - dacă numele e sinonim, `latin` devine numele acceptat, iar cel vechi trece în `latin_synonyms`.

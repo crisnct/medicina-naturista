@@ -84,6 +84,7 @@ medicina-naturista/
 ├── data/
 │   ├── documents/                # corpusul Markdown local
 │   ├── medical_conditions.jsonl  # dicționarul de afecțiuni și sinonime
+│   ├── herbs.jsonl               # catalogul de plante medicinale (o specie pe linie)
 │   └── model_cache/              # modelul ONNX local; ignorat de Git
 ├── src/
 │   ├── backend/
