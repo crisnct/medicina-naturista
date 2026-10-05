@@ -8,7 +8,7 @@
   - agent cauzal, nu boala: 2
 - găsite automat în dicționar (P4.1–P4.3): **139**
 - de decis manual (`nou` + `posibil`): **280**
-- **afecțiuni adăugate: 93**
+- **afecțiuni adăugate: 105**
 
 ## Decizii manuale
 
@@ -22,6 +22,7 @@
 - **Amânate la altă literă** (`pending_from_P.jsonl`, 16 linii): C — `Ciuma meningeala`, `Ciuma cutanata`, `Canitie prematura`; T — `Tetraplegie`, `Travaliu prelungit`, `Tulburare dezintegrativa a copilariei`; F — `Fistula de lichid cefalorahidian`; S — `Silicotuberculoza`, `Sindrom Mendelson`; M — `Membrana esofagiana congenitala`, `Microlitiaza alveolara pulmonara`, `Monilethrix`; A — `Anemie von Jaksch`; E — `Enterita necrozanta` (pig-bel); B — `Boala Fazio-Londe`; N — `Nodulul mulgatorilor`.
 - **Din `pending_by_letter.jsonl`:** `Pseudalescherioza` (B48.2) re-verificată (nu există nimic cu *Pseudallescheria* / *Scedosporium boydii*; `Pneumonie cu Scedosporium` e doar forma pulmonară) și adăugată.
 - **Observații despre date existente (D6, neatinse):** `Pericardita reumatoida` are sinonimul „pericardita reumatismala cronica” (I09.2, reumatism ≠ artrită reumatoidă), iar `Papuloza limfomatoida` are „pitiriazis lichenoid si varioliform acut” (PLEVA, boala Mucha-Habermann acută, ≠ papuloza limfomatoidă) — de corectat la un pas ulterior.
+- **Amânate de la alte litere, adăugate la unire (coordonator, 12):** `Plaman de aer conditionat` (J67.7; de la B); `Police trifalangian` (Q74.03; de la D); `Pseudartroza` (M84.1; de la F); `Proctita cu Chlamydia` (A56.3; de la I); `Pielonefrita gravidica` (O23.0; de la I); `Paralizia nervului femural` (G57.2; de la L); `Politelie` (Q83.3; de la M); `Polimastie` (Q83.1; de la S); `Parafilie` (F65; de la T); `Personalitate impulsiva` (F60.30; de la T); `Papilom intraductal` (D24; de la T); `Papilom vezical` (D30.3; de la T). Verificate față de dicționarul unit al tuturor literelor (G3, G6).
 
 ## Adăugate
 
@@ -32,9 +33,13 @@
 | Pancreatita cronica alcoolica | K86.0 | pancreatita cronica provocata de alcool; pancreatita alcoolica; pancreatita cronica etanolica; alcohol-induced chronic pancreatitis; alcoholic chronic pancreatitis; alcoholic pancreatitis |
 | Pancreatita cu citomegalovirus | B25.2 | pancreatita cu cytomegalovirus; pancreatita citomegalovirala; pancreatita CMV; cytomegaloviral pancreatitis; CMV pancreatitis; cytomegalovirus pancreatitis |
 | Pancreatita urliana | B26.3 | pancreatita din oreion; pancreatita cu virus urlian; pancreatita urliana acuta; mumps pancreatitis; pancreatitis due to mumps; mumps virus pancreatitis |
+| Papilom intraductal | D24 | papilom intraductal mamar; papilom intracanalicular; papilom ductal mamar; intraductal papilloma; intraductal papilloma of breast; ductal papilloma |
+| Papilom vezical | D30.3 | papilom urotelial; papilom al vezicii urinare; tumora papilara vezicala benigna; bladder papilloma; urothelial papilloma; papilloma of bladder |
 | Papilomatoza reticulata si confluenta | L83 | papilomatoza confluenta si reticulata; sindrom Gougerot-Carteaud; papilomatoza Gougerot-Carteaud; confluent and reticulated papillomatosis; Gougerot-Carteaud syndrome; reticulated papillomatosis |
 | Paracoccidioidomikoza diseminata | B41.7 | paracoccidioidomicoza diseminata; paracoccidioidomicoza generalizata; blastomicoza sud-americana diseminata; disseminated paracoccidioidomycosis; generalized paracoccidioidomycosis; disseminated South American blastomycosis |
+| Parafilie | F65 | tulburari de preferinta sexuala; deviatie sexuala; perversiune sexuala; paraphilia; paraphilic disorder; sexual deviation |
 | Paralizia corzilor vocale | J38.0 | paralizia corzilor vocale si a laringelui; laringoplegie; paralizia glotei; paralysis of vocal cords and larynx; vocal cord paralysis; vocal fold paralysis; laryngeal paralysis |
+| Paralizia nervului femural | G57.2 | leziunea nervului femural; neuropatie femurala; mononeuropatie femurala; lesion of femoral nerve; femoral neuropathy; femoral nerve palsy; femoral mononeuropathy |
 | Paralizia nervului frenic | P14.2, J98.6 | paralizie frenica; paralizie diafragmatica; pareza de nerv frenic; phrenic nerve paralysis; phrenic nerve palsy; diaphragmatic paralysis |
 | Paralizie cerebrala | G80, G80.4, G80.8, G80.9 | paralizie cerebrala infantila; infirmitate motorie cerebrala; encefalopatie cronica infantila; cerebral palsy; infantile cerebral palsy; static encephalopathy of childhood |
 | Paralizie cerebrala diskinetica | G80.3 | paralizie cerebrala dischinetica; paralizie cerebrala atetozica; paralizie cerebrala distonica; dyskinetic cerebral palsy; athetoid cerebral palsy; dystonic cerebral palsy |
@@ -66,11 +71,13 @@
 | Perle Epstein | K09.8 | perlele lui Epstein; chisturi palatine ale nou-nascutului; chisturi de incluziune palatine; Epstein pearls; Epstein's pearls; palatal cysts of the newborn |
 | Pernite falangiene | M72.1 | pernita falangelor; noduli Garrod; pernite ale articulatiilor degetelor; knuckle pads; Garrod's nodes; Garrod's pads |
 | Persistenta venei cave superioare stangi | Q26.1 | vena cava superioara stanga persistenta; vena cava superioara stanga; dubla vena cava superioara; persistent left superior vena cava; left superior vena cava; double superior vena cava |
+| Personalitate impulsiva | F60.30 | tulburare de personalitate impulsiva; personalitate exploziva; personalitate agresiva; impulsive personality disorder; explosive personality disorder; aggressive personality disorder |
 | Picior calcaneovalg | Q66.4 | picior stramb calcaneovalgus; talus valgus congenital; picior talus valg; congenital talipes calcaneovalgus; talipes calcaneovalgus; calcaneovalgus foot |
 | Picior calcaneovar | Q66.1 | piciorul stramb calcaneovarus; talus varus congenital; picior talus var; congenital talipes calcaneovarus; talipes calcaneovarus; calcaneovarus foot |
 | Piedra alba | B36.2 | tinea alba; piedra cu Trichosporon; noduli albi ai firului de par; white piedra; trichosporosis nodosa; Trichosporon hair infection |
 | Piedra neagra | B36.3 | piedra nigra; piedra cu Piedraia hortae; noduli negri ai firului de par; black piedra; Piedraia hortae infection; black piedra of the hair |
 | Piele romboidala a cefei | L57.2 | piele romboidala; ceafa romboidala; ceafa de fermier; cutis rhomboidalis nuchae; farmer's neck; sailor's neck |
+| Pielonefrita gravidica | O23.0 | infectie renala in sarcina; pielonefrita de sarcina; pielonefrita in sarcina; infections of kidney in pregnancy; pyelonephritis in pregnancy; gestational pyelonephritis |
 | Pieloureterita chistica | N28.8 | pielita chistica; ureterita chistica; pieloureterita cistica; pyeloureteritis cystica; pyelitis cystica; ureteritis cystica |
 | Pileflebita | K75.1 | flebita venei porte; tromboflebita septica a venei porte; pileflebita supurativa; phlebitis of portal vein; pylephlebitis; septic thrombophlebitis of the portal vein |
 | Pili annulati | Q84.1 | pili inelati; par inelat; par in benzi; ringed hair; banded hair; pili annulati syndrome |
@@ -79,6 +86,7 @@
 | Pitiriazis rubra pilaris | L44.0 | pitiriazis rubra pilar; boala Devergie; pitiriazis pilar rosu; pityriasis rubra pilaris; Devergie's disease; lichen ruber acuminatus |
 | Placenta circumvalata | O43.1 | placentatie circumvalata; placenta extracoriala circumvalata; placenta cu inel marginal ingrosat; circumvallate placenta; placenta circumvallata; circumvallate placentation |
 | Plaman chistic congenital | Q33.0 | pulmon chistic congenital; boala chistica congenitala a plamanului; plaman polichistic congenital; congenital cystic lung; congenital cystic lung disease; congenital polycystic lung |
+| Plaman de aer conditionat | J67.7 | boala pulmonara prin aer conditionat; plaman de umidificator; pneumonita de hipersensibilitate la umidificator; air conditioner and humidifier lung; humidifier lung; air conditioner lung |
 | Plaman de scoarta de artar | J67.6 | pulmonul decojitorilor de artar; criptostromoza; alveolita cu Cryptostroma corticale; maple-bark-stripper's lung; maple bark disease; cryptostromosis |
 | Platibazie | Q75.89 | platibazia; aplatizarea bazei craniului; baza craniului plata; platybasia; flattening of the skull base; flat skull base |
 | Pneumonie cu streptococ de grup B | J15.3 | pneumonia datorita streptococilor grupa B; pneumonie cu Streptococcus agalactiae; pneumonie streptococica de grup B; pneumonia due to streptococcus group B; group B streptococcal pneumonia; Streptococcus agalactiae pneumonia |
@@ -87,6 +95,8 @@
 | Pneumonie rujeolica | B05.2 | rujeola complicata cu pneumonie; pneumonie postmorbilioasa; pneumonie cu virus rujeolic; measles complicated by pneumonia; measles pneumonia; measles virus pneumonia |
 | Pneumonie variceloasa | B01.2 | pneumonita variceloasa; pneumonie cu virus varicela-zoster; pneumonie din varicela; varicella pneumonia; chickenpox pneumonia; varicella-zoster virus pneumonia |
 | Poikiloderma Civatte | L57.3 | poikilodermia Civatte; poikilodermie Civatte; poikilodermie laterocervicala; poikiloderma of Civatte; Civatte poikiloderma; reticulated pigmented poikiloderma |
+| Police trifalangian | Q74.03 | deget mare de la mana trifalangian; police cu trei falange; trifalangism al policelui; triphalangeal thumb; three-phalanged thumb; triphalangism of the thumb |
+| Polimastie | Q83.1 | san accesoriu; san supranumerar; glanda mamara accesorie; accessory breast; polymastia; supernumerary breast |
 | Poliorhidie | Q55.29 | poliorhism; testicul supranumerar; testicule supranumerare; polyorchidism; polyorchism; supernumerary testis |
 | Polip anal | K62.0 | polip al canalului anal; polip fibroepitelial anal; polip de anus; anal polyp; anal canal polyp; fibroepithelial anal polyp |
 | Polip hiperplazic | K63.58 | polip hiperplastic; polip metaplazic; polip hiperplazic colonic; hyperplastic polyp; metaplastic polyp; hyperplastic colonic polyp |
@@ -97,7 +107,9 @@
 | Polip vaginal | N84.2 | polip al vaginului; polip fibroepitelial vaginal; polip stromal vaginal; polyp of vagina; vaginal polyp; fibroepithelial polyp of vagina |
 | Polip vulvar | N84.3 | polip al vulvei; polip al labiilor; polip fibroepitelial vulvar; polyp of vulva; vulvar polyp; labial polyp |
 | Polisindactilie | Q70.4 | polisindactilia; sinpolidactilie; polidactilie cu sindactilie; polysyndactyly; synpolydactyly; polydactyly with syndactyly |
+| Politelie | Q83.3 | mamelon accesoriu; mamelon supranumerar; sfarc supranumerar; accessory nipple; polythelia; supernumerary nipple |
 | Porocefaloza | B88.8 | porocefaliaza; pentastomiaza; infestatie cu Porocephalus; porocephaliasis; porocephalosis; pentastomiasis |
+| Proctita cu Chlamydia | A56.3 | infectia anusului si rectului cu Chlamydia; infectie anorectala cu Chlamydia; proctita chlamidiana; chlamydial infection of anus and rectum; chlamydial proctitis; anorectal chlamydial infection |
 | Proctita radica | K62.7 | proctita datorita iradierii; proctita actinica; rectita radica; radiation proctitis; radiation proctopathy; actinic proctitis |
 | Prolaps de vitros | H43.0 | prolaps al corpului vitros; hernie de vitros; prolaps vitreean; vitreous prolapse; vitreous herniation; prolapse of vitreous body |
 | Prolaps genital feminin | N81 | prolaps genital; prolaps al organelor pelvine; prolaps al organelor genitale feminine; female genital prolapse; pelvic organ prolapse; genital prolapse |
@@ -110,6 +122,7 @@
 | Prurit scrotal | L29.1 | mancarime scrotala; prurit al scrotului; prurit scrotal cronic; pruritus scroti; scrotal pruritus; scrotal itching |
 | Prurit vulvar | L29.2 | mancarime vulvara; prurit al vulvei; prurit vulvar cronic; pruritus vulvae; vulvar pruritus; vulval itching |
 | Pseudalescherioza | B48.2 | alescherioza; infectie cu Pseudallescheria boydii; infectie cu Scedosporium boydii; allescheriasis; pseudallescheriasis; Pseudallescheria boydii infection |
+| Pseudartroza | M84.1 | fractura neconsolidata; neconsolidarea fracturii; pseudoartroza; nonunion of fracture; pseudarthrosis; fracture nonunion |
 | Pseudartroza congenitala a claviculei | Q74.09 | pseudoartroza congenitala a claviculei; pseudartroza claviculara congenitala; pseudoartroza claviculara congenitala; congenital pseudarthrosis of the clavicle; congenital clavicular pseudarthrosis; congenital pseudoarthrosis of clavicle |
 | Pseudofoliculita barbii | L73.1 | pseudo-foliculita barbii; foliculita de ras; fire de par incarnate ale barbii; pseudofolliculitis barbae; razor bumps; shaving bumps |
 | Pseudopapiledem | H47.3 | pseudoedem papilar; fals edem papilar; pseudoedem de papila optica; pseudopapilledema; optic disc pseudoedema; pseudopapilloedema |

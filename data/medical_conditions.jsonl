@@ -3791,7 +3791,9 @@
 {"name": "Papilita anala", "synonyms": ["inflamatia papilei anale", "hipertrofie de papila anala", "papila anala hipertrofica", "anal papillitis", "hypertrophied anal papilla", "inflamed anal papilla"]}
 {"name": "Papilom", "synonyms": ["tumora papilara benigna", "papilomatoza verucoasa", "neoplasm papilar benign", "papilloma", "benign papillary tumor", "papillary neoplasm"]}
 {"name": "Papilom conjunctival", "synonyms": ["papilom al conjunctivei", "papiloame conjunctivale", "neoplasm benign conjunctival", "conjunctival papilloma", "squamous papilloma of the conjunctiva", "benign conjunctival tumor"]}
+{"name": "Papilom intraductal", "synonyms": ["papilom intraductal mamar", "papilom intracanalicular", "papilom ductal mamar", "intraductal papilloma", "intraductal papilloma of breast", "ductal papilloma"]}
 {"name": "Papilom palpebral", "synonyms": ["papilom al pleoapei", "papilom scuamos palpebral", "veruca palpebrala", "eyelid papilloma", "squamous papilloma of the eyelid", "eyelid wart"]}
+{"name": "Papilom vezical", "synonyms": ["papilom urotelial", "papilom al vezicii urinare", "tumora papilara vezicala benigna", "bladder papilloma", "urothelial papilloma", "papilloma of bladder"]}
 {"name": "Papilomatoza", "synonyms": ["papilomatoza multipla", "papilomatoza difuza", "papiloame multiple", "papillomatosis", "diffuse papillomatosis", "multiple papillomas"]}
 {"name": "Papilomatoza inversata", "synonyms": ["papilom inversat", "papilomatoza inversata sinonazala", "papilom schneiderian inversat", "inverted papilloma", "inverted papilloma of the nose", "inverted Schneiderian papilloma"]}
 {"name": "Papilomatoza laringiana", "synonyms": ["papilomatoza laringiana juvenila", "papilomatoza respiratorie recidivanta", "papilomatoza a cailor aeriene", "laryngeal papillomatosis", "juvenile laryngeal papillomatosis", "recurrent respiratory papillomatosis"]}
@@ -3801,6 +3803,7 @@
 {"name": "Paracoccidioidomikoza diseminata", "synonyms": ["paracoccidioidomicoza diseminata", "paracoccidioidomicoza generalizata", "blastomicoza sud-americana diseminata", "disseminated paracoccidioidomycosis", "generalized paracoccidioidomycosis", "disseminated South American blastomycosis"]}
 {"name": "Paracoccidioidomikoza pulmonara", "synonyms": ["paracoccidioidomikoza pulmonara de reactivare", "pneumopatie paracoccidioidica cronica", "paracoccidioidomikoza pulmonara de tip cronic", "chronic paracoccidioidomycosis of the lung", "pulmonary paracoccidioidomycosis of chronic type", "chronic paracoccidioidal lung disease"]}
 {"name": "Paracuzie", "synonyms": ["perceptie falsa a sunetelor", "distorsiune paracuzica", "auzire alterata a sunetelor", "paracusis", "paracusia", "false perception of sound"]}
+{"name": "Parafilie", "synonyms": ["tulburari de preferinta sexuala", "deviatie sexuala", "perversiune sexuala", "paraphilia", "paraphilic disorder", "sexual deviation"]}
 {"name": "Parafimoza", "synonyms": ["parafimoza acuta", "strangulare a glandului", "preput retractat strangulat", "paraphimosis", "strangulated foreskin", "incarcerated foreskin"]}
 {"name": "Paragangliom", "synonyms": ["tumora a paraganglionilor", "chemodectom", "tumora glomica", "paraganglioma", "chemodectoma", "glomus tumor", "tumora paraganglionara", "paragangliom secretant", "paragangliom extraadrenal", "extra-adrenal pheochromocytoma", "paraganglionic tumor"]}
 {"name": "Paragangliom malign", "synonyms": ["paragangliom metastatic", "feocromocitom extraadrenal malign", "tumora maligna a paraganglionilor", "malignant paraganglioma", "metastatic paraganglioma", "malignant extra-adrenal paraganglioma"]}
@@ -3810,6 +3813,7 @@
 {"name": "Paralizia de acomodatie", "synonyms": ["paralizie a acomodatiei", "cicloplegie", "insuficienta de acomodatie", "paralysis of accommodation", "cycloplegia", "accommodation paralysis"]}
 {"name": "Paralizia nervului abducens", "synonyms": ["paralizia nervului cranian VI", "pareza abducens", "oftalmoplegie abducens", "abducens nerve palsy", "sixth cranial nerve palsy", "abducens palsy", "pareza nervului abducens", "sixth nerve palsy", "cranial nerve VI palsy"]}
 {"name": "Paralizia nervului axilar", "synonyms": ["paralizie axilara", "neuropatie axilara", "paralizie de nerv circumflex", "axillary nerve palsy", "axillary neuropathy", "circumflex nerve palsy"]}
+{"name": "Paralizia nervului femural", "synonyms": ["leziunea nervului femural", "neuropatie femurala", "mononeuropatie femurala", "lesion of femoral nerve", "femoral neuropathy", "femoral nerve palsy", "femoral mononeuropathy"]}
 {"name": "Paralizia nervului frenic", "synonyms": ["paralizie frenica", "paralizie diafragmatica", "pareza de nerv frenic", "phrenic nerve paralysis", "phrenic nerve palsy", "diaphragmatic paralysis"]}
 {"name": "Paralizia nervului glosofaringian", "synonyms": ["paralizia nervului cranian IX", "pareza glosofaringiana", "glosofaringoplegie", "glossopharyngeal nerve palsy", "ninth cranial nerve palsy", "glossopharyngeal palsy"]}
 {"name": "Paralizia nervului hipoglos", "synonyms": ["paralizia nervului cranian XII", "pareza hipoglosa", "hipoglosoplegie", "hypoglossal nerve palsy", "twelfth cranial nerve palsy", "hypoglossal palsy"]}
@@ -3932,6 +3936,7 @@
 {"name": "Personalitate evitanta", "synonyms": ["tulburare de personalitate evitanta", "personalitate de tip evitant", "personalitate anxioasa de evitare", "avoidant personality disorder", "avoidant personality", "anxious avoidant personality"]}
 {"name": "Personalitate histrionica", "synonyms": ["tulburare de personalitate histrionica", "personalitate de tip histrionic", "personalitate dramatica", "histrionic personality disorder", "histrionic personality", "dramatic personality disorder"]}
 {"name": "Personalitate imatura", "synonyms": ["tulburare de personalitate imatura", "personalitate infantila", "imaturitate afectiva", "immature personality disorder", "immature personality", "infantile personality"]}
+{"name": "Personalitate impulsiva", "synonyms": ["tulburare de personalitate impulsiva", "personalitate exploziva", "personalitate agresiva", "impulsive personality disorder", "explosive personality disorder", "aggressive personality disorder"]}
 {"name": "Personalitate masochista", "synonyms": ["tulburare de personalitate masochista", "personalitate de tip masochist", "masochism psihic", "masochistic personality disorder", "self-defeating personality disorder", "masochistic personality"]}
 {"name": "Personalitate narcisica", "synonyms": ["tulburare de personalitate narcisica", "personalitate de tip narcisic", "narcisism patologic", "narcissistic personality disorder", "narcissistic personality", "pathological narcissism"]}
 {"name": "Personalitate obsesiv-compulsiva", "synonyms": ["tulburare obsesiv-compulsiva de personalitate", "personalitate anancasta", "personalitate perfectionista", "obsessive-compulsive personality disorder", "anancastic personality disorder", "obsessive-compulsive personality"]}
@@ -3960,6 +3965,7 @@
 {"name": "Piele uscata", "synonyms": ["xeroza cutanata", "uscaciune a pielii", "deshidratare cutanata", "dry skin", "xerosis", "skin dryness"]}
 {"name": "Pielita", "synonyms": ["infectie a bazinetului renal", "pielita bacteriana", "inflamatie a pelvisului renal", "pyelitis", "bacterial pyelitis", "infection of the renal pelvis"]}
 {"name": "Pielonefrita", "synonyms": ["rinichi bolnav", "Pielonefrita cronica", "infectie la rinichi", "infectie a rinichiului", "pielonefrita acuta", "inflamatia bazinetului renal", "pyelonephritis", "kidney infection", "renal infection", "infectie renala cronica", "pielonefrita recidivanta", "nefrita interstitiala bacteriana cronica", "chronic pyelonephritis", "recurrent pyelonephritis", "chronic kidney infection"]}
+{"name": "Pielonefrita gravidica", "synonyms": ["infectie renala in sarcina", "pielonefrita de sarcina", "pielonefrita in sarcina", "infections of kidney in pregnancy", "pyelonephritis in pregnancy", "gestational pyelonephritis"]}
 {"name": "Pielonefrita xantogranulomatoasa", "synonyms": ["pielonefrita cu celule spumoase", "nefrita xantogranulomatoasa", "XGP", "xanthogranulomatous pyelonephritis", "xanthogranulomatous kidney infection", "xanthogranulomatous renal inflammation"]}
 {"name": "Pieloureterita chistica", "synonyms": ["pielita chistica", "ureterita chistica", "pieloureterita cistica", "pyeloureteritis cystica", "pyelitis cystica", "ureteritis cystica"]}
 {"name": "Pierderea memoriei", "synonyms": ["probleme de memorie", "uitare", "tulburari de memorie", "memory loss", "forgetfulness", "amnesia"]}
@@ -3990,6 +3996,7 @@
 {"name": "Placenta praevia", "synonyms": ["insertie joasa a placentei", "placenta inserata jos", "placenta cu insertie joasa", "low-lying placenta", "placenta previa", "placental presentation"]}
 {"name": "Plagiocefalie", "synonyms": ["sinostoza unilaterala de coronala", "craniu asimetric", "asimetrie craniana prin sinostoza", "plagiocephaly", "unicoronal craniosynostosis", "asymmetric skull"]}
 {"name": "Plaman chistic congenital", "synonyms": ["pulmon chistic congenital", "boala chistica congenitala a plamanului", "plaman polichistic congenital", "congenital cystic lung", "congenital cystic lung disease", "congenital polycystic lung"]}
+{"name": "Plaman de aer conditionat", "synonyms": ["boala pulmonara prin aer conditionat", "plaman de umidificator", "pneumonita de hipersensibilitate la umidificator", "air conditioner and humidifier lung", "humidifier lung", "air conditioner lung"]}
 {"name": "Plaman de baie", "synonyms": ["pneumonita de cada cu hidromasaj", "plaman de aerosoli", "pneumonita de hipersensibilitate din cada", "hot tub lung", "whirlpool lung", "hot tub hypersensitivity pneumonitis"]}
 {"name": "Plaman de branza", "synonyms": ["pneumonita de branza", "plaman de maturare a branzei", "pneumonita de hipersensibilitate la branza", "cheese washer's lung", "cheese worker's lung", "cheese mould lung"]}
 {"name": "Plaman de bumbac", "synonyms": ["bissinoza", "boala luni de bumbac", "pneumonita de bumbac", "byssinosis", "cotton worker's lung", "brown lung disease"]}
@@ -4193,6 +4200,7 @@
 {"name": "Pojar", "synonyms": ["rujeola", "pojarul", "morbili", "measles", "morbilli", "red measles"]}
 {"name": "Poliangiita microscopica", "synonyms": ["vasculita microscopica sistemica", "angita microscopica", "microangita sistemica", "microscopic polyangiitis", "microscopic polyarteritis", "MPA"]}
 {"name": "Poliarterita nodoza", "synonyms": ["panarterita nodoza", "poliarterita nodoasa", "boala Kussmaul-Maier", "polyarteritis nodosa", "periarteritis nodosa", "PAN", "Poliarterita nodoza cutanata", "vasculita necrozanta sistemica", "necrotizing systemic vasculitis"]}
+{"name": "Police trifalangian", "synonyms": ["deget mare de la mana trifalangian", "police cu trei falange", "trifalangism al policelui", "triphalangeal thumb", "three-phalanged thumb", "triphalangism of the thumb"]}
 {"name": "Policitemia vera", "synonyms": ["boala Vaquez", "policitemie primara", "eritremie", "polycythemia vera", "Vaquez disease", "primary polycythemia", "Policitemie vera", "policitemia rubra vera", "polycythaemia rubra vera"]}
 {"name": "Policitemie", "synonyms": ["policitemie absoluta", "cresterea masei eritrocitare", "hemoconcentratie", "polycythemia", "polycythaemia", "raised red cell mass"]}
 {"name": "Policitemie neonatala", "synonyms": ["policitemia nou-nascutului", "hematocrit crescut la nou-nascut", "policitemie a nou-nascutului", "neonatal polycythemia", "polycythemia of the newborn", "neonatal erythrocytosis"]}
@@ -4201,6 +4209,7 @@
 {"name": "Policorie", "synonyms": ["policoria", "pupile multiple", "mai multe orificii pupilare", "polycoria", "multiple pupils", "multiple pupillary openings"]}
 {"name": "Polidactilie", "synonyms": ["degete in plus", "degete supranumerare", "polidactilia", "polydactyly", "supernumerary digits", "extra digits", "extra fingers"]}
 {"name": "Polihidramnios", "synonyms": ["hidramnios", "exces de lichid amniotic", "volum crescut de lichid amniotic", "polyhydramnios", "hydramnios", "excess amniotic fluid"]}
+{"name": "Polimastie", "synonyms": ["san accesoriu", "san supranumerar", "glanda mamara accesorie", "accessory breast", "polymastia", "supernumerary breast"]}
 {"name": "Polimenoree", "synonyms": ["menstruatii frecvente", "cicluri menstruale scurte", "menstruatii la interval scurt", "polymenorrhea", "frequent periods", "short menstrual cycles"]}
 {"name": "Polimialgia reumatica", "synonyms": ["polimialgie reumatica", "pseudopoliartrita rizomelica", "sindrom polimialgic", "polymyalgia rheumatica", "PMR", "rheumatic polymyalgia"]}
 {"name": "Polimicrogirie", "synonyms": ["polimicrogiria", "polimicrogyrie", "polimicrogirie focala", "polymicrogyria", "PMG", "cortical malformation with multiple small gyri"]}
@@ -4238,6 +4247,7 @@
 {"name": "Polipoza nazala cu astm", "synonyms": ["sindrom de polipoza nazala si astm", "triada Samter", "boala respiratorie exacerbata de aspirina", "nasal polyposis with asthma", "Samter triad", "aspirin-exacerbated respiratory disease"]}
 {"name": "Poliradiculonevrita", "synonyms": ["poliradiculonevrita acuta", "sindrom Guillain-Barre", "poliradiculonevrita idiopatica acuta", "Guillain-Barre syndrome", "acute inflammatory demyelinating polyradiculoneuropathy", "AIDP"]}
 {"name": "Polisindactilie", "synonyms": ["polisindactilia", "sinpolidactilie", "polidactilie cu sindactilie", "polysyndactyly", "synpolydactyly", "polydactyly with syndactyly"]}
+{"name": "Politelie", "synonyms": ["mamelon accesoriu", "mamelon supranumerar", "sfarc supranumerar", "accessory nipple", "polythelia", "supernumerary nipple"]}
 {"name": "Porencefalie", "synonyms": ["porencefalie congenitala", "porencefalie dobandita", "porencefalie chistica", "porencephaly", "encephaloclastic porencephaly", "cerebral porus"]}
 {"name": "Porfirie cutanea tarzie", "synonyms": ["porfirie cutanea tardiva", "deficit de uroporfirinogen decarboxilaza", "porfirie cutanea simptomatica", "porphyria cutanea tarda", "PCT", "uroporphyrinogen decarboxylase deficiency"]}
 {"name": "Porfirie cutanea tarzie familiala", "synonyms": ["porfirie cutanea tarzie mostenita", "porfirie cutanea tarzie tip II", "PCT familiala", "familial porphyria cutanea tarda", "hereditary porphyria cutanea tarda", "type II porphyria cutanea tarda"]}
@@ -4260,6 +4270,7 @@
 {"name": "Proboscida", "synonyms": ["trompa nazala accesorie", "nas tubular congenital", "apendice nazal tubular", "proboscis", "congenital tubular nose", "accessory nose"]}
 {"name": "Proctalgie fugace", "synonyms": ["proctalgia fugax", "spasm rectal dureros", "durere anorectala paroxistica", "paroxysmal anorectal pain", "levator ani syndrome", "pain anorectala paroxistica"]}
 {"name": "Proctita", "synonyms": ["inflamatia rectului", "proctita cronica", "inflamatie rectala", "proctitis", "rectal inflammation", "inflammation of the rectum"]}
+{"name": "Proctita cu Chlamydia", "synonyms": ["infectia anusului si rectului cu Chlamydia", "infectie anorectala cu Chlamydia", "proctita chlamidiana", "chlamydial infection of anus and rectum", "chlamydial proctitis", "anorectal chlamydial infection"]}
 {"name": "Proctita gonococica", "synonyms": ["gonoree anorectala", "infectie gonococica rectala", "proctita cu gonococ", "gonococcal proctitis", "gonococcal anorectal infection", "gonorrheal proctitis"]}
 {"name": "Proctita radica", "synonyms": ["proctita datorita iradierii", "proctita actinica", "rectita radica", "radiation proctitis", "radiation proctopathy", "actinic proctitis"]}
 {"name": "Proctita ulcerativa", "synonyms": ["proctita cu ulceratii", "colita ulcerativa distala rectala", "rectita ulcerativa", "ulcerative proctitis", "ulcerative proctitis of the rectum", "distal ulcerative proctitis"]}
@@ -4297,6 +4308,7 @@
 {"name": "Prurit scrotal", "synonyms": ["mancarime scrotala", "prurit al scrotului", "prurit scrotal cronic", "pruritus scroti", "scrotal pruritus", "scrotal itching"]}
 {"name": "Prurit vulvar", "synonyms": ["mancarime vulvara", "prurit al vulvei", "prurit vulvar cronic", "pruritus vulvae", "vulvar pruritus", "vulval itching"]}
 {"name": "Pseudalescherioza", "synonyms": ["alescherioza", "infectie cu Pseudallescheria boydii", "infectie cu Scedosporium boydii", "allescheriasis", "pseudallescheriasis", "Pseudallescheria boydii infection"]}
+{"name": "Pseudartroza", "synonyms": ["fractura neconsolidata", "neconsolidarea fracturii", "pseudoartroza", "nonunion of fracture", "pseudarthrosis", "fracture nonunion"]}
 {"name": "Pseudartroza congenitala a claviculei", "synonyms": ["pseudoartroza congenitala a claviculei", "pseudartroza claviculara congenitala", "pseudoartroza claviculara congenitala", "congenital pseudarthrosis of the clavicle", "congenital clavicular pseudarthrosis", "congenital pseudoarthrosis of clavicle"]}
 {"name": "Pseudoanevrism", "synonyms": ["anevrism fals", "pseudoanevrism arterial", "anevrism fals vascular", "pseudoaneurysm", "false aneurysm", "arterial false aneurysm"]}
 {"name": "Pseudodementa", "synonyms": ["pseudodementa depresiva", "dementa simulata prin depresie", "tablou pseudodemential", "pseudodementia", "depressive pseudodementia", "reversible dementia-like state"]}
