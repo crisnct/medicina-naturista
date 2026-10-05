@@ -223,12 +223,25 @@ class ContentRulesTests(unittest.TestCase):
                 self.assertTrue(LATIN.fullmatch(latin))
 
 
-@unittest.skipUnless(herbs.settings.herbs_file.exists(), "data/herbs.jsonl is created in stage E4 of the plan")
+# Species in data/herbs.jsonl when it was delivered; the catalogue may grow, never
+# shrink by accident.
+DELIVERED_SPECIES = 1188
+
+
 class ShippedCatalogueTests(unittest.TestCase):
     def test_shipped_catalogue_follows_every_rule(self):
         text = herbs.settings.herbs_file.read_text(encoding="utf-8")
 
         self.assertEqual(content_problems(text), [])
+
+    def test_shipped_catalogue_is_complete(self):
+        catalog = herbs.load_herbs()
+
+        self.assertGreaterEqual(len(catalog.herbs), DELIVERED_SPECIES)
+        # a shared Romanian name finds every species that carries it
+        found = [herb.id for herb in catalog.lookup("paducel")]
+        self.assertIn("crataegus-monogyna", found)
+        self.assertIn("crataegus-laevigata", found)
 
 
 if __name__ == "__main__":
