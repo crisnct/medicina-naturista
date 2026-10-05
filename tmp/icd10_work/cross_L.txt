@@ -1,0 +1,70 @@
+? A36.2   Laringo-traheita difterica   [titlu: Difteria laringiana]  <Laryngeal diphtheria>  ~ Difterie laringiana | Faringita cu Corynebacterium
+? A59.0   Leucoreea (vaginala) datorita Trichomonas (vaginalis)   [titlu: Trichomoniaza uro-genitala]  <Urogenital trichomoniasis>  ~ 
+? A66.7   Leziuni mucoase pianice   [titlu: Alte manifestari ale pianului]  <Other manifestations of yaws>  ~ 
+? A81.1   Leucoencefalopatia sclerozanta Van Bogaert   [titlu: Panencefalita sclerozanta subacuta]  <Subacute sclerosing panencephalitis>  ~ Xantomatosis cerebrotendinoza
+? B88.8   Linguatuloza   [titlu: Alte infestatii specificate]  <Other specified infestations>  ~ 
+? B97.3   Lentivirus   [titlu: Retrovirusi, cauza unor boli clasificate la alte capitole]  <Retrovirus as the cause of diseases classified elsewhere>  ~ 
+? C00.2   Limita dintre mucoasa bucala si piele   [titlu: Buza, marginea libera, nepsecificata]  <Malignant neoplasm of external lip, unspecified>  ~ 
+? C32.0   Laringele intrinsec   [titlu: Glota]  <Malignant neoplasm of glottis>  ~ 
+? C32.1   Laringele extrinsec   [titlu: Supraglota]  <Malignant neoplasm of supraglottis>  ~ 
+? C57.3   Ligament uterin   [titlu: Parametru]  <Malignant neoplasm of parametrium>  ~ 
+? C76.3   Localizari care depasesc sistemele   [titlu: Pelvis]  <Malignant neoplasm of pelvis>  ~ 
+? C88.3   Limfomul mediteranean   [titlu: Boala imunoproliferativa a intestinului subtire]  <Immunoproliferative small intestinal disease>  ~ 
+? C91.7   Leucemia cu celule de limfosarcom   [titlu: Alte leucemii limfoide]  <>  ~ 
+? D28.2   Ligamentul uterin (larg) (rotund)   [titlu: Trompele uterine si ligamentele]  <Benign neoplasm of uterine tubes and ligaments>  ~ 
+? D48.9   L ista Tabelară a Bolilor RoDRG   [titlu: Tumora cu evolutie imprevizibila si necunoscuta, nespecificata]  <Neoplasm of uncertain behavior, unspecified>  ~ 
+? D52.9   L ista Tabelară a Bolilor RoDRG   [titlu: Anemia prin carenta de acid folic, nespecificata]  <Folate deficiency anemia, unspecified>  ~ 
+? D57.8   L ista Tabelară a Bolilor RoDRG   [titlu: Alte afectiuni cu hematii falciforme [drepanocitare]]  <Other sickle-cell disorders>  ~ 
+? D61     L ista Tabelară a Bolilor RoDRG   [titlu: Alte anemii aplazice]  <Other aplastic anemias and other bone marrow failure syndromes>  ~ 
+? D66     L ista Tabelară a Bolilor RoDRG   [titlu: Carenta ereditara prin lipsa factorului VIII]  <Hereditary factor VIII deficiency>  ~ 
+? D69.0   L ista Tabelară a Bolilor RoDRG   [titlu: Purpura alergica]  <Allergic purpura>  ~ 
+? D73.2   L ista Tabelară a Bolilor RoDRG   [titlu: Splenomegalia congestiva cronica]  <Chronic congestive splenomegaly>  ~ 
+? D76.0   L ista Tabelară a Bolilor RoDRG   [titlu: Histiocitoza celulelor Langerhans, neclasificata altundeva]  <>  ~ 
+? D82.3   L ista Tabelară a Bolilor RoDRG   [titlu: Imuno-deficienta ca urmare a raspunsului defectiv ereditar la infectia cu virusul Epstein-Barr]  <Immunodeficiency following hereditary defective response to Epstein-Barr virus>  ~ 
+? E16.9   Langerhans   [titlu: Tulburari ale secretiei interne pancreatice, nespecificate]  <Disorder of pancreatic internal secretion, unspecified>  ~ 
+? F80.3   Landau-Kleffner   [titlu: Afazie dobindita cu epilepsie [Landau-Kleffner]]  <>  ~ Sindrom Landau-Kleffner
+? F98.6   limbaj precipitat   [titlu: Bolborosirea [limbaj precipitat]]  <>  ~ 
+? G31.8   Leigh]   [titlu: Alte afectiuni degenerative specificate ale sistemului nervos]  <Other specified degenerative diseases of nervous system>  ~ Sindrom Leigh
+? H18.0   Linia Staehli   [titlu: Pigmentatia si depunerea corneeana]  <Corneal pigmentations and deposits>  ~ 
+? H44.8   Luxatia globului ocular   [titlu: Alte afectiuni ale globului ocular]  <Other disorders of globe>  ~ Enoftalmie
+? H50.6   Limitare traumatica a miscarilor muschilor oculari   [titlu: Strabism mecanic]  <Mechanical strabismus>  ~ 
+? H53.4   Largirea petei oarbe   [titlu: Anomalia campului vizual]  <Visual field defects>  ~ 
+? I98.1   Leziuni cardiovasculare ale pinta [carate]   [titlu: Afectiuni cardiovasculare in alte boli infectioase si parazitare clasificate altundeva]  <>  ~ 
+? J38.0   Laringoplegia   [titlu: Paralizia corzilor vocale si a laringelui]  <Paralysis of vocal cords and larynx>  ~ 
+? J38.3   Leucocheratoza corzii(lor) vocale   [titlu: Alte boli ale corzilor vocale]  <Other diseases of vocal cords>  ~ 
+? J38.3   Leucoplazia corzii(lor) vocale   [titlu: Alte boli ale corzilor vocale]  <Other diseases of vocal cords>  ~ 
+? J38.5   Laringism (stridulos)   [titlu: Spasm laringian]  <Laryngeal spasm>  ~ Crup
+? J98.4   Litiaza pulmonara   [titlu: Alte modificari pulmonare]  <Other disorders of lung>  ~ Pneumoconioza de perlit | Pneumonie cu Giardia | Talkoza
+? K02.0   Leziuni cu pete albe [caria incipienta]   [titlu: Caria limitata la smalt]  <>  ~ Vitiligo
+? K11.5   Litiaza glandelor salivare sau canalului salivar   [titlu: Sialolitiaza]  <Sialolithiasis>  ~ Sialolitoza
+? K11.8   Leziune limfoepiteliala benigna a glandelor salivare   [titlu: Alte boli ale glandelor salivare]  <Other diseases of salivary glands>  ~ 
+? K14.3   Limba neagra paroasa   [titlu: Hipertrofia papilelor linguale]  <Hypertrophy of tongue papillae>  ~ 
+? K14.3   Limba incarcata   [titlu: Hipertrofia papilelor linguale]  <Hypertrophy of tongue papillae>  ~ 
+? K14.3   Limba neagra viloasa   [titlu: Hipertrofia papilelor linguale]  <Hypertrophy of tongue papillae>  ~ 
+? L03.11  Laba piciorului   [titlu: Celulita membrului inferior]  <Cellulitis of other parts of limb>  ~ 
+? L30.9   Leziuni papulo-scuamoase   [titlu: Dermatita, nespecificata]  <Dermatitis, unspecified>  ~ 
+? L51.2   Lyell   [titlu: Necroliza epidermica toxica [Lyell]]  <Toxic epidermal necrolysis [Lyell]>  ~ Necroliza epidermica toxica
+? L81.4   Lentigo   [titlu: Alte hiperpigmentatii de melanina]  <Other melanin hyperpigmentation>  ~ 
+? L94.1   Leziuni in lovitura de sabie   [titlu: Sclerodermia lineara]  <Linear scleroderma>  ~ 
+? L98.5   Lichen mixedematos   [titlu: Mucinoza cutanata]  <Mucinosis of the skin>  ~ Mucinoza cutanata
+? L99.8   Leucodermia sifilitica   [titlu: Alte afectiuni specificate ale pielii si tesutului celular subcutanat in boli clasificate altundeva]  <>  ~ 
+? L99.8   LOCALIZARE OSTEO-ARTICULARA   [titlu: Alte afectiuni specificate ale pielii si tesutului celular subcutanat in boli clasificate altundeva]  <>  ~ 
+? M24.2   Laxitate ligamentara   [titlu: Afectiune a ligamentului]  <Disorder of ligament>  ~ Instabilitate de genunchi | Instabilitate de glezna | Sindrom de hipermobilitate
+? M35.7   Laxitate ligamentara familiala   [titlu: Sindrom de hipermobilitate]  <Hypermobility syndrome>  ~ Instabilitate de glezna
+? M51.2   Lumbago datorita deplasarii unui disc intervertebral   [titlu: Alta deplasarea a unui alt disc intervertebral specificat]  <Other thoracic, thoracolumbar and lumbosacral intervertebral disc displacement>  ~ 
+? M81.6   Lequesue   [titlu: Osteoporoza localizata [Lequesue]]  <Localized osteoporosis [Lequesne]>  ~ 
+? M85.0   localizata   [titlu: Displazia fibroasa (localizata)]  <Fibrous dysplasia (monostotic)>  ~ 
+? M91.1   Legg-Calve-Perthes   [titlu: Osteocondroza juvenila a capului femural [Legg-Calve-Perthes]]  <Juvenile osteochondrosis of head of femur [Legg-Calve-Perthes]>  ~ Boala Legg-Calve-Perthes
+? N19     Litiaza urinara   [titlu: Insuficienta renala nespecificata]  <Unspecified kidney failure>  ~ Litiaza vezicala | Calculi renali | Litiaza biliara
+? N81.8   Laceratia veche a muschilor planseului pelvian   [titlu: Alt prolaps genital la femeie]  <Other female genital prolapse>  ~ 
+? N89.8   Laceratie vaginala veche   [titlu: Alte afectiuni neinflamatorii specificate ale vaginului]  <Other specified noninflammatory disorders of vagina>  ~ 
+? O71.4   Laceratia peretelui vaginal fara mentionarea rupturii perineale   [titlu: Numai laceratia vaginala inalta de origine obstetricala]  <Obstetric high vaginal laceration alone>  ~ 
+? O91.2   Limfagita sanului gestationala sau puerperala   [titlu: Mastita nepurulenta asociata nasterii]  <Nonpurulent mastitis associated with pregnancy, the puerperium and lactation>  ~ 
+? Q35.7   Lueta bifida   [titlu: Fisura luetei]  <Cleft uvula>  ~ 
+? Q38.3   Limba bifida   [titlu: Alte malformatii congenitale ale limbii]  <Other congenital malformations of tongue>  ~ 
+= A07.1   lambliaza  -> Giardiaza
+= B76.9   Larva migrans cutanat  -> Larva migrans cutanata
+= D17.9   Lipom  -> Lipom
+= M54.5   Lumbago  -> Lombalgie
+= N89.8   Leucoree  -> Leucoree
+= Q38.1   Limba legata  -> Ankyloglosie
