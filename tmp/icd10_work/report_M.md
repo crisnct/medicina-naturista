@@ -8,7 +8,7 @@
   - procedura: 1
 - găsite automat în dicționar (P4.1–P4.3): **90**
 - de decis manual (`nou` + `posibil`): **254**
-- **afecțiuni adăugate: 41**
+- **afecțiuni adăugate: 47**
 
 ## Decizii manuale
 
@@ -23,6 +23,7 @@
 - **Sinonime insuficiente (2.4):** `Miliaria profunda` (L74.2; „miliaria tropicala” e singura alternativă sigură), `Miozita interstitiala` (M60.1), `Mucinoza orala focala` (K13.7), `Metastrongiloza` (B83.8), malformațiile prin metilmercur / citotoxice / radiații (Q86.84–Q86.87).
 - **Amânate la altă literă (`pending_from_M.jsonl`):** `Politelie` (Q83.3, P; pereche cu `Atelie`), `Stenoza de apeduct Sylvius` (Q03.0, S), `Sindrom fetal valproic` (Q86.81, S; după modelul `Sindrom fetal alcoolic`), `Embriopatie cu talidomida` (Q86.83, E), `Embriopatie retinoica` (Q86.82, E). Termenii cu M ai unor coduri cu titlul la altă literă rămân la litera titlului: meziodinții (K00.1, `Dinti supranumerari`, D), odontoclazia (K02.4, O), masochismul (F65.5, S), pili/perlat (Q84.1, P), proteinoza alveolară (J84.0, P).
 - **Nume la M din coduri cu titlul la altă literă, adăugate aici:** `Malocluzie` (K07.2, K07.4; lipsea cu totul), `Morsicatio buccarum` (K13.1), `Miochimie faciala` (G51.4), `Menarha prematura` (E30.8), `Moniletrix` (Q84.1), `Microlitiaza alveolara pulmonara` (J84.0), `Malrotatie renala` (Q63.29; ≠ `Rinichi ectopic`), `Megauretra` (Q64.76), `Macrotie`, `Macrocheilie`, `Microcheilie`, `Macrocefalie` (≠ `Megalencefalie`), `Menisc discoid`.
+- **Amânate de la alte litere, adăugate la unire (coordonator, 6):** `Macrosomie fetala` (P08.0; de la C, T); `Mielita` (G04; de la E); `Meniscopatie` (M23.2; de la L); `Membrana esofagiana congenitala` (Q39.4; de la P); `Meningita rujeolica` (B05.1; de la R); `Metatarsus varus` (Q66.2; de la V). Verificate față de dicționarul unit al tuturor literelor (G3, G6).
 
 ## Adăugate
 
@@ -31,6 +32,7 @@
 | Macrocefalie | Q75.3, Q75.31, Q75.39 | macrocranie; macrocefalie familiala benigna; perimetru cranian crescut; macrocephaly; macrocrania; benign familial macrocephaly |
 | Macrocheilie | Q18.6 | hipertrofia congenitala a buzei; buze mari congenitale; macrocheilie congenitala; macrocheilia; macrochilia; macrocheily |
 | Macroftalmie | Q11.3 | macroftalmia; megaloftalmie; glob ocular marit congenital; macrophthalmos; megalophthalmos; congenital macrophthalmia |
+| Macrosomie fetala | P08.0 | copil exceptional de mare; macrosomie neonatala; fat macrosom; fetal macrosomia; exceptionally large newborn baby; neonatal macrosomia |
 | Macrotie | Q17.1 | megalotie; urechi mari congenitale; pavilion auricular marit congenital; macrotia; megalotia; congenital large ears |
 | Malformatie arteriovenoasa periferica | Q27.3 | malformatia arterio-venoasa periferica; MAV periferica; anevrism arteriovenos periferic; peripheral arteriovenous malformation; peripheral AVM; arteriovenous malformation of the limbs |
 | Malformatie arteriovenoasa precerebrala | Q28.0 | malformatia arterio-venoasa a vaselor precerebrale; anevrism arteriovenos precerebral congenital; MAV precerebrala; arteriovenous malformation of precerebral vessels; precerebral arteriovenous malformation; congenital precerebral arteriovenous aneurysm |
@@ -41,16 +43,21 @@
 | Mastita neonatala | P39.0 | mastita infectioasa neonatala; mastita nou-nascutului; abces mamar neonatal; neonatal infective mastitis; neonatal mastitis; mastitis neonatorum |
 | Megauretra | Q64.76 | megauretra congenitala; megalouretra; dilatatie congenitala a uretrei; megalourethra; congenital megalourethra; megaurethra |
 | Melanom in situ | D03, D03.0, D03.1, D03.2, D03.3, D03.4, D03.5, D03.6, D03.7, D03.8, D03.9 | melanom malign in situ; melanom intraepidermic; melanom stadiul 0; melanoma in situ; in situ melanoma; stage 0 melanoma |
+| Membrana esofagiana congenitala | Q39.4 | pterigiomul esofagului; diafragm esofagian congenital; inel esofagian congenital; esophageal web; congenital esophageal web; congenital esophageal membrane |
 | Menarha prematura | E30.8 | menarha precoce; menarha prematura izolata; sangerare vaginala prepubertara izolata; premature menarche; isolated premature menarche; precocious menarche |
 | Meningita cu adenovirus | A87.1 | meningita adenovirala; meningita prin adenovirus; meningita virala cu adenovirus; adenoviral meningitis; adenovirus meningitis; meningitis due to adenovirus |
 | Meningita cu virus varicela-zoster | B01.0, B02.1 | meningita variceloasa; meningita zosteriana; meningita cu VZV; varicella meningitis; zoster meningitis; varicella-zoster virus meningitis; VZV meningitis |
+| Meningita rujeolica | B05.1 | rujeola complicata cu meningita; meningita postmorbilioasa; meningita cu virus rujeolic; measles complicated by meningitis; measles meningitis; measles virus meningitis |
 | Meningita streptococica | G00.2 | meningita cu streptococi; meningita prin streptococ; meningita cu Streptococcus; streptococcal meningitis; Streptococcus meningitis; meningitis due to streptococci |
 | Menisc discoid | M23.1 | menisc discoid congenital; menisc in forma de disc; menisc discoidal; discoid meniscus; discoid lateral meniscus; congenital discoid meniscus |
+| Meniscopatie | M23.2 | leziunea meniscului datorita unei rupturi vechi; meniscopatie degenerativa; ruptura veche de menisc; leziune meniscala degenerativa; derangement of meniscus due to old tear or injury; meniscopathy; degenerative meniscal tear; old meniscal tear |
+| Metatarsus varus | Q66.2 | varus al metatarsului; metatars varus congenital; metatars adductus congenital; congenital metatarsus varus; metatarsus adductus; pes adductus; forefoot adductus |
 | Mezoteliom malign | C45, C45.7, C45.9 | mesoteliom; mezoteliom; mezoteliom difuz malign; mesothelioma; malignant mesothelioma; diffuse malignant mesothelioma |
 | Miastenie neonatala tranzitorie | P94.0 | miastenia gravis tranzitorie neonatala; miastenie gravis neonatala; miastenie neonatala; transient neonatal myasthenia gravis; neonatal myasthenia gravis; transient neonatal myasthenia |
 | Microcheilie | Q18.7 | buze mici congenitale; hipoplazie labiala congenitala; microcheilie congenitala; microcheilia; microchilia; microcheily |
 | Microlitiaza alveolara pulmonara | J84.0 | microlitiaza alveolara a plamanului; microlitiaza alveolara; microlitiaza pulmonara; pulmonary alveolar microlithiasis; alveolar microlithiasis; microlithiasis alveolaris pulmonum |
 | Microtropie | H50.4 | microstrabism; sindrom de monofixare; strabism cu unghi mic; microtropia; microstrabismus; monofixation syndrome |
+| Mielita | G04 | inflamatia maduvei spinarii; inflamatie medulara; mielita acuta; myelitis; spinal cord inflammation; inflammation of the spinal cord |
 | Mielofibroza acuta | C94.5 | panmieloza acuta cu mielofibroza; mieloscleroza acuta; mieloscleroza maligna; acute myelofibrosis; acute panmyelosis with myelofibrosis; malignant myelosclerosis |
 | Migrena oftalmoplegica | G43.8 | migrena cu oftalmoplegie; neuropatie oftalmoplegica dureroasa recurenta; oftalmoplegie migrenoasa; ophthalmoplegic migraine; recurrent painful ophthalmoplegic neuropathy; migraine with ophthalmoplegia |
 | Miiaza auriculara | B87.4 | miaza urechii; otomiaza; miaza otica; aural myiasis; otomyiasis; ear myiasis |

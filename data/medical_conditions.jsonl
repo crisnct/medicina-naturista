@@ -3267,6 +3267,7 @@
 {"name": "Macroftalmie", "synonyms": ["macroftalmia", "megaloftalmie", "glob ocular marit congenital", "macrophthalmos", "megalophthalmos", "congenital macrophthalmia"]}
 {"name": "Macroglobulinemie Waldenstrom", "synonyms": ["boala Waldenstrom", "macroglobulinemie primara", "limfom limfoplasmocitic cu IgM", "Waldenstrom macroglobulinaemia", "Waldenstrom's macroglobulinemia", "primary macroglobulinemia", "Waldenstrom macroglobulinemia", "Waldenstrom disease"]}
 {"name": "Macroglosie", "synonyms": ["limba mare congenitala", "hipertrofie linguala", "limba marita", "macroglossia", "congenital large tongue", "enlarged tongue"]}
+{"name": "Macrosomie fetala", "synonyms": ["copil exceptional de mare", "macrosomie neonatala", "fat macrosom", "fetal macrosomia", "exceptionally large newborn baby", "neonatal macrosomia"]}
 {"name": "Macrostomie", "synonyms": ["gura mare congenitala", "fisura faciala transversala", "comisura bucala largita", "macrostomia", "congenital macrostomia", "transverse facial cleft"]}
 {"name": "Macrotie", "synonyms": ["megalotie", "urechi mari congenitale", "pavilion auricular marit congenital", "macrotia", "megalotia", "congenital large ears"]}
 {"name": "Madaroza", "synonyms": ["caderea genelor", "pierderea genelor", "alopecie a genelor", "madarosis", "eyelash loss", "loss of eyelashes"]}
@@ -3345,6 +3346,7 @@
 {"name": "Melioidoza", "synonyms": ["boala Whitmore", "infectie cu Burkholderia pseudomallei", "melioidoza pulmonara", "melioidosis", "Whitmore's disease", "Burkholderia pseudomallei infection"]}
 {"name": "Meloreostoza", "synonyms": ["boala Leri", "osteopatia hiperostozanta monomelica", "osteosi eburnizanta monomelica", "melorheostosis", "Leri disease", "Leri-Joanny syndrome"]}
 {"name": "Membrana epiretiniana", "synonyms": ["membrana preretiniana", "plic retinian macular", "fibroza epiretiniana", "epiretinal membrane", "preretinal macular fibrosis", "macular pucker"]}
+{"name": "Membrana esofagiana congenitala", "synonyms": ["pterigiomul esofagului", "diafragm esofagian congenital", "inel esofagian congenital", "esophageal web", "congenital esophageal web", "congenital esophageal membrane"]}
 {"name": "Menarha prematura", "synonyms": ["menarha precoce", "menarha prematura izolata", "sangerare vaginala prepubertara izolata", "premature menarche", "isolated premature menarche", "precocious menarche"]}
 {"name": "Meningiom benign", "synonyms": ["meningiom de grad I", "meningiom tipic", "meningiom intracranial benign", "benign meningioma", "grade I meningioma", "typical meningioma"]}
 {"name": "Meningiom de teaca nervului optic", "synonyms": ["meningiom optic", "meningiom al nervului optic", "tumora de teaca nervului optic", "optic nerve sheath meningioma", "optic nerve meningioma", "meningioma of the optic nerve"]}
@@ -3364,6 +3366,7 @@
 {"name": "Meningita neonatala", "synonyms": ["meningita la nou-nascut", "meningita bacteriana neonatala", "meningita a nou-nascutului", "neonatal meningitis", "meningitis of the newborn", "neonatal bacterial meningitis"]}
 {"name": "Meningita pneumococica", "synonyms": ["meningita cu Streptococcus pneumoniae", "meningita pneumococcica", "meningita cu pneumococ", "pneumococcal meningitis", "streptococcus pneumoniae meningitis", "meningitis due to pneumococcus"]}
 {"name": "Meningita postoperatorie", "synonyms": ["meningita postneurochirurgicala", "meningita dupa derivatie ventriculara", "meningita asociata shuntului", "postoperative meningitis", "post-neurosurgical meningitis", "shunt meningitis"]}
+{"name": "Meningita rujeolica", "synonyms": ["rujeola complicata cu meningita", "meningita postmorbilioasa", "meningita cu virus rujeolic", "measles complicated by meningitis", "measles meningitis", "measles virus meningitis"]}
 {"name": "Meningita stafilococica", "synonyms": ["meningita cu Staphylococcus aureus", "meningita stafilococcica", "meningita postoperatorie stafilococica", "staphylococcal meningitis", "staphylococcus aureus meningitis", "meningitis due to staphylococcus"]}
 {"name": "Meningita streptococica", "synonyms": ["meningita cu streptococi", "meningita prin streptococ", "meningita cu Streptococcus", "streptococcal meningitis", "Streptococcus meningitis", "meningitis due to streptococci"]}
 {"name": "Meningita urliana", "synonyms": ["meningita parotiditica", "meningita cu virusul urlian", "meningoencefalita urliana", "mumps meningitis", "mumps meningoencephalitis", "meningitis due to mumps virus"]}
@@ -3372,6 +3375,7 @@
 {"name": "Meningoencefalita", "synonyms": ["meningoencefalita acuta", "inflamatia meningelor si a creierului", "meningoencefalita virala", "meningoencephalitis", "acute meningoencephalitis", "viral meningoencephalitis"]}
 {"name": "Meningoencefalita amibiana primara", "synonyms": ["meningoencefalita amibiana", "infectie cu Naegleria fowleri", "meningoencefalita cu Naegleria", "primary amoebic meningoencephalitis", "naegleria fowleri infection", "amebic meningoencephalitis"]}
 {"name": "Menisc discoid", "synonyms": ["menisc discoid congenital", "menisc in forma de disc", "menisc discoidal", "discoid meniscus", "discoid lateral meniscus", "congenital discoid meniscus"]}
+{"name": "Meniscopatie", "synonyms": ["leziunea meniscului datorita unei rupturi vechi", "meniscopatie degenerativa", "ruptura veche de menisc", "leziune meniscala degenerativa", "derangement of meniscus due to old tear or injury", "meniscopathy", "degenerative meniscal tear", "old meniscal tear"]}
 {"name": "Menopauza", "synonyms": ["perimenopauza", "climacteriu", "tulburari de menopauza", "menopause", "climacteric", "perimenopause"]}
 {"name": "Menoragie", "synonyms": ["sangerare menstruala", "ciclu cu sange mult", "menstruatii abundente", "menstruatie cu sangerare abundenta", "hipermenoree", "heavy periods", "menorrhagia", "heavy menstrual bleeding"]}
 {"name": "Menstruatii neregulate", "synonyms": ["menstre neregulate", "ciclu neregulat", "ciclu menstrual neregulat", "tulburari de ciclu", "dereglari menstruale", "irregular periods", "irregular menstruation", "menstrual irregularity"]}
@@ -3392,6 +3396,7 @@
 {"name": "Metastaze pulmonare", "synonyms": ["metastaze la plamani", "determinari secundare pulmonare", "metastazare pulmonara", "lung metastases", "pulmonary metastases", "secondary lung tumors"]}
 {"name": "Metastaze pulmonare multiple", "synonyms": ["determinari secundare pulmonare multiple", "metastazare pulmonara multipla", "noduli pulmonari metastatici multipli", "multiple lung metastases", "pulmonary metastatic nodules", "multiple pulmonary secondary lesions"]}
 {"name": "Metastaze suprarenale", "synonyms": ["metastaze la suprarenale", "determinari secundare suprarenaliene", "metastazare suprarenaliana", "adrenal metastases", "adrenal gland metastases", "secondary adrenal tumors"]}
+{"name": "Metatarsus varus", "synonyms": ["varus al metatarsului", "metatars varus congenital", "metatars adductus congenital", "congenital metatarsus varus", "metatarsus adductus", "pes adductus", "forefoot adductus"]}
 {"name": "Meteorism", "synonyms": ["balonare", "gaze intestinale", "flatulenta", "bloating", "flatulence", "intestinal gas"]}
 {"name": "Methemoglobinemie", "synonyms": ["methemoglobinemie congenitala", "methemoglobina crescuta in sange", "methemoglobinemie toxica", "methemoglobinemia", "congenital methemoglobinemia", "elevated methemoglobin"]}
 {"name": "Metroendometrita", "synonyms": ["endomiometrita", "inflamatia uterului si endometrului", "metroendometrita cronica", "metroendometritis", "endomyometritis", "inflammation of the uterine muscle and endometrium"]}
@@ -3429,6 +3434,7 @@
 {"name": "Microtropie", "synonyms": ["microstrabism", "sindrom de monofixare", "strabism cu unghi mic", "microtropia", "microstrabismus", "monofixation syndrome"]}
 {"name": "Mielinoliza extrapontina", "synonyms": ["mielinoliza extrapontina osmotica", "demielinizare osmotica extrapontina", "leziuni demielinizante extrapontine", "extrapontine myelinolysis", "extrapontine demyelination", "osmotic extrapontine myelinolysis"]}
 {"name": "Mielinoliza pontina centrala", "synonyms": ["mielinoliza centrala a puntii", "sindrom de demielinizare osmotica", "distructie osmotica pontina", "central pontine myelinolysis", "osmotic demyelination syndrome", "central pontine demyelination"]}
+{"name": "Mielita", "synonyms": ["inflamatia maduvei spinarii", "inflamatie medulara", "mielita acuta", "myelitis", "spinal cord inflammation", "inflammation of the spinal cord"]}
 {"name": "Mielita acuta flacida", "synonyms": ["mielita flacida acuta", "mielopatia flacida acuta", "mielita acuta flacida virala", "acute flaccid myelitis", "acute flaccid paralysis syndrome", "AFM"]}
 {"name": "Mielita longitudinala extinsa", "synonyms": ["mielita transversa longitudinala extinsa", "leziune medulara longitudinala extinsa", "mielita transversa extinsa longitudinal", "longitudinally extensive transverse myelitis", "LETM", "longitudinally extensive myelitis"]}
 {"name": "Mielita transversa", "synonyms": ["mielita transversa acuta", "mielopatia transversa", "inflamatia transversa a maduvei", "transverse myelitis", "acute transverse myelitis", "transverse myelopathy"]}
