@@ -3185,7 +3185,6 @@
 {"name": "Levocardie", "synonyms": ["levocardie izolata", "levocardie cu situs inversus", "levocardie cu inversiune viscerala", "levocardia", "isolated levocardia", "levocardia with situs inversus"]}
 {"name": "Leziune gastrica acuta", "synonyms": ["ulcer de stres acut", "leziune de mucoasa gastrica acuta", "gastropatie acuta de stres", "acute gastric mucosal lesion", "acute stress ulcer", "acute gastric erosive lesion"]}
 {"name": "Leziune laringiana postintubatie", "synonyms": ["leziune laringiana dupa intubatie", "traumatism laringian postintubatie", "leziune de corzi vocale postintubatie", "post-intubation laryngeal injury", "intubation-related laryngeal injury", "post-intubation vocal cord injury"]}
-{"name": "Leziune limfoepiteliala benigna", "synonyms": ["boala Mikulicz", "sialadenita mioepiteliala", "sialadenita limfoepiteliala", "benign lymphoepithelial lesion", "Mikulicz disease", "myoepithelial sialadenitis", "lymphoepithelial sialadenitis"]}
 {"name": "Lichen nitidus", "synonyms": ["lichen nitidus cutanat", "lichen nitidus generalizat", "eruptie papuloasa lichenoida", "lichen nitidus disease", "generalized lichen nitidus", "papular lichenoid eruption"]}
 {"name": "Lichen plan", "synonyms": ["lichen ruber planus", "lichen ruber", "lichen planus cutanat", "lichen planus", "lichen planus of the skin", "true lichen planus"]}
 {"name": "Lichen plan bulos", "synonyms": ["lichen plan veziculobulos", "lichen planus bulos", "forma buloasa a lichenului plan", "bullous lichen planus", "vesiculobullous lichen planus", "lichen planus bullosus"]}
@@ -3204,6 +3203,7 @@
 {"name": "Limfadenita cervicala", "synonyms": ["adenita cervicala", "adenopatie cervicala inflamatorie", "limfadenita de gat", "cervical lymphadenitis", "cervical adenitis", "inflamed neck lymph nodes"]}
 {"name": "Limfadenita mezenterica", "synonyms": ["adenita mezenterica", "limfadenita mezenterica acuta", "adenolimfita mezenterica", "mesenteric lymphadenitis", "mesenteric adenitis", "mesenteric lymph node inflammation"]}
 {"name": "Limfadenopatie", "synonyms": ["adenopatie", "ganglioni umflati", "marirea ganglionilor limfatici", "lymphadenopathy", "swollen lymph nodes", "enlarged lymph nodes"]}
+{"name": "Limfadenopatie dermatopatica", "synonyms": ["reticuloza lipomelanotica", "limfadenita dermatopatica", "reticuloza lipomelanica", "boala Pautrier-Woringer", "dermatopathic lymphadenopathy", "lipomelanotic reticulosis", "dermatopathic lymphadenitis", "Pautrier-Woringer disease"]}
 {"name": "Limfangiom", "synonyms": ["tumora limfatica benigna", "limfangiom chistic", "igrom chistic", "lymphangioma", "benign lymphatic tumor", "cystic hygroma", "Limfangioame", "limfangiomatoza", "limfangiom cutanat", "lymphangiomas", "lymphatic malformation"]}
 {"name": "Limfangita", "synonyms": ["limfangita acuta", "inflamatia vaselor limfatice", "limfangita bacteriana", "lymphangitis", "acute lymphangitis", "lymphatic vessel inflammation", "limfangoita", "Limfangita cutanata", "skin lymphangitis"]}
 {"name": "Limfedem", "synonyms": ["edem limfatic", "elefantiazis", "blocaj limfatic", "lymphedema", "lymphatic edema", "elephantiasis"]}
@@ -3274,7 +3274,6 @@
 {"name": "Litiaza biliara", "synonyms": ["piatra la fiere", "calculi biliari", "pietre la fiere", "calculoza biliara", "gallstones", "cholelithiasis", "biliary calculi"]}
 {"name": "Litiaza de canal hepatic", "synonyms": ["calculi pe canalul hepatic", "litiaza intrahepatica", "pietre pe calea biliara intrahepatica", "intrahepatic bile duct stones", "hepatic duct calculi", "intrahepatic cholelithiasis"]}
 {"name": "Litiaza de ureter", "synonyms": ["nisip la rinichi", "calcul ureteral", "piatra pe ureter", "litiaza ureterala", "ureteral stone", "ureterolithiasis", "ureteral calculus"]}
-{"name": "Litiaza uretrala", "synonyms": ["calcul in uretra", "calcul uretral", "uretrolitiaza", "calculus in urethra", "urethral calculus", "urethral stone"]}
 {"name": "Litiaza urinara", "synonyms": ["urolitiaza", "calculoza urinara", "calculi urinari", "urinary calculus", "urolithiasis", "urinary stones"]}
 {"name": "Litiaza vezicala", "synonyms": ["calculi vezicali", "pietre in vezica urinara", "litiaza a vezicii urinare", "bladder stones", "vesical calculi", "cystolithiasis"]}
 {"name": "Litioza pancreatica", "synonyms": ["litiaza pancreatica", "calculi pancreatici", "pietre la pancreas", "pancreatic lithiasis", "pancreatic calculi", "pancreatic stones"]}

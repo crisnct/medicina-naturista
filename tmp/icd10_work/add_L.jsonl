@@ -14,7 +14,6 @@
 {"name": "Lipofuscinoza ceroida neuronala", "synonyms": ["lipofuscinoza cu ceroide neuronale", "boala Batten", "boala Batten-Spielmeyer-Vogt", "boala Kufs", "neuronal ceroid lipofuscinosis", "Batten disease", "Kufs disease", "Jansky-Bielschowsky disease"], "codes": ["E75.4"]}
 {"name": "Lipodistrofie", "synonyms": ["lipodistrofia", "lipoatrofie", "distrofie a tesutului adipos", "lipodystrophy", "lipoatrophy", "lipodystrophy syndrome"], "codes": ["E88.1"]}
 {"name": "Laringofaringita", "synonyms": ["laringo-faringita acuta", "laringofaringita acuta", "inflamatia laringelui si faringelui", "acute laryngopharyngitis", "laryngopharyngitis", "pharyngolaryngitis"], "codes": ["J06.0"]}
-{"name": "Leziune limfoepiteliala benigna", "synonyms": ["boala Mikulicz", "sialadenita mioepiteliala", "sialadenita limfoepiteliala", "benign lymphoepithelial lesion", "Mikulicz disease", "myoepithelial sialadenitis", "lymphoepithelial sialadenitis"], "codes": ["K11.8"]}
 {"name": "Limba neagra paroasa", "synonyms": ["limba neagra viloasa", "limba paroasa", "melanoglosie", "black hairy tongue", "lingua villosa nigra", "hairy tongue", "melanoglossia"], "codes": ["K14.3"]}
 {"name": "Limba fisurata", "synonyms": ["limba plicaturata", "limba scrotala", "limba striata", "plicated tongue", "fissured tongue", "scrotal tongue", "lingua plicata"], "codes": ["K14.5"]}
 {"name": "Lichen plan hipertrofic", "synonyms": ["lichen plan verucos", "lichen planus hipertrofic", "forma hipertrofica a lichenului plan", "hypertrophic lichen planus", "verrucous lichen planus", "lichen planus hypertrophicus"], "codes": ["L43.0"]}
@@ -28,7 +27,6 @@
 {"name": "Luxatie recidivanta de rotula", "synonyms": ["luxatia recidivanta a rotulei", "luxatie habituala de rotula", "instabilitate rotuliana", "recurrent dislocation of patella", "recurrent patellar dislocation", "habitual patellar dislocation", "patellar instability"], "codes": ["M22.0"]}
 {"name": "Lombosciatica", "synonyms": ["lumbago cu sciatica", "lombosciatalgie", "durere lombara cu iradiere sciatica", "lumbago with sciatica", "lumbosciatica", "low back pain with sciatica"], "codes": ["M54.4"]}
 {"name": "Litiaza urinara", "synonyms": ["urolitiaza", "calculoza urinara", "calculi urinari", "urinary calculus", "urolithiasis", "urinary stones"], "codes": ["N20.9"]}
-{"name": "Litiaza uretrala", "synonyms": ["calcul in uretra", "calcul uretral", "uretrolitiaza", "calculus in urethra", "urethral calculus", "urethral stone"], "codes": ["N21.1"]}
 {"name": "Leucoplazie de col uterin", "synonyms": ["leucoplazia colului uterin", "leucoplazie cervicala", "leucokeratoza cervicala", "leukoplakia of cervix uteri", "cervical leukoplakia", "leukoplakia of the cervix"], "codes": ["N88.0"]}
 {"name": "Leucoplazie vaginala", "synonyms": ["leucoplazia vaginului", "leucoplazie a vaginului", "leucokeratoza vaginala", "leukoplakia of vagina", "vaginal leukoplakia", "leukoplakia of the vagina"], "codes": ["N89.4"]}
 {"name": "Levocardie", "synonyms": ["levocardie izolata", "levocardie cu situs inversus", "levocardie cu inversiune viscerala", "levocardia", "isolated levocardia", "levocardia with situs inversus"], "codes": ["Q24.1"]}
@@ -36,3 +34,4 @@
 {"name": "Lueta bifida", "synonyms": ["fisura luetei", "uvula bifida", "lueta despicata", "cleft uvula", "bifid uvula", "split uvula"], "codes": ["Q35.7"]}
 {"name": "Limba bifida", "synonyms": ["limba despicata", "glososchizis", "fisura congenitala a limbii", "bifid tongue", "cleft tongue", "glossoschisis"], "codes": ["Q38.3"]}
 {"name": "Leuconichie", "synonyms": ["leuconichie congenitala", "leuconichia", "unghii albe", "leukonychia", "congenital leukonychia", "white nails", "leuconychia"], "codes": ["Q84.4"]}
+{"name": "Limfadenopatie dermatopatica", "synonyms": ["reticuloza lipomelanotica", "limfadenita dermatopatica", "reticuloza lipomelanica", "boala Pautrier-Woringer", "dermatopathic lymphadenopathy", "lipomelanotic reticulosis", "dermatopathic lymphadenitis", "Pautrier-Woringer disease"], "codes": ["I89.8"]}

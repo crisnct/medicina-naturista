@@ -8,7 +8,7 @@
   - procedura: 1
 - găsite automat în dicționar (P4.1–P4.3): **67**
 - de decis manual (`nou` + `posibil`): **123**
-- **afecțiuni adăugate: 38**
+- **afecțiuni adăugate: 37**
 
 ## Decizii manuale
 
@@ -20,6 +20,8 @@
 - **Sinonime insuficiente (2.4):** limfomul zonei T (C84.2, termen Kiel desuet), limfomul difuz mixt cu celule mici și mari și limfomul nediferențiat (C83.2, C83.6), lordoza congenitală posturală (Q76.44), litiaza pulmonară (J98.4).
 - **Amânate la altă literă (`pending_from_L.jsonl`):** `Paralizia nervului femural` (G57.2 → P, în stilul `Paralizia nervului radial/sciatic`), `Meniscopatie` (M23.2 → M), `Ruptura perineala obstetricala` (O70 → R; precedent: `Ruptura uterina` există). Subluxația recidivantă a rotulei (M22.1) are titlul la S și rămâne pasului S (n-am pus-o ca sinonim, ca să nu ciocnească G6). Termenii cu L de sub coduri cu titlul la altă literă care sunt boli noi, dar al căror nume firesc e chiar titlul codului, rămân pasului acelei litere: laringoplegia (J38.0 „Paralizia corzilor vocale”, la P), leziunile în lovitură de sabie (L94.1 „Sclerodermia lineară”, la S), osteoporoza Lequesne (M81.6, la O), limfangita sânului puerperală (O91.2, la M).
 - **Adăugate din termeni de includere sub coduri cu titlul la altă literă:** `Linguatuloza` (B88.8), `Leziune limfoepiteliala benigna` (K11.8, boala Mikulicz), `Limba neagra paroasa` (K14.3), `Lueta bifida` (Q35.7), `Limba bifida` (Q38.3).
+- **Corecturi la unirea literelor (coordonator):** scoase `Leziune limfoepiteliala benigna` (K11.8, aceeași entitate cu `Boala Mikulicz` de la B, care are deja „leziune limfoepiteliala benigna” ca sinonim) și `Litiaza uretrala` (N21.1, aceeași boală cu `Calcul uretral` de la C, titlul CIM-10).
+- **Amânate de la alte litere, adăugate la unire (coordonator, 1):** `Limfadenopatie dermatopatica` (I89.8; de la R). Verificate față de dicționarul unit al tuturor literelor (G3, G6).
 
 ## Adăugate
 
@@ -36,7 +38,6 @@
 | Leucoplazie de col uterin | N88.0 | leucoplazia colului uterin; leucoplazie cervicala; leucokeratoza cervicala; leukoplakia of cervix uteri; cervical leukoplakia; leukoplakia of the cervix |
 | Leucoplazie vaginala | N89.4 | leucoplazia vaginului; leucoplazie a vaginului; leucokeratoza vaginala; leukoplakia of vagina; vaginal leukoplakia; leukoplakia of the vagina |
 | Levocardie | Q24.1 | levocardie izolata; levocardie cu situs inversus; levocardie cu inversiune viscerala; levocardia; isolated levocardia; levocardia with situs inversus |
-| Leziune limfoepiteliala benigna | K11.8 | boala Mikulicz; sialadenita mioepiteliala; sialadenita limfoepiteliala; benign lymphoepithelial lesion; Mikulicz disease; myoepithelial sialadenitis; lymphoepithelial sialadenitis |
 | Lichen plan bulos | L43.1 | lichen plan veziculobulos; lichen planus bulos; forma buloasa a lichenului plan; bullous lichen planus; vesiculobullous lichen planus; lichen planus bullosus |
 | Lichen plan hipertrofic | L43.0 | lichen plan verucos; lichen planus hipertrofic; forma hipertrofica a lichenului plan; hypertrophic lichen planus; verrucous lichen planus; lichen planus hypertrophicus |
 | Lichen ruber moniliform | L44.3 | keratoza lichenoida cronica; boala Nekam; lichen moniliform Kaposi; lichen ruber moniliformis; keratosis lichenoides chronica; Nekam disease |
@@ -44,6 +45,7 @@
 | Limba bifida | Q38.3 | limba despicata; glososchizis; fisura congenitala a limbii; bifid tongue; cleft tongue; glossoschisis |
 | Limba fisurata | K14.5 | limba plicaturata; limba scrotala; limba striata; plicated tongue; fissured tongue; scrotal tongue; lingua plicata |
 | Limba neagra paroasa | K14.3 | limba neagra viloasa; limba paroasa; melanoglosie; black hairy tongue; lingua villosa nigra; hairy tongue; melanoglossia |
+| Limfadenopatie dermatopatica | I89.8 | reticuloza lipomelanotica; limfadenita dermatopatica; reticuloza lipomelanica; boala Pautrier-Woringer; dermatopathic lymphadenopathy; lipomelanotic reticulosis; dermatopathic lymphadenitis; Pautrier-Woringer disease |
 | Limfom imunoblastic | C83.4 | limfom imunoblastic difuz; sarcom imunoblastic; limfom malign imunoblastic; immunoblastic lymphoma; immunoblastic sarcoma; diffuse immunoblastic lymphoma |
 | Limfom limfoblastic | C83.5 | limfom limfoblastic difuz; limfom limfoblastic cu precursori; limfom cu celule limfoblastice; lymphoblastic lymphoma; lymphoblastic diffuse lymphoma; precursor lymphoblastic lymphoma |
 | Limfom limfocitic cu celule mici | C83.0 | limfom difuz cu celule mici; limfom limfocitar cu celule mici; limfom limfocitic bine diferentiat; small cell B-cell lymphoma; small lymphocytic lymphoma; well-differentiated lymphocytic lymphoma |
@@ -53,7 +55,6 @@
 | Lipodistrofie | E88.1 | lipodistrofia; lipoatrofie; distrofie a tesutului adipos; lipodystrophy; lipoatrophy; lipodystrophy syndrome |
 | Lipofuscinoza ceroida neuronala | E75.4 | lipofuscinoza cu ceroide neuronale; boala Batten; boala Batten-Spielmeyer-Vogt; boala Kufs; neuronal ceroid lipofuscinosis; Batten disease; Kufs disease; Jansky-Bielschowsky disease |
 | Listerioza cutanata | A32.0 | infectie cutanata cu Listeria; listerioza tegumentara; listerioza cutanata primara; cutaneous listeriosis; primary cutaneous listeriosis; Listeria skin infection |
-| Litiaza uretrala | N21.1 | calcul in uretra; calcul uretral; uretrolitiaza; calculus in urethra; urethral calculus; urethral stone |
 | Litiaza urinara | N20.9 | urolitiaza; calculoza urinara; calculi urinari; urinary calculus; urolithiasis; urinary stones |
 | Lob pulmonar accesoriu | Q33.1 | lob accesoriu al plamanului; lob pulmonar supranumerar; lob azygos; accessory lobe of lung; accessory pulmonary lobe; azygos lobe |
 | Lobomicoza | B48.0 | blastomicoza cheloida; boala Lobo; lacazioza; lobomycosis; lacaziosis; keloidal blastomycosis; Lobo disease |
