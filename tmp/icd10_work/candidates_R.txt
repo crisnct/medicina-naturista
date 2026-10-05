@@ -1,4 +1,4 @@
-===== NOU (72)
+===== NOU (70)
 A79.9   Rickettsioza, nespecificata  {Infactia prin Rickettsioze / Infectii virale ale sistemului nervos central}  <Rickettsiosis, unspecified>
 A82.0   Rabia de padure  <Sylvatic rabies>
 A82.1   Rabia citadina  <Urban rabies>
@@ -32,7 +32,6 @@ M66.2   Ruptura spontana a tendoanelor extensoare  <Spontaneous rupture of exten
 M66.3   Ruptura spontana a tendoanelor flexoare  <Spontaneous rupture of flexor tendons>
 M66.4   Ruptura spontana a altor tendoane
 M66.5   Ruptura spontana a unui tendon nespecificat  {Ruptura jonctiunii musculo-tendinoase, nontraumatica}
-N26     Rinichi scleros nespecificat  {Atrofia rinichiului (terminala) / Scleroza renala}  <Unspecified contracted kidney>
 N27.0   Rinichi mic, unilateral  <Small kidney, unilateral>
 N27.1   Rinichi mic, bilateral  <Small kidney, bilateral>
 N32.4   Ruptura vezicii urinare, netraumatica
@@ -63,7 +62,6 @@ Q62.71  Reflux congenital vezico-uretero-renal, unilateral
 Q62.72  Reflux congenital vezico-uretero-renal, bilateral
 Q63.0   Rinichi accesoriu  <Accessory kidney>
 Q63.01  Rinichi dublu  {Dublarea rinichiului}
-Q63.02  Rinichi triplu  {Triplarea rinichiului}
 Q63.1   Rinichi lobular, contopit si in forma de copita de cal  <Lobulated, fused and horseshoe kidney>
 Q63.11  Rinichi in forma de copita de cal
 Q63.3   Rinichi hiperplazic sau gigant  <Hyperplastic and giant kidney>
@@ -71,7 +69,7 @@ Q95     Rearanjare echilibrata si markeri structurali, neclasificati altundeva  
 Q95.2   Rearanjamente autosomale echilibrate la indivizi anormali  <Balanced autosomal rearrangement in abnormal individual>
 Q95.3   Rearanjamente sex/autosomale echilibrate la indivizi anormali  <Balanced sex/autosomal rearrangement in abnormal individual>
 Q95.9   Rearanjamente echilibrate si markeri structurali, nespecificati  <Balanced rearrangement and structural marker, unspecified>
-===== POSIBIL (49)
+===== POSIBIL (46)
 A79.1   Rickettsioza variceliforma prin Rickettsia akari  {Febra de Kew Garden}  <Rickettsialpox due to Rickettsia akari> ~ Rickettsioza variceliforma
 B05.0   Rujeola complicata cu encefalita  {Encefalita postmorbilioasa}  <Measles complicated by encephalitis> ~ Encefalita rujeolasa | Encefalita cu virus varicela-zoster | Encefalita postinfectioasa
 B05.3   Rujeola complicata cu otita medie  {Otita medie postmorbilioasa}  <Measles complicated by otitis media> ~ Otita medie
@@ -84,11 +82,9 @@ E09.02  Reglementarea intolerantei la glucoza cu angiopatie periferica cu gangre
 E09.1   Reglementarea intolerantei la glucoza cu caracteristici de rezistenta la insulina  <Drug or chemical induced diabetes mellitus with ketoacidosis> ~ Intoleranta la glucoza | Rezistenta la insulina
 E09.8   Reglementarea intolerantei la glucoza cu complicatii nespecificate  <Drug or chemical induced diabetes mellitus with unspecified complications> ~ Intoleranta la glucoza
 E09.9   Reglementarea intolerantei la glucoza fara complicatii  <Drug or chemical induced diabetes mellitus without complications> ~ Intoleranta la glucoza
-F43.0   Reactie acuta la stress  <Acute stress reaction> ~ Psihoza reactiva | Tulburare de stres acut
 F70     Retardare mentala usoara  <Mild intellectual disabilities> ~ Retard mintal usor
 F72     Retardare mentala severa  <Severe intellectual disabilities> ~ Retard mintal sever
 H33.3   Ruptura retiniana fara dezlipire  {Ruptura in poctoava de cal a retinei, fara dezlipire / Gaura rotunda a retinei, fara dezlipire / Opercul / Ruptura retiniana}  <Retinal breaks without detachment> ~ Dezlipire de retina
-H35.1   Retinopatia prematuritatii  {Fibroplazia retrolentala}  <Retinopathy of prematurity> ~ Retinopatie de prematuritate
 I00     Reumatismul articular acut fara mentionarea complicatiilor cardiace  {Artrita, reumatica, acuta sau subacuta}  <Rheumatic fever without heart involvement> ~ Cardiopatie reumatica | Febra reumatica | Reumatism
 I01     Reumatismul articular acut cu complicatii cardiace  <Rheumatic fever with heart involvement> ~ Cardiopatie reumatica | Febra reumatica | Reumatism
 I23.3   Ruptura peretului cardiac fara hemopericard ca o complicatie curenta urmand infarctului miocardic acut  <Rupture of cardiac wall without hemopericardium as current complication following acute myocardial infarction> ~ Infarct miocardic | Ruptura de miocard
@@ -98,18 +94,16 @@ I77.2   Ruptura arterelor  {Eroziunea arteriala / Fistula arteriala / Ulceratia 
 J00     Rino-faringita acuta [guturaiul comun]  {guturaiul comun / Coriza (acuta) / Catar nazal, acut}  <Acute nasopharyngitis [common cold]> ~ Raceala | Faringita | Nazofaringita virala
 J30     Rinita alergica si vasomotorie  <Vasomotor and allergic rhinitis> ~ Rinita alergica | Rinita vasomotorie
 J30.1   Rinita alergica datorita polenului  {Alergia datorita polenului / Guturai 'de fan' / Polinoza}  <Allergic rhinitis due to pollen> ~ Rinita alergica | Rinita alergica sezoniera | Alergie la polen
-J31.1   Rino-faringita cronica  <Chronic nasopharyngitis> ~ Nazofaringita cronica | Faringita
 J90     Revarsare pleurala, neclasificata altundeva  {Pleurita cu efuziune}  <Pleural effusion, not elsewhere classified> ~ Pleurezie de cauza virala
 K51.2   Rectita (cronica) ulceroasa  {cronica}  <Ulcerative (chronic) proctitis> ~ Cistita hemoragica | Proctita ulcerativa | Sindromul de ulcere recidivante
-L43.2   Reactia lichenoida la medicamente  <Lichenoid drug reaction> ~ Alergie medicamentoasa
 L56.1   Reactia fotoalergica la un medicament  <Drug photoallergic response> ~ Alergie medicamentoasa
-L58     Radiodermatita  <Radiodermatitis> ~ Dermatita actinica cronica | Radiodermita
 L58.0   Radiodermatita acuta  <Acute radiodermatitis> ~ Dermatita actinica cronica
 M25.6   Rigiditate articulara, neclasificata altundeva  <Stiffness of joint, not elsewhere classified> ~ Ankiloza articulatiei
 M66.0   Ruptura unui chist popliteu  <Rupture of popliteal cyst> ~ Chist popliteu
 M66.1   Ruptura sinoviei  {Ruptura chistului sinovial}  <Rupture of synovium> ~ Chist sinovial | Ruptura de chist ovarian
+N26     Rinichi scleros nespecificat  {Atrofia rinichiului (terminala) / Scleroza renala}  <Unspecified contracted kidney> ~ Atrofie renala
 N27     Rinichi mic de cauza necunoscuta  <Small kidney of unknown cause> ~ Anemie de cauza necunoscuta
-N27.9   Rinichi mic, nespecificat  <Small kidney, unspecified> ~ Nefroptoza
+N27.9   Rinichi mic, nespecificat  <Small kidney, unspecified> ~ Atrofie renala | Nefroptoza
 O42.2   Ruperea prematura a membranelor, travaliu intarziat prin tratament ~ Nastere prematura
 O42.9   Ruperea prematura a membranelor, nespecificata  <Premature rupture of membranes, unspecified as to length of time between rupture and onset of labor> ~ Ruptura prematura de membrane
 O71.0   Ruptura uterului inainte de debutul travaliului  <Rupture of uterus (spontaneous) before onset of labor> ~ Ruptura uterina
@@ -120,18 +114,24 @@ O73.1   Retentia partiala a placentei si a membranelor, fara hemoragie  {Retenti
 Q61.1   Rinichi polichistic, autosomal recesiv  {Rinichi polichistic, tip infantil}  <Polycystic kidney, infantile type> ~ Boala polichistica renala autozomal recesiva | Boala polichistica renala autozomal dominanta
 Q61.2   Rinichi polichistic, autosomal dominant  {Rinichi polichistic, tip adult}  <Polycystic kidney, adult type> ~ Boala polichistica renala autozomal dominanta | Boala polichistica renala autozomal recesiva
 Q61.3   Rinichi polichistic, nespecificat  <Polycystic kidney, unspecified> ~ Boala polichistica renala autozomal dominanta | Boala polichistica renala autozomal recesiva
+Q63.02  Rinichi triplu  {Triplarea rinichiului} ~ Atrofie renala
 Q63.21  Rinichi pelvian ~ Rinichi ectopic
-===== EXISTA (19)
+===== EXISTA (24)
 A82     Rabia = Rabie [terminatii]
 B05     Rujeola = Pojar [exact]
 B05.9   Rujeola, fara complicatii = Pojar [exact]
 B06     Rubeola [rujeola germana] = Rubeola [exact]
 B06.9   Rubeola, fara complicatii = Rubeola [exact]
 B48.1   Rinosporidioza = Rinosporidioza [exact]
+F43.0   Reactie acuta la stress = Tulburare de stres acut [exact]
+H35.1   Retinopatia prematuritatii = Retinopatie de prematuritate [exact]
 J30.0   Rinita vasomotorie = Rinita vasomotorie [exact]
 J30.4   Rinita alergica, nespecificata = Rinita alergica [exact]
 J31.0   Rinita cronica = Rinita [exact]
+J31.1   Rino-faringita cronica = Nazofaringita cronica [exact]
 K51.3   Rectosigmoidita (cronica) ulceroasa = Colita ulcerativa distala [exact]
+L43.2   Reactia lichenoida la medicamente = Dermatita lichenoida [exact]
+L58     Radiodermatita = Radiodermita [exact]
 L58.1   Radiodermatita cronica = Dermatita actinica cronica [exact]
 L71.1   Rhinophyma = Rinofima [exact]
 M12.3   Reumatism palindromic = Reumatism palindromic [exact]
