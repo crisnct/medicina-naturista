@@ -5494,6 +5494,7 @@
 {"name": "Varicela progresiva", "synonyms": ["varicela hemoragica", "varicela maligna", "varicela buloasa", "progressive varicella", "hemorrhagic varicella", "malignant varicella"]}
 {"name": "Varicocel", "synonyms": ["dilatatie venoasa testiculara", "varice testiculare", "varice ale cordonului spermatic", "varicocele", "testicular varicose veins", "pampiniform plexus varicosity"]}
 {"name": "Variola", "synonyms": ["variola majora", "variola minora", "infectie cu virusul variolic", "smallpox", "variola major", "variola minor", "alastrim"]}
+{"name": "Variola maimutei", "synonyms": ["infectie cu variola de maimute", "variola maimutelor", "infectie cu virusul mpox", "monkeypox", "mpox", "monkeypox virus infection"]}
 {"name": "Variola vacii", "synonyms": ["variola bovina", "vaccina", "infectie cu virusul cowpox", "cowpox", "cowpox virus infection", "variolae vaccinae"]}
 {"name": "Varsaturi", "synonyms": ["voma", "varsatura", "emeza", "vomiting", "emesis", "throwing up"]}
 {"name": "Vasa praevia", "synonyms": ["vase ombilicale praevia", "vase fetale nesustinute de cordon", "vase ombilicale anormale", "vasa previa", "aberrant umbilical vessels", "abnormal umbilical vessels"]}
@@ -5503,6 +5504,7 @@
 {"name": "Vasculita reumatoida", "synonyms": ["angita reumatoida", "vasculita din artrita reumatoida", "vasculita necrozanta reumatoida", "rheumatoid vasculitis", "rheumatoid angitis", "vasculitis in rheumatoid arthritis"]}
 {"name": "Vasculita septica", "synonyms": ["vasculita infectioasa", "vasculita din sepsis", "angita septica", "septic vasculitis", "infectious vasculitis", "vasculitis due to sepsis"]}
 {"name": "Ventricul drept cu dubla iesire", "synonyms": ["dubla iesire ventriculara dreapta", "DORV", "dubla iesire din ventriculul drept", "double outlet right ventricle", "double outlet right ventricle anomaly", "double outlet right ventricular connection"]}
+{"name": "Ventricul stang cu dubla iesire", "synonyms": ["orificiu dublu al ventriculului stang", "dubla iesire din ventriculul stang", "dubla iesire ventriculara stanga", "double outlet left ventricle", "DOLV", "double outlet left ventricular connection"]}
 {"name": "Ventricul unic", "synonyms": ["ventricul unic congenital", "ventricul comun", "cord univentricular", "single ventricle", "univentricular heart", "common ventricle"]}
 {"name": "Ventriculita cerebrala", "synonyms": ["ventriculita", "ependimita", "empiem intraventricular", "ventriculitis", "cerebral ventriculitis", "ependymitis", "pyogenic ventriculitis", "ventricular empyema"]}
 {"name": "Vergeturi", "synonyms": ["striuri", "striuri cutanate", "cicatrici de intindere", "stretch marks", "striae", "striae distensae"]}
@@ -5525,12 +5527,12 @@
 {"name": "Viroza respiratorie", "synonyms": ["infectie virala respiratorie", "infectie acuta de cai respiratorii superioare", "raceala virala", "viral respiratory infection", "acute viral upper respiratory infection", "common cold virus infection"]}
 {"name": "Vitiligo", "synonyms": ["pete albe", "pete albe pe piele", "depigmentare cutanata", "leucodermie", "skin depigmentation", "white skin patches", "leukoderma"]}
 {"name": "Vitreoretinopatie proliferativa", "synonyms": ["retinopatie proliferativa vitreoretiniana", "proliferare fibroasa vitreoretiniana", "membrana fibroasa vitreoretiniana", "proliferative vitreoretinopathy", "vitreoretinal proliferation", "proliferative vitreoretinal disease"]}
+{"name": "Voaiorism", "synonyms": ["voyerism", "tulburare voyeurista", "scopofilie", "voyeurism", "voyeuristic disorder", "scopophilia", "scoptophilia"]}
 {"name": "Volvulus gastric", "synonyms": ["volvulus al stomacului", "rasucire a stomacului", "volvulus gastric acut", "gastric volvulus", "volvulus of the stomach", "twisted stomach"]}
 {"name": "Volvulus intestinal", "synonyms": ["volvulus al intestinului", "rasucire intestinala", "volvulus de intestin", "intestinal volvulus", "volvulus of the intestine", "bowel volvulus"]}
 {"name": "Volvulus intestinal congenital", "synonyms": ["volvulus neonatal", "torsiune intestinala congenitala", "volvulus al intestinului mediu", "midgut volvulus", "neonatal volvulus", "congenital intestinal volvulus"]}
 {"name": "Voma biliara", "synonyms": ["varsatura cu bila", "voma verzuie", "voma cu bila", "bilious vomiting", "bile vomiting", "bilious emesis"]}
 {"name": "Voma psihogena", "synonyms": ["voma asociata cu alte tulburari psihologice", "varsaturi psihogene", "varsaturi functionale", "vomiting associated with other psychological disturbances", "psychogenic vomiting", "functional vomiting"]}
-{"name": "Voyeurism", "synonyms": ["voyerism", "voaiorism", "tulburare voyeurista", "scopofilie", "voyeuristic disorder", "scopophilia", "scoptophilia"]}
 {"name": "Vulvita", "synonyms": ["inflamatia vulvei", "vulvita acuta", "infectie vulvara", "vulvitis", "vulvar infection", "inflammation of the vulva"]}
 {"name": "Vulvita de contact", "synonyms": ["vulvita iritativa", "vulvita de contact alergica", "iritatie vulvara de contact", "contact vulvitis", "irritant vulvitis", "allergic contact vulvitis"]}
 {"name": "Vulvodinie", "synonyms": ["vulvodinia", "durere vulvara cronica", "sindrom de vulvodinie", "vulvodynia", "chronic vulvar pain", "vulvar pain syndrome"]}

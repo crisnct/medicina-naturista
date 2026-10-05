@@ -5,3 +5,5 @@
 - **Lipseau cu totul:** `Variola` (B03), `Voma psihogena` (F50.5), `Voyeurism` (F65.3; dicționarul nu are parafilii, doar `Personalitate sadica`).
 - **Sinonime insuficiente / neadăugate:** vaccinia (B08.0, infecție cu virusul vaccinal — complicație a vaccinării, fără 3 + 3 denumiri reale distincte); metatarsus valgus congenital (Q66.6); ulcerul varicos al septului nazal (I86.8, subzonă rară).
 - **Amânate la altă literă (`pending_from_V.jsonl`):** `Deferentita` (N49.1, „vasita”) → D; `Metatarsus varus` (Q66.2, „varus al metatarsului”) → M; `Sigmatism` (F80.8, „vorbire sâsâită/șopotită”, pelticie) → S.
+- **Corecturi la unirea literelor (coordonator):** `Voyeurism` redenumit `Voaiorism` (forma românească din DEX; dicționarul folosește nume românești), cu „voyeurism” păstrat ca sinonim englezesc.
+- **Amânate de la alte litere, adăugate la unire (coordonator, 2):** `Variola maimutei` (B04; de la I); `Ventricul stang cu dubla iesire` (Q20.2; de la O). Verificate față de dicționarul unit al tuturor literelor (G3, G6).

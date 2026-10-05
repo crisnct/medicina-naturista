@@ -8,7 +8,7 @@
   - dublura categoriei parinte (nespecificat): 1
 - găsite automat în dicționar (P4.1–P4.3): **20**
 - de decis manual (`nou` + `posibil`): **39**
-- **afecțiuni adăugate: 9**
+- **afecțiuni adăugate: 11**
 
 ## Decizii manuale
 
@@ -19,6 +19,8 @@
 - **Lipseau cu totul:** `Variola` (B03), `Voma psihogena` (F50.5), `Voyeurism` (F65.3; dicționarul nu are parafilii, doar `Personalitate sadica`).
 - **Sinonime insuficiente / neadăugate:** vaccinia (B08.0, infecție cu virusul vaccinal — complicație a vaccinării, fără 3 + 3 denumiri reale distincte); metatarsus valgus congenital (Q66.6); ulcerul varicos al septului nazal (I86.8, subzonă rară).
 - **Amânate la altă literă (`pending_from_V.jsonl`):** `Deferentita` (N49.1, „vasita”) → D; `Metatarsus varus` (Q66.2, „varus al metatarsului”) → M; `Sigmatism` (F80.8, „vorbire sâsâită/șopotită”, pelticie) → S.
+- **Corecturi la unirea literelor (coordonator):** `Voyeurism` redenumit `Voaiorism` (forma românească din DEX; dicționarul folosește nume românești), cu „voyeurism” păstrat ca sinonim englezesc.
+- **Amânate de la alte litere, adăugate la unire (coordonator, 2):** `Variola maimutei` (B04; de la I); `Ventricul stang cu dubla iesire` (Q20.2; de la O). Verificate față de dicționarul unit al tuturor literelor (G3, G6).
 
 ## Adăugate
 
@@ -28,11 +30,13 @@
 | Varice sublinguale | I86.0 | varice ale limbii; flebectazii sublinguale; varicozitati sublinguale; sublingual varices; sublingual varicosities; caviar tongue; lingual varices |
 | Varice vulvare | I86.3, O22.1 | vene varicoase vulvare; varice ale vulvei; varicozitati vulvare; vulval varices; vulvar varicosities; vulvar varicose veins; vulvar varices |
 | Variola | B03 | variola majora; variola minora; infectie cu virusul variolic; smallpox; variola major; variola minor; alastrim |
+| Variola maimutei | B04 | infectie cu variola de maimute; variola maimutelor; infectie cu virusul mpox; monkeypox; mpox; monkeypox virus infection |
 | Variola vacii | B08.0 | variola bovina; vaccina; infectie cu virusul cowpox; cowpox; cowpox virus infection; variolae vaccinae |
+| Ventricul stang cu dubla iesire | Q20.2 | orificiu dublu al ventriculului stang; dubla iesire din ventriculul stang; dubla iesire ventriculara stanga; double outlet left ventricle; DOLV; double outlet left ventricular connection |
 | Ventriculita cerebrala | G04.9 | ventriculita; ependimita; empiem intraventricular; ventriculitis; cerebral ventriculitis; ependymitis; pyogenic ventriculitis; ventricular empyema |
 | Vezica neurogena neinhibata | N31.0 | vezica urinara neuropatica neinhibata; vezica neinhibata; vezica neurogena de tip neinhibat; uninhibited neuropathic bladder; uninhibited neurogenic bladder; uninhibited bladder |
+| Voaiorism | F65.3 | voyerism; tulburare voyeurista; scopofilie; voyeurism; voyeuristic disorder; scopophilia; scoptophilia |
 | Voma psihogena | F50.5 | voma asociata cu alte tulburari psihologice; varsaturi psihogene; varsaturi functionale; vomiting associated with other psychological disturbances; psychogenic vomiting; functional vomiting |
-| Voyeurism | F65.3 | voyerism; voaiorism; tulburare voyeurista; scopofilie; voyeuristic disorder; scopophilia; scoptophilia |
 
 ## Decise manual, neadăugate
 
