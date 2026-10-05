@@ -1,6 +1,6 @@
 # Plan: completarea `medical_conditions.jsonl` din CIM-10 (ICD-10), pe litere
 
-**Stare:** aprobat (2026-10-05: Î1 da, Î2 da, Î3 da). Pasul 0 făcut. Pasul 1 (A) făcut: 94 de afecțiuni adăugate (5469 → 5563), raport în `tmp/icd10_work/report_A.md`; **punct de control** — aștept verificarea ta înainte de B–Z.
+**Stare:** aprobat (2026-10-05: Î1 da, Î2 da, Î3 da). Pasul 0 făcut. Pasul 1 (A) făcut și refăcut după D4 revizuit: **79 de afecțiuni cu nume la A** adăugate (5469 → 5548), raport în `tmp/icd10_work/report_A.md`. 22 de afecțiuni găsite la A, dar cu nume la altă literă, așteaptă în `tmp/icd10_work/pending_by_letter.jsonl`. Urmează B.
 
 **Scop:** pentru fiecare literă din alfabetul englez (A–Z, 26 de pași) se caută în CIM-10, în limba română, toate bolile și afecțiunile care încep cu acea literă și **nu** există în `data/medical_conditions.jsonl`. Ce se găsește se adaugă în fișier, cu sinonime în română și în engleză. Regulile actuale ale proiectului despre gruparea mai multor afecțiuni într-una singură rămân valabile (§3).
 
@@ -17,7 +17,7 @@ Planul are trei părți: **[Partea I — Decizii și reguli](#partea-i--decizii-
 | D1 | **Sursa românească:** *Lista tabelară a diagnosticelor RoDRG v1* (CIM-10-AM, ediția a treia, traducerea Centrului de Statistică Sanitară și Documentare Medicală), PDF de ~22,5 MB publicat pe `hosptm.ro`. E clasificarea folosită oficial în spitalele din România. Descărcarea se face doar după acordul tău (pasul 0) |
 | D2 | **Sursa englezească, pe cod:** pentru fiecare cod CIM-10 se ia titlul englezesc al aceluiași cod din ICD-10-CM (CMS, domeniu public). Codurile de 3 și 4 caractere coincid în mare parte între CIM-10-AM, ICD-10 OMS și ICD-10-CM, deci titlul englezesc vine din cod, nu dintr-o traducere. Unde codul nu există în ICD-10-CM, titlul englezesc se scrie din cunoștințele mele |
 | D3 | **Capitole incluse:** I–XVII (`A00`–`Q99`): infecții, neoplasme, sânge și imunitate, endocrine și metabolice, psihice, nervos, ochi, ureche, circulator, respirator, digestiv, piele, osteoarticular, genitourinar, sarcină (doar patologia ei), perinatal, malformații congenitale. **Excluse:** XVIII (`R`, simptome și semne), XIX (`S`–`T`, leziuni, traumatisme, intoxicații), XX (`V`–`Y`, cauze externe), XXI (`Z`, factori și contacte cu serviciile de sănătate), XXII (`U`, coduri speciale). Aceasta e regula din `SPEC.md`: fără simptome izolate, stări fiziologice, leziuni, proceduri. Intrările vechi de aceste tipuri (`Febra`, `Fractura`, `Intoxicatie cu arsenic`) rămân neatinse |
-| D4 | **Litera unui candidat = prima literă a titlului românesc CIM-10**, după scoaterea diacriticelor (`Ă`, `Â` → A; `Î` → I; `Ș` → S; `Ț` → T). Numele canonic ales poate începe cu altă literă (titlul „Tumora maligna a colonului” se tratează la T, chiar dacă afecțiunea ar primi numele „Cancer de ...”); fișierul rămâne oricum sortat (§4.4) |
+| D4 | **Litera unui pas = prima literă a numelui canonic al afecțiunii** (cerut de tine la 2026-10-05), după scoaterea diacriticelor (`Ă`, `Â` → A; `Î` → I; `Ș` → S; `Ț` → T). Candidații unei litere vin din codurile al căror titlu CIM-10 **sau** termen de includere începe cu litera; o afecțiune găsită la o literă, dar cu nume la alta, trece în `tmp/icd10_work/pending_by_letter.jsonl` și se adaugă la pasul literei ei („Tumora maligna a colonului” → `Cancer de ...`, deci la C) |
 | D5 | **Unitatea de lucru = categoria de 3 caractere.** O subcategorie de 4 caractere devine intrare separată **doar** când numește o entitate clinică distinctă (alt tip, altă etiologie, eponim, alt organ). Nu devine intrare separată când precizează doar: o subzonă a aceluiași organ (`C18.0` cec, `C18.2` colon ascendent → „Cancer de colon”), o complicație sau o manifestare („cu comă”, „fără complicații”), lateralitatea, un episod, sau e reziduală („alte”, „nespecificată”). **De confirmat** (întrebarea Î2) |
 | D6 | **Nu se modifică intrările existente:** nu li se adaugă sinonime, nu se redenumesc, nu se șterg. Un titlu CIM-10 care corespunde unei afecțiuni deja prezente sub altă formulare intră doar în raport (§5), ca posibilă completare ulterioară |
 | D7 | **Fără punct de aprobare pe fiecare literă:** ce se găsește se adaugă direct, cum ai cerut. Excepție: după pasul 1 (litera A) mă opresc o dată, ca să verifici calitatea pe un lot real înainte de restul de 25 de pași. **De confirmat** (întrebarea Î3) |
@@ -51,7 +51,7 @@ Regulile vin din scripturile care au construit dicționarul (`collapse_variants.
 
 Fiecare dintre cei 26 de pași aplică aceeași procedură pe litera lui:
 
-- **P1. Extragere.** Din `tmp/icd10_work/icd10_ro.jsonl` (pasul 0) se iau codurile din capitolele incluse (D3) al căror titlu normalizat începe cu litera pasului.
+- **P1. Extragere.** Din `tmp/icd10_work/icd10_ro.jsonl` (pasul 0) se iau codurile din capitolele incluse (D3) al căror titlu normalizat începe cu litera pasului, plus codurile cu titlul la altă literă care au un termen de includere la litera pasului; se adaugă și afecțiunile din `pending_by_letter.jsonl` cu litera pasului (D4).
 - **P2. Filtrare.** Se elimină: titlurile de bloc și de capitol („Boli ale ...”, „Afectiuni ale ...”), categoriile reziduale („Alte ...”, „... nespecificat(a)”, „... neclasificat(a) altundeva”), codurile-asterisc de manifestare („X in boli clasificate altundeva”), sechelele („Sechele ale ...”) și tot ce încalcă G7. Fiecare eliminare are motivul ei în raport.
 - **P3. Grupare CIM-10.** Subcategoriile de 4 caractere se grupează în categoria de 3 caractere sau rămân separate după D5 / G8. Rezultatul: lista de **entități candidate** ale literei.
 - **P4. Potrivire cu dicționarul**, în ordine:
@@ -62,7 +62,7 @@ Fiecare dintre cei 26 de pași aplică aceeași procedură pe litera lui:
   
   Tot ce nu se potrivește e **nou**.
 - **P5. Grupare între candidați.** Candidații noi ai literei se compară și între ei, și cu cei adăugați la literele anterioare, după G1–G5, ca aceeași boală să nu intre de două ori.
-- **P6. Scrierea liniilor** după §2: nume canonic în stilul proiectului, ≥ 3 + 3 sinonime reale, G6 verificat pe tot fișierul.
+- **P6. Scrierea liniilor** după §2: nume canonic în stilul proiectului, ≥ 3 + 3 sinonime reale, G6 verificat pe tot fișierul. Numele canonic începe cu litera pasului; altfel linia merge în `pending_by_letter.jsonl` (D4).
 - **P7. Inserare.** Liniile noi se inserează la locul lor, cu cheia de sortare existentă `(_normalize(name), name)` (cea din `consolidate.py`); restul fișierului rămâne identic octet cu octet. Formatul: `json.dumps(obj, ensure_ascii=False)`, LF, `\n` final.
 - **P8. Verificare și raport.** Trec testele dicționarului (`src/tests/unit/ai/test_conditions.py`) și rulează `src/scripts/audit_near_dupes.py`; perechile noi semnalate de audit se verifică manual. Raportul literei se scrie în `tmp/icd10_work/report_<litera>.md` (§5). Dacă o literă nu are nimic nou, raportul spune asta și pasul se încheie fără modificări.
 
