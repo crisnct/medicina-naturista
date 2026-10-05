@@ -1,14 +1,12 @@
-===== NOU (14)
+===== NOU (12)
 K22.1   Ulcerul esofagului  <Ulcer of esophagus>
 K62.6   Ulcerul anusului si rectului  <Ulcer of anus and rectum>
 L50.4   Urticaria provocata de vibratii  <Vibratory urticaria>
 M95.1   Urechi in "floare de varza"  <Cauliflower ear>
-N13.7   Uropatia asociata cu un reflux vezico-ureteral  <Vesicoureteral-reflux>
 N34     Uretrita si sindromul uretral  <Urethritis and urethral syndrome>
 N48.5   Ulceratia penisului  <Ulcer of penis>
 N76.5   Ulceratie a vaginului  <Ulceration of vagina>
 N76.6   Ulceratie a vulvei  <Ulceration of vulva>
-N81.0   Uretrocel la femeie  <Urethrocele>
 Q17.5   Ureche proeminenta  {Ureche in forma de liliac}  <Prominent ear>
 Q62.52  Ureter triplu
 Q64.74  Uretra ectopica sau orificiu uretral ectopic  <Double urethra>
@@ -25,7 +23,7 @@ N34.1   Uretrita nespecifica  <Nonspecific urethritis> ~ Aortita
 Q51.1   Uter dublu cu cervix si vagin duble  <Doubling of uterus with doubling of cervix and vagina> ~ Uter didelf
 Q62.32  Ureterocel ortotopic  <Cecoureterocele> ~ Ureterocel
 Q64.73  Uretra dubla  {Meat urinar dublu}  <Congenital urethrorectal fistula> ~ Duplicatie ureterala
-===== EXISTA (14)
+===== EXISTA (16)
 H16.0   Ulcer cornean = Ulcer cornean [exact]
 K25     Ulcer gastric = Ulcer gastric [exact]
 K26     Ulcer duodenal = Ulcer duodenal [exact]
@@ -36,6 +34,8 @@ L50.6   Urticaria de contact = Urticarie de contact [terminatii]
 L56.3   Urticaria solara = Urticarie solara [terminatii]
 L60.0   Unghia incarnata = Onicocriptoza [terminatii]
 L89     Ulceratia de decubitus = Escara [terminatii]
+N13.7   Uropatia asociata cu un reflux vezico-ureteral = Reflux vezicoureteral [exact]
+N81.0   Uretrocel la femeie = Uretrocel [exact]
 Q51.3   Uter bicorn = Uter bicorn [exact]
 Q51.4   Uter unicorn = Uter unicorn [exact]
 Q62.31  Ureterocel ectopic = Ureterocel [exact]
