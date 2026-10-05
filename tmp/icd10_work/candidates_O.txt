@@ -1,4 +1,4 @@
-===== NOU (78)
+===== NOU (74)
 A50.3   Oculopatia sifilitica congenitala tardiva  {Keratita interstitiala sifilitica congenitala tardiva† / NEC†}  <Late congenital syphilitic oculopathy>
 B26.8   Oreionul cu alte complicatii  <Mumps with other complications>
 B26.9   Oreionul fara complicatii  <Mumps without complication>
@@ -9,7 +9,6 @@ F66.1   Orientara sexuala egodistonica
 H00     Orgelet si chalazion  <Hordeolum and chalazion>
 H34     Ocluzia vasculara retiniana  <Retinal vascular occlusions>
 H34.0   Ocluzia tranzitorie a arterei retiniene  <Transient retinal artery occlusion>
-H34.1   Ocluzia arterei retiniene centrale  <Central retinal artery occlusion>
 H43.2   Opacitati cristaline ale corpului vitros  <Crystalline deposits in vitreous body>
 H49.3   Oftalmoplegia totala (externa)  {externa}  <Total (external) ophthalmoplegia>
 H80.0   Otoscleroza neobliteranta, interesind fereastra ovala  <Otosclerosis involving oval window, nonobliterative>
@@ -66,22 +65,18 @@ M92.4   Osteocondroza juvenila a patelei  <Juvenile osteochondrosis of patella>
 M92.5   Osteocondroza juvenila a tibiei si peroneului  <Juvenile osteochondrosis of tibia and fibula>
 M92.6   Osteocondroza juvenila a tarsului  <Juvenile osteochondrosis of tarsus>
 M92.7   Osteocondroza juvenila a metatarsului  <Juvenile osteochondrosis of metatarsus>
-N32.0   Obstructia colului vezicii urinare  <Bladder-neck obstruction>
 P38     Omfalita nou-nascutului cu sau fara hemoragie usoara  <Omphalitis of newborn>
 Q11.0   Ochi chistic  <Cystic eyeball>
-Q13.3   Opacitatea congenitala a corneei  <Congenital corneal opacity>
-Q20.1   Orificiu dublu al ventriculului drept  {Sindromul Taussig-Bing}  <Double outlet right ventricle>
 Q20.2   Orificiu dublu al ventriculului stang  <Double outlet left ventricle>
 Q50.31  Ovar striat  <Accessory ovary>
 Q64.31  Obstructia congenitala a gatului vezicii  <Congenital bladder neck obstruction>
 Q74.01  Oase carpiene accesorii
 Q77     Osteocondrodisplazia cu defecte de crestere ale oaselor tubulare si ale coloanei vertebrale  <Osteochondrodysplasia with defects of growth of tubular bones and spine>
 Q78.9   Osteocondrodisplazia, nespecificata  {Condrodistrofia / Osteodistrofia}  <Osteochondrodysplasia, unspecified>
-===== POSIBIL (46)
-B66.0   Opistorchiaza  <Opisthorchiasis> ~ Opistorhoza
+===== POSIBIL (42)
 E66.2   Obezitate extrema cu hipoventilatie alveolara  {Sindromul Pickwickian}  <Morbid (severe) obesity with alveolar hypoventilation> ~ Hipoventilatie asociata obezitatii | Sindrom de hipoventilatie alveolara
 G23.1   Oftalmoplegia supranucleara pregresiva [Steele-Richardson-Olszewski]  {Steele-Richardson-Olszewski}  <Progressive supranuclear ophthalmoplegia [Steele-Richardson-Olszewski]> ~ Paralizia privirii | Paralizie supranucleara progresiva
-H00.0   Orgelet si alte inflamatii profunde ale pleoapei  {Abcesul pleoapei / Furunculul pleoapei / Urcior}  <Hordeolum (externum) (internum) of eyelid> ~ Blefarita
+H00.0   Orgelet si alte inflamatii profunde ale pleoapei  {Abcesul pleoapei / Furunculul pleoapei / Urcior}  <Hordeolum (externum) (internum) of eyelid> ~ Blefarita | Abces palpebral
 H60.5   Otita externa acuta, neinfectioasa  <Acute noninfective otitis externa> ~ Otita externa
 H62.0   Otita externa in bolile bacteriene clasificate altundeva  {Otita externa in erizipel} ~ Otita externa
 H62.1   Otita externa in bolile virale clasificate altundeva ~ Otita externa
@@ -89,7 +84,6 @@ H62.2   Otita externa in micoze ~ Otita externa
 H62.3   Otita externa in alte boli infectioase si parazitare clasificate altundeva ~ Otita externa
 H65     Otita medie nesupurata  <Nonsuppurative otitis media> ~ Otita medie | Otita medie necrozanta
 H66     Otita medie supurativa si nespecificata  <Suppurative and unspecified otitis media> ~ Otita medie
-H66.0   Otita medie acuta supurativa  <Acute suppurative otitis media> ~ Otita medie
 H66.1   Otita medie cronica tubo-timpanica supurata  {Otita medie cronica supurata benigna / Boala tubo-timpanica cronica}  <Chronic tubotympanic suppurative otitis media> ~ Otita medie
 H66.2   Otita medie cronica atticoantrala supurata  {Boala atticoantrala cronica}  <Chronic atticoantral suppurative otitis media> ~ Otita medie
 H66.4   Otita medie supurata, nespecificata  {Otita medie purulenta}  <Suppurative otitis media, unspecified> ~ Otita medie | Otita medie secretorie
@@ -105,7 +99,6 @@ I65.9   Ocluzia si stenoza unei arterei precerebrale nespecificata  {Artera prec
 I66     Ocluzia si stenoza arterelor cerebrale, nerezultand in infarct cerebral  <Occlusion and stenosis of cerebral arteries, not resulting in cerebral infarction> ~ Accident vascular cerebral ischemic
 K31.5   Obstructia duodenului  {Constrictia duodenului / Stenoza duodenului / Scleroza duodenului / Ileus duodenal (cronic)}  <Obstruction of duodenum> ~ Obstructie duodenala
 K83.1   Obstructia cailor biliare  {Ocluzia cailor biliare fara calculi / Stenoza cailor biliare fara calculi / Strictura cailor biliare fara calculi}  <Obstruction of bile duct> ~ Stenoza de cale lacrimala | Litiaza biliara
-L60.1   Onicholiza  <Onycholysis> ~ Onicoliza
 L63.2   Ophiasis  <Ophiasis> ~ Loaza
 M42.1   Osteocondroza vertebrala a adultului  <Adult osteochondrosis of spine> ~ Boala Scheuermann
 M80.2   Osteoporoza de inactivitate cu fractura patologica ~ Osteoporoza de imobilizare
@@ -119,16 +112,17 @@ M91.1   Osteocondroza juvenila a capului femural [Legg-Calve-Perthes]  {Legg-Cal
 M92.9   Osteocondroza juvenila, nespecificata  {Apofizita specificata ca fiind juvenila, localizare / Epifizita specificata ca fiind juvenila, localizare / Osteocondrita specificata ca fiind juvenila, localizare / Osteocondroza specificata ca fiind juvenila, localizare}  <Juvenile osteochondrosis, unspecified> ~ Osteoporoza senila
 N45     Orhita si epididimita  <Orchitis and epididymitis> ~ Epididimo-orhita
 N45.0   Orhita, epididimita si epididimo-orhita cu abces  {Abces al epididimului sau testiculului} ~ Epididimo-orhita
-N91.4   Oligomenoree secundara  <Secondary oligomenorrhea> ~ Oligomenoree
+N91.4   Oligomenoree secundara  <Secondary oligomenorrhea> ~ Oligomenoree | Amenoree secundara
 O02.0   Ou clar si mola nehidatiforma  <Blighted ovum and nonhydatidiform mole> ~ Mola hidatiforma
 P76.2   Obstructia intestinala datorita laptelui ingrosat  <Intestinal obstruction due to inspissated milk> ~ Ocluzie intestinala
 P76.9   Obstructia intestinala a nou-nascutului, nespecificata  <Intestinal obstruction of newborn, unspecified> ~ Ocluzie intestinala
-Q78.2   Osteopetroza  {Sindromul Albers-Schönberg}  <Osteopetrosis> ~ Osteoporoza | Osteogenesis imperfecta | Osteoscleroza | Osteopetrosis
-===== EXISTA (31)
+===== EXISTA (39)
 B26     Oreion = Oreion [exact]
 B26.0   Orhita urliana = Orhita urliana [exact]
+B66.0   Opistorchiaza = Opistorhoza [exact]
 B73     Onchocercoza = Oncocercoza [terminatii]
 E66     Obezitate = Obezitate [exact]
+H34.1   Ocluzia arterei retiniene centrale = Ocluzie de artera centrala a retinei [exact]
 H49.4   Oftalmoplegia externa progresiva = Oftalmoplegie externa progresiva [terminatii]
 H51.2   Oftalmoplegia internucleara = Oftalmoplegie internucleara [terminatii]
 H60     Otita externa = Otita externa [exact]
@@ -136,8 +130,10 @@ H60.2   Otita externa maligna = Otita externa maligna [exact]
 H65.0   Otita medie seroasa acuta = Otita medie secretorie [temporal (G1)]
 H65.2   Otita medie seroasa cronica = Otita medie secretorie [temporal (G1)]
 H65.3   Otita medie mucoida cronica = Otita medie mucoida [temporal (G1)]
+H66.0   Otita medie acuta supurativa = Otita medie [exact]
 H66.9   Otita medie, nespecificata = Otita medie [exact]
 H80     Otoscleroza = Otoscleroza [exact]
+L60.1   Onicholiza = Onicoliza [exact]
 L60.2   Onichogrifoza = Onicogrifoza [exact]
 M25.7   Osteofit = Osteofit [exact]
 M42     Osteocondroza vertebrala = Boala Scheuermann [exact]
@@ -150,12 +146,16 @@ M89.5   Osteoliza = Osteoliza [exact]
 M93.2   Osteocondrita disecanta = Osteocondrita disecanta [exact]
 M93.9   Osteocondropatia, nespecificata = Osteocondroza [terminatii]
 N25.0   Osteodistrofia renala = Osteodistrofie renala [terminatii]
+N32.0   Obstructia colului vezicii urinare = Scleroza de col vezical [exact]
 N45.9   Orhita, epididimita si epididimo-orhita fara abces = Epididimita [exact]
 N91.3   Oligomenoree primara = Oligomenoree [exact]
 N91.5   Oligomenoree, nespecificata = Oligomenoree [exact]
 O41.0   Oligohidramnios = Oligohidramnios [exact]
+Q13.3   Opacitatea congenitala a corneei = Sclerocornee [exact]
+Q20.1   Orificiu dublu al ventriculului drept = Ventricul drept cu dubla iesire [exact]
 Q20.4   Orificiu dublu ventricular = Ventricul unic [exact]
 Q78.0   Osteogeneza imperfecta = Osteogenesis imperfecta [exact]
+Q78.2   Osteopetroza = Osteopetrosis [exact]
 ===== ELIMINAT (63)
 C10.9   Orofaringe, nesepcificat [subzona de organ (D5)]
 C40.0   Omoplatul si oasele lungi ale membrelor superioare [subzona de organ (D5)]
