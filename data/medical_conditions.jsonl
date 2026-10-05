@@ -6194,16 +6194,22 @@
 {"name": "Vaginism", "synonyms": ["contractura reflexa a muschilor vaginali", "contractura vaginala involuntara", "spasm al muschilor vaginali", "vaginismus", "vaginal spasm", "involuntary vaginal contraction"]}
 {"name": "Vaginita", "synonyms": ["inflamatia vaginului", "vaginita acuta", "infectie vaginala", "vaginitis", "vaginal infection", "vaginal inflammation"]}
 {"name": "Vaginita bacteriana", "synonyms": ["vaginoza bacteriana", "infectie cu Gardnerella vaginalis", "vaginita nespecifica", "bacterial vaginosis", "Gardnerella vaginitis", "non-specific vaginitis"]}
+{"name": "Valve uretrale anterioare", "synonyms": ["valve uretrale anterioare congenitale", "valva uretrala anterioara", "obstructie congenitala a uretrei anterioare", "congenital anterior urethral valves", "anterior urethral valves", "anterior urethral valve", "congenital anterior urethral obstruction"]}
 {"name": "Valve uretrale posterioare", "synonyms": ["valve ale uretrei posterioare", "obstructie prin valve uretrale", "valve uretrale congenitale", "posterior urethral valves", "congenital urethral valves", "urethral valve obstruction"]}
 {"name": "Valvulita", "synonyms": ["inflamatia valvelor cardiace", "valvulita cardiaca", "inflamatie valvulara cardiaca", "valvulitis", "cardiac valve inflammation", "inflammation of the heart valves"]}
 {"name": "Valvulopatie cardiaca", "synonyms": ["boala valvulara cardiaca", "valvulopatie", "afectiune a valvelor cardiace", "valvular heart disease", "valvular disease of the heart", "cardiac valve disease"]}
 {"name": "Varice", "synonyms": ["vine vinete", "vene varicoase", "varicoza", "dilatatii venoase", "varicose veins", "varicosities", "varicose vein disease"]}
 {"name": "Varice esofagiene", "synonyms": ["varice de esofag", "dilatatii venoase esofagiene", "varice esofagiene si gastrice", "esophageal varices", "oesophageal varices", "esophageal varicose veins", "varice esofagiene hemoragice", "varice esofagiene sangerande", "bleeding esophageal varices", "esophageal variceal hemorrhage"]}
 {"name": "Varice gastrice", "synonyms": ["varice gastrice hemoragice", "varice de stomac", "varice gastrice sangerande", "gastric varices", "bleeding gastric varices", "gastric variceal hemorrhage"]}
+{"name": "Varice sublinguale", "synonyms": ["varice ale limbii", "flebectazii sublinguale", "varicozitati sublinguale", "sublingual varices", "sublingual varicosities", "caviar tongue", "lingual varices"]}
+{"name": "Varice vulvare", "synonyms": ["vene varicoase vulvare", "varice ale vulvei", "varicozitati vulvare", "vulval varices", "vulvar varicosities", "vulvar varicose veins", "vulvar varices"]}
 {"name": "Varicela", "synonyms": ["varsat", "varsat de vant", "pojar de apa", "infectie cu virus varicelo-zosterian", "chickenpox", "varicella", "chicken pox"]}
 {"name": "Varicela congenitala", "synonyms": ["sindromul varicelei congenitale", "varicela neonatala", "varicela la nou-nascut", "congenital varicella syndrome", "congenital varicella", "neonatal varicella"]}
 {"name": "Varicela progresiva", "synonyms": ["varicela hemoragica", "varicela maligna", "varicela buloasa", "progressive varicella", "hemorrhagic varicella", "malignant varicella"]}
 {"name": "Varicocel", "synonyms": ["dilatatie venoasa testiculara", "varice testiculare", "varice ale cordonului spermatic", "varicocele", "testicular varicose veins", "pampiniform plexus varicosity"]}
+{"name": "Variola", "synonyms": ["variola majora", "variola minora", "infectie cu virusul variolic", "smallpox", "variola major", "variola minor", "alastrim"]}
+{"name": "Variola maimutei", "synonyms": ["infectie cu variola de maimute", "variola maimutelor", "infectie cu virusul mpox", "monkeypox", "mpox", "monkeypox virus infection"]}
+{"name": "Variola vacii", "synonyms": ["variola bovina", "vaccina", "infectie cu virusul cowpox", "cowpox", "cowpox virus infection", "variolae vaccinae"]}
 {"name": "Varsaturi", "synonyms": ["voma", "varsatura", "emeza", "vomiting", "emesis", "throwing up"]}
 {"name": "Vasa praevia", "synonyms": ["vase ombilicale praevia", "vase fetale nesustinute de cordon", "vase ombilicale anormale", "vasa previa", "aberrant umbilical vessels", "abnormal umbilical vessels"]}
 {"name": "Vasculita cerebrala", "synonyms": ["angiita cerebrala", "vasculita primara a sistemului nervos central", "arterita cerebrala", "cerebral vasculitis", "primary angiitis of the central nervous system", "central nervous system vasculitis", "vasculita a sistemului nervos central", "angita cerebrala", "vasculita primara cerebrala"]}
@@ -6212,7 +6218,9 @@
 {"name": "Vasculita reumatoida", "synonyms": ["angita reumatoida", "vasculita din artrita reumatoida", "vasculita necrozanta reumatoida", "rheumatoid vasculitis", "rheumatoid angitis", "vasculitis in rheumatoid arthritis"]}
 {"name": "Vasculita septica", "synonyms": ["vasculita infectioasa", "vasculita din sepsis", "angita septica", "septic vasculitis", "infectious vasculitis", "vasculitis due to sepsis"]}
 {"name": "Ventricul drept cu dubla iesire", "synonyms": ["dubla iesire ventriculara dreapta", "DORV", "dubla iesire din ventriculul drept", "double outlet right ventricle", "double outlet right ventricle anomaly", "double outlet right ventricular connection"]}
+{"name": "Ventricul stang cu dubla iesire", "synonyms": ["orificiu dublu al ventriculului stang", "dubla iesire din ventriculul stang", "dubla iesire ventriculara stanga", "double outlet left ventricle", "DOLV", "double outlet left ventricular connection"]}
 {"name": "Ventricul unic", "synonyms": ["ventricul unic congenital", "ventricul comun", "cord univentricular", "single ventricle", "univentricular heart", "common ventricle"]}
+{"name": "Ventriculita cerebrala", "synonyms": ["ventriculita", "ependimita", "empiem intraventricular", "ventriculitis", "cerebral ventriculitis", "ependymitis", "pyogenic ventriculitis", "ventricular empyema"]}
 {"name": "Vergeturi", "synonyms": ["striuri", "striuri cutanate", "cicatrici de intindere", "stretch marks", "striae", "striae distensae"]}
 {"name": "Vertij", "synonyms": ["ameteala", "senzatie de rotire", "tulburari de echilibru", "vertigo", "dizziness", "giddiness"]}
 {"name": "Vertij central", "synonyms": ["vertij de origine centrala", "vertij cerebral", "vertij de cauza centrala", "central vertigo", "central vestibular vertigo", "cerebral vertigo"]}
@@ -6224,6 +6232,7 @@
 {"name": "Vezica hiperactiva", "synonyms": ["sindrom de vezica hiperactiva", "vezica iritabila", "hiperactivitate detrusoriana", "overactive bladder", "irritable bladder", "detrusor overactivity"]}
 {"name": "Vezica neurogena", "synonyms": ["vezica neurologica", "disfunctie neurogena a vezicii", "vezica neuropata", "neurogenic bladder", "neuropathic bladder", "neurogenic bladder dysfunction"]}
 {"name": "Vezica neurogena flasca", "synonyms": ["vezica atona", "vezica neurogena de tip flasc", "vezica paralitica", "flaccid neurogenic bladder", "atonic bladder", "lower motor neuron bladder"]}
+{"name": "Vezica neurogena neinhibata", "synonyms": ["vezica urinara neuropatica neinhibata", "vezica neinhibata", "vezica neurogena de tip neinhibat", "uninhibited neuropathic bladder", "uninhibited neurogenic bladder", "uninhibited bladder"]}
 {"name": "Vezica neurogena spastica", "synonyms": ["vezica reflexa", "vezica neurogena de tip spastic", "hiperreflexie detrusoriana neurogena", "spastic neurogenic bladder", "reflex bladder", "upper motor neuron bladder"]}
 {"name": "Veziculita seminala", "synonyms": ["veziculita seminala cronica", "inflamatia veziculelor seminale", "infectie a veziculelor seminale", "seminal vesiculitis", "seminal vesicle infection", "inflammation of the seminal vesicles"]}
 {"name": "VIP-om", "synonyms": ["vipom", "tumora secretoare de peptide intestinal vasoactiv", "sindrom Verner-Morrison", "VIPoma", "vasoactive intestinal peptide tumor", "Verner-Morrison syndrome", "tumora secretanta de VIP", "diaree apoasa hipokalemica prin VIP"]}
@@ -6232,10 +6241,12 @@
 {"name": "Viroza respiratorie", "synonyms": ["infectie virala respiratorie", "infectie acuta de cai respiratorii superioare", "raceala virala", "viral respiratory infection", "acute viral upper respiratory infection", "common cold virus infection"]}
 {"name": "Vitiligo", "synonyms": ["pete albe", "pete albe pe piele", "depigmentare cutanata", "leucodermie", "skin depigmentation", "white skin patches", "leukoderma"]}
 {"name": "Vitreoretinopatie proliferativa", "synonyms": ["retinopatie proliferativa vitreoretiniana", "proliferare fibroasa vitreoretiniana", "membrana fibroasa vitreoretiniana", "proliferative vitreoretinopathy", "vitreoretinal proliferation", "proliferative vitreoretinal disease"]}
+{"name": "Voaiorism", "synonyms": ["voyerism", "tulburare voyeurista", "scopofilie", "voyeurism", "voyeuristic disorder", "scopophilia", "scoptophilia"]}
 {"name": "Volvulus gastric", "synonyms": ["volvulus al stomacului", "rasucire a stomacului", "volvulus gastric acut", "gastric volvulus", "volvulus of the stomach", "twisted stomach"]}
 {"name": "Volvulus intestinal", "synonyms": ["volvulus al intestinului", "rasucire intestinala", "volvulus de intestin", "intestinal volvulus", "volvulus of the intestine", "bowel volvulus"]}
 {"name": "Volvulus intestinal congenital", "synonyms": ["volvulus neonatal", "torsiune intestinala congenitala", "volvulus al intestinului mediu", "midgut volvulus", "neonatal volvulus", "congenital intestinal volvulus"]}
 {"name": "Voma biliara", "synonyms": ["varsatura cu bila", "voma verzuie", "voma cu bila", "bilious vomiting", "bile vomiting", "bilious emesis"]}
+{"name": "Voma psihogena", "synonyms": ["voma asociata cu alte tulburari psihologice", "varsaturi psihogene", "varsaturi functionale", "vomiting associated with other psychological disturbances", "psychogenic vomiting", "functional vomiting"]}
 {"name": "Vulvita", "synonyms": ["inflamatia vulvei", "vulvita acuta", "infectie vulvara", "vulvitis", "vulvar infection", "inflammation of the vulva"]}
 {"name": "Vulvita de contact", "synonyms": ["vulvita iritativa", "vulvita de contact alergica", "iritatie vulvara de contact", "contact vulvitis", "irritant vulvitis", "allergic contact vulvitis"]}
 {"name": "Vulvodinie", "synonyms": ["vulvodinia", "durere vulvara cronica", "sindrom de vulvodinie", "vulvodynia", "chronic vulvar pain", "vulvar pain syndrome"]}
