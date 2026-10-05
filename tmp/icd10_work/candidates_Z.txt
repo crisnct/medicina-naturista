@@ -1,13 +1,13 @@
 ===== NOU (0)
-===== POSIBIL (4)
+===== POSIBIL (3)
 B02.2   Zona zoster insotita de alte manifestari neurologice  <Zoster with other nervous system involvement> ~ Zona zoster
 B02.8   Zona zoster cu alte complicatii  <Zoster with other complications> ~ Zona zoster
 B02.9   Zona zoster, fara complicatii  <Zoster without complications> ~ Zona zoster
-B46     Zygomicoza  <Zygomycosis> ~ Mucormikoza
-===== EXISTA (3)
+===== EXISTA (4)
 B02     Zona zoster [herpes zoster] = Zona zoster [exact]
 B02.3   Zona zoster oftalmica = Zona zoster oftalmica [exact]
 B02.7   Zona zoster diseminata = Zona zoster diseminata [exact]
+B46     Zygomicoza = Mucormikoza [exact]
 ===== ELIMINAT (2)
 B46.9   Zygomicoza, nespecificata [dublura categoriei parinte (nespecificat)]
 C13.0   Zona retro-cricoidiana [subzona de organ (D5)]
