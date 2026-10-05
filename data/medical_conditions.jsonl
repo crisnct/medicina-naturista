@@ -1791,6 +1791,7 @@
 {"name": "Deficit de subclase IgG", "synonyms": ["deficit de imunoglobulina G", "deficit partial de IgG", "deficit izolat de subclasa IgG", "IgG subclass deficiency", "immunoglobulin G deficiency", "selective IgG subclass deficiency"]}
 {"name": "Deficit de sulfit oxidaza", "synonyms": ["deficit in sulfit oxidaza", "deficit izolat de sulfit oxidaza", "sulfocisteinurie", "sulfite oxidase deficiency", "isolated sulfite oxidase deficiency", "sulfocysteinuria"]}
 {"name": "Deficit de tiamina", "synonyms": ["carenta de vitamina B1", "hipovitaminoza B1", "deficit de aneurina", "thiamine deficiency", "vitamin B1 deficiency", "thiamin deficiency"]}
+{"name": "Deficit de transcobalamina II", "synonyms": ["carenta de transcobalamina II", "deficit ereditar de transcobalamina", "deficienta de transcobalamina", "transcobalamin II deficiency", "transcobalamin deficiency", "TCII deficiency"]}
 {"name": "Deficit de TSH", "synonyms": ["deficit de tirotropina", "insuficienta tireotropa", "hiposecretie de TSH", "TSH deficiency", "thyrotropin deficiency", "thyroid-stimulating hormone deficiency"]}
 {"name": "Deficit de vitamina A", "synonyms": ["carenta de vitamina A", "hipovitaminoza A", "hipovitaminoza A severa", "vitamin A deficiency", "retinol deficiency", "hypovitaminosis A"]}
 {"name": "Deficit de vitamina B12", "synonyms": ["carenta de vitamina B12", "hipovitaminoza B12", "lipsa vitaminei B12", "vitamin b12 deficiency", "cobalamin deficiency", "low vitamin b12"]}
@@ -1863,6 +1864,7 @@
 {"name": "Depresie postnatala", "synonyms": ["depresie post-partum", "depresie dupa nastere", "depresie puerperala", "postpartum depression", "postnatal depression", "baby blues"]}
 {"name": "Depresie postschizofrenica", "synonyms": ["depresie post-schizofrenica", "depresie postpsihotica schizofrenica", "depresie dupa episod schizofrenic", "post-schizophrenic depression", "postpsychotic depression of schizophrenia", "post-schizophrenia depression"]}
 {"name": "Depresie psihotica", "synonyms": ["depresie cu simptome psihotice", "depresie deliranta", "depresie halucinatorie", "psychotic depression", "depression with psychotic features", "delusional depression"]}
+{"name": "Depresie recurenta de scurta durata", "synonyms": ["episoade depresive recurente de scurta durata", "depresie scurta recurenta", "tulburare depresiva recurenta scurta", "recurrent brief depression", "recurrent brief depressive disorder", "brief recurrent depression"]}
 {"name": "Depresie rezistenta la tratament", "synonyms": ["depresie refractara", "depresie fara raspuns la tratament", "depresie rezistenta la antidepresive", "treatment-resistant depression", "refractory depression", "antidepressant-resistant depression"]}
 {"name": "Derealizare", "synonyms": ["sindrom de derealizare", "senzatie de irealitate a mediului", "detasare de realitate", "derealization", "derealization disorder", "feeling of unreality about the environment"]}
 {"name": "Dermatilomanie", "synonyms": ["mananca pielea", "tulburare de scarpinare a pielii", "scarpinare compulsiva a pielii", "leziuni cutanate autoinduse", "excoriation disorder", "skin picking disorder", "dermatillomania"]}
@@ -1980,10 +1982,12 @@
 {"name": "Disinergie detrusor-sfincteriana", "synonyms": ["disinergie vezico-sfincteriana", "asincronism detrusor-sfincter", "disinergie sfincteriana", "detrusor-sphincter dyssynergia", "bladder-sphincter dyssynergia", "DSD"]}
 {"name": "Diskeratoza congenitala", "synonyms": ["sindrom Zinsser-Cole-Engman", "diskeratoza congenitala cu pancitopenie", "diskeratoza ereditara", "dyskeratosis congenita", "Zinsser-Cole-Engman syndrome", "inherited dyskeratosis"]}
 {"name": "Diskinezie tardiva", "synonyms": ["discinezie tardiva", "diskinezie orofaciala tardiva", "discinezie indusa de neuroleptice", "tardive dyskinesia", "tardive oral dyskinesia", "neuroleptic-induced dyskinesia"]}
+{"name": "Dislalie", "synonyms": ["tulburare specifica de articulare a vorbirii", "tulburare fonologica", "tulburare de articulare a vorbirii", "phonological disorder", "speech sound disorder", "dyslalia"]}
 {"name": "Dislexie", "synonyms": ["tulburare de citire", "dificultate de citire", "tulburare specifica de lectura", "dyslexia", "reading disorder", "developmental reading disorder"]}
 {"name": "Dislipidemie", "synonyms": ["tulburari ale lipidelor din sange", "grasimi crescute in sange", "hiperlipidemie", "dyslipidemia", "hyperlipidemia", "lipid disorder"]}
 {"name": "Dismenoree", "synonyms": ["dureri de ciclu", "menstruatie dureroasa", "dureri menstruale", "crampe menstruale", "painful periods", "menstrual cramps", "period pain"]}
 {"name": "Disociatie atrioventriculara", "synonyms": ["disociere atrioventriculara", "disociatie AV", "disociere de interferenta", "atrioventricular dissociation", "AV dissociation", "interference dissociation"]}
+{"name": "Disortografie", "synonyms": ["tulburare specifica de ortografie", "disortografie de dezvoltare", "tulburare de ortografie", "specific spelling disorder", "dysorthography", "spelling disorder"]}
 {"name": "Dispareunie", "synonyms": ["raport sexual dureros", "durere la contactul sexual", "durere vaginala la penetrare", "dyspareunia", "painful intercourse", "genital pain during intercourse"]}
 {"name": "Dispepsie", "synonyms": ["greutate la stomac", "indigestie", "digestie dificila", "tulburari de digestie", "dyspepsia", "indigestion", "upset stomach"]}
 {"name": "Displazie campomelica", "synonyms": ["boala oaselor curbate", "displazie campomelica letala", "nanism campomelic", "campomelic dysplasia", "campomelic dwarfism", "campomelic syndrome"]}
@@ -2081,6 +2085,7 @@
 {"name": "Duplicatie esofagiana", "synonyms": ["chist duplicat esofagian", "dublura esofagului", "duplicatie congenitala a esofagului", "esophageal duplication", "duplication cyst of the esophagus", "congenital esophageal duplication"]}
 {"name": "Duplicatie gastrica", "synonyms": ["chist duplicat gastric", "duplicatie de stomac", "duplicatie chistica gastrica", "gastric duplication", "duplication cyst of the stomach", "gastric duplication cyst"]}
 {"name": "Duplicatie ureterala", "synonyms": ["ureter dublu", "ureter bifid", "duplicatie de ureter", "ureteral duplication", "duplex ureter", "double ureter"]}
+{"name": "Duplicatie uretrala", "synonyms": ["uretra dubla", "meat urinar dublu", "uretra accesorie", "urethral duplication", "double urethra", "duplicated urethra", "accessory urethra"]}
 {"name": "Durere de cap", "synonyms": ["cefalee", "dureri de cap", "cefalee de tensiune", "headache", "tension headache", "head pain"]}
 {"name": "Durere faciala atipica", "synonyms": ["algie faciala atipica", "durere faciala idiopatica persistenta", "prosopalgie atipica", "atypical facial pain", "persistent idiopathic facial pain", "atypical facial neuralgia"]}
 {"name": "Durere ovulatorie", "synonyms": ["dureri intermenstruale", "sindrom intermenstrual", "durere de ovulatie", "Mittelschmerz", "ovulation pain", "midcycle pain", "intermenstrual pain"]}

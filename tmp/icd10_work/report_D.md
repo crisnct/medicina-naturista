@@ -7,7 +7,7 @@
   - asterisc (in alte boli): 3
 - găsite automat în dicționar (P4.1–P4.3): **82**
 - de decis manual (`nou` + `posibil`): **415**
-- **afecțiuni adăugate: 41**
+- **afecțiuni adăugate: 46**
 
 ## Decizii manuale
 
@@ -21,6 +21,7 @@
 - **Sinonime insuficiente / lăsate deoparte:** deficitul de lanț kappa ușor (D80.8), deficitul de fosfatază acidă (E83.3), disfuncția glandei pineale, displazia dentinară, dintele Turner (hipoplazie de smalt, la H), diverticulul bronșic congenital, discraniopigofalangia.
 - **Lăsate literei titlului / termenului (nu le-am scris, ca să nu apară de două ori):** Sneddon-Wilkinson (termen de includere la B), fluoroza dentară (la F), nevroza de compensație (la N), sindromul Woakes (la S), Hallervorden-Spatz (titlu la B), Wilson-Mikity și sindromul coastei scurte / Jeune (titluri la S), condrodisplazia punctată și cea metafizară (titluri la C), nanismul metatropic (la N), rinichiul dublu (la R), gemenii uniți (la G), malocluzia / distocluzia (K07.4, la M), contracțiile uterine hipertone / inerția uterină (titluri la C și I), tulburarea anxios-depresivă mixtă (la T).
 - **Amânate la altă literă (`pending_from_D.jsonl`, 8):** B — `Boala Grover` (L11.1), `Bursita calcificata` (M71.4); P — `Police trifalangian` (Q74.03); S — `Sindrom Hallermann-Streiff` (Q75.5), `Sindrom fetal warfarinic` (Q86.2), `Sindrom Frohlich` (E23.6, distrofia adipozo-genitală); T — `Tartru dentar` (K03.6), `Tulburare dezintegrativa a copilariei` (F84.3, titlul începe cu „Alta …” și a fost eliminat ca rezidual la A; atenție: S sau P ar putea adăuga separat „Sindrom Heller” / „Psihoza dezintegrativa”).
+- **Amânate de la alte litere, adăugate la unire (coordonator, 5):** `Deficit de transcobalamina II` (D51.2; de la C); `Depresie recurenta de scurta durata` (F38.1; de la E); `Dislalie` (F80.0; de la T); `Disortografie` (F81.1; de la T); `Duplicatie uretrala` (Q64.73; de la U). Verificate față de dicționarul unit al tuturor literelor (G3, G6).
 
 ## Adăugate
 
@@ -32,6 +33,7 @@
 | Deficit de HLA clasa I | D81.6 | deficit in complex major de histocompatibilitate clasa I; sindromul limfocitelor goale tip I; deficit de MHC clasa I; major histocompatibility complex class I deficiency; MHC class I deficiency; bare lymphocyte syndrome type I; HLA class I deficiency |
 | Deficit de purin nucleozid fosforilaza | D81.5 | deficit in purine nucleosidfosforilaza; deficit de PNP; imunodeficienta prin deficit de PNP; purine nucleoside phosphorylase deficiency; PNP deficiency; PNP immunodeficiency |
 | Deficit de sulfit oxidaza | E72.1 | deficit in sulfit oxidaza; deficit izolat de sulfit oxidaza; sulfocisteinurie; sulfite oxidase deficiency; isolated sulfite oxidase deficiency; sulfocysteinuria |
+| Deficit de transcobalamina II | D51.2 | carenta de transcobalamina II; deficit ereditar de transcobalamina; deficienta de transcobalamina; transcobalamin II deficiency; transcobalamin deficiency; TCII deficiency |
 | Deficit de vitamine B | E53.9 | avitaminoza B; carenta de vitamine din grupul B; hipovitaminoza B; vitamin B deficiency; B vitamin deficiency; vitamin B complex deficiency |
 | Deficit selectiv de IgM | D80.4 | deficit selectiv in imunoglobuline M; deficit selectiv de imunoglobulina M; deficit izolat de IgM; selective deficiency of immunoglobulin M; selective IgM deficiency; isolated IgM deficiency |
 | Degenerescenta cerebeloasa alcoolica | G31.2 | degenerescenta sistemului nervos datorita alcoolului; atrofie cerebeloasa alcoolica; ataxie cerebeloasa alcoolica; degeneration of nervous system due to alcohol; alcoholic cerebellar degeneration; alcoholic cerebellar atrophy; alcoholic cerebellar ataxia |
@@ -39,6 +41,7 @@
 | Delta-beta-talasemie | D56.2 | delta-beta-thalasemia; talasemie delta-beta; talasemie F; delta-beta thalassemia; F-thalassemia; delta-beta thalassaemia |
 | Dentinogeneza imperfecta | K00.5 | dentina opalescenta ereditara; dinti Capdepont; dinte in forma de scoica; dentinogenesis imperfecta; hereditary opalescent dentin; Capdepont teeth; shell teeth |
 | Depresie postschizofrenica | F20.4 | depresie post-schizofrenica; depresie postpsihotica schizofrenica; depresie dupa episod schizofrenic; post-schizophrenic depression; postpsychotic depression of schizophrenia; post-schizophrenia depression |
+| Depresie recurenta de scurta durata | F38.1 | episoade depresive recurente de scurta durata; depresie scurta recurenta; tulburare depresiva recurenta scurta; recurrent brief depression; recurrent brief depressive disorder; brief recurrent depression |
 | Dermatita artefacta | L98.1 | dermatita factice; patomimie cutanata; dermatita autoprovocata; factitial dermatitis; dermatitis artefacta; factitious dermatitis; self-inflicted dermatitis |
 | Dermatita berloque | L56.2 | dermita de fotocontact; dermatita de fotocontact; dermatita berlock; photocontact dermatitis; berloque dermatitis; berlock dermatitis |
 | Dermatita eczematoida infectioasa | L30.3 | dermatita infectioasa; eczema infectioasa; eczema microbiana; infective dermatitis; infectious eczematoid dermatitis; microbial eczema |
@@ -54,7 +57,9 @@
 | Discontinuitate a lantului osicular | H74.2 | disociatia si dislocarea oscioarelor urechii; luxatia oscioarelor urechii; disjunctie osiculara; discontinuity and dislocation of ear ossicles; ossicular discontinuity; ossicular chain disruption; ossicular dislocation |
 | Disectie de artera cerebrala | I67.0 | disectia arterelor cerebrale; disectie arteriala intracraniana; disectie intracraniana; dissection of cerebral arteries; cerebral artery dissection; intracranial artery dissection |
 | Disfunctie labirintica | H83.2 | hipofunctia labirintului; hipersensibilitatea labirintului; pierderea functiei labirintului; labyrinthine dysfunction; labyrinthine hypofunction; labyrinthine hypersensitivity |
+| Dislalie | F80.0 | tulburare specifica de articulare a vorbirii; tulburare fonologica; tulburare de articulare a vorbirii; phonological disorder; speech sound disorder; dyslalia |
 | Disociatie atrioventriculara | I45.8 | disociere atrioventriculara; disociatie AV; disociere de interferenta; atrioventricular dissociation; AV dissociation; interference dissociation |
+| Disortografie | F81.1 | tulburare specifica de ortografie; disortografie de dezvoltare; tulburare de ortografie; specific spelling disorder; dysorthography; spelling disorder |
 | Displazie fibromusculara | I77.3 | displazia fibromusculara arteriala; displazie fibromusculara a arterei renale; fibroplazie mediala; arterial fibromuscular dysplasia; fibromuscular dysplasia; renal artery fibromuscular dysplasia |
 | Displazie Kniest | Q77.89 | sindrom Kniest; nanism metatropic tip II; condrodisplazie Kniest; Kniest dysplasia; Kniest syndrome; metatropic dwarfism type II; Swiss cheese cartilage syndrome |
 | Distonie medicamentoasa | G24.0 | distonia provocata medicamentos; distonie indusa de medicamente; reactie distonica acuta; drug induced dystonia; acute dystonic reaction; medication-induced dystonia; neuroleptic-induced acute dystonia |
@@ -65,6 +70,7 @@
 | Dolicocefalie | Q67.2 | dolicocefalia; cap alungit; dolicocefalie pozitionala; dolichocephaly; positional dolichocephaly; dolichocephalic head |
 | Dop de cerumen | H61.2 | ceara in ureche; cerumen impactat; dop de ceara; impacted cerumen; cerumen impaction; earwax impaction; earwax blockage |
 | Druze ale papilei optice | H47.3 | druse ale papilei optice; druze ale discului optic; druze papilare; optic disc drusen; optic nerve head drusen; drusen of optic disc |
+| Duplicatie uretrala | Q64.73 | uretra dubla; meat urinar dublu; uretra accesorie; urethral duplication; double urethra; duplicated urethra; accessory urethra |
 | Durere faciala atipica | G50.1 | algie faciala atipica; durere faciala idiopatica persistenta; prosopalgie atipica; atypical facial pain; persistent idiopathic facial pain; atypical facial neuralgia |
 | Durere ovulatorie | N94.0 | dureri intermenstruale; sindrom intermenstrual; durere de ovulatie; Mittelschmerz; ovulation pain; midcycle pain; intermenstrual pain |
 
