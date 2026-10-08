@@ -357,7 +357,7 @@ class DiacriticsTests(unittest.TestCase):
 
     def test_folds_the_ocr_variant_of_a_breve(self):
         # "ặ" is what the OCR (and the cp1252 mis-decode of "ă") left in
-        # data/documents; it has to fold like "ă" does.
+        # medicina-naturista-documente/data/documents; it has to fold like "ă" does.
         self.assertEqual(fold_diacritics("sặngele, mặrul, Ã"), "sangele, marul, A")
 
     def test_folds_diacritics_by_default(self):

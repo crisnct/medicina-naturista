@@ -8,6 +8,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 ROOT = Path(__file__).resolve().parents[2]
+CORPUS_DATA_DIR = ROOT / "medicina-naturista-documente" / "data"
 load_dotenv(ROOT / ".env", override=False)
 
 
@@ -72,7 +73,7 @@ def _condition_ai_backends() -> tuple[str, ...]:
 
 @dataclass(frozen=True)
 class Settings:
-    documents_dir: Path = Path(os.getenv("DOCUMENTS_DIR", str(ROOT / "data" / "documents")))
+    documents_dir: Path = Path(os.getenv("DOCUMENTS_DIR", str(CORPUS_DATA_DIR / "documents")))
     model_cache_dir: Path = Path(os.getenv("MODEL_CACHE_DIR", str(ROOT / "data" / "model_cache")))
     # Threads of the ONNX embedding model. Few threads beat all cores on hybrid
     # (P/E-core) CPUs, so the default is 8, capped at the machine's core count.
@@ -80,8 +81,8 @@ class Settings:
     # Device of the index build's embedding model: "cpu" (FastEmbed) or "cuda"
     # (PyTorch fp16, needs the GPU environment). Queries always run on the CPU.
     embedding_device: str = _embedding_device()
-    conditions_file: Path = Path(os.getenv("CONDITIONS_FILE", str(ROOT / "data" / "medical_conditions.jsonl")))
-    herbs_file: Path = Path(os.getenv("HERBS_FILE", str(ROOT / "data" / "herbs.jsonl")))
+    conditions_file: Path = Path(os.getenv("CONDITIONS_FILE", str(CORPUS_DATA_DIR / "medical_conditions.jsonl")))
+    herbs_file: Path = Path(os.getenv("HERBS_FILE", str(CORPUS_DATA_DIR / "herbs.jsonl")))
     frontend_dist_dir: Path = Path(os.getenv("FRONTEND_DIST_DIR", str(ROOT / "src" / "frontend" / "dist")))
     database_url: str = os.getenv(
         "DATABASE_URL", "postgresql://medicina:medicina@127.0.0.1:5432/medicina"

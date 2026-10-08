@@ -27,12 +27,12 @@ RUN pip install --no-cache-dir -r requirements-web.txt
 
 COPY pyproject.toml README.md ./
 COPY src/backend ./src/backend
-COPY data/medical_conditions.jsonl ./data/medical_conditions.jsonl
-COPY data/herbs.jsonl ./data/herbs.jsonl
+COPY medicina-naturista-documente/data/medical_conditions.jsonl ./medicina-naturista-documente/data/medical_conditions.jsonl
+COPY medicina-naturista-documente/data/herbs.jsonl ./medicina-naturista-documente/data/herbs.jsonl
 COPY --from=frontend-build /frontend/dist ./src/frontend/dist
 
 RUN useradd --uid 10001 --create-home appuser \
-    && mkdir -p /app/data/documents /app/data/model_cache \
+    && mkdir -p /app/medicina-naturista-documente/data/documents /app/data/model_cache \
     && chown -R appuser:appuser /app
 USER appuser
 

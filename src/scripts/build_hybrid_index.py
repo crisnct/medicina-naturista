@@ -295,7 +295,7 @@ def _write_document(connection, source: SourceFile, chunks: Sequence[Chunk], emb
         )
 
 
-# Sync data/documents into Postgres: unchanged files (same SHA-256 already
+# Sync medicina-naturista-documente/data/documents into Postgres: unchanged files (same SHA-256 already
 # stored) are skipped entirely; new/changed files are re-chunked, re-embedded,
 # and written in one transaction each; files removed from source are deleted.
 def build(source: Path, model_name: str, batch_size: int = BATCH_SIZE) -> None:
@@ -481,8 +481,7 @@ def build(source: Path, model_name: str, batch_size: int = BATCH_SIZE) -> None:
 # Parse command-line options for the incremental index sync.
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    project_root = Path(__file__).resolve().parents[2]
-    parser.add_argument("--source", type=Path, default=project_root / "data" / "documents")
+    parser.add_argument("--source", type=Path, default=settings.documents_dir)
     parser.add_argument("--model", default=DEFAULT_MODEL)
     return parser.parse_args()
 

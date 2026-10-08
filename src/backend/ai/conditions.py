@@ -1,4 +1,4 @@
-"""Medical-condition dictionary (data/medical_conditions.jsonl): one condition
+"""Medical-condition dictionary (medicina-naturista-documente/data/medical_conditions.jsonl): one condition
 per line, as a JSON object {"name": ..., "synonyms": [...]} — the canonical
 name, then its Romanian and English synonyms. Used to recognise which
 conditions a message names (the

@@ -1,5 +1,5 @@
 """Identification of the condition a message names when the dictionary does not
-know it (data/medical_conditions.jsonl, see ai/conditions.py).
+know it (medicina-naturista-documente/data/medical_conditions.jsonl, see ai/conditions.py).
 
 The segments of the message go to a small AI model, which answers, per segment,
 with a condition name and a few synonyms — the shape of one dictionary line. The

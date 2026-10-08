@@ -1,4 +1,4 @@
-"""Catalogue of medicinal plants (data/herbs.jsonl): one species per line, as a
+"""Catalogue of medicinal plants (medicina-naturista-documente/data/herbs.jsonl): one species per line, as a
 JSON object with the keys of FIELDS. The accepted Latin name identifies the
 species; `id` is a stable slug that survives a later change of that name; the
 Romanian name `ro` may be shared by several species ("Paducel" is both

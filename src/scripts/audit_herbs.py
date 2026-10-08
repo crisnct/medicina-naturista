@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only audit of data/herbs.jsonl, written as a Markdown report to
+"""Read-only audit of medicina-naturista-documente/data/herbs.jsonl, written as a Markdown report to
 tmp/herbs_review.md: totals, species without a Romanian or an English name,
 Romanian names shared by several species, Latin names changed to the accepted
 one. When the working files of the catalogue's construction are still there
@@ -19,7 +19,7 @@ sys.path.insert(0, str(ROOT / "src"))
 from backend.ai.conditions import _normalize  # noqa: E402
 from backend.ai.herbs import parse_herbs  # noqa: E402
 
-HERBS = ROOT / "data" / "herbs.jsonl"
+HERBS = ROOT / "medicina-naturista-documente" / "data" / "herbs.jsonl"
 REVIEW = ROOT / "tmp" / "herbs_candidates.jsonl"
 PROVENANCE = ROOT / "tmp" / "herbs_work" / "herbs_provenance.jsonl"
 TARGET = ROOT / "tmp" / "herbs_review.md"
@@ -40,7 +40,7 @@ def main() -> None:
         for old in [*row.get("review_names", []), *row.get("renamed_from", []), *row.get("merged", [])]:
             if old in review and row["latin"] not in review:
                 review[row["latin"]] = review[old]
-    out: list[str] = ["# Raport de verificare: data/herbs.jsonl", ""]
+    out: list[str] = ["# Raport de verificare: medicina-naturista-documente/data/herbs.jsonl", ""]
 
     out += ["## Totaluri", "", f"- specii: **{len(herbs)}**"]
     if review:

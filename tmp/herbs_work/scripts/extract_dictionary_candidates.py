@@ -11,7 +11,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
-SOURCE = ROOT / "data" / "documents" / "Surse sigure" / "Dictionarul plantelor de leac" / "Dictionarul-Plantelor-de-Leac.pdf.md"
+SOURCE = ROOT / "medicina-naturista-documente" / "data" / "documents" / "Surse sigure" / "Dictionarul plantelor de leac" / "Dictionarul-Plantelor-de-Leac.pdf.md"
 TARGET = ROOT / "tmp" / "herbs_work" / "dictionary_candidates.jsonl"
 
 FIELD = re.compile(r"^Denumir(?:e|ea|i)\s+(stiintific[ae]|popular[ae])\s*[:.]\s*(.*)$", re.IGNORECASE)

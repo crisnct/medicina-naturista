@@ -223,7 +223,7 @@ class ContentRulesTests(unittest.TestCase):
                 self.assertTrue(LATIN.fullmatch(latin))
 
 
-# Species in data/herbs.jsonl when it was delivered; the catalogue may grow, never
+# Species in medicina-naturista-documente/data/herbs.jsonl when it was delivered; the catalogue may grow, never
 # shrink by accident.
 DELIVERED_SPECIES = 1188
 

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """One-off (stage E3 of architecture/plan-conditions-jsonl-si-herbs.md): finds
-the Latin species names in every document of data/documents. A "Genus epithet"
+the Latin species names in every document of medicina-naturista-documente/data/documents. A "Genus epithet"
 pair is kept only when GBIF knows the genus as a plant, fungus or alga genus
 AND the whole pair as a species, so Romanian or English sentences that merely
 start with a capital ("Planta este") drop out. Writes, per accepted species,
@@ -20,7 +20,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import gbif  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[3]
-DOCUMENTS = ROOT / "data" / "documents"
+DOCUMENTS = ROOT / "medicina-naturista-documente" / "data" / "documents"
 TARGET = ROOT / "tmp" / "herbs_work" / "corpus_latin.jsonl"
 
 PAIR = re.compile(r"\b([A-Z][a-z]{2,})\s+([a-z]{3,}(?:-[a-z]+)?)\b")

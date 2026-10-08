@@ -1,9 +1,9 @@
-"""Applies tmp/herbs_work/regional_knowledge.txt to data/herbs.jsonl (adds and
+"""Applies tmp/herbs_work/regional_knowledge.txt to medicina-naturista-documente/data/herbs.jsonl (adds and
 removes regional names) and records the additions as "cunostinte" in
 tmp/herbs_work/herbs_provenance.jsonl."""
 import json
 from pathlib import Path
-herbs_path, prov_path = Path("data/herbs.jsonl"), Path("tmp/herbs_work/herbs_provenance.jsonl")
+herbs_path, prov_path = Path("medicina-naturista-documente/data/herbs.jsonl"), Path("tmp/herbs_work/herbs_provenance.jsonl")
 herbs = [json.loads(l) for l in herbs_path.read_text(encoding="utf-8").splitlines()]
 prov = {json.loads(l)["latin"]: json.loads(l) for l in prov_path.read_text(encoding="utf-8").splitlines()}
 by_latin = {h["latin"]: h for h in herbs}

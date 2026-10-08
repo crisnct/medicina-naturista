@@ -22,7 +22,7 @@ sys.path.insert(0, str(ROOT / "src"))
 from backend.ai.conditions import _normalize  # noqa: E402
 
 WORK = ROOT / "tmp" / "icd10_work"
-DICTIONARY = ROOT / "data" / "medical_conditions.jsonl"
+DICTIONARY = ROOT / "medicina-naturista-documente" / "data" / "medical_conditions.jsonl"
 
 
 def sort_key(name: str) -> tuple[str, str]:

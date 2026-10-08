@@ -13,7 +13,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
-DOCUMENTS = ROOT / "data" / "documents"
+DOCUMENTS = ROOT / "medicina-naturista-documente" / "data" / "documents"
 CANDIDATES = ROOT / "tmp" / "herbs_candidates.jsonl"
 TARGET = ROOT / "tmp" / "herbs_work" / "corpus_ro_names.json"
 

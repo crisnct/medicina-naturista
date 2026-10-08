@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """One-off (stage E4 of architecture/plan-conditions-jsonl-si-herbs.md): turns
-the approved review list tmp/herbs_candidates.jsonl into data/herbs.jsonl.
+the approved review list tmp/herbs_candidates.jsonl into medicina-naturista-documente/data/herbs.jsonl.
 
 Per species: the accepted Latin name (GBIF, with the fixes decided by hand),
 the old names as latin_synonyms, the family, the Romanian popular names (the
@@ -27,9 +27,9 @@ import gbif  # noqa: E402
 ROOT = Path(__file__).resolve().parents[3]
 WORK = ROOT / "tmp" / "herbs_work"
 REVIEW = ROOT / "tmp" / "herbs_candidates.jsonl"
-TARGET = ROOT / "data" / "herbs.jsonl"
+TARGET = ROOT / "medicina-naturista-documente" / "data" / "herbs.jsonl"
 PROVENANCE = WORK / "herbs_provenance.jsonl"
-MATMED = ROOT / "data" / "documents" / "Surse necunoscute" / "Dozaj" / "MatMed5 Dozaj tincturi.pdf.md"
+MATMED = ROOT / "medicina-naturista-documente" / "data" / "documents" / "Surse necunoscute" / "Dozaj" / "MatMed5 Dozaj tincturi.pdf.md"
 
 FIELDS = ("id", "ro", "ro_regional", "latin", "latin_synonyms", "en", "en_alt", "family")
 LATIN = re.compile(r"[A-Z][a-z]+ (x )?[a-z]+(-[a-z]+)?( (subsp|var)\. [a-z]+(-[a-z]+)?)?")

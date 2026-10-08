@@ -1,4 +1,4 @@
-"""Read-only audit of data/medical_conditions.jsonl: structure, duplicates, anomalies."""
+"""Read-only audit of medicina-naturista-documente/data/medical_conditions.jsonl: structure, duplicates, anomalies."""
 from __future__ import annotations
 
 import collections
@@ -7,7 +7,7 @@ import re
 import sys
 from pathlib import Path
 
-PATH = Path(__file__).resolve().parents[2] / "data" / "medical_conditions.jsonl"
+PATH = Path(__file__).resolve().parents[2] / "medicina-naturista-documente" / "data" / "medical_conditions.jsonl"
 
 
 def plain(value: str) -> str:

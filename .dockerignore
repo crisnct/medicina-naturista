@@ -7,9 +7,11 @@ __pycache__
 .secrets
 var/sessions
 var/tmp
-data/documents
+medicina-naturista-documente/data/documents
 data/model_cache
 tests
 var/output
 src/frontend/node_modules
 src/frontend/dist
+
+medicina-naturista-documente/.git

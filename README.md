@@ -26,8 +26,8 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 | **Index semantic** | Identifică fragmente apropiate ca sens cu vectori Qwen3-Embedding de 1024 de dimensiuni, stocați în Postgres (`pgvector`). |
 | **Index lexical** | Găsește expresiile căutate, ca fraze exacte, prin `tsvector` în Postgres. |
 | **Scor combinat** | Fiecare fragment primește un singur scor, din semnalele pe care pacientul le bifează în „Căutare avansată” (afecțiuni, lexical, semantic). Cu toate trei: `4·P1 + 2·P2 + L + V` (afecțiune în titlu › afecțiune în text › potrivire lexicală › potrivire semantică), calculat într-o singură interogare SQL. |
-| **Fragmentare pe afecțiuni** | Împarte documentele în fragmente R1 (afecțiunea în titlul capitolului), R2 (afecțiunea în textul capitolului) și D1 (restul textului), folosind dicționarul `data/medical_conditions.jsonl`. |
-| **Filtrare pe surse** | În același panou „Căutare avansată”, căutarea poate fi restrânsă la anumite foldere din `data/documents/` (categoria unui document este folderul lui). |
+| **Fragmentare pe afecțiuni** | Împarte documentele în fragmente R1 (afecțiunea în titlul capitolului), R2 (afecțiunea în textul capitolului) și D1 (restul textului), folosind dicționarul `medicina-naturista-documente/data/medical_conditions.jsonl`. |
+| **Filtrare pe surse** | În același panou „Căutare avansată”, căutarea poate fi restrânsă la anumite foldere din `medicina-naturista-documente/data/documents/` (categoria unui document este folderul lui). |
 | **Retriever medical** | Ordonează fragmentele după scorul combinat și păstrează, întregi, cele care încap în bugetul de context al furnizorului AI. Lângă „Generează rețeta”, „Scor minim” (procent de relevanță) limitează fragmentele trimise către AI. |
 | **Chat web** | Oferă sesiuni izolate pe tab și afișează recomandările structurate. |
 | **Raport PDF** | Include recomandări, atenționări, citări și bibliografie navigabilă. |
@@ -129,7 +129,7 @@ py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements-web.txt
 ```
 
-Plasați documentele sursă în `data/documents/`. Nu publicați corpusul dacă include materiale private sau protejate. Opțional, curățați-le înainte de indexare (metadate de extragere PDF, linkuri, marcaje de pagină, trimiteri „Vezi și”, diacritice românești transcrise în litere ASCII: `ă/â → a`, `î → i`, `ș → s`, `ț → t`):
+Plasați documentele sursă în `medicina-naturista-documente/data/documents/`. Nu publicați corpusul dacă include materiale private sau protejate. Opțional, curățați-le înainte de indexare (metadate de extragere PDF, linkuri, marcaje de pagină, trimiteri „Vezi și”, diacritice românești transcrise în litere ASCII: `ă/â → a`, `î → i`, `ș → s`, `ț → t`):
 
 ```powershell
 .\src\scripts\clean_documents.ps1 -DryRun   # doar raportează
@@ -157,7 +157,7 @@ $env:EMBEDDING_DEVICE = 'cuda'
 .\.venv-gpu\Scripts\python src\scripts\build_hybrid_index.py
 ```
 
-Prima sincronizare descarcă modelul în `data/model_cache/` și poate dura câteva zeci de minute, apoi scrie fiecare document nou/modificat în Postgres. Următoarele rulări sar complet peste documentele al căror SHA-256 nu s-a schimbat — nu se re-generează embeddings pentru ele; documentele șterse din `data/documents/` sunt șterse și din index. Când se schimbă regulile de fragmentare (`TEXT_REPR_VERSION` din `build_hybrid_index.py`), următoarea sincronizare reindexează totul. Căutările folosesc modelul din cache și rulează offline. În timpul embedding-ului sunt afișate progresul, timpul scurs, viteza și ETA.
+Prima sincronizare descarcă modelul în `data/model_cache/` și poate dura câteva zeci de minute, apoi scrie fiecare document nou/modificat în Postgres. Următoarele rulări sar complet peste documentele al căror SHA-256 nu s-a schimbat — nu se re-generează embeddings pentru ele; documentele șterse din `medicina-naturista-documente/data/documents/` sunt șterse și din index. Când se schimbă regulile de fragmentare (`TEXT_REPR_VERSION` din `build_hybrid_index.py`), următoarea sincronizare reindexează totul. Căutările folosesc modelul din cache și rulează offline. În timpul embedding-ului sunt afișate progresul, timpul scurs, viteza și ETA.
 
 Pentru a vedea ce fragmente ar rezulta, fără bază de date și fără embeddings:
 
@@ -245,7 +245,7 @@ Sincronizarea scrie în trei tabele:
 
 Un document al cărui SHA-256 nu s-a schimbat este complet ignorat la sincronizare; un document nou sau modificat își înlocuiește fragmentele într-o singură tranzacție.
 
-Fragmentarea (`src/backend/ai/fragmenter.py`) folosește dicționarul `data/medical_conditions.jsonl` (o afecțiune pe linie, ca obiect JSON: `{"name": ..., "synonyms": [...]}`) și aplică pe rând:
+Fragmentarea (`src/backend/ai/fragmenter.py`) folosește dicționarul `medicina-naturista-documente/data/medical_conditions.jsonl` (o afecțiune pe linie, ca obiect JSON: `{"name": ..., "synonyms": [...]}`) și aplică pe rând:
 
 | Categorie | Criteriu |
 |---|---|
@@ -261,7 +261,7 @@ Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit î
 
 ## 🐳 Rulare cu Docker Compose
 
-Înainte de pornire, trebuie să existe `data/documents/`, `data/model_cache/` (cu modelul deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Stiva are patru servicii: `db`, `ollama`, `app` și `caddy`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) este expus doar pe `127.0.0.1:5432` (`DB_HOST_PORT`), astfel încât indexul se sincronizează de pe host cu `python src/scripts/build_hybrid_index.py` (cu `PYTHONPATH=src` și un `DATABASE_URL` spre `127.0.0.1` cu parola `POSTGRES_PASSWORD`). Serviciul `ollama` rulează modelul local de identificare a afecțiunii (`CONDITION_AI_LOCAL_BASE=http://ollama:11434/v1`), este accesibil doar din rețeaua internă, rezervă GPU-urile NVIDIA (`deploy.resources.reservations`) și are nevoie ca modelul să fie descărcat o dată: `docker compose exec ollama ollama pull gemma3:1b`.
+Înainte de pornire, trebuie să existe `medicina-naturista-documente/data/documents/`, `data/model_cache/` (cu modelul deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Stiva are patru servicii: `db`, `ollama`, `app` și `caddy`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) este expus doar pe `127.0.0.1:5432` (`DB_HOST_PORT`), astfel încât indexul se sincronizează de pe host cu `python src/scripts/build_hybrid_index.py` (cu `PYTHONPATH=src` și un `DATABASE_URL` spre `127.0.0.1` cu parola `POSTGRES_PASSWORD`). Serviciul `ollama` rulează modelul local de identificare a afecțiunii (`CONDITION_AI_LOCAL_BASE=http://ollama:11434/v1`), este accesibil doar din rețeaua internă, rezervă GPU-urile NVIDIA (`deploy.resources.reservations`) și are nevoie ca modelul să fie descărcat o dată: `docker compose exec ollama ollama pull gemma3:1b`.
 
 ```powershell
 docker compose build
@@ -309,7 +309,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `OLLAMA_API_KEY` | — | Necesară doar când `OLLAMA_API_BASE` nu este local (ex. `https://ollama.com/v1`). |
 | `OLLAMA_REASONING_EFFORT` | _(gol)_ | Se trimite doar dacă este setat. |
 | `OLLAMA_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru `AI_PROVIDER=ollama`; pentru modele locale mici trebuie coborât. |
-| `CONDITION_AI_BACKENDS` | `local,huggingface` | Backendurile care identifică afecțiunea când dicționarul (`data/medical_conditions.jsonl`) nu o găsește, în ordinea încercării: `local` (Ollama), `huggingface` (routerul HF, `HF_TOKEN`) sau ambele (HF doar dacă modelul local e indisponibil). Gol → pasul AI este dezactivat. Afecțiunea întoarsă se folosește ca una din dicționar: în chat, în căutare și în titlul PDF-ului. |
+| `CONDITION_AI_BACKENDS` | `local,huggingface` | Backendurile care identifică afecțiunea când dicționarul (`medicina-naturista-documente/data/medical_conditions.jsonl`) nu o găsește, în ordinea încercării: `local` (Ollama), `huggingface` (routerul HF, `HF_TOKEN`) sau ambele (HF doar dacă modelul local e indisponibil). Gol → pasul AI este dezactivat. Afecțiunea întoarsă se folosește ca una din dicționar: în chat, în căutare și în titlul PDF-ului. |
 | `CONDITION_AI_LOCAL_MODEL` | `gemma3:1b` | Modelul Ollama local (descărcare: `ollama pull gemma3:1b`; în Docker: `docker compose exec ollama ollama pull gemma3:1b`). |
 | `CONDITION_AI_LOCAL_BASE` | `http://localhost:11434/v1` (direct) / `http://ollama:11434/v1` (Compose) | Adresa Ollama folosită pentru identificarea afecțiunii. |
 | `CONDITION_AI_HF_MODEL` | valoarea `HF_MODEL` | Modelul HF pentru fallback (prin `HF_API_BASE` și `HF_TOKEN`). |
@@ -318,9 +318,9 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `AI_STREAM` | `false` | Cere răspunsul ca flux de evenimente (`stream: true`). Timeoutul de citire se aplică între evenimente, deci evită tăierea cererilor lungi de un proxy (ex. 504 după 60 s la routerul HF). Dacă furnizorul nu suportă streaming, lăsați `false`. |
 | `AI_MAX_OUTPUT_TOKENS` | `20000` | `max_output_tokens` al cererii, pentru toți furnizorii (la modelele cu gândire, reasoning-ul consumă din el). |
 | `AI_READ_TIMEOUT_SECONDS` | `300` | Timeoutul de citire al cererii către furnizorul AI. |
-| `DOCUMENTS_DIR` | `data/documents` | Directorul documentelor locale. |
-| `CONDITIONS_FILE` | `data/medical_conditions.jsonl` | Dicționarul de afecțiuni și sinonime (JSON Lines), folosit la fragmentare și la căutare; se reîncarcă automat când se modifică. Un `CONDITIONS_FILE` setat explicit spre vechiul `medical_conditions.txt` trebuie actualizat. |
-| `HERBS_FILE` | `data/herbs.jsonl` | Catalogul de plante medicinale (JSON Lines, o specie pe linie), citit de `backend/ai/herbs.py`; se reîncarcă automat când se modifică. Încă nu e folosit de căutare sau de fragmentare. |
+| `DOCUMENTS_DIR` | `medicina-naturista-documente/data/documents` | Directorul documentelor locale. |
+| `CONDITIONS_FILE` | `medicina-naturista-documente/data/medical_conditions.jsonl` | Dicționarul de afecțiuni și sinonime (JSON Lines), folosit la fragmentare și la căutare; se reîncarcă automat când se modifică. Un `CONDITIONS_FILE` setat explicit spre vechiul `medical_conditions.txt` trebuie actualizat. |
+| `HERBS_FILE` | `medicina-naturista-documente/data/herbs.jsonl` | Catalogul de plante medicinale (JSON Lines, o specie pe linie), citit de `backend/ai/herbs.py`; se reîncarcă automat când se modifică. Încă nu e folosit de căutare sau de fragmentare. |
 | `DATABASE_URL` | `postgresql://medicina:medicina@127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului hibrid (`pgvector` + `tsvector`). |
 | `MODEL_CACHE_DIR` | `data/model_cache` | Directorul cache-ului local al modelului ONNX. |
 | `EMBEDDING_THREADS` | `8` (cel mult numărul de nuclee) | Firele de execuție ale modelului de embedding (ONNX Runtime), la indexare și la căutare. Pe procesoare hibride P/E-core, mai puține fire sunt de obicei mai rapide decât toate nucleele. |

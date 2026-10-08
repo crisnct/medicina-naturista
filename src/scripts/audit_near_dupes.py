@@ -8,7 +8,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from backend.ai.conditions import _normalize, parse_conditions  # noqa: E402
 
-PATH = Path(__file__).resolve().parents[2] / "data" / "medical_conditions.jsonl"
+PATH = Path(__file__).resolve().parents[2] / "medicina-naturista-documente" / "data" / "medical_conditions.jsonl"
 canon = [condition.name for condition in parse_conditions(PATH.read_text(encoding="utf-8"))]
 norm = {_normalize(c): c for c in canon}
 keys = sorted(norm)

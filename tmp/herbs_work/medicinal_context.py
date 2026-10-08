@@ -10,7 +10,7 @@ for r in rows:
     names = [r["latin"], *r.get("written", [])]
     hits = total = 0; best = None
     for d in r["corpus_documents"]:
-        text = docs.get(d) or docs.setdefault(d, Path("data/documents", d).read_text(encoding="utf-8", errors="replace"))
+        text = docs.get(d) or docs.setdefault(d, Path("medicina-naturista-documente/data/documents", d).read_text(encoding="utf-8", errors="replace"))
         for n in names:
             for m in re.finditer(re.escape(n), text):
                 total += 1

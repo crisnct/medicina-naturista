@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Dry run of the fragmentation (ai/fragmenter.py) over data/documents: prints
+"""Dry run of the fragmentation (ai/fragmenter.py) over medicina-naturista-documente/data/documents: prints
 how many fragments each business category gets and which are the largest,
 without touching the database or computing any embedding. Run it before a full
 reindex to see what the index will contain."""

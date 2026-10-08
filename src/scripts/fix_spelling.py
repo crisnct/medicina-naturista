@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fix OCR / typing errors in the Romanian Markdown sources of data/documents.
+"""Fix OCR / typing errors in the Romanian Markdown sources of medicina-naturista-documente/data/documents.
 
 Four rules, each one conservative and driven by a Romanian dictionary (the
 Hunspell ``ro_RO`` word list, expanded and folded to ASCII to match the corpus,
@@ -38,7 +38,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
-DOCS = ROOT / "data" / "documents"
+DOCS = ROOT / "medicina-naturista-documente" / "data" / "documents"
 
 FOLD = str.maketrans({"ă": "a", "â": "a", "î": "i", "ș": "s", "ş": "s", "ț": "t", "ţ": "t",
                       "Ă": "a", "Â": "a", "Î": "i", "Ș": "s", "Ț": "t"})

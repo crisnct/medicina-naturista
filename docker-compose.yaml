@@ -92,7 +92,7 @@ services:
       AI_STREAM: ${AI_STREAM:-false}
       AI_MAX_OUTPUT_TOKENS: ${AI_MAX_OUTPUT_TOKENS:-20000}
       AI_READ_TIMEOUT_SECONDS: ${AI_READ_TIMEOUT_SECONDS:-300}
-      DOCUMENTS_DIR: /app/data/documents
+      DOCUMENTS_DIR: /app/medicina-naturista-documente/data/documents
       DATABASE_URL: postgresql://${POSTGRES_USER:-medicina}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-medicina}
       MODEL_CACHE_DIR: /app/data/model_cache
       SESSION_TEMP_DIR: /tmp/naturist-sessions
@@ -111,8 +111,8 @@ services:
       OWNER_KEY: ${OWNER_KEY:-}
     volumes:
       - type: bind
-        source: ./data/documents
-        target: /app/data/documents
+        source: ./medicina-naturista-documente/data/documents
+        target: /app/medicina-naturista-documente/data/documents
         read_only: true
       - type: bind
         source: ./data/model_cache

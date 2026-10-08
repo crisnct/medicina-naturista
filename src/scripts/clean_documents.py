@@ -164,7 +164,7 @@ _REPEATED_MIN_OCCURRENCES = 5
 #     (ş ţ Ş Ţ) and "ã"/"Ã" — the cp1252 mis-decode of the cp1250 "ă"/"Ă"
 #     that the RTF sources in this corpus carry;
 #   * "ặ"/"Ặ" (a with breve and dot below), the OCR variant of "ă"/"Ă" that
-#     appears 589 times in data/documents and would otherwise stay non-ASCII.
+#     appears 589 times in medicina-naturista-documente/data/documents and would otherwise stay non-ASCII.
 _DIACRITICS_TABLE = str.maketrans(
     "ăâîșțĂÂÎȘȚşţŞŢãÃặẶ", "aaistAAISTstSTaAaA"
 )
@@ -967,10 +967,10 @@ def clean_documents(
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Compact the Markdown sources under data/documents in place.",
+        description="Compact the Markdown sources under medicina-naturista-documente/data/documents in place.",
     )
     project_root = Path(__file__).resolve().parents[2]
-    parser.add_argument("--source", type=Path, default=project_root / "data" / "documents")
+    parser.add_argument("--source", type=Path, default=project_root / "medicina-naturista-documente" / "data" / "documents")
     parser.add_argument(
         "--dry-run", action="store_true",
         help="List files that would change without writing them",

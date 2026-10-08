@@ -1,6 +1,6 @@
 """One-off: steps P1-P5 of the ICD-10 plan for one letter.
 
-Reads tmp/icd10_work/icd10_ro.jsonl and data/medical_conditions.jsonl, keeps the
+Reads tmp/icd10_work/icd10_ro.jsonl and medicina-naturista-documente/data/medical_conditions.jsonl, keeps the
 codes whose Romanian title starts with the letter (diacritics folded), drops the
 residual / non-disease titles, and matches the rest against the dictionary:
 
@@ -29,7 +29,7 @@ from backend.ai.conditions import _fold_word, _normalize, parse_conditions  # no
 
 WORK = ROOT / "tmp" / "icd10_work"
 SOURCE = WORK / "icd10_ro.jsonl"
-DICTIONARY = ROOT / "data" / "medical_conditions.jsonl"
+DICTIONARY = ROOT / "medicina-naturista-documente" / "data" / "medical_conditions.jsonl"
 
 MODALITIES = {"acut", "acuta", "acute", "subacut", "subacuta", "subacute", "cronic", "cronica",
               "cronice", "recurent", "recurenta", "recurente", "recidivant", "recidivanta"}
