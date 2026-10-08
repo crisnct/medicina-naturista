@@ -94,7 +94,7 @@ services:
       AI_READ_TIMEOUT_SECONDS: ${AI_READ_TIMEOUT_SECONDS:-300}
       DOCUMENTS_DIR: /app/medicina-naturista-documente/data/documents
       DATABASE_URL: postgresql://${POSTGRES_USER:-medicina}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-medicina}
-      MODEL_CACHE_DIR: /app/data/model_cache
+      MODEL_CACHE_DIR: /app/model_cache
       SESSION_TEMP_DIR: /tmp/naturist-sessions
       PUBLIC_ROOT_PATH: ${PUBLIC_ROOT_PATH:-/medicina}
       SESSION_IDLE_SECONDS: ${SESSION_IDLE_SECONDS:-3600}
@@ -115,8 +115,8 @@ services:
         target: /app/medicina-naturista-documente/data/documents
         read_only: true
       - type: bind
-        source: ./data/model_cache
-        target: /app/data/model_cache
+        source: ./model_cache
+        target: /app/model_cache
     tmpfs:
       - /tmp:size=536870912,mode=1777
     # Reaches an Ollama daemon running on the host (AI_PROVIDER=ollama).

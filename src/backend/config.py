@@ -74,7 +74,7 @@ def _condition_ai_backends() -> tuple[str, ...]:
 @dataclass(frozen=True)
 class Settings:
     documents_dir: Path = Path(os.getenv("DOCUMENTS_DIR", str(CORPUS_DATA_DIR / "documents")))
-    model_cache_dir: Path = Path(os.getenv("MODEL_CACHE_DIR", str(ROOT / "data" / "model_cache")))
+    model_cache_dir: Path = Path(os.getenv("MODEL_CACHE_DIR", str(ROOT / "model_cache")))
     # Threads of the ONNX embedding model. Few threads beat all cores on hybrid
     # (P/E-core) CPUs, so the default is 8, capped at the machine's core count.
     embedding_threads: int = _int("EMBEDDING_THREADS", min(8, os.cpu_count() or 8))

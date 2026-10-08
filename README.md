@@ -82,11 +82,12 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 ```text
 medicina-naturista/
 ├── architecture/                 # documentația fluxurilor principale și planurile de lucru (plan-*.md)
-├── data/
-│   ├── documents/                # corpusul Markdown local
-│   ├── medical_conditions.jsonl  # dicționarul de afecțiuni și sinonime
-│   ├── herbs.jsonl               # catalogul de plante medicinale (o specie pe linie)
-│   └── model_cache/              # modelul ONNX local; ignorat de Git
+├── medicina-naturista-documente/
+│   └── data/
+│       ├── documents/                # corpusul Markdown local
+│       ├── medical_conditions.jsonl  # dicționarul de afecțiuni și sinonime
+│       └── herbs.jsonl               # catalogul de plante medicinale (o specie pe linie)
+├── model_cache/                  # modelele locale; ignorat de Git
 ├── src/
 │   ├── backend/
 │   │   ├── ai/                       # fragmentare, afecțiuni, căutare, retrieval, clienți AI și prompturi
@@ -157,7 +158,7 @@ $env:EMBEDDING_DEVICE = 'cuda'
 .\.venv-gpu\Scripts\python src\scripts\build_hybrid_index.py
 ```
 
-Prima sincronizare descarcă modelul în `data/model_cache/` și poate dura câteva zeci de minute, apoi scrie fiecare document nou/modificat în Postgres. Următoarele rulări sar complet peste documentele al căror SHA-256 nu s-a schimbat — nu se re-generează embeddings pentru ele; documentele șterse din `medicina-naturista-documente/data/documents/` sunt șterse și din index. Când se schimbă regulile de fragmentare (`TEXT_REPR_VERSION` din `build_hybrid_index.py`), următoarea sincronizare reindexează totul. Căutările folosesc modelul din cache și rulează offline. În timpul embedding-ului sunt afișate progresul, timpul scurs, viteza și ETA.
+Prima sincronizare descarcă modelul în `model_cache/` și poate dura câteva zeci de minute, apoi scrie fiecare document nou/modificat în Postgres. Următoarele rulări sar complet peste documentele al căror SHA-256 nu s-a schimbat — nu se re-generează embeddings pentru ele; documentele șterse din `medicina-naturista-documente/data/documents/` sunt șterse și din index. Când se schimbă regulile de fragmentare (`TEXT_REPR_VERSION` din `build_hybrid_index.py`), următoarea sincronizare reindexează totul. Căutările folosesc modelul din cache și rulează offline. În timpul embedding-ului sunt afișate progresul, timpul scurs, viteza și ETA.
 
 Pentru a vedea ce fragmente ar rezulta, fără bază de date și fără embeddings:
 
@@ -261,7 +262,7 @@ Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit î
 
 ## 🐳 Rulare cu Docker Compose
 
-Înainte de pornire, trebuie să existe `medicina-naturista-documente/data/documents/`, `data/model_cache/` (cu modelul deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Stiva are patru servicii: `db`, `ollama`, `app` și `caddy`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) este expus doar pe `127.0.0.1:5432` (`DB_HOST_PORT`), astfel încât indexul se sincronizează de pe host cu `python src/scripts/build_hybrid_index.py` (cu `PYTHONPATH=src` și un `DATABASE_URL` spre `127.0.0.1` cu parola `POSTGRES_PASSWORD`). Serviciul `ollama` rulează modelul local de identificare a afecțiunii (`CONDITION_AI_LOCAL_BASE=http://ollama:11434/v1`), este accesibil doar din rețeaua internă, rezervă GPU-urile NVIDIA (`deploy.resources.reservations`) și are nevoie ca modelul să fie descărcat o dată: `docker compose exec ollama ollama pull gemma3:1b`.
+Înainte de pornire, trebuie să existe `medicina-naturista-documente/data/documents/`, `model_cache/` (cu modelul deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Stiva are patru servicii: `db`, `ollama`, `app` și `caddy`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) este expus doar pe `127.0.0.1:5432` (`DB_HOST_PORT`), astfel încât indexul se sincronizează de pe host cu `python src/scripts/build_hybrid_index.py` (cu `PYTHONPATH=src` și un `DATABASE_URL` spre `127.0.0.1` cu parola `POSTGRES_PASSWORD`). Serviciul `ollama` rulează modelul local de identificare a afecțiunii (`CONDITION_AI_LOCAL_BASE=http://ollama:11434/v1`), este accesibil doar din rețeaua internă, rezervă GPU-urile NVIDIA (`deploy.resources.reservations`) și are nevoie ca modelul să fie descărcat o dată: `docker compose exec ollama ollama pull gemma3:1b`.
 
 ```powershell
 docker compose build
@@ -322,7 +323,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `CONDITIONS_FILE` | `medicina-naturista-documente/data/medical_conditions.jsonl` | Dicționarul de afecțiuni și sinonime (JSON Lines), folosit la fragmentare și la căutare; se reîncarcă automat când se modifică. Un `CONDITIONS_FILE` setat explicit spre vechiul `medical_conditions.txt` trebuie actualizat. |
 | `HERBS_FILE` | `medicina-naturista-documente/data/herbs.jsonl` | Catalogul de plante medicinale (JSON Lines, o specie pe linie), citit de `backend/ai/herbs.py`; se reîncarcă automat când se modifică. Încă nu e folosit de căutare sau de fragmentare. |
 | `DATABASE_URL` | `postgresql://medicina:medicina@127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului hibrid (`pgvector` + `tsvector`). |
-| `MODEL_CACHE_DIR` | `data/model_cache` | Directorul cache-ului local al modelului ONNX. |
+| `MODEL_CACHE_DIR` | `model_cache` | Directorul cache-ului local al modelului ONNX. |
 | `EMBEDDING_THREADS` | `8` (cel mult numărul de nuclee) | Firele de execuție ale modelului de embedding (ONNX Runtime), la indexare și la căutare. Pe procesoare hibride P/E-core, mai puține fire sunt de obicei mai rapide decât toate nucleele. |
 | `EMBEDDING_DEVICE` | `cpu` | Dispozitivul modelului de embedding la **construirea** indexului: `cpu` (FastEmbed/ONNX) sau `cuda` (PyTorch fp16, doar din mediul GPU `.venv-gpu`; fără CUDA build-ul se oprește, nu trece pe CPU). Întrebările din aplicație rulează mereu pe CPU. |
 | `SESSION_TEMP_DIR` | `var/sessions` (Windows) / `/tmp/naturist-sessions` | Directorul fișierelor temporare ale sesiunilor. |

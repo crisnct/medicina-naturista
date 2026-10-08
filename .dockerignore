@@ -8,7 +8,7 @@ __pycache__
 var/sessions
 var/tmp
 medicina-naturista-documente/data/documents
-data/model_cache
+model_cache
 tests
 var/output
 src/frontend/node_modules

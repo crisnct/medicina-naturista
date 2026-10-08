@@ -32,7 +32,7 @@ COPY medicina-naturista-documente/data/herbs.jsonl ./medicina-naturista-document
 COPY --from=frontend-build /frontend/dist ./src/frontend/dist
 
 RUN useradd --uid 10001 --create-home appuser \
-    && mkdir -p /app/medicina-naturista-documente/data/documents /app/data/model_cache \
+    && mkdir -p /app/medicina-naturista-documente/data/documents /app/model_cache \
     && chown -R appuser:appuser /app
 USER appuser
 
