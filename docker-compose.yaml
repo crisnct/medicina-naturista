@@ -97,8 +97,11 @@ services:
       MODEL_CACHE_DIR: /app/model_cache
       SESSION_TEMP_DIR: /tmp/naturist-sessions
       PUBLIC_ROOT_PATH: ${PUBLIC_ROOT_PATH:-/medicina}
+      PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:-}
       SESSION_IDLE_SECONDS: ${SESSION_IDLE_SECONDS:-3600}
       SESSION_MAX_SECONDS: ${SESSION_MAX_SECONDS:-14400}
+      MAX_SESSIONS_PER_COOKIE: ${MAX_SESSIONS_PER_COOKIE:-1}
+      MAX_SESSIONS_PER_IP: ${MAX_SESSIONS_PER_IP:-1}
       MAX_CHAT_CHARS: ${MAX_CHAT_CHARS:-4000}
       MAX_REQUESTS_PER_MINUTE: ${MAX_REQUESTS_PER_MINUTE:-60}
       LOG_LEVEL: ${LOG_LEVEL:-INFO}
@@ -107,7 +110,7 @@ services:
       EMBEDDING_THREADS: ${EMBEDDING_THREADS:-8}
       LOG_AI_RESPONSE_TEXT: ${LOG_AI_RESPONSE_TEXT:-false}
       COOKIE_SECURE: ${COOKIE_SECURE:-true}
-      TRUST_PROXY: "true"
+      FORWARDED_ALLOW_IPS: ${FORWARDED_ALLOW_IPS:-127.0.0.1}
       OWNER_KEY: ${OWNER_KEY:-}
     volumes:
       - type: bind
@@ -135,6 +138,7 @@ services:
     environment:
       APP_DOMAIN: ${APP_DOMAIN:-localhost}
       CADDY_SITE_SCHEME: ${CADDY_SITE_SCHEME:-http}
+      CADDY_TRUSTED_PROXY_IPS: ${CADDY_TRUSTED_PROXY_IPS:-127.0.0.1}
     ports:
       - "80:80"
       - "443:443"
@@ -142,9 +146,15 @@ services:
       - ./Caddyfile:/etc/caddy/Caddyfile:ro
       - caddy_data:/data
       - caddy_config:/config
-    networks: [internal]
+    networks:
+      internal: {}
+      public_proxy:
+        aliases: [medicina-caddy]
 networks:
   internal:
+  public_proxy:
+    external: true
+    name: ${PUBLIC_PROXY_NETWORK:-jobshunter-net}
 volumes:
   caddy_data:
   caddy_config:

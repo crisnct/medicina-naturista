@@ -37,6 +37,7 @@ where = ["src"]
 
 [tool.setuptools.package-data]
 backend = [
+    "migrations/*.sql",
     "ai/prompts/*.md",
     "ai/resources/*.txt",
     "reporting/assets/*.png",

@@ -864,6 +864,9 @@ class AIConditionRankTests(RankTestCase):
         self.assertNotIn("x/migrena.md", [path for path, item in results.items() if item["found_by_lexical"]])
 
     def test_a_message_without_any_condition_ranks_without_the_conditions_signal(self):
+        # This assertion needs a semantic hit; the default e0 is orthogonal to
+        # all vectors in this fixture and correctly produces no results.
+        self.query_model.vector = _one_hot(DIM, 3)
         results = search.rank("tulburare ciudata")
 
         self.assertTrue(results)

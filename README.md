@@ -2,7 +2,7 @@
 
 # 🌿 Remedii Naturiste Adjuvante - de la Dr. Cuișor
 
-### Asistent AI de medicină naturistă bazat pe surse
+### Asistent AI de medicină naturistă bazat pe surse locale
 
 [![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
@@ -16,6 +16,7 @@
 
 > [!IMPORTANT]
 > Aplicația oferă informații orientative și recomandări adjuvante. Nu înlocuiește diagnosticul, consultația, tratamentul prescris sau îngrijirea medicală de urgență.
+> Aplicația nu salvează datele personale ale utilizatorului și nici nu le trimite către AI-ul public. Datele sensibile (nume, CNP, adrese, date medicale) nu trebuie introduse în chat.
 
 ## ✨ Despre proiect
 
@@ -215,7 +216,7 @@ $env:PYTHONPATH = "src"
 .\.venv\Scripts\python.exe -m uvicorn backend.web.main:app --host 127.0.0.1 --port 7860
 ```
 
-Deschideți o dată `http://127.0.0.1:7860/owner?key=<OWNER_KEY>`, ca browserul să fie marcat ca owner, apoi `http://127.0.0.1:7860`. Endpointul de stare este `http://127.0.0.1:7860/healthz` (503 dacă lipsește cheia furnizorului AI).
+Executați migrarea explicită înainte de prima autentificare: `python -m scripts.migrate_database` (cu `PYTHONPATH=src` și baza configurată). Autorizarea se face prin cererea `GET /owner?key=<OWNER_KEY>`: cheia validă emite cookie-ul și redirecționează către chat, fără cheia în URL-ul destinației. Cu prefixul public, ruta este `/medicina/owner?key=<OWNER_KEY>`. Nu există controale owner în UI. Autorizarea rămâne validă peste restart până la `POST /api/owner/logout` sau rotația cheii. Endpointul de stare este `http://127.0.0.1:7860/healthz` (503 dacă lipsește cheia furnizorului AI).
 
 Pentru dezvoltarea interfeței cu reîncărcare automată, rulați `npm run dev` în `src/frontend/`: Vite servește interfața și trimite `/api`, `/healthz` și `/owner` către backend-ul de pe portul 7860.
 
@@ -224,7 +225,9 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 | Endpoint | Rol |
 |---|---|
 | `GET /healthz` | Starea aplicației; 503 dacă lipsește cheia furnizorului AI activ. |
-| `GET /owner?key=<OWNER_KEY>` | Marchează browserul ca owner (cookie), apoi redirecționează la pagina principală; 404 la cheie greșită. |
+| `GET /owner?key=<OWNER_KEY>` | Autorizează browserul și redirecționează către chat; cheie lipsă/greșită: 404. |
+| `GET /api/owner` | Starea autorizării și tokenul CSRF pentru browser. |
+| `POST /api/owner/login`, `POST /api/owner/logout` | Emit, respectiv revocă autorizarea individuală; necesită origine validă și token CSRF. |
 | `GET /api/session` | Creează sesiunea tabului și întoarce istoricul conversației. |
 | `GET /api/categories` | Arborele categoriilor (folderele surselor) și selecția implicită (toate). |
 | `POST /api/messages` | Salvează mesajul, categoriile și semnalele alese; dacă există deja un raport, o adresă de e-mail trimite raportul. |
@@ -233,6 +236,12 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 | `POST /api/searches/{search_id}/generate` | Doar owner: trimite către AI fragmentele cu relevanța ≥ `minScore` și generează PDF-ul. |
 | `GET /api/reports/{tab_id}/{report_id}` | Descarcă PDF-ul generat în sesiunea tabului. |
 | `POST /api/session/end`, `POST /api/session/unload` | Închid sesiunea tabului (la cerere, respectiv la închiderea paginii). |
+
+## Sesiuni, retenție și autorizare owner
+
+[Documentația de operare](architecture/session-runtime.md) descrie limitele configurabile, codurile HTTP, migrarea, proxy-urile autorizate și contractul de anulare. Limitele sunt pe proces: rulați aplicația cu **un singur worker**. Datele medicale rămân temporare; tabela `owner_sessions` păstrează numai hashuri și metadata tehnică de revocare.
+
+Este permisă o singură sesiune activă per adresă IP, inclusiv între Edge și Chrome; persoanele din aceeași rețea/NAT împart această limită. Un al doilea tab/browser afișează mesajul explicit de blocare și „Verifică din nou”, fără să permită căutarea. Pentru tunelul ngrok existent prin proxy-ul JobsHunter, porniți normal cu `docker compose up -d`. Configurația include legătura Caddy cu rețeaua existentă `jobshunter-net` (`PUBLIC_PROXY_NETWORK` pentru alt nume); configurați allowlisturile IP conform documentației de operare.
 
 ## 📦 Schema indexului hibrid (Postgres)
 
@@ -333,7 +342,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `SESSION_IDLE_SECONDS` | `3600` | Expirarea unei sesiuni inactive. |
 | `SESSION_MAX_SECONDS` | `14400` | Durata maximă a unei sesiuni. |
 | `COOKIE_SECURE` | `false` | Impune transmiterea cookie-ului numai prin HTTPS. |
-| `OWNER_KEY` | _(gol)_ | Cheie secretă lungă. Doar browserele care au deschis o dată `/owner?key=<OWNER_KEY>` primesc un cookie (valabil ~10 ani) și pot genera rețeta; ceilalți văd un mesaj de indisponibilitate. Fără cheie, nimeni nu poate genera. |
+| `OWNER_KEY` | _(gol)_ | Cheie secretă lungă, trimisă prin requestul `/owner?key=<OWNER_KEY>`. Autorizările individuale persistă în PostgreSQL până la logout; rotația cheii le invalidează. Cookie-ul este reînnoit cu Max-Age de 365 de zile la activitate autorizată. |
 | `LOG_LEVEL` | `INFO` | Nivelul minim al logurilor. |
 | `LOG_FRAGMENT_TEXT` | `true` | Include textul fragmentelor în loguri. |
 | `LOG_FRAGMENT_TEXT_MAX_CHARS` | `4000` | Limita textului logat per fragment. |
@@ -344,12 +353,13 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `DB_HOST_PORT` | `5432` (Docker Compose) | Portul de pe host (doar `127.0.0.1`) la care Compose publică Postgres. |
 | `APP_DOMAIN` / `CADDY_SITE_SCHEME` | `localhost` / `http` (Docker Compose) | Hostname-ul și schema site-ului servit de Caddy. |
 | `PUBLIC_ROOT_PATH` | gol (direct) / `/medicina` (Docker Compose) | Prefixul căii publice, necesar când aplicația este expusă de un reverse proxy sub `/medicina`: intră în linkul de descărcare a PDF-ului și, la build-ul imaginii, devine `PUBLIC_BASE_PATH` pentru frontend. |
+| `PUBLIC_ORIGIN` | gol | Originea publică exactă (`https://hostname`, fără `/medicina`), pentru validarea originii când TLS se termină la ngrok/proxy și backendul primește HTTP. Dacă este gol, se compară cu originea cererii ASGI. |
 | `FRONTEND_DIST_DIR` | `src/frontend/dist` | Directorul cu build-ul React servit ca fișiere statice de FastAPI. |
-| `TRUST_PROXY` | `false` (direct) / `true` (Docker Compose) | Folosește primul IP din `X-Forwarded-For` pentru limitarea cererilor când traficul vine prin proxy de încredere. |
+| `FORWARDED_ALLOW_IPS` | `127.0.0.1` | Allowlist Uvicorn pentru IP-urile/CIDR-urile proxy-urilor autorizate; aplicația nu interpretează direct `X-Forwarded-For`. |
 
 Creșterea bugetului de context (`*_MAX_CONTEXT_CHARS`) mărește numărul de fragmente afișate, timpul de procesare și dimensiunea requestului trimis către furnizorul AI. În medii în care logurile nu au acces controlat, setați `LOG_FRAGMENT_TEXT=false`.
 
-La pornirea directă, aplicația citește valorile din `.env`; valorile implicite diferă unde este indicat. Docker Compose transmite variabilele enumerate în secțiunea `environment`; `COOKIE_SECURE` este implicit `false` la pornire directă și `true` în Compose. `OWNER_KEY` este opțional, dar fără el generarea raportului este dezactivată; setați o cheie secretă și deschideți `/owner?key=<OWNER_KEY>` în browserul autorizat. `TRUST_PROXY` este activat în Compose deoarece Caddy se află în fața aplicației.
+La pornirea directă, aplicația citește valorile din `.env`; valorile implicite diferă unde este indicat. Docker Compose transmite variabilele enumerate în secțiunea `environment`; `COOKIE_SECURE` este implicit `false` la pornire directă și `true` în Compose. `OWNER_KEY` este opțional, dar fără el generarea raportului este dezactivată; setați o cheie secretă și autorizați browserul prin `/owner?key=<OWNER_KEY>`. IP-ul pentru limite este furnizat de serverul ASGI; aplicația nu interpretează `X-Forwarded-For`. În deploymentul cu proxy, configurați allowlistul explicit `FORWARDED_ALLOW_IPS` al Uvicorn pentru proxy-urile autorizate; vechiul `TRUST_PROXY` nu mai acordă încredere antetelor.
 
 ### ✉️ Gmail OAuth2 — opțional
 
@@ -389,7 +399,7 @@ Rulați întreaga suită backend:
 
 ```powershell
 $env:PYTHONPATH = "src"
-.\.venv\Scripts\python.exe -m unittest discover -s tests -v
+.\.venv\Scripts\python.exe -m unittest discover -s src/tests -t src -v
 ```
 
 Testele interfeței:

@@ -1,7 +1,9 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useState } from "react";
-import { api } from "../api/client";
-import type { ChatMessage, SearchSignals } from "../api/types";
+import { api, errorMessage } from "../api/client";
+import type { ChatMessage, SearchSignals, ResourceInvalidations } from "../api/types";
+
+import { reconcileRetention } from "../lib/retention";
 
 const SESSION_KEY = ["session"] as const;
 
@@ -36,13 +38,13 @@ export function useConversation() {
   // the chat can show a "thinking" indicator only for the slow part.
   const [isSearching, setIsSearching] = useState(false);
 
-  const sessionQuery = useQuery({ queryKey: SESSION_KEY, queryFn: api.getSession });
+  const sessionQuery = useQuery({ queryKey: SESSION_KEY, queryFn: api.getSession, retry: false });
   const history = sessionQuery.data?.history ?? [];
 
   const appendMessages = useCallback(
-    (messages: ChatMessage[]) => {
+    (messages: ChatMessage[], result: ResourceInvalidations = {}) => {
       queryClient.setQueryData(SESSION_KEY, (old: { history: ChatMessage[] } | undefined) => ({
-        history: [...(old?.history ?? []), ...messages],
+        history: reconcileRetention([...(old?.history ?? []), ...messages], result),
       }));
     },
     [queryClient],
@@ -64,26 +66,27 @@ export function useConversation() {
       signals: SearchSignals;
     }) => {
       const first = await api.sendMessage(message, categories, signals);
-      appendMessages(first.messages);
+      appendMessages(first.messages, first);
       if (first.startSearch) {
         setIsSearching(true);
         try {
           let startSearch = true;
           if (first.identifyCondition) {
-            const condition = await api.identifyCondition();
-            appendMessages(condition.messages);
+            const condition = await api.identifyCondition(first.contextRevision);
+            appendMessages(condition.messages, condition);
             startSearch = condition.startSearch;
           }
           if (startSearch) {
-            const second = await api.search();
-            appendMessages(second.messages);
+            const second = await api.search(first.contextRevision);
+            appendMessages(second.messages, second);
           }
         } finally {
           setIsSearching(false);
         }
       }
     },
-    onError: () => setBanner("Mesajul nu a putut fi trimis. Încercați din nou."),
+    retry: false,
+    onError: (error) => setBanner(errorMessage(error, "Mesajul nu a putut fi trimis. Încercați din nou.")),
   });
 
   const generateReport = useMutation({
@@ -108,13 +111,15 @@ export function useConversation() {
         // "generate" call to action. On a failure the server answers with just
         // an error text and keeps the search pending, so the button stays,
         // re-enabled, below the error and the patient can retry.
+        if (result.cancelled) return { history: setBusy(old.history, searchId, false) };
         const generated = result.messages.some((message) => message.kind === "download");
-        if (!generated) return { history: [...setBusy(old.history, searchId, false), ...result.messages] };
-        return { history: replaceGenerateMessage(old.history, searchId, result.messages) };
+        if (!generated) return { history: reconcileRetention([...setBusy(old.history, searchId, false), ...result.messages], result) };
+        return { history: reconcileRetention(replaceGenerateMessage(old.history, searchId, result.messages), result) };
       });
     },
-    onError: (_error, { searchId }) => {
-      setBanner("Rețeta nu a putut fi generată. Încercați din nou.");
+    retry: false,
+    onError: (error, { searchId }) => {
+      setBanner(errorMessage(error, "Rețeta nu a putut fi generată. Încercați din nou."));
       queryClient.setQueryData(SESSION_KEY, (old: { history: ChatMessage[] } | undefined) =>
         old ? { history: setBusy(old.history, searchId, false) } : old,
       );
@@ -125,6 +130,8 @@ export function useConversation() {
     history,
     isLoading: sessionQuery.isLoading,
     isError: sessionQuery.isError,
+    sessionError: sessionQuery.error ? errorMessage(sessionQuery.error, "Sesiunea nu a putut fi încărcată.") : null,
+    retrySession: () => { void sessionQuery.refetch(); },
     banner,
     clearBanner: () => setBanner(null),
     sendMessage: (message: string, categories: string[], signals: SearchSignals) =>

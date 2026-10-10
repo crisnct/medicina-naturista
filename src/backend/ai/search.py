@@ -428,6 +428,8 @@ def warm_up() -> None:
 
 # Parse search arguments, execute the search, and print human or JSON results.
 def main() -> None:
+    from backend.config import Settings, configure_settings
+    configure_settings(Settings.from_env(dotenv=True))
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     if hasattr(sys.stderr, "reconfigure"):

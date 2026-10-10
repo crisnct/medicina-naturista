@@ -7,8 +7,10 @@ import type {
   SendMessageResponse,
   SessionResponse,
 } from "./types";
+import { claimTab, releaseTab } from "../lib/tabLease";
 
 const TAB_ID_KEY = "naturist_tab_id";
+let sessionAdmitted = false;
 
 // One id per browser tab, generated once and kept in sessionStorage (not
 // localStorage, so separate tabs stay isolated — the same "one session per
@@ -24,7 +26,7 @@ function getTabId(): string {
 }
 
 export class ApiError extends Error {
-  constructor(public status: number, message: string) {
+  constructor(public status: number, message: string, public code?: string) {
     super(message);
     this.name = "ApiError";
   }
@@ -54,7 +56,9 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
   });
   if (!response.ok) {
     const body = await response.json().catch(() => null);
-    throw new ApiError(response.status, body?.detail ?? "A apărut o eroare neașteptată. Încercați din nou.");
+    const detail = body?.detail;
+    const message = typeof detail === "string" ? detail : detail?.message;
+    throw new ApiError(response.status, message ?? "A apărut o eroare neașteptată. Încercați din nou.", detail?.code);
   }
   if (response.status === 204) {
     return undefined as T;
@@ -63,7 +67,19 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
 }
 
 export const api = {
-  getSession: () => request<SessionResponse>("/api/session"),
+  getSession: async () => {
+    if (!await claimTab(getTabId())) {
+      throw new ApiError(429, "Chatul este deja deschis într-un alt tab. Folosiți pagina deschisă sau închideți-o și încercați din nou aici.", "SESSION_ALREADY_ACTIVE");
+    }
+    try {
+      const session = await request<SessionResponse>("/api/session");
+      sessionAdmitted = true;
+      return session;
+    } catch (error) {
+      if (!sessionAdmitted) releaseTab();
+      throw error;
+    }
+  },
   getCategories: () => request<CategoriesResponse>("/api/categories"),
   sendMessage: (message: string, categories: string[], signals: SearchSignals) =>
     request<SendMessageResponse>("/api/messages", {
@@ -73,11 +89,15 @@ export const api = {
   // Asks the AI for the condition the dictionary does not know; only called
   // when sendMessage() said identifyCondition. Its startSearch says whether
   // the retrieval should follow.
-  identifyCondition: () => request<ConditionResponse>("/api/condition", { method: "POST" }),
+  identifyCondition: (revision?: number) => request<ConditionResponse>("/api/condition", {
+    method: "POST", headers: revision === undefined ? {} : { "X-Context-Revision": String(revision) },
+  }),
   // Slower retrieval step for the health problem/categories the previous
   // sendMessage() call already stored on the session — only called when
   // that call's startSearch flag says so.
-  search: () => request<MessagesResponse>("/api/search", { method: "POST" }),
+  search: (revision?: number) => request<MessagesResponse>("/api/search", {
+    method: "POST", headers: revision === undefined ? {} : { "X-Context-Revision": String(revision) },
+  }),
   // minScore: only fragments whose relevance percent reaches it go to the AI (0 = all).
   generateReport: (searchId: string, minScore: number) =>
     request<GenerateResponse>(`/api/searches/${encodeURIComponent(searchId)}/generate`, {
@@ -88,6 +108,20 @@ export const api = {
   // keepalive fetch (not navigator.sendBeacon, which can't carry the X-Tab-Id
   // header) so the request has a chance to complete after the page unloads.
   unloadSession: () => {
-    void request("/api/session/unload", { method: "POST", keepalive: true }).catch(() => {});
+    if (sessionAdmitted) {
+      sessionAdmitted = false;
+      void request("/api/session/unload", { method: "POST", keepalive: true }).catch(() => {});
+    }
+    releaseTab();
   },
 };
+
+export function errorMessage(error: unknown, fallback: string): string {
+  if (!(error instanceof ApiError)) return fallback;
+  if (error.code === "SESSION_ALREADY_ACTIVE") return error.message;
+  if (error.status === 413) return "Cererea este prea mare. Reduceți conținutul mesajului.";
+  if (error.status === 429) return "Limita de cereri sau operații active a fost atinsă. Încercați mai târziu.";
+  if (error.status === 409) return error.message;
+  if (error.status === 503) return "Capacitatea aplicației sau autorizarea este temporar indisponibilă. Încercați mai târziu.";
+  return error.message;
+}

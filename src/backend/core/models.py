@@ -1,6 +1,8 @@
 """Minimal medical context collected before report generation."""
+
 from __future__ import annotations
 
+import secrets
 import threading
 import time
 from dataclasses import dataclass, field
@@ -15,6 +17,7 @@ Folosesc o bibliotecă proprie de cărți și documente de medicină naturistă 
 Recomandările au rol informativ și adjuvant.  
 Cu ce problemă de sănătate vă confruntați?
 """
+
 
 @dataclass
 class HealthProfile:
@@ -36,7 +39,9 @@ class HealthProfile:
     # Add a unique normalized user detail to the profile context.
     def add_health_context(self, message: str) -> None:
         clean = " ".join((message or "").split())[:4000]
-        if clean and clean.casefold() not in {value.casefold() for value in self.health_context}:
+        if clean and clean.casefold() not in {
+            value.casefold() for value in self.health_context
+        }:
             self.health_context.append(clean)
 
     # Set the primary health problem and add it to the searchable context.
@@ -92,10 +97,11 @@ class PendingSearch:
     """Fragments found for one health problem, waiting for "Generează rețeta"."""
 
     profile: dict[str, Any]
-    evidence: dict[str, dict[str, str]]
+    evidence: dict[str, dict[str, Any]]
     # The signals the search was scored with (the patient may change them for
     # the next search, but these fragments keep the scores of this one).
     signals: SearchSignals = ALL_SIGNALS
+    identity: str = field(default_factory=lambda: secrets.token_urlsafe(18))
 
 
 @dataclass
@@ -114,6 +120,13 @@ class SessionData:
     cookie_id: str
     tab_id: str
     directory: Path
+    client_ip: str = "unknown"
+    lifetime_id: str = field(default_factory=lambda: secrets.token_urlsafe(24))
+    closed: bool = False
+    context_revision: int = 0
+    retained_bytes: int = 0
+    current_group_id: str = "greeting"
+    groups: dict[str, "ConversationGroup"] = field(default_factory=dict)
     created_at: float = field(default_factory=time.monotonic)
     last_seen: float = field(default_factory=time.monotonic)
     profile: HealthProfile = field(default_factory=HealthProfile)
@@ -164,3 +177,70 @@ class SessionData:
         self.report_bytes = report.data
         while len(self.reports) > MAX_KEPT_REPORTS:
             self.reports.pop(next(iter(self.reports)))
+
+
+@dataclass
+class ConversationGroup:
+    search_ids: list[str] = field(default_factory=list)
+    report_ids: list[str] = field(default_factory=list)
+
+
+@dataclass(frozen=True)
+class SessionSnapshot:
+    """Independent worker input. Nested data is copied while holding both locks."""
+
+    lifetime_id: str
+    context_revision: int
+    group_id: str
+    tab_id: str
+    profile: HealthProfile
+    selected_categories: set[str]
+    search_signals: SearchSignals
+    search: PendingSearch | None = None
+    report: StoredReport | None = None
+    report_id: str | None = None
+
+
+@dataclass
+class SessionOperation:
+    operation_id: str
+    kind: str
+    session: SessionData
+    snapshot: SessionSnapshot
+    deadline: float
+    cancellation: threading.Event = field(default_factory=threading.Event)
+    state: str = "running"
+    reserved_bytes: int = 0
+    search_id: str | None = None
+
+
+@dataclass
+class CommitChange:
+    """A proposed update; nothing is changed until all budgets pass."""
+
+    messages: list[dict[str, Any]] = field(default_factory=list)
+    profile: HealthProfile | None = None
+    new_context: bool = False
+    selected_categories: set[str] | None = None
+    search_signals: SearchSignals | None = None
+    search: tuple[str, PendingSearch] | None = None
+    report: tuple[str, StoredReport] | None = None
+    replace_search_id: str | None = None
+
+
+@dataclass(frozen=True)
+class OperationResult:
+    messages: list[dict[str, Any]] = field(default_factory=list)
+    evicted_search_ids: list[str] = field(default_factory=list)
+    evicted_report_ids: list[str] = field(default_factory=list)
+    evicted_group_ids: list[str] = field(default_factory=list)
+    cancelled: bool = False
+
+    def as_dict(self) -> dict[str, Any]:
+        return {
+            "messages": self.messages,
+            "evictedSearchIds": self.evicted_search_ids,
+            "evictedReportIds": self.evicted_report_ids,
+            "evictedGroupIds": self.evicted_group_ids,
+            "cancelled": self.cancelled,
+        }

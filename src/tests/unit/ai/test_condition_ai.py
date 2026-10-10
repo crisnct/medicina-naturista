@@ -1,6 +1,6 @@
 """Tests for the AI identification of a condition the dictionary does not know
 (backend.ai.condition_ai): the answer's validation, the backends and their
-fallback, the cache, and how an answer becomes an ordinary condition. No real
+fallback, ephemeral answers, and how an answer becomes an ordinary condition. No real
 request is made: the HTTP client's post() is replaced."""
 from __future__ import annotations
 
@@ -197,7 +197,7 @@ class FailureTests(ConditionAITestCase):
 
         output = "\n".join(captured.output)
         self.assertIn("condition_ai_completed backend=local reason=identified", output)
-        self.assertIn("identified=Cefalee synonyms=0 mapped_to_dictionary=nu", output)
+        self.assertIn("identified=1 synonyms=0 mapped_to_dictionary=nu", output)
         self.assertNotIn("secreta", output)
 
 
@@ -279,13 +279,14 @@ class FallbackTests(ConditionAITestCase):
 
 
 class CacheTests(ConditionAITestCase):
-    def test_the_same_message_is_answered_once(self):
+    def test_free_text_is_not_cached_across_operations(self):
         post = self.fake_post("local", segments_reply(HYPER), segments_reply())
 
         first, second = self.identify(), self.identify()
 
-        self.assertEqual(first.answers, second.answers)
-        self.assertEqual(post.call_count, 1)
+        self.assertTrue(first.answers)
+        self.assertFalse(second.answers)
+        self.assertEqual(post.call_count, 2)
 
     def test_the_key_is_the_text_of_the_segments(self):
         post = self.fake_post("local", segments_reply(HYPER), segments_reply())

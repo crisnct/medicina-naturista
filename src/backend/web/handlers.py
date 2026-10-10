@@ -61,7 +61,7 @@ def _report_filename(session: SessionData, profile: dict | None = None) -> str:
 
 # Build the session-scoped download message for the generated PDF.
 def _download_message(
-    session: SessionData, report_id: str | None = None, profile: dict | None = None
+    session: SessionData, report_id: str | None = None, profile: dict | None = None, *, prefix: str | None = None
 ) -> dict[str, Any]:
     report_id = report_id or session.report_id
     if not report_id:
@@ -70,7 +70,8 @@ def _download_message(
     # proxy that mounts the app under a sub-path (see PUBLIC_ROOT_PATH in the
     # deployment Caddyfile/compose) can be changed without a restart, and so
     # tests can monkeypatch it around a single call.
-    prefix = os.getenv("PUBLIC_ROOT_PATH", os.getenv("GRADIO_ROOT_PATH", "")).rstrip("/")
+    if prefix is None:
+        prefix = os.getenv("PUBLIC_ROOT_PATH", os.getenv("GRADIO_ROOT_PATH", "")).rstrip("/")
     url = f"{prefix}/api/reports/{quote(session.tab_id, safe='')}/{quote(report_id, safe='')}"
     filename = _report_filename(session, profile)
     return {"role": "assistant", "kind": "download", "reportId": report_id, "url": url, "filename": filename}

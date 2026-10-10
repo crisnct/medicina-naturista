@@ -35,6 +35,7 @@ export function Composer({
           aria-label="Descrieți problema de sănătate"
           aria-describedby="message-helper"
           maxLength={MAX_CHAT_CHARS}
+          disabled={disabled}
           value={value}
           onChange={(event) => setValue(event.target.value)}
         />

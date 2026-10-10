@@ -1,86 +1,83 @@
-"""JSON API for the React chat UI, served by FastAPI (which also serves the
-built frontend as static files — see the bottom of this module)."""
+"""FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits."""
+
 from __future__ import annotations
 
 import asyncio
+import copy
 import hashlib
 import hmac
 import logging
-import os
 import re
 import secrets
-import time
-from collections import defaultdict, deque
-from contextlib import asynccontextmanager
-from http.cookies import SimpleCookie
+from contextlib import asynccontextmanager, suppress
+from http.cookies import CookieError, SimpleCookie
 from urllib.parse import quote, urlparse
 
-from fastapi import FastAPI, HTTPException, Request
-from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import RedirectResponse, Response
+from fastapi import APIRouter, FastAPI, HTTPException, Request
+from fastapi.exceptions import RequestValidationError
+from fastapi.responses import JSONResponse, RedirectResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, model_validator
 
-from backend.config import settings
-
 from backend.ai.client import AIUnavailable, create_ai_client
-from backend.integrations.gmail import EMAIL_SKIPPED, send_report
-from backend.reporting.pdf import create_pdf
-from backend.ai.condition_ai import (
-    identify_conditions,
-    resolved_for,
-    warm_up as warm_up_condition_ai,
-)
+from backend.ai.condition_ai import identify_conditions, resolved_for
+from backend.ai.condition_ai import warm_up as warm_up_condition_ai
 from backend.ai.conditions import ResolvedQuery, resolve_query
 from backend.ai.retrieval import Retriever
-from backend.ai.search import ALL_SIGNALS, SearchSignals, warm_up as warm_up_search
-from backend.core.models import PendingSearch, SessionData, StoredReport
+from backend.ai.search import ALL_SIGNALS, SearchSignals
+from backend.ai.search import warm_up as warm_up_search
+from backend.config import Settings, configure_settings
+from backend.core.errors import ApplicationError, OperationCancelled
+from backend.core.models import (
+    CommitChange,
+    OperationResult,
+    PendingSearch,
+    SessionData,
+    StoredReport,
+)
+from backend.core.owner_auth import OwnerAuth, PostgresOwnerSessionRepository
+from backend.core.rate_limits import RateLimiter
 from backend.core.sessions import SessionStore
+from backend.integrations.gmail import EMAIL_SKIPPED, send_report
+from backend.reporting.pdf import create_pdf
+from backend.web.access_logs import OwnerAccessLogFilter
+from backend.web.body_limit import ApiBodyLimitMiddleware
+from backend.web.dependencies import Dependencies
 from backend.web.handlers import (
-    _append,
-    _ask,
     _download_message,
     _fragments_message,
     _generate_message,
     _recommendation_text,
-    _replace_generate_message,
     _report_filename,
     _text,
 )
 
 logger = logging.getLogger("naturist.web")
-logging.basicConfig(
-    level=getattr(logging, settings.log_level, logging.INFO),
-    format="%(asctime)s %(levelname)s %(name)s %(message)s",
-)
 COOKIE = "naturist_sid"
 COOKIE_RE = re.compile(r"^[A-Za-z0-9_-]{32,64}$")
-# Client-generated per-tab identifier (crypto.randomUUID(), kept in the
-# browser's sessionStorage) sent on every request as the X-Tab-Id header —
-# the replacement for Gradio's own per-connection request.session_hash.
 TAB_ID_RE = re.compile(r"^[A-Za-z0-9_-]{8,64}$")
 OWNER_COOKIE = "naturist_owner"
-OWNER_COOKIE_MAX_AGE = 10 * 365 * 24 * 3600
-OWNER_ONLY_MESSAGE = "Generarea rețetei este disponibilă doar pentru autorul acestui chatbot."
-NO_FRAGMENT_ABOVE_MIN_SCORE = "Niciun fragment nu atinge scorul minim selectat. Alegeți un prag mai mic."
+CSRF_COOKIE = "naturist_owner_csrf"
+OWNER_COOKIE_MAX_AGE = 31536000
+OWNER_ONLY_MESSAGE = (
+    "Generarea rețetei este disponibilă doar pentru autorul acestui chatbot."
+)
+NO_FRAGMENT_ABOVE_MIN_SCORE = (
+    "Niciun fragment nu atinge scorul minim selectat. Alegeți un prag mai mic."
+)
 WELCOME = "Bună ziua! 👋"
-store = SessionStore(settings.temp_dir, settings.session_idle_seconds, settings.session_max_seconds)
-retriever = Retriever(settings.documents_dir)
-NO_CATEGORY_SELECTED_MESSAGE = (
-    "Nicio sursă selectată. Bifați cel puțin o categorie în panoul „Căutare avansată” înainte de căutare."
-)
-CONDITION_AI_NOTICE = (
-    "🤖 Nu am găsit afecțiunea în dicționarul meu. Încerc să o identific cu ajutorul AI. Vă rog să așteptați."
-)
+NO_CATEGORY_SELECTED_MESSAGE = "Nicio sursă selectată. Bifați cel puțin o categorie în panoul „Căutare avansată” înainte de căutare."
+CONDITION_AI_NOTICE = "🤖 Nu am găsit afecțiunea în dicționarul meu. Încerc să o identific cu ajutorul AI. Vă rog să așteptați."
 CONDITION_NOT_IDENTIFIED_MESSAGE = "⚠️ Nu am putut identifica afecțiunea din mesaj."
-CONDITION_NOT_IDENTIFIED_CONTINUES = f"{CONDITION_NOT_IDENTIFIED_MESSAGE} Caut după textul mesajului."
-CONDITION_NOT_IDENTIFIED_STOPS = (
-    f"{CONDITION_NOT_IDENTIFIED_MESSAGE} Scrieți denumirea afecțiunii (ex. gripă, hipertensiune)."
+CONDITION_NOT_IDENTIFIED_CONTINUES = (
+    f"{CONDITION_NOT_IDENTIFIED_MESSAGE} Caut după textul mesajului."
 )
-EMAIL_OFFER = (
-    "Dacă doriți să trimiteți documentul pe mail la cineva, spuneți-mi la ce adresă să îl trimit."
+CONDITION_NOT_IDENTIFIED_STOPS = f"{CONDITION_NOT_IDENTIFIED_MESSAGE} Scrieți denumirea afecțiunii (ex. gripă, hipertensiune)."
+EMAIL_OFFER = "Dacă doriți să trimiteți documentul pe mail la cineva, spuneți-mi la ce adresă să îl trimit."
+EMAIL_PATTERN = re.compile(
+    r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}"
 )
-EMAIL_PATTERN = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}")
+router = APIRouter()
 
 
 # Documents the given category ids actually cover, for the "Caut rapid în
@@ -90,25 +87,38 @@ EMAIL_PATTERN = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*
 # would double-count a folder together with its own subfolders if both ended
 # up selected). An id outside the known set (stale, or no tree at all) is
 # simply not counted, same as everywhere else category ids are consumed.
-def _document_count_for_categories(category_ids: set[str]) -> int:
+def _document_count_for_categories(category_ids: set[str], retriever) -> int:
     tree = getattr(retriever, "category_tree", None)
     if tree is None:
         return getattr(retriever, "document_count", 0)
     known = tree.known_ids()
-    return sum(tree.nodes[category_id].own_documents for category_id in category_ids if category_id in known)
+    return sum(
+        tree.nodes[category_id].own_documents
+        for category_id in category_ids
+        if category_id in known
+    )
 
 
 # Whether the message goes to the condition AI: the conditions signal is on, a
 # backend is configured and the dictionary names no condition in any segment.
-def _needs_condition_ai(health_problem: str, signals: SearchSignals) -> bool:
-    return bool(signals.conditions and settings.condition_ai_backends and not resolve_query(health_problem).conditions)
+def _needs_condition_ai(
+    health_problem: str, signals: SearchSignals, settings: Settings
+) -> bool:
+    return bool(
+        signals.conditions
+        and settings.condition_ai_backends
+        and not resolve_query(health_problem).conditions
+    )
 
 
 # Build the "Caut rapid în cele N documente" notice for the categories
 # currently selected on the session.
-def _report_started_message(session: SessionData) -> dict:
-    count = _document_count_for_categories(session.selected_categories)
-    return _text("assistant", f"🔍 Caut rapid în cele {count} documente interne disponibile. Vă rog să așteptați.")
+def _report_started_message(session, retriever) -> dict:
+    count = _document_count_for_categories(session.selected_categories, retriever)
+    return _text(
+        "assistant",
+        f"🔍 Caut rapid în cele {count} documente interne disponibile. Vă rog să așteptați.",
+    )
 
 
 # Chat notice naming the condition(s) the health problem was recognised as in
@@ -124,25 +134,38 @@ def _report_started_message(session: SessionData) -> dict:
 # message already resolved (dictionary plus AI conditions, see resolved_for());
 # `by_ai` marks the conditions as identified by the AI rather than the dictionary.
 def _condition_identified_message(
-    health_problem: str | ResolvedQuery, signals: SearchSignals = ALL_SIGNALS, by_ai: bool = False
+    health_problem: str | ResolvedQuery,
+    signals: SearchSignals = ALL_SIGNALS,
+    by_ai: bool = False,
 ) -> dict | None:
-    resolved = health_problem if isinstance(health_problem, ResolvedQuery) else resolve_query(health_problem)
+    resolved = (
+        health_problem
+        if isinstance(health_problem, ResolvedQuery)
+        else resolve_query(health_problem)
+    )
     whole = {
         condition.name
-        for segment in resolved.segments if segment.whole_condition
+        for segment in resolved.segments
+        if segment.whole_condition
         for condition in segment.conditions
     }
     if signals.conditions:
         conditions = resolved.conditions
     elif signals.lexical:
-        conditions = tuple(condition for condition in resolved.conditions if condition.name in whole)
+        conditions = tuple(
+            condition for condition in resolved.conditions if condition.name in whole
+        )
     else:
         return None
     if not conditions:
         return None
     lines = []
     for condition in conditions:
-        label = "Am identificat afecțiunea (cu ajutorul AI)" if by_ai else "Am identificat afecțiunea"
+        label = (
+            "Am identificat afecțiunea (cu ajutorul AI)"
+            if by_ai
+            else "Am identificat afecțiunea"
+        )
         line = f"✅ {label}: **{condition.name}**."
         if signals.lexical and condition.name in whole and len(condition.terms) > 1:
             line += f" O caut și după denumirile: {', '.join(condition.terms[1:])}."
@@ -160,243 +183,12 @@ def _category_node_payload(tree, node_id: str) -> dict:
         "ownDocuments": node.own_documents,
         "totalDocuments": node.total_documents,
         "isReal": node.own_documents > 0,
-        "children": [_category_node_payload(tree, child_id) for child_id in node.children],
+        "children": [
+            _category_node_payload(tree, child_id) for child_id in node.children
+        ],
     }
 
 
-ai = create_ai_client(settings)
-
-
-@asynccontextmanager
-# Start periodic session cleanup on startup and close background resources on shutdown.
-async def lifespan(app: FastAPI):
-    logger.info(
-        "application_started documents=%s log_fragment_text=%s ai_provider=%s ai_model=%s",
-        settings.documents_dir,
-        settings.log_fragment_text,
-        ai.provider.name,
-        ai.provider.model,
-    )
-
-    # Periodically remove expired sessions from the in-memory store.
-    async def cleanup() -> None:
-        while True:
-            await asyncio.sleep(60)
-            store.sweep()
-
-    cleanup_task = asyncio.create_task(cleanup())
-    # Load the embedding model and warm the index now, not on the first patient's search.
-    try:
-        await asyncio.to_thread(warm_up_search)
-    except Exception:
-        logger.warning("search_warm_up_failed", exc_info=True)
-    # The local condition model loads on its first request; do that one now.
-    try:
-        await asyncio.to_thread(warm_up_condition_ai)
-    except Exception:
-        logger.warning("condition_ai_warm_up_failed", exc_info=True)
-    try:
-        yield
-    finally:
-        logger.info("application_shutdown active_sessions=%s", store.count())
-        cleanup_task.cancel()
-        ai.close()
-
-
-app = FastAPI(title="Chatbot naturist", docs_url=None, redoc_url=None, openapi_url=None, lifespan=lifespan)
-app.add_middleware(CORSMiddleware, allow_origins=[], allow_methods=[], allow_headers=[])
-
-rate_lock = __import__("threading").Lock()
-rate_events: dict[str, deque[float]] = defaultdict(deque)
-
-
-# Extract and validate the application session cookie from a raw Cookie header.
-def _cookie_from_header(header: str) -> str | None:
-    try:
-        cookies = SimpleCookie()
-        cookies.load(header)
-        value = cookies[COOKIE].value if COOKIE in cookies else None
-        return value if value and COOKIE_RE.fullmatch(value) else None
-    except Exception:
-        return None
-
-
-# Derive the owner cookie value from the secret key; empty when no OWNER_KEY is configured.
-def _owner_token() -> str:
-    key = os.getenv("OWNER_KEY", "")
-    if not key:
-        return ""
-    return hmac.new(key.encode(), b"naturist-owner", hashlib.sha256).hexdigest()
-
-
-# Tell whether the raw Cookie header carries a valid owner cookie (fails closed without OWNER_KEY).
-def _is_owner(cookie_header: str) -> bool:
-    expected = _owner_token()
-    if not expected:
-        return False
-    try:
-        cookies = SimpleCookie()
-        cookies.load(cookie_header)
-        value = cookies[OWNER_COOKIE].value if OWNER_COOKIE in cookies else ""
-    except Exception:
-        return False
-    return hmac.compare_digest(value, expected)
-
-
-# Resolve the authenticated browser tab to its cookie and client-generated tab identifiers.
-def _identity(request: Request) -> tuple[str, str]:
-    cookie = _cookie_from_header(request.headers.get("cookie", ""))
-    if not cookie:
-        raise HTTPException(status_code=401, detail="Sesiunea a expirat. Reîncărcați pagina.")
-    tab = request.headers.get("x-tab-id", "")
-    if not TAB_ID_RE.fullmatch(tab):
-        raise HTTPException(status_code=400, detail="Identificator de tab lipsă sau invalid.")
-    return cookie, tab
-
-
-# Return the current tab session or raise a user-facing expiration error.
-def _current(request: Request, create: bool = False) -> SessionData:
-    cookie, tab = _identity(request)
-    session = store.get(cookie, tab, create=create)
-    if session is None:
-        raise HTTPException(status_code=409, detail="Sesiunea a expirat. Reîncărcați pagina.")
-    return session
-
-
-@app.middleware("http")
-# Enforce origin and request-rate protections, then maintain the session cookie.
-async def session_and_limits(request: Request, call_next):
-    path = request.url.path
-    if request.method in {"POST", "PUT", "DELETE"}:
-        origin = request.headers.get("origin")
-        if origin and urlparse(origin).netloc != request.headers.get("host"):
-            logger.warning("http_request_rejected reason=origin_mismatch method=%s path=%s", request.method, path)
-            return Response("Forbidden", status_code=403)
-        if path.startswith("/api/"):
-            proxy = os.getenv("TRUST_PROXY", "false").lower() == "true"
-            forwarded = request.headers.get("x-forwarded-for", "") if proxy else ""
-            client_ip = forwarded.split(",")[0].strip() if forwarded else (
-                request.client.host if request.client else "unknown"
-            )
-            now = time.monotonic()
-            with rate_lock:
-                events = rate_events[client_ip]
-                while events and now - events[0] > 60:
-                    events.popleft()
-                if len(events) >= settings.max_requests_per_minute:
-                    logger.warning(
-                        "http_request_rejected reason=rate_limit method=%s path=%s limit=%s",
-                        request.method,
-                        path,
-                        settings.max_requests_per_minute,
-                    )
-                    return Response("Prea multe cereri. Încercați mai târziu.", status_code=429)
-                events.append(now)
-    sid = request.cookies.get(COOKIE)
-    if not sid or not COOKIE_RE.fullmatch(sid):
-        sid = secrets.token_urlsafe(32)
-        fresh = True
-    else:
-        fresh = False
-    response = await call_next(request)
-    if fresh and path != "/healthz":
-        response.set_cookie(
-            COOKIE, sid, httponly=True,
-            secure=os.getenv("COOKIE_SECURE", "false").lower() == "true",
-            samesite="strict", path="/",
-        )
-    response.headers["Cache-Control"] = "no-store"
-    response.headers["X-Content-Type-Options"] = "nosniff"
-    response.headers["Referrer-Policy"] = "no-referrer"
-    return response
-
-
-@app.get("/healthz")
-# Report application readiness only when the active AI provider's credential is configured.
-def healthz():
-    try:
-        configured = ai.is_configured()
-    except (OSError, UnicodeError):
-        configured = False
-    if not configured:
-        raise HTTPException(
-            status_code=503,
-            detail=f"Secretul {ai.provider.label} ({ai.provider.api_key_env}) lipsește sau nu este un fișier valid.",
-        )
-    return {"status": "ok", "index": "ready"}
-
-
-@app.get("/owner")
-# Mark this browser as the owner's by setting a long-lived cookie when the secret key matches.
-def owner_login(key: str = ""):
-    expected = os.getenv("OWNER_KEY", "")
-    if not expected or not hmac.compare_digest(key.encode(), expected.encode()):
-        raise HTTPException(status_code=404)
-    response = RedirectResponse(url="./", status_code=303)
-    response.set_cookie(
-        OWNER_COOKIE, _owner_token(), max_age=OWNER_COOKIE_MAX_AGE, httponly=True,
-        secure=os.getenv("COOKIE_SECURE", "false").lower() == "true",
-        samesite="strict", path="/",
-    )
-    logger.info("owner_cookie_issued")
-    return response
-
-
-@app.get("/api/reports/{tab_id}/{report_id}")
-# Return the PDF belonging to the current tab and report identifier.
-def download(tab_id: str, report_id: str, request: Request):
-    sid = request.cookies.get(COOKIE)
-    session = store.get(sid or "", tab_id, create=False)
-    report = session.reports.get(report_id) if session else None
-    if report is None:
-        logger.warning("report_download_rejected reason=not_found tab_id=%s", tab_id)
-        raise HTTPException(status_code=404, detail="Raportul nu este disponibil pentru această sesiune.")
-    filename = report.filename
-    logger.info("report_downloaded tab_id=%s report_bytes=%s", tab_id, len(report.data))
-    return Response(
-        report.data,
-        media_type="application/pdf",
-        headers={
-            "Content-Disposition": f"attachment; filename*=UTF-8''{quote(filename, safe='')}",
-            "Cache-Control": "no-store",
-        },
-    )
-
-
-@app.get("/api/session")
-# Initialize a browser session and return its current chat history.
-def get_session(request: Request):
-    session = _current(request, create=True)
-    with session.lock:
-        if not session.history:
-            question = session.profile.next_question()
-            if question:
-                # Greeting and first question are one chat bubble; the transcript keeps the bare question.
-                _append(session, _text("assistant", f"{WELCOME}\n\n{question}"))
-                session.profile.add_transcript("assistant", question)
-            else:
-                _append(session, _text("assistant", WELCOME))
-        logger.info("session_loaded tab_id=%s history_entries=%s", session.tab_id, len(session.history))
-        return {"history": list(session.history)}
-
-
-@app.get("/api/categories")
-# Return the category tree (or null when the index has no categories yet)
-# and the default selection — every known category id, matching "search
-# everywhere" — so the frontend's filter panel starts fully checked.
-def get_categories():
-    tree = retriever.category_tree
-    if tree is None:
-        return {"tree": None, "defaultSelection": []}
-    return {
-        "tree": _category_node_payload(tree, tree.root_id),
-        "defaultSelection": sorted(tree.known_ids()),
-    }
-
-
-# The signals of the score the patient chose in the "Ce tip de căutare doriți să
-# efectuez?" panel (see ai/search.py's SearchSignals): conditions (A), lexical
-# (B), semantic (C). At least one must be on — the UI never sends otherwise.
 class SignalsPayload(BaseModel):
     conditions: bool = True
     lexical: bool = True
@@ -409,7 +201,9 @@ class SignalsPayload(BaseModel):
         return self
 
     def to_signals(self) -> SearchSignals:
-        return SearchSignals(conditions=self.conditions, lexical=self.lexical, semantic=self.semantic)
+        return SearchSignals(
+            conditions=self.conditions, lexical=self.lexical, semantic=self.semantic
+        )
 
 
 class MessageRequest(BaseModel):
@@ -424,258 +218,830 @@ class GenerateRequest(BaseModel):
     minScore: float = Field(default=0, ge=0, le=100)
 
 
-# Email the finished report to the address typed in chat and return the chat reply.
-def _send_report_email(session: SessionData, address: str) -> dict:
-    latest = session.reports.get(session.report_id or "")
+def _deps(request: Request) -> Dependencies:
+    return request.app.state.dependencies
+
+
+def _identity(request: Request) -> tuple[str, str]:
+    cookie = request.cookies.get(COOKIE, "")
+    if not COOKIE_RE.fullmatch(cookie):
+        cookie = getattr(request.state, "session_cookie", "")
+    if not COOKIE_RE.fullmatch(cookie):
+        raise HTTPException(401, "Sesiunea a expirat. Reîncărcați pagina.")
+    tab = request.headers.get("x-tab-id", "")
+    if not TAB_ID_RE.fullmatch(tab):
+        raise HTTPException(400, "Identificator de tab lipsă sau invalid.")
+    return cookie, tab
+
+
+def _current(request: Request, create: bool = False) -> SessionData:
+    cookie, tab = _identity(request)
+    deps = _deps(request)
+    session = deps.store.get(cookie, tab, create=create, client_ip=_client_ip(request))
+    if session is None:
+        raise ApplicationError(
+            "SESSION_EXPIRED", "Sesiunea a expirat. Reîncărcați pagina."
+        )
+    return session
+
+
+def _client_ip(request: Request) -> str:
+    # ASGI's peer is normalized by the server's explicit trusted proxy allowlist.
+    # Never interpret a client-supplied X-Forwarded-For header here.
+    return request.client.host if request.client else "unknown"
+
+
+def _revision(request: Request) -> int | None:
+    value = request.headers.get("x-context-revision")
+    if value is None:
+        return None
     try:
-        status = send_report(
-            latest.health_problem if latest else session.profile.health_problem,
-            session.report_bytes,
-            latest.filename if latest else _report_filename(session),
-            address,
+        revision = int(value)
+        if revision < 0:
+            raise ValueError
+        return revision
+    except ValueError:
+        raise HTTPException(400, "Revizie invalidă.") from None
+
+
+def _cancelled(**extra):
+    return {**OperationResult(cancelled=True).as_dict(), **extra}
+
+
+@router.get("/healthz")
+def healthz(request: Request):
+    ai = _deps(request).ai
+    try:
+        configured = ai.is_configured()
+    except (OSError, UnicodeError):
+        configured = False
+    if not configured:
+        raise HTTPException(
+            503,
+            f"Secretul {ai.provider.label} ({ai.provider.api_key_env}) lipsește sau nu este un fișier valid.",
         )
-    except Exception as exc:
-        logger.exception("report_stage_failed stage=email tab_id=%s type=%s", session.tab_id, type(exc).__name__)
-        return _text("assistant", "Nu am putut trimite documentul pe mail. Încercați din nou.")
-    logger.info("report_stage_completed stage=email tab_id=%s result=%s", session.tab_id, status)
-    if status == EMAIL_SKIPPED:
-        return _text("assistant", "Trimiterea pe mail nu este configurată momentan.")
-    return _text("assistant", f"✅ Am trimis documentul la {address}.")
+    return {"status": "ok", "index": "ready"}
 
 
-@app.post("/api/messages")
-# Store a user message and return immediately (echo + a short status notice,
-# or a rejection) — kept as its own fast round trip, separate from
-# POST /api/search's slower retrieval, so the frontend can render the user's
-# own message and the "Caut rapid..." notice right away instead of holding
-# them back for however long the search underneath takes.
-def post_message(payload: MessageRequest, request: Request):
-    session = _current(request)
-    message = (payload.message or "").strip()
-    if not message:
-        return {"messages": [], "startSearch": False, "identifyCondition": False}
-    if len(message) > settings.max_chat_chars:
-        raise HTTPException(status_code=422, detail=f"Mesajul depășește limita de {settings.max_chat_chars} caractere.")
-    with session.lock:
-        before = len(session.history)
-        if session.report_bytes is not None and EMAIL_PATTERN.fullmatch(message):
-            _append(session, _text("user", message))
-            _append(session, _send_report_email(session, message))
-            return {"messages": list(session.history[before:]), "startSearch": False, "identifyCondition": False}
-
-        previous_health_problem = session.profile.health_problem
-        _append(session, _text("user", message))
-        session.profile.replace_health_problem(message)
-        session.selected_categories = set(payload.categories)
-        session.search_signals = payload.signals.to_signals()
-        logger.info(
-            "user_message_accepted tab_id=%s chars=%s replaced_health_problem=%s health_context_entries=%s "
-            "selected_categories=%s signals=%s",
-            session.tab_id,
-            len(message),
-            bool(previous_health_problem),
-            len(session.profile.health_context),
-            len(session.selected_categories),
-            session.search_signals.code,
-        )
-
-        if not session.profile.report_ready:
-            _append(session, _text("assistant", "Descrieți problema de sănătate înainte de căutare."))
-            return {"messages": list(session.history[before:]), "startSearch": False, "identifyCondition": False}
-        if getattr(retriever, "category_tree", None) is not None and not session.selected_categories:
-            logger.info("fragments_skipped tab_id=%s reason=no_category_selected", session.tab_id)
-            _append(session, _text("assistant", NO_CATEGORY_SELECTED_MESSAGE))
-            return {"messages": list(session.history[before:]), "startSearch": False, "identifyCondition": False}
-
-        if _needs_condition_ai(session.profile.health_problem, session.search_signals):
-            # The dictionary knows no condition in the message: tell the patient what happens
-            # next; POST /api/condition asks the AI and then announces the search.
-            _append(session, _text("assistant", CONDITION_AI_NOTICE))
-            return {"messages": list(session.history[before:]), "startSearch": True, "identifyCondition": True}
-
-        identified = _condition_identified_message(session.profile.health_problem, session.search_signals)
-        if identified is not None:
-            _append(session, identified)
-        _append(session, _report_started_message(session))
-        return {"messages": list(session.history[before:]), "startSearch": True, "identifyCondition": False}
+@router.get("/api/reports/{tab_id}/{report_id}")
+def download(tab_id: str, report_id: str, request: Request):
+    store = _deps(request).store
+    session = store.get(request.cookies.get(COOKIE, ""), tab_id)
+    report = store.report(session, report_id) if session else None
+    if report is None:
+        raise HTTPException(404, "Raportul nu este disponibil pentru această sesiune.")
+    return Response(
+        report.data,
+        media_type="application/pdf",
+        headers={
+            "Content-Disposition": f"attachment; filename*=UTF-8''{quote(report.filename, safe='')}",
+            "Cache-Control": "no-store",
+        },
+    )
 
 
-@app.post("/api/condition")
-# Ask the AI for the condition of a message the dictionary does not know (the
-# patient was told so by POST /api/messages), announce the result and then the
-# search. The AI call runs outside the session lock, so other requests of the
-# session do not wait for the network.
-def post_condition(request: Request):
-    session = _current(request)
-    with session.lock:
-        health_problem = session.profile.health_problem
-        signals = session.search_signals
-    if not _needs_condition_ai(health_problem, signals):
-        return {"messages": [], "startSearch": True}
-    logger.info("report_stage_started stage=condition_ai tab_id=%s", session.tab_id)
-    result = identify_conditions(resolve_query(health_problem))
-    with session.lock:
-        if session.profile.health_problem != health_problem:
-            # A newer message replaced this one while the AI worked: its own flow follows.
-            logger.info("condition_ai_result_discarded tab_id=%s reason=message_replaced", session.tab_id)
-            return {"messages": [], "startSearch": False}
-        before = len(session.history)
-        session.profile.ai_conditions = result.answers
-        resolved = resolved_for(session.profile)
-        if result.identified:
-            identified = _condition_identified_message(resolved, signals, by_ai=True)
-            if identified is not None:
-                _append(session, identified)
-        elif not (signals.lexical or signals.semantic):
-            # Only the conditions signal and no condition: nothing can score.
-            _append(session, _text("assistant", CONDITION_NOT_IDENTIFIED_STOPS))
-            return {"messages": list(session.history[before:]), "startSearch": False}
-        else:
-            _append(session, _text("assistant", CONDITION_NOT_IDENTIFIED_CONTINUES))
-        _append(session, _report_started_message(session))
-        return {"messages": list(session.history[before:]), "startSearch": True}
+@router.get("/api/session")
+def get_session(request: Request):
+    deps = _deps(request)
+    session = _current(request, create=True)
+    if not deps.store.history(session):
+        operation = deps.store.begin_operation(session, "initialize")
+        try:
+            profile = operation.snapshot.profile
+            question = profile.next_question()
+            if question:
+                profile.add_transcript("assistant", question)
+            deps.store.commit_operation(
+                operation,
+                CommitChange(
+                    messages=[
+                        _text(
+                            "assistant",
+                            f"{WELCOME}\n\n{question}" if question else WELCOME,
+                        )
+                    ],
+                    profile=profile,
+                ),
+            )
+        finally:
+            deps.store.finish_operation(operation)
+    return {"history": deps.store.history(session)}
 
 
-@app.post("/api/search")
-# Run retrieval for the health problem/categories POST /api/messages already
-# stored on the session, and append the resulting fragments+generate section
-# (or a "nothing found" notice). Split out from post_message so the frontend
-# can show the fast echo/notice before this slower call even starts.
-def post_search(request: Request):
-    session = _current(request)
-    with session.lock:
-        before = len(session.history)
-        signals = session.search_signals
-        if signals.conditions and not (signals.lexical or signals.semantic) and not resolved_for(session.profile).conditions:
-            # Only the conditions signal and no condition (the AI step is off): nothing can score.
-            _append(session, _text("assistant", CONDITION_NOT_IDENTIFIED_STOPS))
-            return {"messages": list(session.history[before:])}
-        logger.info("report_stage_started stage=retrieval tab_id=%s", session.tab_id)
-        evidence = retriever.collect(session, ai.context_budget())
-        logger.info(
-            "report_stage_completed stage=retrieval tab_id=%s evidence_entries=%s evidence_chars=%s",
-            session.tab_id,
-            len(evidence),
-            sum(len(item["text"]) for item in evidence.values()),
-        )
-        if not evidence:
-            _append(session, _text("assistant", "Nu am găsit fragmente relevante în sursele locale. Încercați o căutare semantică sau introduceți altă denumire a afecțiunii."))
-            return {"messages": list(session.history[before:])}
-
-        search_id = secrets.token_hex(6)
-        session.add_search(
-            search_id, PendingSearch(profile=session.profile.as_dict(), evidence=evidence, signals=signals)
-        )
-        _append(session, _fragments_message(search_id, evidence, signals))
-        _append(session, _generate_message(search_id))
-        return {"messages": list(session.history[before:])}
-
-
-# Keep only the fragments whose relevance_percent reaches min_score (inclusive);
-# a fragment without a percentage counts as 0. Returns a new dict, so the
-# pending search keeps all its fragments for a retry with another threshold.
-def _evidence_above(evidence: dict[str, dict], min_score: float) -> dict[str, dict]:
-    if min_score <= 0:
-        return dict(evidence)
+@router.get("/api/categories")
+def get_categories(request: Request):
+    tree = _deps(request).retriever.category_tree
+    if tree is None:
+        return {"tree": None, "defaultSelection": []}
     return {
-        evidence_id: item
-        for evidence_id, item in evidence.items()
-        if (item.get("relevance_percent") or 0.0) >= min_score
+        "tree": _category_node_payload(tree, tree.root_id),
+        "defaultSelection": sorted(tree.known_ids()),
     }
 
 
-# Send the fragments the patient already reviewed (those reaching min_score) to
-# the AI, generate the PDF, and update the chat.
-def _generate_report(session: SessionData, search_id: str, min_score: float = 0) -> list[dict]:
-    with session.lock:
-        before = len(session.history)
-        search = session.searches.get(search_id)
-        if search is None:
-            logger.info("report_skipped tab_id=%s reason=no_pending_evidence", session.tab_id)
-            _append(session, _text("assistant", "Nu există fragmente pregătite. Descrieți din nou problema de sănătate."))
-            return list(session.history[before:])
-        profile = search.profile
-        evidence = _evidence_above(search.evidence, min_score)
-        logger.info(
-            "report_min_score tab_id=%s min_score=%s evidence_total=%s evidence_kept=%s",
-            session.tab_id,
-            min_score,
-            len(search.evidence),
-            len(evidence),
-        )
-        if not evidence:
-            # The UI disables the button in this case; kept as a server-side guard.
-            _append(session, _text("assistant", NO_FRAGMENT_ABOVE_MIN_SCORE))
-            return list(session.history[before:])
-        try:
-            logger.info("report_stage_started stage=ai tab_id=%s evidence_entries=%s", session.tab_id, len(evidence))
-            sections = ai.generate(profile, evidence)
-            logger.info(
-                "report_stage_completed stage=ai tab_id=%s recommendation_items=%s",
-                session.tab_id,
-                sum(len(items) for items in sections.values()),
-            )
-            logger.info("report_stage_started stage=pdf tab_id=%s", session.tab_id)
-            report = create_pdf(profile, sections, evidence, min_score)
-            logger.info("report_stage_completed stage=pdf tab_id=%s bytes=%s", session.tab_id, len(report))
-            report_id = secrets.token_urlsafe(18)
-            session.add_report(
-                report_id,
-                StoredReport(report, _report_filename(session, profile), profile.get("health_problem", "")),
-            )
-            recommendation = _text("assistant", _recommendation_text(sections, evidence))
-            download = _download_message(session, report_id, profile)
-            email_offer = _text("assistant", EMAIL_OFFER)
-            _replace_generate_message(session, search_id, [recommendation, download, email_offer])
-            session.searches.pop(search_id, None)
-            return [recommendation, download, email_offer]
-        except AIUnavailable as exc:
-            logger.error("report_failed tab_id=%s stage=ai type=%s", session.tab_id, type(exc).__name__)
-            _append(session, _text("assistant", str(exc)))
-            return list(session.history[before:])
-        except Exception as exc:
-            logger.exception("report failed: type=%s message=%s", type(exc).__name__, str(exc) or "<empty>")
-            _append(session, _text("assistant", "Raportul nu a putut fi generat. Încercați din nou."))
-            return list(session.history[before:])
-
-
-@app.post("/api/searches/{search_id}/generate")
-# Reject non-owner visitors with a notice; otherwise generate the report for the clicked search.
-def generate(search_id: str, request: Request, payload: GenerateRequest | None = None):
+@router.post("/api/messages")
+def post_message(payload: MessageRequest, request: Request):
+    deps = _deps(request)
     session = _current(request)
-    if not _is_owner(request.headers.get("cookie", "")):
-        logger.info("report_skipped tab_id=%s reason=not_owner", session.tab_id)
-        return {"messages": [], "ownerNotice": OWNER_ONLY_MESSAGE}
-    min_score = payload.minScore if payload is not None else 0
-    return {"messages": _generate_report(session, search_id, min_score), "ownerNotice": None}
+    message = payload.message.strip()
+    if not message:
+        return {
+            **OperationResult().as_dict(),
+            "startSearch": False,
+            "identifyCondition": False,
+        }
+    if len(message) > deps.settings.max_chat_chars:
+        raise HTTPException(
+            422,
+            f"Mesajul depășește limita de {deps.settings.max_chat_chars} caractere.",
+        )
+    # The report is selected by the registry, never read across an external call.
+    kind = "email" if EMAIL_PATTERN.fullmatch(message) else "message"
+    operation = deps.store.begin_operation(session, kind)
+    try:
+        snapshot = operation.snapshot
+        if kind == "email" and snapshot.report:
+            deps.store.checkpoint(operation)
+            report = snapshot.report
+            try:
+                status = (deps.email or send_report)(
+                    report.health_problem, report.data, report.filename, message
+                )
+                reply = (
+                    "Trimiterea pe mail nu este configurată momentan."
+                    if status == EMAIL_SKIPPED
+                    else f"✅ Am trimis documentul la {message}."
+                )
+            except Exception as exc:
+                logger.error(
+                    "report_stage_failed stage=email type=%s", type(exc).__name__
+                )
+                reply = "Nu am putut trimite documentul pe mail. Încercați din nou."
+            result = deps.store.commit_operation(
+                operation,
+                CommitChange(
+                    messages=[_text("user", message), _text("assistant", reply)]
+                ),
+            )
+            return {
+                **result.as_dict(),
+                "startSearch": False,
+                "identifyCondition": False,
+            }
+        if kind == "email":
+            # An address without a report remains ordinary chat text.
+            deps.store.finish_operation(operation)
+            operation = deps.store.begin_operation(session, "message")
+            snapshot = operation.snapshot
+        profile = snapshot.profile
+        profile.replace_health_problem(message)
+        signals = payload.signals.to_signals()
+        categories = set(payload.categories)
+        messages = [_text("user", message)]
+        start_search, identify = True, False
+        if (
+            getattr(deps.retriever, "category_tree", None) is not None
+            and not categories
+        ):
+            messages.append(_text("assistant", NO_CATEGORY_SELECTED_MESSAGE))
+            start_search = False
+        elif _needs_condition_ai(profile.health_problem, signals, deps.settings):
+            messages.append(_text("assistant", CONDITION_AI_NOTICE))
+            identify = True
+        else:
+            identified = _condition_identified_message(profile.health_problem, signals)
+            if identified:
+                messages.append(identified)
+            count = _document_count_for_categories(categories, deps.retriever)
+            messages.append(
+                _text(
+                    "assistant",
+                    f"🔍 Caut rapid în cele {count} documente interne disponibile. Vă rog să așteptați.",
+                )
+            )
+        result = deps.store.commit_operation(
+            operation, CommitChange(messages, profile, True, categories, signals)
+        )
+        if not result.cancelled:
+            logger.info(
+                "user_message_accepted chars=%s selected_categories=%s signals=%s",
+                len(message),
+                len(categories),
+                signals.code,
+            )
+        return {
+            **result.as_dict(),
+            "startSearch": start_search and not result.cancelled,
+            "identifyCondition": identify and not result.cancelled,
+            "contextRevision": snapshot.context_revision + 1,
+        }
+    except OperationCancelled:
+        return _cancelled(startSearch=False, identifyCondition=False)
+    finally:
+        deps.store.finish_operation(operation)
 
 
-@app.post("/api/session/end")
-# Close the current session and return a final assistant message to the UI.
+@router.post("/api/condition")
+def post_condition(request: Request):
+    deps = _deps(request)
+    try:
+        operation = deps.store.begin_operation(
+            _current(request), "condition", expected_revision=_revision(request)
+        )
+    except OperationCancelled:
+        return _cancelled(startSearch=False)
+    try:
+        snapshot = operation.snapshot
+        if not _needs_condition_ai(
+            snapshot.profile.health_problem, snapshot.search_signals, deps.settings
+        ):
+            deps.store.checkpoint(operation)
+            return {**OperationResult().as_dict(), "startSearch": True}
+        deps.store.checkpoint(operation)
+        result = (deps.identify or identify_conditions)(
+            resolve_query(snapshot.profile.health_problem)
+        )
+        deps.store.checkpoint(operation)
+        profile = snapshot.profile
+        profile.ai_conditions = copy.deepcopy(result.answers)
+        messages, start_search = [], True
+        if result.identified:
+            identified = _condition_identified_message(
+                resolved_for(profile), snapshot.search_signals, by_ai=True
+            )
+            if identified:
+                messages.append(identified)
+        elif not (snapshot.search_signals.lexical or snapshot.search_signals.semantic):
+            messages.append(_text("assistant", CONDITION_NOT_IDENTIFIED_STOPS))
+            start_search = False
+        else:
+            messages.append(_text("assistant", CONDITION_NOT_IDENTIFIED_CONTINUES))
+        if start_search:
+            messages.append(_report_started_message(snapshot, deps.retriever))
+        committed = deps.store.commit_operation(
+            operation, CommitChange(messages=messages, profile=profile)
+        )
+        return {
+            **committed.as_dict(),
+            "startSearch": start_search and not committed.cancelled,
+        }
+    except OperationCancelled:
+        return _cancelled(startSearch=False)
+    finally:
+        deps.store.finish_operation(operation)
+
+
+@router.post("/api/search")
+def post_search(request: Request):
+    deps = _deps(request)
+    try:
+        operation = deps.store.begin_operation(
+            _current(request), "search", expected_revision=_revision(request)
+        )
+    except OperationCancelled:
+        return _cancelled()
+    try:
+        snapshot = operation.snapshot
+        signals = snapshot.search_signals
+        if (
+            signals.conditions
+            and not (signals.lexical or signals.semantic)
+            and not resolved_for(snapshot.profile).conditions
+        ):
+            return deps.store.commit_operation(
+                operation,
+                CommitChange(
+                    messages=[_text("assistant", CONDITION_NOT_IDENTIFIED_STOPS)]
+                ),
+            ).as_dict()
+        deps.store.checkpoint(operation)
+        evidence = deps.retriever.collect(snapshot, deps.ai.context_budget())
+        deps.store.checkpoint(operation)
+        if not evidence:
+            return deps.store.commit_operation(
+                operation,
+                CommitChange(
+                    messages=[
+                        _text(
+                            "assistant",
+                            "Nu am găsit fragmente relevante în sursele locale. Încercați o căutare semantică sau introduceți altă denumire a afecțiunii.",
+                        )
+                    ]
+                ),
+            ).as_dict()
+        search_id = secrets.token_hex(6)
+        return deps.store.commit_operation(
+            operation,
+            CommitChange(
+                messages=[
+                    _fragments_message(search_id, evidence, signals),
+                    _generate_message(search_id),
+                ],
+                search=(
+                    search_id,
+                    PendingSearch(
+                        profile=snapshot.profile.as_dict(),
+                        evidence=evidence,
+                        signals=signals,
+                    ),
+                ),
+            ),
+        ).as_dict()
+    except OperationCancelled:
+        return _cancelled()
+    finally:
+        deps.store.finish_operation(operation)
+
+
+def _evidence_above(evidence: dict[str, dict], min_score: float) -> dict[str, dict]:
+    return {
+        eid: item
+        for eid, item in evidence.items()
+        if min_score <= 0 or (item.get("relevance_percent") or 0) >= min_score
+    }
+
+
+def _generate_report(
+    deps: Dependencies, session: SessionData, search_id: str, min_score: float = 0
+) -> OperationResult:
+    operation = deps.store.begin_operation(session, "generate", search_id=search_id)
+    try:
+        snapshot = operation.snapshot
+        search = snapshot.search
+        assert search is not None
+        profile, evidence = search.profile, _evidence_above(search.evidence, min_score)
+        if not evidence:
+            return deps.store.commit_operation(
+                operation,
+                CommitChange(
+                    messages=[_text("assistant", NO_FRAGMENT_ABOVE_MIN_SCORE)]
+                ),
+            )
+        deps.store.checkpoint(operation)
+        sections = deps.ai.generate(profile, evidence)
+        deps.store.checkpoint(operation)
+        report = (deps.pdf or create_pdf)(profile, sections, evidence, min_score)
+        deps.store.checkpoint(operation)
+        report_id = secrets.token_urlsafe(18)
+        filename = _report_filename(snapshot, profile)
+        messages = [
+            _text("assistant", _recommendation_text(sections, evidence)),
+            _download_message(
+                snapshot, report_id, profile, prefix=deps.settings.public_root_path
+            ),
+            _text("assistant", EMAIL_OFFER),
+        ]
+        return deps.store.commit_operation(
+            operation,
+            CommitChange(
+                messages=messages,
+                report=(
+                    report_id,
+                    StoredReport(report, filename, profile.get("health_problem", "")),
+                ),
+                replace_search_id=search_id,
+            ),
+        )
+    except OperationCancelled:
+        return OperationResult(cancelled=True)
+    except ApplicationError:
+        raise
+    except Exception as exc:
+        logger.error("report_stage_failed stage=generate type=%s", type(exc).__name__)
+        reply = (
+            "Furnizorul AI nu este disponibil. Încercați din nou."
+            if isinstance(exc, AIUnavailable)
+            else "Raportul nu a putut fi generat. Încercați din nou."
+        )
+        return deps.store.commit_operation(
+            operation, CommitChange(messages=[_text("assistant", reply)])
+        )
+    finally:
+        deps.store.finish_operation(operation)
+
+
+@router.post("/api/searches/{search_id}/generate")
+def generate(search_id: str, request: Request, payload: GenerateRequest | None = None):
+    deps = _deps(request)
+    session = _current(request)
+    if not getattr(request.state, "owner_authorized", False):
+        return {**OperationResult().as_dict(), "ownerNotice": OWNER_ONLY_MESSAGE}
+    result = _generate_report(
+        deps, session, search_id, payload.minScore if payload else 0
+    )
+    return {**result.as_dict(), "ownerNotice": None}
+
+
+@router.post("/api/session/end")
 def end_session(request: Request):
     cookie, tab = _identity(request)
-    logger.info("session_end_requested tab_id=%s", tab)
-    store.delete(cookie, tab)
-    return {"messages": [_text("assistant", "Sesiunea a fost închisă. Reîncărcați pagina pentru o conversație nouă.")]}
+    _deps(request).store.delete(cookie, tab)
+    return {
+        "messages": [
+            _text(
+                "assistant",
+                "Sesiunea a fost închisă. Reîncărcați pagina pentru o conversație nouă.",
+            )
+        ]
+    }
 
 
-@app.post("/api/session/unload", status_code=204)
-# Remove the browser session when the page is unloaded (sent via
-# navigator.sendBeacon from the frontend's pagehide handler).
+@router.post("/api/session/unload", status_code=204)
 def unload_session(request: Request):
     try:
         cookie, tab = _identity(request)
-        logger.info("session_unload tab_id=%s", tab)
-        store.delete(cookie, tab)
+        _deps(request).store.delete(cookie, tab)
     except HTTPException:
         pass
     return Response(status_code=204)
 
 
-if settings.frontend_dist_dir.is_dir():
-    app.mount("/", StaticFiles(directory=str(settings.frontend_dist_dir), html=True), name="frontend")
-else:
-    logger.warning(
-        "frontend_dist_missing path=%s — run `npm run build` in frontend/ before serving in production",
-        settings.frontend_dist_dir,
+def _cookie(
+    response: Response,
+    name: str,
+    value: str,
+    settings: Settings,
+    *,
+    max_age: int | None = None,
+):
+    response.set_cookie(
+        name,
+        value,
+        max_age=max_age,
+        httponly=True,
+        secure=settings.cookie_secure,
+        samesite="strict",
+        path=settings.public_root_path or "/",
     )
+
+
+def _origin_allowed(request: Request, *, required: bool = False) -> bool:
+    origin = request.headers.get("origin")
+    if not origin and required:
+        source = request.headers.get("referer")
+        if not source:
+            return False
+    elif not origin:
+        return True
+    else:
+        source = origin
+    # TLS may terminate at ngrok before an HTTP hop through Caddy. The public
+    # origin is an operator setting, never inferred from client proxy headers.
+    configured = _deps(request).settings.public_origin
+    try:
+        parsed = urlparse(source)
+        expected = urlparse(configured or str(request.url))
+        return (
+            parsed.scheme in {"http", "https"}
+            and bool(parsed.hostname)
+            and parsed.scheme == expected.scheme
+            and parsed.hostname == expected.hostname
+            and (
+                parsed.port
+                if parsed.port is not None
+                else (443 if parsed.scheme == "https" else 80)
+            )
+            == (
+                expected.port
+                if expected.port is not None
+                else (443 if expected.scheme == "https" else 80)
+            )
+            and not parsed.username
+            and not parsed.password
+            and (not origin or not (parsed.path or parsed.query or parsed.fragment))
+        )
+    except ValueError:
+        return False
+
+
+def _csrf_token(deps: Dependencies) -> str:
+    payload = secrets.token_urlsafe(32)
+    return (
+        payload
+        + "."
+        + hmac.new(
+            deps.csrf_secret, payload.encode("ascii"), hashlib.sha256
+        ).hexdigest()
+    )
+
+
+def _require_csrf(request: Request):
+    supplied = request.headers.get("x-csrf-token", "")
+    cookie = request.cookies.get(CSRF_COOKIE, "")
+    match = re.fullmatch(r"([A-Za-z0-9_-]{43})\.([0-9a-f]{64})", supplied)
+    if (
+        not _origin_allowed(request, required=True)
+        or not match
+        or not hmac.compare_digest(supplied.encode(), cookie.encode())
+    ):
+        raise ApplicationError(
+            "CSRF_FAILED", "Cerere de autorizare invalidă. Reîncărcați formularul.", 403
+        )
+    expected = hmac.new(
+        _deps(request).csrf_secret, match[1].encode("ascii"), hashlib.sha256
+    ).hexdigest()
+    if not hmac.compare_digest(match[2], expected):
+        raise ApplicationError(
+            "CSRF_FAILED", "Cerere de autorizare invalidă. Reîncărcați formularul.", 403
+        )
+
+
+@router.get("/api/owner")
+def owner_status(request: Request):
+    if request.headers.get("sec-fetch-site") == "cross-site" or not _origin_allowed(
+        request
+    ):
+        raise ApplicationError("ORIGIN_FORBIDDEN", "Origine nepermisă.", 403)
+    deps = _deps(request)
+    token = _csrf_token(deps)
+    response = JSONResponse(
+        {
+            "authorized": getattr(request.state, "owner_authorized", False),
+            "csrfToken": token,
+        }
+    )
+    _cookie(response, CSRF_COOKIE, token, deps.settings)
+    return response
+
+
+def _owner_tokens(request: Request) -> list[str]:
+    # A legacy Path=/ cookie can coexist with the current scoped cookie. The
+    # framework's cookie dict keeps only the last value, losing the valid token.
+    tokens = []
+    for header in request.headers.getlist("cookie"):
+        for part in header.split(";"):
+            cookie = SimpleCookie()
+            try:
+                cookie.load(part.strip())
+            except CookieError:
+                continue
+            if OWNER_COOKIE in cookie:
+                token = cookie[OWNER_COOKIE].value
+                if token and token not in tokens:
+                    tokens.append(token)
+    return tokens
+
+
+def _delete_legacy_owner_cookie(response: Response, settings: Settings):
+    if settings.public_root_path:
+        response.delete_cookie(
+            OWNER_COOKIE,
+            path="/",
+            httponly=True,
+            secure=settings.cookie_secure,
+            samesite="strict",
+        )
+
+
+def _authorize_owner(request: Request, key: str) -> str:
+    deps = _deps(request)
+    token = deps.owner_auth.login(key)
+    for previous in _owner_tokens(request):
+        deps.owner_auth.logout(previous)
+    return token
+
+
+@router.get("/owner")
+def owner_link(request: Request, key: str = ""):
+    if request.headers.get("sec-fetch-site") == "cross-site" or not _origin_allowed(
+        request
+    ):
+        raise ApplicationError("ORIGIN_FORBIDDEN", "Origine nepermisă.", 403)
+    deps = _deps(request)
+    if not key or len(key) > 4096:
+        raise HTTPException(404)
+    try:
+        token = _authorize_owner(request, key)
+    except ApplicationError as exc:
+        if exc.code == "OWNER_LOGIN_FAILED":
+            raise HTTPException(404) from None
+        raise
+    response = RedirectResponse(deps.settings.public_root_path + "/", status_code=303)
+    _delete_legacy_owner_cookie(response, deps.settings)
+    _cookie(response, OWNER_COOKIE, token, deps.settings, max_age=OWNER_COOKIE_MAX_AGE)
+    return response
+
+
+class OwnerLoginRequest(BaseModel):
+    key: str = Field(min_length=1, max_length=4096, repr=False)
+
+
+@router.post("/api/owner/login")
+def owner_login(payload: OwnerLoginRequest, request: Request):
+    deps = _deps(request)
+    _require_csrf(request)
+    token = _authorize_owner(request, payload.key)
+    response = JSONResponse({"authorized": True})
+    _delete_legacy_owner_cookie(response, deps.settings)
+    _cookie(response, OWNER_COOKIE, token, deps.settings, max_age=OWNER_COOKIE_MAX_AGE)
+    return response
+
+
+@router.post("/api/owner/logout")
+def owner_logout(request: Request):
+    _require_csrf(request)
+    deps = _deps(request)
+    for token in _owner_tokens(request):
+        deps.owner_auth.logout(token)
+    request.state.owner_authorized = False
+    response = JSONResponse({"authorized": False})
+    _delete_legacy_owner_cookie(response, deps.settings)
+    response.delete_cookie(
+        OWNER_COOKIE,
+        path=deps.settings.public_root_path or "/",
+        httponly=True,
+        secure=deps.settings.cookie_secure,
+        samesite="strict",
+    )
+    return response
+
+
+def create_app(
+    config: Settings | None = None, dependencies: Dependencies | None = None
+) -> FastAPI:
+    """Side-effect-free factory; runtime resources belong to lifespan."""
+
+    @asynccontextmanager
+    async def lifespan(application: FastAPI):
+        owned = dependencies is None
+        cleanup_task = None
+        runtime = dependencies
+        session_store = ai = auth = None
+        try:
+            if owned:
+                cfg = config or Settings.from_env(dotenv=True)
+                configure_settings(cfg)
+                logging.basicConfig(
+                    level=getattr(logging, cfg.log_level, logging.INFO),
+                    format="%(asctime)s %(levelname)s %(name)s %(message)s",
+                )
+                access_logger = logging.getLogger("uvicorn.access")
+                if not any(
+                    isinstance(f, OwnerAccessLogFilter) for f in access_logger.filters
+                ):
+                    access_logger.addFilter(OwnerAccessLogFilter())
+                session_store = SessionStore(
+                    cfg.temp_dir, cfg.session_idle_seconds, cfg.session_max_seconds, cfg
+                )
+                ai = create_ai_client(cfg)
+                auth = OwnerAuth(
+                    cfg.owner_key, PostgresOwnerSessionRepository(cfg.database_url)
+                )
+                retriever = await asyncio.to_thread(Retriever, cfg.documents_dir)
+                runtime = Dependencies(
+                    cfg,
+                    session_store,
+                    retriever,
+                    ai,
+                    auth,
+                    RateLimiter(),
+                    RateLimiter(),
+                    secrets.token_bytes(32),
+                )
+                application.state.dependencies = runtime
+                application.root_path = cfg.public_root_path
+                application.mount(
+                    "/",
+                    StaticFiles(
+                        directory=str(cfg.frontend_dist_dir), html=True, check_dir=False
+                    ),
+                    name="frontend",
+                )
+                for warm in (warm_up_search, warm_up_condition_ai):
+                    try:
+                        await asyncio.to_thread(warm)
+                    except Exception as exc:
+                        logger.warning("warm_up_failed type=%s", type(exc).__name__)
+            assert runtime is not None
+
+            async def cleanup():
+                while True:
+                    await asyncio.sleep(30)
+                    await asyncio.to_thread(runtime.store.sweep)
+                    runtime.request_limiter.sweep()
+                    runtime.login_limiter.sweep()
+
+            cleanup_task = asyncio.create_task(cleanup())
+            yield
+        finally:
+            if cleanup_task:
+                cleanup_task.cancel()
+                with suppress(asyncio.CancelledError):
+                    await cleanup_task
+            if runtime:
+                runtime.store.shutdown()
+                await asyncio.to_thread(runtime.store.wait_workers)
+            elif session_store:
+                session_store.shutdown()
+            if owned:
+                if ai:
+                    ai.close()
+                if auth:
+                    auth.repository.close()
+                from backend.ai import condition_ai, db
+
+                condition_ai.close_clients()
+                db.close_pool()
+
+    application = FastAPI(
+        title="Chatbot naturist",
+        docs_url=None,
+        redoc_url=None,
+        openapi_url=None,
+        lifespan=lifespan,
+        root_path=config.public_root_path if config else "",
+    )
+    if dependencies:
+        application.state.dependencies = dependencies
+
+    @application.exception_handler(ApplicationError)
+    async def controlled_error(request: Request, exc: ApplicationError):
+        return JSONResponse(
+            {"detail": {"code": exc.code, "message": exc.message}},
+            status_code=exc.status,
+        )
+
+    @application.exception_handler(RequestValidationError)
+    async def invalid_request(request: Request, exc: RequestValidationError):
+        # FastAPI's default validation response echoes input, including login keys.
+        return JSONResponse(
+            {
+                "detail": {
+                    "code": "INVALID_REQUEST",
+                    "message": "Datele cererii sunt invalide.",
+                }
+            },
+            status_code=422,
+        )
+
+    @application.middleware("http")
+    async def session_and_limits(request: Request, call_next):
+        deps = _deps(request)
+        path = request.url.path.removeprefix(deps.settings.public_root_path)
+        sid = request.cookies.get(COOKIE, "")
+        fresh = not COOKIE_RE.fullmatch(sid)
+        if fresh:
+            sid = secrets.token_urlsafe(32)
+        request.state.session_cookie = sid
+        try:
+            if (request.method == "POST" and path == "/api/owner/login") or (
+                request.method == "GET" and path == "/owner"
+            ):
+                deps.login_limiter.check(
+                    (_client_ip(request), deps.settings.owner_login_per_minute)
+                )
+            if request.method in {"POST", "PUT", "PATCH", "DELETE"}:
+                if not _origin_allowed(request):
+                    raise ApplicationError(
+                        "ORIGIN_FORBIDDEN", "Origine nepermisă.", 403
+                    )
+                if path.startswith("/api/") and path != "/api/owner/login":
+                    deps.request_limiter.check(
+                        (_client_ip(request), deps.settings.max_requests_per_minute)
+                    )
+            request.state.owner_authorized = False
+            token = ""
+            if path not in {
+                "/owner",
+                "/api/owner/login",
+                "/api/owner/logout",
+            }:
+                for candidate in _owner_tokens(request):
+                    if await asyncio.to_thread(deps.owner_auth.authorized, candidate):
+                        token = candidate
+                        request.state.owner_authorized = True
+                        break
+            response = await call_next(request)
+            if request.state.owner_authorized:
+                _delete_legacy_owner_cookie(response, deps.settings)
+                _cookie(
+                    response,
+                    OWNER_COOKIE,
+                    token,
+                    deps.settings,
+                    max_age=OWNER_COOKIE_MAX_AGE,
+                )
+        except ApplicationError as exc:
+            response = JSONResponse(
+                {"detail": {"code": exc.code, "message": exc.message}}, exc.status
+            )
+        if fresh and path == "/api/session":
+            _cookie(response, COOKIE, sid, deps.settings)
+        response.headers.update(
+            {
+                "Cache-Control": "no-store",
+                "X-Content-Type-Options": "nosniff",
+                "Referrer-Policy": "no-referrer",
+            }
+        )
+        return response
+
+    application.add_middleware(
+        ApiBodyLimitMiddleware,
+        limit=lambda: application.state.dependencies.settings.max_api_body_bytes,
+    )
+    application.include_router(router)
+    return application
+
+
+app = create_app()

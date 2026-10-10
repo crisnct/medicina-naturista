@@ -75,7 +75,7 @@ class FakeEmbeddingModel:
 
 # Return unit-normalized deterministic embeddings, standing in for the real
 # ONNX model in tests that only care about the sync/DB-write behaviour.
-def fake_embed(_model, chunks, _batch_size, profile):
+def fake_embed(_model, chunks, _batch_size, profile, *, gpu_usage=None):
     vectors = np.ones((len(chunks), profile.dimension), dtype=np.float32)
     vectors /= np.linalg.norm(vectors, axis=1, keepdims=True)
     return vectors

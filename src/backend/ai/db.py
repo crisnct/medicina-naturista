@@ -125,7 +125,7 @@ def _embedding_dimension(connection: Connection) -> int | None:
 # recreated and every indexed document is dropped, in one transaction: vectors
 # of two widths (or two models) cannot share an index, and the index is fully
 # rebuildable from the source documents. Only the index build passes it; the web
-# app calls ensure_schema() without one and never touches existing data.
+# schema is prepared explicitly by migration/build CLI commands.
 def ensure_schema(dimension: int | None = None) -> None:
     width = int(dimension or DEFAULT_DIMENSION)
     with psycopg.connect(settings.database_url) as connection:
@@ -144,12 +144,10 @@ def ensure_schema(dimension: int | None = None) -> None:
 
 
 # Return the process-wide connection pool, opening it lazily on first use.
-# Bootstraps the schema first (see ensure_schema()) so every pooled
-# connection can safely register the vector type when it opens.
+# Runtime never executes DDL; migrations must prepare the vector type first.
 def get_pool() -> ConnectionPool:
     global _pool
     if _pool is None:
-        ensure_schema()
         _pool = ConnectionPool(
             settings.database_url,
             min_size=1,

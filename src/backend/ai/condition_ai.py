@@ -178,8 +178,7 @@ def _ask(backend: str, texts: tuple[str, ...]) -> tuple[dict[str, Any], ...]:
 # The answer of the first backend that gives a valid one, with its name. A
 # backend that answers "nothing found" ends the search (no fallback for that);
 # only a failure moves on to the next, and the last failure is raised when
-# none answers. Successes are cached, failures are not (lru_cache keeps no exception).
-@lru_cache(maxsize=CACHE_SIZE)
+# none answers. Free-text answers belong only to the requesting session/worker.
 def _identify(backends: tuple[str, ...], texts: tuple[str, ...]) -> tuple[tuple[dict[str, Any], ...], str]:
     failure: _BackendFailure | None = None
     for backend in backends:
@@ -193,7 +192,13 @@ def _identify(backends: tuple[str, ...], texts: tuple[str, ...]) -> tuple[tuple[
 
 # Forget every cached answer (tests).
 def clear_cache() -> None:
-    _identify.cache_clear()
+    """Compatibility hook: medical free text is no longer cached globally."""
+
+
+def close_clients() -> None:
+    for client in _clients.values():
+        client.close()
+    _clients.clear()
 
 
 # The dictionary condition one of the terms of `terms` is exactly (name first,
@@ -217,7 +222,7 @@ def identify_conditions(resolved: ResolvedQuery) -> AIConditionResult:
     except _BackendFailure as failure:
         result = AIConditionResult(reason=failure.reason, backend=backends[-1])
     except Exception:
-        logger.exception("condition_ai_unexpected_error")
+        logger.error("condition_ai_unexpected_error")
         result = AIConditionResult(reason=ERROR)
     else:
         result = AIConditionResult(answers, backend, IDENTIFIED if answers else NONE)
@@ -226,7 +231,7 @@ def identify_conditions(resolved: ResolvedQuery) -> AIConditionResult:
         result.backend or "-",
         result.reason,
         len(texts),
-        ",".join(answer["name"] for answer in result.answers) or "-",
+        len(result.answers),
         ",".join(str(len(answer["terms"]) - 1) for answer in result.answers) or "-",
         ",".join("da" if _dictionary_condition(answer["terms"]) else "nu" for answer in result.answers) or "-",
         round((time.perf_counter() - started) * 1000),

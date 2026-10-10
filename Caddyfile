@@ -1,6 +1,16 @@
+{
+    servers {
+        trusted_proxies static {$CADDY_TRUSTED_PROXY_IPS:127.0.0.1}
+        trusted_proxies_strict
+    }
+}
+
 {$CADDY_SITE_SCHEME}://{$APP_DOMAIN} {
     encode zstd gzip
-    reverse_proxy app:7860
+    reverse_proxy app:7860 {
+        # Forward only the address resolved through the explicit proxy allowlist.
+        header_up X-Forwarded-For {client_ip}
+    }
     header {
         X-Content-Type-Options nosniff
         Referrer-Policy no-referrer

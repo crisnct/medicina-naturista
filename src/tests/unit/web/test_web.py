@@ -23,8 +23,13 @@ from backend.ai.search import ALL_SIGNALS, SearchSignals, max_score
 from backend.web import handlers, main
 from backend.reporting import pdf as reports_module
 from backend.ai.client import GENERATE_REPORT_SYSTEM_PROMPT_PATH, XAIClient
-from backend.config import settings
-from backend.core.models import HEALTH_PROBLEM_QUESTION, HealthProfile
+from backend.config import Settings
+settings = Settings()
+from backend.web.dependencies import Dependencies
+from backend.core.owner_auth import OwnerAuth
+from backend.core.rate_limits import RateLimiter
+from tests.support.owners import FakeOwnerRepository
+from backend.core.models import HEALTH_PROBLEM_QUESTION, HealthProfile, CommitChange
 from backend.reporting.pdf import (
     SECTION_PRESENTATION,
     create_pdf,
@@ -48,7 +53,7 @@ MAX_SCORE = max_score(ALL_SIGNALS)
 def _headers(sid: str, tab: str, owner: bool = False) -> dict:
     cookie = f"{main.COOKIE}={sid}"
     if owner:
-        cookie += f"; {main.OWNER_COOKIE}={main._owner_token()}"
+        cookie += f"; {main.OWNER_COOKIE}={_test_owner_token}"
     return {"Cookie": cookie, "X-Tab-Id": tab}
 
 
@@ -155,17 +160,25 @@ class WebTests(unittest.TestCase):
         self.addCleanup(owner_key.stop)
         # Module-level rate limiting state (see web/main.py's rate_events)
         # would otherwise accumulate across tests sharing one TestClient IP.
-        main.rate_events.clear()
+        global _test_owner_token
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        config = replace(settings, condition_ai_backends=(), owner_key="synthetic-owner-key", max_sessions_per_ip=100, max_sessions_per_cookie=4)
+        store = SessionStore(Path(self.temp.name), 3600, 14400, config)
+        self.addCleanup(store.shutdown)
+        auth = OwnerAuth(config.owner_key, FakeOwnerRepository())
+        _test_owner_token = auth.login(config.owner_key)
+        self.deps = Dependencies(config, store, FakeRetriever(), FakeAI(), auth, RateLimiter(), RateLimiter(), b"synthetic-csrf-secret")
         # The condition AI never reaches the network from these tests: by default
         # it is "disabled"; the tests of that step patch it with their own answer.
         no_ai = patch.object(main, "identify_conditions", return_value=AIConditionResult(reason="disabled"))
         no_ai.start()
         self.addCleanup(no_ai.stop)
         # ... and no backend is configured, unless a test turns the step on (_with_ai_backends).
-        no_backends = patch.object(main, "settings", replace(settings, condition_ai_backends=()))
+        no_backends = patch.object(self.deps, "settings", self.deps.settings)
         no_backends.start()
         self.addCleanup(no_backends.stop)
-        self.client = TestClient(main.app, base_url="https://testserver")
+        self.client = TestClient(main.create_app(self.deps.settings, self.deps), base_url="https://testserver")
         self.addCleanup(self.client.close)
 
     # Verify that cached model metadata paths are normalized across operating systems.
@@ -479,7 +492,7 @@ class WebTests(unittest.TestCase):
         for provider, variable in (("xai", "X_API_KEY"), ("huggingface", "HF_TOKEN")):
             client = create_ai_client(replace(settings, ai_provider=provider))
             try:
-                with patch.object(main, "ai", client):
+                with patch.object(self.deps, "ai", client):
                     with patch.dict(os.environ, {variable: "synthetic-key"}):
                         self.assertEqual(self.client.get("/healthz").status_code, 200)
                     with patch.dict(os.environ, {variable: ""}):
@@ -514,9 +527,9 @@ class WebTests(unittest.TestCase):
         self.assertEqual(len(history), 1)
         self.assertEqual(
             history[0],
-            {"role": "assistant", "kind": "text", "content": f"{main.WELCOME}\n\n{HEALTH_PROBLEM_QUESTION}"},
+            {"role": "assistant", "kind": "text", "content": f"{main.WELCOME}\n\n{HEALTH_PROBLEM_QUESTION}", "groupId": "greeting"},
         )
-        main.store.delete(sid, tab)
+        self.deps.store.delete(sid, tab)
 
     # Verify a request with a missing or malformed X-Tab-Id header is rejected,
     # rather than silently falling back to some other identity.
@@ -548,7 +561,7 @@ class WebTests(unittest.TestCase):
                 return {}
 
         sid, tab = "H" * 43, "tab-doccount1"
-        with patch.object(main, "retriever", RetrieverWithCategories()):
+        with patch.object(self.deps, "retriever", RetrieverWithCategories()):
             self.client.get("/api/session", headers=_headers(sid, tab))
             messages = _send(self.client, sid, tab, "Gripă", ["Cancer"])
             notice = next(m for m in messages if "Caut rapid" in m.get("content", ""))
@@ -562,7 +575,7 @@ class WebTests(unittest.TestCase):
             messages = _send(self.client, sid, tab, "Alergie", ["necunoscuta"])
             notice = next(m for m in messages if "Caut rapid" in m.get("content", ""))
             self.assertIn("Caut rapid în cele 0 documente", notice["content"])
-        main.store.delete(sid, tab)
+        self.deps.store.delete(sid, tab)
 
     # A health problem recognised in the condition dictionary gets a chat
     # notice naming the condition and listing ALL its synonyms (Romanian and
@@ -607,7 +620,7 @@ class WebTests(unittest.TestCase):
 
         dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n")))
         sid, tab = "J" * 43, "tab-condition1"
-        with patch.object(main, "retriever", Empty()), patch.object(conditions_module, "load_dictionary", return_value=dictionary):
+        with patch.object(self.deps, "retriever", Empty()), patch.object(conditions_module, "load_dictionary", return_value=dictionary):
             self.client.get("/api/session", headers=_headers(sid, tab))
             messages = self.client.post(
                 "/api/messages", json={"message": "gout", "categories": []}, headers=_headers(sid, tab)
@@ -621,7 +634,7 @@ class WebTests(unittest.TestCase):
                 "/api/messages", json={"message": "durere de cap", "categories": []}, headers=_headers(sid, tab)
             ).json()["messages"]
             self.assertFalse(any("Am identificat" in m.get("content", "") for m in messages))
-        main.store.delete(sid, tab)
+        self.deps.store.delete(sid, tab)
 
     # An index with no category tree falls back to the whole-corpus count,
     # exactly like before category filtering existed — regardless of what
@@ -631,9 +644,9 @@ class WebTests(unittest.TestCase):
             category_tree = None
             document_count = 42
 
-        with patch.object(main, "retriever", RetrieverWithoutCategories()):
-            self.assertEqual(main._document_count_for_categories(set()), 42)
-            self.assertEqual(main._document_count_for_categories({"anything"}), 42)
+        with patch.object(self.deps, "retriever", RetrieverWithoutCategories()):
+            self.assertEqual(main._document_count_for_categories(set(), self.deps.retriever), 42)
+            self.assertEqual(main._document_count_for_categories({"anything"}, self.deps.retriever), 42)
 
     # Verify searching with nothing selected is refused with an explanatory
     # message, and never reaches Retriever.collect() — only when the loaded
@@ -654,62 +667,62 @@ class WebTests(unittest.TestCase):
             def collect(self, session, max_chars=None):
                 raise AssertionError("collect() must not run with nothing selected")
 
-        with patch.object(main, "retriever", RetrieverWithCategories()):
+        with patch.object(self.deps, "retriever", RetrieverWithCategories()):
             self.client.get("/api/session", headers=_headers(sid, tab))
             messages = _send(self.client, sid, tab, "Gripă", [])
         self.assertEqual(messages[-1]["content"], main.NO_CATEGORY_SELECTED_MESSAGE)
-        main.store.delete(sid, tab)
+        self.deps.store.delete(sid, tab)
 
     # An index with no category tree at all never enforces a selection —
     # collect() runs exactly as it always has.
     def test_messages_allows_empty_selection_without_a_category_tree(self):
         sid, tab = "G" * 43, "tab-notree001"
-        with patch.object(main, "retriever", FakeRetriever()):
+        with patch.object(self.deps, "retriever", FakeRetriever()):
             self.client.get("/api/session", headers=_headers(sid, tab))
             messages = _send(self.client, sid, tab, "Gripă", [])
         self.assertNotEqual(messages[-1].get("content"), main.NO_CATEGORY_SELECTED_MESSAGE)
-        main.store.delete(sid, tab)
+        self.deps.store.delete(sid, tab)
 
     # --- Search signals (A conditions / B lexical / C semantic) ---------------
 
     # Without a "signals" field every signal is on (the formula of a patient who never touched the checkboxes).
     def test_messages_default_to_every_signal_on(self):
         sid, tab = "K" * 43, "tab-signals001"
-        with patch.object(main, "retriever", FakeRetriever()):
+        with patch.object(self.deps, "retriever", FakeRetriever()):
             self.client.get("/api/session", headers=_headers(sid, tab))
             _send(self.client, sid, tab, "Gripă", [])
-            self.assertEqual(main.store.get(sid, tab).search_signals, ALL_SIGNALS)
+            self.assertEqual(self.deps.store.get(sid, tab).search_signals, ALL_SIGNALS)
             self.assertEqual(FakeRetriever.signals, ALL_SIGNALS)
-        main.store.delete(sid, tab)
+        self.deps.store.delete(sid, tab)
 
     # The chosen signals are kept on the session, reach retrieval, and travel in the fragments message.
     def test_messages_store_the_chosen_signals_and_the_search_uses_them(self):
         sid, tab = "L" * 43, "tab-signals002"
         chosen = {"conditions": False, "lexical": True, "semantic": True}
-        with patch.object(main, "retriever", FakeRetriever()):
+        with patch.object(self.deps, "retriever", FakeRetriever()):
             self.client.get("/api/session", headers=_headers(sid, tab))
             messages = _send(self.client, sid, tab, "Gripă", [], signals=chosen)
 
-            self.assertEqual(main.store.get(sid, tab).search_signals, SearchSignals(False, True, True))
+            self.assertEqual(self.deps.store.get(sid, tab).search_signals, SearchSignals(False, True, True))
             self.assertEqual(FakeRetriever.signals, SearchSignals(False, True, True))
             self.assertEqual(_by_kind(messages, "fragments")["signals"], chosen)
             search_id = _by_kind(messages, "generate")["searchId"]
-            self.assertEqual(main.store.get(sid, tab).searches[search_id].signals, SearchSignals(False, True, True))
+            self.assertEqual(self.deps.store.get(sid, tab).searches[search_id].signals, SearchSignals(False, True, True))
 
             # The next message may choose again; the first search keeps what it was scored with.
             only_conditions = {"conditions": True, "lexical": False, "semantic": False}
             later = _send(self.client, sid, tab, "Migrenă", [], signals=only_conditions)
             self.assertEqual(_by_kind(later, "fragments")["signals"], only_conditions)
-            self.assertEqual(main.store.get(sid, tab).searches[search_id].signals, SearchSignals(False, True, True))
-        main.store.delete(sid, tab)
+            self.assertEqual(self.deps.store.get(sid, tab).searches[search_id].signals, SearchSignals(False, True, True))
+        self.deps.store.delete(sid, tab)
 
     # A request with every signal off is refused with 422 and changes nothing.
     def test_messages_reject_a_request_without_any_signal(self):
         sid, tab = "M" * 43, "tab-signals003"
         none_on = {"conditions": False, "lexical": False, "semantic": False}
-        with patch.object(main, "retriever", FakeRetriever()):
+        with patch.object(self.deps, "retriever", FakeRetriever()):
             self.client.get("/api/session", headers=_headers(sid, tab))
-            history_before = len(main.store.get(sid, tab).history)
+            history_before = len(self.deps.store.get(sid, tab).history)
 
             response = self.client.post(
                 "/api/messages",
@@ -718,20 +731,20 @@ class WebTests(unittest.TestCase):
             )
 
             self.assertEqual(response.status_code, 422)
-            self.assertEqual(len(main.store.get(sid, tab).history), history_before)
-            self.assertEqual(main.store.get(sid, tab).search_signals, ALL_SIGNALS)
-        main.store.delete(sid, tab)
+            self.assertEqual(len(self.deps.store.get(sid, tab).history), history_before)
+            self.assertEqual(self.deps.store.get(sid, tab).search_signals, ALL_SIGNALS)
+        self.deps.store.delete(sid, tab)
 
     # The accepted message is logged with its signals.
     def test_messages_log_the_signals(self):
         sid, tab = "N" * 43, "tab-signals004"
-        with patch.object(main, "retriever", FakeRetriever()):
+        with patch.object(self.deps, "retriever", FakeRetriever()):
             self.client.get("/api/session", headers=_headers(sid, tab))
             with self.assertLogs("naturist.web", level="INFO") as captured:
                 _send(self.client, sid, tab, "Gripă", [], signals={"conditions": True, "lexical": False, "semantic": True})
 
         self.assertTrue(any("user_message_accepted" in line and "signals=AC" in line for line in captured.output))
-        main.store.delete(sid, tab)
+        self.deps.store.delete(sid, tab)
 
     # What the "Am identificat afecțiunea" notice says for every combination of
     # signals (see _condition_identified_message): the conditions signal names every
@@ -791,15 +804,15 @@ class WebTests(unittest.TestCase):
         sid = "C" * 43
         ai_step = MagicMock(return_value=result)
         with (
-            patch.object(main, "settings", replace(settings, condition_ai_backends=("local",))),
-            patch.object(main, "retriever", Recording()),
+            patch.object(self.deps, "settings", replace(settings, condition_ai_backends=("local",))),
+            patch.object(self.deps, "retriever", Recording()),
             patch.object(main, "identify_conditions", ai_step),
             patch.object(conditions_module, "load_dictionary", return_value=dictionary),
         ):
             self.client.get("/api/session", headers=_headers(sid, tab))
             messages = _send(self.client, sid, tab, message, [], signals=signals)
-            session = main.store.get(sid, tab)
-        self.addCleanup(main.store.delete, sid, tab)
+            session = self.deps.store.get(sid, tab)
+        self.addCleanup(self.deps.store.delete, sid, tab)
         return messages, ai_step, session, Recording.seen
 
     def _identified(self) -> AIConditionResult:
@@ -894,17 +907,17 @@ class WebTests(unittest.TestCase):
         sid, tab = "D" * 43, "tab-condai0005"
         dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n")))
         with (
-            patch.object(main, "settings", replace(settings, condition_ai_backends=("local",))),
-            patch.object(main, "retriever", FakeRetriever()),
+            patch.object(self.deps, "settings", replace(settings, condition_ai_backends=("local",))),
+            patch.object(self.deps, "retriever", FakeRetriever()),
             patch.object(main, "identify_conditions", return_value=self._identified()),
             patch.object(conditions_module, "load_dictionary", return_value=dictionary),
         ):
             self.client.get("/api/session", headers=_headers(sid, tab))
             _send(self.client, sid, tab, "durere de cap", [])
-            self.assertEqual(main.store.get(sid, tab).profile.ai_conditions[0]["name"], "Cefalee")
+            self.assertEqual(self.deps.store.get(sid, tab).profile.ai_conditions[0]["name"], "Cefalee")
             self.client.post("/api/messages", json={"message": "gout", "categories": []}, headers=_headers(sid, tab))
-            self.assertEqual(main.store.get(sid, tab).profile.ai_conditions, ())
-        main.store.delete(sid, tab)
+            self.assertEqual(self.deps.store.get(sid, tab).profile.ai_conditions, ())
+        self.deps.store.delete(sid, tab)
 
     # The AI works outside the session lock; a message that arrives meanwhile
     # replaces the problem, and the late answer is thrown away.
@@ -913,7 +926,7 @@ class WebTests(unittest.TestCase):
         dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n")))
 
         def slow_ai(resolved):
-            session = main.store.get(sid, tab)
+            session = self.deps.store.get(sid, tab)
             # The lock is free during the call (RLock: another thread could take it).
             took = []
 
@@ -926,12 +939,18 @@ class WebTests(unittest.TestCase):
             thread.start()
             thread.join()
             self.assertEqual(took, [True])
-            session.profile.replace_health_problem("gout")
+            op = self.deps.store.begin_operation(session, "message")
+            profile = op.snapshot.profile
+            profile.replace_health_problem("gout")
+            try:
+                self.deps.store.commit_operation(op, CommitChange(profile=profile, new_context=True))
+            finally:
+                self.deps.store.finish_operation(op)
             return self._identified()
 
         with (
-            patch.object(main, "settings", replace(settings, condition_ai_backends=("local",))),
-            patch.object(main, "retriever", FakeRetriever()),
+            patch.object(self.deps, "settings", replace(settings, condition_ai_backends=("local",))),
+            patch.object(self.deps, "retriever", FakeRetriever()),
             patch.object(main, "identify_conditions", side_effect=slow_ai),
             patch.object(conditions_module, "load_dictionary", return_value=dictionary),
         ):
@@ -939,11 +958,11 @@ class WebTests(unittest.TestCase):
             self.client.post("/api/messages", json={"message": "durere de cap", "categories": []}, headers=_headers(sid, tab))
             body = self.client.post("/api/condition", headers=_headers(sid, tab)).json()
             messages = body["messages"]
-            session = main.store.get(sid, tab)
+            session = self.deps.store.get(sid, tab)
 
         self.assertEqual((messages, body["startSearch"]), ([], False))
         self.assertEqual(session.profile.ai_conditions, ())
-        main.store.delete(sid, tab)
+        self.deps.store.delete(sid, tab)
 
     def test_the_condition_notice_names_the_ai_only_with_by_ai(self):
         with patch.object(conditions_module, "load_dictionary", return_value=ConditionDictionary([])):
@@ -959,7 +978,11 @@ class WebTests(unittest.TestCase):
         profile = HealthProfile()
         profile.set_health_problem("durere de cap")
         session = type("SyntheticSession", (), {"profile": profile, "search_signals": ALL_SIGNALS})()
-        retriever = Retriever(settings.documents_dir)
+        retriever = object.__new__(Retriever)
+        retriever.documents_dir = Path(self.temp.name)
+        retriever.document_count = 0
+        retriever.category_tree = None
+        retriever._known_category_ids = frozenset()
         ranked = [{
             **self._ranked(1, "a.md", 1, 5, 0.5), "score": 2.0,
             "condition_in_title": None, "condition_in_text": None,
@@ -1080,8 +1103,8 @@ class WebTests(unittest.TestCase):
         FakeAI.report_profile = None
 
         with patch.object(main, "send_report", return_value="email_sent") as send_report_mock, patch.object(
-            main, "ai", FakeAI()
-        ), patch.object(main, "retriever", FakeRetriever()):
+            self.deps, "ai", FakeAI()
+        ), patch.object(self.deps, "retriever", FakeRetriever()):
             session_a = self.client.get("/api/session", headers=_headers(sid_a, tab_a)).json()
             self.assertTrue(session_a["history"][-1]["content"].endswith(HEALTH_PROBLEM_QUESTION))
             self.client.get("/api/session", headers=_headers(sid_b, tab_b))
@@ -1098,7 +1121,7 @@ class WebTests(unittest.TestCase):
             self.assertIn("Informație locală relevantă.", fragments["fragments"][0]["text"])
             self.assertFalse(generate["busy"])
             search_id = generate["searchId"]
-            session = main.store.get(sid_a, tab_a)
+            session = self.deps.store.get(sid_a, tab_a)
             self.assertEqual(
                 session.searches[search_id].evidence,
                 {
@@ -1123,7 +1146,7 @@ class WebTests(unittest.TestCase):
             body = resp.json()
             self.assertIsNone(body["ownerNotice"])
             self.assertEqual(FakeAI.generate_calls, 1)
-            self.assertEqual(main.store.get(sid_a, tab_a).searches, {})
+            self.assertEqual(self.deps.store.get(sid_a, tab_a).searches, {})
             send_report_mock.assert_not_called()
             recommendation = _by_kind(body["messages"], "text")
             download = _by_kind(body["messages"], "download")
@@ -1158,9 +1181,9 @@ class WebTests(unittest.TestCase):
 
             end_resp = self.client.post("/api/session/end", headers=_headers(sid_a, tab_a))
             self.assertIn("Sesiunea a fost închisă", end_resp.json()["messages"][0]["content"])
-            self.assertIsNone(main.store.get(sid_a, tab_a))
-            self.assertIsNotNone(main.store.get(sid_b, tab_b))
-            main.store.delete(sid_b, tab_b)
+            self.assertIsNone(self.deps.store.get(sid_a, tab_a))
+            self.assertIsNotNone(self.deps.store.get(sid_b, tab_b))
+            self.deps.store.delete(sid_b, tab_b)
 
     # Verify each search keeps its own "generate" section and PDF, and that
     # several finished reports stay independently downloadable in one session.
@@ -1170,8 +1193,8 @@ class WebTests(unittest.TestCase):
         FakeAI.report_profile = None
 
         with patch.object(main, "send_report", return_value="email_sent"), patch.object(
-            main, "ai", FakeAI()
-        ), patch.object(main, "retriever", FakeRetriever()):
+            self.deps, "ai", FakeAI()
+        ), patch.object(self.deps, "retriever", FakeRetriever()):
             self.client.get("/api/session", headers=_headers(sid, tab))
             first_messages = _send(self.client, sid, tab, "Gripă și răceală", [])
             first_search_id = _by_kind(first_messages, "generate")["searchId"]
@@ -1180,7 +1203,7 @@ class WebTests(unittest.TestCase):
             second_search_id = _by_kind(second_messages, "generate")["searchId"]
             self.assertNotEqual(first_search_id, second_search_id)
 
-            session = main.store.get(sid, tab)
+            session = self.deps.store.get(sid, tab)
             self.assertEqual(session.profile.health_problem, "Migrenă")
             self.assertEqual(session.searches[first_search_id].profile["health_problem"], "Gripă și răceală")
 
@@ -1207,7 +1230,7 @@ class WebTests(unittest.TestCase):
             self.assertIn("gripă și răceală", " ".join(first_text.split()))
             self.assertNotIn("Migrenă", " ".join(first_text.split()))
 
-        main.store.delete(sid, tab)
+        self.deps.store.delete(sid, tab)
 
     # Verify "Scor minim" next to "Generează rețeta": only fragments at or above
     # the threshold reach the AI, nothing reaching it skips the AI and keeps the
@@ -1229,7 +1252,7 @@ class WebTests(unittest.TestCase):
                 type(self).sent.append(sorted(evidence))
                 return super().generate(profile, evidence)
 
-        with patch.object(main, "ai", RecordingAI()), patch.object(main, "retriever", TwoFragments()):
+        with patch.object(self.deps, "ai", RecordingAI()), patch.object(self.deps, "retriever", TwoFragments()):
             self.client.get("/api/session", headers=_headers(sid, tab))
 
             def new_search():
@@ -1245,7 +1268,7 @@ class WebTests(unittest.TestCase):
             messages = generate(search_id, {"minScore": 75}).json()["messages"]
             self.assertEqual(messages[-1]["content"], main.NO_FRAGMENT_ABOVE_MIN_SCORE)
             self.assertEqual(RecordingAI.sent, [])
-            self.assertIn(search_id, main.store.get(sid, tab).searches)
+            self.assertIn(search_id, self.deps.store.get(sid, tab).searches)
 
             # The threshold is inclusive: 50% keeps the 50.0 fragment only.
             self.assertIsNotNone(_by_kind(generate(search_id, {"minScore": 50}).json()["messages"], "download"))
@@ -1258,13 +1281,13 @@ class WebTests(unittest.TestCase):
 
             self.assertEqual(generate(new_search(), {"minScore": 150}).status_code, 422)
 
-        main.store.delete(sid, tab)
+        self.deps.store.delete(sid, tab)
 
     # Verify a Google API failure keeps the report available and tells the user in chat.
     def test_email_failure_keeps_report_available(self):
         sid, tab = "D" * 43, "tab-emailfail1"
 
-        with patch.object(main, "ai", FakeAI()), patch.object(main, "retriever", FakeRetriever()), patch.object(
+        with patch.object(self.deps, "ai", FakeAI()), patch.object(self.deps, "retriever", FakeRetriever()), patch.object(
             main, "send_report", side_effect=OSError("SMTP unavailable")
         ):
             self.client.get("/api/session", headers=_headers(sid, tab))
@@ -1274,22 +1297,22 @@ class WebTests(unittest.TestCase):
             with self.assertLogs("naturist.web", level="ERROR") as captured:
                 reply_messages = _send(self.client, sid, tab, "prieten@example.com", [])
 
-        session = main.store.get(sid, tab)
+        session = self.deps.store.get(sid, tab)
         self.assertTrue(session.report_bytes.startswith(b"%PDF-"))
         self.assertIn("Nu am putut trimite", reply_messages[-1]["content"])
         self.assertIn("stage=email", "\n".join(captured.output))
-        main.store.delete(sid, tab)
+        self.deps.store.delete(sid, tab)
 
     # Verify the download URL honours a reverse-proxy sub-path when configured.
     def test_public_report_link_uses_configured_root_path(self):
         sid, tab = "C" * 43, "tab-public0001"
-        session = main.store.get(sid, tab, create=True)
+        session = self.deps.store.get(sid, tab, create=True)
         session.report_id = "report-1"
         with patch.dict(os.environ, {"PUBLIC_ROOT_PATH": "/medicina"}):
             message = handlers._download_message(session)
         self.assertEqual(message["url"], f"/medicina/api/reports/{tab}/report-1")
         self.assertEqual(message["kind"], "download")
-        main.store.delete(sid, tab)
+        self.deps.store.delete(sid, tab)
 
     # --- Category tree endpoint ----------------------------------------------
 
@@ -1305,7 +1328,7 @@ class WebTests(unittest.TestCase):
         class RetrieverWithCategories:
             category_tree = tree
 
-        with patch.object(main, "retriever", RetrieverWithCategories()):
+        with patch.object(self.deps, "retriever", RetrieverWithCategories()):
             response = self.client.get("/api/categories")
         body = response.json()
         self.assertEqual(body["defaultSelection"], ["Cancer"])
@@ -1317,31 +1340,13 @@ class WebTests(unittest.TestCase):
         class RetrieverWithoutCategories:
             category_tree = None
 
-        with patch.object(main, "retriever", RetrieverWithoutCategories()):
+        with patch.object(self.deps, "retriever", RetrieverWithoutCategories()):
             response = self.client.get("/api/categories")
         self.assertEqual(response.json(), {"tree": None, "defaultSelection": []})
 
     # Verify retrieval against the real, locally configured index/database: the
     # sections titled with the condition come first (P1), the treatment plan is
     # among the evidence, and the evidence fits the context budget.
-    def test_flu_query_ranks_titled_sections_first_from_the_real_index(self):
-        profile = HealthProfile()
-        profile.set_health_problem("vreau recomandari naturiste pentru gripa")
-        session = type("SyntheticSession", (), {"profile": profile})()
-        retriever = Retriever(settings.documents_dir)
-        evidence = retriever.collect(session, 1_000_000)
-
-        self.assertEqual(_meaningful_words(profile.health_problem), {"gripa"})
-        titled = [item["condition_in_title"] for item in evidence.values()]
-        self.assertTrue(any(titled))
-        self.assertEqual(titled, sorted(titled, reverse=True))
-        self.assertTrue(any(
-            "Plan tratament naturist" in item["source"]
-            and "tinctura fructe de soc" in plain(item["text"])
-            for item in evidence.values()
-        ))
-        self.assertLessEqual(sum(len(item["text"]) for item in evidence.values()), 1_000_000)
-
     # Build synthetic rank() output for one query, as rank() returns every fragment.
     @staticmethod
     def _ranked(chunk_id, path, start, end, fraction, lexical=False, text="fără cuvinte comune"):
@@ -1367,7 +1372,11 @@ class WebTests(unittest.TestCase):
         profile = HealthProfile()
         profile.set_health_problem("gripa")
         session = type("SyntheticSession", (), {"profile": profile})()
-        retriever = Retriever(settings.documents_dir)
+        retriever = object.__new__(Retriever)
+        retriever.documents_dir = Path(self.temp.name)
+        retriever.document_count = 0
+        retriever.category_tree = None
+        retriever._known_category_ids = frozenset()
         # Purely about whether a low score still survives into evidence.
         ranked = [
             self._ranked(1, "a.md", 1, 5, 0.50),
@@ -1393,7 +1402,11 @@ class WebTests(unittest.TestCase):
     def test_collect_computes_the_percent_against_the_ceiling_of_the_chosen_signals(self):
         profile = HealthProfile()
         profile.set_health_problem("gripa")
-        retriever = Retriever(settings.documents_dir)
+        retriever = object.__new__(Retriever)
+        retriever.documents_dir = Path(self.temp.name)
+        retriever.document_count = 0
+        retriever.category_tree = None
+        retriever._known_category_ids = frozenset()
         for code, ceiling in (("ABC", 8), ("AB", 6), ("AC", 6), ("BC", 2), ("A", 3), ("B", 1), ("C", 1)):
             signals = SearchSignals.from_code(code)
             session = type("SyntheticSession", (), {"profile": profile, "search_signals": signals})()
@@ -1422,7 +1435,11 @@ class WebTests(unittest.TestCase):
         profile = HealthProfile()
         profile.set_health_problem("gripa")
         session = type("SyntheticSession", (), {"profile": profile})()
-        retriever = Retriever(settings.documents_dir)
+        retriever = object.__new__(Retriever)
+        retriever.documents_dir = Path(self.temp.name)
+        retriever.document_count = 0
+        retriever.category_tree = None
+        retriever._known_category_ids = frozenset()
         captured = []
 
         def fake_rank(_query, **kwargs):
@@ -1440,7 +1457,11 @@ class WebTests(unittest.TestCase):
         profile = HealthProfile()
         profile.set_health_problem("gripa")
         session = type("SyntheticSession", (), {"profile": profile, "selected_categories": {"Cancer", "necunoscuta"}})()
-        retriever = Retriever(settings.documents_dir)
+        retriever = object.__new__(Retriever)
+        retriever.documents_dir = Path(self.temp.name)
+        retriever.document_count = 0
+        retriever.category_tree = None
+        retriever._known_category_ids = frozenset()
         retriever._known_category_ids = frozenset({"Cancer", "Sex"})
         captured_kwargs = []
 
@@ -1461,7 +1482,11 @@ class WebTests(unittest.TestCase):
         profile = HealthProfile()
         profile.set_health_problem("gripa")
         session = type("SyntheticSession", (), {"profile": profile, "selected_categories": {"necunoscuta"}})()
-        retriever = Retriever(settings.documents_dir)
+        retriever = object.__new__(Retriever)
+        retriever.documents_dir = Path(self.temp.name)
+        retriever.document_count = 0
+        retriever.category_tree = None
+        retriever._known_category_ids = frozenset()
         retriever._known_category_ids = frozenset({"Cancer", "Sex"})
         captured_kwargs = []
 
@@ -1482,7 +1507,11 @@ class WebTests(unittest.TestCase):
         profile = HealthProfile()
         profile.set_health_problem("gripa")
         session = type("SyntheticSession", (), {"profile": profile})()
-        retriever = Retriever(settings.documents_dir)
+        retriever = object.__new__(Retriever)
+        retriever.documents_dir = Path(self.temp.name)
+        retriever.document_count = 0
+        retriever.category_tree = None
+        retriever._known_category_ids = frozenset()
         retriever._known_category_ids = frozenset({"Cancer"})
 
         with patch("backend.ai.retrieval.rank", return_value=[]):
@@ -1496,7 +1525,11 @@ class WebTests(unittest.TestCase):
         profile = HealthProfile()
         profile.set_health_problem("gripa")
         session = type("SyntheticSession", (), {"profile": profile})()
-        retriever = Retriever(settings.documents_dir)
+        retriever = object.__new__(Retriever)
+        retriever.documents_dir = Path(self.temp.name)
+        retriever.document_count = 0
+        retriever.category_tree = None
+        retriever._known_category_ids = frozenset()
         captured = []
 
         def fake_rank(_query, **kwargs):

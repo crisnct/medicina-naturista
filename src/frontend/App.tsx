@@ -16,8 +16,15 @@ export function App() {
 
   useEffect(() => {
     const handlePageHide = () => api.unloadSession();
+    const handlePageShow = (event: PageTransitionEvent) => {
+      if (event.persisted) window.location.reload();
+    };
     window.addEventListener("pagehide", handlePageHide);
-    return () => window.removeEventListener("pagehide", handlePageHide);
+    window.addEventListener("pageshow", handlePageShow);
+    return () => {
+      window.removeEventListener("pagehide", handlePageHide);
+      window.removeEventListener("pageshow", handlePageShow);
+    };
   }, []);
 
   const handleSend = (message: string) => {
@@ -32,9 +39,10 @@ export function App() {
         {conversation.isLoading ? (
           <p className="loading-notice">Se încarcă discuția...</p>
         ) : conversation.isError ? (
-          <p className="loading-notice">
-            Nu am putut încărca sesiunea. Reîncărcați pagina.
-          </p>
+          <div role="alert" className="loading-notice">
+            <p>{conversation.sessionError ?? "Nu am putut încărca sesiunea. Reîncărcați pagina."}</p>
+            <button type="button" onClick={conversation.retrySession}>Verifică din nou</button>
+          </div>
         ) : (
           <ChatHistory
             history={conversation.history}
@@ -43,14 +51,18 @@ export function App() {
           />
         )}
         <OwnerNotice message={conversation.banner} />
-        <Composer disabled={conversation.isSending} processing={conversation.isSending} onSend={handleSend} />
-        <CategoryFilterPanel
-          tree={categories.tree}
-          selected={categories.selected}
-          onChange={categories.setSelected}
-          signals={searchSignals.signals}
-          onSignalsChange={searchSignals.setSignals}
-        />
+        {!conversation.isError && (
+          <>
+            <Composer disabled={conversation.isLoading || conversation.isSending} processing={conversation.isSending} onSend={handleSend} />
+            <CategoryFilterPanel
+              tree={categories.tree}
+              selected={categories.selected}
+              onChange={categories.setSelected}
+              signals={searchSignals.signals}
+              onSignalsChange={searchSignals.setSignals}
+            />
+          </>
+        )}
       </div>
     </div>
   );

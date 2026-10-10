@@ -224,3 +224,4 @@ __marimo__/
 /var/tmp/
 /var/output/
 /.venv-gpu/
+/aiPlans/

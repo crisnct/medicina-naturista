@@ -3,7 +3,11 @@
 // deployment to generate this from OpenAPI yet) — see the backend module
 // docstrings for the authoritative shape.
 
-export interface TextMessage {
+export interface MessageIdentity {
+  groupId?: string;
+}
+
+export interface TextMessage extends MessageIdentity {
   kind: "text";
   role: "user" | "assistant";
   content: string;
@@ -28,7 +32,7 @@ export interface SearchSignals {
   semantic: boolean;
 }
 
-export interface FragmentsMessage {
+export interface FragmentsMessage extends MessageIdentity {
   kind: "fragments";
   role: "assistant";
   searchId: string;
@@ -40,14 +44,14 @@ export interface FragmentsMessage {
   fragments: FragmentItem[];
 }
 
-export interface GenerateMessage {
+export interface GenerateMessage extends MessageIdentity {
   kind: "generate";
   role: "assistant";
   searchId: string;
   busy: boolean;
 }
 
-export interface DownloadMessage {
+export interface DownloadMessage extends MessageIdentity {
   kind: "download";
   role: "assistant";
   reportId: string;
@@ -75,11 +79,18 @@ export interface CategoriesResponse {
   defaultSelection: string[];
 }
 
-export interface MessagesResponse {
+export interface ResourceInvalidations {
+  evictedSearchIds?: string[];
+  evictedReportIds?: string[];
+  evictedGroupIds?: string[];
+  cancelled?: boolean;
+}
+
+export interface MessagesResponse extends ResourceInvalidations {
   messages: ChatMessage[];
 }
 
-export interface SendMessageResponse {
+export interface SendMessageResponse extends ResourceInvalidations {
   messages: ChatMessage[];
   // True when POST /api/search should be called next to actually run
   // retrieval — kept as a separate, slower call so the echo/notice above
@@ -88,14 +99,15 @@ export interface SendMessageResponse {
   // True when POST /api/condition should be called first: the dictionary does
   // not know the condition, so the AI is asked for it before the search starts.
   identifyCondition?: boolean;
+  contextRevision?: number;
 }
 
-export interface ConditionResponse {
+export interface ConditionResponse extends ResourceInvalidations {
   messages: ChatMessage[];
   startSearch: boolean;
 }
 
-export interface GenerateResponse {
+export interface GenerateResponse extends ResourceInvalidations {
   messages: ChatMessage[];
   ownerNotice: string | null;
 }

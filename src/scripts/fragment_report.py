@@ -33,6 +33,8 @@ def _read(path: Path) -> str:
 
 
 def main() -> None:
+    from backend.config import Settings, configure_settings
+    configure_settings(Settings.from_env(dotenv=True))
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser()

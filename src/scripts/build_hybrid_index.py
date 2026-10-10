@@ -5,15 +5,16 @@ lexical search). A document whose SHA-256 matches what's already stored is
 skipped entirely — no re-chunking, no re-embedding, no DB write — so adding
 or editing one document never touches the rest of the corpus."""
 # Run like this:
-# .\.venv-gpu\Scripts\python src\scripts\build_hybrid_index.py
-# Monitor GPU cuda usage
-# nvidia-smi --loop=3
+#   .\.venv-gpu\Scripts\python src\scripts\build_hybrid_index.py
 from __future__ import annotations
 
 import argparse
 import hashlib
 import json
+import re
+import subprocess
 import sys
+import threading
 import time
 import unicodedata
 from dataclasses import dataclass
@@ -41,12 +42,88 @@ PROGRESS_INTERVAL_SECONDS = 10.0
 # Windows embedded per model call. 8 was the fastest on the GPU (fp16); larger
 # batches only add padding and memory (see architecture/plan-migrare-qwen3-embedding.md).
 BATCH_SIZE = 8
-
 # Bumped whenever the text representation fed into embeddings/lexical search
 # changes (e.g. the cleaning rules below), so build() forces a full resync
 # even though every source file's own SHA-256 is unchanged. See build()'s use
 # of TEXT_REPR_VERSION against sync_metadata.
-TEXT_REPR_VERSION = "6"
+TEXT_REPR_VERSION = "10"
+
+class GPUUsageMonitor:
+    """Read GPU 0's GPU-Util column without blocking the embedding loop."""
+
+    def __init__(self) -> None:
+        self._lock = threading.Lock()
+        self._stop = threading.Event()
+        self._process: subprocess.Popen | None = None
+        self._thread = threading.Thread(target=self._run, name="gpu-usage", daemon=True)
+        self._usage: int | None = None
+        self._updated = 0.0
+        self._gpu: int | None = None
+
+    def __enter__(self) -> GPUUsageMonitor:
+        self._thread.start()
+        return self
+
+    def __exit__(self, *_exc) -> None:
+        self._stop.set()
+        with self._lock:
+            process = self._process
+        if process is not None and process.poll() is None:
+            process.terminate()
+            try:
+                process.wait(timeout=2)
+            except subprocess.TimeoutExpired:
+                process.kill()
+                process.wait()
+        self._thread.join(timeout=3)
+
+    def percent(self) -> str:
+        with self._lock:
+            if self._usage is None or time.monotonic() - self._updated > 3:
+                return "N/A"
+            return f"{self._usage}%"
+
+    def _consume(self, line: str) -> None:
+        gpu = re.match(r"^\|\s*(\d+)\s+", line)
+        if gpu:
+            self._gpu = int(gpu[1])
+        columns = line.split("|")
+        if self._gpu != 0 or len(columns) < 5 or "MiB" not in columns[2]:
+            return
+        usage = re.match(r"\s*(\d{1,3})%", columns[3])
+        if usage and int(usage[1]) <= 100:
+            with self._lock:
+                self._usage = int(usage[1])
+                self._updated = time.monotonic()
+
+    def _run(self) -> None:
+        try:
+            with self._lock:
+                if self._stop.is_set():
+                    return
+                self._process = subprocess.Popen(
+                    ["nvidia-smi", "--loop=1"],
+                    stdout=subprocess.PIPE,
+                    stderr=subprocess.DEVNULL,
+                    text=True,
+                    errors="replace",
+                    creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0),
+                )
+                process = self._process
+            assert process.stdout is not None
+            try:
+                for line in process.stdout:
+                    if self._stop.is_set():
+                        break
+                    self._consume(line)
+            finally:
+                process.stdout.close()
+        except OSError:
+            # GPU monitoring is optional, including on machines without NVIDIA.
+            pass
+        finally:
+            with self._lock:
+                self._usage = None
 
 
 @dataclass(frozen=True)
@@ -178,6 +255,7 @@ def embed_chunks(
     *,
     progress_interval_seconds: float = PROGRESS_INTERVAL_SECONDS,
     clock: Callable[[], float] | None = None,
+    gpu_usage: Callable[[], str] | None = None,
 ) -> np.ndarray:
     if progress_interval_seconds <= 0:
         raise ValueError("Progress interval must be greater than zero")
@@ -207,7 +285,7 @@ def embed_chunks(
             print(
                 f"Embedding progress: {processed}/{window_total} ({percent:.1f}%) | "
                 f"elapsed {format_duration(elapsed)} | rate {rate:.1f} windows/s | "
-                f"ETA {format_duration(eta)}",
+                f"ETA {format_duration(eta)} | GPU usage: {gpu_usage() if gpu_usage else 'N/A'}",
                 flush=True,
             )
             last_report = now
@@ -299,6 +377,17 @@ def _write_document(connection, source: SourceFile, chunks: Sequence[Chunk], emb
 # stored) are skipped entirely; new/changed files are re-chunked, re-embedded,
 # and written in one transaction each; files removed from source are deleted.
 def build(source: Path, model_name: str, batch_size: int = BATCH_SIZE) -> None:
+    with GPUUsageMonitor() as monitor:
+        _build(source, model_name, batch_size, gpu_usage=monitor.percent)
+
+
+def _build(
+    source: Path,
+    model_name: str,
+    batch_size: int,
+    *,
+    gpu_usage: Callable[[], str],
+) -> None:
     source = source.resolve()
     if not source.is_dir():
         raise FileNotFoundError(f"Source directory does not exist: {source}")
@@ -428,7 +517,7 @@ def build(source: Path, model_name: str, batch_size: int = BATCH_SIZE) -> None:
         print(f"Loading local embedding model {model_name} (device {settings.embedding_device})", flush=True)
         model = create_embedding_model(model_name, settings.model_cache_dir)
         print(f"Embedding {len(all_new_chunks)} chunks from {len(pending)} changed files (batch size {batch_size})", flush=True)
-        embeddings = embed_chunks(model, all_new_chunks, batch_size, profile)
+        embeddings = embed_chunks(model, all_new_chunks, batch_size, profile, gpu_usage=gpu_usage)
 
         changed_during_sync = []
         for relative, (size, mtime_ns) in initial_stats.items():
@@ -487,6 +576,8 @@ def parse_args() -> argparse.Namespace:
 
 
 if __name__ == "__main__":
+    from backend.config import Settings, configure_settings
+    configure_settings(Settings.from_env(dotenv=True))
     arguments = parse_args()
     try:
         build(arguments.source, arguments.model)
