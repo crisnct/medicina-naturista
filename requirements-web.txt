@@ -1,4 +1,5 @@
 -r requirements-lock.txt
+pydantic>=2.10,<3
 fastapi>=0.115,<1
 uvicorn>=0.35,<1
 reportlab>=4.4,<5

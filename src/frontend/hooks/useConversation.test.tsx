@@ -46,4 +46,16 @@ describe("conversation resource reconciliation", () => {
     expect(generate).toHaveBeenCalledTimes(1);
     expect(result.current.history[1]).toMatchObject({ kind: "generate", busy: false });
   });
+  it("does not retry a stale selection or run a global search", async () => {
+    vi.spyOn(api, "getSession").mockResolvedValue({ history: old });
+    vi.spyOn(api, "sendMessage").mockResolvedValue({ messages: [], startSearch: true });
+    const search = vi.spyOn(api, "search").mockRejectedValue(new ApiError(409, "Selectați din nou sursele.", "CATEGORY_SELECTION_STALE"));
+    const { result } = mount();
+    await waitFor(() => expect(result.current.isLoading).toBe(false));
+    act(() => result.current.sendMessage("new", ["removed"], signals));
+    await waitFor(() => expect(result.current.banner).toBe("Selectați din nou sursele."));
+    expect(search).toHaveBeenCalledTimes(1);
+    expect(api.sendMessage).toHaveBeenCalledTimes(1);
+  });
+
 });

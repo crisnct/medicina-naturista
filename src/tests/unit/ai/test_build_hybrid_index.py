@@ -4,7 +4,8 @@ import dataclasses
 import io
 import tempfile
 import unittest
-from contextlib import redirect_stdout
+from contextlib import redirect_stdout, nullcontext
+from types import SimpleNamespace
 from pathlib import Path
 from unittest import mock
 
@@ -321,7 +322,8 @@ class SyncTests(unittest.TestCase):
                 return cursor.execute(f"SELECT {columns} FROM {table} ORDER BY 1").fetchall()
 
     def _sync(self, model_name: str = builder.DEFAULT_MODEL):
-        with mock.patch.object(builder, "create_embedding_model", return_value=object()), \
+        with mock.patch.object(builder, "GPUUsageMonitor", return_value=nullcontext(SimpleNamespace(percent=lambda: "N/A"))), \
+             mock.patch.object(builder, "create_embedding_model", return_value=object()), \
              mock.patch.object(builder, "embed_chunks", side_effect=fake_embed) as embed_mock, \
              redirect_stdout(io.StringIO()):
             builder.build(self.source, model_name, batch_size=64)
@@ -359,8 +361,8 @@ class SyncTests(unittest.TestCase):
         (self.source / "Febra.md").write_text("Repaus și lichide.", encoding="utf-8")
 
         with mock.patch.object(
-            builder, "load_dictionary",
-            return_value=ConditionDictionary(parse_conditions(conditions_jsonl("Gripa,gripe\nFebra\n"))),
+            builder, "dictionary_snapshot",
+            return_value=(builder.dictionary_snapshot()[0], ConditionDictionary(parse_conditions(conditions_jsonl("Gripa,gripe\nFebra\n")))),
         ):
             self._sync()
 
@@ -480,7 +482,7 @@ class SyncTests(unittest.TestCase):
         patcher = mock.patch.dict(PROFILES, {OTHER.name: OTHER})
         patcher.start()
         self.addCleanup(patcher.stop)
-        self.addCleanup(db_module.ensure_schema, QWEN.dimension)
+
 
     def test_changing_the_model_re_embeds_every_document_and_updates_the_metadata(self):
         self._with_other_model()

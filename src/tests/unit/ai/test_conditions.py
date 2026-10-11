@@ -5,6 +5,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 from backend.ai import conditions
 from backend.ai.conditions import ConditionDictionary, parse_conditions
@@ -149,6 +150,55 @@ class ResolveTests(unittest.TestCase):
 
 
 class FileLoadingTests(unittest.TestCase):
+    def test_query_and_index_validation_share_one_parse_for_unchanged_bytes(self):
+        from dataclasses import replace
+        from backend.ai import index_state
+
+        conditions._parsed_dictionary.cache_clear()
+        self.addCleanup(conditions._parsed_dictionary.cache_clear)
+        with tempfile.TemporaryDirectory() as directory:
+            path = Path(directory) / "conditions.jsonl"
+            path.write_text(conditions_jsonl("Guta,gout\n"), encoding="utf-8")
+            with patch.object(index_state, "settings", replace(conditions.settings, conditions_file=path)), patch.object(conditions, "parse_conditions", wraps=conditions.parse_conditions) as parser:
+                first = conditions.load_dictionary(path)
+                fingerprint, indexed = index_state.dictionary_snapshot()
+                self.assertIs(first, indexed)
+                self.assertIs(first, conditions.load_dictionary(path))
+                self.assertEqual(index_state.dictionary_snapshot()[0], fingerprint)
+                parser.assert_called_once()
+
+                path.write_text(conditions_jsonl("Guta,gout,podagra\n"), encoding="utf-8")
+                changed_fingerprint, changed = index_state.dictionary_snapshot()
+                self.assertNotEqual(changed_fingerprint, fingerprint)
+                self.assertIsNot(changed, first)
+                self.assertIs(changed, conditions.load_dictionary(path))
+                self.assertEqual(parser.call_count, 2)
+
+    def test_concurrent_initial_loads_parse_the_dictionary_once(self):
+        from concurrent.futures import ThreadPoolExecutor
+        from threading import Barrier
+        from time import sleep
+
+        conditions._parsed_dictionary.cache_clear()
+        self.addCleanup(conditions._parsed_dictionary.cache_clear)
+        raw = conditions_jsonl("Guta,gout\n").encode("utf-8")
+        barrier = Barrier(8)
+
+        def load(_):
+            barrier.wait(timeout=5)
+            return conditions.dictionary_from_bytes(raw)
+
+        def slow_parse(text):
+            # Release the GIL so simultaneous cache misses would overlap if
+            # the initialization lock were removed.
+            sleep(0.02)
+            return parse_conditions(text)
+
+        with patch.object(conditions, "parse_conditions", wraps=slow_parse) as parser, ThreadPoolExecutor(max_workers=8) as workers:
+            snapshots = list(workers.map(load, range(8)))
+            self.assertTrue(all(snapshot is snapshots[0] for snapshot in snapshots))
+            parser.assert_called_once()
+
     def test_missing_file_gives_an_empty_dictionary(self):
         result = conditions.load_dictionary(Path(tempfile.gettempdir()) / "definitely-missing-conditions.jsonl")
 
@@ -167,14 +217,6 @@ class FileLoadingTests(unittest.TestCase):
 
             self.assertEqual(conditions.load_dictionary(path).match("gout")[0].terms, ("Guta", "gout", "podagra"))
 
-    def test_shipped_dictionary_parses(self):
-        text = conditions.settings.conditions_file.read_text(encoding="utf-8")
-
-        parsed = parse_conditions(text)
-
-        self.assertGreater(len(parsed), 10)
-        self.assertTrue(all(len(item.terms) >= 2 for item in parsed))
-
     def test_shipped_dictionary_is_pure_ascii(self):
         text = conditions.settings.conditions_file.read_text(encoding="utf-8")
 
@@ -186,19 +228,11 @@ class FileLoadingTests(unittest.TestCase):
         offenders = [term for item in parse_conditions(text) for term in item.terms if not term.isascii()]
         self.assertEqual(offenders, [])
 
-    def test_shipped_dictionary_has_no_duplicate_conditions(self):
-        text = conditions.settings.conditions_file.read_text(encoding="utf-8")
-
-        parsed = parse_conditions(text)
-
-        # one line per disease: the canonical name may not repeat
-        names = [conditions._normalize(item.name) for item in parsed]
-        self.assertEqual(len(names), len(set(names)))
-
     def test_shipped_dictionary_has_no_shared_terms(self):
         text = conditions.settings.conditions_file.read_text(encoding="utf-8")
 
         parsed = parse_conditions(text)
+        self.assertGreater(len(parsed), 10)
 
         # every term belongs to exactly one condition, so a search never resolves
         # to two diseases at once

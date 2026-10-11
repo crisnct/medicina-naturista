@@ -39,6 +39,8 @@ export interface FragmentsMessage extends MessageIdentity {
   // The signals this search was scored with; absent on messages from before the
   // choice existed, which were scored with every signal.
   signals?: SearchSignals;
+  indexGeneration?: string | null;
+  removedCategoryIds?: string[];
   fragmentsCount: number;
   documentsCount: number;
   fragments: FragmentItem[];
@@ -75,6 +77,7 @@ export interface SessionResponse {
 }
 
 export interface CategoriesResponse {
+  indexGeneration: string | null;
   tree: CategoryNode | null;
   defaultSelection: string[];
 }
@@ -87,6 +90,8 @@ export interface ResourceInvalidations {
 }
 
 export interface MessagesResponse extends ResourceInvalidations {
+  indexGeneration?: string;
+  removedCategoryIds?: string[];
   messages: ChatMessage[];
 }
 
@@ -108,6 +113,8 @@ export interface ConditionResponse extends ResourceInvalidations {
 }
 
 export interface GenerateResponse extends ResourceInvalidations {
+  partial: boolean;
+  validationWarnings: { code: string; section?: string | null; index?: number | null; count?: number | null }[];
   messages: ChatMessage[];
   ownerNotice: string | null;
 }

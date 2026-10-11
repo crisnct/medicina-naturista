@@ -22,7 +22,7 @@ Install:
     py -m pip install pypdf
 
 Run:
-    python scripts/merge_book_pdfs.py "C:\GoogleDrive\Medicina\_DeExtrasTextulCuAI\Vindecare prin nutritie"
+    python src/scripts/merge_book_pdfs.py "C:\GoogleDrive\Medicina\_DeExtrasTextulCuAI\Compendiu de Terapie Naturala"
 """
 
 from __future__ import annotations

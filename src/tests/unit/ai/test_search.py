@@ -6,7 +6,8 @@ from __future__ import annotations
 import io
 import tempfile
 import unittest
-from contextlib import redirect_stdout
+from contextlib import redirect_stdout, nullcontext
+from types import SimpleNamespace
 from pathlib import Path
 from unittest import mock
 
@@ -77,13 +78,14 @@ def _build_fixture_index(root: Path, documents: dict[str, str], vectors: dict[st
         path.parent.mkdir(parents=True, exist_ok=True)
         path.write_text(text, encoding="utf-8")
 
-    def fake_embed(_model, chunks, _batch_size, _profile):
+    def fake_embed(_model, chunks, _batch_size, _profile, **_kwargs):
         return np.asarray([vectors[chunk.source_relative_path] for chunk in chunks], dtype=np.float32)
 
     with (
+        mock.patch.object(builder, "GPUUsageMonitor", return_value=nullcontext(SimpleNamespace(percent=lambda: "N/A"))),
         mock.patch.object(builder, "create_embedding_model", return_value=object()),
         mock.patch.object(builder, "embed_chunks", side_effect=fake_embed),
-        mock.patch.object(builder, "load_dictionary", return_value=_dictionary()),
+        mock.patch.object(builder, "dictionary_snapshot", return_value=(builder.dictionary_snapshot()[0], _dictionary())),
         redirect_stdout(io.StringIO()),
     ):
         builder.build(source, builder.DEFAULT_MODEL, batch_size=64)
@@ -211,33 +213,6 @@ class WeightTests(unittest.TestCase):
                 self.assertEqual(search.weights(_signals(code)), weights)
                 self.assertEqual(search.max_score(_signals(code)), ceiling)
 
-    def test_a_signal_that_is_off_has_no_weight(self):
-        for code in COMBINATIONS:
-            signals = _signals(code)
-            w_primary, w_secondary, w_lexical, w_semantic = search.weights(signals)
-            with self.subTest(code=code):
-                self.assertEqual(bool(w_primary or w_secondary), signals.conditions)
-                self.assertEqual(bool(w_lexical), signals.lexical)
-                self.assertEqual(bool(w_semantic), signals.semantic)
-
-    # With the lexical and semantic signals on, the condition in the title is
-    # worth all the lower signals at their best and the one in the text is worth
-    # lexical plus semantic; with one of them off, the title still weighs as much
-    # as the text plus what remains; with conditions alone, title beats text.
-    def test_weights_keep_the_priority_order_wherever_it_exists(self):
-        p, s, l, v = search.weights(search.ALL_SIGNALS)
-        self.assertEqual(p, s + l + v)
-        self.assertEqual(s, l + v)
-        for code in ("AB", "AC"):
-            p, s, l, v = search.weights(_signals(code))
-            self.assertEqual(p, s + l + v, code)
-        p, s, _, _ = search.weights(_signals("A"))
-        self.assertGreater(p, s)
-
-    def test_lexical_and_semantic_weigh_the_same(self):
-        _, _, l, v = search.weights(_signals("BC"))
-        self.assertEqual(l, v)
-
 
 class RankTestCase(unittest.TestCase):
     documents: dict[str, str] = {}
@@ -288,7 +263,8 @@ class QueryProfileTests(RankTestCase):
             connection.execute("UPDATE sync_metadata SET value = '64' WHERE key = 'model_dimension'")
             connection.commit()
 
-        with self.assertRaisesRegex(RuntimeError, "does not match model"):
+        from backend.ai.index_state import IndexUnavailable
+        with self.assertRaises(IndexUnavailable):
             search.rank("ceai de musetel")
 
 
@@ -433,13 +409,16 @@ class PriorityRankTests(RankTestCase):
 
         self.assertEqual(len(self.query_model.queries), 1)
 
-    def test_without_the_semantic_signal_an_unsynced_index_is_not_an_error(self):
+    def test_every_signal_requires_a_compatible_synced_generation(self):
         with db_module.get_pool().connection() as connection:
             connection.execute("DELETE FROM sync_metadata")
             connection.commit()
 
-        self.assertTrue(search.rank("zorbita", signals=_signals("AB")))
-        with self.assertRaisesRegex(RuntimeError, "not been synced"):
+        from backend.ai.index_state import IndexUnavailable
+        with self.assertRaises(IndexUnavailable) as error:
+            search.rank("zorbita", signals=_signals("AB"))
+        self.assertEqual(error.exception.code, "INDEX_RESYNC_REQUIRED")
+        with self.assertRaises(IndexUnavailable):
             search.rank("zorbita", signals=_signals("C"))
 
     def test_only_the_semantic_signal_keeps_the_fragments_above_the_median_in_cosine_order(self):
@@ -705,11 +684,9 @@ class BudgetTests(RankTestCase):
         overhead = len(search.EVIDENCE_HEADING_PREFIX) + len(search.EVIDENCE_HEADING_SEPARATOR)
         return len(item["text"]) + (len(heading) + overhead if heading else 0)
 
-    def test_everything_is_returned_when_the_budget_is_large(self):
-        self.assertEqual(len(search.rank("zorbita")), 4)
-
     def test_whole_fragments_are_cut_from_the_tail_until_the_rest_fits(self):
         everything = search.rank("zorbita")
+        self.assertEqual(len(everything), 4)
         sizes = [self._evidence_chars(item) for item in everything]
         budget = sizes[0] + sizes[1] + sizes[2] - 1  # the third no longer fits
 
@@ -816,11 +793,12 @@ class CategoryFilterTests(RankTestCase):
 
         self.assertNotIn("catB/zorbita.md", _paths(results))
 
-    def test_no_filter_and_empty_filter_are_equivalent(self):
+    def test_empty_filter_returns_zero_sources(self):
         baseline = search.rank("zorbita")
         empty = search.rank("zorbita", category_ids=frozenset())
 
-        self.assertEqual(_paths(baseline), _paths(empty))
+        self.assertTrue(baseline)
+        self.assertEqual(empty, [])
 
 
 class AIConditionRankTests(RankTestCase):

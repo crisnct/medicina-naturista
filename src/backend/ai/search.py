@@ -16,7 +16,7 @@ import numpy as np
 from psycopg.rows import namedtuple_row
 
 from backend.ai.conditions import ResolvedQuery, resolve_query
-from backend.ai.db import get_pool
+from backend.ai.index_state import index_reader
 from backend.ai.embedding_model import cached_query_model, get_profile
 from backend.ai.query_terms import plain
 from backend.config import settings
@@ -184,19 +184,6 @@ def lexical_queries(resolved: ResolvedQuery) -> list[str]:
     return queries
 
 
-# Read the embedding model name/dimension the currently-synced index was
-# built with (see scripts/build_hybrid_index.py's sync_metadata upsert).
-def _embedding_metadata(cursor) -> tuple[str, int]:
-    rows = dict(
-        cursor.execute(
-            "SELECT key, value FROM sync_metadata WHERE key IN ('model_name', 'model_dimension')"
-        ).fetchall()
-    )
-    if "model_name" not in rows or "model_dimension" not in rows:
-        raise RuntimeError("Index has not been synced yet (sync_metadata is empty).")
-    return rows["model_name"], int(rows["model_dimension"])
-
-
 # The whole search as ONE query, so Postgres does every step next to the data:
 #   pool      every fragment of the selected categories: P1/P2 from the indexed
 #             condition arrays and the exact cosine similarity to the query
@@ -309,8 +296,8 @@ _NO_LEXICAL_VALUE = "0::double precision"
 # effective_signals()); the results carry the signals actually used.
 #
 # category_ids optionally restricts the search to chunks whose category_id is
-# one of the given ids (see backend.ai.categories) — None or an
-# empty set means every chunk. The filter is applied before the search
+# one of the given ids (see backend.ai.categories). None means all sources; an
+# empty set means zero chunks. The filter is applied before the search
 # statistics (median cosine), so V stays relative to the fragments the user
 # actually searches in.
 #
@@ -331,6 +318,13 @@ def rank(
     signals: SearchSignals = ALL_SIGNALS,
     resolved: ResolvedQuery | None = None,
 ) -> list[dict[str, object]]:
+    if category_ids is not None and not category_ids:
+        return []
+    with index_reader() as (connection, metadata):
+        return _rank(query, category_ids, max_chars, signals, resolved, connection, metadata)
+
+
+def _rank(query, category_ids, max_chars, signals, resolved, connection, metadata):
     query = " ".join(query.split())
     if not query:
         return []
@@ -346,8 +340,8 @@ def rank(
     if not (condition_names or expressions or signals.semantic):
         return []
 
-    category_where = "WHERE category_id = ANY(%(categories)s)" if category_ids else ""
-    category_and = "AND c.category_id = ANY(%(categories)s)" if category_ids else ""
+    category_where = "WHERE category_id = ANY(%(categories)s)" if category_ids is not None else ""
+    category_and = "AND c.category_id = ANY(%(categories)s)" if category_ids is not None else ""
     sql = _RANK_SQL.format(
         condition_columns=_CONDITION_COLUMNS if signals.conditions else _NO_CONDITION_COLUMNS,
         cosine_column=_COSINE_COLUMN if signals.semantic else _NO_COSINE_COLUMN,
@@ -373,25 +367,24 @@ def rank(
         "w_semantic": w_semantic,
         "max_chars": max_chars if max_chars is not None else UNLIMITED_CHARS,
     }
-    with get_pool().connection() as connection:
-        with connection.cursor(row_factory=namedtuple_row) as cursor:
-            if signals.semantic:
-                model_name, dimension = _embedding_metadata(cursor)
-                # The profile of the model the index was built with decides how the
-                # question is written (prefix / instruction) and its vector width.
-                profile = get_profile(model_name)
-                if profile.dimension != dimension:
-                    raise RuntimeError(
-                        f"Index dimension {dimension} does not match model {model_name} ({profile.dimension})."
-                    )
-                model = cached_query_model(model_name, settings.model_cache_dir)
-                # Unit-length vector: the inner product with the (also unit-length,
-                # see build_hybrid_index.py's embed_chunks()) fragment vectors is
-                # the cosine similarity. The scan is exact, so V is exact too.
-                vector = np.asarray(list(model.query_embed([profile.query_text(query)]))[0], dtype=np.float32)
-                vector /= np.linalg.norm(vector)
-                parameters["vector"] = vector
-            rows = cursor.execute(sql, parameters).fetchall()
+    with connection.cursor(row_factory=namedtuple_row) as cursor:
+        if signals.semantic:
+            model_name, dimension = metadata.model_name, metadata.model_dimension
+            # The profile of the model the index was built with decides how the
+            # question is written (prefix / instruction) and its vector width.
+            profile = get_profile(model_name)
+            if profile.dimension != dimension:
+                raise RuntimeError(
+                    f"Index dimension {dimension} does not match model {model_name} ({profile.dimension})."
+                )
+            model = cached_query_model(model_name, settings.model_cache_dir)
+            # Unit-length vector: the inner product with the (also unit-length,
+            # see build_hybrid_index.py's embed_chunks()) fragment vectors is
+            # the cosine similarity. The scan is exact, so V is exact too.
+            vector = np.asarray(list(model.query_embed([profile.query_text(query)]))[0], dtype=np.float32)
+            vector /= np.linalg.norm(vector)
+            parameters["vector"] = vector
+        rows = cursor.execute(sql, parameters).fetchall()
 
     return [
         {

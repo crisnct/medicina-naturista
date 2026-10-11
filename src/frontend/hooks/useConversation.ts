@@ -1,6 +1,6 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useState } from "react";
-import { api, errorMessage } from "../api/client";
+import { api, ApiError, errorMessage } from "../api/client";
 import type { ChatMessage, SearchSignals, ResourceInvalidations } from "../api/types";
 
 import { reconcileRetention } from "../lib/retention";
@@ -79,6 +79,10 @@ export function useConversation() {
           if (startSearch) {
             const second = await api.search(first.contextRevision);
             appendMessages(second.messages, second);
+            if (second.removedCategoryIds?.length) {
+              setBanner("Unele surse selectate nu mai există și au fost eliminate. Verificați selecția categoriilor.");
+              void queryClient.invalidateQueries({ queryKey: ["categories"] });
+            }
           }
         } finally {
           setIsSearching(false);
@@ -86,7 +90,12 @@ export function useConversation() {
       }
     },
     retry: false,
-    onError: (error) => setBanner(errorMessage(error, "Mesajul nu a putut fi trimis. Încercați din nou.")),
+    onError: (error) => {
+      setBanner(errorMessage(error, "Mesajul nu a putut fi trimis. Încercați din nou."));
+      if (error instanceof ApiError && error.code === "CATEGORY_SELECTION_STALE") {
+        void queryClient.invalidateQueries({ queryKey: ["categories"] });
+      }
+    },
   });
 
   const generateReport = useMutation({
@@ -98,6 +107,7 @@ export function useConversation() {
       );
     },
     onSuccess: (result, { searchId }) => {
+      if (result.partial) setBanner("Raportul este parțial: unele recomandări nu au putut fi validate.");
       if (result.ownerNotice) {
         setBanner(result.ownerNotice);
         queryClient.setQueryData(SESSION_KEY, (old: { history: ChatMessage[] } | undefined) =>

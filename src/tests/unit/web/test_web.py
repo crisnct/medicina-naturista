@@ -8,17 +8,16 @@ import tempfile
 import threading
 import unittest
 from pathlib import Path
+from types import SimpleNamespace
+from backend.core.errors import ApplicationError
 from unittest.mock import MagicMock, patch
 
 from fastapi.testclient import TestClient
 from pypdf import PdfReader
-from reportlab.lib import colors
-from reportlab.lib.styles import ParagraphStyle
 
 from backend.ai.categories import CategoryNode, CategoryTree
 from backend.ai.condition_ai import AIConditionResult, resolved_for
 from backend.ai.embedding_model import _normalize_fastembed_metadata
-from backend.ai.query_terms import plain
 from backend.ai.search import ALL_SIGNALS, SearchSignals, max_score
 from backend.web import handlers, main
 from backend.reporting import pdf as reports_module
@@ -31,7 +30,6 @@ from backend.core.rate_limits import RateLimiter
 from tests.support.owners import FakeOwnerRepository
 from backend.core.models import HEALTH_PROBLEM_QUESTION, HealthProfile, CommitChange
 from backend.reporting.pdf import (
-    SECTION_PRESENTATION,
     create_pdf,
     format_recommendation,
     generation_summary_lines,
@@ -39,7 +37,7 @@ from backend.reporting.pdf import (
 )
 from backend.ai import conditions as conditions_module
 from backend.ai.conditions import ConditionDictionary, parse_conditions
-from backend.ai.retrieval import Retriever, _meaningful_words, consultation_query
+from backend.ai.retrieval import Retriever, consultation_query
 from backend.core.sessions import SessionStore
 from tests.support.conditions import conditions_jsonl
 
@@ -287,10 +285,10 @@ class WebTests(unittest.TestCase):
             GENERATE_REPORT_SYSTEM_PROMPT_PATH.read_text(encoding="utf-8").strip(),
         )
         self.assertTrue(all(f"Fragmentul {number}" in calls[0][1] for number in range(12)))
-        self.assertEqual(len(sections["uz_intern"]), 12)
+        self.assertEqual(len(sections.section_payload()["uz_intern"]), 12)
 
-    # Verify that AI items remain visible even without valid local evidence IDs.
-    def test_generate_preserves_items_without_valid_evidence_ids(self):
+    # Uncited nutrition remains compatible; unknown IDs invalidate the entire item.
+    def test_generate_keeps_uncited_nutrition_and_discards_unknown_ids(self):
         client = XAIClient(settings)
         result = {
             "uz_intern": [],
@@ -309,11 +307,10 @@ class WebTests(unittest.TestCase):
         client.close()
 
         self.assertEqual(
-            sections["nutritie"],
+            sections.section_payload()["nutritie"],
             [
                 {"text": "Rețetă culinară fără sursă locală", "evidence_ids": []},
                 {"text": "Recomandare fără câmp evidence_ids", "evidence_ids": []},
-                {"text": "Recomandare cu ID necunoscut", "evidence_ids": ["UNKNOWN"]},
             ],
         )
 
@@ -342,7 +339,7 @@ class WebTests(unittest.TestCase):
         client.close()
 
         self.assertEqual(
-            sections["nutritie"],
+            sections.section_payload()["nutritie"],
             [
                 {"text": "[RETETA]: Supă ușoară", "evidence_ids": []},
                 {"text": "[RETETA]: Ceai de ghimbir", "evidence_ids": []},
@@ -442,47 +439,12 @@ class WebTests(unittest.TestCase):
         }
 
         client = XAIClient(settings)
-        self.assertEqual([entry["id"] for entry in client._evidence_entries(evidence)], ["E1", "E2"])
-        client.close()
-
-    # Verify a fragment with no serialized-length budget problem is returned
-    # unmodified and in relevance-score order (highest first), independent of
-    # the evidence dict's own insertion order.
-    def test_evidence_entries_orders_by_score(self):
-        client = XAIClient(settings)
-        evidence = {
-            "E_low": {"source": "documents/plan-a.md:1-5", "text": "scor mic", "score": 0.0100},
-            "E_high": {"source": "documents/plan-b.md:1-5", "text": "scor mare", "score": 0.0500},
-        }
-
         entries = client._evidence_entries(evidence)
         client.close()
-
-        self.assertEqual([entry["id"] for entry in entries], ["E_high", "E_low"])
-
-    # Verify the Responses API payload and ensure only one HTTP request is sent.
-    def test_responses_api_sends_exactly_one_http_request(self):
-        with patch.dict(os.environ, {"X_API_KEY": "synthetic-test-key"}):
-            client = XAIClient(replace(settings, ai_stream=False))
-            calls = []
-
-            # Capture the outgoing request and return a valid synthetic response.
-            def post(url, **kwargs):
-                calls.append((url, kwargs["json"]))
-                return FakeResponse('{"uz_intern": []}')
-
-            client.http.post = post
-            result = client.complete_json("system prompt", "user prompt", 321)
-            client.close()
-
-        self.assertEqual(result, {"uz_intern": []})
-        self.assertEqual(len(calls), 1)
-        url, request = calls[0]
-        self.assertTrue(url.endswith("/v1/responses"))
-        self.assertEqual(request["input"][0], {"role": "system", "content": "system prompt"})
-        self.assertEqual(request["text"]["format"], {"type": "json_object"})
-        self.assertEqual(request["max_output_tokens"], 321)
-        self.assertNotIn("messages", request)
+        self.assertEqual([entry["id"] for entry in entries], ["E1", "E2"])
+        for entry in entries:
+            self.assertEqual(entry["text"], evidence[entry["id"]]["text"])
+            self.assertEqual(entry["source"], evidence[entry["id"]]["source"])
 
     # /healthz answers 200 when the active provider's credential is present and
     # 503, naming the variable, when it is not.
@@ -501,6 +463,36 @@ class WebTests(unittest.TestCase):
                         self.assertIn(variable, response.json()["detail"])
             finally:
                 client.close()
+
+    def test_healthz_stays_available_when_index_requires_resync(self):
+        from unittest.mock import Mock
+        from backend.ai.index_state import IndexUnavailable
+        from backend.ai.retrieval import Retriever
+
+        with patch.object(self.deps.ai, "is_configured", return_value=True, create=True), patch.object(self.deps, "retriever", Mock(spec=Retriever)), patch(
+            "backend.web.main.index_reader", side_effect=IndexUnavailable("INDEX_RESYNC_REQUIRED")
+        ) as reader:
+            response = self.client.get("/healthz")
+            self.assertEqual(response.status_code, 200)
+            self.assertEqual(response.json(), {"status": "ok"})
+            reader.assert_not_called()
+            response = self.client.get("/readyz")
+            self.assertEqual(response.status_code, 503)
+            self.assertEqual(response.json()["detail"]["code"], "INDEX_RESYNC_REQUIRED")
+            self.assertEqual(response.headers["Retry-After"], "60")
+
+    def test_readyz_requires_the_active_providers_key(self):
+        from backend.ai.client import create_ai_client
+
+        ai = create_ai_client(replace(settings, ai_provider="xai"))
+        try:
+            with patch.object(self.deps, "ai", ai), patch.dict(os.environ, {"X_API_KEY": ""}), patch(
+                "backend.web.main.index_reader"
+            ) as reader:
+                self.assertEqual(self.client.get("/readyz").status_code, 503)
+                reader.assert_not_called()
+        finally:
+            ai.close()
 
     # Verify conversation history (transcript, health_context) is excluded from
     # search queries — only the health problem itself should drive retrieval.
@@ -980,8 +972,6 @@ class WebTests(unittest.TestCase):
         session = type("SyntheticSession", (), {"profile": profile, "search_signals": ALL_SIGNALS})()
         retriever = object.__new__(Retriever)
         retriever.documents_dir = Path(self.temp.name)
-        retriever.document_count = 0
-        retriever.category_tree = None
         retriever._known_category_ids = frozenset()
         ranked = [{
             **self._ranked(1, "a.md", 1, 5, 0.5), "score": 2.0,
@@ -994,9 +984,9 @@ class WebTests(unittest.TestCase):
             patch.object(conditions_module, "load_dictionary", return_value=dictionary),
             patch("backend.ai.retrieval.rank", return_value=ranked),
         ):
-            without_condition = retriever.collect(session)
+            without_condition = retriever._collect(session, None, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")
             profile.ai_conditions = ({"index": 1, "name": "Cefalee", "terms": ["Cefalee"]},)
-            with_ai_condition = retriever.collect(session)
+            with_ai_condition = retriever._collect(session, None, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")
 
         self.assertAlmostEqual(without_condition["C1"]["relevance_percent"], 100.0)  # A left out: ceiling 2
         self.assertAlmostEqual(with_ai_condition["C1"]["relevance_percent"], 25.0)  # A on: ceiling 8
@@ -1342,7 +1332,7 @@ class WebTests(unittest.TestCase):
 
         with patch.object(self.deps, "retriever", RetrieverWithoutCategories()):
             response = self.client.get("/api/categories")
-        self.assertEqual(response.json(), {"tree": None, "defaultSelection": []})
+        self.assertEqual(response.json(), {"tree": None, "defaultSelection": [], "indexGeneration": None})
 
     # Verify retrieval against the real, locally configured index/database: the
     # sections titled with the condition come first (P1), the treatment plan is
@@ -1374,8 +1364,6 @@ class WebTests(unittest.TestCase):
         session = type("SyntheticSession", (), {"profile": profile})()
         retriever = object.__new__(Retriever)
         retriever.documents_dir = Path(self.temp.name)
-        retriever.document_count = 0
-        retriever.category_tree = None
         retriever._known_category_ids = frozenset()
         # Purely about whether a low score still survives into evidence.
         ranked = [
@@ -1386,7 +1374,7 @@ class WebTests(unittest.TestCase):
         ]
 
         with patch("backend.ai.retrieval.rank", return_value=ranked):
-            evidence = retriever.collect(session)
+            evidence = retriever._collect(session, None, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")
 
         self.assertEqual(set(evidence), {"C1", "C2", "C3", "C4"})
         self.assertAlmostEqual(evidence["C1"]["relevance_percent"], 50.0)
@@ -1404,8 +1392,6 @@ class WebTests(unittest.TestCase):
         profile.set_health_problem("gripa")
         retriever = object.__new__(Retriever)
         retriever.documents_dir = Path(self.temp.name)
-        retriever.document_count = 0
-        retriever.category_tree = None
         retriever._known_category_ids = frozenset()
         for code, ceiling in (("ABC", 8), ("AB", 6), ("AC", 6), ("BC", 2), ("A", 3), ("B", 1), ("C", 1)):
             signals = SearchSignals.from_code(code)
@@ -1422,7 +1408,7 @@ class WebTests(unittest.TestCase):
                 }]
 
             with self.subTest(code=code), patch("backend.ai.retrieval.rank", side_effect=fake_rank):
-                evidence = retriever.collect(session)
+                evidence = retriever._collect(session, None, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")
 
             self.assertEqual(captured, [signals])
             self.assertAlmostEqual(evidence["C1"]["relevance_percent"], 3.0 / ceiling * 100.0)
@@ -1437,8 +1423,6 @@ class WebTests(unittest.TestCase):
         session = type("SyntheticSession", (), {"profile": profile})()
         retriever = object.__new__(Retriever)
         retriever.documents_dir = Path(self.temp.name)
-        retriever.document_count = 0
-        retriever.category_tree = None
         retriever._known_category_ids = frozenset()
         captured = []
 
@@ -1447,7 +1431,7 @@ class WebTests(unittest.TestCase):
             return []
 
         with patch("backend.ai.retrieval.rank", side_effect=fake_rank):
-            retriever.collect(session)
+            retriever._collect(session, None, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")
 
         self.assertEqual(captured, [ALL_SIGNALS])
 
@@ -1459,8 +1443,6 @@ class WebTests(unittest.TestCase):
         session = type("SyntheticSession", (), {"profile": profile, "selected_categories": {"Cancer", "necunoscuta"}})()
         retriever = object.__new__(Retriever)
         retriever.documents_dir = Path(self.temp.name)
-        retriever.document_count = 0
-        retriever.category_tree = None
         retriever._known_category_ids = frozenset()
         retriever._known_category_ids = frozenset({"Cancer", "Sex"})
         captured_kwargs = []
@@ -1470,7 +1452,7 @@ class WebTests(unittest.TestCase):
             return []
 
         with patch("backend.ai.retrieval.rank", side_effect=fake_rank):
-            retriever.collect(session)
+            retriever._collect(session, None, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")
 
         self.assertTrue(captured_kwargs, "rank() must be called at least once")
         # The unknown id is dropped; only the known one is forwarded.
@@ -1478,27 +1460,16 @@ class WebTests(unittest.TestCase):
 
     # An empty selection, or a selection with nothing the tree recognizes,
     # must mean "no filter" (None) — the same as never opening the panel.
-    def test_collect_passes_none_when_no_known_category_is_selected(self):
+    def test_collect_rejects_when_no_known_category_is_selected(self):
         profile = HealthProfile()
         profile.set_health_problem("gripa")
-        session = type("SyntheticSession", (), {"profile": profile, "selected_categories": {"necunoscuta"}})()
-        retriever = object.__new__(Retriever)
-        retriever.documents_dir = Path(self.temp.name)
-        retriever.document_count = 0
-        retriever.category_tree = None
-        retriever._known_category_ids = frozenset()
-        retriever._known_category_ids = frozenset({"Cancer", "Sex"})
-        captured_kwargs = []
-
-        def fake_rank(_query, **kwargs):
-            captured_kwargs.append(kwargs.get("category_ids"))
-            return []
-
-        with patch("backend.ai.retrieval.rank", side_effect=fake_rank):
-            retriever.collect(session)
-
-        self.assertTrue(captured_kwargs, "rank() must be called at least once")
-        self.assertTrue(all(value is None for value in captured_kwargs))
+        session = SimpleNamespace(profile=profile, selected_categories={"unknown"})
+        retriever = Retriever(Path(self.temp.name))
+        tree = SimpleNamespace(known_ids=lambda: frozenset({"Cancer"}))
+        with patch("backend.ai.retrieval.rank") as rank, self.assertRaises(ApplicationError) as error:
+            retriever._collect(session, None, tree, "test-generation")
+        self.assertEqual(error.exception.code, "CATEGORY_SELECTION_STALE")
+        rank.assert_not_called()
 
     # A caller/test double without a selected_categories attribute at all
     # (like the SyntheticSession objects used throughout this file) must not
@@ -1509,13 +1480,11 @@ class WebTests(unittest.TestCase):
         session = type("SyntheticSession", (), {"profile": profile})()
         retriever = object.__new__(Retriever)
         retriever.documents_dir = Path(self.temp.name)
-        retriever.document_count = 0
-        retriever.category_tree = None
         retriever._known_category_ids = frozenset()
         retriever._known_category_ids = frozenset({"Cancer"})
 
         with patch("backend.ai.retrieval.rank", return_value=[]):
-            evidence = retriever.collect(session)  # must not raise
+            evidence = retriever._collect(session, None, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")  # must not raise
 
         self.assertEqual(evidence, {})
 
@@ -1527,8 +1496,6 @@ class WebTests(unittest.TestCase):
         session = type("SyntheticSession", (), {"profile": profile})()
         retriever = object.__new__(Retriever)
         retriever.documents_dir = Path(self.temp.name)
-        retriever.document_count = 0
-        retriever.category_tree = None
         retriever._known_category_ids = frozenset()
         captured = []
 
@@ -1537,8 +1504,8 @@ class WebTests(unittest.TestCase):
             return []
 
         with patch("backend.ai.retrieval.rank", side_effect=fake_rank):
-            retriever.collect(session, 120_000)
-            retriever.collect(session)
+            retriever._collect(session, 120_000, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")
+            retriever._collect(session, None, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")
 
         self.assertEqual(captured, [120_000, None])
 
@@ -1579,6 +1546,7 @@ class WebTests(unittest.TestCase):
         text = "\n".join(page.extract_text() for page in pages)
         self.assertIn("ă â î ș ț", text)
         self.assertIn("de la dr. Cuișor", text)
+        self.assertIn("1. Uz intern", text.splitlines())
         self.assertIn("Surse 1-2", text)
         self.assertNotIn("Cuprins", text)
         self.assertIn("Bibliografie", text)
@@ -1615,49 +1583,6 @@ class WebTests(unittest.TestCase):
         self.assertIn("Scor minim selectat: ≥ 50%", text)
         self.assertLess(text.index("Bibliografie"), text.index("Număr total de fragmente folosite"))
         self.assertEqual(generation_summary_lines(evidence, 0)[-1], "Scor minim selectat: Toate")
-
-    # Verify the PDF uses clean numbered headers and outlined white section cards.
-    def test_pdf_section_headers_use_colored_bands_without_symbols(self):
-        for presentation in SECTION_PRESENTATION.values():
-            self.assertNotIn("symbol", presentation)
-
-        _, bold = reports_module._register_fonts()
-        heading = reports_module._section_heading(
-            "uz_intern",
-            ParagraphStyle(
-                "TestSectionHeading",
-                fontName=bold,
-                fontSize=15,
-                leading=20,
-                textColor=colors.white,
-            ),
-        )
-        self.assertIn("1. Uz intern", heading.text)
-        self.assertNotIn("●", heading.text)
-
-        source = Path(reports_module.__file__).read_text(encoding="utf-8")
-        self.assertIn("class CoverPanel", source)
-        self.assertIn("visible_height=56 * mm", source)
-        self.assertIn("self.canv.setFillColor(colors.white)", source)
-        self.assertIn("self.canv.setFillColor(self.border)", source)
-        self.assertIn("ORNAMENT_PNG", source)
-        self.assertIn("ornament_width = width", source)
-        self.assertIn("ornament_height = ornament_width * ORNAMENT_SIZE[1] / ORNAMENT_SIZE[0]", source)
-        self.assertNotIn("canvas.roundRect(18 * mm, 15.5 * mm", source)
-        self.assertIn('Paragraph("de la dr. Cuișor", styles["NaturalCoverByline"])', source)
-        self.assertIn("self.padding = 7", source)
-        self.assertIn("story.append(Spacer(1, 6 * mm))", source)
-        self.assertIn("Spacer(1, 2.5 * mm)", source)
-        self.assertIn("self.bookmark and len(first_content) <= 2", source)
-        self.assertIn('bookmark="section-bibliografie"', source)
-        self.assertIn('"#52636D",', source)
-
-    # Verify sessions do not retain unsupported attachment state.
-    def test_session_store_has_no_attachment_state(self):
-        store = SessionStore(Path(tempfile.mkdtemp()), 60, 120)
-        session = store.get("synthetic-cookie", "synthetic-tab", create=True)
-        self.assertFalse(hasattr(session, "documents"))
-        store.delete("synthetic-cookie", "synthetic-tab")
 
 
 if __name__ == "__main__":

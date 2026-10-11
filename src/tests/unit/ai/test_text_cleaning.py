@@ -47,6 +47,16 @@ class CleanTextTests(unittest.TestCase):
         self.assertNotIn("Q ", cleaned)
         self.assertIn("Următorul rând netușat.", cleaned)
 
+    def test_ocr_bullet_does_not_bypass_medical_content_guards(self):
+        for text in (
+            "Q Vezi si administrarea a 500 mg pe zi.\n",
+            "Q Vezi si capitolul urmator. Nu se administreaza in sarcina.\n",
+            "Se administreaza 500 mg. Q Vezi si capitolul urmator.\n",
+            "Tratament Vezi si capitolul urmator.\n",
+        ):
+            with self.subTest(text=text):
+                self.assertEqual(clean_text(text), text)
+
     def test_never_changes_the_number_of_lines(self):
         text = (
             "Prima linie [etichetă](http://x.ro) rămâne.\n"

@@ -120,26 +120,18 @@ def _embedding_dimension(connection: Connection) -> int | None:
 # vector has actually run. This must complete before the pool ever opens
 # its first connection.
 #
-# `dimension` is the vector width the caller is about to write. When the
-# existing `embedding` column has another width (a model change), the column is
-# recreated and every indexed document is dropped, in one transaction: vectors
-# of two widths (or two models) cannot share an index, and the index is fully
-# rebuildable from the source documents. Only the index build passes it; the web
-# schema is prepared explicitly by migration/build CLI commands.
+# Explicit schema preparation only. A width change must be published by the
+# index synchronizer together with documents and metadata, never by migration.
 def ensure_schema(dimension: int | None = None) -> None:
     width = int(dimension or DEFAULT_DIMENSION)
+    from backend.ai.index_state import INDEX_LOCK
     with psycopg.connect(settings.database_url) as connection:
+        connection.execute("SELECT pg_advisory_xact_lock(%s)", (INDEX_LOCK,))
         connection.execute(SCHEMA_SQL.replace("__DIMENSION__", str(width)))
         if dimension is not None:
             current = _embedding_dimension(connection)
             if current != width:
-                # DELETE first so the new column can be NOT NULL: it cannot be
-                # added as such to a table that still has rows.
-                connection.execute("DELETE FROM documents")
-                connection.execute("DELETE FROM sync_metadata")
-                connection.execute("ALTER TABLE chunks DROP COLUMN embedding")
-                connection.execute(f"ALTER TABLE chunks ADD COLUMN embedding vector({width})")
-                connection.execute("ALTER TABLE chunks ALTER COLUMN embedding SET NOT NULL")
+                raise RuntimeError("INDEX_DIMENSION_CHANGE_REQUIRES_SYNC")
         connection.commit()
 
 

@@ -8,6 +8,7 @@ from pathlib import Path
 import psycopg
 
 from backend.config import Settings
+from backend.ai.index_state import INDEX_LOCK
 
 MIGRATIONS = Path(__file__).resolve().parents[1] / "backend" / "migrations"
 
@@ -16,6 +17,7 @@ def migrate(database_url: str) -> list[str]:
     applied = []
     with psycopg.connect(database_url, connect_timeout=5) as conn:
         conn.execute("SELECT pg_advisory_xact_lock(%s)", (7310192026,))
+        conn.execute("SELECT pg_advisory_xact_lock(%s)", (INDEX_LOCK,))
         conn.execute(
             "CREATE TABLE IF NOT EXISTS schema_migrations (version TEXT PRIMARY KEY, applied_at TIMESTAMPTZ NOT NULL DEFAULT CURRENT_TIMESTAMP)"
         )

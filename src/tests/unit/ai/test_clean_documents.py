@@ -7,6 +7,7 @@ import unittest
 from unittest import mock
 from contextlib import redirect_stdout
 from pathlib import Path
+from contextlib import ExitStack
 
 from scripts import clean_documents
 from scripts.clean_documents import (
@@ -17,9 +18,26 @@ from scripts.clean_documents import (
     fold_diacritics,
     strip_colophon_lines,
     strip_furniture_sections,
-    strip_page_number_lines,
     strip_repeated_lines,
 )
+
+
+def setUpModule():
+    # Keep compaction unit tests independent of the bundled word list and keep
+    # their reports outside the workspace. The spelling suite tests real CLI use.
+    global _module_resources
+    _module_resources = ExitStack()
+    root = Path(_module_resources.enter_context(tempfile.TemporaryDirectory()))
+    dictionary = root / "dictionary"
+    dictionary.mkdir()
+    (dictionary / "ro_RO.dic").write_text("0\n", encoding="utf-8")
+    (dictionary / "ro_RO.aff").write_text("SET UTF-8\n", encoding="utf-8")
+    _module_resources.enter_context(mock.patch.object(clean_documents, "HUNSPELL_DIR", dictionary))
+    _module_resources.enter_context(mock.patch.object(clean_documents, "DEFAULT_SPELLING_REPORT", root / "report.tsv"))
+
+
+def tearDownModule():
+    _module_resources.close()
 
 
 class CleanDocumentsTests(unittest.TestCase):
@@ -46,15 +64,6 @@ class CleanDocumentsTests(unittest.TestCase):
         self.assertEqual(changed, 1)
         # The diacritics are folded as well: folding is on by default.
         self.assertEqual(path.read_text(encoding="utf-8"), "Planta sunatoare ajuta la ficat.\n")
-
-    def test_leaves_an_already_compact_file_untouched(self):
-        path = self.write("a.md", "Text simplu, fara linkuri sau trimiteri.\n")
-        original_mtime = path.stat().st_mtime_ns
-
-        changed = self.clean()
-
-        self.assertEqual(changed, 0)
-        self.assertEqual(path.stat().st_mtime_ns, original_mtime)
 
     def test_dry_run_reports_but_does_not_write(self):
         path = self.write("a.md", "Vezi și Altă afecțiune, Partea a doua.\nText rămas.\n")
@@ -274,37 +283,69 @@ class RepeatedLineTests(unittest.TestCase):
         self.assertEqual(removed, [])
 
 
+class CrossReferenceTests(unittest.TestCase):
+    def test_keeps_inline_references_and_the_complete_medical_sentence(self):
+        for text in (
+            "Se administreaza 500 mg. Vezi si capitolul urmator.\n",
+            "Se administreaza 500 mg; vezi și capitolul urmator.\n",
+            "Nu se administreaza in sarcina. Vezi si contraindicatiile.\n",
+            "Vezi si capitolul urmator. Se administreaza 500 mg.\n",
+            "Vezi si capitolul urmator. Nu se administreaza in sarcina.\n",
+        ):
+            with self.subTest(text=text):
+                self.assertEqual(clean_documents.clean_text(text), text)
+
+    def test_keeps_recognized_dosages_even_when_the_line_starts_with_a_reference(self):
+        for text in (
+            "Vezi si administrarea a 500 mg pe zi.\n",
+            "Vezi si dilutia de 10 ml.\n",
+            "Vezi si administrarea a 3 lingurite.\n",
+        ):
+            with self.subTest(text=text):
+                self.assertEqual(clean_documents.clean_text(text), text)
+
+    def test_removes_only_standalone_reference_lines_without_consuming_newlines(self):
+        text = "Text medical.\n  Vezi și Altă afecțiune, Partea a doua.\n\nText final.\n"
+        cleaned = clean_documents.clean_text(text)
+        self.assertEqual(cleaned, "Text medical.\n\n\nText final.\n")
+        self.assertEqual(cleaned.count("\n"), text.count("\n"))
+
+
 class PageNumberLineTests(unittest.TestCase):
-    def test_removes_lines_holding_only_a_page_number(self):
-        lines = ["Text.", "12", "pagina 7", "- 41 -", "iv", "Text 2."]
+    def test_keeps_lines_holding_only_a_page_number(self):
+        lines = ["Text.", "12", "pagina 12", "pag. 12", "- 12 -", "iv", "XXXIX", "Text 2."]
 
-        kept, removed = strip_page_number_lines(lines)
+        text = "\n".join(lines) + "\n"
+        cleaned, removed = compact_document(text)
 
-        self.assertEqual(kept, ["Text.", "Text 2."])
-        self.assertEqual(len(removed), 4)
+        self.assertEqual(cleaned, text)
+        self.assertEqual(removed, [])
 
-    def test_removes_the_english_page_label_extractors_leave_behind(self):
+    def test_keeps_the_english_page_label_extractors_leave_behind(self):
         lines = ["Text.", "Page 104", "Page 104 of 350", "Page: 12", "PAGE 7", "Text 2."]
 
-        kept, removed = strip_page_number_lines(lines)
+        text = "\n".join(lines) + "\n"
+        cleaned, removed = compact_document(text)
 
-        self.assertEqual(kept, ["Text.", "Text 2."])
-        self.assertEqual(len(removed), 4)
+        self.assertEqual(cleaned, text)
+        self.assertEqual(removed, [])
 
-    def test_removes_roman_page_numbers_but_not_words_spelled_with_them(self):
+    def test_keeps_roman_page_numbers_and_words_spelled_with_them(self):
         lines = ["Text.", "Page iv", "page viii.", "xii", "civil", "Mix", "Text 2."]
 
-        kept, removed = strip_page_number_lines(lines)
+        text = "\n".join(lines) + "\n"
+        cleaned, removed = compact_document(text)
 
-        self.assertEqual(kept, ["Text.", "civil", "Mix", "Text 2."])
-        self.assertEqual(len(removed), 3)
+        self.assertEqual(cleaned, text)
+        self.assertEqual(removed, [])
 
     def test_keeps_a_sentence_that_merely_mentions_a_page(self):
         lines = ["Page 104 describes the dosage of echinacea.", "See page 12 for details."]
 
-        kept, removed = strip_page_number_lines(lines)
+        text = "\n".join(lines) + "\n"
+        cleaned, removed = compact_document(text)
 
-        self.assertEqual(kept, lines)
+        self.assertEqual(cleaned, text)
         self.assertEqual(removed, [])
 
 
@@ -388,9 +429,7 @@ class DiacriticsTests(unittest.TestCase):
 
 
 class CommandLineTests(unittest.TestCase):
-    # The switch must default to the module constant. When --fold-diacritics was
-    # a plain store_true, running the script defaulted to False and silently
-    # overrode FOLD_DIACRITICS_BY_DEFAULT.
+    # Folding defaults to the module constant; only its opt-out is exposed.
     def parse(self, *argv):
         with mock.patch.object(sys, "argv", ["clean_documents.py", *argv]):
             return clean_documents.parse_args()
@@ -403,8 +442,11 @@ class CommandLineTests(unittest.TestCase):
     def test_no_fold_diacritics_switches_folding_off(self):
         self.assertFalse(self.parse("--no-fold-diacritics").fold_diacritics)
 
-    def test_fold_diacritics_switches_folding_on(self):
-        self.assertTrue(self.parse("--fold-diacritics").fold_diacritics)
+    def test_removed_fold_diacritics_flag_is_rejected(self):
+        with mock.patch.object(sys, "stderr", io.StringIO()):
+            with self.assertRaises(SystemExit) as raised:
+                self.parse("--fold-diacritics")
+        self.assertEqual(raised.exception.code, 2)
 
 
 class ContactDetailTests(unittest.TestCase):
@@ -565,6 +607,24 @@ class CompactionPipelineTests(unittest.TestCase):
         cleaned = path.read_text(encoding="utf-8")
         for heading in headings:
             self.assertIn(heading, cleaned)
+
+    def test_keeps_multiline_dose_and_plain_page_lines_when_rewriting(self):
+        retained = (
+            "Doza recomandata:\n500\nmg pe zi.\n"
+            "12\n- 12 -\npagina 12\npag. 12\n"
+            "Page 104\nPage 104 of 350\nPage iv\nXXXIX\n"
+        )
+        path = self.write("a.md", "### Pagina 8\n<!-- Pagina PDF 8 -->\n" + retained)
+
+        self.assertEqual(self.clean(), 1)
+        self.assertEqual(path.read_text(encoding="utf-8"), retained)
+
+    def test_keeps_inline_reference_and_dose_when_rewriting(self):
+        retained = "Se administreaza 500 mg. Vezi si capitolul urmator.\n"
+        path = self.write("a.md", "### Pagina 8\n" + retained)
+
+        self.assertEqual(self.clean(), 1)
+        self.assertEqual(path.read_text(encoding="utf-8"), retained)
 
     def test_prints_the_compaction_summary_without_any_flag(self):
         self.write("a.md", "# Carte\n\nCoada și măna ajută ficatul.\nVezi și Altă afecțiune.\n")

@@ -11,23 +11,24 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 import subprocess
 import sys
 import threading
 import time
 import unicodedata
+import uuid
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Callable, Iterator, Sequence
 
 import numpy as np
-from psycopg.rows import namedtuple_row
 
 from backend.ai.categories import ROOT_CATEGORY_ID
-from backend.ai.conditions import load_dictionary
-from backend.ai.db import ensure_schema, get_pool
+from backend.ai.db import _embedding_dimension
+from backend.ai.index_state import (index_writer, dictionary_snapshot, passage_profile, TEXT_REPR_VERSION)
 from backend.ai.embedding_model import (
     DEFAULT_MODEL,
     EmbeddingProfile,
@@ -46,7 +47,7 @@ BATCH_SIZE = 8
 # changes (e.g. the cleaning rules below), so build() forces a full resync
 # even though every source file's own SHA-256 is unchanged. See build()'s use
 # of TEXT_REPR_VERSION against sync_metadata.
-TEXT_REPR_VERSION = "10"
+
 
 class GPUUsageMonitor:
     """Read GPU 0's GPU-Util column without blocking the embedding loop."""
@@ -323,11 +324,7 @@ def _text_search_input(chunk: Chunk) -> str:
     return f"{chunk.text} {chunk.heading} {chunk.source_relative_path}"
 
 
-# Replace a document's chunks and upsert its row. Called with a connection
-# freshly acquired from the pool for this one document (see build()), so the
-# pool's own commit-on-exit/rollback-on-exception makes this a single
-# transaction — a reader never sees a document with only some of its new
-# chunks written, and one document's write never rolls back another's.
+# Replace one document inside the caller-owned publication transaction.
 def _write_document(connection, source: SourceFile, chunks: Sequence[Chunk], embeddings: np.ndarray) -> None:
     # category_id is not written here: it's a GENERATED column in Postgres,
     # always derived from relative_path/source_relative_path (see db.py's
@@ -375,10 +372,11 @@ def _write_document(connection, source: SourceFile, chunks: Sequence[Chunk], emb
 
 # Sync medicina-naturista-documente/data/documents into Postgres: unchanged files (same SHA-256 already
 # stored) are skipped entirely; new/changed files are re-chunked, re-embedded,
-# and written in one transaction each; files removed from source are deleted.
+# and published together in one transaction; files removed from source are deleted.
 def build(source: Path, model_name: str, batch_size: int = BATCH_SIZE) -> None:
     with GPUUsageMonitor() as monitor:
-        _build(source, model_name, batch_size, gpu_usage=monitor.percent)
+        with index_writer() as connection:
+            _build(source, model_name, batch_size, gpu_usage=monitor.percent, connection=connection)
 
 
 def _build(
@@ -387,68 +385,47 @@ def _build(
     batch_size: int,
     *,
     gpu_usage: Callable[[], str],
+    connection,
 ) -> None:
+    if batch_size <= 0:
+        raise ValueError("INVALID_BATCH_SIZE")
     source = source.resolve()
     if not source.is_dir():
         raise FileNotFoundError(f"Source directory does not exist: {source}")
 
     profile = get_profile(model_name)
-    ensure_schema(profile.dimension)
     settings.model_cache_dir.mkdir(parents=True, exist_ok=True)
-    pool = get_pool()
+    fingerprint, dictionary = dictionary_snapshot()
+
+    def traversal_error(error):
+        raise error
 
     paths = sorted(
-        (path for path in source.rglob("*.md") if path.is_file()),
+        (Path(root, name) for root, _directories, names in os.walk(source, onerror=traversal_error)
+         for name in names if name.casefold().endswith(".md")),
         key=lambda item: item.relative_to(source).as_posix().casefold(),
     )
     if not paths:
         raise RuntimeError(f"No Markdown files found in {source}")
 
-    with pool.connection() as connection:
-        with connection.cursor(row_factory=namedtuple_row) as cursor:
-            existing = {
-                row.relative_path: row.sha256
-                for row in cursor.execute("SELECT relative_path, sha256 FROM documents").fetchall()
-            }
-            stored_version_row = cursor.execute(
-                "SELECT value FROM sync_metadata WHERE key = 'text_repr_version'"
-            ).fetchone()
-            stored_model_row = cursor.execute(
-                "SELECT value FROM sync_metadata WHERE key = 'model_name'"
-            ).fetchone()
-
-    # A document's own SHA-256 only tells us the *source file* hasn't changed,
-    # not that the text representation derived from it (chunking/cleaning
-    # rules) is still current. When TEXT_REPR_VERSION has moved on, every
-    # document must be treated as new so it gets re-chunked, re-cleaned, and
-    # re-embedded under the current rules, even though none of them were
-    # touched on disk.
-    stored_version = stored_version_row[0] if stored_version_row else None
-    # Remembered before a forced resync empties `existing`, so documents removed
-    # from the source are still deleted in that same run.
+    existing = dict(connection.execute("SELECT relative_path, sha256 FROM documents").fetchall())
+    stored = dict(connection.execute("SELECT key, value FROM sync_metadata").fetchall())
     stored_paths = set(existing)
-    if stored_version != TEXT_REPR_VERSION:
-        if stored_version is not None:
-            print(
-                f"Text representation changed ({stored_version} -> {TEXT_REPR_VERSION}); "
-                "forcing a full resync",
-                flush=True,
-            )
+    expected = {
+        "model_name": model_name, "model_dimension": str(profile.dimension),
+        "dictionary_fingerprint": fingerprint, "passage_profile": passage_profile(profile),
+        "text_repr_version": TEXT_REPR_VERSION,
+    }
+    if (_embedding_dimension(connection) != profile.dimension
+            or any(stored.get(key) != value for key, value in expected.items())):
         existing = {}
 
-    # Likewise for the model: vectors of two models live in different spaces and
-    # must never share an index, so a model change re-embeds every document.
-    stored_model = stored_model_row[0] if stored_model_row else None
-    if stored_model is not None and stored_model != model_name:
-        print(f"Embedding model changed ({stored_model} -> {model_name}); forcing a full resync", flush=True)
-        existing = {}
-
-    dictionary = load_dictionary()
     warnings: list[str] = []
     skipped = 0
     pending: list[tuple[SourceFile, list[Fragment]]] = []
     all_new_chunks: list[Chunk] = []
     initial_stats: dict[str, tuple[int, int]] = {}
+    source_hashes: dict[str, str] = {}
 
     def report_progress(index: int) -> None:
         if index % 50 == 0 or index == len(paths):
@@ -460,6 +437,7 @@ def _build(
         if category_id == ".":
             category_id = ROOT_CATEGORY_ID
         file_hash = sha256_file(path)
+        source_hashes[relative] = file_hash
         if existing.get(relative) == file_hash:
             skipped += 1
             report_progress(index)
@@ -527,34 +505,37 @@ def _build(
         if changed_during_sync:
             raise RuntimeError("Source files changed during sync: " + ", ".join(changed_during_sync[:10]))
 
-    offset = 0
-    for source_file, document_chunks in pending:
-        count = len(document_chunks)
-        chunk_slice = all_new_chunks[offset:offset + count]
-        embedding_slice = embeddings[offset:offset + count]
-        offset += count
-        with pool.connection() as connection:
-            _write_document(connection, source_file, chunk_slice, embedding_slice)
-
+    if embeddings.shape != (len(all_new_chunks), profile.dimension) or not np.isfinite(embeddings).all():
+        raise RuntimeError("INVALID_EMBEDDINGS")
+    if all_new_chunks and np.any(np.linalg.norm(embeddings, axis=1) == 0):
+        raise RuntimeError("INVALID_EMBEDDINGS")
+    for relative, digest in source_hashes.items():
+        if sha256_file(source / relative) != digest:
+            raise RuntimeError("CORPUS_CHANGED_DURING_BUILD")
     current_relative_paths = {path.relative_to(source).as_posix() for path in paths}
     removed = sorted(stored_paths - current_relative_paths)
-    if removed:
-        with pool.connection() as connection:
+    # Recheck the actual bytes; timestamps alone can miss dictionary replacement.
+    if dictionary_snapshot()[0] != fingerprint:
+        raise RuntimeError("DICTIONARY_CHANGED_DURING_BUILD")
+    with connection.transaction():
+        if _embedding_dimension(connection) != profile.dimension:
+            connection.execute("DELETE FROM documents")
+            connection.execute("ALTER TABLE chunks DROP COLUMN embedding")
+            connection.execute(f"ALTER TABLE chunks ADD COLUMN embedding vector({profile.dimension}) NOT NULL")
+        offset = 0
+        for source_file, document_chunks in pending:
+            count = len(document_chunks)
+            _write_document(connection, source_file, all_new_chunks[offset:offset + count], embeddings[offset:offset + count])
+            offset += count
+        if removed:
             connection.execute("DELETE FROM documents WHERE relative_path = ANY(%s)", (removed,))
-            connection.commit()
-
-    with pool.connection() as connection:
-        connection.execute(
-            """
-            INSERT INTO sync_metadata (key, value) VALUES (%s, %s), (%s, %s), (%s, %s), (%s, %s)
-            ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value
-            """,
-            (
-                "model_name", model_name, "model_dimension", str(profile.dimension),
-                "last_synced_utc", utc_now(), "text_repr_version", TEXT_REPR_VERSION,
-            ),
-        )
-        connection.commit()
+        if dictionary_snapshot()[0] != fingerprint:
+            raise RuntimeError("DICTIONARY_CHANGED_DURING_BUILD")
+        metadata = {**expected, "last_synced_utc": utc_now(), "index_generation": str(uuid.uuid4())}
+        for key, value in metadata.items():
+            connection.execute(
+                "INSERT INTO sync_metadata (key, value) VALUES (%s, %s) "
+                "ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value", (key, value))
 
     print(json.dumps({
         "status": "ok",
@@ -582,5 +563,5 @@ if __name__ == "__main__":
     try:
         build(arguments.source, arguments.model)
     except Exception as exc:
-        print(f"ERROR: {type(exc).__name__}: {exc}", file=sys.stderr, flush=True)
-        raise
+        print(json.dumps({"status": "error", "code": "INDEX_SYNC_FAILED", "type": type(exc).__name__}), file=sys.stderr, flush=True)
+        sys.exit(1)

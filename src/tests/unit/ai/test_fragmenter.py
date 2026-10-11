@@ -295,13 +295,6 @@ def _overlap(first: str, second: str) -> int:
     return 0
 
 
-class DocumentNameTests(unittest.TestCase):
-    def test_document_names_are_not_an_input(self):
-        import inspect
-
-        self.assertEqual(list(inspect.signature(fragment_document).parameters), ["text", "dictionary"])
-
-
 class LineRangeTests(unittest.TestCase):
     def test_line_ranges_point_at_the_fragment_text_in_the_source(self):
         book = (

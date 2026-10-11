@@ -1,15 +1,25 @@
 import { useQuery } from "@tanstack/react-query";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { api } from "../api/client";
 
 export function useCategories() {
-  const query = useQuery({ queryKey: ["categories"], queryFn: api.getCategories });
+  const query = useQuery({ queryKey: ["categories"], queryFn: api.getCategories, retry: false });
   const [selected, setSelected] = useState<Set<string>>(new Set());
+
+  const seeded = useRef(false);
 
   // Seed the selection with "every known category" the first time the tree
   // loads — matching the panel's own default (every checkbox starts checked).
   useEffect(() => {
-    if (query.data) setSelected(new Set(query.data.defaultSelection));
+    if (query.data) {
+      if (!seeded.current) {
+        seeded.current = true;
+        setSelected(new Set(query.data.defaultSelection));
+      } else {
+        const known = new Set(query.data.defaultSelection);
+        setSelected((previous) => new Set([...previous].filter((id) => known.has(id))));
+      }
+    }
   }, [query.data]);
 
   return {

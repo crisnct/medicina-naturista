@@ -26,7 +26,7 @@ function getTabId(): string {
 }
 
 export class ApiError extends Error {
-  constructor(public status: number, message: string, public code?: string) {
+  constructor(public status: number, message: string, public code?: string, public retryAfter?: number) {
     super(message);
     this.name = "ApiError";
   }
@@ -58,7 +58,7 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
     const body = await response.json().catch(() => null);
     const detail = body?.detail;
     const message = typeof detail === "string" ? detail : detail?.message;
-    throw new ApiError(response.status, message ?? "A apărut o eroare neașteptată. Încercați din nou.", detail?.code);
+    throw new ApiError(response.status, message ?? "A apărut o eroare neașteptată. Încercați din nou.", detail?.code, Number(response.headers.get("Retry-After")) || undefined);
   }
   if (response.status === 204) {
     return undefined as T;
@@ -122,6 +122,7 @@ export function errorMessage(error: unknown, fallback: string): string {
   if (error.status === 413) return "Cererea este prea mare. Reduceți conținutul mesajului.";
   if (error.status === 429) return "Limita de cereri sau operații active a fost atinsă. Încercați mai târziu.";
   if (error.status === 409) return error.message;
+  if (error.code?.startsWith("INDEX_")) return "Indexul este în mentenanță sau necesită resincronizare. Încercați din nou în 60 de secunde.";
   if (error.status === 503) return "Capacitatea aplicației sau autorizarea este temporar indisponibilă. Încercați mai târziu.";
   return error.message;
 }

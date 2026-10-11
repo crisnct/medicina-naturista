@@ -14,7 +14,8 @@ from typing import Sequence
 
 from psycopg.rows import namedtuple_row
 
-from backend.ai.db import get_pool
+from backend.ai.index_state import index_reader
+from backend.core.errors import ApplicationError
 
 # Category id used for files placed directly in the source root, with no
 # containing folder.
@@ -132,9 +133,22 @@ def _tree_from_payload(payload: dict[str, object]) -> CategoryTree:
 # available", never as an error, matching the pre-migration behaviour where an
 # index built before category support existed had no categories.json.
 def load_category_tree() -> CategoryTree | None:
-    with get_pool().connection() as connection:
+    with index_reader() as (connection, _metadata):
         with connection.cursor(row_factory=namedtuple_row) as cursor:
             rows = cursor.execute("SELECT category_id FROM documents").fetchall()
     if not rows:
         return None
     return _tree_from_payload(build_category_tree(rows))
+
+
+def category_selection(requested, tree: CategoryTree | None):
+    """Validate source selection without ever widening an empty/stale filter."""
+    if requested is None:
+        return None, []
+    requested = frozenset(requested)
+    known = tree.known_ids() if tree else frozenset()
+    selected = requested & known
+    removed = sorted(requested - known)
+    if requested and not selected:
+        raise ApplicationError("CATEGORY_SELECTION_STALE", "Sursele selectate nu mai există. Selectați din nou categoriile.", 409)
+    return selected, removed

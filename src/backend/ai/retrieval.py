@@ -2,12 +2,13 @@
 from __future__ import annotations
 
 import logging
+import threading
 from pathlib import Path
 from typing import Any
 
-from backend.ai.categories import CategoryTree, load_category_tree
+from backend.ai.categories import CategoryTree, load_category_tree, category_selection
 from backend.ai.condition_ai import resolved_for
-from backend.ai.db import get_pool
+from backend.ai.index_state import index_reader
 from backend.ai.query_terms import GENERIC_QUERY_WORDS_PATH, meaningful_words as _meaningful_words
 from backend.ai.search import (
     ALL_SIGNALS,
@@ -17,8 +18,9 @@ from backend.ai.search import (
     max_score,
     rank,
 )
-from backend.config import settings
 from backend.core.models import SessionData
+
+__all__ = ["Retriever", "consultation_query", "GENERIC_QUERY_WORDS_PATH", "_meaningful_words"]
 
 logger = logging.getLogger("naturist.retrieval")
 
@@ -34,19 +36,27 @@ class Retriever:
     # Configure retrieval limits and verify that the Postgres index is reachable.
     def __init__(self, documents_dir: Path) -> None:
         self.documents_dir = documents_dir.resolve()
-        with get_pool().connection() as connection:
-            self.document_count = connection.execute("SELECT COUNT(*) FROM documents").fetchone()[0]
-        # None when no document has been synced yet — collect() then never
-        # filters, which is the same as every category being selected.
-        self.category_tree: CategoryTree | None = load_category_tree()
-        self._known_category_ids: frozenset[str] = (
-            self.category_tree.known_ids() if self.category_tree is not None else frozenset()
-        )
-        logger.info(
-            "retriever_initialized document_count=%s category_count=%s",
-            self.document_count,
-            len(self._known_category_ids),
-        )
+        self._snapshot_lock = threading.Lock()
+        self._category_snapshot: tuple[CategoryTree | None, str] | None = None
+        # Categories/count are read in the same generation as each search.
+
+    @property
+    def category_tree(self):
+        return self.categories_snapshot()[0]
+
+    @property
+    def document_count(self):
+        tree, _generation = self.categories_snapshot()
+        return tree.nodes[tree.root_id].total_documents if tree else 0
+
+    def categories_snapshot(self) -> tuple[CategoryTree | None, str]:
+        with index_reader() as (_connection, metadata):
+            with self._snapshot_lock:
+                cached = self._category_snapshot
+                if cached is None or cached[1] != metadata.index_generation:
+                    cached = (load_category_tree(), metadata.index_generation)
+                    self._category_snapshot = cached
+                return cached
 
     # The fragment's text as indexed, prefixed with its heading path.
     @staticmethod
@@ -61,33 +71,26 @@ class Retriever:
     # max_chars is the evidence budget for the active AI provider; None means
     # no budget (rank() returns every fragment).
     def collect(self, session: SessionData, max_chars: int | None = None) -> dict[str, dict[str, Any]]:
+        with index_reader() as (_connection, metadata):
+            tree, _generation = self.categories_snapshot()
+            return self._collect(session, max_chars, tree, metadata.index_generation)
+
+    def _collect(self, session, max_chars, tree, generation):
         profile = session.profile
         query = consultation_query(profile)
         if not query:
             logger.info("retrieval_completed evidence_entries=0 reason=no_query")
-            return {}
-        # session.selected_categories is patient-chosen source folders (see
-        # backend.ai.categories); getattr guards callers/test doubles
-        # that predate this field. Unknown ids (a stale selection from before a
-        # reindex renamed/removed a folder) are dropped rather than rejected.
-        # The panel now defaults to every category checked (main.py's
-        # DEFAULT_CATEGORY_SELECTION and category_filter_panel_html's initial
-        # markup both start fully checked; an empty selection is instead
-        # rejected before collect() is ever called — see on_find_fragments).
-        # Selecting literally every known category is still treated as "no
-        # filter" here (category_ids=None) so the common case — nobody having
-        # touched the panel — takes rank()'s cheaper unfiltered path instead
-        # of a same-result IN(...) query over every category id.
-        requested_categories = getattr(session, "selected_categories", None) or ()
-        category_ids = frozenset(requested_categories) & self._known_category_ids
-        if not category_ids or category_ids == self._known_category_ids:
-            category_ids = None
+            return EvidenceSnapshot(generation, [])
+        # None is explicitly unrestricted; an empty or stale selection never widens.
+        requested = getattr(session, "selected_categories", None)
+        requested_categories = frozenset(requested) if requested is not None else None
+        category_ids, removed = category_selection(requested, tree)
         # The signals the patient switched on for this search (getattr, like
         # selected_categories above); every one is on by default.
         signals = getattr(session, "search_signals", ALL_SIGNALS)
         logger.info(
             "retrieval_started requested_categories=%s applied_categories=%s signals=%s",
-            len(requested_categories),
+            len(requested_categories) if requested_categories is not None else 0,
             len(category_ids) if category_ids else 0,
             signals.code,
         )
@@ -107,7 +110,7 @@ class Retriever:
 
         # Each fragment is one piece of evidence, exactly as indexed (fragments
         # are whole sections, see ai/fragmenter.py), best score first.
-        evidence: dict[str, dict[str, Any]] = {}
+        evidence = EvidenceSnapshot(generation, removed)
         for best in candidates:
             evidence[f"C{best['chunk_id']}"] = {
                 "source": (
@@ -145,3 +148,10 @@ class Retriever:
             len({item["source"].split(":", 1)[0] for item in evidence.values()}),
         )
         return evidence
+
+
+class EvidenceSnapshot(dict):
+    def __init__(self, generation, removed):
+        super().__init__()
+        self.index_generation = generation
+        self.removed_category_ids = removed

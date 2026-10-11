@@ -14,7 +14,7 @@ from backend.ai.providers import ProviderConfig, provider_config
 from backend.config import Settings, settings as default_settings
 
 logger = logging.getLogger("naturist.ai")
-SECTIONS = ("uz_intern", "nutritie", "uz_extern", "alte_recomandari", "atentionari")
+from backend.ai.report_validation import ValidatedReport, validate_report
 GENERATE_REPORT_SYSTEM_PROMPT_PATH = (
     Path(__file__).resolve().parent / "prompts" / "generate_report_system.md"
 )
@@ -171,7 +171,7 @@ class ResponsesClient:
         except httpx.HTTPStatusError as exc:
             response = exc.response
             request_id = response.headers.get("x-request-id") or response.headers.get("request-id") or "-"
-            body = response.text.strip() or "<empty response body>"
+            body = "<redacted>"
             logger.error(
                 "ai_request_failed status=%s duration_ms=%s request_id=%s body=%s",
                 response.status_code,
@@ -187,14 +187,14 @@ class ResponsesClient:
             logger.error(
                 "ai_request_failed error=request duration_ms=%s message=%s",
                 round((time.perf_counter() - started) * 1000),
-                str(exc),
+                type(exc).__name__,
             )
             raise AIUnavailable("Serviciul AI nu este disponibil momentan. Încercați din nou.") from exc
         except ValueError as exc:
             logger.error(
                 "ai_request_failed error=invalid_response duration_ms=%s message=%s",
                 round((time.perf_counter() - started) * 1000),
-                str(exc),
+                type(exc).__name__,
             )
             raise AIUnavailable("Serviciul AI nu este disponibil momentan. Încercați din nou.") from exc
 
@@ -251,12 +251,6 @@ class ResponsesClient:
                 and isinstance(block.get("text"), str)
             ]
             content = "".join(parts)
-            if self.settings.log_ai_response_text:
-                logger.info(
-                    "ai_response_text chars=%s text=%s",
-                    len(content),
-                    content,
-                )
             if not content:
                 raise ValueError("empty content")
             result = _parse_json_object(content)
@@ -269,7 +263,7 @@ class ResponsesClient:
             )
             return result
         except (KeyError, ValueError, TypeError) as exc:
-            logger.error("ai_response_invalid message=%s", str(exc))
+            logger.error("ai_response_invalid type=%s", type(exc).__name__)
             if isinstance(output_tokens, int) and output_tokens >= max_tokens:
                 logger.error(
                     "ai_response_truncated output_tokens=%s max_output_tokens=%s "
@@ -307,107 +301,18 @@ class ResponsesClient:
             max(lengths, default=0),
             self.settings.log_fragment_text,
         )
-        for document in sorted(unique_source_files):
-            logger.info("%s_document source=%s", event, document)
-        for position, entry in enumerate(entries, start=1):
-            text = entry["text"]
-            logged_text = (
-                text[: self.settings.log_fragment_text_max_chars]
-                if self.settings.log_fragment_text
-                else "<disabled>"
-            )
-            logger.info(
-                "%s_fragment %s",
-                event,
-                json.dumps(
-                    {
-                        "position": position,
-                        "id": entry["id"],
-                        "source": entry["source"],
-                        "text_chars": len(text),
-                        "text_logged_chars": len(logged_text) if self.settings.log_fragment_text else 0,
-                        "text_truncated_in_log": bool(
-                            self.settings.log_fragment_text and len(logged_text) < len(text)
-                        ),
-                        "original_text_chars": (
-                            original_lengths.get(entry["id"], len(text))
-                            if original_lengths is not None
-                            else len(text)
-                        ),
-                        "compaction_removed_chars": (
-                            max(0, original_lengths.get(entry["id"], len(text)) - len(text))
-                            if original_lengths is not None
-                            else 0
-                        ),
-                        "text": logged_text,
-                    },
-                    ensure_ascii=False,
-                ),
-            )
-
     # Convert evidence to AI input entries, ordered by relevance score. Every fragment
     # is sent: the context budget was already applied when the fragments were selected.
     def _evidence_entries(self, evidence: dict[str, dict[str, str]]) -> list[dict[str, str]]:
         return _ordered_entries(evidence)
 
-    # Normalize the structured nutrition object into the internal recommendation-item format.
-    def _normalize_nutrition_section(self, value: Any) -> list[dict[str, Any]]:
-        fields = (
-            ("retete", "[RETETA]"),
-            ("recomandate", "[RECOMANDAT]"),
-            ("nerecomandate", "[NERECOMANDAT]"),
-            ("interzise", "[INTERZIS]"),
-            ("alte", "[ALTE]"),
-        )
-        normalized: list[dict[str, Any]] = []
-        if not isinstance(value, dict):
-            return normalized
-        for field, prefix in fields:
-            raw_values = value.get(field)
-            if isinstance(raw_values, list):
-                values = raw_values
-            elif raw_values is None:
-                values = []
-            else:
-                values = [raw_values]
-            for raw_value in values:
-                evidence_ids: list[str] = []
-                if isinstance(raw_value, dict):
-                    claim = raw_value.get("text")
-                    raw_ids = raw_value.get("evidence_ids", [])
-                    if isinstance(raw_ids, list):
-                        evidence_ids = [token for token in raw_ids if isinstance(token, str)]
-                elif isinstance(raw_value, str):
-                    claim = raw_value
-                else:
-                    continue
-                if not isinstance(claim, str):
-                    continue
-                claim = self._normalize_claim(claim)
-                if not claim or claim.strip(" -•\n\t") == "":
-                    continue
-                normalized.append({
-                    "text": f"{prefix}: {claim}",
-                    "evidence_ids": evidence_ids,
-                })
-        return normalized
-
-    # Preserve meaningful line breaks while normalizing text returned by the AI.
-    @staticmethod
-    def _normalize_claim(claim: str) -> str:
-        return "\n".join(
-            line.strip()
-            for line in claim.replace("\r\n", "\n").split("\n")
-            if line.strip()
-        )
-
     # Send the full evidence context to the provider and normalize all returned report sections.
     def generate(
         self, profile: dict[str, Any], evidence: dict[str, dict[str, str]]
-    ) -> dict[str, list[dict[str, Any]]]:
+    ) -> ValidatedReport:
         if not evidence:
             logger.info("fragments_sent_to_ai count=0 reason=no_evidence")
-            return {name: [] for name in SECTIONS}
+            return validate_report({}, evidence)
         logger.info(
             "fragments_collected_for_ai count=%s total_chars=%s",
             len(evidence),
@@ -432,33 +337,7 @@ class ResponsesClient:
         result = self.complete_json(
             self.generate_system_prompt, user, self.provider.max_output_tokens
         )
-        sections: dict[str, list[dict[str, Any]]] = {name: [] for name in SECTIONS}
-        for section in SECTIONS:
-            items = result.get(section, [])
-            if section == "nutritie" and isinstance(items, dict):
-                sections[section] = self._normalize_nutrition_section(items)
-                continue
-            if not isinstance(items, list):
-                continue
-            for item in items:
-                if not isinstance(item, dict):
-                    continue
-                claim = item.get("text")
-                if not isinstance(claim, str):
-                    continue
-                ids = item.get("evidence_ids", [])
-                if not isinstance(ids, list):
-                    ids = []
-                claim = self._normalize_claim(claim)
-                evidence_ids = [token for token in ids if isinstance(token, str)]
-                if claim:
-                    sections[section].append({"text": claim, "evidence_ids": evidence_ids})
-        logger.info(
-            "ai_report_sections_completed total_items=%s %s",
-            sum(len(items) for items in sections.values()),
-            " ".join(f"{name}={len(sections[name])}" for name in SECTIONS),
-        )
-        return sections
+        return validate_report(result, evidence)
 
 
 class XAIClient(ResponsesClient):

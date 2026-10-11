@@ -100,8 +100,7 @@ medicina-naturista/
 │   ├── scripts/
 │   │   ├── build_hybrid_index.py     # sincronizarea incrementală a indexului în Postgres
 │   │   ├── search_index.ps1          # căutare locală din terminal
-│   │   ├── clean_documents.py/.ps1   # curățarea surselor Markdown înainte de indexare
-│   │   ├── fix_spelling.py           # corectarea erorilor OCR/de scriere (dicționar Hunspell ro_RO; --apply)
+│   │   ├── clean_documents.py/.ps1   # curățare și corectare OCR/de scriere cu dicționarul inclus
 │   │   ├── fragment_report.py        # simularea fragmentării, fără bază de date
 │   │   ├── audit_conditions.py       # audit read-only al dicționarului de afecțiuni
 │   │   ├── audit_near_dupes.py       # afecțiuni canonice aproape duplicate (read-only)
@@ -109,9 +108,7 @@ medicina-naturista/
 │   │   ├── icd10_work/               # scripturi one-off pentru completarea dicționarului după ICD-10
 │   │   ├── evaluate_retrieval.py     # măsurarea calității căutării (P@10, MRR, nDCG)
 │   │   ├── google_oauth_setup.py     # autorizare Gmail OAuth2
-│   │   ├── extract_pdf_text.py       # extragerea textului din PDF
 │   │   ├── extract_pdf_markdown.py   # extragerea structurată în Markdown
-│   │   ├── text_to_markdown.py       # conversia textului în Markdown
 │   │   └── merge_book_pdfs.py        # combinarea părților de carte PDF
 │   └── tests/                    # teste unitare și de integrare
 ├── Caddyfile
@@ -140,6 +137,17 @@ Plasați documentele sursă în `medicina-naturista-documente/data/documents/`. 
 
 Înlocuirea diacriticelor e activă implicit; `.\src\scripts\clean_documents.ps1 -KeepDiacritics` (sau `--no-fold-diacritics`) le păstrează.
 
+Corectarea cuvintelor rulează automat cu fișierele Hunspell `ro_RO.dic` și `ro_RO.aff` incluse în `src/scripts/dictionaires/ro/`. Calea este calculată relativ la script, independent de directorul din care îl porniți:
+
+```powershell
+.\src\scripts\clean_documents.ps1 -DryRun
+.\src\scripts\clean_documents.ps1
+# Echivalent Python:
+python src\scripts\clean_documents.py --dry-run
+```
+
+Corectarea rulează după curățare, numai pentru documentele detectate ca românești: unește fragmente OCR, separă cuvinte lipite, corectează greșeli rare neambigue și ortografia veche. Frecvențele sunt calculate din corpusul curățat înainte de rescriere. Raportul `var/spelling_changes.tsv` conține fișierul, linia din textul curățat, regula și formele înainte/după; se generează și la `--dry-run`, fără modificarea documentelor. Folosiți `-SpellingReport` / `--spelling-report` pentru altă destinație. Lipsa dicționarului oprește execuția înainte de modificarea documentelor. Protecția dozelor și numerelor verifică și rezultatul corectării. `-KeepDiacritics` păstrează diacriticele și folosește formele din dicționar pentru înlocuiri.
+
 Aveți nevoie de un Postgres cu extensia `pgvector` pornit și accesibil la `DATABASE_URL` (implicit `postgresql://medicina:medicina@127.0.0.1:5432/medicina`); cel mai simplu e `docker compose up -d db`, care cere `POSTGRES_PASSWORD` în `.env` (utilizatorul și baza sunt implicit `medicina`), deci `DATABASE_URL` trebuie să folosească aceeași parolă.
 
 ### 2. Sincronizarea indexului
@@ -151,15 +159,26 @@ python src\scripts\build_hybrid_index.py
 
 Scriptul importă pachetul `backend`, deci are nevoie de `PYTHONPATH=src`. Baza vine din `DATABASE_URL` (`.env`); `--model` și `--source` sunt opționale. Scriptul pornește cu pythonul din care îl rulezi (pe CPU, fără alt mediu); pe GPU vezi mai jos.
 
-Modelul de embedding este `Qwen/Qwen3-Embedding-0.6B` (vectori de 1024 de dimensiuni); alt model nu este cunoscut de cod. Căutarea citește modelul din `sync_metadata` și scrie întrebările după profilul lui (`ai/embedding_model.py`: instrucțiunea Qwen la întrebare, fără prefix la pasaje). **Dacă baza conține un index făcut cu alt model sau cu altă dimensiune, următorul build reîncorporează toate documentele**, iar coloana `chunks.embedding` este recreată și indexul golit (doar scriptul de build face asta, niciodată aplicația). Pe un PC cu GPU, indexarea durează ~17 minute în loc de ore; rulează din mediul `.venv-gpu`, care are `torch`:
+Modelul de embedding este `Qwen/Qwen3-Embedding-0.6B` (vectori de 1024 de dimensiuni); alt model nu este cunoscut de cod. Căutarea citește modelul din `sync_metadata` și scrie întrebările după profilul lui (`ai/embedding_model.py`: instrucțiunea Qwen la întrebare, fără prefix la pasaje). **Dacă baza conține un index făcut cu alt model sau cu altă dimensiune, următorul build reîncorporează toate documentele**, iar coloana `chunks.embedding` este recreată în aceeași tranzacție cu documentele și metadata noi. Orice eroare păstrează generația și dimensiunea anterioare. Pe un PC cu GPU, indexarea durează ~17 minute în loc de ore; rulează din mediul `.venv-gpu`, care are `torch`:
 
 ```powershell
 $env:PYTHONPATH = "src"
 $env:EMBEDDING_DEVICE = 'cuda'
+.\.venv-gpu\Scripts\python -m pip install "pydantic>=2.10,<3"
 .\.venv-gpu\Scripts\python src\scripts\build_hybrid_index.py
 ```
 
-Prima sincronizare descarcă modelul în `model_cache/` și poate dura câteva zeci de minute, apoi scrie fiecare document nou/modificat în Postgres. Următoarele rulări sar complet peste documentele al căror SHA-256 nu s-a schimbat — nu se re-generează embeddings pentru ele; documentele șterse din `medicina-naturista-documente/data/documents/` sunt șterse și din index. Când se schimbă regulile de fragmentare (`TEXT_REPR_VERSION` din `build_hybrid_index.py`), următoarea sincronizare reindexează totul. Căutările folosesc modelul din cache și rulează offline. În timpul embedding-ului sunt afișate progresul, timpul scurs, viteza și ETA.
+Prima sincronizare descarcă modelul în `model_cache/` și poate dura câteva zeci de minute. Toate embeddingurile sunt calculate și validate înainte de publicarea documentelor și metadata într-o singură tranzacție. Următoarele rulări sar complet peste documentele al căror SHA-256 nu s-a schimbat — nu se re-generează embeddings pentru ele; documentele șterse din `medicina-naturista-documente/data/documents/` sunt șterse și din index. Schimbarea dicționarului `medical_conditions.jsonl`, a modelului, a profilului pasajelor sau a versiunii reprezentării textului (`TEXT_REPR_VERSION` din `backend/ai/index_state.py`) forțează reindexarea completă, inclusiv a documentelor neschimbate. Căutările folosesc modelul din cache și rulează offline. În timpul embedding-ului sunt afișate progresul, timpul scurs, viteza și ETA.
+
+Sincronizarea ține un advisory lock exclusiv pe o conexiune dedicată. Căutările, categoriile și readiness folosesc lockuri partajate fără așteptare; în mentenanță răspund `503` cu `Retry-After: 60`. Generarea din dovezi deja păstrate și descărcarea PDF-urilor continuă. Dicționarul este verificat din același snapshot de bytes folosit la fragmentare, iar modificarea lui în timpul buildului abandonează publicarea.
+
+Interpretarea întrebărilor și verificarea indexului folosesc același cache de dicționar parsat, protejat la inițializare concurentă. Conținutul neschimbat este parsat o singură dată per proces și reutilizat la căutările următoare. Citirea bytes și verificarea fingerprintului rămân active; modificarea conținutului creează un snapshot nou și păstrează obligația resincronizării indexului.
+
+Indexurile vechi fără `dictionary_fingerprint`/`index_generation` necesită o sincronizare completă prin comanda de mai sus înainte de reluarea căutărilor (`INDEX_RESYNC_REQUIRED`). Migrările rămân explicite: `python src/scripts/migrate_database.py`; buildul și pornirea aplicației nu aplică migrări structurale. Tabela existentă `sync_metadata` stochează noile chei fără coloane SQL suplimentare. `/readyz` verifică compatibilitatea generației publicate.
+
+Selecția goală înseamnă zero surse. O selecție complet învechită primește `409 CATEGORY_SELECTION_STALE`; frontendul reîncarcă arborele și cere reselecția, fără reluare automată globală. Selecțiile mixte păstrează doar ID-urile valide și afișează avertizarea; arborele și numărul documentelor sunt memorate după `index_generation`.
+
+Rapoartele publică exclusiv recomandări validate față de dovezile căutării. Orice ID inexistent elimină recomandarea întreagă; nutriția păstrează excepția existentă pentru elemente fără citări. API-ul transmite `partial` și `validationWarnings`; chatul, PDF-ul descărcat și cel trimis prin email afișează aceeași notificare: „Raportul este parțial: unele recomandări nu au putut fi validate.” Un eșec complet păstrează căutarea pentru o reîncercare explicită, fără PDF sau apel AI automat. Aceasta este validarea contractului, nu validare clinică. Logurile clientului AI păstrează doar diagnostic tehnic, fără corpul răspunsului, fragmente sau recomandări, inclusiv când vechile opțiuni de logare a textului sunt activate.
 
 Pentru a vedea ce fragmente ar rezulta, fără bază de date și fără embeddings:
 
@@ -224,7 +243,8 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 
 | Endpoint | Rol |
 |---|---|
-| `GET /healthz` | Starea aplicației; 503 dacă lipsește cheia furnizorului AI activ. |
+| `GET /healthz` | Starea aplicației și configurarea cheii AI; independent de mentenanța sau compatibilitatea indexului. Folosit de healthcheck-ul Docker. |
+| `GET /readyz` | Verifică și indexul; 503 cu `INDEX_MAINTENANCE`, `INDEX_RESYNC_REQUIRED` sau `INDEX_UNAVAILABLE` și `Retry-After: 60`. |
 | `GET /owner?key=<OWNER_KEY>` | Autorizează browserul și redirecționează către chat; cheie lipsă/greșită: 404. |
 | `GET /api/owner` | Starea autorizării și tokenul CSRF pentru browser. |
 | `POST /api/owner/login`, `POST /api/owner/logout` | Emit, respectiv revocă autorizarea individuală; necesită origine validă și token CSRF. |
@@ -251,7 +271,7 @@ Sincronizarea scrie în trei tabele:
 |---|---|
 | `documents` | Un rând per fișier sursă: cale, SHA-256, codificare, număr de linii; categoria (folderul) este o coloană generată din cale. Folosit și pentru a decide ce fișiere sar la sincronizarea următoare. |
 | `chunks` | Un rând per fragment: text, interval de linii, calea titlurilor (`heading`), categoria generată din cale (`category_id`, folosită de filtrarea pe surse), `business_category` (`R1`/`R2`/`D1`), `primary_medical_conditions`, `secondary_medical_conditions`, vectorul semantic (`embedding vector(1024)`) și coloana lexicală (`text_search tsvector`). |
-| `sync_metadata` | Modelul de embeddings, dimensiunea vectorilor, versiunea reprezentării textului și data ultimei sincronizări. |
+| `sync_metadata` | Modelul, dimensiunea, profilul pasajelor, versiunea textului, fingerprintul SHA-256 al dicționarului, generația indexului și data sincronizării. |
 
 Un document al cărui SHA-256 nu s-a schimbat este complet ignorat la sincronizare; un document nou sau modificat își înlocuiește fragmentele într-o singură tranzacție.
 
@@ -274,8 +294,7 @@ Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit î
 Înainte de pornire, trebuie să existe `medicina-naturista-documente/data/documents/`, `model_cache/` (cu modelul deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Stiva are patru servicii: `db`, `ollama`, `app` și `caddy`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) este expus doar pe `127.0.0.1:5432` (`DB_HOST_PORT`), astfel încât indexul se sincronizează de pe host cu `python src/scripts/build_hybrid_index.py` (cu `PYTHONPATH=src` și un `DATABASE_URL` spre `127.0.0.1` cu parola `POSTGRES_PASSWORD`). Serviciul `ollama` rulează modelul local de identificare a afecțiunii (`CONDITION_AI_LOCAL_BASE=http://ollama:11434/v1`), este accesibil doar din rețeaua internă, rezervă GPU-urile NVIDIA (`deploy.resources.reservations`) și are nevoie ca modelul să fie descărcat o dată: `docker compose exec ollama ollama pull gemma3:1b`.
 
 ```powershell
-docker compose build
-docker compose up -d
+docker compose up -d --build
 docker compose ps
 Invoke-WebRequest http://localhost:8760/healthz
 ```
@@ -411,6 +430,42 @@ npm run typecheck
 ```
 
 Testele acoperă fragmentarea și recunoașterea afecțiunilor, sincronizarea indexului, scorul și retrieval-ul, sesiunile web, răspunsurile simulate ale furnizorilor AI, generarea PDF și integrarea Gmail simulată. Nu sunt necesare requesturi AI reale.
+
+## Extragerea PDF în Markdown
+
+`src/scripts/extract_pdf_markdown.py` extrage textul local și reconstruiește titlurile
+din semnele de carte, numerotare, dimensiunea fonturilor și spațiere. Prima pagină
+este inclusă; nu există reguli specifice unei anumite cărți. Ordinea de citire se
+adaptează la una, două sau trei coloane. Reperele `<!-- Pagina PDF N -->` păstrează
+legătura cu sursa.
+
+Instalați dependențele opționale în mediul virtual:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -e ".[pdf]"
+```
+
+Pentru scanări fără strat de text este necesar și programul Tesseract, cu limbile
+`ron` și `eng`. Este detectat din PATH sau din `C:\Program Files\Tesseract-OCR`;
+puteți indica altă instalare prin `--tesseract-cmd`.
+
+```powershell
+.\.venv\Scripts\python.exe src\scripts\extract_pdf_markdown.py "carte.pdf" -o "carte.md" --report "carte.extraction.json"
+```
+
+Implicit, `--ocr auto` citește textul existent și folosește OCR numai pentru pagini
+fără text. `--ocr always` recitește toate paginile din imagini, iar `--ocr never`
+dezactivează OCR. `--deskew auto` corectează coordonatele textului sau imaginea
+scanată pentru înclinări de până la ±30°; `--deskew off` dezactivează corecția.
+`--columns auto` poate fi înlocuit cu `1`, `2` sau `3` pentru documente ambigue.
+`--start-page` și `--end-page` permit verificarea unui interval înainte de conversia
+completă. Raportul JSON include unghiul estimat, numărul de coloane, metoda de
+extragere și paginile fără text. Ieșirea Markdown este înlocuită numai după o
+extragere reușită.
+
+Ierarhia este euristică: fonturile uniforme din OCR, paginile cu orientări mixte,
+tabelele complexe și scanările degradate pot necesita verificare manuală.
+Extractorul păstrează grafia sursei și nu corectează semantic erorile OCR.
 
 ## 📜 Licență
 

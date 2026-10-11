@@ -14,6 +14,7 @@ from typing import Any
 from urllib.parse import quote
 
 from backend.ai.search import ALL_SIGNALS, SearchSignals
+from backend.ai.report_validation import ValidatedReport, PARTIAL_NOTICE
 from backend.core.models import SessionData
 from backend.reporting.pdf import (
     bibliography_label,
@@ -144,6 +145,8 @@ def _fragments_message(search_id: str, evidence: dict, signals: SearchSignals = 
         "kind": "fragments",
         "searchId": search_id,
         "signals": {"conditions": signals.conditions, "lexical": signals.lexical, "semantic": signals.semantic},
+        "indexGeneration": getattr(evidence, "index_generation", None),
+        "removedCategoryIds": getattr(evidence, "removed_category_ids", []),
         "fragmentsCount": len(evidence),
         "documentsCount": len(all_documents),
         "fragments": entries,
@@ -167,7 +170,10 @@ def _ask(session: SessionData, question: str) -> None:
 # Kept as one Markdown-flavoured string (rendered by the frontend), rather
 # than a fully structured payload, since the section/nutrition/citation
 # formatting rules here are shared with reporting/pdf.py's own numbering.
-def _recommendation_text(sections: dict, evidence: dict) -> str:
+def _recommendation_text(sections: ValidatedReport | dict, evidence: dict) -> str:
+    partial = isinstance(sections, ValidatedReport) and sections.partial
+    if isinstance(sections, ValidatedReport):
+        sections = sections.section_payload()
     labels = (
         ("uz_intern", "Uz intern"),
         ("nutritie", "Nutriție"),
@@ -178,6 +184,8 @@ def _recommendation_text(sections: dict, evidence: dict) -> str:
     sections = sort_sections_by_relevance(sections, evidence)
     reference_numbers, references = build_reference_index(sections, evidence)
     lines = ["✅ Raportul este gata. Recomandările susținute de surse:"]
+    if partial:
+        lines.append(PARTIAL_NOTICE)
     found = False
     for key, label in labels:
         items = sections.get(key) or []

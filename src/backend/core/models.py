@@ -102,6 +102,7 @@ class PendingSearch:
     # the next search, but these fragments keep the scores of this one).
     signals: SearchSignals = ALL_SIGNALS
     identity: str = field(default_factory=lambda: secrets.token_urlsafe(18))
+    index_generation: str | None = None
 
 
 @dataclass
@@ -147,7 +148,7 @@ class SessionData:
     reports: dict[str, StoredReport] = field(default_factory=dict)
     # Source-folder categories (see backend.ai.categories) the patient
     # chose in the "Filtrează sursele" panel before the last search. Empty means
-    # every category — the panel's own default, unopened state.
+    # zero sources; the frontend explicitly seeds its initial selection.
     selected_categories: set[str] = field(default_factory=set)
     # Signals of the score the patient chose ("Ce tip de căutare doriți să
     # efectuez?") before the last search; every signal is on by default.
@@ -235,6 +236,8 @@ class OperationResult:
     evicted_report_ids: list[str] = field(default_factory=list)
     evicted_group_ids: list[str] = field(default_factory=list)
     cancelled: bool = False
+    partial: bool = False
+    validation_warnings: list[dict[str, Any]] = field(default_factory=list)
 
     def as_dict(self) -> dict[str, Any]:
         return {
@@ -243,4 +246,6 @@ class OperationResult:
             "evictedReportIds": self.evicted_report_ids,
             "evictedGroupIds": self.evicted_group_ids,
             "cancelled": self.cancelled,
+            "partial": self.partial,
+            "validationWarnings": self.validation_warnings,
         }

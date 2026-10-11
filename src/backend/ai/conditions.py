@@ -14,6 +14,7 @@ from collections.abc import Iterable
 from dataclasses import dataclass
 from difflib import get_close_matches
 from functools import lru_cache
+from threading import Lock
 from pathlib import Path
 
 from backend.ai.query_terms import plain
@@ -256,19 +257,38 @@ class ConditionDictionary:
         return ResolvedQuery(tuple(segments))
 
 
+_dictionary_cache_lock = Lock()
+
+
 @lru_cache(maxsize=4)
-def _load(path: str, mtime_ns: int) -> ConditionDictionary:
-    conditions = parse_conditions(Path(path).read_text(encoding="utf-8"))
-    logger.info("conditions_loaded path=%s conditions=%s", path, len(conditions))
+def _parsed_dictionary(raw: bytes) -> ConditionDictionary:
+    conditions = parse_conditions(raw.decode("utf-8-sig"))
+    logger.info("conditions_loaded conditions=%s", len(conditions))
     return ConditionDictionary(conditions)
+
+
+def dictionary_from_bytes(raw: bytes) -> ConditionDictionary:
+    """Share one parsed snapshot across query resolution and index validation.
+
+    Unchanged bytes reuse the same dictionary for the lifetime of the cache.
+    Serialize initial misses: lru_cache alone can execute simultaneous misses
+    more than once. New contents get a new snapshot without mutating readers.
+    """
+    with _dictionary_cache_lock:
+        return _parsed_dictionary(raw)
 
 
 # The dictionary from settings.conditions_file, reloaded when the file changes.
 # A missing file yields an empty dictionary (no condition recognised), never an error.
 def load_dictionary(path: Path | None = None) -> ConditionDictionary:
+    if path is None:
+        from backend.ai.index_state import active_dictionary
+        snapshot = active_dictionary()
+        if snapshot is not None:
+            return snapshot
     path = path or settings.conditions_file
     try:
-        return _load(str(path), path.stat().st_mtime_ns)
+        return dictionary_from_bytes(path.read_bytes())
     except OSError:
         logger.warning("conditions_file_unavailable path=%s", path)
         return ConditionDictionary([])

@@ -9,6 +9,7 @@ import hmac
 import logging
 import re
 import secrets
+from dataclasses import replace
 from contextlib import asynccontextmanager, suppress
 from http.cookies import CookieError, SimpleCookie
 from urllib.parse import quote, urlparse
@@ -23,7 +24,10 @@ from backend.ai.client import AIUnavailable, create_ai_client
 from backend.ai.condition_ai import identify_conditions, resolved_for
 from backend.ai.condition_ai import warm_up as warm_up_condition_ai
 from backend.ai.conditions import ResolvedQuery, resolve_query
+from backend.ai.categories import category_selection
 from backend.ai.retrieval import Retriever
+from backend.ai.index_state import index_reader, IndexUnavailable
+from backend.ai.report_validation import ValidatedReport, ValidationWarning, validate_report
 from backend.ai.search import ALL_SIGNALS, SearchSignals
 from backend.ai.search import warm_up as warm_up_search
 from backend.config import Settings, configure_settings
@@ -88,7 +92,12 @@ router = APIRouter()
 # up selected). An id outside the known set (stale, or no tree at all) is
 # simply not counted, same as everywhere else category ids are consumed.
 def _document_count_for_categories(category_ids: set[str], retriever) -> int:
-    tree = getattr(retriever, "category_tree", None)
+    if isinstance(retriever, Retriever):
+        tree, _generation = retriever.categories_snapshot()
+        if tree is None:
+            return 0
+    else:
+        tree = getattr(retriever, "category_tree", None)
     if tree is None:
         return getattr(retriever, "document_count", 0)
     known = tree.known_ids()
@@ -218,6 +227,17 @@ class GenerateRequest(BaseModel):
     minScore: float = Field(default=0, ge=0, le=100)
 
 
+class GenerateResponse(BaseModel):
+    messages: list[dict]
+    ownerNotice: str | None
+    partial: bool = False
+    validationWarnings: list[ValidationWarning] = Field(default_factory=list)
+    evictedSearchIds: list[str] = Field(default_factory=list)
+    evictedReportIds: list[str] = Field(default_factory=list)
+    evictedGroupIds: list[str] = Field(default_factory=list)
+    cancelled: bool = False
+
+
 def _deps(request: Request) -> Dependencies:
     return request.app.state.dependencies
 
@@ -280,6 +300,15 @@ def healthz(request: Request):
             503,
             f"Secretul {ai.provider.label} ({ai.provider.api_key_env}) lipsește sau nu este un fișier valid.",
         )
+    return {"status": "ok"}
+
+
+@router.get("/readyz")
+def readyz(request: Request):
+    healthz(request)
+    if isinstance(_deps(request).retriever, Retriever):
+        with index_reader():
+            pass
     return {"status": "ok", "index": "ready"}
 
 
@@ -330,13 +359,20 @@ def get_session(request: Request):
 
 @router.get("/api/categories")
 def get_categories(request: Request):
-    tree = _deps(request).retriever.category_tree
-    if tree is None:
-        return {"tree": None, "defaultSelection": []}
+    retriever = _deps(request).retriever
+    if isinstance(retriever, Retriever):
+        with index_reader() as (_connection, metadata):
+            return _categories_payload(retriever.category_tree, metadata.index_generation)
+    return _categories_payload(retriever.category_tree, None)
+
+
+def _categories_payload(tree, generation):
     return {
-        "tree": _category_node_payload(tree, tree.root_id),
-        "defaultSelection": sorted(tree.known_ids()),
+        "tree": _category_node_payload(tree, tree.root_id) if tree else None,
+        "defaultSelection": sorted(tree.known_ids()) if tree else [],
+        "indexGeneration": generation,
     }
+
 
 
 @router.post("/api/messages")
@@ -493,6 +529,13 @@ def post_condition(request: Request):
 
 @router.post("/api/search")
 def post_search(request: Request):
+    if isinstance(_deps(request).retriever, Retriever):
+        with index_reader():
+            return _post_search(request)
+    return _post_search(request)
+
+
+def _post_search(request: Request):
     deps = _deps(request)
     try:
         operation = deps.store.begin_operation(
@@ -502,6 +545,9 @@ def post_search(request: Request):
         return _cancelled()
     try:
         snapshot = operation.snapshot
+        if isinstance(deps.retriever, Retriever):
+            tree, _generation = deps.retriever.categories_snapshot()
+            category_selection(snapshot.selected_categories, tree)
         signals = snapshot.search_signals
         if (
             signals.conditions
@@ -518,7 +564,7 @@ def post_search(request: Request):
         evidence = deps.retriever.collect(snapshot, deps.ai.context_budget())
         deps.store.checkpoint(operation)
         if not evidence:
-            return deps.store.commit_operation(
+            committed = deps.store.commit_operation(
                 operation,
                 CommitChange(
                     messages=[
@@ -529,8 +575,10 @@ def post_search(request: Request):
                     ]
                 ),
             ).as_dict()
+            return {**committed, "indexGeneration": getattr(evidence, "index_generation", None),
+                    "removedCategoryIds": getattr(evidence, "removed_category_ids", [])}
         search_id = secrets.token_hex(6)
-        return deps.store.commit_operation(
+        committed = deps.store.commit_operation(
             operation,
             CommitChange(
                 messages=[
@@ -541,12 +589,15 @@ def post_search(request: Request):
                     search_id,
                     PendingSearch(
                         profile=snapshot.profile.as_dict(),
-                        evidence=evidence,
+                        evidence=dict(evidence),
                         signals=signals,
+                        index_generation=getattr(evidence, "index_generation", None),
                     ),
                 ),
             ),
         ).as_dict()
+        return {**committed, "indexGeneration": getattr(evidence, "index_generation", None),
+                "removedCategoryIds": getattr(evidence, "removed_category_ids", [])}
     except OperationCancelled:
         return _cancelled()
     finally:
@@ -579,6 +630,8 @@ def _generate_report(
             )
         deps.store.checkpoint(operation)
         sections = deps.ai.generate(profile, evidence)
+        if not isinstance(sections, ValidatedReport):
+            sections = validate_report(sections, evidence)
         deps.store.checkpoint(operation)
         report = (deps.pdf or create_pdf)(profile, sections, evidence, min_score)
         deps.store.checkpoint(operation)
@@ -591,7 +644,7 @@ def _generate_report(
             ),
             _text("assistant", EMAIL_OFFER),
         ]
-        return deps.store.commit_operation(
+        committed = deps.store.commit_operation(
             operation,
             CommitChange(
                 messages=messages,
@@ -602,6 +655,10 @@ def _generate_report(
                 replace_search_id=search_id,
             ),
         )
+        if not committed.cancelled:
+            committed = replace(committed, partial=sections.partial,
+                validation_warnings=[warning.model_dump(exclude_none=True) for warning in sections.validationWarnings])
+        return committed
     except OperationCancelled:
         return OperationResult(cancelled=True)
     except ApplicationError:
@@ -620,7 +677,7 @@ def _generate_report(
         deps.store.finish_operation(operation)
 
 
-@router.post("/api/searches/{search_id}/generate")
+@router.post("/api/searches/{search_id}/generate", response_model=GenerateResponse, response_model_exclude_none=False)
 def generate(search_id: str, request: Request, payload: GenerateRequest | None = None):
     deps = _deps(request)
     session = _current(request)
@@ -959,6 +1016,7 @@ def create_app(
         return JSONResponse(
             {"detail": {"code": exc.code, "message": exc.message}},
             status_code=exc.status,
+            headers={"Retry-After": "60"} if isinstance(exc, IndexUnavailable) else None,
         )
 
     @application.exception_handler(RequestValidationError)

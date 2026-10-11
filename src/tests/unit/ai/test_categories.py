@@ -37,6 +37,15 @@ def _insert_document(relative_path: str) -> None:
 class LoadCategoryTreeTests(unittest.TestCase):
     def setUp(self):
         _fixture.reset()
+        from backend.ai.index_state import dictionary_snapshot, passage_profile, TEXT_REPR_VERSION
+        from backend.ai.embedding_model import get_profile, DEFAULT_MODEL
+        profile = get_profile(DEFAULT_MODEL)
+        with db_module.get_pool().connection() as connection:
+            metadata = {"model_name": DEFAULT_MODEL, "model_dimension": str(db_module._embedding_dimension(connection)),
+                        "dictionary_fingerprint": dictionary_snapshot()[0], "passage_profile": passage_profile(profile),
+                        "text_repr_version": TEXT_REPR_VERSION, "index_generation": "category-test"}
+            for key, value in metadata.items():
+                connection.execute("INSERT INTO sync_metadata VALUES (%s,%s)", (key, value))
 
     # No document has been synced yet — callers must treat that as "no
     # filtering available", not as an error.

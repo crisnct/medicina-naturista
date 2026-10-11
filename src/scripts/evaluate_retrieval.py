@@ -28,7 +28,7 @@ from pathlib import Path
 from psycopg.rows import namedtuple_row
 
 from backend.ai import conditions, search
-from backend.ai.db import get_pool
+from backend.ai.index_state import index_reader
 from backend.ai.search import ALL_SIGNALS, SearchSignals, rank
 
 CASES_PATH = Path(__file__).resolve().parents[1] / "tests" / "eval" / "retrieval_queries.json"
@@ -46,7 +46,7 @@ def load_cases(path: Path) -> list[dict]:
 
 # chunk_id -> (path, heading), both normalized, for every chunk in the index.
 def load_chunk_index() -> dict[int, tuple[str, str]]:
-    with get_pool().connection() as connection:
+    with index_reader() as (connection, _metadata):
         with connection.cursor(row_factory=namedtuple_row) as cursor:
             rows = cursor.execute("SELECT chunk_id, source_relative_path, heading FROM chunks").fetchall()
     return {row.chunk_id: (plain(row.source_relative_path), plain(row.heading)) for row in rows}
@@ -145,12 +145,13 @@ def main() -> None:
         parser.error(str(exc))
 
     cases = load_cases(args.cases)
-    index = load_chunk_index()
-    if args.no_conditions:
-        search.resolve_query = conditions.ConditionDictionary([]).resolve
-        conditions.resolve_query = search.resolve_query
-    rank("warmup", signals=signals)  # load the embedding model outside the timed section
-    rows = [evaluate_case(case, index, signals) for case in cases]
+    with index_reader():
+        index = load_chunk_index()
+        if args.no_conditions:
+            search.resolve_query = conditions.ConditionDictionary([]).resolve
+            conditions.resolve_query = search.resolve_query
+        rank("warmup", signals=signals)  # load the embedding model outside the timed section
+        rows = [evaluate_case(case, index, signals) for case in cases]
     for row in rows:
         recall = "  n/a" if row["recall_at_50"] is None else f"{row['recall_at_50']:5.2f}"
         print(

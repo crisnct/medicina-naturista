@@ -1,47 +1,84 @@
 #!/usr/bin/env python3
 """Rewrite Markdown source files in place so that the fragments sent to the AI
-carry as few characters (and tokens) as possible without losing medical
-information.
+carry fewer characters (and tokens), aiming to preserve medical information.
 
-Two families of rules run, in this order:
+Parametri acceptati:
+    -h, --help            Afiseaza ajutorul si inchide scriptul.
+    --source DIRECTOR     Curata recursiv fisierele .md din acest director.
+                          Implicit: medicina-naturista-documente/data/documents/
+                          din radacina proiectului.
+    --spelling-report FISIER
+                          Destinatia raportului TSV al corecturilor.
+                          Implicit: var/spelling_changes.tsv din proiect.
+                          Raportul se scrie inclusiv la --dry-run.
+    --dry-run             Previzualizeaza fara sa modifice documentele.
+                          Fara acest flag, modificarile se aplica direct.
+    --no-fold-diacritics  Pastreaza diacriticele romanesti.
+                          Fara acest flag, sunt transcrise in ASCII.
 
-1. **The original rules** — strip the leading PDF-extraction metadata block
-   (source_path, source_sha256, page_count, ...) with the repeated title and
-   scaffold headings, external link destinations, e-mail addresses, phone
-   numbers and the contact label a removed number leaves behind ("tel.",
-   "mobil:"), "### Pagina N" and "<!-- Pagina PDF N -->" page markers,
-   "[Nu a fost extras text din această pagină.]" placeholders, e-book
-   "< previous page page_N next page >" navigation lines, empty "<!-- -->" HTML
-   blocks, invisible characters, legacy cedillas (ş/ţ -> ș/ț) and
-   "Vezi și"/"vezi si" cross-references.
+Corectarea cuvintelor este automata. Dictionarul este incarcat din
+src/scripts/dictionaires/ro/, relativ la script, indiferent de directorul curent.
 
-   Phone numbers are matched by shape, not by label: a run of digits with phone
-   separators is removed only when it looks like a national (0...) or
-   international (+... / 00...) number, or when the line itself announces
-   contact data. A number followed by a unit ("500 mg"), a thousands-separated
-   quantity ("4.200.000", "150.000-300.000"), a date and an ISBN are never
-   treated as a phone number.
+Run:
+    ./.venv/Scripts/python.exe ./src/scripts/clean_documents.py
 
-2. **The compaction rules** — fold the Romanian diacritics to ASCII (ă/â -> a,
-   î -> i, ș -> s, ț -> t, plus the uppercase and legacy cedilla forms; see
-   FOLD_DIACRITICS_BY_DEFAULT, switched off with --no-fold-diacritics), then drop
-   page furniture that carries no medical content: contents/index/glossary/
-   bibliography sections (only when their title is unambiguous, they sit where
-   such a section belongs and they actually look like a list of entries), book
-   colophon lines, lines that hold nothing but a page number, contact details
-   (e-mail addresses and phone numbers) and the running header — a line that
-   repeats the document's own title. Repetition alone is deliberately not
-   enough: this corpus repeats a template subheading for every entry
-   ("Side Effects and Contraindications"), a table header on every page and even
-   whole sentences, and dropping those destroys content.
+The cleaning pipeline performs the following eight actions. This list groups
+the behavior by purpose; compact_document() defines the execution order.
+
+1. **Remove extraction metadata** — strip the leading generated metadata block
+   (source_path, source_sha256, page_count, etc.), the generated file title,
+   scaffold headings, OCR notes and a surrounding extraction text fence.
+
+2. **Remove pagination artifacts** — drop "### Pagina N" and
+   "<!-- Pagina PDF N -->" markers, e-book navigation, empty-page/OCR
+   placeholders and empty HTML comments or Pandoc HTML blocks.
+
+3. **Clean links and contact details** — retain Markdown/HTML link labels while
+   removing their destinations, bare URLs, e-mail addresses and recognized
+   phone numbers, including attached "tel."/"mobil:" labels. Phone detection
+   has guards for doses, quantities, dates and ISBNs.
+
+4. **Normalize text and whitespace** — remove invisible/control characters,
+   normalize legacy Romanian cedillas and typographic ligatures (e.g. ﬁ -> fi),
+   convert non-breaking spaces, collapse repeated spaces/tabs, trim trailing
+   whitespace and keep at most one consecutive blank line.
+
+5. **Remove standalone cross-reference lines** — remove a single-sentence line
+   beginning with "Vezi și" or "vezi si" (optionally preceded by the OCR bullet
+   marker "Q") only when it contains no recognized dosage. Mixed-content lines
+   are retained, including their inline references.
+   Wrapped continuation lines are not removed.
+
+6. **Fold Romanian diacritics by default** — replace ă/â -> a, î -> i,
+   ș -> s and ț -> t, including uppercase and supported legacy/OCR variants.
+   Use --no-fold-diacritics to retain them.
+
+7. **Remove editorial page furniture** — conditionally drop contents,
+   index/glossary and bibliography sections based on heading, position,
+   entry density and dosage guards; remove qualifying copyright/publisher/ISBN
+   credit lines and repeated document-title headers. Plain lines such as "12",
+   "- 12 -", "pagina 12", "Page 104" and Roman numerals are retained.
+   Repetition alone does not justify removing arbitrary content.
+
+8. **Correct Romanian spelling automatically** — use the bundled ro_RO.dic
+   and ro_RO.aff plus cleaned-corpus frequencies to join OCR fragments, split
+   glued words, fix qualifying rare typos and modernize old orthography.
+   Documents classified as English or mixed retain their spelling. Corrections
+   are recorded in --spelling-report using line numbers in the cleaned text.
+
+Without --dry-run, changed sources are overwritten in place without automatic
+backups. --dry-run previews all eight actions without changing source files,
+but still writes the spelling TSV report. Cleaning and spelling correction are
+heuristic transformations; the numeric check below does not validate medical
+meaning or guarantee preservation of all medically relevant text.
 
 Diacritics are folded *first*, before repeated lines are counted: folding makes
 lines that differed only by diacritics identical, so counting before folding
 would need a second pass to reach a fixed point. Running the script twice
-changes nothing (verified on the whole corpus).
+changes nothing for compaction (verified on the whole corpus). Spelling correction
+uses corpus statistics, which can change between runs.
 
-Every rule is deterministic and content-blind: no rule rewrites a sentence, and
-**no rule may drop a number**. That last guarantee is enforced, not assumed —
+**Numbers must be preserved or accounted for by permitted removals** —
 ``check_digit_invariant()`` requires every number present before cleaning to
 still be present afterwards or to sit inside a span a whitelisted rule removed
 (link destinations, page furniture, dropped sections). A file whose numbers do
@@ -56,19 +93,24 @@ Retriever never clean anything themselves.
 Only a file whose content actually changes is rewritten. A rewritten file's
 line endings are normalized to bare "\\n" in the process (CRLF and lone CR both
 become LF) and its original encoding is kept when the result still fits in it.
+
 """
 from __future__ import annotations
 
 import argparse
 import codecs
 import collections
+import csv
 import re
 import sys
+from contextlib import ExitStack
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Sequence
 
-_FALLBACK_ENCODINGS = ("utf-8", "utf-16", "cp1250", "cp1252")
+_FALLBACK_ENCODINGS = ("utf-8", "cp1250", "cp1252")
+HUNSPELL_DIR = Path(__file__).resolve().parent / "dictionaires" / "ro"
+DEFAULT_SPELLING_REPORT = Path(__file__).resolve().parents[2] / "var" / "spelling_changes.tsv"
 
 # ---- Shared constants for the compaction rules ----
 
@@ -128,25 +170,6 @@ _FRONT_CREDIT_RE = re.compile(
 )
 _FRONT_MATTER_LINES = 300
 _MAX_CREDIT_LINE_CHARS = 200
-
-# Roman numerals up to XXXIX: enough for the front matter of these documents and
-# — unlike a bare [ivxlcdm]+ class — it cannot match a word such as "civil" or
-# "mix". The lookahead keeps it from matching the empty string.
-_ROMAN_PAGE = r"(?=[ivx])x{0,3}(?:ix|iv|v?i{0,3})"
-
-# A line holding nothing but a page number: "12", "- 12 -", "pagina 12",
-# "pag. 12", "page 104", "Page 104 of 350", "Page iv" or a roman numeral. The
-# "Page N" forms stay behind as plain lines in PDFs whose extractor kept the page
-# label — strip_page_markers() only knows the "# Page N" and "<!-- Page N -->"
-# spellings.
-_PAGE_NUMBER_ONLY_RE = re.compile(
-    r"^\s*(?:[-–—]?\s*\d{1,4}\s*[-–—]?"
-    r"|pag(?:ina)?\.?\s*\d+"
-    r"|page(?:[ \t]+pdf)?[ \t]*[:.\-–—]?[ \t]*(?:\d{1,4}|" + _ROMAN_PAGE + r")"
-    r"(?:[ \t]*(?:din|of|/)[ \t]*\d{1,4})?\.?"
-    r"|" + _ROMAN_PAGE + r")\s*$",
-    re.IGNORECASE,
-)
 
 # Running headers repeat the book title on every page; the title match (see
 # strip_repeated_lines) is what tells them apart from repeated content.
@@ -257,14 +280,15 @@ _MARKDOWN_LINK_RE = re.compile(r"\[([^\]\n]*)\]\(([^()\n]+)\)")
 # <a href="...">etichetă</a> -> etichetă.
 _HTML_ANCHOR_RE = re.compile(r"<a\b[^>\n]*>([^<\n]*)</a>", re.IGNORECASE)
 
-# A line containing a "see also" reference is dropped in its entirety (the
-# newline itself is kept). Restricted to lines that actually contain the
-# trigger phrase: a reference wrapped across several lines (common in
-# PDF-extracted books) only has the line with "Vezi și"/"vezi si" removed —
-# the wrapped continuation on following lines is left behind as a residual
-# fragment. Accepted as a known v1 limitation rather than risk merging or
-# dropping unrelated lines.
-_VEZI_SI_LINE_RE = re.compile(r"(?m)^.*\b[Vv]ezi\s+(?:și|si)\b.*$")
+# Only a standalone, single-sentence reference may be removed. Keep lines with
+# preceding content or additional sentences, and guard recognized dosages in
+# the substitution below. Horizontal whitespace must never consume a newline.
+# Ambiguous references (e.g. abbreviations with internal periods) are retained.
+# Accept the known OCR bullet "Q", not arbitrary text before the reference.
+_VEZI_SI_LINE_RE = re.compile(
+    r"^[ \t]*(?:Q[ \t]+)?Vezi[ \t]+(?:și|si)[ \t]+[^.!?\n]+[.!?]?[ \t]*$",
+    re.MULTILINE | re.IGNORECASE,
+)
 
 # Any remaining bare URL not part of a Markdown/HTML link, including
 # scheme-less "www." addresses, and e-mail addresses. PDF extraction sometimes
@@ -291,13 +315,16 @@ _TRAILING_SPACE_RE = re.compile(r"[ \t]+(?=\n)")
 
 
 def clean_text(text: str) -> str:
-    """Remove external link destinations, e-mail addresses, "see also"
-    cross-references and extraction artefacts from ``text`` while preserving
+    """Remove external link destinations, e-mail addresses, standalone "see also"
+    reference lines and extraction artefacts from ``text`` while preserving
     every newline (and therefore every line number) it contains."""
     cleaned = _INVISIBLE_RE.sub("", text).translate(_TRANSLATION)
     cleaned = _MARKDOWN_LINK_RE.sub(r"\1", cleaned)
     cleaned = _HTML_ANCHOR_RE.sub(r"\1", cleaned)
-    cleaned = _VEZI_SI_LINE_RE.sub("", cleaned)
+    cleaned = _VEZI_SI_LINE_RE.sub(
+        lambda match: match.group(0) if _DOSAGE_RE.search(match.group(0)) else "",
+        cleaned,
+    )
     cleaned = _BARE_URL_RE.sub("", cleaned)
     cleaned = _EMAIL_RE.sub("", cleaned)
     cleaned = _INLINE_GAPS_RE.sub(" ", cleaned)
@@ -308,14 +335,17 @@ def clean_text(text: str) -> str:
 # ---- File-level cleaning ----
 
 
-# Decode a Markdown file with the same encoding fallbacks build_hybrid_index.py
-# uses, then normalize line endings to bare "\n" — writing raw bytes back out
+# Decode a Markdown file, recognizing UTF-16 by its BOM rather than mistaking
+# an even-length cp1250 file for UTF-16. Normalize line endings to bare "\n" —
+# writing raw bytes back out
 # below skips Python's own text-mode newline translation, so this is the only
 # place CRLF/CR get collapsed.
 def _read(path: Path) -> tuple[str, str]:
     raw = path.read_bytes()
     if raw.startswith(codecs.BOM_UTF8):
         decoded, encoding = raw.decode("utf-8-sig"), "utf-8-sig"
+    elif raw.startswith((codecs.BOM_UTF16_LE, codecs.BOM_UTF16_BE)):
+        decoded, encoding = raw.decode("utf-16"), "utf-16"
     else:
         decoded, encoding = None, None
         for candidate in _FALLBACK_ENCODINGS:
@@ -570,18 +600,6 @@ def strip_colophon_lines(
     return kept, removed
 
 
-# Drop lines that hold nothing but a page number.
-def strip_page_number_lines(lines: Sequence[str]) -> tuple[list[str], list[Removed]]:
-    kept: list[str] = []
-    removed: list[Removed] = []
-    for line in lines:
-        if _PAGE_NUMBER_ONLY_RE.match(line):
-            removed.append(Removed("page_number_line", line))
-            continue
-        kept.append(line)
-    return kept, removed
-
-
 # A line that repeats the running header of a page — the document's own title
 # reprinted on every page. Repetition alone is *not* evidence of page furniture:
 # books in this corpus repeat a template subheading for every entry ("Side
@@ -822,6 +840,288 @@ def check_digit_invariant(before: str, after: str, removals: Sequence[Removed]) 
     return sorted(number for number, count in missing.items() if accounted[number] < count)
 
 
+# ---- Dictionary-driven Romanian spelling correction ----
+
+FOLD = str.maketrans({"ă": "a", "â": "a", "î": "i", "ș": "s", "ş": "s", "ț": "t", "ţ": "t",
+                      "Ă": "a", "Â": "a", "Î": "i", "Ș": "s", "Ț": "t"})
+WORD = re.compile(r"[^\W\d_]+")
+# A token is a letter run that is not glued to digits, paths, e-mails or hyphen compounds.
+TOKEN = re.compile(r"(?<![\w@/:#\\-])[^\W\d_]+(?![\w@/:#\\-])")
+SKIP_LINE = re.compile(r"https?:|www\.|@|\.(?:com|ro|org|net)\b", re.I)
+
+ROMANIAN_STOPWORDS = set("si de la in cu pentru se este sa care un o din pe nu mai sau sunt au ca a ce prin dar fi cel".split())
+ENGLISH_STOPWORDS = set("the and of is to in that for with as are this by from or be it on".split())
+
+# Short words allowed as one piece of a run-together token.
+FUNCTION_WORDS = set("de la in cu si sa se ca pe un o a ai nu mai din dar tot sau ce iar prin fara spre dupa intre care este sunt prea unui unei".split())
+# Prefixes that must never be peeled off a word ("contraexemplu" is one word).
+PREFIXES = set("contra anti auto bio supra ultra extra intra inter para pseudo semi super trans poli mono micro macro mega neuro hidro termo foto electro multi post infra hiper hipo sub pre pro non ante circum".split())
+# Tokens that look run-together but are real words missing from the dictionary.
+KEEP = {"plantain", "organela", "fizicala"}
+# Old i/a spelling of the folded diacritics; words shorter than 6 letters are listed
+# explicitly because the generic rule would also rewrite OCR fragments ("tirea").
+OLD_ORTHOGRAPHY = {"sint": "sunt", "sintem": "suntem", "sinteti": "sunteti", "cind": "cand", "rind": "rand",
+                   "pina": "pana", "cimp": "camp", "virf": "varf", "vind": "vand", "avind": "avand",
+                   "intii": "intai", "singe": "sange", "pinza": "panza", "cirpa": "carpa"}
+OLD_SWAPS = (("in", "an"), ("im", "am"), ("ir", "ar"), ("ii", "ai"))
+
+
+def fold(word: str) -> str:
+    return word.translate(FOLD).lower()
+
+
+def build_dictionary(
+    hunspell_dir: Path, *, spellings: dict[str, str] | None = None
+) -> tuple[set[str], set[str]]:
+    """Expand ro_RO.dic with the ro_RO.aff affixes into ASCII-folded word sets.
+
+    Returns (everything, common): ``common`` leaves out proper names (entries that
+    only exist capitalised), so a name never becomes the result of a correction."""
+    suffixes: dict[str, list] = collections.defaultdict(list)
+    prefixes: dict[str, list] = collections.defaultdict(list)
+    current = None
+    for line in (hunspell_dir / "ro_RO.aff").read_text(encoding="utf-8").splitlines():
+        parts = line.split()
+        if len(parts) == 4 and parts[0] in ("SFX", "PFX") and parts[2] in ("Y", "N") and parts[3].isdigit():
+            current = (parts[0], parts[1])
+            continue
+        if len(parts) >= 5 and parts[0] in ("SFX", "PFX") and (parts[0], parts[1]) == current:
+            _, flag, strip, add, cond = parts[:5]
+            strip = "" if strip == "0" else strip
+            add = ("" if add == "0" else add).split("/")[0]
+            regex = None
+            if cond != ".":
+                regex = re.compile(cond + "$" if parts[0] == "SFX" else "^" + cond)
+            (suffixes if parts[0] == "SFX" else prefixes)[flag].append((strip, add, regex))
+    words: set[str] = set()
+    common: set[str] = set()
+    for line in (hunspell_dir / "ro_RO.dic").read_text(encoding="utf-8").splitlines()[1:]:
+        if not line.strip():
+            continue
+        stem, _, flags = line.partition("/")
+        stem = stem.strip()
+        forms = {stem}
+        for flag in flags:
+            for strip, add, regex in suffixes.get(flag, ()):
+                if (regex and not regex.search(stem)) or (strip and not stem.endswith(strip)):
+                    continue
+                forms.add(stem[:len(stem) - len(strip)] + add)
+        for flag in flags:
+            for strip, add, regex in prefixes.get(flag, ()):
+                for base in list(forms):
+                    if not regex or regex.search(base):
+                        forms.add(add + base)
+        for form in sorted(forms):
+            if form.isalpha():
+                words.add(fold(form))
+                if not stem[:1].isupper():
+                    common.add(fold(form))
+                    if spellings is not None:
+                        spellings.setdefault(fold(form), form)
+    return words, common
+
+
+def detect_language(text: str) -> str:
+    words = [fold(w) for w in WORD.findall(text)]
+    if not words:
+        return "none"
+    ro = sum(w in ROMANIAN_STOPWORDS for w in words) / len(words)
+    en = sum(w in ENGLISH_STOPWORDS for w in words) / len(words)
+    return "ro" if ro > en * 1.5 else ("en" if en > ro * 1.5 else "mix")
+
+
+def apply_case(original: str, replacement: str) -> str | None:
+    if original.islower():
+        return replacement
+    if original.isupper():
+        return replacement.upper()
+    return None  # Titlecase / mixed: names, left alone
+
+
+class Fixer:
+    def __init__(self, dictionary: set[str], common: set[str], counts: collections.Counter,
+                 bigrams: collections.Counter, *, spellings: dict[str, str] | None = None):
+        self.dict = dictionary
+        self.common = common
+        self.counts = counts
+        self.bigrams = bigrams
+        self.spellings = spellings
+
+    def replacement(self, original: str, replacement: str) -> str | None:
+        if self.spellings is not None:
+            replacement = " ".join(self.spellings.get(word, word) for word in replacement.split())
+        return apply_case(original, replacement)
+
+    # -- rule 1 -------------------------------------------------------------
+    def _is_nonword(self, frag: str) -> bool:
+        low = fold(frag)
+        if len(low) == 1:
+            return low not in "aoi"
+        return low not in self.dict
+
+    def join_pair(self, left: str, right: str) -> str | None:
+        if right.isupper() and len(right) == 1:
+            return None  # "vitamin A", "hepatita B"
+        same_case = (left.islower() or left.istitle()) and right.islower() or (left.isupper() and right.isupper())
+        if not same_case:
+            return None
+        joined = left + right
+        low = fold(joined)
+        if len(low) < 5 or not (low in self.common or (left.istitle() and low in self.dict)):
+            return None
+        if not (self._is_nonword(left) or self._is_nonword(right)):
+            return None
+        pair = self.bigrams.get((fold(left), fold(right)), 0)
+        if pair >= 3 and pair * 2 >= self.counts.get(low, 0):
+            return None
+        return joined
+
+    def join_line(self, line: str) -> tuple[str, list]:
+        changes: list = []
+        for _ in range(4):
+            tokens = list(TOKEN.finditer(line))
+            out: list[str] = []
+            pos = 0
+            i = 0
+            changed = False
+            while i < len(tokens):
+                tok = tokens[i]
+                nxt = tokens[i + 1] if i + 1 < len(tokens) else None
+                if nxt is not None and line[tok.end():nxt.start()] == " ":
+                    joined = self.join_pair(tok.group(), nxt.group())
+                    if joined:
+                        out.append(line[pos:tok.start()])
+                        out.append(joined)
+                        pos = nxt.end()
+                        changes.append(("join", f"{tok.group()} {nxt.group()}", joined))
+                        changed = True
+                        i += 2
+                        continue
+                i += 1
+            if not changed:
+                break
+            out.append(line[pos:])
+            line = "".join(out)
+        return line, changes
+
+    # -- rule 2 -------------------------------------------------------------
+    def _piece_ok(self, piece: str) -> bool:
+        if piece in FUNCTION_WORDS:
+            return True
+        return len(piece) >= 5 and piece in self.common and self.counts.get(piece, 0) >= 100 and piece not in PREFIXES
+
+    def split_token(self, low: str) -> list[str] | None:
+        if len(low) < 8 or low in self.dict or low in KEEP or self.counts.get(low, 0) > 3:
+            return None
+        best: list[str] | None = None
+        best_score = 0
+        n = len(low)
+        for i in range(2, n - 1):
+            left, rest = low[:i], low[i:]
+            if not self._piece_ok(left):
+                continue
+            options = [[rest]] if self._piece_ok(rest) else []
+            for j in range(2, len(rest) - 1):
+                mid, tail = rest[:j], rest[j:]
+                if self._piece_ok(mid) and self._piece_ok(tail):
+                    options.append([mid, tail])
+            for opt in options:
+                pieces = [left] + opt
+                if all(p in FUNCTION_WORDS for p in pieces):
+                    continue
+                score = min(self.counts.get(p, 10 ** 6 if p in FUNCTION_WORDS else 0) for p in pieces) / len(pieces)
+                if score > best_score:
+                    best, best_score = pieces, score
+        return best
+
+    # -- rule 3 / 4 ---------------------------------------------------------
+    def edits1(self, word: str) -> set[str]:
+        letters = "abcdefghijklmnopqrstuvwxyz"
+        splits = [(word[:i], word[i:]) for i in range(len(word) + 1)]
+        deletes = {a + b[1:] for a, b in splits if b}
+        transposes = {a + b[1] + b[0] + b[2:] for a, b in splits if len(b) > 1}
+        replaces = {a + c + b[1:] for a, b in splits if b for c in letters}
+        inserts = {a + c + b for a, b in splits for c in letters}
+        return (deletes | transposes | replaces | inserts) - {word}
+
+    def typo_fix(self, low: str) -> str | None:
+        if len(low) < 5 or low in self.dict or low in KEEP or self.counts.get(low, 0) > 2:
+            return None
+        own = self.counts.get(low, 0)
+        cands = []
+        for word in self.edits1(low):
+            freq = self.counts.get(word, 0)
+            if word not in self.common or freq < max(100, 30 * own):
+                continue
+            transposed = len(word) == len(low) and sorted(word) == sorted(low)
+            if len(low) < 7 and not transposed:
+                continue
+            # an edit touching the last two letters is more likely an inflection than a typo
+            tail = 0
+            while tail < min(len(word), len(low)) and word[-1 - tail] == low[-1 - tail]:
+                tail += 1
+            if tail < 2:
+                continue
+            if word[0] != low[0] and freq < 300:
+                continue
+            cands.append((freq, word))
+        if not cands:
+            return None
+        cands.sort(reverse=True)
+        if len(cands) > 1 and cands[0][0] < 5 * cands[1][0]:
+            return None
+        return cands[0][1]
+
+    def old_orthography_fix(self, low: str) -> str | None:
+        if low in OLD_ORTHOGRAPHY:
+            return OLD_ORTHOGRAPHY[low]
+        if len(low) < 6 or low in self.dict or low in KEEP:
+            return None
+        variants: set[str] = set()
+        for old, new in OLD_SWAPS:
+            if old not in low:
+                continue
+            variants.add(low.replace(old, new))
+            for m in re.finditer(old, low):
+                variants.add(low[:m.start()] + new + low[m.end():])
+        good = {v for v in variants if v in self.common and self.counts.get(v, 0) >= max(3, 3 * self.counts.get(low, 0))}
+        return good.pop() if len(good) == 1 else None
+
+    def fix_tokens(self, line: str):
+        changes: list = []
+
+        def repl(match: re.Match) -> str:
+            tok = match.group()
+            low = fold(tok)
+            if tok.istitle() and len(tok) > 1 or (tok.isupper() and len(tok) < 6) or low in self.dict:
+                return tok
+            pieces = self.split_token(low)
+            if pieces:
+                new = self.replacement(tok, " ".join(pieces))
+                if new:
+                    changes.append(("split", tok, new))
+                    return new
+            fix = self.old_orthography_fix(low)
+            rule = "orthography"
+            if not fix:
+                fix, rule = self.typo_fix(low), "typo"
+            if fix:
+                new = self.replacement(tok, fix)
+                if new:
+                    changes.append((rule, tok, new))
+                    return new
+            return tok
+
+        return TOKEN.sub(repl, line), changes
+
+    def fix_line(self, line: str):
+        if SKIP_LINE.search(line):
+            return line, []
+        line, c1 = self.join_line(line)
+        line, c2 = self.fix_tokens(line)
+        return line, c1 + c2
+
+
 # ---- The pipeline ----
 
 # Run every rule over one document, in order, and return the compacted text
@@ -861,8 +1161,6 @@ def compact_document(
 
     lines, colophon = strip_colophon_lines(staged.split("\n"))
     removals += colophon
-    lines, page_numbers = strip_page_number_lines(lines)
-    removals += page_numbers
     staged, repeated = strip_repeated_lines("\n".join(lines), titles=titles)
     removals += repeated
 
@@ -895,8 +1193,13 @@ def clean_documents(
     *,
     dry_run: bool,
     fold_diacritics_to_ascii: bool = FOLD_DIACRITICS_BY_DEFAULT,
+    spelling_report: Path | None = None,
 ) -> int:
-    """Compact every Markdown file under ``source`` in place.
+    """Compact every Markdown file and correct Romanian spelling.
+
+    The dictionary is loaded from ``dictionaires/ro`` beside this script.
+    A TSV report is written even in dry-run mode; document bytes and timestamps
+    remain unchanged then. Missing dictionaries fail before any source writes.
 
     Returns the number of files that changed. Raises DigitInvariantError when a
     file would have lost a number no whitelisted rule accounts for; that file is
@@ -911,36 +1214,84 @@ def clean_documents(
         (path for path in source.rglob("*.md") if path.is_file()),
         key=lambda item: item.relative_to(source).as_posix().casefold(),
     )
+    hunspell_dir = HUNSPELL_DIR.resolve()
+    spellings: dict[str, str] = {}
+    dictionary, common = build_dictionary(hunspell_dir, spellings=spellings)
+    spelling_report = (spelling_report or DEFAULT_SPELLING_REPORT).resolve()
+    if spelling_report in {path.resolve() for path in paths} | {
+        hunspell_dir / "ro_RO.dic", hunspell_dir / "ro_RO.aff",
+    } or (spelling_report.is_relative_to(source) and spelling_report.suffix.lower() == ".md"):
+        raise ValueError("The spelling report must not overwrite a source document or dictionary")
+    counts: collections.Counter[str] = collections.Counter()
+    bigrams: collections.Counter[tuple[str, str]] = collections.Counter()
+    romanian_files = 0
+    # Build statistics before any writes. Both dry-run and apply use exactly
+    # the same compacted corpus, with the same decoding and folding options.
+    for path in paths:
+        decoded, _ = _read(path)
+        cleaned, removals = compact_document(
+            decoded, stem=path.stem, fold_diacritics_to_ascii=fold_diacritics_to_ascii
+        )
+        if detect_language(cleaned) != "ro" or check_digit_invariant(decoded, cleaned, removals):
+            continue
+        romanian_files += 1
+        for line in cleaned.splitlines():
+            words = [fold(word) for word in WORD.findall(line)]
+            counts.update(words)
+            bigrams.update(zip(words, words[1:]))
+    fixer = Fixer(
+        dictionary, common, counts, bigrams,
+        spellings=None if fold_diacritics_to_ascii else spellings,
+    )
+    print(f"Spelling dictionary: {len(dictionary):,} forms; Romanian files: {romanian_files}", flush=True)
     changed = 0
     violations: list[tuple[str, list[str]]] = []
     removed_by_rule: collections.Counter[str] = collections.Counter()
     characters_before = 0
     characters_after = 0
+    spelling_totals: collections.Counter[str] = collections.Counter()
 
-    for path in paths:
-        decoded, encoding = _read(path)
-        cleaned, removals = compact_document(
-            decoded, stem=path.stem, fold_diacritics_to_ascii=fold_diacritics_to_ascii
-        )
-        missing = check_digit_invariant(decoded, cleaned, removals)
-        if missing:
+    with ExitStack() as stack:
+        spelling_report.parent.mkdir(parents=True, exist_ok=True)
+        report_handle = stack.enter_context(spelling_report.open("w", encoding="utf-8", newline=""))
+        report_writer = csv.writer(report_handle, delimiter="\t", lineterminator="\n")
+        report_writer.writerow(("file", "line", "rule", "before", "after"))
+        for path in paths:
+            decoded, encoding = _read(path)
+            cleaned, removals = compact_document(
+                decoded, stem=path.stem, fold_diacritics_to_ascii=fold_diacritics_to_ascii
+            )
+            corrections: list[tuple[int, str, str, str]] = []
+            if detect_language(cleaned) == "ro":
+                fixed_lines: list[str] = []
+                for number, line in enumerate(cleaned.split("\n"), 1):
+                    fixed, changes = fixer.fix_line(line)
+                    fixed_lines.append(fixed)
+                    corrections.extend((number, rule, before, after) for rule, before, after in changes)
+                cleaned = "\n".join(fixed_lines)
+            missing = check_digit_invariant(decoded, cleaned, removals)
+            if missing:
+                relative = path.relative_to(source).as_posix()
+                violations.append((relative, missing))
+                print(f"Skipped, digit invariant: {relative} (missing {', '.join(missing)})", flush=True)
+                continue
+            if cleaned == decoded:
+                continue
+
+            changed += 1
+            characters_before += len(decoded)
+            characters_after += len(cleaned)
+            for removal in removals:
+                removed_by_rule[removal.rule] += len(removal.text) + 1
+
             relative = path.relative_to(source).as_posix()
-            violations.append((relative, missing))
-            print(f"Skipped, digit invariant: {relative} (missing {', '.join(missing)})", flush=True)
-            continue
-        if cleaned == decoded:
-            continue
+            print(f"{'Would clean' if dry_run else 'Cleaning'}: {relative}", flush=True)
+            if not dry_run:
+                _write(path, cleaned, encoding)
 
-        changed += 1
-        characters_before += len(decoded)
-        characters_after += len(cleaned)
-        for removal in removals:
-            removed_by_rule[removal.rule] += len(removal.text) + 1
-
-        relative = path.relative_to(source).as_posix()
-        print(f"{'Would clean' if dry_run else 'Cleaning'}: {relative}", flush=True)
-        if not dry_run:
-            _write(path, cleaned, encoding)
+            for number, rule, before, after in corrections:
+                spelling_totals[rule] += 1
+                report_writer.writerow((relative, number, rule, before, after))
 
     verb = "Would rewrite" if dry_run else "Rewrote"
     print(f"{verb} {changed}/{len(paths)} files", flush=True)
@@ -960,6 +1311,8 @@ def clean_documents(
         f"digit-invariant violations: {len(violations)}",
         flush=True,
     )
+    print(f"Spelling corrections: {sum(spelling_totals.values())} {dict(spelling_totals)}", flush=True)
+    print(f"Spelling report: {spelling_report} (lines in compacted text)", flush=True)
     if violations:
         raise DigitInvariantError(violations)
     return changed
@@ -972,18 +1325,20 @@ def parse_args() -> argparse.Namespace:
     project_root = Path(__file__).resolve().parents[2]
     parser.add_argument("--source", type=Path, default=project_root / "medicina-naturista-documente" / "data" / "documents")
     parser.add_argument(
+        "--spelling-report", type=Path,
+        help="TSV correction report (default: var/spelling_changes.tsv)",
+    )
+    parser.add_argument(
         "--dry-run", action="store_true",
         help="List files that would change without writing them",
     )
     parser.add_argument(
-        "--fold-diacritics",
-        action=argparse.BooleanOptionalAction,
-        # Not store_true: the flag has to *default* to the module constant,
-        # otherwise running this script would silently override it.
+        "--no-fold-diacritics",
+        dest="fold_diacritics",
+        action="store_false",
         default=FOLD_DIACRITICS_BY_DEFAULT,
-        help="Replace the Romanian diacritics with plain ASCII letters "
-             "(ă/â -> a, î -> i, ș -> s, ț -> t); on by default, "
-             "--no-fold-diacritics keeps them",
+        help="Keep Romanian diacritics; by default they are replaced with ASCII "
+             "letters (ă/â -> a, î -> i, ș -> s, ț -> t)",
     )
     return parser.parse_args()
 
@@ -992,7 +1347,7 @@ def main() -> int:
     # A path in this corpus contains a diacritic ("Cărți/..."): on a Windows
     # console with a legacy code page, printing it raised UnicodeEncodeError and
     # aborted the run halfway through, leaving the corpus half-cleaned. Same fix
-    # as in extract_pdf_markdown.py / text_to_markdown.py.
+    # as in extract_pdf_markdown.py.
     sys.stdout.reconfigure(encoding="utf-8")
     sys.stderr.reconfigure(encoding="utf-8")
     arguments = parse_args()
@@ -1001,6 +1356,7 @@ def main() -> int:
             arguments.source,
             dry_run=arguments.dry_run,
             fold_diacritics_to_ascii=arguments.fold_diacritics,
+            spelling_report=arguments.spelling_report,
         )
     except DigitInvariantError as exc:
         print(f"ERROR: {exc}", file=sys.stderr, flush=True)

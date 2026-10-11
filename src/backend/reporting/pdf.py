@@ -7,6 +7,8 @@ from pathlib import Path
 import re
 from typing import Any
 
+from backend.ai.report_validation import ValidatedReport, PARTIAL_NOTICE
+
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
@@ -996,7 +998,7 @@ def generation_summary_lines(evidence: dict[str, dict[str, Any]], min_score: flo
 # Build the complete PDF report with sections, inline citations, and bibliography.
 def create_pdf(
     profile: dict[str, Any],
-    sections: dict[str, list[dict[str, Any]]],
+    sections: ValidatedReport | dict[str, list[dict[str, Any]]],
     evidence: dict[str, dict[str, str]],
     min_score: float = 0,
 ) -> bytes:
@@ -1056,6 +1058,9 @@ def create_pdf(
             leftIndent=4, spaceAfter=4,
         )
 
+    partial = isinstance(sections, ValidatedReport) and sections.partial
+    if isinstance(sections, ValidatedReport):
+        sections = sections.section_payload()
     title = report_title(profile)
     # The portrait sits at the top right of the cover; these paragraphs wrap
     # before it, while the info block below spans the full width.
@@ -1078,6 +1083,8 @@ def create_pdf(
         image_size=44 * mm,
     )]
     story.append(Spacer(1, 6 * mm))
+    if partial:
+        story.append(Paragraph(PARTIAL_NOTICE, styles["NaturalBody"]))
 
     headings = (
         "uz_intern",

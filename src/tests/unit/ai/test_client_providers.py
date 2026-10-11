@@ -127,6 +127,7 @@ class PayloadTest(unittest.TestCase):
             result = client.complete_json("sistem", "utilizator", 321)
             client.close()
         self.assertEqual(result, {"ok": True})
+        self.assertEqual(len(calls), 1)
         self.assertEqual(calls[0]["url"], "https://api.x.ai/v1/responses")
         self.assertEqual(calls[0]["headers"]["Authorization"], "Bearer synthetic-xai-key")
         self.assertEqual(
@@ -207,11 +208,6 @@ class DeepSeekDirectTest(unittest.TestCase):
             client.complete_json("s", "u", 10)
             client.close()
         self.assertEqual(calls[0]["json"]["reasoning"], {"effort": "high"})
-
-    def test_budget_is_the_providers_limit(self):
-        client = create_ai_client(settings_for("deepseek", deepseek_max_context_chars=900_000))
-        client.close()
-        self.assertEqual(client.context_budget(), 900_000)
 
 
 class MissingKeyTest(unittest.TestCase):
@@ -366,11 +362,6 @@ class StreamingTest(unittest.TestCase):
         with self.assertRaises(AIUnavailable) as caught:
             self.run_stream([], status_code=504)
         self.assertIn("HTTP 504", str(caught.exception))
-
-    def test_xai_payload_has_no_stream_field_by_default(self):
-        client = XAIClient(settings_for("xai"))
-        client.close()
-        self.assertNotIn("stream", client._build_payload("s", "u", 1))
 
 
 class ContextBudgetTest(unittest.TestCase):

@@ -163,7 +163,10 @@ def _validate(raw: Any, segment_count: int) -> tuple[dict[str, Any], ...]:
 
 # Ask one backend; raises _BackendFailure when it cannot give a valid answer.
 def _ask(backend: str, texts: tuple[str, ...]) -> tuple[dict[str, Any], ...]:
-    client = _client(backend)
+    return _ask_client(_client(backend), texts)
+
+
+def _ask_client(client: ResponsesClient, texts: tuple[str, ...]) -> tuple[dict[str, Any], ...]:
     if not client.is_configured():
         raise _BackendFailure(NO_TOKEN)
     try:
@@ -288,7 +291,13 @@ def resolved_for(profile: Any) -> ResolvedQuery:
 def warm_up() -> None:
     if "local" not in settings.condition_ai_backends:
         return
+    # Cold CUDA/model initialization can exceed the interactive timeout. Keep
+    # that allowance on a separate startup client, without changing patient requests.
+    provider = replace(_provider("local"), read_timeout_seconds=max(60, settings.condition_ai_timeout_seconds))
+    client = ResponsesClient(provider, settings)
     try:
-        _ask("local", ("gripa",))
+        _ask_client(client, ("gripa",))
     except _BackendFailure as failure:
         logger.warning("condition_ai_warm_up_failed reason=%s", failure.reason)
+    finally:
+        client.close()
