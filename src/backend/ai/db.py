@@ -68,7 +68,7 @@ CREATE TABLE IF NOT EXISTS chunks (
     secondary_medical_conditions TEXT[] NOT NULL DEFAULT '{}'
 );
 -- business_category (R1/R2/D1) and the two condition columns (canonical names
--- from medical_conditions.jsonl found in the fragment's title / in its text) are
+-- from the PostgreSQL catalog found in the fragment's title / in its text) are
 -- filled by ai/fragmenter.py. They replace the old `conditions` column;
 -- existing databases get them here and are refilled by the next index sync,
 -- which is why business_category stays nullable (there is no honest default for
@@ -157,6 +157,9 @@ def get_pool() -> ConnectionPool:
 # between runs (e.g. an ephemeral testcontainers Postgres).
 def close_pool() -> None:
     global _pool
+    from backend.ai.condition_repository import clear_catalog_cache
+
+    clear_catalog_cache()
     if _pool is not None:
         _pool.close()
         _pool = None

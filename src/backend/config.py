@@ -93,12 +93,12 @@ class Settings:
     # Device of the index build's embedding model: "cpu" (FastEmbed) or "cuda"
     # (PyTorch fp16, needs the GPU environment). Queries always run on the CPU.
     embedding_device: str = "cpu"
-    conditions_file: Path = CORPUS_DATA_DIR / "medical_conditions.jsonl"
     herbs_file: Path = CORPUS_DATA_DIR / "herbs.jsonl"
     frontend_dist_dir: Path = ROOT / "src" / "frontend" / "dist"
     database_url: str = field(
         default="postgresql://medicina:medicina@127.0.0.1:5432/medicina", repr=False
     )
+    database_bootstrap_url: str = field(default="", repr=False)
     temp_dir: Path = Path(
         "/tmp/naturist-sessions" if os.name != "nt" else str(ROOT / "var" / "sessions")
     )
@@ -181,9 +181,6 @@ class Settings:
             model_cache_dir=Path(env.get("MODEL_CACHE_DIR", str(ROOT / "model_cache"))),
             embedding_threads=_int("EMBEDDING_THREADS", min(8, os.cpu_count() or 8), env=env),
             embedding_device=_embedding_device(env=env),
-            conditions_file=Path(
-                env.get("CONDITIONS_FILE", str(CORPUS_DATA_DIR / "medical_conditions.jsonl"))
-            ),
             herbs_file=Path(env.get("HERBS_FILE", str(CORPUS_DATA_DIR / "herbs.jsonl"))),
             frontend_dist_dir=Path(
                 env.get("FRONTEND_DIST_DIR", str(ROOT / "src" / "frontend" / "dist"))
@@ -191,6 +188,7 @@ class Settings:
             database_url=env.get(
                 "DATABASE_URL", "postgresql://medicina:medicina@127.0.0.1:5432/medicina"
             ),
+            database_bootstrap_url=env.get("DATABASE_BOOTSTRAP_URL", ""),
             temp_dir=Path(
                 env.get(
                     "SESSION_TEMP_DIR",
@@ -317,7 +315,6 @@ class Settings:
         for name in (
             "documents_dir",
             "model_cache_dir",
-            "conditions_file",
             "herbs_file",
             "frontend_dist_dir",
             "temp_dir",
@@ -435,6 +432,10 @@ settings = Settings()
 def configure_settings(value: Settings) -> None:
     """Configure legacy retrieval modules explicitly at runtime, before workers start."""
     from dataclasses import fields
+
+    from backend.ai.condition_repository import clear_catalog_cache
+
+    clear_catalog_cache()
 
     for item in fields(Settings):
         object.__setattr__(settings, item.name, getattr(value, item.name))

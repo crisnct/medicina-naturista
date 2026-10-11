@@ -7,18 +7,15 @@ starting a container per test is too slow to be practical."""
 from __future__ import annotations
 
 import os
-import tempfile
 from dataclasses import replace
-from pathlib import Path
-from types import SimpleNamespace
 from unittest import mock
 
 from testcontainers.postgres import PostgresContainer
 
 from backend.ai import db as db_module
-from backend.ai import index_state
 from backend.config import Settings
-from tests.support.conditions import conditions_jsonl
+from scripts.migrate_database import migrate
+from tests.support.conditions import conditions_from_rows, replace_catalog
 
 
 class ExternalTestPostgres:
@@ -41,8 +38,6 @@ class PostgresFixture:
     def __init__(self) -> None:
         self._container: PostgresContainer | ExternalTestPostgres | None = None
         self._patch: mock._patch | None = None
-        self._dictionary_patch: mock._patch | None = None
-        self._dictionary_temp: tempfile.TemporaryDirectory | None = None
 
     # Start a pgvector-enabled container and point backend.ai.db at it.
     def start(self) -> None:
@@ -64,33 +59,18 @@ class PostgresFixture:
         self._patch = mock.patch.object(
             db_module,
             "settings",
-            SimpleNamespace(database_url=self._container.get_connection_url()),
+            replace(Settings(), database_url=self._container.get_connection_url()),
         )
         self._patch.start()
-        # Index compatibility reads the dictionary even with mocked embeddings.
-        # Keep both its bytes/fingerprint and parsed conditions synthetic in CI.
-        self._dictionary_temp = tempfile.TemporaryDirectory()
-        dictionary = Path(self._dictionary_temp.name) / "conditions.jsonl"
-        dictionary.write_text(
-            conditions_jsonl("Zorbita,zorbitoza,zorbit disease\nVertigo,ameteala\n"),
-            encoding="utf-8",
-        )
-        self._dictionary_patch = mock.patch.object(
-            index_state, "settings", replace(Settings(), conditions_file=dictionary)
-        )
-        self._dictionary_patch.start()
         db_module.close_pool()
-        db_module.ensure_schema()
+        migrate(self._container.get_connection_url())
+        self.reset()
 
     # Stop the container and undo the settings patch.
     def stop(self) -> None:
         db_module.close_pool()
         if self._patch is not None:
             self._patch.stop()
-        if self._dictionary_patch is not None:
-            self._dictionary_patch.stop()
-        if self._dictionary_temp is not None:
-            self._dictionary_temp.cleanup()
         if self._container is not None:
             self._container.stop()
 
@@ -99,5 +79,9 @@ class PostgresFixture:
         with db_module.get_pool().connection() as connection:
             connection.execute(
                 "TRUNCATE TABLE chunks, documents, sync_metadata RESTART IDENTITY CASCADE"
+            )
+            replace_catalog(
+                connection,
+                conditions_from_rows("Zorbita,zorbitoza,zorbit disease\nVertigo,ameteala\n"),
             )
             connection.commit()

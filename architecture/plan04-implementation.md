@@ -10,7 +10,7 @@ Rezultatele de mai jos provin din execuții locale; workflow-ul GitHub nu a fost
 | R03 | `Settings.from_env()` citește explicit mediul, validează opțiunile și păstrează separat secretele injectate. Profilul public cere HTTPS, cookies Secure și loguri fără conținut. |
 | R04 | Registrul existent limitează per proces căutările/identificările la 2 și generările la 1; duplicatele sunt refuzate înaintea limitei globale. Capacitatea rămâne ocupată până la ieșirea workerului. |
 | R05 | Bugetul de 600 secunde al operației este transmis prin context către AI, streaming, PDF și email. Timeouturile cererilor sunt limitate de bugetul rămas, iar rezultatele tardive nu se publică. |
-| R06 | Lockuri runtime/dev complete, cu hashuri, pentru Windows/Python 3.11 și Linux/Python 3.11/3.14. Docker folosește lockul Linux și `npm ci`. Mediul GPU nu este reinstalat. |
+| R06 | Lockuri runtime/dev complete, cu hashuri, pentru Windows/Python 3.11 și Linux/Python 3.11. Docker folosește lockul Linux și `npm ci`. Mediul GPU nu este reinstalat. |
 | R07 | Ruff/mypy configurate gradual; CI separat pentru static, unit, integrare PostgreSQL, frontend și build Docker. Unitarele cu infrastructură au fost separate de cele pure. |
 | R08 | 30 de cazuri etichetate explicit pentru un corpus sintetic, identificatori cale/hash, Recall@50, nDCG@10 cu grade, false positives și atenționări. CLI-ul poate captura rezultate reale și compara un baseline compatibil. |
 | F14 | README descrie comenzile implementate, instalarea din lockuri, testarea separată, operațiile și formularul owner cu login/logout prin POST și CSRF. |
@@ -37,9 +37,9 @@ $env:PYTHONPATH = "src"
 
 - Ruff, verificarea formatării celor 118 fișiere incluse și mypy pentru cele 7 module: trecute.
 - Windows/Python 3.11: 420 teste unittest unitare, 9 omise pentru dependențe PDF opționale; 80 teste de integrare, 6 omise pentru corpusul personal; 33 teste pytest trecute. Integrarea a folosit numai PostgreSQL temporar.
-- Linux/Python 3.11 și 3.14: instalări curate din lockurile dev cu hashuri și `pip check`, apoi aceeași matrice 420/80/33, cu aceleași omisiuni: trecute pe ambele versiuni. Fonturile Unicode sunt instalate explicit în CI.
+- Linux/Python 3.11: instalări curate din lockurile dev cu hashuri și `pip check`, apoi aceeași matrice 420/80/33, cu aceleași omisiuni: trecute. Fonturile Unicode sunt instalate explicit în CI.
 - Frontend: 45 teste, TypeScript și build Vite trecute. Build Docker cu prefix `/medicina` și cataloage sintetice: trecut, fără deployment.
-- Manifestul lockurilor: verificat pe Windows și pe ambele versiuni Linux.
+- Manifestul lockurilor: verificat pe Windows și pe Linux/Python 3.11.
 - După instalarea dependențelor PDF opționale, toate cele 9 teste de extragere au trecut în 2,4 secunde. Cele 5 teste ale cataloagelor locale au trecut în 1,1 secunde, iar testul de căutare gripă pe indexul real din Docker a trecut în 23,3 secunde, fără reindexare sau apeluri către AI.
 - Instalarea curată Windows/Python 3.11 din `requirements-dev.lock` a fost finalizată cu hashuri: `pip check`, manifestul lockurilor, 420 teste unittest (9 teste PDF opționale omise în acest mediu) și 22 teste pytest unitare au trecut. Testele PDF omise aici au fost validate separat în mediul de dezvoltare cu extra-urile instalate, conform rezultatului de mai sus. Mediul curat poate fi reutilizat din `tmp/plan04-clean-windows` pentru a evita reinstalările repetate.
 - Teste noi: timeouturi HTTP limitate de deadline, respingerea răspunsurilor tardive, heartbeat-uri după deadline, restaurarea contextului, capacitate păstrată până la ieșirea workerului, PDF tardiv, formular owner/CSP și formulele metricilor RAG.

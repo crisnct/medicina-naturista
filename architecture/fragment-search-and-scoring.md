@@ -10,7 +10,7 @@ Documentul are două părți: **[Partea I — Rezumat](#partea-i--rezumat)** (ce
 
 ## Partea I — Rezumat
 
-1. **Recunoașterea afecțiunii** (`resolve_query()`, `resolved_for()`) — mesajul se împarte la virgulă, iar în fiecare parte se caută afecțiunile din `data/medical_conditions.jsonl` (cu sinonime și toleranță la greșeli de scriere). Când dicționarul nu recunoaște nimic și semnalul A este bifat, afecțiunea este cerută unui model AI mic (`ai/condition_ai.py`). Pacientul vede în chat ce afecțiune s-a identificat.
+1. **Recunoașterea afecțiunii** (`resolve_query()`, `resolved_for()`) — mesajul se împarte la virgulă, iar în fiecare parte se caută afecțiunile din catalogul PostgreSQL (cu sinonime și toleranță la greșeli de scriere). Când dicționarul nu recunoaște nimic și semnalul A este bifat, afecțiunea este cerută unui model AI mic (`ai/condition_ai.py`). Pacientul vede în chat ce afecțiune s-a identificat.
 2. **Scorul** — pacientul alege din panoul „Căutare avansată” ce semnale intră în scor: **A** (afecțiuni), **B** (lexical), **C** (semantic). Implicit sunt toate trei: `score = 4·P1 + 2·P2 + L + V` (maximum 8); dacă mesajul nu numește nicio afecțiune, A se scoate din combinație (când mai rămâne B sau C):
    - **P1** — afecțiunea este în titlul fragmentului (semnalul A);
    - **P2** — afecțiunea este în textul fragmentului (semnalul A);
@@ -20,7 +20,7 @@ Documentul are două părți: **[Partea I — Rezumat](#partea-i--rezumat)** (ce
 3. **Căutarea** (`rank()`) — o singură interogare SQL notează toate fragmentele din sursele alese; se păstrează cele mai bune, cât încap în limita de text a furnizorului AI (fragmente întregi, tăiate de la coadă).
 4. **Dovezile** (`Retriever.collect()`) — fiecare fragment păstrat devine o dovadă `C<id>`, cu sursa, scorul și procentul de relevanță (față de maximul combinației de semnale folosite efectiv).
 5. **Afișarea** (`FragmentsPanel`) — pacientul vede fragmentele ordonate după scor și le poate filtra (scor, afecțiune, găsire lexicală, document); componentele și filtrele semnalelor nebifate sunt ascunse.
-6. **Setări** — limita de text per furnizor (`*_MAX_CONTEXT_CHARS`), dicționarul (`CONDITIONS_FILE`), identificarea prin AI (`CONDITION_AI_*`), modelul (`MODEL_CACHE_DIR`) și baza de date (`DATABASE_URL`).
+6. **Setări** — limita de text per furnizor (`*_MAX_CONTEXT_CHARS`), identificarea prin AI (`CONDITION_AI_*`), modelul (`MODEL_CACHE_DIR`) și baza de date (`DATABASE_URL`).
 
 ```text
 problema pacientului → afecțiuni recunoscute (dicționar, apoi AI) → score = Σ greutate·semnal, pe semnalele alese (implicit 4·P1 + 2·P2 + L + V)
@@ -37,11 +37,11 @@ Codul implicat (în `src/backend/`, respectiv `src/frontend/`): `ai/conditions.p
 
 Problema pacientului este căutată cu **o singură interogare** (`consultation_query()`: problema de sănătate, cu spațiile normalizate). Istoricul conversației nu este folosit. Dacă problema este goală sau nu conține niciun cuvânt, căutarea se oprește și returnează un inventar gol.
 
-- **1.1.** **Dicționarul de afecțiuni** (`data/medical_conditions.jsonl`, calea din `CONDITIONS_FILE`): o afecțiune pe linie, ca obiect JSON `{"name": ..., "synonyms": [...]}` — numele canonic, apoi sinonimele în română și engleză; liniile goale sunt ignorate, iar o linie invalidă oprește încărcarea cu o eroare care îi spune numărul. Fișierul se reîncarcă automat când se modifică; un fișier lipsă înseamnă că nu se recunoaște nicio afecțiune.
+- **1.1.** **Dicționarul de afecțiuni**: `medical_conditions(id, name)` și `medical_condition_synonyms(id, medical_condition_id, synonym)` din PostgreSQL, populate prin scripturi SQL înainte de fragmentare. Ordinea ID-urilor păstrează ordinea inserării; Python adaugă numele canonic la termenii de potrivire și îi normalizează în memorie. Snapshotul este reutilizat după fingerprintul datelor citite din cele două tabele; un catalog lipsă sau invalid produce 503. Runtime-ul nu citește JSONL și nu populează DB la pornire.
 - **1.2.** Mesajul se împarte la virgulă în **expresii**, iar afecțiunile se recunosc **în fiecare expresie separat** (`gripa, tuse` → Gripa și Tuse). Comparația ignoră diacriticele, majusculele și punctuația. Potrivirea în cadrul unei expresii, în ordine:
   - **1.2.1.** expresia este exact un termen din dicționar;
   - **1.2.2.** este o scriere aproape identică a unui termen întreg (raport `difflib` ≥ 0,9);
-  - **1.2.3.** termeni din dicționar apar ca cuvinte întregi în expresie; câștigă cei mai lungi (`adenom de prostata`, nu `adenom`);
+  - **1.2.3.** termeni din dicționar apar ca cuvinte întregi în expresie; se păstrează mențiunile separate, în ordinea apariției (`gripa si raceala` → ambele). Doar între potriviri suprapuse câștigă termenul mai lung (`adenom de prostata` în locul lui `adenom` la aceeași poziție);
   - **1.2.4.** ultima variantă: cel mai apropiat termen după scriere (raport ≥ 0,84).
   - Se recunosc cel mult 2 afecțiuni pe expresie.
 - **1.3.** Pentru fiecare expresie se reține și **restul** ei: cuvintele care nu fac parte din numele afecțiunii (`copii` în `gripa la copii`). Dacă expresia este chiar afecțiunea (sau o scriere aproape identică), restul este gol.
@@ -147,7 +147,6 @@ Fragmentele nu se unesc: fiecare este o secțiune întreagă (vezi `ai/fragmente
 | Variabilă | Implicit | Rol |
 |---|---|---|
 | `X_AI_MAX_CONTEXT_CHARS` / `DEEPSEEK_MAX_CONTEXT_CHARS` / `OLLAMA_MAX_CONTEXT_CHARS` / `HF_MAX_CONTEXT_CHARS` | 1.000.000 (HF: 120.000) | Bugetul textului dovezilor (caractere) pentru furnizorul activ; fragmente întregi eliminate de la coadă |
-| `CONDITIONS_FILE` | `data/medical_conditions.jsonl` | Dicționarul de afecțiuni și sinonime |
 | `CONDITION_AI_BACKENDS` | `local,huggingface` | Backendurile identificării prin AI (1.7), în ordine; gol dezactivează pasul |
 | `CONDITION_AI_LOCAL_MODEL` / `CONDITION_AI_LOCAL_BASE` | `gemma3:1b` / `http://localhost:11434/v1` | Modelul Ollama local de identificare |
 | `CONDITION_AI_HF_MODEL` | `HF_MODEL` (`deepseek-ai/DeepSeek-V4-Flash:deepinfra`) | Modelul de identificare prin routerul Hugging Face (`HF_API_BASE`, `HF_TOKEN`) |

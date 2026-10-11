@@ -1,16 +1,4 @@
-"""One-off: step P7 of the ICD-10 plan — insert tmp/icd10_work/add_<L>.jsonl into the dictionary.
-
-Each line of add_<L>.jsonl: {"name": ..., "synonyms": [...], "codes": [...]}.
-Before writing anything, every new line is checked against the rules of the
-shipped dictionary (ASCII, no comma, at least 6 synonyms, no duplicate term in the
-line, canonical name unused, no term already owned by another condition — G6).
-Any problem is printed and nothing is written.
-
-The new lines are inserted at their sorted place, key (_normalize(name), name);
-every existing line stays byte-for-byte identical.
-
-Run:  python src/scripts/icd10_work/apply_additions.py A [--check]
-"""
+"""Validate ICD additions against PostgreSQL and generate a new SQL migration."""
 from __future__ import annotations
 
 import json
@@ -19,10 +7,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "src"))
-from backend.ai.conditions import _normalize  # noqa: E402
+from backend.ai.conditions import _normalize, load_dictionary, make_condition  # noqa: E402
+from backend.config import Settings, configure_settings  # noqa: E402
+from scripts.condition_sql import additions_sql  # noqa: E402
 
 WORK = ROOT / "tmp" / "icd10_work"
-DICTIONARY = ROOT / "medicina-naturista-documente" / "data" / "medical_conditions.jsonl"
+MIGRATIONS = ROOT / "src" / "backend" / "migrations"
 
 
 def sort_key(name: str) -> tuple[str, str]:
@@ -58,12 +48,12 @@ def problems_of(rows: list[dict], existing: list[dict]) -> list[str]:
 
 
 def main() -> int:
+    configure_settings(Settings.from_env(dotenv=True))
     letter = sys.argv[1].upper()
     check_only = "--check" in sys.argv
     source = WORK / f"add_{letter}.jsonl"
     rows = [json.loads(line) for line in source.read_text(encoding="utf-8").splitlines() if line.strip()]
-    lines = DICTIONARY.read_text(encoding="utf-8").splitlines()
-    existing = [json.loads(line) for line in lines]
+    existing = [{"name": c.name, "synonyms": list(c.terms[1:])} for c in load_dictionary().conditions]
 
     problems = problems_of(rows, existing)
     if problems:
@@ -74,21 +64,13 @@ def main() -> int:
         print(f"{letter}: {len(rows)} new conditions pass every check")
         return 0
 
-    keys = [sort_key(record["name"]) for record in existing]
-    new_lines = sorted(
-        ((sort_key(row["name"]), json.dumps({"name": row["name"], "synonyms": row["synonyms"]}, ensure_ascii=False))
-         for row in rows),
-    )
-    merged: list[str] = []
-    position = 0
-    for key, line in new_lines:
-        while position < len(lines) and keys[position] <= key:
-            merged.append(lines[position])
-            position += 1
-        merged.append(line)
-    merged.extend(lines[position:])
-    DICTIONARY.write_text("\n".join(merged) + "\n", encoding="utf-8", newline="\n")
-    print(f"{letter}: inserted {len(rows)} conditions; dictionary now has {len(merged)}")
+    next_version = max(int(path.name.split("_", 1)[0]) for path in MIGRATIONS.glob("*.sql")) + 1
+    target = MIGRATIONS / f"{next_version:03d}_add_conditions_{letter.lower()}.sql"
+    ordered = sorted(rows, key=lambda row: sort_key(row["name"]))
+    seed = additions_sql([make_condition(row["name"], row["synonyms"]) for row in ordered])
+    with target.open("x", encoding="utf-8", newline="\n") as handle:
+        handle.write(seed)
+    print(f"{letter}: generated {target.name} with {len(rows)} additions; apply through reindexing")
     return 0
 
 

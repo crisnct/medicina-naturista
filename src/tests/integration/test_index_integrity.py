@@ -20,6 +20,7 @@ from backend.config import Settings
 from backend.core.errors import ApplicationError
 from backend.core.models import HealthProfile
 from scripts import build_hybrid_index as builder
+from tests.support.conditions import conditions_from_rows, replace_catalog
 from tests.support.postgres import PostgresFixture
 
 
@@ -36,21 +37,18 @@ def corpus(tmp_path, postgres):
     postgres.reset()
     source = tmp_path / "documents"
     source.mkdir()
-    dictionary = tmp_path / "conditions.jsonl"
-    dictionary.write_text('{"name":"Zorbita","synonyms":[]}\n', encoding="utf-8")
     (source / "A").mkdir()
     (source / "A" / "a.md").write_text("# Zorbita\nText sintetic.", encoding="utf-8")
-    config = replace(Settings(), conditions_file=dictionary, model_cache_dir=tmp_path / "models")
+    config = replace(Settings(), model_cache_dir=tmp_path / "models")
     with (
         patch.object(builder, "settings", config),
-        patch.object(index_state, "settings", config),
         patch.object(
             builder,
             "GPUUsageMonitor",
             return_value=nullcontext(SimpleNamespace(percent=lambda: "N/A")),
         ),
     ):
-        yield source, dictionary
+        yield source, postgres
 
 
 def sync(source, model=builder.DEFAULT_MODEL):
@@ -133,10 +131,11 @@ def test_every_failure_preserves_previous_generation(corpus, stage):
 
 
 def test_dictionary_only_change_rebuilds_and_missing_fingerprint_rebuilds(corpus):
-    source, dictionary = corpus
+    source, _postgres = corpus
     sync(source)
     before = snapshot()
-    dictionary.write_text('{"name":"Noua","synonyms":["Zorbita"]}\n', encoding="utf-8")
+    with db.get_pool().connection() as connection:
+        replace_catalog(connection, conditions_from_rows("Noua,Zorbita\n"))
     with pytest.raises(index_state.IndexUnavailable) as error:
         with index_state.index_reader():
             pass
@@ -152,18 +151,22 @@ def test_dictionary_only_change_rebuilds_and_missing_fingerprint_rebuilds(corpus
 
 
 def test_dictionary_change_during_calculation_aborts_publication(corpus):
-    source, dictionary = corpus
+    source, _postgres = corpus
     sync(source)
     before = snapshot()
     (source / "A" / "a.md").write_text("# Zorbita\nModificat.", encoding="utf-8")
 
     def changed(*args, **kwargs):
-        dictionary.write_text('{"name":"Alta","synonyms":[]}\n', encoding="utf-8")
         return np.ones((len(args[1]), args[3].dimension), dtype=np.float32)
 
     with (
         patch.object(builder, "create_embedding_model", return_value=object()),
         patch.object(builder, "embed_chunks", side_effect=changed),
+        patch.object(
+            builder,
+            "dictionary_snapshot",
+            side_effect=[index_state.dictionary_snapshot(), ("changed", None)],
+        ),
         pytest.raises(RuntimeError, match="DICTIONARY_CHANGED"),
     ):
         builder.build(source, builder.DEFAULT_MODEL)

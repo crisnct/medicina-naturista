@@ -11,11 +11,11 @@ Documentul are două părți: **[Partea I — Rezumat](#partea-i--rezumat)** (ce
 ## Partea I — Rezumat
 
 1. **Pornire** — `python src/scripts/build_hybrid_index.py` procesează `data/documents` (loturi de 8 ferestre); baza de date vine din `DATABASE_URL`.
-2. **Pregătire** — creează tabelele dacă lipsesc (`documents`, `chunks`, `sync_metadata`) și citește ce documente sunt deja indexate. Dacă regulile de fragmentare s-au schimbat (`TEXT_REPR_VERSION`) sau modelul de embedding este altul, totul se reindexează.
+2. **Pregătire** — creează baza dacă lipsește, aplică migrările SQL și populează afecțiunile lipsă înainte de fragmentare. Încarcă snapshotul DB și metadata indexului; o schimbare efectivă de catalog/model/profil cere reindexare completă.
 3. **Ce s-a schimbat** — un document cu același SHA-256 ca în bază este sărit complet; doar cele noi sau modificate merg mai departe.
-4. **Împărțirea în fragmente** (`fragment_document()`) — capitolul cu afecțiunea în titlu devine fragment **R1**, cel cu afecțiunea doar în text devine **R2**, iar restul se taie în bucăți **D1** de ~1800 de caractere. Afecțiunile vin din `data/medical_conditions.jsonl`. Fragmentele R1 și R2 primesc două liste de afecțiuni: `primary_medical_conditions` (cele din titlul fragmentului; la R2 mereu goală) și `secondary_medical_conditions` (cele din textul fragmentului, fără titlu). Fragmentele D1 nu au afecțiuni. Căutarea le folosește la scor (P1 și P2).
+4. **Împărțirea în fragmente** (`fragment_document()`) — capitolul cu afecțiunea în titlu devine fragment **R1**, cel cu afecțiunea doar în text devine **R2**, iar restul se taie în bucăți **D1** de ~1800 de caractere. Afecțiunile vin din catalogul PostgreSQL. Fragmentele R1 și R2 primesc două liste de afecțiuni: `primary_medical_conditions` (cele din titlul fragmentului; la R2 mereu goală) și `secondary_medical_conditions` (cele din textul fragmentului, fără titlu). Fragmentele D1 nu au afecțiuni. Căutarea le folosește la scor (P1 și P2).
 5. **Vectorii de sens** — modelul local `Qwen3-Embedding-0.6B` calculează pentru fiecare fragment un vector de 1024 de valori (fragmentele lungi sunt citite în ferestre de 1400 de caractere).
-6. **Salvarea** — o tranzacție per document: fragmentele vechi sunt înlocuite cu cele noi, cu vectorul (`embedding`) și indexul de cuvinte (`text_search`).
+6. **Salvarea** — documentele, fragmentele, vectorii și metadata sunt publicate într-o singură tranzacție, după calcularea și verificarea tuturor embeddings.
 7. **Curățenia** — documentele șterse din folder sunt șterse și din bază, împreună cu fragmentele lor.
 8. **Final** — se notează în `sync_metadata` modelul și data sincronizării și se afișează un rezumat JSON.
 
@@ -40,13 +40,13 @@ Conexiunea Postgres vine din `.env` (`DATABASE_URL`), citită de `backend.config
 ### 2. Pregătirea — `build_hybrid_index.py`
 
 - **2.1.** Convertește directorul sursă într-o cale absolută și verifică existența lui.
-- **2.2.** Alege profilul modelului cerut (`get_profile()` din `ai/embedding_model.py`: dimensiune, șabloane pentru întrebare și pasaj, dimensiunea ferestrelor; un model necunoscut oprește build-ul aici). Creează apoi extensiile, tabelele și indecșii Postgres dacă nu există deja (`ensure_schema(dimensiune)` din `ai/db.py` — extensiile `vector` și `unaccent`, tabelele `documents`, `chunks`, `sync_metadata`), printr-o conexiune separată, înainte de deschiderea pool-ului de conexiuni. Tot aici, pe o bază mai veche, sunt șterse coloanele învechite `chunks.priority` și `chunks.conditions` și adăugate `business_category`, `primary_medical_conditions` și `secondary_medical_conditions` (cu indecșii lor). Dacă coloana `chunks.embedding` există cu altă dimensiune (schimbare de model), în aceeași tranzacție sunt șterse `documents` (și `chunks`, prin CASCADE) și `sync_metadata`, iar coloana e recreată cu dimensiunea nouă. `get_pool()` (folosit de build și de aplicația web) apelează `ensure_schema()` fără dimensiune, care nu modifică niciodată date existente.
+- **2.2.** Validează modelul, apoi creează baza dacă lipsește și aplică automat migrările SQL înainte de obținerea lockului exclusiv de sesiune al indexerului. Schema și seed-ul catalogului se publică în aceeași tranzacție cu ledgerul și metadata catalogului. Migrările păstrează documentele și chunks existente. `get_pool()` nu execută DDL. Schimbarea dimensiunii embeddings se publică ulterior, în tranzacția indexului.
 - **2.3.** Creează directorul cache al modelului (`data/model_cache`, configurabil prin `MODEL_CACHE_DIR`) dacă lipsește.
 - **2.4.** Găsește recursiv toate fișierele cu extensia `.md` și le sortează determinist după calea relativă (fără diferență între majuscule și minuscule).
 - **2.5.** Oprește procesul dacă nu este găsit niciun fișier Markdown.
 - **2.6.** Interoghează `documents` pentru harta `cale_relativă → sha256` deja sincronizată și citește `text_repr_version` din `sync_metadata`.
 - **2.7.** Dacă versiunea stocată diferă de `TEXT_REPR_VERSION` (în prezent `"6"`, mărită la fiecare schimbare a regulilor de fragmentare/curățare a textului) sau lipsește (bază nouă), harta de la 2.6 este golită: toate documentele vor fi re-procesate, deși niciunul nu s-a schimbat pe disc. La o bază existentă se afișează „Text representation changed (… -> …); forcing a full resync”. La fel, dacă în `sync_metadata` există un nume de model diferit de cel cerut, harta este golită (se afișează „Embedding model changed (… -> …); forcing a full resync”): vectorii a două modele nu au voie să coexiste.
-- **2.8.** Încarcă dicționarul de afecțiuni din `data/medical_conditions.jsonl` (configurabil prin `CONDITIONS_FILE`); un fișier lipsă produce un dicționar gol, nu o eroare, dar un rând invalid oprește build-ul (`ValueError` cu numărul rândului).
+- **2.8.** Încarcă snapshotul ordonat al afecțiunilor din DB, pe conexiunea dedicată de indexare. Popularea prin SQL este deja încheiată înainte de fragmentare. Catalogul lipsă sau invalid oprește buildul. Fingerprintul semantic include numele, termenii și ordinea lor.
 
 ### 3. Decizia „sar peste” vs. „re-procesez”, per fișier
 

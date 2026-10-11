@@ -16,7 +16,7 @@ from unittest.mock import patch
 
 from fastapi.testclient import TestClient
 
-from backend.ai.conditions import ConditionDictionary, parse_conditions
+from backend.ai.conditions import ConditionDictionary
 from backend.config import Settings
 from backend.core.errors import ApplicationError
 from backend.core.models import OperationResult
@@ -26,7 +26,7 @@ from backend.core.sessions import SessionStore
 from backend.web.access_logs import OwnerAccessLogFilter
 from backend.web.dependencies import Dependencies
 from backend.web.main import COOKIE, OWNER_COOKIE, create_app
-from tests.support.conditions import conditions_jsonl
+from tests.support.conditions import conditions_from_rows
 from tests.support.owners import FakeOwnerRepository
 
 
@@ -88,9 +88,7 @@ class HTTPPlanTests(unittest.TestCase):
         self.client = TestClient(create_app(self.config, self.deps), base_url="https://testserver")
         self.addCleanup(self.client.close)
         self.addCleanup(self.deps.store.shutdown)
-        dictionary = ConditionDictionary(
-            parse_conditions(conditions_jsonl("Gripă,gripa\nMigrenă,migrena\n"))
-        )
+        dictionary = ConditionDictionary(conditions_from_rows("Gripă,gripa\nMigrenă,migrena\n"))
         patcher = patch("backend.ai.conditions.load_dictionary", return_value=dictionary)
         patcher.start()
         self.addCleanup(patcher.stop)

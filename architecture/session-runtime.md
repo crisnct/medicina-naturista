@@ -14,7 +14,7 @@ $env:PYTHONPATH = "src"
 .\.venv\Scripts\python.exe -m uvicorn backend.web.main:app --host 127.0.0.1 --port 7860 --workers 1
 ```
 
-CLI-ul aplică SQL versionat sub lock advisory, în tranzacție, cu ledger `schema_migrations`. `001_hybrid_index.sql` pregătește/adoptă schema existentă a indexului, fără rebuild; `002_owner_sessions.sql` creează autorizările. Conexiunile runtime nu execută DDL. Rebuildul și schimbarea dimensiunii embeddings rămân responsabilitatea CLI-ului de indexare.
+Reindexarea apelează CLI-ul intern, care aplică SQL versionat sub lock advisory, în tranzacție, cu ledger `schema_migrations`. `001_hybrid_index.sql` pregătește/adoptă schema existentă a indexului, fără rebuild; `002_owner_sessions.sql` creează autorizările; `003_medical_conditions.sql` și `004_seed_medical_conditions.sql` creează și populează catalogul înainte de fragmentare. Baza lipsă este creată de bootstrapul reindexării; aplicația web doar citește catalogul. Conexiunile runtime nu execută DDL. Rebuildul și schimbarea dimensiunii embeddings rămân responsabilitatea CLI-ului de indexare.
 
 Containerul aplicației include și `scripts.migrate_database`: migrarea poate fi executată din imaginea construită, după disponibilitatea bazei. Nu este executată implicit la pornirea serverului.
 

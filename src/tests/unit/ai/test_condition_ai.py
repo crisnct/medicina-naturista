@@ -15,12 +15,12 @@ import httpx
 
 from backend.ai import condition_ai, conditions
 from backend.ai.condition_ai import AIConditionResult
-from backend.ai.conditions import Condition, ConditionDictionary, parse_conditions, resolve_query
+from backend.ai.conditions import Condition, ConditionDictionary, resolve_query
 from backend.ai.search import ALL_SIGNALS, SearchSignals, effective_signals, max_score, weights
 from backend.config import settings as base_settings
 from backend.core.models import HealthProfile
 from backend.reporting.pdf import report_title
-from tests.support.conditions import conditions_jsonl
+from tests.support.conditions import conditions_from_rows
 
 DICTIONARY_TEXT = "Hipertiroidism,hipertiroidie,hyperthyroidism\nGripa,influenza,flu\n"
 
@@ -62,7 +62,7 @@ class ConditionAITestCase(unittest.TestCase):
     backends: tuple[str, ...] = ("local",)
 
     def setUp(self):
-        self.dictionary = ConditionDictionary(parse_conditions(conditions_jsonl(DICTIONARY_TEXT)))
+        self.dictionary = ConditionDictionary(conditions_from_rows(DICTIONARY_TEXT))
         test_settings = replace(base_settings, condition_ai_backends=self.backends)
         env = patch.dict(os.environ, {"HF_TOKEN": "synthetic-token"})
         for manager in (
@@ -512,7 +512,7 @@ class ResolvedForTests(ConditionAITestCase):
 
 class EffectiveSignalsTests(unittest.TestCase):
     def test_the_conditions_signal_is_dropped_when_the_message_names_no_condition(self):
-        resolved = ConditionDictionary(parse_conditions(conditions_jsonl(DICTIONARY_TEXT))).resolve(
+        resolved = ConditionDictionary(conditions_from_rows(DICTIONARY_TEXT)).resolve(
             "durere de cap"
         )
 
@@ -531,17 +531,16 @@ class EffectiveSignalsTests(unittest.TestCase):
                 )
 
     def test_the_signals_stay_when_the_message_names_a_condition(self):
-        resolved = ConditionDictionary(parse_conditions(conditions_jsonl(DICTIONARY_TEXT))).resolve(
-            "gripa"
-        )
+        resolved = ConditionDictionary(conditions_from_rows(DICTIONARY_TEXT)).resolve("gripa")
 
         self.assertIs(effective_signals(ALL_SIGNALS, resolved), ALL_SIGNALS)
 
     def test_a_condition_from_the_ai_keeps_the_conditions_signal(self):
-        resolved = condition_ai.with_ai_conditions(
-            resolve_query("durere de cap"), ({"index": 1, "name": "Cefalee", "terms": ["Cefalee"]},)
-        )
         with patch.object(conditions, "load_dictionary", return_value=ConditionDictionary([])):
+            resolved = condition_ai.with_ai_conditions(
+                resolve_query("durere de cap"),
+                ({"index": 1, "name": "Cefalee", "terms": ["Cefalee"]},),
+            )
             self.assertIs(effective_signals(ALL_SIGNALS, resolved), ALL_SIGNALS)
 
     def test_without_the_conditions_signal_the_best_fragment_can_reach_a_hundred_percent(self):
@@ -555,7 +554,7 @@ class EffectiveSignalsTests(unittest.TestCase):
 
 class ReportTitleTests(unittest.TestCase):
     def setUp(self):
-        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl(DICTIONARY_TEXT)))
+        dictionary = ConditionDictionary(conditions_from_rows(DICTIONARY_TEXT))
         manager = patch.object(conditions, "load_dictionary", return_value=dictionary)
         manager.start()
         self.addCleanup(manager.stop)

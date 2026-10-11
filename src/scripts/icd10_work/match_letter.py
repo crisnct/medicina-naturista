@@ -1,6 +1,6 @@
 """One-off: steps P1-P5 of the ICD-10 plan for one letter.
 
-Reads tmp/icd10_work/icd10_ro.jsonl and medicina-naturista-documente/data/medical_conditions.jsonl, keeps the
+Reads tmp/icd10_work/icd10_ro.jsonl and the PostgreSQL condition catalog, keeps the
 codes whose Romanian title starts with the letter (diacritics folded), drops the
 residual / non-disease titles, and matches the rest against the dictionary:
 
@@ -25,11 +25,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 sys.path.insert(0, str(ROOT / "src"))
-from backend.ai.conditions import _fold_word, _normalize, parse_conditions  # noqa: E402
+from backend.ai.conditions import _fold_word, _normalize, load_dictionary  # noqa: E402
+
+from backend.config import Settings, configure_settings  # noqa: E402
 
 WORK = ROOT / "tmp" / "icd10_work"
 SOURCE = WORK / "icd10_ro.jsonl"
-DICTIONARY = ROOT / "medicina-naturista-documente" / "data" / "medical_conditions.jsonl"
 
 MODALITIES = {"acut", "acuta", "acute", "subacut", "subacuta", "subacute", "cronic", "cronica",
               "cronice", "recurent", "recurenta", "recurente", "recidivant", "recidivanta"}
@@ -145,7 +146,7 @@ def drop_reason(row: dict, parent: dict | None) -> str | None:
 
 class Dictionary:
     def __init__(self) -> None:
-        self.conditions = parse_conditions(DICTIONARY.read_text(encoding="utf-8"))
+        self.conditions = load_dictionary().conditions
         self.by_term: dict[str, str] = {}
         self.by_folded: dict[tuple[str, ...], str] = {}
         self.by_core: dict[frozenset[str], set[str]] = {}
@@ -187,6 +188,7 @@ class Dictionary:
 
 
 def main() -> int:
+    configure_settings(Settings.from_env(dotenv=True))
     letter = sys.argv[1].upper()
     rows = [json.loads(line) for line in SOURCE.read_text(encoding="utf-8").splitlines() if line.strip()]
     by_code = {row["code"]: row for row in rows}

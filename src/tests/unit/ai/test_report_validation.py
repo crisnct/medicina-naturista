@@ -86,7 +86,10 @@ def test_same_notice_and_filtered_content_in_chat_and_pdf():
         report(uz_intern=[VALID, {"text": "ELIMINAT_SECRET", "evidence_ids": ["bad"]}]), EVIDENCE
     )
     chat = _recommendation_text(result, EVIDENCE)
-    pdf = create_pdf({"health_problem": "Test"}, result, EVIDENCE, 0)
+    from backend.ai.conditions import ConditionDictionary
+
+    with patch("backend.ai.conditions.load_dictionary", return_value=ConditionDictionary([])):
+        pdf = create_pdf({"health_problem": "Test"}, result, EVIDENCE, 0)
     text = "\n".join(page.extract_text() for page in PdfReader(io.BytesIO(pdf)).pages)
     assert PARTIAL_NOTICE in chat
     assert PARTIAL_NOTICE in text

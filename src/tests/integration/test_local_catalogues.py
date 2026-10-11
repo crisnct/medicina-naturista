@@ -1,11 +1,9 @@
 """Opt-in structural checks against the operator's local catalogues."""
 
-import json
 import os
 import unittest
 
 from backend.ai import conditions, herbs
-from backend.ai.conditions import parse_conditions
 from backend.config import Settings, configure_settings
 from tests.unit.ai.test_herbs import DELIVERED_SPECIES, content_problems
 
@@ -18,22 +16,19 @@ class LocalCatalogueTests(unittest.TestCase):
         configure_settings(Settings.from_env(dotenv=True))
 
     def test_shipped_dictionary_is_pure_ascii(self):
-        text = conditions.settings.conditions_file.read_text(encoding="utf-8")
+        parsed = conditions.load_dictionary().conditions
 
         # Canonical names are written verbatim into chunks.primary/secondary_medical_conditions,
         # and an extraction artefact such as a soft hyphen splits a term into two
         # words ("pio\xadtorax" -> "pio torax") that the scanned text never
         # contains, so the term silently stops matching. The terms are checked,
         # not the lines, so a JSON escape ("­") cannot hide one.
-        offenders = [
-            term for item in parse_conditions(text) for term in item.terms if not term.isascii()
-        ]
+        offenders = [term for item in parsed for term in item.terms if not term.isascii()]
         self.assertEqual(offenders, [])
 
     def test_shipped_dictionary_has_no_shared_terms(self):
-        text = conditions.settings.conditions_file.read_text(encoding="utf-8")
+        parsed = conditions.load_dictionary().conditions
 
-        parsed = parse_conditions(text)
         self.assertGreater(len(parsed), 10)
 
         # every term belongs to exactly one condition, so a search never resolves
@@ -48,23 +43,18 @@ class LocalCatalogueTests(unittest.TestCase):
                 owners[key] = item.name
 
     def test_shipped_dictionary_lines_are_complete(self):
-        text = conditions.settings.conditions_file.read_text(encoding="utf-8")
+        parsed = conditions.load_dictionary().conditions
 
-        for number, line in enumerate(text.splitlines(), 1):
-            with self.subTest(line=number):
-                record = json.loads(line)
-                self.assertEqual(list(record), ["name", "synonyms"])
-                terms = [record["name"], *record["synonyms"]]
-                # canonical name + 3 Romanian + 3 English synonyms
-                self.assertGreaterEqual(len(record["synonyms"]), 6)
-                for term in terms:
-                    # no blank term, no stray spaces
+        for item in parsed:
+            with self.subTest(condition=item.name):
+                self.assertGreaterEqual(len(item.terms), 7)
+                self.assertEqual(item.terms[0], item.name)
+                keys = [conditions._normalize(term) for term in item.terms]
+                self.assertEqual(len(set(keys)), len(keys))
+                for term in item.terms:
                     self.assertEqual(term, " ".join(term.split()))
                     self.assertTrue(term)
-                    # a message is split at commas, so a term with a comma could never match
                     self.assertNotIn(",", term)
-                # written without duplicates: parsing drops none of the terms
-                self.assertEqual(len(parse_conditions(line)[0].terms), len(terms))
 
     def test_shipped_catalogue_follows_every_rule(self):
         text = herbs.settings.herbs_file.read_text(encoding="utf-8")

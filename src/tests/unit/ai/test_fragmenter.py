@@ -3,24 +3,22 @@ from __future__ import annotations
 import unittest
 
 from backend.ai import fragmenter
-from backend.ai.conditions import ConditionDictionary, parse_conditions
+from backend.ai.conditions import ConditionDictionary
 from backend.ai.fragmenter import BusinessCategory, Fragment, fragment_document
-from tests.support.conditions import conditions_jsonl
+from tests.support.conditions import conditions_from_rows
 
 R1, R2, D1 = BusinessCategory.R1, BusinessCategory.R2, BusinessCategory.D1
 
 DICTIONARY = ConditionDictionary(
-    parse_conditions(
-        conditions_jsonl(
-            "Gripa,gripe,influenza,gout\n"
-            "Febra,fever\n"
-            "Constipatie\n"
-            "Acnee,acne\n"
-            "Insomnie\n"
-            "Adenom\n"
-            "Adenom colonic\n"
-            "RA\n"
-        )
+    conditions_from_rows(
+        "Gripa,gripe,influenza,gout\n"
+        "Febra,fever\n"
+        "Constipatie\n"
+        "Acnee,acne\n"
+        "Insomnie\n"
+        "Adenom\n"
+        "Adenom colonic\n"
+        "RA\n"
     )
 )
 
@@ -59,9 +57,7 @@ class ConditionDetectionTests(unittest.TestCase):
         self.assertEqual([c.name for c in DICTIONARY.find("RA este o boală")], ["RA"])
 
     def test_three_letter_acronyms_are_found(self):
-        dictionary = ConditionDictionary(
-            parse_conditions(conditions_jsonl("Hpv,human papillomavirus\n"))
-        )
+        dictionary = ConditionDictionary(conditions_from_rows("Hpv,human papillomavirus\n"))
 
         self.assertEqual([c.name for c in dictionary.find("Natural remedies for HPV")], ["Hpv"])
 

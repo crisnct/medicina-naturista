@@ -1,27 +1,13 @@
-"""Medical-condition dictionary (medicina-naturista-documente/data/medical_conditions.jsonl): one condition
-per line, as a JSON object {"name": ..., "synonyms": [...]} — the canonical
-name, then its Romanian and English synonyms. Used to recognise which
-conditions a message names (the
-canonical names drive the P1/P2 priorities of ai/search.py; the synonyms stand
-in for an expression that is the whole condition in its lexical query), so
-"gout" also finds the sections titled "Gută" / "artrită gutoasă"."""
+"""Medical-condition matching over an ordered PostgreSQL catalog snapshot."""
 
 from __future__ import annotations
 
-import json
-import logging
 import re
 from collections.abc import Iterable
 from dataclasses import dataclass
 from difflib import get_close_matches
-from functools import lru_cache
-from pathlib import Path
-from threading import Lock
 
 from backend.ai.query_terms import plain
-from backend.config import settings
-
-logger = logging.getLogger("naturist.conditions")
 
 # Typo tolerance (difflib ratio, 0-1): strict when the whole query is compared
 # to a term, looser as a last resort when nothing else matched.
@@ -80,35 +66,23 @@ def _normalize(value: str) -> str:
     return " ".join(re.findall(r"[^\W_]+", plain(value), flags=re.UNICODE))
 
 
-# Parse the dictionary text (JSON Lines). Blank lines are skipped; a line that is
-# not {"name": str, "synonyms": [str, ...]} raises ValueError with its number.
-# Terms (the name first, then the synonyms) are deduplicated by _normalize().
-def parse_conditions(text: str) -> list[Condition]:
-    conditions: list[Condition] = []
-    for number, line in enumerate(text.splitlines(), 1):
-        if not line.strip():
-            continue
-        try:
-            record = json.loads(line)
-        except json.JSONDecodeError as error:
-            raise ValueError(f"conditions line {number}: invalid JSON ({error.msg})") from None
-        if not isinstance(record, dict):
-            raise ValueError(f"conditions line {number}: expected a JSON object")
-        name, synonyms = record.get("name"), record.get("synonyms")
-        if not isinstance(name, str) or not _normalize(name):
-            raise ValueError(f"conditions line {number}: 'name' must be a non-empty string")
-        if not isinstance(synonyms, list) or not all(isinstance(item, str) for item in synonyms):
-            raise ValueError(f"conditions line {number}: 'synonyms' must be a list of strings")
-        terms: list[str] = []
-        seen: set[str] = set()
-        for part in (name, *synonyms):
-            part = " ".join(part.split())
-            key = _normalize(part)
-            if key and key not in seen:
-                seen.add(key)
-                terms.append(part)
-        conditions.append(Condition(name=terms[0], terms=tuple(terms)))
-    return conditions
+def make_condition(name: str, synonyms: Iterable[str] = ()) -> Condition:
+    """Construct effective terms using the original normalization/dedup rules."""
+    if not isinstance(name, str) or not _normalize(name):
+        raise ValueError("Condition name must be a non-empty string")
+    if isinstance(synonyms, (str, bytes)):
+        raise ValueError("Synonyms must be an iterable of strings")
+    terms: list[str] = []
+    seen: set[str] = set()
+    for part in (name, *synonyms):
+        if not isinstance(part, str):
+            raise ValueError("Synonyms must be strings")
+        part = " ".join(part.split())
+        key = _normalize(part)
+        if key and key not in seen:
+            seen.add(key)
+            terms.append(part)
+    return Condition(name=terms[0], terms=tuple(terms))
 
 
 # Romanian inflection endings folded away by _fold_word(), longest first, each
@@ -147,14 +121,14 @@ def _folded_words(text: str) -> list[str]:
 
 
 class ConditionDictionary:
-    def __init__(self, conditions: list[Condition]) -> None:
-        self.conditions = conditions
+    def __init__(self, conditions: Iterable[Condition]) -> None:
+        self.conditions = tuple(conditions)
         # normalized term -> indexes of the conditions that carry it
         self._by_term: dict[str, list[int]] = {}
         # Phrase index for find(): first folded word -> [(folded words, condition indexes)],
         # longest phrase first so the most specific term wins at a position.
         self._phrases: dict[str, list[tuple[tuple[str, ...], list[int]]]] = {}
-        for index, condition in enumerate(conditions):
+        for index, condition in enumerate(self.conditions):
             for term in condition.terms:
                 self._by_term.setdefault(_normalize(term), []).append(index)
         self._terms = list(self._by_term)
@@ -183,12 +157,32 @@ class ConditionDictionary:
             position += matched or 1
         return [self.conditions[index] for index in dict.fromkeys(found)]
 
+    def _contained_indexes(self, normalized: str) -> list[int]:
+        """Prefer longer overlapping terms; retain separate mentions in text order."""
+        padded = f" {normalized} "
+        matches: list[tuple[int, int, str]] = []
+        for term in self._terms:
+            start = padded.find(f" {term} ")
+            while start >= 0:
+                matches.append((start + 1, start + 1 + len(term), term))
+                start = padded.find(f" {term} ", start + 1)
+        selected: list[tuple[int, int, str]] = []
+        for start, end, term in sorted(matches, key=lambda match: (match[0] - match[1], match[0])):
+            if not any(
+                start < other_end and other_start < end for other_start, other_end, _ in selected
+            ):
+                selected.append((start, end, term))
+        return self._pick(
+            [index for _, _, term in sorted(selected) for index in self._by_term[term]]
+        )
+
     # The conditions the query names, best match first (at most
     # MAX_MATCHED_CONDITIONS), and whether the query IS the condition as a whole.
     # In order: 1. the whole query equals a term; 2. it is a near-identical
     # spelling of one (typo) — both are "whole" matches; 3. terms appearing as
-    # whole words inside the query, keeping only the longest ones ("adenom de
-    # prostata" beats "adenom"); 4. otherwise the closest term by spelling, to
+    # whole words inside the query, keeping separate mentions and preferring
+    # longer terms only where they overlap ("adenom de prostata" beats "adenom"
+    # at that position); 4. otherwise the closest term by spelling, to
     # absorb typos.
     def _match(self, query: str) -> tuple[list[int], bool]:
         normalized = _normalize(query)
@@ -204,14 +198,9 @@ class ConditionDictionary:
         )
         if typo:
             return self._pick([index for term in typo for index in self._by_term[term]]), True
-        padded = f" {normalized} "
-        contained = [term for term in self._terms if f" {term} " in padded]
+        contained = self._contained_indexes(normalized)
         if contained:
-            longest = max(len(term) for term in contained)
-            indexes = [
-                index for term in contained if len(term) == longest for index in self._by_term[term]
-            ]
-            return self._pick(indexes), False
+            return contained, False
         close = get_close_matches(
             normalized, self._terms, n=MAX_MATCHED_CONDITIONS, cutoff=FUZZY_CUTOFF
         )
@@ -282,42 +271,13 @@ class ConditionDictionary:
         return ResolvedQuery(tuple(segments))
 
 
-_dictionary_cache_lock = Lock()
+def load_dictionary() -> ConditionDictionary:
+    from backend.ai.index_state import active_dictionary, dictionary_snapshot
 
-
-@lru_cache(maxsize=4)
-def _parsed_dictionary(raw: bytes) -> ConditionDictionary:
-    conditions = parse_conditions(raw.decode("utf-8-sig"))
-    logger.info("conditions_loaded conditions=%s", len(conditions))
-    return ConditionDictionary(conditions)
-
-
-def dictionary_from_bytes(raw: bytes) -> ConditionDictionary:
-    """Share one parsed snapshot across query resolution and index validation.
-
-    Unchanged bytes reuse the same dictionary for the lifetime of the cache.
-    Serialize initial misses: lru_cache alone can execute simultaneous misses
-    more than once. New contents get a new snapshot without mutating readers.
-    """
-    with _dictionary_cache_lock:
-        return _parsed_dictionary(raw)
-
-
-# The dictionary from settings.conditions_file, reloaded when the file changes.
-# A missing file yields an empty dictionary (no condition recognised), never an error.
-def load_dictionary(path: Path | None = None) -> ConditionDictionary:
-    if path is None:
-        from backend.ai.index_state import active_dictionary
-
-        snapshot = active_dictionary()
-        if snapshot is not None:
-            return snapshot
-    path = path or settings.conditions_file
-    try:
-        return dictionary_from_bytes(path.read_bytes())
-    except OSError:
-        logger.warning("conditions_file_unavailable path=%s", path)
-        return ConditionDictionary([])
+    snapshot = active_dictionary()
+    if snapshot is not None:
+        return snapshot
+    return dictionary_snapshot()[1]
 
 
 # Conditions named in a text, using the configured dictionary.

@@ -1,54 +1,25 @@
-"""Read-only audit of medicina-naturista-documente/data/medical_conditions.jsonl: structure, duplicates, anomalies."""
+"""Read-only audit of the PostgreSQL condition catalog: structure, duplicates, anomalies."""
 
 from __future__ import annotations
 
 import collections
-import json
-import re
+import sys
 from pathlib import Path
 
-PATH = (
-    Path(__file__).resolve().parents[2]
-    / "medicina-naturista-documente"
-    / "data"
-    / "medical_conditions.jsonl"
-)
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from backend.ai.conditions import _normalize, load_dictionary  # noqa: E402
+from backend.config import Settings, configure_settings  # noqa: E402
 
-
-def plain(value: str) -> str:
-    table = str.maketrans("ăâîșțĂÂÎȘȚşţŞŢ", "aaistAAISTstST")
-    return value.translate(table)
-
-
-def normalize(value: str) -> str:
-    return " ".join(re.findall(r"[^\W_]+", plain(value).lower(), flags=re.UNICODE))
-
-
-lines = PATH.read_text(encoding="utf-8").splitlines()
-print(f"total lines: {len(lines)}")
-print(f"blank lines: {sum(1 for line_item in lines if not line_item.strip())}")
-
-widths = collections.Counter()
-rows: list[tuple[int, list[str]]] = []
-invalid: list[int] = []
-for number, line in enumerate(lines, 1):
-    if not line.strip():
-        continue
-    try:
-        record = json.loads(line)
-        parts = [" ".join(p.split()) for p in [record["name"], *record["synonyms"]]]
-    except (ValueError, KeyError, TypeError, AttributeError):
-        invalid.append(number)
-        continue
-    widths[len(parts)] += 1
-    rows.append((number, parts))
-
-print(f"invalid lines: {invalid}")
+configure_settings(Settings.from_env(dotenv=True))
+normalize = _normalize
+catalog = load_dictionary()
+rows = [(number, list(condition.terms)) for number, condition in enumerate(catalog.conditions, 1)]
+widths = collections.Counter(len(parts) for _, parts in rows)
 print(f"data rows: {len(rows)}")
-print(f"term counts (raw, before dedup): {dict(sorted(widths.items()))}")
+print(f"term counts (stored catalog): {dict(sorted(widths.items()))}")
 
 
-# how many fields survive the parser's exact-duplicate removal
+# Audit the effective terms using the runtime normalization rules.
 def surviving(parts: list[str]) -> list[str]:
     seen: list[str] = []
     for part in parts:
@@ -59,7 +30,7 @@ def surviving(parts: list[str]) -> list[str]:
 
 
 survived = collections.Counter(len(surviving(p)) for _, p in rows)
-print(f"terms after dedup (parser view): {dict(sorted(survived.items()))}")
+print(f"normalized unique terms: {dict(sorted(survived.items()))}")
 
 # canonical (first) names
 canon = [p[0] for _, p in rows]

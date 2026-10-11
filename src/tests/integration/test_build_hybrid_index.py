@@ -13,10 +13,9 @@ import psycopg
 from psycopg.rows import namedtuple_row
 
 from backend.ai import db as db_module
-from backend.ai.conditions import ConditionDictionary, parse_conditions
 from backend.ai.embedding_model import PROFILES, EmbeddingProfile, get_profile
 from scripts import build_hybrid_index as builder
-from tests.support.conditions import conditions_jsonl
+from tests.support.conditions import conditions_from_rows, replace_catalog
 from tests.support.postgres import PostgresFixture
 
 _fixture = PostgresFixture()
@@ -140,15 +139,9 @@ class SyncTests(unittest.TestCase):
         )
         (self.source / "Febra.md").write_text("Repaus și lichide.", encoding="utf-8")
 
-        with mock.patch.object(
-            builder,
-            "dictionary_snapshot",
-            return_value=(
-                builder.dictionary_snapshot()[0],
-                ConditionDictionary(parse_conditions(conditions_jsonl("Gripa,gripe\nFebra\n"))),
-            ),
-        ):
-            self._sync()
+        with db_module.get_pool().connection() as connection:
+            replace_catalog(connection, conditions_from_rows("Gripa,gripe\nFebra\n"))
+        self._sync()
 
         rows = self._rows(
             "chunks",

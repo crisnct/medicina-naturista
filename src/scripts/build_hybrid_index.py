@@ -27,7 +27,9 @@ from typing import Callable, Iterator, Sequence
 
 import numpy as np
 
+from backend.ai import db
 from backend.ai.categories import ROOT_CATEGORY_ID
+from backend.ai.condition_repository import FINGERPRINT_VERSION
 from backend.ai.db import _embedding_dimension
 from backend.ai.embedding_model import (
     DEFAULT_MODEL,
@@ -43,6 +45,8 @@ from backend.ai.index_state import (
     passage_profile,
 )
 from backend.config import settings
+from scripts.bootstrap_database import ensure_database
+from scripts.migrate_database import migrate
 
 # Minimum elapsed time between embedding progress messages.
 PROGRESS_INTERVAL_SECONDS = 10.0
@@ -401,6 +405,18 @@ def _write_document(
 # stored) are skipped entirely; new/changed files are re-chunked, re-embedded,
 # and published together in one transaction; files removed from source are deleted.
 def build(source: Path, model_name: str, batch_size: int = BATCH_SIZE) -> None:
+    if batch_size <= 0:
+        raise ValueError("INVALID_BATCH_SIZE")
+    source = source.resolve()
+    if not source.is_dir():
+        raise FileNotFoundError(f"Source directory does not exist: {source}")
+    get_profile(model_name)
+    created = ensure_database(db.settings.database_url, settings.database_bootstrap_url)
+    versions = migrate(db.settings.database_url)
+    print(
+        json.dumps({"stage": "database_ready", "created": created, "migrations": versions}),
+        flush=True,
+    )
     with GPUUsageMonitor() as monitor:
         with index_writer() as connection:
             _build(source, model_name, batch_size, gpu_usage=monitor.percent, connection=connection)
@@ -422,7 +438,7 @@ def _build(
 
     profile = get_profile(model_name)
     settings.model_cache_dir.mkdir(parents=True, exist_ok=True)
-    fingerprint, dictionary = dictionary_snapshot()
+    fingerprint, dictionary = dictionary_snapshot(connection)
 
     def traversal_error(error):
         raise error
@@ -446,6 +462,7 @@ def _build(
         "model_name": model_name,
         "model_dimension": str(profile.dimension),
         "dictionary_fingerprint": fingerprint,
+        "dictionary_fingerprint_version": str(FINGERPRINT_VERSION),
         "passage_profile": passage_profile(profile),
         "text_repr_version": TEXT_REPR_VERSION,
     }
@@ -564,8 +581,8 @@ def _build(
             raise RuntimeError("CORPUS_CHANGED_DURING_BUILD")
     current_relative_paths = {path.relative_to(source).as_posix() for path in paths}
     removed = sorted(stored_paths - current_relative_paths)
-    # Recheck the actual bytes; timestamps alone can miss dictionary replacement.
-    if dictionary_snapshot()[0] != fingerprint:
+    # Recheck the DB catalog before publication; all writers follow INDEX_LOCK.
+    if dictionary_snapshot(connection)[0] != fingerprint:
         raise RuntimeError("DICTIONARY_CHANGED_DURING_BUILD")
     with connection.transaction():
         if _embedding_dimension(connection) != profile.dimension:
@@ -586,7 +603,7 @@ def _build(
             offset += count
         if removed:
             connection.execute("DELETE FROM documents WHERE relative_path = ANY(%s)", (removed,))
-        if dictionary_snapshot()[0] != fingerprint:
+        if dictionary_snapshot(connection)[0] != fingerprint:
             raise RuntimeError("DICTIONARY_CHANGED_DURING_BUILD")
         metadata = {**expected, "last_synced_utc": utc_now(), "index_generation": str(uuid.uuid4())}
         for key, value in metadata.items():

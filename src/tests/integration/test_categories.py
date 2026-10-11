@@ -46,7 +46,8 @@ class LoadCategoryTreeTests(unittest.TestCase):
             metadata = {
                 "model_name": DEFAULT_MODEL,
                 "model_dimension": str(db_module._embedding_dimension(connection)),
-                "dictionary_fingerprint": dictionary_snapshot()[0],
+                "dictionary_fingerprint": dictionary_snapshot(connection)[0],
+                "dictionary_fingerprint_version": "1",
                 "passage_profile": passage_profile(profile),
                 "text_repr_version": TEXT_REPR_VERSION,
                 "index_generation": "category-test",

@@ -28,11 +28,9 @@ def digest(path: Path) -> str:
 def lock_names() -> tuple[str, str]:
     version = sys.version_info[:2]
     system = platform.system().lower()
-    if version not in {(3, 11), (3, 14)} or system not in {"windows", "linux"}:
-        raise ValueError("generate locks on Python 3.11/3.14 on Windows or Linux")
-    suffix = (
-        "" if (version, system) == ((3, 11), "windows") else f"-py{version[0]}{version[1]}-{system}"
-    )
+    if version != (3, 11) or system not in {"windows", "linux"}:
+        raise ValueError("generate locks on Python 3.11 on Windows or Linux")
+    suffix = "" if system == "windows" else "-py311-linux"
     return f"requirements-runtime{suffix}.lock", f"requirements-dev{suffix}.lock"
 
 
@@ -84,7 +82,7 @@ def record(runtime: str, development: str, input_fingerprint: str) -> None:
 
 def check() -> None:
     manifest = json.loads(MANIFEST.read_text(encoding="utf-8"))
-    if not {"windows-py311", "linux-py311", "linux-py314"} <= manifest["environments"].keys():
+    if not {"windows-py311", "linux-py311"} <= manifest["environments"].keys():
         raise ValueError("generate all supported Windows/Linux lock environments")
     for key, value in manifest["environments"].items():
         if value["pyproject_sha256"] != digest(ROOT / "pyproject.toml"):

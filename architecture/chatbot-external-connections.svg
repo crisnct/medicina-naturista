@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1420" viewBox="0 0 1280 1420" role="img" aria-labelledby="title description">
 <title id="title">Chatbot medicina-naturista — conexiuni conform implementării</title>
-<desc id="description">React comunică cu FastAPI direct în dezvoltare sau prin Caddy în Compose; tunelul și proxy-ul JobsHunter sunt opționale și externe stivei. Dicționarul local medical_conditions.jsonl rezolvă afecțiunile. Identificarea AI opțională folosește implicit Ollama gemma3:1b, apoi Hugging Face numai la eșecul backendului anterior. Căutarea locală combină semnalele A, B și C în PostgreSQL cu pgvector și FTS; întrebările sunt încorporate pe CPU cu Qwen3 din cache, offline. Generarea raportului este separată, autorizată pentru proprietar și folosește AI_PROVIDER. Raportul validat produce PDF local. Emailul cerut ulterior folosește Google OAuth2 și Gmail API. Scriptul de sincronizare citește Markdown și dicționarul JSONL, descarcă modelul în cache la pregătire și publică indexul într-o tranzacție PostgreSQL. Indexarea acceptă CPU sau CUDA.</desc>
+<desc id="description">React comunică cu FastAPI direct în dezvoltare sau prin Caddy în Compose; tunelul și proxy-ul JobsHunter sunt opționale și externe stivei. Catalogul PostgreSQL rezolvă afecțiunile. Identificarea AI opțională folosește implicit Ollama gemma3:1b, apoi Hugging Face numai la eșecul backendului anterior. Căutarea locală combină semnalele A, B și C în PostgreSQL cu pgvector și FTS; întrebările sunt încorporate pe CPU cu Qwen3 din cache, offline. Generarea raportului este separată, autorizată pentru proprietar și folosește AI_PROVIDER. Raportul validat produce PDF local. Emailul cerut ulterior folosește Google OAuth2 și Gmail API. Scriptul de sincronizare citește Markdown și aplică seed-ul SQL înainte de fragmentare, descarcă modelul în cache la pregătire și publică indexul într-o tranzacție PostgreSQL. Indexarea acceptă CPU sau CUDA.</desc>
 <style>
 text { font-family: "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif; }
 .title { font-size: 23px; font-weight: 650; fill: #343431; }
@@ -60,8 +60,8 @@ text { font-family: "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-ser
 </g>
 <g class="teal"><rect x="35" y="350" width="300" height="95" rx="6"/>
 <text class="th" x="185" y="375" text-anchor="middle">Dicționar JSON Lines</text>
-<text class="code" x="185" y="399" text-anchor="middle">medical_conditions.jsonl</text>
-<text class="ts" x="185" y="421" text-anchor="middle">CONDITIONS_FILE · nume + sinonime</text>
+<text class="code" x="185" y="399" text-anchor="middle">medical_conditions · DB</text>
+<text class="ts" x="185" y="421" text-anchor="middle">PostgreSQL · nume + sinonime</text>
 </g>
 <path d="M335 415H400" class="arr" marker-end="url(#arrow)"/>
 <path d="M635 445V475" class="arr" marker-end="url(#arrow)"/>
@@ -154,7 +154,7 @@ text { font-family: "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-ser
 <text class="th" x="185" y="1200" text-anchor="middle">Surse și dicționar locale</text>
 <text class="code" x="185" y="1224" text-anchor="middle">medicina-naturista-documente/data/</text>
 <text class="code" x="185" y="1246" text-anchor="middle">documents/ (Markdown)</text>
-<text class="code" x="185" y="1268" text-anchor="middle">medical_conditions.jsonl</text>
+<text class="code" x="185" y="1268" text-anchor="middle">medical_conditions · DB</text>
 </g>
 <g class="gray"><rect x="400" y="1175" width="470" height="125" rx="6"/>
 <text class="th" x="635" y="1200" text-anchor="middle">src/scripts/build_hybrid_index.py</text>

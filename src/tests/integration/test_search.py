@@ -16,10 +16,10 @@ import numpy as np
 
 from backend.ai import condition_ai, conditions, search
 from backend.ai import db as db_module
-from backend.ai.conditions import ConditionDictionary, parse_conditions
+from backend.ai.conditions import ConditionDictionary
 from backend.ai.embedding_model import PROFILES, EmbeddingProfile, get_profile
 from scripts import build_hybrid_index as builder
-from tests.support.conditions import conditions_jsonl
+from tests.support.conditions import conditions_from_rows
 from tests.support.postgres import PostgresFixture
 
 _fixture = PostgresFixture()
@@ -38,7 +38,7 @@ def tearDownModule():
 
 
 def _dictionary() -> ConditionDictionary:
-    return ConditionDictionary(parse_conditions(conditions_jsonl(DICTIONARY_TEXT)))
+    return ConditionDictionary(conditions_from_rows(DICTIONARY_TEXT))
 
 
 # A fake FastEmbed model whose query_embed always returns the same fixed
@@ -437,6 +437,22 @@ class ConditionsOnlyTests(RankTestCase):
             search, "cached_query_model", side_effect=AssertionError("no model")
         ):
             self.assertEqual(search.rank("durere de cap", signals=_signals("A")), [])
+
+
+class SeparateConditionMentionsTests(RankTestCase):
+    documents = {
+        "a/zorbita.md": "# Zorbita\n\nRepaus recomandat.",
+        "a/vertigo.md": "# Vertigo\n\nRepaus recomandat.",
+        "a/other.md": "# Diverse\n\nCeai cald.",
+    }
+    vectors = {path: _one_hot(DIM, index + 3) for index, path in enumerate(documents)}
+
+    def test_search_returns_evidence_for_both_separate_conditions_of_different_lengths(self):
+        for query in ("remedii pentru zorbita si ameteala", "remedii pentru ameteala si zorbita"):
+            with self.subTest(query=query):
+                results = self.by_path(search.rank(query, signals=_signals("A")))
+                self.assertEqual(set(results), {"a/zorbita.md", "a/vertigo.md"})
+                self.assertTrue(all(item["condition_in_title"] for item in results.values()))
 
 
 class ExpressionTests(RankTestCase):

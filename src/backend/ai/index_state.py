@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import hashlib
 import json
 from contextlib import contextmanager
 from contextvars import ContextVar
@@ -11,9 +10,12 @@ import psycopg
 from pydantic import BaseModel
 
 from backend.ai import db
-from backend.ai.conditions import dictionary_from_bytes
+from backend.ai.condition_repository import (
+    FINGERPRINT_VERSION,
+    CatalogUnavailable,
+    catalog_snapshot,
+)
 from backend.ai.embedding_model import get_profile
-from backend.config import settings
 from backend.core.errors import ApplicationError
 
 INDEX_LOCK = 7261040202
@@ -37,6 +39,7 @@ class IndexMetadata(BaseModel):
     model_name: str
     model_dimension: int
     dictionary_fingerprint: str
+    dictionary_fingerprint_version: int
     passage_profile: str
     text_repr_version: str
     index_generation: str
@@ -48,9 +51,21 @@ def passage_profile(profile) -> str:
     )
 
 
-def dictionary_snapshot():
-    raw = settings.conditions_file.read_bytes()
-    return hashlib.sha256(raw).hexdigest(), dictionary_from_bytes(raw)
+def dictionary_snapshot(connection=None):
+    if connection is not None:
+        snapshot = catalog_snapshot(connection)
+        return snapshot.fingerprint, snapshot.dictionary
+    try:
+        with db.get_pool().connection() as connection:
+            with connection.transaction():
+                if not connection.execute(
+                    "SELECT pg_try_advisory_xact_lock_shared(%s)", (INDEX_LOCK,)
+                ).fetchone()[0]:
+                    raise IndexUnavailable()
+                snapshot = catalog_snapshot(connection)
+                return snapshot.fingerprint, snapshot.dictionary
+    except psycopg.Error:
+        raise IndexUnavailable("INDEX_UNAVAILABLE") from None
 
 
 def read_metadata(connection, fingerprint=None) -> IndexMetadata:
@@ -60,9 +75,10 @@ def read_metadata(connection, fingerprint=None) -> IndexMetadata:
         )
         profile = get_profile(metadata.model_name)
         if fingerprint is None:
-            fingerprint, _ = dictionary_snapshot()
+            fingerprint, _ = dictionary_snapshot(connection)
         if (
             metadata.dictionary_fingerprint != fingerprint
+            or metadata.dictionary_fingerprint_version != FINGERPRINT_VERSION
             or metadata.model_dimension != profile.dimension
             or metadata.passage_profile != passage_profile(profile)
             or metadata.text_repr_version != TEXT_REPR_VERSION
@@ -90,21 +106,15 @@ def index_reader():
                 if not locked:
                     raise IndexUnavailable()
                 try:
-                    fingerprint, dictionary = dictionary_snapshot()
-                except (OSError, ValueError, UnicodeError):
+                    fingerprint, dictionary = dictionary_snapshot(connection)
+                except (CatalogUnavailable, ValueError, UnicodeError):
                     raise IndexUnavailable("INDEX_RESYNC_REQUIRED") from None
                 metadata = read_metadata(connection, fingerprint)
                 token = _reader.set((connection, metadata))
                 dictionary_token = _dictionary.set(dictionary)
                 try:
                     yield connection, metadata
-                    try:
-                        unchanged = (
-                            hashlib.sha256(settings.conditions_file.read_bytes()).hexdigest()
-                            == fingerprint
-                        )
-                    except OSError:
-                        unchanged = False
+                    unchanged = dictionary_snapshot(connection)[0] == fingerprint
                     if not unchanged:
                         raise IndexUnavailable("INDEX_RESYNC_REQUIRED")
                 finally:

@@ -7,10 +7,10 @@ from __future__ import annotations
 import unittest
 
 from backend.ai import search
-from backend.ai.conditions import ConditionDictionary, parse_conditions
+from backend.ai.conditions import ConditionDictionary
 from backend.ai.embedding_model import get_profile
 from scripts import build_hybrid_index as builder
-from tests.support.conditions import conditions_jsonl
+from tests.support.conditions import conditions_from_rows
 
 DIM = get_profile(builder.DEFAULT_MODEL).dimension
 
@@ -19,7 +19,7 @@ DICTIONARY_TEXT = "Zorbita,zorbitoza,zorbit disease\nVertigo,ameteala\n"
 
 
 def _dictionary() -> ConditionDictionary:
-    return ConditionDictionary(parse_conditions(conditions_jsonl(DICTIONARY_TEXT)))
+    return ConditionDictionary(conditions_from_rows(DICTIONARY_TEXT))
 
 
 def _queries(text: str) -> list[str]:

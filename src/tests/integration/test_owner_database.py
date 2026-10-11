@@ -8,7 +8,7 @@ import unittest
 import psycopg
 
 from backend.core.owner_auth import OwnerAuth, PostgresOwnerSessionRepository
-from scripts.migrate_database import migrate
+from scripts.migrate_database import MIGRATIONS, migrate
 from tests.support.postgres import PostgresFixture
 
 fixture = PostgresFixture()
@@ -59,7 +59,8 @@ class OwnerDatabaseTests(unittest.TestCase):
         self.assertEqual(migrate(self.url), [])
         with psycopg.connect(self.url) as conn:
             self.assertEqual(
-                conn.execute("SELECT COUNT(*) FROM schema_migrations").fetchone()[0], 2
+                conn.execute("SELECT COUNT(*) FROM schema_migrations").fetchone()[0],
+                len(list(MIGRATIONS.glob("*.sql"))),
             )
             conn.execute("ALTER TABLE owner_sessions RENAME TO owner_sessions_hidden")
         try:

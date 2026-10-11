@@ -7,6 +7,7 @@ from pathlib import Path
 
 import psycopg
 
+from backend.ai.condition_repository import read_conditions
 from backend.ai.index_state import INDEX_LOCK
 from backend.config import Settings
 
@@ -29,6 +30,7 @@ def migrate(database_url: str) -> list[str]:
             conn.execute(path.read_text(encoding="utf-8-sig"))
             conn.execute("INSERT INTO schema_migrations (version) VALUES (%s)", (path.name,))
             applied.append(path.name)
+        read_conditions(conn)
     return applied
 
 

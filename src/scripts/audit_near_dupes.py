@@ -7,15 +7,11 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from backend.ai.conditions import _normalize, parse_conditions  # noqa: E402
+from backend.ai.conditions import _normalize, load_dictionary  # noqa: E402
+from backend.config import Settings, configure_settings  # noqa: E402
 
-PATH = (
-    Path(__file__).resolve().parents[2]
-    / "medicina-naturista-documente"
-    / "data"
-    / "medical_conditions.jsonl"
-)
-canon = [condition.name for condition in parse_conditions(PATH.read_text(encoding="utf-8"))]
+configure_settings(Settings.from_env(dotenv=True))
+canon = [condition.name for condition in load_dictionary().conditions]
 norm = {_normalize(c): c for c in canon}
 keys = sorted(norm)
 key_set = set(keys)
