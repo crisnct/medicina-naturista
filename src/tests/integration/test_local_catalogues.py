@@ -4,8 +4,9 @@ import os
 import unittest
 
 from backend.ai import conditions, herbs
+from backend.ai.herb_validation import catalog_problems
 from backend.config import Settings, configure_settings
-from tests.unit.ai.test_herbs import DELIVERED_SPECIES, content_problems
+from tests.unit.ai.test_herbs import DELIVERED_SPECIES
 
 
 @unittest.skipUnless(
@@ -57,15 +58,13 @@ class LocalCatalogueTests(unittest.TestCase):
                     self.assertNotIn(",", term)
 
     def test_shipped_catalogue_follows_every_rule(self):
-        text = herbs.settings.herbs_file.read_text(encoding="utf-8")
-
-        self.assertEqual(content_problems(text), [])
+        self.assertEqual(catalog_problems(herbs.load_herbs().herbs, source=False), [])
 
     def test_shipped_catalogue_is_complete(self):
         catalog = herbs.load_herbs()
 
         self.assertGreaterEqual(len(catalog.herbs), DELIVERED_SPECIES)
         # a shared Romanian name finds every species that carries it
-        found = [herb.id for herb in catalog.lookup("paducel")]
-        self.assertIn("crataegus-monogyna", found)
-        self.assertIn("crataegus-laevigata", found)
+        found = [herb.latin for herb in catalog.lookup("paducel")]
+        self.assertIn("crataegus monogyna", found)
+        self.assertIn("crataegus laevigata", found)

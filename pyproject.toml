@@ -36,6 +36,7 @@ include-package-data = true
 
 [tool.setuptools.packages.find]
 where = ["src"]
+include = ["backend*", "scripts*"]
 
 [tool.setuptools.package-data]
 backend = [

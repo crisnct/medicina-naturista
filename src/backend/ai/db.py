@@ -158,8 +158,10 @@ def get_pool() -> ConnectionPool:
 def close_pool() -> None:
     global _pool
     from backend.ai.condition_repository import clear_catalog_cache
+    from backend.ai.herb_repository import clear_herb_catalog_cache
 
     clear_catalog_cache()
+    clear_herb_catalog_cache()
     if _pool is not None:
         _pool.close()
         _pool = None

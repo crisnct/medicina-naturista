@@ -28,7 +28,6 @@ RUN pip install --no-cache-dir --require-hashes -r requirements-runtime-py311-li
 COPY pyproject.toml README.md ./
 COPY src/backend ./src/backend
 COPY src/scripts ./src/scripts
-COPY medicina-naturista-documente/data/herbs.jsonl ./medicina-naturista-documente/data/herbs.jsonl
 COPY --from=frontend-build /frontend/dist ./src/frontend/dist
 
 RUN useradd --uid 10001 --create-home appuser \

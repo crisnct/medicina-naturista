@@ -3,13 +3,16 @@
 from __future__ import annotations
 
 import argparse
+import logging
 from pathlib import Path
 
 import psycopg
 
 from backend.ai.condition_repository import read_conditions
+from backend.ai.herb_repository import read_herbs
 from backend.ai.index_state import INDEX_LOCK
 from backend.config import Settings
+from backend.core.errors import ApplicationError
 
 MIGRATIONS = Path(__file__).resolve().parents[1] / "backend" / "migrations"
 
@@ -31,6 +34,7 @@ def migrate(database_url: str) -> list[str]:
             conn.execute("INSERT INTO schema_migrations (version) VALUES (%s)", (path.name,))
             applied.append(path.name)
         read_conditions(conn)
+        read_herbs(conn)
     return applied
 
 
@@ -40,7 +44,15 @@ def main() -> None:
     config = Settings.from_env(dotenv=True)
     try:
         versions = migrate(config.database_url)
-    except psycopg.Error:
+    except ApplicationError as error:
+        raise SystemExit(f"Migrarea a eșuat la validarea cataloagelor: {error.code}") from None
+    except psycopg.Error as error:
+        logging.getLogger(__name__).error(
+            "migration_failed stage=sql error_type=%s sqlstate=%s message=%s",
+            type(error).__name__,
+            error.sqlstate,
+            error.diag.message_primary if error.sqlstate else "connection unavailable",
+        )
         raise SystemExit(
             "Migrarea a eșuat. Verificați PostgreSQL și permisiunile; nicio migrare parțială nu a fost publicată."
         ) from None

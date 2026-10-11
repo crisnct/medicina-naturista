@@ -25,6 +25,7 @@ jobs:
       - run: python -m ruff check src
       - run: python -m ruff format --check src
       - run: python -m mypy
+      - run: python -m mypy src/backend/ai/herbs.py src/backend/ai/herb_repository.py src/backend/ai/herb_validation.py src/scripts/convert_herbs_to_sql.py
 
   unit:
     runs-on: ubuntu-latest
@@ -99,9 +100,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
-      # The conditions catalog ships in SQL; herbs and model cache remain operator-owned.
-      - name: Prepare synthetic catalogues for the build
-        run: |
-          mkdir -p medicina-naturista-documente/data
-          printf '' > medicina-naturista-documente/data/herbs.jsonl
+      # Both catalogues ship in SQL; documents and model cache are operator-owned.
       - run: docker build --tag medicina-ci --build-arg PUBLIC_BASE_PATH=/medicina .

@@ -85,14 +85,13 @@ medicina-naturista/
 ├── architecture/                 # documentația fluxurilor principale și planurile de lucru (plan-*.md)
 ├── medicina-naturista-documente/
 │   └── data/
-│       ├── documents/                # corpusul Markdown local
-│       └── herbs.jsonl               # catalogul de plante medicinale (o specie pe linie)
+│       └── documents/                # corpusul Markdown local
 ├── model_cache/                  # modelele locale; ignorat de Git
 ├── src/
 │   ├── backend/
 │   │   ├── ai/                       # fragmentare, afecțiuni, căutare, retrieval, clienți AI și prompturi
 │   │   ├── core/                     # modele și sesiuni izolate
-│   │   ├── migrations/               # schema PostgreSQL și catalogul inițial de afecțiuni
+│   │   ├── migrations/               # schema PostgreSQL și cataloagele inițiale de afecțiuni/plante
 │   │   ├── integrations/             # integrarea Gmail
 │   │   ├── reporting/                # generarea raportului PDF
 │   │   └── web/                      # API JSON FastAPI (servește și build-ul React)
@@ -108,7 +107,7 @@ medicina-naturista/
 │   │   ├── fragment_report.py        # simularea fragmentării; citește catalogul din DB, fără embeddings
 │   │   ├── audit_conditions.py       # audit read-only al dicționarului de afecțiuni
 │   │   ├── audit_near_dupes.py       # afecțiuni canonice aproape duplicate (read-only)
-│   │   ├── audit_herbs.py            # raport read-only despre herbs.jsonl (în tmp/herbs_review.md)
+│   │   ├── audit_herbs.py            # raport read-only despre plantele din PostgreSQL (în tmp/herbs_review.md)
 │   │   ├── icd10_work/               # scripturi one-off pentru completarea dicționarului după ICD-10
 │   │   ├── evaluate_retrieval.py     # măsurarea calității căutării (P@10, MRR, nDCG)
 │   │   ├── google_oauth_setup.py     # autorizare Gmail OAuth2
@@ -128,7 +127,7 @@ medicina-naturista/
 
 ### 1. Pregătirea mediului
 
-Comenzile PowerShell se execută din rădăcina proiectului. Instalați Python 3.11 și Node.js 22/npm; PostgreSQL cu `pgvector` trebuie să fie accesibil înainte de indexare. Corpusul `medicina-naturista-documente/data/documents/` și catalogul `medicina-naturista-documente/data/herbs.jsonl` sunt furnizate separat.
+Comenzile PowerShell se execută din rădăcina proiectului. Instalați Python 3.11 și Node.js 22/npm; PostgreSQL cu `pgvector` trebuie să fie accesibil înainte de indexare. Corpusul `medicina-naturista-documente/data/documents/` este furnizat separat. Cataloagele de afecțiuni și plante se reconstruiesc din migrările SQL livrate.
 
 ```powershell
 py -3.11 -m venv .venv
@@ -170,7 +169,7 @@ La prima sincronizare, modelul este descărcat în `model_cache/` dacă lipseșt
 
 La următoarele sincronizări, se procesează doar documentele noi sau modificate, iar cele șterse sunt eliminate din index. Schimbarea catalogului de afecțiuni, a modelului sau a modului de pregătire a textului impune refacerea completă a indexului. Progresul și timpul estimat rămas sunt afișate în terminal.
 
-**Reindexarea creează baza dacă lipsește și aplică automat migrările SQL.** Sunt necesare permisiuni pentru crearea bazei, a schemei și a extensiilor; opțional, `DATABASE_BOOTSTRAP_URL` poate furniza un cont separat pentru creare. Aplicația web nu execută migrări la pornire. Afecțiunile și sinonimele sunt citite din PostgreSQL; completările se fac prin migrări noi în `src/backend/migrations/`, fără modificarea celor deja aplicate.
+**Reindexarea creează baza dacă lipsește și aplică automat migrările SQL.** Sunt necesare permisiuni pentru crearea bazei, a schemei și a extensiilor; opțional, `DATABASE_BOOTSTRAP_URL` poate furniza un cont separat pentru creare. Aplicația web nu execută migrări la pornire. Afecțiunile, plantele și sinonimele sunt citite din PostgreSQL; completările se fac prin migrări noi în `src/backend/migrations/`, fără modificarea celor deja aplicate.
 
 În timpul sincronizării, căutarea și lista surselor sunt temporar indisponibile (`503`). Generarea din fragmente deja găsite și descărcarea PDF-urilor pot continua. Indexul nou este publicat numai după calcularea și validarea tuturor vectorilor; un eșec păstrează indexul anterior. Dacă între timp s-a schimbat catalogul, căutarea necesită finalizarea reindexării. Un catalog lipsă sau invalid blochează căutarea, iar un index incompatibil cere resincronizare (`INDEX_RESYNC_REQUIRED`).
 
@@ -263,6 +262,18 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 
 Implicit este permisă o singură sesiune activă per adresă IP (`MAX_SESSIONS_PER_IP=1`), inclusiv între Edge și Chrome; persoanele din aceeași rețea/NAT împart această limită. Un al doilea tab/browser afișează mesajul explicit de blocare și „Verifică din nou”, fără să permită căutarea. Pentru tunelul ngrok existent prin proxy-ul JobsHunter, porniți normal cu `docker compose up -d`. Configurația include legătura Caddy cu rețeaua existentă `jobshunter-net` (`PUBLIC_PROXY_NETWORK` pentru alt nume); configurați allowlisturile IP conform documentației de operare.
 
+Catalogul de plante este citit de `backend.ai.herbs.load_herbs()` din PostgreSQL, cu ID-uri numerice stabile și lookup fără diferențe de caz/diacritice. Cache-ul se actualizează după conținutul complet al catalogului. Un catalog lipsă, gol sau invalid produce `HERB_CATALOG_UNAVAILABLE` (503). Plantele nu sunt încă folosite la căutare, fragmentare sau scor și nu modifică fingerprintul indexului.
+
+Pentru upgradeul unei baze existente, fără recalcularea embeddings:
+
+```powershell
+$env:PYTHONPATH = 'src'
+.\.venv\Scripts\python.exe -m scripts.migrate_database
+.\.venv\Scripts\python.exe -m scripts.audit_herbs
+```
+
+Migrările `006_herbs.sql` și `007_seed_herbs.sql` reconstruiesc cele 1.188 de specii și 3.134 de aliasuri inițiale. Runnerul validează ambele cataloage înainte de commit; la eroare anulează toate versiunile noi. Pentru completări sau corecții se adaugă migrări noi, păstrând ID-urile existente. Generatorul conversiei inițiale `python -m scripts.convert_herbs_to_sql --source <sursa.jsonl> --output <seed.sql>` validează o sursă explicită, convertește numai în lowercase și refuză suprascrierea. `--check` validează fără scriere. Seed-ul inițial nu se reexecută pe o bază populată; corecțiile existente se scriu explicit în migrări noi. Sursa conversiei inițiale nu este o dependență runtime, de reindexare sau de distribuție.
+
 ## 📦 Schema indexului hibrid (Postgres)
 
 Tabelele principale ale indexului, catalogului și migrărilor sunt:
@@ -272,6 +283,8 @@ Tabelele principale ale indexului, catalogului și migrărilor sunt:
 | `documents` | Un rând per fișier sursă: cale, SHA-256, codificare, număr de linii; categoria (folderul) este o coloană generată din cale. Folosit și pentru a decide ce fișiere sar la sincronizarea următoare. |
 | `medical_conditions` | Numai `id` și `name`: o înregistrare pentru fiecare afecțiune. |
 | `medical_condition_synonyms` | Numai `id`, `medical_condition_id` și `synonym`: sinonimele legate prin FK de afecțiune. |
+| `herbs` | Coloane `id, family, latin, ro, en`; ID numeric identity, toate denumirile/familiile lowercase. Numele populare pot fi comune mai multor specii. |
+| `herb_aliases` | Coloane `id, herb_id, name, kind`; aliasuri lowercase, FK cu ștergere în cascadă, tipuri `ro_regional`, `latin_synonyms`, `en_alt`. |
 | `schema_migrations` | Ledgerul migrărilor SQL aplicate o singură dată. |
 | `owner_sessions` | Autorizări owner persistente: hashuri și metadata tehnică; fără conversații sau rapoarte. |
 | `chunks` | Un rând per fragment: text, interval de linii, calea titlurilor (`heading`), categoria generată din cale (`category_id`, folosită de filtrarea pe surse), `business_category` (`R1`/`R2`/`D1`), `primary_medical_conditions`, `secondary_medical_conditions`, vectorul semantic (`embedding vector(1024)`) și coloana lexicală (`text_search tsvector`). |
@@ -295,7 +308,7 @@ Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit î
 
 ## 🐳 Rulare cu Docker Compose
 
-Înainte de build/pornire, trebuie să existe `medicina-naturista-documente/data/herbs.jsonl`, `medicina-naturista-documente/data/documents/`, `model_cache/` (cu modelul deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Stiva are patru servicii: `db`, `ollama`, `app` și `caddy`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) este expus doar pe `127.0.0.1:5432` (`DB_HOST_PORT`), astfel încât indexul se sincronizează de pe host cu `python src/scripts/build_hybrid_index.py` (cu `PYTHONPATH=src` și un `DATABASE_URL` spre `127.0.0.1` cu parola `POSTGRES_PASSWORD`). Serviciul `ollama` rulează modelul local de identificare a afecțiunii (`CONDITION_AI_LOCAL_BASE=http://ollama:11434/v1`), este accesibil doar din rețeaua internă, rezervă GPU-urile NVIDIA (`deploy.resources.reservations`) și are nevoie ca modelul să fie descărcat o dată: `docker compose exec ollama ollama pull gemma3:1b`.
+Înainte de build/pornire, trebuie să existe `medicina-naturista-documente/data/documents/`, `model_cache/` (cu modelul deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Stiva are patru servicii: `db`, `ollama`, `app` și `caddy`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) este expus doar pe `127.0.0.1:5432` (`DB_HOST_PORT`), astfel încât indexul se sincronizează de pe host cu `python src/scripts/build_hybrid_index.py` (cu `PYTHONPATH=src` și un `DATABASE_URL` spre `127.0.0.1` cu parola `POSTGRES_PASSWORD`). Serviciul `ollama` rulează modelul local de identificare a afecțiunii (`CONDITION_AI_LOCAL_BASE=http://ollama:11434/v1`), este accesibil doar din rețeaua internă, rezervă GPU-urile NVIDIA (`deploy.resources.reservations`) și are nevoie ca modelul să fie descărcat o dată: `docker compose exec ollama ollama pull gemma3:1b`.
 
 Rețeaua externă `jobshunter-net` (sau valoarea `PUBLIC_PROXY_NETWORK`) trebuie să existe înainte de pornirea Caddy; Compose nu o creează. Verificați-o cu `docker network inspect jobshunter-net` (sau numele configurat). Sincronizați indexul după pornirea serviciului `db`, înainte de a folosi căutarea.
 
@@ -354,7 +367,6 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `AI_MAX_OUTPUT_TOKENS` | `20000` | `max_output_tokens` al cererii, pentru toți furnizorii (la modelele cu gândire, reasoning-ul consumă din el). |
 | `AI_READ_TIMEOUT_SECONDS` | `300` | Timeoutul de citire al cererii către furnizorul AI. |
 | `DOCUMENTS_DIR` | `medicina-naturista-documente/data/documents` | Directorul documentelor locale. |
-| `HERBS_FILE` | `medicina-naturista-documente/data/herbs.jsonl` | Catalogul de plante medicinale (JSON Lines, o specie pe linie), citit de `backend/ai/herbs.py`; se reîncarcă automat când se modifică. Încă nu e folosit de căutare sau de fragmentare. |
 | `DATABASE_URL` | `postgresql:// medicina:medicina @127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului hibrid (`pgvector` + `tsvector`). |
 | `DATABASE_BOOTSTRAP_URL` | gol | Conexiune de mentenanță opțională pentru crearea unei baze lipsă, pe același server ca `DATABASE_URL`; folosită numai de reindexare. Implicit se folosesc credențialele țintei pe baza `postgres`. |
 | `MODEL_CACHE_DIR` | `model_cache` | Directorul cache-ului local al modelului ONNX. |

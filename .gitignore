@@ -231,3 +231,10 @@ __marimo__/
 /tmp/pip-tools/
 /tmp/plan04*
 /tmp/implement_plan04_service.py
+
+# Verified recovery backups and local migration/build helpers.
+/tmp/herbs-migration-backup-*/
+/tmp/herbs-migration-wheel/
+/tmp/herbs-unit-collection.txt
+/tmp/validate_herbs_migration.py
+/tmp/finalize_herbs_migration.py

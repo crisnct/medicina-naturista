@@ -93,7 +93,6 @@ class Settings:
     # Device of the index build's embedding model: "cpu" (FastEmbed) or "cuda"
     # (PyTorch fp16, needs the GPU environment). Queries always run on the CPU.
     embedding_device: str = "cpu"
-    herbs_file: Path = CORPUS_DATA_DIR / "herbs.jsonl"
     frontend_dist_dir: Path = ROOT / "src" / "frontend" / "dist"
     database_url: str = field(
         default="postgresql://medicina:medicina@127.0.0.1:5432/medicina", repr=False
@@ -181,7 +180,6 @@ class Settings:
             model_cache_dir=Path(env.get("MODEL_CACHE_DIR", str(ROOT / "model_cache"))),
             embedding_threads=_int("EMBEDDING_THREADS", min(8, os.cpu_count() or 8), env=env),
             embedding_device=_embedding_device(env=env),
-            herbs_file=Path(env.get("HERBS_FILE", str(CORPUS_DATA_DIR / "herbs.jsonl"))),
             frontend_dist_dir=Path(
                 env.get("FRONTEND_DIST_DIR", str(ROOT / "src" / "frontend" / "dist"))
             ),
@@ -315,7 +313,6 @@ class Settings:
         for name in (
             "documents_dir",
             "model_cache_dir",
-            "herbs_file",
             "frontend_dist_dir",
             "temp_dir",
         ):
@@ -434,8 +431,10 @@ def configure_settings(value: Settings) -> None:
     from dataclasses import fields
 
     from backend.ai.condition_repository import clear_catalog_cache
+    from backend.ai.herb_repository import clear_herb_catalog_cache
 
     clear_catalog_cache()
+    clear_herb_catalog_cache()
 
     for item in fields(Settings):
         object.__setattr__(settings, item.name, getattr(value, item.name))

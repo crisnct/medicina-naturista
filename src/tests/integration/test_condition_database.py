@@ -140,6 +140,12 @@ class ConditionDatabaseTests(unittest.TestCase):
                     ).fetchone()[0],
                     39356,
                 )
+                self.assertEqual(
+                    connection.execute("SELECT count(*) FROM herbs").fetchone()[0], 1188
+                )
+                self.assertEqual(
+                    connection.execute("SELECT count(*) FROM herb_aliases").fetchone()[0], 3134
+                )
                 self.assert_two_table_schema(connection)
             return original(*args, **kwargs)
 
@@ -177,7 +183,7 @@ class ConditionDatabaseTests(unittest.TestCase):
             make_condition("ABCES", ["should not replace"]),
             make_condition("Boala testului", ["Măr's syndrome", "test disease"]),
         ]
-        (folder / "006_test_additions.sql").write_text(additions_sql(additions), encoding="utf-8")
+        (folder / "008_test_additions.sql").write_text(additions_sql(additions), encoding="utf-8")
         self.expected_conditions = 6285
         with patch.object(migration, "MIGRATIONS", folder):
             self.sync()
@@ -219,7 +225,7 @@ class ConditionDatabaseTests(unittest.TestCase):
         migration.migrate(self.url)
         folder = Path(self.tmp.name) / "migrations"
         shutil.copytree(migration.MIGRATIONS, folder)
-        (folder / "006_broken.sql").write_text(
+        (folder / "008_broken.sql").write_text(
             additions_sql([make_condition("Test rollback")]) + "SELECT 1 / 0;", encoding="utf-8"
         )
         with psycopg.connect(self.url) as connection:
@@ -234,7 +240,7 @@ class ConditionDatabaseTests(unittest.TestCase):
             )
             self.assertIsNone(
                 connection.execute(
-                    "SELECT 1 FROM schema_migrations WHERE version='006_broken.sql'"
+                    "SELECT 1 FROM schema_migrations WHERE version='008_broken.sql'"
                 ).fetchone()
             )
 
@@ -253,7 +259,10 @@ class ConditionDatabaseTests(unittest.TestCase):
             created = list(workers.map(lambda _: ensure_database(self.url), range(2)))
             applied = list(workers.map(lambda _: migration.migrate(self.url), range(2)))
         self.assertEqual(sum(created), 1)
-        self.assertEqual(sorted(len(versions) for versions in applied), [0, 5])
+        self.assertEqual(
+            sorted(len(versions) for versions in applied),
+            [0, len(list(migration.MIGRATIONS.glob("*.sql")))],
+        )
         with psycopg.connect(self.url) as connection:
             self.assertEqual(
                 connection.execute("SELECT count(*) FROM medical_conditions").fetchone()[0], 6284
@@ -283,7 +292,14 @@ class ConditionDatabaseTests(unittest.TestCase):
             original_ids = connection.execute(
                 "SELECT condition_id, name FROM medical_conditions ORDER BY condition_id"
             ).fetchall()
-        self.assertEqual(migration.migrate(self.url), ["005_simplify_medical_conditions.sql"])
+        self.assertEqual(
+            migration.migrate(self.url),
+            [
+                p.name
+                for p in sorted(migration.MIGRATIONS.glob("*.sql"))
+                if p.name not in {q.name for q in legacy}
+            ],
+        )
         with psycopg.connect(self.url) as connection:
             self.assert_two_table_schema(connection)
             self.assertEqual(

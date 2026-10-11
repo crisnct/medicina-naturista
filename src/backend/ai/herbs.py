@@ -1,21 +1,15 @@
-"""Catalogue of medicinal plants (medicina-naturista-documente/data/herbs.jsonl): one species per line, as a
-JSON object with the keys of FIELDS. The accepted Latin name identifies the
-species; `id` is a stable slug that survives a later change of that name; the
-Romanian name `ro` may be shared by several species ("Paducel" is both
-Crataegus monogyna and C. laevigata), so a lookup by name returns a list.
-Fungi, lichens, mosses and algae are in the catalogue too. Nothing in search or
-fragmentation uses it yet."""
+"""PostgreSQL medicinal plants and the pure parser for offline source conversion.
+
+Popular names may belong to several species. Plants are not used in retrieval yet.
+"""
 
 from __future__ import annotations
 
 import json
 import logging
 from dataclasses import dataclass
-from functools import lru_cache
-from pathlib import Path
 
 from backend.ai.conditions import _normalize
-from backend.config import settings
 
 logger = logging.getLogger("naturist.herbs")
 
@@ -26,8 +20,7 @@ _LISTS = ("ro_regional", "latin_synonyms", "en_alt")
 
 
 @dataclass(frozen=True)
-class Herb:
-    id: str
+class HerbNames:
     ro: str
     ro_regional: tuple[str, ...]
     latin: str
@@ -53,11 +46,21 @@ class Herb:
         )
 
 
+@dataclass(frozen=True)
+class SourceHerb(HerbNames):
+    id: str
+
+
+@dataclass(frozen=True)
+class Herb(HerbNames):
+    id: int
+
+
 # Parse the catalogue text (JSON Lines). Blank lines are skipped; a line whose
 # keys or value types differ from FIELDS raises ValueError with its number. Every
 # string field must be non-empty except `en`.
-def parse_herbs(text: str) -> list[Herb]:
-    herbs: list[Herb] = []
+def parse_herbs(text: str) -> list[SourceHerb]:
+    herbs: list[SourceHerb] = []
     for number, line in enumerate(text.splitlines(), 1):
         if not line.strip():
             continue
@@ -82,7 +85,16 @@ def parse_herbs(text: str) -> list[Herb]:
                     f"herbs line {number}: '{key}' must be a list of non-empty strings"
                 )
         herbs.append(
-            Herb(**{key: tuple(record[key]) if key in _LISTS else record[key] for key in FIELDS})
+            SourceHerb(
+                id=record["id"],
+                ro=record["ro"],
+                ro_regional=tuple(record["ro_regional"]),
+                latin=record["latin"],
+                latin_synonyms=tuple(record["latin_synonyms"]),
+                en=record["en"],
+                en_alt=tuple(record["en_alt"]),
+                family=record["family"],
+            )
         )
     return herbs
 
@@ -103,8 +115,8 @@ class HerbCatalog:
                 if herb not in owners:
                     owners.append(herb)
 
-    def by_id(self, herb_id: str) -> Herb | None:
-        return self._by_id.get(herb_id)
+    def by_id(self, herb_id: int) -> Herb | None:
+        return self._by_id.get(herb_id) if type(herb_id) is int else None
 
     # The species whose accepted Latin name or Latin synonym this is (case ignored).
     def by_latin(self, latin: str) -> Herb | None:
@@ -117,19 +129,21 @@ class HerbCatalog:
         return list(self._by_name.get(key, ())) if key else []
 
 
-@lru_cache(maxsize=4)
-def _load(path: str, mtime_ns: int) -> HerbCatalog:
-    herbs = parse_herbs(Path(path).read_text(encoding="utf-8"))
-    logger.info("herbs_loaded path=%s herbs=%s", path, len(herbs))
-    return HerbCatalog(herbs)
+# Read only at call time; imports never connect or create tables.
+def load_herbs() -> HerbCatalog:
+    import psycopg
+    from psycopg_pool import PoolTimeout
 
+    from backend.ai.db import get_pool
+    from backend.ai.herb_repository import HerbCatalogUnavailable, catalog_snapshot
 
-# The catalogue from settings.herbs_file, reloaded when the file changes.
-# A missing file yields an empty catalogue, never an error.
-def load_herbs(path: Path | None = None) -> HerbCatalog:
-    path = path or settings.herbs_file
     try:
-        return _load(str(path), path.stat().st_mtime_ns)
-    except OSError:
-        logger.warning("herbs_file_unavailable path=%s", path)
-        return HerbCatalog([])
+        with get_pool().connection() as connection:
+            return catalog_snapshot(connection).catalog
+    except (psycopg.Error, PoolTimeout) as error:
+        logger.error(
+            "herb_catalog_unavailable stage=read error_type=%s sqlstate=%s",
+            type(error).__name__,
+            getattr(error, "sqlstate", None),
+        )
+        raise HerbCatalogUnavailable() from None

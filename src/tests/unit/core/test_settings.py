@@ -58,6 +58,8 @@ class SettingsTests(unittest.TestCase):
         code = """
 from unittest.mock import patch
 with patch('psycopg.connect', side_effect=AssertionError('connect at import')), patch('psycopg_pool.ConnectionPool', side_effect=AssertionError('pool at import')), patch('pathlib.Path.mkdir', side_effect=AssertionError('mkdir at import')), patch('shutil.rmtree', side_effect=AssertionError('cleanup at import')):
+    from backend.ai import herbs, herb_repository, herb_validation
+    from scripts import convert_herbs_to_sql
     from backend.web.main import create_app
     create_app()
 """

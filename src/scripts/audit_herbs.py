@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Read-only audit of medicina-naturista-documente/data/herbs.jsonl, written as a Markdown report to
+"""Read-only audit of the PostgreSQL herb catalogue, written as a Markdown report to
 tmp/herbs_review.md: totals, species without a Romanian or an English name,
 Romanian names shared by several species, Latin names changed to the accepted
 one. When the working files of the catalogue's construction are still there
@@ -17,9 +17,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 from backend.ai.conditions import _normalize  # noqa: E402
-from backend.ai.herbs import parse_herbs  # noqa: E402
+from backend.ai.herbs import load_herbs  # noqa: E402
+from backend.config import Settings, configure_settings  # noqa: E402
 
-HERBS = ROOT / "medicina-naturista-documente" / "data" / "herbs.jsonl"
 REVIEW = ROOT / "tmp" / "herbs_candidates.jsonl"
 PROVENANCE = ROOT / "tmp" / "herbs_work" / "herbs_provenance.jsonl"
 TARGET = ROOT / "tmp" / "herbs_review.md"
@@ -34,9 +34,10 @@ def read_jsonl(path: Path) -> list[dict]:
 
 
 def main() -> None:
-    herbs = parse_herbs(HERBS.read_text(encoding="utf-8"))
-    review = {row["latin"]: row for row in read_jsonl(REVIEW)}
-    provenance = {row["latin"]: row for row in read_jsonl(PROVENANCE)}
+    configure_settings(Settings.from_env(dotenv=True))
+    herbs = load_herbs().herbs
+    review = {_normalize(row["latin"]): row for row in read_jsonl(REVIEW)}
+    provenance = {_normalize(row["latin"]): row for row in read_jsonl(PROVENANCE)}
     # the review list names a species by the name it had then: map renamed ones back
     for row in provenance.values():
         for old in [
@@ -44,14 +45,18 @@ def main() -> None:
             *row.get("renamed_from", []),
             *row.get("merged", []),
         ]:
-            if old in review and row["latin"] not in review:
-                review[row["latin"]] = review[old]
-    out: list[str] = ["# Raport de verificare: medicina-naturista-documente/data/herbs.jsonl", ""]
+            if _normalize(old) in review and _normalize(row["latin"]) not in review:
+                review[_normalize(row["latin"])] = review[_normalize(old)]
+    out: list[str] = ["# Raport de verificare: catalogul PostgreSQL de plante", ""]
 
     out += ["## Totaluri", "", f"- specii: **{len(herbs)}**"]
     if review:
-        groups = collections.Counter(review.get(h.latin, {}).get("group", "?") for h in herbs)
-        origins = collections.Counter(review.get(h.latin, {}).get("origin", "?") for h in herbs)
+        groups = collections.Counter(
+            review.get(_normalize(h.latin), {}).get("group", "?") for h in herbs
+        )
+        origins = collections.Counter(
+            review.get(_normalize(h.latin), {}).get("origin", "?") for h in herbs
+        )
         out.append(
             "- pe grup: " + ", ".join(f"{name} {count}" for name, count in groups.most_common())
         )
@@ -79,12 +84,12 @@ def main() -> None:
         renamed = [
             (h.latin, row["renamed_from"])
             for h in herbs
-            if (row := provenance.get(h.latin)) and row.get("renamed_from")
+            if (row := provenance.get(_normalize(h.latin))) and row.get("renamed_from")
         ]
         merged = [
             (h.latin, row["merged"])
             for h in herbs
-            if (row := provenance.get(h.latin)) and row.get("merged")
+            if (row := provenance.get(_normalize(h.latin))) and row.get("merged")
         ]
         out += ["## Nume latine schimbate in numele acceptat", ""]
         out += [f"- {', '.join(old)} -> *{new}*" for new, old in renamed] or ["- niciunul"]
@@ -141,11 +146,13 @@ def main() -> None:
         "|---|---|---|---|---|---|",
     ]
     for herb in herbs:
-        row = review.get(herb.latin, {})
-        prov = provenance.get(herb.latin, {})
+        row = review.get(_normalize(herb.latin), {})
+        prov = provenance.get(_normalize(herb.latin), {})
+        regional_sources = {
+            _normalize(key): value for key, value in prov.get("ro_regional_from", {}).items()
+        }
         regional = "; ".join(
-            f"{name} ({prov.get('ro_regional_from', {}).get(name, '?')})"
-            for name in herb.ro_regional
+            f"{name} ({regional_sources.get(_normalize(name), '?')})" for name in herb.ro_regional
         )
         out.append(
             f"| {herb.ro} | *{herb.latin}* | {row.get('group', '')} | {row.get('origin', '')} | "
