@@ -40,14 +40,14 @@ $env:PYTHONPATH = "src"
 - Linux/Python 3.11 și 3.14: instalări curate din lockurile dev cu hashuri și `pip check`, apoi aceeași matrice 420/80/33, cu aceleași omisiuni: trecute pe ambele versiuni. Fonturile Unicode sunt instalate explicit în CI.
 - Frontend: 45 teste, TypeScript și build Vite trecute. Build Docker cu prefix `/medicina` și cataloage sintetice: trecut, fără deployment.
 - Manifestul lockurilor: verificat pe Windows și pe ambele versiuni Linux.
+- După instalarea dependențelor PDF opționale, toate cele 9 teste de extragere au trecut în 2,4 secunde. Cele 5 teste ale cataloagelor locale au trecut în 1,1 secunde, iar testul de căutare gripă pe indexul real din Docker a trecut în 23,3 secunde, fără reindexare sau apeluri către AI.
+- Instalarea curată Windows/Python 3.11 din `requirements-dev.lock` a fost finalizată cu hashuri: `pip check`, manifestul lockurilor, 420 teste unittest (9 teste PDF opționale omise în acest mediu) și 22 teste pytest unitare au trecut. Testele PDF omise aici au fost validate separat în mediul de dezvoltare cu extra-urile instalate, conform rezultatului de mai sus. Mediul curat poate fi reutilizat din `tmp/plan04-clean-windows` pentru a evita reinstalările repetate.
 - Teste noi: timeouturi HTTP limitate de deadline, respingerea răspunsurilor tardive, heartbeat-uri după deadline, restaurarea contextului, capacitate păstrată până la ieșirea workerului, PDF tardiv, formular owner/CSP și formulele metricilor RAG.
 - Regresie corectată: selecția de categorii învechite este verificată înainte de ieșirea anticipată a unei căutări numai cu semnalul A; răspunsul rămâne `409 CATEGORY_SELECTION_STALE`.
 - Qwen a indexat 20 de documente sintetice într-o bază temporară. Pe 30 de cazuri, două execuții reale identice: Recall@50 = 1, nDCG@10 = 0,97086, acoperirea atenționărilor = 1, false positives@10 = 8, fără fragmente neetichetate. Corpusul are două fragmente pozitive per caz; evaluarea nu introduce un prag de eliminare a celorlalte rezultate din top 10. Baseline-ul măsurat, captura și comparația fără regresii sunt păstrate local în `var/output/plan04-qwen-synthetic-*.json`.
 
 ## Verificări rămase
 
-- Instalarea curată Windows din lock a fost întreruptă pentru a limita durata; testele Windows au folosit mediul de dezvoltare existent. Nu o considerați validată.
-- Cele 9 teste pentru extragerea PDF necesită dependențele opționale; cele 6 teste de corpus personal necesită activare explicită.
 - Baseline măsurat pe corpusul personal, cu 30 de cazuri etichetate pentru acesta. Baseline-ul Qwen sintetic și `synthetic_baseline.json` analitic nu îl înlocuiesc.
 - Smoke testul public prin Caddy/HTTPS după configurarea profilului și contractelor
   din planul 03. CI nu publică un site și nu certifică infrastructura publică.
