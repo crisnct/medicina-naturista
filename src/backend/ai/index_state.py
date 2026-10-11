@@ -20,7 +20,9 @@ from backend.core.errors import ApplicationError
 
 INDEX_LOCK = 7261040202
 TEXT_REPR_VERSION = "10"
-_reader = ContextVar("index_reader", default=None)
+_reader: ContextVar[tuple[psycopg.Connection, IndexMetadata] | None] = ContextVar(
+    "index_reader", default=None
+)
 _dictionary = ContextVar("index_dictionary", default=None)
 
 
@@ -100,9 +102,10 @@ def index_reader():
     try:
         with db.get_pool().connection() as connection:
             with connection.transaction():
-                locked = connection.execute(
+                lock_row = connection.execute(
                     "SELECT pg_try_advisory_xact_lock_shared(%s)", (INDEX_LOCK,)
-                ).fetchone()[0]
+                ).fetchone()
+                locked = lock_row is not None and lock_row[0]
                 if not locked:
                     raise IndexUnavailable()
                 try:
@@ -125,9 +128,15 @@ def index_reader():
 
 
 @contextmanager
-def index_writer():
+def index_writer(*, lock_timeout_ms: int | None = None):
     """Dedicated connection: session lock survives preparation transactions."""
     with psycopg.connect(db.settings.database_url, autocommit=True) as connection:
+        if lock_timeout_ms is not None:
+            if lock_timeout_ms <= 0:
+                raise ValueError("INVALID_INDEX_LOCK_TIMEOUT")
+            connection.execute(
+                "SELECT set_config('lock_timeout', %s, false)", (str(lock_timeout_ms),)
+            )
         connection.execute("SELECT pg_advisory_lock(%s)", (INDEX_LOCK,))
         try:
             db._configure_connection(connection)

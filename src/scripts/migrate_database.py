@@ -17,9 +17,13 @@ from backend.core.errors import ApplicationError
 MIGRATIONS = Path(__file__).resolve().parents[1] / "backend" / "migrations"
 
 
-def migrate(database_url: str) -> list[str]:
+def migrate(database_url: str, *, lock_timeout_ms: int | None = None) -> list[str]:
     applied = []
     with psycopg.connect(database_url, connect_timeout=5) as conn:
+        if lock_timeout_ms is not None:
+            if lock_timeout_ms <= 0:
+                raise ValueError("INVALID_MIGRATION_LOCK_TIMEOUT")
+            conn.execute("SELECT set_config('lock_timeout', %s, true)", (str(lock_timeout_ms),))
         conn.execute("SELECT pg_advisory_xact_lock(%s)", (7310192026,))
         conn.execute("SELECT pg_advisory_xact_lock(%s)", (INDEX_LOCK,))
         conn.execute(

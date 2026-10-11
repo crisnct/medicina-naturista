@@ -162,11 +162,14 @@ class HerbDatabaseTests(unittest.TestCase):
             before = read_conditions(connection)
             connection.execute("INSERT INTO owner_sessions(token_hash) VALUES (%s)", ("a" * 64,))
             connection.execute("INSERT INTO sync_metadata(key,value) VALUES ('test','unchanged')")
-            connection.execute("DROP TABLE herb_aliases, herbs")
+            connection.execute("DROP TABLE herbs_benefits, herb_aliases, herbs")
             connection.execute(
-                "DELETE FROM schema_migrations WHERE version IN ('006_herbs.sql','007_seed_herbs.sql')"
+                "DELETE FROM schema_migrations WHERE version IN ('006_herbs.sql','007_seed_herbs.sql','008_herbs_benefits.sql')"
             )
-        self.assertEqual(migration.migrate(self.url), ["006_herbs.sql", "007_seed_herbs.sql"])
+        self.assertEqual(
+            migration.migrate(self.url),
+            ["006_herbs.sql", "007_seed_herbs.sql", "008_herbs_benefits.sql"],
+        )
         with psycopg.connect(self.url) as connection:
             self.assertEqual(read_conditions(connection), before)
             self.assertEqual(

@@ -238,3 +238,11 @@ __marimo__/
 /tmp/herbs-unit-collection.txt
 /tmp/validate_herbs_migration.py
 /tmp/finalize_herbs_migration.py
+
+# Local tools and binary artifacts for the herb association benchmark.
+/tmp/herbs-index-build-tools/
+/tmp/herbs-index-wheel/
+/tmp/herbs-index-benchmark-before-analyze.json
+/tmp/pyahocorasick-*.whl
+/tmp/setuptools-*.whl
+/pytest-of-*/

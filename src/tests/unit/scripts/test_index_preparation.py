@@ -18,11 +18,16 @@ class IndexPreparationTests(TestCase):
                 patch.object(
                     builder, "ensure_database", side_effect=lambda *_: calls.append("bootstrap")
                 ),
-                patch.object(builder, "migrate", side_effect=lambda *_: calls.append("sql")),
+                patch.object(
+                    builder, "migrate", side_effect=lambda *_args, **_kwargs: calls.append("sql")
+                ),
                 patch.object(
                     builder,
                     "index_writer",
-                    side_effect=lambda: calls.append("lock") or nullcontext(object()),
+                    side_effect=lambda **_kwargs: (
+                        calls.append("lock")
+                        or nullcontext(SimpleNamespace(execute=lambda *_args: None))
+                    ),
                 ),
                 patch.object(
                     builder,

@@ -165,6 +165,14 @@ $env:EMBEDDING_DEVICE = 'cuda'
 .\.venv-gpu\Scripts\python.exe src\scripts\build_hybrid_index.py
 ```
 
+Actualizați dependențele runtime în fiecare mediu Python folosit pentru indexare. Pachetul `pyahocorasick` se importă ca `ahocorasick`; instalarea în `.venv` nu îl face disponibil în `.venv-gpu` sau în Pythonul global. Pentru un mediu GPU existent căruia îi lipsește această dependență:
+
+```powershell
+.\.venv-gpu\Scripts\python.exe -m pip install --no-deps --only-binary=:all: pyahocorasick==2.3.1
+```
+
+Builderul verifică disponibilitatea pachetului înainte de pornirea workerilor și indică interpreterul și comanda de instalare dacă importul eșuează.
+
 La prima sincronizare, modelul este descărcat în `model_cache/` dacă lipsește. Apoi căutarea funcționează offline. Căutarea pe CPU necesită modelul FastEmbed/ONNX, chiar dacă indexarea a fost făcută pe GPU cu PyTorch.
 
 La următoarele sincronizări, se procesează doar documentele noi sau modificate, iar cele șterse sunt eliminate din index. Schimbarea catalogului de afecțiuni, a modelului sau a modului de pregătire a textului impune refacerea completă a indexului. Progresul și timpul estimat rămas sunt afișate în terminal.
@@ -262,7 +270,26 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 
 Implicit este permisă o singură sesiune activă per adresă IP (`MAX_SESSIONS_PER_IP=1`), inclusiv între Edge și Chrome; persoanele din aceeași rețea/NAT împart această limită. Un al doilea tab/browser afișează mesajul explicit de blocare și „Verifică din nou”, fără să permită căutarea. Pentru tunelul ngrok existent prin proxy-ul JobsHunter, porniți normal cu `docker compose up -d`. Configurația include legătura Caddy cu rețeaua existentă `jobshunter-net` (`PUBLIC_PROXY_NETWORK` pentru alt nume); configurați allowlisturile IP conform documentației de operare.
 
-Catalogul de plante este citit de `backend.ai.herbs.load_herbs()` din PostgreSQL, cu ID-uri numerice stabile și lookup fără diferențe de caz/diacritice. Cache-ul se actualizează după conținutul complet al catalogului. Un catalog lipsă, gol sau invalid produce `HERB_CATALOG_UNAVAILABLE` (503). Plantele nu sunt încă folosite la căutare, fragmentare sau scor și nu modifică fingerprintul indexului.
+Catalogul de plante este citit de `backend.ai.herbs.load_herbs()` din PostgreSQL, cu ID-uri numerice stabile și lookup fără diferențe de caz/diacritice. Cache-ul se actualizează după conținutul complet al catalogului. Un catalog lipsă, gol sau invalid produce `HERB_CATALOG_UNAVAILABLE` (503). Plantele nu sunt încă folosite la căutare, fragmentare sau scor și nu modifică fingerprintul indexului de embeddings; asocierile `herbs_benefits` au fingerprinturi proprii.
+
+Reindexarea populează automat și `herbs_benefits`, la finalul `build_hybrid_index.py`, după toate scrierile și ștergerile de fragmente. Migrarea `008_herbs_benefits.sql` creează coloanele `id`, `herb_id`, `medical_condition_id`, două chei externe cu ștergere în cascadă, indexul unic pe pereche și câte un index pe fiecare cheie. O asociere înseamnă coapariție în corpus: metadata primară sau secundară a fragmentului conține numele exact ori un sinonim al afecțiunii, iar `chunks.text` conține un nume complet al plantei. Sunt incluse numele românești, latine, englezești și toate aliasurile; majusculele și diacriticele sunt ignorate, iar punctuația și cratimele delimitează tokenuri. Numele comune păstrează toate speciile proprietare. Mențiunile negative și contraindicațiile participă la aceeași regulă de coapariție.
+
+Indexerul parcurge fragmentele o singură dată, folosind Aho–Corasick (`pyahocorasick`) și 2 procese CPU pornite prin `spawn`; fiecare matcher este pregătit înaintea tranzacției de publicare. Numărul este definit numai în `HERBS_INDEX_WORKERS`, independent de embeddings. Procesul principal citește PostgreSQL și scrie loturi prin COPY. Bitmapurile per plantă au un buget implicit de 64 MiB; peste buget, deduplicarea folosește buffere limitate și PostgreSQL. Taskurile au limite separate pentru text, rezultate și memoria aflată în tranzit. Fragmentele foarte mari sunt procesate integral, individual.
+
+Publicarea modifică numai perechile adăugate sau eliminate și păstrează ID-urile perechilor existente. Documentele, fragmentele, asocierile și metadatele se publică în aceeași tranzacție; orice eroare produce rollback. Fingerprinturile cataloagelor includ ID-urile și termenii relevanți. Cele cinci chei `herbs_benefits_*` din `sync_metadata` păstrează versiunea, generația fragmentelor, fingerprinturile și numărul de rânduri. La intrări identice se verifică metadatele și numărul de asocieri, apoi se păstrează perechile fără scanare sau pornirea proceselor. Schimbarea exclusivă a unui alias de plantă reconstruiește asocierile și păstrează embeddings existente.
+
+Pentru refacerea explicită a asocierilor, inclusiv după modificări directe ale datelor:
+
+```powershell
+$env:PYTHONPATH = 'src'
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --rebuild-herbs
+```
+
+Opțiunea este transmisă explicit prin `build(..., rebuild_herbs=True)` și forțează numai etapa asocierilor. Progresul raportează fragmente finalizate, caractere, taskuri active, perechi candidate, durată și ETA; succesul final este afișat după commit. Builderul limitează așteptarea lockurilor la 60 de secunde și interogările etapei de publicare la 10 minute, pe conexiunea sa dedicată. Diagnosticul include etapa, excepția și tracebackul cu datele conexiunii eliminate.
+
+Benchmarkul reproductibil este în `src/tests/benchmarks/herbs_index_benchmark.py`, cu raportul local [tmp/herbs-index-benchmark.md](tmp/herbs-index-benchmark.md) și măsurătorile detaliate în JSON. Se rulează cu `PYTHONPATH=src` și `HERBS_BENCHMARK_DATABASE_URL` către o bază temporară al cărei nume începe cu `herbs_index_benchmark`; scriptul citește baza configurată în `.env` într-un snapshot read-only și copiază numai cataloagele și coloanele necesare ale fragmentelor. Compară trei repetări pentru 1/2/4/8/16 procese, matcherul Python/native, prima populare, reconstruirea identică, traseul rapid, modificări de corpus/catalog și deduplicarea în DB. Timpii exclud calcularea embeddings.
+
+Comparația finală pe 10.777 de fragmente, cu loturi de 2.000 de fragmente și COPY de 50.000 de perechi, a alternat trei rulări pentru fiecare variantă: mediana a fost 7,609 s cu 4 procese și 10,515 s cu 8. Rezultatul a fost identic: 105.837 de perechi. În comparațiile ulterioare pe o bază temporară recreată, 1 proces a avut mediana 5,594 s (controlul cu 4: 5,656 s), iar 2 procese au avut 5,031 s (controlul cu 4: 5,766 s). Fiecare variantă a avut trei rulări alternante cu 4 și rezultat identic. Defaultul final este `HERBS_INDEX_WORKERS = 2`, conform alegerii utilizatorului; timpii din runde separate se interpretează față de controlul propriu. Opțiunea de benchmark `--four-vs-eight` repetă comparația pe snapshotul temporar deja creat.
 
 Pentru upgradeul unei baze existente, fără recalcularea embeddings:
 
@@ -285,10 +312,11 @@ Tabelele principale ale indexului, catalogului și migrărilor sunt:
 | `medical_condition_synonyms` | Numai `id`, `medical_condition_id` și `synonym`: sinonimele legate prin FK de afecțiune. |
 | `herbs` | Coloane `id, family, latin, ro, en`; ID numeric identity, toate denumirile/familiile lowercase. Numele populare pot fi comune mai multor specii. |
 | `herb_aliases` | Coloane `id, herb_id, name, kind`; aliasuri lowercase, FK cu ștergere în cascadă, tipuri `ro_regional`, `latin_synonyms`, `en_alt`. |
+| `herbs_benefits` | Asocieri derivate din coapariția în corpus: `id, herb_id, medical_condition_id`; pereche unică, FK cu ștergere în cascadă și indecși individuali. Publicate atomic la finalul reindexării. |
 | `schema_migrations` | Ledgerul migrărilor SQL aplicate o singură dată. |
 | `owner_sessions` | Autorizări owner persistente: hashuri și metadata tehnică; fără conversații sau rapoarte. |
 | `chunks` | Un rând per fragment: text, interval de linii, calea titlurilor (`heading`), categoria generată din cale (`category_id`, folosită de filtrarea pe surse), `business_category` (`R1`/`R2`/`D1`), `primary_medical_conditions`, `secondary_medical_conditions`, vectorul semantic (`embedding vector(1024)`) și coloana lexicală (`text_search tsvector`). |
-| `sync_metadata` | Modelul, dimensiunea, profilul pasajelor, versiunea textului, fingerprintul SHA-256 al dicționarului, generația indexului și data sincronizării. |
+| `sync_metadata` | Modelul, dimensiunea, profilul pasajelor, versiunea textului, fingerprintul SHA-256 al dicționarului, generația indexului, data sincronizării și cele cinci marcaje `herbs_benefits_*`. |
 
 Dacă profilul indexului și fingerprintul catalogului sunt neschimbate, un document cu același SHA-256 este ignorat la sincronizare; un document nou sau modificat își înlocuiește fragmentele într-o singură tranzacție.
 

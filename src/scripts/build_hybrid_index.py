@@ -12,24 +12,33 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import multiprocessing
 import os
 import re
 import subprocess
 import sys
 import threading
 import time
+import traceback
 import unicodedata
 import uuid
+from array import array
+from collections.abc import Iterable, Mapping
+from concurrent.futures import FIRST_COMPLETED, Future, ProcessPoolExecutor, wait
+from contextlib import contextmanager
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Callable, Iterator, Sequence
+from queue import Empty
+from types import MappingProxyType
+from typing import Callable, Iterator, Protocol, Sequence, TypedDict
 
 import numpy as np
 
 from backend.ai import db
 from backend.ai.categories import ROOT_CATEGORY_ID
-from backend.ai.condition_repository import FINGERPRINT_VERSION
+from backend.ai.condition_repository import FINGERPRINT_VERSION, CatalogUnavailable
+from backend.ai.conditions import _normalize
 from backend.ai.db import _embedding_dimension
 from backend.ai.embedding_model import (
     DEFAULT_MODEL,
@@ -38,12 +47,16 @@ from backend.ai.embedding_model import (
     get_profile,
 )
 from backend.ai.fragmenter import Fragment, fragment_document
+from backend.ai.herb_repository import HerbCatalogUnavailable
+from backend.ai.herb_validation import catalog_problems
+from backend.ai.herbs import Herb
 from backend.ai.index_state import (
     TEXT_REPR_VERSION,
     dictionary_snapshot,
     index_writer,
     passage_profile,
 )
+from backend.ai.query_terms import plain
 from backend.config import settings
 from scripts.bootstrap_database import ensure_database
 from scripts.migrate_database import migrate
@@ -53,10 +66,620 @@ PROGRESS_INTERVAL_SECONDS = 10.0
 # Windows embedded per model call. 8 was the fastest on the GPU (fp16); larger
 # batches only add padding and memory (see architecture/plan-migrare-qwen3-embedding.md).
 BATCH_SIZE = 8
+# Selected after corpus benchmarks of total publication time with 1/2/4/8 workers.
+HERBS_INDEX_WORKERS = 2
+HERBS_INDEX_VERSION = 1
+# Lowest measured total time among the bounded fetch/COPY combinations.
+HERBS_FETCH_SIZE = 2_000
+HERBS_COPY_SIZE = 50_000
+HERBS_TASK_TEXT_BYTES = 2 * 1024 * 1024
+HERBS_TASK_RESULT_BYTES = 4 * 1024 * 1024
+HERBS_IN_FLIGHT_BYTES = 128 * 1024 * 1024
+HERBS_BITMAP_BUDGET_BYTES = 64 * 1024 * 1024
+HERBS_WORKER_TIMEOUT_SECONDS = 120
+HERBS_LOCK_TIMEOUT_MS = 60_000
+HERBS_STATEMENT_TIMEOUT_MS = 600_000
+_HERBS_TOKENS = re.compile(r"\w+")
+_HERBS_AUTOMATON = None
+_HERBS_GATE = None
+_BUILD_STAGE = "preparation"
+HERBS_BENEFITS_DELETE_SQL = (
+    "DELETE FROM herbs_benefits AS current WHERE NOT EXISTS ("
+    "SELECT 1 FROM herbs_benefits_next AS next WHERE next.herb_id=current.herb_id "
+    "AND next.medical_condition_id=current.medical_condition_id)"
+)
+HERBS_BENEFITS_INSERT_SQL = (
+    "WITH existing AS MATERIALIZED (SELECT herb_id, medical_condition_id FROM herbs_benefits) "
+    "INSERT INTO herbs_benefits (herb_id, medical_condition_id) "
+    "SELECT next.herb_id, next.medical_condition_id FROM herbs_benefits_next AS next "
+    "WHERE NOT EXISTS (SELECT 1 FROM existing AS current "
+    "WHERE current.herb_id=next.herb_id AND current.medical_condition_id=next.medical_condition_id) "
+    "ON CONFLICT (herb_id, medical_condition_id) DO NOTHING"
+)
+
+
+def _build_stage(stage: str) -> None:
+    global _BUILD_STAGE
+    _BUILD_STAGE = stage
+
+
+def _safe_index_error(error: Exception) -> dict:
+    detail = "".join(traceback.format_exception(error))
+    for secret in (db.settings.database_url, settings.database_bootstrap_url):
+        if secret:
+            detail = detail.replace(secret, "[database connection]")
+    detail = re.sub(r"postgres(?:ql)?://\S+", "[database connection]", detail)
+    detail = re.sub(
+        r"password\s*=\s*(?:'[^']*'|\S+)", "password=[redacted]", detail, flags=re.IGNORECASE
+    )
+    return dict(
+        status="error",
+        code="INDEX_SYNC_FAILED",
+        stage=_BUILD_STAGE,
+        type=type(error).__name__,
+        traceback=detail,
+    )
+
+
 # Bumped whenever the text representation fed into embeddings/lexical search
 # changes (e.g. the cleaning rules below), so build() forces a full resync
 # even though every source file's own SHA-256 is unchanged. See build()'s use
 # of TEXT_REPR_VERSION against sync_metadata.
+
+
+def _herb_text(value: str) -> str:
+    """The ASCII path and Unicode path have identical token/boundary semantics."""
+    return " ".join(_HERBS_TOKENS.findall(value.lower() if value.isascii() else plain(value)))
+
+
+def _herbs_fingerprint(rows) -> str:
+    return sha256_bytes(
+        json.dumps(
+            [HERBS_INDEX_VERSION, sorted(rows)], ensure_ascii=False, separators=(",", ":")
+        ).encode("utf-8")
+    )
+
+
+@dataclass(frozen=True)
+class HerbsIndexContext:
+    condition_ids: tuple[int, ...]
+    herb_ids: tuple[int, ...]
+    condition_positions_by_term: Mapping[str, tuple[int, ...]]
+    names: tuple[tuple[str, tuple[int, ...]], ...]
+    conditions_fingerprint: str
+    herbs_fingerprint: str
+    previous_generation: str | None
+    next_generation: str
+    rebuild_required: bool
+    reason: str
+    row_count: int
+    bitmap_bytes: int
+    use_bitmaps: bool
+    workers_required: bool
+
+
+class HerbsIndexStats(TypedDict, total=False):
+    chunks_read: int
+    chunks_completed: int
+    characters: int
+    candidate_pairs: int
+    staged_pairs: int
+    row_count: int
+    inserted: int
+    deleted: int
+    copy_batches: int
+    normalization_seconds: float
+    matching_seconds: float
+    copy_seconds: float
+    dedup_seconds: float
+    publication_seconds: float
+    scan_seconds: float
+    elapsed_seconds: float
+    peak_in_flight_bytes: int
+    dedup: str
+    reason: str
+
+
+class EmbeddingModel(Protocol):
+    def embed(
+        self, documents: Iterable[str], *, batch_size: int, parallel: None
+    ) -> Iterable[np.ndarray]: ...
+
+
+def _herbs_catalogs(connection):
+    """Two aggregated queries, preserving exact condition terms and all herb owners."""
+    conditions = connection.execute(
+        "SELECT c.id, c.name, COALESCE(array_agg(DISTINCT s.synonym ORDER BY s.synonym) "
+        "FILTER (WHERE s.synonym IS NOT NULL), ARRAY[]::text[]) "
+        "FROM medical_conditions c LEFT JOIN medical_condition_synonyms s "
+        "ON s.medical_condition_id=c.id GROUP BY c.id, c.name ORDER BY c.id"
+    ).fetchall()
+    if not conditions:
+        raise CatalogUnavailable()
+    condition_rows = []
+    positions_by_term: dict[str, set[int]] = {}
+    seen_names = set()
+    for position, (condition_id, name, synonyms) in enumerate(conditions):
+        if (
+            type(condition_id) is not int
+            or condition_id <= 0
+            or not isinstance(name, str)
+            or not _normalize(name)
+            or name != " ".join(name.split())
+            or _normalize(name) in seen_names
+            or not all(isinstance(term, str) and _normalize(term) for term in synonyms)
+        ):
+            raise CatalogUnavailable()
+        seen_names.add(_normalize(name))
+        condition_rows.append([condition_id, name, sorted(set(synonyms))])
+        for term in (name, *synonyms):
+            positions_by_term.setdefault(term, set()).add(position)
+
+    rows = connection.execute(
+        "SELECT h.id, h.family, h.latin, h.ro, h.en, "
+        "COALESCE(array_agg(DISTINCT a.name ORDER BY a.name) FILTER "
+        "(WHERE a.kind='ro_regional'), ARRAY[]::text[]), "
+        "COALESCE(array_agg(DISTINCT a.name ORDER BY a.name) FILTER "
+        "(WHERE a.kind='latin_synonyms'), ARRAY[]::text[]), "
+        "COALESCE(array_agg(DISTINCT a.name ORDER BY a.name) FILTER "
+        "(WHERE a.kind='en_alt'), ARRAY[]::text[]) "
+        "FROM herbs h LEFT JOIN herb_aliases a ON a.herb_id=h.id "
+        "GROUP BY h.id, h.family, h.latin, h.ro, h.en ORDER BY h.id"
+    ).fetchall()
+    herbs = [
+        Herb(
+            id=i,
+            family=f,
+            latin=latin,
+            ro=r,
+            en=e,
+            ro_regional=tuple(rr),
+            latin_synonyms=tuple(ls),
+            en_alt=tuple(ea),
+        )
+        for i, f, latin, r, e, rr, ls, ea in rows
+    ]
+    if catalog_problems(
+        sorted(herbs, key=lambda h: (_normalize(h.ro), _normalize(h.latin))), source=False
+    ):
+        raise HerbCatalogUnavailable()
+    names: dict[str, set[int]] = {}
+    herb_rows = []
+    for position, herb in enumerate(herbs):
+        normalized = sorted({_herb_text(name) for name in herb.names} - {""})
+        if not normalized:
+            raise HerbCatalogUnavailable()
+        herb_rows.append([herb.id, normalized])
+        for name in normalized:
+            names.setdefault(name, set()).add(position)
+    return (
+        tuple(row[0] for row in conditions),
+        tuple(h.id for h in herbs),
+        MappingProxyType({k: tuple(sorted(v)) for k, v in positions_by_term.items()}),
+        tuple((k, tuple(sorted(v))) for k, v in sorted(names.items())),
+        _herbs_fingerprint(condition_rows),
+        _herbs_fingerprint(herb_rows),
+    )
+
+
+def _herbs_bitmap_bytes(herbs: int, conditions: int) -> int:
+    # Conservative CPython allocation: full-width ints, mappings and transient masks.
+    digits = (conditions + sys.int_info.bits_per_digit - 1) // sys.int_info.bits_per_digit
+    integer_bytes = sys.getsizeof(0) + digits * sys.int_info.sizeof_digit
+    return (herbs + 2) * (integer_bytes + 8) + (herbs + conditions) * 128
+
+
+def _prepare_herbs_index(
+    connection,
+    *,
+    chunks_changed,
+    previous_generation,
+    next_generation,
+    force_rebuild,
+    bitmap_budget_bytes=None,
+    no_eligible_work=False,
+) -> HerbsIndexContext:
+    started = time.monotonic()
+    ids, herb_ids, terms, names, cf, hf = _herbs_catalogs(connection)
+    if not connection.execute("SELECT to_regclass('herbs_benefits')").fetchone()[0]:
+        raise RuntimeError("HERBS_BENEFITS_SCHEMA_MISSING: run database migrations")
+    metadata = dict(connection.execute("SELECT key, value FROM sync_metadata").fetchall())
+    row_count = connection.execute("SELECT count(*) FROM herbs_benefits").fetchone()[0]
+    expected = {
+        "herbs_benefits_index_version": str(HERBS_INDEX_VERSION),
+        "herbs_benefits_chunks_generation": previous_generation,
+        "herbs_benefits_conditions_fingerprint": cf,
+        "herbs_benefits_herbs_fingerprint": hf,
+        "herbs_benefits_row_count": str(row_count),
+    }
+    reason = (
+        "forced"
+        if force_rebuild
+        else "chunks_changed"
+        if chunks_changed
+        else "metadata_changed"
+        if not previous_generation or any(metadata.get(k) != v for k, v in expected.items())
+        else "unchanged"
+    )
+    bitmap_bytes = _herbs_bitmap_bytes(len(herb_ids), len(ids))
+    budget = HERBS_BITMAP_BUDGET_BYTES if bitmap_budget_bytes is None else bitmap_budget_bytes
+    if budget < 0:
+        raise ValueError("INVALID_HERBS_BITMAP_BUDGET")
+    rebuild = reason != "unchanged"
+    # Only skip workers when absence of eligible chunks is known after planned writes.
+    workers_required = rebuild and not no_eligible_work
+    if workers_required and not chunks_changed:
+        workers_required = connection.execute(
+            "SELECT EXISTS (SELECT 1 FROM chunks WHERE cardinality(primary_medical_conditions)>0 "
+            "OR cardinality(secondary_medical_conditions)>0)"
+        ).fetchone()[0]
+    print(
+        f"herbs_benefits | preparation reason={reason} bitmap_bytes={bitmap_bytes} "
+        f"dedup={'bitmaps' if bitmap_bytes <= budget else 'database'} "
+        f"elapsed={time.monotonic() - started:.3f}s",
+        flush=True,
+    )
+    return HerbsIndexContext(
+        ids,
+        herb_ids,
+        terms,
+        names,
+        cf,
+        hf,
+        previous_generation,
+        next_generation,
+        rebuild,
+        reason,
+        row_count,
+        bitmap_bytes,
+        bitmap_bytes <= budget,
+        workers_required,
+    )
+
+
+def _load_herbs_backend():
+    try:
+        import ahocorasick
+    except ImportError as error:
+        raise RuntimeError(
+            "HERBS_MATCHER_UNAVAILABLE: install pyahocorasick in the indexer's Python environment: "
+            f'{"& " if os.name == "nt" else ""}"{sys.executable}" '
+            '-m pip install "pyahocorasick>=2.3.1,<3"'
+        ) from error
+    return ahocorasick
+
+
+def _make_herbs_matcher(names):
+    ahocorasick = _load_herbs_backend()
+
+    automaton = ahocorasick.Automaton()
+    for name, positions in names:
+        automaton.add_word(name, (len(name), positions))
+    automaton.make_automaton()
+    return automaton
+
+
+def _match_herbs(automaton, normalized: str) -> set[int]:
+    found = set()
+    for end, (length, positions) in automaton.iter(normalized):
+        start = end - length + 1
+        if (start == 0 or normalized[start - 1] == " ") and (
+            end + 1 == len(normalized) or normalized[end + 1] == " "
+        ):
+            found.update(positions)
+    return found
+
+
+def _initialize_herbs_worker(names, readiness, gate) -> None:
+    global _HERBS_AUTOMATON, _HERBS_GATE
+    _HERBS_AUTOMATON = _make_herbs_matcher(names)
+    _HERBS_GATE = gate
+    readiness.put(os.getpid())
+
+
+def _scan_herbs_batch(texts):
+    offsets, positions = array("I", [0]), array("I")
+    normalization_seconds = matching_seconds = 0.0
+    for text in texts:
+        started = time.monotonic()
+        normalized = _herb_text(text)
+        normalization_seconds += time.monotonic() - started
+        started = time.monotonic()
+        positions.extend(sorted(_match_herbs(_HERBS_AUTOMATON, normalized)))
+        matching_seconds += time.monotonic() - started
+        offsets.append(len(positions))
+    return offsets, positions, normalization_seconds, matching_seconds
+
+
+@contextmanager
+def _prepared_herbs_workers(context):
+    if not context.workers_required:
+        yield None
+        return
+    started = time.monotonic()
+    _build_stage("herbs_worker_preparation")
+    # Spawned workers inherit this interpreter and its installed packages.
+    _load_herbs_backend()
+    spawn = multiprocessing.get_context("spawn")
+    readiness, gate = spawn.Queue(), spawn.Event()
+    executor = ProcessPoolExecutor(
+        max_workers=HERBS_INDEX_WORKERS,
+        mp_context=spawn,
+        initializer=_initialize_herbs_worker,
+        initargs=(context.names, readiness, gate),
+    )
+    try:
+        # Blocking startup jobs ensure every worker initializes before publication.
+        # The Event is shared through the initializer, not pickled as a task argument.
+        startup = [executor.submit(_herbs_startup_job) for _ in range(HERBS_INDEX_WORKERS)]
+        ready: set[int] = set()
+        deadline = time.monotonic() + HERBS_WORKER_TIMEOUT_SECONDS
+        last_report = started
+        while len(ready) < HERBS_INDEX_WORKERS:
+            for future in startup:
+                if future.done():
+                    future.result()
+            try:
+                ready.add(readiness.get(timeout=1))
+            except Empty:
+                if time.monotonic() >= deadline:
+                    raise TimeoutError("HERBS_WORKER_INITIALIZATION_TIMEOUT")
+            if time.monotonic() - last_report >= PROGRESS_INTERVAL_SECONDS:
+                print(
+                    f"herbs_benefits | preparing_workers ready={len(ready)}/{HERBS_INDEX_WORKERS} "
+                    f"elapsed={format_duration(time.monotonic() - started)}",
+                    flush=True,
+                )
+                last_report = time.monotonic()
+        print(
+            f"herbs_benefits | workers_ready={len(ready)} "
+            f"elapsed={time.monotonic() - started:.3f}s",
+            flush=True,
+        )
+        gate.set()
+        for future in startup:
+            future.result()
+        yield executor
+    finally:
+        gate.set()
+        executor.shutdown(wait=True, cancel_futures=True)
+        readiness.close()
+        readiness.join_thread()
+
+
+def _herbs_startup_job():
+    if _HERBS_GATE is None:
+        raise RuntimeError("HERBS_WORKER_NOT_INITIALIZED")
+    if not _HERBS_GATE.wait(HERBS_WORKER_TIMEOUT_SECONDS):
+        raise TimeoutError("HERBS_WORKER_INITIALIZATION_TIMEOUT")
+    return os.getpid()
+
+
+def _herbs_condition_mask(context, primary, secondary) -> int:
+    mask = 0
+    for term in set(primary) | set(secondary):
+        for position in context.condition_positions_by_term.get(term, ()):
+            mask |= 1 << position
+    return mask
+
+
+def _new_herbs_pairs(context, seen, herb_positions, mask):
+    for position in herb_positions:
+        new = mask if seen is None else mask & ~seen[position]
+        if seen is not None:
+            seen[position] |= mask
+        while new:
+            lowest = new & -new
+            yield context.herb_ids[position], context.condition_ids[lowest.bit_length() - 1]
+            new ^= lowest
+
+
+def _herbs_metadata(context, row_count):
+    return {
+        "herbs_benefits_index_version": str(HERBS_INDEX_VERSION),
+        "herbs_benefits_chunks_generation": context.next_generation,
+        "herbs_benefits_conditions_fingerprint": context.conditions_fingerprint,
+        "herbs_benefits_herbs_fingerprint": context.herbs_fingerprint,
+        "herbs_benefits_row_count": str(row_count),
+    }
+
+
+class HerbsProgress:
+    def __init__(self, total, *, progress=print, clock=time.monotonic):
+        self.total, self.progress, self.clock = total, progress, clock
+        self.started = self.last = clock()
+        self.last_completed = 0
+
+    def report(self, stage, stats, *, active=0, force=False):
+        now = self.clock()
+        if not force and now - self.last < PROGRESS_INTERVAL_SECONDS:
+            return
+        elapsed = max(0.0, now - self.started)
+        completed = stats["chunks_completed"]
+        recent_elapsed = now - self.last
+        rate = (
+            (completed - self.last_completed) / recent_elapsed
+            if recent_elapsed > 0
+            else completed / elapsed
+            if elapsed
+            else 0
+        )
+        percent = 100 * completed / self.total if self.total else 100.0
+        eta = format_duration((self.total - completed) / rate) if rate else "calculare"
+        self.progress(
+            f"herbs_benefits | {stage} {completed}/{self.total} ({percent:.2f}%) "
+            f"read={stats['chunks_read']} active_tasks={active} "
+            f"characters={stats['characters']} candidates={stats['candidate_pairs']} "
+            f"rate={rate:.1f} chunks/s chars/s={stats['characters'] / max(elapsed, 1e-9):.1f} "
+            f"elapsed={format_duration(elapsed)} ETA={eta}",
+            flush=True,
+        )
+        self.last = now
+        self.last_completed = completed
+
+
+def _rebuild_herbs_benefits(connection, *, context, executor, progress=print) -> HerbsIndexStats:
+    """Caller owns connection, INDEX_LOCK, transaction and commit. Workers only scan text."""
+    started = time.monotonic()
+    _build_stage("herbs_scan_and_copy")
+    total = connection.execute(
+        "SELECT count(*) FROM chunks WHERE cardinality(primary_medical_conditions)>0 "
+        "OR cardinality(secondary_medical_conditions)>0"
+    ).fetchone()[0]
+    stats: HerbsIndexStats = dict(
+        chunks_read=0,
+        chunks_completed=0,
+        characters=0,
+        candidate_pairs=0,
+        staged_pairs=0,
+        row_count=0,
+        inserted=0,
+        deleted=0,
+        copy_batches=0,
+        normalization_seconds=0.0,
+        matching_seconds=0.0,
+        copy_seconds=0.0,
+        dedup_seconds=0.0,
+        publication_seconds=0.0,
+        peak_in_flight_bytes=0,
+        dedup="bitmaps" if context.use_bitmaps else "database",
+    )
+    reporter = HerbsProgress(total, progress=progress)
+    reporter.report("scan_and_copy", stats, force=True)
+    connection.execute(
+        "CREATE TEMP TABLE herbs_benefits_raw "
+        "(herb_id BIGINT, medical_condition_id BIGINT) ON COMMIT DROP"
+    )
+    seen = [0] * len(context.herb_ids) if context.use_bitmaps else None
+    buffer: set[tuple[int, int]] = set()
+
+    def flush():
+        if not buffer:
+            return
+        tick = time.monotonic()
+        with connection.cursor() as cursor:
+            with cursor.copy(
+                "COPY herbs_benefits_raw (herb_id, medical_condition_id) FROM STDIN"
+            ) as copy:
+                for pair in buffer:
+                    copy.write_row(pair)
+        stats["staged_pairs"] += len(buffer)
+        stats["copy_batches"] += 1
+        stats["copy_seconds"] += time.monotonic() - tick
+        buffer.clear()
+
+    active: dict[Future, tuple[list[int], list[int], int]] = {}
+    in_flight_bytes = 0
+
+    def collect(*, block):
+        nonlocal in_flight_bytes
+        done, _ = wait(active, timeout=1 if block else 0, return_when=FIRST_COMPLETED)
+        for future in done:
+            masks, sizes, cost = active.pop(future)
+            in_flight_bytes -= cost
+            offsets, positions, normalization, matching = future.result()
+            stats["normalization_seconds"] += normalization
+            stats["matching_seconds"] += matching
+            for index, mask in enumerate(masks):
+                found = positions[offsets[index] : offsets[index + 1]]
+                stats["candidate_pairs"] += len(found) * mask.bit_count()
+                for pair in _new_herbs_pairs(context, seen, found, mask):
+                    buffer.add(pair)
+                    if len(buffer) >= HERBS_COPY_SIZE:
+                        flush()
+                stats["chunks_completed"] += 1
+                stats["characters"] += sizes[index]
+        reporter.report("scan_and_copy", stats, active=len(active))
+
+    def submit(texts, masks, sizes, text_bytes):
+        nonlocal in_flight_bytes
+        if not texts:
+            return
+        if executor is None:
+            raise RuntimeError("HERBS_WORKERS_NOT_PREPARED")
+        cost = (
+            text_bytes
+            + len(texts) * (len(context.herb_ids) * 4 + 4)
+            + sum(sys.getsizeof(mask) for mask in masks)
+        )
+        # A single oversized fragment is processed intact and alone.
+        while active and (
+            len(active) >= 2 * HERBS_INDEX_WORKERS or in_flight_bytes + cost > HERBS_IN_FLIGHT_BYTES
+        ):
+            collect(block=True)
+        future = executor.submit(_scan_herbs_batch, texts)
+        active[future] = masks, sizes, cost
+        in_flight_bytes += cost
+        stats["peak_in_flight_bytes"] = max(stats["peak_in_flight_bytes"], in_flight_bytes)
+        collect(block=False)
+
+    try:
+        with connection.cursor(name="herbs_benefits_scan") as cursor:
+            cursor.itersize = HERBS_FETCH_SIZE
+            cursor.execute(
+                "SELECT chunk_id, text, primary_medical_conditions, "
+                "secondary_medical_conditions FROM chunks "
+                "WHERE cardinality(primary_medical_conditions)>0 "
+                "OR cardinality(secondary_medical_conditions)>0"
+            )
+            texts: list[str] = []
+            masks: list[int] = []
+            sizes: list[int] = []
+            text_bytes = 0
+            for _, text, primary, secondary in cursor:
+                stats["chunks_read"] += 1
+                mask = _herbs_condition_mask(context, primary, secondary)
+                if not mask:
+                    stats["chunks_completed"] += 1
+                    reporter.report("scan_and_copy", stats, active=len(active))
+                    continue
+                size = sys.getsizeof(text) + 4 * len(text)  # pickling and Unicode copies
+                if texts and (
+                    text_bytes + size > HERBS_TASK_TEXT_BYTES
+                    or (len(texts) + 1) * (len(context.herb_ids) * 4 + 4) > HERBS_TASK_RESULT_BYTES
+                ):
+                    submit(texts, masks, sizes, text_bytes)
+                    texts, masks, sizes, text_bytes = [], [], [], 0
+                texts.append(text)
+                masks.append(mask)
+                sizes.append(len(text))
+                text_bytes += size
+            submit(texts, masks, sizes, text_bytes)
+        while active:
+            collect(block=True)
+        flush()
+    except BaseException:
+        for future in active:
+            future.cancel()
+        raise
+    stats["scan_seconds"] = time.monotonic() - started
+    reporter.report("deduplication", stats, force=True)
+    _build_stage("herbs_deduplication")
+    tick = time.monotonic()
+    if context.use_bitmaps:
+        connection.execute("ALTER TABLE herbs_benefits_raw RENAME TO herbs_benefits_next")
+    else:
+        connection.execute(
+            "CREATE TEMP TABLE herbs_benefits_next ON COMMIT DROP AS "
+            "SELECT DISTINCT herb_id, medical_condition_id FROM herbs_benefits_raw"
+        )
+    connection.execute("CREATE UNIQUE INDEX ON herbs_benefits_next (herb_id, medical_condition_id)")
+    connection.execute("ANALYZE herbs_benefits_next")
+    stats["row_count"] = connection.execute("SELECT count(*) FROM herbs_benefits_next").fetchone()[
+        0
+    ]
+    stats["dedup_seconds"] = time.monotonic() - tick
+    reporter.report("publication_pending_commit", stats, force=True)
+    _build_stage("herbs_publication")
+    tick = time.monotonic()
+    # Accurate target cardinality avoids poor anti-join plans after large changes.
+    connection.execute("ANALYZE herbs_benefits")
+    stats["deleted"] = connection.execute(HERBS_BENEFITS_DELETE_SQL).rowcount
+    # Freeze the old pair set once, even when the INSERT target starts empty.
+    stats["inserted"] = connection.execute(HERBS_BENEFITS_INSERT_SQL).rowcount
+    stats["publication_seconds"] = time.monotonic() - tick
+    stats["elapsed_seconds"] = time.monotonic() - started
+    return stats
 
 
 class GPUUsageMonitor:
@@ -259,7 +882,7 @@ def format_duration(seconds: float) -> str:
 # progress. Progress counts windows (see _embedding_windows()): almost every
 # fragment is longer than one window, so this is the real amount of work.
 def embed_chunks(
-    model: object,
+    model: EmbeddingModel,
     chunks: Sequence[Chunk],
     batch_size: int,
     profile: EmbeddingProfile,
@@ -404,22 +1027,38 @@ def _write_document(
 # Sync medicina-naturista-documente/data/documents into Postgres: unchanged files (same SHA-256 already
 # stored) are skipped entirely; new/changed files are re-chunked, re-embedded,
 # and published together in one transaction; files removed from source are deleted.
-def build(source: Path, model_name: str, batch_size: int = BATCH_SIZE) -> None:
+def build(
+    source: Path, model_name: str, batch_size: int = BATCH_SIZE, *, rebuild_herbs: bool = False
+) -> None:
     if batch_size <= 0:
         raise ValueError("INVALID_BATCH_SIZE")
     source = source.resolve()
     if not source.is_dir():
         raise FileNotFoundError(f"Source directory does not exist: {source}")
     get_profile(model_name)
+    _build_stage("database_bootstrap")
     created = ensure_database(db.settings.database_url, settings.database_bootstrap_url)
-    versions = migrate(db.settings.database_url)
+    _build_stage("migrations")
+    versions = migrate(db.settings.database_url, lock_timeout_ms=HERBS_LOCK_TIMEOUT_MS)
     print(
         json.dumps({"stage": "database_ready", "created": created, "migrations": versions}),
         flush=True,
     )
     with GPUUsageMonitor() as monitor:
-        with index_writer() as connection:
-            _build(source, model_name, batch_size, gpu_usage=monitor.percent, connection=connection)
+        _build_stage("index_lock")
+        with index_writer(lock_timeout_ms=HERBS_LOCK_TIMEOUT_MS) as connection:
+            connection.execute(
+                "SELECT set_config('statement_timeout', %s, false)",
+                (str(HERBS_STATEMENT_TIMEOUT_MS),),
+            )
+            _build(
+                source,
+                model_name,
+                batch_size,
+                gpu_usage=monitor.percent,
+                connection=connection,
+                rebuild_herbs=rebuild_herbs,
+            )
 
 
 def _build(
@@ -429,6 +1068,7 @@ def _build(
     *,
     gpu_usage: Callable[[], str],
     connection,
+    rebuild_herbs: bool = False,
 ) -> None:
     if batch_size <= 0:
         raise ValueError("INVALID_BATCH_SIZE")
@@ -437,6 +1077,7 @@ def _build(
         raise FileNotFoundError(f"Source directory does not exist: {source}")
 
     profile = get_profile(model_name)
+    _build_stage("fragmentation")
     settings.model_cache_dir.mkdir(parents=True, exist_ok=True)
     fingerprint, dictionary = dictionary_snapshot(connection)
 
@@ -548,6 +1189,7 @@ def _build(
 
     embeddings = np.empty((0, profile.dimension), dtype=np.float32)
     if all_new_chunks:
+        _build_stage("embeddings")
         print(
             f"Loading local embedding model {model_name} (device {settings.embedding_device})",
             flush=True,
@@ -584,34 +1226,85 @@ def _build(
     # Recheck the DB catalog before publication; all writers follow INDEX_LOCK.
     if dictionary_snapshot(connection)[0] != fingerprint:
         raise RuntimeError("DICTIONARY_CHANGED_DURING_BUILD")
-    with connection.transaction():
-        if _embedding_dimension(connection) != profile.dimension:
-            connection.execute("DELETE FROM documents")
-            connection.execute("ALTER TABLE chunks DROP COLUMN embedding")
-            connection.execute(
-                f"ALTER TABLE chunks ADD COLUMN embedding vector({profile.dimension}) NOT NULL"
-            )
-        offset = 0
-        for source_file, document_chunks in pending:
-            count = len(document_chunks)
-            _write_document(
-                connection,
-                source_file,
-                all_new_chunks[offset : offset + count],
-                embeddings[offset : offset + count],
-            )
-            offset += count
-        if removed:
-            connection.execute("DELETE FROM documents WHERE relative_path = ANY(%s)", (removed,))
+    next_generation = str(uuid.uuid4())
+    dimension_changed = _embedding_dimension(connection) != profile.dimension
+    # A planned complete replacement with no eligible fragments needs no CPU pool.
+    retained_eligible = (
+        connection.execute(
+            "SELECT EXISTS (SELECT 1 FROM chunks WHERE NOT (source_relative_path=ANY(%s)) "
+            "AND (cardinality(primary_medical_conditions)>0 OR "
+            "cardinality(secondary_medical_conditions)>0))",
+            ([item.relative_path for item, _ in pending] + removed,),
+        ).fetchone()[0]
+        if not dimension_changed
+        else False
+    )
+    no_eligible_work = not retained_eligible and not any(
+        item.primary_medical_conditions or item.secondary_medical_conditions
+        for item in all_new_chunks
+    )
+    context = _prepare_herbs_index(
+        connection,
+        chunks_changed=bool(pending or removed or dimension_changed),
+        previous_generation=stored.get("index_generation"),
+        next_generation=next_generation,
+        force_rebuild=rebuild_herbs,
+        no_eligible_work=no_eligible_work,
+    )
+    with _prepared_herbs_workers(context) as executor:
+        # Repeat final validation after worker startup, immediately before publication.
+        for relative, digest in source_hashes.items():
+            if sha256_file(source / relative) != digest:
+                raise RuntimeError("CORPUS_CHANGED_DURING_BUILD")
         if dictionary_snapshot(connection)[0] != fingerprint:
             raise RuntimeError("DICTIONARY_CHANGED_DURING_BUILD")
-        metadata = {**expected, "last_synced_utc": utc_now(), "index_generation": str(uuid.uuid4())}
-        for key, value in metadata.items():
-            connection.execute(
-                "INSERT INTO sync_metadata (key, value) VALUES (%s, %s) "
-                "ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value",
-                (key, value),
+        if _herbs_catalogs(connection)[-2:] != (
+            context.conditions_fingerprint,
+            context.herbs_fingerprint,
+        ):
+            raise RuntimeError("HERBS_CATALOG_CHANGED_DURING_BUILD")
+        with connection.transaction():
+            _build_stage("chunks_publication")
+            if _embedding_dimension(connection) != profile.dimension:
+                connection.execute("DELETE FROM documents")
+                connection.execute("ALTER TABLE chunks DROP COLUMN embedding")
+                connection.execute(
+                    f"ALTER TABLE chunks ADD COLUMN embedding vector({profile.dimension}) NOT NULL"
+                )
+            offset = 0
+            for source_file, document_chunks in pending:
+                count = len(document_chunks)
+                _write_document(
+                    connection,
+                    source_file,
+                    all_new_chunks[offset : offset + count],
+                    embeddings[offset : offset + count],
+                )
+                offset += count
+            if removed:
+                connection.execute(
+                    "DELETE FROM documents WHERE relative_path = ANY(%s)", (removed,)
+                )
+            if dictionary_snapshot(connection)[0] != fingerprint:
+                raise RuntimeError("DICTIONARY_CHANGED_DURING_BUILD")
+            herbs_stats = (
+                _rebuild_herbs_benefits(connection, context=context, executor=executor)
+                if context.rebuild_required
+                else dict(row_count=context.row_count, inserted=0, deleted=0, reason="unchanged")
             )
+            metadata = {
+                **expected,
+                "last_synced_utc": utc_now(),
+                "index_generation": next_generation,
+                **_herbs_metadata(context, herbs_stats["row_count"]),
+            }
+            for key, value in metadata.items():
+                connection.execute(
+                    "INSERT INTO sync_metadata (key, value) VALUES (%s, %s) "
+                    "ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value",
+                    (key, value),
+                )
+            _build_stage("commit")
 
     print(
         json.dumps(
@@ -623,6 +1316,7 @@ def _build(
                 "files_removed": len(removed),
                 "chunks_written": len(all_new_chunks),
                 "warnings": len(warnings),
+                "herbs_benefits": herbs_stats,
             },
             ensure_ascii=False,
         ),
@@ -635,6 +1329,11 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", type=Path, default=settings.documents_dir)
     parser.add_argument("--model", default=DEFAULT_MODEL)
+    parser.add_argument(
+        "--rebuild-herbs",
+        action="store_true",
+        help="Force rebuilding herb/condition associations without re-embedding unchanged documents",
+    )
     return parser.parse_args()
 
 
@@ -644,12 +1343,10 @@ if __name__ == "__main__":
     configure_settings(Settings.from_env(dotenv=True))
     arguments = parse_args()
     try:
-        build(arguments.source, arguments.model)
+        build(arguments.source, arguments.model, rebuild_herbs=arguments.rebuild_herbs)
     except Exception as exc:
         print(
-            json.dumps(
-                {"status": "error", "code": "INDEX_SYNC_FAILED", "type": type(exc).__name__}
-            ),
+            json.dumps(_safe_index_error(exc), ensure_ascii=False),
             file=sys.stderr,
             flush=True,
         )

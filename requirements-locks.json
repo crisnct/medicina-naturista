@@ -2,17 +2,17 @@
   "schema_version": 1,
   "environments": {
     "windows-py311": {
-      "pyproject_sha256": "9e7f1b95d5acd20f72ce903d33b9d8484d62a1e7e3f9bb584d2ddd8cdb918411",
+      "pyproject_sha256": "4fa1171224a1db416d88aad43e0f1a09668ef6d62a63b16affb75e3f477f2f3a",
       "locks": {
-        "requirements-runtime.lock": "3c9396b66e64c17857fe387a1449e70731b04104384922f247229cc60b72939a",
-        "requirements-dev.lock": "1d871604daa5900d0b60f27c65870763f104548f57acaf03c45e8d9bc0767aee"
+        "requirements-runtime.lock": "0857b51adb338f6db7f6323a484373f4f6b8f04c56d56b89e4d6d99d6eaee0c0",
+        "requirements-dev.lock": "db051fac57979996682222c0b49316d0c70732afe997ff637583cfcc7a7677a5"
       }
     },
     "linux-py311": {
-      "pyproject_sha256": "9e7f1b95d5acd20f72ce903d33b9d8484d62a1e7e3f9bb584d2ddd8cdb918411",
+      "pyproject_sha256": "4fa1171224a1db416d88aad43e0f1a09668ef6d62a63b16affb75e3f477f2f3a",
       "locks": {
-        "requirements-runtime-py311-linux.lock": "94e057d686813354ab1f2a87b474b2ff0d4a1b2493f67f001d8af7ccf25a1b75",
-        "requirements-dev-py311-linux.lock": "ebaaa848e8a0c5a981690d939894d4f24f5079ef745f0a835d9272ca11e6bd00"
+        "requirements-runtime-py311-linux.lock": "90b7e213b88e739465f74047cde048edb25f61a7f522ffcbfa6340f2b09546b4",
+        "requirements-dev-py311-linux.lock": "82621f1d17c4867ca8d8da6c01a49130b80a10ec1b3c8fcfc67a139e4ef34725"
       }
     }
   }
