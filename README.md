@@ -115,7 +115,9 @@ medicina-naturista/
 ├── docker-compose.yaml
 ├── Dockerfile
 ├── pyproject.toml
-└── requirements-web.txt          # dependențele aplicației (include requirements-lock.txt)
+├── requirements-runtime*.lock    # dependențe runtime fixate, cu hashuri
+├── requirements-dev*.lock        # runtime + unelte de dezvoltare/testare
+└── requirements-web.txt          # alias compatibil pentru Windows/Python 3.11
 ```
 
 ## 🚀 Pornire rapidă
@@ -125,7 +127,7 @@ medicina-naturista/
 ```powershell
 py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --upgrade pip
-.\.venv\Scripts\python.exe -m pip install -r requirements-web.txt
+.\.venv\Scripts\python.exe -m pip install --require-hashes -r requirements-runtime.lock
 ```
 
 Plasați documentele sursă în `medicina-naturista-documente/data/documents/`. Nu publicați corpusul dacă include materiale private sau protejate. Opțional, curățați-le înainte de indexare (metadate de extragere PDF, linkuri, marcaje de pagină, trimiteri „Vezi și”, diacritice românești transcrise în litere ASCII: `ă/â → a`, `î → i`, `ș → s`, `ț → t`):
@@ -223,7 +225,7 @@ Construiți interfața React (FastAPI servește `src/frontend/dist`):
 
 ```powershell
 cd src/frontend
-npm install
+npm ci
 npm run build
 cd ..\..
 ```
@@ -235,7 +237,7 @@ $env:PYTHONPATH = "src"
 .\.venv\Scripts\python.exe -m uvicorn backend.web.main:app --host 127.0.0.1 --port 7860
 ```
 
-Executați migrarea explicită înainte de prima autentificare: `python -m scripts.migrate_database` (cu `PYTHONPATH=src` și baza configurată). Autorizarea se face prin cererea `GET /owner?key=<OWNER_KEY>`: cheia validă emite cookie-ul și redirecționează către chat, fără cheia în URL-ul destinației. Cu prefixul public, ruta este `/medicina/owner?key=<OWNER_KEY>`. Nu există controale owner în UI. Autorizarea rămâne validă peste restart până la `POST /api/owner/logout` sau rotația cheii. Endpointul de stare este `http://127.0.0.1:7860/healthz` (503 dacă lipsește cheia furnizorului AI).
+Executați migrările explicit înainte de prima autentificare: `python -m scripts.migrate_database` (cu `PYTHONPATH=src` și baza configurată). Deschideți `http://127.0.0.1:8000/owner` pentru login/logout. Formularul trimite cheia prin `POST /api/owner/login`, cu CSRF; logoutul revocă tokenul prin `POST /api/owner/logout`. Cu prefixul public, formularul este `/medicina/owner` pe originea HTTPS configurată. Cheia nu trebuie pusă în URL sau în istoricul terminalului. Autorizarea rămâne valabilă peste restart până la logout sau rotația cheii. Ruta veche cu cheia în query rămâne doar pentru compatibilitate. `/healthz` păstrează momentan verificările existente; separarea completă liveness/readiness aparține planului 03.
 
 Pentru dezvoltarea interfeței cu reîncărcare automată, rulați `npm run dev` în `src/frontend/`: Vite servește interfața și trimite `/api`, `/healthz` și `/owner` către backend-ul de pe portul 7860.
 
@@ -408,28 +410,97 @@ Este solicitat numai scope-ul `gmail.send`. Tokenul nu este afișat și nu trebu
 
 ## 🧪 Testare
 
-Testele care ating indexul pornesc un Postgres efemer (`pgvector/pgvector:pg16`) prin `testcontainers`, deci au nevoie de Docker pornit și de dependența de dezvoltare. Testele PDF citesc rapoartele cu `pypdf`, prezent în `pyproject.toml`, dar nu și în `requirements-web.txt`:
+Comenzile se execută din rădăcina proiectului. Rezultatele validării planului 04 din 11 octombrie 2026 și verificările rămase sunt în [architecture/plan04-implementation.md](architecture/plan04-implementation.md).
+
+Instalați uneltele de dezvoltare în mediul CPU (nu în `.venv-gpu`):
 
 ```powershell
-.\.venv\Scripts\python.exe -m pip install "testcontainers[postgres]>=4,<5" "pypdf>=6,<7"
+.\.venv\Scripts\python.exe -m pip install --require-hashes -r requirements-dev.lock
+$env:PYTHONPATH = "src"
+.\.venv\Scripts\python.exe -m unittest discover -s src/tests/unit -t src -v
+.\.venv\Scripts\python.exe -m pytest src/tests/unit/ai/test_report_validation.py src/tests/unit/web/test_report_integrity.py -q
 ```
 
-Rulați întreaga suită backend:
+Unitarele folosesc dependențe simulate și nu necesită Docker, PostgreSQL, `.env` sau corpusul personal. Testele de integrare folosesc implicit un PostgreSQL/pgvector efemer și corpus sintetic:
+
+```powershell
+.\.venv\Scripts\python.exe -m unittest discover -s src/tests/integration -t src -v
+.\.venv\Scripts\python.exe -m pytest src/tests/integration/test_index_integrity.py -q
+```
+
+Docker trebuie să fie disponibil pentru integrare. Alternativ, `TEST_POSTGRES_URL` poate indica **exclusiv o bază de test dispensabilă**: fixture-urile îi modifică schema și datele. Nu folosiți baza aplicației. Testele corpusului și cataloagelor personale necesită separat `RUN_LOCAL_CORPUS_TESTS=1`; nu sunt activate în CI.
+
+Verificările statice și frontend:
+
+```powershell
+.\.venv\Scripts\python.exe -m ruff check src
+.\.venv\Scripts\python.exe -m ruff format --check src
+.\.venv\Scripts\python.exe -m mypy
+npm --prefix src/frontend ci
+npm --prefix src/frontend run test
+npm --prefix src/frontend run typecheck
+npm --prefix src/frontend run build
+```
+
+Ruff nu rescrie fișiere în CI. Mypy verifică gradual configurația, contractele, modelele, serviciul conversației, bugetul operațiilor și evaluatorul de conținut. Dicționarele third-party din `src/scripts/dictionaires` și scripturile experimentale `icd10_work` sunt excluse din formatarea/lintul aplicației.
+
+### Dependențe și CI
+
+`pyproject.toml` este sursa declarațiilor. Lockurile sunt generate cu pip-tools, includ dependențele tranzitive și hashurile distribuțiilor și păstrează versiunile existente fără upgrade implicit:
+
+| Mediu | Runtime | Dezvoltare |
+|---|---|---|
+| Windows, Python 3.11 | `requirements-runtime.lock` | `requirements-dev.lock` |
+| Linux, Python 3.11 | `requirements-runtime-py311-linux.lock` | `requirements-dev-py311-linux.lock` |
+| Linux, Python 3.14 | `requirements-runtime-py314-linux.lock` | `requirements-dev-py314-linux.lock` |
+
+Generați fiecare pereche pe sistemul și versiunea Python corespunzătoare:
 
 ```powershell
 $env:PYTHONPATH = "src"
-.\.venv\Scripts\python.exe -m unittest discover -s src/tests -t src -v
+.\.venv\Scripts\python.exe -m scripts.manage_dependencies --generate
+.\.venv\Scripts\python.exe -m scripts.manage_dependencies --check
 ```
 
-Testele interfeței:
+`requirements-locks.json` înregistrează hashul declarațiilor și al fiecărui lock. CI refuză declarații schimbate fără regenerare. `requirements-web.txt` și `requirements-lock.txt` sunt aliasuri pentru lockul Windows/Python 3.11; pe Linux folosiți perechea Linux. Mediul GPU existent și modelul `Qwen/Qwen3-Embedding-0.6B` sunt păstrate.
+
+Workflow-ul `.github/workflows/ci.yml` separă verificările statice, unitarele Python 3.11/3.14, integrarea pgvector, frontendul și buildul Docker. Folosește date sintetice și nu publică corpusul personal. Rezolvarea unui lock pentru 3.14 nu dovedește singură compatibilitatea runtime; aceasta rămâne de verificat prin instalare și teste.
+
+### Evaluarea retrieval-ului la nivel de conținut
+
+Evaluatorul structural existent rămâne disponibil. Noul mod `--content` folosește exact 30 de cazuri din `src/tests/eval/content_cases.json`, acoperind afecțiuni, sinonime, exprimări libere și atenționări. Fiecare fragment este identificat prin cale relativă și SHA-256 al textului, independent de ID-ul PostgreSQL.
+
+Cazurile livrate sunt etichetate pentru corpusul sintetic din `src/tests/eval/synthetic_corpus`. Clasamentele din `synthetic_rankings.json` și baseline-ul analitic ideal verifică mecanismul metricilor; **nu măsoară calitatea modelului pe corpusul personal**:
 
 ```powershell
-cd src/frontend
-npm test
-npm run typecheck
+.\.venv\Scripts\python.exe -m scripts.evaluate_retrieval --content --rankings src/tests/eval/synthetic_rankings.json --baseline src/tests/eval/synthetic_baseline.json --output var/output/synthetic-metrics.json
 ```
 
-Testele acoperă fragmentarea și recunoașterea afecțiunilor, sincronizarea indexului, scorul și retrieval-ul, sesiunile web, răspunsurile simulate ale furnizorilor AI, generarea PDF și integrarea Gmail simulată. Nu sunt necesare requesturi AI reale.
+Pentru un index real, pregătiți local 30 de cazuri cu hashuri din acel corpus, apoi măsurați baseline-ul înaintea schimbării scoringului. Datele personale și etichetele locale rămân în `var/output`:
+
+```powershell
+.\.venv\Scripts\python.exe -m scripts.evaluate_retrieval --content --dotenv --cases var/output/content-cases-local.json --output var/output/retrieval-before.json
+.\.venv\Scripts\python.exe -m scripts.evaluate_retrieval --content --dotenv --cases var/output/content-cases-local.json --baseline var/output/retrieval-before.json --output var/output/retrieval-after.json
+```
+
+Raportul include Recall@50 din fragmentele relevante etichetate, nDCG@10 cu grade 0–3, numărul rezultatelor etichetate ca irelevante în top 10, fragmentele fără etichetă în top 10 și acoperirea atenționărilor așteptate în top 50. Comparația refuză corpusuri/cazuri/configurații diferite și raportează regresii pe fiecare caz, cu exit code 2. O nouă generație a aceluiași conținut poate fi comparată. Aceste metrici nu validează clinic sursele.
+
+### Operare și limite
+
+`MAX_CONCURRENT_SEARCHES=2` și `MAX_CONCURRENT_GENERATIONS=1` plafonează operațiile per proces (un worker Uvicorn). Excesul primește 429; aceeași căutare deja în generare primește 409. `OPERATION_TIMEOUT_SECONDS=600` limitează durata totală acceptată a operației, inclusiv AI, validare, PDF și publicare. Nu există retry automat. Emailul este o operație separată.
+
+Un apel extern deja trimis poate continua până la timeout/terminare, însă rezultatul tardiv este abandonat; capacitatea rămâne ocupată cât workerul încă rulează. Căutarea rămâne disponibilă pentru reîncercare explicită. Închiderea sesiunii anulează dreptul de publicare.
+
+`DEPLOYMENT_PROFILE=local` este implicit. Profilul `public` cere `PUBLIC_ORIGIN=https://...`, `COOKIE_SECURE=true` și logare de conținut dezactivată. `LOG_FRAGMENT_TEXT` și `LOG_AI_RESPONSE_TEXT` sunt false implicit. Contractele de proxy/readiness și smoke testul public complet se finalizează conform planului 03.
+
+Migrările se execută înainte de startup; rebuildul indexului are lock de mentenanță și păstrează generația anterioară la eșec. Diagnosticul folosește `/readyz` și codurile erorilor, fără ștergeri manuale ale indexului:
+
+```powershell
+.\.venv\Scripts\python.exe -m scripts.migrate_database
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index
+```
+
+Starea implementării și pașii de verificare manuală sunt în [architecture/plan04-implementation.md](architecture/plan04-implementation.md).
 
 ## Extragerea PDF în Markdown
 

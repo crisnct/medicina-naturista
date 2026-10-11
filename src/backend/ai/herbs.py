@@ -5,6 +5,7 @@ Romanian name `ro` may be shared by several species ("Paducel" is both
 Crataegus monogyna and C. laevigata), so a lookup by name returns a list.
 Fungi, lichens, mosses and algae are in the catalogue too. Nothing in search or
 fragmentation uses it yet."""
+
 from __future__ import annotations
 
 import json
@@ -38,9 +39,18 @@ class Herb:
     # Every non-empty name of the species: ro, regional, latin, latin synonyms, en, en_alt.
     @property
     def names(self) -> tuple[str, ...]:
-        return tuple(name for name in (
-            self.ro, *self.ro_regional, self.latin, *self.latin_synonyms, self.en, *self.en_alt,
-        ) if name)
+        return tuple(
+            name
+            for name in (
+                self.ro,
+                *self.ro_regional,
+                self.latin,
+                *self.latin_synonyms,
+                self.en,
+                *self.en_alt,
+            )
+            if name
+        )
 
 
 # Parse the catalogue text (JSON Lines). Blank lines are skipped; a line whose
@@ -56,16 +66,24 @@ def parse_herbs(text: str) -> list[Herb]:
         except json.JSONDecodeError as error:
             raise ValueError(f"herbs line {number}: invalid JSON ({error.msg})") from None
         if not isinstance(record, dict) or set(record) != set(FIELDS):
-            raise ValueError(f"herbs line {number}: expected an object with exactly the keys {', '.join(FIELDS)}")
+            raise ValueError(
+                f"herbs line {number}: expected an object with exactly the keys {', '.join(FIELDS)}"
+            )
         for key in _STRINGS:
             value = record[key]
             if not isinstance(value, str) or (key != "en" and not value.strip()):
                 raise ValueError(f"herbs line {number}: '{key}' must be a non-empty string")
         for key in _LISTS:
             value = record[key]
-            if not isinstance(value, list) or not all(isinstance(item, str) and item.strip() for item in value):
-                raise ValueError(f"herbs line {number}: '{key}' must be a list of non-empty strings")
-        herbs.append(Herb(**{key: tuple(record[key]) if key in _LISTS else record[key] for key in FIELDS}))
+            if not isinstance(value, list) or not all(
+                isinstance(item, str) and item.strip() for item in value
+            ):
+                raise ValueError(
+                    f"herbs line {number}: '{key}' must be a list of non-empty strings"
+                )
+        herbs.append(
+            Herb(**{key: tuple(record[key]) if key in _LISTS else record[key] for key in FIELDS})
+        )
     return herbs
 
 

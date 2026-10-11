@@ -1,4 +1,5 @@
 """Tests for the pure metric/label logic of scripts/evaluate_retrieval.py (no database)."""
+
 from __future__ import annotations
 
 import math
@@ -29,15 +30,29 @@ class MetricTests(unittest.TestCase):
 
         self.assertAlmostEqual(ev.ndcg_at([1, 2, 9], relevant, 10), 1.0)
         worse = ev.ndcg_at([9, 1, 2], relevant, 10)
-        self.assertAlmostEqual(worse, (1 / math.log2(3) + 1 / math.log2(4)) / (1 + 1 / math.log2(3)))
+        self.assertAlmostEqual(
+            worse, (1 / math.log2(3) + 1 / math.log2(4)) / (1 + 1 / math.log2(3))
+        )
 
     def test_ndcg_is_zero_without_relevant_chunks(self):
         self.assertEqual(ev.ndcg_at([1, 2], set(), 10), 0.0)
 
     def test_summary_reports_means_and_latency_percentiles(self):
         rows = [
-            {"precision_at_10": 1.0, "reciprocal_rank": 1.0, "ndcg_at_10": 1.0, "recall_at_50": 0.5, "latency_ms": 100.0},
-            {"precision_at_10": 0.0, "reciprocal_rank": 0.5, "ndcg_at_10": 0.0, "recall_at_50": None, "latency_ms": 300.0},
+            {
+                "precision_at_10": 1.0,
+                "reciprocal_rank": 1.0,
+                "ndcg_at_10": 1.0,
+                "recall_at_50": 0.5,
+                "latency_ms": 100.0,
+            },
+            {
+                "precision_at_10": 0.0,
+                "reciprocal_rank": 0.5,
+                "ndcg_at_10": 0.0,
+                "recall_at_50": None,
+                "latency_ms": 300.0,
+            },
         ]
 
         summary = ev.summarize(rows)
@@ -49,10 +64,16 @@ class MetricTests(unittest.TestCase):
         self.assertAlmostEqual(summary["latency_p95_ms"], 300.0)
 
     def test_priority_violations_are_reported_only_when_the_conditions_signal_is_on(self):
-        rows = [{
-            "precision_at_10": 1.0, "reciprocal_rank": 1.0, "ndcg_at_10": 1.0,
-            "recall_at_50": 1.0, "latency_ms": 100.0, "priority_order_violations": 2,
-        }]
+        rows = [
+            {
+                "precision_at_10": 1.0,
+                "reciprocal_rank": 1.0,
+                "ndcg_at_10": 1.0,
+                "recall_at_50": 1.0,
+                "latency_ms": 100.0,
+                "priority_order_violations": 2,
+            }
+        ]
 
         with_conditions = ev.summarize(rows, ev.SearchSignals.from_code("AC"))
         without_conditions = ev.summarize(rows, ev.SearchSignals.from_code("BC"))
@@ -63,7 +84,15 @@ class MetricTests(unittest.TestCase):
         self.assertEqual(without_conditions["signals"], "BC")
 
     def test_summary_defaults_to_every_signal(self):
-        rows = [{"precision_at_10": 0.0, "reciprocal_rank": 0.0, "ndcg_at_10": 0.0, "recall_at_50": None, "latency_ms": 1.0}]
+        rows = [
+            {
+                "precision_at_10": 0.0,
+                "reciprocal_rank": 0.0,
+                "ndcg_at_10": 0.0,
+                "recall_at_50": None,
+                "latency_ms": 1.0,
+            }
+        ]
 
         summary = ev.summarize(rows)
 

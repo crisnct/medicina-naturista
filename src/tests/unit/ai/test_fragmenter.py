@@ -9,16 +9,20 @@ from tests.support.conditions import conditions_jsonl
 
 R1, R2, D1 = BusinessCategory.R1, BusinessCategory.R2, BusinessCategory.D1
 
-DICTIONARY = ConditionDictionary(parse_conditions(conditions_jsonl(
-    "Gripa,gripe,influenza,gout\n"
-    "Febra,fever\n"
-    "Constipatie\n"
-    "Acnee,acne\n"
-    "Insomnie\n"
-    "Adenom\n"
-    "Adenom colonic\n"
-    "RA\n"
-)))
+DICTIONARY = ConditionDictionary(
+    parse_conditions(
+        conditions_jsonl(
+            "Gripa,gripe,influenza,gout\n"
+            "Febra,fever\n"
+            "Constipatie\n"
+            "Acnee,acne\n"
+            "Insomnie\n"
+            "Adenom\n"
+            "Adenom colonic\n"
+            "RA\n"
+        )
+    )
+)
 
 
 def split(text: str) -> list[Fragment]:
@@ -35,7 +39,9 @@ def sentences(count: int) -> str:
 
 class ConditionDetectionTests(unittest.TestCase):
     def test_finds_whole_words_ignoring_case_and_diacritics(self):
-        self.assertEqual([c.name for c in DICTIONARY.find("Ceai pentru GRIPĂ și febră")], ["Gripa", "Febra"])
+        self.assertEqual(
+            [c.name for c in DICTIONARY.find("Ceai pentru GRIPĂ și febră")], ["Gripa", "Febra"]
+        )
         self.assertEqual([c.name for c in DICTIONARY.find("Utila in febra, amenoree")], ["Febra"])
 
     def test_folds_romanian_endings(self):
@@ -53,7 +59,9 @@ class ConditionDetectionTests(unittest.TestCase):
         self.assertEqual([c.name for c in DICTIONARY.find("RA este o boală")], ["RA"])
 
     def test_three_letter_acronyms_are_found(self):
-        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Hpv,human papillomavirus\n")))
+        dictionary = ConditionDictionary(
+            parse_conditions(conditions_jsonl("Hpv,human papillomavirus\n"))
+        )
 
         self.assertEqual([c.name for c in dictionary.find("Natural remedies for HPV")], ["Hpv"])
 
@@ -69,18 +77,28 @@ class R1Tests(unittest.TestCase):
 
         fragments = split(text)
 
-        self.assertEqual(fragments, [Fragment(
-            "### Gripa - tratament naturiste\nCeai de musetel: de doua ori pe zi.",
-            3, 4,
-            "Vindecare prin nutritie > Gripa si raceala > Gripa - tratament naturiste",
-            R1, ("Gripa",), (),
-        )])
+        self.assertEqual(
+            fragments,
+            [
+                Fragment(
+                    "### Gripa - tratament naturiste\nCeai de musetel: de doua ori pe zi.",
+                    3,
+                    4,
+                    "Vindecare prin nutritie > Gripa si raceala > Gripa - tratament naturiste",
+                    R1,
+                    ("Gripa",),
+                    (),
+                )
+            ],
+        )
 
     def test_matches_a_synonym_and_an_inflected_form(self):
         fragments = split("# Gout\nUn text.\n# Tratamentul gripei\nAlt text.")
 
-        self.assertEqual([(f.path, f.primary_conditions) for f in fragments],
-                         [("Gout", ("Gripa",)), ("Tratamentul gripei", ("Gripa",))])
+        self.assertEqual(
+            [(f.path, f.primary_conditions) for f in fragments],
+            [("Gout", ("Gripa",)), ("Tratamentul gripei", ("Gripa",))],
+        )
         self.assertTrue(all(f.business_category == R1 for f in fragments))
 
     def test_parent_and_child_condition_headings_are_separate_and_disjoint(self):
@@ -104,7 +122,9 @@ class R1Tests(unittest.TestCase):
         self.assertEqual([f.path for f in fragments], ["Carte > Gripa > Febra"])
 
     def test_condition_in_the_text_of_an_r1_is_secondary_only(self):
-        fragments = split("# Carte\n## Gripa\nSe însoțește de febra și de insomnie.\n## Altceva\nText.")
+        fragments = split(
+            "# Carte\n## Gripa\nSe însoțește de febra și de insomnie.\n## Altceva\nText."
+        )
 
         gripa = next(f for f in fragments if f.business_category == R1)
         self.assertEqual(gripa.primary_conditions, ("Gripa",))
@@ -148,13 +168,25 @@ class R2Tests(unittest.TestCase):
 
         fragments = split(text)
 
-        self.assertEqual(fragments, [Fragment(
-            "### Musetel\nCeaiul de musetel ajuta in gripa si in insomnie.", 3, 4,
-            "Vindecare prin nutritie > Plante utile > Musetel", R2, (), ("Gripa", "Insomnie"),
-        )])
+        self.assertEqual(
+            fragments,
+            [
+                Fragment(
+                    "### Musetel\nCeaiul de musetel ajuta in gripa si in insomnie.",
+                    3,
+                    4,
+                    "Vindecare prin nutritie > Plante utile > Musetel",
+                    R2,
+                    (),
+                    ("Gripa", "Insomnie"),
+                )
+            ],
+        )
 
     def test_introductions_of_ancestors_are_not_included(self):
-        fragments = split("# Dictionar\nCarte cu remedii\n## Coada\nUtila in febra, amenoree.\n## Lavanda\nUtila in dureri de cap.")
+        fragments = split(
+            "# Dictionar\nCarte cu remedii\n## Coada\nUtila in febra, amenoree.\n## Lavanda\nUtila in dureri de cap."
+        )
 
         febra = of(fragments, R2)[0]
         self.assertEqual(febra.text, "## Coada\nUtila in febra, amenoree.")
@@ -167,13 +199,17 @@ class R2Tests(unittest.TestCase):
         self.assertEqual(fragments[0].secondary_conditions, ("Febra", "Gripa", "Constipatie"))
 
     def test_r2_never_has_primary_conditions(self):
-        fragments = of(split("# Carte\n## Plante\nMenta ajută la febra.\n## Altele\nAcnee vulgară."), R2)
+        fragments = of(
+            split("# Carte\n## Plante\nMenta ajută la febra.\n## Altele\nAcnee vulgară."), R2
+        )
 
         self.assertEqual(len(fragments), 2)
         self.assertTrue(all(f.primary_conditions == () for f in fragments))
 
     def test_text_taken_by_an_r1_is_not_reused_by_an_r2(self):
-        fragments = split("# Carte\n## Gripa\nSe însoțește adesea de febra.\n## Plante\nMenta ajută la febra.")
+        fragments = split(
+            "# Carte\n## Gripa\nSe însoțește adesea de febra.\n## Plante\nMenta ajută la febra."
+        )
 
         self.assertEqual([f.business_category for f in fragments], [R1, R2])
         self.assertNotIn("Plante", fragments[0].text)
@@ -203,13 +239,17 @@ class D1Tests(unittest.TestCase):
         fragments = split("Introducere despre febra.\n\n# Carte\nText fără nimic.")
 
         self.assertEqual([(f.business_category, f.path) for f in fragments], [(D1, "")])
-        self.assertEqual(fragments[0].text, "Introducere despre febra.\n\n# Carte\nText fără nimic.")
+        self.assertEqual(
+            fragments[0].text, "Introducere despre febra.\n\n# Carte\nText fără nimic."
+        )
 
     def test_d1_has_no_conditions(self):
         fragments = of(split("# Carte\nCeva.\n## Gripa\nText.\n## Lavanda\nUtila la dureri."), D1)
 
         self.assertTrue(fragments)
-        self.assertTrue(all(f.primary_conditions == () and f.secondary_conditions == () for f in fragments))
+        self.assertTrue(
+            all(f.primary_conditions == () and f.secondary_conditions == () for f in fragments)
+        )
 
     def test_pieces_are_about_1800_characters_with_a_bounded_overlap(self):
         text = sentences(400)
@@ -223,7 +263,9 @@ class D1Tests(unittest.TestCase):
             self.assertLessEqual(len(piece.text), fragmenter.D1_MAX_CHARS)
             self.assertTrue(piece.text.endswith("."))
         for previous, following in zip(pieces, pieces[1:]):
-            self.assertLessEqual(_overlap(previous.text, following.text), fragmenter.D1_MAX_OVERLAP_CHARS)
+            self.assertLessEqual(
+                _overlap(previous.text, following.text), fragmenter.D1_MAX_OVERLAP_CHARS
+            )
         self.assertGreaterEqual(len(pieces[-1].text), fragmenter.D1_MIN_TAIL_CHARS)
 
     def test_pieces_overlap_and_together_cover_the_whole_text(self):
@@ -234,7 +276,7 @@ class D1Tests(unittest.TestCase):
         self.assertTrue(any(_overlap(a.text, b.text) > 0 for a, b in zip(pieces, pieces[1:])))
         rebuilt = pieces[0].text
         for previous, following in zip(pieces, pieces[1:]):
-            rebuilt += following.text[_overlap(previous.text, following.text):]
+            rebuilt += following.text[_overlap(previous.text, following.text) :]
         self.assertEqual(rebuilt.replace(" ", "").replace("\n", ""), text.replace(" ", ""))
 
     def test_pieces_start_at_a_sentence_start(self):
@@ -245,7 +287,9 @@ class D1Tests(unittest.TestCase):
     def test_text_without_any_boundary_is_hard_cut(self):
         pieces = split("x" * 5000)
 
-        self.assertEqual([len(p.text) for p in pieces[:-1]], [fragmenter.D1_MAX_CHARS] * (len(pieces) - 1))
+        self.assertEqual(
+            [len(p.text) for p in pieces[:-1]], [fragmenter.D1_MAX_CHARS] * (len(pieces) - 1)
+        )
         self.assertEqual(sum(len(p.text) for p in pieces), 5000)
 
     def test_text_without_sentence_ends_is_cut_at_a_line_break(self):
@@ -304,7 +348,7 @@ class LineRangeTests(unittest.TestCase):
         source_lines = book.split("\n")
 
         for fragment in split(book):
-            excerpt = "\n".join(source_lines[fragment.line_start - 1:fragment.line_end])
+            excerpt = "\n".join(source_lines[fragment.line_start - 1 : fragment.line_end])
             for line in fragment.text.split("\n"):
                 self.assertIn(line, excerpt)
 

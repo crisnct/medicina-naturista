@@ -46,9 +46,7 @@ class SessionTests(unittest.TestCase):
             "search",
             search=(
                 search_id,
-                PendingSearch(
-                    profile.as_dict(), {"C1": {"text": text, "source": "synthetic:1"}}
-                ),
+                PendingSearch(profile.as_dict(), {"C1": {"text": text, "source": "synthetic:1"}}),
             ),
             messages=[
                 {
@@ -71,11 +69,7 @@ class SessionTests(unittest.TestCase):
         self.assertTrue(old.closed)
         self.assertEqual(old.profile.as_dict(), HealthProfile().as_dict())
         self.assertFalse(
-            old.history
-            or old.searches
-            or old.reports
-            or old.groups
-            or old.selected_categories
+            old.history or old.searches or old.reports or old.groups or old.selected_categories
         )
         result = self.store.commit_operation(
             op,
@@ -91,9 +85,7 @@ class SessionTests(unittest.TestCase):
         self.assertIs(self.store.get("cookie", "tab"), new)
         self.store.finish_operation(op)
         self.assertEqual(self.store.metrics()["reserved_bytes"], 0)
-        self.assertEqual(
-            self.store.metrics()["retained_bytes"], retained_usage(new).total
-        )
+        self.assertEqual(self.store.metrics()["retained_bytes"], retained_usage(new).total)
 
     def test_expiry_cancels_and_releases_reservations_once(self):
         self.search()
@@ -170,12 +162,8 @@ class SessionTests(unittest.TestCase):
         b = self.store.begin_operation(self.session, "email")
         # These generic operations do not carry an email resource.
         a.kind = b.kind = "notice"
-        first = self.store.commit_operation(
-            a, CommitChange(messages=[{"content": "A"}])
-        )
-        second = self.store.commit_operation(
-            b, CommitChange(messages=[{"content": "B"}])
-        )
+        first = self.store.commit_operation(a, CommitChange(messages=[{"content": "A"}]))
+        second = self.store.commit_operation(b, CommitChange(messages=[{"content": "B"}]))
         self.assertEqual([m["content"] for m in first.messages], ["A"])
         self.assertEqual([m["content"] for m in second.messages], ["B"])
         self.store.finish_operation(a)
@@ -183,9 +171,7 @@ class SessionTests(unittest.TestCase):
 
     def test_last_global_and_client_slots_are_atomic(self):
         self.store.delete("cookie", "tab")
-        self.store.limits = replace(
-            self.config, max_active_sessions=1, max_sessions_per_ip=1
-        )
+        self.store.limits = replace(self.config, max_active_sessions=1, max_sessions_per_ip=1)
         barrier = threading.Barrier(8)
 
         def create(i):
@@ -267,9 +253,7 @@ class SessionTests(unittest.TestCase):
         self.commit(report=("pdf", StoredReport(b"12345", "x.pdf", "x")))
         self.assertEqual(retained_usage(self.session).pdf, 5)
         self.assertEqual(self.session.report_bytes, b"12345")
-        self.assertEqual(
-            self.store.metrics()["retained_bytes"], retained_usage(self.session).total
-        )
+        self.assertEqual(self.store.metrics()["retained_bytes"], retained_usage(self.session).total)
 
     def test_count_retention_evicts_complete_oldest_group(self):
         for i in range(13):
@@ -277,14 +261,9 @@ class SessionTests(unittest.TestCase):
         self.assertEqual(len(self.session.searches), 12)
         self.assertNotIn("0", self.session.searches)
         self.assertFalse(
-            any(
-                m.get("searchId") == "0" or m.get("content") == "0"
-                for m in self.session.history
-            )
+            any(m.get("searchId") == "0" or m.get("content") == "0" for m in self.session.history)
         )
-        self.assertEqual(
-            self.store.metrics()["retained_bytes"], retained_usage(self.session).total
-        )
+        self.assertEqual(self.store.metrics()["retained_bytes"], retained_usage(self.session).total)
 
     def test_rejected_large_result_does_not_apply_planned_evictions(self):
         self.search("old", "old")
@@ -374,12 +353,8 @@ class SessionTests(unittest.TestCase):
 
         with ThreadPoolExecutor(2) as executor:
             results = list(executor.map(begin, (self.session, other)))
-        winner = next(
-            result for result in results if not isinstance(result, ApplicationError)
-        )
-        rejected = next(
-            result for result in results if isinstance(result, ApplicationError)
-        )
+        winner = next(result for result in results if not isinstance(result, ApplicationError))
+        rejected = next(result for result in results if isinstance(result, ApplicationError))
         self.assertEqual((rejected.status, rejected.code), (503, "GLOBAL_BUDGET"))
         self.assertFalse(self.session.history or other.history)
         self.store.finish_operation(winner)
@@ -404,6 +379,21 @@ class SessionTests(unittest.TestCase):
         self.assertEqual(self.store.metrics()["reserved_bytes"], 0)
         self.assertEqual(self.store.metrics()["active_workers"], 1)
         self.store.finish_operation(operation)
+
+    def test_timed_out_generation_keeps_capacity_until_worker_exits(self):
+        self.search()
+        operation = self.store.begin_operation(self.session, "generate", search_id="s")
+        operation.deadline = self.now
+        self.store.sweep()
+        self.assertTrue(operation.cancellation.is_set())
+        with self.assertRaises(ApplicationError) as caught:
+            self.store.begin_operation(self.session, "generate", search_id="s")
+        self.assertEqual(caught.exception.status, 429)
+        self.assertEqual(self.store.metrics()["active_workers"], 1)
+        self.store.finish_operation(operation)
+        retry = self.store.begin_operation(self.session, "generate", search_id="s")
+        self.store.finish_operation(retry)
+        self.assertEqual(self.store.metrics()["active_workers"], 0)
 
     def test_exact_evidence_limit_and_one_extra_utf8_byte(self):
         self.search()
@@ -434,15 +424,10 @@ class SessionTests(unittest.TestCase):
         self.assertIn("old", self.session.reports)
         self.assertEqual(email.snapshot.report.data, b"12345")
         self.store.finish_operation(email)
-        result = self.commit(
-            "notice", report=("new", StoredReport(b"1", "new.pdf", "new"))
-        )
+        result = self.commit("notice", report=("new", StoredReport(b"1", "new.pdf", "new")))
         self.assertIn("old", result.evicted_report_ids)
         self.assertFalse(
-            any(
-                message.get("reportId") == "old"
-                for message in self.store.history(self.session)
-            )
+            any(message.get("reportId") == "old" for message in self.store.history(self.session))
         )
 
     def test_report_count_cap_removes_complete_groups(self):
@@ -499,8 +484,6 @@ class SessionTests(unittest.TestCase):
                     )
                 )
                 winner = next(
-                    result
-                    for result in results
-                    if not isinstance(result, ApplicationError)
+                    result for result in results if not isinstance(result, ApplicationError)
                 )
                 self.store.delete(winner.cookie_id, winner.tab_id)

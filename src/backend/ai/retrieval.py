@@ -1,4 +1,5 @@
 """Local-only retrieval over the existing hybrid index."""
+
 from __future__ import annotations
 
 import logging
@@ -6,10 +7,11 @@ import threading
 from pathlib import Path
 from typing import Any
 
-from backend.ai.categories import CategoryTree, load_category_tree, category_selection
+from backend.ai.categories import CategoryTree, category_selection, load_category_tree
 from backend.ai.condition_ai import resolved_for
 from backend.ai.index_state import index_reader
-from backend.ai.query_terms import GENERIC_QUERY_WORDS_PATH, meaningful_words as _meaningful_words
+from backend.ai.query_terms import GENERIC_QUERY_WORDS_PATH
+from backend.ai.query_terms import meaningful_words as _meaningful_words
 from backend.ai.search import (
     ALL_SIGNALS,
     EVIDENCE_HEADING_PREFIX,
@@ -18,11 +20,13 @@ from backend.ai.search import (
     max_score,
     rank,
 )
-from backend.core.models import SessionData
+from backend.core.contracts import Evidence, EvidenceItem
+from backend.core.models import SessionData, SessionSnapshot
 
 __all__ = ["Retriever", "consultation_query", "GENERIC_QUERY_WORDS_PATH", "_meaningful_words"]
 
 logger = logging.getLogger("naturist.retrieval")
+
 
 # The search query of a consultation: the whole health problem, spaces normalized.
 def consultation_query(profile: Any) -> str:
@@ -70,7 +74,9 @@ class Retriever:
     # Run hybrid retrieval and assemble a deduplicated, prioritized evidence inventory.
     # max_chars is the evidence budget for the active AI provider; None means
     # no budget (rank() returns every fragment).
-    def collect(self, session: SessionData, max_chars: int | None = None) -> dict[str, dict[str, Any]]:
+    def collect(
+        self, session: SessionData | SessionSnapshot, max_chars: int | None = None
+    ) -> Evidence:
         with index_reader() as (_connection, metadata):
             tree, _generation = self.categories_snapshot()
             return self._collect(session, max_chars, tree, metadata.index_generation)
@@ -105,7 +111,13 @@ class Retriever:
         # the ones the AI identified. Without any condition the conditions signal
         # cannot contribute, so the percentages are relative to the rest.
         resolved = resolved_for(profile)
-        candidates = rank(query, category_ids=category_ids, max_chars=max_chars, signals=signals, resolved=resolved)
+        candidates = rank(
+            query,
+            category_ids=category_ids,
+            max_chars=max_chars,
+            signals=signals,
+            resolved=resolved,
+        )
         ceiling = max_score(effective_signals(signals, resolved))
 
         # Each fragment is one piece of evidence, exactly as indexed (fragments
@@ -150,8 +162,8 @@ class Retriever:
         return evidence
 
 
-class EvidenceSnapshot(dict):
-    def __init__(self, generation, removed):
+class EvidenceSnapshot(dict[str, EvidenceItem]):
+    def __init__(self, generation: str, removed: list[str]):
         super().__init__()
         self.index_generation = generation
         self.removed_category_ids = removed

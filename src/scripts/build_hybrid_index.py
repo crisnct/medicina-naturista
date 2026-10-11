@@ -4,6 +4,7 @@ medical corpus into Postgres (pgvector for semantic search, tsvector for
 lexical search). A document whose SHA-256 matches what's already stored is
 skipped entirely — no re-chunking, no re-embedding, no DB write — so adding
 or editing one document never touches the rest of the corpus."""
+
 # Run like this:
 #   .\.venv-gpu\Scripts\python src\scripts\build_hybrid_index.py
 from __future__ import annotations
@@ -28,7 +29,6 @@ import numpy as np
 
 from backend.ai.categories import ROOT_CATEGORY_ID
 from backend.ai.db import _embedding_dimension
-from backend.ai.index_state import (index_writer, dictionary_snapshot, passage_profile, TEXT_REPR_VERSION)
 from backend.ai.embedding_model import (
     DEFAULT_MODEL,
     EmbeddingProfile,
@@ -36,6 +36,12 @@ from backend.ai.embedding_model import (
     get_profile,
 )
 from backend.ai.fragmenter import Fragment, fragment_document
+from backend.ai.index_state import (
+    TEXT_REPR_VERSION,
+    dictionary_snapshot,
+    index_writer,
+    passage_profile,
+)
 from backend.config import settings
 
 # Minimum elapsed time between embedding progress messages.
@@ -224,7 +230,7 @@ def _embedding_windows(chunk: Chunk, profile: EmbeddingProfile) -> list[str]:
     windows = []
     position = 0
     while True:
-        window = text[position:position + profile.max_chars]
+        window = text[position : position + profile.max_chars]
         windows.append(profile.passage_text(f"{context}\n{window}"))
         if position + profile.max_chars >= len(text):
             return windows
@@ -275,7 +281,9 @@ def embed_chunks(
     started = monotonic()
     last_report = started
 
-    for processed, vector in enumerate(model.embed(inputs, batch_size=batch_size, parallel=None), start=1):
+    for processed, vector in enumerate(
+        model.embed(inputs, batch_size=batch_size, parallel=None), start=1
+    ):
         vectors.append(vector)
         now = monotonic()
         if processed < window_total and now - last_report >= progress_interval_seconds:
@@ -325,13 +333,17 @@ def _text_search_input(chunk: Chunk) -> str:
 
 
 # Replace one document inside the caller-owned publication transaction.
-def _write_document(connection, source: SourceFile, chunks: Sequence[Chunk], embeddings: np.ndarray) -> None:
+def _write_document(
+    connection, source: SourceFile, chunks: Sequence[Chunk], embeddings: np.ndarray
+) -> None:
     # category_id is not written here: it's a GENERATED column in Postgres,
     # always derived from relative_path/source_relative_path (see db.py's
     # SCHEMA_SQL) — Python still computes it (SourceFile/Chunk.category_id)
     # because iter_embedding_inputs() needs it in the passage text before
     # this function ever runs.
-    connection.execute("DELETE FROM chunks WHERE source_relative_path = %s", (source.relative_path,))
+    connection.execute(
+        "DELETE FROM chunks WHERE source_relative_path = %s", (source.relative_path,)
+    )
     connection.execute(
         """
         INSERT INTO documents
@@ -347,8 +359,14 @@ def _write_document(connection, source: SourceFile, chunks: Sequence[Chunk], emb
             char_count = EXCLUDED.char_count
         """,
         (
-            source.relative_path, source.absolute_path, source.size_bytes, source.modified_utc,
-            source.sha256, source.encoding, source.line_count, source.char_count,
+            source.relative_path,
+            source.absolute_path,
+            source.size_bytes,
+            source.modified_utc,
+            source.sha256,
+            source.encoding,
+            source.line_count,
+            source.char_count,
         ),
     )
     for chunk, embedding in zip(chunks, embeddings):
@@ -361,10 +379,19 @@ def _write_document(connection, source: SourceFile, chunks: Sequence[Chunk], emb
             VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, to_tsvector('simple', unaccent(%s)), %s,%s,%s)
             """,
             (
-                chunk.source_relative_path, chunk.source_absolute_path, chunk.source_sha256,
-                chunk.line_start, chunk.line_end, chunk.heading, chunk.text, chunk.text_sha256,
-                chunk.char_count, embedding, _text_search_input(chunk),
-                chunk.business_category, list(chunk.primary_medical_conditions),
+                chunk.source_relative_path,
+                chunk.source_absolute_path,
+                chunk.source_sha256,
+                chunk.line_start,
+                chunk.line_end,
+                chunk.heading,
+                chunk.text,
+                chunk.text_sha256,
+                chunk.char_count,
+                embedding,
+                _text_search_input(chunk),
+                chunk.business_category,
+                list(chunk.primary_medical_conditions),
                 list(chunk.secondary_medical_conditions),
             ),
         )
@@ -401,8 +428,12 @@ def _build(
         raise error
 
     paths = sorted(
-        (Path(root, name) for root, _directories, names in os.walk(source, onerror=traversal_error)
-         for name in names if name.casefold().endswith(".md")),
+        (
+            Path(root, name)
+            for root, _directories, names in os.walk(source, onerror=traversal_error)
+            for name in names
+            if name.casefold().endswith(".md")
+        ),
         key=lambda item: item.relative_to(source).as_posix().casefold(),
     )
     if not paths:
@@ -412,12 +443,15 @@ def _build(
     stored = dict(connection.execute("SELECT key, value FROM sync_metadata").fetchall())
     stored_paths = set(existing)
     expected = {
-        "model_name": model_name, "model_dimension": str(profile.dimension),
-        "dictionary_fingerprint": fingerprint, "passage_profile": passage_profile(profile),
+        "model_name": model_name,
+        "model_dimension": str(profile.dimension),
+        "dictionary_fingerprint": fingerprint,
+        "passage_profile": passage_profile(profile),
         "text_repr_version": TEXT_REPR_VERSION,
     }
-    if (_embedding_dimension(connection) != profile.dimension
-            or any(stored.get(key) != value for key, value in expected.items())):
+    if _embedding_dimension(connection) != profile.dimension or any(
+        stored.get(key) != value for key, value in expected.items()
+    ):
         existing = {}
 
     warnings: list[str] = []
@@ -429,7 +463,10 @@ def _build(
 
     def report_progress(index: int) -> None:
         if index % 50 == 0 or index == len(paths):
-            print(f"Scanned {index}/{len(paths)} files; {len(pending)} changed, {skipped} unchanged", flush=True)
+            print(
+                f"Scanned {index}/{len(paths)} files; {len(pending)} changed, {skipped} unchanged",
+                flush=True,
+            )
 
     for index, path in enumerate(paths, start=1):
         relative = path.relative_to(source).as_posix()
@@ -459,7 +496,9 @@ def _build(
             relative_path=relative,
             absolute_path=str(path),
             size_bytes=len(raw),
-            modified_utc=datetime.fromtimestamp(stat.st_mtime, timezone.utc).isoformat().replace("+00:00", "Z"),
+            modified_utc=datetime.fromtimestamp(stat.st_mtime, timezone.utc)
+            .isoformat()
+            .replace("+00:00", "Z"),
             sha256=source_hash,
             encoding=encoding,
             line_count=normalized.count("\n") + 1,
@@ -492,9 +531,15 @@ def _build(
 
     embeddings = np.empty((0, profile.dimension), dtype=np.float32)
     if all_new_chunks:
-        print(f"Loading local embedding model {model_name} (device {settings.embedding_device})", flush=True)
+        print(
+            f"Loading local embedding model {model_name} (device {settings.embedding_device})",
+            flush=True,
+        )
         model = create_embedding_model(model_name, settings.model_cache_dir)
-        print(f"Embedding {len(all_new_chunks)} chunks from {len(pending)} changed files (batch size {batch_size})", flush=True)
+        print(
+            f"Embedding {len(all_new_chunks)} chunks from {len(pending)} changed files (batch size {batch_size})",
+            flush=True,
+        )
         embeddings = embed_chunks(model, all_new_chunks, batch_size, profile, gpu_usage=gpu_usage)
 
         changed_during_sync = []
@@ -503,9 +548,14 @@ def _build(
             if (current.st_size, current.st_mtime_ns) != (size, mtime_ns):
                 changed_during_sync.append(relative)
         if changed_during_sync:
-            raise RuntimeError("Source files changed during sync: " + ", ".join(changed_during_sync[:10]))
+            raise RuntimeError(
+                "Source files changed during sync: " + ", ".join(changed_during_sync[:10])
+            )
 
-    if embeddings.shape != (len(all_new_chunks), profile.dimension) or not np.isfinite(embeddings).all():
+    if (
+        embeddings.shape != (len(all_new_chunks), profile.dimension)
+        or not np.isfinite(embeddings).all()
+    ):
         raise RuntimeError("INVALID_EMBEDDINGS")
     if all_new_chunks and np.any(np.linalg.norm(embeddings, axis=1) == 0):
         raise RuntimeError("INVALID_EMBEDDINGS")
@@ -521,11 +571,18 @@ def _build(
         if _embedding_dimension(connection) != profile.dimension:
             connection.execute("DELETE FROM documents")
             connection.execute("ALTER TABLE chunks DROP COLUMN embedding")
-            connection.execute(f"ALTER TABLE chunks ADD COLUMN embedding vector({profile.dimension}) NOT NULL")
+            connection.execute(
+                f"ALTER TABLE chunks ADD COLUMN embedding vector({profile.dimension}) NOT NULL"
+            )
         offset = 0
         for source_file, document_chunks in pending:
             count = len(document_chunks)
-            _write_document(connection, source_file, all_new_chunks[offset:offset + count], embeddings[offset:offset + count])
+            _write_document(
+                connection,
+                source_file,
+                all_new_chunks[offset : offset + count],
+                embeddings[offset : offset + count],
+            )
             offset += count
         if removed:
             connection.execute("DELETE FROM documents WHERE relative_path = ANY(%s)", (removed,))
@@ -535,17 +592,25 @@ def _build(
         for key, value in metadata.items():
             connection.execute(
                 "INSERT INTO sync_metadata (key, value) VALUES (%s, %s) "
-                "ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value", (key, value))
+                "ON CONFLICT (key) DO UPDATE SET value = EXCLUDED.value",
+                (key, value),
+            )
 
-    print(json.dumps({
-        "status": "ok",
-        "files_scanned": len(paths),
-        "files_unchanged": skipped,
-        "files_synced": len(pending),
-        "files_removed": len(removed),
-        "chunks_written": len(all_new_chunks),
-        "warnings": len(warnings),
-    }, ensure_ascii=False), flush=True)
+    print(
+        json.dumps(
+            {
+                "status": "ok",
+                "files_scanned": len(paths),
+                "files_unchanged": skipped,
+                "files_synced": len(pending),
+                "files_removed": len(removed),
+                "chunks_written": len(all_new_chunks),
+                "warnings": len(warnings),
+            },
+            ensure_ascii=False,
+        ),
+        flush=True,
+    )
 
 
 # Parse command-line options for the incremental index sync.
@@ -558,10 +623,17 @@ def parse_args() -> argparse.Namespace:
 
 if __name__ == "__main__":
     from backend.config import Settings, configure_settings
+
     configure_settings(Settings.from_env(dotenv=True))
     arguments = parse_args()
     try:
         build(arguments.source, arguments.model)
     except Exception as exc:
-        print(json.dumps({"status": "error", "code": "INDEX_SYNC_FAILED", "type": type(exc).__name__}), file=sys.stderr, flush=True)
+        print(
+            json.dumps(
+                {"status": "error", "code": "INDEX_SYNC_FAILED", "type": type(exc).__name__}
+            ),
+            file=sys.stderr,
+            flush=True,
+        )
         sys.exit(1)

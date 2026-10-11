@@ -15,3 +15,10 @@ src/frontend/node_modules
 src/frontend/dist
 
 medicina-naturista-documente/.git
+
+tmp
+.ruff_cache
+.mypy_cache
+.venv-gpu
+src/tests
+.github

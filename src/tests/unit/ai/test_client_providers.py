@@ -2,6 +2,7 @@
 
 No real requests are made: client.http.post is replaced, as in test_web.py.
 """
+
 from __future__ import annotations
 
 import json
@@ -12,10 +13,11 @@ from unittest.mock import patch
 
 import httpx
 
+from backend import config as config_module
 from backend.ai.client import AIUnavailable, ResponsesClient, XAIClient, create_ai_client
 from backend.ai.providers import provider_config
-from backend import config as config_module
-from backend.config import Settings, settings as base_settings
+from backend.config import Settings
+from backend.config import settings as base_settings
 
 
 class FakeResponse:
@@ -32,7 +34,9 @@ class FakeResponse:
 def completed(text: str, *, reasoning_first: bool = False) -> FakeResponse:
     output = [{"type": "message", "content": [{"type": "output_text", "text": text}]}]
     if reasoning_first:
-        output.insert(0, {"type": "reasoning", "summary": [{"type": "summary_text", "text": "gândesc"}]})
+        output.insert(
+            0, {"type": "reasoning", "summary": [{"type": "summary_text", "text": "gândesc"}]}
+        )
     return FakeResponse({"status": "completed", "output": output})
 
 
@@ -115,14 +119,18 @@ class ProviderSelectionTest(unittest.TestCase):
             ).api_key_required
         )
         self.assertTrue(
-            provider_config(settings_for("ollama", ollama_api_base="https://ollama.com/v1")).api_key_required
+            provider_config(
+                settings_for("ollama", ollama_api_base="https://ollama.com/v1")
+            ).api_key_required
         )
 
 
 class PayloadTest(unittest.TestCase):
     def test_xai_payload_is_unchanged(self):
         with patch.dict(os.environ, {"X_API_KEY": "synthetic-xai-key"}):
-            client = XAIClient(settings_for("xai", xai_model="grok-4.3", xai_reasoning_effort="medium"))
+            client = XAIClient(
+                settings_for("xai", xai_model="grok-4.3", xai_reasoning_effort="medium")
+            )
             calls = capture_post(client, completed('{"ok": true}'))
             result = client.complete_json("sistem", "utilizator", 321)
             client.close()
@@ -255,7 +263,10 @@ class ParsingTest(unittest.TestCase):
         self.assertEqual(self.complete(completed('```json\n{"a": 1}\n```')), {"a": 1})
 
     def test_json_preceded_by_text(self):
-        self.assertEqual(self.complete(completed('Iată răspunsul: {"a": {"b": 2}} Sper că ajută.')), {"a": {"b": 2}})
+        self.assertEqual(
+            self.complete(completed('Iată răspunsul: {"a": {"b": 2}} Sper că ajută.')),
+            {"a": {"b": 2}},
+        )
 
     def test_reasoning_item_before_message_is_ignored(self):
         self.assertEqual(self.complete(completed('{"a": 1}', reasoning_first=True)), {"a": 1})
@@ -265,11 +276,13 @@ class ParsingTest(unittest.TestCase):
             self.complete(completed("nu e JSON"))
 
     def test_incomplete_response_is_rejected_and_logged_with_reason(self):
-        response = FakeResponse({
-            "status": "incomplete",
-            "incomplete_details": {"reason": "max_output_tokens"},
-            "output": [{"type": "reasoning"}],
-        })
+        response = FakeResponse(
+            {
+                "status": "incomplete",
+                "incomplete_details": {"reason": "max_output_tokens"},
+                "output": [{"type": "reasoning"}],
+            }
+        )
         with self.assertLogs("naturist.ai", level="ERROR") as logs:
             with self.assertRaises(AIUnavailable):
                 self.complete(response)
@@ -295,7 +308,11 @@ class FakeStream:
     def raise_for_status(self):
         if self.status_code >= 400:
             request = httpx.Request("POST", "https://x")
-            raise httpx.HTTPStatusError("e", request=request, response=httpx.Response(self.status_code, request=request, text="boom"))
+            raise httpx.HTTPStatusError(
+                "e",
+                request=request,
+                response=httpx.Response(self.status_code, request=request, text="boom"),
+            )
 
     def iter_lines(self):
         return iter(self._lines)
@@ -322,14 +339,20 @@ class StreamingTest(unittest.TestCase):
                 client.close()
 
     def test_stream_request_and_completed_event(self):
-        final = {"status": "completed", "output": [
-            {"type": "message", "content": [{"type": "output_text", "text": '{"a": 1}'}]}]}
-        result, sent = self.run_stream([
-            "event: response.output_text.delta",
-            sse("response.output_text.delta", delta='{"a"'),
-            "",
-            sse("response.completed", response=final),
-        ])
+        final = {
+            "status": "completed",
+            "output": [
+                {"type": "message", "content": [{"type": "output_text", "text": '{"a": 1}'}]}
+            ],
+        }
+        result, sent = self.run_stream(
+            [
+                "event: response.output_text.delta",
+                sse("response.output_text.delta", delta='{"a"'),
+                "",
+                sse("response.completed", response=final),
+            ]
+        )
         self.assertEqual(result, {"a": 1})
         method, url, kwargs = sent[0]
         self.assertEqual((method, url), ("POST", "https://router.huggingface.co/v1/responses"))
@@ -337,18 +360,30 @@ class StreamingTest(unittest.TestCase):
         self.assertEqual(kwargs["headers"]["Accept"], "text/event-stream")
 
     def test_deltas_are_used_when_completed_has_no_output(self):
-        result, _ = self.run_stream([
-            sse("response.output_text.delta", delta='{"a":'),
-            sse("response.output_text.delta", delta=' 2}'),
-            sse("response.completed", response={"status": "completed", "output": []}),
-            "data: [DONE]",
-        ])
+        result, _ = self.run_stream(
+            [
+                sse("response.output_text.delta", delta='{"a":'),
+                sse("response.output_text.delta", delta=" 2}"),
+                sse("response.completed", response={"status": "completed", "output": []}),
+                "data: [DONE]",
+            ]
+        )
         self.assertEqual(result, {"a": 2})
 
     def test_incomplete_event_is_rejected(self):
         with self.assertRaises(AIUnavailable):
-            self.run_stream([sse("response.incomplete", response={
-                "status": "incomplete", "incomplete_details": {"reason": "max_output_tokens"}, "output": []})])
+            self.run_stream(
+                [
+                    sse(
+                        "response.incomplete",
+                        response={
+                            "status": "incomplete",
+                            "incomplete_details": {"reason": "max_output_tokens"},
+                            "output": [],
+                        },
+                    )
+                ]
+            )
 
     def test_stream_cut_before_completion_is_rejected(self):
         with self.assertRaises(AIUnavailable):
@@ -391,7 +426,9 @@ class HTTPErrorTest(unittest.TestCase):
             def post(url, **kwargs):
                 request = httpx.Request("POST", url)
                 raise httpx.HTTPStatusError(
-                    "boom", request=request, response=httpx.Response(400, request=request, text="bad")
+                    "boom",
+                    request=request,
+                    response=httpx.Response(400, request=request, text="bad"),
                 )
 
             client.http.post = post

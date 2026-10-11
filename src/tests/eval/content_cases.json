@@ -1,0 +1,5197 @@
+{
+  "schema_version": 1,
+  "description": "30 explicit content-labelled cases over a public synthetic corpus. No personal sources or clinical validation.",
+  "annotation_method": "Authored and reviewed source associations: grade 3 for the requested section, 2 for its accompanying information or warning, 0 for the other topics. All 20 fragments are judged in every case.",
+  "cases": [
+    {
+      "id": "gripa-condition",
+      "query": "Gripa",
+      "category": "gripa",
+      "kind": "condition",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "gripa-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "gripa-precautii"
+      ]
+    },
+    {
+      "id": "gripa-synonym",
+      "query": "influenza",
+      "category": "gripa",
+      "kind": "synonym",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "gripa-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "gripa-precautii"
+      ]
+    },
+    {
+      "id": "gripa-free_text",
+      "query": "Am febra si dureri musculare, caut informatii despre gripa.",
+      "category": "gripa",
+      "kind": "free_text",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "gripa-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "gripa-precautii"
+      ]
+    },
+    {
+      "id": "guta-condition",
+      "query": "Guta",
+      "category": "guta",
+      "kind": "condition",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "guta-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "guta-precautii"
+      ]
+    },
+    {
+      "id": "guta-synonym",
+      "query": "podagra",
+      "category": "guta",
+      "kind": "synonym",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "guta-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "guta-precautii"
+      ]
+    },
+    {
+      "id": "guta-free_text",
+      "query": "Ma intereseaza informatii despre crizele de guta si articulatii.",
+      "category": "guta",
+      "kind": "free_text",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "guta-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "guta-precautii"
+      ]
+    },
+    {
+      "id": "gastrita-condition",
+      "query": "Gastrita",
+      "category": "gastrita",
+      "kind": "condition",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "gastrita-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "gastrita-precautii"
+      ]
+    },
+    {
+      "id": "gastrita-synonym",
+      "query": "inflamatie gastrica",
+      "category": "gastrita",
+      "kind": "synonym",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "gastrita-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "gastrita-precautii"
+      ]
+    },
+    {
+      "id": "gastrita-free_text",
+      "query": "Caut informatii despre gastrita si disconfortul gastric.",
+      "category": "gastrita",
+      "kind": "free_text",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "gastrita-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "gastrita-precautii"
+      ]
+    },
+    {
+      "id": "insomnie-condition",
+      "query": "Insomnie",
+      "category": "insomnie",
+      "kind": "condition",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "insomnie-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "insomnie-precautii"
+      ]
+    },
+    {
+      "id": "insomnie-synonym",
+      "query": "lipsa somnului",
+      "category": "insomnie",
+      "kind": "synonym",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "insomnie-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "insomnie-precautii"
+      ]
+    },
+    {
+      "id": "insomnie-free_text",
+      "query": "Adorm greu, vreau sa citesc despre insomnie.",
+      "category": "insomnie",
+      "kind": "free_text",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "insomnie-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "insomnie-precautii"
+      ]
+    },
+    {
+      "id": "migrena-condition",
+      "query": "Migrena",
+      "category": "migrena",
+      "kind": "condition",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "migrena-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "migrena-precautii"
+      ]
+    },
+    {
+      "id": "migrena-synonym",
+      "query": "migraine",
+      "category": "migrena",
+      "kind": "synonym",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "migrena-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "migrena-precautii"
+      ]
+    },
+    {
+      "id": "migrena-free_text",
+      "query": "Caut surse despre durerile de cap din migrena.",
+      "category": "migrena",
+      "kind": "free_text",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "migrena-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "migrena-precautii"
+      ]
+    },
+    {
+      "id": "hipertensiune-condition",
+      "query": "Hipertensiune",
+      "category": "hipertensiune",
+      "kind": "condition",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "hipertensiune-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "hipertensiune-precautii"
+      ]
+    },
+    {
+      "id": "hipertensiune-synonym",
+      "query": "hypertension",
+      "category": "hipertensiune",
+      "kind": "synonym",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "hipertensiune-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "hipertensiune-precautii"
+      ]
+    },
+    {
+      "id": "hipertensiune-warning",
+      "query": "Ce precautii sunt asociate hipertensiunii?",
+      "category": "hipertensiune",
+      "kind": "warning",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 2,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 3,
+          "warning_ids": [
+            "hipertensiune-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "hipertensiune-precautii"
+      ]
+    },
+    {
+      "id": "constipatie-condition",
+      "query": "Constipatie",
+      "category": "constipatie",
+      "kind": "condition",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "constipatie-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "constipatie-precautii"
+      ]
+    },
+    {
+      "id": "constipatie-synonym",
+      "query": "constipation",
+      "category": "constipatie",
+      "kind": "synonym",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "constipatie-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "constipatie-precautii"
+      ]
+    },
+    {
+      "id": "constipatie-warning",
+      "query": "Ce atentionari sunt asociate constipatiei?",
+      "category": "constipatie",
+      "kind": "warning",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 2,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 3,
+          "warning_ids": [
+            "constipatie-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "constipatie-precautii"
+      ]
+    },
+    {
+      "id": "rinita-condition",
+      "query": "Rinita",
+      "category": "rinita",
+      "kind": "condition",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "rinita-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "rinita-precautii"
+      ]
+    },
+    {
+      "id": "rinita-synonym",
+      "query": "rhinitis",
+      "category": "rinita",
+      "kind": "synonym",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "rinita-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "rinita-precautii"
+      ]
+    },
+    {
+      "id": "rinita-warning",
+      "query": "Ce precautii sunt in fisa de rinita?",
+      "category": "rinita",
+      "kind": "warning",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 2,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 3,
+          "warning_ids": [
+            "rinita-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "rinita-precautii"
+      ]
+    },
+    {
+      "id": "anemie-condition",
+      "query": "Anemie",
+      "category": "anemie",
+      "kind": "condition",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "anemie-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "anemie-precautii"
+      ]
+    },
+    {
+      "id": "anemie-synonym",
+      "query": "anemia",
+      "category": "anemie",
+      "kind": "synonym",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "anemie-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "anemie-precautii"
+      ]
+    },
+    {
+      "id": "anemie-warning",
+      "query": "Ce atentionari sunt in fisa despre anemie?",
+      "category": "anemie",
+      "kind": "warning",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 2,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 3,
+          "warning_ids": [
+            "anemie-precautii"
+          ]
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 0,
+          "warning_ids": []
+        }
+      ],
+      "expected_warnings": [
+        "anemie-precautii"
+      ]
+    },
+    {
+      "id": "astm-condition",
+      "query": "Astm",
+      "category": "astm",
+      "kind": "condition",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "astm-precautii"
+          ]
+        }
+      ],
+      "expected_warnings": [
+        "astm-precautii"
+      ]
+    },
+    {
+      "id": "astm-synonym",
+      "query": "asthma",
+      "category": "astm",
+      "kind": "synonym",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 3,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 2,
+          "warning_ids": [
+            "astm-precautii"
+          ]
+        }
+      ],
+      "expected_warnings": [
+        "astm-precautii"
+      ]
+    },
+    {
+      "id": "astm-warning",
+      "query": "Ce precautii insotesc fisa despre astm?",
+      "category": "astm",
+      "kind": "warning",
+      "judgements": [
+        {
+          "fragment": {
+            "path": "gripa/informatie.md",
+            "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gripa/atentionari.md",
+            "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/informatie.md",
+            "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "guta/atentionari.md",
+            "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/informatie.md",
+            "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "gastrita/atentionari.md",
+            "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/informatie.md",
+            "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "insomnie/atentionari.md",
+            "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/informatie.md",
+            "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "migrena/atentionari.md",
+            "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/informatie.md",
+            "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "hipertensiune/atentionari.md",
+            "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/informatie.md",
+            "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "constipatie/atentionari.md",
+            "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/informatie.md",
+            "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "rinita/atentionari.md",
+            "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/informatie.md",
+            "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "anemie/atentionari.md",
+            "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+          },
+          "grade": 0,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/informatie.md",
+            "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+          },
+          "grade": 2,
+          "warning_ids": []
+        },
+        {
+          "fragment": {
+            "path": "astm/atentionari.md",
+            "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+          },
+          "grade": 3,
+          "warning_ids": [
+            "astm-precautii"
+          ]
+        }
+      ],
+      "expected_warnings": [
+        "astm-precautii"
+      ]
+    }
+  ]
+}

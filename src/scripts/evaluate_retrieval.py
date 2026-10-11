@@ -14,6 +14,7 @@ combinations. Read-only: never writes to the database. Run it before and after
 a scoring change and compare the summaries (--output saves the full JSON for
 diffing).
 """
+
 from __future__ import annotations
 
 import argparse
@@ -48,7 +49,9 @@ def load_cases(path: Path) -> list[dict]:
 def load_chunk_index() -> dict[int, tuple[str, str]]:
     with index_reader() as (connection, _metadata):
         with connection.cursor(row_factory=namedtuple_row) as cursor:
-            rows = cursor.execute("SELECT chunk_id, source_relative_path, heading FROM chunks").fetchall()
+            rows = cursor.execute(
+                "SELECT chunk_id, source_relative_path, heading FROM chunks"
+            ).fetchall()
     return {row.chunk_id: (plain(row.source_relative_path), plain(row.heading)) for row in rows}
 
 
@@ -56,7 +59,8 @@ def relevant_ids(case: dict, index: dict[int, tuple[str, str]]) -> set[int]:
     paths = [plain(item) for item in case.get("paths", [])]
     headings = [plain(item) for item in case.get("headings", [])]
     return {
-        chunk_id for chunk_id, (path, heading) in index.items()
+        chunk_id
+        for chunk_id, (path, heading) in index.items()
         if any(item in path for item in paths) or any(item in heading for item in headings)
     }
 
@@ -68,14 +72,19 @@ def ndcg_at(ranked: list[int], relevant: set[int], k: int) -> float:
     return dcg / ideal if ideal else 0.0
 
 
-def evaluate_case(case: dict, index: dict[int, tuple[str, str]], signals: SearchSignals = ALL_SIGNALS) -> dict:
+def evaluate_case(
+    case: dict, index: dict[int, tuple[str, str]], signals: SearchSignals = ALL_SIGNALS
+) -> dict:
     relevant = relevant_ids(case, index)
     started = time.perf_counter()
     results = rank(case["query"], signals=signals)
     latency_ms = (time.perf_counter() - started) * 1000
     ranked = [int(item["chunk_id"]) for item in results]
     named = conditions.resolve_query(case["query"]).condition_names
-    first = next((position for position, chunk_id in enumerate(ranked, start=1) if chunk_id in relevant), None)
+    first = next(
+        (position for position, chunk_id in enumerate(ranked, start=1) if chunk_id in relevant),
+        None,
+    )
     return {
         "query": case["query"],
         "relevant_total": len(relevant),
@@ -83,9 +92,13 @@ def evaluate_case(case: dict, index: dict[int, tuple[str, str]], signals: Search
         "precision_at_10": sum(chunk_id in relevant for chunk_id in ranked[:10]) / 10,
         "reciprocal_rank": 1.0 / first if first else 0.0,
         "ndcg_at_10": ndcg_at(ranked, relevant, 10),
-        "recall_at_50": (sum(chunk_id in relevant for chunk_id in ranked[:50]) / len(relevant)) if relevant else None,
+        "recall_at_50": (sum(chunk_id in relevant for chunk_id in ranked[:50]) / len(relevant))
+        if relevant
+        else None,
         "latency_ms": latency_ms,
-        "priority_order_violations": priority_order_violations(results) if named and signals.conditions else 0,
+        "priority_order_violations": priority_order_violations(results)
+        if named and signals.conditions
+        else 0,
     }
 
 
@@ -122,16 +135,25 @@ def summarize(rows: list[dict], signals: SearchSignals = ALL_SIGNALS) -> dict:
     }
     # Without the conditions signal there is no condition priority to violate.
     if signals.conditions:
-        summary["priority_order_violations"] = sum(row.get("priority_order_violations", 0) for row in rows)
+        summary["priority_order_violations"] = sum(
+            row.get("priority_order_violations", 0) for row in rows
+        )
     return summary
 
 
 def main() -> None:
+    if "--content" in sys.argv:
+        content_main()
+        return
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser()
     parser.add_argument("--cases", type=Path, default=CASES_PATH)
-    parser.add_argument("--no-conditions", action="store_true", help="do not recognise conditions (no P1/P2, no synonyms)")
+    parser.add_argument(
+        "--no-conditions",
+        action="store_true",
+        help="do not recognise conditions (no P1/P2, no synonyms)",
+    )
     parser.add_argument("--output", type=Path, help="write the full per-query JSON here")
     parser.add_argument(
         "--signals",
@@ -139,6 +161,9 @@ def main() -> None:
         help="signals of the score: any combination of A (conditions), B (lexical), C (semantic); default ABC",
     )
     args = parser.parse_args()
+    from backend.config import Settings, configure_settings
+
+    configure_settings(Settings.from_env(dotenv=True))
     try:
         signals = SearchSignals.from_code(args.signals)
     except ValueError as exc:
@@ -164,8 +189,96 @@ def main() -> None:
     print(json.dumps(summary, indent=2))
     if args.output:
         args.output.write_text(
-            json.dumps({"summary": summary, "queries": rows}, ensure_ascii=False, indent=2), encoding="utf-8"
+            json.dumps({"summary": summary, "queries": rows}, ensure_ascii=False, indent=2),
+            encoding="utf-8",
         )
+
+
+def content_main() -> None:
+    """Compare manually labelled content under one compatible index generation."""
+    from backend.ai.content_evaluation import FragmentKey, compare, evaluate, load_suite
+    from backend.config import Settings, configure_settings
+
+    parser = argparse.ArgumentParser(description="Content-labelled RAG evaluation (read-only)")
+    parser.add_argument("--content", action="store_true", required=True)
+    parser.add_argument("--cases", type=Path, default=CASES_PATH.with_name("content_cases.json"))
+    parser.add_argument("--output", type=Path, required=True)
+    parser.add_argument("--baseline", type=Path)
+    parser.add_argument(
+        "--rankings",
+        type=Path,
+        help="replay synthetic captured rankings; never presented as a live model benchmark",
+    )
+    parser.add_argument("--capture-rankings", type=Path)
+    parser.add_argument("--signals", default="ABC")
+    parser.add_argument(
+        "--dotenv", action="store_true", help="explicitly load local .env for live evaluation"
+    )
+    args = parser.parse_args()
+    suite = load_suite(args.cases)
+    signals = SearchSignals.from_code(args.signals)
+    rankings = {}
+    if args.rankings:
+        captured = json.loads(args.rankings.read_text(encoding="utf-8"))
+        metadata = captured["metadata"]
+        if metadata["signals"] != signals.code:
+            parser.error("captured rankings use different signals")
+        corpus = [FragmentKey.model_validate(item) for item in captured["corpus"]]
+        rankings = {
+            key: [FragmentKey.model_validate(item) for item in value]
+            for key, value in captured["rankings"].items()
+        }
+        metadata = {**metadata, "evaluation_mode": "replay"}
+    else:
+        configure_settings(Settings.from_env(dotenv=args.dotenv))
+        with index_reader() as (connection, index):
+            rows = connection.execute("SELECT source_relative_path, text FROM chunks").fetchall()
+            corpus = [FragmentKey.from_text(path, text) for path, text in rows]
+            metadata = {**index.model_dump(), "signals": signals.code, "evaluation_mode": "live"}
+            # Fail on outdated annotations before loading the model or running queries.
+            from backend.ai.content_evaluation import validate_fragments
+
+            validate_fragments(suite, corpus)
+            rank("warmup", signals=signals)
+            for position, case in enumerate(suite.cases, 1):
+                results = rank(case.query, signals=signals)
+                rankings[case.id] = [
+                    FragmentKey.from_text(item["source_relative_path"], item["text"])
+                    for item in results
+                ]
+                rankings[case.id] = list(
+                    {item.identity: item for item in rankings[case.id]}.values()
+                )
+                print(f"Evaluated {position}/{len(suite.cases)} id={case.id}", flush=True)
+    report = evaluate(suite, rankings, corpus, metadata)
+    if args.capture_rankings:
+        args.capture_rankings.parent.mkdir(parents=True, exist_ok=True)
+        args.capture_rankings.write_text(
+            json.dumps(
+                {
+                    "metadata": metadata,
+                    "corpus": [key.model_dump() for key in corpus],
+                    "rankings": {
+                        key: [item.model_dump() for item in value]
+                        for key, value in rankings.items()
+                    },
+                },
+                ensure_ascii=False,
+                indent=2,
+            ),
+            encoding="utf-8",
+        )
+    regressions = (
+        compare(json.loads(args.baseline.read_text(encoding="utf-8")), report)
+        if args.baseline
+        else []
+    )
+    report["regressions"] = regressions
+    args.output.parent.mkdir(parents=True, exist_ok=True)
+    args.output.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(json.dumps(report["summary"], indent=2))
+    if regressions:
+        raise SystemExit(2)
 
 
 if __name__ == "__main__":

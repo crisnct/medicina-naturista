@@ -4,6 +4,7 @@ The application uses a single owner-authorized Google account. Runtime
 delivery uses a stored OAuth2 refresh token, so chatbot users do not have to
 sign in with Google. No Gmail password or App Password is used here.
 """
+
 from __future__ import annotations
 
 import base64
@@ -16,6 +17,8 @@ from typing import Callable
 from urllib.error import HTTPError, URLError
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
+
+from backend.core.operation_context import checkpoint, remaining_timeout
 
 GMAIL_TOKEN_URI = "https://oauth2.googleapis.com/token"
 GMAIL_SEND_URI = "https://gmail.googleapis.com/gmail/v1/users/me/messages/send"
@@ -130,8 +133,11 @@ def _refresh_access_token(
         method="POST",
     )
     try:
-        with urlopen_factory(request, timeout=config.timeout_seconds) as response:
+        with urlopen_factory(
+            request, timeout=remaining_timeout(config.timeout_seconds)
+        ) as response:
             payload = json.loads(response.read().decode("utf-8"))
+            checkpoint()
     except HTTPError as exc:
         error = _http_error("OAuth token refresh", exc)
         oauth_code = _oauth_error_code(exc)
@@ -168,8 +174,11 @@ def _send_gmail_message(
         method="POST",
     )
     try:
-        with urlopen_factory(request, timeout=config.timeout_seconds) as response:
+        with urlopen_factory(
+            request, timeout=remaining_timeout(config.timeout_seconds)
+        ) as response:
             response.read()
+            checkpoint()
     except HTTPError as exc:
         raise _http_error("message send", exc) from exc
     except (URLError, TimeoutError, OSError) as exc:
@@ -190,9 +199,7 @@ def send_report(
     if not config.is_configured:
         return EMAIL_SKIPPED
 
-    message = build_report_message(
-        problem, pdf_bytes, filename, config.from_address, to_address
-    )
+    message = build_report_message(problem, pdf_bytes, filename, config.from_address, to_address)
     access_token = _refresh_access_token(config, urlopen_factory=urlopen_factory)
     _send_gmail_message(config, access_token, message, urlopen_factory=urlopen_factory)
     return EMAIL_SENT

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import os
+from collections.abc import Mapping
 from dataclasses import dataclass, field
 from pathlib import Path
 from urllib.parse import urlsplit
@@ -15,7 +16,11 @@ CORPUS_DATA_DIR = ROOT / "medicina-naturista-documente" / "data"
 
 # Read an integer setting and reject values outside its safety bounds.
 def _int(
-    name: str, default: int, minimum: int = 1, maximum: int | None = None, env=None
+    name: str,
+    default: int,
+    minimum: int = 1,
+    maximum: int | None = None,
+    env: Mapping[str, str] | None = None,
 ) -> int:
     value = int((env or {}).get(name, str(default)))
     if value < minimum:
@@ -26,7 +31,7 @@ def _int(
 
 
 # Parse a human-friendly boolean environment variable with strict validation.
-def _bool(name: str, default: bool, env=None) -> bool:
+def _bool(name: str, default: bool, env: Mapping[str, str] | None = None) -> bool:
     value = (env or {}).get(name)
     if value is None:
         return default
@@ -42,12 +47,10 @@ EMBEDDING_DEVICES = ("cpu", "cuda")
 
 
 # Read EMBEDDING_DEVICE and reject anything that is not a known device.
-def _embedding_device(env=None) -> str:
+def _embedding_device(env: Mapping[str, str] | None = None) -> str:
     device = (env or {}).get("EMBEDDING_DEVICE", "cpu").strip().casefold()
     if device not in EMBEDDING_DEVICES:
-        raise ValueError(
-            f"EMBEDDING_DEVICE must be one of {', '.join(EMBEDDING_DEVICES)}"
-        )
+        raise ValueError(f"EMBEDDING_DEVICE must be one of {', '.join(EMBEDDING_DEVICES)}")
     return device
 
 
@@ -55,11 +58,9 @@ AI_PROVIDERS = ("xai", "huggingface", "ollama", "deepseek")
 
 
 # Read AI_PROVIDER and reject anything that is not a known provider.
-def _ai_provider(value: str | None = None, env=None) -> str:
+def _ai_provider(value: str | None = None, env: Mapping[str, str] | None = None) -> str:
     provider = (
-        ((env or {}).get("AI_PROVIDER", "xai") if value is None else value)
-        .strip()
-        .casefold()
+        ((env or {}).get("AI_PROVIDER", "xai") if value is None else value).strip().casefold()
     )
     if provider not in AI_PROVIDERS:
         raise ValueError(f"AI_PROVIDER must be one of {', '.join(AI_PROVIDERS)}")
@@ -71,13 +72,9 @@ CONDITION_AI_BACKEND_NAMES = ("huggingface", "local")
 
 # Read CONDITION_AI_BACKENDS: an ordered, comma-separated list of the backends
 # that identify a condition the dictionary does not know. Empty disables the step.
-def _condition_ai_backends(env=None) -> tuple[str, ...]:
+def _condition_ai_backends(env: Mapping[str, str] | None = None) -> tuple[str, ...]:
     raw = (env or {}).get("CONDITION_AI_BACKENDS", "local,huggingface")
-    names = tuple(
-        dict.fromkeys(
-            part.strip().casefold() for part in raw.split(",") if part.strip()
-        )
-    )
+    names = tuple(dict.fromkeys(part.strip().casefold() for part in raw.split(",") if part.strip()))
     unknown = [name for name in names if name not in CONDITION_AI_BACKEND_NAMES]
     if unknown:
         raise ValueError(
@@ -99,7 +96,9 @@ class Settings:
     conditions_file: Path = CORPUS_DATA_DIR / "medical_conditions.jsonl"
     herbs_file: Path = CORPUS_DATA_DIR / "herbs.jsonl"
     frontend_dist_dir: Path = ROOT / "src" / "frontend" / "dist"
-    database_url: str = "postgresql://medicina:medicina@127.0.0.1:5432/medicina"
+    database_url: str = field(
+        default="postgresql://medicina:medicina@127.0.0.1:5432/medicina", repr=False
+    )
     temp_dir: Path = Path(
         "/tmp/naturist-sessions" if os.name != "nt" else str(ROOT / "var" / "sessions")
     )
@@ -137,7 +136,7 @@ class Settings:
     max_chat_chars: int = 4000
     max_requests_per_minute: int = 60
     log_level: str = "INFO"
-    log_fragment_text: bool = True
+    log_fragment_text: bool = False
     log_fragment_text_max_chars: int = 4000
     log_ai_response_text: bool = False
 
@@ -161,30 +160,31 @@ class Settings:
     cookie_secure: bool = False
     public_root_path: str = ""
     public_origin: str = ""
+    deployment_profile: str = "local"
+    # from_env snapshots secrets; direct legacy constructors can still use the
+    # environment when their optional credential is not supplied.
+    xai_key: str | None = field(default=None, repr=False)
+    hf_api_token: str | None = field(default=None, repr=False)
+    deepseek_key: str | None = field(default=None, repr=False)
+    ollama_key: str | None = field(default=None, repr=False)
 
     @classmethod
-    def from_env(cls, env=None, *, dotenv: bool = False) -> "Settings":
+    def from_env(cls, env: Mapping[str, str] | None = None, *, dotenv: bool = False) -> "Settings":
         """Read configuration explicitly; tests pass a mapping and never load .env."""
         if dotenv:
+            if env is not None:
+                raise ValueError("dotenv cannot be combined with an injected environment")
             load_dotenv(ROOT / ".env", override=False)
         env = os.environ if env is None else env
         return cls(
-            documents_dir=Path(
-                env.get("DOCUMENTS_DIR", str(CORPUS_DATA_DIR / "documents"))
-            ),
+            documents_dir=Path(env.get("DOCUMENTS_DIR", str(CORPUS_DATA_DIR / "documents"))),
             model_cache_dir=Path(env.get("MODEL_CACHE_DIR", str(ROOT / "model_cache"))),
-            embedding_threads=_int(
-                "EMBEDDING_THREADS", min(8, os.cpu_count() or 8), env=env
-            ),
+            embedding_threads=_int("EMBEDDING_THREADS", min(8, os.cpu_count() or 8), env=env),
             embedding_device=_embedding_device(env=env),
             conditions_file=Path(
-                env.get(
-                    "CONDITIONS_FILE", str(CORPUS_DATA_DIR / "medical_conditions.jsonl")
-                )
+                env.get("CONDITIONS_FILE", str(CORPUS_DATA_DIR / "medical_conditions.jsonl"))
             ),
-            herbs_file=Path(
-                env.get("HERBS_FILE", str(CORPUS_DATA_DIR / "herbs.jsonl"))
-            ),
+            herbs_file=Path(env.get("HERBS_FILE", str(CORPUS_DATA_DIR / "herbs.jsonl"))),
             frontend_dist_dir=Path(
                 env.get("FRONTEND_DIST_DIR", str(ROOT / "src" / "frontend" / "dist"))
             ),
@@ -194,9 +194,7 @@ class Settings:
             temp_dir=Path(
                 env.get(
                     "SESSION_TEMP_DIR",
-                    "/tmp/naturist-sessions"
-                    if os.name != "nt"
-                    else str(ROOT / "var" / "sessions"),
+                    "/tmp/naturist-sessions" if os.name != "nt" else str(ROOT / "var" / "sessions"),
                 )
             ),
             xai_model=env.get("XAI_MODEL", "grok-4.3"),
@@ -205,25 +203,17 @@ class Settings:
             xai_api_base=env.get("XAI_API_BASE", "https://api.x.ai/v1").rstrip("/"),
             ai_provider=_ai_provider(env=env),
             hf_model=env.get("HF_MODEL", "deepseek-ai/DeepSeek-V4-Flash:deepinfra"),
-            hf_api_base=env.get(
-                "HF_API_BASE", "https://router.huggingface.co/v1"
-            ).rstrip("/"),
+            hf_api_base=env.get("HF_API_BASE", "https://router.huggingface.co/v1").rstrip("/"),
             hf_reasoning_effort=env.get("HF_REASONING_EFFORT", "").strip(),
             hf_max_context_chars=_int("HF_MAX_CONTEXT_CHARS", 120000, env=env),
             ollama_model=env.get("OLLAMA_MODEL", "deepseek-v4.1-flash:cloud"),
-            ollama_api_base=env.get(
-                "OLLAMA_API_BASE", "http://localhost:11434/v1"
-            ).rstrip("/"),
+            ollama_api_base=env.get("OLLAMA_API_BASE", "http://localhost:11434/v1").rstrip("/"),
             ollama_reasoning_effort=env.get("OLLAMA_REASONING_EFFORT", "").strip(),
             ollama_max_context_chars=_int("OLLAMA_MAX_CONTEXT_CHARS", 1000000, env=env),
             deepseek_model=env.get("DEEPSEEK_MODEL", "deepseek-flash"),
-            deepseek_api_base=env.get(
-                "DEEPSEEK_API_BASE", "https://api.deepseek.com"
-            ).rstrip("/"),
+            deepseek_api_base=env.get("DEEPSEEK_API_BASE", "https://api.deepseek.com").rstrip("/"),
             deepseek_reasoning_effort=env.get("DEEPSEEK_REASONING_EFFORT", "").strip(),
-            deepseek_max_context_chars=_int(
-                "DEEPSEEK_MAX_CONTEXT_CHARS", 1000000, env=env
-            ),
+            deepseek_max_context_chars=_int("DEEPSEEK_MAX_CONTEXT_CHARS", 1000000, env=env),
             condition_ai_backends=_condition_ai_backends(env=env),
             condition_ai_hf_model=env.get(
                 "CONDITION_AI_HF_MODEL",
@@ -233,12 +223,8 @@ class Settings:
             condition_ai_local_base=env.get(
                 "CONDITION_AI_LOCAL_BASE", "http://localhost:11434/v1"
             ).rstrip("/"),
-            condition_ai_timeout_seconds=_int(
-                "CONDITION_AI_TIMEOUT_SECONDS", 10, env=env
-            ),
-            condition_ai_max_output_tokens=_int(
-                "CONDITION_AI_MAX_OUTPUT_TOKENS", 300, env=env
-            ),
+            condition_ai_timeout_seconds=_int("CONDITION_AI_TIMEOUT_SECONDS", 10, env=env),
+            condition_ai_max_output_tokens=_int("CONDITION_AI_MAX_OUTPUT_TOKENS", 300, env=env),
             ai_stream=_bool("AI_STREAM", False, env=env),
             ai_max_output_tokens=_int("AI_MAX_OUTPUT_TOKENS", 20000, env=env),
             ai_read_timeout_seconds=_int("AI_READ_TIMEOUT_SECONDS", 300, env=env),
@@ -247,18 +233,14 @@ class Settings:
             max_chat_chars=_int("MAX_CHAT_CHARS", 4000, env=env),
             max_requests_per_minute=_int("MAX_REQUESTS_PER_MINUTE", 60, env=env),
             log_level=env.get("LOG_LEVEL", "INFO").strip().upper(),
-            log_fragment_text=_bool("LOG_FRAGMENT_TEXT", True, env=env),
-            log_fragment_text_max_chars=_int(
-                "LOG_FRAGMENT_TEXT_MAX_CHARS", 4000, env=env
-            ),
+            log_fragment_text=_bool("LOG_FRAGMENT_TEXT", False, env=env),
+            log_fragment_text_max_chars=_int("LOG_FRAGMENT_TEXT_MAX_CHARS", 4000, env=env),
             log_ai_response_text=_bool("LOG_AI_RESPONSE_TEXT", False, env=env),
             max_active_sessions=_int("MAX_ACTIVE_SESSIONS", 100, env=env),
             max_sessions_per_cookie=_int("MAX_SESSIONS_PER_COOKIE", 1, env=env),
             max_sessions_per_ip=_int("MAX_SESSIONS_PER_IP", 1, env=env),
             new_sessions_per_ip_minute=_int("NEW_SESSIONS_PER_IP_MINUTE", 10, env=env),
-            new_sessions_per_cookie_minute=_int(
-                "NEW_SESSIONS_PER_COOKIE_MINUTE", 5, env=env
-            ),
+            new_sessions_per_cookie_minute=_int("NEW_SESSIONS_PER_COOKIE_MINUTE", 5, env=env),
             max_history_bytes=_int("MAX_HISTORY_BYTES", 8388608, env=env),
             max_evidence_bytes=_int("MAX_EVIDENCE_BYTES", 25165824, env=env),
             max_pdf_bytes=_int("MAX_PDF_BYTES", 16777216, env=env),
@@ -269,20 +251,80 @@ class Settings:
             max_concurrent_searches=_int("MAX_CONCURRENT_SEARCHES", 2, env=env),
             max_concurrent_generations=_int("MAX_CONCURRENT_GENERATIONS", 1, env=env),
             operation_timeout_seconds=_int("OPERATION_TIMEOUT_SECONDS", 600, env=env),
-            operation_reservation_bytes=_int(
-                "OPERATION_RESERVATION_BYTES", 65536, env=env
-            ),
+            operation_reservation_bytes=_int("OPERATION_RESERVATION_BYTES", 65536, env=env),
             owner_key=env.get("OWNER_KEY", ""),
             cookie_secure=_bool("COOKIE_SECURE", False, env=env),
-            public_root_path=env.get(
-                "PUBLIC_ROOT_PATH", env.get("GRADIO_ROOT_PATH", "")
-            ).rstrip("/"),
+            public_root_path=env.get("PUBLIC_ROOT_PATH", env.get("GRADIO_ROOT_PATH", "")).rstrip(
+                "/"
+            ),
             public_origin=env.get("PUBLIC_ORIGIN", "").strip().rstrip("/"),
+            deployment_profile=env.get("DEPLOYMENT_PROFILE", "local").strip().lower(),
+            xai_key=env.get("X_API_KEY", "").strip(),
+            hf_api_token=env.get("HF_TOKEN", "").strip(),
+            deepseek_key=env.get("DEEPSEEK_API_KEY", "").strip(),
+            ollama_key=env.get("OLLAMA_API_KEY", "").strip(),
         )
 
     # Reject an unknown provider even when Settings is built directly (tests).
     def __post_init__(self) -> None:
         _ai_provider(self.ai_provider)
+        for name in ("ai_stream", "log_fragment_text", "log_ai_response_text", "cookie_secure"):
+            if not isinstance(getattr(self, name), bool):
+                raise ValueError(f"{name} must be boolean")
+        if self.embedding_device not in EMBEDDING_DEVICES:
+            raise ValueError("embedding_device must be cpu or cuda")
+        if any(value not in CONDITION_AI_BACKEND_NAMES for value in self.condition_ai_backends):
+            raise ValueError("unknown condition AI backend")
+        if self.log_level not in {"DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"}:
+            raise ValueError("log_level must be a supported logging level")
+        if self.deployment_profile not in {"local", "public"}:
+            raise ValueError("deployment_profile must be local or public")
+        for name in (
+            "xai_api_base",
+            "hf_api_base",
+            "ollama_api_base",
+            "deepseek_api_base",
+            "condition_ai_local_base",
+        ):
+            try:
+                parsed = urlsplit(getattr(self, name))
+                valid = (
+                    parsed.scheme in {"http", "https"}
+                    and bool(parsed.hostname)
+                    and not parsed.username
+                    and not parsed.password
+                    and not parsed.query
+                    and not parsed.fragment
+                    and not any(c.isspace() for c in getattr(self, name))
+                )
+                if parsed.port is not None and parsed.port < 1:
+                    valid = False
+            except ValueError:
+                valid = False
+            if not valid:
+                raise ValueError(f"{name} must be an HTTP(S) URL without credentials")
+        database = urlsplit(self.database_url)
+        if (
+            database.scheme not in {"postgresql", "postgres"}
+            or not database.hostname
+            or not database.path.strip("/")
+        ):
+            raise ValueError("database_url must name a PostgreSQL host and database")
+        try:
+            database.port
+        except ValueError:
+            raise ValueError("database_url has an invalid port") from None
+        for name in (
+            "documents_dir",
+            "model_cache_dir",
+            "conditions_file",
+            "herbs_file",
+            "frontend_dist_dir",
+            "temp_dir",
+        ):
+            if "\x00" in str(getattr(self, name)):
+                raise ValueError(f"{name} contains an invalid path character")
+        object.__setattr__(self, "public_root_path", self.public_root_path.rstrip("/"))
         if self.public_origin:
             try:
                 origin = urlsplit(self.public_origin)
@@ -306,6 +348,16 @@ class Settings:
                     "public_origin must be an HTTP(S) origin without a path or credentials"
                 )
         for name in (
+            "embedding_threads",
+            "xai_max_context_chars",
+            "hf_max_context_chars",
+            "ollama_max_context_chars",
+            "deepseek_max_context_chars",
+            "condition_ai_timeout_seconds",
+            "condition_ai_max_output_tokens",
+            "ai_max_output_tokens",
+            "ai_read_timeout_seconds",
+            "log_fragment_text_max_chars",
             "session_idle_seconds",
             "session_max_seconds",
             "max_requests_per_minute",
@@ -348,22 +400,33 @@ class Settings:
             or not all(c.isalnum() or c in "/_-" for c in self.public_root_path)
         ):
             raise ValueError("public_root_path must be a safe absolute URL path")
+        if self.deployment_profile == "public":
+            if not self.public_origin.startswith("https://") or not self.cookie_secure:
+                raise ValueError("public deployment requires an HTTPS origin and Secure cookies")
+            if self.log_fragment_text or self.log_ai_response_text:
+                raise ValueError("public deployment forbids content logging")
 
     # Return the configured xAI API key without surrounding whitespace.
     def api_key(self) -> str:
-        return os.getenv("X_API_KEY", "").strip()
+        return (os.getenv("X_API_KEY", "") if self.xai_key is None else self.xai_key).strip()
 
     # Return the Hugging Face Inference Providers token without surrounding whitespace.
     def hf_token(self) -> str:
-        return os.getenv("HF_TOKEN", "").strip()
+        return (
+            os.getenv("HF_TOKEN", "") if self.hf_api_token is None else self.hf_api_token
+        ).strip()
 
     # Return the DeepSeek API key without surrounding whitespace.
     def deepseek_api_key(self) -> str:
-        return os.getenv("DEEPSEEK_API_KEY", "").strip()
+        return (
+            os.getenv("DEEPSEEK_API_KEY", "") if self.deepseek_key is None else self.deepseek_key
+        ).strip()
 
     # Return the Ollama Cloud API key without surrounding whitespace.
     def ollama_api_key(self) -> str:
-        return os.getenv("OLLAMA_API_KEY", "").strip()
+        return (
+            os.getenv("OLLAMA_API_KEY", "") if self.ollama_key is None else self.ollama_key
+        ).strip()
 
 
 settings = Settings()

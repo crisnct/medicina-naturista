@@ -1,6 +1,7 @@
 """Condition dictionaries for tests, written in the short comma-separated form
 ("Gripa,gripe\nFebra\n": the canonical name first, then its synonyms) and
 turned into the JSON Lines of medicina-naturista-documente/data/medical_conditions.jsonl."""
+
 from __future__ import annotations
 
 import json

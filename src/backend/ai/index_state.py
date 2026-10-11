@@ -1,4 +1,5 @@
 """One PostgreSQL advisory lock and compatibility contract for the index."""
+
 from __future__ import annotations
 
 import hashlib
@@ -20,13 +21,16 @@ TEXT_REPR_VERSION = "10"
 _reader = ContextVar("index_reader", default=None)
 _dictionary = ContextVar("index_dictionary", default=None)
 
+
 def active_dictionary():
     return _dictionary.get()
 
 
 class IndexUnavailable(ApplicationError):
     def __init__(self, code="INDEX_MAINTENANCE"):
-        super().__init__(code, "Indexul este temporar indisponibil. Încercați din nou după resincronizare.", 503)
+        super().__init__(
+            code, "Indexul este temporar indisponibil. Încercați din nou după resincronizare.", 503
+        )
 
 
 class IndexMetadata(BaseModel):
@@ -39,7 +43,9 @@ class IndexMetadata(BaseModel):
 
 
 def passage_profile(profile) -> str:
-    return json.dumps([profile.passage_template, profile.max_chars, profile.overlap_chars], separators=(",", ":"))
+    return json.dumps(
+        [profile.passage_template, profile.max_chars, profile.overlap_chars], separators=(",", ":")
+    )
 
 
 def dictionary_snapshot():
@@ -49,15 +55,19 @@ def dictionary_snapshot():
 
 def read_metadata(connection, fingerprint=None) -> IndexMetadata:
     try:
-        metadata = IndexMetadata.model_validate(dict(connection.execute("SELECT key, value FROM sync_metadata").fetchall()))
+        metadata = IndexMetadata.model_validate(
+            dict(connection.execute("SELECT key, value FROM sync_metadata").fetchall())
+        )
         profile = get_profile(metadata.model_name)
         if fingerprint is None:
             fingerprint, _ = dictionary_snapshot()
-        if (metadata.dictionary_fingerprint != fingerprint
-                or metadata.model_dimension != profile.dimension
-                or metadata.passage_profile != passage_profile(profile)
-                or metadata.text_repr_version != TEXT_REPR_VERSION
-                or db._embedding_dimension(connection) != metadata.model_dimension):
+        if (
+            metadata.dictionary_fingerprint != fingerprint
+            or metadata.model_dimension != profile.dimension
+            or metadata.passage_profile != passage_profile(profile)
+            or metadata.text_repr_version != TEXT_REPR_VERSION
+            or db._embedding_dimension(connection) != metadata.model_dimension
+        ):
             raise IndexUnavailable("INDEX_RESYNC_REQUIRED")
         return metadata
     except (ValueError, OSError, UnicodeError):
@@ -74,7 +84,9 @@ def index_reader():
     try:
         with db.get_pool().connection() as connection:
             with connection.transaction():
-                locked = connection.execute("SELECT pg_try_advisory_xact_lock_shared(%s)", (INDEX_LOCK,)).fetchone()[0]
+                locked = connection.execute(
+                    "SELECT pg_try_advisory_xact_lock_shared(%s)", (INDEX_LOCK,)
+                ).fetchone()[0]
                 if not locked:
                     raise IndexUnavailable()
                 try:
@@ -87,7 +99,10 @@ def index_reader():
                 try:
                     yield connection, metadata
                     try:
-                        unchanged = hashlib.sha256(settings.conditions_file.read_bytes()).hexdigest() == fingerprint
+                        unchanged = (
+                            hashlib.sha256(settings.conditions_file.read_bytes()).hexdigest()
+                            == fingerprint
+                        )
                     except OSError:
                         unchanged = False
                     if not unchanged:

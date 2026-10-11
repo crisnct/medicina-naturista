@@ -78,9 +78,7 @@ def retained_usage(session: SessionData) -> RetainedUsage:
     # report_bytes aliases the latest StoredReport.data and is never added again.
     history = serialized_bytes(
         [
-            {k: v for k, v in m.items() if k != "fragments"}
-            if m.get("kind") == "fragments"
-            else m
+            {k: v for k, v in m.items() if k != "fragments"} if m.get("kind") == "fragments" else m
             for m in session.history
         ]
     )
@@ -181,9 +179,7 @@ class SessionStore:
                 session = None
             if session is None and create:
                 if not self._accepting:
-                    raise ApplicationError(
-                        "SHUTTING_DOWN", "Aplicația se închide.", 503
-                    )
+                    raise ApplicationError("SHUTTING_DOWN", "Aplicația se închide.", 503)
                 # Reclaim expired entries before applying allocation limits.
                 self._sweep_locked()
                 if len(self._sessions) >= self.limits.max_active_sessions:
@@ -231,9 +227,7 @@ class SessionStore:
                 )
                 usage = retained_usage(session)
                 if usage.total > self.limits.max_session_bytes:
-                    raise ApplicationError(
-                        "SESSION_BUDGET", "Bugetul sesiunii este insuficient."
-                    )
+                    raise ApplicationError("SESSION_BUDGET", "Bugetul sesiunii este insuficient.")
                 self._check_global(usage.total)
                 directory.mkdir(mode=0o700)
                 try:
@@ -250,13 +244,8 @@ class SessionStore:
             return session
 
     def _check_global(self, additional: int) -> None:
-        if (
-            self._used_bytes + self._reserved_bytes + additional
-            > self.limits.max_global_bytes
-        ):
-            raise ApplicationError(
-                "GLOBAL_BUDGET", "Capacitatea aplicației este ocupată.", 503
-            )
+        if self._used_bytes + self._reserved_bytes + additional > self.limits.max_global_bytes:
+            raise ApplicationError("GLOBAL_BUDGET", "Capacitatea aplicației este ocupată.", 503)
 
     def _valid(self, operation: SessionOperation) -> bool:
         if self._workers.get(operation.operation_id) is not operation:
@@ -300,19 +289,13 @@ class SessionStore:
             if (
                 not self._accepting
                 or session.closed
-                or self._sessions.get((session.cookie_id, session.tab_id))
-                is not session
+                or self._sessions.get((session.cookie_id, session.tab_id)) is not session
             ):
                 raise ApplicationError("SESSION_CLOSED", "Sesiunea a fost închisă.")
             if self._expired(session):
                 self._delete_locked((session.cookie_id, session.tab_id))
-                raise ApplicationError(
-                    "SESSION_EXPIRED", "Sesiunea a expirat. Reîncărcați pagina."
-                )
-            if (
-                expected_revision is not None
-                and expected_revision != session.context_revision
-            ):
+                raise ApplicationError("SESSION_EXPIRED", "Sesiunea a expirat. Reîncărcați pagina.")
+            if expected_revision is not None and expected_revision != session.context_revision:
                 raise OperationCancelled()
             search = session.searches.get(search_id or "")
             if kind == "generate" and search is None:
@@ -355,16 +338,12 @@ class SessionStore:
             group_id = session.current_group_id
             if kind == "generate":
                 group_id = next(
-                    gid
-                    for gid, g in session.groups.items()
-                    if search_id in g.search_ids
+                    gid for gid, g in session.groups.items() if search_id in g.search_ids
                 )
             latest = session.reports.get(session.report_id or "")
             if kind == "email" and latest:
                 group_id = next(
-                    gid
-                    for gid, g in session.groups.items()
-                    if session.report_id in g.report_ids
+                    gid for gid, g in session.groups.items() if session.report_id in g.report_ids
                 )
             snapshot = SessionSnapshot(
                 session.lifetime_id,
@@ -402,14 +381,10 @@ class SessionStore:
                     }
                 )
             if (
-                retained_usage(session).total
-                + self._session_reserved(session)
-                + reservation
+                retained_usage(session).total + self._session_reserved(session) + reservation
                 > self.limits.max_session_bytes
             ):
-                raise ApplicationError(
-                    "SESSION_BUDGET", "Bugetul sesiunii este insuficient."
-                )
+                raise ApplicationError("SESSION_BUDGET", "Bugetul sesiunii este insuficient.")
             self._check_global(reservation)
             op = SessionOperation(
                 secrets.token_urlsafe(18),
@@ -475,9 +450,7 @@ class SessionStore:
             for name in STATE_FIELDS:
                 setattr(proposed, name, copy.deepcopy(getattr(session, name)))
             group_id = (
-                secrets.token_urlsafe(12)
-                if change.new_context
-                else operation.snapshot.group_id
+                secrets.token_urlsafe(12) if change.new_context else operation.snapshot.group_id
             )
             proposed.groups.setdefault(group_id, ConversationGroup())
             if change.profile is not None:
@@ -569,9 +542,7 @@ class SessionStore:
                     break
                 if gid in pinned:
                     continue
-                proposed.history = [
-                    m for m in proposed.history if m.get("groupId") != gid
-                ]
+                proposed.history = [m for m in proposed.history if m.get("groupId") != gid]
                 for sid in group.search_ids:
                     proposed.searches.pop(sid, None)
                 for rid in group.report_ids:
@@ -583,15 +554,11 @@ class SessionStore:
                 if proposed.report_id not in proposed.reports:
                     proposed.report_id = next(reversed(proposed.reports), None)
                     proposed.report_bytes = (
-                        proposed.reports[proposed.report_id].data
-                        if proposed.report_id
-                        else None
+                        proposed.reports[proposed.report_id].data if proposed.report_id else None
                     )
                 usage = retained_usage(proposed)
             if not fits_session():
-                raise ApplicationError(
-                    "SESSION_BUDGET", "Rezultatul depășește bugetul sesiunii."
-                )
+                raise ApplicationError("SESSION_BUDGET", "Rezultatul depășește bugetul sesiunii.")
             global_total = (
                 self._used_bytes
                 - previous
@@ -600,9 +567,7 @@ class SessionStore:
                 - operation.reserved_bytes
             )
             if global_total > self.limits.max_global_bytes:
-                raise ApplicationError(
-                    "GLOBAL_BUDGET", "Capacitatea aplicației este ocupată.", 503
-                )
+                raise ApplicationError("GLOBAL_BUDGET", "Capacitatea aplicației este ocupată.", 503)
             for name in STATE_FIELDS:
                 setattr(session, name, getattr(proposed, name))
             self._used_bytes += usage.total - previous
@@ -641,8 +606,7 @@ class SessionStore:
         with self._lock, session.lock:
             if (
                 session.closed
-                or self._sessions.get((session.cookie_id, session.tab_id))
-                is not session
+                or self._sessions.get((session.cookie_id, session.tab_id)) is not session
                 or self._expired(session)
             ):
                 return None

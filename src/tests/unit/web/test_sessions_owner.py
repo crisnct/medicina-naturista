@@ -85,17 +85,13 @@ class HTTPPlanTests(unittest.TestCase):
         )
         self.repo = FakeOwnerRepository()
         self.deps = self.dependencies(self.config, self.repo)
-        self.client = TestClient(
-            create_app(self.config, self.deps), base_url="https://testserver"
-        )
+        self.client = TestClient(create_app(self.config, self.deps), base_url="https://testserver")
         self.addCleanup(self.client.close)
         self.addCleanup(self.deps.store.shutdown)
         dictionary = ConditionDictionary(
             parse_conditions(conditions_jsonl("Gripă,gripa\nMigrenă,migrena\n"))
         )
-        patcher = patch(
-            "backend.ai.conditions.load_dictionary", return_value=dictionary
-        )
+        patcher = patch("backend.ai.conditions.load_dictionary", return_value=dictionary)
         patcher.start()
         self.addCleanup(patcher.stop)
         self.tab = {"X-Tab-Id": "tab-synthetic"}
@@ -105,9 +101,7 @@ class HTTPPlanTests(unittest.TestCase):
         root = Path(self.temp.name) / secrets.token_hex(6)
         return Dependencies(
             config,
-            SessionStore(
-                root, config.session_idle_seconds, config.session_max_seconds, config
-            ),
+            SessionStore(root, config.session_idle_seconds, config.session_max_seconds, config),
             FakeRetriever(),
             FakeAI(),
             OwnerAuth(config.owner_key, repo),
@@ -129,22 +123,14 @@ class HTTPPlanTests(unittest.TestCase):
         return client.cookies.get(OWNER_COOKIE)
 
     def search(self, text="Gripă"):
-        self.assertEqual(
-            self.client.get("/api/session", headers=self.tab).status_code, 200
-        )
-        first = self.client.post(
-            "/api/messages", json={"message": text}, headers=self.tab
-        ).json()
+        self.assertEqual(self.client.get("/api/session", headers=self.tab).status_code, 200)
+        first = self.client.post("/api/messages", json={"message": text}, headers=self.tab).json()
         response = self.client.post(
             "/api/search",
             headers={**self.tab, "X-Context-Revision": str(first["contextRevision"])},
         )
         self.assertEqual(response.status_code, 200, response.text)
-        return next(
-            m["searchId"]
-            for m in response.json()["messages"]
-            if m["kind"] == "generate"
-        )
+        return next(m["searchId"] for m in response.json()["messages"] if m["kind"] == "generate")
 
     def test_first_session_request_bootstraps_cookie_in_one_round_trip(self):
         response = self.client.get("/api/session", headers=self.tab)
@@ -156,12 +142,8 @@ class HTTPPlanTests(unittest.TestCase):
         config = replace(self.config, public_origin="https://public.example")
         deps = self.dependencies(config, self.repo)
         self.addCleanup(deps.store.shutdown)
-        with TestClient(
-            create_app(config, deps), base_url="http://internal:7860"
-        ) as client:
-            self.assertEqual(
-                client.get("/api/session", headers=self.tab).status_code, 200
-            )
+        with TestClient(create_app(config, deps), base_url="http://internal:7860") as client:
+            self.assertEqual(client.get("/api/session", headers=self.tab).status_code, 200)
             response = client.post(
                 "/api/messages",
                 json={"message": "Gripă"},
@@ -187,9 +169,7 @@ class HTTPPlanTests(unittest.TestCase):
             self.assertEqual(logout.status_code, 200, logout.text)
 
     def test_configured_public_origin_rejects_foreign_origins_and_forged_headers(self):
-        self.deps.settings = replace(
-            self.config, public_origin="https://public.example"
-        )
+        self.deps.settings = replace(self.config, public_origin="https://public.example")
         self.client.get("/api/session", headers=self.tab)
         for origin in (
             "https://evil.example",
@@ -246,16 +226,58 @@ class HTTPPlanTests(unittest.TestCase):
         altered = token2[:-1] + ("0" if token2[-1] != "0" else "1")
         self.assertFalse(self.deps.owner_auth.authorized(altered))
 
-    def test_query_key_rejects_missing_wrong_or_oversized_secret_without_echo(self):
-        for key in ("", "wrong-secret", "sensitive" * 1000):
-            response = self.client.get(
-                "/owner", params={"key": key}, follow_redirects=False
-            )
+    def test_query_key_rejects_wrong_or_oversized_secret_without_echo(self):
+        for key in ("wrong-secret", "sensitive" * 1000):
+            response = self.client.get("/owner", params={"key": key}, follow_redirects=False)
             self.assertEqual(response.status_code, 404)
             if key:
                 self.assertNotIn(key, response.text)
         self.assertNotIn(OWNER_COOKIE + "=", response.headers.get("set-cookie", ""))
         self.assertFalse(self.repo.rows)
+
+    def test_owner_form_without_key_is_uncached_and_uses_nonce_csp(self):
+        for prefix in ("", "/medicina"):
+            config = replace(self.config, public_root_path=prefix)
+            deps = self.dependencies(config, self.repo)
+            self.addCleanup(deps.store.shutdown)
+            with TestClient(create_app(config, deps), base_url="https://testserver") as client:
+                first = client.get(prefix + "/owner")
+                second = client.get(prefix + "/owner", params={"key": ""})
+                self.assertEqual(first.status_code, 200)
+                self.assertEqual(second.status_code, 200)
+                self.assertEqual(first.headers["cache-control"], "no-store")
+                self.assertEqual(first.headers["referrer-policy"], "no-referrer")
+                csp = first.headers["content-security-policy"]
+                nonce = csp.split("'nonce-", 1)[1].split("'", 1)[0]
+                self.assertIn(f'<script nonce="{nonce}">', first.text)
+                self.assertNotEqual(csp, second.headers["content-security-policy"])
+                self.assertIn("frame-ancestors 'none'", csp)
+                self.assertIn('type="password"', first.text)
+                self.assertIn("X-CSRF-Token", first.text)
+                self.assertIn("method: 'POST'", first.text)
+                self.assertNotIn(config.owner_key, first.text)
+                self.assertNotIn(OWNER_COOKIE + "=", first.headers.get("set-cookie", ""))
+                self.assertFalse(self.repo.rows)
+
+    def test_pdf_completing_after_deadline_is_discarded(self):
+        now = [100.0]
+        self.deps.store.clock = lambda: now[0]
+        self.login()
+        sid = self.search()
+
+        def delayed_pdf(*args):
+            now[0] += self.config.operation_timeout_seconds
+            return b"%PDF-too-late"
+
+        with patch.object(self.deps, "pdf", delayed_pdf):
+            response = self.client.post(f"/api/searches/{sid}/generate", headers=self.tab)
+        self.assertEqual(response.status_code, 200, response.text)
+        self.assertTrue(response.json()["cancelled"])
+        self.assertEqual(response.json()["messages"], [])
+        session = self.deps.store.get(self.client.cookies.get(COOKIE), self.tab["X-Tab-Id"])
+        self.assertFalse(session.reports)
+        self.assertIn(sid, session.searches)
+        self.assertEqual(self.deps.store.metrics()["active_workers"], 0)
 
     def test_query_key_authorizes_redirects_without_key_and_rotation_revokes_copy(self):
         response = self.client.get(
@@ -263,9 +285,7 @@ class HTTPPlanTests(unittest.TestCase):
         )
         self.assertEqual(response.status_code, 303, response.text)
         self.assertEqual(response.headers["location"], "/")
-        self.assertNotIn(
-            self.config.owner_key, response.text + response.headers["location"]
-        )
+        self.assertNotIn(self.config.owner_key, response.text + response.headers["location"])
         token = self.client.cookies.get(OWNER_COOKIE)
         self.assertTrue(self.deps.owner_auth.authorized(token))
         self.assertNotIn(token, repr(self.repo.rows))
@@ -293,9 +313,7 @@ class HTTPPlanTests(unittest.TestCase):
         )
         deps = self.dependencies(config, self.repo)
         self.addCleanup(deps.store.shutdown)
-        with TestClient(
-            create_app(config, deps), base_url="https://public.example"
-        ) as client:
+        with TestClient(create_app(config, deps), base_url="https://public.example") as client:
             response = client.get(
                 "/medicina/owner",
                 params={"key": config.owner_key},
@@ -314,19 +332,13 @@ class HTTPPlanTests(unittest.TestCase):
         self.addCleanup(deps.store.shutdown)
         client = TestClient(create_app(config, deps), base_url="https://testserver")
         self.addCleanup(client.close)
-        client.cookies.set(
-            OWNER_COOKIE, "legacy-owner", domain="testserver.local", path="/"
-        )
+        client.cookies.set(OWNER_COOKIE, "legacy-owner", domain="testserver.local", path="/")
         response = client.get(
             "/medicina/owner", params={"key": config.owner_key}, follow_redirects=False
         )
         self.assertEqual(response.status_code, 303)
         self.assertEqual(
-            [
-                cookie.path
-                for cookie in client.cookies.jar
-                if cookie.name == OWNER_COOKIE
-            ],
+            [cookie.path for cookie in client.cookies.jar if cookie.name == OWNER_COOKIE],
             ["/medicina"],
         )
         self.assertTrue(client.get("/medicina/api/owner").json()["authorized"])
@@ -373,9 +385,7 @@ class HTTPPlanTests(unittest.TestCase):
         self.assertEqual(cross_site.status_code, 403)
         self.assertFalse(self.repo.rows)
         for _ in range(4):
-            response = self.client.get(
-                "/owner", params={"key": "wrong"}, follow_redirects=False
-            )
+            response = self.client.get("/owner", params={"key": "wrong"}, follow_redirects=False)
             self.assertEqual(response.status_code, 404)
         sixth = self.client.get(
             "/owner", params={"key": self.config.owner_key}, follow_redirects=False
@@ -387,14 +397,10 @@ class HTTPPlanTests(unittest.TestCase):
         csrf = self.client.get("/api/owner").json()["csrfToken"]
 
         def login(headers, key="wrong"):
-            return self.client.post(
-                "/api/owner/login", json={"key": key}, headers=headers
-            )
+            return self.client.post("/api/owner/login", json={"key": key}, headers=headers)
 
         self.assertEqual(login(self.origin).status_code, 403)
-        self.assertEqual(
-            login({**self.origin, "X-CSRF-Token": "invalid"}).status_code, 403
-        )
+        self.assertEqual(login({**self.origin, "X-CSRF-Token": "invalid"}).status_code, 403)
         self.assertEqual(
             login({"Origin": "https://evil.test", "X-CSRF-Token": csrf}).status_code,
             403,
@@ -402,16 +408,12 @@ class HTTPPlanTests(unittest.TestCase):
         self.assertEqual(login({"X-CSRF-Token": csrf}).status_code, 403)
         self.assertEqual(login({**self.origin, "X-CSRF-Token": csrf}).status_code, 401)
         self.assertEqual(
-            login(
-                {**self.origin, "X-CSRF-Token": csrf}, self.config.owner_key
-            ).status_code,
+            login({**self.origin, "X-CSRF-Token": csrf}, self.config.owner_key).status_code,
             429,
         )
         self.assertFalse(self.repo.rows)
         # Session creation has its own windows and is still allowed.
-        self.assertEqual(
-            self.client.get("/api/session", headers=self.tab).status_code, 200
-        )
+        self.assertEqual(self.client.get("/api/session", headers=self.tab).status_code, 200)
 
     def test_logout_fails_closed_when_csrf_or_repository_unavailable(self):
         token = self.login()
@@ -442,9 +444,7 @@ class HTTPPlanTests(unittest.TestCase):
             config = replace(self.config, public_root_path=prefix, cookie_secure=secure)
             deps = self.dependencies(config, self.repo)
             self.addCleanup(deps.store.shutdown)
-            with TestClient(
-                create_app(config, deps), base_url="https://testserver"
-            ) as client:
+            with TestClient(create_app(config, deps), base_url="https://testserver") as client:
                 csrf = client.get(prefix + "/api/owner").json()["csrfToken"]
                 response = client.post(
                     prefix + "/api/owner/login",
@@ -493,16 +493,12 @@ class HTTPPlanTests(unittest.TestCase):
                 headers={**self.tab, **headers},
             )
             self.assertEqual(response.status_code, 413, response.text)
-        response = self.client.post(
-            "/api/messages", content=b"x" * 101, headers=self.tab
-        )
+        response = self.client.post("/api/messages", content=b"x" * 101, headers=self.tab)
         self.assertEqual(response.status_code, 413)
         self.assertEqual(self.deps.store.count(), 0)
 
     def test_untrusted_xff_cannot_bypass_session_ip_cap(self):
-        self.client.get(
-            "/api/session", headers={**self.tab, "X-Forwarded-For": "1.2.3.4"}
-        )
+        self.client.get("/api/session", headers={**self.tab, "X-Forwarded-For": "1.2.3.4"})
         other = self.client.get(
             "/api/session",
             headers={"X-Tab-Id": "other-tab", "X-Forwarded-For": "5.6.7.8"},
@@ -527,24 +523,16 @@ class HTTPPlanTests(unittest.TestCase):
                 headers = {"X-Tab-Id": "second-tab"}
                 blocked = other.get("/api/session", headers=headers)
                 self.assertEqual(blocked.status_code, 429)
-                self.assertEqual(
-                    blocked.json()["detail"]["code"], "SESSION_ALREADY_ACTIVE"
-                )
-                self.assertIn(
-                    "alt tab sau browser", blocked.json()["detail"]["message"]
-                )
+                self.assertEqual(blocked.json()["detail"]["code"], "SESSION_ALREADY_ACTIVE")
+                self.assertIn("alt tab sau browser", blocked.json()["detail"]["message"])
                 self.assertEqual(
                     other.post("/api/session/unload", headers=headers).status_code, 204
                 )
                 self.assertEqual(self.deps.store.count(), 1)
-                self.assertEqual(
-                    self.client.get("/api/session", headers=self.tab).status_code, 200
-                )
+                self.assertEqual(self.client.get("/api/session", headers=self.tab).status_code, 200)
         self.client.post("/api/session/unload", headers=self.tab)
         self.assertEqual(self.deps.store.count(), 0)
-        other = TestClient(
-            create_app(self.config, self.deps), base_url="https://testserver"
-        )
+        other = TestClient(create_app(self.config, self.deps), base_url="https://testserver")
         self.addCleanup(other.close)
         self.assertEqual(
             other.get("/api/session", headers={"X-Tab-Id": "second-tab"}).status_code,
@@ -561,9 +549,7 @@ class HTTPPlanTests(unittest.TestCase):
             )
             self.addCleanup(client.close)
             clients.append(client)
-            self.assertEqual(
-                client.get("/api/session", headers=self.tab).status_code, 200
-            )
+            self.assertEqual(client.get("/api/session", headers=self.tab).status_code, 200)
         self.assertEqual(self.deps.store.count(), 2)
 
     def test_generate_blocked_then_close_and_recreate_drops_pdf_and_links(self):
@@ -583,12 +569,8 @@ class HTTPPlanTests(unittest.TestCase):
                     self.client.post("/api/session/end", headers=self.tab).status_code,
                     200,
                 )
-                self.assertEqual(
-                    self.client.get("/api/session", headers=self.tab).status_code, 200
-                )
-                new = self.deps.store.get(
-                    self.client.cookies.get(COOKIE), self.tab["X-Tab-Id"]
-                )
+                self.assertEqual(self.client.get("/api/session", headers=self.tab).status_code, 200)
+                new = self.deps.store.get(self.client.cookies.get(COOKIE), self.tab["X-Tab-Id"])
                 self.assertNotEqual(old.lifetime_id, new.lifetime_id)
             finally:
                 ai.release.set()
@@ -610,9 +592,7 @@ class HTTPPlanTests(unittest.TestCase):
             )
             try:
                 self.assertTrue(ai.entered.wait(3))
-                duplicate = self.client.post(
-                    f"/api/searches/{sid}/generate", headers=self.tab
-                )
+                duplicate = self.client.post(f"/api/searches/{sid}/generate", headers=self.tab)
                 self.assertEqual(duplicate.status_code, 409, duplicate.text)
                 self.assertEqual(ai.calls, 1)
             finally:

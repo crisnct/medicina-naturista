@@ -1,69 +1,186 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="680" height="820" viewBox="0 0 680 820" role="img">
-<title>medicina-naturista chatbot architecture and its connections to external systems</title>
-<desc>The browser goes through Caddy to the FastAPI app. Internal flow: chat, condition dictionary, AI condition identification (local Ollama gemma3:1b, then DeepSeek via Hugging Face), hybrid search in PostgreSQL with pgvector, recipe generation through the AI_PROVIDER LLM, then PDF and email via the Gmail API. Offline, the indexing script reads the source documents and the Qwen3 model from the Hugging Face Hub and writes to PostgreSQL.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1420" viewBox="0 0 1280 1420" role="img" aria-labelledby="title description">
+<title id="title">Chatbot medicina-naturista — conexiuni conform implementării</title>
+<desc id="description">React comunică cu FastAPI direct în dezvoltare sau prin Caddy în Compose; tunelul și proxy-ul JobsHunter sunt opționale și externe stivei. Dicționarul local medical_conditions.jsonl rezolvă afecțiunile. Identificarea AI opțională folosește implicit Ollama gemma3:1b, apoi Hugging Face numai la eșecul backendului anterior. Căutarea locală combină semnalele A, B și C în PostgreSQL cu pgvector și FTS; întrebările sunt încorporate pe CPU cu Qwen3 din cache, offline. Generarea raportului este separată, autorizată pentru proprietar și folosește AI_PROVIDER. Raportul validat produce PDF local. Emailul cerut ulterior folosește Google OAuth2 și Gmail API. Scriptul de sincronizare citește Markdown și dicționarul JSONL, descarcă modelul în cache la pregătire și publică indexul într-o tranzacție PostgreSQL. Indexarea acceptă CPU sau CUDA.</desc>
 <style>
 text { font-family: "Segoe UI", -apple-system, "Helvetica Neue", Arial, sans-serif; }
-.th { font-size: 14px; font-weight: 500; }
-.ts { font-size: 12px; }
-.lbl { font-size: 12px; fill: #5F5E5A; }
-.gray rect { fill: #F1EFE8; stroke: #5F5E5A; stroke-width: 0.5; }
-.gray .th { fill: #444441; } .gray .ts { fill: #5F5E5A; }
-.purple rect { fill: #EEEDFE; stroke: #534AB7; stroke-width: 0.5; }
-.purple .th { fill: #3C3489; } .purple .ts { fill: #534AB7; }
-.teal rect { fill: #E1F5EE; stroke: #0F6E56; stroke-width: 0.5; }
-.teal .th { fill: #085041; } .teal .ts { fill: #0F6E56; }
+.title { font-size: 23px; font-weight: 650; fill: #343431; }
+.th { font-size: 17px; font-weight: 600; }
+.ts { font-size: 14px; }
+.code { font-family: Consolas, "Liberation Mono", monospace; font-size: 13px; }
+.lbl { font-size: 13px; fill: #5F5E5A; }
+.section { font-size: 15px; font-weight: 600; fill: #5F5E5A; }
+.gray rect { fill: #F1EFE8; stroke: #888780; stroke-width: 1; }
+.gray text { fill: #444441; }
+.purple rect { fill: #EEEDFE; stroke: #7971BB; stroke-width: 1; }
+.purple text { fill: #3C3489; }
+.teal rect { fill: #E1F5EE; stroke: #4D9A83; stroke-width: 1; }
+.teal text { fill: #085041; }
 .arr { stroke: #888780; stroke-width: 1.5; fill: none; }
-.dash { stroke-dasharray: 4 3; }
+.dash { stroke-dasharray: 5 4; }
+.boundary { fill: #FCFCFA; stroke: #B4B2A9; stroke-width: 1; stroke-dasharray: 6 5; }
 </style>
-<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
-
-<rect x="0" y="0" width="680" height="820" fill="#FFFFFF"/>
-
-<g class="gray"><rect x="220" y="40" width="220" height="44" rx="4"/><text class="th" x="330" y="67" text-anchor="middle">Browser · React SPA</text></g>
-<line x1="330" y1="84" x2="330" y2="108" class="arr" marker-end="url(#arrow)"/>
-<g class="gray"><rect x="220" y="110" width="220" height="44" rx="4"/><text class="th" x="330" y="137" text-anchor="middle">Caddy · HTTPS proxy</text></g>
-<line x1="330" y1="154" x2="330" y2="208" class="arr" marker-end="url(#arrow)"/>
-
-<rect x="205" y="180" width="250" height="476" rx="8" fill="none" stroke="#B4B2A9" stroke-width="0.5" stroke-dasharray="5 4"/>
-<text class="lbl" x="215" y="646">container app · FastAPI :7860</text>
-
-<text class="lbl" x="40" y="346">Internal Docker network</text>
-<text class="lbl" x="475" y="346">External cloud · HTTPS</text>
-
-<g class="gray"><rect x="220" y="210" width="220" height="52" rx="4"/><text class="th" x="330" y="231" text-anchor="middle">Chat API</text><text class="ts" x="330" y="249" text-anchor="middle">POST /api/messages</text></g>
-<line x1="330" y1="262" x2="330" y2="282" class="arr" marker-end="url(#arrow)"/>
-<g class="gray"><rect x="220" y="284" width="220" height="52" rx="4"/><text class="th" x="330" y="305" text-anchor="middle">Condition dictionary</text><text class="ts" x="330" y="323" text-anchor="middle">medical_conditions.txt</text></g>
-<line x1="330" y1="336" x2="330" y2="356" class="arr" marker-end="url(#arrow)"/>
-<g class="gray"><rect x="220" y="358" width="220" height="52" rx="4"/><text class="th" x="330" y="379" text-anchor="middle">AI condition identification</text><text class="ts" x="330" y="397" text-anchor="middle">only if not in dictionary</text></g>
-<line x1="330" y1="410" x2="330" y2="430" class="arr" marker-end="url(#arrow)"/>
-<g class="gray"><rect x="220" y="432" width="220" height="52" rx="4"/><text class="th" x="330" y="453" text-anchor="middle">Hybrid search P·L·V</text><text class="ts" x="330" y="471" text-anchor="middle">Qwen3-Embedding ONNX, CPU</text></g>
-<line x1="330" y1="484" x2="330" y2="504" class="arr" marker-end="url(#arrow)"/>
-<g class="gray"><rect x="220" y="506" width="220" height="52" rx="4"/><text class="th" x="330" y="527" text-anchor="middle">Recipe generation</text><text class="ts" x="330" y="545" text-anchor="middle">POST /responses + fragments</text></g>
-<line x1="330" y1="558" x2="330" y2="578" class="arr" marker-end="url(#arrow)"/>
-<g class="gray"><rect x="220" y="580" width="220" height="52" rx="4"/><text class="th" x="330" y="601" text-anchor="middle">PDF + email</text><text class="ts" x="330" y="619" text-anchor="middle">PDF download, optional email</text></g>
-
-<g class="purple"><rect x="40" y="358" width="145" height="52" rx="4"/><text class="th" x="112" y="379" text-anchor="middle">Ollama local</text><text class="ts" x="112" y="397" text-anchor="middle">gemma3:1b · step 1</text></g>
-<line x1="220" y1="384" x2="187" y2="384" class="arr" marker-end="url(#arrow)"/>
-<g class="teal"><rect x="40" y="432" width="145" height="52" rx="4"/><text class="th" x="112" y="453" text-anchor="middle">PostgreSQL</text><text class="ts" x="112" y="471" text-anchor="middle">pgvector + FTS</text></g>
-<line x1="218" y1="458" x2="187" y2="458" class="arr" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
-
-<g class="purple"><rect x="475" y="358" width="165" height="52" rx="4"/><text class="th" x="557" y="379" text-anchor="middle">Hugging Face router</text><text class="ts" x="557" y="397" text-anchor="middle">DeepSeek V4 · step 2</text></g>
-<line x1="440" y1="384" x2="473" y2="384" class="arr" marker-end="url(#arrow)"/>
-<g class="purple"><rect x="475" y="494" width="165" height="72" rx="4"/><text class="th" x="557" y="516" text-anchor="middle">LLM (AI_PROVIDER)</text><text class="ts" x="557" y="536" text-anchor="middle">active: DeepSeek API</text><text class="ts" x="557" y="553" text-anchor="middle">alt: xAI / HF / Ollama</text></g>
-<line x1="440" y1="532" x2="473" y2="532" class="arr" marker-end="url(#arrow)"/>
-<g class="gray"><rect x="475" y="580" width="165" height="52" rx="4"/><text class="th" x="557" y="601" text-anchor="middle">Google Gmail API</text><text class="ts" x="557" y="619" text-anchor="middle">OAuth2 · sends PDF</text></g>
-<line x1="440" y1="606" x2="473" y2="606" class="arr" marker-end="url(#arrow)"/>
-
-<g class="gray"><rect x="40" y="700" width="145" height="52" rx="4"/><text class="th" x="112" y="721" text-anchor="middle">Offline indexing</text><text class="ts" x="112" y="739" text-anchor="middle">build_hybrid_index</text></g>
-<g class="teal"><rect x="220" y="700" width="220" height="52" rx="4"/><text class="th" x="330" y="721" text-anchor="middle">Source documents</text><text class="ts" x="330" y="739" text-anchor="middle">data/documents (Markdown)</text></g>
-<g class="purple"><rect x="475" y="700" width="165" height="52" rx="4"/><text class="th" x="557" y="721" text-anchor="middle">Hugging Face Hub</text><text class="ts" x="557" y="739" text-anchor="middle">Qwen3 model, once</text></g>
-<line x1="220" y1="726" x2="187" y2="726" class="arr dash" marker-end="url(#arrow)"/>
-<path d="M557 700 V680 H150 V698" class="arr dash" marker-end="url(#arrow)"/>
-<line x1="80" y1="700" x2="80" y2="486" class="arr dash" marker-end="url(#arrow)"/>
-
-<g class="purple"><rect x="40" y="784" width="12" height="12" rx="2"/></g><text class="lbl" x="58" y="794">AI model</text>
-<g class="teal"><rect x="128" y="784" width="12" height="12" rx="2"/></g><text class="lbl" x="146" y="794">data</text>
-<g class="gray"><rect x="190" y="784" width="12" height="12" rx="2"/></g><text class="lbl" x="208" y="794">app / service</text>
-<line x1="346" y1="790" x2="376" y2="790" class="arr dash"/><text class="lbl" x="384" y="794">offline (scripts)</text>
-<line x1="510" y1="790" x2="540" y2="790" class="arr"/><text class="lbl" x="548" y="794">runtime</text>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M2 1L8 5L2 9" fill="none" stroke="#888780" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></marker></defs>
+<rect width="1280" height="1420" fill="#FFFFFF"/>
+<text class="title" x="640" y="38" text-anchor="middle">Chatbot · conexiuni externe și date locale</text>
+<!-- Acces în Compose, acces local și proxy extern opțional. -->
+<g class="gray"><rect x="400" y="70" width="470" height="60" rx="6"/>
+<text class="th" x="635" y="95" text-anchor="middle">Browser · React SPA</text>
+<text class="ts" x="635" y="119" text-anchor="middle">API aceeași origine · prefix PUBLIC_ROOT_PATH</text>
+</g>
+<path d="M635 130V160" class="arr" marker-end="url(#arrow)"/>
+<g class="gray"><rect x="400" y="160" width="470" height="65" rx="6"/>
+<text class="th" x="635" y="185" text-anchor="middle">Caddy · reverse proxy (Docker Compose)</text>
+<text class="ts" x="635" y="209" text-anchor="middle">HTTP sau HTTPS → app:7860</text>
+</g>
+<g class="gray"><rect x="915" y="70" width="330" height="155" rx="6"/>
+<text class="th" x="1080" y="95" text-anchor="middle">Tunel / proxy extern · opțional</text>
+<text class="ts" x="1080" y="119" text-anchor="middle">ngrok + proxy JobsHunter existent</text>
+<text class="ts" x="1080" y="141" text-anchor="middle">Rețea PUBLIC_PROXY_NETWORK</text>
+<text class="code" x="1080" y="163" text-anchor="middle">implicit: jobshunter-net</text>
+<text class="code" x="1080" y="185" text-anchor="middle">destinație: medicina-caddy:80</text>
+</g>
+<path d="M870 100H915" class="arr dash" marker-end="url(#arrow)"/>
+<path d="M915 193H870" class="arr dash" marker-end="url(#arrow)"/>
+<path d="M400 100H355V325H400" class="arr" marker-end="url(#arrow)"/>
+<text class="lbl" x="340" y="185" text-anchor="end">Local: direct / proxy Vite</text>
+<text class="code lbl" x="340" y="207" text-anchor="end">127.0.0.1:7860</text>
+<rect x="385" y="250" width="500" height="835" rx="10" class="boundary"/>
+<text class="section" x="400" y="273" text-anchor="start">FastAPI · app:7860 · src/backend</text>
+<text class="section" x="35" y="273" text-anchor="start">Servicii și fișiere locale</text>
+<text class="section" x="915" y="273" text-anchor="start">Servicii cloud · HTTPS</text>
+<path d="M635 225V295" class="arr" marker-end="url(#arrow)"/>
+<g class="gray"><rect x="400" y="295" width="470" height="60" rx="6"/>
+<text class="th" x="635" y="320" text-anchor="middle">Mesaj · sesiune izolată · categorii și semnale</text>
+<text class="code" x="635" y="344" text-anchor="middle">POST /api/messages</text>
+</g>
+<path d="M635 355V385" class="arr" marker-end="url(#arrow)"/>
+<g class="gray"><rect x="400" y="385" width="470" height="60" rx="6"/>
+<text class="th" x="635" y="410" text-anchor="middle">Rezolvarea afecțiunilor și sinonimelor</text>
+<text class="ts" x="635" y="434" text-anchor="middle">Dicționar local · reîncărcat la modificare</text>
+</g>
+<g class="teal"><rect x="35" y="350" width="300" height="95" rx="6"/>
+<text class="th" x="185" y="375" text-anchor="middle">Dicționar JSON Lines</text>
+<text class="code" x="185" y="399" text-anchor="middle">medical_conditions.jsonl</text>
+<text class="ts" x="185" y="421" text-anchor="middle">CONDITIONS_FILE · nume + sinonime</text>
+</g>
+<path d="M335 415H400" class="arr" marker-end="url(#arrow)"/>
+<path d="M635 445V475" class="arr" marker-end="url(#arrow)"/>
+<g class="gray"><rect x="400" y="475" width="470" height="105" rx="6"/>
+<text class="th" x="635" y="500" text-anchor="middle">Identificare AI · opțională</text>
+<text class="code" x="635" y="524" text-anchor="middle">POST /api/condition</text>
+<text class="ts" x="635" y="546" text-anchor="middle">Semnal A activ + nicio afecțiune în dicționar</text>
+<text class="code" x="635" y="568" text-anchor="middle">CONDITION_AI_BACKENDS: local,huggingface</text>
+</g>
+<g class="purple"><rect x="35" y="475" width="300" height="105" rx="6"/>
+<text class="th" x="185" y="500" text-anchor="middle">Ollama · identificare locală</text>
+<text class="ts" x="185" y="524" text-anchor="middle">Implicit: gemma3:1b</text>
+<text class="code" x="185" y="546" text-anchor="middle">http://ollama:11434/v1</text>
+<text class="ts" x="185" y="568" text-anchor="middle">POST /responses · primul backend implicit</text>
+</g>
+<path d="M400 525H335" class="arr" marker-end="url(#arrow)"/>
+<g class="purple"><rect x="915" y="475" width="330" height="135" rx="6"/>
+<text class="th" x="1080" y="500" text-anchor="middle">Hugging Face · identificare AI</text>
+<text class="code" x="1080" y="524" text-anchor="middle">router.huggingface.co/v1/responses</text>
+<text class="ts" x="1080" y="546" text-anchor="middle">CONDITION_AI_HF_MODEL · HF_TOKEN</text>
+<text class="ts" x="1080" y="568" text-anchor="middle">Implicit: DeepSeek-V4-Flash:deepinfra</text>
+<text class="ts" x="1080" y="590" text-anchor="middle">Fallback la eșec, nu la răspuns gol valid</text>
+</g>
+<path d="M870 525H915" class="arr" marker-end="url(#arrow)"/>
+<path d="M635 580V610" class="arr" marker-end="url(#arrow)"/>
+<g class="gray"><rect x="400" y="610" width="470" height="105" rx="6"/>
+<text class="th" x="635" y="635" text-anchor="middle">Căutare hibridă · POST /api/search</text>
+<text class="ts" x="635" y="659" text-anchor="middle">A: afecțiuni (P1/P2) · B: lexical · C: semantic</text>
+<text class="ts" x="635" y="681" text-anchor="middle">Qwen3-Embedding-0.6B · ONNX CPU · 1024 dim.</text>
+<text class="ts" x="635" y="703" text-anchor="middle">Model din model_cache · întrebări offline</text>
+</g>
+<g class="teal"><rect x="35" y="610" width="300" height="145" rx="6"/>
+<text class="th" x="185" y="635" text-anchor="middle">PostgreSQL 16 · db:5432</text>
+<text class="ts" x="185" y="659" text-anchor="middle">pgvector + FTS (tsvector / GIN)</text>
+<text class="code" x="185" y="681" text-anchor="middle">documents · chunks · sync_metadata</text>
+<text class="ts" x="185" y="703" text-anchor="middle">Și sesiuni de autorizare owner</text>
+<text class="ts" x="185" y="725" text-anchor="middle">Host: 127.0.0.1:DB_HOST_PORT (5432)</text>
+</g>
+<path d="M400 652H335" class="arr" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+<path d="M635 715V750" class="arr" marker-end="url(#arrow)"/>
+<text class="lbl" x="649" y="738" text-anchor="start">Fragmente afișate · generare la cerere</text>
+<g class="gray"><rect x="400" y="750" width="470" height="105" rx="6"/>
+<text class="th" x="635" y="775" text-anchor="middle">Generarea raportului · proprietar autorizat</text>
+<text class="code" x="635" y="799" text-anchor="middle">POST /api/searches/{search_id}/generate</text>
+<text class="ts" x="635" y="821" text-anchor="middle">Profil + fragmente admise → JSON prin /responses</text>
+<text class="ts" x="635" y="843" text-anchor="middle">Buget de context și prag de scor pentru fragmente</text>
+</g>
+<g class="purple"><rect x="915" y="740" width="330" height="145" rx="6"/>
+<text class="th" x="1080" y="765" text-anchor="middle">LLM cloud · selectat prin AI_PROVIDER</text>
+<text class="ts" x="1080" y="789" text-anchor="middle">xai → api.x.ai/v1 (implicit în cod)</text>
+<text class="ts" x="1080" y="811" text-anchor="middle">deepseek → api.deepseek.com</text>
+<text class="ts" x="1080" y="833" text-anchor="middle">huggingface → router.huggingface.co/v1</text>
+<text class="ts" x="1080" y="855" text-anchor="middle">Model / bază configurabile · POST /responses</text>
+</g>
+<path d="M870 800H915" class="arr" marker-end="url(#arrow)"/>
+<g class="purple"><rect x="35" y="785" width="300" height="115" rx="6"/>
+<text class="th" x="185" y="810" text-anchor="middle">Alternativă: AI_PROVIDER=ollama</text>
+<text class="code" x="185" y="834" text-anchor="middle">OLLAMA_API_BASE · POST /responses</text>
+<text class="ts" x="185" y="856" text-anchor="middle">Compose: host.docker.internal:11434/v1</text>
+<text class="ts" x="185" y="878" text-anchor="middle">Model local sau cloud, după configurare</text>
+</g>
+<path d="M400 810H335" class="arr" marker-end="url(#arrow)"/>
+<path d="M635 855V885" class="arr" marker-end="url(#arrow)"/>
+<g class="gray"><rect x="400" y="885" width="470" height="65" rx="6"/>
+<text class="th" x="635" y="910" text-anchor="middle">Validare raport și citări → PDF local</text>
+<text class="code" x="635" y="934" text-anchor="middle">GET /api/reports/{tab_id}/{report_id}</text>
+</g>
+<path d="M635 950V985" class="arr" marker-end="url(#arrow)"/>
+<g class="gray"><rect x="400" y="985" width="470" height="85" rx="6"/>
+<text class="th" x="635" y="1010" text-anchor="middle">Email opțional · după generarea PDF-ului</text>
+<text class="ts" x="635" y="1034" text-anchor="middle">Adresa primită prin /api/messages → send_report</text>
+<text class="ts" x="635" y="1056" text-anchor="middle">Necesită contul Google configurat al proprietarului</text>
+</g>
+<g class="gray"><rect x="915" y="940" width="330" height="65" rx="6"/>
+<text class="th" x="1080" y="965" text-anchor="middle">Google OAuth2 · refresh token</text>
+<text class="code" x="1080" y="989" text-anchor="middle">oauth2.googleapis.com/token</text>
+</g>
+<g class="gray"><rect x="915" y="1030" width="330" height="65" rx="6"/>
+<text class="th" x="1080" y="1055" text-anchor="middle">Gmail API · trimite email + PDF</text>
+<text class="code" x="1080" y="1079" text-anchor="middle">/gmail/v1/users/me/messages/send</text>
+</g>
+<path d="M870 1018H899V972H915" class="arr" marker-end="url(#arrow)"/>
+<path d="M870 1044H899V1062H915" class="arr" marker-end="url(#arrow)"/>
+<path d="M1080 1005V1030" class="arr" marker-end="url(#arrow)"/>
+<text class="lbl" x="1092" y="1022" text-anchor="start">access token</text>
+<!-- Sincronizare pe host; Hub-ul este accesat la pregătire, nu la căutare. -->
+<path d="M35 1125H1245" stroke="#D3D1C7"/>
+<text class="section" x="35" y="1151" text-anchor="start">Pregătire și sincronizare index · script pe host, separat de cererile chatbotului</text>
+<g class="teal"><rect x="35" y="1175" width="300" height="125" rx="6"/>
+<text class="th" x="185" y="1200" text-anchor="middle">Surse și dicționar locale</text>
+<text class="code" x="185" y="1224" text-anchor="middle">medicina-naturista-documente/data/</text>
+<text class="code" x="185" y="1246" text-anchor="middle">documents/ (Markdown)</text>
+<text class="code" x="185" y="1268" text-anchor="middle">medical_conditions.jsonl</text>
+</g>
+<g class="gray"><rect x="400" y="1175" width="470" height="125" rx="6"/>
+<text class="th" x="635" y="1200" text-anchor="middle">src/scripts/build_hybrid_index.py</text>
+<text class="ts" x="635" y="1224" text-anchor="middle">Qwen/Qwen3-Embedding-0.6B → model_cache/</text>
+<text class="ts" x="635" y="1246" text-anchor="middle">CPU (ONNX) sau CUDA (PyTorch fp16)</text>
+<text class="ts" x="635" y="1268" text-anchor="middle">Sincronizare incrementală SHA-256 · tranzacție atomică</text>
+</g>
+<g class="purple"><rect x="915" y="1175" width="330" height="125" rx="6"/>
+<text class="th" x="1080" y="1200" text-anchor="middle">Hugging Face Hub</text>
+<text class="ts" x="1080" y="1224" text-anchor="middle">Descărcarea modelului de embedding</text>
+<text class="ts" x="1080" y="1246" text-anchor="middle">La pregătire, dacă lipsește din cache</text>
+<text class="ts" x="1080" y="1268" text-anchor="middle">Nicio conexiune Hub la căutarea în chat</text>
+</g>
+<path d="M335 1240H400" class="arr dash" marker-end="url(#arrow)"/>
+<path d="M915 1240H870" class="arr dash" marker-end="url(#arrow)"/>
+<path d="M400 1200H350V1165H20V710H35" class="arr dash" marker-end="url(#arrow)"/>
+<text class="lbl" x="35" y="1111" text-anchor="start">Publică indexul în PostgreSQL</text>
+<g class="purple"><rect x="35" y="1345" width="14" height="14" rx="2"/></g>
+<text class="lbl" x="57" y="1357" text-anchor="start">AI / modele</text>
+<g class="teal"><rect x="170" y="1345" width="14" height="14" rx="2"/></g>
+<text class="lbl" x="192" y="1357" text-anchor="start">Date locale</text>
+<g class="gray"><rect x="305" y="1345" width="14" height="14" rx="2"/></g>
+<text class="lbl" x="327" y="1357" text-anchor="start">Aplicație / serviciu</text>
+<path d="M510 1352H545" class="arr" marker-end="url(#arrow)"/>
+<text class="lbl" x="555" y="1357" text-anchor="start">La utilizare</text>
+<path d="M710 1352H745" class="arr dash" marker-end="url(#arrow)"/>
+<text class="lbl" x="755" y="1357" text-anchor="start">Pregătire / acces opțional</text>
+<text class="lbl" x="35" y="1391" text-anchor="start">Modelele, URL-urile și ordinea backendurilor sunt configurabile; valorile indicate sunt implicitele din cod / Compose.</text>
 </svg>

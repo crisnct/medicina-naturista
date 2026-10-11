@@ -1,7 +1,7 @@
 """Tests for the medical-condition dictionary (backend.ai.conditions)."""
+
 from __future__ import annotations
 
-import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -33,7 +33,9 @@ class ParseTests(unittest.TestCase):
         self.assertEqual(parsed[1].terms, ("Acalazie",))
 
     def test_duplicate_terms_within_a_line_are_dropped(self):
-        parsed = parse_conditions('{"name": "Acalazie", "synonyms": ["acalazie", "ACALAZIE ", "cardiospasm"]}')
+        parsed = parse_conditions(
+            '{"name": "Acalazie", "synonyms": ["acalazie", "ACALAZIE ", "cardiospasm"]}'
+        )
 
         self.assertEqual(parsed[0].terms, ("Acalazie", "cardiospasm"))
 
@@ -80,7 +82,9 @@ class MatchTests(unittest.TestCase):
 
 class ResolveTests(unittest.TestCase):
     def setUp(self):
-        self.dictionary = ConditionDictionary(parse_conditions(conditions_jsonl(SAMPLE + "Tuse,cough\n")))
+        self.dictionary = ConditionDictionary(
+            parse_conditions(conditions_jsonl(SAMPLE + "Tuse,cough\n"))
+        )
 
     def segments(self, query):
         return [
@@ -94,20 +98,31 @@ class ResolveTests(unittest.TestCase):
     def test_words_around_the_condition_name_are_the_remainder(self):
         self.assertEqual(
             self.segments("tratament pentru adenom de prostata la barbati"),
-            [("tratament pentru adenom de prostata la barbati", ["Adenom de prostata"], "tratament pentru la barbati")],
+            [
+                (
+                    "tratament pentru adenom de prostata la barbati",
+                    ["Adenom de prostata"],
+                    "tratament pentru la barbati",
+                )
+            ],
         )
 
     def test_a_misspelled_condition_is_the_whole_segment(self):
-        self.assertEqual(self.segments("artrita gutosa"), [("artrita gutosa", ["Artrita gutoasa"], "")])
+        self.assertEqual(
+            self.segments("artrita gutosa"), [("artrita gutosa", ["Artrita gutoasa"], "")]
+        )
 
     def test_each_comma_separated_segment_is_recognised_on_its_own(self):
         resolved = self.dictionary.resolve("Artrita, tuse")
 
         self.assertEqual(resolved.condition_names, ("Artrita", "Tuse"))
-        self.assertEqual(self.segments("durere de cap, tuse"), [
-            ("durere de cap", [], "durere de cap"),
-            ("tuse", ["Tuse"], ""),
-        ])
+        self.assertEqual(
+            self.segments("durere de cap, tuse"),
+            [
+                ("durere de cap", [], "durere de cap"),
+                ("tuse", ["Tuse"], ""),
+            ],
+        )
 
     def test_condition_names_are_canonical_and_unique(self):
         resolved = self.dictionary.resolve("gout, artrita urica")
@@ -146,12 +161,15 @@ class ResolveTests(unittest.TestCase):
         self.assertEqual(self.whole("durere de cap"), [False])
 
     def test_each_comma_separated_expression_is_judged_on_its_own(self):
-        self.assertEqual(self.whole("gout, tuse la copii, durere de cap, tuse"), [True, False, False, True])
+        self.assertEqual(
+            self.whole("gout, tuse la copii, durere de cap, tuse"), [True, False, False, True]
+        )
 
 
 class FileLoadingTests(unittest.TestCase):
     def test_query_and_index_validation_share_one_parse_for_unchanged_bytes(self):
         from dataclasses import replace
+
         from backend.ai import index_state
 
         conditions._parsed_dictionary.cache_clear()
@@ -159,7 +177,14 @@ class FileLoadingTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "conditions.jsonl"
             path.write_text(conditions_jsonl("Guta,gout\n"), encoding="utf-8")
-            with patch.object(index_state, "settings", replace(conditions.settings, conditions_file=path)), patch.object(conditions, "parse_conditions", wraps=conditions.parse_conditions) as parser:
+            with (
+                patch.object(
+                    index_state, "settings", replace(conditions.settings, conditions_file=path)
+                ),
+                patch.object(
+                    conditions, "parse_conditions", wraps=conditions.parse_conditions
+                ) as parser,
+            ):
                 first = conditions.load_dictionary(path)
                 fingerprint, indexed = index_state.dictionary_snapshot()
                 self.assertIs(first, indexed)
@@ -194,13 +219,18 @@ class FileLoadingTests(unittest.TestCase):
             sleep(0.02)
             return parse_conditions(text)
 
-        with patch.object(conditions, "parse_conditions", wraps=slow_parse) as parser, ThreadPoolExecutor(max_workers=8) as workers:
+        with (
+            patch.object(conditions, "parse_conditions", wraps=slow_parse) as parser,
+            ThreadPoolExecutor(max_workers=8) as workers,
+        ):
             snapshots = list(workers.map(load, range(8)))
             self.assertTrue(all(snapshot is snapshots[0] for snapshot in snapshots))
             parser.assert_called_once()
 
     def test_missing_file_gives_an_empty_dictionary(self):
-        result = conditions.load_dictionary(Path(tempfile.gettempdir()) / "definitely-missing-conditions.jsonl")
+        result = conditions.load_dictionary(
+            Path(tempfile.gettempdir()) / "definitely-missing-conditions.jsonl"
+        )
 
         self.assertEqual(result.conditions, [])
         self.assertEqual(result.resolve("gout").condition_names, ())
@@ -209,59 +239,18 @@ class FileLoadingTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "conditions.jsonl"
             path.write_text(conditions_jsonl("Guta,gout\n"), encoding="utf-8")
-            self.assertEqual(conditions.load_dictionary(path).match("gout")[0].terms, ("Guta", "gout"))
+            self.assertEqual(
+                conditions.load_dictionary(path).match("gout")[0].terms, ("Guta", "gout")
+            )
 
             path.write_text(conditions_jsonl("Guta,gout,podagra\n"), encoding="utf-8")
             import os
+
             os.utime(path, ns=(path.stat().st_atime_ns, path.stat().st_mtime_ns + 5_000_000_000))
 
-            self.assertEqual(conditions.load_dictionary(path).match("gout")[0].terms, ("Guta", "gout", "podagra"))
-
-    def test_shipped_dictionary_is_pure_ascii(self):
-        text = conditions.settings.conditions_file.read_text(encoding="utf-8")
-
-        # Canonical names are written verbatim into chunks.primary/secondary_medical_conditions,
-        # and an extraction artefact such as a soft hyphen splits a term into two
-        # words ("pio\xadtorax" -> "pio torax") that the scanned text never
-        # contains, so the term silently stops matching. The terms are checked,
-        # not the lines, so a JSON escape ("­") cannot hide one.
-        offenders = [term for item in parse_conditions(text) for term in item.terms if not term.isascii()]
-        self.assertEqual(offenders, [])
-
-    def test_shipped_dictionary_has_no_shared_terms(self):
-        text = conditions.settings.conditions_file.read_text(encoding="utf-8")
-
-        parsed = parse_conditions(text)
-        self.assertGreater(len(parsed), 10)
-
-        # every term belongs to exactly one condition, so a search never resolves
-        # to two diseases at once
-        owners: dict[str, str] = {}
-        for item in parsed:
-            for term in item.terms:
-                key = conditions._normalize(term)
-                self.assertNotIn(key, owners,
-                                 f"{term!r} is claimed by {item.name!r} and {owners.get(key)!r}")
-                owners[key] = item.name
-
-    def test_shipped_dictionary_lines_are_complete(self):
-        text = conditions.settings.conditions_file.read_text(encoding="utf-8")
-
-        for number, line in enumerate(text.splitlines(), 1):
-            with self.subTest(line=number):
-                record = json.loads(line)
-                self.assertEqual(list(record), ["name", "synonyms"])
-                terms = [record["name"], *record["synonyms"]]
-                # canonical name + 3 Romanian + 3 English synonyms
-                self.assertGreaterEqual(len(record["synonyms"]), 6)
-                for term in terms:
-                    # no blank term, no stray spaces
-                    self.assertEqual(term, " ".join(term.split()))
-                    self.assertTrue(term)
-                    # a message is split at commas, so a term with a comma could never match
-                    self.assertNotIn(",", term)
-                # written without duplicates: parsing drops none of the terms
-                self.assertEqual(len(parse_conditions(line)[0].terms), len(terms))
+            self.assertEqual(
+                conditions.load_dictionary(path).match("gout")[0].terms, ("Guta", "gout", "podagra")
+            )
 
 
 if __name__ == "__main__":

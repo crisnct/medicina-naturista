@@ -5,6 +5,7 @@ conditions a message names (the
 canonical names drive the P1/P2 priorities of ai/search.py; the synonyms stand
 in for an expression that is the whole condition in its lexical query), so
 "gout" also finds the sections titled "Gută" / "artrită gutoasă"."""
+
 from __future__ import annotations
 
 import json
@@ -14,8 +15,8 @@ from collections.abc import Iterable
 from dataclasses import dataclass
 from difflib import get_close_matches
 from functools import lru_cache
-from threading import Lock
 from pathlib import Path
+from threading import Lock
 
 from backend.ai.query_terms import plain
 from backend.config import settings
@@ -61,7 +62,11 @@ class ResolvedQuery:
     # appearance.
     @property
     def conditions(self) -> tuple[Condition, ...]:
-        found = {condition.name: condition for segment in self.segments for condition in segment.conditions}
+        found = {
+            condition.name: condition
+            for segment in self.segments
+            for condition in segment.conditions
+        }
         return tuple(found.values())
 
     # Canonical names of those conditions — exactly what the indexer writes to
@@ -109,8 +114,17 @@ def parse_conditions(text: str) -> list[Condition]:
 # Romanian inflection endings folded away by _fold_word(), longest first, each
 # with what replaces it ("anemii" -> "anemi", like "anemie" -> "anemi").
 _INFLECTION_SUFFIXES = (
-    ("ului", ""), ("ilor", ""), ("elor", ""), ("ile", ""), ("ele", ""),
-    ("ei", ""), ("ii", "i"), ("ul", ""), ("a", ""), ("e", ""), ("i", ""),
+    ("ului", ""),
+    ("ilor", ""),
+    ("elor", ""),
+    ("ile", ""),
+    ("ele", ""),
+    ("ei", ""),
+    ("ii", "i"),
+    ("ul", ""),
+    ("a", ""),
+    ("e", ""),
+    ("i", ""),
 )
 # A word is folded only if it stays at least this long afterwards.
 _MIN_FOLDED_CHARS = 3
@@ -162,7 +176,7 @@ class ConditionDictionary:
         while position < len(words):
             matched = 0
             for phrase, indexes in self._phrases.get(words[position], ()):
-                if tuple(words[position:position + len(phrase)]) == phrase:
+                if tuple(words[position : position + len(phrase)]) == phrase:
                     found.extend(indexes)
                     matched = len(phrase)
                     break
@@ -185,16 +199,22 @@ class ConditionDictionary:
         # A near-identical spelling of a whole term is a typo, and beats a
         # shorter term merely contained in the query ("artrita gutosa" is
         # "artrita gutoasa", not just "artrita").
-        typo = get_close_matches(normalized, self._terms, n=MAX_MATCHED_CONDITIONS, cutoff=TYPO_CUTOFF)
+        typo = get_close_matches(
+            normalized, self._terms, n=MAX_MATCHED_CONDITIONS, cutoff=TYPO_CUTOFF
+        )
         if typo:
             return self._pick([index for term in typo for index in self._by_term[term]]), True
         padded = f" {normalized} "
         contained = [term for term in self._terms if f" {term} " in padded]
         if contained:
             longest = max(len(term) for term in contained)
-            indexes = [index for term in contained if len(term) == longest for index in self._by_term[term]]
+            indexes = [
+                index for term in contained if len(term) == longest for index in self._by_term[term]
+            ]
             return self._pick(indexes), False
-        close = get_close_matches(normalized, self._terms, n=MAX_MATCHED_CONDITIONS, cutoff=FUZZY_CUTOFF)
+        close = get_close_matches(
+            normalized, self._terms, n=MAX_MATCHED_CONDITIONS, cutoff=FUZZY_CUTOFF
+        )
         return self._pick([index for term in close for index in self._by_term[term]]), False
 
     def match(self, query: str) -> list[Condition]:
@@ -227,7 +247,10 @@ class ConditionDictionary:
         while position < len(folded):
             length = 0
             for phrase, owners in self._phrases.get(folded[position], ()):
-                if targets.intersection(owners) and tuple(folded[position:position + len(phrase)]) == phrase:
+                if (
+                    targets.intersection(owners)
+                    and tuple(folded[position : position + len(phrase)]) == phrase
+                ):
                     length = len(phrase)
                     break
             consumed.update(range(position, position + length))
@@ -246,12 +269,14 @@ class ConditionDictionary:
                 continue
             indexes, whole = self._match(text)
             if indexes:
-                segments.append(QuerySegment(
-                    text=text,
-                    conditions=tuple(self.conditions[index] for index in indexes),
-                    remainder=self._remainder(text, indexes),
-                    whole_condition=whole,
-                ))
+                segments.append(
+                    QuerySegment(
+                        text=text,
+                        conditions=tuple(self.conditions[index] for index in indexes),
+                        remainder=self._remainder(text, indexes),
+                        whole_condition=whole,
+                    )
+                )
             else:
                 segments.append(QuerySegment(text=text, conditions=(), remainder=text))
         return ResolvedQuery(tuple(segments))
@@ -283,6 +308,7 @@ def dictionary_from_bytes(raw: bytes) -> ConditionDictionary:
 def load_dictionary(path: Path | None = None) -> ConditionDictionary:
     if path is None:
         from backend.ai.index_state import active_dictionary
+
         snapshot = active_dictionary()
         if snapshot is not None:
             return snapshot

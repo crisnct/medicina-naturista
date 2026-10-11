@@ -40,9 +40,7 @@ class GPUUsageMonitorTests(unittest.TestCase):
             self.assertEqual(monitor.percent(), "N/A")
 
     def test_missing_command_does_not_abort(self):
-        with patch(
-            "scripts.build_hybrid_index.subprocess.Popen", side_effect=FileNotFoundError
-        ):
+        with patch("scripts.build_hybrid_index.subprocess.Popen", side_effect=FileNotFoundError):
             with GPUUsageMonitor() as monitor:
                 monitor._thread.join(timeout=2)
                 self.assertEqual(monitor.percent(), "N/A")

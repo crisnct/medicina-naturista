@@ -225,3 +225,9 @@ __marimo__/
 /var/output/
 /.venv-gpu/
 /aiPlans/
+
+# Local dependency-resolution caches and one-off plan implementation helpers.
+/tmp/pip-cache/
+/tmp/pip-tools/
+/tmp/plan04*
+/tmp/implement_plan04_service.py

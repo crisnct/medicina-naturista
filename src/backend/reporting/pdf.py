@@ -1,21 +1,20 @@
 """Readable Romanian PDF report with source references next to each claim."""
+
 from __future__ import annotations
 
+import re
 from html import escape
 from io import BytesIO
 from pathlib import Path
-import re
 from typing import Any
-
-from backend.ai.report_validation import ValidatedReport, PARTIAL_NOTICE
 
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
 from reportlab.lib.units import mm
+from reportlab.lib.utils import ImageReader
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
-from reportlab.lib.utils import ImageReader
 from reportlab.platypus import (
     Flowable,
     Paragraph,
@@ -24,6 +23,7 @@ from reportlab.platypus import (
 )
 
 from backend.ai.conditions import find_conditions, resolve_query
+from backend.ai.report_validation import PARTIAL_NOTICE, ValidatedReport
 
 SECTION_KEYS = ("uz_intern", "nutritie", "uz_extern", "alte_recomandari", "atentionari")
 
@@ -51,9 +51,7 @@ BOLD_CANDIDATES = (
 # The same portrait the web UI uses (a single copy of the file).
 DOCTOR_IMAGE = Path(__file__).resolve().parents[1] / "web" / "static" / "images" / "dr-cuisor.webp"
 # Same botanical ornament, widened so the left and right clusters reach the page edges.
-ORNAMENT_PNG = (
-    Path(__file__).resolve().parent / "assets" / "ornament-fitoterapie-antet-wide.png"
-)
+ORNAMENT_PNG = Path(__file__).resolve().parent / "assets" / "ornament-fitoterapie-antet-wide.png"
 ORNAMENT_SIZE = (2621, 724)
 
 
@@ -67,7 +65,13 @@ def _register_fonts() -> tuple[str, str]:
         pdfmetrics.registerFont(TTFont("NaturistRegular", str(normal)))
     if "NaturistBold" not in pdfmetrics.getRegisteredFontNames():
         pdfmetrics.registerFont(TTFont("NaturistBold", str(bold)))
-    pdfmetrics.registerFontFamily("NaturistRegular", normal="NaturistRegular", bold="NaturistBold", italic="NaturistRegular", boldItalic="NaturistBold")
+    pdfmetrics.registerFontFamily(
+        "NaturistRegular",
+        normal="NaturistRegular",
+        bold="NaturistBold",
+        italic="NaturistRegular",
+        boldItalic="NaturistBold",
+    )
     return "NaturistRegular", "NaturistBold"
 
 
@@ -81,7 +85,9 @@ def _draw_footer(canvas: Any, document: Any) -> None:
     canvas.restoreState()
 
 
-def _draw_botanical_motif(canvas: Any, origin_x: float, origin_y: float, scale: float = 1.0) -> None:
+def _draw_botanical_motif(
+    canvas: Any, origin_x: float, origin_y: float, scale: float = 1.0
+) -> None:
     """Draw a layered botanical illustration; it is decorative only."""
     canvas.saveState()
     canvas.setLineWidth(1.25 * scale)
@@ -89,22 +95,32 @@ def _draw_botanical_motif(canvas: Any, origin_x: float, origin_y: float, scale: 
     main_stem = canvas.beginPath()
     main_stem.moveTo(origin_x, origin_y)
     main_stem.curveTo(
-        origin_x + 9 * mm * scale, origin_y + 7 * mm * scale,
-        origin_x + 16 * mm * scale, origin_y + 19 * mm * scale,
-        origin_x + 31 * mm * scale, origin_y + 28 * mm * scale,
+        origin_x + 9 * mm * scale,
+        origin_y + 7 * mm * scale,
+        origin_x + 16 * mm * scale,
+        origin_y + 19 * mm * scale,
+        origin_x + 31 * mm * scale,
+        origin_y + 28 * mm * scale,
     )
     canvas.drawPath(main_stem, stroke=1, fill=0)
     branch = canvas.beginPath()
     branch.moveTo(origin_x + 14 * mm * scale, origin_y + 14 * mm * scale)
     branch.curveTo(
-        origin_x + 10 * mm * scale, origin_y + 21 * mm * scale,
-        origin_x + 8 * mm * scale, origin_y + 26 * mm * scale,
-        origin_x + 6 * mm * scale, origin_y + 31 * mm * scale,
+        origin_x + 10 * mm * scale,
+        origin_y + 21 * mm * scale,
+        origin_x + 8 * mm * scale,
+        origin_y + 26 * mm * scale,
+        origin_x + 6 * mm * scale,
+        origin_y + 31 * mm * scale,
     )
     canvas.drawPath(branch, stroke=1, fill=0)
     leaves = (
-        (6, 6, 38, 1.00), (11, 11, -38, 0.92), (17, 17, 38, 1.05),
-        (23, 22, -38, 0.92), (29, 27, 35, 0.86), (8, 26, -30, 0.72),
+        (6, 6, 38, 1.00),
+        (11, 11, -38, 0.92),
+        (17, 17, 38, 1.05),
+        (23, 22, -38, 0.92),
+        (29, 27, 35, 0.86),
+        (8, 26, -30, 0.72),
     )
     for offset_x, offset_y, angle, leaf_scale in leaves:
         x = origin_x + offset_x * mm * scale
@@ -166,7 +182,13 @@ def _later_page(canvas: Any, document: Any) -> None:
 class BookmarkedParagraph(Paragraph):
     """Paragraph carrying a named destination and an outline entry for PDF readers."""
 
-    def __init__(self, text: str, style: ParagraphStyle, bookmark: str | None = None, outline: str | None = None):
+    def __init__(
+        self,
+        text: str,
+        style: ParagraphStyle,
+        bookmark: str | None = None,
+        outline: str | None = None,
+    ):
         super().__init__(text, style)
         self.bookmark = bookmark
         self.outline = outline
@@ -199,14 +221,18 @@ class CoverPanel(Flowable):
         for flowable in self.content:
             # Content next to the portrait wraps before it; the rest uses the full width.
             beside = self.image_size and getattr(flowable, "beside_image", False)
-            width = available_width - self.image_size - self.image_gap if beside else available_width
+            width = (
+                available_width - self.image_size - self.image_gap if beside else available_width
+            )
             _, height = flowable.wrap(width, 1_000_000)
-            self._metrics.append((
-                flowable,
-                flowable.getSpaceBefore(),
-                height,
-                flowable.getSpaceAfter(),
-            ))
+            self._metrics.append(
+                (
+                    flowable,
+                    flowable.getSpaceBefore(),
+                    height,
+                    flowable.getSpaceAfter(),
+                )
+            )
         return available_width, self.height
 
     def draw(self) -> None:
@@ -261,12 +287,14 @@ class RoundedSection(Flowable):
         measurements: list[tuple[Flowable, float, float, float]] = []
         for flowable in self.content:
             _, height = flowable.wrap(inner_width, 1_000_000)
-            measurements.append((
-                flowable,
-                flowable.getSpaceBefore(),
-                height,
-                flowable.getSpaceAfter(),
-            ))
+            measurements.append(
+                (
+                    flowable,
+                    flowable.getSpaceBefore(),
+                    height,
+                    flowable.getSpaceAfter(),
+                )
+            )
         return measurements
 
     def wrap(self, available_width: float, available_height: float) -> tuple[float, float]:
@@ -300,7 +328,7 @@ class RoundedSection(Flowable):
                 remainder.extend(parts[1:])
             else:
                 remainder.append(flowable)
-            remainder.extend(item for item, _, _, _ in metrics[index + 1:])
+            remainder.extend(item for item, _, _, _ in metrics[index + 1 :])
             break
 
         # Keep the colored heading, its white breathing room, and at least one
@@ -459,7 +487,11 @@ def nutrition_display_groups(
                     prefix_names[match.group(1).casefold()]
                     if prefix_matches
                     else category_names[match.group(1).casefold()],
-                    text[match.end():matches[index + 1].start() if index + 1 < len(matches) else len(text)].strip(),
+                    text[
+                        match.end() : matches[index + 1].start()
+                        if index + 1 < len(matches)
+                        else len(text)
+                    ].strip(),
                 )
                 for index, match in enumerate(matches)
             ]
@@ -478,10 +510,12 @@ def nutrition_display_groups(
                     if recipe and recipe != "-":
                         groups[category].append({"text": recipe, "evidence_ids": evidence_ids})
                 continue
-            groups[category].append({
-                "text": "\n".join(line.strip() for line in content.split("\n") if line.strip()),
-                "evidence_ids": evidence_ids,
-            })
+            groups[category].append(
+                {
+                    "text": "\n".join(line.strip() for line in content.split("\n") if line.strip()),
+                    "evidence_ids": evidence_ids,
+                }
+            )
     labels = (
         ("recipes", "Rețete culinare"),
         ("recommended", "Alimente recomandate"),
@@ -939,7 +973,7 @@ def format_recommendation(text: str) -> str:
     if not match:
         return escape(clean)
     label = escape(match.group("label").strip())
-    remainder = escape(clean[match.end("label"):])
+    remainder = escape(clean[match.end("label") :])
     return f"<b>{label}</b>{remainder}"
 
 
@@ -974,7 +1008,7 @@ def _section_heading(
     text = (
         f'<a name="{anchor}"/>'
         f'<font size="15" color="#FFFFFF"><b>{presentation["number"]}. '
-        f'{escape(presentation["label"])}</b></font>'
+        f"{escape(presentation['label'])}</b></font>"
     )
     return Paragraph(text, style)
 
@@ -1004,58 +1038,130 @@ def create_pdf(
 ) -> bytes:
     regular, bold = _register_fonts()
     styles = getSampleStyleSheet()
-    styles.add(ParagraphStyle(
-        name="NaturalCoverEyebrow", fontName=bold, fontSize=9, leading=12,
-        textColor=colors.HexColor("#0F5C5E"), tracking=1.2, spaceAfter=5,
-    ))
-    styles.add(ParagraphStyle(
-        name="NaturalCoverTitle", fontName=bold, fontSize=27, leading=32,
-        textColor=colors.HexColor("#203139"), spaceAfter=2,
-    ))
-    styles.add(ParagraphStyle(
-        name="NaturalCoverByline", fontName=bold, fontSize=10.5, leading=13,
-        textColor=colors.HexColor("#0F5C5E"), spaceBefore=8, spaceAfter=6,
-    ))
-    styles.add(ParagraphStyle(
-        name="NaturalCoverSubtitle", fontName=regular, fontSize=11, leading=16,
-        textColor=colors.HexColor("#52636D"), spaceAfter=5,
-    ))
-    styles.add(ParagraphStyle(
-        name="NaturalCoverInfo", fontName=regular, fontSize=10.5, leading=16,
-        textColor=colors.HexColor("#203139"), spaceAfter=0,
-    ))
-    styles.add(ParagraphStyle(
-        name="NaturalBody", fontName=regular, fontSize=10.5, leading=15.5,
-        textColor=colors.HexColor(TEXT_COLOR), spaceAfter=0,
-    ))
-    styles.add(ParagraphStyle(
-        name="NaturalEmpty", parent=styles["NaturalBody"], fontSize=10.5, leading=16,
-        textColor=colors.HexColor(MUTED_TEXT_COLOR), spaceAfter=0,
-    ))
-    styles.add(ParagraphStyle(
-        name="NaturalBibliographyGroup", fontName=bold, fontSize=11.5, leading=16,
-        textColor=colors.HexColor("#52636D"), spaceBefore=7, spaceAfter=3,
-        keepWithNext=True,
-    ))
-    styles.add(ParagraphStyle(
-        name="NaturalBibliography", fontName=regular, fontSize=9.2, leading=14,
-        textColor=colors.HexColor(TEXT_COLOR), leftIndent=5, spaceAfter=4,
-        wordWrap="CJK",
-    ))
-    styles.add(ParagraphStyle(
-        name="NaturalBibliographyHeading", fontName=bold, fontSize=15, leading=19,
-        textColor=colors.white, spaceBefore=0, spaceAfter=5,
-    ))
+    styles.add(
+        ParagraphStyle(
+            name="NaturalCoverEyebrow",
+            fontName=bold,
+            fontSize=9,
+            leading=12,
+            textColor=colors.HexColor("#0F5C5E"),
+            tracking=1.2,
+            spaceAfter=5,
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            name="NaturalCoverTitle",
+            fontName=bold,
+            fontSize=27,
+            leading=32,
+            textColor=colors.HexColor("#203139"),
+            spaceAfter=2,
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            name="NaturalCoverByline",
+            fontName=bold,
+            fontSize=10.5,
+            leading=13,
+            textColor=colors.HexColor("#0F5C5E"),
+            spaceBefore=8,
+            spaceAfter=6,
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            name="NaturalCoverSubtitle",
+            fontName=regular,
+            fontSize=11,
+            leading=16,
+            textColor=colors.HexColor("#52636D"),
+            spaceAfter=5,
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            name="NaturalCoverInfo",
+            fontName=regular,
+            fontSize=10.5,
+            leading=16,
+            textColor=colors.HexColor("#203139"),
+            spaceAfter=0,
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            name="NaturalBody",
+            fontName=regular,
+            fontSize=10.5,
+            leading=15.5,
+            textColor=colors.HexColor(TEXT_COLOR),
+            spaceAfter=0,
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            name="NaturalEmpty",
+            parent=styles["NaturalBody"],
+            fontSize=10.5,
+            leading=16,
+            textColor=colors.HexColor(MUTED_TEXT_COLOR),
+            spaceAfter=0,
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            name="NaturalBibliographyGroup",
+            fontName=bold,
+            fontSize=11.5,
+            leading=16,
+            textColor=colors.HexColor("#52636D"),
+            spaceBefore=7,
+            spaceAfter=3,
+            keepWithNext=True,
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            name="NaturalBibliography",
+            fontName=regular,
+            fontSize=9.2,
+            leading=14,
+            textColor=colors.HexColor(TEXT_COLOR),
+            leftIndent=5,
+            spaceAfter=4,
+            wordWrap="CJK",
+        )
+    )
+    styles.add(
+        ParagraphStyle(
+            name="NaturalBibliographyHeading",
+            fontName=bold,
+            fontSize=15,
+            leading=19,
+            textColor=colors.white,
+            spaceBefore=0,
+            spaceAfter=5,
+        )
+    )
     section_styles: dict[str, ParagraphStyle] = {}
     item_styles: dict[str, ParagraphStyle] = {}
     for key, presentation in SECTION_PRESENTATION.items():
         section_styles[key] = ParagraphStyle(
-            f"NaturalSection{key}", fontName=bold, fontSize=15, leading=19,
-            textColor=colors.white, spaceBefore=0, spaceAfter=5,
+            f"NaturalSection{key}",
+            fontName=bold,
+            fontSize=15,
+            leading=19,
+            textColor=colors.white,
+            spaceBefore=0,
+            spaceAfter=5,
         )
         item_styles[key] = ParagraphStyle(
-            f"NaturalItem{key}", parent=styles["NaturalBody"],
-            leftIndent=4, spaceAfter=4,
+            f"NaturalItem{key}",
+            parent=styles["NaturalBody"],
+            leftIndent=4,
+            spaceAfter=4,
         )
 
     partial = isinstance(sections, ValidatedReport) and sections.partial
@@ -1075,13 +1181,15 @@ def create_pdf(
     ]
     for flowable in cover_content:
         flowable.beside_image = True
-    story: list[Any] = [CoverPanel(
-        cover_content,
-        visible_height=56 * mm,
-        page_top_extension=20 * mm,
-        image_path=DOCTOR_IMAGE,
-        image_size=44 * mm,
-    )]
+    story: list[Any] = [
+        CoverPanel(
+            cover_content,
+            visible_height=56 * mm,
+            page_top_extension=20 * mm,
+            image_path=DOCTOR_IMAGE,
+            image_size=44 * mm,
+        )
+    ]
     story.append(Spacer(1, 6 * mm))
     if partial:
         story.append(Paragraph(PARTIAL_NOTICE, styles["NaturalBody"]))
@@ -1099,9 +1207,7 @@ def create_pdf(
 
     def citations_for(item: dict[str, Any]) -> list[str]:
         return [
-            evidence[token]["source"]
-            for token in item.get("evidence_ids", [])
-            if token in evidence
+            evidence[token]["source"] for token in item.get("evidence_ids", []) if token in evidence
         ]
 
     def source_chip(citations: list[str]) -> str:
@@ -1122,9 +1228,9 @@ def create_pdf(
     ) -> None:
         for source in citations:
             source_targets.setdefault(source, anchor)
-        section_content.append(Paragraph(
-            f'<a name="{anchor}"/>{text}{source_chip(citations)}', item_styles[key]
-        ))
+        section_content.append(
+            Paragraph(f'<a name="{anchor}"/>{text}{source_chip(citations)}', item_styles[key])
+        )
 
     for key in headings:
         presentation = SECTION_PRESENTATION[key]
@@ -1134,10 +1240,12 @@ def create_pdf(
         ]
         items = sections.get(key) or []
         if not items:
-            section_content.append(Paragraph(
-                "Nu au fost identificate informații suficient de relevante în sursele disponibile.",
-                styles["NaturalEmpty"],
-            ))
+            section_content.append(
+                Paragraph(
+                    "Nu au fost identificate informații suficient de relevante în sursele disponibile.",
+                    styles["NaturalEmpty"],
+                )
+            )
         elif key == "nutritie":
             nutrition_index = 0
             for nutrition_key, nutrition_label, nutrition_items in nutrition_display_groups(items):
@@ -1146,11 +1254,15 @@ def create_pdf(
                         nutrition_index += 1
                         item_text = escape(str(item["text"])).replace(chr(10), "<br/>")
                         # Singular title; numbered only when there are several recipes.
-                        recipe_label = "Rețetă culinară" if len(nutrition_items) == 1 else f"Rețetă culinară {recipe_number}"
+                        recipe_label = (
+                            "Rețetă culinară"
+                            if len(nutrition_items) == 1
+                            else f"Rețetă culinară {recipe_number}"
+                        )
                         add_recommendation(
                             section_content,
                             key,
-                            f'<b>• {recipe_label}</b><br/>{item_text}',
+                            f"<b>• {recipe_label}</b><br/>{item_text}",
                             citations_for(item),
                             f"recommendation-{key}-{nutrition_index}",
                         )
@@ -1178,19 +1290,21 @@ def create_pdf(
                     citations_for(item),
                     f"recommendation-{key}-{index}",
                 )
-        story.append(RoundedSection(
-            section_content,
-            "#FFFFFF",
-            presentation["color"],
-            bookmark=f"section-{key}",
-            outline=f'{presentation["number"]}. {presentation["label"]}',
-        ))
+        story.append(
+            RoundedSection(
+                section_content,
+                "#FFFFFF",
+                presentation["color"],
+                bookmark=f"section-{key}",
+                outline=f"{presentation['number']}. {presentation['label']}",
+            )
+        )
         story.append(Spacer(1, 4 * mm))
 
     bibliography_content: list[Flowable] = [
         Paragraph(
             '<a name="section-bibliografie"/><font size="15" color="#FFFFFF">'
-            '<b>6. Bibliografie</b></font>',
+            "<b>6. Bibliografie</b></font>",
             styles["NaturalBibliographyHeading"],
         ),
         Spacer(1, 2.5 * mm),
@@ -1205,33 +1319,46 @@ def create_pdf(
                 )
                 previous_group = group
             target = source_targets.get(source, "section-uz_intern")
-            bibliography_content.append(Paragraph(
-                f'<a name="bibliografie-{number}"/><b>{number} -</b> {escape(bibliography_label(source))} '
-                f'<link href="#{target}" color="#52636D"><font size="8.5">← înapoi</font></link>',
-                styles["NaturalBibliography"],
-            ))
+            bibliography_content.append(
+                Paragraph(
+                    f'<a name="bibliografie-{number}"/><b>{number} -</b> {escape(bibliography_label(source))} '
+                    f'<link href="#{target}" color="#52636D"><font size="8.5">← înapoi</font></link>',
+                    styles["NaturalBibliography"],
+                )
+            )
     else:
-        bibliography_content.append(Paragraph(
-            "Nu există referințe bibliografice utilizate.",
-            styles["NaturalEmpty"],
-        ))
-    story.append(RoundedSection(
-        bibliography_content,
-        "#FFFFFF",
-        "#52636D",
-        bookmark="section-bibliografie",
-        outline="6. Bibliografie",
-    ))
+        bibliography_content.append(
+            Paragraph(
+                "Nu există referințe bibliografice utilizate.",
+                styles["NaturalEmpty"],
+            )
+        )
+    story.append(
+        RoundedSection(
+            bibliography_content,
+            "#FFFFFF",
+            "#52636D",
+            bookmark="section-bibliografie",
+            outline="6. Bibliografie",
+        )
+    )
     story.append(Spacer(1, 4 * mm))
-    story.append(Paragraph(
-        "<br/>".join(escape(line) for line in generation_summary_lines(evidence, min_score)),
-        styles["NaturalEmpty"],
-    ))
+    story.append(
+        Paragraph(
+            "<br/>".join(escape(line) for line in generation_summary_lines(evidence, min_score)),
+            styles["NaturalEmpty"],
+        )
+    )
     buffer = BytesIO()
     doc = NatureReportDocTemplate(
-        buffer, pagesize=A4, rightMargin=18 * mm, leftMargin=18 * mm,
-        topMargin=20 * mm, bottomMargin=22 * mm,
-        title=title, author="Chatbot naturist",
+        buffer,
+        pagesize=A4,
+        rightMargin=18 * mm,
+        leftMargin=18 * mm,
+        topMargin=20 * mm,
+        bottomMargin=22 * mm,
+        title=title,
+        author="Chatbot naturist",
     )
     doc.footer_color = "#087F73"
     doc.build(story, onFirstPage=_first_page, onLaterPages=_later_page)

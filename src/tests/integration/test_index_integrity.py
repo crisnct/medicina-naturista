@@ -1,9 +1,9 @@
 """Failure injection and actual PostgreSQL advisory-lock semantics."""
+
 import io
 import threading
-import time
 from concurrent.futures import ThreadPoolExecutor
-from contextlib import redirect_stdout, nullcontext
+from contextlib import nullcontext, redirect_stdout
 from dataclasses import replace
 from types import SimpleNamespace
 from unittest.mock import patch
@@ -41,7 +41,15 @@ def corpus(tmp_path, postgres):
     (source / "A").mkdir()
     (source / "A" / "a.md").write_text("# Zorbita\nText sintetic.", encoding="utf-8")
     config = replace(Settings(), conditions_file=dictionary, model_cache_dir=tmp_path / "models")
-    with patch.object(builder, "settings", config), patch.object(index_state, "settings", config), patch.object(builder, "GPUUsageMonitor", return_value=nullcontext(SimpleNamespace(percent=lambda: "N/A"))):
+    with (
+        patch.object(builder, "settings", config),
+        patch.object(index_state, "settings", config),
+        patch.object(
+            builder,
+            "GPUUsageMonitor",
+            return_value=nullcontext(SimpleNamespace(percent=lambda: "N/A")),
+        ),
+    ):
         yield source, dictionary
 
 
@@ -49,7 +57,12 @@ def sync(source, model=builder.DEFAULT_MODEL):
     def embeddings(_model, chunks, _batch, profile, **_kwargs):
         vectors = np.ones((len(chunks), profile.dimension), dtype=np.float32)
         return vectors / np.linalg.norm(vectors, axis=1, keepdims=True)
-    with patch.object(builder, "create_embedding_model", return_value=object()), patch.object(builder, "embed_chunks", side_effect=embeddings), redirect_stdout(io.StringIO()):
+
+    with (
+        patch.object(builder, "create_embedding_model", return_value=object()),
+        patch.object(builder, "embed_chunks", side_effect=embeddings),
+        redirect_stdout(io.StringIO()),
+    ):
         builder.build(source, model)
 
 
@@ -57,7 +70,9 @@ def snapshot():
     with db.get_pool().connection() as connection:
         return (
             connection.execute("SELECT * FROM documents ORDER BY relative_path").fetchall(),
-            connection.execute("SELECT chunk_id, text, embedding::text, primary_medical_conditions FROM chunks ORDER BY chunk_id").fetchall(),
+            connection.execute(
+                "SELECT chunk_id, text, embedding::text, primary_medical_conditions FROM chunks ORDER BY chunk_id"
+            ).fetchall(),
             connection.execute("SELECT * FROM sync_metadata ORDER BY key").fetchall(),
             db._embedding_dimension(connection),
         )
@@ -71,25 +86,46 @@ def test_every_failure_preserves_previous_generation(corpus, stage):
     (source / "A" / "a.md").write_text("# Zorbita\nText schimbat.", encoding="utf-8")
     other = EmbeddingProfile("test/integrity", 32, "{text}", "{text}", 1400, 240)
     original_write = builder._write_document
+
     def failed_write(*args):
         original_write(*args)
         raise RuntimeError("injected document failure")
+
     original_execute = psycopg.Connection.execute
+
     def failed_execute(connection, query, *args, **kwargs):
         result = original_execute(connection, query, *args, **kwargs)
-        if ((stage == "dimension" and str(query).startswith("ALTER TABLE chunks ADD"))
-                or (stage == "metadata" and str(query).startswith("INSERT INTO sync_metadata"))):
+        if (stage == "dimension" and str(query).startswith("ALTER TABLE chunks ADD")) or (
+            stage == "metadata" and str(query).startswith("INSERT INTO sync_metadata")
+        ):
             raise RuntimeError("injected publication failure")
         return result
+
     with patch.dict(PROFILES, {other.name: other}):
         if stage in {"dimension", "metadata"}:
-            with patch.object(psycopg.Connection, "execute", failed_execute), pytest.raises(RuntimeError):
+            with (
+                patch.object(psycopg.Connection, "execute", failed_execute),
+                pytest.raises(RuntimeError),
+            ):
                 sync(source, other.name if stage == "dimension" else builder.DEFAULT_MODEL)
         elif stage == "document":
-            with patch.object(builder, "_write_document", side_effect=failed_write), pytest.raises(RuntimeError):
+            with (
+                patch.object(builder, "_write_document", side_effect=failed_write),
+                pytest.raises(RuntimeError),
+            ):
                 sync(source)
         else:
-            with patch.object(builder, "create_embedding_model", side_effect=RuntimeError("model failure") if stage == "model" else None), patch.object(builder, "embed_chunks", side_effect=RuntimeError("embedding failure")), pytest.raises(RuntimeError):
+            with (
+                patch.object(
+                    builder,
+                    "create_embedding_model",
+                    side_effect=RuntimeError("model failure") if stage == "model" else None,
+                ),
+                patch.object(
+                    builder, "embed_chunks", side_effect=RuntimeError("embedding failure")
+                ),
+                pytest.raises(RuntimeError),
+            ):
                 builder.build(source, builder.DEFAULT_MODEL)
     assert snapshot() == before
     with index_state.index_reader():
@@ -120,10 +156,16 @@ def test_dictionary_change_during_calculation_aborts_publication(corpus):
     sync(source)
     before = snapshot()
     (source / "A" / "a.md").write_text("# Zorbita\nModificat.", encoding="utf-8")
+
     def changed(*args, **kwargs):
         dictionary.write_text('{"name":"Alta","synonyms":[]}\n', encoding="utf-8")
         return np.ones((len(args[1]), args[3].dimension), dtype=np.float32)
-    with patch.object(builder, "create_embedding_model", return_value=object()), patch.object(builder, "embed_chunks", side_effect=changed), pytest.raises(RuntimeError, match="DICTIONARY_CHANGED"):
+
+    with (
+        patch.object(builder, "create_embedding_model", return_value=object()),
+        patch.object(builder, "embed_chunks", side_effect=changed),
+        pytest.raises(RuntimeError, match="DICTIONARY_CHANGED"),
+    ):
         builder.build(source, builder.DEFAULT_MODEL)
     assert snapshot() == before
 
@@ -132,10 +174,12 @@ def test_reader_finishes_before_writer_and_new_readers_refuse_maintenance(corpus
     sync(corpus[0])
     entered = threading.Event()
     release = threading.Event()
+
     def writer():
         with index_state.index_writer():
             entered.set()
             assert release.wait(5)
+
     with ThreadPoolExecutor(max_workers=1) as workers:
         with index_state.index_reader():
             future = workers.submit(writer)
@@ -155,9 +199,11 @@ def test_reader_finishes_before_writer_and_new_readers_refuse_maintenance(corpus
 def test_writers_serialize_and_connection_loss_releases_lock(corpus):
     sync(corpus[0])
     entered = threading.Event()
+
     def second():
         with index_state.index_writer():
             entered.set()
+
     with ThreadPoolExecutor(max_workers=1) as workers:
         with index_state.index_writer():
             future = workers.submit(second)
@@ -181,7 +227,11 @@ def test_empty_none_mixed_stale_and_cache_generation(corpus):
     signals = SearchSignals(False, True, False)
     assert rank("Text", frozenset(), signals=signals) == []
     assert rank("Text", None, signals=signals)
-    session = SimpleNamespace(profile=HealthProfile(health_problem="Text"), selected_categories={"A", "old"}, search_signals=signals)
+    session = SimpleNamespace(
+        profile=HealthProfile(health_problem="Text"),
+        selected_categories={"A", "old"},
+        search_signals=signals,
+    )
     evidence = retriever.collect(session)
     assert evidence.removed_category_ids == ["old"]
     tree, generation = retriever.categories_snapshot()
@@ -203,6 +253,7 @@ def test_empty_none_mixed_stale_and_cache_generation(corpus):
 
 def test_http_maintenance_keeps_snapshot_generation_and_download_available(corpus):
     from tests.unit.web import test_web as support
+
     source, _dictionary = corpus
     sync(source)
     test = support.WebTests()
@@ -212,7 +263,10 @@ def test_http_maintenance_keeps_snapshot_generation_and_download_available(corpu
         test.client.get("/api/session", headers=support._headers(sid, tab))
         messages = support._send(test.client, sid, tab, "Text", [])
         search = support._by_kind(messages, "generate")["searchId"]
-        with patch.object(test.deps, "retriever", Retriever(source)), patch.object(test.deps.ai, "is_configured", return_value=True, create=True):
+        with (
+            patch.object(test.deps, "retriever", Retriever(source)),
+            patch.object(test.deps.ai, "is_configured", return_value=True, create=True),
+        ):
             with index_state.index_writer():
                 for route in ("/api/categories", "/readyz"):
                     response = test.client.get(route, headers=support._headers(sid, tab))
@@ -221,13 +275,21 @@ def test_http_maintenance_keeps_snapshot_generation_and_download_available(corpu
                 unavailable = test.client.post("/api/search", headers=support._headers(sid, tab))
                 assert unavailable.status_code == 503
                 assert unavailable.headers["Retry-After"] == "60"
-                response = test.client.post(f"/api/searches/{search}/generate", headers=support._headers(sid, tab, True))
+                response = test.client.post(
+                    f"/api/searches/{search}/generate", headers=support._headers(sid, tab, True)
+                )
                 assert response.status_code == 200
                 download = support._by_kind(response.json()["messages"], "download")
                 response = test.client.get(download["url"], headers=support._headers(sid, tab))
                 assert response.status_code == 200 and response.content.startswith(b"%PDF")
-            messages = support._send(test.client, sid, tab, "Text", ["A"],
-                                     {"conditions": False, "lexical": True, "semantic": False})
+            messages = support._send(
+                test.client,
+                sid,
+                tab,
+                "Text",
+                ["A"],
+                {"conditions": False, "lexical": True, "semantic": False},
+            )
             fragments = support._by_kind(messages, "fragments")
             assert fragments["indexGeneration"]
             session = test.deps.store.get(sid, tab)
@@ -235,13 +297,22 @@ def test_http_maintenance_keeps_snapshot_generation_and_download_available(corpu
             assert type(stored.evidence) is dict
             assert stored.index_generation == fragments["indexGeneration"]
             from backend.core.models import CommitChange
+
             operation = test.deps.store.begin_operation(session, "message")
             try:
-                test.deps.store.commit_operation(operation, CommitChange(
-                    selected_categories={"old"}, search_signals=SearchSignals(True, False, False)))
+                test.deps.store.commit_operation(
+                    operation,
+                    CommitChange(
+                        selected_categories={"old"},
+                        search_signals=SearchSignals(True, False, False),
+                    ),
+                )
             finally:
                 test.deps.store.finish_operation(operation)
             stale = test.client.post("/api/search", headers=support._headers(sid, tab))
-            assert stale.status_code == 409 and stale.json()["detail"]["code"] == "CATEGORY_SELECTION_STALE"
+            assert (
+                stale.status_code == 409
+                and stale.json()["detail"]["code"] == "CATEGORY_SELECTION_STALE"
+            )
     finally:
         test.doCleanups()

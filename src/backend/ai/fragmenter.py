@@ -27,6 +27,7 @@ conditions. Steps, in this order:
 R1 and R2 fragments have no size limit. `path` is the chain of headings down to
 the fragment's own heading ("Carte > Plante > Musetel") and is metadata only: it
 is never used to find conditions and is not part of the fragment text."""
+
 from __future__ import annotations
 
 import re
@@ -109,7 +110,7 @@ def _parse_headings(lines: list[str]) -> list[_Heading]:
         while stack and found[stack[-1]][1] >= level:
             stack.pop()
         subtree_end = len(lines)
-        for later_index, later_level, _, _ in found[position + 1:]:
+        for later_index, later_level, _, _ in found[position + 1 :]:
             if later_level <= level:
                 subtree_end = later_index
                 break
@@ -121,7 +122,9 @@ def _parse_headings(lines: list[str]) -> list[_Heading]:
 
 # Numbered lines at the given indexes, without the page markers.
 def _numbered(lines: list[str], indexes: list[int]) -> _Span:
-    return [(index + 1, lines[index]) for index in indexes if not _is_page_marker_line(lines[index])]
+    return [
+        (index + 1, lines[index]) for index in indexes if not _is_page_marker_line(lines[index])
+    ]
 
 
 # The span without the blank lines at both ends, as (text, first line, last line);
@@ -130,7 +133,7 @@ def _trimmed(span: _Span) -> tuple[str, int, int] | None:
     filled = [position for position, (_, line) in enumerate(span) if line.strip()]
     if not filled:
         return None
-    kept = span[filled[0]:filled[-1] + 1]
+    kept = span[filled[0] : filled[-1] + 1]
     return "\n".join(line for _, line in kept).strip(), kept[0][0], kept[-1][0]
 
 
@@ -234,7 +237,10 @@ def fragment_document(text: str, dictionary: ConditionDictionary | None = None) 
         return " > ".join(headings[i].title for i in (*heading.ancestors, position))
 
     def make(
-        category: BusinessCategory, span: _Span, position: int, own_text: str | None = None,
+        category: BusinessCategory,
+        span: _Span,
+        position: int,
+        own_text: str | None = None,
     ) -> Fragment | None:
         trimmed = _trimmed(span)
         if trimmed is None:
@@ -244,7 +250,11 @@ def fragment_document(text: str, dictionary: ConditionDictionary | None = None) 
         if own_text is None:
             own_text = "\n".join(body.split("\n")[1:])
         return Fragment(
-            body, first, last, path_of(position), category,
+            body,
+            first,
+            last,
+            path_of(position),
+            category,
             primary_conditions=_names(dictionary.find(headings[position].title)),
             secondary_conditions=_names(dictionary.find(own_text)),
         )
@@ -252,14 +262,14 @@ def fragment_document(text: str, dictionary: ConditionDictionary | None = None) 
     fragments: list[Fragment] = []
 
     # Steps 1-2: R1, the deepest headings first, so a parent keeps only what is left.
-    by_depth = sorted(range(len(headings)), key=lambda i: (-len(headings[i].ancestors), headings[i].line))
+    by_depth = sorted(
+        range(len(headings)), key=lambda i: (-len(headings[i].ancestors), headings[i].line)
+    )
     for position in by_depth:
         heading = headings[position]
         if not dictionary.find(heading.title):
             continue
-        taken = [
-            index for index in range(heading.line, heading.subtree_end) if not consumed[index]
-        ]
+        taken = [index for index in range(heading.line, heading.subtree_end) if not consumed[index]]
         for index in taken:
             consumed[index] = True
         if not any(is_text(index) for index in taken):
@@ -280,7 +290,10 @@ def fragment_document(text: str, dictionary: ConditionDictionary | None = None) 
         for index in (heading.line, *body_indexes):
             consumed[index] = True
         fragment = make(
-            BusinessCategory.R2, _numbered(lines, [heading.line, *body_indexes]), position, own_text,
+            BusinessCategory.R2,
+            _numbered(lines, [heading.line, *body_indexes]),
+            position,
+            own_text,
         )
         if fragment:
             fragments.append(fragment)
@@ -295,9 +308,15 @@ def fragment_document(text: str, dictionary: ConditionDictionary | None = None) 
         if any(is_text(i) for i in run):
             for body, first, last in _d1_pieces(_numbered(lines, run)):
                 owner = bisect_right(heading_starts, first - 1) - 1
-                fragments.append(Fragment(
-                    body, first, last, path_of(owner) if owner >= 0 else "", BusinessCategory.D1,
-                ))
+                fragments.append(
+                    Fragment(
+                        body,
+                        first,
+                        last,
+                        path_of(owner) if owner >= 0 else "",
+                        BusinessCategory.D1,
+                    )
+                )
         run = []
 
     fragments.sort(key=lambda fragment: (fragment.line_start, fragment.line_end))

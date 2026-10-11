@@ -7,8 +7,8 @@ from pathlib import Path
 
 import psycopg
 
-from backend.config import Settings
 from backend.ai.index_state import INDEX_LOCK
+from backend.config import Settings
 
 MIGRATIONS = Path(__file__).resolve().parents[1] / "backend" / "migrations"
 
@@ -27,9 +27,7 @@ def migrate(database_url: str) -> list[str]:
             ).fetchone():
                 continue
             conn.execute(path.read_text(encoding="utf-8-sig"))
-            conn.execute(
-                "INSERT INTO schema_migrations (version) VALUES (%s)", (path.name,)
-            )
+            conn.execute("INSERT INTO schema_migrations (version) VALUES (%s)", (path.name,))
             applied.append(path.name)
     return applied
 

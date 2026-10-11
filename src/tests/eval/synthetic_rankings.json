@@ -1,0 +1,2557 @@
+{
+  "metadata": {
+    "model_name": "Qwen/Qwen3-Embedding-0.6B",
+    "model_dimension": 1024,
+    "passage_profile": "[\"{text}\",1400,240]",
+    "text_repr_version": "10",
+    "dictionary_fingerprint": "6471be649045dbde44065248c90556d72dc84f3f26afda08716b907a30adf769",
+    "index_generation": "synthetic-oracle-v1",
+    "signals": "ABC",
+    "evaluation_mode": "replay",
+    "synthetic_oracle": true
+  },
+  "corpus": [
+    {
+      "path": "gripa/informatie.md",
+      "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+    },
+    {
+      "path": "gripa/atentionari.md",
+      "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+    },
+    {
+      "path": "guta/informatie.md",
+      "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+    },
+    {
+      "path": "guta/atentionari.md",
+      "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+    },
+    {
+      "path": "gastrita/informatie.md",
+      "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+    },
+    {
+      "path": "gastrita/atentionari.md",
+      "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+    },
+    {
+      "path": "insomnie/informatie.md",
+      "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+    },
+    {
+      "path": "insomnie/atentionari.md",
+      "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+    },
+    {
+      "path": "migrena/informatie.md",
+      "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+    },
+    {
+      "path": "migrena/atentionari.md",
+      "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+    },
+    {
+      "path": "hipertensiune/informatie.md",
+      "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+    },
+    {
+      "path": "hipertensiune/atentionari.md",
+      "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+    },
+    {
+      "path": "constipatie/informatie.md",
+      "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+    },
+    {
+      "path": "constipatie/atentionari.md",
+      "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+    },
+    {
+      "path": "rinita/informatie.md",
+      "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+    },
+    {
+      "path": "rinita/atentionari.md",
+      "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+    },
+    {
+      "path": "anemie/informatie.md",
+      "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+    },
+    {
+      "path": "anemie/atentionari.md",
+      "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+    },
+    {
+      "path": "astm/informatie.md",
+      "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+    },
+    {
+      "path": "astm/atentionari.md",
+      "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+    }
+  ],
+  "rankings": {
+    "gripa-condition": [
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "gripa-synonym": [
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "gripa-free_text": [
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "guta-condition": [
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "guta-synonym": [
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "guta-free_text": [
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "gastrita-condition": [
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "gastrita-synonym": [
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "gastrita-free_text": [
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "insomnie-condition": [
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "insomnie-synonym": [
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "insomnie-free_text": [
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "migrena-condition": [
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "migrena-synonym": [
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "migrena-free_text": [
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "hipertensiune-condition": [
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "hipertensiune-synonym": [
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "hipertensiune-warning": [
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "constipatie-condition": [
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "constipatie-synonym": [
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "constipatie-warning": [
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "rinita-condition": [
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "rinita-synonym": [
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "rinita-warning": [
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "anemie-condition": [
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "anemie-synonym": [
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "anemie-warning": [
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      }
+    ],
+    "astm-condition": [
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      }
+    ],
+    "astm-synonym": [
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      }
+    ],
+    "astm-warning": [
+      {
+        "path": "astm/atentionari.md",
+        "text_hash": "ab439404b6af75000deaafcc2d98da94ccf2470b24481d2b14c1278eeafbb1fc"
+      },
+      {
+        "path": "astm/informatie.md",
+        "text_hash": "e8d79baa64e96701b2ef256494ec3cca8b45628c3aab30659a35007ce747ab3e"
+      },
+      {
+        "path": "gripa/informatie.md",
+        "text_hash": "83dc738c1d639974e125845c90daf7396d792a935a7f13d1d8610552b6d057f2"
+      },
+      {
+        "path": "gripa/atentionari.md",
+        "text_hash": "78e1aa40dc8d9f2431950a63018089a01260fda2eca537497c1df8c81d6d3c2a"
+      },
+      {
+        "path": "guta/informatie.md",
+        "text_hash": "9e5ca1afeb30257aa98abe3f5e95106e453b8ad3d8420c6dbd44fd24de784276"
+      },
+      {
+        "path": "guta/atentionari.md",
+        "text_hash": "ccbbbf5740246a24949ec2c7907b4c3c5a9bd2eb364b468be80fd804feaba3b8"
+      },
+      {
+        "path": "gastrita/informatie.md",
+        "text_hash": "235a9c27f4321ada4fdd9b7499878358df91bc5ff6346a408353a615bdd4572f"
+      },
+      {
+        "path": "gastrita/atentionari.md",
+        "text_hash": "ef06525ce3a7431ff47103f64f2bdc99be4df1e90d67bdd13e2c56996fbdf9a0"
+      },
+      {
+        "path": "insomnie/informatie.md",
+        "text_hash": "2a5be1ce078b0b7f67c28bce7a26f8ffb5b4468aacdc2edea660b516bed4bd43"
+      },
+      {
+        "path": "insomnie/atentionari.md",
+        "text_hash": "e0176df4afb6970e259ff2894e5f6e0d7796da21fe9d7c721ab48ff290c35aa2"
+      },
+      {
+        "path": "migrena/informatie.md",
+        "text_hash": "047557d99e4dd7d22517fa4d5733016d3195dad9a83d95e7f1d64ec61dfc839d"
+      },
+      {
+        "path": "migrena/atentionari.md",
+        "text_hash": "cb18bb0515c6735a55b3e2300a2764ac902e7627e19c36857ec6e2a96fccf731"
+      },
+      {
+        "path": "hipertensiune/informatie.md",
+        "text_hash": "63fd2ea60d40b43c04adaf4066009926995d07e41dc6cd7b2e680986f6231387"
+      },
+      {
+        "path": "hipertensiune/atentionari.md",
+        "text_hash": "4e487f3377807c876e47ee153665ae68696861efeb7e3cb249ad161dd8a05709"
+      },
+      {
+        "path": "constipatie/informatie.md",
+        "text_hash": "c629213e623eec764fdf063d140cb2e4f4a1a1db230cb6525a9b3994551517fa"
+      },
+      {
+        "path": "constipatie/atentionari.md",
+        "text_hash": "1b0c5d2fcab63fbbfdbc64bbf72428e238d9ac0d6de9a915ff163d16967f49df"
+      },
+      {
+        "path": "rinita/informatie.md",
+        "text_hash": "c03c9b79ca2208c11989a51226a92f299849c729ddf09544140213caf306d8bd"
+      },
+      {
+        "path": "rinita/atentionari.md",
+        "text_hash": "079dd1047e8e61c7c609d2d1362ab3f62500e5998fcdbdaa2d9d9df108d822b8"
+      },
+      {
+        "path": "anemie/informatie.md",
+        "text_hash": "947e14411cdfa9906a71d78e091b61c2fd93fffbe2261c1157a03b25c9446a74"
+      },
+      {
+        "path": "anemie/atentionari.md",
+        "text_hash": "72daac788fbd1723946258210ab7fd9e288fd0b43f8a034a865a03a1055798f5"
+      }
+    ]
+  }
+}

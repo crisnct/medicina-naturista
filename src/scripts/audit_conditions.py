@@ -1,13 +1,18 @@
 """Read-only audit of medicina-naturista-documente/data/medical_conditions.jsonl: structure, duplicates, anomalies."""
+
 from __future__ import annotations
 
 import collections
 import json
 import re
-import sys
 from pathlib import Path
 
-PATH = Path(__file__).resolve().parents[2] / "medicina-naturista-documente" / "data" / "medical_conditions.jsonl"
+PATH = (
+    Path(__file__).resolve().parents[2]
+    / "medicina-naturista-documente"
+    / "data"
+    / "medical_conditions.jsonl"
+)
 
 
 def plain(value: str) -> str:
@@ -21,7 +26,7 @@ def normalize(value: str) -> str:
 
 lines = PATH.read_text(encoding="utf-8").splitlines()
 print(f"total lines: {len(lines)}")
-print(f"blank lines: {sum(1 for l in lines if not l.strip())}")
+print(f"blank lines: {sum(1 for line_item in lines if not line_item.strip())}")
 
 widths = collections.Counter()
 rows: list[tuple[int, list[str]]] = []
@@ -41,6 +46,7 @@ for number, line in enumerate(lines, 1):
 print(f"invalid lines: {invalid}")
 print(f"data rows: {len(rows)}")
 print(f"term counts (raw, before dedup): {dict(sorted(widths.items()))}")
+
 
 # how many fields survive the parser's exact-duplicate removal
 def surviving(parts: list[str]) -> list[str]:

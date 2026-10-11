@@ -3,58 +3,52 @@
 from __future__ import annotations
 
 import asyncio
-import copy
 import hashlib
 import hmac
 import logging
 import re
 import secrets
-from dataclasses import replace
 from contextlib import asynccontextmanager, suppress
 from http.cookies import CookieError, SimpleCookie
 from urllib.parse import quote, urlparse
 
 from fastapi import APIRouter, FastAPI, HTTPException, Request
 from fastapi.exceptions import RequestValidationError
-from fastapi.responses import JSONResponse, RedirectResponse, Response
+from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse, Response
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, model_validator
 
-from backend.ai.client import AIUnavailable, create_ai_client
-from backend.ai.condition_ai import identify_conditions, resolved_for
+from backend.ai.client import create_ai_client
+from backend.ai.condition_ai import identify_conditions
 from backend.ai.condition_ai import warm_up as warm_up_condition_ai
-from backend.ai.conditions import ResolvedQuery, resolve_query
-from backend.ai.categories import category_selection
+from backend.ai.index_state import IndexUnavailable, index_reader
+from backend.ai.report_validation import ValidationWarning
 from backend.ai.retrieval import Retriever
-from backend.ai.index_state import index_reader, IndexUnavailable
-from backend.ai.report_validation import ValidatedReport, ValidationWarning, validate_report
-from backend.ai.search import ALL_SIGNALS, SearchSignals
+from backend.ai.search import SearchSignals
 from backend.ai.search import warm_up as warm_up_search
 from backend.config import Settings, configure_settings
-from backend.core.errors import ApplicationError, OperationCancelled
+from backend.core.conversation import (
+    WELCOME,
+    ConversationService,
+)
+from backend.core.errors import ApplicationError
 from backend.core.models import (
     CommitChange,
     OperationResult,
-    PendingSearch,
     SessionData,
-    StoredReport,
 )
 from backend.core.owner_auth import OwnerAuth, PostgresOwnerSessionRepository
 from backend.core.rate_limits import RateLimiter
 from backend.core.sessions import SessionStore
-from backend.integrations.gmail import EMAIL_SKIPPED, send_report
+from backend.integrations.gmail import send_report
+from backend.reporting.chat import (
+    text as _text,
+)
 from backend.reporting.pdf import create_pdf
 from backend.web.access_logs import OwnerAccessLogFilter
 from backend.web.body_limit import ApiBodyLimitMiddleware
 from backend.web.dependencies import Dependencies
-from backend.web.handlers import (
-    _download_message,
-    _fragments_message,
-    _generate_message,
-    _recommendation_text,
-    _report_filename,
-    _text,
-)
+from backend.web.owner_page import owner_page
 
 logger = logging.getLogger("naturist.web")
 COOKIE = "naturist_sid"
@@ -63,123 +57,8 @@ TAB_ID_RE = re.compile(r"^[A-Za-z0-9_-]{8,64}$")
 OWNER_COOKIE = "naturist_owner"
 CSRF_COOKIE = "naturist_owner_csrf"
 OWNER_COOKIE_MAX_AGE = 31536000
-OWNER_ONLY_MESSAGE = (
-    "Generarea rețetei este disponibilă doar pentru autorul acestui chatbot."
-)
-NO_FRAGMENT_ABOVE_MIN_SCORE = (
-    "Niciun fragment nu atinge scorul minim selectat. Alegeți un prag mai mic."
-)
-WELCOME = "Bună ziua! 👋"
-NO_CATEGORY_SELECTED_MESSAGE = "Nicio sursă selectată. Bifați cel puțin o categorie în panoul „Căutare avansată” înainte de căutare."
-CONDITION_AI_NOTICE = "🤖 Nu am găsit afecțiunea în dicționarul meu. Încerc să o identific cu ajutorul AI. Vă rog să așteptați."
-CONDITION_NOT_IDENTIFIED_MESSAGE = "⚠️ Nu am putut identifica afecțiunea din mesaj."
-CONDITION_NOT_IDENTIFIED_CONTINUES = (
-    f"{CONDITION_NOT_IDENTIFIED_MESSAGE} Caut după textul mesajului."
-)
-CONDITION_NOT_IDENTIFIED_STOPS = f"{CONDITION_NOT_IDENTIFIED_MESSAGE} Scrieți denumirea afecțiunii (ex. gripă, hipertensiune)."
-EMAIL_OFFER = "Dacă doriți să trimiteți documentul pe mail la cineva, spuneți-mi la ce adresă să îl trimit."
-EMAIL_PATTERN = re.compile(
-    r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}"
-)
+OWNER_ONLY_MESSAGE = "Generarea rețetei este disponibilă doar pentru autorul acestui chatbot."
 router = APIRouter()
-
-
-# Documents the given category ids actually cover, for the "Caut rapid în
-# cele N documente" notice — the whole corpus (retriever.document_count) when
-# the index has no category tree (nothing to restrict by), otherwise the sum
-# of each selected category's own_documents (never total_documents, which
-# would double-count a folder together with its own subfolders if both ended
-# up selected). An id outside the known set (stale, or no tree at all) is
-# simply not counted, same as everywhere else category ids are consumed.
-def _document_count_for_categories(category_ids: set[str], retriever) -> int:
-    if isinstance(retriever, Retriever):
-        tree, _generation = retriever.categories_snapshot()
-        if tree is None:
-            return 0
-    else:
-        tree = getattr(retriever, "category_tree", None)
-    if tree is None:
-        return getattr(retriever, "document_count", 0)
-    known = tree.known_ids()
-    return sum(
-        tree.nodes[category_id].own_documents
-        for category_id in category_ids
-        if category_id in known
-    )
-
-
-# Whether the message goes to the condition AI: the conditions signal is on, a
-# backend is configured and the dictionary names no condition in any segment.
-def _needs_condition_ai(
-    health_problem: str, signals: SearchSignals, settings: Settings
-) -> bool:
-    return bool(
-        signals.conditions
-        and settings.condition_ai_backends
-        and not resolve_query(health_problem).conditions
-    )
-
-
-# Build the "Caut rapid în cele N documente" notice for the categories
-# currently selected on the session.
-def _report_started_message(session, retriever) -> dict:
-    count = _document_count_for_categories(session.selected_categories, retriever)
-    return _text(
-        "assistant",
-        f"🔍 Caut rapid în cele {count} documente interne disponibile. Vă rog să așteptați.",
-    )
-
-
-# Chat notice naming the condition(s) the health problem was recognised as in
-# the condition dictionary (the same resolution rank() runs, so every
-# comma-separated expression counts). With the conditions signal on, every
-# recognised condition is named; the part "O caut și după denumirile: …" lists
-# its synonyms and is there only with the lexical signal on, and only for a
-# condition that is a whole expression of the message (an exact term or a
-# near-identical spelling of one) — the only case in which the lexical search
-# uses the synonyms (see ai/search.py's lexical_queries()). With the lexical
-# signal alone, only those conditions are named; with neither, nothing is.
-# None when nothing is to be named. `health_problem` is the typed text, or the
-# message already resolved (dictionary plus AI conditions, see resolved_for());
-# `by_ai` marks the conditions as identified by the AI rather than the dictionary.
-def _condition_identified_message(
-    health_problem: str | ResolvedQuery,
-    signals: SearchSignals = ALL_SIGNALS,
-    by_ai: bool = False,
-) -> dict | None:
-    resolved = (
-        health_problem
-        if isinstance(health_problem, ResolvedQuery)
-        else resolve_query(health_problem)
-    )
-    whole = {
-        condition.name
-        for segment in resolved.segments
-        if segment.whole_condition
-        for condition in segment.conditions
-    }
-    if signals.conditions:
-        conditions = resolved.conditions
-    elif signals.lexical:
-        conditions = tuple(
-            condition for condition in resolved.conditions if condition.name in whole
-        )
-    else:
-        return None
-    if not conditions:
-        return None
-    lines = []
-    for condition in conditions:
-        label = (
-            "Am identificat afecțiunea (cu ajutorul AI)"
-            if by_ai
-            else "Am identificat afecțiunea"
-        )
-        line = f"✅ {label}: **{condition.name}**."
-        if signals.lexical and condition.name in whole and len(condition.terms) > 1:
-            line += f" O caut și după denumirile: {', '.join(condition.terms[1:])}."
-        lines.append(line)
-    return _text("assistant", "\n".join(lines))
 
 
 # Serialize one category node (and, recursively, its children) into the plain
@@ -192,9 +71,7 @@ def _category_node_payload(tree, node_id: str) -> dict:
         "ownDocuments": node.own_documents,
         "totalDocuments": node.total_documents,
         "isReal": node.own_documents > 0,
-        "children": [
-            _category_node_payload(tree, child_id) for child_id in node.children
-        ],
+        "children": [_category_node_payload(tree, child_id) for child_id in node.children],
     }
 
 
@@ -259,9 +136,7 @@ def _current(request: Request, create: bool = False) -> SessionData:
     deps = _deps(request)
     session = deps.store.get(cookie, tab, create=create, client_ip=_client_ip(request))
     if session is None:
-        raise ApplicationError(
-            "SESSION_EXPIRED", "Sesiunea a expirat. Reîncărcați pagina."
-        )
+        raise ApplicationError("SESSION_EXPIRED", "Sesiunea a expirat. Reîncărcați pagina.")
     return session
 
 
@@ -374,333 +249,63 @@ def _categories_payload(tree, generation):
     }
 
 
+def _conversation(deps: Dependencies) -> ConversationService:
+    return ConversationService(
+        deps.settings,
+        deps.store,
+        deps.retriever,
+        deps.ai,
+        deps.identify or identify_conditions,
+        deps.email or send_report,
+        deps.pdf or create_pdf,
+    )
+
 
 @router.post("/api/messages")
 def post_message(payload: MessageRequest, request: Request):
-    deps = _deps(request)
-    session = _current(request)
-    message = payload.message.strip()
-    if not message:
-        return {
-            **OperationResult().as_dict(),
-            "startSearch": False,
-            "identifyCondition": False,
-        }
-    if len(message) > deps.settings.max_chat_chars:
-        raise HTTPException(
-            422,
-            f"Mesajul depășește limita de {deps.settings.max_chat_chars} caractere.",
-        )
-    # The report is selected by the registry, never read across an external call.
-    kind = "email" if EMAIL_PATTERN.fullmatch(message) else "message"
-    operation = deps.store.begin_operation(session, kind)
-    try:
-        snapshot = operation.snapshot
-        if kind == "email" and snapshot.report:
-            deps.store.checkpoint(operation)
-            report = snapshot.report
-            try:
-                status = (deps.email or send_report)(
-                    report.health_problem, report.data, report.filename, message
-                )
-                reply = (
-                    "Trimiterea pe mail nu este configurată momentan."
-                    if status == EMAIL_SKIPPED
-                    else f"✅ Am trimis documentul la {message}."
-                )
-            except Exception as exc:
-                logger.error(
-                    "report_stage_failed stage=email type=%s", type(exc).__name__
-                )
-                reply = "Nu am putut trimite documentul pe mail. Încercați din nou."
-            result = deps.store.commit_operation(
-                operation,
-                CommitChange(
-                    messages=[_text("user", message), _text("assistant", reply)]
-                ),
-            )
-            return {
-                **result.as_dict(),
-                "startSearch": False,
-                "identifyCondition": False,
-            }
-        if kind == "email":
-            # An address without a report remains ordinary chat text.
-            deps.store.finish_operation(operation)
-            operation = deps.store.begin_operation(session, "message")
-            snapshot = operation.snapshot
-        profile = snapshot.profile
-        profile.replace_health_problem(message)
-        signals = payload.signals.to_signals()
-        categories = set(payload.categories)
-        messages = [_text("user", message)]
-        start_search, identify = True, False
-        if (
-            getattr(deps.retriever, "category_tree", None) is not None
-            and not categories
-        ):
-            messages.append(_text("assistant", NO_CATEGORY_SELECTED_MESSAGE))
-            start_search = False
-        elif _needs_condition_ai(profile.health_problem, signals, deps.settings):
-            messages.append(_text("assistant", CONDITION_AI_NOTICE))
-            identify = True
-        else:
-            identified = _condition_identified_message(profile.health_problem, signals)
-            if identified:
-                messages.append(identified)
-            count = _document_count_for_categories(categories, deps.retriever)
-            messages.append(
-                _text(
-                    "assistant",
-                    f"🔍 Caut rapid în cele {count} documente interne disponibile. Vă rog să așteptați.",
-                )
-            )
-        result = deps.store.commit_operation(
-            operation, CommitChange(messages, profile, True, categories, signals)
-        )
-        if not result.cancelled:
-            logger.info(
-                "user_message_accepted chars=%s selected_categories=%s signals=%s",
-                len(message),
-                len(categories),
-                signals.code,
-            )
-        return {
-            **result.as_dict(),
-            "startSearch": start_search and not result.cancelled,
-            "identifyCondition": identify and not result.cancelled,
-            "contextRevision": snapshot.context_revision + 1,
-        }
-    except OperationCancelled:
-        return _cancelled(startSearch=False, identifyCondition=False)
-    finally:
-        deps.store.finish_operation(operation)
+    return _conversation(_deps(request)).message(
+        _current(request), payload.message, set(payload.categories), payload.signals.to_signals()
+    )
 
 
 @router.post("/api/condition")
 def post_condition(request: Request):
-    deps = _deps(request)
-    try:
-        operation = deps.store.begin_operation(
-            _current(request), "condition", expected_revision=_revision(request)
-        )
-    except OperationCancelled:
-        return _cancelled(startSearch=False)
-    try:
-        snapshot = operation.snapshot
-        if not _needs_condition_ai(
-            snapshot.profile.health_problem, snapshot.search_signals, deps.settings
-        ):
-            deps.store.checkpoint(operation)
-            return {**OperationResult().as_dict(), "startSearch": True}
-        deps.store.checkpoint(operation)
-        result = (deps.identify or identify_conditions)(
-            resolve_query(snapshot.profile.health_problem)
-        )
-        deps.store.checkpoint(operation)
-        profile = snapshot.profile
-        profile.ai_conditions = copy.deepcopy(result.answers)
-        messages, start_search = [], True
-        if result.identified:
-            identified = _condition_identified_message(
-                resolved_for(profile), snapshot.search_signals, by_ai=True
-            )
-            if identified:
-                messages.append(identified)
-        elif not (snapshot.search_signals.lexical or snapshot.search_signals.semantic):
-            messages.append(_text("assistant", CONDITION_NOT_IDENTIFIED_STOPS))
-            start_search = False
-        else:
-            messages.append(_text("assistant", CONDITION_NOT_IDENTIFIED_CONTINUES))
-        if start_search:
-            messages.append(_report_started_message(snapshot, deps.retriever))
-        committed = deps.store.commit_operation(
-            operation, CommitChange(messages=messages, profile=profile)
-        )
-        return {
-            **committed.as_dict(),
-            "startSearch": start_search and not committed.cancelled,
-        }
-    except OperationCancelled:
-        return _cancelled(startSearch=False)
-    finally:
-        deps.store.finish_operation(operation)
+    return _conversation(_deps(request)).condition(_current(request), _revision(request))
 
 
 @router.post("/api/search")
 def post_search(request: Request):
-    if isinstance(_deps(request).retriever, Retriever):
-        with index_reader():
-            return _post_search(request)
-    return _post_search(request)
-
-
-def _post_search(request: Request):
     deps = _deps(request)
-    try:
-        operation = deps.store.begin_operation(
-            _current(request), "search", expected_revision=_revision(request)
-        )
-    except OperationCancelled:
-        return _cancelled()
-    try:
-        snapshot = operation.snapshot
-        if isinstance(deps.retriever, Retriever):
-            tree, _generation = deps.retriever.categories_snapshot()
-            category_selection(snapshot.selected_categories, tree)
-        signals = snapshot.search_signals
-        if (
-            signals.conditions
-            and not (signals.lexical or signals.semantic)
-            and not resolved_for(snapshot.profile).conditions
-        ):
-            return deps.store.commit_operation(
-                operation,
-                CommitChange(
-                    messages=[_text("assistant", CONDITION_NOT_IDENTIFIED_STOPS)]
-                ),
-            ).as_dict()
-        deps.store.checkpoint(operation)
-        evidence = deps.retriever.collect(snapshot, deps.ai.context_budget())
-        deps.store.checkpoint(operation)
-        if not evidence:
-            committed = deps.store.commit_operation(
-                operation,
-                CommitChange(
-                    messages=[
-                        _text(
-                            "assistant",
-                            "Nu am găsit fragmente relevante în sursele locale. Încercați o căutare semantică sau introduceți altă denumire a afecțiunii.",
-                        )
-                    ]
-                ),
-            ).as_dict()
-            return {**committed, "indexGeneration": getattr(evidence, "index_generation", None),
-                    "removedCategoryIds": getattr(evidence, "removed_category_ids", [])}
-        search_id = secrets.token_hex(6)
-        committed = deps.store.commit_operation(
-            operation,
-            CommitChange(
-                messages=[
-                    _fragments_message(search_id, evidence, signals),
-                    _generate_message(search_id),
-                ],
-                search=(
-                    search_id,
-                    PendingSearch(
-                        profile=snapshot.profile.as_dict(),
-                        evidence=dict(evidence),
-                        signals=signals,
-                        index_generation=getattr(evidence, "index_generation", None),
-                    ),
-                ),
-            ),
-        ).as_dict()
-        return {**committed, "indexGeneration": getattr(evidence, "index_generation", None),
-                "removedCategoryIds": getattr(evidence, "removed_category_ids", [])}
-    except OperationCancelled:
-        return _cancelled()
-    finally:
-        deps.store.finish_operation(operation)
-
-
-def _evidence_above(evidence: dict[str, dict], min_score: float) -> dict[str, dict]:
-    return {
-        eid: item
-        for eid, item in evidence.items()
-        if min_score <= 0 or (item.get("relevance_percent") or 0) >= min_score
-    }
+    if isinstance(deps.retriever, Retriever):
+        with index_reader():
+            return _conversation(deps).search(_current(request), _revision(request))
+    return _conversation(deps).search(_current(request), _revision(request))
 
 
 def _generate_report(
     deps: Dependencies, session: SessionData, search_id: str, min_score: float = 0
 ) -> OperationResult:
-    operation = deps.store.begin_operation(session, "generate", search_id=search_id)
-    try:
-        snapshot = operation.snapshot
-        search = snapshot.search
-        assert search is not None
-        profile, evidence = search.profile, _evidence_above(search.evidence, min_score)
-        if not evidence:
-            return deps.store.commit_operation(
-                operation,
-                CommitChange(
-                    messages=[_text("assistant", NO_FRAGMENT_ABOVE_MIN_SCORE)]
-                ),
-            )
-        deps.store.checkpoint(operation)
-        sections = deps.ai.generate(profile, evidence)
-        if not isinstance(sections, ValidatedReport):
-            sections = validate_report(sections, evidence)
-        deps.store.checkpoint(operation)
-        report = (deps.pdf or create_pdf)(profile, sections, evidence, min_score)
-        deps.store.checkpoint(operation)
-        report_id = secrets.token_urlsafe(18)
-        filename = _report_filename(snapshot, profile)
-        messages = [
-            _text("assistant", _recommendation_text(sections, evidence)),
-            _download_message(
-                snapshot, report_id, profile, prefix=deps.settings.public_root_path
-            ),
-            _text("assistant", EMAIL_OFFER),
-        ]
-        committed = deps.store.commit_operation(
-            operation,
-            CommitChange(
-                messages=messages,
-                report=(
-                    report_id,
-                    StoredReport(report, filename, profile.get("health_problem", "")),
-                ),
-                replace_search_id=search_id,
-            ),
-        )
-        if not committed.cancelled:
-            committed = replace(committed, partial=sections.partial,
-                validation_warnings=[warning.model_dump(exclude_none=True) for warning in sections.validationWarnings])
-        return committed
-    except OperationCancelled:
-        return OperationResult(cancelled=True)
-    except ApplicationError:
-        raise
-    except Exception as exc:
-        logger.error("report_stage_failed stage=generate type=%s", type(exc).__name__)
-        reply = (
-            "Furnizorul AI nu este disponibil. Încercați din nou."
-            if isinstance(exc, AIUnavailable)
-            else "Raportul nu a putut fi generat. Încercați din nou."
-        )
-        return deps.store.commit_operation(
-            operation, CommitChange(messages=[_text("assistant", reply)])
-        )
-    finally:
-        deps.store.finish_operation(operation)
+    return _conversation(deps).generate(session, search_id, min_score)
 
 
-@router.post("/api/searches/{search_id}/generate", response_model=GenerateResponse, response_model_exclude_none=False)
+@router.post(
+    "/api/searches/{search_id}/generate",
+    response_model=GenerateResponse,
+    response_model_exclude_none=False,
+)
 def generate(search_id: str, request: Request, payload: GenerateRequest | None = None):
     deps = _deps(request)
     session = _current(request)
     if not getattr(request.state, "owner_authorized", False):
         return {**OperationResult().as_dict(), "ownerNotice": OWNER_ONLY_MESSAGE}
-    result = _generate_report(
-        deps, session, search_id, payload.minScore if payload else 0
-    )
+    result = _generate_report(deps, session, search_id, payload.minScore if payload else 0)
     return {**result.as_dict(), "ownerNotice": None}
 
 
 @router.post("/api/session/end")
 def end_session(request: Request):
     cookie, tab = _identity(request)
-    _deps(request).store.delete(cookie, tab)
-    return {
-        "messages": [
-            _text(
-                "assistant",
-                "Sesiunea a fost închisă. Reîncărcați pagina pentru o conversație nouă.",
-            )
-        ]
-    }
+    return _conversation(_deps(request)).close(cookie, tab)
 
 
 @router.post("/api/session/unload", status_code=204)
@@ -776,9 +381,7 @@ def _csrf_token(deps: Dependencies) -> str:
     return (
         payload
         + "."
-        + hmac.new(
-            deps.csrf_secret, payload.encode("ascii"), hashlib.sha256
-        ).hexdigest()
+        + hmac.new(deps.csrf_secret, payload.encode("ascii"), hashlib.sha256).hexdigest()
     )
 
 
@@ -805,9 +408,7 @@ def _require_csrf(request: Request):
 
 @router.get("/api/owner")
 def owner_status(request: Request):
-    if request.headers.get("sec-fetch-site") == "cross-site" or not _origin_allowed(
-        request
-    ):
+    if request.headers.get("sec-fetch-site") == "cross-site" or not _origin_allowed(request):
         raise ApplicationError("ORIGIN_FORBIDDEN", "Origine nepermisă.", 403)
     deps = _deps(request)
     token = _csrf_token(deps)
@@ -860,12 +461,20 @@ def _authorize_owner(request: Request, key: str) -> str:
 
 @router.get("/owner")
 def owner_link(request: Request, key: str = ""):
-    if request.headers.get("sec-fetch-site") == "cross-site" or not _origin_allowed(
-        request
-    ):
+    if request.headers.get("sec-fetch-site") == "cross-site" or not _origin_allowed(request):
         raise ApplicationError("ORIGIN_FORBIDDEN", "Origine nepermisă.", 403)
     deps = _deps(request)
-    if not key or len(key) > 4096:
+    if not key:
+        nonce = secrets.token_urlsafe(24)
+        return HTMLResponse(
+            owner_page(deps.settings.public_root_path, nonce),
+            headers={
+                "Cache-Control": "no-store",
+                "Referrer-Policy": "no-referrer",
+                "Content-Security-Policy": f"default-src 'none'; script-src 'nonce-{nonce}'; connect-src 'self'; form-action 'self'; base-uri 'none'; frame-ancestors 'none'",
+            },
+        )
+    if len(key) > 4096:
         raise HTTPException(404)
     try:
         token = _authorize_owner(request, key)
@@ -913,9 +522,7 @@ def owner_logout(request: Request):
     return response
 
 
-def create_app(
-    config: Settings | None = None, dependencies: Dependencies | None = None
-) -> FastAPI:
+def create_app(config: Settings | None = None, dependencies: Dependencies | None = None) -> FastAPI:
     """Side-effect-free factory; runtime resources belong to lifespan."""
 
     @asynccontextmanager
@@ -933,17 +540,13 @@ def create_app(
                     format="%(asctime)s %(levelname)s %(name)s %(message)s",
                 )
                 access_logger = logging.getLogger("uvicorn.access")
-                if not any(
-                    isinstance(f, OwnerAccessLogFilter) for f in access_logger.filters
-                ):
+                if not any(isinstance(f, OwnerAccessLogFilter) for f in access_logger.filters):
                     access_logger.addFilter(OwnerAccessLogFilter())
                 session_store = SessionStore(
                     cfg.temp_dir, cfg.session_idle_seconds, cfg.session_max_seconds, cfg
                 )
                 ai = create_ai_client(cfg)
-                auth = OwnerAuth(
-                    cfg.owner_key, PostgresOwnerSessionRepository(cfg.database_url)
-                )
+                auth = OwnerAuth(cfg.owner_key, PostgresOwnerSessionRepository(cfg.database_url))
                 retriever = await asyncio.to_thread(Retriever, cfg.documents_dir)
                 runtime = Dependencies(
                     cfg,
@@ -959,9 +562,7 @@ def create_app(
                 application.root_path = cfg.public_root_path
                 application.mount(
                     "/",
-                    StaticFiles(
-                        directory=str(cfg.frontend_dist_dir), html=True, check_dir=False
-                    ),
+                    StaticFiles(directory=str(cfg.frontend_dist_dir), html=True, check_dir=False),
                     name="frontend",
                 )
                 for warm in (warm_up_search, warm_up_condition_ai):
@@ -1050,9 +651,7 @@ def create_app(
                 )
             if request.method in {"POST", "PUT", "PATCH", "DELETE"}:
                 if not _origin_allowed(request):
-                    raise ApplicationError(
-                        "ORIGIN_FORBIDDEN", "Origine nepermisă.", 403
-                    )
+                    raise ApplicationError("ORIGIN_FORBIDDEN", "Origine nepermisă.", 403)
                 if path.startswith("/api/") and path != "/api/owner/login":
                     deps.request_limiter.check(
                         (_client_ip(request), deps.settings.max_requests_per_minute)

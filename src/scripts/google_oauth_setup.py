@@ -4,6 +4,7 @@ Run this script on a machine with a browser after placing the OAuth desktop
 client values in the project .env. It saves or replaces the refresh token in
 .env and never prints the token.
 """
+
 from __future__ import annotations
 
 import json
@@ -47,7 +48,9 @@ class OAuthCallbackHandler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(
             "<html><body><h1>Autorizarea Google s-a încheiat.</h1>"
-            "<p>Poți închide această fereastră și reveni în terminal.</p></body></html>".encode("utf-8")
+            "<p>Poți închide această fereastră și reveni în terminal.</p></body></html>".encode(
+                "utf-8"
+            )
         )
 
     def log_message(self, format, *args):  # noqa: A002 - required signature
@@ -123,16 +126,20 @@ def main() -> int:
         return 2
 
     state = secrets.token_urlsafe(32)
-    auth_url = AUTH_URI + "?" + urlencode(
-        {
-            "client_id": CLIENT_ID,
-            "redirect_uri": REDIRECT_URI,
-            "response_type": "code",
-            "scope": SCOPE,
-            "access_type": "offline",
-            "prompt": "consent",
-            "state": state,
-        }
+    auth_url = (
+        AUTH_URI
+        + "?"
+        + urlencode(
+            {
+                "client_id": CLIENT_ID,
+                "redirect_uri": REDIRECT_URI,
+                "response_type": "code",
+                "scope": SCOPE,
+                "access_type": "offline",
+                "prompt": "consent",
+                "state": state,
+            }
+        )
     )
     server = HTTPServer(("127.0.0.1", 8765), OAuthCallbackHandler)
     print("Se deschide pagina Google pentru autorizare...")
@@ -162,7 +169,10 @@ def main() -> int:
     try:
         _save_refresh_token(refresh_token)
     except OSError as exc:
-        print(f"Tokenul a fost obținut, dar .env nu a putut fi actualizat: {type(exc).__name__}", file=sys.stderr)
+        print(
+            f"Tokenul a fost obținut, dar .env nu a putut fi actualizat: {type(exc).__name__}",
+            file=sys.stderr,
+        )
         return 1
 
     print("\nAutorizare reușită. GOOGLE_REFRESH_TOKEN a fost salvat în .env.")

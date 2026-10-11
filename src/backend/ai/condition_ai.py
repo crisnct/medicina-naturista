@@ -8,6 +8,7 @@ segment (with_ai_conditions()), so search, chat and PDF treat it exactly like a
 condition from the dictionary. Backends (CONDITION_AI_BACKENDS) are tried in
 order: a local Ollama model and/or the Hugging Face router. Any failure means
 "not identified"; it never breaks the search."""
+
 from __future__ import annotations
 
 import logging
@@ -25,6 +26,7 @@ from backend.ai.client import AIUnavailable, ResponsesClient
 from backend.ai.conditions import Condition, QuerySegment, ResolvedQuery, _normalize, resolve_query
 from backend.ai.providers import ProviderConfig
 from backend.config import settings
+from backend.core.contracts import IdentifiedCondition
 
 logger = logging.getLogger("naturist.condition_ai")
 
@@ -47,7 +49,7 @@ class AIConditionResult:
     # One entry per identified segment: {"index" (1-based position in
     # ResolvedQuery.segments), "name", "terms" (the name first, then its synonyms)}.
     # Plain dicts, so they live in the session profile and travel to the report.
-    answers: tuple[dict[str, Any], ...] = ()
+    answers: tuple[IdentifiedCondition, ...] = ()
     backend: str = ""
     reason: str = NONE
 
@@ -170,10 +172,14 @@ def _ask_client(client: ResponsesClient, texts: tuple[str, ...]) -> tuple[dict[s
     if not client.is_configured():
         raise _BackendFailure(NO_TOKEN)
     try:
-        raw = client.complete_json(_system_prompt(), _user_message(texts), client.provider.max_output_tokens)
+        raw = client.complete_json(
+            _system_prompt(), _user_message(texts), client.provider.max_output_tokens
+        )
         return _validate(raw, len(texts))
     except AIUnavailable as exc:
-        raise _BackendFailure(TIMEOUT if isinstance(exc.__cause__, httpx.TimeoutException) else ERROR) from exc
+        raise _BackendFailure(
+            TIMEOUT if isinstance(exc.__cause__, httpx.TimeoutException) else ERROR
+        ) from exc
     except ValueError as exc:
         raise _BackendFailure(ERROR) from exc
 
@@ -182,7 +188,9 @@ def _ask_client(client: ResponsesClient, texts: tuple[str, ...]) -> tuple[dict[s
 # backend that answers "nothing found" ends the search (no fallback for that);
 # only a failure moves on to the next, and the last failure is raised when
 # none answers. Free-text answers belong only to the requesting session/worker.
-def _identify(backends: tuple[str, ...], texts: tuple[str, ...]) -> tuple[tuple[dict[str, Any], ...], str]:
+def _identify(
+    backends: tuple[str, ...], texts: tuple[str, ...]
+) -> tuple[tuple[dict[str, Any], ...], str]:
     failure: _BackendFailure | None = None
     for backend in backends:
         try:
@@ -236,7 +244,10 @@ def identify_conditions(resolved: ResolvedQuery) -> AIConditionResult:
         len(texts),
         len(result.answers),
         ",".join(str(len(answer["terms"]) - 1) for answer in result.answers) or "-",
-        ",".join("da" if _dictionary_condition(answer["terms"]) else "nu" for answer in result.answers) or "-",
+        ",".join(
+            "da" if _dictionary_condition(answer["terms"]) else "nu" for answer in result.answers
+        )
+        or "-",
         round((time.perf_counter() - started) * 1000),
     )
     return result
@@ -271,7 +282,9 @@ def with_ai_conditions(resolved: ResolvedQuery, answers: Any) -> ResolvedQuery:
         for term in merged:
             unique.setdefault(_normalize(term), term)
         condition = Condition(name, tuple(unique.values()))
-        segments.append(QuerySegment(segment.text, (condition,), remainder="", whole_condition=True))
+        segments.append(
+            QuerySegment(segment.text, (condition,), remainder="", whole_condition=True)
+        )
     return ResolvedQuery(tuple(segments))
 
 
@@ -282,7 +295,10 @@ def resolved_for(profile: Any) -> ResolvedQuery:
     if isinstance(profile, Mapping):
         problem, answers = profile.get("health_problem"), profile.get("ai_conditions")
     else:
-        problem, answers = getattr(profile, "health_problem", ""), getattr(profile, "ai_conditions", ())
+        problem, answers = (
+            getattr(profile, "health_problem", ""),
+            getattr(profile, "ai_conditions", ()),
+        )
     return with_ai_conditions(resolve_query(" ".join(str(problem or "").split())), answers)
 
 
@@ -293,7 +309,9 @@ def warm_up() -> None:
         return
     # Cold CUDA/model initialization can exceed the interactive timeout. Keep
     # that allowance on a separate startup client, without changing patient requests.
-    provider = replace(_provider("local"), read_timeout_seconds=max(60, settings.condition_ai_timeout_seconds))
+    provider = replace(
+        _provider("local"), read_timeout_seconds=max(60, settings.condition_ai_timeout_seconds)
+    )
     client = ResponsesClient(provider, settings)
     try:
         _ask_client(client, ("gripa",))

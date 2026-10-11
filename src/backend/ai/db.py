@@ -5,6 +5,7 @@ manifests). `chunks.embedding` (pgvector) is the semantic index; `chunks.text_se
 (tsvector, GIN-indexed) is the lexical index. See scripts/build_hybrid_index.py
 for how rows are written and ai/search.py for how they are queried.
 """
+
 from __future__ import annotations
 
 import psycopg
@@ -125,6 +126,7 @@ def _embedding_dimension(connection: Connection) -> int | None:
 def ensure_schema(dimension: int | None = None) -> None:
     width = int(dimension or DEFAULT_DIMENSION)
     from backend.ai.index_state import INDEX_LOCK
+
     with psycopg.connect(settings.database_url) as connection:
         connection.execute("SELECT pg_advisory_xact_lock(%s)", (INDEX_LOCK,))
         connection.execute(SCHEMA_SQL.replace("__DIMENSION__", str(width)))

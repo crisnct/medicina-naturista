@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Any
 
 from backend.ai.search import ALL_SIGNALS, SearchSignals
+from backend.core.contracts import Evidence, IdentifiedCondition, ProfilePayload, TranscriptEntry
 
 HEALTH_PROBLEM_QUESTION = """
 Bine ați venit în cabinetul meu virtual.  
@@ -23,12 +24,12 @@ Cu ce problemă de sănătate vă confruntați?
 class HealthProfile:
     health_problem: str = ""
     health_context: list[str] = field(default_factory=list)
-    transcript: list[dict[str, str]] = field(default_factory=list)
+    transcript: list[TranscriptEntry] = field(default_factory=list)
     asked_field: str | None = None
     # Conditions the AI identified for health_problem when the dictionary knew
     # none (ai/condition_ai.py): {"index", "name", "terms"} per message segment.
     # Cleared with every new message, so it never outlives the text it came from.
-    ai_conditions: tuple[dict[str, Any], ...] = ()
+    ai_conditions: tuple[IdentifiedCondition, ...] = ()
 
     # Store a normalized conversation entry when its role and content are allowed.
     def add_transcript(self, role: str, content: str) -> None:
@@ -39,9 +40,7 @@ class HealthProfile:
     # Add a unique normalized user detail to the profile context.
     def add_health_context(self, message: str) -> None:
         clean = " ".join((message or "").split())[:4000]
-        if clean and clean.casefold() not in {
-            value.casefold() for value in self.health_context
-        }:
+        if clean and clean.casefold() not in {value.casefold() for value in self.health_context}:
             self.health_context.append(clean)
 
     # Set the primary health problem and add it to the searchable context.
@@ -79,12 +78,20 @@ class HealthProfile:
         return None
 
     # Serialize the profile into the structure consumed by retrieval and AI generation.
-    def as_dict(self) -> dict[str, Any]:
+    def as_dict(self) -> ProfilePayload:
         return {
             "health_problem": self.health_problem,
             "health_context": list(self.health_context),
-            "transcript": [dict(entry) for entry in self.transcript],
-            "ai_conditions": [dict(entry) for entry in self.ai_conditions],
+            "transcript": [
+                TranscriptEntry(role=entry["role"], content=entry["content"])
+                for entry in self.transcript
+            ],
+            "ai_conditions": [
+                IdentifiedCondition(
+                    index=entry["index"], name=entry["name"], terms=list(entry["terms"])
+                )
+                for entry in self.ai_conditions
+            ],
         }
 
 
@@ -96,8 +103,8 @@ MAX_KEPT_REPORTS = 12
 class PendingSearch:
     """Fragments found for one health problem, waiting for "Generează rețeta"."""
 
-    profile: dict[str, Any]
-    evidence: dict[str, dict[str, Any]]
+    profile: ProfilePayload
+    evidence: Evidence
     # The signals the search was scored with (the patient may change them for
     # the next search, but these fragments keep the scores of this one).
     signals: SearchSignals = ALL_SIGNALS

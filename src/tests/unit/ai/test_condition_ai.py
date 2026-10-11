@@ -2,6 +2,7 @@
 (backend.ai.condition_ai): the answer's validation, the backends and their
 fallback, ephemeral answers, and how an answer becomes an ordinary condition. No real
 request is made: the HTTP client's post() is replaced."""
+
 from __future__ import annotations
 
 import json
@@ -38,14 +39,23 @@ class FakeResponse:
 # A Responses API reply whose text is `value` (a JSON string, or any object dumped as JSON).
 def reply(value) -> FakeResponse:
     text = value if isinstance(value, str) else json.dumps(value)
-    return FakeResponse({"status": "completed", "output": [{"type": "message", "content": [{"type": "output_text", "text": text}]}]})
+    return FakeResponse(
+        {
+            "status": "completed",
+            "output": [{"type": "message", "content": [{"type": "output_text", "text": text}]}],
+        }
+    )
 
 
 def segments_reply(*entries: dict) -> FakeResponse:
     return reply({"segments": list(entries)})
 
 
-HYPER = {"index": 1, "name": "hipertiroidism", "synonyms": ["tiroida hiperactiva", "hyperthyroidism"]}
+HYPER = {
+    "index": 1,
+    "name": "hipertiroidism",
+    "synonyms": ["tiroida hiperactiva", "hyperthyroidism"],
+}
 
 
 class ConditionAITestCase(unittest.TestCase):
@@ -80,8 +90,14 @@ class ConditionAITestCase(unittest.TestCase):
 
 class WarmUpTests(unittest.TestCase):
     def test_cold_start_has_separate_timeout_and_closes_client(self):
-        config = replace(base_settings, condition_ai_backends=("local",), condition_ai_timeout_seconds=10)
-        with patch.object(condition_ai, "settings", config), patch.object(condition_ai, "ResponsesClient") as factory, patch.object(condition_ai, "_ask_client") as ask:
+        config = replace(
+            base_settings, condition_ai_backends=("local",), condition_ai_timeout_seconds=10
+        )
+        with (
+            patch.object(condition_ai, "settings", config),
+            patch.object(condition_ai, "ResponsesClient") as factory,
+            patch.object(condition_ai, "_ask_client") as ask,
+        ):
             condition_ai.warm_up()
         self.assertEqual(factory.call_args.args[0].read_timeout_seconds, 60)
         self.assertEqual(config.condition_ai_timeout_seconds, 10)
@@ -89,30 +105,56 @@ class WarmUpTests(unittest.TestCase):
         factory.return_value.close.assert_called_once()
 
     def test_failure_remains_best_effort_and_closes_client(self):
-        config = replace(base_settings, condition_ai_backends=("local",), condition_ai_timeout_seconds=90)
-        with patch.object(condition_ai, "settings", config), patch.object(condition_ai, "ResponsesClient") as factory, patch.object(condition_ai, "_ask_client", side_effect=condition_ai._BackendFailure(condition_ai.TIMEOUT)):
+        config = replace(
+            base_settings, condition_ai_backends=("local",), condition_ai_timeout_seconds=90
+        )
+        with (
+            patch.object(condition_ai, "settings", config),
+            patch.object(condition_ai, "ResponsesClient") as factory,
+            patch.object(
+                condition_ai,
+                "_ask_client",
+                side_effect=condition_ai._BackendFailure(condition_ai.TIMEOUT),
+            ),
+        ):
             condition_ai.warm_up()
         self.assertEqual(factory.call_args.args[0].read_timeout_seconds, 90)
         factory.return_value.close.assert_called_once()
 
     def test_disabled_local_backend_does_not_create_client(self):
-        with patch.object(condition_ai, "settings", replace(base_settings, condition_ai_backends=())), patch.object(condition_ai, "ResponsesClient") as factory:
+        with (
+            patch.object(
+                condition_ai, "settings", replace(base_settings, condition_ai_backends=())
+            ),
+            patch.object(condition_ai, "ResponsesClient") as factory,
+        ):
             condition_ai.warm_up()
         factory.assert_not_called()
 
 
 class IdentificationTests(ConditionAITestCase):
     def test_a_valid_answer_becomes_a_condition_with_its_name_and_synonyms(self):
-        self.fake_post("local", segments_reply({**HYPER, "name": "Hipertiroidism-ul meu", "synonyms": ["tiroida hiperactiva"]}))
+        self.fake_post(
+            "local",
+            segments_reply(
+                {**HYPER, "name": "Hipertiroidism-ul meu", "synonyms": ["tiroida hiperactiva"]}
+            ),
+        )
 
         result = self.identify()
 
         self.assertEqual(result.reason, condition_ai.IDENTIFIED)
         self.assertEqual(result.backend, "local")
-        self.assertEqual(result.conditions, (Condition("Hipertiroidism-ul meu", ("Hipertiroidism-ul meu", "tiroida hiperactiva")),))
+        self.assertEqual(
+            result.conditions,
+            (Condition("Hipertiroidism-ul meu", ("Hipertiroidism-ul meu", "tiroida hiperactiva")),),
+        )
 
     def test_the_answer_makes_the_segment_a_whole_condition_segment(self):
-        self.fake_post("local", segments_reply({"index": 1, "name": "Cefalee", "synonyms": ["migrena", "headache"]}))
+        self.fake_post(
+            "local",
+            segments_reply({"index": 1, "name": "Cefalee", "synonyms": ["migrena", "headache"]}),
+        )
         resolved = resolve_query("durere de cap, gripa")
 
         result = condition_ai.identify_conditions(resolved)
@@ -122,12 +164,24 @@ class IdentificationTests(ConditionAITestCase):
         self.assertTrue(first.whole_condition)
         self.assertEqual(first.text, "durere de cap")
         self.assertEqual(first.remainder, "")
-        self.assertEqual(first.conditions, (Condition("Cefalee", ("Cefalee", "migrena", "headache")),))
-        self.assertEqual(second, resolved.segments[1])  # the segment the AI did not name is untouched
+        self.assertEqual(
+            first.conditions, (Condition("Cefalee", ("Cefalee", "migrena", "headache")),)
+        )
+        self.assertEqual(
+            second, resolved.segments[1]
+        )  # the segment the AI did not name is untouched
 
-    def test_a_name_that_is_a_dictionary_term_takes_the_canonical_name_and_keeps_both_term_lists(self):
+    def test_a_name_that_is_a_dictionary_term_takes_the_canonical_name_and_keeps_both_term_lists(
+        self,
+    ):
         resolved = resolve_query("tiroida care merge prea repede")
-        answers = ({"index": 1, "name": "Hipertiroidie", "terms": ["Hipertiroidie", "tiroida hiperactiva"]},)
+        answers = (
+            {
+                "index": 1,
+                "name": "Hipertiroidie",
+                "terms": ["Hipertiroidie", "tiroida hiperactiva"],
+            },
+        )
 
         condition = condition_ai.with_ai_conditions(resolved, answers).conditions[0]
 
@@ -139,22 +193,39 @@ class IdentificationTests(ConditionAITestCase):
 
     def test_a_synonym_that_is_a_dictionary_term_also_maps_to_the_canonical_name(self):
         resolved = resolve_query("tiroida care merge prea repede")
-        answers = ({"index": 1, "name": "Tiroida hiperactiva", "terms": ["Tiroida hiperactiva", "HYPERTHYROIDISM"]},)
+        answers = (
+            {
+                "index": 1,
+                "name": "Tiroida hiperactiva",
+                "terms": ["Tiroida hiperactiva", "HYPERTHYROIDISM"],
+            },
+        )
 
-        self.assertEqual(condition_ai.with_ai_conditions(resolved, answers).condition_names, ("Hipertiroidism",))
+        self.assertEqual(
+            condition_ai.with_ai_conditions(resolved, answers).condition_names, ("Hipertiroidism",)
+        )
 
     def test_a_name_missing_from_the_dictionary_is_kept_as_it_is(self):
-        self.fake_post("local", segments_reply({"index": 1, "name": "Cefalee", "synonyms": ["headache"]}))
+        self.fake_post(
+            "local", segments_reply({"index": 1, "name": "Cefalee", "synonyms": ["headache"]})
+        )
         result = self.identify("durere de cap")
 
-        self.assertEqual(condition_ai.with_ai_conditions(resolve_query("durere de cap"), result.answers).condition_names, ("Cefalee",))
+        self.assertEqual(
+            condition_ai.with_ai_conditions(
+                resolve_query("durere de cap"), result.answers
+            ).condition_names,
+            ("Cefalee",),
+        )
 
     def test_nothing_identified_is_the_none_reason_without_a_fallback(self):
         local = self.fake_post("local", segments_reply())
 
         result = self.identify("ce plante sunt bune?")
 
-        self.assertEqual((result.reason, result.answers, result.conditions), (condition_ai.NONE, (), ()))
+        self.assertEqual(
+            (result.reason, result.answers, result.conditions), (condition_ai.NONE, (), ())
+        )
         self.assertEqual(local.call_count, 1)
 
     def test_an_already_identified_segment_is_not_replaced(self):
@@ -166,7 +237,10 @@ class IdentificationTests(ConditionAITestCase):
     def test_answers_for_missing_segments_are_ignored(self):
         resolved = resolve_query("durere de cap")
 
-        self.assertEqual(condition_ai.with_ai_conditions(resolved, ({"index": 5, "name": "X", "terms": ["X"]},)), resolved)
+        self.assertEqual(
+            condition_ai.with_ai_conditions(resolved, ({"index": 5, "name": "X", "terms": ["X"]},)),
+            resolved,
+        )
         self.assertEqual(condition_ai.with_ai_conditions(resolved, ()), resolved)
         self.assertEqual(condition_ai.with_ai_conditions(resolved, None), resolved)
 
@@ -178,9 +252,13 @@ class IdentificationTests(ConditionAITestCase):
         payload = post.call_args.kwargs["json"]
         self.assertEqual(payload["model"], base_settings.condition_ai_local_model)
         self.assertEqual(payload["max_output_tokens"], base_settings.condition_ai_max_output_tokens)
-        self.assertEqual(payload["input"][1], {"role": "user", "content": "1. durere de cap\n2. ameteli"})
+        self.assertEqual(
+            payload["input"][1], {"role": "user", "content": "1. durere de cap\n2. ameteli"}
+        )
         self.assertIn("DOAR", payload["input"][0]["content"])
-        self.assertEqual(payload["temperature"], 0.0)  # the small local model is asked without sampling noise
+        self.assertEqual(
+            payload["temperature"], 0.0
+        )  # the small local model is asked without sampling noise
 
 
 class FailureTests(ConditionAITestCase):
@@ -208,7 +286,9 @@ class FailureTests(ConditionAITestCase):
 
     def test_an_http_error_status_is_an_error(self):
         response = httpx.Response(500, request=httpx.Request("POST", "http://x"), text="boom")
-        self.fake_post("local", httpx.HTTPStatusError("500", request=response.request, response=response))
+        self.fake_post(
+            "local", httpx.HTTPStatusError("500", request=response.request, response=response)
+        )
 
         self.assertEqual(self.identify().reason, condition_ai.ERROR)
 
@@ -251,8 +331,12 @@ class NoTokenTests(ConditionAITestCase):
         result = self.identify()
 
         self.assertEqual((result.reason, result.backend), (condition_ai.IDENTIFIED, "huggingface"))
-        self.assertEqual(post.call_args.kwargs["headers"]["Authorization"], "Bearer synthetic-token")
-        self.assertEqual(post.call_args.kwargs["json"]["model"], base_settings.condition_ai_hf_model)
+        self.assertEqual(
+            post.call_args.kwargs["headers"]["Authorization"], "Bearer synthetic-token"
+        )
+        self.assertEqual(
+            post.call_args.kwargs["json"]["model"], base_settings.condition_ai_hf_model
+        )
         self.assertNotIn("temperature", post.call_args.kwargs["json"])
         self.assertTrue(post.call_args.args[0].startswith(base_settings.hf_api_base))
 
@@ -332,17 +416,29 @@ class ValidationTests(unittest.TestCase):
         return condition_ai._validate({"segments": entries}, count)
 
     def test_the_answer_is_checked_in_form_only(self):
-        answers = self.validate([{"index": 2, "name": "  Boala   inexistenta ", "synonyms": ["x y"]}])
+        answers = self.validate(
+            [{"index": 2, "name": "  Boala   inexistenta ", "synonyms": ["x y"]}]
+        )
 
-        self.assertEqual(answers, ({"index": 2, "name": "Boala inexistenta", "terms": ["Boala inexistenta", "x y"]},))
+        self.assertEqual(
+            answers,
+            ({"index": 2, "name": "Boala inexistenta", "terms": ["Boala inexistenta", "x y"]},),
+        )
 
     def test_the_name_starts_with_a_capital_letter(self):
         self.assertEqual(self.validate([{"index": 1, "name": "gripa"}])[0]["name"], "Gripa")
 
     def test_entries_with_a_bad_index_or_name_are_dropped(self):
         entries = [
-            {"index": 0, "name": "A"}, {"index": 3, "name": "B"}, {"index": "1", "name": "C"}, {"index": True, "name": "D"},
-            {"index": 1, "name": ""}, {"index": 1, "name": 5}, {"index": 1, "name": "x" * 101}, "text", {"index": 1, "name": "?!"},
+            {"index": 0, "name": "A"},
+            {"index": 3, "name": "B"},
+            {"index": "1", "name": "C"},
+            {"index": True, "name": "D"},
+            {"index": 1, "name": ""},
+            {"index": 1, "name": 5},
+            {"index": 1, "name": "x" * 101},
+            "text",
+            {"index": 1, "name": "?!"},
         ]
 
         self.assertEqual(self.validate(entries), ())
@@ -353,7 +449,16 @@ class ValidationTests(unittest.TestCase):
         self.assertEqual([answer["name"] for answer in answers], ["Prima"])
 
     def test_synonyms_are_cleaned_deduplicated_and_cut_to_eight(self):
-        synonyms = ["Gripa", "gripă", "a", "A", "", 5, "x" * 101, *[f"sinonim {number}" for number in range(12)]]
+        synonyms = [
+            "Gripa",
+            "gripă",
+            "a",
+            "A",
+            "",
+            5,
+            "x" * 101,
+            *[f"sinonim {number}" for number in range(12)],
+        ]
 
         terms = self.validate([{"index": 1, "name": "Gripa", "synonyms": synonyms}])[0]["terms"]
 
@@ -361,7 +466,9 @@ class ValidationTests(unittest.TestCase):
         self.assertEqual(len(terms) - 1, 8)
 
     def test_synonyms_that_are_not_a_list_are_ignored(self):
-        self.assertEqual(self.validate([{"index": 1, "name": "Gripa", "synonyms": "flu"}])[0]["terms"], ["Gripa"])
+        self.assertEqual(
+            self.validate([{"index": 1, "name": "Gripa", "synonyms": "flu"}])[0]["terms"], ["Gripa"]
+        )
         self.assertEqual(self.validate([{"index": 1, "name": "Gripa"}])[0]["terms"], ["Gripa"])
 
     def test_a_reply_without_a_segment_list_is_rejected(self):
@@ -385,7 +492,9 @@ class ResolvedForTests(ConditionAITestCase):
         profile.ai_conditions = self.ANSWERS
 
         self.assertEqual(condition_ai.resolved_for(profile).condition_names, ("Cefalee",))
-        self.assertEqual(condition_ai.resolved_for(profile.as_dict()), condition_ai.resolved_for(profile))
+        self.assertEqual(
+            condition_ai.resolved_for(profile.as_dict()), condition_ai.resolved_for(profile)
+        )
 
     def test_a_new_message_drops_the_conditions_of_the_old_one(self):
         profile = HealthProfile()
@@ -403,14 +512,28 @@ class ResolvedForTests(ConditionAITestCase):
 
 class EffectiveSignalsTests(unittest.TestCase):
     def test_the_conditions_signal_is_dropped_when_the_message_names_no_condition(self):
-        resolved = ConditionDictionary(parse_conditions(conditions_jsonl(DICTIONARY_TEXT))).resolve("durere de cap")
+        resolved = ConditionDictionary(parse_conditions(conditions_jsonl(DICTIONARY_TEXT))).resolve(
+            "durere de cap"
+        )
 
-        for code, expected in (("ABC", "BC"), ("AB", "B"), ("AC", "C"), ("A", "A"), ("BC", "BC"), ("B", "B"), ("C", "C")):
+        for code, expected in (
+            ("ABC", "BC"),
+            ("AB", "B"),
+            ("AC", "C"),
+            ("A", "A"),
+            ("BC", "BC"),
+            ("B", "B"),
+            ("C", "C"),
+        ):
             with self.subTest(code=code):
-                self.assertEqual(effective_signals(SearchSignals.from_code(code), resolved).code, expected)
+                self.assertEqual(
+                    effective_signals(SearchSignals.from_code(code), resolved).code, expected
+                )
 
     def test_the_signals_stay_when_the_message_names_a_condition(self):
-        resolved = ConditionDictionary(parse_conditions(conditions_jsonl(DICTIONARY_TEXT))).resolve("gripa")
+        resolved = ConditionDictionary(parse_conditions(conditions_jsonl(DICTIONARY_TEXT))).resolve(
+            "gripa"
+        )
 
         self.assertIs(effective_signals(ALL_SIGNALS, resolved), ALL_SIGNALS)
 
@@ -440,7 +563,13 @@ class ReportTitleTests(unittest.TestCase):
     def test_the_title_names_the_condition_the_ai_identified(self):
         profile = {
             "health_problem": "durere de cap",
-            "ai_conditions": [{"index": 1, "name": "Hipertensiune arterială", "terms": ["Hipertensiune arterială"]}],
+            "ai_conditions": [
+                {
+                    "index": 1,
+                    "name": "Hipertensiune arterială",
+                    "terms": ["Hipertensiune arterială"],
+                }
+            ],
         }
 
         self.assertEqual(report_title(profile), "Remedii naturiste pentru hipertensiune arterială")
@@ -459,8 +588,14 @@ class ReportTitleTests(unittest.TestCase):
         self.assertEqual(report_title(profile), "Remedii naturiste pentru gripă")
 
     def test_without_any_condition_the_title_is_the_typed_text(self):
-        self.assertEqual(report_title({"health_problem": "durere de cap", "ai_conditions": []}), "Remedii naturiste pentru durere de cap")
-        self.assertEqual(report_title({"health_problem": "durere de cap"}), "Remedii naturiste pentru durere de cap")
+        self.assertEqual(
+            report_title({"health_problem": "durere de cap", "ai_conditions": []}),
+            "Remedii naturiste pentru durere de cap",
+        )
+        self.assertEqual(
+            report_title({"health_problem": "durere de cap"}),
+            "Remedii naturiste pentru durere de cap",
+        )
 
 
 if __name__ == "__main__":

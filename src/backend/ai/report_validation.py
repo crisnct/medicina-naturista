@@ -1,4 +1,5 @@
 """Validate the report contract against the exact evidence snapshot."""
+
 from __future__ import annotations
 
 from typing import Any, Literal
@@ -36,8 +37,13 @@ class ValidatedReport(BaseModel):
         return {key: [item.model_dump() for item in items] for key, items in self.sections.items()}
 
 
-NUTRITION_FIELDS = {"retete": "RETETA", "recomandate": "RECOMANDAT",
-                    "nerecomandate": "NERECOMANDAT", "interzise": "INTERZIS", "alte": "ALTE"}
+NUTRITION_FIELDS = {
+    "retete": "RETETA",
+    "recomandate": "RECOMANDAT",
+    "nerecomandate": "NERECOMANDAT",
+    "interzise": "INTERZIS",
+    "alte": "ALTE",
+}
 
 
 def normalize_nutrition(value: dict) -> list[tuple[Any, str]]:
@@ -89,8 +95,12 @@ def validate_report(value: Any, evidence: dict) -> ValidatedReport:
             if item.keys() - {"text", "evidence_ids"}:
                 warn("EXTRA_KEYS", section, index)
             text, ids = item.get("text"), item.get("evidence_ids", [])
-            if (not isinstance(text, str) or not text.strip(" -•\r\n\t")
-                    or not isinstance(ids, list) or any(type(token) is not str for token in ids)):
+            if (
+                not isinstance(text, str)
+                or not text.strip(" -•\r\n\t")
+                or not isinstance(ids, list)
+                or any(type(token) is not str for token in ids)
+            ):
                 warn("INVALID_ITEM", section, index)
                 continue
             if any(token not in evidence for token in ids):
@@ -99,8 +109,12 @@ def validate_report(value: Any, evidence: dict) -> ValidatedReport:
             if not ids and section != "nutritie":
                 warn("MISSING_EVIDENCE", section, index)
                 continue
-            text = "\n".join(line.strip() for line in text.replace("\r\n", "\n").split("\n") if line.strip())
-            sections[section].append(Recommendation(text=prefix + text, evidence_ids=list(dict.fromkeys(ids))))
+            text = "\n".join(
+                line.strip() for line in text.replace("\r\n", "\n").split("\n") if line.strip()
+            )
+            sections[section].append(
+                Recommendation(text=prefix + text, evidence_ids=list(dict.fromkeys(ids)))
+            )
     if not any(sections.values()):
         raise ReportValidationError("REPORT_EMPTY")
     return ValidatedReport(sections=sections, partial=bool(warnings), validationWarnings=warnings)

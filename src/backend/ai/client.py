@@ -1,4 +1,5 @@
 """Single-request report generation through a Responses API provider (xAI, Hugging Face, Ollama)."""
+
 from __future__ import annotations
 
 import json
@@ -11,15 +12,21 @@ from typing import Any
 import httpx
 
 from backend.ai.providers import ProviderConfig, provider_config
-from backend.config import Settings, settings as default_settings
+from backend.ai.report_validation import ValidatedReport, validate_report
+from backend.config import Settings
+from backend.config import settings as default_settings
+from backend.core.contracts import Evidence, ProfilePayload
+from backend.core.operation_context import checkpoint, remaining_timeout
 
 logger = logging.getLogger("naturist.ai")
-from backend.ai.report_validation import ValidatedReport, validate_report
+
 GENERATE_REPORT_SYSTEM_PROMPT_PATH = (
     Path(__file__).resolve().parent / "prompts" / "generate_report_system.md"
 )
+
+
 # Evidence fragments as the AI request carries them, highest score first.
-def _ordered_entries(evidence: dict[str, dict[str, Any]]) -> list[dict[str, str]]:
+def _ordered_entries(evidence: Evidence) -> list[dict[str, str]]:
     ordered_tokens = sorted(
         evidence.keys(),
         key=lambda token: evidence[token].get("score", float("-inf")),
@@ -49,7 +56,9 @@ def _parse_json_object(content: str) -> Any:
 # The final response of a streamed request, shaped like the parts of
 # httpx.Response that _post() and complete_json() read.
 class _StreamedResponse:
-    def __init__(self, payload: dict[str, Any], status_code: int, headers: Any, raw_bytes: int) -> None:
+    def __init__(
+        self, payload: dict[str, Any], status_code: int, headers: Any, raw_bytes: int
+    ) -> None:
         self._payload = payload
         self.status_code = status_code
         self.headers = headers
@@ -68,6 +77,7 @@ def _collect_stream(lines: Any) -> tuple[dict[str, Any], int]:
     deltas: list[str] = []
     raw_bytes = 0
     for line in lines:
+        checkpoint()
         raw_bytes += len(line) + 1
         if not line.startswith("data:"):
             continue
@@ -86,10 +96,15 @@ def _collect_stream(lines: Any) -> tuple[dict[str, Any], int]:
                 raise ValueError(f"response failed: {final.get('error')}")
             if kind == "response.completed" and not final.get("output") and deltas:
                 # Some servers end the stream without repeating the output.
-                final = {**final, "output": [{
-                    "type": "message",
-                    "content": [{"type": "output_text", "text": "".join(deltas)}],
-                }]}
+                final = {
+                    **final,
+                    "output": [
+                        {
+                            "type": "message",
+                            "content": [{"type": "output_text", "text": "".join(deltas)}],
+                        }
+                    ],
+                }
             return final, raw_bytes
         elif kind == "error":
             raise ValueError(f"stream error: {event.get('message') or event.get('error')}")
@@ -127,9 +142,21 @@ class ResponsesClient:
     # so a proxy's idle cut-off (e.g. 60 s) is not reached while tokens flow.
     def _send(self, headers: dict[str, str], payload: dict[str, Any]) -> Any:
         url = f"{self.provider.base_url}/responses"
+        timeout = httpx.Timeout(
+            remaining_timeout(float(self.provider.read_timeout_seconds)),
+            connect=remaining_timeout(10.0),
+        )
         if not self.provider.stream:
-            return self.http.post(url, headers=headers, json=payload)
-        with self.http.stream("POST", url, headers={**headers, "Accept": "text/event-stream"}, json=payload) as response:
+            response = self.http.post(url, headers=headers, json=payload, timeout=timeout)
+            checkpoint()
+            return response
+        with self.http.stream(
+            "POST",
+            url,
+            headers={**headers, "Accept": "text/event-stream"},
+            json=payload,
+            timeout=timeout,
+        ) as response:
             if response.status_code >= 400:
                 response.read()
                 response.raise_for_status()
@@ -140,7 +167,9 @@ class ResponsesClient:
     def _post(self, payload: dict[str, Any]) -> httpx.Response:
         key = self.provider.api_key()
         if not key and self.provider.api_key_required:
-            logger.error("ai_request_skipped reason=missing_api_key provider=%s", self.provider.name)
+            logger.error(
+                "ai_request_skipped reason=missing_api_key provider=%s", self.provider.name
+            )
             raise AIUnavailable(
                 f"Lipsește {self.provider.api_key_env}. Configurați variabila în .env înainte de utilizare."
             )
@@ -170,7 +199,9 @@ class ResponsesClient:
             return response
         except httpx.HTTPStatusError as exc:
             response = exc.response
-            request_id = response.headers.get("x-request-id") or response.headers.get("request-id") or "-"
+            request_id = (
+                response.headers.get("x-request-id") or response.headers.get("request-id") or "-"
+            )
             body = "<redacted>"
             logger.error(
                 "ai_request_failed status=%s duration_ms=%s request_id=%s body=%s",
@@ -189,14 +220,18 @@ class ResponsesClient:
                 round((time.perf_counter() - started) * 1000),
                 type(exc).__name__,
             )
-            raise AIUnavailable("Serviciul AI nu este disponibil momentan. Încercați din nou.") from exc
+            raise AIUnavailable(
+                "Serviciul AI nu este disponibil momentan. Încercați din nou."
+            ) from exc
         except ValueError as exc:
             logger.error(
                 "ai_request_failed error=invalid_response duration_ms=%s message=%s",
                 round((time.perf_counter() - started) * 1000),
                 type(exc).__name__,
             )
-            raise AIUnavailable("Serviciul AI nu este disponibil momentan. Încercați din nou.") from exc
+            raise AIUnavailable(
+                "Serviciul AI nu este disponibil momentan. Încercați din nou."
+            ) from exc
 
     # Build the Responses API request body for this provider.
     def _build_payload(self, system: str, user: str, max_tokens: int) -> dict[str, Any]:
@@ -204,7 +239,10 @@ class ResponsesClient:
         payload: dict[str, Any] = {"model": provider.model}
         if provider.reasoning_effort:
             payload["reasoning"] = {"effort": provider.reasoning_effort}
-        payload["input"] = [{"role": "system", "content": system}, {"role": "user", "content": user}]
+        payload["input"] = [
+            {"role": "system", "content": system},
+            {"role": "user", "content": user},
+        ]
         if provider.json_format == "text_format":
             payload["text"] = {"format": {"type": "json_object"}}
         elif provider.json_format == "response_format":
@@ -301,15 +339,14 @@ class ResponsesClient:
             max(lengths, default=0),
             self.settings.log_fragment_text,
         )
+
     # Convert evidence to AI input entries, ordered by relevance score. Every fragment
     # is sent: the context budget was already applied when the fragments were selected.
-    def _evidence_entries(self, evidence: dict[str, dict[str, str]]) -> list[dict[str, str]]:
+    def _evidence_entries(self, evidence: Evidence) -> list[dict[str, str]]:
         return _ordered_entries(evidence)
 
     # Send the full evidence context to the provider and normalize all returned report sections.
-    def generate(
-        self, profile: dict[str, Any], evidence: dict[str, dict[str, str]]
-    ) -> ValidatedReport:
+    def generate(self, profile: ProfilePayload, evidence: Evidence) -> ValidatedReport:
         if not evidence:
             logger.info("fragments_sent_to_ai count=0 reason=no_evidence")
             return validate_report({}, evidence)

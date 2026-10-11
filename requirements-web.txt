@@ -1,9 +1,3 @@
--r requirements-lock.txt
-pydantic>=2.10,<3
-fastapi>=0.115,<1
-uvicorn>=0.35,<1
-reportlab>=4.4,<5
-python-dotenv>=1,<2
-pgvector>=0.3,<1
-psycopg[binary]>=3,<4
-psycopg-pool>=3,<4
+# Compatibility entrypoint for Windows/Python 3.11. Declarations live in pyproject.toml.
+--require-hashes
+-r requirements-runtime.lock

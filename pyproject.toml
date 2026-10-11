@@ -24,7 +24,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-dev = ["testcontainers[postgres]>=4,<5"]
+dev = ["testcontainers[postgres]>=4,<5", "ruff>=0.17,<1", "mypy>=2.4,<3", "pip-tools==7.6.2", "pytest>=9,<10"]
 pdf = ["pdfplumber>=0.11,<1", "pypdfium2>=4.30,<6", "Pillow>=10.4,<13"]
 
 [project.scripts]
@@ -50,3 +50,29 @@ backend = [
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["src/tests"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+extend-exclude = ["src/scripts/icd10_work", "src/scripts/dictionaires"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+
+[tool.ruff.lint.per-file-ignores]
+"src/tests/**" = ["E402"]
+
+[tool.mypy]
+python_version = "3.11"
+mypy_path = "src"
+files = ["src/backend/config.py", "src/backend/core/contracts.py", "src/backend/core/operation_context.py", "src/backend/core/conversation.py", "src/backend/core/models.py", "src/backend/web/dependencies.py", "src/backend/ai/content_evaluation.py"]
+follow_imports = "silent"
+check_untyped_defs = true
+warn_unused_ignores = true
+warn_redundant_casts = true
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = ["backend.core.contracts", "backend.core.operation_context", "backend.ai.content_evaluation"]
+disallow_untyped_defs = true
+disallow_any_generics = true

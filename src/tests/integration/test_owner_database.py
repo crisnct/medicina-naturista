@@ -46,9 +46,7 @@ class OwnerDatabaseTests(unittest.TestCase):
             columns = conn.execute(
                 "SELECT column_name FROM information_schema.columns WHERE table_name = 'owner_sessions' ORDER BY ordinal_position"
             ).fetchall()
-            self.assertEqual(
-                [c[0] for c in columns], ["token_hash", "created_at", "revoked_at"]
-            )
+            self.assertEqual([c[0] for c in columns], ["token_hash", "created_at", "revoked_at"])
         restarted.logout(token)
         restarted.logout(token)
         self.assertFalse(auth.authorized(token))
@@ -73,6 +71,4 @@ class OwnerDatabaseTests(unittest.TestCase):
             self.assertEqual(caught.exception.status, 503)
         finally:
             with psycopg.connect(self.url) as conn:
-                conn.execute(
-                    "ALTER TABLE owner_sessions_hidden RENAME TO owner_sessions"
-                )
+                conn.execute("ALTER TABLE owner_sessions_hidden RENAME TO owner_sessions")

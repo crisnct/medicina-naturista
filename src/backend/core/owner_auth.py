@@ -92,9 +92,7 @@ class OwnerAuth:
     def _signed(self, token: str) -> bool:
         match = TOKEN_RE.fullmatch(token)
         return bool(
-            self._key
-            and match
-            and hmac.compare_digest(match[2], self._sign("v1." + match[1]))
+            self._key and match and hmac.compare_digest(match[2], self._sign("v1." + match[1]))
         )
 
     def authorized(self, token: str) -> bool:

@@ -35,6 +35,4 @@ class LocalCorpusTests(unittest.TestCase):
                 for item in evidence.values()
             )
         )
-        self.assertLessEqual(
-            sum(len(item["text"]) for item in evidence.values()), 1_000_000
-        )
+        self.assertLessEqual(sum(len(item["text"]) for item in evidence.values()), 1_000_000)

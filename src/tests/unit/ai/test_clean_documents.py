@@ -4,10 +4,9 @@ import io
 import sys
 import tempfile
 import unittest
-from unittest import mock
-from contextlib import redirect_stdout
+from contextlib import ExitStack, redirect_stdout
 from pathlib import Path
-from contextlib import ExitStack
+from unittest import mock
 
 from scripts import clean_documents
 from scripts.clean_documents import (
@@ -33,7 +32,9 @@ def setUpModule():
     (dictionary / "ro_RO.dic").write_text("0\n", encoding="utf-8")
     (dictionary / "ro_RO.aff").write_text("SET UTF-8\n", encoding="utf-8")
     _module_resources.enter_context(mock.patch.object(clean_documents, "HUNSPELL_DIR", dictionary))
-    _module_resources.enter_context(mock.patch.object(clean_documents, "DEFAULT_SPELLING_REPORT", root / "report.tsv"))
+    _module_resources.enter_context(
+        mock.patch.object(clean_documents, "DEFAULT_SPELLING_REPORT", root / "report.tsv")
+    )
 
 
 def tearDownModule():
@@ -49,7 +50,9 @@ class CleanDocumentsTests(unittest.TestCase):
 
     def clean(self, **kwargs):
         with redirect_stdout(io.StringIO()):
-            return clean_documents.clean_documents(self.source, dry_run=kwargs.pop("dry_run", False), **kwargs)
+            return clean_documents.clean_documents(
+                self.source, dry_run=kwargs.pop("dry_run", False), **kwargs
+            )
 
     def write(self, name: str, text: str, encoding: str = "utf-8") -> Path:
         path = self.source / name
@@ -89,7 +92,9 @@ class CleanDocumentsTests(unittest.TestCase):
         # The path where the fallback still matters: with folding off the cleaned
         # text keeps the comma-below s, which cp1250 cannot represent.
         path = self.write(
-            "a.md", "Coad\u0103-\u015foricel ajut\u0103 mult!!\n", encoding="cp1250",
+            "a.md",
+            "Coad\u0103-\u015foricel ajut\u0103 mult!!\n",
+            encoding="cp1250",
         )
 
         self.clean(fold_diacritics_to_ascii=False)
@@ -120,7 +125,9 @@ class CleanDocumentsTests(unittest.TestCase):
             "# Titlu real\n\nCorp.\n",
         )
         self.assertEqual(
-            clean_documents.strip_extraction_metadata('---\nsource_path: "x"\n---\n\n# carte\n\nCorp.\n', "carte.docx"),
+            clean_documents.strip_extraction_metadata(
+                '---\nsource_path: "x"\n---\n\n# carte\n\nCorp.\n', "carte.docx"
+            ),
             "Corp.\n",
         )
 
@@ -228,9 +235,13 @@ class FurnitureSectionTests(unittest.TestCase):
 class RepeatedLineTests(unittest.TestCase):
     def test_drops_the_document_title_repeated_on_every_page(self):
         title = "Vindecare prin nutritie - Phyllis A. Balch"
-        text = "\n".join([title, "Text 1.", title, "Text 2.", title, "Text 3.", title, "Text 4.", title])
+        text = "\n".join(
+            [title, "Text 1.", title, "Text 2.", title, "Text 3.", title, "Text 4.", title]
+        )
 
-        stripped, removed = strip_repeated_lines(text, titles=("vindecare prin nutritie phyllis a balch",))
+        stripped, removed = strip_repeated_lines(
+            text, titles=("vindecare prin nutritie phyllis a balch",)
+        )
 
         self.assertEqual(stripped.split("\n").count(title), 1)
         self.assertEqual(len(removed), 4)
@@ -268,7 +279,9 @@ class RepeatedLineTests(unittest.TestCase):
         title = "Vindecare prin nutritie - Phyllis A. Balch"
         text = "\n".join([title, "Text 1.", title, "Text 2.", title, "Text 3.", title])
 
-        stripped, removed = strip_repeated_lines(text, titles=("vindecare prin nutritie phyllis a balch",))
+        stripped, removed = strip_repeated_lines(
+            text, titles=("vindecare prin nutritie phyllis a balch",)
+        )
 
         self.assertEqual(stripped, text)
         self.assertEqual(removed, [])
@@ -372,7 +385,7 @@ class ColophonTests(unittest.TestCase):
         lines = [
             "-mentinerea unei diete sanatoase in care carbohidratii sa fie distribuiti pe parcursul zilei\\",
             "1\\. Banu C. (coordonator), Aditivi și ingrediente, Editura Tehnică, 2002.",
-            'articol publicat la: 25 Aprilie 2002 in Evenimentul Zilei\\',
+            "articol publicat la: 25 Aprilie 2002 in Evenimentul Zilei\\",
         ]
 
         kept, removed = strip_colophon_lines(lines)
@@ -422,7 +435,9 @@ class DiacriticsTests(unittest.TestCase):
             ["Coada si măna ajută ficatul"] * 3 + ["Coada și mana ajuta ficatul"] * 3 + ["Text."]
         )
 
-        cleaned, removed = compact_document(text, stem="Coada si mana ajuta ficatul", fold_diacritics_to_ascii=True)
+        cleaned, removed = compact_document(
+            text, stem="Coada si mana ajuta ficatul", fold_diacritics_to_ascii=True
+        )
 
         self.assertEqual(cleaned.count("Coada"), 1)
         self.assertEqual(len([item for item in removed if item.rule == "running_header"]), 5)
@@ -435,9 +450,7 @@ class CommandLineTests(unittest.TestCase):
             return clean_documents.parse_args()
 
     def test_folding_switch_defaults_to_the_module_constant(self):
-        self.assertEqual(
-            self.parse().fold_diacritics, clean_documents.FOLD_DIACRITICS_BY_DEFAULT
-        )
+        self.assertEqual(self.parse().fold_diacritics, clean_documents.FOLD_DIACRITICS_BY_DEFAULT)
 
     def test_no_fold_diacritics_switches_folding_off(self):
         self.assertFalse(self.parse("--no-fold-diacritics").fold_diacritics)
@@ -451,10 +464,14 @@ class CommandLineTests(unittest.TestCase):
 
 class ContactDetailTests(unittest.TestCase):
     def test_removes_an_email_address(self):
-        text, removed = compact_document("Scrieți la adresa cabinet@exemplu.ro pentru programări.\n")
+        text, removed = compact_document(
+            "Scrieți la adresa cabinet@exemplu.ro pentru programări.\n"
+        )
 
         self.assertEqual(text, "Scrieti la adresa pentru programari.\n")
-        self.assertEqual([item.text for item in removed if item.rule == "email"], ["cabinet@exemplu.ro"])
+        self.assertEqual(
+            [item.text for item in removed if item.rule == "email"], ["cabinet@exemplu.ro"]
+        )
 
     def test_removes_a_labelled_phone_number_and_its_label(self):
         text, removed = compact_document("Programări: tel. 021/637.30.22 sau 0745 123 456.\n")
@@ -466,10 +483,17 @@ class ContactDetailTests(unittest.TestCase):
         )
 
     def test_removes_a_line_that_held_nothing_but_contact_data(self):
-        text, removed = compact_document("Text medical.\ntel. 021 319 6390; 031 425 1619; 0752 548 372\n")
+        text, removed = compact_document(
+            "Text medical.\ntel. 021 319 6390; 031 425 1619; 0752 548 372\n"
+        )
 
         self.assertEqual(text, "Text medical.\n")
-        self.assertTrue(all(item.rule.startswith("phone") or item.rule == "empty_contact_line" for item in removed))
+        self.assertTrue(
+            all(
+                item.rule.startswith("phone") or item.rule == "empty_contact_line"
+                for item in removed
+            )
+        )
 
     def test_removes_an_unlabelled_national_and_toll_free_number(self):
         text, _ = compact_document("Comenzi la 0722371863 ori 1-800-793-9396 oricând.\n")
@@ -500,10 +524,14 @@ class ContactDetailTests(unittest.TestCase):
                 self.assertEqual(text, fold_diacritics(line) + "\n")
 
         # On a contact line the phone goes and the ISBN stays.
-        text, removed = compact_document("Volumul are ISBN 978-606-686-622-4; comenzi la tel. 021 319 6390.\n")
+        text, removed = compact_document(
+            "Volumul are ISBN 978-606-686-622-4; comenzi la tel. 021 319 6390.\n"
+        )
         self.assertIn("978-606-686-622-4", text)
         self.assertNotIn("319 6390", text)
-        self.assertEqual([item.text for item in removed if item.rule == "phone_number"], ["021 319 6390"])
+        self.assertEqual(
+            [item.text for item in removed if item.rule == "phone_number"], ["021 319 6390"]
+        )
 
     def test_keeps_a_contact_word_that_is_not_glued_to_the_number(self):
         # "suna" is an ordinary verb here, and "Contact" opens the sentence: only
@@ -512,7 +540,9 @@ class ContactDetailTests(unittest.TestCase):
         self.assertIn("Scrie la adresa sau suna la", text)
         self.assertNotIn("319 6390", text)
 
-        text, _ = compact_document("Contact Diane Krieger Spivak at 477-6019 or dspivak\\@post-trib.com\n")
+        text, _ = compact_document(
+            "Contact Diane Krieger Spivak at 477-6019 or dspivak\\@post-trib.com\n"
+        )
         self.assertIn("Contact Diane Krieger Spivak at", text)
         self.assertNotIn("477-6019", text)
         self.assertNotIn("post-trib.com", text)
@@ -549,7 +579,9 @@ class DigitInvariantTests(unittest.TestCase):
     def test_reports_only_the_uncovered_occurrence(self):
         removals = [Removed("running_header", "Capitolul 2")]
 
-        self.assertEqual(check_digit_invariant("Capitolul 2. Doza 2 mg", "Capitolul. Doza mg", removals), ["2"])
+        self.assertEqual(
+            check_digit_invariant("Capitolul 2. Doza 2 mg", "Capitolul. Doza mg", removals), ["2"]
+        )
 
     def test_a_file_that_would_lose_a_number_is_not_written(self):
         path = self.source_file("a.md", "Doza este 500 mg pe zi.\n")
@@ -599,7 +631,12 @@ class CompactionPipelineTests(unittest.TestCase):
 
     def test_keeps_every_heading(self):
         headings = ["# Carte", "## Capitolul 1", "### Subcapitol", "## Capitolul 2"]
-        text = "\n\n".join([headings[0], headings[1], headings[2], "Text unu.", headings[3], "Text doi."]) + "\n"
+        text = (
+            "\n\n".join(
+                [headings[0], headings[1], headings[2], "Text unu.", headings[3], "Text doi."]
+            )
+            + "\n"
+        )
         path = self.write("a.md", text)
 
         self.clean()

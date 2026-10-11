@@ -6,6 +6,7 @@ Two backends share one interface (`embed(texts, batch_size, parallel)`):
 FastEmbed/ONNX fp32 on CPU (queries, and builds without a GPU) and a PyTorch
 fp16 adaptor on CUDA (index builds only, imported lazily so the web app and its
 Docker image never need torch)."""
+
 from __future__ import annotations
 
 import json
@@ -56,7 +57,9 @@ class EmbeddingProfile:
 PROFILES: dict[str, EmbeddingProfile] = {
     profile.name: profile
     for profile in (
-        EmbeddingProfile("Qwen/Qwen3-Embedding-0.6B", 1024, QWEN_QUERY_TEMPLATE, "{text}", 1400, 240),
+        EmbeddingProfile(
+            "Qwen/Qwen3-Embedding-0.6B", 1024, QWEN_QUERY_TEMPLATE, "{text}", 1400, 240
+        ),
     )
 }
 
@@ -124,11 +127,13 @@ class CudaEmbedding:
 
     # Embed `documents` in order, yielding one unit-length vector at a time.
     # `parallel` exists only for FastEmbed compatibility and is ignored.
-    def embed(self, documents: Iterable[str], batch_size: int = 8, parallel=None) -> Iterator[np.ndarray]:
+    def embed(
+        self, documents: Iterable[str], batch_size: int = 8, parallel=None
+    ) -> Iterator[np.ndarray]:
         texts = list(documents)
         for start in range(0, len(texts), _GPU_SLICE):
             vectors = self._model.encode(
-                texts[start:start + _GPU_SLICE],
+                texts[start : start + _GPU_SLICE],
                 batch_size=batch_size,
                 normalize_embeddings=True,
                 convert_to_numpy=True,
@@ -146,7 +151,9 @@ def create_embedding_model(model_name: str, cache_dir: Path, device: str | None 
 
     from fastembed import TextEmbedding
 
-    return TextEmbedding(model_name=model_name, cache_dir=str(cache_dir), threads=settings.embedding_threads)
+    return TextEmbedding(
+        model_name=model_name, cache_dir=str(cache_dir), threads=settings.embedding_threads
+    )
 
 
 @lru_cache(maxsize=4)

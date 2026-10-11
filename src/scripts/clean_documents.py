@@ -95,6 +95,7 @@ line endings are normalized to bare "\\n" in the process (CRLF and lone CR both
 become LF) and its original encoding is kept when the result still fits in it.
 
 """
+
 from __future__ import annotations
 
 import argparse
@@ -120,8 +121,12 @@ _HEADING_RE = re.compile(r"^(#{1,6})\s+(.*)$")
 
 # A section whose heading names it as page furniture. The section is dropped
 # only if every condition in is_furniture_section() also holds.
-_TOC_HEADING_RE = re.compile(r"^#{1,6}\s*(?:cuprins|cuprinsul|sumar|table of contents|con[țt]inut)\b", re.IGNORECASE)
-_INDEX_HEADING_RE = re.compile(r"^#{1,6}\s*(?:index|index alfabetic|glosar|glossary|abrevieri)\b", re.IGNORECASE)
+_TOC_HEADING_RE = re.compile(
+    r"^#{1,6}\s*(?:cuprins|cuprinsul|sumar|table of contents|con[țt]inut)\b", re.IGNORECASE
+)
+_INDEX_HEADING_RE = re.compile(
+    r"^#{1,6}\s*(?:index|index alfabetic|glosar|glossary|abrevieri)\b", re.IGNORECASE
+)
 _BIBLIOGRAPHY_HEADING_RE = re.compile(
     r"^#{1,6}\s*(?:bibliografie|bibliography|referin[țt]e|references|note bibliografice|"
     r"surse bibliografice|lecturi recomandate)\b",
@@ -188,9 +193,7 @@ _REPEATED_MIN_OCCURRENCES = 5
 #     that the RTF sources in this corpus carry;
 #   * "ặ"/"Ặ" (a with breve and dot below), the OCR variant of "ă"/"Ă" that
 #     appears 589 times in medicina-naturista-documente/data/documents and would otherwise stay non-ASCII.
-_DIACRITICS_TABLE = str.maketrans(
-    "ăâîșțĂÂÎȘȚşţŞŢãÃặẶ", "aaistAAISTstSTaAaA"
-)
+_DIACRITICS_TABLE = str.maketrans("ăâîșțĂÂÎȘȚşţŞŢãÃặẶ", "aaistAAISTstSTaAaA")
 
 # Diacritic folding is ON: the sources are folded to ASCII before they are
 # indexed. Set this to False (or pass --no-fold-diacritics, or
@@ -299,14 +302,24 @@ _EMAIL_RE = re.compile(r"[\w.+-]+\\?@[\w-]+(?:\.[\w-]+)+")
 # Extraction artefacts: soft hyphen, zero-width characters, BOM and C0 control
 # characters (never newline or tab) are dropped; NBSP becomes a plain space.
 _INVISIBLE_RE = re.compile(r"[\u00ad\u200b\u200c\u200d\ufeff\x00-\x08\x0b\x0c\x0e-\x1f\x7f]")
-_TRANSLATION = str.maketrans({
-    "\u00a0": " ",
-    # Legacy cedilla forms -> the comma-below letters used in Romanian.
-    "\u015f": "\u0219", "\u015e": "\u0218", "\u0163": "\u021b", "\u0162": "\u021a",
-    # Typographic ligatures.
-    "\ufb00": "ff", "\ufb01": "fi", "\ufb02": "fl", "\ufb03": "ffi", "\ufb04": "ffl",
-    "\ufb05": "st", "\ufb06": "st",
-})
+_TRANSLATION = str.maketrans(
+    {
+        "\u00a0": " ",
+        # Legacy cedilla forms -> the comma-below letters used in Romanian.
+        "\u015f": "\u0219",
+        "\u015e": "\u0218",
+        "\u0163": "\u021b",
+        "\u0162": "\u021a",
+        # Typographic ligatures.
+        "\ufb00": "ff",
+        "\ufb01": "fi",
+        "\ufb02": "fl",
+        "\ufb03": "ffi",
+        "\ufb04": "ffl",
+        "\ufb05": "st",
+        "\ufb06": "st",
+    }
+)
 
 # Collapse runs of spaces/tabs left behind by the removals above, and trim
 # trailing whitespace before a newline. Neither touches "\n" itself.
@@ -360,7 +373,9 @@ def _read(path: Path) -> tuple[str, str]:
     return normalized, encoding
 
 
-_SCAFFOLD_HEADING_RE = re.compile(r"## (?:Pagini|Text nativ|Text extras|Con\w+ extras|Text OCR extras)")
+_SCAFFOLD_HEADING_RE = re.compile(
+    r"## (?:Pagini|Text nativ|Text extras|Con\w+ extras|Text OCR extras)"
+)
 _OCR_NOTE_RE = re.compile(r"Textul este rezultatul OCR local\b.*")
 
 
@@ -413,7 +428,7 @@ def strip_extraction_metadata(text: str, stem: str | None = None) -> str:
         return text
     if not any(line.startswith(("source_path:", "source_relative_path:")) for line in lines[1:end]):
         return text
-    rest = lines[end + 1:]
+    rest = lines[end + 1 :]
     _drop_blank_head(rest)
     if rest and _is_file_title(rest[0], stem):
         rest.pop(0)
@@ -454,7 +469,8 @@ _EMPTY_COMMENT_RE = re.compile(r"<!--[ \t]*-->[ \t]*")
 # "[Nu a fost extras text din această pagină.]" (or "...acest diapozitiv.") and
 # "[Nu a fost recuperat text OCR cu încredere suficientă.]".
 _EMPTY_PLACEHOLDER_RE = re.compile(
-    r"\[[ \t]*Nu a fost (?:extras|recuperat) text\b[^\]\n]*\][ \t]*", re.IGNORECASE,
+    r"\[[ \t]*Nu a fost (?:extras|recuperat) text\b[^\]\n]*\][ \t]*",
+    re.IGNORECASE,
 )
 
 
@@ -493,6 +509,7 @@ def collapse_blank_lines(text: str) -> str:
 
 
 # ---- Compaction rules ----
+
 
 # Fold the Romanian diacritics (and the legacy/or OCR variants of them) to
 # ASCII: ă/â -> a, î -> i, ș -> s, ț -> t, upper case kept upper case, plus
@@ -609,8 +626,15 @@ def strip_colophon_lines(
 # repeated line is removed only when it repeats the document's title.
 def _title_key(value: str) -> str:
     """Comparable form of a title: no extension, punctuation, case or spacing."""
-    value = re.sub(r"\.(?:pdf|docx?|gdoc|txt|rtf|odt|pptx|xlsx|md|jpe?g|png)$", "", value.strip(), flags=re.IGNORECASE)
-    return " ".join(re.findall(r"[^\W_]+", value.casefold().translate(_DIACRITICS_TABLE), flags=re.UNICODE))
+    value = re.sub(
+        r"\.(?:pdf|docx?|gdoc|txt|rtf|odt|pptx|xlsx|md|jpe?g|png)$",
+        "",
+        value.strip(),
+        flags=re.IGNORECASE,
+    )
+    return " ".join(
+        re.findall(r"[^\W_]+", value.casefold().translate(_DIACRITICS_TABLE), flags=re.UNICODE)
+    )
 
 
 def _document_titles(text: str, stem: str | None) -> tuple[str, ...]:
@@ -676,6 +700,7 @@ def strip_repeated_lines(
 
 # ---- Contact details ----
 
+
 # The digits of a phone candidate, with the OCR stand-in letter "o" read as zero.
 def _phone_digits(candidate: str) -> str:
     return re.sub(r"\D", "", candidate.replace("o", "0").replace("O", "0"))
@@ -736,8 +761,8 @@ def _attached_label_spans(
     attached: list[tuple[int, int, str]] = []
     for match in _CONTACT_LABEL_RE.finditer(line):
         for start, end in phone_spans:
-            before = match.end() <= start and _LABEL_GAP_RE.fullmatch(line[match.end():start])
-            after = end <= match.start() and _LABEL_GAP_RE.fullmatch(line[end:match.start()])
+            before = match.end() <= start and _LABEL_GAP_RE.fullmatch(line[match.end() : start])
+            after = end <= match.start() and _LABEL_GAP_RE.fullmatch(line[end : match.start()])
             if before or after:
                 attached.append((match.start(), match.end(), "phone_label"))
                 break
@@ -761,14 +786,16 @@ def strip_contact_details(text: str) -> tuple[str, list[Removed]]:
         for match in _PHONE_CANDIDATE_RE.finditer(line):
             candidate = match.group(0)
             if _looks_like_phone(
-                candidate, labeled=labeled, head=line[:match.start()], tail=line[match.end():]
+                candidate, labeled=labeled, head=line[: match.start()], tail=line[match.end() :]
             ):
                 phone_spans.append((match.start(), match.end(), "phone_number"))
         if not phone_spans:
             kept.append(line)
             continue
 
-        spans = sorted(phone_spans + _attached_label_spans(line, [(s, e) for s, e, _ in phone_spans]))
+        spans = sorted(
+            phone_spans + _attached_label_spans(line, [(s, e) for s, e, _ in phone_spans])
+        )
         pieces: list[str] = []
         line_removals: list[Removed] = []
         last = 0
@@ -793,6 +820,7 @@ def strip_contact_details(text: str) -> tuple[str, list[Removed]]:
 
 
 # ---- The digit invariant ----
+
 
 # Every number of a text, as a multiset.
 def numbers(text: str) -> collections.Counter[str]:
@@ -842,27 +870,60 @@ def check_digit_invariant(before: str, after: str, removals: Sequence[Removed]) 
 
 # ---- Dictionary-driven Romanian spelling correction ----
 
-FOLD = str.maketrans({"ă": "a", "â": "a", "î": "i", "ș": "s", "ş": "s", "ț": "t", "ţ": "t",
-                      "Ă": "a", "Â": "a", "Î": "i", "Ș": "s", "Ț": "t"})
+FOLD = str.maketrans(
+    {
+        "ă": "a",
+        "â": "a",
+        "î": "i",
+        "ș": "s",
+        "ş": "s",
+        "ț": "t",
+        "ţ": "t",
+        "Ă": "a",
+        "Â": "a",
+        "Î": "i",
+        "Ș": "s",
+        "Ț": "t",
+    }
+)
 WORD = re.compile(r"[^\W\d_]+")
 # A token is a letter run that is not glued to digits, paths, e-mails or hyphen compounds.
 TOKEN = re.compile(r"(?<![\w@/:#\\-])[^\W\d_]+(?![\w@/:#\\-])")
 SKIP_LINE = re.compile(r"https?:|www\.|@|\.(?:com|ro|org|net)\b", re.I)
 
-ROMANIAN_STOPWORDS = set("si de la in cu pentru se este sa care un o din pe nu mai sau sunt au ca a ce prin dar fi cel".split())
+ROMANIAN_STOPWORDS = set(
+    "si de la in cu pentru se este sa care un o din pe nu mai sau sunt au ca a ce prin dar fi cel".split()
+)
 ENGLISH_STOPWORDS = set("the and of is to in that for with as are this by from or be it on".split())
 
 # Short words allowed as one piece of a run-together token.
-FUNCTION_WORDS = set("de la in cu si sa se ca pe un o a ai nu mai din dar tot sau ce iar prin fara spre dupa intre care este sunt prea unui unei".split())
+FUNCTION_WORDS = set(
+    "de la in cu si sa se ca pe un o a ai nu mai din dar tot sau ce iar prin fara spre dupa intre care este sunt prea unui unei".split()
+)
 # Prefixes that must never be peeled off a word ("contraexemplu" is one word).
-PREFIXES = set("contra anti auto bio supra ultra extra intra inter para pseudo semi super trans poli mono micro macro mega neuro hidro termo foto electro multi post infra hiper hipo sub pre pro non ante circum".split())
+PREFIXES = set(
+    "contra anti auto bio supra ultra extra intra inter para pseudo semi super trans poli mono micro macro mega neuro hidro termo foto electro multi post infra hiper hipo sub pre pro non ante circum".split()
+)
 # Tokens that look run-together but are real words missing from the dictionary.
 KEEP = {"plantain", "organela", "fizicala"}
 # Old i/a spelling of the folded diacritics; words shorter than 6 letters are listed
 # explicitly because the generic rule would also rewrite OCR fragments ("tirea").
-OLD_ORTHOGRAPHY = {"sint": "sunt", "sintem": "suntem", "sinteti": "sunteti", "cind": "cand", "rind": "rand",
-                   "pina": "pana", "cimp": "camp", "virf": "varf", "vind": "vand", "avind": "avand",
-                   "intii": "intai", "singe": "sange", "pinza": "panza", "cirpa": "carpa"}
+OLD_ORTHOGRAPHY = {
+    "sint": "sunt",
+    "sintem": "suntem",
+    "sinteti": "sunteti",
+    "cind": "cand",
+    "rind": "rand",
+    "pina": "pana",
+    "cimp": "camp",
+    "virf": "varf",
+    "vind": "vand",
+    "avind": "avand",
+    "intii": "intai",
+    "singe": "sange",
+    "pinza": "panza",
+    "cirpa": "carpa",
+}
 OLD_SWAPS = (("in", "an"), ("im", "am"), ("ir", "ar"), ("ii", "ai"))
 
 
@@ -882,7 +943,12 @@ def build_dictionary(
     current = None
     for line in (hunspell_dir / "ro_RO.aff").read_text(encoding="utf-8").splitlines():
         parts = line.split()
-        if len(parts) == 4 and parts[0] in ("SFX", "PFX") and parts[2] in ("Y", "N") and parts[3].isdigit():
+        if (
+            len(parts) == 4
+            and parts[0] in ("SFX", "PFX")
+            and parts[2] in ("Y", "N")
+            and parts[3].isdigit()
+        ):
             current = (parts[0], parts[1])
             continue
         if len(parts) >= 5 and parts[0] in ("SFX", "PFX") and (parts[0], parts[1]) == current:
@@ -905,7 +971,7 @@ def build_dictionary(
             for strip, add, regex in suffixes.get(flag, ()):
                 if (regex and not regex.search(stem)) or (strip and not stem.endswith(strip)):
                     continue
-                forms.add(stem[:len(stem) - len(strip)] + add)
+                forms.add(stem[: len(stem) - len(strip)] + add)
         for flag in flags:
             for strip, add, regex in prefixes.get(flag, ()):
                 for base in list(forms):
@@ -939,8 +1005,15 @@ def apply_case(original: str, replacement: str) -> str | None:
 
 
 class Fixer:
-    def __init__(self, dictionary: set[str], common: set[str], counts: collections.Counter,
-                 bigrams: collections.Counter, *, spellings: dict[str, str] | None = None):
+    def __init__(
+        self,
+        dictionary: set[str],
+        common: set[str],
+        counts: collections.Counter,
+        bigrams: collections.Counter,
+        *,
+        spellings: dict[str, str] | None = None,
+    ):
         self.dict = dictionary
         self.common = common
         self.counts = counts
@@ -962,7 +1035,11 @@ class Fixer:
     def join_pair(self, left: str, right: str) -> str | None:
         if right.isupper() and len(right) == 1:
             return None  # "vitamin A", "hepatita B"
-        same_case = (left.islower() or left.istitle()) and right.islower() or (left.isupper() and right.isupper())
+        same_case = (
+            (left.islower() or left.istitle())
+            and right.islower()
+            or (left.isupper() and right.isupper())
+        )
         if not same_case:
             return None
         joined = left + right
@@ -987,10 +1064,10 @@ class Fixer:
             while i < len(tokens):
                 tok = tokens[i]
                 nxt = tokens[i + 1] if i + 1 < len(tokens) else None
-                if nxt is not None and line[tok.end():nxt.start()] == " ":
+                if nxt is not None and line[tok.end() : nxt.start()] == " ":
                     joined = self.join_pair(tok.group(), nxt.group())
                     if joined:
-                        out.append(line[pos:tok.start()])
+                        out.append(line[pos : tok.start()])
                         out.append(joined)
                         pos = nxt.end()
                         changes.append(("join", f"{tok.group()} {nxt.group()}", joined))
@@ -1008,7 +1085,12 @@ class Fixer:
     def _piece_ok(self, piece: str) -> bool:
         if piece in FUNCTION_WORDS:
             return True
-        return len(piece) >= 5 and piece in self.common and self.counts.get(piece, 0) >= 100 and piece not in PREFIXES
+        return (
+            len(piece) >= 5
+            and piece in self.common
+            and self.counts.get(piece, 0) >= 100
+            and piece not in PREFIXES
+        )
 
     def split_token(self, low: str) -> list[str] | None:
         if len(low) < 8 or low in self.dict or low in KEEP or self.counts.get(low, 0) > 3:
@@ -1029,7 +1111,9 @@ class Fixer:
                 pieces = [left] + opt
                 if all(p in FUNCTION_WORDS for p in pieces):
                     continue
-                score = min(self.counts.get(p, 10 ** 6 if p in FUNCTION_WORDS else 0) for p in pieces) / len(pieces)
+                score = min(
+                    self.counts.get(p, 10**6 if p in FUNCTION_WORDS else 0) for p in pieces
+                ) / len(pieces)
                 if score > best_score:
                     best, best_score = pieces, score
         return best
@@ -1083,8 +1167,12 @@ class Fixer:
                 continue
             variants.add(low.replace(old, new))
             for m in re.finditer(old, low):
-                variants.add(low[:m.start()] + new + low[m.end():])
-        good = {v for v in variants if v in self.common and self.counts.get(v, 0) >= max(3, 3 * self.counts.get(low, 0))}
+                variants.add(low[: m.start()] + new + low[m.end() :])
+        good = {
+            v
+            for v in variants
+            if v in self.common and self.counts.get(v, 0) >= max(3, 3 * self.counts.get(low, 0))
+        }
         return good.pop() if len(good) == 1 else None
 
     def fix_tokens(self, line: str):
@@ -1093,7 +1181,12 @@ class Fixer:
         def repl(match: re.Match) -> str:
             tok = match.group()
             low = fold(tok)
-            if tok.istitle() and len(tok) > 1 or (tok.isupper() and len(tok) < 6) or low in self.dict:
+            if (
+                tok.istitle()
+                and len(tok) > 1
+                or (tok.isupper() and len(tok) < 6)
+                or low in self.dict
+            ):
                 return tok
             pieces = self.split_token(low)
             if pieces:
@@ -1124,12 +1217,16 @@ class Fixer:
 
 # ---- The pipeline ----
 
+
 # Run every rule over one document, in order, and return the compacted text
 # together with every span the rules removed (for the digit invariant and the
 # end-of-run summary). `stem` lets strip_extraction_metadata() recognise the
 # generated "# file.ext" title.
 def compact_document(
-    text: str, *, stem: str | None = None, fold_diacritics_to_ascii: bool = FOLD_DIACRITICS_BY_DEFAULT
+    text: str,
+    *,
+    stem: str | None = None,
+    fold_diacritics_to_ascii: bool = FOLD_DIACRITICS_BY_DEFAULT,
 ) -> tuple[str, list[Removed]]:
     removals: list[Removed] = []
     # Taken from the raw text: the "# file.ext" title is itself stripped later.
@@ -1169,7 +1266,9 @@ def compact_document(
 
 # Describe what a run removed, one line per rule.
 def _format_rule_totals(removed_by_rule: collections.Counter[str]) -> str:
-    return " | ".join(f"{rule} {_format_int(chars)}" for rule, chars in removed_by_rule.most_common())
+    return " | ".join(
+        f"{rule} {_format_int(chars)}" for rule, chars in removed_by_rule.most_common()
+    )
 
 
 def _format_int(value: int) -> str:
@@ -1219,7 +1318,8 @@ def clean_documents(
     dictionary, common = build_dictionary(hunspell_dir, spellings=spellings)
     spelling_report = (spelling_report or DEFAULT_SPELLING_REPORT).resolve()
     if spelling_report in {path.resolve() for path in paths} | {
-        hunspell_dir / "ro_RO.dic", hunspell_dir / "ro_RO.aff",
+        hunspell_dir / "ro_RO.dic",
+        hunspell_dir / "ro_RO.aff",
     } or (spelling_report.is_relative_to(source) and spelling_report.suffix.lower() == ".md"):
         raise ValueError("The spelling report must not overwrite a source document or dictionary")
     counts: collections.Counter[str] = collections.Counter()
@@ -1240,10 +1340,16 @@ def clean_documents(
             counts.update(words)
             bigrams.update(zip(words, words[1:]))
     fixer = Fixer(
-        dictionary, common, counts, bigrams,
+        dictionary,
+        common,
+        counts,
+        bigrams,
         spellings=None if fold_diacritics_to_ascii else spellings,
     )
-    print(f"Spelling dictionary: {len(dictionary):,} forms; Romanian files: {romanian_files}", flush=True)
+    print(
+        f"Spelling dictionary: {len(dictionary):,} forms; Romanian files: {romanian_files}",
+        flush=True,
+    )
     changed = 0
     violations: list[tuple[str, list[str]]] = []
     removed_by_rule: collections.Counter[str] = collections.Counter()
@@ -1267,13 +1373,18 @@ def clean_documents(
                 for number, line in enumerate(cleaned.split("\n"), 1):
                     fixed, changes = fixer.fix_line(line)
                     fixed_lines.append(fixed)
-                    corrections.extend((number, rule, before, after) for rule, before, after in changes)
+                    corrections.extend(
+                        (number, rule, before, after) for rule, before, after in changes
+                    )
                 cleaned = "\n".join(fixed_lines)
             missing = check_digit_invariant(decoded, cleaned, removals)
             if missing:
                 relative = path.relative_to(source).as_posix()
                 violations.append((relative, missing))
-                print(f"Skipped, digit invariant: {relative} (missing {', '.join(missing)})", flush=True)
+                print(
+                    f"Skipped, digit invariant: {relative} (missing {', '.join(missing)})",
+                    flush=True,
+                )
                 continue
             if cleaned == decoded:
                 continue
@@ -1311,7 +1422,9 @@ def clean_documents(
         f"digit-invariant violations: {len(violations)}",
         flush=True,
     )
-    print(f"Spelling corrections: {sum(spelling_totals.values())} {dict(spelling_totals)}", flush=True)
+    print(
+        f"Spelling corrections: {sum(spelling_totals.values())} {dict(spelling_totals)}", flush=True
+    )
     print(f"Spelling report: {spelling_report} (lines in compacted text)", flush=True)
     if violations:
         raise DigitInvariantError(violations)
@@ -1323,13 +1436,19 @@ def parse_args() -> argparse.Namespace:
         description="Compact the Markdown sources under medicina-naturista-documente/data/documents in place.",
     )
     project_root = Path(__file__).resolve().parents[2]
-    parser.add_argument("--source", type=Path, default=project_root / "medicina-naturista-documente" / "data" / "documents")
     parser.add_argument(
-        "--spelling-report", type=Path,
+        "--source",
+        type=Path,
+        default=project_root / "medicina-naturista-documente" / "data" / "documents",
+    )
+    parser.add_argument(
+        "--spelling-report",
+        type=Path,
         help="TSV correction report (default: var/spelling_changes.tsv)",
     )
     parser.add_argument(
-        "--dry-run", action="store_true",
+        "--dry-run",
+        action="store_true",
         help="List files that would change without writing them",
     )
     parser.add_argument(
@@ -1338,7 +1457,7 @@ def parse_args() -> argparse.Namespace:
         action="store_false",
         default=FOLD_DIACRITICS_BY_DEFAULT,
         help="Keep Romanian diacritics; by default they are replaced with ASCII "
-             "letters (ă/â -> a, î -> i, ș -> s, ț -> t)",
+        "letters (ă/â -> a, î -> i, ș -> s, ț -> t)",
     )
     return parser.parse_args()
 

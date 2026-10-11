@@ -1,45 +1,48 @@
 """Smoke tests for the local web application; no live xAI requests."""
+
 from __future__ import annotations
 
 import io
 import os
-from dataclasses import replace
 import tempfile
 import threading
 import unittest
+from dataclasses import replace
 from pathlib import Path
 from types import SimpleNamespace
-from backend.core.errors import ApplicationError
 from unittest.mock import MagicMock, patch
 
 from fastapi.testclient import TestClient
 from pypdf import PdfReader
 
 from backend.ai.categories import CategoryNode, CategoryTree
+from backend.ai.client import GENERATE_REPORT_SYSTEM_PROMPT_PATH, XAIClient
 from backend.ai.condition_ai import AIConditionResult, resolved_for
 from backend.ai.embedding_model import _normalize_fastembed_metadata
 from backend.ai.search import ALL_SIGNALS, SearchSignals, max_score
-from backend.web import handlers, main
-from backend.reporting import pdf as reports_module
-from backend.ai.client import GENERATE_REPORT_SYSTEM_PROMPT_PATH, XAIClient
 from backend.config import Settings
+from backend.core import conversation
+from backend.core.errors import ApplicationError
+from backend.reporting import pdf as reports_module
+from backend.web import handlers, main
+
 settings = Settings()
-from backend.web.dependencies import Dependencies
+from backend.ai import conditions as conditions_module
+from backend.ai.conditions import ConditionDictionary, parse_conditions
+from backend.ai.retrieval import Retriever, consultation_query
+from backend.core.models import HEALTH_PROBLEM_QUESTION, CommitChange, HealthProfile
 from backend.core.owner_auth import OwnerAuth
 from backend.core.rate_limits import RateLimiter
-from tests.support.owners import FakeOwnerRepository
-from backend.core.models import HEALTH_PROBLEM_QUESTION, HealthProfile, CommitChange
+from backend.core.sessions import SessionStore
 from backend.reporting.pdf import (
     create_pdf,
     format_recommendation,
     generation_summary_lines,
     report_title,
 )
-from backend.ai import conditions as conditions_module
-from backend.ai.conditions import ConditionDictionary, parse_conditions
-from backend.ai.retrieval import Retriever, consultation_query
-from backend.core.sessions import SessionStore
+from backend.web.dependencies import Dependencies
 from tests.support.conditions import conditions_jsonl
+from tests.support.owners import FakeOwnerRepository
 
 # The highest score with every signal on; fragments in these tests are scored against it.
 MAX_SCORE = max_score(ALL_SIGNALS)
@@ -112,10 +115,12 @@ class FakeResponse:
     def json(self):
         return {
             "status": "completed",
-            "output": [{
-                "type": "message",
-                "content": [{"type": "output_text", "text": self._content}],
-            }],
+            "output": [
+                {
+                    "type": "message",
+                    "content": [{"type": "output_text", "text": self._content}],
+                }
+            ],
         }
 
 
@@ -159,24 +164,53 @@ class WebTests(unittest.TestCase):
         # Module-level rate limiting state (see web/main.py's rate_events)
         # would otherwise accumulate across tests sharing one TestClient IP.
         global _test_owner_token
+        dictionary = ConditionDictionary(
+            parse_conditions(
+                conditions_jsonl(
+                    "Gripa,flu,influenza\nRaceala,cold\nGuta,gout,podagra\nHipertensiune,hypertension\nMigrena,migraine\n"
+                )
+            )
+        )
+        fixture = patch.object(conditions_module, "load_dictionary", return_value=dictionary)
+        fixture.start()
+        self.addCleanup(fixture.stop)
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
-        config = replace(settings, condition_ai_backends=(), owner_key="synthetic-owner-key", max_sessions_per_ip=100, max_sessions_per_cookie=4)
+        config = replace(
+            settings,
+            condition_ai_backends=(),
+            owner_key="synthetic-owner-key",
+            max_sessions_per_ip=100,
+            max_sessions_per_cookie=4,
+        )
         store = SessionStore(Path(self.temp.name), 3600, 14400, config)
         self.addCleanup(store.shutdown)
         auth = OwnerAuth(config.owner_key, FakeOwnerRepository())
         _test_owner_token = auth.login(config.owner_key)
-        self.deps = Dependencies(config, store, FakeRetriever(), FakeAI(), auth, RateLimiter(), RateLimiter(), b"synthetic-csrf-secret")
+        self.deps = Dependencies(
+            config,
+            store,
+            FakeRetriever(),
+            FakeAI(),
+            auth,
+            RateLimiter(),
+            RateLimiter(),
+            b"synthetic-csrf-secret",
+        )
         # The condition AI never reaches the network from these tests: by default
         # it is "disabled"; the tests of that step patch it with their own answer.
-        no_ai = patch.object(main, "identify_conditions", return_value=AIConditionResult(reason="disabled"))
+        no_ai = patch.object(
+            main, "identify_conditions", return_value=AIConditionResult(reason="disabled")
+        )
         no_ai.start()
         self.addCleanup(no_ai.stop)
         # ... and no backend is configured, unless a test turns the step on (_with_ai_backends).
         no_backends = patch.object(self.deps, "settings", self.deps.settings)
         no_backends.start()
         self.addCleanup(no_backends.stop)
-        self.client = TestClient(main.create_app(self.deps.settings, self.deps), base_url="https://testserver")
+        self.client = TestClient(
+            main.create_app(self.deps.settings, self.deps), base_url="https://testserver"
+        )
         self.addCleanup(self.client.close)
 
     # Verify that cached model metadata paths are normalized across operating systems.
@@ -208,7 +242,10 @@ class WebTests(unittest.TestCase):
         self.assertTrue(profile.report_ready)
         self.assertIsNone(profile.next_question())
         self.assertEqual(profile.as_dict()["health_problem"], "Gripă și răceală")
-        self.assertEqual(set(profile.as_dict()), {"health_problem", "health_context", "transcript", "ai_conditions"})
+        self.assertEqual(
+            set(profile.as_dict()),
+            {"health_problem", "health_context", "transcript", "ai_conditions"},
+        )
 
     # Verify a later problem fully replaces the active retrieval/report context.
     def test_profile_replaces_previous_health_problem_context(self):
@@ -232,7 +269,9 @@ class WebTests(unittest.TestCase):
             "<b>Suc din morcovi, ananas, ghimbir și usturoi</b> pentru răceală.",
         )
         self.assertEqual(
-            format_recommendation("Lichen piatră cu rădăcină de brusture și echinaceea pulbere în părți egale"),
+            format_recommendation(
+                "Lichen piatră cu rădăcină de brusture și echinaceea pulbere în părți egale"
+            ),
             "<b>Lichen piatră cu rădăcină de brusture și echinaceea</b> pulbere în părți egale",
         )
 
@@ -247,7 +286,11 @@ class WebTests(unittest.TestCase):
             "Remedii naturiste pentru răceală și gripă",
         )
         self.assertEqual(
-            report_title({"health_problem": "caut remedii pentru raceala si gripa. Si mai vreau un remediu pentru guta"}),
+            report_title(
+                {
+                    "health_problem": "caut remedii pentru raceala si gripa. Si mai vreau un remediu pentru guta"
+                }
+            ),
             "Remedii naturiste pentru răceală, gripă și gută",
         )
 
@@ -303,7 +346,9 @@ class WebTests(unittest.TestCase):
         }
 
         with patch.object(client, "complete_json", return_value=result):
-            sections = client.generate({"health_problem": "gripă"}, {"E1": {"source": "plan.md", "text": "sursă"}})
+            sections = client.generate(
+                {"health_problem": "gripă"}, {"E1": {"source": "plan.md", "text": "sursă"}}
+            )
         client.close()
 
         self.assertEqual(
@@ -424,8 +469,12 @@ class WebTests(unittest.TestCase):
             "**• Alte recomandări:**",
         ]
         self.assertEqual(labels, sorted(labels, key=report.index))
-        self.assertLess(report.index("    - Salată de hrean"), report.index("    - Supă ușoară cu țelină"))
-        self.assertLess(report.index("    - Supă ușoară cu țelină"), report.index("    - Ceai de ghimbir"))
+        self.assertLess(
+            report.index("    - Salată de hrean"), report.index("    - Supă ușoară cu țelină")
+        )
+        self.assertLess(
+            report.index("    - Supă ușoară cu țelină"), report.index("    - Ceai de ghimbir")
+        )
         self.assertNotIn("• Rețete culinare:\n    - Rețete culinare", report)
 
     # The AI request applies no context budget of its own: the budget was applied
@@ -466,12 +515,18 @@ class WebTests(unittest.TestCase):
 
     def test_healthz_stays_available_when_index_requires_resync(self):
         from unittest.mock import Mock
+
         from backend.ai.index_state import IndexUnavailable
         from backend.ai.retrieval import Retriever
 
-        with patch.object(self.deps.ai, "is_configured", return_value=True, create=True), patch.object(self.deps, "retriever", Mock(spec=Retriever)), patch(
-            "backend.web.main.index_reader", side_effect=IndexUnavailable("INDEX_RESYNC_REQUIRED")
-        ) as reader:
+        with (
+            patch.object(self.deps.ai, "is_configured", return_value=True, create=True),
+            patch.object(self.deps, "retriever", Mock(spec=Retriever)),
+            patch(
+                "backend.web.main.index_reader",
+                side_effect=IndexUnavailable("INDEX_RESYNC_REQUIRED"),
+            ) as reader,
+        ):
             response = self.client.get("/healthz")
             self.assertEqual(response.status_code, 200)
             self.assertEqual(response.json(), {"status": "ok"})
@@ -486,9 +541,11 @@ class WebTests(unittest.TestCase):
 
         ai = create_ai_client(replace(settings, ai_provider="xai"))
         try:
-            with patch.object(self.deps, "ai", ai), patch.dict(os.environ, {"X_API_KEY": ""}), patch(
-                "backend.web.main.index_reader"
-            ) as reader:
+            with (
+                patch.object(self.deps, "ai", ai),
+                patch.dict(os.environ, {"X_API_KEY": ""}),
+                patch("backend.web.main.index_reader") as reader,
+            ):
                 self.assertEqual(self.client.get("/readyz").status_code, 503)
                 reader.assert_not_called()
         finally:
@@ -519,7 +576,12 @@ class WebTests(unittest.TestCase):
         self.assertEqual(len(history), 1)
         self.assertEqual(
             history[0],
-            {"role": "assistant", "kind": "text", "content": f"{main.WELCOME}\n\n{HEALTH_PROBLEM_QUESTION}", "groupId": "greeting"},
+            {
+                "role": "assistant",
+                "kind": "text",
+                "content": f"{conversation.WELCOME}\n\n{HEALTH_PROBLEM_QUESTION}",
+                "groupId": "greeting",
+            },
         )
         self.deps.store.delete(sid, tab)
 
@@ -529,7 +591,9 @@ class WebTests(unittest.TestCase):
         sid = "A" * 43
         response = self.client.get("/api/session", headers={"Cookie": f"{main.COOKIE}={sid}"})
         self.assertEqual(response.status_code, 400)
-        response = self.client.get("/api/session", headers={"Cookie": f"{main.COOKIE}={sid}", "X-Tab-Id": "x"})
+        response = self.client.get(
+            "/api/session", headers={"Cookie": f"{main.COOKIE}={sid}", "X-Tab-Id": "x"}
+        )
         self.assertEqual(response.status_code, 400)
 
     # Verify the "Caut rapid în cele N documente" notice reflects the
@@ -541,10 +605,38 @@ class WebTests(unittest.TestCase):
             category_tree = CategoryTree(
                 root_id="",
                 nodes={
-                    "": CategoryNode(id="", label="(fără categorie)", parent=None, children=("Cancer", "Centrul"), own_documents=0, total_documents=15),
-                    "Cancer": CategoryNode(id="Cancer", label="Cancer", parent="", children=(), own_documents=4, total_documents=4),
-                    "Centrul": CategoryNode(id="Centrul", label="Centrul", parent="", children=("Centrul/Anatomie",), own_documents=0, total_documents=11),
-                    "Centrul/Anatomie": CategoryNode(id="Centrul/Anatomie", label="Anatomie", parent="Centrul", children=(), own_documents=11, total_documents=11),
+                    "": CategoryNode(
+                        id="",
+                        label="(fără categorie)",
+                        parent=None,
+                        children=("Cancer", "Centrul"),
+                        own_documents=0,
+                        total_documents=15,
+                    ),
+                    "Cancer": CategoryNode(
+                        id="Cancer",
+                        label="Cancer",
+                        parent="",
+                        children=(),
+                        own_documents=4,
+                        total_documents=4,
+                    ),
+                    "Centrul": CategoryNode(
+                        id="Centrul",
+                        label="Centrul",
+                        parent="",
+                        children=("Centrul/Anatomie",),
+                        own_documents=0,
+                        total_documents=11,
+                    ),
+                    "Centrul/Anatomie": CategoryNode(
+                        id="Centrul/Anatomie",
+                        label="Anatomie",
+                        parent="Centrul",
+                        children=(),
+                        own_documents=11,
+                        total_documents=11,
+                    ),
                 },
             )
             document_count = 15
@@ -564,32 +656,45 @@ class WebTests(unittest.TestCase):
             self.assertIn("Caut rapid în cele 15 documente", notice["content"])
 
             # An id the tree doesn't know (stale selection) contributes nothing.
-            messages = _send(self.client, sid, tab, "Alergie", ["necunoscuta"])
+            messages = self.client.post(
+                "/api/messages",
+                json={"message": "Alergie", "categories": ["necunoscuta"]},
+                headers=_headers(sid, tab),
+            ).json()["messages"]
             notice = next(m for m in messages if "Caut rapid" in m.get("content", ""))
             self.assertIn("Caut rapid în cele 0 documente", notice["content"])
+            stale = self.client.post("/api/search", headers=_headers(sid, tab))
+            self.assertEqual(stale.status_code, 409)
+            self.assertEqual(stale.json()["detail"]["code"], "CATEGORY_SELECTION_STALE")
         self.deps.store.delete(sid, tab)
 
     # A health problem recognised in the condition dictionary gets a chat
     # notice naming the condition and listing ALL its synonyms (Romanian and
     # English); an unrecognised one gets no notice at all.
     def test_condition_identified_message_lists_every_synonym(self):
-        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl(
-            "Artrita gutoasa,guta articulara,artrita urica,gout\nAcnee rozacee,rozacee,cuperoza,rosacea\n"
-        )))
+        dictionary = ConditionDictionary(
+            parse_conditions(
+                conditions_jsonl(
+                    "Artrita gutoasa,guta articulara,artrita urica,gout\nAcnee rozacee,rozacee,cuperoza,rosacea\n"
+                )
+            )
+        )
         with patch.object(conditions_module, "load_dictionary", return_value=dictionary):
-            message = main._condition_identified_message("gout")
+            message = conversation.condition_identified_message("gout")
             self.assertEqual(message["role"], "assistant")
             self.assertEqual(
                 message["content"],
                 "✅ Am identificat afecțiunea: **Artrita gutoasa**. "
                 "O caut și după denumirile: guta articulara, artrita urica, gout.",
             )
-            self.assertIsNone(main._condition_identified_message("durere de cap"))
+            self.assertIsNone(conversation.condition_identified_message("durere de cap"))
 
     def test_condition_identified_message_names_both_conditions_when_two_match(self):
-        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita,arthritis\nArtroza,osteoarthritis\n")))
+        dictionary = ConditionDictionary(
+            parse_conditions(conditions_jsonl("Artrita,arthritis\nArtroza,osteoarthritis\n"))
+        )
         with patch.object(conditions_module, "load_dictionary", return_value=dictionary):
-            content = main._condition_identified_message("artrita, artroza")["content"]
+            content = conversation.condition_identified_message("artrita, artroza")["content"]
 
         self.assertIn("**Artrita**", content)
         self.assertIn("**Artroza**", content)
@@ -598,7 +703,7 @@ class WebTests(unittest.TestCase):
     def test_condition_without_synonyms_only_names_the_condition(self):
         dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Acalazie\n")))
         with patch.object(conditions_module, "load_dictionary", return_value=dictionary):
-            content = main._condition_identified_message("acalazie")["content"]
+            content = conversation.condition_identified_message("acalazie")["content"]
 
         self.assertEqual(content, "✅ Am identificat afecțiunea: **Acalazie**.")
 
@@ -610,12 +715,19 @@ class WebTests(unittest.TestCase):
             def collect(self, session, max_chars=None):
                 return {}
 
-        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n")))
+        dictionary = ConditionDictionary(
+            parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n"))
+        )
         sid, tab = "J" * 43, "tab-condition1"
-        with patch.object(self.deps, "retriever", Empty()), patch.object(conditions_module, "load_dictionary", return_value=dictionary):
+        with (
+            patch.object(self.deps, "retriever", Empty()),
+            patch.object(conditions_module, "load_dictionary", return_value=dictionary),
+        ):
             self.client.get("/api/session", headers=_headers(sid, tab))
             messages = self.client.post(
-                "/api/messages", json={"message": "gout", "categories": []}, headers=_headers(sid, tab)
+                "/api/messages",
+                json={"message": "gout", "categories": []},
+                headers=_headers(sid, tab),
             ).json()["messages"]
             contents = [m.get("content", "") for m in messages]
             searching = next(i for i, c in enumerate(contents) if "Caut rapid" in c)
@@ -623,7 +735,9 @@ class WebTests(unittest.TestCase):
             self.assertIn("guta articulara, gout", contents[searching - 1])
 
             messages = self.client.post(
-                "/api/messages", json={"message": "durere de cap", "categories": []}, headers=_headers(sid, tab)
+                "/api/messages",
+                json={"message": "durere de cap", "categories": []},
+                headers=_headers(sid, tab),
             ).json()["messages"]
             self.assertFalse(any("Am identificat" in m.get("content", "") for m in messages))
         self.deps.store.delete(sid, tab)
@@ -637,8 +751,12 @@ class WebTests(unittest.TestCase):
             document_count = 42
 
         with patch.object(self.deps, "retriever", RetrieverWithoutCategories()):
-            self.assertEqual(main._document_count_for_categories(set(), self.deps.retriever), 42)
-            self.assertEqual(main._document_count_for_categories({"anything"}, self.deps.retriever), 42)
+            self.assertEqual(
+                conversation.document_count_for_categories(set(), self.deps.retriever), 42
+            )
+            self.assertEqual(
+                conversation.document_count_for_categories({"anything"}, self.deps.retriever), 42
+            )
 
     # Verify searching with nothing selected is refused with an explanatory
     # message, and never reaches Retriever.collect() — only when the loaded
@@ -650,8 +768,22 @@ class WebTests(unittest.TestCase):
             category_tree = CategoryTree(
                 root_id="",
                 nodes={
-                    "": CategoryNode(id="", label="(fără categorie)", parent=None, children=("Cancer",), own_documents=0, total_documents=1),
-                    "Cancer": CategoryNode(id="Cancer", label="Cancer", parent="", children=(), own_documents=1, total_documents=1),
+                    "": CategoryNode(
+                        id="",
+                        label="(fără categorie)",
+                        parent=None,
+                        children=("Cancer",),
+                        own_documents=0,
+                        total_documents=1,
+                    ),
+                    "Cancer": CategoryNode(
+                        id="Cancer",
+                        label="Cancer",
+                        parent="",
+                        children=(),
+                        own_documents=1,
+                        total_documents=1,
+                    ),
                 },
             )
             document_count = 1
@@ -662,7 +794,7 @@ class WebTests(unittest.TestCase):
         with patch.object(self.deps, "retriever", RetrieverWithCategories()):
             self.client.get("/api/session", headers=_headers(sid, tab))
             messages = _send(self.client, sid, tab, "Gripă", [])
-        self.assertEqual(messages[-1]["content"], main.NO_CATEGORY_SELECTED_MESSAGE)
+        self.assertEqual(messages[-1]["content"], conversation.NO_CATEGORY_SELECTED_MESSAGE)
         self.deps.store.delete(sid, tab)
 
     # An index with no category tree at all never enforces a selection —
@@ -672,7 +804,7 @@ class WebTests(unittest.TestCase):
         with patch.object(self.deps, "retriever", FakeRetriever()):
             self.client.get("/api/session", headers=_headers(sid, tab))
             messages = _send(self.client, sid, tab, "Gripă", [])
-        self.assertNotEqual(messages[-1].get("content"), main.NO_CATEGORY_SELECTED_MESSAGE)
+        self.assertNotEqual(messages[-1].get("content"), conversation.NO_CATEGORY_SELECTED_MESSAGE)
         self.deps.store.delete(sid, tab)
 
     # --- Search signals (A conditions / B lexical / C semantic) ---------------
@@ -695,17 +827,25 @@ class WebTests(unittest.TestCase):
             self.client.get("/api/session", headers=_headers(sid, tab))
             messages = _send(self.client, sid, tab, "Gripă", [], signals=chosen)
 
-            self.assertEqual(self.deps.store.get(sid, tab).search_signals, SearchSignals(False, True, True))
+            self.assertEqual(
+                self.deps.store.get(sid, tab).search_signals, SearchSignals(False, True, True)
+            )
             self.assertEqual(FakeRetriever.signals, SearchSignals(False, True, True))
             self.assertEqual(_by_kind(messages, "fragments")["signals"], chosen)
             search_id = _by_kind(messages, "generate")["searchId"]
-            self.assertEqual(self.deps.store.get(sid, tab).searches[search_id].signals, SearchSignals(False, True, True))
+            self.assertEqual(
+                self.deps.store.get(sid, tab).searches[search_id].signals,
+                SearchSignals(False, True, True),
+            )
 
             # The next message may choose again; the first search keeps what it was scored with.
             only_conditions = {"conditions": True, "lexical": False, "semantic": False}
             later = _send(self.client, sid, tab, "Migrenă", [], signals=only_conditions)
             self.assertEqual(_by_kind(later, "fragments")["signals"], only_conditions)
-            self.assertEqual(self.deps.store.get(sid, tab).searches[search_id].signals, SearchSignals(False, True, True))
+            self.assertEqual(
+                self.deps.store.get(sid, tab).searches[search_id].signals,
+                SearchSignals(False, True, True),
+            )
         self.deps.store.delete(sid, tab)
 
     # A request with every signal off is refused with 422 and changes nothing.
@@ -732,10 +872,21 @@ class WebTests(unittest.TestCase):
         sid, tab = "N" * 43, "tab-signals004"
         with patch.object(self.deps, "retriever", FakeRetriever()):
             self.client.get("/api/session", headers=_headers(sid, tab))
-            with self.assertLogs("naturist.web", level="INFO") as captured:
-                _send(self.client, sid, tab, "Gripă", [], signals={"conditions": True, "lexical": False, "semantic": True})
+            with self.assertLogs("naturist.conversation", level="INFO") as captured:
+                _send(
+                    self.client,
+                    sid,
+                    tab,
+                    "Gripă",
+                    [],
+                    signals={"conditions": True, "lexical": False, "semantic": True},
+                )
 
-        self.assertTrue(any("user_message_accepted" in line and "signals=AC" in line for line in captured.output))
+        self.assertTrue(
+            any(
+                "user_message_accepted" in line and "signals=AC" in line for line in captured.output
+            )
+        )
         self.deps.store.delete(sid, tab)
 
     # What the "Am identificat afecțiunea" notice says for every combination of
@@ -744,9 +895,13 @@ class WebTests(unittest.TestCase):
     # for a condition that is a whole expression of the message ("gout"), never for one
     # found inside a longer expression ("tuse la copii").
     def test_condition_notice_for_every_combination_of_signals(self):
-        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl(
-            "Artrita gutoasa,guta articulara,artrita urica,gout\nTuse,cough,tusea\n"
-        )))
+        dictionary = ConditionDictionary(
+            parse_conditions(
+                conditions_jsonl(
+                    "Artrita gutoasa,guta articulara,artrita urica,gout\nTuse,cough,tusea\n"
+                )
+            )
+        )
         gout = "✅ Am identificat afecțiunea: **Artrita gutoasa**."
         gout_synonyms = gout + " O caut și după denumirile: guta articulara, artrita urica, gout."
         cough = "✅ Am identificat afecțiunea: **Tuse**."
@@ -762,19 +917,31 @@ class WebTests(unittest.TestCase):
         with patch.object(conditions_module, "load_dictionary", return_value=dictionary):
             for code, content in expected.items():
                 with self.subTest(code=code):
-                    message = main._condition_identified_message("gout, tuse la copii", SearchSignals.from_code(code))
+                    message = conversation.condition_identified_message(
+                        "gout, tuse la copii", SearchSignals.from_code(code)
+                    )
                     self.assertEqual(None if message is None else message["content"], content)
 
     # A message that names nothing gets no notice whatever the signals; a
     # near-identical spelling of a term is still the whole condition.
     def test_condition_notice_is_absent_when_nothing_is_recognised(self):
-        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n")))
+        dictionary = ConditionDictionary(
+            parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n"))
+        )
         with patch.object(conditions_module, "load_dictionary", return_value=dictionary):
             for code in ("ABC", "A", "B", "C"):
-                self.assertIsNone(main._condition_identified_message("durere de cap", SearchSignals.from_code(code)))
+                self.assertIsNone(
+                    conversation.condition_identified_message(
+                        "durere de cap", SearchSignals.from_code(code)
+                    )
+                )
             # Called without signals: every one is on.
-            self.assertIn("guta articulara", main._condition_identified_message("gout")["content"])
-            typo = main._condition_identified_message("artrita gutosa", SearchSignals.from_code("B"))
+            self.assertIn(
+                "guta articulara", conversation.condition_identified_message("gout")["content"]
+            )
+            typo = conversation.condition_identified_message(
+                "artrita gutosa", SearchSignals.from_code("B")
+            )
             self.assertIn("O caut și după denumirile", typo["content"])
 
     # --- Condition identified by the AI when the dictionary knows none --------
@@ -782,7 +949,13 @@ class WebTests(unittest.TestCase):
     # Run the two-phase send with the AI step answering `result`, a dictionary of
     # Artrita gutoasa only (so "durere de cap" is unknown to it) and a retriever
     # that records the conditions its search sees; returns (messages, ai mock, session, seen).
-    def _send_with_ai(self, message: str, result: AIConditionResult, signals: dict | None = None, tab: str = "tab-condai0001"):
+    def _send_with_ai(
+        self,
+        message: str,
+        result: AIConditionResult,
+        signals: dict | None = None,
+        tab: str = "tab-condai0001",
+    ):
         class Recording(FakeRetriever):
             category_tree = None
             document_count = 3
@@ -792,11 +965,15 @@ class WebTests(unittest.TestCase):
                 type(self).seen = resolved_for(session.profile).condition_names
                 return super().collect(session, max_chars)
 
-        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n")))
+        dictionary = ConditionDictionary(
+            parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n"))
+        )
         sid = "C" * 43
         ai_step = MagicMock(return_value=result)
         with (
-            patch.object(self.deps, "settings", replace(settings, condition_ai_backends=("local",))),
+            patch.object(
+                self.deps, "settings", replace(settings, condition_ai_backends=("local",))
+            ),
             patch.object(self.deps, "retriever", Recording()),
             patch.object(main, "identify_conditions", ai_step),
             patch.object(conditions_module, "load_dictionary", return_value=dictionary),
@@ -819,14 +996,19 @@ class WebTests(unittest.TestCase):
 
         ai_step.assert_not_called()
         self.assertEqual(seen, ("Artrita gutoasa",))
-        self.assertFalse(any("Am identificat" in m.get("content", "") and "AI" in m.get("content", "") for m in messages))
+        self.assertFalse(
+            any(
+                "Am identificat" in m.get("content", "") and "AI" in m.get("content", "")
+                for m in messages
+            )
+        )
 
     def test_an_ai_condition_is_announced_after_the_searching_notice_and_before_the_fragments(self):
         messages, ai_step, session, seen = self._send_with_ai("durere de cap", self._identified())
 
         ai_step.assert_called_once()
         kinds = [(m["kind"], m.get("content", "")) for m in messages]
-        notice = next(i for i, (_, c) in enumerate(kinds) if c == main.CONDITION_AI_NOTICE)
+        notice = next(i for i, (_, c) in enumerate(kinds) if c == conversation.CONDITION_AI_NOTICE)
         announced = next(i for i, (_, c) in enumerate(kinds) if "Am identificat" in c)
         searching = next(i for i, (_, c) in enumerate(kinds) if "Caut rapid" in c)
         fragments = next(i for i, (kind, _) in enumerate(kinds) if kind == "fragments")
@@ -842,13 +1024,19 @@ class WebTests(unittest.TestCase):
         self.assertEqual(seen, ("Cefalee",))
         self.assertEqual(session.profile.ai_conditions[0]["name"], "Cefalee")
         pending = session.searches[_by_kind(messages, "generate")["searchId"]]
-        self.assertEqual(pending.profile["ai_conditions"][0]["terms"], ["Cefalee", "migrena", "headache"])
+        self.assertEqual(
+            pending.profile["ai_conditions"][0]["terms"], ["Cefalee", "migrena", "headache"]
+        )
 
     def test_the_ai_is_asked_for_the_segments_of_the_message(self):
-        _messages, ai_step, _session, _seen = self._send_with_ai("durere de cap, ameteli", self._identified())
+        _messages, ai_step, _session, _seen = self._send_with_ai(
+            "durere de cap, ameteli", self._identified()
+        )
 
         resolved = ai_step.call_args.args[0]
-        self.assertEqual([segment.text for segment in resolved.segments], ["durere de cap", "ameteli"])
+        self.assertEqual(
+            [segment.text for segment in resolved.segments], ["durere de cap", "ameteli"]
+        )
 
     def test_a_message_the_ai_cannot_identify_says_so_and_the_search_goes_on(self):
         result = AIConditionResult(reason="none", backend="local")
@@ -856,40 +1044,52 @@ class WebTests(unittest.TestCase):
         messages, _ai_step, _session, seen = self._send_with_ai("ce plante sunt bune?", result)
 
         contents = [m.get("content", "") for m in messages]
-        self.assertIn(main.CONDITION_NOT_IDENTIFIED_CONTINUES, contents)
+        self.assertIn(conversation.CONDITION_NOT_IDENTIFIED_CONTINUES, contents)
         self.assertEqual(seen, ())
         searching = next(i for i, c in enumerate(contents) if "Caut rapid" in c)
-        self.assertLess(contents.index(main.CONDITION_NOT_IDENTIFIED_CONTINUES), searching)
+        self.assertLess(contents.index(conversation.CONDITION_NOT_IDENTIFIED_CONTINUES), searching)
 
     def test_an_unavailable_ai_is_the_same_notice_whatever_the_reason(self):
         for reason in ("timeout", "error", "no_token"):
             with self.subTest(reason=reason):
-                messages, *_ = self._send_with_ai("durere de cap", AIConditionResult(reason=reason), tab=f"tab-condai-{reason}")
-                self.assertIn(main.CONDITION_NOT_IDENTIFIED_CONTINUES, [m.get("content") for m in messages])
+                messages, *_ = self._send_with_ai(
+                    "durere de cap", AIConditionResult(reason=reason), tab=f"tab-condai-{reason}"
+                )
+                self.assertIn(
+                    conversation.CONDITION_NOT_IDENTIFIED_CONTINUES,
+                    [m.get("content") for m in messages],
+                )
 
     def test_only_the_conditions_signal_stops_the_search_when_no_condition_is_found(self):
         only_conditions = {"conditions": True, "lexical": False, "semantic": False}
 
         messages, _ai_step, session, _seen = self._send_with_ai(
-            "durere de cap", AIConditionResult(reason="none"), signals=only_conditions, tab="tab-condai0002"
+            "durere de cap",
+            AIConditionResult(reason="none"),
+            signals=only_conditions,
+            tab="tab-condai0002",
         )
 
-        self.assertEqual(messages[-1]["content"], main.CONDITION_NOT_IDENTIFIED_STOPS)
+        self.assertEqual(messages[-1]["content"], conversation.CONDITION_NOT_IDENTIFIED_STOPS)
         self.assertFalse(any(m["kind"] == "fragments" for m in messages))
         self.assertEqual(session.searches, {})
 
     def test_without_the_conditions_signal_the_ai_step_does_not_run_and_nothing_is_said(self):
         signals = {"conditions": False, "lexical": True, "semantic": True}
 
-        messages, ai_step, _session, _seen = self._send_with_ai("durere de cap", self._identified(), signals=signals, tab="tab-condai0003")
+        messages, ai_step, _session, _seen = self._send_with_ai(
+            "durere de cap", self._identified(), signals=signals, tab="tab-condai0003"
+        )
 
         ai_step.assert_not_called()
         self.assertFalse(any("afecțiunea" in m.get("content", "") for m in messages))
         self.assertTrue(any(m["kind"] == "fragments" for m in messages))
 
     def test_without_configured_backends_the_ai_step_does_not_run_and_nothing_is_said(self):
-        with patch.object(main, "_needs_condition_ai", return_value=False):
-            messages, ai_step, _session, _seen = self._send_with_ai("durere de cap", self._identified(), tab="tab-condai0004")
+        with patch("backend.core.conversation.needs_condition_ai", return_value=False):
+            messages, ai_step, _session, _seen = self._send_with_ai(
+                "durere de cap", self._identified(), tab="tab-condai0004"
+            )
 
         ai_step.assert_not_called()
         self.assertFalse(any("afecțiunea" in m.get("content", "") for m in messages))
@@ -897,17 +1097,27 @@ class WebTests(unittest.TestCase):
 
     def test_a_new_message_clears_the_conditions_of_the_previous_one(self):
         sid, tab = "D" * 43, "tab-condai0005"
-        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n")))
+        dictionary = ConditionDictionary(
+            parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n"))
+        )
         with (
-            patch.object(self.deps, "settings", replace(settings, condition_ai_backends=("local",))),
+            patch.object(
+                self.deps, "settings", replace(settings, condition_ai_backends=("local",))
+            ),
             patch.object(self.deps, "retriever", FakeRetriever()),
             patch.object(main, "identify_conditions", return_value=self._identified()),
             patch.object(conditions_module, "load_dictionary", return_value=dictionary),
         ):
             self.client.get("/api/session", headers=_headers(sid, tab))
             _send(self.client, sid, tab, "durere de cap", [])
-            self.assertEqual(self.deps.store.get(sid, tab).profile.ai_conditions[0]["name"], "Cefalee")
-            self.client.post("/api/messages", json={"message": "gout", "categories": []}, headers=_headers(sid, tab))
+            self.assertEqual(
+                self.deps.store.get(sid, tab).profile.ai_conditions[0]["name"], "Cefalee"
+            )
+            self.client.post(
+                "/api/messages",
+                json={"message": "gout", "categories": []},
+                headers=_headers(sid, tab),
+            )
             self.assertEqual(self.deps.store.get(sid, tab).profile.ai_conditions, ())
         self.deps.store.delete(sid, tab)
 
@@ -915,7 +1125,9 @@ class WebTests(unittest.TestCase):
     # replaces the problem, and the late answer is thrown away.
     def test_an_answer_for_a_replaced_message_is_discarded(self):
         sid, tab = "E" * 43, "tab-condai0006"
-        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n")))
+        dictionary = ConditionDictionary(
+            parse_conditions(conditions_jsonl("Artrita gutoasa,guta articulara,gout\n"))
+        )
 
         def slow_ai(resolved):
             session = self.deps.store.get(sid, tab)
@@ -935,19 +1147,27 @@ class WebTests(unittest.TestCase):
             profile = op.snapshot.profile
             profile.replace_health_problem("gout")
             try:
-                self.deps.store.commit_operation(op, CommitChange(profile=profile, new_context=True))
+                self.deps.store.commit_operation(
+                    op, CommitChange(profile=profile, new_context=True)
+                )
             finally:
                 self.deps.store.finish_operation(op)
             return self._identified()
 
         with (
-            patch.object(self.deps, "settings", replace(settings, condition_ai_backends=("local",))),
+            patch.object(
+                self.deps, "settings", replace(settings, condition_ai_backends=("local",))
+            ),
             patch.object(self.deps, "retriever", FakeRetriever()),
             patch.object(main, "identify_conditions", side_effect=slow_ai),
             patch.object(conditions_module, "load_dictionary", return_value=dictionary),
         ):
             self.client.get("/api/session", headers=_headers(sid, tab))
-            self.client.post("/api/messages", json={"message": "durere de cap", "categories": []}, headers=_headers(sid, tab))
+            self.client.post(
+                "/api/messages",
+                json={"message": "durere de cap", "categories": []},
+                headers=_headers(sid, tab),
+            )
             body = self.client.post("/api/condition", headers=_headers(sid, tab)).json()
             messages = body["messages"]
             session = self.deps.store.get(sid, tab)
@@ -957,39 +1177,73 @@ class WebTests(unittest.TestCase):
         self.deps.store.delete(sid, tab)
 
     def test_the_condition_notice_names_the_ai_only_with_by_ai(self):
-        with patch.object(conditions_module, "load_dictionary", return_value=ConditionDictionary([])):
-            resolved = resolved_for({"health_problem": "x", "ai_conditions": [{"index": 1, "name": "Cefalee", "terms": ["Cefalee"]}]})
+        with patch.object(
+            conditions_module, "load_dictionary", return_value=ConditionDictionary([])
+        ):
+            resolved = resolved_for(
+                {
+                    "health_problem": "x",
+                    "ai_conditions": [{"index": 1, "name": "Cefalee", "terms": ["Cefalee"]}],
+                }
+            )
 
         self.assertEqual(
-            main._condition_identified_message(resolved, by_ai=True)["content"],
+            conversation.condition_identified_message(resolved, by_ai=True)["content"],
             "✅ Am identificat afecțiunea (cu ajutorul AI): **Cefalee**.",
         )
-        self.assertEqual(main._condition_identified_message(resolved)["content"], "✅ Am identificat afecțiunea: **Cefalee**.")
+        self.assertEqual(
+            conversation.condition_identified_message(resolved)["content"],
+            "✅ Am identificat afecțiunea: **Cefalee**.",
+        )
 
     def test_the_fragments_percent_is_relative_to_the_signals_that_could_contribute(self):
         profile = HealthProfile()
         profile.set_health_problem("durere de cap")
-        session = type("SyntheticSession", (), {"profile": profile, "search_signals": ALL_SIGNALS})()
+        session = type(
+            "SyntheticSession", (), {"profile": profile, "search_signals": ALL_SIGNALS}
+        )()
         retriever = object.__new__(Retriever)
         retriever.documents_dir = Path(self.temp.name)
         retriever._known_category_ids = frozenset()
-        ranked = [{
-            **self._ranked(1, "a.md", 1, 5, 0.5), "score": 2.0,
-            "condition_in_title": None, "condition_in_text": None,
-            "lexical_score": 1.0, "semantic_score": 1.0, "semantic_similarity": 0.9,
-        }]
-        dictionary = ConditionDictionary(parse_conditions(conditions_jsonl("Artrita gutoasa,gout\n")))
+        ranked = [
+            {
+                **self._ranked(1, "a.md", 1, 5, 0.5),
+                "score": 2.0,
+                "condition_in_title": None,
+                "condition_in_text": None,
+                "lexical_score": 1.0,
+                "semantic_score": 1.0,
+                "semantic_similarity": 0.9,
+            }
+        ]
+        dictionary = ConditionDictionary(
+            parse_conditions(conditions_jsonl("Artrita gutoasa,gout\n"))
+        )
 
         with (
             patch.object(conditions_module, "load_dictionary", return_value=dictionary),
             patch("backend.ai.retrieval.rank", return_value=ranked),
         ):
-            without_condition = retriever._collect(session, None, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")
+            without_condition = retriever._collect(
+                session,
+                None,
+                SimpleNamespace(known_ids=lambda: retriever._known_category_ids),
+                "test-generation",
+            )
             profile.ai_conditions = ({"index": 1, "name": "Cefalee", "terms": ["Cefalee"]},)
-            with_ai_condition = retriever._collect(session, None, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")
+            with_ai_condition = retriever._collect(
+                session,
+                None,
+                SimpleNamespace(known_ids=lambda: retriever._known_category_ids),
+                "test-generation",
+            )
 
-        self.assertAlmostEqual(without_condition["C1"]["relevance_percent"], 100.0)  # A left out: ceiling 2
-        self.assertAlmostEqual(with_ai_condition["C1"]["relevance_percent"], 25.0)  # A on: ceiling 8
+        self.assertAlmostEqual(
+            without_condition["C1"]["relevance_percent"], 100.0
+        )  # A left out: ceiling 2
+        self.assertAlmostEqual(
+            with_ai_condition["C1"]["relevance_percent"], 25.0
+        )  # A on: ceiling 8
 
     # --- Fragment message building (pure function, no HTTP round trip needed) --
 
@@ -1044,13 +1298,26 @@ class WebTests(unittest.TestCase):
 
     # The fragments message tells the panel which signals the scores were made of.
     def test_fragments_message_carries_the_signals(self):
-        evidence = {"C1": {"source": "documents/doc-a.md:1-5", "text": "Text", "score": 1.0, "relevance_percent": 100.0}}
+        evidence = {
+            "C1": {
+                "source": "documents/doc-a.md:1-5",
+                "text": "Text",
+                "score": 1.0,
+                "relevance_percent": 100.0,
+            }
+        }
 
         default = handlers._fragments_message("search-1", evidence)
-        chosen = handlers._fragments_message("search-1", evidence, SearchSignals(False, True, False))
+        chosen = handlers._fragments_message(
+            "search-1", evidence, SearchSignals(False, True, False)
+        )
 
-        self.assertEqual(default["signals"], {"conditions": True, "lexical": True, "semantic": True})
-        self.assertEqual(chosen["signals"], {"conditions": False, "lexical": True, "semantic": False})
+        self.assertEqual(
+            default["signals"], {"conditions": True, "lexical": True, "semantic": True}
+        )
+        self.assertEqual(
+            chosen["signals"], {"conditions": False, "lexical": True, "semantic": False}
+        )
 
     # A fragment missing found_by_lexical (older cached evidence, or a caller
     # that doesn't set it) must still render — just with an empty matchLabel.
@@ -1073,7 +1340,12 @@ class WebTests(unittest.TestCase):
     # and null for a fragment that carries none.
     def test_fragments_message_shows_backend_relevance_percent(self):
         evidence = {
-            "C1": {"source": "documents/doc-a.md:1-5", "text": "Cu procent", "score": 0.02, "relevance_percent": 61.6},
+            "C1": {
+                "source": "documents/doc-a.md:1-5",
+                "text": "Cu procent",
+                "score": 0.02,
+                "relevance_percent": 61.6,
+            },
             "C2": {"source": "documents/doc-b.md:1-5", "text": "Fără procent", "score": 0.01},
         }
 
@@ -1092,9 +1364,11 @@ class WebTests(unittest.TestCase):
         FakeAI.generate_calls = 0
         FakeAI.report_profile = None
 
-        with patch.object(main, "send_report", return_value="email_sent") as send_report_mock, patch.object(
-            self.deps, "ai", FakeAI()
-        ), patch.object(self.deps, "retriever", FakeRetriever()):
+        with (
+            patch.object(main, "send_report", return_value="email_sent") as send_report_mock,
+            patch.object(self.deps, "ai", FakeAI()),
+            patch.object(self.deps, "retriever", FakeRetriever()),
+        ):
             session_a = self.client.get("/api/session", headers=_headers(sid_a, tab_a)).json()
             self.assertTrue(session_a["history"][-1]["content"].endswith(HEALTH_PROBLEM_QUESTION))
             self.client.get("/api/session", headers=_headers(sid_b, tab_b))
@@ -1102,7 +1376,9 @@ class WebTests(unittest.TestCase):
             messages = _send(self.client, sid_a, tab_a, "Gripă și răceală", [])
             self.assertTrue(any("Caut rapid în cele" in m.get("content", "") for m in messages))
             self.assertEqual(FakeAI.generate_calls, 0, "retrieval must not call the AI")
-            self.assertEqual(FakeRetriever.max_chars, 123_456, "retrieval must use the provider's budget")
+            self.assertEqual(
+                FakeRetriever.max_chars, 123_456, "retrieval must use the provider's budget"
+            )
 
             fragments = _by_kind(messages, "fragments")
             generate = _by_kind(messages, "generate")
@@ -1125,14 +1401,18 @@ class WebTests(unittest.TestCase):
             )
 
             # A non-owner visitor is refused, and the button stays clickable.
-            resp = self.client.post(f"/api/searches/{search_id}/generate", headers=_headers(sid_a, tab_a))
+            resp = self.client.post(
+                f"/api/searches/{search_id}/generate", headers=_headers(sid_a, tab_a)
+            )
             body = resp.json()
             self.assertEqual(body["ownerNotice"], main.OWNER_ONLY_MESSAGE)
             self.assertEqual(body["messages"], [])
             self.assertEqual(FakeAI.generate_calls, 0)
 
             # The owner successfully generates the report.
-            resp = self.client.post(f"/api/searches/{search_id}/generate", headers=_headers(sid_a, tab_a, owner=True))
+            resp = self.client.post(
+                f"/api/searches/{search_id}/generate", headers=_headers(sid_a, tab_a, owner=True)
+            )
             body = resp.json()
             self.assertIsNone(body["ownerNotice"])
             self.assertEqual(FakeAI.generate_calls, 1)
@@ -1147,10 +1427,14 @@ class WebTests(unittest.TestCase):
             self.assertTrue(download["url"].startswith(f"/api/reports/{tab_a}/"))
 
             # The report downloads for tab A's cookie only.
-            pdf_response = self.client.get(download["url"], headers={"Cookie": f"{main.COOKIE}={sid_a}"})
+            pdf_response = self.client.get(
+                download["url"], headers={"Cookie": f"{main.COOKIE}={sid_a}"}
+            )
             self.assertEqual(pdf_response.status_code, 200)
             self.assertTrue(pdf_response.content.startswith(b"%PDF-"))
-            other_tab_response = self.client.get(download["url"], headers={"Cookie": f"{main.COOKIE}={sid_b}"})
+            other_tab_response = self.client.get(
+                download["url"], headers={"Cookie": f"{main.COOKIE}={sid_b}"}
+            )
             self.assertEqual(other_tab_response.status_code, 404)
 
             # Emailing the finished report.
@@ -1182,9 +1466,11 @@ class WebTests(unittest.TestCase):
         FakeAI.generate_calls = 0
         FakeAI.report_profile = None
 
-        with patch.object(main, "send_report", return_value="email_sent"), patch.object(
-            self.deps, "ai", FakeAI()
-        ), patch.object(self.deps, "retriever", FakeRetriever()):
+        with (
+            patch.object(main, "send_report", return_value="email_sent"),
+            patch.object(self.deps, "ai", FakeAI()),
+            patch.object(self.deps, "retriever", FakeRetriever()),
+        ):
             self.client.get("/api/session", headers=_headers(sid, tab))
             first_messages = _send(self.client, sid, tab, "Gripă și răceală", [])
             first_search_id = _by_kind(first_messages, "generate")["searchId"]
@@ -1195,7 +1481,9 @@ class WebTests(unittest.TestCase):
 
             session = self.deps.store.get(sid, tab)
             self.assertEqual(session.profile.health_problem, "Migrenă")
-            self.assertEqual(session.searches[first_search_id].profile["health_problem"], "Gripă și răceală")
+            self.assertEqual(
+                session.searches[first_search_id].profile["health_problem"], "Gripă și răceală"
+            )
 
             # Generating the FIRST search uses its own problem, even though the chat moved on.
             first_result = self.client.post(
@@ -1215,7 +1503,8 @@ class WebTests(unittest.TestCase):
             # Both PDFs stay downloadable, each for its own problem.
             self.assertEqual(len(session.reports), 2)
             first_text = " ".join(
-                page.extract_text() for page in PdfReader(io.BytesIO(session.reports[first_report_id].data)).pages
+                page.extract_text()
+                for page in PdfReader(io.BytesIO(session.reports[first_report_id].data)).pages
             )
             self.assertIn("gripă și răceală", " ".join(first_text.split()))
             self.assertNotIn("Migrenă", " ".join(first_text.split()))
@@ -1231,8 +1520,18 @@ class WebTests(unittest.TestCase):
         class TwoFragments(FakeRetriever):
             def collect(self, session, max_chars=None):
                 return {
-                    "C1": {"source": "documents/a.md:1-5", "text": "Fragment slab.", "score": 1.0, "relevance_percent": 30.0},
-                    "C2": {"source": "documents/b.md:1-5", "text": "Fragment bun.", "score": 3.0, "relevance_percent": 50.0},
+                    "C1": {
+                        "source": "documents/a.md:1-5",
+                        "text": "Fragment slab.",
+                        "score": 1.0,
+                        "relevance_percent": 30.0,
+                    },
+                    "C2": {
+                        "source": "documents/b.md:1-5",
+                        "text": "Fragment bun.",
+                        "score": 3.0,
+                        "relevance_percent": 50.0,
+                    },
                 }
 
         class RecordingAI(FakeAI):
@@ -1242,7 +1541,10 @@ class WebTests(unittest.TestCase):
                 type(self).sent.append(sorted(evidence))
                 return super().generate(profile, evidence)
 
-        with patch.object(self.deps, "ai", RecordingAI()), patch.object(self.deps, "retriever", TwoFragments()):
+        with (
+            patch.object(self.deps, "ai", RecordingAI()),
+            patch.object(self.deps, "retriever", TwoFragments()),
+        ):
             self.client.get("/api/session", headers=_headers(sid, tab))
 
             def new_search():
@@ -1250,23 +1552,29 @@ class WebTests(unittest.TestCase):
 
             def generate(search_id, body):
                 return self.client.post(
-                    f"/api/searches/{search_id}/generate", json=body, headers=_headers(sid, tab, owner=True)
+                    f"/api/searches/{search_id}/generate",
+                    json=body,
+                    headers=_headers(sid, tab, owner=True),
                 )
 
             # Nothing reaches 75%: no AI call, a notice, and the search stays pending.
             search_id = new_search()
             messages = generate(search_id, {"minScore": 75}).json()["messages"]
-            self.assertEqual(messages[-1]["content"], main.NO_FRAGMENT_ABOVE_MIN_SCORE)
+            self.assertEqual(messages[-1]["content"], conversation.NO_FRAGMENT_ABOVE_MIN_SCORE)
             self.assertEqual(RecordingAI.sent, [])
             self.assertIn(search_id, self.deps.store.get(sid, tab).searches)
 
             # The threshold is inclusive: 50% keeps the 50.0 fragment only.
-            self.assertIsNotNone(_by_kind(generate(search_id, {"minScore": 50}).json()["messages"], "download"))
+            self.assertIsNotNone(
+                _by_kind(generate(search_id, {"minScore": 50}).json()["messages"], "download")
+            )
             self.assertEqual(RecordingAI.sent[-1], ["C2"])
 
             # No body (older clients) sends every fragment.
             search_id = new_search()
-            self.client.post(f"/api/searches/{search_id}/generate", headers=_headers(sid, tab, owner=True))
+            self.client.post(
+                f"/api/searches/{search_id}/generate", headers=_headers(sid, tab, owner=True)
+            )
             self.assertEqual(RecordingAI.sent[-1], ["C1", "C2"])
 
             self.assertEqual(generate(new_search(), {"minScore": 150}).status_code, 422)
@@ -1277,14 +1585,18 @@ class WebTests(unittest.TestCase):
     def test_email_failure_keeps_report_available(self):
         sid, tab = "D" * 43, "tab-emailfail1"
 
-        with patch.object(self.deps, "ai", FakeAI()), patch.object(self.deps, "retriever", FakeRetriever()), patch.object(
-            main, "send_report", side_effect=OSError("SMTP unavailable")
+        with (
+            patch.object(self.deps, "ai", FakeAI()),
+            patch.object(self.deps, "retriever", FakeRetriever()),
+            patch.object(main, "send_report", side_effect=OSError("SMTP unavailable")),
         ):
             self.client.get("/api/session", headers=_headers(sid, tab))
             messages = _send(self.client, sid, tab, "Gripă și răceală", [])
             search_id = _by_kind(messages, "generate")["searchId"]
-            self.client.post(f"/api/searches/{search_id}/generate", headers=_headers(sid, tab, owner=True))
-            with self.assertLogs("naturist.web", level="ERROR") as captured:
+            self.client.post(
+                f"/api/searches/{search_id}/generate", headers=_headers(sid, tab, owner=True)
+            )
+            with self.assertLogs("naturist.conversation", level="ERROR") as captured:
                 reply_messages = _send(self.client, sid, tab, "prieten@example.com", [])
 
         session = self.deps.store.get(sid, tab)
@@ -1310,8 +1622,22 @@ class WebTests(unittest.TestCase):
         tree = CategoryTree(
             root_id="",
             nodes={
-                "": CategoryNode(id="", label="(fără categorie)", parent=None, children=("Cancer",), own_documents=0, total_documents=2),
-                "Cancer": CategoryNode(id="Cancer", label="Cancer", parent="", children=(), own_documents=2, total_documents=2),
+                "": CategoryNode(
+                    id="",
+                    label="(fără categorie)",
+                    parent=None,
+                    children=("Cancer",),
+                    own_documents=0,
+                    total_documents=2,
+                ),
+                "Cancer": CategoryNode(
+                    id="Cancer",
+                    label="Cancer",
+                    parent="",
+                    children=(),
+                    own_documents=2,
+                    total_documents=2,
+                ),
             },
         )
 
@@ -1332,7 +1658,9 @@ class WebTests(unittest.TestCase):
 
         with patch.object(self.deps, "retriever", RetrieverWithoutCategories()):
             response = self.client.get("/api/categories")
-        self.assertEqual(response.json(), {"tree": None, "defaultSelection": [], "indexGeneration": None})
+        self.assertEqual(
+            response.json(), {"tree": None, "defaultSelection": [], "indexGeneration": None}
+        )
 
     # Verify retrieval against the real, locally configured index/database: the
     # sections titled with the condition come first (P1), the treatment plan is
@@ -1374,7 +1702,12 @@ class WebTests(unittest.TestCase):
         ]
 
         with patch("backend.ai.retrieval.rank", return_value=ranked):
-            evidence = retriever._collect(session, None, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")
+            evidence = retriever._collect(
+                session,
+                None,
+                SimpleNamespace(known_ids=lambda: retriever._known_category_ids),
+                "test-generation",
+            )
 
         self.assertEqual(set(evidence), {"C1", "C2", "C3", "C4"})
         self.assertAlmostEqual(evidence["C1"]["relevance_percent"], 50.0)
@@ -1393,22 +1726,42 @@ class WebTests(unittest.TestCase):
         retriever = object.__new__(Retriever)
         retriever.documents_dir = Path(self.temp.name)
         retriever._known_category_ids = frozenset()
-        for code, ceiling in (("ABC", 8), ("AB", 6), ("AC", 6), ("BC", 2), ("A", 3), ("B", 1), ("C", 1)):
+        for code, ceiling in (
+            ("ABC", 8),
+            ("AB", 6),
+            ("AC", 6),
+            ("BC", 2),
+            ("A", 3),
+            ("B", 1),
+            ("C", 1),
+        ):
             signals = SearchSignals.from_code(code)
-            session = type("SyntheticSession", (), {"profile": profile, "search_signals": signals})()
+            session = type(
+                "SyntheticSession", (), {"profile": profile, "search_signals": signals}
+            )()
             captured = []
 
             def fake_rank(_query, **kwargs):
                 captured.append(kwargs.get("signals"))
-                return [{
-                    **self._ranked(1, "a.md", 1, 5, 0.5),
-                    "score": 3.0,
-                    "condition_in_title": None, "condition_in_text": None,
-                    "lexical_score": None, "semantic_score": None, "semantic_similarity": None,
-                }]
+                return [
+                    {
+                        **self._ranked(1, "a.md", 1, 5, 0.5),
+                        "score": 3.0,
+                        "condition_in_title": None,
+                        "condition_in_text": None,
+                        "lexical_score": None,
+                        "semantic_score": None,
+                        "semantic_similarity": None,
+                    }
+                ]
 
             with self.subTest(code=code), patch("backend.ai.retrieval.rank", side_effect=fake_rank):
-                evidence = retriever._collect(session, None, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")
+                evidence = retriever._collect(
+                    session,
+                    None,
+                    SimpleNamespace(known_ids=lambda: retriever._known_category_ids),
+                    "test-generation",
+                )
 
             self.assertEqual(captured, [signals])
             self.assertAlmostEqual(evidence["C1"]["relevance_percent"], 3.0 / ceiling * 100.0)
@@ -1431,7 +1784,12 @@ class WebTests(unittest.TestCase):
             return []
 
         with patch("backend.ai.retrieval.rank", side_effect=fake_rank):
-            retriever._collect(session, None, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")
+            retriever._collect(
+                session,
+                None,
+                SimpleNamespace(known_ids=lambda: retriever._known_category_ids),
+                "test-generation",
+            )
 
         self.assertEqual(captured, [ALL_SIGNALS])
 
@@ -1440,7 +1798,11 @@ class WebTests(unittest.TestCase):
     def test_collect_passes_known_selected_categories_to_rank(self):
         profile = HealthProfile()
         profile.set_health_problem("gripa")
-        session = type("SyntheticSession", (), {"profile": profile, "selected_categories": {"Cancer", "necunoscuta"}})()
+        session = type(
+            "SyntheticSession",
+            (),
+            {"profile": profile, "selected_categories": {"Cancer", "necunoscuta"}},
+        )()
         retriever = object.__new__(Retriever)
         retriever.documents_dir = Path(self.temp.name)
         retriever._known_category_ids = frozenset()
@@ -1452,7 +1814,12 @@ class WebTests(unittest.TestCase):
             return []
 
         with patch("backend.ai.retrieval.rank", side_effect=fake_rank):
-            retriever._collect(session, None, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")
+            retriever._collect(
+                session,
+                None,
+                SimpleNamespace(known_ids=lambda: retriever._known_category_ids),
+                "test-generation",
+            )
 
         self.assertTrue(captured_kwargs, "rank() must be called at least once")
         # The unknown id is dropped; only the known one is forwarded.
@@ -1466,7 +1833,10 @@ class WebTests(unittest.TestCase):
         session = SimpleNamespace(profile=profile, selected_categories={"unknown"})
         retriever = Retriever(Path(self.temp.name))
         tree = SimpleNamespace(known_ids=lambda: frozenset({"Cancer"}))
-        with patch("backend.ai.retrieval.rank") as rank, self.assertRaises(ApplicationError) as error:
+        with (
+            patch("backend.ai.retrieval.rank") as rank,
+            self.assertRaises(ApplicationError) as error,
+        ):
             retriever._collect(session, None, tree, "test-generation")
         self.assertEqual(error.exception.code, "CATEGORY_SELECTION_STALE")
         rank.assert_not_called()
@@ -1484,7 +1854,12 @@ class WebTests(unittest.TestCase):
         retriever._known_category_ids = frozenset({"Cancer"})
 
         with patch("backend.ai.retrieval.rank", return_value=[]):
-            evidence = retriever._collect(session, None, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")  # must not raise
+            evidence = retriever._collect(
+                session,
+                None,
+                SimpleNamespace(known_ids=lambda: retriever._known_category_ids),
+                "test-generation",
+            )  # must not raise
 
         self.assertEqual(evidence, {})
 
@@ -1504,8 +1879,18 @@ class WebTests(unittest.TestCase):
             return []
 
         with patch("backend.ai.retrieval.rank", side_effect=fake_rank):
-            retriever._collect(session, 120_000, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")
-            retriever._collect(session, None, SimpleNamespace(known_ids=lambda: retriever._known_category_ids), "test-generation")
+            retriever._collect(
+                session,
+                120_000,
+                SimpleNamespace(known_ids=lambda: retriever._known_category_ids),
+                "test-generation",
+            )
+            retriever._collect(
+                session,
+                None,
+                SimpleNamespace(known_ids=lambda: retriever._known_category_ids),
+                "test-generation",
+            )
 
         self.assertEqual(captured, [120_000, None])
 
@@ -1533,10 +1918,13 @@ class WebTests(unittest.TestCase):
             "C2": {"source": "documents/alt-test.md:4-8", "text": "Alt text suport"},
         }
         sections = {
-            "uz_intern": [{
-                "text": "Recomandare cu ă â î ș ț " + "îngrijire " * 300,
-                "evidence_ids": ["C1", "C2"] if number == 0 else ["C1"],
-            } for number in range(5)]
+            "uz_intern": [
+                {
+                    "text": "Recomandare cu ă â î ș ț " + "îngrijire " * 300,
+                    "evidence_ids": ["C1", "C2"] if number == 0 else ["C1"],
+                }
+                for number in range(5)
+            ]
         }
         profile = {"health_problem": "tuse și oboseală", "transcript": []}
         pdf = create_pdf(profile, sections, evidence)
@@ -1575,7 +1963,10 @@ class WebTests(unittest.TestCase):
         profile = {"health_problem": "tuse", "transcript": []}
 
         text = " ".join(
-            " ".join(page.extract_text() for page in PdfReader(io.BytesIO(create_pdf(profile, sections, evidence, 50))).pages).split()
+            " ".join(
+                page.extract_text()
+                for page in PdfReader(io.BytesIO(create_pdf(profile, sections, evidence, 50))).pages
+            ).split()
         )
 
         self.assertIn("Număr total de fragmente folosite: 2", text)

@@ -7,6 +7,7 @@ below, and scripts/build_hybrid_index.py for how category_id is assigned at
 sync time). Nothing here is cached to disk; `load_category_tree()` queries
 the `documents` table fresh each time it's called.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -92,7 +93,9 @@ def build_category_tree(sources: Sequence[object]) -> dict[str, object]:
     # add that total into its parent's total, deepest categories first, so a
     # parent's total is only ever added upward after every one of its own
     # descendants has already been folded into it.
-    total_documents: dict[str, int] = {category_id: own_documents.get(category_id, 0) for category_id in all_ids}
+    total_documents: dict[str, int] = {
+        category_id: own_documents.get(category_id, 0) for category_id in all_ids
+    }
     for category_id in sorted(all_ids, key=_category_depth, reverse=True):
         parent = parent_of[category_id]
         if parent is not None:
@@ -101,7 +104,9 @@ def build_category_tree(sources: Sequence[object]) -> dict[str, object]:
     nodes = {
         category_id: {
             "id": category_id,
-            "label": "(fără categorie)" if category_id == ROOT_CATEGORY_ID else category_id.rsplit("/", 1)[-1],
+            "label": "(fără categorie)"
+            if category_id == ROOT_CATEGORY_ID
+            else category_id.rsplit("/", 1)[-1],
             "parent": parent_of[category_id],
             "children": children[category_id],
             "own_documents": own_documents.get(category_id, 0),
@@ -150,5 +155,9 @@ def category_selection(requested, tree: CategoryTree | None):
     selected = requested & known
     removed = sorted(requested - known)
     if requested and not selected:
-        raise ApplicationError("CATEGORY_SELECTION_STALE", "Sursele selectate nu mai există. Selectați din nou categoriile.", 409)
+        raise ApplicationError(
+            "CATEGORY_SELECTION_STALE",
+            "Sursele selectate nu mai există. Selectați din nou categoriile.",
+            409,
+        )
     return selected, removed

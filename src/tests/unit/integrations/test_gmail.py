@@ -1,4 +1,5 @@
 """Unit tests for Gmail API report delivery."""
+
 from __future__ import annotations
 
 import base64
@@ -96,7 +97,13 @@ class MailerTests(unittest.TestCase):
                 "GOOGLE_REFRESH_TOKEN": "",
             },
         ):
-            result = send_report("Gripă", b"%PDF-test", "raport.pdf", "dest@example.com", urlopen_factory=RecordingUrlopen())
+            result = send_report(
+                "Gripă",
+                b"%PDF-test",
+                "raport.pdf",
+                "dest@example.com",
+                urlopen_factory=RecordingUrlopen(),
+            )
         self.assertEqual(result, EMAIL_SKIPPED)
 
     def test_send_report_refreshes_token_and_sends_mime_message_once(self):
@@ -150,7 +157,10 @@ class MailerTests(unittest.TestCase):
 
         def failing_urlopen(request, timeout):
             body = json.dumps(
-                {"error": "invalid_grant", "error_description": "Token has been expired or revoked."}
+                {
+                    "error": "invalid_grant",
+                    "error_description": "Token has been expired or revoked.",
+                }
             ).encode("utf-8")
             raise HTTPError(request.full_url, 400, "Bad Request", {}, io.BytesIO(body))
 

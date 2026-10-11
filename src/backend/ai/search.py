@@ -16,8 +16,8 @@ import numpy as np
 from psycopg.rows import namedtuple_row
 
 from backend.ai.conditions import ResolvedQuery, resolve_query
-from backend.ai.index_state import index_reader
 from backend.ai.embedding_model import cached_query_model, get_profile
+from backend.ai.index_state import index_reader
 from backend.ai.query_terms import plain
 from backend.config import settings
 
@@ -53,7 +53,9 @@ class SearchSignals:
     def from_code(cls, code: str) -> SearchSignals:
         letters = set(code.strip().upper())
         if not letters or not letters <= set("ABC"):
-            raise ValueError(f"Search signals must be a non-empty combination of A, B and C, got {code!r}.")
+            raise ValueError(
+                f"Search signals must be a non-empty combination of A, B and C, got {code!r}."
+            )
         return cls(conditions="A" in letters, lexical="B" in letters, semantic="C" in letters)
 
 
@@ -174,7 +176,9 @@ def lexical_queries(resolved: ResolvedQuery) -> list[str]:
             continue
         seen.add(key)
         if segment.whole_condition:
-            names = dict.fromkeys(term for condition in segment.conditions for term in condition.terms)
+            names = dict.fromkeys(
+                term for condition in segment.conditions for term in condition.terms
+            )
             phrases = list(dict.fromkeys(phrase for phrase in map(_phrase, names) if phrase))
             query = "(" + " | ".join(phrases) + ")" if phrases else None
         else:
@@ -259,7 +263,9 @@ _COSINE_STATS = """cosine_stats AS (
     SELECT percentile_cont(0.5) WITHIN GROUP (ORDER BY cosine) AS median, max(cosine) AS peak FROM pool
 ),"""
 _COSINE_JOIN = "CROSS JOIN cosine_stats cs"
-_SEMANTIC_VALUE = "greatest(0, least(1, coalesce((p.cosine - cs.median) / nullif(cs.peak - cs.median, 0), 0)))"
+_SEMANTIC_VALUE = (
+    "greatest(0, least(1, coalesce((p.cosine - cs.median) / nullif(cs.peak - cs.median, 0), 0)))"
+)
 _NO_SEMANTIC_VALUE = "0::double precision"
 
 # One tsquery per expression (`lq`, evaluated once), and for every fragment any
@@ -381,7 +387,9 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
             # Unit-length vector: the inner product with the (also unit-length,
             # see build_hybrid_index.py's embed_chunks()) fragment vectors is
             # the cosine similarity. The scan is exact, so V is exact too.
-            vector = np.asarray(list(model.query_embed([profile.query_text(query)]))[0], dtype=np.float32)
+            vector = np.asarray(
+                list(model.query_embed([profile.query_text(query)]))[0], dtype=np.float32
+            )
             vector /= np.linalg.norm(vector)
             parameters["vector"] = vector
         rows = cursor.execute(sql, parameters).fetchall()
@@ -422,6 +430,7 @@ def warm_up() -> None:
 # Parse search arguments, execute the search, and print human or JSON results.
 def main() -> None:
     from backend.config import Settings, configure_settings
+
     configure_settings(Settings.from_env(dotenv=True))
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
@@ -445,7 +454,9 @@ def main() -> None:
         print(json.dumps(results, ensure_ascii=False, indent=2, default=lambda value: value.code))
         return
     for position, result in enumerate(results, start=1):
-        print(f"[{position}] {result['source_relative_path']}:{result['line_start']}-{result['line_end']}")
+        print(
+            f"[{position}] {result['source_relative_path']}:{result['line_start']}-{result['line_end']}"
+        )
         if result["heading"]:
             print(f"    {result['heading']}")
         print(

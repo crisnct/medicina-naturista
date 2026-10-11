@@ -1,7 +1,7 @@
 FROM node:22-slim AS frontend-build
 WORKDIR /frontend
-COPY src/frontend/package.json src/frontend/package-lock.json* ./
-RUN npm install
+COPY src/frontend/package.json src/frontend/package-lock.json ./
+RUN npm ci
 COPY src/frontend/ ./
 ARG PUBLIC_BASE_PATH=""
 ENV PUBLIC_BASE_PATH=${PUBLIC_BASE_PATH}
@@ -22,8 +22,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /app
-COPY requirements-lock.txt requirements-web.txt ./
-RUN pip install --no-cache-dir -r requirements-web.txt
+COPY requirements-runtime-py311-linux.lock ./
+RUN pip install --no-cache-dir --require-hashes -r requirements-runtime-py311-linux.lock
 
 COPY pyproject.toml README.md ./
 COPY src/backend ./src/backend

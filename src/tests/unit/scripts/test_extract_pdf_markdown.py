@@ -35,10 +35,12 @@ class ExtractMarkdownTests(unittest.TestCase):
         for column in range(columns):
             x = 100 + column * 270
             pdf.setFont("Helvetica-Bold", 15)
-            pdf.drawString(x, 700, f"1.{column+1} Details")
+            pdf.drawString(x, 700, f"1.{column + 1} Details")
             pdf.setFont("Helvetica", 11)
             for row in range(12):
-                pdf.drawString(x, 670-row*17, f"Column {column+1} row {row+1} has readable text.")
+                pdf.drawString(
+                    x, 670 - row * 17, f"Column {column + 1} row {row + 1} has readable text."
+                )
         pdf.showPage()
         pdf.save()
         return path
@@ -84,10 +86,20 @@ class ExtractMarkdownTests(unittest.TestCase):
 
     def test_repeated_interior_subheadings_survive_margin_filter(self):
         profile = extractor.Profile()
-        lines = [extractor.Line("BOOK HEADER 12", 20, 200, 40, 50, 10, 0),
-                 extractor.Line("Plant species name", 20, 180, 90, 103, 13, 1),
-                 extractor.Line("Composition", 20, 100, 120, 130, 10, 0),
-                 extractor.Line("This paragraph describes the detailed composition of this species and its properties.", 20, 300, 140, 150, 10, 0)]
+        lines = [
+            extractor.Line("BOOK HEADER 12", 20, 200, 40, 50, 10, 0),
+            extractor.Line("Plant species name", 20, 180, 90, 103, 13, 1),
+            extractor.Line("Composition", 20, 100, 120, 130, 10, 0),
+            extractor.Line(
+                "This paragraph describes the detailed composition of this species and its properties.",
+                20,
+                300,
+                140,
+                150,
+                10,
+                0,
+            ),
+        ]
         for _ in range(10):
             profile.observe(lines)
         text, _ = extractor._render_page(lines, profile)
@@ -106,46 +118,76 @@ class ExtractMarkdownTests(unittest.TestCase):
     def test_skewed_ocr_characters_with_horizontal_matrices(self):
         # OCR can position every character individually while leaving each glyph
         # matrix unrotated. This reproduces the difficult Compendiu text layer.
-        from types import SimpleNamespace
         import math
+        from types import SimpleNamespace
+
         chars = []
         angle = math.radians(25)
         for row in range(8):
-            for index, letter in enumerate(f"Readable OCR row {row+1}"):
+            for index, letter in enumerate(f"Readable OCR row {row + 1}"):
                 x = 80 + index * 7
                 y = 100 + row * 16 + math.tan(angle) * x
-                chars.append({"text": letter, "matrix": (1,0,0,1,x,900-y),
-                              "x0": x, "x1": x+6, "width": 6, "adv": 6,
-                              "size": 10, "fontname": "OCR"})
+                chars.append(
+                    {
+                        "text": letter,
+                        "matrix": (1, 0, 0, 1, x, 900 - y),
+                        "x0": x,
+                        "x1": x + 6,
+                        "width": 6,
+                        "adv": 6,
+                        "size": 10,
+                        "fontname": "OCR",
+                    }
+                )
         page = SimpleNamespace(height=900, chars=chars)
         page.dedupe_chars = lambda **kwargs: page
         glyphs, found = extractor._text_glyphs(page, extractor.Options())
-        self.assertAlmostEqual(found, 25, delta=.6)
+        self.assertAlmostEqual(found, 25, delta=0.6)
         lines = extractor._group_glyphs(glyphs)
-        self.assertEqual([line.text for line in lines], [f"Readable OCR row {r+1}" for r in range(8)])
+        self.assertEqual(
+            [line.text for line in lines], [f"Readable OCR row {r + 1}" for r in range(8)]
+        )
 
     def test_scan_deskew_from_one_to_thirty_degrees(self):
         from PIL import Image, ImageDraw, ImageFont
+
         image = Image.new("RGB", (1400, 1800), "white")
         draw = ImageDraw.Draw(image)
         font = ImageFont.load_default(size=30)
         for row in range(15):
-            draw.text((200, 200 + row * 70), f"Readable scanned text on row {row+1}.", font=font, fill="black")
+            draw.text(
+                (200, 200 + row * 70),
+                f"Readable scanned text on row {row + 1}.",
+                font=font,
+                fill="black",
+            )
         for angle in (-30, -15, -1, 1, 15, 30):
             with self.subTest(angle=angle):
                 rotated = image.rotate(-angle, expand=True, fillcolor="white")
                 _, found = extractor._deskew_image(rotated, 30)
-                self.assertAlmostEqual(found, angle, delta=.7)
+                self.assertAlmostEqual(found, angle, delta=0.7)
 
     def test_wide_spaces_do_not_reorder_heading_fragments(self):
-        lines = [extractor.Line("Panax ginseng (sin. Panax", 30, 240, 50, 61, 11, 0),
-                 extractor.Line("pseudoginseng, Panax", 275, 395, 49.5, 60.5, 11, 0),
-                 extractor.Line("schinseng), Fam. Araliaceae", 30, 220, 63, 74, 11, 0),
-                 extractor.Line("The main paragraph describes this plant and provides detailed information about its properties.", 30, 395, 80, 90, 10, 0)]
+        lines = [
+            extractor.Line("Panax ginseng (sin. Panax", 30, 240, 50, 61, 11, 0),
+            extractor.Line("pseudoginseng, Panax", 275, 395, 49.5, 60.5, 11, 0),
+            extractor.Line("schinseng), Fam. Araliaceae", 30, 220, 63, 74, 11, 0),
+            extractor.Line(
+                "The main paragraph describes this plant and provides detailed information about its properties.",
+                30,
+                395,
+                80,
+                90,
+                10,
+                0,
+            ),
+        ]
         ordered = extractor._reading_order(lines, [])
         self.assertEqual(ordered[0].text, "Panax ginseng (sin. Panax pseudoginseng, Panax")
         text, _ = extractor._render_page(ordered, extractor.Profile())
-        self.assertIn("### Panax ginseng (sin. Panax pseudoginseng, Panax schinseng), Fam. Araliaceae", text)
+        self.assertIn(
+            "### Panax ginseng (sin. Panax pseudoginseng, Panax schinseng), Fam. Araliaceae", text
+        )
 
 
 if __name__ == "__main__":

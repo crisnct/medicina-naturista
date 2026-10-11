@@ -1,4 +1,5 @@
 """Per-provider configuration for the Responses API client (AI_PROVIDER)."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass

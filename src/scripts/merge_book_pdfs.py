@@ -35,7 +35,6 @@ from pathlib import Path
 
 from pypdf import PdfReader, PdfWriter
 
-
 FILE_PATTERN = re.compile(
     r"^pag(?P<first>\d+)-(?P<last>\d+)\.pdf$",
     re.IGNORECASE,
@@ -65,9 +64,7 @@ def parse_pdf_part(path: Path) -> PdfPart | None:
         raise ValueError(f"{path.name}: first page must be greater than 0.")
 
     if last_page < first_page:
-        raise ValueError(
-            f"{path.name}: invalid range {first_page}-{last_page}."
-        )
+        raise ValueError(f"{path.name}: invalid range {first_page}-{last_page}.")
 
     return PdfPart(
         path=path,
@@ -137,16 +134,11 @@ def verify_pdf_page_counts(parts: list[PdfPart]) -> list[str]:
         try:
             actual_count = len(PdfReader(str(part.path)).pages)
         except Exception as exc:
-            raise RuntimeError(
-                f"Cannot read {part.path.name}: {exc}"
-            ) from exc
+            raise RuntimeError(f"Cannot read {part.path.name}: {exc}") from exc
 
         expected_count = part.expected_page_count
 
-        print(
-            f"[{index:02}/{len(parts):02}] checked "
-            f"{part.path.name}: {actual_count} PDF pages"
-        )
+        print(f"[{index:02}/{len(parts):02}] checked {part.path.name}: {actual_count} PDF pages")
 
         if actual_count != expected_count:
             warnings.append(
@@ -227,7 +219,11 @@ def main() -> int:
         return 2
 
     project_root = Path(__file__).resolve().parents[2]
-    output_dir = (args.output_dir or project_root / "medicina-naturista-documente" / "data" / "documents").expanduser().resolve()
+    output_dir = (
+        (args.output_dir or project_root / "medicina-naturista-documente" / "data" / "documents")
+        .expanduser()
+        .resolve()
+    )
     output_filename = f"{source_folder.name}.pdf"
     output_path = output_dir / output_filename
 
@@ -246,16 +242,10 @@ def main() -> int:
 
     print("\nOrder detected:")
     for part in parts:
-        print(
-            f"  {part.first_page:>4}-{part.last_page:<4} "
-            f"{part.path.name}"
-        )
+        print(f"  {part.first_page:>4}-{part.last_page:<4} {part.path.name}")
 
     if ignored_pdfs:
-        print(
-            "\nPDF files ignored because their filenames do not match "
-            "pag<first>-<last>.pdf:"
-        )
+        print("\nPDF files ignored because their filenames do not match pag<first>-<last>.pdf:")
         for path in ignored_pdfs:
             print(f"  - {path.name}")
 
