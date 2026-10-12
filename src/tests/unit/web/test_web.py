@@ -273,20 +273,45 @@ class WebTests(unittest.TestCase):
         self.assertEqual(profile.health_context, ["Migrenă"])
         self.assertEqual(profile.transcript, [{"role": "user", "content": "Migrenă"}])
 
-    # Verify that report recommendation labels use bold emphasis without underlining.
-    def test_recommendation_label_is_bold_and_underlined(self):
+    # Verify the bullet, complete name, and colon are bold; descriptions are regular.
+    def test_recommendation_label_and_colon_are_bold(self):
         formatted = format_recommendation("Tinctură de soc: 2 linguri pe zi")
-        self.assertEqual(formatted, "<b>Tinctură de soc</b>: 2 linguri pe zi")
+        self.assertEqual(formatted, "<b>● Tinctură de soc:</b> 2 linguri pe zi")
         self.assertEqual(
             format_recommendation("Suc din morcovi, ananas, ghimbir și usturoi pentru răceală."),
-            "<b>Suc din morcovi, ananas, ghimbir și usturoi</b> pentru răceală.",
+            "<b>● Suc din morcovi, ananas, ghimbir și usturoi:</b> pentru răceală.",
         )
         self.assertEqual(
             format_recommendation(
                 "Lichen piatră cu rădăcină de brusture și echinaceea pulbere în părți egale"
             ),
-            "<b>Lichen piatră cu rădăcină de brusture și echinaceea</b> pulbere în părți egale",
+            "<b>● Lichen piatră cu rădăcină de brusture și echinaceea:</b> pulbere în părți egale",
         )
+        cases = (
+            (
+                "Acid folic – conform indicațiilor de pe etichetă.",
+                "<b>● Acid folic:</b> conform indicațiilor de pe etichetă.",
+            ),
+            (
+                "Vitamina B6 (piridoxina):50 mg de 3 ori pe zi.",
+                "<b>● Vitamina B6 (piridoxina):</b> 50 mg de 3 ori pe zi.",
+            ),
+            (
+                "Vitamina B6 (piridoxina) – 50 mg de 3 ori pe zi.",
+                "<b>● Vitamina B6 (piridoxina):</b> 50 mg de 3 ori pe zi.",
+            ),
+            (
+                "Calciu și magneziu – calciu: 1 000 mg; magneziu: 1 000 mg.",
+                "<b>● Calciu și magneziu:</b> calciu: 1 000 mg; magneziu: 1 000 mg.",
+            ),
+            ("Vitamina E — 200 UI zilnic.", "<b>● Vitamina E:</b> 200 UI zilnic."),
+            ("Quercetin Plus - 2 mg zilnic.", "<b>● Quercetin Plus:</b> 2 mg zilnic."),
+            ("Produs <A> & B: doză < 2 mg.", "<b>● Produs &lt;A&gt; &amp; B:</b> doză &lt; 2 mg."),
+            ("Informație fără denumire explicită.", "● Informație fără denumire explicită."),
+        )
+        for text, expected in cases:
+            with self.subTest(text=text):
+                self.assertEqual(format_recommendation(text), expected)
 
     # Verify that common Romanian diacritics are restored in report titles.
     def test_report_title_restores_common_romanian_diacritics(self):

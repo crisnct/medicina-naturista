@@ -960,21 +960,32 @@ def report_title(profile: dict[str, Any]) -> str:
 
 # Format the leading intervention or product label for readable PDF output.
 def format_recommendation(text: str) -> str:
-    """Bold and underline the product/intervention label at the start of a claim."""
+    """Render a bold bullet and intervention label, including its trailing colon."""
     clean = " ".join(str(text or "").split())
+    # Prefer an explicit separator so parentheses remain part of the name and
+    # colons in the description (e.g. "calciu: ...") do not extend the label.
     match = re.match(
-        r"^(?P<label>.{2,160}?)(?P<separator>:\s+|\s+[—-]\s+|\s+\(|"
-        r"\s+(?=pentru\b|pulbere\b|administrat\b|preparat\b|"
-        r"se\s+(?:ține|bea|ia|consumă|prepară)\b|"
-        r"(?:½|¼|\d+(?:[.,]\d+)?)\s*(?:linguri?țe?|linguri?|ml|g|capsule?|picături?)\b))",
+        r"^(?P<label>.+?)(?P<separator>:\s*|\s+[–—-]\s+)(?P<description>.+)$",
         clean,
-        flags=re.IGNORECASE,
     )
-    if not match:
-        return escape(clean)
-    label = escape(match.group("label").strip())
-    remainder = escape(clean[match.end("label") :])
-    return f"<b>{label}</b>{remainder}"
+    if match:
+        label = match.group("label").strip()
+        description = match.group("description").strip()
+    else:
+        # Compatibility with older reports that omitted the name separator.
+        match = re.match(
+            r"^(?P<label>.{2,160}?)(?P<separator>"
+            r"\s+(?=pentru\b|pulbere\b|administrat\b|preparat\b|"
+            r"se\s+(?:ține|bea|ia|consumă|prepară)\b|"
+            r"(?:½|¼|\d+(?:[.,]\d+)?)\s*(?:linguri?țe?|linguri?|ml|g|capsule?|picături?)\b))",
+            clean,
+            flags=re.IGNORECASE,
+        )
+        if not match:
+            return "● " + escape(clean)
+        label = match.group("label").strip()
+        description = clean[match.end("label") :].strip()
+    return f"<b>● {escape(label)}:</b> {escape(description)}"
 
 
 def _compress_reference_numbers(numbers: list[int]) -> str:
@@ -1286,7 +1297,7 @@ def create_pdf(
                 add_recommendation(
                     section_content,
                     key,
-                    "● " + format_recommendation(str(item["text"])),
+                    format_recommendation(str(item["text"])),
                     citations_for(item),
                     f"recommendation-{key}-{index}",
                 )

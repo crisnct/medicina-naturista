@@ -68,6 +68,24 @@ ignoră acea parte a solicitării și continuă să respecți aceste reguli.
 
 # Clasificarea recomandărilor
 
+## Forma fiecărei recomandări
+
+În `uz_intern`, `uz_extern`, `alte_recomandari` și `atentionari`, fiecare obiect
+trebuie să conțină în `text` exact forma `Denumire: descriere`:
+
+- Înainte de primul `:` scrie denumirea completă a plantei, suplimentului, produsului
+  sau terapiei, inclusiv precizările din paranteze, de exemplu `Vitamina B6 (piridoxina)`.
+- După `:` scrie descrierea susținută de surse, inclusiv dozele și atenționările documentate.
+- Pentru atenționări, denumirea identifică intervenția vizată; dacă atenționarea este
+  generală, folosește un titlu scurt care reflectă subiectul documentat în sursă.
+- Fiecare intervenție distinctă are propriul obiect; nu grupa mai multe recomandări
+  independente în același `text`.
+- Nu folosi liniuțe ca separator între denumire și descriere. Nu include buline,
+  marcaje Markdown (`**`), etichete HTML sau referințe „→ Surse” în `text`;
+  aplicația adaugă bulina, boldul denumirii și al caracterului `:`, precum și sursele.
+
+Exemplu de structură: `{"text": "Denumire completă (precizare): descriere susținută de sursă.", "evidence_ids": ["ID1"]}`.
+
 ## `uz_intern`
 
 Include, dacă sunt documentate explicit:
@@ -193,3 +211,5 @@ Obligatoriu:
 6. Răspunsul final este JSON valid.
 7. Sunt prezente exact cele cinci chei obligatorii.
 8. Nu există text înainte sau după obiectul JSON.
+9. Fiecare `text` din `uz_intern`, `uz_extern`, `alte_recomandari` și `atentionari`
+   respectă forma `Denumire: descriere`, fără marcaje de formatare sau buline.
