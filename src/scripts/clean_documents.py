@@ -932,7 +932,10 @@ def fold(word: str) -> str:
 
 
 def build_dictionary(
-    hunspell_dir: Path, *, spellings: dict[str, str] | None = None
+    hunspell_dir: Path,
+    *,
+    spellings: dict[str, str] | None = None,
+    spelling_variants: dict[str, set[str]] | None = None,
 ) -> tuple[set[str], set[str]]:
     """Expand ro_RO.dic with the ro_RO.aff affixes into ASCII-folded word sets.
 
@@ -984,6 +987,8 @@ def build_dictionary(
                     common.add(fold(form))
                     if spellings is not None:
                         spellings.setdefault(fold(form), form)
+                    if spelling_variants is not None:
+                        spelling_variants.setdefault(fold(form), set()).add(form)
     return words, common
 
 

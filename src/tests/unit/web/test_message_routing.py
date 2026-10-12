@@ -69,6 +69,94 @@ def test_echo_is_fast_and_does_not_replace_the_medical_profile(web):
     assert test.deps.store.get(sid, tab).profile.health_problem == "cum se prepară o infuzie?"
 
 
+def test_explicit_premenopause_request_starts_search_with_real_classifier(web):
+    test, sid, tab = web
+    classifier = MessageClassifier(test.deps.settings)
+    test.addCleanup(classifier.close)
+    classifier.client.complete_json = Mock(
+        return_value={"intent": "remedii", "needs_clarification": True}
+    )
+    test.deps.classify = classifier
+    first = accept(web, "cauta remedii pentru premenopauza")
+    response = classify(web, first["contextRevision"])
+    assert response.status_code == 200, response.text
+    result = response.json()
+    assert result["intent"] == "remedii" and result["startSearch"]
+    assert "Precizați o singură solicitare" not in str(result)
+    assert (
+        test.deps.store.get(sid, tab).profile.health_problem == "cauta remedii pentru premenopauza"
+    )
+    assert test.client.post("/api/search", headers=support._headers(sid, tab)).status_code == 200
+    classifier.client.complete_json.assert_not_called()
+
+
+def test_remedy_clarification_asks_for_condition_and_then_starts_search(web):
+    test, sid, tab = web
+    classifier = MessageClassifier(test.deps.settings)
+    test.addCleanup(classifier.close)
+    classifier.client.complete_json = Mock(return_value={"intent": "remedii"})
+    test.deps.classify = classifier
+    first = accept(web, "remedii")
+    result = classify(web, first["contextRevision"]).json()
+    assert not result["startSearch"]
+    assert "Pentru ce afecțiune" in result["messages"][0]["content"]
+    assert test.deps.store.get(sid, tab).routing.clarification == "remedii"
+    second = accept(web, "premenopauza")
+    result = classify(web, second["contextRevision"]).json()
+    assert result["startSearch"]
+    context = classifier.client.complete_json.call_args.args[1]
+    assert '"pending_clarification": "remedii"' in context
+
+
+def test_top_returns_names_and_aliases_without_search_or_report(web):
+    test, sid, tab = web
+    test.deps.classify = Mock(return_value=MessageClassification(intent="top_plante", top_count=20))
+    test.deps.top_herbs = Mock(
+        return_value=[
+            {"ro": "mușețel", "ro_regional": ["romaniță", "matricea"], "ranking": 1156},
+            {"ro": "păr", "ro_regional": [], "ranking": 1},
+        ]
+    )
+    first = accept(
+        web, "Dă-mi top 20 plante", {"conditions": True, "lexical": False, "semantic": False}
+    )
+    response = classify(web, first["contextRevision"])
+    assert response.status_code == 200, response.text
+    result = response.json()
+    assert result["intent"] == "top_plante"
+    assert not result["startSearch"] and not result["identifyCondition"]
+    assert result["messages"][0]["content"] == (
+        "Top 2 plante după numărul de afecțiuni asociate în catalog:\n"
+        "1. mușețel — utilă în 1156 afecțiuni (denumiri regionale: romaniță, matricea)\n"
+        "2. păr — utilă în 1 afecțiune"
+    )
+    test.deps.top_herbs.assert_called_once_with(20)
+    assert test.deps.store.get(sid, tab).profile.health_problem == ""
+    assert test.client.post("/api/search", headers=support._headers(sid, tab)).status_code == 409
+    classify(web, first["contextRevision"])
+    test.deps.top_herbs.assert_called_once()
+
+
+def test_top_without_count_asks_then_accepts_count_only(web):
+    test, sid, tab = web
+    classifier = MessageClassifier(test.deps.settings)
+    test.addCleanup(classifier.close)
+    classifier.client.complete_json = Mock(
+        return_value={"intent": "top_plante", "needs_clarification": True}
+    )
+    test.deps.classify = classifier
+    test.deps.top_herbs = Mock(return_value=[])
+    first = accept(web, "Care sunt cele mai utile plante?")
+    result = classify(web, first["contextRevision"]).json()
+    assert "Câte plante" in result["messages"][0]["content"]
+    assert test.deps.store.get(sid, tab).routing.clarification == "top_plante"
+    test.deps.top_herbs.assert_not_called()
+    second = accept(web, "20")
+    result = classify(web, second["contextRevision"]).json()
+    test.deps.top_herbs.assert_called_once_with(20)
+    assert "Catalogul nu conține plante" in result["messages"][0]["content"]
+
+
 def test_diverse_skips_ai_identification_and_direct_condition_endpoint(web):
     test, sid, tab = web
     test.deps.settings = replace(test.deps.settings, condition_ai_backends=("huggingface",))
@@ -410,3 +498,33 @@ def test_local_classifier_failure_is_explained_in_the_fallback(web):
     result = classify(web, first["contextRevision"]).json()
     assert result["startSearch"] and "Clasificarea AI nu este disponibilă" in str(result)
     assert "credite" not in str(result)
+
+
+@pytest.mark.parametrize(
+    "reply", ["premenopauza", "premenopauza, buferuri, perimenopauza, premenopauza"]
+)
+def test_named_remedy_reply_starts_search_despite_model_clarification(web, monkeypatch, reply):
+    from backend.ai import conditions
+    from backend.ai.conditions import ConditionDictionary, make_condition
+
+    dictionary = ConditionDictionary(
+        [make_condition("Menopauza", ["perimenopauza"]), make_condition("Bufeuri")]
+    )
+    monkeypatch.setattr(conditions, "load_dictionary", lambda: dictionary)
+    test, sid, tab = web
+    classifier = MessageClassifier(test.deps.settings)
+    test.addCleanup(classifier.close)
+    classifier.client.complete_json = Mock(
+        return_value={"intent": "remedii", "needs_clarification": True}
+    )
+    test.deps.classify = classifier
+    first = accept(web, "remedii")
+    assert not classify(web, first["contextRevision"]).json()["startSearch"]
+    second = accept(web, reply)
+    response = classify(web, second["contextRevision"])
+    assert response.status_code == 200, response.text
+    result = response.json()
+    assert result["startSearch"]
+    assert "Pentru ce afecțiune" not in str(result)
+    assert test.deps.store.get(sid, tab).profile.health_problem == reply
+    assert test.client.post("/api/search", headers=support._headers(sid, tab)).status_code == 200

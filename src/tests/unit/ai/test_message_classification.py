@@ -14,6 +14,103 @@ from backend.ai.message_classification import MessageClassification, MessageClas
 from backend.config import Settings
 
 
+@pytest.mark.parametrize(
+    "message",
+    [
+        "cauta remedii pentru premenopauza",
+        "cauta remedii naturiste pentru premenopauza",
+        "cauta remedii naturiste pentru premenopauza, buferuri, perimenopauza, premenopauza",
+        "Caută tratamente naturiste pentru premenopauză",
+        "Caută remedii pentru premenopauză!",
+        "Te rog cauta remedii pentru perimenopauza",
+        "Vreau remedii naturale pentru gripă și insomnie",
+        "cauta remedii pentru o problema necunoscuta",
+    ],
+)
+def test_explicit_remedies_do_not_accept_spurious_model_clarification(message):
+    classifier = MessageClassifier(Settings(), herb_catalog=Mock(side_effect=AssertionError()))
+    try:
+        classifier.client.complete_json = Mock(
+            return_value={"intent": "remedii", "needs_clarification": True}
+        )
+        result = classifier(
+            message, {"report_available": False, "pending_clarification": None, "herb_choices": []}
+        )
+        assert result.intent == "remedii" and not result.needs_clarification
+        classifier.client.complete_json.assert_not_called()
+    finally:
+        classifier.close()
+
+
+@pytest.mark.parametrize(
+    "message",
+    [
+        "Nu cauta remedii pentru premenopauza",
+        "cauta remedii pentru premenopauza si trimite raportul la test@example.com",
+        'Ce înseamnă "caută remedii pentru premenopauză"?',
+        "cauta remedii pentru premenopauza si top 20 plante",
+    ],
+)
+def test_compound_or_negative_remedy_requests_still_use_model(message):
+    classifier = MessageClassifier(Settings())
+    try:
+        classifier.client.complete_json = Mock(
+            return_value={"intent": "diverse", "needs_clarification": True}
+        )
+        assert classifier(message, {}).needs_clarification
+        classifier.client.complete_json.assert_called_once()
+    finally:
+        classifier.close()
+
+
+@pytest.mark.parametrize(
+    "message,count",
+    [
+        ("Da-mi top 20 plante care sunt cele mai recomandate/utile", 20),
+        ("Dă-mi primele 7 plante", 7),
+        ("Care sunt cele mai utile 12 plante?", 12),
+    ],
+)
+def test_explicit_top_does_not_require_ollama_or_catalog(message, count):
+    classifier = MessageClassifier(Settings(), herb_catalog=Mock(side_effect=AssertionError()))
+    try:
+        classifier.client.complete_json = Mock(side_effect=AssertionError())
+        decision = classifier(message, {})
+        assert decision.intent == "top_plante" and decision.top_count == count
+    finally:
+        classifier.close()
+
+
+def test_top_count_clarification_and_changed_subject():
+    classifier = MessageClassifier(Settings())
+    try:
+        classifier.client.complete_json = Mock(return_value={"intent": "remedii"})
+        assert classifier("20", {"pending_clarification": "top_plante"}).top_count == 20
+        assert classifier("top 0 plante", {}).needs_clarification
+        assert classifier("Top 20 plante pentru gastrită", {}).intent == "remedii"
+        assert classifier("Top 20 plante gastrită", {}).intent == "remedii"
+        assert classifier("Gripă", {"pending_clarification": "top_plante"}).intent == "remedii"
+        classifier.client.complete_json.assert_called()
+    finally:
+        classifier.close()
+
+
+@pytest.mark.parametrize(
+    "payload",
+    [
+        {"intent": "top_plante"},
+        {"intent": "top_plante", "top_count": True},
+        {"intent": "top_plante", "top_count": "20"},
+        {"intent": "top_plante", "top_count": 0},
+        {"intent": "top_plante", "top_count": 10001},
+        {"intent": "remedii", "top_count": 20},
+    ],
+)
+def test_top_contract_rejects_invalid_limits(payload):
+    with pytest.raises(ValidationError):
+        MessageClassification.model_validate(payload)
+
+
 def plant_catalog():
     return HerbCatalog(
         [
@@ -266,6 +363,7 @@ def test_ollama_request_needs_no_hf_token_and_uses_the_existing_endpoint():
             "planta",
             "diverse",
             "email_raport",
+            "top_plante",
         ]
         assert branches[0]["properties"]["herb_name"]["type"] == "null"
         assert branches[2]["properties"]["email_address"]["type"] == "null"

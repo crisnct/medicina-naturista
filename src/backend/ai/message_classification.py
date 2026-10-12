@@ -20,7 +20,7 @@ from backend.ai.providers import ProviderConfig
 from backend.config import Settings
 
 logger = logging.getLogger("naturist.classification")
-MessageIntent = Literal["remedii", "planta", "diverse", "email_raport"]
+MessageIntent = Literal["remedii", "planta", "diverse", "email_raport", "top_plante"]
 PROMPT = Path(__file__).parent / "prompts" / "message_classification_system.md"
 
 
@@ -30,6 +30,7 @@ class MessageClassification(BaseModel):
     intent: MessageIntent
     herb_name: str | None = Field(default=None, min_length=1, max_length=160)
     email_address: str | None = Field(default=None, min_length=1, max_length=254)
+    top_count: int | None = Field(default=None, ge=1, le=10000)
     needs_clarification: bool = False
 
     @model_validator(mode="after")
@@ -38,9 +39,94 @@ class MessageClassification(BaseModel):
             raise ValueError("herb_name is only valid for planta")
         if self.intent != "email_raport" and self.email_address is not None:
             raise ValueError("email_address is only valid for email_raport")
+        if self.intent != "top_plante" and self.top_count is not None:
+            raise ValueError("top_count is only valid for top_plante")
+        if self.intent == "top_plante" and not self.needs_clarification and self.top_count is None:
+            raise ValueError("top_plante needs a count or clarification")
         if self.intent == "planta" and not self.needs_clarification and not self.herb_name:
             raise ValueError("planta needs a name or clarification")
         return self
+
+
+def explicit_remedy_request(message: str) -> MessageClassification | None:
+    """A single explicit remedy request already supplies its intent and subject."""
+    normalized = _normalize(message)
+    if normalized in {"remedii", "remedii naturale", "remedii naturiste", "tratamente naturiste"}:
+        return MessageClassification(intent="remedii", needs_clarification=True)
+    match = re.fullmatch(
+        r"(?:(?:te|va) rog )?"
+        r"(?:(?:cauta|caut|vreau|doresc|as vrea|da mi|recomanda mi|arata mi|gaseste mi|gaseste) )?"
+        r"(?:remedii(?:le)?|tratamente(?:le)?)(?: (?:naturale|naturiste))? "
+        r"(?:pentru|contra|impotriva) (.+)",
+        normalized,
+    )
+    if match is None:
+        return None
+    # Compound commands, quoted/negative requests and unrelated actions still
+    # need semantic classification. Several conditions are one remedy request.
+    if (
+        "@" in message
+        or re.search(
+            r"\b(email|mail|raport|trimite|trimiterea|top|compara|nu cauta|nu vreau)\b",
+            normalized,
+        )
+        or re.search(r"[\"«»„”]", message)
+    ):
+        return None
+    if match[1] in {"mine", "noi", "asta", "aceasta", "ceva", "o afectiune"}:
+        return MessageClassification(intent="remedii", needs_clarification=True)
+    return MessageClassification(intent="remedii")
+
+
+def explicit_herb_top(message: str, context: dict[str, object]) -> MessageClassification | None:
+    """Resolve explicit general catalog rankings even when Ollama is unavailable."""
+    normalized = _normalize(message)
+    if context.get("pending_clarification") == "top_plante" and re.fullmatch(
+        r"\d{1,5}", normalized
+    ):
+        count = int(normalized)
+    else:
+        plants = re.search(r"\bplante(?:le)?\b", normalized)
+        if plants is None:
+            return None
+        # A medical qualifier (even without "pentru") must reach the semantic
+        # classifier rather than being mistaken for the general catalog top.
+        generic_tail = {
+            "care",
+            "sunt",
+            "cele",
+            "mai",
+            "recomandate",
+            "utile",
+            "bune",
+            "folosite",
+            "medicinale",
+            "eficiente",
+            "populare",
+            "si",
+            "din",
+            "catalog",
+            "lista",
+            "in",
+            "general",
+            "te",
+            "rog",
+        }
+        if set(re.findall(r"\w+", normalized[plants.end() :])) - generic_tail:
+            return None
+        if re.search(r"\b(pentru|contra|impotriva|email|mail|raport|nu)\b|@", normalized):
+            return None
+        if re.search(r"\b(?:in|la)\s+(?!general\b)\w+", normalized):
+            return None
+        match = re.search(r"\b(?:top|primele)\s+(\d{1,5})\b", normalized)
+        if match is None:
+            match = re.search(r"\b(\d{1,5})\s+(?:de\s+)?plante\b", normalized)
+            if match is None or not re.search(r"\b(recomandate|utile|bune|folosite)\b", normalized):
+                return None
+        count = int(match[1])
+    if not 1 <= count <= 10000:
+        return MessageClassification(intent="top_plante", needs_clarification=True)
+    return MessageClassification(intent="top_plante", top_count=count)
 
 
 class MessageClassifier:
@@ -76,6 +162,7 @@ class MessageClassifier:
                                 "intent",
                                 "herb_name",
                                 "email_address",
+                                "top_count",
                                 "needs_clarification",
                             ],
                             "properties": {
@@ -89,9 +176,19 @@ class MessageClassifier:
                                     else "null"
                                 },
                                 "needs_clarification": {"type": "boolean"},
+                                "top_count": {
+                                    "type": ["integer", "null"]
+                                    if intent == "top_plante"
+                                    else "null",
+                                    **(
+                                        {"minimum": 1, "maximum": 10000}
+                                        if intent == "top_plante"
+                                        else {}
+                                    ),
+                                },
                             },
                         }
-                        for intent in ("remedii", "planta", "diverse", "email_raport")
+                        for intent in ("remedii", "planta", "diverse", "email_raport", "top_plante")
                     ],
                 },
             ),
@@ -101,6 +198,15 @@ class MessageClassifier:
     def __call__(self, message: str, context: dict[str, object]) -> MessageClassification:
         started = time.monotonic()
         try:
+            explicit = explicit_remedy_request(message) or explicit_herb_top(message, context)
+            if explicit is not None:
+                logger.info(
+                    "message_classified intent=%s needs_clarification=%s source=explicit duration_ms=%s",
+                    explicit.intent,
+                    explicit.needs_clarification,
+                    round((time.monotonic() - started) * 1000),
+                )
+                return explicit
             catalog = None
             candidates: list[str] = []
             if self.herb_catalog is not None:
@@ -168,8 +274,9 @@ class MessageClassifier:
                         }
             result = MessageClassification.model_validate(raw)
             logger.info(
-                "message_classified intent=%s duration_ms=%s",
+                "message_classified intent=%s needs_clarification=%s source=model duration_ms=%s",
                 result.intent,
+                result.needs_clarification,
                 round((time.monotonic() - started) * 1000),
             )
             return result

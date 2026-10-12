@@ -22,6 +22,7 @@ from backend.ai.client import create_ai_client
 from backend.ai.condition_ai import identify_conditions
 from backend.ai.condition_ai import warm_up as warm_up_condition_ai
 from backend.ai.herb_conditions import lookup_herb_conditions
+from backend.ai.herb_ranking import list_top_herbs
 from backend.ai.herbs import load_herbs
 from backend.ai.index_state import IndexUnavailable, index_reader
 from backend.ai.message_classification import MessageClassifier
@@ -264,6 +265,7 @@ def _conversation(deps: Dependencies) -> ConversationService:
         deps.pdf or create_pdf,
         deps.classify,
         deps.herb_lookup or lookup_herb_conditions,
+        deps.top_herbs or list_top_herbs,
     )
 
 

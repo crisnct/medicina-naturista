@@ -10,6 +10,7 @@ from backend.core.contracts import (
     ClassifyMessage,
     EmailProtocol,
     IdentifyCondition,
+    ListTopHerbs,
     LookupHerb,
     RenderPDF,
     RetrievalProtocol,
@@ -34,3 +35,4 @@ class Dependencies:
     pdf: RenderPDF | None = None
     classify: ClassifyMessage | None = None
     herb_lookup: LookupHerb | None = None
+    top_herbs: ListTopHerbs | None = None

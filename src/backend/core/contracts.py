@@ -90,3 +90,12 @@ class HerbLookupResult(TypedDict):
 
 
 LookupHerb = Callable[[str], HerbLookupResult]
+
+
+class RankedHerb(TypedDict):
+    ro: str
+    ro_regional: list[str]
+    ranking: int
+
+
+ListTopHerbs = Callable[[int], list[RankedHerb]]

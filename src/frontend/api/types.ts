@@ -118,7 +118,7 @@ export interface SendMessageResponse extends ResourceInvalidations {
 }
 
 export interface ClassificationResponse extends SendMessageResponse {
-  intent?: "remedii" | "planta" | "diverse" | "email_raport";
+  intent?: "remedii" | "planta" | "diverse" | "email_raport" | "top_plante";
 }
 
 export interface ConditionResponse extends ResourceInvalidations {

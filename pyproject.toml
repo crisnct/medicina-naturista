@@ -40,6 +40,7 @@ where = ["src"]
 include = ["backend*", "scripts*"]
 
 [tool.setuptools.package-data]
+scripts = ["dictionaires/ro/*.dic", "dictionaires/ro/*.aff"]
 backend = [
     "migrations/*.sql",
     "ai/prompts/*.md",

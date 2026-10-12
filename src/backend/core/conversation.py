@@ -25,6 +25,7 @@ from backend.core.contracts import (
     EmailProtocol,
     Evidence,
     IdentifyCondition,
+    ListTopHerbs,
     LookupHerb,
     RenderPDF,
     RetrievalProtocol,
@@ -216,6 +217,7 @@ class ConversationService:
     pdf: RenderPDF
     classify_message: ClassifyMessage | None = None
     herb_lookup: LookupHerb | None = None
+    top_herbs: ListTopHerbs | None = None
 
     def budget(self, operation: SessionOperation) -> OperationBudget:
         return OperationBudget(
@@ -416,7 +418,26 @@ class ConversationService:
                 return self._route_email(operation, decision, notices)
             if decision.intent == "planta":
                 return self._route_herb(operation, decision, notices)
+            if decision.intent == "top_plante":
+                return self._route_top_herbs(operation, decision, notices)
+            if decision.intent == "remedii" and decision.needs_clarification:
+                resolved = resolve_query(routing.message)
+                # A condition-only reply already supplies the missing subject,
+                # including spellings recognised by the retrieval dictionary.
+                if resolved.segments and all(
+                    segment.conditions and not segment.remainder for segment in resolved.segments
+                ):
+                    decision = decision.model_copy(update={"needs_clarification": False})
             if decision.needs_clarification:
+                if decision.intent == "remedii":
+                    routing.clarification = "remedii"
+                    notices.append(
+                        text_message(
+                            "assistant",
+                            "Pentru ce afecțiune sau problemă de sănătate doriți remedii?",
+                        )
+                    )
+                    return self._commit_route(operation, notices)
                 notices.append(
                     text_message(
                         "assistant",
@@ -475,6 +496,45 @@ class ConversationService:
             "identifyCondition": routing.identify_condition and not result.cancelled,
             "contextRevision": operation.snapshot.context_revision,
         }
+
+    def _route_top_herbs(
+        self,
+        operation: SessionOperation,
+        decision: MessageClassification,
+        notices: list[dict[str, Any]],
+    ) -> dict[str, Any]:
+        if decision.needs_clarification or decision.top_count is None:
+            operation.snapshot.routing.clarification = "top_plante"
+            notices.append(
+                text_message(
+                    "assistant", "Câte plante doriți în top? Precizați un număr între 1 și 10000."
+                )
+            )
+        else:
+            if self.top_herbs is None:
+                raise ApplicationError(
+                    "HERB_CATALOG_UNAVAILABLE", "Catalogul de plante nu este disponibil.", 503
+                )
+            with operation_budget(self.budget(operation)):
+                herbs = self.top_herbs(decision.top_count)
+            self.store.checkpoint(operation)
+            if not herbs:
+                content = "Catalogul nu conține plante pentru acest top."
+            else:
+                lines = [f"Top {len(herbs)} plante după numărul de afecțiuni asociate în catalog:"]
+                for position, herb in enumerate(herbs, 1):
+                    aliases = (
+                        f" (denumiri regionale: {', '.join(herb['ro_regional'])})"
+                        if herb["ro_regional"]
+                        else ""
+                    )
+                    conditions = "afecțiune" if herb["ranking"] == 1 else "afecțiuni"
+                    lines.append(
+                        f"{position}. {herb['ro']} — utilă în {herb['ranking']} {conditions}{aliases}"
+                    )
+                content = "\n".join(lines)
+            notices.append(text_message("assistant", content))
+        return self._commit_route(operation, notices)
 
     def _route_herb(
         self,

@@ -5,6 +5,7 @@ import pytest
 from backend.ai import db
 from backend.ai.herb_conditions import literal_pattern, lookup_herb_conditions
 from backend.ai.herb_index_catalog import read_index_catalogs
+from backend.ai.herb_ranking import list_top_herbs
 from backend.ai.herb_repository import HERBS_INDEX_VERSION
 from backend.ai.index_state import IndexUnavailable
 from tests.support.postgres import PostgresFixture
@@ -150,3 +151,19 @@ def test_missing_table_is_index_unavailable(catalog):
     finally:
         with db.get_pool().connection() as connection:
             connection.execute("ALTER TABLE herbs_benefits_hidden RENAME TO herbs_benefits")
+
+
+def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
+    with db.get_pool().connection() as connection:
+        connection.execute(
+            "UPDATE herbs SET ranking = CASE WHEN id=3 THEN 9 WHEN id IN (1,2) THEN 7 ELSE 0 END"
+        )
+        connection.execute(
+            "INSERT INTO herb_aliases(herb_id,name,kind) VALUES (3,'water mint','en_alt'), (3,'menta de balta','ro_regional'), (3,'iz ma','latin_synonyms')"
+        )
+    assert list_top_herbs(2) == [
+        {"ro": "menta de apa", "ro_regional": ["menta de balta"], "ranking": 9},
+        {"ro": "mușețel", "ro_regional": ["romanita"], "ranking": 7},
+    ]
+    assert len(list_top_herbs(100)) == 4
+    assert list_top_herbs(3)[2] == {"ro": "mușețel", "ro_regional": [], "ranking": 7}
