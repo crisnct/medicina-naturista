@@ -4,6 +4,7 @@ from dataclasses import replace
 from types import MappingProxyType
 from unittest import TestCase, mock
 
+from backend.ai.query_terms import plain
 from scripts import build_hybrid_index as builder
 
 
@@ -51,16 +52,16 @@ class HerbsIndexTests(TestCase):
         for value in ("IN, IN!_in", "Iarba-mare\n de camp", "123", "", "MUSETEL"):
             self.assertEqual(
                 builder._herb_text(value),
-                " ".join(builder._HERBS_TOKENS.findall(builder.plain(value))),
+                " ".join(builder._HERBS_TOKENS.findall(plain(value))),
             )
         self.assertEqual(builder._herb_text("Mușețel şi PĂDUCEL"), "musetel si paducel")
 
     def test_exact_conditions_shared_synonyms_and_sparse_ids(self):
         ctx = context()
-        self.assertEqual(builder._herbs_condition_mask(ctx, ["Gastrita"], ["comun", "comun"]), 3)
-        self.assertEqual(
-            builder._herbs_condition_mask(ctx, ["gastrita", "Gastrita cronica"], []), 0
-        )
+        self.assertEqual(builder._herbs_condition_mask(ctx, ["Gastrita"]), 1)
+        self.assertEqual(builder._herbs_condition_mask(ctx, ["comun", "comun"]), 3)
+        self.assertEqual(builder._herbs_condition_mask(ctx, []), 0)
+        self.assertEqual(builder._herbs_condition_mask(ctx, ["gastrita", "Gastrita cronica"]), 0)
         seen = [0, 0]
         self.assertEqual(
             set(builder._new_herbs_pairs(ctx, seen, [0, 1], 3)),
@@ -74,13 +75,12 @@ class HerbsIndexTests(TestCase):
 
     def test_fingerprint_order_independent_but_ids_and_version_matter(self):
         rows = [[991, "Gastrita", ["gastric"]], [7, "Febra", []]]
-        self.assertEqual(builder._herbs_fingerprint(rows), builder._herbs_fingerprint(rows[::-1]))
-        self.assertNotEqual(
-            builder._herbs_fingerprint(rows), builder._herbs_fingerprint([[1, "Febra", []]])
-        )
-        original = builder._herbs_fingerprint(rows)
-        with mock.patch.object(builder, "HERBS_INDEX_VERSION", 2):
-            self.assertNotEqual(builder._herbs_fingerprint(rows), original)
+        fingerprint = builder.herb_index_catalog.fingerprint_rows
+        self.assertEqual(fingerprint(rows), fingerprint(rows[::-1]))
+        self.assertNotEqual(fingerprint(rows), fingerprint([[1, "Febra", []]]))
+        original = fingerprint(rows)
+        with mock.patch.object(builder.herb_index_catalog, "HERBS_INDEX_VERSION", 1):
+            self.assertNotEqual(fingerprint(rows), original)
 
     def test_bitmap_budget_conservative_and_monotonic(self):
         self.assertLess(builder._herbs_bitmap_bytes(1188, 6284), builder.HERBS_BITMAP_BUDGET_BYTES)

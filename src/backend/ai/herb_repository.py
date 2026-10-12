@@ -18,7 +18,8 @@ from backend.ai.herbs import FIELDS, Herb, HerbCatalog
 from backend.core.errors import ApplicationError
 
 FINGERPRINT_VERSION = 1
-HERBS_INDEX_VERSION = 1
+# Version 2 uses only primary chunk conditions and publishes ranking atomically.
+HERBS_INDEX_VERSION = 2
 logger = logging.getLogger("naturist.herbs")
 _cache_lock = Lock()
 _cache: OrderedDict[tuple, HerbCatalogSnapshot] = OrderedDict()

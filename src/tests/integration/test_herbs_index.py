@@ -159,7 +159,7 @@ class HerbsIndexDatabaseTests(TestCase):
             self.add_chunk(
                 conn, "MUȘEȚEL, matricaria-chamomilla musetel", ["comun"], ["Gastrita", "comun"]
             )
-            self.add_chunk(conn, "musetel", [], ["stomac"])
+            self.add_chunk(conn, "musetel", ["Gastrita"], ["stomac"])
             self.add_chunk(conn, "musetel gastrita", ["Gastrita cronica"])
             self.add_chunk(conn, "inflamatie", [], [], heading="musetel")
             ctx = self.prepare(conn)
@@ -172,8 +172,8 @@ class HerbsIndexDatabaseTests(TestCase):
                     if position in owners
                 ]
                 for (text,) in conn.execute(
-                    "SELECT text FROM chunks WHERE primary_medical_conditions && %s::text[] OR secondary_medical_conditions && %s::text[]",
-                    (terms, terms),
+                    "SELECT text FROM chunks WHERE primary_medical_conditions && %s::text[]",
+                    (terms,),
                 ):
                     for herb_position in builder._match_herbs(matcher, builder._herb_text(text)):
                         reference.add((ctx.herb_ids[herb_position], condition_id))
@@ -190,6 +190,39 @@ class HerbsIndexDatabaseTests(TestCase):
             self.assertEqual(self.pairs(conn), before)
             self.assertEqual(fallback["row_count"], 4)
 
+    def test_secondary_conditions_are_excluded_and_stale_ranking_is_replaced(self):
+        with db.get_pool().connection() as conn:
+            self.add_chunk(conn, "musetel", ["Gastrita"], ["Febra"])
+            self.add_chunk(conn, "musetel", [], ["Febra"])
+            conn.execute(
+                "INSERT INTO herbs_benefits(herb_id,medical_condition_id) VALUES (17,2),(803,2)"
+            )
+            conn.execute("UPDATE herbs SET ranking=99")
+            stats = self.rebuild(conn)
+            self.assertEqual({(h, c) for _, h, c in self.pairs(conn)}, {(17, 1), (803, 1)})
+            self.assertEqual(stats["chunks_read"], 1)
+            self.assertEqual(stats["deleted"], 2)
+            self.assertEqual(
+                conn.execute("SELECT id,ranking FROM herbs ORDER BY id").fetchall(),
+                [(17, 1), (803, 1)],
+            )
+
+    def test_last_primary_evidence_removed_with_secondary_conditions_remaining(self):
+        with db.get_pool().connection() as conn:
+            self.add_chunk(conn, "musetel", ["Gastrita"], ["Febra"])
+            self.rebuild(conn)
+            conn.execute("UPDATE chunks SET primary_medical_conditions=ARRAY[]::text[]")
+            ctx = self.prepare(conn)
+            self.assertFalse(ctx.workers_required)
+            with conn.transaction():
+                stats = builder._rebuild_herbs_benefits(
+                    conn, context=ctx, executor=None, progress=lambda *_a, **_k: None
+                )
+            self.assertEqual(
+                (stats["chunks_read"], stats["row_count"], stats["deleted"]), (0, 0, 2)
+            )
+            self.assertEqual(conn.execute("SELECT ranking FROM herbs").fetchall(), [(0,), (0,)])
+
     def test_last_evidence_removed_and_empty_result(self):
         with db.get_pool().connection() as conn:
             self.add_chunk(conn, "musetel", ["Gastrita"])
@@ -204,6 +237,7 @@ class HerbsIndexDatabaseTests(TestCase):
             self.rebuild(conn)
             conn.commit()
             before = self.pairs(conn)
+            before_ranking = conn.execute("SELECT id,ranking FROM herbs ORDER BY id").fetchall()
             conn.commit()
             ctx = self.prepare(conn)
             conn.commit()
@@ -217,6 +251,9 @@ class HerbsIndexDatabaseTests(TestCase):
                         conn.execute("INSERT INTO sync_metadata VALUES ('index_generation','bad')")
                         raise RuntimeError("publication failed")
             self.assertEqual(self.pairs(conn), before)
+            self.assertEqual(
+                conn.execute("SELECT id,ranking FROM herbs ORDER BY id").fetchall(), before_ranking
+            )
             self.assertEqual(conn.execute("SELECT count(*) FROM chunks").fetchone()[0], 1)
             self.assertEqual(conn.execute("SELECT * FROM sync_metadata").fetchall(), [])
 
@@ -258,7 +295,7 @@ class HerbsIndexDatabaseTests(TestCase):
                 self.assertTrue(prepare().rebuild_required)
             conn.execute("UPDATE herbs SET family='rosaceae' WHERE id=17")
             self.assertFalse(prepare().rebuild_required)
-            with mock.patch.object(builder, "HERBS_INDEX_VERSION", 2):
+            with mock.patch.object(builder, "HERBS_INDEX_VERSION", 1):
                 self.assertTrue(prepare().rebuild_required)
             conn.execute(
                 "INSERT INTO herb_aliases(herb_id,name,kind) VALUES (17,'noua planta','ro_regional')"

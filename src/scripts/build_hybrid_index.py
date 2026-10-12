@@ -216,8 +216,7 @@ def _prepare_herbs_index(
     workers_required = rebuild and not no_eligible_work
     if workers_required and not chunks_changed:
         workers_required = connection.execute(
-            "SELECT EXISTS (SELECT 1 FROM chunks WHERE cardinality(primary_medical_conditions)>0 "
-            "OR cardinality(secondary_medical_conditions)>0)"
+            "SELECT EXISTS (SELECT 1 FROM chunks WHERE cardinality(primary_medical_conditions)>0)"
         ).fetchone()[0]
     print(
         f"herbs_benefits | preparation reason={reason} bitmap_bytes={bitmap_bytes} "
@@ -361,9 +360,10 @@ def _herbs_startup_job():
     return os.getpid()
 
 
-def _herbs_condition_mask(context, primary, secondary) -> int:
+def _herbs_condition_mask(context, primary) -> int:
+    """Associate herbs only with the conditions named by the fragment's title."""
     mask = 0
-    for term in set(primary) | set(secondary):
+    for term in set(primary):
         for position in context.condition_positions_by_term.get(term, ()):
             mask |= 1 << position
     return mask
@@ -429,8 +429,7 @@ def _rebuild_herbs_benefits(connection, *, context, executor, progress=print) ->
     started = time.monotonic()
     _build_stage("herbs_scan_and_copy")
     total = connection.execute(
-        "SELECT count(*) FROM chunks WHERE cardinality(primary_medical_conditions)>0 "
-        "OR cardinality(secondary_medical_conditions)>0"
+        "SELECT count(*) FROM chunks WHERE cardinality(primary_medical_conditions)>0"
     ).fetchone()[0]
     stats: HerbsIndexStats = dict(
         chunks_read=0,
@@ -523,18 +522,16 @@ def _rebuild_herbs_benefits(connection, *, context, executor, progress=print) ->
         with connection.cursor(name="herbs_benefits_scan") as cursor:
             cursor.itersize = HERBS_FETCH_SIZE
             cursor.execute(
-                "SELECT chunk_id, text, primary_medical_conditions, "
-                "secondary_medical_conditions FROM chunks "
-                "WHERE cardinality(primary_medical_conditions)>0 "
-                "OR cardinality(secondary_medical_conditions)>0"
+                "SELECT chunk_id, text, primary_medical_conditions FROM chunks "
+                "WHERE cardinality(primary_medical_conditions)>0"
             )
             texts: list[str] = []
             masks: list[int] = []
             sizes: list[int] = []
             text_bytes = 0
-            for _, text, primary, secondary in cursor:
+            for _, text, primary in cursor:
                 stats["chunks_read"] += 1
-                mask = _herbs_condition_mask(context, primary, secondary)
+                mask = _herbs_condition_mask(context, primary)
                 if not mask:
                     stats["chunks_completed"] += 1
                     reporter.report("scan_and_copy", stats, active=len(active))
@@ -583,6 +580,14 @@ def _rebuild_herbs_benefits(connection, *, context, executor, progress=print) ->
     stats["deleted"] = connection.execute(HERBS_BENEFITS_DELETE_SQL).rowcount
     # Freeze the old pair set once, even when the INSERT target starts empty.
     stats["inserted"] = connection.execute(HERBS_BENEFITS_INSERT_SQL).rowcount
+    # Publish the derived ranking with the new associations, including zero counts.
+    connection.execute(
+        "UPDATE herbs AS h SET ranking = counts.total_conditions FROM ("
+        "SELECT herb.id AS herb_id, COUNT(DISTINCT hb.medical_condition_id) AS total_conditions "
+        "FROM herbs AS herb LEFT JOIN herbs_benefits AS hb ON hb.herb_id=herb.id "
+        "GROUP BY herb.id) AS counts "
+        "WHERE h.id=counts.herb_id AND h.ranking IS DISTINCT FROM counts.total_conditions"
+    )
     stats["publication_seconds"] = time.monotonic() - tick
     stats["elapsed_seconds"] = time.monotonic() - started
     return stats
@@ -1138,16 +1143,14 @@ def _build(
     retained_eligible = (
         connection.execute(
             "SELECT EXISTS (SELECT 1 FROM chunks WHERE NOT (source_relative_path=ANY(%s)) "
-            "AND (cardinality(primary_medical_conditions)>0 OR "
-            "cardinality(secondary_medical_conditions)>0))",
+            "AND cardinality(primary_medical_conditions)>0)",
             ([item.relative_path for item, _ in pending] + removed,),
         ).fetchone()[0]
         if not dimension_changed
         else False
     )
     no_eligible_work = not retained_eligible and not any(
-        item.primary_medical_conditions or item.secondary_medical_conditions
-        for item in all_new_chunks
+        item.primary_medical_conditions for item in all_new_chunks
     )
     context = _prepare_herbs_index(
         connection,

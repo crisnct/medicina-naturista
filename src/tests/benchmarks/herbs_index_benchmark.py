@@ -148,14 +148,14 @@ def benchmark_plans(conn):
     conn.execute("ANALYZE chunks")
     with conn.transaction():
         plans["scan"] = conn.execute(
-            "EXPLAIN (ANALYZE,BUFFERS,FORMAT JSON) SELECT chunk_id,text,primary_medical_conditions,secondary_medical_conditions FROM chunks WHERE cardinality(primary_medical_conditions)>0 OR cardinality(secondary_medical_conditions)>0"
+            "EXPLAIN (ANALYZE,BUFFERS,FORMAT JSON) SELECT chunk_id,text,primary_medical_conditions FROM chunks WHERE cardinality(primary_medical_conditions)>0"
         ).fetchone()[0]
         term = conn.execute(
-            "SELECT unnest(primary_medical_conditions || secondary_medical_conditions) FROM chunks LIMIT 1"
+            "SELECT unnest(primary_medical_conditions) FROM chunks LIMIT 1"
         ).fetchone()[0]
         plans["condition_gin"] = conn.execute(
-            "EXPLAIN (ANALYZE,BUFFERS,FORMAT JSON) SELECT chunk_id,text FROM chunks WHERE primary_medical_conditions && %s::text[] OR secondary_medical_conditions && %s::text[]",
-            ([term], [term]),
+            "EXPLAIN (ANALYZE,BUFFERS,FORMAT JSON) SELECT chunk_id,text FROM chunks WHERE primary_medical_conditions && %s::text[]",
+            ([term],),
         ).fetchone()[0]
         conn.execute(
             "CREATE TEMP TABLE herbs_benefits_next ON COMMIT DROP AS SELECT herb_id,medical_condition_id FROM herbs_benefits"
@@ -389,9 +389,7 @@ def simple_matcher(names):
 
 def reference_checks(conn, context):
     fetch_started = time.monotonic()
-    rows = conn.execute(
-        "SELECT text,primary_medical_conditions,secondary_medical_conditions FROM chunks"
-    ).fetchall()
+    rows = conn.execute("SELECT text,primary_medical_conditions FROM chunks").fetchall()
     fetch_seconds = time.monotonic() - fetch_started
     simple = simple_matcher(context.names)
     automaton = builder._make_herbs_matcher(context.names)
@@ -405,8 +403,8 @@ def reference_checks(conn, context):
         for _ in range(3):
             started = time.monotonic()
             result = set()
-            for text, primary, secondary in rows:
-                mask = builder._herbs_condition_mask(context, primary, secondary)
+            for text, primary in rows:
+                mask = builder._herbs_condition_mask(context, primary)
                 if mask:
                     result.update(builder._new_herbs_pairs(context, None, match(text), mask))
             durations.append(time.monotonic() - started)
@@ -425,14 +423,14 @@ def reference_checks(conn, context):
     reference = set()
     for position, condition_id in enumerate(context.condition_ids):
         terms = by_position[position]
-        for text, primary, secondary in sample:
-            if terms.intersection(primary) or terms.intersection(secondary):
+        for text, primary in sample:
+            if terms.intersection(primary):
                 reference.update((context.herb_ids[p], condition_id) for p in simple(text))
     condition_first = time.monotonic() - started
     started = time.monotonic()
     single = set()
-    for text, primary, secondary in sample:
-        mask = builder._herbs_condition_mask(context, primary, secondary)
+    for text, primary in sample:
+        mask = builder._herbs_condition_mask(context, primary)
         if mask:
             single.update(builder._new_herbs_pairs(context, None, simple(text), mask))
     single_seconds = time.monotonic() - started
@@ -447,8 +445,8 @@ def reference_checks(conn, context):
             seen = [0] * len(context.herb_ids)
             bits = bytearray((len(context.herb_ids) * len(context.condition_ids) + 7) // 8)
             for _duplicate in range(5):
-                for text, primary, secondary in sample:
-                    mask = builder._herbs_condition_mask(context, primary, secondary)
+                for text, primary in sample:
+                    mask = builder._herbs_condition_mask(context, primary)
                     if not mask:
                         continue
                     owners = simple(text)
