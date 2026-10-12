@@ -38,8 +38,9 @@ def _insert_document(relative_path: str) -> None:
 class LoadCategoryTreeTests(unittest.TestCase):
     def setUp(self):
         _fixture.reset()
+        from backend.ai import index_constants
         from backend.ai.embedding_model import DEFAULT_MODEL, get_profile
-        from backend.ai.index_state import TEXT_REPR_VERSION, dictionary_snapshot, passage_profile
+        from backend.ai.index_state import dictionary_snapshot, passage_profile
 
         profile = get_profile(DEFAULT_MODEL)
         with db_module.get_pool().connection() as connection:
@@ -49,7 +50,7 @@ class LoadCategoryTreeTests(unittest.TestCase):
                 "dictionary_fingerprint": dictionary_snapshot(connection)[0],
                 "dictionary_fingerprint_version": "1",
                 "passage_profile": passage_profile(profile),
-                "text_repr_version": TEXT_REPR_VERSION,
+                "text_repr_version": index_constants.TEXT_REPR_VERSION,
                 "index_generation": "category-test",
             }
             for key, value in metadata.items():

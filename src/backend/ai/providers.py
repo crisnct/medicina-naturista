@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Callable, Literal
+from typing import Any, Callable, Literal, TypedDict
 from urllib.parse import urlparse
 
 from backend.config import Settings
@@ -14,6 +14,12 @@ from backend.config import Settings
 JsonFormat = Literal["text_format", "response_format"] | None
 
 LOCAL_HOSTS = frozenset({"localhost", "127.0.0.1", "::1", "host.docker.internal"})
+
+
+class _GenerationLimits(TypedDict):
+    max_output_tokens: int
+    read_timeout_seconds: int
+    stream: bool
 
 
 @dataclass(frozen=True)
@@ -34,6 +40,7 @@ class ProviderConfig:
     stream: bool = False
     # Sampling temperature sent with the request; None leaves the provider's default.
     temperature: float | None = None
+    response_schema: dict[str, Any] | None = None
 
 
 # Whether the URL points at this machine (or the Docker host), where Ollama needs no key.
@@ -43,7 +50,7 @@ def _is_local(url: str) -> bool:
 
 # The single place where AI_PROVIDER becomes a provider configuration.
 def provider_config(settings: Settings) -> ProviderConfig:
-    common = {
+    common: _GenerationLimits = {
         "max_output_tokens": settings.ai_max_output_tokens,
         "read_timeout_seconds": settings.ai_read_timeout_seconds,
         "stream": settings.ai_stream,

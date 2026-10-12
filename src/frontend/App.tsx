@@ -46,7 +46,8 @@ export function App() {
         ) : (
           <ChatHistory
             history={conversation.history}
-            pending={conversation.isSearching || conversation.isGenerating}
+            pending={conversation.isClassifying || conversation.isSearching || conversation.isGenerating}
+            pendingLabel={conversation.isClassifying ? "Clasificare mesaj…" : undefined}
             onGenerate={conversation.generateReport}
           />
         )}

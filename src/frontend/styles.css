@@ -897,6 +897,27 @@ button.cat-toggle.cat-toggle-open svg {
     }
 }
 
+.herb-conditions-panel {
+    width: 100%;
+    padding: 1.25rem;
+    border: 1px solid #d8dfc6;
+    border-radius: 1rem;
+    background: #fafbf4;
+    box-sizing: border-box;
+}
+.herb-conditions-panel h3 { margin: 0 0 .5rem; }
+.herb-species { color: #596b45; font-style: italic; }
+.herb-conditions-table { max-height: 28rem; overflow: auto; }
+.herb-conditions-table table { width: 100%; border-collapse: collapse; }
+.herb-conditions-table th, .herb-conditions-table td {
+    padding: .6rem .75rem;
+    text-align: left;
+    border-bottom: 1px solid #d8dfc6;
+    overflow-wrap: anywhere;
+}
+.herb-conditions-table th { position: sticky; top: 0; background: #eef2e5; }
+.herb-association-note { font-size: .9rem; color: #596b45; margin-bottom: 0; }
+
 @media (prefers-reduced-motion: reduce) {
     *:not(.loader) {
         scroll-behavior: auto !important;

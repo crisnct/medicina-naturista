@@ -7,6 +7,8 @@ from __future__ import annotations
 
 import json
 import logging
+import re
+from collections.abc import Sequence
 from dataclasses import dataclass
 
 from backend.ai.conditions import _normalize
@@ -54,6 +56,10 @@ class SourceHerb(HerbNames):
 @dataclass(frozen=True)
 class Herb(HerbNames):
     id: int
+
+    @property
+    def choice(self) -> str:
+        return f"{self.ro} ({self.latin})"
 
 
 # Parse the catalogue text (JSON Lines). Blank lines are skipped; a line whose
@@ -114,6 +120,12 @@ class HerbCatalog:
                 owners = self._by_name.setdefault(_normalize(name), [])
                 if herb not in owners:
                     owners.append(herb)
+        names = sorted(self._by_name, key=lambda name: (-len(name), name))
+        self._mentions = (
+            re.compile(r"\b(" + "|".join(re.escape(name) for name in names) + r")(?:ului|ul)?\b")
+            if names
+            else None
+        )
 
     def by_id(self, herb_id: int) -> Herb | None:
         return self._by_id.get(herb_id) if type(herb_id) is int else None
@@ -127,6 +139,32 @@ class HerbCatalog:
     def lookup(self, name: str) -> list[Herb]:
         key = _normalize(name)
         return list(self._by_name.get(key, ())) if key else []
+
+    def selected_choice(self, message: str, choices: Sequence[str]) -> Herb | None:
+        allowed = {_normalize(choice) for choice in choices}
+        reply = _normalize(message)
+        matches = [
+            herb
+            for herb in self.herbs
+            if _normalize(herb.choice) in allowed
+            and reply in {_normalize(herb.choice), _normalize(herb.ro), _normalize(herb.latin)}
+        ]
+        return matches[0] if len(matches) == 1 else None
+
+    def mentioned_names(self, message: str) -> list[str]:
+        if self._mentions is None:
+            return []
+        return list(
+            dict.fromkeys(match.group(1) for match in self._mentions.finditer(_normalize(message)))
+        )
+
+    def mentions(self, message: str) -> list[Herb]:
+        """Catalog names in free text, with word boundaries and longest names first."""
+        matches: dict[int, Herb] = {}
+        for name in self.mentioned_names(message):
+            for herb in self.lookup(name):
+                matches.setdefault(herb.id, herb)
+        return list(matches.values())
 
 
 # Read only at call time; imports never connect or create tables.

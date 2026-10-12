@@ -28,6 +28,7 @@ from backend.core.models import (
     CommitChange,
     ConversationGroup,
     HealthProfile,
+    MessageRouting,
     OperationResult,
     SessionData,
     SessionOperation,
@@ -49,6 +50,8 @@ STATE_FIELDS = (
     "current_group_id",
     "groups",
     "context_revision",
+    "routing",
+    "message_receipts",
 )
 
 
@@ -88,6 +91,8 @@ def retained_usage(session: SessionData) -> RetainedUsage:
     metadata = serialized_bytes(
         {
             "profile": asdict(session.profile),
+            "routing": asdict(session.routing),
+            "message_receipts": session.message_receipts,
             "categories": sorted(session.selected_categories),
             "signals": asdict(session.search_signals),
             "groups": {gid: asdict(group) for gid, group in session.groups.items()},
@@ -263,7 +268,7 @@ class SessionStore:
             or self.clock() >= operation.deadline
         ):
             return False
-        if operation.kind in {"message", "condition", "search", "initialize"}:
+        if operation.kind in {"message", "classify", "condition", "search", "initialize"}:
             return operation.snapshot.context_revision == s.context_revision
         if operation.kind == "generate":
             search = s.searches.get(operation.search_id or "")
@@ -273,7 +278,9 @@ class SessionStore:
                 and search.identity == operation.snapshot.search.identity
             )
         if operation.kind == "email":
-            return operation.snapshot.report_id in s.reports
+            return operation.snapshot.context_revision == s.context_revision and (
+                operation.snapshot.report is None or operation.snapshot.report_id in s.reports
+            )
         return True
 
     def begin_operation(
@@ -283,6 +290,7 @@ class SessionStore:
         *,
         search_id: str | None = None,
         expected_revision: int | None = None,
+        report_id: str | None = None,
     ) -> SessionOperation:
         """Reserve lifetime/resource/capacity atomically, before external calls."""
         with self._lock, session.lock:
@@ -308,6 +316,12 @@ class SessionStore:
                 for op in self._workers.values()
                 if op.state == "running" and not op.cancellation.is_set()
             ]
+            if kind == "classify" and any(
+                op.session is session and op.kind == kind for op in active
+            ):
+                raise ApplicationError(
+                    "CLASSIFICATION_IN_PROGRESS", "Clasificarea este în curs.", 409
+                )
             if kind == "generate" and any(
                 op.session is session and op.kind == kind and op.search_id == search_id
                 for op in active
@@ -317,7 +331,7 @@ class SessionStore:
                     "Această căutare este deja în curs de generare.",
                 )
             # Count workers until finally, even when cancelled; network threads may still run.
-            if kind in {"search", "condition", "generate"}:
+            if kind in {"classify", "search", "condition", "generate", "email"}:
                 category = "generate" if kind == "generate" else "search"
                 cap = (
                     self.limits.max_concurrent_generations
@@ -327,7 +341,7 @@ class SessionStore:
                 count = sum(
                     ("generate" if op.kind == "generate" else "search") == category
                     for op in self._workers.values()
-                    if op.kind in {"search", "condition", "generate"}
+                    if op.kind in {"classify", "search", "condition", "generate", "email"}
                 )
                 if count >= cap:
                     raise ApplicationError(
@@ -340,10 +354,11 @@ class SessionStore:
                 group_id = next(
                     gid for gid, g in session.groups.items() if search_id in g.search_ids
                 )
-            latest = session.reports.get(session.report_id or "")
+            selected_report_id = report_id if report_id is not None else session.report_id
+            latest = session.reports.get(selected_report_id or "")
             if kind == "email" and latest:
                 group_id = next(
-                    gid for gid, g in session.groups.items() if session.report_id in g.report_ids
+                    gid for gid, g in session.groups.items() if selected_report_id in g.report_ids
                 )
             snapshot = SessionSnapshot(
                 session.lifetime_id,
@@ -355,12 +370,16 @@ class SessionStore:
                 session.search_signals,
                 copy.deepcopy(search) if kind == "generate" else None,
                 copy.deepcopy(latest) if kind == "email" else None,
-                session.report_id if kind == "email" else None,
+                selected_report_id,
+                copy.deepcopy(session.routing),
+                copy.deepcopy(session.message_receipts),
             )
             reservation = self.limits.operation_reservation_bytes
             reservation += serialized_bytes(
                 {
                     "profile": asdict(snapshot.profile),
+                    "routing": asdict(snapshot.routing),
+                    "message_receipts": snapshot.message_receipts,
                     "selected_categories": sorted(snapshot.selected_categories),
                     "search_signals": asdict(snapshot.search_signals),
                     "lifetime_id": snapshot.lifetime_id,
@@ -455,9 +474,16 @@ class SessionStore:
             proposed.groups.setdefault(group_id, ConversationGroup())
             if change.profile is not None:
                 proposed.profile = copy.deepcopy(change.profile)
+            if change.routing is not None:
+                proposed.routing = copy.deepcopy(change.routing)
             if change.new_context:
                 proposed.context_revision += 1
                 proposed.current_group_id = group_id
+            if change.message_receipt:
+                request_id, fingerprint = change.message_receipt
+                proposed.message_receipts[request_id] = (proposed.context_revision, fingerprint)
+                while len(proposed.message_receipts) > 32:
+                    del proposed.message_receipts[next(iter(proposed.message_receipts))]
             if change.selected_categories is not None:
                 proposed.selected_categories = set(change.selected_categories)
             if change.search_signals is not None:
@@ -580,7 +606,7 @@ class SessionStore:
                     if (
                         op.session is session
                         and op is not operation
-                        and op.kind in {"condition", "search"}
+                        and op.kind in {"classify", "condition", "search", "email"}
                     ):
                         self._cancel(op)
             if change.replace_search_id:
@@ -629,6 +655,8 @@ class SessionStore:
                     self._cancel(op)
             self._sessions.pop(key)
             session.profile = HealthProfile()
+            session.routing = MessageRouting()
+            session.message_receipts.clear()
             session.history.clear()
             session.searches.clear()
             session.clear_report()

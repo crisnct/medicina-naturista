@@ -37,6 +37,7 @@ export function useConversation() {
   // mutation's own isPending (which also covers the fast first phase), so
   // the chat can show a "thinking" indicator only for the slow part.
   const [isSearching, setIsSearching] = useState(false);
+  const [isClassifying, setIsClassifying] = useState(false);
 
   const sessionQuery = useQuery({ queryKey: SESSION_KEY, queryFn: api.getSession, retry: false });
   const history = sessionQuery.data?.history ?? [];
@@ -51,11 +52,8 @@ export function useConversation() {
   );
 
   const sendMessage = useMutation({
-    // Two round trips, not one: append the fast phase's messages (the
-    // patient's own text + the "Caut rapid..." notice) as soon as they
-    // arrive, then run the slower retrieval separately — otherwise the
-    // whole exchange would stay invisible until retrieval finished, which
-    // reads as "my message didn't send" while the search is still running.
+    // Echo immediately, classify, then continue only the selected branch.
+    // Classification and retrieval have separate indicators and no automatic retries.
     mutationFn: async ({
       message,
       categories,
@@ -67,17 +65,30 @@ export function useConversation() {
     }) => {
       const first = await api.sendMessage(message, categories, signals);
       appendMessages(first.messages, first);
-      if (first.startSearch) {
+      if (first.cancelled) return;
+      let routed = first;
+      if (first.classifyMessage) {
+        if (first.contextRevision === undefined) throw new Error("Missing message revision");
+        setIsClassifying(true);
+        try {
+          routed = await api.classifyMessage(first.contextRevision);
+          appendMessages(routed.messages, routed);
+        } finally {
+          setIsClassifying(false);
+        }
+      }
+      if (routed.cancelled) return;
+      if (routed.startSearch) {
         setIsSearching(true);
         try {
           let startSearch = true;
-          if (first.identifyCondition) {
-            const condition = await api.identifyCondition(first.contextRevision);
+          if (routed.identifyCondition) {
+            const condition = await api.identifyCondition(routed.contextRevision);
             appendMessages(condition.messages, condition);
-            startSearch = condition.startSearch;
+            startSearch = condition.startSearch && !condition.cancelled;
           }
           if (startSearch) {
-            const second = await api.search(first.contextRevision);
+            const second = await api.search(routed.contextRevision);
             appendMessages(second.messages, second);
             if (second.removedCategoryIds?.length) {
               setBanner("Unele surse selectate nu mai există și au fost eliminate. Verificați selecția categoriilor.");
@@ -148,6 +159,7 @@ export function useConversation() {
       sendMessage.mutate({ message, categories, signals }),
     isSending: sendMessage.isPending,
     isSearching,
+    isClassifying,
     isGenerating: generateReport.isPending,
     generateReport: (searchId: string, minScore: number) => generateReport.mutate({ searchId, minScore }),
   };

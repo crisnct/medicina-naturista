@@ -16,7 +16,7 @@ HEALTH_PROBLEM_QUESTION = """
 Bine ați venit în cabinetul meu virtual.  
 Folosesc o bibliotecă proprie de cărți și documente de medicină naturistă și caut în ele informațiile relevante pentru situația dumneavoastră. Nu caut remedii pe internet și nu folosesc surse externe.  
 Recomandările au rol informativ și adjuvant.  
-Cu ce problemă de sănătate vă confruntați?
+Cu ce problemă de sănătate vă confruntați sau despre ce plantă doriți informații? Puteți pune și alte întrebări despre sursele locale.
 """
 
 
@@ -110,6 +110,22 @@ class PendingSearch:
     signals: SearchSignals = ALL_SIGNALS
     identity: str = field(default_factory=lambda: secrets.token_urlsafe(18))
     index_generation: str | None = None
+    intent: str = "remedii"
+
+
+@dataclass
+class MessageRouting:
+    """Bounded state for one message revision and an optional clarification."""
+
+    message: str = ""
+    intent: str = ""
+    classified: bool = False
+    start_search: bool = False
+    identify_condition: bool = False
+    clarification: str = ""
+    herb_choices: tuple[str, ...] = ()
+    report_id: str | None = None
+    email_attempted: bool = False
 
 
 @dataclass
@@ -160,6 +176,8 @@ class SessionData:
     # Signals of the score the patient chose ("Ce tip de căutare doriți să
     # efectuez?") before the last search; every signal is on by default.
     search_signals: SearchSignals = ALL_SIGNALS
+    routing: MessageRouting = field(default_factory=MessageRouting)
+    message_receipts: dict[str, tuple[int, str]] = field(default_factory=dict)
     lock: threading.RLock = field(default_factory=threading.RLock)
 
     def touch(self) -> None:
@@ -207,6 +225,8 @@ class SessionSnapshot:
     search: PendingSearch | None = None
     report: StoredReport | None = None
     report_id: str | None = None
+    routing: MessageRouting = field(default_factory=MessageRouting)
+    message_receipts: dict[str, tuple[int, str]] = field(default_factory=dict)
 
 
 @dataclass
@@ -234,6 +254,8 @@ class CommitChange:
     search: tuple[str, PendingSearch] | None = None
     report: tuple[str, StoredReport] | None = None
     replace_search_id: str | None = None
+    routing: MessageRouting | None = None
+    message_receipt: tuple[str, str] | None = None
 
 
 @dataclass(frozen=True)

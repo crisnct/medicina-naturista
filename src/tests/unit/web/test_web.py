@@ -19,6 +19,7 @@ from backend.ai.categories import CategoryNode, CategoryTree
 from backend.ai.client import GENERATE_REPORT_SYSTEM_PROMPT_PATH, XAIClient
 from backend.ai.condition_ai import AIConditionResult, resolved_for
 from backend.ai.embedding_model import _normalize_fastembed_metadata
+from backend.ai.message_classification import MessageClassification
 from backend.ai.search import ALL_SIGNALS, SearchSignals, max_score
 from backend.config import Settings
 from backend.core import conversation
@@ -146,6 +147,12 @@ def _send(
     response = client.post("/api/messages", json=body, headers=_headers(sid, tab))
     body = response.json()
     messages = list(body["messages"])
+    if body.get("classifyMessage"):
+        body = client.post(
+            "/api/classify",
+            headers={**_headers(sid, tab), "X-Context-Revision": str(body["contextRevision"])},
+        ).json()
+        messages += body["messages"]
     start_search = body["startSearch"]
     if start_search and body.get("identifyCondition"):
         condition = client.post("/api/condition", headers=_headers(sid, tab)).json()
@@ -154,6 +161,13 @@ def _send(
     if start_search:
         messages += client.post("/api/search", headers=_headers(sid, tab)).json()["messages"]
     return messages
+
+
+def _classify_latest(client, sid, tab):
+    revision = client.app.state.dependencies.store.get(sid, tab).context_revision
+    return client.post(
+        "/api/classify", headers={**_headers(sid, tab), "X-Context-Revision": str(revision)}
+    ).json()
 
 
 class WebTests(unittest.TestCase):
@@ -194,6 +208,7 @@ class WebTests(unittest.TestCase):
             RateLimiter(),
             RateLimiter(),
             b"synthetic-csrf-secret",
+            classify=lambda message, context: MessageClassification(intent="remedii"),
         )
         # The condition AI never reaches the network from these tests: by default
         # it is "disabled"; the tests of that step patch it with their own answer.
@@ -659,6 +674,7 @@ class WebTests(unittest.TestCase):
                 json={"message": "Alergie", "categories": ["necunoscuta"]},
                 headers=_headers(sid, tab),
             ).json()["messages"]
+            messages += _classify_latest(self.client, sid, tab)["messages"]
             notice = next(m for m in messages if "Caut rapid" in m.get("content", ""))
             self.assertIn("Caut rapid în cele 0 documente", notice["content"])
             stale = self.client.post("/api/search", headers=_headers(sid, tab))
@@ -738,6 +754,7 @@ class WebTests(unittest.TestCase):
                 json={"message": "gout", "categories": []},
                 headers=_headers(sid, tab),
             ).json()["messages"]
+            messages += _classify_latest(self.client, sid, tab)["messages"]
             contents = [m.get("content", "") for m in messages]
             searching = next(i for i, c in enumerate(contents) if "Caut rapid" in c)
             self.assertIn("**Artrita gutoasa**", contents[searching - 1])
@@ -1125,6 +1142,7 @@ class WebTests(unittest.TestCase):
                 json={"message": "gout", "categories": []},
                 headers=_headers(sid, tab),
             )
+            _classify_latest(self.client, sid, tab)
             self.assertEqual(self.deps.store.get(sid, tab).profile.ai_conditions, ())
         self.deps.store.delete(sid, tab)
 
@@ -1175,6 +1193,7 @@ class WebTests(unittest.TestCase):
                 json={"message": "durere de cap", "categories": []},
                 headers=_headers(sid, tab),
             )
+            _classify_latest(self.client, sid, tab)
             body = self.client.post("/api/condition", headers=_headers(sid, tab)).json()
             messages = body["messages"]
             session = self.deps.store.get(sid, tab)

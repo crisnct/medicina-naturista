@@ -75,10 +75,17 @@ def test_partial_publication_download_and_email_use_identical_pdf(web):
     data = test.client.get(download["url"], headers=support._headers(sid, tab)).content
     assert PARTIAL_NOTICE in "\n".join(p.extract_text() for p in PdfReader(io.BytesIO(data)).pages)
     with patch.object(test.deps, "email", return_value="ok") as email:
-        test.client.post(
+        first = test.client.post(
             "/api/messages",
             json={"message": "synthetic@example.com", "categories": []},
             headers=support._headers(sid, tab),
+        ).json()
+        test.client.post(
+            "/api/classify",
+            headers={
+                **support._headers(sid, tab),
+                "X-Context-Revision": str(first["contextRevision"]),
+            },
         )
         assert email.call_args.args[1] == data
 

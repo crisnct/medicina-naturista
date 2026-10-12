@@ -7,8 +7,10 @@ from dataclasses import dataclass
 from backend.config import Settings
 from backend.core.contracts import (
     AIProtocol,
+    ClassifyMessage,
     EmailProtocol,
     IdentifyCondition,
+    LookupHerb,
     RenderPDF,
     RetrievalProtocol,
 )
@@ -30,3 +32,5 @@ class Dependencies:
     identify: IdentifyCondition | None = None
     email: EmailProtocol | None = None
     pdf: RenderPDF | None = None
+    classify: ClassifyMessage | None = None
+    herb_lookup: LookupHerb | None = None

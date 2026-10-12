@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 // Animated "thinking" bubble shown while a slow backend call is in flight
 // (retrieval or AI generation) — the elapsed-time counter and bouncing dots
 // Gradio's own chatbot used to show for free while a response was pending.
-export function TypingIndicator() {
+export function TypingIndicator({ label }: { label?: string }) {
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
 
   useEffect(() => {
@@ -18,6 +18,7 @@ export function TypingIndicator() {
     <div className="message-wrap assistant">
       <div className="message typing-indicator" role="status" aria-live="polite">
         <span className="loader" aria-hidden="true" />
+        {label && <span>{label}</span>}
         <span className="typing-elapsed">Timp scurs: {elapsedSeconds}s</span>
       </div>
     </div>

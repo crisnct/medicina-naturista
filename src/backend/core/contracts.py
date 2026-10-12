@@ -3,12 +3,13 @@
 from __future__ import annotations
 
 from collections.abc import Callable
-from typing import TYPE_CHECKING, NotRequired, Protocol, TypedDict
+from typing import TYPE_CHECKING, Literal, NotRequired, Protocol, TypedDict
 
 if TYPE_CHECKING:
     from backend.ai.categories import CategoryTree
     from backend.ai.condition_ai import AIConditionResult
     from backend.ai.conditions import ResolvedQuery
+    from backend.ai.message_classification import MessageClassification
     from backend.ai.report_validation import ValidatedReport
     from backend.core.models import SessionSnapshot
 
@@ -71,3 +72,21 @@ class EmailProtocol(Protocol):
 
 IdentifyCondition = Callable[["ResolvedQuery"], "AIConditionResult"]
 RenderPDF = Callable[[ProfilePayload, "ValidatedReport", Evidence, float], bytes]
+ClassifyMessage = Callable[[str, dict[str, object]], "MessageClassification"]
+
+
+class HerbCondition(TypedDict):
+    id: int
+    name: str
+
+
+class HerbLookupResult(TypedDict):
+    status: Literal["found", "not_found", "ambiguous"]
+    choices: NotRequired[list[str]]
+    herbName: NotRequired[str]
+    species: NotRequired[list[str]]
+    entriesCount: NotRequired[int]
+    conditions: NotRequired[list[HerbCondition]]
+
+
+LookupHerb = Callable[[str], HerbLookupResult]

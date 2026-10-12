@@ -17,6 +17,7 @@ from unittest.mock import patch
 from fastapi.testclient import TestClient
 
 from backend.ai.conditions import ConditionDictionary
+from backend.ai.message_classification import MessageClassification
 from backend.config import Settings
 from backend.core.errors import ApplicationError
 from backend.core.models import OperationResult
@@ -107,6 +108,7 @@ class HTTPPlanTests(unittest.TestCase):
             RateLimiter(),
             secrets.token_bytes(32),
             pdf=lambda *args: b"%PDF-synthetic",
+            classify=lambda message, context: MessageClassification(intent="remedii"),
         )
 
     def login(self, client=None):
@@ -123,6 +125,10 @@ class HTTPPlanTests(unittest.TestCase):
     def search(self, text="Gripă"):
         self.assertEqual(self.client.get("/api/session", headers=self.tab).status_code, 200)
         first = self.client.post("/api/messages", json={"message": text}, headers=self.tab).json()
+        self.client.post(
+            "/api/classify",
+            headers={**self.tab, "X-Context-Revision": str(first["contextRevision"])},
+        )
         response = self.client.post(
             "/api/search",
             headers={**self.tab, "X-Context-Revision": str(first["contextRevision"])},
@@ -602,6 +608,10 @@ class HTTPPlanTests(unittest.TestCase):
         first = self.client.post(
             "/api/messages", json={"message": "Gripă"}, headers=self.tab
         ).json()
+        self.client.post(
+            "/api/classify",
+            headers={**self.tab, "X-Context-Revision": str(first["contextRevision"])},
+        )
         entered, release = threading.Event(), threading.Event()
 
         def blocked(snapshot, max_chars=None):
@@ -650,12 +660,14 @@ class HTTPPlanTests(unittest.TestCase):
             return "sent"
 
         self.deps.email = email
+        first = self.client.post(
+            "/api/messages", json={"message": "synthetic@example.test"}, headers=self.tab
+        ).json()
         with ThreadPoolExecutor(1) as executor:
             future = executor.submit(
                 self.client.post,
-                "/api/messages",
-                json={"message": "synthetic@example.test"},
-                headers=self.tab,
+                "/api/classify",
+                headers={**self.tab, "X-Context-Revision": str(first["contextRevision"])},
             )
             try:
                 self.assertTrue(entered.wait(3))

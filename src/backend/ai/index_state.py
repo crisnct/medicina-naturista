@@ -9,7 +9,7 @@ from contextvars import ContextVar
 import psycopg
 from pydantic import BaseModel
 
-from backend.ai import db
+from backend.ai import db, index_constants
 from backend.ai.condition_repository import (
     FINGERPRINT_VERSION,
     CatalogUnavailable,
@@ -19,7 +19,6 @@ from backend.ai.embedding_model import get_profile
 from backend.core.errors import ApplicationError
 
 INDEX_LOCK = 7261040202
-TEXT_REPR_VERSION = "10"
 _reader: ContextVar[tuple[psycopg.Connection, IndexMetadata] | None] = ContextVar(
     "index_reader", default=None
 )
@@ -83,7 +82,7 @@ def read_metadata(connection, fingerprint=None) -> IndexMetadata:
             or metadata.dictionary_fingerprint_version != FINGERPRINT_VERSION
             or metadata.model_dimension != profile.dimension
             or metadata.passage_profile != passage_profile(profile)
-            or metadata.text_repr_version != TEXT_REPR_VERSION
+            or metadata.text_repr_version != index_constants.TEXT_REPR_VERSION
             or db._embedding_dimension(connection) != metadata.model_dimension
         ):
             raise IndexUnavailable("INDEX_RESYNC_REQUIRED")

@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import copy
+import hashlib
+import json
 import logging
 import re
 import secrets
@@ -12,21 +14,26 @@ from typing import Any
 from backend.ai.categories import category_selection
 from backend.ai.client import AIUnavailable
 from backend.ai.condition_ai import resolved_for
-from backend.ai.conditions import ResolvedQuery, resolve_query
+from backend.ai.conditions import ResolvedQuery, _normalize, resolve_query
+from backend.ai.message_classification import MessageClassification
 from backend.ai.report_validation import ValidatedReport, validate_report
 from backend.ai.search import ALL_SIGNALS, SearchSignals
 from backend.config import Settings
 from backend.core.contracts import (
     AIProtocol,
+    ClassifyMessage,
     EmailProtocol,
     Evidence,
     IdentifyCondition,
+    LookupHerb,
     RenderPDF,
     RetrievalProtocol,
 )
 from backend.core.errors import ApplicationError, OperationCancelled
 from backend.core.models import (
     CommitChange,
+    HealthProfile,
+    MessageRouting,
     OperationResult,
     PendingSearch,
     SessionData,
@@ -64,6 +71,37 @@ EMAIL_OFFER = (
     "Dacă doriți să trimiteți documentul pe mail la cineva, spuneți-mi la ce adresă să îl trimit."
 )
 EMAIL_PATTERN = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}")
+DIVERSE_SIGNALS_MESSAGE = "Activați căutarea lexicală sau semantică în panoul „Căutare avansată” pentru a căuta după mesaj."
+CLASSIFICATION_UNAVAILABLE = (
+    "Clasificarea AI nu este disponibilă momentan. Continui cu fluxul de căutare existent."
+)
+
+
+def email_candidates(message: str) -> list[str]:
+    tokens = re.split(r"[\s<>;,()]+", message)
+    result = []
+    for token in tokens:
+        address = token.strip(".!?:\"'")
+        if not EMAIL_PATTERN.fullmatch(address) or len(address) > 254:
+            continue
+        local, domain = address.rsplit("@", 1)
+        if len(local) > 64 or local.startswith(".") or local.endswith(".") or ".." in local:
+            continue
+        if any(
+            len(label) > 63 or label.startswith("-") or label.endswith("-")
+            for label in domain.split(".")
+        ):
+            continue
+        result.append(address)
+    return list(dict.fromkeys(result))
+
+
+def email_request_hint(message: str) -> bool:
+    normalized = _normalize(message)
+    return bool(EMAIL_PATTERN.fullmatch(message)) or (
+        bool(re.search(r"\b(trimite|trimiteti|trimiti|expediaza|send|email|mail)\b", normalized))
+        and ("@" in message or any(word in normalized for word in ("raport", "document", "pdf")))
+    )
 
 
 # Documents the given category ids actually cover, for the "Caut rapid în
@@ -176,6 +214,8 @@ class ConversationService:
     identify: IdentifyCondition
     email: EmailProtocol
     pdf: RenderPDF
+    classify_message: ClassifyMessage | None = None
+    herb_lookup: LookupHerb | None = None
 
     def budget(self, operation: SessionOperation) -> OperationBudget:
         return OperationBudget(
@@ -212,13 +252,16 @@ class ConversationService:
             reply = "Nu am putut trimite documentul pe mail. Încercați din nou."
         return self.store.commit_operation(
             operation,
-            CommitChange(
-                messages=[text_message("user", address), text_message("assistant", reply)]
-            ),
+            CommitChange(messages=[text_message("assistant", reply)]),
         )
 
     def message(
-        self, session: SessionData, message: str, categories: set[str], signals: SearchSignals
+        self,
+        session: SessionData,
+        message: str,
+        categories: set[str],
+        signals: SearchSignals,
+        request_id: str | None = None,
     ) -> dict[str, Any]:
         message = message.strip()
         if not message:
@@ -233,47 +276,55 @@ class ConversationService:
                 f"Mesajul depășește limita de {self.settings.max_chat_chars} caractere.",
                 422,
             )
-        # The report is selected by the registry, never read across an external call.
-        kind = "email" if EMAIL_PATTERN.fullmatch(message) else "message"
-        operation = self.store.begin_operation(session, kind)
+        operation = self.store.begin_operation(session, "message")
         try:
             snapshot = operation.snapshot
-            if kind == "email" and snapshot.report:
-                result = self.deliver_email(operation, message)
+            fingerprint = hashlib.sha256(
+                json.dumps([message, sorted(categories), signals.code], ensure_ascii=False).encode(
+                    "utf-8"
+                )
+            ).hexdigest()
+            receipt = snapshot.message_receipts.get(request_id or "")
+            if receipt is not None:
+                revision, previous_fingerprint = receipt
+                if previous_fingerprint != fingerprint:
+                    raise ApplicationError(
+                        "MESSAGE_ID_CONFLICT",
+                        "Identificatorul mesajului a fost reutilizat pentru alt conținut.",
+                        409,
+                    )
+                if revision != snapshot.context_revision:
+                    return cancelled(
+                        startSearch=False, identifyCondition=False, classifyMessage=False
+                    )
                 return {
-                    **result.as_dict(),
+                    **OperationResult().as_dict(),
                     "startSearch": False,
                     "identifyCondition": False,
+                    "classifyMessage": True,
+                    "contextRevision": revision,
                 }
-            if kind == "email":
-                # An address without a report remains ordinary chat text.
-                self.store.finish_operation(operation)
-                operation = self.store.begin_operation(session, "message")
-                snapshot = operation.snapshot
-            profile = snapshot.profile
-            profile.replace_health_problem(message)
-            categories = set(categories)
-            messages = [text_message("user", message)]
-            start_search, identify = True, False
-            if getattr(self.retriever, "category_tree", None) is not None and not categories:
-                messages.append(text_message("assistant", NO_CATEGORY_SELECTED_MESSAGE))
-                start_search = False
-            elif needs_condition_ai(profile.health_problem, signals, self.settings):
-                messages.append(text_message("assistant", CONDITION_AI_NOTICE))
-                identify = True
-            else:
-                identified = condition_identified_message(profile.health_problem, signals)
-                if identified:
-                    messages.append(identified)
-                count = document_count_for_categories(categories, self.retriever)
-                messages.append(
-                    text_message(
-                        "assistant",
-                        f"🔍 Caut rapid în cele {count} documente interne disponibile. Vă rog să așteptați.",
-                    )
-                )
+            previous = snapshot.routing
+            routing = MessageRouting(
+                message=message,
+                clarification=previous.clarification,
+                herb_choices=previous.herb_choices,
+                report_id=(
+                    previous.report_id
+                    if previous.clarification == "email_raport"
+                    else snapshot.report_id
+                ),
+            )
             result = self.store.commit_operation(
-                operation, CommitChange(messages, profile, True, categories, signals)
+                operation,
+                CommitChange(
+                    messages=[text_message("user", message)],
+                    new_context=True,
+                    selected_categories=categories,
+                    search_signals=signals,
+                    routing=routing,
+                    message_receipt=(request_id, fingerprint) if request_id else None,
+                ),
             )
             if not result.cancelled:
                 logger.info(
@@ -284,14 +335,261 @@ class ConversationService:
                 )
             return {
                 **result.as_dict(),
-                "startSearch": start_search and not result.cancelled,
-                "identifyCondition": identify and not result.cancelled,
+                "startSearch": False,
+                "identifyCondition": False,
+                "classifyMessage": not result.cancelled,
                 "contextRevision": snapshot.context_revision + 1,
             }
+        except OperationCancelled:
+            return cancelled(startSearch=False, identifyCondition=False, classifyMessage=False)
+        finally:
+            self.store.finish_operation(operation)
+
+    def classify(
+        self, session: SessionData, expected_revision: int | None = None
+    ) -> dict[str, Any]:
+        try:
+            operation = self.store.begin_operation(
+                session, "classify", expected_revision=expected_revision
+            )
+        except OperationCancelled:
+            return cancelled(startSearch=False, identifyCondition=False)
+        try:
+            snapshot = operation.snapshot
+            routing = snapshot.routing
+            if not routing.message:
+                raise ApplicationError("MESSAGE_UNAVAILABLE", "Trimiteți mai întâi un mesaj.", 409)
+            if routing.classified:
+                return {
+                    **OperationResult().as_dict(),
+                    "intent": routing.intent,
+                    "startSearch": routing.start_search,
+                    "identifyCondition": routing.identify_condition,
+                    "contextRevision": snapshot.context_revision,
+                }
+            notices = []
+            try:
+                self.store.checkpoint(operation)
+                with operation_budget(self.budget(operation)):
+                    if self.classify_message is None:
+                        raise AIUnavailable("Clasificatorul nu este configurat.")
+                    decision = self.classify_message(
+                        routing.message,
+                        {
+                            "report_available": routing.report_id is not None,
+                            "pending_clarification": routing.clarification or None,
+                            "herb_choices": list(routing.herb_choices),
+                        },
+                    )
+            except OperationCancelled:
+                raise
+            except (AIUnavailable, ValueError) as exc:
+                logger.warning(
+                    "classification_fallback type=%s reason=%s",
+                    type(exc).__name__,
+                    getattr(exc, "reason", "invalid_output"),
+                )
+                if EMAIL_PATTERN.fullmatch(routing.message):
+                    decision = MessageClassification(intent="email_raport")
+                elif email_request_hint(routing.message) or routing.clarification == "email_raport":
+                    decision = MessageClassification(
+                        intent="email_raport", needs_clarification=True
+                    )
+                    notices.append(
+                        text_message(
+                            "assistant",
+                            "Clasificarea nu este disponibilă. Reformulați cererea de trimitere și adresa destinatarului.",
+                        )
+                    )
+                else:
+                    decision = MessageClassification(intent="remedii")
+                    notices.append(text_message("assistant", CLASSIFICATION_UNAVAILABLE))
+            self.store.checkpoint(operation)
+            # Preserve the existing address-only command, independent of a model decision.
+            if EMAIL_PATTERN.fullmatch(routing.message):
+                decision = MessageClassification(intent="email_raport")
+            routing.intent = decision.intent
+            routing.classified = True
+            routing.clarification = ""
+            routing.herb_choices = ()
+            if decision.intent == "email_raport":
+                return self._route_email(operation, decision, notices)
+            if decision.intent == "planta":
+                return self._route_herb(operation, decision, notices)
+            if decision.needs_clarification:
+                notices.append(
+                    text_message(
+                        "assistant",
+                        "Precizați o singură solicitare: remedii, o plantă sau o întrebare generală.",
+                    )
+                )
+                return self._commit_route(operation, notices)
+            profile = snapshot.profile
+            profile.replace_health_problem(routing.message)
+            if (
+                getattr(self.retriever, "category_tree", None) is not None
+                and not snapshot.selected_categories
+            ):
+                notices.append(text_message("assistant", NO_CATEGORY_SELECTED_MESSAGE))
+            elif decision.intent == "diverse" and not (
+                snapshot.search_signals.lexical
+                or snapshot.search_signals.semantic
+                or resolve_query(routing.message).conditions
+            ):
+                notices.append(text_message("assistant", DIVERSE_SIGNALS_MESSAGE))
+            else:
+                routing.start_search = True
+                routing.identify_condition = decision.intent == "remedii" and needs_condition_ai(
+                    routing.message, snapshot.search_signals, self.settings
+                )
+                if routing.identify_condition:
+                    notices.append(text_message("assistant", CONDITION_AI_NOTICE))
+                else:
+                    if decision.intent == "remedii":
+                        identified = condition_identified_message(
+                            routing.message, snapshot.search_signals
+                        )
+                        if identified:
+                            notices.append(identified)
+                    notices.append(report_started_message(snapshot, self.retriever))
+            return self._commit_route(operation, notices, profile)
         except OperationCancelled:
             return cancelled(startSearch=False, identifyCondition=False)
         finally:
             self.store.finish_operation(operation)
+
+    def _commit_route(
+        self,
+        operation: SessionOperation,
+        messages: list[dict[str, Any]],
+        profile: HealthProfile | None = None,
+    ) -> dict[str, Any]:
+        routing = operation.snapshot.routing
+        result = self.store.commit_operation(
+            operation, CommitChange(messages=messages, profile=profile, routing=routing)
+        )
+        return {
+            **result.as_dict(),
+            "intent": routing.intent,
+            "startSearch": routing.start_search and not result.cancelled,
+            "identifyCondition": routing.identify_condition and not result.cancelled,
+            "contextRevision": operation.snapshot.context_revision,
+        }
+
+    def _route_herb(
+        self,
+        operation: SessionOperation,
+        decision: MessageClassification,
+        notices: list[dict[str, Any]],
+    ) -> dict[str, Any]:
+        routing = operation.snapshot.routing
+        if decision.needs_clarification or not decision.herb_name:
+            routing.clarification = "planta"
+            notices.append(
+                text_message(
+                    "assistant",
+                    "Despre ce plantă medicinală doriți informații? Precizați o singură plantă.",
+                )
+            )
+        else:
+            if self.herb_lookup is None:
+                raise ApplicationError(
+                    "HERB_CATALOG_UNAVAILABLE", "Catalogul de plante nu este disponibil.", 503
+                )
+            with operation_budget(self.budget(operation)):
+                data = self.herb_lookup(decision.herb_name)
+            self.store.checkpoint(operation)
+            if data["status"] == "not_found":
+                routing.clarification = "planta"
+                notices.append(
+                    text_message(
+                        "assistant",
+                        "Nu am găsit planta în catalog. Scrieți alt nume românesc sau denumirea latină.",
+                    )
+                )
+            elif data["status"] == "ambiguous":
+                routing.clarification = "planta"
+                routing.herb_choices = tuple(data["choices"])
+                notices.append(
+                    text_message(
+                        "assistant",
+                        "Numele corespunde mai multor plante. Alegeți una: "
+                        + ", ".join(routing.herb_choices)
+                        + ".",
+                    )
+                )
+            else:
+                notices.append(
+                    {
+                        "kind": "herb_conditions",
+                        "role": "assistant",
+                        **{k: v for k, v in data.items() if k != "status"},
+                    }
+                )
+        return self._commit_route(operation, notices)
+
+    def _route_email(
+        self,
+        operation: SessionOperation,
+        decision: MessageClassification,
+        notices: list[dict[str, Any]],
+    ) -> dict[str, Any]:
+        routing = operation.snapshot.routing
+        addresses = email_candidates(routing.message)
+        # More '@' tokens than validated recipients includes malformed/multiple addresses.
+        valid = len(addresses) == 1 and routing.message.count("@") == 1
+        valid = valid and (decision.email_address is None or decision.email_address == addresses[0])
+        if routing.report_id is None:
+            notices.append(
+                text_message(
+                    "assistant",
+                    "Nu există un raport precedent în această sesiune. Generați mai întâi un raport.",
+                )
+            )
+        elif decision.needs_clarification or not valid:
+            routing.clarification = "email_raport"
+            notices.append(
+                text_message(
+                    "assistant",
+                    "La ce adresă doriți să trimit raportul precedent? Precizați o singură adresă validă.",
+                )
+            )
+        else:
+            # Claim the message revision before the irreversible external call; retries never resend.
+            routing.email_attempted = True
+            result = self._commit_route(operation, notices)
+            if result["cancelled"]:
+                return result
+            self.store.finish_operation(operation)
+            email_operation = self.store.begin_operation(
+                operation.session,
+                "email",
+                expected_revision=operation.snapshot.context_revision,
+                report_id=routing.report_id,
+            )
+            try:
+                if email_operation.snapshot.report is None:
+                    delivered = self.store.commit_operation(
+                        email_operation,
+                        CommitChange(
+                            messages=[
+                                text_message(
+                                    "assistant",
+                                    "Raportul precedent nu mai este disponibil în sesiune. Generați din nou raportul.",
+                                )
+                            ]
+                        ),
+                    )
+                else:
+                    delivered = self.deliver_email(email_operation, addresses[0])
+                result["messages"].extend(delivered.messages)
+                for key in ("evictedSearchIds", "evictedReportIds", "evictedGroupIds"):
+                    result[key].extend(delivered.as_dict()[key])
+                result["cancelled"] = delivered.cancelled
+                return result
+            finally:
+                self.store.finish_operation(email_operation)
+        return self._commit_route(operation, notices)
 
     def condition(
         self, session: SessionData, expected_revision: int | None = None
@@ -304,6 +602,14 @@ class ConversationService:
             return cancelled(startSearch=False)
         try:
             snapshot = operation.snapshot
+            if snapshot.routing.message and (
+                not snapshot.routing.classified or snapshot.routing.intent != "remedii"
+            ):
+                return {
+                    **OperationResult().as_dict(),
+                    "startSearch": snapshot.routing.intent == "diverse"
+                    and snapshot.routing.start_search,
+                }
             if not needs_condition_ai(
                 snapshot.profile.health_problem, snapshot.search_signals, self.settings
             ):
@@ -350,6 +656,14 @@ class ConversationService:
             return cancelled()
         try:
             snapshot = operation.snapshot
+            if snapshot.routing.message and (
+                not snapshot.routing.classified
+                or snapshot.routing.intent not in {"remedii", "diverse"}
+                or not snapshot.routing.start_search
+            ):
+                raise ApplicationError(
+                    "SEARCH_NOT_ALLOWED", "Acest mesaj nu pornește o căutare de fragmente.", 409
+                )
             tree = getattr(self.retriever, "category_tree", None)
             if tree is not None:
                 # Validate even when an unresolved A-only query exits before collect().
@@ -363,7 +677,14 @@ class ConversationService:
                 return self.store.commit_operation(
                     operation,
                     CommitChange(
-                        messages=[text_message("assistant", CONDITION_NOT_IDENTIFIED_STOPS)]
+                        messages=[
+                            text_message(
+                                "assistant",
+                                DIVERSE_SIGNALS_MESSAGE
+                                if snapshot.routing.intent == "diverse"
+                                else CONDITION_NOT_IDENTIFIED_STOPS,
+                            )
+                        ]
                     ),
                 ).as_dict()
             self.store.checkpoint(operation)
@@ -377,7 +698,9 @@ class ConversationService:
                         messages=[
                             text_message(
                                 "assistant",
-                                "Nu am găsit fragmente relevante în sursele locale. Încercați o căutare semantică sau introduceți altă denumire a afecțiunii.",
+                                "Nu am găsit fragmente relevante în sursele locale. Încercați o căutare semantică sau reformulați întrebarea."
+                                if snapshot.routing.intent == "diverse"
+                                else "Nu am găsit fragmente relevante în sursele locale. Încercați o căutare semantică sau introduceți altă denumire a afecțiunii.",
                             )
                         ]
                     ),
@@ -402,6 +725,7 @@ class ConversationService:
                             evidence=dict(evidence),
                             signals=signals,
                             index_generation=getattr(evidence, "index_generation", None),
+                            intent=snapshot.routing.intent or "remedii",
                         ),
                     ),
                 ),

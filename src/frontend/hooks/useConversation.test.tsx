@@ -21,6 +21,50 @@ function mount() {
 afterEach(() => vi.restoreAllMocks());
 
 describe("conversation resource reconciliation", () => {
+  it("classifies before searching and skips condition identification for diverse", async () => {
+    vi.spyOn(api, "getSession").mockResolvedValue({ history: [] });
+    vi.spyOn(api, "sendMessage").mockResolvedValue({ messages: [], startSearch: false, classifyMessage: true, contextRevision: 8 });
+    const classification = vi.spyOn(api, "classifyMessage").mockResolvedValue({ messages: [], intent: "diverse", startSearch: true, identifyCondition: false, contextRevision: 8 });
+    const condition = vi.spyOn(api, "identifyCondition");
+    const search = vi.spyOn(api, "search").mockResolvedValue({ messages: [] });
+    const { result } = mount();
+    await waitFor(() => expect(result.current.isLoading).toBe(false));
+    act(() => result.current.sendMessage("cum prepar o infuzie?", [], signals));
+    await waitFor(() => expect(result.current.isSending).toBe(false));
+    expect(classification).toHaveBeenCalledWith(8);
+    expect(search).toHaveBeenCalledWith(8);
+    expect(condition).not.toHaveBeenCalled();
+    expect(classification.mock.invocationCallOrder[0]).toBeLessThan(search.mock.invocationCallOrder[0]);
+  });
+
+  it("shows plant results without starting a fragment search", async () => {
+    vi.spyOn(api, "getSession").mockResolvedValue({ history: [] });
+    vi.spyOn(api, "sendMessage").mockResolvedValue({ messages: [], startSearch: false, classifyMessage: true, contextRevision: 9 });
+    const message: ChatMessage = { kind: "herb_conditions", role: "assistant", herbName: "musetel", species: [], entriesCount: 0, conditions: [] };
+    vi.spyOn(api, "classifyMessage").mockResolvedValue({ messages: [message], intent: "planta", startSearch: false, contextRevision: 9 });
+    const search = vi.spyOn(api, "search");
+    const condition = vi.spyOn(api, "identifyCondition");
+    const { result } = mount();
+    await waitFor(() => expect(result.current.isLoading).toBe(false));
+    act(() => result.current.sendMessage("musetel", [], signals));
+    await waitFor(() => expect(result.current.history).toEqual([message]));
+    expect(search).not.toHaveBeenCalled();
+    expect(condition).not.toHaveBeenCalled();
+  });
+
+  it("does not retrieve when classification is cancelled", async () => {
+    vi.spyOn(api, "getSession").mockResolvedValue({ history: [] });
+    vi.spyOn(api, "sendMessage").mockResolvedValue({ messages: [], startSearch: false, classifyMessage: true, contextRevision: 10 });
+    vi.spyOn(api, "classifyMessage").mockResolvedValue({ messages: [], startSearch: true, cancelled: true });
+    const search = vi.spyOn(api, "search");
+    const { result } = mount();
+    await waitFor(() => expect(result.current.isLoading).toBe(false));
+    act(() => result.current.sendMessage("old", [], signals));
+    await waitFor(() => expect(result.current.isSending).toBe(false));
+    expect(search).not.toHaveBeenCalled();
+    expect(result.current.isClassifying).toBe(false);
+  });
+
   it("removes an entire evicted group and passes the message revision to retrieval", async () => {
     vi.spyOn(api, "getSession").mockResolvedValue({ history: old });
     vi.spyOn(api, "sendMessage").mockResolvedValue({

@@ -3,6 +3,7 @@ import { renderRecommendationText } from "../lib/inlineMarkdown";
 import { FragmentsPanel } from "./FragmentsPanel";
 import { GeneratePanel } from "./GeneratePanel";
 import { DownloadPanel } from "./DownloadPanel";
+import { HerbConditionsPanel } from "./HerbConditionsPanel";
 
 export function MessageBubble({
   message,
@@ -15,6 +16,8 @@ export function MessageBubble({
   onGenerate: (searchId: string, minScore: number) => void;
 }) {
   switch (message.kind) {
+    case "herb_conditions":
+      return <div className="message-wrap bot unwrapped"><HerbConditionsPanel message={message} /></div>;
     case "fragments":
       return (
         <div className="message-wrap bot unwrapped">

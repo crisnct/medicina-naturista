@@ -21,7 +21,10 @@ from pydantic import BaseModel, Field, model_validator
 from backend.ai.client import create_ai_client
 from backend.ai.condition_ai import identify_conditions
 from backend.ai.condition_ai import warm_up as warm_up_condition_ai
+from backend.ai.herb_conditions import lookup_herb_conditions
+from backend.ai.herbs import load_herbs
 from backend.ai.index_state import IndexUnavailable, index_reader
+from backend.ai.message_classification import MessageClassifier
 from backend.ai.report_validation import ValidationWarning
 from backend.ai.retrieval import Retriever
 from backend.ai.search import SearchSignals
@@ -96,6 +99,7 @@ class MessageRequest(BaseModel):
     message: str = ""
     categories: list[str] = Field(default_factory=list)
     signals: SignalsPayload = Field(default_factory=SignalsPayload)
+    messageId: str | None = Field(default=None, pattern=r"^[A-Za-z0-9_-]{8,64}$")
 
 
 # The "Scor minim" chosen next to "Generează rețeta": only fragments whose
@@ -258,19 +262,35 @@ def _conversation(deps: Dependencies) -> ConversationService:
         deps.identify or identify_conditions,
         deps.email or send_report,
         deps.pdf or create_pdf,
+        deps.classify,
+        deps.herb_lookup or lookup_herb_conditions,
     )
 
 
 @router.post("/api/messages")
 def post_message(payload: MessageRequest, request: Request):
     return _conversation(_deps(request)).message(
-        _current(request), payload.message, set(payload.categories), payload.signals.to_signals()
+        _current(request),
+        payload.message,
+        set(payload.categories),
+        payload.signals.to_signals(),
+        payload.messageId,
     )
 
 
 @router.post("/api/condition")
 def post_condition(request: Request):
     return _conversation(_deps(request)).condition(_current(request), _revision(request))
+
+
+@router.post("/api/classify")
+def post_classify(request: Request):
+    revision = _revision(request)
+    if revision is None:
+        raise ApplicationError(
+            "REVISION_REQUIRED", "La clasificare este necesară revizia mesajului.", 422
+        )
+    return _conversation(_deps(request)).classify(_current(request), revision)
 
 
 @router.post("/api/search")
@@ -530,7 +550,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
         owned = dependencies is None
         cleanup_task = None
         runtime = dependencies
-        session_store = ai = auth = None
+        session_store = ai = auth = classifier = None
         try:
             if owned:
                 cfg = config or Settings.from_env(dotenv=True)
@@ -546,6 +566,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     cfg.temp_dir, cfg.session_idle_seconds, cfg.session_max_seconds, cfg
                 )
                 ai = create_ai_client(cfg)
+                classifier = MessageClassifier(cfg, herb_catalog=load_herbs)
                 auth = OwnerAuth(cfg.owner_key, PostgresOwnerSessionRepository(cfg.database_url))
                 retriever = await asyncio.to_thread(Retriever, cfg.documents_dir)
                 runtime = Dependencies(
@@ -557,6 +578,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     RateLimiter(),
                     RateLimiter(),
                     secrets.token_bytes(32),
+                    classify=classifier,
                 )
                 application.state.dependencies = runtime
                 application.root_path = cfg.public_root_path
@@ -594,6 +616,8 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
             if owned:
                 if ai:
                     ai.close()
+                if classifier:
+                    classifier.close()
                 if auth:
                     auth.repository.close()
                 from backend.ai import condition_ai, db

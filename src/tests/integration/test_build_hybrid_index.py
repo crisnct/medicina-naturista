@@ -13,6 +13,7 @@ import psycopg
 from psycopg.rows import namedtuple_row
 
 from backend.ai import db as db_module
+from backend.ai import index_constants
 from backend.ai.embedding_model import PROFILES, EmbeddingProfile, get_profile
 from scripts import build_hybrid_index as builder
 from tests.support.conditions import conditions_from_rows, replace_catalog
@@ -269,7 +270,7 @@ class SyncTests(unittest.TestCase):
             stored = connection.execute(
                 "SELECT value FROM sync_metadata WHERE key = 'text_repr_version'"
             ).fetchone()[0]
-        self.assertEqual(stored, builder.TEXT_REPR_VERSION)
+        self.assertEqual(stored, index_constants.TEXT_REPR_VERSION)
 
     # Register OTHER next to QWEN for one test, and put the column back to the
     # default width afterwards (the model change tests leave it at OTHER's).

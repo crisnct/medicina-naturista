@@ -4,6 +4,8 @@
 
 **Ieșire:** inventarul de dovezi (`evidence`): fragmente ordonate descrescător după scor, limitate la bugetul de context al furnizorului AI (`max_chars`), gata de afișat pacientului și de trimis către AI.
 
+**Rutare înainte de căutare:** `/api/messages` → **Clasificare mesaj** (`/api/classify`, Ollama local `gemma3:1b`). Numai `remedii` și `diverse` intră în căutarea de mai jos. `remedii` păstrează identificarea AI opțională a afecțiunii; `diverse` o omite și caută după mesajul original, fără cele două notificări despre afecțiunea necunoscută. Categoriile și semnalele selectate rămân aplicate. Cu numai A activ și fără afecțiune locală, `diverse` solicită activarea B/C printr-un mesaj neutru. `planta` afișează direct rezultatele SQL distincte și totalul, iar `email_raport` livrează PDF-ul precedent din sesiune.
+
 Documentul are două părți: **[Partea I — Rezumat](#partea-i--rezumat)** (cele 6 etape pe scurt) și **[Partea II — Detalii](#partea-ii--detalii)** (aceleași 6 etape, pas cu pas).
 
 ----------------------------------------------------------------------------------------------------

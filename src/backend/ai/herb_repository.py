@@ -18,6 +18,7 @@ from backend.ai.herbs import FIELDS, Herb, HerbCatalog
 from backend.core.errors import ApplicationError
 
 FINGERPRINT_VERSION = 1
+HERBS_INDEX_VERSION = 1
 logger = logging.getLogger("naturist.herbs")
 _cache_lock = Lock()
 _cache: OrderedDict[tuple, HerbCatalogSnapshot] = OrderedDict()

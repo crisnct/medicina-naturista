@@ -61,7 +61,16 @@ export interface DownloadMessage extends MessageIdentity {
   filename: string;
 }
 
-export type ChatMessage = TextMessage | FragmentsMessage | GenerateMessage | DownloadMessage;
+export interface HerbConditionsMessage extends MessageIdentity {
+  kind: "herb_conditions";
+  role: "assistant";
+  herbName: string;
+  species: string[];
+  entriesCount: number;
+  conditions: { id: number; name: string }[];
+}
+
+export type ChatMessage = TextMessage | FragmentsMessage | GenerateMessage | DownloadMessage | HerbConditionsMessage;
 
 export interface CategoryNode {
   id: string;
@@ -105,6 +114,11 @@ export interface SendMessageResponse extends ResourceInvalidations {
   // not know the condition, so the AI is asked for it before the search starts.
   identifyCondition?: boolean;
   contextRevision?: number;
+  classifyMessage?: boolean;
+}
+
+export interface ClassificationResponse extends SendMessageResponse {
+  intent?: "remedii" | "planta" | "diverse" | "email_raport";
 }
 
 export interface ConditionResponse extends ResourceInvalidations {

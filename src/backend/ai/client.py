@@ -39,7 +39,9 @@ def _ordered_entries(evidence: Evidence) -> list[dict[str, str]]:
 
 
 class AIUnavailable(RuntimeError):
-    pass
+    def __init__(self, message: str, *, reason: str = "unavailable") -> None:
+        super().__init__(message)
+        self.reason = reason
 
 
 # Parse the model's JSON object, tolerating Markdown fences and text around it.
@@ -247,6 +249,15 @@ class ResponsesClient:
             payload["text"] = {"format": {"type": "json_object"}}
         elif provider.json_format == "response_format":
             payload["response_format"] = {"type": "json_object"}
+        if provider.response_schema is not None:
+            payload["text"] = {
+                "format": {
+                    "type": "json_schema",
+                    "name": "message_classification",
+                    "schema": provider.response_schema,
+                    "strict": True,
+                }
+            }
         payload["max_output_tokens"] = max_tokens
         if provider.temperature is not None:
             payload["temperature"] = provider.temperature
@@ -272,6 +283,26 @@ class ResponsesClient:
                 max_tokens,
             )
             if payload.get("status") != "completed":
+                if payload.get("status") == "failed":
+                    error = payload.get("error")
+                    error_message = error.get("message", "") if isinstance(error, dict) else ""
+                    no_credits = (
+                        self.provider.name == "huggingface"
+                        and isinstance(error_message, str)
+                        and error_message.lstrip().startswith("402 ")
+                    )
+                    reason = "credits_exhausted" if no_credits else "provider_failed"
+                    logger.error(
+                        "ai_response_failed stage=response provider=%s reason=%s",
+                        self.provider.name,
+                        reason,
+                    )
+                    raise AIUnavailable(
+                        "Hugging Face nu mai are credite disponibile."
+                        if no_credits
+                        else "Furnizorul AI a raportat eșecul cererii.",
+                        reason=reason,
+                    )
                 if payload.get("status") == "incomplete":
                     logger.error(
                         "ai_response_incomplete provider=%s reason=%s",

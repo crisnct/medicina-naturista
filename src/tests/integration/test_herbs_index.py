@@ -11,6 +11,8 @@ import numpy as np
 import psycopg
 
 from backend.ai import db
+from backend.ai.herb_conditions import lookup_herb_conditions
+from backend.ai.index_state import IndexUnavailable
 from scripts import build_hybrid_index as builder
 from scripts.migrate_database import MIGRATIONS, migrate
 from tests.support.conditions import conditions_from_rows, replace_catalog
@@ -92,6 +94,42 @@ class HerbsIndexDatabaseTests(TestCase):
         return conn.execute(
             "SELECT id,herb_id,medical_condition_id FROM herbs_benefits ORDER BY 2,3"
         ).fetchall()
+
+    def test_real_builder_metadata_is_accepted_by_plant_reader(self):
+        with tempfile.TemporaryDirectory() as directory:
+            source = Path(directory)
+            (source / "a.md").write_text("# Gastrita\nMușețel.", encoding="utf-8")
+
+            def embed(_model, chunks, _batch, profile, **_kwargs):
+                return np.full(
+                    (len(chunks), profile.dimension),
+                    1 / np.sqrt(profile.dimension),
+                    dtype=np.float32,
+                )
+
+            with (
+                mock.patch.object(builder, "_prepared_herbs_workers", side_effect=threads),
+                mock.patch.object(builder, "create_embedding_model"),
+                mock.patch.object(builder, "embed_chunks", side_effect=embed),
+                redirect_stdout(io.StringIO()),
+                builder.index_writer() as connection,
+            ):
+                builder._build(
+                    source, builder.DEFAULT_MODEL, 8, gpu_usage=lambda: "N/A", connection=connection
+                )
+
+        result = lookup_herb_conditions("matricaria chamomilla")
+        self.assertEqual(result["status"], "found")
+        self.assertEqual([row["name"] for row in result["conditions"]], ["Gastrita"])
+        self.assertEqual(result["entriesCount"], 1)
+
+        with db.get_pool().connection() as connection:
+            connection.execute(
+                "INSERT INTO herb_aliases(herb_id,name,kind) VALUES (17,'alias nou','ro_regional')"
+            )
+        with self.assertRaises(IndexUnavailable) as error:
+            lookup_herb_conditions("matricaria chamomilla")
+        self.assertEqual(error.exception.code, "INDEX_HERBS_RESYNC_REQUIRED")
 
     def test_schema_idempotence_unique_foreign_keys_and_cascade(self):
         self.assertEqual(migrate(db.settings.database_url), [])

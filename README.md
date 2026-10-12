@@ -36,6 +36,17 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 
 ## 🎨 Cum funcționează
 
+Fiecare mesaj trece prin **Clasificare mesaj** folosind Ollama local cu modelul existent `gemma3:1b` (`CONDITION_AI_LOCAL_MODEL`). `POST /api/messages` afișează rapid mesajul și salvează contextul, apoi `POST /api/classify` selectează:
+
+- **Remedii:** rezolvarea afecțiunilor și căutarea existentă, cu identificare AI opțională.
+- **Planta:** nume/alias rezolvat în catalog și interogare SQL pe `herbs`, `herbs_benefits`, `medical_conditions`; numărul rezultatelor distincte apare deasupra tabelului ID/afecțiune. Asocierile reflectă coapariții în corpus, inclusiv contraindicații.
+- **Diverse:** căutare după mesajul original, fără identificarea afecțiunii prin AI și fără notificările despre afecțiunea necunoscută. Generarea raportului naturist rămâne ca în fluxul de remedii.
+- **Email raport:** adresă validată local și PDF-ul precedent din aceeași sesiune; fără căutare nouă. Mesajul poate fi o adresă singură sau o cerere precum „Trimite raportul la nume@example.com”.
+
+Clasificarea trimite către Ollama local numai mesajul și context minimal de rutare, fără PDF sau corpus. Refolosește `CONDITION_AI_LOCAL_BASE` și `CONDITION_AI_LOCAL_MODEL`, cu temperatura 0, fără cheie API și fără fallback Hugging Face. Schema JSON impune una dintre cele patru intenții și câmpurile permise; validarea strictă se repetă în aplicație. Numele și aliasurile plantelor sunt recunoscute și în catalogul local, fără diferențe de diacritice sau cratime. Un nume explicit completează clarificarea. Dacă numele corespunde mai multor plante, aplicația afișează numele românești și latine și cere alegerea utilizatorului; aceasta selectează o singură specie și asocierile ei. Este independentă de `AI_PROVIDER`. La eșec se continuă cu fluxul existent, cu o notificare; cererile explicite de email cer clarificare, iar o adresă singură păstrează comanda deterministă existentă. Cererile neclare solicită planta sau destinatarul. Clasificarea și expedierea nu sunt reîncercate automat; identificatorul mesajului și revizia previn repetarea aceleiași expediții.
+
+Diagrama actualizată: [chatbot-external-connections.svg](architecture/chatbot-external-connections.svg). Detaliile schimbării: [message-classification-plan.md](architecture/message-classification-plan.md).
+
 ```text
 📚 documente Markdown
         ↓
@@ -157,6 +168,8 @@ $env:PYTHONPATH = "src"
 
 Scriptul importă pachetul `backend`, deci are nevoie de `PYTHONPATH=src`. Baza vine din `DATABASE_URL` (`.env`); `--model` și `--source` sunt opționale. Scriptul pornește cu pythonul din care îl rulezi (pe CPU, fără alt mediu); pe GPU vezi mai jos.
 
+`TEXT_REPR_VERSION` este definită o singură dată în `src/backend/ai/index_constants.py`, cu valoarea `"10"`. Scriptul de indexare și backendul citesc aceeași constantă; nu este o variabilă de mediu. Schimbarea valorii face ca următoarea rulare a scriptului să reproceseze toate documentele; până la sincronizare, backendul refuză indexul cu versiunea veche. Modificarea constantei nu pornește automat reindexarea. Reporniți backendul după schimbarea codului.
+
 Modelul de embedding este `Qwen/Qwen3-Embedding-0.6B` (vectori de 1024 de dimensiuni); alt model nu este cunoscut de cod. Căutarea citește modelul din `sync_metadata` și scrie întrebările după profilul lui (`ai/embedding_model.py`: instrucțiunea Qwen la întrebare, fără prefix la pasaje). **Dacă baza conține un index făcut cu alt model sau cu altă dimensiune, următorul build reîncorporează toate documentele**, iar coloana `chunks.embedding` este recreată în aceeași tranzacție cu documentele și metadata noi. Orice eroare păstrează generația și dimensiunea anterioare. Durata depinde de corpus și hardware. Indexarea pe GPU necesită un mediu separat `.venv-gpu`, cu dependențele aplicației, `torch` cu suport CUDA și `sentence-transformers` deja instalate:
 
 ```powershell
@@ -257,7 +270,8 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 | `POST /api/owner/login`, `POST /api/owner/logout` | Emit, respectiv revocă autorizarea individuală; necesită origine validă și token CSRF. |
 | `GET /api/session` | Creează sesiunea tabului și întoarce istoricul conversației. |
 | `GET /api/categories` | Arborele categoriilor (folderele surselor) și selecția implicită (toate). |
-| `POST /api/messages` | Salvează mesajul, categoriile și semnalele alese; dacă există deja un raport, o adresă de e-mail trimite raportul. |
+| `POST /api/messages` | Salvează mesajul, categoriile și semnalele; întoarce `classifyMessage` și `contextRevision`. `messageId` opțional previne dublarea cererii. |
+| `POST /api/classify` | Clasifică prin Ollama local (`gemma3:1b`) și rutează spre remedii/planta/diverse/email_raport. Necesită `X-Context-Revision`. |
 | `POST /api/condition` | Identifică prin AI afecțiunea pe care dicționarul nu o cunoaște (`CONDITION_AI_BACKENDS`). |
 | `POST /api/search` | Rulează căutarea și întoarce fragmentele găsite și secțiunea „Generează rețeta”. |
 | `POST /api/searches/{search_id}/generate` | Doar owner: trimite către AI fragmentele cu relevanța ≥ `minScore` și generează PDF-ul. |
@@ -270,7 +284,7 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 
 Implicit este permisă o singură sesiune activă per adresă IP (`MAX_SESSIONS_PER_IP=1`), inclusiv între Edge și Chrome; persoanele din aceeași rețea/NAT împart această limită. Un al doilea tab/browser afișează mesajul explicit de blocare și „Verifică din nou”, fără să permită căutarea. Pentru tunelul ngrok existent prin proxy-ul JobsHunter, porniți normal cu `docker compose up -d`. Configurația include legătura Caddy cu rețeaua existentă `jobshunter-net` (`PUBLIC_PROXY_NETWORK` pentru alt nume); configurați allowlisturile IP conform documentației de operare.
 
-Catalogul de plante este citit de `backend.ai.herbs.load_herbs()` din PostgreSQL, cu ID-uri numerice stabile și lookup fără diferențe de caz/diacritice. Cache-ul se actualizează după conținutul complet al catalogului. Un catalog lipsă, gol sau invalid produce `HERB_CATALOG_UNAVAILABLE` (503). Plantele nu sunt încă folosite la căutare, fragmentare sau scor și nu modifică fingerprintul indexului de embeddings; asocierile `herbs_benefits` au fingerprinturi proprii.
+Catalogul de plante este citit din PostgreSQL, cu ID-uri numerice stabile și lookup fără diferențe de caz/diacritice. Cache-ul se actualizează după conținutul complet al catalogului. Un catalog lipsă, gol sau invalid produce `HERB_CATALOG_UNAVAILABLE` (503). Ramura `planta` folosește catalogul și asocierile `herbs_benefits` pentru rezultate SQL; plantele nu modifică scorul sau fingerprintul indexului de embeddings. Asocierile au fingerprinturi proprii, verificate înaintea citirii rezultatelor.
 
 Reindexarea populează automat și `herbs_benefits`, la finalul `build_hybrid_index.py`, după toate scrierile și ștergerile de fragmente. Migrarea `008_herbs_benefits.sql` creează coloanele `id`, `herb_id`, `medical_condition_id`, două chei externe cu ștergere în cascadă, indexul unic pe pereche și câte un index pe fiecare cheie. O asociere înseamnă coapariție în corpus: metadata primară sau secundară a fragmentului conține numele exact ori un sinonim al afecțiunii, iar `chunks.text` conține un nume complet al plantei. Sunt incluse numele românești, latine, englezești și toate aliasurile; majusculele și diacriticele sunt ignorate, iar punctuația și cratimele delimitează tokenuri. Numele comune păstrează toate speciile proprietare. Mențiunile negative și contraindicațiile participă la aceeași regulă de coapariție.
 
@@ -336,7 +350,7 @@ Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit î
 
 ## 🐳 Rulare cu Docker Compose
 
-Înainte de build/pornire, trebuie să existe `medicina-naturista-documente/data/documents/`, `model_cache/` (cu modelul deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Stiva are patru servicii: `db`, `ollama`, `app` și `caddy`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) este expus doar pe `127.0.0.1:5432` (`DB_HOST_PORT`), astfel încât indexul se sincronizează de pe host cu `python src/scripts/build_hybrid_index.py` (cu `PYTHONPATH=src` și un `DATABASE_URL` spre `127.0.0.1` cu parola `POSTGRES_PASSWORD`). Serviciul `ollama` rulează modelul local de identificare a afecțiunii (`CONDITION_AI_LOCAL_BASE=http://ollama:11434/v1`), este accesibil doar din rețeaua internă, rezervă GPU-urile NVIDIA (`deploy.resources.reservations`) și are nevoie ca modelul să fie descărcat o dată: `docker compose exec ollama ollama pull gemma3:1b`.
+Înainte de build/pornire, trebuie să existe `medicina-naturista-documente/data/documents/`, `model_cache/` (cu modelul deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Stiva are patru servicii: `db`, `ollama`, `app` și `caddy`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) este expus doar pe `127.0.0.1:5432` (`DB_HOST_PORT`), astfel încât indexul se sincronizează de pe host cu `python src/scripts/build_hybrid_index.py` (cu `PYTHONPATH=src` și un `DATABASE_URL` spre `127.0.0.1` cu parola `POSTGRES_PASSWORD`). Serviciul `ollama` rulează modelul local de clasificare a mesajului și identificare a afecțiunii (`CONDITION_AI_LOCAL_BASE=http://ollama:11434/v1`), este accesibil doar din rețeaua internă, rezervă GPU-urile NVIDIA (`deploy.resources.reservations`) și are nevoie ca modelul să fie descărcat o dată: `docker compose exec ollama ollama pull gemma3:1b`.
 
 Rețeaua externă `jobshunter-net` (sau valoarea `PUBLIC_PROXY_NETWORK`) trebuie să existe înainte de pornirea Caddy; Compose nu o creează. Verificați-o cu `docker network inspect jobshunter-net` (sau numele configurat). Sincronizați indexul după pornirea serviciului `db`, înainte de a folosi căutarea.
 
@@ -370,7 +384,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `XAI_MODEL` | `grok-4.3` | Modelul xAI folosit pentru redactare. |
 | `XAI_REASONING_EFFORT` | `medium` (direct) / `low` (Docker Compose) | Nivelul de reasoning solicitat. |
 | `XAI_API_BASE` | `https://api.x.ai/v1` | URL-ul de bază al API-ului xAI. |
-| `HF_TOKEN` | — | Token Hugging Face fine-grained cu permisiunea „Make calls to Inference Providers” (necesar cu `AI_PROVIDER=huggingface`). |
+| `HF_TOKEN` | — | Token Hugging Face cu permisiunea „Make calls to Inference Providers”; necesar cu `AI_PROVIDER=huggingface` sau pentru identificarea afecțiunii prin backendul `huggingface`. |
 | `HF_MODEL` | `deepseek-ai/DeepSeek-V4-Flash:deepinfra` | Modelul prin routerul HF; sufixul `:deepinfra` fixează furnizorul. |
 | `HF_API_BASE` | `https://router.huggingface.co/v1` | URL-ul de bază al routerului HF (Responses API, beta). |
 | `HF_REASONING_EFFORT` | _(gol)_ | `low`/`medium`/`high`; se trimite doar dacă este setat. |
@@ -386,10 +400,12 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `OLLAMA_REASONING_EFFORT` | _(gol)_ | Se trimite doar dacă este setat. |
 | `OLLAMA_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru `AI_PROVIDER=ollama`; pentru modele locale mici trebuie coborât. |
 | `CONDITION_AI_BACKENDS` | `local,huggingface` | Backendurile care identifică afecțiunea când catalogul PostgreSQL nu o găsește, în ordinea încercării: `local` (Ollama), `huggingface` (routerul HF, `HF_TOKEN`) sau ambele (HF dacă backendul local eșuează, inclusiv la timeout sau răspuns invalid). Gol → pasul AI este dezactivat. Afecțiunea întoarsă se folosește ca una din dicționar: în chat, în căutare și în titlul PDF-ului. |
-| `CONDITION_AI_LOCAL_MODEL` | `gemma3:1b` | Modelul Ollama local (descărcare: `ollama pull gemma3:1b`; în Docker: `docker compose exec ollama ollama pull gemma3:1b`). |
-| `CONDITION_AI_LOCAL_BASE` | `http://localhost:11434/v1` (direct) / `http://ollama:11434/v1` (Compose) | Adresa Ollama folosită pentru identificarea afecțiunii. |
+| `CONDITION_AI_LOCAL_MODEL` | `gemma3:1b` | Modelul Ollama local pentru clasificarea mesajului și identificarea afecțiunii (descărcare: `ollama pull gemma3:1b`; în Docker: `docker compose exec ollama ollama pull gemma3:1b`). |
+| `CONDITION_AI_LOCAL_BASE` | `http://localhost:11434/v1` (direct) / `http://ollama:11434/v1` (Compose) | Adresa Ollama folosită pentru clasificarea mesajului și identificarea afecțiunii. |
 | `CONDITION_AI_HF_MODEL` | valoarea `HF_MODEL` | Modelul HF pentru fallback (prin `HF_API_BASE` și `HF_TOKEN`). |
 | `CONDITION_AI_TIMEOUT_SECONDS` | `10` | Timeout per backend la identificarea afecțiunii. |
+| `MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS` | `10` | Timeout la clasificare prin Ollama local, independent de identificarea afecțiunii. |
+| `MESSAGE_CLASSIFICATION_MAX_OUTPUT_TOKENS` | `300` | Bugetul JSON de clasificare. |
 | `CONDITION_AI_MAX_OUTPUT_TOKENS` | `300` | Limita răspunsului (un JSON mic) la identificarea afecțiunii. |
 | `AI_STREAM` | `false` | Cere răspunsul ca flux de evenimente (`stream: true`). Timeoutul de citire se aplică între evenimente, deci evită tăierea cererilor lungi de un proxy (ex. 504 după 60 s la routerul HF). Dacă furnizorul nu suportă streaming, lăsați `false`. |
 | `AI_MAX_OUTPUT_TOKENS` | `20000` | `max_output_tokens` al cererii, pentru toți furnizorii (la modelele cu gândire, reasoning-ul consumă din el). |

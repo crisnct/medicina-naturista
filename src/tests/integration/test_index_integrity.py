@@ -12,7 +12,7 @@ import numpy as np
 import psycopg
 import pytest
 
-from backend.ai import db, index_state
+from backend.ai import db, index_constants, index_state
 from backend.ai.embedding_model import PROFILES, EmbeddingProfile
 from backend.ai.retrieval import Retriever
 from backend.ai.search import SearchSignals, rank
@@ -62,6 +62,25 @@ def sync(source, model=builder.DEFAULT_MODEL):
         redirect_stdout(io.StringIO()),
     ):
         builder.build(source, model)
+
+
+def test_shared_text_version_rejects_old_index_and_rebuilds_unchanged_source(corpus):
+    source, _postgres = corpus
+    sync(source)
+    before = snapshot()
+    # Both imported modules must use the same source of truth.
+    with patch.object(index_constants, "TEXT_REPR_VERSION", "11"):
+        with pytest.raises(index_state.IndexUnavailable) as error:
+            with index_state.index_reader():
+                pass
+        assert error.value.code == "INDEX_RESYNC_REQUIRED"
+
+        sync(source)
+        with index_state.index_reader() as (_connection, metadata):
+            assert metadata.text_repr_version == "11"
+        after = snapshot()
+        assert after[1][0][0] != before[1][0][0]
+        assert dict(after[2])["text_repr_version"] == "11"
 
 
 def snapshot():

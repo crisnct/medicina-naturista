@@ -24,15 +24,15 @@ export function Composer({
   return (
     <>
       <div id="message-helper">
-        <span aria-hidden="true">📝</span> Specificați strict problema de sănătate și nimic altceva. Puteți menționa
-        mai multe sinonime separate prin virgulă.
+        <span aria-hidden="true">📝</span> Cereți remedii, informații despre o plantă, puneți o întrebare
+        sau solicitați trimiterea raportului precedent pe email.
       </div>
       <form id="message-row" onSubmit={submit}>
         <input
           id="health-message"
           type="text"
-          placeholder="Problema de sănătate..."
-          aria-label="Descrieți problema de sănătate"
+          placeholder="Problema de sănătate, planta sau întrebarea..."
+          aria-label="Scrieți mesajul"
           aria-describedby="message-helper"
           maxLength={MAX_CHAT_CHARS}
           disabled={disabled}
@@ -40,7 +40,7 @@ export function Composer({
           onChange={(event) => setValue(event.target.value)}
         />
         <button id="send-message" type="submit" disabled={disabled || value.trim().length === 0}>
-          {processing ? "⏳ Caută..." : "📨 Trimite"}
+          {processing ? "⏳ Procesez..." : "📨 Trimite"}
         </button>
       </form>
     </>

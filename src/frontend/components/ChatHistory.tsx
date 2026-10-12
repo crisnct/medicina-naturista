@@ -6,10 +6,12 @@ import { TypingIndicator } from "./TypingIndicator";
 export function ChatHistory({
   history,
   pending,
+  pendingLabel,
   onGenerate,
 }: {
   history: ChatMessage[];
   pending: boolean;
+  pendingLabel?: string;
   onGenerate: (searchId: string, minScore: number) => void;
 }) {
   const bottomRef = useRef<HTMLDivElement>(null);
@@ -37,7 +39,7 @@ export function ChatHistory({
           onGenerate={onGenerate}
         />
       ))}
-      {pending && <TypingIndicator />}
+      {pending && <TypingIndicator label={pendingLabel} />}
       <div ref={bottomRef} />
     </div>
   );

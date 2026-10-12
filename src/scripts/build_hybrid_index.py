@@ -30,15 +30,13 @@ from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from queue import Empty
-from types import MappingProxyType
 from typing import Callable, Iterator, Protocol, Sequence, TypedDict
 
 import numpy as np
 
-from backend.ai import db
+from backend.ai import db, herb_index_catalog, index_constants
 from backend.ai.categories import ROOT_CATEGORY_ID
-from backend.ai.condition_repository import FINGERPRINT_VERSION, CatalogUnavailable
-from backend.ai.conditions import _normalize
+from backend.ai.condition_repository import FINGERPRINT_VERSION
 from backend.ai.db import _embedding_dimension
 from backend.ai.embedding_model import (
     DEFAULT_MODEL,
@@ -47,16 +45,14 @@ from backend.ai.embedding_model import (
     get_profile,
 )
 from backend.ai.fragmenter import Fragment, fragment_document
-from backend.ai.herb_repository import HerbCatalogUnavailable
-from backend.ai.herb_validation import catalog_problems
-from backend.ai.herbs import Herb
+from backend.ai.herb_index_catalog import normalize_herb_name as _herb_text
+from backend.ai.herb_index_catalog import read_index_catalogs as _herbs_catalogs
+from backend.ai.herb_repository import HERBS_INDEX_VERSION
 from backend.ai.index_state import (
-    TEXT_REPR_VERSION,
     dictionary_snapshot,
     index_writer,
     passage_profile,
 )
-from backend.ai.query_terms import plain
 from backend.config import settings
 from scripts.bootstrap_database import ensure_database
 from scripts.migrate_database import migrate
@@ -68,7 +64,6 @@ PROGRESS_INTERVAL_SECONDS = 10.0
 BATCH_SIZE = 8
 # Selected after corpus benchmarks of total publication time with 1/2/4/8 workers.
 HERBS_INDEX_WORKERS = 2
-HERBS_INDEX_VERSION = 1
 # Lowest measured total time among the bounded fetch/COPY combinations.
 HERBS_FETCH_SIZE = 2_000
 HERBS_COPY_SIZE = 50_000
@@ -79,7 +74,7 @@ HERBS_BITMAP_BUDGET_BYTES = 64 * 1024 * 1024
 HERBS_WORKER_TIMEOUT_SECONDS = 120
 HERBS_LOCK_TIMEOUT_MS = 60_000
 HERBS_STATEMENT_TIMEOUT_MS = 600_000
-_HERBS_TOKENS = re.compile(r"\w+")
+_HERBS_TOKENS = herb_index_catalog.HERB_TOKENS
 _HERBS_AUTOMATON = None
 _HERBS_GATE = None
 _BUILD_STAGE = "preparation"
@@ -127,19 +122,6 @@ def _safe_index_error(error: Exception) -> dict:
 # of TEXT_REPR_VERSION against sync_metadata.
 
 
-def _herb_text(value: str) -> str:
-    """The ASCII path and Unicode path have identical token/boundary semantics."""
-    return " ".join(_HERBS_TOKENS.findall(value.lower() if value.isascii() else plain(value)))
-
-
-def _herbs_fingerprint(rows) -> str:
-    return sha256_bytes(
-        json.dumps(
-            [HERBS_INDEX_VERSION, sorted(rows)], ensure_ascii=False, separators=(",", ":")
-        ).encode("utf-8")
-    )
-
-
 @dataclass(frozen=True)
 class HerbsIndexContext:
     condition_ids: tuple[int, ...]
@@ -184,82 +166,6 @@ class EmbeddingModel(Protocol):
     def embed(
         self, documents: Iterable[str], *, batch_size: int, parallel: None
     ) -> Iterable[np.ndarray]: ...
-
-
-def _herbs_catalogs(connection):
-    """Two aggregated queries, preserving exact condition terms and all herb owners."""
-    conditions = connection.execute(
-        "SELECT c.id, c.name, COALESCE(array_agg(DISTINCT s.synonym ORDER BY s.synonym) "
-        "FILTER (WHERE s.synonym IS NOT NULL), ARRAY[]::text[]) "
-        "FROM medical_conditions c LEFT JOIN medical_condition_synonyms s "
-        "ON s.medical_condition_id=c.id GROUP BY c.id, c.name ORDER BY c.id"
-    ).fetchall()
-    if not conditions:
-        raise CatalogUnavailable()
-    condition_rows = []
-    positions_by_term: dict[str, set[int]] = {}
-    seen_names = set()
-    for position, (condition_id, name, synonyms) in enumerate(conditions):
-        if (
-            type(condition_id) is not int
-            or condition_id <= 0
-            or not isinstance(name, str)
-            or not _normalize(name)
-            or name != " ".join(name.split())
-            or _normalize(name) in seen_names
-            or not all(isinstance(term, str) and _normalize(term) for term in synonyms)
-        ):
-            raise CatalogUnavailable()
-        seen_names.add(_normalize(name))
-        condition_rows.append([condition_id, name, sorted(set(synonyms))])
-        for term in (name, *synonyms):
-            positions_by_term.setdefault(term, set()).add(position)
-
-    rows = connection.execute(
-        "SELECT h.id, h.family, h.latin, h.ro, h.en, "
-        "COALESCE(array_agg(DISTINCT a.name ORDER BY a.name) FILTER "
-        "(WHERE a.kind='ro_regional'), ARRAY[]::text[]), "
-        "COALESCE(array_agg(DISTINCT a.name ORDER BY a.name) FILTER "
-        "(WHERE a.kind='latin_synonyms'), ARRAY[]::text[]), "
-        "COALESCE(array_agg(DISTINCT a.name ORDER BY a.name) FILTER "
-        "(WHERE a.kind='en_alt'), ARRAY[]::text[]) "
-        "FROM herbs h LEFT JOIN herb_aliases a ON a.herb_id=h.id "
-        "GROUP BY h.id, h.family, h.latin, h.ro, h.en ORDER BY h.id"
-    ).fetchall()
-    herbs = [
-        Herb(
-            id=i,
-            family=f,
-            latin=latin,
-            ro=r,
-            en=e,
-            ro_regional=tuple(rr),
-            latin_synonyms=tuple(ls),
-            en_alt=tuple(ea),
-        )
-        for i, f, latin, r, e, rr, ls, ea in rows
-    ]
-    if catalog_problems(
-        sorted(herbs, key=lambda h: (_normalize(h.ro), _normalize(h.latin))), source=False
-    ):
-        raise HerbCatalogUnavailable()
-    names: dict[str, set[int]] = {}
-    herb_rows = []
-    for position, herb in enumerate(herbs):
-        normalized = sorted({_herb_text(name) for name in herb.names} - {""})
-        if not normalized:
-            raise HerbCatalogUnavailable()
-        herb_rows.append([herb.id, normalized])
-        for name in normalized:
-            names.setdefault(name, set()).add(position)
-    return (
-        tuple(row[0] for row in conditions),
-        tuple(h.id for h in herbs),
-        MappingProxyType({k: tuple(sorted(v)) for k, v in positions_by_term.items()}),
-        tuple((k, tuple(sorted(v))) for k, v in sorted(names.items())),
-        _herbs_fingerprint(condition_rows),
-        _herbs_fingerprint(herb_rows),
-    )
 
 
 def _herbs_bitmap_bytes(herbs: int, conditions: int) -> int:
@@ -1105,7 +1011,7 @@ def _build(
         "dictionary_fingerprint": fingerprint,
         "dictionary_fingerprint_version": str(FINGERPRINT_VERSION),
         "passage_profile": passage_profile(profile),
-        "text_repr_version": TEXT_REPR_VERSION,
+        "text_repr_version": index_constants.TEXT_REPR_VERSION,
     }
     if _embedding_dimension(connection) != profile.dimension or any(
         stored.get(key) != value for key, value in expected.items()

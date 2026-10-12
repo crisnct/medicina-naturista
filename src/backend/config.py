@@ -127,6 +127,8 @@ class Settings:
     condition_ai_local_base: str = "http://localhost:11434/v1"
     condition_ai_timeout_seconds: int = 10
     condition_ai_max_output_tokens: int = 300
+    message_classification_timeout_seconds: int = 10
+    message_classification_max_output_tokens: int = 300
     ai_stream: bool = False
     ai_max_output_tokens: int = 20000
     ai_read_timeout_seconds: int = 300
@@ -221,6 +223,12 @@ class Settings:
             ).rstrip("/"),
             condition_ai_timeout_seconds=_int("CONDITION_AI_TIMEOUT_SECONDS", 10, env=env),
             condition_ai_max_output_tokens=_int("CONDITION_AI_MAX_OUTPUT_TOKENS", 300, env=env),
+            message_classification_timeout_seconds=_int(
+                "MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS", 10, env=env
+            ),
+            message_classification_max_output_tokens=_int(
+                "MESSAGE_CLASSIFICATION_MAX_OUTPUT_TOKENS", 300, env=env
+            ),
             ai_stream=_bool("AI_STREAM", False, env=env),
             ai_max_output_tokens=_int("AI_MAX_OUTPUT_TOKENS", 20000, env=env),
             ai_read_timeout_seconds=_int("AI_READ_TIMEOUT_SECONDS", 300, env=env),
@@ -349,6 +357,8 @@ class Settings:
             "deepseek_max_context_chars",
             "condition_ai_timeout_seconds",
             "condition_ai_max_output_tokens",
+            "message_classification_timeout_seconds",
+            "message_classification_max_output_tokens",
             "ai_max_output_tokens",
             "ai_read_timeout_seconds",
             "log_fragment_text_max_chars",
