@@ -8,14 +8,11 @@ export function HerbConditionsPanel({ message }: { message: HerbConditionsMessag
       {message.entriesCount === 0 ? (
         <p>Planta există în catalog, dar nu are afecțiuni asociate în indexul actual.</p>
       ) : (
-        <div className="herb-conditions-table">
-          <table>
-            <thead><tr><th scope="col">Afecțiune</th></tr></thead>
-            <tbody>{message.conditions.map((condition) => (
-              <tr key={condition.id}><td>{condition.name}</td></tr>
-            ))}</tbody>
-          </table>
-        </div>
+        <ul className="herb-conditions-list" aria-label="Afecțiuni asociate">
+          {message.conditions.map((condition) => (
+            <li key={condition.id}>{condition.name}</li>
+          ))}
+        </ul>
       )}
       <p className="herb-association-note">Lista reflectă asocieri din sursele locale, inclusiv atenționări și contraindicații.</p>
     </section>

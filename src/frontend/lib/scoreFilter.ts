@@ -8,6 +8,7 @@ export const MIN_SCORE_OPTIONS: { value: number; label: string }[] = [
   { value: 50, label: "≥ 50%" },
   { value: 75, label: "≥ 75%" },
   { value: 90, label: "≥ 90%" },
+  { value: 95, label: "≥ 95%" },
 ];
 
 // True when the fragment's relevance reaches the threshold (inclusive); a

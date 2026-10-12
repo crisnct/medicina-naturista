@@ -529,8 +529,9 @@ class ConversationService:
                         else ""
                     )
                     conditions = "afecțiune" if herb["ranking"] == 1 else "afecțiuni"
+                    name = herb["ro"][:1].upper() + herb["ro"][1:]
                     lines.append(
-                        f"{position}. {herb['ro']} — utilă în {herb['ranking']} {conditions}{aliases}"
+                        f"{position}. **{name}** — utilă în {herb['ranking']} {conditions}{aliases}"
                     )
                 content = "\n".join(lines)
             notices.append(text_message("assistant", content))

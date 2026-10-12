@@ -62,4 +62,18 @@ describe("the minimum score next to Generează rețeta", () => {
 
     expect(button()).toBeEnabled();
   });
+
+  it("accepts exactly 95% and sends that threshold to recipe generation", () => {
+    const onGenerate = renderPanel([fragment(94.99), fragment(95)]);
+    chooseMinScore(95);
+    expect(button()).toBeEnabled();
+    fireEvent.click(button());
+    expect(onGenerate).toHaveBeenCalledWith("search-1", 95);
+  });
+
+  it("disables generation at 95% when all scores are lower", () => {
+    renderPanel([fragment(94.99), fragment(null)]);
+    chooseMinScore(95);
+    expect(button()).toBeDisabled();
+  });
 });

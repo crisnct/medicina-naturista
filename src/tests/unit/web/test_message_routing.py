@@ -127,8 +127,8 @@ def test_top_returns_names_and_aliases_without_search_or_report(web):
     assert not result["startSearch"] and not result["identifyCondition"]
     assert result["messages"][0]["content"] == (
         "Top 2 plante după numărul de afecțiuni asociate în catalog:\n"
-        "1. mușețel — utilă în 1156 afecțiuni (denumiri regionale: romaniță, matricea)\n"
-        "2. păr — utilă în 1 afecțiune"
+        "1. **Mușețel** — utilă în 1156 afecțiuni (denumiri regionale: romaniță, matricea)\n"
+        "2. **Păr** — utilă în 1 afecțiune"
     )
     test.deps.top_herbs.assert_called_once_with(20)
     assert test.deps.store.get(sid, tab).profile.health_problem == ""

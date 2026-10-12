@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef } from "react";
+import { useMemo } from "react";
 import type { ChatMessage, FragmentItem } from "../api/types";
 import { MessageBubble } from "./MessageBubble";
 import { TypingIndicator } from "./TypingIndicator";
@@ -14,7 +14,6 @@ export function ChatHistory({
   pendingLabel?: string;
   onGenerate: (searchId: string, minScore: number) => void;
 }) {
-  const bottomRef = useRef<HTMLDivElement>(null);
   // Each search's fragments, so its "Generează rețeta" section can tell how
   // many of them reach the "Scor minim" chosen there.
   const fragmentsBySearch = useMemo(() => {
@@ -25,12 +24,13 @@ export function ChatHistory({
     return bySearch;
   }, [history]);
 
-  useEffect(() => {
-    bottomRef.current?.scrollIntoView({ behavior: "smooth", block: "end" });
-  }, [history.length, pending]);
-
   return (
-    <div id="medical-chatbot" className="bubble-wrap">
+    <div
+      id="medical-chatbot"
+      className="bubble-wrap"
+      role="log"
+      aria-label="Conversație"
+    >
       {history.map((message, index) => (
         <MessageBubble
           key={index}
@@ -40,7 +40,6 @@ export function ChatHistory({
         />
       ))}
       {pending && <TypingIndicator label={pendingLabel} />}
-      <div ref={bottomRef} />
     </div>
   );
 }

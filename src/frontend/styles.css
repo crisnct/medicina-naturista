@@ -151,6 +151,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    overflow-anchor: none;
     padding: 22px;
     border: 1px solid var(--nature-border);
     border-radius: 20px;
@@ -907,15 +908,17 @@ button.cat-toggle.cat-toggle-open svg {
 }
 .herb-conditions-panel h3 { margin: 0 0 .5rem; }
 .herb-species { color: #596b45; font-style: italic; }
-.herb-conditions-table { max-height: 28rem; overflow: auto; }
-.herb-conditions-table table { width: 100%; border-collapse: collapse; }
-.herb-conditions-table th, .herb-conditions-table td {
-    padding: .6rem .75rem;
-    text-align: left;
-    border-bottom: 1px solid #d8dfc6;
+.herb-conditions-list {
+    margin: 8px 0;
+    padding-left: 18px;
+    font-size: 12px;
+    line-height: 1.4;
+}
+.herb-conditions-list li {
+    margin: 2px 0;
+    padding: 0;
     overflow-wrap: anywhere;
 }
-.herb-conditions-table th { position: sticky; top: 0; background: #eef2e5; }
 .herb-association-note { font-size: .9rem; color: #596b45; margin-bottom: 0; }
 
 @media (prefers-reduced-motion: reduce) {

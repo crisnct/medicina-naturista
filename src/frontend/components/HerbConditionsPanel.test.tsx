@@ -10,14 +10,13 @@ const message: HerbConditionsMessage = {
 };
 
 describe("plant association results", () => {
-  it("renders the total above the conditions without an ID column", () => {
+  it("renders the total and conditions as a list without a table", () => {
     render(<HerbConditionsPanel message={message} />);
     const heading = screen.getByRole("heading", { name: /utilă în 2 afecțiuni/ });
     expect(heading).toBeInTheDocument();
-    expect(screen.getAllByRole("row")).toHaveLength(3);
-    expect(screen.getAllByRole("columnheader")).toHaveLength(1);
-    expect(screen.queryByRole("cell", { name: "11" })).not.toBeInTheDocument();
-    expect(screen.getByRole("cell", { name: "Gastrită" })).toBeInTheDocument();
+    expect(screen.getByRole("list", { name: "Afecțiuni asociate" })).toBeInTheDocument();
+    expect(screen.getAllByRole("listitem").map((item) => item.textContent)).toEqual(["Gastrită", "Insomnie"]);
+    expect(screen.queryByRole("table")).not.toBeInTheDocument();
     expect(screen.getByText("matricaria chamomilla")).toBeInTheDocument();
   });
 
@@ -25,7 +24,7 @@ describe("plant association results", () => {
     render(<HerbConditionsPanel message={{ ...message, entriesCount: 0, conditions: [] }} />);
     expect(screen.getByRole("heading", { name: /utilă în 0 afecțiuni/ })).toBeInTheDocument();
     expect(screen.getByText(/Planta există în catalog/)).toBeInTheDocument();
-    expect(screen.queryByRole("table")).not.toBeInTheDocument();
+    expect(screen.queryByRole("list")).not.toBeInTheDocument();
   });
 
   it("renders names as text rather than executable HTML", () => {
