@@ -73,7 +73,7 @@ Fiecare fază e un commit (sau PR) separat; aplicația funcționează după fiec
 | `src/scripts/audit_conditions.py`, `src/scripts/audit_near_dupes.py`, `src/scripts/conditions_work/*` | citesc / rescriu fișierul | Se șterg (rămân în istoria git) |
 | `src/tests/unit/ai/test_conditions.py` | `parse_conditions(SAMPLE)`; testele „shipped dictionary” citesc fișierul | Rescrise (fazele 3–4) |
 | `Dockerfile:30` | `COPY data/medical_conditions.txt` | Se înlocuiește cu `COPY migrations` + `alembic.ini` |
-| `README.md`, `architecture/hybrid-index-generation.xmind`, `architecture/fragment-search-and-scoring.md` | descriu fișierul, `CONDITIONS_FILE`, `ensure_schema()` | Actualizate (faza 6) |
+| `README.md`, `architecture/hybrid-index-generation.xmind`, `architecture/fragment-search-and-scoring.xmind` | descriu fișierul, `CONDITIONS_FILE`, `ensure_schema()` | Actualizate (faza 6) |
 
 ### Decizii de design
 
@@ -303,7 +303,7 @@ Interfața publică rămâne: `Condition`, `ConditionDictionary`, `load_dictiona
 - **6.5.** Documentație:
   - `README.md`: dicționarul e în `medical_conditions` / `medical_condition_terms`, populat de migrări; secțiune nouă „Migrări” (`alembic upgrade head`, cum se adaugă afecțiuni printr-o migrare nouă, că după o migrare de dicționar reindexarea completă se face cu scriptul, ca până acum); `CONDITIONS_FILE` dispare. Secțiunea despre `build_hybrid_index.py` rămâne, cu o singură precizare: baza trebuie să fie migrată înainte.
   - `architecture/hybrid-index-generation.xmind` — pasul 2 / 2.2 (schema creată de migrări, nu de `ensure_schema()`; scriptul doar o verifică și ajustează lățimea vectorului), 2.8 (dicționarul din DB), pasul 8 (`indexed_conditions_revision`).
-  - `architecture/fragment-search-and-scoring.md` — 1.1 (sursa dicționarului, reîncărcarea pe revizie) și tabelul de setări.
+  - `architecture/fragment-search-and-scoring.xmind` — 1.1 (sursa dicționarului, reîncărcarea pe revizie) și tabelul de setări.
 - **6.6.** Verificare finală: `grep -r medical_conditions.txt` găsește doar acest plan; suita de teste trece; `alembic upgrade head` pe o bază goală + `python src/scripts/build_hybrid_index.py` reproduc indexul; pe baza existentă, o rulare a scriptului nu raportează niciun fișier schimbat.
 
 ### Riscuri și măsuri

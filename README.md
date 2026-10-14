@@ -36,16 +36,17 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 
 ## 🎨 Cum funcționează
 
-Fiecare mesaj trece prin **Clasificare mesaj** folosind Ollama local cu modelul existent `gemma3:1b` (`CONDITION_AI_LOCAL_MODEL`). `POST /api/messages` afișează rapid mesajul și salvează contextul, apoi `POST /api/classify` selectează:
+Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pentru cererile explicite și Ollama local `gemma3:1b` (`CONDITION_AI_LOCAL_MODEL`) când este necesar. `POST /api/messages` afișează rapid mesajul și salvează contextul, apoi `POST /api/classify` selectează:
 
 - **Remedii:** rezolvarea afecțiunilor și căutarea existentă, cu identificare AI opțională.
-- **Planta:** nume/alias rezolvat în catalog și interogare SQL pe `herbs`, `herbs_benefits`, `medical_conditions`; numărul rezultatelor distincte apare deasupra tabelului ID/afecțiune. Asocierile reflectă coapariții în corpus, inclusiv contraindicații.
+- **Planta:** nume/alias rezolvat în catalog și interogare SQL pe `herbs`, `herbs_benefits`, `medical_conditions`; numărul rezultatelor distincte apare deasupra listei de afecțiuni. Asocierile reflectă coapariții în corpus, inclusiv contraindicații.
+- **Top plante:** clasament general din `herbs.ranking`, cu numărul de afecțiuni asociate și aliasurile regionale; fără căutare hibridă sau generare AI.
 - **Diverse:** căutare după mesajul original, fără identificarea afecțiunii prin AI și fără notificările despre afecțiunea necunoscută. Generarea raportului naturist rămâne ca în fluxul de remedii.
 - **Email raport:** adresă validată local și PDF-ul precedent din aceeași sesiune; fără căutare nouă. Mesajul poate fi o adresă singură sau o cerere precum „Trimite raportul la nume@example.com”.
 
-Clasificarea trimite către Ollama local numai mesajul și context minimal de rutare, fără PDF sau corpus. Refolosește `CONDITION_AI_LOCAL_BASE` și `CONDITION_AI_LOCAL_MODEL`, cu temperatura 0, fără cheie API și fără fallback Hugging Face. Schema JSON impune una dintre cele patru intenții și câmpurile permise; validarea strictă se repetă în aplicație. Numele și aliasurile plantelor sunt recunoscute și în catalogul local, fără diferențe de diacritice sau cratime. Un nume explicit completează clarificarea. Dacă numele corespunde mai multor plante, aplicația afișează numele românești și latine și cere alegerea utilizatorului; aceasta selectează o singură specie și asocierile ei. Este independentă de `AI_PROVIDER`. La eșec se continuă cu fluxul existent, cu o notificare; cererile explicite de email cer clarificare, iar o adresă singură păstrează comanda deterministă existentă. Cererile neclare solicită planta sau destinatarul. Clasificarea și expedierea nu sunt reîncercate automat; identificatorul mesajului și revizia previn repetarea aceleiași expediții.
+Clasificarea trimite către Ollama local numai mesajul și context minimal de rutare, fără PDF sau corpus. Refolosește `CONDITION_AI_LOCAL_BASE` și `CONDITION_AI_LOCAL_MODEL`, cu temperatura 0, fără cheie API și fără fallback Hugging Face. Schema JSON impune una dintre cele cinci intenții și câmpurile permise; validarea strictă se repetă în aplicație. Numele și aliasurile plantelor sunt recunoscute și în catalogul local, fără diferențe de diacritice sau cratime. Un nume explicit completează clarificarea. Dacă numele corespunde mai multor plante, aplicația afișează numele românești și latine și cere alegerea utilizatorului; aceasta selectează o singură specie și asocierile ei. Este independentă de `AI_PROVIDER`. La eșec se continuă cu fluxul existent, cu o notificare; cererile explicite de email cer clarificare, iar o adresă singură păstrează comanda deterministă existentă. Cererile neclare solicită planta sau destinatarul. Clasificarea și expedierea nu sunt reîncercate automat; identificatorul mesajului și revizia previn repetarea aceleiași expediții.
 
-Diagrama actualizată: [chatbot-external-connections.svg](architecture/chatbot-external-connections.svg). Detaliile schimbării: [message-classification-plan.md](architecture/message-classification-plan.md).
+Diagrama actualizată: [chatbot-external-connections.xmind](architecture/chatbot-external-connections.xmind). Clasificarea și rutarea mesajelor (XMind 8): [message-classification-plan.xmind](architecture/message-classification-plan.xmind).
 
 ```text
 📚 documente Markdown
@@ -86,8 +87,8 @@ Diagrama actualizată: [chatbot-external-connections.svg](architecture/chatbot-e
 | Document | Ce explică |
 |---|---|
 | 🧠 [Fluxul de generare a indexului hibrid (XMind 8)](architecture/hybrid-index-generation.xmind) | Fluxul complet: documente → sincronizare incrementală (SHA-256) → fragmente R1/R2/D1 → embeddings → Postgres (`pgvector` + `tsvector`). |
-| 📄 [Fluxul de generare a raportului final](architecture/final-report-generation.md) | Fluxul complet: mesaj → retrieval hibrid → fragmente afișate pacientului → „Generează raportul” (owner) → furnizorul AI → PDF → download și trimitere pe e-mail către altă persoană. |
-| 🔎 [Căutarea și scoringul fragmentelor](architecture/fragment-search-and-scoring.md) | Fluxul complet: mesaj → afecțiuni recunoscute → scor (`4·P1 + 2·P2 + L + V` cu toate semnalele alese) pentru toate fragmentele → procent de relevanță → limitarea contextului. |
+| 📄 [Fluxul de generare a raportului final (XMind 8)](architecture/final-report-generation.xmind) | Fluxul complet: mesaj → retrieval hibrid → fragmente afișate pacientului → „Generează raportul” (owner) → furnizorul AI → PDF → download și trimitere pe e-mail către altă persoană. |
+| 🔎 [Căutarea și scoringul fragmentelor (XMind 8)](architecture/fragment-search-and-scoring.xmind) | Fluxul complet: mesaj → afecțiuni recunoscute → scor (`4·P1 + 2·P2 + L + V` cu toate semnalele alese) pentru toate fragmentele → procent de relevanță → limitarea contextului. |
 
 ## 📁 Structura proiectului
 
@@ -346,7 +347,7 @@ Fragmentarea (`src/backend/ai/fragmenter.py`) citește afecțiunile din `medical
 
 Afecțiunile se caută pe cuvinte întregi, fără diacritice și majuscule, cu toleranță la terminațiile românești (`gripa`/`gripei`). Numele fișierului și al folderelor nu se compară cu afecțiunile. Fragmentele R1 și R2 primesc `primary_medical_conditions` (afecțiunile din titlu) și `secondary_medical_conditions` (afecțiunile din text); D1 nu are afecțiuni. R1 și R2 nu au limită de lungime.
 
-La căutare, fiecare fragment primește scorul `4·P1 + 2·P2 + L + V` (maximum 8, cu toate semnalele bifate): P1 = afecțiunea căutată este în `primary_medical_conditions`, P2 = este în `secondary_medical_conditions`, L = fracțiunea de expresii (separate prin virgulă) regăsite în fragment, V = similaritatea semantică rescalată între mediana și maximul căutării. Pacientul poate debifa semnale în panoul „Surse și opțiuni de căutare”, iar formula se adaptează (de exemplu `L + V` sau doar `2·P1 + P2`). Scorul nu se stochează în DB; detaliile sunt în [fragment-search-and-scoring.md](architecture/fragment-search-and-scoring.md).
+La căutare, fiecare fragment primește scorul `4·P1 + 2·P2 + L + V` (maximum 8, cu toate semnalele bifate): P1 = afecțiunea căutată este în `primary_medical_conditions`, P2 = este în `secondary_medical_conditions`, L = fracțiunea de expresii (separate prin virgulă) regăsite în fragment, V = similaritatea semantică rescalată între mediana și maximul căutării. Pacientul poate debifa semnale în panoul „Surse și opțiuni de căutare”, iar formula se adaptează (de exemplu `L + V` sau doar `2·P1 + P2`). Scorul nu se stochează în DB; detaliile sunt în [fragment-search-and-scoring.xmind](architecture/fragment-search-and-scoring.xmind).
 
 Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit în ferestre care se suprapun cu 240, iar vectorii lor se mediază (valorile, dimensiunea vectorilor și prefixele de text ale fiecărui model sunt în profilul lui din `ai/embedding_model.py`). Diacriticele sunt păstrate prin normalizare Unicode NFC.
 

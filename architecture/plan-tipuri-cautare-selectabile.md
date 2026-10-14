@@ -1,8 +1,8 @@
 # Plan: tipuri de căutare selectabile de utilizator (A / B / C)
 
-**Stare:** implementat (2026-10-03). Deciziile D1–D3 au fost aplicate așa cum sunt propuse; la implementare, CTE-ul `lex` (9.1.5) trimite expresiile ca array de interogări (`unnest(...)` evaluat o singură dată, `MATERIALIZED`), nu ca sumă literală de `@@`, ca textul SQL să nu crească cu numărul de expresii (rezultatul este același). Descrierea curentă a comportamentului este în [fragment-search-and-scoring.md](fragment-search-and-scoring.md).
+**Stare:** implementat (2026-10-03). Deciziile D1–D3 au fost aplicate așa cum sunt propuse; la implementare, CTE-ul `lex` (9.1.5) trimite expresiile ca array de interogări (`unnest(...)` evaluat o singură dată, `MATERIALIZED`), nu ca sumă literală de `@@`, ca textul SQL să nu crească cu numărul de expresii (rezultatul este același). Descrierea curentă a comportamentului este în [fragment-search-and-scoring.xmind](fragment-search-and-scoring.xmind).
 
-**Scop:** pacientul alege din panoul „Căutare avansată” care semnale intră în scorul unui fragment. Azi formula este fixă: `score = 4·P1 + 2·P2 + L + V` (vezi [fragment-search-and-scoring.md](fragment-search-and-scoring.md)). Pe lângă alegerea semnalelor, planul **redefinește semnalul lexical L** în toate combinațiile, conform deciziilor de mai jos.
+**Scop:** pacientul alege din panoul „Căutare avansată” care semnale intră în scorul unui fragment. Azi formula este fixă: `score = 4·P1 + 2·P2 + L + V` (vezi [fragment-search-and-scoring.xmind](fragment-search-and-scoring.xmind)). Pe lângă alegerea semnalelor, planul **redefinește semnalul lexical L** în toate combinațiile, conform deciziilor de mai jos.
 
 Planul are trei părți: **[Partea I — Ce se schimbă](#partea-i--ce-se-schimbă)** (comportamentul văzut de pacient și formulele), **[Partea II — Implementare](#partea-ii--implementare)** (fișier cu fișier) și **[Partea III — Riscuri și verificare](#partea-iii--riscuri-și-verificare)**.
 
@@ -128,7 +128,7 @@ Comutatorul de experiment devine redundant (doar C bifat face același lucru). S
 
 ### 13. Documentație
 
-`architecture/fragment-search-and-scoring.md` se actualizează: secțiunea 2 (tabelul combinațiilor, noul L), 2.2 rescrisă (fraze, expresie întreagă, numărare), 1.5 (mesajul de afecțiune), 5 (filtrele ascunse), 6 (fără `SEARCH_SEMANTIC_ONLY`, constantele noi).
+`architecture/fragment-search-and-scoring.xmind` se actualizează: secțiunea 2 (tabelul combinațiilor, noul L), 2.2 rescrisă (fraze, expresie întreagă, numărare), 1.5 (mesajul de afecțiune), 5 (filtrele ascunse), 6 (fără `SEARCH_SEMANTIC_ONLY`, constantele noi).
 
 ### 14. Ordinea implementării
 

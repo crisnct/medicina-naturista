@@ -217,27 +217,19 @@ body {
 }
 
 .loader {
-    width: 44px;
-    aspect-ratio: 4;
-    --c: #163d2c 90%, #0000;
-    background:
-        radial-gradient(circle closest-side at left 6px top 50%, var(--c)),
-        radial-gradient(circle closest-side, var(--c)),
-        radial-gradient(circle closest-side at right 6px top 50%, var(--c));
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    animation: loader-bounce 2.5s infinite ease-in-out alternate;
+    display: inline-block;
+    flex: 0 0 20px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid rgba(36, 102, 87, 0.18);
+    border-top-color: var(--nature-primary);
+    border-radius: 50%;
+    animation: loader-ring-spin 0.5s linear infinite;
 }
 
-@keyframes loader-bounce {
-    0%, 10% {
-        width: 44px;
-        aspect-ratio: 4;
-    }
-    90%, 100% {
-        width: 26px;
-        aspect-ratio: 1.6;
-    }
+@keyframes loader-ring-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
 }
 
 .typing-elapsed {
@@ -981,6 +973,8 @@ button.cat-toggle.cat-toggle-open svg {
         transition-duration: 0.01ms !important;
         animation-duration: 0.01ms !important;
     }
+    /* Keep the explicitly requested slow progress indicator visible in motion. */
+    .loader { animation-duration: 0.5s !important; }
 }
 
 /* Shared hierarchy and disclosure controls for the full conversation flow. */

@@ -32,6 +32,23 @@ export function Composer({
     <>
       <form id="message-row" onSubmit={submit}>
         <label htmlFor="health-message">Întrebarea dumneavoastră</label>
+        <div className="question-examples" aria-label="Exemple de întrebări">
+          <span>Exemple de întrebări</span>
+          {[
+            { label: "🌿 Remedii naturiste pentru gripă", text: "Remedii naturiste pentru gripă" },
+            { label: "🌿 Despre cuișoare", text: "Spune-mi tot ce știi despre Cuișoare" },
+            { label: "🌿 Top 10 plante medicinale", text: "Top 10 plante medicinale" },
+            { label: "📚 Despre Ovidiu Bojor", text: "Spune-mi tot ce știi despre Ovidiu Bojor" },
+            { label: "🍄 Despre cultivarea ciupercilor", text: "Spune-mi tot ce știi despre cultivarea ciupercilor comestibile" },
+            { label: "🧄 La ce e bun usturoiul ?", text: "La ce e bun usturoiul ?" },
+          ].map((example) => (
+            <button key={example.label} type="button" className="example-button"
+              disabled={busy || value.trim().length > 0}
+              onClick={() => { setValue(example.text); input.current?.focus({ preventScroll: true }); }}>
+              {example.label}
+            </button>
+          ))}
+        </div>
         <input
           ref={input}
           id="health-message"
@@ -59,23 +76,6 @@ export function Composer({
           </button>
         </div>
       </form>
-      <div className="question-examples" aria-label="Exemple de întrebări">
-        <span>Exemple de întrebări</span>
-        {[
-          { label: "🌿 Remedii naturiste pentru gripă", text: "Remedii naturiste pentru gripă" },
-          { label: "🌿 Despre cuișoare", text: "Spune-mi tot ce știi despre Cuișoare" },
-          { label: "🌿 Top 10 plante medicinale", text: "Top 10 plante medicinale" },
-          { label: "📚 Despre Ovidiu Bojor", text: "Spune-mi tot ce știi despre Ovidiu Bojor" },
-          { label: "🍄 Despre cultivarea ciupercilor", text: "Spune-mi tot ce știi despre cultivarea ciupercilor comestibile" },
-          { label: "🧄 La ce e bun usturoiul ?", text: "La ce e bun usturoiul ?" },
-        ].map((example) => (
-          <button key={example.label} type="button" className="example-button"
-            disabled={busy || value.trim().length > 0}
-            onClick={() => { setValue(example.text); input.current?.focus({ preventScroll: true }); }}>
-            {example.label}
-          </button>
-        ))}
-      </div>
     </>
   );
 }

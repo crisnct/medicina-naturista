@@ -17,19 +17,11 @@ for before, after in replacements.items():
     text = text.replace(before, after)
 path.write_text(text, encoding="utf-8")
 
-path = Path("architecture/fragment-search-and-scoring.md")
-text = path.read_text(encoding="utf-8").replace("(`/api/classify`, Hugging Face)", "(`/api/classify`, Ollama local `gemma3:1b`)")
-path.write_text(text, encoding="utf-8")
+# The current scoring diagram is fragment-search-and-scoring.xmind;
+# this historical text migration does not edit XMind workbooks.
 
-path = Path("architecture/message-classification-plan.md")
-text = path.read_text(encoding="utf-8")
-text = text.replace("folosind conexiunea existentă Hugging Face", "folosind Ollama local cu modelul existent `gemma3:1b`")
-text = text.replace("noul clasificator va folosi direct Hugging Face", "noul clasificator folosește direct Ollama local (`gemma3:1b`)")
-text = text.replace('HF["Hugging Face · conexiunea existentă<br/>POST /responses"]', 'HF["Ollama local · gemma3:1b<br/>POST /responses"]')
-text = text.replace("conectăm clasificatorul la Hugging Face", "conectăm clasificatorul la Ollama local")
-text = text.replace("cu `HF_API_BASE`, `HF_TOKEN` și modelul Hugging Face deja configurat pentru identificare. În prima versiune nu adăugăm alt provider sau model implicit.", "cu `CONDITION_AI_LOCAL_BASE` și `CONDITION_AI_LOCAL_MODEL` (`gemma3:1b`), deja configurate pentru identificare. Temperatura este 0, fără cheie API și fără fallback Hugging Face. Timeoutul și bugetul de ieșire rămân independente.")
-text = text.replace("apelează Hugging Face și validează", "apelează Ollama local și validează")
-path.write_text(text, encoding="utf-8")
+# The current classification diagram is message-classification-plan.xmind;
+# this historical text migration does not edit XMind workbooks.
 
 path = Path("architecture/message-classification-validation.md")
 text = path.read_text(encoding="utf-8").replace("clasificatorul HF cu JSON validat", "clasificatorul Ollama local (`gemma3:1b`) cu JSON validat")

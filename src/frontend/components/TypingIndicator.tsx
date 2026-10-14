@@ -1,9 +1,7 @@
 import { useEffect, useState } from "react";
 import { DoctorAvatar } from "./DoctorAvatar";
 
-// Animated "thinking" bubble shown while a slow backend call is in flight
-// (retrieval or AI generation) — the elapsed-time counter and bouncing dots
-// Gradio's own chatbot used to show for free while a response was pending.
+// A slow status ring and elapsed time while retrieval or report generation is pending.
 export function TypingIndicator({ label }: { label?: string }) {
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
 

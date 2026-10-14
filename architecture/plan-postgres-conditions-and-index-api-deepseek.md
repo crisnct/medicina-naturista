@@ -42,7 +42,7 @@ Fapte verificate în arborele curent:
 | `src/backend/ai/search.py:235`, `web/main.py:148` | `cached_query_model()` (lru_cache) și `warm_up_search()` la pornire | reutilizate de indexer, ca să nu existe două copii ale modelului în proces (§7) |
 | `tests/support/postgres.py:38,51` | `ensure_schema()` la start, `TRUNCATE chunks, documents, sync_metadata` între teste | `bootstrap_database()` + re-seed după truncate (§10) |
 | `tests/unit/ai/test_conditions.py:105-174` | `FileLoadingTests` (fișier lipsă, reîncărcare pe `mtime`) + 4 teste „shipped dictionary” care citesc fișierul | rescrise pe DB, respectiv pe resursa `conditions.jsonl` (§10) |
-| `README.md` (liniile 29, 86, 89-90, 132-144, 207-233, 285), `architecture/hybrid-index-generation.xmind`, `architecture/fragment-search-and-scoring.md` (13, 39, 126) | descriu fișierul, `CONDITIONS_FILE`, `ensure_schema()` și lansarea din PowerShell | actualizate (E5) |
+| `README.md` (liniile 29, 86, 89-90, 132-144, 207-233, 285), `architecture/hybrid-index-generation.xmind`, `architecture/fragment-search-and-scoring.xmind` | descriu fișierul, `CONDITIONS_FILE`, `ensure_schema()` și lansarea din PowerShell | actualizate (E5) |
 | `scripts/audit_conditions.py`, `scripts/audit_near_dupes.py`, `scripts/conditions_work/` (96 de fișiere) | unelte one-off care citesc/reescriu fișierul | șterse (E5), rămân în istoria git |
 
 ---
@@ -234,7 +234,7 @@ Router nou `src/backend/web/index_api.py`, montat în `web/main.py` (care nu are
 - **E2.** `config.py`: dispare `conditions_file`; apare `index_token()`. `README.md`: dispare `CONDITIONS_FILE`, apar `INDEX_TOKEN` și secțiunea de reindexare prin API.
 - **E3.** `pyproject.toml`: lista `package-data` primește `ai/resources/*.jsonl`, lângă `ai/resources/*.txt` care e deja acolo (resursa dicționarului ajunge astfel în wheel, nu doar în imagine).
 - **E4.** `reporting/pdf.py:522`: comentariul nu mai pomenește fișierul.
-- **E5.** Documentație: `architecture/hybrid-index-generation.xmind` (pornirea prin API și jobul, schema din DB în locul fișierului, `index_runs`/`indexed_conditions_revision`), `architecture/fragment-search-and-scoring.md` (sursa dicționarului, reîncărcarea pe revizie, tabelul de setări).
+- **E5.** Documentație: `architecture/hybrid-index-generation.xmind` (pornirea prin API și jobul, schema din DB în locul fișierului, `index_runs`/`indexed_conditions_revision`), `architecture/fragment-search-and-scoring.xmind` (sursa dicționarului, reîncărcarea pe revizie, tabelul de setări).
 - **E6.** Verificare finală: A1–A6 din §1, plus `grep -rn "medical_conditions"` care nu mai găsește decât planurile din `architecture/`.
 
 ---

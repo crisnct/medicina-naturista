@@ -1,8 +1,9 @@
 """Preview the real built UI against synthetic infrastructure on a separate port."""
 import time
+from zipfile import ZipFile
 from pathlib import Path
 
-from fastapi.responses import FileResponse
+from fastapi.responses import Response
 from fastapi.staticfiles import StaticFiles
 
 from backend.ai.message_classification import MessageClassification
@@ -35,5 +36,13 @@ fixture.deps.herb_lookup = lambda name: {
     "conditions": [{"id": 11, "name": "Gastrită"}, {"id": 25, "name": "Insomnie"}, {"id": 42, "name": "Stomatită"}],
 }
 app = fixture.client.app
-app.get("/preview-diagram.svg")(lambda: FileResponse(Path("architecture/chatbot-external-connections.svg")))
+def diagram_preview():
+    with ZipFile(Path("architecture/chatbot-external-connections.xmind")) as workbook:
+        return Response(
+            workbook.read("attachments/runtime-connections.svg"),
+            media_type="image/svg+xml",
+        )
+
+
+app.get("/preview-diagram.svg")(diagram_preview)
 app.mount("/", StaticFiles(directory="src/frontend/dist", html=True))
