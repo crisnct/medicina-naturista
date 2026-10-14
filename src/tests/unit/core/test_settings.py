@@ -11,6 +11,19 @@ from backend.config import Settings
 
 
 class SettingsTests(unittest.TestCase):
+    def test_medical_condition_model_setting_is_used_by_both_local_tasks(self):
+        from backend.ai import condition_ai
+        from backend.ai.message_classification import MessageClassifier
+
+        config = Settings.from_env({"MEDICAL_CONDITION_AI_LOCAL_MODEL": "gemma4:12b"})
+        classifier = MessageClassifier(config)
+        try:
+            with patch.object(condition_ai, "settings", config):
+                self.assertEqual(condition_ai._provider().model, "gemma4:12b")
+            self.assertEqual(classifier.client.provider.model, "gemma4:12b")
+        finally:
+            classifier.close()
+
     def test_two_environment_maps_are_independent_and_defaults_do_not_read_env(self):
         first = Settings.from_env(
             {"MAX_ACTIVE_SESSIONS": "7", "OWNER_KEY": "first", "COOKIE_SECURE": "true"}

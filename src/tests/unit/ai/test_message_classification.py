@@ -319,8 +319,8 @@ def test_existing_ollama_configuration_and_bounded_request_are_reused():
 def test_ollama_request_needs_no_hf_token_and_uses_the_existing_endpoint():
     settings = Settings(
         hf_api_token="",
-        condition_ai_local_base="http://ollama:11434/v1",
-        condition_ai_local_model="gemma3:1b",
+        condition_ai_local_base="http://host.docker.internal:11434/v1",
+        medical_condition_ai_local_model="gemma3:1b",
         message_classification_timeout_seconds=17,
         message_classification_max_output_tokens=250,
     )
@@ -347,11 +347,12 @@ def test_ollama_request_needs_no_hf_token_and_uses_the_existing_endpoint():
         classifier.client.http = httpx.Client(transport=httpx.MockTransport(respond))
         assert classifier("O întrebare generală", {}).intent == "diverse"
         assert len(requests) == 1
-        assert str(requests[0].url) == "http://ollama:11434/v1/responses"
+        assert str(requests[0].url) == "http://host.docker.internal:11434/v1/responses"
         assert "Authorization" not in requests[0].headers
         payload = json.loads(requests[0].content)
         assert payload["model"] == "gemma3:1b"
         assert payload["temperature"] == 0.0
+        assert payload["reasoning"] == {"effort": "none"}
         assert payload["max_output_tokens"] == 250
         assert payload.get("stream", False) is False
         schema = payload["text"]["format"]

@@ -67,22 +67,6 @@ def _ai_provider(value: str | None = None, env: Mapping[str, str] | None = None)
     return provider
 
 
-CONDITION_AI_BACKEND_NAMES = ("huggingface", "local")
-
-
-# Read CONDITION_AI_BACKENDS: an ordered, comma-separated list of the backends
-# that identify a condition the dictionary does not know. Empty disables the step.
-def _condition_ai_backends(env: Mapping[str, str] | None = None) -> tuple[str, ...]:
-    raw = (env or {}).get("CONDITION_AI_BACKENDS", "local,huggingface")
-    names = tuple(dict.fromkeys(part.strip().casefold() for part in raw.split(",") if part.strip()))
-    unknown = [name for name in names if name not in CONDITION_AI_BACKEND_NAMES]
-    if unknown:
-        raise ValueError(
-            f"CONDITION_AI_BACKENDS must only contain {', '.join(CONDITION_AI_BACKEND_NAMES)}"
-        )
-    return names
-
-
 @dataclass(frozen=True)
 class Settings:
     documents_dir: Path = CORPUS_DATA_DIR / "documents"
@@ -119,11 +103,8 @@ class Settings:
     deepseek_reasoning_effort: str = ""
     deepseek_max_context_chars: int = 1_000_000
     # Identification of a condition the dictionary does not know (ai/condition_ai.py):
-    # backends are tried in order; the local one is an Ollama model, the other
-    # goes through the Hugging Face router (HF_API_BASE, HF_TOKEN).
-    condition_ai_backends: tuple[str, ...] = ("local", "huggingface")
-    condition_ai_hf_model: str = "deepseek-ai/DeepSeek-V4-Flash:deepinfra"
-    condition_ai_local_model: str = "gemma3:1b"
+    # Identification uses only the host Ollama model, with no provider fallback.
+    medical_condition_ai_local_model: str = "gemma3:1b"
     condition_ai_local_base: str = "http://localhost:11434/v1"
     condition_ai_timeout_seconds: int = 10
     condition_ai_max_output_tokens: int = 300
@@ -212,12 +193,9 @@ class Settings:
             deepseek_api_base=env.get("DEEPSEEK_API_BASE", "https://api.deepseek.com").rstrip("/"),
             deepseek_reasoning_effort=env.get("DEEPSEEK_REASONING_EFFORT", "").strip(),
             deepseek_max_context_chars=_int("DEEPSEEK_MAX_CONTEXT_CHARS", 1000000, env=env),
-            condition_ai_backends=_condition_ai_backends(env=env),
-            condition_ai_hf_model=env.get(
-                "CONDITION_AI_HF_MODEL",
-                env.get("HF_MODEL", "deepseek-ai/DeepSeek-V4-Flash:deepinfra"),
+            medical_condition_ai_local_model=env.get(
+                "MEDICAL_CONDITION_AI_LOCAL_MODEL", "gemma3:1b"
             ),
-            condition_ai_local_model=env.get("CONDITION_AI_LOCAL_MODEL", "gemma3:1b"),
             condition_ai_local_base=env.get(
                 "CONDITION_AI_LOCAL_BASE", "http://localhost:11434/v1"
             ).rstrip("/"),
@@ -277,8 +255,6 @@ class Settings:
                 raise ValueError(f"{name} must be boolean")
         if self.embedding_device not in EMBEDDING_DEVICES:
             raise ValueError("embedding_device must be cpu or cuda")
-        if any(value not in CONDITION_AI_BACKEND_NAMES for value in self.condition_ai_backends):
-            raise ValueError("unknown condition AI backend")
         if self.log_level not in {"DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"}:
             raise ValueError("log_level must be a supported logging level")
         if self.deployment_profile not in {"local", "public"}:

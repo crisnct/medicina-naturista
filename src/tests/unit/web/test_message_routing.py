@@ -2,7 +2,6 @@
 
 import threading
 from concurrent.futures import ThreadPoolExecutor
-from dataclasses import replace
 from unittest.mock import Mock
 
 import pytest
@@ -159,7 +158,9 @@ def test_top_without_count_asks_then_accepts_count_only(web):
 
 def test_diverse_skips_ai_identification_and_direct_condition_endpoint(web):
     test, sid, tab = web
-    test.deps.settings = replace(test.deps.settings, condition_ai_backends=("huggingface",))
+    test.condition_ai_gate.side_effect = AssertionError(
+        "Must not schedule condition identification"
+    )
     test.deps.classify = Mock(return_value=MessageClassification(intent="diverse"))
     test.deps.identify = Mock(side_effect=AssertionError("Must not identify a condition"))
     first = accept(web, "cum se prepară o infuzie?")

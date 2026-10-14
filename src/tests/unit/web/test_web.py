@@ -28,6 +28,7 @@ from backend.reporting import pdf as reports_module
 from backend.web import handlers, main
 
 settings = Settings()
+NEEDS_CONDITION_AI = conversation.needs_condition_ai
 from backend.ai import conditions as conditions_module
 from backend.ai.conditions import ConditionDictionary
 from backend.ai.retrieval import Retriever, consultation_query
@@ -190,7 +191,6 @@ class WebTests(unittest.TestCase):
         self.addCleanup(self.temp.cleanup)
         config = replace(
             settings,
-            condition_ai_backends=(),
             owner_key="synthetic-owner-key",
             max_sessions_per_ip=100,
             max_sessions_per_cookie=4,
@@ -210,11 +210,12 @@ class WebTests(unittest.TestCase):
             b"synthetic-csrf-secret",
             classify=lambda message, context: MessageClassification(intent="remedii"),
         )
-        # The condition AI never reaches the network from these tests: by default
-        # it is "disabled"; the tests of that step patch it with their own answer.
-        no_ai = patch.object(
-            main, "identify_conditions", return_value=AIConditionResult(reason="disabled")
-        )
+        # Ordinary web tests isolate the identification step; condition tests
+        # restore its real scheduling predicate and inject a synthetic answer.
+        gate = patch.object(conversation, "needs_condition_ai", return_value=False)
+        self.condition_ai_gate = gate.start()
+        self.addCleanup(gate.stop)
+        no_ai = patch.object(main, "identify_conditions", return_value=AIConditionResult())
         no_ai.start()
         self.addCleanup(no_ai.stop)
         # ... and no backend is configured, unless a test turns the step on (_with_ai_backends).
@@ -1020,9 +1021,7 @@ class WebTests(unittest.TestCase):
         sid = "C" * 43
         ai_step = MagicMock(return_value=result)
         with (
-            patch.object(
-                self.deps, "settings", replace(settings, condition_ai_backends=("local",))
-            ),
+            patch.object(conversation, "needs_condition_ai", wraps=NEEDS_CONDITION_AI),
             patch.object(self.deps, "retriever", Recording()),
             patch.object(main, "identify_conditions", ai_step),
             patch.object(conditions_module, "load_dictionary", return_value=dictionary),
@@ -1134,25 +1133,13 @@ class WebTests(unittest.TestCase):
         self.assertFalse(any("afecțiunea" in m.get("content", "") for m in messages))
         self.assertTrue(any(m["kind"] == "fragments" for m in messages))
 
-    def test_without_configured_backends_the_ai_step_does_not_run_and_nothing_is_said(self):
-        with patch("backend.core.conversation.needs_condition_ai", return_value=False):
-            messages, ai_step, _session, _seen = self._send_with_ai(
-                "durere de cap", self._identified(), tab="tab-condai0004"
-            )
-
-        ai_step.assert_not_called()
-        self.assertFalse(any("afecțiunea" in m.get("content", "") for m in messages))
-        self.assertTrue(any(m["kind"] == "fragments" for m in messages))
-
     def test_a_new_message_clears_the_conditions_of_the_previous_one(self):
         sid, tab = "D" * 43, "tab-condai0005"
         dictionary = ConditionDictionary(
             conditions_from_rows("Artrita gutoasa,guta articulara,gout\n")
         )
         with (
-            patch.object(
-                self.deps, "settings", replace(settings, condition_ai_backends=("local",))
-            ),
+            patch.object(conversation, "needs_condition_ai", wraps=NEEDS_CONDITION_AI),
             patch.object(self.deps, "retriever", FakeRetriever()),
             patch.object(main, "identify_conditions", return_value=self._identified()),
             patch.object(conditions_module, "load_dictionary", return_value=dictionary),
@@ -1205,9 +1192,7 @@ class WebTests(unittest.TestCase):
             return self._identified()
 
         with (
-            patch.object(
-                self.deps, "settings", replace(settings, condition_ai_backends=("local",))
-            ),
+            patch.object(conversation, "needs_condition_ai", wraps=NEEDS_CONDITION_AI),
             patch.object(self.deps, "retriever", FakeRetriever()),
             patch.object(main, "identify_conditions", side_effect=slow_ai),
             patch.object(conditions_module, "load_dictionary", return_value=dictionary),

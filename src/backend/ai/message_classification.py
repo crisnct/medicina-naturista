@@ -190,8 +190,9 @@ class MessageClassifier:
                 name="ollama",
                 label="Ollama (local)",
                 base_url=settings.condition_ai_local_base,
-                model=settings.condition_ai_local_model,
-                reasoning_effort=None,
+                model=settings.medical_condition_ai_local_model,
+                # Keep the bounded output budget for the final routing JSON.
+                reasoning_effort="none",
                 api_key=lambda: "",
                 api_key_env="",
                 api_key_required=False,

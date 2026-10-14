@@ -126,13 +126,9 @@ def document_count_for_categories(category_ids: set[str], retriever) -> int:
 
 
 # Whether the message goes to the condition AI: the conditions signal is on, a
-# backend is configured and the dictionary names no condition in any segment.
-def needs_condition_ai(health_problem: str, signals: SearchSignals, settings: Settings) -> bool:
-    return bool(
-        signals.conditions
-        and settings.condition_ai_backends
-        and not resolve_query(health_problem).conditions
-    )
+# dictionary names no condition in any segment. Ollama is the only AI provider.
+def needs_condition_ai(health_problem: str, signals: SearchSignals) -> bool:
+    return bool(signals.conditions and not resolve_query(health_problem).conditions)
 
 
 # Build the "Caut rapid în cele N documente" notice for the categories
@@ -472,7 +468,7 @@ class ConversationService:
             else:
                 routing.start_search = True
                 routing.identify_condition = decision.intent == "remedii" and needs_condition_ai(
-                    routing.message, snapshot.search_signals, self.settings
+                    routing.message, snapshot.search_signals
                 )
                 if routing.identify_condition:
                     notices.append(text_message("assistant", CONDITION_AI_NOTICE))
@@ -687,9 +683,7 @@ class ConversationService:
                     "startSearch": snapshot.routing.intent == "diverse"
                     and snapshot.routing.start_search,
                 }
-            if not needs_condition_ai(
-                snapshot.profile.health_problem, snapshot.search_signals, self.settings
-            ):
+            if not needs_condition_ai(snapshot.profile.health_problem, snapshot.search_signals):
                 self.store.checkpoint(operation)
                 return {**OperationResult().as_dict(), "startSearch": True}
             self.store.checkpoint(operation)

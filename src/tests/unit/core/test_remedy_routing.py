@@ -15,7 +15,7 @@ from backend.core.sessions import SessionStore
 
 @pytest.fixture
 def conversation(tmp_path, monkeypatch):
-    config = Settings(condition_ai_backends=())
+    config = Settings()
     dictionary = ConditionDictionary(
         [make_condition("Menopauza", ["perimenopauză"]), make_condition("Bufeuri")]
     )

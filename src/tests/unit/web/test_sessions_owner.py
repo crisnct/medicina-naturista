@@ -81,7 +81,6 @@ class HTTPPlanTests(unittest.TestCase):
         self.config = replace(
             Settings(),
             owner_key="owner synthetic secret",
-            condition_ai_backends=(),
             max_requests_per_minute=200,
         )
         self.repo = FakeOwnerRepository()

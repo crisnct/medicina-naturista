@@ -1,6 +1,6 @@
 """Tests for the AI identification of a condition the dictionary does not know
 (backend.ai.condition_ai): the answer's validation, the backends and their
-fallback, ephemeral answers, and how an answer becomes an ordinary condition. No real
+local-only failures, ephemeral answers, and how an answer becomes an ordinary condition. No real
 request is made: the HTTP client's post() is replaced."""
 
 from __future__ import annotations
@@ -59,11 +59,9 @@ HYPER = {
 
 
 class ConditionAITestCase(unittest.TestCase):
-    backends: tuple[str, ...] = ("local",)
-
     def setUp(self):
         self.dictionary = ConditionDictionary(conditions_from_rows(DICTIONARY_TEXT))
-        test_settings = replace(base_settings, condition_ai_backends=self.backends)
+        test_settings = base_settings
         env = patch.dict(os.environ, {"HF_TOKEN": "synthetic-token"})
         for manager in (
             patch.object(condition_ai, "settings", test_settings),
@@ -78,8 +76,8 @@ class ConditionAITestCase(unittest.TestCase):
         self.addCleanup(condition_ai._clients.clear)
 
     # Replace the HTTP post of one backend's client; `behaviours` are returned (or raised) in turn.
-    def fake_post(self, backend: str, *behaviours):
-        client = condition_ai._client(backend)
+    def fake_post(self, *behaviours):
+        client = condition_ai._client()
         post = MagicMock(side_effect=list(behaviours))
         client.http.post = post
         return post
@@ -90,9 +88,7 @@ class ConditionAITestCase(unittest.TestCase):
 
 class WarmUpTests(unittest.TestCase):
     def test_cold_start_has_separate_timeout_and_closes_client(self):
-        config = replace(
-            base_settings, condition_ai_backends=("local",), condition_ai_timeout_seconds=10
-        )
+        config = replace(base_settings, condition_ai_timeout_seconds=10)
         with (
             patch.object(condition_ai, "settings", config),
             patch.object(condition_ai, "ResponsesClient") as factory,
@@ -105,9 +101,7 @@ class WarmUpTests(unittest.TestCase):
         factory.return_value.close.assert_called_once()
 
     def test_failure_remains_best_effort_and_closes_client(self):
-        config = replace(
-            base_settings, condition_ai_backends=("local",), condition_ai_timeout_seconds=90
-        )
+        config = replace(base_settings, condition_ai_timeout_seconds=90)
         with (
             patch.object(condition_ai, "settings", config),
             patch.object(condition_ai, "ResponsesClient") as factory,
@@ -121,21 +115,10 @@ class WarmUpTests(unittest.TestCase):
         self.assertEqual(factory.call_args.args[0].read_timeout_seconds, 90)
         factory.return_value.close.assert_called_once()
 
-    def test_disabled_local_backend_does_not_create_client(self):
-        with (
-            patch.object(
-                condition_ai, "settings", replace(base_settings, condition_ai_backends=())
-            ),
-            patch.object(condition_ai, "ResponsesClient") as factory,
-        ):
-            condition_ai.warm_up()
-        factory.assert_not_called()
-
 
 class IdentificationTests(ConditionAITestCase):
     def test_a_valid_answer_becomes_a_condition_with_its_name_and_synonyms(self):
-        self.fake_post(
-            "local",
+        post = self.fake_post(
             segments_reply(
                 {**HYPER, "name": "Hipertiroidism-ul meu", "synonyms": ["tiroida hiperactiva"]}
             ),
@@ -145,6 +128,7 @@ class IdentificationTests(ConditionAITestCase):
 
         self.assertEqual(result.reason, condition_ai.IDENTIFIED)
         self.assertEqual(result.backend, "local")
+        self.assertEqual(post.call_args.kwargs["json"]["reasoning"], {"effort": "none"})
         self.assertEqual(
             result.conditions,
             (Condition("Hipertiroidism-ul meu", ("Hipertiroidism-ul meu", "tiroida hiperactiva")),),
@@ -152,7 +136,6 @@ class IdentificationTests(ConditionAITestCase):
 
     def test_the_answer_makes_the_segment_a_whole_condition_segment(self):
         self.fake_post(
-            "local",
             segments_reply({"index": 1, "name": "Cefalee", "synonyms": ["migrena", "headache"]}),
         )
         resolved = resolve_query("durere de cap, gripa")
@@ -206,9 +189,7 @@ class IdentificationTests(ConditionAITestCase):
         )
 
     def test_a_name_missing_from_the_dictionary_is_kept_as_it_is(self):
-        self.fake_post(
-            "local", segments_reply({"index": 1, "name": "Cefalee", "synonyms": ["headache"]})
-        )
+        self.fake_post(segments_reply({"index": 1, "name": "Cefalee", "synonyms": ["headache"]}))
         result = self.identify("durere de cap")
 
         self.assertEqual(
@@ -219,7 +200,7 @@ class IdentificationTests(ConditionAITestCase):
         )
 
     def test_nothing_identified_is_the_none_reason_without_a_fallback(self):
-        local = self.fake_post("local", segments_reply())
+        local = self.fake_post(segments_reply())
 
         result = self.identify("ce plante sunt bune?")
 
@@ -245,17 +226,17 @@ class IdentificationTests(ConditionAITestCase):
         self.assertEqual(condition_ai.with_ai_conditions(resolved, None), resolved)
 
     def test_the_request_numbers_the_segments_and_sends_the_system_prompt(self):
-        post = self.fake_post("local", segments_reply())
+        post = self.fake_post(segments_reply())
 
         self.identify("durere de cap,  ameteli ")
 
         payload = post.call_args.kwargs["json"]
-        self.assertEqual(payload["model"], base_settings.condition_ai_local_model)
+        self.assertEqual(payload["model"], base_settings.medical_condition_ai_local_model)
         self.assertEqual(payload["max_output_tokens"], base_settings.condition_ai_max_output_tokens)
         self.assertEqual(
             payload["input"][1], {"role": "user", "content": "1. durere de cap\n2. ameteli"}
         )
-        self.assertIn("DOAR", payload["input"][0]["content"])
+        self.assertEqual(payload["input"][0]["content"], condition_ai._system_prompt())
         self.assertEqual(
             payload["temperature"], 0.0
         )  # the small local model is asked without sampling noise
@@ -263,22 +244,22 @@ class IdentificationTests(ConditionAITestCase):
 
 class FailureTests(ConditionAITestCase):
     def test_invalid_json_is_an_error_not_an_exception(self):
-        self.fake_post("local", reply("nu e JSON"))
+        self.fake_post(reply("nu e JSON"))
 
         self.assertEqual(self.identify().reason, condition_ai.ERROR)
 
     def test_a_reply_of_the_wrong_shape_is_an_error(self):
-        self.fake_post("local", reply({"segments": "gripa"}))
+        self.fake_post(reply({"segments": "gripa"}))
 
         self.assertEqual(self.identify().reason, condition_ai.ERROR)
 
     def test_a_timeout_is_the_timeout_reason(self):
-        self.fake_post("local", httpx.ReadTimeout("slow"))
+        self.fake_post(httpx.ReadTimeout("slow"))
 
         self.assertEqual(self.identify().reason, condition_ai.TIMEOUT)
 
     def test_a_connection_error_is_an_error(self):
-        self.fake_post("local", httpx.ConnectError("refused"))
+        self.fake_post(httpx.ConnectError("refused"))
 
         result = self.identify()
 
@@ -293,7 +274,7 @@ class FailureTests(ConditionAITestCase):
         self.assertEqual(self.identify().reason, condition_ai.ERROR)
 
     def test_the_message_text_is_not_logged(self):
-        self.fake_post("local", segments_reply({"index": 1, "name": "Cefalee", "synonyms": []}))
+        self.fake_post(segments_reply({"index": 1, "name": "Cefalee", "synonyms": []}))
 
         with self.assertLogs("naturist.condition_ai", level="INFO") as captured:
             self.identify("am o durere secreta")
@@ -304,90 +285,29 @@ class FailureTests(ConditionAITestCase):
         self.assertNotIn("secreta", output)
 
 
-class DisabledTests(ConditionAITestCase):
-    backends = ()
-
-    def test_no_backend_means_the_step_is_disabled_and_no_request_is_made(self):
-        with patch.object(condition_ai, "_client", side_effect=AssertionError("no client")):
-            result = self.identify()
-
-        self.assertEqual((result.reason, result.answers), (condition_ai.DISABLED, ()))
-
-
-class NoTokenTests(ConditionAITestCase):
-    backends = ("huggingface",)
-
-    def test_hugging_face_without_a_token_is_no_token(self):
-        with patch.dict(os.environ, {"HF_TOKEN": ""}):
-            post = self.fake_post("huggingface")
-            result = self.identify()
-
-        self.assertEqual(result.reason, condition_ai.NO_TOKEN)
-        post.assert_not_called()
-
-    def test_hugging_face_sends_the_token_and_its_own_model(self):
-        post = self.fake_post("huggingface", segments_reply(HYPER))
-
-        result = self.identify()
-
-        self.assertEqual((result.reason, result.backend), (condition_ai.IDENTIFIED, "huggingface"))
-        self.assertEqual(
-            post.call_args.kwargs["headers"]["Authorization"], "Bearer synthetic-token"
-        )
-        self.assertEqual(
-            post.call_args.kwargs["json"]["model"], base_settings.condition_ai_hf_model
-        )
-        self.assertNotIn("temperature", post.call_args.kwargs["json"])
-        self.assertTrue(post.call_args.args[0].startswith(base_settings.hf_api_base))
-
-
-class FallbackTests(ConditionAITestCase):
-    backends = ("local", "huggingface")
-
-    def test_the_local_backend_answers_first_and_hugging_face_is_not_called(self):
-        local = self.fake_post("local", segments_reply(HYPER))
-        remote = self.fake_post("huggingface")
-
-        result = self.identify()
-
-        self.assertEqual(result.backend, "local")
-        self.assertEqual((local.call_count, remote.call_count), (1, 0))
-
-    def test_hugging_face_is_tried_when_the_local_backend_is_unavailable(self):
-        self.fake_post("local", httpx.ConnectError("refused"))
-        remote = self.fake_post("huggingface", segments_reply(HYPER))
-
-        result = self.identify()
-
-        self.assertEqual((result.reason, result.backend), (condition_ai.IDENTIFIED, "huggingface"))
-        self.assertEqual(remote.call_count, 1)
-
-    def test_hugging_face_is_tried_when_the_local_reply_is_not_valid_json(self):
-        self.fake_post("local", reply("nu e JSON"))
-        remote = self.fake_post("huggingface", segments_reply(HYPER))
-
-        self.assertEqual(self.identify().backend, "huggingface")
-        self.assertEqual(remote.call_count, 1)
-
-    def test_a_valid_nothing_found_from_the_local_backend_does_not_cost_a_remote_call(self):
-        self.fake_post("local", segments_reply())
-        remote = self.fake_post("huggingface")
-
-        result = self.identify("ce plante sunt bune?")
-
-        self.assertEqual(result.reason, condition_ai.NONE)
-        remote.assert_not_called()
-
-    def test_when_every_backend_fails_the_last_failure_is_the_reason(self):
-        self.fake_post("local", httpx.ReadTimeout("slow"))
-        self.fake_post("huggingface", reply("nu e JSON"))
-
-        self.assertEqual(self.identify().reason, condition_ai.ERROR)
+class NoFallbackTests(ConditionAITestCase):
+    def test_local_failures_do_not_contact_another_provider_or_retry(self):
+        for failure, reason in (
+            (httpx.ConnectError("refused"), condition_ai.ERROR),
+            (httpx.ReadTimeout("slow"), condition_ai.TIMEOUT),
+            (reply("invalid JSON"), condition_ai.ERROR),
+        ):
+            with self.subTest(reason=reason):
+                post = self.fake_post(failure)
+                result = self.identify()
+                self.assertEqual(
+                    (result.reason, result.backend, result.answers), (reason, "local", ())
+                )
+                post.assert_called_once()
+                self.assertEqual(
+                    post.call_args.args[0], base_settings.condition_ai_local_base + "/responses"
+                )
+                self.assertNotIn("Authorization", post.call_args.kwargs["headers"])
 
 
 class CacheTests(ConditionAITestCase):
     def test_free_text_is_not_cached_across_operations(self):
-        post = self.fake_post("local", segments_reply(HYPER), segments_reply())
+        post = self.fake_post(segments_reply(HYPER), segments_reply())
 
         first, second = self.identify(), self.identify()
 
@@ -396,7 +316,7 @@ class CacheTests(ConditionAITestCase):
         self.assertEqual(post.call_count, 2)
 
     def test_the_key_is_the_text_of_the_segments(self):
-        post = self.fake_post("local", segments_reply(HYPER), segments_reply())
+        post = self.fake_post(segments_reply(HYPER), segments_reply())
 
         self.identify("tiroida care merge prea repede")
         self.identify("ceva cu totul diferit")
@@ -404,7 +324,7 @@ class CacheTests(ConditionAITestCase):
         self.assertEqual(post.call_count, 2)
 
     def test_an_error_is_not_cached(self):
-        post = self.fake_post("local", httpx.ConnectError("refused"), segments_reply(HYPER))
+        post = self.fake_post(httpx.ConnectError("refused"), segments_reply(HYPER))
 
         self.assertEqual(self.identify().reason, condition_ai.ERROR)
         self.assertEqual(self.identify().reason, condition_ai.IDENTIFIED)

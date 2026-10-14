@@ -5,9 +5,8 @@ The segments of the message go to a small AI model, which answers, per segment,
 with a condition name and a few synonyms — the shape of one dictionary line. The
 answer becomes an ordinary `Condition` and its segment a `whole_condition`
 segment (with_ai_conditions()), so search, chat and PDF treat it exactly like a
-condition from the dictionary. Backends (CONDITION_AI_BACKENDS) are tried in
-order: a local Ollama model and/or the Hugging Face router. Any failure means
-"not identified"; it never breaks the search."""
+condition from the dictionary. Identification uses only the host Ollama model.
+Any failure means "not identified"; no other AI provider is contacted."""
 
 from __future__ import annotations
 
@@ -38,8 +37,6 @@ CACHE_SIZE = 128
 # Why the step ended the way it did (AIConditionResult.reason).
 IDENTIFIED = "identified"
 NONE = "none"
-DISABLED = "disabled"
-NO_TOKEN = "no_token"
 TIMEOUT = "timeout"
 ERROR = "error"
 
@@ -68,49 +65,34 @@ class _BackendFailure(Exception):
         self.reason = reason
 
 
-# The provider configuration of one backend; both speak the Responses API.
-def _provider(backend: str) -> ProviderConfig:
-    common = {
-        "reasoning_effort": None,
-        "json_format": None,
-        "send_store": False,
-        "max_context_chars": 0,
-        "max_output_tokens": settings.condition_ai_max_output_tokens,
-        "read_timeout_seconds": settings.condition_ai_timeout_seconds,
-        "stream": False,
-    }
-    if backend == "huggingface":
-        return ProviderConfig(
-            name="huggingface",
-            label="Hugging Face",
-            base_url=settings.hf_api_base,
-            model=settings.condition_ai_hf_model,
-            api_key=settings.hf_token,
-            api_key_env="HF_TOKEN",
-            api_key_required=True,
-            **common,
-        )
+# Local Ollama is the only provider for condition identification.
+def _provider() -> ProviderConfig:
     return ProviderConfig(
         name="ollama",
         label="Ollama (local)",
         base_url=settings.condition_ai_local_base,
-        model=settings.condition_ai_local_model,
+        model=settings.medical_condition_ai_local_model,
+        reasoning_effort="none",
         api_key=lambda: "",
         api_key_env="",
         api_key_required=False,
-        # A small model follows the JSON format far more reliably without sampling noise.
+        json_format=None,
+        send_store=False,
+        max_context_chars=0,
+        max_output_tokens=settings.condition_ai_max_output_tokens,
+        read_timeout_seconds=settings.condition_ai_timeout_seconds,
+        stream=False,
         temperature=0.0,
-        **common,
     )
 
 
-_clients: dict[tuple[str, str, str], ResponsesClient] = {}
+_clients: dict[tuple[str, str], ResponsesClient] = {}
 
 
-# One client per backend and endpoint, kept for the life of the process.
-def _client(backend: str) -> ResponsesClient:
-    provider = _provider(backend)
-    key = (backend, provider.base_url, provider.model)
+# Keep one local client per endpoint and model for the life of the process.
+def _client() -> ResponsesClient:
+    provider = _provider()
+    key = (provider.base_url, provider.model)
     if key not in _clients:
         _clients[key] = ResponsesClient(provider, replace(settings, ai_stream=False))
     return _clients[key]
@@ -163,14 +145,12 @@ def _validate(raw: Any, segment_count: int) -> tuple[dict[str, Any], ...]:
     return tuple(answers[index] for index in sorted(answers))
 
 
-# Ask one backend; raises _BackendFailure when it cannot give a valid answer.
-def _ask(backend: str, texts: tuple[str, ...]) -> tuple[dict[str, Any], ...]:
-    return _ask_client(_client(backend), texts)
+# Ask Ollama once; a failed request never triggers another provider.
+def _ask(texts: tuple[str, ...]) -> tuple[dict[str, Any], ...]:
+    return _ask_client(_client(), texts)
 
 
 def _ask_client(client: ResponsesClient, texts: tuple[str, ...]) -> tuple[dict[str, Any], ...]:
-    if not client.is_configured():
-        raise _BackendFailure(NO_TOKEN)
     try:
         raw = client.complete_json(
             _system_prompt(), _user_message(texts), client.provider.max_output_tokens
@@ -182,23 +162,6 @@ def _ask_client(client: ResponsesClient, texts: tuple[str, ...]) -> tuple[dict[s
         ) from exc
     except ValueError as exc:
         raise _BackendFailure(ERROR) from exc
-
-
-# The answer of the first backend that gives a valid one, with its name. A
-# backend that answers "nothing found" ends the search (no fallback for that);
-# only a failure moves on to the next, and the last failure is raised when
-# none answers. Free-text answers belong only to the requesting session/worker.
-def _identify(
-    backends: tuple[str, ...], texts: tuple[str, ...]
-) -> tuple[tuple[dict[str, Any], ...], str]:
-    failure: _BackendFailure | None = None
-    for backend in backends:
-        try:
-            return _ask(backend, texts), backend
-        except _BackendFailure as exc:
-            logger.warning("condition_ai_backend_failed backend=%s reason=%s", backend, exc.reason)
-            failure = exc
-    raise failure or _BackendFailure(DISABLED)
 
 
 # Forget every cached answer (tests).
@@ -219,24 +182,22 @@ def _dictionary_condition(terms: list[str] | tuple[str, ...]) -> Condition | Non
 
 
 # Identify the condition(s) the segments of `resolved` name by asking the AI
-# backends. Never raises: every failure is a result with its reason.
+# locally. Never raises: every failure is a result with its reason.
 def identify_conditions(resolved: ResolvedQuery) -> AIConditionResult:
-    backends = settings.condition_ai_backends
-    if not backends:
-        return AIConditionResult(reason=DISABLED)
     texts = tuple(segment.text for segment in resolved.segments)
     if not texts:
         return AIConditionResult(reason=NONE)
     started = time.perf_counter()
     try:
-        answers, backend = _identify(backends, texts)
+        answers = _ask(texts)
     except _BackendFailure as failure:
-        result = AIConditionResult(reason=failure.reason, backend=backends[-1])
+        logger.warning("condition_ai_backend_failed backend=local reason=%s", failure.reason)
+        result = AIConditionResult(reason=failure.reason, backend="local")
     except Exception:
         logger.error("condition_ai_unexpected_error")
         result = AIConditionResult(reason=ERROR)
     else:
-        result = AIConditionResult(answers, backend, IDENTIFIED if answers else NONE)
+        result = AIConditionResult(answers, "local", IDENTIFIED if answers else NONE)
     logger.info(
         "condition_ai_completed backend=%s reason=%s segments=%s identified=%s synonyms=%s mapped_to_dictionary=%s duration_ms=%s",
         result.backend or "-",
@@ -305,12 +266,10 @@ def resolved_for(profile: Any) -> ResolvedQuery:
 # One throwaway request so the first patient does not wait for the local model
 # to load. Only the local backend needs it; a failure is only logged.
 def warm_up() -> None:
-    if "local" not in settings.condition_ai_backends:
-        return
     # Cold CUDA/model initialization can exceed the interactive timeout. Keep
     # that allowance on a separate startup client, without changing patient requests.
     provider = replace(
-        _provider("local"), read_timeout_seconds=max(60, settings.condition_ai_timeout_seconds)
+        _provider(), read_timeout_seconds=max(60, settings.condition_ai_timeout_seconds)
     )
     client = ResponsesClient(provider, settings)
     try:
