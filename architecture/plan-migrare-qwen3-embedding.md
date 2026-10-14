@@ -235,7 +235,7 @@ indexul e5 actual. Fără acest fișier nu avem cu ce compara.
 **Pas 3. Suport pentru schimbarea modelului**
 - `ensure_schema(dimension)` cu migrarea de dimensiune (D3).
 - `build()`: resync complet când `model_name` diferă (D2).
-- `--model` documentat în `README.md` și `architecture/hybrid-index-generation.md`.
+- `--model` documentat în `README.md` și `architecture/hybrid-index-generation.xmind`.
 
 **Pas 4. Teste noi**
 - șabloanele Qwen: query cu instrucțiune, passage fără prefix;
@@ -259,7 +259,7 @@ comanda exactă când ajungem aici.
 - `docker-compose.yaml`: limita de memorie verificată; cache-ul modelului
   pre-populat în `data/model_cache` (montat deja), pentru că rularea e offline
   (`HF_HUB_OFFLINE=1`).
-- `README.md` și `architecture/hybrid-index-generation.md` actualizate.
+- `README.md` și `architecture/hybrid-index-generation.xmind` actualizate.
 
 **Pas 8. Curățenie (după 1–2 săptămâni fără probleme)**
 Ștergerea bazei e5 și eventual a profilului e5 din `PROFILES`.

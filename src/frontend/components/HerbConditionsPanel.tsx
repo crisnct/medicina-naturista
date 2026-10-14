@@ -18,7 +18,7 @@ export function HerbConditionsPanel({ message }: { message: HerbConditionsMessag
           </span>
         </h3>
       </div>
-      <p className="herb-association-note">Lista reflectă asocieri din sursele locale, inclusiv atenționări și contraindicații.</p>
+      <p className="herb-association-note">Lista reflectă asocieri din biblioteca naturistă, inclusiv atenționări și contraindicații.</p>
       {message.entriesCount === 0 ? (
         <p>Planta există în catalog, dar nu are afecțiuni asociate în indexul actual.</p>
       ) : (

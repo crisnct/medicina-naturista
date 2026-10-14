@@ -140,4 +140,4 @@ Aplicația este un server FastAPI (`src/backend/web/main.py`) cu o interfață R
 
 ---
 
-Căutarea și scorul fragmentelor sunt descrise în [fragment-search-and-scoring.md](fragment-search-and-scoring.md), iar generarea indexului în [hybrid-index-generation.md](hybrid-index-generation.md).
+Căutarea și scorul fragmentelor sunt descrise în [fragment-search-and-scoring.md](fragment-search-and-scoring.md), iar generarea indexului în [hybrid-index-generation.xmind](hybrid-index-generation.xmind).

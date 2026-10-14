@@ -85,7 +85,7 @@ Diagrama actualizată: [chatbot-external-connections.svg](architecture/chatbot-e
 
 | Document | Ce explică |
 |---|---|
-| 🧠 [Fluxul de generare a indexului hibrid](architecture/hybrid-index-generation.md) | Fluxul complet: documente → sincronizare incrementală (SHA-256) → fragmente R1/R2/D1 → embeddings → Postgres (`pgvector` + `tsvector`). |
+| 🧠 [Fluxul de generare a indexului hibrid (XMind 8)](architecture/hybrid-index-generation.xmind) | Fluxul complet: documente → sincronizare incrementală (SHA-256) → fragmente R1/R2/D1 → embeddings → Postgres (`pgvector` + `tsvector`). |
 | 📄 [Fluxul de generare a raportului final](architecture/final-report-generation.md) | Fluxul complet: mesaj → retrieval hibrid → fragmente afișate pacientului → „Generează raportul” (owner) → furnizorul AI → PDF → download și trimitere pe e-mail către altă persoană. |
 | 🔎 [Căutarea și scoringul fragmentelor](architecture/fragment-search-and-scoring.md) | Fluxul complet: mesaj → afecțiuni recunoscute → scor (`4·P1 + 2·P2 + L + V` cu toate semnalele alese) pentru toate fragmentele → procent de relevanță → limitarea contextului. |
 

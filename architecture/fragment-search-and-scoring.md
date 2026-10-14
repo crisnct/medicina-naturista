@@ -170,4 +170,4 @@ python src/scripts/evaluate_retrieval.py --output after.json
 
 ---
 
-Fluxul complet al raportului este descris în [final-report-generation.md](final-report-generation.md), iar generarea indexului în [hybrid-index-generation.md](hybrid-index-generation.md).
+Fluxul complet al raportului este descris în [final-report-generation.md](final-report-generation.md), iar generarea indexului în [hybrid-index-generation.xmind](hybrid-index-generation.xmind).

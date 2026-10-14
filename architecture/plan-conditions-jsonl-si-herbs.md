@@ -111,7 +111,7 @@ Planul are trei părți: **[Partea I — Decizii](#partea-i--decizii)**, **[Part
 - **5.5. Scripturi care citesc .txt-ul:**
   - `src/scripts/audit_conditions.py` și `src/scripts/audit_near_dupes.py` se adaptează la JSONL (citesc prin `parse_conditions()` în loc să despartă singure liniile);
   - **`src/scripts/conditions_work/` se șterge integral** (D11): ~90 de fișiere — loturile `01_…15_*.txt`, specificațiile `SPEC*.md` / `TASK_*.md`, `archive_folk/` și scripturile Python care citesc sau rescriu .txt-ul (inclusiv `coverage_probe.py` și `gaps_from_corpus.py`, care foloseau `load_dictionary()`). Rămân în istoria git.
-- **5.6. Documentație:** `README.md:296`, `architecture/fragment-search-and-scoring.md` (rândurile 13, 23, 40, 143), `architecture/hybrid-index-generation.md` (16, 49): calea nouă și structura JSONL. Planurile vechi din `architecture/` rămân cum sunt (descriu istoric).
+- **5.6. Documentație:** `README.md:296`, `architecture/fragment-search-and-scoring.md` (rândurile 13, 23, 40, 143), `architecture/hybrid-index-generation.xmind`: calea nouă și structura JSONL. Planurile vechi din `architecture/` rămân cum sunt (descriu istoric).
 - **5.7. Ștergere:** `data/medical_conditions.txt` se șterge după ce JSONL-ul trece round-trip-ul și testele.
 
 ### 6. Etapa E2 — loader-ul `herbs.py`
