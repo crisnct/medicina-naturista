@@ -25,7 +25,7 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 | 🧩 Componentă | Rol |
 |---|---|
 | **Index semantic** | Identifică fragmente apropiate ca sens cu vectori Qwen3-Embedding de 1024 de dimensiuni, stocați în Postgres (`pgvector`). |
-| **Index lexical** | Găsește expresiile căutate, ca fraze exacte, prin `tsvector` în Postgres. |
+| **Index lexical** | Găsește expresii cu termenii în aceeași ordine, prin `tsvector` în Postgres; folosește prefixe pentru flexiuni și sinonime când expresia întreagă este o afecțiune recunoscută. |
 | **Scor combinat** | Fiecare fragment primește un singur scor, din semnalele pe care pacientul le bifează în „Surse și opțiuni de căutare” (afecțiuni, lexical, semantic). Cu toate trei: `4·P1 + 2·P2 + L + V` (afecțiune în titlu › afecțiune în text › potrivire lexicală › potrivire semantică), calculat într-o singură interogare SQL. |
 | **Fragmentare pe afecțiuni** | Împarte documentele în fragmente R1 (afecțiunea în titlul capitolului), R2 (afecțiunea în textul capitolului) și D1 (restul textului), folosind catalogul de afecțiuni și sinonime din PostgreSQL. |
 | **Filtrare pe surse** | În același panou „Surse și opțiuni de căutare”, căutarea poate fi restrânsă la anumite foldere din `medicina-naturista-documente/data/documents/` (categoria unui document este folderul lui). |
@@ -64,7 +64,7 @@ Diagrama actualizată: [chatbot-external-connections.xmind](architecture/chatbot
 💬 recomandări în chat  +  📄 raport PDF  +  ✉️ e-mail opțional
 ```
 
-> **Local vs. extern:** documentele, fragmentarea, indexarea și retrieval-ul rulează local. Fragmentele selectate și descrierea problemei sunt trimise, după `AI_PROVIDER`, către xAI, direct către DeepSeek (api.deepseek.com, servere în China), către DeepInfra prin routerul Hugging Face sau către Ollama (Cloud, cu modelele `:cloud`) pentru redactarea raportului; politicile de retenție ale fiecărui furnizor rămân de verificat înainte de activare. Când dicționarul de afecțiuni nu recunoaște mesajul, acesta este trimis (doar textul mesajului) întâi unui model local Ollama și, dacă backendul local eșuează, routerului Hugging Face (`CONDITION_AI_BACKENDS`); varianta locală nu trimite nimic în afara mașinii. Livrarea prin Gmail este opțională.
+> **Local vs. extern:** documentele, fragmentarea, indexarea și retrieval-ul rulează local. Generarea trimite profilul consultației și fragmentele selectate către furnizorul configurat prin `AI_PROVIDER`. Ollama poate folosi un model local sau unul Cloud; modelul implicit de generare are sufixul `:cloud`. Identificarea unei afecțiuni necunoscute încearcă implicit Ollama local, apoi routerul Hugging Face (`CONDITION_AI_BACKENDS`); trimite numai mesajul. Pentru identificare exclusiv locală, setați `CONDITION_AI_BACKENDS=local`. Livrarea prin Gmail este opțională.
 
 ## 🛠️ Tehnologii folosite
 
@@ -94,7 +94,7 @@ Diagrama actualizată: [chatbot-external-connections.xmind](architecture/chatbot
 
 ```text
 medicina-naturista/
-├── architecture/                 # documentația fluxurilor principale și planurile de lucru (plan-*.md)
+├── architecture/                 # diagramele fluxurilor principale în format XMind
 ├── medicina-naturista-documente/
 │   └── data/
 │       └── documents/                # corpusul Markdown local
@@ -258,6 +258,8 @@ $env:PYTHONPATH = "src"
 
 Dacă ați sincronizat indexul la pasul 2, migrările sunt deja aplicate. Pentru mentenanța unei baze existente, le puteți executa separat cu `.\.venv\Scripts\python.exe -m scripts.migrate_database` (cu `PYTHONPATH=src`). Deschideți chatul la `http://127.0.0.1:7860/`, respectiv `http://127.0.0.1:7860/owner` pentru login/logout. Formularul trimite cheia prin `POST /api/owner/login`, cu CSRF; logoutul revocă tokenul prin `POST /api/owner/logout`. Cu prefixul public, formularul este `/medicina/owner` pe originea HTTPS configurată. Cheia nu trebuie pusă în URL sau în istoricul terminalului. Autorizarea rămâne valabilă peste restart până la logout sau rotația cheii. Ruta veche cu cheia în query rămâne doar pentru compatibilitate. `/healthz` verifică inclusiv configurarea furnizorului AI; `/readyz` adaugă verificarea disponibilității și compatibilității indexului.
 
+Pentru clasificarea mesajelor și identificarea locală a afecțiunilor, porniți Ollama pe `CONDITION_AI_LOCAL_BASE` (implicit `http://localhost:11434/v1`) și descărcați modelul o dată cu `ollama pull gemma3:1b`. Acest model este separat de furnizorul ales pentru generarea raportului.
+
 Pentru dezvoltarea interfeței cu reîncărcare automată, rulați `npm run dev` în `src/frontend/`: Vite servește interfața și trimite `/api`, `/healthz` și `/owner` către backend-ul de pe portul 7860.
 
 API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; documentația OpenAPI (`/docs`) este dezactivată. Cererile `/api/...` cu sesiune trimit antetul `X-Tab-Id` (identificatorul tabului).
@@ -272,7 +274,7 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 | `GET /api/session` | Creează sesiunea tabului și întoarce istoricul conversației. |
 | `GET /api/categories` | Arborele categoriilor (folderele surselor) și selecția implicită (toate). |
 | `POST /api/messages` | Salvează mesajul, categoriile și semnalele; întoarce `classifyMessage` și `contextRevision`. `messageId` opțional previne dublarea cererii. |
-| `POST /api/classify` | Clasifică prin Ollama local (`gemma3:1b`) și rutează spre remedii/planta/diverse/email_raport. Necesită `X-Context-Revision`. |
+| `POST /api/classify` | Aplică scurtăturile deterministe sau clasifică prin Ollama local; rutează spre `remedii`, `planta`, `top_plante`, `diverse` sau `email_raport`. Necesită `X-Context-Revision`. |
 | `POST /api/condition` | Identifică prin AI afecțiunea pe care dicționarul nu o cunoaște (`CONDITION_AI_BACKENDS`). |
 | `POST /api/search` | Rulează căutarea și întoarce fragmentele găsite și secțiunea „Generează raportul”. |
 | `POST /api/searches/{search_id}/generate` | Doar owner: trimite către AI fragmentele cu relevanța ≥ `minScore` și generează PDF-ul. |
@@ -281,42 +283,25 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 
 ## Sesiuni, retenție și autorizare owner
 
-[Documentația de operare](architecture/session-runtime.md) descrie limitele configurabile, codurile HTTP, migrarea, proxy-urile autorizate și contractul de anulare. Limitele sunt pe proces: rulați aplicația cu **un singur worker**. Datele medicale rămân temporare; tabela `owner_sessions` păstrează numai hashuri și metadata tehnică de revocare.
+- **Sesiuni:** conversațiile sunt separate pe tab. Implicit este permisă o singură sesiune activă per browser și per IP (`MAX_SESSIONS_PER_COOKIE=1`, `MAX_SESSIONS_PER_IP=1`); utilizatorii din aceeași rețea/NAT împart limita IP. Un tab sau browser suplimentar afișează blocarea și opțiunea „Verifică din nou”.
+- **Retenție:** istoricul, fragmentele și PDF-urile rămân în memoria procesului. Sesiunea expiră după o oră de inactivitate sau cel mult patru ore (`SESSION_IDLE_SECONDS`, `SESSION_MAX_SECONDS`). Închiderea paginii încearcă să închidă sesiunea; dacă notificarea nu ajunge la server, expirarea eliberează datele. Repornirea aplicației le elimină. Se păstrează cel mult 12 căutări și 12 rapoarte per sesiune, în limitele bugetelor de memorie.
+- **Owner:** setați `OWNER_KEY` și autentificați browserul prin formularul `/owner`. Generarea raportului este disponibilă numai unui browser autorizat. PostgreSQL păstrează hashul tokenului și date tehnice, fără conversații sau PDF-uri. Autorizarea supraviețuiește restartului; logoutul o revocă, iar schimbarea cheii invalidează tokenurile existente.
 
-Implicit este permisă o singură sesiune activă per adresă IP (`MAX_SESSIONS_PER_IP=1`), inclusiv între Edge și Chrome; persoanele din aceeași rețea/NAT împart această limită. Un al doilea tab/browser afișează mesajul explicit de blocare și „Verifică din nou”, fără să permită căutarea. Pentru tunelul ngrok existent prin proxy-ul JobsHunter, porniți normal cu `docker compose up -d`. Configurația include legătura Caddy cu rețeaua existentă `jobshunter-net` (`PUBLIC_PROXY_NETWORK` pentru alt nume); configurați allowlisturile IP conform documentației de operare.
+## Catalogul de plante
 
-Catalogul de plante este citit din PostgreSQL, cu ID-uri numerice stabile și lookup fără diferențe de caz/diacritice. Cache-ul se actualizează după conținutul complet al catalogului. Un catalog lipsă, gol sau invalid produce `HERB_CATALOG_UNAVAILABLE` (503). Ramura `planta` folosește catalogul și asocierile `herbs_benefits` pentru rezultate SQL; plantele nu modifică scorul sau fingerprintul indexului de embeddings. Asocierile au fingerprinturi proprii, verificate înaintea citirii rezultatelor.
+Catalogul și aliasurile sunt citite din PostgreSQL. Căutarea unei plante ignoră diferențele de caz, diacritice și cratime; un nume comun mai multor specii cere alegerea utilizatorului. Cererile „Top N plante” afișează clasamentul după numărul de afecțiuni asociate și denumirile regionale, fără generarea unui raport.
 
-Reindexarea populează automat și `herbs_benefits`, la finalul `build_hybrid_index.py`, după toate scrierile și ștergerile de fragmente. Migrarea `008_herbs_benefits.sql` creează coloanele `id`, `herb_id`, `medical_condition_id`, două chei externe cu ștergere în cascadă, indexul unic pe pereche și câte un index pe fiecare cheie. O asociere înseamnă coapariție în corpus: doar `primary_medical_conditions` (afecțiunile din titlul fragmentului) conține numele exact ori un sinonim al afecțiunii, iar `chunks.text` conține un nume complet al plantei. Sunt incluse numele românești, latine, englezești și toate aliasurile; majusculele și diacriticele sunt ignorate, iar punctuația și cratimele delimitează tokenuri. Numele comune păstrează toate speciile proprietare. Mențiunile negative și contraindicațiile participă la aceeași regulă de coapariție.
+`build_hybrid_index.py` reconstruiește automat asocierile `herbs_benefits` și clasamentul `herbs.ranking`. O asociere înseamnă că titlul fragmentului numește afecțiunea (`primary_medical_conditions`), iar textul menționează planta sau un alias. Mențiunile negative și contraindicațiile sunt incluse: asocierea nu dovedește un beneficiu terapeutic.
 
-Chatul acceptă cereri generale precum „Dă-mi top 20 plante care sunt cele mai utile”. Intenția `top_plante` citește primele N specii din `herbs`, în ordinea `ranking DESC, id`, și afișează `ro` plus aliasurile `herb_aliases.name` cu `kind='ro_regional'`. Diacriticele la afișare se restaurează numai pentru formele unice din dicționarul Hunspell `src/scripts/dictionaires/ro/ro_RO.dic` și flexiunile din `ro_RO.aff`; cuvintele ambigue sau necunoscute rămân cum sunt în baza de date. Nu se apelează AI pentru diacritice și catalogul nu este modificat. Fără număr se cere o clarificare (1–10000). Nu se generează raport; cererile pentru o afecțiune rămân în fluxul de remedii. `ranking` este numărul distinct de afecțiuni asociate exclusiv prin `primary_medical_conditions`. Coloana este creată prin `010_herbs_ranking.sql` și recalculată automat în aceeași tranzacție cu reconstruirea asocierilor, inclusiv la zero. Versiunea 2 a indexului de plante forțează reconstruirea asocierilor vechi la următoarea reindexare, fără re-embedding pentru documentele neschimbate. `secondary_medical_conditions` rămâne folosită la căutarea fragmentelor, dar nu participă la asocierile și rankingul plantelor.
-
-Indexerul parcurge fragmentele o singură dată, folosind Aho–Corasick (`pyahocorasick`) și 2 procese CPU pornite prin `spawn`; fiecare matcher este pregătit înaintea tranzacției de publicare. Numărul este definit numai în `HERBS_INDEX_WORKERS`, independent de embeddings. Procesul principal citește PostgreSQL și scrie loturi prin COPY. Bitmapurile per plantă au un buget implicit de 64 MiB; peste buget, deduplicarea folosește buffere limitate și PostgreSQL. Taskurile au limite separate pentru text, rezultate și memoria aflată în tranzit. Fragmentele foarte mari sunt procesate integral, individual.
-
-Publicarea modifică numai perechile adăugate sau eliminate și păstrează ID-urile perechilor existente. Documentele, fragmentele, asocierile și metadatele se publică în aceeași tranzacție; orice eroare produce rollback. Fingerprinturile cataloagelor includ ID-urile și termenii relevanți. Cele cinci chei `herbs_benefits_*` din `sync_metadata` păstrează versiunea, generația fragmentelor, fingerprinturile și numărul de rânduri. La intrări identice se verifică metadatele și numărul de asocieri, apoi se păstrează perechile fără scanare sau pornirea proceselor. Schimbarea exclusivă a unui alias de plantă reconstruiește asocierile și păstrează embeddings existente.
-
-Pentru refacerea explicită a asocierilor, inclusiv după modificări directe ale datelor:
+Asocierile se publică în aceeași tranzacție cu indexul. Schimbarea exclusivă a aliasurilor plantelor reconstruiește asocierile fără recalcularea embeddings pentru documentele neschimbate. Pentru refacere explicită sau audit:
 
 ```powershell
 $env:PYTHONPATH = 'src'
 .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --rebuild-herbs
-```
-
-Opțiunea este transmisă explicit prin `build(..., rebuild_herbs=True)` și forțează numai etapa asocierilor. Progresul raportează fragmente finalizate, caractere, taskuri active, perechi candidate, durată și ETA; succesul final este afișat după commit. Builderul limitează așteptarea lockurilor la 60 de secunde și interogările etapei de publicare la 10 minute, pe conexiunea sa dedicată. Diagnosticul include etapa, excepția și tracebackul cu datele conexiunii eliminate.
-
-Benchmarkul reproductibil este în `src/tests/benchmarks/herbs_index_benchmark.py`, cu raportul local [tmp/herbs-index-benchmark.md](tmp/herbs-index-benchmark.md) și măsurătorile detaliate în JSON. Se rulează cu `PYTHONPATH=src` și `HERBS_BENCHMARK_DATABASE_URL` către o bază temporară al cărei nume începe cu `herbs_index_benchmark`; scriptul citește baza configurată în `.env` într-un snapshot read-only și copiază numai cataloagele și coloanele necesare ale fragmentelor. Compară trei repetări pentru 1/2/4/8/16 procese, matcherul Python/native, prima populare, reconstruirea identică, traseul rapid, modificări de corpus/catalog și deduplicarea în DB. Timpii exclud calcularea embeddings.
-
-Comparația finală pe 10.777 de fragmente, cu loturi de 2.000 de fragmente și COPY de 50.000 de perechi, a alternat trei rulări pentru fiecare variantă: mediana a fost 7,609 s cu 4 procese și 10,515 s cu 8. Rezultatul a fost identic: 105.837 de perechi. În comparațiile ulterioare pe o bază temporară recreată, 1 proces a avut mediana 5,594 s (controlul cu 4: 5,656 s), iar 2 procese au avut 5,031 s (controlul cu 4: 5,766 s). Fiecare variantă a avut trei rulări alternante cu 4 și rezultat identic. Defaultul final este `HERBS_INDEX_WORKERS = 2`, conform alegerii utilizatorului; timpii din runde separate se interpretează față de controlul propriu. Opțiunea de benchmark `--four-vs-eight` repetă comparația pe snapshotul temporar deja creat.
-
-Pentru upgradeul unei baze existente, fără recalcularea embeddings:
-
-```powershell
-$env:PYTHONPATH = 'src'
-.\.venv\Scripts\python.exe -m scripts.migrate_database
 .\.venv\Scripts\python.exe -m scripts.audit_herbs
 ```
 
-Migrările `006_herbs.sql` și `007_seed_herbs.sql` reconstruiesc cele 1.188 de specii și 3.134 de aliasuri inițiale. Runnerul validează ambele cataloage înainte de commit; la eroare anulează toate versiunile noi. Pentru completări sau corecții se adaugă migrări noi, păstrând ID-urile existente. Generatorul conversiei inițiale `python -m scripts.convert_herbs_to_sql --source <sursa.jsonl> --output <seed.sql>` validează o sursă explicită, convertește numai în lowercase și refuză suprascrierea. `--check` validează fără scriere. Seed-ul inițial nu se reexecută pe o bază populată; corecțiile existente se scriu explicit în migrări noi. Sursa conversiei inițiale nu este o dependență runtime, de reindexare sau de distribuție.
+Completările și corecțiile cataloagelor se fac prin migrări SQL noi în `src/backend/migrations/`, păstrând ID-urile existente. Catalogul lipsă sau invalid și asocierile nesincronizate blochează rezultatele despre plante cu o eroare explicită (`503`).
 
 ## 📦 Schema indexului hibrid (Postgres)
 
@@ -327,7 +312,7 @@ Tabelele principale ale indexului, catalogului și migrărilor sunt:
 | `documents` | Un rând per fișier sursă: cale, SHA-256, codificare, număr de linii; categoria (folderul) este o coloană generată din cale. Folosit și pentru a decide ce fișiere sar la sincronizarea următoare. |
 | `medical_conditions` | Numai `id` și `name`: o înregistrare pentru fiecare afecțiune. |
 | `medical_condition_synonyms` | Numai `id`, `medical_condition_id` și `synonym`: sinonimele legate prin FK de afecțiune. |
-| `herbs` | Coloane `id, family, latin, ro, en`; ID numeric identity, toate denumirile/familiile lowercase. Numele populare pot fi comune mai multor specii. |
+| `herbs` | Coloane `id, family, latin, ro, en, ranking`; ID numeric identity, denumiri/familii lowercase. `ranking` numără afecțiunile distincte asociate din titlurile fragmentelor. Numele populare pot fi comune mai multor specii. |
 | `herb_aliases` | Coloane `id, herb_id, name, kind`; aliasuri lowercase, FK cu ștergere în cascadă, tipuri `ro_regional`, `latin_synonyms`, `en_alt`. |
 | `herbs_benefits` | Asocieri derivate din coapariția în corpus: `id, herb_id, medical_condition_id`; pereche unică, FK cu ștergere în cascadă și indecși individuali. Publicate atomic la finalul reindexării. |
 | `schema_migrations` | Ledgerul migrărilor SQL aplicate o singură dată. |
@@ -389,7 +374,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `XAI_API_BASE` | `https://api.x.ai/v1` | URL-ul de bază al API-ului xAI. |
 | `HF_TOKEN` | — | Token Hugging Face cu permisiunea „Make calls to Inference Providers”; necesar cu `AI_PROVIDER=huggingface` sau pentru identificarea afecțiunii prin backendul `huggingface`. |
 | `HF_MODEL` | `deepseek-ai/DeepSeek-V4-Flash:deepinfra` | Modelul prin routerul HF; sufixul `:deepinfra` fixează furnizorul. |
-| `HF_API_BASE` | `https://router.huggingface.co/v1` | URL-ul de bază al routerului HF (Responses API, beta). |
+| `HF_API_BASE` | `https://router.huggingface.co/v1` | URL-ul de bază al routerului HF; clientul apelează ruta `/responses`. |
 | `HF_REASONING_EFFORT` | _(gol)_ | `low`/`medium`/`high`; se trimite doar dacă este setat. |
 | `HF_MAX_CONTEXT_CHARS` | `120000` | Bugetul de caractere al fragmentelor pentru `AI_PROVIDER=huggingface`; nu reprezintă o limită de tokeni garantată de furnizor. |
 | `DEEPSEEK_API_KEY` | — | Cheia API de pe platform.deepseek.com (necesară cu `AI_PROVIDER=deepseek`). |
@@ -422,7 +407,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `SESSION_TEMP_DIR` | `var/sessions` (Windows) / `/tmp/naturist-sessions` | Directorul fișierelor temporare ale sesiunilor. |
 | `MAX_CHAT_CHARS` | `4000` | Lungimea maximă a mesajului utilizatorului. |
 | `X_AI_MAX_CONTEXT_CHARS` | `1000000` | Bugetul (în caractere de text al fragmentelor) pentru `AI_PROVIDER=xai`: fragmentele afișate și trimise către AI. Toate fragmentele primesc scor, se ordonează descrescător, iar cele de la coadă care nu încap sunt eliminate întregi, nu trunchiate. Nu există un prag de relevanță separat și nici o limită de candidați per semnal. |
-| `MAX_REQUESTS_PER_MINUTE` | `60` | Limita de cereri `POST`/`PUT`/`DELETE` către `/api/` acceptate într-un minut, pe IP. |
+| `MAX_REQUESTS_PER_MINUTE` | `60` | Limita de cereri `POST`/`PUT`/`PATCH`/`DELETE` către `/api/`, pe minut și IP; loginul owner are o limită separată. |
 | `SESSION_IDLE_SECONDS` | `3600` | Expirarea unei sesiuni inactive. |
 | `SESSION_MAX_SECONDS` | `14400` | Durata maximă a unei sesiuni. |
 | `MAX_ACTIVE_SESSIONS` | `100` | Numărul maxim de sesiuni în proces. |
@@ -475,13 +460,13 @@ Dacă Google respinge reîmprospătarea cu `invalid_grant`, verificați mai înt
 
 - 🔒 `.env` și cache-ul modelului sunt ignorate de Git; indexul locuiește în Postgres, nu în fișiere din repo.
 - 🧭 fiecare fragment rămâne legat de fișierul și liniile sursă;
-- 🧹 conversațiile și PDF-urile stau doar în memorie, separate pe tab, și sunt eliminate la închiderea paginii, la expirare sau la repornirea aplicației; nicio informație medicală a pacientului nu se scrie în baza de date;
+- 🧹 conversațiile și PDF-urile stau doar în memoria procesului, separate pe tab; închiderea notificată serverului, expirarea sau repornirea le elimină. Nicio informație medicală a pacientului nu se scrie în baza de date;
 - 🚫 requesturile xAI folosesc `store=false` (pentru DeepSeek, Hugging Face și Ollama parametrul nu se trimite; se aplică politicile lor de retenție);
 - 🩺 răspunsurile sunt informative și trebuie verificate medical înainte de utilizare.
 
 ## 🧪 Testare
 
-Comenzile se execută din rădăcina proiectului. Rezultatele validării planului 04 din 11 octombrie 2026 și verificările rămase sunt în [architecture/plan04-implementation.md](architecture/plan04-implementation.md).
+Comenzile se execută din rădăcina proiectului.
 
 Instalați uneltele de dezvoltare în mediul CPU (nu în `.venv-gpu`):
 
@@ -555,58 +540,35 @@ Pentru un index real, pregătiți local 30 de cazuri cu hashuri din acel corpus,
 
 Raportul include Recall@50 din fragmentele relevante etichetate, nDCG@10 cu grade 0–3, numărul rezultatelor etichetate ca irelevante în top 10, fragmentele fără etichetă în top 10 și acoperirea atenționărilor așteptate în top 50. Comparația refuză corpusuri/cazuri/configurații diferite și raportează regresii pe fiecare caz, cu exit code 2. O nouă generație a aceluiași conținut poate fi comparată. Aceste metrici nu validează clinic sursele.
 
-### Operare și limite
+## Operare și limite
 
-`MAX_CONCURRENT_SEARCHES=2` și `MAX_CONCURRENT_GENERATIONS=1` plafonează operațiile per proces (un worker Uvicorn). Excesul primește 429; aceeași căutare deja în generare primește 409. `OPERATION_TIMEOUT_SECONDS=600` limitează durata totală acceptată a operației, inclusiv AI, validare, PDF și publicare. Nu există retry automat. Emailul este o operație separată.
+Rulați aplicația cu **un singur worker Uvicorn**: sesiunile și limitele sunt gestionate în memoria procesului. Implicit sunt permise două căutări și o generare simultană (`MAX_CONCURRENT_SEARCHES=2`, `MAX_CONCURRENT_GENERATIONS=1`). Depășirea limitelor produce `429`; o operație deja în curs pe același context poate produce `409`.
 
-Un apel extern deja trimis poate continua până la timeout/terminare, însă rezultatul tardiv este abandonat; capacitatea rămâne ocupată cât workerul încă rulează. Căutarea rămâne disponibilă pentru reîncercare explicită. Închiderea sesiunii anulează dreptul de publicare.
+Operațiile au un buget total de 600 de secunde (`OPERATION_TIMEOUT_SECONDS`), fără reîncercare automată. După expirare sau închiderea sesiunii, rezultatele tardive sunt abandonate; un apel deja pornit poate continua, ocupând capacitatea până la terminare.
 
-`DEPLOYMENT_PROFILE=local` este implicit. Profilul `public` cere `PUBLIC_ORIGIN=https://...`, `COOKIE_SECURE=true` și logare de conținut dezactivată. `LOG_FRAGMENT_TEXT` și `LOG_AI_RESPONSE_TEXT` sunt false implicit la pornirea directă, dar Compose setează `LOG_FRAGMENT_TEXT=true` dacă nu este suprascris. `DEPLOYMENT_PROFILE` nu este transmis de actualul fișier Compose: pentru profilul `public`, adăugați-l explicit în `app.environment` și dezactivați ambele opțiuni de logare. `/readyz` verifică deja indexul; configurarea proxy-urilor este descrisă în documentația de operare.
+Folosiți `/healthz` pentru configurația AI și `/readyz` pentru disponibilitatea indexului. Reindexarea creează baza lipsă și aplică migrările; aplicația web nu le execută la pornire. În timpul sincronizării indexului, căutarea poate răspunde `503`; un eșec păstrează generația anterioară.
 
-Reindexarea creează baza lipsă și execută migrările înainte de fragmentare; aplicația web nu aplică migrări la startup; rebuildul indexului are lock de mentenanță și păstrează generația anterioară la eșec. Diagnosticul folosește `/readyz` și codurile erorilor, fără ștergeri manuale ale indexului:
-
-```powershell
-$env:PYTHONPATH = "src"
-.\.venv\Scripts\python.exe -m scripts.build_hybrid_index
-```
-
-Starea implementării și pașii de verificare manuală sunt în [architecture/plan04-implementation.md](architecture/plan04-implementation.md).
+Pentru expunere publică, setați `DEPLOYMENT_PROFILE=public`, `PUBLIC_ORIGIN=https://...`, `COOKIE_SECURE=true`, `LOG_FRAGMENT_TEXT=false` și `LOG_AI_RESPONSE_TEXT=false`. În Compose, adăugați explicit `DEPLOYMENT_PROFILE` în `app.environment`; simpla adăugare în `.env` nu îl transmite containerului. Configurați proxy-urile autorizate prin `FORWARDED_ALLOW_IPS` (Uvicorn) și `CADDY_TRUSTED_PROXY_IPS` (Caddy).
 
 ## Extragerea PDF în Markdown
 
-`src/scripts/extract_pdf_markdown.py` extrage textul local și reconstruiește titlurile
-din semnele de carte, numerotare, dimensiunea fonturilor și spațiere. Prima pagină
-este inclusă; nu există reguli specifice unei anumite cărți. Ordinea de citire se
-adaptează la una, două sau trei coloane. Reperele `<!-- Pagina PDF N -->` păstrează
-legătura cu sursa.
-
-Instalați dependențele opționale în mediul virtual:
+`src/scripts/extract_pdf_markdown.py` convertește local PDF-uri în Markdown, deduce titlurile și ordinea de citire și păstrează reperele `<!-- Pagina PDF N -->`. Instalați dependențele opționale, apoi rulați conversia:
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -e ".[pdf]"
-```
-
-Pentru scanări fără strat de text este necesar și programul Tesseract, cu limbile
-`ron` și `eng`. Este detectat din PATH sau din `C:\Program Files\Tesseract-OCR`;
-puteți indica altă instalare prin `--tesseract-cmd`.
-
-```powershell
 .\.venv\Scripts\python.exe src\scripts\extract_pdf_markdown.py "carte.pdf" -o "carte.md" --report "carte.extraction.json"
 ```
 
-Implicit, `--ocr auto` citește textul existent și folosește OCR numai pentru pagini
-fără text. `--ocr always` recitește toate paginile din imagini, iar `--ocr never`
-dezactivează OCR. `--deskew auto` corectează coordonatele textului sau imaginea
-scanată pentru înclinări de până la ±30°; `--deskew off` dezactivează corecția.
-`--columns auto` poate fi înlocuit cu `1`, `2` sau `3` pentru documente ambigue.
-`--start-page` și `--end-page` permit verificarea unui interval înainte de conversia
-completă. Raportul JSON include unghiul estimat, numărul de coloane, metoda de
-extragere și paginile fără text. Ieșirea Markdown este înlocuită numai după o
-extragere reușită.
+Implicit, textul existent este păstrat, OCR se aplică numai paginilor fără text, iar coloanele și înclinarea sunt detectate automat. OCR necesită Tesseract cu limbile `ron` și `eng`, disponibil în PATH sau în `C:\Program Files\Tesseract-OCR`; altă instalare se indică prin `--tesseract-cmd`.
 
-Ierarhia este euristică: fonturile uniforme din OCR, paginile cu orientări mixte,
-tabelele complexe și scanările degradate pot necesita verificare manuală.
-Extractorul păstrează grafia sursei și nu corectează semantic erorile OCR.
+Opțiuni utile:
+
+- `--start-page N --end-page N`: conversia unui interval de pagini.
+- `--ocr always|never`: forțarea sau dezactivarea OCR.
+- `--columns 1|2|3` și `--deskew off`: control manual pentru documente ambigue.
+- `--help`: lista completă a opțiunilor.
+
+Raportul JSON descrie extragerea și avertismentele pe pagină. Markdown-ul existent este înlocuit după finalizarea extragerii. Verificați titlurile, tabelele și scanările degradate: structura este dedusă euristic, iar erorile OCR nu sunt corectate semantic.
 
 ## 📜 Licență
 
