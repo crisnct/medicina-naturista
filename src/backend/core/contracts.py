@@ -94,6 +94,7 @@ LookupHerb = Callable[[str], HerbLookupResult]
 
 class RankedHerb(TypedDict):
     ro: str
+    latin: str
     ro_regional: list[str]
     ranking: int
 

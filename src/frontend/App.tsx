@@ -27,9 +27,9 @@ export function App() {
     };
   }, []);
 
-  const handleSend = (message: string) => {
+  const handleSend = (message: string, onAccepted: () => void) => {
     conversation.clearBanner();
-    conversation.sendMessage(message, Array.from(categories.selected), searchSignals.signals);
+    conversation.sendMessage(message, Array.from(categories.selected), searchSignals.signals, onAccepted);
   };
 
   return (
@@ -46,15 +46,22 @@ export function App() {
         ) : (
           <ChatHistory
             history={conversation.history}
-            pending={conversation.isClassifying || conversation.isSearching || conversation.isGenerating}
-            pendingLabel={conversation.isClassifying ? "Clasificare mesaj…" : undefined}
+            pending={conversation.isSending}
+            pendingLabel={conversation.isClassifying ? "Înțeleg întrebarea…" : conversation.isSearching ? "Caut informații în bibliotecă…" : "Trimit mesajul…"}
             onGenerate={conversation.generateReport}
+            actionsDisabled={conversation.needsSessionRecovery || conversation.isReconnecting || conversation.isSending || conversation.isGenerating}
+            generationFeedback={conversation.generationFeedback}
           />
         )}
         <OwnerNotice message={conversation.banner} />
+        {conversation.needsSessionRecovery && (
+          <button type="button" className="secondary-button" disabled={conversation.isReconnecting} onClick={conversation.reconnectSession}>
+            {conversation.isReconnecting ? "Reconectez sesiunea…" : "Reconectează sesiunea"}
+          </button>
+        )}
         {!conversation.isError && (
           <>
-            <Composer disabled={conversation.isLoading || conversation.isSending} processing={conversation.isSending} onSend={handleSend} />
+            <Composer disabled={conversation.isLoading || conversation.isSending || conversation.isGenerating || conversation.needsSessionRecovery || conversation.isReconnecting} processing={conversation.isSending} onSend={handleSend} />
             <CategoryFilterPanel
               tree={categories.tree}
               selected={categories.selected}
@@ -64,6 +71,12 @@ export function App() {
             />
           </>
         )}
+        <footer className="source-notice">
+          <aside className="source-information" aria-labelledby="source-information-title">
+            <h3 id="source-information-title">ℹ️ Despre surse și utilizarea datelor</h3>
+            <p>Căutarea folosește cărțile și documentele din biblioteca naturistă. Pentru înțelegerea întrebării și redactarea raportului, aplicația poate trimite mesajele și fragmentele selectate unor furnizori AI externi.</p>
+          </aside>
+        </footer>
       </div>
     </div>
   );

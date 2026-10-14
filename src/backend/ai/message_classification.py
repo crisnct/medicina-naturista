@@ -129,6 +129,55 @@ def explicit_herb_top(message: str, context: dict[str, object]) -> MessageClassi
     return MessageClassification(intent="top_plante", top_count=count)
 
 
+def complete_general_question(message: str) -> bool:
+    """Recognize a named informational subject without authorizing another action."""
+    normalized = _normalize(message)
+    match = re.fullmatch(
+        r"(?:(?:te|va) rog )?"
+        r"(?:(?:spune mi(?: tot ce stii)?|ce (?:stii|imi poti spune)|"
+        r"(?:vreau|doresc|as vrea) (?:informatii|detalii)|informatii|detalii) despre|"
+        r"despre|cine (?:este|a fost)|cum functioneaza) (.+)",
+        normalized,
+    )
+    if match is None or "@" in message or re.search(r"[;\n]", message):
+        return False
+    subject = match[1].strip()
+    if subject in {"asta", "acesta", "aceasta", "ceva", "el", "ea", "ei", "ele"}:
+        return False
+    # Incomplete plant/remedy requests and compound commands still need the
+    # model's clarification; a general question never authorizes an email.
+    return not re.search(
+        r"\b(planta|plante|remediu|remedii|tratament|tratamente|afectiune|boala|"
+        r"trimite|email|mail|raport|top|cauta|recomanda)\b",
+        subject,
+    )
+
+
+def explicit_herb_request(message: str, catalog: HerbCatalog) -> MessageClassification | None:
+    """Resolve a request about a catalog plant without relying on a model label."""
+    if catalog.lookup(message):
+        return MessageClassification(intent="planta", herb_name=message.strip())
+    normalized = _normalize(message)
+    match = re.fullmatch(
+        r"(?:(?:te|va) rog )?"
+        r"(?:(?:spune mi(?: tot ce stii)?|ce (?:stii|imi poti spune)|"
+        r"(?:vreau|doresc|as vrea) (?:informatii|detalii)|informatii|detalii) despre|"
+        r"despre|la ce (?:e|este|sunt) (?:bun|buna|bune)) (.+)",
+        normalized,
+    )
+    if match is None:
+        return None
+    subject = match[1]
+    names = catalog.mentioned_names(subject)
+    if len(names) == 1 and re.fullmatch(
+        rf"(?:planta )?{re.escape(names[0])}(?:ului|ul)?(?: te rog)?", subject
+    ):
+        # A shared name reaches the existing species-selection flow instead of
+        # arbitrarily choosing one plant from the catalog.
+        return MessageClassification(intent="planta", herb_name=names[0])
+    return None
+
+
 class MessageClassifier:
     def __init__(
         self, settings: Settings, herb_catalog: Callable[[], HerbCatalog] | None = None
@@ -215,6 +264,13 @@ class MessageClassifier:
                     candidates = sorted({herb.ro for herb in catalog.mentions(message)})
                 except HerbCatalogUnavailable:
                     logger.warning("classification_catalog_unavailable")
+            named_request = explicit_herb_request(message, catalog) if catalog is not None else None
+            if named_request is not None:
+                logger.info(
+                    "message_classified intent=planta needs_clarification=false source=catalog duration_ms=%s",
+                    round((time.monotonic() - started) * 1000),
+                )
+                return named_request
             context = {**context, "recognized_herbs": candidates[:10]}
             raw = self.client.complete_json(
                 self.prompt,
@@ -272,6 +328,16 @@ class MessageClassifier:
                             "herb_name": candidates[0] if len(candidates) == 1 else named_tokens[0],
                             "needs_clarification": False,
                         }
+            if (
+                isinstance(raw, dict)
+                and raw.get("intent") == "diverse"
+                and raw.get("needs_clarification") is True
+                and not candidates
+                and complete_general_question(message)
+            ):
+                # A complete general question needs no missing plant, condition
+                # or answer from the classifier before retrieval can start.
+                raw = {**raw, "needs_clarification": False}
             result = MessageClassification.model_validate(raw)
             logger.info(
                 "message_classified intent=%s needs_clarification=%s source=model duration_ms=%s",

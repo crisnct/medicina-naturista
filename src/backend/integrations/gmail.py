@@ -29,6 +29,10 @@ EMAIL_SKIPPED = "email_skipped"
 EMAIL_SENT = "email_sent"
 
 
+class GmailAuthorizationError(RuntimeError):
+    """The stored Gmail grant is invalid; delivery requires owner reauthorization."""
+
+
 @dataclass(frozen=True)
 class MailConfig:
     """Resolved Gmail OAuth2 configuration without exposing secret values."""
@@ -143,6 +147,8 @@ def _refresh_access_token(
         oauth_code = _oauth_error_code(exc)
         if oauth_code:
             error = RuntimeError(f"{error} ({oauth_code})")
+        if oauth_code == "invalid_grant":
+            raise GmailAuthorizationError(str(error)) from exc
         raise error from exc
     except (URLError, TimeoutError, OSError) as exc:
         raise RuntimeError("Google OAuth token refresh could not connect") from exc

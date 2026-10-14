@@ -12,12 +12,10 @@ from typing import Any
 from backend.ai.search import ALL_SIGNALS, SearchSignals
 from backend.core.contracts import Evidence, IdentifiedCondition, ProfilePayload, TranscriptEntry
 
-HEALTH_PROBLEM_QUESTION = """
-Bine ați venit în cabinetul meu virtual.  
-Folosesc o bibliotecă proprie de cărți și documente de medicină naturistă și caut în ele informațiile relevante pentru situația dumneavoastră. Nu caut remedii pe internet și nu folosesc surse externe.  
-Recomandările au rol informativ și adjuvant.  
-Cu ce problemă de sănătate vă confruntați sau despre ce plantă doriți informații? Puteți pune și alte întrebări despre sursele locale.
-"""
+HEALTH_PROBLEM_QUESTION = (
+    "Descrieți problema de sănătate sau întrebați despre o plantă. "
+    "Puteți scrie în cuvintele dumneavoastră."
+)
 
 
 @dataclass
@@ -101,7 +99,7 @@ MAX_KEPT_REPORTS = 12
 
 @dataclass
 class PendingSearch:
-    """Fragments found for one health problem, waiting for "Generează rețeta"."""
+    """Retained evidence for reviewing and generating reports for one health problem."""
 
     profile: ProfilePayload
     evidence: Evidence
@@ -146,6 +144,7 @@ class SessionData:
     directory: Path
     client_ip: str = "unknown"
     lifetime_id: str = field(default_factory=lambda: secrets.token_urlsafe(24))
+    active_page_id: str | None = None
     closed: bool = False
     context_revision: int = 0
     retained_bytes: int = 0
@@ -161,10 +160,10 @@ class SessionData:
     report_bytes: bytes | None = None
     report_id: str | None = None
     # Evidence found by the retrieval-only stage, shown to the patient before
-    # they choose to send it to the AI. Consumed (not recomputed) by report
-    # generation, so the fragments the patient reviewed are exactly the ones sent.
+    # they choose to send it to the AI. Reused (not recomputed) by report
+    # generation and retained afterwards for reviewing or generating another report.
     # One entry per search shown in the chat, keyed by the id carried by its
-    # "Generează rețeta" section, so several searches can wait at the same time.
+    # "Generează raportul" section, so several searches remain available at the same time.
     searches: dict[str, PendingSearch] = field(default_factory=dict)
     # Every generated PDF, keyed by report id; report_bytes/report_id above
     # always point at the latest one (used when the patient asks for it by email).

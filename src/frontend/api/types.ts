@@ -11,11 +11,15 @@ export interface TextMessage extends MessageIdentity {
   kind: "text";
   role: "user" | "assistant";
   content: string;
+  // Generation failures render only in their search's action panel.
+  generationSearchId?: string;
 }
 
 export interface FragmentItem {
   document: string;
   text: string;
+  // Original evidence text length, before display whitespace normalization.
+  charactersCount?: number;
   relevancePercent: number | null;
   semanticScore: number | null;
   lexicalScore: number | null;
@@ -25,7 +29,7 @@ export interface FragmentItem {
   foundByLexical: boolean;
 }
 
-// The signals a search's score is made of (chosen in the "Căutare avansată" panel).
+// The signals a search's score is made of (chosen in the "Surse și opțiuni de căutare" panel).
 export interface SearchSignals {
   conditions: boolean;
   lexical: boolean;
@@ -83,6 +87,7 @@ export interface CategoryNode {
 
 export interface SessionResponse {
   history: ChatMessage[];
+  latestReportId?: string | null;
 }
 
 export interface CategoriesResponse {

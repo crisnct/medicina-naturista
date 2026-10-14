@@ -2,7 +2,7 @@
 
 Every chat message is a small JSON-serializable dict, distinguished by its
 "kind": "text" (plain assistant/user text), "fragments" (the retrieval
-results shown before generation), "generate" (the "Generează rețeta" call to
+results shown before generation), "generate" (the "Generează raportul" call to
 action for one search) or "download" (the finished PDF link). The frontend
 renders each kind as its own component; nothing here produces HTML.
 """
@@ -32,10 +32,10 @@ def text(role: str, content: str) -> dict[str, Any]:
     return {"role": role, "kind": "text", "content": content}
 
 
-GENERATE_LABEL = "💊 Generează rețeta"
+GENERATE_LABEL = "📄 Generează raportul"
 
 
-# Build the "Generează rețeta" call-to-action message for one search.
+# Build the "Generează raportul" call-to-action message for one search.
 def generate_message(search_id: str, busy: bool = False) -> dict[str, Any]:
     return {"role": "assistant", "kind": "generate", "searchId": search_id, "busy": busy}
 
@@ -60,7 +60,7 @@ def replace_generate_message(
 def report_filename(
     session: SessionData | SessionSnapshot, profile: ProfilePayload | None = None
 ) -> str:
-    title = report_title(profile if profile is not None else session.profile.as_dict())
+    title = report_title(dict(profile if profile is not None else session.profile.as_dict()))
     safe = re.sub(r'[\x00-\x1f<>:"/\\|?*]', "-", title)
     safe = re.sub(r"\s+", " ", safe).strip(" .")
     return f"{safe or 'Recomandări naturiste'}.pdf"
@@ -146,6 +146,7 @@ def fragments_message(
             {
                 "document": document,
                 "text": normalize_text(item["text"]),
+                "charactersCount": len(item["text"]),
                 "score": item.get("score", float("-inf")),
                 "relevancePercent": item.get("relevance_percent"),
                 "semanticScore": item.get("semantic_score"),

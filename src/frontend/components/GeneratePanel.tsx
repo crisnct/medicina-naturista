@@ -1,54 +1,108 @@
 import { useState } from "react";
 import type { FragmentItem, GenerateMessage } from "../api/types";
-import { countReachingMinScore, MIN_SCORE_OPTIONS } from "../lib/scoreFilter";
+import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
+import { TypingIndicator } from "./TypingIndicator";
+import { DoctorAvatar } from "./DoctorAvatar";
+import type { GenerationFeedback } from "../lib/generationFeedback";
 
 export function GeneratePanel({
   message,
   fragments,
   onGenerate,
+  actionsDisabled = false,
+  feedback,
 }: {
   message: GenerateMessage;
   // The fragments of the same search; absent when that message is no longer
   // in the chat, in which case the server alone checks the threshold.
   fragments?: FragmentItem[];
   onGenerate: (searchId: string, minScore: number) => void;
+  actionsDisabled?: boolean;
+  feedback?: GenerationFeedback;
 }) {
   // Only fragments whose relevance reaches this are sent to the AI (0 = all).
   const [minScore, setMinScore] = useState(0);
-  const noneReach = fragments !== undefined && countReachingMinScore(fragments, minScore) === 0;
-  const disabled = message.busy || noneReach;
+  const eligibleFragments = fragments?.filter((fragment) => reachesMinScore(fragment.relevancePercent, minScore));
+  const eligibleCount = eligibleFragments?.length;
+  const eligibleCharacters = eligibleFragments?.reduce(
+    (sum, fragment) => sum + (fragment.charactersCount ?? Array.from(fragment.text).length),
+    0,
+  );
+  const noneReach = eligibleCount === 0;
+  const disabled = message.busy || noneReach || actionsDisabled;
 
   return (
     <section className="generate-recipe-panel">
       <div className="generate-recipe-copy">
-        Trimite-le la AI pentru a le combina și generează apoi documentul cu recomandări
-        {noneReach && <span className="generate-recipe-warning">Niciun fragment nu atinge scorul minim selectat.</span>}
+        <div className="chatbot-message-header">
+          <DoctorAvatar />
+          <h3>Pregătiți raportul</h3>
+        </div>
+        <p>Informațiile selectate vor fi folosite de AI pentru redactarea unui raport cu recomandări și surse.</p>
       </div>
       <div className="generate-recipe-actions">
-        <label className="fragments-panel-filter">
-          Scor minim
-          <select
-            value={minScore}
-            disabled={message.busy}
-            onChange={(event) => setMinScore(Number(event.target.value))}
+        <div className="generation-options">
+          <h4>Opțiuni de generare</h4>
+          <p>Acest prag stabilește ce fragmente sunt eligibile pentru AI, independent de filtrele de afișare.</p>
+          <label className="fragments-panel-filter">
+            Scor minim
+            <select
+              value={minScore}
+              disabled={message.busy || actionsDisabled}
+              onChange={(event) => setMinScore(Number(event.target.value))}
+            >
+              {MIN_SCORE_OPTIONS.map(({ value, label }) => (
+                <option key={value} value={value}>
+                  {label}
+                </option>
+              ))}
+            </select>
+          </label>
+        </div>
+        <div className="generate-report-row">
+          <div className="generate-report-status">
+            {noneReach && <p className="generate-recipe-warning">Niciun fragment nu atinge scorul minim selectat.</p>}
+            <p className="eligible-count">
+              Fragmente eligibile pentru raport: {eligibleCount === undefined ? "numărul va fi verificat la generare" : <strong>{eligibleCount}</strong>}
+            </p>
+            <p className="eligible-count">
+              Număr total caractere: {eligibleCharacters === undefined ? "numărul va fi verificat la generare" : <strong>{eligibleCharacters.toLocaleString("ro-RO")}</strong>}
+            </p>
+          </div>
+          <button
+            type="button"
+            className="generate-inline"
+            disabled={disabled}
+            aria-disabled={disabled}
+            onClick={() => onGenerate(message.searchId, minScore)}
           >
-            {MIN_SCORE_OPTIONS.map(({ value, label }) => (
-              <option key={value} value={value}>
-                {label}
-              </option>
-            ))}
-          </select>
-        </label>
-        <button
-          type="button"
-          className="generate-inline"
-          disabled={disabled}
-          aria-disabled={disabled}
-          onClick={() => onGenerate(message.searchId, minScore)}
-        >
-          {message.busy ? "⏳ Se generează rețeta..." : "💊 Generează rețeta"}
-        </button>
+            {message.busy ? "⏳ Se pregătește raportul…" : (
+              <>
+                <svg className="generate-report-icon" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false">
+                  <path d="M12 2H5a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7Z" fill="currentColor" fillOpacity="0.15" stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round" />
+                  <path d="M12 2v5h5M7 11h6M7 15h4M7 19h4" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
+                  <path d="m19 10 1 3 3 1-3 1-1 3-1-3-3-1 3-1Z" fill="currentColor" stroke="currentColor" strokeWidth="1" strokeLinejoin="round" />
+                </svg>
+                <span>Generează raportul</span>
+              </>
+            )}
+          </button>
+        </div>
       </div>
+      {message.busy && <TypingIndicator label="Pregătesc raportul. Generarea poate dura câteva minute." />}
+      {feedback && !message.busy && (
+        <div className="generation-feedback owner-notice-panel" role="alert">
+          <div className="chatbot-message-content">
+            <DoctorAvatar />
+            <p className="chatbot-message-text">{feedback.message}</p>
+          </div>
+          {feedback.requiresAuthorization && (
+            <a href={`${import.meta.env.BASE_URL}owner`} target="_blank" rel="noopener noreferrer">
+              Deschide autorizarea în altă filă
+            </a>
+          )}
+        </div>
+      )}
     </section>
   );
 }

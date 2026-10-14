@@ -43,7 +43,7 @@ from backend.core.models import (
 )
 from backend.core.operation_context import OperationBudget, operation_budget
 from backend.core.sessions import SessionStore
-from backend.integrations.gmail import EMAIL_SKIPPED
+from backend.integrations.gmail import EMAIL_SKIPPED, GmailAuthorizationError
 from backend.reporting.chat import (
     download_message,
     fragments_message,
@@ -58,7 +58,7 @@ logger = logging.getLogger("naturist.conversation")
 NO_FRAGMENT_ABOVE_MIN_SCORE = (
     "Niciun fragment nu atinge scorul minim selectat. Alegeți un prag mai mic."
 )
-WELCOME = "Bună ziua! 👋"
+WELCOME = "👋 Cu ce vă pot ajuta?"
 NO_CATEGORY_SELECTED_MESSAGE = "Nicio sursă selectată. Bifați cel puțin o categorie în panoul „Căutare avansată” înainte de căutare."
 CONDITION_AI_NOTICE = "🤖 Nu am găsit afecțiunea în dicționarul meu. Încerc să o identific cu ajutorul AI. Vă rog să așteptați."
 CONDITION_NOT_IDENTIFIED_MESSAGE = "⚠️ Nu am putut identifica afecțiunea din mesaj."
@@ -73,6 +73,7 @@ EMAIL_OFFER = (
 )
 EMAIL_PATTERN = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}")
 DIVERSE_SIGNALS_MESSAGE = "Activați căutarea lexicală sau semantică în panoul „Căutare avansată” pentru a căuta după mesaj."
+GENERAL_QUESTION_NOTICE = "💬 Am identificat o întrebare generală."
 CLASSIFICATION_UNAVAILABLE = (
     "Clasificarea AI nu este disponibilă momentan. Continui cu fluxul de căutare existent."
 )
@@ -140,7 +141,7 @@ def report_started_message(session, retriever) -> dict:
     count = document_count_for_categories(session.selected_categories, retriever)
     return text_message(
         "assistant",
-        f"🔍 Caut rapid în cele {count} documente interne disponibile. Vă rog să așteptați.",
+        f"🔍 Caut rapid în cele **{count} documente** interne disponibile. Vă rog să așteptați.",
     )
 
 
@@ -249,6 +250,14 @@ class ConversationService:
             )
         except OperationCancelled:
             raise
+        except GmailAuthorizationError:
+            logger.error(
+                "report_stage_failed stage=email type=GmailAuthorizationError oauth_error=invalid_grant"
+            )
+            reply = (
+                "Autorizarea Gmail nu mai este validă. Administratorul trebuie să reautorizeze "
+                "contul Google pentru trimiterea pe mail. Raportul rămâne disponibil pentru descărcare."
+            )
         except Exception as exc:
             logger.error("report_stage_failed stage=email type=%s", type(exc).__name__)
             reply = "Nu am putut trimite documentul pe mail. Încercați din nou."
@@ -414,6 +423,8 @@ class ConversationService:
             routing.classified = True
             routing.clarification = ""
             routing.herb_choices = ()
+            if decision.intent == "diverse" and not decision.needs_clarification:
+                notices.append(text_message("assistant", GENERAL_QUESTION_NOTICE))
             if decision.intent == "email_raport":
                 return self._route_email(operation, decision, notices)
             if decision.intent == "planta":
@@ -521,7 +532,10 @@ class ConversationService:
             if not herbs:
                 content = "Catalogul nu conține plante pentru acest top."
             else:
-                lines = [f"Top {len(herbs)} plante după numărul de afecțiuni asociate în catalog:"]
+                lines = [
+                    f"### Top {len(herbs)} plante medicinale după numărul de afecțiuni "
+                    "din catalog la care sunt utile"
+                ]
                 for position, herb in enumerate(herbs, 1):
                     aliases = (
                         f" (denumiri regionale: {', '.join(herb['ro_regional'])})"
@@ -530,8 +544,10 @@ class ConversationService:
                     )
                     conditions = "afecțiune" if herb["ranking"] == 1 else "afecțiuni"
                     name = herb["ro"][:1].upper() + herb["ro"][1:]
+                    latin = herb["latin"].title()
                     lines.append(
-                        f"{position}. **{name}** — utilă în {herb['ranking']} {conditions}{aliases}"
+                        f"{position}. **{name}** ({latin}) — utilă în "
+                        f"{herb['ranking']} {conditions}{aliases}"
                     )
                 content = "\n".join(lines)
             notices.append(text_message("assistant", content))
@@ -813,7 +829,14 @@ class ConversationService:
             if not evidence:
                 return self.store.commit_operation(
                     operation,
-                    CommitChange(messages=[text_message("assistant", NO_FRAGMENT_ABOVE_MIN_SCORE)]),
+                    CommitChange(
+                        messages=[
+                            {
+                                **text_message("assistant", NO_FRAGMENT_ABOVE_MIN_SCORE),
+                                "generationSearchId": search_id,
+                            }
+                        ]
+                    ),
                 )
             self.store.checkpoint(operation)
             with operation_budget(self.budget(operation)):
@@ -841,7 +864,6 @@ class ConversationService:
                         report_id,
                         StoredReport(report, filename, profile.get("health_problem", "")),
                     ),
-                    replace_search_id=search_id,
                 ),
             )
             if not committed.cancelled:
@@ -866,7 +888,15 @@ class ConversationService:
                 else "Raportul nu a putut fi generat. Încercați din nou."
             )
             return self.store.commit_operation(
-                operation, CommitChange(messages=[text_message("assistant", reply)])
+                operation,
+                CommitChange(
+                    messages=[
+                        {
+                            **text_message("assistant", reply),
+                            "generationSearchId": search_id,
+                        }
+                    ]
+                ),
             )
         finally:
             self.store.finish_operation(operation)

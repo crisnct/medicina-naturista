@@ -26,10 +26,10 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 |---|---|
 | **Index semantic** | Identifică fragmente apropiate ca sens cu vectori Qwen3-Embedding de 1024 de dimensiuni, stocați în Postgres (`pgvector`). |
 | **Index lexical** | Găsește expresiile căutate, ca fraze exacte, prin `tsvector` în Postgres. |
-| **Scor combinat** | Fiecare fragment primește un singur scor, din semnalele pe care pacientul le bifează în „Căutare avansată” (afecțiuni, lexical, semantic). Cu toate trei: `4·P1 + 2·P2 + L + V` (afecțiune în titlu › afecțiune în text › potrivire lexicală › potrivire semantică), calculat într-o singură interogare SQL. |
+| **Scor combinat** | Fiecare fragment primește un singur scor, din semnalele pe care pacientul le bifează în „Surse și opțiuni de căutare” (afecțiuni, lexical, semantic). Cu toate trei: `4·P1 + 2·P2 + L + V` (afecțiune în titlu › afecțiune în text › potrivire lexicală › potrivire semantică), calculat într-o singură interogare SQL. |
 | **Fragmentare pe afecțiuni** | Împarte documentele în fragmente R1 (afecțiunea în titlul capitolului), R2 (afecțiunea în textul capitolului) și D1 (restul textului), folosind catalogul de afecțiuni și sinonime din PostgreSQL. |
-| **Filtrare pe surse** | În același panou „Căutare avansată”, căutarea poate fi restrânsă la anumite foldere din `medicina-naturista-documente/data/documents/` (categoria unui document este folderul lui). |
-| **Retriever medical** | Ordonează fragmentele după scorul combinat și păstrează, întregi, cele care încap în bugetul de context al furnizorului AI. Lângă „Generează rețeta”, „Scor minim” (procent de relevanță) limitează fragmentele trimise către AI. |
+| **Filtrare pe surse** | În același panou „Surse și opțiuni de căutare”, căutarea poate fi restrânsă la anumite foldere din `medicina-naturista-documente/data/documents/` (categoria unui document este folderul lui). |
+| **Retriever medical** | Ordonează fragmentele după scorul combinat și păstrează, întregi, cele care încap în bugetul de context al furnizorului AI. În „Opțiuni de generare”, „Scor minim” (procent de relevanță) limitează fragmentele trimise către AI. |
 | **Chat web** | Oferă sesiuni izolate pe tab și afișează recomandările structurate. |
 | **Raport PDF** | Include recomandări, atenționări, citări și bibliografie navigabilă. |
 | **Livrare e-mail** | După generare, poate trimite raportul prin Gmail API cu OAuth2 la adresa scrisă de utilizator în chat, dacă este configurat. |
@@ -86,7 +86,7 @@ Diagrama actualizată: [chatbot-external-connections.svg](architecture/chatbot-e
 | Document | Ce explică |
 |---|---|
 | 🧠 [Fluxul de generare a indexului hibrid](architecture/hybrid-index-generation.md) | Fluxul complet: documente → sincronizare incrementală (SHA-256) → fragmente R1/R2/D1 → embeddings → Postgres (`pgvector` + `tsvector`). |
-| 📄 [Fluxul de generare a raportului final](architecture/final-report-generation.md) | Fluxul complet: mesaj → retrieval hibrid → fragmente afișate pacientului → „Generează rețeta” (owner) → furnizorul AI → PDF → download și trimitere pe e-mail către altă persoană. |
+| 📄 [Fluxul de generare a raportului final](architecture/final-report-generation.md) | Fluxul complet: mesaj → retrieval hibrid → fragmente afișate pacientului → „Generează raportul” (owner) → furnizorul AI → PDF → download și trimitere pe e-mail către altă persoană. |
 | 🔎 [Căutarea și scoringul fragmentelor](architecture/fragment-search-and-scoring.md) | Fluxul complet: mesaj → afecțiuni recunoscute → scor (`4·P1 + 2·P2 + L + V` cu toate semnalele alese) pentru toate fragmentele → procent de relevanță → limitarea contextului. |
 
 ## 📁 Structura proiectului
@@ -273,7 +273,7 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 | `POST /api/messages` | Salvează mesajul, categoriile și semnalele; întoarce `classifyMessage` și `contextRevision`. `messageId` opțional previne dublarea cererii. |
 | `POST /api/classify` | Clasifică prin Ollama local (`gemma3:1b`) și rutează spre remedii/planta/diverse/email_raport. Necesită `X-Context-Revision`. |
 | `POST /api/condition` | Identifică prin AI afecțiunea pe care dicționarul nu o cunoaște (`CONDITION_AI_BACKENDS`). |
-| `POST /api/search` | Rulează căutarea și întoarce fragmentele găsite și secțiunea „Generează rețeta”. |
+| `POST /api/search` | Rulează căutarea și întoarce fragmentele găsite și secțiunea „Generează raportul”. |
 | `POST /api/searches/{search_id}/generate` | Doar owner: trimite către AI fragmentele cu relevanța ≥ `minScore` și generează PDF-ul. |
 | `GET /api/reports/{tab_id}/{report_id}` | Descarcă PDF-ul generat în sesiunea tabului. |
 | `POST /api/session/end`, `POST /api/session/unload` | Închid sesiunea tabului (la cerere, respectiv la închiderea paginii). |
@@ -346,7 +346,7 @@ Fragmentarea (`src/backend/ai/fragmenter.py`) citește afecțiunile din `medical
 
 Afecțiunile se caută pe cuvinte întregi, fără diacritice și majuscule, cu toleranță la terminațiile românești (`gripa`/`gripei`). Numele fișierului și al folderelor nu se compară cu afecțiunile. Fragmentele R1 și R2 primesc `primary_medical_conditions` (afecțiunile din titlu) și `secondary_medical_conditions` (afecțiunile din text); D1 nu are afecțiuni. R1 și R2 nu au limită de lungime.
 
-La căutare, fiecare fragment primește scorul `4·P1 + 2·P2 + L + V` (maximum 8, cu toate semnalele bifate): P1 = afecțiunea căutată este în `primary_medical_conditions`, P2 = este în `secondary_medical_conditions`, L = fracțiunea de expresii (separate prin virgulă) regăsite în fragment, V = similaritatea semantică rescalată între mediana și maximul căutării. Pacientul poate debifa semnale în panoul „Căutare avansată”, iar formula se adaptează (de exemplu `L + V` sau doar `2·P1 + P2`). Scorul nu se stochează în DB; detaliile sunt în [fragment-search-and-scoring.md](architecture/fragment-search-and-scoring.md).
+La căutare, fiecare fragment primește scorul `4·P1 + 2·P2 + L + V` (maximum 8, cu toate semnalele bifate): P1 = afecțiunea căutată este în `primary_medical_conditions`, P2 = este în `secondary_medical_conditions`, L = fracțiunea de expresii (separate prin virgulă) regăsite în fragment, V = similaritatea semantică rescalată între mediana și maximul căutării. Pacientul poate debifa semnale în panoul „Surse și opțiuni de căutare”, iar formula se adaptează (de exemplu `L + V` sau doar `2·P1 + P2`). Scorul nu se stochează în DB; detaliile sunt în [fragment-search-and-scoring.md](architecture/fragment-search-and-scoring.md).
 
 Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit în ferestre care se suprapun cu 240, iar vectorii lor se mediază (valorile, dimensiunea vectorilor și prefixele de text ale fiecărui model sunt în profilul lui din `ai/embedding_model.py`). Diacriticele sunt păstrate prin normalizare Unicode NFC.
 
@@ -467,6 +467,8 @@ Autorizarea inițială se face o singură dată:
 ```
 
 Este solicitat numai scope-ul `gmail.send`. Tokenul nu este afișat și nu trebuie publicat. Dacă integrarea nu este complet configurată, raportul rămâne disponibil în aplicație, iar livrarea e-mail este omisă.
+
+Dacă Google respinge reîmprospătarea cu `invalid_grant`, verificați mai întâi dacă tokenul valid din `.env` a fost încărcat în container. Pentru Docker, aplicați configurația curentă cu `docker compose up -d --no-deps --force-recreate app`; simpla repornire nu actualizează variabilele de mediu ale containerului. Recrearea închide sesiunile active și elimină rapoartele din memorie, deci salvați PDF-urile înainte. Dacă și tokenul local este respins, reautorizați contul cu același script. Acesta înlocuiește tokenul în `.env`. Reautorizarea nu expediază automat un raport.
 
 ## 🔐 Confidențialitate și siguranță
 

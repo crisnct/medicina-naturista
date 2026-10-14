@@ -11,6 +11,9 @@ import type {
 import { claimTab, releaseTab } from "../lib/tabLease";
 
 const TAB_ID_KEY = "naturist_tab_id";
+// A reload keeps the tab ID but creates a new document. Its predecessor's
+// keepalive unload request must not close the replacement's session.
+const PAGE_ID = crypto.randomUUID();
 let sessionAdmitted = false;
 
 // One id per browser tab, generated once and kept in sessionStorage (not
@@ -48,6 +51,7 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
     headers: {
       "Content-Type": "application/json",
       "X-Tab-Id": getTabId(),
+      "X-Page-Id": PAGE_ID,
       // Harmless everywhere else; tells an ngrok free-tier tunnel (used for
       // quick live testing) to skip its browser-warning interstitial for
       // fetch/XHR calls instead of returning its own 401 in front of the app.
@@ -129,4 +133,10 @@ export function errorMessage(error: unknown, fallback: string): string {
   if (error.code?.startsWith("INDEX_")) return "Indexul este în mentenanță sau necesită resincronizare. Încercați din nou în 60 de secunde.";
   if (error.status === 503) return "Capacitatea aplicației sau autorizarea este temporar indisponibilă. Încercați mai târziu.";
   return error.message;
+}
+
+export function isSessionUnavailable(error: unknown): boolean {
+  return error instanceof ApiError && (
+    error.status === 401 || error.code === "SESSION_EXPIRED" || error.code === "SESSION_CLOSED"
+  );
 }

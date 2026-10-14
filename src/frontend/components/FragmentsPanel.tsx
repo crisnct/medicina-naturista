@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import type { FragmentItem, FragmentsMessage } from "../api/types";
 import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
 import { ALL_SIGNALS } from "../lib/searchSignals";
+import { DoctorAvatar } from "./DoctorAvatar";
 
 type LexicalFilter = "all" | "yes" | "no";
 type ConditionFilter = "all" | "title" | "text" | "none";
@@ -81,111 +82,118 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
   const filtersActive = minScore > 0 || minSemantic > 0 || condition !== "all" || lexical !== "all" || documentFilter !== "all";
 
   return (
-    <details className="fragments-panel-inner" open={open} onToggle={(event) => setOpen(event.currentTarget.open)}>
-      <summary className="fragments-panel-banner">
-        Am găsit {message.fragmentsCount} fragmente relevante în {message.documentsCount} documente locale (le puteți
-        vedea mai jos). Dacă vi se par potrivite, apăsați „Generează rețeta”.
-      </summary>
-      <div className="fragments-panel-list">
-        <div className="fragments-panel-filters">
-          <label className="fragments-panel-filter">
-            Scor minim
-            <select value={minScore} onChange={(event) => setMinScore(Number(event.target.value))}>
-              {MIN_SCORE_OPTIONS.map(({ value, label }) => (
-                <option key={value} value={value}>
-                  {label}
-                </option>
-              ))}
-            </select>
-          </label>
-          {signals.semantic && (
-            <label className="fragments-panel-filter">
-              Scor semantic
-              <select value={minSemantic} onChange={(event) => setMinSemantic(Number(event.target.value))}>
-                <option value={0}>Toate</option>
-                {SEMANTIC_OPTIONS.map((value) => (
-                  <option key={value} value={value}>
-                    {`> ${value.toFixed(2)}`}
-                  </option>
-                ))}
-              </select>
-            </label>
-          )}
-          {signals.conditions && (
-            <label className="fragments-panel-filter">
-              Afecțiune
-              <select value={condition} onChange={(event) => setCondition(event.target.value as ConditionFilter)}>
-                <option value="all">Toate</option>
-                {CONDITION_OPTIONS.map(({ value, label }) => (
-                  <option key={value} value={value}>
-                    {label}
-                  </option>
-                ))}
-              </select>
-            </label>
-          )}
-          {signals.lexical && (
-            <label className="fragments-panel-filter">
-              Găsire lexicală
-              <select value={lexical} onChange={(event) => setLexical(event.target.value as LexicalFilter)}>
-                <option value="all">Toate</option>
-                <option value="yes">Da</option>
-                <option value="no">Nu</option>
-              </select>
-            </label>
-          )}
-          <label className="fragments-panel-filter fragments-panel-filter-document">
-            Document
-            <select value={documentFilter} onChange={(event) => setDocumentFilter(event.target.value)}>
-              <option value="all">Toate</option>
-              {documentOptions.map((document) => (
-                <option key={document} value={document} title={document}>
-                  {fileName(document)}
-                </option>
-              ))}
-            </select>
-          </label>
-        </div>
-        <div className="fragments-panel-documents">
-          <p className="fragments-panel-documents-title">Documente ({documents.length})</p>
-          <ul className="fragments-panel-documents-list">
-            {documents.map((document) => (
-              <li key={document}>{document}</li>
-            ))}
-          </ul>
-        </div>
-        {filtered.length === 0 ? (
-          <p className="fragments-panel-empty">Niciun fragment nu corespunde filtrelor selectate.</p>
-        ) : (
-          filtered.map((fragment, index) => {
-            const scoreParts: string[] = [];
-            if (fragment.relevancePercent !== null) scoreParts.push(`Scor relevanță: ${Math.round(fragment.relevancePercent)}%`);
-            if (signals.semantic && fragment.semanticScore != null)
-              scoreParts.push(`Scor semantic: ${fragment.semanticScore.toFixed(2)}`);
-            if (signals.lexical && fragment.lexicalScore != null)
-              scoreParts.push(`Scor lexical: ${fragment.lexicalScore.toFixed(2)}`);
-            if (signals.conditions && fragment.conditionMatch !== null)
-              scoreParts.push(CONDITION_LABELS[fragment.conditionMatch]);
-            if (signals.lexical && fragment.matchLabel) scoreParts.push(fragment.matchLabel);
-            return (
-              <div className="fragments-panel-fragment" key={index}>
-                <p className="fragments-panel-fragment-text">{fragment.text}</p>
-                <p className="fragments-panel-fragment-score">
-                  {scoreParts.join(", ")}
-                  {scoreParts.length > 0 && ","}
-                  <br />
-                  {fragment.document}
-                </p>
-              </div>
-            );
-          })
-        )}
-        <p className="fragments-panel-summary">
-          {filtersActive
-            ? `Afișate: ${filtered.length} din ${message.fragmentsCount} fragmente (filtrate), din ${documents.length} documente, ${totalChars} caractere.`
-            : `Total: ${message.fragmentsCount} fragmente din ${message.documentsCount} documente, ${totalChars} caractere.`}
-        </p>
+    <section className="search-results-panel">
+      <div className="search-results-summary chatbot-message-header">
+        <DoctorAvatar />
+        <p>📚 Am găsit <strong>{message.fragmentsCount} fragmente</strong> relevante în <strong>{message.documentsCount} documente</strong></p>
       </div>
-    </details>
+      <details className="fragments-panel-inner" open={open} onToggle={(event) => setOpen(event.currentTarget.open)}>
+        <summary className="fragments-panel-banner">
+          Vezi fragmentele și sursele
+        </summary>
+        <div className="fragments-panel-list">
+          <section className="display-filter-options" aria-label="Filtrează fragmentele afișate">
+            <h4>Filtrează fragmentele afișate{filtersActive ? ` · ${filtered.length} afișate` : ""}</h4>
+            <p>Aceste filtre modifică numai afișarea. Fragmentele eligibile pentru raport se stabilesc în „Opțiuni de generare”.</p>
+            <div className="fragments-panel-filters">
+              <label className="fragments-panel-filter">
+                Scor minim
+                <select value={minScore} onChange={(event) => setMinScore(Number(event.target.value))}>
+                  {MIN_SCORE_OPTIONS.map(({ value, label }) => (
+                    <option key={value} value={value}>
+                      {label}
+                    </option>
+                  ))}
+                </select>
+              </label>
+              {signals.semantic && (
+                <label className="fragments-panel-filter">
+                  Scor semantic
+                  <select value={minSemantic} onChange={(event) => setMinSemantic(Number(event.target.value))}>
+                    <option value={0}>Toate</option>
+                    {SEMANTIC_OPTIONS.map((value) => (
+                      <option key={value} value={value}>
+                        {`> ${value.toFixed(2)}`}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              )}
+              {signals.conditions && (
+                <label className="fragments-panel-filter">
+                  Afecțiune
+                  <select value={condition} onChange={(event) => setCondition(event.target.value as ConditionFilter)}>
+                    <option value="all">Toate</option>
+                    {CONDITION_OPTIONS.map(({ value, label }) => (
+                      <option key={value} value={value}>
+                        {label}
+                      </option>
+                    ))}
+                  </select>
+                </label>
+              )}
+              {signals.lexical && (
+                <label className="fragments-panel-filter">
+                  Găsire lexicală
+                  <select value={lexical} onChange={(event) => setLexical(event.target.value as LexicalFilter)}>
+                    <option value="all">Toate</option>
+                    <option value="yes">Da</option>
+                    <option value="no">Nu</option>
+                  </select>
+                </label>
+              )}
+              <label className="fragments-panel-filter fragments-panel-filter-document">
+                Document
+                <select value={documentFilter} onChange={(event) => setDocumentFilter(event.target.value)}>
+                  <option value="all">Toate</option>
+                  {documentOptions.map((document) => (
+                    <option key={document} value={document} title={document}>
+                      {fileName(document)}
+                    </option>
+                  ))}
+                </select>
+              </label>
+            </div>
+          </section>
+          <div className="fragments-panel-documents">
+            <p className="fragments-panel-documents-title">Documente ({documents.length})</p>
+            <ul className="fragments-panel-documents-list">
+              {documents.map((document) => (
+                <li key={document}>{document}</li>
+              ))}
+            </ul>
+          </div>
+          {filtered.length === 0 ? (
+            <p className="fragments-panel-empty">Niciun fragment nu corespunde filtrelor selectate.</p>
+          ) : (
+            filtered.map((fragment, index) => {
+              const scoreParts: string[] = [];
+              if (fragment.relevancePercent !== null) scoreParts.push(`Scor relevanță: ${Math.round(fragment.relevancePercent)}%`);
+              if (signals.semantic && fragment.semanticScore != null)
+                scoreParts.push(`Scor semantic: ${fragment.semanticScore.toFixed(2)}`);
+              if (signals.lexical && fragment.lexicalScore != null)
+                scoreParts.push(`Scor lexical: ${fragment.lexicalScore.toFixed(2)}`);
+              if (signals.conditions && fragment.conditionMatch !== null)
+                scoreParts.push(CONDITION_LABELS[fragment.conditionMatch]);
+              if (signals.lexical && fragment.matchLabel) scoreParts.push(fragment.matchLabel);
+              return (
+                <div className="fragments-panel-fragment" key={index}>
+                  <p className="fragments-panel-fragment-text">{fragment.text}</p>
+                  <p className="fragment-source">{fragment.document}</p>
+                  {scoreParts.length > 0 && (
+                    <p className="fragments-panel-fragment-score">{scoreParts.join(", ")}</p>
+                  )}
+                </div>
+              );
+            })
+          )}
+          <p className="fragments-panel-summary">
+            {filtersActive
+              ? `Afișate: ${filtered.length} din ${message.fragmentsCount} fragmente (filtrate), din ${documents.length} documente, ${totalChars} caractere.`
+              : `Total: ${message.fragmentsCount} fragmente din ${message.documentsCount} documente, ${totalChars} caractere.`}
+          </p>
+        </div>
+      </details>
+    </section>
   );
 }

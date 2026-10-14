@@ -4,16 +4,22 @@ import { FragmentsPanel } from "./FragmentsPanel";
 import { GeneratePanel } from "./GeneratePanel";
 import { DownloadPanel } from "./DownloadPanel";
 import { HerbConditionsPanel } from "./HerbConditionsPanel";
+import { DoctorAvatar } from "./DoctorAvatar";
+import type { GenerationFeedback } from "../lib/generationFeedback";
 
 export function MessageBubble({
   message,
   fragments,
   onGenerate,
+  actionsDisabled,
+  generationFeedback,
 }: {
   message: ChatMessage;
   // For a "generate" message: the fragments of the same search, when still in the chat.
   fragments?: FragmentItem[];
   onGenerate: (searchId: string, minScore: number) => void;
+  actionsDisabled?: boolean;
+  generationFeedback?: GenerationFeedback;
 }) {
   switch (message.kind) {
     case "herb_conditions":
@@ -27,7 +33,7 @@ export function MessageBubble({
     case "generate":
       return (
         <div className="message-wrap bot unwrapped">
-          <GeneratePanel message={message} fragments={fragments} onGenerate={onGenerate} />
+          <GeneratePanel message={message} fragments={fragments} onGenerate={onGenerate} actionsDisabled={actionsDisabled} feedback={generationFeedback} />
         </div>
       );
     case "download":
@@ -39,8 +45,15 @@ export function MessageBubble({
     case "text":
     default:
       return (
-        <div className={`message-wrap ${message.role}`}>
-          <div className="message">{renderRecommendationText(message.content)}</div>
+        <div className={`message-wrap ${message.role}${message.groupId === "greeting" ? " welcome-message" : ""}`}>
+          <div className="message">
+            {message.role === "assistant" ? (
+              <div className="chatbot-message-content">
+                <DoctorAvatar />
+                <div className="chatbot-message-text">{renderRecommendationText(message.content)}</div>
+              </div>
+            ) : renderRecommendationText(message.content)}
+          </div>
         </div>
       );
   }

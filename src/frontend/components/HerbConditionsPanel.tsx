@@ -1,10 +1,24 @@
 import type { HerbConditionsMessage } from "../api/types";
+import { DoctorAvatar } from "./DoctorAvatar";
 
 export function HerbConditionsPanel({ message }: { message: HerbConditionsMessage }) {
+  const herbName = message.herbName.charAt(0).toLocaleUpperCase("ro-RO") + message.herbName.slice(1);
+  const speciesNames = message.species.map((species) =>
+    species.replace(/\p{L}+/gu, (word) => word.charAt(0).toUpperCase() + word.slice(1)),
+  ).join(" · ");
   return (
-    <section className="herb-conditions-panel" aria-label={`Afecțiuni asociate cu ${message.herbName}`}>
-      <h3>🌿 {message.herbName} — utilă în {message.entriesCount} afecțiuni</h3>
-      <p className="herb-species">{message.species.join(" · ")}</p>
+    <section className="herb-conditions-panel" aria-label={`Afecțiuni asociate cu ${herbName}`}>
+      <div className="chatbot-message-header">
+        <DoctorAvatar />
+        <h3>
+          🌿 {herbName}{" "}
+          <span className="herb-title-details">
+            {speciesNames && <span className="herb-species">({speciesNames}) </span>}
+            -- plantă utilă în <strong className="herb-condition-count">{message.entriesCount}</strong> afecțiuni
+          </span>
+        </h3>
+      </div>
+      <p className="herb-association-note">Lista reflectă asocieri din sursele locale, inclusiv atenționări și contraindicații.</p>
       {message.entriesCount === 0 ? (
         <p>Planta există în catalog, dar nu are afecțiuni asociate în indexul actual.</p>
       ) : (
@@ -14,7 +28,6 @@ export function HerbConditionsPanel({ message }: { message: HerbConditionsMessag
           ))}
         </ul>
       )}
-      <p className="herb-association-note">Lista reflectă asocieri din sursele locale, inclusiv atenționări și contraindicații.</p>
     </section>
   );
 }

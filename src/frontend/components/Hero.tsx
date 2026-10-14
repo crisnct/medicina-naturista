@@ -5,16 +5,15 @@ export function Hero() {
   return (
     <section id="hero-panel" aria-labelledby="hero-title">
       <div className="hero-kicker">
-        🌿Asistent AI de medicină naturistă bazat pe surse locale
+        🌿 Informații din biblioteca naturistă
       </div>
       <HerbsStrip />
-      <img className="hero-doctor" src={doctorPortrait} alt="Dr. Cuișor" />
+      <img className="hero-doctor" src={doctorPortrait} alt="Personajul virtual Dr. Cuișor" />
       <div className="hero-title-block">
-        <h1 id="hero-title">Remedii Naturiste</h1>
-        <p className="hero-byline">de la Dr. Cuișor</p>
+        <h1 id="hero-title">Remedii Naturiste Adjuvante</h1>
+        <p className="hero-byline">Dr. Cuișor · asistent virtual AI</p>
         <p className="hero-description">
-          Descrieți problema cu care vă confruntați și primiți un raport informativ, clar și ușor de consultat.
-          Informațiile sunt orientative și nu înlocuiesc consultul sau îngrijirea medicală.
+          Informații orientative despre plante și remedii, explicate pe baza cărților și documentelor din bibliotecă. Nu înlocuiesc consultația medicală.
         </p>
       </div>
     </section>

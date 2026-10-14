@@ -61,7 +61,7 @@ TAB_ID_RE = re.compile(r"^[A-Za-z0-9_-]{8,64}$")
 OWNER_COOKIE = "naturist_owner"
 CSRF_COOKIE = "naturist_owner_csrf"
 OWNER_COOKIE_MAX_AGE = 31536000
-OWNER_ONLY_MESSAGE = "Generarea rețetei este disponibilă doar pentru autorul acestui chatbot."
+OWNER_ONLY_MESSAGE = "Generarea raportului este disponibilă doar pentru autorul acestui chatbot."
 router = APIRouter()
 
 
@@ -103,7 +103,7 @@ class MessageRequest(BaseModel):
     messageId: str | None = Field(default=None, pattern=r"^[A-Za-z0-9_-]{8,64}$")
 
 
-# The "Scor minim" chosen next to "Generează rețeta": only fragments whose
+# The "Scor minim" chosen next to "Generează raportul": only fragments whose
 # relevance_percent is at least this value are sent to the AI (0 = all).
 class GenerateRequest(BaseModel):
     minScore: float = Field(default=0, ge=0, le=100)
@@ -213,7 +213,10 @@ def download(tab_id: str, report_id: str, request: Request):
 def get_session(request: Request):
     deps = _deps(request)
     session = _current(request, create=True)
-    if not deps.store.history(session):
+    page_id = request.headers.get("x-page-id")
+    if page_id is not None and not TAB_ID_RE.fullmatch(page_id):
+        raise HTTPException(400, "Identificator de pagină invalid.")
+    if not deps.store.conversation_view(session, page_id=page_id)["history"]:
         operation = deps.store.begin_operation(session, "initialize")
         try:
             profile = operation.snapshot.profile
@@ -234,7 +237,7 @@ def get_session(request: Request):
             )
         finally:
             deps.store.finish_operation(operation)
-    return {"history": deps.store.history(session)}
+    return deps.store.conversation_view(session)
 
 
 @router.get("/api/categories")
@@ -334,7 +337,7 @@ def end_session(request: Request):
 def unload_session(request: Request):
     try:
         cookie, tab = _identity(request)
-        _deps(request).store.delete(cookie, tab)
+        _deps(request).store.close_page(cookie, tab, request.headers.get("x-page-id"))
     except HTTPException:
         pass
     return Response(status_code=204)

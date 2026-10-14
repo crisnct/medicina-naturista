@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { DoctorAvatar } from "./DoctorAvatar";
 
 // Animated "thinking" bubble shown while a slow backend call is in flight
 // (retrieval or AI generation) — the elapsed-time counter and bouncing dots
@@ -17,6 +18,7 @@ export function TypingIndicator({ label }: { label?: string }) {
   return (
     <div className="message-wrap assistant">
       <div className="message typing-indicator" role="status" aria-live="polite">
+        <DoctorAvatar />
         <span className="loader" aria-hidden="true" />
         {label && <span>{label}</span>}
         <span className="typing-elapsed">Timp scurs: {elapsedSeconds}s</span>

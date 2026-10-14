@@ -1,7 +1,7 @@
 import type { FragmentItem } from "../api/types";
 
 // "Scor minim" thresholds (relevance percent), shared by the fragments panel
-// filter and the one next to "Generează rețeta"; 0 means no restriction.
+// filter and the one next to "Generează raportul"; 0 means no restriction.
 export const MIN_SCORE_OPTIONS: { value: number; label: string }[] = [
   { value: 0, label: "Toate" },
   { value: 25, label: "≥ 25%" },

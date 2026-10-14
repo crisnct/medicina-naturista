@@ -18,6 +18,7 @@ import time
 from collections.abc import Callable
 from dataclasses import asdict, dataclass
 from pathlib import Path
+from typing import Any
 
 from backend.ai.search import ALL_SIGNALS
 from backend.config import Settings
@@ -522,6 +523,14 @@ class SessionStore:
                 proposed.searches[sid] = copy.deepcopy(search)
                 proposed.groups[group_id].search_ids.append(sid)
             if change.report:
+                if operation.kind == "generate" and operation.search_id:
+                    # A successful retry clears only the hidden generation error,
+                    # while preserving the search, fragments and report controls.
+                    proposed.history = [
+                        message
+                        for message in proposed.history
+                        if message.get("generationSearchId") != operation.search_id
+                    ]
                 rid, report = change.report
                 proposed.reports[rid] = copy.deepcopy(report)
                 proposed.report_id, proposed.report_bytes = rid, report.data
@@ -619,6 +628,12 @@ class SessionStore:
             )
 
     def history(self, session: SessionData) -> list[dict]:
+        return self.conversation_view(session)["history"]
+
+    def conversation_view(
+        self, session: SessionData, *, page_id: str | None = None
+    ) -> dict[str, Any]:
+        """Read messages and the email-eligible report from the same session state."""
         with self._lock, session.lock:
             key = session.cookie_id, session.tab_id
             if session.closed or self._sessions.get(key) is not session:
@@ -626,7 +641,9 @@ class SessionStore:
             if self._expired(session):
                 self._delete_locked(key)
                 raise ApplicationError("SESSION_CLOSED", "Sesiunea a fost închisă.")
-            return copy.deepcopy(session.history)
+            if page_id is not None:
+                session.active_page_id = page_id
+            return {"history": copy.deepcopy(session.history), "latestReportId": session.report_id}
 
     def report(self, session: SessionData, report_id: str):
         with self._lock, session.lock:
@@ -641,6 +658,17 @@ class SessionStore:
     def delete(self, cookie_id: str, tab_id: str) -> None:
         with self._lock:
             self._delete_locked((cookie_id, tab_id))
+
+    def close_page(self, cookie_id: str, tab_id: str, page_id: str | None) -> None:
+        """Ignore an old document's delayed unload after its replacement has connected."""
+        with self._lock:
+            key = cookie_id, tab_id
+            session = self._sessions.get(key)
+            if session is None:
+                return
+            with session.lock:
+                if session.active_page_id == page_id:
+                    self._delete_locked(key)
 
     def _delete_locked(self, key: tuple[str, str]) -> None:
         session = self._sessions.get(key)

@@ -33,6 +33,7 @@ export function SearchSignalsGroup({
   const checkedCount = countOn(signals);
   return (
     <fieldset className="search-signals">
+      <legend className="search-signals-title">Tipuri de căutare</legend>
       {SIGNAL_OPTIONS.map(({ key, label }) => {
         const isLastChecked = signals[key] && checkedCount === 1;
         return (
@@ -79,7 +80,8 @@ export function CategoryFilterPanel({ tree, selected, onChange, signals, onSigna
     <section className="category-filter-panel">
       <details className="category-filter-details">
         <summary className="category-filter-summary">
-          <span aria-hidden="true">🗂️</span> Căutare avansată
+          <span aria-hidden="true">🗂️</span> Surse și opțiuni de căutare
+          <span className="selection-status">{checkedCount === 0 ? "Nicio sursă" : checkedCount >= totalReal ? "Toate sursele" : `${checkedCount} categorii selectate`}</span>
         </summary>
         <div className="category-filter-body">
           <SearchSignalsGroup signals={signals} onChange={onSignalsChange} />

@@ -44,6 +44,7 @@ def list_top_herbs(count: int) -> list[RankedHerb]:
     return [
         {
             "ro": romanian_herb_name(name) if name != latin else name,
+            "latin": latin,
             "ro_regional": list(dict.fromkeys(romanian_herb_name(alias) for alias in aliases)),
             "ranking": ranking,
         }
