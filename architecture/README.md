@@ -1,13 +1,13 @@
-# Diagrame de arhitectură
+# Architecture Diagrams
 
-Pentru vizualizarea diagramelor de arhitectură din acest folder trebuie folosit **XMind 8**.
+Use **XMind 8** to view the architecture diagrams in this folder.
 
-Descărcați aplicația de pe [pagina oficială XMind 8](https://xmind.com/download/xmind8/), apoi deschideți fișierele `.xmind` în XMind 8.
+Download the application from the [official XMind 8 download page](https://xmind.com/download/xmind8/), then open the `.xmind` files in XMind 8.
 
-## Diagrame disponibile
+## Available Diagrams
 
-- [chatbot-external-connections.xmind](chatbot-external-connections.xmind) — conexiunile chatbotului cu serviciile externe.
-- [final-report-generation.xmind](final-report-generation.xmind) — fluxul de generare a raportului final.
-- [fragment-search-and-scoring.xmind](fragment-search-and-scoring.xmind) — căutarea și calcularea scorului fragmentelor.
-- [hybrid-index-generation.xmind](hybrid-index-generation.xmind) — fluxul de generare a indexului hibrid.
-- [message-classification-plan.xmind](message-classification-plan.xmind) — clasificarea și rutarea mesajelor.
+- [chatbot-external-connections.xmind](chatbot-external-connections.xmind) — the chatbot's connections to external services.
+- [final-report-generation.xmind](final-report-generation.xmind) — the final report generation flow.
+- [fragment-search-and-scoring.xmind](fragment-search-and-scoring.xmind) — fragment search and scoring.
+- [hybrid-index-generation.xmind](hybrid-index-generation.xmind) — the hybrid index generation flow.
+- [message-classification-plan.xmind](message-classification-plan.xmind) — message classification and routing.
