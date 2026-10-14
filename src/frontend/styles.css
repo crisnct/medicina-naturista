@@ -37,8 +37,8 @@ body {
 #app-shell {
     display: flex;
     flex-direction: column;
-    width: min(100%, 700px);
-    max-width: 700px;
+    width: min(100%, 640px);
+    max-width: 640px;
     margin: 0 auto;
     gap: 8px;
 }
@@ -49,6 +49,7 @@ body {
     overflow: hidden;
     box-sizing: border-box;
     width: 100%;
+    font-family: "Roboto Condensed", Arial, sans-serif;
     --hero-pad-right: 38px;
     padding: 22px var(--hero-pad-right) 72px 26px;
     border: 1px solid rgba(47, 125, 109, 0.18);
@@ -103,9 +104,11 @@ body {
 #hero-title {
     margin: 0;
     color: var(--nature-text);
-    font-size: clamp(26px, 4vw, 34px);
+    font-family: "Merienda", cursive;
+    font-size: clamp(23px, 3vw, 26px);
+    font-weight: 800;
     line-height: 1.2;
-    letter-spacing: -0.03em;
+    letter-spacing: normal;
 }
 
 .hero-title-block {
@@ -238,6 +241,14 @@ body {
     font-style: italic;
 }
 
+.message-wrap,
+.owner-notice-panel,
+.category-filter-panel,
+.source-information,
+#message-row {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+
 .message-wrap {
     display: flex;
     width: 100%;
@@ -337,6 +348,7 @@ body {
 
 .fragments-panel-inner {
     box-sizing: border-box;
+    font-family: "Roboto Condensed", Arial, sans-serif;
     min-width: 0;
     padding: 0;
     border: 1px solid var(--nature-border);
@@ -631,8 +643,16 @@ body {
     gap: 8px;
 }
 
+.composer-input-row {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: stretch;
+    gap: 8px;
+}
+
 #health-message {
     width: 100%;
+    min-width: 0;
     min-height: 44px;
     padding: 10px 14px;
     border: 1px solid #899f94;
@@ -640,6 +660,7 @@ body {
     background: #fffdf9;
     color: var(--nature-text);
     font: inherit;
+    font-family: "Roboto Condensed", Arial, sans-serif;
     line-height: 1.5;
 }
 
@@ -655,17 +676,18 @@ body {
 
 #send-message {
     display: inline-flex;
-    min-height: 48px;
+    min-height: 44px;
     align-items: center;
     justify-content: center;
     gap: 8px;
-    padding: 12px 20px;
+    padding: 10px 16px;
     border: 0;
     border-radius: 12px;
     background: var(--nature-primary);
     color: #fff;
     font: inherit;
     font-weight: 700;
+    white-space: nowrap;
     cursor: pointer;
 }
 
@@ -929,7 +951,6 @@ button.cat-toggle.cat-toggle-open svg {
     }
 
     .pdf-download,
-    #send-message,
     .generate-inline {
         width: 100%;
         min-width: 0;
@@ -987,6 +1008,10 @@ button, a, summary, input, textarea, select { -webkit-tap-highlight-color: trans
 }
 summary { cursor: pointer; overflow-wrap: anywhere; }
 button:disabled { cursor: not-allowed; }
+#app-shell button,
+#app-shell .pdf-download {
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
 .question-examples { display: flex; flex-wrap: wrap; gap: 8px; }
 .question-examples > span { flex-basis: 100%; font-size: 12px; color: var(--nature-muted); }
 .example-button, .secondary-button {
@@ -1008,7 +1033,6 @@ button:disabled { cursor: not-allowed; }
 .example-button:hover:not(:disabled), .secondary-button:hover:not(:disabled) { background: var(--nature-soft); }
 .example-button:disabled { color: var(--nature-muted); opacity: 0.65; }
 #message-row > label { font-weight: 700; }
-.composer-actions { display: flex; justify-content: flex-end; margin-top: 8px; }
 .selection-status { display: block; margin: 4px 0 0 22px; color: var(--nature-muted); font-size: 14px; font-weight: 400; }
 .search-results-panel {
     width: 100%;
@@ -1061,7 +1085,7 @@ button:disabled { cursor: not-allowed; }
     .hero-byline { font-size: 15px; }
     .hero-doctor { width: 82px; height: 82px; margin-left: 8px; }
     .hero-description { clear: both; padding-top: 8px; }
-    .composer-actions, .report-actions { flex-direction: column; }
+    .report-actions { flex-direction: column; }
     .report-actions > * { flex: auto; }
     .fragments-panel-filter { flex: 1 1 100%; }
     .generation-options { width: 100%; }

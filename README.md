@@ -260,7 +260,16 @@ Dacă ați sincronizat indexul la pasul 2, migrările sunt deja aplicate. Pentru
 
 Pentru clasificarea mesajelor și identificarea locală a afecțiunilor, porniți Ollama pe `CONDITION_AI_LOCAL_BASE` (implicit `http://localhost:11434/v1`) și descărcați modelul o dată cu `ollama pull gemma3:1b`. Acest model este separat de furnizorul ales pentru generarea raportului.
 
-Pentru dezvoltarea interfeței cu reîncărcare automată, rulați `npm run dev` în `src/frontend/`: Vite servește interfața și trimite `/api`, `/healthz` și `/owner` către backend-ul de pe portul 7860.
+Pentru dezvoltarea interfeței cu reîncărcare automată, rulați `npm run dev` în `src/frontend/`. Vite servește interfața local la `http://localhost:5173/medicina/` și trimite cererile API, verificările de stare și formularul owner către backend-ul de producție `https://ronin-archesporial-lonnie.ngrok-free.dev/medicina/`. Mesajele, căutările și rapoartele folosesc acest backend. Fișierele TypeScript ale interfeței sunt servite local, fără a fi trimise prin proxy. Backend-ul trebuie să fie disponibil; `npm run dev` nu îl pornește.
+
+Pentru a folosi în schimb un backend pornit local, setați adresa înainte de lansarea Vite:
+
+```powershell
+$env:DEV_BACKEND_URL = "http://127.0.0.1:7860/"
+npm run dev
+```
+
+În această variantă, interfața locală este la `http://localhost:5173/`. Pentru a reveni la backend-ul de producție implicit, eliminați variabila cu `Remove-Item Env:DEV_BACKEND_URL -ErrorAction SilentlyContinue` și reporniți Vite. `PUBLIC_BASE_PATH` continuă să configureze calea pentru build-ul de producție.
 
 API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; documentația OpenAPI (`/docs`) este dezactivată. Cererile `/api/...` cu sesiune trimit antetul `X-Tab-Id` (identificatorul tabului).
 

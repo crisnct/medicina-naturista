@@ -49,20 +49,19 @@ export function Composer({
             </button>
           ))}
         </div>
-        <input
-          ref={input}
-          id="health-message"
-          type="text"
-          enterKeyHint="send"
-          placeholder="De exemplu: Remedii naturiste pentru gripă…"
-          aria-describedby="message-helper"
-          maxLength={MAX_CHAT_CHARS}
-          disabled={busy}
-          value={value}
-          onChange={(event) => setValue(event.target.value)}
-        />
-        <div id="message-helper">Pentru o căutare lexicală mai bună, separați prin virgulă sinonimele unei afecțiuni sau afecțiunile înrudite.</div>
-        <div className="composer-actions">
+        <div className="composer-input-row">
+          <input
+            ref={input}
+            id="health-message"
+            type="text"
+            enterKeyHint="send"
+            placeholder="De exemplu: Remedii naturiste pentru gripă…"
+            aria-describedby="message-helper"
+            maxLength={MAX_CHAT_CHARS}
+            disabled={busy}
+            value={value}
+            onChange={(event) => setValue(event.target.value)}
+          />
           <button id="send-message" type="submit" disabled={busy || value.trim().length === 0}>
             {processing ? "⏳ În curs…" : (
               <>
@@ -70,11 +69,12 @@ export function Composer({
                   <path d="m22 2-7 20-4-9-9-4Z" fill="currentColor" fillOpacity="0.15" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
                   <path d="M22 2 11 13" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
                 </svg>
-                <span>Trimite întrebarea</span>
+                <span>Trimite</span>
               </>
             )}
           </button>
         </div>
+        <div id="message-helper">Pentru o căutare lexicală mai bună, separați prin virgulă sinonimele unei afecțiuni sau afecțiunile înrudite.</div>
       </form>
     </>
   );
