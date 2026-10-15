@@ -1,4 +1,4 @@
-"""Per-provider configuration for the Responses API client (AI_PROVIDER)."""
+"""Per-provider configuration for the Responses API client (REPORT_GENERATION_MODEL_TYPE)."""
 
 from __future__ import annotations
 
@@ -48,7 +48,7 @@ def _is_local(url: str) -> bool:
     return (urlparse(url).hostname or "") in LOCAL_HOSTS
 
 
-# The single place where AI_PROVIDER becomes a provider configuration.
+# The single place where REPORT_GENERATION_MODEL_TYPE becomes a provider configuration.
 def provider_config(settings: Settings) -> ProviderConfig:
     common: _GenerationLimits = {
         "max_output_tokens": settings.ai_max_output_tokens,

@@ -8,7 +8,7 @@ def owner_page(prefix: str, nonce: str) -> str:
 <html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
 <title>Autorizare owner</title></head>
 <body data-prefix="__PREFIX__"><main><h1>Autorizare owner</h1>
-<p>Introduceți cheia pentru a permite generarea rapoartelor în acest browser.</p>
+<p>Introduceți cheia pentru a folosi modelul deepseek la generarea rapoartelor în acest browser.</p>
 <form id="login"><label for="key">Cheia owner</label>
 <input id="key" type="password" autocomplete="off" required maxlength="4096">
 <button id="submit" type="submit">Autorizare</button></form>

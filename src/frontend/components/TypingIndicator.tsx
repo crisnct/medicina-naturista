@@ -4,6 +4,7 @@ import { DoctorAvatar } from "./DoctorAvatar";
 // A slow status ring and elapsed time while retrieval or report generation is pending.
 export function TypingIndicator({ label }: { label?: string }) {
   const [elapsedSeconds, setElapsedSeconds] = useState(0);
+  const elapsedTime = `${Math.floor(elapsedSeconds / 60).toString().padStart(2, "0")}:${(elapsedSeconds % 60).toString().padStart(2, "0")}`;
 
   useEffect(() => {
     const startedAt = Date.now();
@@ -19,7 +20,7 @@ export function TypingIndicator({ label }: { label?: string }) {
         <DoctorAvatar />
         <span className="loader" aria-hidden="true" />
         {label && <span>{label}</span>}
-        <span className="typing-elapsed">Timp scurs: {elapsedSeconds}s</span>
+        <span className="typing-elapsed">Timp scurs: {elapsedTime}</span>
       </div>
     </div>
   );

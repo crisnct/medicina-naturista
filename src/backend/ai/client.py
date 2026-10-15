@@ -15,7 +15,7 @@ from backend.ai.providers import ProviderConfig, provider_config
 from backend.ai.report_validation import ValidatedReport, validate_report
 from backend.config import Settings
 from backend.config import settings as default_settings
-from backend.core.contracts import Evidence, ProfilePayload
+from backend.core.contracts import AIProtocol, Evidence, ProfilePayload, ReportModel
 from backend.core.operation_context import checkpoint, remaining_timeout
 
 logger = logging.getLogger("naturist.ai")
@@ -214,7 +214,8 @@ class ResponsesClient:
             )
             raise AIUnavailable(
                 f"Serviciul AI ({self.provider.label}) a respins cererea "
-                f"(HTTP {response.status_code}, request_id={request_id})."
+                f"(HTTP {response.status_code}, request_id={request_id}).",
+                reason="rate_limited" if response.status_code == 429 else "unavailable",
             ) from exc
         except httpx.RequestError as exc:
             logger.error(
@@ -223,7 +224,8 @@ class ResponsesClient:
                 type(exc).__name__,
             )
             raise AIUnavailable(
-                "Serviciul AI nu este disponibil momentan. Încercați din nou."
+                "Serviciul AI nu este disponibil momentan. Încercați din nou.",
+                reason="timeout" if isinstance(exc, httpx.TimeoutException) else "unavailable",
             ) from exc
         except ValueError as exc:
             logger.error(
@@ -232,7 +234,8 @@ class ResponsesClient:
                 type(exc).__name__,
             )
             raise AIUnavailable(
-                "Serviciul AI nu este disponibil momentan. Încercați din nou."
+                "Serviciul AI nu este disponibil momentan. Încercați din nou.",
+                reason="invalid_response",
             ) from exc
 
     # Build the Responses API request body for this provider.
@@ -336,11 +339,13 @@ class ResponsesClient:
             if isinstance(output_tokens, int) and output_tokens >= max_tokens:
                 logger.error(
                     "ai_response_truncated output_tokens=%s max_output_tokens=%s "
-                    "hint=increase AI_MAX_OUTPUT_TOKENS",
+                    "hint=increase REPORT_GENERATION_MAX_OUTPUT_TOKENS",
                     output_tokens,
                     max_tokens,
                 )
-            raise AIUnavailable("Răspunsul AI nu a putut fi validat. Încercați din nou.") from exc
+            raise AIUnavailable(
+                "Răspunsul AI nu a putut fi validat. Încercați din nou.", reason="invalid_response"
+            ) from exc
 
     # Log fragment counts, documents, metadata, and optionally fragment text at a pipeline stage.
     def _log_fragment_inventory(
@@ -408,14 +413,145 @@ class ResponsesClient:
         return validate_report(result, evidence)
 
 
+class OllamaReportClient(ResponsesClient):
+    """Native report transport: preserve the entire input and disable context shifting.
+
+    Ollama 0.40.4 does not forward Responses.truncation to its native chat request.
+    Keep the common report validation and use native controls for this transport.
+    """
+
+    @staticmethod
+    def _check_native_error(event: dict[str, Any]) -> None:
+        error = event.get("error")
+        if not error:
+            return
+        message = error.get("message", "") if isinstance(error, dict) else str(error)
+        lowered = message.lower()
+        if any(
+            marker in lowered
+            for marker in (
+                "exceeds the available context",
+                "input length exceeds the context",
+                "context size has been exceeded",
+                "context window is full",
+                "context length exceeded",
+                "maximum context length",
+                "context_length_exceeded",
+                "context shift is disabled",
+                "prompt is too long",
+            )
+        ):
+            logger.warning("ai_context_limit_exceeded provider=ollama truncation=disabled")
+            raise AIUnavailable(
+                "Fragmentele selectate depășesc contextul disponibil al modelului. "
+                "Selectați mai puține fragmente sau creșteți scorul minim. "
+                "Conținutul nu a fost trunchiat.",
+                reason="context_limit",
+            )
+        raise ValueError("Ollama reported a generation error")
+
+    def _send(self, headers: dict[str, str], payload: dict[str, Any]) -> Any:
+        native: dict[str, Any] = {
+            "model": payload["model"],
+            "messages": payload["input"],
+            "stream": bool(payload.get("stream")),
+            "format": "json",
+            "truncate": False,
+            "shift": False,
+            "options": {"num_predict": payload["max_output_tokens"]},
+        }
+        # The web report model is Gemma4, whose thinking capability is boolean.
+        effort = payload.get("reasoning", {}).get("effort")
+        if effort:
+            native["think"] = effort != "none"
+        if "temperature" in payload:
+            native["options"]["temperature"] = payload["temperature"]
+        url = f"{self.provider.base_url.removesuffix('/v1')}/api/chat"
+        timeout = httpx.Timeout(
+            remaining_timeout(float(self.provider.read_timeout_seconds)),
+            connect=remaining_timeout(10.0),
+        )
+        parts: list[str] = []
+        raw_bytes = 0
+        final = None
+        with self.http.stream(
+            "POST", url, headers=headers, json=native, timeout=timeout
+        ) as response:
+            if response.status_code >= 400:
+                response.read()
+                try:
+                    error = response.json()
+                except ValueError:
+                    error = {}
+                if isinstance(error, dict):
+                    # Inspect only known context errors; keep normal HTTP error handling otherwise.
+                    try:
+                        self._check_native_error(error)
+                    except ValueError:
+                        pass
+                response.raise_for_status()
+            for line in response.iter_lines():
+                checkpoint()
+                raw_bytes += len(line.encode("utf-8")) + 1
+                if not line:
+                    continue
+                event = json.loads(line)
+                self._check_native_error(event)
+                message = event.get("message") or {}
+                content = message.get("content")
+                if isinstance(content, str):
+                    parts.append(content)
+                if event.get("done"):
+                    final = event
+                    break
+            if final is None:
+                raise ValueError("Ollama stream ended before completion")
+            if (
+                final.get("done_reason") == "length"
+                and final.get("eval_count", 0) < payload["max_output_tokens"]
+            ):
+                self._check_native_error({"error": "context window is full"})
+            result = {
+                "status": "incomplete" if final.get("done_reason") == "length" else "completed",
+                "output": [
+                    {
+                        "type": "message",
+                        "content": [{"type": "output_text", "text": "".join(parts)}],
+                    }
+                ],
+                "usage": {
+                    "input_tokens": final.get("prompt_eval_count"),
+                    "output_tokens": final.get("eval_count"),
+                },
+                "incomplete_details": {"reason": "max_output_tokens"},
+            }
+            return _StreamedResponse(result, response.status_code, response.headers, raw_bytes)
+
+
 class XAIClient(ResponsesClient):
-    # The xAI provider, regardless of AI_PROVIDER: same constructor and payload as before.
+    # The xAI provider, regardless of REPORT_GENERATION_MODEL_TYPE: same constructor and payload as before.
     def __init__(self, settings: Settings) -> None:
         super().__init__(provider_config(replace(settings, ai_provider="xai")), settings)
 
 
-# Build the client for the provider selected by AI_PROVIDER.
+# Build the client for the provider selected by REPORT_GENERATION_MODEL_TYPE.
 def create_ai_client(settings: Settings) -> ResponsesClient:
     if settings.ai_provider == "xai":
         return XAIClient(settings)
     return ResponsesClient(provider_config(settings), settings)
+
+
+def create_report_clients(settings: Settings) -> dict[ReportModel, AIProtocol]:
+    """Independent clients for UI choices; never mutate process-wide settings."""
+    clients: dict[ReportModel, AIProtocol] = {}
+    try:
+        ollama_settings = replace(settings, ai_provider="ollama", ollama_model="gemma4:12b")
+        clients["ollama-gemma4:12b"] = OllamaReportClient(
+            provider_config(ollama_settings), ollama_settings
+        )
+        clients["deepseek"] = create_ai_client(replace(settings, ai_provider="deepseek"))
+        return clients
+    except Exception:
+        for client in clients.values():
+            client.close()
+        raise

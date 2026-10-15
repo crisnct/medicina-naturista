@@ -1,23 +1,20 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useState } from "react";
 import { api, ApiError, errorMessage, isSessionUnavailable } from "../api/client";
-import type { ChatMessage, SearchSignals, ResourceInvalidations, SessionResponse } from "../api/types";
+import type { ChatMessage, ReportModel, SearchSignals, ResourceInvalidations, SessionResponse } from "../api/types";
 
 import { reconcileRetention } from "../lib/retention";
 import type { GenerationFeedback } from "../lib/generationFeedback";
+import { useReportGeneration } from "./useReportGeneration";
 
 const SESSION_KEY = ["session"] as const;
+const REPORT_MODELS_KEY = ["report-models"] as const;
+const DEFAULT_REPORT_MODELS: ReportModel[] = ["ollama-gemma4:12b"];
 
 class AcceptedMessageError extends Error {
   constructor(readonly original: unknown) {
     super("Message accepted, processing failed");
   }
-}
-
-function setBusy(history: ChatMessage[], searchId: string, busy: boolean): ChatMessage[] {
-  return history.map((message) =>
-    message.kind === "generate" && message.searchId === searchId ? { ...message, busy } : message,
-  );
 }
 
 export function useConversation() {
@@ -33,6 +30,13 @@ export function useConversation() {
 
   const sessionQuery = useQuery({ queryKey: SESSION_KEY, queryFn: api.getSession, retry: false });
   const history = sessionQuery.data?.history ?? [];
+  const reportModelsQuery = useQuery({
+    queryKey: REPORT_MODELS_KEY,
+    queryFn: api.getReportModels,
+    retry: false,
+    // Authorization may change in the separate owner tab.
+    refetchOnWindowFocus: "always",
+  });
 
   const reconnectSession = useMutation({
     mutationFn: api.getSession,
@@ -133,81 +137,13 @@ export function useConversation() {
     },
   });
 
-  const generateReport = useMutation({
-    mutationFn: ({ searchId, minScore }: { searchId: string; minScore: number }) =>
-      api.generateReport(searchId, minScore),
-    onMutate: ({ searchId }) => {
-      setGenerationFeedback((old) => {
-        const next = { ...old };
-        delete next[searchId];
-        return next;
-      });
-      queryClient.setQueryData(SESSION_KEY, (old: SessionResponse | undefined) =>
-        old ? { ...old, history: setBusy(old.history, searchId, true) } : old,
-      );
-    },
-    onSuccess: (result, { searchId }) => {
-      if (result.partial) setBanner("Raportul este parțial: unele recomandări nu au putut fi validate.");
-      const ownerNotice = result.ownerNotice;
-      if (ownerNotice) {
-        setGenerationFeedback((old) => ({
-          ...old, [searchId]: { message: ownerNotice, requiresAuthorization: true },
-        }));
-        queryClient.setQueryData(SESSION_KEY, (old: SessionResponse | undefined) =>
-          old ? { ...old, history: setBusy(old.history, searchId, false) } : old,
-        );
-        return;
-      }
-      if (result.cancelled) {
-        setGenerationFeedback((old) => ({
-          ...old, [searchId]: { message: "Generarea a fost întreruptă. Raportul nu a fost salvat; puteți încerca din nou." },
-        }));
-      } else if (!result.messages.some((message) => message.kind === "download")) {
-        const reply = result.messages
-          .filter((message) => message.kind === "text" && message.role === "assistant")
-          .map((message) => message.kind === "text" ? message.content : "")
-          .join("\n");
-        setGenerationFeedback((old) => ({
-          ...old, [searchId]: { message: reply || "Raportul nu a putut fi generat. Încercați din nou." },
-        }));
-      }
-      queryClient.setQueryData(SESSION_KEY, (old: SessionResponse | undefined) => {
-        if (!old) return old;
-        // Keep the reviewed fragments and generation controls in the conversation.
-        // Failures remain inline; completed reports append to the existing history.
-        if (result.cancelled) return { ...old, history: setBusy(old.history, searchId, false) };
-        const generated = result.messages.find((message) => message.kind === "download");
-        if (!generated) return { ...old, history: reconcileRetention(setBusy(old.history, searchId, false), result) };
-        const retainedHistory = setBusy(old.history, searchId, false).filter((message) =>
-          !(message.kind === "text" && message.generationSearchId === searchId),
-        );
-        return {
-          ...old,
-          latestReportId: generated.reportId,
-          history: reconcileRetention([...retainedHistory, ...result.messages], result),
-        };
-      });
-    },
-    retry: false,
-    onError: (error, { searchId }) => {
-      if (isSessionUnavailable(error)) {
-        setNeedsSessionRecovery(true);
-        setBanner("Sesiunea nu mai este disponibilă. Reconectați sesiunea; căutările și rapoartele anterioare pot să nu mai fie disponibile.");
-      } else {
-        setGenerationFeedback((old) => ({
-          ...old, [searchId]: { message: errorMessage(error, "Raportul nu a putut fi generat. Încercați din nou.") },
-        }));
-      }
-      queryClient.setQueryData(SESSION_KEY, (old: SessionResponse | undefined) =>
-        old ? { ...old, history: setBusy(old.history, searchId, false) } : old,
-      );
-    },
-  });
+  const generation = useReportGeneration(sessionQuery.data, setGenerationFeedback, setNeedsSessionRecovery, setBanner);
 
   return {
-    history,
+    history: history.map((message) => message.kind === "generate" ? { ...message, busy: generation.activeSearches.has(message.searchId) } : message),
+    reportModels: reportModelsQuery.data?.models ?? DEFAULT_REPORT_MODELS,
     latestReportId: sessionQuery.data?.latestReportId,
-    generationFeedback,
+    generationFeedback: { ...generationFeedback, ...generation.feedback },
     isLoading: sessionQuery.isLoading,
     isError: sessionQuery.isError,
     sessionError: sessionQuery.error ? errorMessage(sessionQuery.error, "Sesiunea nu a putut fi încărcată.") : null,
@@ -222,7 +158,7 @@ export function useConversation() {
     isSending: sendMessage.isPending,
     isSearching,
     isClassifying,
-    isGenerating: generateReport.isPending,
-    generateReport: (searchId: string, minScore: number) => generateReport.mutate({ searchId, minScore }),
+    isGenerating: generation.isGenerating,
+    generateReport: (searchId: string, minScore: number, model: ReportModel = "ollama-gemma4:12b") => generation.generate(searchId, minScore, model),
   };
 }

@@ -10,6 +10,7 @@ import re
 import secrets
 from contextlib import asynccontextmanager, suppress
 from http.cookies import CookieError, SimpleCookie
+from typing import Literal
 from urllib.parse import quote, urlparse
 
 from fastapi import APIRouter, FastAPI, HTTPException, Request
@@ -18,7 +19,7 @@ from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse, Resp
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, model_validator
 
-from backend.ai.client import create_ai_client
+from backend.ai.client import create_report_clients
 from backend.ai.condition_ai import identify_conditions
 from backend.ai.condition_ai import warm_up as warm_up_condition_ai
 from backend.ai.herb_conditions import lookup_herb_conditions
@@ -31,6 +32,7 @@ from backend.ai.retrieval import Retriever
 from backend.ai.search import SearchSignals
 from backend.ai.search import warm_up as warm_up_search
 from backend.config import Settings, configure_settings
+from backend.core.contracts import AIProtocol, ReportModel
 from backend.core.conversation import (
     WELCOME,
     ConversationService,
@@ -43,6 +45,7 @@ from backend.core.models import (
 )
 from backend.core.owner_auth import OwnerAuth, PostgresOwnerSessionRepository
 from backend.core.rate_limits import RateLimiter
+from backend.core.report_generation import ReportGenerationService
 from backend.core.sessions import SessionStore
 from backend.integrations.gmail import send_report
 from backend.reporting.chat import (
@@ -61,7 +64,7 @@ TAB_ID_RE = re.compile(r"^[A-Za-z0-9_-]{8,64}$")
 OWNER_COOKIE = "naturist_owner"
 CSRF_COOKIE = "naturist_owner_csrf"
 OWNER_COOKIE_MAX_AGE = 31536000
-OWNER_ONLY_MESSAGE = "Generarea raportului este disponibilă doar pentru autorul acestui chatbot."
+OWNER_ONLY_MESSAGE = "Modelul deepseek este disponibil doar pentru admin."
 router = APIRouter()
 
 
@@ -107,17 +110,31 @@ class MessageRequest(BaseModel):
 # relevance_percent is at least this value are sent to the AI (0 = all).
 class GenerateRequest(BaseModel):
     minScore: float = Field(default=0, ge=0, le=100)
+    model: ReportModel = "ollama-gemma4:12b"
+    requestId: str = Field(
+        default_factory=lambda: secrets.token_urlsafe(24), pattern=r"^[A-Za-z0-9_-]{8,64}$"
+    )
 
 
 class GenerateResponse(BaseModel):
-    messages: list[dict]
-    ownerNotice: str | None
+    jobId: str
+    searchId: str
+    state: Literal["accepted", "running", "succeeded", "failed", "cancelled", "timed_out"]
+    stage: str
+    provider: str
+    model: str
+    modelChoice: str
+    createdAt: float
+    deadlineAt: float
+    startedAt: float | None = None
+    finishedAt: float | None = None
+    reportId: str | None = None
     partial: bool = False
     validationWarnings: list[ValidationWarning] = Field(default_factory=list)
-    evictedSearchIds: list[str] = Field(default_factory=list)
-    evictedReportIds: list[str] = Field(default_factory=list)
-    evictedGroupIds: list[str] = Field(default_factory=list)
-    cancelled: bool = False
+    workerActive: bool = False
+    pollAfterMs: int = 3000
+    errorCode: str | None = None
+    message: str | None = None
 
 
 def _deps(request: Request) -> Dependencies:
@@ -237,7 +254,12 @@ def get_session(request: Request):
             )
         finally:
             deps.store.finish_operation(operation)
-    return deps.store.conversation_view(session)
+    view = deps.store.conversation_view(session)
+    if not getattr(request.state, "owner_authorized", False):
+        view["generations"] = [
+            job for job in view["generations"] if job["modelChoice"] != "deepseek"
+        ]
+    return view
 
 
 @router.get("/api/categories")
@@ -257,12 +279,12 @@ def _categories_payload(tree, generation):
     }
 
 
-def _conversation(deps: Dependencies) -> ConversationService:
+def _conversation(deps: Dependencies, ai: AIProtocol | None = None) -> ConversationService:
     return ConversationService(
         deps.settings,
         deps.store,
         deps.retriever,
-        deps.ai,
+        ai if ai is not None else deps.ai,
         deps.identify or identify_conditions,
         deps.email or send_report,
         deps.pdf or create_pdf,
@@ -308,23 +330,77 @@ def post_search(request: Request):
 
 
 def _generate_report(
-    deps: Dependencies, session: SessionData, search_id: str, min_score: float = 0
+    deps: Dependencies,
+    session: SessionData,
+    search_id: str,
+    min_score: float = 0,
+    model: ReportModel = "ollama-gemma4:12b",
 ) -> OperationResult:
-    return _conversation(deps).generate(session, search_id, min_score)
+    ai = deps.report_clients[model] if deps.report_clients is not None else deps.ai
+    return _conversation(deps, ai).generate(session, search_id, min_score)
+
+
+@router.get("/api/report-models")
+def report_models(request: Request):
+    models: list[ReportModel] = ["ollama-gemma4:12b"]
+    if getattr(request.state, "owner_authorized", False):
+        models.append("deepseek")
+    return {"models": models}
 
 
 @router.post(
     "/api/searches/{search_id}/generate",
+    status_code=202,
     response_model=GenerateResponse,
-    response_model_exclude_none=False,
 )
 def generate(search_id: str, request: Request, payload: GenerateRequest | None = None):
     deps = _deps(request)
     session = _current(request)
-    if not getattr(request.state, "owner_authorized", False):
-        return {**OperationResult().as_dict(), "ownerNotice": OWNER_ONLY_MESSAGE}
-    result = _generate_report(deps, session, search_id, payload.minScore if payload else 0)
-    return {**result.as_dict(), "ownerNotice": None}
+    options = payload or GenerateRequest()
+    if options.model == "deepseek" and not getattr(request.state, "owner_authorized", False):
+        raise ApplicationError("MODEL_FORBIDDEN", OWNER_ONLY_MESSAGE, 403)
+    ai = deps.report_clients[options.model] if deps.report_clients is not None else deps.ai
+    service: ReportGenerationService = request.app.state.report_generation
+    result = service.start(
+        _conversation(deps, ai),
+        session,
+        search_id,
+        options.minScore,
+        options.requestId,
+        options.model,
+    )
+    return JSONResponse(
+        result,
+        status_code=202,
+        headers={
+            "Location": f"{deps.settings.public_root_path}/api/report-generations/{result['jobId']}",
+            "Cache-Control": "no-store",
+        },
+    )
+
+
+def _generation_status(request: Request, job_id: str, *, cancel: bool = False):
+    deps = _deps(request)
+    session = _current(request)
+    deps.request_limiter.check(
+        (f"poll:{session.lifetime_id}", 120), (f"poll-ip:{_client_ip(request)}", 240)
+    )
+    status = deps.store.generation(session, job_id)
+    if status["modelChoice"] == "deepseek" and not getattr(
+        request.state, "owner_authorized", False
+    ):
+        raise ApplicationError("MODEL_FORBIDDEN", OWNER_ONLY_MESSAGE, 403)
+    return deps.store.generation(session, job_id, cancel=True) if cancel else status
+
+
+@router.get("/api/report-generations/{job_id}", response_model=GenerateResponse)
+def generation_status(job_id: str, request: Request):
+    return _generation_status(request, job_id)
+
+
+@router.post("/api/report-generations/{job_id}/cancel", response_model=GenerateResponse)
+def cancel_generation(job_id: str, request: Request):
+    return _generation_status(request, job_id, cancel=True)
 
 
 @router.post("/api/session/end")
@@ -555,7 +631,8 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
         owned = dependencies is None
         cleanup_task = None
         runtime = dependencies
-        session_store = ai = auth = classifier = None
+        session_store = auth = classifier = None
+        report_clients: dict[ReportModel, AIProtocol] = {}
         try:
             if owned:
                 cfg = config or Settings.from_env(dotenv=True)
@@ -570,7 +647,8 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                 session_store = SessionStore(
                     cfg.temp_dir, cfg.session_idle_seconds, cfg.session_max_seconds, cfg
                 )
-                ai = create_ai_client(cfg)
+                report_clients = create_report_clients(cfg)
+                ai = report_clients["ollama-gemma4:12b"]
                 classifier = MessageClassifier(cfg, herb_catalog=load_herbs)
                 auth = OwnerAuth(cfg.owner_key, PostgresOwnerSessionRepository(cfg.database_url))
                 retriever = await asyncio.to_thread(Retriever, cfg.documents_dir)
@@ -584,6 +662,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     RateLimiter(),
                     secrets.token_bytes(32),
                     classify=classifier,
+                    report_clients=report_clients,
                 )
                 application.state.dependencies = runtime
                 application.root_path = cfg.public_root_path
@@ -598,6 +677,8 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     except Exception as exc:
                         logger.warning("warm_up_failed type=%s", type(exc).__name__)
             assert runtime is not None
+            if not hasattr(application.state, "report_generation"):
+                application.state.report_generation = ReportGenerationService(runtime.store)
 
             async def cleanup():
                 while True:
@@ -609,18 +690,28 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
             cleanup_task = asyncio.create_task(cleanup())
             yield
         finally:
+            drained = True
             if cleanup_task:
                 cleanup_task.cancel()
                 with suppress(asyncio.CancelledError):
                     await cleanup_task
             if runtime:
                 runtime.store.shutdown()
-                await asyncio.to_thread(runtime.store.wait_workers)
+                drained = await asyncio.to_thread(
+                    runtime.store.wait_workers, runtime.settings.report_shutdown_timeout_seconds
+                )
+                if hasattr(application.state, "report_generation"):
+                    await asyncio.to_thread(application.state.report_generation.close, wait=drained)
+                if not drained:
+                    logger.warning(
+                        "report_shutdown_pending_workers timeout_seconds=%s",
+                        runtime.settings.report_shutdown_timeout_seconds,
+                    )
             elif session_store:
                 session_store.shutdown()
-            if owned:
-                if ai:
-                    ai.close()
+            if owned and drained:
+                for client in report_clients.values():
+                    client.close()
                 if classifier:
                     classifier.close()
                 if auth:
@@ -640,6 +731,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
     )
     if dependencies:
         application.state.dependencies = dependencies
+        application.state.report_generation = ReportGenerationService(dependencies.store)
 
     @application.exception_handler(ApplicationError)
     async def controlled_error(request: Request, exc: ApplicationError):

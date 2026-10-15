@@ -1,7 +1,7 @@
 import { act, renderHook, waitFor } from "@testing-library/react";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import type { PropsWithChildren } from "react";
-import { afterEach, describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { api, ApiError } from "../api/client";
 import { useConversation } from "./useConversation";
 import type { ChatMessage } from "../api/types";
@@ -19,6 +19,7 @@ function mount() {
 }
 
 afterEach(() => vi.restoreAllMocks());
+beforeEach(() => vi.spyOn(api, "getReportModels").mockResolvedValue({ models: ["ollama-gemma4:12b"] }));
 
 describe("conversation resource reconciliation", () => {
   it("classifies before searching and skips condition identification for diverse", async () => {
@@ -86,7 +87,7 @@ describe("conversation resource reconciliation", () => {
     const { result } = mount();
     await waitFor(() => expect(result.current.isLoading).toBe(false));
     act(() => result.current.generateReport("s", 0));
-    await waitFor(() => expect(result.current.banner).toBe("Buget insuficient."));
+    await waitFor(() => expect(result.current.generationFeedback.s?.message).toBe("Buget insuficient."));
     expect(generate).toHaveBeenCalledTimes(1);
     expect(result.current.history[1]).toMatchObject({ kind: "generate", busy: false });
   });
@@ -97,7 +98,7 @@ describe("conversation resource reconciliation", () => {
     const { result } = mount();
     await waitFor(() => expect(result.current.isLoading).toBe(false));
     act(() => result.current.sendMessage("new", ["removed"], signals));
-    await waitFor(() => expect(result.current.banner).toBe("Selectați din nou sursele."));
+    await waitFor(() => expect(result.current.banner).toContain("Selectați din nou sursele."));
     expect(search).toHaveBeenCalledTimes(1);
     expect(api.sendMessage).toHaveBeenCalledTimes(1);
   });

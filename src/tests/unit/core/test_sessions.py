@@ -21,7 +21,7 @@ class SessionTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory()
         self.addCleanup(self.temp.cleanup)
         self.now = 100.0
-        self.config = replace(Settings(), max_sessions_per_ip=10)
+        self.config = Settings()
         self.store = SessionStore(
             Path(self.temp.name), 60, 120, self.config, clock=lambda: self.now
         )
@@ -169,9 +169,9 @@ class SessionTests(unittest.TestCase):
         self.store.finish_operation(a)
         self.store.finish_operation(b)
 
-    def test_last_global_and_client_slots_are_atomic(self):
+    def test_last_global_slot_is_atomic(self):
         self.store.delete("cookie", "tab")
-        self.store.limits = replace(self.config, max_active_sessions=1, max_sessions_per_ip=1)
+        self.store.limits = replace(self.config, max_active_sessions=1)
         barrier = threading.Barrier(8)
 
         def create(i):
@@ -449,23 +449,20 @@ class SessionTests(unittest.TestCase):
             )
         )
 
-    def test_cookie_and_ip_last_slots_are_atomic_independently(self):
+    def test_tabs_and_browsers_on_the_same_ip_have_independent_sessions(self):
         self.store.delete("cookie", "tab")
-        for cookie_limit in (True, False):
-            with self.subTest(cookie_limit=cookie_limit):
-                self.store.limits = replace(
-                    self.config, max_sessions_per_cookie=1, max_sessions_per_ip=1
-                )
+        for same_browser in (True, False):
+            with self.subTest(same_browser=same_browser):
                 barrier = threading.Barrier(4)
 
                 def create(index):
                     barrier.wait()
                     try:
                         return self.store.get(
-                            "same" if cookie_limit else f"cookie{index}",
+                            "same" if same_browser else f"cookie{index}",
                             f"tab{index}",
                             True,
-                            client_ip=f"ip{index}" if cookie_limit else "same",
+                            client_ip="same",
                         )
                     except ApplicationError as error:
                         return error
@@ -474,16 +471,17 @@ class SessionTests(unittest.TestCase):
                     results = list(executor.map(create, range(4)))
                 self.assertEqual(
                     sum(not isinstance(result, ApplicationError) for result in results),
-                    1,
+                    4,
                 )
-                self.assertTrue(
-                    all(
-                        result.status == 429
-                        for result in results
-                        if isinstance(result, ApplicationError)
-                    )
+                self.assertEqual(self.store.count(), 4)
+                first, *others = results
+                operation = self.store.begin_operation(first, "message")
+                self.store.commit_operation(
+                    operation, CommitChange(messages=[{"content": "Only the first tab"}])
                 )
-                winner = next(
-                    result for result in results if not isinstance(result, ApplicationError)
-                )
-                self.store.delete(winner.cookie_id, winner.tab_id)
+                self.store.finish_operation(operation)
+                self.store.delete(first.cookie_id, first.tab_id)
+                for session in others:
+                    self.assertEqual(self.store.history(session), [])
+                    self.assertFalse(session.closed)
+                    self.store.delete(session.cookie_id, session.tab_id)

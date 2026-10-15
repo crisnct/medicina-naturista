@@ -27,6 +27,7 @@ services:
         PUBLIC_BASE_PATH: ${PUBLIC_ROOT_PATH:-/medicina}
     restart: unless-stopped
     container_name: medicina
+    stop_grace_period: 30s
     init: true
     read_only: true
     user: "10001:10001"
@@ -38,7 +39,7 @@ services:
       db:
         condition: service_healthy
     environment:
-      AI_PROVIDER: ${AI_PROVIDER:-xai}
+      REPORT_GENERATION_MODEL_TYPE: ${REPORT_GENERATION_MODEL_TYPE:-xai}
       X_API_KEY: ${X_API_KEY:-}
       MAIL_FROM: ${MAIL_FROM:-}
       GMAIL_USERNAME: ${GMAIL_USERNAME:-}
@@ -70,9 +71,14 @@ services:
       CONDITION_AI_MAX_OUTPUT_TOKENS: ${CONDITION_AI_MAX_OUTPUT_TOKENS:-300}
       MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS: ${MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS:-10}
       MESSAGE_CLASSIFICATION_MAX_OUTPUT_TOKENS: ${MESSAGE_CLASSIFICATION_MAX_OUTPUT_TOKENS:-300}
-      AI_STREAM: ${AI_STREAM:-false}
-      AI_MAX_OUTPUT_TOKENS: ${AI_MAX_OUTPUT_TOKENS:-20000}
-      AI_READ_TIMEOUT_SECONDS: ${AI_READ_TIMEOUT_SECONDS:-300}
+      REPORT_GENERATION_AI_STREAM: ${REPORT_GENERATION_AI_STREAM:-false}
+      REPORT_GENERATION_MAX_OUTPUT_TOKENS: ${REPORT_GENERATION_MAX_OUTPUT_TOKENS:-20000}
+      REPORT_GENERATION_READ_TIMEOUT_SECONDS: ${REPORT_GENERATION_READ_TIMEOUT_SECONDS:-300}
+      REPORT_GENERATION_TIMEOUT_SECONDS: ${REPORT_GENERATION_TIMEOUT_SECONDS:-600}
+      REPORT_SHUTDOWN_TIMEOUT_SECONDS: ${REPORT_SHUTDOWN_TIMEOUT_SECONDS:-20}
+      OPERATION_TIMEOUT_SECONDS: ${OPERATION_TIMEOUT_SECONDS:-600}
+      SESSION_RECONNECT_GRACE_SECONDS: ${SESSION_RECONNECT_GRACE_SECONDS:-30}
+      MAX_CONCURRENT_GENERATIONS: ${MAX_CONCURRENT_GENERATIONS:-1}
       DOCUMENTS_DIR: /app/medicina-naturista-documente/data/documents
       DATABASE_URL: postgresql://${POSTGRES_USER:-medicina}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-medicina}
       MODEL_CACHE_DIR: /app/model_cache
@@ -81,8 +87,6 @@ services:
       PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:-}
       SESSION_IDLE_SECONDS: ${SESSION_IDLE_SECONDS:-3600}
       SESSION_MAX_SECONDS: ${SESSION_MAX_SECONDS:-14400}
-      MAX_SESSIONS_PER_COOKIE: ${MAX_SESSIONS_PER_COOKIE:-1}
-      MAX_SESSIONS_PER_IP: ${MAX_SESSIONS_PER_IP:-1}
       MAX_CHAT_CHARS: ${MAX_CHAT_CHARS:-4000}
       MAX_REQUESTS_PER_MINUTE: ${MAX_REQUESTS_PER_MINUTE:-60}
       LOG_LEVEL: ${LOG_LEVEL:-INFO}
@@ -104,7 +108,10 @@ services:
     tmpfs:
       - /tmp:size=536870912,mode=1777
     # Host Ollama serves message classification, condition identification and,
-    # when AI_PROVIDER=ollama, report generation. Start it outside Compose.
+    # when REPORT_GENERATION_MODEL_TYPE=ollama, report generation. Start it outside Compose.
+    # Set on Windows: OLLAMA_FLASH_ATTENTION=1, OLLAMA_KV_CACHE_TYPE=q4_0,
+    # OLLAMA_NUM_PARALLEL=1, OLLAMA_CONTEXT_LENGTH=262144; then restart Ollama.
+    # These server settings do not take effect in the app container's environment.
     extra_hosts:
       - "host.docker.internal:host-gateway"
     ports:

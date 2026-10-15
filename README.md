@@ -20,7 +20,7 @@
 
 ## ✨ Despre proiect
 
-Proiectul transformă o colecție locală de documente Markdown despre medicină naturistă și terapii complementare într-un index hibrid interogabil. Interfața web primește problema descrisă de utilizator și afișează fragmentele relevante găsite în arhiva locală. După verificarea fragmentelor și acțiunea unui utilizator autorizat, trimite dovezile către furnizorul AI ales (`AI_PROVIDER`: xAI, DeepSeek, Hugging Face sau Ollama) pentru redactarea răspunsului structurat și generează un raport PDF cu trimiteri la surse.
+Proiectul transformă o colecție locală de documente Markdown despre medicină naturistă și terapii complementare într-un index hibrid interogabil. Interfața web primește problema descrisă de utilizator și afișează fragmentele relevante găsite în arhiva locală. După verificarea fragmentelor, utilizatorul alege modelul pentru fiecare raport: `ollama-gemma4:12b` este disponibil tuturor, iar `deepseek` doar adminului autorizat prin `/owner`. Aplicația trimite dovezile către furnizorul ales pentru redactarea răspunsului structurat și generează un raport PDF cu trimiteri la surse.
 
 | 🧩 Componentă | Rol |
 |---|---|
@@ -44,7 +44,7 @@ Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pent
 - **Diverse:** căutare după mesajul original, fără identificarea afecțiunii prin AI și fără notificările despre afecțiunea necunoscută. Generarea raportului naturist rămâne ca în fluxul de remedii.
 - **Email raport:** adresă validată local și PDF-ul precedent din aceeași sesiune; fără căutare nouă. Mesajul poate fi o adresă singură sau o cerere precum „Trimite raportul la nume@example.com”.
 
-Clasificarea trimite către Ollama local numai mesajul și context minimal de rutare, fără PDF sau corpus. Refolosește `CONDITION_AI_LOCAL_BASE` și `MEDICAL_CONDITION_AI_LOCAL_MODEL`, cu temperatura 0, fără cheie API și fără fallback Hugging Face. Schema JSON impune una dintre cele cinci intenții și câmpurile permise; validarea strictă se repetă în aplicație. Numele și aliasurile plantelor sunt recunoscute și în catalogul local, fără diferențe de diacritice sau cratime. Un nume explicit completează clarificarea. Dacă numele corespunde mai multor plante, aplicația afișează numele românești și latine și cere alegerea utilizatorului; aceasta selectează o singură specie și asocierile ei. Este independentă de `AI_PROVIDER`. La eșec se continuă cu fluxul existent, cu o notificare; cererile explicite de email cer clarificare, iar o adresă singură păstrează comanda deterministă existentă. Cererile neclare solicită planta sau destinatarul. Clasificarea și expedierea nu sunt reîncercate automat; identificatorul mesajului și revizia previn repetarea aceleiași expediții.
+Clasificarea trimite către Ollama local numai mesajul și context minimal de rutare, fără PDF sau corpus. Refolosește `CONDITION_AI_LOCAL_BASE` și `MEDICAL_CONDITION_AI_LOCAL_MODEL`, cu temperatura 0, fără cheie API și fără fallback Hugging Face. Schema JSON impune una dintre cele cinci intenții și câmpurile permise; validarea strictă se repetă în aplicație. Numele și aliasurile plantelor sunt recunoscute și în catalogul local, fără diferențe de diacritice sau cratime. Un nume explicit completează clarificarea. Dacă numele corespunde mai multor plante, aplicația afișează numele românești și latine și cere alegerea utilizatorului; aceasta selectează o singură specie și asocierile ei. Este independentă de `REPORT_GENERATION_MODEL_TYPE`. La eșec se continuă cu fluxul existent, cu o notificare; cererile explicite de email cer clarificare, iar o adresă singură păstrează comanda deterministă existentă. Cererile neclare solicită planta sau destinatarul. Clasificarea și expedierea nu sunt reîncercate automat; identificatorul mesajului și revizia previn repetarea aceleiași expediții.
 
 Diagrama actualizată: [chatbot-external-connections.xmind](architecture/chatbot-external-connections.xmind). Clasificarea și rutarea mesajelor (XMind 8): [message-classification-plan.xmind](architecture/message-classification-plan.xmind).
 
@@ -59,12 +59,12 @@ Diagrama actualizată: [chatbot-external-connections.xmind](architecture/chatbot
         ↓
 👁️ utilizatorul verifică fragmentele găsite
         ↓
-🤖 utilizator autorizat: request structurat către furnizorul AI
+🤖 model ales: Ollama pentru toți utilizatorii / DeepSeek doar pentru admin
         ↓
 💬 recomandări în chat  +  📄 raport PDF  +  ✉️ e-mail opțional
 ```
 
-> **Local vs. extern:** documentele, fragmentarea, indexarea și retrieval-ul rulează local. Generarea trimite profilul consultației și fragmentele selectate către furnizorul configurat prin `AI_PROVIDER`. Ollama poate folosi un model local sau unul Cloud; modelul implicit de generare are sufixul `:cloud`. Identificarea unei afecțiuni necunoscute trimite numai mesajul către Ollama de pe host. La timeout, eroare de comunicare sau răspuns invalid, afecțiunea rămâne neidentificată; nu se apelează alt furnizor AI. Livrarea prin Gmail este opțională.
+> **Local vs. extern:** documentele, fragmentarea, indexarea și retrieval-ul rulează local. Generarea trimite profilul consultației și fragmentele selectate către modelul ales în UI: `gemma4:12b` prin `OLLAMA_API_BASE`, respectiv modelul configurat în `DEEPSEEK_MODEL` prin API-ul DeepSeek. Selecția se aplică doar raportului curent, fără modificarea variabilelor de mediu sau fallback la alt furnizor. Identificarea unei afecțiuni necunoscute trimite numai mesajul către Ollama de pe host. La timeout, eroare de comunicare sau răspuns invalid, afecțiunea rămâne neidentificată; nu se apelează alt furnizor AI. Livrarea prin Gmail este opțională.
 
 ## 🛠️ Tehnologii folosite
 
@@ -75,7 +75,7 @@ Diagrama actualizată: [chatbot-external-connections.xmind](architecture/chatbot
 | **Embeddings locale** | FastEmbed, ONNX Runtime, `Qwen/Qwen3-Embedding-0.6B` (indexare opțională pe GPU, PyTorch fp16) |
 | **Stocare index** | PostgreSQL, `pgvector` (similaritate cosinus), `unaccent` + `tsvector` (căutare lexicală) |
 | **Scorul fragmentelor** | `4·P1 + 2·P2 + L + V` cu toate semnalele, cu prioritate pentru afecțiunea din titlu, apoi din text; pacientul poate alege oricare combinație de semnale |
-| **Generare AI** | Responses API (xAI, DeepSeek, Hugging Face sau Ollama, după `AI_PROVIDER`), răspuns JSON structurat |
+| **Generare AI** | Ollama `/api/chat` nativ sau DeepSeek Responses API (doar admin), ales pentru fiecare raport, răspuns JSON structurat |
 | **Documente** | ReportLab pentru PDF, pypdf pentru procesare și verificare |
 | **E-mail** | Gmail API, OAuth2 cu refresh token |
 | **Configurare** | python-dotenv, variabile de mediu |
@@ -87,7 +87,7 @@ Diagrama actualizată: [chatbot-external-connections.xmind](architecture/chatbot
 | Document | Ce explică |
 |---|---|
 | 🧠 [Fluxul de generare a indexului hibrid (XMind 8)](architecture/hybrid-index-generation.xmind) | Fluxul complet: documente → sincronizare incrementală (SHA-256) → fragmente R1/R2/D1 → embeddings → Postgres (`pgvector` + `tsvector`). |
-| 📄 [Fluxul de generare a raportului final (XMind 8)](architecture/final-report-generation.xmind) | Fluxul complet: mesaj → retrieval hibrid → fragmente afișate pacientului → „Generează raportul” (owner) → furnizorul AI → PDF → download și trimitere pe e-mail către altă persoană. |
+| 📄 [Fluxul de generare a raportului final (XMind 8)](architecture/final-report-generation.xmind) | Fluxul complet: mesaj → retrieval hibrid → fragmente afișate pacientului → „Generează raportul” → furnizorul AI → PDF → download și trimitere pe e-mail către altă persoană. |
 | 🔎 [Căutarea și scoringul fragmentelor (XMind 8)](architecture/fragment-search-and-scoring.xmind) | Fluxul complet: mesaj → afecțiuni recunoscute → scor (`4·P1 + 2·P2 + L + V` cu toate semnalele alese) pentru toate fragmentele → procent de relevanță → limitarea contextului. |
 
 ## 📁 Structura proiectului
@@ -231,11 +231,12 @@ $env:PYTHONPATH = "src"
 
 ### 4. Pornirea aplicației în dezvoltare
 
-Adăugați în fișierul local `.env` cel puțin cheia furnizorului AI ales (implicit xAI) și cheia de owner, fără de care nimeni nu poate genera rețeta:
+Pentru rapoarte, instalați modelul `gemma4:12b` în Ollama pe host. Pentru opțiunea DeepSeek a adminului, adăugați cheia DeepSeek și cheia de owner în fișierul local `.env`:
 
 ```dotenv
-AI_PROVIDER=xai
-X_API_KEY=...
+REPORT_GENERATION_MODEL_TYPE=ollama
+OLLAMA_MODEL=gemma4:12b
+DEEPSEEK_API_KEY=...
 OWNER_KEY=o-cheie-secreta-lunga
 COOKIE_SECURE=false
 ```
@@ -286,15 +287,16 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 | `POST /api/classify` | Aplică scurtăturile deterministe sau clasifică prin Ollama local; rutează spre `remedii`, `planta`, `top_plante`, `diverse` sau `email_raport`. Necesită `X-Context-Revision`. |
 | `POST /api/condition` | Identifică prin AI afecțiunea pe care dicționarul nu o cunoaște (Ollama local, fără fallback). |
 | `POST /api/search` | Rulează căutarea și întoarce fragmentele găsite și secțiunea „Generează raportul”. |
-| `POST /api/searches/{search_id}/generate` | Doar owner: trimite către AI fragmentele cu relevanța ≥ `minScore` și generează PDF-ul. |
+| `GET /api/report-models` | Modelele permise pentru browserul curent: `ollama-gemma4:12b` pentru toți, plus `deepseek` pentru admin. |
+| `POST /api/searches/{search_id}/generate` | Primește `minScore` și `model` (`ollama-gemma4:12b` implicit sau `deepseek`). DeepSeek fără autorizare admin → HTTP 403; model necunoscut → HTTP 422. Aplică pragul și bugetul modelului ales, apoi generează PDF-ul. |
 | `GET /api/reports/{tab_id}/{report_id}` | Descarcă PDF-ul generat în sesiunea tabului. |
 | `POST /api/session/end`, `POST /api/session/unload` | Închid sesiunea tabului (la cerere, respectiv la închiderea paginii). |
 
 ## Sesiuni, retenție și autorizare owner
 
-- **Sesiuni:** conversațiile sunt separate pe tab. Implicit este permisă o singură sesiune activă per browser și per IP (`MAX_SESSIONS_PER_COOKIE=1`, `MAX_SESSIONS_PER_IP=1`); utilizatorii din aceeași rețea/NAT împart limita IP. Un tab sau browser suplimentar afișează blocarea și opțiunea „Verifică din nou”.
+- **Sesiuni:** aplicația poate fi deschisă simultan în mai multe taburi sau browsere de pe același PC/IP. Fiecare încărcare completă a paginii, inclusiv refresh, Shift+F5 sau duplicarea tabului, începe o conversație nouă. Identificatorul este păstrat doar în memoria paginii; reîncercările și reconectările din aceeași pagină continuă conversația curentă. Rămân active limita globală de sesiuni și limitele de creare a sesiunilor pe minut.
 - **Retenție:** istoricul, fragmentele și PDF-urile rămân în memoria procesului. Sesiunea expiră după o oră de inactivitate sau cel mult patru ore (`SESSION_IDLE_SECONDS`, `SESSION_MAX_SECONDS`). Închiderea paginii încearcă să închidă sesiunea; dacă notificarea nu ajunge la server, expirarea eliberează datele. Repornirea aplicației le elimină. Se păstrează cel mult 12 căutări și 12 rapoarte per sesiune, în limitele bugetelor de memorie.
-- **Owner:** setați `OWNER_KEY` și autentificați browserul prin formularul `/owner`. Generarea raportului este disponibilă numai unui browser autorizat. PostgreSQL păstrează hashul tokenului și date tehnice, fără conversații sau PDF-uri. Autorizarea supraviețuiește restartului; logoutul o revocă, iar schimbarea cheii invalidează tokenurile existente.
+- **Owner / admin:** setați `OWNER_KEY` și autentificați browserul prin formularul `/owner` pentru a folosi `deepseek`. Generarea cu `ollama-gemma4:12b` este disponibilă și fără autorizare. Selectorul „Model AI” urmează câmpului „Scor minim”; lista se actualizează la revenirea în pagină după autentificare. API-ul verifică autorizarea la fiecare generare DeepSeek. PostgreSQL păstrează hashul tokenului și date tehnice, fără conversații sau PDF-uri. Autorizarea supraviețuiește restartului; logoutul o revocă, iar schimbarea cheii invalidează tokenurile existente.
 
 ## Catalogul de plante
 
@@ -349,7 +351,22 @@ Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit î
 
 Înainte de build/pornire, trebuie să existe `medicina-naturista-documente/data/documents/`, `model_cache/` (cu modelul de embeddings deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Stiva are trei servicii: `db`, `app` și `caddy`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) este expus doar pe `127.0.0.1:5432` (`DB_HOST_PORT`), astfel încât indexul se sincronizează de pe host cu `python src/scripts/build_hybrid_index.py` (cu `PYTHONPATH=src` și un `DATABASE_URL` spre `127.0.0.1` cu parola `POSTGRES_PASSWORD`).
 
-**Ollama rulează separat, pe host (Windows), și trebuie pornit înaintea aplicației.** Containerul `app` îl accesează prin `http://host.docker.internal:11434/v1`, atât pentru clasificarea mesajelor și identificarea afecțiunilor (`CONDITION_AI_LOCAL_BASE`), cât și pentru generare când `AI_PROVIDER=ollama` (`OLLAMA_API_BASE`). Descărcați modelul pe host, de exemplu `ollama pull gemma3:1b`, sau modelul ales în `MEDICAL_CONDITION_AI_LOCAL_MODEL`. Modelele sunt administrate de instalarea Ollama de pe host.
+**Ollama rulează separat, pe host (Windows), și trebuie pornit înaintea aplicației.** Containerul `app` îl accesează prin `http://host.docker.internal:11434/v1`, atât pentru clasificarea mesajelor și identificarea afecțiunilor (`CONDITION_AI_LOCAL_BASE`), cât și pentru rapoartele cu `ollama-gemma4:12b` (`OLLAMA_API_BASE`). Descărcați modelul de raport cu `ollama pull gemma4:12b` și modelul ales în `MEDICAL_CONDITION_AI_LOCAL_MODEL` (implicit `gemma3:1b`). Modelele sunt administrate de instalarea Ollama de pe host.
+
+Pentru rapoartele `ollama-gemma4:12b`, clientul derivă `/api/chat` din `OLLAMA_API_BASE` eliminând sufixul `/v1`. Folosește format JSON nativ, `truncate=false` și `shift=false`: intrarea nu este scurtată automat și nu sunt eliminate porțiuni din context pentru a continua generarea. O depășire a contextului este raportată ca `AI_CONTEXT_LIMIT_EXCEEDED`, cu mesajul de a selecta mai puține fragmente sau de a crește scorul minim. Contextul modelului rămâne maxim; bugetul în caractere nu este o garanție de încadrare în tokeni. Intrarea, instrucțiunile și ieșirea trebuie să încapă împreună în context. Clasificarea și identificarea afecțiunilor păstrează clientul Responses existent.
+
+Pentru `gemma4:12b` cu contextul maxim de 262.144 tokeni, configurația de performanță măsurată pe GPU-ul local folosește următoarele variabile **pe Windows**, în PowerShell:
+
+```powershell
+[Environment]::SetEnvironmentVariable("OLLAMA_FLASH_ATTENTION", "1", "User")
+[Environment]::SetEnvironmentVariable("OLLAMA_KV_CACHE_TYPE", "q4_0", "User")
+[Environment]::SetEnvironmentVariable("OLLAMA_NUM_PARALLEL", "1", "User")
+[Environment]::SetEnvironmentVariable("OLLAMA_CONTEXT_LENGTH", "262144", "User")
+```
+
+Închideți complet Ollama din zona de notificări și porniți-l din nou din Start. Verificați în jurnalul `%LOCALAPPDATA%\Ollama\server.log` valorile efective și `offloaded …/49`; aplicația desktop poate avea setări proprii. Aceste variabile configurează serverul Ollama, nu clientul Python: adăugarea lor în `.env` sau în mediul serviciului Compose `app` nu schimbă Ollama de pe host.
+
+`q4_0` reduce precizia cache-ului KV; măsurarea vitezei nu validează calitatea rapoartelor la intrări lungi. `OLLAMA_NUM_PARALLEL=1` păstrează o singură cerere simultană: creșterea valorii necesită mai multă memorie pentru contexte și nu accelerează un raport individual. Aplicația limitează separat generările prin `MAX_CONCURRENT_GENERATIONS`, implicit 1. Rezultatele locale și limitele măsurării sunt în [investigația Ollama](aiPlans/2026-10-15-investigare-performanta-ollama.md).
 
 ```dotenv
 CONDITION_AI_LOCAL_BASE=http://host.docker.internal:11434/v1
@@ -395,35 +412,35 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 
 | Variabilă | Implicit | Rol |
 |---|---:|---|
-| `AI_PROVIDER` | `xai` | Furnizorul AI pentru generarea raportului: `xai`, `huggingface`, `ollama` sau `deepseek`. Valoare necunoscută → eroare la pornire; schimbarea cere repornirea aplicației. |
-| `X_API_KEY` | — | Cheia xAI (necesară cu `AI_PROVIDER=xai`). |
+| `REPORT_GENERATION_MODEL_TYPE` | `xai` | Furnizorul implicit al fabricii generice de clienți: `xai`, `huggingface`, `ollama` sau `deepseek`. Valoare necunoscută → eroare la pornire. Rapoartele web folosesc selecția din UI, independent de această valoare. |
+| `X_API_KEY` | — | Cheia xAI (necesară cu `REPORT_GENERATION_MODEL_TYPE=xai`). |
 | `XAI_MODEL` | `grok-4.3` | Modelul xAI folosit pentru redactare. |
 | `XAI_REASONING_EFFORT` | `medium` (direct) / `low` (Docker Compose) | Nivelul de reasoning solicitat. |
 | `XAI_API_BASE` | `https://api.x.ai/v1` | URL-ul de bază al API-ului xAI. |
-| `HF_TOKEN` | — | Token Hugging Face cu permisiunea „Make calls to Inference Providers”; necesar cu `AI_PROVIDER=huggingface`. |
+| `HF_TOKEN` | — | Token Hugging Face cu permisiunea „Make calls to Inference Providers”; necesar cu `REPORT_GENERATION_MODEL_TYPE=huggingface`. |
 | `HF_MODEL` | `deepseek-ai/DeepSeek-V4-Flash:deepinfra` | Modelul prin routerul HF; sufixul `:deepinfra` fixează furnizorul. |
 | `HF_API_BASE` | `https://router.huggingface.co/v1` | URL-ul de bază al routerului HF; clientul apelează ruta `/responses`. |
 | `HF_REASONING_EFFORT` | _(gol)_ | `low`/`medium`/`high`; se trimite doar dacă este setat. |
-| `HF_MAX_CONTEXT_CHARS` | `120000` | Bugetul de caractere al fragmentelor pentru `AI_PROVIDER=huggingface`; nu reprezintă o limită de tokeni garantată de furnizor. |
-| `DEEPSEEK_API_KEY` | — | Cheia API de pe platform.deepseek.com (necesară cu `AI_PROVIDER=deepseek`). |
+| `HF_MAX_CONTEXT_CHARS` | `120000` | Bugetul de caractere al fragmentelor pentru `REPORT_GENERATION_MODEL_TYPE=huggingface`; nu reprezintă o limită de tokeni garantată de furnizor. |
+| `DEEPSEEK_API_KEY` | — | Cheia API de pe platform.deepseek.com, necesară când adminul alege `deepseek`. Lipsa ei nu blochează rapoartele Ollama. |
 | `DEEPSEEK_MODEL` | `deepseek-flash` | Identificatorul modelului trimis către DeepSeek (prin Responses API: `POST {DEEPSEEK_API_BASE}/responses`). |
 | `DEEPSEEK_API_BASE` | `https://api.deepseek.com` | URL-ul de bază al API-ului DeepSeek. |
 | `DEEPSEEK_REASONING_EFFORT` | _(gol)_ | Se trimite doar dacă este setat. |
-| `DEEPSEEK_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru `AI_PROVIDER=deepseek`. |
+| `DEEPSEEK_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru `REPORT_GENERATION_MODEL_TYPE=deepseek`. |
 | `OLLAMA_API_BASE` | `http://localhost:11434/v1` | Baza Ollama; în Docker Compose `http://host.docker.internal:11434/v1`. |
-| `OLLAMA_MODEL` | `deepseek-v4.1-flash:cloud` | Modelul Ollama (`:cloud` rulează pe serverele Ollama, după `ollama signin`). |
+| `OLLAMA_MODEL` | `deepseek-v4.1-flash:cloud` | Modelul fabricii generice Ollama. Opțiunea web `ollama-gemma4:12b` fixează modelul `gemma4:12b`, indiferent de această valoare. |
 | `OLLAMA_API_KEY` | — | Necesară doar când `OLLAMA_API_BASE` nu este local (ex. `https://ollama.com/v1`). |
 | `OLLAMA_REASONING_EFFORT` | _(gol)_ | Se trimite doar dacă este setat. |
-| `OLLAMA_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru `AI_PROVIDER=ollama`; pentru modele locale mici trebuie coborât. |
+| `OLLAMA_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru `REPORT_GENERATION_MODEL_TYPE=ollama`; pentru modele locale mici trebuie coborât. |
 | `MEDICAL_CONDITION_AI_LOCAL_MODEL` | `gemma3:1b` | Modelul Ollama local pentru clasificarea mesajului și identificarea afecțiunii; se descarcă pe host cu `ollama pull <model>`, inclusiv când aplicația rulează în Docker. |
 | `CONDITION_AI_LOCAL_BASE` | `http://localhost:11434/v1` (direct) / `http://host.docker.internal:11434/v1` (Compose) | Adresa Ollama de pe host, folosită pentru clasificarea mesajului și identificarea afecțiunii. |
 | `CONDITION_AI_TIMEOUT_SECONDS` | `10` | Timeout pentru identificarea afecțiunii prin Ollama local. |
 | `MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS` | `10` | Timeout la clasificare prin Ollama local, independent de identificarea afecțiunii. |
 | `MESSAGE_CLASSIFICATION_MAX_OUTPUT_TOKENS` | `300` | Bugetul JSON de clasificare. |
 | `CONDITION_AI_MAX_OUTPUT_TOKENS` | `300` | Limita răspunsului (un JSON mic) la identificarea afecțiunii. |
-| `AI_STREAM` | `false` | Cere răspunsul ca flux de evenimente (`stream: true`). Timeoutul de citire se aplică între evenimente, deci evită tăierea cererilor lungi de un proxy (ex. 504 după 60 s la routerul HF). Dacă furnizorul nu suportă streaming, lăsați `false`. |
-| `AI_MAX_OUTPUT_TOKENS` | `20000` | `max_output_tokens` al cererii, pentru toți furnizorii (la modelele cu gândire, reasoning-ul consumă din el). |
-| `AI_READ_TIMEOUT_SECONDS` | `300` | Timeoutul de citire al cererii către furnizorul AI. |
+| `REPORT_GENERATION_AI_STREAM` | `false` | Cere răspunsul ca flux de evenimente (`stream: true`). Timeoutul de citire se aplică între evenimente, deci evită tăierea cererilor lungi de un proxy (ex. 504 după 60 s la routerul HF). Dacă furnizorul nu suportă streaming, lăsați `false`. |
+| `REPORT_GENERATION_MAX_OUTPUT_TOKENS` | `20000` | `max_output_tokens` al cererii, pentru toți furnizorii (la modelele cu gândire, reasoning-ul consumă din el). |
+| `REPORT_GENERATION_READ_TIMEOUT_SECONDS` | `300` | Timeoutul de citire al cererii către furnizorul AI. |
 | `DOCUMENTS_DIR` | `medicina-naturista-documente/data/documents` | Directorul documentelor locale. |
 | `DATABASE_URL` | `postgresql:// medicina:medicina @127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului hibrid (`pgvector` + `tsvector`). |
 | `DATABASE_BOOTSTRAP_URL` | gol | Conexiune de mentenanță opțională pentru crearea unei baze lipsă, pe același server ca `DATABASE_URL`; folosită numai de reindexare. Implicit se folosesc credențialele țintei pe baza `postgres`. |
@@ -432,12 +449,11 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `EMBEDDING_DEVICE` | `cpu` | Dispozitivul modelului de embedding la **construirea** indexului: `cpu` (FastEmbed/ONNX) sau `cuda` (PyTorch fp16, doar din mediul GPU `.venv-gpu`; fără CUDA build-ul se oprește, nu trece pe CPU). Întrebările din aplicație rulează mereu pe CPU. |
 | `SESSION_TEMP_DIR` | `var/sessions` (Windows) / `/tmp/naturist-sessions` | Directorul fișierelor temporare ale sesiunilor. |
 | `MAX_CHAT_CHARS` | `4000` | Lungimea maximă a mesajului utilizatorului. |
-| `X_AI_MAX_CONTEXT_CHARS` | `1000000` | Bugetul (în caractere de text al fragmentelor) pentru `AI_PROVIDER=xai`: fragmentele afișate și trimise către AI. Toate fragmentele primesc scor, se ordonează descrescător, iar cele de la coadă care nu încap sunt eliminate întregi, nu trunchiate. Nu există un prag de relevanță separat și nici o limită de candidați per semnal. |
+| `X_AI_MAX_CONTEXT_CHARS` | `1000000` | Bugetul (în caractere de text al fragmentelor) pentru `REPORT_GENERATION_MODEL_TYPE=xai`: fragmentele afișate și trimise către AI. Toate fragmentele primesc scor, se ordonează descrescător, iar cele de la coadă care nu încap sunt eliminate întregi, nu trunchiate. Nu există un prag de relevanță separat și nici o limită de candidați per semnal. |
 | `MAX_REQUESTS_PER_MINUTE` | `60` | Limita de cereri `POST`/`PUT`/`PATCH`/`DELETE` către `/api/`, pe minut și IP; loginul owner are o limită separată. |
 | `SESSION_IDLE_SECONDS` | `3600` | Expirarea unei sesiuni inactive. |
 | `SESSION_MAX_SECONDS` | `14400` | Durata maximă a unei sesiuni. |
 | `MAX_ACTIVE_SESSIONS` | `100` | Numărul maxim de sesiuni în proces. |
-| `MAX_SESSIONS_PER_COOKIE` / `MAX_SESSIONS_PER_IP` | `1` / `1` | Limitele sesiunilor simultane per browser, respectiv IP. |
 | `MAX_API_BODY_BYTES` | `262144` | Dimensiunea maximă a corpului unei cereri API. |
 | `MAX_CONCURRENT_SEARCHES` / `MAX_CONCURRENT_GENERATIONS` | `2` / `1` | Limite de concurență per proces. |
 | `OPERATION_TIMEOUT_SECONDS` | `600` | Durata totală acceptată pentru o operație. |
@@ -607,3 +623,16 @@ Codul proiectului este distribuit sub [Business Source License 1.1](LICENSE) ([v
 🌱 **Surse verificabile · retrieval local · recomandări adjuvante**
 
 </div>
+
+
+## Generarea rapoartelor în fundal
+
+Generarea pornește prin `POST /api/searches/{searchId}/generate` și răspunde cu `202`, `jobId` și `Location`. Clientul trimite un `requestId` stabil pentru fiecare încercare. `GET /api/report-generations/{jobId}` citește starea, iar `POST /api/report-generations/{jobId}/cancel` solicită anularea. Verificarea periodică nu lansează apeluri AI suplimentare. Aceeași execuție funcționează cu toți clienții AI suportați; modelul ales este fixat la admitere. Restricțiile existente de acces pentru modelul ales se aplică și citirii/anulării operației.
+
+`REPORT_GENERATION_TIMEOUT_SECONDS` limitează raportul complet (implicit 600 s; configurația locală folosește 2700 s, adică 45 de minute). `OPERATION_TIMEOUT_SECONDS` rămâne separat pentru celelalte operații. `REPORT_GENERATION_READ_TIMEOUT_SECONDS` limitează I/O; `REPORT_GENERATION_AI_STREAM=true` rămâne folosit între backend și provider, pentru citirea incrementală și verificarea anulării, fără afișarea tokenilor parțiali în browser.
+
+`MAX_CONCURRENT_GENERATIONS` este implicit 1. Slotul rămâne ocupat până la oprirea efectivă a workerului, inclusiv după anularea sau expirarea logică. Stările terminale și codurile de eroare se pot citi independent de conexiunea de pornire. Metadatele sunt limitate la 32 de operații per sesiune și sunt incluse în bugetul ei de memorie.
+
+Refreshul aceleiași file recuperează operația dacă se reconectează în `SESSION_RECONNECT_GRACE_SECONDS` (implicit 30 s). Închiderea explicită anulează imediat; fără reconectare, unloadul închide sesiunea după această fereastră. Sesiunile și operațiile rămân în memorie, într-un singur proces: restartul containerului pierde rezultatele și nu relansează automat cereri AI. Shutdownul așteaptă cel mult `REPORT_SHUTDOWN_TIMEOUT_SECONDS` (implicit 20 s), cu o perioadă Docker de 30 s; un apel sincron blocat poate necesita oprirea procesului.
+
+Pentru activarea modificărilor de cod/configurare: `docker compose up -d --build app`, apoi reîncărcați pagina. Detalii de arhitectură: [generarea asincronă](architecture/report-generation-background.xmind).

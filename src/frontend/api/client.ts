@@ -2,30 +2,25 @@ import type {
   CategoriesResponse,
   ClassificationResponse,
   ConditionResponse,
-  GenerateResponse,
+  ReportGeneration,
   MessagesResponse,
+  ReportModel,
+  ReportModelsResponse,
   SearchSignals,
   SendMessageResponse,
   SessionResponse,
 } from "./types";
 import { claimTab, releaseTab } from "../lib/tabLease";
 
-const TAB_ID_KEY = "naturist_tab_id";
-// A reload keeps the tab ID but creates a new document. Its predecessor's
-// keepalive unload request must not close the replacement's session.
+// Each loaded document owns a new conversation, including after a hard reload.
+// Keep the identity in memory so retries within this page use the same session.
+let tabId = crypto.randomUUID();
+// Unload requests still identify their document, so delayed cleanup cannot
+// close another document's session.
 const PAGE_ID = crypto.randomUUID();
 let sessionAdmitted = false;
 
-// One id per browser tab, generated once and kept in sessionStorage (not
-// localStorage, so separate tabs stay isolated — the same "one session per
-// browser tab" guarantee Gradio used to give us for free via its own
-// per-connection request.session_hash).
 function getTabId(): string {
-  let tabId = sessionStorage.getItem(TAB_ID_KEY);
-  if (!tabId) {
-    tabId = crypto.randomUUID();
-    sessionStorage.setItem(TAB_ID_KEY, tabId);
-  }
   return tabId;
 }
 
@@ -73,8 +68,8 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
 
 export const api = {
   getSession: async () => {
-    if (!await claimTab(getTabId())) {
-      throw new ApiError(429, "Chatul este deja deschis într-un alt tab. Folosiți pagina deschisă sau închideți-o și încercați din nou aici.", "SESSION_ALREADY_ACTIVE");
+    while (!await claimTab(getTabId())) {
+      tabId = crypto.randomUUID();
     }
     try {
       const session = await request<SessionResponse>("/api/session");
@@ -86,6 +81,7 @@ export const api = {
     }
   },
   getCategories: () => request<CategoriesResponse>("/api/categories"),
+  getReportModels: () => request<ReportModelsResponse>("/api/report-models"),
   sendMessage: (message: string, categories: string[], signals: SearchSignals) =>
     request<SendMessageResponse>("/api/messages", {
       method: "POST",
@@ -107,11 +103,18 @@ export const api = {
     method: "POST", headers: revision === undefined ? {} : { "X-Context-Revision": String(revision) },
   }),
   // minScore: only fragments whose relevance percent reaches it go to the AI (0 = all).
-  generateReport: (searchId: string, minScore: number) =>
-    request<GenerateResponse>(`/api/searches/${encodeURIComponent(searchId)}/generate`, {
+  generateReport: (searchId: string, minScore: number, model: ReportModel = "ollama-gemma4:12b", requestId: string = crypto.randomUUID()) =>
+    request<ReportGeneration>(`/api/searches/${encodeURIComponent(searchId)}/generate`, {
       method: "POST",
-      body: JSON.stringify({ minScore }),
+      body: JSON.stringify({ minScore, model, requestId }),
+      signal: AbortSignal.timeout(15000),
     }),
+  getGeneration: (jobId: string, signal?: AbortSignal) => request<ReportGeneration>(`/api/report-generations/${encodeURIComponent(jobId)}`, {
+    signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(15000)]) : AbortSignal.timeout(15000),
+  }),
+  cancelGeneration: (jobId: string) => request<ReportGeneration>(`/api/report-generations/${encodeURIComponent(jobId)}/cancel`, {
+    method: "POST", signal: AbortSignal.timeout(15000),
+  }),
   endSession: () => request<MessagesResponse>("/api/session/end", { method: "POST" }),
   // keepalive fetch (not navigator.sendBeacon, which can't carry the X-Tab-Id
   // header) so the request has a chance to complete after the page unloads.
@@ -126,12 +129,12 @@ export const api = {
 
 export function errorMessage(error: unknown, fallback: string): string {
   if (!(error instanceof ApiError)) return fallback;
-  if (error.code === "SESSION_ALREADY_ACTIVE") return error.message;
   if (error.status === 413) return "Cererea este prea mare. Reduceți conținutul mesajului.";
   if (error.status === 429) return "Limita de cereri sau operații active a fost atinsă. Încercați mai târziu.";
   if (error.status === 409) return error.message;
   if (error.code?.startsWith("INDEX_")) return "Indexul este în mentenanță sau necesită resincronizare. Încercați din nou în 60 de secunde.";
-  if (error.status === 503) return "Capacitatea aplicației sau autorizarea este temporar indisponibilă. Încercați mai târziu.";
+  if (error.code === "OWNER_AUTH_UNAVAILABLE") return "Autorizarea este temporar indisponibilă. Încercați mai târziu.";
+  if (error.status === 503) return "Serviciul este temporar indisponibil. Încercați mai târziu.";
   return error.message;
 }
 

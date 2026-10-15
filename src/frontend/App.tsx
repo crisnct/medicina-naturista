@@ -49,6 +49,7 @@ export function App() {
             pending={conversation.isSending}
             pendingLabel={conversation.isClassifying ? "Înțeleg întrebarea…" : conversation.isSearching ? "Caut informații în bibliotecă…" : "Trimit mesajul…"}
             onGenerate={conversation.generateReport}
+            reportModels={conversation.reportModels}
             actionsDisabled={conversation.needsSessionRecovery || conversation.isReconnecting || conversation.isSending || conversation.isGenerating}
             generationFeedback={conversation.generationFeedback}
           />

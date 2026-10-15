@@ -13,6 +13,7 @@ from backend.core.contracts import (
     ListTopHerbs,
     LookupHerb,
     RenderPDF,
+    ReportModel,
     RetrievalProtocol,
 )
 from backend.core.owner_auth import OwnerAuth
@@ -36,3 +37,4 @@ class Dependencies:
     classify: ClassifyMessage | None = None
     herb_lookup: LookupHerb | None = None
     top_herbs: ListTopHerbs | None = None
+    report_clients: dict[ReportModel, AIProtocol] | None = None

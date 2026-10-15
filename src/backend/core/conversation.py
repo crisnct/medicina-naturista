@@ -199,6 +199,22 @@ def evidence_above(evidence: Evidence, min_score: float) -> Evidence:
     }
 
 
+def evidence_within_budget(evidence: Evidence, max_chars: int | None) -> Evidence:
+    if max_chars is None:
+        return evidence
+    selected: Evidence = {}
+    used = 0
+    for eid, item in sorted(
+        evidence.items(), key=lambda entry: entry[1].get("score", float("-inf")), reverse=True
+    ):
+        size = len(item["text"])
+        if used + size > max_chars:
+            break
+        selected[eid] = item
+        used += size
+    return selected
+
+
 def cancelled(**extra: Any) -> dict[str, Any]:
     return {**OperationResult(cancelled=True).as_dict(), **extra}
 
@@ -812,9 +828,14 @@ class ConversationService:
             self.store.finish_operation(operation)
 
     def generate(
-        self, session: SessionData, search_id: str, min_score: float = 0
+        self,
+        session: SessionData,
+        search_id: str,
+        min_score: float = 0,
+        *,
+        admitted: SessionOperation | None = None,
     ) -> OperationResult:
-        operation = self.store.begin_operation(session, "generate", search_id=search_id)
+        operation = admitted or self.store.begin_operation(session, "generate", search_id=search_id)
         try:
             snapshot = operation.snapshot
             search = snapshot.search
@@ -832,14 +853,23 @@ class ConversationService:
                         ]
                     ),
                 )
-            self.store.checkpoint(operation)
+            evidence = evidence_within_budget(evidence, self.ai.context_budget())
+            if not evidence:
+                raise ApplicationError(
+                    "AI_CONTEXT_LIMIT",
+                    "Fragmentele eligibile depășesc limita de context a modelului ales. Alegeți alt model sau restrângeți sursele.",
+                    422,
+                )
+            self.store.generation_stage(operation, "generating")
             with operation_budget(self.budget(operation)):
                 sections = self.ai.generate(profile, evidence)
+            self.store.generation_stage(operation, "validating")
             if not isinstance(sections, ValidatedReport):
                 sections = validate_report(sections, evidence)
-            self.store.checkpoint(operation)
+            self.store.generation_stage(operation, "rendering_pdf")
             with operation_budget(self.budget(operation)):
                 report = self.pdf(profile, sections, evidence, min_score)
+            self.store.generation_stage(operation, "publishing")
             self.store.checkpoint(operation)
             report_id = secrets.token_urlsafe(18)
             filename = report_filename(snapshot, profile)
@@ -858,6 +888,11 @@ class ConversationService:
                         report_id,
                         StoredReport(report, filename, profile.get("health_problem", "")),
                     ),
+                    partial=sections.partial,
+                    validation_warnings=[
+                        warning.model_dump(exclude_none=True)
+                        for warning in sections.validationWarnings
+                    ][:32],
                 ),
             )
             if not committed.cancelled:
@@ -876,6 +911,8 @@ class ConversationService:
             raise
         except Exception as exc:
             logger.error("report_stage_failed stage=generate type=%s", type(exc).__name__)
+            if admitted is not None:
+                raise
             reply = (
                 "Furnizorul AI nu este disponibil. Încercați din nou."
                 if isinstance(exc, AIUnavailable)
@@ -893,4 +930,5 @@ class ConversationService:
                 ),
             )
         finally:
-            self.store.finish_operation(operation)
+            if admitted is None:
+                self.store.finish_operation(operation)

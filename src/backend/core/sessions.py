@@ -31,6 +31,7 @@ from backend.core.models import (
     HealthProfile,
     MessageRouting,
     OperationResult,
+    ReportGeneration,
     SessionData,
     SessionOperation,
     SessionSnapshot,
@@ -53,6 +54,8 @@ STATE_FIELDS = (
     "context_revision",
     "routing",
     "message_receipts",
+    "generations",
+    "generation_receipts",
 )
 
 
@@ -94,6 +97,9 @@ def retained_usage(session: SessionData) -> RetainedUsage:
             "profile": asdict(session.profile),
             "routing": asdict(session.routing),
             "message_receipts": session.message_receipts,
+            # Fixed metadata slots cover bounded terminal errors/warnings as they grow.
+            "generation_slots": len(session.generations),
+            "generation_receipts": session.generation_receipts,
             "categories": sorted(session.selected_categories),
             "signals": asdict(session.search_signals),
             "groups": {gid: asdict(group) for gid, group in session.groups.items()},
@@ -113,7 +119,12 @@ def retained_usage(session: SessionData) -> RetainedUsage:
             "last_seen": struct.pack("!d", session.last_seen).hex(),
         }
     )
-    return RetainedUsage(history, evidence, pdf, history + evidence + pdf + metadata)
+    return RetainedUsage(
+        history,
+        evidence,
+        pdf,
+        history + evidence + pdf + metadata + 8192 * len(session.generations),
+    )
 
 
 class SessionStore:
@@ -165,6 +176,7 @@ class SessionStore:
         return (
             now - session.last_seen >= self.idle_seconds
             or now - session.created_at >= self.max_seconds
+            or (session.detached_until is not None and now >= session.detached_until)
         )
 
     def get(
@@ -193,30 +205,6 @@ class SessionStore:
                         "GLOBAL_SESSION_LIMIT",
                         "Capacitatea aplicației este ocupată.",
                         503,
-                    )
-                cookie_full = (
-                    sum(s.cookie_id == cookie_id for s in self._sessions.values())
-                    >= self.limits.max_sessions_per_cookie
-                )
-                ip_full = (
-                    sum(s.client_ip == client_ip for s in self._sessions.values())
-                    >= self.limits.max_sessions_per_ip
-                )
-                if (cookie_full and self.limits.max_sessions_per_cookie == 1) or (
-                    ip_full and self.limits.max_sessions_per_ip == 1
-                ):
-                    raise ApplicationError(
-                        "SESSION_ALREADY_ACTIVE",
-                        "Chatul este deja deschis într-un alt tab sau browser. "
-                        "Este permisă o singură sesiune per adresă IP. "
-                        "Folosiți pagina deschisă sau închideți-o și încercați din nou aici.",
-                        429,
-                    )
-                if cookie_full or ip_full:
-                    raise ApplicationError(
-                        "CLIENT_SESSION_LIMIT",
-                        "Limita de sesiuni active a fost atinsă.",
-                        429,
                     )
                 self.creation_limiter.check(
                     (f"ip:{client_ip}", self.limits.new_sessions_per_ip_minute),
@@ -411,7 +399,15 @@ class SessionStore:
                 kind,
                 session,
                 snapshot,
-                self.clock() + self.limits.operation_timeout_seconds,
+                min(
+                    self.clock()
+                    + (
+                        self.limits.report_generation_timeout_seconds
+                        if kind == "generate"
+                        else self.limits.operation_timeout_seconds
+                    ),
+                    session.created_at + self.max_seconds,
+                ),
                 reserved_bytes=reservation,
                 search_id=search_id,
             )
@@ -428,6 +424,147 @@ class SessionStore:
             if op.session is session and op is not excluding
         )
 
+    def admit_generation(
+        self,
+        session: SessionData,
+        search_id: str,
+        request_id: str,
+        min_score: float,
+        model_choice: str,
+        provider: str,
+        model: str,
+    ) -> tuple[dict[str, Any], SessionOperation | None]:
+        """Reserve exactly once, including retries whose first HTTP reply was lost."""
+        with self._lock, session.lock:
+            existing_id = session.generation_receipts.get(request_id)
+            existing = session.generations.get(existing_id or "")
+            if existing:
+                if (existing.search_id, existing.min_score, existing.model_choice) != (
+                    search_id,
+                    min_score,
+                    model_choice,
+                ):
+                    raise ApplicationError(
+                        "IDEMPOTENCY_CONFLICT", "Această cerere are deja alte opțiuni.", 409
+                    )
+                return copy.deepcopy(existing.as_dict()), None
+            for job in session.generations.values():
+                if job.search_id == search_id and job.job_id in self._workers:
+                    if (job.min_score, job.model_choice) != (min_score, model_choice):
+                        raise ApplicationError(
+                            "GENERATION_IN_PROGRESS",
+                            "Această căutare este deja în curs de generare.",
+                            409,
+                        )
+                    if len(session.generation_receipts) >= 64:
+                        raise ApplicationError(
+                            "GENERATION_HISTORY_LIMIT",
+                            "Prea multe încercări pentru această sesiune.",
+                            429,
+                        )
+                    previous = session.retained_bytes
+                    session.generation_receipts[request_id] = job.job_id
+                    usage = retained_usage(session)
+                    try:
+                        self._check_global(usage.total - previous)
+                        if (
+                            usage.total + self._session_reserved(session)
+                            > self.limits.max_session_bytes
+                        ):
+                            raise ApplicationError(
+                                "SESSION_BUDGET", "Bugetul sesiunii este insuficient.", 409
+                            )
+                    except Exception:
+                        del session.generation_receipts[request_id]
+                        raise
+                    self._used_bytes += usage.total - previous
+                    session.retained_bytes = usage.total
+                    return copy.deepcopy(job.as_dict()), None
+            if len(session.generations) >= 32:
+                raise ApplicationError(
+                    "GENERATION_HISTORY_LIMIT", "Limita de generări a sesiunii a fost atinsă.", 429
+                )
+            operation = self.begin_operation(session, "generate", search_id=search_id)
+            previous = session.retained_bytes
+            job = ReportGeneration(
+                operation.operation_id,
+                search_id,
+                request_id,
+                min_score,
+                model_choice,
+                provider[:128],
+                model[:128],
+                time.time(),
+                time.time() + max(0, operation.deadline - self.clock()),
+            )
+            session.generations[job.job_id] = job
+            session.generation_receipts[request_id] = job.job_id
+            try:
+                usage = retained_usage(session)
+                if usage.total + self._session_reserved(session) > self.limits.max_session_bytes:
+                    raise ApplicationError(
+                        "SESSION_BUDGET", "Bugetul sesiunii este insuficient.", 409
+                    )
+                self._check_global(usage.total - previous)
+                self._used_bytes += usage.total - previous
+                session.retained_bytes = usage.total
+            except Exception:
+                del session.generations[job.job_id]
+                del session.generation_receipts[request_id]
+                self.finish_operation(operation)
+                raise
+            logger.info(
+                "report_job_accepted job_id=%s provider=%s model=%s", job.job_id, provider, model
+            )
+            return copy.deepcopy(job.as_dict()), operation
+
+    def generation(
+        self, session: SessionData, job_id: str, *, cancel: bool = False
+    ) -> dict[str, Any]:
+        with self._lock, session.lock:
+            self._sweep_locked()
+            job = session.generations.get(job_id)
+            if (
+                session.closed
+                or self._sessions.get((session.cookie_id, session.tab_id)) is not session
+                or not job
+            ):
+                raise ApplicationError(
+                    "GENERATION_NOT_FOUND", "Generarea nu mai este disponibilă.", 404
+                )
+            operation = self._workers.get(job_id)
+            if cancel and operation and job.state in {"accepted", "running"}:
+                self._cancel(operation)
+            result = copy.deepcopy(job.as_dict())
+            result["workerActive"] = operation is not None
+            if job.report_id and job.report_id not in session.reports:
+                result["reportId"] = None
+                result["message"] = "Raportul nu mai este disponibil în sesiune."
+            return result
+
+    def generation_stage(self, operation: SessionOperation, stage: str) -> None:
+        with self._lock, operation.session.lock:
+            self.checkpoint(operation)
+            job = operation.session.generations.get(operation.operation_id)
+            if job:
+                job.state = "running"
+                job.stage = stage
+                job.started_at = job.started_at or time.time()
+                logger.info("report_job_stage_changed job_id=%s stage=%s", job.job_id, stage)
+
+    def fail_generation(self, operation: SessionOperation, code: str, message: str) -> None:
+        with self._lock, operation.session.lock:
+            job = operation.session.generations.get(operation.operation_id)
+            if job and job.state in {"accepted", "running"}:
+                if not self._valid(operation):
+                    self._cancel(operation)
+                    return
+                job.state, job.error_code, job.message = "failed", code[:64], message[:300]
+                job.finished_at = time.time()
+                logger.warning(
+                    "report_job_failed job_id=%s code=%s stage=%s", job.job_id, code, job.stage
+                )
+
     def checkpoint(self, operation: SessionOperation) -> None:
         with self._lock, operation.session.lock:
             if not self._valid(operation):
@@ -435,6 +572,18 @@ class SessionStore:
                 raise OperationCancelled()
 
     def _cancel(self, operation: SessionOperation) -> None:
+        job = operation.session.generations.get(operation.operation_id)
+        if job and job.state in {"accepted", "running"}:
+            timed_out = self.clock() >= operation.deadline
+            job.state = "timed_out" if timed_out else "cancelled"
+            job.error_code = "GENERATION_TIMED_OUT" if timed_out else "GENERATION_CANCELLED"
+            job.message = (
+                "Timpul alocat generării a fost depășit."
+                if timed_out
+                else "Generarea a fost anulată."
+            )
+            job.finished_at = time.time()
+            logger.info("report_job_%s job_id=%s", job.state, job.job_id)
         operation.cancellation.set()
         if self._workers.get(operation.operation_id) is operation:
             self._reserved_bytes -= operation.reserved_bytes
@@ -523,6 +672,14 @@ class SessionStore:
                 proposed.searches[sid] = copy.deepcopy(search)
                 proposed.groups[group_id].search_ids.append(sid)
             if change.report:
+                job = proposed.generations.get(operation.operation_id)
+                if job:
+                    job.state = "succeeded"
+                    job.stage = "publishing"
+                    job.finished_at = time.time()
+                    job.report_id = change.report[0]
+                    job.partial = change.partial
+                    job.validation_warnings = change.validation_warnings
                 if operation.kind == "generate" and operation.search_id:
                     # A successful retry clears only the hidden generation error,
                     # while preserving the search, fragments and report controls.
@@ -610,6 +767,8 @@ class SessionStore:
             self._reserved_bytes -= operation.reserved_bytes
             operation.reserved_bytes = 0
             operation.state = "committed"
+            if change.report and operation.operation_id in session.generations:
+                logger.info("report_job_succeeded job_id=%s", operation.operation_id)
             if change.new_context:
                 for op in self._workers.values():
                     if (
@@ -643,7 +802,15 @@ class SessionStore:
                 raise ApplicationError("SESSION_CLOSED", "Sesiunea a fost închisă.")
             if page_id is not None:
                 session.active_page_id = page_id
-            return {"history": copy.deepcopy(session.history), "latestReportId": session.report_id}
+                session.detached_until = None
+            return {
+                "history": copy.deepcopy(session.history),
+                "latestReportId": session.report_id,
+                "generations": [
+                    {**copy.deepcopy(job.as_dict()), "workerActive": job.job_id in self._workers}
+                    for job in session.generations.values()
+                ],
+            }
 
     def report(self, session: SessionData, report_id: str):
         with self._lock, session.lock:
@@ -668,7 +835,12 @@ class SessionStore:
                 return
             with session.lock:
                 if session.active_page_id == page_id:
-                    self._delete_locked(key)
+                    if session.generations:
+                        session.detached_until = (
+                            self.clock() + self.limits.session_reconnect_grace_seconds
+                        )
+                    else:
+                        self._delete_locked(key)
 
     def _delete_locked(self, key: tuple[str, str]) -> None:
         session = self._sessions.get(key)
@@ -685,6 +857,9 @@ class SessionStore:
             session.profile = HealthProfile()
             session.routing = MessageRouting()
             session.message_receipts.clear()
+            session.generations.clear()
+            session.generation_receipts.clear()
+            session.detached_until = None
             session.history.clear()
             session.searches.clear()
             session.clear_report()
@@ -706,6 +881,20 @@ class SessionStore:
         for op in self._workers.values():
             if self.clock() >= op.deadline:
                 self._cancel(op)
+            else:
+                job = op.session.generations.get(op.operation_id)
+                if (
+                    job
+                    and job.state in {"accepted", "running"}
+                    and self.clock() - job.progress_logged_at >= 30
+                ):
+                    job.progress_logged_at = self.clock()
+                    logger.info(
+                        "report_job_progress job_id=%s stage=%s remaining_seconds=%.0f",
+                        job.job_id,
+                        job.stage,
+                        op.deadline - self.clock(),
+                    )
         self.creation_limiter.sweep()
 
     def sweep(self) -> None:
@@ -718,9 +907,9 @@ class SessionStore:
             for key in list(self._sessions):
                 self._delete_locked(key)
 
-    def wait_workers(self) -> None:
+    def wait_workers(self, timeout: float | None = None) -> bool:
         with self._finished:
-            self._finished.wait_for(lambda: not self._workers)
+            return self._finished.wait_for(lambda: not self._workers, timeout=timeout)
 
     def count(self) -> int:
         with self._lock:

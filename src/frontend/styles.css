@@ -1052,6 +1052,7 @@ button:disabled { cursor: not-allowed; }
 .display-filter-options > p, .generation-options > p { font-size: 14px; color: var(--nature-muted); }
 .display-filter-options h4 { margin: 0 0 8px; color: var(--nature-primary); font-size: 14px; font-weight: 700; }
 .generation-options h4 { margin: 0 0 8px; color: var(--nature-primary); font-size: 14px; }
+.generation-model-options { display: flex; flex-wrap: wrap; gap: 12px 16px; }
 .display-filter-options .fragments-panel-filters { margin: 16px 0 0; padding-bottom: 0; border-bottom: 0; }
 .display-filter-options .fragments-panel-filter select { min-height: 32px; padding: 4px 8px; }
 .fragment-source { font-size: 14px; color: var(--nature-muted); overflow-wrap: anywhere; }

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import type { FragmentItem, GenerateMessage } from "../api/types";
+import type { FragmentItem, GenerateMessage, ReportModel } from "../api/types";
 import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
 import { TypingIndicator } from "./TypingIndicator";
 import { DoctorAvatar } from "./DoctorAvatar";
@@ -9,6 +9,7 @@ export function GeneratePanel({
   message,
   fragments,
   onGenerate,
+  reportModels = ["ollama-gemma4:12b"],
   actionsDisabled = false,
   feedback,
 }: {
@@ -16,12 +17,15 @@ export function GeneratePanel({
   // The fragments of the same search; absent when that message is no longer
   // in the chat, in which case the server alone checks the threshold.
   fragments?: FragmentItem[];
-  onGenerate: (searchId: string, minScore: number) => void;
+  onGenerate: (searchId: string, minScore: number, model: ReportModel) => void;
+  reportModels?: ReportModel[];
   actionsDisabled?: boolean;
   feedback?: GenerationFeedback;
 }) {
   // Only fragments whose relevance reaches this are sent to the AI (0 = all).
   const [minScore, setMinScore] = useState(0);
+  const [model, setModel] = useState<ReportModel>("ollama-gemma4:12b");
+  const selectedModel = reportModels.includes(model) ? model : "ollama-gemma4:12b";
   const eligibleFragments = fragments?.filter((fragment) => reachesMinScore(fragment.relevancePercent, minScore));
   const eligibleCount = eligibleFragments?.length;
   const eligibleCharacters = eligibleFragments?.reduce(
@@ -44,20 +48,32 @@ export function GeneratePanel({
         <div className="generation-options">
           <h4>Opțiuni de generare</h4>
           <p>Acest prag stabilește ce fragmente sunt eligibile pentru AI, independent de filtrele de afișare.</p>
-          <label className="fragments-panel-filter">
-            Scor minim
-            <select
-              value={minScore}
-              disabled={message.busy || actionsDisabled}
-              onChange={(event) => setMinScore(Number(event.target.value))}
-            >
-              {MIN_SCORE_OPTIONS.map(({ value, label }) => (
-                <option key={value} value={value}>
-                  {label}
-                </option>
-              ))}
-            </select>
-          </label>
+          <div className="generation-model-options">
+            <label className="fragments-panel-filter">
+              Scor minim
+              <select
+                value={minScore}
+                disabled={message.busy || actionsDisabled}
+                onChange={(event) => setMinScore(Number(event.target.value))}
+              >
+                {MIN_SCORE_OPTIONS.map(({ value, label }) => (
+                  <option key={value} value={value}>
+                    {label}
+                  </option>
+                ))}
+              </select>
+            </label>
+            <label className="fragments-panel-filter">
+              Model AI
+              <select
+                value={selectedModel}
+                disabled={message.busy || actionsDisabled}
+                onChange={(event) => setModel(event.target.value as ReportModel)}
+              >
+                {reportModels.map((option) => <option key={option} value={option}>{option}</option>)}
+              </select>
+            </label>
+          </div>
         </div>
         <div className="generate-report-row">
           <div className="generate-report-status">
@@ -74,7 +90,7 @@ export function GeneratePanel({
             className="generate-inline"
             disabled={disabled}
             aria-disabled={disabled}
-            onClick={() => onGenerate(message.searchId, minScore)}
+            onClick={() => onGenerate(message.searchId, minScore, selectedModel)}
           >
             {message.busy ? "⏳ Se pregătește raportul…" : (
               <>
@@ -89,7 +105,10 @@ export function GeneratePanel({
           </button>
         </div>
       </div>
-      {message.busy && <TypingIndicator label="Pregătesc raportul. Generarea poate dura câteva minute." />}
+      {message.busy && <TypingIndicator label={feedback?.progress ?? "Pregătesc raportul. Generarea poate dura câteva minute."} />}
+      {message.busy && feedback?.cancel && (
+        <button type="button" className="secondary-button" onClick={feedback.cancel}>Anulează generarea</button>
+      )}
       {feedback && !message.busy && (
         <div className="generation-feedback owner-notice-panel" role="alert">
           <div className="chatbot-message-content">

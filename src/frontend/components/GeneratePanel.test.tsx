@@ -23,7 +23,7 @@ function renderPanel(fragments?: FragmentItem[], onGenerate = vi.fn()) {
   return onGenerate;
 }
 
-const button = () => screen.getByRole("button", { name: /Generează rețeta/ });
+const button = () => screen.getByRole("button", { name: /Generează raportul/ });
 const chooseMinScore = (value: number) =>
   fireEvent.change(screen.getByLabelText("Scor minim"), { target: { value: String(value) } });
 
@@ -33,7 +33,7 @@ describe("the minimum score next to Generează rețeta", () => {
 
     fireEvent.click(button());
 
-    expect(onGenerate).toHaveBeenCalledWith("search-1", 0);
+    expect(onGenerate).toHaveBeenCalledWith("search-1", 0, "ollama-gemma4:12b");
   });
 
   it("sends the chosen threshold, which includes a fragment exactly at it", () => {
@@ -43,7 +43,7 @@ describe("the minimum score next to Generează rețeta", () => {
     expect(button()).toBeEnabled();
     fireEvent.click(button());
 
-    expect(onGenerate).toHaveBeenCalledWith("search-1", 50);
+    expect(onGenerate).toHaveBeenCalledWith("search-1", 50, "ollama-gemma4:12b");
   });
 
   it("disables the button when no fragment reaches the threshold", () => {
@@ -68,7 +68,7 @@ describe("the minimum score next to Generează rețeta", () => {
     chooseMinScore(95);
     expect(button()).toBeEnabled();
     fireEvent.click(button());
-    expect(onGenerate).toHaveBeenCalledWith("search-1", 95);
+    expect(onGenerate).toHaveBeenCalledWith("search-1", 95, "ollama-gemma4:12b");
   });
 
   it("disables generation at 95% when all scores are lower", () => {

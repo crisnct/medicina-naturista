@@ -57,13 +57,15 @@ def _embedding_device(env: Mapping[str, str] | None = None) -> str:
 AI_PROVIDERS = ("xai", "huggingface", "ollama", "deepseek")
 
 
-# Read AI_PROVIDER and reject anything that is not a known provider.
+# Read REPORT_GENERATION_MODEL_TYPE and reject anything that is not a known provider.
 def _ai_provider(value: str | None = None, env: Mapping[str, str] | None = None) -> str:
     provider = (
-        ((env or {}).get("AI_PROVIDER", "xai") if value is None else value).strip().casefold()
+        ((env or {}).get("REPORT_GENERATION_MODEL_TYPE", "xai") if value is None else value)
+        .strip()
+        .casefold()
     )
     if provider not in AI_PROVIDERS:
-        raise ValueError(f"AI_PROVIDER must be one of {', '.join(AI_PROVIDERS)}")
+        raise ValueError(f"REPORT_GENERATION_MODEL_TYPE must be one of {', '.join(AI_PROVIDERS)}")
     return provider
 
 
@@ -123,8 +125,6 @@ class Settings:
     log_ai_response_text: bool = False
 
     max_active_sessions: int = 100
-    max_sessions_per_cookie: int = 1
-    max_sessions_per_ip: int = 1
     new_sessions_per_ip_minute: int = 10
     new_sessions_per_cookie_minute: int = 5
     max_history_bytes: int = 8388608
@@ -137,6 +137,9 @@ class Settings:
     max_concurrent_searches: int = 2
     max_concurrent_generations: int = 1
     operation_timeout_seconds: int = 600
+    report_generation_timeout_seconds: int = 600
+    report_shutdown_timeout_seconds: int = 20
+    session_reconnect_grace_seconds: int = 30
     operation_reservation_bytes: int = 65536
     owner_key: str = field(default="", repr=False)
     cookie_secure: bool = False
@@ -207,9 +210,9 @@ class Settings:
             message_classification_max_output_tokens=_int(
                 "MESSAGE_CLASSIFICATION_MAX_OUTPUT_TOKENS", 300, env=env
             ),
-            ai_stream=_bool("AI_STREAM", False, env=env),
-            ai_max_output_tokens=_int("AI_MAX_OUTPUT_TOKENS", 20000, env=env),
-            ai_read_timeout_seconds=_int("AI_READ_TIMEOUT_SECONDS", 300, env=env),
+            ai_stream=_bool("REPORT_GENERATION_AI_STREAM", False, env=env),
+            ai_max_output_tokens=_int("REPORT_GENERATION_MAX_OUTPUT_TOKENS", 20000, env=env),
+            ai_read_timeout_seconds=_int("REPORT_GENERATION_READ_TIMEOUT_SECONDS", 300, env=env),
             session_idle_seconds=_int("SESSION_IDLE_SECONDS", 3600, env=env),
             session_max_seconds=_int("SESSION_MAX_SECONDS", 14400, env=env),
             max_chat_chars=_int("MAX_CHAT_CHARS", 4000, env=env),
@@ -219,8 +222,6 @@ class Settings:
             log_fragment_text_max_chars=_int("LOG_FRAGMENT_TEXT_MAX_CHARS", 4000, env=env),
             log_ai_response_text=_bool("LOG_AI_RESPONSE_TEXT", False, env=env),
             max_active_sessions=_int("MAX_ACTIVE_SESSIONS", 100, env=env),
-            max_sessions_per_cookie=_int("MAX_SESSIONS_PER_COOKIE", 1, env=env),
-            max_sessions_per_ip=_int("MAX_SESSIONS_PER_IP", 1, env=env),
             new_sessions_per_ip_minute=_int("NEW_SESSIONS_PER_IP_MINUTE", 10, env=env),
             new_sessions_per_cookie_minute=_int("NEW_SESSIONS_PER_COOKIE_MINUTE", 5, env=env),
             max_history_bytes=_int("MAX_HISTORY_BYTES", 8388608, env=env),
@@ -233,6 +234,11 @@ class Settings:
             max_concurrent_searches=_int("MAX_CONCURRENT_SEARCHES", 2, env=env),
             max_concurrent_generations=_int("MAX_CONCURRENT_GENERATIONS", 1, env=env),
             operation_timeout_seconds=_int("OPERATION_TIMEOUT_SECONDS", 600, env=env),
+            report_generation_timeout_seconds=_int(
+                "REPORT_GENERATION_TIMEOUT_SECONDS", 600, env=env
+            ),
+            report_shutdown_timeout_seconds=_int("REPORT_SHUTDOWN_TIMEOUT_SECONDS", 20, env=env),
+            session_reconnect_grace_seconds=_int("SESSION_RECONNECT_GRACE_SECONDS", 30, env=env),
             operation_reservation_bytes=_int("OPERATION_RESERVATION_BYTES", 65536, env=env),
             owner_key=env.get("OWNER_KEY", ""),
             cookie_secure=_bool("COOKIE_SECURE", False, env=env),
@@ -343,8 +349,6 @@ class Settings:
             "max_requests_per_minute",
             "max_chat_chars",
             "max_active_sessions",
-            "max_sessions_per_cookie",
-            "max_sessions_per_ip",
             "new_sessions_per_ip_minute",
             "new_sessions_per_cookie_minute",
             "max_history_bytes",
@@ -357,6 +361,9 @@ class Settings:
             "max_concurrent_searches",
             "max_concurrent_generations",
             "operation_timeout_seconds",
+            "report_generation_timeout_seconds",
+            "report_shutdown_timeout_seconds",
+            "session_reconnect_grace_seconds",
             "operation_reservation_bytes",
         ):
             if getattr(self, name) <= 0:

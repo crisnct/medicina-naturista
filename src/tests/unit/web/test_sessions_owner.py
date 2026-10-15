@@ -20,7 +20,6 @@ from backend.ai.conditions import ConditionDictionary
 from backend.ai.message_classification import MessageClassification
 from backend.config import Settings
 from backend.core.errors import ApplicationError
-from backend.core.models import OperationResult
 from backend.core.owner_auth import OwnerAuth
 from backend.core.rate_limits import RateLimiter
 from backend.core.sessions import SessionStore
@@ -29,6 +28,7 @@ from backend.web.dependencies import Dependencies
 from backend.web.main import COOKIE, OWNER_COOKIE, create_app
 from tests.support.conditions import conditions_from_rows
 from tests.support.owners import FakeOwnerRepository
+from tests.unit.web.test_web import post_report
 
 
 class FakeAI:
@@ -273,8 +273,8 @@ class HTTPPlanTests(unittest.TestCase):
             return b"%PDF-too-late"
 
         with patch.object(self.deps, "pdf", delayed_pdf):
-            response = self.client.post(f"/api/searches/{sid}/generate", headers=self.tab)
-        self.assertEqual(response.status_code, 200, response.text)
+            response = post_report(self.client, f"/api/searches/{sid}/generate", headers=self.tab)
+        self.assertEqual(response.status_code, 202, response.text)
         self.assertTrue(response.json()["cancelled"])
         self.assertEqual(response.json()["messages"], [])
         session = self.deps.store.get(self.client.cookies.get(COOKIE), self.tab["X-Tab-Id"])
@@ -360,14 +360,17 @@ class HTTPPlanTests(unittest.TestCase):
                     **self.tab,
                     "Cookie": f"{COOKIE}={self.client.cookies.get(COOKIE)}; {cookies}",
                 }
-                with patch(
-                    "backend.web.main._generate_report", return_value=OperationResult()
+                with patch.object(
+                    self.client.app.state.report_generation,
+                    "start",
+                    return_value={"jobId": "synthetic-job", "state": "accepted"},
                 ) as generate:
                     response = self.client.post(
-                        f"/api/searches/{search_id}/generate", headers=headers
+                        f"/api/searches/{search_id}/generate",
+                        json={"model": "deepseek"},
+                        headers=headers,
                     )
-                self.assertEqual(response.status_code, 200, response.text)
-                self.assertIsNone(response.json()["ownerNotice"])
+                self.assertEqual(response.status_code, 202, response.text)
                 generate.assert_called_once()
         csrf = self.client.get("/api/owner").json()["csrfToken"]
         cookies = f"{OWNER_COOKIE}={token}; {OWNER_COOKIE}=legacy-owner; naturist_owner_csrf={csrf}"
@@ -500,17 +503,21 @@ class HTTPPlanTests(unittest.TestCase):
         self.assertEqual(response.status_code, 413)
         self.assertEqual(self.deps.store.count(), 0)
 
-    def test_untrusted_xff_cannot_bypass_session_ip_cap(self):
+    def test_untrusted_xff_does_not_change_session_client_ip(self):
         self.client.get("/api/session", headers={**self.tab, "X-Forwarded-For": "1.2.3.4"})
         other = self.client.get(
             "/api/session",
             headers={"X-Tab-Id": "other-tab", "X-Forwarded-For": "5.6.7.8"},
         )
-        self.assertEqual(other.status_code, 429)
-        self.assertEqual(other.json()["detail"]["code"], "SESSION_ALREADY_ACTIVE")
-        self.assertEqual(self.deps.store.count(), 1)
+        self.assertEqual(other.status_code, 200)
+        cookie = self.client.cookies.get(COOKIE)
+        first_session = self.deps.store.get(cookie, self.tab["X-Tab-Id"])
+        other_session = self.deps.store.get(cookie, "other-tab")
+        self.assertEqual(first_session.client_ip, "testclient")
+        self.assertEqual(other_session.client_ip, first_session.client_ip)
+        self.assertEqual(self.deps.store.count(), 2)
 
-    def test_other_tab_and_other_browser_are_blocked_without_closing_first_session(
+    def test_other_tab_and_other_browser_can_open_without_closing_first_session(
         self,
     ):
         first = self.client.get("/api/session", headers=self.tab)
@@ -524,10 +531,14 @@ class HTTPPlanTests(unittest.TestCase):
                 if not different_browser:
                     other.cookies.update(self.client.cookies)
                 headers = {"X-Tab-Id": "second-tab"}
-                blocked = other.get("/api/session", headers=headers)
-                self.assertEqual(blocked.status_code, 429)
-                self.assertEqual(blocked.json()["detail"]["code"], "SESSION_ALREADY_ACTIVE")
-                self.assertIn("alt tab sau browser", blocked.json()["detail"]["message"])
+                response = other.get("/api/session", headers=headers)
+                self.assertEqual(response.status_code, 200)
+                self.assertEqual(self.deps.store.count(), 2)
+                second_session = self.deps.store.get(other.cookies.get(COOKIE), "second-tab")
+                first_session = self.deps.store.get(
+                    self.client.cookies.get(COOKIE), self.tab["X-Tab-Id"]
+                )
+                self.assertIsNot(second_session, first_session)
                 self.assertEqual(
                     other.post("/api/session/unload", headers=headers).status_code, 204
                 )
@@ -578,12 +589,11 @@ class HTTPPlanTests(unittest.TestCase):
             finally:
                 ai.release.set()
             result = future.result(timeout=3)
-        self.assertEqual(result.status_code, 200, result.text)
-        self.assertTrue(result.json()["cancelled"])
-        self.assertEqual(result.json()["messages"], [])
+        self.assertEqual(result.status_code, 202, result.text)
+        self.deps.store.wait_workers()
         self.assertFalse(old.reports or old.history or new.reports)
 
-    def test_duplicate_generation_is_409_before_second_ai_call(self):
+    def test_duplicate_generation_recovers_job_before_second_ai_call(self):
         self.login()
         sid = self.search()
         ai = self.deps.ai
@@ -596,11 +606,15 @@ class HTTPPlanTests(unittest.TestCase):
             try:
                 self.assertTrue(ai.entered.wait(3))
                 duplicate = self.client.post(f"/api/searches/{sid}/generate", headers=self.tab)
-                self.assertEqual(duplicate.status_code, 409, duplicate.text)
+                self.assertEqual(duplicate.status_code, 202, duplicate.text)
+                self.assertEqual(
+                    duplicate.json()["jobId"], future.result(timeout=3).json()["jobId"]
+                )
                 self.assertEqual(ai.calls, 1)
             finally:
                 ai.release.set()
-            self.assertEqual(future.result(timeout=3).status_code, 200)
+            self.assertEqual(future.result(timeout=3).status_code, 202)
+        self.deps.store.wait_workers()
 
     def test_new_message_during_search_discards_stale_result(self):
         self.client.get("/api/session", headers=self.tab)

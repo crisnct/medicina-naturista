@@ -1,6 +1,5 @@
 // A duplicated browser tab can inherit sessionStorage, including its tab ID.
-// Hold an exclusive Web Lock so it cannot reuse the original tab's session.
-// Cross-browser admission remains the server's responsibility (one per IP).
+// The lock detects a copied ID so the caller can allocate a separate session.
 let admission: Promise<boolean> | undefined;
 let release: (() => void) | undefined;
 

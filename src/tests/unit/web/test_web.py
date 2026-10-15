@@ -13,6 +13,7 @@ from types import SimpleNamespace
 from unittest.mock import MagicMock, patch
 
 from fastapi.testclient import TestClient
+from httpx import Response
 from pypdf import PdfReader
 
 from backend.ai.categories import CategoryNode, CategoryTree
@@ -164,6 +165,35 @@ def _send(
     return messages
 
 
+def post_report(client, url, **kwargs):
+    """Await the new job contract in existing publication/formatting regressions."""
+    accepted = client.post(url, **kwargs)
+    if accepted.status_code != 202:
+        return accepted
+    headers = kwargs.get("headers", {})
+    client.app.state.dependencies.store.wait_workers()
+    job = client.get(accepted.headers["Location"], headers=headers)
+    if job.status_code != 200:
+        return job
+    result = job.json()
+    history = client.get("/api/session", headers=headers).json()["history"]
+    messages = []
+    if result.get("reportId"):
+        index = next(i for i, m in enumerate(history) if m.get("reportId") == result["reportId"])
+        messages = history[max(0, index - 1) : index + 2]
+    elif result["state"] == "failed":
+        messages = [{"kind": "text", "role": "assistant", "content": result["message"]}]
+    return Response(
+        202,
+        json={
+            **result,
+            "messages": messages,
+            "ownerNotice": None,
+            "cancelled": result["state"] in {"cancelled", "timed_out"},
+        },
+    )
+
+
 def _classify_latest(client, sid, tab):
     revision = client.app.state.dependencies.store.get(sid, tab).context_revision
     return client.post(
@@ -192,8 +222,6 @@ class WebTests(unittest.TestCase):
         config = replace(
             settings,
             owner_key="synthetic-owner-key",
-            max_sessions_per_ip=100,
-            max_sessions_per_cookie=4,
         )
         store = SessionStore(Path(self.temp.name), 3600, 14400, config)
         self.addCleanup(store.shutdown)
@@ -688,7 +716,7 @@ class WebTests(unittest.TestCase):
             self.client.get("/api/session", headers=_headers(sid, tab))
             messages = _send(self.client, sid, tab, "Gripă", ["Cancer"])
             notice = next(m for m in messages if "Caut rapid" in m.get("content", ""))
-            self.assertIn("Caut rapid în cele 4 documente", notice["content"])
+            self.assertIn("Caut rapid în cele **4 documente**", notice["content"])
 
             messages = _send(self.client, sid, tab, "Migrenă", ["Cancer", "Centrul/Anatomie"])
             notice = next(m for m in messages if "Caut rapid" in m.get("content", ""))
@@ -1392,7 +1420,7 @@ class WebTests(unittest.TestCase):
 
     # Verify one submitted health answer triggers retrieval, is gated behind
     # the owner cookie for generation, and produces a downloadable, tab-scoped PDF.
-    def test_full_chat_flow_generates_report_and_gates_generation_by_owner(self):
+    def test_full_chat_flow_generates_report_and_gates_deepseek_by_owner(self):
         sid_a, tab_a = "A" * 43, "tab-flow-a001"
         sid_b, tab_b = "B" * 43, "tab-flow-b001"
         FakeAI.generate_calls = 0
@@ -1434,23 +1462,28 @@ class WebTests(unittest.TestCase):
                 },
             )
 
-            # A non-owner visitor is refused, and the button stays clickable.
-            resp = self.client.post(
-                f"/api/searches/{search_id}/generate", headers=_headers(sid_a, tab_a)
+            # A non-owner cannot bypass the DeepSeek restriction through the API.
+            resp = post_report(
+                self.client,
+                f"/api/searches/{search_id}/generate",
+                json={"model": "deepseek"},
+                headers=_headers(sid_a, tab_a),
             )
             body = resp.json()
-            self.assertEqual(body["ownerNotice"], main.OWNER_ONLY_MESSAGE)
-            self.assertEqual(body["messages"], [])
+            self.assertEqual(resp.status_code, 403)
+            self.assertEqual(body["detail"]["code"], "MODEL_FORBIDDEN")
             self.assertEqual(FakeAI.generate_calls, 0)
 
             # The owner successfully generates the report.
-            resp = self.client.post(
-                f"/api/searches/{search_id}/generate", headers=_headers(sid_a, tab_a, owner=True)
+            resp = post_report(
+                self.client,
+                f"/api/searches/{search_id}/generate",
+                headers=_headers(sid_a, tab_a, owner=True),
             )
             body = resp.json()
             self.assertIsNone(body["ownerNotice"])
             self.assertEqual(FakeAI.generate_calls, 1)
-            self.assertEqual(self.deps.store.get(sid_a, tab_a).searches, {})
+            self.assertIn(search_id, self.deps.store.get(sid_a, tab_a).searches)
             send_report_mock.assert_not_called()
             recommendation = _by_kind(body["messages"], "text")
             download = _by_kind(body["messages"], "download")
@@ -1520,14 +1553,18 @@ class WebTests(unittest.TestCase):
             )
 
             # Generating the FIRST search uses its own problem, even though the chat moved on.
-            first_result = self.client.post(
-                f"/api/searches/{first_search_id}/generate", headers=_headers(sid, tab, owner=True)
+            first_result = post_report(
+                self.client,
+                f"/api/searches/{first_search_id}/generate",
+                headers=_headers(sid, tab, owner=True),
             ).json()
             self.assertEqual(FakeAI.report_profile["health_problem"], "Gripă și răceală")
             first_report_id = _by_kind(first_result["messages"], "download")["reportId"]
 
-            second_result = self.client.post(
-                f"/api/searches/{second_search_id}/generate", headers=_headers(sid, tab, owner=True)
+            second_result = post_report(
+                self.client,
+                f"/api/searches/{second_search_id}/generate",
+                headers=_headers(sid, tab, owner=True),
             ).json()
             self.assertEqual(FakeAI.generate_calls, 2)
             self.assertEqual(FakeAI.report_profile["health_problem"], "Migrenă")
@@ -1585,7 +1622,8 @@ class WebTests(unittest.TestCase):
                 return _by_kind(_send(self.client, sid, tab, "Gripă", []), "generate")["searchId"]
 
             def generate(search_id, body):
-                return self.client.post(
+                return post_report(
+                    self.client,
                     f"/api/searches/{search_id}/generate",
                     json=body,
                     headers=_headers(sid, tab, owner=True),
@@ -1593,8 +1631,9 @@ class WebTests(unittest.TestCase):
 
             # Nothing reaches 75%: no AI call, a notice, and the search stays pending.
             search_id = new_search()
-            messages = generate(search_id, {"minScore": 75}).json()["messages"]
-            self.assertEqual(messages[-1]["content"], conversation.NO_FRAGMENT_ABOVE_MIN_SCORE)
+            rejected = generate(search_id, {"minScore": 75})
+            self.assertEqual(rejected.status_code, 422)
+            self.assertEqual(rejected.json()["detail"]["code"], "NO_ELIGIBLE_FRAGMENTS")
             self.assertEqual(RecordingAI.sent, [])
             self.assertIn(search_id, self.deps.store.get(sid, tab).searches)
 
@@ -1606,8 +1645,10 @@ class WebTests(unittest.TestCase):
 
             # No body (older clients) sends every fragment.
             search_id = new_search()
-            self.client.post(
-                f"/api/searches/{search_id}/generate", headers=_headers(sid, tab, owner=True)
+            post_report(
+                self.client,
+                f"/api/searches/{search_id}/generate",
+                headers=_headers(sid, tab, owner=True),
             )
             self.assertEqual(RecordingAI.sent[-1], ["C1", "C2"])
 
@@ -1627,8 +1668,10 @@ class WebTests(unittest.TestCase):
             self.client.get("/api/session", headers=_headers(sid, tab))
             messages = _send(self.client, sid, tab, "Gripă și răceală", [])
             search_id = _by_kind(messages, "generate")["searchId"]
-            self.client.post(
-                f"/api/searches/{search_id}/generate", headers=_headers(sid, tab, owner=True)
+            post_report(
+                self.client,
+                f"/api/searches/{search_id}/generate",
+                headers=_headers(sid, tab, owner=True),
             )
             with self.assertLogs("naturist.conversation", level="ERROR") as captured:
                 reply_messages = _send(self.client, sid, tab, "prieten@example.com", [])

@@ -49,6 +49,7 @@ class EvidenceItem(TypedDict):
 
 
 Evidence = dict[str, EvidenceItem]
+ReportModel = Literal["ollama-gemma4:12b", "deepseek"]
 
 
 class AIProtocol(Protocol):

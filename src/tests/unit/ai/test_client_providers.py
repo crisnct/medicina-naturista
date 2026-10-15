@@ -1,4 +1,4 @@
-"""Tests for the configurable AI provider (AI_PROVIDER): selection, payloads, parsing, budget.
+"""Tests for the configurable AI provider (REPORT_GENERATION_MODEL_TYPE): selection, payloads, parsing, budget.
 
 No real requests are made: client.http.post is replaced, as in test_web.py.
 """
@@ -86,7 +86,7 @@ class ProviderSelectionTest(unittest.TestCase):
 
     def test_default_provider_is_xai(self):
         with patch.dict(os.environ):
-            os.environ.pop("AI_PROVIDER", None)
+            os.environ.pop("REPORT_GENERATION_MODEL_TYPE", None)
             self.assertEqual(config_module._ai_provider(), "xai")
 
     def test_create_ai_client_per_provider(self):

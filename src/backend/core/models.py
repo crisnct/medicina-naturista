@@ -136,6 +136,52 @@ class StoredReport:
 
 
 @dataclass
+class ReportGeneration:
+    """Bounded, session-owned job metadata; never stores credentials or PDF copies."""
+
+    job_id: str
+    search_id: str
+    request_id: str
+    min_score: float
+    model_choice: str
+    provider: str
+    model: str
+    created_at: float
+    deadline_at: float
+    state: str = "accepted"
+    stage: str = "preparing"
+    started_at: float | None = None
+    finished_at: float | None = None
+    progress_logged_at: float = 0
+    report_id: str | None = None
+    partial: bool = False
+    validation_warnings: list[dict[str, Any]] = field(default_factory=list)
+    error_code: str | None = None
+    message: str | None = None
+
+    def as_dict(self) -> dict[str, Any]:
+        return {
+            "jobId": self.job_id,
+            "searchId": self.search_id,
+            "state": self.state,
+            "stage": self.stage,
+            "provider": self.provider,
+            "model": self.model,
+            "modelChoice": self.model_choice,
+            "createdAt": self.created_at,
+            "startedAt": self.started_at,
+            "finishedAt": self.finished_at,
+            "deadlineAt": self.deadline_at,
+            "reportId": self.report_id,
+            "partial": self.partial,
+            "validationWarnings": self.validation_warnings,
+            "errorCode": self.error_code,
+            "message": self.message,
+            "pollAfterMs": 3000,
+        }
+
+
+@dataclass
 class SessionData:
     """Ephemeral state isolated to one browser tab."""
 
@@ -145,6 +191,9 @@ class SessionData:
     client_ip: str = "unknown"
     lifetime_id: str = field(default_factory=lambda: secrets.token_urlsafe(24))
     active_page_id: str | None = None
+    detached_until: float | None = None
+    generations: dict[str, ReportGeneration] = field(default_factory=dict)
+    generation_receipts: dict[str, str] = field(default_factory=dict)
     closed: bool = False
     context_revision: int = 0
     retained_bytes: int = 0
@@ -255,6 +304,8 @@ class CommitChange:
     replace_search_id: str | None = None
     routing: MessageRouting | None = None
     message_receipt: tuple[str, str] | None = None
+    partial: bool = False
+    validation_warnings: list[dict[str, Any]] = field(default_factory=list)
 
 
 @dataclass(frozen=True)

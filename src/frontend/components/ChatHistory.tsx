@@ -1,5 +1,5 @@
 import { useMemo } from "react";
-import type { ChatMessage, FragmentItem } from "../api/types";
+import type { ChatMessage, FragmentItem, ReportModel } from "../api/types";
 import { MessageBubble } from "./MessageBubble";
 import { TypingIndicator } from "./TypingIndicator";
 import type { GenerationFeedback } from "../lib/generationFeedback";
@@ -9,13 +9,15 @@ export function ChatHistory({
   pending,
   pendingLabel,
   onGenerate,
+  reportModels,
   actionsDisabled,
   generationFeedback,
 }: {
   history: ChatMessage[];
   pending: boolean;
   pendingLabel?: string;
-  onGenerate: (searchId: string, minScore: number) => void;
+  onGenerate: (searchId: string, minScore: number, model: ReportModel) => void;
+  reportModels?: ReportModel[];
   actionsDisabled?: boolean;
   generationFeedback?: Record<string, GenerationFeedback>;
 }) {
@@ -54,6 +56,7 @@ export function ChatHistory({
           message={message}
           fragments={message.kind === "generate" ? fragmentsBySearch.get(message.searchId) : undefined}
           onGenerate={onGenerate}
+          reportModels={reportModels}
           actionsDisabled={actionsDisabled}
           generationFeedback={message.kind === "generate" ? generationFeedback?.[message.searchId] ?? persistedFeedback.get(message.searchId) : undefined}
         />

@@ -57,6 +57,12 @@ export interface GenerateMessage extends MessageIdentity {
   busy: boolean;
 }
 
+export type ReportModel = "ollama-gemma4:12b" | "deepseek";
+
+export interface ReportModelsResponse {
+  models: ReportModel[];
+}
+
 export interface DownloadMessage extends MessageIdentity {
   kind: "download";
   role: "assistant";
@@ -88,6 +94,24 @@ export interface CategoryNode {
 export interface SessionResponse {
   history: ChatMessage[];
   latestReportId?: string | null;
+  generations?: ReportGeneration[];
+}
+
+export interface ReportGeneration {
+  jobId: string;
+  searchId: string;
+  state: "accepted" | "running" | "succeeded" | "failed" | "cancelled" | "timed_out";
+  stage: string;
+  provider: string;
+  model: string;
+  createdAt: number;
+  startedAt?: number | null;
+  deadlineAt: number;
+  reportId?: string | null;
+  partial?: boolean;
+  errorCode?: string | null;
+  message?: string | null;
+  workerActive?: boolean;
 }
 
 export interface CategoriesResponse {
