@@ -127,8 +127,17 @@ export function useReportGeneration(
   const latestJobBySearch = new Map(jobs.map((job) => [job.searchId, job.jobId]));
   for (const [index, job] of observed.entries()) {
     if (latestJobBySearch.get(job.searchId) !== job.jobId) continue;
-    if (job.state === "succeeded" && job.streamPreview && !blocked.current.has(job.jobId)) {
-      feedback[job.searchId] = { message: "", streamPreview: job.streamPreview, completed: true };
+    if (!observingGeneration(job) && !blocked.current.has(job.jobId)) {
+      feedback[job.searchId] = {
+        message: job.state === "succeeded" ? "" : job.message ?? "Raportul nu a putut fi generat.",
+        streamPreview: job.streamPreview,
+        thinkingPreview: job.thinkingPreview,
+        streamTokensPerSecond: job.streamTokensPerSecond,
+        thinkingTokensPerSecond: job.thinkingTokensPerSecond,
+        completed: job.state === "succeeded" && Boolean(job.streamPreview),
+        terminal: true,
+        generationId: job.jobId,
+      };
       continue;
     }
     if (!observingGeneration(job) || blocked.current.has(job.jobId)) continue;
@@ -143,8 +152,13 @@ export function useReportGeneration(
     feedback[job.searchId] = {
       message: "", progress: !activeGeneration(job) ? "Generarea a fost oprită. Aștept închiderea apelului AI…" : queries[index]?.error ? "Conexiunea este întreruptă. Verific din nou starea raportului." : job.stage === "queued" && job.queuePosition ? `Raportul așteaptă în coadă. Poziția: ${job.queuePosition}. Va porni automat.` : (aiActivity ? AI_ACTIVITY_LABELS[aiActivity.phase] : undefined) ?? stages[job.stage] ?? "Pregătesc raportul",
       cancel: activeGeneration(job) ? () => cancel.mutate(job.jobId) : undefined,
+      generationId: job.jobId,
+      generationStartedAt: job.startedAt,
+      waitingInQueue: job.state === "accepted" || job.stage === "queued",
       streamPreview: job.streamPreview,
       thinkingPreview: job.thinkingPreview,
+      streamTokensPerSecond: job.streamTokensPerSecond,
+      thinkingTokensPerSecond: job.thinkingTokensPerSecond,
       aiActivity,
       activityReceivedAt: snapshot.receivedAt,
     };
@@ -156,6 +170,7 @@ export function useReportGeneration(
     feedback[searchId] = {
       message: "",
       progress: "Solicit pornirea raportului…",
+      waitingInQueue: true,
     };
   }
   return {

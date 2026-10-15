@@ -231,6 +231,7 @@ class ConversationService:
     classify_message: ClassifyMessage | None = None
     herb_lookup: LookupHerb | None = None
     top_herbs: ListTopHerbs | None = None
+    report_model: str | None = None
 
     def budget(self, operation: SessionOperation) -> OperationBudget:
         return OperationBudget(
@@ -892,7 +893,12 @@ class ConversationService:
             messages = [
                 text_message(
                     "assistant",
-                    recommendation_text(sections, evidence, elapsed_seconds=elapsed_seconds),
+                    recommendation_text(
+                        sections,
+                        evidence,
+                        elapsed_seconds=elapsed_seconds,
+                        ai_model=self.report_model,
+                    ),
                 ),
                 download_message(
                     snapshot, report_id, profile, prefix=self.settings.public_root_path

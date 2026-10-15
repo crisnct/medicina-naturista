@@ -194,7 +194,11 @@ def ask(session: SessionData, question: str) -> None:
 # than a fully structured payload, since the section/nutrition/citation
 # formatting rules here are shared with reporting/pdf.py's own numbering.
 def recommendation_text(
-    sections: ValidatedReport | dict, evidence: dict, *, elapsed_seconds: int | None = None
+    sections: ValidatedReport | dict,
+    evidence: dict,
+    *,
+    elapsed_seconds: int | None = None,
+    ai_model: str | None = None,
 ) -> str:
     partial = isinstance(sections, ValidatedReport) and sections.partial
     if isinstance(sections, ValidatedReport):
@@ -216,6 +220,8 @@ def recommendation_text(
         ready_message += (
             f" și a fost generat în **{minutes}** {minute_label} și **{seconds}** {second_label}"
         )
+    if ai_model:
+        ready_message += f", folosind modelul AI **{ai_model}**"
     lines = [f"{ready_message}. Recomandările susținute de surse:"]
     if partial:
         lines.append(PARTIAL_NOTICE)

@@ -10,6 +10,14 @@ from urllib.parse import urlsplit
 
 from dotenv import load_dotenv
 
+from backend.core.report_models import (
+    DEFAULT_REPORT_MODEL,
+    DEFAULT_REPORT_MODELS,
+    REPORT_MODELS,
+    ReportModel,
+    parse_report_models,
+)
+
 ROOT = Path(__file__).resolve().parents[2]
 CORPUS_DATA_DIR = ROOT / "medicina-naturista-documente" / "data"
 
@@ -57,15 +65,11 @@ def _embedding_device(env: Mapping[str, str] | None = None) -> str:
 AI_PROVIDERS = ("xai", "huggingface", "ollama", "deepseek")
 
 
-# Read REPORT_GENERATION_MODEL_TYPE and reject anything that is not a known provider.
-def _ai_provider(value: str | None = None, env: Mapping[str, str] | None = None) -> str:
-    provider = (
-        ((env or {}).get("REPORT_GENERATION_MODEL_TYPE", "xai") if value is None else value)
-        .strip()
-        .casefold()
-    )
+# Validate the provider used by generic Python client constructors, not an env selector.
+def _ai_provider(value: str = "xai") -> str:
+    provider = value.strip().casefold()
     if provider not in AI_PROVIDERS:
-        raise ValueError(f"REPORT_GENERATION_MODEL_TYPE must be one of {', '.join(AI_PROVIDERS)}")
+        raise ValueError(f"AI provider must be one of {', '.join(AI_PROVIDERS)}")
     return provider
 
 
@@ -87,20 +91,21 @@ class Settings:
     temp_dir: Path = Path(
         "/tmp/naturist-sessions" if os.name != "nt" else str(ROOT / "var" / "sessions")
     )
-    xai_model: str = "grok-4.3"
+    report_generation_models: tuple[ReportModel, ...] = DEFAULT_REPORT_MODELS
+    xai_model: str = REPORT_MODELS["grok-4.3"].model
     xai_reasoning_effort: str = "medium"
     xai_max_context_chars: int = 1_000_000
     xai_api_base: str = "https://api.x.ai/v1"
-    ai_provider: str = "xai"
-    hf_model: str = "deepseek-ai/DeepSeek-V4-Flash:deepinfra"
+    ai_provider: str = "ollama"
+    hf_model: str = REPORT_MODELS["huggingface-deepseek-v4-flash"].model
     hf_api_base: str = "https://router.huggingface.co/v1"
     hf_reasoning_effort: str = ""
     hf_max_context_chars: int = 120_000
-    ollama_model: str = "deepseek-v4.1-flash:cloud"
+    ollama_model: str = REPORT_MODELS[DEFAULT_REPORT_MODEL].model
     ollama_api_base: str = "http://localhost:11434/v1"
     ollama_reasoning_effort: str = ""
     ollama_max_context_chars: int = 1_000_000
-    deepseek_model: str = "deepseek-flash"
+    deepseek_model: str = REPORT_MODELS["deepseek-flash"].model
     deepseek_api_base: str = "https://api.deepseek.com"
     deepseek_reasoning_effort: str = ""
     deepseek_max_context_chars: int = 1_000_000
@@ -155,6 +160,10 @@ class Settings:
     deepseek_key: str | None = field(default=None, repr=False)
     ollama_key: str | None = field(default=None, repr=False)
 
+    @property
+    def report_generation_model(self) -> ReportModel:
+        return self.report_generation_models[0]
+
     @classmethod
     def from_env(cls, env: Mapping[str, str] | None = None, *, dotenv: bool = False) -> "Settings":
         """Read configuration explicitly; tests pass a mapping and never load .env."""
@@ -163,6 +172,11 @@ class Settings:
                 raise ValueError("dotenv cannot be combined with an injected environment")
             load_dotenv(ROOT / ".env", override=False)
         env = os.environ if env is None else env
+        report_models = parse_report_models(
+            env.get("REPORT_GENERATION_MODELS", ",".join(DEFAULT_REPORT_MODELS))
+        )
+        report_model = report_models[0]
+        report_spec = REPORT_MODELS[report_model]
         return cls(
             documents_dir=Path(env.get("DOCUMENTS_DIR", str(CORPUS_DATA_DIR / "documents"))),
             model_cache_dir=Path(env.get("MODEL_CACHE_DIR", str(ROOT / "model_cache"))),
@@ -181,20 +195,20 @@ class Settings:
                     "/tmp/naturist-sessions" if os.name != "nt" else str(ROOT / "var" / "sessions"),
                 )
             ),
-            xai_model=env.get("XAI_MODEL", "grok-4.3"),
+            report_generation_models=report_models,
             xai_reasoning_effort=env.get("XAI_REASONING_EFFORT", "medium"),
             xai_max_context_chars=_int("X_AI_MAX_CONTEXT_CHARS", 1000000, env=env),
             xai_api_base=env.get("XAI_API_BASE", "https://api.x.ai/v1").rstrip("/"),
-            ai_provider=_ai_provider(env=env),
-            hf_model=env.get("HF_MODEL", "deepseek-ai/DeepSeek-V4-Flash:deepinfra"),
+            ai_provider=report_spec.provider,
             hf_api_base=env.get("HF_API_BASE", "https://router.huggingface.co/v1").rstrip("/"),
             hf_reasoning_effort=env.get("HF_REASONING_EFFORT", "").strip(),
             hf_max_context_chars=_int("HF_MAX_CONTEXT_CHARS", 120000, env=env),
-            ollama_model=env.get("OLLAMA_MODEL", "deepseek-v4.1-flash:cloud"),
+            ollama_model=report_spec.model
+            if report_spec.provider == "ollama"
+            else REPORT_MODELS[DEFAULT_REPORT_MODEL].model,
             ollama_api_base=env.get("OLLAMA_API_BASE", "http://localhost:11434/v1").rstrip("/"),
             ollama_reasoning_effort=env.get("OLLAMA_REASONING_EFFORT", "").strip(),
             ollama_max_context_chars=_int("OLLAMA_MAX_CONTEXT_CHARS", 1000000, env=env),
-            deepseek_model=env.get("DEEPSEEK_MODEL", "deepseek-flash"),
             deepseek_api_base=env.get("DEEPSEEK_API_BASE", "https://api.deepseek.com").rstrip("/"),
             deepseek_reasoning_effort=env.get("DEEPSEEK_REASONING_EFFORT", "").strip(),
             deepseek_max_context_chars=_int("DEEPSEEK_MAX_CONTEXT_CHARS", 1000000, env=env),
@@ -261,6 +275,11 @@ class Settings:
 
     # Reject an unknown provider even when Settings is built directly (tests).
     def __post_init__(self) -> None:
+        object.__setattr__(
+            self,
+            "report_generation_models",
+            parse_report_models(",".join(self.report_generation_models)),
+        )
         _ai_provider(self.ai_provider)
         for name in ("ai_stream", "log_fragment_text", "log_ai_response_text", "cookie_secure"):
             if not isinstance(getattr(self, name), bool):

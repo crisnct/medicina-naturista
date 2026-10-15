@@ -136,6 +136,34 @@ class StoredReport:
 
 
 @dataclass
+class AIStreamRate:
+    """Provider-independent character estimate measured at chunk receipt."""
+
+    characters_received: int = 0
+    first_chunk_characters: int = 0
+    first_chunk_at: float | None = None
+    last_chunk_at: float | None = None
+
+    def record(self, text: str, now: float) -> None:
+        if not text:
+            return
+        if self.first_chunk_at is None:
+            self.first_chunk_at = now
+            self.first_chunk_characters = len(text)
+        self.characters_received += len(text)
+        self.last_chunk_at = now
+
+    def tokens_per_second(self) -> float | None:
+        if self.first_chunk_at is None or self.last_chunk_at is None:
+            return None
+        elapsed = self.last_chunk_at - self.first_chunk_at
+        if elapsed < 1:
+            return None
+        # Exclude the initial chunk: its production interval is unknown.
+        return round((self.characters_received - self.first_chunk_characters) / 4 / elapsed, 1)
+
+
+@dataclass
 class AIActivity:
     request_started_at: float
     phase: Literal["waiting", "processing", "thinking", "answering"] = "waiting"
@@ -190,6 +218,8 @@ class ReportGeneration:
     stream_bytes: int = 0
     thinking_parts: list[str] = field(default_factory=list, repr=False)
     thinking_bytes: int = 0
+    stream_rate: AIStreamRate = field(default_factory=AIStreamRate)
+    thinking_rate: AIStreamRate = field(default_factory=AIStreamRate)
     ai_activity: AIActivity | None = None
 
     @property
@@ -216,11 +246,11 @@ class ReportGeneration:
             "message": self.message,
             "pollAfterMs": 3000,
             "estimatedMinutesPer44500Chars": self.estimated_minutes_per_44500_chars,
-            "streamPreview": self.stream_preview
-            if self.state in {"accepted", "running", "succeeded"}
-            else None,
+            "streamPreview": self.stream_preview,
+            "streamTokensPerSecond": self.stream_rate.tokens_per_second(),
+            "thinkingTokensPerSecond": self.thinking_rate.tokens_per_second(),
             "thinkingPreview": "".join(self.thinking_parts) or None
-            if self.state in {"accepted", "running"}
+            if self.state != "succeeded"
             else None,
             "aiActivity": self.ai_activity.as_dict(time.monotonic() if now is None else now)
             if self.ai_activity

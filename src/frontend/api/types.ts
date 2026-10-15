@@ -57,10 +57,13 @@ export interface GenerateMessage extends MessageIdentity {
   busy: boolean;
 }
 
-export type ReportModel = "ollama-gemma4:12b" | "deepseek";
+export type ReportModel = "ollama-gemma4:12b" | "ollama-gemma3:1b" | "ollama-qwen3.5:9b" | "ollama-qwen3.5:4b"
+  | "ollama-ministral-3:8b" | "deepseek-flash"
+  | "huggingface-deepseek-v4-flash" | "grok-4.3";
 
 export interface ReportModelsResponse {
   models: ReportModel[];
+  defaultModel?: ReportModel | null;
 }
 
 export interface DownloadMessage extends MessageIdentity {
@@ -130,6 +133,8 @@ export interface ReportGeneration {
   estimatedMinutesPer44500Chars?: number;
   streamPreview?: string | null;
   thinkingPreview?: string | null;
+  streamTokensPerSecond?: number | null;
+  thinkingTokensPerSecond?: number | null;
   aiActivity?: AIActivity | null;
 }
 

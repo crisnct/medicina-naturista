@@ -9,7 +9,6 @@ import { useReportGeneration } from "./useReportGeneration";
 
 const SESSION_KEY = ["session"] as const;
 const REPORT_MODELS_KEY = ["report-models"] as const;
-const DEFAULT_REPORT_MODELS: ReportModel[] = ["ollama-gemma4:12b"];
 
 class AcceptedMessageError extends Error {
   constructor(readonly original: unknown) {
@@ -147,15 +146,19 @@ export function useConversation() {
 
   const visibleGenerationFeedback = { ...generationFeedback };
   for (const [searchId, feedback] of Object.entries(generation.feedback)) {
-    // A previous success must not hide an error from starting a new attempt.
-    if (!feedback.completed || !visibleGenerationFeedback[searchId]) {
-      visibleGenerationFeedback[searchId] = feedback;
-    }
+    // Keep retained text without hiding an error from starting a new attempt.
+    visibleGenerationFeedback[searchId] = feedback.terminal
+      ? { ...feedback, ...visibleGenerationFeedback[searchId] }
+      : feedback;
   }
+
+  const reportModels = reportModelsQuery.data?.models ?? [];
+  const defaultReportModel = reportModelsQuery.data?.defaultModel ?? reportModels[0];
 
   return {
     history: history.map((message) => message.kind === "generate" ? { ...message, busy: generation.activeSearches.has(message.searchId) } : message),
-    reportModels: reportModelsQuery.data?.models ?? DEFAULT_REPORT_MODELS,
+    reportModels,
+    defaultReportModel,
     latestReportId: sessionQuery.data?.latestReportId,
     generationFeedback: visibleGenerationFeedback,
     isLoading: sessionQuery.isLoading,
@@ -173,6 +176,8 @@ export function useConversation() {
     isSearching,
     isClassifying,
     isGenerating: generation.isGenerating,
-    generateReport: (searchId: string, minScore: number, model: ReportModel = "ollama-gemma4:12b") => generation.generate(searchId, minScore, model),
+    generateReport: (searchId: string, minScore: number, model: ReportModel | undefined = defaultReportModel) => {
+      if (model) generation.generate(searchId, minScore, model);
+    },
   };
 }

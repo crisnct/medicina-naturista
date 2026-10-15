@@ -44,7 +44,7 @@ Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pent
 - **Diverse:** căutare după mesajul original, fără identificarea afecțiunii prin AI și fără notificările despre afecțiunea necunoscută. Generarea raportului naturist rămâne ca în fluxul de remedii.
 - **Email raport:** adresă validată local și PDF-ul precedent din aceeași sesiune; fără căutare nouă. Mesajul poate fi o adresă singură sau o cerere precum „Trimite raportul la nume@example.com”.
 
-Clasificarea trimite către Ollama local numai mesajul și context minimal de rutare, fără PDF sau corpus. Refolosește `CONDITION_AI_LOCAL_BASE` și `MEDICAL_CONDITION_AI_LOCAL_MODEL`, cu temperatura 0, fără cheie API și fără fallback Hugging Face. Schema JSON impune una dintre cele cinci intenții și câmpurile permise; validarea strictă se repetă în aplicație. Numele și aliasurile plantelor sunt recunoscute și în catalogul local, fără diferențe de diacritice sau cratime. Un nume explicit completează clarificarea. Dacă numele corespunde mai multor plante, aplicația afișează numele românești și latine și cere alegerea utilizatorului; aceasta selectează o singură specie și asocierile ei. Este independentă de `REPORT_GENERATION_MODEL_TYPE`. La eșec se continuă cu fluxul existent, cu o notificare; cererile explicite de email cer clarificare, iar o adresă singură păstrează comanda deterministă existentă. Cererile neclare solicită planta sau destinatarul. Clasificarea și expedierea nu sunt reîncercate automat; identificatorul mesajului și revizia previn repetarea aceleiași expediții.
+Clasificarea trimite către Ollama local numai mesajul și context minimal de rutare, fără PDF sau corpus. Refolosește `CONDITION_AI_LOCAL_BASE` și `MEDICAL_CONDITION_AI_LOCAL_MODEL`, cu temperatura 0, fără cheie API și fără fallback Hugging Face. Schema JSON impune una dintre cele cinci intenții și câmpurile permise; validarea strictă se repetă în aplicație. Numele și aliasurile plantelor sunt recunoscute și în catalogul local, fără diferențe de diacritice sau cratime. Un nume explicit completează clarificarea. Dacă numele corespunde mai multor plante, aplicația afișează numele românești și latine și cere alegerea utilizatorului; aceasta selectează o singură specie și asocierile ei. Este independentă de `REPORT_GENERATION_MODELS`. La eșec se continuă cu fluxul existent, cu o notificare; cererile explicite de email cer clarificare, iar o adresă singură păstrează comanda deterministă existentă. Cererile neclare solicită planta sau destinatarul. Clasificarea și expedierea nu sunt reîncercate automat; identificatorul mesajului și revizia previn repetarea aceleiași expediții.
 
 Diagrama actualizată: [chatbot-external-connections.xmind](architecture/chatbot-external-connections.xmind). Clasificarea și rutarea mesajelor (XMind 8): [message-classification-plan.xmind](architecture/message-classification-plan.xmind).
 
@@ -64,7 +64,7 @@ Diagrama actualizată: [chatbot-external-connections.xmind](architecture/chatbot
 💬 recomandări în chat  +  📄 raport PDF  +  ✉️ e-mail opțional
 ```
 
-> **Local vs. extern:** documentele, fragmentarea, indexarea și retrieval-ul rulează local. Generarea trimite profilul consultației și fragmentele selectate către modelul ales în UI: `gemma4:12b` prin `OLLAMA_API_BASE`, respectiv modelul configurat în `DEEPSEEK_MODEL` prin API-ul DeepSeek. Selecția se aplică doar raportului curent, fără modificarea variabilelor de mediu sau fallback la alt furnizor. Identificarea unei afecțiuni necunoscute trimite numai mesajul către Ollama de pe host. La timeout, eroare de comunicare sau răspuns invalid, afecțiunea rămâne neidentificată; nu se apelează alt furnizor AI. Livrarea prin Gmail este opțională.
+> **Local vs. extern:** documentele, fragmentarea, indexarea și retrieval-ul rulează local. Generarea trimite profilul consultației și fragmentele selectate către modelul ales în UI: cele patru modele locale prin `OLLAMA_API_BASE`, `deepseek-flash` prin API-ul DeepSeek, `DeepSeek-V4-Flash` prin routerul Hugging Face/DeepInfra sau `grok-4.3` prin API-ul xAI. Modelele externe necesită autorizarea de admin. Selecția se aplică doar raportului curent, fără modificarea variabilelor de mediu sau fallback la alt furnizor. Identificarea unei afecțiuni necunoscute trimite numai mesajul către Ollama de pe host. La timeout, eroare de comunicare sau răspuns invalid, afecțiunea rămâne neidentificată; nu se apelează alt furnizor AI. Livrarea prin Gmail este opțională.
 
 ## 🛠️ Tehnologii folosite
 
@@ -233,8 +233,7 @@ $env:PYTHONPATH = "src"
 Pentru rapoarte, instalați modelul `gemma4:12b` în Ollama pe host. Pentru opțiunea DeepSeek a adminului, adăugați cheia DeepSeek și cheia de owner în fișierul local `.env`:
 
 ```dotenv
-REPORT_GENERATION_MODEL_TYPE=ollama
-OLLAMA_MODEL=gemma4:12b
+REPORT_GENERATION_MODELS=ollama-gemma3:1b,ollama-gemma4:12b,ollama-ministral-3:8b,ollama-qwen3.5:9b,ollama-qwen3.5:4b,deepseek-flash,huggingface-deepseek-v4-flash,grok-4.3
 DEEPSEEK_API_KEY=...
 OWNER_KEY=o-cheie-secreta-lunga
 COOKIE_SECURE=false
@@ -286,8 +285,8 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 | `POST /api/classify` | Aplică scurtăturile deterministe sau clasifică prin Ollama local; rutează spre `remedii`, `planta`, `top_plante`, `diverse` sau `email_raport`. Necesită `X-Context-Revision`. |
 | `POST /api/condition` | Identifică prin AI afecțiunea pe care dicționarul nu o cunoaște (Ollama local, fără fallback). |
 | `POST /api/search` | Rulează căutarea și întoarce fragmentele găsite și secțiunea „Generează raportul”. |
-| `GET /api/report-models` | Modelele permise pentru browserul curent: `ollama-gemma4:12b` pentru toți, plus `deepseek` pentru admin. |
-| `POST /api/searches/{search_id}/generate` | Primește `minScore` și `model` (`ollama-gemma4:12b` implicit sau `deepseek`). DeepSeek fără autorizare admin → HTTP 403; model necunoscut → HTTP 422. Aplică pragul și bugetul modelului ales, apoi generează PDF-ul. |
+| `GET /api/report-models` | Modelele permise și `defaultModel`: cele patru modele Ollama pentru toți, plus DeepSeek, Hugging Face și xAI pentru admin. |
+| `POST /api/searches/{search_id}/generate` | Primește `minScore` și `model` din catalog; fără model folosește `REPORT_GENERATION_MODELS`. Model extern fără autorizare admin → HTTP 403; model necunoscut → HTTP 422. Aplică pragul și bugetul modelului ales, apoi generează PDF-ul. |
 | `GET /api/reports/{tab_id}/{report_id}` | Descarcă PDF-ul generat în sesiunea tabului. |
 | `POST /api/session/end`, `POST /api/session/unload` | Închid sesiunea tabului (la cerere, respectiv la închiderea paginii). |
 
@@ -295,7 +294,7 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 
 - **Sesiuni:** aplicația poate fi deschisă simultan în mai multe taburi sau browsere de pe același PC/IP. Fiecare încărcare completă a paginii, inclusiv refresh, Shift+F5 sau duplicarea tabului, începe o conversație nouă. Identificatorul este păstrat doar în memoria paginii; reîncercările și reconectările din aceeași pagină continuă conversația curentă. Rămân active limita globală de sesiuni și limitele de creare a sesiunilor pe minut.
 - **Retenție:** istoricul, fragmentele și PDF-urile rămân în memoria procesului. Sesiunea expiră după o oră de inactivitate sau cel mult patru ore (`SESSION_IDLE_SECONDS`, `SESSION_MAX_SECONDS`). Închiderea paginii încearcă să închidă sesiunea; dacă notificarea nu ajunge la server, expirarea eliberează datele. Repornirea aplicației le elimină. Se păstrează cel mult 12 căutări și 12 rapoarte per sesiune, în limitele bugetelor de memorie.
-- **Owner / admin:** setați `OWNER_KEY` și autentificați browserul prin formularul `/owner` pentru a folosi `deepseek`. Generarea cu `ollama-gemma4:12b` este disponibilă și fără autorizare. Selectorul „Model AI” urmează câmpului „Scor minim”; lista se actualizează la revenirea în pagină după autentificare. API-ul verifică autorizarea la fiecare generare DeepSeek. PostgreSQL păstrează hashul tokenului și date tehnice, fără conversații sau PDF-uri. Autorizarea supraviețuiește restartului; logoutul o revocă, iar schimbarea cheii invalidează tokenurile existente.
+- **Owner / admin:** setați `OWNER_KEY` și autentificați browserul prin formularul `/owner` pentru a folosi modelele externe `deepseek-flash`, `huggingface-deepseek-v4-flash` și `grok-4.3`. Cele patru modele Ollama sunt disponibile și fără autorizare. Selectorul „Model AI” urmează câmpului „Scor minim”; lista se actualizează la revenirea în pagină după autentificare. API-ul verifică autorizarea la fiecare generare cu un model extern și la citirea/anularea jobului său. PostgreSQL păstrează hashul tokenului și date tehnice, fără conversații sau PDF-uri. Autorizarea supraviețuiește restartului; logoutul o revocă, iar schimbarea cheii invalidează tokenurile existente.
 
 ## Catalogul de plante
 
@@ -438,27 +437,23 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 
 | Variabilă | Implicit | Rol |
 |---|---:|---|
-| `REPORT_GENERATION_MODEL_TYPE` | `xai` | Furnizorul implicit al fabricii generice de clienți: `xai`, `huggingface`, `ollama` sau `deepseek`. Valoare necunoscută → eroare la pornire. Rapoartele web folosesc selecția din UI, independent de această valoare. |
-| `X_API_KEY` | — | Cheia xAI (necesară cu `REPORT_GENERATION_MODEL_TYPE=xai`). |
-| `XAI_MODEL` | `grok-4.3` | Modelul xAI folosit pentru redactare. |
+| `X_API_KEY` | — | Cheia xAI (necesară la utilizarea modelului `grok-4.3`). |
 | `XAI_REASONING_EFFORT` | `medium` (direct) / `low` (Docker Compose) | Nivelul de reasoning solicitat. |
 | `XAI_API_BASE` | `https://api.x.ai/v1` | URL-ul de bază al API-ului xAI. |
-| `HF_TOKEN` | — | Token Hugging Face cu permisiunea „Make calls to Inference Providers”; necesar cu `REPORT_GENERATION_MODEL_TYPE=huggingface`. |
-| `HF_MODEL` | `deepseek-ai/DeepSeek-V4-Flash:deepinfra` | Modelul prin routerul HF; sufixul `:deepinfra` fixează furnizorul. |
+| `HF_TOKEN` | — | Token Hugging Face cu permisiunea „Make calls to Inference Providers”; necesar la utilizarea modelului `huggingface-deepseek-v4-flash`. |
 | `HF_API_BASE` | `https://router.huggingface.co/v1` | URL-ul de bază al routerului HF; clientul apelează ruta `/responses`. |
 | `HF_REASONING_EFFORT` | _(gol)_ | `low`/`medium`/`high`; se trimite doar dacă este setat. |
-| `HF_MAX_CONTEXT_CHARS` | `120000` | Bugetul de caractere al fragmentelor pentru `REPORT_GENERATION_MODEL_TYPE=huggingface`; nu reprezintă o limită de tokeni garantată de furnizor. |
-| `DEEPSEEK_API_KEY` | — | Cheia API de pe platform.deepseek.com, necesară când adminul alege `deepseek`. Lipsa ei nu blochează rapoartele Ollama. |
-| `DEEPSEEK_MODEL` | `deepseek-flash` | Identificatorul modelului trimis către DeepSeek (prin Responses API: `POST {DEEPSEEK_API_BASE}/responses`). |
+| `HF_MAX_CONTEXT_CHARS` | `120000` | Bugetul de caractere al fragmentelor pentru modelul `huggingface-deepseek-v4-flash`; nu reprezintă o limită de tokeni garantată de furnizor. |
+| `DEEPSEEK_API_KEY` | — | Cheia API de pe platform.deepseek.com, necesară când adminul alege `deepseek-flash`. Lipsa ei nu blochează rapoartele Ollama. |
 | `DEEPSEEK_API_BASE` | `https://api.deepseek.com` | URL-ul de bază al API-ului DeepSeek. |
 | `DEEPSEEK_REASONING_EFFORT` | _(gol)_ | Se trimite doar dacă este setat. |
-| `DEEPSEEK_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru `REPORT_GENERATION_MODEL_TYPE=deepseek`. |
+| `DEEPSEEK_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru modelul `deepseek-flash`. |
 | `OLLAMA_API_BASE` | `http://localhost:11434/v1` | Baza Ollama; în Docker Compose `http://host.docker.internal:11434/v1`. |
-| `OLLAMA_MODEL` | `deepseek-v4.1-flash:cloud` | Modelul fabricii generice Ollama. Opțiunea web `ollama-gemma4:12b` fixează modelul `gemma4:12b`, indiferent de această valoare. |
 | `OLLAMA_API_KEY` | — | Necesară doar când `OLLAMA_API_BASE` nu este local (ex. `https://ollama.com/v1`). |
-| `OLLAMA_REASONING_EFFORT` | _(gol)_ | Se trimite doar dacă este setat. |
-| `OLLAMA_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru `REPORT_GENERATION_MODEL_TYPE=ollama`; pentru modele locale mici trebuie coborât. |
+| `OLLAMA_REASONING_EFFORT` | _(gol)_ | Pentru Gemma4 și Qwen3.5, controlează `think`: `none` îl dezactivează, celelalte valori îl activează. Pentru Gemma3 și Ministral este omis. |
+| `OLLAMA_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru modelele Ollama; pentru modele locale mici trebuie coborât. |
 | `MEDICAL_CONDITION_AI_LOCAL_MODEL` | `gemma3:1b` | Modelul Ollama local pentru clasificarea mesajului și identificarea afecțiunii; se descarcă pe host cu `ollama pull <model>`, inclusiv când aplicația rulează în Docker. |
+| `REPORT_GENERATION_MODELS` | cele 8 modele în ordinea catalogului de mai jos | Listă CSV ordonată a modelelor disponibile. Primul este implicit. Ordinea din UI este aceeași, după filtrarea drepturilor de acces. Listele goale, elementele goale, modelele necunoscute și duplicatele sunt respinse la pornire. Alegerea din UI se aplică numai jobului respectiv. |
 | `CONDITION_AI_LOCAL_BASE` | `http://localhost:11434/v1` (direct) / `http://host.docker.internal:11434/v1` (Compose) | Adresa Ollama de pe host, folosită pentru clasificarea mesajului și identificarea afecțiunii. |
 | `CONDITION_AI_TIMEOUT_SECONDS` | `10` | Timeout pentru identificarea afecțiunii prin Ollama local. |
 | `MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS` | `10` | Timeout la clasificare prin Ollama local, independent de identificarea afecțiunii. |
@@ -476,7 +471,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `EMBEDDING_DEVICE` | `cpu` | Dispozitivul modelului de embedding la **construirea** indexului: `cpu` (FastEmbed/ONNX) sau `cuda` (PyTorch fp16, doar din mediul GPU `.venv-gpu`; fără CUDA build-ul se oprește, nu trece pe CPU). Întrebările din aplicație rulează mereu pe CPU. |
 | `SESSION_TEMP_DIR` | `var/sessions` (Windows) / `/tmp/naturist-sessions` | Directorul fișierelor temporare ale sesiunilor. |
 | `MAX_CHAT_CHARS` | `4000` | Lungimea maximă a mesajului utilizatorului. |
-| `X_AI_MAX_CONTEXT_CHARS` | `1000000` | Bugetul (în caractere de text al fragmentelor) pentru `REPORT_GENERATION_MODEL_TYPE=xai`: fragmentele afișate și trimise către AI. Toate fragmentele primesc scor, se ordonează descrescător, iar cele de la coadă care nu încap sunt eliminate întregi, nu trunchiate. Nu există un prag de relevanță separat și nici o limită de candidați per semnal. |
+| `X_AI_MAX_CONTEXT_CHARS` | `1000000` | Bugetul (în caractere de text al fragmentelor) pentru modelul `grok-4.3`: fragmentele afișate și trimise către AI. Toate fragmentele primesc scor, se ordonează descrescător, iar cele de la coadă care nu încap sunt eliminate întregi, nu trunchiate. Nu există un prag de relevanță separat și nici o limită de candidați per semnal. |
 | `MAX_REQUESTS_PER_MINUTE` | `60` | Limita de cereri `POST`/`PUT`/`PATCH`/`DELETE` către `/api/`, pe minut și IP; loginul owner are o limită separată. |
 | `SESSION_IDLE_SECONDS` | `3600` | Expirarea unei sesiuni inactive. |
 | `SESSION_MAX_SECONDS` | `14400` | Durata maximă a unei sesiuni. |
@@ -656,13 +651,40 @@ Codul proiectului este distribuit sub [Business Source License 1.1](LICENSE) ([v
 
 ## Generarea rapoartelor în fundal
 
+Modelele suportate sunt definite într-un singur catalog backend. `REPORT_GENERATION_MODELS` este lista CSV a modelelor activate, în ordinea din UI; primul model este implicit. `/api/report-models` returnează lista în această ordine și `defaultModel`, adaptate autorizării. Administratorul vede toate modelele configurate; utilizatorul public vede doar modelele locale configurate, în aceeași ordine, cu primul model vizibil selectat implicit. Dacă lista conține numai modele externe, publicul primește o listă goală și `defaultModel=null`, iar generarea este dezactivată în UI. Cererile API fără model folosesc primul model configurat vizibil utilizatorului; un model explicit neconfigurat este respins cu HTTP 422 și `MODEL_NOT_CONFIGURED`. Se construiesc clienți numai pentru modelele configurate. Variabila singulară anterioară a fost eliminată.
+
+În chat, confirmarea „Raportul este gata și a fost generat în …” include și `folosind modelul AI **<model>**`, cu identificatorul efectiv al modelului afișat cu bold. Informația este păstrată în mesajul raportului din istoricul sesiunii, independent de selecțiile ulterioare din UI.
+
+La finalul PDF-ului, după bibliografie și sumarul generării, apare `Model AI folosit: <model>`. Se afișează identificatorul efectiv trimis furnizorului, fixat din clientul ales pentru raport; o schimbare ulterioară a implicitului nu modifică această informație pentru cererile deja admise în coadă.
+
+| Opțiune UI / env | Furnizor | Model trimis în request |
+| --- | --- | --- |
+| `ollama-gemma3:1b` | Ollama local | `gemma3:1b` |
+| `ollama-gemma4:12b` | Ollama local | `gemma4:12b` |
+| `ollama-ministral-3:8b` | Ollama local | `ministral-3:8b` |
+| `ollama-qwen3.5:9b` | Ollama local | `qwen3.5:9b` |
+| `ollama-qwen3.5:4b` | Ollama local | `qwen3.5:4b` |
+| `deepseek-flash` | DeepSeek | `deepseek-flash` |
+| `huggingface-deepseek-v4-flash` | Hugging Face / DeepInfra | `deepseek-ai/DeepSeek-V4-Flash:deepinfra` |
+| `grok-4.3` | xAI | `grok-4.3` |
+
+Toate modelele Ollama pentru rapoarte folosesc ruta nativă `/api/chat`. Parametrul de thinking este activat conform configurării pentru Gemma4 și Qwen3.5; pentru Gemma3 și Ministral este omis. Instalați pe host modelul local ales înainte de utilizare; opțiunea `ollama-ministral-3:8b` folosește tagul Ollama `ministral-3:8b`.
+
+Dacă Ollama răspunde că modelul cerut nu este găsit, jobul primește `AI_MODEL_NOT_FOUND`, iar interfața afișează că modelul selectat nu este instalat sau nu este disponibil.
+
+
+
 Generarea pornește prin `POST /api/searches/{searchId}/generate` și răspunde cu `202`, `jobId` și `Location`. Clientul trimite un `requestId` stabil pentru fiecare încercare. `GET /api/report-generations/{jobId}` citește starea, iar `POST /api/report-generations/{jobId}/cancel` solicită anularea. Verificarea periodică nu lansează apeluri AI suplimentare. Aceeași execuție funcționează cu toți clienții AI suportați; modelul ales este fixat la admitere. Restricțiile existente de acces pentru modelul ales se aplică și citirii/anulării operației.
 
 Frontendul reconciliază statusul jobului cu snapshotul din sesiune: la revenirea într-un tab, o stare veche „în coadă” din cache nu poate înlocui un status final primit odată cu raportul. Aceeași stare reconciliată controlează mesajul, indicatorul de generare și pollingul; oprirea workerului nu este inversată de un snapshot vechi.
 
-`REPORT_GENERATION_TIMEOUT_SECONDS` limitează raportul complet (implicit 600 s; configurația locală folosește 2700 s, adică 45 de minute). `OPERATION_TIMEOUT_SECONDS` rămâne separat pentru celelalte operații. `REPORT_GENERATION_READ_TIMEOUT_SECONDS` limitează I/O. Cu `REPORT_GENERATION_AI_STREAM=true`, fragmentele Ollama (native chat) și DeepSeek (Responses SSE) se acumulează într-un singur panou, sub starea generării. Zona read-only are exact zece rânduri vizibile și afișează tot textul fazei curente, urmat de `.....`, cu scroll automat la sfârșit și actualizare la verificarea periodică a stării (3 s). Limita precedentă de 800 de caractere a fost eliminată. După succes, panoul păstrează răspunsul în sesiune, inclus în bugetele existente de memorie; controalele de generare dispar. Eșecul sau anularea eliberează previzualizarea. Raportul final este validat separat. În confirmarea finală, butonul „Descarcă PDF” apare în dreapta textului, iar pe ecrane înguste se așază dedesubt.
+Cronometrul raportului rămâne la `00:00` cât cererea așteaptă admiterea sau este în coadă. Pornește când workerul preia raportul, folosind `startedAt`, fără a include așteptarea. Schimbările de etapă și actualizările statusului nu îl resetează; o nouă încercare primește un cronometru nou.
 
-Panoul începe cu titlul „Analiza modelului AI”: `message.thinking` pentru Ollama și `response.reasoning_text.delta` pentru DeepSeek. La primul fragment al răspunsului, același panou trece la titlul „Ultimul fragment primit de la AI” și afișează răspunsul acumulat, fără amestecarea fluxurilor. Evenimentele `.done` nu dublează textul primit prin delte. Analiza este disponibilă numai sesiunii care deține jobul și nu intră în raport, PDF, istoricul conversației sau loguri; memoria ei este eliberată la terminare. Răspunsul unui job reușit rămâne disponibil până la eliminarea jobului/sesiunii. Efortul de reasoning și configurația modelului nu sunt schimbate automat.
+`REPORT_GENERATION_TIMEOUT_SECONDS` limitează raportul complet (implicit 600 s; configurația locală folosește 2700 s, adică 45 de minute). `OPERATION_TIMEOUT_SECONDS` rămâne separat pentru celelalte operații. `REPORT_GENERATION_READ_TIMEOUT_SECONDS` limitează I/O. Cu `REPORT_GENERATION_AI_STREAM=true`, fragmentele Ollama (native chat) și DeepSeek (Responses SSE) se acumulează într-un singur panou, sub starea generării. Zona read-only are exact zece rânduri vizibile și afișează tot textul fazei curente, urmat de `.....`, cu scroll automat la sfârșit și actualizare la verificarea periodică a stării (3 s). Limita precedentă de 800 de caractere a fost eliminată. După succes, panoul păstrează răspunsul în sesiune, inclus în bugetele existente de memorie; controalele de generare dispar. După eșec, expirarea timpului sau anulare, panoul păstrează textul primit în aceeași sesiune și afișează separat mesajul de eroare. O nouă generare înlocuiește previzualizarea veche. Raportul final este validat separat. În confirmarea finală, butonul „Descarcă PDF” apare în dreapta textului, iar pe ecrane înguste se așază dedesubt.
+
+Lângă titlul panoului apare viteza medie estimată, de exemplu „Ultimul fragment primit de la AI - 8 tokens/sec”. Backendul folosește euristica de 4 caractere per token, separat pentru analiză și răspuns. Formula este `(caractere acumulate - caracterele primului fragment) / 4 / secundele dintre primul și ultimul fragment`, pe baza ceasului monoton. Estimarea apare după cel puțin o secundă între fragmente și se actualizează odată cu statusul; așteptarea în coadă, procesarea promptului și pollingul nu intră în calcul. La schimbarea fazei se folosește estimarea noului flux, iar la terminare valoarea rămâne disponibilă în sesiune. API-ul expune opțional `thinkingTokensPerSecond` și `streamTokensPerSecond`. Valoarea este orientativă și nu reprezintă numărul de tokeni facturați de furnizor.
+
+Panoul începe cu titlul „Analiza modelului AI”: `message.thinking` pentru Ollama și `response.reasoning_text.delta` pentru DeepSeek. La primul fragment al răspunsului, același panou trece la titlul „Ultimul fragment primit de la AI” și afișează răspunsul acumulat, fără amestecarea fluxurilor. Evenimentele `.done` nu dublează textul primit prin delte. Analiza este disponibilă numai sesiunii care deține jobul și nu intră în raport, PDF, istoricul conversației sau loguri; memoria ei este eliberată după succes. După eșec, expirarea timpului sau anulare, analiza și răspunsul primit rămân disponibile până la eliminarea jobului/sesiunii, în bugetele de memorie existente. Panoul preferă răspunsul, dacă există; altfel afișează analiza. Răspunsul unui job reușit rămâne disponibil până la eliminarea jobului/sesiunii. Efortul de reasoning și configurația modelului nu sunt schimbate automat.
 
 Jobul expune opțional `aiActivity` și `thinkingPreview`, pe lângă `streamPreview`. Subetapele din `generating` sunt `waiting` („Aștept primul semnal de la model…”), `processing` („Furnizorul AI a confirmat cererea…”), `thinking` și `answering`. „Ultima activitate primită” folosește timpul monoton al ultimului eveniment real; pollingul nu îl resetează, iar browserul actualizează afișarea în `mm:ss` între verificări. Erorile de conexiune, anularea și etapele de validare/PDF au prioritate față de subetapa AI. Fără streaming sau fără evenimente de analiză, unele stări pot lipsi. UI afișează starea, timpul scurs și activitatea AI, fără bară de progres sau procent estimat.
 

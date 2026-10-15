@@ -8,9 +8,11 @@ export function GenerationStreamPreview({
   placeholder = "Aștept primul fragment de text…",
   activityAgeMs,
   activityReceivedAt,
+  tokensPerSecond,
 }: {
   text?: string | null; title?: string; label?: string; placeholder?: string;
   activityAgeMs?: number | null; activityReceivedAt?: number;
+  tokensPerSecond?: number | null;
 }) {
   const field = useRef<HTMLTextAreaElement>(null);
 
@@ -20,7 +22,14 @@ export function GenerationStreamPreview({
 
   return (
     <section className="generation-stream-preview" aria-label={title}>
-      <h4>{title}</h4>
+      <h4>
+        {title}
+        {tokensPerSecond != null && Number.isFinite(tokensPerSecond) && tokensPerSecond >= 0 && (
+          <span title="Viteză medie estimată din fragmentele primite: aproximativ 4 caractere per token, fără timpul de așteptare inițial.">
+            {` - ${Math.round(tokensPerSecond)} tokens/sec`}
+          </span>
+        )}
+      </h4>
       <textarea
         ref={field}
         className="generation-stream-text"

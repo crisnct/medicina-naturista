@@ -154,6 +154,7 @@ class ReportGenerationService:
                     "rate_limited": "AI_RATE_LIMITED",
                     "invalid_response": "AI_RESPONSE_INVALID",
                     "context_limit": "AI_CONTEXT_LIMIT_EXCEEDED",
+                    "model_not_found": "AI_MODEL_NOT_FOUND",
                 }.get(exc.reason, "AI_PROVIDER_UNAVAILABLE")
             elif isinstance(exc, httpx.TimeoutException):
                 code = "AI_READ_TIMEOUT"
@@ -177,6 +178,10 @@ class ReportGenerationService:
                     "AI_READ_TIMEOUT": "Furnizorul AI nu a transmis date în timpul alocat. Puteți încerca din nou.",
                     "AI_RATE_LIMITED": "Limita de utilizare a furnizorului AI a fost atinsă. Încercați mai târziu.",
                     "AI_RESPONSE_INVALID": "Răspunsul AI nu a putut fi validat. Puteți încerca din nou.",
+                    "AI_MODEL_NOT_FOUND": (
+                        "Modelul Ollama selectat nu este instalat sau nu este disponibil. "
+                        "Verificați modelul în Ollama sau alegeți alt model."
+                    ),
                     "AI_CONTEXT_LIMIT_EXCEEDED": (
                         "Fragmentele selectate depășesc contextul disponibil al modelului. "
                         "Selectați mai puține fragmente sau creșteți scorul minim. "

@@ -11,8 +11,14 @@ export interface GenerationFeedback {
   message: string;
   requiresAuthorization?: boolean;
   progress?: string;
+  generationId?: string;
+  generationStartedAt?: number | null;
+  waitingInQueue?: boolean;
   streamPreview?: string | null;
+  streamTokensPerSecond?: number | null;
+  thinkingTokensPerSecond?: number | null;
   completed?: boolean;
+  terminal?: boolean;
   thinkingPreview?: string | null;
   aiActivity?: AIActivity | null;
   activityReceivedAt?: number;

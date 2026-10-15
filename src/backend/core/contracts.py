@@ -5,6 +5,8 @@ from __future__ import annotations
 from collections.abc import Callable
 from typing import TYPE_CHECKING, Literal, NotRequired, Protocol, TypedDict
 
+from backend.core.report_models import ReportModel as ReportModel
+
 if TYPE_CHECKING:
     from backend.ai.categories import CategoryTree
     from backend.ai.condition_ai import AIConditionResult
@@ -49,7 +51,6 @@ class EvidenceItem(TypedDict):
 
 
 Evidence = dict[str, EvidenceItem]
-ReportModel = Literal["ollama-gemma4:12b", "deepseek"]
 
 
 class AIProtocol(Protocol):

@@ -658,11 +658,13 @@ class SessionStore:
                 if thinking:
                     job.thinking_parts.append(text)
                     job.thinking_bytes += added_bytes
+                    job.thinking_rate.record(text, self.clock())
                     if job.ai_activity:
                         job.ai_activity.thinking_characters_received += len(text)
                 else:
                     job.stream_parts.append(text)
                     job.stream_bytes += added_bytes
+                    job.stream_rate.record(text, self.clock())
                 session.retained_bytes += added_bytes
                 self._used_bytes += added_bytes
 
@@ -715,17 +717,20 @@ class SessionStore:
             job = operation.session.generations.get(operation.operation_id)
             if job:
                 session = operation.session
-                # Keep successful answer previews for the session, within its memory budget.
-                released_bytes = job.thinking_bytes
-                if job.state != "succeeded":
+                # Retain failed/interrupted previews for inspection within the session budget.
+                interrupted = job.state in {"failed", "cancelled", "timed_out"}
+                released_bytes = 0
+                if job.state != "succeeded" and not interrupted:
                     released_bytes += job.stream_bytes
                     job.stream_parts.clear()
                     job.stream_bytes = 0
+                if not interrupted:
+                    released_bytes += job.thinking_bytes
+                    job.thinking_parts.clear()
+                    job.thinking_bytes = 0
                 if self._sessions.get((session.cookie_id, session.tab_id)) is session:
                     session.retained_bytes -= released_bytes
                     self._used_bytes -= released_bytes
-                job.thinking_parts.clear()
-                job.thinking_bytes = 0
             if operation.state == "running":
                 operation.state = "finished"
             self._finished.notify_all()

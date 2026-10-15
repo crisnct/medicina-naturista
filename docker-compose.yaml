@@ -39,33 +39,29 @@ services:
       db:
         condition: service_healthy
     environment:
-      REPORT_GENERATION_MODEL_TYPE: ${REPORT_GENERATION_MODEL_TYPE:-xai}
       X_API_KEY: ${X_API_KEY:-}
       MAIL_FROM: ${MAIL_FROM:-}
       GMAIL_USERNAME: ${GMAIL_USERNAME:-}
       GOOGLE_CLIENT_ID: ${GOOGLE_CLIENT_ID:-}
       GOOGLE_CLIENT_SECRET: ${GOOGLE_CLIENT_SECRET:-}
       GOOGLE_REFRESH_TOKEN: ${GOOGLE_REFRESH_TOKEN:-}
-      XAI_MODEL: ${XAI_MODEL:-grok-4.3}
       XAI_REASONING_EFFORT: ${XAI_REASONING_EFFORT:-low}
       X_AI_MAX_CONTEXT_CHARS: ${X_AI_MAX_CONTEXT_CHARS:-1000000}
       XAI_API_BASE: ${XAI_API_BASE:-https://api.x.ai/v1}
       HF_TOKEN: ${HF_TOKEN:-}
-      HF_MODEL: ${HF_MODEL:-deepseek-ai/DeepSeek-V4-Flash:deepinfra}
       HF_API_BASE: ${HF_API_BASE:-https://router.huggingface.co/v1}
       HF_REASONING_EFFORT: ${HF_REASONING_EFFORT:-}
       HF_MAX_CONTEXT_CHARS: ${HF_MAX_CONTEXT_CHARS:-120000}
       DEEPSEEK_API_KEY: ${DEEPSEEK_API_KEY:-}
-      DEEPSEEK_MODEL: ${DEEPSEEK_MODEL:-deepseek-flash}
       DEEPSEEK_API_BASE: ${DEEPSEEK_API_BASE:-https://api.deepseek.com}
       DEEPSEEK_REASONING_EFFORT: ${DEEPSEEK_REASONING_EFFORT:-}
       DEEPSEEK_MAX_CONTEXT_CHARS: ${DEEPSEEK_MAX_CONTEXT_CHARS:-1000000}
       OLLAMA_API_BASE: ${OLLAMA_API_BASE:-http://host.docker.internal:11434/v1}
-      OLLAMA_MODEL: ${OLLAMA_MODEL:-deepseek-v4.1-flash:cloud}
       OLLAMA_API_KEY: ${OLLAMA_API_KEY:-}
       OLLAMA_REASONING_EFFORT: ${OLLAMA_REASONING_EFFORT:-}
       OLLAMA_MAX_CONTEXT_CHARS: ${OLLAMA_MAX_CONTEXT_CHARS:-1000000}
       MEDICAL_CONDITION_AI_LOCAL_MODEL: ${MEDICAL_CONDITION_AI_LOCAL_MODEL:-gemma3:1b}
+      REPORT_GENERATION_MODELS: ${REPORT_GENERATION_MODELS:-ollama-gemma3:1b,ollama-gemma4:12b,ollama-ministral-3:8b,ollama-qwen3.5:9b,ollama-qwen3.5:4b,deepseek-flash,huggingface-deepseek-v4-flash,grok-4.3}
       CONDITION_AI_LOCAL_BASE: ${CONDITION_AI_LOCAL_BASE:-http://host.docker.internal:11434/v1}
       CONDITION_AI_TIMEOUT_SECONDS: ${CONDITION_AI_TIMEOUT_SECONDS:-10}
       CONDITION_AI_MAX_OUTPUT_TOKENS: ${CONDITION_AI_MAX_OUTPUT_TOKENS:-300}
@@ -112,7 +108,7 @@ services:
     tmpfs:
       - /tmp:size=536870912,mode=1777
     # Host Ollama serves message classification, condition identification and,
-    # when REPORT_GENERATION_MODEL_TYPE=ollama, report generation. Start it outside Compose.
+    # for either Ollama report choice, report generation. Start it outside Compose.
     # Set on Windows: OLLAMA_FLASH_ATTENTION=1, OLLAMA_KV_CACHE_TYPE=q4_0,
     # OLLAMA_NUM_PARALLEL=1, OLLAMA_CONTEXT_LENGTH=262144; then restart Ollama.
     # These server settings do not take effect in the app container's environment.

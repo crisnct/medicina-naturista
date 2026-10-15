@@ -25,6 +25,7 @@ from backend.core.operation_context import (
     emit_report_thinking,
     remaining_timeout,
 )
+from backend.core.report_models import REPORT_MODELS
 
 logger = logging.getLogger("naturist.ai")
 
@@ -500,6 +501,12 @@ class OllamaReportClient(ResponsesClient):
             return
         message = error.get("message", "") if isinstance(error, dict) else str(error)
         lowered = message.lower()
+        if "model" in lowered and "not found" in lowered:
+            logger.warning("ai_model_not_found provider=ollama")
+            raise AIUnavailable(
+                "Modelul Ollama selectat nu este instalat sau nu este disponibil.",
+                reason="model_not_found",
+            )
         if any(
             marker in lowered
             for marker in (
@@ -533,9 +540,9 @@ class OllamaReportClient(ResponsesClient):
             "shift": False,
             "options": {"num_predict": payload["max_output_tokens"]},
         }
-        # The web report model is Gemma4, whose thinking capability is boolean.
+        # Gemma4 and Qwen3.5 support boolean thinking; omit it for Gemma3 and Ministral.
         effort = payload.get("reasoning", {}).get("effort")
-        if effort:
+        if effort and self.provider.model.startswith(("gemma4:", "qwen3.5:")):
             native["think"] = effort != "none"
         if "temperature" in payload:
             native["options"]["temperature"] = payload["temperature"]
@@ -617,12 +624,12 @@ class OllamaReportClient(ResponsesClient):
 
 
 class XAIClient(ResponsesClient):
-    # The xAI provider, regardless of REPORT_GENERATION_MODEL_TYPE: same constructor and payload as before.
+    # Explicit xAI constructor, independent of the selected default report model.
     def __init__(self, settings: Settings) -> None:
         super().__init__(provider_config(replace(settings, ai_provider="xai")), settings)
 
 
-# Build the client for the provider selected by REPORT_GENERATION_MODEL_TYPE.
+# Build a generic client using the already resolved provider settings.
 def create_ai_client(settings: Settings) -> ResponsesClient:
     if settings.ai_provider == "xai":
         return XAIClient(settings)
@@ -633,11 +640,24 @@ def create_report_clients(settings: Settings) -> dict[ReportModel, AIProtocol]:
     """Independent clients for UI choices; never mutate process-wide settings."""
     clients: dict[ReportModel, AIProtocol] = {}
     try:
-        ollama_settings = replace(settings, ai_provider="ollama", ollama_model="gemma4:12b")
-        clients["ollama-gemma4:12b"] = OllamaReportClient(
-            provider_config(ollama_settings), ollama_settings
-        )
-        clients["deepseek"] = create_ai_client(replace(settings, ai_provider="deepseek"))
+        for choice in settings.report_generation_models:
+            spec = REPORT_MODELS[choice]
+            selected = replace(
+                settings,
+                report_generation_models=(choice,),
+                ai_provider=spec.provider,
+                ollama_model=spec.model if spec.provider == "ollama" else settings.ollama_model,
+                deepseek_model=spec.model
+                if spec.provider == "deepseek"
+                else settings.deepseek_model,
+                hf_model=spec.model if spec.provider == "huggingface" else settings.hf_model,
+                xai_model=spec.model if spec.provider == "xai" else settings.xai_model,
+            )
+            clients[choice] = (
+                OllamaReportClient(provider_config(selected), selected)
+                if spec.provider == "ollama"
+                else create_ai_client(selected)
+            )
         return clients
     except Exception:
         for client in clients.values():

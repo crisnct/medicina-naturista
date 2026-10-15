@@ -10,7 +10,8 @@ export function GeneratePanel({
   message,
   fragments,
   onGenerate,
-  reportModels = ["ollama-gemma4:12b"],
+  reportModels = ["ollama-gemma4:12b", "ollama-gemma3:1b", "ollama-qwen3.5:9b", "ollama-qwen3.5:4b", "ollama-ministral-3:8b"],
+  defaultReportModel,
   actionsDisabled = false,
   feedback,
 }: {
@@ -20,13 +21,16 @@ export function GeneratePanel({
   fragments?: FragmentItem[];
   onGenerate: (searchId: string, minScore: number, model: ReportModel) => void;
   reportModels?: ReportModel[];
+  defaultReportModel?: ReportModel;
   actionsDisabled?: boolean;
   feedback?: GenerationFeedback;
 }) {
   // Only fragments whose relevance reaches this are sent to the AI (0 = all).
   const [minScore, setMinScore] = useState(0);
-  const [model, setModel] = useState<ReportModel>("ollama-gemma4:12b");
-  const selectedModel = reportModels.includes(model) ? model : "ollama-gemma4:12b";
+  const [model, setModel] = useState<ReportModel | null>(null);
+  const preferredModel = model ?? defaultReportModel ?? reportModels[0];
+  const selectedModel = reportModels.includes(preferredModel)
+    ? preferredModel : reportModels[0] ?? "ollama-gemma4:12b";
   const eligibleFragments = fragments?.filter((fragment) => reachesMinScore(fragment.relevancePercent, minScore));
   const eligibleCount = eligibleFragments?.length;
   const eligibleCharacters = eligibleFragments?.reduce(
@@ -34,8 +38,10 @@ export function GeneratePanel({
     0,
   );
   const noneReach = eligibleCount === 0;
-  const disabled = message.busy || noneReach || actionsDisabled;
+  const noModels = reportModels.length === 0;
+  const disabled = message.busy || noneReach || actionsDisabled || noModels;
   const hasAnswer = Boolean(feedback?.streamPreview);
+  const hasPreview = hasAnswer || Boolean(feedback?.thinkingPreview);
 
   return (
     <section className="generate-recipe-panel">
@@ -69,7 +75,7 @@ export function GeneratePanel({
               Model AI
               <select
                 value={selectedModel}
-                disabled={message.busy || actionsDisabled}
+                disabled={message.busy || actionsDisabled || noModels}
                 onChange={(event) => setModel(event.target.value as ReportModel)}
               >
                 {reportModels.map((option) => <option key={option} value={option}>{option}</option>)}
@@ -80,6 +86,7 @@ export function GeneratePanel({
         <div className="generate-report-row">
           <div className="generate-report-status">
             {noneReach && <p className="generate-recipe-warning">Niciun fragment nu atinge scorul minim selectat.</p>}
+            {noModels && <p className="generate-recipe-warning">Niciun model AI disponibil pentru această sesiune.</p>}
             <p className="eligible-count">
               Fragmente eligibile pentru raport: {eligibleCount === undefined ? "numărul va fi verificat la generare" : <strong>{eligibleCount}</strong>}
             </p>
@@ -107,12 +114,15 @@ export function GeneratePanel({
           </button>
         </div>
       </div>
-      {(message.busy || feedback?.completed) && (
+      {(message.busy || feedback?.completed || hasPreview) && (
         <div className="generation-progress-section">
           {message.busy && (
             <div className="generation-progress-row">
               <TypingIndicator
+                key={feedback?.generationId ?? "pending"}
                 label={feedback?.progress ?? "Pregătesc raportul. Generarea poate dura câteva minute."}
+                paused={feedback?.waitingInQueue ?? true}
+                startedAt={feedback?.generationStartedAt}
               />
               {feedback?.cancel && (
                 <button type="button" className="secondary-button" onClick={feedback.cancel}>Anulează generarea</button>
@@ -121,6 +131,7 @@ export function GeneratePanel({
           )}
           <GenerationStreamPreview
             text={hasAnswer ? feedback?.streamPreview : feedback?.thinkingPreview}
+            tokensPerSecond={hasAnswer ? feedback?.streamTokensPerSecond : feedback?.thinkingTokensPerSecond}
             title={hasAnswer ? "Ultimul fragment primit de la AI" : "Analiza modelului AI"}
             label={hasAnswer ? "Textul primit de la AI" : "Analiza transmisă de modelul AI"}
             placeholder={feedback?.aiActivity ? AI_ACTIVITY_LABELS[feedback.aiActivity.phase] : "Aștept primul semnal de la model…"}

@@ -1026,18 +1026,23 @@ def _section_heading(
 
 # The lines printed after the bibliography: how many fragments and how many
 # characters of fragment text were sent to the AI, and the "Scor minim" chosen
-# next to "Generează rețeta" (0 = "Toate").
-def generation_summary_lines(evidence: dict[str, dict[str, Any]], min_score: float) -> list[str]:
+# next to "Generează rețeta" (0 = "Toate"), followed by the effective AI model.
+def generation_summary_lines(
+    evidence: dict[str, dict[str, Any]], min_score: float, ai_model: str | None = None
+) -> list[str]:
     def ro_number(value: int) -> str:
         return f"{value:,}".replace(",", ".")
 
     characters = sum(len(str(item.get("text", ""))) for item in evidence.values())
     threshold = "Toate" if min_score <= 0 else f"≥ {min_score:g}%"
-    return [
+    lines = [
         f"Număr total de fragmente folosite: {ro_number(len(evidence))}",
         f"Număr total de caractere trimise la AI: {ro_number(characters)}",
         f"Scor minim selectat: {threshold}",
     ]
+    if ai_model:
+        lines.append(f"Model AI folosit: {ai_model}")
+    return lines
 
 
 # Build the complete PDF report with sections, inline citations, and bibliography.
@@ -1046,6 +1051,8 @@ def create_pdf(
     sections: ValidatedReport | dict[str, list[dict[str, Any]]],
     evidence: dict[str, dict[str, str]],
     min_score: float = 0,
+    *,
+    ai_model: str | None = None,
 ) -> bytes:
     regular, bold = _register_fonts()
     styles = getSampleStyleSheet()
@@ -1356,7 +1363,9 @@ def create_pdf(
     story.append(Spacer(1, 4 * mm))
     story.append(
         Paragraph(
-            "<br/>".join(escape(line) for line in generation_summary_lines(evidence, min_score)),
+            "<br/>".join(
+                escape(line) for line in generation_summary_lines(evidence, min_score, ai_model)
+            ),
             styles["NaturalEmpty"],
         )
     )

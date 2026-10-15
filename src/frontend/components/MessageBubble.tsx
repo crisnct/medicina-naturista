@@ -12,6 +12,7 @@ export function MessageBubble({
   fragments,
   onGenerate,
   reportModels,
+  defaultReportModel,
   actionsDisabled,
   generationFeedback,
 }: {
@@ -20,6 +21,7 @@ export function MessageBubble({
   fragments?: FragmentItem[];
   onGenerate: (searchId: string, minScore: number, model: ReportModel) => void;
   reportModels?: ReportModel[];
+  defaultReportModel?: ReportModel;
   actionsDisabled?: boolean;
   generationFeedback?: GenerationFeedback;
 }) {
@@ -35,7 +37,7 @@ export function MessageBubble({
     case "generate":
       return (
         <div className="message-wrap bot unwrapped">
-          <GeneratePanel message={message} fragments={fragments} onGenerate={onGenerate} reportModels={reportModels} actionsDisabled={actionsDisabled} feedback={generationFeedback} />
+          <GeneratePanel message={message} fragments={fragments} onGenerate={onGenerate} reportModels={reportModels} defaultReportModel={defaultReportModel} actionsDisabled={actionsDisabled} feedback={generationFeedback} />
         </div>
       );
     case "download":

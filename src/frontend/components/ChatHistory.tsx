@@ -10,6 +10,7 @@ export function ChatHistory({
   pendingLabel,
   onGenerate,
   reportModels,
+  defaultReportModel,
   actionsDisabled,
   generationFeedback,
 }: {
@@ -18,6 +19,7 @@ export function ChatHistory({
   pendingLabel?: string;
   onGenerate: (searchId: string, minScore: number, model: ReportModel) => void;
   reportModels?: ReportModel[];
+  defaultReportModel?: ReportModel;
   actionsDisabled?: boolean;
   generationFeedback?: Record<string, GenerationFeedback>;
 }) {
@@ -57,6 +59,7 @@ export function ChatHistory({
           fragments={message.kind === "generate" ? fragmentsBySearch.get(message.searchId) : undefined}
           onGenerate={onGenerate}
           reportModels={reportModels}
+          defaultReportModel={defaultReportModel}
           actionsDisabled={actionsDisabled}
           generationFeedback={message.kind === "generate" ? generationFeedback?.[message.searchId] ?? persistedFeedback.get(message.searchId) : undefined}
         />

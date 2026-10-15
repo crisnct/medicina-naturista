@@ -10,6 +10,7 @@ import re
 import secrets
 import time
 from contextlib import asynccontextmanager, suppress
+from functools import partial
 from http.cookies import CookieError, SimpleCookie
 from typing import Literal
 from urllib.parse import quote, urlparse
@@ -47,6 +48,7 @@ from backend.core.models import (
 from backend.core.owner_auth import OwnerAuth, PostgresOwnerSessionRepository
 from backend.core.rate_limits import RateLimiter
 from backend.core.report_generation import ReportGenerationService
+from backend.core.report_models import DEFAULT_REPORT_MODELS, REPORT_MODELS
 from backend.core.sessions import SessionStore
 from backend.integrations.gmail import send_report
 from backend.reporting.chat import (
@@ -65,7 +67,7 @@ TAB_ID_RE = re.compile(r"^[A-Za-z0-9_-]{8,64}$")
 OWNER_COOKIE = "naturist_owner"
 CSRF_COOKIE = "naturist_owner_csrf"
 OWNER_COOKIE_MAX_AGE = 31536000
-OWNER_ONLY_MESSAGE = "Modelul deepseek este disponibil doar pentru admin."
+OWNER_ONLY_MESSAGE = "Modelele AI externe sunt disponibile doar pentru admin."
 router = APIRouter()
 
 
@@ -111,7 +113,7 @@ class MessageRequest(BaseModel):
 # relevance_percent is at least this value are sent to the AI (0 = all).
 class GenerateRequest(BaseModel):
     minScore: float = Field(default=0, ge=0, le=100)
-    model: ReportModel = "ollama-gemma4:12b"
+    model: ReportModel | None = None
     requestId: str = Field(
         default_factory=lambda: secrets.token_urlsafe(24), pattern=r"^[A-Za-z0-9_-]{8,64}$"
     )
@@ -147,6 +149,8 @@ class GenerateResponse(BaseModel):
     estimatedMinutesPer44500Chars: int = Field(ge=1)
     streamPreview: str | None = None
     thinkingPreview: str | None = None
+    streamTokensPerSecond: float | None = Field(default=None, ge=0)
+    thinkingTokensPerSecond: float | None = Field(default=None, ge=0)
     aiActivity: AIActivityResponse | None = None
     errorCode: str | None = None
     message: str | None = None
@@ -297,7 +301,9 @@ def get_session(request: Request):
     view = deps.store.conversation_view(session)
     if not getattr(request.state, "owner_authorized", False):
         view["generations"] = [
-            job for job in view["generations"] if job["modelChoice"] != "deepseek"
+            job
+            for job in view["generations"]
+            if job["modelChoice"] in _available_report_models(False)
         ]
     return view
 
@@ -320,17 +326,22 @@ def _categories_payload(tree, generation):
 
 
 def _conversation(deps: Dependencies, ai: AIProtocol | None = None) -> ConversationService:
+    selected_ai = ai if ai is not None else deps.ai
+    # Bind the effective model now: queued reports must not use a later env default.
+    model = getattr(getattr(selected_ai, "provider", None), "model", None)
+    render_pdf = deps.pdf or partial(create_pdf, ai_model=model)
     return ConversationService(
         deps.settings,
         deps.store,
         deps.retriever,
-        ai if ai is not None else deps.ai,
+        selected_ai,
         deps.identify or identify_conditions,
         deps.email or send_report,
-        deps.pdf or create_pdf,
+        render_pdf,
         deps.classify,
         deps.herb_lookup or lookup_herb_conditions,
         deps.top_herbs or list_top_herbs,
+        report_model=model,
     )
 
 
@@ -374,18 +385,48 @@ def _generate_report(
     session: SessionData,
     search_id: str,
     min_score: float = 0,
-    model: ReportModel = "ollama-gemma4:12b",
+    model: ReportModel | None = None,
 ) -> OperationResult:
+    model = _select_report_model(deps.settings, model)
     ai = deps.report_clients[model] if deps.report_clients is not None else deps.ai
     return _conversation(deps, ai).generate(session, search_id, min_score)
 
 
+def _available_report_models(
+    owner_authorized: bool, configured: tuple[ReportModel, ...] = DEFAULT_REPORT_MODELS
+) -> list[ReportModel]:
+    return [
+        choice for choice in configured if owner_authorized or not REPORT_MODELS[choice].owner_only
+    ]
+
+
+def _select_report_model(
+    settings: Settings, model: ReportModel | None, *, owner_authorized: bool = True
+) -> ReportModel:
+    if model is None:
+        available = _available_report_models(owner_authorized, settings.report_generation_models)
+        if not available:
+            raise ApplicationError("MODEL_FORBIDDEN", OWNER_ONLY_MESSAGE, 403)
+        return available[0]
+    if model not in settings.report_generation_models:
+        raise ApplicationError(
+            "MODEL_NOT_CONFIGURED", "Modelul AI ales nu este disponibil în configurația curentă.", 422
+        )
+    if REPORT_MODELS[model].owner_only and not owner_authorized:
+        raise ApplicationError("MODEL_FORBIDDEN", OWNER_ONLY_MESSAGE, 403)
+    return model
+
+
 @router.get("/api/report-models")
 def report_models(request: Request):
-    models: list[ReportModel] = ["ollama-gemma4:12b"]
-    if getattr(request.state, "owner_authorized", False):
-        models.append("deepseek")
-    return {"models": models}
+    models = _available_report_models(
+        getattr(request.state, "owner_authorized", False),
+        _deps(request).settings.report_generation_models,
+    )
+    return {
+        "models": models,
+        "defaultModel": models[0] if models else None,
+    }
 
 
 @router.post(
@@ -397,9 +438,11 @@ def generate(search_id: str, request: Request, payload: GenerateRequest | None =
     deps = _deps(request)
     session = _current(request)
     options = payload or GenerateRequest()
-    if options.model == "deepseek" and not getattr(request.state, "owner_authorized", False):
-        raise ApplicationError("MODEL_FORBIDDEN", OWNER_ONLY_MESSAGE, 403)
-    ai = deps.report_clients[options.model] if deps.report_clients is not None else deps.ai
+    model = _select_report_model(
+        deps.settings, options.model,
+        owner_authorized=getattr(request.state, "owner_authorized", False),
+    )
+    ai = deps.report_clients[model] if deps.report_clients is not None else deps.ai
     service: ReportGenerationService = request.app.state.report_generation
     result = service.start(
         _conversation(deps, ai),
@@ -407,7 +450,7 @@ def generate(search_id: str, request: Request, payload: GenerateRequest | None =
         search_id,
         options.minScore,
         options.requestId,
-        options.model,
+        model,
     )
     return JSONResponse(
         result,
@@ -426,7 +469,7 @@ def _generation_status(request: Request, job_id: str, *, cancel: bool = False):
         (f"poll:{session.lifetime_id}", 120), (f"poll-ip:{_client_ip(request)}", 240)
     )
     status = deps.store.generation(session, job_id)
-    if status["modelChoice"] == "deepseek" and not getattr(
+    if REPORT_MODELS[status["modelChoice"]].owner_only and not getattr(
         request.state, "owner_authorized", False
     ):
         raise ApplicationError("MODEL_FORBIDDEN", OWNER_ONLY_MESSAGE, 403)
@@ -689,7 +732,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     cfg.temp_dir, cfg.session_idle_seconds, cfg.session_max_seconds, cfg
                 )
                 report_clients = create_report_clients(cfg)
-                ai = report_clients["ollama-gemma4:12b"]
+                ai = report_clients[cfg.report_generation_model]
                 classifier = MessageClassifier(cfg, herb_catalog=load_herbs)
                 auth = OwnerAuth(cfg.owner_key, PostgresOwnerSessionRepository(cfg.database_url))
                 retriever = await asyncio.to_thread(Retriever, cfg.documents_dir)
