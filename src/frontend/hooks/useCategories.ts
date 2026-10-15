@@ -2,8 +2,8 @@ import { useQuery } from "@tanstack/react-query";
 import { useEffect, useState, useRef } from "react";
 import { api } from "../api/client";
 
-export function useCategories() {
-  const query = useQuery({ queryKey: ["categories"], queryFn: api.getCategories, retry: false });
+export function useCategories(enabled = true) {
+  const query = useQuery({ queryKey: ["categories"], queryFn: api.getCategories, retry: false, enabled });
   const [selected, setSelected] = useState<Set<string>>(new Set());
 
   const seeded = useRef(false);
@@ -23,6 +23,7 @@ export function useCategories() {
   }, [query.data]);
 
   return {
+    isLoading: query.isPending,
     tree: query.data?.tree ?? null,
     selected,
     setSelected,

@@ -214,7 +214,7 @@ def recommendation_text(
         minute_label = "minut" if minutes == 1 else "minute"
         second_label = "secundă" if seconds == 1 else "secunde"
         ready_message += (
-            f" și a fost generat în {minutes} {minute_label} și {seconds} {second_label}"
+            f" și a fost generat în **{minutes}** {minute_label} și **{seconds}** {second_label}"
         )
     lines = [f"{ready_message}. Recomandările susținute de surse:"]
     if partial:

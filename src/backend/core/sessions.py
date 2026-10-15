@@ -26,6 +26,7 @@ from backend.core.errors import ApplicationError, OperationCancelled
 from backend.core.models import (
     MAX_KEPT_REPORTS,
     MAX_KEPT_SEARCHES,
+    AIActivity,
     CommitChange,
     ConversationGroup,
     HealthProfile,
@@ -36,6 +37,7 @@ from backend.core.models import (
     SessionOperation,
     SessionSnapshot,
 )
+from backend.core.operation_context import ReportActivity
 from backend.core.rate_limits import RateLimiter
 
 logger = logging.getLogger("naturist.sessions")
@@ -123,7 +125,12 @@ def retained_usage(session: SessionData) -> RetainedUsage:
         history,
         evidence,
         pdf,
-        history + evidence + pdf + metadata + 8192 * len(session.generations),
+        history
+        + evidence
+        + pdf
+        + metadata
+        + 8192 * len(session.generations)
+        + sum(job.stream_bytes + job.thinking_bytes for job in session.generations.values()),
     )
 
 
@@ -301,6 +308,12 @@ class SessionStore:
                     "SEARCH_UNAVAILABLE",
                     "Nu există fragmente pregătite. Descrieți din nou problema de sănătate.",
                 )
+            if kind == "generate" and search is not None and search.intent != "remedii":
+                raise ApplicationError(
+                    "REPORT_NOT_ALLOWED",
+                    "Rapoartele sunt disponibile numai pentru solicitările de remedii.",
+                    409,
+                )
             active = [
                 op
                 for op in self._workers.values()
@@ -461,7 +474,7 @@ class SessionStore:
                     raise ApplicationError(
                         "IDEMPOTENCY_CONFLICT", "Această cerere are deja alte opțiuni.", 409
                     )
-                return copy.deepcopy(existing.as_dict()), None
+                return copy.deepcopy(existing.as_dict(self.clock())), None
             for job in session.generations.values():
                 if job.search_id == search_id and job.job_id in self._workers:
                     if (job.min_score, job.model_choice) != (min_score, model_choice):
@@ -493,7 +506,7 @@ class SessionStore:
                         raise
                     self._used_bytes += usage.total - previous
                     session.retained_bytes = usage.total
-                    return copy.deepcopy(job.as_dict()), None
+                    return copy.deepcopy(job.as_dict(self.clock())), None
             if len(session.generations) >= 32:
                 raise ApplicationError(
                     "GENERATION_HISTORY_LIMIT", "Limita de generări a sesiunii a fost atinsă.", 429
@@ -512,6 +525,9 @@ class SessionStore:
                 model[:128],
                 time.time(),
                 time.time() + max(0, operation.deadline - self.clock()),
+                estimated_minutes_per_44500_chars=(
+                    self.limits.report_estimated_minutes_per_44500_chars
+                ),
             )
             session.generations[job.job_id] = job
             session.generation_receipts[request_id] = job.job_id
@@ -532,7 +548,7 @@ class SessionStore:
             logger.info(
                 "report_job_accepted job_id=%s provider=%s model=%s", job.job_id, provider, model
             )
-            return copy.deepcopy(job.as_dict()), operation
+            return copy.deepcopy(job.as_dict(self.clock())), operation
 
     def generation(
         self, session: SessionData, job_id: str, *, cancel: bool = False
@@ -551,7 +567,7 @@ class SessionStore:
             operation = self._workers.get(job_id)
             if cancel and operation and job.state in {"accepted", "running"}:
                 self._cancel(operation)
-            result = copy.deepcopy(job.as_dict())
+            result = copy.deepcopy(job.as_dict(self.clock()))
             result["workerActive"] = operation is not None
             if job.report_id and job.report_id not in session.reports:
                 result["reportId"] = None
@@ -573,6 +589,82 @@ class SessionStore:
                 job.stage = stage
                 job.started_at = job.started_at or time.time()
                 logger.info("report_job_stage_changed job_id=%s stage=%s", job.job_id, stage)
+
+    def generation_activity(self, operation: SessionOperation, event: ReportActivity) -> None:
+        with self._lock, operation.session.lock:
+            self.checkpoint(operation)
+            job = operation.session.generations.get(operation.operation_id)
+            if not job or job.state != "running" or job.stage != "generating":
+                return
+            now = self.clock()
+            if event.kind == "request_started":
+                if job.ai_activity is None:
+                    job.ai_activity = AIActivity(now)
+                return
+            activity = job.ai_activity
+            if activity is None:
+                return
+            previous_phase = activity.phase
+            if activity.first_event_at is None:
+                activity.first_event_at = now
+            activity.last_activity_at = now
+            if event.kind == "answering":
+                activity.phase = "answering"
+                if activity.first_answer_at is None:
+                    activity.first_answer_at = now
+            elif event.kind == "thinking":
+                if activity.first_thinking_at is None:
+                    activity.first_thinking_at = now
+                if activity.phase != "answering":
+                    activity.phase = "thinking"
+            elif activity.phase == "waiting":
+                activity.phase = "processing"
+            if previous_phase != activity.phase:
+                logger.info(
+                    "report_ai_phase_changed job_id=%s phase=%s", job.job_id, activity.phase
+                )
+            if event.kind == "response_finished":
+                logger.info(
+                    "report_ai_timing job_id=%s first_event_ms=%s first_thinking_ms=%s "
+                    "first_answer_ms=%s duration_ms=%s metrics=%s",
+                    job.job_id,
+                    activity.as_dict(now)["firstEventElapsedMs"],
+                    activity.as_dict(now)["firstThinkingElapsedMs"],
+                    activity.as_dict(now)["firstAnswerElapsedMs"],
+                    max(0, round((now - activity.request_started_at) * 1000)),
+                    json.dumps(event.metrics or {}, sort_keys=True),
+                )
+
+    def generation_output(
+        self, operation: SessionOperation, text: str, *, thinking: bool = False
+    ) -> None:
+        if not text:
+            return
+        with self._lock, operation.session.lock:
+            self.checkpoint(operation)
+            session = operation.session
+            job = session.generations.get(operation.operation_id)
+            if job and job.state == "running" and job.stage == "generating":
+                # JSON string bytes are additive after removing the enclosing quotes.
+                added_bytes = serialized_bytes(text) - 2
+                if (
+                    session.retained_bytes + self._session_reserved(session) + added_bytes
+                    > self.limits.max_session_bytes
+                ):
+                    raise ApplicationError(
+                        "SESSION_BUDGET", "Textul AI depășește bugetul sesiunii.", 409
+                    )
+                self._check_global(added_bytes)
+                if thinking:
+                    job.thinking_parts.append(text)
+                    job.thinking_bytes += added_bytes
+                    if job.ai_activity:
+                        job.ai_activity.thinking_characters_received += len(text)
+                else:
+                    job.stream_parts.append(text)
+                    job.stream_bytes += added_bytes
+                session.retained_bytes += added_bytes
+                self._used_bytes += added_bytes
 
     def fail_generation(self, operation: SessionOperation, code: str, message: str) -> None:
         with self._lock, operation.session.lock:
@@ -620,6 +712,20 @@ class SessionStore:
             self._reserved_bytes -= operation.reserved_bytes
             operation.reserved_bytes = 0
             self._workers.pop(operation.operation_id, None)
+            job = operation.session.generations.get(operation.operation_id)
+            if job:
+                session = operation.session
+                # Keep successful answer previews for the session, within its memory budget.
+                released_bytes = job.thinking_bytes
+                if job.state != "succeeded":
+                    released_bytes += job.stream_bytes
+                    job.stream_parts.clear()
+                    job.stream_bytes = 0
+                if self._sessions.get((session.cookie_id, session.tab_id)) is session:
+                    session.retained_bytes -= released_bytes
+                    self._used_bytes -= released_bytes
+                job.thinking_parts.clear()
+                job.thinking_bytes = 0
             if operation.state == "running":
                 operation.state = "finished"
             self._finished.notify_all()
@@ -829,7 +935,10 @@ class SessionStore:
                 "history": copy.deepcopy(session.history),
                 "latestReportId": session.report_id,
                 "generations": [
-                    {**copy.deepcopy(job.as_dict()), "workerActive": job.job_id in self._workers}
+                    {
+                        **copy.deepcopy(job.as_dict(self.clock())),
+                        "workerActive": job.job_id in self._workers,
+                    }
                     for job in session.generations.values()
                 ],
             }

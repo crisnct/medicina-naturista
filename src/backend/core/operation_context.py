@@ -10,8 +10,19 @@ from collections.abc import Callable, Iterator
 from contextlib import contextmanager
 from contextvars import ContextVar
 from dataclasses import dataclass
+from typing import Literal
 
 from backend.core.errors import OperationCancelled
+
+ReportActivityKind = Literal[
+    "request_started", "provider_activity", "thinking", "answering", "response_finished"
+]
+
+
+@dataclass(frozen=True)
+class ReportActivity:
+    kind: ReportActivityKind
+    metrics: dict[str, int | float] | None = None
 
 
 @dataclass(frozen=True)
@@ -19,6 +30,9 @@ class OperationBudget:
     deadline: float
     clock: Callable[[], float]
     checkpoint: Callable[[], None]
+    report_output: Callable[[str], None] | None = None
+    report_thinking: Callable[[str], None] | None = None
+    report_activity: Callable[[ReportActivity], None] | None = None
 
     def remaining(self) -> float:
         self.checkpoint()
@@ -51,3 +65,28 @@ def checkpoint() -> None:
     value = _budget.get()
     if value:
         value.remaining()
+
+
+def emit_report_output(text: str) -> None:
+    """Publish answer deltas independently of thinking text."""
+    if not text:
+        return
+    emit_report_activity(ReportActivity("answering"))
+    value = _budget.get()
+    if value and value.report_output:
+        value.report_output(text)
+
+
+def emit_report_thinking(text: str) -> None:
+    if not text:
+        return
+    emit_report_activity(ReportActivity("thinking"))
+    value = _budget.get()
+    if value and value.report_thinking:
+        value.report_thinking(text)
+
+
+def emit_report_activity(event: ReportActivity) -> None:
+    value = _budget.get()
+    if value and value.report_activity:
+        value.report_activity(event)

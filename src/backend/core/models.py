@@ -7,7 +7,7 @@ import threading
 import time
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any
+from typing import Any, Literal
 
 from backend.ai.search import ALL_SIGNALS, SearchSignals
 from backend.core.contracts import Evidence, IdentifiedCondition, ProfilePayload, TranscriptEntry
@@ -136,6 +136,32 @@ class StoredReport:
 
 
 @dataclass
+class AIActivity:
+    request_started_at: float
+    phase: Literal["waiting", "processing", "thinking", "answering"] = "waiting"
+    first_event_at: float | None = None
+    first_thinking_at: float | None = None
+    first_answer_at: float | None = None
+    last_activity_at: float | None = None
+    thinking_characters_received: int = 0
+
+    def as_dict(self, now: float) -> dict[str, Any]:
+        def elapsed(at: float | None) -> int | None:
+            return None if at is None else max(0, round((at - self.request_started_at) * 1000))
+
+        return {
+            "phase": self.phase,
+            "lastActivityAgeMs": None
+            if self.last_activity_at is None
+            else max(0, round((now - self.last_activity_at) * 1000)),
+            "firstEventElapsedMs": elapsed(self.first_event_at),
+            "firstThinkingElapsedMs": elapsed(self.first_thinking_at),
+            "firstAnswerElapsedMs": elapsed(self.first_answer_at),
+            "thinkingCharactersReceived": self.thinking_characters_received,
+        }
+
+
+@dataclass
 class ReportGeneration:
     """Bounded, session-owned job metadata; never stores credentials or PDF copies."""
 
@@ -159,7 +185,18 @@ class ReportGeneration:
     error_code: str | None = None
     message: str | None = None
 
-    def as_dict(self) -> dict[str, Any]:
+    estimated_minutes_per_44500_chars: int = 6
+    stream_parts: list[str] = field(default_factory=list, repr=False)
+    stream_bytes: int = 0
+    thinking_parts: list[str] = field(default_factory=list, repr=False)
+    thinking_bytes: int = 0
+    ai_activity: AIActivity | None = None
+
+    @property
+    def stream_preview(self) -> str | None:
+        return "".join(self.stream_parts) or None
+
+    def as_dict(self, now: float | None = None) -> dict[str, Any]:
         return {
             "jobId": self.job_id,
             "searchId": self.search_id,
@@ -178,6 +215,16 @@ class ReportGeneration:
             "errorCode": self.error_code,
             "message": self.message,
             "pollAfterMs": 3000,
+            "estimatedMinutesPer44500Chars": self.estimated_minutes_per_44500_chars,
+            "streamPreview": self.stream_preview
+            if self.state in {"accepted", "running", "succeeded"}
+            else None,
+            "thinkingPreview": "".join(self.thinking_parts) or None
+            if self.state in {"accepted", "running"}
+            else None,
+            "aiActivity": self.ai_activity.as_dict(time.monotonic() if now is None else now)
+            if self.ai_activity
+            else None,
         }
 
 

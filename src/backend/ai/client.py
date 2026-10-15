@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import json
 import logging
+import math
 import time
 from dataclasses import replace
 from pathlib import Path
@@ -16,7 +17,14 @@ from backend.ai.report_validation import ValidatedReport, validate_report
 from backend.config import Settings
 from backend.config import settings as default_settings
 from backend.core.contracts import AIProtocol, Evidence, ProfilePayload, ReportModel
-from backend.core.operation_context import checkpoint, remaining_timeout
+from backend.core.operation_context import (
+    ReportActivity,
+    checkpoint,
+    emit_report_activity,
+    emit_report_output,
+    emit_report_thinking,
+    remaining_timeout,
+)
 
 logger = logging.getLogger("naturist.ai")
 
@@ -74,6 +82,47 @@ class _StreamedResponse:
         return self._payload
 
 
+def _response_metrics(response: dict[str, Any]) -> dict[str, int | float]:
+    usage = response.get("usage")
+    if not isinstance(usage, dict):
+        return {}
+    values = {key: usage.get(key) for key in ("input_tokens", "output_tokens")}
+    details = usage.get("output_tokens_details")
+    if isinstance(details, dict):
+        values["reasoning_tokens"] = details.get("reasoning_tokens")
+    return {
+        key: value
+        for key, value in values.items()
+        if isinstance(value, (int, float))
+        and not isinstance(value, bool)
+        and math.isfinite(value)
+        and value >= 0
+    }
+
+
+def _ollama_metrics(response: dict[str, Any]) -> dict[str, int | float]:
+    result: dict[str, int | float] = {}
+    for key in (
+        "load_duration",
+        "prompt_eval_duration",
+        "eval_duration",
+        "total_duration",
+        "prompt_eval_count",
+        "eval_count",
+    ):
+        value = response.get(key)
+        if (
+            isinstance(value, (int, float))
+            and not isinstance(value, bool)
+            and math.isfinite(value)
+            and value >= 0
+        ):
+            result[f"{key}_ms" if key.endswith("duration") else key] = (
+                value / 1_000_000 if key.endswith("duration") else value
+            )
+    return result
+
+
 # Fold Responses API server-sent events into the final response object.
 def _collect_stream(lines: Any) -> tuple[dict[str, Any], int]:
     deltas: list[str] = []
@@ -87,13 +136,30 @@ def _collect_stream(lines: Any) -> tuple[dict[str, Any], int]:
         if not data or data == "[DONE]":
             continue
         event = json.loads(data)
+        if not isinstance(event, dict):
+            raise ValueError("Invalid Responses stream event")
         kind = event.get("type")
         if kind == "response.output_text.delta" and isinstance(event.get("delta"), str):
             deltas.append(event["delta"])
+            emit_report_output(event["delta"])
+        elif kind == "response.reasoning_text.delta" and isinstance(event.get("delta"), str):
+            emit_report_thinking(event["delta"])
+        elif kind in (
+            "response.created",
+            "response.in_progress",
+            "response.output_item.added",
+            "response.output_item.done",
+            "response.content_part.added",
+            "response.content_part.done",
+            "response.reasoning_text.done",
+            "response.output_text.done",
+        ):
+            emit_report_activity(ReportActivity("provider_activity"))
         elif kind in ("response.completed", "response.incomplete", "response.failed"):
             final = event.get("response")
             if not isinstance(final, dict):
                 raise ValueError(f"{kind} without response object")
+            emit_report_activity(ReportActivity("response_finished", _response_metrics(final)))
             if kind == "response.failed":
                 raise ValueError(f"response failed: {final.get('error')}")
             if kind == "response.completed" and not final.get("output") and deltas:
@@ -148,9 +214,16 @@ class ResponsesClient:
             remaining_timeout(float(self.provider.read_timeout_seconds)),
             connect=remaining_timeout(10.0),
         )
+        emit_report_activity(ReportActivity("request_started"))
         if not self.provider.stream:
             response = self.http.post(url, headers=headers, json=payload, timeout=timeout)
             checkpoint()
+            if getattr(response, "status_code", 200) < 400:
+                final = response.json()
+                if isinstance(final, dict):
+                    emit_report_activity(
+                        ReportActivity("response_finished", _response_metrics(final))
+                    )
             return response
         with self.http.stream(
             "POST",
@@ -474,6 +547,7 @@ class OllamaReportClient(ResponsesClient):
         parts: list[str] = []
         raw_bytes = 0
         final = None
+        emit_report_activity(ReportActivity("request_started"))
         with self.http.stream(
             "POST", url, headers=headers, json=native, timeout=timeout
         ) as response:
@@ -496,13 +570,27 @@ class OllamaReportClient(ResponsesClient):
                 if not line:
                     continue
                 event = json.loads(line)
+                if not isinstance(event, dict):
+                    raise ValueError("Invalid Ollama stream event")
                 self._check_native_error(event)
+                if "message" not in event and not event.get("done"):
+                    raise ValueError("Ollama event without message or completion")
                 message = event.get("message") or {}
+                if not isinstance(message, dict):
+                    raise ValueError("Invalid Ollama message")
+                emit_report_activity(ReportActivity("provider_activity"))
+                thinking = message.get("thinking")
+                if isinstance(thinking, str):
+                    emit_report_thinking(thinking)
                 content = message.get("content")
                 if isinstance(content, str):
                     parts.append(content)
+                    emit_report_output(content)
                 if event.get("done"):
                     final = event
+                    emit_report_activity(
+                        ReportActivity("response_finished", _ollama_metrics(event))
+                    )
                     break
             if final is None:
                 raise ValueError("Ollama stream ended before completion")

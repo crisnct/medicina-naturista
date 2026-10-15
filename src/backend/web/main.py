@@ -8,6 +8,7 @@ import hmac
 import logging
 import re
 import secrets
+import time
 from contextlib import asynccontextmanager, suppress
 from http.cookies import CookieError, SimpleCookie
 from typing import Literal
@@ -116,6 +117,15 @@ class GenerateRequest(BaseModel):
     )
 
 
+class AIActivityResponse(BaseModel):
+    phase: Literal["waiting", "processing", "thinking", "answering"]
+    lastActivityAgeMs: int | None = Field(default=None, ge=0)
+    firstEventElapsedMs: int | None = Field(default=None, ge=0)
+    firstThinkingElapsedMs: int | None = Field(default=None, ge=0)
+    firstAnswerElapsedMs: int | None = Field(default=None, ge=0)
+    thinkingCharactersReceived: int = Field(default=0, ge=0)
+
+
 class GenerateResponse(BaseModel):
     jobId: str
     searchId: str
@@ -134,6 +144,10 @@ class GenerateResponse(BaseModel):
     workerActive: bool = False
     pollAfterMs: int = 3000
     queuePosition: int | None = None
+    estimatedMinutesPer44500Chars: int = Field(ge=1)
+    streamPreview: str | None = None
+    thinkingPreview: str | None = None
+    aiActivity: AIActivityResponse | None = None
     errorCode: str | None = None
     message: str | None = None
 
@@ -212,11 +226,27 @@ def healthz(request: Request):
 
 @router.get("/readyz")
 def readyz(request: Request):
+    _require_initialized(request)
     healthz(request)
     if isinstance(_deps(request).retriever, Retriever):
         with index_reader():
             pass
     return {"status": "ok", "index": "ready"}
+
+
+@router.get("/api/startup")
+def startup_status(request: Request):
+    return request.app.state.startup_status
+
+
+def _require_initialized(request: Request) -> None:
+    if request.app.state.startup_status["status"] == "initializing":
+        raise ApplicationError(
+            "APP_INITIALIZING",
+            request.app.state.startup_status["message"],
+            503,
+            retry_after=2,
+        )
 
 
 @router.get("/api/reports/{tab_id}/{report_id}")
@@ -640,6 +670,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
     async def lifespan(application: FastAPI):
         owned = dependencies is None
         cleanup_task = None
+        warm_task = None
         runtime = dependencies
         session_store = auth = classifier = None
         report_clients: dict[ReportModel, AIProtocol] = {}
@@ -681,11 +712,50 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     StaticFiles(directory=str(cfg.frontend_dist_dir), html=True, check_dir=False),
                     name="frontend",
                 )
-                for warm in (warm_up_search, warm_up_condition_ai):
-                    try:
-                        await asyncio.to_thread(warm)
-                    except Exception as exc:
-                        logger.warning("warm_up_failed type=%s", type(exc).__name__)
+
+                async def warm_models():
+                    failures = []
+                    pending = {"search", "condition_ai"}
+
+                    async def warm_one(name, warm):
+                        started = time.perf_counter()
+                        logger.info("warm_up_started stage=%s", name)
+                        try:
+                            if await asyncio.to_thread(warm) is False:
+                                failures.append(name)
+                        except Exception as exc:
+                            failures.append(name)
+                            logger.warning(
+                                "warm_up_failed stage=%s type=%s", name, type(exc).__name__
+                            )
+                        finally:
+                            pending.discard(name)
+                            logger.info(
+                                "warm_up_finished stage=%s duration_ms=%s",
+                                name,
+                                round((time.perf_counter() - started) * 1000),
+                            )
+                            application.state.startup_status = {
+                                "status": "initializing",
+                                "message": "Se inițializează căutarea…"
+                                if "search" in pending
+                                else "Se pregătește modelul AI…",
+                            }
+
+                    await asyncio.gather(
+                        warm_one("search", warm_up_search),
+                        warm_one("condition_ai", warm_up_condition_ai),
+                    )
+                    application.state.startup_status = {
+                        "status": "degraded" if failures else "ready",
+                        "message": (
+                            "Pregătirea automată nu s-a încheiat complet. Prima căutare poate dura mai mult."
+                            if failures
+                            else None
+                        ),
+                    }
+
+                warm_task = asyncio.create_task(warm_models(), name="model-warm-up")
             assert runtime is not None
             if not hasattr(application.state, "report_generation"):
                 application.state.report_generation = ReportGenerationService(runtime.store)
@@ -701,15 +771,24 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
             yield
         finally:
             drained = True
+            if warm_task:
+                _done, pending = await asyncio.wait(
+                    {warm_task},
+                    timeout=(runtime.settings.report_shutdown_timeout_seconds if runtime else 20),
+                )
+                drained = not pending
+                if pending:
+                    logger.warning("warm_up_shutdown_pending")
             if cleanup_task:
                 cleanup_task.cancel()
                 with suppress(asyncio.CancelledError):
                     await cleanup_task
             if runtime:
                 runtime.store.shutdown()
-                drained = await asyncio.to_thread(
+                workers_drained = await asyncio.to_thread(
                     runtime.store.wait_workers, runtime.settings.report_shutdown_timeout_seconds
                 )
+                drained = drained and workers_drained
                 if hasattr(application.state, "report_generation"):
                     await asyncio.to_thread(application.state.report_generation.close, wait=drained)
                 if not drained:
@@ -739,6 +818,10 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
         lifespan=lifespan,
         root_path=config.public_root_path if config else "",
     )
+    application.state.startup_status = {
+        "status": "ready" if dependencies else "initializing",
+        "message": None if dependencies else "Se inițializează căutarea și modelele AI…",
+    }
     if dependencies:
         application.state.dependencies = dependencies
         application.state.report_generation = ReportGenerationService(dependencies.store)
@@ -770,6 +853,11 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
             sid = secrets.token_urlsafe(32)
         request.state.session_cookie = sid
         try:
+            if request.method == "POST" and (
+                path in {"/api/messages", "/api/classify", "/api/condition", "/api/search"}
+                or (path.startswith("/api/searches/") and path.endswith("/generate"))
+            ):
+                _require_initialized(request)
             if (request.method == "POST" and path == "/api/owner/login") or (
                 request.method == "GET" and path == "/owner"
             ):

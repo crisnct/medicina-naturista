@@ -139,6 +139,7 @@ class Settings:
     max_queued_generations: int = 20
     operation_timeout_seconds: int = 600
     report_generation_timeout_seconds: int = 600
+    report_estimated_minutes_per_44500_chars: int = 6
     report_shutdown_timeout_seconds: int = 20
     session_reconnect_grace_seconds: int = 30
     operation_reservation_bytes: int = 65536
@@ -238,6 +239,9 @@ class Settings:
             operation_timeout_seconds=_int("OPERATION_TIMEOUT_SECONDS", 600, env=env),
             report_generation_timeout_seconds=_int(
                 "REPORT_GENERATION_TIMEOUT_SECONDS", 600, env=env
+            ),
+            report_estimated_minutes_per_44500_chars=_int(
+                "REPORT_GENERATION_ESTIMATED_MINUTES_PER_44500_CHARS", 6, env=env
             ),
             report_shutdown_timeout_seconds=_int("REPORT_SHUTDOWN_TIMEOUT_SECONDS", 20, env=env),
             session_reconnect_grace_seconds=_int("SESSION_RECONNECT_GRACE_SECONDS", 30, env=env),
@@ -365,6 +369,7 @@ class Settings:
             "max_queued_generations",
             "operation_timeout_seconds",
             "report_generation_timeout_seconds",
+            "report_estimated_minutes_per_44500_chars",
             "report_shutdown_timeout_seconds",
             "session_reconnect_grace_seconds",
             "operation_reservation_bytes",

@@ -234,7 +234,20 @@ class ConversationService:
 
     def budget(self, operation: SessionOperation) -> OperationBudget:
         return OperationBudget(
-            operation.deadline, self.store.clock, lambda: self.store.checkpoint(operation)
+            operation.deadline,
+            self.store.clock,
+            lambda: self.store.checkpoint(operation),
+            (lambda text: self.store.generation_output(operation, text))
+            if operation.kind == "generate"
+            else None,
+            report_thinking=(
+                lambda text: self.store.generation_output(operation, text, thinking=True)
+            )
+            if operation.kind == "generate"
+            else None,
+            report_activity=(lambda event: self.store.generation_activity(operation, event))
+            if operation.kind == "generate"
+            else None,
         )
 
     def close(self, cookie_id: str, tab_id: str) -> dict[str, Any]:
@@ -798,13 +811,14 @@ class ConversationService:
                     "removedCategoryIds": getattr(evidence, "removed_category_ids", []),
                 }
             search_id = secrets.token_hex(6)
+            search_intent = snapshot.routing.intent or "remedii"
+            messages = [fragments_message(search_id, evidence, signals)]
+            if search_intent == "remedii":
+                messages.append(generate_message(search_id))
             committed = self.store.commit_operation(
                 operation,
                 CommitChange(
-                    messages=[
-                        fragments_message(search_id, evidence, signals),
-                        generate_message(search_id),
-                    ],
+                    messages=messages,
                     search=(
                         search_id,
                         PendingSearch(
@@ -812,7 +826,7 @@ class ConversationService:
                             evidence=dict(evidence),
                             signals=signals,
                             index_generation=getattr(evidence, "index_generation", None),
-                            intent=snapshot.routing.intent or "remedii",
+                            intent=search_intent,
                         ),
                     ),
                 ),

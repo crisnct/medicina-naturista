@@ -145,11 +145,19 @@ export function useConversation() {
       : "Așteptați un minut, apoi apăsați „Verifică din nou”."}`
     : sessionError ? errorMessage(sessionError, "Sesiunea nu a putut fi încărcată.") : null;
 
+  const visibleGenerationFeedback = { ...generationFeedback };
+  for (const [searchId, feedback] of Object.entries(generation.feedback)) {
+    // A previous success must not hide an error from starting a new attempt.
+    if (!feedback.completed || !visibleGenerationFeedback[searchId]) {
+      visibleGenerationFeedback[searchId] = feedback;
+    }
+  }
+
   return {
     history: history.map((message) => message.kind === "generate" ? { ...message, busy: generation.activeSearches.has(message.searchId) } : message),
     reportModels: reportModelsQuery.data?.models ?? DEFAULT_REPORT_MODELS,
     latestReportId: sessionQuery.data?.latestReportId,
-    generationFeedback: { ...generationFeedback, ...generation.feedback },
+    generationFeedback: visibleGenerationFeedback,
     isLoading: sessionQuery.isLoading,
     isError: sessionQuery.isError,
     sessionError: sessionErrorMessage,

@@ -265,7 +265,7 @@ def resolved_for(profile: Any) -> ResolvedQuery:
 
 # One throwaway request so the first patient does not wait for the local model
 # to load. Only the local backend needs it; a failure is only logged.
-def warm_up() -> None:
+def warm_up() -> bool:
     # Cold CUDA/model initialization can exceed the interactive timeout. Keep
     # that allowance on a separate startup client, without changing patient requests.
     provider = replace(
@@ -274,7 +274,9 @@ def warm_up() -> None:
     client = ResponsesClient(provider, settings)
     try:
         _ask_client(client, ("gripa",))
+        return True
     except _BackendFailure as failure:
         logger.warning("condition_ai_warm_up_failed reason=%s", failure.reason)
+        return False
     finally:
         client.close()

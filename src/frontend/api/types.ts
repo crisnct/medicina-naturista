@@ -97,6 +97,20 @@ export interface SessionResponse {
   generations?: ReportGeneration[];
 }
 
+export interface StartupStatus {
+  status: "initializing" | "ready" | "degraded";
+  message: string | null;
+}
+
+export interface AIActivity {
+  phase: "waiting" | "processing" | "thinking" | "answering";
+  lastActivityAgeMs: number | null;
+  firstEventElapsedMs: number | null;
+  firstThinkingElapsedMs: number | null;
+  firstAnswerElapsedMs: number | null;
+  thinkingCharactersReceived: number;
+}
+
 export interface ReportGeneration {
   jobId: string;
   searchId: string;
@@ -113,6 +127,10 @@ export interface ReportGeneration {
   message?: string | null;
   workerActive?: boolean;
   queuePosition?: number | null;
+  estimatedMinutesPer44500Chars?: number;
+  streamPreview?: string | null;
+  thinkingPreview?: string | null;
+  aiActivity?: AIActivity | null;
 }
 
 export interface CategoriesResponse {

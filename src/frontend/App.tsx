@@ -7,11 +7,13 @@ import { OwnerNotice } from "./components/OwnerNotice";
 import { useConversation } from "./hooks/useConversation";
 import { useCategories } from "./hooks/useCategories";
 import { useSearchSignals } from "./hooks/useSearchSignals";
+import { useStartup } from "./hooks/useStartup";
 import { api } from "./api/client";
 
 export function App() {
   const conversation = useConversation();
-  const categories = useCategories();
+  const startup = useStartup();
+  const categories = useCategories(startup.ready);
   const searchSignals = useSearchSignals();
 
   useEffect(() => {
@@ -28,6 +30,7 @@ export function App() {
   }, []);
 
   const handleSend = (message: string, onAccepted: () => void) => {
+    if (!startup.ready || categories.isLoading) return;
     conversation.clearBanner();
     conversation.sendMessage(message, Array.from(categories.selected), searchSignals.signals, onAccepted);
   };
@@ -36,6 +39,12 @@ export function App() {
     <div id="app-shell">
       <Hero />
       <div id="conversation-card">
+        {startup.message && (
+          <div className="startup-notice" role="status">
+            {startup.initializing && <span className="loader" aria-hidden="true" />}
+            <span>{startup.message}</span>
+          </div>
+        )}
         {conversation.isLoading ? (
           <p className="loading-notice">Se încarcă discuția...</p>
         ) : conversation.isError ? (
@@ -50,7 +59,7 @@ export function App() {
             pendingLabel={conversation.isClassifying ? "Înțeleg întrebarea…" : conversation.isSearching ? "Caut informații în bibliotecă…" : "Trimit mesajul…"}
             onGenerate={conversation.generateReport}
             reportModels={conversation.reportModels}
-            actionsDisabled={conversation.needsSessionRecovery || conversation.isReconnecting || conversation.isSending || conversation.isGenerating}
+            actionsDisabled={!startup.ready || conversation.needsSessionRecovery || conversation.isReconnecting || conversation.isSending || conversation.isGenerating}
             generationFeedback={conversation.generationFeedback}
           />
         )}
@@ -62,7 +71,7 @@ export function App() {
         )}
         {!conversation.isError && (
           <>
-            <Composer disabled={conversation.isLoading || conversation.isSending || conversation.isGenerating || conversation.needsSessionRecovery || conversation.isReconnecting} processing={conversation.isSending} onSend={handleSend} />
+            <Composer disabled={!startup.ready || categories.isLoading || conversation.isLoading || conversation.isSending || conversation.isGenerating || conversation.needsSessionRecovery || conversation.isReconnecting} processing={conversation.isSending} onSend={handleSend} />
             <CategoryFilterPanel
               tree={categories.tree}
               selected={categories.selected}

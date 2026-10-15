@@ -3,6 +3,7 @@ import { useMutation, useQueries, useQueryClient } from "@tanstack/react-query";
 import { api, ApiError, errorMessage, isSessionUnavailable } from "../api/client";
 import type { ReportGeneration, ReportModel, SessionResponse } from "../api/types";
 import type { GenerationFeedback } from "../lib/generationFeedback";
+import { AI_ACTIVITY_LABELS } from "../lib/generationFeedback";
 
 const SESSION_KEY = ["session"] as const;
 export const activeGeneration = (job: ReportGeneration) => job.state === "accepted" || job.state === "running";
@@ -12,6 +13,19 @@ const stages: Record<string, string> = {
   preparing: "Pregătesc datele", generating: "Redactez raportul", validating: "Verific recomandările",
   rendering_pdf: "Creez PDF-ul", publishing: "Salvez raportul",
 };
+const stageOrder = Object.keys(stages);
+
+function currentGeneration(sessionJob: ReportGeneration, polledJob?: ReportGeneration): ReportGeneration {
+  if (!polledJob || polledJob.jobId !== sessionJob.jobId) return sessionJob;
+  // Session refreshes and job polling can complete in either order. A terminal
+  // session snapshot must not be replaced by an older active job cache entry.
+  if (!activeGeneration(sessionJob)) {
+    if (activeGeneration(polledJob) || sessionJob.workerActive === false) return sessionJob;
+  }
+  if (activeGeneration(sessionJob) && activeGeneration(polledJob)
+    && stageOrder.indexOf(sessionJob.stage) > stageOrder.indexOf(polledJob.stage)) return sessionJob;
+  return polledJob;
+}
 const transient = (error: unknown) => !(error instanceof ApiError)
   || [502, 503, 504].includes(error.status)
   || (error.status === 429 && error.code === "RATE_LIMIT");
@@ -25,6 +39,7 @@ export function useReportGeneration(
   const client = useQueryClient();
   const handled = useRef(new Set<string>());
   const blocked = useRef(new Set<string>());
+  const activitySnapshots = useRef(new Map<string, { updatedAt: number; receivedAt: number }>());
   const jobs = session?.generations ?? [];
   const update = (job: ReportGeneration) => client.setQueryData<SessionResponse>(SESSION_KEY, (old) => old ? {
     ...old, generations: [...(old.generations ?? []).filter((item) => item.jobId !== job.jobId), job],
@@ -33,12 +48,12 @@ export function useReportGeneration(
     queryKey: ["report-generation", job.jobId],
     queryFn: ({ signal }: { signal: AbortSignal }) => api.getGeneration(job.jobId, signal),
     initialData: job,
-    enabled: observingGeneration(job) && !blocked.current.has(job.jobId),
+    enabled: observingGeneration(currentGeneration(job, client.getQueryData<ReportGeneration>(["report-generation", job.jobId]))) && !blocked.current.has(job.jobId),
     retry: false,
     refetchOnWindowFocus: true,
     refetchOnReconnect: true,
     refetchInterval: (query: { state: { data: ReportGeneration | undefined; error: Error | null; fetchFailureCount: number; errorUpdateCount: number } }) => {
-      if (!query.state.data || !observingGeneration(query.state.data) || (query.state.error && !transient(query.state.error))) return false;
+      if (!query.state.data || !observingGeneration(currentGeneration(job, query.state.data)) || (query.state.error && !transient(query.state.error))) return false;
       return query.state.error ? Math.min(15000, 3000 * 2 ** Math.min(query.state.errorUpdateCount, 3)) : 3000;
     },
   })) });
@@ -49,11 +64,14 @@ export function useReportGeneration(
     onError: (error) => setBanner(errorMessage(error, "Anularea nu a putut fi confirmată. Verificați din nou starea.")),
   });
 
+  const observed = queries.map((query, index) => currentGeneration(jobs[index], query.data));
+
   useEffect(() => {
     queries.forEach((query, index) => {
-      const job = query.data ?? jobs[index];
+      const job = observed[index];
       if (!job) return;
-      if (query.error) {
+      if (!observingGeneration(job)) blocked.current.delete(job.jobId);
+      if (query.error && observingGeneration(job)) {
         if (query.error instanceof ApiError && query.error.code === "MODEL_FORBIDDEN" && !blocked.current.has(job.jobId)) {
           void client.invalidateQueries({ queryKey: ["report-models"] });
         }
@@ -106,12 +124,29 @@ export function useReportGeneration(
     },
   });
   const feedback: Record<string, GenerationFeedback> = {};
-  const observed = queries.map((query, index) => query.data ?? jobs[index]);
+  const latestJobBySearch = new Map(jobs.map((job) => [job.searchId, job.jobId]));
   for (const [index, job] of observed.entries()) {
+    if (latestJobBySearch.get(job.searchId) !== job.jobId) continue;
+    if (job.state === "succeeded" && job.streamPreview && !blocked.current.has(job.jobId)) {
+      feedback[job.searchId] = { message: "", streamPreview: job.streamPreview, completed: true };
+      continue;
+    }
     if (!observingGeneration(job) || blocked.current.has(job.jobId)) continue;
+    const updatedAt = queries[index]?.dataUpdatedAt ?? 0;
+    let snapshot = activitySnapshots.current.get(job.jobId);
+    if (!snapshot || snapshot.updatedAt !== updatedAt) {
+      snapshot = { updatedAt, receivedAt: performance.now() };
+      activitySnapshots.current.set(job.jobId, snapshot);
+    }
+    const aiActivity = activeGeneration(job) && job.stage === "generating" && !queries[index]?.error
+      ? job.aiActivity : undefined;
     feedback[job.searchId] = {
-      message: "", progress: !activeGeneration(job) ? "Generarea a fost oprită. Aștept închiderea apelului AI…" : queries[index]?.error ? "Conexiunea este întreruptă. Verific din nou starea raportului." : job.stage === "queued" && job.queuePosition ? `Raportul așteaptă în coadă. Poziția: ${job.queuePosition}. Va porni automat.` : stages[job.stage] ?? "Pregătesc raportul",
+      message: "", progress: !activeGeneration(job) ? "Generarea a fost oprită. Aștept închiderea apelului AI…" : queries[index]?.error ? "Conexiunea este întreruptă. Verific din nou starea raportului." : job.stage === "queued" && job.queuePosition ? `Raportul așteaptă în coadă. Poziția: ${job.queuePosition}. Va porni automat.` : (aiActivity ? AI_ACTIVITY_LABELS[aiActivity.phase] : undefined) ?? stages[job.stage] ?? "Pregătesc raportul",
       cancel: activeGeneration(job) ? () => cancel.mutate(job.jobId) : undefined,
+      streamPreview: job.streamPreview,
+      thinkingPreview: job.thinkingPreview,
+      aiActivity,
+      activityReceivedAt: snapshot.receivedAt,
     };
   }
   const activeSearches = new Set(observed.filter((job) => observingGeneration(job) && !blocked.current.has(job.jobId)).map((job) => job.searchId));

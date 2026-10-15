@@ -9,6 +9,7 @@ import type {
   SearchSignals,
   SendMessageResponse,
   SessionResponse,
+  StartupStatus,
 } from "./types";
 import { claimTab, releaseTab } from "../lib/tabLease";
 
@@ -67,6 +68,7 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
 }
 
 export const api = {
+  getStartup: () => request<StartupStatus>("/api/startup", { signal: AbortSignal.timeout(10000) }),
   getSession: async () => {
     while (!await claimTab(getTabId())) {
       tabId = crypto.randomUUID();
@@ -129,6 +131,7 @@ export const api = {
 
 export function errorMessage(error: unknown, fallback: string): string {
   if (!(error instanceof ApiError)) return fallback;
+  if (error.code === "APP_INITIALIZING") return error.message;
   if (error.status === 413) return "Cererea este prea mare. Reduceți conținutul mesajului.";
   if (error.status === 429) {
     if (error.code === "GENERATION_CAPACITY" || error.code === "GENERATION_QUEUE_FULL" || error.code === "GENERATION_HISTORY_LIMIT" || error.code === "OPERATION_LIMIT") return error.message;

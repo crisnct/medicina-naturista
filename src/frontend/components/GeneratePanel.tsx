@@ -2,8 +2,9 @@ import { useState } from "react";
 import type { FragmentItem, GenerateMessage, ReportModel } from "../api/types";
 import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
 import { TypingIndicator } from "./TypingIndicator";
+import { GenerationStreamPreview } from "./GenerationStreamPreview";
 import { DoctorAvatar } from "./DoctorAvatar";
-import type { GenerationFeedback } from "../lib/generationFeedback";
+import { AI_ACTIVITY_LABELS, type GenerationFeedback } from "../lib/generationFeedback";
 
 export function GeneratePanel({
   message,
@@ -34,6 +35,7 @@ export function GeneratePanel({
   );
   const noneReach = eligibleCount === 0;
   const disabled = message.busy || noneReach || actionsDisabled;
+  const hasAnswer = Boolean(feedback?.streamPreview);
 
   return (
     <section className="generate-recipe-panel">
@@ -105,15 +107,29 @@ export function GeneratePanel({
           </button>
         </div>
       </div>
-      {message.busy && (
-        <div className="generation-progress-row">
-          <TypingIndicator label={feedback?.progress ?? "Pregătesc raportul. Generarea poate dura câteva minute."} />
-          {feedback?.cancel && (
-            <button type="button" className="secondary-button" onClick={feedback.cancel}>Anulează generarea</button>
+      {(message.busy || feedback?.completed) && (
+        <div className="generation-progress-section">
+          {message.busy && (
+            <div className="generation-progress-row">
+              <TypingIndicator
+                label={feedback?.progress ?? "Pregătesc raportul. Generarea poate dura câteva minute."}
+              />
+              {feedback?.cancel && (
+                <button type="button" className="secondary-button" onClick={feedback.cancel}>Anulează generarea</button>
+              )}
+            </div>
           )}
+          <GenerationStreamPreview
+            text={hasAnswer ? feedback?.streamPreview : feedback?.thinkingPreview}
+            title={hasAnswer ? "Ultimul fragment primit de la AI" : "Analiza modelului AI"}
+            label={hasAnswer ? "Textul primit de la AI" : "Analiza transmisă de modelul AI"}
+            placeholder={feedback?.aiActivity ? AI_ACTIVITY_LABELS[feedback.aiActivity.phase] : "Aștept primul semnal de la model…"}
+            activityAgeMs={message.busy ? feedback?.aiActivity?.lastActivityAgeMs : undefined}
+            activityReceivedAt={feedback?.activityReceivedAt}
+          />
         </div>
       )}
-      {feedback && !message.busy && (
+      {feedback?.message && !message.busy && (
         <div className="generation-feedback owner-notice-panel" role="alert">
           <div className="chatbot-message-content">
             <DoctorAvatar />
