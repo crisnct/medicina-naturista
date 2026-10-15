@@ -280,6 +280,7 @@ class SessionStore:
         search_id: str | None = None,
         expected_revision: int | None = None,
         report_id: str | None = None,
+        queue_generation: bool = False,
     ) -> SessionOperation:
         """Reserve lifetime/resource/capacity atomically, before external calls."""
         with self._lock, session.lock:
@@ -327,12 +328,23 @@ class SessionStore:
                     if category == "generate"
                     else self.limits.max_concurrent_searches
                 )
+                if category == "generate" and queue_generation:
+                    cap += self.limits.max_queued_generations
                 count = sum(
                     ("generate" if op.kind == "generate" else "search") == category
                     for op in self._workers.values()
                     if op.kind in {"classify", "search", "condition", "generate", "email"}
                 )
                 if count >= cap:
+                    if category == "generate":
+                        raise ApplicationError(
+                            "GENERATION_QUEUE_FULL" if queue_generation else "GENERATION_CAPACITY",
+                            "Coada pentru rapoarte este plină. Încercați din nou mai târziu."
+                            if queue_generation
+                            else "Un alt raport este în curs de generare. Așteptați eliberarea unui loc.",
+                            429,
+                            retry_after=5,
+                        )
                     raise ApplicationError(
                         "OPERATION_LIMIT",
                         "Prea multe operații în curs. Încercați mai târziu.",
@@ -402,7 +414,9 @@ class SessionStore:
                 min(
                     self.clock()
                     + (
-                        self.limits.report_generation_timeout_seconds
+                        self.max_seconds
+                        if queue_generation
+                        else self.limits.report_generation_timeout_seconds
                         if kind == "generate"
                         else self.limits.operation_timeout_seconds
                     ),
@@ -484,7 +498,9 @@ class SessionStore:
                 raise ApplicationError(
                     "GENERATION_HISTORY_LIMIT", "Limita de generări a sesiunii a fost atinsă.", 429
                 )
-            operation = self.begin_operation(session, "generate", search_id=search_id)
+            operation = self.begin_operation(
+                session, "generate", search_id=search_id, queue_generation=True
+            )
             previous = session.retained_bytes
             job = ReportGeneration(
                 operation.operation_id,
@@ -547,6 +563,12 @@ class SessionStore:
             self.checkpoint(operation)
             job = operation.session.generations.get(operation.operation_id)
             if job:
+                if job.state == "accepted":
+                    operation.deadline = min(
+                        self.clock() + self.limits.report_generation_timeout_seconds,
+                        operation.session.created_at + self.max_seconds,
+                    )
+                    job.deadline_at = time.time() + max(0, operation.deadline - self.clock())
                 job.state = "running"
                 job.stage = stage
                 job.started_at = job.started_at or time.time()

@@ -12,6 +12,23 @@ afterEach(() => vi.restoreAllMocks());
 beforeEach(() => vi.spyOn(api, "getReportModels").mockResolvedValue({ models: ["ollama-gemma4:12b"] }));
 
 describe("session admission", () => {
+  it("explains the session creation limit and shows the server's remaining wait", async () => {
+    const session = vi.spyOn(api, "getSession")
+      .mockRejectedValueOnce(new ApiError(429, "Prea multe cereri.", "RATE_LIMIT", 48))
+      .mockResolvedValue({ history: [] });
+    vi.spyOn(api, "getCategories").mockResolvedValue({ tree: null, defaultSelection: [] });
+    const client = new QueryClient({ defaultOptions: { queries: { retry: false } } });
+    render(<QueryClientProvider client={client}><App /></QueryClientProvider>);
+
+    const alert = await screen.findByRole("alert");
+    expect(alert).toHaveTextContent("Ați deschis prea multe conversații într-un minut.");
+    expect(alert).toHaveTextContent("Așteptați 48 de secunde");
+    expect(session).toHaveBeenCalledTimes(1);
+    fireEvent.click(screen.getByRole("button", { name: "Verifică din nou" }));
+    await waitFor(() => expect(screen.getByRole("textbox")).toBeEnabled());
+    expect(screen.queryByRole("alert")).not.toBeInTheDocument();
+  });
+
   it("blocks searching after a failed session and allows retry when capacity is available", async () => {
     const session = vi.spyOn(api, "getSession")
       .mockRejectedValueOnce(new ApiError(503, "Capacitatea aplicației este ocupată.", "GLOBAL_SESSION_LIMIT"))

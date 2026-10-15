@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import math
 import threading
 import time
 from collections import deque
@@ -36,9 +37,13 @@ class RateLimiter:
                 while events and now - events[0] >= 60:
                     events.popleft()
                 queues.append((events, limit))
-            if any(len(events) >= limit for events, limit in queues):
+            blocked = [events for events, limit in queues if len(events) >= limit]
+            if blocked:
                 raise ApplicationError(
-                    "RATE_LIMIT", "Prea multe cereri. Încercați mai târziu.", 429
+                    "RATE_LIMIT",
+                    "Prea multe cereri. Încercați mai târziu.",
+                    429,
+                    retry_after=max(math.ceil(events[0] + 60 - now) for events in blocked),
                 )
             for events, _ in queues:
                 events.append(now)

@@ -112,6 +112,7 @@ export interface ReportGeneration {
   errorCode?: string | null;
   message?: string | null;
   workerActive?: boolean;
+  queuePosition?: number | null;
 }
 
 export interface CategoriesResponse {

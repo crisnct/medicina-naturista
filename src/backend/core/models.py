@@ -149,7 +149,7 @@ class ReportGeneration:
     created_at: float
     deadline_at: float
     state: str = "accepted"
-    stage: str = "preparing"
+    stage: str = "queued"
     started_at: float | None = None
     finished_at: float | None = None
     progress_logged_at: float = 0

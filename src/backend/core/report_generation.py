@@ -3,6 +3,8 @@
 from __future__ import annotations
 
 import logging
+import threading
+from collections import deque
 from concurrent.futures import ThreadPoolExecutor
 
 import httpx
@@ -24,6 +26,10 @@ class ReportGenerationService:
             max_workers=store.limits.max_concurrent_generations,
             thread_name_prefix="report-generation",
         )
+        self._lock = threading.RLock()
+        self._pending: deque[tuple[ConversationService, SessionOperation, float]] = deque()
+        self._draining = False
+        self._closed = False
 
     def start(
         self,
@@ -34,53 +40,102 @@ class ReportGenerationService:
         request_id: str,
         model_choice: str,
     ) -> dict:
-        # Provider client is captured here and never reselected by the worker.
-        provider = getattr(conversation.ai, "provider", None)
-        job, operation = self.store.admit_generation(
-            session,
-            search_id,
-            request_id,
-            min_score,
-            model_choice,
-            getattr(provider, "name", "configured"),
-            getattr(provider, "model", model_choice),
-        )
-        if operation is None:
-            return job
-        try:
-            search = operation.snapshot.search
-            assert search is not None
-            evidence = evidence_above(search.evidence, min_score)
-            if not evidence:
-                raise ApplicationError(
-                    "NO_ELIGIBLE_FRAGMENTS", "Niciun fragment nu atinge scorul minim selectat.", 422
-                )
-            if not evidence_within_budget(evidence, conversation.ai.context_budget()):
-                raise ApplicationError(
-                    "AI_CONTEXT_LIMIT",
-                    "Fragmentele depășesc limita de context a modelului ales.",
-                    422,
-                )
-            self.executor.submit(self._run, conversation, operation, min_score)
-        except Exception as exc:
-            self.store.fail_generation(
-                operation,
-                getattr(exc, "code", "GENERATION_UNAVAILABLE"),
-                "Generarea nu a putut fi pornită.",
+        with self._lock:
+            if self._closed:
+                raise ApplicationError("SHUTTING_DOWN", "Aplicația se închide.", 503)
+            self._prune_cancelled()
+            # Capture the provider and evidence at admission, before joining the FIFO.
+            provider = getattr(conversation.ai, "provider", None)
+            job, operation = self.store.admit_generation(
+                session,
+                search_id,
+                request_id,
+                min_score,
+                model_choice,
+                getattr(provider, "name", "configured"),
+                getattr(provider, "model", model_choice),
             )
-            self.store.finish_operation(operation)
-            if isinstance(exc, ApplicationError):
-                raise
-            raise ApplicationError(
-                "GENERATION_UNAVAILABLE", "Generarea nu a putut fi pornită.", 503
-            ) from None
-        return job
+            if operation is None:
+                return self.generation(session, job["jobId"])
+            try:
+                search = operation.snapshot.search
+                assert search is not None
+                evidence = evidence_above(search.evidence, min_score)
+                if not evidence:
+                    raise ApplicationError(
+                        "NO_ELIGIBLE_FRAGMENTS",
+                        "Niciun fragment nu atinge scorul minim selectat.",
+                        422,
+                    )
+                if not evidence_within_budget(evidence, conversation.ai.context_budget()):
+                    raise ApplicationError(
+                        "AI_CONTEXT_LIMIT",
+                        "Fragmentele depășesc limita de context a modelului ales.",
+                        422,
+                    )
+                self._pending.append((conversation, operation, min_score))
+                if not self._draining:
+                    self.executor.submit(self._drain)
+                    self._draining = True
+            except Exception as exc:
+                self._pending = deque(item for item in self._pending if item[1] is not operation)
+                self.store.fail_generation(
+                    operation,
+                    getattr(exc, "code", "GENERATION_UNAVAILABLE"),
+                    "Generarea nu a putut fi pornită.",
+                )
+                self.store.finish_operation(operation)
+                if isinstance(exc, ApplicationError):
+                    raise
+                raise ApplicationError(
+                    "GENERATION_UNAVAILABLE", "Generarea nu a putut fi pornită.", 503
+                ) from None
+            return self.generation(session, job["jobId"])
+
+    def _prune_cancelled(self) -> None:
+        pending = deque()
+        for item in self._pending:
+            try:
+                self.store.checkpoint(item[1])
+            except OperationCancelled:
+                # No AI call exists for a queued job, so its slot can be released now.
+                self.store.finish_operation(item[1])
+            else:
+                pending.append(item)
+        self._pending = pending
+
+    def generation(self, session: SessionData, job_id: str, *, cancel: bool = False) -> dict:
+        with self._lock:
+            self.store.generation(session, job_id, cancel=cancel)
+            self._prune_cancelled()
+            result = self.store.generation(session, job_id)
+            result["queuePosition"] = next(
+                (
+                    index
+                    for index, item in enumerate(self._pending, 1)
+                    if item[1].operation_id == job_id
+                ),
+                None,
+            )
+            return result
+
+    def _drain(self) -> None:
+        while True:
+            with self._lock:
+                self._prune_cancelled()
+                if not self._pending:
+                    self._draining = False
+                    return
+                conversation, operation, min_score = self._pending.popleft()
+            # Run synchronously: the next item cannot start until this worker's finally.
+            self._run(conversation, operation, min_score)
 
     def _run(
         self, conversation: ConversationService, operation: SessionOperation, min_score: float
     ) -> None:
         logger.info("report_job_started job_id=%s", operation.operation_id)
         try:
+            self.store.generation_stage(operation, "preparing")
             result = conversation.generate(
                 operation.session,
                 operation.search_id or "",
@@ -139,5 +194,9 @@ class ReportGenerationService:
             logger.info("report_job_worker_finished job_id=%s", operation.operation_id)
 
     def close(self, *, wait: bool = True) -> None:
-        # Submitted jobs own reservations; they must execute their finally cleanup.
+        with self._lock:
+            self._closed = True
+            for _, operation, _ in self._pending:
+                operation.cancellation.set()
+            self._prune_cancelled()
         self.executor.shutdown(wait=wait, cancel_futures=False)

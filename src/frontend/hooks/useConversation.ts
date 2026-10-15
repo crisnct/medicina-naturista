@@ -138,6 +138,12 @@ export function useConversation() {
   });
 
   const generation = useReportGeneration(sessionQuery.data, setGenerationFeedback, setNeedsSessionRecovery, setBanner);
+  const sessionError = sessionQuery.error;
+  const sessionErrorMessage = sessionError instanceof ApiError && sessionError.code === "RATE_LIMIT"
+    ? `Ați deschis prea multe conversații într-un minut. ${sessionError.retryAfter
+      ? `Așteptați ${sessionError.retryAfter} de secunde, apoi apăsați „Verifică din nou”.`
+      : "Așteptați un minut, apoi apăsați „Verifică din nou”."}`
+    : sessionError ? errorMessage(sessionError, "Sesiunea nu a putut fi încărcată.") : null;
 
   return {
     history: history.map((message) => message.kind === "generate" ? { ...message, busy: generation.activeSearches.has(message.searchId) } : message),
@@ -146,7 +152,7 @@ export function useConversation() {
     generationFeedback: { ...generationFeedback, ...generation.feedback },
     isLoading: sessionQuery.isLoading,
     isError: sessionQuery.isError,
-    sessionError: sessionQuery.error ? errorMessage(sessionQuery.error, "Sesiunea nu a putut fi încărcată.") : null,
+    sessionError: sessionErrorMessage,
     retrySession: () => { void sessionQuery.refetch(); },
     banner,
     needsSessionRecovery,

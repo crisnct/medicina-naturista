@@ -239,6 +239,7 @@ body {
     color: var(--nature-muted);
     font-size: 14px;
     font-style: italic;
+    white-space: nowrap;
 }
 
 .message-wrap,
@@ -494,6 +495,7 @@ body {
 }
 
 .generate-recipe-panel {
+    --report-action-width: 220px;
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -528,8 +530,27 @@ body {
     gap: 16px;
 }
 
+.generation-progress-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.generation-progress-row > .message-wrap {
+    flex: 1 1 280px;
+    width: auto;
+}
+
+.generation-progress-row > .secondary-button {
+    flex: 0 0 auto;
+    width: min(100%, var(--report-action-width));
+    margin-inline-start: auto;
+}
+
 .generate-inline {
     display: flex;
+    width: min(100%, var(--report-action-width));
     min-height: 48px;
     align-items: center;
     justify-content: center;
@@ -951,7 +972,8 @@ button.cat-toggle.cat-toggle-open svg {
     }
 
     .pdf-download,
-    .generate-inline {
+    .generate-inline,
+    .generation-progress-row > .secondary-button {
         width: 100%;
         min-width: 0;
     }

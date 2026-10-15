@@ -141,6 +141,72 @@ class HTTPPlanTests(unittest.TestCase):
         self.assertTrue(self.client.cookies.get(COOKIE))
         self.assertEqual(self.deps.store.count(), 1)
 
+    def test_concurrent_reports_are_accepted_queued_and_processed_sequentially(self):
+        ai = self.deps.ai
+        ai.entered, ai.release = threading.Event(), threading.Event()
+        self.addCleanup(ai.release.set)
+        service = self.client.app.state.report_generation
+        self.addCleanup(service.close)
+        # Release the blocked AI before waiting for the executor in cleanups.
+        self.addCleanup(ai.release.set)
+        first_search = self.search()
+        first_tab = self.tab.copy()
+        first = self.client.post(
+            f"/api/searches/{first_search}/generate",
+            json={"requestId": "synthetic-first-request"},
+            headers=self.tab,
+        )
+        self.assertEqual(first.status_code, 202, first.text)
+        self.assertTrue(ai.entered.wait(2))
+        self.tab = {"X-Tab-Id": "second-synthetic-tab"}
+        second_search = self.search("Migrenă")
+        second = self.client.post(
+            f"/api/searches/{second_search}/generate",
+            json={"requestId": "synthetic-second-request"},
+            headers=self.tab,
+        )
+        self.assertEqual(second.status_code, 202, second.text)
+        self.assertEqual(second.json()["stage"], "queued")
+        self.assertEqual(second.json()["queuePosition"], 1)
+        status = self.client.get(second.headers["Location"], headers=self.tab)
+        self.assertEqual(status.status_code, 200)
+        self.assertEqual(status.json()["queuePosition"], 1)
+        self.assertEqual(ai.calls, 1)
+        ai.release.set()
+        self.assertTrue(self.deps.store.wait_workers(3))
+        for response, tab in [(first, first_tab), (second, self.tab)]:
+            status = self.client.get(response.headers["Location"], headers=tab)
+            self.assertEqual(status.json()["state"], "succeeded", status.text)
+            self.assertIsNone(status.json()["queuePosition"])
+        self.assertEqual(ai.calls, 2)
+
+    def test_session_creation_limit_reports_remaining_wait_and_recovers(self):
+        now = [0.0]
+        self.deps.store.creation_limiter = RateLimiter(lambda: now[0])
+        for index in range(self.config.new_sessions_per_cookie_minute):
+            response = self.client.get("/api/session", headers={"X-Tab-Id": f"tab-rate-{index}"})
+            self.assertEqual(response.status_code, 200)
+
+        now[0] = 12.25
+        headers = {"X-Tab-Id": "tab-rate-next"}
+        rejected = self.client.get("/api/session", headers=headers)
+        self.assertEqual(rejected.status_code, 429)
+        self.assertEqual(rejected.json()["detail"]["code"], "RATE_LIMIT")
+        self.assertEqual(rejected.headers["Retry-After"], "48")
+        # Reconnecting an admitted conversation does not create another session.
+        self.assertEqual(
+            self.client.get("/api/session", headers={"X-Tab-Id": "tab-rate-0"}).status_code,
+            200,
+        )
+        now[0] = 59.5
+        self.assertEqual(
+            self.client.get("/api/session", headers=headers).headers["Retry-After"], "1"
+        )
+        now[0] = 60.0
+        accepted = self.client.get("/api/session", headers=headers)
+        self.assertEqual(accepted.status_code, 200)
+        self.assertNotIn("Retry-After", accepted.headers)
+
     def test_public_https_origin_works_over_internal_http_for_chat_and_owner(self):
         config = replace(self.config, public_origin="https://public.example")
         deps = self.dependencies(config, self.repo)

@@ -835,6 +835,7 @@ class ConversationService:
         *,
         admitted: SessionOperation | None = None,
     ) -> OperationResult:
+        generation_started_at = self.store.clock()
         operation = admitted or self.store.begin_operation(session, "generate", search_id=search_id)
         try:
             snapshot = operation.snapshot
@@ -873,8 +874,12 @@ class ConversationService:
             self.store.checkpoint(operation)
             report_id = secrets.token_urlsafe(18)
             filename = report_filename(snapshot, profile)
+            elapsed_seconds = max(0, int(self.store.clock() - generation_started_at))
             messages = [
-                text_message("assistant", recommendation_text(sections, evidence)),
+                text_message(
+                    "assistant",
+                    recommendation_text(sections, evidence, elapsed_seconds=elapsed_seconds),
+                ),
                 download_message(
                     snapshot, report_id, profile, prefix=self.settings.public_root_path
                 ),

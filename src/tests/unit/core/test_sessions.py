@@ -153,6 +153,8 @@ class SessionTests(unittest.TestCase):
         with self.assertRaises(ApplicationError) as caught:
             self.store.begin_operation(self.session, "generate", search_id="new")
         self.assertEqual(caught.exception.status, 429)
+        self.assertEqual(caught.exception.code, "GENERATION_CAPACITY")
+        self.assertEqual(caught.exception.retry_after, 5)
         self.store.finish_operation(first)
         op = self.store.begin_operation(self.session, "generate", search_id="new")
         self.store.finish_operation(op)

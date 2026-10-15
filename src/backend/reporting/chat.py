@@ -79,7 +79,7 @@ def download_message(
         return text("assistant", "")
     # Kept behind an env var read here (not cached Settings) so a reverse
     # proxy that mounts the app under a sub-path (see PUBLIC_ROOT_PATH in the
-    # deployment Caddyfile/compose) can be changed without a restart, and so
+    # deployment environment) can be changed without a restart, and so
     # tests can monkeypatch it around a single call.
     if prefix is None:
         prefix = os.getenv("PUBLIC_ROOT_PATH", os.getenv("GRADIO_ROOT_PATH", "")).rstrip("/")
@@ -193,7 +193,9 @@ def ask(session: SessionData, question: str) -> None:
 # Kept as one Markdown-flavoured string (rendered by the frontend), rather
 # than a fully structured payload, since the section/nutrition/citation
 # formatting rules here are shared with reporting/pdf.py's own numbering.
-def recommendation_text(sections: ValidatedReport | dict, evidence: dict) -> str:
+def recommendation_text(
+    sections: ValidatedReport | dict, evidence: dict, *, elapsed_seconds: int | None = None
+) -> str:
     partial = isinstance(sections, ValidatedReport) and sections.partial
     if isinstance(sections, ValidatedReport):
         sections = sections.section_payload()
@@ -206,7 +208,15 @@ def recommendation_text(sections: ValidatedReport | dict, evidence: dict) -> str
     )
     sections = sort_sections_by_relevance(sections, evidence)
     reference_numbers, references = build_reference_index(sections, evidence)
-    lines = ["✅ Raportul este gata. Recomandările susținute de surse:"]
+    ready_message = "✅ Raportul este gata"
+    if elapsed_seconds is not None:
+        minutes, seconds = divmod(elapsed_seconds, 60)
+        minute_label = "minut" if minutes == 1 else "minute"
+        second_label = "secundă" if seconds == 1 else "secunde"
+        ready_message += (
+            f" și a fost generat în {minutes} {minute_label} și {seconds} {second_label}"
+        )
+    lines = [f"{ready_message}. Recomandările susținute de surse:"]
     if partial:
         lines.append(PARTIAL_NOTICE)
     found = False

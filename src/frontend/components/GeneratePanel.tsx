@@ -105,9 +105,13 @@ export function GeneratePanel({
           </button>
         </div>
       </div>
-      {message.busy && <TypingIndicator label={feedback?.progress ?? "Pregătesc raportul. Generarea poate dura câteva minute."} />}
-      {message.busy && feedback?.cancel && (
-        <button type="button" className="secondary-button" onClick={feedback.cancel}>Anulează generarea</button>
+      {message.busy && (
+        <div className="generation-progress-row">
+          <TypingIndicator label={feedback?.progress ?? "Pregătesc raportul. Generarea poate dura câteva minute."} />
+          {feedback?.cancel && (
+            <button type="button" className="secondary-button" onClick={feedback.cancel}>Anulează generarea</button>
+          )}
+        </div>
       )}
       {feedback && !message.busy && (
         <div className="generation-feedback owner-notice-panel" role="alert">

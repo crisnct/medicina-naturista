@@ -133,6 +133,7 @@ class GenerateResponse(BaseModel):
     validationWarnings: list[ValidationWarning] = Field(default_factory=list)
     workerActive: bool = False
     pollAfterMs: int = 3000
+    queuePosition: int | None = None
     errorCode: str | None = None
     message: str | None = None
 
@@ -166,6 +167,15 @@ def _client_ip(request: Request) -> str:
     # ASGI's peer is normalized by the server's explicit trusted proxy allowlist.
     # Never interpret a client-supplied X-Forwarded-For header here.
     return request.client.host if request.client else "unknown"
+
+
+def _application_error_response(error: ApplicationError) -> JSONResponse:
+    retry_after = 60 if isinstance(error, IndexUnavailable) else error.retry_after
+    return JSONResponse(
+        {"detail": {"code": error.code, "message": error.message}},
+        status_code=error.status,
+        headers={"Retry-After": str(retry_after)} if retry_after is not None else None,
+    )
 
 
 def _revision(request: Request) -> int | None:
@@ -390,7 +400,7 @@ def _generation_status(request: Request, job_id: str, *, cancel: bool = False):
         request.state, "owner_authorized", False
     ):
         raise ApplicationError("MODEL_FORBIDDEN", OWNER_ONLY_MESSAGE, 403)
-    return deps.store.generation(session, job_id, cancel=True) if cancel else status
+    return request.app.state.report_generation.generation(session, job_id, cancel=cancel)
 
 
 @router.get("/api/report-generations/{job_id}", response_model=GenerateResponse)
@@ -735,11 +745,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
 
     @application.exception_handler(ApplicationError)
     async def controlled_error(request: Request, exc: ApplicationError):
-        return JSONResponse(
-            {"detail": {"code": exc.code, "message": exc.message}},
-            status_code=exc.status,
-            headers={"Retry-After": "60"} if isinstance(exc, IndexUnavailable) else None,
-        )
+        return _application_error_response(exc)
 
     @application.exception_handler(RequestValidationError)
     async def invalid_request(request: Request, exc: RequestValidationError):
@@ -800,9 +806,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     max_age=OWNER_COOKIE_MAX_AGE,
                 )
         except ApplicationError as exc:
-            response = JSONResponse(
-                {"detail": {"code": exc.code, "message": exc.message}}, exc.status
-            )
+            response = _application_error_response(exc)
         if fresh and path == "/api/session":
             _cookie(response, COOKIE, sid, deps.settings)
         response.headers.update(

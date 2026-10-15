@@ -79,6 +79,7 @@ services:
       OPERATION_TIMEOUT_SECONDS: ${OPERATION_TIMEOUT_SECONDS:-600}
       SESSION_RECONNECT_GRACE_SECONDS: ${SESSION_RECONNECT_GRACE_SECONDS:-30}
       MAX_CONCURRENT_GENERATIONS: ${MAX_CONCURRENT_GENERATIONS:-1}
+      MAX_QUEUED_GENERATIONS: ${MAX_QUEUED_GENERATIONS:-20}
       DOCUMENTS_DIR: /app/medicina-naturista-documente/data/documents
       DATABASE_URL: postgresql://${POSTGRES_USER:-medicina}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-medicina}
       MODEL_CACHE_DIR: /app/model_cache
@@ -87,6 +88,8 @@ services:
       PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:-}
       SESSION_IDLE_SECONDS: ${SESSION_IDLE_SECONDS:-3600}
       SESSION_MAX_SECONDS: ${SESSION_MAX_SECONDS:-14400}
+      NEW_SESSIONS_PER_COOKIE_MINUTE: ${NEW_SESSIONS_PER_COOKIE_MINUTE:-5}
+      NEW_SESSIONS_PER_IP_MINUTE: ${NEW_SESSIONS_PER_IP_MINUTE:-10}
       MAX_CHAT_CHARS: ${MAX_CHAT_CHARS:-4000}
       MAX_REQUESTS_PER_MINUTE: ${MAX_REQUESTS_PER_MINUTE:-60}
       LOG_LEVEL: ${LOG_LEVEL:-INFO}
@@ -118,33 +121,7 @@ services:
       # Host port outside the Windows-reserved 7772-7871 range; the container stays on 7860.
       - "127.0.0.1:${APP_HOST_PORT:-8760}:7860"
     networks: [internal]
-  caddy:
-    image: caddy:2
-    restart: unless-stopped
-    depends_on:
-      app:
-        condition: service_healthy
-    environment:
-      APP_DOMAIN: ${APP_DOMAIN:-localhost}
-      CADDY_SITE_SCHEME: ${CADDY_SITE_SCHEME:-http}
-      CADDY_TRUSTED_PROXY_IPS: ${CADDY_TRUSTED_PROXY_IPS:-127.0.0.1}
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./Caddyfile:/etc/caddy/Caddyfile:ro
-      - caddy_data:/data
-      - caddy_config:/config
-    networks:
-      internal: {}
-      public_proxy:
-        aliases: [medicina-caddy]
 networks:
   internal:
-  public_proxy:
-    external: true
-    name: ${PUBLIC_PROXY_NETWORK:-jobshunter-net}
 volumes:
-  caddy_data:
-  caddy_config:
   pg_data:

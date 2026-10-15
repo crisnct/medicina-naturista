@@ -136,6 +136,7 @@ class Settings:
     owner_login_per_minute: int = 5
     max_concurrent_searches: int = 2
     max_concurrent_generations: int = 1
+    max_queued_generations: int = 20
     operation_timeout_seconds: int = 600
     report_generation_timeout_seconds: int = 600
     report_shutdown_timeout_seconds: int = 20
@@ -233,6 +234,7 @@ class Settings:
             owner_login_per_minute=_int("OWNER_LOGIN_PER_MINUTE", 5, env=env),
             max_concurrent_searches=_int("MAX_CONCURRENT_SEARCHES", 2, env=env),
             max_concurrent_generations=_int("MAX_CONCURRENT_GENERATIONS", 1, env=env),
+            max_queued_generations=_int("MAX_QUEUED_GENERATIONS", 20, env=env),
             operation_timeout_seconds=_int("OPERATION_TIMEOUT_SECONDS", 600, env=env),
             report_generation_timeout_seconds=_int(
                 "REPORT_GENERATION_TIMEOUT_SECONDS", 600, env=env
@@ -360,6 +362,7 @@ class Settings:
             "owner_login_per_minute",
             "max_concurrent_searches",
             "max_concurrent_generations",
+            "max_queued_generations",
             "operation_timeout_seconds",
             "report_generation_timeout_seconds",
             "report_shutdown_timeout_seconds",
@@ -370,6 +373,8 @@ class Settings:
                 raise ValueError(f"{name} must be positive")
         if self.session_idle_seconds > self.session_max_seconds:
             raise ValueError("session_idle_seconds must not exceed session_max_seconds")
+        if self.max_concurrent_generations != 1:
+            raise ValueError("max_concurrent_generations must be 1 for the serial report queue")
         if (
             max(self.max_history_bytes, self.max_evidence_bytes, self.max_pdf_bytes)
             > self.max_session_bytes

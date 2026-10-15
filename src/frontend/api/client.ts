@@ -130,7 +130,11 @@ export const api = {
 export function errorMessage(error: unknown, fallback: string): string {
   if (!(error instanceof ApiError)) return fallback;
   if (error.status === 413) return "Cererea este prea mare. Reduceți conținutul mesajului.";
-  if (error.status === 429) return "Limita de cereri sau operații active a fost atinsă. Încercați mai târziu.";
+  if (error.status === 429) {
+    if (error.code === "GENERATION_CAPACITY" || error.code === "GENERATION_QUEUE_FULL" || error.code === "GENERATION_HISTORY_LIMIT" || error.code === "OPERATION_LIMIT") return error.message;
+    if (error.code === "RATE_LIMIT" && error.retryAfter) return `Prea multe cereri. Încercați din nou peste ${error.retryAfter} de secunde.`;
+    return "Prea multe cereri. Încercați din nou mai târziu.";
+  }
   if (error.status === 409) return error.message;
   if (error.code?.startsWith("INDEX_")) return "Indexul este în mentenanță sau necesită resincronizare. Încercați din nou în 60 de secunde.";
   if (error.code === "OWNER_AUTH_UNAVAILABLE") return "Autorizarea este temporar indisponibilă. Încercați mai târziu.";

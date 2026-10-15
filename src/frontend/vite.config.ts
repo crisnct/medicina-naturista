@@ -9,7 +9,7 @@ import react from "@vitejs/plugin-react";
 const productionBase = process.env.PUBLIC_BASE_PATH ? `${process.env.PUBLIC_BASE_PATH.replace(/\/+$/, "")}/` : "/";
 
 export default defineConfig(({ command }) => {
-  const backend = new URL(process.env.DEV_BACKEND_URL ?? "https://ronin-archesporial-lonnie.ngrok-free.dev/medicina/");
+  const backend = new URL(process.env.DEV_BACKEND_URL ?? "https://cristiantone.taila68086.ts.net/medicina/");
   // Keep the backend's mount path locally too, including report links,
   // owner form actions, and scoped cookies returned by production.
   const base = command === "serve" ? `${backend.pathname.replace(/\/+$/, "")}/` : productionBase;

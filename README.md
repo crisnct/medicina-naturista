@@ -79,7 +79,7 @@ Diagrama actualizată: [chatbot-external-connections.xmind](architecture/chatbot
 | **Documente** | ReportLab pentru PDF, pypdf pentru procesare și verificare |
 | **E-mail** | Gmail API, OAuth2 cu refresh token |
 | **Configurare** | python-dotenv, variabile de mediu |
-| **Rulare și publicare** | Docker, Docker Compose, Caddy, PostgreSQL (`pgvector/pgvector`) |
+| **Rulare și publicare** | Docker, Docker Compose, Tailscale Funnel, PostgreSQL (`pgvector/pgvector`) |
 | **Testare** | `unittest`, `pytest` + `testcontainers` (Postgres efemer) pentru backend, Vitest pentru frontend |
 
 ## 🗺️ Documentație de arhitectură
@@ -126,7 +126,6 @@ medicina-naturista/
 │   │   ├── extract_pdf_markdown.py   # extragerea structurată în Markdown
 │   │   └── merge_book_pdfs.py        # combinarea părților de carte PDF
 │   └── tests/                    # teste unitare și de integrare
-├── Caddyfile
 ├── docker-compose.yaml
 ├── Dockerfile
 ├── pyproject.toml
@@ -261,7 +260,7 @@ Dacă ați sincronizat indexul la pasul 2, migrările sunt deja aplicate. Pentru
 
 Pentru clasificarea mesajelor și identificarea locală a afecțiunilor, porniți Ollama pe `CONDITION_AI_LOCAL_BASE` (implicit `http://localhost:11434/v1`) și descărcați modelul o dată cu `ollama pull gemma3:1b`. Acest model este separat de furnizorul ales pentru generarea raportului.
 
-Pentru dezvoltarea interfeței cu reîncărcare automată, rulați `npm run dev` în `src/frontend/`. Vite servește interfața local la `http://localhost:5173/medicina/` și trimite cererile API, verificările de stare și formularul owner către backend-ul de producție `https://ronin-archesporial-lonnie.ngrok-free.dev/medicina/`. Mesajele, căutările și rapoartele folosesc acest backend. Fișierele TypeScript ale interfeței sunt servite local, fără a fi trimise prin proxy. Backend-ul trebuie să fie disponibil; `npm run dev` nu îl pornește.
+Pentru dezvoltarea interfeței cu reîncărcare automată, rulați `npm run dev` în `src/frontend/`. Vite servește interfața local la `http://localhost:5173/medicina/` și trimite cererile API, verificările de stare și formularul owner către backend-ul de producție `https://cristiantone.taila68086.ts.net/medicina/`. Mesajele, căutările și rapoartele folosesc acest backend. Fișierele TypeScript ale interfeței sunt servite local, fără a fi trimise prin proxy. Backend-ul trebuie să fie disponibil; `npm run dev` nu îl pornește. `DEV_BACKEND_URL` poate suprascrie adresa backend-ului.
 
 Pentru a folosi în schimb un backend pornit local, setați adresa înainte de lansarea Vite:
 
@@ -349,7 +348,7 @@ Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit î
 
 ## 🐳 Rulare cu Docker Compose
 
-Înainte de build/pornire, trebuie să existe `medicina-naturista-documente/data/documents/`, `model_cache/` (cu modelul de embeddings deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Stiva are trei servicii: `db`, `app` și `caddy`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) este expus doar pe `127.0.0.1:5432` (`DB_HOST_PORT`), astfel încât indexul se sincronizează de pe host cu `python src/scripts/build_hybrid_index.py` (cu `PYTHONPATH=src` și un `DATABASE_URL` spre `127.0.0.1` cu parola `POSTGRES_PASSWORD`).
+Înainte de build/pornire, trebuie să existe `medicina-naturista-documente/data/documents/`, `model_cache/` (cu modelul de embeddings deja descărcat: containerul rulează offline) și fișierul local `.env` cu cheia furnizorului AI ales (`X_API_KEY`, `DEEPSEEK_API_KEY`, `HF_TOKEN` sau `OLLAMA_API_KEY`), `POSTGRES_PASSWORD` și `OWNER_KEY`. Stiva are două servicii: `db` și `app`. Serviciul `db` (Postgres 16 + `pgvector`, cu `shared_buffers=512MB`) este expus doar pe `127.0.0.1:5432` (`DB_HOST_PORT`), astfel încât indexul se sincronizează de pe host cu `python src/scripts/build_hybrid_index.py` (cu `PYTHONPATH=src` și un `DATABASE_URL` spre `127.0.0.1` cu parola `POSTGRES_PASSWORD`).
 
 **Ollama rulează separat, pe host (Windows), și trebuie pornit înaintea aplicației.** Containerul `app` îl accesează prin `http://host.docker.internal:11434/v1`, atât pentru clasificarea mesajelor și identificarea afecțiunilor (`CONDITION_AI_LOCAL_BASE`), cât și pentru rapoartele cu `ollama-gemma4:12b` (`OLLAMA_API_BASE`). Descărcați modelul de raport cu `ollama pull gemma4:12b` și modelul ales în `MEDICAL_CONDITION_AI_LOCAL_MODEL` (implicit `gemma3:1b`). Modelele sunt administrate de instalarea Ollama de pe host.
 
@@ -385,7 +384,7 @@ docker compose exec -T app python -c "import urllib.request; print(urllib.reques
 
 După schimbarea configurației din `.env`, recreați aplicația cu `docker compose up -d --no-deps --force-recreate app`. Dacă migrați de la vechiul serviciu Ollama, opriți și eliminați numai containerul vechi cu `docker stop medicina-ollama` și `docker rm medicina-ollama`; volumul său cu modele poate fi păstrat pentru recuperare. Modelele necesare trebuie descărcate separat în Ollama de pe host.
 
-Rețeaua externă `jobshunter-net` (sau valoarea `PUBLIC_PROXY_NETWORK`) trebuie să existe înainte de pornirea Caddy; Compose nu o creează. Verificați-o cu `docker network inspect jobshunter-net` (sau numele configurat). Sincronizați indexul după pornirea serviciului `db`, înainte de a folosi căutarea.
+Sincronizați indexul după pornirea serviciului `db`, înainte de a folosi căutarea.
 
 ```powershell
 docker compose up -d --build
@@ -393,7 +392,7 @@ docker compose ps
 Invoke-WebRequest http://localhost:8760/healthz
 ```
 
-Aplicația este publicată pe host la `127.0.0.1:8760` (`APP_HOST_PORT`; în container rămâne portul 7860, iar 8760 evită intervalul de porturi rezervat de Windows) și, prin Caddy, pe porturile 80/443. Rulează într-un container read-only, fără capabilități Linux suplimentare, ca utilizator non-root. Documentele sunt montate read-only, iar directoarele temporare folosesc `tmpfs`. Indexul locuiește în Postgres (volum named `pg_data`), nu mai e nevoie de bind-mount sau de oprirea aplicației la resincronizare.
+Aplicația este publicată pe host la `127.0.0.1:8760` (`APP_HOST_PORT`; în container rămâne portul 7860, iar 8760 evită intervalul de porturi rezervat de Windows) și publicat prin Tailscale Funnel, care gestionează HTTPS. Rulează într-un container read-only, fără capabilități Linux suplimentare, ca utilizator non-root. Documentele sunt montate read-only, iar directoarele temporare folosesc `tmpfs`. Indexul locuiește în Postgres (volum named `pg_data`), nu mai e nevoie de bind-mount sau de oprirea aplicației la resincronizare.
 
 Oprire fără ștergerea volumelor:
 
@@ -402,9 +401,36 @@ docker compose down
 ```
 
 > [!WARNING]
-> `docker compose down -v` șterge volumele named declarate în Compose: indexul din Postgres (`pg_data`) și starea și certificatele Caddy (`caddy_data`, `caddy_config`). Modelele Ollama de pe host sunt administrate separat.
+> `docker compose down -v` șterge volumele named declarate în Compose: indexul din Postgres (`pg_data`). Modelele Ollama de pe host sunt administrate separat.
 
-Pentru publicare, `APP_DOMAIN` conține doar hostname-ul. Cu ngrok, folosiți `CADDY_SITE_SCHEME=http` și tunelul către portul `80`. Pentru un domeniu administrat direct de server, folosiți `CADDY_SITE_SCHEME=https` și configurați DNS-ul și porturile 80/443.
+### Publicare prin Tailscale Funnel
+
+Pe Windows, Tailscale Funnel trimite cererile direct către portul local al aplicației, fără Nginx sau Caddy pe această cale. Prefixul `/medicina` permite publicarea ulterioară a altor aplicații pe același hostname. Portul `8760` rămâne legat exclusiv de `127.0.0.1`.
+
+În `.env`, setați `PUBLIC_ORIGIN=https://cristiantone.taila68086.ts.net` (originea exactă a dispozitivului Tailscale) și păstrați `COOKIE_SECURE=true`. `PUBLIC_ROOT_PATH` rămâne `/medicina`, valoarea implicită din Compose. Adăugați în `FORWARDED_ALLOW_IPS` numai adresa gateway-ului Docker prin care ajung cererile proxy-ului de pe host; la această instalare este `172.20.0.1`, verificată în jurnalul cererilor. Nu folosiți `*` sau întreaga subrețea: Tailscale înlocuiește headerele forwarded, iar Uvicorn trebuie să le accepte numai de la proxy-ul cunoscut. Adresele gateway-ului se pot schimba dacă rețeaua Docker este recreată.
+
+După schimbarea `.env`, recreați numai aplicația:
+
+```powershell
+docker compose up -d --no-deps --force-recreate app
+```
+
+Cu Tailscale instalat și conectat la cont, porniți Funnel din PowerShell:
+
+```powershell
+& "C:\Program Files\Tailscale\tailscale.exe" funnel --bg --set-path=/medicina http://127.0.0.1:8760
+& "C:\Program Files\Tailscale\tailscale.exe" funnel status
+```
+
+La prima utilizare, urmați linkul de activare afișat de Tailscale. Aplicația va fi disponibilă la `https://cristiantone.taila68086.ts.net/medicina/`, iar verificarea de disponibilitate la `/medicina/readyz`. Hostname-ul exact poate fi aflat din `tailscale status --json`, câmpul `Self.DNSName`. Pentru alt hostname, actualizați și `PUBLIC_ORIGIN` și adresa de dezvoltare `DEV_BACKEND_URL`.
+
+`--bg` păstrează configurația Funnel după restart. Pentru acces înainte de autentificarea în Windows, activați `Preferences → Run unattended` în Tailscale; Docker și containerul aplicației trebuie să fie pornite separat. Verificați și expirarea cheii dispozitivului în consola Tailscale pentru funcționare continuă. Pentru a opri numai ruta acestei aplicații:
+
+```powershell
+& "C:\Program Files\Tailscale\tailscale.exe" funnel --bg --set-path=/medicina http://127.0.0.1:8760 off
+```
+
+Migrarea acestei aplicații nu necesită modificarea proxy-ului Nginx comun sau oprirea ngrok pentru celelalte proiecte. Serviciul și configurația Caddy au fost eliminate; HTTPS este administrat de Tailscale. Accesul vechi la Medicina Naturistă prin ngrok nu mai este originea autorizată pentru cererile de modificare după schimbarea `PUBLIC_ORIGIN`.
 
 ## ⚙️ Configurare
 
@@ -454,8 +480,11 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `SESSION_IDLE_SECONDS` | `3600` | Expirarea unei sesiuni inactive. |
 | `SESSION_MAX_SECONDS` | `14400` | Durata maximă a unei sesiuni. |
 | `MAX_ACTIVE_SESSIONS` | `100` | Numărul maxim de sesiuni în proces. |
+| `NEW_SESSIONS_PER_COOKIE_MINUTE` | `5` | Numărul de conversații noi pe minut pentru același cookie de browser; reîncărcarea paginii deschide o conversație nouă. Instalarea locală folosește `60`, prin `.env`. |
+| `NEW_SESSIONS_PER_IP_MINUTE` | `10` | Numărul de conversații noi pe minut pentru același IP. Instalarea locală folosește `120`, prin `.env`. La depășire, răspunsul `429` include `Retry-After` cu timpul rămas până la eliberarea cotei. |
 | `MAX_API_BODY_BYTES` | `262144` | Dimensiunea maximă a corpului unei cereri API. |
-| `MAX_CONCURRENT_SEARCHES` / `MAX_CONCURRENT_GENERATIONS` | `2` / `1` | Limite de concurență per proces. |
+| `MAX_CONCURRENT_SEARCHES` / `MAX_CONCURRENT_GENERATIONS` | `2` / `1` | Două căutări simultane; generarea rapoartelor este serială (valoarea 1 este obligatorie). |
+| `MAX_QUEUED_GENERATIONS` | `20` | Numărul maxim de rapoarte în așteptare, pe lângă raportul în execuție. |
 | `OPERATION_TIMEOUT_SECONDS` | `600` | Durata totală acceptată pentru o operație. |
 | `DEPLOYMENT_PROFILE` | `local` | `public` validează HTTPS, cookie-uri securizate și dezactivarea logării de conținut; trebuie transmis explicit în Compose. |
 | `COOKIE_SECURE` | `false` (direct) / `true` (Compose) | Impune transmiterea cookie-ului numai prin HTTPS. |
@@ -468,7 +497,6 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `POSTGRES_PASSWORD` | — (obligatoriu în Docker Compose) | Parola Postgres a serviciului `db`; Compose construiește din ea `DATABASE_URL` pentru aplicație. |
 | `POSTGRES_USER` / `POSTGRES_DB` | `medicina` / `medicina` (Docker Compose) | Utilizatorul și baza serviciului `db`. |
 | `DB_HOST_PORT` | `5432` (Docker Compose) | Portul de pe host (doar `127.0.0.1`) la care Compose publică Postgres. |
-| `APP_DOMAIN` / `CADDY_SITE_SCHEME` | `localhost` / `http` (Docker Compose) | Hostname-ul și schema site-ului servit de Caddy. |
 | `PUBLIC_ROOT_PATH` | gol (direct) / `/medicina` (Docker Compose) | Prefixul căii publice, necesar când aplicația este expusă de un reverse proxy sub `/medicina`: intră în linkul de descărcare a PDF-ului și, la build-ul imaginii, devine `PUBLIC_BASE_PATH` pentru frontend. |
 | `PUBLIC_ORIGIN` | gol | Originea publică exactă (`https://hostname`, fără `/medicina`), pentru validarea originii când TLS se termină la ngrok/proxy și backendul primește HTTP. Dacă este gol, se compară cu originea cererii ASGI. |
 | `FRONTEND_DIST_DIR` | `src/frontend/dist` | Directorul cu build-ul React servit ca fișiere statice de FastAPI. |
@@ -584,13 +612,13 @@ Raportul include Recall@50 din fragmentele relevante etichetate, nDCG@10 cu grad
 
 ## Operare și limite
 
-Rulați aplicația cu **un singur worker Uvicorn**: sesiunile și limitele sunt gestionate în memoria procesului. Implicit sunt permise două căutări și o generare simultană (`MAX_CONCURRENT_SEARCHES=2`, `MAX_CONCURRENT_GENERATIONS=1`). Depășirea limitelor produce `429`; o operație deja în curs pe același context poate produce `409`.
+Rulați aplicația cu **un singur worker Uvicorn**: sesiunile și limitele sunt gestionate în memoria procesului. Implicit sunt permise două căutări și o generare simultană (`MAX_CONCURRENT_SEARCHES=2`, `MAX_CONCURRENT_GENERATIONS=1`). Rapoartele suplimentare primesc `202` și așteaptă într-o coadă FIFO în memoria procesului; următorul pornește după oprirea efectivă a workerului anterior. Sunt admise cel mult `MAX_QUEUED_GENERATIONS=20` cereri în așteptare, în limitele bugetelor de memorie. Depășirea capacității cozii produce `429 GENERATION_QUEUE_FULL`; o operație cu alte opțiuni deja în curs pe aceeași căutare poate produce `409`.
 
 Operațiile au un buget total de 600 de secunde (`OPERATION_TIMEOUT_SECONDS`), fără reîncercare automată. După expirare sau închiderea sesiunii, rezultatele tardive sunt abandonate; un apel deja pornit poate continua, ocupând capacitatea până la terminare.
 
 Folosiți `/healthz` pentru configurația AI și `/readyz` pentru disponibilitatea indexului. Reindexarea creează baza lipsă și aplică migrările; aplicația web nu le execută la pornire. În timpul sincronizării indexului, căutarea poate răspunde `503`; un eșec păstrează generația anterioară.
 
-Pentru expunere publică, setați `DEPLOYMENT_PROFILE=public`, `PUBLIC_ORIGIN=https://...`, `COOKIE_SECURE=true`, `LOG_FRAGMENT_TEXT=false` și `LOG_AI_RESPONSE_TEXT=false`. În Compose, adăugați explicit `DEPLOYMENT_PROFILE` în `app.environment`; simpla adăugare în `.env` nu îl transmite containerului. Configurați proxy-urile autorizate prin `FORWARDED_ALLOW_IPS` (Uvicorn) și `CADDY_TRUSTED_PROXY_IPS` (Caddy).
+Pentru expunere publică, setați `DEPLOYMENT_PROFILE=public`, `PUBLIC_ORIGIN=https://...`, `COOKIE_SECURE=true`, `LOG_FRAGMENT_TEXT=false` și `LOG_AI_RESPONSE_TEXT=false`. În Compose, adăugați explicit `DEPLOYMENT_PROFILE` în `app.environment`; simpla adăugare în `.env` nu îl transmite containerului. Configurați proxy-urile autorizate prin `FORWARDED_ALLOW_IPS` (Uvicorn); pentru Funnel pe host și Docker sunt autorizate loopback-ul și gateway-ul rețelei interne a aplicației.
 
 ## Extragerea PDF în Markdown
 
@@ -631,7 +659,7 @@ Generarea pornește prin `POST /api/searches/{searchId}/generate` și răspunde 
 
 `REPORT_GENERATION_TIMEOUT_SECONDS` limitează raportul complet (implicit 600 s; configurația locală folosește 2700 s, adică 45 de minute). `OPERATION_TIMEOUT_SECONDS` rămâne separat pentru celelalte operații. `REPORT_GENERATION_READ_TIMEOUT_SECONDS` limitează I/O; `REPORT_GENERATION_AI_STREAM=true` rămâne folosit între backend și provider, pentru citirea incrementală și verificarea anulării, fără afișarea tokenilor parțiali în browser.
 
-`MAX_CONCURRENT_GENERATIONS` este implicit 1. Slotul rămâne ocupat până la oprirea efectivă a workerului, inclusiv după anularea sau expirarea logică. Stările terminale și codurile de eroare se pot citi independent de conexiunea de pornire. Metadatele sunt limitate la 32 de operații per sesiune și sunt incluse în bugetul ei de memorie.
+`MAX_CONCURRENT_GENERATIONS` trebuie să fie 1. Cererile acceptate au inițial etapa `queued`; interogarea stării returnează `queuePosition` (de la 1), afișată în interfață. Anularea unei cereri din coadă o elimină fără apel AI. Cererile duplicate sunt reconciliate prin `requestId`, fără dublarea generării. Timpul de așteptare nu consumă bugetul `REPORT_GENERATION_TIMEOUT_SECONDS`, care începe la preluare; durata maximă a sesiunii rămâne aplicabilă. Coada nu persistă la repornirea procesului. Slotul rămâne ocupat până la oprirea efectivă a workerului, inclusiv după anularea sau expirarea logică. Stările terminale și codurile de eroare se pot citi independent de conexiunea de pornire. Metadatele sunt limitate la 32 de operații per sesiune și sunt incluse în bugetul ei de memorie.
 
 Refreshul aceleiași file recuperează operația dacă se reconectează în `SESSION_RECONNECT_GRACE_SECONDS` (implicit 30 s). Închiderea explicită anulează imediat; fără reconectare, unloadul închide sesiunea după această fereastră. Sesiunile și operațiile rămân în memorie, într-un singur proces: restartul containerului pierde rezultatele și nu relansează automat cereri AI. Shutdownul așteaptă cel mult `REPORT_SHUTDOWN_TIMEOUT_SECONDS` (implicit 20 s), cu o perioadă Docker de 30 s; un apel sincron blocat poate necesita oprirea procesului.
 

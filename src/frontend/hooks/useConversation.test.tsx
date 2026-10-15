@@ -4,7 +4,7 @@ import type { PropsWithChildren } from "react";
 import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import { api, ApiError } from "../api/client";
 import { useConversation } from "./useConversation";
-import type { ChatMessage } from "../api/types";
+import type { ChatMessage, ReportGeneration } from "../api/types";
 
 const signals = { conditions: true, lexical: true, semantic: true };
 const old: ChatMessage[] = [
@@ -22,6 +22,34 @@ afterEach(() => vi.restoreAllMocks());
 beforeEach(() => vi.spyOn(api, "getReportModels").mockResolvedValue({ models: ["ollama-gemma4:12b"] }));
 
 describe("conversation resource reconciliation", () => {
+  it("shows server queue position, keeps the panel busy and can cancel without resubmission", async () => {
+    const queued: ReportGeneration = {
+      jobId: "queued-job", searchId: "s", state: "accepted", stage: "queued",
+      provider: "synthetic", model: "synthetic", createdAt: 1, deadlineAt: 100,
+      queuePosition: 2, workerActive: true,
+    };
+    const cancelled: ReportGeneration = {
+      ...queued, state: "cancelled", workerActive: false, queuePosition: null,
+      message: "Generarea a fost anulată.",
+    };
+    const getSession = vi.spyOn(api, "getSession").mockResolvedValue({ history: old });
+    const generate = vi.spyOn(api, "generateReport").mockResolvedValue(queued);
+    vi.spyOn(api, "getGeneration").mockResolvedValue(queued);
+    const cancel = vi.spyOn(api, "cancelGeneration").mockResolvedValue(cancelled);
+    const { result } = mount();
+    await waitFor(() => expect(result.current.isLoading).toBe(false));
+    act(() => result.current.generateReport("s", 0));
+    await waitFor(() => expect(result.current.generationFeedback.s?.progress).toContain("Poziția: 2"));
+    expect(result.current.history[1]).toMatchObject({ kind: "generate", busy: true });
+    expect(result.current.isGenerating).toBe(true);
+    getSession.mockResolvedValue({ history: old, generations: [cancelled] });
+    act(() => result.current.generationFeedback.s?.cancel?.());
+    await waitFor(() => expect(result.current.generationFeedback.s?.message).toBe(cancelled.message));
+    expect(cancel).toHaveBeenCalledWith("queued-job", expect.anything());
+    expect(generate).toHaveBeenCalledTimes(1);
+    expect(result.current.history[1]).toMatchObject({ kind: "generate", busy: false });
+  });
+
   it("classifies before searching and skips condition identification for diverse", async () => {
     vi.spyOn(api, "getSession").mockResolvedValue({ history: [] });
     vi.spyOn(api, "sendMessage").mockResolvedValue({ messages: [], startSearch: false, classifyMessage: true, contextRevision: 8 });

@@ -8,10 +8,13 @@ const SESSION_KEY = ["session"] as const;
 export const activeGeneration = (job: ReportGeneration) => job.state === "accepted" || job.state === "running";
 const observingGeneration = (job: ReportGeneration) => activeGeneration(job) || job.workerActive === true;
 const stages: Record<string, string> = {
+  queued: "Raportul așteaptă în coadă",
   preparing: "Pregătesc datele", generating: "Redactez raportul", validating: "Verific recomandările",
   rendering_pdf: "Creez PDF-ul", publishing: "Salvez raportul",
 };
-const transient = (error: unknown) => !(error instanceof ApiError) || [502, 503, 504, 429].includes(error.status);
+const transient = (error: unknown) => !(error instanceof ApiError)
+  || [502, 503, 504].includes(error.status)
+  || (error.status === 429 && error.code === "RATE_LIMIT");
 
 export function useReportGeneration(
   session: SessionResponse | undefined,
@@ -83,7 +86,11 @@ export function useReportGeneration(
       if (!job.jobId || !job.state) throw new ApiError(409, "Versiunea aplicației s-a schimbat. Reîncărcați pagina.", "API_CONTRACT_CHANGED");
       return job;
     },
+    // Reuse requestId if the admission response was lost in transit.
     retry: (count, error) => count < 1 && transient(error),
+    retryDelay: (count, error) => error instanceof ApiError && error.status === 429
+      ? Math.max(1, error.retryAfter ?? 5) * 1000
+      : Math.min(1000 * 2 ** count, 10000),
     onSuccess: (job) => {
       sessionStorage.removeItem(`report-request:${job.searchId}`);
       setFeedback((old) => { const next = { ...old }; delete next[job.searchId]; return next; });
@@ -103,13 +110,22 @@ export function useReportGeneration(
   for (const [index, job] of observed.entries()) {
     if (!observingGeneration(job) || blocked.current.has(job.jobId)) continue;
     feedback[job.searchId] = {
-      message: "", progress: !activeGeneration(job) ? "Generarea a fost oprită. Aștept închiderea apelului AI…" : queries[index]?.error ? "Conexiunea este întreruptă. Verific din nou starea raportului." : stages[job.stage] ?? "Pregătesc raportul",
+      message: "", progress: !activeGeneration(job) ? "Generarea a fost oprită. Aștept închiderea apelului AI…" : queries[index]?.error ? "Conexiunea este întreruptă. Verific din nou starea raportului." : job.stage === "queued" && job.queuePosition ? `Raportul așteaptă în coadă. Poziția: ${job.queuePosition}. Va porni automat.` : stages[job.stage] ?? "Pregătesc raportul",
       cancel: activeGeneration(job) ? () => cancel.mutate(job.jobId) : undefined,
+    };
+  }
+  const activeSearches = new Set(observed.filter((job) => observingGeneration(job) && !blocked.current.has(job.jobId)).map((job) => job.searchId));
+  if (start.isPending && start.variables) {
+    const searchId = start.variables.searchId;
+    activeSearches.add(searchId);
+    feedback[searchId] = {
+      message: "",
+      progress: "Solicit pornirea raportului…",
     };
   }
   return {
     feedback,
-    activeSearches: new Set(observed.filter((job) => observingGeneration(job) && !blocked.current.has(job.jobId)).map((job) => job.searchId)),
+    activeSearches,
     isGenerating: start.isPending || observed.some((job) => observingGeneration(job) && !blocked.current.has(job.jobId)),
     generate: (searchId: string, minScore: number, model: ReportModel) => {
       const fingerprint = JSON.stringify({ minScore, model });
