@@ -11,6 +11,7 @@ export function ChatHistory({
   onGenerate,
   reportModels,
   defaultReportModel,
+  allowedReportModels,
   actionsDisabled,
   generationFeedback,
 }: {
@@ -20,6 +21,7 @@ export function ChatHistory({
   onGenerate: (searchId: string, minScore: number, model: ReportModel) => void;
   reportModels?: ReportModel[];
   defaultReportModel?: ReportModel;
+  allowedReportModels?: ReportModel[];
   actionsDisabled?: boolean;
   generationFeedback?: Record<string, GenerationFeedback>;
 }) {
@@ -60,6 +62,7 @@ export function ChatHistory({
           onGenerate={onGenerate}
           reportModels={reportModels}
           defaultReportModel={defaultReportModel}
+          allowedReportModels={allowedReportModels}
           actionsDisabled={actionsDisabled}
           generationFeedback={message.kind === "generate" ? generationFeedback?.[message.searchId] ?? persistedFeedback.get(message.searchId) : undefined}
         />

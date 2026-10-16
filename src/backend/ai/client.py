@@ -381,11 +381,17 @@ class ResponsesClient:
                         reason=reason,
                     )
                 if payload.get("status") == "incomplete":
+                    incomplete_reason = (payload.get("incomplete_details") or {}).get("reason")
                     logger.error(
                         "ai_response_incomplete provider=%s reason=%s",
                         self.provider.name,
-                        (payload.get("incomplete_details") or {}).get("reason"),
+                        incomplete_reason,
                     )
+                    if incomplete_reason == "max_output_tokens":
+                        raise AIUnavailable(
+                            "Modelul AI a atins limita de tokeni a răspunsului înainte de finalizarea raportului.",
+                            reason="output_limit",
+                        )
                 raise ValueError("response not completed")
             parts = [
                 block["text"]

@@ -55,7 +55,7 @@ def catalog(postgres):
             connection.execute("INSERT INTO sync_metadata(key,value) VALUES(%s,%s)", (key, value))
 
 
-@pytest.mark.parametrize("name", ["romanita", "Matricaria chamomilla"])
+@pytest.mark.parametrize("name", ["romanita", "romaniței", "Matricaria chamomilla"])
 def test_specific_species_with_name_and_alias_resolution(catalog, name):
     result = lookup_herb_conditions(name)
     assert result["status"] == "found" and result["entriesCount"] == 2
@@ -63,7 +63,7 @@ def test_specific_species_with_name_and_alias_resolution(catalog, name):
     assert result["species"] == ["matricaria chamomilla"]
 
 
-@pytest.mark.parametrize("name", ["mușețel", "MUSETEL"])
+@pytest.mark.parametrize("name", ["mușețel", "MUSETEL", "mușețelului"])
 def test_common_name_shared_by_species_requires_selection(catalog, name):
     result = lookup_herb_conditions(name)
     assert result == {

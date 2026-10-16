@@ -33,11 +33,10 @@ export function Composer({
       <form id="message-row" onSubmit={submit}>
         <label htmlFor="health-message">Întrebarea dumneavoastră</label>
         <div className="question-examples" aria-label="Exemple de întrebări">
-          <span>Exemple de întrebări</span>
           {[
             { label: "🌿 Remedii naturiste pentru gripă", text: "Remedii naturiste pentru gripă" },
             { label: "🌿 Despre cuișoare", text: "Spune-mi tot ce știi despre Cuișoare" },
-            { label: "🌿 Top 10 plante medicinale", text: "Top 10 plante medicinale" },
+            { label: "🌿 Top 100 plante medicinale", text: "Top 100 plante medicinale" },
             { label: "📚 Despre Ovidiu Bojor", text: "Spune-mi tot ce știi despre Ovidiu Bojor" },
             { label: "🍄 Despre cultivarea ciupercilor", text: "Spune-mi tot ce știi despre cultivarea ciupercilor comestibile" },
             { label: "🧄 La ce e bun usturoiul ?", text: "La ce e bun usturoiul ?" },

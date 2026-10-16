@@ -15,7 +15,7 @@ from http.cookies import CookieError, SimpleCookie
 from typing import Literal
 from urllib.parse import quote, urlparse
 
-from fastapi import APIRouter, FastAPI, HTTPException, Request
+from fastapi import APIRouter, FastAPI, HTTPException, Query, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse, Response
 from fastapi.staticfiles import StaticFiles
@@ -23,7 +23,7 @@ from pydantic import BaseModel, Field, model_validator
 
 from backend.ai.client import create_report_clients
 from backend.ai.condition_ai import identify_conditions
-from backend.ai.condition_ai import warm_up as warm_up_condition_ai
+from backend.ai.db import get_pool
 from backend.ai.herb_conditions import lookup_herb_conditions
 from backend.ai.herb_ranking import list_top_herbs
 from backend.ai.herbs import load_herbs
@@ -48,9 +48,11 @@ from backend.core.models import (
 from backend.core.owner_auth import OwnerAuth, PostgresOwnerSessionRepository
 from backend.core.rate_limits import RateLimiter
 from backend.core.report_generation import ReportGenerationService
+from backend.core.report_metrics import MAX_BIGINT
 from backend.core.report_models import DEFAULT_REPORT_MODELS, REPORT_MODELS
 from backend.core.sessions import SessionStore
 from backend.integrations.gmail import send_report
+from backend.persistence.report_metrics import PostgresReportMetricsRepository
 from backend.reporting.chat import (
     text as _text,
 )
@@ -67,7 +69,7 @@ TAB_ID_RE = re.compile(r"^[A-Za-z0-9_-]{8,64}$")
 OWNER_COOKIE = "naturist_owner"
 CSRF_COOKIE = "naturist_owner_csrf"
 OWNER_COOKIE_MAX_AGE = 31536000
-OWNER_ONLY_MESSAGE = "Modelele AI externe sunt disponibile doar pentru admin."
+OWNER_ONLY_MESSAGE = "Acest model AI poate fi accesat doar de autorul platformei."
 router = APIRouter()
 
 
@@ -112,7 +114,7 @@ class MessageRequest(BaseModel):
 # The "Scor minim" chosen next to "Generează raportul": only fragments whose
 # relevance_percent is at least this value are sent to the AI (0 = all).
 class GenerateRequest(BaseModel):
-    minScore: float = Field(default=0, ge=0, le=100)
+    minScore: int = Field(default=0, strict=True, ge=0, le=100)
     model: ReportModel | None = None
     requestId: str = Field(
         default_factory=lambda: secrets.token_urlsafe(24), pattern=r"^[A-Za-z0-9_-]{8,64}$"
@@ -126,6 +128,13 @@ class AIActivityResponse(BaseModel):
     firstThinkingElapsedMs: int | None = Field(default=None, ge=0)
     firstAnswerElapsedMs: int | None = Field(default=None, ge=0)
     thinkingCharactersReceived: int = Field(default=0, ge=0)
+
+
+class ReportDurationEstimateResponse(BaseModel):
+    model: ReportModel
+    characters: int = Field(ge=0, le=MAX_BIGINT)
+    estimatedSeconds: int | None = Field(default=None, ge=0)
+    sampleCount: int = Field(ge=0)
 
 
 class GenerateResponse(BaseModel):
@@ -325,10 +334,13 @@ def _categories_payload(tree, generation):
     }
 
 
-def _conversation(deps: Dependencies, ai: AIProtocol | None = None) -> ConversationService:
+def _conversation(
+    deps: Dependencies, ai: AIProtocol | None = None, *, model_choice: ReportModel | None = None
+) -> ConversationService:
     selected_ai = ai if ai is not None else deps.ai
     # Bind the effective model now: queued reports must not use a later env default.
-    model = getattr(getattr(selected_ai, "provider", None), "model", None)
+    provider = getattr(selected_ai, "provider", None)
+    model = getattr(provider, "model", None)
     render_pdf = deps.pdf or partial(create_pdf, ai_model=model)
     return ConversationService(
         deps.settings,
@@ -342,6 +354,9 @@ def _conversation(deps: Dependencies, ai: AIProtocol | None = None) -> Conversat
         deps.herb_lookup or lookup_herb_conditions,
         deps.top_herbs or list_top_herbs,
         report_model=model,
+        report_model_choice=model_choice or "",
+        report_ai_effort=getattr(provider, "reasoning_effort", None) or None,
+        record_report_metrics=deps.record_report_metrics,
     )
 
 
@@ -384,12 +399,13 @@ def _generate_report(
     deps: Dependencies,
     session: SessionData,
     search_id: str,
-    min_score: float = 0,
+    min_score: int = 0,
     model: ReportModel | None = None,
 ) -> OperationResult:
-    model = _select_report_model(deps.settings, model)
+    # Trusted Python-only entry point; HTTP admission supplies its verified session role.
+    model = _select_report_model(deps.settings, model, owner_authorized=True)
     ai = deps.report_clients[model] if deps.report_clients is not None else deps.ai
-    return _conversation(deps, ai).generate(session, search_id, min_score)
+    return _conversation(deps, ai, model_choice=model).generate(session, search_id, min_score)
 
 
 def _available_report_models(
@@ -401,13 +417,10 @@ def _available_report_models(
 
 
 def _select_report_model(
-    settings: Settings, model: ReportModel | None, *, owner_authorized: bool = True
+    settings: Settings, model: ReportModel | None, *, owner_authorized: bool
 ) -> ReportModel:
     if model is None:
-        available = _available_report_models(owner_authorized, settings.report_generation_models)
-        if not available:
-            raise ApplicationError("MODEL_FORBIDDEN", OWNER_ONLY_MESSAGE, 403)
-        return available[0]
+        model = settings.report_generation_model
     if model not in settings.report_generation_models:
         raise ApplicationError(
             "MODEL_NOT_CONFIGURED", "Modelul AI ales nu este disponibil în configurația curentă.", 422
@@ -419,14 +432,49 @@ def _select_report_model(
 
 @router.get("/api/report-models")
 def report_models(request: Request):
-    models = _available_report_models(
+    configured = _deps(request).settings.report_generation_models
+    allowed = _available_report_models(
         getattr(request.state, "owner_authorized", False),
-        _deps(request).settings.report_generation_models,
+        configured,
     )
     return {
-        "models": models,
-        "defaultModel": models[0] if models else None,
+        "models": list(configured),
+        "defaultModel": configured[0],
+        "allowedModels": allowed,
     }
+
+
+@router.get("/api/report-duration-estimate", response_model=ReportDurationEstimateResponse)
+def report_duration_estimate(
+    request: Request,
+    model: ReportModel,
+    characters: int = Query(..., ge=0, le=MAX_BIGINT),
+):
+    deps = _deps(request)
+    if model not in deps.settings.report_generation_models:
+        raise ApplicationError(
+            "MODEL_NOT_CONFIGURED", "Modelul AI ales nu este disponibil în configurația curentă.", 422
+        )
+    deps.request_limiter.check(
+        (f"report-estimate:{_client_ip(request)}", deps.settings.max_requests_per_minute)
+    )
+    if deps.estimate_report_duration is None:
+        raise ApplicationError(
+            "REPORT_ESTIMATE_UNAVAILABLE", "Estimarea duratei nu este disponibilă momentan.", 503
+        )
+    try:
+        estimate = deps.estimate_report_duration(model, characters)
+    except Exception as exc:
+        logger.warning("report_duration_estimate_unavailable type=%s", type(exc).__name__)
+        raise ApplicationError(
+            "REPORT_ESTIMATE_UNAVAILABLE", "Estimarea duratei nu este disponibilă momentan.", 503
+        ) from None
+    return ReportDurationEstimateResponse(
+        model=model,
+        characters=characters,
+        estimatedSeconds=estimate.estimated_seconds,
+        sampleCount=estimate.sample_count,
+    )
 
 
 @router.post(
@@ -445,7 +493,7 @@ def generate(search_id: str, request: Request, payload: GenerateRequest | None =
     ai = deps.report_clients[model] if deps.report_clients is not None else deps.ai
     service: ReportGenerationService = request.app.state.report_generation
     result = service.start(
-        _conversation(deps, ai),
+        _conversation(deps, ai, model_choice=model),
         session,
         search_id,
         options.minScore,
@@ -736,6 +784,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                 classifier = MessageClassifier(cfg, herb_catalog=load_herbs)
                 auth = OwnerAuth(cfg.owner_key, PostgresOwnerSessionRepository(cfg.database_url))
                 retriever = await asyncio.to_thread(Retriever, cfg.documents_dir)
+                metrics_repository = PostgresReportMetricsRepository(get_pool)
                 runtime = Dependencies(
                     cfg,
                     session_store,
@@ -747,6 +796,8 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     secrets.token_bytes(32),
                     classify=classifier,
                     report_clients=report_clients,
+                    record_report_metrics=metrics_repository,
+                    estimate_report_duration=metrics_repository.estimate_duration,
                 )
                 application.state.dependencies = runtime
                 application.root_path = cfg.public_root_path
@@ -756,49 +807,26 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                     name="frontend",
                 )
 
-                async def warm_models():
-                    failures = []
-                    pending = {"search", "condition_ai"}
+                async def warm_search():
+                    started = time.perf_counter()
+                    logger.info("warm_up_started stage=search")
+                    try:
+                        await asyncio.to_thread(warm_up_search)
+                    except Exception as exc:
+                        logger.warning("warm_up_failed stage=search type=%s", type(exc).__name__)
+                        application.state.startup_status = {
+                            "status": "degraded",
+                            "message": "Pregătirea automată nu s-a încheiat complet. Prima căutare poate dura mai mult.",
+                        }
+                    else:
+                        application.state.startup_status = {"status": "ready", "message": None}
+                    finally:
+                        logger.info(
+                            "warm_up_finished stage=search duration_ms=%s",
+                            round((time.perf_counter() - started) * 1000),
+                        )
 
-                    async def warm_one(name, warm):
-                        started = time.perf_counter()
-                        logger.info("warm_up_started stage=%s", name)
-                        try:
-                            if await asyncio.to_thread(warm) is False:
-                                failures.append(name)
-                        except Exception as exc:
-                            failures.append(name)
-                            logger.warning(
-                                "warm_up_failed stage=%s type=%s", name, type(exc).__name__
-                            )
-                        finally:
-                            pending.discard(name)
-                            logger.info(
-                                "warm_up_finished stage=%s duration_ms=%s",
-                                name,
-                                round((time.perf_counter() - started) * 1000),
-                            )
-                            application.state.startup_status = {
-                                "status": "initializing",
-                                "message": "Se inițializează căutarea…"
-                                if "search" in pending
-                                else "Se pregătește modelul AI…",
-                            }
-
-                    await asyncio.gather(
-                        warm_one("search", warm_up_search),
-                        warm_one("condition_ai", warm_up_condition_ai),
-                    )
-                    application.state.startup_status = {
-                        "status": "degraded" if failures else "ready",
-                        "message": (
-                            "Pregătirea automată nu s-a încheiat complet. Prima căutare poate dura mai mult."
-                            if failures
-                            else None
-                        ),
-                    }
-
-                warm_task = asyncio.create_task(warm_models(), name="model-warm-up")
+                warm_task = asyncio.create_task(warm_search(), name="search-warm-up")
             assert runtime is not None
             if not hasattr(application.state, "report_generation"):
                 application.state.report_generation = ReportGenerationService(runtime.store)
@@ -863,7 +891,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
     )
     application.state.startup_status = {
         "status": "ready" if dependencies else "initializing",
-        "message": None if dependencies else "Se inițializează căutarea și modelele AI…",
+        "message": None if dependencies else "Se inițializează căutarea…",
     }
     if dependencies:
         application.state.dependencies = dependencies

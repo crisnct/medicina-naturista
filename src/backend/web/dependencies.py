@@ -9,9 +9,11 @@ from backend.core.contracts import (
     AIProtocol,
     ClassifyMessage,
     EmailProtocol,
+    EstimateReportDuration,
     IdentifyCondition,
     ListTopHerbs,
     LookupHerb,
+    RecordReportMetrics,
     RenderPDF,
     ReportModel,
     RetrievalProtocol,
@@ -38,3 +40,5 @@ class Dependencies:
     herb_lookup: LookupHerb | None = None
     top_herbs: ListTopHerbs | None = None
     report_clients: dict[ReportModel, AIProtocol] | None = None
+    record_report_metrics: RecordReportMetrics | None = None
+    estimate_report_duration: EstimateReportDuration | None = None

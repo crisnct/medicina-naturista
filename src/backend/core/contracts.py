@@ -14,6 +14,7 @@ if TYPE_CHECKING:
     from backend.ai.message_classification import MessageClassification
     from backend.ai.report_validation import ValidatedReport
     from backend.core.models import SessionSnapshot
+    from backend.core.report_metrics import ReportDurationEstimate, ReportMetrics
 
 
 class TranscriptEntry(TypedDict):
@@ -75,6 +76,8 @@ class EmailProtocol(Protocol):
 IdentifyCondition = Callable[["ResolvedQuery"], "AIConditionResult"]
 RenderPDF = Callable[[ProfilePayload, "ValidatedReport", Evidence, float], bytes]
 ClassifyMessage = Callable[[str, dict[str, object]], "MessageClassification"]
+RecordReportMetrics = Callable[["ReportMetrics"], int]
+EstimateReportDuration = Callable[[ReportModel, int], "ReportDurationEstimate"]
 
 
 class HerbCondition(TypedDict):

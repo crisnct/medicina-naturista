@@ -60,6 +60,7 @@ export function App() {
             onGenerate={conversation.generateReport}
             reportModels={conversation.reportModels}
             defaultReportModel={conversation.defaultReportModel}
+            allowedReportModels={conversation.allowedReportModels}
             actionsDisabled={!startup.ready || conversation.needsSessionRecovery || conversation.isReconnecting || conversation.isSending || conversation.isGenerating}
             generationFeedback={conversation.generationFeedback}
           />

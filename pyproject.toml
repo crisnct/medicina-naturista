@@ -26,7 +26,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = ["testcontainers[postgres]>=4,<5", "ruff>=0.17,<1", "mypy>=2.4,<3", "pip-tools==7.6.2", "pytest>=9,<10"]
-pdf = ["pdfplumber>=0.11,<1", "pypdfium2>=4.30,<6", "Pillow>=10.4,<13"]
+pdf = ["PyMuPDF>=1.26,<2", "Pillow>=10.4,<13"]
 
 [project.scripts]
 medical-search = "backend.ai.search:main"

@@ -456,7 +456,7 @@ class SessionStore:
         session: SessionData,
         search_id: str,
         request_id: str,
-        min_score: float,
+        min_score: int,
         model_choice: str,
         provider: str,
         model: str,

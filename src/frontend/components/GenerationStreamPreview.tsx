@@ -3,7 +3,7 @@ import { AIActivityAge } from "./AIActivityAge";
 
 export function GenerationStreamPreview({
   text,
-  title = "Ultimul fragment primit de la AI",
+  title = "AI generează răspunsul",
   label = "Textul primit de la AI, în curs de generare",
   placeholder = "Aștept primul fragment de text…",
   activityAgeMs,
@@ -26,7 +26,7 @@ export function GenerationStreamPreview({
         {title}
         {tokensPerSecond != null && Number.isFinite(tokensPerSecond) && tokensPerSecond >= 0 && (
           <span title="Viteză medie estimată din fragmentele primite: aproximativ 4 caractere per token, fără timpul de așteptare inițial.">
-            {` - ${Math.round(tokensPerSecond)} tokens/sec`}
+            {` - ${Math.round(tokensPerSecond)} tokeni/sec`}
           </span>
         )}
       </h4>

@@ -155,8 +155,20 @@ def complete_general_question(message: str) -> bool:
 
 def explicit_herb_request(message: str, catalog: HerbCatalog) -> MessageClassification | None:
     """Resolve a request about a catalog plant without relying on a model label."""
-    if catalog.lookup(message):
-        return MessageClassification(intent="planta", herb_name=message.strip())
+
+    def decision(name: str) -> MessageClassification | None:
+        matches = catalog.lookup(name)
+        if not matches:
+            return None
+        if len(matches) == 1:
+            herb = matches[0]
+            # Keep species-specific aliases specific when the primary name is shared.
+            name = herb.ro if len(catalog.lookup(herb.ro)) == 1 else herb.latin
+        return MessageClassification(intent="planta", herb_name=name)
+
+    bare = decision(message.strip())
+    if bare is not None:
+        return bare
     normalized = _normalize(message)
     match = re.fullmatch(
         r"(?:(?:te|va) rog )?"
@@ -167,15 +179,9 @@ def explicit_herb_request(message: str, catalog: HerbCatalog) -> MessageClassifi
     )
     if match is None:
         return None
-    subject = match[1]
-    names = catalog.mentioned_names(subject)
-    if len(names) == 1 and re.fullmatch(
-        rf"(?:planta )?{re.escape(names[0])}(?:ului|ul)?(?: te rog)?", subject
-    ):
-        # A shared name reaches the existing species-selection flow instead of
-        # arbitrarily choosing one plant from the catalog.
-        return MessageClassification(intent="planta", herb_name=names[0])
-    return None
+    subject = re.sub(r"^planta | te rog$", "", match[1])
+    # A shared name reaches the species-selection flow without choosing a plant.
+    return decision(subject)
 
 
 class MessageClassifier:
@@ -265,7 +271,23 @@ class MessageClassifier:
                     candidates = sorted({herb.ro for herb in catalog.mentions(message)})
                 except HerbCatalogUnavailable:
                     logger.warning("classification_catalog_unavailable")
-            named_request = explicit_herb_request(message, catalog) if catalog is not None else None
+            choices = context.get("herb_choices")
+            selected = (
+                catalog.selected_choice(
+                    message, [choice for choice in choices if isinstance(choice, str)]
+                )
+                if catalog is not None
+                and isinstance(choices, (list, tuple))
+                and context.get("pending_clarification") == "planta"
+                else None
+            )
+            named_request = (
+                MessageClassification(intent="planta", herb_name=selected.latin)
+                if selected is not None
+                else explicit_herb_request(message, catalog)
+                if catalog is not None
+                else None
+            )
             if named_request is not None:
                 logger.info(
                     "message_classified intent=planta needs_clarification=false source=catalog duration_ms=%s",
@@ -279,27 +301,10 @@ class MessageClassifier:
                 self.settings.message_classification_max_output_tokens,
             )
             if isinstance(raw, dict) and catalog is not None:
-                choices = context.get("herb_choices")
-                selected = (
-                    catalog.selected_choice(
-                        message, [choice for choice in choices if isinstance(choice, str)]
-                    )
-                    if isinstance(choices, (list, tuple))
-                    and context.get("pending_clarification") == "planta"
-                    else None
-                )
                 exact_names = {herb.ro for herb in catalog.lookup(message)}
                 # A bare catalog name is a complete plant request, including replies to
                 # clarification. It never authorizes an email or changes a remedy question.
-                if selected is not None and raw.get("intent") in {"planta", "diverse", "remedii"}:
-                    raw = {
-                        **raw,
-                        "intent": "planta",
-                        "herb_name": selected.latin,
-                        "email_address": None,
-                        "needs_clarification": False,
-                    }
-                elif exact_names and raw.get("intent") in {"planta", "diverse", "remedii"}:
+                if exact_names and raw.get("intent") in {"planta", "diverse", "remedii"}:
                     raw = {
                         **raw,
                         "intent": "planta",

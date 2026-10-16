@@ -182,8 +182,11 @@ def test_named_catalog_plant_resolves_spurious_clarification(message, pending, e
         assert decision.intent == "planta"
         assert decision.herb_name == expected
         assert not decision.needs_clarification
-        sent = json.loads(classifier.client.complete_json.call_args.args[1])
-        assert sent["context"]["recognized_herbs"]
+        if message == "pentru ce e musetelul?":
+            sent = json.loads(classifier.client.complete_json.call_args.args[1])
+            assert sent["context"]["recognized_herbs"]
+        else:
+            classifier.client.complete_json.assert_not_called()
     finally:
         classifier.close()
 

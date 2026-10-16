@@ -10,7 +10,7 @@ from reportlab.pdfgen import canvas
 try:
     from scripts import extract_pdf_markdown as extractor
 except ModuleNotFoundError as exc:
-    if exc.name not in {"pdfplumber", "pdfminer", "numpy"}:
+    if exc.name not in {"pymupdf", "numpy"}:
         raise
     extractor = None
 
@@ -18,7 +18,7 @@ except ModuleNotFoundError as exc:
 @unittest.skipIf(extractor is None, "Install the optional PDF dependencies: pip install -e .[pdf]")
 class ExtractMarkdownTests(unittest.TestCase):
     def setUp(self):
-        temporary_root = Path(__file__).resolve().parents[4] / "tmp" / "pdfs"
+        temporary_root = Path(__file__).resolve().parents[4] / "aiPlans" / "tmp" / "pdfs"
         temporary_root.mkdir(parents=True, exist_ok=True)
         self.directory = tempfile.TemporaryDirectory(dir=temporary_root)
         self.addCleanup(self.directory.cleanup)
@@ -119,28 +119,18 @@ class ExtractMarkdownTests(unittest.TestCase):
         # OCR can position every character individually while leaving each glyph
         # matrix unrotated. This reproduces the difficult Compendiu text layer.
         import math
-        from types import SimpleNamespace
 
-        chars = []
+        import pymupdf
+
+        document = pymupdf.open()
+        self.addCleanup(document.close)
+        page = document.new_page(width=700, height=900)
         angle = math.radians(25)
         for row in range(8):
             for index, letter in enumerate(f"Readable OCR row {row + 1}"):
                 x = 80 + index * 7
                 y = 100 + row * 16 + math.tan(angle) * x
-                chars.append(
-                    {
-                        "text": letter,
-                        "matrix": (1, 0, 0, 1, x, 900 - y),
-                        "x0": x,
-                        "x1": x + 6,
-                        "width": 6,
-                        "adv": 6,
-                        "size": 10,
-                        "fontname": "OCR",
-                    }
-                )
-        page = SimpleNamespace(height=900, chars=chars)
-        page.dedupe_chars = lambda **kwargs: page
+                page.insert_text((x, y), letter, fontsize=10, fontname="cour")
         glyphs, found = extractor._text_glyphs(page, extractor.Options())
         self.assertAlmostEqual(found, 25, delta=0.6)
         lines = extractor._group_glyphs(glyphs)
@@ -149,6 +139,9 @@ class ExtractMarkdownTests(unittest.TestCase):
         )
 
     def test_scan_deskew_from_one_to_thirty_degrees(self):
+        import io
+
+        import pymupdf
         from PIL import Image, ImageDraw, ImageFont
 
         image = Image.new("RGB", (1400, 1800), "white")
@@ -164,7 +157,11 @@ class ExtractMarkdownTests(unittest.TestCase):
         for angle in (-30, -15, -1, 1, 15, 30):
             with self.subTest(angle=angle):
                 rotated = image.rotate(-angle, expand=True, fillcolor="white")
-                _, found = extractor._deskew_image(rotated, 30)
+                with io.BytesIO() as buffer, pymupdf.open() as document:
+                    rotated.save(buffer, format="PNG")
+                    page = document.new_page(width=rotated.width, height=rotated.height)
+                    page.insert_image(page.rect, stream=buffer.getvalue())
+                    found = extractor.estimate_page_skew(page, 30)
                 self.assertAlmostEqual(found, angle, delta=0.7)
 
     def test_wide_spaces_do_not_reorder_heading_fragments(self):

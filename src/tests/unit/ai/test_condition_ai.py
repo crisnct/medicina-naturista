@@ -8,7 +8,6 @@ from __future__ import annotations
 import json
 import os
 import unittest
-from dataclasses import replace
 from unittest.mock import MagicMock, patch
 
 import httpx
@@ -84,36 +83,6 @@ class ConditionAITestCase(unittest.TestCase):
 
     def identify(self, message: str = "tiroida care merge prea repede") -> AIConditionResult:
         return condition_ai.identify_conditions(resolve_query(message))
-
-
-class WarmUpTests(unittest.TestCase):
-    def test_cold_start_has_separate_timeout_and_closes_client(self):
-        config = replace(base_settings, condition_ai_timeout_seconds=10)
-        with (
-            patch.object(condition_ai, "settings", config),
-            patch.object(condition_ai, "ResponsesClient") as factory,
-            patch.object(condition_ai, "_ask_client") as ask,
-        ):
-            condition_ai.warm_up()
-        self.assertEqual(factory.call_args.args[0].read_timeout_seconds, 60)
-        self.assertEqual(config.condition_ai_timeout_seconds, 10)
-        ask.assert_called_once_with(factory.return_value, ("gripa",))
-        factory.return_value.close.assert_called_once()
-
-    def test_failure_remains_best_effort_and_closes_client(self):
-        config = replace(base_settings, condition_ai_timeout_seconds=90)
-        with (
-            patch.object(condition_ai, "settings", config),
-            patch.object(condition_ai, "ResponsesClient") as factory,
-            patch.object(
-                condition_ai,
-                "_ask_client",
-                side_effect=condition_ai._BackendFailure(condition_ai.TIMEOUT),
-            ),
-        ):
-            condition_ai.warm_up()
-        self.assertEqual(factory.call_args.args[0].read_timeout_seconds, 90)
-        factory.return_value.close.assert_called_once()
 
 
 class IdentificationTests(ConditionAITestCase):

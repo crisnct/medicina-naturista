@@ -27,6 +27,7 @@ from backend.core.contracts import (
     IdentifyCondition,
     ListTopHerbs,
     LookupHerb,
+    RecordReportMetrics,
     RenderPDF,
     RetrievalProtocol,
 )
@@ -42,6 +43,7 @@ from backend.core.models import (
     StoredReport,
 )
 from backend.core.operation_context import OperationBudget, operation_budget
+from backend.core.report_metrics import ReportMetrics, validate_min_score
 from backend.core.sessions import SessionStore
 from backend.integrations.gmail import EMAIL_SKIPPED, GmailAuthorizationError
 from backend.reporting.chat import (
@@ -232,6 +234,9 @@ class ConversationService:
     herb_lookup: LookupHerb | None = None
     top_herbs: ListTopHerbs | None = None
     report_model: str | None = None
+    report_model_choice: str = ""
+    report_ai_effort: str | None = None
+    record_report_metrics: RecordReportMetrics | None = None
 
     def budget(self, operation: SessionOperation) -> OperationBudget:
         return OperationBudget(
@@ -846,10 +851,11 @@ class ConversationService:
         self,
         session: SessionData,
         search_id: str,
-        min_score: float = 0,
+        min_score: int = 0,
         *,
         admitted: SessionOperation | None = None,
     ) -> OperationResult:
+        validate_min_score(min_score)
         generation_started_at = self.store.clock()
         operation = admitted or self.store.begin_operation(session, "generate", search_id=search_id)
         try:
@@ -877,6 +883,7 @@ class ConversationService:
                     422,
                 )
             self.store.generation_stage(operation, "generating")
+            characters = sum(len(item["text"]) for item in evidence.values())
             with operation_budget(self.budget(operation)):
                 sections = self.ai.generate(profile, evidence)
             self.store.generation_stage(operation, "validating")
@@ -921,6 +928,32 @@ class ConversationService:
                 ),
             )
             if not committed.cancelled:
+                duration_ms = max(0, round((self.store.clock() - generation_started_at) * 1000))
+                if self.record_report_metrics is not None:
+                    try:
+                        metrics_id = self.record_report_metrics(
+                            ReportMetrics(
+                                medical_condition=profile["health_problem"],
+                                min_score=min_score,
+                                characters=characters,
+                                ai_model=self.report_model_choice,
+                                ai_effort=self.report_ai_effort,
+                                duration=duration_ms,
+                            )
+                        )
+                        logger.info(
+                            "report_metrics_persisted job_id=%s metrics_id=%s",
+                            operation.operation_id,
+                            metrics_id,
+                        )
+                    except Exception as exc:
+                        # Publishing has succeeded; metrics failure must not undo the PDF.
+                        logger.error(
+                            "report_metrics_persistence_failed job_id=%s type=%s sqlstate=%s",
+                            operation.operation_id,
+                            type(exc).__name__,
+                            getattr(exc, "sqlstate", None),
+                        )
                 committed = replace(
                     committed,
                     partial=sections.partial,

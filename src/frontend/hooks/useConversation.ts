@@ -154,11 +154,14 @@ export function useConversation() {
 
   const reportModels = reportModelsQuery.data?.models ?? [];
   const defaultReportModel = reportModelsQuery.data?.defaultModel ?? reportModels[0];
+  const allowedReportModels = reportModelsQuery.data?.allowedModels
+    ?? reportModels.filter((model) => model.startsWith("ollama-"));
 
   return {
     history: history.map((message) => message.kind === "generate" ? { ...message, busy: generation.activeSearches.has(message.searchId) } : message),
     reportModels,
     defaultReportModel,
+    allowedReportModels,
     latestReportId: sessionQuery.data?.latestReportId,
     generationFeedback: visibleGenerationFeedback,
     isLoading: sessionQuery.isLoading,
@@ -177,7 +180,7 @@ export function useConversation() {
     isClassifying,
     isGenerating: generation.isGenerating,
     generateReport: (searchId: string, minScore: number, model: ReportModel | undefined = defaultReportModel) => {
-      if (model) generation.generate(searchId, minScore, model);
+      if (model && allowedReportModels.includes(model)) generation.generate(searchId, minScore, model);
     },
   };
 }

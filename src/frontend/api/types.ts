@@ -64,6 +64,14 @@ export type ReportModel = "ollama-gemma4:12b" | "ollama-gemma3:1b" | "ollama-qwe
 export interface ReportModelsResponse {
   models: ReportModel[];
   defaultModel?: ReportModel | null;
+  allowedModels?: ReportModel[];
+}
+
+export interface ReportDurationEstimate {
+  model: ReportModel;
+  characters: number;
+  estimatedSeconds: number | null;
+  sampleCount: number;
 }
 
 export interface DownloadMessage extends MessageIdentity {

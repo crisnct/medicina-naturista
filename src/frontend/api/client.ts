@@ -6,6 +6,7 @@ import type {
   MessagesResponse,
   ReportModel,
   ReportModelsResponse,
+  ReportDurationEstimate,
   SearchSignals,
   SendMessageResponse,
   SessionResponse,
@@ -84,6 +85,10 @@ export const api = {
   },
   getCategories: () => request<CategoriesResponse>("/api/categories"),
   getReportModels: () => request<ReportModelsResponse>("/api/report-models"),
+  getReportDurationEstimate: (model: ReportModel, characters: number, signal: AbortSignal) =>
+    request<ReportDurationEstimate>(`/api/report-duration-estimate?${new URLSearchParams({ model, characters: String(characters) })}`, {
+      signal: AbortSignal.any([signal, AbortSignal.timeout(5000)]),
+    }),
   sendMessage: (message: string, categories: string[], signals: SearchSignals) =>
     request<SendMessageResponse>("/api/messages", {
       method: "POST",

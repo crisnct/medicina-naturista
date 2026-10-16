@@ -14,6 +14,7 @@ from backend.ai.report_validation import ReportValidationError
 from backend.core.conversation import ConversationService, evidence_above, evidence_within_budget
 from backend.core.errors import ApplicationError, OperationCancelled
 from backend.core.models import SessionData, SessionOperation
+from backend.core.report_metrics import validate_min_score
 from backend.core.sessions import SessionStore
 
 logger = logging.getLogger("naturist.reports")
@@ -27,7 +28,7 @@ class ReportGenerationService:
             thread_name_prefix="report-generation",
         )
         self._lock = threading.RLock()
-        self._pending: deque[tuple[ConversationService, SessionOperation, float]] = deque()
+        self._pending: deque[tuple[ConversationService, SessionOperation, int]] = deque()
         self._draining = False
         self._closed = False
 
@@ -36,10 +37,11 @@ class ReportGenerationService:
         conversation: ConversationService,
         session: SessionData,
         search_id: str,
-        min_score: float,
+        min_score: int,
         request_id: str,
         model_choice: str,
     ) -> dict:
+        validate_min_score(min_score)
         with self._lock:
             if self._closed:
                 raise ApplicationError("SHUTTING_DOWN", "Aplicația se închide.", 503)
@@ -93,7 +95,7 @@ class ReportGenerationService:
             return self.generation(session, job["jobId"])
 
     def _prune_cancelled(self) -> None:
-        pending = deque()
+        pending: deque[tuple[ConversationService, SessionOperation, int]] = deque()
         for item in self._pending:
             try:
                 self.store.checkpoint(item[1])
@@ -131,7 +133,7 @@ class ReportGenerationService:
             self._run(conversation, operation, min_score)
 
     def _run(
-        self, conversation: ConversationService, operation: SessionOperation, min_score: float
+        self, conversation: ConversationService, operation: SessionOperation, min_score: int
     ) -> None:
         logger.info("report_job_started job_id=%s", operation.operation_id)
         try:
@@ -153,6 +155,7 @@ class ReportGenerationService:
                     "timeout": "AI_READ_TIMEOUT",
                     "rate_limited": "AI_RATE_LIMITED",
                     "invalid_response": "AI_RESPONSE_INVALID",
+                    "output_limit": "AI_OUTPUT_LIMIT_EXCEEDED",
                     "context_limit": "AI_CONTEXT_LIMIT_EXCEEDED",
                     "model_not_found": "AI_MODEL_NOT_FOUND",
                 }.get(exc.reason, "AI_PROVIDER_UNAVAILABLE")
@@ -178,6 +181,10 @@ class ReportGenerationService:
                     "AI_READ_TIMEOUT": "Furnizorul AI nu a transmis date în timpul alocat. Puteți încerca din nou.",
                     "AI_RATE_LIMITED": "Limita de utilizare a furnizorului AI a fost atinsă. Încercați mai târziu.",
                     "AI_RESPONSE_INVALID": "Răspunsul AI nu a putut fi validat. Puteți încerca din nou.",
+                    "AI_OUTPUT_LIMIT_EXCEEDED": (
+                        "Modelul AI a atins limita de tokeni a răspunsului înainte de finalizarea raportului. "
+                        "Reduceți fragmentele selectate sau alegeți alt model."
+                    ),
                     "AI_MODEL_NOT_FOUND": (
                         "Modelul Ollama selectat nu este instalat sau nu este disponibil. "
                         "Verificați modelul în Ollama sau alegeți alt model."

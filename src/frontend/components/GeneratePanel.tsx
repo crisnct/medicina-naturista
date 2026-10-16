@@ -3,6 +3,7 @@ import type { FragmentItem, GenerateMessage, ReportModel } from "../api/types";
 import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
 import { TypingIndicator } from "./TypingIndicator";
 import { GenerationStreamPreview } from "./GenerationStreamPreview";
+import { GenerationDurationEstimate } from "./GenerationDurationEstimate";
 import { DoctorAvatar } from "./DoctorAvatar";
 import { AI_ACTIVITY_LABELS, type GenerationFeedback } from "../lib/generationFeedback";
 
@@ -12,6 +13,7 @@ export function GeneratePanel({
   onGenerate,
   reportModels = ["ollama-gemma4:12b", "ollama-gemma3:1b", "ollama-qwen3.5:9b", "ollama-qwen3.5:4b", "ollama-ministral-3:8b"],
   defaultReportModel,
+  allowedReportModels = reportModels.filter((option) => option.startsWith("ollama-")),
   actionsDisabled = false,
   feedback,
 }: {
@@ -22,6 +24,7 @@ export function GeneratePanel({
   onGenerate: (searchId: string, minScore: number, model: ReportModel) => void;
   reportModels?: ReportModel[];
   defaultReportModel?: ReportModel;
+  allowedReportModels?: ReportModel[];
   actionsDisabled?: boolean;
   feedback?: GenerationFeedback;
 }) {
@@ -39,7 +42,8 @@ export function GeneratePanel({
   );
   const noneReach = eligibleCount === 0;
   const noModels = reportModels.length === 0;
-  const disabled = message.busy || noneReach || actionsDisabled || noModels;
+  const modelRestricted = !noModels && !allowedReportModels.includes(selectedModel);
+  const disabled = message.busy || noneReach || actionsDisabled || noModels || modelRestricted;
   const hasAnswer = Boolean(feedback?.streamPreview);
   const hasPreview = hasAnswer || Boolean(feedback?.thinkingPreview);
 
@@ -82,6 +86,11 @@ export function GeneratePanel({
               </select>
             </label>
           </div>
+          {modelRestricted && (
+            <p className="generate-recipe-warning" role="status">
+              Acest model AI poate fi accesat doar de autorul platformei.
+            </p>
+          )}
         </div>
         <div className="generate-report-row">
           <div className="generate-report-status">
@@ -93,6 +102,11 @@ export function GeneratePanel({
             <p className="eligible-count">
               Număr total caractere: {eligibleCharacters === undefined ? "numărul va fi verificat la generare" : <strong>{eligibleCharacters.toLocaleString("ro-RO")}</strong>}
             </p>
+            <GenerationDurationEstimate
+              model={selectedModel}
+              characters={eligibleCharacters}
+              refreshKey={feedback?.terminal ? feedback.generationId : undefined}
+            />
           </div>
           <button
             type="button"
@@ -132,7 +146,7 @@ export function GeneratePanel({
           <GenerationStreamPreview
             text={hasAnswer ? feedback?.streamPreview : feedback?.thinkingPreview}
             tokensPerSecond={hasAnswer ? feedback?.streamTokensPerSecond : feedback?.thinkingTokensPerSecond}
-            title={hasAnswer ? "Ultimul fragment primit de la AI" : "Analiza modelului AI"}
+            title={hasAnswer ? "AI generează răspunsul" : "Analiza modelului AI"}
             label={hasAnswer ? "Textul primit de la AI" : "Analiza transmisă de modelul AI"}
             placeholder={feedback?.aiActivity ? AI_ACTIVITY_LABELS[feedback.aiActivity.phase] : "Aștept primul semnal de la model…"}
             activityAgeMs={message.busy ? feedback?.aiActivity?.lastActivityAgeMs : undefined}

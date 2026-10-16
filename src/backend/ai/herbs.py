@@ -7,11 +7,11 @@ from __future__ import annotations
 
 import json
 import logging
-import re
 from collections.abc import Sequence
 from dataclasses import dataclass
 
 from backend.ai.conditions import _normalize
+from backend.ai.romanian_inflections import word_variants
 
 logger = logging.getLogger("naturist.herbs")
 
@@ -113,19 +113,32 @@ class HerbCatalog:
         self._by_latin: dict[str, Herb] = {}
         # normalized name of any kind -> species carrying it, in catalogue order
         self._by_name: dict[str, list[Herb]] = {}
+        romanian_names: set[str] = set()
         for herb in herbs:
+            romanian_names.update(_normalize(name) for name in (herb.ro, *herb.ro_regional))
             for latin in (herb.latin, *herb.latin_synonyms):
                 self._by_latin.setdefault(_normalize(latin), herb)
             for name in herb.names:
                 owners = self._by_name.setdefault(_normalize(name), [])
                 if herb not in owners:
                     owners.append(herb)
-        names = sorted(self._by_name, key=lambda name: (-len(name), name))
-        self._mentions = (
-            re.compile(r"\b(" + "|".join(re.escape(name) for name in names) + r")(?:ului|ul)?\b")
-            if names
-            else None
+        variants = word_variants(
+            frozenset(word for name in romanian_names for word in name.split())
         )
+        # Expand Romanian names word by word; Latin and English stay exact.
+        # There is no Cartesian product of multiword names and no fuzzy spelling.
+        self._phrases: dict[str, list[tuple[str, tuple[frozenset[str], ...]]]] = {}
+        for name in sorted(self._by_name):
+            phrase = tuple(
+                variants[word] if name in romanian_names else frozenset((word,))
+                for word in name.split()
+            )
+            if not phrase:
+                continue
+            for first in phrase[0]:
+                self._phrases.setdefault(first, []).append((name, phrase))
+        for phrases in self._phrases.values():
+            phrases.sort(key=lambda item: -len(item[1]))
 
     def by_id(self, herb_id: int) -> Herb | None:
         return self._by_id.get(herb_id) if type(herb_id) is int else None
@@ -135,10 +148,35 @@ class HerbCatalog:
         return self._by_latin.get(_normalize(latin))
 
     # Every species that carries `name` as any of its names (case and
-    # diacritics ignored); several when a popular name is shared.
+    # diacritics ignored, Romanian inflections accepted); several when shared.
     def lookup(self, name: str) -> list[Herb]:
         key = _normalize(name)
-        return list(self._by_name.get(key, ())) if key else []
+        if not key:
+            return []
+        if key in self._by_name:
+            return list(self._by_name[key])
+        words = key.split()
+        names, _ = self._matching_names(words, 0, whole=True)
+        owners = {herb.id for term in names for herb in self._by_name[term]}
+        return [herb for herb in self.herbs if herb.id in owners]
+
+    def _matching_names(
+        self, words: list[str], position: int, *, whole: bool = False
+    ) -> tuple[list[str], int]:
+        names: list[str] = []
+        length = 0
+        for name, phrase in self._phrases.get(words[position], ()):
+            size = len(phrase)
+            if length and size < length:
+                break
+            if position + size > len(words) or (whole and size != len(words)):
+                continue
+            if all(words[position + offset] in forms for offset, forms in enumerate(phrase)):
+                names.append(name)
+                length = size
+        # A literal name takes precedence over another name's inflection.
+        exact = " ".join(words[position : position + length])
+        return ([exact] if exact in names else names), length
 
     def selected_choice(self, message: str, choices: Sequence[str]) -> Herb | None:
         allowed = {_normalize(choice) for choice in choices}
@@ -149,14 +187,19 @@ class HerbCatalog:
             if _normalize(herb.choice) in allowed
             and reply in {_normalize(herb.choice), _normalize(herb.ro), _normalize(herb.latin)}
         ]
+        if not matches:
+            matches = [herb for herb in self.lookup(message) if _normalize(herb.choice) in allowed]
         return matches[0] if len(matches) == 1 else None
 
     def mentioned_names(self, message: str) -> list[str]:
-        if self._mentions is None:
-            return []
-        return list(
-            dict.fromkeys(match.group(1) for match in self._mentions.finditer(_normalize(message)))
-        )
+        words = _normalize(message).split()
+        names: dict[str, None] = {}
+        position = 0
+        while position < len(words):
+            matched, length = self._matching_names(words, position)
+            names.update(dict.fromkeys(matched))
+            position += length or 1
+        return list(names)
 
     def mentions(self, message: str) -> list[Herb]:
         """Catalog names in free text, with word boundaries and longest names first."""
