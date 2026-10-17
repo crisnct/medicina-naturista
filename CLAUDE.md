@@ -167,9 +167,4 @@ baseline, and say plainly that synthetic rankings validate the metric mechanism,
 
 ## Commits
 
-Conventional-commit style is used for recent substantive work (`feat:`, `fix:`, optionally scoped:
-`fix(herbs): …`), with a short bullet body for multi-part changes. End commit messages with:
-
-```
-Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>
-```
+You are not allowed to commit any files to git

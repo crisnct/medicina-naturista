@@ -3,6 +3,23 @@
 One model, one dimension, two backends. Everything that depends on the model is
 concentrated in `backend/ai/embedding_model.py`; keep it that way.
 
+## Two general rules that bite harder here
+
+Read [python-development.md](python-development.md) for the project's stack and coding
+standards. Two of them need a sharper reading in embedding code:
+
+- **No placeholders, ever.** A partially implemented embedding path does not fail loudly
+  — it produces vectors that are subtly wrong and silently poisons the whole index. There
+  is no "finish it next commit" here; incomplete work gets reported, not committed.
+- **No blocking calls inside async code.** Embedding is CPU-bound and blocking. It is
+  never awaited directly: the web app reaches it through `asyncio.to_thread` (see the
+  search warm-up in `web/main.py`), and index builds run in their own processes.
+
+Also note that **torch is deliberately absent from the runtime image and its lock.** The
+CUDA path exists only in the operator's `.venv-gpu`, and `CudaEmbedding` imports torch
+lazily so the web app and its container never need it. Do not add torch to the runtime
+dependencies to make a test or a type-check easier.
+
 ## The model
 
 `Qwen/Qwen3-Embedding-0.6B`, 1024 dimensions, unit-normalised vectors. It is the only
@@ -86,6 +103,36 @@ regression. Metrics reported: Recall@50, nDCG@10 with grades 0–3, irrelevant-i
 unlabelled-in-top-10, warning coverage in top 50.
 
 None of this is clinical validation. Do not describe it as such.
+
+## Failing loudly
+
+Embedding bugs are quiet by nature, so this layer is deliberately intolerant:
+
+- `get_profile()` raises on an unknown model rather than guessing a dimension.
+- `CudaEmbedding` refuses to fall back to CPU when CUDA is missing — a silent fallback
+  turns a 20-minute build into an all-night one.
+- `create_embedding_model()` validates the profile *before* loading anything.
+- `ensure_schema()` raises `INDEX_DIMENSION_CHANGE_REQUIRES_SYNC` rather than altering a
+  vector column behind the synchronizer's back.
+- A reader whose index metadata does not match raises `IndexUnavailable`
+  (`INDEX_RESYNC_REQUIRED`) instead of serving mismatched vectors.
+
+Preserve this when extending the module: validate up front, raise a specific exception
+with an actionable message, and never degrade silently into a configuration that produces
+plausible-looking but wrong vectors. Catch specific exception types — the one broad
+`except (OSError, ValueError, TypeError)` in the metadata normaliser is scoped on purpose,
+because a cache-metadata quirk must not block startup.
+
+## Testing embedding code
+
+Unit tests must not download or load the real model, hit a GPU, or touch the network —
+`HF_HUB_OFFLINE=1` is set in CI and the tests stub the backend. Test the pure parts
+directly: profile lookup and its failure mode, window boundaries and overlap arithmetic,
+the context line, query vs passage templating, and vector averaging. Integration tests
+use deterministic fake vectors of the right dimension (`get_profile(...).dimension`)
+against the ephemeral pgvector fixture, so the SQL and the atomic publication are
+exercised without the model. Keep any test that needs the real model or the personal
+corpus behind `RUN_LOCAL_CORPUS_TESTS=1`.
 
 ## Index builds
 

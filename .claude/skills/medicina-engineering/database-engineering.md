@@ -4,6 +4,31 @@ PostgreSQL 16 with `pgvector` and `unaccent`, accessed through psycopg 3 and
 `psycopg_pool`. No ORM: SQL is written out, parameterised, and lives next to the code that
 owns it.
 
+## No ORM — on purpose
+
+Conventional Python guidance reaches for SQLAlchemy + Alembic on any SQL project.
+**This project deliberately uses neither**, and migrating the data layer toward them is a
+structural change needing explicit approval, not a refactor to slip into another task.
+
+The reasons are concrete, not stylistic:
+
+- **Atomic index publication.** Documents, chunks, embeddings and `sync_metadata` are
+  published in one transaction under an advisory lock, including a possible change to the
+  `vector(N)` column width. Alembic's model is "migrations own the schema"; here the index
+  synchronizer owns part of it, and the two must not race.
+- **The scoring query.** Ranking is a single hand-built SQL statement with CTEs,
+  `percentile_cont`, a pgvector distance operator and a window function, assembled from
+  fragments according to which signals are enabled. An ORM would obscure the one query
+  whose exact shape determines retrieval quality.
+- **pgvector type registration.** The pool registers the `vector` adapter on connection
+  open, which constrains bootstrap ordering in ways an ORM layer would hide.
+
+What dropping the ORM does **not** excuse, and is already the practice here:
+parameterised SQL only, the repository pattern in the adapter layer (`persistence/`,
+`ai/*_repository.py`) with Protocols declared in `core/`, context-managed connection
+lifetime, explicitly configured pooling, and migrations that run as a deliberate step —
+never during a Docker build.
+
 ## The schema
 
 `documents` (one row per corpus file, SHA-256 + mtime for incremental sync) and `chunks`
@@ -58,8 +83,24 @@ is the reference for the expected density of both.
   `scripts/bootstrap_database.py`), `%s` placeholders for values. No f-string SQL.
 - **The pool is process-wide and lazy** (`get_pool()`), `min_size=1, max_size=5`, with
   `close_pool()` for tests that repoint at another database.
+- **Connections are always context-managed** (`with pool.connection(...)`,
+  `with connection.transaction()`). A connection or transaction that can escape its
+  `with` block is a defect — under one worker, a leaked connection exhausts a pool of 5.
 - Repositories are frozen dataclasses taking a `Callable[[], ConnectionPool]`, exposing a
   Protocol defined in `core/`. Keep SQL out of `core/`.
+- **Never hold a database connection across a session lock, an AI call, or any other
+  slow boundary.** The lock rule (registry → session, no external I/O under a lock)
+  applies to database I/O as much as to HTTP.
+
+## Security
+
+Parameterise everything; no f-string SQL, ever. Use `psycopg.sql.Identifier`/`SQL`
+composition when an identifier genuinely must be dynamic (`scripts/bootstrap_database.py`
+is the only legitimate case so far). Credentials reach the database layer only through
+`Settings.database_url` / `database_bootstrap_url`, both `repr=False` so they cannot leak
+into a log line or exception repr — keep them out of error messages you write by hand,
+and surface database failures to users as an `ApplicationError` code, never as the driver
+message.
 
 ## Atomic index publication
 

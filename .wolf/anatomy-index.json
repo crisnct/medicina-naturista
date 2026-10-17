@@ -1,31 +1,31 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-17T06:20:00.420Z",
-    "fileCount": 4,
+    "lastScanned": "2026-10-17T07:23:00.132Z",
+    "fileCount": 9,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "04b55091fa5eab01610fe32a2e5704cdd80b90f995f4d73ff9f593d00ee4290b",
-    "storeUpdatedAt": "2026-10-17T06:20:00.433Z",
-    "rootHash": "f03a3a9b516d2e8e"
+    "renderedHash": "3b74e60229556f03a47774ff8a70788d0766cb316dbe83a336a20ce837edaae4",
+    "storeUpdatedAt": "2026-10-17T07:23:00.142Z",
+    "rootHash": "4996a5ac12b8e141"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
       "description": "Senior Python developer — database expert",
-      "tokens": 1369,
-      "hash": "c4c72f1c21835974",
-      "size": 5499,
-      "mtimeMs": 1792217884525.3306,
-      "updatedAt": "2026-10-17T06:18:04.896Z",
+      "tokens": 1994,
+      "hash": "e5898bd416d920e2",
+      "size": 8011,
+      "mtimeMs": 1792219340050.8037,
+      "updatedAt": "2026-10-17T06:42:20.359Z",
       "source": "hook"
     },
     ".claude/skills/medicina-engineering/embeddings-engineering.md": {
       "description": "Senior Python developer — embeddings specialist",
-      "tokens": 1315,
-      "hash": "3d7beafa2f9a8de0",
-      "size": 5280,
-      "mtimeMs": 1792217912586.2795,
-      "updatedAt": "2026-10-17T06:18:32.897Z",
+      "tokens": 2009,
+      "hash": "67164648901adb42",
+      "size": 8064,
+      "mtimeMs": 1792219352776.692,
+      "updatedAt": "2026-10-17T06:42:33.100Z",
       "source": "hook"
     },
     ".claude/skills/medicina-engineering/devops-docker-ci.md": {
@@ -44,6 +44,51 @@
       "size": 9157,
       "mtimeMs": 1792218000093.0757,
       "updatedAt": "2026-10-17T06:20:00.419Z",
+      "source": "hook"
+    },
+    ".claude/skills/medicina-engineering/python-development.md": {
+      "description": "Senior Python developer — general development",
+      "tokens": 2901,
+      "hash": "e0b3af7b08fff3be",
+      "size": 11642,
+      "mtimeMs": 1792219325486.8372,
+      "updatedAt": "2026-10-17T06:42:05.856Z",
+      "source": "hook"
+    },
+    ".claude/skills/medicina-engineering/SKILL.md": {
+      "description": "Engineering roles for medicina-naturista",
+      "tokens": 1425,
+      "hash": "8fdea78f2192cb87",
+      "size": 5714,
+      "mtimeMs": 1792221625465.9773,
+      "updatedAt": "2026-10-17T07:20:25.815Z",
+      "source": "hook"
+    },
+    ".claude/skills/medicina-engineering/xmind-architecture.md": {
+      "description": "Senior architect — the architecture diagrams",
+      "tokens": 849,
+      "hash": "e07acef22198780f",
+      "size": 3438,
+      "mtimeMs": 1792221482620.2454,
+      "updatedAt": "2026-10-17T07:18:02.982Z",
+      "source": "hook"
+    },
+    ".claude/skills/medicina-engineering/xmind.md": {
+      "description": "XMind 8 — file format and editing",
+      "tokens": 1060,
+      "hash": "a08efa0497e62218",
+      "size": 4260,
+      "mtimeMs": 1792221630995.1677,
+      "updatedAt": "2026-10-17T07:20:31.365Z",
+      "source": "hook"
+    },
+    ".claude/skills/medicina-engineering/architecture.md": {
+      "description": "Senior architect — architecture documentation",
+      "tokens": 2136,
+      "hash": "787f1cde606e0df4",
+      "size": 8612,
+      "mtimeMs": 1792221779787.569,
+      "updatedAt": "2026-10-17T07:23:00.131Z",
       "source": "hook"
     }
   },
