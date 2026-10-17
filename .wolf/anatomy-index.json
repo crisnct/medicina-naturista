@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "meta": {
+    "lastScanned": "2026-10-17T06:20:00.420Z",
+    "fileCount": 4,
+    "hits": 0,
+    "misses": 0,
+    "renderedHash": "04b55091fa5eab01610fe32a2e5704cdd80b90f995f4d73ff9f593d00ee4290b",
+    "storeUpdatedAt": "2026-10-17T06:20:00.433Z",
+    "rootHash": "f03a3a9b516d2e8e"
+  },
+  "files": {
+    ".claude/skills/medicina-engineering/database-engineering.md": {
+      "description": "Senior Python developer — database expert",
+      "tokens": 1369,
+      "hash": "c4c72f1c21835974",
+      "size": 5499,
+      "mtimeMs": 1792217884525.3306,
+      "updatedAt": "2026-10-17T06:18:04.896Z",
+      "source": "hook"
+    },
+    ".claude/skills/medicina-engineering/embeddings-engineering.md": {
+      "description": "Senior Python developer — embeddings specialist",
+      "tokens": 1315,
+      "hash": "3d7beafa2f9a8de0",
+      "size": 5280,
+      "mtimeMs": 1792217912586.2795,
+      "updatedAt": "2026-10-17T06:18:32.897Z",
+      "source": "hook"
+    },
+    ".claude/skills/medicina-engineering/devops-docker-ci.md": {
+      "description": "DevOps engineer — Docker, Compose, GitHub Actions",
+      "tokens": 1254,
+      "hash": "f4ea25a720195693",
+      "size": 5034,
+      "mtimeMs": 1792217945089.666,
+      "updatedAt": "2026-10-17T06:19:05.433Z",
+      "source": "hook"
+    },
+    ".claude/agents/app-tester.md": {
+      "description": "Environment",
+      "tokens": 2280,
+      "hash": "d1800fb6a5216e86",
+      "size": 9157,
+      "mtimeMs": 1792218000093.0757,
+      "updatedAt": "2026-10-17T06:20:00.419Z",
+      "source": "hook"
+    }
+  },
+  "preamble": [
+    "> Project structure index. Auto-maintained by OpenWolf hooks and daemon.",
+    "> Run `openwolf scan` to generate, or wait for the first Claude Code session.",
+    "> Status: Pending initial scan"
+  ]
+}

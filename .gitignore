@@ -151,7 +151,6 @@ activemq-data/
 .env
 .envrc
 .venv
-.claude
 /model_cache/
 env/
 venv/
