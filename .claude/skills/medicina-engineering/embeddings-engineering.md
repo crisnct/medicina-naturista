@@ -123,16 +123,19 @@ plausible-looking but wrong vectors. Catch specific exception types — the one 
 `except (OSError, ValueError, TypeError)` in the metadata normaliser is scoped on purpose,
 because a cache-metadata quirk must not block startup.
 
-## Testing embedding code
+## Keeping it testable
 
-Unit tests must not download or load the real model, hit a GPU, or touch the network —
-`HF_HUB_OFFLINE=1` is set in CI and the tests stub the backend. Test the pure parts
-directly: profile lookup and its failure mode, window boundaries and overlap arithmetic,
-the context line, query vs passage templating, and vector averaging. Integration tests
-use deterministic fake vectors of the right dimension (`get_profile(...).dimension`)
-against the ephemeral pgvector fixture, so the SQL and the atomic publication are
-exercised without the model. Keep any test that needs the real model or the personal
-corpus behind `RUN_LOCAL_CORPUS_TESTS=1`.
+Tests are written by the **app-tester** agent (`.claude/agents/app-tester.md`). What
+this role owes it: the model-dependent parts stay behind `EmbeddingProfile` and the
+`embed(texts, batch_size, parallel)` interface, so a test can substitute deterministic
+vectors of the right width without loading anything. Window arithmetic, templating and
+averaging stay pure functions, separable from the model that consumes their output.
+Never make the real model, a GPU or network access a precondition for exercising that
+logic.
+
+Retrieval *quality* is measured, not asserted — see the section above. It is the
+app-tester's "retrieval quality" perspective, and it reports deltas against a baseline
+rather than passing or failing.
 
 ## Index builds
 

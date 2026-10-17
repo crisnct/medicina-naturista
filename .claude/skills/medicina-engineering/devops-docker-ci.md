@@ -27,10 +27,16 @@ table must fit or the first search after a restart costs ~0.5 s of disk reads.
 `read_only`. Ports bind to `127.0.0.1` only; the host app port is `8760` because
 7772–7871 is Windows-reserved, while the container stays on 7860.
 
-**Every setting must be listed explicitly in `app.environment`.** Adding a variable to
-`.env` does not pass it to the container — this bites people repeatedly. New settings
+**A setting only reaches the container if it is listed in `app.environment`.** Adding a
+variable to `.env` does not pass it through — this bites people repeatedly. New settings
 land in three places: `Settings.from_env`, `docker-compose.yaml`, and the README's
 configuration table.
+
+The current file is not exhaustive, so do not treat it as the list of supported
+settings: `MAX_CONCURRENT_SEARCHES` and `DEPLOYMENT_PROFILE` are both real settings that
+are **absent** from `app.environment` today (the README says `DEPLOYMENT_PROFILE` must be
+added by hand for a public deployment). If a container is ignoring a setting you believe
+is configured, check this list first.
 
 Ollama runs on the **host**, not in Compose, reached through
 `host.docker.internal:host-gateway`. The Windows server-side tuning noted in the compose
@@ -53,17 +59,23 @@ Five jobs: `static`, `unit`, `integration`, `frontend`, `container`.
 - `static` runs `manage_dependencies --check`, ruff, ruff format --check, then **three**
   mypy invocations — the default config plus two explicit file lists. A file can be
   type-checked in CI and not by a bare `mypy`.
-- `unit` sets `HF_HUB_OFFLINE=1`, runs `pip check`, `unittest discover`, then **named
-  pytest files** (`test_report_validation.py`, `test_report_integrity.py`) because
-  function-style tests are not collected by unittest. Add new ones to that list or they
-  never run. It also runs the synthetic content-metrics evaluation.
-- `integration` uses a `pgvector/pgvector:pg16` service with a health check and
-  `TEST_POSTGRES_URL`; `TESTCONTAINERS_RYUK_DISABLED=true`.
+- `unit`, `integration` and `frontend` run the test suites. Their contents and the rules
+  for adding to them belong to the **app-tester** agent
+  (`.claude/agents/app-tester.md`); as DevOps you own the jobs' environment —
+  `HF_HUB_OFFLINE=1`, `TESTCONTAINERS_RYUK_DISABLED=true`, the
+  `pgvector/pgvector:pg16` service with its health check and `TEST_POSTGRES_URL`, the
+  `pip check` step, Node 22 with an npm cache, and the DejaVu/Liberation font install
+  that PDF rendering needs.
 - `container` builds the image with `PUBLIC_BASE_PATH=/medicina`. Both catalogues ship as
   SQL; documents and the model cache stay operator-owned, so the build needs neither.
 
 CI must keep running on synthetic data only. Nothing in a workflow may require the
 personal corpus, a real API key, or a live model.
+
+**Changing a test job is a shared edit.** The `unit` job names individual pytest files
+because `unittest discover` will not collect function-style tests — removing or
+reordering those lines silently stops tests running. Coordinate with app-tester before
+touching the test steps, and never delete a step to make a build green.
 
 ## Dependency locks
 

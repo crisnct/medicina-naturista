@@ -1,4 +1,27 @@
 {
   "version": 1,
-  "bugs": []
+  "bugs": [
+    {
+      "error_message": "Significant refactor of ruff-format-check.js",
+      "file": ".claude/hooks/ruff-format-check.js",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 20→33 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "js"
+      ],
+      "status": "candidate",
+      "observed_worktree": "C:\\Data\\Workspace\\medicina-naturista",
+      "id": "bug-001",
+      "timestamp": "2026-10-17T07:36:18.364Z",
+      "last_seen": "2026-10-17T07:36:18.364Z",
+      "occurrences": 1,
+      "related_bugs": []
+    }
+  ],
+  "applied_observations": {
+    "b80eaeb1-0949-4e13-80e1-550503f12be5": true
+  },
+  "next_id": 2
 }

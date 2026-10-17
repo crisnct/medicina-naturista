@@ -57,15 +57,16 @@ Say "no issues found" when that is the honest answer.
 **Privacy**
 - Fragment text, AI response text, chat content or email addresses reaching logs,
   metrics or exception messages. `report_generation_metrics` is aggregates only.
-- A test that needs the personal corpus and is not gated on `RUN_LOCAL_CORPUS_TESTS=1`.
 - Corpus files, `.env`, tokens or PDFs added to the repository.
 
-**Tests**
-- A unit test that needs Docker, Postgres, network, `.env` or the real model.
-- A pytest-style (function) test added without adding it to the explicit pytest list in
-  `.github/workflows/ci.yml` — `unittest discover` silently skips it, so it never runs.
-- Integration tests that mutate a database other than the ephemeral fixture.
-- `time.sleep` where an injected clock exists.
+**Tests** — the rules live in `.claude/agents/app-tester.md`, which owns test
+conventions and writes them. As reviewer you still flag two things, because both pass CI
+silently: a change with **no test covering it**, and a test that **cannot actually run**
+(a unit test needing Docker/Postgres/network/`.env`/the real model, a function-style test
+missing from CI's explicit pytest list, an integration test mutating something other than
+the ephemeral fixture, a corpus-dependent test not gated on `RUN_LOCAL_CORPUS_TESTS=1`,
+or `time.sleep` where an injected clock exists). Hand anything deeper to app-tester
+rather than redesigning the suite in review comments.
 
 **Language and comments**
 - English string shown to the user, or Romanian in an identifier, comment or log.

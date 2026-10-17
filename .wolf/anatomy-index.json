@@ -1,67 +1,67 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-17T07:23:00.132Z",
-    "fileCount": 9,
+    "lastScanned": "2026-10-17T07:50:07.944Z",
+    "fileCount": 14,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "3b74e60229556f03a47774ff8a70788d0766cb316dbe83a336a20ce837edaae4",
-    "storeUpdatedAt": "2026-10-17T07:23:00.142Z",
-    "rootHash": "4996a5ac12b8e141"
+    "renderedHash": "e802b5bff9c39462f0e99f0801185e6cfad4a69526cda69163efbac42936f7d1",
+    "storeUpdatedAt": "2026-10-17T07:50:07.959Z",
+    "rootHash": "fdac2ec0d690a539"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
       "description": "Senior Python developer — database expert",
-      "tokens": 1994,
-      "hash": "e5898bd416d920e2",
-      "size": 8011,
-      "mtimeMs": 1792219340050.8037,
-      "updatedAt": "2026-10-17T06:42:20.359Z",
+      "tokens": 2050,
+      "hash": "ebd378b802e25e1d",
+      "size": 8237,
+      "mtimeMs": 1792221998885.9116,
+      "updatedAt": "2026-10-17T07:26:39.240Z",
       "source": "hook"
     },
     ".claude/skills/medicina-engineering/embeddings-engineering.md": {
       "description": "Senior Python developer — embeddings specialist",
-      "tokens": 2009,
-      "hash": "67164648901adb42",
-      "size": 8064,
-      "mtimeMs": 1792219352776.692,
-      "updatedAt": "2026-10-17T06:42:33.100Z",
+      "tokens": 2028,
+      "hash": "9d59fa2f0b13e304",
+      "size": 8141,
+      "mtimeMs": 1792223391315.8943,
+      "updatedAt": "2026-10-17T07:49:51.625Z",
       "source": "hook"
     },
     ".claude/skills/medicina-engineering/devops-docker-ci.md": {
       "description": "DevOps engineer — Docker, Compose, GitHub Actions",
-      "tokens": 1254,
-      "hash": "f4ea25a720195693",
-      "size": 5034,
-      "mtimeMs": 1792217945089.666,
-      "updatedAt": "2026-10-17T06:19:05.433Z",
+      "tokens": 1438,
+      "hash": "7c02c5ef667a959f",
+      "size": 5777,
+      "mtimeMs": 1792223397981.539,
+      "updatedAt": "2026-10-17T07:49:58.309Z",
       "source": "hook"
     },
     ".claude/agents/app-tester.md": {
       "description": "Environment",
-      "tokens": 2280,
-      "hash": "d1800fb6a5216e86",
-      "size": 9157,
-      "mtimeMs": 1792218000093.0757,
-      "updatedAt": "2026-10-17T06:20:00.419Z",
+      "tokens": 3390,
+      "hash": "6223897b10ce46f1",
+      "size": 13620,
+      "mtimeMs": 1792223407562.2952,
+      "updatedAt": "2026-10-17T07:50:07.943Z",
       "source": "hook"
     },
     ".claude/skills/medicina-engineering/python-development.md": {
       "description": "Senior Python developer — general development",
-      "tokens": 2901,
-      "hash": "e0b3af7b08fff3be",
-      "size": 11642,
-      "mtimeMs": 1792219325486.8372,
-      "updatedAt": "2026-10-17T06:42:05.856Z",
+      "tokens": 3198,
+      "hash": "da41885244629145",
+      "size": 12837,
+      "mtimeMs": 1792223175222.9849,
+      "updatedAt": "2026-10-17T07:46:15.541Z",
       "source": "hook"
     },
     ".claude/skills/medicina-engineering/SKILL.md": {
       "description": "Engineering roles for medicina-naturista",
-      "tokens": 1425,
-      "hash": "8fdea78f2192cb87",
-      "size": 5714,
-      "mtimeMs": 1792221625465.9773,
-      "updatedAt": "2026-10-17T07:20:25.815Z",
+      "tokens": 971,
+      "hash": "2a4040614a6af32d",
+      "size": 3903,
+      "mtimeMs": 1792223385839.301,
+      "updatedAt": "2026-10-17T07:49:46.162Z",
       "source": "hook"
     },
     ".claude/skills/medicina-engineering/xmind-architecture.md": {
@@ -90,6 +90,83 @@
       "mtimeMs": 1792221779787.569,
       "updatedAt": "2026-10-17T07:23:00.131Z",
       "source": "hook"
+    },
+    ".claude/skills/medicina-engineering/python-code-review.md": {
+      "description": "Senior Python lead — code review",
+      "tokens": 1076,
+      "hash": "f1901206efee475c",
+      "size": 4327,
+      "mtimeMs": 1792222028645.782,
+      "updatedAt": "2026-10-17T07:27:08.962Z",
+      "source": "hook"
+    },
+    ".claude/hooks/block-git-commit.js": {
+      "description": "PreToolUse(Bash) guard: refuse any command that would create a commit or",
+      "tokens": 785,
+      "hash": "216cc8cab9b8dcb0",
+      "size": 2751,
+      "mtimeMs": 1792222160088.245,
+      "updatedAt": "2026-10-17T07:29:20.474Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "findBlocked",
+          "kind": "fn",
+          "startLine": 49,
+          "endLine": 77,
+          "tokens": 267
+        }
+      ]
+    },
+    ".claude/hooks/README.md": {
+      "description": "Project documentation",
+      "tokens": 855,
+      "hash": "474aa9ea9b3322ca",
+      "size": 3435,
+      "mtimeMs": 1792222646458.2073,
+      "updatedAt": "2026-10-17T07:37:26.872Z",
+      "source": "hook"
+    },
+    ".claude/skills/medicina-engineering/draw-io.md": {
+      "description": "draw.io diagrams",
+      "tokens": 920,
+      "hash": "9884f50ae7dc1acd",
+      "size": 3692,
+      "mtimeMs": 1792222445497.7505,
+      "updatedAt": "2026-10-17T07:34:05.827Z",
+      "source": "hook"
+    },
+    ".claude/hooks/ruff-format-check.js": {
+      "description": "PostToolUse(Write|Edit|MultiEdit) advisory: after a .py file under src/ is",
+      "tokens": 1154,
+      "hash": "b0d1f3f7a87d313a",
+      "size": 4049,
+      "mtimeMs": 1792222577929.7092,
+      "updatedAt": "2026-10-17T07:36:18.331Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 28,
+          "endLine": 73,
+          "tokens": 536
+        },
+        {
+          "name": "findRuff",
+          "kind": "fn",
+          "startLine": 74,
+          "endLine": 101,
+          "tokens": 246
+        },
+        {
+          "name": "run",
+          "kind": "fn",
+          "startLine": 102,
+          "endLine": 116,
+          "tokens": 126
+        }
+      ]
     }
   },
   "preamble": [

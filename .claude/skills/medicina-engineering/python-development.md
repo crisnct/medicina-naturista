@@ -117,8 +117,12 @@ and the user gets a sentence they can act on.
 `naturist.retrieval`, `naturist.condition_ai`, `naturist.classification`,
 `naturist.herbs`. Reuse an existing name rather than inventing a parallel one.
 
-`print()` is for operator CLIs in `src/scripts/` only (progress output is part of their
-interface). It does not belong in `backend/`.
+`print()` is for CLI output, where it is the interface: the operator scripts in
+`src/scripts/`, and the `main()` entrypoints inside `backend/` that `pyproject.toml`
+declares as console scripts (`medical-search = "backend.ai.search:main"` prints its
+results and its `--json` payload to stdout). Everywhere else — request handling,
+services, repositories, anything reachable from the web app — use the logger. Do not
+"fix" a CLI's prints into log calls.
 
 Never log fragment text, AI response text, chat content, email addresses or keys.
 `LOG_FRAGMENT_TEXT` and `LOG_AI_RESPONSE_TEXT` gate the diagnostic cases and must be off
@@ -184,17 +188,32 @@ All environment reading happens in `Settings.from_env`. Add the field, its defau
 container. Tests construct `Settings(...)` directly or pass a mapping; they never load
 `.env`.
 
-## Tests you must write
+## Tests
 
-Unit tests go in `src/tests/unit/<area>/`, use `unittest.TestCase`, and must run with **no**
-Docker, Postgres, `.env`, corpus or network. Deterministic clocks are injected
-(`SessionStore(..., clock=lambda: self.now)`) — follow that instead of sleeping. If you add
-a function-style (pytest) test, add it to the explicit pytest list in CI, because
-`unittest discover` will not collect it.
+Writing tests is the **app-tester** agent's job (`.claude/agents/app-tester.md`) — it
+owns test placement, conventions, fixtures and the CI collection rules. Delegate to it
+rather than improvising a test file here.
 
-Integration tests use `tests/support/postgres.py` (one ephemeral pgvector container per
-module, `reset()` between tests). Anything touching the personal corpus must be gated on
-`RUN_LOCAL_CORPUS_TESTS=1`.
+Two things that constrain how you write *application* code, though: keep logic testable
+without infrastructure by putting pure computation in `core/` (the way
+`estimate_duration_from_totals` holds the arithmetic while `persistence/` holds the
+aggregation SQL), and inject collaborators — clocks, pools, Protocol-typed ports —
+rather than reaching for globals. Code that can only be tested with a live database or a
+real provider is code that will not get tested.
+
+## Hooks on your edits
+
+Writing a `.py` file under `src/` triggers a `PostToolUse` hook that runs
+`ruff format --check` and `ruff check` on that file. A failure comes back immediately
+with the ruff output and the fix commands — act on it before moving on, and re-read the
+file afterwards, because reformatting may have shifted the lines you were editing. The
+hook is silent when ruff is not installed, so a clean turn does not prove the file is
+formatted; the CI `static` job is the real gate.
+
+Commits are blocked by a second hook: `git commit`, `merge`, `revert`, `cherry-pick`,
+`am`, `rebase` and `push` are refused, because committing is the user's decision.
+Finish the work in the working tree and report it. `status`, `diff`, `log` and `add`
+are unaffected. See `.claude/hooks/README.md`.
 
 ## Before you say it works
 

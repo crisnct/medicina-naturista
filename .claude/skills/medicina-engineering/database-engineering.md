@@ -128,14 +128,17 @@ changing the candidate pool changes scores for unchanged documents; and the weig
 signal combination are deliberate, not arbitrary. Measure before and after with
 `scripts/evaluate_retrieval.py --content` against a labelled baseline.
 
-## Testing database code
+## Keeping it testable
 
-`tests/support/postgres.py` starts one `pgvector/pgvector:pg16` container per **module**
-(`setUpModule`/`tearDownModule`) and calls `reset()` between tests — per-test containers
-are too slow. `TEST_POSTGRES_URL` may only point at a disposable database; the fixture
-rewrites its schema and data. Integration tests run migrations through the real
-`migrate()`, so a broken migration fails there.
+Tests are written by the **app-tester** agent (`.claude/agents/app-tester.md`), which
+owns the Postgres fixture and the integration conventions. What this role owes it:
 
-Unit tests must not reach a database. If logic needs testing without one, push it into a
-pure function (`estimate_duration_from_totals` is the pattern: arithmetic in `core`,
-aggregation SQL in `persistence`).
+- **Keep pure logic out of SQL.** `estimate_duration_from_totals` is the pattern —
+  arithmetic in `core/`, aggregation SQL in `persistence/`. Computation buried in a
+  query can only be tested with a live database.
+- **Repositories take an injectable pool** (`Callable[[], ConnectionPool]`) and satisfy
+  a Protocol declared in `core/`, so callers can be tested against a fake.
+- **`close_pool()` exists for tests** that repoint `db.settings` at another database.
+  Do not add module-level state that survives it.
+- **Every migration must be runnable from scratch**, in order, against an empty
+  database — that is exactly what the integration fixture does.
