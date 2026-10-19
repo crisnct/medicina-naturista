@@ -48,8 +48,9 @@ def recommendation_labels(sections: dict[str, list[dict[str, Any]]]) -> list[str
 def rank_pdf_recommendations(
     sections: dict[str, list[dict[str, Any]]],
     herb_scores: Mapping[str, int],
+    evidence: Mapping[str, Any],
 ) -> dict[str, list[dict[str, Any]]]:
-    """Stable score sort after relevance ordering; leave input and nutrition intact."""
+    """Rank by distinct cited fragments; keep X for display and relevance for ties."""
     ordered = {}
     for key, items in sections.items():
         if key not in HERB_SECTIONS:
@@ -59,5 +60,10 @@ def rank_pdf_recommendations(
             {**item, BENEFIT_COUNT: herb_scores.get(split_recommendation(item["text"])[0], 0)}
             for item in items
         ]
-        ordered[key] = sorted(scored, key=lambda item: -item[BENEFIT_COUNT])
+        ordered[key] = sorted(
+            scored,
+            key=lambda item: (
+                -len({token for token in item.get("evidence_ids", []) if token in evidence})
+            ),
+        )
     return ordered

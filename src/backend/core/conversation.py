@@ -13,7 +13,7 @@ from typing import Any
 
 from backend.ai.categories import category_selection
 from backend.ai.client import AIUnavailable
-from backend.ai.condition_ai import resolved_for
+from backend.ai.condition_ai import catalog_condition_names, resolved_for
 from backend.ai.conditions import ResolvedQuery, _normalize, resolve_query
 from backend.ai.message_classification import MessageClassification
 from backend.ai.report_validation import ValidatedReport, validate_report
@@ -937,7 +937,7 @@ class ConversationService:
                     try:
                         metrics_id = self.record_report_metrics(
                             ReportMetrics(
-                                medical_condition=profile["health_problem"],
+                                medical_condition=", ".join(catalog_condition_names(profile)),
                                 min_score=min_score,
                                 characters=characters,
                                 ai_model=self.report_model_choice,

@@ -33,7 +33,7 @@ class ReportingAssetTests(unittest.TestCase):
         for page in PdfReader(BytesIO(report)).pages:
             page.extract_text(visitor_text=collect)
 
-        labels = [font for text, font in fragments if text == "● (0) Vitamina B6 (piridoxina):"]
+        labels = [font for text, font in fragments if text == "● Vitamina B6 (piridoxina):"]
         descriptions = [font for text, font in fragments if text == "Descriere documentată."]
         self.assertEqual(len(labels), 4)
         self.assertEqual(len(descriptions), 4)

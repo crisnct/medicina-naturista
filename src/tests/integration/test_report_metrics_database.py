@@ -10,6 +10,7 @@ from backend.ai import db
 from backend.core.report_metrics import ReportMetrics
 from backend.persistence.report_metrics import PostgresReportMetricsRepository
 from scripts.migrate_database import MIGRATIONS, migrate
+from tests.support.conditions import conditions_from_rows, replace_catalog
 from tests.support.postgres import PostgresFixture
 from tests.unit.web import test_web as support
 
@@ -20,6 +21,7 @@ def database():
     fixture.start()
     try:
         with db.get_pool().connection() as conn:
+            replace_catalog(conn, conditions_from_rows("Gripa,flu,influenza\nRaceala,cold\n"))
             conn.execute("TRUNCATE report_generation_metrics RESTART IDENTITY")
             conn.execute((MIGRATIONS / "012_seed_report_generation_metrics.sql").read_text())
         yield fixture._container.get_connection_url()
@@ -43,6 +45,31 @@ def test_migrations_seed_exact_measurements_once(database):
             "FROM report_generation_metrics WHERE medical_condition = 'Gripa' ORDER BY id"
         ).fetchall()
         assert rows == [("Gripa", 50, 53924, *entry) for entry in expected]
+        conn.execute(
+            "INSERT INTO report_generation_metrics "
+            "(medical_condition, min_score, characters, ai_model, ai_effort, duration) "
+            "SELECT 'Remedii naturiste pentru gripă', min_score, characters, ai_model, "
+            "ai_effort, duration FROM report_generation_metrics ORDER BY id LIMIT 2"
+        )
+        measurements = conn.execute(
+            "SELECT id,min_score,characters,ai_model,ai_effort,duration "
+            "FROM report_generation_metrics ORDER BY id"
+        ).fetchall()
+        normalization = (MIGRATIONS / "013_canonical_report_metric_conditions.sql").read_text(
+            encoding="utf-8"
+        )
+        conn.execute(normalization)
+        conn.execute(normalization)
+        assert conn.execute(
+            "SELECT DISTINCT medical_condition FROM report_generation_metrics"
+        ).fetchall() == [("Gripa",)]
+        assert (
+            conn.execute(
+                "SELECT id,min_score,characters,ai_model,ai_effort,duration "
+                "FROM report_generation_metrics ORDER BY id"
+            ).fetchall()
+            == measurements
+        )
 
 
 def test_repository_preserves_unicode_allows_repeated_generations_and_restores_timeout(database):
@@ -88,7 +115,7 @@ def test_background_publication_inserts_real_measurement_once(database):
         sid, tab = "D" * 43, "database-tab01"
         headers = support._headers(sid, tab, True)
         test.client.get("/api/session", headers=headers)
-        messages = support._send(test.client, sid, tab, "Gripa", [])
+        messages = support._send(test.client, sid, tab, "Remedii naturiste pentru gripă", [])
         search = support._by_kind(messages, "generate")["searchId"]
         with db.get_pool().connection() as conn:
             previous_id = conn.execute("SELECT max(id) FROM report_generation_metrics").fetchone()[

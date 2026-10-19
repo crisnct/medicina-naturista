@@ -21,14 +21,14 @@ from backend.core.sessions import SessionStore
 def generation(tmp_path, monkeypatch):
     monkeypatch.setattr(
         "backend.ai.conditions.load_dictionary",
-        lambda: ConditionDictionary([make_condition("Gripă")]),
+        lambda: ConditionDictionary([make_condition("Gripa", ["flu", "influenza"])]),
     )
     now = [100.0]
     config = Settings()
     store = SessionStore(tmp_path, 3600, 14400, config, clock=lambda: now[0])
     session = store.get("synthetic-cookie", "metrics-tab", create=True)
     profile = {
-        "health_problem": "Gripă",
+        "health_problem": "Remedii naturiste pentru gripă",
         "health_context": [],
         "transcript": [],
         "ai_conditions": [],
@@ -112,10 +112,19 @@ def test_success_counts_sent_unicode_evidence_and_times_through_commit(generatio
     h.session.profile.health_problem = "Changed after the search"
     result = h.service.generate(h.session, "search", 50)
     assert not result.cancelled
+    sent = h.service.ai.generate.call_args.args[1]
     h.writer.assert_called_once_with(
-        ReportMetrics("Gripă", 50, len("Șase 🌿"), "ollama-gemma4:12b", "medium", 3250)
+        ReportMetrics(
+            "Gripa",
+            50,
+            sum(len(item["text"]) for item in sent.values()),
+            "ollama-gemma4:12b",
+            "medium",
+            3250,
+        )
     )
-    assert list(h.service.ai.generate.call_args.args[1]) == ["C1"]
+    # Batching now sends every fragment above the threshold, without global truncation.
+    assert list(sent) == ["C1", "C3"]
 
 
 def test_admitted_queue_time_is_excluded_and_unknown_effort_stays_none(generation):
@@ -188,6 +197,14 @@ def test_partial_report_is_measured_and_db_failure_preserves_success(generation,
     assert "report_metrics_persistence_failed job_id=" in caplog.text
     assert "PRIVATE DATA" not in caplog.text
     h.service.ai.generate.assert_called_once()
+    h.writer.reset_mock()
+    h.writer.side_effect = None
+    profile = h.session.searches["search"].profile
+    profile["health_problem"] = "zzzzxxxxx"
+    profile["ai_conditions"] = [{"index": 1, "name": "Outside the catalog", "terms": ["zzzzxxxxx"]}]
+    result = h.service.generate(h.session, "search", 50)
+    assert not result.cancelled and h.session.report_bytes == b"synthetic PDF"
+    h.writer.assert_not_called()
 
 
 @pytest.mark.parametrize("score", [50.5, 50.0, True, "50", -1, 101])

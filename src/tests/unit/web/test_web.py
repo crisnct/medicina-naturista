@@ -343,6 +343,7 @@ class WebTests(unittest.TestCase):
         for text, expected in cases:
             with self.subTest(text=text):
                 self.assertEqual(format_recommendation(text), expected)
+                self.assertEqual(format_recommendation(text, 0), expected)
                 self.assertEqual(format_recommendation(text, 57), expected.replace("● ", "● (57) "))
 
     # Verify that common Romanian diacritics are restored in report titles.
@@ -487,12 +488,20 @@ class WebTests(unittest.TestCase):
         self.assertLess(report.index("O sursa puternica"), report.index("Multe surse slabe"))
         self.assertLess(report.index("Puternic"), report.index("Slab"))
 
+        evidence["C4"] = {
+            "source": "documents/a.md:3-4",
+            "text": "Another fragment of A",
+            "relevance_percent": 20.0,
+        }
         pdf_sections = {
             key: [
                 {"text": "Vitamina B6: cu mușețel în descriere.", "evidence_ids": ["C2"]},
-                {"text": "Infuzie de romaniță: descriere.", "evidence_ids": ["C1"]},
+                {"text": "Infuzie de romaniță: descriere.", "evidence_ids": ["C1", "C4"]},
                 {"text": "Tinctura de soc: descriere.", "evidence_ids": ["C3"]},
-                {"text": "Îngrijire generală.", "evidence_ids": ["C1"]},
+                {
+                    "text": "Îngrijire generală.",
+                    "evidence_ids": ["C1", "C1", "UNKNOWN1", "UNKNOWN2"],
+                },
             ]
             for key in ("uz_intern", "uz_extern", "alte_recomandari", "atentionari")
         }
@@ -512,12 +521,15 @@ class WebTests(unittest.TestCase):
         )
         self.assertEqual(pdf_text.count("● (99) Tinctura de soc:"), 4)
         self.assertEqual(pdf_text.count("● (57) Infuzie de romaniță:"), 4)
-        self.assertEqual(pdf_text.count("● (0) Vitamina B6:"), 4)
-        self.assertEqual(pdf_text.count("● (0) Îngrijire generală."), 4)
-        self.assertLess(pdf_text.index("(99)"), pdf_text.index("(57)"))
-        self.assertLess(pdf_text.index("(57)"), pdf_text.index("(0)"))
+        self.assertEqual(pdf_text.count("● Vitamina B6:"), 4)
+        self.assertEqual(pdf_text.count("● Îngrijire generală."), 4)
+        self.assertNotIn("(0)", pdf_text)
+        self.assertLess(pdf_text.index("(57)"), pdf_text.index("● Vitamina B6:"))
+        self.assertLess(pdf_text.index("● Vitamina B6:"), pdf_text.index("(99)"))
+        self.assertLess(pdf_text.index("Vitamina B6"), pdf_text.index("Îngrijire generală"))
+        self.assertLess(pdf_text.index("Îngrijire generală"), pdf_text.index("Tinctura de soc"))
         self.assertLess(pdf_text.index("Puternic"), pdf_text.index("Slab"))
-        self.assertLess(pdf_text.index("1 - c.md:1-2"), pdf_text.index("2 - a.md:1-2"))
+        self.assertLess(pdf_text.index("1 - a.md:1-2"), pdf_text.index("2 - a.md:3-4"))
         self.assertEqual(pdf_sections, original)
         chat = handlers._recommendation_text(pdf_sections, evidence)
         self.assertLess(chat.index("Vitamina B6"), chat.index("Tinctura de soc"))
@@ -545,9 +557,9 @@ class WebTests(unittest.TestCase):
             [item["text"] for item in ordered["uz_intern"]],
             ["doua surse", "o sursa", "repetat", "fara sursa", "id necunoscut"],
         )
-        # With equal X, all original relevance/source/position tie breakers survive.
+        # Fragment counts are primary; relevance/source/position still resolve ties.
         self.assertEqual(
-            [item["text"] for item in rank_pdf_recommendations(ordered, {})["uz_intern"]],
+            [item["text"] for item in rank_pdf_recommendations(ordered, {}, evidence)["uz_intern"]],
             [item["text"] for item in ordered["uz_intern"]],
         )
         self.assertEqual(recommendation_labels(sections), [])

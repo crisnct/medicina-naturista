@@ -261,3 +261,9 @@ def resolved_for(profile: Any) -> ResolvedQuery:
             getattr(profile, "ai_conditions", ()),
         )
     return with_ai_conditions(resolve_query(" ".join(str(problem or "").split())), answers)
+
+
+def catalog_condition_names(profile: Any) -> tuple[str, ...]:
+    """Keep only exact catalog names, including AI answers mapped through known synonyms."""
+    known_names = {condition.name for condition in conditions.load_dictionary().conditions}
+    return tuple(name for name in resolved_for(profile).condition_names if name in known_names)

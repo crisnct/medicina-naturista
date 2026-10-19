@@ -19,7 +19,7 @@ def web():
     sid, tab = "M" * 43, "metrics-tab01"
     headers = support._headers(sid, tab, True)
     test.client.get("/api/session", headers=headers)
-    messages = support._send(test.client, sid, tab, "Gripa", [])
+    messages = support._send(test.client, sid, tab, "Remedii naturiste pentru gripă", [])
     search = support._by_kind(messages, "generate")["searchId"]
     try:
         yield test, headers, search, writer

@@ -968,7 +968,7 @@ def report_title(profile: dict[str, Any]) -> str:
 def format_recommendation(text: str, benefit_count: int | None = None) -> str:
     """Render a bold bullet and intervention label, including its trailing colon."""
     label, description = split_recommendation(text)
-    bullet = "● " if benefit_count is None else f"● ({benefit_count}) "
+    bullet = f"● ({benefit_count}) " if benefit_count else "● "
     if not label:
         return bullet + escape(description)
     return f"<b>{bullet}{escape(label)}:</b> {escape(description)}"
@@ -1207,7 +1207,7 @@ def create_pdf(
         "atentionari",
     )
     sections = sort_sections_by_relevance(sections, evidence)
-    sections = rank_pdf_recommendations(sections, herb_scores or {})
+    sections = rank_pdf_recommendations(sections, herb_scores or {}, evidence)
     reference_numbers, references = build_reference_index(sections, evidence)
     source_targets: dict[str, str] = {}
 
