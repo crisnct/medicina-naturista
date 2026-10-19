@@ -5,7 +5,11 @@ description: OpenWolf operating protocol for this project. Load when starting mu
 
 # OpenWolf Operating Protocol
 
-You are working in an OpenWolf-managed project. The hooks handle bookkeeping automatically: they maintain `.wolf/anatomy.md` and `.wolf/memory.md` after writes, track reads, and surface anatomy hints when you read files. Do not update those two files manually unless your agent has no OpenWolf hooks installed.
+Read repository-root `AGENTS.md` and `.claude/README.md` for the shared contract and host
+compatibility. This protocol applies to Claude and ChatGPT/Codex. Bookkeeping is automatic
+only when OpenWolf hooks are installed in the current host. Claude's `.claude/settings.json`
+does not establish that for Codex. Never manually update `.wolf/anatomy.md`; use the CLI
+when available. Memory writes require authorization under the current session's rules.
 
 ## Session resume
 
@@ -14,14 +18,16 @@ You are working in an OpenWolf-managed project. The hooks handle bookkeeping aut
 ## File navigation
 
 1. To locate a symbol or file by name, run `openwolf find <query>` first: a ranked shortlist from the index (~1k tokens max), cheaper than grepping the world. For one file's description, size, and symbol line ranges: `openwolf find --file <path>`.
-2. If the description answers your question, skip the full read. For large files, prefer Read with offset/limit; the pre-read hook surfaces the largest sections with line ranges, and `openwolf map` prints a token-budgeted overview of the most important files.
+2. If the description answers your question, skip the full read. For large files, use targeted reads with line ranges. Installed pre-read hooks can surface sections, and `openwolf map` prints a token-budgeted overview.
 3. Never read `.wolf/anatomy.md` whole; it is an index. Grep it only for a single path's line when `find` is unavailable.
-4. If a file is not indexed, search with Grep/Glob. Regenerate the index with `openwolf scan`.
+4. If a file is not indexed or the CLI is unavailable, use `rg` and `rg --files` through
+   the available file or terminal tools. Refresh with `openwolf scan` only when installed.
 
 ## Code generation and learning
 
 1. Before generating code, check `.wolf/cerebrum.md`: respect `## Do-Not-Repeat` (past mistakes), `## Key Learnings`, and `## User Preferences`.
-2. Update cerebrum.md whenever you learn something: a user correction or preference, a project convention not obvious from code, an API surprise, a gotcha that would trip a fresh session. The bar is LOW; a missing entry repeats the discovery next session.
+2. When memory writes are authorized, record user corrections and reusable project facts
+   in cerebrum.md. Do not treat this protocol as permission to override memory restrictions.
 
 ## Bug logging
 
@@ -37,7 +43,10 @@ After fixing any bug, failed test, failed build, or user-reported problem: appen
 
 ## Session end
 
-Before wrapping up: run `/handoff` (or update `.wolf/STATUS.md` by hand), write a one-line session summary to `.wolf/memory.md` (`| HH:MM | description | file(s) | outcome | ~tokens |`), and record any learnings or bugs in cerebrum.md / buglog.json.
+When handoff is requested, follow `.claude/commands/handoff.md`: Claude may use `/handoff`,
+while ChatGPT/Codex may invoke the handoff skill or read the workflow directly. Preserve
+unfinished work. Write session memory or learnings only when authorized; never invent
+hook-maintained entries, session IDs or successful runs.
 
 ## On-demand skills
 

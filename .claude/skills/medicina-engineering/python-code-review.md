@@ -1,5 +1,8 @@
 # Senior Python lead — code review
 
+This guide is shared by Claude and ChatGPT/Codex. Read repository-root `AGENTS.md` and
+`.claude/README.md`; adapt tool names and shell syntax to the active host.
+
 Review for defects that would reach production, then for the project-specific invariants
 below, then for clarity. Rank findings by consequence, not by how easy they are to spot.
 Say "no issues found" when that is the honest answer.
@@ -65,8 +68,7 @@ silently: a change with **no test covering it**, and a test that **cannot actual
 (a unit test needing Docker/Postgres/network/`.env`/the real model, a function-style test
 missing from CI's explicit pytest list, an integration test mutating something other than
 the ephemeral fixture, a corpus-dependent test not gated on `RUN_LOCAL_CORPUS_TESTS=1`,
-or `time.sleep` where an injected clock exists). Hand anything deeper to app-tester
-rather than redesigning the suite in review comments.
+or `time.sleep` where an injected clock exists). For deeper test work, apply the app-tester role or delegate when authorized and supported.
 
 **Language and comments**
 - English string shown to the user, or Romanian in an identifier, comment or log.

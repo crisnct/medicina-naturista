@@ -1,5 +1,8 @@
 # Senior Python developer — general development
 
+This guide is shared by Claude and ChatGPT/Codex. Read repository-root `AGENTS.md` and
+`.claude/README.md`; adapt tool names and shell syntax to the active host.
+
 Python ≥ 3.11, targeting 3.11 (`target-version = "py311"`). Write code that a reviewer
 cannot distinguish from what is already in `src/backend/core/`.
 
@@ -190,9 +193,9 @@ container. Tests construct `Settings(...)` directly or pass a mapping; they neve
 
 ## Tests
 
-Writing tests is the **app-tester** agent's job (`.claude/agents/app-tester.md`) — it
-owns test placement, conventions, fixtures and the CI collection rules. Delegate to it
-rather than improvising a test file here.
+Writing tests is the **app-tester** role's job (`.claude/agents/app-tester.md`) — it
+owns test placement, conventions, fixtures and the CI collection rules. Read and apply that role in the current session. Delegate only when authorized and
+supported; preserve the user's restrictions on new tests.
 
 Two things that constrain how you write *application* code, though: keep logic testable
 without infrastructure by putting pure computation in `core/` (the way
@@ -203,7 +206,10 @@ real provider is code that will not get tested.
 
 ## Hooks on your edits
 
-Writing a `.py` file under `src/` triggers a `PostToolUse` hook that runs
+ChatGPT/Codex follows the same policy and runs the checks explicitly unless equivalent
+hooks are verified installed; see `.claude/hooks/README.md`.
+
+In Claude, writing a `.py` file under `src/` triggers a `PostToolUse` hook that runs
 `ruff format --check` and `ruff check` on that file. A failure comes back immediately
 with the ruff output and the fix commands — act on it before moving on, and re-read the
 file afterwards, because reformatting may have shifted the lines you were editing. The

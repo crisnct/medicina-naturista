@@ -56,7 +56,7 @@ from backend.persistence.report_metrics import PostgresReportMetricsRepository
 from backend.reporting.chat import (
     text as _text,
 )
-from backend.reporting.pdf import create_pdf
+from backend.reporting.service import create_ranked_pdf
 from backend.web.access_logs import OwnerAccessLogFilter
 from backend.web.body_limit import ApiBodyLimitMiddleware
 from backend.web.dependencies import Dependencies
@@ -348,7 +348,7 @@ def _conversation(
     # Bind the effective model now: queued reports must not use a later env default.
     provider = getattr(selected_ai, "provider", None)
     model = getattr(provider, "model", None)
-    render_pdf = deps.pdf or partial(create_pdf, ai_model=model)
+    render_pdf = deps.pdf or partial(create_ranked_pdf, ai_model=model)
     return ConversationService(
         deps.settings,
         deps.store,

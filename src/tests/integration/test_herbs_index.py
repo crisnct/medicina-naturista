@@ -206,6 +206,27 @@ class HerbsIndexDatabaseTests(TestCase):
                 conn.execute("SELECT id,ranking FROM herbs ORDER BY id").fetchall(),
                 [(17, 1), (803, 1)],
             )
+            # PDF scores count live associations, independently of cached ranking
+            # and the number of aliases belonging to a species.
+            conn.execute("UPDATE herbs SET ranking=99")
+            conn.execute("INSERT INTO herbs_benefits(herb_id,medical_condition_id) VALUES (803,2)")
+            conn.execute(
+                "INSERT INTO herb_aliases(herb_id,name,kind) VALUES "
+                "(17,'romanita','ro_regional'), (17,'matricaria recutita','latin_synonyms')"
+            )
+            conn.commit()
+            from backend.ai.herb_repository import (
+                load_herb_benefit_scores,
+                read_herb_benefit_counts,
+            )
+
+            self.assertEqual(read_herb_benefit_counts(conn, [17, 803]), {17: 1, 803: 2})
+            self.assertEqual(
+                load_herb_benefit_scores(
+                    ["Romaniță", "Matricaria recutita", "mușețel", "Vitamina B6"]
+                ),
+                {"Romaniță": 1, "Matricaria recutita": 1, "mușețel": 2, "Vitamina B6": 0},
+            )
 
     def test_last_primary_evidence_removed_with_secondary_conditions_remaining(self):
         with db.get_pool().connection() as conn:

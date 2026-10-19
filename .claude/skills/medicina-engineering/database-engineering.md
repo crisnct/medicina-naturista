@@ -1,5 +1,8 @@
 # Senior Python developer — database expert
 
+This guide is shared by Claude and ChatGPT/Codex. Read repository-root `AGENTS.md` and
+`.claude/README.md`; adapt tool names and shell syntax to the active host.
+
 PostgreSQL 16 with `pgvector` and `unaccent`, accessed through psycopg 3 and
 `psycopg_pool`. No ORM: SQL is written out, parameterised, and lives next to the code that
 owns it.
@@ -130,7 +133,7 @@ signal combination are deliberate, not arbitrary. Measure before and after with
 
 ## Keeping it testable
 
-Tests are written by the **app-tester** agent (`.claude/agents/app-tester.md`), which
+Tests are written by the **app-tester** role (`.claude/agents/app-tester.md`), which
 owns the Postgres fixture and the integration conventions. What this role owes it:
 
 - **Keep pure logic out of SQL.** `estimate_duration_from_totals` is the pattern —

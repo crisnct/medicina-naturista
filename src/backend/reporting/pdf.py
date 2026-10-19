@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import re
+from collections.abc import Mapping
 from html import escape
 from io import BytesIO
 from pathlib import Path
@@ -24,6 +25,11 @@ from reportlab.platypus import (
 
 from backend.ai.conditions import find_conditions, resolve_query
 from backend.ai.report_validation import PARTIAL_NOTICE, ValidatedReport
+from backend.reporting.recommendations import (
+    BENEFIT_COUNT,
+    rank_pdf_recommendations,
+    split_recommendation,
+)
 
 SECTION_KEYS = ("uz_intern", "nutritie", "uz_extern", "alte_recomandari", "atentionari")
 
@@ -959,33 +965,13 @@ def report_title(profile: dict[str, Any]) -> str:
 
 
 # Format the leading intervention or product label for readable PDF output.
-def format_recommendation(text: str) -> str:
+def format_recommendation(text: str, benefit_count: int | None = None) -> str:
     """Render a bold bullet and intervention label, including its trailing colon."""
-    clean = " ".join(str(text or "").split())
-    # Prefer an explicit separator so parentheses remain part of the name and
-    # colons in the description (e.g. "calciu: ...") do not extend the label.
-    match = re.match(
-        r"^(?P<label>.+?)(?P<separator>:\s*|\s+[–—-]\s+)(?P<description>.+)$",
-        clean,
-    )
-    if match:
-        label = match.group("label").strip()
-        description = match.group("description").strip()
-    else:
-        # Compatibility with older reports that omitted the name separator.
-        match = re.match(
-            r"^(?P<label>.{2,160}?)(?P<separator>"
-            r"\s+(?=pentru\b|pulbere\b|administrat\b|preparat\b|"
-            r"se\s+(?:ține|bea|ia|consumă|prepară)\b|"
-            r"(?:½|¼|\d+(?:[.,]\d+)?)\s*(?:linguri?țe?|linguri?|ml|g|capsule?|picături?)\b))",
-            clean,
-            flags=re.IGNORECASE,
-        )
-        if not match:
-            return "● " + escape(clean)
-        label = match.group("label").strip()
-        description = clean[match.end("label") :].strip()
-    return f"<b>● {escape(label)}:</b> {escape(description)}"
+    label, description = split_recommendation(text)
+    bullet = "● " if benefit_count is None else f"● ({benefit_count}) "
+    if not label:
+        return bullet + escape(description)
+    return f"<b>{bullet}{escape(label)}:</b> {escape(description)}"
 
 
 def _compress_reference_numbers(numbers: list[int]) -> str:
@@ -1053,6 +1039,7 @@ def create_pdf(
     min_score: float = 0,
     *,
     ai_model: str | None = None,
+    herb_scores: Mapping[str, int] | None = None,
 ) -> bytes:
     regular, bold = _register_fonts()
     styles = getSampleStyleSheet()
@@ -1220,6 +1207,7 @@ def create_pdf(
         "atentionari",
     )
     sections = sort_sections_by_relevance(sections, evidence)
+    sections = rank_pdf_recommendations(sections, herb_scores or {})
     reference_numbers, references = build_reference_index(sections, evidence)
     source_targets: dict[str, str] = {}
 
@@ -1304,7 +1292,7 @@ def create_pdf(
                 add_recommendation(
                     section_content,
                     key,
-                    format_recommendation(str(item["text"])),
+                    format_recommendation(str(item["text"]), item[BENEFIT_COUNT]),
                     citations_for(item),
                     f"recommendation-{key}-{index}",
                 )

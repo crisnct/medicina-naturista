@@ -3,7 +3,10 @@ description: OpenWolf's design brain — pick/migrate UI frameworks or audit/fix
 argument-hint: [migrate [framework] | audit [target] | fix [target]]
 ---
 
-Arguments: $ARGUMENTS
+Arguments: $ARGUMENTS (Claude), or the user's requested mode and target in ChatGPT/Codex.
+
+Read repository-root `AGENTS.md` and `.claude/README.md`. Follow this workflow with
+the host's available file, shell and browser tools; it does not require a Claude slash command.
 
 Read `.wolf/reframe-frameworks.md` first — it contains the **Design Principles
 (anti-generic mandate)**, the framework knowledge base, and the migration prompts.

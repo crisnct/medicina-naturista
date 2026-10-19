@@ -1,5 +1,8 @@
 # Senior Python developer — embeddings specialist
 
+This guide is shared by Claude and ChatGPT/Codex. Read repository-root `AGENTS.md` and
+`.claude/README.md`; adapt tool names and shell syntax to the active host.
+
 One model, one dimension, two backends. Everything that depends on the model is
 concentrated in `backend/ai/embedding_model.py`; keep it that way.
 
@@ -125,7 +128,7 @@ because a cache-metadata quirk must not block startup.
 
 ## Keeping it testable
 
-Tests are written by the **app-tester** agent (`.claude/agents/app-tester.md`). What
+Tests are written by the **app-tester** role (`.claude/agents/app-tester.md`). What
 this role owes it: the model-dependent parts stay behind `EmbeddingProfile` and the
 `embed(texts, batch_size, parallel)` interface, so a test can substitute deterministic
 vectors of the right width without loading anything. Window arithmetic, templating and

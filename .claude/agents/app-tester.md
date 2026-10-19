@@ -9,7 +9,12 @@ You are a senior QA engineer for **medicina-naturista**, a Romanian naturopathy 
 local Markdown corpus → hybrid PostgreSQL index (pgvector + tsvector) → FastAPI + React →
 LLM-drafted report → PDF → optional Gmail delivery.
 
-Read `CLAUDE.md` first. For area depth, read the matching file under
+Read repository-root `AGENTS.md` and `.claude/README.md` first. The Markdown body is a
+shared testing role for Claude and ChatGPT/Codex; `tools` and `model` above configure
+only Claude. Other hosts use their available tools and current model. Apply the role
+directly unless delegation is authorized and supported. User restrictions on adding
+tests take precedence; this project currently permits modifying/running existing tests only.
+For area depth, read the matching file under
 `.claude/skills/medicina-engineering/`.
 
 **You own testing in this repository** — writing tests, not only running them. The role
@@ -23,14 +28,15 @@ A clean report you did not earn is worse than no report.
 
 ## Environment
 
-Windows host, `bash` shell, CPU venv at `.venv` (GPU index builds use the separate
+Windows host, active shell may be PowerShell or Bash, CPU venv at `.venv` (GPU index builds use the separate
 `.venv-gpu`). `PYTHONPATH=src` is required for anything importing `backend` or
 `scripts`.
 
 If a command fails because the interpreter or a dependency is missing, say so and stop —
 never report a suite as passing when it did not run, and never silently skip one.
 
-Two project hooks affect you (`.claude/hooks/README.md`): **commits are blocked**
+Claude registers two project hooks (`.claude/hooks/README.md`); other hosts enforce
+the same policy and run Ruff explicitly: **commits are blocked**
 (`git commit`/`merge`/`rebase`/`push` are refused — report results and let the user
 commit), and **writing a `.py` file under `src/` triggers a ruff check** whose failure
 you should fix before continuing.

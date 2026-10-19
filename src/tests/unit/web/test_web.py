@@ -43,6 +43,8 @@ from backend.reporting.pdf import (
     generation_summary_lines,
     report_title,
 )
+from backend.reporting.recommendations import rank_pdf_recommendations, recommendation_labels
+from backend.reporting.service import create_ranked_pdf
 from backend.web.dependencies import Dependencies
 from tests.support.conditions import conditions_from_rows
 from tests.support.owners import FakeOwnerRepository
@@ -341,6 +343,7 @@ class WebTests(unittest.TestCase):
         for text, expected in cases:
             with self.subTest(text=text):
                 self.assertEqual(format_recommendation(text), expected)
+                self.assertEqual(format_recommendation(text, 57), expected.replace("● ", "● (57) "))
 
     # Verify that common Romanian diacritics are restored in report titles.
     def test_report_title_restores_common_romanian_diacritics(self):
@@ -484,6 +487,42 @@ class WebTests(unittest.TestCase):
         self.assertLess(report.index("O sursa puternica"), report.index("Multe surse slabe"))
         self.assertLess(report.index("Puternic"), report.index("Slab"))
 
+        pdf_sections = {
+            key: [
+                {"text": "Vitamina B6: cu mușețel în descriere.", "evidence_ids": ["C2"]},
+                {"text": "Infuzie de romaniță: descriere.", "evidence_ids": ["C1"]},
+                {"text": "Tinctura de soc: descriere.", "evidence_ids": ["C3"]},
+                {"text": "Îngrijire generală.", "evidence_ids": ["C1"]},
+            ]
+            for key in ("uz_intern", "uz_extern", "alte_recomandari", "atentionari")
+        }
+        pdf_sections["nutritie"] = sections["nutritie"]
+        original = {key: [dict(item) for item in items] for key, items in pdf_sections.items()}
+        with (
+            patch(
+                "backend.reporting.service.load_herb_benefit_scores",
+                return_value={"Infuzie de romaniță": 57, "Tinctura de soc": 99},
+            ) as scores,
+            patch("backend.reporting.pdf.report_title", return_value="Verificare PDF"),
+        ):
+            data = create_ranked_pdf({"health_problem": ""}, pdf_sections, evidence)
+        scores.assert_called_once_with(["Vitamina B6", "Infuzie de romaniță", "Tinctura de soc"])
+        pdf_text = " ".join(
+            " ".join(page.extract_text() for page in PdfReader(io.BytesIO(data)).pages).split()
+        )
+        self.assertEqual(pdf_text.count("● (99) Tinctura de soc:"), 4)
+        self.assertEqual(pdf_text.count("● (57) Infuzie de romaniță:"), 4)
+        self.assertEqual(pdf_text.count("● (0) Vitamina B6:"), 4)
+        self.assertEqual(pdf_text.count("● (0) Îngrijire generală."), 4)
+        self.assertLess(pdf_text.index("(99)"), pdf_text.index("(57)"))
+        self.assertLess(pdf_text.index("(57)"), pdf_text.index("(0)"))
+        self.assertLess(pdf_text.index("Puternic"), pdf_text.index("Slab"))
+        self.assertLess(pdf_text.index("1 - c.md:1-2"), pdf_text.index("2 - a.md:1-2"))
+        self.assertEqual(pdf_sections, original)
+        chat = handlers._recommendation_text(pdf_sections, evidence)
+        self.assertLess(chat.index("Vitamina B6"), chat.index("Tinctura de soc"))
+        self.assertNotIn("(99)", chat)
+
     # Verify ties on max relevance fall back to source count, then original order; unsourced last.
     def test_relevance_ties_use_source_count_then_original_order(self):
         evidence = {
@@ -506,6 +545,12 @@ class WebTests(unittest.TestCase):
             [item["text"] for item in ordered["uz_intern"]],
             ["doua surse", "o sursa", "repetat", "fara sursa", "id necunoscut"],
         )
+        # With equal X, all original relevance/source/position tie breakers survive.
+        self.assertEqual(
+            [item["text"] for item in rank_pdf_recommendations(ordered, {})["uz_intern"]],
+            [item["text"] for item in ordered["uz_intern"]],
+        )
+        self.assertEqual(recommendation_labels(sections), [])
 
     # Verify nutrition subsections keep their fixed order and recipes are rendered one per line.
     def test_nutrition_subsections_are_ordered_and_recipes_are_split(self):

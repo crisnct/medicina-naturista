@@ -1,5 +1,8 @@
 # XMind 8 — file format and editing
 
+This guide is shared by Claude and ChatGPT/Codex. Read repository-root `AGENTS.md` and
+`.claude/README.md`; adapt tool names and shell syntax to the active host.
+
 How to read and write `.xmind` files in this repository. For *what* a diagram in
 `architecture/` must say and how it is verified, see
 [architecture.md](architecture.md).

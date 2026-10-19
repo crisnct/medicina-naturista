@@ -3,13 +3,14 @@
 from dataclasses import replace
 from types import SimpleNamespace
 from unittest import TestCase
-from unittest.mock import Mock, patch
+from unittest.mock import MagicMock, Mock, patch
 
 import psycopg
 
 from backend.ai import herb_repository as repository
 from backend.ai.herb_validation import catalog_problems, convert_source
 from backend.ai.herbs import load_herbs, parse_herbs
+from backend.ai.index_state import IndexUnavailable
 from backend.config import Settings, configure_settings, settings
 from tests.unit.ai.test_herbs import SAMPLE, line
 
@@ -39,6 +40,49 @@ class RepositoryTests(TestCase):
         self.connection.execute.return_value.fetchall.return_value = rows
         self.assertEqual(repository.read_herbs(self.connection), self.items)
         self.connection.execute.assert_called_once()
+
+        self.connection.execute.reset_mock()
+        herb_ids = [herb.id for herb in self.items]
+        self.connection.execute.return_value.fetchall.return_value = [(herb_ids[1], 57)]
+        self.assertEqual(
+            repository.read_herb_benefit_counts(self.connection, herb_ids * 2), {herb_ids[1]: 57}
+        )
+        self.assertEqual(self.connection.execute.call_args.args[1], (herb_ids,))
+        self.assertEqual(self.connection.execute.call_count, 1)
+        self.assertEqual(repository.read_herb_benefit_counts(self.connection, []), {})
+        self.assertEqual(self.connection.execute.call_count, 1)
+
+        labels = [
+            "Tinctura de MUȘEȚEL",
+            "Infuzie de romaniță",
+            "Matricaria recutita",
+            "wild chamomile",
+            "Mușețel și păducel",
+            "Musetel, romanita, Matricaria recutita",
+            "Piptoporus betulinus",
+            "Vitamina B6",
+            "Inflamație",
+        ]
+        connection = MagicMock()
+        connection.execute.return_value.fetchone.return_value = (True,)
+        with (
+            patch.object(repository.db, "get_pool") as pool,
+            patch.object(repository, "read_herbs", return_value=self.items),
+            patch.object(
+                repository,
+                "read_herb_benefit_counts",
+                return_value={herb_ids[1]: 57, herb_ids[2]: 12, herb_ids[3]: 99},
+            ) as counts,
+        ):
+            pool.return_value.connection.return_value.__enter__.return_value = connection
+            scores = repository.load_herb_benefit_scores(labels + labels)
+        self.assertEqual(list(scores.values()), [57, 57, 57, 57, 99, 57, 0, 0, 0])
+        counts.assert_called_once_with(connection, sorted(herb_ids))
+        self.assertEqual(connection.execute.call_count, 2)
+        self.assertEqual(
+            connection.execute.call_args_list[0].args[0],
+            "SET TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY",
+        )
 
     def test_invalid_and_empty_catalogues_are_controlled_failures(self):
         for rows in (
@@ -103,6 +147,17 @@ class RepositoryTests(TestCase):
             with self.assertRaises(repository.HerbCatalogUnavailable) as caught:
                 load_herbs()
             self.assertNotIn("secret", str(caught.exception))
+            with self.assertRaises(IndexUnavailable) as benefits_error:
+                repository.load_herb_benefit_scores(["Mușețel"])
+            self.assertNotIn("secret", str(benefits_error.exception))
+        with patch.object(repository.db, "get_pool") as pool:
+            self.assertEqual(repository.load_herb_benefit_scores([]), {})
+            pool.assert_not_called()
+            connection = pool.return_value.connection.return_value.__enter__.return_value
+            connection.execute.return_value.fetchone.return_value = (False,)
+            with self.assertRaises(IndexUnavailable):
+                repository.load_herb_benefit_scores(["Mușețel"])
+            self.assertEqual(connection.execute.call_count, 2)
 
     def test_runtime_validation_and_source_conversion_are_distinct(self):
         self.assertEqual(catalog_problems(self.items, source=False), [])

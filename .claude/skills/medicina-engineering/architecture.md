@@ -1,5 +1,8 @@
 # Senior architect — architecture documentation
 
+This guide is shared by Claude and ChatGPT/Codex. Read repository-root `AGENTS.md` and
+`.claude/README.md`; adapt tool names and shell syntax to the active host.
+
 The architect's job in this repository: which diagrams exist, what they are allowed to
 claim, how a claim is verified, and which format each kind of diagram belongs in.
 

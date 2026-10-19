@@ -3,7 +3,12 @@ description: Layered security audit of the current project (dependencies → sec
 argument-hint: [path or scope, e.g. src/api — omit for whole project]
 ---
 
-Perform a layered security audit of: $ARGUMENTS (if empty: the whole project).
+Perform a layered security audit of: $ARGUMENTS in Claude, or the user's scope in
+ChatGPT/Codex (if empty: the whole project).
+
+Read repository-root `AGENTS.md` and `.claude/README.md`. Use the host's available
+tools and active shell. External audit services require the user's authorization;
+never upload the private corpus or credentials as part of a scan.
 
 Use `.wolf/anatomy.md` to target files instead of scanning blindly, and check
 `.wolf/buglog.json` for previously found security issues before re-reporting them.

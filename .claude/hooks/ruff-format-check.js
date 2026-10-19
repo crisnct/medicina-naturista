@@ -14,21 +14,28 @@ const { execFileSync } = require("node:child_process");
 const { existsSync } = require("node:fs");
 const path = require("node:path");
 
-let raw = "";
-process.stdin.setEncoding("utf8");
-process.stdin.on("data", (c) => (raw += c));
-process.stdin.on("end", () => {
+function check(raw) {
   try {
     main(raw);
   } catch {
     process.exit(0); // never fail the turn because the guard broke
   }
-});
+}
+
+// Explicit file checks also work in hosts without Claude's PostToolUse events.
+if (process.argv[2] === "--file" && process.argv[3]) {
+  check(JSON.stringify({ file_path: path.resolve(process.argv[3]) }));
+} else {
+  let raw = "";
+  process.stdin.setEncoding("utf8");
+  process.stdin.on("data", (c) => (raw += c));
+  process.stdin.on("end", () => check(raw));
+}
 
 function main(raw) {
   const root = process.env.CLAUDE_PROJECT_DIR || process.cwd();
   const payload = JSON.parse(raw || "{}");
-  const file = payload?.tool_input?.file_path;
+  const file = payload?.tool_input?.file_path ?? payload?.file_path;
   if (!file || !file.endsWith(".py")) process.exit(0);
 
   // Only files ruff is configured for: pyproject sets src/ as the target and

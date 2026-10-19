@@ -5,7 +5,9 @@ description: Senior-engineer role guides for this repository — Python developm
 
 # Engineering roles for medicina-naturista
 
-Read `CLAUDE.md` first — it holds the project contract and the invariants. This file only
+Read the repository-root `AGENTS.md` first — it holds the shared project contract and invariants.
+Read `.claude/README.md` for tool, shell and hook differences between Claude and ChatGPT/Codex.
+This file only
 routes you to the right role guide; each one encodes how *this* codebase does the work.
 
 | Task | Open |
@@ -36,15 +38,17 @@ in an awkward format.
 
 ## Testing is a separate role
 
-**The app-tester agent writes every kind of test** (`.claude/agents/app-tester.md`) and
+**The app-tester role covers every kind of test** (`.claude/agents/app-tester.md`) and
 owns the conventions, fixtures and CI collection rules. These guides say how to write
 *testable* code — pure logic in `core/`, injected clocks and pools, Protocol-typed ports
-— and delegate the suite itself. When a task needs tests written, extended or diagnosed,
-hand it over; do not improvise a test file from a role guide.
+— and leave test conventions to that role. Read and apply it in the current session;
+delegate only when the user or applicable instructions authorize delegation and the host
+supports it. Preserve user restrictions on creating new tests.
 
-## Hooks that will interrupt you
+## Checks across assistant hosts
 
-Two project hooks act on your tool calls (`.claude/hooks/README.md`):
+Claude registers two project hooks (`.claude/hooks/README.md`). ChatGPT/Codex must
+perform the equivalent checks explicitly unless matching hooks are verified installed:
 
 - **Commits are blocked.** `git commit`, `merge`, `revert`, `cherry-pick`, `am`, `rebase`
   and `push` are refused — committing is the user's decision. Do the work in the working

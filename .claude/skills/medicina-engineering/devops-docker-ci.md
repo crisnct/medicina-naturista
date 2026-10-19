@@ -1,5 +1,8 @@
 # DevOps engineer — Docker, Compose, GitHub Actions
 
+This guide is shared by Claude and ChatGPT/Codex. Read repository-root `AGENTS.md` and
+`.claude/README.md`; adapt tool names and shell syntax to the active host.
+
 ## The image
 
 Two stages. `node:22-slim` builds the React bundle (`PUBLIC_BASE_PATH` build arg mirrors
@@ -60,7 +63,7 @@ Five jobs: `static`, `unit`, `integration`, `frontend`, `container`.
   mypy invocations — the default config plus two explicit file lists. A file can be
   type-checked in CI and not by a bare `mypy`.
 - `unit`, `integration` and `frontend` run the test suites. Their contents and the rules
-  for adding to them belong to the **app-tester** agent
+  for adding to them belong to the **app-tester** role
   (`.claude/agents/app-tester.md`); as DevOps you own the jobs' environment —
   `HF_HUB_OFFLINE=1`, `TESTCONTAINERS_RYUK_DISABLED=true`, the
   `pgvector/pgvector:pg16` service with its health check and `TEST_POSTGRES_URL`, the

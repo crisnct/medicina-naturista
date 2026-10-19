@@ -1,7 +1,28 @@
 # Project hooks
 
-Hooks owned by this repository, registered in `.claude/settings.json`. The hooks under
+Hooks owned by this repository, registered for Claude in `.claude/settings.json`. The hooks under
 `.wolf/hooks/` belong to OpenWolf and are maintained separately — do not edit those here.
+
+## ChatGPT/Codex and manual use
+
+Read repository-root `AGENTS.md` and `.claude/README.md`. These scripts work with Node
+from any assistant's terminal, but `.claude/settings.json` registers them only in Claude.
+No automatic Codex hook installation is implied. The shared no-commit policy and Ruff
+checks apply even when neither script is registered. A regex command check is advisory
+outside its registered host; it is not an OS security boundary.
+
+From the repository root, in PowerShell or Bash:
+
+```text
+node .claude/hooks/block-git-commit.js --command "git status --short"
+node .claude/hooks/ruff-format-check.js --file src/backend/config.py
+```
+
+The first command only checks the supplied command; it never executes Git. To verify
+blocking, supply `--command "git commit -m example"` and expect exit code 2. The file
+check runs Ruff without modifying the file. Both hooks retain Claude's JSON stdin
+contract; they also accept top-level `command`/`cmd` or `file_path` payloads for manual
+adapters. Do not claim this is an automatic Codex event schema.
 
 ## `block-git-commit.js`
 

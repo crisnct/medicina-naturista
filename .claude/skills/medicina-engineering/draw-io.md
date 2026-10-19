@@ -1,5 +1,8 @@
 # draw.io diagrams
 
+This guide is shared by Claude and ChatGPT/Codex. Read repository-root `AGENTS.md` and
+`.claude/README.md`; adapt tool names and shell syntax to the active host.
+
 For a diagram requested **outside** `architecture/` — an ad-hoc visual for a PR or an
 explanation, or a `.drawio` file the user explicitly asks for.
 

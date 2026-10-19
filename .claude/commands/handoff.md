@@ -1,4 +1,10 @@
-Regenerate `.wolf/STATUS.md` as a session handoff document. $ARGUMENTS
+Regenerate `.wolf/STATUS.md` as a session handoff document. $ARGUMENTS in Claude,
+or the scope supplied by the user in ChatGPT/Codex.
+
+Read repository-root `AGENTS.md` and `.claude/README.md`. Use the available file and
+shell tools. This workflow is shared; slash-command registration is Claude-specific.
+If the OpenWolf CLI or the exact session IDs are unavailable, produce the requested
+file handoff and state that no cross-agent packet was exported or imported.
 
 Build it from the session's actual state, not from memory of the conversation alone:
 

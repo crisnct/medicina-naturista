@@ -10,8 +10,11 @@ from collections.abc import Sequence
 from dataclasses import dataclass
 from threading import Lock
 
+import psycopg
 from psycopg import Connection
+from psycopg_pool import PoolTimeout
 
+from backend.ai import db
 from backend.ai.conditions import _normalize
 from backend.ai.herb_validation import ALIASES, catalog_problems
 from backend.ai.herbs import FIELDS, Herb, HerbCatalog
@@ -111,3 +114,46 @@ def catalog_snapshot(connection: Connection) -> HerbCatalogSnapshot:
         while len(_cache) > 4:
             _cache.popitem(last=False)
         return snapshot
+
+
+def read_herb_benefit_counts(connection: Connection, herb_ids: Sequence[int]) -> dict[int, int]:
+    """Count associations before any alias joins, in one bounded query."""
+    if not herb_ids:
+        return {}
+    return dict(
+        connection.execute(
+            "SELECT herb_id, COUNT(*) FROM herbs_benefits WHERE herb_id = ANY(%s) GROUP BY herb_id",
+            (list(dict.fromkeys(herb_ids)),),
+        ).fetchall()
+    )
+
+
+def load_herb_benefit_scores(labels: Sequence[str]) -> dict[str, int]:
+    """Match labels and count benefits from one coherent, short-lived snapshot."""
+    # Local import avoids the index_state -> conditions -> repository import graph.
+    from backend.ai.index_state import INDEX_LOCK, IndexUnavailable
+
+    if not labels:
+        return {}
+    try:
+        with db.get_pool().connection() as connection, connection.transaction():
+            connection.execute("SET TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY")
+            row = connection.execute(
+                "SELECT pg_try_advisory_xact_lock_shared(%s)", (INDEX_LOCK,)
+            ).fetchone()
+            if row is None or not row[0]:
+                raise IndexUnavailable()
+            catalog = catalog_snapshot(connection).catalog
+            matched = {
+                label: tuple(herb.id for herb in catalog.mentions(label))
+                for label in dict.fromkeys(labels)
+            }
+            identifiers = sorted({herb_id for ids in matched.values() for herb_id in ids})
+            counts = read_herb_benefit_counts(connection, identifiers)
+            return {
+                label: max((counts.get(herb_id, 0) for herb_id in ids), default=0)
+                for label, ids in matched.items()
+            }
+    except (psycopg.Error, PoolTimeout) as error:
+        logger.error("herb_benefits_unavailable error_type=%s", type(error).__name__)
+        raise IndexUnavailable("INDEX_HERBS_UNAVAILABLE") from None

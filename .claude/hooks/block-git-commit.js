@@ -7,13 +7,12 @@
 
 "use strict";
 
-let raw = "";
-process.stdin.setEncoding("utf8");
-process.stdin.on("data", (chunk) => (raw += chunk));
-process.stdin.on("end", () => {
+function check(raw) {
   let command = "";
   try {
-    command = JSON.parse(raw || "{}")?.tool_input?.command ?? "";
+    const payload = JSON.parse(raw || "{}");
+    command = payload?.tool_input?.command ?? payload?.tool_input?.cmd ??
+      payload?.command ?? payload?.cmd ?? "";
   } catch {
     // Unparsable payload: do not block on a guard bug.
     process.exit(0);
@@ -32,7 +31,7 @@ process.stdin.on("end", () => {
       `PreToolUse entry in .claude/settings.json or run the command themselves.\n`,
   );
   process.exit(2);
-});
+}
 
 // Commands that create commits or publish them. Matched as `git <verb>`, with
 // any `git` global options (-C <path>, -c k=v, --git-dir=...) in between.
@@ -73,4 +72,14 @@ function findBlocked(command) {
     if (match) return { label: match[1] };
   }
   return null;
+}
+
+// Keep Claude's JSON stdin contract; other hosts can check an explicit command.
+if (process.argv[2] === "--command" && process.argv[3]) {
+  check(JSON.stringify({ command: process.argv[3] }));
+} else {
+  let raw = "";
+  process.stdin.setEncoding("utf8");
+  process.stdin.on("data", (chunk) => (raw += chunk));
+  process.stdin.on("end", () => check(raw));
 }
