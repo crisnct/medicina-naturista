@@ -626,8 +626,10 @@ Pentru expunere publică, setați `DEPLOYMENT_PROFILE=public`, `PUBLIC_ORIGIN=ht
 
 ```powershell
 .\.venv\Scripts\python.exe -m pip install -e ".[pdf]"
-.\.venv\Scripts\python.exe src\scripts\extract_pdf_markdown.py "carte.pdf" -o "carte.md" --report "carte.extraction.json"
+.\.venv\Scripts\python.exe src\scripts\extract_pdf_markdown.py "carte.pdf"
 ```
+
+Implicit, pentru `carte.pdf`, scriptul creează folderul `medicina-naturista-documente/data/documents/Surse sigure/carte/` și salvează acolo `carte.pdf.md`. Folderul primește numele PDF-ului fără extensie, iar fișierul Markdown păstrează numele complet al PDF-ului, la care se adaugă `.md`. Destinația este relativă la rădăcina proiectului, calculată din locația scriptului, indiferent de directorul de lansare. `-o` / `--output` permite alegerea explicită a altui fișier de ieșire.
 
 PyMuPDF extrage caracterele și informațiile despre fonturi și randează paginile. Implicit, fiecare pagină este îndreptată separat înainte de extragere, textul existent este păstrat, OCR se aplică numai paginilor fără text, iar coloanele sunt detectate automat. OCR rulează în memorie prin `Page.get_textpage_ocr`, fără pornirea executabilului Tesseract și fără imagini sau fișiere TSV intermediare. API-ul folosește motorul Tesseract integrat și necesită fișierele de limbă `ron.traineddata` și `eng.traineddata`. Directorul lor se indică prin `--tessdata` sau `TESSDATA_PREFIX`; pe Windows se detectează implicit `C:\Program Files\Tesseract-OCR\tessdata`. Opțiunea `--tesseract-cmd` a fost înlocuită cu `--tessdata`.
 

@@ -7,9 +7,11 @@ The source wording is preserved. Heading reconstruction is heuristic, especially
 for OCR layers that do not encode bold fonts or document semantics.
 
 Apel pentru un PDF:
-    python src/scripts/extract_pdf_markdown.py "C:\GoogleDrive\Medicina\Books\Vindecare prin nutritie.pdf"
+    python src/scripts/extract_pdf_markdown.py "C:\GoogleDrive\Medicina\Books\Importanta plantelor in viata omului - prima mea carte de fitoterapie.pdf"
 
-Implicit, salvează carte.md lângă PDF și îndreaptă separat fiecare pagină.
+Implicit, pentru carte.pdf creează folderul și salvează fișierul în:
+    <rădăcina proiectului>/medicina-naturista-documente/data/documents/Surse sigure/carte/carte.pdf.md
+Calea este independentă de directorul de lansare. Îndreaptă separat fiecare pagină.
 Opțiuni: -o "C:/Documente/carte.md" pentru altă destinație;
          --report "C:/Documente/carte.json" pentru raportul pe pagini;
          --tessdata "C:/Program Files/Tesseract-OCR/tessdata" pentru datele OCR;
@@ -54,6 +56,10 @@ else:
 
 
 LOGGER = logging.getLogger(__name__)
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+DEFAULT_OUTPUT_ROOT = (
+    PROJECT_ROOT / "medicina-naturista-documente" / "data" / "documents" / "Surse sigure"
+)
 MAX_OCR_PIXELS = 64_000_000
 
 
@@ -787,7 +793,7 @@ def extract_markdown(
     }
     # Spool lightweight line records, freeing PDF caches after every page.
     # A failed extraction never replaces an existing output.
-    temporary_root = Path(__file__).resolve().parents[2] / "aiPlans" / "tmp" / "pdfs"
+    temporary_root = PROJECT_ROOT / "aiPlans" / "tmp" / "pdfs"
     temporary_root.mkdir(parents=True, exist_ok=True)
     with ExitStack() as resources:
         directory = Path(resources.enter_context(tempfile.TemporaryDirectory(dir=temporary_root)))
@@ -891,7 +897,10 @@ def main() -> int:
             stream.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("pdf", type=Path)
-    parser.add_argument("-o", "--output", type=Path, help="Implicit: lângă PDF, cu extensia .md")
+    parser.add_argument(
+        "-o", "--output", type=Path,
+        help=f"Implicit: {DEFAULT_OUTPUT_ROOT}/<nume fără extensie>/<fișier PDF>.md; creează folderul.",
+    )
     parser.add_argument("--columns", choices=("auto", "1", "2", "3"), default="auto")
     parser.add_argument("--ocr", choices=("auto", "always", "never"), default="auto")
     parser.add_argument("--lang", default="ron+eng")
@@ -921,6 +930,7 @@ def main() -> int:
     if args.debug:
         logging.getLogger().setLevel(logging.DEBUG)
     try:
+        output_path = args.output or DEFAULT_OUTPUT_ROOT / args.pdf.stem / f"{args.pdf.name}.md"
         options = Options(
             **{
                 item.name: args.deskew == "auto"
@@ -929,9 +939,7 @@ def main() -> int:
                 for item in fields(Options)
             }
         )
-        pages, characters = extract_markdown(
-            args.pdf, args.output or args.pdf.with_suffix(".md"), options, args.report
-        )
+        pages, characters = extract_markdown(args.pdf, output_path, options, args.report)
     except KeyboardInterrupt:
         LOGGER.warning("Extragerea a fost întreruptă.")
         return 130
@@ -940,7 +948,7 @@ def main() -> int:
         LOGGER.error("Extragerea a eșuat: %s", exc)
         return 1
     print(
-        f"Scris: {(args.output or args.pdf.with_suffix('.md')).resolve()}\nPagini: {pages}; caractere: {characters}"
+        f"Scris: {output_path.expanduser().resolve()}\nPagini: {pages}; caractere: {characters}"
     )
     return 0
 
