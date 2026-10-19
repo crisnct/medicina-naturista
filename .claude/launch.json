@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "naturist-app",
+      "runtimeExecutable": ".venv/Scripts/python.exe",
+      "runtimeArgs": ["-m", "uvicorn", "backend.web.main:app", "--host", "127.0.0.1", "--port", "7861"],
+      "port": 7861
+    },
+    {
+      "name": "naturist-frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "src/frontend", "run", "dev", "--", "--host", "127.0.0.1", "--port", "5173"],
+      "port": 5173
+    }
+  ]
+}

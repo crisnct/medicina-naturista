@@ -155,7 +155,7 @@ export function useConversation() {
   const reportModels = reportModelsQuery.data?.models ?? [];
   const defaultReportModel = reportModelsQuery.data?.defaultModel ?? reportModels[0];
   const allowedReportModels = reportModelsQuery.data?.allowedModels
-    ?? reportModels.filter((model) => model.startsWith("ollama-"));
+    ?? [];
 
   return {
     history: history.map((message) => message.kind === "generate" ? { ...message, busy: generation.activeSearches.has(message.searchId) } : message),

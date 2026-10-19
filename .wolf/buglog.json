@@ -18,10 +18,41 @@
       "last_seen": "2026-10-17T07:36:18.364Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "id": "bug-002",
+      "timestamp": "2026-10-19",
+      "error_message": "AI_CONTEXT_LIMIT_EXCEEDED after a full-evidence report request",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "A single request shared the model context between all evidence and the long generated response.",
+      "fix": "Process whole fragments in sequential per-model character-bounded batches, accept oversized fragments alone, validate strictly and combine exact duplicates before one PDF publication.",
+      "tags": [
+        "reports",
+        "context",
+        "batching"
+      ],
+      "status": "fixed",
+      "occurrences": 1,
+      "last_seen": "2026-10-19"
+    },
+    {
+      "id": "bug-003",
+      "timestamp": "2026-10-19",
+      "error_message": "Mypy rejected report section keys and an optional usage object during batch implementation",
+      "file": "src/backend/core/report_batches.py",
+      "root_cause": "Untyped section constants widened literal keys to str; repeated dictionary lookups did not narrow optional usage.",
+      "fix": "Type SECTIONS as a tuple of Section literals and narrow a single raw_usage local before reading token counts; explicit mypy passes.",
+      "tags": [
+        "typing",
+        "reports"
+      ],
+      "status": "fixed",
+      "occurrences": 1,
+      "last_seen": "2026-10-19"
     }
   ],
   "applied_observations": {
     "b80eaeb1-0949-4e13-80e1-550503f12be5": true
   },
-  "next_id": 2
+  "next_id": 4
 }

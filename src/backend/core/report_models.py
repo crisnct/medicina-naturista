@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from types import MappingProxyType
-from typing import Literal, Mapping, cast
+from typing import Final, Literal, Mapping, cast
 
 ReportModel = Literal[
     "ollama-gemma4:12b",
@@ -27,6 +27,7 @@ DEFAULT_REPORT_MODELS: tuple[ReportModel, ...] = (
     "grok-4.3",
 )
 DEFAULT_REPORT_MODEL: ReportModel = DEFAULT_REPORT_MODELS[0]
+DEFAULT_REPORT_BATCH_MAX_CHARS: Final = 25_000
 
 
 @dataclass(frozen=True)
@@ -38,11 +39,11 @@ class ReportModelSpec:
 
 REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
     {
-        "ollama-gemma4:12b": ReportModelSpec("ollama", "gemma4:12b", owner_only=False),
-        "ollama-gemma3:1b": ReportModelSpec("ollama", "gemma3:1b", owner_only=False),
-        "ollama-qwen3.5:9b": ReportModelSpec("ollama", "qwen3.5:9b", owner_only=False),
-        "ollama-qwen3.5:4b": ReportModelSpec("ollama", "qwen3.5:4b", owner_only=False),
-        "ollama-ministral-3:8b": ReportModelSpec("ollama", "ministral-3:8b", owner_only=False),
+        "ollama-gemma4:12b": ReportModelSpec("ollama", "gemma4:12b"),
+        "ollama-gemma3:1b": ReportModelSpec("ollama", "gemma3:1b"),
+        "ollama-qwen3.5:9b": ReportModelSpec("ollama", "qwen3.5:9b"),
+        "ollama-qwen3.5:4b": ReportModelSpec("ollama", "qwen3.5:4b"),
+        "ollama-ministral-3:8b": ReportModelSpec("ollama", "ministral-3:8b"),
         "deepseek-flash": ReportModelSpec("deepseek", "deepseek-flash"),
         "huggingface-deepseek-v4-flash": ReportModelSpec(
             "huggingface", "deepseek-ai/DeepSeek-V4-Flash:deepinfra"

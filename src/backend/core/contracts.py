@@ -78,6 +78,7 @@ RenderPDF = Callable[[ProfilePayload, "ValidatedReport", Evidence, float], bytes
 ClassifyMessage = Callable[[str, dict[str, object]], "MessageClassification"]
 RecordReportMetrics = Callable[["ReportMetrics"], int]
 EstimateReportDuration = Callable[[ReportModel, int], "ReportDurationEstimate"]
+ReportBatchCallback = Callable[[int, int, "ValidatedReport | None"], None]
 
 
 class HerbCondition(TypedDict):

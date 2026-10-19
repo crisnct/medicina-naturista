@@ -23,6 +23,8 @@ function currentGeneration(sessionJob: ReportGeneration, polledJob?: ReportGener
     if (activeGeneration(polledJob) || sessionJob.workerActive === false) return sessionJob;
   }
   if (activeGeneration(sessionJob) && activeGeneration(polledJob)
+    && (sessionJob.previewVersion ?? 0) > (polledJob.previewVersion ?? 0)) return sessionJob;
+  if (activeGeneration(sessionJob) && activeGeneration(polledJob)
     && stageOrder.indexOf(sessionJob.stage) > stageOrder.indexOf(polledJob.stage)) return sessionJob;
   return polledJob;
 }
@@ -131,10 +133,13 @@ export function useReportGeneration(
       feedback[job.searchId] = {
         message: job.state === "succeeded" ? "" : job.message ?? "Raportul nu a putut fi generat.",
         streamPreview: job.streamPreview,
+        reportPreview: job.reportPreview,
+        batchesCompleted: job.batchesCompleted,
+        batchesTotal: job.batchesTotal,
         thinkingPreview: job.thinkingPreview,
         streamTokensPerSecond: job.streamTokensPerSecond,
         thinkingTokensPerSecond: job.thinkingTokensPerSecond,
-        completed: job.state === "succeeded" && Boolean(job.streamPreview),
+        completed: job.state === "succeeded" && Boolean(job.reportPreview ?? job.streamPreview),
         terminal: true,
         generationId: job.jobId,
       };
@@ -156,6 +161,9 @@ export function useReportGeneration(
       generationStartedAt: job.startedAt,
       waitingInQueue: job.state === "accepted" || job.stage === "queued",
       streamPreview: job.streamPreview,
+      reportPreview: job.reportPreview,
+      batchesCompleted: job.batchesCompleted,
+      batchesTotal: job.batchesTotal,
       thinkingPreview: job.thinkingPreview,
       streamTokensPerSecond: job.streamTokensPerSecond,
       thinkingTokensPerSecond: job.thinkingTokensPerSecond,

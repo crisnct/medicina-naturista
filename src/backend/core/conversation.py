@@ -239,6 +239,16 @@ class ConversationService:
     record_report_metrics: RecordReportMetrics | None = None
 
     def budget(self, operation: SessionOperation) -> OperationBudget:
+        def batch_progress(completed: int, total: int, report: ValidatedReport | None) -> None:
+            search = operation.snapshot.search
+            assert search is not None
+            preview = (
+                recommendation_text(report, search.evidence, include_ready_message=False)
+                if report is not None
+                else None
+            )
+            self.store.generation_batch(operation, completed, total, preview)
+
         return OperationBudget(
             operation.deadline,
             self.store.clock,
@@ -254,6 +264,7 @@ class ConversationService:
             report_activity=(lambda event: self.store.generation_activity(operation, event))
             if operation.kind == "generate"
             else None,
+            report_batch=batch_progress if operation.kind == "generate" else None,
         )
 
     def close(self, cookie_id: str, tab_id: str) -> dict[str, Any]:
@@ -874,13 +885,6 @@ class ConversationService:
                             }
                         ]
                     ),
-                )
-            evidence = evidence_within_budget(evidence, self.ai.context_budget())
-            if not evidence:
-                raise ApplicationError(
-                    "AI_CONTEXT_LIMIT",
-                    "Fragmentele eligibile depășesc limita de context a modelului ales. Alegeți alt model sau restrângeți sursele.",
-                    422,
                 )
             self.store.generation_stage(operation, "generating")
             characters = sum(len(item["text"]) for item in evidence.values())

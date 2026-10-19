@@ -11,9 +11,10 @@ import httpx
 
 from backend.ai.client import AIUnavailable
 from backend.ai.report_validation import ReportValidationError
-from backend.core.conversation import ConversationService, evidence_above, evidence_within_budget
+from backend.core.conversation import ConversationService, evidence_above
 from backend.core.errors import ApplicationError, OperationCancelled
 from backend.core.models import SessionData, SessionOperation
+from backend.core.report_batches import REPORT_GENERATION_WORKERS
 from backend.core.report_metrics import validate_min_score
 from backend.core.sessions import SessionStore
 
@@ -24,7 +25,7 @@ class ReportGenerationService:
     def __init__(self, store: SessionStore) -> None:
         self.store = store
         self.executor = ThreadPoolExecutor(
-            max_workers=store.limits.max_concurrent_generations,
+            max_workers=REPORT_GENERATION_WORKERS,
             thread_name_prefix="report-generation",
         )
         self._lock = threading.RLock()
@@ -67,12 +68,6 @@ class ReportGenerationService:
                     raise ApplicationError(
                         "NO_ELIGIBLE_FRAGMENTS",
                         "Niciun fragment nu atinge scorul minim selectat.",
-                        422,
-                    )
-                if not evidence_within_budget(evidence, conversation.ai.context_budget()):
-                    raise ApplicationError(
-                        "AI_CONTEXT_LIMIT",
-                        "Fragmentele depășesc limita de context a modelului ales.",
                         422,
                     )
                 self._pending.append((conversation, operation, min_score))

@@ -10,9 +10,13 @@ from collections.abc import Callable, Iterator
 from contextlib import contextmanager
 from contextvars import ContextVar
 from dataclasses import dataclass
-from typing import Literal
+from typing import TYPE_CHECKING, Literal
 
+from backend.core.contracts import ReportBatchCallback
 from backend.core.errors import OperationCancelled
+
+if TYPE_CHECKING:
+    from backend.ai.report_validation import ValidatedReport
 
 ReportActivityKind = Literal[
     "request_started", "provider_activity", "thinking", "answering", "response_finished"
@@ -33,6 +37,7 @@ class OperationBudget:
     report_output: Callable[[str], None] | None = None
     report_thinking: Callable[[str], None] | None = None
     report_activity: Callable[[ReportActivity], None] | None = None
+    report_batch: ReportBatchCallback | None = None
 
     def remaining(self) -> float:
         self.checkpoint()
@@ -90,3 +95,11 @@ def emit_report_activity(event: ReportActivity) -> None:
     value = _budget.get()
     if value and value.report_activity:
         value.report_activity(event)
+
+
+# Only completed, validated batch snapshots may reach the formatted preview.
+def emit_report_batch(completed: int, total: int, report: ValidatedReport | None = None) -> None:
+    checkpoint()
+    value = _budget.get()
+    if value and value.report_batch:
+        value.report_batch(completed, total, report)

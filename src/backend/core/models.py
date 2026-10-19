@@ -221,6 +221,11 @@ class ReportGeneration:
     stream_rate: AIStreamRate = field(default_factory=AIStreamRate)
     thinking_rate: AIStreamRate = field(default_factory=AIStreamRate)
     ai_activity: AIActivity | None = None
+    report_preview: str | None = None
+    report_preview_bytes: int = 0
+    preview_version: int = 0
+    batches_completed: int = 0
+    batches_total: int = 0
 
     @property
     def stream_preview(self) -> str | None:
@@ -245,6 +250,10 @@ class ReportGeneration:
             "errorCode": self.error_code,
             "message": self.message,
             "pollAfterMs": 3000,
+            "reportPreview": self.report_preview,
+            "previewVersion": self.preview_version,
+            "batchesCompleted": self.batches_completed,
+            "batchesTotal": self.batches_total,
             "estimatedMinutesPer44500Chars": self.estimated_minutes_per_44500_chars,
             "streamPreview": self.stream_preview,
             "streamTokensPerSecond": self.stream_rate.tokens_per_second(),

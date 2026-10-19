@@ -576,6 +576,19 @@ body {
 
 .generation-stream-text::placeholder { color: var(--nature-muted); }
 
+.generation-report-text {
+    max-height: 22em;
+    overflow-y: auto;
+    overflow-wrap: anywhere;
+    padding: 8px;
+    border: 1px solid var(--nature-border);
+    border-radius: 6px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.generation-report-text p { margin: 0 0 4px; white-space: pre-wrap; }
+
 .startup-notice {
     display: flex;
     align-items: center;

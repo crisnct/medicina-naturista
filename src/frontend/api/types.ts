@@ -140,6 +140,10 @@ export interface ReportGeneration {
   queuePosition?: number | null;
   estimatedMinutesPer44500Chars?: number;
   streamPreview?: string | null;
+  reportPreview?: string | null;
+  previewVersion?: number;
+  batchesCompleted?: number;
+  batchesTotal?: number;
   thinkingPreview?: string | null;
   streamTokensPerSecond?: number | null;
   thinkingTokensPerSecond?: number | null;

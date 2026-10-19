@@ -199,6 +199,7 @@ def recommendation_text(
     *,
     elapsed_seconds: int | None = None,
     ai_model: str | None = None,
+    include_ready_message: bool = True,
 ) -> str:
     partial = isinstance(sections, ValidatedReport) and sections.partial
     if isinstance(sections, ValidatedReport):
@@ -222,7 +223,7 @@ def recommendation_text(
         )
     if ai_model:
         ready_message += f", folosind modelul AI **{ai_model}**"
-    lines = [f"{ready_message}. Recomandările susținute de surse:"]
+    lines = [f"{ready_message}. Recomandările susținute de surse:"] if include_ready_message else []
     if partial:
         lines.append(PARTIAL_NOTICE)
     found = False

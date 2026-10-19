@@ -1,4 +1,4 @@
-"""Single-request report generation through a Responses API provider (xAI, Hugging Face, Ollama)."""
+"""Sequential whole-fragment report batches through the selected AI provider."""
 
 from __future__ import annotations
 
@@ -21,10 +21,12 @@ from backend.core.operation_context import (
     ReportActivity,
     checkpoint,
     emit_report_activity,
+    emit_report_batch,
     emit_report_output,
     emit_report_thinking,
     remaining_timeout,
 )
+from backend.core.report_batches import combine_reports, partition_evidence
 from backend.core.report_models import REPORT_MODELS
 
 logger = logging.getLogger("naturist.ai")
@@ -193,6 +195,9 @@ class ResponsesClient:
         self.generate_system_prompt = GENERATE_REPORT_SYSTEM_PROMPT_PATH.read_text(
             encoding="utf-8"
         ).strip()
+        self.batch_max_chars = settings.report_generation_batch_max_chars[
+            settings.report_generation_model
+        ]
 
     # Whether the active provider can be called (its key is present when one is required).
     def is_configured(self) -> bool:
@@ -350,7 +355,22 @@ class ResponsesClient:
         output_tokens = None
         try:
             payload = response.json()
-            usage = payload.get("usage") if isinstance(payload.get("usage"), dict) else {}
+            if not isinstance(payload, dict):
+                raise ValueError("response is not an object")
+            parts = [
+                block["text"]
+                for item in payload.get("output", [])
+                if isinstance(item, dict) and item.get("type") == "message"
+                for block in item.get("content", [])
+                if isinstance(block, dict)
+                and block.get("type") == "output_text"
+                and isinstance(block.get("text"), str)
+            ]
+            content = "".join(parts)
+            if content and not isinstance(response, _StreamedResponse):
+                emit_report_output(content)
+            raw_usage = payload.get("usage")
+            usage = raw_usage if isinstance(raw_usage, dict) else {}
             output_tokens = usage.get("output_tokens")
             logger.info(
                 "ai_response_usage provider=%s input_tokens=%s output_tokens=%s max_output_tokens=%s",
@@ -393,16 +413,6 @@ class ResponsesClient:
                             reason="output_limit",
                         )
                 raise ValueError("response not completed")
-            parts = [
-                block["text"]
-                for item in payload.get("output", [])
-                if isinstance(item, dict) and item.get("type") == "message"
-                for block in item.get("content", [])
-                if isinstance(block, dict)
-                and block.get("type") == "output_text"
-                and isinstance(block.get("text"), str)
-            ]
-            content = "".join(parts)
             if not content:
                 raise ValueError("empty content")
             result = _parse_json_object(content)
@@ -461,7 +471,7 @@ class ResponsesClient:
     def _evidence_entries(self, evidence: Evidence) -> list[dict[str, str]]:
         return _ordered_entries(evidence)
 
-    # Send the full evidence context to the provider and normalize all returned report sections.
+    # The existing FIFO worker owns the whole batch loop; no nested executor is needed.
     def generate(self, profile: ProfilePayload, evidence: Evidence) -> ValidatedReport:
         if not evidence:
             logger.info("fragments_sent_to_ai count=0 reason=no_evidence")
@@ -471,6 +481,35 @@ class ResponsesClient:
             len(evidence),
             sum(len(value.get("text", "")) for value in evidence.values()),
         )
+        batches = partition_evidence(evidence, self.batch_max_chars)
+        emit_report_batch(0, len(batches))
+        reports: list[ValidatedReport] = []
+        combined = combine_reports(reports)
+        for index, batch in enumerate(batches, 1):
+            checkpoint()
+            logger.info(
+                "report_batch_started provider=%s model=%s worker=1 batch=%s total=%s fragments=%s chars=%s",
+                self.provider.name,
+                self.provider.model,
+                index,
+                len(batches),
+                len(batch),
+                sum(len(item["text"]) for item in batch.values()),
+            )
+            reports.append(self._generate_batch(profile, batch))
+            checkpoint()
+            combined = combine_reports(reports)
+            emit_report_batch(index, len(batches), combined)
+            logger.info(
+                "report_batch_completed provider=%s worker=1 batch=%s total=%s",
+                self.provider.name,
+                index,
+                len(batches),
+            )
+        return validate_report(combined.section_payload(), evidence, strict=True)
+
+    # Every request uses the original prompt and validates citations against only its own batch.
+    def _generate_batch(self, profile: ProfilePayload, evidence: Evidence) -> ValidatedReport:
         entries = self._evidence_entries(evidence)
         self._log_fragment_inventory(entries, "fragments_sent_to_ai")
         user = f"""
@@ -490,7 +529,7 @@ class ResponsesClient:
         result = self.complete_json(
             self.generate_system_prompt, user, self.provider.max_output_tokens
         )
-        return validate_report(result, evidence)
+        return validate_report(result, evidence, allow_empty=True, strict=True)
 
 
 class OllamaReportClient(ResponsesClient):

@@ -15,6 +15,9 @@ export interface GenerationFeedback {
   generationStartedAt?: number | null;
   waitingInQueue?: boolean;
   streamPreview?: string | null;
+  reportPreview?: string | null;
+  batchesCompleted?: number;
+  batchesTotal?: number;
   streamTokensPerSecond?: number | null;
   thinkingTokensPerSecond?: number | null;
   completed?: boolean;

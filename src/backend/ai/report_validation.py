@@ -6,9 +6,15 @@ from typing import Any, Literal
 
 from pydantic import BaseModel, ConfigDict
 
-SECTIONS = ("uz_intern", "nutritie", "uz_extern", "alte_recomandari", "atentionari")
 PARTIAL_NOTICE = "Raportul este parțial: unele recomandări nu au putut fi validate."
 Section = Literal["uz_intern", "nutritie", "uz_extern", "alte_recomandari", "atentionari"]
+SECTIONS: tuple[Section, ...] = (
+    "uz_intern",
+    "nutritie",
+    "uz_extern",
+    "alte_recomandari",
+    "atentionari",
+)
 
 
 class ReportValidationError(ValueError):
@@ -62,7 +68,9 @@ def normalize_nutrition(value: dict) -> list[tuple[Any, str]]:
     return items
 
 
-def validate_report(value: Any, evidence: dict) -> ValidatedReport:
+def validate_report(
+    value: Any, evidence: dict, *, allow_empty: bool = False, strict: bool = False
+) -> ValidatedReport:
     if not isinstance(value, dict):
         raise ReportValidationError("REPORT_INVALID")
     sections = {key: [] for key in SECTIONS}
@@ -82,6 +90,8 @@ def validate_report(value: Any, evidence: dict) -> ValidatedReport:
         if structured:
             if items.keys() - NUTRITION_FIELDS.keys():
                 warn("EXTRA_KEYS", section, count=len(items.keys() - NUTRITION_FIELDS.keys()))
+            if strict and NUTRITION_FIELDS.keys() - items.keys():
+                warn("MISSING_NUTRITION_FIELD", section)
             items = normalize_nutrition(items)
         elif isinstance(items, list):
             items = [(item, "") for item in items]
@@ -115,6 +125,8 @@ def validate_report(value: Any, evidence: dict) -> ValidatedReport:
             sections[section].append(
                 Recommendation(text=prefix + text, evidence_ids=list(dict.fromkeys(ids)))
             )
-    if not any(sections.values()):
+    if strict and warnings:
+        raise ReportValidationError("REPORT_INVALID")
+    if not allow_empty and not any(sections.values()):
         raise ReportValidationError("REPORT_EMPTY")
     return ValidatedReport(sections=sections, partial=bool(warnings), validationWarnings=warnings)

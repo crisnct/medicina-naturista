@@ -2,15 +2,18 @@
 
 from __future__ import annotations
 
+import json
 import os
 from collections.abc import Mapping
 from dataclasses import dataclass, field
 from pathlib import Path
+from types import MappingProxyType
 from urllib.parse import urlsplit
 
 from dotenv import load_dotenv
 
 from backend.core.report_models import (
+    DEFAULT_REPORT_BATCH_MAX_CHARS,
     DEFAULT_REPORT_MODEL,
     DEFAULT_REPORT_MODELS,
     REPORT_MODELS,
@@ -20,6 +23,40 @@ from backend.core.report_models import (
 
 ROOT = Path(__file__).resolve().parents[2]
 CORPUS_DATA_DIR = ROOT / "medicina-naturista-documente" / "data"
+
+
+# Model-specific batch limits are immutable, just like the selected provider snapshot.
+def _batch_limits(value: str | None = None) -> Mapping[ReportModel, int]:
+    def unique_pairs(pairs: list[tuple[str, object]]) -> dict[str, object]:
+        result: dict[str, object] = {}
+        for key, item in pairs:
+            if key in result:
+                raise ValueError(
+                    "REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL contains duplicate keys"
+                )
+            result[key] = item
+        return result
+
+    if value is None or not value.strip():
+        return MappingProxyType(dict.fromkeys(REPORT_MODELS, DEFAULT_REPORT_BATCH_MAX_CHARS))
+    try:
+        parsed = json.loads(value, object_pairs_hook=unique_pairs)
+    except (ValueError, TypeError):
+        raise ValueError(
+            "REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL must be a JSON object with unique model keys"
+        ) from None
+    if not isinstance(parsed, dict):
+        raise ValueError("REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL must be a JSON object")
+    result: dict[ReportModel, int] = {}
+    for model in REPORT_MODELS:
+        if model in parsed:
+            limit = parsed[model]
+            if type(limit) is not int or limit <= 0:
+                raise ValueError("Report batch character limits must be positive integers")
+            result[model] = limit
+    if parsed.keys() - REPORT_MODELS.keys():
+        raise ValueError("Report batch limits contain an unsupported model")
+    return MappingProxyType(result)
 
 
 # Read an integer setting and reject values outside its safety bounds.
@@ -92,6 +129,9 @@ class Settings:
         "/tmp/naturist-sessions" if os.name != "nt" else str(ROOT / "var" / "sessions")
     )
     report_generation_models: tuple[ReportModel, ...] = DEFAULT_REPORT_MODELS
+    report_generation_batch_max_chars: Mapping[ReportModel, int] = field(
+        default_factory=_batch_limits
+    )
     xai_model: str = REPORT_MODELS["grok-4.3"].model
     xai_reasoning_effort: str = "medium"
     xai_max_context_chars: int = 1_000_000
@@ -196,6 +236,9 @@ class Settings:
                 )
             ),
             report_generation_models=report_models,
+            report_generation_batch_max_chars=_batch_limits(
+                env.get("REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL")
+            ),
             xai_reasoning_effort=env.get("XAI_REASONING_EFFORT", "medium"),
             xai_max_context_chars=_int("X_AI_MAX_CONTEXT_CHARS", 1000000, env=env),
             xai_api_base=env.get("XAI_API_BASE", "https://api.x.ai/v1").rstrip("/"),
@@ -279,6 +322,18 @@ class Settings:
             self,
             "report_generation_models",
             parse_report_models(",".join(self.report_generation_models)),
+        )
+        limits = self.report_generation_batch_max_chars
+        if (
+            not isinstance(limits, Mapping)
+            or set(limits) - set(REPORT_MODELS)
+            or any(type(value) is not int or value <= 0 for value in limits.values())
+        ):
+            raise ValueError("Report batch limits must map supported models to positive integers")
+        if set(self.report_generation_models) - set(limits):
+            raise ValueError("Report batch limits must include every configured model")
+        object.__setattr__(
+            self, "report_generation_batch_max_chars", MappingProxyType(dict(limits))
         )
         _ai_provider(self.ai_provider)
         for name in ("ai_stream", "log_fragment_text", "log_ai_response_text", "cookie_secure"):

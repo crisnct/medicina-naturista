@@ -49,7 +49,7 @@ from backend.core.owner_auth import OwnerAuth, PostgresOwnerSessionRepository
 from backend.core.rate_limits import RateLimiter
 from backend.core.report_generation import ReportGenerationService
 from backend.core.report_metrics import MAX_BIGINT
-from backend.core.report_models import DEFAULT_REPORT_MODELS, REPORT_MODELS
+from backend.core.report_models import DEFAULT_REPORT_MODELS
 from backend.core.sessions import SessionStore
 from backend.integrations.gmail import send_report
 from backend.persistence.report_metrics import PostgresReportMetricsRepository
@@ -69,7 +69,7 @@ TAB_ID_RE = re.compile(r"^[A-Za-z0-9_-]{8,64}$")
 OWNER_COOKIE = "naturist_owner"
 CSRF_COOKIE = "naturist_owner_csrf"
 OWNER_COOKIE_MAX_AGE = 31536000
-OWNER_ONLY_MESSAGE = "Acest model AI poate fi accesat doar de autorul platformei."
+OWNER_ONLY_MESSAGE = "Generarea rețetei este disponibilă doar administratorului platformei."
 router = APIRouter()
 
 
@@ -157,6 +157,10 @@ class GenerateResponse(BaseModel):
     queuePosition: int | None = None
     estimatedMinutesPer44500Chars: int = Field(ge=1)
     streamPreview: str | None = None
+    reportPreview: str | None = None
+    previewVersion: int = Field(default=0, ge=0)
+    batchesCompleted: int = Field(default=0, ge=0)
+    batchesTotal: int = Field(default=0, ge=0)
     thinkingPreview: str | None = None
     streamTokensPerSecond: float | None = Field(default=None, ge=0)
     thinkingTokensPerSecond: float | None = Field(default=None, ge=0)
@@ -230,9 +234,12 @@ def healthz(request: Request):
     except (OSError, UnicodeError):
         configured = False
     if not configured:
+        provider = getattr(ai, "provider", None)
+        label = getattr(provider, "label", "AI")
+        key_env = getattr(provider, "api_key_env", "AI_API_KEY")
         raise HTTPException(
             503,
-            f"Secretul {ai.provider.label} ({ai.provider.api_key_env}) lipsește sau nu este un fișier valid.",
+            f"Secretul {label} ({key_env}) lipsește sau nu este un fișier valid.",
         )
     return {"status": "ok"}
 
@@ -411,9 +418,7 @@ def _generate_report(
 def _available_report_models(
     owner_authorized: bool, configured: tuple[ReportModel, ...] = DEFAULT_REPORT_MODELS
 ) -> list[ReportModel]:
-    return [
-        choice for choice in configured if owner_authorized or not REPORT_MODELS[choice].owner_only
-    ]
+    return list(configured) if owner_authorized else []
 
 
 def _select_report_model(
@@ -423,9 +428,11 @@ def _select_report_model(
         model = settings.report_generation_model
     if model not in settings.report_generation_models:
         raise ApplicationError(
-            "MODEL_NOT_CONFIGURED", "Modelul AI ales nu este disponibil în configurația curentă.", 422
+            "MODEL_NOT_CONFIGURED",
+            "Modelul AI ales nu este disponibil în configurația curentă.",
+            422,
         )
-    if REPORT_MODELS[model].owner_only and not owner_authorized:
+    if not owner_authorized:
         raise ApplicationError("MODEL_FORBIDDEN", OWNER_ONLY_MESSAGE, 403)
     return model
 
@@ -453,7 +460,9 @@ def report_duration_estimate(
     deps = _deps(request)
     if model not in deps.settings.report_generation_models:
         raise ApplicationError(
-            "MODEL_NOT_CONFIGURED", "Modelul AI ales nu este disponibil în configurația curentă.", 422
+            "MODEL_NOT_CONFIGURED",
+            "Modelul AI ales nu este disponibil în configurația curentă.",
+            422,
         )
     deps.request_limiter.check(
         (f"report-estimate:{_client_ip(request)}", deps.settings.max_requests_per_minute)
@@ -487,7 +496,8 @@ def generate(search_id: str, request: Request, payload: GenerateRequest | None =
     session = _current(request)
     options = payload or GenerateRequest()
     model = _select_report_model(
-        deps.settings, options.model,
+        deps.settings,
+        options.model,
         owner_authorized=getattr(request.state, "owner_authorized", False),
     )
     ai = deps.report_clients[model] if deps.report_clients is not None else deps.ai
@@ -516,10 +526,7 @@ def _generation_status(request: Request, job_id: str, *, cancel: bool = False):
     deps.request_limiter.check(
         (f"poll:{session.lifetime_id}", 120), (f"poll-ip:{_client_ip(request)}", 240)
     )
-    status = deps.store.generation(session, job_id)
-    if REPORT_MODELS[status["modelChoice"]].owner_only and not getattr(
-        request.state, "owner_authorized", False
-    ):
+    if not getattr(request.state, "owner_authorized", False):
         raise ApplicationError("MODEL_FORBIDDEN", OWNER_ONLY_MESSAGE, 403)
     return request.app.state.report_generation.generation(session, job_id, cancel=cancel)
 

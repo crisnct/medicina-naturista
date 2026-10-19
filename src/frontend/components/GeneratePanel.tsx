@@ -3,6 +3,7 @@ import type { FragmentItem, GenerateMessage, ReportModel } from "../api/types";
 import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
 import { TypingIndicator } from "./TypingIndicator";
 import { GenerationStreamPreview } from "./GenerationStreamPreview";
+import { GenerationReportPreview } from "./GenerationReportPreview";
 import { GenerationDurationEstimate } from "./GenerationDurationEstimate";
 import { DoctorAvatar } from "./DoctorAvatar";
 import { AI_ACTIVITY_LABELS, type GenerationFeedback } from "../lib/generationFeedback";
@@ -13,7 +14,7 @@ export function GeneratePanel({
   onGenerate,
   reportModels = ["ollama-gemma4:12b", "ollama-gemma3:1b", "ollama-qwen3.5:9b", "ollama-qwen3.5:4b", "ollama-ministral-3:8b"],
   defaultReportModel,
-  allowedReportModels = reportModels.filter((option) => option.startsWith("ollama-")),
+  allowedReportModels = [],
   actionsDisabled = false,
   feedback,
 }: {
@@ -45,7 +46,9 @@ export function GeneratePanel({
   const modelRestricted = !noModels && !allowedReportModels.includes(selectedModel);
   const disabled = message.busy || noneReach || actionsDisabled || noModels || modelRestricted;
   const hasAnswer = Boolean(feedback?.streamPreview);
-  const hasPreview = hasAnswer || Boolean(feedback?.thinkingPreview);
+  const batched = feedback?.batchesTotal !== undefined || (!hasAnswer && !feedback?.thinkingPreview);
+  const hasPreview = batched ? Boolean(feedback?.reportPreview) : hasAnswer || Boolean(feedback?.thinkingPreview);
+  const hasBatchPlan = (feedback?.batchesTotal ?? 0) > 0;
 
   return (
     <section className="generate-recipe-panel">
@@ -88,7 +91,7 @@ export function GeneratePanel({
           </div>
           {modelRestricted && (
             <p className="generate-recipe-warning" role="status">
-              Acest model AI poate fi accesat doar de autorul platformei.
+              Generarea rețetei este disponibilă doar administratorului platformei.
             </p>
           )}
         </div>
@@ -128,7 +131,7 @@ export function GeneratePanel({
           </button>
         </div>
       </div>
-      {(message.busy || feedback?.completed || hasPreview) && (
+      {(message.busy || feedback?.completed || hasPreview || hasBatchPlan) && (
         <div className="generation-progress-section">
           {message.busy && (
             <div className="generation-progress-row">
@@ -143,7 +146,17 @@ export function GeneratePanel({
               )}
             </div>
           )}
-          <GenerationStreamPreview
+          {batched ? <GenerationReportPreview
+            text={feedback?.reportPreview}
+            completed={feedback?.batchesCompleted}
+            total={feedback?.batchesTotal}
+            terminal={feedback?.terminal}
+            succeeded={feedback?.completed}
+            waitingInQueue={feedback?.waitingInQueue}
+            tokensPerSecond={feedback?.streamTokensPerSecond ?? feedback?.thinkingTokensPerSecond}
+            activityAgeMs={message.busy ? feedback?.aiActivity?.lastActivityAgeMs : undefined}
+            activityReceivedAt={feedback?.activityReceivedAt}
+          /> : <GenerationStreamPreview
             text={hasAnswer ? feedback?.streamPreview : feedback?.thinkingPreview}
             tokensPerSecond={hasAnswer ? feedback?.streamTokensPerSecond : feedback?.thinkingTokensPerSecond}
             title={hasAnswer ? "AI generează răspunsul" : "Analiza modelului AI"}
@@ -151,7 +164,7 @@ export function GeneratePanel({
             placeholder={feedback?.aiActivity ? AI_ACTIVITY_LABELS[feedback.aiActivity.phase] : "Aștept primul semnal de la model…"}
             activityAgeMs={message.busy ? feedback?.aiActivity?.lastActivityAgeMs : undefined}
             activityReceivedAt={feedback?.activityReceivedAt}
-          />
+          />}
         </div>
       )}
       {feedback?.message && !message.busy && (

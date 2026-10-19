@@ -144,8 +144,9 @@ aliases for the Windows lock.
 
 ## AI/LLM specifics
 
-- Four report providers behind one `AIProtocol`: Ollama (local, open to all users), DeepSeek, xAI
-  and Hugging Face routing (owner-only). Transport differences — JSON-mode field, `store`,
+- Four report providers behind one `AIProtocol`: Ollama (local), DeepSeek, xAI
+  and Hugging Face routing. Report generation is owner-only for every model.
+  Transport differences — JSON-mode field, `store`,
   reasoning effort, context budget — live in `ai/providers.py`, not in call sites.
 - Message classification and unknown-condition identification use **only** the host Ollama model
   (`MEDICAL_CONDITION_AI_LOCAL_MODEL`, temperature 0, strict JSON schema), with no fallback to a

@@ -130,7 +130,10 @@ def retained_usage(session: SessionData) -> RetainedUsage:
         + pdf
         + metadata
         + 8192 * len(session.generations)
-        + sum(job.stream_bytes + job.thinking_bytes for job in session.generations.values()),
+        + sum(
+            job.stream_bytes + job.thinking_bytes + job.report_preview_bytes
+            for job in session.generations.values()
+        ),
     )
 
 
@@ -598,8 +601,11 @@ class SessionStore:
                 return
             now = self.clock()
             if event.kind == "request_started":
-                if job.ai_activity is None:
-                    job.ai_activity = AIActivity(now)
+                job.ai_activity = AIActivity(now)
+                if job.batches_total:
+                    separator = f"\n\n--- Lot {job.batches_completed + 1}/{job.batches_total} ---\n"
+                    self.generation_output(operation, separator, measure=False)
+                    self.generation_output(operation, separator, thinking=True, measure=False)
                 return
             activity = job.ai_activity
             if activity is None:
@@ -636,7 +642,12 @@ class SessionStore:
                 )
 
     def generation_output(
-        self, operation: SessionOperation, text: str, *, thinking: bool = False
+        self,
+        operation: SessionOperation,
+        text: str,
+        *,
+        thinking: bool = False,
+        measure: bool = True,
     ) -> None:
         if not text:
             return
@@ -658,15 +669,49 @@ class SessionStore:
                 if thinking:
                     job.thinking_parts.append(text)
                     job.thinking_bytes += added_bytes
-                    job.thinking_rate.record(text, self.clock())
-                    if job.ai_activity:
+                    if measure:
+                        job.thinking_rate.record(text, self.clock())
+                    if measure and job.ai_activity:
                         job.ai_activity.thinking_characters_received += len(text)
                 else:
                     job.stream_parts.append(text)
                     job.stream_bytes += added_bytes
-                    job.stream_rate.record(text, self.clock())
+                    if measure:
+                        job.stream_rate.record(text, self.clock())
                 session.retained_bytes += added_bytes
                 self._used_bytes += added_bytes
+
+    # The rendered snapshot replaces the previous version atomically with the same budget checks.
+    def generation_batch(
+        self, operation: SessionOperation, completed: int, total: int, preview: str | None
+    ) -> None:
+        with self._lock, operation.session.lock:
+            self.checkpoint(operation)
+            session = operation.session
+            job = session.generations.get(operation.operation_id)
+            if job is None or job.state != "running" or job.stage != "generating":
+                return
+            if not 0 <= completed <= total or completed < job.batches_completed:
+                raise ValueError("Invalid report batch progress")
+            if completed == 0 and job.batches_total or job.batches_total not in {0, total}:
+                raise ValueError("Report batch plan cannot change during generation")
+            size = serialized_bytes(preview) - 2 if preview is not None else 0
+            added_bytes = size - job.report_preview_bytes
+            if (
+                session.retained_bytes + self._session_reserved(session) + added_bytes
+                > self.limits.max_session_bytes
+            ):
+                raise ApplicationError(
+                    "SESSION_BUDGET", "Previzualizarea depășește bugetul sesiunii.", 409
+                )
+            self._check_global(max(0, added_bytes))
+            job.report_preview = preview
+            job.report_preview_bytes = size
+            job.batches_completed = completed
+            job.batches_total = total
+            job.preview_version += 1
+            session.retained_bytes += added_bytes
+            self._used_bytes += added_bytes
 
     def fail_generation(self, operation: SessionOperation, code: str, message: str) -> None:
         with self._lock, operation.session.lock:
