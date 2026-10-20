@@ -585,10 +585,10 @@ class OllamaReportClient(ResponsesClient):
             "shift": False,
             "options": {"num_predict": payload["max_output_tokens"]},
         }
-        # Gemma4 and Qwen3.5 support boolean thinking; omit it for Gemma3 and Ministral.
-        effort = payload.get("reasoning", {}).get("effort")
-        if effort and self.provider.model.startswith(("gemma4:", "qwen3.5:")):
-            native["think"] = effort != "none"
+        if self.provider.context_tokens is not None:
+            native["options"]["num_ctx"] = self.provider.context_tokens
+        if self.provider.thinking is not None:
+            native["think"] = self.provider.thinking
         if "temperature" in payload:
             native["options"]["temperature"] = payload["temperature"]
         url = f"{self.provider.base_url.removesuffix('/v1')}/api/chat"

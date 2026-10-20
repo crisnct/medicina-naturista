@@ -12,7 +12,7 @@ export function GeneratePanel({
   message,
   fragments,
   onGenerate,
-  reportModels = ["ollama-gemma4:12b", "ollama-gemma3:1b", "ollama-qwen3.5:9b", "ollama-qwen3.5:4b", "ollama-ministral-3:8b"],
+  reportModels = ["ollama-gemma4:12b", "ollama-gemma3:1b", "ollama-qwen3.5:9b", "ollama-qwen3.5:4b", "ollama-ministral-3:8b", "ollama-deepseek-r1:8b"],
   defaultReportModel,
   allowedReportModels = [],
   actionsDisabled = false,

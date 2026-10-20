@@ -20,7 +20,7 @@
 
 ## ✨ Despre proiect
 
-Proiectul transformă o colecție locală de documente Markdown despre medicină naturistă și terapii complementare într-un index hibrid interogabil. Interfața web primește problema descrisă de utilizator și afișează fragmentele relevante găsite în arhiva locală. După verificarea fragmentelor, utilizatorul alege modelul pentru fiecare raport: `ollama-gemma4:12b` este disponibil tuturor, iar `deepseek` doar adminului autorizat prin `/owner`. Aplicația trimite dovezile către furnizorul ales pentru redactarea răspunsului structurat și generează un raport PDF cu trimiteri la surse.
+Proiectul transformă o colecție locală de documente Markdown despre medicină naturistă și terapii complementare într-un index hibrid interogabil. Interfața web primește problema descrisă de utilizator și afișează fragmentele relevante găsite în arhiva locală. După verificarea fragmentelor, administratorul autorizat prin `/owner` alege modelul pentru fiecare raport, inclusiv modelele Ollama locale. Aplicația trimite dovezile către furnizorul ales pentru redactarea răspunsului structurat și generează un raport PDF cu trimiteri la surse. Generarea este rezervată administratorului pentru toate modelele.
 
 | 🧩 Componentă | Rol |
 |---|---|
@@ -66,7 +66,7 @@ Diagrama actualizată: [chatbot-external-connections.xmind](architecture/chatbot
 💬 recomandări în chat  +  📄 raport PDF  +  ✉️ e-mail opțional
 ```
 
-> **Local vs. extern:** documentele, fragmentarea, indexarea și retrieval-ul rulează local. Generarea trimite profilul consultației și fragmentele selectate către modelul ales în UI: cele patru modele locale prin `OLLAMA_API_BASE`, `deepseek-flash` prin API-ul DeepSeek, `DeepSeek-V4-Flash` prin routerul Hugging Face/DeepInfra sau `grok-4.3` prin API-ul xAI. Modelele externe necesită autorizarea de admin. Selecția se aplică doar raportului curent, fără modificarea variabilelor de mediu sau fallback la alt furnizor. Identificarea unei afecțiuni necunoscute trimite numai mesajul către Ollama de pe host. La timeout, eroare de comunicare sau răspuns invalid, afecțiunea rămâne neidentificată; nu se apelează alt furnizor AI. Livrarea prin Gmail este opțională.
+> **Local vs. extern:** documentele, fragmentarea, indexarea și retrieval-ul rulează local. Generarea trimite profilul consultației și fragmentele selectate către modelul ales în UI: modelele locale prin `OLLAMA_API_BASE`, `deepseek-flash` prin API-ul DeepSeek, `DeepSeek-V4-Flash` prin routerul Hugging Face/DeepInfra sau `grok-4.3` prin API-ul xAI. Generarea cu orice model necesită autorizarea de admin. Selecția se aplică doar raportului curent, fără modificarea variabilelor de mediu sau fallback la alt furnizor. Identificarea unei afecțiuni necunoscute trimite numai mesajul către Ollama de pe host. La timeout, eroare de comunicare sau răspuns invalid, afecțiunea rămâne neidentificată; nu se apelează alt furnizor AI. Livrarea prin Gmail este opțională.
 
 ## 🛠️ Tehnologii folosite
 
@@ -235,7 +235,7 @@ $env:PYTHONPATH = "src"
 Pentru rapoarte, instalați modelul `gemma4:12b` în Ollama pe host. Pentru opțiunea DeepSeek a adminului, adăugați cheia DeepSeek și cheia de owner în fișierul local `.env`:
 
 ```dotenv
-REPORT_GENERATION_MODELS=ollama-gemma3:1b,ollama-gemma4:12b,ollama-ministral-3:8b,ollama-qwen3.5:9b,ollama-qwen3.5:4b,deepseek-flash,huggingface-deepseek-v4-flash,grok-4.3
+REPORT_GENERATION_MODELS=ollama-gemma3:1b,ollama-gemma4:12b,ollama-ministral-3:8b,ollama-qwen3.5:9b,ollama-qwen3.5:4b,ollama-deepseek-r1:8b,deepseek-flash,huggingface-deepseek-v4-flash,grok-4.3
 DEEPSEEK_API_KEY=...
 OWNER_KEY=o-cheie-secreta-lunga
 COOKIE_SECURE=false
@@ -380,7 +380,7 @@ Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit î
 
 **Ollama rulează separat, pe host (Windows), și trebuie pornit înaintea aplicației.** Containerul `app` îl accesează prin `http://host.docker.internal:11434/v1`, atât pentru clasificarea mesajelor și identificarea afecțiunilor (`CONDITION_AI_LOCAL_BASE`), cât și pentru rapoartele cu `ollama-gemma4:12b` (`OLLAMA_API_BASE`). Descărcați modelul de raport cu `ollama pull gemma4:12b` și modelul ales în `MEDICAL_CONDITION_AI_LOCAL_MODEL` (implicit `gemma3:1b`). Modelele sunt administrate de instalarea Ollama de pe host.
 
-Pentru rapoartele `ollama-gemma4:12b`, clientul derivă `/api/chat` din `OLLAMA_API_BASE` eliminând sufixul `/v1`. Folosește format JSON nativ, `truncate=false` și `shift=false`: intrarea nu este scurtată automat și nu sunt eliminate porțiuni din context pentru a continua generarea. O depășire a contextului este raportată ca `AI_CONTEXT_LIMIT_EXCEEDED`, cu mesajul de a selecta mai puține fragmente sau de a crește scorul minim. Contextul modelului rămâne maxim; bugetul în caractere nu este o garanție de încadrare în tokeni. Intrarea, instrucțiunile și ieșirea trebuie să încapă împreună în context. Clasificarea și identificarea afecțiunilor păstrează clientul Responses existent.
+Pentru rapoartele Ollama, clientul derivă `/api/chat` din `OLLAMA_API_BASE` eliminând sufixul `/v1`. Folosește format JSON nativ, `truncate=false` și `shift=false`: intrarea nu este scurtată automat și nu sunt eliminate porțiuni din context pentru a continua generarea. O depășire a contextului este raportată ca `AI_CONTEXT_LIMIT_EXCEEDED`, cu mesajul de a selecta mai puține fragmente sau de a crește scorul minim. R1 8B are context explicit per cerere; pentru celelalte modele, dacă nu există un override, se păstrează configurația serverului Ollama. Bugetul în caractere nu este o garanție de încadrare în tokeni. Intrarea, instrucțiunile și ieșirea trebuie să încapă împreună în context. Clasificarea și identificarea afecțiunilor păstrează clientul Responses existent.
 
 Pentru `gemma4:12b` cu contextul maxim de 262.144 tokeni, configurația de performanță măsurată pe GPU-ul local folosește următoarele variabile **pe Windows**, în PowerShell:
 
@@ -481,9 +481,11 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `OLLAMA_API_KEY` | — | Necesară doar când `OLLAMA_API_BASE` nu este local (ex. `https://ollama.com/v1`). |
 | `OLLAMA_REASONING_EFFORT` | _(gol)_ | Pentru Gemma4 și Qwen3.5, controlează `think`: `none` îl dezactivează, celelalte valori îl activează. Pentru Gemma3 și Ministral este omis. |
 | `OLLAMA_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru modelele Ollama; pentru modele locale mici trebuie coborât. |
+| `OLLAMA_NUM_CTX_BY_MODEL` | `{"ollama-deepseek-r1:8b":16384}` | Obiect JSON cu contextul în tokeni per model Ollama din catalog. Cheile omise păstrează valorile implicite; celelalte modele nu trimit `num_ctx` dacă nu sunt configurate explicit. |
+| `OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL` | `{"ollama-deepseek-r1:8b":8192}` | Obiect JSON cu limita de ieșire per model Ollama. Pentru celelalte modele se păstrează limita globală. Valorile trebuie să fie întregi pozitive, iar ieșirea trebuie să fie mai mică decât contextul explicit. Cheile necunoscute, modelele externe și duplicatele sunt respinse. |
 | `MEDICAL_CONDITION_AI_LOCAL_MODEL` | `gemma3:1b` | Modelul Ollama local pentru clasificarea mesajului și identificarea afecțiunii; se descarcă pe host cu `ollama pull <model>`, inclusiv când aplicația rulează în Docker. |
-| `REPORT_GENERATION_MODELS` | cele 8 modele în ordinea catalogului de mai jos | Listă CSV ordonată a modelelor disponibile. Primul este implicit. Ordinea din UI este aceeași; drepturile controlează generarea, nu vizibilitatea opțiunilor. Listele goale, elementele goale, modelele necunoscute și duplicatele sunt respinse la pornire. Alegerea din UI se aplică numai jobului respectiv. |
-| `REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL` | `25000` pentru fiecare model | Obiect JSON cu limite de caractere separate pentru identificatorii din catalog. Lipsă/valoare goală → valorile implicite; un obiect explicit trebuie să includă fiecare model activat. Workers: unul singur, hardcodat, fără variabilă de mediu. |
+| `REPORT_GENERATION_MODELS` | cele 9 modele în ordinea catalogului de mai jos | Listă CSV ordonată a modelelor disponibile. Primul este implicit. Ordinea din UI este aceeași; drepturile controlează generarea, nu vizibilitatea opțiunilor. Listele goale, elementele goale, modelele necunoscute și duplicatele sunt respinse la pornire. Alegerea din UI se aplică numai jobului respectiv. |
+| `REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL` | `8000` pentru R1 8B, `25000` pentru celelalte | Obiect JSON cu limite de caractere separate pentru identificatorii din catalog. Lipsă/valoare goală → valorile implicite; un obiect explicit trebuie să includă fiecare model activat. Se numără numai textele fragmentelor. Workers: unul singur, hardcodat, fără variabilă de mediu. |
 | `CONDITION_AI_LOCAL_BASE` | `http://localhost:11434/v1` (direct) / `http://host.docker.internal:11434/v1` (Compose) | Adresa Ollama de pe host, folosită pentru clasificarea mesajului și identificarea afecțiunii. |
 | `CONDITION_AI_TIMEOUT_SECONDS` | `10` | Timeout pentru identificarea afecțiunii prin Ollama local. |
 | `MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS` | `10` | Timeout la clasificare prin Ollama local, independent de identificarea afecțiunii. |
@@ -699,11 +701,16 @@ La finalul PDF-ului, după bibliografie și sumarul generării, apare `Model AI 
 | `ollama-ministral-3:8b` | Ollama local | `ministral-3:8b` |
 | `ollama-qwen3.5:9b` | Ollama local | `qwen3.5:9b` |
 | `ollama-qwen3.5:4b` | Ollama local | `qwen3.5:4b` |
+| `ollama-deepseek-r1:8b` | Ollama local | `deepseek-r1:8b` |
 | `deepseek-flash` | DeepSeek | `deepseek-flash` |
 | `huggingface-deepseek-v4-flash` | Hugging Face / DeepInfra | `deepseek-ai/DeepSeek-V4-Flash:deepinfra` |
 | `grok-4.3` | xAI | `grok-4.3` |
 
-Toate modelele Ollama pentru rapoarte folosesc ruta nativă `/api/chat`. Parametrul de thinking este activat conform configurării pentru Gemma4 și Qwen3.5; pentru Gemma3 și Ministral este omis. Instalați pe host modelul local ales înainte de utilizare; opțiunea `ollama-ministral-3:8b` folosește tagul Ollama `ministral-3:8b`.
+Toate modelele Ollama pentru rapoarte folosesc ruta nativă `/api/chat`. Parametrul de thinking este activat conform configurării pentru Gemma4 și Qwen3.5; pentru Gemma3 și Ministral este omis. R1 8B folosește explicit `think=true`, independent de `OLLAMA_REASONING_EFFORT`. Instalați pe host modelul local ales înainte de utilizare; opțiunea `ollama-ministral-3:8b` folosește tagul Ollama `ministral-3:8b`.
+
+Pentru `ollama-deepseek-r1:8b`, instalați modelul cu `ollama pull deepseek-r1:8b`. Tagul actual este DeepSeek-R1-0528-Qwen3-8B, Q4_K_M, care acceptă promptul `system` existent. Profilul implicit trimite `num_ctx=16384`, `num_predict=8192` și loturi de maximum 8.000 de caractere de fragmente; un fragment mai mare rămâne întreg într-un lot separat. Limita globală de ieșire nu înlocuiește limita specifică R1. Contextul include și promptul, profilul, metadatele, raționamentul și răspunsul, deci limita în caractere nu garantează încadrarea în tokeni. Depășirea oprește generarea fără trunchiere sau fallback.
+
+Ollama rulează pe GPU-ul hostului; containerul FastAPI nu necesită acces CUDA pentru rapoarte. Contextul R1 explicit înlocuiește pentru această cerere valoarea globală `OLLAMA_CONTEXT_LENGTH`. Verificați în timpul generării `ollama ps`: `100% GPU` indică încărcarea integrală a modelului pe GPU. Configurarea singură nu garantează încadrarea în VRAM. Nu sunt adăugate apeluri de warm-up la pornire. R1 14B nu este integrat.
 
 Dacă Ollama răspunde că modelul cerut nu este găsit, jobul primește `AI_MODEL_NOT_FOUND`, iar interfața afișează că modelul selectat nu este instalat sau nu este disponibil.
 
@@ -738,7 +745,7 @@ Un singur worker hardcodat (`REPORT_GENERATION_WORKERS = 1`) trimite requests su
 `REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL` permite limite diferite per model. În `.env`, exemplu cu valorile inițiale:
 
 ```dotenv
-REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL='{"ollama-gemma3:1b":25000,"ollama-gemma4:12b":25000,"ollama-ministral-3:8b":25000,"ollama-qwen3.5:9b":25000,"ollama-qwen3.5:4b":25000,"deepseek-flash":25000,"huggingface-deepseek-v4-flash":25000,"grok-4.3":25000}'
+REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL='{"ollama-gemma3:1b":25000,"ollama-gemma4:12b":25000,"ollama-ministral-3:8b":25000,"ollama-qwen3.5:9b":25000,"ollama-qwen3.5:4b":25000,"ollama-deepseek-r1:8b":8000,"deepseek-flash":25000,"huggingface-deepseek-v4-flash":25000,"grok-4.3":25000}'
 ```
 
 Se însumează caracterele textului fragmentelor, fără profil, prompt sau serializare. Un fragment individual peste limită este acceptat întreg și trimis singur într-un request. Limita în caractere nu garantează încadrarea în contextul în tokeni al modelului; o eroare a furnizorului rămâne explicită, fără trunchiere automată. Bugetele `*_MAX_CONTEXT_CHARS` ale căutării locale rămân separate de această limită per request.

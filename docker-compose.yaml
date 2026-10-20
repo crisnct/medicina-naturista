@@ -60,8 +60,10 @@ services:
       OLLAMA_API_KEY: ${OLLAMA_API_KEY:-}
       OLLAMA_REASONING_EFFORT: ${OLLAMA_REASONING_EFFORT:-}
       OLLAMA_MAX_CONTEXT_CHARS: ${OLLAMA_MAX_CONTEXT_CHARS:-1000000}
+      OLLAMA_NUM_CTX_BY_MODEL: ${OLLAMA_NUM_CTX_BY_MODEL:-}
+      OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL: ${OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL:-}
       MEDICAL_CONDITION_AI_LOCAL_MODEL: ${MEDICAL_CONDITION_AI_LOCAL_MODEL:-gemma3:1b}
-      REPORT_GENERATION_MODELS: ${REPORT_GENERATION_MODELS:-ollama-gemma3:1b,ollama-gemma4:12b,ollama-ministral-3:8b,ollama-qwen3.5:9b,ollama-qwen3.5:4b,deepseek-flash,huggingface-deepseek-v4-flash,grok-4.3}
+      REPORT_GENERATION_MODELS: ${REPORT_GENERATION_MODELS:-ollama-gemma3:1b,ollama-gemma4:12b,ollama-ministral-3:8b,ollama-qwen3.5:9b,ollama-qwen3.5:4b,ollama-deepseek-r1:8b,deepseek-flash,huggingface-deepseek-v4-flash,grok-4.3}
       REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL: ${REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL:-}
       CONDITION_AI_LOCAL_BASE: ${CONDITION_AI_LOCAL_BASE:-http://host.docker.internal:11434/v1}
       CONDITION_AI_TIMEOUT_SECONDS: ${CONDITION_AI_TIMEOUT_SECONDS:-10}

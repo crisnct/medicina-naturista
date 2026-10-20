@@ -7,6 +7,7 @@ from typing import Any, Callable, Literal, TypedDict
 from urllib.parse import urlparse
 
 from backend.config import Settings
+from backend.core.report_models import REPORT_MODELS
 
 # How the provider is asked for a JSON object: Responses-style `text.format`,
 # Chat-Completions-style `response_format`, or only through the system prompt
@@ -41,6 +42,8 @@ class ProviderConfig:
     # Sampling temperature sent with the request; None leaves the provider's default.
     temperature: float | None = None
     response_schema: dict[str, Any] | None = None
+    context_tokens: int | None = None
+    thinking: bool | None = None
 
 
 # Whether the URL points at this machine (or the Docker host), where Ollama needs no key.
@@ -104,6 +107,27 @@ def provider_config(settings: Settings) -> ProviderConfig:
             max_context_chars=settings.hf_max_context_chars,
             **common,
         )
+    choice = next(
+        (
+            choice
+            for choice, spec in REPORT_MODELS.items()
+            if spec.provider == "ollama" and spec.model == settings.ollama_model
+        ),
+        None,
+    )
+    context_tokens = None
+    thinking = None
+    if choice is not None:
+        context_tokens = settings.ollama_num_ctx_by_model.get(choice)
+        common["max_output_tokens"] = settings.ollama_max_output_tokens_by_model.get(
+            choice, common["max_output_tokens"]
+        )
+        thinking = REPORT_MODELS[choice].thinking
+    # Preserve the existing optional boolean control for these model families.
+    if settings.ollama_reasoning_effort and settings.ollama_model.startswith(
+        ("gemma4:", "qwen3.5:")
+    ):
+        thinking = settings.ollama_reasoning_effort != "none"
     return ProviderConfig(
         name="ollama",
         label="Ollama",
@@ -116,5 +140,7 @@ def provider_config(settings: Settings) -> ProviderConfig:
         json_format=None,
         send_store=False,
         max_context_chars=settings.ollama_max_context_chars,
+        context_tokens=context_tokens,
+        thinking=thinking,
         **common,
     )

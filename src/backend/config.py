@@ -13,7 +13,6 @@ from urllib.parse import urlsplit
 from dotenv import load_dotenv
 
 from backend.core.report_models import (
-    DEFAULT_REPORT_BATCH_MAX_CHARS,
     DEFAULT_REPORT_MODEL,
     DEFAULT_REPORT_MODELS,
     REPORT_MODELS,
@@ -38,7 +37,9 @@ def _batch_limits(value: str | None = None) -> Mapping[ReportModel, int]:
         return result
 
     if value is None or not value.strip():
-        return MappingProxyType(dict.fromkeys(REPORT_MODELS, DEFAULT_REPORT_BATCH_MAX_CHARS))
+        return MappingProxyType(
+            {model: spec.batch_max_chars for model, spec in REPORT_MODELS.items()}
+        )
     try:
         parsed = json.loads(value, object_pairs_hook=unique_pairs)
     except (ValueError, TypeError):
@@ -57,6 +58,48 @@ def _batch_limits(value: str | None = None) -> Mapping[ReportModel, int]:
     if parsed.keys() - REPORT_MODELS.keys():
         raise ValueError("Report batch limits contain an unsupported model")
     return MappingProxyType(result)
+
+
+# Freeze validated Ollama overrides before any clients are constructed.
+def _freeze_ollama_limits(
+    limits: Mapping[ReportModel, int], name: str
+) -> Mapping[ReportModel, int]:
+    if not isinstance(limits, Mapping) or any(
+        model not in REPORT_MODELS
+        or REPORT_MODELS[model].provider != "ollama"
+        or type(limit) is not int
+        or limit <= 0
+        for model, limit in limits.items()
+    ):
+        raise ValueError(f"{name} must map supported Ollama models to positive integers")
+    return MappingProxyType(dict(limits))
+
+
+# Missing keys inherit catalog defaults; duplicate JSON keys never silently win.
+def _ollama_limits(value: str | None, name: str, field_name: str) -> Mapping[ReportModel, int]:
+    defaults = {
+        model: limit
+        for model, spec in REPORT_MODELS.items()
+        if spec.provider == "ollama" and (limit := getattr(spec, field_name)) is not None
+    }
+    if not value or not value.strip():
+        return _freeze_ollama_limits(defaults, name)
+
+    def unique_pairs(pairs: list[tuple[str, object]]) -> dict[str, object]:
+        result: dict[str, object] = {}
+        for key, item in pairs:
+            if key in result:
+                raise ValueError(f"{name} contains duplicate keys")
+            result[key] = item
+        return result
+
+    try:
+        parsed = json.loads(value, object_pairs_hook=unique_pairs)
+    except (ValueError, TypeError):
+        raise ValueError(f"{name} must be a JSON object with unique model keys") from None
+    if not isinstance(parsed, dict):
+        raise ValueError(f"{name} must be a JSON object")
+    return _freeze_ollama_limits(defaults | parsed, name)
 
 
 # Read an integer setting and reject values outside its safety bounds.
@@ -145,6 +188,14 @@ class Settings:
     ollama_api_base: str = "http://localhost:11434/v1"
     ollama_reasoning_effort: str = ""
     ollama_max_context_chars: int = 1_000_000
+    ollama_num_ctx_by_model: Mapping[ReportModel, int] = field(
+        default_factory=lambda: _ollama_limits(None, "OLLAMA_NUM_CTX_BY_MODEL", "context_tokens")
+    )
+    ollama_max_output_tokens_by_model: Mapping[ReportModel, int] = field(
+        default_factory=lambda: _ollama_limits(
+            None, "OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL", "max_output_tokens"
+        )
+    )
     deepseek_model: str = REPORT_MODELS["deepseek-flash"].model
     deepseek_api_base: str = "https://api.deepseek.com"
     deepseek_reasoning_effort: str = ""
@@ -252,6 +303,14 @@ class Settings:
             ollama_api_base=env.get("OLLAMA_API_BASE", "http://localhost:11434/v1").rstrip("/"),
             ollama_reasoning_effort=env.get("OLLAMA_REASONING_EFFORT", "").strip(),
             ollama_max_context_chars=_int("OLLAMA_MAX_CONTEXT_CHARS", 1000000, env=env),
+            ollama_num_ctx_by_model=_ollama_limits(
+                env.get("OLLAMA_NUM_CTX_BY_MODEL"), "OLLAMA_NUM_CTX_BY_MODEL", "context_tokens"
+            ),
+            ollama_max_output_tokens_by_model=_ollama_limits(
+                env.get("OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL"),
+                "OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL",
+                "max_output_tokens",
+            ),
             deepseek_api_base=env.get("DEEPSEEK_API_BASE", "https://api.deepseek.com").rstrip("/"),
             deepseek_reasoning_effort=env.get("DEEPSEEK_REASONING_EFFORT", "").strip(),
             deepseek_max_context_chars=_int("DEEPSEEK_MAX_CONTEXT_CHARS", 1000000, env=env),
@@ -336,6 +395,15 @@ class Settings:
             self, "report_generation_batch_max_chars", MappingProxyType(dict(limits))
         )
         _ai_provider(self.ai_provider)
+        contexts = _freeze_ollama_limits(self.ollama_num_ctx_by_model, "OLLAMA_NUM_CTX_BY_MODEL")
+        outputs = _freeze_ollama_limits(
+            self.ollama_max_output_tokens_by_model, "OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL"
+        )
+        for model, context in contexts.items():
+            if outputs.get(model, self.ai_max_output_tokens) >= context:
+                raise ValueError("Ollama output token limit must be smaller than its context")
+        object.__setattr__(self, "ollama_num_ctx_by_model", contexts)
+        object.__setattr__(self, "ollama_max_output_tokens_by_model", outputs)
         for name in ("ai_stream", "log_fragment_text", "log_ai_response_text", "cookie_secure"):
             if not isinstance(getattr(self, name), bool):
                 raise ValueError(f"{name} must be boolean")
