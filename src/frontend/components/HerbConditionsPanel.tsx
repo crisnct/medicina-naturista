@@ -14,13 +14,13 @@ export function HerbConditionsPanel({ message }: { message: HerbConditionsMessag
           🌿 {herbName}{" "}
           <span className="herb-title-details">
             {speciesNames && <span className="herb-species">({speciesNames}) </span>}
-            -- plantă utilă în <strong className="herb-condition-count">{message.entriesCount}</strong> afecțiuni
+            — utilă în <strong className="herb-condition-count">{message.entriesCount}</strong> afecțiuni din catalog
           </span>
         </h3>
       </div>
       <p className="herb-association-note">Lista reflectă asocieri din biblioteca naturistă, inclusiv atenționări și contraindicații.</p>
       {message.entriesCount === 0 ? (
-        <p>Planta există în catalog, dar nu are afecțiuni asociate în indexul actual.</p>
+        <p>Intrarea există în catalog, dar nu are afecțiuni asociate în indexul actual.</p>
       ) : (
         <ul className="herb-conditions-list" aria-label="Afecțiuni asociate">
           {message.conditions.map((condition) => (

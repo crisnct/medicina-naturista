@@ -55,6 +55,12 @@ Mai multe afecțiuni în aceeași cerere de remedii nu sunt intenții incompatib
 
 ## 2. `planta`
 
+Intenția `planta` acoperă și produsele recunoscute în catalog: suplimente, uleiuri
+esențiale, aminoacizi, vitamine, minerale, produse apicole, fibre, probiotice și
+prebiotice. Folosește numele canonic din catalog în `herb_name`, inclusiv pentru
+propolis, vitamina C sau magneziu. O cerere de remedii pentru o afecțiune rămâne
+`remedii`, chiar dacă menționează un produs.
+
 Alege `planta` când utilizatorul cere informații despre o anumită plantă medicinală, fără să ceară remedii pentru o afecțiune.
 
 Exemple:

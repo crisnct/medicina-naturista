@@ -39,8 +39,10 @@ def test_failure_keeps_search_and_never_creates_pdf_or_retries(web, failure):
         ) as ai,
         patch.object(test.deps, "pdf") as pdf,
     ):
-        response = support.post_report(test.client,
-            f"/api/searches/{search}/generate", headers=support._headers(sid, tab, True)
+        response = support.post_report(
+            test.client,
+            f"/api/searches/{search}/generate",
+            headers=support._headers(sid, tab, True),
         )
         assert response.status_code == 202
         assert not any(m["kind"] == "download" for m in response.json()["messages"])
@@ -50,8 +52,8 @@ def test_failure_keeps_search_and_never_creates_pdf_or_retries(web, failure):
     session = test.deps.store.get(sid, tab)
     assert search in session.searches and not session.reports
     assert test.deps.store.metrics()["reserved_bytes"] == 0
-    response = support.post_report(test.client,
-        f"/api/searches/{search}/generate", headers=support._headers(sid, tab, True)
+    response = support.post_report(
+        test.client, f"/api/searches/{search}/generate", headers=support._headers(sid, tab, True)
     )
     assert any(m["kind"] == "download" for m in response.json()["messages"])
 
@@ -64,8 +66,10 @@ def test_partial_publication_download_and_email_use_identical_pdf(web):
         {"text": "SECRET_INVALID", "evidence_ids": ["C1", "bad"]},
     ]
     with patch.object(test.deps.ai, "generate", return_value=value):
-        response = support.post_report(test.client,
-            f"/api/searches/{search}/generate", headers=support._headers(sid, tab, True)
+        response = support.post_report(
+            test.client,
+            f"/api/searches/{search}/generate",
+            headers=support._headers(sid, tab, True),
         ).json()
     assert response["partial"]
     assert response["validationWarnings"][0]["code"] == "UNKNOWN_EVIDENCE"

@@ -9,7 +9,10 @@ Object.defineProperty(HTMLElement.prototype, "scrollIntoView", { configurable: t
 const capacityMessage = "Serviciul este temporar indisponibil. Încercați mai târziu.";
 
 afterEach(() => vi.restoreAllMocks());
-beforeEach(() => vi.spyOn(api, "getReportModels").mockResolvedValue({ models: ["ollama-gemma4:12b"] }));
+beforeEach(() => {
+  vi.spyOn(api, "getStartup").mockResolvedValue({ status: "ready", message: null });
+  vi.spyOn(api, "getReportModels").mockResolvedValue({ models: ["ollama-gemma4:12b"] });
+});
 
 describe("session admission", () => {
   it("explains the session creation limit and shows the server's remaining wait", async () => {

@@ -60,7 +60,7 @@ logger = logging.getLogger("naturist.conversation")
 NO_FRAGMENT_ABOVE_MIN_SCORE = (
     "Niciun fragment nu atinge scorul minim selectat. Alegeți un prag mai mic."
 )
-WELCOME = "👋 Cu ce vă pot ajuta?"
+WELCOME = "Bună ziua,\n👋 Cu ce vă pot ajuta?"
 NO_CATEGORY_SELECTED_MESSAGE = "Nicio sursă selectată. Bifați cel puțin o categorie în panoul „Căutare avansată” înainte de căutare."
 CONDITION_AI_NOTICE = "🤖 Nu am găsit afecțiunea în dicționarul meu. Încerc să o identific cu ajutorul AI. Vă rog să așteptați."
 CONDITION_NOT_IDENTIFIED_MESSAGE = "⚠️ Nu am putut identifica afecțiunea din mesaj."
@@ -494,7 +494,8 @@ class ConversationService:
                 notices.append(
                     text_message(
                         "assistant",
-                        "Precizați o singură solicitare: remedii, o plantă sau o întrebare generală.",
+                        "Precizați o singură solicitare: remedii, o plantă, "
+                        "un produs sau o întrebare generală.",
                     )
                 )
                 return self._commit_route(operation, notices)
@@ -560,23 +561,27 @@ class ConversationService:
             operation.snapshot.routing.clarification = "top_plante"
             notices.append(
                 text_message(
-                    "assistant", "Câte plante doriți în top? Precizați un număr între 1 și 10000."
+                    "assistant", "Câte intrări doriți în top? Precizați un număr între 1 și 10000."
                 )
             )
         else:
             if self.top_herbs is None:
                 raise ApplicationError(
-                    "HERB_CATALOG_UNAVAILABLE", "Catalogul de plante nu este disponibil.", 503
+                    "HERB_CATALOG_UNAVAILABLE",
+                    "Catalogul de plante și produse nu este disponibil.",
+                    503,
                 )
             with operation_budget(self.budget(operation)):
                 herbs = self.top_herbs(decision.top_count)
             self.store.checkpoint(operation)
             if not herbs:
-                content = "Catalogul nu conține plante pentru acest top."
+                content = "Catalogul nu conține intrări pentru acest top."
             else:
                 lines = [
-                    f"### Top {len(herbs)} plante medicinale după numărul de afecțiuni "
-                    "din catalog la care sunt utile"
+                    f"### Top {len(herbs)} plante și produse după numărul de afecțiuni "
+                    "asociate în bibliotecă",
+                    "Asocierile includ atenționări și contraindicații; "
+                    "nu demonstrează eficacitatea terapeutică.",
                 ]
                 for position, herb in enumerate(herbs, 1):
                     aliases = (
@@ -586,9 +591,9 @@ class ConversationService:
                     )
                     conditions = "afecțiune" if herb["ranking"] == 1 else "afecțiuni"
                     name = herb["ro"][:1].upper() + herb["ro"][1:]
-                    latin = herb["latin"].title()
+                    latin = f" ({herb['latin'].title()})" if herb["latin"] else ""
                     lines.append(
-                        f"{position}. **{name}** ({latin}) — utilă în "
+                        f"{position}. **{name}**{latin} — asociere în bibliotecă cu "
                         f"{herb['ranking']} {conditions}{aliases}"
                     )
                 content = "\n".join(lines)
@@ -607,13 +612,15 @@ class ConversationService:
             notices.append(
                 text_message(
                     "assistant",
-                    "Despre ce plantă medicinală doriți informații? Precizați o singură plantă.",
+                    "Despre ce plantă sau produs doriți informații? Precizați o singură intrare.",
                 )
             )
         else:
             if self.herb_lookup is None:
                 raise ApplicationError(
-                    "HERB_CATALOG_UNAVAILABLE", "Catalogul de plante nu este disponibil.", 503
+                    "HERB_CATALOG_UNAVAILABLE",
+                    "Catalogul de plante și produse nu este disponibil.",
+                    503,
                 )
             with operation_budget(self.budget(operation)):
                 data = self.herb_lookup(decision.herb_name)
@@ -623,7 +630,8 @@ class ConversationService:
                 notices.append(
                     text_message(
                         "assistant",
-                        "Nu am găsit planta în catalog. Scrieți alt nume românesc sau denumirea latină.",
+                        "Nu am găsit intrarea în catalog. Scrieți un nume românesc, "
+                        "englezesc sau denumirea latină a plantei.",
                     )
                 )
             elif data["status"] == "ambiguous":
@@ -632,7 +640,7 @@ class ConversationService:
                 notices.append(
                     text_message(
                         "assistant",
-                        "Numele corespunde mai multor plante. Alegeți una: "
+                        "Numele corespunde mai multor intrări în catalog. Alegeți una: "
                         + ", ".join(routing.herb_choices)
                         + ".",
                     )

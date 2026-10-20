@@ -17,7 +17,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 from backend.ai.conditions import _normalize  # noqa: E402
-from backend.ai.herbs import load_herbs  # noqa: E402
+from backend.ai.herbs import PRODUCT_FAMILIES, load_herbs  # noqa: E402
 from backend.config import Settings, configure_settings  # noqa: E402
 
 REVIEW = ROOT / "tmp" / "herbs_candidates.jsonl"
@@ -35,7 +35,9 @@ def read_jsonl(path: Path) -> list[dict]:
 
 def main() -> None:
     configure_settings(Settings.from_env(dotenv=True))
-    herbs = load_herbs().herbs
+    catalog = load_herbs().herbs
+    herbs = [herb for herb in catalog if herb.family not in PRODUCT_FAMILIES]
+    products = [herb for herb in catalog if herb.family in PRODUCT_FAMILIES]
     review = {_normalize(row["latin"]): row for row in read_jsonl(REVIEW)}
     provenance = {_normalize(row["latin"]): row for row in read_jsonl(PROVENANCE)}
     # the review list names a species by the name it had then: map renamed ones back
@@ -47,9 +49,14 @@ def main() -> None:
         ]:
             if _normalize(old) in review and _normalize(row["latin"]) not in review:
                 review[_normalize(row["latin"])] = review[_normalize(old)]
-    out: list[str] = ["# Raport de verificare: catalogul PostgreSQL de plante", ""]
+    out: list[str] = ["# Raport de verificare: catalogul PostgreSQL de plante și produse", ""]
 
     out += ["## Totaluri", "", f"- specii: **{len(herbs)}**"]
+    out += [f"- produse: **{len(products)}**", f"- total intrări: **{len(catalog)}**"]
+    out += [
+        f"- {family}: {count}"
+        for family, count in sorted(collections.Counter(h.family for h in products).items())
+    ]
     if review:
         groups = collections.Counter(
             review.get(_normalize(h.latin), {}).get("group", "?") for h in herbs
@@ -159,9 +166,11 @@ def main() -> None:
             f"{', '.join(prov.get('sources', []))} | {regional} |"
         )
 
+    out += ["", "## Produse fără specie botanică", "", "| ro | en | familie |", "|---|---|---|"]
+    out += [f"| {h.ro} | {h.en} | {h.family} |" for h in products]
     TARGET.parent.mkdir(parents=True, exist_ok=True)
     TARGET.write_text("\n".join(out) + "\n", encoding="utf-8")
-    print(f"{len(herbs)} species -> {TARGET}")
+    print(f"{len(herbs)} species, {len(products)} products -> {TARGET}")
 
 
 if __name__ == "__main__":

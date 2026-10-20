@@ -290,9 +290,9 @@ body {
 
 .message-wrap.user .message {
     max-width: 72%;
-    border: 1px solid #2f7d6d;
+    border: 1px solid #398371;
     border-radius: 16px 6px 16px 16px;
-    background: #2f7d6d;
+    background: #398371;
     color: #fff;
 }
 
@@ -775,7 +775,7 @@ body {
 }
 
 #health-message::placeholder {
-    color: var(--nature-muted);
+    color: #6b7770;
 }
 
 #health-message:focus {

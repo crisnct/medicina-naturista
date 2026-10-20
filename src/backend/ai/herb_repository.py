@@ -32,7 +32,7 @@ class HerbCatalogUnavailable(ApplicationError):
     def __init__(self) -> None:
         super().__init__(
             "HERB_CATALOG_UNAVAILABLE",
-            "Catalogul de plante lipsește sau este invalid. Rulați migrările.",
+            "Catalogul de plante și produse lipsește sau este invalid. Rulați migrările.",
             503,
         )
 
@@ -63,6 +63,7 @@ def read_herbs(connection: Connection) -> tuple[Herb, ...]:
     ).fetchall()
     records: dict[int, dict] = {}
     for herb_id, family, latin, ro, en, name, kind in rows:
+        latin = "" if latin is None else latin
         if type(herb_id) is not int or not all(isinstance(v, str) for v in (family, latin, ro, en)):
             raise HerbCatalogUnavailable()
         record = records.setdefault(

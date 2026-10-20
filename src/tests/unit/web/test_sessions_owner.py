@@ -142,6 +142,7 @@ class HTTPPlanTests(unittest.TestCase):
         self.assertEqual(self.deps.store.count(), 1)
 
     def test_concurrent_reports_are_accepted_queued_and_processed_sequentially(self):
+        self.login()
         ai = self.deps.ai
         ai.entered, ai.release = threading.Event(), threading.Event()
         self.addCleanup(ai.release.set)
@@ -433,7 +434,7 @@ class HTTPPlanTests(unittest.TestCase):
                 ) as generate:
                     response = self.client.post(
                         f"/api/searches/{search_id}/generate",
-                        json={"model": "deepseek"},
+                        json={"model": "deepseek-flash"},
                         headers=headers,
                     )
                 self.assertEqual(response.status_code, 202, response.text)

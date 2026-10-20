@@ -23,7 +23,7 @@ from scripts.bootstrap_database import ensure_database
 from tests.support.postgres import PostgresFixture
 
 fixture = PostgresFixture()
-INITIAL_FINGERPRINT = "e223532a183ff14d072481e097a36f4ba1a72dc3d40b56a9fbca89baf38dd67f"
+INITIAL_FINGERPRINT = "36483329a4b299dc38a19e10280eee764389b471063cadf51c7dc8367bbfb99a"
 
 
 def setUpModule():
@@ -54,18 +54,18 @@ class HerbDatabaseTests(unittest.TestCase):
     def test_seed_schema_counts_and_fingerprint_without_jsonl(self):
         with psycopg.connect(self.url) as connection:
             items = repository.read_herbs(connection)
-            self.assertEqual(len(items), 1188)
-            self.assertEqual({h.id for h in items}, set(range(1, 1189)))
+            self.assertEqual(len(items), 1579)
+            self.assertEqual({h.id for h in items}, set(range(1, 1580)))
             self.assertEqual(repository.catalog_fingerprint(items), INITIAL_FINGERPRINT)
             self.assertEqual(sum(not h.en for h in items), 79)
             self.assertEqual(
                 connection.execute(
                     "SELECT kind, count(*) FROM herb_aliases GROUP BY kind ORDER BY kind"
                 ).fetchall(),
-                [("en_alt", 2205), ("latin_synonyms", 225), ("ro_regional", 704)],
+                [("en_alt", 2205), ("latin_synonyms", 226), ("ro_regional", 705)],
             )
             for table, expected in (
-                ("herbs", ["id", "family", "latin", "ro", "en"]),
+                ("herbs", ["id", "family", "latin", "ro", "en", "ranking"]),
                 ("herb_aliases", ["id", "herb_id", "name", "kind"]),
             ):
                 columns = connection.execute(
@@ -113,7 +113,7 @@ class HerbDatabaseTests(unittest.TestCase):
             identifier = connection.execute(
                 "INSERT INTO herbs(family,latin,ro) VALUES ('asteraceae','testus species','test plant') RETURNING id"
             ).fetchone()[0]
-            self.assertEqual(identifier, 1189)
+            self.assertEqual(identifier, 1580)
             self.assertEqual(
                 repository.catalog_snapshot(connection).catalog.by_id(identifier).en_alt, ()
             )
@@ -164,11 +164,18 @@ class HerbDatabaseTests(unittest.TestCase):
             connection.execute("INSERT INTO sync_metadata(key,value) VALUES ('test','unchanged')")
             connection.execute("DROP TABLE herbs_benefits, herb_aliases, herbs")
             connection.execute(
-                "DELETE FROM schema_migrations WHERE version IN ('006_herbs.sql','007_seed_herbs.sql','008_herbs_benefits.sql')"
+                "DELETE FROM schema_migrations WHERE version IN ('006_herbs.sql','007_seed_herbs.sql','008_herbs_benefits.sql','010_herbs_ranking.sql','014_allow_supplements_in_herbs.sql','015_seed_supplements.sql')"
             )
         self.assertEqual(
             migration.migrate(self.url),
-            ["006_herbs.sql", "007_seed_herbs.sql", "008_herbs_benefits.sql"],
+            [
+                "006_herbs.sql",
+                "007_seed_herbs.sql",
+                "008_herbs_benefits.sql",
+                "010_herbs_ranking.sql",
+                "014_allow_supplements_in_herbs.sql",
+                "015_seed_supplements.sql",
+            ],
         )
         with psycopg.connect(self.url) as connection:
             self.assertEqual(read_conditions(connection), before)

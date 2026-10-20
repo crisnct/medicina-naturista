@@ -73,7 +73,7 @@ def read_index_catalogs(connection):
         Herb(
             id=i,
             family=f,
-            latin=latin,
+            latin="" if latin is None else latin,
             ro=r,
             en=e,
             ro_regional=tuple(rr),
@@ -103,5 +103,3 @@ def read_index_catalogs(connection):
         fingerprint_rows(condition_rows),
         fingerprint_rows(herb_rows),
     )
-
-

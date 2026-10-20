@@ -112,8 +112,13 @@ def test_top_returns_names_and_aliases_without_search_or_report(web):
     test.deps.classify = Mock(return_value=MessageClassification(intent="top_plante", top_count=20))
     test.deps.top_herbs = Mock(
         return_value=[
-            {"ro": "mușețel", "ro_regional": ["romaniță", "matricea"], "ranking": 1156},
-            {"ro": "păr", "ro_regional": [], "ranking": 1},
+            {
+                "ro": "mușețel",
+                "latin": "matricaria chamomilla",
+                "ro_regional": ["romaniță", "matricea"],
+                "ranking": 1156,
+            },
+            {"ro": "păr", "latin": "pyrus communis", "ro_regional": [], "ranking": 1},
         ]
     )
     first = accept(
@@ -125,9 +130,11 @@ def test_top_returns_names_and_aliases_without_search_or_report(web):
     assert result["intent"] == "top_plante"
     assert not result["startSearch"] and not result["identifyCondition"]
     assert result["messages"][0]["content"] == (
-        "Top 2 plante după numărul de afecțiuni asociate în catalog:\n"
-        "1. **Mușețel** — utilă în 1156 afecțiuni (denumiri regionale: romaniță, matricea)\n"
-        "2. **Păr** — utilă în 1 afecțiune"
+        "### Top 2 plante și produse după numărul de afecțiuni asociate în bibliotecă\n"
+        "Asocierile includ atenționări și contraindicații; nu demonstrează eficacitatea terapeutică.\n"
+        "1. **Mușețel** (Matricaria Chamomilla) — asociere în bibliotecă cu "
+        "1156 afecțiuni (denumiri regionale: romaniță, matricea)\n"
+        "2. **Păr** (Pyrus Communis) — asociere în bibliotecă cu 1 afecțiune"
     )
     test.deps.top_herbs.assert_called_once_with(20)
     assert test.deps.store.get(sid, tab).profile.health_problem == ""
@@ -147,13 +154,13 @@ def test_top_without_count_asks_then_accepts_count_only(web):
     test.deps.top_herbs = Mock(return_value=[])
     first = accept(web, "Care sunt cele mai utile plante?")
     result = classify(web, first["contextRevision"]).json()
-    assert "Câte plante" in result["messages"][0]["content"]
+    assert "Câte intrări" in result["messages"][0]["content"]
     assert test.deps.store.get(sid, tab).routing.clarification == "top_plante"
     test.deps.top_herbs.assert_not_called()
     second = accept(web, "20")
     result = classify(web, second["contextRevision"]).json()
     test.deps.top_herbs.assert_called_once_with(20)
-    assert "Catalogul nu conține plante" in result["messages"][0]["content"]
+    assert "Catalogul nu conține intrări" in result["messages"][0]["content"]
 
 
 def test_diverse_skips_ai_identification_and_direct_condition_endpoint(web):
@@ -272,14 +279,14 @@ def test_named_reply_finishes_plant_clarification_and_returns_results(web, reply
     )
     first = accept(web, "Vreau informații despre o plantă")
     initial = classify(web, first["contextRevision"]).json()
-    assert "Precizați o singură plantă" in str(initial)
+    assert "Precizați o singură intrare" in str(initial)
     test.deps.herb_lookup.assert_not_called()
     second = accept(web, reply)
     completed = classify(web, second["contextRevision"]).json()
     assert completed["intent"] == "planta"
     assert completed["messages"][0]["kind"] == "herb_conditions"
     assert completed["messages"][0]["entriesCount"] == 1
-    assert "Precizați o singură plantă" not in str(completed)
+    assert "Precizați o singură intrare" not in str(completed)
     test.deps.herb_lookup.assert_called_once_with(expected)
 
 
@@ -308,7 +315,7 @@ def test_shared_name_lists_species_then_uses_only_the_user_choice(web):
     offered = classify(web, first["contextRevision"]).json()
     assert "Alegeți una" in str(offered)
     assert "matricaria chamomilla" in str(offered) and "chamaemelum nobile" in str(offered)
-    assert "Precizați o singură plantă" not in str(offered)
+    assert "Precizați o singură intrare" not in str(offered)
     second = accept(web, "musetel roman")
     completed = classify(web, second["contextRevision"]).json()
     assert completed["messages"][0]["kind"] == "herb_conditions"

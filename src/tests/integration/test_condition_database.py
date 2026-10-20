@@ -37,7 +37,7 @@ from tests.support.conditions import replace_catalog
 from tests.support.postgres import PostgresFixture
 
 fixture = PostgresFixture()
-INITIAL_FINGERPRINT = "64dfdeccfb04dd9d71ecc763bafda0f5d291df8299895781a945d17b5513a858"
+INITIAL_FINGERPRINT = "0e4a2757d4c38f432372440d9574b59faa9a61f1f8ce75c73c231d7a9a254e33"
 
 
 def setUpModule():
@@ -59,7 +59,7 @@ class ConditionDatabaseTests(unittest.TestCase):
         self.addCleanup(self.tmp.cleanup)
         self.source = Path(self.tmp.name) / "documents"
         self.source.mkdir()
-        self.expected_conditions = 6284
+        self.expected_conditions = 6285
         (self.source / "a.md").write_text("# Gripa\nRemedii și repaus.", encoding="utf-8")
         self.config = replace(
             Settings(), database_url=self.url, model_cache_dir=Path(self.tmp.name) / "models"
@@ -132,19 +132,19 @@ class ConditionDatabaseTests(unittest.TestCase):
             with psycopg.connect(self.url) as connection:
                 self.assertEqual(
                     connection.execute("SELECT count(*) FROM medical_conditions").fetchone()[0],
-                    6284,
+                    6285,
                 )
                 self.assertEqual(
                     connection.execute(
                         "SELECT count(*) FROM medical_condition_synonyms"
                     ).fetchone()[0],
-                    39356,
+                    39365,
                 )
                 self.assertEqual(
-                    connection.execute("SELECT count(*) FROM herbs").fetchone()[0], 1188
+                    connection.execute("SELECT count(*) FROM herbs").fetchone()[0], 1579
                 )
                 self.assertEqual(
-                    connection.execute("SELECT count(*) FROM herb_aliases").fetchone()[0], 3134
+                    connection.execute("SELECT count(*) FROM herb_aliases").fetchone()[0], 3136
                 )
                 self.assert_two_table_schema(connection)
             return original(*args, **kwargs)
@@ -168,7 +168,7 @@ class ConditionDatabaseTests(unittest.TestCase):
         self.sync()
         with psycopg.connect(self.url) as connection:
             self.assertEqual(
-                connection.execute("SELECT count(*) FROM medical_conditions").fetchone()[0], 6284
+                connection.execute("SELECT count(*) FROM medical_conditions").fetchone()[0], 6285
             )
             self.assertEqual(connection.execute("SELECT count(*) FROM chunks").fetchone()[0], 1)
 
@@ -184,7 +184,7 @@ class ConditionDatabaseTests(unittest.TestCase):
             make_condition("Boala testului", ["Măr's syndrome", "test disease"]),
         ]
         (folder / "008_test_additions.sql").write_text(additions_sql(additions), encoding="utf-8")
-        self.expected_conditions = 6285
+        self.expected_conditions = 6286
         with patch.object(migration, "MIGRATIONS", folder):
             self.sync()
             self.assertEqual(migration.migrate(self.url), [])
@@ -217,7 +217,7 @@ class ConditionDatabaseTests(unittest.TestCase):
         migration.migrate(self.url)
         with psycopg.connect(self.url) as connection:
             items = read_conditions(connection)
-            self.assertEqual(len(items), 6284)
+            self.assertEqual(len(items), 6285)
             self.assertEqual(items[0], make_condition("Abces", ["existing-only"]))
 
     def test_failed_sql_rolls_back_data_and_ledger(self):
@@ -236,7 +236,7 @@ class ConditionDatabaseTests(unittest.TestCase):
         with psycopg.connect(self.url) as connection:
             self.assertEqual(read_conditions(connection), before)
             self.assertEqual(
-                connection.execute("SELECT count(*) FROM medical_conditions").fetchone()[0], 6284
+                connection.execute("SELECT count(*) FROM medical_conditions").fetchone()[0], 6285
             )
             self.assertIsNone(
                 connection.execute(
@@ -249,7 +249,7 @@ class ConditionDatabaseTests(unittest.TestCase):
             self.sync(fail=True)
         with psycopg.connect(self.url) as connection:
             self.assertEqual(
-                connection.execute("SELECT count(*) FROM medical_conditions").fetchone()[0], 6284
+                connection.execute("SELECT count(*) FROM medical_conditions").fetchone()[0], 6285
             )
             self.assertEqual(connection.execute("SELECT count(*) FROM chunks").fetchone()[0], 0)
         self.sync()
@@ -265,7 +265,7 @@ class ConditionDatabaseTests(unittest.TestCase):
         )
         with psycopg.connect(self.url) as connection:
             self.assertEqual(
-                connection.execute("SELECT count(*) FROM medical_conditions").fetchone()[0], 6284
+                connection.execute("SELECT count(*) FROM medical_conditions").fetchone()[0], 6285
             )
 
     def test_synonym_changes_invalidate_cache_without_a_metadata_table(self):
@@ -306,12 +306,12 @@ class ConditionDatabaseTests(unittest.TestCase):
                 connection.execute(
                     "SELECT id, name FROM medical_conditions ORDER BY id"
                 ).fetchall(),
-                original_ids,
+                original_ids + [(6285, "premenopauza")],
             )
             self.assertEqual(catalog_fingerprint(read_conditions(connection)), INITIAL_FINGERPRINT)
             self.assertEqual(
                 connection.execute("SELECT count(*) FROM medical_condition_synonyms").fetchone()[0],
-                39356,
+                39365,
             )
 
     def test_disease_without_synonyms_and_cascade_deletion(self):

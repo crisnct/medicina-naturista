@@ -10,7 +10,7 @@ it("filters at 95% inclusively and excludes lower or missing scores", () => {
       semanticScore: null, lexicalScore: null, conditionMatch: null, matchLabel: "", foundByLexical: false,
     })),
   }} />);
-  fireEvent.click(screen.getByText(/Am găsit 4 fragmente/));
+  fireEvent.click(screen.getByText("Vezi fragmentele și sursele"));
   fireEvent.change(screen.getByLabelText("Scor minim"), { target: { value: "95" } });
   expect(screen.getByText("Fragment 95")).toBeInTheDocument();
   expect(screen.getByText("Fragment 99")).toBeInTheDocument();

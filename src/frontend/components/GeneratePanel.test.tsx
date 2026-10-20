@@ -1,7 +1,13 @@
 import { fireEvent, render, screen } from "@testing-library/react";
-import { describe, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import type { FragmentItem, GenerateMessage } from "../api/types";
 import { GeneratePanel } from "./GeneratePanel";
+import { api } from "../api/client";
+
+beforeEach(() => {
+  vi.spyOn(api, "getReportDurationEstimate").mockImplementation(() => new Promise(() => {}));
+});
+afterEach(() => vi.restoreAllMocks());
 
 const message: GenerateMessage = { kind: "generate", role: "assistant", searchId: "search-1", busy: false };
 
@@ -19,7 +25,8 @@ function fragment(relevancePercent: number | null): FragmentItem {
 }
 
 function renderPanel(fragments?: FragmentItem[], onGenerate = vi.fn()) {
-  render(<GeneratePanel message={message} fragments={fragments} onGenerate={onGenerate} />);
+  render(<GeneratePanel message={message} fragments={fragments} onGenerate={onGenerate}
+    reportModels={["ollama-gemma4:12b"]} allowedReportModels={["ollama-gemma4:12b"]} />);
   return onGenerate;
 }
 

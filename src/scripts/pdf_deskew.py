@@ -46,14 +46,19 @@ def estimate_skew(
 def estimate_page_skew(rendered_page, max_angle: float) -> float:
     """Analyze a bounded preview; the rendered pixels never replace PDF content."""
     scale = min(1.5, 1000 / max(rendered_page.rect.width, rendered_page.rect.height))
-    pixmap = rendered_page.get_pixmap(matrix=pymupdf.Matrix(scale, scale), colorspace=pymupdf.csGRAY)
+    pixmap = rendered_page.get_pixmap(
+        matrix=pymupdf.Matrix(scale, scale), colorspace=pymupdf.csGRAY
+    )
     values = np.frombuffer(pixmap.samples, dtype=np.uint8).reshape(pixmap.height, pixmap.width)
     height, width = values.shape
     # Ignore scanner borders, matching the existing OCR deskew algorithm.
-    mask = values[
-        int(height * 0.1) : int(height * 0.9),
-        int(width * 0.1) : int(width * 0.9),
-    ] < 150
+    mask = (
+        values[
+            int(height * 0.1) : int(height * 0.9),
+            int(width * 0.1) : int(width * 0.9),
+        ]
+        < 150
+    )
     if not mask.size:
         return 0.0
     mask[:, mask.mean(axis=0) > 0.45] = False
@@ -115,7 +120,7 @@ def deskew_page(page: pymupdf.Page, angle: float) -> pymupdf.Page:
             mapped = [
                 coordinate
                 for index in range(0, len(points), 2)
-                for coordinate in pymupdf.Point(points[index:index + 2]) * transform
+                for coordinate in pymupdf.Point(points[index : index + 2]) * transform
             ]
             document.xref_set_key(xref, "QuadPoints", "[" + numbers(mapped) + "]")
     return document.reload_page(page)

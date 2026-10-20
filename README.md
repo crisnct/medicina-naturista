@@ -39,10 +39,10 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pentru cererile explicite și Ollama local `gemma3:1b` (`MEDICAL_CONDITION_AI_LOCAL_MODEL`) când este necesar. `POST /api/messages` afișează rapid mesajul și salvează contextul, apoi `POST /api/classify` selectează:
 
 - **Remedii:** rezolvarea afecțiunilor și căutarea existentă, cu identificare AI opțională.
-- **Planta:** nume/alias rezolvat în catalog și interogare SQL pe `herbs`, `herbs_benefits`, `medical_conditions`; numărul rezultatelor distincte apare deasupra listei de afecțiuni. Asocierile reflectă coapariții în corpus, inclusiv contraindicații.
+- **Planta/produsul:** nume/alias rezolvat în catalog și interogare SQL pe `herbs`, `herbs_benefits`, `medical_conditions`; numărul rezultatelor distincte apare deasupra listei de afecțiuni. Asocierile reflectă coapariții în corpus, inclusiv contraindicații.
 
   Potrivirea numelor românești acceptă flexiuni din dicționarul Hunspell inclus (articol, plural, genitiv), cu sau fără diacritice, inclusiv în denumiri din mai multe cuvinte. Regulile generale pentru intrările incomplete sunt validate cu același dicționar, fără liste de excepții pe plante. Forma exactă are prioritate; numele comune mai multor specii cer alegerea speciei.
-- **Top plante:** clasament general din `herbs.ranking`, cu numărul de afecțiuni asociate și aliasurile regionale; fără căutare hibridă sau generare AI.
+- **Top plante:** clasament general al plantelor și produselor din `herbs.ranking`, cu numărul de afecțiuni asociate și aliasurile regionale; fără căutare hibridă sau generare AI.
 - **Diverse:** căutare după mesajul original, fără identificarea afecțiunii prin AI și fără notificările despre afecțiunea necunoscută. Generarea raportului naturist rămâne ca în fluxul de remedii.
 - **Email raport:** adresă validată local și PDF-ul precedent din aceeași sesiune; fără căutare nouă. Mesajul poate fi o adresă singură sau o cerere precum „Trimite raportul la nume@example.com”.
 
@@ -299,15 +299,21 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 - **Retenție:** istoricul, fragmentele și PDF-urile rămân în memoria procesului. Sesiunea expiră după o oră de inactivitate sau cel mult patru ore (`SESSION_IDLE_SECONDS`, `SESSION_MAX_SECONDS`). Închiderea paginii încearcă să închidă sesiunea; dacă notificarea nu ajunge la server, expirarea eliberează datele. Repornirea aplicației le elimină. Se păstrează cel mult 12 căutări și 12 rapoarte per sesiune, în limitele bugetelor de memorie.
 - **Owner / admin:** setați `OWNER_KEY` și autentificați browserul prin formularul `/owner` pentru a folosi modelele externe `deepseek-flash`, `huggingface-deepseek-v4-flash` și `grok-4.3`. Cele patru modele Ollama sunt disponibile și fără autorizare. Selectorul „Model AI” urmează câmpului „Scor minim”; lista se actualizează la revenirea în pagină după autentificare. API-ul verifică autorizarea la fiecare generare cu un model extern și la citirea/anularea jobului său. PostgreSQL păstrează hashul tokenului și date tehnice, fără conversații sau PDF-uri. Autorizarea supraviețuiește restartului; logoutul o revocă, iar schimbarea cheii invalidează tokenurile existente.
 
-## Catalogul de plante
+## Catalogul de plante și produse
 
-Catalogul și aliasurile sunt citite din PostgreSQL. Căutarea unei plante ignoră diferențele de caz, diacritice și cratime; un nume comun mai multor specii cere alegerea utilizatorului. Cererile „Top N plante” afișează clasamentul după numărul de afecțiuni asociate și denumirile regionale, fără generarea unui raport.
+Catalogul de plante și produse și aliasurile sunt citite din PostgreSQL. Căutarea unei plante ignoră diferențele de caz, diacritice și cratime; un nume comun mai multor specii cere alegerea utilizatorului. Cererile „Top N plante” afișează clasamentul plantelor și produselor după numărul de afecțiuni asociate și denumirile regionale, fără generarea unui raport.
+
+Familiile de produse acceptate sunt `suplimente`, `uleiuri esentiale`, `aminoacizi`, `vitamine`, `minerale`, `produse apicole` și `fibre, probiotice, prebiotice`. Sunt grupări tehnice de catalog, fără a stabili statutul medical sau eficacitatea produsului. Intenția API `planta` și rutele existente acoperă și produsele, recunoscute după `ro` și `en`, fără diferențe de caz sau diacritice. Produsele fără specie returnează `species=[]` și se afișează fără paranteze goale.
+
+Migrările `014`/`015` adaugă 391 de produse (inclusiv cele 12 denumiri comerciale confirmate la `suplimente`), reutilizează înregistrările pentru psyllium, ashwagandha, drojdie de bere, spirulina și chlorella și adaugă numai plantei Thuja aliasurile `arborele vietii` și `thuya occidentalis`. Denumirile vitaminice istorice și cele trei etichete de uleiuri de iasomie, vanilie și lotus alb sunt păstrate conform cerinței de catalog, fără afirmații despre identitate chimică sau extracție. „Ulei sau extract de afin” este exclus. Totalul inițial după migrare este 1.579 intrări: 1.188 botanice și 391 produse. Catalogul nu introduce automat sinonime precum `NAC`: numele canonic disponibil este `N-acetilcisteina`.
+
+Codul compatibil trebuie livrat înainte de migrare; după migrare se rulează `scripts.build_hybrid_index --rebuild-herbs` pentru asocieri, ranking și fingerprinturi. Între aceste etape, rezultatele despre catalog pot cere resincronizare. Documentele neschimbate își păstrează embeddings dacă profilul lor nu s-a schimbat.
 
 În cererile despre plante, numele complet sau aliasul complet are prioritate. Dacă acesta nu există, începutul unei denumiri românești, pe cuvinte întregi, oferă speciile candidate: „plop” cere alegerea între plop alb, plop negru, plop tremurător și plop tremurător american. Sunt acceptate și flexiunile românești și formulările cu părți de plantă, precum „muguri de plop” sau „mugurii de plop”. După alegere, rezultatul include numai specia selectată. Această potrivire parțială nu se aplică mențiunilor din corpus sau citărilor din rapoarte.
 
 `build_hybrid_index.py` reconstruiește automat asocierile `herbs_benefits` și clasamentul `herbs.ranking`. O asociere înseamnă că titlul fragmentului numește afecțiunea (`primary_medical_conditions`), iar textul menționează planta sau un alias. Mențiunile negative și contraindicațiile sunt incluse: asocierea nu dovedește un beneficiu terapeutic.
 
-Asocierile se publică în aceeași tranzacție cu indexul. Schimbarea exclusivă a aliasurilor plantelor reconstruiește asocierile fără recalcularea embeddings pentru documentele neschimbate. Pentru refacere explicită sau audit:
+Asocierile se publică în aceeași tranzacție cu indexul. Extinderea catalogului de plante/produse sau schimbarea aliasurilor reconstruiește asocierile fără recalcularea embeddings pentru documentele neschimbate. Pentru refacere explicită sau audit:
 
 ```powershell
 $env:PYTHONPATH = 'src'
@@ -326,7 +332,7 @@ Tabelele principale ale indexului, catalogului și migrărilor sunt:
 | `documents` | Un rând per fișier sursă: cale, SHA-256, codificare, număr de linii; categoria (folderul) este o coloană generată din cale. Folosit și pentru a decide ce fișiere sar la sincronizarea următoare. |
 | `medical_conditions` | Numai `id` și `name`: o înregistrare pentru fiecare afecțiune. |
 | `medical_condition_synonyms` | Numai `id`, `medical_condition_id` și `synonym`: sinonimele legate prin FK de afecțiune. |
-| `herbs` | Coloane `id, family, latin, ro, en, ranking`; ID numeric identity, denumiri/familii lowercase. `ranking` numără afecțiunile distincte asociate din titlurile fragmentelor. Numele populare pot fi comune mai multor specii. |
+| `herbs` | Coloane `id, family, latin, ro, en, ranking`; ID numeric identity. Plantele păstrează denumirile/familiile lowercase și un nume latin unic; produsele au `latin = NULL` și păstrează capitalizarea cerută pentru `ro`/`en`. Unicitatea numelui produsului (`lower(btrim(ro))`) este comună tuturor familiilor de produse. `ranking` numără afecțiunile distincte asociate din titlurile fragmentelor. Numele populare pot fi comune mai multor specii. |
 | `herb_aliases` | Coloane `id, herb_id, name, kind`; aliasuri lowercase, FK cu ștergere în cascadă, tipuri `ro_regional`, `latin_synonyms`, `en_alt`. |
 | `herbs_benefits` | Asocieri derivate din coapariția în corpus: `id, herb_id, medical_condition_id`; pereche unică, FK cu ștergere în cascadă și indecși individuali. Publicate atomic la finalul reindexării. |
 | `schema_migrations` | Ledgerul migrărilor SQL aplicate o singură dată. |

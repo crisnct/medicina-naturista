@@ -1,7 +1,4 @@
-"""PostgreSQL medicinal plants and the pure parser for offline source conversion.
-
-Popular names may belong to several species. Plants are not used in retrieval yet.
-"""
+"""PostgreSQL plants/products and the strict parser for offline botanical sources."""
 
 from __future__ import annotations
 
@@ -19,6 +16,17 @@ logger = logging.getLogger("naturist.herbs")
 FIELDS = ("id", "ro", "ro_regional", "latin", "latin_synonyms", "en", "en_alt", "family")
 _STRINGS = ("id", "ro", "latin", "en", "family")
 _LISTS = ("ro_regional", "latin_synonyms", "en_alt")
+PRODUCT_FAMILIES = frozenset(
+    (
+        "suplimente",
+        "uleiuri esentiale",
+        "aminoacizi",
+        "vitamine",
+        "minerale",
+        "produse apicole",
+        "fibre, probiotice, prebiotice",
+    )
+)
 _PLANT_PARTS = frozenset(
     ("mugur", "mugure", "floare", "frunza", "radacina", "scoarta", "coaja", "fruct", "samanta")
 )
@@ -62,7 +70,7 @@ class Herb(HerbNames):
 
     @property
     def choice(self) -> str:
-        return f"{self.ro} ({self.latin})"
+        return f"{self.ro} ({self.latin})" if self.latin else self.ro
 
 
 # Parse the catalogue text (JSON Lines). Blank lines are skipped; a line whose
@@ -120,7 +128,8 @@ class HerbCatalog:
         for herb in herbs:
             romanian_names.update(_normalize(name) for name in (herb.ro, *herb.ro_regional))
             for latin in (herb.latin, *herb.latin_synonyms):
-                self._by_latin.setdefault(_normalize(latin), herb)
+                if latin:
+                    self._by_latin.setdefault(_normalize(latin), herb)
             for name in herb.names:
                 owners = self._by_name.setdefault(_normalize(name), [])
                 if herb not in owners:
@@ -212,6 +221,8 @@ class HerbCatalog:
     def selected_choice(self, message: str, choices: Sequence[str]) -> Herb | None:
         allowed = {_normalize(choice) for choice in choices}
         reply = _normalize(message)
+        if not reply:
+            return None
         matches = [
             herb
             for herb in self.herbs

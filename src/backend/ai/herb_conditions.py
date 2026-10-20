@@ -43,7 +43,7 @@ def lookup_herb_conditions(name: str) -> HerbLookupResult:
                 return {"status": "ambiguous", "choices": sorted(herb.choice for herb in matches)}
             selected = matches[0]
             canonical = selected.ro
-            species = [selected.latin]
+            species = [selected.latin] if selected.latin else []
             metadata: dict[str, str] = dict(
                 connection.execute("SELECT key, value FROM sync_metadata").fetchall()
             )

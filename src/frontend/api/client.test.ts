@@ -15,7 +15,8 @@ describe("tab ownership", () => {
   it("opens a duplicated tab with its own session and unloads only that session", async () => {
     sessionStorage.setItem("naturist_tab_id", "original-tab");
     const lockRequest = vi.fn(async (name: string, _options: unknown, callback: (lock: Lock | null) => Promise<void>) =>
-      callback(name === "naturist-tab:original-tab" ? null : { name, mode: "exclusive" }));
+      callback({ name, mode: "exclusive" }))
+      .mockImplementationOnce(async (_name, _options, callback) => callback(null));
     vi.stubGlobal("navigator", { locks: { request: lockRequest } });
     const fetch = vi.fn()
       .mockResolvedValueOnce(new Response(JSON.stringify({ history: [] })))
@@ -23,9 +24,10 @@ describe("tab ownership", () => {
     vi.stubGlobal("fetch", fetch);
     const { api } = await import("./client");
     await expect(api.getSession()).resolves.toEqual({ history: [] });
-    const newTabId = sessionStorage.getItem("naturist_tab_id");
+    const newTabId = fetch.mock.calls[0][1].headers["X-Tab-Id"];
     expect(newTabId).toBeTruthy();
     expect(newTabId).not.toBe("original-tab");
+    expect(newTabId).not.toBe(lockRequest.mock.calls[0][0].replace("naturist-tab:", ""));
     expect(lockRequest).toHaveBeenCalledTimes(2);
     expect(fetch).toHaveBeenLastCalledWith(expect.stringContaining("/api/session"), expect.objectContaining({
       headers: expect.objectContaining({ "X-Tab-Id": newTabId }),
@@ -36,7 +38,7 @@ describe("tab ownership", () => {
     }));
   });
 
-  it("keeps the stored session ID when no other tab holds it", async () => {
+  it("uses a fresh identity despite stored IDs and keeps it for the loaded page", async () => {
     sessionStorage.setItem("naturist_tab_id", "reloaded-tab");
     const lockRequest = vi.fn(async (name: string, _options: unknown, callback: (lock: Lock | null) => Promise<void>) => callback({ name, mode: "exclusive" }));
     vi.stubGlobal("navigator", { locks: { request: lockRequest } });
@@ -46,9 +48,11 @@ describe("tab ownership", () => {
     await api.getSession();
     await api.getSession();
     expect(lockRequest).toHaveBeenCalledTimes(1);
-    expect(sessionStorage.getItem("naturist_tab_id")).toBe("reloaded-tab");
+    const currentTabId = fetch.mock.calls[0][1].headers["X-Tab-Id"];
+    expect(currentTabId).toBeTruthy();
+    expect(currentTabId).not.toBe("reloaded-tab");
     for (const [, init] of fetch.mock.calls) {
-      expect(init.headers["X-Tab-Id"]).toBe("reloaded-tab");
+      expect(init.headers["X-Tab-Id"]).toBe(currentTabId);
     }
   });
 

@@ -297,10 +297,13 @@ def test_http_maintenance_keeps_snapshot_generation_and_download_available(corpu
                 unavailable = test.client.post("/api/search", headers=support._headers(sid, tab))
                 assert unavailable.status_code == 503
                 assert unavailable.headers["Retry-After"] == "60"
-                response = test.client.post(
-                    f"/api/searches/{search}/generate", headers=support._headers(sid, tab, True)
+                response = support.post_report(
+                    test.client,
+                    f"/api/searches/{search}/generate",
+                    headers=support._headers(sid, tab, True),
                 )
-                assert response.status_code == 200
+                assert response.status_code == 202
+                assert response.json()["state"] == "succeeded"
                 download = support._by_kind(response.json()["messages"], "download")
                 response = test.client.get(download["url"], headers=support._headers(sid, tab))
                 assert response.status_code == 200 and response.content.startswith(b"%PDF")

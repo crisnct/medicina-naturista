@@ -1,5 +1,7 @@
 """Actual PostgreSQL DISTINCT, aliases and literal ILIKE matching in an isolated DB."""
 
+from __future__ import annotations
+
 import pytest
 
 from backend.ai import db
@@ -8,6 +10,7 @@ from backend.ai.herb_index_catalog import read_index_catalogs
 from backend.ai.herb_ranking import list_top_herbs
 from backend.ai.herb_repository import HERBS_INDEX_VERSION
 from backend.ai.index_state import IndexUnavailable
+from scripts.migrate_database import MIGRATIONS
 from tests.support.postgres import PostgresFixture
 
 
@@ -18,7 +21,14 @@ def postgres():
     try:
         yield fixture
     finally:
-        fixture.stop()
+        try:
+            # Module tests mutate the catalog; leave a valid seed for the next module.
+            with db.get_pool().connection() as connection:
+                connection.execute("TRUNCATE herbs RESTART IDENTITY CASCADE")
+                for name in ("007_seed_herbs.sql", "015_seed_supplements.sql"):
+                    connection.execute((MIGRATIONS / name).read_text(encoding="utf-8"))
+        finally:
+            fixture.stop()
 
 
 @pytest.fixture
@@ -162,8 +172,23 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
             "INSERT INTO herb_aliases(herb_id,name,kind) VALUES (3,'water mint','en_alt'), (3,'menta de balta','ro_regional'), (3,'iz ma','latin_synonyms')"
         )
     assert list_top_herbs(2) == [
-        {"ro": "menta de apa", "ro_regional": ["menta de balta"], "ranking": 9},
-        {"ro": "mușețel", "ro_regional": ["romanita"], "ranking": 7},
+        {
+            "ro": "menta de apa",
+            "latin": "mentha aquatica",
+            "ro_regional": ["menta de balta"],
+            "ranking": 9,
+        },
+        {
+            "ro": "mușețel",
+            "latin": "matricaria chamomilla",
+            "ro_regional": ["romanita"],
+            "ranking": 7,
+        },
     ]
     assert len(list_top_herbs(100)) == 4
-    assert list_top_herbs(3)[2] == {"ro": "mușețel", "ro_regional": [], "ranking": 7}
+    assert list_top_herbs(3)[2] == {
+        "ro": "mușețel",
+        "latin": "chamaemelum nobile",
+        "ro_regional": [],
+        "ranking": 7,
+    }

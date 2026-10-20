@@ -8,7 +8,7 @@ from collections import Counter
 from collections.abc import Sequence
 
 from backend.ai.conditions import _normalize
-from backend.ai.herbs import FIELDS, Herb, SourceHerb, parse_herbs
+from backend.ai.herbs import FIELDS, PRODUCT_FAMILIES, Herb, SourceHerb, parse_herbs
 
 SLUG = re.compile(r"[a-z]+(-[a-z]+)+")
 LATIN = re.compile(r"[A-Z][a-z]+ (x )?[a-z]+(-[a-z]+)?( (subsp|var)\. [a-z]+(-[a-z]+)?)?")
@@ -21,7 +21,9 @@ def catalog_problems(items: Sequence[SourceHerb | Herb], *, source: bool) -> lis
     if not items:
         return ["herb catalogue is empty"]
     owners: dict[str, str | int] = {}
+    products: dict[str, str | int] = {}
     for number, herb in enumerate(items, 1):
+        product = not source and herb.family in PRODUCT_FAMILIES
         where = f"line {number} ({herb.latin})"
         strings = [
             herb.ro,
@@ -40,29 +42,51 @@ def catalog_problems(items: Sequence[SourceHerb | Herb], *, source: bool) -> lis
         else:
             if type(herb.id) is not int or herb.id <= 0:
                 problems.append(f"{where}: id must be a positive integer")
-            if any(value != value.lower() for value in strings):
+            lowercase = [herb.family, *herb.ro_regional, *herb.latin_synonyms, *herb.en_alt]
+            if not product:
+                lowercase.extend((herb.ro, herb.latin, herb.en))
+            if any(value != value.lower() for value in lowercase):
                 problems.append(f"{where}: names and family must be lowercase")
         if not all(value.isascii() for value in strings):
             problems.append(f"{where}: non-ASCII text")
-        if any("," in value for value in strings):
+        names = [
+            herb.ro,
+            herb.latin,
+            herb.en,
+            *herb.ro_regional,
+            *herb.latin_synonyms,
+            *herb.en_alt,
+        ]
+        if any("," in value for value in (names if product else strings)):
             problems.append(f"{where}: a name holds a comma")
         if any(value != " ".join(value.split()) for value in strings):
             problems.append(f"{where}: stray spaces")
         if (
             not herb.ro
-            or not herb.latin
+            or (not product and not herb.latin)
             or not herb.family
             or any(not value for key in ALIASES for value in getattr(herb, key))
         ):
             problems.append(f"{where}: empty required name")
-        for latin in (herb.latin, *herb.latin_synonyms):
+        if product:
+            if herb.latin or herb.latin_synonyms:
+                problems.append(f"{where}: products must not have Latin species names")
+            if not herb.en:
+                problems.append(f"{where}: product must have an English name")
+            key = _normalize(herb.ro)
+            if key in products:
+                problems.append(
+                    f"{where}: product name belongs to both {products[key]} and {herb.id}"
+                )
+            products.setdefault(key, herb.id)
+        for latin in () if product else (herb.latin, *herb.latin_synonyms):
             if not (LATIN if source else LOWER_LATIN).fullmatch(latin):
                 problems.append(f"{where}: {latin!r} is not a Latin species name without author")
             key = _normalize(latin)
             if key in owners:
                 problems.append(f"{latin!r} belongs to both {owners[key]!r} and {herb.id!r}")
             owners.setdefault(key, herb.id)
-        if not herb.family.endswith("aceae"):
+        if not product and not herb.family.endswith("aceae"):
             problems.append(f"{where}: family does not end in -aceae")
         for main, aliases in (("ro", "ro_regional"), ("en", "en_alt")):
             if getattr(herb, main) and _normalize(getattr(herb, main)) in {

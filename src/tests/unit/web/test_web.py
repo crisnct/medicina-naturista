@@ -21,6 +21,7 @@ from backend.ai.client import GENERATE_REPORT_SYSTEM_PROMPT_PATH, XAIClient
 from backend.ai.condition_ai import AIConditionResult, resolved_for
 from backend.ai.embedding_model import _normalize_fastembed_metadata
 from backend.ai.message_classification import MessageClassification
+from backend.ai.report_validation import ReportValidationError
 from backend.ai.search import ALL_SIGNALS, SearchSignals, max_score
 from backend.config import Settings
 from backend.core import conversation
@@ -401,15 +402,14 @@ class WebTests(unittest.TestCase):
         self.assertTrue(all(f"Fragmentul {number}" in calls[0][1] for number in range(12)))
         self.assertEqual(len(sections.section_payload()["uz_intern"]), 12)
 
-    # Uncited nutrition remains compatible; unknown IDs invalidate the entire item.
-    def test_generate_keeps_uncited_nutrition_and_discards_unknown_ids(self):
+    # Uncited nutrition remains compatible; strict generation rejects unknown evidence.
+    def test_generate_keeps_uncited_nutrition_and_rejects_unknown_ids(self):
         client = XAIClient(settings)
         result = {
             "uz_intern": [],
             "nutritie": [
                 {"text": "Rețetă culinară fără sursă locală", "evidence_ids": []},
                 {"text": "Recomandare fără câmp evidence_ids"},
-                {"text": "Recomandare cu ID necunoscut", "evidence_ids": ["UNKNOWN"]},
             ],
             "uz_extern": [],
             "alte_recomandari": [],
@@ -420,8 +420,6 @@ class WebTests(unittest.TestCase):
             sections = client.generate(
                 {"health_problem": "gripă"}, {"E1": {"source": "plan.md", "text": "sursă"}}
             )
-        client.close()
-
         self.assertEqual(
             sections.section_payload()["nutritie"],
             [
@@ -429,6 +427,17 @@ class WebTests(unittest.TestCase):
                 {"text": "Recomandare fără câmp evidence_ids", "evidence_ids": []},
             ],
         )
+        result["nutritie"].append(
+            {"text": "Recomandare cu ID necunoscut", "evidence_ids": ["UNKNOWN"]}
+        )
+        with (
+            patch.object(client, "complete_json", return_value=result),
+            self.assertRaisesRegex(ReportValidationError, "REPORT_INVALID"),
+        ):
+            client.generate(
+                {"health_problem": "gripă"}, {"E1": {"source": "plan.md", "text": "sursă"}}
+            )
+        client.close()
 
     # Verify the structured nutrition object is normalized into the internal item format.
     def test_generate_normalizes_structured_nutrition_object(self):
@@ -777,7 +786,7 @@ class WebTests(unittest.TestCase):
 
             messages = _send(self.client, sid, tab, "Migrenă", ["Cancer", "Centrul/Anatomie"])
             notice = next(m for m in messages if "Caut rapid" in m.get("content", ""))
-            self.assertIn("Caut rapid în cele 15 documente", notice["content"])
+            self.assertIn("Caut rapid în cele **15 documente**", notice["content"])
 
             # An id the tree doesn't know (stale selection) contributes nothing.
             messages = self.client.post(
@@ -787,7 +796,7 @@ class WebTests(unittest.TestCase):
             ).json()["messages"]
             messages += _classify_latest(self.client, sid, tab)["messages"]
             notice = next(m for m in messages if "Caut rapid" in m.get("content", ""))
-            self.assertIn("Caut rapid în cele 0 documente", notice["content"])
+            self.assertIn("Caut rapid în cele **0 documente**", notice["content"])
             stale = self.client.post("/api/search", headers=_headers(sid, tab))
             self.assertEqual(stale.status_code, 409)
             self.assertEqual(stale.json()["detail"]["code"], "CATEGORY_SELECTION_STALE")
@@ -1523,7 +1532,7 @@ class WebTests(unittest.TestCase):
             resp = post_report(
                 self.client,
                 f"/api/searches/{search_id}/generate",
-                json={"model": "deepseek"},
+                json={"model": "deepseek-flash"},
                 headers=_headers(sid_a, tab_a),
             )
             body = resp.json()

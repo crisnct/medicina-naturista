@@ -13,8 +13,7 @@ from backend.ai.search import ALL_SIGNALS, SearchSignals
 from backend.core.contracts import Evidence, IdentifiedCondition, ProfilePayload, TranscriptEntry
 
 HEALTH_PROBLEM_QUESTION = (
-    "Descrieți problema de sănătate sau întrebați despre o plantă. "
-    "Puteți scrie în cuvintele dumneavoastră."
+    "Întrebați despre afecțiuni, remedii, plante, produse, topuri sau alte subiecte din bibliotecă."
 )
 
 

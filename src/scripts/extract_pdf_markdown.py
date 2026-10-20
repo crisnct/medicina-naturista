@@ -898,7 +898,9 @@ def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("pdf", type=Path)
     parser.add_argument(
-        "-o", "--output", type=Path,
+        "-o",
+        "--output",
+        type=Path,
         help=f"Implicit: {DEFAULT_OUTPUT_ROOT}/<nume fără extensie>/<fișier PDF>.md; creează folderul.",
     )
     parser.add_argument("--columns", choices=("auto", "1", "2", "3"), default="auto")
@@ -947,9 +949,7 @@ def main() -> int:
         LOGGER.debug("Detalii eroare extragere", exc_info=True)
         LOGGER.error("Extragerea a eșuat: %s", exc)
         return 1
-    print(
-        f"Scris: {output_path.expanduser().resolve()}\nPagini: {pages}; caractere: {characters}"
-    )
+    print(f"Scris: {output_path.expanduser().resolve()}\nPagini: {pages}; caractere: {characters}")
     return 0
 
 

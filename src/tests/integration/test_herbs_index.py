@@ -1,5 +1,7 @@
 """Atomic derived associations on an isolated PostgreSQL fixture."""
 
+from __future__ import annotations
+
 import io
 import tempfile
 from concurrent.futures import ThreadPoolExecutor
@@ -27,10 +29,13 @@ def setUpModule():
 
 def tearDownModule():
     # Restore the packaged herb seed in the externally supplied disposable DB.
-    with db.get_pool().connection() as connection:
-        connection.execute("TRUNCATE herbs RESTART IDENTITY CASCADE")
-        connection.execute((MIGRATIONS / "007_seed_herbs.sql").read_text(encoding="utf-8"))
-    fixture.stop()
+    try:
+        with db.get_pool().connection() as connection:
+            connection.execute("TRUNCATE herbs RESTART IDENTITY CASCADE")
+            for name in ("007_seed_herbs.sql", "015_seed_supplements.sql"):
+                connection.execute((MIGRATIONS / name).read_text(encoding="utf-8"))
+    finally:
+        fixture.stop()
 
 
 @contextmanager

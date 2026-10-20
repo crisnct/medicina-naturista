@@ -163,7 +163,7 @@ def explicit_herb_request(message: str, catalog: HerbCatalog) -> MessageClassifi
         if len(matches) == 1:
             herb = matches[0]
             # Keep species-specific aliases specific when the primary name is shared.
-            name = herb.ro if len(catalog.lookup(herb.ro)) == 1 else herb.latin
+            name = herb.ro if len(catalog.lookup(herb.ro)) == 1 else (herb.latin or herb.ro)
         return MessageClassification(intent="planta", herb_name=name)
 
     bare = decision(message.strip())
@@ -282,7 +282,7 @@ class MessageClassifier:
                 else None
             )
             named_request = (
-                MessageClassification(intent="planta", herb_name=selected.latin)
+                MessageClassification(intent="planta", herb_name=selected.latin or selected.ro)
                 if selected is not None
                 else explicit_herb_request(message, catalog)
                 if catalog is not None
