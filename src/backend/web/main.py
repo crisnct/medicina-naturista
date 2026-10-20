@@ -306,7 +306,7 @@ def get_session(request: Request):
                     messages=[
                         _text(
                             "assistant",
-                            f"{WELCOME}\n\n{question}" if question else WELCOME,
+                            f"{WELCOME} {question}" if question else WELCOME,
                         )
                     ],
                     profile=profile,

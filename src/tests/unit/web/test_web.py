@@ -712,7 +712,7 @@ class WebTests(unittest.TestCase):
             {
                 "role": "assistant",
                 "kind": "text",
-                "content": f"{conversation.WELCOME}\n\n{HEALTH_PROBLEM_QUESTION}",
+                "content": f"{conversation.WELCOME} {HEALTH_PROBLEM_QUESTION}",
                 "groupId": "greeting",
             },
         )

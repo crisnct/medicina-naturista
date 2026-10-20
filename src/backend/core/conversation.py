@@ -60,7 +60,7 @@ logger = logging.getLogger("naturist.conversation")
 NO_FRAGMENT_ABOVE_MIN_SCORE = (
     "Niciun fragment nu atinge scorul minim selectat. Alegeți un prag mai mic."
 )
-WELCOME = "Bună ziua,\n👋 Cu ce vă pot ajuta?"
+WELCOME = "Bună ziua, 👋\n\nCu ce vă pot ajuta?"
 NO_CATEGORY_SELECTED_MESSAGE = "Nicio sursă selectată. Bifați cel puțin o categorie în panoul „Căutare avansată” înainte de căutare."
 CONDITION_AI_NOTICE = "🤖 Nu am găsit afecțiunea în dicționarul meu. Încerc să o identific cu ajutorul AI. Vă rog să așteptați."
 CONDITION_NOT_IDENTIFIED_MESSAGE = "⚠️ Nu am putut identifica afecțiunea din mesaj."
