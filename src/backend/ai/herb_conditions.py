@@ -36,7 +36,7 @@ def lookup_herb_conditions(name: str) -> HerbLookupResult:
                 raise IndexUnavailable()
             herbs = catalog_snapshot(connection)
             specific = herbs.catalog.by_latin(name)
-            matches = [specific] if specific is not None else herbs.catalog.lookup(name)
+            matches = [specific] if specific is not None else herbs.catalog.request_matches(name)
             if not matches:
                 return {"status": "not_found"}
             if len(matches) > 1:
@@ -61,8 +61,7 @@ def lookup_herb_conditions(name: str) -> HerbLookupResult:
                 or metadata["herbs_benefits_index_version"] != str(HERBS_INDEX_VERSION)
                 or metadata["herbs_benefits_chunks_generation"] != metadata["index_generation"]
                 or metadata["herbs_benefits_herbs_fingerprint"] != herbs_fingerprint
-                or metadata["herbs_benefits_conditions_fingerprint"]
-                != conditions_fingerprint
+                or metadata["herbs_benefits_conditions_fingerprint"] != conditions_fingerprint
             ):
                 raise IndexUnavailable("INDEX_HERBS_RESYNC_REQUIRED")
             count_row = connection.execute("SELECT count(*) FROM herbs_benefits").fetchone()

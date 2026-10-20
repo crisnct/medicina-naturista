@@ -19,6 +19,9 @@ logger = logging.getLogger("naturist.herbs")
 FIELDS = ("id", "ro", "ro_regional", "latin", "latin_synonyms", "en", "en_alt", "family")
 _STRINGS = ("id", "ro", "latin", "en", "family")
 _LISTS = ("ro_regional", "latin_synonyms", "en_alt")
+_PLANT_PARTS = frozenset(
+    ("mugur", "mugure", "floare", "frunza", "radacina", "scoarta", "coaja", "fruct", "samanta")
+)
 
 
 @dataclass(frozen=True)
@@ -123,8 +126,10 @@ class HerbCatalog:
                 if herb not in owners:
                     owners.append(herb)
         variants = word_variants(
-            frozenset(word for name in romanian_names for word in name.split())
+            frozenset(word for name in romanian_names for word in name.split()) | _PLANT_PARTS
         )
+        self._romanian_names = frozenset(romanian_names)
+        self._plant_parts = frozenset(form for part in _PLANT_PARTS for form in variants[part])
         # Expand Romanian names word by word; Latin and English stay exact.
         # There is no Cartesian product of multiword names and no fuzzy spelling.
         self._phrases: dict[str, list[tuple[str, tuple[frozenset[str], ...]]]] = {}
@@ -157,6 +162,32 @@ class HerbCatalog:
             return list(self._by_name[key])
         words = key.split()
         names, _ = self._matching_names(words, 0, whole=True)
+        owners = {herb.id for term in names for herb in self._by_name[term]}
+        return [herb for herb in self.herbs if herb.id in owners]
+
+    # Request-only candidates must not broaden corpus mentions or report citations.
+    # Complete names win; a Romanian prefix uses whole words and preserves ambiguity.
+    def request_matches(self, name: str) -> list[Herb]:
+        matches = self.lookup(name)
+        if matches:
+            return matches
+        key = _normalize(name)
+        part, separator, subject = key.partition(" de ")
+        if separator and part in self._plant_parts:
+            key = subject
+            matches = self.lookup(key)
+            if matches:
+                return matches
+        words = key.split()
+        if not words:
+            return []
+        names = {
+            term
+            for term, phrase in self._phrases.get(words[0], ())
+            if term in self._romanian_names
+            and len(words) < len(phrase)
+            and all(word in forms for word, forms in zip(words, phrase))
+        }
         owners = {herb.id for term in names for herb in self._by_name[term]}
         return [herb for herb in self.herbs if herb.id in owners]
 

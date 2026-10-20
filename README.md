@@ -303,6 +303,8 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 
 Catalogul și aliasurile sunt citite din PostgreSQL. Căutarea unei plante ignoră diferențele de caz, diacritice și cratime; un nume comun mai multor specii cere alegerea utilizatorului. Cererile „Top N plante” afișează clasamentul după numărul de afecțiuni asociate și denumirile regionale, fără generarea unui raport.
 
+În cererile despre plante, numele complet sau aliasul complet are prioritate. Dacă acesta nu există, începutul unei denumiri românești, pe cuvinte întregi, oferă speciile candidate: „plop” cere alegerea între plop alb, plop negru, plop tremurător și plop tremurător american. Sunt acceptate și flexiunile românești și formulările cu părți de plantă, precum „muguri de plop” sau „mugurii de plop”. După alegere, rezultatul include numai specia selectată. Această potrivire parțială nu se aplică mențiunilor din corpus sau citărilor din rapoarte.
+
 `build_hybrid_index.py` reconstruiește automat asocierile `herbs_benefits` și clasamentul `herbs.ranking`. O asociere înseamnă că titlul fragmentului numește afecțiunea (`primary_medical_conditions`), iar textul menționează planta sau un alias. Mențiunile negative și contraindicațiile sunt incluse: asocierea nu dovedește un beneficiu terapeutic.
 
 Asocierile se publică în aceeași tranzacție cu indexul. Schimbarea exclusivă a aliasurilor plantelor reconstruiește asocierile fără recalcularea embeddings pentru documentele neschimbate. Pentru refacere explicită sau audit:

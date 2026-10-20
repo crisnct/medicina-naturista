@@ -157,7 +157,7 @@ def explicit_herb_request(message: str, catalog: HerbCatalog) -> MessageClassifi
     """Resolve a request about a catalog plant without relying on a model label."""
 
     def decision(name: str) -> MessageClassification | None:
-        matches = catalog.lookup(name)
+        matches = catalog.request_matches(name)
         if not matches:
             return None
         if len(matches) == 1:
@@ -174,7 +174,7 @@ def explicit_herb_request(message: str, catalog: HerbCatalog) -> MessageClassifi
         r"(?:(?:te|va) rog )?"
         r"(?:(?:spune mi(?: tot ce stii)?|ce (?:stii|imi poti spune)|"
         r"(?:vreau|doresc|as vrea) (?:informatii|detalii)|informatii|detalii) despre|"
-        r"despre|la ce (?:e|este|sunt) (?:bun|buna|bune)) (.+)",
+        r"despre|la ce (?:e|este|sunt) (?:bun|buna|buni|bune)) (.+)",
         normalized,
     )
     if match is None:
