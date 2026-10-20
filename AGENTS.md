@@ -175,3 +175,9 @@ baseline, and say plainly that synthetic rankings validate the metric mechanism,
 ## Commits
 
 You are not allowed to commit any files to git
+
+<!-- openwolf:begin -->
+# OpenWolf
+
+This project uses OpenWolf for context management. Read and follow .wolf/OPENWOLF.md at session start. Check .wolf/cerebrum.md before generating code. Grep .wolf/anatomy.md for a file's path before reading it (never read the whole index).
+<!-- openwolf:end -->

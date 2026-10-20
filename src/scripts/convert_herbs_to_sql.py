@@ -30,10 +30,11 @@ def seed_sql(herbs: tuple[Herb, ...], source_hash: str) -> str:
     ]
     for herb in herbs:
         insert = sql.SQL(
-            "INSERT INTO herbs (family, latin, ro, en) VALUES ({}) RETURNING id"
+            "INSERT INTO herbs (category, family, latin, ro, en) VALUES ({}) RETURNING id"
         ).format(
             sql.SQL(", ").join(
-                sql.Literal(getattr(herb, key)) for key in ("family", "latin", "ro", "en")
+                sql.Literal(getattr(herb, key))
+                for key in ("category", "family", "latin", "ro", "en")
             )
         )
         aliases = [(name, kind) for kind in ALIASES for name in getattr(herb, kind)]

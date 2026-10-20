@@ -45,13 +45,15 @@ from backend.ai.embedding_model import (
     get_profile,
 )
 from backend.ai.fragmenter import Fragment, fragment_document
+from backend.ai.herb_index_catalog import fingerprint_rows
 from backend.ai.herb_index_catalog import normalize_herb_name as _herb_text
 from backend.ai.herb_index_catalog import read_index_catalogs as _herbs_catalogs
-from backend.ai.herb_repository import HERBS_INDEX_VERSION
+from backend.ai.herb_repository import HERBS_INDEX_VERSION, catalog_fingerprint, read_herbs
 from backend.ai.index_state import (
     dictionary_snapshot,
     index_writer,
     passage_profile,
+    read_metadata,
 )
 from backend.config import settings
 from scripts.bootstrap_database import ensure_database
@@ -424,7 +426,9 @@ class HerbsProgress:
         self.last_completed = completed
 
 
-def _rebuild_herbs_benefits(connection, *, context, executor, progress=print) -> HerbsIndexStats:
+def _rebuild_herbs_benefits(
+    connection, *, context, executor, progress=print, preserve_existing_ids=None
+) -> HerbsIndexStats:
     """Caller owns connection, INDEX_LOCK, transaction and commit. Workers only scan text."""
     started = time.monotonic()
     _build_stage("herbs_scan_and_copy")
@@ -572,6 +576,21 @@ def _rebuild_herbs_benefits(connection, *, context, executor, progress=print) ->
         0
     ]
     stats["dedup_seconds"] = time.monotonic() - tick
+    # Association-only publication must never alter the indexed species' evidence.
+    if preserve_existing_ids is not None:
+        changed = connection.execute(
+            "SELECT EXISTS ("
+            "(SELECT herb_id,medical_condition_id FROM herbs_benefits_next WHERE herb_id=ANY(%s) "
+            "EXCEPT SELECT herb_id,medical_condition_id FROM herbs_benefits) UNION ALL "
+            "(SELECT herb_id,medical_condition_id FROM herbs_benefits EXCEPT "
+            "SELECT herb_id,medical_condition_id FROM herbs_benefits_next)) OR EXISTS ("
+            "SELECT FROM herbs h LEFT JOIN (SELECT herb_id,count(*) AS n "
+            "FROM herbs_benefits_next GROUP BY herb_id) counts ON counts.herb_id=h.id "
+            "WHERE h.id=ANY(%s) AND h.ranking IS DISTINCT FROM coalesce(counts.n,0))",
+            (list(preserve_existing_ids), list(preserve_existing_ids)),
+        ).fetchone()[0]
+        if changed:
+            raise RuntimeError("HERBS_ONLY_EXISTING_ASSOCIATIONS_CHANGED")
     reporter.report("publication_pending_commit", stats, force=True)
     _build_stage("herbs_publication")
     tick = time.monotonic()
@@ -590,6 +609,83 @@ def _rebuild_herbs_benefits(connection, *, context, executor, progress=print) ->
     )
     stats["publication_seconds"] = time.monotonic() - tick
     stats["elapsed_seconds"] = time.monotonic() - started
+    return stats
+
+
+# Recover the previous indexed prefix from its fingerprint, rather than guessing
+# that every zero-ranking row is new. Changed/removed old names fail closed.
+def _indexed_herb_ids(context: HerbsIndexContext, fingerprint: str) -> tuple[int, ...]:
+    names: list[list[str]] = [[] for _ in context.herb_ids]
+    for name, positions in context.names:
+        for position in positions:
+            names[position].append(name)
+    rows = [
+        [identifier, sorted(names[position])]
+        for position, identifier in enumerate(context.herb_ids)
+    ]
+    for length in range(len(rows), 0, -1):
+        if fingerprint_rows(rows[:length]) == fingerprint:
+            return context.herb_ids[:length]
+    raise RuntimeError("HERBS_ONLY_EXISTING_CATALOG_CHANGED")
+
+
+def rebuild_herbs_only() -> HerbsIndexStats:
+    """Refresh derived associations on an existing compatible index, without corpus I/O."""
+    _build_stage("index_lock")
+    with index_writer(lock_timeout_ms=HERBS_LOCK_TIMEOUT_MS) as connection:
+        connection.execute(
+            "SELECT set_config('statement_timeout', %s, false)",
+            (str(HERBS_STATEMENT_TIMEOUT_MS),),
+        )
+        metadata = read_metadata(connection)
+        stored = dict(connection.execute("SELECT key,value FROM sync_metadata").fetchall())
+        context = _prepare_herbs_index(
+            connection,
+            chunks_changed=False,
+            previous_generation=metadata.index_generation,
+            next_generation=metadata.index_generation,
+            force_rebuild=True,
+        )
+        catalog_state = catalog_fingerprint(read_herbs(connection))
+        expected = {
+            "herbs_benefits_index_version": str(HERBS_INDEX_VERSION),
+            "herbs_benefits_chunks_generation": metadata.index_generation,
+            "herbs_benefits_conditions_fingerprint": context.conditions_fingerprint,
+            "herbs_benefits_row_count": str(context.row_count),
+        }
+        if any(stored.get(key) != value for key, value in expected.items()):
+            raise RuntimeError("HERBS_ONLY_INCOMPATIBLE_ASSOCIATIONS")
+        indexed_ids = _indexed_herb_ids(context, stored.get("herbs_benefits_herbs_fingerprint", ""))
+        with _prepared_herbs_workers(context) as executor, connection.transaction():
+            # Raw SQL writers must not change the snapshots while workers scan them.
+            connection.execute(
+                "LOCK TABLE documents,chunks,herbs,herb_aliases,medical_conditions,"
+                "medical_condition_synonyms,herbs_benefits,sync_metadata IN SHARE MODE"
+            )
+            if (
+                read_metadata(connection) != metadata
+                or dict(connection.execute("SELECT key,value FROM sync_metadata").fetchall())
+                != stored
+                or _herbs_catalogs(connection)[-2:]
+                != (context.conditions_fingerprint, context.herbs_fingerprint)
+                or catalog_fingerprint(read_herbs(connection)) != catalog_state
+            ):
+                raise RuntimeError("HERBS_CATALOG_CHANGED_DURING_BUILD")
+            stats = _rebuild_herbs_benefits(
+                connection,
+                context=context,
+                executor=executor,
+                preserve_existing_ids=indexed_ids,
+            )
+            for key, value in _herbs_metadata(context, stats["row_count"]).items():
+                connection.execute(
+                    "INSERT INTO sync_metadata(key,value) VALUES(%s,%s) "
+                    "ON CONFLICT(key) DO UPDATE SET value=EXCLUDED.value "
+                    "WHERE sync_metadata.value IS DISTINCT FROM EXCLUDED.value",
+                    (key, value),
+                )
+            _build_stage("commit")
+    print(json.dumps({"status": "ok", "mode": "herbs_only", "herbs_benefits": stats}), flush=True)
     return stats
 
 
@@ -1238,10 +1334,16 @@ def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--source", type=Path, default=settings.documents_dir)
     parser.add_argument("--model", default=DEFAULT_MODEL)
-    parser.add_argument(
+    modes = parser.add_mutually_exclusive_group()
+    modes.add_argument(
         "--rebuild-herbs",
         action="store_true",
         help="Force rebuilding herb/condition associations without re-embedding unchanged documents",
+    )
+    modes.add_argument(
+        "--rebuild-herbs-only",
+        action="store_true",
+        help="Refresh associations only; requires a compatible existing index and preserves old pairs",
     )
     return parser.parse_args()
 
@@ -1252,7 +1354,10 @@ if __name__ == "__main__":
     configure_settings(Settings.from_env(dotenv=True))
     arguments = parse_args()
     try:
-        build(arguments.source, arguments.model, rebuild_herbs=arguments.rebuild_herbs)
+        if arguments.rebuild_herbs_only:
+            rebuild_herbs_only()
+        else:
+            build(arguments.source, arguments.model, rebuild_herbs=arguments.rebuild_herbs)
     except Exception as exc:
         print(
             json.dumps(_safe_index_error(exc), ensure_ascii=False),

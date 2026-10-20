@@ -115,7 +115,14 @@
       "mode": "compatible"
     },
     "agents": [
-      "claude"
-    ]
+      "claude",
+      "codex"
+    ],
+    "task_review": {
+      "enabled": false,
+      "failure_threshold": 2,
+      "interval_minutes": 5,
+      "cooldown_minutes": 5
+    }
   }
 }

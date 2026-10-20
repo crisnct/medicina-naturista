@@ -15,7 +15,7 @@ from backend.ai.categories import category_selection
 from backend.ai.client import AIUnavailable
 from backend.ai.condition_ai import catalog_condition_names, resolved_for
 from backend.ai.conditions import ResolvedQuery, _normalize, resolve_query
-from backend.ai.message_classification import MessageClassification
+from backend.ai.message_classification import MessageClassification, explicit_herb_top
 from backend.ai.report_validation import ValidatedReport, validate_report
 from backend.ai.search import ALL_SIGNALS, SearchSignals
 from backend.config import Settings
@@ -32,6 +32,7 @@ from backend.core.contracts import (
     RetrievalProtocol,
 )
 from backend.core.errors import ApplicationError, OperationCancelled
+from backend.core.herb_categories import CATEGORY_LABELS, GLOBAL_TOP_LABEL
 from backend.core.models import (
     CommitChange,
     HealthProfile,
@@ -362,6 +363,9 @@ class ConversationService:
                 message=message,
                 clarification=previous.clarification,
                 herb_choices=previous.herb_choices,
+                top_count=previous.top_count,
+                top_category=previous.top_category,
+                top_clarification=previous.top_clarification,
                 report_id=(
                     previous.report_id
                     if previous.clarification == "email_raport"
@@ -432,6 +436,9 @@ class ConversationService:
                             "report_available": routing.report_id is not None,
                             "pending_clarification": routing.clarification or None,
                             "herb_choices": list(routing.herb_choices),
+                            "top_count": routing.top_count,
+                            "top_category": routing.top_category,
+                            "top_clarification": routing.top_clarification,
                         },
                     )
             except OperationCancelled:
@@ -442,7 +449,18 @@ class ConversationService:
                     type(exc).__name__,
                     getattr(exc, "reason", "invalid_output"),
                 )
-                if EMAIL_PATTERN.fullmatch(routing.message):
+                explicit_top = explicit_herb_top(
+                    routing.message,
+                    {
+                        "pending_clarification": routing.clarification,
+                        "top_count": routing.top_count,
+                        "top_category": routing.top_category,
+                        "top_clarification": routing.top_clarification,
+                    },
+                )
+                if explicit_top is not None:
+                    decision = explicit_top
+                elif EMAIL_PATTERN.fullmatch(routing.message):
                     decision = MessageClassification(intent="email_raport")
                 elif email_request_hint(routing.message) or routing.clarification == "email_raport":
                     decision = MessageClassification(
@@ -465,6 +483,9 @@ class ConversationService:
             routing.classified = True
             routing.clarification = ""
             routing.herb_choices = ()
+            routing.top_count = None
+            routing.top_category = None
+            routing.top_clarification = None
             if decision.intent == "diverse" and not decision.needs_clarification:
                 notices.append(text_message("assistant", GENERAL_QUESTION_NOTICE))
             if decision.intent == "email_raport":
@@ -558,12 +579,20 @@ class ConversationService:
         notices: list[dict[str, Any]],
     ) -> dict[str, Any]:
         if decision.needs_clarification or decision.top_count is None:
-            operation.snapshot.routing.clarification = "top_plante"
-            notices.append(
-                text_message(
-                    "assistant", "Câte intrări doriți în top? Precizați un număr între 1 și 10000."
-                )
+            routing = operation.snapshot.routing
+            routing.clarification = "top_plante"
+            routing.top_count = decision.top_count
+            routing.top_category = decision.top_category
+            routing.top_clarification = decision.top_clarification
+            clarification = (
+                "Alegeți o singură categorie: "
+                + "; ".join(CATEGORY_LABELS.values())
+                + ". Grupa disponibilă este «fibre, probiotice și prebiotice», împreună. "
+                "Pentru topul global, răspundeți «toate categoriile»."
+                if decision.top_clarification == "category"
+                else "Câte intrări doriți în top? Precizați un număr între 1 și 10000."
             )
+            notices.append(text_message("assistant", clarification))
         else:
             if self.top_herbs is None:
                 raise ApplicationError(
@@ -572,13 +601,18 @@ class ConversationService:
                     503,
                 )
             with operation_budget(self.budget(operation)):
-                herbs = self.top_herbs(decision.top_count)
+                herbs = self.top_herbs(decision.top_count, decision.top_category)
             self.store.checkpoint(operation)
+            label = (
+                CATEGORY_LABELS[decision.top_category]
+                if decision.top_category
+                else GLOBAL_TOP_LABEL
+            )
             if not herbs:
-                content = "Catalogul nu conține intrări pentru acest top."
+                content = f"Catalogul nu conține intrări pentru topul: {label}."
             else:
                 lines = [
-                    f"### Top {len(herbs)} plante și produse după numărul de afecțiuni "
+                    f"### Top {len(herbs)} {label} după numărul de afecțiuni "
                     "asociate în bibliotecă",
                     "Asocierile includ atenționări și contraindicații; "
                     "nu demonstrează eficacitatea terapeutică.",

@@ -18,6 +18,13 @@ from backend.ai.herb_repository import HerbCatalogUnavailable
 from backend.ai.herbs import HerbCatalog
 from backend.ai.providers import ProviderConfig
 from backend.config import Settings
+from backend.core.herb_categories import (
+    CATEGORY_ALIASES,
+    GLOBAL_TOP_ALIASES,
+    HERB_CATEGORIES,
+    HerbCategory,
+    TopClarification,
+)
 
 logger = logging.getLogger("naturist.classification")
 MessageIntent = Literal["remedii", "planta", "diverse", "email_raport", "top_plante"]
@@ -31,6 +38,8 @@ class MessageClassification(BaseModel):
     herb_name: str | None = Field(default=None, min_length=1, max_length=160)
     email_address: str | None = Field(default=None, min_length=1, max_length=254)
     top_count: int | None = Field(default=None, ge=1, le=10000)
+    top_category: HerbCategory | None = None
+    top_clarification: TopClarification | None = None
     needs_clarification: bool = False
 
     @model_validator(mode="after")
@@ -39,10 +48,20 @@ class MessageClassification(BaseModel):
             raise ValueError("herb_name is only valid for planta")
         if self.intent != "email_raport" and self.email_address is not None:
             raise ValueError("email_address is only valid for email_raport")
-        if self.intent != "top_plante" and self.top_count is not None:
+        if self.intent != "top_plante" and any(
+            value is not None
+            for value in (self.top_count, self.top_category, self.top_clarification)
+        ):
             raise ValueError("top_count is only valid for top_plante")
         if self.intent == "top_plante" and not self.needs_clarification and self.top_count is None:
             raise ValueError("top_plante needs a count or clarification")
+        if self.intent == "top_plante":
+            if self.needs_clarification != (self.top_clarification is not None):
+                raise ValueError("top clarification needs an explicit reason")
+            if self.top_clarification == "count" and self.top_count is not None:
+                raise ValueError("count clarification must not include a count")
+            if self.top_clarification == "category" and self.top_category is not None:
+                raise ValueError("category clarification must not select a category")
         if self.intent == "planta" and not self.needs_clarification and not self.herb_name:
             raise ValueError("planta needs a name or clarification")
         return self
@@ -78,55 +97,96 @@ def explicit_remedy_request(message: str) -> MessageClassification | None:
     return MessageClassification(intent="remedii")
 
 
+# Category labels are ranking scopes, never plant matching terms.
+def _top_categories(normalized: str) -> set[HerbCategory]:
+    return {
+        category
+        for category, aliases in CATEGORY_ALIASES.items()
+        if any(re.search(r"\b" + re.escape(alias) + r"\b", normalized) for alias in aliases)
+    }
+
+
+def _top_decision(
+    count: int | None, category: HerbCategory | None, *, unknown: bool = False
+) -> MessageClassification:
+    reason: TopClarification | None = (
+        "category" if unknown else "count" if count is None or not 1 <= count <= 10000 else None
+    )
+    return MessageClassification(
+        intent="top_plante",
+        top_count=count if count is not None and 1 <= count <= 10000 else None,
+        top_category=None if unknown else category,
+        top_clarification=reason,
+        needs_clarification=reason is not None,
+    )
+
+
 def explicit_herb_top(message: str, context: dict[str, object]) -> MessageClassification | None:
-    """Resolve explicit general catalog rankings even when Ollama is unavailable."""
+    """Resolve complete rankings and short replies without model or catalog I/O."""
     normalized = _normalize(message)
-    if context.get("pending_clarification") == "top_plante" and re.fullmatch(
-        r"\d{1,5}", normalized
+    numeric = re.search(r"(?<!\w)[+-]?\d+(?:[.,]\d+)?", message)
+    if numeric is not None:
+        # Text normalization discards signs and decimal punctuation; quantities must not.
+        normalized = normalized.replace(_normalize(numeric[0]), numeric[0], 1)
+    if normalized == "toate categoriile" and context.get("pending_clarification") != "top_plante":
+        return _top_decision(100, None)
+    if re.search(r'["«»„”\n;]', message) or re.search(
+        r"\b(pentru|contra|impotriva|email|mail|raport|nu|compara|trimite)\b|@", normalized
     ):
-        count = int(normalized)
-    else:
-        plants = re.search(r"\bplante(?:le)?\b", normalized)
-        if plants is None:
-            return None
-        # A medical qualifier (even without "pentru") must reach the semantic
-        # classifier rather than being mistaken for the general catalog top.
-        generic_tail = {
-            "care",
-            "sunt",
-            "cele",
-            "mai",
-            "recomandate",
-            "utile",
-            "bune",
-            "folosite",
-            "medicinale",
-            "eficiente",
-            "populare",
-            "si",
-            "din",
-            "catalog",
-            "lista",
-            "in",
-            "general",
-            "te",
-            "rog",
-        }
-        if set(re.findall(r"\w+", normalized[plants.end() :])) - generic_tail:
-            return None
-        if re.search(r"\b(pentru|contra|impotriva|email|mail|raport|nu)\b|@", normalized):
-            return None
-        if re.search(r"\b(?:in|la)\s+(?!general\b)\w+", normalized):
-            return None
-        match = re.search(r"\b(?:top|primele)\s+(\d{1,5})\b", normalized)
-        if match is None:
-            match = re.search(r"\b(\d{1,5})\s+(?:de\s+)?plante\b", normalized)
-            if match is None or not re.search(r"\b(recomandate|utile|bune|folosite)\b", normalized):
-                return None
-        count = int(match[1])
-    if not 1 <= count <= 10000:
-        return MessageClassification(intent="top_plante", needs_clarification=True)
-    return MessageClassification(intent="top_plante", top_count=count)
+        return None
+    pending = context.get("pending_clarification") == "top_plante"
+    if pending and re.fullmatch(r"[+-]?\d+(?:[.,]\d+)?", normalized):
+        category = context.get("top_category")
+        category = category if category in HERB_CATEGORIES else None
+        return _top_decision(
+            int(normalized) if re.fullmatch(r"[+-]?\d+", normalized) else None,
+            category,
+            unknown=context.get("top_clarification") == "category",
+        )
+    if pending:
+        if normalized in {"fibre", "probiotice", "prebiotice"}:
+            count = context.get("top_count")
+            return _top_decision(count if type(count) is int else None, None, unknown=True)
+        for category, aliases in CATEGORY_ALIASES.items():
+            if normalized in aliases:
+                count = context.get("top_count")
+                return _top_decision(count if type(count) is int else None, category)
+        if normalized in GLOBAL_TOP_ALIASES and normalized:
+            count = context.get("top_count")
+            return _top_decision(count if type(count) is int else None, None)
+    match = re.fullmatch(
+        r"(?:(?:te|va) rog )?(?:(?:da mi|arata mi|vreau|doresc|as vrea) )?"
+        r"(?:(?:top(?:ul)?|primele)\b|(?:care sunt )?cele mai (?:utile|recomandate|bune|folosite))"
+        r"(?:\s+([+-]?\d+(?:[.,]\d+)?))?(?:\s+(.*))?",
+        normalized,
+    )
+    if match is None:
+        return None
+    raw_count, domain = match.groups()
+    count = (
+        100
+        if raw_count is None
+        else int(raw_count)
+        if re.fullmatch(r"[+-]?\d+", raw_count)
+        else None
+    )
+    domain = re.sub(r"^de | te rog$", "", domain or "")
+    domain = re.sub(
+        r"\b(care|sunt|cele|mai|recomandate|utile|bune|folosite|eficiente|populare)\b", "", domain
+    )
+    domain = re.sub(r"\b(din catalog|din lista|in general)\b", "", domain)
+    domain = " ".join(domain.split())
+    for category, aliases in CATEGORY_ALIASES.items():
+        if domain in aliases:
+            return _top_decision(count, category)
+    if domain in GLOBAL_TOP_ALIASES:
+        return _top_decision(count, None)
+    categories = _top_categories(domain)
+    if len(categories) > 1 or not categories and not re.match(r"plante(?:le)?\b", domain):
+        return _top_decision(count, None, unknown=True)
+    # Unknown qualifiers after a known group may be a medical subject. The model
+    # must decide the intent; its ranking decision is still scope-checked below.
+    return None
 
 
 def complete_general_question(message: str) -> bool:
@@ -219,6 +279,8 @@ class MessageClassifier:
                                 "herb_name",
                                 "email_address",
                                 "top_count",
+                                "top_category",
+                                "top_clarification",
                                 "needs_clarification",
                             ],
                             "properties": {
@@ -232,6 +294,16 @@ class MessageClassifier:
                                     else "null"
                                 },
                                 "needs_clarification": {"type": "boolean"},
+                                "top_category": {
+                                    "enum": [*HERB_CATEGORIES, None]
+                                    if intent == "top_plante"
+                                    else [None],
+                                },
+                                "top_clarification": {
+                                    "enum": ["count", "category", None]
+                                    if intent == "top_plante"
+                                    else [None],
+                                },
                                 "top_count": {
                                     "type": ["integer", "null"]
                                     if intent == "top_plante"
@@ -344,7 +416,60 @@ class MessageClassifier:
                 # A complete general question needs no missing plant, condition
                 # or answer from the classifier before retrieval can start.
                 raw = {**raw, "needs_clarification": False}
-            result = MessageClassification.model_validate(raw)
+            if isinstance(raw, dict) and raw.get("intent") == "top_plante":
+                scopes = _top_categories(_normalize(message))
+                if len(scopes) > 1:
+                    raw = {
+                        **raw,
+                        "top_category": None,
+                        "top_clarification": "category",
+                        "needs_clarification": True,
+                    }
+                elif scopes:
+                    # A semantic decision cannot widen an explicitly requested scope.
+                    raw = {**raw, "top_category": next(iter(scopes))}
+                elif raw.get("top_category") is not None or not re.search(
+                    r"\b(produse naturiste|general|toate categoriile)\b|"
+                    r"\bplante(?:le)?(?: (?:care|sunt|cele|mai|utile|recomandate|bune|folosite|"
+                    r"din|catalog|in|lista|general))*$",
+                    _normalize(message),
+                ):
+                    explicit_quantities = re.findall(r"(?<!\w)[+-]?\d+(?:[.,]\d+)?", message)
+                    count = (
+                        int(explicit_quantities[0])
+                        if len(explicit_quantities) == 1
+                        and re.fullmatch(r"[+-]?\d+", explicit_quantities[0])
+                        else None
+                        if explicit_quantities
+                        else raw.get("top_count")
+                    )
+                    return _top_decision(count if type(count) is int else None, None, unknown=True)
+                quantities = re.findall(r"(?<!\w)[+-]?\d+(?:[.,]\d+)?", message)
+                if quantities:
+                    valid_count = (
+                        int(quantities[0])
+                        if len(quantities) == 1 and re.fullmatch(r"[+-]?\d+", quantities[0])
+                        else None
+                    )
+                    if valid_count is None or not 1 <= valid_count <= 10000:
+                        return _top_decision(
+                            None,
+                            next(iter(scopes)) if len(scopes) == 1 else None,
+                            unknown=len(scopes) > 1,
+                        )
+                    raw = {**raw, "top_count": valid_count}
+                elif raw.get("top_count") is None and raw.get("needs_clarification") is False:
+                    raw = {**raw, "top_count": 100}
+                try:
+                    result = MessageClassification.model_validate(raw)
+                except ValueError:
+                    return _top_decision(
+                        None,
+                        next(iter(scopes)) if len(scopes) == 1 else None,
+                        unknown=len(scopes) != 1,
+                    )
+            else:
+                result = MessageClassification.model_validate(raw)
             logger.info(
                 "message_classified intent=%s needs_clarification=%s source=model duration_ms=%s",
                 result.intent,

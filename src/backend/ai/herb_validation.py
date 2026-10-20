@@ -8,7 +8,14 @@ from collections import Counter
 from collections.abc import Sequence
 
 from backend.ai.conditions import _normalize
-from backend.ai.herbs import FIELDS, PRODUCT_FAMILIES, Herb, SourceHerb, parse_herbs
+from backend.ai.herbs import (
+    BOTANICAL_CATEGORY,
+    FIELDS,
+    Herb,
+    SourceHerb,
+    parse_herbs,
+)
+from backend.core.herb_categories import HERB_CATEGORIES, PRODUCT_CATEGORIES
 
 SLUG = re.compile(r"[a-z]+(-[a-z]+)+")
 LATIN = re.compile(r"[A-Z][a-z]+ (x )?[a-z]+(-[a-z]+)?( (subsp|var)\. [a-z]+(-[a-z]+)?)?")
@@ -23,7 +30,10 @@ def catalog_problems(items: Sequence[SourceHerb | Herb], *, source: bool) -> lis
     owners: dict[str, str | int] = {}
     products: dict[str, str | int] = {}
     for number, herb in enumerate(items, 1):
-        product = not source and herb.family in PRODUCT_FAMILIES
+        category = herb.category if isinstance(herb, Herb) else BOTANICAL_CATEGORY
+        product = not source and category in PRODUCT_CATEGORIES
+        if not source and category not in HERB_CATEGORIES:
+            problems.append(f"line {number}: unknown category")
         where = f"line {number} ({herb.latin})"
         strings = [
             herb.ro,
@@ -64,11 +74,13 @@ def catalog_problems(items: Sequence[SourceHerb | Herb], *, source: bool) -> lis
         if (
             not herb.ro
             or (not product and not herb.latin)
-            or not herb.family
+            or (not product and not herb.family)
             or any(not value for key in ALIASES for value in getattr(herb, key))
         ):
             problems.append(f"{where}: empty required name")
         if product:
+            if herb.family:
+                problems.append(f"{where}: products must not have a botanical family")
             if herb.latin or herb.latin_synonyms:
                 problems.append(f"{where}: products must not have Latin species names")
             if not herb.en:
@@ -124,6 +136,7 @@ def convert_source(items: Sequence[SourceHerb]) -> tuple[Herb, ...]:
     converted = tuple(
         Herb(
             id=number,
+            category=BOTANICAL_CATEGORY,
             ro=item.ro.lower(),
             ro_regional=tuple(value.lower() for value in item.ro_regional),
             latin=item.latin.lower(),

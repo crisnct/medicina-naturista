@@ -39,6 +39,7 @@ def catalog():
     return HerbCatalog(
         [
             Herb(
+                category="plante medicinale",
                 id=index,
                 ro=name,
                 ro_regional=(),

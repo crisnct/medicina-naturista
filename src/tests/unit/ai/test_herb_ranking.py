@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 from unittest.mock import patch
 
 import pytest
@@ -58,6 +60,8 @@ def test_invalid_limits_never_open_database(count):
     with patch("backend.ai.herb_ranking.db.get_pool") as pool:
         with pytest.raises(ValueError):
             list_top_herbs(count)
+        with pytest.raises(ValueError):
+            list_top_herbs(20, "category not in catalog")
         pool.assert_not_called()
 
 
@@ -67,4 +71,4 @@ def test_index_lock_conflict_does_not_query_ranking():
         connection.execute.return_value.fetchone.return_value = (False,)
         with pytest.raises(IndexUnavailable):
             list_top_herbs(20)
-        assert connection.execute.call_count == 2
+        assert connection.execute.call_count == 3

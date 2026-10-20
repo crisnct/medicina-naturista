@@ -10,7 +10,6 @@ from backend.ai.herb_index_catalog import read_index_catalogs
 from backend.ai.herb_ranking import list_top_herbs
 from backend.ai.herb_repository import HERBS_INDEX_VERSION
 from backend.ai.index_state import IndexUnavailable
-from scripts.migrate_database import MIGRATIONS
 from tests.support.postgres import PostgresFixture
 
 
@@ -18,15 +17,12 @@ from tests.support.postgres import PostgresFixture
 def postgres():
     fixture = PostgresFixture()
     fixture.start()
+    fixture.snapshot_herbs()
     try:
         yield fixture
     finally:
         try:
-            # Module tests mutate the catalog; leave a valid seed for the next module.
-            with db.get_pool().connection() as connection:
-                connection.execute("TRUNCATE herbs RESTART IDENTITY CASCADE")
-                for name in ("007_seed_herbs.sql", "015_seed_supplements.sql"):
-                    connection.execute((MIGRATIONS / name).read_text(encoding="utf-8"))
+            fixture.restore_herbs()
         finally:
             fixture.stop()
 
@@ -37,11 +33,11 @@ def catalog(postgres):
     with db.get_pool().connection() as connection:
         connection.execute("TRUNCATE herbs RESTART IDENTITY CASCADE")
         connection.execute("""
-            INSERT INTO herbs(family,latin,ro,en) VALUES
-            ('asteraceae','matricaria chamomilla','musetel','chamomile'),
-            ('asteraceae','chamaemelum nobile','musetel','roman chamomile'),
-            ('lamiaceae','mentha aquatica','menta de apa','water mint'),
-            ('testaceae','testus percentus','planta %_speciala','')
+            INSERT INTO herbs(category,family,latin,ro,en) VALUES
+            ('plante medicinale','asteraceae','matricaria chamomilla','musetel','chamomile'),
+            ('plante medicinale','asteraceae','chamaemelum nobile','musetel','roman chamomile'),
+            ('plante medicinale','lamiaceae','mentha aquatica','menta de apa','water mint'),
+            ('plante medicinale','testaceae','testus percentus','planta %_speciala','')
         """)
         connection.execute(
             "INSERT INTO herb_aliases(herb_id,name,kind) VALUES (1,'romanita','ro_regional')"
@@ -192,3 +188,16 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
         "ro_regional": [],
         "ranking": 7,
     }
+
+    with db.get_pool().connection() as connection:
+        connection.execute("UPDATE herbs SET category='fructe' WHERE id IN (1,2)")
+        connection.execute(
+            "INSERT INTO herbs(category,family,latin,ro,en,ranking) VALUES ('seminte',NULL,NULL,'seminte de struguri','grape seeds',0), ('uleiuri esentiale',NULL,NULL,'ulei de seminte','seed oil',20)"
+        )
+    assert [row["latin"] for row in list_top_herbs(1, "fructe")] == ["matricaria chamomilla"]
+    assert len(list_top_herbs(100, "fructe")) == 2
+    assert list_top_herbs(100, "seminte")[0]["ranking"] == 0
+    assert list_top_herbs(100, "seminte")[0]["ro"] == "semințe de struguri"
+    assert list_top_herbs(100, "cereale") == []
+    assert list_top_herbs(1)[0]["ro"] == "ulei de semințe"
+    assert len(list_top_herbs(100, "plante medicinale")) == 2

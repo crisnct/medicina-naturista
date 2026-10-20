@@ -1,5 +1,7 @@
 """Strict intent contract and local Ollama wiring; no external traffic."""
 
+from __future__ import annotations
+
 import json
 from unittest.mock import Mock
 
@@ -67,7 +69,7 @@ def test_compound_or_negative_remedy_requests_still_use_model(message):
     "message,count",
     [
         ("Da-mi top 20 plante care sunt cele mai recomandate/utile", 20),
-        ("Dă-mi primele 7 plante", 7),
+        ("Dă-mi primele 7 vitamine", 7),
         ("Care sunt cele mai utile 12 plante?", 12),
     ],
 )
@@ -77,6 +79,19 @@ def test_explicit_top_does_not_require_ollama_or_catalog(message, count):
         classifier.client.complete_json = Mock(side_effect=AssertionError())
         decision = classifier(message, {})
         assert decision.intent == "top_plante" and decision.top_count == count
+        from backend.core.herb_categories import HERB_CATEGORIES
+
+        for category in HERB_CATEGORIES:
+            scoped = classifier(f"Top {count} {category}", {})
+            assert scoped.top_category == category and scoped.top_count == count
+        assert classifier("Top 100   ", {}).top_category is None
+        assert classifier("Top 100 produse naturiste", {}).top_category is None
+        assert classifier("Top aminoacizi", {}).top_count == 100
+        assert classifier("Top 100 probiotice", {}).top_clarification == "category"
+        assert classifier("Top 20 categorie necunoscuta", {}).top_clarification == "category"
+        for invalid in ("-2", "0", "10001", "1.5"):
+            assert classifier(f"Top {invalid} uleiuri esentiale", {}).top_clarification == "count"
+        assert classifier("Top 20 vitamine si minerale", {}).top_count == 20
     finally:
         classifier.close()
 
@@ -91,6 +106,23 @@ def test_top_count_clarification_and_changed_subject():
         assert classifier("Top 20 plante gastrită", {}).intent == "remedii"
         assert classifier("Gripă", {"pending_clarification": "top_plante"}).intent == "remedii"
         classifier.client.complete_json.assert_called()
+        classifier.client.complete_json = Mock(
+            return_value={"intent": "top_plante", "top_count": 999, "top_category": None}
+        )
+        scoped = classifier("Prezintă clasamentul celor 20 vitamine", {})
+        assert scoped.top_count == 20 and scoped.top_category == "vitamine"
+        assert classifier("Prezintă clasamentul cu 0 vitamine", {}).top_clarification == "count"
+        classifier.client.complete_json = Mock(
+            return_value={
+                "intent": "top_plante",
+                "top_count": 20,
+                "top_category": "fibre, probiotice, prebiotice",
+            }
+        )
+        assert (
+            classifier("Prezintă clasamentul cu 20 probiotice", {}).top_clarification == "category"
+        )
+
     finally:
         classifier.close()
 
@@ -115,6 +147,7 @@ def plant_catalog():
     return HerbCatalog(
         [
             Herb(
+                category="plante medicinale",
                 id=1,
                 ro="coada-șoricelului",
                 latin="achillea millefolium",
@@ -125,6 +158,7 @@ def plant_catalog():
                 family="asteraceae",
             ),
             Herb(
+                category="plante medicinale",
                 id=2,
                 ro="mușețel",
                 latin="matricaria chamomilla",
@@ -135,6 +169,7 @@ def plant_catalog():
                 family="asteraceae",
             ),
             Herb(
+                category="plante medicinale",
                 id=3,
                 ro="mentă",
                 latin="mentha piperita",
@@ -145,6 +180,7 @@ def plant_catalog():
                 family="lamiaceae",
             ),
             Herb(
+                category="plante medicinale",
                 id=4,
                 ro="mușețel roman",
                 latin="chamaemelum nobile",
@@ -369,6 +405,17 @@ def test_ollama_request_needs_no_hf_token_and_uses_the_existing_endpoint():
             "email_raport",
             "top_plante",
         ]
+        from backend.core.herb_categories import HERB_CATEGORIES
+
+        assert branches[-1]["properties"]["top_category"]["enum"] == [*HERB_CATEGORIES, None]
+        assert branches[-1]["properties"]["top_clarification"]["enum"] == [
+            "count",
+            "category",
+            None,
+        ]
+        assert "top_category" in branches[-1]["required"]
+        assert "top_clarification" in branches[-1]["required"]
+        assert branches[0]["properties"]["top_category"]["enum"] == [None]
         assert branches[0]["properties"]["herb_name"]["type"] == "null"
         assert branches[2]["properties"]["email_address"]["type"] == "null"
         assert classifier.client.provider.read_timeout_seconds == 17

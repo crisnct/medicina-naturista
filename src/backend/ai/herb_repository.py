@@ -17,10 +17,10 @@ from psycopg_pool import PoolTimeout
 from backend.ai import db
 from backend.ai.conditions import _normalize
 from backend.ai.herb_validation import ALIASES, catalog_problems
-from backend.ai.herbs import FIELDS, Herb, HerbCatalog
+from backend.ai.herbs import RUNTIME_FIELDS, Herb, HerbCatalog
 from backend.core.errors import ApplicationError
 
-FINGERPRINT_VERSION = 1
+FINGERPRINT_VERSION = 2
 # Version 2 uses only primary chunk conditions and publishes ranking atomically.
 HERBS_INDEX_VERSION = 2
 logger = logging.getLogger("naturist.herbs")
@@ -45,7 +45,10 @@ class HerbCatalogSnapshot:
 
 
 def catalog_fingerprint(herbs: Sequence[Herb]) -> str:
-    payload = [FINGERPRINT_VERSION, [[getattr(item, key) for key in FIELDS] for item in herbs]]
+    payload = [
+        FINGERPRINT_VERSION,
+        [[getattr(item, key) for key in RUNTIME_FIELDS] for item in herbs],
+    ]
     return hashlib.sha256(
         json.dumps(payload, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
     ).hexdigest()
@@ -58,18 +61,27 @@ def clear_herb_catalog_cache() -> None:
 
 def read_herbs(connection: Connection) -> tuple[Herb, ...]:
     rows = connection.execute(
-        "SELECT h.id, h.family, h.latin, h.ro, h.en, a.name, a.kind "
+        "SELECT h.id, h.category, h.family, h.latin, h.ro, h.en, a.name, a.kind "
         "FROM herbs h LEFT JOIN herb_aliases a ON a.herb_id = h.id ORDER BY h.id, a.id"
     ).fetchall()
     records: dict[int, dict] = {}
-    for herb_id, family, latin, ro, en, name, kind in rows:
+    for herb_id, category, family, latin, ro, en, name, kind in rows:
+        family = "" if family is None else family
         latin = "" if latin is None else latin
-        if type(herb_id) is not int or not all(isinstance(v, str) for v in (family, latin, ro, en)):
+        if type(herb_id) is not int or not all(
+            isinstance(v, str) for v in (category, family, latin, ro, en)
+        ):
             raise HerbCatalogUnavailable()
         record = records.setdefault(
             herb_id,
             dict(
-                id=herb_id, family=family, latin=latin, ro=ro, en=en, **{key: [] for key in ALIASES}
+                id=herb_id,
+                category=category,
+                family=family,
+                latin=latin,
+                ro=ro,
+                en=en,
+                **{key: [] for key in ALIASES},
             ),
         )
         if kind is not None or name is not None:
@@ -81,6 +93,7 @@ def read_herbs(connection: Connection) -> tuple[Herb, ...]:
             (
                 Herb(
                     id=record["id"],
+                    category=record["category"],
                     family=record["family"],
                     latin=record["latin"],
                     ro=record["ro"],

@@ -21,6 +21,8 @@ class ConversionTests(TestCase):
             result = seed_sql(herbs, digest)
             self.assertEqual(result, seed_sql(herbs, digest))
             self.assertIn("RETURNING id", result)
+            self.assertIn("herbs (category, family, latin, ro, en)", result)
+            self.assertIn("'plante medicinale'", result)
             self.assertIn("SELECT plant.id", result)
             self.assertIn("'matricaria chamomilla'", result)
             self.assertNotIn("ON CONFLICT", result)

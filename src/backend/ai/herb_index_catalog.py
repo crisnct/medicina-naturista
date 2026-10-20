@@ -59,7 +59,7 @@ def read_index_catalogs(connection):
             positions_by_term.setdefault(term, set()).add(position)
 
     rows = connection.execute(
-        "SELECT h.id, h.family, h.latin, h.ro, h.en, "
+        "SELECT h.id, h.category, h.family, h.latin, h.ro, h.en, "
         "COALESCE(array_agg(DISTINCT a.name ORDER BY a.name) FILTER "
         "(WHERE a.kind='ro_regional'), ARRAY[]::text[]), "
         "COALESCE(array_agg(DISTINCT a.name ORDER BY a.name) FILTER "
@@ -67,12 +67,13 @@ def read_index_catalogs(connection):
         "COALESCE(array_agg(DISTINCT a.name ORDER BY a.name) FILTER "
         "(WHERE a.kind='en_alt'), ARRAY[]::text[]) "
         "FROM herbs h LEFT JOIN herb_aliases a ON a.herb_id=h.id "
-        "GROUP BY h.id, h.family, h.latin, h.ro, h.en ORDER BY h.id"
+        "GROUP BY h.id, h.category, h.family, h.latin, h.ro, h.en ORDER BY h.id"
     ).fetchall()
     herbs = [
         Herb(
             id=i,
-            family=f,
+            category=category,
+            family="" if f is None else f,
             latin="" if latin is None else latin,
             ro=r,
             en=e,
@@ -80,7 +81,7 @@ def read_index_catalogs(connection):
             latin_synonyms=tuple(ls),
             en_alt=tuple(ea),
         )
-        for i, f, latin, r, e, rr, ls, ea in rows
+        for i, category, f, latin, r, e, rr, ls, ea in rows
     ]
     if catalog_problems(
         sorted(herbs, key=lambda h: (_normalize(h.ro), _normalize(h.latin))), source=False

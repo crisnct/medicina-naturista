@@ -17,8 +17,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT / "src"))
 from backend.ai.conditions import _normalize  # noqa: E402
-from backend.ai.herbs import PRODUCT_FAMILIES, load_herbs  # noqa: E402
+from backend.ai.herbs import load_herbs  # noqa: E402
 from backend.config import Settings, configure_settings  # noqa: E402
+from backend.core.herb_categories import (  # noqa: E402
+    BOTANICAL_CATEGORIES,
+    HERB_CATEGORIES,
+    PRODUCT_CATEGORIES,
+)
 
 REVIEW = ROOT / "tmp" / "herbs_candidates.jsonl"
 PROVENANCE = ROOT / "tmp" / "herbs_work" / "herbs_provenance.jsonl"
@@ -36,8 +41,8 @@ def read_jsonl(path: Path) -> list[dict]:
 def main() -> None:
     configure_settings(Settings.from_env(dotenv=True))
     catalog = load_herbs().herbs
-    herbs = [herb for herb in catalog if herb.family not in PRODUCT_FAMILIES]
-    products = [herb for herb in catalog if herb.family in PRODUCT_FAMILIES]
+    herbs = [herb for herb in catalog if herb.category in BOTANICAL_CATEGORIES]
+    products = [herb for herb in catalog if herb.category in PRODUCT_CATEGORIES]
     review = {_normalize(row["latin"]): row for row in read_jsonl(REVIEW)}
     provenance = {_normalize(row["latin"]): row for row in read_jsonl(PROVENANCE)}
     # the review list names a species by the name it had then: map renamed ones back
@@ -54,9 +59,27 @@ def main() -> None:
     out += ["## Totaluri", "", f"- specii: **{len(herbs)}**"]
     out += [f"- produse: **{len(products)}**", f"- total intrări: **{len(catalog)}**"]
     out += [
-        f"- {family}: {count}"
-        for family, count in sorted(collections.Counter(h.family for h in products).items())
+        f"- {category}: {count}"
+        for category in HERB_CATEGORIES
+        for count in [sum(h.category == category for h in catalog)]
     ]
+    additions = [
+        h
+        for h in catalog
+        if h.latin == "chenopodium quinoa"
+        or (
+            h.category == "seminte"
+            and h.ro
+            in {
+                "seminte de floarea-soarelui",
+                "seminte de dovleac",
+                "seminte de struguri",
+                "seminte de in",
+            }
+        )
+    ]
+    out += [f"- completări 017 prezente: **{len(additions)}/5**"]
+    out += [f"  - ID {h.id}: {h.ro} ({h.category})" for h in additions]
     if review:
         groups = collections.Counter(
             review.get(_normalize(h.latin), {}).get("group", "?") for h in herbs
@@ -89,14 +112,14 @@ def main() -> None:
 
     if provenance:
         renamed = [
-            (h.latin, row["renamed_from"])
+            (h.latin, prov_row["renamed_from"])
             for h in herbs
-            if (row := provenance.get(_normalize(h.latin))) and row.get("renamed_from")
+            if (prov_row := provenance.get(_normalize(h.latin))) and prov_row.get("renamed_from")
         ]
         merged = [
-            (h.latin, row["merged"])
+            (h.latin, prov_row["merged"])
             for h in herbs
-            if (row := provenance.get(_normalize(h.latin))) and row.get("merged")
+            if (prov_row := provenance.get(_normalize(h.latin))) and prov_row.get("merged")
         ]
         out += ["## Nume latine schimbate in numele acceptat", ""]
         out += [f"- {', '.join(old)} -> *{new}*" for new, old in renamed] or ["- niciunul"]
@@ -149,8 +172,8 @@ def main() -> None:
         "",
         "## Toate speciile",
         "",
-        "| ro | latin | grup | origine | surse | regionale (sursa) |",
-        "|---|---|---|---|---|---|",
+        "| ro | latin | categorie | familie | grup | origine | surse | regionale (sursa) |",
+        "|---|---|---|---|---|---|---|---|",
     ]
     for herb in herbs:
         row = review.get(_normalize(herb.latin), {})
@@ -162,12 +185,19 @@ def main() -> None:
             f"{name} ({regional_sources.get(_normalize(name), '?')})" for name in herb.ro_regional
         )
         out.append(
-            f"| {herb.ro} | *{herb.latin}* | {row.get('group', '')} | {row.get('origin', '')} | "
+            f"| {herb.ro} | *{herb.latin}* | {herb.category} | {herb.family} | "
+            f"{row.get('group', '')} | {row.get('origin', '')} | "
             f"{', '.join(prov.get('sources', []))} | {regional} |"
         )
 
-    out += ["", "## Produse fără specie botanică", "", "| ro | en | familie |", "|---|---|---|"]
-    out += [f"| {h.ro} | {h.en} | {h.family} |" for h in products]
+    out += [
+        "",
+        "## Produse fără specie botanică",
+        "",
+        "| ro | en | categorie | familie |",
+        "|---|---|---|---|",
+    ]
+    out += [f"| {h.ro} | {h.en} | {h.category} | {h.family or 'NULL'} |" for h in products]
     TARGET.parent.mkdir(parents=True, exist_ok=True)
     TARGET.write_text("\n".join(out) + "\n", encoding="utf-8")
     print(f"{len(herbs)} species, {len(products)} products -> {TARGET}")

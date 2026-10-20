@@ -10,6 +10,7 @@ import os
 from dataclasses import replace
 from unittest import mock
 
+from psycopg import sql
 from testcontainers.postgres import PostgresContainer
 
 from backend.ai import db as db_module
@@ -65,6 +66,36 @@ class PostgresFixture:
         db_module.close_pool()
         migrate(self._container.get_connection_url())
         self.reset()
+
+    # Snapshot the final schema so tests never replay historical seeds against it.
+    def snapshot_herbs(self) -> None:
+        with db_module.get_pool().connection() as connection:
+            self._herbs = connection.execute("SELECT * FROM herbs ORDER BY id").fetchall()
+            self._aliases = connection.execute("SELECT * FROM herb_aliases ORDER BY id").fetchall()
+
+    def restore_herbs(self) -> None:
+        with db_module.get_pool().connection() as connection:
+            connection.execute("TRUNCATE herbs RESTART IDENTITY CASCADE")
+            for table, columns, rows in (
+                ("herbs", "id,category,family,latin,ro,en,ranking", self._herbs),
+                ("herb_aliases", "id,herb_id,name,kind", self._aliases),
+            ):
+                with connection.cursor() as cursor:
+                    cursor.executemany(
+                        sql.SQL("INSERT INTO {} ({}) OVERRIDING SYSTEM VALUE VALUES ({})").format(
+                            sql.Identifier(table),
+                            sql.SQL(columns),
+                            sql.SQL(",").join(sql.Placeholder() for _ in columns.split(",")),
+                        ),
+                        rows,
+                    )
+                connection.execute(
+                    sql.SQL(
+                        "SELECT setval(pg_get_serial_sequence(%s,'id'), "
+                        "COALESCE(max(id),1),count(*)>0) FROM {}"
+                    ).format(sql.Identifier(table)),
+                    (table,),
+                )
 
     # Stop the container and undo the settings patch.
     def stop(self) -> None:

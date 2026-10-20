@@ -9,6 +9,8 @@ from dataclasses import dataclass
 
 from backend.ai.conditions import _normalize
 from backend.ai.romanian_inflections import word_variants
+from backend.core.herb_categories import BOTANICAL_CATEGORY as BOTANICAL_CATEGORY
+from backend.core.herb_categories import PRODUCT_CATEGORIES as PRODUCT_CATEGORIES
 
 logger = logging.getLogger("naturist.herbs")
 
@@ -16,17 +18,7 @@ logger = logging.getLogger("naturist.herbs")
 FIELDS = ("id", "ro", "ro_regional", "latin", "latin_synonyms", "en", "en_alt", "family")
 _STRINGS = ("id", "ro", "latin", "en", "family")
 _LISTS = ("ro_regional", "latin_synonyms", "en_alt")
-PRODUCT_FAMILIES = frozenset(
-    (
-        "suplimente",
-        "uleiuri esentiale",
-        "aminoacizi",
-        "vitamine",
-        "minerale",
-        "produse apicole",
-        "fibre, probiotice, prebiotice",
-    )
-)
+RUNTIME_FIELDS = (*FIELDS, "category")
 _PLANT_PARTS = frozenset(
     ("mugur", "mugure", "floare", "frunza", "radacina", "scoarta", "coaja", "fruct", "samanta")
 )
@@ -67,6 +59,7 @@ class SourceHerb(HerbNames):
 @dataclass(frozen=True)
 class Herb(HerbNames):
     id: int
+    category: str
 
     @property
     def choice(self) -> str:

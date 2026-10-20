@@ -6,8 +6,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.wolf/hooks/session-start.js\"",
-            "timeout": 5
+            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/session-start.js\"",
+            "timeout": 15
           }
         ]
       }
@@ -18,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.wolf/hooks/user-prompt-submit.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/user-prompt-submit.js\"",
             "timeout": 5
           }
         ]
@@ -30,7 +30,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.wolf/hooks/pre-read.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/pre-read.js\"",
             "timeout": 5
           }
         ]
@@ -40,7 +40,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.wolf/hooks/pre-write.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/pre-write.js\"",
             "timeout": 5
           }
         ]
@@ -50,12 +50,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/block-git-commit.js\"",
-            "timeout": 5
-          },
-          {
-            "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.wolf/hooks/pre-bash.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/pre-bash.js\"",
             "timeout": 5
           }
         ]
@@ -67,7 +62,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.wolf/hooks/post-read.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/post-read.js\"",
             "timeout": 5
           }
         ]
@@ -77,13 +72,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.wolf/hooks/post-write.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/post-write.js\"",
             "timeout": 10
-          },
-          {
-            "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.claude/hooks/ruff-format-check.js\"",
-            "timeout": 20
           }
         ]
       },
@@ -92,7 +82,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.wolf/hooks/post-bash.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/post-bash.js\"",
             "timeout": 10
           }
         ]
@@ -104,7 +94,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.wolf/hooks/post-batch.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/post-batch.js\"",
             "timeout": 5
           }
         ]
@@ -116,7 +106,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.wolf/hooks/precompact.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/precompact.js\"",
             "timeout": 5
           }
         ]
@@ -128,7 +118,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.wolf/hooks/stop.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/stop.js\"",
             "timeout": 10
           }
         ]
@@ -140,7 +130,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"$CLAUDE_PROJECT_DIR/.wolf/hooks/session-end.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/session-end.js\"",
             "timeout": 10
           }
         ]

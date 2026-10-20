@@ -5,6 +5,7 @@ from __future__ import annotations
 from collections.abc import Callable
 from typing import TYPE_CHECKING, Literal, NotRequired, Protocol, TypedDict
 
+from backend.core.herb_categories import HerbCategory
 from backend.core.report_models import ReportModel as ReportModel
 
 if TYPE_CHECKING:
@@ -105,4 +106,4 @@ class RankedHerb(TypedDict):
     ranking: int
 
 
-ListTopHerbs = Callable[[int], list[RankedHerb]]
+ListTopHerbs = Callable[[int, HerbCategory | None], list[RankedHerb]]

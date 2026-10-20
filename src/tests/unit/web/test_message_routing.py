@@ -1,5 +1,7 @@
 """Intent routing, cancellation and email claims with isolated HTTP dependencies."""
 
+from __future__ import annotations
+
 import threading
 from concurrent.futures import ThreadPoolExecutor
 from unittest.mock import Mock
@@ -130,13 +132,13 @@ def test_top_returns_names_and_aliases_without_search_or_report(web):
     assert result["intent"] == "top_plante"
     assert not result["startSearch"] and not result["identifyCondition"]
     assert result["messages"][0]["content"] == (
-        "### Top 2 plante și produse după numărul de afecțiuni asociate în bibliotecă\n"
+        "### Top 2 produse naturiste — toate categoriile după numărul de afecțiuni asociate în bibliotecă\n"
         "Asocierile includ atenționări și contraindicații; nu demonstrează eficacitatea terapeutică.\n"
         "1. **Mușețel** (Matricaria Chamomilla) — asociere în bibliotecă cu "
         "1156 afecțiuni (denumiri regionale: romaniță, matricea)\n"
         "2. **Păr** (Pyrus Communis) — asociere în bibliotecă cu 1 afecțiune"
     )
-    test.deps.top_herbs.assert_called_once_with(20)
+    test.deps.top_herbs.assert_called_once_with(20, None)
     assert test.deps.store.get(sid, tab).profile.health_problem == ""
     assert test.client.post("/api/search", headers=support._headers(sid, tab)).status_code == 409
     classify(web, first["contextRevision"])
@@ -152,15 +154,39 @@ def test_top_without_count_asks_then_accepts_count_only(web):
     )
     test.deps.classify = classifier
     test.deps.top_herbs = Mock(return_value=[])
-    first = accept(web, "Care sunt cele mai utile plante?")
+    first = accept(web, "Top 0 uleiuri esentiale")
     result = classify(web, first["contextRevision"]).json()
     assert "Câte intrări" in result["messages"][0]["content"]
     assert test.deps.store.get(sid, tab).routing.clarification == "top_plante"
     test.deps.top_herbs.assert_not_called()
     second = accept(web, "20")
     result = classify(web, second["contextRevision"]).json()
-    test.deps.top_herbs.assert_called_once_with(20)
+    test.deps.top_herbs.assert_called_once_with(20, "uleiuri esentiale")
     assert "Catalogul nu conține intrări" in result["messages"][0]["content"]
+
+    assert "uleiuri esențiale" in result["messages"][0]["content"]
+    test.deps.top_herbs.reset_mock()
+    third = accept(web, "Top 20 vitamine și minerale")
+    result = classify(web, third["contextRevision"]).json()
+    assert "Alegeți o singură categorie" in result["messages"][0]["content"]
+    assert test.deps.store.get(sid, tab).routing.top_count == 20
+    fourth = accept(web, "vitamine")
+    result = classify(web, fourth["contextRevision"]).json()
+    test.deps.top_herbs.assert_called_once_with(20, "vitamine")
+    classify(web, fourth["contextRevision"])
+    test.deps.top_herbs.assert_called_once()
+    fifth = accept(web, "La ce e bun mușețelul?")
+    classifier.client.complete_json = Mock(
+        return_value={"intent": "planta", "herb_name": "mușețel"}
+    )
+    test.deps.herb_lookup = Mock(return_value={"status": "not_found"})
+    classify(web, fifth["contextRevision"])
+    routing = test.deps.store.get(sid, tab).routing
+    assert (
+        routing.top_count is None
+        and routing.top_category is None
+        and routing.top_clarification is None
+    )
 
 
 def test_diverse_skips_ai_identification_and_direct_condition_endpoint(web):

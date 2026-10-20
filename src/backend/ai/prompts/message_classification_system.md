@@ -12,6 +12,8 @@ Folosește exact aceste chei, în această ordine:
 - `herb_name`: șir de caractere sau `null`
 - `email_address`: șir de caractere sau `null`
 - `top_count`: întreg sau `null`
+- `top_category`: categoria canonică exactă sau `null` pentru top general
+- `top_clarification`: `"count"`, `"category"` sau `null`
 - `needs_clarification`: valoare booleană
 
 Nu adăuga alte chei. JSON-ul trebuie să poată fi procesat automat.
@@ -25,6 +27,7 @@ un motiv pentru clarificare: clasifici întrebarea, nu verifici dacă poți răs
 
 Mesajul poate fi însoțit de:
 
+- `top_count`, `top_category`, `top_clarification`: cererea de top păstrată pentru clarificare
 - `pending_clarification`: intenția pentru care se așteaptă un răspuns (`"email_raport"`, `"planta"`, `"remedii"`, `"top_plante"` sau `null`)
 - `recognized_herbs`: lista plantelor recunoscute de catalogul local în mesajul curent
 
@@ -84,23 +87,35 @@ Un mesaj format doar dintr-un nume de plantă completează clarificarea de tip `
 
 ## 3. `top_plante`
 
-Alege `top_plante` când utilizatorul cere un clasament general al plantelor cele mai utile, recomandate sau folosite, fără să specifice o afecțiune.
+Alege `top_plante` pentru clasamente ale catalogului, fără o afecțiune. Sunt disponibile exact aceste categorii:
+`plante medicinale`, `fructe`, `legume`, `cereale`, `seminte`, `uleiuri esentiale`,
+`suplimente`, `aminoacizi`, `vitamine`, `minerale`, `produse apicole`, `fibre, probiotice, prebiotice`.
 
-Extrage numărul cerut ca întreg în `top_count`.
+Categoria este un filtru exact. „Top 100 plante medicinale” cere `top_category="plante medicinale"`.
+„Primele 20 vitamine” cere `top_category="vitamine"`, `top_count=20`.
+„Top 100 uleiuri esențiale” cere `top_category="uleiuri esentiale"`.
+„Top 100 semințe” cere `top_category="seminte"`.
+„Top 100”, „Top 100 produse naturiste”, „Top 100 plante”, „top general” și „toate categoriile”
+sunt globale: `top_category=null`. Nicio categorie explicită nu poate fi eliminată sau înlocuită.
 
-Exemple:
+Numărul implicit este 100 numai pentru o cerere completă fără cantitate.
+Un număr explicit invalid (inclusiv 0, negativ sau mai mare de 10000) cere
+`top_count=null`, `top_clarification="count"`, `needs_clarification=true`; păstrează categoria.
+O categorie necunoscută sau mai multe categorii cer `top_clarification="category"`,
+`top_category=null`, `needs_clarification=true`; păstrează numărul valid.
+„Top 100 probiotice” nu selectează implicit grupa comună: cere clarificarea categoriei.
+„Top 20 vitamine și minerale” cere o singură categorie, cu `top_count=20` păstrat.
 
-- „Dă-mi top 20 plante care sunt cele mai utile.” → `top_count=20`
-- „Primele zece plante.” → `top_count=10`
-- „Care sunt cele mai recomandate plante?” → folosește implicit `top_count=100`
+La clarificare, un răspuns scurt completează numai câmpul lipsă. După „Top 0 uleiuri esentiale”,
+„20” înseamnă top 20 uleiuri esentiale. După „Top 20 vitamine și minerale”, „vitamine”
+înseamnă top 20 vitamine. Schimbarea subiectului elimină cererea veche; „La ce e bun grâul?”
+este `planta`, chiar dacă grâul se află la cereale. Negațiile, citatele și comenzile compuse
+nu autorizează un top determinist.
 
-Dacă utilizatorul nu precizează un număr, setează `top_count=100` și `needs_clarification=false`.
-
-Dacă numărul cerut nu este un întreg între 1 și 10000 inclusiv, setează `top_count=null` și `needs_clarification=true`. Nu inventa și nu ajusta numărul cerut.
-
-Un mesaj format doar dintr-un număr completează clarificarea de tip `top_plante` aflată în așteptare, dacă numărul este valid.
-
-O cerere pentru plante asociate unei afecțiuni se clasifică drept `remedii`, nu `top_plante`. De exemplu, „Top 20 plante pentru gastrită” este `remedii`.
+O cerere medicală precum „Top 20 plante pentru gastrită” este `remedii`.
+În afara intenției `top_plante`, toate cele trei câmpuri top sunt `null`.
+Un top executabil are un număr între 1 și 10000 și `top_clarification=null`,
+`needs_clarification=false`. Nu inventa categorii și nu transforma o categorie neclară în top global.
 
 ## 4. `email_raport`
 
@@ -160,51 +175,51 @@ Nu inventa nume, adrese sau numere.
 
 Mesaj: Vreau remedii pentru gripă
 Răspuns:
-{"intent":"remedii","herb_name":null,"email_address":null,"top_count":null,"needs_clarification":false}
+{"intent":"remedii","herb_name":null,"email_address":null,"top_count":null,"top_category":null,"top_clarification":null,"needs_clarification":false}
 
 Mesaj: Ce plante ajută pentru gastrită?
 Răspuns:
-{"intent":"remedii","herb_name":null,"email_address":null,"top_count":null,"needs_clarification":false}
+{"intent":"remedii","herb_name":null,"email_address":null,"top_count":null,"top_category":null,"top_clarification":null,"needs_clarification":false}
 
 Mesaj: Ce este gastrita?
 Răspuns:
-{"intent":"remedii","herb_name":null,"email_address":null,"top_count":null,"needs_clarification":false}
+{"intent":"remedii","herb_name":null,"email_address":null,"top_count":null,"top_category":null,"top_clarification":null,"needs_clarification":false}
 
 Mesaj: La ce e bun mușețelul?
 Răspuns:
-{"intent":"planta","herb_name":"mușețel","email_address":null,"top_count":null,"needs_clarification":false}
+{"intent":"planta","herb_name":"mușețel","email_address":null,"top_count":null,"top_category":null,"top_clarification":null,"needs_clarification":false}
 
 Mesaj: Spune-mi tot ce știi despre coada-șoricelului
 Răspuns:
-{"intent":"planta","herb_name":"coada-șoricelului","email_address":null,"top_count":null,"needs_clarification":false}
+{"intent":"planta","herb_name":"coada-șoricelului","email_address":null,"top_count":null,"top_category":null,"top_clarification":null,"needs_clarification":false}
 
 Mesaj: La ce sunt bune mușețelul și menta?
 Răspuns:
-{"intent":"planta","herb_name":null,"email_address":null,"top_count":null,"needs_clarification":true}
+{"intent":"planta","herb_name":null,"email_address":null,"top_count":null,"top_category":null,"top_clarification":null,"needs_clarification":true}
 
 Mesaj: Ce plante sunt bune pentru sănătate?
 Răspuns:
-{"intent":"diverse","herb_name":null,"email_address":null,"top_count":null,"needs_clarification":false}
+{"intent":"diverse","herb_name":null,"email_address":null,"top_count":null,"top_category":null,"top_clarification":null,"needs_clarification":false}
 
 Mesaj: Spune-mi tot ce știi despre Ovidiu Bojor
 Răspuns:
-{"intent":"diverse","herb_name":null,"email_address":null,"top_count":null,"needs_clarification":false}
+{"intent":"diverse","herb_name":null,"email_address":null,"top_count":null,"top_category":null,"top_clarification":null,"needs_clarification":false}
 
 Mesaj: Trimite raportul precedent la test@example.com
 Răspuns:
-{"intent":"email_raport","herb_name":null,"email_address":"test@example.com","top_count":null,"needs_clarification":false}
+{"intent":"email_raport","herb_name":null,"email_address":"test@example.com","top_count":null,"top_category":null,"top_clarification":null,"needs_clarification":false}
 
 Mesaj: Dă-mi top 20 plante care sunt cele mai utile
 Răspuns:
-{"intent":"top_plante","herb_name":null,"email_address":null,"top_count":20,"needs_clarification":false}
+{"intent":"top_plante","herb_name":null,"email_address":null,"top_count":20,"top_category":null,"top_clarification":null,"needs_clarification":false}
 
 Mesaj: Care sunt cele mai recomandate plante?
 Răspuns:
-{"intent":"top_plante","herb_name":null,"email_address":null,"top_count":100,"needs_clarification":false}
+{"intent":"top_plante","herb_name":null,"email_address":null,"top_count":100,"top_category":null,"top_clarification":null,"needs_clarification":false}
 
 Mesaj: Top 20 plante pentru gastrită
 Răspuns:
-{"intent":"remedii","herb_name":null,"email_address":null,"top_count":null,"needs_clarification":false}
+{"intent":"remedii","herb_name":null,"email_address":null,"top_count":null,"top_category":null,"top_clarification":null,"needs_clarification":false}
 
 # Preferințe stabilite prin exemple
 

@@ -1,5 +1,9 @@
 """Association semantics, dense bitmaps and Windows spawn readiness."""
 
+from __future__ import annotations
+
+import io
+from contextlib import redirect_stderr
 from dataclasses import replace
 from types import MappingProxyType
 from unittest import TestCase, mock
@@ -139,3 +143,10 @@ class HerbsIndexTests(TestCase):
             self.assertTrue(builder.parse_args().rebuild_herbs)
         with mock.patch("sys.argv", ["builder"]):
             self.assertFalse(builder.parse_args().rebuild_herbs)
+        with mock.patch("sys.argv", ["builder", "--rebuild-herbs-only"]):
+            args = builder.parse_args()
+            self.assertTrue(args.rebuild_herbs_only)
+            self.assertFalse(args.rebuild_herbs)
+        with mock.patch("sys.argv", ["builder", "--rebuild-herbs", "--rebuild-herbs-only"]):
+            with self.assertRaises(SystemExit), redirect_stderr(io.StringIO()):
+                builder.parse_args()

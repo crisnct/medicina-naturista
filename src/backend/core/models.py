@@ -11,6 +11,7 @@ from typing import Any, Literal
 
 from backend.ai.search import ALL_SIGNALS, SearchSignals
 from backend.core.contracts import Evidence, IdentifiedCondition, ProfilePayload, TranscriptEntry
+from backend.core.herb_categories import HerbCategory, TopClarification
 
 HEALTH_PROBLEM_QUESTION = (
     "Întrebați despre afecțiuni, remedii, plante, produse, topuri sau alte subiecte din bibliotecă."
@@ -121,6 +122,9 @@ class MessageRouting:
     identify_condition: bool = False
     clarification: str = ""
     herb_choices: tuple[str, ...] = ()
+    top_count: int | None = None
+    top_category: HerbCategory | None = None
+    top_clarification: TopClarification | None = None
     report_id: str | None = None
     email_attempted: bool = False
 

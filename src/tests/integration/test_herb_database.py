@@ -23,7 +23,7 @@ from scripts.bootstrap_database import ensure_database
 from tests.support.postgres import PostgresFixture
 
 fixture = PostgresFixture()
-INITIAL_FINGERPRINT = "36483329a4b299dc38a19e10280eee764389b471063cadf51c7dc8367bbfb99a"
+INITIAL_FINGERPRINT = "7abcbfa96cfd12d7edfa6f128040ff2892d0ead485d223e0232ad70b0ccbdb9e"
 
 
 def setUpModule():
@@ -54,8 +54,8 @@ class HerbDatabaseTests(unittest.TestCase):
     def test_seed_schema_counts_and_fingerprint_without_jsonl(self):
         with psycopg.connect(self.url) as connection:
             items = repository.read_herbs(connection)
-            self.assertEqual(len(items), 1579)
-            self.assertEqual({h.id for h in items}, set(range(1, 1580)))
+            self.assertEqual(len(items), 1584)
+            self.assertEqual({h.id for h in items}, set(range(1, 1585)))
             self.assertEqual(repository.catalog_fingerprint(items), INITIAL_FINGERPRINT)
             self.assertEqual(sum(not h.en for h in items), 79)
             self.assertEqual(
@@ -65,7 +65,7 @@ class HerbDatabaseTests(unittest.TestCase):
                 [("en_alt", 2205), ("latin_synonyms", 226), ("ro_regional", 705)],
             )
             for table, expected in (
-                ("herbs", ["id", "family", "latin", "ro", "en", "ranking"]),
+                ("herbs", ["id", "category", "family", "latin", "ro", "en", "ranking"]),
                 ("herb_aliases", ["id", "herb_id", "name", "kind"]),
             ):
                 columns = connection.execute(
@@ -111,9 +111,9 @@ class HerbDatabaseTests(unittest.TestCase):
     def test_no_aliases_cascade_and_latin_update_preserve_identity(self):
         with psycopg.connect(self.url) as connection:
             identifier = connection.execute(
-                "INSERT INTO herbs(family,latin,ro) VALUES ('asteraceae','testus species','test plant') RETURNING id"
+                "INSERT INTO herbs(category,family,latin,ro) VALUES ('plante medicinale','asteraceae','testus species','test plant') RETURNING id"
             ).fetchone()[0]
-            self.assertEqual(identifier, 1580)
+            self.assertEqual(identifier, 1585)
             self.assertEqual(
                 repository.catalog_snapshot(connection).catalog.by_id(identifier).en_alt, ()
             )
@@ -139,7 +139,7 @@ class HerbDatabaseTests(unittest.TestCase):
             folder = Path(directory) / "migrations"
             shutil.copytree(migration.MIGRATIONS, folder)
             (folder / "008_invalid_herb.sql").write_text(
-                "INSERT INTO herbs(family,latin,ro) VALUES ('rosaceae','testus species','test plant'); INSERT INTO herb_aliases(herb_id,name,kind) SELECT id,'crataegus monogyna','latin_synonyms' FROM herbs WHERE latin='testus species';"
+                "INSERT INTO herbs(category,family,latin,ro) VALUES ('plante medicinale','rosaceae','testus species','test plant'); INSERT INTO herb_aliases(herb_id,name,kind) SELECT id,'crataegus monogyna','latin_synonyms' FROM herbs WHERE latin='testus species';"
             )
             with (
                 patch.object(migration, "MIGRATIONS", folder),
@@ -158,26 +158,128 @@ class HerbDatabaseTests(unittest.TestCase):
             )
 
     def test_upgrade_preserves_conditions_owner_and_index_metadata(self):
+        from backend.ai.herb_index_catalog import read_index_catalogs
+
         with psycopg.connect(self.url) as connection:
             before = read_conditions(connection)
             connection.execute("INSERT INTO owner_sessions(token_hash) VALUES (%s)", ("a" * 64,))
             connection.execute("INSERT INTO sync_metadata(key,value) VALUES ('test','unchanged')")
             connection.execute("DROP TABLE herbs_benefits, herb_aliases, herbs")
-            connection.execute(
-                "DELETE FROM schema_migrations WHERE version IN ('006_herbs.sql','007_seed_herbs.sql','008_herbs_benefits.sql','010_herbs_ranking.sql','014_allow_supplements_in_herbs.sql','015_seed_supplements.sql')"
-            )
-        self.assertEqual(
-            migration.migrate(self.url),
-            [
+            versions = [
                 "006_herbs.sql",
                 "007_seed_herbs.sql",
                 "008_herbs_benefits.sql",
                 "010_herbs_ranking.sql",
                 "014_allow_supplements_in_herbs.sql",
                 "015_seed_supplements.sql",
-            ],
-        )
+                "016_separate_herb_category.sql",
+            ]
+            connection.execute(
+                "DELETE FROM schema_migrations WHERE version=%s",
+                ("017_food_categories_in_herbs.sql",),
+            )
+            for name in versions:
+                connection.execute((migration.MIGRATIONS / name).read_text(encoding="utf-8"))
+            connection.execute(
+                "INSERT INTO herbs_benefits(herb_id,medical_condition_id) "
+                "SELECT 1,min(id) FROM medical_conditions"
+            )
+            connection.execute("UPDATE herbs SET ranking=37 WHERE id=1")
+            connection.execute(
+                "INSERT INTO documents(relative_path,absolute_path,size_bytes,modified_utc,sha256,encoding,line_count,char_count) VALUES('keep.md','keep.md',4,now(),'sha','utf-8',1,4)"
+            )
+            connection.execute(
+                "INSERT INTO chunks(source_relative_path,source_absolute_path,source_sha256,line_start,line_end,heading,text,text_sha256,char_count,embedding,text_search) VALUES('keep.md','keep.md','sha',1,1,'keep','keep','sha',4,%s,''::tsvector)",
+                ("[" + ",".join(["0"] * 1024) + "]",),
+            )
+            documents = connection.execute(
+                "SELECT *,xmin::text FROM documents ORDER BY relative_path"
+            ).fetchall()
+            chunks = connection.execute(
+                "SELECT row_to_json(c)::text,xmin::text FROM chunks c ORDER BY chunk_id"
+            ).fetchall()
+            original = connection.execute("SELECT * FROM herbs ORDER BY id").fetchall()
+            aliases = connection.execute(
+                "SELECT *,xmin::text FROM herb_aliases ORDER BY id"
+            ).fetchall()
+            benefits = connection.execute(
+                "SELECT *,xmin::text FROM herbs_benefits ORDER BY id"
+            ).fetchall()
+            oids = connection.execute(
+                "SELECT 'herb_aliases'::regclass::oid, 'herbs_benefits'::regclass::oid, 'herbs'::regclass::oid"
+            ).fetchone()
+            matching = read_index_catalogs(connection)[-1]
+        # Force a failure after DDL, so the old OID, data and ledger must survive rollback.
+        with tempfile.TemporaryDirectory() as directory:
+            folder = Path(directory)
+            for path in migration.MIGRATIONS.glob("*.sql"):
+                shutil.copy(path, folder / path.name)
+            (folder / "018_injected_failure.sql").write_text("SELECT 1/0;", encoding="utf-8")
+            with patch.object(migration, "MIGRATIONS", folder):
+                with self.assertRaises(psycopg.errors.DivisionByZero):
+                    migration.migrate(self.url)
         with psycopg.connect(self.url) as connection:
+            self.assertEqual(
+                connection.execute("SELECT * FROM herbs ORDER BY id").fetchall(), original
+            )
+            self.assertIsNone(
+                connection.execute(
+                    "SELECT 1 FROM schema_migrations WHERE version='017_food_categories_in_herbs.sql'"
+                ).fetchone()
+            )
+        self.assertEqual(migration.migrate(self.url), ["017_food_categories_in_herbs.sql"])
+        with psycopg.connect(self.url) as connection:
+            existing = connection.execute(
+                "SELECT * FROM herbs WHERE id<=1579 ORDER BY id"
+            ).fetchall()
+            self.assertEqual([(r[0], *r[2:]) for r in existing], [(r[0], *r[2:]) for r in original])
+            self.assertEqual(sum(a[1] != b[1] for a, b in zip(existing, original)), 161)
+            self.assertEqual(
+                connection.execute("SELECT category FROM herbs WHERE id=778").fetchone(),
+                ("fructe",),
+            )
+            self.assertEqual(
+                connection.execute(
+                    "SELECT count(*) FROM herbs WHERE category='seminte' AND family IS NULL AND latin IS NULL"
+                ).fetchone(),
+                (4,),
+            )
+            self.assertEqual(
+                connection.execute(
+                    "SELECT category,family FROM herbs WHERE latin='chenopodium quinoa'"
+                ).fetchone(),
+                ("cereale", "amaranthaceae"),
+            )
+            self.assertEqual(
+                connection.execute("SELECT *,xmin::text FROM herb_aliases ORDER BY id").fetchall(),
+                aliases,
+            )
+            self.assertEqual(
+                connection.execute(
+                    "SELECT *,xmin::text FROM herbs_benefits ORDER BY id"
+                ).fetchall(),
+                benefits,
+            )
+            self.assertEqual(
+                connection.execute(
+                    "SELECT 'herb_aliases'::regclass::oid, 'herbs_benefits'::regclass::oid, 'herbs'::regclass::oid"
+                ).fetchone(),
+                oids,
+            )
+            self.assertNotEqual(read_index_catalogs(connection)[-1], matching)
+            self.assertEqual(
+                connection.execute(
+                    "SELECT *,xmin::text FROM documents ORDER BY relative_path"
+                ).fetchall(),
+                documents,
+            )
+            self.assertEqual(
+                connection.execute(
+                    "SELECT row_to_json(c)::text,xmin::text FROM chunks c ORDER BY chunk_id"
+                ).fetchall(),
+                chunks,
+            )
+
             self.assertEqual(read_conditions(connection), before)
             self.assertEqual(
                 connection.execute("SELECT token_hash FROM owner_sessions").fetchall(),

@@ -16,7 +16,7 @@ from backend.ai import db
 from backend.ai.herb_conditions import lookup_herb_conditions
 from backend.ai.index_state import IndexUnavailable
 from scripts import build_hybrid_index as builder
-from scripts.migrate_database import MIGRATIONS, migrate
+from scripts.migrate_database import migrate
 from tests.support.conditions import conditions_from_rows, replace_catalog
 from tests.support.postgres import PostgresFixture
 
@@ -25,15 +25,12 @@ fixture = PostgresFixture()
 
 def setUpModule():
     fixture.start()
+    fixture.snapshot_herbs()
 
 
 def tearDownModule():
-    # Restore the packaged herb seed in the externally supplied disposable DB.
     try:
-        with db.get_pool().connection() as connection:
-            connection.execute("TRUNCATE herbs RESTART IDENTITY CASCADE")
-            for name in ("007_seed_herbs.sql", "015_seed_supplements.sql"):
-                connection.execute((MIGRATIONS / name).read_text(encoding="utf-8"))
+        fixture.restore_herbs()
     finally:
         fixture.stop()
 
@@ -51,9 +48,9 @@ class HerbsIndexDatabaseTests(TestCase):
         with db.get_pool().connection() as conn:
             conn.execute("TRUNCATE herbs RESTART IDENTITY CASCADE")
             conn.execute(
-                "INSERT INTO herbs(id,family,latin,ro,en) OVERRIDING SYSTEM VALUE VALUES "
-                "(17,'asteraceae','matricaria chamomilla','musetel','chamomile'), "
-                "(803,'asteraceae','anthemis nobilis','musetel','')"
+                "INSERT INTO herbs(id,category,family,latin,ro,en) OVERRIDING SYSTEM VALUE VALUES "
+                "(17,'plante medicinale','asteraceae','matricaria chamomilla','musetel','chamomile'), "
+                "(803,'plante medicinale','asteraceae','anthemis nobilis','musetel','')"
             )
             replace_catalog(conn, conditions_from_rows("Gastrita,stomac,comun\nFebra,comun\n"))
             conn.execute(
@@ -103,7 +100,7 @@ class HerbsIndexDatabaseTests(TestCase):
     def test_real_builder_metadata_is_accepted_by_plant_reader(self):
         with tempfile.TemporaryDirectory() as directory:
             source = Path(directory)
-            (source / "a.md").write_text("# Gastrita\nMușețel.", encoding="utf-8")
+            (source / "a.md").write_text("# Gastrita\nMușețel și seminte de in.", encoding="utf-8")
 
             def embed(_model, chunks, _batch, profile, **_kwargs):
                 return np.full(
@@ -129,15 +126,117 @@ class HerbsIndexDatabaseTests(TestCase):
         self.assertEqual(result["entriesCount"], 1)
 
         with db.get_pool().connection() as connection:
+            documents = connection.execute(
+                "SELECT *,xmin::text FROM documents ORDER BY relative_path"
+            ).fetchall()
+            chunks = connection.execute(
+                "SELECT row_to_json(c)::text,xmin::text FROM chunks c ORDER BY chunk_id"
+            ).fetchall()
+            metadata = dict(connection.execute("SELECT key,value FROM sync_metadata").fetchall())
+            pairs = self.pairs(connection)
+            rankings = connection.execute("SELECT id,ranking FROM herbs ORDER BY id").fetchall()
+            matching = builder._herbs_catalogs(connection)[-1]
+            connection.execute("UPDATE herbs SET category='fructe' WHERE id=17")
+            self.assertEqual(builder._herbs_catalogs(connection)[-1], matching)
+            connection.execute("SELECT setval('herbs_id_seq',(SELECT max(id) FROM herbs),true)")
+            seed = connection.execute(
+                "INSERT INTO herbs(category,ro,en) VALUES('seminte','seminte de in','flax seeds') RETURNING id"
+            ).fetchone()[0]
+
+        @contextmanager
+        def changed_catalog(context):
+            with threads(context) as pool:
+                with db.get_pool().connection() as connection:
+                    connection.execute("UPDATE herbs SET category='legume' WHERE id=17")
+                yield pool
+
+        with mock.patch.object(builder, "_prepared_herbs_workers", side_effect=changed_catalog):
+            with self.assertRaisesRegex(RuntimeError, "HERBS_CATALOG_CHANGED_DURING_BUILD"):
+                builder.rebuild_herbs_only()
+        with db.get_pool().connection() as connection:
+            connection.execute("UPDATE herbs SET category='fructe' WHERE id=17")
+
+        with (
+            mock.patch.object(builder, "_prepared_herbs_workers", side_effect=threads),
+            mock.patch.object(builder.os, "walk", side_effect=AssertionError("no corpus scan")),
+            mock.patch.object(
+                builder, "fragment_document", side_effect=AssertionError("no fragmentation")
+            ),
+            mock.patch.object(
+                builder, "create_embedding_model", side_effect=AssertionError("no model")
+            ),
+            mock.patch.object(builder, "embed_chunks", side_effect=AssertionError("no embeddings")),
+            redirect_stdout(io.StringIO()),
+        ):
+
+            def fail(stage):
+                if stage == "commit":
+                    raise RuntimeError("injected commit failure")
+
+            with (
+                mock.patch.object(builder, "_build_stage", side_effect=fail),
+                self.assertRaises(RuntimeError),
+            ):
+                builder.rebuild_herbs_only()
+            with db.get_pool().connection() as connection:
+                self.assertEqual(self.pairs(connection), pairs)
+                self.assertEqual(
+                    dict(connection.execute("SELECT key,value FROM sync_metadata").fetchall()),
+                    metadata,
+                )
+                self.assertEqual(
+                    connection.execute("SELECT ranking FROM herbs WHERE id=%s", (seed,)).fetchone(),
+                    (0,),
+                )
+            builder.rebuild_herbs_only()
+        with db.get_pool().connection() as connection:
+            self.assertEqual(
+                connection.execute(
+                    "SELECT *,xmin::text FROM documents ORDER BY relative_path"
+                ).fetchall(),
+                documents,
+            )
+            self.assertEqual(
+                connection.execute(
+                    "SELECT row_to_json(c)::text,xmin::text FROM chunks c ORDER BY chunk_id"
+                ).fetchall(),
+                chunks,
+            )
+            self.assertEqual([row for row in self.pairs(connection) if row[1] != seed], pairs)
+            self.assertEqual(
+                connection.execute(
+                    "SELECT id,ranking FROM herbs WHERE id<>%s ORDER BY id", (seed,)
+                ).fetchall(),
+                rankings,
+            )
+            self.assertEqual(
+                connection.execute("SELECT ranking FROM herbs WHERE id=%s", (seed,)).fetchone(),
+                (1,),
+            )
+            after = dict(connection.execute("SELECT key,value FROM sync_metadata").fetchall())
+            self.assertEqual(
+                {k: v for k, v in metadata.items() if not k.startswith("herbs_benefits_")},
+                {k: v for k, v in after.items() if not k.startswith("herbs_benefits_")},
+            )
+            self.assertEqual(
+                after["herbs_benefits_chunks_generation"], metadata["index_generation"]
+            )
+
+        with db.get_pool().connection() as connection:
             connection.execute(
                 "INSERT INTO herb_aliases(herb_id,name,kind) VALUES (17,'alias nou','ro_regional')"
             )
         with self.assertRaises(IndexUnavailable) as error:
             lookup_herb_conditions("matricaria chamomilla")
         self.assertEqual(error.exception.code, "INDEX_HERBS_RESYNC_REQUIRED")
+        with self.assertRaisesRegex(RuntimeError, "HERBS_ONLY_EXISTING_CATALOG_CHANGED"):
+            builder.rebuild_herbs_only()
 
     def test_schema_idempotence_unique_foreign_keys_and_cascade(self):
         self.assertEqual(migrate(db.settings.database_url), [])
+        with self.assertRaises(IndexUnavailable):
+            builder.rebuild_herbs_only()
+
         with db.get_pool().connection() as conn:
             columns = conn.execute(
                 "SELECT column_name FROM information_schema.columns WHERE table_name='herbs_benefits' ORDER BY ordinal_position"

@@ -1,5 +1,7 @@
 """Herb snapshot reconstruction, content hashing and cache isolation."""
 
+from __future__ import annotations
+
 from dataclasses import replace
 from types import SimpleNamespace
 from unittest import TestCase
@@ -34,12 +36,30 @@ class RepositoryTests(TestCase):
                 for name in getattr(herb, key)
             ] or [(None, None)]
             rows.extend(
-                (herb.id, herb.family, herb.latin, herb.ro, herb.en, name, key)
+                (herb.id, herb.category, herb.family, herb.latin, herb.ro, herb.en, name, key)
                 for name, key in aliases
             )
         self.connection.execute.return_value.fetchall.return_value = rows
         self.assertEqual(repository.read_herbs(self.connection), self.items)
         self.connection.execute.assert_called_once()
+        from backend.core.herb_categories import BOTANICAL_CATEGORIES
+
+        for category in BOTANICAL_CATEGORIES:
+            foods = tuple(replace(herb, category=category) for herb in self.items)
+            self.assertEqual(catalog_problems(foods, source=False), [])
+        seed = replace(
+            self.items[0],
+            category="seminte",
+            family="",
+            latin="",
+            latin_synonyms=(),
+            ro="seminte de in",
+            en="flax seeds",
+            ro_regional=(),
+            en_alt=(),
+        )
+        self.assertEqual(catalog_problems([seed], source=False), [])
+        self.assertTrue(catalog_problems([replace(seed, family="linaceae")], source=False))
 
         self.connection.execute.reset_mock()
         herb_ids = [herb.id for herb in self.items]
@@ -87,8 +107,19 @@ class RepositoryTests(TestCase):
     def test_invalid_and_empty_catalogues_are_controlled_failures(self):
         for rows in (
             [],
-            [(1, "Rosaceae", "crataegus monogyna", "paducel", "", None, None)],
-            [(1, "rosaceae", "crataegus monogyna", "paducel", "", "alias", "bad")],
+            [(1, "plante medicinale", "Rosaceae", "crataegus monogyna", "paducel", "", None, None)],
+            [
+                (
+                    1,
+                    "plante medicinale",
+                    "rosaceae",
+                    "crataegus monogyna",
+                    "paducel",
+                    "",
+                    "alias",
+                    "bad",
+                )
+            ],
         ):
             self.connection.execute.return_value.fetchall.return_value = rows
             with self.assertRaises(repository.HerbCatalogUnavailable) as caught:
@@ -99,6 +130,7 @@ class RepositoryTests(TestCase):
     def test_fingerprint_includes_every_field_and_alias_order(self):
         original = repository.catalog_fingerprint(self.items)
         changes = dict(
+            category="vitamine",
             id=42,
             ro="another name",
             latin="another species",

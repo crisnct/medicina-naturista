@@ -9,11 +9,14 @@ from backend.ai import db
 from backend.ai.herb_display import romanian_herb_name
 from backend.ai.index_state import INDEX_LOCK, IndexUnavailable
 from backend.core.contracts import RankedHerb
+from backend.core.herb_categories import HERB_CATEGORIES, HerbCategory
+from backend.core.operation_context import remaining_timeout
 
 TOP_HERBS_SQL = """
 WITH top_herbs AS (
     SELECT id, ro, latin, ranking
     FROM herbs
+    {category_filter}
     ORDER BY ranking DESC, id
     LIMIT %s
 )
@@ -27,18 +30,29 @@ ORDER BY h.ranking DESC, h.id
 """
 
 
-def list_top_herbs(count: int) -> list[RankedHerb]:
+def list_top_herbs(count: int, category: HerbCategory | None = None) -> list[RankedHerb]:
     if type(count) is not int or not 1 <= count <= 10000:
         raise ValueError("INVALID_HERB_TOP_COUNT")
+    if category is not None and category not in HERB_CATEGORIES:
+        raise ValueError("INVALID_HERB_TOP_CATEGORY")
+    query = TOP_HERBS_SQL.replace("{category_filter}", "WHERE category = %s" if category else "")
+    parameters = (category, count) if category else (count,)
     try:
-        with db.get_pool().connection() as connection, connection.transaction():
+        with (
+            db.get_pool().connection(timeout=remaining_timeout(5.0)) as connection,
+            connection.transaction(),
+        ):
             connection.execute("SET TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY")
+            connection.execute(
+                "SELECT set_config('statement_timeout', %s, true)",
+                (str(max(1, int(remaining_timeout(10.0) * 1000))),),
+            )
             row = connection.execute(
                 "SELECT pg_try_advisory_xact_lock_shared(%s)", (INDEX_LOCK,)
             ).fetchone()
             if row is None or not row[0]:
                 raise IndexUnavailable()
-            rows = connection.execute(TOP_HERBS_SQL, (count,)).fetchall()
+            rows = connection.execute(query, parameters).fetchall()
     except (psycopg.Error, PoolTimeout):
         raise IndexUnavailable("INDEX_HERBS_UNAVAILABLE") from None
     return [
