@@ -519,7 +519,7 @@ body {
 .fragments-panel-fragment-score {
     margin: 4px 0 0;
     color: var(--nature-muted);
-    font-size: 14px;
+    font-size: 12px;
     overflow-wrap: break-word;
     font-style: italic;
 }
@@ -544,7 +544,7 @@ body {
     flex-direction: column;
     box-sizing: border-box;
     width: 100%;
-    gap: 16px;
+    gap: 0;
     padding: 16px 18px;
     border: 0;
     border-radius: 16px;
@@ -555,6 +555,8 @@ body {
     color: var(--nature-text);
     font-size: 14px;
 }
+
+.generate-recipe-copy > p { margin-bottom: 0; }
 
 .generation-feedback a {
     color: inherit;
@@ -681,7 +683,7 @@ body {
     cursor: pointer;
     font: inherit;
     font-size: 18px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 .generate-report-icon { flex-shrink: 0; }
@@ -1202,13 +1204,16 @@ button:disabled { cursor: not-allowed; }
 .display-filter-options > p, .generation-options > p { font-size: 14px; color: var(--nature-muted); }
 .display-filter-options > p { margin: 4px 0 8px; }
 .display-filter-options h4 { margin: 0 0 4px; color: var(--nature-primary); font-size: 14px; font-weight: 700; }
-.generation-options h4 { margin: 0 0 8px; color: var(--nature-primary); font-size: 14px; }
+.generation-options h4 { margin: 0 0 8px; color: var(--nature-primary); font-size: 18px; }
 .generation-model-options { display: flex; flex-wrap: wrap; gap: 12px 16px; }
 .generation-model-options .fragments-panel-filter select { min-height: 32px; padding: 4px 8px; }
 .display-filter-options .fragments-panel-filters { gap: 8px 12px; margin: 8px 0 0; padding-bottom: 0; border-bottom: 0; }
 .display-filter-options .fragments-panel-filter { gap: 4px; }
 .display-filter-options .fragments-panel-filter select { min-height: 32px; padding: 4px 8px; }
-.fragment-source { font-size: 14px; color: var(--nature-muted); overflow-wrap: anywhere; }
+.fragment-source { font-size: 12px; color: var(--nature-muted); overflow-wrap: anywhere; }
+.display-filter-options { scroll-margin-top: 12px; }
+.fragment-filter-navigation { margin: 6px 0 0; text-align: right; font-size: 12px; }
+.fragment-filter-navigation a { color: var(--nature-primary); text-decoration: underline; text-underline-offset: 2px; }
 .generate-report-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 .generate-report-status { display: flex; flex-direction: column; min-width: 0; gap: 4px; }
 .generate-report-status .generate-recipe-warning { margin: 0; }

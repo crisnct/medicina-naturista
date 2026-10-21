@@ -120,3 +120,12 @@ description: chronological action log per session, consolidated weekly
 <!-- session:MDFhMTVjNWUtMjY5Zi03NGQwLWEwNjYtOTQ0NmRiYTdmMzlk -->
 | 2026-10-21T03:38:54.017Z | Centralized application copy in validated TOML with English keys, runtime HTML bootstrap and typed frontend access. Expanded fragment content now spans both grid columns while the toggle retains its alignment. | src/backend/core/texts.py,src/backend/resources/texts.ro.toml,src/backend/web/texts.py,src/frontend/lib/texts.ts,src/frontend/styles.css,README.md | Copy migration: 454 unit, 22 pytest and 58 frontend tests passed; static checks and build passed. Fragment alignment: existing targeted test and build passed; rendered screenshot confirms content is 42px farther left. No deployment or restart of existing services. |
 | 06:39 | Edited src/frontend/styles.css | CSS: font-size | ~24 |
+| 06:46 | Edited src/frontend/styles.css | 3→3 lines | ~18 |
+| 06:46 | Edited src/frontend/main.tsx | added 1 import(s) | ~27 |
+| 06:47 | Edited src/frontend/styles.css | CSS: margin-bottom | ~47 |
+| 06:53 | Edited src/frontend/components/FragmentsPanel.tsx | modified FragmentsPanel() | ~183 |
+| 06:53 | Edited src/frontend/styles.css | 3→6 lines | ~116 |
+| 06:53 | Edited src/backend/resources/texts.ro.toml | 1→2 lines | ~27 |
+| 07:00 | Edited src/frontend/components/GeneratePanel.tsx | 2→1 lines | ~17 |
+| 07:00 | Edited src/frontend/styles.css | inline fix | ~26 |
+| 07:00 | Edited src/backend/resources/texts.ro.toml | — | ~0 |

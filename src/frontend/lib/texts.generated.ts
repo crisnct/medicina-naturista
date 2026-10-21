@@ -103,7 +103,7 @@ export const TEXT_PARAMETERS = {
     "score"
   ],
   "interface.fragments_show_sources": [],
-  "interface.generate_threshold_hint": [],
+  "interface.fragments_jump_to_filters": [],
   "interface.generate_analysis_title": [],
   "interface.generate_analysis_label": [],
   "interface.generate_cancel": [],

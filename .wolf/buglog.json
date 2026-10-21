@@ -211,6 +211,114 @@
       "last_seen": "2026-10-21T03:36:46.003Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: 700 should be 500",
+      "file": "src/frontend/styles.css",
+      "root_cause": "Used \"700\" instead of \"500\"",
+      "fix": "Changed 700 → 500",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-013",
+      "timestamp": "2026-10-21T03:46:30.625Z",
+      "last_seen": "2026-10-21T03:46:30.625Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing import: @fontsource/roboto-condensed/500.css",
+      "file": "src/frontend/main.tsx",
+      "root_cause": "Module(s) not imported: @fontsource/roboto-condensed/500.css",
+      "fix": "Added import(s) for @fontsource/roboto-condensed/500.css",
+      "tags": [
+        "auto-detected",
+        "missing-import",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-014",
+      "timestamp": "2026-10-21T03:46:30.837Z",
+      "last_seen": "2026-10-21T03:46:30.837Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: gap",
+      "file": "src/frontend/styles.css",
+      "root_cause": "gap: 16px → 0",
+      "fix": "Changed gap: 16px → 0",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-015",
+      "timestamp": "2026-10-21T03:47:30.832Z",
+      "last_seen": "2026-10-21T03:47:30.832Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of FragmentsPanel.tsx",
+      "file": "src/frontend/components/FragmentsPanel.tsx",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 6→10 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-016",
+      "timestamp": "2026-10-21T03:53:18.766Z",
+      "last_seen": "2026-10-21T03:53:18.766Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: font-size, color",
+      "file": "src/frontend/styles.css",
+      "root_cause": "font-size: 14px → 12px; color: var(--nature-muted) → var(--nature-primary)",
+      "fix": "Changed font-size: 14px → 12px; color: var(--nature-muted) → var(--nature-primary)",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-017",
+      "timestamp": "2026-10-21T03:53:18.972Z",
+      "last_seen": "2026-10-21T03:53:18.972Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: 14px should be 18px",
+      "file": "src/frontend/styles.css",
+      "root_cause": "Used \"14px\" instead of \"18px\"",
+      "fix": "Changed 14px → 18px",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-018",
+      "timestamp": "2026-10-21T04:00:47.411Z",
+      "last_seen": "2026-10-21T04:00:47.411Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -223,7 +331,13 @@
     "2f1e5f95-c818-4d0d-b096-214c0aa906e3": true,
     "aac99f2f-a2c5-4996-b319-d95d0013b5a9": true,
     "e6895c2f-c82a-4566-b2a1-ece3bf978839": true,
-    "2d2dd195-93d5-405b-b638-12a5254aa43a": true
+    "2d2dd195-93d5-405b-b638-12a5254aa43a": true,
+    "656cf0fe-5272-45af-af84-ad4219a88bf2": true,
+    "702daeec-63fd-49f9-8cc7-6f2fcf61984c": true,
+    "7e59a41e-f595-41ba-a68e-0ecba5521643": true,
+    "e3bfdfd9-e037-4ec0-bb19-926731d2679d": true,
+    "a76634bf-b8d9-48a9-a8e0-c72b33682817": true,
+    "9b1c5a32-bfb2-43bc-b0c9-488e8534f556": true
   },
-  "next_id": 13
+  "next_id": 19
 }

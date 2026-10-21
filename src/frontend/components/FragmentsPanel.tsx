@@ -1,5 +1,5 @@
 import { tr } from "../lib/texts";
-import { useMemo, useState } from "react";
+import { useId, useMemo, useState } from "react";
 import type { FragmentItem, FragmentsMessage } from "../api/types";
 import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
 import { ALL_SIGNALS } from "../lib/searchSignals";
@@ -51,6 +51,7 @@ function applyFilters(
 }
 
 export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
+  const filtersId = `fragment-filters-${useId()}`;
   // The signals this search was scored with decide which score components and
   // filters make sense; a message from before the choice existed had them all.
   const signals = message.signals ?? ALL_SIGNALS;
@@ -92,7 +93,7 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
         <summary className="fragments-panel-banner">
           {tr("interface.fragments_show_sources")}</summary>
         <div className="fragments-panel-list">
-          <section className="display-filter-options" aria-label={tr("interface.fragments_filter_heading")}>
+          <section id={filtersId} className="display-filter-options" aria-label={tr("interface.fragments_filter_heading")}>
             <h4>{tr("interface.fragments_filter_heading")}{filtersActive ? tr("interface.fragments_filtered_count", { visible_count: filtered.length }) : ""}</h4>
             <p>{tr("interface.fragments_display_filters_hint")}</p>
             <div className="fragments-panel-filters">
@@ -178,6 +179,9 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
                   {scoreParts.length > 0 && (
                     <p className="fragments-panel-fragment-score">{scoreParts.join(", ")}</p>
                   )}
+                  <p className="fragment-filter-navigation">
+                    <a href={`#${filtersId}`}>{tr("interface.fragments_jump_to_filters")}</a>
+                  </p>
                 </div>
               );
             })

@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-21T03:39:43.273Z
-> Files: 29 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-21T04:00:47.577Z
+> Files: 32 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -48,6 +48,10 @@
 
 - `pdf.py` — Readable Romanian PDF report with source references next to each claim. (~14459 tok)
 
+## src/backend/resources/
+
+- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~7216 tok)
+
 ## src/backend/web/
 
 - `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~10879 tok)
@@ -56,13 +60,15 @@
 ## src/frontend/
 
 - `index.html` — __APP_TITLE__ (~135 tok)
+- `main.tsx` — queryClient (~220 tok)
 - `setupTests.ts` — Declares __APP_TEST_TEXTS__ (~148 tok)
-- `styles.css` — Styles: 90 rules, 13 vars (~8503 tok)
+- `styles.css` — Styles: 91 rules, 13 vars (~8591 tok)
 - `vite.config.ts` — / <reference types="vitest/config" /> (~1158 tok)
 
 ## src/frontend/components/
 
-- `GeneratePanel.tsx` — Display names are editable; provider routing continues to use the original IDs. (~2911 tok)
+- `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3158 tok)
+- `GeneratePanel.tsx` — Display names are editable; provider routing continues to use the original IDs. (~2894 tok)
 
 ## src/frontend/lib/
 

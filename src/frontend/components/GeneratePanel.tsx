@@ -76,7 +76,6 @@ export function GeneratePanel({
       <div className="generate-recipe-actions">
         <div className="generation-options">
           <h4>{tr("interface.generate_options_title")}</h4>
-          <p>{tr("interface.generate_threshold_hint")}</p>
           <div className="generation-model-options">
             <label className="fragments-panel-filter">
               {tr("common.minimum_score")}<select

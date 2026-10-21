@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-21T03:39:43.273Z",
-    "fileCount": 29,
+    "lastScanned": "2026-10-21T04:00:47.577Z",
+    "fileCount": 32,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "a8e5dfa04fa5ee043741a8d7014ee48c853a885250fb87f05102d5233b3eb43c",
-    "storeUpdatedAt": "2026-10-21T03:39:43.282Z",
-    "rootHash": "0c7288158a1b5004"
+    "renderedHash": "9cc5d1da7510873b048fd2150c9cb922bf3cc7dea415349edc86ac91d5ca1c04",
+    "storeUpdatedAt": "2026-10-21T04:00:47.587Z",
+    "rootHash": "2f10179a382368a9"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -169,12 +169,12 @@
       ]
     },
     "src/frontend/styles.css": {
-      "description": "Styles: 90 rules, 13 vars",
-      "tokens": 8503,
-      "hash": "d9770a79961ee70f",
-      "size": 29758,
-      "mtimeMs": 1792553982820.62,
-      "updatedAt": "2026-10-21T03:39:43.273Z",
+      "description": "Styles: 91 rules, 13 vars",
+      "tokens": 8591,
+      "hash": "d173bd2f1dd73336",
+      "size": 30067,
+      "mtimeMs": 1792555246765.1316,
+      "updatedAt": "2026-10-21T04:00:47.380Z",
       "source": "hook"
     },
     "src/backend/core/texts.py": {
@@ -821,21 +821,71 @@
     },
     "src/frontend/components/GeneratePanel.tsx": {
       "description": "Display names are editable; provider routing continues to use the original IDs.",
-      "tokens": 2911,
-      "hash": "3dcee55f7e1e2f86",
-      "size": 10187,
-      "mtimeMs": 1792553117115.7178,
-      "updatedAt": "2026-10-21T03:25:17.658Z",
+      "tokens": 2894,
+      "hash": "747e03f5a45c12bf",
+      "size": 10127,
+      "mtimeMs": 1792555246761.1213,
+      "updatedAt": "2026-10-21T04:00:47.202Z",
       "source": "hook",
       "symbols": [
         {
           "name": "GeneratePanel",
           "kind": "fn",
           "startLine": 25,
-          "endLine": 196,
-          "tokens": 2492
+          "endLine": 195,
+          "tokens": 2475
         }
       ]
+    },
+    "src/frontend/main.tsx": {
+      "description": "queryClient",
+      "tokens": 220,
+      "hash": "05d6812eefeb6c8f",
+      "size": 768,
+      "mtimeMs": 1792554390145.1394,
+      "updatedAt": "2026-10-21T03:46:30.807Z",
+      "source": "hook"
+    },
+    "src/frontend/components/FragmentsPanel.tsx": {
+      "description": "CONDITION_OPTIONS",
+      "tokens": 3158,
+      "hash": "70a29f65914f21d7",
+      "size": 11054,
+      "mtimeMs": 1792554798269.3938,
+      "updatedAt": "2026-10-21T03:53:18.740Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "fileName",
+          "kind": "fn",
+          "startLine": 27,
+          "endLine": 33,
+          "tokens": 75
+        },
+        {
+          "name": "applyFilters",
+          "kind": "fn",
+          "startLine": 34,
+          "endLine": 52,
+          "tokens": 228
+        },
+        {
+          "name": "FragmentsPanel",
+          "kind": "fn",
+          "startLine": 53,
+          "endLine": 199,
+          "tokens": 2386
+        }
+      ]
+    },
+    "src/backend/resources/texts.ro.toml": {
+      "description": "Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română.",
+      "tokens": 7216,
+      "hash": "600d9787f7ff74cb",
+      "size": 27938,
+      "mtimeMs": 1792555246768.1487,
+      "updatedAt": "2026-10-21T04:00:47.577Z",
+      "source": "hook"
     }
   },
   "preamble": [
