@@ -680,6 +680,7 @@ body {
     color: #fff;
     cursor: pointer;
     font: inherit;
+    font-size: 18px;
     font-weight: 700;
 }
 
@@ -1175,7 +1176,7 @@ button:disabled { cursor: not-allowed; }
 }
 .example-button:hover:not(:disabled), .secondary-button:hover:not(:disabled) { background: var(--nature-soft); }
 .example-button:disabled { color: var(--nature-muted); opacity: 0.65; }
-#message-row > label { font-weight: 700; }
+#message-row > label { font-size: 20px; font-weight: 700; line-height: 1.4; }
 .selection-status { display: block; margin: 4px 0 0 22px; color: var(--nature-muted); font-size: 14px; font-weight: 400; }
 .search-results-panel {
     display: grid;
@@ -1192,8 +1193,8 @@ button:disabled { cursor: not-allowed; }
 .search-results-summary { display: contents; }
 .search-results-summary > .doctor-avatar { grid-column: 1; grid-row: 1 / span 2; }
 .search-results-summary > p { margin: 0; font-size: 14px; font-weight: 400; }
-.search-results-panel > details { grid-column: 2; margin: 0; border: 0; border-radius: 0; }
-.search-results-panel .fragments-panel-banner { padding: 0; }
+.search-results-panel > details { grid-column: 1 / -1; grid-row: 2; margin: 0; border: 0; border-radius: 0; }
+.search-results-panel .fragments-panel-banner { margin-left: 42px; padding: 0; }
 .search-results-panel .fragments-panel-list { padding: 12px 0 0; }
 .display-filter-options {
     margin: 8px 0 12px;

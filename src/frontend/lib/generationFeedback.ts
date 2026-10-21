@@ -1,10 +1,11 @@
+import { tr } from "./texts";
 import type { AIActivity } from "../api/types";
 
 export const AI_ACTIVITY_LABELS: Record<AIActivity["phase"], string> = {
-  waiting: "Aștept primul semnal de la model…",
-  processing: "Furnizorul AI a confirmat cererea…",
-  thinking: "Modelul analizează informațiile…",
-  answering: "Modelul redactează raportul…",
+  waiting: tr("common.waiting_for_model"),
+  processing: tr("interface.activity_processing"),
+  thinking: tr("interface.activity_thinking"),
+  answering: tr("interface.activity_answering"),
 };
 
 export interface GenerationFeedback {

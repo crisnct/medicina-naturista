@@ -1,9 +1,6 @@
 """Compatibility exports for the public report/chat rendering API."""
 
 from backend.reporting.chat import (
-    GENERATE_LABEL,
-)
-from backend.reporting.chat import (
     append as _append,
 )
 from backend.reporting.chat import (
@@ -17,6 +14,9 @@ from backend.reporting.chat import (
 )
 from backend.reporting.chat import (
     fragments_message as _fragments_message,
+)
+from backend.reporting.chat import (
+    generate_label,
 )
 from backend.reporting.chat import (
     generate_message as _generate_message,
@@ -53,5 +53,5 @@ __all__ = [
     "_append",
     "_ask",
     "_recommendation_text",
-    "GENERATE_LABEL",
+    "generate_label",
 ]

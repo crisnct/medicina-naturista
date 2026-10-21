@@ -11,6 +11,7 @@ from typing import Protocol
 import psycopg
 
 from backend.core.errors import ApplicationError
+from backend.core.texts import tr
 
 TOKEN_RE = re.compile(r"^v1\.([A-Za-z0-9_-]{43})\.([0-9a-f]{64})$")
 
@@ -40,7 +41,7 @@ class PostgresOwnerSessionRepository:
             # Do not echo database exceptions: connection strings may contain credentials.
             raise ApplicationError(
                 "OWNER_AUTH_UNAVAILABLE",
-                "Autorizarea este temporar indisponibilă. Verificați baza și migrările.",
+                tr("errors.authorization_unavailable"),
                 503,
             ) from None
 
@@ -79,7 +80,7 @@ class OwnerAuth:
 
     def login(self, key: str) -> str:
         if not self._key or not hmac.compare_digest(key.encode("utf-8"), self._key):
-            raise ApplicationError("OWNER_LOGIN_FAILED", "Cheie incorectă.", 401)
+            raise ApplicationError("OWNER_LOGIN_FAILED", tr("errors.owner_key_invalid"), 401)
         payload = "v1." + secrets.token_urlsafe(32)
         token = payload + "." + self._sign(payload)
         self.repository.issue(self.digest(token))

@@ -19,6 +19,7 @@ from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 
 from backend.core.operation_context import checkpoint, remaining_timeout
+from backend.core.texts import tr
 
 GMAIL_TOKEN_URI = "https://oauth2.googleapis.com/token"
 GMAIL_SEND_URI = "https://gmail.googleapis.com/gmail/v1/users/me/messages/send"
@@ -77,16 +78,12 @@ def build_report_message(
     to_address: str,
 ) -> EmailMessage:
     """Build the Romanian report email and attach the generated PDF."""
-    clean_problem = problem.strip()
+    problem = problem.strip()
     message = EmailMessage()
     message["From"] = from_address
     message["To"] = to_address
-    message["Subject"] = f"Raport recomandări naturiste pentru {clean_problem}"
-    message.set_content(
-        "Bună ziua,\n\n"
-        "Atașat găsiți raportul cu recomandări naturiste pentru problema descrisă.\n\n"
-        "Raportul are caracter informativ și nu înlocuiește consultul medical.\n"
-    )
+    message["Subject"] = tr("email.subject", problem=problem)
+    message.set_content(tr("email.body"))
     message.add_attachment(
         pdf_bytes,
         maintype="application",

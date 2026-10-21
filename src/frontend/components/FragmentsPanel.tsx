@@ -1,3 +1,4 @@
+import { tr } from "../lib/texts";
 import { useMemo, useState } from "react";
 import type { FragmentItem, FragmentsMessage } from "../api/types";
 import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
@@ -10,13 +11,13 @@ type ConditionFilter = "all" | "title" | "text" | "none";
 // Where the condition the patient named was found in the fragment (decided per
 // search): in its title, in its text, or in neither.
 const CONDITION_OPTIONS: { value: Exclude<ConditionFilter, "all">; label: string }[] = [
-  { value: "title", label: "În titlu" },
-  { value: "text", label: "În text" },
-  { value: "none", label: "Lipsește" },
+  { value: "title", label: tr("interface.fragments_in_title") },
+  { value: "text", label: tr("interface.fragments_in_text") },
+  { value: "none", label: tr("interface.fragments_missing") },
 ];
 
 // Label of the score line for a fragment's condition match; nothing when it has none.
-const CONDITION_LABELS = { title: "Afecțiune în titlu", text: "Afecțiune în text" } as const;
+const CONDITION_LABELS = { title: tr("interface.fragments_condition_in_title"), text: tr("interface.fragments_condition_in_text") } as const;
 
 // Semantic-score thresholds, 0.05 to 0.95 in steps of 0.05 (integer math avoids float drift).
 const SEMANTIC_OPTIONS = Array.from({ length: 19 }, (_, i) => (i + 1) * 0.05).map((value) => Number(value.toFixed(2)));
@@ -85,20 +86,18 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
     <section className="search-results-panel">
       <div className="search-results-summary chatbot-message-header">
         <DoctorAvatar />
-        <p>📚 Am găsit <strong>{message.fragmentsCount} fragmente</strong> relevante în <strong>{message.documentsCount} documente</strong></p>
+        <p>{tr("interface.fragments_found_prefix")}<strong>{message.fragmentsCount} {tr("interface.fragments_label")}</strong> {tr("interface.fragments_relevant_in")}<strong>{message.documentsCount} {tr("interface.fragments_documents_label")}</strong></p>
       </div>
       <details className="fragments-panel-inner" open={open} onToggle={(event) => setOpen(event.currentTarget.open)}>
         <summary className="fragments-panel-banner">
-          Vezi fragmentele și sursele
-        </summary>
+          {tr("interface.fragments_show_sources")}</summary>
         <div className="fragments-panel-list">
-          <section className="display-filter-options" aria-label="Filtrează fragmentele afișate">
-            <h4>Filtrează fragmentele afișate{filtersActive ? ` · ${filtered.length} afișate` : ""}</h4>
-            <p>Aceste filtre modifică numai afișarea. Fragmentele eligibile pentru raport se stabilesc în „Opțiuni de generare”.</p>
+          <section className="display-filter-options" aria-label={tr("interface.fragments_filter_heading")}>
+            <h4>{tr("interface.fragments_filter_heading")}{filtersActive ? tr("interface.fragments_filtered_count", { visible_count: filtered.length }) : ""}</h4>
+            <p>{tr("interface.fragments_display_filters_hint")}</p>
             <div className="fragments-panel-filters">
               <label className="fragments-panel-filter">
-                Scor minim
-                <select value={minScore} onChange={(event) => setMinScore(Number(event.target.value))}>
+                {tr("common.minimum_score")}<select value={minScore} onChange={(event) => setMinScore(Number(event.target.value))}>
                   {MIN_SCORE_OPTIONS.map(({ value, label }) => (
                     <option key={value} value={value}>
                       {label}
@@ -108,9 +107,8 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
               </label>
               {signals.semantic && (
                 <label className="fragments-panel-filter">
-                  Scor semantic
-                  <select value={minSemantic} onChange={(event) => setMinSemantic(Number(event.target.value))}>
-                    <option value={0}>Toate</option>
+                  {tr("interface.fragments_semantic_score_label")}<select value={minSemantic} onChange={(event) => setMinSemantic(Number(event.target.value))}>
+                    <option value={0}>{tr("common.all")}</option>
                     {SEMANTIC_OPTIONS.map((value) => (
                       <option key={value} value={value}>
                         {`> ${value.toFixed(2)}`}
@@ -121,9 +119,8 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
               )}
               {signals.conditions && (
                 <label className="fragments-panel-filter">
-                  Afecțiune
-                  <select value={condition} onChange={(event) => setCondition(event.target.value as ConditionFilter)}>
-                    <option value="all">Toate</option>
+                  {tr("interface.fragments_condition")}<select value={condition} onChange={(event) => setCondition(event.target.value as ConditionFilter)}>
+                    <option value="all">{tr("common.all")}</option>
                     {CONDITION_OPTIONS.map(({ value, label }) => (
                       <option key={value} value={value}>
                         {label}
@@ -134,18 +131,16 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
               )}
               {signals.lexical && (
                 <label className="fragments-panel-filter">
-                  Găsire lexicală
-                  <select value={lexical} onChange={(event) => setLexical(event.target.value as LexicalFilter)}>
-                    <option value="all">Toate</option>
-                    <option value="yes">Da</option>
-                    <option value="no">Nu</option>
+                  {tr("interface.fragments_lexical_match")}<select value={lexical} onChange={(event) => setLexical(event.target.value as LexicalFilter)}>
+                    <option value="all">{tr("common.all")}</option>
+                    <option value="yes">{tr("interface.yes")}</option>
+                    <option value="no">{tr("interface.no")}</option>
                   </select>
                 </label>
               )}
               <label className="fragments-panel-filter fragments-panel-filter-document">
-                Document
-                <select value={documentFilter} onChange={(event) => setDocumentFilter(event.target.value)}>
-                  <option value="all">Toate</option>
+                {tr("interface.fragments_document")}<select value={documentFilter} onChange={(event) => setDocumentFilter(event.target.value)}>
+                  <option value="all">{tr("common.all")}</option>
                   {documentOptions.map((document) => (
                     <option key={document} value={document} title={document}>
                       {fileName(document)}
@@ -156,7 +151,7 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
             </div>
           </section>
           <div className="fragments-panel-documents">
-            <p className="fragments-panel-documents-title">Documente ({documents.length})</p>
+            <p className="fragments-panel-documents-title">{tr("interface.fragments_documents_heading")}{documents.length}{")"}</p>
             <ul className="fragments-panel-documents-list">
               {documents.map((document) => (
                 <li key={document}>{document}</li>
@@ -164,15 +159,15 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
             </ul>
           </div>
           {filtered.length === 0 ? (
-            <p className="fragments-panel-empty">Niciun fragment nu corespunde filtrelor selectate.</p>
+            <p className="fragments-panel-empty">{tr("interface.fragments_none_match")}</p>
           ) : (
             filtered.map((fragment, index) => {
               const scoreParts: string[] = [];
-              if (fragment.relevancePercent !== null) scoreParts.push(`Scor relevanță: ${Math.round(fragment.relevancePercent)}%`);
+              if (fragment.relevancePercent !== null) scoreParts.push(tr("interface.fragments_relevance_score", { score: Math.round(fragment.relevancePercent) }));
               if (signals.semantic && fragment.semanticScore != null)
-                scoreParts.push(`Scor semantic: ${fragment.semanticScore.toFixed(2)}`);
+                scoreParts.push(tr("interface.fragments_semantic_score", { score: fragment.semanticScore.toFixed(2) }));
               if (signals.lexical && fragment.lexicalScore != null)
-                scoreParts.push(`Scor lexical: ${fragment.lexicalScore.toFixed(2)}`);
+                scoreParts.push(tr("interface.fragments_lexical_score", { score: fragment.lexicalScore.toFixed(2) }));
               if (signals.conditions && fragment.conditionMatch !== null)
                 scoreParts.push(CONDITION_LABELS[fragment.conditionMatch]);
               if (signals.lexical && fragment.matchLabel) scoreParts.push(fragment.matchLabel);
@@ -189,8 +184,8 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
           )}
           <p className="fragments-panel-summary">
             {filtersActive
-              ? `Afișate: ${filtered.length} din ${message.fragmentsCount} fragmente (filtrate), din ${documents.length} documente, ${totalChars} caractere.`
-              : `Total: ${message.fragmentsCount} fragmente din ${message.documentsCount} documente, ${totalChars} caractere.`}
+              ? tr("interface.fragments_filtered_summary", { visible_count: filtered.length, total_count: message.fragmentsCount, document_count: documents.length, characters: totalChars })
+              : tr("interface.fragments_total_summary", { count: message.fragmentsCount, document_count: message.documentsCount, characters: totalChars })}
           </p>
         </div>
       </details>

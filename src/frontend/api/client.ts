@@ -1,3 +1,4 @@
+import { tr } from "../lib/texts";
 import type {
   CategoriesResponse,
   ClassificationResponse,
@@ -60,7 +61,7 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
     const body = await response.json().catch(() => null);
     const detail = body?.detail;
     const message = typeof detail === "string" ? detail : detail?.message;
-    throw new ApiError(response.status, message ?? "A apărut o eroare neașteptată. Încercați din nou.", detail?.code, Number(response.headers.get("Retry-After")) || undefined);
+    throw new ApiError(response.status, message ?? tr("interface.api_unexpected_error"), detail?.code, Number(response.headers.get("Retry-After")) || undefined);
   }
   if (response.status === 204) {
     return undefined as T;
@@ -137,16 +138,16 @@ export const api = {
 export function errorMessage(error: unknown, fallback: string): string {
   if (!(error instanceof ApiError)) return fallback;
   if (error.code === "APP_INITIALIZING") return error.message;
-  if (error.status === 413) return "Cererea este prea mare. Reduceți conținutul mesajului.";
+  if (error.status === 413) return tr("interface.api_request_too_large");
   if (error.status === 429) {
     if (error.code === "GENERATION_CAPACITY" || error.code === "GENERATION_QUEUE_FULL" || error.code === "GENERATION_HISTORY_LIMIT" || error.code === "OPERATION_LIMIT") return error.message;
-    if (error.code === "RATE_LIMIT" && error.retryAfter) return `Prea multe cereri. Încercați din nou peste ${error.retryAfter} de secunde.`;
-    return "Prea multe cereri. Încercați din nou mai târziu.";
+    if (error.code === "RATE_LIMIT" && error.retryAfter) return tr("interface.api_retry_after", { retry_after: error.retryAfter });
+    return tr("interface.api_rate_limited");
   }
   if (error.status === 409) return error.message;
-  if (error.code?.startsWith("INDEX_")) return "Indexul este în mentenanță sau necesită resincronizare. Încercați din nou în 60 de secunde.";
-  if (error.code === "OWNER_AUTH_UNAVAILABLE") return "Autorizarea este temporar indisponibilă. Încercați mai târziu.";
-  if (error.status === 503) return "Serviciul este temporar indisponibil. Încercați mai târziu.";
+  if (error.code?.startsWith("INDEX_")) return tr("interface.api_index_maintenance");
+  if (error.code === "OWNER_AUTH_UNAVAILABLE") return tr("interface.api_authorization_unavailable");
+  if (error.status === 503) return tr("interface.api_service_unavailable");
   return error.message;
 }
 

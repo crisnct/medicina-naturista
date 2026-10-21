@@ -1,3 +1,4 @@
+import { tr } from "../lib/texts";
 import { useEffect, useState } from "react";
 import { DoctorAvatar } from "./DoctorAvatar";
 
@@ -29,7 +30,7 @@ export function TypingIndicator({ label, paused = false, startedAt }: {
         <DoctorAvatar />
         <span className="loader" aria-hidden="true" />
         {label && <span>{label}</span>}
-        <span className="typing-elapsed">Timp scurs: {elapsedTime}</span>
+        <span className="typing-elapsed">{tr("interface.typing_elapsed_prefix")}{elapsedTime}</span>
       </div>
     </div>
   );

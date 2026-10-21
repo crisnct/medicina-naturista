@@ -13,6 +13,7 @@ from psycopg import Connection
 
 from backend.ai.conditions import Condition, ConditionDictionary, _normalize, make_condition
 from backend.core.errors import ApplicationError
+from backend.core.texts import tr
 
 FINGERPRINT_VERSION = 1
 _cache_lock = Lock()
@@ -23,7 +24,7 @@ class CatalogUnavailable(ApplicationError):
     def __init__(self) -> None:
         super().__init__(
             "CONDITION_CATALOG_UNAVAILABLE",
-            "Catalogul de afecțiuni lipsește sau este invalid. Rulați reindexarea.",
+            tr("errors.condition_catalog_unavailable"),
             503,
         )
 

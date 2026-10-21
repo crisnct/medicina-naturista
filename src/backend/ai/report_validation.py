@@ -6,7 +6,13 @@ from typing import Any, Literal
 
 from pydantic import BaseModel, ConfigDict
 
-PARTIAL_NOTICE = "Raportul este parțial: unele recomandări nu au putut fi validate."
+from backend.core.texts import tr
+
+
+def partial_notice() -> str:
+    return tr("common.partial_report_notice")
+
+
 Section = Literal["uz_intern", "nutritie", "uz_extern", "alte_recomandari", "atentionari"]
 SECTIONS: tuple[Section, ...] = (
     "uz_intern",

@@ -1,3 +1,4 @@
+import { tr } from "../lib/texts";
 import { useEffect, useState } from "react";
 import { api } from "../api/client";
 import type { ReportDurationEstimate, ReportModel } from "../api/types";
@@ -29,25 +30,25 @@ export function GenerationDurationEstimate({
   }, [model, characters, refreshKey]);
 
   const data = result?.key === key ? result.data : undefined;
-  let value = "se calculează…";
+  let value = tr("interface.estimate_loading");
   let explanation: string | undefined;
-  if (characters === undefined) value = "se verifică la generare";
+  if (characters === undefined) value = tr("interface.estimate_pending");
   else if (characters === 0) value = "00:00";
-  else if (data === null) value = "indisponibilă momentan";
+  else if (data === null) value = tr("interface.estimate_temporarily_unavailable");
   else if (data !== undefined) {
     const seconds = data.estimatedSeconds;
     if (seconds === null || !Number.isSafeInteger(seconds) || seconds < 0) {
-      value = "indisponibilă";
-      explanation = "Nu există suficiente măsurători pentru modelul selectat.";
+      value = tr("interface.estimate_unavailable");
+      explanation = tr("interface.estimate_no_samples");
     } else {
       value = `${Math.floor(seconds / 60).toString().padStart(2, "0")}:${(seconds % 60).toString().padStart(2, "0")}`;
-      explanation = `Estimare din toate cele ${data.sampleCount} generări înregistrate pentru acest model, fără timpul de așteptare în coadă.`;
+      explanation = tr("interface.estimate_sample_hint", { sample_count: data.sampleCount });
     }
   }
 
   return (
     <p className="eligible-count report-duration-estimate" aria-live="polite" title={explanation}>
-      Durată estimată: <strong>{value}</strong>{/^\d+:\d{2}$/.test(value) ? " (min:sec)" : ""}
+      {tr("interface.estimate_prefix")}<strong>{value}</strong>{/^\d+:\d{2}$/.test(value) ? tr("interface.estimate_units") : ""}
     </p>
   );
 }

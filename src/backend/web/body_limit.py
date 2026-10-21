@@ -1,6 +1,10 @@
 """Bound API bodies before JSON/form parsing, including chunked transfers."""
 
+from __future__ import annotations
+
 from starlette.responses import JSONResponse
+
+from backend.core.texts import tr
 
 
 class ApiBodyLimitMiddleware:
@@ -21,7 +25,7 @@ class ApiBodyLimitMiddleware:
                 {
                     "detail": {
                         "code": "BODY_LENGTH_INVALID",
-                        "message": "Lungime invalidă.",
+                        "message": tr("errors.invalid_length"),
                     }
                 },
                 400,
@@ -55,7 +59,7 @@ class ApiBodyLimitMiddleware:
             {
                 "detail": {
                     "code": "BODY_TOO_LARGE",
-                    "message": "Cererea depășește limita permisă.",
+                    "message": tr("errors.request_too_large"),
                 }
             },
             413,

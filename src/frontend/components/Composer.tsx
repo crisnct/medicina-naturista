@@ -1,3 +1,4 @@
+import { tr } from "../lib/texts";
 import { useEffect, useRef, useState, type FormEvent } from "react";
 
 const MAX_CHAT_CHARS = 4000;
@@ -31,18 +32,18 @@ export function Composer({
   return (
     <>
       <form id="message-row" onSubmit={submit}>
-        <label htmlFor="health-message">Întrebarea dumneavoastră</label>
-        <div className="question-examples" aria-label="Exemple de întrebări">
+        <label htmlFor="health-message">{tr("interface.composer_question_label")}</label>
+        <div className="question-examples" aria-label={tr("interface.composer_examples_label")}>
           {[
-            { label: "🌿 Remedii naturiste pentru gripă", text: "Remedii naturiste pentru gripă" },
-            { label: "🌿 Despre cuișoare", text: "Spune-mi tot ce știi despre Cuișoare" },
-            { label: "🌿 Top 100 plante medicinale", text: "Top 100 plante medicinale" },
-            { label: "🌿 Top 20 produse naturiste", text: "Top 20 produse naturiste" },
-            { label: "🍎 Top 10 fructe", text: "Top 10 fructe" },
-            { label: "🥕 Top 10 legume", text: "Top 10 legume" },
-            { label: "📚 Despre Ovidiu Bojor", text: "Spune-mi tot ce știi despre Ovidiu Bojor" },
-            { label: "🍄 Despre cultivarea ciupercilor", text: "Spune-mi tot ce știi despre cultivarea ciupercilor comestibile" },
-            { label: "🧄 La ce e bun usturoiul ?", text: "La ce e bun usturoiul ?" },
+            { label: tr("interface.example_flu_label"), text: tr("interface.example_flu_query") },
+            { label: tr("interface.example_cloves_label"), text: tr("interface.example_cloves_query") },
+            { label: tr("interface.example_top_herbs_label"), text: tr("interface.example_top_herbs_query") },
+            { label: tr("interface.example_top_products_label"), text: tr("interface.example_top_products_query") },
+            { label: tr("interface.example_top_fruit_label"), text: tr("interface.example_top_fruit_query") },
+            { label: tr("interface.example_top_vegetables_label"), text: tr("interface.example_top_vegetables_query") },
+            { label: tr("interface.example_author_label"), text: tr("interface.example_author_query") },
+            { label: tr("interface.example_mushrooms_label"), text: tr("interface.example_mushrooms_query") },
+            { label: tr("interface.example_garlic_label"), text: tr("interface.example_garlic_query") },
           ].map((example) => (
             <button key={example.label} type="button" className="example-button"
               disabled={busy || value.trim().length > 0}
@@ -57,7 +58,7 @@ export function Composer({
             id="health-message"
             type="text"
             enterKeyHint="send"
-            placeholder="De exemplu: Remedii naturiste pentru gripă…"
+            placeholder={tr("interface.composer_placeholder")}
             aria-describedby="message-helper"
             maxLength={MAX_CHAT_CHARS}
             disabled={busy}
@@ -65,18 +66,18 @@ export function Composer({
             onChange={(event) => setValue(event.target.value)}
           />
           <button id="send-message" type="submit" disabled={busy || value.trim().length === 0}>
-            {processing ? "⏳ În curs…" : (
+            {processing ? tr("interface.composer_processing") : (
               <>
                 <svg className="send-question-icon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
                   <path d="m22 2-7 20-4-9-9-4Z" fill="currentColor" fillOpacity="0.15" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" />
                   <path d="M22 2 11 13" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" />
                 </svg>
-                <span>Trimite</span>
+                <span>{tr("interface.composer_send")}</span>
               </>
             )}
           </button>
         </div>
-        <div id="message-helper">Pentru o căutare lexicală mai bună, separați prin virgulă sinonimele unei afecțiuni sau afecțiunile înrudite.</div>
+        <div id="message-helper">{tr("interface.composer_search_hint")}</div>
       </form>
     </>
   );

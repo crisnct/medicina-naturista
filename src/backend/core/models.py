@@ -12,10 +12,11 @@ from typing import Any, Literal
 from backend.ai.search import ALL_SIGNALS, SearchSignals
 from backend.core.contracts import Evidence, IdentifiedCondition, ProfilePayload, TranscriptEntry
 from backend.core.herb_categories import HerbCategory, TopClarification
+from backend.core.texts import tr
 
-HEALTH_PROBLEM_QUESTION = (
-    "Întrebați despre afecțiuni, remedii, plante, produse, topuri sau alte subiecte din bibliotecă."
-)
+
+def health_problem_question() -> str:
+    return tr("conversation.health_problem_question")
 
 
 @dataclass
@@ -71,7 +72,7 @@ class HealthProfile:
     def next_question(self) -> str | None:
         if not self.health_problem:
             self.asked_field = "health_problem"
-            return HEALTH_PROBLEM_QUESTION
+            return health_problem_question()
         self.asked_field = None
         return None
 

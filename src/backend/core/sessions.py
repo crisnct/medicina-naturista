@@ -39,6 +39,7 @@ from backend.core.models import (
 )
 from backend.core.operation_context import ReportActivity
 from backend.core.rate_limits import RateLimiter
+from backend.core.texts import tr
 
 logger = logging.getLogger("naturist.sessions")
 MARKER = ".naturist-session"
@@ -207,13 +208,15 @@ class SessionStore:
                 session = None
             if session is None and create:
                 if not self._accepting:
-                    raise ApplicationError("SHUTTING_DOWN", "Aplicația se închide.", 503)
+                    raise ApplicationError(
+                        "SHUTTING_DOWN", tr("errors.application_shutting_down"), 503
+                    )
                 # Reclaim expired entries before applying allocation limits.
                 self._sweep_locked()
                 if len(self._sessions) >= self.limits.max_active_sessions:
                     raise ApplicationError(
                         "GLOBAL_SESSION_LIMIT",
-                        "Capacitatea aplicației este ocupată.",
+                        tr("errors.application_capacity"),
                         503,
                     )
                 self.creation_limiter.check(
@@ -231,7 +234,7 @@ class SessionStore:
                 )
                 usage = retained_usage(session)
                 if usage.total > self.limits.max_session_bytes:
-                    raise ApplicationError("SESSION_BUDGET", "Bugetul sesiunii este insuficient.")
+                    raise ApplicationError("SESSION_BUDGET", tr("errors.session_budget_exceeded"))
                 self._check_global(usage.total)
                 directory.mkdir(mode=0o700)
                 try:
@@ -249,7 +252,7 @@ class SessionStore:
 
     def _check_global(self, additional: int) -> None:
         if self._used_bytes + self._reserved_bytes + additional > self.limits.max_global_bytes:
-            raise ApplicationError("GLOBAL_BUDGET", "Capacitatea aplicației este ocupată.", 503)
+            raise ApplicationError("GLOBAL_BUDGET", tr("errors.application_capacity"), 503)
 
     def _valid(self, operation: SessionOperation) -> bool:
         if self._workers.get(operation.operation_id) is not operation:
@@ -299,22 +302,22 @@ class SessionStore:
                 or session.closed
                 or self._sessions.get((session.cookie_id, session.tab_id)) is not session
             ):
-                raise ApplicationError("SESSION_CLOSED", "Sesiunea a fost închisă.")
+                raise ApplicationError("SESSION_CLOSED", tr("errors.session_closed"))
             if self._expired(session):
                 self._delete_locked((session.cookie_id, session.tab_id))
-                raise ApplicationError("SESSION_EXPIRED", "Sesiunea a expirat. Reîncărcați pagina.")
+                raise ApplicationError("SESSION_EXPIRED", tr("errors.session_expired"))
             if expected_revision is not None and expected_revision != session.context_revision:
                 raise OperationCancelled()
             search = session.searches.get(search_id or "")
             if kind == "generate" and search is None:
                 raise ApplicationError(
                     "SEARCH_UNAVAILABLE",
-                    "Nu există fragmente pregătite. Descrieți din nou problema de sănătate.",
+                    tr("errors.search_evidence_missing"),
                 )
             if kind == "generate" and search is not None and search.intent != "remedii":
                 raise ApplicationError(
                     "REPORT_NOT_ALLOWED",
-                    "Rapoartele sunt disponibile numai pentru solicitările de remedii.",
+                    tr("errors.report_intent_required"),
                     409,
                 )
             active = [
@@ -326,7 +329,7 @@ class SessionStore:
                 op.session is session and op.kind == kind for op in active
             ):
                 raise ApplicationError(
-                    "CLASSIFICATION_IN_PROGRESS", "Clasificarea este în curs.", 409
+                    "CLASSIFICATION_IN_PROGRESS", tr("errors.classification_in_progress"), 409
                 )
             if kind == "generate" and any(
                 op.session is session and op.kind == kind and op.search_id == search_id
@@ -334,7 +337,7 @@ class SessionStore:
             ):
                 raise ApplicationError(
                     "GENERATION_IN_PROGRESS",
-                    "Această căutare este deja în curs de generare.",
+                    tr("errors.search_already_generating"),
                 )
             # Count workers until finally, even when cancelled; network threads may still run.
             if kind in {"classify", "search", "condition", "generate", "email"}:
@@ -355,15 +358,15 @@ class SessionStore:
                     if category == "generate":
                         raise ApplicationError(
                             "GENERATION_QUEUE_FULL" if queue_generation else "GENERATION_CAPACITY",
-                            "Coada pentru rapoarte este plină. Încercați din nou mai târziu."
+                            tr("errors.generation_queue_full")
                             if queue_generation
-                            else "Un alt raport este în curs de generare. Așteptați eliberarea unui loc.",
+                            else tr("errors.generation_capacity"),
                             429,
                             retry_after=5,
                         )
                     raise ApplicationError(
                         "OPERATION_LIMIT",
-                        "Prea multe operații în curs. Încercați mai târziu.",
+                        tr("errors.operation_capacity"),
                         429,
                     )
             group_id = session.current_group_id
@@ -420,7 +423,7 @@ class SessionStore:
                 retained_usage(session).total + self._session_reserved(session) + reservation
                 > self.limits.max_session_bytes
             ):
-                raise ApplicationError("SESSION_BUDGET", "Bugetul sesiunii este insuficient.")
+                raise ApplicationError("SESSION_BUDGET", tr("errors.session_budget_exceeded"))
             self._check_global(reservation)
             op = SessionOperation(
                 secrets.token_urlsafe(18),
@@ -475,7 +478,9 @@ class SessionStore:
                     model_choice,
                 ):
                     raise ApplicationError(
-                        "IDEMPOTENCY_CONFLICT", "Această cerere are deja alte opțiuni.", 409
+                        "IDEMPOTENCY_CONFLICT",
+                        tr("errors.request_options_conflict"),
+                        409,
                     )
                 return copy.deepcopy(existing.as_dict(self.clock())), None
             for job in session.generations.values():
@@ -483,13 +488,13 @@ class SessionStore:
                     if (job.min_score, job.model_choice) != (min_score, model_choice):
                         raise ApplicationError(
                             "GENERATION_IN_PROGRESS",
-                            "Această căutare este deja în curs de generare.",
+                            tr("errors.search_already_generating"),
                             409,
                         )
                     if len(session.generation_receipts) >= 64:
                         raise ApplicationError(
                             "GENERATION_HISTORY_LIMIT",
-                            "Prea multe încercări pentru această sesiune.",
+                            tr("errors.session_attempt_limit"),
                             429,
                         )
                     previous = session.retained_bytes
@@ -502,7 +507,7 @@ class SessionStore:
                             > self.limits.max_session_bytes
                         ):
                             raise ApplicationError(
-                                "SESSION_BUDGET", "Bugetul sesiunii este insuficient.", 409
+                                "SESSION_BUDGET", tr("errors.session_budget_exceeded"), 409
                             )
                     except Exception:
                         del session.generation_receipts[request_id]
@@ -512,7 +517,9 @@ class SessionStore:
                     return copy.deepcopy(job.as_dict(self.clock())), None
             if len(session.generations) >= 32:
                 raise ApplicationError(
-                    "GENERATION_HISTORY_LIMIT", "Limita de generări a sesiunii a fost atinsă.", 429
+                    "GENERATION_HISTORY_LIMIT",
+                    tr("errors.session_generation_limit"),
+                    429,
                 )
             operation = self.begin_operation(
                 session, "generate", search_id=search_id, queue_generation=True
@@ -538,7 +545,7 @@ class SessionStore:
                 usage = retained_usage(session)
                 if usage.total + self._session_reserved(session) > self.limits.max_session_bytes:
                     raise ApplicationError(
-                        "SESSION_BUDGET", "Bugetul sesiunii este insuficient.", 409
+                        "SESSION_BUDGET", tr("errors.session_budget_exceeded"), 409
                     )
                 self._check_global(usage.total - previous)
                 self._used_bytes += usage.total - previous
@@ -565,7 +572,7 @@ class SessionStore:
                 or not job
             ):
                 raise ApplicationError(
-                    "GENERATION_NOT_FOUND", "Generarea nu mai este disponibilă.", 404
+                    "GENERATION_NOT_FOUND", tr("common.generation_unavailable"), 404
                 )
             operation = self._workers.get(job_id)
             if cancel and operation and job.state in {"accepted", "running"}:
@@ -574,7 +581,7 @@ class SessionStore:
             result["workerActive"] = operation is not None
             if job.report_id and job.report_id not in session.reports:
                 result["reportId"] = None
-                result["message"] = "Raportul nu mai este disponibil în sesiune."
+                result["message"] = tr("errors.report_unavailable")
             return result
 
     def generation_stage(self, operation: SessionOperation, stage: str) -> None:
@@ -663,7 +670,7 @@ class SessionStore:
                     > self.limits.max_session_bytes
                 ):
                     raise ApplicationError(
-                        "SESSION_BUDGET", "Textul AI depășește bugetul sesiunii.", 409
+                        "SESSION_BUDGET", tr("errors.ai_text_budget_exceeded"), 409
                     )
                 self._check_global(added_bytes)
                 if thinking:
@@ -701,9 +708,7 @@ class SessionStore:
                 session.retained_bytes + self._session_reserved(session) + added_bytes
                 > self.limits.max_session_bytes
             ):
-                raise ApplicationError(
-                    "SESSION_BUDGET", "Previzualizarea depășește bugetul sesiunii.", 409
-                )
+                raise ApplicationError("SESSION_BUDGET", tr("errors.preview_budget_exceeded"), 409)
             self._check_global(max(0, added_bytes))
             job.report_preview = preview
             job.report_preview_bytes = size
@@ -739,9 +744,7 @@ class SessionStore:
             job.state = "timed_out" if timed_out else "cancelled"
             job.error_code = "GENERATION_TIMED_OUT" if timed_out else "GENERATION_CANCELLED"
             job.message = (
-                "Timpul alocat generării a fost depășit."
-                if timed_out
-                else "Generarea a fost anulată."
+                tr("errors.generation_timeout") if timed_out else tr("errors.generation_cancelled")
             )
             job.finished_at = time.time()
             logger.info("report_job_%s job_id=%s", job.state, job.job_id)
@@ -928,7 +931,7 @@ class SessionStore:
                     )
                 usage = retained_usage(proposed)
             if not fits_session():
-                raise ApplicationError("SESSION_BUDGET", "Rezultatul depășește bugetul sesiunii.")
+                raise ApplicationError("SESSION_BUDGET", tr("errors.result_budget_exceeded"))
             global_total = (
                 self._used_bytes
                 - previous
@@ -937,7 +940,7 @@ class SessionStore:
                 - operation.reserved_bytes
             )
             if global_total > self.limits.max_global_bytes:
-                raise ApplicationError("GLOBAL_BUDGET", "Capacitatea aplicației este ocupată.", 503)
+                raise ApplicationError("GLOBAL_BUDGET", tr("errors.application_capacity"), 503)
             for name in STATE_FIELDS:
                 setattr(session, name, getattr(proposed, name))
             self._used_bytes += usage.total - previous
@@ -974,10 +977,10 @@ class SessionStore:
         with self._lock, session.lock:
             key = session.cookie_id, session.tab_id
             if session.closed or self._sessions.get(key) is not session:
-                raise ApplicationError("SESSION_CLOSED", "Sesiunea a fost închisă.")
+                raise ApplicationError("SESSION_CLOSED", tr("errors.session_closed"))
             if self._expired(session):
                 self._delete_locked(key)
-                raise ApplicationError("SESSION_CLOSED", "Sesiunea a fost închisă.")
+                raise ApplicationError("SESSION_CLOSED", tr("errors.session_closed"))
             if page_id is not None:
                 session.active_page_id = page_id
                 session.detached_until = None

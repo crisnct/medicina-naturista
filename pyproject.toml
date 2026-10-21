@@ -42,6 +42,7 @@ include = ["backend*", "scripts*"]
 [tool.setuptools.package-data]
 scripts = ["dictionaires/ro/*.dic", "dictionaires/ro/*.aff"]
 backend = [
+    "resources/*.toml",
     "migrations/*.sql",
     "ai/prompts/*.md",
     "ai/resources/*.txt",

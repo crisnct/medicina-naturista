@@ -1,9 +1,10 @@
+import { tr } from "./texts";
 import type { FragmentItem } from "../api/types";
 
 // "Scor minim" thresholds (relevance percent), shared by the fragments panel
 // filter and the one next to "Generează raportul"; 0 means no restriction.
 export const MIN_SCORE_OPTIONS: { value: number; label: string }[] = [
-  { value: 0, label: "Toate" },
+  { value: 0, label: tr("common.all") },
   { value: 10, label: "≥ 10%" },
   { value: 25, label: "≥ 25%" },
   { value: 50, label: "≥ 50%" },

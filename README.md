@@ -465,6 +465,64 @@ La prima utilizare, urmați linkul de activare afișat de Tailscale. Aplicația 
 
 Migrarea acestei aplicații nu necesită modificarea proxy-ului Nginx comun sau oprirea ngrok pentru celelalte proiecte. Serviciul și configurația Caddy au fost eliminate; HTTPS este administrat de Tailscale. Accesul vechi la Medicina Naturistă prin ngrok nu mai este originea autorizată pentru cererile de modificare după schimbarea `PUBLIC_ORIGIN`.
 
+## Textele aplicației
+
+Mesajele fixe afișate utilizatorului sunt centralizate în
+[`src/backend/resources/texts.ro.toml`](src/backend/resources/texts.ro.toml), în UTF-8.
+Cheile și parametrii sunt în engleză; valorile sunt în română. Secțiunile sunt
+`common`, `interface`, `conversation`, `errors`, `authorization`, `report` și `email`.
+Sunt incluse etichetele, exemplele de întrebări, accesibilitatea, conversația, erorile,
+autorizarea, titlul paginii, PDF-ul și emailul. Prompturile AI, mesajele tehnice,
+documentele sursă, datele cataloagelor și răspunsurile generate rămân în sursele lor.
+
+Editați numai valorile. Păstrați cheile și parametrii indicați în comentariile
+`# Parameters:`; parametrii se substituie prin nume, fără expresii sau HTML.
+Variantele de singular/plural sunt intrări separate. Exemplu de valori existente:
+
+```toml
+[interface]
+composer_send = "Trimite"
+[conversation]
+welcome = """
+Bună ziua, 👋
+
+Cu ce vă pot ajuta?"""
+```
+
+Rândurile goale dintr-un mesaj multiline fac parte din mesaj. Între intrările
+fișierului nu sunt necesare linii goale. Formatarea React, HTML și PDF rămâne în
+renderere; mesajele care folosesc Markdown păstrează marcajele existente.
+
+Catalogul este validat și încărcat o singură dată per proces, înaintea resurselor AI.
+Un fișier absent, TOML invalid, o cheie lipsă/necunoscută sau parametri modificați
+opresc pornirea. Pentru validare locală în PowerShell:
+
+```powershell
+$env:PYTHONPATH = 'src'
+.venv/Scripts/python.exe -m scripts.manage_texts
+```
+
+Integrarea inițială necesită reconstruirea imaginii pentru codul nou și montarea
+catalogului. După aceea, Compose montează acest fișier separat, read-only: după o
+editare a valorilor, operatorul rulează `docker compose restart app`, apoi reîncarcă
+pagina. Nu este necesar rebuild pentru schimbarea mesajelor. În rularea Python
+directă se repornește backendul. Conversațiile deja afișate și PDF-urile deja generate
+își păstrează conținutul.
+
+Backendul introduce textele publice în HTML înaintea pornirii React și completează
+titlul/descrierea paginii. `GET /api/texts` expune doar `common` și `interface`,
+fără autorizare sau acces la corpus; HTML-ul și endpointul folosesc `no-store`.
+Vite în dezvoltare folosește același endpoint din backendul configurat prin
+`DEV_BACKEND_URL`; acesta trebuie să includă noua implementare. `vite preview`
+servește fișierele brute și nu înlocuiește bootstrapul backendului.
+
+La adăugarea sau redenumirea cheilor ori schimbarea parametrilor, dezvoltatorul
+actualizează consumatorii și rulează `python -m scripts.manage_texts --generate`
+cu `PYTHONPATH=src`. Comanda regenerează numai metadatele Python/TypeScript pentru
+chei și parametri; nu creează un al doilea catalog editabil. Aceste schimbări de
+contract necesită și rebuildul frontendului. Testele frontend folosesc același TOML,
+prin exportul stdlib Python; se poate selecta interpreterul cu variabila `PYTHON`.
+
 ## ⚙️ Configurare
 
 Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplicație sunt:

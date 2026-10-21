@@ -1,11 +1,12 @@
+import { tr } from "../lib/texts";
 import { useEffect, useRef } from "react";
 import { AIActivityAge } from "./AIActivityAge";
 
 export function GenerationStreamPreview({
   text,
-  title = "AI generează răspunsul",
-  label = "Textul primit de la AI, în curs de generare",
-  placeholder = "Aștept primul fragment de text…",
+  title = tr("common.ai_answer_title"),
+  label = tr("interface.stream_content_label"),
+  placeholder = tr("interface.stream_waiting"),
   activityAgeMs,
   activityReceivedAt,
   tokensPerSecond,
@@ -25,8 +26,8 @@ export function GenerationStreamPreview({
       <h4>
         {title}
         {tokensPerSecond != null && Number.isFinite(tokensPerSecond) && tokensPerSecond >= 0 && (
-          <span title="Viteză medie estimată din fragmentele primite: aproximativ 4 caractere per token, fără timpul de așteptare inițial.">
-            {` - ${Math.round(tokensPerSecond)} tokeni/sec`}
+          <span title={tr("interface.stream_speed_hint")}>
+            {tr("common.token_rate", { tokens_per_second: Math.round(tokensPerSecond) })}
           </span>
         )}
       </h4>

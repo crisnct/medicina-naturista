@@ -5,6 +5,8 @@ from __future__ import annotations
 from types import MappingProxyType
 from typing import Literal, get_args
 
+from backend.core.texts import tr
+
 HerbCategory = Literal[
     "plante medicinale",
     "fructe",
@@ -24,28 +26,33 @@ HERB_CATEGORIES: tuple[HerbCategory, ...] = get_args(HerbCategory)
 BOTANICAL_CATEGORY: HerbCategory = "plante medicinale"
 BOTANICAL_CATEGORIES = frozenset((BOTANICAL_CATEGORY, "fructe", "legume", "cereale"))
 PRODUCT_CATEGORIES = frozenset(HERB_CATEGORIES) - BOTANICAL_CATEGORIES
-CATEGORY_LABELS = MappingProxyType(
-    dict(
-        zip(
-            HERB_CATEGORIES,
-            (
-                "plante medicinale",
-                "fructe",
-                "legume",
-                "cereale",
-                "semințe",
-                "uleiuri esențiale",
-                "suplimente",
-                "aminoacizi",
-                "vitamine",
-                "minerale",
-                "produse apicole",
-                "fibre, probiotice și prebiotice",
-            ),
-            strict=True,
+
+
+def category_labels() -> MappingProxyType[HerbCategory, str]:
+    return MappingProxyType(
+        dict(
+            zip(
+                HERB_CATEGORIES,
+                (
+                    tr("conversation.category_medicinal_plants"),
+                    tr("conversation.category_fruit"),
+                    tr("conversation.category_vegetables"),
+                    tr("conversation.category_cereals"),
+                    tr("conversation.category_seeds"),
+                    tr("conversation.category_essential_oils"),
+                    tr("conversation.category_supplements"),
+                    tr("conversation.category_amino_acids"),
+                    tr("conversation.category_vitamins"),
+                    tr("conversation.category_minerals"),
+                    tr("conversation.category_bee_products"),
+                    tr("conversation.category_fibre_probiotics_prebiotics"),
+                ),
+                strict=True,
+            )
         )
     )
-)
+
+
 # Whole category phrases only: one component never selects the combined group.
 CATEGORY_ALIASES: MappingProxyType[HerbCategory, tuple[str, ...]] = MappingProxyType(
     {
@@ -73,7 +80,12 @@ CATEGORY_ALIASES: MappingProxyType[HerbCategory, tuple[str, ...]] = MappingProxy
         ),
     }
 )
-GLOBAL_TOP_LABEL = "produse naturiste — toate categoriile"
+
+
+def global_top_label() -> str:
+    return tr("conversation.global_top_label")
+
+
 GLOBAL_TOP_ALIASES = frozenset(
     (
         "",

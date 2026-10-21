@@ -14,10 +14,11 @@ import re
 from typing import Any
 from urllib.parse import quote
 
-from backend.ai.report_validation import PARTIAL_NOTICE, ValidatedReport
+from backend.ai.report_validation import ValidatedReport, partial_notice
 from backend.ai.search import ALL_SIGNALS, SearchSignals
 from backend.core.contracts import ProfilePayload
 from backend.core.models import SessionData, SessionSnapshot
+from backend.core.texts import tr
 from backend.reporting.pdf import (
     bibliography_label,
     build_reference_index,
@@ -32,7 +33,8 @@ def text(role: str, content: str) -> dict[str, Any]:
     return {"role": role, "kind": "text", "content": content}
 
 
-GENERATE_LABEL = "📄 Generează raportul"
+def generate_label() -> str:
+    return tr("report.generate_label")
 
 
 # Build the "Generează raportul" call-to-action message for one search.
@@ -63,7 +65,7 @@ def report_filename(
     title = report_title(dict(profile if profile is not None else session.profile.as_dict()))
     safe = re.sub(r'[\x00-\x1f<>:"/\\|?*]', "-", title)
     safe = re.sub(r"\s+", " ", safe).strip(" .")
-    return f"{safe or 'Recomandări naturiste'}.pdf"
+    return f"{safe or tr('report.filename_fallback')}.pdf"
 
 
 # Build the session-scoped download message for the generated PDF.
@@ -107,15 +109,16 @@ def normalize_text(text: str) -> str:
 # Shown next to the relevance score so the patient can see when a result was an
 # exact lexical match. There is no semantic label: every fragment is ranked
 # semantically, so it would appear on all of them. Adding a selective signal
-# later only means adding one more (label, flag) pair to _MATCH_TYPE_SIGNALS.
-_MATCH_TYPE_SIGNALS: tuple[tuple[str, str], ...] = (("Lexicală", "found_by_lexical"),)
+# later only means adding one more (label, flag) pair to _match_type_signals.
+def _match_type_signals() -> tuple[tuple[str, str], ...]:
+    return ((tr("report.lexical_match"), "found_by_lexical"),)
 
 
 def match_type_label(item: dict) -> str:
-    found_labels = [label for label, key in _MATCH_TYPE_SIGNALS if item.get(key)]
+    found_labels = [label for label, key in _match_type_signals() if item.get(key)]
     if not found_labels:
         return ""
-    return "Găsire " + " și ".join(found_labels)
+    return tr("report.match_prefix") + tr("report.list_conjunction").join(found_labels)
 
 
 # Where the condition the patient named was found in a fragment: "title" (P1,
@@ -205,27 +208,33 @@ def recommendation_text(
     if isinstance(sections, ValidatedReport):
         sections = sections.section_payload()
     labels = (
-        ("uz_intern", "Uz intern"),
-        ("nutritie", "Nutriție"),
-        ("uz_extern", "Uz extern"),
-        ("alte_recomandari", "Alte Recomandări"),
-        ("atentionari", "Atenționări"),
+        ("uz_intern", tr("report.internal_use")),
+        ("nutritie", tr("report.nutrition")),
+        ("uz_extern", tr("report.external_use")),
+        ("alte_recomandari", tr("report.other_recommendations_chat")),
+        ("atentionari", tr("report.warnings")),
     )
     sections = sort_sections_by_relevance(sections, evidence)
     reference_numbers, references = build_reference_index(sections, evidence)
-    ready_message = "✅ Raportul este gata"
+    ready_message = tr("report.ready")
     if elapsed_seconds is not None:
         minutes, seconds = divmod(elapsed_seconds, 60)
-        minute_label = "minut" if minutes == 1 else "minute"
-        second_label = "secundă" if seconds == 1 else "secunde"
-        ready_message += (
-            f" și a fost generat în **{minutes}** {minute_label} și **{seconds}** {second_label}"
+        minute_label = tr("report.minute_singular") if minutes == 1 else tr("report.minute_plural")
+        second_label = tr("report.second_singular") if seconds == 1 else tr("report.second_plural")
+        ready_message += tr(
+            "report.duration_summary",
+            minutes=minutes,
+            minute_label=minute_label,
+            seconds=seconds,
+            second_label=second_label,
         )
     if ai_model:
-        ready_message += f", folosind modelul AI **{ai_model}**"
-    lines = [f"{ready_message}. Recomandările susținute de surse:"] if include_ready_message else []
+        ready_message += tr("report.model_suffix", model=ai_model)
+    lines = (
+        [tr("report.ready_summary", ready_message=ready_message)] if include_ready_message else []
+    )
     if partial:
-        lines.append(PARTIAL_NOTICE)
+        lines.append(partial_notice())
     found = False
     for key, label in labels:
         items = sections.get(key) or []
@@ -267,11 +276,9 @@ def recommendation_text(
             markers = " ".join(f"[{number}]" for number in unique_numbers)
             lines.append(f"• {item['text']} {markers}".rstrip())
     if not found:
-        lines.append(
-            "Nu au fost identificate recomandări specifice suficient susținute de fragmentele disponibile."
-        )
+        lines.append(tr("report.recommendations_empty"))
     if references:
-        lines.append("\nBibliografie:")
+        lines.append(tr("report.bibliography_chat"))
         lines.extend(
             f"{number} - {bibliography_label(source)}"
             for number, source in enumerate(references, start=1)

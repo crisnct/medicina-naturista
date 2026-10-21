@@ -17,6 +17,7 @@ from backend.core.models import SessionData, SessionOperation
 from backend.core.report_batches import REPORT_GENERATION_WORKERS
 from backend.core.report_metrics import validate_min_score
 from backend.core.sessions import SessionStore
+from backend.core.texts import tr
 
 logger = logging.getLogger("naturist.reports")
 
@@ -45,7 +46,7 @@ class ReportGenerationService:
         validate_min_score(min_score)
         with self._lock:
             if self._closed:
-                raise ApplicationError("SHUTTING_DOWN", "Aplicația se închide.", 503)
+                raise ApplicationError("SHUTTING_DOWN", tr("errors.application_shutting_down"), 503)
             self._prune_cancelled()
             # Capture the provider and evidence at admission, before joining the FIFO.
             provider = getattr(conversation.ai, "provider", None)
@@ -67,7 +68,7 @@ class ReportGenerationService:
                 if not evidence:
                     raise ApplicationError(
                         "NO_ELIGIBLE_FRAGMENTS",
-                        "Niciun fragment nu atinge scorul minim selectat.",
+                        tr("interface.generate_no_eligible_fragments"),
                         422,
                     )
                 self._pending.append((conversation, operation, min_score))
@@ -79,13 +80,13 @@ class ReportGenerationService:
                 self.store.fail_generation(
                     operation,
                     getattr(exc, "code", "GENERATION_UNAVAILABLE"),
-                    "Generarea nu a putut fi pornită.",
+                    tr("errors.generation_start_failed"),
                 )
                 self.store.finish_operation(operation)
                 if isinstance(exc, ApplicationError):
                     raise
                 raise ApplicationError(
-                    "GENERATION_UNAVAILABLE", "Generarea nu a putut fi pornită.", 503
+                    "GENERATION_UNAVAILABLE", tr("errors.generation_start_failed"), 503
                 ) from None
             return self.generation(session, job["jobId"])
 
@@ -173,27 +174,17 @@ class ReportGenerationService:
                 exc.message
                 if isinstance(exc, ApplicationError)
                 else {
-                    "AI_READ_TIMEOUT": "Furnizorul AI nu a transmis date în timpul alocat. Puteți încerca din nou.",
-                    "AI_RATE_LIMITED": "Limita de utilizare a furnizorului AI a fost atinsă. Încercați mai târziu.",
-                    "AI_RESPONSE_INVALID": "Răspunsul AI nu a putut fi validat. Puteți încerca din nou.",
-                    "AI_OUTPUT_LIMIT_EXCEEDED": (
-                        "Modelul AI a atins limita de tokeni a răspunsului înainte de finalizarea raportului. "
-                        "Reduceți fragmentele selectate sau alegeți alt model."
-                    ),
-                    "AI_MODEL_NOT_FOUND": (
-                        "Modelul Ollama selectat nu este instalat sau nu este disponibil. "
-                        "Verificați modelul în Ollama sau alegeți alt model."
-                    ),
-                    "AI_CONTEXT_LIMIT_EXCEEDED": (
-                        "Fragmentele selectate depășesc contextul disponibil al modelului. "
-                        "Selectați mai puține fragmente sau creșteți scorul minim. "
-                        "Conținutul nu a fost trunchiat."
-                    ),
-                    "PDF_GENERATION_FAILED": "PDF-ul nu a putut fi creat. Puteți încerca din nou.",
-                    "REPORT_COMMIT_FAILED": "Raportul nu a putut fi salvat în sesiune.",
+                    "AI_READ_TIMEOUT": tr("errors.ai_read_timeout"),
+                    "AI_RATE_LIMITED": tr("errors.ai_rate_limited"),
+                    "AI_RESPONSE_INVALID": tr("errors.ai_response_invalid_retry"),
+                    "AI_OUTPUT_LIMIT_EXCEEDED": (tr("errors.ai_output_limit_guidance")),
+                    "AI_MODEL_NOT_FOUND": (tr("errors.ollama_model_unavailable")),
+                    "AI_CONTEXT_LIMIT_EXCEEDED": (tr("errors.ai_context_limit")),
+                    "PDF_GENERATION_FAILED": tr("errors.pdf_failed"),
+                    "REPORT_COMMIT_FAILED": tr("errors.report_commit_failed"),
                 }.get(
                     code,
-                    "Furnizorul AI nu este disponibil sau raportul nu a putut fi generat. Puteți încerca din nou.",
+                    tr("errors.ai_generation_failed"),
                 ),
             )
         finally:

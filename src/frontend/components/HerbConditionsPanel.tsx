@@ -1,3 +1,4 @@
+import { tr } from "../lib/texts";
 import type { HerbConditionsMessage } from "../api/types";
 import { DoctorAvatar } from "./DoctorAvatar";
 
@@ -7,22 +8,21 @@ export function HerbConditionsPanel({ message }: { message: HerbConditionsMessag
     species.replace(/\p{L}+/gu, (word) => word.charAt(0).toUpperCase() + word.slice(1)),
   ).join(" · ");
   return (
-    <section className="herb-conditions-panel" aria-label={`Afecțiuni asociate cu ${herbName}`}>
+    <section className="herb-conditions-panel" aria-label={tr("interface.herb_conditions_label", { herb_name: herbName })}>
       <div className="chatbot-message-header">
         <DoctorAvatar />
         <h3>
-          🌿 {herbName}{" "}
+          {"🌿 "}{herbName}{" "}
           <span className="herb-title-details">
-            {speciesNames && <span className="herb-species">({speciesNames}) </span>}
-            — utilă în <strong className="herb-condition-count">{message.entriesCount}</strong> afecțiuni din catalog
-          </span>
+            {speciesNames && <span className="herb-species">{"("}{speciesNames}{") "}</span>}
+            {tr("interface.herb_conditions_use_prefix")}<strong className="herb-condition-count">{message.entriesCount}</strong> {tr("interface.herb_conditions_count_label")}</span>
         </h3>
       </div>
-      <p className="herb-association-note">Lista reflectă asocieri din biblioteca naturistă, inclusiv atenționări și contraindicații.</p>
+      <p className="herb-association-note">{tr("interface.herb_conditions_notice")}</p>
       {message.entriesCount === 0 ? (
-        <p>Intrarea există în catalog, dar nu are afecțiuni asociate în indexul actual.</p>
+        <p>{tr("interface.herb_conditions_empty")}</p>
       ) : (
-        <ul className="herb-conditions-list" aria-label="Afecțiuni asociate">
+        <ul className="herb-conditions-list" aria-label={tr("interface.herb_conditions_title")}>
           {message.conditions.map((condition) => (
             <li key={condition.id}>{condition.name}</li>
           ))}

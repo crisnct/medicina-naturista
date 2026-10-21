@@ -32,7 +32,7 @@ from backend.core.contracts import (
     RetrievalProtocol,
 )
 from backend.core.errors import ApplicationError, OperationCancelled
-from backend.core.herb_categories import CATEGORY_LABELS, GLOBAL_TOP_LABEL
+from backend.core.herb_categories import category_labels, global_top_label
 from backend.core.models import (
     CommitChange,
     HealthProfile,
@@ -46,6 +46,7 @@ from backend.core.models import (
 from backend.core.operation_context import OperationBudget, operation_budget
 from backend.core.report_metrics import ReportMetrics, validate_min_score
 from backend.core.sessions import SessionStore
+from backend.core.texts import tr
 from backend.integrations.gmail import EMAIL_SKIPPED, GmailAuthorizationError
 from backend.reporting.chat import (
     download_message,
@@ -58,28 +59,58 @@ from backend.reporting.chat import text as text_message
 
 logger = logging.getLogger("naturist.conversation")
 
-NO_FRAGMENT_ABOVE_MIN_SCORE = (
-    "Niciun fragment nu atinge scorul minim selectat. Alegeți un prag mai mic."
-)
-WELCOME = "Bună ziua, 👋\n\nCu ce vă pot ajuta?"
-NO_CATEGORY_SELECTED_MESSAGE = "Nicio sursă selectată. Bifați cel puțin o categorie în panoul „Căutare avansată” înainte de căutare."
-CONDITION_AI_NOTICE = "🤖 Nu am găsit afecțiunea în dicționarul meu. Încerc să o identific cu ajutorul AI. Vă rog să așteptați."
-CONDITION_NOT_IDENTIFIED_MESSAGE = "⚠️ Nu am putut identifica afecțiunea din mesaj."
-CONDITION_NOT_IDENTIFIED_CONTINUES = (
-    f"{CONDITION_NOT_IDENTIFIED_MESSAGE} Caut după textul mesajului."
-)
-CONDITION_NOT_IDENTIFIED_STOPS = (
-    f"{CONDITION_NOT_IDENTIFIED_MESSAGE} Scrieți denumirea afecțiunii (ex. gripă, hipertensiune)."
-)
-EMAIL_OFFER = (
-    "Dacă doriți să trimiteți documentul pe mail la cineva, spuneți-mi la ce adresă să îl trimit."
-)
+
+def no_fragment_above_min_score() -> str:
+    return tr("conversation.no_fragment_above_min_score")
+
+
+def welcome() -> str:
+    return tr("conversation.welcome")
+
+
+def no_category_selected_message() -> str:
+    return tr("conversation.no_category_selected_message")
+
+
+def condition_ai_notice() -> str:
+    return tr("conversation.condition_ai_notice")
+
+
+def condition_not_identified_message() -> str:
+    return tr("conversation.condition_not_identified_message")
+
+
+def condition_not_identified_continues() -> str:
+    return tr(
+        "conversation.condition_not_identified_continues",
+        condition_not_identified_message=condition_not_identified_message(),
+    )
+
+
+def condition_not_identified_stops() -> str:
+    return tr(
+        "conversation.condition_not_identified_stops",
+        condition_not_identified_message=condition_not_identified_message(),
+    )
+
+
+def email_offer() -> str:
+    return tr("conversation.email_offer")
+
+
 EMAIL_PATTERN = re.compile(r"[A-Za-z0-9._%+-]+@[A-Za-z0-9-]+(?:\.[A-Za-z0-9-]+)*\.[A-Za-z]{2,}")
-DIVERSE_SIGNALS_MESSAGE = "Activați căutarea lexicală sau semantică în panoul „Căutare avansată” pentru a căuta după mesaj."
-GENERAL_QUESTION_NOTICE = "💬 Am identificat o întrebare generală."
-CLASSIFICATION_UNAVAILABLE = (
-    "Clasificarea AI nu este disponibilă momentan. Continui cu fluxul de căutare existent."
-)
+
+
+def diverse_signals_message() -> str:
+    return tr("conversation.diverse_signals_message")
+
+
+def general_question_notice() -> str:
+    return tr("conversation.general_question_notice")
+
+
+def classification_unavailable() -> str:
+    return tr("conversation.classification_unavailable")
 
 
 def email_candidates(message: str) -> list[str]:
@@ -140,7 +171,7 @@ def report_started_message(session, retriever) -> dict:
     count = document_count_for_categories(session.selected_categories, retriever)
     return text_message(
         "assistant",
-        f"🔍 Caut rapid în cele **{count} documente** interne disponibile. Vă rog să așteptați.",
+        tr("conversation.search_document_count", count=count),
     )
 
 
@@ -185,11 +216,16 @@ def condition_identified_message(
     lines = []
     for condition in conditions:
         label = (
-            "Am identificat afecțiunea (cu ajutorul AI)" if by_ai else "Am identificat afecțiunea"
+            tr("conversation.condition_identified_by_ai")
+            if by_ai
+            else tr("conversation.condition_identified")
         )
         line = f"✅ {label}: **{condition.name}**."
         if signals.lexical and condition.name in whole and len(condition.terms) > 1:
-            line += f" O caut și după denumirile: {', '.join(condition.terms[1:])}."
+            line += tr(
+                "conversation.condition_aliases",
+                aliases=", ".join(condition.terms[1:]),
+            )
         lines.append(line)
     return text_message("assistant", "\n".join(lines))
 
@@ -274,7 +310,7 @@ class ConversationService:
             "messages": [
                 text_message(
                     "assistant",
-                    "Sesiunea a fost închisă. Reîncărcați pagina pentru o conversație nouă.",
+                    tr("conversation.session_closed"),
                 )
             ]
         }
@@ -287,9 +323,9 @@ class ConversationService:
             with operation_budget(self.budget(operation)):
                 status = self.email(report.health_problem, report.data, report.filename, address)
             reply = (
-                "Trimiterea pe mail nu este configurată momentan."
+                tr("conversation.email_not_configured")
                 if status == EMAIL_SKIPPED
-                else f"✅ Am trimis documentul la {address}."
+                else tr("conversation.email_sent", recipient=address)
             )
         except OperationCancelled:
             raise
@@ -297,13 +333,10 @@ class ConversationService:
             logger.error(
                 "report_stage_failed stage=email type=GmailAuthorizationError oauth_error=invalid_grant"
             )
-            reply = (
-                "Autorizarea Gmail nu mai este validă. Administratorul trebuie să reautorizeze "
-                "contul Google pentru trimiterea pe mail. Raportul rămâne disponibil pentru descărcare."
-            )
+            reply = tr("conversation.email_authorization_expired")
         except Exception as exc:
             logger.error("report_stage_failed stage=email type=%s", type(exc).__name__)
-            reply = "Nu am putut trimite documentul pe mail. Încercați din nou."
+            reply = tr("conversation.email_failed")
         return self.store.commit_operation(
             operation,
             CommitChange(messages=[text_message("assistant", reply)]),
@@ -327,7 +360,10 @@ class ConversationService:
         if len(message) > self.settings.max_chat_chars:
             raise ApplicationError(
                 "MESSAGE_TOO_LONG",
-                f"Mesajul depășește limita de {self.settings.max_chat_chars} caractere.",
+                tr(
+                    "conversation.message_too_long",
+                    max_chars=self.settings.max_chat_chars,
+                ),
                 422,
             )
         operation = self.store.begin_operation(session, "message")
@@ -344,7 +380,7 @@ class ConversationService:
                 if previous_fingerprint != fingerprint:
                     raise ApplicationError(
                         "MESSAGE_ID_CONFLICT",
-                        "Identificatorul mesajului a fost reutilizat pentru alt conținut.",
+                        tr("conversation.message_id_reused"),
                         409,
                     )
                 if revision != snapshot.context_revision:
@@ -415,7 +451,9 @@ class ConversationService:
             snapshot = operation.snapshot
             routing = snapshot.routing
             if not routing.message:
-                raise ApplicationError("MESSAGE_UNAVAILABLE", "Trimiteți mai întâi un mesaj.", 409)
+                raise ApplicationError(
+                    "MESSAGE_UNAVAILABLE", tr("conversation.message_required"), 409
+                )
             if routing.classified:
                 return {
                     **OperationResult().as_dict(),
@@ -469,12 +507,12 @@ class ConversationService:
                     notices.append(
                         text_message(
                             "assistant",
-                            "Clasificarea nu este disponibilă. Reformulați cererea de trimitere și adresa destinatarului.",
+                            tr("conversation.classification_email_clarification"),
                         )
                     )
                 else:
                     decision = MessageClassification(intent="remedii")
-                    notices.append(text_message("assistant", CLASSIFICATION_UNAVAILABLE))
+                    notices.append(text_message("assistant", classification_unavailable()))
             self.store.checkpoint(operation)
             # Preserve the existing address-only command, independent of a model decision.
             if EMAIL_PATTERN.fullmatch(routing.message):
@@ -487,7 +525,7 @@ class ConversationService:
             routing.top_category = None
             routing.top_clarification = None
             if decision.intent == "diverse" and not decision.needs_clarification:
-                notices.append(text_message("assistant", GENERAL_QUESTION_NOTICE))
+                notices.append(text_message("assistant", general_question_notice()))
             if decision.intent == "email_raport":
                 return self._route_email(operation, decision, notices)
             if decision.intent == "planta":
@@ -508,15 +546,14 @@ class ConversationService:
                     notices.append(
                         text_message(
                             "assistant",
-                            "Pentru ce afecțiune sau problemă de sănătate doriți remedii?",
+                            tr("conversation.condition_question"),
                         )
                     )
                     return self._commit_route(operation, notices)
                 notices.append(
                     text_message(
                         "assistant",
-                        "Precizați o singură solicitare: remedii, o plantă, "
-                        "un produs sau o întrebare generală.",
+                        tr("conversation.request_clarification"),
                     )
                 )
                 return self._commit_route(operation, notices)
@@ -526,20 +563,20 @@ class ConversationService:
                 getattr(self.retriever, "category_tree", None) is not None
                 and not snapshot.selected_categories
             ):
-                notices.append(text_message("assistant", NO_CATEGORY_SELECTED_MESSAGE))
+                notices.append(text_message("assistant", no_category_selected_message()))
             elif decision.intent == "diverse" and not (
                 snapshot.search_signals.lexical
                 or snapshot.search_signals.semantic
                 or resolve_query(routing.message).conditions
             ):
-                notices.append(text_message("assistant", DIVERSE_SIGNALS_MESSAGE))
+                notices.append(text_message("assistant", diverse_signals_message()))
             else:
                 routing.start_search = True
                 routing.identify_condition = decision.intent == "remedii" and needs_condition_ai(
                     routing.message, snapshot.search_signals
                 )
                 if routing.identify_condition:
-                    notices.append(text_message("assistant", CONDITION_AI_NOTICE))
+                    notices.append(text_message("assistant", condition_ai_notice()))
                 else:
                     if decision.intent == "remedii":
                         identified = condition_identified_message(
@@ -585,50 +622,63 @@ class ConversationService:
             routing.top_category = decision.top_category
             routing.top_clarification = decision.top_clarification
             clarification = (
-                "Alegeți o singură categorie: "
-                + "; ".join(CATEGORY_LABELS.values())
-                + ". Grupa disponibilă este «fibre, probiotice și prebiotice», împreună. "
-                "Pentru topul global, răspundeți «toate categoriile»."
+                tr("conversation.choose_category", categories="; ".join(category_labels().values()))
                 if decision.top_clarification == "category"
-                else "Câte intrări doriți în top? Precizați un număr între 1 și 10000."
+                else tr("conversation.herb_ranking_count_question")
             )
             notices.append(text_message("assistant", clarification))
         else:
             if self.top_herbs is None:
                 raise ApplicationError(
                     "HERB_CATALOG_UNAVAILABLE",
-                    "Catalogul de plante și produse nu este disponibil.",
+                    tr("conversation.herb_catalog_unavailable"),
                     503,
                 )
             with operation_budget(self.budget(operation)):
                 herbs = self.top_herbs(decision.top_count, decision.top_category)
             self.store.checkpoint(operation)
             label = (
-                CATEGORY_LABELS[decision.top_category]
+                category_labels()[decision.top_category]
                 if decision.top_category
-                else GLOBAL_TOP_LABEL
+                else global_top_label()
             )
             if not herbs:
-                content = f"Catalogul nu conține intrări pentru topul: {label}."
+                content = tr("conversation.herb_ranking_empty", label=label)
             else:
                 lines = [
-                    f"### Top {len(herbs)} {label} după numărul de afecțiuni "
-                    "asociate în bibliotecă",
-                    "Asocierile includ atenționări și contraindicații; "
-                    "nu demonstrează eficacitatea terapeutică.",
+                    tr(
+                        "conversation.herb_ranking_title",
+                        count=len(herbs),
+                        label=label,
+                    ),
+                    tr("conversation.herb_ranking_notice"),
                 ]
                 for position, herb in enumerate(herbs, 1):
                     aliases = (
-                        f" (denumiri regionale: {', '.join(herb['ro_regional'])})"
+                        tr(
+                            "conversation.herb_regional_names",
+                            aliases=", ".join(herb["ro_regional"]),
+                        )
                         if herb["ro_regional"]
                         else ""
                     )
-                    conditions = "afecțiune" if herb["ranking"] == 1 else "afecțiuni"
+                    conditions = (
+                        tr("conversation.condition_singular")
+                        if herb["ranking"] == 1
+                        else tr("conversation.condition_plural")
+                    )
                     name = herb["ro"][:1].upper() + herb["ro"][1:]
                     latin = f" ({herb['latin'].title()})" if herb["latin"] else ""
                     lines.append(
-                        f"{position}. **{name}**{latin} — asociere în bibliotecă cu "
-                        f"{herb['ranking']} {conditions}{aliases}"
+                        tr(
+                            "conversation.herb_ranking_entry",
+                            position=position,
+                            name=name,
+                            latin=latin,
+                            count=herb["ranking"],
+                            conditions=conditions,
+                            aliases=aliases,
+                        )
                     )
                 content = "\n".join(lines)
             notices.append(text_message("assistant", content))
@@ -646,14 +696,14 @@ class ConversationService:
             notices.append(
                 text_message(
                     "assistant",
-                    "Despre ce plantă sau produs doriți informații? Precizați o singură intrare.",
+                    tr("conversation.herb_name_question"),
                 )
             )
         else:
             if self.herb_lookup is None:
                 raise ApplicationError(
                     "HERB_CATALOG_UNAVAILABLE",
-                    "Catalogul de plante și produse nu este disponibil.",
+                    tr("conversation.herb_catalog_unavailable"),
                     503,
                 )
             with operation_budget(self.budget(operation)):
@@ -664,8 +714,7 @@ class ConversationService:
                 notices.append(
                     text_message(
                         "assistant",
-                        "Nu am găsit intrarea în catalog. Scrieți un nume românesc, "
-                        "englezesc sau denumirea latină a plantei.",
+                        tr("conversation.herb_not_found"),
                     )
                 )
             elif data["status"] == "ambiguous":
@@ -674,9 +723,7 @@ class ConversationService:
                 notices.append(
                     text_message(
                         "assistant",
-                        "Numele corespunde mai multor intrări în catalog. Alegeți una: "
-                        + ", ".join(routing.herb_choices)
-                        + ".",
+                        tr("conversation.herb_ambiguous") + ", ".join(routing.herb_choices) + ".",
                     )
                 )
             else:
@@ -704,7 +751,7 @@ class ConversationService:
             notices.append(
                 text_message(
                     "assistant",
-                    "Nu există un raport precedent în această sesiune. Generați mai întâi un raport.",
+                    tr("conversation.previous_report_missing"),
                 )
             )
         elif decision.needs_clarification or not valid:
@@ -712,7 +759,7 @@ class ConversationService:
             notices.append(
                 text_message(
                     "assistant",
-                    "La ce adresă doriți să trimit raportul precedent? Precizați o singură adresă validă.",
+                    tr("conversation.email_recipient_question"),
                 )
             )
         else:
@@ -736,7 +783,7 @@ class ConversationService:
                             messages=[
                                 text_message(
                                     "assistant",
-                                    "Raportul precedent nu mai este disponibil în sesiune. Generați din nou raportul.",
+                                    tr("conversation.previous_report_unavailable"),
                                 )
                             ]
                         ),
@@ -788,10 +835,10 @@ class ConversationService:
                 if identified:
                     messages.append(identified)
             elif not (snapshot.search_signals.lexical or snapshot.search_signals.semantic):
-                messages.append(text_message("assistant", CONDITION_NOT_IDENTIFIED_STOPS))
+                messages.append(text_message("assistant", condition_not_identified_stops()))
                 start_search = False
             else:
-                messages.append(text_message("assistant", CONDITION_NOT_IDENTIFIED_CONTINUES))
+                messages.append(text_message("assistant", condition_not_identified_continues()))
             if start_search:
                 messages.append(report_started_message(snapshot, self.retriever))
             committed = self.store.commit_operation(
@@ -821,7 +868,9 @@ class ConversationService:
                 or not snapshot.routing.start_search
             ):
                 raise ApplicationError(
-                    "SEARCH_NOT_ALLOWED", "Acest mesaj nu pornește o căutare de fragmente.", 409
+                    "SEARCH_NOT_ALLOWED",
+                    tr("conversation.search_not_allowed"),
+                    409,
                 )
             tree = getattr(self.retriever, "category_tree", None)
             if tree is not None:
@@ -839,9 +888,9 @@ class ConversationService:
                         messages=[
                             text_message(
                                 "assistant",
-                                DIVERSE_SIGNALS_MESSAGE
+                                diverse_signals_message()
                                 if snapshot.routing.intent == "diverse"
-                                else CONDITION_NOT_IDENTIFIED_STOPS,
+                                else condition_not_identified_stops(),
                             )
                         ]
                     ),
@@ -857,9 +906,9 @@ class ConversationService:
                         messages=[
                             text_message(
                                 "assistant",
-                                "Nu am găsit fragmente relevante în sursele locale. Încercați o căutare semantică sau reformulați întrebarea."
+                                tr("conversation.no_fragments_general")
                                 if snapshot.routing.intent == "diverse"
-                                else "Nu am găsit fragmente relevante în sursele locale. Încercați o căutare semantică sau introduceți altă denumire a afecțiunii.",
+                                else tr("conversation.no_fragments_condition"),
                             )
                         ]
                     ),
@@ -922,7 +971,7 @@ class ConversationService:
                     CommitChange(
                         messages=[
                             {
-                                **text_message("assistant", NO_FRAGMENT_ABOVE_MIN_SCORE),
+                                **text_message("assistant", no_fragment_above_min_score()),
                                 "generationSearchId": search_id,
                             }
                         ]
@@ -956,7 +1005,7 @@ class ConversationService:
                 download_message(
                     snapshot, report_id, profile, prefix=self.settings.public_root_path
                 ),
-                text_message("assistant", EMAIL_OFFER),
+                text_message("assistant", email_offer()),
             ]
             committed = self.store.commit_operation(
                 operation,
@@ -1018,9 +1067,9 @@ class ConversationService:
             if admitted is not None:
                 raise
             reply = (
-                "Furnizorul AI nu este disponibil. Încercați din nou."
+                tr("conversation.ai_unavailable")
                 if isinstance(exc, AIUnavailable)
-                else "Raportul nu a putut fi generat. Încercați din nou."
+                else tr("conversation.report_failed")
             )
             return self.store.commit_operation(
                 operation,

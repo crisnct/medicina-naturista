@@ -1,3 +1,4 @@
+import { tr } from "../lib/texts";
 import { useEffect, useRef, type Dispatch, type SetStateAction } from "react";
 import { useMutation, useQueries, useQueryClient } from "@tanstack/react-query";
 import { api, ApiError, errorMessage, isSessionUnavailable } from "../api/client";
@@ -9,9 +10,9 @@ const SESSION_KEY = ["session"] as const;
 export const activeGeneration = (job: ReportGeneration) => job.state === "accepted" || job.state === "running";
 const observingGeneration = (job: ReportGeneration) => activeGeneration(job) || job.workerActive === true;
 const stages: Record<string, string> = {
-  queued: "Raportul așteaptă în coadă",
-  preparing: "Pregătesc datele", generating: "Redactez raportul", validating: "Verific recomandările",
-  rendering_pdf: "Creez PDF-ul", publishing: "Salvez raportul",
+  queued: tr("interface.generation_queued_stage"),
+  preparing: tr("interface.generation_prepare_stage"), generating: tr("interface.generation_write_stage"), validating: tr("interface.generation_validate_stage"),
+  rendering_pdf: tr("interface.generation_pdf_stage"), publishing: tr("interface.generation_publish_stage"),
 };
 const stageOrder = Object.keys(stages);
 
@@ -63,7 +64,7 @@ export function useReportGeneration(
   const cancel = useMutation({
     mutationFn: api.cancelGeneration,
     onSuccess: (job) => { client.setQueryData(["report-generation", job.jobId], job); update(job); },
-    onError: (error) => setBanner(errorMessage(error, "Anularea nu a putut fi confirmată. Verificați din nou starea.")),
+    onError: (error) => setBanner(errorMessage(error, tr("interface.generation_cancel_failed"))),
   });
 
   const observed = queries.map((query, index) => currentGeneration(jobs[index], query.data));
@@ -81,7 +82,7 @@ export function useReportGeneration(
         if (fatal) blocked.current.add(job.jobId);
         if (isSessionUnavailable(query.error)) setNeedsRecovery(true);
         setFeedback((old) => {
-          const message = fatal ? errorMessage(query.error, "Generarea nu mai este disponibilă.") : "Conexiunea este întreruptă. Verific din nou starea raportului.";
+          const message = fatal ? errorMessage(query.error, tr("common.generation_unavailable")) : tr("interface.generation_connection_lost");
           return old[job.searchId]?.message === message ? old : { ...old, [job.searchId]: { message, progress: fatal ? undefined : message } };
         });
         return;
@@ -90,12 +91,12 @@ export function useReportGeneration(
       if (handled.current.has(job.jobId)) return;
       handled.current.add(job.jobId);
       if (jobs.filter((item) => item.searchId === job.searchId).at(-1)?.jobId !== job.jobId) return;
-      if (job.partial) setBanner("Raportul este parțial: unele recomandări nu au putut fi validate.");
-      if (job.state !== "succeeded") setFeedback((old) => ({ ...old, [job.searchId]: { message: job.message ?? "Raportul nu a putut fi generat." } }));
+      if (job.partial) setBanner(tr("common.partial_report_notice"));
+      if (job.state !== "succeeded") setFeedback((old) => ({ ...old, [job.searchId]: { message: job.message ?? tr("interface.generation_failed") } }));
       else setFeedback((old) => { if (!old[job.searchId]) return old; const next = { ...old }; delete next[job.searchId]; return next; });
       // Read canonical history, never append a terminal result more than once.
       void api.getSession().then((fresh) => client.setQueryData(SESSION_KEY, fresh)).catch((error: unknown) => {
-        setBanner(errorMessage(error, "Raportul a fost procesat, dar conversația nu a putut fi sincronizată. Reîncărcați pagina."));
+        setBanner(errorMessage(error, tr("interface.generation_sync_failed")));
       });
     });
   });
@@ -103,7 +104,7 @@ export function useReportGeneration(
   const start = useMutation({
     mutationFn: async ({ searchId, minScore, model, requestId }: { searchId: string; minScore: number; model: ReportModel; requestId: string }) => {
       const job = await api.generateReport(searchId, minScore, model, requestId);
-      if (!job.jobId || !job.state) throw new ApiError(409, "Versiunea aplicației s-a schimbat. Reîncărcați pagina.", "API_CONTRACT_CHANGED");
+      if (!job.jobId || !job.state) throw new ApiError(409, tr("interface.generation_contract_changed"), "API_CONTRACT_CHANGED");
       return job;
     },
     // Reuse requestId if the admission response was lost in transit.
@@ -120,7 +121,7 @@ export function useReportGeneration(
       if (error instanceof ApiError && error.status < 500) sessionStorage.removeItem(`report-request:${searchId}`);
       if (error instanceof ApiError && error.status === 403) void client.invalidateQueries({ queryKey: ["report-models"] });
       if (isSessionUnavailable(error)) setNeedsRecovery(true);
-      setFeedback((old) => ({ ...old, [searchId]: { message: errorMessage(error, "Pornirea nu a putut fi confirmată. Încercați din nou cu aceleași opțiuni."), requiresAuthorization: error instanceof ApiError && error.status === 403 } }));
+      setFeedback((old) => ({ ...old, [searchId]: { message: errorMessage(error, tr("interface.generation_start_failed")), requiresAuthorization: error instanceof ApiError && error.status === 403 } }));
       // Recover an admitted job even when both admission responses were lost.
       void api.getSession().then((fresh) => client.setQueryData(SESSION_KEY, fresh)).catch(() => {});
     },
@@ -131,7 +132,7 @@ export function useReportGeneration(
     if (latestJobBySearch.get(job.searchId) !== job.jobId) continue;
     if (!observingGeneration(job) && !blocked.current.has(job.jobId)) {
       feedback[job.searchId] = {
-        message: job.state === "succeeded" ? "" : job.message ?? "Raportul nu a putut fi generat.",
+        message: job.state === "succeeded" ? "" : job.message ?? tr("interface.generation_failed"),
         streamPreview: job.streamPreview,
         reportPreview: job.reportPreview,
         batchesCompleted: job.batchesCompleted,
@@ -155,7 +156,7 @@ export function useReportGeneration(
     const aiActivity = activeGeneration(job) && job.stage === "generating" && !queries[index]?.error
       ? job.aiActivity : undefined;
     feedback[job.searchId] = {
-      message: "", progress: !activeGeneration(job) ? "Generarea a fost oprită. Aștept închiderea apelului AI…" : queries[index]?.error ? "Conexiunea este întreruptă. Verific din nou starea raportului." : job.stage === "queued" && job.queuePosition ? `Raportul așteaptă în coadă. Poziția: ${job.queuePosition}. Va porni automat.` : (aiActivity ? AI_ACTIVITY_LABELS[aiActivity.phase] : undefined) ?? stages[job.stage] ?? "Pregătesc raportul",
+      message: "", progress: !activeGeneration(job) ? tr("interface.generation_stopping") : queries[index]?.error ? tr("interface.generation_connection_lost") : job.stage === "queued" && job.queuePosition ? tr("interface.generation_queue_position", { position: job.queuePosition }) : (aiActivity ? AI_ACTIVITY_LABELS[aiActivity.phase] : undefined) ?? stages[job.stage] ?? tr("interface.generation_preparing"),
       cancel: activeGeneration(job) ? () => cancel.mutate(job.jobId) : undefined,
       generationId: job.jobId,
       generationStartedAt: job.startedAt,
@@ -177,7 +178,7 @@ export function useReportGeneration(
     activeSearches.add(searchId);
     feedback[searchId] = {
       message: "",
-      progress: "Solicit pornirea raportului…",
+      progress: tr("interface.generation_requesting"),
       waitingInQueue: true,
     };
   }

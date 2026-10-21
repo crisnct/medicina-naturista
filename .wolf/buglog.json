@@ -49,10 +49,181 @@
       "status": "fixed",
       "occurrences": 1,
       "last_seen": "2026-10-19"
+    },
+    {
+      "error_message": "Significant refactor of main.py",
+      "file": "src/backend/web/main.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 7→19 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-004",
+      "timestamp": "2026-10-21T03:06:53.022Z",
+      "last_seen": "2026-10-21T03:06:53.022Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Null/undefined access in vite.config.ts",
+      "file": "src/frontend/vite.config.ts",
+      "root_cause": "Property access on potentially null/undefined value",
+      "fix": "Added null safety (optional chaining or null check)",
+      "tags": [
+        "auto-detected",
+        "null-safety",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-005",
+      "timestamp": "2026-10-21T03:06:53.305Z",
+      "last_seen": "2026-10-21T03:06:53.305Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Type error",
+      "file": "src/frontend/setupTests.ts",
+      "root_cause": "Missing or incorrect type annotation",
+      "fix": "Added type assertion/annotation",
+      "tags": [
+        "auto-detected",
+        "type-fix",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-006",
+      "timestamp": "2026-10-21T03:06:53.499Z",
+      "last_seen": "2026-10-21T03:06:53.499Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: clean_problem should be problem",
+      "file": "src/backend/integrations/gmail.py",
+      "root_cause": "Used \"clean_problem\" instead of \"problem\"",
+      "fix": "Changed clean_problem → problem",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-007",
+      "timestamp": "2026-10-21T03:13:20.052Z",
+      "last_seen": "2026-10-21T03:13:20.052Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing guard clause",
+      "file": "src/frontend/lib/texts.ts",
+      "root_cause": "No early return/throw for edge case: /[{}]/.test(value.replace(tokens, \"\"",
+      "fix": "Added guard clause: if (/[{}]/.test(value.replace(tokens, \"\")",
+      "tags": [
+        "auto-detected",
+        "guard-clause",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-008",
+      "timestamp": "2026-10-21T03:15:49.040Z",
+      "last_seen": "2026-10-21T03:15:49.040Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/reporting/pdf.py",
+      "root_cause": "Had \"<b>• {recipe_label}</b><br/>{item_text}\"",
+      "fix": "Changed to \"<b>• {escape(recipe_label)}</b><br/>{item_text}\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-009",
+      "timestamp": "2026-10-21T03:15:49.466Z",
+      "last_seen": "2026-10-21T03:15:49.466Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of manage_texts.py",
+      "file": "src/scripts/manage_texts.py",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 6→18 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-010",
+      "timestamp": "2026-10-21T03:20:01.150Z",
+      "last_seen": "2026-10-21T03:20:01.150Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Type error",
+      "file": "src/frontend/components/GeneratePanel.tsx",
+      "root_cause": "Missing or incorrect type annotation",
+      "fix": "Added type assertion/annotation",
+      "tags": [
+        "auto-detected",
+        "type-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-011",
+      "timestamp": "2026-10-21T03:25:17.683Z",
+      "last_seen": "2026-10-21T03:25:17.683Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: grid-column",
+      "file": "src/frontend/styles.css",
+      "root_cause": "grid-column: 2 → 1 / -1",
+      "fix": "Changed grid-column: 2 → 1 / -1",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-012",
+      "timestamp": "2026-10-21T03:36:46.003Z",
+      "last_seen": "2026-10-21T03:36:46.003Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
-    "b80eaeb1-0949-4e13-80e1-550503f12be5": true
+    "b80eaeb1-0949-4e13-80e1-550503f12be5": true,
+    "2cc9caf1-2b4a-4e8e-a352-00a54e3edd24": true,
+    "d96b8005-71ab-4740-9fb5-ba350b574f2d": true,
+    "689205bc-3130-46a5-ae9c-de06de76cbd1": true,
+    "d9707c7c-f84d-48e4-b647-67cf2a17ec49": true,
+    "c493403c-13d6-43e6-91cf-e7d2a3c2ab48": true,
+    "2f1e5f95-c818-4d0d-b096-214c0aa906e3": true,
+    "aac99f2f-a2c5-4996-b319-d95d0013b5a9": true,
+    "e6895c2f-c82a-4566-b2a1-ece3bf978839": true,
+    "2d2dd195-93d5-405b-b638-12a5254aa43a": true
   },
-  "next_id": 4
+  "next_id": 13
 }

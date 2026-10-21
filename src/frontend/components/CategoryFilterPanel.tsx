@@ -1,3 +1,4 @@
+import { tr } from "../lib/texts";
 import { useState } from "react";
 import type { CategoryNode, SearchSignals } from "../api/types";
 import { collectRealIds, nodeCheckState, selectedDocumentCount, toggleNode } from "../lib/categoryTree";
@@ -14,12 +15,12 @@ interface Props {
 // The signals of the score the patient can switch on and off, one checkbox each
 // (A conditions, B lexical, C semantic — see ai/search.py).
 const SIGNAL_OPTIONS: { key: keyof SearchSignals; label: string }[] = [
-  { key: "conditions", label: "Căutare afecțiuni" },
-  { key: "lexical", label: "Căutare lexicală" },
-  { key: "semantic", label: "Căutare semantică" },
+  { key: "conditions", label: tr("interface.search_conditions") },
+  { key: "lexical", label: tr("interface.search_lexical") },
+  { key: "semantic", label: tr("interface.search_semantic") },
 ];
 
-export const LAST_SIGNAL_HINT = "Cel puțin un tip de căutare trebuie să rămână bifat.";
+export const LAST_SIGNAL_HINT = tr("interface.search_last_signal_hint");
 
 // "Ce tip de căutare doriți să efectuez?": the last checked box is disabled, so
 // the choice can never reach zero signals.
@@ -33,7 +34,7 @@ export function SearchSignalsGroup({
   const checkedCount = countOn(signals);
   return (
     <fieldset className="search-signals">
-      <legend className="search-signals-title">Tipuri de căutare</legend>
+      <legend className="search-signals-title">{tr("interface.search_types_title")}</legend>
       {SIGNAL_OPTIONS.map(({ key, label }) => {
         const isLastChecked = signals[key] && checkedCount === 1;
         return (
@@ -58,8 +59,7 @@ export function CategoryFilterPanel({ tree, selected, onChange, signals, onSigna
     return (
       <section className="category-filter-panel">
         <p className="category-filter-unavailable">
-          Filtrarea pe categorii nu este disponibilă până la sincronizarea indexului.
-        </p>
+          {tr("interface.categories_unavailable")}</p>
       </section>
     );
   }
@@ -68,10 +68,10 @@ export function CategoryFilterPanel({ tree, selected, onChange, signals, onSigna
   const checkedCount = collectRealIds(tree).filter((id) => selected.has(id)).length;
   const status =
     checkedCount === 0
-      ? "Nicio sursă selectată — căutarea va fi respinsă până bifați cel puțin una."
+      ? tr("interface.categories_none_selected_warning")
       : checkedCount >= totalReal
-        ? "Se caută în toate sursele."
-        : `Se caută doar în ${checkedCount} categorie${checkedCount === 1 ? "" : "i"} selectată${checkedCount === 1 ? "" : "e"}.`;
+        ? tr("interface.categories_all_status")
+        : tr(checkedCount === 1 ? "interface.categories_selected_one" : "interface.categories_selected_other", { count: checkedCount });
   const documents = selectedDocumentCount(tree, selected);
 
   const topLevelNodes = tree.isReal ? [tree, ...tree.children] : tree.children;
@@ -80,8 +80,7 @@ export function CategoryFilterPanel({ tree, selected, onChange, signals, onSigna
     <section className="category-filter-panel">
       <details className="category-filter-details">
         <summary className="category-filter-summary">
-          <span aria-hidden="true">🗂️</span> Surse și opțiuni de căutare
-          <span className="selection-status">{checkedCount === 0 ? "Nicio sursă" : checkedCount >= totalReal ? "Toate sursele" : `${checkedCount} categorii selectate`}</span>
+          <span aria-hidden="true">{"🗂️"}</span> {tr("interface.categories_options_title")}<span className="selection-status">{checkedCount === 0 ? tr("interface.categories_none") : checkedCount >= totalReal ? tr("interface.categories_all") : tr("interface.categories_selected_count", { count: checkedCount })}</span>
         </summary>
         <div className="category-filter-body">
           <SearchSignalsGroup signals={signals} onChange={onSignalsChange} />
@@ -89,11 +88,9 @@ export function CategoryFilterPanel({ tree, selected, onChange, signals, onSigna
             <p className="category-filter-status">{status}</p>
             <div className="category-filter-toolbar-buttons">
               <button type="button" className="category-filter-reset" onClick={() => onChange(new Set(collectRealIds(tree)))}>
-                Selectează tot
-              </button>
+                {tr("interface.categories_select_all")}</button>
               <button type="button" className="category-filter-reset" onClick={() => onChange(new Set())}>
-                Deselectează tot
-              </button>
+                {tr("interface.categories_deselect_all")}</button>
             </div>
           </div>
           <ul className="category-tree">
@@ -108,8 +105,7 @@ export function CategoryFilterPanel({ tree, selected, onChange, signals, onSigna
             ))}
           </ul>
           <p className="category-filter-total">
-            Total: {documents} document{documents === 1 ? "" : "e"} selectate.
-          </p>
+            {tr(documents === 1 ? "interface.categories_documents_one" : "interface.categories_documents_other", { count: documents })}</p>
         </div>
       </details>
     </section>
@@ -139,8 +135,8 @@ function CategoryNodeRow({
             type="button"
             className={`cat-toggle${expanded ? " cat-toggle-open" : ""}`}
             aria-expanded={expanded}
-            aria-label={`${expanded ? "Restrânge" : "Extinde"} ${node.label}`}
-            title={expanded ? "Restrânge" : "Extinde"}
+            aria-label={`${expanded ? tr("interface.category_collapse") : tr("interface.category_expand")} ${node.label}`}
+            title={expanded ? tr("interface.category_collapse") : tr("interface.category_expand")}
             onClick={() => setExpanded((open) => !open)}
           >
             <svg viewBox="0 0 12 12" width="12" height="12" aria-hidden="true" focusable="false">
@@ -161,7 +157,7 @@ function CategoryNodeRow({
             onChange={(event) => onChange(toggleNode(node, selected, event.target.checked))}
           />
           <span className="cat-label-text">
-            {node.label} <span className="cat-count">({node.totalDocuments})</span>
+            {node.label} <span className="cat-count">{"("}{node.totalDocuments}{")"}</span>
           </span>
         </label>
       </div>

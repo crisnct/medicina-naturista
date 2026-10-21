@@ -1,3 +1,4 @@
+import { tr } from "../lib/texts";
 import { useState } from "react";
 import type { FragmentItem, GenerateMessage, ReportModel } from "../api/types";
 import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
@@ -7,6 +8,19 @@ import { GenerationReportPreview } from "./GenerationReportPreview";
 import { GenerationDurationEstimate } from "./GenerationDurationEstimate";
 import { DoctorAvatar } from "./DoctorAvatar";
 import { AI_ACTIVITY_LABELS, type GenerationFeedback } from "../lib/generationFeedback";
+
+// Display names are editable; provider routing continues to use the original IDs.
+const MODEL_LABELS = {
+  "ollama-gemma4:12b": "interface.model_gemma4",
+  "ollama-gemma3:1b": "interface.model_gemma3",
+  "ollama-qwen3.5:9b": "interface.model_qwen35_9b",
+  "ollama-qwen3.5:4b": "interface.model_qwen35_4b",
+  "ollama-ministral-3:8b": "interface.model_ministral3",
+  "ollama-deepseek-r1:8b": "interface.model_deepseek_r1",
+  "deepseek-flash": "interface.model_deepseek_flash",
+  "huggingface-deepseek-v4-flash": "interface.model_huggingface_deepseek_flash",
+  "grok-4.3": "interface.model_grok43",
+} as const satisfies Record<ReportModel, string>;
 
 export function GeneratePanel({
   message,
@@ -55,18 +69,17 @@ export function GeneratePanel({
       <div className="generate-recipe-copy">
         <div className="chatbot-message-header">
           <DoctorAvatar />
-          <h3>Pregătiți raportul</h3>
+          <h3>{tr("interface.generate_title")}</h3>
         </div>
-        <p>Informațiile selectate vor fi folosite de AI pentru redactarea unui raport cu recomandări și surse.</p>
+        <p>{tr("interface.generate_description")}</p>
       </div>
       <div className="generate-recipe-actions">
         <div className="generation-options">
-          <h4>Opțiuni de generare</h4>
-          <p>Acest prag stabilește ce fragmente sunt eligibile pentru AI, independent de filtrele de afișare.</p>
+          <h4>{tr("interface.generate_options_title")}</h4>
+          <p>{tr("interface.generate_threshold_hint")}</p>
           <div className="generation-model-options">
             <label className="fragments-panel-filter">
-              Scor minim
-              <select
+              {tr("common.minimum_score")}<select
                 value={minScore}
                 disabled={message.busy || actionsDisabled}
                 onChange={(event) => setMinScore(Number(event.target.value))}
@@ -79,31 +92,29 @@ export function GeneratePanel({
               </select>
             </label>
             <label className="fragments-panel-filter">
-              Model AI
-              <select
+              {tr("interface.generate_model_label")}<select
                 value={selectedModel}
                 disabled={message.busy || actionsDisabled || noModels}
                 onChange={(event) => setModel(event.target.value as ReportModel)}
               >
-                {reportModels.map((option) => <option key={option} value={option}>{option}</option>)}
+                {reportModels.map((option) => <option key={option} value={option}>{tr(MODEL_LABELS[option])}</option>)}
               </select>
             </label>
           </div>
           {modelRestricted && (
             <p className="generate-recipe-warning" role="status">
-              Generarea rețetei este disponibilă doar administratorului platformei.
-            </p>
+              {tr("common.owner_only_generation")}</p>
           )}
         </div>
         <div className="generate-report-row">
           <div className="generate-report-status">
-            {noneReach && <p className="generate-recipe-warning">Niciun fragment nu atinge scorul minim selectat.</p>}
-            {noModels && <p className="generate-recipe-warning">Niciun model AI disponibil pentru această sesiune.</p>}
+            {noneReach && <p className="generate-recipe-warning">{tr("interface.generate_no_eligible_fragments")}</p>}
+            {noModels && <p className="generate-recipe-warning">{tr("interface.generate_no_models")}</p>}
             <p className="eligible-count">
-              Fragmente eligibile pentru raport: {eligibleCount === undefined ? "numărul va fi verificat la generare" : <strong>{eligibleCount}</strong>}
+              {tr("interface.generate_eligible_fragments_prefix")}{eligibleCount === undefined ? tr("interface.generate_count_pending") : <strong>{eligibleCount}</strong>}
             </p>
             <p className="eligible-count">
-              Număr total caractere: {eligibleCharacters === undefined ? "numărul va fi verificat la generare" : <strong>{eligibleCharacters.toLocaleString("ro-RO")}</strong>}
+              {tr("interface.generate_characters_prefix")}{eligibleCharacters === undefined ? tr("interface.generate_count_pending") : <strong>{eligibleCharacters.toLocaleString("ro-RO")}</strong>}
             </p>
             <GenerationDurationEstimate
               model={selectedModel}
@@ -118,14 +129,14 @@ export function GeneratePanel({
             aria-disabled={disabled}
             onClick={() => onGenerate(message.searchId, minScore, selectedModel)}
           >
-            {message.busy ? "⏳ Se pregătește raportul…" : (
+            {message.busy ? tr("interface.generate_preparing") : (
               <>
                 <svg className="generate-report-icon" viewBox="0 0 24 24" width="28" height="28" aria-hidden="true" focusable="false">
                   <path d="M12 2H5a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7Z" fill="currentColor" fillOpacity="0.15" stroke="currentColor" strokeWidth="1.7" strokeLinejoin="round" />
                   <path d="M12 2v5h5M7 11h6M7 15h4M7 19h4" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" />
                   <path d="m19 10 1 3 3 1-3 1-1 3-1-3-3-1 3-1Z" fill="currentColor" stroke="currentColor" strokeWidth="1" strokeLinejoin="round" />
                 </svg>
-                <span>Generează raportul</span>
+                <span>{tr("interface.generate_submit")}</span>
               </>
             )}
           </button>
@@ -137,12 +148,12 @@ export function GeneratePanel({
             <div className="generation-progress-row">
               <TypingIndicator
                 key={feedback?.generationId ?? "pending"}
-                label={feedback?.progress ?? "Pregătesc raportul. Generarea poate dura câteva minute."}
+                label={feedback?.progress ?? tr("interface.generate_wait_notice")}
                 paused={feedback?.waitingInQueue ?? true}
                 startedAt={feedback?.generationStartedAt}
               />
               {feedback?.cancel && (
-                <button type="button" className="secondary-button" onClick={feedback.cancel}>Anulează generarea</button>
+                <button type="button" className="secondary-button" onClick={feedback.cancel}>{tr("interface.generate_cancel")}</button>
               )}
             </div>
           )}
@@ -159,9 +170,9 @@ export function GeneratePanel({
           /> : <GenerationStreamPreview
             text={hasAnswer ? feedback?.streamPreview : feedback?.thinkingPreview}
             tokensPerSecond={hasAnswer ? feedback?.streamTokensPerSecond : feedback?.thinkingTokensPerSecond}
-            title={hasAnswer ? "AI generează răspunsul" : "Analiza modelului AI"}
-            label={hasAnswer ? "Textul primit de la AI" : "Analiza transmisă de modelul AI"}
-            placeholder={feedback?.aiActivity ? AI_ACTIVITY_LABELS[feedback.aiActivity.phase] : "Aștept primul semnal de la model…"}
+            title={hasAnswer ? tr("common.ai_answer_title") : tr("interface.generate_analysis_title")}
+            label={hasAnswer ? tr("interface.generate_answer_label") : tr("interface.generate_analysis_label")}
+            placeholder={feedback?.aiActivity ? AI_ACTIVITY_LABELS[feedback.aiActivity.phase] : tr("common.waiting_for_model")}
             activityAgeMs={message.busy ? feedback?.aiActivity?.lastActivityAgeMs : undefined}
             activityReceivedAt={feedback?.activityReceivedAt}
           />}
@@ -175,8 +186,7 @@ export function GeneratePanel({
           </div>
           {feedback.requiresAuthorization && (
             <a href={`${import.meta.env.BASE_URL}owner`} target="_blank" rel="noopener noreferrer">
-              Deschide autorizarea în altă filă
-            </a>
+              {tr("interface.generate_open_authorization")}</a>
           )}
         </div>
       )}

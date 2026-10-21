@@ -9,6 +9,7 @@ from collections import deque
 from collections.abc import Callable
 
 from backend.core.errors import ApplicationError
+from backend.core.texts import tr
 
 
 class RateLimiter:
@@ -41,7 +42,7 @@ class RateLimiter:
             if blocked:
                 raise ApplicationError(
                     "RATE_LIMIT",
-                    "Prea multe cereri. Încercați mai târziu.",
+                    tr("errors.rate_limited"),
                     429,
                     retry_after=max(math.ceil(events[0] + 60 - now) for events in blocked),
                 )

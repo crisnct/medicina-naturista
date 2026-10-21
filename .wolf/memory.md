@@ -90,3 +90,33 @@ description: chronological action log per session, consolidated weekly
 
 | Time | Action | File(s) | Outcome | ~Tokens |
 |------|--------|---------|---------|--------|
+
+## Session: 2026-10-21 05:51
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 05:56 | Edited src/frontend/styles.css | inline fix | ~22 |
+| 06:00 | Created src/backend/core/texts.py | — | ~866 |
+| 06:04 | Created src/scripts/manage_texts.py | — | ~587 |
+| 06:04 | Created src/frontend/lib/texts.ts | — | ~544 |
+| 06:06 | Created src/backend/web/texts.py | — | ~436 |
+| 06:06 | Edited src/frontend/index.html | 3→4 lines | ~52 |
+| 06:06 | Edited pyproject.toml | 1→2 lines | ~10 |
+| 06:06 | Edited docker-compose.yaml | expanded (+6 lines) | ~85 |
+| 06:06 | Edited src/backend/web/main.py | modified application_texts() | ~214 |
+| 06:06 | Edited src/frontend/vite.config.ts | added nullish coalescing | ~547 |
+| 06:06 | Edited src/frontend/setupTests.ts | 1→3 lines | ~42 |
+| 06:13 | Edited src/backend/integrations/gmail.py | inline fix | ~18 |
+| 06:13 | Edited src/backend/web/texts.py | modified get_response() | ~155 |
+| 06:14 | Edited src/backend/web/main.py | inline fix | ~7 |
+| 06:15 | Edited src/frontend/lib/texts.ts | added 1 condition(s) | ~152 |
+| 06:15 | Edited src/scripts/manage_texts.py | 3→6 lines | ~32 |
+| 06:15 | Edited src/backend/reporting/pdf.py | "<b>• {recipe_label}</b><b" → "<b>• {escape(recipe_label" | ~23 |
+| 06:20 | Edited src/scripts/manage_texts.py | modified items() | ~234 |
+| 06:20 | Edited README.md | expanded (+58 lines) | ~779 |
+| 06:23 | Edited src/backend/reporting/pdf.py | 2→2 lines | ~32 |
+| 06:25 | Edited src/frontend/components/GeneratePanel.tsx | expanded (+13 lines) | ~245 |
+| 06:36 | Edited src/frontend/styles.css | CSS: grid-row, margin-left | ~55 |
+<!-- session:MDFhMTVjNWUtMjY5Zi03NGQwLWEwNjYtOTQ0NmRiYTdmMzlk -->
+| 2026-10-21T03:38:54.017Z | Centralized application copy in validated TOML with English keys, runtime HTML bootstrap and typed frontend access. Expanded fragment content now spans both grid columns while the toggle retains its alignment. | src/backend/core/texts.py,src/backend/resources/texts.ro.toml,src/backend/web/texts.py,src/frontend/lib/texts.ts,src/frontend/styles.css,README.md | Copy migration: 454 unit, 22 pytest and 58 frontend tests passed; static checks and build passed. Fragment alignment: existing targeted test and build passed; rendered screenshot confirms content is 42px farther left. No deployment or restart of existing services. |
+| 06:39 | Edited src/frontend/styles.css | CSS: font-size | ~24 |

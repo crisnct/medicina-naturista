@@ -19,6 +19,7 @@ from backend.ai.conditions import _normalize
 from backend.ai.herb_validation import ALIASES, catalog_problems
 from backend.ai.herbs import RUNTIME_FIELDS, Herb, HerbCatalog
 from backend.core.errors import ApplicationError
+from backend.core.texts import tr
 
 FINGERPRINT_VERSION = 2
 # Version 2 uses only primary chunk conditions and publishes ranking atomically.
@@ -32,7 +33,7 @@ class HerbCatalogUnavailable(ApplicationError):
     def __init__(self) -> None:
         super().__init__(
             "HERB_CATALOG_UNAVAILABLE",
-            "Catalogul de plante și produse lipsește sau este invalid. Rulați migrările.",
+            tr("errors.herb_catalog_unavailable"),
             503,
         )
 

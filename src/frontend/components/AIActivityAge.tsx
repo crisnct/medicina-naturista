@@ -1,3 +1,4 @@
+import { tr } from "../lib/texts";
 import { useEffect, useState } from "react";
 
 export function AIActivityAge({ ageMs, receivedAt }: { ageMs: number; receivedAt: number }) {
@@ -10,5 +11,5 @@ export function AIActivityAge({ ageMs, receivedAt }: { ageMs: number; receivedAt
 
   const seconds = Math.floor((Math.max(0, ageMs) + Math.max(0, now - receivedAt)) / 1000);
   const formatted = `${Math.floor(seconds / 60).toString().padStart(2, "0")}:${(seconds % 60).toString().padStart(2, "0")}`;
-  return <span className="ai-activity-age" aria-live="off">Ultima activitate primită: acum {formatted}</span>;
+  return <span className="ai-activity-age" aria-live="off">{tr("interface.activity_age", { duration: formatted })}</span>;
 }

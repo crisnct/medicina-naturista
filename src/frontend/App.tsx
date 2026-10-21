@@ -1,3 +1,4 @@
+import { tr } from "./lib/texts";
 import { useEffect } from "react";
 import { Hero } from "./components/Hero";
 import { ChatHistory } from "./components/ChatHistory";
@@ -46,17 +47,17 @@ export function App() {
           </div>
         )}
         {conversation.isLoading ? (
-          <p className="loading-notice">Se încarcă discuția...</p>
+          <p className="loading-notice">{tr("interface.app_loading_conversation")}</p>
         ) : conversation.isError ? (
           <div role="alert" className="loading-notice">
-            <p>{conversation.sessionError ?? "Nu am putut încărca sesiunea. Reîncărcați pagina."}</p>
-            <button type="button" onClick={conversation.retrySession}>Verifică din nou</button>
+            <p>{conversation.sessionError ?? tr("interface.app_session_load_failed")}</p>
+            <button type="button" onClick={conversation.retrySession}>{tr("interface.app_retry")}</button>
           </div>
         ) : (
           <ChatHistory
             history={conversation.history}
             pending={conversation.isSending}
-            pendingLabel={conversation.isClassifying ? "Înțeleg întrebarea…" : conversation.isSearching ? "Caut informații în bibliotecă…" : "Trimit mesajul…"}
+            pendingLabel={conversation.isClassifying ? tr("interface.app_classifying") : conversation.isSearching ? tr("interface.app_searching") : tr("interface.app_sending_message")}
             onGenerate={conversation.generateReport}
             reportModels={conversation.reportModels}
             defaultReportModel={conversation.defaultReportModel}
@@ -68,7 +69,7 @@ export function App() {
         <OwnerNotice message={conversation.banner} />
         {conversation.needsSessionRecovery && (
           <button type="button" className="secondary-button" disabled={conversation.isReconnecting} onClick={conversation.reconnectSession}>
-            {conversation.isReconnecting ? "Reconectez sesiunea…" : "Reconectează sesiunea"}
+            {conversation.isReconnecting ? tr("interface.app_reconnecting_session") : tr("interface.app_reconnect_session")}
           </button>
         )}
         {!conversation.isError && (
@@ -85,8 +86,8 @@ export function App() {
         )}
         <footer className="source-notice">
           <aside className="source-information" aria-labelledby="source-information-title">
-            <h3 id="source-information-title">ℹ️ Despre surse și utilizarea datelor</h3>
-            <p>Căutarea folosește cărțile și documentele din biblioteca naturistă. Pentru înțelegerea întrebării și redactarea raportului, aplicația poate trimite mesajele și fragmentele selectate unor furnizori AI externi.</p>
+            <h3 id="source-information-title">{tr("interface.app_data_usage_title")}</h3>
+            <p>{tr("interface.app_data_usage_notice")}</p>
           </aside>
         </footer>
       </div>

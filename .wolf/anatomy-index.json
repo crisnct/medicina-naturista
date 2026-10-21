@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-17T07:50:07.944Z",
-    "fileCount": 14,
+    "lastScanned": "2026-10-21T03:39:43.273Z",
+    "fileCount": 29,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "e802b5bff9c39462f0e99f0801185e6cfad4a69526cda69163efbac42936f7d1",
-    "storeUpdatedAt": "2026-10-17T07:50:07.959Z",
-    "rootHash": "fdac2ec0d690a539"
+    "renderedHash": "a8e5dfa04fa5ee043741a8d7014ee48c853a885250fb87f05102d5233b3eb43c",
+    "storeUpdatedAt": "2026-10-21T03:39:43.282Z",
+    "rootHash": "0c7288158a1b5004"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -165,6 +165,675 @@
           "startLine": 102,
           "endLine": 116,
           "tokens": 126
+        }
+      ]
+    },
+    "src/frontend/styles.css": {
+      "description": "Styles: 90 rules, 13 vars",
+      "tokens": 8503,
+      "hash": "d9770a79961ee70f",
+      "size": 29758,
+      "mtimeMs": 1792553982820.62,
+      "updatedAt": "2026-10-21T03:39:43.273Z",
+      "source": "hook"
+    },
+    "src/backend/core/texts.py": {
+      "description": "Validated Romanian copy; imports are inert and each process owns one immutable snapshot.",
+      "tokens": 867,
+      "hash": "74059c867402042e",
+      "size": 3032,
+      "mtimeMs": 1792551646276.3516,
+      "updatedAt": "2026-10-21T03:00:46.773Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "validate_catalog",
+          "kind": "fn",
+          "startLine": 20,
+          "endLine": 53,
+          "tokens": 463
+        },
+        {
+          "name": "catalog",
+          "kind": "fn",
+          "startLine": 54,
+          "endLine": 58,
+          "tokens": 39
+        },
+        {
+          "name": "tr",
+          "kind": "fn",
+          "startLine": 59,
+          "endLine": 65,
+          "tokens": 75
+        },
+        {
+          "name": "public_catalog",
+          "kind": "fn",
+          "startLine": 66,
+          "endLine": 69,
+          "tokens": 42
+        },
+        {
+          "name": "script_json",
+          "kind": "fn",
+          "startLine": 70,
+          "endLine": 80,
+          "tokens": 100
+        }
+      ]
+    },
+    "src/scripts/manage_texts.py": {
+      "description": "Export public copy and regenerate key/parameter metadata, never a second editable catalog.",
+      "tokens": 783,
+      "hash": "9b454391ef96f0d0",
+      "size": 2738,
+      "mtimeMs": 1792552800677.452,
+      "updatedAt": "2026-10-21T03:20:01.114Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 16,
+          "endLine": 77,
+          "tokens": 686
+        }
+      ]
+    },
+    "src/frontend/lib/texts.ts": {
+      "description": "Exports tr",
+      "tokens": 582,
+      "hash": "d57dc7d974d5e2a6",
+      "size": 2037,
+      "mtimeMs": 1792552548135.6565,
+      "updatedAt": "2026-10-21T03:15:49.017Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "catalog",
+          "kind": "fn",
+          "startLine": 14,
+          "endLine": 31,
+          "tokens": 317
+        },
+        {
+          "name": "tr",
+          "kind": "fn",
+          "startLine": 32,
+          "endLine": 40,
+          "tokens": 123
+        }
+      ]
+    },
+    "src/backend/web/texts.py": {
+      "description": "Bootstrap public copy in the original Vite HTML; assets retain normal static serving.",
+      "tokens": 558,
+      "hash": "629d8dc6deaf8ca3",
+      "size": 1951,
+      "mtimeMs": 1792552399580.1057,
+      "updatedAt": "2026-10-21T03:13:20.291Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "bootstrap_html",
+          "kind": "fn",
+          "startLine": 17,
+          "endLine": 29,
+          "tokens": 161
+        },
+        {
+          "name": "TextStaticFiles",
+          "kind": "class",
+          "startLine": 30,
+          "endLine": 49,
+          "tokens": 277
+        }
+      ]
+    },
+    "src/frontend/index.html": {
+      "description": "__APP_TITLE__",
+      "tokens": 135,
+      "hash": "d2a305d3c3372dcd",
+      "size": 504,
+      "mtimeMs": 1792551974587.4988,
+      "updatedAt": "2026-10-21T03:06:15.748Z",
+      "source": "hook"
+    },
+    "pyproject.toml": {
+      "description": "\" = [\"E402\"]",
+      "tokens": 629,
+      "hash": "de12c125db2d4468",
+      "size": 2358,
+      "mtimeMs": 1792551974590.498,
+      "updatedAt": "2026-10-21T03:06:15.928Z",
+      "source": "hook"
+    },
+    "docker-compose.yaml": {
+      "description": "Docker Compose: 4 services",
+      "tokens": 1905,
+      "hash": "21619ca557cd0fab",
+      "size": 6666,
+      "mtimeMs": 1792551974594.4924,
+      "updatedAt": "2026-10-21T03:06:16.103Z",
+      "source": "hook"
+    },
+    "src/backend/web/main.py": {
+      "description": "FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits.",
+      "tokens": 10879,
+      "hash": "8c3259cff25afc98",
+      "size": 38076,
+      "mtimeMs": 1792552476922.0608,
+      "updatedAt": "2026-10-21T03:14:37.836Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "owner_only_message",
+          "kind": "fn",
+          "startLine": 75,
+          "endLine": 82,
+          "tokens": 37
+        },
+        {
+          "name": "application_texts",
+          "kind": "fn",
+          "startLine": 83,
+          "endLine": 88,
+          "tokens": 76
+        },
+        {
+          "name": "_category_node_payload",
+          "kind": "fn",
+          "startLine": 89,
+          "endLine": 100,
+          "tokens": 110
+        },
+        {
+          "name": "SignalsPayload",
+          "kind": "class",
+          "startLine": 101,
+          "endLine": 117,
+          "tokens": 149
+        },
+        {
+          "name": "MessageRequest",
+          "kind": "class",
+          "startLine": 118,
+          "endLine": 126,
+          "tokens": 118
+        },
+        {
+          "name": "GenerateRequest",
+          "kind": "class",
+          "startLine": 127,
+          "endLine": 134,
+          "tokens": 75
+        },
+        {
+          "name": "AIActivityResponse",
+          "kind": "class",
+          "startLine": 135,
+          "endLine": 143,
+          "tokens": 122
+        },
+        {
+          "name": "ReportDurationEstimateResponse",
+          "kind": "class",
+          "startLine": 144,
+          "endLine": 150,
+          "tokens": 63
+        },
+        {
+          "name": "GenerateResponse",
+          "kind": "class",
+          "startLine": 151,
+          "endLine": 182,
+          "tokens": 326
+        },
+        {
+          "name": "_deps",
+          "kind": "fn",
+          "startLine": 183,
+          "endLine": 186,
+          "tokens": 26
+        },
+        {
+          "name": "_identity",
+          "kind": "fn",
+          "startLine": 187,
+          "endLine": 198,
+          "tokens": 135
+        },
+        {
+          "name": "_current",
+          "kind": "fn",
+          "startLine": 199,
+          "endLine": 207,
+          "tokens": 99
+        },
+        {
+          "name": "_client_ip",
+          "kind": "fn",
+          "startLine": 208,
+          "endLine": 213,
+          "tokens": 74
+        },
+        {
+          "name": "_application_error_response",
+          "kind": "fn",
+          "startLine": 214,
+          "endLine": 222,
+          "tokens": 109
+        },
+        {
+          "name": "_revision",
+          "kind": "fn",
+          "startLine": 223,
+          "endLine": 235,
+          "tokens": 103
+        },
+        {
+          "name": "_cancelled",
+          "kind": "fn",
+          "startLine": 236,
+          "endLine": 240,
+          "tokens": 34
+        },
+        {
+          "name": "healthz",
+          "kind": "fn",
+          "startLine": 241,
+          "endLine": 258,
+          "tokens": 155
+        },
+        {
+          "name": "readyz",
+          "kind": "fn",
+          "startLine": 259,
+          "endLine": 268,
+          "tokens": 75
+        },
+        {
+          "name": "startup_status",
+          "kind": "fn",
+          "startLine": 269,
+          "endLine": 272,
+          "tokens": 24
+        },
+        {
+          "name": "_require_initialized",
+          "kind": "fn",
+          "startLine": 273,
+          "endLine": 283,
+          "tokens": 99
+        },
+        {
+          "name": "download",
+          "kind": "fn",
+          "startLine": 284,
+          "endLine": 300,
+          "tokens": 173
+        },
+        {
+          "name": "get_session",
+          "kind": "fn",
+          "startLine": 301,
+          "endLine": 338,
+          "tokens": 407
+        },
+        {
+          "name": "get_categories",
+          "kind": "fn",
+          "startLine": 339,
+          "endLine": 346,
+          "tokens": 95
+        },
+        {
+          "name": "_categories_payload",
+          "kind": "fn",
+          "startLine": 347,
+          "endLine": 354,
+          "tokens": 72
+        },
+        {
+          "name": "_conversation",
+          "kind": "fn",
+          "startLine": 355,
+          "endLine": 381,
+          "tokens": 297
+        },
+        {
+          "name": "post_message",
+          "kind": "fn",
+          "startLine": 382,
+          "endLine": 392,
+          "tokens": 86
+        },
+        {
+          "name": "post_condition",
+          "kind": "fn",
+          "startLine": 393,
+          "endLine": 397,
+          "tokens": 46
+        },
+        {
+          "name": "post_classify",
+          "kind": "fn",
+          "startLine": 398,
+          "endLine": 405,
+          "tokens": 86
+        },
+        {
+          "name": "post_search",
+          "kind": "fn",
+          "startLine": 406,
+          "endLine": 413,
+          "tokens": 86
+        },
+        {
+          "name": "_generate_report",
+          "kind": "fn",
+          "startLine": 414,
+          "endLine": 1013,
+          "tokens": 6429
+        }
+      ]
+    },
+    "src/frontend/vite.config.ts": {
+      "description": "/ <reference types=\"vitest/config\" />",
+      "tokens": 1158,
+      "hash": "dbad6834cb9f1393",
+      "size": 4053,
+      "mtimeMs": 1792552012501.587,
+      "updatedAt": "2026-10-21T03:06:53.280Z",
+      "source": "hook"
+    },
+    "src/frontend/setupTests.ts": {
+      "description": "Declares __APP_TEST_TEXTS__",
+      "tokens": 148,
+      "hash": "fb35ee6a11a730f0",
+      "size": 517,
+      "mtimeMs": 1792552012503.5981,
+      "updatedAt": "2026-10-21T03:06:53.470Z",
+      "source": "hook"
+    },
+    "src/backend/integrations/gmail.py": {
+      "description": "Gmail API delivery for generated reports.",
+      "tokens": 2035,
+      "hash": "cbbb047fbfc7f296",
+      "size": 7120,
+      "mtimeMs": 1792552399577.095,
+      "updatedAt": "2026-10-21T03:13:20.027Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "GmailAuthorizationError",
+          "kind": "class",
+          "startLine": 33,
+          "endLine": 37,
+          "tokens": 45
+        },
+        {
+          "name": "MailConfig",
+          "kind": "class",
+          "startLine": 38,
+          "endLine": 60,
+          "tokens": 164
+        },
+        {
+          "name": "load_mail_config",
+          "kind": "fn",
+          "startLine": 61,
+          "endLine": 72,
+          "tokens": 137
+        },
+        {
+          "name": "build_report_message",
+          "kind": "fn",
+          "startLine": 73,
+          "endLine": 95,
+          "tokens": 173
+        },
+        {
+          "name": "_http_error",
+          "kind": "fn",
+          "startLine": 96,
+          "endLine": 100,
+          "tokens": 67
+        },
+        {
+          "name": "_oauth_error_code",
+          "kind": "fn",
+          "startLine": 101,
+          "endLine": 116,
+          "tokens": 172
+        },
+        {
+          "name": "_refresh_access_token",
+          "kind": "fn",
+          "startLine": 117,
+          "endLine": 160,
+          "tokens": 475
+        },
+        {
+          "name": "_send_gmail_message",
+          "kind": "fn",
+          "startLine": 161,
+          "endLine": 190,
+          "tokens": 268
+        },
+        {
+          "name": "send_report",
+          "kind": "fn",
+          "startLine": 191,
+          "endLine": 209,
+          "tokens": 196
+        }
+      ]
+    },
+    "src/backend/reporting/pdf.py": {
+      "description": "Readable Romanian PDF report with source references next to each claim.",
+      "tokens": 14459,
+      "hash": "7b6127df2369934c",
+      "size": 51025,
+      "mtimeMs": 1792553027087.5918,
+      "updatedAt": "2026-10-21T03:23:48.104Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "section_presentation",
+          "kind": "fn",
+          "startLine": 42,
+          "endLine": 73,
+          "tokens": 420
+        },
+        {
+          "name": "_register_fonts",
+          "kind": "fn",
+          "startLine": 74,
+          "endLine": 92,
+          "tokens": 233
+        },
+        {
+          "name": "_draw_footer",
+          "kind": "fn",
+          "startLine": 93,
+          "endLine": 102,
+          "tokens": 119
+        },
+        {
+          "name": "_draw_botanical_motif",
+          "kind": "fn",
+          "startLine": 103,
+          "endLine": 161,
+          "tokens": 573
+        },
+        {
+          "name": "_first_page",
+          "kind": "fn",
+          "startLine": 162,
+          "endLine": 186,
+          "tokens": 250
+        },
+        {
+          "name": "_later_page",
+          "kind": "fn",
+          "startLine": 187,
+          "endLine": 196,
+          "tokens": 107
+        },
+        {
+          "name": "BookmarkedParagraph",
+          "kind": "class",
+          "startLine": 197,
+          "endLine": 211,
+          "tokens": 112
+        },
+        {
+          "name": "CoverPanel",
+          "kind": "class",
+          "startLine": 212,
+          "endLine": 274,
+          "tokens": 682
+        },
+        {
+          "name": "RoundedSection",
+          "kind": "class",
+          "startLine": 275,
+          "endLine": 393,
+          "tokens": 1446
+        },
+        {
+          "name": "NatureReportDocTemplate",
+          "kind": "class",
+          "startLine": 394,
+          "endLine": 407,
+          "tokens": 161
+        },
+        {
+          "name": "build_reference_index",
+          "kind": "fn",
+          "startLine": 408,
+          "endLine": 428,
+          "tokens": 260
+        },
+        {
+          "name": "sort_sections_by_relevance",
+          "kind": "fn",
+          "startLine": 429,
+          "endLine": 452,
+          "tokens": 308
+        },
+        {
+          "name": "nutrition_display_groups",
+          "kind": "fn",
+          "startLine": 453,
+          "endLine": 544,
+          "tokens": 1025
+        },
+        {
+          "name": "bibliography_label",
+          "kind": "fn",
+          "startLine": 545,
+          "endLine": 920,
+          "tokens": 3201
+        },
+        {
+          "name": "_restore_romanian_diacritics",
+          "kind": "fn",
+          "startLine": 921,
+          "endLine": 939,
+          "tokens": 216
+        },
+        {
+          "name": "_join_romanian",
+          "kind": "fn",
+          "startLine": 940,
+          "endLine": 950,
+          "tokens": 166
+        },
+        {
+          "name": "condition_names_for",
+          "kind": "fn",
+          "startLine": 951,
+          "endLine": 964,
+          "tokens": 181
+        },
+        {
+          "name": "report_title",
+          "kind": "fn",
+          "startLine": 965,
+          "endLine": 980,
+          "tokens": 216
+        },
+        {
+          "name": "format_recommendation",
+          "kind": "fn",
+          "startLine": 981,
+          "endLine": 989,
+          "tokens": 118
+        },
+        {
+          "name": "_compress_reference_numbers",
+          "kind": "fn",
+          "startLine": 990,
+          "endLine": 1005,
+          "tokens": 165
+        },
+        {
+          "name": "_reference_group_label",
+          "kind": "fn",
+          "startLine": 1006,
+          "endLine": 1010,
+          "tokens": 60
+        },
+        {
+          "name": "_section_heading",
+          "kind": "fn",
+          "startLine": 1011,
+          "endLine": 1028,
+          "tokens": 195
+        },
+        {
+          "name": "generation_summary_lines",
+          "kind": "fn",
+          "startLine": 1029,
+          "endLine": 1053,
+          "tokens": 248
+        },
+        {
+          "name": "create_pdf",
+          "kind": "fn",
+          "startLine": 1054,
+          "endLine": 1393,
+          "tokens": 3281
+        }
+      ]
+    },
+    "README.md": {
+      "description": "Project documentation",
+      "tokens": 23505,
+      "hash": "ca19c7d4b717e85e",
+      "size": 97848,
+      "mtimeMs": 1792552801852.6177,
+      "updatedAt": "2026-10-21T03:20:02.248Z",
+      "source": "hook"
+    },
+    "src/frontend/components/GeneratePanel.tsx": {
+      "description": "Display names are editable; provider routing continues to use the original IDs.",
+      "tokens": 2911,
+      "hash": "3dcee55f7e1e2f86",
+      "size": 10187,
+      "mtimeMs": 1792553117115.7178,
+      "updatedAt": "2026-10-21T03:25:17.658Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "GeneratePanel",
+          "kind": "fn",
+          "startLine": 25,
+          "endLine": 196,
+          "tokens": 2492
         }
       ]
     }

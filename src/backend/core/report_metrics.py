@@ -5,6 +5,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 
 from backend.core.errors import ApplicationError
+from backend.core.texts import tr
 
 MAX_BIGINT = (1 << 63) - 1
 
@@ -35,9 +36,7 @@ def estimate_duration_from_totals(
 
 def validate_min_score(value: int) -> None:
     if type(value) is not int or not 0 <= value <= 100:
-        raise ApplicationError(
-            "INVALID_MIN_SCORE", "Scorul minim trebuie să fie un întreg între 0 și 100.", 422
-        )
+        raise ApplicationError("INVALID_MIN_SCORE", tr("errors.minimum_score_invalid"), 422)
 
 
 @dataclass(frozen=True)

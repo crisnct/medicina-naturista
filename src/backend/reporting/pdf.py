@@ -24,7 +24,8 @@ from reportlab.platypus import (
 )
 
 from backend.ai.conditions import find_conditions, resolve_query
-from backend.ai.report_validation import PARTIAL_NOTICE, ValidatedReport
+from backend.ai.report_validation import ValidatedReport, partial_notice
+from backend.core.texts import tr
 from backend.reporting.recommendations import (
     BENEFIT_COUNT,
     rank_pdf_recommendations,
@@ -36,13 +37,21 @@ SECTION_KEYS = ("uz_intern", "nutritie", "uz_extern", "alte_recomandari", "atent
 TEXT_COLOR = "#203139"
 MUTED_TEXT_COLOR = "#52636D"
 SOURCE_COLOR = "#0F5C5E"
-SECTION_PRESENTATION = {
-    "uz_intern": {"number": "1", "label": "Uz intern", "color": "#087F73"},
-    "nutritie": {"number": "2", "label": "Nutriție", "color": "#B7791F"},
-    "uz_extern": {"number": "3", "label": "Uz extern", "color": "#3973B9"},
-    "alte_recomandari": {"number": "4", "label": "Alte recomandări", "color": "#8059A5"},
-    "atentionari": {"number": "5", "label": "Atenționări", "color": "#B8423E"},
-}
+
+
+def section_presentation() -> dict[str, dict[str, str]]:
+    return {
+        "uz_intern": {"number": "1", "label": tr("report.internal_use"), "color": "#087F73"},
+        "nutritie": {"number": "2", "label": tr("report.nutrition"), "color": "#B7791F"},
+        "uz_extern": {"number": "3", "label": tr("report.external_use"), "color": "#3973B9"},
+        "alte_recomandari": {
+            "number": "4",
+            "label": tr("report.other_recommendations"),
+            "color": "#8059A5",
+        },
+        "atentionari": {"number": "5", "label": tr("report.warnings"), "color": "#B8423E"},
+    }
+
 
 FONT_CANDIDATES = (
     Path("C:/Windows/Fonts/arial.ttf"),
@@ -66,7 +75,7 @@ def _register_fonts() -> tuple[str, str]:
     normal = next((path for path in FONT_CANDIDATES if path.is_file()), None)
     bold = next((path for path in BOLD_CANDIDATES if path.is_file()), None)
     if normal is None or bold is None:
-        raise RuntimeError("Nu există font Unicode pentru generarea PDF-ului.")
+        raise RuntimeError(tr("report.font_unavailable"))
     if "NaturistRegular" not in pdfmetrics.getRegisteredFontNames():
         pdfmetrics.registerFont(TTFont("NaturistRegular", str(normal)))
     if "NaturistBold" not in pdfmetrics.getRegisteredFontNames():
@@ -86,8 +95,8 @@ def _draw_footer(canvas: Any, document: Any) -> None:
     canvas.saveState()
     canvas.setFont("NaturistRegular", 8)
     canvas.setFillColor(colors.HexColor("#64748b"))
-    canvas.drawString(18 * mm, 12 * mm, "Remedii naturiste de la Dr. Cuișor")
-    canvas.drawRightString(A4[0] - 18 * mm, 12 * mm, f"Pagina {document.page}")
+    canvas.drawString(18 * mm, 12 * mm, tr("report.footer"))
+    canvas.drawRightString(A4[0] - 18 * mm, 12 * mm, tr("report.page_label", number=document.page))
     canvas.restoreState()
 
 
@@ -523,11 +532,11 @@ def nutrition_display_groups(
                 }
             )
     labels = (
-        ("recipes", "Rețete culinare"),
-        ("recommended", "Alimente recomandate"),
-        ("not_recommended", "Alimente nerecomandate"),
-        ("forbidden", "Alimente total interzise"),
-        ("other", "Alte recomandări"),
+        ("recipes", tr("report.recipes")),
+        ("recommended", tr("report.foods_recommended")),
+        ("not_recommended", tr("report.foods_not_recommended")),
+        ("forbidden", tr("report.foods_forbidden")),
+        ("other", tr("report.other_recommendations")),
     )
     return [(key, label, groups[key]) for key, label in labels]
 
@@ -930,8 +939,8 @@ def _restore_romanian_diacritics(text: str) -> str:
 # Romanian list of names: "a", "a și b", "a, b și c".
 def _join_romanian(names: list[str]) -> str:
     if len(names) <= 2:
-        return " și ".join(names)
-    return ", ".join(names[:-1]) + " și " + names[-1]
+        return tr("report.list_conjunction").join(names)
+    return ", ".join(names[:-1]) + tr("report.list_conjunction") + names[-1]
 
 
 # Canonical names (lowercase, with diacritics) of the conditions the health
@@ -958,10 +967,14 @@ def report_title(profile: dict[str, Any]) -> str:
     problem = " ".join(str(profile.get("health_problem") or "").split())[:240]
     names = condition_names_for(problem, profile.get("ai_conditions"))
     if names:
-        return f"Remedii naturiste pentru {_join_romanian(names)}"
+        return tr("report.title_for_condition", condition=_join_romanian(names))
     # No condition recognised: fall back to the typed text (first synonym only).
     problem = _restore_romanian_diacritics(problem).split(",")[0].strip()
-    return f"Remedii naturiste pentru {problem}" if problem else "Remedii naturiste"
+    return (
+        tr("report.title_for_condition", condition=problem)
+        if problem
+        else tr("report.title_default")
+    )
 
 
 # Format the leading intervention or product label for readable PDF output.
@@ -1000,7 +1013,7 @@ def _section_heading(
     style: ParagraphStyle,
 ) -> Paragraph:
     """Create the heading rendered inside its rounded section container."""
-    presentation = SECTION_PRESENTATION[key]
+    presentation = section_presentation()[key]
     anchor = f"section-{key}"
     text = (
         f'<a name="{anchor}"/>'
@@ -1020,14 +1033,20 @@ def generation_summary_lines(
         return f"{value:,}".replace(",", ".")
 
     characters = sum(len(str(item.get("text", ""))) for item in evidence.values())
-    threshold = "Toate" if min_score <= 0 else f"≥ {min_score:g}%"
+    threshold = tr("common.all") if min_score <= 0 else f"≥ {min_score:g}%"
     lines = [
-        f"Număr total de fragmente folosite: {ro_number(len(evidence))}",
-        f"Număr total de caractere trimise la AI: {ro_number(characters)}",
-        f"Scor minim selectat: {threshold}",
+        tr(
+            "report.fragments_summary",
+            count=ro_number(len(evidence)),
+        ),
+        tr(
+            "report.characters_summary",
+            characters=ro_number(characters),
+        ),
+        tr("report.minimum_score_summary", threshold=threshold),
     ]
     if ai_model:
-        lines.append(f"Model AI folosit: {ai_model}")
+        lines.append(tr("report.model_summary", ai_model=ai_model))
     return lines
 
 
@@ -1152,7 +1171,7 @@ def create_pdf(
     )
     section_styles: dict[str, ParagraphStyle] = {}
     item_styles: dict[str, ParagraphStyle] = {}
-    for key, presentation in SECTION_PRESENTATION.items():
+    for key, presentation in section_presentation().items():
         section_styles[key] = ParagraphStyle(
             f"NaturalSection{key}",
             fontName=bold,
@@ -1176,11 +1195,11 @@ def create_pdf(
     # The portrait sits at the top right of the cover; these paragraphs wrap
     # before it, while the info block below spans the full width.
     cover_content: list[Flowable] = [
-        Paragraph("GHID INFORMATIV", styles["NaturalCoverEyebrow"]),
+        Paragraph(escape(tr("report.cover_eyebrow")), styles["NaturalCoverEyebrow"]),
         Paragraph(escape(title), styles["NaturalCoverTitle"]),
-        Paragraph("de la dr. Cuișor", styles["NaturalCoverByline"]),
+        Paragraph(escape(tr("report.cover_byline")), styles["NaturalCoverByline"]),
         Paragraph(
-            "Informații din documente locale organizate pentru lectură rapidă și consultare responsabilă. Nu stabilește diagnostice și nu înlocuiește consultul sau tratamentul recomandat de un profesionist în sănătate.",
+            escape(tr("report.cover_description")),
             styles["NaturalCoverSubtitle"],
         ),
     ]
@@ -1197,7 +1216,7 @@ def create_pdf(
     ]
     story.append(Spacer(1, 6 * mm))
     if partial:
-        story.append(Paragraph(PARTIAL_NOTICE, styles["NaturalBody"]))
+        story.append(Paragraph(escape(partial_notice()), styles["NaturalBody"]))
 
     headings = (
         "uz_intern",
@@ -1222,7 +1241,7 @@ def create_pdf(
         numbers = list(dict.fromkeys(reference_numbers[source] for source in citations))
         return (
             ' <link href="#section-bibliografie" color="#0F5C5E">'
-            f'<font size="8.7"><b>→ Surse {_compress_reference_numbers(numbers)}</b></font></link>'
+            f'<font size="8.7"><b>{escape(tr("report.source_reference", numbers=_compress_reference_numbers(numbers)))}</b></font></link>'
         )
 
     def add_recommendation(
@@ -1239,7 +1258,7 @@ def create_pdf(
         )
 
     for key in headings:
-        presentation = SECTION_PRESENTATION[key]
+        presentation = section_presentation()[key]
         section_content: list[Flowable] = [
             _section_heading(key, section_styles[key]),
             Spacer(1, 2.5 * mm),
@@ -1248,7 +1267,7 @@ def create_pdf(
         if not items:
             section_content.append(
                 Paragraph(
-                    "Nu au fost identificate informații suficient de relevante în sursele disponibile.",
+                    escape(tr("report.section_empty")),
                     styles["NaturalEmpty"],
                 )
             )
@@ -1261,14 +1280,14 @@ def create_pdf(
                         item_text = escape(str(item["text"])).replace(chr(10), "<br/>")
                         # Singular title; numbered only when there are several recipes.
                         recipe_label = (
-                            "Rețetă culinară"
+                            tr("report.recipe_title")
                             if len(nutrition_items) == 1
-                            else f"Rețetă culinară {recipe_number}"
+                            else tr("report.recipe_numbered_title", recipe_number=recipe_number)
                         )
                         add_recommendation(
                             section_content,
                             key,
-                            f"<b>• {recipe_label}</b><br/>{item_text}",
+                            f"<b>• {escape(recipe_label)}</b><br/>{item_text}",
                             citations_for(item),
                             f"recommendation-{key}-{nutrition_index}",
                         )
@@ -1310,7 +1329,7 @@ def create_pdf(
     bibliography_content: list[Flowable] = [
         Paragraph(
             '<a name="section-bibliografie"/><font size="15" color="#FFFFFF">'
-            "<b>6. Bibliografie</b></font>",
+            f"<b>6. {escape(tr('report.bibliography_heading'))}</b></font>",
             styles["NaturalBibliographyHeading"],
         ),
         Spacer(1, 2.5 * mm),
@@ -1328,14 +1347,14 @@ def create_pdf(
             bibliography_content.append(
                 Paragraph(
                     f'<a name="bibliografie-{number}"/><b>{number} -</b> {escape(bibliography_label(source))} '
-                    f'<link href="#{target}" color="#52636D"><font size="8.5">← înapoi</font></link>',
+                    f'<link href="#{target}" color="#52636D"><font size="8.5">{escape(tr("report.back_reference"))}</font></link>',
                     styles["NaturalBibliography"],
                 )
             )
     else:
         bibliography_content.append(
             Paragraph(
-                "Nu există referințe bibliografice utilizate.",
+                escape(tr("report.bibliography_empty")),
                 styles["NaturalEmpty"],
             )
         )
@@ -1366,7 +1385,7 @@ def create_pdf(
         topMargin=20 * mm,
         bottomMargin=22 * mm,
         title=title,
-        author="Chatbot naturist",
+        author=tr("report.author"),
     )
     doc.footer_color = "#087F73"
     doc.build(story, onFirstPage=_first_page, onLaterPages=_later_page)

@@ -28,6 +28,7 @@ from backend.core.operation_context import (
 )
 from backend.core.report_batches import combine_reports, partition_evidence
 from backend.core.report_models import REPORT_MODELS
+from backend.core.texts import tr
 
 logger = logging.getLogger("naturist.ai")
 
@@ -252,7 +253,10 @@ class ResponsesClient:
                 "ai_request_skipped reason=missing_api_key provider=%s", self.provider.name
             )
             raise AIUnavailable(
-                f"Lipsește {self.provider.api_key_env}. Configurați variabila în .env înainte de utilizare."
+                tr(
+                    "errors.ai_key_missing",
+                    variable=self.provider.api_key_env,
+                )
             )
         headers = {"Content-Type": "application/json"}
         if key:
@@ -303,7 +307,7 @@ class ResponsesClient:
                 type(exc).__name__,
             )
             raise AIUnavailable(
-                "Serviciul AI nu este disponibil momentan. Încercați din nou.",
+                tr("errors.ai_unavailable"),
                 reason="timeout" if isinstance(exc, httpx.TimeoutException) else "unavailable",
             ) from exc
         except ValueError as exc:
@@ -313,7 +317,7 @@ class ResponsesClient:
                 type(exc).__name__,
             )
             raise AIUnavailable(
-                "Serviciul AI nu este disponibil momentan. Încercați din nou.",
+                tr("errors.ai_unavailable"),
                 reason="invalid_response",
             ) from exc
 
@@ -397,7 +401,7 @@ class ResponsesClient:
                     raise AIUnavailable(
                         "Hugging Face nu mai are credite disponibile."
                         if no_credits
-                        else "Furnizorul AI a raportat eșecul cererii.",
+                        else tr("errors.ai_request_failed"),
                         reason=reason,
                     )
                 if payload.get("status") == "incomplete":
@@ -409,7 +413,7 @@ class ResponsesClient:
                     )
                     if incomplete_reason == "max_output_tokens":
                         raise AIUnavailable(
-                            "Modelul AI a atins limita de tokeni a răspunsului înainte de finalizarea raportului.",
+                            tr("errors.ai_output_limit"),
                             reason="output_limit",
                         )
                 raise ValueError("response not completed")
@@ -434,7 +438,7 @@ class ResponsesClient:
                     max_tokens,
                 )
             raise AIUnavailable(
-                "Răspunsul AI nu a putut fi validat. Încercați din nou.", reason="invalid_response"
+                tr("errors.ai_response_invalid"), reason="invalid_response"
             ) from exc
 
     # Log fragment counts, documents, metadata, and optionally fragment text at a pipeline stage.
@@ -568,9 +572,7 @@ class OllamaReportClient(ResponsesClient):
         ):
             logger.warning("ai_context_limit_exceeded provider=ollama truncation=disabled")
             raise AIUnavailable(
-                "Fragmentele selectate depășesc contextul disponibil al modelului. "
-                "Selectați mai puține fragmente sau creșteți scorul minim. "
-                "Conținutul nu a fost trunchiat.",
+                tr("errors.ai_context_limit"),
                 reason="context_limit",
             )
         raise ValueError("Ollama reported a generation error")

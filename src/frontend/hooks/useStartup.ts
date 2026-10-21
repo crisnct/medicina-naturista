@@ -1,3 +1,4 @@
+import { tr } from "../lib/texts";
 import { useQuery } from "@tanstack/react-query";
 import { api } from "../api/client";
 
@@ -13,7 +14,7 @@ export function useStartup() {
   return {
     ready: !query.isError && (query.data?.status === "ready" || query.data?.status === "degraded"),
     initializing: !query.isError && (!query.data || query.data.status === "initializing"),
-    message: query.isError ? "Nu pot verifica inițializarea. Reconectez automat…"
-      : query.data?.message ?? (query.isPending ? "Se inițializează căutarea și modelele AI…" : null),
+    message: query.isError ? tr("interface.startup_reconnecting")
+      : query.data?.message ?? (query.isPending ? tr("interface.startup_initializing") : null),
   };
 }

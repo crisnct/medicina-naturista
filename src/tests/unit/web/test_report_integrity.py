@@ -8,7 +8,7 @@ from pypdf import PdfReader
 
 from backend.ai.client import AIUnavailable
 from backend.ai.index_state import IndexUnavailable
-from backend.ai.report_validation import PARTIAL_NOTICE, SECTIONS
+from backend.ai.report_validation import SECTIONS, partial_notice
 from backend.core.errors import ApplicationError
 from tests.unit.web import test_web as support
 
@@ -74,10 +74,12 @@ def test_partial_publication_download_and_email_use_identical_pdf(web):
     assert response["partial"]
     assert response["validationWarnings"][0]["code"] == "UNKNOWN_EVIDENCE"
     assert "SECRET_INVALID" not in str(response)
-    assert PARTIAL_NOTICE in support._by_kind(response["messages"], "text")["content"]
+    assert partial_notice() in support._by_kind(response["messages"], "text")["content"]
     download = support._by_kind(response["messages"], "download")
     data = test.client.get(download["url"], headers=support._headers(sid, tab)).content
-    assert PARTIAL_NOTICE in "\n".join(p.extract_text() for p in PdfReader(io.BytesIO(data)).pages)
+    assert partial_notice() in "\n".join(
+        p.extract_text() for p in PdfReader(io.BytesIO(data)).pages
+    )
     with patch.object(test.deps, "email", return_value="ok") as email:
         first = test.client.post(
             "/api/messages",

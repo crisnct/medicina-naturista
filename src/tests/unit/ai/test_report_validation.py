@@ -6,9 +6,9 @@ import pytest
 from pypdf import PdfReader
 
 from backend.ai.report_validation import (
-    PARTIAL_NOTICE,
     SECTIONS,
     ReportValidationError,
+    partial_notice,
     validate_report,
 )
 from backend.reporting.pdf import create_pdf
@@ -91,8 +91,8 @@ def test_same_notice_and_filtered_content_in_chat_and_pdf():
     with patch("backend.ai.conditions.load_dictionary", return_value=ConditionDictionary([])):
         pdf = create_pdf({"health_problem": "Test"}, result, EVIDENCE, 0)
     text = "\n".join(page.extract_text() for page in PdfReader(io.BytesIO(pdf)).pages)
-    assert PARTIAL_NOTICE in chat
-    assert PARTIAL_NOTICE in text
+    assert partial_notice() in chat
+    assert partial_notice() in text
     assert "ELIMINAT_SECRET" not in chat + text
 
 

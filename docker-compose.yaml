@@ -102,6 +102,12 @@ services:
       OWNER_KEY: ${OWNER_KEY:-}
     volumes:
       - type: bind
+        source: ./src/backend/resources/texts.ro.toml
+        target: /app/src/backend/resources/texts.ro.toml
+        read_only: true
+        bind:
+          create_host_path: false
+      - type: bind
         source: ./medicina-naturista-documente/data/documents
         target: /app/medicina-naturista-documente/data/documents
         read_only: true

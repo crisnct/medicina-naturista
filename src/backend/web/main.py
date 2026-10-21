@@ -18,7 +18,6 @@ from urllib.parse import quote, urlparse
 from fastapi import APIRouter, FastAPI, HTTPException, Query, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse, Response
-from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, model_validator
 
 from backend.ai.client import create_report_clients
@@ -36,8 +35,8 @@ from backend.ai.search import warm_up as warm_up_search
 from backend.config import Settings, configure_settings
 from backend.core.contracts import AIProtocol, ReportModel
 from backend.core.conversation import (
-    WELCOME,
     ConversationService,
+    welcome,
 )
 from backend.core.errors import ApplicationError
 from backend.core.models import (
@@ -51,6 +50,7 @@ from backend.core.report_generation import ReportGenerationService
 from backend.core.report_metrics import MAX_BIGINT
 from backend.core.report_models import DEFAULT_REPORT_MODELS
 from backend.core.sessions import SessionStore
+from backend.core.texts import catalog, public_catalog, tr
 from backend.integrations.gmail import send_report
 from backend.persistence.report_metrics import PostgresReportMetricsRepository
 from backend.reporting.chat import (
@@ -61,6 +61,7 @@ from backend.web.access_logs import OwnerAccessLogFilter
 from backend.web.body_limit import ApiBodyLimitMiddleware
 from backend.web.dependencies import Dependencies
 from backend.web.owner_page import owner_page
+from backend.web.texts import TextStaticFiles
 
 logger = logging.getLogger("naturist.web")
 COOKIE = "naturist_sid"
@@ -69,8 +70,18 @@ TAB_ID_RE = re.compile(r"^[A-Za-z0-9_-]{8,64}$")
 OWNER_COOKIE = "naturist_owner"
 CSRF_COOKIE = "naturist_owner_csrf"
 OWNER_COOKIE_MAX_AGE = 31536000
-OWNER_ONLY_MESSAGE = "Generarea rețetei este disponibilă doar administratorului platformei."
+
+
+def owner_only_message() -> str:
+    return tr("common.owner_only_generation")
+
+
 router = APIRouter()
+
+
+@router.get("/api/texts")
+def application_texts() -> JSONResponse:
+    return JSONResponse(public_catalog(), headers={"Cache-Control": "no-store"})
 
 
 # Serialize one category node (and, recursively, its children) into the plain
@@ -95,7 +106,7 @@ class SignalsPayload(BaseModel):
     @model_validator(mode="after")
     def _at_least_one(self) -> "SignalsPayload":
         if not (self.conditions or self.lexical or self.semantic):
-            raise ValueError("Bifați cel puțin un tip de căutare.")
+            raise ValueError(tr("errors.search_signal_required"))
         return self
 
     def to_signals(self) -> SearchSignals:
@@ -178,10 +189,10 @@ def _identity(request: Request) -> tuple[str, str]:
     if not COOKIE_RE.fullmatch(cookie):
         cookie = getattr(request.state, "session_cookie", "")
     if not COOKIE_RE.fullmatch(cookie):
-        raise HTTPException(401, "Sesiunea a expirat. Reîncărcați pagina.")
+        raise HTTPException(401, tr("errors.session_expired"))
     tab = request.headers.get("x-tab-id", "")
     if not TAB_ID_RE.fullmatch(tab):
-        raise HTTPException(400, "Identificator de tab lipsă sau invalid.")
+        raise HTTPException(400, tr("errors.tab_id_invalid"))
     return cookie, tab
 
 
@@ -190,7 +201,7 @@ def _current(request: Request, create: bool = False) -> SessionData:
     deps = _deps(request)
     session = deps.store.get(cookie, tab, create=create, client_ip=_client_ip(request))
     if session is None:
-        raise ApplicationError("SESSION_EXPIRED", "Sesiunea a expirat. Reîncărcați pagina.")
+        raise ApplicationError("SESSION_EXPIRED", tr("errors.session_expired"))
     return session
 
 
@@ -219,7 +230,7 @@ def _revision(request: Request) -> int | None:
             raise ValueError
         return revision
     except ValueError:
-        raise HTTPException(400, "Revizie invalidă.") from None
+        raise HTTPException(400, tr("errors.invalid_revision")) from None
 
 
 def _cancelled(**extra):
@@ -239,7 +250,7 @@ def healthz(request: Request):
         key_env = getattr(provider, "api_key_env", "AI_API_KEY")
         raise HTTPException(
             503,
-            f"Secretul {label} ({key_env}) lipsește sau nu este un fișier valid.",
+            tr("errors.secret_file_missing", label=label, key_env=key_env),
         )
     return {"status": "ok"}
 
@@ -275,7 +286,7 @@ def download(tab_id: str, report_id: str, request: Request):
     session = store.get(request.cookies.get(COOKIE, ""), tab_id)
     report = store.report(session, report_id) if session else None
     if report is None:
-        raise HTTPException(404, "Raportul nu este disponibil pentru această sesiune.")
+        raise HTTPException(404, tr("errors.report_not_authorized"))
     return Response(
         report.data,
         media_type="application/pdf",
@@ -292,7 +303,7 @@ def get_session(request: Request):
     session = _current(request, create=True)
     page_id = request.headers.get("x-page-id")
     if page_id is not None and not TAB_ID_RE.fullmatch(page_id):
-        raise HTTPException(400, "Identificator de pagină invalid.")
+        raise HTTPException(400, tr("errors.page_id_invalid"))
     if not deps.store.conversation_view(session, page_id=page_id)["history"]:
         operation = deps.store.begin_operation(session, "initialize")
         try:
@@ -306,7 +317,7 @@ def get_session(request: Request):
                     messages=[
                         _text(
                             "assistant",
-                            f"{WELCOME} {question}" if question else WELCOME,
+                            f"{welcome()} {question}" if question else welcome(),
                         )
                     ],
                     profile=profile,
@@ -387,9 +398,7 @@ def post_condition(request: Request):
 def post_classify(request: Request):
     revision = _revision(request)
     if revision is None:
-        raise ApplicationError(
-            "REVISION_REQUIRED", "La clasificare este necesară revizia mesajului.", 422
-        )
+        raise ApplicationError("REVISION_REQUIRED", tr("errors.message_revision_required"), 422)
     return _conversation(_deps(request)).classify(_current(request), revision)
 
 
@@ -429,11 +438,11 @@ def _select_report_model(
     if model not in settings.report_generation_models:
         raise ApplicationError(
             "MODEL_NOT_CONFIGURED",
-            "Modelul AI ales nu este disponibil în configurația curentă.",
+            tr("errors.model_not_configured"),
             422,
         )
     if not owner_authorized:
-        raise ApplicationError("MODEL_FORBIDDEN", OWNER_ONLY_MESSAGE, 403)
+        raise ApplicationError("MODEL_FORBIDDEN", owner_only_message(), 403)
     return model
 
 
@@ -461,7 +470,7 @@ def report_duration_estimate(
     if model not in deps.settings.report_generation_models:
         raise ApplicationError(
             "MODEL_NOT_CONFIGURED",
-            "Modelul AI ales nu este disponibil în configurația curentă.",
+            tr("errors.model_not_configured"),
             422,
         )
     deps.request_limiter.check(
@@ -469,14 +478,18 @@ def report_duration_estimate(
     )
     if deps.estimate_report_duration is None:
         raise ApplicationError(
-            "REPORT_ESTIMATE_UNAVAILABLE", "Estimarea duratei nu este disponibilă momentan.", 503
+            "REPORT_ESTIMATE_UNAVAILABLE",
+            tr("errors.estimate_unavailable"),
+            503,
         )
     try:
         estimate = deps.estimate_report_duration(model, characters)
     except Exception as exc:
         logger.warning("report_duration_estimate_unavailable type=%s", type(exc).__name__)
         raise ApplicationError(
-            "REPORT_ESTIMATE_UNAVAILABLE", "Estimarea duratei nu este disponibilă momentan.", 503
+            "REPORT_ESTIMATE_UNAVAILABLE",
+            tr("errors.estimate_unavailable"),
+            503,
         ) from None
     return ReportDurationEstimateResponse(
         model=model,
@@ -527,7 +540,7 @@ def _generation_status(request: Request, job_id: str, *, cancel: bool = False):
         (f"poll:{session.lifetime_id}", 120), (f"poll-ip:{_client_ip(request)}", 240)
     )
     if not getattr(request.state, "owner_authorized", False):
-        raise ApplicationError("MODEL_FORBIDDEN", OWNER_ONLY_MESSAGE, 403)
+        raise ApplicationError("MODEL_FORBIDDEN", owner_only_message(), 403)
     return request.app.state.report_generation.generation(session, job_id, cancel=cancel)
 
 
@@ -633,22 +646,18 @@ def _require_csrf(request: Request):
         or not match
         or not hmac.compare_digest(supplied.encode(), cookie.encode())
     ):
-        raise ApplicationError(
-            "CSRF_FAILED", "Cerere de autorizare invalidă. Reîncărcați formularul.", 403
-        )
+        raise ApplicationError("CSRF_FAILED", tr("errors.authorization_invalid"), 403)
     expected = hmac.new(
         _deps(request).csrf_secret, match[1].encode("ascii"), hashlib.sha256
     ).hexdigest()
     if not hmac.compare_digest(match[2], expected):
-        raise ApplicationError(
-            "CSRF_FAILED", "Cerere de autorizare invalidă. Reîncărcați formularul.", 403
-        )
+        raise ApplicationError("CSRF_FAILED", tr("errors.authorization_invalid"), 403)
 
 
 @router.get("/api/owner")
 def owner_status(request: Request):
     if request.headers.get("sec-fetch-site") == "cross-site" or not _origin_allowed(request):
-        raise ApplicationError("ORIGIN_FORBIDDEN", "Origine nepermisă.", 403)
+        raise ApplicationError("ORIGIN_FORBIDDEN", tr("errors.origin_forbidden"), 403)
     deps = _deps(request)
     token = _csrf_token(deps)
     response = JSONResponse(
@@ -701,7 +710,7 @@ def _authorize_owner(request: Request, key: str) -> str:
 @router.get("/owner")
 def owner_link(request: Request, key: str = ""):
     if request.headers.get("sec-fetch-site") == "cross-site" or not _origin_allowed(request):
-        raise ApplicationError("ORIGIN_FORBIDDEN", "Origine nepermisă.", 403)
+        raise ApplicationError("ORIGIN_FORBIDDEN", tr("errors.origin_forbidden"), 403)
     deps = _deps(request)
     if not key:
         nonce = secrets.token_urlsafe(24)
@@ -773,6 +782,12 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
         session_store = auth = classifier = None
         report_clients: dict[ReportModel, AIProtocol] = {}
         try:
+            catalog()
+            if owned:
+                application.state.startup_status = {
+                    "status": "initializing",
+                    "message": tr("errors.startup_initializing"),
+                }
             if owned:
                 cfg = config or Settings.from_env(dotenv=True)
                 configure_settings(cfg)
@@ -810,7 +825,9 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                 application.root_path = cfg.public_root_path
                 application.mount(
                     "/",
-                    StaticFiles(directory=str(cfg.frontend_dist_dir), html=True, check_dir=False),
+                    TextStaticFiles(
+                        directory=str(cfg.frontend_dist_dir), html=True, check_dir=False
+                    ),
                     name="frontend",
                 )
 
@@ -823,7 +840,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                         logger.warning("warm_up_failed stage=search type=%s", type(exc).__name__)
                         application.state.startup_status = {
                             "status": "degraded",
-                            "message": "Pregătirea automată nu s-a încheiat complet. Prima căutare poate dura mai mult.",
+                            "message": tr("errors.warmup_degraded"),
                         }
                     else:
                         application.state.startup_status = {"status": "ready", "message": None}
@@ -889,7 +906,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                 db.close_pool()
 
     application = FastAPI(
-        title="Chatbot naturist",
+        title="medicina-naturista",
         docs_url=None,
         redoc_url=None,
         openapi_url=None,
@@ -898,7 +915,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
     )
     application.state.startup_status = {
         "status": "ready" if dependencies else "initializing",
-        "message": None if dependencies else "Se inițializează căutarea…",
+        "message": None,
     }
     if dependencies:
         application.state.dependencies = dependencies
@@ -915,7 +932,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
             {
                 "detail": {
                     "code": "INVALID_REQUEST",
-                    "message": "Datele cererii sunt invalide.",
+                    "message": tr("errors.request_invalid"),
                 }
             },
             status_code=422,
@@ -944,7 +961,7 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                 )
             if request.method in {"POST", "PUT", "PATCH", "DELETE"}:
                 if not _origin_allowed(request):
-                    raise ApplicationError("ORIGIN_FORBIDDEN", "Origine nepermisă.", 403)
+                    raise ApplicationError("ORIGIN_FORBIDDEN", tr("errors.origin_forbidden"), 403)
                 if path.startswith("/api/") and path != "/api/owner/login":
                     deps.request_limiter.check(
                         (_client_ip(request), deps.settings.max_requests_per_minute)

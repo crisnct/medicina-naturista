@@ -1,3 +1,4 @@
+import { tr } from "../lib/texts";
 import { useMemo } from "react";
 import type { ChatMessage, FragmentItem, ReportModel } from "../api/types";
 import { MessageBubble } from "./MessageBubble";
@@ -52,7 +53,7 @@ export function ChatHistory({
       id="medical-chatbot"
       className="bubble-wrap"
       role="log"
-      aria-label="Conversație"
+      aria-label={tr("interface.chat_history_label")}
     >
       {history.filter((message) => !(message.kind === "text" && message.generationSearchId)).map((message, index) => (
         <MessageBubble

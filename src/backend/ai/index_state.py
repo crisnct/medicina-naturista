@@ -17,6 +17,7 @@ from backend.ai.condition_repository import (
 )
 from backend.ai.embedding_model import get_profile
 from backend.core.errors import ApplicationError
+from backend.core.texts import tr
 
 INDEX_LOCK = 7261040202
 _reader: ContextVar[tuple[psycopg.Connection, IndexMetadata] | None] = ContextVar(
@@ -31,9 +32,7 @@ def active_dictionary():
 
 class IndexUnavailable(ApplicationError):
     def __init__(self, code="INDEX_MAINTENANCE"):
-        super().__init__(
-            code, "Indexul este temporar indisponibil. Încercați din nou după resincronizare.", 503
-        )
+        super().__init__(code, tr("errors.index_unavailable"), 503)
 
 
 class IndexMetadata(BaseModel):

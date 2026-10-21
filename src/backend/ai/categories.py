@@ -17,6 +17,7 @@ from psycopg.rows import namedtuple_row
 
 from backend.ai.index_state import index_reader
 from backend.core.errors import ApplicationError
+from backend.core.texts import tr
 
 # Category id used for files placed directly in the source root, with no
 # containing folder.
@@ -104,7 +105,7 @@ def build_category_tree(sources: Sequence[object]) -> dict[str, object]:
     nodes = {
         category_id: {
             "id": category_id,
-            "label": "(fără categorie)"
+            "label": tr("errors.uncategorized")
             if category_id == ROOT_CATEGORY_ID
             else category_id.rsplit("/", 1)[-1],
             "parent": parent_of[category_id],
@@ -157,7 +158,7 @@ def category_selection(requested, tree: CategoryTree | None):
     if requested and not selected:
         raise ApplicationError(
             "CATEGORY_SELECTION_STALE",
-            "Sursele selectate nu mai există. Selectați din nou categoriile.",
+            tr("errors.categories_stale"),
             409,
         )
     return selected, removed

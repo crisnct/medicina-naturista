@@ -1,3 +1,4 @@
+import { tr } from "../lib/texts";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useState } from "react";
 import { api, ApiError, errorMessage, isSessionUnavailable } from "../api/client";
@@ -44,9 +45,9 @@ export function useConversation() {
       queryClient.setQueryData(SESSION_KEY, session);
       setNeedsSessionRecovery(false);
       setGenerationFeedback({});
-      setBanner("Sesiunea este conectată. Textul din câmp a fost păstrat; îl puteți trimite când doriți.");
+      setBanner(tr("interface.session_reconnected"));
     },
-    onError: (error) => setBanner(errorMessage(error, "Sesiunea nu a putut fi reconectată. Încercați din nou.")),
+    onError: (error) => setBanner(errorMessage(error, tr("interface.session_reconnect_failed"))),
   });
 
   const appendMessages = useCallback(
@@ -104,7 +105,7 @@ export function useConversation() {
               const second = await api.search(routed.contextRevision);
               appendMessages(second.messages, second);
               if (second.removedCategoryIds?.length) {
-                setBanner("Unele surse selectate nu mai există și au fost eliminate. Verificați selecția categoriilor.");
+                setBanner(tr("interface.session_categories_changed"));
                 void queryClient.invalidateQueries({ queryKey: ["categories"] });
               }
             }
@@ -122,14 +123,14 @@ export function useConversation() {
       if (isSessionUnavailable(original)) {
         setNeedsSessionRecovery(true);
         setBanner(error instanceof AcceptedMessageError
-          ? "Mesajul a fost acceptat, dar sesiunea nu mai este disponibilă. Reconectați sesiunea; conversația anterioară poate să nu mai fie disponibilă. Mesajul nu va fi retrimis automat."
-          : "Sesiunea nu mai este disponibilă, posibil după repornirea aplicației. Textul este păstrat. Reconectați sesiunea pentru a continua; conversația anterioară poate să nu mai fie disponibilă.");
+          ? tr("interface.session_accepted_unavailable")
+          : tr("interface.session_unavailable"));
         return;
       }
-      const detail = errorMessage(original, "Încercați din nou.");
+      const detail = errorMessage(original, tr("interface.session_retry_hint"));
       setBanner(error instanceof AcceptedMessageError
-        ? `Mesajul a fost acceptat, dar procesarea nu s-a încheiat. ${detail}`
-        : `Mesajul nu a putut fi trimis. Textul este păstrat. ${detail}`);
+        ? tr("interface.session_processing_failed", { detail: detail })
+        : tr("interface.session_send_failed", { detail: detail }));
       if (original instanceof ApiError && original.code === "CATEGORY_SELECTION_STALE") {
         void queryClient.invalidateQueries({ queryKey: ["categories"] });
       }
@@ -139,10 +140,10 @@ export function useConversation() {
   const generation = useReportGeneration(sessionQuery.data, setGenerationFeedback, setNeedsSessionRecovery, setBanner);
   const sessionError = sessionQuery.error;
   const sessionErrorMessage = sessionError instanceof ApiError && sessionError.code === "RATE_LIMIT"
-    ? `Ați deschis prea multe conversații într-un minut. ${sessionError.retryAfter
-      ? `Așteptați ${sessionError.retryAfter} de secunde, apoi apăsați „Verifică din nou”.`
-      : "Așteptați un minut, apoi apăsați „Verifică din nou”."}`
-    : sessionError ? errorMessage(sessionError, "Sesiunea nu a putut fi încărcată.") : null;
+    ? tr("interface.session_rate_limited", { guidance: sessionError.retryAfter
+      ? tr("interface.session_retry_after", { retry_after: sessionError.retryAfter })
+      : tr("interface.session_retry_later") })
+    : sessionError ? errorMessage(sessionError, tr("interface.session_load_failed")) : null;
 
   const visibleGenerationFeedback = { ...generationFeedback };
   for (const [searchId, feedback] of Object.entries(generation.feedback)) {
