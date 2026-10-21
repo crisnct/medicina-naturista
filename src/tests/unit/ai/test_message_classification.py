@@ -85,7 +85,21 @@ def test_explicit_top_does_not_require_ollama_or_catalog(message, count):
             scoped = classifier(f"Top {count} {category}", {})
             assert scoped.top_category == category and scoped.top_count == count
         assert classifier("Top 100   ", {}).top_category is None
-        assert classifier("Top 100 produse naturiste", {}).top_category is None
+        products = classifier("Top 100 produse naturiste", {})
+        assert products.top_clarification == "category" and products.top_count == 100
+        context = {
+            "pending_clarification": "top_plante",
+            "top_count": 100,
+            "top_clarification": "category",
+        }
+        for index, category in enumerate(HERB_CATEGORIES, 1):
+            selected = classifier(str(index), context)
+            assert selected.top_category == category and selected.top_count == 100
+            assert not selected.needs_clarification
+        for invalid in ("0", "15", "100", "-1", "1.5", "vitamine"):
+            invalid_choice = classifier(invalid, context)
+            assert invalid_choice.top_clarification == "category"
+            assert invalid_choice.top_count == 100 and invalid_choice.top_category is None
         assert classifier("Top aminoacizi", {}).top_count == 100
         assert classifier("Top 100 probiotice", {}).top_clarification == "category"
         assert classifier("Top 20 categorie necunoscuta", {}).top_clarification == "category"

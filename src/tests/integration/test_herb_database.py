@@ -23,7 +23,7 @@ from scripts.bootstrap_database import ensure_database
 from tests.support.postgres import PostgresFixture
 
 fixture = PostgresFixture()
-INITIAL_FINGERPRINT = "7abcbfa96cfd12d7edfa6f128040ff2892d0ead485d223e0232ad70b0ccbdb9e"
+INITIAL_FINGERPRINT = "70ba76e4e763bb5c8ad6c1071cd546be028719577f97e6ffe1370bb7fc37a7ef"
 
 
 def setUpModule():
@@ -54,8 +54,8 @@ class HerbDatabaseTests(unittest.TestCase):
     def test_seed_schema_counts_and_fingerprint_without_jsonl(self):
         with psycopg.connect(self.url) as connection:
             items = repository.read_herbs(connection)
-            self.assertEqual(len(items), 1584)
-            self.assertEqual({h.id for h in items}, set(range(1, 1585)))
+            self.assertEqual(len(items), 1586)
+            self.assertEqual({h.id for h in items}, set(range(1, 1587)))
             self.assertEqual(repository.catalog_fingerprint(items), INITIAL_FINGERPRINT)
             self.assertEqual(sum(not h.en for h in items), 79)
             self.assertEqual(
@@ -86,6 +86,13 @@ class HerbDatabaseTests(unittest.TestCase):
             self.assertEqual(catalog.by_latin("Matricaria recutita").latin, "matricaria chamomilla")
             self.assertEqual(catalog.by_id(1), items[0])
             self.assertEqual(catalog.lookup(""), [])
+            self.assertEqual(sum(h.category == "uleiuri" for h in items), 23)
+            for identifier in (1191, 1192, 1195, 1198):
+                self.assertEqual(
+                    catalog.by_id(identifier).category, "fibre, probiotice, prebiotice"
+                )
+            for identifier in (*range(1293, 1314), 1585, 1586):
+                self.assertEqual(catalog.by_id(identifier).category, "uleiuri")
 
     def test_lowercase_constraints_and_foreign_key(self):
         with psycopg.connect(self.url) as connection:
@@ -113,7 +120,7 @@ class HerbDatabaseTests(unittest.TestCase):
             identifier = connection.execute(
                 "INSERT INTO herbs(category,family,latin,ro) VALUES ('plante medicinale','asteraceae','testus species','test plant') RETURNING id"
             ).fetchone()[0]
-            self.assertEqual(identifier, 1585)
+            self.assertEqual(identifier, 1587)
             self.assertEqual(
                 repository.catalog_snapshot(connection).catalog.by_id(identifier).en_alt, ()
             )
@@ -175,8 +182,15 @@ class HerbDatabaseTests(unittest.TestCase):
                 "016_separate_herb_category.sql",
             ]
             connection.execute(
-                "DELETE FROM schema_migrations WHERE version=%s",
-                ("017_food_categories_in_herbs.sql",),
+                "DELETE FROM schema_migrations WHERE version IN (%s, %s, %s, %s, %s, %s)",
+                (
+                    "017_food_categories_in_herbs.sql",
+                    "018_reclassify_oils_medicines_and_beta_carotene.sql",
+                    "019_reclassify_additional_oils.sql",
+                    "020_reclassify_remaining_requested_oils.sql",
+                    "021_reclassify_probiotic_products.sql",
+                    "022_add_sunflower_and_pumpkin_oils.sql",
+                ),
             )
             for name in versions:
                 connection.execute((migration.MIGRATIONS / name).read_text(encoding="utf-8"))
@@ -214,7 +228,7 @@ class HerbDatabaseTests(unittest.TestCase):
             folder = Path(directory)
             for path in migration.MIGRATIONS.glob("*.sql"):
                 shutil.copy(path, folder / path.name)
-            (folder / "018_injected_failure.sql").write_text("SELECT 1/0;", encoding="utf-8")
+            (folder / "023_injected_failure.sql").write_text("SELECT 1/0;", encoding="utf-8")
             with patch.object(migration, "MIGRATIONS", folder):
                 with self.assertRaises(psycopg.errors.DivisionByZero):
                     migration.migrate(self.url)
@@ -227,13 +241,23 @@ class HerbDatabaseTests(unittest.TestCase):
                     "SELECT 1 FROM schema_migrations WHERE version='017_food_categories_in_herbs.sql'"
                 ).fetchone()
             )
-        self.assertEqual(migration.migrate(self.url), ["017_food_categories_in_herbs.sql"])
+        self.assertEqual(
+            migration.migrate(self.url),
+            [
+                "017_food_categories_in_herbs.sql",
+                "018_reclassify_oils_medicines_and_beta_carotene.sql",
+                "019_reclassify_additional_oils.sql",
+                "020_reclassify_remaining_requested_oils.sql",
+                "021_reclassify_probiotic_products.sql",
+                "022_add_sunflower_and_pumpkin_oils.sql",
+            ],
+        )
         with psycopg.connect(self.url) as connection:
             existing = connection.execute(
                 "SELECT * FROM herbs WHERE id<=1579 ORDER BY id"
             ).fetchall()
             self.assertEqual([(r[0], *r[2:]) for r in existing], [(r[0], *r[2:]) for r in original])
-            self.assertEqual(sum(a[1] != b[1] for a, b in zip(existing, original)), 161)
+            self.assertEqual(sum(a[1] != b[1] for a, b in zip(existing, original)), 188)
             self.assertEqual(
                 connection.execute("SELECT category FROM herbs WHERE id=778").fetchone(),
                 ("fructe",),

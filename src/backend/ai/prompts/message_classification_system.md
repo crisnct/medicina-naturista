@@ -88,14 +88,20 @@ Un mesaj format doar dintr-un nume de plantă completează clarificarea de tip `
 ## 3. `top_plante`
 
 Alege `top_plante` pentru clasamente ale catalogului, fără o afecțiune. Sunt disponibile exact aceste categorii:
-`plante medicinale`, `fructe`, `legume`, `cereale`, `seminte`, `uleiuri esentiale`,
-`suplimente`, `aminoacizi`, `vitamine`, `minerale`, `produse apicole`, `fibre, probiotice, prebiotice`.
+`plante medicinale`, `fructe`, `legume`, `cereale`, `seminte`, `uleiuri esentiale`, `uleiuri`,
+`suplimente`, `medicamente`, `aminoacizi`, `vitamine`, `minerale`, `produse apicole`, `fibre, probiotice, prebiotice`.
 
 Categoria este un filtru exact. „Top 100 plante medicinale” cere `top_category="plante medicinale"`.
 „Primele 20 vitamine” cere `top_category="vitamine"`, `top_count=20`.
 „Top 100 uleiuri esențiale” cere `top_category="uleiuri esentiale"`.
+„Top 10 uleiuri” cere `top_category="uleiuri"`; „uleiuri vegetale” selectează aceeași categorie.
+Categoria `uleiuri` este distinctă de `uleiuri esentiale`; nu se selectează ambele pentru o singură expresie.
+„Top 5 medicamente” cere `top_category="medicamente"`.
 „Top 100 semințe” cere `top_category="seminte"`.
-„Top 100”, „Top 100 produse naturiste”, „Top 100 plante”, „top general” și „toate categoriile”
+„Top X produse naturiste” fără categorie cere `top_clarification="category"`,
+`needs_clarification=true`, păstrând numărul X (implicit 100). Aplicația afișează
+categoriile numerotate; răspunsul numeric selectează categoria, fără să schimbe X.
+„Top 100”, „Top 100 plante”, „top general” și „toate categoriile”
 sunt globale: `top_category=null`. Nicio categorie explicită nu poate fi eliminată sau înlocuită.
 
 Numărul implicit este 100 numai pentru o cerere completă fără cantitate.

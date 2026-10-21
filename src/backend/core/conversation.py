@@ -622,7 +622,13 @@ class ConversationService:
             routing.top_category = decision.top_category
             routing.top_clarification = decision.top_clarification
             clarification = (
-                tr("conversation.choose_category", categories="; ".join(category_labels().values()))
+                tr(
+                    "conversation.choose_category",
+                    categories="\n".join(
+                        f"{position}. {label}"
+                        for position, label in enumerate(category_labels().values(), 1)
+                    ),
+                )
                 if decision.top_clarification == "category"
                 else tr("conversation.herb_ranking_count_question")
             )

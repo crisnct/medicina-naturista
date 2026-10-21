@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-21T04:00:47.577Z",
-    "fileCount": 32,
+    "lastScanned": "2026-10-21T07:38:10.595Z",
+    "fileCount": 44,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "9cc5d1da7510873b048fd2150c9cb922bf3cc7dea415349edc86ac91d5ca1c04",
-    "storeUpdatedAt": "2026-10-21T04:00:47.587Z",
-    "rootHash": "2f10179a382368a9"
+    "renderedHash": "cfee560fb8edd105519f0f5ff892fe5b5e4c9141bf71c81ff4775ebd19468742",
+    "storeUpdatedAt": "2026-10-21T07:38:10.603Z",
+    "rootHash": "e0af92e5e08705e8"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -171,10 +171,10 @@
     "src/frontend/styles.css": {
       "description": "Styles: 91 rules, 13 vars",
       "tokens": 8591,
-      "hash": "d173bd2f1dd73336",
+      "hash": "4d1c9da323acbe74",
       "size": 30067,
-      "mtimeMs": 1792555246765.1316,
-      "updatedAt": "2026-10-21T04:00:47.380Z",
+      "mtimeMs": 1792555687413.5867,
+      "updatedAt": "2026-10-21T04:08:08.247Z",
       "source": "hook"
     },
     "src/backend/core/texts.py": {
@@ -812,11 +812,11 @@
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 23505,
-      "hash": "ca19c7d4b717e85e",
-      "size": 97848,
-      "mtimeMs": 1792552801852.6177,
-      "updatedAt": "2026-10-21T03:20:02.248Z",
+      "tokens": 24359,
+      "hash": "4c8bc09e12e8a9ed",
+      "size": 101425,
+      "mtimeMs": 1792568289880.613,
+      "updatedAt": "2026-10-21T07:38:10.594Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -880,11 +880,700 @@
     },
     "src/backend/resources/texts.ro.toml": {
       "description": "Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română.",
-      "tokens": 7216,
-      "hash": "600d9787f7ff74cb",
-      "size": 27938,
-      "mtimeMs": 1792555246768.1487,
-      "updatedAt": "2026-10-21T04:00:47.577Z",
+      "tokens": 7305,
+      "hash": "0ca62cdfa797b722",
+      "size": 28278,
+      "mtimeMs": 1792568055692.1567,
+      "updatedAt": "2026-10-21T07:34:16.565Z",
+      "source": "hook"
+    },
+    "src/frontend/components/Composer.tsx": {
+      "description": "MAX_CHAT_CHARS — renders form",
+      "tokens": 986,
+      "hash": "37bd1724fd51f20a",
+      "size": 3451,
+      "mtimeMs": 1792568055689.1582,
+      "updatedAt": "2026-10-21T07:34:16.381Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "Composer",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 82,
+          "tokens": 925
+        }
+      ]
+    },
+    "src/backend/core/herb_categories.py": {
+      "description": "Catalog groups and ranking scopes, independent of taxonomy and matching names.",
+      "tokens": 1057,
+      "hash": "a41481fba9b3eb87",
+      "size": 3698,
+      "mtimeMs": 1792556272670.21,
+      "updatedAt": "2026-10-21T04:17:53.052Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "category_labels",
+          "kind": "fn",
+          "startLine": 33,
+          "endLine": 90,
+          "tokens": 679
+        },
+        {
+          "name": "global_top_label",
+          "kind": "fn",
+          "startLine": 91,
+          "endLine": 108,
+          "tokens": 103
+        }
+      ]
+    },
+    "src/backend/ai/message_classification.py": {
+      "description": "Small, validated intent decisions through the existing local Ollama model.",
+      "tokens": 7091,
+      "hash": "adc58d09221052d2",
+      "size": 24828,
+      "mtimeMs": 1792568158610.812,
+      "updatedAt": "2026-10-21T07:35:59.112Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "MessageClassification",
+          "kind": "class",
+          "startLine": 34,
+          "endLine": 69,
+          "tokens": 572
+        },
+        {
+          "name": "explicit_remedy_request",
+          "kind": "fn",
+          "startLine": 70,
+          "endLine": 100,
+          "tokens": 406
+        },
+        {
+          "name": "_top_categories",
+          "kind": "fn",
+          "startLine": 101,
+          "endLine": 117,
+          "tokens": 160
+        },
+        {
+          "name": "_top_decision",
+          "kind": "fn",
+          "startLine": 118,
+          "endLine": 132,
+          "tokens": 158
+        },
+        {
+          "name": "explicit_herb_top",
+          "kind": "fn",
+          "startLine": 133,
+          "endLine": 217,
+          "tokens": 1202
+        },
+        {
+          "name": "complete_general_question",
+          "kind": "fn",
+          "startLine": 218,
+          "endLine": 241,
+          "tokens": 301
+        },
+        {
+          "name": "explicit_herb_request",
+          "kind": "fn",
+          "startLine": 242,
+          "endLine": 272,
+          "tokens": 368
+        },
+        {
+          "name": "MessageClassifier",
+          "kind": "class",
+          "startLine": 273,
+          "endLine": 522,
+          "tokens": 3496
+        }
+      ]
+    },
+    "src/backend/ai/prompts/message_classification_system.md": {
+      "description": "Rol",
+      "tokens": 3448,
+      "hash": "74327d368f426cef",
+      "size": 14449,
+      "mtimeMs": 1792568158625.8052,
+      "updatedAt": "2026-10-21T07:36:00.102Z",
+      "source": "hook"
+    },
+    "src/backend/migrations/018_reclassify_oils_medicines_and_beta_carotene.sql": {
+      "description": "Reclassify three existing identities without changing names, taxonomy or rankings.",
+      "tokens": 854,
+      "hash": "215181bf82faa066",
+      "size": 3199,
+      "mtimeMs": 1792556272674.7554,
+      "updatedAt": "2026-10-21T04:17:53.877Z",
+      "source": "hook"
+    },
+    "src/backend/migrations/019_reclassify_additional_oils.sql": {
+      "description": "Move only the explicitly approved oil identities; retain names and ranking evidence.",
+      "tokens": 470,
+      "hash": "df97f83027572ea7",
+      "size": 1761,
+      "mtimeMs": 1792556895557.0203,
+      "updatedAt": "2026-10-21T04:28:15.998Z",
+      "source": "hook"
+    },
+    "src/tests/integration/test_herb_database.py": {
+      "description": "Rebuild and upgrade isolated PostgreSQL databases using only packaged SQL.",
+      "tokens": 5064,
+      "hash": "7c364787c2fe5be1",
+      "size": 17722,
+      "mtimeMs": 1792568289874.6206,
+      "updatedAt": "2026-10-21T07:38:10.322Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "setUpModule",
+          "kind": "fn",
+          "startLine": 29,
+          "endLine": 32,
+          "tokens": 12
+        },
+        {
+          "name": "tearDownModule",
+          "kind": "fn",
+          "startLine": 33,
+          "endLine": 36,
+          "tokens": 12
+        },
+        {
+          "name": "HerbDatabaseTests",
+          "kind": "class",
+          "startLine": 37,
+          "endLine": 359,
+          "tokens": 4683
+        }
+      ]
+    },
+    "src/backend/migrations/022_add_sunflower_and_pumpkin_oils.sql": {
+      "description": "Add only the two requested missing oils; retain all existing catalog identities.",
+      "tokens": 444,
+      "hash": "ef3aeb754a8f0c4a",
+      "size": 1663,
+      "mtimeMs": 1792568055686.1575,
+      "updatedAt": "2026-10-21T07:34:16.194Z",
+      "source": "hook"
+    },
+    "src/backend/core/conversation.py": {
+      "description": "Conversation orchestration, independent of FastAPI and frontend modules.",
+      "tokens": 13231,
+      "hash": "909266f48621959f",
+      "size": 46318,
+      "mtimeMs": 1792568055696.6743,
+      "updatedAt": "2026-10-21T07:34:16.745Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "no_fragment_above_min_score",
+          "kind": "fn",
+          "startLine": 63,
+          "endLine": 66,
+          "tokens": 29
+        },
+        {
+          "name": "welcome",
+          "kind": "fn",
+          "startLine": 67,
+          "endLine": 70,
+          "tokens": 18
+        },
+        {
+          "name": "no_category_selected_message",
+          "kind": "fn",
+          "startLine": 71,
+          "endLine": 74,
+          "tokens": 30
+        },
+        {
+          "name": "condition_ai_notice",
+          "kind": "fn",
+          "startLine": 75,
+          "endLine": 78,
+          "tokens": 25
+        },
+        {
+          "name": "condition_not_identified_message",
+          "kind": "fn",
+          "startLine": 79,
+          "endLine": 82,
+          "tokens": 32
+        },
+        {
+          "name": "condition_not_identified_continues",
+          "kind": "fn",
+          "startLine": 83,
+          "endLine": 89,
+          "tokens": 60
+        },
+        {
+          "name": "condition_not_identified_stops",
+          "kind": "fn",
+          "startLine": 90,
+          "endLine": 96,
+          "tokens": 57
+        },
+        {
+          "name": "email_offer",
+          "kind": "fn",
+          "startLine": 97,
+          "endLine": 103,
+          "tokens": 48
+        },
+        {
+          "name": "diverse_signals_message",
+          "kind": "fn",
+          "startLine": 104,
+          "endLine": 107,
+          "tokens": 27
+        },
+        {
+          "name": "general_question_notice",
+          "kind": "fn",
+          "startLine": 108,
+          "endLine": 111,
+          "tokens": 27
+        },
+        {
+          "name": "classification_unavailable",
+          "kind": "fn",
+          "startLine": 112,
+          "endLine": 115,
+          "tokens": 29
+        },
+        {
+          "name": "email_candidates",
+          "kind": "fn",
+          "startLine": 116,
+          "endLine": 134,
+          "tokens": 192
+        },
+        {
+          "name": "email_request_hint",
+          "kind": "fn",
+          "startLine": 135,
+          "endLine": 149,
+          "tokens": 248
+        },
+        {
+          "name": "document_count_for_categories",
+          "kind": "fn",
+          "startLine": 150,
+          "endLine": 163,
+          "tokens": 153
+        },
+        {
+          "name": "needs_condition_ai",
+          "kind": "fn",
+          "startLine": 164,
+          "endLine": 169,
+          "tokens": 78
+        },
+        {
+          "name": "report_started_message",
+          "kind": "fn",
+          "startLine": 170,
+          "endLine": 189,
+          "tokens": 337
+        },
+        {
+          "name": "condition_identified_message",
+          "kind": "fn",
+          "startLine": 190,
+          "endLine": 232,
+          "tokens": 381
+        },
+        {
+          "name": "evidence_above",
+          "kind": "fn",
+          "startLine": 233,
+          "endLine": 240,
+          "tokens": 66
+        },
+        {
+          "name": "evidence_within_budget",
+          "kind": "fn",
+          "startLine": 241,
+          "endLine": 256,
+          "tokens": 133
+        },
+        {
+          "name": "cancelled",
+          "kind": "fn",
+          "startLine": 257,
+          "endLine": 261,
+          "tokens": 36
+        },
+        {
+          "name": "ConversationService",
+          "kind": "class",
+          "startLine": 262,
+          "endLine": 1094,
+          "tokens": 10374
+        }
+      ]
+    },
+    "src/tests/unit/ai/test_message_classification.py": {
+      "description": "Strict intent contract and local Ollama wiring; no external traffic.",
+      "tokens": 5230,
+      "hash": "96c88ee157203351",
+      "size": 18354,
+      "mtimeMs": 1792568158613.8115,
+      "updatedAt": "2026-10-21T07:35:59.378Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "test_explicit_remedies_do_not_accept_spurious_model_clarification",
+          "kind": "fn",
+          "startLine": 32,
+          "endLine": 55,
+          "tokens": 271
+        },
+        {
+          "name": "test_compound_or_negative_remedy_requests_still_use_model",
+          "kind": "fn",
+          "startLine": 56,
+          "endLine": 75,
+          "tokens": 187
+        },
+        {
+          "name": "test_explicit_top_does_not_require_ollama_or_catalog",
+          "kind": "fn",
+          "startLine": 76,
+          "endLine": 112,
+          "tokens": 585
+        },
+        {
+          "name": "test_top_count_clarification_and_changed_subject",
+          "kind": "fn",
+          "startLine": 113,
+          "endLine": 154,
+          "tokens": 518
+        },
+        {
+          "name": "test_top_contract_rejects_invalid_limits",
+          "kind": "fn",
+          "startLine": 155,
+          "endLine": 159,
+          "tokens": 44
+        },
+        {
+          "name": "plant_catalog",
+          "kind": "fn",
+          "startLine": 160,
+          "endLine": 220,
+          "tokens": 531
+        },
+        {
+          "name": "test_named_catalog_plant_resolves_spurious_clarification",
+          "kind": "fn",
+          "startLine": 221,
+          "endLine": 246,
+          "tokens": 291
+        },
+        {
+          "name": "test_two_catalog_plants_require_clarification_even_if_model_selects_one",
+          "kind": "fn",
+          "startLine": 247,
+          "endLine": 263,
+          "tokens": 161
+        },
+        {
+          "name": "test_catalog_plant_does_not_replace_a_remedy_request",
+          "kind": "fn",
+          "startLine": 264,
+          "endLine": 272,
+          "tokens": 105
+        },
+        {
+          "name": "test_catalog_unavailability_does_not_disable_other_classification",
+          "kind": "fn",
+          "startLine": 273,
+          "endLine": 283,
+          "tokens": 116
+        },
+        {
+          "name": "test_no_catalog_substring_or_unknown_plant_is_assumed_to_be_named",
+          "kind": "fn",
+          "startLine": 284,
+          "endLine": 298,
+          "tokens": 154
+        },
+        {
+          "name": "test_ambiguous_name_is_selected_only_from_the_presented_choices",
+          "kind": "fn",
+          "startLine": 299,
+          "endLine": 310,
+          "tokens": 164
+        },
+        {
+          "name": "test_explicit_choice_completes_ambiguity_with_one_species",
+          "kind": "fn",
+          "startLine": 311,
+          "endLine": 324,
+          "tokens": 194
+        },
+        {
+          "name": "test_one_shared_alias_reaches_catalog_choices_instead_of_generic_clarification",
+          "kind": "fn",
+          "startLine": 325,
+          "endLine": 348,
+          "tokens": 259
+        },
+        {
+          "name": "test_invalid_output_is_rejected",
+          "kind": "fn",
+          "startLine": 349,
+          "endLine": 353,
+          "tokens": 41
+        },
+        {
+          "name": "test_existing_ollama_configuration_and_bounded_request_are_reused",
+          "kind": "fn",
+          "startLine": 354,
+          "endLine": 371,
+          "tokens": 238
+        },
+        {
+          "name": "test_ollama_request_needs_no_hf_token_and_uses_the_existing_endpoint",
+          "kind": "fn",
+          "startLine": 372,
+          "endLine": 439,
+          "tokens": 770
+        },
+        {
+          "name": "test_failed_ollama_response_is_unavailable_without_a_hf_fallback",
+          "kind": "fn",
+          "startLine": 440,
+          "endLine": 455,
+          "tokens": 183
+        }
+      ]
+    },
+    "src/tests/unit/web/test_message_routing.py": {
+      "description": "Intent routing, cancellation and email claims with isolated HTTP dependencies.",
+      "tokens": 7274,
+      "hash": "c82403171a6eb298",
+      "size": 25548,
+      "mtimeMs": 1792568158617.8125,
+      "updatedAt": "2026-10-21T07:35:59.641Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "web",
+          "kind": "fn",
+          "startLine": 19,
+          "endLine": 29,
+          "tokens": 72
+        },
+        {
+          "name": "accept",
+          "kind": "fn",
+          "startLine": 30,
+          "endLine": 39,
+          "tokens": 103
+        },
+        {
+          "name": "classify",
+          "kind": "fn",
+          "startLine": 40,
+          "endLine": 46,
+          "tokens": 55
+        },
+        {
+          "name": "report",
+          "kind": "fn",
+          "startLine": 47,
+          "endLine": 59,
+          "tokens": 126
+        },
+        {
+          "name": "test_echo_is_fast_and_does_not_replace_the_medical_profile",
+          "kind": "fn",
+          "startLine": 60,
+          "endLine": 72,
+          "tokens": 206
+        },
+        {
+          "name": "test_explicit_premenopause_request_starts_search_with_real_classifier",
+          "kind": "fn",
+          "startLine": 73,
+          "endLine": 93,
+          "tokens": 274
+        },
+        {
+          "name": "test_remedy_clarification_asks_for_condition_and_then_starts_search",
+          "kind": "fn",
+          "startLine": 94,
+          "endLine": 111,
+          "tokens": 242
+        },
+        {
+          "name": "test_top_returns_names_and_aliases_without_search_or_report",
+          "kind": "fn",
+          "startLine": 112,
+          "endLine": 147,
+          "tokens": 494
+        },
+        {
+          "name": "test_top_without_count_asks_then_accepts_count_only",
+          "kind": "fn",
+          "startLine": 148,
+          "endLine": 206,
+          "tokens": 805
+        },
+        {
+          "name": "test_diverse_skips_ai_identification_and_direct_condition_endpoint",
+          "kind": "fn",
+          "startLine": 207,
+          "endLine": 230,
+          "tokens": 336
+        },
+        {
+          "name": "test_diverse_only_conditions_requests_other_signals_without_clinical_warning",
+          "kind": "fn",
+          "startLine": 231,
+          "endLine": 243,
+          "tokens": 156
+        },
+        {
+          "name": "test_plant_returns_structured_results_without_search_or_identification",
+          "kind": "fn",
+          "startLine": 244,
+          "endLine": 275,
+          "tokens": 365
+        },
+        {
+          "name": "test_plant_clarification_is_passed_to_the_next_classification",
+          "kind": "fn",
+          "startLine": 276,
+          "endLine": 299,
+          "tokens": 269
+        },
+        {
+          "name": "test_named_reply_finishes_plant_clarification_and_returns_results",
+          "kind": "fn",
+          "startLine": 300,
+          "endLine": 333,
+          "tokens": 380
+        },
+        {
+          "name": "test_shared_name_lists_species_then_uses_only_the_user_choice",
+          "kind": "fn",
+          "startLine": 334,
+          "endLine": 366,
+          "tokens": 404
+        },
+        {
+          "name": "test_classification_is_reused_without_duplicate_messages_or_calls",
+          "kind": "fn",
+          "startLine": 367,
+          "endLine": 378,
+          "tokens": 178
+        },
+        {
+          "name": "test_new_message_discards_late_classification_and_concurrent_call_is_rejected",
+          "kind": "fn",
+          "startLine": 379,
+          "endLine": 405,
+          "tokens": 307
+        },
+        {
+          "name": "test_classification_requires_revision_and_search_cannot_bypass_it",
+          "kind": "fn",
+          "startLine": 406,
+          "endLine": 412,
+          "tokens": 93
+        },
+        {
+          "name": "test_email_selects_previous_report_before_classification_and_never_resends",
+          "kind": "fn",
+          "startLine": 413,
+          "endLine": 443,
+          "tokens": 354
+        },
+        {
+          "name": "test_email_needs_one_explicit_valid_address",
+          "kind": "fn",
+          "startLine": 444,
+          "endLine": 458,
+          "tokens": 163
+        },
+        {
+          "name": "test_email_clarification_keeps_its_report_and_can_be_completed_with_address",
+          "kind": "fn",
+          "startLine": 459,
+          "endLine": 473,
+          "tokens": 197
+        },
+        {
+          "name": "test_email_without_report_does_not_search",
+          "kind": "fn",
+          "startLine": 474,
+          "endLine": 483,
+          "tokens": 126
+        },
+        {
+          "name": "test_email_failure_keeps_pdf_and_claim_prevents_automatic_retry",
+          "kind": "fn",
+          "startLine": 484,
+          "endLine": 499,
+          "tokens": 205
+        },
+        {
+          "name": "test_provider_failure_has_controlled_fallback_and_cannot_send_email",
+          "kind": "fn",
+          "startLine": 500,
+          "endLine": 510,
+          "tokens": 118
+        },
+        {
+          "name": "test_bare_email_retains_deterministic_fallback",
+          "kind": "fn",
+          "startLine": 511,
+          "endLine": 520,
+          "tokens": 107
+        },
+        {
+          "name": "test_duplicate_message_id_cannot_resend_email_even_after_other_messages",
+          "kind": "fn",
+          "startLine": 521,
+          "endLine": 542,
+          "tokens": 320
+        },
+        {
+          "name": "test_local_classifier_failure_is_explained_in_the_fallback",
+          "kind": "fn",
+          "startLine": 543,
+          "endLine": 554,
+          "tokens": 145
+        },
+        {
+          "name": "test_named_remedy_reply_starts_search_despite_model_clarification",
+          "kind": "fn",
+          "startLine": 555,
+          "endLine": 580,
+          "tokens": 351
+        }
+      ]
+    },
+    "src/frontend/App.test.tsx": {
+      "description": "capacityMessage",
+      "tokens": 1222,
+      "hash": "e55e3aef8e18e575",
+      "size": 4290,
+      "mtimeMs": 1792568158621.8115,
+      "updatedAt": "2026-10-21T07:35:59.908Z",
       "source": "hook"
     }
   },

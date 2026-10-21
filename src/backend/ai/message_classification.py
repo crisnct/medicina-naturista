@@ -97,12 +97,21 @@ def explicit_remedy_request(message: str) -> MessageClassification | None:
     return MessageClassification(intent="remedii")
 
 
-# Category labels are ranking scopes, never plant matching terms.
+# A longer category phrase owns its span; a separate generic phrase still counts.
 def _top_categories(normalized: str) -> set[HerbCategory]:
+    matches = [
+        (category, match.start(), match.end())
+        for category, aliases in CATEGORY_ALIASES.items()
+        for alias in aliases
+        for match in re.finditer(r"\b" + re.escape(alias) + r"\b", normalized)
+    ]
     return {
         category
-        for category, aliases in CATEGORY_ALIASES.items()
-        if any(re.search(r"\b" + re.escape(alias) + r"\b", normalized) for alias in aliases)
+        for category, start, end in matches
+        if not any(
+            other_start <= start and end <= other_end and (other_start < start or end < other_end)
+            for _, other_start, other_end in matches
+        )
     }
 
 
@@ -136,6 +145,14 @@ def explicit_herb_top(message: str, context: dict[str, object]) -> MessageClassi
         return None
     pending = context.get("pending_clarification") == "top_plante"
     if pending and re.fullmatch(r"[+-]?\d+(?:[.,]\d+)?", normalized):
+        if context.get("top_clarification") == "category":
+            selection = int(normalized) if re.fullmatch(r"\d+", normalized) else 0
+            count = context.get("top_count")
+            return _top_decision(
+                count if type(count) is int else None,
+                HERB_CATEGORIES[selection - 1] if 1 <= selection <= len(HERB_CATEGORIES) else None,
+                unknown=not 1 <= selection <= len(HERB_CATEGORIES),
+            )
         category = context.get("top_category")
         category = category if category in HERB_CATEGORIES else None
         return _top_decision(
@@ -144,6 +161,13 @@ def explicit_herb_top(message: str, context: dict[str, object]) -> MessageClassi
             unknown=context.get("top_clarification") == "category",
         )
     if pending:
+        if (
+            context.get("top_clarification") == "category"
+            and not re.search(r"\b(top|topul|primele|cele mai)\b", normalized)
+            and (normalized in GLOBAL_TOP_ALIASES or _top_categories(normalized))
+        ):
+            count = context.get("top_count")
+            return _top_decision(count if type(count) is int else None, None, unknown=True)
         if normalized in {"fibre", "probiotice", "prebiotice"}:
             count = context.get("top_count")
             return _top_decision(count if type(count) is int else None, None, unknown=True)
@@ -180,7 +204,11 @@ def explicit_herb_top(message: str, context: dict[str, object]) -> MessageClassi
         if domain in aliases:
             return _top_decision(count, category)
     if domain in GLOBAL_TOP_ALIASES:
-        return _top_decision(count, None)
+        return _top_decision(
+            count,
+            None,
+            unknown=domain in {"produse naturiste", "produsele naturiste"},
+        )
     categories = _top_categories(domain)
     if len(categories) > 1 or not categories and not re.match(r"plante(?:le)?\b", domain):
         return _top_decision(count, None, unknown=True)
@@ -460,6 +488,13 @@ class MessageClassifier:
                     raw = {**raw, "top_count": valid_count}
                 elif raw.get("top_count") is None and raw.get("needs_clarification") is False:
                     raw = {**raw, "top_count": 100}
+                if (
+                    not scopes
+                    and re.search(r"\bproduse(?:le)? naturiste\b", _normalize(message))
+                    and not re.search(r"\btoate categoriile\b", _normalize(message))
+                ):
+                    count = raw.get("top_count")
+                    return _top_decision(count if type(count) is int else None, None, unknown=True)
                 try:
                     result = MessageClassification.model_validate(raw)
                 except ValueError:

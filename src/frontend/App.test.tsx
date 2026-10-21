@@ -29,6 +29,11 @@ describe("session admission", () => {
     expect(session).toHaveBeenCalledTimes(1);
     fireEvent.click(screen.getByRole("button", { name: "Verifică din nou" }));
     await waitFor(() => expect(screen.getByRole("textbox")).toBeEnabled());
+    const topExamples = screen.getAllByRole("button").filter((button) => button.textContent?.includes("Top "));
+    expect(topExamples).toHaveLength(1);
+    expect(topExamples[0]).toHaveTextContent("Top 100 produse naturiste");
+    fireEvent.click(topExamples[0]);
+    expect(screen.getByRole("textbox")).toHaveValue("Top 100 produse naturiste");
     expect(screen.queryByRole("alert")).not.toBeInTheDocument();
   });
 

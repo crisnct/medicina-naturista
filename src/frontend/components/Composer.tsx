@@ -37,10 +37,7 @@ export function Composer({
           {[
             { label: tr("interface.example_flu_label"), text: tr("interface.example_flu_query") },
             { label: tr("interface.example_cloves_label"), text: tr("interface.example_cloves_query") },
-            { label: tr("interface.example_top_herbs_label"), text: tr("interface.example_top_herbs_query") },
             { label: tr("interface.example_top_products_label"), text: tr("interface.example_top_products_query") },
-            { label: tr("interface.example_top_fruit_label"), text: tr("interface.example_top_fruit_query") },
-            { label: tr("interface.example_top_vegetables_label"), text: tr("interface.example_top_vegetables_query") },
             { label: tr("interface.example_author_label"), text: tr("interface.example_author_query") },
             { label: tr("interface.example_mushrooms_label"), text: tr("interface.example_mushrooms_query") },
             { label: tr("interface.example_garlic_label"), text: tr("interface.example_garlic_query") },

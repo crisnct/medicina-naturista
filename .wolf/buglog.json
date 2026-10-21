@@ -319,6 +319,150 @@
       "last_seen": "2026-10-21T04:00:47.411Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: label",
+      "file": "src/frontend/components/Composer.tsx",
+      "root_cause": "label: tr(\"interface.example_top_products_label\"), text: tr(\"interface.example_top_products_query\") → tr(\"interface.example_top_supplements_label\"), text: tr(\"interface.example_top_supplements_query\")",
+      "fix": "Changed label: tr(\"interface.example_top_products_label\"), text: tr(\"interface.example_top_products_query\") → tr(\"interface.example_top_supplements_label\"), text: tr(\"interface.example_top_supplements_query\")",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-019",
+      "timestamp": "2026-10-21T04:08:07.885Z",
+      "last_seen": "2026-10-21T04:08:07.885Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: min-height, padding",
+      "file": "src/frontend/styles.css",
+      "root_cause": "min-height: 30px → 24px; padding: 4px 8px → 2px 8px",
+      "fix": "Changed min-height: 30px → 24px; padding: 4px 8px → 2px 8px",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-020",
+      "timestamp": "2026-10-21T04:08:08.276Z",
+      "last_seen": "2026-10-21T04:08:08.276Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of message_classification.py",
+      "file": "src/backend/ai/message_classification.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 7→18 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-021",
+      "timestamp": "2026-10-21T04:17:53.311Z",
+      "last_seen": "2026-10-21T04:17:53.311Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_herb_database.py",
+      "file": "src/tests/integration/test_herb_database.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 5→7 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-022",
+      "timestamp": "2026-10-21T04:31:21.515Z",
+      "last_seen": "2026-10-21T04:31:21.515Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: label",
+      "file": "src/frontend/components/Composer.tsx",
+      "root_cause": "label: tr(\"interface.example_top_vegetables_label\"), text: tr(\"interface.example_top_vegetables_query\") → tr(\"interface.example_top_products_label\"), text: tr(\"interface.example_top_products_query\")",
+      "fix": "Changed label: tr(\"interface.example_top_vegetables_label\"), text: tr(\"interface.example_top_vegetables_query\") → tr(\"interface.example_top_products_label\"), text: tr(\"interface.example_top_products_query\")",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-023",
+      "timestamp": "2026-10-21T07:34:16.406Z",
+      "last_seen": "2026-10-21T07:34:16.406Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/backend/ai/message_classification.py",
+      "root_cause": "Was returning: _top_decision(count, None)",
+      "fix": "Now returns: _top_decision(",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-024",
+      "timestamp": "2026-10-21T07:34:17.019Z",
+      "last_seen": "2026-10-21T07:34:17.019Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Null/undefined access in App.test.tsx",
+      "file": "src/frontend/App.test.tsx",
+      "root_cause": "Property access on potentially null/undefined value",
+      "fix": "Added null safety (optional chaining or null check)",
+      "tags": [
+        "auto-detected",
+        "null-safety",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-025",
+      "timestamp": "2026-10-21T07:35:59.937Z",
+      "last_seen": "2026-10-21T07:35:59.937Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_herb_database.py",
+      "file": "src/tests/integration/test_herb_database.py",
+      "root_cause": "7 lines replaced/restructured",
+      "fix": "Rewrote 11→22 lines (7 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-026",
+      "timestamp": "2026-10-21T07:38:10.348Z",
+      "last_seen": "2026-10-21T07:38:10.348Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -337,7 +481,15 @@
     "7e59a41e-f595-41ba-a68e-0ecba5521643": true,
     "e3bfdfd9-e037-4ec0-bb19-926731d2679d": true,
     "a76634bf-b8d9-48a9-a8e0-c72b33682817": true,
-    "9b1c5a32-bfb2-43bc-b0c9-488e8534f556": true
+    "9b1c5a32-bfb2-43bc-b0c9-488e8534f556": true,
+    "609a04db-0ad0-46cc-a28f-e0fc38e37e93": true,
+    "7233a7f3-fecc-4cae-b0c5-bfb4081c4d67": true,
+    "5e174460-2e61-4d47-9123-cf1420f3f106": true,
+    "10a1c0e2-fd5d-4dcc-991c-8363757d2514": true,
+    "517247e1-6bf8-406f-ac05-ece310727831": true,
+    "94ed7ecd-9146-468d-bc22-a12e88586e0d": true,
+    "fbff4914-f6b7-4056-9c29-a0e044837e77": true,
+    "0e4b4c43-36d1-4383-9188-1488617e5960": true
   },
-  "next_id": 19
+  "next_id": 27
 }

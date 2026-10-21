@@ -129,3 +129,35 @@ description: chronological action log per session, consolidated weekly
 | 07:00 | Edited src/frontend/components/GeneratePanel.tsx | 2→1 lines | ~17 |
 | 07:00 | Edited src/frontend/styles.css | inline fix | ~26 |
 | 07:00 | Edited src/backend/resources/texts.ro.toml | — | ~0 |
+| 07:08 | Edited src/frontend/components/Composer.tsx | 1→4 lines | ~141 |
+| 07:08 | Edited src/backend/resources/texts.ro.toml | expanded (+6 lines) | ~105 |
+| 07:08 | Edited src/frontend/styles.css | 3→3 lines | ~18 |
+| 07:12 | Edited src/backend/resources/texts.ro.toml | 3→3 lines | ~87 |
+| 07:17 | Edited src/backend/core/herb_categories.py | expanded (+6 lines) | ~168 |
+| 07:17 | Edited src/backend/ai/message_classification.py | modified _top_categories() | ~189 |
+| 07:17 | Edited src/backend/ai/prompts/message_classification_system.md | 3→6 lines | ~146 |
+| 07:17 | Edited src/backend/resources/texts.ro.toml | 1→3 lines | ~29 |
+| 07:17 | Created src/backend/migrations/018_reclassify_oils_medicines_and_beta_carotene.sql | — | ~853 |
+| 07:28 | Created src/backend/migrations/019_reclassify_additional_oils.sql | — | ~470 |
+| 07:28 | Edited src/tests/integration/test_herb_database.py | 6→8 lines | ~174 |
+| 07:28 | Edited README.md | 1→3 lines | ~193 |
+| 07:31 | Edited src/tests/integration/test_herb_database.py | 5→7 lines | ~145 |
+| 07:31 | Edited README.md | 1→3 lines | ~272 |
+| 10:15 | Session end: 1 writes across 1 files (styles.css) | 0 reads | ~22 tok |
+| 10:34 | Created src/backend/migrations/022_add_sunflower_and_pumpkin_oils.sql | — | ~444 |
+| 10:34 | Edited src/frontend/components/Composer.tsx | removed 7 lines | ~34 |
+| 10:34 | Edited src/backend/resources/texts.ro.toml | 3→5 lines | ~60 |
+| 10:34 | Edited src/backend/core/conversation.py | expanded (+6 lines) | ~83 |
+| 10:34 | Edited src/backend/ai/message_classification.py | expanded (+17 lines) | ~311 |
+| 10:35 | Edited src/backend/ai/message_classification.py | 2→7 lines | ~142 |
+| 10:35 | Edited src/tests/unit/ai/test_message_classification.py | modified enumerate() | ~240 |
+| 10:35 | Edited src/tests/unit/web/test_message_routing.py | expanded (+15 lines) | ~265 |
+| 10:35 | Edited src/frontend/App.test.tsx | added optional chaining | ~121 |
+| 10:36 | Edited src/backend/ai/prompts/message_classification_system.md | 1→4 lines | ~83 |
+| 10:38 | Edited src/tests/integration/test_herb_database.py | modified in() | ~408 |
+| 10:38 | Edited README.md | 2→6 lines | ~727 |
+
+## Session: 2026-10-21 11:50
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|

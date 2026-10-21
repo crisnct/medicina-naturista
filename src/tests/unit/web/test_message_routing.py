@@ -132,11 +132,11 @@ def test_top_returns_names_and_aliases_without_search_or_report(web):
     assert result["intent"] == "top_plante"
     assert not result["startSearch"] and not result["identifyCondition"]
     assert result["messages"][0]["content"] == (
-        "### Top 2 produse naturiste — toate categoriile după numărul de afecțiuni asociate în bibliotecă\n"
-        "Asocierile includ atenționări și contraindicații; nu demonstrează eficacitatea terapeutică.\n"
-        "1. **Mușețel** (Matricaria Chamomilla) — asociere în bibliotecă cu "
+        "### Top 2 produse naturiste — toate categoriile după numărul de afecțiuni din bibliotecă\n"
+        "Numărul include și afecțiuni menționate în atenționări și contraindicații; nu demonstrează eficacitatea terapeutică.\n"
+        "1. **Mușețel** (Matricaria Chamomilla) — util(ă) în "
         "1156 afecțiuni (denumiri regionale: romaniță, matricea)\n"
-        "2. **Păr** (Pyrus Communis) — asociere în bibliotecă cu 1 afecțiune"
+        "2. **Păr** (Pyrus Communis) — util(ă) în 1 afecțiune"
     )
     test.deps.top_herbs.assert_called_once_with(20, None)
     assert test.deps.store.get(sid, tab).profile.health_problem == ""
@@ -170,10 +170,25 @@ def test_top_without_count_asks_then_accepts_count_only(web):
     result = classify(web, third["contextRevision"]).json()
     assert "Alegeți o singură categorie" in result["messages"][0]["content"]
     assert test.deps.store.get(sid, tab).routing.top_count == 20
-    fourth = accept(web, "vitamine")
+    fourth = accept(web, "11")
     result = classify(web, fourth["contextRevision"]).json()
     test.deps.top_herbs.assert_called_once_with(20, "vitamine")
     classify(web, fourth["contextRevision"])
+    test.deps.top_herbs.assert_called_once()
+    test.deps.top_herbs.reset_mock()
+    products = accept(web, "Top 37 produse naturiste")
+    menu = classify(web, products["contextRevision"]).json()["messages"][0]["content"]
+    assert "1. plante medicinale\n2. fructe" in menu
+    assert "14. fibre, probiotice și prebiotice" in menu
+    assert test.deps.store.get(sid, tab).routing.top_count == 37
+    test.deps.top_herbs.assert_not_called()
+    invalid = accept(web, "15")
+    assert classify(web, invalid["contextRevision"]).json()["messages"][0]["content"] == menu
+    test.deps.top_herbs.assert_not_called()
+    selection = accept(web, "7")
+    classify(web, selection["contextRevision"])
+    test.deps.top_herbs.assert_called_once_with(37, "uleiuri")
+    classify(web, selection["contextRevision"])
     test.deps.top_herbs.assert_called_once()
     fifth = accept(web, "La ce e bun mușețelul?")
     classifier.client.complete_json = Mock(
