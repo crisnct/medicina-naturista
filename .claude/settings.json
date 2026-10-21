@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/session-start.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" claude session-start",
             "timeout": 15
           }
         ]
@@ -18,7 +18,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/user-prompt-submit.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" claude user-prompt-submit",
             "timeout": 5
           }
         ]
@@ -30,7 +30,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/pre-read.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" claude pre-read",
             "timeout": 5
           }
         ]
@@ -40,8 +40,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/pre-write.js\"",
-            "timeout": 5
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" claude pre-write",
+            "timeout": 60
           }
         ]
       },
@@ -50,7 +50,12 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/pre-bash.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/block-git-commit.js\"",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" claude pre-bash",
             "timeout": 5
           }
         ]
@@ -62,7 +67,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/post-read.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" claude post-read",
             "timeout": 5
           }
         ]
@@ -72,8 +77,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/post-write.js\"",
-            "timeout": 10
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" claude post-write",
+            "timeout": 60
           }
         ]
       },
@@ -82,7 +87,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/post-bash.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" claude post-bash",
             "timeout": 10
           }
         ]
@@ -94,7 +99,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/post-batch.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" claude post-batch",
             "timeout": 5
           }
         ]
@@ -106,7 +111,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/precompact.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" claude precompact",
             "timeout": 5
           }
         ]
@@ -118,7 +123,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/stop.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" claude stop",
             "timeout": 10
           }
         ]
@@ -130,7 +135,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:/Workspace/medicina-naturista/.wolf/hooks/session-end.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" claude session-end",
             "timeout": 10
           }
         ]

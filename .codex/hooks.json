@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:\\Workspace\\medicina-naturista\\.wolf\\hooks\\session-start.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" codex session-start",
             "timeout": 15,
             "statusMessage": "OpenWolf session bootstrap"
           }
@@ -19,7 +19,12 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:\\Workspace\\medicina-naturista\\.wolf\\hooks\\pre-bash.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/block-git-commit.js\"",
+            "timeout": 5
+          },
+          {
+            "type": "command",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" codex pre-bash",
             "timeout": 5,
             "statusMessage": "OpenWolf shell precheck"
           }
@@ -30,7 +35,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:\\Workspace\\medicina-naturista\\.wolf\\hooks\\pre-read.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" codex pre-read",
             "timeout": 5,
             "statusMessage": "OpenWolf read precheck"
           }
@@ -41,8 +46,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:\\Workspace\\medicina-naturista\\.wolf\\hooks\\pre-write.js\"",
-            "timeout": 5,
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" codex pre-write",
+            "timeout": 60,
             "statusMessage": "OpenWolf write precheck"
           }
         ]
@@ -54,7 +59,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:\\Workspace\\medicina-naturista\\.wolf\\hooks\\post-bash.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" codex post-bash",
             "timeout": 10,
             "statusMessage": "OpenWolf shell tracking"
           }
@@ -65,7 +70,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:\\Workspace\\medicina-naturista\\.wolf\\hooks\\post-read.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" codex post-read",
             "timeout": 5,
             "statusMessage": "OpenWolf read tracking"
           }
@@ -76,8 +81,8 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:\\Workspace\\medicina-naturista\\.wolf\\hooks\\post-write.js\"",
-            "timeout": 10,
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" codex post-write",
+            "timeout": 60,
             "statusMessage": "OpenWolf anatomy update"
           }
         ]
@@ -89,7 +94,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:\\Workspace\\medicina-naturista\\.wolf\\hooks\\precompact.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" codex precompact",
             "timeout": 5,
             "statusMessage": "OpenWolf compaction snapshot"
           }
@@ -102,7 +107,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:\\Workspace\\medicina-naturista\\.wolf\\hooks\\session-end.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" codex session-end",
             "timeout": 3,
             "statusMessage": "OpenWolf final flush"
           }
@@ -115,7 +120,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:\\Workspace\\medicina-naturista\\.wolf\\hooks\\user-prompt-submit.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" codex user-prompt-submit",
             "timeout": 5,
             "statusMessage": "OpenWolf context refresh"
           }
@@ -128,7 +133,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "node \"D:\\Workspace\\medicina-naturista\\.wolf\\hooks\\stop.js\"",
+            "command": "node \"D:/Workspace/medicina-naturista/.claude/hooks/openwolf-compat.js\" codex stop",
             "timeout": 10,
             "statusMessage": "OpenWolf session wrap-up"
           }

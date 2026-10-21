@@ -34,6 +34,11 @@ Proiectul transformă o colecție locală de documente Markdown despre medicină
 | **Raport PDF** | Include recomandări, atenționări, citări și bibliografie navigabilă. |
 | **Livrare e-mail** | După generare, poate trimite raportul prin Gmail API cu OAuth2 la adresa scrisă de utilizator în chat, dacă este configurat. |
 
+Interfața folosește o coloană fluidă de maximum 640 px, un antet crem cu titlu lizibil,
+portretul lui Dr. Cuișor și decor botanic discret. Pe mobil, portretul apare sub descriere.
+Identitatea de asistent virtual AI și atenționarea medicală rămân vizibile. Același portret
+este folosit în antet, avatarele conversației, pictograma aplicației și rapoartele PDF noi.
+
 ## 🎨 Cum funcționează
 
 Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pentru cererile explicite și Ollama local `gemma3:1b` (`MEDICAL_CONDITION_AI_LOCAL_MODEL`) când este necesar. `POST /api/messages` afișează rapid mesajul și salvează contextul, apoi `POST /api/classify` selectează:

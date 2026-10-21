@@ -1,14 +1,15 @@
 # Project hooks
 
-Hooks owned by this repository, registered for Claude in `.claude/settings.json`. The hooks under
+Hooks owned by this repository, registered for Claude in `.claude/settings.json` and for
+Codex in `.codex/hooks.json`. The hooks under
 `.wolf/hooks/` belong to OpenWolf and are maintained separately — do not edit those here.
 
 ## ChatGPT/Codex and manual use
 
 Read repository-root `AGENTS.md` and `.claude/README.md`. These scripts work with Node
 from any assistant's terminal, but `.claude/settings.json` registers them only in Claude.
-No automatic Codex hook installation is implied. The shared no-commit policy and Ruff
-checks apply even when neither script is registered. A regex command check is advisory
+Both configurations register the OpenWolf adapter and the no-commit guard. The adapter
+runs the Ruff check after each written file. A regex command check is advisory
 outside its registered host; it is not an OS security boundary.
 
 From the repository root, in PowerShell or Bash:
@@ -22,7 +23,38 @@ The first command only checks the supplied command; it never executes Git. To ve
 blocking, supply `--command "git commit -m example"` and expect exit code 2. The file
 check runs Ruff without modifying the file. Both hooks retain Claude's JSON stdin
 contract; they also accept top-level `command`/`cmd` or `file_path` payloads for manual
-adapters. Do not claim this is an automatic Codex event schema.
+adapters. Codex patch translation is handled by `openwolf-compat.js`.
+
+## OpenWolf compatibility
+
+`openwolf-compat.js claude|codex <hook-name>` forwards native lifecycle events to
+OpenWolf and sets agent attribution explicitly. Claude's file payloads pass through;
+Codex `apply_patch` payloads are split into individual create, edit, move and delete
+observations. Each file gets its own event identifier derived from the tool call.
+Deletions remove stale anatomy entries using OpenWolf's locked store API. The adapter
+does not change OpenWolf's generated scripts or reconstruct historical empty sessions.
+
+The Bash hook also registers literal, single-file PowerShell `Get-Content` reads.
+Compound commands, globs and arbitrary shell writes are not interpreted as file events.
+Keep file edits in the host's dedicated edit tool for complete write bookkeeping.
+
+Both hosts share `.wolf/memory.md` and anatomy, while session state and usage attribution
+remain separate. A shared project journal does not synchronize the hosts' chat histories.
+Local command hooks require a host that supports them; cloud-orchestrated Work does not
+execute these local registrations.
+
+After initializing or updating OpenWolf, restore the repository registrations with:
+
+```text
+node .claude/hooks/setup-openwolf-hooks.js --apply
+node .claude/hooks/setup-openwolf-hooks.js --check
+```
+
+The setup script preserves unrelated hooks and settings. Reload the sessions after
+configuration changes. Codex may require trust of changed hook definitions; approval
+belongs to the user and is not bypassed by these scripts. Run `openwolf.cmd status` and
+inspect new journal entries after real file edits. Initialization alone is not evidence
+that writes are being tracked.
 
 ## `block-git-commit.js`
 
@@ -62,8 +94,8 @@ output.
 
 ## `ruff-format-check.js`
 
-**Event:** `PostToolUse`, matcher `Write|Edit|MultiEdit`. Registered *after* the OpenWolf
-`post-write.js` hook so the anatomy index is updated either way.
+**Event:** `PostToolUse`, called by `openwolf-compat.js` after OpenWolf's
+`post-write.js` for each written file, in both hosts.
 
 After a `.py` file under `src/` is written, runs `ruff format --check` and `ruff check`
 on that one file — the two gates the CI `static` job applies to the whole tree. Exit 2
