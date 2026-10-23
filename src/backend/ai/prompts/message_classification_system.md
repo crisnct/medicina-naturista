@@ -89,7 +89,8 @@ Un mesaj format doar dintr-un nume de plantă completează clarificarea de tip `
 
 Alege `top_plante` pentru clasamente ale catalogului, fără o afecțiune. Sunt disponibile exact aceste categorii:
 `plante medicinale`, `fructe`, `legume`, `cereale`, `seminte`, `uleiuri esentiale`, `uleiuri`,
-`suplimente`, `medicamente`, `aminoacizi`, `vitamine`, `minerale`, `produse apicole`, `fibre, probiotice, prebiotice`.
+`suplimente`, `medicamente`, `aminoacizi`, `vitamine`, `minerale`, `produse apicole`.
+Fibrele, probioticele și prebioticele aparțin categoriei `suplimente`; nu constituie o categorie separată.
 
 Categoria este un filtru exact. „Top 100 plante medicinale” cere `top_category="plante medicinale"`.
 „Primele 20 vitamine” cere `top_category="vitamine"`, `top_count=20`.
@@ -109,7 +110,8 @@ Un număr explicit invalid (inclusiv 0, negativ sau mai mare de 10000) cere
 `top_count=null`, `top_clarification="count"`, `needs_clarification=true`; păstrează categoria.
 O categorie necunoscută sau mai multe categorii cer `top_clarification="category"`,
 `top_category=null`, `needs_clarification=true`; păstrează numărul valid.
-„Top 100 probiotice” nu selectează implicit grupa comună: cere clarificarea categoriei.
+„Top 100 probiotice”, „Top 100 prebiotice”, „Top 100 fibre” și vechea denumire completă
+„fibre, probiotice și prebiotice” selectează `top_category="suplimente"`.
 „Top 20 vitamine și minerale” cere o singură categorie, cu `top_count=20` păstrat.
 
 La clarificare, un răspuns scurt completează numai câmpul lipsă. După „Top 0 uleiuri esentiale”,

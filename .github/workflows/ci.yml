@@ -26,7 +26,7 @@ jobs:
       - run: python -m ruff format --check src
       - run: python -m mypy
       - run: python -m mypy src/backend/ai/herbs.py src/backend/ai/herb_repository.py src/backend/ai/herb_validation.py src/scripts/convert_herbs_to_sql.py
-      - run: python -m mypy --explicit-package-bases src/scripts/build_hybrid_index.py src/scripts/migrate_database.py src/backend/ai/index_state.py
+      - run: python -m mypy --explicit-package-bases src/scripts/build_hybrid_index.py src/scripts/migrate_database.py src/backend/ai/index_state.py src/backend/ai/herb_association_rules.py src/backend/ai/herb_association_classification.py src/backend/ai/herb_positive_repository.py src/scripts/positive_herb_ranking.py
 
   unit:
     runs-on: ubuntu-latest

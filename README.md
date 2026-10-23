@@ -47,7 +47,7 @@ Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pent
 - **Planta/produsul:** nume/alias rezolvat în catalog și interogare SQL pe `herbs`, `herbs_benefits`, `medical_conditions`; numărul rezultatelor distincte apare deasupra listei de afecțiuni. Asocierile reflectă coapariții în corpus, inclusiv contraindicații.
 
   Potrivirea numelor românești acceptă flexiuni din dicționarul Hunspell inclus (articol, plural, genitiv), cu sau fără diacritice, inclusiv în denumiri din mai multe cuvinte. Regulile generale pentru intrările incomplete sunt validate cu același dicționar, fără liste de excepții pe plante. Forma exactă are prioritate; numele comune mai multor specii cer alegerea speciei.
-- **Top plante/produse:** clasament din `herbs.ranking`, filtrat exact după categoria cerută înainte de sortare și limitare. Singura sugestie de top din interfață este „Top 100 produse naturiste”. „Top X produse naturiste” afișează cele 14 categorii, fiecare pe un rând numerotat; utilizatorul răspunde cu numărul categoriei și primește până la X produse din acea categorie. O alegere invalidă repetă lista fără a schimba X. Comenzile directe precum „Top 20 suplimente”, „Top 10 plante medicinale”, „Primele 20 vitamine” și „Top 100 semințe” rămân disponibile. „Top 100”, „Top 100 plante”, „top general” și „toate categoriile” includ toate categoriile. Fără cantitate se folosesc 100 de intrări; categoriile necunoscute sau multiple cer alegerea unei singure categorii, iar un număr invalid cere o cantitate între 1 și 10000. Clarificările păstrează categoria/numărul cerut. Răspunsul arată numărul efectiv returnat, asocierile și aliasurile regionale; fără căutare hibridă sau generare AI pentru comenzile explicite.
+- **Top plante/produse:** clasament pozitiv din `herb_positive_rankings`, filtrat exact după categoria cerută înainte de sortare și limitare. Singura sugestie de top din interfață este „Top 100 produse naturiste”. „Top X produse naturiste” afișează cele 13 categorii, fiecare pe un rând numerotat; utilizatorul răspunde cu numărul categoriei și primește până la X produse din acea categorie. O alegere invalidă repetă lista fără a schimba X. Comenzile directe precum „Top 20 suplimente”, „Top 10 plante medicinale”, „Primele 20 vitamine” și „Top 100 semințe” rămân disponibile. „Top 100”, „Top 100 plante”, „top general” și „toate categoriile” includ toate categoriile. Fără cantitate se folosesc 100 de intrări; categoriile necunoscute sau multiple cer alegerea unei singure categorii, iar un număr invalid cere o cantitate între 1 și 10000. Clarificările păstrează categoria/numărul cerut. Răspunsul arată numărul efectiv returnat, asocierile și aliasurile regionale; fără căutare hibridă sau generare AI pentru comenzile explicite.
 - **Diverse:** căutare după mesajul original, fără identificarea afecțiunii prin AI și fără notificările despre afecțiunea necunoscută. Generarea raportului naturist rămâne ca în fluxul de remedii.
 - **Email raport:** adresă validată local și PDF-ul precedent din aceeași sesiune; fără căutare nouă. Mesajul poate fi o adresă singură sau o cerere precum „Trimite raportul la nume@example.com”.
 
@@ -306,9 +306,9 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 
 ## Catalogul de plante și produse
 
-Catalogul de plante și produse și aliasurile sunt citite din PostgreSQL. Căutarea unei plante ignoră diferențele de caz, diacritice și cratime; un nume comun mai multor specii cere alegerea utilizatorului. Cererile „Top N plante” afișează clasamentul plantelor și produselor după numărul de afecțiuni asociate și denumirile regionale, fără generarea unui raport. Fiecare intrare folosește formularea „util(ă) în X afecțiuni”; nota afișată precizează că numărul include și mențiuni în atenționări/contraindicații și nu demonstrează eficacitatea terapeutică.
+Catalogul de plante și produse și aliasurile sunt citite din PostgreSQL. Căutarea unei plante ignoră diferențele de caz, diacritice și cratime; un nume comun mai multor specii cere alegerea utilizatorului. Cererile „Top N plante” afișează clasamentul plantelor și produselor după numărul de afecțiuni distincte cu recomandări pozitive identificate în surse și denumirile regionale, fără generarea unui raport. Fiecare intrare folosește formularea „util(ă) în X afecțiuni”; nota precizează că atenționările, contraindicațiile și relațiile mixte sunt excluse din scor și că această clasificare nu reprezintă validare clinică. Listele generale de afecțiuni ale unui produs păstrează asocierile istorice, inclusiv avertismentele.
 
-Familiile de produse acceptate sunt `suplimente`, `uleiuri esentiale`, `uleiuri`, `medicamente`, `aminoacizi`, `vitamine`, `minerale`, `produse apicole` și `fibre, probiotice, prebiotice`. Sunt grupări tehnice de catalog, fără a stabili statutul medical sau eficacitatea produsului. Intenția API `planta` și rutele existente acoperă și produsele, recunoscute după `ro` și `en`, fără diferențe de caz sau diacritice. Produsele fără specie returnează `species=[]` și se afișează fără paranteze goale.
+Familiile de produse acceptate sunt `suplimente`, `uleiuri esentiale`, `uleiuri`, `medicamente`, `aminoacizi`, `vitamine`, `minerale` și `produse apicole`. Fibrele, probioticele și prebioticele aparțin categoriei `suplimente`. Sunt grupări tehnice de catalog, fără a stabili statutul medical sau eficacitatea produsului. Intenția API `planta` și rutele existente acoperă și produsele, recunoscute după `ro` și `en`, fără diferențe de caz sau diacritice. Produsele fără specie returnează `species=[]` și se afișează fără paranteze goale.
 
 Migrările `014`/`015` adaugă 391 de produse (inclusiv cele 12 denumiri comerciale confirmate la `suplimente`), reutilizează înregistrările pentru psyllium, ashwagandha, drojdie de bere, spirulina și chlorella și adaugă numai plantei Thuja aliasurile `arborele vietii` și `thuya occidentalis`. Denumirile vitaminice istorice și cele trei etichete de uleiuri de iasomie, vanilie și lotus alb sunt păstrate conform cerinței de catalog, fără afirmații despre identitate chimică sau extracție. „Ulei sau extract de afin” este exclus. Totalul inițial după migrare este 1.579 intrări: 1.188 botanice și 391 produse. Catalogul nu introduce automat sinonime precum `NAC`: numele canonic disponibil este `N-acetilcisteina`.
 
@@ -355,6 +355,195 @@ $env:PYTHONPATH = 'src'
 ```
 
 Completările și corecțiile cataloagelor se fac prin migrări SQL noi în `src/backend/migrations/`, păstrând ID-urile existente. Catalogul lipsă sau invalid și asocierile nesincronizate blochează rezultatele despre plante cu o eroare explicită (`503`).
+
+### Comasarea fibrelor, probioticelor și prebioticelor în suplimente
+
+Migrarea append-only `024_merge_fibre_probiotics_into_supplements.sql` mută toate intrările
+din vechea grupă în `suplimente` și elimină vechea valoare din constrângerile/indexul de
+categorii. Catalogul curent are **13 categorii**. Pe seed-ul complet sunt 11 intrări mutate,
+61 de suplimente și 1.586 de intrări în total. ID-urile, numele, aliasurile, familia, specia,
+asocierile și scorurile istorice sunt păstrate. Referințele de mai sus la categoriile
+migrărilor 014–021 descriu etapele istorice, înlocuite în acest punct de migrarea 024.
+
+Lista numerotată se încheie la `13. produse apicole`; numerele categoriilor 1–13 rămân
+neschimbate. „Top 100 probiotice”, „Top 100 prebiotice”, „Top 100 fibre” și vechea denumire
+completă cer acum topul `suplimente`, fără clasificare AI suplimentară pentru comenzile
+explicite. Numărul și regulile topului strict pozitiv rămân aceleași.
+
+Aplicarea pe baza activă se face separat, după backup și verificarea versiunilor pending;
+comanda obișnuită de migrare aplică toate migrările restante, inclusiv 023 dacă lipsește.
+Nu este necesară refacerea coaparițiilor, fragmentelor sau embeddings. Amprenta catalogului
+se schimbă: un clasament pozitiv deja publicat cere o nouă pregătire/publicare, cu reutilizarea
+cache-ului neafectat. Nu se pornește aplicația cu definiția nouă peste catalogul vechi nemigrat.
+
+## Topuri cu recomandări pozitive
+
+`herbs_benefits` și `herbs.ranking` păstrează coaparițiile istorice. Topurile citesc separat
+`herb_positive_rankings.ranking`: numărul de afecțiuni **primare** distincte cu cel puțin o
+recomandare pozitivă și nicio mențiune negativă. Pozitiv + negativ, inclusiv în documente
+diferite, înseamnă `mixed` și scor zero pentru pereche. `unclear` nu adaugă puncte și nu
+anulează o dovadă pozitivă explicită. Repetările nu multiplică scorul.
+
+Migrarea aditivă `023_positive_herb_rankings.sql` creează rulări, dovezi cu poziții în text,
+perechi, scoruri și cache. Nu clasifică și nu activează nimic. **Aplicarea în baza activă
+necesită autorizare separată**, backup verificat prin restaurare și evaluarea descrisă mai jos.
+Aplicația nu aplică migrări la startup.
+
+După aplicarea explicită a migrării într-un mediu pregătit, comenzile operatorului sunt:
+
+```powershell
+$env:PYTHONPATH = 'src'
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --analyze-positive-ranking
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --prepare-positive-ranking
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --prepare-positive-ranking --resume-positive-ranking RUN_ID
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-positive-ranking RUN_ID
+```
+
+Modurile sunt mutual exclusive cu reconstruirea asocierilor. Analiza nu cheamă Ollama și
+nu scrie: raportează unitățile, deciziile prin reguli, cazurile ambigue, cache hits și loturile
+calculate. Digestul folosit pentru analiza cache-ului este cel al ultimei pregătiri cu aceeași
+configurație, dacă există; este marcat neverificat. Pregătirea verifică modelul instalat prin
+`/api/tags`, înainte și după procesare, și publică numai o rulare neactivă `ready`. Modelul
+nu este descărcat automat. Publicarea reverifică digestul modelului, inputul, acoperirea, agregatele și pointerul
+observat la pregătire, sub lock, apoi activează într-un singur commit. O publicare concurentă
+nu poate fi suprascrisă de o rulare veche. Repetarea publicării aceleiași rulări este idempotentă.
+
+Regulile lucrează pe textul **indexat**, fără să modifice fragmentele sau embeddings.
+Unitățile se separă la limitele paragrafelor, elementelor de listă și rândurilor de tabel,
+cu titlurile relevante. Paragrafele păstrează contextul dintre propoziții, inclusiv referințele
+indirecte la produse. O unitate indivizibilă care depășește bugetele tehnice oprește explicit
+pregătirea. Ruperile simple de rând din OCR nu delimitează pasajele: segmentele contigue
+au maximum 1.000 de caractere și păstrează fiecare caracter original. În fiecare segment,
+`parts` conține citate contigue de maximum 320 de caractere, cu poziții în textul unității.
+Concatenarea lor reconstruiește exact sursa; citatele mai scurte nu măresc numărul pasajelor.
+Introducerile listelor și antetele tabelelor sunt preluate numai din textul indexat;
+coloanele fără antet disponibil nu primesc un sens presupus. Un simplu titlu de boală
+nu justifică o clasificare pozitivă. Regulile v3 tratează listele explicite și coliziunile
+gramaticale clare ale aliasurilor, vehiculele alcoolice, ingredientele adăugate numai pentru
+gust și unele descrieri strict nutritive. Interdicțiile explicite complet interpretate
+(`interzis`, `contraindicat`, `contraindicată`, `contraindicate`, `nu este permis a se consuma`)
+primesc local eticheta `caution` pentru produsul numit și afecțiunea primară verificată,
+fără cerere AI pentru o unitate astfel rezolvată. Sunt recunoscute și listele negative
+explicite. Negațiile interdicției, condițiile secundare, limitele de doză și formulările
+incomplete rămân la AI. O interdicție certă dintr-un pasaj complex se păstrează separat
+și se combină cu răspunsul modelului/cache-ului; nu elimină evaluarea celorlalte mențiuni.
+Numai în matcherul produselor, aliasul neambiguu `rosie` acoperă și formele explicite
+`rosii`, `rosiile`, `rosia`, `rosiei`, `rosiilor`, păstrând ID-ul catalogului; aliasurile
+existente au prioritate, iar adjectivele de culoare nu identifică leguma. Antetul OCR
+al unui tabel este moștenit numai din
+textul indexat anterior aceleiași secțiuni; o nouă secțiune întrerupe moștenirea. Clasificarea
+locală pozitivă verifică domeniul afecțiunii, nu doar existența unei instrucțiuni. Cazurile
+nesigure păstrează întregul context pentru AI.
+Matcherul folosește numele și aliasurile existente, fără aliasuri de uleiuri deduse automat.
+Contextul local limitează afecțiunile candidate; avertismentele despre alte afecțiuni,
+excepțiile și relațiile nesigure merg la clasificatorul local.
+
+Numele comune care indică mai multe identități de catalog și mențiunile din bibliografie
+rămân neclare și nu adaugă puncte. Clasificatorul primește întregul pasaj în segmente
+ordonate, fără trunchiere; identificatorii scurți ai segmentelor se transformă în poziții
+exacte din textul original. Schema JSON este construită pentru fiecare cerere și impune
+toți identificatorii relațiilor și numai citatele disponibile în unitatea corespunzătoare,
+cu identificatori unici în lot, de exemplu `a`, `b`, apoi `aa`. Relațiile unei unități pot
+folosi exclusiv ID-urile din propriile `segments[].parts`. Pentru unitățile scurte,
+`mention_texts` arată formulările exacte, iar `mention_quotes` indică citatele în care
+apar; pozițiile tuturor mențiunilor și sursa completă rămân disponibile.
+Mențiunile repetate ale aceleiași perechi
+produs–afecțiune dintr-o unitate primesc o singură evaluare, distribuită apoi tuturor
+mențiunilor originale. Agregarea între unități rămâne separată; nicio mențiune nu este
+omisă după găsirea unei contraindicații.
+Atenționările locale certe se combină cu decizia modelului după evaluarea tuturor
+mențiunilor, inclusiv când răspunsul provine din cache. Consultarea medicului înainte de
+utilizarea unui produs impune precauție numai când aceeași afirmație numește explicit
+produsul și afecțiunea candidat; negațiile și condițiile concurente rămân la AI.
+
+Protocolul v5 folosește codurile `0=unclear`, `1=positive`, `2=caution`, `3=mixed`, urmate
+de ID-urile dovezilor. Cache-ul păstrează etichete și poziții originale, nu forma răspunsului.
+Promptul semantic și contractul de răspuns sunt documente Markdown separate, scrise în
+română fără diacritice. Primul stabilește procesul de decizie și exemplele; al doilea
+definește codurile, acoperirea exactă și izolarea citatelor. Clarificările de calibrare
+sunt deduse din contractul proiectului, fără a fi atribuite utilizatorului ca răspunsuri noi.
+Identitatea semantică include textul, contextul complet transmis, numele, mențiunile grupate,
+politica de clasificare și digestul modelului. Versiunile regulilor și transportului sunt
+separate: un transport schimbat nu invalidează aceleași decizii semantice. Cache-ul vechi
+rămâne păstrat, fără declararea artificială a compatibilității cu noua politică.
+Profilul rulării include și amprenta implementării regulilor; o modificare a acestora
+cere o generație compatibilă nouă. Cache-ul deciziilor brute ale modelului rămâne separat
+de această amprentă, iar regulile curente sunt reaplicate înaintea agregării finale.
+Profilul verifică și politica extragerii metadatelor de catalog. Un alias complet și
+neambiguu al afecțiunii poate verifica titlul; o potrivire parțială nu este suficientă.
+Analizele pe unitate păstrează separat rolul produsului în tabel, administrarea explicită
+și restricțiile. Un avertisment colectiv pentru suplimente se leagă de categoriile
+corespunzătoare și de afecțiunea numită, apoi se combină cu rezultatul AI. Limitele de
+doză recunoscute nu devin automat contraindicații pentru afecțiune.
+Construcția loturilor serializează fiecare unitate o singură dată și caută binar cel
+mai mare prefix care respectă toate bugetele, folosind anvelopa completă reală.
+
+Loturile grupează unități scurte de maximum 1.000 de caractere pentru aceeași afecțiune
+primară. Pasajele lungi, tabelele, condițiile multiple și excepțiile complexe se procesează
+separat. Conform ultimei ajustări din 22 octombrie, o cerere conține maximum **șase pasaje,
+fiecare de maximum 1.000 de caractere**. Pasajul este segmentul transmis: o unitate
+logică lungă poate ocupa mai multe pasaje, păstrate împreună în aceeași cerere pentru a
+conserva relațiile și avertismentele. Limita anterioară cumulată de 5.000 de caractere este
+eliminată; plafonul sursei pentru loturile obișnuite este astfel de 6.000. Aceeași unitate
+se transmite o singură dată în lot, indiferent de numărul relațiilor; tabelele de nutrienți
+nu sunt retrimise separat pentru fiecare nutrient. Prin excepția cerută
+pentru unitățile prea mari, o singură unitate logică poate depăși șase pasaje: este trimisă
+integral, singură în cerere, fără trunchiere. Instrucțiunile, titlurile contextuale și schema intră
+în plafonul tehnic separat de 25.000 de caractere pentru cererea completă. Se păstrează
+maximum 20 de relații distincte. Prompturile sunt înghețate și reverificate înainte de
+finalizare. Publicarea verifică din nou profilul compatibil.
+
+| Variabilă | Implicit | Rol |
+|---|---|---|
+| `HERB_ASSOCIATION_AI_BASE` | `CONDITION_AI_LOCAL_BASE`, altfel `http://localhost:11434/v1` | Numai localhost sau hostul Docker; Compose folosește implicit `host.docker.internal`. |
+| `HERB_ASSOCIATION_AI_MODEL` | `gemma4:12b` | Independent de clasificarea conversațională și modelul raportului. |
+| `HERB_ASSOCIATION_AI_MAX_UNITS` / `HERB_ASSOCIATION_AI_MAX_PAIRS` | `6` / `20` | Maximum șase pasaje citabile pentru loturile obișnuite; unitățile prea mari se trimit izolat. Maximum 20 de relații distincte per cerere, indiferent de repetări. |
+| `HERB_ASSOCIATION_AI_MAX_PASSAGE_CHARS` | `1000` | Maximum 1.000 de caractere per pasaj citabil; fără prompt, metadate și schemă. Nu este o limită cumulată. |
+| `HERB_ASSOCIATION_AI_MAX_INPUT_CHARS` | `25000` | Plafon tehnic separat pentru întregul request serializat, inclusiv promptul, contextul și schema. |
+| `HERB_ASSOCIATION_AI_CONTEXT_TOKENS` / `HERB_ASSOCIATION_AI_MAX_OUTPUT_TOKENS` | `32768` / `2048` | Context și rezervă de răspuns. |
+| `HERB_ASSOCIATION_AI_TIMEOUT_SECONDS` / `HERB_ASSOCIATION_BUILD_TIMEOUT_SECONDS` | `120` / `7200` | Deadline per request și per comandă; timpul rămas limitează I/O. |
+| `HERB_ASSOCIATION_AI_MAX_REQUESTS` | `1000` | Plafon de încercări pentru RUN_ID, inclusiv la reluare. |
+
+Toate variabilele sunt validate de `Settings` și propagate prin Compose. Se folosește un
+singur request în zbor, temperatură zero și JSON cu schemă strictă, fără retry/fallback.
+Pentru validarea locală curentă, operatorul folosește un watchdog separat care verifică
+temperatura GPU la fiecare 10 secunde și oprește procesarea la minimum 82°C. Pauzele
+preventive de răcire sunt active: de la 75°C se așteaptă scăderea la cel mult 70°C,
+cu verificări la 10 secunde. Frecvența GPU este administrată de utilizator.
+Se verifică setul exact de candidați și citatele exacte; rezultatele incomplete sunt respinse.
+Citatele valide dovedesc proveniența, nu corectitudinea semantică. Numărul de caractere nu
+măsoară tokenii; împachetarea folosește suplimentar o limită conservatoare pe octeții UTF-8
+și rezerva de output. Calibrarea pe modelul real rămâne necesară.
+
+Cache-ul păstrează numai etichete și poziții relative validate, inclusiv `unclear`, fără
+text integral sau răspunsuri brute. Cheia include pasajul/contextul, candidatul și numele
+sale, politica promptului, configurația semantică și digestul modelului. Versiunea regulilor
+și forma transportului nu schimbă singure cheia unei decizii brute. Timeouturile
+nu schimbă cheia. Loturile reușite sunt salvate în tranzacții scurte, fără conexiuni DB sau
+lockuri ținute în timpul inferenței. O reluare explicită recuperează numai lipsurile;
+același input și digest produc zero cereri noi de clasificare. După un input schimbat,
+se începe o rulare nouă care poate reutiliza intrările de cache neafectate.
+
+Topurile nu cheamă clasificatorul și funcționează cu Ollama oprit dacă rularea publicată
+este validă. Returnează până la X intrări cu scor strict pozitiv; nu completează cu zerouri.
+Categoria fără rezultate este un rezultat valid. Lipsa unei rulări valide dă 503
+`POSITIVE_RANKING_NOT_READY`, iar schimbarea inputului/configurației dă
+`POSITIVE_RANKING_STALE`; nu există revenire la scorul istoric. Codurile indexului de bază
+rămân aplicabile. Indexarea normală nu lansează automat clasificarea și nu este anulată
+retroactiv de eșecul ei; după schimbarea indexului, topurile pot cere o nouă pregătire.
+
+Înainte de activarea pe corpusul real: calibrare măsurată pe loturi reprezentative,
+evaluare independentă documentată pe 80 de unități și minimum 100 de relații
+(inclusiv fructe/cereale), minimum 94% precizie pe pozitive, minimum 2× accelerare a
+clasificării și zero contraindicații/mixte cunoscute incluse. Comparați două rulări fără
+cache pentru fiecare variantă, pe același snapshot și model. Calculați accelerarea
+exclusiv din `classification_seconds`: timpul total
+al probei minus `cooling_seconds`, pentru ambele variante. Pauzele de răcire se raportează
+separat și nu intră în durata clasificării sau în pragul de 2×. Păstrați rularea
+anterioară și comparați hashurile/xmin ale indexului, coaparițiilor și scorurilor istorice.
+Revenirea la un pointer anterior necesită o operație explicită, cu același manifest încă
+valid; o rulare veche nu poate fi republicată peste una nouă prin comanda obișnuită.
+Progresul afișează la circa 10 secunde numai ID-uri și agregate, durată, rată și ETA.
 
 ## 📦 Schema indexului hibrid (Postgres)
 
@@ -558,7 +747,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL` | `{"ollama-deepseek-r1:8b":8192}` | Obiect JSON cu limita de ieșire per model Ollama. Pentru celelalte modele se păstrează limita globală. Valorile trebuie să fie întregi pozitive, iar ieșirea trebuie să fie mai mică decât contextul explicit. Cheile necunoscute, modelele externe și duplicatele sunt respinse. |
 | `MEDICAL_CONDITION_AI_LOCAL_MODEL` | `gemma3:1b` | Modelul Ollama local pentru clasificarea mesajului și identificarea afecțiunii; se descarcă pe host cu `ollama pull <model>`, inclusiv când aplicația rulează în Docker. |
 | `REPORT_GENERATION_MODELS` | cele 9 modele în ordinea catalogului de mai jos | Listă CSV ordonată a modelelor disponibile. Primul este implicit. Ordinea din UI este aceeași; drepturile controlează generarea, nu vizibilitatea opțiunilor. Listele goale, elementele goale, modelele necunoscute și duplicatele sunt respinse la pornire. Alegerea din UI se aplică numai jobului respectiv. |
-| `REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL` | `8000` pentru R1 8B, `25000` pentru celelalte | Obiect JSON cu limite de caractere separate pentru identificatorii din catalog. Lipsă/valoare goală → valorile implicite; un obiect explicit trebuie să includă fiecare model activat. Se numără numai textele fragmentelor. Workers: unul singur, hardcodat, fără variabilă de mediu. |
+| `REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL` | `8000` pentru R1 8B, `10000` pentru celelalte | Obiect JSON cu limite de caractere separate pentru identificatorii din catalog. Lipsă/valoare goală → valorile implicite; un obiect explicit trebuie să includă fiecare model activat. Se numără numai textele fragmentelor. Workers: unul singur, hardcodat, fără variabilă de mediu. |
 | `CONDITION_AI_LOCAL_BASE` | `http://localhost:11434/v1` (direct) / `http://host.docker.internal:11434/v1` (Compose) | Adresa Ollama de pe host, folosită pentru clasificarea mesajului și identificarea afecțiunii. |
 | `CONDITION_AI_TIMEOUT_SECONDS` | `10` | Timeout pentru identificarea afecțiunii prin Ollama local. |
 | `MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS` | `10` | Timeout la clasificare prin Ollama local, independent de identificarea afecțiunii. |

@@ -141,7 +141,7 @@ class ConditionDatabaseTests(unittest.TestCase):
                     39365,
                 )
                 self.assertEqual(
-                    connection.execute("SELECT count(*) FROM herbs").fetchone()[0], 1584
+                    connection.execute("SELECT count(*) FROM herbs").fetchone()[0], 1586
                 )
                 self.assertEqual(
                     connection.execute("SELECT count(*) FROM herb_aliases").fetchone()[0], 3136

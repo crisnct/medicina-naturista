@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-21T07:38:10.595Z",
-    "fileCount": 44,
+    "lastScanned": "2026-10-23T10:24:28.778Z",
+    "fileCount": 103,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "cfee560fb8edd105519f0f5ff892fe5b5e4c9141bf71c81ff4775ebd19468742",
-    "storeUpdatedAt": "2026-10-21T07:38:10.603Z",
-    "rootHash": "e0af92e5e08705e8"
+    "renderedHash": "28e02078ffeb85014b2528f84e1ed953369832ccb571e8752a4c46048c371692",
+    "storeUpdatedAt": "2026-10-23T10:24:28.786Z",
+    "rootHash": "1dc902a705bf69ad"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -305,26 +305,26 @@
       "tokens": 629,
       "hash": "de12c125db2d4468",
       "size": 2358,
-      "mtimeMs": 1792551974590.498,
-      "updatedAt": "2026-10-21T03:06:15.928Z",
+      "mtimeMs": 1792578297048.1758,
+      "updatedAt": "2026-10-21T10:24:58.044Z",
       "source": "hook"
     },
     "docker-compose.yaml": {
       "description": "Docker Compose: 4 services",
-      "tokens": 1905,
-      "hash": "21619ca557cd0fab",
-      "size": 6666,
-      "mtimeMs": 1792551974594.4924,
-      "updatedAt": "2026-10-21T03:06:16.103Z",
+      "tokens": 2177,
+      "hash": "51f638a7b91c8d56",
+      "size": 7619,
+      "mtimeMs": 1792650736958.0237,
+      "updatedAt": "2026-10-22T06:32:18.282Z",
       "source": "hook"
     },
     "src/backend/web/main.py": {
       "description": "FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits.",
-      "tokens": 10879,
-      "hash": "8c3259cff25afc98",
-      "size": 38076,
-      "mtimeMs": 1792552476922.0608,
-      "updatedAt": "2026-10-21T03:14:37.836Z",
+      "tokens": 10888,
+      "hash": "ee5388b17f618f36",
+      "size": 38109,
+      "mtimeMs": 1792576813214.2727,
+      "updatedAt": "2026-10-21T10:00:13.862Z",
       "source": "hook",
       "symbols": [
         {
@@ -500,7 +500,7 @@
           "kind": "fn",
           "startLine": 355,
           "endLine": 381,
-          "tokens": 297
+          "tokens": 306
         },
         {
           "name": "post_message",
@@ -812,11 +812,11 @@
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 24359,
-      "hash": "4c8bc09e12e8a9ed",
-      "size": 101425,
-      "mtimeMs": 1792568289880.613,
-      "updatedAt": "2026-10-21T07:38:10.594Z",
+      "tokens": 28179,
+      "hash": "a2268dd3cde5d907",
+      "size": 117358,
+      "mtimeMs": 1792701517701.4944,
+      "updatedAt": "2026-10-22T20:38:38.768Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -880,11 +880,11 @@
     },
     "src/backend/resources/texts.ro.toml": {
       "description": "Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română.",
-      "tokens": 7305,
-      "hash": "0ca62cdfa797b722",
-      "size": 28278,
-      "mtimeMs": 1792568055692.1567,
-      "updatedAt": "2026-10-21T07:34:16.565Z",
+      "tokens": 7500,
+      "hash": "fc70e7043b84f6c4",
+      "size": 29031,
+      "mtimeMs": 1792578834306.1438,
+      "updatedAt": "2026-10-21T10:33:55.384Z",
       "source": "hook"
     },
     "src/frontend/components/Composer.tsx": {
@@ -907,36 +907,36 @@
     },
     "src/backend/core/herb_categories.py": {
       "description": "Catalog groups and ranking scopes, independent of taxonomy and matching names.",
-      "tokens": 1057,
-      "hash": "a41481fba9b3eb87",
-      "size": 3698,
-      "mtimeMs": 1792556272670.21,
-      "updatedAt": "2026-10-21T04:17:53.052Z",
+      "tokens": 1055,
+      "hash": "f1911f05989a03f7",
+      "size": 3692,
+      "mtimeMs": 1792578834301.143,
+      "updatedAt": "2026-10-21T10:33:54.829Z",
       "source": "hook",
       "symbols": [
         {
           "name": "category_labels",
           "kind": "fn",
-          "startLine": 33,
-          "endLine": 90,
-          "tokens": 679
+          "startLine": 32,
+          "endLine": 92,
+          "tokens": 687
         },
         {
           "name": "global_top_label",
           "kind": "fn",
-          "startLine": 91,
-          "endLine": 108,
+          "startLine": 93,
+          "endLine": 110,
           "tokens": 103
         }
       ]
     },
     "src/backend/ai/message_classification.py": {
       "description": "Small, validated intent decisions through the existing local Ollama model.",
-      "tokens": 7091,
-      "hash": "adc58d09221052d2",
-      "size": 24828,
-      "mtimeMs": 1792568158610.812,
-      "updatedAt": "2026-10-21T07:35:59.112Z",
+      "tokens": 7160,
+      "hash": "619b4acc4f1eb5b0",
+      "size": 25069,
+      "mtimeMs": 1792579021632.9348,
+      "updatedAt": "2026-10-21T10:37:02.107Z",
       "source": "hook",
       "symbols": [
         {
@@ -971,39 +971,39 @@
           "name": "explicit_herb_top",
           "kind": "fn",
           "startLine": 133,
-          "endLine": 217,
-          "tokens": 1202
+          "endLine": 223,
+          "tokens": 1257
         },
         {
           "name": "complete_general_question",
           "kind": "fn",
-          "startLine": 218,
-          "endLine": 241,
+          "startLine": 224,
+          "endLine": 247,
           "tokens": 301
         },
         {
           "name": "explicit_herb_request",
           "kind": "fn",
-          "startLine": 242,
-          "endLine": 272,
+          "startLine": 248,
+          "endLine": 278,
           "tokens": 368
         },
         {
           "name": "MessageClassifier",
           "kind": "class",
-          "startLine": 273,
-          "endLine": 522,
-          "tokens": 3496
+          "startLine": 279,
+          "endLine": 530,
+          "tokens": 3508
         }
       ]
     },
     "src/backend/ai/prompts/message_classification_system.md": {
       "description": "Rol",
-      "tokens": 3448,
-      "hash": "74327d368f426cef",
-      "size": 14449,
-      "mtimeMs": 1792568158625.8052,
-      "updatedAt": "2026-10-21T07:36:00.102Z",
+      "tokens": 3485,
+      "hash": "5390bad5fbe06ffb",
+      "size": 14616,
+      "mtimeMs": 1792578834309.1516,
+      "updatedAt": "2026-10-21T10:33:55.575Z",
       "source": "hook"
     },
     "src/backend/migrations/018_reclassify_oils_medicines_and_beta_carotene.sql": {
@@ -1026,11 +1026,11 @@
     },
     "src/tests/integration/test_herb_database.py": {
       "description": "Rebuild and upgrade isolated PostgreSQL databases using only packaged SQL.",
-      "tokens": 5064,
-      "hash": "7c364787c2fe5be1",
-      "size": 17722,
-      "mtimeMs": 1792568289874.6206,
-      "updatedAt": "2026-10-21T07:38:10.322Z",
+      "tokens": 5558,
+      "hash": "2f6f0eac5379135c",
+      "size": 19452,
+      "mtimeMs": 1792579377889.7056,
+      "updatedAt": "2026-10-21T10:42:58.373Z",
       "source": "hook",
       "symbols": [
         {
@@ -1051,8 +1051,8 @@
           "name": "HerbDatabaseTests",
           "kind": "class",
           "startLine": 37,
-          "endLine": 359,
-          "tokens": 4683
+          "endLine": 389,
+          "tokens": 5168
         }
       ]
     },
@@ -1067,11 +1067,11 @@
     },
     "src/backend/core/conversation.py": {
       "description": "Conversation orchestration, independent of FastAPI and frontend modules.",
-      "tokens": 13231,
-      "hash": "909266f48621959f",
-      "size": 46318,
-      "mtimeMs": 1792568055696.6743,
-      "updatedAt": "2026-10-21T07:34:16.745Z",
+      "tokens": 13282,
+      "hash": "d3e0896ba217c2cd",
+      "size": 46496,
+      "mtimeMs": 1792576796436.8728,
+      "updatedAt": "2026-10-21T09:59:57.365Z",
       "source": "hook",
       "symbols": [
         {
@@ -1218,18 +1218,18 @@
           "name": "ConversationService",
           "kind": "class",
           "startLine": 262,
-          "endLine": 1094,
-          "tokens": 10374
+          "endLine": 1096,
+          "tokens": 10424
         }
       ]
     },
     "src/tests/unit/ai/test_message_classification.py": {
       "description": "Strict intent contract and local Ollama wiring; no external traffic.",
-      "tokens": 5230,
-      "hash": "96c88ee157203351",
-      "size": 18354,
-      "mtimeMs": 1792568158613.8115,
-      "updatedAt": "2026-10-21T07:35:59.378Z",
+      "tokens": 5385,
+      "hash": "c7ffb1543f9d11b8",
+      "size": 18901,
+      "mtimeMs": 1792578890838.4822,
+      "updatedAt": "2026-10-21T10:34:51.285Z",
       "source": "hook",
       "symbols": [
         {
@@ -1250,123 +1250,123 @@
           "name": "test_explicit_top_does_not_require_ollama_or_catalog",
           "kind": "fn",
           "startLine": 76,
-          "endLine": 112,
-          "tokens": 585
+          "endLine": 119,
+          "tokens": 740
         },
         {
           "name": "test_top_count_clarification_and_changed_subject",
           "kind": "fn",
-          "startLine": 113,
-          "endLine": 154,
-          "tokens": 518
+          "startLine": 120,
+          "endLine": 161,
+          "tokens": 517
         },
         {
           "name": "test_top_contract_rejects_invalid_limits",
           "kind": "fn",
-          "startLine": 155,
-          "endLine": 159,
+          "startLine": 162,
+          "endLine": 166,
           "tokens": 44
         },
         {
           "name": "plant_catalog",
           "kind": "fn",
-          "startLine": 160,
-          "endLine": 220,
+          "startLine": 167,
+          "endLine": 227,
           "tokens": 531
         },
         {
           "name": "test_named_catalog_plant_resolves_spurious_clarification",
           "kind": "fn",
-          "startLine": 221,
-          "endLine": 246,
+          "startLine": 228,
+          "endLine": 253,
           "tokens": 291
         },
         {
           "name": "test_two_catalog_plants_require_clarification_even_if_model_selects_one",
           "kind": "fn",
-          "startLine": 247,
-          "endLine": 263,
+          "startLine": 254,
+          "endLine": 270,
           "tokens": 161
         },
         {
           "name": "test_catalog_plant_does_not_replace_a_remedy_request",
           "kind": "fn",
-          "startLine": 264,
-          "endLine": 272,
+          "startLine": 271,
+          "endLine": 279,
           "tokens": 105
         },
         {
           "name": "test_catalog_unavailability_does_not_disable_other_classification",
           "kind": "fn",
-          "startLine": 273,
-          "endLine": 283,
+          "startLine": 280,
+          "endLine": 290,
           "tokens": 116
         },
         {
           "name": "test_no_catalog_substring_or_unknown_plant_is_assumed_to_be_named",
           "kind": "fn",
-          "startLine": 284,
-          "endLine": 298,
+          "startLine": 291,
+          "endLine": 305,
           "tokens": 154
         },
         {
           "name": "test_ambiguous_name_is_selected_only_from_the_presented_choices",
           "kind": "fn",
-          "startLine": 299,
-          "endLine": 310,
+          "startLine": 306,
+          "endLine": 317,
           "tokens": 164
         },
         {
           "name": "test_explicit_choice_completes_ambiguity_with_one_species",
           "kind": "fn",
-          "startLine": 311,
-          "endLine": 324,
+          "startLine": 318,
+          "endLine": 331,
           "tokens": 194
         },
         {
           "name": "test_one_shared_alias_reaches_catalog_choices_instead_of_generic_clarification",
           "kind": "fn",
-          "startLine": 325,
-          "endLine": 348,
+          "startLine": 332,
+          "endLine": 355,
           "tokens": 259
         },
         {
           "name": "test_invalid_output_is_rejected",
           "kind": "fn",
-          "startLine": 349,
-          "endLine": 353,
+          "startLine": 356,
+          "endLine": 360,
           "tokens": 41
         },
         {
           "name": "test_existing_ollama_configuration_and_bounded_request_are_reused",
           "kind": "fn",
-          "startLine": 354,
-          "endLine": 371,
+          "startLine": 361,
+          "endLine": 378,
           "tokens": 238
         },
         {
           "name": "test_ollama_request_needs_no_hf_token_and_uses_the_existing_endpoint",
           "kind": "fn",
-          "startLine": 372,
-          "endLine": 439,
+          "startLine": 379,
+          "endLine": 446,
           "tokens": 770
         },
         {
           "name": "test_failed_ollama_response_is_unavailable_without_a_hf_fallback",
           "kind": "fn",
-          "startLine": 440,
-          "endLine": 455,
+          "startLine": 447,
+          "endLine": 462,
           "tokens": 183
         }
       ]
     },
     "src/tests/unit/web/test_message_routing.py": {
       "description": "Intent routing, cancellation and email claims with isolated HTTP dependencies.",
-      "tokens": 7274,
-      "hash": "c82403171a6eb298",
-      "size": 25548,
-      "mtimeMs": 1792568158617.8125,
-      "updatedAt": "2026-10-21T07:35:59.641Z",
+      "tokens": 7345,
+      "hash": "5890be759d0d18ea",
+      "size": 25797,
+      "mtimeMs": 1792578890839.5457,
+      "updatedAt": "2026-10-21T10:34:51.600Z",
       "source": "hook",
       "symbols": [
         {
@@ -1422,147 +1422,147 @@
           "name": "test_top_returns_names_and_aliases_without_search_or_report",
           "kind": "fn",
           "startLine": 112,
-          "endLine": 147,
-          "tokens": 494
+          "endLine": 148,
+          "tokens": 544
         },
         {
           "name": "test_top_without_count_asks_then_accepts_count_only",
           "kind": "fn",
-          "startLine": 148,
-          "endLine": 206,
-          "tokens": 805
+          "startLine": 149,
+          "endLine": 209,
+          "tokens": 824
         },
         {
           "name": "test_diverse_skips_ai_identification_and_direct_condition_endpoint",
           "kind": "fn",
-          "startLine": 207,
-          "endLine": 230,
+          "startLine": 210,
+          "endLine": 233,
           "tokens": 336
         },
         {
           "name": "test_diverse_only_conditions_requests_other_signals_without_clinical_warning",
           "kind": "fn",
-          "startLine": 231,
-          "endLine": 243,
+          "startLine": 234,
+          "endLine": 246,
           "tokens": 156
         },
         {
           "name": "test_plant_returns_structured_results_without_search_or_identification",
           "kind": "fn",
-          "startLine": 244,
-          "endLine": 275,
+          "startLine": 247,
+          "endLine": 278,
           "tokens": 365
         },
         {
           "name": "test_plant_clarification_is_passed_to_the_next_classification",
           "kind": "fn",
-          "startLine": 276,
-          "endLine": 299,
+          "startLine": 279,
+          "endLine": 302,
           "tokens": 269
         },
         {
           "name": "test_named_reply_finishes_plant_clarification_and_returns_results",
           "kind": "fn",
-          "startLine": 300,
-          "endLine": 333,
+          "startLine": 303,
+          "endLine": 336,
           "tokens": 380
         },
         {
           "name": "test_shared_name_lists_species_then_uses_only_the_user_choice",
           "kind": "fn",
-          "startLine": 334,
-          "endLine": 366,
+          "startLine": 337,
+          "endLine": 369,
           "tokens": 404
         },
         {
           "name": "test_classification_is_reused_without_duplicate_messages_or_calls",
           "kind": "fn",
-          "startLine": 367,
-          "endLine": 378,
+          "startLine": 370,
+          "endLine": 381,
           "tokens": 178
         },
         {
           "name": "test_new_message_discards_late_classification_and_concurrent_call_is_rejected",
           "kind": "fn",
-          "startLine": 379,
-          "endLine": 405,
+          "startLine": 382,
+          "endLine": 408,
           "tokens": 307
         },
         {
           "name": "test_classification_requires_revision_and_search_cannot_bypass_it",
           "kind": "fn",
-          "startLine": 406,
-          "endLine": 412,
+          "startLine": 409,
+          "endLine": 415,
           "tokens": 93
         },
         {
           "name": "test_email_selects_previous_report_before_classification_and_never_resends",
           "kind": "fn",
-          "startLine": 413,
-          "endLine": 443,
+          "startLine": 416,
+          "endLine": 446,
           "tokens": 354
         },
         {
           "name": "test_email_needs_one_explicit_valid_address",
           "kind": "fn",
-          "startLine": 444,
-          "endLine": 458,
+          "startLine": 447,
+          "endLine": 461,
           "tokens": 163
         },
         {
           "name": "test_email_clarification_keeps_its_report_and_can_be_completed_with_address",
           "kind": "fn",
-          "startLine": 459,
-          "endLine": 473,
+          "startLine": 462,
+          "endLine": 476,
           "tokens": 197
         },
         {
           "name": "test_email_without_report_does_not_search",
           "kind": "fn",
-          "startLine": 474,
-          "endLine": 483,
+          "startLine": 477,
+          "endLine": 486,
           "tokens": 126
         },
         {
           "name": "test_email_failure_keeps_pdf_and_claim_prevents_automatic_retry",
           "kind": "fn",
-          "startLine": 484,
-          "endLine": 499,
+          "startLine": 487,
+          "endLine": 502,
           "tokens": 205
         },
         {
           "name": "test_provider_failure_has_controlled_fallback_and_cannot_send_email",
           "kind": "fn",
-          "startLine": 500,
-          "endLine": 510,
+          "startLine": 503,
+          "endLine": 513,
           "tokens": 118
         },
         {
           "name": "test_bare_email_retains_deterministic_fallback",
           "kind": "fn",
-          "startLine": 511,
-          "endLine": 520,
+          "startLine": 514,
+          "endLine": 523,
           "tokens": 107
         },
         {
           "name": "test_duplicate_message_id_cannot_resend_email_even_after_other_messages",
           "kind": "fn",
-          "startLine": 521,
-          "endLine": 542,
+          "startLine": 524,
+          "endLine": 545,
           "tokens": 320
         },
         {
           "name": "test_local_classifier_failure_is_explained_in_the_fallback",
           "kind": "fn",
-          "startLine": 543,
-          "endLine": 554,
+          "startLine": 546,
+          "endLine": 557,
           "tokens": 145
         },
         {
           "name": "test_named_remedy_reply_starts_search_despite_model_clarification",
           "kind": "fn",
-          "startLine": 555,
-          "endLine": 580,
+          "startLine": 558,
+          "endLine": 583,
           "tokens": 351
         }
       ]
@@ -1574,6 +1574,1766 @@
       "size": 4290,
       "mtimeMs": 1792568158621.8115,
       "updatedAt": "2026-10-21T07:35:59.908Z",
+      "source": "hook"
+    },
+    "aiPlans/2026-10-21-topuri-recomandari-pozitive-fara-contraindicatii.md": {
+      "description": "Topuri bazate pe recomandări pozitive din surse",
+      "tokens": 8284,
+      "hash": "70338b2a354b0eef",
+      "size": 34504,
+      "mtimeMs": 1792693386821.745,
+      "updatedAt": "2026-10-22T18:23:07.602Z",
+      "source": "hook"
+    },
+    "src/backend/ai/herb_association_rules.py": {
+      "description": "Conservative source-polarity rules over unchanged indexed text and primary conditions.",
+      "tokens": 16063,
+      "hash": "c2c45a0aa61fbdb2",
+      "size": 56224,
+      "mtimeMs": 1792701772235.97,
+      "updatedAt": "2026-10-22T20:42:52.752Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "content_hash",
+          "kind": "fn",
+          "startLine": 32,
+          "endLine": 38,
+          "tokens": 59
+        },
+        {
+          "name": "IndexedPassage",
+          "kind": "class",
+          "startLine": 39,
+          "endLine": 49,
+          "tokens": 53
+        },
+        {
+          "name": "Candidate",
+          "kind": "class",
+          "startLine": 50,
+          "endLine": 57,
+          "tokens": 39
+        },
+        {
+          "name": "Unit",
+          "kind": "class",
+          "startLine": 58,
+          "endLine": 81,
+          "tokens": 194
+        },
+        {
+          "name": "Decision",
+          "kind": "class",
+          "startLine": 82,
+          "endLine": 89,
+          "tokens": 61
+        },
+        {
+          "name": "NameMatcher",
+          "kind": "class",
+          "startLine": 90,
+          "endLine": 125,
+          "tokens": 494
+        },
+        {
+          "name": "extract_units",
+          "kind": "fn",
+          "startLine": 126,
+          "endLine": 312,
+          "tokens": 2059
+        },
+        {
+          "name": "table_header_text",
+          "kind": "fn",
+          "startLine": 313,
+          "endLine": 348,
+          "tokens": 350
+        },
+        {
+          "name": "source_context",
+          "kind": "fn",
+          "startLine": 349,
+          "endLine": 382,
+          "tokens": 427
+        },
+        {
+          "name": "_list_instruction",
+          "kind": "fn",
+          "startLine": 383,
+          "endLine": 408,
+          "tokens": 259
+        },
+        {
+          "name": "_prohibition_spans",
+          "kind": "fn",
+          "startLine": 409,
+          "endLine": 468,
+          "tokens": 486
+        },
+        {
+          "name": "_explicit_prohibition",
+          "kind": "fn",
+          "startLine": 469,
+          "endLine": 490,
+          "tokens": 250
+        },
+        {
+          "name": "_atomic_instruction",
+          "kind": "fn",
+          "startLine": 491,
+          "endLine": 579,
+          "tokens": 669
+        },
+        {
+          "name": "_administered_recipe",
+          "kind": "fn",
+          "startLine": 580,
+          "endLine": 618,
+          "tokens": 425
+        },
+        {
+          "name": "_ingredient_only",
+          "kind": "fn",
+          "startLine": 619,
+          "endLine": 732,
+          "tokens": 867
+        },
+        {
+          "name": "_descriptive_mention",
+          "kind": "fn",
+          "startLine": 733,
+          "endLine": 837,
+          "tokens": 1326
+        },
+        {
+          "name": "_verified_primary_heading",
+          "kind": "fn",
+          "startLine": 838,
+          "endLine": 871,
+          "tokens": 299
+        },
+        {
+          "name": "_dose_row_bounds",
+          "kind": "fn",
+          "startLine": 872,
+          "endLine": 903,
+          "tokens": 341
+        },
+        {
+          "name": "_explicit_dose_row",
+          "kind": "fn",
+          "startLine": 904,
+          "endLine": 943,
+          "tokens": 498
+        },
+        {
+          "name": "_condition_homonym",
+          "kind": "fn",
+          "startLine": 944,
+          "endLine": 958,
+          "tokens": 231
+        },
+        {
+          "name": "_identity_decision",
+          "kind": "fn",
+          "startLine": 959,
+          "endLine": 1037,
+          "tokens": 964
+        },
+        {
+          "name": "classify_rule",
+          "kind": "fn",
+          "startLine": 1038,
+          "endLine": 1179,
+          "tokens": 1584
+        },
+        {
+          "name": "_classify_adjacent",
+          "kind": "fn",
+          "startLine": 1180,
+          "endLine": 1287,
+          "tokens": 1268
+        },
+        {
+          "name": "_collective_warning",
+          "kind": "fn",
+          "startLine": 1288,
+          "endLine": 1325,
+          "tokens": 508
+        },
+        {
+          "name": "scoped_warning",
+          "kind": "fn",
+          "startLine": 1326,
+          "endLine": 1430,
+          "tokens": 1301
+        },
+        {
+          "name": "combine_decisions",
+          "kind": "fn",
+          "startLine": 1431,
+          "endLine": 1452,
+          "tokens": 246
+        },
+        {
+          "name": "pair_state",
+          "kind": "fn",
+          "startLine": 1453,
+          "endLine": 1465,
+          "tokens": 103
+        }
+      ]
+    },
+    "src/backend/ai/herb_association_classification.py": {
+      "description": "Bounded local-only polarity classification; validated quotations are source provenance.",
+      "tokens": 5563,
+      "hash": "6a494367a5fa64c2",
+      "size": 19470,
+      "mtimeMs": 1792696546201.5818,
+      "updatedAt": "2026-10-22T19:15:47.021Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "classification_prompt",
+          "kind": "fn",
+          "startLine": 38,
+          "endLine": 44,
+          "tokens": 72
+        },
+        {
+          "name": "group_works",
+          "kind": "fn",
+          "startLine": 45,
+          "endLine": 66,
+          "tokens": 217
+        },
+        {
+          "name": "quotation_spans",
+          "kind": "fn",
+          "startLine": 67,
+          "endLine": 91,
+          "tokens": 297
+        },
+        {
+          "name": "response_schema",
+          "kind": "fn",
+          "startLine": 92,
+          "endLine": 148,
+          "tokens": 519
+        },
+        {
+          "name": "AssociationClient",
+          "kind": "class",
+          "startLine": 149,
+          "endLine": 155,
+          "tokens": 111
+        },
+        {
+          "name": "semantic_config",
+          "kind": "fn",
+          "startLine": 156,
+          "endLine": 175,
+          "tokens": 247
+        },
+        {
+          "name": "relation_id",
+          "kind": "fn",
+          "startLine": 176,
+          "endLine": 180,
+          "tokens": 36
+        },
+        {
+          "name": "cache_key",
+          "kind": "fn",
+          "startLine": 181,
+          "endLine": 200,
+          "tokens": 190
+        },
+        {
+          "name": "_batch_quotations",
+          "kind": "fn",
+          "startLine": 201,
+          "endLine": 222,
+          "tokens": 247
+        },
+        {
+          "name": "serialize_batch",
+          "kind": "fn",
+          "startLine": 223,
+          "endLine": 282,
+          "tokens": 621
+        },
+        {
+          "name": "pack_batches",
+          "kind": "fn",
+          "startLine": 283,
+          "endLine": 386,
+          "tokens": 1231
+        },
+        {
+          "name": "validate_response",
+          "kind": "fn",
+          "startLine": 387,
+          "endLine": 436,
+          "tokens": 577
+        },
+        {
+          "name": "validate_cached",
+          "kind": "fn",
+          "startLine": 437,
+          "endLine": 458,
+          "tokens": 203
+        },
+        {
+          "name": "model_digest",
+          "kind": "fn",
+          "startLine": 459,
+          "endLine": 475,
+          "tokens": 211
+        },
+        {
+          "name": "make_client",
+          "kind": "fn",
+          "startLine": 476,
+          "endLine": 505,
+          "tokens": 338
+        }
+      ]
+    },
+    "src/backend/ai/prompts/herb_association_classification_system.md": {
+      "description": "Clasificator de dovezi produs-afectiune",
+      "tokens": 1441,
+      "hash": "20d0d69fb214b838",
+      "size": 5764,
+      "mtimeMs": 1792695758986.5981,
+      "updatedAt": "2026-10-22T19:02:39.721Z",
+      "source": "hook"
+    },
+    "src/backend/ai/client.py": {
+      "description": "Sequential whole-fragment report batches through the selected AI provider.",
+      "tokens": 8801,
+      "hash": "050a7928ea6b2094",
+      "size": 30803,
+      "mtimeMs": 1792576530811.6362,
+      "updatedAt": "2026-10-21T09:55:31.782Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "_ordered_entries",
+          "kind": "fn",
+          "startLine": 41,
+          "endLine": 52,
+          "tokens": 105
+        },
+        {
+          "name": "AIUnavailable",
+          "kind": "class",
+          "startLine": 53,
+          "endLine": 59,
+          "tokens": 74
+        },
+        {
+          "name": "_parse_json_object",
+          "kind": "fn",
+          "startLine": 60,
+          "endLine": 71,
+          "tokens": 116
+        },
+        {
+          "name": "_StreamedResponse",
+          "kind": "class",
+          "startLine": 72,
+          "endLine": 88,
+          "tokens": 126
+        },
+        {
+          "name": "_response_metrics",
+          "kind": "fn",
+          "startLine": 89,
+          "endLine": 106,
+          "tokens": 176
+        },
+        {
+          "name": "_ollama_metrics",
+          "kind": "fn",
+          "startLine": 107,
+          "endLine": 130,
+          "tokens": 217
+        },
+        {
+          "name": "_collect_stream",
+          "kind": "fn",
+          "startLine": 131,
+          "endLine": 185,
+          "tokens": 691
+        },
+        {
+          "name": "ResponsesClient",
+          "kind": "class",
+          "startLine": 186,
+          "endLine": 538,
+          "tokens": 4564
+        },
+        {
+          "name": "OllamaReportClient",
+          "kind": "class",
+          "startLine": 539,
+          "endLine": 672,
+          "tokens": 1686
+        },
+        {
+          "name": "XAIClient",
+          "kind": "class",
+          "startLine": 673,
+          "endLine": 679,
+          "tokens": 95
+        },
+        {
+          "name": "create_ai_client",
+          "kind": "fn",
+          "startLine": 680,
+          "endLine": 685,
+          "tokens": 57
+        },
+        {
+          "name": "create_report_clients",
+          "kind": "fn",
+          "startLine": 686,
+          "endLine": 713,
+          "tokens": 353
+        }
+      ]
+    },
+    "src/backend/config.py": {
+      "description": "Environment-backed settings. No patient data belongs in configuration or logs.",
+      "tokens": 9105,
+      "hash": "31b703b33be7829f",
+      "size": 31866,
+      "mtimeMs": 1792650784663.058,
+      "updatedAt": "2026-10-22T06:33:05.157Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "_batch_limits",
+          "kind": "fn",
+          "startLine": 28,
+          "endLine": 63,
+          "tokens": 443
+        },
+        {
+          "name": "_freeze_ollama_limits",
+          "kind": "fn",
+          "startLine": 64,
+          "endLine": 78,
+          "tokens": 161
+        },
+        {
+          "name": "_ollama_limits",
+          "kind": "fn",
+          "startLine": 79,
+          "endLine": 105,
+          "tokens": 314
+        },
+        {
+          "name": "_int",
+          "kind": "fn",
+          "startLine": 106,
+          "endLine": 121,
+          "tokens": 139
+        },
+        {
+          "name": "_bool",
+          "kind": "fn",
+          "startLine": 122,
+          "endLine": 137,
+          "tokens": 146
+        },
+        {
+          "name": "_embedding_device",
+          "kind": "fn",
+          "startLine": 138,
+          "endLine": 148,
+          "tokens": 128
+        },
+        {
+          "name": "_ai_provider",
+          "kind": "fn",
+          "startLine": 149,
+          "endLine": 156,
+          "tokens": 72
+        },
+        {
+          "name": "Settings",
+          "kind": "class",
+          "startLine": 157,
+          "endLine": 649,
+          "tokens": 7176
+        },
+        {
+          "name": "configure_settings",
+          "kind": "fn",
+          "startLine": 650,
+          "endLine": 662,
+          "tokens": 137
+        }
+      ]
+    },
+    "src/backend/migrations/023_positive_herb_rankings.sql": {
+      "description": "Additive source-polarity generations. Historical co-occurrences retain their meaning.",
+      "tokens": 1124,
+      "hash": "bf2424a49a2cc9bb",
+      "size": 4212,
+      "mtimeMs": 1792576599283.6345,
+      "updatedAt": "2026-10-21T09:56:39.751Z",
+      "source": "hook"
+    },
+    "src/backend/ai/herb_positive_repository.py": {
+      "description": "Short snapshot/cache transactions and atomic publication of source-polarity generations.",
+      "tokens": 5422,
+      "hash": "bda7c2ca88b61cb0",
+      "size": 18974,
+      "mtimeMs": 1792701420522.9636,
+      "updatedAt": "2026-10-22T20:37:01.354Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "unavailable",
+          "kind": "fn",
+          "startLine": 36,
+          "endLine": 44,
+          "tokens": 87
+        },
+        {
+          "name": "Snapshot",
+          "kind": "class",
+          "startLine": 45,
+          "endLine": 54,
+          "tokens": 67
+        },
+        {
+          "name": "snapshot",
+          "kind": "fn",
+          "startLine": 55,
+          "endLine": 99,
+          "tokens": 500
+        },
+        {
+          "name": "evidence_rows",
+          "kind": "fn",
+          "startLine": 100,
+          "endLine": 108,
+          "tokens": 106
+        },
+        {
+          "name": "assert_integrity",
+          "kind": "fn",
+          "startLine": 109,
+          "endLine": 139,
+          "tokens": 508
+        },
+        {
+          "name": "PositiveRepository",
+          "kind": "class",
+          "startLine": 140,
+          "endLine": 395,
+          "tokens": 3456
+        },
+        {
+          "name": "active_run",
+          "kind": "fn",
+          "startLine": 396,
+          "endLine": 420,
+          "tokens": 263
+        }
+      ]
+    },
+    "src/scripts/positive_herb_ranking.py": {
+      "description": "Explicit, resumable positive-ranking stages used by the existing index CLI.",
+      "tokens": 2505,
+      "hash": "df3953e8ee496229",
+      "size": 8767,
+      "mtimeMs": 1792650736950.9143,
+      "updatedAt": "2026-10-22T06:32:17.771Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "run_positive_ranking",
+          "kind": "fn",
+          "startLine": 35,
+          "endLine": 215,
+          "tokens": 2201
+        }
+      ]
+    },
+    "src/scripts/build_hybrid_index.py": {
+      "description": "Incrementally sync a traceable, local-only hybrid index for a Markdown",
+      "tokens": 16529,
+      "hash": "7b6346ffdd50e057",
+      "size": 57862,
+      "mtimeMs": 1792577409699.3455,
+      "updatedAt": "2026-10-21T10:10:10.593Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "_build_stage",
+          "kind": "fn",
+          "startLine": 98,
+          "endLine": 102,
+          "tokens": 26
+        },
+        {
+          "name": "_safe_index_error",
+          "kind": "fn",
+          "startLine": 103,
+          "endLine": 127,
+          "tokens": 270
+        },
+        {
+          "name": "HerbsIndexContext",
+          "kind": "class",
+          "startLine": 128,
+          "endLine": 144,
+          "tokens": 131
+        },
+        {
+          "name": "HerbsIndexStats",
+          "kind": "class",
+          "startLine": 145,
+          "endLine": 166,
+          "tokens": 141
+        },
+        {
+          "name": "EmbeddingModel",
+          "kind": "class",
+          "startLine": 167,
+          "endLine": 172,
+          "tokens": 46
+        },
+        {
+          "name": "_herbs_bitmap_bytes",
+          "kind": "fn",
+          "startLine": 173,
+          "endLine": 179,
+          "tokens": 111
+        },
+        {
+          "name": "_prepare_herbs_index",
+          "kind": "fn",
+          "startLine": 180,
+          "endLine": 246,
+          "tokens": 694
+        },
+        {
+          "name": "_load_herbs_backend",
+          "kind": "fn",
+          "startLine": 247,
+          "endLine": 258,
+          "tokens": 113
+        },
+        {
+          "name": "_make_herbs_matcher",
+          "kind": "fn",
+          "startLine": 259,
+          "endLine": 268,
+          "tokens": 74
+        },
+        {
+          "name": "_match_herbs",
+          "kind": "fn",
+          "startLine": 269,
+          "endLine": 279,
+          "tokens": 106
+        },
+        {
+          "name": "_initialize_herbs_worker",
+          "kind": "fn",
+          "startLine": 280,
+          "endLine": 286,
+          "tokens": 60
+        },
+        {
+          "name": "_scan_herbs_batch",
+          "kind": "fn",
+          "startLine": 287,
+          "endLine": 301,
+          "tokens": 167
+        },
+        {
+          "name": "_prepared_herbs_workers",
+          "kind": "fn",
+          "startLine": 302,
+          "endLine": 356,
+          "tokens": 617
+        },
+        {
+          "name": "_herbs_startup_job",
+          "kind": "fn",
+          "startLine": 357,
+          "endLine": 364,
+          "tokens": 75
+        },
+        {
+          "name": "_herbs_condition_mask",
+          "kind": "fn",
+          "startLine": 365,
+          "endLine": 373,
+          "tokens": 87
+        },
+        {
+          "name": "_new_herbs_pairs",
+          "kind": "fn",
+          "startLine": 374,
+          "endLine": 384,
+          "tokens": 113
+        },
+        {
+          "name": "_herbs_metadata",
+          "kind": "fn",
+          "startLine": 385,
+          "endLine": 394,
+          "tokens": 115
+        },
+        {
+          "name": "HerbsProgress",
+          "kind": "class",
+          "startLine": 395,
+          "endLine": 428,
+          "tokens": 409
+        },
+        {
+          "name": "_rebuild_herbs_benefits",
+          "kind": "fn",
+          "startLine": 429,
+          "endLine": 616,
+          "tokens": 2421
+        },
+        {
+          "name": "_indexed_herb_ids",
+          "kind": "fn",
+          "startLine": 617,
+          "endLine": 631,
+          "tokens": 173
+        },
+        {
+          "name": "rebuild_herbs_only",
+          "kind": "fn",
+          "startLine": 632,
+          "endLine": 691,
+          "tokens": 877
+        },
+        {
+          "name": "GPUUsageMonitor",
+          "kind": "class",
+          "startLine": 692,
+          "endLine": 770,
+          "tokens": 771
+        },
+        {
+          "name": "SourceFile",
+          "kind": "class",
+          "startLine": 771,
+          "endLine": 786,
+          "tokens": 124
+        },
+        {
+          "name": "Chunk",
+          "kind": "class",
+          "startLine": 787,
+          "endLine": 806,
+          "tokens": 189
+        },
+        {
+          "name": "utc_now",
+          "kind": "fn",
+          "startLine": 807,
+          "endLine": 811,
+          "tokens": 45
+        },
+        {
+          "name": "sha256_bytes",
+          "kind": "fn",
+          "startLine": 812,
+          "endLine": 818,
+          "tokens": 75
+        },
+        {
+          "name": "sha256_file",
+          "kind": "fn",
+          "startLine": 819,
+          "endLine": 827,
+          "tokens": 94
+        },
+        {
+          "name": "read_markdown",
+          "kind": "fn",
+          "startLine": 828,
+          "endLine": 838,
+          "tokens": 123
+        },
+        {
+          "name": "normalize_text",
+          "kind": "fn",
+          "startLine": 839,
+          "endLine": 845,
+          "tokens": 78
+        },
+        {
+          "name": "_embedding_context",
+          "kind": "fn",
+          "startLine": 846,
+          "endLine": 1408,
+          "tokens": 6740
+        }
+      ]
+    },
+    "src/backend/ai/herb_ranking.py": {
+      "description": "Read a bounded catalog ranking with regional Romanian names.",
+      "tokens": 886,
+      "hash": "70afaef048eaa9a7",
+      "size": 3100,
+      "mtimeMs": 1792576796434.87,
+      "updatedAt": "2026-10-21T09:59:56.888Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "list_top_herbs",
+          "kind": "fn",
+          "startLine": 36,
+          "endLine": 74,
+          "tokens": 531
+        }
+      ]
+    },
+    "src/tests/unit/ai/test_build_hybrid_index.py": {
+      "description": "FakeClock: make_chunk, embed, fake_embed, test_normalize_text_preserves_composed_romanian_diacritics",
+      "tokens": 14444,
+      "hash": "9e667fdca39d043c",
+      "size": 50558,
+      "mtimeMs": 1792701772237.332,
+      "updatedAt": "2026-10-22T20:42:53.042Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "make_chunk",
+          "kind": "fn",
+          "startLine": 19,
+          "endLine": 32,
+          "tokens": 113
+        },
+        {
+          "name": "FakeClock",
+          "kind": "class",
+          "startLine": 33,
+          "endLine": 40,
+          "tokens": 49
+        },
+        {
+          "name": "FakeEmbeddingModel",
+          "kind": "class",
+          "startLine": 41,
+          "endLine": 59,
+          "tokens": 242
+        },
+        {
+          "name": "fake_embed",
+          "kind": "fn",
+          "startLine": 60,
+          "endLine": 65,
+          "tokens": 66
+        },
+        {
+          "name": "ChunkingTests",
+          "kind": "class",
+          "startLine": 66,
+          "endLine": 930,
+          "tokens": 10696
+        },
+        {
+          "name": "EmbeddingProgressTests",
+          "kind": "class",
+          "startLine": 931,
+          "endLine": 1059,
+          "tokens": 1515
+        },
+        {
+          "name": "EmbeddingProfileTests",
+          "kind": "class",
+          "startLine": 1060,
+          "endLine": 1088,
+          "tokens": 363
+        },
+        {
+          "name": "make_source",
+          "kind": "fn",
+          "startLine": 1089,
+          "endLine": 1102,
+          "tokens": 115
+        },
+        {
+          "name": "CategoryTreeTests",
+          "kind": "class",
+          "startLine": 1103,
+          "endLine": 1166,
+          "tokens": 808
+        }
+      ]
+    },
+    "src/tests/unit/core/test_settings.py": {
+      "description": "Runtime configuration isolation, positivity and budget relationships.",
+      "tokens": 1617,
+      "hash": "ed82fcf72182cc1c",
+      "size": 5659,
+      "mtimeMs": 1792650784667.066,
+      "updatedAt": "2026-10-22T06:33:05.423Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "SettingsTests",
+          "kind": "class",
+          "startLine": 13,
+          "endLine": 111,
+          "tokens": 1519
+        }
+      ]
+    },
+    "src/tests/integration/test_herb_conditions.py": {
+      "description": "Actual PostgreSQL DISTINCT, aliases and literal ILIKE matching in an isolated DB.",
+      "tokens": 5066,
+      "hash": "2808c0b64d962d01",
+      "size": 17739,
+      "mtimeMs": 1792667303299.1763,
+      "updatedAt": "2026-10-22T11:08:24.112Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "postgres",
+          "kind": "fn",
+          "startLine": 17,
+          "endLine": 30,
+          "tokens": 72
+        },
+        {
+          "name": "catalog",
+          "kind": "fn",
+          "startLine": 31,
+          "endLine": 64,
+          "tokens": 516
+        },
+        {
+          "name": "test_specific_species_with_name_and_alias_resolution",
+          "kind": "fn",
+          "startLine": 65,
+          "endLine": 72,
+          "tokens": 115
+        },
+        {
+          "name": "test_common_name_shared_by_species_requires_selection",
+          "kind": "fn",
+          "startLine": 73,
+          "endLine": 80,
+          "tokens": 76
+        },
+        {
+          "name": "test_zero_unknown_and_unpublished_index_are_distinct",
+          "kind": "fn",
+          "startLine": 81,
+          "endLine": 89,
+          "tokens": 120
+        },
+        {
+          "name": "test_like_metacharacters_are_literal_and_query_is_parameterized",
+          "kind": "fn",
+          "startLine": 90,
+          "endLine": 106,
+          "tokens": 190
+        },
+        {
+          "name": "test_stale_association_metadata_never_becomes_zero_results",
+          "kind": "fn",
+          "startLine": 107,
+          "endLine": 113,
+          "tokens": 94
+        },
+        {
+          "name": "test_alias_ambiguity_requires_choice",
+          "kind": "fn",
+          "startLine": 114,
+          "endLine": 124,
+          "tokens": 118
+        },
+        {
+          "name": "test_exact_romanian_name_does_not_hide_other_plants_sharing_the_alias",
+          "kind": "fn",
+          "startLine": 125,
+          "endLine": 138,
+          "tokens": 184
+        },
+        {
+          "name": "test_selected_species_does_not_include_another_species_associations",
+          "kind": "fn",
+          "startLine": 139,
+          "endLine": 150,
+          "tokens": 178
+        },
+        {
+          "name": "test_missing_table_is_index_unavailable",
+          "kind": "fn",
+          "startLine": 151,
+          "endLine": 161,
+          "tokens": 135
+        },
+        {
+          "name": "test_top_limits_species_before_alias_join_and_orders_ties",
+          "kind": "fn",
+          "startLine": 162,
+          "endLine": 386,
+          "tokens": 3002
+        }
+      ]
+    },
+    "src/tests/integration/test_condition_database.py": {
+      "description": "Reconstruct disposable databases from SQL, never from the removed JSONL.",
+      "tokens": 4307,
+      "hash": "95a6e7009608ba01",
+      "size": 15075,
+      "mtimeMs": 1792577648352.362,
+      "updatedAt": "2026-10-21T10:14:09.197Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "setUpModule",
+          "kind": "fn",
+          "startLine": 43,
+          "endLine": 46,
+          "tokens": 12
+        },
+        {
+          "name": "tearDownModule",
+          "kind": "fn",
+          "startLine": 47,
+          "endLine": 50,
+          "tokens": 12
+        },
+        {
+          "name": "ConditionDatabaseTests",
+          "kind": "class",
+          "startLine": 51,
+          "endLine": 334,
+          "tokens": 3831
+        }
+      ]
+    },
+    "src/frontend/api/client.ts": {
+      "description": "API routes: GET (1 endpoints)",
+      "tokens": 2195,
+      "hash": "54c1400ebab0f4e2",
+      "size": 7685,
+      "mtimeMs": 1792577843698.0945,
+      "updatedAt": "2026-10-21T10:17:24.195Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "getTabId",
+          "kind": "fn",
+          "startLine": 26,
+          "endLine": 29,
+          "tokens": 14
+        },
+        {
+          "name": "ApiError",
+          "kind": "class",
+          "startLine": 30,
+          "endLine": 44,
+          "tokens": 208
+        },
+        {
+          "name": "request",
+          "kind": "fn",
+          "startLine": 45,
+          "endLine": 137,
+          "tokens": 1308
+        },
+        {
+          "name": "errorMessage",
+          "kind": "fn",
+          "startLine": 138,
+          "endLine": 155,
+          "tokens": 346
+        },
+        {
+          "name": "isSessionUnavailable",
+          "kind": "fn",
+          "startLine": 156,
+          "endLine": 161,
+          "tokens": 60
+        }
+      ]
+    },
+    "src/frontend/api/client.test.ts": {
+      "description": "Declares lockRequest",
+      "tokens": 1287,
+      "hash": "c69f48a20f49a9dd",
+      "size": 4515,
+      "mtimeMs": 1792577843704.135,
+      "updatedAt": "2026-10-21T10:17:24.635Z",
+      "source": "hook"
+    },
+    ".github/workflows/ci.yml": {
+      "description": "CI: Verify application",
+      "tokens": 1361,
+      "hash": "bff78c59ea569b02",
+      "size": 4762,
+      "mtimeMs": 1792578312813.7358,
+      "updatedAt": "2026-10-21T10:25:13.907Z",
+      "source": "hook"
+    },
+    "src/tests/support/postgres.py": {
+      "description": "Shared ephemeral Postgres fixture for tests that exercise the hybrid",
+      "tokens": 1419,
+      "hash": "a10d8a2a69b79643",
+      "size": 4969,
+      "mtimeMs": 1792578483119.8752,
+      "updatedAt": "2026-10-21T10:28:03.566Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "ExternalTestPostgres",
+          "kind": "class",
+          "startLine": 22,
+          "endLine": 37,
+          "tokens": 105
+        },
+        {
+          "name": "PostgresFixture",
+          "kind": "class",
+          "startLine": 38,
+          "endLine": 120,
+          "tokens": 1071
+        }
+      ]
+    },
+    "src/backend/migrations/024_merge_fibre_probiotics_into_supplements.sql": {
+      "description": "Merge the removed group into supplements without changing identities or ranking evidence.",
+      "tokens": 628,
+      "hash": "7b437e7774c4295a",
+      "size": 2355,
+      "mtimeMs": 1792578834311.1438,
+      "updatedAt": "2026-10-21T10:33:55.765Z",
+      "source": "hook"
+    },
+    "src/backend/migrations/025_rename_linum_usitatissimum_ro.sql": {
+      "description": "Rename only the requested species; retain its identity, taxonomy and ranking evidence.",
+      "tokens": 112,
+      "hash": "73aa45b4edce3814",
+      "size": 417,
+      "mtimeMs": 1792579336625.6348,
+      "updatedAt": "2026-10-21T10:42:17.060Z",
+      "source": "hook"
+    },
+    "aiPlans/2026-10-21-topuri-recomandari-pozitive-activare.md": {
+      "description": "Activarea clasamentului pozitiv — actualizat la 22 octombrie 2026",
+      "tokens": 1476,
+      "hash": "164be42afdbae0b9",
+      "size": 6109,
+      "mtimeMs": 1792646425634.388,
+      "updatedAt": "2026-10-22T05:20:26.434Z",
+      "source": "hook"
+    },
+    "aiPlans/2026-10-21-optimizare-procesare-topuri.md": {
+      "description": "Optimizarea procesării topurilor — implementare și validare, 22 octombrie 2026",
+      "tokens": 2574,
+      "hash": "e6626ec9b6198094",
+      "size": 10718,
+      "mtimeMs": 1792649793320.0195,
+      "updatedAt": "2026-10-22T06:16:33.940Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-baseline.py": {
+      "description": "take, heartbeat",
+      "tokens": 1928,
+      "hash": "bae8d20b996e4437",
+      "size": 6745,
+      "mtimeMs": 1792643129695.499,
+      "updatedAt": "2026-10-22T04:25:30.301Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "take",
+          "kind": "fn",
+          "startLine": 25,
+          "endLine": 53,
+          "tokens": 677
+        },
+        {
+          "name": "heartbeat",
+          "kind": "fn",
+          "startLine": 54,
+          "endLine": 93,
+          "tokens": 801
+        }
+      ]
+    },
+    "aiPlans/tmp/positive-ranking-review-gold.py": {
+      "description": "Declares is",
+      "tokens": 1999,
+      "hash": "e76851faa23aec80",
+      "size": 6996,
+      "mtimeMs": 1792643311884.2493,
+      "updatedAt": "2026-10-22T04:28:32.402Z",
+      "source": "hook"
+    },
+    "src/backend/ai/prompts/herb_association_classification_transport.md": {
+      "description": "Protocol JSON strict",
+      "tokens": 458,
+      "hash": "2f6465d63da30835",
+      "size": 1830,
+      "mtimeMs": 1792694326739.0422,
+      "updatedAt": "2026-10-22T18:38:47.933Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-optimized-benchmark.py": {
+      "description": "MemoryRepository: source_fingerprints, read_snapshot, cached, create_run + 4 more",
+      "tokens": 1640,
+      "hash": "f0d1e6f37ab0aee9",
+      "size": 5739,
+      "mtimeMs": 1792644719754.1284,
+      "updatedAt": "2026-10-22T04:52:00.150Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "source_fingerprints",
+          "kind": "fn",
+          "startLine": 23,
+          "endLine": 87,
+          "tokens": 1325
+        }
+      ]
+    },
+    "aiPlans/tmp/positive-ranking-compact-probe.py": {
+      "description": "",
+      "tokens": 258,
+      "hash": "1aa804ace20889c5",
+      "size": 900,
+      "mtimeMs": 1792644107156.3748,
+      "updatedAt": "2026-10-22T04:41:47.594Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-benchmark-report.py": {
+      "description": "",
+      "tokens": 1044,
+      "hash": "6aab571a3e54c922",
+      "size": 3654,
+      "mtimeMs": 1792644719754.1284,
+      "updatedAt": "2026-10-22T04:52:00.338Z",
+      "source": "hook"
+    },
+    "src/scripts/set_gpu_clock.bat": {
+      "description": "",
+      "tokens": 827,
+      "hash": "b6069f8f2d41cc86",
+      "size": 3100,
+      "mtimeMs": 1792645346852.0613,
+      "updatedAt": "2026-10-22T05:02:27.621Z",
+      "source": "hook"
+    },
+    "src/scripts/setup_gpu_clock.bat": {
+      "description": "",
+      "tokens": 593,
+      "hash": "c37a9c716c921b4e",
+      "size": 2222,
+      "mtimeMs": 1792645346852.6213,
+      "updatedAt": "2026-10-22T05:02:27.799Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-parallel-pilot.py": {
+      "description": "temperature, cool, classify",
+      "tokens": 1099,
+      "hash": "06c9b4053ebaaf2f",
+      "size": 3845,
+      "mtimeMs": 1792646179815.5408,
+      "updatedAt": "2026-10-22T05:16:20.332Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "temperature",
+          "kind": "fn",
+          "startLine": 30,
+          "endLine": 32,
+          "tokens": 50
+        },
+        {
+          "name": "cool",
+          "kind": "fn",
+          "startLine": 33,
+          "endLine": 39,
+          "tokens": 60
+        },
+        {
+          "name": "classify",
+          "kind": "fn",
+          "startLine": 40,
+          "endLine": 75,
+          "tokens": 644
+        }
+      ]
+    },
+    "aiPlans/tmp/positive-ranking-serial-validation.py": {
+      "description": "MemoryRepository: load, read_snapshot, cached, create_run + 5 more",
+      "tokens": 2255,
+      "hash": "b2dd82d3964d8af9",
+      "size": 7892,
+      "mtimeMs": 1792696546203.9446,
+      "updatedAt": "2026-10-22T19:15:47.322Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "load",
+          "kind": "fn",
+          "startLine": 58,
+          "endLine": 87,
+          "tokens": 397
+        },
+        {
+          "name": "MemoryRepository",
+          "kind": "class",
+          "startLine": 88,
+          "endLine": 103,
+          "tokens": 191
+        },
+        {
+          "name": "temperature",
+          "kind": "fn",
+          "startLine": 104,
+          "endLine": 108,
+          "tokens": 54
+        },
+        {
+          "name": "guarded_complete",
+          "kind": "fn",
+          "startLine": 109,
+          "endLine": 160,
+          "tokens": 856
+        }
+      ]
+    },
+    "aiPlans/tmp/positive-ranking-optimization/semantic-policy-candidate.md": {
+      "description": "",
+      "tokens": 651,
+      "hash": "5687a5a96c8cc2a6",
+      "size": 2602,
+      "mtimeMs": 1792648212350.4458,
+      "updatedAt": "2026-10-22T05:50:12.805Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-serial-report.py": {
+      "description": "",
+      "tokens": 1472,
+      "hash": "6539dc3b6d750311",
+      "size": 5150,
+      "mtimeMs": 1792693181971.6921,
+      "updatedAt": "2026-10-22T18:19:43.126Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-calibration-check.py": {
+      "description": "",
+      "tokens": 1067,
+      "hash": "24c9bed4a3c69f45",
+      "size": 3733,
+      "mtimeMs": 1792670192334.2168,
+      "updatedAt": "2026-10-22T11:56:32.800Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-template-probe.py": {
+      "description": "",
+      "tokens": 417,
+      "hash": "c05b567a157fbf6e",
+      "size": 1458,
+      "mtimeMs": 1792648479067.8262,
+      "updatedAt": "2026-10-22T05:54:39.568Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-optimization/semantic-policy-restored.md": {
+      "description": "",
+      "tokens": 744,
+      "hash": "74c65084e766ba3e",
+      "size": 2973,
+      "mtimeMs": 1792648968562.6,
+      "updatedAt": "2026-10-22T06:02:49.043Z",
+      "source": "hook"
+    },
+    "aiPlans/2026-10-22-calibrare-prompturi-topuri.md": {
+      "description": "Calibrarea prompturilor pentru topurile pozitive",
+      "tokens": 1495,
+      "hash": "cb402b090bb5607c",
+      "size": 5977,
+      "mtimeMs": 1792693386824.7441,
+      "updatedAt": "2026-10-22T18:23:07.806Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-optimization/validation-report.md": {
+      "description": "Validarea optimizarii topurilor - actualizare 22 octombrie 2026, seara",
+      "tokens": 4475,
+      "hash": "5e0417d1a9524581",
+      "size": 17906,
+      "mtimeMs": 1792693386828.7444,
+      "updatedAt": "2026-10-22T18:23:08.009Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-six-passages-audit.py": {
+      "description": "",
+      "tokens": 1078,
+      "hash": "1b746029eef95e9e",
+      "size": 3772,
+      "mtimeMs": 1792666463979.349,
+      "updatedAt": "2026-10-22T10:54:24.878Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-independent-sample.py": {
+      "description": "take",
+      "tokens": 1522,
+      "hash": "ea8bc6a49842f1e1",
+      "size": 5324,
+      "mtimeMs": 1792692192362.0583,
+      "updatedAt": "2026-10-22T18:03:13.390Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "take",
+          "kind": "fn",
+          "startLine": 59,
+          "endLine": 103,
+          "tokens": 774
+        }
+      ]
+    },
+    "aiPlans/tmp/positive-ranking-optimization/positive-audit-prototype.md": {
+      "description": "Audit semantic al unei asocieri propuse",
+      "tokens": 543,
+      "hash": "922afbcea73c277c",
+      "size": 2170,
+      "mtimeMs": 1792668945434.523,
+      "updatedAt": "2026-10-22T11:35:45.931Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-audit-prototype.py": {
+      "description": "",
+      "tokens": 1050,
+      "hash": "ccc1f9ec4c7cb3b2",
+      "size": 3675,
+      "mtimeMs": 1792669625767.0935,
+      "updatedAt": "2026-10-22T11:47:06.202Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-independent2-gold.py": {
+      "description": "Declares are",
+      "tokens": 3070,
+      "hash": "82168ba7e53ca4cb",
+      "size": 10742,
+      "mtimeMs": 1792671043913.138,
+      "updatedAt": "2026-10-22T12:10:44.411Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-independent3-gold.py": {
+      "description": "",
+      "tokens": 3372,
+      "hash": "10ec6348508cf681",
+      "size": 11800,
+      "mtimeMs": 1792692611332.9905,
+      "updatedAt": "2026-10-22T18:10:11.787Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-optimization/precision-current-state.json": {
+      "description": "",
+      "tokens": 579,
+      "hash": "82352db57f7b8938",
+      "size": 2026,
+      "mtimeMs": 1792693181972.6987,
+      "updatedAt": "2026-10-22T18:19:43.323Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-structural-inventory.py": {
+      "description": "",
+      "tokens": 1006,
+      "hash": "9a83f089dabb5261",
+      "size": 3520,
+      "mtimeMs": 1792695582531.286,
+      "updatedAt": "2026-10-22T18:59:43.035Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-workload-plan.py": {
+      "description": "ReadOnlyRepository: load, read_snapshot, analysis_digest, cached + 1 more",
+      "tokens": 614,
+      "hash": "09d862fe98bf1658",
+      "size": 2148,
+      "mtimeMs": 1792696239007.636,
+      "updatedAt": "2026-10-22T19:10:39.448Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "load",
+          "kind": "fn",
+          "startLine": 22,
+          "endLine": 41,
+          "tokens": 240
+        },
+        {
+          "name": "ReadOnlyRepository",
+          "kind": "class",
+          "startLine": 42,
+          "endLine": 53,
+          "tokens": 194
+        }
+      ]
+    },
+    "aiPlans/2026-10-22-algoritm-structural-topuri.md": {
+      "description": "Algoritm structural pentru topuri: context, roluri si restrictii",
+      "tokens": 1324,
+      "hash": "e07400b99148c863",
+      "size": 5294,
+      "mtimeMs": 1792696839208.0032,
+      "updatedAt": "2026-10-22T19:20:39.674Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/build_product_condition_xmind.py": {
+      "description": "Build a source-pinned XMind 8 description of the existing classifier.",
+      "tokens": 9794,
+      "hash": "242b07bdfbb96c24",
+      "size": 34277,
+      "mtimeMs": 1792701707012.8584,
+      "updatedAt": "2026-10-22T20:41:47.488Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "elem",
+          "kind": "fn",
+          "startLine": 68,
+          "endLine": 79,
+          "tokens": 87
+        },
+        {
+          "name": "topic",
+          "kind": "fn",
+          "startLine": 80,
+          "endLine": 91,
+          "tokens": 159
+        },
+        {
+          "name": "sheet",
+          "kind": "fn",
+          "startLine": 92,
+          "endLine": 110,
+          "tokens": 281
+        },
+        {
+          "name": "box",
+          "kind": "fn",
+          "startLine": 111,
+          "endLine": 116,
+          "tokens": 54
+        },
+        {
+          "name": "edge",
+          "kind": "fn",
+          "startLine": 117,
+          "endLine": 360,
+          "tokens": 8508
+        }
+      ]
+    },
+    "architecture/README.md": {
+      "description": "Project documentation",
+      "tokens": 410,
+      "hash": "d2e781fbaeda0183",
+      "size": 1651,
+      "mtimeMs": 1792700110737.8662,
+      "updatedAt": "2026-10-22T20:15:11.479Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/product-condition-diagram/InspectXmind.java": {
+      "description": "InspectXmind: main",
+      "tokens": 120,
+      "hash": "2f25b512cf75fe97",
+      "size": 450,
+      "mtimeMs": 1792700155546.8691,
+      "updatedAt": "2026-10-22T20:15:56.245Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/product-condition-diagram/ValidateXmind.java": {
+      "description": "ValidateXmind: main",
+      "tokens": 430,
+      "hash": "ccbdc31d120032d8",
+      "size": 1612,
+      "mtimeMs": 1792700200402.3064,
+      "updatedAt": "2026-10-22T20:16:40.851Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-full-corpus.py": {
+      "description": "Prepare an inactive full-corpus ranking under the external thermal supervisor.",
+      "tokens": 3066,
+      "hash": "75c4481d0dee5038",
+      "size": 10730,
+      "mtimeMs": 1792734535657.768,
+      "updatedAt": "2026-10-23T05:48:56.309Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "fingerprints",
+          "kind": "fn",
+          "startLine": 51,
+          "endLine": 54,
+          "tokens": 31
+        },
+        {
+          "name": "save",
+          "kind": "fn",
+          "startLine": 55,
+          "endLine": 89,
+          "tokens": 274
+        },
+        {
+          "name": "progress",
+          "kind": "fn",
+          "startLine": 90,
+          "endLine": 114,
+          "tokens": 298
+        },
+        {
+          "name": "heartbeat",
+          "kind": "fn",
+          "startLine": 115,
+          "endLine": 119,
+          "tokens": 39
+        },
+        {
+          "name": "thermal_reading",
+          "kind": "fn",
+          "startLine": 120,
+          "endLine": 134,
+          "tokens": 177
+        },
+        {
+          "name": "preserved",
+          "kind": "fn",
+          "startLine": 135,
+          "endLine": 155,
+          "tokens": 178
+        },
+        {
+          "name": "ObservedRepository",
+          "kind": "class",
+          "startLine": 156,
+          "endLine": 216,
+          "tokens": 687
+        },
+        {
+          "name": "guarded_client",
+          "kind": "fn",
+          "startLine": 217,
+          "endLine": 257,
+          "tokens": 398
+        },
+        {
+          "name": "observed_pack",
+          "kind": "fn",
+          "startLine": 258,
+          "endLine": 303,
+          "tokens": 496
+        }
+      ]
+    },
+    "aiPlans/tmp/positive-ranking-full-supervisor.ps1": {
+      "description": "Declares Save",
+      "tokens": 1172,
+      "hash": "f91f6201ee60d40c",
+      "size": 4395,
+      "mtimeMs": 1792732015106.4158,
+      "updatedAt": "2026-10-23T05:06:55.719Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-continuous-supervisor.py": {
+      "description": "Resume one local ranking with a one-minute thermal restart policy and live progress.",
+      "tokens": 3776,
+      "hash": "7a29e9dfca855947",
+      "size": 13214,
+      "mtimeMs": 1792735191953.974,
+      "updatedAt": "2026-10-23T05:59:52.380Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "utc",
+          "kind": "fn",
+          "startLine": 61,
+          "endLine": 64,
+          "tokens": 18
+        },
+        {
+          "name": "write",
+          "kind": "fn",
+          "startLine": 65,
+          "endLine": 77,
+          "tokens": 105
+        },
+        {
+          "name": "read",
+          "kind": "fn",
+          "startLine": 78,
+          "endLine": 89,
+          "tokens": 85
+        },
+        {
+          "name": "sample_temperature",
+          "kind": "fn",
+          "startLine": 90,
+          "endLine": 99,
+          "tokens": 88
+        },
+        {
+          "name": "stop_worker",
+          "kind": "fn",
+          "startLine": 100,
+          "endLine": 120,
+          "tokens": 179
+        },
+        {
+          "name": "start_worker",
+          "kind": "fn",
+          "startLine": 121,
+          "endLine": 153,
+          "tokens": 297
+        },
+        {
+          "name": "refresh",
+          "kind": "fn",
+          "startLine": 154,
+          "endLine": 161,
+          "tokens": 49
+        },
+        {
+          "name": "progress",
+          "kind": "fn",
+          "startLine": 162,
+          "endLine": 362,
+          "tokens": 2461
+        }
+      ]
+    },
+    "aiPlans/tmp/positive-ranking-ready-audit.py": {
+      "description": "Audit a completed generation against existing textual gold without inference or mutation.",
+      "tokens": 2281,
+      "hash": "281b619a533e4d8e",
+      "size": 7981,
+      "mtimeMs": 1792750358634.1245,
+      "updatedAt": "2026-10-23T10:12:39.051Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/positive-ranking-activate.py": {
+      "description": "Publish a complete generation under the operator's recorded acceptance criteria.",
+      "tokens": 735,
+      "hash": "2c92be94e4c3ebb2",
+      "size": 2570,
+      "mtimeMs": 1792751068326.0747,
+      "updatedAt": "2026-10-23T10:24:28.777Z",
       "source": "hook"
     }
   },

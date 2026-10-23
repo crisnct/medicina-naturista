@@ -206,6 +206,17 @@ class Settings:
     condition_ai_local_base: str = "http://localhost:11434/v1"
     condition_ai_timeout_seconds: int = 10
     condition_ai_max_output_tokens: int = 300
+    herb_association_ai_base: str = "http://localhost:11434/v1"
+    herb_association_ai_model: str = "gemma4:12b"
+    herb_association_ai_max_units: int = 6
+    herb_association_ai_max_pairs: int = 20
+    herb_association_ai_max_input_chars: int = 25000
+    herb_association_ai_max_passage_chars: int = 1000
+    herb_association_ai_context_tokens: int = 32768
+    herb_association_ai_max_output_tokens: int = 2048
+    herb_association_ai_timeout_seconds: int = 120
+    herb_association_build_timeout_seconds: int = 7200
+    herb_association_ai_max_requests: int = 1000
     message_classification_timeout_seconds: int = 10
     message_classification_max_output_tokens: int = 300
     ai_stream: bool = False
@@ -322,6 +333,34 @@ class Settings:
             ).rstrip("/"),
             condition_ai_timeout_seconds=_int("CONDITION_AI_TIMEOUT_SECONDS", 10, env=env),
             condition_ai_max_output_tokens=_int("CONDITION_AI_MAX_OUTPUT_TOKENS", 300, env=env),
+            herb_association_ai_base=env.get(
+                "HERB_ASSOCIATION_AI_BASE",
+                env.get("CONDITION_AI_LOCAL_BASE", "http://localhost:11434/v1"),
+            ).rstrip("/"),
+            herb_association_ai_model=env.get("HERB_ASSOCIATION_AI_MODEL", "gemma4:12b"),
+            herb_association_ai_max_units=_int("HERB_ASSOCIATION_AI_MAX_UNITS", 6, env=env),
+            herb_association_ai_max_pairs=_int("HERB_ASSOCIATION_AI_MAX_PAIRS", 20, env=env),
+            herb_association_ai_max_input_chars=_int(
+                "HERB_ASSOCIATION_AI_MAX_INPUT_CHARS", 25000, env=env
+            ),
+            herb_association_ai_max_passage_chars=_int(
+                "HERB_ASSOCIATION_AI_MAX_PASSAGE_CHARS", 1000, env=env
+            ),
+            herb_association_ai_context_tokens=_int(
+                "HERB_ASSOCIATION_AI_CONTEXT_TOKENS", 32768, env=env
+            ),
+            herb_association_ai_max_output_tokens=_int(
+                "HERB_ASSOCIATION_AI_MAX_OUTPUT_TOKENS", 2048, env=env
+            ),
+            herb_association_ai_timeout_seconds=_int(
+                "HERB_ASSOCIATION_AI_TIMEOUT_SECONDS", 120, env=env
+            ),
+            herb_association_build_timeout_seconds=_int(
+                "HERB_ASSOCIATION_BUILD_TIMEOUT_SECONDS", 7200, env=env
+            ),
+            herb_association_ai_max_requests=_int(
+                "HERB_ASSOCIATION_AI_MAX_REQUESTS", 1000, env=env
+            ),
             message_classification_timeout_seconds=_int(
                 "MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS", 10, env=env
             ),
@@ -419,6 +458,7 @@ class Settings:
             "ollama_api_base",
             "deepseek_api_base",
             "condition_ai_local_base",
+            "herb_association_ai_base",
         ):
             try:
                 parsed = urlsplit(getattr(self, name))
@@ -437,6 +477,42 @@ class Settings:
                 valid = False
             if not valid:
                 raise ValueError(f"{name} must be an HTTP(S) URL without credentials")
+        association_base = urlsplit(self.herb_association_ai_base)
+        if association_base.hostname not in {
+            "localhost",
+            "127.0.0.1",
+            "::1",
+            "host.docker.internal",
+        } or association_base.path not in {"", "/v1"}:
+            raise ValueError("herb_association_ai_base must point to local Ollama")
+        if not self.herb_association_ai_model.strip() or any(
+            c.isspace() for c in self.herb_association_ai_model
+        ):
+            raise ValueError("herb_association_ai_model must be an explicit model tag")
+        for name in (
+            "herb_association_ai_max_units",
+            "herb_association_ai_max_pairs",
+            "herb_association_ai_max_input_chars",
+            "herb_association_ai_max_passage_chars",
+            "herb_association_ai_context_tokens",
+            "herb_association_ai_max_output_tokens",
+            "herb_association_ai_timeout_seconds",
+            "herb_association_build_timeout_seconds",
+            "herb_association_ai_max_requests",
+        ):
+            if type(getattr(self, name)) is not int or getattr(self, name) <= 0:
+                raise ValueError(f"{name} must be a positive integer")
+        if self.herb_association_ai_max_units > 6:
+            raise ValueError("herb_association_ai_max_units must not exceed 6 source passages")
+        if self.herb_association_ai_max_passage_chars > 1000:
+            raise ValueError("herb_association_ai_max_passage_chars must not exceed 1000")
+        if (
+            self.herb_association_ai_max_output_tokens + 512
+            >= self.herb_association_ai_context_tokens
+        ):
+            raise ValueError("herb association output must leave context for input")
+        if self.herb_association_ai_timeout_seconds > self.herb_association_build_timeout_seconds:
+            raise ValueError("herb association request timeout must fit build timeout")
         database = urlsplit(self.database_url)
         if (
             database.scheme not in {"postgresql", "postgres"}

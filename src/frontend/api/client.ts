@@ -147,6 +147,8 @@ export function errorMessage(error: unknown, fallback: string): string {
   if (error.status === 409) return error.message;
   if (error.code?.startsWith("INDEX_")) return tr("interface.api_index_maintenance");
   if (error.code === "OWNER_AUTH_UNAVAILABLE") return tr("interface.api_authorization_unavailable");
+  if (error.code === "POSITIVE_RANKING_NOT_READY") return tr("interface.api_positive_ranking_not_ready");
+  if (error.code === "POSITIVE_RANKING_STALE") return tr("interface.api_positive_ranking_stale");
   if (error.status === 503) return tr("interface.api_service_unavailable");
   return error.message;
 }

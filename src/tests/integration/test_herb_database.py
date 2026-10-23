@@ -23,7 +23,7 @@ from scripts.bootstrap_database import ensure_database
 from tests.support.postgres import PostgresFixture
 
 fixture = PostgresFixture()
-INITIAL_FINGERPRINT = "70ba76e4e763bb5c8ad6c1071cd546be028719577f97e6ffe1370bb7fc37a7ef"
+INITIAL_FINGERPRINT = "4564ac7032a9e31dfb640626ef0fb41ebc8d934a677a6e6c64653e166f77d853"
 
 
 def setUpModule():
@@ -85,12 +85,15 @@ class HerbDatabaseTests(unittest.TestCase):
             )
             self.assertEqual(catalog.by_latin("Matricaria recutita").latin, "matricaria chamomilla")
             self.assertEqual(catalog.by_id(1), items[0])
+            self.assertEqual(catalog.by_latin("linum usitatissimum").ro, "seminte de in")
+            self.assertEqual(catalog.by_latin("linum usitatissimum").id, 514)
+            self.assertEqual(sum(h.ro == "seminte de in" for h in items), 2)
             self.assertEqual(catalog.lookup(""), [])
             self.assertEqual(sum(h.category == "uleiuri" for h in items), 23)
+            self.assertEqual(sum(h.category == "suplimente" for h in items), 61)
+            self.assertNotIn("fibre, probiotice, prebiotice", {h.category for h in items})
             for identifier in (1191, 1192, 1195, 1198):
-                self.assertEqual(
-                    catalog.by_id(identifier).category, "fibre, probiotice, prebiotice"
-                )
+                self.assertEqual(catalog.by_id(identifier).category, "suplimente")
             for identifier in (*range(1293, 1314), 1585, 1586):
                 self.assertEqual(catalog.by_id(identifier).category, "uleiuri")
 
@@ -165,13 +168,17 @@ class HerbDatabaseTests(unittest.TestCase):
             )
 
     def test_upgrade_preserves_conditions_owner_and_index_metadata(self):
+        from backend.ai import herb_validation
         from backend.ai.herb_index_catalog import read_index_catalogs
+        from backend.core.herb_categories import HERB_CATEGORIES, PRODUCT_CATEGORIES
 
         with psycopg.connect(self.url) as connection:
             before = read_conditions(connection)
             connection.execute("INSERT INTO owner_sessions(token_hash) VALUES (%s)", ("a" * 64,))
             connection.execute("INSERT INTO sync_metadata(key,value) VALUES ('test','unchanged')")
-            connection.execute("DROP TABLE herbs_benefits, herb_aliases, herbs")
+            connection.execute(
+                "DROP TABLE herb_positive_evidence,herb_positive_pairs,herb_positive_rankings,herb_positive_cache,herb_positive_runs,herbs_benefits,herb_aliases,herbs"
+            )
             versions = [
                 "006_herbs.sql",
                 "007_seed_herbs.sql",
@@ -182,7 +189,7 @@ class HerbDatabaseTests(unittest.TestCase):
                 "016_separate_herb_category.sql",
             ]
             connection.execute(
-                "DELETE FROM schema_migrations WHERE version IN (%s, %s, %s, %s, %s, %s)",
+                "DELETE FROM schema_migrations WHERE version IN (%s, %s, %s, %s, %s, %s, %s, %s, %s)",
                 (
                     "017_food_categories_in_herbs.sql",
                     "018_reclassify_oils_medicines_and_beta_carotene.sql",
@@ -190,6 +197,9 @@ class HerbDatabaseTests(unittest.TestCase):
                     "020_reclassify_remaining_requested_oils.sql",
                     "021_reclassify_probiotic_products.sql",
                     "022_add_sunflower_and_pumpkin_oils.sql",
+                    "023_positive_herb_rankings.sql",
+                    "024_merge_fibre_probiotics_into_supplements.sql",
+                    "025_rename_linum_usitatissimum_ro.sql",
                 ),
             )
             for name in versions:
@@ -222,13 +232,26 @@ class HerbDatabaseTests(unittest.TestCase):
             oids = connection.execute(
                 "SELECT 'herb_aliases'::regclass::oid, 'herbs_benefits'::regclass::oid, 'herbs'::regclass::oid"
             ).fetchone()
-            matching = read_index_catalogs(connection)[-1]
+            # Model the previous reader only while taking the pre-upgrade matching snapshot.
+            with (
+                patch.object(
+                    herb_validation,
+                    "HERB_CATEGORIES",
+                    (*HERB_CATEGORIES, "fibre, probiotice, prebiotice"),
+                ),
+                patch.object(
+                    herb_validation,
+                    "PRODUCT_CATEGORIES",
+                    PRODUCT_CATEGORIES | {"fibre, probiotice, prebiotice"},
+                ),
+            ):
+                matching = read_index_catalogs(connection)[-1]
         # Force a failure after DDL, so the old OID, data and ledger must survive rollback.
         with tempfile.TemporaryDirectory() as directory:
             folder = Path(directory)
             for path in migration.MIGRATIONS.glob("*.sql"):
                 shutil.copy(path, folder / path.name)
-            (folder / "023_injected_failure.sql").write_text("SELECT 1/0;", encoding="utf-8")
+            (folder / "026_injected_failure.sql").write_text("SELECT 1/0;", encoding="utf-8")
             with patch.object(migration, "MIGRATIONS", folder):
                 with self.assertRaises(psycopg.errors.DivisionByZero):
                     migration.migrate(self.url)
@@ -250,14 +273,28 @@ class HerbDatabaseTests(unittest.TestCase):
                 "020_reclassify_remaining_requested_oils.sql",
                 "021_reclassify_probiotic_products.sql",
                 "022_add_sunflower_and_pumpkin_oils.sql",
+                "023_positive_herb_rankings.sql",
+                "024_merge_fibre_probiotics_into_supplements.sql",
+                "025_rename_linum_usitatissimum_ro.sql",
             ],
         )
         with psycopg.connect(self.url) as connection:
             existing = connection.execute(
                 "SELECT * FROM herbs WHERE id<=1579 ORDER BY id"
             ).fetchall()
-            self.assertEqual([(r[0], *r[2:]) for r in existing], [(r[0], *r[2:]) for r in original])
-            self.assertEqual(sum(a[1] != b[1] for a, b in zip(existing, original)), 188)
+            expected = [
+                (
+                    row[0],
+                    row[2],
+                    row[3],
+                    "seminte de in" if row[3] == "linum usitatissimum" else row[4],
+                    row[5],
+                    row[6],
+                )
+                for row in original
+            ]
+            self.assertEqual([(r[0], *r[2:]) for r in existing], expected)
+            self.assertEqual(sum(a[1] != b[1] for a, b in zip(existing, original)), 191)
             self.assertEqual(
                 connection.execute("SELECT category FROM herbs WHERE id=778").fetchone(),
                 ("fructe",),

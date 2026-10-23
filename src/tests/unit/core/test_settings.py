@@ -38,6 +38,34 @@ class SettingsTests(unittest.TestCase):
             self.assertEqual(Settings().max_active_sessions, 100)
         self.assertEqual(Settings.from_env({}).max_active_sessions, 100)
         self.assertEqual(Settings.from_env({}).operation_timeout_seconds, 600)
+        association = Settings.from_env(
+            {
+                "HERB_ASSOCIATION_AI_MODEL": "local:test",
+                "HERB_ASSOCIATION_AI_MAX_PAIRS": "3",
+                "HERB_ASSOCIATION_AI_MAX_PASSAGE_CHARS": "800",
+            }
+        )
+        self.assertEqual(association.herb_association_ai_model, "local:test")
+        self.assertEqual(association.herb_association_ai_max_pairs, 3)
+        self.assertEqual(association.herb_association_ai_max_passage_chars, 800)
+        self.assertEqual(association.herb_association_ai_max_units, 6)
+        self.assertEqual(association.medical_condition_ai_local_model, "gemma3:1b")
+        with self.assertRaises(ValueError):
+            replace(association, herb_association_ai_base="https://cloud.example/v1")
+        with self.assertRaises(ValueError):
+            replace(association, herb_association_ai_max_pairs=0)
+        with self.assertRaises(ValueError):
+            replace(association, herb_association_ai_max_passage_chars=0)
+        with self.assertRaises(ValueError):
+            replace(association, herb_association_ai_max_passage_chars=1001)
+        with self.assertRaises(ValueError):
+            replace(association, herb_association_ai_max_units=7)
+        with self.assertRaises(ValueError):
+            replace(association, herb_association_ai_max_units=True)
+        with self.assertRaises(ValueError):
+            replace(association, herb_association_ai_context_tokens=2048)
+        with self.assertRaises(ValueError):
+            replace(association, herb_association_ai_timeout_seconds=8000)
         public = Settings.from_env({"PUBLIC_ORIGIN": "https://public.example/"})
         self.assertEqual(public.public_origin, "https://public.example")
 

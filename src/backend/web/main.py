@@ -370,7 +370,7 @@ def _conversation(
         render_pdf,
         deps.classify,
         deps.herb_lookup or lookup_herb_conditions,
-        deps.top_herbs or list_top_herbs,
+        deps.top_herbs or partial(list_top_herbs, settings=deps.settings),
         report_model=model,
         report_model_choice=model_choice or "",
         report_ai_effort=getattr(provider, "reasoning_effort", None) or None,

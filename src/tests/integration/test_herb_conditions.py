@@ -160,44 +160,226 @@ def test_missing_table_is_index_unavailable(catalog):
 
 
 def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
+    import io
+    from contextlib import redirect_stdout
+    from unittest.mock import Mock, patch
+
+    from backend.ai.embedding_model import get_profile
+    from backend.ai.herb_positive_repository import PositiveRepository
+    from backend.ai.index_constants import TEXT_REPR_VERSION
+    from backend.ai.index_state import dictionary_snapshot, passage_profile
+    from backend.config import Settings
+    from backend.core.errors import ApplicationError
+    from scripts.positive_herb_ranking import run_positive_ranking
+
+    config = Settings()
+    repository = PositiveRepository()
     with db.get_pool().connection() as connection:
+        connection.execute("DELETE FROM sync_metadata")
+        profile = get_profile("Qwen/Qwen3-Embedding-0.6B")
+        metadata = {
+            "model_name": profile.name,
+            "model_dimension": str(profile.dimension),
+            "dictionary_fingerprint": dictionary_snapshot(connection)[0],
+            "dictionary_fingerprint_version": "1",
+            "passage_profile": passage_profile(profile),
+            "text_repr_version": TEXT_REPR_VERSION,
+            "index_generation": "positive-synthetic",
+        }
+        from backend.ai.condition_repository import FINGERPRINT_VERSION
+
+        metadata["dictionary_fingerprint_version"] = str(FINGERPRINT_VERSION)
+        for key, value in metadata.items():
+            connection.execute("INSERT INTO sync_metadata VALUES(%s,%s)", (key, value))
+        connection.execute(
+            "INSERT INTO herbs(category,family,latin,ro,en) VALUES ('fructe','testaceae','fructus primus','fruct sintetic unu','fruit one'),('fructe','testaceae','fructus secundus','fruct sintetic doi','fruit two'),('cereale','testaceae','cerealis fictiva','cereala sintetica','synthetic cereal')"
+        )
         connection.execute(
             "UPDATE herbs SET ranking = CASE WHEN id=3 THEN 9 WHEN id IN (1,2) THEN 7 ELSE 0 END"
         )
         connection.execute(
-            "INSERT INTO herb_aliases(herb_id,name,kind) VALUES (3,'water mint','en_alt'), (3,'menta de balta','ro_regional'), (3,'iz ma','latin_synonyms')"
+            "INSERT INTO herb_aliases(herb_id,name,kind) VALUES (3,'aquatic mint','en_alt'), (3,'menta de balta','ro_regional'), (3,'mentha sylvestris','latin_synonyms')"
         )
-    assert list_top_herbs(2) == [
-        {
-            "ro": "menta de apa",
-            "latin": "mentha aquatica",
-            "ro_regional": ["menta de balta"],
-            "ranking": 9,
-        },
-        {
-            "ro": "mușețel",
-            "latin": "matricaria chamomilla",
-            "ro_regional": ["romanita"],
-            "ranking": 7,
-        },
-    ]
-    assert len(list_top_herbs(100)) == 4
-    assert list_top_herbs(3)[2] == {
-        "ro": "mușețel",
-        "latin": "chamaemelum nobile",
-        "ro_regional": [],
-        "ranking": 7,
-    }
+        sources = (
+            (
+                "positive.md",
+                "Zorbita",
+                "# Zorbita\n## Alimente recomandate\n- matricaria chamomilla\n- chamaemelum nobile\n- mentha aquatica\n- fruct sintetic unu\n- fruct sintetic doi\n- cereala sintetica\n",
+            ),
+            (
+                "negative.md",
+                "Zorbita",
+                "# Zorbita\n## Contraindicatii\n- mentha aquatica\n- cereala sintetica\n",
+            ),
+            (
+                "repeat.md",
+                "Zorbita",
+                "# Zorbita\nmatricaria chamomilla este mentionata. matricaria chamomilla apare iar.\n",
+            ),
+            ("ambiguous.md", "Zorbita", "# Zorbita\nmentha aquatica este mentionata.\n"),
+        )
+        for index, (path, condition, text) in enumerate(sources, 1):
+            connection.execute(
+                "INSERT INTO documents(relative_path,absolute_path,size_bytes,modified_utc,sha256,encoding,line_count,char_count) VALUES(%s,%s,1,now(),%s,'utf-8',1,%s)",
+                (path, path, str(index), len(text)),
+            )
+            connection.execute(
+                "INSERT INTO chunks(source_relative_path,source_absolute_path,source_sha256,line_start,line_end,heading,text,text_sha256,char_count,embedding,primary_medical_conditions,text_search) VALUES(%s,%s,%s,1,1,%s,%s,%s,%s,%s::vector,%s,''::tsvector)",
+                (
+                    path,
+                    path,
+                    str(index),
+                    condition,
+                    text,
+                    str(index),
+                    len(text),
+                    "[" + ",".join(["0"] * profile.dimension) + "]",
+                    [condition],
+                ),
+            )
 
+    with pytest.raises(ApplicationError) as not_ready:
+        list_top_herbs(20)
+    assert not_ready.value.code == "POSITIVE_RANKING_NOT_READY"
+    before = repository.read_snapshot().manifest
     with db.get_pool().connection() as connection:
-        connection.execute("UPDATE herbs SET category='fructe' WHERE id IN (1,2)")
-        connection.execute(
-            "INSERT INTO herbs(category,family,latin,ro,en,ranking) VALUES ('seminte',NULL,NULL,'seminte de struguri','grape seeds',0), ('uleiuri esentiale',NULL,NULL,'ulei de seminte','seed oil',20)"
+        historical = connection.execute(
+            "SELECT id,ranking,xmin::text FROM herbs ORDER BY id"
+        ).fetchall()
+        pairs = connection.execute("SELECT * FROM herbs_benefits ORDER BY 1,2").fetchall()
+
+    client = Mock()
+
+    def classify_source(_system, user, _tokens):
+        import json
+
+        payload = json.loads(user)
+        if any(c["herb_id"] == 1 for c in payload["candidates"]):
+            assert len(next(c["mentions"] for c in payload["candidates"] if c["herb_id"] == 1)) == 2
+        return {"relations": {c["id"]: [0] for c in payload["candidates"]}}
+
+    client.complete_json.side_effect = classify_source
+    with (
+        patch("scripts.positive_herb_ranking.model_digest", return_value="a" * 64),
+        patch("scripts.positive_herb_ranking.make_client", return_value=client),
+        redirect_stdout(io.StringIO()),
+    ):
+        analyzed = run_positive_ranking(config, analyze=True)
+        assert analyzed["batches"] == 1 and analyzed["requests"] == 0
+        client.complete_json.assert_not_called()
+        first = run_positive_ranking(config)
+        assert first["status"] == "ready" and first["requests"] == 1
+        with pytest.raises(ApplicationError):
+            list_top_herbs(300)
+        second = run_positive_ranking(config)
+        assert second["requests"] == 0 and second["cache_hits"] == 3
+        assert run_positive_ranking(config, resume=first["run_id"])["status"] == "ready"
+        run_positive_ranking(config, publish=first["run_id"])
+        with pytest.raises(ValueError, match="POSITIVE_PUBLICATION_CONFLICT"):
+            run_positive_ranking(config, publish=second["run_id"])
+        assert run_positive_ranking(config, publish=first["run_id"])["status"] == "published"
+        assert run_positive_ranking(config, analyze=True)["batches"] == 0
+    assert client.complete_json.call_count == 1
+    from dataclasses import replace
+
+    attempts = []
+
+    def fail_second(system, user, tokens):
+        attempts.append(user)
+        if len(attempts) == 2:
+            raise TimeoutError("synthetic timeout")
+        return classify_source(system, user, tokens)
+
+    failing_client = Mock()
+    failing_client.complete_json.side_effect = fail_second
+    bounded = replace(config, herb_association_ai_max_pairs=1, herb_association_ai_max_requests=2)
+    with (
+        patch("scripts.positive_herb_ranking.model_digest", return_value="b" * 64),
+        patch("scripts.positive_herb_ranking.make_client", return_value=failing_client),
+        redirect_stdout(io.StringIO()),
+    ):
+        with pytest.raises(TimeoutError):
+            run_positive_ranking(bounded)
+        with db.get_pool().connection() as connection:
+            failed_run = str(
+                connection.execute(
+                    "SELECT run_id FROM herb_positive_runs WHERE model_digest=%s ORDER BY created_at DESC LIMIT 1",
+                    ("b" * 64,),
+                ).fetchone()[0]
+            )
+            assert (
+                connection.execute(
+                    "SELECT status FROM herb_positive_runs WHERE run_id=%s", (failed_run,)
+                ).fetchone()[0]
+                == "preparing"
+            )
+        assert len(list_top_herbs(300)) == 4
+        failing_client.complete_json.side_effect = classify_source
+        with pytest.raises(ValueError, match="POSITIVE_REQUEST_LIMIT"):
+            run_positive_ranking(bounded, resume=failed_run)
+        assert failing_client.complete_json.call_count == 2
+        resumed = run_positive_ranking(
+            replace(bounded, herb_association_ai_max_requests=3), resume=failed_run
         )
-    assert [row["latin"] for row in list_top_herbs(1, "fructe")] == ["matricaria chamomilla"]
+        assert resumed["requests"] == 1 and resumed["cache_hits"] == 2
+        assert failing_client.complete_json.call_count == 3
+    assert len(list_top_herbs(300)) == 4
+    assert [row["latin"] for row in list_top_herbs(2)] == [
+        "matricaria chamomilla",
+        "chamaemelum nobile",
+    ]
+    assert all(row["ranking"] == 1 for row in list_top_herbs(300))
     assert len(list_top_herbs(100, "fructe")) == 2
-    assert list_top_herbs(100, "seminte")[0]["ranking"] == 0
-    assert list_top_herbs(100, "seminte")[0]["ro"] == "semințe de struguri"
     assert list_top_herbs(100, "cereale") == []
-    assert list_top_herbs(1)[0]["ro"] == "ulei de semințe"
-    assert len(list_top_herbs(100, "plante medicinale")) == 2
+    assert list_top_herbs(100, "seminte") == []
+    assert repository.read_snapshot().manifest == before
+    with db.get_pool().connection() as connection:
+        assert (
+            connection.execute("SELECT id,ranking,xmin::text FROM herbs ORDER BY id").fetchall()
+            == historical
+        )
+        assert connection.execute("SELECT * FROM herbs_benefits ORDER BY 1,2").fetchall() == pairs
+        assert (
+            connection.execute(
+                "SELECT state FROM herb_positive_pairs WHERE run_id=%s AND herb_id=3",
+                (first["run_id"],),
+            ).fetchone()[0]
+            == "mixed"
+        )
+        assert (
+            connection.execute(
+                "SELECT ranking FROM herb_positive_rankings WHERE run_id=%s AND herb_id=4",
+                (first["run_id"],),
+            ).fetchone()[0]
+            == 0
+        )
+        connection.execute(
+            "UPDATE herb_positive_rankings SET ranking=77 WHERE run_id=%s AND herb_id=1",
+            (first["run_id"],),
+        )
+    with pytest.raises(ValueError, match="POSITIVE_AGGREGATION_MISMATCH"):
+        repository.publish(first["run_id"], config, digest="a" * 64)
+    with pytest.raises(ApplicationError) as invalid_top:
+        list_top_herbs(20)
+    assert invalid_top.value.code == "POSITIVE_RANKING_STALE"
+    with db.get_pool().connection() as connection:
+        connection.execute(
+            "UPDATE herb_positive_rankings SET ranking=1 WHERE run_id=%s AND herb_id=1",
+            (first["run_id"],),
+        )
+        connection.execute(
+            "UPDATE chunks SET heading='changed' WHERE source_relative_path='positive.md'"
+        )
+    with pytest.raises(ApplicationError) as stale:
+        repository.publish(second["run_id"], config, digest="a" * 64)
+    assert stale.value.code == "POSITIVE_RANKING_STALE"
+    with pytest.raises(ApplicationError) as stale_top:
+        list_top_herbs(20)
+    assert stale_top.value.code == "POSITIVE_RANKING_STALE"
+    with db.get_pool().connection() as connection:
+        assert (
+            connection.execute(
+                "SELECT value FROM sync_metadata WHERE key='herb_positive_active_run'"
+            ).fetchone()[0]
+            == first["run_id"]
+        )

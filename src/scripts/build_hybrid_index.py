@@ -1345,7 +1345,30 @@ def parse_args() -> argparse.Namespace:
         action="store_true",
         help="Refresh associations only; requires a compatible existing index and preserves old pairs",
     )
-    return parser.parse_args()
+    modes.add_argument(
+        "--analyze-positive-ranking",
+        action="store_true",
+        help="Inventory and cache analysis without inference or publication",
+    )
+    modes.add_argument(
+        "--prepare-positive-ranking",
+        action="store_true",
+        help="Prepare a complete positive ranking without activation",
+    )
+    modes.add_argument(
+        "--publish-positive-ranking",
+        metavar="RUN_ID",
+        help="Atomically activate a prepared positive ranking without inference",
+    )
+    parser.add_argument(
+        "--resume-positive-ranking",
+        metavar="RUN_ID",
+        help="Resume an explicit preparation using its validated cache",
+    )
+    arguments = parser.parse_args()
+    if arguments.resume_positive_ranking and not arguments.prepare_positive_ranking:
+        parser.error("--resume-positive-ranking requires --prepare-positive-ranking")
+    return arguments
 
 
 if __name__ == "__main__":
@@ -1354,11 +1377,45 @@ if __name__ == "__main__":
     configure_settings(Settings.from_env(dotenv=True))
     arguments = parse_args()
     try:
-        if arguments.rebuild_herbs_only:
+        if (
+            arguments.analyze_positive_ranking
+            or arguments.prepare_positive_ranking
+            or arguments.publish_positive_ranking
+        ):
+            from scripts.positive_herb_ranking import run_positive_ranking
+
+            run_positive_ranking(
+                settings,
+                analyze=arguments.analyze_positive_ranking,
+                publish=arguments.publish_positive_ranking,
+                resume=arguments.resume_positive_ranking,
+            )
+        elif arguments.rebuild_herbs_only:
             rebuild_herbs_only()
         else:
             build(arguments.source, arguments.model, rebuild_herbs=arguments.rebuild_herbs)
     except Exception as exc:
+        if (
+            arguments.analyze_positive_ranking
+            or arguments.prepare_positive_ranking
+            or arguments.publish_positive_ranking
+        ):
+            # Provider/driver exception chains can contain untrusted corpus data.
+            print(
+                json.dumps(
+                    {
+                        "status": "error",
+                        "code": "POSITIVE_RANKING_FAILED",
+                        "type": type(exc).__name__,
+                        "detail": str(exc)
+                        if re.fullmatch(r"POSITIVE_[A-Z_]+(?::[0-9]+)*", str(exc))
+                        else "See aggregate run progress",
+                    }
+                ),
+                file=sys.stderr,
+                flush=True,
+            )
+            sys.exit(1)
         print(
             json.dumps(_safe_index_error(exc), ensure_ascii=False),
             file=sys.stderr,

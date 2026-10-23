@@ -168,9 +168,6 @@ def explicit_herb_top(message: str, context: dict[str, object]) -> MessageClassi
         ):
             count = context.get("top_count")
             return _top_decision(count if type(count) is int else None, None, unknown=True)
-        if normalized in {"fibre", "probiotice", "prebiotice"}:
-            count = context.get("top_count")
-            return _top_decision(count if type(count) is int else None, None, unknown=True)
         for category, aliases in CATEGORY_ALIASES.items():
             if normalized in aliases:
                 count = context.get("top_count")
@@ -212,6 +209,13 @@ def explicit_herb_top(message: str, context: dict[str, object]) -> MessageClassi
     categories = _top_categories(domain)
     if len(categories) > 1 or not categories and not re.match(r"plante(?:le)?\b", domain):
         return _top_decision(count, None, unknown=True)
+    if len(categories) == 1:
+        category = next(iter(categories))
+        remainder = domain
+        for alias in sorted(CATEGORY_ALIASES[category], key=len, reverse=True):
+            remainder = re.sub(r"\b" + re.escape(alias) + r"\b", " ", remainder)
+        if not re.sub(r"\bsi\b", "", remainder).strip():
+            return _top_decision(count, category)
     # Unknown qualifiers after a known group may be a medical subject. The model
     # must decide the intent; its ranking decision is still scope-checked below.
     return None

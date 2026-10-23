@@ -44,6 +44,8 @@ export const TEXT_PARAMETERS = {
     "retry_after"
   ],
   "interface.api_service_unavailable": [],
+  "interface.api_positive_ranking_not_ready": [],
+  "interface.api_positive_ranking_stale": [],
   "interface.composer_placeholder": [],
   "interface.example_cloves_label": [],
   "interface.example_mushrooms_label": [],

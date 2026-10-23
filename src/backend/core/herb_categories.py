@@ -21,7 +21,6 @@ HerbCategory = Literal[
     "vitamine",
     "minerale",
     "produse apicole",
-    "fibre, probiotice, prebiotice",
 ]
 TopClarification = Literal["count", "category"]
 HERB_CATEGORIES: tuple[HerbCategory, ...] = get_args(HerbCategory)
@@ -49,7 +48,6 @@ def category_labels() -> MappingProxyType[HerbCategory, str]:
                     tr("conversation.category_vitamins"),
                     tr("conversation.category_minerals"),
                     tr("conversation.category_bee_products"),
-                    tr("conversation.category_fibre_probiotics_prebiotics"),
                 ),
                 strict=True,
             )
@@ -57,7 +55,7 @@ def category_labels() -> MappingProxyType[HerbCategory, str]:
     )
 
 
-# Whole category phrases only: one component never selects the combined group.
+# Former fibre/probiotic scopes resolve to supplements, which now owns those products.
 CATEGORY_ALIASES: MappingProxyType[HerbCategory, tuple[str, ...]] = MappingProxyType(
     {
         "plante medicinale": ("plante medicinale", "plantele medicinale"),
@@ -72,18 +70,22 @@ CATEGORY_ALIASES: MappingProxyType[HerbCategory, tuple[str, ...]] = MappingProxy
             "suplimentele",
             "suplimente alimentare",
             "suplimentele alimentare",
+            "fibre",
+            "fibrele",
+            "probiotice",
+            "probioticele",
+            "prebiotice",
+            "prebioticele",
+            "fibre probiotice prebiotice",
+            "fibre probiotice si prebiotice",
+            "fibrele probioticele si prebioticele",
+            "fibrele probioticele prebioticele",
         ),
         "aminoacizi": ("aminoacizi", "aminoacizii"),
         "medicamente": ("medicamente", "medicamentele"),
         "vitamine": ("vitamine", "vitaminele"),
         "minerale": ("minerale", "mineralele"),
         "produse apicole": ("produse apicole", "produsele apicole"),
-        "fibre, probiotice, prebiotice": (
-            "fibre probiotice prebiotice",
-            "fibre probiotice si prebiotice",
-            "fibrele probioticele si prebioticele",
-            "fibrele probioticele prebioticele",
-        ),
     }
 )
 

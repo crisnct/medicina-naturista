@@ -659,6 +659,14 @@ class ConversationService:
                     ),
                     tr("conversation.herb_ranking_notice"),
                 ]
+                if len(herbs) < decision.top_count:
+                    lines.append(
+                        tr(
+                            "conversation.herb_ranking_available",
+                            count=len(herbs),
+                            requested=decision.top_count,
+                        )
+                    )
                 for position, herb in enumerate(herbs, 1):
                     aliases = (
                         tr(

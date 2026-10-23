@@ -109,7 +109,8 @@ class PostgresFixture:
     def reset(self) -> None:
         with db_module.get_pool().connection() as connection:
             connection.execute(
-                "TRUNCATE TABLE chunks, documents, sync_metadata RESTART IDENTITY CASCADE"
+                "TRUNCATE TABLE chunks, documents, sync_metadata, herb_positive_runs, "
+                "herb_positive_cache RESTART IDENTITY CASCADE"
             )
             replace_catalog(
                 connection,

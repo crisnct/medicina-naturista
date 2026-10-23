@@ -582,7 +582,7 @@ class OllamaReportClient(ResponsesClient):
             "model": payload["model"],
             "messages": payload["input"],
             "stream": bool(payload.get("stream")),
-            "format": "json",
+            "format": self.provider.response_schema or "json",
             "truncate": False,
             "shift": False,
             "options": {"num_predict": payload["max_output_tokens"]},

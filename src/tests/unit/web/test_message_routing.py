@@ -133,7 +133,8 @@ def test_top_returns_names_and_aliases_without_search_or_report(web):
     assert not result["startSearch"] and not result["identifyCondition"]
     assert result["messages"][0]["content"] == (
         "### Top 2 produse naturiste — toate categoriile după numărul de afecțiuni din bibliotecă\n"
-        "Numărul include și afecțiuni menționate în atenționări și contraindicații; nu demonstrează eficacitatea terapeutică.\n"
+        "Numărul reprezintă afecțiuni distincte cu recomandări pozitive identificate în surse. Atenționările, contraindicațiile și relațiile mixte sunt excluse din scor. Clasificarea surselor nu reprezintă validare clinică.\n"
+        "Sunt disponibile 2 produse cu scor pozitiv din cele 20 solicitate.\n"
         "1. **Mușețel** (Matricaria Chamomilla) — util(ă) în "
         "1156 afecțiuni (denumiri regionale: romaniță, matricea)\n"
         "2. **Păr** (Pyrus Communis) — util(ă) în 1 afecțiune"
@@ -162,7 +163,7 @@ def test_top_without_count_asks_then_accepts_count_only(web):
     second = accept(web, "20")
     result = classify(web, second["contextRevision"]).json()
     test.deps.top_herbs.assert_called_once_with(20, "uleiuri esentiale")
-    assert "Catalogul nu conține intrări" in result["messages"][0]["content"]
+    assert "Nu există produse cu recomandări pozitive" in result["messages"][0]["content"]
 
     assert "uleiuri esențiale" in result["messages"][0]["content"]
     test.deps.top_herbs.reset_mock()
@@ -179,7 +180,9 @@ def test_top_without_count_asks_then_accepts_count_only(web):
     products = accept(web, "Top 37 produse naturiste")
     menu = classify(web, products["contextRevision"]).json()["messages"][0]["content"]
     assert "1. plante medicinale\n2. fructe" in menu
-    assert "14. fibre, probiotice și prebiotice" in menu
+    assert "13. produse apicole" in menu
+    assert "14." not in menu
+    assert "fibre, probiotice" not in menu
     assert test.deps.store.get(sid, tab).routing.top_count == 37
     test.deps.top_herbs.assert_not_called()
     invalid = accept(web, "15")

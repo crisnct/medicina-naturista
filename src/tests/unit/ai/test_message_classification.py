@@ -101,7 +101,16 @@ def test_explicit_top_does_not_require_ollama_or_catalog(message, count):
             assert invalid_choice.top_clarification == "category"
             assert invalid_choice.top_count == 100 and invalid_choice.top_category is None
         assert classifier("Top aminoacizi", {}).top_count == 100
-        assert classifier("Top 100 probiotice", {}).top_clarification == "category"
+        assert classifier("Top 100 probiotice", {}).top_category == "suplimente"
+        assert classifier("Top 100 prebiotice", {}).top_category == "suplimente"
+        assert classifier("Top 100 fibre", {}).top_category == "suplimente"
+        assert (
+            classifier("Top 100 fibre, probiotice și prebiotice", {}).top_category == "suplimente"
+        )
+        assert classifier("Top 100 suplimente și probiotice", {}).top_category == "suplimente"
+        assert len(HERB_CATEGORIES) == 13
+        assert classifier("14", context).top_clarification == "category"
+        assert classifier("13", context).top_category == "produse apicole"
         assert classifier("Top 20 categorie necunoscuta", {}).top_clarification == "category"
         for invalid in ("-2", "0", "10001", "1.5"):
             assert classifier(f"Top {invalid} uleiuri esentiale", {}).top_clarification == "count"
@@ -133,9 +142,7 @@ def test_top_count_clarification_and_changed_subject():
                 "top_category": "fibre, probiotice, prebiotice",
             }
         )
-        assert (
-            classifier("Prezintă clasamentul cu 20 probiotice", {}).top_clarification == "category"
-        )
+        assert classifier("Prezintă clasamentul cu 20 probiotice", {}).top_category == "suplimente"
 
     finally:
         classifier.close()

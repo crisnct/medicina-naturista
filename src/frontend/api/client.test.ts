@@ -64,7 +64,9 @@ describe("tab ownership", () => {
       .mockResolvedValueOnce(new Response(JSON.stringify({ history: [] })))
       .mockResolvedValueOnce(new Response(null, { status: 204 }));
     vi.stubGlobal("fetch", fetch);
-    const { api } = await import("./client");
+    const { api, ApiError, errorMessage } = await import("./client");
+    expect(errorMessage(new ApiError(503, "ignored", "POSITIVE_RANKING_NOT_READY"), "fallback")).toBe("Clasamentul recomandărilor pozitive nu este pregătit. Operatorul trebuie să pregătească și să publice o rulare completă.");
+    expect(errorMessage(new ApiError(503, "ignored", "POSITIVE_RANKING_STALE"), "fallback")).toBe("Clasamentul recomandărilor pozitive trebuie actualizat după schimbarea indexului sau a configurației.");
     await expect(api.getSession()).rejects.toMatchObject({ code: "GLOBAL_SESSION_LIMIT" });
     api.unloadSession();
     expect(fetch).toHaveBeenCalledTimes(1);
