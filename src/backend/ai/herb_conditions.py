@@ -1,4 +1,4 @@
-"""Read the requested plant's distinct corpus associations in one snapshot."""
+"""Read a product's positive conditions from the same published generation as its ranking."""
 
 from __future__ import annotations
 
@@ -6,17 +6,20 @@ import psycopg
 from psycopg_pool import PoolTimeout
 
 from backend.ai import db
-from backend.ai.herb_index_catalog import read_index_catalogs
-from backend.ai.herb_repository import HERBS_INDEX_VERSION, catalog_snapshot
+from backend.ai.herb_positive_repository import active_run
+from backend.ai.herb_repository import catalog_snapshot
 from backend.ai.index_state import INDEX_LOCK, IndexUnavailable
+from backend.config import Settings
+from backend.config import settings as default_settings
 from backend.core.contracts import HerbLookupResult
+from backend.core.operation_context import remaining_timeout
 
 HERB_CONDITIONS_SQL = """
 SELECT DISTINCT mc.id, mc.name
 FROM herbs AS h
-JOIN herbs_benefits AS hb ON hb.herb_id = h.id
-JOIN medical_conditions AS mc ON mc.id = hb.medical_condition_id
-WHERE h.ro ILIKE %s AND h.id = %s
+JOIN herb_positive_pairs AS hp ON hp.herb_id = h.id
+JOIN medical_conditions AS mc ON mc.id = hp.medical_condition_id
+WHERE hp.run_id = %s AND hp.state = 'positive' AND h.ro ILIKE %s AND h.id = %s
 ORDER BY mc.name
 """
 
@@ -25,10 +28,17 @@ def literal_pattern(name: str) -> str:
     return name.replace("\\", "\\\\").replace("%", "\\%").replace("_", "\\_")
 
 
-def lookup_herb_conditions(name: str) -> HerbLookupResult:
+def lookup_herb_conditions(name: str, *, settings: Settings = default_settings) -> HerbLookupResult:
     try:
-        with db.get_pool().connection() as connection, connection.transaction():
+        with (
+            db.get_pool().connection(timeout=remaining_timeout(5.0)) as connection,
+            connection.transaction(),
+        ):
             connection.execute("SET TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY")
+            connection.execute(
+                "SELECT set_config('statement_timeout', %s, true)",
+                (str(max(1, int(remaining_timeout(10.0) * 1000))),),
+            )
             lock_row = connection.execute(
                 "SELECT pg_try_advisory_xact_lock_shared(%s)", (INDEX_LOCK,)
             ).fetchone()
@@ -44,31 +54,9 @@ def lookup_herb_conditions(name: str) -> HerbLookupResult:
             selected = matches[0]
             canonical = selected.ro
             species = [selected.latin] if selected.latin else []
-            metadata: dict[str, str] = dict(
-                connection.execute("SELECT key, value FROM sync_metadata").fetchall()
-            )
-            *_, conditions_fingerprint, herbs_fingerprint = read_index_catalogs(connection)
-            required = {
-                "herbs_benefits_index_version",
-                "herbs_benefits_chunks_generation",
-                "herbs_benefits_conditions_fingerprint",
-                "herbs_benefits_herbs_fingerprint",
-                "herbs_benefits_row_count",
-                "index_generation",
-            }
-            if (
-                not required <= metadata.keys()
-                or metadata["herbs_benefits_index_version"] != str(HERBS_INDEX_VERSION)
-                or metadata["herbs_benefits_chunks_generation"] != metadata["index_generation"]
-                or metadata["herbs_benefits_herbs_fingerprint"] != herbs_fingerprint
-                or metadata["herbs_benefits_conditions_fingerprint"] != conditions_fingerprint
-            ):
-                raise IndexUnavailable("INDEX_HERBS_RESYNC_REQUIRED")
-            count_row = connection.execute("SELECT count(*) FROM herbs_benefits").fetchone()
-            if count_row is None or metadata["herbs_benefits_row_count"] != str(count_row[0]):
-                raise IndexUnavailable("INDEX_HERBS_RESYNC_REQUIRED")
+            run_id = active_run(connection, settings)
             rows = connection.execute(
-                HERB_CONDITIONS_SQL, (literal_pattern(canonical), selected.id)
+                HERB_CONDITIONS_SQL, (run_id, literal_pattern(canonical), selected.id)
             ).fetchall()
             return {
                 "status": "found",

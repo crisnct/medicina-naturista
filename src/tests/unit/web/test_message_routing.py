@@ -133,7 +133,7 @@ def test_top_returns_names_and_aliases_without_search_or_report(web):
     assert not result["startSearch"] and not result["identifyCondition"]
     assert result["messages"][0]["content"] == (
         "### Top 2 produse naturiste — toate categoriile după numărul de afecțiuni din bibliotecă\n"
-        "Numărul reprezintă afecțiuni distincte cu recomandări pozitive identificate în surse. Atenționările, contraindicațiile și relațiile mixte sunt excluse din scor. Clasificarea surselor nu reprezintă validare clinică.\n"
+        "Numărul reprezintă afecțiuni distincte cu recomandări pozitive identificate în surse.\n"
         "Sunt disponibile 2 produse cu scor pozitiv din cele 20 solicitate.\n"
         "1. **Mușețel** (Matricaria Chamomilla) — util(ă) în "
         "1156 afecțiuni (denumiri regionale: romaniță, matricea)\n"

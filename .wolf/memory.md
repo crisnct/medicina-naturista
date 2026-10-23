@@ -581,3 +581,31 @@ description: chronological action log per session, consolidated weekly
 | 13:12 | Edited aiPlans/tmp/positive-ranking-ready-audit.py | expanded (+14 lines) | ~216 |
 | 13:23 | Created aiPlans/tmp/positive-ranking-activate.py | — | ~706 |
 | 13:24 | Edited aiPlans/tmp/positive-ranking-activate.py | 2→5 lines | ~43 |
+
+## Session: 2026-10-23 15:55
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 16:01 | Edited src/scripts/positive_herb_ranking.py | modified refresh_positive_ranking() | ~114 |
+| 16:01 | Edited src/scripts/build_hybrid_index.py | modified main() | ~547 |
+| 16:02 | Edited aiPlans/tmp/positive-ranking-full-corpus.py | modified operator_checkpoint() | ~144 |
+| 16:03 | Edited aiPlans/tmp/positive-ranking-continuous-supervisor.py | modified stop_worker() | ~354 |
+| 16:04 | Edited src/tests/unit/ai/test_build_hybrid_index.py | modified assertRaises() | ~1112 |
+| 16:05 | Edited src/scripts/positive_herb_ranking.py | 10 → 60 | ~10 |
+| 16:05 | Edited README.md | expanded (+24 lines) | ~758 |
+| 16:14 | Edited src/scripts/build_hybrid_index.py | expanded (+11 lines) | ~223 |
+| 16:14 | Edited src/tests/unit/ai/test_build_hybrid_index.py | modified patch() | ~401 |
+| 16:14 | Edited README.md | 1→6 lines | ~111 |
+| 16:25 | Edited src/backend/ai/herb_conditions.py | modified lookup_herb_conditions() | ~398 |
+| 16:25 | Edited src/backend/web/main.py | inline fix | ~24 |
+| 16:25 | Edited src/backend/resources/texts.ro.toml | 2→2 lines | ~88 |
+| 16:25 | Edited README.md | inline fix | ~141 |
+| 16:26 | Edited src/tests/integration/test_herb_conditions.py | modified test_selected_species_does_not_include_another_species_associations() | ~1535 |
+| 16:27 | Edited src/tests/integration/test_herb_conditions.py | modified test_stale_association_metadata_never_becomes_zero_results() | ~130 |
+| 16:27 | Edited src/tests/integration/test_herbs_index.py | modified finish() | ~374 |
+| 16:27 | Edited src/frontend/components/HerbConditionsPanel.test.tsx | 1→2 lines | ~49 |
+| 16:34 | Edited src/frontend/components/HerbConditionsPanel.tsx | — | ~0 |
+| 16:34 | Edited src/frontend/components/HerbConditionsPanel.test.tsx | inline fix | ~29 |
+| 16:36 | Edited src/backend/resources/texts.ro.toml | "Numărul reprezintă afecți" → "Numărul reprezintă afecți" | ~30 |
+| 16:36 | Edited src/tests/unit/web/test_message_routing.py | "Numărul reprezintă afecți" → "Numărul reprezintă afecți" | ~28 |
+| 16:41 | Edited src/frontend/components/Composer.tsx | 17→17 lines | ~339 |

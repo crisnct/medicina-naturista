@@ -18,7 +18,6 @@ export function HerbConditionsPanel({ message }: { message: HerbConditionsMessag
             {tr("interface.herb_conditions_use_prefix")}<strong className="herb-condition-count">{message.entriesCount}</strong> {tr("interface.herb_conditions_count_label")}</span>
         </h3>
       </div>
-      <p className="herb-association-note">{tr("interface.herb_conditions_notice")}</p>
       {message.entriesCount === 0 ? (
         <p>{tr("interface.herb_conditions_empty")}</p>
       ) : (

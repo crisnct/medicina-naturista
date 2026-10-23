@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-23T10:24:28.778Z
-> Files: 103 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-23T13:41:51.174Z
+> Files: 107 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -11,7 +11,7 @@
 
 - `docker-compose.yaml` — Docker Compose: 4 services (~2177 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~28179 tok)
+- `README.md` — Project documentation (~28692 tok)
 
 ## .claude/agents/
 
@@ -57,8 +57,8 @@
 - `positive-ranking-benchmark-report.py` (~1044 tok)
 - `positive-ranking-calibration-check.py` (~1067 tok)
 - `positive-ranking-compact-probe.py` (~258 tok)
-- `positive-ranking-continuous-supervisor.py` — Resume one local ranking with a one-minute thermal restart policy and live progress. (~3776 tok)
-- `positive-ranking-full-corpus.py` — Prepare an inactive full-corpus ranking under the external thermal supervisor. (~3066 tok)
+- `positive-ranking-continuous-supervisor.py` — Run one local ranking with minute progress updates and no thermal monitoring. (~2668 tok)
+- `positive-ranking-full-corpus.py` — Prepare an inactive full-corpus ranking with operator progress and no thermal monitoring. (~2712 tok)
 - `positive-ranking-full-supervisor.ps1` — Declares Save (~1172 tok)
 - `positive-ranking-independent-sample.py` — take (~1522 tok)
 - `positive-ranking-independent2-gold.py` — Declares are (~3070 tok)
@@ -100,6 +100,7 @@
 - `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~8801 tok)
 - `herb_association_classification.py` — Bounded local-only polarity classification; validated quotations are source provenance. (~5563 tok)
 - `herb_association_rules.py` — Conservative source-polarity rules over unchanged indexed text and primary conditions. (~16063 tok)
+- `herb_conditions.py` — Read a product's positive conditions from the same published generation as its ranking. (~850 tok)
 - `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~5422 tok)
 - `herb_ranking.py` — Read a bounded catalog ranking with regional Romanian names. (~886 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~7160 tok)
@@ -135,11 +136,11 @@
 
 ## src/backend/resources/
 
-- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~7500 tok)
+- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~7495 tok)
 
 ## src/backend/web/
 
-- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~10888 tok)
+- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~10898 tok)
 - `texts.py` — Bootstrap public copy in the original Vite HTML; assets retain normal static serving. (~558 tok)
 
 ## src/frontend/
@@ -161,6 +162,8 @@
 - `Composer.tsx` — MAX_CHAT_CHARS — renders form (~986 tok)
 - `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3158 tok)
 - `GeneratePanel.tsx` — Display names are editable; provider routing continues to use the original IDs. (~2894 tok)
+- `HerbConditionsPanel.test.tsx` — message (~568 tok)
+- `HerbConditionsPanel.tsx` — HerbConditionsPanel (~428 tok)
 
 ## src/frontend/lib/
 
@@ -168,17 +171,18 @@
 
 ## src/scripts/
 
-- `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~16529 tok)
+- `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~17022 tok)
 - `manage_texts.py` — Export public copy and regenerate key/parameter metadata, never a second editable catalog. (~783 tok)
-- `positive_herb_ranking.py` — Explicit, resumable positive-ranking stages used by the existing index CLI. (~2505 tok)
+- `positive_herb_ranking.py` — Explicit, resumable positive-ranking stages used by the existing index CLI. (~2597 tok)
 - `set_gpu_clock.bat` (~827 tok)
 - `setup_gpu_clock.bat` (~593 tok)
 
 ## src/tests/integration/
 
 - `test_condition_database.py` — Reconstruct disposable databases from SQL, never from the removed JSONL. (~4307 tok)
-- `test_herb_conditions.py` — Actual PostgreSQL DISTINCT, aliases and literal ILIKE matching in an isolated DB. (~5066 tok)
+- `test_herb_conditions.py` — Actual PostgreSQL DISTINCT, aliases and literal ILIKE matching in an isolated DB. (~6213 tok)
 - `test_herb_database.py` — Rebuild and upgrade isolated PostgreSQL databases using only packaged SQL. (~5558 tok)
+- `test_herbs_index.py` — Atomic derived associations on an isolated PostgreSQL fixture. (~8457 tok)
 
 ## src/tests/support/
 
@@ -186,7 +190,7 @@
 
 ## src/tests/unit/ai/
 
-- `test_build_hybrid_index.py` — FakeClock: make_chunk, embed, fake_embed, test_normalize_text_preserves_composed_romanian_diacritics (~14444 tok)
+- `test_build_hybrid_index.py` — FakeClock: make_chunk, embed, fake_embed, test_normalize_text_preserves_composed_romanian_diacritics (~15800 tok)
 - `test_message_classification.py` — Strict intent contract and local Ollama wiring; no external traffic. (~5385 tok)
 
 ## src/tests/unit/core/
@@ -195,4 +199,4 @@
 
 ## src/tests/unit/web/
 
-- `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~7345 tok)
+- `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~7308 tok)

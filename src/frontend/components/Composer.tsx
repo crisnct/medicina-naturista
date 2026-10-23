@@ -33,22 +33,6 @@ export function Composer({
     <>
       <form id="message-row" onSubmit={submit}>
         <label htmlFor="health-message">{tr("interface.composer_question_label")}</label>
-        <div className="question-examples" aria-label={tr("interface.composer_examples_label")}>
-          {[
-            { label: tr("interface.example_flu_label"), text: tr("interface.example_flu_query") },
-            { label: tr("interface.example_cloves_label"), text: tr("interface.example_cloves_query") },
-            { label: tr("interface.example_top_products_label"), text: tr("interface.example_top_products_query") },
-            { label: tr("interface.example_author_label"), text: tr("interface.example_author_query") },
-            { label: tr("interface.example_mushrooms_label"), text: tr("interface.example_mushrooms_query") },
-            { label: tr("interface.example_garlic_label"), text: tr("interface.example_garlic_query") },
-          ].map((example) => (
-            <button key={example.label} type="button" className="example-button"
-              disabled={busy || value.trim().length > 0}
-              onClick={() => { setValue(example.text); input.current?.focus({ preventScroll: true }); }}>
-              {example.label}
-            </button>
-          ))}
-        </div>
         <div className="composer-input-row">
           <input
             ref={input}
@@ -75,6 +59,22 @@ export function Composer({
           </button>
         </div>
         <div id="message-helper">{tr("interface.composer_search_hint")}</div>
+        <div className="question-examples" aria-label={tr("interface.composer_examples_label")}>
+          {[
+            { label: tr("interface.example_flu_label"), text: tr("interface.example_flu_query") },
+            { label: tr("interface.example_cloves_label"), text: tr("interface.example_cloves_query") },
+            { label: tr("interface.example_top_products_label"), text: tr("interface.example_top_products_query") },
+            { label: tr("interface.example_author_label"), text: tr("interface.example_author_query") },
+            { label: tr("interface.example_mushrooms_label"), text: tr("interface.example_mushrooms_query") },
+            { label: tr("interface.example_garlic_label"), text: tr("interface.example_garlic_query") },
+          ].map((example) => (
+            <button key={example.label} type="button" className="example-button"
+              disabled={busy || value.trim().length > 0}
+              onClick={() => { setValue(example.text); input.current?.focus({ preventScroll: true }); }}>
+              {example.label}
+            </button>
+          ))}
+        </div>
       </form>
     </>
   );

@@ -120,6 +120,33 @@ class HerbsIndexDatabaseTests(TestCase):
                     source, builder.DEFAULT_MODEL, 8, gpu_usage=lambda: "N/A", connection=connection
                 )
 
+        from uuid import uuid4
+
+        from backend.ai.herb_association_classification import relation_id, semantic_config
+        from backend.ai.herb_association_rules import Decision
+        from backend.ai.herb_positive_repository import PositiveRepository
+        from backend.config import Settings
+        from backend.core.errors import ApplicationError
+
+        repository = PositiveRepository()
+        config = Settings()
+        with self.assertRaises(ApplicationError) as unpublished:
+            lookup_herb_conditions("matricaria chamomilla")
+        self.assertEqual(unpublished.exception.code, "POSITIVE_RANKING_NOT_READY")
+        data = repository.read_snapshot()
+        run_id = str(uuid4())
+        repository.create_run(run_id, data, semantic_config(config), "c" * 64, False)
+        repository.finish(
+            run_id,
+            data,
+            {
+                relation_id(work): Decision("positive", "rule", "synthetic_fixture")
+                for work in data.works
+            },
+            {},
+            {},
+        )
+        repository.publish(run_id, config, digest="c" * 64)
         result = lookup_herb_conditions("matricaria chamomilla")
         self.assertEqual(result["status"], "found")
         self.assertEqual([row["name"] for row in result["conditions"]], ["Gastrita"])
@@ -226,9 +253,9 @@ class HerbsIndexDatabaseTests(TestCase):
             connection.execute(
                 "INSERT INTO herb_aliases(herb_id,name,kind) VALUES (17,'alias nou','ro_regional')"
             )
-        with self.assertRaises(IndexUnavailable) as error:
+        with self.assertRaises(ApplicationError) as error:
             lookup_herb_conditions("matricaria chamomilla")
-        self.assertEqual(error.exception.code, "INDEX_HERBS_RESYNC_REQUIRED")
+        self.assertEqual(error.exception.code, "POSITIVE_RANKING_STALE")
         with self.assertRaisesRegex(RuntimeError, "HERBS_ONLY_EXISTING_CATALOG_CHANGED"):
             builder.rebuild_herbs_only()
 

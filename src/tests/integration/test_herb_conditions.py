@@ -5,11 +5,18 @@ from __future__ import annotations
 import pytest
 
 from backend.ai import db
+from backend.ai.embedding_model import get_profile
+from backend.ai.herb_association_classification import relation_id, semantic_config
+from backend.ai.herb_association_rules import Decision, content_hash
 from backend.ai.herb_conditions import literal_pattern, lookup_herb_conditions
 from backend.ai.herb_index_catalog import read_index_catalogs
+from backend.ai.herb_positive_repository import PositiveRepository
 from backend.ai.herb_ranking import list_top_herbs
 from backend.ai.herb_repository import HERBS_INDEX_VERSION
-from backend.ai.index_state import IndexUnavailable
+from backend.ai.index_constants import TEXT_REPR_VERSION
+from backend.ai.index_state import IndexUnavailable, dictionary_snapshot, passage_profile
+from backend.config import Settings
+from backend.core.errors import ApplicationError
 from tests.support.postgres import PostgresFixture
 
 
@@ -57,8 +64,59 @@ def catalog(postgres):
                 connection.execute("SELECT count(*) FROM herbs_benefits").fetchone()[0]
             ),
         }
+        profile = get_profile("Qwen/Qwen3-Embedding-0.6B")
+        from backend.ai.condition_repository import FINGERPRINT_VERSION
+
+        metadata.update(
+            model_name=profile.name,
+            model_dimension=str(profile.dimension),
+            dictionary_fingerprint=dictionary_snapshot(connection)[0],
+            dictionary_fingerprint_version=str(FINGERPRINT_VERSION),
+            passage_profile=passage_profile(profile),
+            text_repr_version=TEXT_REPR_VERSION,
+        )
         for key, value in metadata.items():
             connection.execute("INSERT INTO sync_metadata(key,value) VALUES(%s,%s)", (key, value))
+        for condition in ("Vertigo", "Zorbita"):
+            path = condition + ".md"
+            text = f"# {condition}\n## Recomandari\n- matricaria chamomilla\n- chamaemelum nobile\n"
+            digest = content_hash(text)
+            connection.execute(
+                "INSERT INTO documents(relative_path,absolute_path,size_bytes,modified_utc,sha256,encoding,line_count,char_count) VALUES(%s,%s,1,now(),%s,'utf-8',4,%s)",
+                (path, path, digest, len(text)),
+            )
+            connection.execute(
+                "INSERT INTO chunks(source_relative_path,source_absolute_path,source_sha256,line_start,line_end,heading,text,text_sha256,char_count,embedding,primary_medical_conditions,text_search) VALUES(%s,%s,%s,1,4,%s,%s,%s,%s,%s::vector,%s,''::tsvector)",
+                (
+                    path,
+                    path,
+                    digest,
+                    condition,
+                    text,
+                    digest,
+                    len(text),
+                    "[" + ",".join(["0"] * profile.dimension) + "]",
+                    [condition],
+                ),
+            )
+    from uuid import uuid4
+
+    repository = PositiveRepository()
+    config = Settings()
+    data = repository.read_snapshot()
+    run_id = str(uuid4())
+    repository.create_run(run_id, data, semantic_config(config), "c" * 64, False)
+    repository.finish(
+        run_id,
+        data,
+        {
+            relation_id(work): Decision("positive", "rule", "synthetic_fixture")
+            for work in data.works
+        },
+        {},
+        {},
+    )
+    repository.publish(run_id, config, digest="c" * 64)
 
 
 @pytest.mark.parametrize("name", ["romanita", "romaniței", "Matricaria chamomilla"])
@@ -107,8 +165,9 @@ def test_like_metacharacters_are_literal_and_query_is_parameterized(catalog):
 def test_stale_association_metadata_never_becomes_zero_results(catalog, key, value):
     with db.get_pool().connection() as connection:
         connection.execute("UPDATE sync_metadata SET value=%s WHERE key=%s", (value, key))
-    with pytest.raises(IndexUnavailable):
+    with pytest.raises(ApplicationError) as stale:
         lookup_herb_conditions("matricaria chamomilla")
+    assert stale.value.code == "POSITIVE_RANKING_STALE"
 
 
 def test_alias_ambiguity_requires_choice(catalog):
@@ -137,6 +196,8 @@ def test_exact_romanian_name_does_not_hide_other_plants_sharing_the_alias(catalo
 
 
 def test_selected_species_does_not_include_another_species_associations(catalog):
+    from uuid import uuid4
+
     with db.get_pool().connection() as connection:
         connection.execute(
             "DELETE FROM herbs_benefits WHERE herb_id=2 AND medical_condition_id=(SELECT id FROM medical_conditions ORDER BY name LIMIT 1)"
@@ -144,19 +205,46 @@ def test_selected_species_does_not_include_another_species_associations(catalog)
         connection.execute(
             "UPDATE sync_metadata SET value=(SELECT count(*)::text FROM herbs_benefits) WHERE key='herbs_benefits_row_count'"
         )
+        condition_id = connection.execute(
+            "SELECT id FROM medical_conditions ORDER BY name LIMIT 1"
+        ).fetchone()[0]
+    repository = PositiveRepository()
+    config = Settings()
+    data = repository.read_snapshot()
+    run_id = str(uuid4())
+    repository.create_run(run_id, data, semantic_config(config), "c" * 64, False)
+    decisions = {
+        relation_id(work): Decision(
+            "caution"
+            if work[1].herb_id == 2 and work[1].condition_id == condition_id
+            else "positive",
+            "rule",
+            "synthetic_fixture",
+        )
+        for work in data.works
+    }
+    repository.finish(run_id, data, decisions, {}, {})
+    repository.publish(run_id, config, digest="c" * 64)
     result = lookup_herb_conditions("chamaemelum nobile")
     assert result["entriesCount"] == 1 and result["species"] == ["chamaemelum nobile"]
+    assert lookup_herb_conditions("matricaria chamomilla")["entriesCount"] == 2
+    assert (
+        next(row for row in list_top_herbs(10) if row["latin"] == "chamaemelum nobile")["ranking"]
+        == result["entriesCount"]
+    )
 
 
 def test_missing_table_is_index_unavailable(catalog):
     with db.get_pool().connection() as connection:
-        connection.execute("ALTER TABLE herbs_benefits RENAME TO herbs_benefits_hidden")
+        connection.execute("ALTER TABLE herb_positive_pairs RENAME TO herb_positive_pairs_hidden")
     try:
         with pytest.raises(IndexUnavailable):
             lookup_herb_conditions("matricaria chamomilla")
     finally:
         with db.get_pool().connection() as connection:
-            connection.execute("ALTER TABLE herbs_benefits_hidden RENAME TO herbs_benefits")
+            connection.execute(
+                "ALTER TABLE herb_positive_pairs_hidden RENAME TO herb_positive_pairs"
+            )
 
 
 def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
@@ -175,6 +263,7 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
     config = Settings()
     repository = PositiveRepository()
     with db.get_pool().connection() as connection:
+        connection.execute("TRUNCATE documents RESTART IDENTITY CASCADE")
         connection.execute("DELETE FROM sync_metadata")
         profile = get_profile("Qwen/Qwen3-Embedding-0.6B")
         metadata = {
@@ -332,6 +421,9 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
     assert len(list_top_herbs(100, "fructe")) == 2
     assert list_top_herbs(100, "cereale") == []
     assert list_top_herbs(100, "seminte") == []
+    assert lookup_herb_conditions("matricaria chamomilla")["entriesCount"] == 1
+    assert lookup_herb_conditions("mentha aquatica")["entriesCount"] == 0
+    assert lookup_herb_conditions("cereala sintetica")["conditions"] == []
     assert repository.read_snapshot().manifest == before
     with db.get_pool().connection() as connection:
         assert (
@@ -362,6 +454,9 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
     with pytest.raises(ApplicationError) as invalid_top:
         list_top_herbs(20)
     assert invalid_top.value.code == "POSITIVE_RANKING_STALE"
+    with pytest.raises(ApplicationError) as invalid_details:
+        lookup_herb_conditions("matricaria chamomilla")
+    assert invalid_details.value.code == "POSITIVE_RANKING_STALE"
     with db.get_pool().connection() as connection:
         connection.execute(
             "UPDATE herb_positive_rankings SET ranking=1 WHERE run_id=%s AND herb_id=1",

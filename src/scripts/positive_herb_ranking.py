@@ -63,7 +63,7 @@ def run_positive_ranking(
         )
 
     def heartbeat() -> None:
-        while not stopped.wait(10):
+        while not stopped.wait(60):
             progress()
 
     thread = threading.Thread(target=heartbeat, daemon=True)
@@ -212,3 +212,10 @@ def run_positive_ranking(
         stopped.set()
         thread.join(timeout=1)
         progress()
+
+
+# Keep the new generation inactive until preparation and all publication checks succeed.
+def refresh_positive_ranking(settings: Settings) -> dict:
+    run_positive_ranking(settings, analyze=True)
+    prepared = run_positive_ranking(settings)
+    return run_positive_ranking(settings, publish=prepared["run_id"])

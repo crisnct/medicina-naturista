@@ -369,7 +369,7 @@ def _conversation(
         deps.email or send_report,
         render_pdf,
         deps.classify,
-        deps.herb_lookup or lookup_herb_conditions,
+        deps.herb_lookup or partial(lookup_herb_conditions, settings=deps.settings),
         deps.top_herbs or partial(list_top_herbs, settings=deps.settings),
         report_model=model,
         report_model_choice=model_choice or "",

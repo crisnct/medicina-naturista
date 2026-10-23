@@ -926,6 +926,97 @@ class ChunkingTests(unittest.TestCase):
             ),
             [((0, 5), (4,))],
         )
+        from contextlib import redirect_stderr
+        from unittest.mock import call
+
+        from scripts import positive_herb_ranking as ranking
+
+        with patch.object(ranking, "run_positive_ranking") as stages:
+            stages.side_effect = [
+                {"status": "analyzed"},
+                {"status": "ready", "run_id": "prepared-run"},
+                {"status": "published", "run_id": "prepared-run"},
+            ]
+            self.assertEqual(ranking.refresh_positive_ranking(config)["status"], "published")
+            self.assertEqual(
+                stages.call_args_list,
+                [call(config, analyze=True), call(config), call(config, publish="prepared-run")],
+            )
+            stages.reset_mock()
+            stages.side_effect = [{"status": "analyzed"}, TimeoutError("synthetic timeout")]
+            with self.assertRaises(TimeoutError):
+                ranking.refresh_positive_ranking(config)
+            self.assertEqual(stages.call_args_list, [call(config, analyze=True), call(config)])
+
+        with (
+            patch("backend.config.Settings.from_env", return_value=config) as environment_settings,
+            patch("backend.config.configure_settings") as configure,
+            patch.object(builder, "build") as build_index,
+            patch.object(builder, "rebuild_herbs_only") as rebuild_associations,
+            patch.object(ranking, "refresh_positive_ranking") as refresh_rankings,
+            patch.object(ranking, "run_positive_ranking") as explicit_stage,
+            redirect_stdout(output),
+            redirect_stderr(output),
+        ):
+            ordering = Mock()
+            ordering.attach_mock(build_index, "index")
+            ordering.attach_mock(refresh_rankings, "rankings")
+            with patch("sys.argv", ["build_hybrid_index"]):
+                self.assertEqual(builder.main(), 0)
+            self.assertEqual([c[0] for c in ordering.mock_calls], ["index", "rankings"])
+            refresh_rankings.reset_mock()
+            with patch("sys.argv", ["build_hybrid_index", "--skip-positive-ranking"]):
+                self.assertEqual(builder.main(), 0)
+            refresh_rankings.assert_not_called()
+            with patch("sys.argv", ["build_hybrid_index", "--rebuild-herbs-only"]):
+                self.assertEqual(builder.main(), 0)
+            rebuild_associations.assert_called_once()
+            refresh_rankings.assert_called_once()
+            refresh_rankings.reset_mock()
+            with patch("sys.argv", ["build_hybrid_index", "--prepare-positive-ranking"]):
+                self.assertEqual(builder.main(), 0)
+            explicit_stage.assert_called_once_with(
+                builder.settings, analyze=False, publish=None, resume=None
+            )
+            refresh_rankings.assert_not_called()
+            build_index.side_effect = RuntimeError("synthetic index failure")
+            with patch("sys.argv", ["build_hybrid_index"]):
+                self.assertEqual(builder.main(), 1)
+            refresh_rankings.assert_not_called()
+            build_index.side_effect = None
+            refresh_rankings.side_effect = RuntimeError("synthetic corpus text")
+            with patch("sys.argv", ["build_hybrid_index"]):
+                self.assertEqual(builder.main(), 1)
+            self.assertNotIn("synthetic corpus text", output.getvalue())
+            self.assertIn("POSITIVE_RANKING_FAILED", output.getvalue())
+            with patch(
+                "sys.argv",
+                ["build_hybrid_index", "--skip-positive-ranking", "--prepare-positive-ranking"],
+            ):
+                with self.assertRaises(SystemExit):
+                    builder.parse_args()
+            refresh_rankings.side_effect = None
+            environment_settings.return_value = replace(
+                config, herb_association_ai_base="http://host.docker.internal:11434/v1"
+            )
+            with (
+                patch("sys.argv", ["build_hybrid_index", "--skip-positive-ranking"]),
+                patch("sys.platform", "win32"),
+            ):
+                self.assertEqual(builder.main(), 0)
+            self.assertEqual(
+                configure.call_args.args[0].herb_association_ai_base,
+                "http://127.0.0.1:11434/v1",
+            )
+            with (
+                patch("sys.argv", ["build_hybrid_index", "--skip-positive-ranking"]),
+                patch("sys.platform", "linux"),
+            ):
+                self.assertEqual(builder.main(), 0)
+            self.assertEqual(
+                configure.call_args.args[0].herb_association_ai_base,
+                "http://host.docker.internal:11434/v1",
+            )
 
 
 class EmbeddingProgressTests(unittest.TestCase):

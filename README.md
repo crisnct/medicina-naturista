@@ -44,7 +44,7 @@ este folosit în antet, avatarele conversației, pictograma aplicației și rapo
 Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pentru cererile explicite și Ollama local `gemma3:1b` (`MEDICAL_CONDITION_AI_LOCAL_MODEL`) când este necesar. `POST /api/messages` afișează rapid mesajul și salvează contextul, apoi `POST /api/classify` selectează:
 
 - **Remedii:** rezolvarea afecțiunilor și căutarea existentă, cu identificare AI opțională.
-- **Planta/produsul:** nume/alias rezolvat în catalog și interogare SQL pe `herbs`, `herbs_benefits`, `medical_conditions`; numărul rezultatelor distincte apare deasupra listei de afecțiuni. Asocierile reflectă coapariții în corpus, inclusiv contraindicații.
+- **Planta/produsul:** nume/alias rezolvat în catalog și interogare SQL pe `herbs`, `herb_positive_pairs`, `medical_conditions`, pentru aceeași rulare publicată ca topurile și numai perechile `positive`. Numărul rezultatelor distincte apare deasupra listei și coincide cu scorul produsului din top. Atenționările, contraindicațiile și relațiile mixte sunt excluse; clasificarea surselor nu reprezintă validare clinică. O rulare lipsă sau incompatibilă produce aceeași eroare ca topurile, fără revenire la coaparițiile istorice.
 
   Potrivirea numelor românești acceptă flexiuni din dicționarul Hunspell inclus (articol, plural, genitiv), cu sau fără diacritice, inclusiv în denumiri din mai multe cuvinte. Regulile generale pentru intrările incomplete sunt validate cu același dicționar, fără liste de excepții pe plante. Forma exactă are prioritate; numele comune mai multor specii cer alegerea speciei.
 - **Top plante/produse:** clasament pozitiv din `herb_positive_rankings`, filtrat exact după categoria cerută înainte de sortare și limitare. Singura sugestie de top din interfață este „Top 100 produse naturiste”. „Top X produse naturiste” afișează cele 13 categorii, fiecare pe un rând numerotat; utilizatorul răspunde cu numărul categoriei și primește până la X produse din acea categorie. O alegere invalidă repetă lista fără a schimba X. Comenzile directe precum „Top 20 suplimente”, „Top 10 plante medicinale”, „Primele 20 vitamine” și „Top 100 semințe” rămân disponibile. „Top 100”, „Top 100 plante”, „top general” și „toate categoriile” includ toate categoriile. Fără cantitate se folosesc 100 de intrări; categoriile necunoscute sau multiple cer alegerea unei singure categorii, iar un număr invalid cere o cantitate între 1 și 10000. Clarificările păstrează categoria/numărul cerut. Răspunsul arată numărul efectiv returnat, asocierile și aliasurile regionale; fără căutare hibridă sau generare AI pentru comenzile explicite.
@@ -389,7 +389,33 @@ perechi, scoruri și cache. Nu clasifică și nu activează nimic. **Aplicarea �
 necesită autorizare separată**, backup verificat prin restaurare și evaluarea descrisă mai jos.
 Aplicația nu aplică migrări la startup.
 
-După aplicarea explicită a migrării într-un mediu pregătit, comenzile operatorului sunt:
+După aplicarea explicită a migrării într-un mediu pregătit, comanda obișnuită actualizează
+implicit și topurile la final:
+
+```powershell
+$env:PYTHONPATH = 'src'
+.\.venv\Scripts\python.exe -m scripts.build_hybrid_index
+```
+
+După încheierea tranzacției de indexare, CLI-ul execută secvențial analiza, pregătirea unei
+rulări noi și publicarea ei atomică. Același flux rulează după `--rebuild-herbs` sau
+`--rebuild-herbs-only`. Nu sunt necesare opțiunile separate de topuri pentru fluxul complet.
+`herb_positive_runs` primește noua rulare; `herb_positive_evidence`, `herb_positive_pairs`
+și `herb_positive_rankings` sunt populate pentru aceasta. `herb_positive_cache` reutilizează
+deciziile compatibile și salvează deciziile noi validate. Tabelele nu sunt golite și
+istoricul rulărilor este păstrat. Chiar și când indexul nu se schimbă, comanda creează o
+rulare nouă, cu reutilizarea cache-ului. Nu este necesară o migrare suplimentară.
+
+La execuția nativă pe Windows, CLI-ul traduce adresa Ollama `host.docker.internal`
+moștenită din configurația Docker în `127.0.0.1`, păstrând protocolul, portul și calea.
+În container adresa Docker rămâne neschimbată; o adresă locală configurată explicit
+este de asemenea păstrată. Nu există retry sau schimbare de model/furnizor.
+
+`--skip-positive-ranking` dezactivează explicit această etapă. Un eșec al indexării nu
+lansează clasificarea; un eșec ulterior al pregătirii sau publicării topurilor returnează
+cod de ieșire 1, fără activarea rezultatelor parțiale. Indexul deja publicat nu este anulat.
+
+Pentru operații separate, modurile explicite rămân disponibile:
 
 ```powershell
 $env:PYTHONPATH = 'src'
@@ -506,10 +532,9 @@ finalizare. Publicarea verifică din nou profilul compatibil.
 
 Toate variabilele sunt validate de `Settings` și propagate prin Compose. Se folosește un
 singur request în zbor, temperatură zero și JSON cu schemă strictă, fără retry/fallback.
-Pentru validarea locală curentă, operatorul folosește un watchdog separat care verifică
-temperatura GPU la fiecare 10 secunde și oprește procesarea la minimum 82°C. Pauzele
-preventive de răcire sunt active: de la 75°C se așteaptă scăderea la cel mult 70°C,
-cu verificări la 10 secunde. Frecvența GPU este administrată de utilizator.
+Conform ajustării din 23 octombrie, procesarea și controlerul operatorului nu verifică
+temperatura GPU, nu opresc la 82°C și nu introduc pauze termice sau preventive.
+Frecvența GPU este administrată de utilizator.
 Se verifică setul exact de candidați și citatele exacte; rezultatele incomplete sunt respinse.
 Citatele valide dovedesc proveniența, nu corectitudinea semantică. Numărul de caractere nu
 măsoară tokenii; împachetarea folosește suplimentar o limită conservatoare pe octeții UTF-8
@@ -529,21 +554,25 @@ este validă. Returnează până la X intrări cu scor strict pozitiv; nu comple
 Categoria fără rezultate este un rezultat valid. Lipsa unei rulări valide dă 503
 `POSITIVE_RANKING_NOT_READY`, iar schimbarea inputului/configurației dă
 `POSITIVE_RANKING_STALE`; nu există revenire la scorul istoric. Codurile indexului de bază
-rămân aplicabile. Indexarea normală nu lansează automat clasificarea și nu este anulată
-retroactiv de eșecul ei; după schimbarea indexului, topurile pot cere o nouă pregătire.
+rămân aplicabile. Comanda normală de indexare actualizează automat topurile la final,
+cu excepția folosirii `--skip-positive-ranking`. Până la publicarea noii rulări, un top
+vechi incompatibil rămâne indisponibil; nu se afișează rezultate parțiale sau istorice.
 
-Înainte de activarea pe corpusul real: calibrare măsurată pe loturi reprezentative,
-evaluare independentă documentată pe 80 de unități și minimum 100 de relații
-(inclusiv fructe/cereale), minimum 94% precizie pe pozitive, minimum 2× accelerare a
-clasificării și zero contraindicații/mixte cunoscute incluse. Comparați două rulări fără
-cache pentru fiecare variantă, pe același snapshot și model. Calculați accelerarea
-exclusiv din `classification_seconds`: timpul total
-al probei minus `cooling_seconds`, pentru ambele variante. Pauzele de răcire se raportează
-separat și nu intră în durata clasificării sau în pragul de 2×. Păstrați rularea
-anterioară și comparați hashurile/xmin ale indexului, coaparițiilor și scorurilor istorice.
+Evaluarea offline folosește loturi reprezentative, inclusiv fructe/cereale, și un eșantion
+independent de 80 de unități și minimum 100 de relații. Pentru activarea din 23 octombrie,
+utilizatorul a acceptat precizia măsurată de 89,33% pe eșantioanele deja revizuite și
+accelerarea existentă, fără un prag minim suplimentar de viteză. Aceasta nu certifică o
+evaluare independentă a profilului final sau o accelerare de 2×. Evaluările de precizie
+și viteză nu sunt executate automat de fiecare indexare; publicarea automată verifică
+integritatea, acoperirea completă și compatibilitatea surselor, profilului și modelului.
+Pentru comparațiile de viteză, folosiți două rulări fără cache pentru fiecare variantă,
+pe același snapshot și model; excludeți eventualele pauze din `classification_seconds`.
+Păstrați rularea anterioară și comparați hashurile/xmin ale indexului, coaparițiilor și
+scorurilor istorice în evaluările care nu modifică indexul.
 Revenirea la un pointer anterior necesită o operație explicită, cu același manifest încă
 valid; o rulare veche nu poate fi republicată peste una nouă prin comanda obișnuită.
-Progresul afișează la circa 10 secunde numai ID-uri și agregate, durată, rată și ETA.
+Progresul clasificării afișează la circa 60 de secunde numai ID-uri și agregate, durată,
+rată și ETA; tranzițiile și finalizarea sunt raportate imediat.
 
 ## 📦 Schema indexului hibrid (Postgres)
 

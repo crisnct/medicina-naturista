@@ -18,6 +18,7 @@ describe("plant association results", () => {
     expect(screen.getAllByRole("listitem").map((item) => item.textContent)).toEqual(["Gastrită", "Insomnie"]);
     expect(screen.queryByRole("table")).not.toBeInTheDocument();
     expect(screen.getByText("(Matricaria Chamomilla)")).toBeInTheDocument();
+    expect(screen.queryByText(/aceleași recomandări pozitive ca topurile/)).not.toBeInTheDocument();
   });
 
   it("distinguishes a known plant with zero associations", () => {

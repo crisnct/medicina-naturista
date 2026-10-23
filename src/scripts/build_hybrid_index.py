@@ -26,11 +26,12 @@ from array import array
 from collections.abc import Iterable, Mapping
 from concurrent.futures import FIRST_COMPLETED, Future, ProcessPoolExecutor, wait
 from contextlib import contextmanager
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from datetime import datetime, timezone
 from pathlib import Path
 from queue import Empty
 from typing import Callable, Iterator, Protocol, Sequence, TypedDict
+from urllib.parse import urlsplit
 
 import numpy as np
 
@@ -1365,23 +1366,46 @@ def parse_args() -> argparse.Namespace:
         metavar="RUN_ID",
         help="Resume an explicit preparation using its validated cache",
     )
+    parser.add_argument(
+        "--skip-positive-ranking",
+        action="store_true",
+        help="Skip the default positive-ranking analysis, preparation and atomic publication",
+    )
     arguments = parser.parse_args()
     if arguments.resume_positive_ranking and not arguments.prepare_positive_ranking:
         parser.error("--resume-positive-ranking requires --prepare-positive-ranking")
+    if arguments.skip_positive_ranking and (
+        arguments.analyze_positive_ranking
+        or arguments.prepare_positive_ranking
+        or arguments.publish_positive_ranking
+    ):
+        parser.error("--skip-positive-ranking cannot be combined with a positive-ranking mode")
     return arguments
 
 
-if __name__ == "__main__":
+# Run ranking preparation after the index writer has released its transaction and lock.
+def main() -> int:
     from backend.config import Settings, configure_settings
 
-    configure_settings(Settings.from_env(dotenv=True))
+    configuration = Settings.from_env(dotenv=True)
+    # Compose reaches the host through this name; native Windows reaches the same Ollama
+    # through loopback. Resolve the runtime address before the single local request.
+    base = urlsplit(configuration.herb_association_ai_base)
+    if sys.platform == "win32" and base.hostname == "host.docker.internal":
+        authority = "127.0.0.1" + (f":{base.port}" if base.port is not None else "")
+        configuration = replace(
+            configuration,
+            herb_association_ai_base=base._replace(netloc=authority).geturl(),
+        )
+    configure_settings(configuration)
     arguments = parse_args()
+    ranking_stage = bool(
+        arguments.analyze_positive_ranking
+        or arguments.prepare_positive_ranking
+        or arguments.publish_positive_ranking
+    )
     try:
-        if (
-            arguments.analyze_positive_ranking
-            or arguments.prepare_positive_ranking
-            or arguments.publish_positive_ranking
-        ):
+        if ranking_stage:
             from scripts.positive_herb_ranking import run_positive_ranking
 
             run_positive_ranking(
@@ -1390,16 +1414,18 @@ if __name__ == "__main__":
                 publish=arguments.publish_positive_ranking,
                 resume=arguments.resume_positive_ranking,
             )
-        elif arguments.rebuild_herbs_only:
-            rebuild_herbs_only()
         else:
-            build(arguments.source, arguments.model, rebuild_herbs=arguments.rebuild_herbs)
+            if arguments.rebuild_herbs_only:
+                rebuild_herbs_only()
+            else:
+                build(arguments.source, arguments.model, rebuild_herbs=arguments.rebuild_herbs)
+            if not arguments.skip_positive_ranking:
+                from scripts.positive_herb_ranking import refresh_positive_ranking
+
+                ranking_stage = True
+                refresh_positive_ranking(settings)
     except Exception as exc:
-        if (
-            arguments.analyze_positive_ranking
-            or arguments.prepare_positive_ranking
-            or arguments.publish_positive_ranking
-        ):
+        if ranking_stage:
             # Provider/driver exception chains can contain untrusted corpus data.
             print(
                 json.dumps(
@@ -1415,10 +1441,15 @@ if __name__ == "__main__":
                 file=sys.stderr,
                 flush=True,
             )
-            sys.exit(1)
+            return 1
         print(
             json.dumps(_safe_index_error(exc), ensure_ascii=False),
             file=sys.stderr,
             flush=True,
         )
-        sys.exit(1)
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

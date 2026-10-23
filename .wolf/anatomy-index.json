@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-23T10:24:28.778Z",
-    "fileCount": 103,
+    "lastScanned": "2026-10-23T13:41:51.174Z",
+    "fileCount": 107,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "28e02078ffeb85014b2528f84e1ed953369832ccb571e8752a4c46048c371692",
-    "storeUpdatedAt": "2026-10-23T10:24:28.786Z",
-    "rootHash": "1dc902a705bf69ad"
+    "renderedHash": "986831a516030e69009816a053a5f27deeadbd8259293bcd2d9722403127b8cf",
+    "storeUpdatedAt": "2026-10-23T13:41:51.182Z",
+    "rootHash": "0a3ba2d32415c7b5"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -320,11 +320,11 @@
     },
     "src/backend/web/main.py": {
       "description": "FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits.",
-      "tokens": 10888,
-      "hash": "ee5388b17f618f36",
-      "size": 38109,
-      "mtimeMs": 1792576813214.2727,
-      "updatedAt": "2026-10-21T10:00:13.862Z",
+      "tokens": 10898,
+      "hash": "0cab7a014f0966c6",
+      "size": 38142,
+      "mtimeMs": 1792761909469.4326,
+      "updatedAt": "2026-10-23T13:25:11.883Z",
       "source": "hook",
       "symbols": [
         {
@@ -500,7 +500,7 @@
           "kind": "fn",
           "startLine": 355,
           "endLine": 381,
-          "tokens": 306
+          "tokens": 316
         },
         {
           "name": "post_message",
@@ -812,11 +812,11 @@
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 28179,
-      "hash": "a2268dd3cde5d907",
-      "size": 117358,
-      "mtimeMs": 1792701517701.4944,
-      "updatedAt": "2026-10-22T20:38:38.768Z",
+      "tokens": 28692,
+      "hash": "f1804c822bcf3b6d",
+      "size": 119498,
+      "mtimeMs": 1792761909471.7336,
+      "updatedAt": "2026-10-23T13:25:12.355Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -880,20 +880,20 @@
     },
     "src/backend/resources/texts.ro.toml": {
       "description": "Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română.",
-      "tokens": 7500,
-      "hash": "fc70e7043b84f6c4",
-      "size": 29031,
-      "mtimeMs": 1792578834306.1438,
-      "updatedAt": "2026-10-21T10:33:55.384Z",
+      "tokens": 7495,
+      "hash": "ca049a2aaff92ce6",
+      "size": 29009,
+      "mtimeMs": 1792762606159.705,
+      "updatedAt": "2026-10-23T13:36:46.613Z",
       "source": "hook"
     },
     "src/frontend/components/Composer.tsx": {
       "description": "MAX_CHAT_CHARS — renders form",
       "tokens": 986,
-      "hash": "37bd1724fd51f20a",
+      "hash": "8a9811bd603d5a0b",
       "size": 3451,
-      "mtimeMs": 1792568055689.1582,
-      "updatedAt": "2026-10-21T07:34:16.381Z",
+      "mtimeMs": 1792762910765.4773,
+      "updatedAt": "2026-10-23T13:41:51.173Z",
       "source": "hook",
       "symbols": [
         {
@@ -1362,11 +1362,11 @@
     },
     "src/tests/unit/web/test_message_routing.py": {
       "description": "Intent routing, cancellation and email claims with isolated HTTP dependencies.",
-      "tokens": 7345,
-      "hash": "5890be759d0d18ea",
-      "size": 25797,
-      "mtimeMs": 1792578890839.5457,
-      "updatedAt": "2026-10-21T10:34:51.600Z",
+      "tokens": 7308,
+      "hash": "f766e65bb7c28de6",
+      "size": 25661,
+      "mtimeMs": 1792762606163.6748,
+      "updatedAt": "2026-10-23T13:36:46.805Z",
       "source": "hook",
       "symbols": [
         {
@@ -1423,7 +1423,7 @@
           "kind": "fn",
           "startLine": 112,
           "endLine": 148,
-          "tokens": 544
+          "tokens": 507
         },
         {
           "name": "test_top_without_count_asks_then_accepts_count_only",
@@ -2150,240 +2150,247 @@
     },
     "src/scripts/positive_herb_ranking.py": {
       "description": "Explicit, resumable positive-ranking stages used by the existing index CLI.",
-      "tokens": 2505,
-      "hash": "df3953e8ee496229",
-      "size": 8767,
-      "mtimeMs": 1792650736950.9143,
-      "updatedAt": "2026-10-22T06:32:17.771Z",
+      "tokens": 2597,
+      "hash": "1711dcfe3b68c641",
+      "size": 9088,
+      "mtimeMs": 1792760747585.869,
+      "updatedAt": "2026-10-23T13:05:48.018Z",
       "source": "hook",
       "symbols": [
         {
           "name": "run_positive_ranking",
           "kind": "fn",
           "startLine": 35,
-          "endLine": 215,
-          "tokens": 2201
+          "endLine": 217,
+          "tokens": 2227
+        },
+        {
+          "name": "refresh_positive_ranking",
+          "kind": "fn",
+          "startLine": 218,
+          "endLine": 222,
+          "tokens": 64
         }
       ]
     },
     "src/scripts/build_hybrid_index.py": {
       "description": "Incrementally sync a traceable, local-only hybrid index for a Markdown",
-      "tokens": 16529,
-      "hash": "7b6346ffdd50e057",
-      "size": 57862,
-      "mtimeMs": 1792577409699.3455,
-      "updatedAt": "2026-10-21T10:10:10.593Z",
+      "tokens": 17022,
+      "hash": "db5e45d6dd9d9e12",
+      "size": 59586,
+      "mtimeMs": 1792761278313.403,
+      "updatedAt": "2026-10-23T13:14:38.775Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_build_stage",
           "kind": "fn",
-          "startLine": 98,
-          "endLine": 102,
+          "startLine": 99,
+          "endLine": 103,
           "tokens": 26
         },
         {
           "name": "_safe_index_error",
           "kind": "fn",
-          "startLine": 103,
-          "endLine": 127,
+          "startLine": 104,
+          "endLine": 128,
           "tokens": 270
         },
         {
           "name": "HerbsIndexContext",
           "kind": "class",
-          "startLine": 128,
-          "endLine": 144,
+          "startLine": 129,
+          "endLine": 145,
           "tokens": 131
         },
         {
           "name": "HerbsIndexStats",
           "kind": "class",
-          "startLine": 145,
-          "endLine": 166,
+          "startLine": 146,
+          "endLine": 167,
           "tokens": 141
         },
         {
           "name": "EmbeddingModel",
           "kind": "class",
-          "startLine": 167,
-          "endLine": 172,
+          "startLine": 168,
+          "endLine": 173,
           "tokens": 46
         },
         {
           "name": "_herbs_bitmap_bytes",
           "kind": "fn",
-          "startLine": 173,
-          "endLine": 179,
+          "startLine": 174,
+          "endLine": 180,
           "tokens": 111
         },
         {
           "name": "_prepare_herbs_index",
           "kind": "fn",
-          "startLine": 180,
-          "endLine": 246,
+          "startLine": 181,
+          "endLine": 247,
           "tokens": 694
         },
         {
           "name": "_load_herbs_backend",
           "kind": "fn",
-          "startLine": 247,
-          "endLine": 258,
+          "startLine": 248,
+          "endLine": 259,
           "tokens": 113
         },
         {
           "name": "_make_herbs_matcher",
           "kind": "fn",
-          "startLine": 259,
-          "endLine": 268,
+          "startLine": 260,
+          "endLine": 269,
           "tokens": 74
         },
         {
           "name": "_match_herbs",
           "kind": "fn",
-          "startLine": 269,
-          "endLine": 279,
+          "startLine": 270,
+          "endLine": 280,
           "tokens": 106
         },
         {
           "name": "_initialize_herbs_worker",
           "kind": "fn",
-          "startLine": 280,
-          "endLine": 286,
+          "startLine": 281,
+          "endLine": 287,
           "tokens": 60
         },
         {
           "name": "_scan_herbs_batch",
           "kind": "fn",
-          "startLine": 287,
-          "endLine": 301,
+          "startLine": 288,
+          "endLine": 302,
           "tokens": 167
         },
         {
           "name": "_prepared_herbs_workers",
           "kind": "fn",
-          "startLine": 302,
-          "endLine": 356,
+          "startLine": 303,
+          "endLine": 357,
           "tokens": 617
         },
         {
           "name": "_herbs_startup_job",
           "kind": "fn",
-          "startLine": 357,
-          "endLine": 364,
+          "startLine": 358,
+          "endLine": 365,
           "tokens": 75
         },
         {
           "name": "_herbs_condition_mask",
           "kind": "fn",
-          "startLine": 365,
-          "endLine": 373,
+          "startLine": 366,
+          "endLine": 374,
           "tokens": 87
         },
         {
           "name": "_new_herbs_pairs",
           "kind": "fn",
-          "startLine": 374,
-          "endLine": 384,
+          "startLine": 375,
+          "endLine": 385,
           "tokens": 113
         },
         {
           "name": "_herbs_metadata",
           "kind": "fn",
-          "startLine": 385,
-          "endLine": 394,
+          "startLine": 386,
+          "endLine": 395,
           "tokens": 115
         },
         {
           "name": "HerbsProgress",
           "kind": "class",
-          "startLine": 395,
-          "endLine": 428,
+          "startLine": 396,
+          "endLine": 429,
           "tokens": 409
         },
         {
           "name": "_rebuild_herbs_benefits",
           "kind": "fn",
-          "startLine": 429,
-          "endLine": 616,
+          "startLine": 430,
+          "endLine": 617,
           "tokens": 2421
         },
         {
           "name": "_indexed_herb_ids",
           "kind": "fn",
-          "startLine": 617,
-          "endLine": 631,
+          "startLine": 618,
+          "endLine": 632,
           "tokens": 173
         },
         {
           "name": "rebuild_herbs_only",
           "kind": "fn",
-          "startLine": 632,
-          "endLine": 691,
+          "startLine": 633,
+          "endLine": 692,
           "tokens": 877
         },
         {
           "name": "GPUUsageMonitor",
           "kind": "class",
-          "startLine": 692,
-          "endLine": 770,
+          "startLine": 693,
+          "endLine": 771,
           "tokens": 771
         },
         {
           "name": "SourceFile",
           "kind": "class",
-          "startLine": 771,
-          "endLine": 786,
+          "startLine": 772,
+          "endLine": 787,
           "tokens": 124
         },
         {
           "name": "Chunk",
           "kind": "class",
-          "startLine": 787,
-          "endLine": 806,
+          "startLine": 788,
+          "endLine": 807,
           "tokens": 189
         },
         {
           "name": "utc_now",
           "kind": "fn",
-          "startLine": 807,
-          "endLine": 811,
+          "startLine": 808,
+          "endLine": 812,
           "tokens": 45
         },
         {
           "name": "sha256_bytes",
           "kind": "fn",
-          "startLine": 812,
-          "endLine": 818,
+          "startLine": 813,
+          "endLine": 819,
           "tokens": 75
         },
         {
           "name": "sha256_file",
           "kind": "fn",
-          "startLine": 819,
-          "endLine": 827,
+          "startLine": 820,
+          "endLine": 828,
           "tokens": 94
         },
         {
           "name": "read_markdown",
           "kind": "fn",
-          "startLine": 828,
-          "endLine": 838,
+          "startLine": 829,
+          "endLine": 839,
           "tokens": 123
         },
         {
           "name": "normalize_text",
           "kind": "fn",
-          "startLine": 839,
-          "endLine": 845,
+          "startLine": 840,
+          "endLine": 846,
           "tokens": 78
         },
         {
           "name": "_embedding_context",
           "kind": "fn",
-          "startLine": 846,
-          "endLine": 1408,
-          "tokens": 6740
+          "startLine": 847,
+          "endLine": 1456,
+          "tokens": 7206
         }
       ]
     },
@@ -2407,11 +2414,11 @@
     },
     "src/tests/unit/ai/test_build_hybrid_index.py": {
       "description": "FakeClock: make_chunk, embed, fake_embed, test_normalize_text_preserves_composed_romanian_diacritics",
-      "tokens": 14444,
-      "hash": "9e667fdca39d043c",
-      "size": 50558,
-      "mtimeMs": 1792701772237.332,
-      "updatedAt": "2026-10-22T20:42:53.042Z",
+      "tokens": 15800,
+      "hash": "f1918a1c888c628a",
+      "size": 55306,
+      "mtimeMs": 1792761278314.406,
+      "updatedAt": "2026-10-23T13:14:39.076Z",
       "source": "hook",
       "symbols": [
         {
@@ -2446,35 +2453,35 @@
           "name": "ChunkingTests",
           "kind": "class",
           "startLine": 66,
-          "endLine": 930,
-          "tokens": 10696
+          "endLine": 1021,
+          "tokens": 12027
         },
         {
           "name": "EmbeddingProgressTests",
           "kind": "class",
-          "startLine": 931,
-          "endLine": 1059,
+          "startLine": 1022,
+          "endLine": 1150,
           "tokens": 1515
         },
         {
           "name": "EmbeddingProfileTests",
           "kind": "class",
-          "startLine": 1060,
-          "endLine": 1088,
+          "startLine": 1151,
+          "endLine": 1179,
           "tokens": 363
         },
         {
           "name": "make_source",
           "kind": "fn",
-          "startLine": 1089,
-          "endLine": 1102,
+          "startLine": 1180,
+          "endLine": 1193,
           "tokens": 115
         },
         {
           "name": "CategoryTreeTests",
           "kind": "class",
-          "startLine": 1103,
-          "endLine": 1166,
+          "startLine": 1194,
+          "endLine": 1257,
           "tokens": 808
         }
       ]
@@ -2499,96 +2506,96 @@
     },
     "src/tests/integration/test_herb_conditions.py": {
       "description": "Actual PostgreSQL DISTINCT, aliases and literal ILIKE matching in an isolated DB.",
-      "tokens": 5066,
-      "hash": "2808c0b64d962d01",
-      "size": 17739,
-      "mtimeMs": 1792667303299.1763,
-      "updatedAt": "2026-10-22T11:08:24.112Z",
+      "tokens": 6213,
+      "hash": "862d79a6db4f1202",
+      "size": 21754,
+      "mtimeMs": 1792762023928.451,
+      "updatedAt": "2026-10-23T13:27:04.401Z",
       "source": "hook",
       "symbols": [
         {
           "name": "postgres",
           "kind": "fn",
-          "startLine": 17,
-          "endLine": 30,
+          "startLine": 24,
+          "endLine": 37,
           "tokens": 72
         },
         {
           "name": "catalog",
           "kind": "fn",
-          "startLine": 31,
-          "endLine": 64,
-          "tokens": 516
+          "startLine": 38,
+          "endLine": 110,
+          "tokens": 1074
         },
         {
           "name": "test_specific_species_with_name_and_alias_resolution",
           "kind": "fn",
-          "startLine": 65,
-          "endLine": 72,
+          "startLine": 111,
+          "endLine": 118,
           "tokens": 115
         },
         {
           "name": "test_common_name_shared_by_species_requires_selection",
           "kind": "fn",
-          "startLine": 73,
-          "endLine": 80,
+          "startLine": 119,
+          "endLine": 126,
           "tokens": 76
         },
         {
           "name": "test_zero_unknown_and_unpublished_index_are_distinct",
           "kind": "fn",
-          "startLine": 81,
-          "endLine": 89,
+          "startLine": 127,
+          "endLine": 135,
           "tokens": 120
         },
         {
           "name": "test_like_metacharacters_are_literal_and_query_is_parameterized",
           "kind": "fn",
-          "startLine": 90,
-          "endLine": 106,
+          "startLine": 136,
+          "endLine": 152,
           "tokens": 190
         },
         {
           "name": "test_stale_association_metadata_never_becomes_zero_results",
           "kind": "fn",
-          "startLine": 107,
-          "endLine": 113,
-          "tokens": 94
+          "startLine": 153,
+          "endLine": 160,
+          "tokens": 112
         },
         {
           "name": "test_alias_ambiguity_requires_choice",
           "kind": "fn",
-          "startLine": 114,
-          "endLine": 124,
+          "startLine": 161,
+          "endLine": 171,
           "tokens": 118
         },
         {
           "name": "test_exact_romanian_name_does_not_hide_other_plants_sharing_the_alias",
           "kind": "fn",
-          "startLine": 125,
-          "endLine": 138,
+          "startLine": 172,
+          "endLine": 185,
           "tokens": 184
         },
         {
           "name": "test_selected_species_does_not_include_another_species_associations",
           "kind": "fn",
-          "startLine": 139,
-          "endLine": 150,
-          "tokens": 178
+          "startLine": 186,
+          "endLine": 220,
+          "tokens": 450
         },
         {
           "name": "test_missing_table_is_index_unavailable",
           "kind": "fn",
-          "startLine": 151,
-          "endLine": 161,
-          "tokens": 135
+          "startLine": 221,
+          "endLine": 231,
+          "tokens": 141
         },
         {
           "name": "test_top_limits_species_before_alias_join_and_orders_ties",
           "kind": "fn",
-          "startLine": 162,
-          "endLine": 386,
-          "tokens": 3002
+          "startLine": 232,
+          "endLine": 463,
+          "tokens": 3143
         }
       ]
     },
@@ -3169,76 +3176,76 @@
       "source": "hook"
     },
     "aiPlans/tmp/positive-ranking-full-corpus.py": {
-      "description": "Prepare an inactive full-corpus ranking under the external thermal supervisor.",
-      "tokens": 3066,
-      "hash": "75c4481d0dee5038",
-      "size": 10730,
-      "mtimeMs": 1792734535657.768,
-      "updatedAt": "2026-10-23T05:48:56.309Z",
+      "description": "Prepare an inactive full-corpus ranking with operator progress and no thermal monitoring.",
+      "tokens": 2712,
+      "hash": "0f5ed1a0cfe00037",
+      "size": 9490,
+      "mtimeMs": 1792760554007.105,
+      "updatedAt": "2026-10-23T13:02:34.462Z",
       "source": "hook",
       "symbols": [
         {
           "name": "fingerprints",
           "kind": "fn",
-          "startLine": 51,
-          "endLine": 54,
+          "startLine": 47,
+          "endLine": 50,
           "tokens": 31
         },
         {
           "name": "save",
           "kind": "fn",
-          "startLine": 55,
-          "endLine": 89,
-          "tokens": 274
+          "startLine": 51,
+          "endLine": 86,
+          "tokens": 282
         },
         {
           "name": "progress",
           "kind": "fn",
-          "startLine": 90,
-          "endLine": 114,
+          "startLine": 87,
+          "endLine": 111,
           "tokens": 298
         },
         {
           "name": "heartbeat",
           "kind": "fn",
-          "startLine": 115,
-          "endLine": 119,
+          "startLine": 112,
+          "endLine": 116,
           "tokens": 39
         },
         {
-          "name": "thermal_reading",
+          "name": "operator_checkpoint",
           "kind": "fn",
-          "startLine": 120,
-          "endLine": 134,
-          "tokens": 177
+          "startLine": 117,
+          "endLine": 122,
+          "tokens": 37
         },
         {
           "name": "preserved",
           "kind": "fn",
-          "startLine": 135,
-          "endLine": 155,
+          "startLine": 123,
+          "endLine": 143,
           "tokens": 178
         },
         {
           "name": "ObservedRepository",
           "kind": "class",
-          "startLine": 156,
-          "endLine": 216,
-          "tokens": 687
+          "startLine": 144,
+          "endLine": 202,
+          "tokens": 642
         },
         {
           "name": "guarded_client",
           "kind": "fn",
-          "startLine": 217,
-          "endLine": 257,
-          "tokens": 398
+          "startLine": 203,
+          "endLine": 235,
+          "tokens": 281
         },
         {
           "name": "observed_pack",
           "kind": "fn",
-          "startLine": 258,
-          "endLine": 303,
-          "tokens": 496
+          "startLine": 236,
+          "endLine": 281,
+          "tokens": 497
         }
       ]
     },
@@ -3252,69 +3259,62 @@
       "source": "hook"
     },
     "aiPlans/tmp/positive-ranking-continuous-supervisor.py": {
-      "description": "Resume one local ranking with a one-minute thermal restart policy and live progress.",
-      "tokens": 3776,
-      "hash": "7a29e9dfca855947",
-      "size": 13214,
-      "mtimeMs": 1792735191953.974,
-      "updatedAt": "2026-10-23T05:59:52.380Z",
+      "description": "Run one local ranking with minute progress updates and no thermal monitoring.",
+      "tokens": 2668,
+      "hash": "62d4444c431b56b2",
+      "size": 9337,
+      "mtimeMs": 1792760625668.4724,
+      "updatedAt": "2026-10-23T13:03:46.070Z",
       "source": "hook",
       "symbols": [
         {
           "name": "utc",
           "kind": "fn",
-          "startLine": 61,
-          "endLine": 64,
+          "startLine": 53,
+          "endLine": 56,
           "tokens": 18
         },
         {
           "name": "write",
           "kind": "fn",
-          "startLine": 65,
-          "endLine": 77,
+          "startLine": 57,
+          "endLine": 69,
           "tokens": 105
         },
         {
           "name": "read",
           "kind": "fn",
-          "startLine": 78,
-          "endLine": 89,
+          "startLine": 70,
+          "endLine": 81,
           "tokens": 85
-        },
-        {
-          "name": "sample_temperature",
-          "kind": "fn",
-          "startLine": 90,
-          "endLine": 99,
-          "tokens": 88
         },
         {
           "name": "stop_worker",
           "kind": "fn",
-          "startLine": 100,
-          "endLine": 120,
+          "startLine": 82,
+          "endLine": 102,
           "tokens": 179
         },
         {
           "name": "start_worker",
           "kind": "fn",
-          "startLine": 121,
-          "endLine": 153,
-          "tokens": 297
+          "startLine": 103,
+          "endLine": 130,
+          "tokens": 252
         },
         {
           "name": "refresh",
           "kind": "fn",
-          "startLine": 154,
-          "endLine": 161,
-          "tokens": 49
+          "startLine": 131,
+          "endLine": 142,
+          "tokens": 109
         },
         {
           "name": "progress",
           "kind": "fn",
-          "startLine": 162,
-          "endLine": 362,
-          "tokens": 2461
+          "startLine": 143,
+          "endLine": 277,
+          "tokens": 1516
         }
       ]
     },
@@ -3334,6 +3334,88 @@
       "size": 2570,
       "mtimeMs": 1792751068326.0747,
       "updatedAt": "2026-10-23T10:24:28.777Z",
+      "source": "hook"
+    },
+    "src/backend/ai/herb_conditions.py": {
+      "description": "Read a product's positive conditions from the same published generation as its ranking.",
+      "tokens": 850,
+      "hash": "baf775f2c82956fe",
+      "size": 2973,
+      "mtimeMs": 1792761909468.849,
+      "updatedAt": "2026-10-23T13:25:10.051Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "literal_pattern",
+          "kind": "fn",
+          "startLine": 27,
+          "endLine": 30,
+          "tokens": 34
+        },
+        {
+          "name": "lookup_herb_conditions",
+          "kind": "fn",
+          "startLine": 31,
+          "endLine": 74,
+          "tokens": 562
+        }
+      ]
+    },
+    "src/tests/integration/test_herbs_index.py": {
+      "description": "Atomic derived associations on an isolated PostgreSQL fixture.",
+      "tokens": 8457,
+      "hash": "f601b6489810f9f1",
+      "size": 29610,
+      "mtimeMs": 1792762023932.9536,
+      "updatedAt": "2026-10-23T13:27:04.684Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "setUpModule",
+          "kind": "fn",
+          "startLine": 26,
+          "endLine": 30,
+          "tokens": 20
+        },
+        {
+          "name": "tearDownModule",
+          "kind": "fn",
+          "startLine": 31,
+          "endLine": 38,
+          "tokens": 34
+        },
+        {
+          "name": "threads",
+          "kind": "fn",
+          "startLine": 39,
+          "endLine": 44,
+          "tokens": 48
+        },
+        {
+          "name": "HerbsIndexDatabaseTests",
+          "kind": "class",
+          "startLine": 45,
+          "endLine": 618,
+          "tokens": 7971
+        }
+      ]
+    },
+    "src/frontend/components/HerbConditionsPanel.test.tsx": {
+      "description": "message",
+      "tokens": 568,
+      "hash": "0432ac456f63860a",
+      "size": 2000,
+      "mtimeMs": 1792762492086.9114,
+      "updatedAt": "2026-10-23T13:34:54.265Z",
+      "source": "hook"
+    },
+    "src/frontend/components/HerbConditionsPanel.tsx": {
+      "description": "HerbConditionsPanel",
+      "tokens": 428,
+      "hash": "a7faa5d306aa3d80",
+      "size": 1501,
+      "mtimeMs": 1792762492083.911,
+      "updatedAt": "2026-10-23T13:34:54.090Z",
       "source": "hook"
     }
   },
