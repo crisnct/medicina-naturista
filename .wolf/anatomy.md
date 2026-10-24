@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-23T14:44:31.271Z
-> Files: 110 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-24T05:47:40.776Z
+> Files: 119 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -11,7 +11,7 @@
 
 - `docker-compose.yaml` — Docker Compose: 4 services (~2177 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~29317 tok)
+- `README.md` — Project documentation (~29701 tok)
 
 ## .claude/agents/
 
@@ -51,6 +51,7 @@
 ## aiPlans/tmp/
 
 - `build_product_condition_xmind.py` — Build a source-pinned XMind 8 description of the existing classifier. (~9794 tok)
+- `compare-ranking-context.py` — Read-only, uncached paired local-Ollama context experiment over a bounded sample. (~3572 tok)
 - `positive-ranking-activate.py` — Publish a complete generation under the operator's recorded acceptance criteria. (~735 tok)
 - `positive-ranking-audit-prototype.py` (~1050 tok)
 - `positive-ranking-baseline.py` — take, heartbeat (~1928 tok)
@@ -73,6 +74,11 @@
 - `positive-ranking-structural-inventory.py` (~1006 tok)
 - `positive-ranking-template-probe.py` (~417 tok)
 - `positive-ranking-workload-plan.py` — ReadOnlyRepository: load, read_snapshot, analysis_digest, cached + 1 more (~614 tok)
+- `report-ranking-context.py` — Summarize the bounded context comparison without changing application state. (~2366 tok)
+
+## aiPlans/tmp/herb-evidence-20261024/
+
+- `preview.py` — Isolated synthetic UI preview; no corpus, database or provider access. (~789 tok)
 
 ## aiPlans/tmp/positive-ranking-optimization/
 
@@ -100,7 +106,8 @@
 - `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~8801 tok)
 - `herb_association_classification.py` — Bounded local-only polarity classification; validated quotations are source provenance. (~5563 tok)
 - `herb_association_rules.py` — Conservative source-polarity rules over unchanged indexed text and primary conditions. (~16110 tok)
-- `herb_conditions.py` — Read a product's positive conditions from the same published generation as its ranking. (~850 tok)
+- `herb_conditions.py` — Read a product's positive conditions from the same published generation as its ranking. (~943 tok)
+- `herb_evidence.py` — Read complete source fragments from one published positive-association generation. (~2022 tok)
 - `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~5422 tok)
 - `herb_ranking.py` — Read a bounded catalog ranking with regional Romanian names. (~886 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~7160 tok)
@@ -113,8 +120,10 @@
 
 ## src/backend/core/
 
+- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~1312 tok)
 - `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~13282 tok)
 - `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~988 tok)
+- `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~14410 tok)
 - `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~4921 tok)
 - `texts.py` — Validated Romanian copy; imports are inert and each process owns one immutable snapshot. (~867 tok)
 
@@ -139,11 +148,12 @@
 
 ## src/backend/resources/
 
-- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~7474 tok)
+- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~7794 tok)
 
 ## src/backend/web/
 
-- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~10898 tok)
+- `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~388 tok)
+- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~11454 tok)
 - `texts.py` — Bootstrap public copy in the original Vite HTML; assets retain normal static serving. (~558 tok)
 
 ## src/frontend/
@@ -152,21 +162,23 @@
 - `index.html` — __APP_TITLE__ (~135 tok)
 - `main.tsx` — queryClient (~220 tok)
 - `setupTests.ts` — Declares __APP_TEST_TEXTS__ (~148 tok)
-- `styles.css` — Styles: 91 rules, 13 vars (~8591 tok)
+- `styles.css` — Styles: 91 rules, 13 vars (~8987 tok)
 - `vite.config.ts` — / <reference types="vitest/config" /> (~1158 tok)
 
 ## src/frontend/api/
 
 - `client.test.ts` — Declares lockRequest (~1287 tok)
-- `client.ts` — API routes: GET (1 endpoints) (~2195 tok)
+- `client.ts` — API routes: GET (1 endpoints) (~2308 tok)
+- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~1890 tok)
 
 ## src/frontend/components/
 
 - `Composer.tsx` — MAX_CHAT_CHARS — renders form (~986 tok)
 - `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3158 tok)
 - `GeneratePanel.tsx` — Display names are editable; provider routing continues to use the original IDs. (~2894 tok)
-- `HerbConditionsPanel.test.tsx` — message (~568 tok)
-- `HerbConditionsPanel.tsx` — HerbConditionsPanel (~428 tok)
+- `HerbConditionsPanel.test.tsx` — message (~1708 tok)
+- `HerbConditionsPanel.tsx` — HerbConditionsPanel (~500 tok)
+- `HerbEvidencePanel.tsx` — Python offsets count Unicode code points; ordinary JS slice counts UTF-16 units. (~1545 tok)
 
 ## src/frontend/lib/
 
@@ -183,7 +195,7 @@
 ## src/tests/integration/
 
 - `test_condition_database.py` — Reconstruct disposable databases from SQL, never from the removed JSONL. (~4307 tok)
-- `test_herb_conditions.py` — Actual PostgreSQL DISTINCT, aliases and literal ILIKE matching in an isolated DB. (~6213 tok)
+- `test_herb_conditions.py` — Actual PostgreSQL DISTINCT, aliases and literal ILIKE matching in an isolated DB. (~7926 tok)
 - `test_herb_database.py` — Rebuild and upgrade isolated PostgreSQL databases using only packaged SQL. (~6131 tok)
 - `test_herbs_index.py` — Atomic derived associations on an isolated PostgreSQL fixture. (~8457 tok)
 
@@ -202,4 +214,4 @@
 
 ## src/tests/unit/web/
 
-- `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~7329 tok)
+- `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~7851 tok)

@@ -1,6 +1,7 @@
 import { tr } from "../lib/texts";
 import type { HerbConditionsMessage } from "../api/types";
 import { DoctorAvatar } from "./DoctorAvatar";
+import { HerbEvidencePanel } from "./HerbEvidencePanel";
 
 export function HerbConditionsPanel({ message }: { message: HerbConditionsMessage }) {
   const herbName = message.herbName.charAt(0).toLocaleUpperCase("ro-RO") + message.herbName.slice(1);
@@ -26,6 +27,9 @@ export function HerbConditionsPanel({ message }: { message: HerbConditionsMessag
             <li key={condition.id}>{condition.name}</li>
           ))}
         </ul>
+      )}
+      {message.entriesCount > 0 && message.groupId && message.herbId && message.positiveRunId && (
+        <HerbEvidencePanel message={{ ...message, groupId: message.groupId }} />
       )}
     </section>
   );

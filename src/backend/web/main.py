@@ -15,7 +15,7 @@ from http.cookies import CookieError, SimpleCookie
 from typing import Literal
 from urllib.parse import quote, urlparse
 
-from fastapi import APIRouter, FastAPI, HTTPException, Query, Request
+from fastapi import APIRouter, FastAPI, HTTPException, Path, Query, Request
 from fastapi.exceptions import RequestValidationError
 from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse, Response
 from pydantic import BaseModel, Field, model_validator
@@ -24,6 +24,7 @@ from backend.ai.client import create_report_clients
 from backend.ai.condition_ai import identify_conditions
 from backend.ai.db import get_pool
 from backend.ai.herb_conditions import lookup_herb_conditions
+from backend.ai.herb_evidence import lookup_herb_evidence
 from backend.ai.herb_ranking import list_top_herbs
 from backend.ai.herbs import load_herbs
 from backend.ai.index_state import IndexUnavailable, index_reader
@@ -38,12 +39,13 @@ from backend.core.conversation import (
     ConversationService,
     welcome,
 )
-from backend.core.errors import ApplicationError
+from backend.core.errors import ApplicationError, OperationCancelled
 from backend.core.models import (
     CommitChange,
     OperationResult,
     SessionData,
 )
+from backend.core.operation_context import OperationBudget, operation_budget
 from backend.core.owner_auth import OwnerAuth, PostgresOwnerSessionRepository
 from backend.core.rate_limits import RateLimiter
 from backend.core.report_generation import ReportGenerationService
@@ -350,6 +352,47 @@ def _categories_payload(tree, generation):
         "defaultSelection": sorted(tree.known_ids()) if tree else [],
         "indexGeneration": generation,
     }
+
+
+@router.get("/api/herb-evidence/{group_id}")
+def get_herb_evidence(
+    request: Request,
+    group_id: str = Path(pattern=r"^[A-Za-z0-9_-]{8,64}$"),
+    conditionId: int | None = Query(default=None, ge=1, le=2147483647),
+    offset: int = Query(default=0, ge=0, le=2147483647),
+):
+    _require_initialized(request)
+    deps = _deps(request)
+    deps.request_limiter.check((_client_ip(request), deps.settings.max_requests_per_minute))
+    session = _current(request)
+    reference = deps.store.herb_evidence_reference(session, group_id)
+    if conditionId is not None and conditionId not in reference["conditionIds"]:
+        raise ApplicationError("INVALID_REQUEST", tr("errors.request_invalid"), 422)
+    operation = deps.store.begin_operation(session, "herb_evidence")
+    try:
+        with operation_budget(
+            OperationBudget(
+                operation.deadline, deps.store.clock, lambda: deps.store.checkpoint(operation)
+            )
+        ):
+            lookup = deps.herb_evidence or partial(lookup_herb_evidence, settings=deps.settings)
+            result = lookup(
+                reference["herbId"],
+                reference["positiveRunId"],
+                condition_id=conditionId,
+                offset=offset,
+            )
+            if deps.store.herb_evidence_reference(session, group_id) != reference:
+                raise ApplicationError(
+                    "HERB_EVIDENCE_UNAVAILABLE", tr("errors.herb_evidence_unavailable"), 404
+                )
+        return result
+    except OperationCancelled:
+        raise ApplicationError(
+            "HERB_EVIDENCE_UNAVAILABLE", tr("errors.herb_evidence_unavailable"), 409
+        ) from None
+    finally:
+        deps.store.finish_operation(operation)
 
 
 def _conversation(

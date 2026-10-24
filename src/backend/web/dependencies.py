@@ -13,6 +13,7 @@ from backend.core.contracts import (
     IdentifyCondition,
     ListTopHerbs,
     LookupHerb,
+    LookupHerbEvidence,
     RecordReportMetrics,
     RenderPDF,
     ReportModel,
@@ -42,3 +43,4 @@ class Dependencies:
     report_clients: dict[ReportModel, AIProtocol] | None = None
     record_report_metrics: RecordReportMetrics | None = None
     estimate_report_duration: EstimateReportDuration | None = None
+    herb_evidence: LookupHerbEvidence | None = None

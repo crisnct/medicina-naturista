@@ -6,6 +6,7 @@ import psycopg
 from psycopg_pool import PoolTimeout
 
 from backend.ai import db
+from backend.ai.herb_evidence import evidence_counts
 from backend.ai.herb_positive_repository import active_run
 from backend.ai.herb_repository import catalog_snapshot
 from backend.ai.index_state import INDEX_LOCK, IndexUnavailable
@@ -58,8 +59,13 @@ def lookup_herb_conditions(name: str, *, settings: Settings = default_settings) 
             rows = connection.execute(
                 HERB_CONDITIONS_SQL, (run_id, literal_pattern(canonical), selected.id)
             ).fetchall()
+            fragments_count, documents_count = evidence_counts(connection, run_id, selected.id)
             return {
                 "status": "found",
+                "herbId": selected.id,
+                "positiveRunId": run_id,
+                "fragmentsCount": fragments_count,
+                "documentsCount": documents_count,
                 "herbName": canonical,
                 "species": species,
                 "entriesCount": len(rows),

@@ -653,3 +653,31 @@ description: chronological action log per session, consolidated weekly
 
 | Time | Action | File(s) | Outcome | ~Tokens |
 |------|--------|---------|---------|--------|
+
+## Session: 2026-10-24 08:19
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 08:28 | Edited src/backend/core/contracts.py | modified __call__() | ~343 |
+| 08:28 | Created src/backend/ai/herb_evidence.py | — | ~2038 |
+| 08:28 | Edited src/backend/ai/herb_conditions.py | expanded (+6 lines) | ~136 |
+| 08:29 | Edited src/backend/core/sessions.py | added 1 condition(s) | ~461 |
+| 08:29 | Edited src/backend/web/dependencies.py | 2→4 lines | ~46 |
+| 08:29 | Edited src/backend/web/main.py | modified _categories_payload() | ~564 |
+| 08:29 | Edited src/backend/resources/texts.ro.toml | expanded (+16 lines) | ~354 |
+| 08:30 | Edited src/frontend/api/types.ts | expanded (+32 lines) | ~249 |
+| 08:30 | Edited src/frontend/api/client.ts | added 1 condition(s) | ~137 |
+| 08:30 | Created src/frontend/components/HerbEvidencePanel.tsx | — | ~1545 |
+| 08:30 | Edited src/frontend/components/HerbConditionsPanel.tsx | CSS: groupId | ~86 |
+| 08:30 | Edited src/frontend/styles.css | expanded (+15 lines) | ~406 |
+| 08:32 | Edited src/backend/ai/herb_evidence.py | added 1 import(s) | ~43 |
+| 08:32 | Edited src/backend/web/main.py | 4→8 lines | ~91 |
+| 08:32 | Edited src/tests/unit/web/test_message_routing.py | expanded (+34 lines) | ~622 |
+| 08:32 | Edited src/tests/integration/test_herb_conditions.py | expanded (+29 lines) | ~679 |
+| 08:32 | Edited src/frontend/components/HerbConditionsPanel.test.tsx | added optional chaining | ~1319 |
+| 08:36 | Edited src/tests/integration/test_herb_conditions.py | modified range() | ~944 |
+| 08:36 | Edited README.md | expanded (+13 lines) | ~439 |
+| 08:37 | Created aiPlans/tmp/herb-evidence-20261024/preview.py | — | ~789 |
+| 08:38 | Edited src/tests/integration/test_herb_conditions.py | modified range() | ~392 |
+| 08:43 | Created aiPlans/tmp/compare-ranking-context.py | — | ~3572 |
+| 08:47 | Created aiPlans/tmp/report-ranking-context.py | — | ~2366 |

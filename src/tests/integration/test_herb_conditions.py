@@ -9,6 +9,7 @@ from backend.ai.embedding_model import get_profile
 from backend.ai.herb_association_classification import relation_id, semantic_config
 from backend.ai.herb_association_rules import Decision, content_hash
 from backend.ai.herb_conditions import literal_pattern, lookup_herb_conditions
+from backend.ai.herb_evidence import lookup_herb_evidence
 from backend.ai.herb_index_catalog import read_index_catalogs
 from backend.ai.herb_positive_repository import PositiveRepository
 from backend.ai.herb_ranking import list_top_herbs
@@ -125,6 +126,92 @@ def test_specific_species_with_name_and_alias_resolution(catalog, name):
     assert result["status"] == "found" and result["entriesCount"] == 2
     assert [row["name"] for row in result["conditions"]] == ["Vertigo", "Zorbita"]
     assert result["species"] == ["matricaria chamomilla"]
+    assert result["herbId"] == 1 and result["fragmentsCount"] == result["documentsCount"] == 2
+    page = lookup_herb_evidence(result["herbId"], result["positiveRunId"])
+    assert page["fragmentsCount"] == 2 and page["nextOffset"] is None
+    assert len({item["chunkId"] for item in page["fragments"]}) == 2
+    for fragment in page["fragments"]:
+        assert fragment["text"].startswith("# ") and fragment["lineStart"] == 1
+        assert fragment["lineEnd"] == 4
+        assert any(span["kind"] == "herb" for span in fragment["textHighlights"])
+        assert all(span["kind"] == "condition" for span in fragment["headingHighlights"])
+    condition_id = result["conditions"][0]["id"]
+    filtered = lookup_herb_evidence(1, result["positiveRunId"], condition_id=condition_id)
+    assert filtered["fragmentsCount"] == 1
+    assert filtered["fragments"][0]["conditions"] == [result["conditions"][0]]
+    assert lookup_herb_evidence(1, result["positiveRunId"], offset=20)["fragments"] == []
+    with pytest.raises(ApplicationError) as stale:
+        lookup_herb_evidence(1, "00000000-0000-0000-0000-000000000000")
+    assert stale.value.code == "HERB_EVIDENCE_STALE"
+    # The existing synthetic flow also exercises a product's shared, paginated evidence.
+    with db.get_pool().connection() as connection:
+        product_id = connection.execute(
+            "INSERT INTO herbs(category,family,latin,ro,en) "
+            "VALUES('uleiuri',NULL,NULL,'ulei de primula','evening primrose oil') RETURNING id"
+        ).fetchone()[0]
+        for index in range(21):
+            path = f"shared-{index:02}.md"
+            text = (
+                "# Vertigo\n## Recomandari\n🌿 romanita pentru ameteala.\n- ulei de primula\n"
+                "# Zorbita\n## Recomandari\nmatricaria chamomilla pentru zorbitoza.\n- ulei de primula\n"
+            )
+            connection.execute(
+                "INSERT INTO documents SELECT %s,%s,size_bytes,modified_utc,sha256,"
+                "encoding,line_count,char_count FROM documents LIMIT 1",
+                (path, path),
+            )
+            connection.execute(
+                "INSERT INTO chunks(source_relative_path,source_absolute_path,source_sha256,"
+                "line_start,line_end,heading,text,text_sha256,char_count,embedding,"
+                "primary_medical_conditions,text_search) "
+                "SELECT %s,%s,source_sha256,1,6,'Vertigo',%s,%s,%s,embedding,"
+                "ARRAY['Vertigo','Zorbita'],text_search FROM chunks LIMIT 1",
+                (path, path, text, content_hash(text), len(text)),
+            )
+    from uuid import uuid4
+
+    repository = PositiveRepository()
+    config = Settings()
+    snapshot = repository.read_snapshot()
+    next_run = str(uuid4())
+    repository.create_run(next_run, snapshot, semantic_config(config), "c" * 64, False)
+    repository.finish(
+        next_run,
+        snapshot,
+        {
+            relation_id(work): Decision("positive", "rule", "synthetic_fixture")
+            for work in snapshot.works
+        },
+        {},
+        {},
+    )
+    repository.publish(next_run, config, digest="c" * 64)
+    first = lookup_herb_evidence(1, next_run)
+    second = lookup_herb_evidence(1, next_run, offset=first["nextOffset"])
+    assert first["fragmentsCount"] == first["documentsCount"] == 23
+    assert len(first["fragments"]) == 20 and len(second["fragments"]) == 3
+    assert second["nextOffset"] is None
+    assert len({item["chunkId"] for item in first["fragments"] + second["fragments"]}) == 23
+    shared = next(item for item in first["fragments"] if item["document"].startswith("shared-"))
+    assert len(shared["conditions"]) == 2
+    marked = [
+        (span["kind"], shared["text"][span["start"] : span["end"]])
+        for span in shared["textHighlights"]
+    ]
+    assert ("herb", "romanita") in marked and ("condition", "ameteala") in marked
+    assert ("herb", "matricaria chamomilla") in marked and ("condition", "zorbitoza") in marked
+    filtered = lookup_herb_evidence(1, next_run, condition_id=condition_id)
+    assert filtered["fragmentsCount"] == 22
+    assert any(len(item["conditions"]) == 2 for item in filtered["fragments"])
+    product = lookup_herb_conditions("evening primrose oil")
+    assert product["herbId"] == product_id and product["species"] == []
+    assert product["fragmentsCount"] == 21
+    product_page = lookup_herb_evidence(product_id, product["positiveRunId"])
+    assert len(product_page["fragments"]) == 20
+    assert any(span["kind"] == "herb" for span in product_page["fragments"][0]["textHighlights"])
+    with pytest.raises(ApplicationError) as replaced:
+        lookup_herb_evidence(1, result["positiveRunId"])
+    assert replaced.value.code == "HERB_EVIDENCE_STALE"
 
 
 @pytest.mark.parametrize("name", ["mușețel", "MUSETEL", "mușețelului"])
@@ -231,6 +318,13 @@ def test_selected_species_does_not_include_another_species_associations(catalog)
     assert (
         next(row for row in list_top_herbs(10) if row["latin"] == "chamaemelum nobile")["ranking"]
         == result["entriesCount"]
+    )
+    page = lookup_herb_evidence(result["herbId"], result["positiveRunId"])
+    assert page["fragmentsCount"] == 1
+    assert all(
+        condition["id"] != condition_id
+        for item in page["fragments"]
+        for condition in item["conditions"]
     )
 
 
@@ -424,6 +518,14 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
     assert lookup_herb_conditions("matricaria chamomilla")["entriesCount"] == 1
     assert lookup_herb_conditions("mentha aquatica")["entriesCount"] == 0
     assert lookup_herb_conditions("cereala sintetica")["conditions"] == []
+    positive = lookup_herb_conditions("matricaria chamomilla")
+    page = lookup_herb_evidence(positive["herbId"], positive["positiveRunId"])
+    assert page["fragmentsCount"] == 1
+    assert [item["document"] for item in page["fragments"]] == ["positive.md"]
+    mixed = lookup_herb_conditions("mentha aquatica")
+    assert lookup_herb_evidence(mixed["herbId"], mixed["positiveRunId"])["fragments"] == []
+    fruit = lookup_herb_conditions("fruct sintetic unu")
+    assert lookup_herb_evidence(fruit["herbId"], fruit["positiveRunId"])["fragmentsCount"] == 1
     assert repository.read_snapshot().manifest == before
     with db.get_pool().connection() as connection:
         assert (

@@ -13,7 +13,7 @@ from typing import Literal
 from backend.ai.herb_index_catalog import normalize_herb_name
 
 POSITIVE_RANKING_VERSION = 1
-RULES_VERSION = 3
+RULES_VERSION = 4
 SCHEMA_VERSION = 5
 Label = Literal["positive", "caution", "mixed", "unclear"]
 LABELS = ("positive", "caution", "mixed", "unclear")
@@ -611,121 +611,6 @@ def _administered_recipe(unit: Unit) -> bool:
     )
 
 
-# A fully parsed ingredient line states composition; an explicit recommendation stays semantic.
-@lru_cache(maxsize=8192)
-def _ingredient_only(unit: Unit) -> bool:
-    if _list_instruction(unit):
-        return False
-    header = normalize_herb_name(table_header_text(unit) or "")
-    if "|" in unit.text and re.fullmatch(r"(?:coloana \d+\s*)+", header):
-        residual = unit.text
-        for a, b in sorted({c.mention for c in unit.candidates}, reverse=True):
-            residual = residual[:a] + " " * (b - a) + residual[b:]
-        words = normalize_herb_name(residual).split()
-        if words and all(
-            word.isdigit()
-            or word
-            in {"o", "un", "de", "capsula", "capsule", "comprimat", "comprimate", "mg", "g", "ml"}
-            for word in words
-        ):
-            return True
-    residual = unit.text
-    for a, b in sorted({c.mention for c in unit.candidates}, reverse=True):
-        residual = residual[:a] + " " * (b - a) + residual[b:]
-    residual, count = re.subn(
-        r"^\s*(?:[-*+]\s*)?\d+(?:[.,]\d+)?\s*(?:mg|gr|g|ml)\s*(?:de\s*)?",
-        "",
-        residual,
-        count=1,
-        flags=re.IGNORECASE,
-    )
-    if count == 1 and set(normalize_herb_name(residual).split()) <= {
-        "de",
-        "planta",
-        "scoarta",
-        "radacina",
-        "radacini",
-        "frunze",
-        "flori",
-        "fructe",
-        "seminte",
-        "uscata",
-        "uscate",
-        "pulbere",
-    }:
-        return True
-    if "|" in unit.text or re.search(r"\bdoza recomandata\b", header):
-        return False
-    words = normalize_herb_name(re.sub(r"(?<=\d)(?=[A-Za-z])", " ", residual)).split()
-    return all(
-        word.isdigit()
-        or word
-        in {
-            "de",
-            "din",
-            "si",
-            "cu",
-            "o",
-            "un",
-            "planta",
-            "scoarta",
-            "radacina",
-            "radacini",
-            "frunze",
-            "flori",
-            "fructe",
-            "seminte",
-            "uscata",
-            "uscate",
-            "pulbere",
-            "ceai",
-            "tinctura",
-            "extract",
-            "suc",
-            "ulei",
-            "mg",
-            "mcg",
-            "g",
-            "gr",
-            "ml",
-            "ui",
-            "capsula",
-            "capsule",
-            "comprimat",
-            "comprimate",
-            "lingura",
-            "linguri",
-            "lingurita",
-            "lingurite",
-            "parte",
-            "parti",
-            "zilnic",
-            "ori",
-            "pe",
-            "zi",
-            "conform",
-            "indicatiilor",
-            "eticheta",
-            "gemoderivat",
-            "doza",
-            "sau",
-            "jumatate",
-            "timp",
-            "maxim",
-            "luna",
-            "luni",
-            "zile",
-            "saptamani",
-            "picaturi",
-            "prize",
-            "cca",
-            "circa",
-            "aproximativ",
-        }
-        for word in words
-    )
-
-
 # These complete source constructions describe composition, not a separate therapeutic use.
 def _descriptive_mention(unit: Unit, candidate: Candidate) -> bool:
     a, b = candidate.mention
@@ -1042,8 +927,6 @@ def classify_rule(unit: Unit, candidate: Candidate) -> Decision | None:
     prohibition = _explicit_prohibition(unit, candidate, whole_unit=True)
     if prohibition is not None:
         return prohibition
-    if _ingredient_only(unit):
-        return Decision("unclear", "rule", "ingredient_quantity_only_v3")
     if _condition_homonym(unit, candidate):
         return Decision("unclear", "rule", "compound_condition_homonym_v3")
     dose_row = _explicit_dose_row(unit, candidate)

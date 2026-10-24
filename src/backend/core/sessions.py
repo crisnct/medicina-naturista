@@ -22,6 +22,7 @@ from typing import Any
 
 from backend.ai.search import ALL_SIGNALS
 from backend.config import Settings
+from backend.core.contracts import HerbEvidenceReference
 from backend.core.errors import ApplicationError, OperationCancelled
 from backend.core.models import (
     MAX_KEPT_REPORTS,
@@ -340,7 +341,7 @@ class SessionStore:
                     tr("errors.search_already_generating"),
                 )
             # Count workers until finally, even when cancelled; network threads may still run.
-            if kind in {"classify", "search", "condition", "generate", "email"}:
+            if kind in {"classify", "search", "condition", "generate", "email", "herb_evidence"}:
                 category = "generate" if kind == "generate" else "search"
                 cap = (
                     self.limits.max_concurrent_generations
@@ -352,7 +353,8 @@ class SessionStore:
                 count = sum(
                     ("generate" if op.kind == "generate" else "search") == category
                     for op in self._workers.values()
-                    if op.kind in {"classify", "search", "condition", "generate", "email"}
+                    if op.kind
+                    in {"classify", "search", "condition", "generate", "email", "herb_evidence"}
                 )
                 if count >= cap:
                     if category == "generate":
@@ -969,6 +971,29 @@ class SessionStore:
 
     def history(self, session: SessionData) -> list[dict]:
         return self.conversation_view(session)["history"]
+
+    # Read only the small catalog reference, never duplicate retained evidence or chat text.
+    def herb_evidence_reference(self, session: SessionData, group_id: str) -> HerbEvidenceReference:
+        with self._lock, session.lock:
+            if (
+                session.closed
+                or self._sessions.get((session.cookie_id, session.tab_id)) is not session
+                or self._expired(session)
+            ):
+                raise ApplicationError("SESSION_CLOSED", tr("errors.session_closed"))
+            for message in session.history:
+                if message.get("groupId") != group_id or message.get("kind") != "herb_conditions":
+                    continue
+                if not message.get("herbId") or not message.get("positiveRunId"):
+                    break
+                return {
+                    "herbId": message["herbId"],
+                    "positiveRunId": message["positiveRunId"],
+                    "conditionIds": [condition["id"] for condition in message["conditions"]],
+                }
+            raise ApplicationError(
+                "HERB_EVIDENCE_UNAVAILABLE", tr("errors.herb_evidence_unavailable"), 404
+            )
 
     def conversation_view(
         self, session: SessionData, *, page_id: str | None = None

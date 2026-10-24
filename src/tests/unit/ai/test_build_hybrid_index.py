@@ -175,7 +175,7 @@ class ChunkingTests(unittest.TestCase):
         ingredient = extract_units(
             replace(passage, text="# Gastrita\n28gde frunze de menta\n"), names, conditions
         )[0]
-        self.assertEqual(classify_rule(ingredient, ingredient.candidates[0]).label, "unclear")
+        self.assertIsNone(classify_rule(ingredient, ingredient.candidates[0]))
         book_scope = extract_units(
             replace(
                 passage,
@@ -185,7 +185,7 @@ class ChunkingTests(unittest.TestCase):
             names,
             conditions,
         )[0]
-        self.assertEqual(classify_rule(book_scope, book_scope.candidates[0]).label, "unclear")
+        self.assertIsNone(classify_rule(book_scope, book_scope.candidates[0]))
         self.assertEqual(book_scope.text, book_scope.passage.text)
         explicit_book_scope = replace(
             book_scope, headings=("Suplimente naturiste recomandate pentru Gastrita",)
@@ -239,7 +239,7 @@ class ChunkingTests(unittest.TestCase):
             named = extract_units(
                 replace(passage, text="# Gastrita\n" + text + "\n"), names, conditions
             )[0]
-            self.assertEqual(classify_rule(named, named.candidates[0]).label, "unclear")
+            self.assertIsNone(classify_rule(named, named.candidates[0]))
         banned_ingredient = extract_units(
             replace(passage, text="# Gastrita\n## Contraindicatii\n- menta\n"),
             names,
@@ -473,9 +473,7 @@ class ChunkingTests(unittest.TestCase):
             names,
             conditions,
         )[-1]
-        self.assertTrue(
-            all(classify_rule(doses_only, c).label == "unclear" for c in doses_only.candidates)
-        )
+        self.assertTrue(all(classify_rule(doses_only, c) is None for c in doses_only.candidates))
         validate_cached(Decision("positive", "model", "", ((0, 5),)), work)
         with self.assertRaisesRegex(ValueError, "POSITIVE_INVALID_CACHE"):
             validate_cached(Decision("positive", "model", "", ((0, len(fallback.text) + 1),)), work)

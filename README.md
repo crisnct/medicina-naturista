@@ -45,6 +45,19 @@ Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pent
 
 - **Remedii:** rezolvarea afecțiunilor și căutarea existentă, cu identificare AI opțională.
 - **Planta/produsul:** nume/alias rezolvat în catalog și interogare SQL pe `herbs`, `herb_positive_pairs`, `medical_conditions`, pentru aceeași rulare publicată ca topurile și numai perechile `positive`. Numărul rezultatelor distincte apare deasupra listei și coincide cu scorul produsului din top. Atenționările, contraindicațiile și relațiile mixte sunt excluse; clasificarea surselor nu reprezintă validare clinică. O rulare lipsă sau incompatibilă produce aceeași eroare ca topurile, fără revenire la coaparițiile istorice.
+  Pentru orice intrare din `herbs`, indiferent de categorie sau formularea întrebării,
+  sub afecțiuni apare „Vezi fragmentele sursă — N fragmente din M documente”, închisă
+  inițial. La deschidere se încarcă 20 de fragmente integrale, cu filtrare după afecțiune
+  și „Încarcă mai multe”. Fiecare fragment apare o singură dată, cu toate afecțiunile
+  susținute, titlul, documentul și liniile sursă. Denumirea produsului/aliasurile sunt
+  evidențiate cu verde; afecțiunile asociate și sinonimele lor, cu galben, inclusiv în
+  titlu. Textul original este păstrat. Lista este destinată consultării surselor.
+  `GET /api/herb-evidence/{groupId}?conditionId=…&offset=…` citește exclusiv dovezi
+  `positive` pentru perechi `positive` din rularea răspunsului și este limitat la sesiunea
+  și tabul care dețin mesajul. Nu apelează AI și nu execută o nouă căutare hibridă.
+  Schimbarea rulării produce `HERB_EVIDENCE_STALE`; un răspuns expirat/evacuat produce
+  `HERB_EVIDENCE_UNAVAILABLE`. Interfața cere repetarea întrebării, fără combinarea
+  generațiilor. Fragmentele încărcate sunt păstrate numai temporar în interfață.
 
   Potrivirea numelor românești acceptă flexiuni din dicționarul Hunspell inclus (articol, plural, genitiv), cu sau fără diacritice, inclusiv în denumiri din mai multe cuvinte. Regulile generale pentru intrările incomplete sunt validate cu același dicționar, fără liste de excepții pe plante. Forma exactă are prioritate; numele comune mai multor specii cer alegerea speciei.
 - **Top plante/produse:** clasament pozitiv din `herb_positive_rankings`, filtrat exact după categoria cerută înainte de sortare și limitare. Singura sugestie de top din interfață este „Top 100 produse naturiste”. „Top X produse naturiste” afișează cele 13 categorii, fiecare pe un rând numerotat; utilizatorul răspunde cu numărul categoriei și primește până la X produse din acea categorie. O alegere invalidă repetă lista fără a schimba X. Comenzile directe precum „Top 20 suplimente”, „Top 10 plante medicinale”, „Primele 20 vitamine” și „Top 100 semințe” rămân disponibile. „Top 100”, „Top 100 plante”, „top general” și „toate categoriile” includ toate categoriile. Fără cantitate se folosesc 100 de intrări; categoriile necunoscute sau multiple cer alegerea unei singure categorii, iar un număr invalid cere o cantitate între 1 și 10000. Clarificările păstrează categoria/numărul cerut. Răspunsul arată numărul efectiv returnat, asocierile și aliasurile regionale; fără căutare hibridă sau generare AI pentru comenzile explicite.
@@ -496,6 +509,11 @@ al unui tabel este moștenit numai din
 textul indexat anterior aceleiași secțiuni; o nouă secțiune întrerupe moștenirea. Clasificarea
 locală pozitivă verifică domeniul afecțiunii, nu doar existența unei instrucțiuni. Cazurile
 nesigure păstrează întregul context pentru AI.
+Regulile v4 elimină clasificarea directă `ingredient_quantity_only_v3`: o enumerare de
+ingrediente sau cantități continuă prin celelalte reguli și, dacă acestea nu decid,
+este evaluată de modelul local. Nu devine automat recomandare pozitivă. Versiunea nouă
+invalidează cache-ul semantic anterior și necesită o nouă pregătire/publicare a topurilor;
+clasamentul deja publicat nu este modificat automat.
 Matcherul folosește numele și aliasurile existente, fără aliasuri de uleiuri deduse automat.
 Contextul local limitează afecțiunile candidate; avertismentele despre alte afecțiuni,
 excepțiile și relațiile nesigure merg la clasificatorul local.

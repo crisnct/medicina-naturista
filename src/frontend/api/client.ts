@@ -3,6 +3,7 @@ import type {
   CategoriesResponse,
   ClassificationResponse,
   ConditionResponse,
+  HerbEvidencePage,
   ReportGeneration,
   MessagesResponse,
   ReportModel,
@@ -85,6 +86,11 @@ export const api = {
     }
   },
   getCategories: () => request<CategoriesResponse>("/api/categories"),
+  getHerbEvidence: (groupId: string, conditionId: number | null, offset: number, signal: AbortSignal) => {
+    const query = new URLSearchParams({ offset: String(offset) });
+    if (conditionId !== null) query.set("conditionId", String(conditionId));
+    return request<HerbEvidencePage>(`/api/herb-evidence/${encodeURIComponent(groupId)}?${query}`, { signal });
+  },
   getReportModels: () => request<ReportModelsResponse>("/api/report-models"),
   getReportDurationEstimate: (model: ReportModel, characters: number, signal: AbortSignal) =>
     request<ReportDurationEstimate>(`/api/report-duration-estimate?${new URLSearchParams({ model, characters: String(characters) })}`, {

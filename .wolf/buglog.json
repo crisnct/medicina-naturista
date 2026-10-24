@@ -2497,6 +2497,132 @@
       "last_seen": "2026-10-23T14:44:31.041Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of sessions.py",
+      "file": "src/backend/core/sessions.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 5→31 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-140",
+      "timestamp": "2026-10-24T05:29:04.510Z",
+      "last_seen": "2026-10-24T05:29:04.510Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Null/undefined access in client.ts",
+      "file": "src/frontend/api/client.ts",
+      "root_cause": "Property access on potentially null/undefined value",
+      "fix": "Added null safety (optional chaining or null check)",
+      "tags": [
+        "auto-detected",
+        "null-safety",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-141",
+      "timestamp": "2026-10-24T05:30:17.944Z",
+      "last_seen": "2026-10-24T05:30:17.944Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Type error",
+      "file": "src/frontend/components/HerbConditionsPanel.tsx",
+      "root_cause": "Missing or incorrect type annotation",
+      "fix": "Added type assertion/annotation",
+      "tags": [
+        "auto-detected",
+        "type-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-142",
+      "timestamp": "2026-10-24T05:30:18.405Z",
+      "last_seen": "2026-10-24T05:30:18.405Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: margin",
+      "file": "src/frontend/styles.css",
+      "root_cause": "margin: 0 0 .5rem → .5rem 0",
+      "fix": "Changed margin: 0 0 .5rem → .5rem 0",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-143",
+      "timestamp": "2026-10-24T05:30:18.622Z",
+      "last_seen": "2026-10-24T05:30:18.622Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in main.py",
+      "file": "src/backend/web/main.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-144",
+      "timestamp": "2026-10-24T05:32:00.336Z",
+      "last_seen": "2026-10-24T05:32:00.336Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Null/undefined access in HerbConditionsPanel.test.tsx",
+      "file": "src/frontend/components/HerbConditionsPanel.test.tsx",
+      "root_cause": "Property access on potentially null/undefined value",
+      "fix": "Added null safety (optional chaining or null check)",
+      "tags": [
+        "auto-detected",
+        "null-safety",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-145",
+      "timestamp": "2026-10-24T05:32:59.705Z",
+      "last_seen": "2026-10-24T05:32:59.705Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_herb_conditions.py",
+      "file": "src/tests/integration/test_herb_conditions.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 7→17 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-146",
+      "timestamp": "2026-10-24T05:38:57.896Z",
+      "last_seen": "2026-10-24T05:38:57.896Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -2640,7 +2766,14 @@
     "ddf400d4-d85b-4c4f-bf69-c979c3e3040c": true,
     "a156300a-2412-4626-abcf-aa7db7e0b0fb": true,
     "8b3aaa70-c09a-463c-a71a-b6faf10fdae4": true,
-    "98efb15a-214a-47ad-ab19-daefda03ab97": true
+    "98efb15a-214a-47ad-ab19-daefda03ab97": true,
+    "e4e25e5a-1799-4e86-acd6-8438da95f479": true,
+    "7204e4ed-953a-44da-9443-a26af837e7be": true,
+    "b5245fec-3535-4ee6-80da-7310cece9fac": true,
+    "b21707f6-e335-4df9-99e6-49cf70e8f497": true,
+    "e1133390-20c3-45aa-84e6-7e777678b2a0": true,
+    "9a6cc284-89e6-4bda-9848-21e8b6564d01": true,
+    "2a294235-774f-4858-bbf2-1184cc24d996": true
   },
-  "next_id": 140
+  "next_id": 147
 }

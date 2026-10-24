@@ -153,6 +153,33 @@ export const TEXT_PARAMETERS = {
   "interface.herb_conditions_empty": [],
   "interface.herb_conditions_notice": [],
   "interface.herb_conditions_use_prefix": [],
+  "interface.herb_evidence_summary": [
+    "documents_count",
+    "fragments_count"
+  ],
+  "interface.herb_evidence_filter": [],
+  "interface.herb_evidence_loading": [],
+  "interface.herb_evidence_error": [],
+  "interface.herb_evidence_retry": [],
+  "interface.herb_evidence_more": [],
+  "interface.herb_evidence_herb_legend": [],
+  "interface.herb_evidence_condition_legend": [],
+  "interface.herb_evidence_legend": [],
+  "interface.herb_evidence_conditions": [
+    "conditions"
+  ],
+  "interface.herb_evidence_source": [
+    "document",
+    "line_end",
+    "line_start"
+  ],
+  "interface.herb_evidence_shown": [
+    "document_count",
+    "total_count",
+    "visible_count"
+  ],
+  "interface.herb_evidence_empty": [],
+  "interface.herb_evidence_stale": [],
   "interface.hero_title_emphasis": [],
   "interface.hero_assistant_label": [],
   "interface.hero_library_label": [],

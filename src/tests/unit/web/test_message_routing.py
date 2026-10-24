@@ -10,6 +10,7 @@ import pytest
 
 from backend.ai.client import AIUnavailable
 from backend.ai.message_classification import MessageClassification, MessageClassifier
+from backend.core.errors import ApplicationError
 from backend.core.models import CommitChange, StoredReport
 from tests.unit.ai.test_message_classification import plant_catalog
 from tests.unit.web import test_web as support
@@ -257,7 +258,11 @@ def test_plant_returns_structured_results_without_search_or_identification(web, 
             "herbName": "mușețel",
             "species": ["matricaria chamomilla"],
             "entriesCount": count,
-            "conditions": [{"id": i, "name": str(i)} for i in range(count)],
+            "conditions": [{"id": i, "name": str(i)} for i in range(1, count + 1)],
+            "herbId": 17,
+            "positiveRunId": "synthetic-positive-run",
+            "fragmentsCount": count,
+            "documentsCount": count,
         }
     )
     test.deps.retriever.category_tree = object()  # Empty categories must not block a plant query.
@@ -267,6 +272,35 @@ def test_plant_returns_structured_results_without_search_or_identification(web, 
     assert result["messages"][0]["kind"] == "herb_conditions"
     assert result["messages"][0]["entriesCount"] == count
     lookup.assert_called_once_with("musetel")
+    message = result["messages"][0]
+    evidence = test.deps.herb_evidence = Mock(
+        return_value={
+            "herbId": 17,
+            "positiveRunId": "synthetic-positive-run",
+            "fragmentsCount": count,
+            "documentsCount": count,
+            "fragments": [],
+            "nextOffset": None,
+        }
+    )
+    url = f"/api/herb-evidence/{message['groupId']}"
+    headers = support._headers(sid, tab)
+    response = test.client.get(url, headers=headers)
+    assert response.status_code == 200 and response.json()["fragmentsCount"] == count
+    evidence.assert_called_once_with(17, "synthetic-positive-run", condition_id=None, offset=0)
+    if count:
+        assert test.client.get(url + "?conditionId=1&offset=20", headers=headers).status_code == 200
+        evidence.assert_called_with(17, "synthetic-positive-run", condition_id=1, offset=20)
+    calls = evidence.call_count
+    assert test.client.get(url + "?conditionId=999", headers=headers).status_code == 422
+    assert test.client.get(url + "?offset=-1", headers=headers).status_code == 422
+    assert test.client.get("/api/herb-evidence/missing-group", headers=headers).status_code == 404
+    other = support._headers(sid, "another-tab01")
+    test.client.get("/api/session", headers=other)
+    assert test.client.get(url, headers=other).status_code == 404
+    assert evidence.call_count == calls
+    evidence.side_effect = ApplicationError("HERB_EVIDENCE_STALE", "Repetați întrebarea.", 409)
+    assert test.client.get(url, headers=headers).json()["detail"]["code"] == "HERB_EVIDENCE_STALE"
     blocked = test.client.post("/api/search", headers=support._headers(sid, tab))
     assert blocked.status_code == 409
 

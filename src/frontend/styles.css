@@ -1116,6 +1116,21 @@ button.cat-toggle.cat-toggle-open svg {
     max-width: 100%;
 }
 .herb-conditions-panel h3 { margin: 0 0 .5rem; }
+.herb-evidence-panel { margin-top: 1.25rem; border-top: 1px solid #d8dfc6; padding-top: 1rem; }
+.herb-evidence-panel > summary { cursor: pointer; color: #285c42; font-weight: 600; overflow-wrap: anywhere; }
+.herb-evidence-content { margin-top: 1rem; }
+.herb-evidence-toolbar { display: flex; flex-wrap: wrap; align-items: end; gap: 1rem; }
+.herb-evidence-toolbar label { display: grid; gap: .35rem; max-width: 100%; }
+.herb-evidence-toolbar select { max-width: 100%; padding: .4rem .6rem; border: 1px solid #9aad91; border-radius: .4rem; background: white; }
+.herb-evidence-legend { display: flex; flex-wrap: wrap; gap: .75rem; font-size: .85rem; }
+.herb-evidence-fragment { border-top: 1px solid #d8dfc6; margin-top: 1rem; padding-top: 1rem; overflow-wrap: anywhere; }
+.herb-evidence-fragment h4 { margin: .5rem 0; white-space: pre-wrap; }
+.herb-evidence-associations, .herb-evidence-count { font-size: .85rem; color: #405436; }
+.herb-evidence-text { white-space: pre-wrap; line-height: 1.65; }
+.herb-evidence-mark-herb { background: #bbf7d0; color: #153d27; }
+.herb-evidence-mark-condition { background: #fef08a; color: #44360a; }
+.herb-evidence-panel mark { border-radius: .15rem; }
+.herb-evidence-panel > summary:focus-visible, .herb-evidence-panel select:focus-visible, .herb-evidence-panel button:focus-visible { outline: 2px solid #285c42; outline-offset: 3px; }
 .herb-species { color: #596b45; font-size: 14px; font-weight: 400; font-style: italic; }
 .herb-title-details { font-size: 14px; font-weight: 400; font-style: italic; }
 .herb-condition-count { font-size: 18px; font-weight: 700; }

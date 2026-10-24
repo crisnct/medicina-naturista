@@ -94,9 +94,53 @@ class HerbLookupResult(TypedDict):
     species: NotRequired[list[str]]
     entriesCount: NotRequired[int]
     conditions: NotRequired[list[HerbCondition]]
+    herbId: NotRequired[int]
+    positiveRunId: NotRequired[str]
+    fragmentsCount: NotRequired[int]
+    documentsCount: NotRequired[int]
 
 
 LookupHerb = Callable[[str], HerbLookupResult]
+
+
+class HerbEvidenceReference(TypedDict):
+    herbId: int
+    positiveRunId: str
+    conditionIds: list[int]
+
+
+# Offsets are half-open Unicode code-point positions in the unchanged source field.
+class HerbHighlight(TypedDict):
+    start: int
+    end: int
+    kind: Literal["herb", "condition"]
+
+
+class HerbEvidenceFragment(TypedDict):
+    chunkId: int
+    document: str
+    lineStart: int
+    lineEnd: int
+    heading: str
+    text: str
+    conditions: list[HerbCondition]
+    headingHighlights: list[HerbHighlight]
+    textHighlights: list[HerbHighlight]
+
+
+class HerbEvidencePage(TypedDict):
+    herbId: int
+    positiveRunId: str
+    fragmentsCount: int
+    documentsCount: int
+    fragments: list[HerbEvidenceFragment]
+    nextOffset: int | None
+
+
+class LookupHerbEvidence(Protocol):
+    def __call__(
+        self, herb_id: int, run_id: str, *, condition_id: int | None = None, offset: int = 0
+    ) -> HerbEvidencePage: ...
 
 
 class RankedHerb(TypedDict):

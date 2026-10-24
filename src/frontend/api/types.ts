@@ -89,6 +89,38 @@ export interface HerbConditionsMessage extends MessageIdentity {
   species: string[];
   entriesCount: number;
   conditions: { id: number; name: string }[];
+  herbId?: number;
+  positiveRunId?: string;
+  fragmentsCount?: number;
+  documentsCount?: number;
+}
+
+// Half-open Unicode code-point offsets, matching Python's unchanged source strings.
+export interface HerbHighlight {
+  start: number;
+  end: number;
+  kind: "herb" | "condition";
+}
+
+export interface HerbEvidenceFragment {
+  chunkId: number;
+  document: string;
+  lineStart: number;
+  lineEnd: number;
+  heading: string;
+  text: string;
+  conditions: { id: number; name: string }[];
+  headingHighlights: HerbHighlight[];
+  textHighlights: HerbHighlight[];
+}
+
+export interface HerbEvidencePage {
+  herbId: number;
+  positiveRunId: string;
+  fragmentsCount: number;
+  documentsCount: number;
+  fragments: HerbEvidenceFragment[];
+  nextOffset: number | null;
 }
 
 export type ChatMessage = TextMessage | FragmentsMessage | GenerateMessage | DownloadMessage | HerbConditionsMessage;
