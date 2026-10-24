@@ -931,6 +931,51 @@ class ChunkingTests(unittest.TestCase):
 
         from scripts import positive_herb_ranking as ranking
 
+        oil_names = (
+            ("ulei esential de peppermint", (41,)),
+            ("ulei esential de lemon", (42,)),
+        )
+        oil_text = (
+            "# Gastrita\nUleiuri recomandate:\n"
+            "- ulei esential de Peppermint\n- ulei esential de Lemon\n"
+        )
+        oil_units = extract_units(
+            replace(passage, text=oil_text),
+            oil_names,
+            conditions,
+            herb_categories={41: "uleiuri esentiale", 42: "uleiuri esentiale"},
+        )
+        self.assertEqual(len(oil_units), 2)
+        self.assertEqual(
+            [classify_rule(unit, c).label for unit in oil_units for c in unit.candidates],
+            ["positive", "positive"],
+        )
+        mention_units = extract_units(
+            replace(passage, text=oil_text.replace("Uleiuri recomandate", "Uleiuri mentionate")),
+            oil_names,
+            conditions,
+        )
+        self.assertTrue(
+            all(
+                decision is None or decision.label != "positive"
+                for unit in mention_units
+                for c in unit.candidates
+                for decision in (classify_rule(unit, c),)
+            )
+        )
+        ambiguous_oil_units = extract_units(
+            replace(passage, text=oil_text),
+            (("ulei esential de peppermint", (41, 43)),),
+            conditions,
+        )
+        self.assertTrue(
+            all(
+                classify_rule(unit, c).label == "unclear"
+                for unit in ambiguous_oil_units
+                for c in unit.candidates
+            )
+        )
+
         with patch.object(ranking, "run_positive_ranking") as stages:
             stages.side_effect = [
                 {"status": "analyzed"},

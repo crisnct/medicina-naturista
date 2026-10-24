@@ -308,7 +308,7 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 
 Catalogul de plante și produse și aliasurile sunt citite din PostgreSQL. Căutarea unei plante ignoră diferențele de caz, diacritice și cratime; un nume comun mai multor specii cere alegerea utilizatorului. Cererile „Top N plante” afișează clasamentul plantelor și produselor după numărul de afecțiuni distincte cu recomandări pozitive identificate în surse și denumirile regionale, fără generarea unui raport. Fiecare intrare folosește formularea „util(ă) în X afecțiuni”; nota precizează că atenționările, contraindicațiile și relațiile mixte sunt excluse din scor și că această clasificare nu reprezintă validare clinică. Listele generale de afecțiuni ale unui produs păstrează asocierile istorice, inclusiv avertismentele.
 
-Familiile de produse acceptate sunt `suplimente`, `uleiuri esentiale`, `uleiuri`, `medicamente`, `aminoacizi`, `vitamine`, `minerale` și `produse apicole`. Fibrele, probioticele și prebioticele aparțin categoriei `suplimente`. Sunt grupări tehnice de catalog, fără a stabili statutul medical sau eficacitatea produsului. Intenția API `planta` și rutele existente acoperă și produsele, recunoscute după `ro` și `en`, fără diferențe de caz sau diacritice. Produsele fără specie returnează `species=[]` și se afișează fără paranteze goale.
+Categoriile de produse acceptate sunt `seminte`, `suplimente`, `uleiuri esentiale`, `uleiuri`, `aminoacizi`, `vitamine` și `minerale`. Produsele apicole, fibrele, probioticele și prebioticele aparțin categoriei `suplimente`. Categoria `medicamente` și intrarea `aspirina` sunt eliminate prin migrarea 026. Sunt grupări tehnice de catalog, fără a stabili statutul medical sau eficacitatea produsului. Intenția API `planta` și rutele existente acoperă și produsele, recunoscute după `ro` și `en`, fără diferențe de caz sau diacritice. Produsele fără specie returnează `species=[]` și se afișează fără paranteze goale.
 
 Migrările `014`/`015` adaugă 391 de produse (inclusiv cele 12 denumiri comerciale confirmate la `suplimente`), reutilizează înregistrările pentru psyllium, ashwagandha, drojdie de bere, spirulina și chlorella și adaugă numai plantei Thuja aliasurile `arborele vietii` și `thuya occidentalis`. Denumirile vitaminice istorice și cele trei etichete de uleiuri de iasomie, vanilie și lotus alb sunt păstrate conform cerinței de catalog, fără afirmații despre identitate chimică sau extracție. „Ulei sau extract de afin” este exclus. Totalul inițial după migrare este 1.579 intrări: 1.188 botanice și 391 produse. Catalogul nu introduce automat sinonime precum `NAC`: numele canonic disponibil este `N-acetilcisteina`.
 
@@ -360,13 +360,12 @@ Completările și corecțiile cataloagelor se fac prin migrări SQL noi în `src
 
 Migrarea append-only `024_merge_fibre_probiotics_into_supplements.sql` mută toate intrările
 din vechea grupă în `suplimente` și elimină vechea valoare din constrângerile/indexul de
-categorii. Catalogul curent are **13 categorii**. Pe seed-ul complet sunt 11 intrări mutate,
+categorii. După 024, catalogul avea **13 categorii**. Pe seed-ul complet sunt 11 intrări mutate,
 61 de suplimente și 1.586 de intrări în total. ID-urile, numele, aliasurile, familia, specia,
 asocierile și scorurile istorice sunt păstrate. Referințele de mai sus la categoriile
 migrărilor 014–021 descriu etapele istorice, înlocuite în acest punct de migrarea 024.
 
-Lista numerotată se încheie la `13. produse apicole`; numerele categoriilor 1–13 rămân
-neschimbate. „Top 100 probiotice”, „Top 100 prebiotice”, „Top 100 fibre” și vechea denumire
+„Top 100 probiotice”, „Top 100 prebiotice”, „Top 100 fibre” și vechea denumire
 completă cer acum topul `suplimente`, fără clasificare AI suplimentară pentru comenzile
 explicite. Numărul și regulile topului strict pozitiv rămân aceleași.
 
@@ -376,7 +375,44 @@ Nu este necesară refacerea coaparițiilor, fragmentelor sau embeddings. Amprent
 se schimbă: un clasament pozitiv deja publicat cere o nouă pregătire/publicare, cu reutilizarea
 cache-ului neafectat. Nu se pornește aplicația cu definiția nouă peste catalogul vechi nemigrat.
 
+### Eliminarea medicamentelor și comasarea produselor apicole
+
+Migrarea append-only `026_remove_medicines_and_merge_bee_products.sql` elimină aspirina
+(ID 1212) din catalog, împreună cu aliasurile, asocierile și dovezile sale de clasament prin
+cheile externe cu ștergere în cascadă. Verifică identitatea înainte de ștergere și refuză
+alte medicamente neașteptate. Mută toate produsele apicole la `suplimente`: pe seed-ul
+complet, propolis, miere, polen, păstură și lăptișor de matcă. Aceste produse își păstrează
+ID-urile, numele, aliasurile, asocierile și scorurile.
+
+Catalogul curent are **11 categorii**, **1.585 de intrări** și **66 de suplimente** pe seed-ul
+complet. Constrângerile SQL interzic categoriile eliminate. Meniul păstrează pozițiile 1–8,
+apoi continuă cu `9. aminoacizi`, `10. vitamine`, `11. minerale`. Cererile „Top N produse
+apicole” selectează `suplimente`; „Top N medicamente” cere alegerea unei categorii valide.
+Schema JSON a clasificatorului și promptul folosesc aceeași listă de 11 categorii.
+
+Aplicarea pe baza activă rămâne un pas separat, împreună cu versiunea nouă a aplicației.
+Nu se refac documentele, fragmentele sau embeddings. Eliminarea aspirinei schimbă amprenta
+de matching: asocierile se resincronizează controlat cu `--rebuild-herbs-only`, apoi topurile
+pozitive se pregătesc și se publică din nou, reutilizând cache-ul compatibil. Migrarea singură
+nu publică un clasament pozitiv nou.
+
 ## Topuri cu recomandări pozitive
+
+### Recunoașterea uleiurilor esențiale
+
+Migrarea `027_essential_oil_source_aliases.sql` adaugă 183 de aliasuri pentru formele
+mixte română/engleză din surse, precum `ulei esential de peppermint`, folosind denumirea
+engleză completă a produsului existent. Nu creează produse noi și nu atribuie un nume
+generic tuturor speciilor, variantelor sau chemotipurilor. Aliasurile sunt în `en_alt`,
+nu în denumirile regionale afișate în top.
+
+În `Uleiuri esentiale.md`, cele 55 de liste confirmate de operator drept recomandări
+sunt etichetate explicit `Uleiuri recomandate` și au câte un produs pe rând. Cele 309
+mențiuni și titlurile sunt păstrate. Regulile recunosc introducerile explicite de liste
+pentru uleiuri, fără a transforma o simplă mențiune sau un titlu de boală în recomandare.
+Sursele fără afecțiuni primare recunoscute și denumirile neidentificate rămân în afara
+scorului. La următoarea indexare executată de operator se aplică migrarea, se actualizează
+documentul schimbat și se pregătește/publică noua rulare; rularea anterioară nu se modifică.
 
 `herbs_benefits` și `herbs.ranking` păstrează coaparițiile istorice. Topurile citesc separat
 `herb_positive_rankings.ranking`: numărul de afecțiuni **primare** distincte cu cel puțin o

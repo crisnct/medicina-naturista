@@ -171,7 +171,7 @@ def test_top_without_count_asks_then_accepts_count_only(web):
     result = classify(web, third["contextRevision"]).json()
     assert "Alegeți o singură categorie" in result["messages"][0]["content"]
     assert test.deps.store.get(sid, tab).routing.top_count == 20
-    fourth = accept(web, "11")
+    fourth = accept(web, "10")
     result = classify(web, fourth["contextRevision"]).json()
     test.deps.top_herbs.assert_called_once_with(20, "vitamine")
     classify(web, fourth["contextRevision"])
@@ -180,8 +180,10 @@ def test_top_without_count_asks_then_accepts_count_only(web):
     products = accept(web, "Top 37 produse naturiste")
     menu = classify(web, products["contextRevision"]).json()["messages"][0]["content"]
     assert "1. plante medicinale\n2. fructe" in menu
-    assert "13. produse apicole" in menu
-    assert "14." not in menu
+    assert "11. minerale" in menu
+    assert "12." not in menu
+    assert "medicamente" not in menu
+    assert "produse apicole" not in menu
     assert "fibre, probiotice" not in menu
     assert test.deps.store.get(sid, tab).routing.top_count == 37
     test.deps.top_herbs.assert_not_called()

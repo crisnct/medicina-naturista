@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-23T13:41:51.174Z
-> Files: 107 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-23T14:44:31.271Z
+> Files: 110 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -11,7 +11,7 @@
 
 - `docker-compose.yaml` — Docker Compose: 4 services (~2177 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~28692 tok)
+- `README.md` — Project documentation (~29317 tok)
 
 ## .claude/agents/
 
@@ -99,7 +99,7 @@
 
 - `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~8801 tok)
 - `herb_association_classification.py` — Bounded local-only polarity classification; validated quotations are source provenance. (~5563 tok)
-- `herb_association_rules.py` — Conservative source-polarity rules over unchanged indexed text and primary conditions. (~16063 tok)
+- `herb_association_rules.py` — Conservative source-polarity rules over unchanged indexed text and primary conditions. (~16110 tok)
 - `herb_conditions.py` — Read a product's positive conditions from the same published generation as its ranking. (~850 tok)
 - `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~5422 tok)
 - `herb_ranking.py` — Read a bounded catalog ranking with regional Romanian names. (~886 tok)
@@ -109,12 +109,13 @@
 
 - `herb_association_classification_system.md` — Clasificator de dovezi produs-afectiune (~1441 tok)
 - `herb_association_classification_transport.md` — Protocol JSON strict (~458 tok)
-- `message_classification_system.md` — Rol (~3485 tok)
+- `message_classification_system.md` — Rol (~3547 tok)
 
 ## src/backend/core/
 
 - `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~13282 tok)
-- `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~1055 tok)
+- `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~988 tok)
+- `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~4921 tok)
 - `texts.py` — Validated Romanian copy; imports are inert and each process owns one immutable snapshot. (~867 tok)
 
 ## src/backend/integrations/
@@ -129,6 +130,8 @@
 - `023_positive_herb_rankings.sql` — Additive source-polarity generations. Historical co-occurrences retain their meaning. (~1124 tok)
 - `024_merge_fibre_probiotics_into_supplements.sql` — Merge the removed group into supplements without changing identities or ranking evidence. (~628 tok)
 - `025_rename_linum_usitatissimum_ro.sql` — Rename only the requested species; retain its identity, taxonomy and ranking evidence. (~112 tok)
+- `026_remove_medicines_and_merge_bee_products.sql` — Remove the approved medicine identity; preserve all remaining catalog evidence. (~741 tok)
+- `027_essential_oil_source_aliases.sql` — Match mixed Romanian/English oil names without guessing botanical variants or chemotypes. (~279 tok)
 
 ## src/backend/reporting/
 
@@ -136,7 +139,7 @@
 
 ## src/backend/resources/
 
-- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~7495 tok)
+- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~7474 tok)
 
 ## src/backend/web/
 
@@ -181,7 +184,7 @@
 
 - `test_condition_database.py` — Reconstruct disposable databases from SQL, never from the removed JSONL. (~4307 tok)
 - `test_herb_conditions.py` — Actual PostgreSQL DISTINCT, aliases and literal ILIKE matching in an isolated DB. (~6213 tok)
-- `test_herb_database.py` — Rebuild and upgrade isolated PostgreSQL databases using only packaged SQL. (~5558 tok)
+- `test_herb_database.py` — Rebuild and upgrade isolated PostgreSQL databases using only packaged SQL. (~6131 tok)
 - `test_herbs_index.py` — Atomic derived associations on an isolated PostgreSQL fixture. (~8457 tok)
 
 ## src/tests/support/
@@ -190,8 +193,8 @@
 
 ## src/tests/unit/ai/
 
-- `test_build_hybrid_index.py` — FakeClock: make_chunk, embed, fake_embed, test_normalize_text_preserves_composed_romanian_diacritics (~15800 tok)
-- `test_message_classification.py` — Strict intent contract and local Ollama wiring; no external traffic. (~5385 tok)
+- `test_build_hybrid_index.py` — FakeClock: make_chunk, embed, fake_embed, test_normalize_text_preserves_composed_romanian_diacritics (~16216 tok)
+- `test_message_classification.py` — Strict intent contract and local Ollama wiring; no external traffic. (~5461 tok)
 
 ## src/tests/unit/core/
 
@@ -199,4 +202,4 @@
 
 ## src/tests/unit/web/
 
-- `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~7308 tok)
+- `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~7329 tok)

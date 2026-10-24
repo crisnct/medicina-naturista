@@ -24,7 +24,7 @@ NEGATIVE = re.compile(
 )
 POSITIVE = re.compile(
     r"\b(se recomanda|indicat\w* pentru|util\w* in|alimente recomandate|"
-    r"plante recomandate|produse recomandate)\b"
+    r"plante recomandate|produse recomandate|uleiuri(?: esentiale| volatile)? recomandate)\b"
 )
 EXCEPTION = re.compile(r"\b(dar|insa|exceptie|exceptand|numai|doar|daca|sarcina|doza|nu)\b")
 
@@ -363,7 +363,8 @@ def source_context(unit: Unit) -> dict[str, object]:
 
 
 LIST_POSITIVE = re.compile(
-    r"\b(?:(?:alimente|plante|produse|suplimente)(?:le)? (?:naturiste |medicinale )?recomandat\w*|"
+    r"\b(?:(?:alimente|plante|produse|suplimente|uleiuri)(?:le)? "
+    r"(?:naturiste |medicinale |esentiale |volatile )?recomandat\w*|"
     r"recomandari(?: naturiste)?|se recomanda|consumati|mancati|beti|luati|aplicati)\b"
 )
 LIST_NEGATIVE = re.compile(
@@ -840,6 +841,9 @@ def _verified_primary_heading(unit: Unit) -> bool:
         "plante recomandate",
         "produse recomandate",
         "suplimente recomandate",
+        "uleiuri recomandate",
+        "uleiuri esentiale recomandate",
+        "uleiuri volatile recomandate",
         "recomandari",
         "recomandari naturiste",
         "nutrienti",

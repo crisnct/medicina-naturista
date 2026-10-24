@@ -23,7 +23,7 @@ from scripts.bootstrap_database import ensure_database
 from tests.support.postgres import PostgresFixture
 
 fixture = PostgresFixture()
-INITIAL_FINGERPRINT = "4564ac7032a9e31dfb640626ef0fb41ebc8d934a677a6e6c64653e166f77d853"
+INITIAL_FINGERPRINT = "e2e6c0528a460d4464a11b9e3c6824e6f449453f991b23c2158143344a17bdd4"
 
 
 def setUpModule():
@@ -54,15 +54,15 @@ class HerbDatabaseTests(unittest.TestCase):
     def test_seed_schema_counts_and_fingerprint_without_jsonl(self):
         with psycopg.connect(self.url) as connection:
             items = repository.read_herbs(connection)
-            self.assertEqual(len(items), 1586)
-            self.assertEqual({h.id for h in items}, set(range(1, 1587)))
+            self.assertEqual(len(items), 1585)
+            self.assertEqual({h.id for h in items}, set(range(1, 1587)) - {1212})
             self.assertEqual(repository.catalog_fingerprint(items), INITIAL_FINGERPRINT)
             self.assertEqual(sum(not h.en for h in items), 79)
             self.assertEqual(
                 connection.execute(
                     "SELECT kind, count(*) FROM herb_aliases GROUP BY kind ORDER BY kind"
                 ).fetchall(),
-                [("en_alt", 2205), ("latin_synonyms", 226), ("ro_regional", 705)],
+                [("en_alt", 2388), ("latin_synonyms", 226), ("ro_regional", 705)],
             )
             for table, expected in (
                 ("herbs", ["id", "category", "family", "latin", "ro", "en", "ranking"]),
@@ -90,12 +90,24 @@ class HerbDatabaseTests(unittest.TestCase):
             self.assertEqual(sum(h.ro == "seminte de in" for h in items), 2)
             self.assertEqual(catalog.lookup(""), [])
             self.assertEqual(sum(h.category == "uleiuri" for h in items), 23)
-            self.assertEqual(sum(h.category == "suplimente" for h in items), 61)
+            self.assertEqual(sum(h.category == "suplimente" for h in items), 66)
+            self.assertNotIn("medicamente", {h.category for h in items})
+            self.assertNotIn("produse apicole", {h.category for h in items})
+            self.assertEqual(catalog.lookup("aspirina"), [])
+            for name in ("propolis", "miere", "polen", "pastura", "laptisor de matca"):
+                self.assertEqual(catalog.lookup(name)[0].category, "suplimente")
             self.assertNotIn("fibre, probiotice, prebiotice", {h.category for h in items})
             for identifier in (1191, 1192, 1195, 1198):
                 self.assertEqual(catalog.by_id(identifier).category, "suplimente")
             for identifier in (*range(1293, 1314), 1585, 1586):
                 self.assertEqual(catalog.by_id(identifier).category, "uleiuri")
+            for alias, canonical in (
+                ("ulei esential de peppermint", "ulei esential de menta piperita"),
+                ("ulei esential de lemon", "ulei esential de lamaie"),
+                ("ulei esential de roman chamomile", "ulei esential de musetel roman"),
+            ):
+                self.assertEqual([h.ro for h in catalog.lookup(alias)], [canonical])
+            self.assertEqual(catalog.lookup("ulei esential de frankincense"), [])
 
     def test_lowercase_constraints_and_foreign_key(self):
         with psycopg.connect(self.url) as connection:
@@ -189,7 +201,7 @@ class HerbDatabaseTests(unittest.TestCase):
                 "016_separate_herb_category.sql",
             ]
             connection.execute(
-                "DELETE FROM schema_migrations WHERE version IN (%s, %s, %s, %s, %s, %s, %s, %s, %s)",
+                "DELETE FROM schema_migrations WHERE version IN (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
                 (
                     "017_food_categories_in_herbs.sql",
                     "018_reclassify_oils_medicines_and_beta_carotene.sql",
@@ -200,6 +212,8 @@ class HerbDatabaseTests(unittest.TestCase):
                     "023_positive_herb_rankings.sql",
                     "024_merge_fibre_probiotics_into_supplements.sql",
                     "025_rename_linum_usitatissimum_ro.sql",
+                    "026_remove_medicines_and_merge_bee_products.sql",
+                    "027_essential_oil_source_aliases.sql",
                 ),
             )
             for name in versions:
@@ -237,12 +251,18 @@ class HerbDatabaseTests(unittest.TestCase):
                 patch.object(
                     herb_validation,
                     "HERB_CATEGORIES",
-                    (*HERB_CATEGORIES, "fibre, probiotice, prebiotice"),
+                    (
+                        *HERB_CATEGORIES,
+                        "fibre, probiotice, prebiotice",
+                        "medicamente",
+                        "produse apicole",
+                    ),
                 ),
                 patch.object(
                     herb_validation,
                     "PRODUCT_CATEGORIES",
-                    PRODUCT_CATEGORIES | {"fibre, probiotice, prebiotice"},
+                    PRODUCT_CATEGORIES
+                    | {"fibre, probiotice, prebiotice", "medicamente", "produse apicole"},
                 ),
             ):
                 matching = read_index_catalogs(connection)[-1]
@@ -251,7 +271,7 @@ class HerbDatabaseTests(unittest.TestCase):
             folder = Path(directory)
             for path in migration.MIGRATIONS.glob("*.sql"):
                 shutil.copy(path, folder / path.name)
-            (folder / "026_injected_failure.sql").write_text("SELECT 1/0;", encoding="utf-8")
+            (folder / "027_injected_failure.sql").write_text("SELECT 1/0;", encoding="utf-8")
             with patch.object(migration, "MIGRATIONS", folder):
                 with self.assertRaises(psycopg.errors.DivisionByZero):
                     migration.migrate(self.url)
@@ -276,6 +296,8 @@ class HerbDatabaseTests(unittest.TestCase):
                 "023_positive_herb_rankings.sql",
                 "024_merge_fibre_probiotics_into_supplements.sql",
                 "025_rename_linum_usitatissimum_ro.sql",
+                "026_remove_medicines_and_merge_bee_products.sql",
+                "027_essential_oil_source_aliases.sql",
             ],
         )
         with psycopg.connect(self.url) as connection:
@@ -292,9 +314,11 @@ class HerbDatabaseTests(unittest.TestCase):
                     row[6],
                 )
                 for row in original
+                if row[0] != 1212
             ]
             self.assertEqual([(r[0], *r[2:]) for r in existing], expected)
-            self.assertEqual(sum(a[1] != b[1] for a, b in zip(existing, original)), 191)
+            original_categories = {row[0]: row[1] for row in original}
+            self.assertEqual(sum(row[1] != original_categories[row[0]] for row in existing), 195)
             self.assertEqual(
                 connection.execute("SELECT category FROM herbs WHERE id=778").fetchone(),
                 ("fructe",),
@@ -312,8 +336,18 @@ class HerbDatabaseTests(unittest.TestCase):
                 ("cereale", "amaranthaceae"),
             )
             self.assertEqual(
-                connection.execute("SELECT *,xmin::text FROM herb_aliases ORDER BY id").fetchall(),
+                connection.execute(
+                    "SELECT *,xmin::text FROM herb_aliases WHERE id=ANY(%s) ORDER BY id",
+                    ([row[0] for row in aliases],),
+                ).fetchall(),
                 aliases,
+            )
+            self.assertEqual(
+                connection.execute(
+                    "SELECT count(*) FROM herb_aliases a JOIN herbs h ON h.id=a.herb_id "
+                    "WHERE h.category='uleiuri esentiale'"
+                ).fetchone()[0],
+                183,
             )
             self.assertEqual(
                 connection.execute(

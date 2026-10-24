@@ -16,11 +16,9 @@ HerbCategory = Literal[
     "uleiuri esentiale",
     "uleiuri",
     "suplimente",
-    "medicamente",
     "aminoacizi",
     "vitamine",
     "minerale",
-    "produse apicole",
 ]
 TopClarification = Literal["count", "category"]
 HERB_CATEGORIES: tuple[HerbCategory, ...] = get_args(HerbCategory)
@@ -43,11 +41,9 @@ def category_labels() -> MappingProxyType[HerbCategory, str]:
                     tr("conversation.category_essential_oils"),
                     tr("conversation.category_oils"),
                     tr("conversation.category_supplements"),
-                    tr("conversation.category_medicines"),
                     tr("conversation.category_amino_acids"),
                     tr("conversation.category_vitamins"),
                     tr("conversation.category_minerals"),
-                    tr("conversation.category_bee_products"),
                 ),
                 strict=True,
             )
@@ -55,7 +51,7 @@ def category_labels() -> MappingProxyType[HerbCategory, str]:
     )
 
 
-# Former fibre/probiotic scopes resolve to supplements, which now owns those products.
+# Merged product scopes resolve to supplements, which owns their catalog entries.
 CATEGORY_ALIASES: MappingProxyType[HerbCategory, tuple[str, ...]] = MappingProxyType(
     {
         "plante medicinale": ("plante medicinale", "plantele medicinale"),
@@ -70,6 +66,8 @@ CATEGORY_ALIASES: MappingProxyType[HerbCategory, tuple[str, ...]] = MappingProxy
             "suplimentele",
             "suplimente alimentare",
             "suplimentele alimentare",
+            "produse apicole",
+            "produsele apicole",
             "fibre",
             "fibrele",
             "probiotice",
@@ -82,10 +80,8 @@ CATEGORY_ALIASES: MappingProxyType[HerbCategory, tuple[str, ...]] = MappingProxy
             "fibrele probioticele prebioticele",
         ),
         "aminoacizi": ("aminoacizi", "aminoacizii"),
-        "medicamente": ("medicamente", "medicamentele"),
         "vitamine": ("vitamine", "vitaminele"),
         "minerale": ("minerale", "mineralele"),
-        "produse apicole": ("produse apicole", "produsele apicole"),
     }
 )
 

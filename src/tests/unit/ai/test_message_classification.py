@@ -108,9 +108,12 @@ def test_explicit_top_does_not_require_ollama_or_catalog(message, count):
             classifier("Top 100 fibre, probiotice și prebiotice", {}).top_category == "suplimente"
         )
         assert classifier("Top 100 suplimente și probiotice", {}).top_category == "suplimente"
-        assert len(HERB_CATEGORIES) == 13
-        assert classifier("14", context).top_clarification == "category"
-        assert classifier("13", context).top_category == "produse apicole"
+        assert classifier("Top 100 produse apicole", {}).top_category == "suplimente"
+        assert classifier("Top 100 suplimente și produse apicole", {}).top_category == "suplimente"
+        assert classifier("Top 5 medicamente", {}).top_clarification == "category"
+        assert len(HERB_CATEGORIES) == 11
+        assert classifier("12", context).top_clarification == "category"
+        assert classifier("11", context).top_category == "minerale"
         assert classifier("Top 20 categorie necunoscuta", {}).top_clarification == "category"
         for invalid in ("-2", "0", "10001", "1.5"):
             assert classifier(f"Top {invalid} uleiuri esentiale", {}).top_clarification == "count"

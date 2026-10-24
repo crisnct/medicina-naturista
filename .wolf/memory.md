@@ -609,3 +609,47 @@ description: chronological action log per session, consolidated weekly
 | 16:36 | Edited src/backend/resources/texts.ro.toml | "Numărul reprezintă afecți" → "Numărul reprezintă afecți" | ~30 |
 | 16:36 | Edited src/tests/unit/web/test_message_routing.py | "Numărul reprezintă afecți" → "Numărul reprezintă afecți" | ~28 |
 | 16:41 | Edited src/frontend/components/Composer.tsx | 17→17 lines | ~339 |
+
+## Session: 2026-10-23 17:28
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-10-23 17:28
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 17:30 | Edited src/backend/core/herb_categories.py | 8→4 lines | ~53 |
+| 17:30 | Edited src/backend/resources/texts.ro.toml | — | ~0 |
+| 17:30 | Edited src/backend/ai/prompts/message_classification_system.md | 3→6 lines | ~131 |
+| 17:30 | Created src/backend/migrations/026_remove_medicines_and_merge_bee_products.sql | — | ~740 |
+| 17:31 | Edited src/tests/unit/ai/test_message_classification.py | 3→6 lines | ~129 |
+| 17:31 | Edited src/tests/unit/web/test_message_routing.py | 2→4 lines | ~40 |
+| 17:31 | Edited src/tests/integration/test_herb_database.py | modified in() | ~455 |
+| 17:31 | Edited src/tests/integration/test_condition_database.py | inline fix | ~26 |
+| 17:31 | Edited README.md | expanded (+20 lines) | ~618 |
+| 17:32 | Edited src/backend/core/text_contract.py | — | ~0 |
+| 17:34 | Edited src/tests/integration/test_herb_database.py | "4564ac7032a9e31dfb640626e" → "b098f2177caf91dbf2ed7a1a4" | ~26 |
+| 17:34 | Edited src/tests/unit/web/test_message_routing.py | "11" → "10" | ~9 |
+| 17:39 | Created src/backend/migrations/027_essential_oil_source_aliases.sql | — | ~279 |
+| 17:39 | Edited src/backend/ai/herb_association_rules.py | 3→7 lines | ~108 |
+| 17:40 | Edited src/tests/unit/ai/test_build_hybrid_index.py | expanded (+35 lines) | ~443 |
+| 17:41 | Edited src/tests/integration/test_herb_database.py | expanded (+18 lines) | ~418 |
+| 17:44 | Edited src/tests/integration/test_herb_database.py | 2→3 lines | ~69 |
+| 17:44 | Edited README.md | expanded (+16 lines) | ~315 |
+| 21:20 | Session end: 12 writes across 10 files (herb_categories.py, texts.ro.toml, message_classification_system.md, 026_remove_medicines_and_merge_bee_products.sql, test_message_classification.py) | 0 reads | ~2333 tok |
+
+## Session: 2026-10-24 07:50
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-10-24 07:50
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-10-24 07:50
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|

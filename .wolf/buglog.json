@@ -2335,6 +2335,168 @@
       "last_seen": "2026-10-23T13:27:04.713Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_categories.py",
+      "file": "src/backend/core/herb_categories.py",
+      "root_cause": "6 lines replaced/restructured",
+      "fix": "Rewrote 8→4 lines (6 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-131",
+      "timestamp": "2026-10-23T14:30:21.729Z",
+      "last_seen": "2026-10-23T14:30:21.729Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_message_classification.py",
+      "file": "src/tests/unit/ai/test_message_classification.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 3→6 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-132",
+      "timestamp": "2026-10-23T14:31:07.926Z",
+      "last_seen": "2026-10-23T14:31:07.926Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_herb_database.py",
+      "file": "src/tests/integration/test_herb_database.py",
+      "root_cause": "8 lines replaced/restructured",
+      "fix": "Rewrote 13→22 lines (8 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-133",
+      "timestamp": "2026-10-23T14:31:08.493Z",
+      "last_seen": "2026-10-23T14:31:08.493Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: 1586 should be 1585",
+      "file": "src/tests/integration/test_condition_database.py",
+      "root_cause": "Used \"1586\" instead of \"1585\"",
+      "fix": "Changed 1586 → 1585",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-134",
+      "timestamp": "2026-10-23T14:31:08.778Z",
+      "last_seen": "2026-10-23T14:31:08.778Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/integration/test_herb_database.py",
+      "root_cause": "Had \"4564ac7032a9e31dfb640626ef0fb41ebc8d934a677a6e6c6",
+      "fix": "Changed to \"b098f2177caf91dbf2ed7a1a46051b9a10f049bbc08d94302",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-135",
+      "timestamp": "2026-10-23T14:34:10.425Z",
+      "last_seen": "2026-10-23T14:34:10.425Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/unit/web/test_message_routing.py",
+      "root_cause": "Had \"11\"",
+      "fix": "Changed to \"10\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-136",
+      "timestamp": "2026-10-23T14:34:31.572Z",
+      "last_seen": "2026-10-23T14:34:31.572Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_association_rules.py",
+      "file": "src/backend/ai/herb_association_rules.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 3→7 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-137",
+      "timestamp": "2026-10-23T14:39:19.990Z",
+      "last_seen": "2026-10-23T14:39:19.990Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_herb_database.py",
+      "file": "src/tests/integration/test_herb_database.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 9→27 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-138",
+      "timestamp": "2026-10-23T14:41:27.453Z",
+      "last_seen": "2026-10-23T14:41:27.453Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/integration/test_herb_database.py",
+      "root_cause": "Had \"DELETE FROM schema_migrations WHERE version IN (%",
+      "fix": "Changed to \"DELETE FROM schema_migrations WHERE version IN (%",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-139",
+      "timestamp": "2026-10-23T14:44:31.041Z",
+      "last_seen": "2026-10-23T14:44:31.041Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -2469,7 +2631,16 @@
     "bbb69229-5746-41c6-a975-b04aaa3eb45a": true,
     "233bb53f-ff7e-4f02-b58d-c5205aa7d01c": true,
     "cb3b04f5-c7b7-471f-b347-fda1f1e1d65d": true,
-    "a453711a-9a73-4927-8fe5-eb86d966873b": true
+    "a453711a-9a73-4927-8fe5-eb86d966873b": true,
+    "0c818aa4-1d38-46b2-b9f8-f29aac1bea8d": true,
+    "086587b2-4284-429c-8a4b-5b0fa7917626": true,
+    "ed0cd534-c6a7-4115-8370-77d8fa97bb50": true,
+    "c0003ca6-727d-498f-b0de-cb3fe48da785": true,
+    "3660db38-7964-4acf-8290-96b27940aea8": true,
+    "ddf400d4-d85b-4c4f-bf69-c979c3e3040c": true,
+    "a156300a-2412-4626-abcf-aa7db7e0b0fb": true,
+    "8b3aaa70-c09a-463c-a71a-b6faf10fdae4": true,
+    "98efb15a-214a-47ad-ab19-daefda03ab97": true
   },
-  "next_id": 131
+  "next_id": 140
 }
