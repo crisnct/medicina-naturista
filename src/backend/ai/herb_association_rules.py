@@ -6,15 +6,15 @@ import hashlib
 import json
 import re
 from collections.abc import Iterator
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from functools import lru_cache
 from typing import Literal
 
 from backend.ai.herb_index_catalog import normalize_herb_name
 
 POSITIVE_RANKING_VERSION = 1
-RULES_VERSION = 4
-SCHEMA_VERSION = 5
+RULES_VERSION = 6
+SCHEMA_VERSION = 8
 Label = Literal["positive", "caution", "mixed", "unclear"]
 LABELS = ("positive", "caution", "mixed", "unclear")
 Span = tuple[int, int]
@@ -656,6 +656,16 @@ def _descriptive_mention(unit: Unit, candidate: Candidate) -> bool:
         if active:
             continue
         before = normalize_herb_name(unit.text[sentence.start() : a])
+        # A habitat inventory establishes botanical presence, not a treatment indication.
+        if (
+            re.search(r"\b(?:fanet\w*|pajist\w*|padur\w*|habitat\w*|flora)\b", before)
+            and re.search(r"\b(?:intalnim|gasim|cresc|se gasesc|sunt prezente)\b", before)
+            and not re.search(
+                r"\b(?:care|pentru|folos\w*|utiliz\w*|administr\w*|trat\w*|aplic\w*)\b",
+                normalize_herb_name(text),
+            )
+        ):
+            return True
         if re.search(
             r"\b(?:carenta|deficitul|deficit|deficienta|nivel(?:ul|uri|urile)? scazut\w*) "
             r"(?:de|in)$",
@@ -1331,6 +1341,18 @@ def combine_decisions(decisions: list[Decision]) -> Decision:
         decisions[0].rule if len({d.rule for d in decisions}) == 1 else "combined_unit_rules_v3",
         quotes,
     )
+
+
+# A recommendation wins within one classified fragment; cross-fragment conflicts stay separate.
+def combine_fragment_decisions(decisions: list[Decision]) -> Decision:
+    positive = [decision for decision in decisions if decision.label == "positive"]
+    if not positive:
+        positive = [
+            replace(decision, label="positive", quotes=decision.quotes[:1])
+            for decision in decisions
+            if decision.label == "mixed"
+        ]
+    return combine_decisions(positive or decisions)
 
 
 def pair_state(labels: list[str]) -> Label:

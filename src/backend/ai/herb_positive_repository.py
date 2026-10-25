@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from collections.abc import Callable, Iterator
 from contextlib import contextmanager
-from dataclasses import asdict, dataclass, replace
+from dataclasses import asdict, dataclass, field, replace
 from typing import Any
 from uuid import UUID
 
@@ -50,6 +50,7 @@ class Snapshot:
     conditions: dict[int, str]
     works: tuple[Work, ...]
     categories: tuple[tuple[int, str], ...] = ()
+    condition_synonyms: dict[int, tuple[str, ...]] = field(default_factory=dict)
 
 
 def snapshot(connection: Connection) -> Snapshot:
@@ -86,6 +87,12 @@ def snapshot(connection: Connection) -> Snapshot:
     conditions: dict[int, str] = dict(
         connection.execute("SELECT id,name FROM medical_conditions ORDER BY id").fetchall()
     )
+    synonyms: dict[int, list[str]] = {identifier: [] for identifier in conditions}
+    for identifier, synonym in connection.execute(
+        "SELECT medical_condition_id,synonym FROM medical_condition_synonyms "
+        "ORDER BY medical_condition_id,id"
+    ).fetchall():
+        synonyms[identifier].append(synonym)
     return Snapshot(
         manifest,
         active,
@@ -94,6 +101,7 @@ def snapshot(connection: Connection) -> Snapshot:
         conditions,
         (),
         tuple((r[0], r[1]) for r in catalog),
+        {identifier: tuple(terms) for identifier, terms in synonyms.items()},
     )
 
 

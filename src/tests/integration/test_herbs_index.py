@@ -6,6 +6,7 @@ import io
 import tempfile
 from concurrent.futures import ThreadPoolExecutor
 from contextlib import contextmanager, redirect_stdout
+from dataclasses import replace
 from pathlib import Path
 from unittest import TestCase, mock
 
@@ -122,7 +123,11 @@ class HerbsIndexDatabaseTests(TestCase):
 
         from uuid import uuid4
 
-        from backend.ai.herb_association_classification import relation_id, semantic_config
+        from backend.ai.herb_association_classification import (
+            group_fragment_works,
+            relation_id,
+            semantic_config,
+        )
         from backend.ai.herb_association_rules import Decision
         from backend.ai.herb_positive_repository import PositiveRepository
         from backend.config import Settings
@@ -134,6 +139,10 @@ class HerbsIndexDatabaseTests(TestCase):
             lookup_herb_conditions("matricaria chamomilla")
         self.assertEqual(unpublished.exception.code, "POSITIVE_RANKING_NOT_READY")
         data = repository.read_snapshot()
+        gastrita_id = next(i for i, name in data.conditions.items() if name == "Gastrita")
+        self.assertEqual(data.condition_synonyms[gastrita_id], ("stomac", "comun"))
+        groups = group_fragment_works(data.works, data.conditions)
+        data = replace(data, works=tuple(work for group in groups for work in group.evidence))
         run_id = str(uuid4())
         repository.create_run(run_id, data, semantic_config(config), "c" * 64, False)
         repository.finish(

@@ -486,11 +486,16 @@ nu poate fi suprascrisă de o rulare veche. Repetarea publicării aceleiași rul
 Regulile lucrează pe textul **indexat**, fără să modifice fragmentele sau embeddings.
 Unitățile se separă la limitele paragrafelor, elementelor de listă și rândurilor de tabel,
 cu titlurile relevante. Paragrafele păstrează contextul dintre propoziții, inclusiv referințele
-indirecte la produse. O unitate indivizibilă care depășește bugetele tehnice oprește explicit
-pregătirea. Ruperile simple de rând din OCR nu delimitează pasajele: segmentele contigue
-au maximum 1.000 de caractere și păstrează fiecare caracter original. În fiecare segment,
-`parts` conține citate contigue de maximum 320 de caractere, cu poziții în textul unității.
-Concatenarea lor reconstruiește exact sursa; citatele mai scurte nu măresc numărul pasajelor.
+indirecte la produse. Aceste unități sunt folosite numai pentru regulile locale. Cazurile
+nerezolvate se grupează pe fragment indexat și pereche produs–afecțiune; Ollama primește
+întregul `chunks.text`, cu toate paragrafele și titlurile din acel fragment. Mențiunile și
+citatele se raportează la fragmentul complet, inclusiv în dovezile persistate.
+`cache_semantics=6` separă deciziile obținute cu fragmentul integral și schema curentă de
+deciziile salvate după protocoalele anterioare.
+Un fragment care depășește bugetele tehnice oprește explicit pregătirea, fără trunchiere.
+Fiecare fragment indexat ajunge la Ollama într-un singur câmp `units[].text`, cu întregul
+`chunks.text` exact, fără împărțire, selecții de paragrafe sau trunchiere. Delimitările scurte
+folosite pentru dovezile persistate se calculează local după răspuns; nu apar în payload.
 Introducerile listelor și antetele tabelelor sunt preluate numai din textul indexat;
 coloanele fără antet disponibil nu primesc un sens presupus. Un simplu titlu de boală
 nu justifică o clasificare pozitivă. Regulile v3 tratează listele explicite și coliziunile
@@ -511,22 +516,27 @@ locală pozitivă verifică domeniul afecțiunii, nu doar existența unei instru
 nesigure păstrează întregul context pentru AI.
 Regulile v4 elimină clasificarea directă `ingredient_quantity_only_v3`: o enumerare de
 ingrediente sau cantități continuă prin celelalte reguli și, dacă acestea nu decid,
-este evaluată de modelul local. Nu devine automat recomandare pozitivă. Versiunea nouă
-invalidează cache-ul semantic anterior și necesită o nouă pregătire/publicare a topurilor;
-clasamentul deja publicat nu este modificat automat.
+este evaluată de modelul local. Nu devine automat recomandare pozitivă. Schimbarea regulilor
+cere o nouă pregătire/publicare a topurilor, dar permite reutilizarea deciziilor modelului
+pentru text, context, prompt și model compatibile. Modificarea promptului schimbă cheia
+cache-ului modelului; clasamentul deja publicat nu este modificat automat.
+Prompturile de clasificare permit stabilirea afecțiunii din titlul secțiunii, fără repetarea
+bolii pentru fiecare ingredient sau instrucțiune. Administrarea nu reprezintă singură o
+precauție; `caution` cere o restricție efectivă pentru perechea evaluată.
 Matcherul folosește numele și aliasurile existente, fără aliasuri de uleiuri deduse automat.
 Contextul local limitează afecțiunile candidate; avertismentele despre alte afecțiuni,
 excepțiile și relațiile nesigure merg la clasificatorul local.
 
 Numele comune care indică mai multe identități de catalog și mențiunile din bibliografie
-rămân neclare și nu adaugă puncte. Clasificatorul primește întregul pasaj în segmente
-ordonate, fără trunchiere; identificatorii scurți ai segmentelor se transformă în poziții
-exacte din textul original. Schema JSON este construită pentru fiecare cerere și impune
-toți identificatorii relațiilor și numai citatele disponibile în unitatea corespunzătoare,
-cu identificatori unici în lot, de exemplu `a`, `b`, apoi `aa`. Relațiile unei unități pot
-folosi exclusiv ID-urile din propriile `segments[].parts`. Pentru unitățile scurte,
-`mention_texts` arată formulările exacte, iar `mention_quotes` indică citatele în care
-apar; pozițiile tuturor mențiunilor și sursa completă rămân disponibile.
+rămân neclare și nu adaugă puncte. Clasificatorul primește fiecare fragment integral într-un
+singur câmp `units[].text`, fără segmente sau ID-uri de citat. Schema JSON impune toți
+identificatorii relațiilor și doar trei răspunsuri factuale: `local_condition`,
+`recommendation`, `prohibition`. Pozițiile mențiunilor și textul complet rămân în sursa locală;
+validatorul găsește local dovada pentru persistență după răspuns.
+Fiecare candidat include numele canonic în `condition` și toate sinonimele din catalog
+în `condition_synonyms`, în ordinea lor din catalog, fără limitarea listei. Sinonimele
+sunt denumiri echivalente ale țintei și sunt incluse atât în bugetul cererii, cât și în
+cheia cache-ului; modificarea listei cere reevaluarea deciziei modelului.
 Mențiunile repetate ale aceleiași perechi
 produs–afecțiune dintr-o unitate primesc o singură evaluare, distribuită apoi tuturor
 mențiunilor originale. Agregarea între unități rămâne separată; nicio mențiune nu este
@@ -536,12 +546,36 @@ mențiunilor, inclusiv când răspunsul provine din cache. Consultarea medicului
 utilizarea unui produs impune precauție numai când aceeași afirmație numește explicit
 produsul și afecțiunea candidat; negațiile și condițiile concurente rămân la AI.
 
-Protocolul v5 folosește codurile `0=unclear`, `1=positive`, `2=caution`, `3=mixed`, urmate
-de ID-urile dovezilor. Cache-ul păstrează etichete și poziții originale, nu forma răspunsului.
-Promptul semantic și contractul de răspuns sunt documente Markdown separate, scrise în
-română fără diacritice. Primul stabilește procesul de decizie și exemplele; al doilea
-definește codurile, acoperirea exactă și izolarea citatelor. Clarificările de calibrare
-sunt deduse din contractul proiectului, fără a fi atribuite utilizatorului ca răspunsuri noi.
+Protocolul v8 cere trei fapte pentru fiecare relație: `local_condition`, `recommendation` și
+`prohibition`. Ollama primește fragmentul integral într-un singur câmp, iar răspunsul nu
+conține trimiteri la citate. Codul verifică numele local prin catalogul complet (inclusiv
+sinonime și flexiuni, fără potrivire fuzzy), caută toate aparițiile lui în text și confirmă
+mențiunea candidatului în sursă. Sinonimele formate dintr-o abreviere alfabetică scrisă cu
+majuscule se verifică separat, păstrând majusculele: prepoziția „pe” nu identifică sinonimul
+„PE”. Denumirile complete continuă să fie recunoscute fără diferențierea majusculelor.
+Un titlu sau o introducere locală poate stabili afecțiunea
+și când modelul omite numele. Un nume care identifică altă afecțiune este respins. Titlurile
+Markdown, titlurile clinice scurte și formulările explicite „În tratarea X” delimitează
+contextul; sunt recunoscute și titlurile clinice cu majuscule precedate de unul sau două
+cuvinte OCR reziduale. Un context străin produce `unclear`. Recomandarea are prioritate față de interdicția
+pentru aceeași relație în același fragment. Etichetele finale rămân `unclear`, `positive`,
+`caution`; `mixed` se păstrează numai intern pentru contradicții între fragmente distincte.
+`cache_semantics=6` separă deciziile validate după acest protocol de cele anterioare.
+Promptul permite recomandarea unei plante ca ingredient indicat într-o rețetă terapeutică.
+O enumerare botanică a speciilor dintr-un material natural nu transferă automat indicațiile
+materialului asupra fiecărei specii.
+Regulile v6 recunosc ca descriptive enumerările de plante întâlnite într-un habitat,
+în lipsa unei afirmații terapeutice în aceeași propoziție; rețetele și listele administrate
+pentru tratament continuă prin regulile existente sau model.
+Listele de alternative preiau indicația tratamentului pe care îl continuă. Promptul cere
+urmărirea schimbărilor de subiect din fragmentele OCR cu mai multe secțiuni; primul titlu
+nu stabilește automat indicația tuturor produselor din fragment.
+Listele explicite de produse recomandate, cu identitate neambiguă și afecțiune locală
+confirmată, se păstrează ca dovezi pozitive și când modelul omite recomandarea. Dovada
+locală se combină cu decizia brută a modelului, care este păstrată separat în cache.
+Promptul de clasificare și contractul de transport sunt documente Markdown separate, scrise
+în română fără diacritice. Primul stabilește regulile de decizie și legarea afecțiunii locale;
+al doilea definește câmpurile JSON și transmiterea fragmentului integral, fără ID-uri de citat.
 Identitatea semantică include textul, contextul complet transmis, numele, mențiunile grupate,
 politica de clasificare și digestul modelului. Versiunile regulilor și transportului sunt
 separate: un transport schimbat nu invalidează aceleași decizii semantice. Cache-ul vechi
@@ -558,28 +592,22 @@ doză recunoscute nu devin automat contraindicații pentru afecțiune.
 Construcția loturilor serializează fiecare unitate o singură dată și caută binar cel
 mai mare prefix care respectă toate bugetele, folosind anvelopa completă reală.
 
-Loturile grupează unități scurte de maximum 1.000 de caractere pentru aceeași afecțiune
-primară. Pasajele lungi, tabelele, condițiile multiple și excepțiile complexe se procesează
-separat. Conform ultimei ajustări din 22 octombrie, o cerere conține maximum **șase pasaje,
-fiecare de maximum 1.000 de caractere**. Pasajul este segmentul transmis: o unitate
-logică lungă poate ocupa mai multe pasaje, păstrate împreună în aceeași cerere pentru a
-conserva relațiile și avertismentele. Limita anterioară cumulată de 5.000 de caractere este
-eliminată; plafonul sursei pentru loturile obișnuite este astfel de 6.000. Aceeași unitate
-se transmite o singură dată în lot, indiferent de numărul relațiilor; tabelele de nutrienți
-nu sunt retrimise separat pentru fiecare nutrient. Prin excepția cerută
-pentru unitățile prea mari, o singură unitate logică poate depăși șase pasaje: este trimisă
-integral, singură în cerere, fără trunchiere. Instrucțiunile, titlurile contextuale și schema intră
-în plafonul tehnic separat de 25.000 de caractere pentru cererea completă. Se păstrează
-maximum 20 de relații distincte. Prompturile sunt înghețate și reverificate înainte de
-finalizare. Publicarea verifică din nou profilul compatibil.
+Loturile pot grupa fragmente complete scurte pentru aceeași afecțiune primară. Fragmentele
+lungi, tabelele, condițiile multiple și excepțiile complexe se procesează separat. În loturile
+obișnuite pot fi cel mult șase fragmente indexate. Fiecare fragment apare o singură dată,
+întreg, în `units[].text`, indiferent de numărul relațiilor. Un fragment lung este trimis
+integral, singur în cerere. Instrucțiunile, contextul și schema intră în plafonul configurabil
+de 100.000 de caractere pentru cererea completă. Se păstrează maximum 20 de relații distincte.
+Prompturile sunt înghețate și reverificate înainte de finalizare. Publicarea verifică din nou
+profilul compatibil.
 
 | Variabilă | Implicit | Rol |
 |---|---|---|
 | `HERB_ASSOCIATION_AI_BASE` | `CONDITION_AI_LOCAL_BASE`, altfel `http://localhost:11434/v1` | Numai localhost sau hostul Docker; Compose folosește implicit `host.docker.internal`. |
-| `HERB_ASSOCIATION_AI_MODEL` | `gemma4:12b` | Independent de clasificarea conversațională și modelul raportului. |
-| `HERB_ASSOCIATION_AI_MAX_UNITS` / `HERB_ASSOCIATION_AI_MAX_PAIRS` | `6` / `20` | Maximum șase pasaje citabile pentru loturile obișnuite; unitățile prea mari se trimit izolat. Maximum 20 de relații distincte per cerere, indiferent de repetări. |
-| `HERB_ASSOCIATION_AI_MAX_PASSAGE_CHARS` | `1000` | Maximum 1.000 de caractere per pasaj citabil; fără prompt, metadate și schemă. Nu este o limită cumulată. |
-| `HERB_ASSOCIATION_AI_MAX_INPUT_CHARS` | `25000` | Plafon tehnic separat pentru întregul request serializat, inclusiv promptul, contextul și schema. |
+| `HERB_ASSOCIATION_AI_MODEL` | `qwen3.5:9b` | Independent de clasificarea conversațională și modelul raportului. |
+| `HERB_ASSOCIATION_AI_MAX_UNITS` / `HERB_ASSOCIATION_AI_MAX_PAIRS` | `6` / `20` | Maximum șase fragmente integrale pentru loturile obișnuite; fragmentele prea mari se trimit izolat. Maximum 20 de relații distincte per cerere, indiferent de repetări. |
+| `HERB_ASSOCIATION_AI_MAX_PASSAGE_CHARS` | `1000` | Prag pentru gruparea fragmentelor simple și limita dovezii scurte salvate local; nu împarte textul trimis la Ollama. |
+| `HERB_ASSOCIATION_AI_MAX_INPUT_CHARS` | `100000` | Plafon tehnic pentru întregul request serializat, inclusiv promptul, contextul și schema. Depășirea oprește pregătirea; nu scurtează fragmentul. |
 | `HERB_ASSOCIATION_AI_CONTEXT_TOKENS` / `HERB_ASSOCIATION_AI_MAX_OUTPUT_TOKENS` | `32768` / `2048` | Context și rezervă de răspuns. |
 | `HERB_ASSOCIATION_AI_TIMEOUT_SECONDS` / `HERB_ASSOCIATION_BUILD_TIMEOUT_SECONDS` | `120` / `7200` | Deadline per request și per comandă; timpul rămas limitează I/O. |
 | `HERB_ASSOCIATION_AI_MAX_REQUESTS` | `1000` | Plafon de încercări pentru RUN_ID, inclusiv la reluare. |
@@ -591,8 +619,9 @@ temperatura GPU, nu opresc la 82°C și nu introduc pauze termice sau preventive
 Frecvența GPU este administrată de utilizator.
 Se verifică setul exact de candidați și citatele exacte; rezultatele incomplete sunt respinse.
 Citatele valide dovedesc proveniența, nu corectitudinea semantică. Numărul de caractere nu
-măsoară tokenii; împachetarea folosește suplimentar o limită conservatoare pe octeții UTF-8
-și rezerva de output. Calibrarea pe modelul real rămâne necesară.
+măsoară tokenii. Plafonul cererii limitează memoria, iar Ollama verifică fereastra reală de
+tokeni cu `truncate=false` și `shift=false`; depășirea este o eroare explicită, fără
+reîncercare cu un fragment scurtat. Calibrarea pe modelul real rămâne necesară.
 
 Cache-ul păstrează numai etichete și poziții relative validate, inclusiv `unclear`, fără
 text integral sau răspunsuri brute. Cheia include pasajul/contextul, candidatul și numele
@@ -626,7 +655,17 @@ scorurilor istorice în evaluările care nu modifică indexul.
 Revenirea la un pointer anterior necesită o operație explicită, cu același manifest încă
 valid; o rulare veche nu poate fi republicată peste una nouă prin comanda obișnuită.
 Progresul clasificării afișează la circa 60 de secunde numai ID-uri și agregate, durată,
-rată și ETA; tranzițiile și finalizarea sunt raportate imediat.
+rată și câmpurile `elapsed(hh:mm:ss)` și `ETA(hh:mm:ss)`, de exemplu
+`"elapsed(hh:mm:ss)": "00:10:00"` și `"ETA(hh:mm:ss)": "02:10:05"`.
+Până când poate fi estimat timpul rămas, `ETA(hh:mm:ss)` este `null`. Tranzițiile și finalizarea
+sunt raportate imediat.
+`ai_requests_sent_total` arată numărul cererilor de clasificare lansate în execuția curentă,
+inclusiv cele care eșuează; `requests` păstrează același contor. Rezultatele din cache,
+regulile locale și verificările digestului modelului nu sunt cereri de clasificare.
+`batches` este numărul planificat de cereri. După publicare, linia
+`"stage": "positive_ranking_summary"` reia totalul trimis în etapa de pregătire.
+La o reluare, contorul afișat include numai cererile noi din acea execuție; limita cumulată
+pentru `RUN_ID` continuă să fie verificată separat în baza de date.
 
 ## 📦 Schema indexului hibrid (Postgres)
 

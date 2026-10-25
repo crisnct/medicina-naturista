@@ -5,13 +5,14 @@ from __future__ import annotations
 import json
 import threading
 import time
+from dataclasses import replace
 from uuid import uuid4
 
 from backend.ai.herb_association_classification import (
     Work,
     cache_key,
     classification_prompt,
-    group_works,
+    group_fragment_works,
     make_client,
     model_digest,
     pack_batches,
@@ -20,15 +21,25 @@ from backend.ai.herb_association_classification import (
     serialize_batch,
     validate_cached,
     validate_response,
+    verified_recommendation,
 )
 from backend.ai.herb_association_rules import (
     classify_rule,
-    combine_decisions,
+    combine_fragment_decisions,
+    content_hash,
     scoped_warning,
 )
+from backend.ai.herb_association_scope import LocalConditionScope
 from backend.ai.herb_positive_repository import PositiveRepository
 from backend.config import Settings
 from backend.core.operation_context import OperationBudget, checkpoint, operation_budget
+
+
+# Durations keep total hours rather than wrapping at a day boundary.
+def _format_duration(seconds: float) -> str:
+    hours, remainder = divmod(max(0, int(seconds)), 3600)
+    minutes, seconds_part = divmod(remainder, 60)
+    return f"{hours:02d}:{minutes:02d}:{seconds_part:02d}"
 
 
 # Only technical identifiers and aggregate counters reach the operator log.
@@ -50,13 +61,17 @@ def run_positive_ranking(
         done = counters["completed"]
         total = counters.get("batches", 0)
         rate = done / elapsed if elapsed else 0
+        eta: str | None = None
+        if rate:
+            eta = _format_duration((total - done) / rate)
         print(
             json.dumps(
                 {
-                    **counters,
-                    "elapsed_seconds": round(elapsed, 2),
+                    **{key: value for key, value in counters.items() if key != "elapsed_seconds"},
+                    "ai_requests_sent_total": counters["requests"],
+                    "elapsed(hh:mm:ss)": _format_duration(elapsed),
                     "rate_batches_second": rate,
-                    "eta_seconds": round((total - done) / rate, 2) if rate else None,
+                    "ETA(hh:mm:ss)": eta,
                 }
             ),
             flush=True,
@@ -81,6 +96,7 @@ def run_positive_ranking(
                 counters.update(run_id=publish, status="published")
                 return counters
             data = repository.read_snapshot()
+            scope_catalog = LocalConditionScope(data.conditions, data.condition_synonyms)
             semantic = semantic_config(settings)
             prompt = classification_prompt()
             if semantic_config(settings) != semantic:
@@ -88,21 +104,40 @@ def run_positive_ranking(
             digest = repository.analysis_digest(semantic) if analyze else model_digest(settings)
             rules, ambiguous = {}, []
             retained = {}
-            groups = group_works(data.works)
-            members = {relation_id(work): originals for work, originals in groups}
-            for work, originals in groups:
+            groups = group_fragment_works(data.works, data.conditions)
+            members = {relation_id(group.work): group.evidence for group in groups}
+            data = replace(data, works=tuple(work for group in groups for work in group.evidence))
+            for group in groups:
                 checkpoint()
-                local = [classify_rule(*original) for original in originals]
-                warning = scoped_warning(*work)
-                resolved = [decision for decision in local if decision is not None]
-                if warning is not None:
-                    resolved.append(warning)
+                work = group.work
+                local = [classify_rule(*original) for original in group.originals]
+                resolved = []
+                for original, decision in zip(group.originals, local, strict=True):
+                    warning = scoped_warning(*original)
+                    for existing in (decision, warning):
+                        if existing is not None:
+                            resolved.append(
+                                replace(
+                                    existing,
+                                    quotes=tuple(
+                                        (a + original[0].start, b + original[0].start)
+                                        for a, b in existing.quotes
+                                    ),
+                                )
+                            )
+                recommendation = verified_recommendation(
+                    work,
+                    condition_name=data.conditions[work[1].condition_id],
+                    scope_catalog=scope_catalog,
+                )
+                if recommendation is not None:
+                    resolved.append(recommendation)
                 if any(decision is None for decision in local):
                     ambiguous.append(work)
                     retained[relation_id(work)] = resolved
                 else:
-                    decision = combine_decisions(resolved)
-                    rules.update({relation_id(original): decision for original in originals})
+                    decision = combine_fragment_decisions(resolved)
+                    rules.update({relation_id(original): decision for original in group.evidence})
             keys = {
                 relation_id(w): cache_key(
                     w,
@@ -110,6 +145,9 @@ def run_positive_ranking(
                         **semantic,
                         "herb_name": data.names[w[1].herb_id],
                         "condition_name": data.conditions[w[1].condition_id],
+                        "condition_synonyms": data.condition_synonyms.get(w[1].condition_id, ()),
+                        "scope_catalog": data.manifest.get("conditions")
+                        or content_hash([data.conditions, data.condition_synonyms]),
                     },
                     digest or "unverified",
                 )
@@ -128,7 +166,12 @@ def run_positive_ranking(
                 if key not in cached:
                     unresolved.setdefault(key, work)
             batches = pack_batches(
-                list(unresolved.values()), settings, data.names, data.conditions, prompt=prompt
+                list(unresolved.values()),
+                settings,
+                data.names,
+                data.conditions,
+                condition_synonyms=data.condition_synonyms,
+                prompt=prompt,
             )
             counters.update(
                 units=len({u.identity for u, _ in data.works}),
@@ -157,23 +200,27 @@ def run_positive_ranking(
                 for batch in batches:
                     assert client is not None
                     checkpoint()
-                    counters["requests"] += 1
+                    payload = serialize_batch(
+                        batch,
+                        data.names,
+                        data.conditions,
+                        condition_synonyms=data.condition_synonyms,
+                    )
                     repository.admit_request(
                         counters["run_id"], settings.herb_association_ai_max_requests
                     )
+                    counters["requests"] += 1
                     raw = client.complete_json(
                         prompt,
-                        serialize_batch(
-                            batch,
-                            data.names,
-                            data.conditions,
-                            max_passage_chars=settings.herb_association_ai_max_passage_chars,
-                        ),
+                        payload,
                         settings.herb_association_ai_max_output_tokens,
                     )
                     checkpoint()
                     results = validate_response(
-                        raw, batch, max_passage_chars=settings.herb_association_ai_max_passage_chars
+                        raw,
+                        batch,
+                        scope_catalog=scope_catalog,
+                        max_passage_chars=settings.herb_association_ai_max_passage_chars,
                     )
                     entries = {
                         keys[identifier]: decision for identifier, decision in results.items()
@@ -196,7 +243,9 @@ def run_positive_ranking(
             decisions = {
                 **rules,
                 **{
-                    relation_id(original): combine_decisions([cached[key], *retained[identifier]])
+                    relation_id(original): combine_fragment_decisions(
+                        [cached[key], *retained[identifier]]
+                    )
                     for identifier, key in keys.items()
                     for original in members[identifier]
                 },
@@ -218,4 +267,12 @@ def run_positive_ranking(
 def refresh_positive_ranking(settings: Settings) -> dict:
     run_positive_ranking(settings, analyze=True)
     prepared = run_positive_ranking(settings)
-    return run_positive_ranking(settings, publish=prepared["run_id"])
+    published = run_positive_ranking(settings, publish=prepared["run_id"])
+    # Publication sends no classification requests; retain the preparation total in the summary.
+    published.update(
+        requests=prepared["requests"],
+        completed=prepared["completed"],
+        ai_requests_sent_total=prepared["requests"],
+    )
+    print(json.dumps({"stage": "positive_ranking_summary", **published}), flush=True)
+    return published

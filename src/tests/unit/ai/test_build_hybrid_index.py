@@ -73,6 +73,7 @@ class ChunkingTests(unittest.TestCase):
 
         from backend.ai.herb_association_classification import (
             cache_key,
+            group_fragment_works,
             group_works,
             model_digest,
             pack_batches,
@@ -89,6 +90,7 @@ class ChunkingTests(unittest.TestCase):
             IndexedPassage,
             classify_rule,
             combine_decisions,
+            content_hash,
             extract_units,
             pair_state,
             scoped_warning,
@@ -330,7 +332,18 @@ class ChunkingTests(unittest.TestCase):
             extract_units(replace(passage, text="# Gastrita\nmentolat"), names, conditions), ()
         )
 
-        work = (fallback, fallback.candidates[0])
+        from functools import partial
+
+        from backend.ai.herb_association_scope import LocalConditionScope
+
+        scope_catalog = LocalConditionScope({10: "Gastrita", 11: "Diabet"}, {})
+        validate_response = partial(validate_response, scope_catalog=scope_catalog)
+        model_source = extract_units(
+            replace(passage, text="# Gastrita\nMenta este mentionata."), names, conditions
+        )[0]
+        work = group_fragment_works(
+            [(model_source, model_source.candidates[0])], {10: "Gastrita", 11: "Diabet"}
+        )[0].work
         identifier = relation_id(work)
         text_with_repetition = "Menta.\n" * 200 + "x" * 700
         spans = quotation_spans(text_with_repetition)
@@ -343,8 +356,32 @@ class ChunkingTests(unittest.TestCase):
         self.assertEqual(
             "".join(wrapped[a:b] for a, b in quotation_spans(wrapped).values()), wrapped
         )
-        valid = {"relations": {"r0": [1, "a"]}}
+        valid = {
+            "relations": {
+                "r0": {
+                    "local_condition": "Gastrita",
+                    "recommendation": True,
+                    "prohibition": False,
+                }
+            }
+        }
         self.assertEqual(validate_response(valid, [work])[identifier].label, "positive")
+        scoped_work = group_fragment_works(
+            [(scoped[0], scoped[0].candidates[0])], {10: "Gastrita", 11: "Diabet"}
+        )[0].work
+        borrowed = (scoped_work[0], replace(scoped_work[1], condition_id=10))
+        self.assertEqual(next(iter(validate_response(valid, [borrowed]).values())).label, "unclear")
+        local_diabetes = {
+            "relations": {
+                "r0": {
+                    **valid["relations"]["r0"],
+                    "local_condition": "Diabet",
+                }
+            }
+        }
+        self.assertEqual(
+            next(iter(validate_response(local_diabetes, [scoped_work]).values())).label, "positive"
+        )
         for raw in (
             None,
             {},
@@ -357,12 +394,18 @@ class ChunkingTests(unittest.TestCase):
         ):
             with self.assertRaises(ValueError):
                 validate_response(raw, [work])
-        unclear = {"relations": {"r0": [0]}}
+        unclear = {
+            "relations": {
+                "r0": {
+                    "local_condition": "",
+                    "recommendation": False,
+                    "prohibition": False,
+                }
+            }
+        }
         repeated_mixed = {"relations": {"r0": [3, "a", "a"]}}
-        self.assertEqual(
-            validate_response(repeated_mixed, [work])[identifier],
-            Decision("mixed", "model", "", ((0, len(fallback.text)),)),
-        )
+        with self.assertRaisesRegex(ValueError, "POSITIVE_INVALID_RELATION"):
+            validate_response(repeated_mixed, [work])
         self.assertEqual(
             validate_response(unclear, [work])[identifier], Decision("unclear", "model", "")
         )
@@ -415,32 +458,39 @@ class ChunkingTests(unittest.TestCase):
         import json
 
         isolated = [work, grouped[0][0]]
-        payload = json.loads(serialize_batch(isolated, {1: "menta"}, {10: "Gastrita"}))
-        schema = response_schema(payload)
-        self.assertIn("b", schema["$defs"]["u1"]["enum"])
-        self.assertNotIn("a", schema["$defs"]["u1"]["enum"])
-        self.assertEqual(
-            schema["properties"]["relations"]["properties"]["r1"],
-            {"$ref": "#/$defs/u1_decision"},
+        synonyms = {10: ("Gastropatie", "gastritis", "inflamatie gastrica")}
+        payload = json.loads(
+            serialize_batch(isolated, {1: "menta"}, {10: "Gastrita"}, condition_synonyms=synonyms)
         )
-        self.assertEqual(payload["units"]["u1"]["segments"][0]["start"], 0)
+        self.assertTrue(
+            all(c["condition_synonyms"] == list(synonyms[10]) for c in payload["candidates"])
+        )
+        self.assertNotEqual(
+            cache_key(work, {**semantic, "condition_synonyms": synonyms[10]}, "a"),
+            cache_key(work, {**semantic, "condition_synonyms": ()}, "a"),
+        )
+        schema = response_schema(payload)
+        self.assertEqual(
+            set(schema["properties"]["relations"]["properties"]["r1"]["properties"]),
+            {"local_condition", "recommendation", "prohibition"},
+        )
+        self.assertEqual(payload["units"]["u1"]["text"], isolated[1][0].text)
+        self.assertNotIn("segments", payload["units"]["u1"])
         for candidate in payload["candidates"]:
-            original = "".join(
-                p["text"]
-                for s in payload["units"][candidate["unit"]]["segments"]
-                for p in s["parts"]
-            )
+            original = payload["units"][candidate["unit"]]["text"]
             self.assertEqual(
                 candidate["mention_texts"], [original[a:b] for a, b in candidate["mentions"]]
             )
-            allowed_refs = {
-                p["id"] for s in payload["units"][candidate["unit"]]["segments"] for p in s["parts"]
-            }
-            self.assertTrue(
-                all(set(refs) <= allowed_refs and refs for refs in candidate["mention_quotes"])
+        with self.assertRaisesRegex(ValueError, "POSITIVE_INVALID_RELATION"):
+            validate_response(
+                {
+                    "relations": {
+                        "r0": {**valid["relations"]["r0"], "evidence_id": "b"},
+                        "r1": unclear["relations"]["r0"],
+                    }
+                },
+                isolated,
             )
-        with self.assertRaisesRegex(ValueError, "POSITIVE_INVALID_QUOTE"):
-            validate_response({"relations": {"r0": [1, "b"], "r1": [0]}}, isolated)
         nutrient = extract_units(
             replace(
                 passage,
@@ -476,7 +526,7 @@ class ChunkingTests(unittest.TestCase):
         self.assertTrue(all(classify_rule(doses_only, c) is None for c in doses_only.candidates))
         validate_cached(Decision("positive", "model", "", ((0, 5),)), work)
         with self.assertRaisesRegex(ValueError, "POSITIVE_INVALID_CACHE"):
-            validate_cached(Decision("positive", "model", "", ((0, len(fallback.text) + 1),)), work)
+            validate_cached(Decision("positive", "model", "", ((0, len(work[0].text) + 1),)), work)
         listed = extract_units(
             replace(passage, text="# Gastrita\nAlimente recomandate:\n\n- menta, musetel\n"),
             names,
@@ -570,14 +620,8 @@ class ChunkingTests(unittest.TestCase):
         self.assertGreater(len(long_text), 5000)
         self.assertEqual(len(pack_batches([long_work], config, {1: "menta"}, {10: "Gastrita"})), 1)
         long_payload = json.loads(serialize_batch([long_work], {1: "menta"}, {10: "Gastrita"}))
-        segments = long_payload["units"]["u0"]["segments"]
-        self.assertLessEqual(len(segments), 6)
-        self.assertTrue(
-            all(sum(len(p["text"]) for p in segment["parts"]) <= 1000 for segment in segments)
-        )
-        self.assertEqual(
-            "".join(p["text"] for segment in segments for p in segment["parts"]), long_text
-        )
+        self.assertEqual(long_payload["units"]["u0"]["text"], long_text)
+        self.assertNotIn("segments", long_payload["units"]["u0"])
         seventh_text = "Menta. " * 1000
         seventh_unit = replace(
             long_unit, passage=replace(long_unit.passage, text=seventh_text), end=len(seventh_text)
@@ -586,18 +630,8 @@ class ChunkingTests(unittest.TestCase):
         isolated = pack_batches([seventh_work, seven[0]], config, {1: "menta"}, {10: "Gastrita"})
         self.assertEqual(len(isolated), 2)
         oversized_payload = json.loads(serialize_batch(isolated[0], {1: "menta"}, {10: "Gastrita"}))
-        oversized_segments = oversized_payload["units"]["u0"]["segments"]
-        self.assertGreater(len(oversized_segments), 6)
-        self.assertTrue(
-            all(
-                sum(len(p["text"]) for p in segment["parts"]) <= 1000
-                for segment in oversized_segments
-            )
-        )
-        self.assertEqual(
-            "".join(p["text"] for segment in oversized_segments for p in segment["parts"]),
-            seventh_text,
-        )
+        self.assertEqual(oversized_payload["units"]["u0"]["text"], seventh_text)
+        self.assertNotIn("segments", oversized_payload["units"]["u0"])
         with self.assertRaisesRegex(ValueError, "POSITIVE_UNIT_TOO_LARGE"):
             pack_batches(
                 [seventh_work],
@@ -683,6 +717,10 @@ class ChunkingTests(unittest.TestCase):
                 run_positive_ranking(config, repository=repository)
             client.complete_json.assert_not_called()
             repository.finish.assert_not_called()
+            self.assertEqual(json.loads(output.getvalue().splitlines()[-1])["requests"], 0)
+            self.assertEqual(
+                json.loads(output.getvalue().splitlines()[-1])["ai_requests_sent_total"], 0
+            )
         self.assertNotIn("Menta", output.getvalue())
         self.assertNotIn("synthetic timeout", output.getvalue())
         consultation = extract_units(
@@ -780,7 +818,7 @@ class ChunkingTests(unittest.TestCase):
         )
         repository.admit_request.side_effect = None
         client.complete_json.side_effect = None
-        client.complete_json.return_value = {"relations": {"r0": [1, "a"]}}
+        client.complete_json.return_value = valid
         with (
             patch("scripts.positive_herb_ranking.model_digest", return_value="a" * 64),
             patch("scripts.positive_herb_ranking.make_client", return_value=client),
@@ -788,10 +826,26 @@ class ChunkingTests(unittest.TestCase):
         ):
             result = run_positive_ranking(config, repository=repository)
         self.assertEqual(result["requests"], 1)
-        self.assertEqual({d.label for d in repository.finish.call_args.args[2].values()}, {"mixed"})
+        self.assertEqual(
+            {d.label for d in repository.finish.call_args.args[2].values()}, {"positive"}
+        )
+        model_warning_work = group_fragment_works(
+            [(consultation, c) for c in consultation.candidates], {10: "Gastrita"}
+        )[0].work
+        sent = json.loads(client.complete_json.call_args.args[1])
+        self.assertEqual(sent["units"]["u0"]["text"], consultation.passage.text)
+        self.assertNotIn("segments", sent["units"]["u0"])
+        self.assertEqual(model_warning_work[0].start, 0)
+        self.assertEqual(model_warning_work[0].end, len(consultation.passage.text))
         raw_key = cache_key(
-            warning_work,
-            {**semantic_config(config), "herb_name": "menta", "condition_name": "Gastrita"},
+            model_warning_work,
+            {
+                **semantic_config(config),
+                "herb_name": "menta",
+                "condition_name": "Gastrita",
+                "condition_synonyms": (),
+                "scope_catalog": content_hash([{10: "Gastrita"}, {}]),
+            },
             "a" * 64,
         )
         repository.cached.return_value = {
@@ -806,7 +860,9 @@ class ChunkingTests(unittest.TestCase):
         make_classifier.assert_not_called()
         self.assertEqual(result["requests"], 0)
         self.assertEqual(result["cache_hits"], 2)
-        self.assertEqual({d.label for d in repository.finish.call_args.args[2].values()}, {"mixed"})
+        self.assertEqual(
+            {d.label for d in repository.finish.call_args.args[2].values()}, {"positive"}
+        )
         tomato_names = (*names, ("rosie", (3,)))
         for statement in (
             "Interzis consumul de rosii.",
@@ -902,7 +958,7 @@ class ChunkingTests(unittest.TestCase):
             tuple((contested, c) for c in contested.candidates),
         )
         repository.cached.return_value = {}
-        client.complete_json.return_value = {"relations": {"r0": [1, "a"]}}
+        client.complete_json.return_value = valid
         with (
             patch("scripts.positive_herb_ranking.model_digest", return_value="a" * 64),
             patch("scripts.positive_herb_ranking.make_client", return_value=client),
@@ -911,7 +967,9 @@ class ChunkingTests(unittest.TestCase):
             result = run_positive_ranking(config, repository=repository)
         self.assertEqual(result["requests"], 1)
         self.assertEqual(len(repository.finish.call_args.args[2]), 2)
-        self.assertEqual({d.label for d in repository.finish.call_args.args[2].values()}, {"mixed"})
+        self.assertEqual(
+            {d.label for d in repository.finish.call_args.args[2].values()}, {"positive"}
+        )
         from backend.ai.herb_association_rules import NameMatcher
 
         self.assertEqual(list(NameMatcher((("rosie", (3,)),)).spans("rosii")), [])
@@ -974,13 +1032,23 @@ class ChunkingTests(unittest.TestCase):
             )
         )
 
-        with patch.object(ranking, "run_positive_ranking") as stages:
+        summary_output = io.StringIO()
+        with (
+            patch.object(ranking, "run_positive_ranking") as stages,
+            redirect_stdout(summary_output),
+        ):
             stages.side_effect = [
                 {"status": "analyzed"},
-                {"status": "ready", "run_id": "prepared-run"},
+                {"status": "ready", "run_id": "prepared-run", "requests": 3, "completed": 3},
                 {"status": "published", "run_id": "prepared-run"},
             ]
-            self.assertEqual(ranking.refresh_positive_ranking(config)["status"], "published")
+            published = ranking.refresh_positive_ranking(config)
+            self.assertEqual(published["status"], "published")
+            self.assertEqual(published["ai_requests_sent_total"], 3)
+            self.assertEqual(published["requests"], 3)
+            summary = json.loads(summary_output.getvalue().splitlines()[-1])
+            self.assertEqual(summary["stage"], "positive_ranking_summary")
+            self.assertEqual(summary["ai_requests_sent_total"], 3)
             self.assertEqual(
                 stages.call_args_list,
                 [call(config, analyze=True), call(config), call(config, publish="prepared-run")],

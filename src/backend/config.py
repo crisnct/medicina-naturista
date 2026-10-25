@@ -207,10 +207,10 @@ class Settings:
     condition_ai_timeout_seconds: int = 10
     condition_ai_max_output_tokens: int = 300
     herb_association_ai_base: str = "http://localhost:11434/v1"
-    herb_association_ai_model: str = "gemma4:12b"
+    herb_association_ai_model: str = "qwen3.5:9b"
     herb_association_ai_max_units: int = 6
     herb_association_ai_max_pairs: int = 20
-    herb_association_ai_max_input_chars: int = 25000
+    herb_association_ai_max_input_chars: int = 200000
     herb_association_ai_max_passage_chars: int = 1000
     herb_association_ai_context_tokens: int = 32768
     herb_association_ai_max_output_tokens: int = 2048
@@ -337,11 +337,11 @@ class Settings:
                 "HERB_ASSOCIATION_AI_BASE",
                 env.get("CONDITION_AI_LOCAL_BASE", "http://localhost:11434/v1"),
             ).rstrip("/"),
-            herb_association_ai_model=env.get("HERB_ASSOCIATION_AI_MODEL", "gemma4:12b"),
+            herb_association_ai_model=env.get("HERB_ASSOCIATION_AI_MODEL", "qwen3.5:9b"),
             herb_association_ai_max_units=_int("HERB_ASSOCIATION_AI_MAX_UNITS", 6, env=env),
             herb_association_ai_max_pairs=_int("HERB_ASSOCIATION_AI_MAX_PAIRS", 20, env=env),
             herb_association_ai_max_input_chars=_int(
-                "HERB_ASSOCIATION_AI_MAX_INPUT_CHARS", 25000, env=env
+                "HERB_ASSOCIATION_AI_MAX_INPUT_CHARS", 100000, env=env
             ),
             herb_association_ai_max_passage_chars=_int(
                 "HERB_ASSOCIATION_AI_MAX_PASSAGE_CHARS", 1000, env=env

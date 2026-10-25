@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-24T05:47:40.776Z
-> Files: 119 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-25T06:15:58.155Z
+> Files: 132 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -9,9 +9,9 @@
 
 ## ./
 
-- `docker-compose.yaml` — Docker Compose: 4 services (~2177 tok)
+- `docker-compose.yaml` — Docker Compose: 4 services (~2178 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~29701 tok)
+- `README.md` — Project documentation (~30237 tok)
 
 ## .claude/agents/
 
@@ -50,8 +50,14 @@
 
 ## aiPlans/tmp/
 
+- `benchmark-condition-synonyms.py` — Exercise the real ranking pipeline on the frozen sample with an in-memory repository. (~3676 tok)
+- `benchmark-frozen-concurrency.py` — Compare bounded concurrent local classification on a frozen herb sample. (~6659 tok)
+- `benchmark-full-fragment-pipeline.py` — Exercise the real ranking pipeline on the frozen sample with an in-memory repository. (~2907 tok)
+- `benchmark-herb-associations.py` — Measure one herb's complete published condition set without production writes. (~5365 tok)
+- `benchmark-local-condition-scope.py` — Exercise the real ranking pipeline on the frozen sample with an in-memory repository. (~4009 tok)
 - `build_product_condition_xmind.py` — Build a source-pinned XMind 8 description of the existing classifier. (~9794 tok)
-- `compare-ranking-context.py` — Read-only, uncached paired local-Ollama context experiment over a bounded sample. (~3572 tok)
+- `compare-ranking-context.py` — Read-only, uncached paired local-Ollama context experiment over a bounded sample. (~5004 tok)
+- `investigate-ollama-classification.py` — Bounded read-only ablations of three classifier failures; no production edits or cache writes. (~2582 tok)
 - `positive-ranking-activate.py` — Publish a complete generation under the operator's recorded acceptance criteria. (~735 tok)
 - `positive-ranking-audit-prototype.py` (~1050 tok)
 - `positive-ranking-baseline.py` — take, heartbeat (~1928 tok)
@@ -74,7 +80,19 @@
 - `positive-ranking-structural-inventory.py` (~1006 tok)
 - `positive-ranking-template-probe.py` (~417 tok)
 - `positive-ranking-workload-plan.py` — ReadOnlyRepository: load, read_snapshot, analysis_digest, cached + 1 more (~614 tok)
-- `report-ranking-context.py` — Summarize the bounded context comparison without changing application state. (~2366 tok)
+- `probe-whole-fragment-v8.py` — Compare two frozen-sample requests with reconstructed production batches; read-only DB. (~4088 tok)
+- `report-condition-synonyms.py` — Compare the synonym-payload calibration against the previous frozen-sample run. (~2419 tok)
+- `report-ranking-context.py` — Summarize the bounded context comparison without changing application state. (~3079 tok)
+- `report-scoped-positive-priority.py` — Report calibration of local disease scope and three-label positive-priority inference. (~2176 tok)
+- `summarize-simple-prompts.py` — Compare fixed-sample model results before and after prompt simplification. (~3248 tok)
+
+## aiPlans/tmp/association-optimization-20261025/
+
+- `make-report.py` — Audit saved local calibration runs and report the unchanged reference labels. (~3936 tok)
+
+## aiPlans/tmp/gemma3-vs-qwen1-20261025/
+
+- `README.md` — Project documentation (~719 tok)
 
 ## aiPlans/tmp/herb-evidence-20261024/
 
@@ -99,23 +117,24 @@
 
 ## src/backend/
 
-- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~9105 tok)
+- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~9106 tok)
 
 ## src/backend/ai/
 
 - `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~8801 tok)
-- `herb_association_classification.py` — Bounded local-only polarity classification; validated quotations are source provenance. (~5563 tok)
-- `herb_association_rules.py` — Conservative source-polarity rules over unchanged indexed text and primary conditions. (~16110 tok)
+- `herb_association_classification.py` — Bounded local-only polarity classification; validated quotations are source provenance. (~6089 tok)
+- `herb_association_rules.py` — Conservative source-polarity rules over unchanged indexed text and primary conditions. (~15076 tok)
+- `herb_association_scope.py` — Verify local disease identities and source boundaries without fuzzy equivalence. (~2170 tok)
 - `herb_conditions.py` — Read a product's positive conditions from the same published generation as its ranking. (~943 tok)
 - `herb_evidence.py` — Read complete source fragments from one published positive-association generation. (~2022 tok)
-- `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~5422 tok)
+- `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~5562 tok)
 - `herb_ranking.py` — Read a bounded catalog ranking with regional Romanian names. (~886 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~7160 tok)
 
 ## src/backend/ai/prompts/
 
-- `herb_association_classification_system.md` — Clasificator de dovezi produs-afectiune (~1441 tok)
-- `herb_association_classification_transport.md` — Protocol JSON strict (~458 tok)
+- `herb_association_classification_system.md` — Clasificarea afirmatiilor despre produs (~572 tok)
+- `herb_association_classification_transport.md` — Raspuns JSON (~189 tok)
 - `message_classification_system.md` — Rol (~3547 tok)
 
 ## src/backend/core/
@@ -188,7 +207,7 @@
 
 - `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~17022 tok)
 - `manage_texts.py` — Export public copy and regenerate key/parameter metadata, never a second editable catalog. (~783 tok)
-- `positive_herb_ranking.py` — Explicit, resumable positive-ranking stages used by the existing index CLI. (~2597 tok)
+- `positive_herb_ranking.py` — Explicit, resumable positive-ranking stages used by the existing index CLI. (~3288 tok)
 - `set_gpu_clock.bat` (~827 tok)
 - `setup_gpu_clock.bat` (~593 tok)
 
@@ -197,7 +216,7 @@
 - `test_condition_database.py` — Reconstruct disposable databases from SQL, never from the removed JSONL. (~4307 tok)
 - `test_herb_conditions.py` — Actual PostgreSQL DISTINCT, aliases and literal ILIKE matching in an isolated DB. (~7926 tok)
 - `test_herb_database.py` — Rebuild and upgrade isolated PostgreSQL databases using only packaged SQL. (~6131 tok)
-- `test_herbs_index.py` — Atomic derived associations on an isolated PostgreSQL fixture. (~8457 tok)
+- `test_herbs_index.py` — Atomic derived associations on an isolated PostgreSQL fixture. (~8606 tok)
 
 ## src/tests/support/
 
@@ -205,7 +224,7 @@
 
 ## src/tests/unit/ai/
 
-- `test_build_hybrid_index.py` — FakeClock: make_chunk, embed, fake_embed, test_normalize_text_preserves_composed_romanian_diacritics (~16216 tok)
+- `test_build_hybrid_index.py` — FakeClock: make_chunk, embed, fake_embed, test_normalize_text_preserves_composed_romanian_diacritics (~16660 tok)
 - `test_message_classification.py` — Strict intent contract and local Ollama wiring; no external traffic. (~5461 tok)
 
 ## src/tests/unit/core/

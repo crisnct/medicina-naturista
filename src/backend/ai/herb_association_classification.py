@@ -5,7 +5,7 @@ from __future__ import annotations
 import json
 import re
 from collections import defaultdict
-from dataclasses import asdict, replace
+from dataclasses import asdict, dataclass, replace
 from pathlib import Path
 from typing import Any
 
@@ -14,7 +14,7 @@ import httpx
 from backend.ai.client import OllamaReportClient, ResponsesClient
 from backend.ai.herb_association_rules import (
     EXCEPTION,
-    LABELS,
+    NEGATIVE,
     RULES_VERSION,
     SCHEMA_VERSION,
     Candidate,
@@ -24,6 +24,7 @@ from backend.ai.herb_association_rules import (
     content_hash,
     source_context,
 )
+from backend.ai.herb_association_scope import LocalConditionScope
 from backend.ai.herb_index_catalog import normalize_herb_name
 from backend.ai.providers import ProviderConfig
 from backend.config import Settings
@@ -32,7 +33,7 @@ from backend.core.operation_context import checkpoint, remaining_timeout
 PROMPT_PATH = Path(__file__).parent / "prompts" / "herb_association_classification_system.md"
 TRANSPORT_PATH = PROMPT_PATH.with_name("herb_association_classification_transport.md")
 Work = tuple[Unit, Candidate]
-CODE_LABELS: tuple[Label, ...] = ("unclear", "positive", "caution", "mixed")
+CODE_LABELS: tuple[Label, ...] = ("unclear", "positive", "caution")
 
 
 def classification_prompt() -> str:
@@ -63,7 +64,118 @@ def group_works(works: list[Work] | tuple[Work, ...]) -> list[tuple[Work, tuple[
     ]
 
 
-# Reference source spans by short IDs so the model cannot paraphrase a provenance quotation.
+# Local rules retain their original scope; inference and persisted quotes share chunk offsets.
+@dataclass(frozen=True)
+class FragmentWorkGroup:
+    work: Work
+    originals: tuple[Work, ...]
+    evidence: tuple[Work, ...]
+
+
+def group_fragment_works(
+    works: list[Work] | tuple[Work, ...], conditions: dict[int, str]
+) -> list[FragmentWorkGroup]:
+    fragments: dict[int, list[Work]] = defaultdict(list)
+    for work in works:
+        fragments[work[0].passage.chunk_id].append(work)
+    canonical = {normalize_herb_name(name): identifier for identifier, name in conditions.items()}
+    result = []
+    for originals in fragments.values():
+        passage = originals[0][0].passage
+        candidates = {
+            (candidate.herb_id, candidate.condition_id, unit.start + a, unit.start + b)
+            for unit, candidate in originals
+            for a, b in (candidate.mentions or (candidate.mention,))
+        }
+        full = Unit(
+            passage,
+            0,
+            len(passage.text),
+            (passage.heading,),
+            tuple(
+                Candidate(herb, condition, (a, b)) for herb, condition, a, b in sorted(candidates)
+            ),
+            len(passage.primary) == 1,
+            scope_conditions=tuple(
+                sorted(
+                    {
+                        canonical[normalized]
+                        for name in passage.primary
+                        if (normalized := normalize_herb_name(name)) in canonical
+                    }
+                )
+            ),
+            condition_mentions=tuple(
+                sorted(
+                    {
+                        (identifier, (unit.start + a, unit.start + b))
+                        for unit, _ in originals
+                        for identifier, (a, b) in unit.condition_mentions
+                    }
+                )
+            ),
+        )
+        pairs: dict[tuple[int, int], list[Work]] = defaultdict(list)
+        for original in originals:
+            pairs[(original[1].herb_id, original[1].condition_id)].append(original)
+        for (herb, condition), members in pairs.items():
+            evidence = tuple(
+                (
+                    full,
+                    Candidate(
+                        herb, condition, (unit.start + c.mention[0], unit.start + c.mention[1])
+                    ),
+                )
+                for unit, c in members
+            )
+            mentions = tuple(sorted({candidate.mention for _, candidate in evidence}))
+            if len(mentions) != len(evidence):
+                raise ValueError("POSITIVE_DUPLICATE_FRAGMENT_MENTION")
+            result.append(
+                FragmentWorkGroup(
+                    (full, Candidate(herb, condition, mentions[0], mentions)),
+                    tuple(members),
+                    evidence,
+                )
+            )
+    return result
+
+
+# An explicit list remains source evidence when the model omits its recommendation.
+def verified_recommendation(
+    work: Work, *, condition_name: str, scope_catalog: LocalConditionScope
+) -> Decision | None:
+    unit, candidate = work
+    source = unit.text
+    for a, b in candidate.mentions or (candidate.mention,):
+        if any(
+            other.herb_id != candidate.herb_id and other.mention == (a, b)
+            for other in unit.candidates
+        ):
+            continue
+        start = source.rfind("\n", 0, a) + 1
+        end = source.find("\n", b)
+        end = len(source) if end < 0 else end
+        prefix = source[start:a]
+        if ":" not in prefix or re.search(r"[.!?]", prefix):
+            continue
+        if not re.match(
+            r"^(?:[qoui] )?(?:alimente|plante|produse|suplimente|uleiuri)(?:le)? "
+            r"(?:naturiste |medicinale |esentiale |volatile )?recomandat\w*\b",
+            normalize_herb_name(prefix),
+        ):
+            continue
+        statement = normalize_herb_name(source[start:end])
+        if EXCEPTION.search(statement) or NEGATIVE.search(statement):
+            continue
+        if scope_catalog.verifies(unit, candidate, condition_name, None, (start, end)):
+            return Decision(
+                "positive", "rule", "explicit_scoped_recommendation_v6", ((start, end),)
+            )
+    return None
+
+
+# Partition concise provenance spans locally after inference; these spans are not sent to Ollama.
 def quotation_spans(
     text: str, prefix: str = "", *, max_chars: int = 1000
 ) -> dict[str, tuple[int, int]]:
@@ -88,53 +200,25 @@ def quotation_spans(
     return spans
 
 
-# Every output key and quotation reference is constrained by this exact request.
+# Every output relation and field is constrained by this exact request.
 def response_schema(payload: dict[str, Any]) -> dict[str, Any]:
-    definitions = {
-        key: {
-            "type": "string",
-            "enum": [
-                part["id"]
-                for segment in unit["segments"]
-                for part in segment["parts"]
-                if part["text"].strip()
-            ],
+    properties = {}
+    for candidate in payload["candidates"]:
+        fields = {
+            "local_condition": {"type": "string", "maxLength": 120},
+            "recommendation": {"type": "boolean"},
+            "prohibition": {"type": "boolean"},
         }
-        for key, unit in payload["units"].items()
-    }
-    for key in payload["units"]:
-        definitions[f"{key}_decision"] = {
-            "anyOf": [
-                {
-                    "type": "array",
-                    # Native Ollama's grammar accepts draft-7 tuple items, not prefixItems.
-                    "items": [
-                        {"type": "integer", "const": code},
-                        *[{"$ref": f"#/$defs/{key}"}] * count,
-                    ],
-                    "additionalItems": False,
-                    "minItems": count + 1,
-                    "maxItems": count + 1,
-                }
-                for code, count in [
-                    (0, 0),
-                    (1, 1),
-                    (2, 1),
-                    (3, 1),
-                    (3, 2),
-                ]
-            ]
+        properties[candidate["id"]] = {
+            "type": "object",
+            "properties": fields,
+            "required": list(fields),
+            "additionalProperties": False,
         }
-    # Relations in one unit share a grammar, including that unit's exclusive quote enum.
-    properties = {
-        candidate["id"]: {"$ref": f"#/$defs/{candidate['unit']}_decision"}
-        for candidate in payload["candidates"]
-    }
     return {
         "type": "object",
         "additionalProperties": False,
         "required": ["relations"],
-        "$defs": definitions,
         "properties": {
             "relations": {
                 "type": "object",
@@ -166,7 +250,10 @@ def semantic_config(settings: Settings) -> dict[str, Any]:
         "catalog_policy": content_hash(
             Path(__file__).with_name("herb_positive_repository.py").read_text(encoding="utf-8")
         ),
-        "cache_semantics": 1,
+        "cache_semantics": 6,
+        "scope_policy": content_hash(
+            Path(__file__).with_name("herb_association_scope.py").read_text(encoding="utf-8")
+        ),
         "model": settings.herb_association_ai_model,
         "context": settings.herb_association_ai_context_tokens,
         "temperature": 0,
@@ -197,27 +284,21 @@ def cache_key(work: Work, semantic: dict[str, Any], digest: str) -> str:
     return content_hash([unit.text, source_context(unit), asdict(candidate), policy, digest])
 
 
-# Short batch-unique references reduce decoding without changing canonical source offsets.
-def _batch_quotations(batch: list[Work], max_chars: int) -> dict[str, dict[str, tuple[int, int]]]:
-    result: dict[str, dict[str, tuple[int, int]]] = {}
-    position = 0
-    for unit, _ in batch:
-        if unit.identity in result:
-            continue
-        quotes = {}
-        for start, end in quotation_spans(unit.text, max_chars=max_chars).values():
-            for a, b in quotation_spans(
-                unit.text[start:end], max_chars=min(320, max_chars)
-            ).values():
-                value = position + 1
-                identifier = ""
-                while value:
-                    value, digit = divmod(value - 1, 26)
-                    identifier = chr(ord("a") + digit) + identifier
-                quotes[identifier] = (start + a, start + b)
-                position += 1
-        result[unit.identity] = quotes
-    return result
+# Keep model input whole and derive concise evidence spans only for persisted provenance.
+def _evidence_span(unit: Unit, candidate: Candidate, max_chars: int) -> tuple[int, int]:
+    # Keep persisted provenance concise without dividing the text sent to the model.
+    mentions = candidate.mentions or (candidate.mention,)
+    return next(
+        (
+            (start, end)
+            for start, end in quotation_spans(unit.text, max_chars=max_chars).values()
+            if any(
+                start < mention_end and end > mention_start
+                for mention_start, mention_end in mentions
+            )
+        ),
+        candidate.mention,
+    )
 
 
 def serialize_batch(
@@ -225,31 +306,21 @@ def serialize_batch(
     names: dict[int, str],
     conditions: dict[int, str],
     *,
-    max_passage_chars: int = 1000,
+    condition_synonyms: dict[int, tuple[str, ...]] | None = None,
 ) -> str:
     units = {}
     unit_ids: dict[str, str] = {}
     relations = []
-    quotations = _batch_quotations(batch, max_passage_chars)
     for position, work in enumerate(batch):
         unit, candidate = work
         unit_key = unit_ids.setdefault(unit.identity, f"u{len(unit_ids)}")
         if unit_key not in units:
+            context = source_context(unit)
             units[unit_key] = {
-                "segments": [
-                    {
-                        "start": start,
-                        "parts": [
-                            {"id": identifier, "start": a, "text": unit.text[a:b]}
-                            for identifier, (a, b) in quotations[unit.identity].items()
-                            if start <= a < b <= end
-                        ],
-                    }
-                    for start, end in quotation_spans(
-                        unit.text, max_chars=max_passage_chars
-                    ).values()
-                ],
-                **source_context(unit),
+                "text": unit.text,
+                "headings": context["headings"],
+                "introductions": context["introductions"],
+                "table_header": context["table_header"],
             }
         relations.append(
             {
@@ -259,17 +330,12 @@ def serialize_batch(
                 "herb": names[candidate.herb_id],
                 "condition_id": candidate.condition_id,
                 "condition": conditions[candidate.condition_id],
+                "condition_synonyms": list(
+                    (condition_synonyms or {}).get(candidate.condition_id, ())
+                ),
                 "mentions": candidate.mentions or (candidate.mention,),
                 "mention_texts": [
                     unit.text[a:b] for a, b in (candidate.mentions or (candidate.mention,))
-                ],
-                "mention_quotes": [
-                    [
-                        identifier
-                        for identifier, (x, y) in quotations[unit.identity].items()
-                        if x < b and y > a
-                    ]
-                    for a, b in (candidate.mentions or (candidate.mention,))
                 ],
             }
         )
@@ -286,6 +352,7 @@ def pack_batches(
     names: dict[int, str],
     conditions: dict[int, str],
     *,
+    condition_synonyms: dict[int, tuple[str, ...]] | None = None,
     prompt: str | None = None,
 ) -> list[list[Work]]:
     prompt = classification_prompt() if prompt is None else prompt
@@ -295,7 +362,7 @@ def pack_batches(
             batch,
             names,
             conditions,
-            max_passage_chars=settings.herb_association_ai_max_passage_chars,
+            condition_synonyms=condition_synonyms,
         )
         payload = json.loads(serialized)
         envelope = json.dumps(
@@ -320,19 +387,16 @@ def pack_batches(
             separators=(",", ":"),
         )
         size = len(envelope)
-        # UTF-8 bytes are a conservative token upper bound, not a characters/token estimate.
-        tokens_upper = len(envelope.encode()) + 512
+        # Character budgets bound memory; Ollama enforces its real token window with
+        # truncate=false and shift=false. UTF-8 bytes are not a usable tokenizer here.
         return (
             len(batch) <= min(20, settings.herb_association_ai_max_pairs)
             and (
-                sum(len(unit["segments"]) for unit in payload["units"].values())
-                <= min(6, settings.herb_association_ai_max_units)
-                # An oversized source unit owns its request; its warnings stay together.
+                len(payload["units"]) <= min(6, settings.herb_association_ai_max_units)
+                # A long indexed fragment owns its request; its warnings stay together.
                 or len(payload["units"]) == 1
             )
-            and size <= min(25000, settings.herb_association_ai_max_input_chars)
-            and tokens_upper + settings.herb_association_ai_max_output_tokens
-            <= settings.herb_association_ai_context_tokens
+            and size <= settings.herb_association_ai_max_input_chars
         )
 
     # Bucket short simple units by primary disease; complex units never share requests.
@@ -385,7 +449,11 @@ def pack_batches(
 
 
 def validate_response(
-    raw: Any, batch: list[Work], *, max_passage_chars: int = 1000
+    raw: Any,
+    batch: list[Work],
+    *,
+    scope_catalog: LocalConditionScope,
+    max_passage_chars: int = 1000,
 ) -> dict[str, Decision]:
     if (
         not isinstance(raw, dict)
@@ -397,52 +465,48 @@ def validate_response(
     if raw["relations"].keys() != expected.keys():
         raise ValueError("POSITIVE_INCOMPLETE_RESPONSE")
     decisions = {}
-    quotations = _batch_quotations(batch, max_passage_chars)
     for identifier, entry in raw["relations"].items():
+        fields = {"local_condition", "recommendation", "prohibition"}
         if (
-            not isinstance(entry, list)
-            or not entry
-            or type(entry[0]) is not int
-            or entry[0] not in range(4)
+            not isinstance(entry, dict)
+            or set(entry) != fields
+            or not isinstance(entry["local_condition"], str)
+            or len(entry["local_condition"]) > 120
+            or type(entry["recommendation"]) is not bool
+            or type(entry["prohibition"]) is not bool
         ):
             raise ValueError("POSITIVE_INVALID_RELATION")
-        label, quotes = CODE_LABELS[entry[0]], entry[1:]
-        if (
-            not isinstance(identifier, str)
-            or identifier not in expected
-            or not isinstance(label, str)
-            or label not in LABELS
-            or not isinstance(quotes, list)
-            or len(quotes)
-            not in ((0,) if label == "unclear" else (1, 2) if label == "mixed" else (1,))
+        unit, candidate = expected[identifier]
+        evidence_span = _evidence_span(unit, candidate, max_passage_chars)
+        label: Label = "unclear"
+        spans: tuple[tuple[int, int], ...] = ()
+        if scope_catalog.verifies(
+            unit,
+            candidate,
+            entry["local_condition"],
+            None,
+            evidence_span,
         ):
-            raise ValueError("POSITIVE_INVALID_RELATION")
-        unit, _ = expected[identifier]
-        allowed_quotes = quotations[unit.identity]
-        spans = []
-        for quote in quotes:
-            if (
-                not isinstance(quote, str)
-                or quote not in allowed_quotes
-                or not unit.text[slice(*allowed_quotes[quote])].strip()
-            ):
-                raise ValueError("POSITIVE_INVALID_QUOTE")
-            if allowed_quotes[quote] not in spans:
-                spans.append(allowed_quotes[quote])
-        decisions[relation_id(expected[identifier])] = Decision(label, "model", "", tuple(spans))
+            label = (
+                "positive"
+                if entry["recommendation"]
+                else "caution"
+                if entry["prohibition"]
+                else "unclear"
+            )
+            if label != "unclear":
+                spans = (evidence_span,)
+        decisions[relation_id(expected[identifier])] = Decision(label, "model", "", spans)
     return decisions
 
 
-# Cached canonical source offsets are independent of wire IDs and segment boundaries.
+# Cached canonical source offsets are independent of the full-text wire representation.
 def validate_cached(decision: Decision, work: Work) -> None:
     unit, _ = work
     if (
         decision.origin != "model"
-        or decision.label not in LABELS
-        or len(decision.quotes)
-        not in (
-            (0,) if decision.label == "unclear" else (1, 2) if decision.label == "mixed" else (1,)
-        )
+        or decision.label not in CODE_LABELS
+        or len(decision.quotes) not in ((0,) if decision.label == "unclear" else (1,))
         or len(set(decision.quotes)) != len(decision.quotes)
     ):
         raise ValueError("POSITIVE_INVALID_CACHE")

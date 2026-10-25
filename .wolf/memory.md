@@ -681,3 +681,124 @@ description: chronological action log per session, consolidated weekly
 | 08:38 | Edited src/tests/integration/test_herb_conditions.py | modified range() | ~392 |
 | 08:43 | Created aiPlans/tmp/compare-ranking-context.py | — | ~3572 |
 | 08:47 | Created aiPlans/tmp/report-ranking-context.py | — | ~2366 |
+| 08:49 | Edited aiPlans/tmp/report-ranking-context.py | expanded (+16 lines) | ~638 |
+| 08:54 | Edited aiPlans/tmp/compare-ranking-context.py | 2→4 lines | ~52 |
+| 08:56 | Created aiPlans/tmp/summarize-simple-prompts.py | — | ~2846 |
+| 08:58 | Edited README.md | 3→7 lines | ~166 |
+| 08:58 | Edited aiPlans/tmp/summarize-simple-prompts.py | expanded (+16 lines) | ~272 |
+| 09:01 | Edited src/backend/ai/prompts/herb_association_classification_system.md | inline fix | ~15 |
+| 09:02 | Edited aiPlans/tmp/summarize-simple-prompts.py | added 1 condition(s) | ~194 |
+| 09:02 | Edited aiPlans/tmp/summarize-simple-prompts.py | expanded (+8 lines) | ~358 |
+| 09:06 | Edited aiPlans/tmp/compare-ranking-context.py | modified enumerate() | ~101 |
+| 09:10 | Edited README.md | 3→3 lines | ~68 |
+| 09:25 | Edited src/backend/ai/herb_association_classification.py | added 1 condition(s) | ~921 |
+| 09:25 | Edited src/scripts/positive_herb_ranking.py | modified relation_id() | ~348 |
+| 09:25 | Edited src/backend/config.py | 2→2 lines | ~36 |
+| 09:25 | Edited docker-compose.yaml | 25000 → 100000 | ~26 |
+| 09:26 | Edited src/scripts/positive_herb_ranking.py | inline fix | ~28 |
+| 09:27 | Edited src/tests/unit/ai/test_build_hybrid_index.py | expanded (+15 lines) | ~250 |
+| 09:29 | Edited src/tests/integration/test_herbs_index.py | expanded (+7 lines) | ~130 |
+| 09:31 | Created aiPlans/tmp/benchmark-full-fragment-pipeline.py | — | ~2386 |
+| 09:32 | Edited aiPlans/tmp/benchmark-full-fragment-pipeline.py | modified in() | ~115 |
+| 09:34 | Edited README.md | 15→16 lines | ~408 |
+| 09:34 | Edited README.md | 3→4 lines | ~93 |
+| 09:53 | Edited src/backend/ai/prompts/herb_association_classification_system.md | expanded (+8 lines) | ~253 |
+| 09:53 | Edited src/backend/ai/prompts/herb_association_classification_transport.md | 1→3 lines | ~32 |
+| 09:53 | Edited src/backend/ai/herb_association_classification.py | reduced (-7 lines) | ~114 |
+| 09:53 | Edited src/backend/ai/herb_association_rules.py | 5 → 6 | ~6 |
+| 09:53 | Edited aiPlans/tmp/benchmark-full-fragment-pipeline.py | 2→6 lines | ~65 |
+| 09:53 | Edited src/tests/unit/ai/test_build_hybrid_index.py | modified assertRaisesRegex() | ~38 |
+| 09:53 | Edited README.md | expanded (+9 lines) | ~261 |
+| 12:24 | Session end: 21 writes across 17 files (contracts.py, herb_evidence.py, herb_conditions.py, sessions.py, dependencies.py) | 0 reads | ~11739 tok |
+| 13:31 | Edited src/backend/ai/prompts/herb_association_classification_system.md | 3→7 lines | ~154 |
+| 13:31 | Edited src/backend/ai/herb_association_rules.py | modified combine_fragment_decisions() | ~176 |
+| 13:31 | Edited src/scripts/positive_herb_ranking.py | combine_decisions() → combine_fragment_decisions() | ~73 |
+| 13:31 | Edited README.md | 3→5 lines | ~112 |
+| 13:34 | Edited aiPlans/tmp/benchmark-full-fragment-pipeline.py | expanded (+8 lines) | ~147 |
+| 13:37 | Created aiPlans/tmp/report-scoped-positive-priority.py | — | ~2176 |
+| 13:39 | Edited src/frontend/components/HerbEvidencePanel.tsx | added optional chaining | ~460 |
+| 13:39 | Edited src/frontend/components/HerbConditionsPanel.test.tsx | CSS: start, end, kind | ~240 |
+| 13:40 | Edited src/frontend/components/HerbConditionsPanel.test.tsx | inline fix | ~33 |
+| 13:40 | Edited aiPlans/tmp/herb-evidence-20261024/preview.py | 3→5 lines | ~92 |
+| 13:42 | Edited src/frontend/components/HerbEvidencePanel.tsx | modified HighlightedSource() | ~101 |
+| 13:42 | Edited src/frontend/components/HerbConditionsPanel.test.tsx | removed 5 lines | ~29 |
+| 13:42 | Edited aiPlans/tmp/herb-evidence-20261024/preview.py | 5→3 lines | ~57 |
+| 13:49 | Created aiPlans/tmp/investigate-ollama-classification.py | — | ~2581 |
+| 13:59 | Edited src/backend/ai/herb_positive_repository.py | modified fetchall() | ~220 |
+| 13:59 | Edited src/backend/ai/herb_association_classification.py | modified serialize_batch() | ~172 |
+| 13:59 | Edited src/scripts/positive_herb_ranking.py | expanded (+7 lines) | ~184 |
+| 13:59 | Edited src/backend/ai/prompts/herb_association_classification_system.md | 1→4 lines | ~63 |
+| 13:59 | Edited README.md | 1→6 lines | ~133 |
+| 14:00 | Edited src/tests/unit/ai/test_build_hybrid_index.py | expanded (+15 lines) | ~212 |
+| 14:01 | Edited src/tests/integration/test_herbs_index.py | 2→4 lines | ~81 |
+
+## Session: 2026-10-24 14:06
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 14:07 | Edited aiPlans/tmp/benchmark-condition-synonyms.py | 1→2 lines | ~24 |
+| 14:10 | Edited aiPlans/tmp/report-condition-synonyms.py | added 1 import(s) | ~44 |
+| 14:19 | Created src/backend/ai/herb_association_scope.py | — | ~1406 |
+| 14:20 | Edited src/backend/ai/herb_association_classification.py | 1→4 lines | ~50 |
+| 14:20 | Edited src/scripts/positive_herb_ranking.py | 1→3 lines | ~73 |
+| 14:23 | Edited src/backend/ai/herb_association_classification.py | inline fix | ~10 |
+| 14:23 | Edited src/backend/ai/herb_association_scope.py | 4→8 lines | ~116 |
+| 14:23 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 5→4 lines | ~64 |
+| 14:25 | Edited src/backend/ai/herb_association_scope.py | expanded (+9 lines) | ~221 |
+| 14:27 | Edited src/backend/ai/herb_association_scope.py | modified enumerate() | ~136 |
+| 14:35 | Edited src/tests/unit/ai/test_build_hybrid_index.py | expanded (+13 lines) | ~206 |
+| 15:49 | Edited src/scripts/positive_herb_ranking.py | expanded (+6 lines) | ~114 |
+| 15:49 | Edited README.md | 1→3 lines | ~52 |
+| 15:50 | Edited src/scripts/positive_herb_ranking.py | 2→2 lines | ~30 |
+| 15:50 | Edited README.md | 2→2 lines | ~46 |
+| 23:51 | Session end: 59 writes across 20 files (compare-ranking-context.py, report-ranking-context.py, summarize-simple-prompts.py, README.md, herb_association_classification_system.md) | 0 reads | ~25366 tok |
+| 00:08 | Edited src/backend/ai/prompts/herb_association_classification_system.md | 3→5 lines | ~166 |
+| 00:08 | Edited aiPlans/tmp/probe-whole-fragment-v8.py | "aiPlans/tmp/whole-fragmen" → "aiPlans/tmp/whole-fragmen" | ~18 |
+| 00:10 | Edited README.md | 10→8 lines | ~177 |
+| 00:10 | Edited src/backend/ai/prompts/herb_association_classification_system.md | 1→4 lines | ~84 |
+| 00:10 | Edited src/backend/ai/prompts/herb_association_classification_system.md | 4→1 lines | ~82 |
+| 00:16 | Edited aiPlans/tmp/benchmark-local-condition-scope.py | modified verify_payload() | ~722 |
+| 00:31 | Edited src/backend/ai/herb_association_scope.py | modified __init__() | ~366 |
+| 00:31 | Edited src/backend/ai/prompts/herb_association_classification_system.md | 1→2 lines | ~97 |
+| 00:31 | Edited README.md | expanded (+6 lines) | ~194 |
+| 00:36 | Edited src/backend/ai/prompts/herb_association_classification_system.md | 2→2 lines | ~181 |
+| 00:38 | Edited README.md | 3→6 lines | ~124 |
+| 00:42 | Edited src/backend/ai/herb_association_scope.py | modified compile() | ~137 |
+| 00:42 | Edited src/backend/ai/herb_association_rules.py | modified normalize_herb_name() | ~129 |
+| 00:42 | Edited README.md | 5→9 lines | ~190 |
+| 00:48 | Edited src/backend/ai/herb_association_rules.py | added 1 condition(s) | ~107 |
+| 00:49 | Edited aiPlans/tmp/probe-whole-fragment-v8.py | 2→7 lines | ~63 |
+| 00:51 | Edited src/backend/ai/herb_association_rules.py | 3→3 lines | ~47 |
+| 01:00 | Edited src/backend/ai/herb_association_classification.py | modified verified_recommendation() | ~435 |
+| 01:00 | Edited src/scripts/positive_herb_ranking.py | modified any() | ~126 |
+| 01:01 | Edited aiPlans/tmp/probe-whole-fragment-v8.py | expanded (+9 lines) | ~155 |
+| 01:01 | Edited README.md | 3→6 lines | ~134 |
+| 01:06 | Created aiPlans/tmp/association-optimization-20261025/make-report.py | — | ~3935 |
+
+## Session: 2026-10-25 06:32
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 06:40 | Created aiPlans/tmp/benchmark-herb-associations.py | — | ~4573 |
+
+## Session: 2026-10-25 06:42
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-10-25 06:42
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 06:50 | Edited aiPlans/tmp/benchmark-herb-associations.py | modified request_hook() | ~725 |
+| 07:08 | Edited src/backend/config.py | 2→2 lines | ~40 |
+| 07:08 | Edited docker-compose.yaml | inline fix | ~21 |
+| 07:08 | Edited README.md | inline fix | ~31 |
+| 07:49 | Edited src/scripts/positive_herb_ranking.py | modified _format_duration() | ~207 |
+| 07:49 | Edited README.md | 2→3 lines | ~60 |
+| 07:53 | Edited src/scripts/positive_herb_ranking.py | modified refresh_positive_ranking() | ~377 |
+| 07:53 | Edited README.md | expanded (+7 lines) | ~185 |
+| 07:53 | Edited src/tests/unit/ai/test_build_hybrid_index.py | expanded (+14 lines) | ~352 |
+| 08:12 | Edited aiPlans/tmp/benchmark-frozen-concurrency.py | modified save() | ~1828 |
+| 08:14 | Edited aiPlans/tmp/benchmark-frozen-concurrency.py | — | ~0 |
+| 08:15 | Created aiPlans/tmp/gemma3-vs-qwen1-20261025/README.md | — | ~767 |
