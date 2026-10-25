@@ -61,7 +61,7 @@ the behavior by purpose; compact_document() defines the execution order.
    Repetition alone does not justify removing arbitrary content.
 
 8. **Correct Romanian spelling automatically** — use the bundled ro_RO.dic
-   and ro_RO.aff plus cleaned-corpus frequencies to join OCR fragments, split
+   and ro_RO.aff plus cleaned-corpus frequencies to join two unknown OCR fragments, split
    glued words, fix qualifying rare typos and modernize old orthography.
    Documents classified as English or mixed retain their spelling. Corrections
    are recorded in --spelling-report using line numbers in the cleaned text.
@@ -72,11 +72,13 @@ but still writes the spelling TSV report. Cleaning and spelling correction are
 heuristic transformations; the numeric check below does not validate medical
 meaning or guarantee preservation of all medically relevant text.
 
-Diacritics are folded *first*, before repeated lines are counted: folding makes
-lines that differed only by diacritics identical, so counting before folding
-would need a second pass to reach a fixed point. Running the script twice
-changes nothing for compaction (verified on the whole corpus). Spelling correction
-uses corpus statistics, which can change between runs.
+Diacritics are folded before repeated lines are counted. The complete pipeline
+is planned in memory until a pass, including recalculated corpus statistics,
+changes nothing. Only that stable result is written. Cycles or failure to reach
+stability abort before any source writes. Repeating a successful run with the
+same corpus, dictionary and options leaves document bytes and timestamps unchanged.
+The spelling TSV includes the planning pass; line numbers refer to the compacted
+text in that pass, before later passes may remove lines.
 
 **Numbers must be preserved or accounted for by permitted removals** —
 ``check_digit_invariant()`` requires every number present before cleaning to
@@ -102,16 +104,18 @@ import argparse
 import codecs
 import collections
 import csv
+import hashlib
 import re
 import sys
 from contextlib import ExitStack
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Sequence
 
 _FALLBACK_ENCODINGS = ("utf-8", "cp1250", "cp1252")
 HUNSPELL_DIR = Path(__file__).resolve().parent / "dictionaires" / "ro"
 DEFAULT_SPELLING_REPORT = Path(__file__).resolve().parents[2] / "var" / "spelling_changes.tsv"
+_MAX_CLEANING_PASSES = 16
 
 # ---- Shared constants for the compaction rules ----
 
@@ -360,14 +364,14 @@ def _read(path: Path) -> tuple[str, str]:
     elif raw.startswith((codecs.BOM_UTF16_LE, codecs.BOM_UTF16_BE)):
         decoded, encoding = raw.decode("utf-16"), "utf-16"
     else:
-        decoded, encoding = None, None
         for candidate in _FALLBACK_ENCODINGS:
             try:
-                decoded, encoding = raw.decode(candidate), candidate
-                break
+                decoded = raw.decode(candidate)
             except UnicodeDecodeError:
                 continue
-        if decoded is None:
+            encoding = candidate
+            break
+        else:
             decoded, encoding = raw.decode("utf-8", errors="replace"), "utf-8"
     normalized = decoded.replace("\r\n", "\n").replace("\r", "\n")
     return normalized, encoding
@@ -583,7 +587,11 @@ def strip_furniture_sections(text: str) -> tuple[str, list[Removed]]:
         line = lines[index]
         heading = _HEADING_RE.match(line)
         kind = furniture_kind(line) if heading else None
-        if kind is not None and not _MIXED_HEADING_RE.search(heading.group(2)):
+        if (
+            heading is not None
+            and kind is not None
+            and not _MIXED_HEADING_RE.search(heading.group(2))
+        ):
             end = section_end(lines, index, len(heading.group(1)))
             block = lines[index:end]
             if is_furniture_section(block, offset / total_chars, kind):
@@ -1014,11 +1022,11 @@ class Fixer:
         self,
         dictionary: set[str],
         common: set[str],
-        counts: collections.Counter,
-        bigrams: collections.Counter,
+        counts: collections.Counter[str],
+        bigrams: collections.Counter[tuple[str, str]],
         *,
         spellings: dict[str, str] | None = None,
-    ):
+    ) -> None:
         self.dict = dictionary
         self.common = common
         self.counts = counts
@@ -1033,9 +1041,9 @@ class Fixer:
     # -- rule 1 -------------------------------------------------------------
     def _is_nonword(self, frag: str) -> bool:
         low = fold(frag)
-        if len(low) == 1:
-            return low not in "aoi"
-        return low not in self.dict
+        return (
+            len(low) > 1 and low not in self.dict and low not in FUNCTION_WORDS and low not in KEEP
+        )
 
     def join_pair(self, left: str, right: str) -> str | None:
         if right.isupper() and len(right) == 1:
@@ -1051,15 +1059,17 @@ class Fixer:
         low = fold(joined)
         if len(low) < 5 or not (low in self.common or (left.istitle() and low in self.dict)):
             return None
-        if not (self._is_nonword(left) or self._is_nonword(right)):
+        # A missing dictionary entry is not proof of an OCR fragment: "tumora la"
+        # and "pieptul e" must never consume a complete word or a preposition.
+        if not (self._is_nonword(left) and self._is_nonword(right)):
             return None
         pair = self.bigrams.get((fold(left), fold(right)), 0)
         if pair >= 3 and pair * 2 >= self.counts.get(low, 0):
             return None
         return joined
 
-    def join_line(self, line: str) -> tuple[str, list]:
-        changes: list = []
+    def join_line(self, line: str) -> tuple[str, list[tuple[str, str, str]]]:
+        changes: list[tuple[str, str, str]] = []
         for _ in range(4):
             tokens = list(TOKEN.finditer(line))
             out: list[str] = []
@@ -1101,7 +1111,7 @@ class Fixer:
         if len(low) < 8 or low in self.dict or low in KEEP or self.counts.get(low, 0) > 3:
             return None
         best: list[str] | None = None
-        best_score = 0
+        best_score = 0.0
         n = len(low)
         for i in range(2, n - 1):
             left, rest = low[:i], low[i:]
@@ -1180,10 +1190,10 @@ class Fixer:
         }
         return good.pop() if len(good) == 1 else None
 
-    def fix_tokens(self, line: str):
-        changes: list = []
+    def fix_tokens(self, line: str) -> tuple[str, list[tuple[str, str, str]]]:
+        changes: list[tuple[str, str, str]] = []
 
-        def repl(match: re.Match) -> str:
+        def repl(match: re.Match[str]) -> str:
             tok = match.group()
             low = fold(tok)
             if (
@@ -1212,7 +1222,7 @@ class Fixer:
 
         return TOKEN.sub(repl, line), changes
 
-    def fix_line(self, line: str):
+    def fix_line(self, line: str) -> tuple[str, list[tuple[str, str, str]]]:
         if SKIP_LINE.search(line):
             return line, []
         line, c1 = self.join_line(line)
@@ -1292,6 +1302,106 @@ def _write(path: Path, cleaned: str, encoding: str) -> None:
     path.write_bytes(payload)
 
 
+@dataclass
+class _SourceDocument:
+    path: Path
+    original: str
+    encoding: str
+    cleaned: str
+    removals: list[Removed] = field(default_factory=list)
+    corrections: list[tuple[int, int, str, str, str]] = field(default_factory=list)
+    missing: list[str] = field(default_factory=list)
+
+    def skip(self, missing: list[str]) -> None:
+        self.cleaned = self.original
+        self.removals.clear()
+        self.corrections.clear()
+        self.missing = missing
+
+
+def _corpus_state(documents: Sequence[_SourceDocument]) -> tuple[tuple[bytes, bool], ...]:
+    return tuple(
+        (hashlib.sha256(doc.cleaned.encode("utf-8")).digest(), bool(doc.missing))
+        for doc in documents
+    )
+
+
+# Recompute statistics from the planned output until another complete run is a
+# no-op. Planning must finish before writing even the first source document.
+def _stabilize_corpus(
+    documents: Sequence[_SourceDocument],
+    dictionary: set[str],
+    common: set[str],
+    *,
+    fold_diacritics_to_ascii: bool,
+    spellings: dict[str, str],
+) -> None:
+    state = _corpus_state(documents)
+    seen: set[tuple[tuple[bytes, bool], ...]] = set()
+    for iteration in range(1, _MAX_CLEANING_PASSES + 1):
+        if state in seen:
+            raise RuntimeError("Cleaning cycle detected; no source documents were written")
+        seen.add(state)
+        counts: collections.Counter[str] = collections.Counter()
+        bigrams: collections.Counter[tuple[str, str]] = collections.Counter()
+        romanian: list[_SourceDocument] = []
+        for doc in documents:
+            if doc.missing:
+                continue
+            cleaned, removals = compact_document(
+                doc.cleaned,
+                stem=doc.path.stem,
+                fold_diacritics_to_ascii=fold_diacritics_to_ascii,
+            )
+            doc.removals.extend(removals)
+            missing = check_digit_invariant(doc.original, cleaned, doc.removals)
+            if missing:
+                doc.skip(missing)
+                continue
+            doc.cleaned = cleaned
+            if detect_language(cleaned) != "ro":
+                continue
+            romanian.append(doc)
+            for line in cleaned.splitlines():
+                words = [fold(word) for word in WORD.findall(line)]
+                counts.update(words)
+                bigrams.update(zip(words, words[1:]))
+        if iteration == 1:
+            print(
+                f"Spelling dictionary: {len(dictionary):,} forms; Romanian files: {len(romanian)}",
+                flush=True,
+            )
+        fixer = Fixer(
+            dictionary,
+            common,
+            counts,
+            bigrams,
+            spellings=None if fold_diacritics_to_ascii else spellings,
+        )
+        for doc in romanian:
+            fixed_lines: list[str] = []
+            for number, line in enumerate(doc.cleaned.split("\n"), 1):
+                fixed, changes = fixer.fix_line(line)
+                fixed_lines.append(fixed)
+                doc.corrections.extend(
+                    (iteration, number, rule, before, after) for rule, before, after in changes
+                )
+            doc.cleaned = "\n".join(fixed_lines)
+            missing = check_digit_invariant(doc.original, doc.cleaned, doc.removals)
+            if missing:
+                doc.skip(missing)
+        next_state = _corpus_state(documents)
+        changed = sum(before != after for before, after in zip(state, next_state))
+        print(f"Planning pass {iteration}: {changed} document(s) changed", flush=True)
+        if next_state == state:
+            return
+        state = next_state
+    raise RuntimeError(
+        f"Cleaning did not stabilize after {_MAX_CLEANING_PASSES} passes; "
+        "no source documents were written"
+    )
+
+
 def clean_documents(
     source: Path,
     *,
@@ -1303,7 +1413,8 @@ def clean_documents(
 
     The dictionary is loaded from ``dictionaires/ro`` beside this script.
     A TSV report is written even in dry-run mode; document bytes and timestamps
-    remain unchanged then. Missing dictionaries fail before any source writes.
+    remain unchanged then. Missing dictionaries and non-convergent plans fail
+    before any source writes.
 
     Returns the number of files that changed. Raises DigitInvariantError when a
     file would have lost a number no whitelisted rule accounts for; that file is
@@ -1327,33 +1438,16 @@ def clean_documents(
         hunspell_dir / "ro_RO.aff",
     } or (spelling_report.is_relative_to(source) and spelling_report.suffix.lower() == ".md"):
         raise ValueError("The spelling report must not overwrite a source document or dictionary")
-    counts: collections.Counter[str] = collections.Counter()
-    bigrams: collections.Counter[tuple[str, str]] = collections.Counter()
-    romanian_files = 0
-    # Build statistics before any writes. Both dry-run and apply use exactly
-    # the same compacted corpus, with the same decoding and folding options.
+    documents: list[_SourceDocument] = []
     for path in paths:
-        decoded, _ = _read(path)
-        cleaned, removals = compact_document(
-            decoded, stem=path.stem, fold_diacritics_to_ascii=fold_diacritics_to_ascii
-        )
-        if detect_language(cleaned) != "ro" or check_digit_invariant(decoded, cleaned, removals):
-            continue
-        romanian_files += 1
-        for line in cleaned.splitlines():
-            words = [fold(word) for word in WORD.findall(line)]
-            counts.update(words)
-            bigrams.update(zip(words, words[1:]))
-    fixer = Fixer(
+        decoded, encoding = _read(path)
+        documents.append(_SourceDocument(path, decoded, encoding, decoded))
+    _stabilize_corpus(
+        documents,
         dictionary,
         common,
-        counts,
-        bigrams,
-        spellings=None if fold_diacritics_to_ascii else spellings,
-    )
-    print(
-        f"Spelling dictionary: {len(dictionary):,} forms; Romanian files: {romanian_files}",
-        flush=True,
+        fold_diacritics_to_ascii=fold_diacritics_to_ascii,
+        spellings=spellings,
     )
     changed = 0
     violations: list[tuple[str, list[str]]] = []
@@ -1366,48 +1460,32 @@ def clean_documents(
         spelling_report.parent.mkdir(parents=True, exist_ok=True)
         report_handle = stack.enter_context(spelling_report.open("w", encoding="utf-8", newline=""))
         report_writer = csv.writer(report_handle, delimiter="\t", lineterminator="\n")
-        report_writer.writerow(("file", "line", "rule", "before", "after"))
-        for path in paths:
-            decoded, encoding = _read(path)
-            cleaned, removals = compact_document(
-                decoded, stem=path.stem, fold_diacritics_to_ascii=fold_diacritics_to_ascii
-            )
-            corrections: list[tuple[int, str, str, str]] = []
-            if detect_language(cleaned) == "ro":
-                fixed_lines: list[str] = []
-                for number, line in enumerate(cleaned.split("\n"), 1):
-                    fixed, changes = fixer.fix_line(line)
-                    fixed_lines.append(fixed)
-                    corrections.extend(
-                        (number, rule, before, after) for rule, before, after in changes
-                    )
-                cleaned = "\n".join(fixed_lines)
-            missing = check_digit_invariant(decoded, cleaned, removals)
-            if missing:
-                relative = path.relative_to(source).as_posix()
-                violations.append((relative, missing))
+        report_writer.writerow(("file", "line", "rule", "before", "after", "pass"))
+        for doc in documents:
+            relative = doc.path.relative_to(source).as_posix()
+            if doc.missing:
+                violations.append((relative, doc.missing))
                 print(
-                    f"Skipped, digit invariant: {relative} (missing {', '.join(missing)})",
+                    f"Skipped, digit invariant: {relative} (missing {', '.join(doc.missing)})",
                     flush=True,
                 )
                 continue
-            if cleaned == decoded:
+            if doc.cleaned == doc.original:
                 continue
 
             changed += 1
-            characters_before += len(decoded)
-            characters_after += len(cleaned)
-            for removal in removals:
+            characters_before += len(doc.original)
+            characters_after += len(doc.cleaned)
+            for removal in doc.removals:
                 removed_by_rule[removal.rule] += len(removal.text) + 1
 
-            relative = path.relative_to(source).as_posix()
             print(f"{'Would clean' if dry_run else 'Cleaning'}: {relative}", flush=True)
             if not dry_run:
-                _write(path, cleaned, encoding)
+                _write(doc.path, doc.cleaned, doc.encoding)
 
-            for number, rule, before, after in corrections:
+            for iteration, number, rule, before, after in doc.corrections:
                 spelling_totals[rule] += 1
-                report_writer.writerow((relative, number, rule, before, after))
+                report_writer.writerow((relative, number, rule, before, after, iteration))
 
     verb = "Would rewrite" if dry_run else "Rewrote"
     print(f"{verb} {changed}/{len(paths)} files", flush=True)
@@ -1430,7 +1508,7 @@ def clean_documents(
     print(
         f"Spelling corrections: {sum(spelling_totals.values())} {dict(spelling_totals)}", flush=True
     )
-    print(f"Spelling report: {spelling_report} (lines in compacted text)", flush=True)
+    print(f"Spelling report: {spelling_report} (lines in each planning pass)", flush=True)
     if violations:
         raise DigitInvariantError(violations)
     return changed
@@ -1472,8 +1550,10 @@ def main() -> int:
     # console with a legacy code page, printing it raised UnicodeEncodeError and
     # aborted the run halfway through, leaving the corpus half-cleaned. Same fix
     # as in extract_pdf_markdown.py.
-    sys.stdout.reconfigure(encoding="utf-8")
-    sys.stderr.reconfigure(encoding="utf-8")
+    for stream in (sys.stdout, sys.stderr):
+        reconfigure = getattr(stream, "reconfigure", None)
+        if reconfigure is not None:
+            reconfigure(encoding="utf-8")
     arguments = parse_args()
     try:
         clean_documents(

@@ -32,6 +32,14 @@ class DocumentSpellingTests(unittest.TestCase):
             "si",
             "cu",
             "din",
+            "la",
+            "e",
+            "tumorală",
+            "pieptul",
+            "pieptule",
+            "primul",
+            "primule",
+            "imunitatii",
         ]
         (self.dictionary / "ro_RO.dic").write_text(
             str(len(words)) + "\n" + "\n".join(words) + "\n", encoding="utf-8"
@@ -66,12 +74,14 @@ class DocumentSpellingTests(unittest.TestCase):
         path = self.write(
             "nested/target.md",
             "### Pagina 9\nSe ia pen tru [tratam ent](https://x.ro) si mediicament "
-            "dintratament cind este nevoie de 500 mg si 10 picaturi.\n",
+            "dintratament cind este nevoie de 500 mg si 10 picaturi.\n"
+            "Tumora la san; pieptul e sensibil, primul e bun.\n",
         )
         self.clean()
         self.assertEqual(
             path.read_text(encoding="utf-8"),
-            "Se ia pentru tratament si medicament din tratament cand este nevoie de 500 mg si 10 picaturi.\n",
+            "Se ia pentru tratament si medicament din tratament cand este nevoie de 500 mg si 10 picaturi.\n"
+            "Tumora la san; pieptul e sensibil, primul e bun.\n",
         )
         rows = self.rows()
         self.assertEqual({row["rule"] for row in rows}, {"join", "split", "typo", "orthography"})
@@ -93,6 +103,16 @@ class DocumentSpellingTests(unittest.TestCase):
         self.assertEqual(self.clean(), predicted)
         self.assertEqual(self.rows(), preview)
         self.assertIn("medicament", path.read_text(encoding="utf-8"))
+        applied = {
+            item: (item.read_bytes(), item.stat().st_mtime_ns) for item in self.source.rglob("*.md")
+        }
+        self.assertEqual(self.clean(dry_run=True), 0)
+        self.assertEqual(self.rows(), [])
+        self.assertEqual(self.clean(), 0)
+        self.assertEqual(
+            applied,
+            {item: (item.read_bytes(), item.stat().st_mtime_ns) for item in applied},
+        )
 
     def test_keeps_diacritics_and_uses_dictionary_spelling_for_corrections(self):
         path = self.write("target.md", "Se ia sunaatoare cu sunătoare si tratament de 500 mg.\n")
@@ -145,6 +165,18 @@ class DocumentSpellingTests(unittest.TestCase):
         path = self.write("target.md", text)
         self.clean()
         self.assertEqual(path.read_text(encoding="utf-8"), text)
+
+        # A join raises the candidate frequency from 99 to 100; the dependent
+        # typo must be resolved in this invocation, not in the next invocation.
+        self.write("threshold.md", "si imunitatii\n" * 99)
+        cascade = self.write("cascade.md", "si imu nitatii\nsi imnitatii\n")
+        self.clean()
+        self.assertEqual(cascade.read_text(encoding="utf-8"), "si imunitatii\nsi imunitatii\n")
+        self.assertEqual(path.read_text(encoding="utf-8"), text)
+        self.assertEqual({row["pass"] for row in self.rows()}, {"1", "2"})
+        original = (cascade.read_bytes(), cascade.stat().st_mtime_ns)
+        self.assertEqual(self.clean(), 0)
+        self.assertEqual(original, (cascade.read_bytes(), cascade.stat().st_mtime_ns))
 
     def test_missing_dictionary_fails_before_any_source_writes(self):
         path = self.write("target.md", "Se ia [tratament](https://x.ro) cu medicament.\n")

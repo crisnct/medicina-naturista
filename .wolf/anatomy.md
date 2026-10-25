@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-25T06:15:58.155Z
-> Files: 132 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-25T19:09:37.487Z
+> Files: 136 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -11,7 +11,7 @@
 
 - `docker-compose.yaml` — Docker Compose: 4 services (~2178 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~30237 tok)
+- `README.md` — Project documentation (~30482 tok)
 
 ## .claude/agents/
 
@@ -47,6 +47,7 @@
 - `2026-10-21-topuri-recomandari-pozitive-fara-contraindicatii.md` — Topuri bazate pe recomandări pozitive din surse (~8284 tok)
 - `2026-10-22-algoritm-structural-topuri.md` — Algoritm structural pentru topuri: context, roluri si restrictii (~1324 tok)
 - `2026-10-22-calibrare-prompturi-topuri.md` — Calibrarea prompturilor pentru topurile pozitive (~1495 tok)
+- `2026-10-25-clean-documents-stable.md` — Stable document cleaning (~527 tok)
 
 ## aiPlans/tmp/
 
@@ -93,6 +94,7 @@
 ## aiPlans/tmp/gemma3-vs-qwen1-20261025/
 
 - `README.md` — Project documentation (~719 tok)
+- `write-report.py` — Audit completed frozen-sample experiments and write a reproducible comparison. (~3996 tok)
 
 ## aiPlans/tmp/herb-evidence-20261024/
 
@@ -206,6 +208,7 @@
 ## src/scripts/
 
 - `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~17022 tok)
+- `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~18728 tok)
 - `manage_texts.py` — Export public copy and regenerate key/parameter metadata, never a second editable catalog. (~783 tok)
 - `positive_herb_ranking.py` — Explicit, resumable positive-ranking stages used by the existing index CLI. (~3288 tok)
 - `set_gpu_clock.bat` (~827 tok)
@@ -225,6 +228,7 @@
 ## src/tests/unit/ai/
 
 - `test_build_hybrid_index.py` — FakeClock: make_chunk, embed, fake_embed, test_normalize_text_preserves_composed_romanian_diacritics (~16660 tok)
+- `test_document_spelling.py` — DocumentSpellingTests: setUp, write, clean, rows + 17 more (~3256 tok)
 - `test_message_classification.py` — Strict intent contract and local Ollama wiring; no external traffic. (~5461 tok)
 
 ## src/tests/unit/core/

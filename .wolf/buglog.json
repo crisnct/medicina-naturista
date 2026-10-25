@@ -3091,6 +3091,114 @@
       "last_seen": "2026-10-25T06:12:51.612Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of clean_documents.py",
+      "file": "src/scripts/clean_documents.py",
+      "root_cause": "20 lines replaced/restructured",
+      "fix": "Rewrote 25→29 lines (20 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-173",
+      "timestamp": "2026-10-25T18:53:38.632Z",
+      "last_seen": "2026-10-25T18:53:38.632Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of clean_documents.py",
+      "file": "src/scripts/clean_documents.py",
+      "root_cause": "30 lines replaced/restructured",
+      "fix": "Rewrote 75→143 lines (30 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-174",
+      "timestamp": "2026-10-25T18:54:25.661Z",
+      "last_seen": "2026-10-25T18:54:25.661Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/scripts/clean_documents.py",
+      "root_cause": "Was returning: len(low) > 1 and low not in self.dict and low not ",
+      "fix": "Now returns: (",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-175",
+      "timestamp": "2026-10-25T18:55:40.214Z",
+      "last_seen": "2026-10-25T18:55:40.214Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_document_spelling.py",
+      "file": "src/tests/unit/ai/test_document_spelling.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 7→40 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-176",
+      "timestamp": "2026-10-25T18:55:40.493Z",
+      "last_seen": "2026-10-25T18:55:40.493Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_document_spelling.py",
+      "file": "src/tests/unit/ai/test_document_spelling.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 4→3 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-177",
+      "timestamp": "2026-10-25T18:57:02.617Z",
+      "last_seen": "2026-10-25T18:57:02.617Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of clean_documents.py",
+      "file": "src/scripts/clean_documents.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 4→6 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-178",
+      "timestamp": "2026-10-25T19:01:30.775Z",
+      "last_seen": "2026-10-25T19:01:30.775Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -3267,7 +3375,13 @@
     "583d8577-11d1-45bf-8618-1af79f3b6e35": true,
     "54b21400-eb66-4e6d-970c-a212dfcbdf70": true,
     "314bf34a-42aa-4cdd-aa52-6d926e2a734a": true,
-    "563a8241-1b5a-47f7-ac8b-2a02d551c4c1": true
+    "563a8241-1b5a-47f7-ac8b-2a02d551c4c1": true,
+    "5ec7a6e4-b828-4e9b-801d-9d6909152525": true,
+    "22cc626a-b5a3-468d-b6ee-7a60be579d50": true,
+    "88e3946a-d02e-4fff-924d-22b75dba6290": true,
+    "2d67cc55-a902-4fc5-be4f-350fc37dfa5d": true,
+    "2b39f1e0-c087-4b1a-8f9e-434655f19d80": true,
+    "7dd0b74b-0991-495e-9da4-59f3f2154fe0": true
   },
-  "next_id": 173
+  "next_id": 179
 }

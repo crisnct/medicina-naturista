@@ -802,3 +802,30 @@ description: chronological action log per session, consolidated weekly
 | 08:12 | Edited aiPlans/tmp/benchmark-frozen-concurrency.py | modified save() | ~1828 |
 | 08:14 | Edited aiPlans/tmp/benchmark-frozen-concurrency.py | — | ~0 |
 | 08:15 | Created aiPlans/tmp/gemma3-vs-qwen1-20261025/README.md | — | ~767 |
+
+## Session: 2026-10-25 20:08
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 20:25 | Created aiPlans/tmp/gemma3-vs-qwen1-20261025/write-report.py | — | ~3995 |
+
+## Session: 2026-10-25 20:40
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-10-25 20:40
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 20:53 | Created aiPlans/2026-10-25-clean-documents-stable.md | — | ~240 |
+| 20:53 | Edited src/scripts/clean_documents.py | modified _is_nonword() | ~486 |
+| 20:54 | Edited src/scripts/clean_documents.py | modified _write() | ~1578 |
+| 20:55 | Edited src/scripts/clean_documents.py | modified _is_nonword() | ~67 |
+| 20:55 | Edited src/tests/unit/ai/test_document_spelling.py | modified test_frequent_unknown_words_are_not_replaced() | ~576 |
+| 20:55 | Edited README.md | 1→3 lines | ~454 |
+| 20:57 | Edited src/tests/unit/ai/test_document_spelling.py | 4→3 lines | ~31 |
+| 21:01 | Edited src/scripts/clean_documents.py | modified in() | ~73 |
+| 21:01 | Edited src/scripts/clean_documents.py | inline fix | ~30 |
+| 21:02 | Edited src/scripts/clean_documents.py | 12→12 lines | ~131 |
+| 21:09 | Edited aiPlans/2026-10-25-clean-documents-stable.md | expanded (+10 lines) | ~357 |

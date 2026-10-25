@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-25T06:15:58.155Z",
-    "fileCount": 132,
+    "lastScanned": "2026-10-25T19:09:37.487Z",
+    "fileCount": 136,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "76e42b50787ab921592443c9ebe2c1170dfd6b4f29f9a3483dc8dce650d9578b",
-    "storeUpdatedAt": "2026-10-25T06:15:58.164Z",
-    "rootHash": "3e83f862e66703b5"
+    "renderedHash": "96c74acf5043a71307b4026ed479ceeb605568c821b4c13b04274f46723503cf",
+    "storeUpdatedAt": "2026-10-25T19:09:37.496Z",
+    "rootHash": "2a4a8fc0be8c23d0"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -812,11 +812,11 @@
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 30237,
-      "hash": "06cded28bfff8616",
-      "size": 126004,
-      "mtimeMs": 1792907589324.123,
-      "updatedAt": "2026-10-25T05:53:10.113Z",
+      "tokens": 30482,
+      "hash": "4a05e5885e9a666f",
+      "size": 127039,
+      "mtimeMs": 1792954539692.7703,
+      "updatedAt": "2026-10-25T18:55:40.757Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -4286,6 +4286,307 @@
       "mtimeMs": 1792908957705.7808,
       "updatedAt": "2026-10-25T06:15:58.154Z",
       "source": "hook"
+    },
+    "aiPlans/tmp/gemma3-vs-qwen1-20261025/write-report.py": {
+      "description": "Audit completed frozen-sample experiments and write a reproducible comparison.",
+      "tokens": 3996,
+      "hash": "8169839f8fb441d4",
+      "size": 13983,
+      "mtimeMs": 1792952702807.576,
+      "updatedAt": "2026-10-25T18:25:03.353Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "read",
+          "kind": "fn",
+          "startLine": 22,
+          "endLine": 25,
+          "tokens": 23
+        },
+        {
+          "name": "save",
+          "kind": "fn",
+          "startLine": 26,
+          "endLine": 29,
+          "tokens": 38
+        },
+        {
+          "name": "clock",
+          "kind": "fn",
+          "startLine": 30,
+          "endLine": 34,
+          "tokens": 40
+        },
+        {
+          "name": "normalized_request",
+          "kind": "fn",
+          "startLine": 35,
+          "endLine": 42,
+          "tokens": 57
+        },
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 43,
+          "endLine": 256,
+          "tokens": 3680
+        }
+      ]
+    },
+    "aiPlans/2026-10-25-clean-documents-stable.md": {
+      "description": "Stable document cleaning",
+      "tokens": 527,
+      "hash": "df45d99c1f212150",
+      "size": 2107,
+      "mtimeMs": 1792955376988.7058,
+      "updatedAt": "2026-10-25T19:09:37.486Z",
+      "source": "hook"
+    },
+    "src/scripts/clean_documents.py": {
+      "description": "Rewrite Markdown source files in place so that the fragments sent to the AI",
+      "tokens": 18728,
+      "hash": "566c45e681c187c2",
+      "size": 65727,
+      "mtimeMs": 1792954933691.9338,
+      "updatedAt": "2026-10-25T19:02:14.585Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "Removed",
+          "kind": "class",
+          "startLine": 264,
+          "endLine": 270,
+          "tokens": 35
+        },
+        {
+          "name": "DigitInvariantError",
+          "kind": "class",
+          "startLine": 271,
+          "endLine": 333,
+          "tokens": 768
+        },
+        {
+          "name": "clean_text",
+          "kind": "fn",
+          "startLine": 334,
+          "endLine": 359,
+          "tokens": 315
+        },
+        {
+          "name": "_read",
+          "kind": "fn",
+          "startLine": 360,
+          "endLine": 385,
+          "tokens": 261
+        },
+        {
+          "name": "_drop_blank_head",
+          "kind": "fn",
+          "startLine": 386,
+          "endLine": 394,
+          "tokens": 112
+        },
+        {
+          "name": "_is_file_title",
+          "kind": "fn",
+          "startLine": 395,
+          "endLine": 405,
+          "tokens": 115
+        },
+        {
+          "name": "_drop_ocr_note",
+          "kind": "fn",
+          "startLine": 406,
+          "endLine": 424,
+          "tokens": 240
+        },
+        {
+          "name": "strip_extraction_metadata",
+          "kind": "fn",
+          "startLine": 425,
+          "endLine": 485,
+          "tokens": 732
+        },
+        {
+          "name": "strip_page_markers",
+          "kind": "fn",
+          "startLine": 486,
+          "endLine": 510,
+          "tokens": 252
+        },
+        {
+          "name": "collapse_blank_lines",
+          "kind": "fn",
+          "startLine": 511,
+          "endLine": 522,
+          "tokens": 128
+        },
+        {
+          "name": "fold_diacritics",
+          "kind": "fn",
+          "startLine": 523,
+          "endLine": 529,
+          "tokens": 90
+        },
+        {
+          "name": "section_end",
+          "kind": "fn",
+          "startLine": 530,
+          "endLine": 541,
+          "tokens": 107
+        },
+        {
+          "name": "furniture_kind",
+          "kind": "fn",
+          "startLine": 542,
+          "endLine": 551,
+          "tokens": 76
+        },
+        {
+          "name": "entry_density",
+          "kind": "fn",
+          "startLine": 552,
+          "endLine": 567,
+          "tokens": 236
+        },
+        {
+          "name": "is_furniture_section",
+          "kind": "fn",
+          "startLine": 568,
+          "endLine": 578,
+          "tokens": 139
+        },
+        {
+          "name": "strip_furniture_sections",
+          "kind": "fn",
+          "startLine": 579,
+          "endLine": 611,
+          "tokens": 369
+        },
+        {
+          "name": "strip_colophon_lines",
+          "kind": "fn",
+          "startLine": 612,
+          "endLine": 634,
+          "tokens": 318
+        },
+        {
+          "name": "_title_key",
+          "kind": "fn",
+          "startLine": 635,
+          "endLine": 647,
+          "tokens": 115
+        },
+        {
+          "name": "_document_titles",
+          "kind": "fn",
+          "startLine": 648,
+          "endLine": 657,
+          "tokens": 113
+        },
+        {
+          "name": "_is_running_header",
+          "kind": "fn",
+          "startLine": 658,
+          "endLine": 674,
+          "tokens": 209
+        },
+        {
+          "name": "strip_repeated_lines",
+          "kind": "fn",
+          "startLine": 675,
+          "endLine": 712,
+          "tokens": 361
+        },
+        {
+          "name": "_phone_digits",
+          "kind": "fn",
+          "startLine": 713,
+          "endLine": 720,
+          "tokens": 104
+        },
+        {
+          "name": "_looks_like_phone",
+          "kind": "fn",
+          "startLine": 721,
+          "endLine": 765,
+          "tokens": 567
+        },
+        {
+          "name": "_attached_label_spans",
+          "kind": "fn",
+          "startLine": 766,
+          "endLine": 783,
+          "tokens": 246
+        },
+        {
+          "name": "strip_contact_details",
+          "kind": "fn",
+          "startLine": 784,
+          "endLine": 833,
+          "tokens": 498
+        },
+        {
+          "name": "numbers",
+          "kind": "fn",
+          "startLine": 834,
+          "endLine": 841,
+          "tokens": 120
+        },
+        {
+          "name": "_line_drop_removals",
+          "kind": "fn",
+          "startLine": 842,
+          "endLine": 849,
+          "tokens": 133
+        },
+        {
+          "name": "_inline_link_removals",
+          "kind": "fn",
+          "startLine": 850,
+          "endLine": 863,
+          "tokens": 173
+        },
+        {
+          "name": "accounted_numbers",
+          "kind": "fn",
+          "startLine": 864,
+          "endLine": 872,
+          "tokens": 118
+        },
+        {
+          "name": "check_digit_invariant",
+          "kind": "fn",
+          "startLine": 873,
+          "endLine": 1576,
+          "tokens": 7838
+        }
+      ]
+    },
+    "src/tests/unit/ai/test_document_spelling.py": {
+      "description": "DocumentSpellingTests: setUp, write, clean, rows + 17 more",
+      "tokens": 3256,
+      "hash": "3204c334dc9b0e2f",
+      "size": 11406,
+      "mtimeMs": 1792954622145.0706,
+      "updatedAt": "2026-10-25T18:57:02.592Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "DocumentSpellingTests",
+          "kind": "class",
+          "startLine": 16,
+          "endLine": 257,
+          "tokens": 2957
+        },
+        {
+          "name": "SpellingCommandLineTests",
+          "kind": "class",
+          "startLine": 258,
+          "endLine": 273,
+          "tokens": 229
+        }
+      ]
     }
   },
   "preamble": [
