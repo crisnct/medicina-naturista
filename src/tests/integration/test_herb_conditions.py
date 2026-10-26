@@ -439,7 +439,16 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
         payload = json.loads(user)
         if any(c["herb_id"] == 1 for c in payload["candidates"]):
             assert len(next(c["mentions"] for c in payload["candidates"] if c["herb_id"] == 1)) == 2
-        return {"relations": {c["id"]: [0] for c in payload["candidates"]}}
+        return {
+            "relations": {
+                c["id"]: {
+                    "local_condition": c["condition"],
+                    "recommendation": c["herb_id"] == 3,
+                    "prohibition": c["herb_id"] == 3,
+                }
+                for c in payload["candidates"]
+            }
+        }
 
     client.complete_json.side_effect = classify_source
     with (
@@ -462,6 +471,49 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
             run_positive_ranking(config, publish=second["run_id"])
         assert run_positive_ranking(config, publish=first["run_id"])["status"] == "published"
         assert run_positive_ranking(config, analyze=True)["batches"] == 0
+    assert client.complete_json.call_count == 1
+    from backend.ai.herb_caution_repository import CautionRepository
+
+    warnings = lookup_herb_conditions("mentha aquatica")
+    assert warnings["contraindicationsCount"] == 1
+    assert warnings["contraindications"][0]["hasRecommendation"]
+    negative_page = lookup_herb_evidence(
+        warnings["herbId"],
+        warnings["positiveRunId"],
+        evidence_kind="contraindication",
+        caution_run_id=warnings["cautionRunId"],
+    )
+    assert {fragment["document"] for fragment in negative_page["fragments"]} == {
+        "negative.md",
+    }
+    with db.get_pool().connection() as connection:
+        assert connection.execute(
+            "SELECT DISTINCT e.warning_kind FROM herb_caution_evidence e JOIN chunks c USING(chunk_id) "
+            "WHERE e.run_id=%s AND c.source_relative_path='ambiguous.md'",
+            (warnings["cautionRunId"],),
+        ).fetchall() == [("unknown",)]
+    caution_repository = CautionRepository()
+    replay = caution_repository.prepare(warnings["positiveRunId"], config)
+    caution_repository.publish(replay["run_id"], config)
+    assert replay["ai_requests_sent_total"] == 0
+    assert client.complete_json.call_count == 1
+    assert lookup_herb_conditions("mentha aquatica")["contraindicationsCount"] == 1
+    with pytest.raises(ApplicationError) as stale_warning:
+        lookup_herb_evidence(
+            warnings["herbId"],
+            warnings["positiveRunId"],
+            evidence_kind="contraindication",
+            caution_run_id=warnings["cautionRunId"],
+        )
+    assert stale_warning.value.code == "HERB_EVIDENCE_STALE"
+    with db.get_pool().connection() as connection:
+        connection.execute("DELETE FROM herb_caution_cache")
+    historical_replay = caution_repository.prepare(warnings["positiveRunId"], config)
+    caution_repository.publish(historical_replay["run_id"], config)
+    recovered = lookup_herb_conditions("mentha aquatica")
+    assert recovered["contraindicationsCount"] == 1
+    assert recovered["contraindicationsStatus"] == "partial"
+    assert historical_replay["ai_requests_sent_total"] == 0
     assert client.complete_json.call_count == 1
     from dataclasses import replace
 

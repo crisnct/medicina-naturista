@@ -366,6 +366,59 @@ class ChunkingTests(unittest.TestCase):
             }
         }
         self.assertEqual(validate_response(valid, [work])[identifier].label, "positive")
+        from backend.ai.herb_caution_projection import (
+            corroborate_projection,
+            list_prohibition,
+            local_projection,
+            model_projections,
+        )
+
+        both = {"relations": {"r0": {**valid["relations"]["r0"], "prohibition": True}}}
+        dual_decisions = validate_response(both, [work])
+        self.assertEqual(dual_decisions[identifier].label, "positive")
+        warning = model_projections(both, [work], dual_decisions)[identifier]
+        self.assertEqual(warning.warning_kind, "prohibition")
+        self.assertTrue(warning.has_recommendation)
+        self.assertEqual(
+            corroborate_projection(
+                warning, local_projection(((negation, negation.candidates[0]),))
+            ).warning_kind,
+            "prohibition",
+        )
+        unrelated_bath = extract_units(
+            replace(
+                passage,
+                text="# Gastrita\nMenta este utila pentru recuperarea energiei.\n\nBaia fierbinte este contraindicata persoanelor cu diabet.\n",
+            ),
+            names,
+            conditions,
+        )
+        bath_group = group_fragment_works(
+            [(unit, candidate) for unit in unrelated_bath for candidate in unit.candidates],
+            {10: "Gastrita", 11: "Diabet"},
+        )[0]
+        self.assertEqual(
+            corroborate_projection(warning, local_projection(bath_group.originals)).warning_kind,
+            "unknown",
+        )
+        wrapped_avoidance = extract_units(
+            replace(passage, text="# Gastrita\nQ Nu consumati produse ca oua,\nmenta, zahar.\n"),
+            names,
+            (*conditions, ("zahar", (11,))),
+        )
+        avoidance_group = group_fragment_works(
+            [(unit, candidate) for unit in wrapped_avoidance for candidate in unit.candidates],
+            {10: "Gastrita", 11: "Diabet"},
+        )[0]
+        self.assertEqual(
+            list_prohibition(
+                avoidance_group.work, scope_catalog=scope_catalog, condition_name="Gastrita"
+            ).warning_kind,
+            "prohibition",
+        )
+        self.assertEqual(
+            local_projection(((units[1], units[1].candidates[0]),)).warning_kind, "prohibition"
+        )
         scoped_work = group_fragment_works(
             [(scoped[0], scoped[0].candidates[0])], {10: "Gastrita", 11: "Diabet"}
         )[0].work
@@ -408,6 +461,12 @@ class ChunkingTests(unittest.TestCase):
             validate_response(repeated_mixed, [work])
         self.assertEqual(
             validate_response(unclear, [work])[identifier], Decision("unclear", "model", "")
+        )
+        self.assertEqual(
+            model_projections(unclear, [work], validate_response(unclear, [work]))[
+                identifier
+            ].warning_kind,
+            "none",
         )
         config = Settings()
         semantic = semantic_config(config)

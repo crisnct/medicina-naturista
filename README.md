@@ -44,20 +44,67 @@ este folosit în antet, avatarele conversației, pictograma aplicației și rapo
 Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pentru cererile explicite și Ollama local `gemma3:1b` (`MEDICAL_CONDITION_AI_LOCAL_MODEL`) când este necesar. `POST /api/messages` afișează rapid mesajul și salvează contextul, apoi `POST /api/classify` selectează:
 
 - **Remedii:** rezolvarea afecțiunilor și căutarea existentă, cu identificare AI opțională.
-- **Planta/produsul:** nume/alias rezolvat în catalog și interogare SQL pe `herbs`, `herb_positive_pairs`, `medical_conditions`, pentru aceeași rulare publicată ca topurile și numai perechile `positive`. Numărul rezultatelor distincte apare deasupra listei și coincide cu scorul produsului din top. Atenționările, contraindicațiile și relațiile mixte sunt excluse; clasificarea surselor nu reprezintă validare clinică. O rulare lipsă sau incompatibilă produce aceeași eroare ca topurile, fără revenire la coaparițiile istorice.
-  Pentru orice intrare din `herbs`, indiferent de categorie sau formularea întrebării,
-  sub afecțiuni apare „Vezi fragmentele sursă — N fragmente din M documente”, închisă
-  inițial. La deschidere se încarcă 20 de fragmente integrale, cu filtrare după afecțiune
-  și „Încarcă mai multe”. Fiecare fragment apare o singură dată, cu toate afecțiunile
-  susținute, titlul, documentul și liniile sursă. Denumirea produsului/aliasurile sunt
-  evidențiate cu verde; afecțiunile asociate și sinonimele lor, cu galben, inclusiv în
-  titlu. Textul original este păstrat. Lista este destinată consultării surselor.
-  `GET /api/herb-evidence/{groupId}?conditionId=…&offset=…` citește exclusiv dovezi
-  `positive` pentru perechi `positive` din rularea răspunsului și este limitat la sesiunea
-  și tabul care dețin mesajul. Nu apelează AI și nu execută o nouă căutare hibridă.
+- **Planta/produsul:** numele/aliasul este rezolvat în catalog, apoi răspunsul arată
+  „utilă în N afecțiuni, interzisă în M afecțiuni”, cu două liste distincte. Utilizările
+  citesc aceleași perechi `positive` și aceeași rulare publicată ca topurile; numărul N
+  coincide cu rankingul produsului. Interdicțiile citesc perechile `herb_caution_pairs`
+  cu dovezi explicite `prohibition`, din rularea caution legată de acea rulare pozitivă;
+  M coincide cu `herb_caution_rankings.prohibition_ranking`. Precauțiile sunt păstrate
+  separat și nu sunt numărate ca interdicții. Interdicțiile cer o formulare explicită în
+  text despre produsul și afecțiunea respectivă; eticheta AI sau istorică `caution` nu este
+  suficientă. Recomandările singure nu apar în lista interdicțiilor. Clasificarea surselor
+  nu reprezintă validare clinică. O rulare pozitivă lipsă/incompatibilă produce aceeași eroare
+  ca topurile, fără revenire la coaparițiile istorice. Lipsa părții caution este afișată ca
+  indisponibilitate, iar informația istorică nerecuperabilă este marcată explicit ca parțială.
+  Pentru orice intrare din `herbs`, fiecare secțiune are numărul afecțiunilor în titlu.
+  Titlurile sunt mărite la 24 px; întregul text din secțiunea interdicțiilor, inclusiv
+  sursele, este roșu. Fiecare panou „Vezi fragmente sursă — N fragmente din M documente”
+  este închis inițial. La deschidere se
+  încarcă 20 de fragmente integrale, cu filtru după afecțiune și „Încarcă mai multe”.
+  Filtrele și paginarea sunt independente. Secțiunile goale păstrează panoul cu zero surse,
+  fără cereri HTTP. Fiecare fragment apare o singură dată în secțiunea sa, cu toate
+  afecțiunile eligibile, titlul, documentul și liniile sursă. Produsul/aliasurile sunt
+  evidențiate cu verde; afecțiunile și sinonimele lor, cu galben. Textul original este păstrat.
+  `GET /api/herb-evidence/{groupId}?evidenceKind=positive|contraindication&conditionId=…&offset=…`
+  selectează sursele secțiunii cerute (`positive` implicit) și este limitat la sesiunea
+  și tabul care dețin mesajul. Filtrul trebuie să aparțină secțiunii. Nu apelează AI și
+  nu execută o nouă căutare hibridă.
   Schimbarea rulării produce `HERB_EVIDENCE_STALE`; un răspuns expirat/evacuat produce
   `HERB_EVIDENCE_UNAVAILABLE`. Interfața cere repetarea întrebării, fără combinarea
   generațiilor. Fragmentele încărcate sunt păstrate numai temporar în interfață.
+
+  Migrarea aditivă `028_herb_caution_rankings.sql` creează `herb_caution_runs`,
+  `herb_caution_evidence`, `herb_caution_pairs`, `herb_caution_rankings` și
+  `herb_caution_cache`. Proiecția caution reutilizează regulile locale și valorile
+  `recommendation`/`prohibition` din răspunsurile pe care clasificarea pozitivă le cere deja.
+  Promptul, cache-ul pozitiv și numărul cererilor AI rămân neschimbate. Informațiile lipsă
+  din cache-ul vechi sunt recuperate numai local sau marcate `unknown`; nu declanșează AI.
+  Proiecția caution versiunea 2 verifică și listele explicite de alimente de evitat,
+  inclusiv rândurile OCR întrerupte. Un avertisment despre alt produs sau procedură din
+  același fragment nu validează o interdicție pentru produsul întrebat.
+  Pregătirea pozitivă pregătește și caution; publicarea prin CLI activează atomic cele două
+  rulări compatibile. Marcajul activ caution rămâne în `herb_caution_runs.is_active`,
+  în afara metadatelor care intră în amprenta indexului pozitiv.
+
+  După aplicarea explicită a migrărilor de către operator, popularea pentru clasamentul
+  pozitiv deja activ se poate face separat, fără inferență sau reindexare:
+
+  ```powershell
+  $env:PYTHONPATH = 'src'
+  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --prepare-caution-ranking
+  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-caution-ranking RUN_ID
+  ```
+
+  Prima comandă returnează ID-ul noii rulări caution și numărul dovezilor istorice necunoscute.
+  A doua acceptă acel ID numai dacă indexul, rularea pozitivă și activarea observată la
+  pregătire sunt încă compatibile. Ambele raportează `ai_requests_sent_total=0` și nu
+  apelează nici providerul, nici endpointul de verificare a modelului. Aplicarea migrării
+  singure nu populează și nu activează aceste date. Aplicația nu migrează la startup.
+
+  La actualizarea de la proiecția caution 1 la 2, se pregătește și se publică numai o
+  rulare caution nouă prin comenzile de mai sus, folosind codul actualizat. Nu se șterg
+  cache-urile sau tabelele și nu se reindexează documentele/embeddingurile. O rulare
+  caution cu versiunea veche este afișată ca învechită până la publicarea celei noi.
 
   Potrivirea numelor românești acceptă flexiuni din dicționarul Hunspell inclus (articol, plural, genitiv), cu sau fără diacritice, inclusiv în denumiri din mai multe cuvinte. Regulile generale pentru intrările incomplete sunt validate cu același dicționar, fără liste de excepții pe plante. Forma exactă are prioritate; numele comune mai multor specii cer alegerea speciei.
 - **Top plante/produse:** clasament pozitiv din `herb_positive_rankings`, filtrat exact după categoria cerută înainte de sortare și limitare. Interfața oferă exemplele „Top 100 produse naturiste” și „Top 10 produse naturiste pentru gripa”; un click completează câmpul și îi dă focus, apoi utilizatorul trimite mesajul. „Top X produse naturiste” fără afecțiune afișează cele 11 categorii, fiecare pe un rând numerotat; utilizatorul răspunde cu numărul categoriei și primește până la X produse din acea categorie. O alegere invalidă repetă lista fără a schimba X. Comenzile directe precum „Top 20 suplimente”, „Top 10 plante medicinale”, „Primele 20 vitamine” și „Top 100 semințe” rămân disponibile. „Top 100”, „Top 100 plante”, „top general” și „toate categoriile” includ toate categoriile. Fără cantitate se folosesc 100 de intrări; categoriile necunoscute sau multiple cer alegerea unei singure categorii, iar un număr invalid cere o cantitate între 1 și 10000. Clarificările păstrează categoria/numărul cerut. Răspunsul arată numărul efectiv returnat, asocierile și aliasurile regionale; fără căutare hibridă sau generare AI pentru comenzile explicite.

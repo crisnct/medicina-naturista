@@ -986,11 +986,17 @@ class SessionStore:
                     continue
                 if not message.get("herbId") or not message.get("positiveRunId"):
                     break
-                return {
+                reference: HerbEvidenceReference = {
                     "herbId": message["herbId"],
                     "positiveRunId": message["positiveRunId"],
                     "conditionIds": [condition["id"] for condition in message["conditions"]],
                 }
+                if message.get("cautionRunId"):
+                    reference["cautionRunId"] = message["cautionRunId"]
+                    reference["contraindicationConditionIds"] = [
+                        condition["id"] for condition in message.get("contraindications", [])
+                    ]
+                return reference
             raise ApplicationError(
                 "HERB_EVIDENCE_UNAVAILABLE", tr("errors.herb_evidence_unavailable"), 404
             )

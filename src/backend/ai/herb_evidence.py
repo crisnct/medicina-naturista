@@ -10,13 +10,15 @@ from psycopg import Connection
 from psycopg_pool import PoolTimeout
 
 from backend.ai.herb_association_rules import NameMatcher
+from backend.ai.herb_caution_repository import active_caution_run
+from backend.ai.herb_caution_repository import unavailable as caution_unavailable
 from backend.ai.herb_index_catalog import normalize_herb_name
 from backend.ai.herb_positive_repository import PositiveRepository, active_run
 from backend.ai.herb_repository import catalog_snapshot
 from backend.ai.index_state import IndexUnavailable
 from backend.config import Settings
 from backend.config import settings as default_settings
-from backend.core.contracts import HerbCondition, HerbEvidencePage, HerbHighlight
+from backend.core.contracts import HerbCondition, HerbEvidenceKind, HerbEvidencePage, HerbHighlight
 from backend.core.errors import ApplicationError
 from backend.core.operation_context import checkpoint
 from backend.core.texts import tr
@@ -38,12 +40,31 @@ WITH eligible AS (
 )
 """
 
+CAUTION_ELIGIBLE_SQL = """
+WITH eligible AS (
+    SELECT DISTINCT e.chunk_id, e.medical_condition_id
+    FROM herb_caution_evidence e
+    JOIN herb_caution_pairs p USING (run_id, herb_id, medical_condition_id)
+    WHERE e.run_id = %s AND e.herb_id = %s
+      AND e.warning_kind = 'prohibition' AND p.prohibition_count > 0
+), selected AS (
+    SELECT DISTINCT chunk_id FROM eligible
+    WHERE (%s::integer IS NULL OR medical_condition_id = %s)
+)
+"""
+
 
 def evidence_counts(
-    connection: Connection, run_id: str, herb_id: int, condition_id: int | None = None
+    connection: Connection,
+    run_id: str,
+    herb_id: int,
+    condition_id: int | None = None,
+    *,
+    evidence_kind: HerbEvidenceKind = "positive",
 ) -> tuple[int, int]:
+    eligible_sql = CAUTION_ELIGIBLE_SQL if evidence_kind == "contraindication" else ELIGIBLE_SQL
     row = connection.execute(
-        ELIGIBLE_SQL + "SELECT count(*), count(DISTINCT c.source_relative_path) "
+        eligible_sql + "SELECT count(*), count(DISTINCT c.source_relative_path) "
         "FROM selected s JOIN chunks c USING (chunk_id)",
         (run_id, herb_id, condition_id, condition_id),
     ).fetchone()
@@ -83,30 +104,47 @@ def lookup_herb_evidence(
     *,
     condition_id: int | None = None,
     offset: int = 0,
+    evidence_kind: HerbEvidenceKind = "positive",
+    caution_run_id: str | None = None,
     settings: Settings = default_settings,
 ) -> HerbEvidencePage:
     try:
+        if evidence_kind not in {"positive", "contraindication"}:
+            raise ApplicationError("INVALID_REQUEST", tr("errors.request_invalid"), 422)
         with PositiveRepository().transaction() as connection:
             if active_run(connection, settings) != run_id:
                 raise ApplicationError("HERB_EVIDENCE_STALE", tr("errors.herb_evidence_stale"), 409)
+            if evidence_kind == "contraindication" or caution_run_id is not None:
+                current_caution, status = active_caution_run(connection, run_id)
+                if caution_run_id is None:
+                    raise caution_unavailable(status == "stale")
+                if current_caution != caution_run_id:
+                    raise ApplicationError(
+                        "HERB_EVIDENCE_STALE", tr("errors.herb_evidence_stale"), 409
+                    )
+            source_run_id = caution_run_id if evidence_kind == "contraindication" else run_id
+            assert source_run_id is not None
+            eligible_sql = (
+                CAUTION_ELIGIBLE_SQL if evidence_kind == "contraindication" else ELIGIBLE_SQL
+            )
             herb = catalog_snapshot(connection).catalog.by_id(herb_id)
             if herb is None:
                 raise ApplicationError("HERB_EVIDENCE_STALE", tr("errors.herb_evidence_stale"), 409)
             fragments_count, documents_count = evidence_counts(
-                connection, run_id, herb_id, condition_id
+                connection, source_run_id, herb_id, condition_id, evidence_kind=evidence_kind
             )
             rows = connection.execute(
-                ELIGIBLE_SQL + "SELECT c.chunk_id,c.source_relative_path,c.line_start,c.line_end,"
+                eligible_sql + "SELECT c.chunk_id,c.source_relative_path,c.line_start,c.line_end,"
                 "c.heading,c.text FROM selected s JOIN chunks c USING (chunk_id) "
                 "ORDER BY c.source_relative_path,c.line_start,c.chunk_id LIMIT %s OFFSET %s",
-                (run_id, herb_id, condition_id, condition_id, PAGE_SIZE, offset),
+                (source_run_id, herb_id, condition_id, condition_id, PAGE_SIZE, offset),
             ).fetchall()
             relations = connection.execute(
-                ELIGIBLE_SQL + "SELECT e.chunk_id,mc.id,mc.name,s.synonym FROM eligible e "
+                eligible_sql + "SELECT e.chunk_id,mc.id,mc.name,s.synonym FROM eligible e "
                 "JOIN medical_conditions mc ON mc.id=e.medical_condition_id "
                 "LEFT JOIN medical_condition_synonyms s ON s.medical_condition_id=mc.id "
                 "WHERE e.chunk_id=ANY(%s) ORDER BY e.chunk_id,mc.name,mc.id,s.id",
-                (run_id, herb_id, condition_id, condition_id, [row[0] for row in rows]),
+                (source_run_id, herb_id, condition_id, condition_id, [row[0] for row in rows]),
             ).fetchall()
             by_chunk: dict[int, dict[int, HerbCondition]] = defaultdict(dict)
             terms: dict[int, set[str]] = defaultdict(set)
@@ -122,6 +160,7 @@ def lookup_herb_evidence(
             page: HerbEvidencePage = {
                 "herbId": herb_id,
                 "positiveRunId": run_id,
+                "evidenceKind": evidence_kind,
                 "fragmentsCount": fragments_count,
                 "documentsCount": documents_count,
                 "fragments": [],
@@ -129,6 +168,8 @@ def lookup_herb_evidence(
                 if rows and offset + len(rows) < fragments_count
                 else None,
             }
+            if caution_run_id is not None:
+                page["cautionRunId"] = caution_run_id
             for chunk_id, document, line_start, line_end, heading, text in rows:
                 checkpoint()
                 conditions = list(by_chunk[chunk_id].values())

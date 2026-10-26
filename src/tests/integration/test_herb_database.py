@@ -53,6 +53,19 @@ class HerbDatabaseTests(unittest.TestCase):
 
     def test_seed_schema_counts_and_fingerprint_without_jsonl(self):
         with psycopg.connect(self.url) as connection:
+            self.assertEqual(
+                connection.execute(
+                    "SELECT table_name FROM information_schema.tables WHERE table_schema='public' "
+                    "AND table_name LIKE 'herb_caution_%%' ORDER BY table_name"
+                ).fetchall(),
+                [
+                    ("herb_caution_cache",),
+                    ("herb_caution_evidence",),
+                    ("herb_caution_pairs",),
+                    ("herb_caution_rankings",),
+                    ("herb_caution_runs",),
+                ],
+            )
             items = repository.read_herbs(connection)
             self.assertEqual(len(items), 1585)
             self.assertEqual({h.id for h in items}, set(range(1, 1587)) - {1212})
@@ -189,7 +202,9 @@ class HerbDatabaseTests(unittest.TestCase):
             connection.execute("INSERT INTO owner_sessions(token_hash) VALUES (%s)", ("a" * 64,))
             connection.execute("INSERT INTO sync_metadata(key,value) VALUES ('test','unchanged')")
             connection.execute(
-                "DROP TABLE herb_positive_evidence,herb_positive_pairs,herb_positive_rankings,herb_positive_cache,herb_positive_runs,herbs_benefits,herb_aliases,herbs"
+                "DROP TABLE herb_caution_evidence,herb_caution_pairs,herb_caution_rankings,"
+                "herb_caution_cache,herb_caution_runs,herb_positive_evidence,herb_positive_pairs,"
+                "herb_positive_rankings,herb_positive_cache,herb_positive_runs,herbs_benefits,herb_aliases,herbs"
             )
             versions = [
                 "006_herbs.sql",
@@ -201,19 +216,22 @@ class HerbDatabaseTests(unittest.TestCase):
                 "016_separate_herb_category.sql",
             ]
             connection.execute(
-                "DELETE FROM schema_migrations WHERE version IN (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)",
+                "DELETE FROM schema_migrations WHERE version=ANY(%s)",
                 (
-                    "017_food_categories_in_herbs.sql",
-                    "018_reclassify_oils_medicines_and_beta_carotene.sql",
-                    "019_reclassify_additional_oils.sql",
-                    "020_reclassify_remaining_requested_oils.sql",
-                    "021_reclassify_probiotic_products.sql",
-                    "022_add_sunflower_and_pumpkin_oils.sql",
-                    "023_positive_herb_rankings.sql",
-                    "024_merge_fibre_probiotics_into_supplements.sql",
-                    "025_rename_linum_usitatissimum_ro.sql",
-                    "026_remove_medicines_and_merge_bee_products.sql",
-                    "027_essential_oil_source_aliases.sql",
+                    [
+                        "017_food_categories_in_herbs.sql",
+                        "018_reclassify_oils_medicines_and_beta_carotene.sql",
+                        "019_reclassify_additional_oils.sql",
+                        "020_reclassify_remaining_requested_oils.sql",
+                        "021_reclassify_probiotic_products.sql",
+                        "022_add_sunflower_and_pumpkin_oils.sql",
+                        "023_positive_herb_rankings.sql",
+                        "024_merge_fibre_probiotics_into_supplements.sql",
+                        "025_rename_linum_usitatissimum_ro.sql",
+                        "026_remove_medicines_and_merge_bee_products.sql",
+                        "027_essential_oil_source_aliases.sql",
+                        "028_herb_caution_rankings.sql",
+                    ],
                 ),
             )
             for name in versions:
@@ -298,6 +316,7 @@ class HerbDatabaseTests(unittest.TestCase):
                 "025_rename_linum_usitatissimum_ro.sql",
                 "026_remove_medicines_and_merge_bee_products.sql",
                 "027_essential_oil_source_aliases.sql",
+                "028_herb_caution_rankings.sql",
             ],
         )
         with psycopg.connect(self.url) as connection:

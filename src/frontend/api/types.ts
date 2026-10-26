@@ -82,6 +82,8 @@ export interface DownloadMessage extends MessageIdentity {
   filename: string;
 }
 
+export type HerbEvidenceKind = "positive" | "contraindication";
+
 export interface HerbConditionsMessage extends MessageIdentity {
   kind: "herb_conditions";
   role: "assistant";
@@ -93,6 +95,12 @@ export interface HerbConditionsMessage extends MessageIdentity {
   positiveRunId?: string;
   fragmentsCount?: number;
   documentsCount?: number;
+  cautionRunId?: string | null;
+  contraindicationsStatus?: "ready" | "partial" | "not_ready" | "stale";
+  contraindicationsCount?: number | null;
+  contraindications?: { id: number; name: string; hasRecommendation: boolean }[];
+  contraindicationFragmentsCount?: number;
+  contraindicationDocumentsCount?: number;
 }
 
 // Half-open Unicode code-point offsets, matching Python's unchanged source strings.
@@ -121,6 +129,8 @@ export interface HerbEvidencePage {
   documentsCount: number;
   fragments: HerbEvidenceFragment[];
   nextOffset: number | null;
+  evidenceKind?: HerbEvidenceKind;
+  cautionRunId?: string;
 }
 
 export type ChatMessage = TextMessage | FragmentsMessage | GenerateMessage | DownloadMessage | HerbConditionsMessage;

@@ -1347,6 +1347,16 @@ def parse_args() -> argparse.Namespace:
         help="Refresh associations only; requires a compatible existing index and preserves old pairs",
     )
     modes.add_argument(
+        "--prepare-caution-ranking",
+        action="store_true",
+        help="Prepare warnings for the active positive run from local rules and existing cache; no AI",
+    )
+    modes.add_argument(
+        "--publish-caution-ranking",
+        metavar="RUN_ID",
+        help="Activate a prepared warning projection for the current positive run; no AI",
+    )
+    modes.add_argument(
         "--analyze-positive-ranking",
         action="store_true",
         help="Inventory and cache analysis without inference or publication",
@@ -1378,8 +1388,10 @@ def parse_args() -> argparse.Namespace:
         arguments.analyze_positive_ranking
         or arguments.prepare_positive_ranking
         or arguments.publish_positive_ranking
+        or arguments.prepare_caution_ranking
+        or arguments.publish_caution_ranking
     ):
-        parser.error("--skip-positive-ranking cannot be combined with a positive-ranking mode")
+        parser.error("--skip-positive-ranking cannot be combined with an explicit ranking mode")
     return arguments
 
 
@@ -1399,13 +1411,20 @@ def main() -> int:
         )
     configure_settings(configuration)
     arguments = parse_args()
+    caution_stage = bool(arguments.prepare_caution_ranking or arguments.publish_caution_ranking)
     ranking_stage = bool(
         arguments.analyze_positive_ranking
         or arguments.prepare_positive_ranking
         or arguments.publish_positive_ranking
+        or arguments.prepare_caution_ranking
+        or arguments.publish_caution_ranking
     )
     try:
-        if ranking_stage:
+        if caution_stage:
+            from scripts.caution_herb_ranking import run_caution_ranking
+
+            run_caution_ranking(settings, publish=arguments.publish_caution_ranking)
+        elif ranking_stage:
             from scripts.positive_herb_ranking import run_positive_ranking
 
             run_positive_ranking(
@@ -1431,10 +1450,12 @@ def main() -> int:
                 json.dumps(
                     {
                         "status": "error",
-                        "code": "POSITIVE_RANKING_FAILED",
+                        "code": "CAUTION_RANKING_FAILED"
+                        if caution_stage
+                        else "POSITIVE_RANKING_FAILED",
                         "type": type(exc).__name__,
                         "detail": str(exc)
-                        if re.fullmatch(r"POSITIVE_[A-Z_]+(?::[0-9]+)*", str(exc))
+                        if re.fullmatch(r"(?:POSITIVE|CAUTION)_[A-Z_]+(?::[0-9]+)*", str(exc))
                         else "See aggregate run progress",
                     }
                 ),

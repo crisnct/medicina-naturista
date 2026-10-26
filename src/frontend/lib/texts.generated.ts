@@ -153,9 +153,23 @@ export const TEXT_PARAMETERS = {
   "interface.herb_conditions_empty": [],
   "interface.herb_conditions_notice": [],
   "interface.herb_conditions_use_prefix": [],
+  "interface.herb_conditions_positive_title": [],
+  "interface.herb_conditions_negative_title": [],
+  "interface.herb_conditions_prohibition_prefix": [],
+  "interface.herb_conditions_prohibition_count_label": [],
+  "interface.herb_conditions_prohibition_unavailable": [],
+  "interface.herb_conditions_prohibition_empty": [],
+  "interface.herb_conditions_prohibition_pending": [],
+  "interface.herb_conditions_prohibition_partial": [],
+  "interface.herb_conditions_prohibition_conflict": [],
   "interface.herb_evidence_summary": [
     "documents_count",
     "fragments_count"
+  ],
+  "interface.herb_evidence_unavailable_summary": [],
+  "interface.herb_evidence_not_retained": [],
+  "interface.herb_evidence_prohibitions": [
+    "conditions"
   ],
   "interface.herb_evidence_filter": [],
   "interface.herb_evidence_loading": [],

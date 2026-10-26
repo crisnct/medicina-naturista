@@ -87,6 +87,14 @@ class HerbCondition(TypedDict):
     name: str
 
 
+HerbEvidenceKind = Literal["positive", "contraindication"]
+HerbCautionStatus = Literal["ready", "partial", "not_ready", "stale"]
+
+
+class HerbContraindication(HerbCondition):
+    hasRecommendation: bool
+
+
 class HerbLookupResult(TypedDict):
     status: Literal["found", "not_found", "ambiguous"]
     choices: NotRequired[list[str]]
@@ -98,6 +106,12 @@ class HerbLookupResult(TypedDict):
     positiveRunId: NotRequired[str]
     fragmentsCount: NotRequired[int]
     documentsCount: NotRequired[int]
+    cautionRunId: NotRequired[str | None]
+    contraindicationsStatus: NotRequired[HerbCautionStatus]
+    contraindicationsCount: NotRequired[int | None]
+    contraindications: NotRequired[list[HerbContraindication]]
+    contraindicationFragmentsCount: NotRequired[int]
+    contraindicationDocumentsCount: NotRequired[int]
 
 
 LookupHerb = Callable[[str], HerbLookupResult]
@@ -107,6 +121,8 @@ class HerbEvidenceReference(TypedDict):
     herbId: int
     positiveRunId: str
     conditionIds: list[int]
+    cautionRunId: NotRequired[str]
+    contraindicationConditionIds: NotRequired[list[int]]
 
 
 # Offsets are half-open Unicode code-point positions in the unchanged source field.
@@ -135,11 +151,20 @@ class HerbEvidencePage(TypedDict):
     documentsCount: int
     fragments: list[HerbEvidenceFragment]
     nextOffset: int | None
+    evidenceKind: NotRequired[HerbEvidenceKind]
+    cautionRunId: NotRequired[str]
 
 
 class LookupHerbEvidence(Protocol):
     def __call__(
-        self, herb_id: int, run_id: str, *, condition_id: int | None = None, offset: int = 0
+        self,
+        herb_id: int,
+        run_id: str,
+        *,
+        condition_id: int | None = None,
+        offset: int = 0,
+        evidence_kind: HerbEvidenceKind = "positive",
+        caution_run_id: str | None = None,
     ) -> HerbEvidencePage: ...
 
 

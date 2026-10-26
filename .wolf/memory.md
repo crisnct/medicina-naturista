@@ -899,3 +899,73 @@ description: chronological action log per session, consolidated weekly
 | 06:35 | Edited src/backend/core/conversation.py | 3→5 lines | ~88 |
 | 06:35 | Edited src/tests/unit/web/test_message_routing.py | 2→4 lines | ~107 |
 | 06:35 | Edited README.md | 2→4 lines | ~57 |
+| 06:43 | Created src/backend/migrations/028_herb_caution_rankings.sql | — | ~2496 |
+| 06:43 | Created src/backend/ai/herb_caution_projection.py | — | ~1574 |
+| 06:44 | Created src/backend/ai/herb_caution_repository.py | — | ~4404 |
+| 06:45 | Edited src/scripts/positive_herb_ranking.py | expanded (+25 lines) | ~570 |
+| 06:45 | Created src/scripts/caution_herb_ranking.py | — | ~283 |
+| 06:45 | Edited src/scripts/build_hybrid_index.py | expanded (+18 lines) | ~318 |
+| 06:46 | Edited src/backend/core/contracts.py | modified __call__() | ~338 |
+| 06:46 | Edited src/backend/ai/herb_conditions.py | expanded (+35 lines) | ~694 |
+| 06:46 | Edited src/backend/ai/herb_evidence.py | expanded (+32 lines) | ~825 |
+| 06:46 | Edited src/backend/core/sessions.py | modified get() | ~157 |
+| 06:46 | Edited src/backend/web/main.py | modified get() | ~237 |
+| 06:47 | Edited src/backend/resources/texts.ro.toml | expanded (+13 lines) | ~391 |
+| 06:47 | Edited src/frontend/api/types.ts | expanded (+10 lines) | ~171 |
+| 06:47 | Edited src/frontend/api/client.ts | added 1 condition(s) | ~96 |
+| 06:47 | Edited src/frontend/components/HerbEvidencePanel.tsx | CSS: contraindicationFragmentsCount, contraindicationDocumentsCount | ~542 |
+| 06:47 | Edited src/frontend/components/HerbConditionsPanel.tsx | added nullish coalescing | ~863 |
+| 06:47 | Edited src/frontend/styles.css | 2→7 lines | ~144 |
+| 06:49 | Edited src/scripts/positive_herb_ranking.py | 10→12 lines | ~193 |
+| 06:49 | Edited src/backend/ai/herb_conditions.py | 15→15 lines | ~215 |
+| 06:50 | Edited src/frontend/components/HerbConditionsPanel.test.tsx | added 1 condition(s) | ~850 |
+| 06:51 | Edited src/frontend/components/HerbConditionsPanel.test.tsx | inline fix | ~22 |
+| 06:51 | Edited src/tests/unit/ai/test_build_hybrid_index.py | expanded (+11 lines) | ~206 |
+| 06:51 | Edited src/tests/integration/test_herb_conditions.py | expanded (+25 lines) | ~354 |
+| 06:53 | Edited src/tests/unit/web/test_message_routing.py | expanded (+20 lines) | ~424 |
+| 06:53 | Edited src/tests/integration/test_herb_database.py | modified test_seed_schema_counts_and_fingerprint_without_jsonl() | ~181 |
+| 06:53 | Edited src/backend/resources/texts.ro.toml | 1→2 lines | ~50 |
+| 06:53 | Edited src/frontend/components/HerbConditionsPanel.tsx | inline fix | ~46 |
+| 06:56 | Edited README.md | expanded (+36 lines) | ~957 |
+| 06:56 | Edited aiPlans/2026-10-26-plante-afectiuni-utile-si-interzise.md | expanded (+15 lines) | ~564 |
+| 06:57 | Edited src/backend/web/main.py | 13→11 lines | ~147 |
+| 06:57 | Edited src/tests/integration/test_herb_database.py | 5→8 lines | ~152 |
+| 06:57 | Edited src/tests/integration/test_herb_conditions.py | expanded (+15 lines) | ~295 |
+| 06:59 | Created aiPlans/tmp/caution-preview.mjs | — | ~1285 |
+| 07:02 | Edited aiPlans/tmp/caution-preview.mjs | added 1 condition(s) | ~408 |
+| 07:06 | Edited src/tests/integration/test_herb_database.py | 3→4 lines | ~54 |
+| 07:06 | Edited src/backend/ai/herb_caution_projection.py | 2→5 lines | ~76 |
+| 07:06 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 3→7 lines | ~84 |
+| 07:06 | Edited src/scripts/build_hybrid_index.py | 6→7 lines | ~140 |
+| 07:07 | Edited pyproject.toml | expanded (+15 lines) | ~154 |
+| 07:08 | Edited pyproject.toml | reduced (-15 lines) | ~67 |
+| 07:08 | Edited .github/workflows/ci.yml | expanded (+7 lines) | ~172 |
+| 07:14 | Edited src/backend/resources/texts.ro.toml | "Date istorice parțiale; s" → "Date parțiale; sunt afișa" | ~26 |
+| 07:14 | Edited src/frontend/components/HerbConditionsPanel.test.tsx | inline fix | ~20 |
+| 07:14 | Edited aiPlans/2026-10-26-plante-afectiuni-utile-si-interzise.md | 3→4 lines | ~123 |
+<!-- session:MDFhMTc2NTUtODEwMS03YTEwLWE5YWYtMThjMzU4ODkxYThi -->
+| 2026-10-26T05:15:20.681Z | Implemented separate herb_caution tables and local warning projections, preserving existing positive cache semantics and AI request selection; added independent useful/prohibited chat lists and source panels. | src/backend/migrations/028_herb_caution_rankings.sql,src/backend/ai/herb_caution_projection.py,src/backend/ai/herb_caution_repository.py,src/scripts/caution_herb_ranking.py,src/scripts/positive_herb_ranking.py,src/backend/ai/herb_conditions.py,src/backend/ai/herb_evidence.py,src/frontend/components/HerbConditionsPanel.tsx,README.md | 454 unit tests, 26 isolated PostgreSQL integration tests and 58 frontend tests passed; Ruff, formatting, mypy and frontend build passed; synthetic desktop/mobile preview verified. No active DB migration, real AI call, service restart or commit. |
+| 07:17 | Edited aiPlans/2026-10-26-plante-afectiuni-utile-si-interzise.md | expanded (+32 lines) | ~730 |
+<!-- session:MDFhMTc2NTUtODEwMS03YTEwLWE5YWYtMThjMzU4ODkxYThi -->
+| 2026-10-26T05:17:57.759Z | Completed local herb caution implementation and activation documentation; validated independent source panels and cleaned up the disposable test container and synthetic preview server. | aiPlans/2026-10-26-plante-afectiuni-utile-si-interzise.md,.github/workflows/ci.yml,README.md | 454 unittest, 117 pytest, 26 PostgreSQL integration plus 4 subtests, 58 frontend tests passed. Ruff/format, CI mypy list, dependency/text checks and Vite build passed. No real AI call or active-service/database deployment. |
+| 07:59 | Edited src/backend/ai/herb_caution_projection.py | modified combine_projections() | ~291 |
+| 07:59 | Edited src/backend/ai/herb_caution_repository.py | combine_projections() → corroborate_projection() | ~135 |
+| 07:59 | Edited src/frontend/components/HerbConditionsPanel.tsx | 3→2 lines | ~64 |
+| 07:59 | Edited src/frontend/styles.css | 4→6 lines | ~145 |
+| 07:59 | Edited src/frontend/components/HerbConditionsPanel.test.tsx | CSS: name, name | ~87 |
+| 08:02 | Edited src/tests/unit/ai/test_build_hybrid_index.py | expanded (+20 lines) | ~281 |
+| 08:02 | Edited src/tests/integration/test_herb_conditions.py | 4→9 lines | ~131 |
+| 08:09 | Edited src/backend/ai/herb_caution_projection.py | modified local_projection() | ~816 |
+| 08:09 | Edited src/backend/ai/herb_caution_repository.py | expanded (+11 lines) | ~231 |
+| 08:12 | Edited src/backend/ai/herb_caution_projection.py | modified normalize_herb_name() | ~172 |
+| 08:12 | Edited src/tests/unit/ai/test_build_hybrid_index.py | expanded (+15 lines) | ~240 |
+| 08:13 | Edited src/backend/ai/herb_caution_projection.py | 6→9 lines | ~125 |
+| 08:16 | Edited README.md | expanded (+11 lines) | ~336 |
+| 08:16 | Edited aiPlans/2026-10-26-plante-afectiuni-utile-si-interzise.md | 8→12 lines | ~305 |
+| 08:18 | Edited src/backend/ai/herb_caution_projection.py | expanded (+14 lines) | ~249 |
+| 08:18 | Edited README.md | 4→4 lines | ~81 |
+| 08:21 | Edited aiPlans/2026-10-26-plante-afectiuni-utile-si-interzise.md | expanded (+46 lines) | ~772 |
+| 08:21 | Edited aiPlans/2026-10-26-plante-afectiuni-utile-si-interzise.md | 2→2 lines | ~47 |
+| 09:18 | Session end: 11 writes across 4 files (2026-10-25-clean-documents-stable.md, clean_documents.py, test_document_spelling.py, README.md) | 0 reads | ~4098 tok |
+| 10:14 | Session end: 38 writes across 20 files (2026-10-26-top-produse-naturiste-pentru-afectiune.md, contracts.py, herb_categories.py, models.py, conditions.py) | 0 reads | ~18646 tok |
+| 10:17 | Session end: 9 writes across 5 files (models.py, conversation.py, texts.ro.toml, README.md, test_message_routing.py) | 0 reads | ~1939 tok |

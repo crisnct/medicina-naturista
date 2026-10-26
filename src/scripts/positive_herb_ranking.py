@@ -30,6 +30,8 @@ from backend.ai.herb_association_rules import (
     scoped_warning,
 )
 from backend.ai.herb_association_scope import LocalConditionScope
+from backend.ai.herb_caution_projection import model_projections
+from backend.ai.herb_caution_repository import CautionRepository
 from backend.ai.herb_positive_repository import PositiveRepository
 from backend.config import Settings
 from backend.core.operation_context import OperationBudget, checkpoint, operation_budget
@@ -50,8 +52,13 @@ def run_positive_ranking(
     publish: str | None = None,
     resume: str | None = None,
     repository: PositiveRepository | None = None,
+    caution_repository: CautionRepository | None = None,
 ) -> dict:
-    repository = repository or PositiveRepository()
+    # Injected repositories stay hermetic unless the caller also supplies a caution adapter.
+    if repository is None:
+        repository = PositiveRepository()
+        caution_repository = caution_repository or CautionRepository(repository.pool)
+    caution = caution_repository
     started = time.monotonic()
     counters: dict = {"run_id": resume or str(uuid4()), "requests": 0, "completed": 0}
     stopped = threading.Event()
@@ -92,7 +99,15 @@ def run_positive_ranking(
             )
         ):
             if publish:
-                repository.publish(publish, settings, digest=model_digest(settings))
+                publication_digest = model_digest(settings)
+                if caution is None:
+                    repository.publish(publish, settings, digest=publication_digest)
+                else:
+                    caution_run = caution.prepared_for_positive(publish)
+                    if caution_run is None:
+                        caution_run = caution.prepare(publish, settings)["run_id"]
+                    caution.publish(caution_run, settings, positive_digest=publication_digest)
+                    counters["caution_run_id"] = caution_run
                 counters.update(run_id=publish, status="published")
                 return counters
             data = repository.read_snapshot()
@@ -193,6 +208,11 @@ def run_positive_ranking(
             assert digest is not None
             state = repository.create_run(counters["run_id"], data, semantic, digest, bool(resume))
             if state["status"] == "ready":
+                if caution is not None:
+                    caution_run = caution.prepared_for_positive(counters["run_id"])
+                    if caution_run is None:
+                        caution_run = caution.prepare(counters["run_id"], settings)["run_id"]
+                    counters["caution_run_id"] = caution_run
                 counters["status"] = "ready"
                 return counters
             client = make_client(settings) if batches else None
@@ -226,6 +246,9 @@ def run_positive_ranking(
                         keys[identifier]: decision for identifier, decision in results.items()
                     }
                     repository.save_cache(entries)
+                    if caution is not None:
+                        projected = model_projections(raw, batch, results)
+                        caution.save_cache({keys[key]: value for key, value in projected.items()})
                     cached.update(entries)
                     counters["completed"] += 1
             finally:
@@ -252,6 +275,12 @@ def run_positive_ranking(
             }
             counters["elapsed_seconds"] = round(time.monotonic() - started, 3)
             repository.finish(counters["run_id"], data, decisions, evidence_keys, counters)
+            if caution is not None:
+                projected_run = caution.prepare(counters["run_id"], settings)
+                counters.update(
+                    caution_run_id=projected_run["run_id"],
+                    caution_unknown_count=projected_run["unknown_count"],
+                )
             counters["status"] = "ready"
             return counters
     except Exception as error:

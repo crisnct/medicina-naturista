@@ -6,6 +6,7 @@ import psycopg
 from psycopg_pool import PoolTimeout
 
 from backend.ai import db
+from backend.ai.herb_caution_repository import active_caution_run
 from backend.ai.herb_evidence import evidence_counts
 from backend.ai.herb_positive_repository import active_run
 from backend.ai.herb_repository import catalog_snapshot
@@ -21,7 +22,7 @@ FROM herbs AS h
 JOIN herb_positive_pairs AS hp ON hp.herb_id = h.id
 JOIN medical_conditions AS mc ON mc.id = hp.medical_condition_id
 WHERE hp.run_id = %s AND hp.state = 'positive' AND h.ro ILIKE %s AND h.id = %s
-ORDER BY mc.name
+ORDER BY mc.name, mc.id
 """
 
 
@@ -60,7 +61,7 @@ def lookup_herb_conditions(name: str, *, settings: Settings = default_settings) 
                 HERB_CONDITIONS_SQL, (run_id, literal_pattern(canonical), selected.id)
             ).fetchall()
             fragments_count, documents_count = evidence_counts(connection, run_id, selected.id)
-            return {
+            result: HerbLookupResult = {
                 "status": "found",
                 "herbId": selected.id,
                 "positiveRunId": run_id,
@@ -73,5 +74,46 @@ def lookup_herb_conditions(name: str, *, settings: Settings = default_settings) 
                     {"id": condition_id, "name": condition} for condition_id, condition in rows
                 ],
             }
+            caution_run, caution_status = active_caution_run(connection, run_id)
+            result.update(
+                {
+                    "cautionRunId": caution_run,
+                    "contraindicationsStatus": caution_status,
+                    "contraindicationsCount": None,
+                    "contraindications": [],
+                    "contraindicationFragmentsCount": 0,
+                    "contraindicationDocumentsCount": 0,
+                }
+            )
+            if caution_run is not None:
+                contraindications = connection.execute(
+                    "SELECT mc.id,mc.name,p.has_recommendation OR COALESCE("
+                    "hp.positive_count>0 OR hp.mixed_count>0,false) "
+                    "FROM herb_caution_pairs p JOIN medical_conditions mc ON mc.id=p.medical_condition_id "
+                    "LEFT JOIN herb_positive_pairs hp ON hp.run_id=%s AND hp.herb_id=p.herb_id "
+                    "AND hp.medical_condition_id=p.medical_condition_id "
+                    "WHERE p.run_id=%s AND p.herb_id=%s AND p.prohibition_count>0 ORDER BY mc.name,mc.id",
+                    (run_id, caution_run, selected.id),
+                ).fetchall()
+                unknown = connection.execute(
+                    "SELECT COALESCE(sum(unknown_count),0) FROM herb_caution_pairs WHERE run_id=%s AND herb_id=%s",
+                    (caution_run, selected.id),
+                ).fetchone()
+                negative_fragments, negative_documents = evidence_counts(
+                    connection, caution_run, selected.id, evidence_kind="contraindication"
+                )
+                result.update(
+                    {
+                        "contraindicationsStatus": "partial" if unknown and unknown[0] else "ready",
+                        "contraindicationsCount": len(contraindications),
+                        "contraindications": [
+                            {"id": identifier, "name": condition, "hasRecommendation": recommended}
+                            for identifier, condition, recommended in contraindications
+                        ],
+                        "contraindicationFragmentsCount": negative_fragments,
+                        "contraindicationDocumentsCount": negative_documents,
+                    }
+                )
+            return result
     except (psycopg.Error, PoolTimeout):
         raise IndexUnavailable("INDEX_HERBS_UNAVAILABLE") from None

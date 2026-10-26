@@ -4,6 +4,7 @@ import type {
   ClassificationResponse,
   ConditionResponse,
   HerbEvidencePage,
+  HerbEvidenceKind,
   ReportGeneration,
   MessagesResponse,
   ReportModel,
@@ -86,8 +87,9 @@ export const api = {
     }
   },
   getCategories: () => request<CategoriesResponse>("/api/categories"),
-  getHerbEvidence: (groupId: string, conditionId: number | null, offset: number, signal: AbortSignal) => {
+  getHerbEvidence: (groupId: string, conditionId: number | null, offset: number, signal: AbortSignal, evidenceKind: HerbEvidenceKind = "positive") => {
     const query = new URLSearchParams({ offset: String(offset) });
+    if (evidenceKind !== "positive") query.set("evidenceKind", evidenceKind);
     if (conditionId !== null) query.set("conditionId", String(conditionId));
     return request<HerbEvidencePage>(`/api/herb-evidence/${encodeURIComponent(groupId)}?${query}`, { signal });
   },

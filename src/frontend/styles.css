@@ -1116,6 +1116,9 @@ button.cat-toggle.cat-toggle-open svg {
     max-width: 100%;
 }
 .herb-conditions-panel h3 { margin: 0 0 .5rem; }
+.herb-association-section { margin-top: 1.25rem; }
+.herb-association-section > h4 { margin: 0 0 .5rem; font-size: 1.5rem; line-height: 1.3; color: #285c42; }
+.herb-contraindications-section { border-top: 1px solid #d8c7b6; padding-top: 1.25rem; }
 .herb-evidence-panel { margin-top: 1.25rem; border-top: 1px solid #d8dfc6; padding-top: 1rem; }
 .herb-evidence-panel > summary { cursor: pointer; color: #285c42; font-weight: 600; overflow-wrap: anywhere; }
 .herb-evidence-content { margin-top: 1rem; }
@@ -1124,7 +1127,7 @@ button.cat-toggle.cat-toggle-open svg {
 .herb-evidence-toolbar select { max-width: 100%; padding: .4rem .6rem; border: 1px solid #9aad91; border-radius: .4rem; background: white; }
 .herb-evidence-legend { display: flex; flex-wrap: wrap; gap: .75rem; font-size: .85rem; }
 .herb-evidence-fragment { border-top: 1px solid #d8dfc6; margin-top: 1rem; padding-top: 1rem; overflow-wrap: anywhere; }
-.herb-evidence-fragment h4 { margin: .5rem 0; white-space: pre-wrap; }
+.herb-evidence-fragment h5 { margin: .5rem 0; font-size: 1rem; white-space: pre-wrap; }
 .herb-evidence-associations, .herb-evidence-count { font-size: .85rem; color: #405436; }
 .herb-evidence-text { white-space: pre-wrap; line-height: 1.65; }
 .herb-evidence-mark-herb { background: #bbf7d0; color: #153d27; }
@@ -1149,6 +1152,10 @@ button.cat-toggle.cat-toggle-open svg {
     break-inside: avoid;
 }
 .herb-association-note { font-size: .9rem; color: #596b45; margin-bottom: 0; }
+.herb-conditions-panel .herb-contraindications-section,
+.herb-conditions-panel .herb-contraindications-section * { color: var(--nature-danger); }
+.herb-contraindications-section button { background: #fff8f7; border: 1px solid var(--nature-danger); }
+.herb-contraindications-section button:hover { background: #fee9e7; }
 
 @media (prefers-reduced-motion: reduce) {
     * {

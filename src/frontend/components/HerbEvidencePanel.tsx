@@ -1,7 +1,7 @@
 import { useId, useState, type ReactNode } from "react";
 import { useInfiniteQuery } from "@tanstack/react-query";
 import { api, ApiError } from "../api/client";
-import type { HerbConditionsMessage, HerbHighlight } from "../api/types";
+import type { HerbConditionsMessage, HerbEvidenceKind, HerbHighlight } from "../api/types";
 import { tr } from "../lib/texts";
 
 // Python offsets count Unicode code points; ordinary JS slice counts UTF-16 units.
@@ -19,14 +19,20 @@ export function HighlightedSource({ text, highlights }: { text: string; highligh
   return <>{result}</>;
 }
 
-export function HerbEvidencePanel({ message }: { message: HerbConditionsMessage & { groupId: string } }) {
+export function HerbEvidencePanel({ message, evidenceKind = "positive" }: { message: HerbConditionsMessage & { groupId: string }; evidenceKind?: HerbEvidenceKind }) {
   const filterId = useId();
   const [open, setOpen] = useState(false);
   const [conditionId, setConditionId] = useState<number | null>(null);
+  const negative = evidenceKind === "contraindication";
+  const conditions = negative ? message.contraindications ?? [] : message.conditions;
+  const fragmentsCount = negative ? message.contraindicationFragmentsCount : message.fragmentsCount;
+  const documentsCount = negative ? message.contraindicationDocumentsCount : message.documentsCount;
   const query = useInfiniteQuery({
-    queryKey: ["herb-evidence", message.groupId, message.herbId, message.positiveRunId, conditionId],
+    queryKey: ["herb-evidence", message.groupId, message.herbId, message.positiveRunId, conditionId, evidenceKind, message.cautionRunId],
     initialPageParam: 0,
-    queryFn: ({ pageParam, signal }) => api.getHerbEvidence(message.groupId, conditionId, pageParam, signal),
+    queryFn: ({ pageParam, signal }) => negative
+      ? api.getHerbEvidence(message.groupId, conditionId, pageParam, signal, evidenceKind)
+      : api.getHerbEvidence(message.groupId, conditionId, pageParam, signal),
     getNextPageParam: (page) => page.nextOffset ?? undefined,
     enabled: open,
     staleTime: Infinity,
@@ -35,7 +41,7 @@ export function HerbEvidencePanel({ message }: { message: HerbConditionsMessage 
     refetchOnReconnect: false,
   });
   const terminal = query.error instanceof ApiError && [
-    "HERB_EVIDENCE_STALE", "HERB_EVIDENCE_UNAVAILABLE", "POSITIVE_RANKING_STALE", "POSITIVE_RANKING_NOT_READY", "SESSION_EXPIRED", "SESSION_CLOSED",
+    "HERB_EVIDENCE_STALE", "HERB_EVIDENCE_UNAVAILABLE", "POSITIVE_RANKING_STALE", "POSITIVE_RANKING_NOT_READY", "CAUTION_RANKING_STALE", "CAUTION_RANKING_NOT_READY", "SESSION_EXPIRED", "SESSION_CLOSED",
   ].includes(query.error.code ?? "");
   const page = query.data?.pages[0];
   const fragments = terminal ? [] : query.data?.pages.flatMap((item) => item.fragments) ?? [];
@@ -46,13 +52,13 @@ export function HerbEvidencePanel({ message }: { message: HerbConditionsMessage 
 
   return (
     <details className="herb-evidence-panel" open={open} onToggle={(event) => setOpen(event.currentTarget.open)}>
-      <summary>{tr("interface.herb_evidence_summary", { fragments_count: message.fragmentsCount ?? 0, documents_count: message.documentsCount ?? 0 })}</summary>
+      <summary>{tr("interface.herb_evidence_summary", { fragments_count: fragmentsCount ?? 0, documents_count: documentsCount ?? 0 })}</summary>
       {open && <div className="herb-evidence-content" aria-busy={query.isFetching}>
         <div className="herb-evidence-toolbar">
           <label htmlFor={filterId}>{tr("interface.herb_evidence_filter")}
             <select id={filterId} value={conditionId ?? "all"} onChange={(event) => setConditionId(event.target.value === "all" ? null : Number(event.target.value))}>
               <option value="all">{tr("common.all")}</option>
-              {message.conditions.map((condition) => <option key={condition.id} value={condition.id}>{condition.name}</option>)}
+              {conditions.map((condition) => <option key={condition.id} value={condition.id}>{condition.name}</option>)}
             </select>
           </label>
           <div className="herb-evidence-legend" aria-label={tr("interface.herb_evidence_legend")}>
@@ -66,8 +72,8 @@ export function HerbEvidencePanel({ message }: { message: HerbConditionsMessage 
           {!terminal && <button type="button" disabled={query.isFetching} onClick={() => void (query.isFetchNextPageError ? query.fetchNextPage() : query.refetch())}>{tr("interface.herb_evidence_retry")}</button>}
         </div>}
         {!terminal && fragments.map((fragment) => <article className="herb-evidence-fragment" key={fragment.chunkId}>
-          <p className="herb-evidence-associations">{tr("interface.herb_evidence_conditions", { conditions: fragment.conditions.map((condition) => condition.name).join(" · ") })}</p>
-          {fragment.heading && <h4><HighlightedSource text={fragment.heading} highlights={fragment.headingHighlights} /></h4>}
+          <p className="herb-evidence-associations">{tr(negative ? "interface.herb_evidence_prohibitions" : "interface.herb_evidence_conditions", { conditions: fragment.conditions.map((condition) => condition.name).join(" · ") })}</p>
+          {fragment.heading && <h5><HighlightedSource text={fragment.heading} highlights={fragment.headingHighlights} /></h5>}
           <p className="herb-evidence-text"><HighlightedSource text={fragment.text} highlights={fragment.textHighlights} /></p>
           <p className="fragment-source">{tr("interface.herb_evidence_source", { document: fragment.document, line_start: fragment.lineStart, line_end: fragment.lineEnd })}</p>
         </article>)}

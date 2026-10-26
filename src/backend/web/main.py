@@ -360,13 +360,23 @@ def get_herb_evidence(
     group_id: str = Path(pattern=r"^[A-Za-z0-9_-]{8,64}$"),
     conditionId: int | None = Query(default=None, ge=1, le=2147483647),
     offset: int = Query(default=0, ge=0, le=2147483647),
+    evidenceKind: Literal["positive", "contraindication"] = Query(default="positive"),
 ):
     _require_initialized(request)
     deps = _deps(request)
     deps.request_limiter.check((_client_ip(request), deps.settings.max_requests_per_minute))
     session = _current(request)
     reference = deps.store.herb_evidence_reference(session, group_id)
-    if conditionId is not None and conditionId not in reference["conditionIds"]:
+    if evidenceKind == "contraindication" and not reference.get("cautionRunId"):
+        raise ApplicationError(
+            "CAUTION_RANKING_NOT_READY", tr("errors.caution_ranking_not_ready"), 503
+        )
+    condition_ids = (
+        reference.get("contraindicationConditionIds", [])
+        if evidenceKind == "contraindication"
+        else reference["conditionIds"]
+    )
+    if conditionId is not None and conditionId not in condition_ids:
         raise ApplicationError("INVALID_REQUEST", tr("errors.request_invalid"), 422)
     operation = deps.store.begin_operation(session, "herb_evidence")
     try:
@@ -376,12 +386,22 @@ def get_herb_evidence(
             )
         ):
             lookup = deps.herb_evidence or partial(lookup_herb_evidence, settings=deps.settings)
-            result = lookup(
-                reference["herbId"],
-                reference["positiveRunId"],
-                condition_id=conditionId,
-                offset=offset,
-            )
+            if "cautionRunId" in reference:
+                result = lookup(
+                    reference["herbId"],
+                    reference["positiveRunId"],
+                    condition_id=conditionId,
+                    offset=offset,
+                    evidence_kind=evidenceKind,
+                    caution_run_id=reference["cautionRunId"],
+                )
+            else:
+                result = lookup(
+                    reference["herbId"],
+                    reference["positiveRunId"],
+                    condition_id=conditionId,
+                    offset=offset,
+                )
             if deps.store.herb_evidence_reference(session, group_id) != reference:
                 raise ApplicationError(
                     "HERB_EVIDENCE_UNAVAILABLE", tr("errors.herb_evidence_unavailable"), 404

@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-26T04:35:14.149Z
-> Files: 143 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-26T06:21:41.796Z
+> Files: 148 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -11,7 +11,7 @@
 
 - `docker-compose.yaml` — Docker Compose: 4 services (~2178 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~31119 tok)
+- `README.md` — Project documentation (~31852 tok)
 
 ## .claude/agents/
 
@@ -38,7 +38,7 @@
 
 ## .github/workflows/
 
-- `ci.yml` — CI: Verify application (~1361 tok)
+- `ci.yml` — CI: Verify application (~1444 tok)
 
 ## aiPlans/
 
@@ -48,7 +48,7 @@
 - `2026-10-22-algoritm-structural-topuri.md` — Algoritm structural pentru topuri: context, roluri si restrictii (~1324 tok)
 - `2026-10-22-calibrare-prompturi-topuri.md` — Calibrarea prompturilor pentru topurile pozitive (~1495 tok)
 - `2026-10-25-clean-documents-stable.md` — Stable document cleaning (~527 tok)
-- `2026-10-26-plante-afectiuni-utile-si-interzise.md` — Plan: afecțiuni în care o plantă este utilă sau interzisă (~6644 tok)
+- `2026-10-26-plante-afectiuni-utile-si-interzise.md` — Plan: afecțiuni în care o plantă este utilă sau interzisă (~8307 tok)
 - `2026-10-26-top-produse-naturiste-pentru-afectiune.md` — Plan: top produse naturiste pentru o afectiune (~4761 tok)
 
 ## aiPlans/tmp/
@@ -59,6 +59,7 @@
 - `benchmark-herb-associations.py` — Measure one herb's complete published condition set without production writes. (~5365 tok)
 - `benchmark-local-condition-scope.py` — Exercise the real ranking pipeline on the frozen sample with an in-memory repository. (~4009 tok)
 - `build_product_condition_xmind.py` — Build a source-pinned XMind 8 description of the existing classifier. (~9794 tok)
+- `caution-preview.mjs` — Declares workspace (~1435 tok)
 - `compare-ranking-context.py` — Read-only, uncached paired local-Ollama context experiment over a bounded sample. (~5004 tok)
 - `investigate-ollama-classification.py` — Bounded read-only ablations of three classifier failures; no production edits or cache writes. (~2582 tok)
 - `positive-ranking-activate.py` — Publish a complete generation under the operator's recorded acceptance criteria. (~735 tok)
@@ -136,8 +137,10 @@
 - `herb_association_classification.py` — Bounded local-only polarity classification; validated quotations are source provenance. (~6089 tok)
 - `herb_association_rules.py` — Conservative source-polarity rules over unchanged indexed text and primary conditions. (~15076 tok)
 - `herb_association_scope.py` — Verify local disease identities and source boundaries without fuzzy equivalence. (~2170 tok)
-- `herb_conditions.py` — Read a product's positive conditions from the same published generation as its ranking. (~943 tok)
-- `herb_evidence.py` — Read complete source fragments from one published positive-association generation. (~2022 tok)
+- `herb_caution_projection.py` — Project warnings locally from existing rules and validated model responses; never infer. (~2968 tok)
+- `herb_caution_repository.py` — Persist local warning projections and publish compatible positive/caution generations atomically. (~4798 tok)
+- `herb_conditions.py` — Read a product's positive conditions from the same published generation as its ranking. (~1597 tok)
+- `herb_evidence.py` — Read complete source fragments from one published positive-association generation. (~2546 tok)
 - `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~5562 tok)
 - `herb_ranking.py` — Read a bounded catalog ranking with regional Romanian names. (~1810 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9172 tok)
@@ -150,11 +153,11 @@
 
 ## src/backend/core/
 
-- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~1412 tok)
+- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~1644 tok)
 - `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~15231 tok)
 - `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~992 tok)
 - `models.py` — Minimal medical context collected before report generation. (~4792 tok)
-- `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~14410 tok)
+- `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~14517 tok)
 - `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~4921 tok)
 - `texts.py` — Validated Romanian copy; imports are inert and each process owns one immutable snapshot. (~867 tok)
 
@@ -172,6 +175,7 @@
 - `025_rename_linum_usitatissimum_ro.sql` — Rename only the requested species; retain its identity, taxonomy and ranking evidence. (~112 tok)
 - `026_remove_medicines_and_merge_bee_products.sql` — Remove the approved medicine identity; preserve all remaining catalog evidence. (~741 tok)
 - `027_essential_oil_source_aliases.sql` — Match mixed Romanian/English oil names without guessing botanical variants or chemotypes. (~279 tok)
+- `028_herb_caution_rankings.sql` — Warning projections consume existing decisions; they never schedule inference. (~2496 tok)
 
 ## src/backend/reporting/
 
@@ -179,12 +183,12 @@
 
 ## src/backend/resources/
 
-- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~8183 tok)
+- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~8541 tok)
 
 ## src/backend/web/
 
 - `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~416 tok)
-- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~11501 tok)
+- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~11726 tok)
 - `texts.py` — Bootstrap public copy in the original Vite HTML; assets retain normal static serving. (~558 tok)
 
 ## src/frontend/
@@ -193,23 +197,23 @@
 - `index.html` — __APP_TITLE__ (~135 tok)
 - `main.tsx` — queryClient (~220 tok)
 - `setupTests.ts` — Declares __APP_TEST_TEXTS__ (~148 tok)
-- `styles.css` — Styles: 91 rules, 13 vars (~9002 tok)
+- `styles.css` — Styles: 91 rules, 13 vars (~9170 tok)
 - `vite.config.ts` — / <reference types="vitest/config" /> (~1158 tok)
 
 ## src/frontend/api/
 
 - `client.test.ts` — Declares lockRequest (~1287 tok)
-- `client.ts` — API routes: GET (1 endpoints) (~2308 tok)
-- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~1890 tok)
+- `client.ts` — API routes: GET (1 endpoints) (~2349 tok)
+- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~2016 tok)
 
 ## src/frontend/components/
 
 - `Composer.tsx` — MAX_CHAT_CHARS — renders form (~1017 tok)
 - `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3158 tok)
 - `GeneratePanel.tsx` — Display names are editable; provider routing continues to use the original IDs. (~2894 tok)
-- `HerbConditionsPanel.test.tsx` — message (~1708 tok)
-- `HerbConditionsPanel.tsx` — HerbConditionsPanel (~500 tok)
-- `HerbEvidencePanel.tsx` — Python offsets count Unicode code points; ordinary JS slice counts UTF-16 units. (~1545 tok)
+- `HerbConditionsPanel.test.tsx` — message (~2268 tok)
+- `HerbConditionsPanel.tsx` — HerbConditionsPanel (~1232 tok)
+- `HerbEvidencePanel.tsx` — Python offsets count Unicode code points; ordinary JS slice counts UTF-16 units. (~1730 tok)
 
 ## src/frontend/lib/
 
@@ -217,18 +221,19 @@
 
 ## src/scripts/
 
-- `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~17022 tok)
+- `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~17287 tok)
+- `caution_herb_ranking.py` — Prepare and publish warning projections using indexed data and caches only, without AI. (~284 tok)
 - `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~18728 tok)
 - `manage_texts.py` — Export public copy and regenerate key/parameter metadata, never a second editable catalog. (~783 tok)
-- `positive_herb_ranking.py` — Explicit, resumable positive-ranking stages used by the existing index CLI. (~3288 tok)
+- `positive_herb_ranking.py` — Explicit, resumable positive-ranking stages used by the existing index CLI. (~3782 tok)
 - `set_gpu_clock.bat` (~827 tok)
 - `setup_gpu_clock.bat` (~593 tok)
 
 ## src/tests/integration/
 
 - `test_condition_database.py` — Reconstruct disposable databases from SQL, never from the removed JSONL. (~4307 tok)
-- `test_herb_conditions.py` — Actual PostgreSQL DISTINCT, aliases and literal ILIKE matching in an isolated DB. (~7926 tok)
-- `test_herb_database.py` — Rebuild and upgrade isolated PostgreSQL databases using only packaged SQL. (~6131 tok)
+- `test_herb_conditions.py` — Actual PostgreSQL DISTINCT, aliases and literal ILIKE matching in an isolated DB. (~8622 tok)
+- `test_herb_database.py` — Rebuild and upgrade isolated PostgreSQL databases using only packaged SQL. (~6379 tok)
 - `test_herbs_index.py` — Atomic derived associations on an isolated PostgreSQL fixture. (~8606 tok)
 
 ## src/tests/support/
@@ -237,7 +242,7 @@
 
 ## src/tests/unit/ai/
 
-- `test_build_hybrid_index.py` — FakeClock: make_chunk, embed, fake_embed, test_normalize_text_preserves_composed_romanian_diacritics (~16660 tok)
+- `test_build_hybrid_index.py` — FakeClock: make_chunk, embed, fake_embed, test_normalize_text_preserves_composed_romanian_diacritics (~17347 tok)
 - `test_document_spelling.py` — DocumentSpellingTests: setUp, write, clean, rows + 17 more (~3256 tok)
 - `test_message_classification.py` — Strict intent contract and local Ollama wiring; no external traffic. (~5471 tok)
 
@@ -247,4 +252,4 @@
 
 ## src/tests/unit/web/
 
-- `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~8403 tok)
+- `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~8732 tok)

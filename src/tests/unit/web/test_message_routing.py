@@ -302,6 +302,12 @@ def test_plant_returns_structured_results_without_search_or_identification(web, 
             "positiveRunId": "synthetic-positive-run",
             "fragmentsCount": count,
             "documentsCount": count,
+            "cautionRunId": "synthetic-caution-run",
+            "contraindicationsStatus": "ready",
+            "contraindicationsCount": 1,
+            "contraindications": [{"id": 11, "name": "Zorbita", "hasRecommendation": bool(count)}],
+            "contraindicationFragmentsCount": 1,
+            "contraindicationDocumentsCount": 1,
         }
     )
     test.deps.retriever.category_tree = object()  # Empty categories must not block a plant query.
@@ -326,11 +332,47 @@ def test_plant_returns_structured_results_without_search_or_identification(web, 
     headers = support._headers(sid, tab)
     response = test.client.get(url, headers=headers)
     assert response.status_code == 200 and response.json()["fragmentsCount"] == count
-    evidence.assert_called_once_with(17, "synthetic-positive-run", condition_id=None, offset=0)
+    evidence.assert_called_once_with(
+        17,
+        "synthetic-positive-run",
+        condition_id=None,
+        offset=0,
+        evidence_kind="positive",
+        caution_run_id="synthetic-caution-run",
+    )
     if count:
         assert test.client.get(url + "?conditionId=1&offset=20", headers=headers).status_code == 200
-        evidence.assert_called_with(17, "synthetic-positive-run", condition_id=1, offset=20)
+        evidence.assert_called_with(
+            17,
+            "synthetic-positive-run",
+            condition_id=1,
+            offset=20,
+            evidence_kind="positive",
+            caution_run_id="synthetic-caution-run",
+        )
+    assert (
+        test.client.get(
+            url + "?evidenceKind=contraindication&conditionId=11", headers=headers
+        ).status_code
+        == 200
+    )
+    evidence.assert_called_with(
+        17,
+        "synthetic-positive-run",
+        condition_id=11,
+        offset=0,
+        evidence_kind="contraindication",
+        caution_run_id="synthetic-caution-run",
+    )
     calls = evidence.call_count
+    assert (
+        test.client.get(
+            url + "?evidenceKind=contraindication&conditionId=1", headers=headers
+        ).status_code
+        == 422
+    )
+    assert test.client.get(url + "?conditionId=11", headers=headers).status_code == 422
+    assert test.client.get(url + "?evidenceKind=invalid", headers=headers).status_code == 422
     assert test.client.get(url + "?conditionId=999", headers=headers).status_code == 422
     assert test.client.get(url + "?offset=-1", headers=headers).status_code == 422
     assert test.client.get("/api/herb-evidence/missing-group", headers=headers).status_code == 404
