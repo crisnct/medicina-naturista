@@ -26,6 +26,7 @@ from backend.core.contracts import (
     Evidence,
     IdentifyCondition,
     ListTopHerbs,
+    ListTopHerbsForCondition,
     LookupHerb,
     RecordReportMetrics,
     RenderPDF,
@@ -274,6 +275,7 @@ class ConversationService:
     report_model_choice: str = ""
     report_ai_effort: str | None = None
     record_report_metrics: RecordReportMetrics | None = None
+    top_herbs_for_condition: ListTopHerbsForCondition | None = None
 
     def budget(self, operation: SessionOperation) -> OperationBudget:
         def batch_progress(completed: int, total: int, report: ValidatedReport | None) -> None:
@@ -399,9 +401,13 @@ class ConversationService:
                 message=message,
                 clarification=previous.clarification,
                 herb_choices=previous.herb_choices,
+                top_herb_choices=previous.top_herb_choices,
                 top_count=previous.top_count,
                 top_category=previous.top_category,
                 top_clarification=previous.top_clarification,
+                top_condition=previous.top_condition,
+                top_condition_choices=previous.top_condition_choices,
+                top_condition_required=previous.top_condition_required,
                 report_id=(
                     previous.report_id
                     if previous.clarification == "email_raport"
@@ -463,22 +469,52 @@ class ConversationService:
                     "contextRevision": snapshot.context_revision,
                 }
             notices = []
+            selected_herb = None
+            if routing.top_herb_choices and re.fullmatch(r"[0-9]+", routing.message):
+                # Resolve against the displayed order, without AI or a fresh ranking query.
+                selected_herb = next(
+                    (
+                        name
+                        for position, name in enumerate(routing.top_herb_choices, 1)
+                        if str(position) == routing.message.lstrip("0")
+                    ),
+                    None,
+                )
+                if selected_herb is None:
+                    routing.intent = "top_plante"
+                    routing.classified = True
+                    notices.append(
+                        text_message(
+                            "assistant",
+                            tr(
+                                "conversation.herb_ranking_selection_invalid",
+                                count=len(routing.top_herb_choices),
+                            ),
+                        )
+                    )
+                    return self._commit_route(operation, notices)
             try:
                 self.store.checkpoint(operation)
                 with operation_budget(self.budget(operation)):
-                    if self.classify_message is None:
+                    if selected_herb is not None:
+                        decision = MessageClassification(intent="planta", herb_name=selected_herb)
+                    elif self.classify_message is None:
                         raise AIUnavailable("Clasificatorul nu este configurat.")
-                    decision = self.classify_message(
-                        routing.message,
-                        {
-                            "report_available": routing.report_id is not None,
-                            "pending_clarification": routing.clarification or None,
-                            "herb_choices": list(routing.herb_choices),
-                            "top_count": routing.top_count,
-                            "top_category": routing.top_category,
-                            "top_clarification": routing.top_clarification,
-                        },
-                    )
+                    else:
+                        decision = self.classify_message(
+                            routing.message,
+                            {
+                                "report_available": routing.report_id is not None,
+                                "pending_clarification": routing.clarification or None,
+                                "herb_choices": list(routing.herb_choices),
+                                "top_count": routing.top_count,
+                                "top_category": routing.top_category,
+                                "top_clarification": routing.top_clarification,
+                                "top_condition": routing.top_condition,
+                                "top_condition_choices": list(routing.top_condition_choices),
+                                "top_condition_required": routing.top_condition_required,
+                            },
+                        )
             except OperationCancelled:
                 raise
             except (AIUnavailable, ValueError) as exc:
@@ -494,6 +530,9 @@ class ConversationService:
                         "top_count": routing.top_count,
                         "top_category": routing.top_category,
                         "top_clarification": routing.top_clarification,
+                        "top_condition": routing.top_condition,
+                        "top_condition_choices": list(routing.top_condition_choices),
+                        "top_condition_required": routing.top_condition_required,
                     },
                 )
                 if explicit_top is not None:
@@ -521,9 +560,14 @@ class ConversationService:
             routing.classified = True
             routing.clarification = ""
             routing.herb_choices = ()
+            routing.top_herb_choices = ()
             routing.top_count = None
             routing.top_category = None
             routing.top_clarification = None
+            routing.top_condition = None
+            routing.top_condition_choices = ()
+            if decision.intent != "top_plante":
+                routing.top_condition_required = False
             if decision.intent == "diverse" and not decision.needs_clarification:
                 notices.append(text_message("assistant", general_question_notice()))
             if decision.intent == "email_raport":
@@ -621,6 +665,16 @@ class ConversationService:
             routing.top_count = decision.top_count
             routing.top_category = decision.top_category
             routing.top_clarification = decision.top_clarification
+            routing.top_condition = decision.top_condition
+            # Keep a requested disease filter even when category and disease are both
+            # missing; a category-only reply must not accidentally execute a global top.
+            routing.top_condition_required = (
+                decision.top_condition is not None
+                or decision.top_clarification == "condition"
+                or bool(re.search(r"\b(pentru|contra|impotriva)\b", _normalize(routing.message)))
+                or routing.top_condition_required
+                and not re.search(r"\b(top|topul|primele|cele mai)\b", _normalize(routing.message))
+            )
             clarification = (
                 tr(
                     "conversation.choose_category",
@@ -630,34 +684,94 @@ class ConversationService:
                     ),
                 )
                 if decision.top_clarification == "category"
+                else tr("conversation.herb_ranking_condition_question")
+                if decision.top_clarification == "condition"
                 else tr("conversation.herb_ranking_count_question")
             )
             notices.append(text_message("assistant", clarification))
         else:
-            if self.top_herbs is None:
+            if (
+                self.top_herbs_for_condition is None
+                if decision.top_condition is not None
+                else self.top_herbs is None
+            ):
                 raise ApplicationError(
                     "HERB_CATALOG_UNAVAILABLE",
                     tr("conversation.herb_catalog_unavailable"),
                     503,
                 )
+            condition_name = None
+            result = None
             with operation_budget(self.budget(operation)):
-                herbs = self.top_herbs(decision.top_count, decision.top_category)
+                if decision.top_condition is not None:
+                    assert self.top_herbs_for_condition is not None
+                    result = self.top_herbs_for_condition(
+                        decision.top_count, decision.top_category, decision.top_condition
+                    )
+                    herbs = result.get("herbs", [])
+                else:
+                    assert self.top_herbs is not None
+                    herbs = self.top_herbs(decision.top_count, decision.top_category)
             self.store.checkpoint(operation)
+            # Commit only after the budget's final checkpoint; committing inside its
+            # context would make that checkpoint reject our own completed operation.
+            if result is not None:
+                if result["status"] != "found":
+                    routing = operation.snapshot.routing
+                    routing.clarification = "top_plante"
+                    routing.top_count = decision.top_count
+                    routing.top_category = decision.top_category
+                    routing.top_condition = decision.top_condition
+                    routing.top_clarification = "condition"
+                    routing.top_condition_choices = tuple(result.get("choices", []))[:10]
+                    routing.top_condition_required = True
+                    clarification = (
+                        tr(
+                            "conversation.herb_ranking_condition_choices",
+                            choices="\n".join(
+                                f"{position}. {name}"
+                                for position, name in enumerate(routing.top_condition_choices, 1)
+                            ),
+                        )
+                        if routing.top_condition_choices
+                        else tr("conversation.herb_ranking_condition_unknown")
+                    )
+                    notices.append(text_message("assistant", clarification))
+                    return self._commit_route(operation, notices)
+                condition_name = result["condition"]["name"]
+            operation.snapshot.routing.top_condition_required = False
             label = (
                 category_labels()[decision.top_category]
                 if decision.top_category
+                else tr("conversation.herb_ranking_condition_global_label")
+                if condition_name is not None
                 else global_top_label()
             )
             if not herbs:
-                content = tr("conversation.herb_ranking_empty", label=label)
+                content = (
+                    tr(
+                        "conversation.herb_ranking_condition_empty",
+                        label=label,
+                        condition=condition_name,
+                    )
+                    if condition_name is not None
+                    else tr("conversation.herb_ranking_empty", label=label)
+                )
             else:
                 lines = [
                     tr(
-                        "conversation.herb_ranking_title",
+                        "conversation.herb_ranking_condition_title"
+                        if condition_name is not None
+                        else "conversation.herb_ranking_title",
                         count=len(herbs),
                         label=label,
+                        **({"condition": condition_name} if condition_name is not None else {}),
                     ),
-                    tr("conversation.herb_ranking_notice"),
+                    tr("conversation.herb_ranking_selection_hint"),
+                    "",
+                    tr("conversation.herb_ranking_condition_notice", condition=condition_name)
+                    if condition_name is not None
+                    else tr("conversation.herb_ranking_notice"),
                 ]
                 if len(herbs) < decision.top_count:
                     lines.append(
@@ -695,6 +809,10 @@ class ConversationService:
                         )
                     )
                 content = "\n".join(lines)
+                # Latin identifies a botanical row even when several species share its name.
+                operation.snapshot.routing.top_herb_choices = tuple(
+                    herb["latin"] or herb["ro"] for herb in herbs
+                )
             notices.append(text_message("assistant", content))
         return self._commit_route(operation, notices)
 

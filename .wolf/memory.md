@@ -829,3 +829,73 @@ description: chronological action log per session, consolidated weekly
 | 21:01 | Edited src/scripts/clean_documents.py | inline fix | ~30 |
 | 21:02 | Edited src/scripts/clean_documents.py | 12→12 lines | ~131 |
 | 21:09 | Edited aiPlans/2026-10-25-clean-documents-stable.md | expanded (+10 lines) | ~357 |
+
+## Session: 2026-10-26 05:42
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-10-26 05:42
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 05:48 | Created aiPlans/2026-10-26-top-produse-naturiste-pentru-afectiune.md | — | ~4113 |
+| 05:48 | Edited aiPlans/2026-10-26-top-produse-naturiste-pentru-afectiune.md | 2→2 lines | ~37 |
+
+## Session: 2026-10-26 05:51
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 05:57 | Edited src/backend/core/contracts.py | modified ConditionTopResult() | ~117 |
+| 05:57 | Edited src/backend/core/herb_categories.py | inline fix | ~18 |
+| 05:57 | Edited src/backend/core/models.py | 1→3 lines | ~40 |
+| 05:57 | Edited src/backend/ai/conditions.py | modified exact() | ~147 |
+| 05:57 | Edited src/backend/ai/herb_ranking.py | modified _validate_scope() | ~1097 |
+| 05:57 | Edited src/backend/ai/message_classification.py | added 1 condition(s) | ~1701 |
+| 05:57 | Created aiPlans/2026-10-26-plante-afectiuni-utile-si-interzise.md | — | ~5016 |
+| 05:58 | Edited src/backend/ai/message_classification.py | modified explicit_herb_request() | ~555 |
+| 05:59 | Edited src/backend/core/conversation.py | added 1 condition(s) | ~1282 |
+| 05:59 | Edited src/backend/web/dependencies.py | 2→4 lines | ~48 |
+| 05:59 | Edited src/backend/web/main.py | 2→4 lines | ~78 |
+| 05:59 | Edited src/backend/resources/texts.ro.toml | expanded (+8 lines) | ~332 |
+| 05:59 | Edited src/frontend/components/Composer.tsx | 1→2 lines | ~64 |
+| 05:59 | Edited src/backend/ai/prompts/message_classification_system.md | expanded (+15 lines) | ~589 |
+| 05:59 | Edited src/tests/unit/ai/test_message_classification.py | inline fix | ~26 |
+| 05:59 | Edited src/frontend/App.test.tsx | 3→3 lines | ~49 |
+| 05:59 | Edited src/frontend/styles.css | CSS: max-width, overflow-wrap | ~20 |
+| 06:00 | Edited src/tests/unit/ai/test_message_classification.py | 4→5 lines | ~47 |
+| 06:00 | Edited README.md | 2→5 lines | ~951 |
+| 06:01 | Edited src/backend/ai/message_classification.py | 4→4 lines | ~68 |
+| 06:01 | Edited src/backend/ai/message_classification.py | 4→4 lines | ~67 |
+| 06:04 | Edited aiPlans/2026-10-26-plante-afectiuni-utile-si-interzise.md | expanded (+88 lines) | ~3798 |
+| 06:05 | Edited aiPlans/2026-10-26-plante-afectiuni-utile-si-interzise.md | 7→5 lines | ~142 |
+| 06:06 | Created aiPlans/tmp/condition-top-20261026/verify.py | — | ~2612 |
+| 06:07 | Edited aiPlans/tmp/condition-top-20261026/verify.py | 2→3 lines | ~85 |
+| 06:07 | Edited aiPlans/tmp/condition-top-20261026/verify.py | 2→2 lines | ~66 |
+| 06:08 | Created aiPlans/tmp/condition-top-20261026/preview.cjs | — | ~356 |
+| 06:08 | Created aiPlans/tmp/condition-top-20261026/preview_server.py | — | ~522 |
+| 06:09 | Edited aiPlans/tmp/condition-top-20261026/verify.py | 1→2 lines | ~37 |
+| 06:11 | Edited src/backend/core/conversation.py | 29→30 lines | ~481 |
+| 06:14 | Edited src/backend/ai/message_classification.py | modified _semantic_condition_top() | ~449 |
+| 06:14 | Edited aiPlans/tmp/condition-top-20261026/verify.py | — | ~0 |
+| 06:15 | Edited src/backend/core/conversation.py | 4→6 lines | ~81 |
+| 06:15 | Edited src/backend/resources/texts.ro.toml | 1→2 lines | ~36 |
+| 06:19 | Edited src/backend/ai/message_classification.py | added 1 condition(s) | ~314 |
+| 06:19 | Edited src/backend/core/models.py | 1→2 lines | ~26 |
+| 06:19 | Edited src/backend/core/conversation.py | expanded (+16 lines) | ~449 |
+| 06:19 | Edited src/backend/ai/prompts/message_classification_system.md | 1→2 lines | ~52 |
+| 06:21 | Edited aiPlans/2026-10-26-top-produse-naturiste-pentru-afectiune.md | expanded (+53 lines) | ~1093 |
+
+## Session: 2026-10-26 06:25
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 06:27 | Edited src/backend/core/models.py | 1→2 lines | ~24 |
+| 06:27 | Edited src/backend/core/conversation.py | modified fullmatch() | ~813 |
+| 06:27 | Edited src/backend/resources/texts.ro.toml | 1→3 lines | ~70 |
+| 06:27 | Edited README.md | 1→3 lines | ~159 |
+| 06:28 | Edited src/tests/unit/web/test_message_routing.py | expanded (+37 lines) | ~516 |
+| 06:35 | Edited src/backend/resources/texts.ro.toml | 1→2 lines | ~78 |
+| 06:35 | Edited src/backend/core/conversation.py | 3→5 lines | ~88 |
+| 06:35 | Edited src/tests/unit/web/test_message_routing.py | 2→4 lines | ~107 |
+| 06:35 | Edited README.md | 2→4 lines | ~57 |

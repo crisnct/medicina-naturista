@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-25T19:09:37.487Z",
-    "fileCount": 136,
+    "lastScanned": "2026-10-26T04:35:14.149Z",
+    "fileCount": 143,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "96c74acf5043a71307b4026ed479ceeb605568c821b4c13b04274f46723503cf",
-    "storeUpdatedAt": "2026-10-25T19:09:37.496Z",
-    "rootHash": "2a4a8fc0be8c23d0"
+    "renderedHash": "7a08c277a86d84a3cef0342b011317f2ec01f34eb939048c962ccf3765cb43c9",
+    "storeUpdatedAt": "2026-10-26T04:35:14.160Z",
+    "rootHash": "fd4db8604e48afa2"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -170,11 +170,11 @@
     },
     "src/frontend/styles.css": {
       "description": "Styles: 91 rules, 13 vars",
-      "tokens": 8987,
-      "hash": "f6058609ed450cfc",
-      "size": 31452,
-      "mtimeMs": 1792819817207.9595,
-      "updatedAt": "2026-10-24T05:30:18.595Z",
+      "tokens": 9002,
+      "hash": "16deaaa3223c3d00",
+      "size": 31504,
+      "mtimeMs": 1792987191648.418,
+      "updatedAt": "2026-10-26T03:59:52.978Z",
       "source": "hook"
     },
     "src/backend/core/texts.py": {
@@ -320,11 +320,11 @@
     },
     "src/backend/web/main.py": {
       "description": "FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits.",
-      "tokens": 11454,
-      "hash": "91bcb16657641caa",
-      "size": 40087,
-      "mtimeMs": 1792819919477.8535,
-      "updatedAt": "2026-10-24T05:32:00.305Z",
+      "tokens": 11501,
+      "hash": "f25417a97a86bfa5",
+      "size": 40254,
+      "mtimeMs": 1792987147182.563,
+      "updatedAt": "2026-10-26T03:59:08.331Z",
       "source": "hook",
       "symbols": [
         {
@@ -506,35 +506,35 @@
           "name": "_conversation",
           "kind": "fn",
           "startLine": 398,
-          "endLine": 424,
-          "tokens": 316
+          "endLine": 426,
+          "tokens": 354
         },
         {
           "name": "post_message",
           "kind": "fn",
-          "startLine": 425,
-          "endLine": 435,
+          "startLine": 427,
+          "endLine": 437,
           "tokens": 86
         },
         {
           "name": "post_condition",
           "kind": "fn",
-          "startLine": 436,
-          "endLine": 440,
+          "startLine": 438,
+          "endLine": 442,
           "tokens": 46
         },
         {
           "name": "post_classify",
           "kind": "fn",
-          "startLine": 441,
-          "endLine": 448,
+          "startLine": 443,
+          "endLine": 450,
           "tokens": 86
         },
         {
           "name": "post_search",
           "kind": "fn",
-          "startLine": 449,
-          "endLine": 1056,
+          "startLine": 451,
+          "endLine": 1058,
           "tokens": 6515
         }
       ]
@@ -812,11 +812,11 @@
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 30482,
-      "hash": "4a05e5885e9a666f",
-      "size": 127039,
-      "mtimeMs": 1792954539692.7703,
-      "updatedAt": "2026-10-25T18:55:40.757Z",
+      "tokens": 31119,
+      "hash": "60408e0ec7bc6c0f",
+      "size": 129733,
+      "mtimeMs": 1792989312836.6707,
+      "updatedAt": "2026-10-26T04:35:14.148Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -880,38 +880,38 @@
     },
     "src/backend/resources/texts.ro.toml": {
       "description": "Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română.",
-      "tokens": 7794,
-      "hash": "47e61cd822cc9b9a",
-      "size": 30172,
-      "mtimeMs": 1792819743978.7559,
-      "updatedAt": "2026-10-24T05:29:05.408Z",
+      "tokens": 8183,
+      "hash": "3452199689657f71",
+      "size": 31673,
+      "mtimeMs": 1792989312833.6594,
+      "updatedAt": "2026-10-26T04:35:13.330Z",
       "source": "hook"
     },
     "src/frontend/components/Composer.tsx": {
       "description": "MAX_CHAT_CHARS — renders form",
-      "tokens": 986,
-      "hash": "8a9811bd603d5a0b",
-      "size": 3451,
-      "mtimeMs": 1792762910765.4773,
-      "updatedAt": "2026-10-23T13:41:51.173Z",
+      "tokens": 1017,
+      "hash": "1d7341cac422b620",
+      "size": 3559,
+      "mtimeMs": 1792987147188.671,
+      "updatedAt": "2026-10-26T03:59:08.787Z",
       "source": "hook",
       "symbols": [
         {
           "name": "Composer",
           "kind": "fn",
           "startLine": 6,
-          "endLine": 82,
-          "tokens": 925
+          "endLine": 83,
+          "tokens": 955
         }
       ]
     },
     "src/backend/core/herb_categories.py": {
       "description": "Catalog groups and ranking scopes, independent of taxonomy and matching names.",
-      "tokens": 988,
-      "hash": "1e50e6658c55cc42",
-      "size": 3458,
-      "mtimeMs": 1792765821228.394,
-      "updatedAt": "2026-10-23T14:30:21.687Z",
+      "tokens": 992,
+      "hash": "01a3c3b034994bc5",
+      "size": 3471,
+      "mtimeMs": 1792987031867.673,
+      "updatedAt": "2026-10-26T03:57:12.774Z",
       "source": "hook",
       "symbols": [
         {
@@ -932,78 +932,92 @@
     },
     "src/backend/ai/message_classification.py": {
       "description": "Small, validated intent decisions through the existing local Ollama model.",
-      "tokens": 7160,
-      "hash": "619b4acc4f1eb5b0",
-      "size": 25069,
-      "mtimeMs": 1792579021632.9348,
-      "updatedAt": "2026-10-21T10:37:02.107Z",
+      "tokens": 9172,
+      "hash": "b03605c88be84de4",
+      "size": 32119,
+      "mtimeMs": 1792988354602.9346,
+      "updatedAt": "2026-10-26T04:19:15.134Z",
       "source": "hook",
       "symbols": [
         {
           "name": "MessageClassification",
           "kind": "class",
-          "startLine": 34,
-          "endLine": 69,
-          "tokens": 572
+          "startLine": 35,
+          "endLine": 78,
+          "tokens": 667
         },
         {
           "name": "explicit_remedy_request",
           "kind": "fn",
-          "startLine": 70,
-          "endLine": 100,
+          "startLine": 79,
+          "endLine": 109,
           "tokens": 406
         },
         {
           "name": "_top_categories",
           "kind": "fn",
-          "startLine": 101,
-          "endLine": 117,
+          "startLine": 110,
+          "endLine": 126,
           "tokens": 160
         },
         {
           "name": "_top_decision",
           "kind": "fn",
-          "startLine": 118,
-          "endLine": 132,
-          "tokens": 158
+          "startLine": 127,
+          "endLine": 153,
+          "tokens": 216
+        },
+        {
+          "name": "_condition_herb_top",
+          "kind": "fn",
+          "startLine": 154,
+          "endLine": 224,
+          "tokens": 982
         },
         {
           "name": "explicit_herb_top",
           "kind": "fn",
-          "startLine": 133,
-          "endLine": 223,
-          "tokens": 1257
+          "startLine": 225,
+          "endLine": 326,
+          "tokens": 1373
         },
         {
           "name": "complete_general_question",
           "kind": "fn",
-          "startLine": 224,
-          "endLine": 247,
+          "startLine": 327,
+          "endLine": 350,
           "tokens": 301
         },
         {
           "name": "explicit_herb_request",
           "kind": "fn",
-          "startLine": 248,
-          "endLine": 278,
+          "startLine": 351,
+          "endLine": 381,
           "tokens": 368
+        },
+        {
+          "name": "_semantic_condition_top",
+          "kind": "fn",
+          "startLine": 382,
+          "endLine": 419,
+          "tokens": 446
         },
         {
           "name": "MessageClassifier",
           "kind": "class",
-          "startLine": 279,
-          "endLine": 530,
-          "tokens": 3508
+          "startLine": 420,
+          "endLine": 688,
+          "tokens": 3767
         }
       ]
     },
     "src/backend/ai/prompts/message_classification_system.md": {
       "description": "Rol",
-      "tokens": 3547,
-      "hash": "2f90202b16446a0b",
-      "size": 14868,
-      "mtimeMs": 1792765821229.3933,
-      "updatedAt": "2026-10-23T14:30:22.166Z",
+      "tokens": 3940,
+      "hash": "ffefaf43110c4713",
+      "size": 16534,
+      "mtimeMs": 1792988397131.3733,
+      "updatedAt": "2026-10-26T04:19:57.737Z",
       "source": "hook"
     },
     "src/backend/migrations/018_reclassify_oils_medicines_and_beta_carotene.sql": {
@@ -1067,169 +1081,169 @@
     },
     "src/backend/core/conversation.py": {
       "description": "Conversation orchestration, independent of FastAPI and frontend modules.",
-      "tokens": 13282,
-      "hash": "d3e0896ba217c2cd",
-      "size": 46496,
-      "mtimeMs": 1792576796436.8728,
-      "updatedAt": "2026-10-21T09:59:57.365Z",
+      "tokens": 15231,
+      "hash": "74576749d26f2ffa",
+      "size": 53319,
+      "mtimeMs": 1792989312834.6687,
+      "updatedAt": "2026-10-26T04:35:13.549Z",
       "source": "hook",
       "symbols": [
         {
           "name": "no_fragment_above_min_score",
           "kind": "fn",
-          "startLine": 63,
-          "endLine": 66,
+          "startLine": 64,
+          "endLine": 67,
           "tokens": 29
         },
         {
           "name": "welcome",
           "kind": "fn",
-          "startLine": 67,
-          "endLine": 70,
+          "startLine": 68,
+          "endLine": 71,
           "tokens": 18
         },
         {
           "name": "no_category_selected_message",
           "kind": "fn",
-          "startLine": 71,
-          "endLine": 74,
+          "startLine": 72,
+          "endLine": 75,
           "tokens": 30
         },
         {
           "name": "condition_ai_notice",
           "kind": "fn",
-          "startLine": 75,
-          "endLine": 78,
+          "startLine": 76,
+          "endLine": 79,
           "tokens": 25
         },
         {
           "name": "condition_not_identified_message",
           "kind": "fn",
-          "startLine": 79,
-          "endLine": 82,
+          "startLine": 80,
+          "endLine": 83,
           "tokens": 32
         },
         {
           "name": "condition_not_identified_continues",
           "kind": "fn",
-          "startLine": 83,
-          "endLine": 89,
+          "startLine": 84,
+          "endLine": 90,
           "tokens": 60
         },
         {
           "name": "condition_not_identified_stops",
           "kind": "fn",
-          "startLine": 90,
-          "endLine": 96,
+          "startLine": 91,
+          "endLine": 97,
           "tokens": 57
         },
         {
           "name": "email_offer",
           "kind": "fn",
-          "startLine": 97,
-          "endLine": 103,
+          "startLine": 98,
+          "endLine": 104,
           "tokens": 48
         },
         {
           "name": "diverse_signals_message",
           "kind": "fn",
-          "startLine": 104,
-          "endLine": 107,
+          "startLine": 105,
+          "endLine": 108,
           "tokens": 27
         },
         {
           "name": "general_question_notice",
           "kind": "fn",
-          "startLine": 108,
-          "endLine": 111,
+          "startLine": 109,
+          "endLine": 112,
           "tokens": 27
         },
         {
           "name": "classification_unavailable",
           "kind": "fn",
-          "startLine": 112,
-          "endLine": 115,
+          "startLine": 113,
+          "endLine": 116,
           "tokens": 29
         },
         {
           "name": "email_candidates",
           "kind": "fn",
-          "startLine": 116,
-          "endLine": 134,
+          "startLine": 117,
+          "endLine": 135,
           "tokens": 192
         },
         {
           "name": "email_request_hint",
           "kind": "fn",
-          "startLine": 135,
-          "endLine": 149,
+          "startLine": 136,
+          "endLine": 150,
           "tokens": 248
         },
         {
           "name": "document_count_for_categories",
           "kind": "fn",
-          "startLine": 150,
-          "endLine": 163,
+          "startLine": 151,
+          "endLine": 164,
           "tokens": 153
         },
         {
           "name": "needs_condition_ai",
           "kind": "fn",
-          "startLine": 164,
-          "endLine": 169,
+          "startLine": 165,
+          "endLine": 170,
           "tokens": 78
         },
         {
           "name": "report_started_message",
           "kind": "fn",
-          "startLine": 170,
-          "endLine": 189,
+          "startLine": 171,
+          "endLine": 190,
           "tokens": 337
         },
         {
           "name": "condition_identified_message",
           "kind": "fn",
-          "startLine": 190,
-          "endLine": 232,
+          "startLine": 191,
+          "endLine": 233,
           "tokens": 381
         },
         {
           "name": "evidence_above",
           "kind": "fn",
-          "startLine": 233,
-          "endLine": 240,
+          "startLine": 234,
+          "endLine": 241,
           "tokens": 66
         },
         {
           "name": "evidence_within_budget",
           "kind": "fn",
-          "startLine": 241,
-          "endLine": 256,
+          "startLine": 242,
+          "endLine": 257,
           "tokens": 133
         },
         {
           "name": "cancelled",
           "kind": "fn",
-          "startLine": 257,
-          "endLine": 261,
+          "startLine": 258,
+          "endLine": 262,
           "tokens": 36
         },
         {
           "name": "ConversationService",
           "kind": "class",
-          "startLine": 262,
-          "endLine": 1096,
-          "tokens": 10424
+          "startLine": 263,
+          "endLine": 1220,
+          "tokens": 12329
         }
       ]
     },
     "src/tests/unit/ai/test_message_classification.py": {
       "description": "Strict intent contract and local Ollama wiring; no external traffic.",
-      "tokens": 5461,
-      "hash": "68863715304b6683",
-      "size": 19167,
-      "mtimeMs": 1792765867377.1445,
-      "updatedAt": "2026-10-23T14:31:07.889Z",
+      "tokens": 5471,
+      "hash": "22e9a15c65cf744a",
+      "size": 19201,
+      "mtimeMs": 1792987224671.3484,
+      "updatedAt": "2026-10-26T04:00:25.171Z",
       "source": "hook",
       "symbols": [
         {
@@ -1258,7 +1272,7 @@
           "kind": "fn",
           "startLine": 125,
           "endLine": 164,
-          "tokens": 510
+          "tokens": 512
         },
         {
           "name": "test_top_contract_rejects_invalid_limits",
@@ -1348,25 +1362,25 @@
           "name": "test_ollama_request_needs_no_hf_token_and_uses_the_existing_endpoint",
           "kind": "fn",
           "startLine": 382,
-          "endLine": 449,
-          "tokens": 770
+          "endLine": 450,
+          "tokens": 778
         },
         {
           "name": "test_failed_ollama_response_is_unavailable_without_a_hf_fallback",
           "kind": "fn",
-          "startLine": 450,
-          "endLine": 465,
+          "startLine": 451,
+          "endLine": 466,
           "tokens": 183
         }
       ]
     },
     "src/tests/unit/web/test_message_routing.py": {
       "description": "Intent routing, cancellation and email claims with isolated HTTP dependencies.",
-      "tokens": 7851,
-      "hash": "432cf1d51bc4072d",
-      "size": 27562,
-      "mtimeMs": 1792819919478.8535,
-      "updatedAt": "2026-10-24T05:32:00.620Z",
+      "tokens": 8403,
+      "hash": "5138872bbd6f3213",
+      "size": 29509,
+      "mtimeMs": 1792989312835.668,
+      "updatedAt": "2026-10-26T04:35:13.873Z",
       "source": "hook",
       "symbols": [
         {
@@ -1422,158 +1436,158 @@
           "name": "test_top_returns_names_and_aliases_without_search_or_report",
           "kind": "fn",
           "startLine": 113,
-          "endLine": 149,
-          "tokens": 507
+          "endLine": 188,
+          "tokens": 1048
         },
         {
           "name": "test_top_without_count_asks_then_accepts_count_only",
           "kind": "fn",
-          "startLine": 150,
-          "endLine": 212,
+          "startLine": 189,
+          "endLine": 251,
           "tokens": 845
         },
         {
           "name": "test_diverse_skips_ai_identification_and_direct_condition_endpoint",
           "kind": "fn",
-          "startLine": 213,
-          "endLine": 236,
+          "startLine": 252,
+          "endLine": 275,
           "tokens": 336
         },
         {
           "name": "test_diverse_only_conditions_requests_other_signals_without_clinical_warning",
           "kind": "fn",
-          "startLine": 237,
-          "endLine": 249,
+          "startLine": 276,
+          "endLine": 288,
           "tokens": 156
         },
         {
           "name": "test_plant_returns_structured_results_without_search_or_identification",
           "kind": "fn",
-          "startLine": 250,
-          "endLine": 314,
+          "startLine": 289,
+          "endLine": 353,
           "tokens": 863
         },
         {
           "name": "test_plant_clarification_is_passed_to_the_next_classification",
           "kind": "fn",
-          "startLine": 315,
-          "endLine": 338,
+          "startLine": 354,
+          "endLine": 377,
           "tokens": 269
         },
         {
           "name": "test_named_reply_finishes_plant_clarification_and_returns_results",
           "kind": "fn",
-          "startLine": 339,
-          "endLine": 372,
+          "startLine": 378,
+          "endLine": 411,
           "tokens": 380
         },
         {
           "name": "test_shared_name_lists_species_then_uses_only_the_user_choice",
           "kind": "fn",
-          "startLine": 373,
-          "endLine": 405,
+          "startLine": 412,
+          "endLine": 444,
           "tokens": 404
         },
         {
           "name": "test_classification_is_reused_without_duplicate_messages_or_calls",
           "kind": "fn",
-          "startLine": 406,
-          "endLine": 417,
+          "startLine": 445,
+          "endLine": 456,
           "tokens": 178
         },
         {
           "name": "test_new_message_discards_late_classification_and_concurrent_call_is_rejected",
           "kind": "fn",
-          "startLine": 418,
-          "endLine": 444,
+          "startLine": 457,
+          "endLine": 483,
           "tokens": 307
         },
         {
           "name": "test_classification_requires_revision_and_search_cannot_bypass_it",
           "kind": "fn",
-          "startLine": 445,
-          "endLine": 451,
+          "startLine": 484,
+          "endLine": 490,
           "tokens": 93
         },
         {
           "name": "test_email_selects_previous_report_before_classification_and_never_resends",
           "kind": "fn",
-          "startLine": 452,
-          "endLine": 482,
+          "startLine": 491,
+          "endLine": 521,
           "tokens": 354
         },
         {
           "name": "test_email_needs_one_explicit_valid_address",
           "kind": "fn",
-          "startLine": 483,
-          "endLine": 497,
+          "startLine": 522,
+          "endLine": 536,
           "tokens": 163
         },
         {
           "name": "test_email_clarification_keeps_its_report_and_can_be_completed_with_address",
           "kind": "fn",
-          "startLine": 498,
-          "endLine": 512,
+          "startLine": 537,
+          "endLine": 551,
           "tokens": 197
         },
         {
           "name": "test_email_without_report_does_not_search",
           "kind": "fn",
-          "startLine": 513,
-          "endLine": 522,
+          "startLine": 552,
+          "endLine": 561,
           "tokens": 126
         },
         {
           "name": "test_email_failure_keeps_pdf_and_claim_prevents_automatic_retry",
           "kind": "fn",
-          "startLine": 523,
-          "endLine": 538,
+          "startLine": 562,
+          "endLine": 577,
           "tokens": 205
         },
         {
           "name": "test_provider_failure_has_controlled_fallback_and_cannot_send_email",
           "kind": "fn",
-          "startLine": 539,
-          "endLine": 549,
+          "startLine": 578,
+          "endLine": 588,
           "tokens": 118
         },
         {
           "name": "test_bare_email_retains_deterministic_fallback",
           "kind": "fn",
-          "startLine": 550,
-          "endLine": 559,
+          "startLine": 589,
+          "endLine": 598,
           "tokens": 107
         },
         {
           "name": "test_duplicate_message_id_cannot_resend_email_even_after_other_messages",
           "kind": "fn",
-          "startLine": 560,
-          "endLine": 581,
+          "startLine": 599,
+          "endLine": 620,
           "tokens": 320
         },
         {
           "name": "test_local_classifier_failure_is_explained_in_the_fallback",
           "kind": "fn",
-          "startLine": 582,
-          "endLine": 593,
+          "startLine": 621,
+          "endLine": 632,
           "tokens": 145
         },
         {
           "name": "test_named_remedy_reply_starts_search_despite_model_clarification",
           "kind": "fn",
-          "startLine": 594,
-          "endLine": 619,
+          "startLine": 633,
+          "endLine": 658,
           "tokens": 351
         }
       ]
     },
     "src/frontend/App.test.tsx": {
       "description": "capacityMessage",
-      "tokens": 1222,
-      "hash": "e55e3aef8e18e575",
-      "size": 4290,
-      "mtimeMs": 1792568158621.8115,
-      "updatedAt": "2026-10-21T07:35:59.908Z",
+      "tokens": 1225,
+      "hash": "623f1d7df5a190fe",
+      "size": 4302,
+      "mtimeMs": 1792987191647.4185,
+      "updatedAt": "2026-10-26T03:59:52.752Z",
       "source": "hook"
     },
     "aiPlans/2026-10-21-topuri-recomandari-pozitive-fara-contraindicatii.md": {
@@ -2424,19 +2438,47 @@
     },
     "src/backend/ai/herb_ranking.py": {
       "description": "Read a bounded catalog ranking with regional Romanian names.",
-      "tokens": 886,
-      "hash": "70afaef048eaa9a7",
-      "size": 3100,
-      "mtimeMs": 1792576796434.87,
-      "updatedAt": "2026-10-21T09:59:56.888Z",
+      "tokens": 1810,
+      "hash": "f68bbf1c998f60e5",
+      "size": 6335,
+      "mtimeMs": 1792987031870.6724,
+      "updatedAt": "2026-10-26T03:57:13.623Z",
       "source": "hook",
       "symbols": [
         {
+          "name": "_validate_scope",
+          "kind": "fn",
+          "startLine": 51,
+          "endLine": 58,
+          "tokens": 91
+        },
+        {
+          "name": "_ranking_connection",
+          "kind": "fn",
+          "startLine": 59,
+          "endLine": 80,
+          "tokens": 268
+        },
+        {
+          "name": "_ranking_rows",
+          "kind": "fn",
+          "startLine": 81,
+          "endLine": 108,
+          "tokens": 284
+        },
+        {
           "name": "list_top_herbs",
           "kind": "fn",
-          "startLine": 36,
-          "endLine": 74,
-          "tokens": 531
+          "startLine": 109,
+          "endLine": 116,
+          "tokens": 90
+        },
+        {
+          "name": "list_top_herbs_for_condition",
+          "kind": "fn",
+          "startLine": 117,
+          "endLine": 161,
+          "tokens": 569
         }
       ]
     },
@@ -3484,11 +3526,11 @@
     },
     "src/backend/core/contracts.py": {
       "description": "Shared data and port contracts; independent of HTTP and the UI.",
-      "tokens": 1312,
-      "hash": "effea653330649a8",
-      "size": 4591,
-      "mtimeMs": 1792819706826.4233,
-      "updatedAt": "2026-10-24T05:28:27.488Z",
+      "tokens": 1412,
+      "hash": "71364405c908191b",
+      "size": 4942,
+      "mtimeMs": 1792987031866.6726,
+      "updatedAt": "2026-10-26T03:57:12.356Z",
       "source": "hook",
       "symbols": [
         {
@@ -3593,8 +3635,15 @@
           "name": "RankedHerb",
           "kind": "class",
           "startLine": 146,
-          "endLine": 154,
+          "endLine": 155,
           "tokens": 50
+        },
+        {
+          "name": "ConditionTopResult",
+          "kind": "class",
+          "startLine": 156,
+          "endLine": 165,
+          "tokens": 97
         }
       ]
     },
@@ -3671,11 +3720,11 @@
     },
     "src/backend/web/dependencies.py": {
       "description": "Injectable boundaries; constructing these objects performs no infrastructure I/O.",
-      "tokens": 388,
-      "hash": "c10fdce7023b7e9d",
-      "size": 1357,
-      "mtimeMs": 1792819743971.7617,
-      "updatedAt": "2026-10-24T05:29:04.784Z",
+      "tokens": 416,
+      "hash": "e59a65ae7104159e",
+      "size": 1455,
+      "mtimeMs": 1792987147179.5754,
+      "updatedAt": "2026-10-26T03:59:08.070Z",
       "source": "hook"
     },
     "src/frontend/api/types.ts": {
@@ -4585,6 +4634,257 @@
           "startLine": 258,
           "endLine": 273,
           "tokens": 229
+        }
+      ]
+    },
+    "aiPlans/2026-10-26-top-produse-naturiste-pentru-afectiune.md": {
+      "description": "Plan: top produse naturiste pentru o afectiune",
+      "tokens": 4761,
+      "hash": "677833f5f4a78bd6",
+      "size": 19111,
+      "mtimeMs": 1792988477779.612,
+      "updatedAt": "2026-10-26T04:21:18.250Z",
+      "source": "hook"
+    },
+    "src/backend/core/models.py": {
+      "description": "Minimal medical context collected before report generation.",
+      "tokens": 4792,
+      "hash": "a6e054d60ae6eae4",
+      "size": 16777,
+      "mtimeMs": 1792988848545.4807,
+      "updatedAt": "2026-10-26T04:27:29.132Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "health_problem_question",
+          "kind": "fn",
+          "startLine": 18,
+          "endLine": 22,
+          "tokens": 30
+        },
+        {
+          "name": "HealthProfile",
+          "kind": "class",
+          "startLine": 23,
+          "endLine": 101,
+          "tokens": 929
+        },
+        {
+          "name": "PendingSearch",
+          "kind": "class",
+          "startLine": 102,
+          "endLine": 115,
+          "tokens": 146
+        },
+        {
+          "name": "MessageRouting",
+          "kind": "class",
+          "startLine": 116,
+          "endLine": 137,
+          "tokens": 198
+        },
+        {
+          "name": "StoredReport",
+          "kind": "class",
+          "startLine": 138,
+          "endLine": 146,
+          "tokens": 52
+        },
+        {
+          "name": "AIStreamRate",
+          "kind": "class",
+          "startLine": 147,
+          "endLine": 174,
+          "tokens": 281
+        },
+        {
+          "name": "AIActivity",
+          "kind": "class",
+          "startLine": 175,
+          "endLine": 200,
+          "tokens": 299
+        },
+        {
+          "name": "ReportGeneration",
+          "kind": "class",
+          "startLine": 201,
+          "endLine": 278,
+          "tokens": 829
+        },
+        {
+          "name": "SessionData",
+          "kind": "class",
+          "startLine": 279,
+          "endLine": 350,
+          "tokens": 1035
+        },
+        {
+          "name": "ConversationGroup",
+          "kind": "class",
+          "startLine": 351,
+          "endLine": 356,
+          "tokens": 47
+        },
+        {
+          "name": "SessionSnapshot",
+          "kind": "class",
+          "startLine": 357,
+          "endLine": 374,
+          "tokens": 159
+        },
+        {
+          "name": "SessionOperation",
+          "kind": "class",
+          "startLine": 375,
+          "endLine": 387,
+          "tokens": 89
+        },
+        {
+          "name": "CommitChange",
+          "kind": "class",
+          "startLine": 388,
+          "endLine": 405,
+          "tokens": 197
+        },
+        {
+          "name": "OperationResult",
+          "kind": "class",
+          "startLine": 406,
+          "endLine": 425,
+          "tokens": 236
+        }
+      ]
+    },
+    "src/backend/ai/conditions.py": {
+      "description": "Medical-condition matching over an ordered PostgreSQL catalog snapshot.",
+      "tokens": 3628,
+      "hash": "b90b41668cca36c5",
+      "size": 12700,
+      "mtimeMs": 1792987031869.6785,
+      "updatedAt": "2026-10-26T03:57:13.351Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "Condition",
+          "kind": "class",
+          "startLine": 21,
+          "endLine": 34,
+          "tokens": 215
+        },
+        {
+          "name": "QuerySegment",
+          "kind": "class",
+          "startLine": 35,
+          "endLine": 43,
+          "tokens": 66
+        },
+        {
+          "name": "ResolvedQuery",
+          "kind": "class",
+          "startLine": 44,
+          "endLine": 64,
+          "tokens": 202
+        },
+        {
+          "name": "_normalize",
+          "kind": "fn",
+          "startLine": 65,
+          "endLine": 68,
+          "tokens": 32
+        },
+        {
+          "name": "make_condition",
+          "kind": "fn",
+          "startLine": 69,
+          "endLine": 108,
+          "tokens": 400
+        },
+        {
+          "name": "_fold_word",
+          "kind": "fn",
+          "startLine": 109,
+          "endLine": 118,
+          "tokens": 103
+        },
+        {
+          "name": "_folded_words",
+          "kind": "fn",
+          "startLine": 119,
+          "endLine": 122,
+          "tokens": 40
+        },
+        {
+          "name": "ConditionDictionary",
+          "kind": "class",
+          "startLine": 123,
+          "endLine": 280,
+          "tokens": 2212
+        },
+        {
+          "name": "load_dictionary",
+          "kind": "fn",
+          "startLine": 281,
+          "endLine": 290,
+          "tokens": 90
+        },
+        {
+          "name": "find_conditions",
+          "kind": "fn",
+          "startLine": 291,
+          "endLine": 296,
+          "tokens": 73
+        },
+        {
+          "name": "resolve_query",
+          "kind": "fn",
+          "startLine": 297,
+          "endLine": 299,
+          "tokens": 27
+        }
+      ]
+    },
+    "aiPlans/2026-10-26-plante-afectiuni-utile-si-interzise.md": {
+      "description": "Plan: afecțiuni în care o plantă este utilă sau interzisă",
+      "tokens": 6644,
+      "hash": "85a2c3b7ceece745",
+      "size": 27714,
+      "mtimeMs": 1792987521731.6921,
+      "updatedAt": "2026-10-26T04:05:22.261Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/condition-top-20261026/verify.py": {
+      "description": "Disposable manual probes; synthetic data only, outside the maintained test suite.",
+      "tokens": 2673,
+      "hash": "9c6d43be0f8c9c05",
+      "size": 9356,
+      "mtimeMs": 1792988067328.6,
+      "updatedAt": "2026-10-26T04:14:28.095Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/condition-top-20261026/preview.cjs": {
+      "description": "path: Preview",
+      "tokens": 357,
+      "hash": "8b1c0477949993c2",
+      "size": 1336,
+      "mtimeMs": 1792987723548.4329,
+      "updatedAt": "2026-10-26T04:08:44.115Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/condition-top-20261026/preview_server.py": {
+      "description": "Loopback-only preview of the real Composer, with synthetic submission feedback.",
+      "tokens": 522,
+      "hash": "2f096874c7cb2940",
+      "size": 1825,
+      "mtimeMs": 1792987723551.3528,
+      "updatedAt": "2026-10-26T04:08:44.335Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "Handler",
+          "kind": "class",
+          "startLine": 13,
+          "endLine": 43,
+          "tokens": 418
         }
       ]
     }

@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-25T19:09:37.487Z
-> Files: 136 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-26T04:35:14.149Z
+> Files: 143 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -11,7 +11,7 @@
 
 - `docker-compose.yaml` — Docker Compose: 4 services (~2178 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~30482 tok)
+- `README.md` — Project documentation (~31119 tok)
 
 ## .claude/agents/
 
@@ -48,6 +48,8 @@
 - `2026-10-22-algoritm-structural-topuri.md` — Algoritm structural pentru topuri: context, roluri si restrictii (~1324 tok)
 - `2026-10-22-calibrare-prompturi-topuri.md` — Calibrarea prompturilor pentru topurile pozitive (~1495 tok)
 - `2026-10-25-clean-documents-stable.md` — Stable document cleaning (~527 tok)
+- `2026-10-26-plante-afectiuni-utile-si-interzise.md` — Plan: afecțiuni în care o plantă este utilă sau interzisă (~6644 tok)
+- `2026-10-26-top-produse-naturiste-pentru-afectiune.md` — Plan: top produse naturiste pentru o afectiune (~4761 tok)
 
 ## aiPlans/tmp/
 
@@ -91,6 +93,12 @@
 
 - `make-report.py` — Audit saved local calibration runs and report the unchanged reference labels. (~3936 tok)
 
+## aiPlans/tmp/condition-top-20261026/
+
+- `preview_server.py` — Loopback-only preview of the real Composer, with synthetic submission feedback. (~522 tok)
+- `preview.cjs` — path: Preview (~357 tok)
+- `verify.py` — Disposable manual probes; synthetic data only, outside the maintained test suite. (~2673 tok)
+
 ## aiPlans/tmp/gemma3-vs-qwen1-20261025/
 
 - `README.md` — Project documentation (~719 tok)
@@ -124,26 +132,28 @@
 ## src/backend/ai/
 
 - `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~8801 tok)
+- `conditions.py` — Medical-condition matching over an ordered PostgreSQL catalog snapshot. (~3628 tok)
 - `herb_association_classification.py` — Bounded local-only polarity classification; validated quotations are source provenance. (~6089 tok)
 - `herb_association_rules.py` — Conservative source-polarity rules over unchanged indexed text and primary conditions. (~15076 tok)
 - `herb_association_scope.py` — Verify local disease identities and source boundaries without fuzzy equivalence. (~2170 tok)
 - `herb_conditions.py` — Read a product's positive conditions from the same published generation as its ranking. (~943 tok)
 - `herb_evidence.py` — Read complete source fragments from one published positive-association generation. (~2022 tok)
 - `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~5562 tok)
-- `herb_ranking.py` — Read a bounded catalog ranking with regional Romanian names. (~886 tok)
-- `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~7160 tok)
+- `herb_ranking.py` — Read a bounded catalog ranking with regional Romanian names. (~1810 tok)
+- `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9172 tok)
 
 ## src/backend/ai/prompts/
 
 - `herb_association_classification_system.md` — Clasificarea afirmatiilor despre produs (~572 tok)
 - `herb_association_classification_transport.md` — Raspuns JSON (~189 tok)
-- `message_classification_system.md` — Rol (~3547 tok)
+- `message_classification_system.md` — Rol (~3940 tok)
 
 ## src/backend/core/
 
-- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~1312 tok)
-- `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~13282 tok)
-- `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~988 tok)
+- `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~1412 tok)
+- `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~15231 tok)
+- `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~992 tok)
+- `models.py` — Minimal medical context collected before report generation. (~4792 tok)
 - `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~14410 tok)
 - `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~4921 tok)
 - `texts.py` — Validated Romanian copy; imports are inert and each process owns one immutable snapshot. (~867 tok)
@@ -169,21 +179,21 @@
 
 ## src/backend/resources/
 
-- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~7794 tok)
+- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~8183 tok)
 
 ## src/backend/web/
 
-- `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~388 tok)
-- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~11454 tok)
+- `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~416 tok)
+- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~11501 tok)
 - `texts.py` — Bootstrap public copy in the original Vite HTML; assets retain normal static serving. (~558 tok)
 
 ## src/frontend/
 
-- `App.test.tsx` — capacityMessage (~1222 tok)
+- `App.test.tsx` — capacityMessage (~1225 tok)
 - `index.html` — __APP_TITLE__ (~135 tok)
 - `main.tsx` — queryClient (~220 tok)
 - `setupTests.ts` — Declares __APP_TEST_TEXTS__ (~148 tok)
-- `styles.css` — Styles: 91 rules, 13 vars (~8987 tok)
+- `styles.css` — Styles: 91 rules, 13 vars (~9002 tok)
 - `vite.config.ts` — / <reference types="vitest/config" /> (~1158 tok)
 
 ## src/frontend/api/
@@ -194,7 +204,7 @@
 
 ## src/frontend/components/
 
-- `Composer.tsx` — MAX_CHAT_CHARS — renders form (~986 tok)
+- `Composer.tsx` — MAX_CHAT_CHARS — renders form (~1017 tok)
 - `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3158 tok)
 - `GeneratePanel.tsx` — Display names are editable; provider routing continues to use the original IDs. (~2894 tok)
 - `HerbConditionsPanel.test.tsx` — message (~1708 tok)
@@ -229,7 +239,7 @@
 
 - `test_build_hybrid_index.py` — FakeClock: make_chunk, embed, fake_embed, test_normalize_text_preserves_composed_romanian_diacritics (~16660 tok)
 - `test_document_spelling.py` — DocumentSpellingTests: setUp, write, clean, rows + 17 more (~3256 tok)
-- `test_message_classification.py` — Strict intent contract and local Ollama wiring; no external traffic. (~5461 tok)
+- `test_message_classification.py` — Strict intent contract and local Ollama wiring; no external traffic. (~5471 tok)
 
 ## src/tests/unit/core/
 
@@ -237,4 +247,4 @@
 
 ## src/tests/unit/web/
 
-- `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~7851 tok)
+- `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~8403 tok)

@@ -13,7 +13,8 @@ Folosește exact aceste chei, în această ordine:
 - `email_address`: șir de caractere sau `null`
 - `top_count`: întreg sau `null`
 - `top_category`: categoria canonică exactă sau `null` pentru top general
-- `top_clarification`: `"count"`, `"category"` sau `null`
+- `top_condition`: expresia afecțiunii cerute pentru top, sau `null` pentru top fără afecțiune
+- `top_clarification`: `"count"`, `"category"`, `"condition"` sau `null`
 - `needs_clarification`: valoare booleană
 
 Nu adăuga alte chei. JSON-ul trebuie să poată fi procesat automat.
@@ -27,7 +28,9 @@ un motiv pentru clarificare: clasifici întrebarea, nu verifici dacă poți răs
 
 Mesajul poate fi însoțit de:
 
-- `top_count`, `top_category`, `top_clarification`: cererea de top păstrată pentru clarificare
+- `top_count`, `top_category`, `top_condition`, `top_clarification`: cererea de top păstrată pentru clarificare
+- `top_condition_choices`: denumirile canonice numerotate propuse pentru alegerea unei afecțiuni
+- `top_condition_required`: filtrul de afecțiune a fost cerut, chiar dacă denumirea încă lipsește
 - `pending_clarification`: intenția pentru care se așteaptă un răspuns (`"email_raport"`, `"planta"`, `"remedii"`, `"top_plante"` sau `null`)
 - `recognized_herbs`: lista plantelor recunoscute de catalogul local în mesajul curent
 
@@ -52,7 +55,7 @@ O cerere explicită de remedii este completă chiar dacă afecțiunea nu era cun
 
 Pentru „remedii” fără afecțiune sau problemă de sănătate identificabilă, setează `needs_clarification=true`.
 
-O cerere de plante sau tratamente pentru o afecțiune este întotdeauna `remedii`, nu `planta`. Nu pune numele afecțiunii în `herb_name`. „Plante” singur nu indică intenția `planta`.
+O cerere de plante sau tratamente pentru o afecțiune este `remedii`, nu `planta`, cu excepția unei cereri explicite de clasament: aceasta este `top_plante`. Nu pune numele afecțiunii în `herb_name`. „Plante” singur nu indică intenția `planta`.
 
 Mai multe afecțiuni în aceeași cerere de remedii nu sunt intenții incompatibile.
 
@@ -87,7 +90,7 @@ Un mesaj format doar dintr-un nume de plantă completează clarificarea de tip `
 
 ## 3. `top_plante`
 
-Alege `top_plante` pentru clasamente ale catalogului, fără o afecțiune. Sunt disponibile exact aceste categorii:
+Alege `top_plante` pentru clasamente ale catalogului, inclusiv clasamente filtrate după o singură afecțiune. Sunt disponibile exact aceste categorii:
 `plante medicinale`, `fructe`, `legume`, `cereale`, `seminte`, `uleiuri esentiale`, `uleiuri`,
 `suplimente`, `aminoacizi`, `vitamine`, `minerale`.
 Produsele apicole, fibrele, probioticele și prebioticele aparțin categoriei `suplimente`; nu constituie categorii separate.
@@ -102,7 +105,7 @@ Categoria `uleiuri` este distinctă de `uleiuri esentiale`; nu se selectează am
 „Top 5 medicamente” cere clarificarea categoriei, cu `top_category=null`,
 `top_clarification="category"`, `needs_clarification=true`; nu se transformă într-un top global.
 „Top 100 semințe” cere `top_category="seminte"`.
-„Top X produse naturiste” fără categorie cere `top_clarification="category"`,
+„Top X produse naturiste” fără categorie și fără afecțiune cere `top_clarification="category"`,
 `needs_clarification=true`, păstrând numărul X (implicit 100). Aplicația afișează
 categoriile numerotate; răspunsul numeric selectează categoria, fără să schimbe X.
 „Top 100”, „Top 100 plante”, „top general” și „toate categoriile”
@@ -123,8 +126,21 @@ La clarificare, un răspuns scurt completează numai câmpul lipsă. După „To
 este `planta`, chiar dacă grâul se află la cereale. Negațiile, citatele și comenzile compuse
 nu autorizează un top determinist.
 
-O cerere medicală precum „Top 20 plante pentru gastrită” este `remedii`.
-În afara intenției `top_plante`, toate cele trei câmpuri top sunt `null`.
+„Top 10 produse naturiste pentru gripa” este `top_plante`, cu `top_count=10`,
+`top_condition="gripa"`, `top_category=null`, `top_clarification=null`, `needs_clarification=false`.
+Nu cere o categorie pentru un top pe afecțiune care spune „produse naturiste” sau „plante”.
+„Top 20 plante pentru gastrită” este `top_plante`, cu `top_condition="gastrită"`.
+„Top 5 suplimente contra gripa” păstrează `top_category="suplimente"` și `top_condition="gripa"`.
+„Pentru”, „contra” și „împotriva” introduc același filtru. Extrage expresia integrală,
+inclusiv calificativele; catalogul aplicației validează identitatea, nu inventa afecțiuni sau ID-uri.
+Cifrele din afecțiune, de exemplu „diabet tip 2”, nu sunt cantități ale topului.
+„Top 10 produse naturiste pentru” cere `top_clarification="condition"`, păstrând 10.
+La o clarificare de afecțiune, răspunsul numeric selectează exclusiv o intrare din
+`top_condition_choices`; nu schimbă numărul de produse. O denumire scurtă completează
+afecțiunea, păstrând cantitatea și categoria. Afecțiunea se păstrează și la clarificarea
+cantității sau categoriei. O cerere nouă completă înlocuiește cererea anterioară.
+Pentru topurile fără afecțiune, `top_condition=null`.
+În afara intenției `top_plante`, toate câmpurile top sunt `null`.
 Un top executabil are un număr între 1 și 10000 și `top_clarification=null`,
 `needs_clarification=false`. Nu inventa categorii și nu transforma o categorie neclară în top global.
 

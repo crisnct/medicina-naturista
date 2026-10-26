@@ -1186,6 +1186,8 @@ button:disabled { cursor: not-allowed; }
     cursor: pointer;
 }
 .example-button {
+    max-width: 100%;
+    overflow-wrap: anywhere;
     min-height: 24px;
     padding: 2px 8px;
     border-radius: 8px;

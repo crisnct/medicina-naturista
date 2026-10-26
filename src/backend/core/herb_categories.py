@@ -20,7 +20,7 @@ HerbCategory = Literal[
     "vitamine",
     "minerale",
 ]
-TopClarification = Literal["count", "category"]
+TopClarification = Literal["count", "category", "condition"]
 HERB_CATEGORIES: tuple[HerbCategory, ...] = get_args(HerbCategory)
 BOTANICAL_CATEGORY: HerbCategory = "plante medicinale"
 BOTANICAL_CATEGORIES = frozenset((BOTANICAL_CATEGORY, "fructe", "legume", "cereale"))

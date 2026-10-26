@@ -123,9 +123,13 @@ class MessageRouting:
     identify_condition: bool = False
     clarification: str = ""
     herb_choices: tuple[str, ...] = ()
+    top_herb_choices: tuple[str, ...] = ()
     top_count: int | None = None
     top_category: HerbCategory | None = None
     top_clarification: TopClarification | None = None
+    top_condition: str | None = None
+    top_condition_choices: tuple[str, ...] = ()
+    top_condition_required: bool = False
     report_id: str | None = None
     email_attempted: bool = False
 

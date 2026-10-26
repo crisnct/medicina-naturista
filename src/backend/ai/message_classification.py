@@ -17,6 +17,7 @@ from backend.ai.conditions import _normalize
 from backend.ai.herb_repository import HerbCatalogUnavailable
 from backend.ai.herbs import HerbCatalog
 from backend.ai.providers import ProviderConfig
+from backend.ai.query_terms import plain
 from backend.config import Settings
 from backend.core.herb_categories import (
     CATEGORY_ALIASES,
@@ -39,6 +40,7 @@ class MessageClassification(BaseModel):
     email_address: str | None = Field(default=None, min_length=1, max_length=254)
     top_count: int | None = Field(default=None, ge=1, le=10000)
     top_category: HerbCategory | None = None
+    top_condition: str | None = Field(default=None, min_length=1, max_length=240)
     top_clarification: TopClarification | None = None
     needs_clarification: bool = False
 
@@ -50,12 +52,19 @@ class MessageClassification(BaseModel):
             raise ValueError("email_address is only valid for email_raport")
         if self.intent != "top_plante" and any(
             value is not None
-            for value in (self.top_count, self.top_category, self.top_clarification)
+            for value in (
+                self.top_count,
+                self.top_category,
+                self.top_condition,
+                self.top_clarification,
+            )
         ):
             raise ValueError("top_count is only valid for top_plante")
         if self.intent == "top_plante" and not self.needs_clarification and self.top_count is None:
             raise ValueError("top_plante needs a count or clarification")
         if self.intent == "top_plante":
+            if self.top_condition is not None and not self.top_condition.strip():
+                raise ValueError("top_condition must name a subject")
             if self.needs_clarification != (self.top_clarification is not None):
                 raise ValueError("top clarification needs an explicit reason")
             if self.top_clarification == "count" and self.top_count is not None:
@@ -116,22 +125,122 @@ def _top_categories(normalized: str) -> set[HerbCategory]:
 
 
 def _top_decision(
-    count: int | None, category: HerbCategory | None, *, unknown: bool = False
+    count: int | None,
+    category: HerbCategory | None,
+    *,
+    unknown: bool = False,
+    condition: str | None = None,
+    missing_condition: bool = False,
 ) -> MessageClassification:
     reason: TopClarification | None = (
-        "category" if unknown else "count" if count is None or not 1 <= count <= 10000 else None
+        "category"
+        if unknown
+        else "condition"
+        if missing_condition
+        else "count"
+        if count is None or not 1 <= count <= 10000
+        else None
     )
     return MessageClassification(
         intent="top_plante",
         top_count=count if count is not None and 1 <= count <= 10000 else None,
         top_category=None if unknown else category,
+        top_condition=condition,
         top_clarification=reason,
         needs_clarification=reason is not None,
     )
 
 
-def explicit_herb_top(message: str, context: dict[str, object]) -> MessageClassification | None:
+def _condition_herb_top(message: str, context: dict[str, object]) -> MessageClassification | None:
+    normalized = _normalize(message)
+    if re.search(r'["«»„”\n;]', message) or re.search(
+        r"\b(email|mail|raport|nu|compara|trimite)\b|@", normalized
+    ):
+        return None
+    parts = re.split(r"\b(?:pentru|contra|[iî]mpotriva)\b", message, maxsplit=1, flags=re.I)
+    if len(parts) == 2:
+        base = explicit_herb_top(parts[0].strip(), {}, for_condition=True)
+        if base is not None:
+            subject = _normalize(parts[1])
+            missing = subject in {"", "o afectiune", "ceva", "asta", "mine", "noi"}
+            missing = missing or len(subject) > 240
+            return _top_decision(
+                base.top_count,
+                base.top_category,
+                unknown=base.top_clarification == "category",
+                condition=None if missing else subject,
+                missing_condition=missing,
+            )
+    if context.get("pending_clarification") != "top_plante":
+        return None
+    saved = context.get("top_condition")
+    condition = saved if isinstance(saved, str) else None
+    reason = context.get("top_clarification")
+    count = context.get("top_count")
+    count = count if type(count) is int else None
+    category = context.get("top_category")
+    category = category if category in HERB_CATEGORIES else None
+    if reason == "condition":
+        # New complete commands belong to their own route, even during clarification.
+        if complete_general_question(message) or re.search(
+            r"\b(top|topul|primele|cele mai|remedii|tratamente|despre|cauta|cum|ce|la ce)\b",
+            normalized,
+        ):
+            return None
+        if re.fullmatch(r"[+-]?\d+(?:[.,]\d+)?", message.strip()):
+            choices = context.get("top_condition_choices")
+            position = int(message.strip()) if re.fullmatch(r"\d+", message.strip()) else 0
+            if isinstance(choices, (list, tuple)) and 1 <= position <= len(choices):
+                choice = choices[position - 1]
+                if isinstance(choice, str):
+                    return _top_decision(count, category, condition=choice)
+            return _top_decision(
+                count, category, condition=condition, missing_condition=condition is None
+            )
+        subject = _normalize(parts[1]) if len(parts) == 2 and not parts[0].strip() else normalized
+        if subject and len(subject) <= 240:
+            return _top_decision(count, category, condition=subject)
+        return _top_decision(count, category, condition=condition, missing_condition=True)
+    if (condition is not None or context.get("top_condition_required") is True) and reason in {
+        "count",
+        "category",
+    }:
+        base = explicit_herb_top(
+            message,
+            {
+                **context,
+                "top_condition": None,
+                "top_condition_choices": (),
+                "top_condition_required": False,
+            },
+        )
+        if base is not None:
+            # Only short replies inherit the disease; a new top replaces the old request.
+            if re.search(r"\b(top|topul|primele|cele mai)\b", normalized):
+                return base
+            return _top_decision(
+                base.top_count,
+                base.top_category,
+                unknown=base.top_clarification == "category",
+                condition=condition,
+                missing_condition=condition is None,
+            )
+    return None
+
+
+def explicit_herb_top(
+    message: str, context: dict[str, object], *, for_condition: bool = False
+) -> MessageClassification | None:
     """Resolve complete rankings and short replies without model or catalog I/O."""
+    condition_top = _condition_herb_top(message, context)
+    if condition_top is not None:
+        return condition_top
+    if (
+        context.get("pending_clarification") == "top_plante"
+        and context.get("top_clarification") == "condition"
+        and re.fullmatch(r"[+-]?\d+(?:[.,]\d+)?", message.strip())
+    ):
+        return None
     normalized = _normalize(message)
     numeric = re.search(r"(?<!\w)[+-]?\d+(?:[.,]\d+)?", message)
     if numeric is not None:
@@ -204,7 +313,7 @@ def explicit_herb_top(message: str, context: dict[str, object]) -> MessageClassi
         return _top_decision(
             count,
             None,
-            unknown=domain in {"produse naturiste", "produsele naturiste"},
+            unknown=not for_condition and domain in {"produse naturiste", "produsele naturiste"},
         )
     categories = _top_categories(domain)
     if len(categories) > 1 or not categories and not re.match(r"plante(?:le)?\b", domain):
@@ -276,6 +385,47 @@ def explicit_herb_request(message: str, catalog: HerbCatalog) -> MessageClassifi
     return decision(subject)
 
 
+def _semantic_condition_top(raw: dict[str, object], message: str) -> MessageClassification:
+    validated = MessageClassification.model_validate(raw)
+    condition = validated.top_condition
+    # Category words and digits inside the disease name are never ranking parameters.
+    parts = re.split(r"\b(?:pentru|contra|impotriva)\b", plain(message), maxsplit=1)
+    header = parts[0]
+    if len(parts) == 2:
+        condition = _normalize(parts[1]) or None
+    elif condition is not None:
+        if plain(condition) not in header:
+            condition = None
+        else:
+            header = header.replace(plain(condition), " ")
+    if condition is not None and len(condition) > 240:
+        condition = None
+    scopes = _top_categories(_normalize(header))
+    quantities = re.findall(r"(?<!\w)[+-]?\d+(?:[.,]\d+)?", header)
+    count: int | None = validated.top_count if validated.top_count is not None else 100
+    if quantities:
+        count = (
+            int(quantities[0])
+            if len(quantities) == 1 and re.fullmatch(r"[+-]?\d+", quantities[0])
+            else None
+        )
+    return _top_decision(
+        count,
+        next(iter(scopes)) if len(scopes) == 1 else None,
+        unknown=len(scopes) > 1
+        or not scopes
+        and (
+            validated.top_category is not None
+            or validated.top_clarification == "category"
+            or not re.search(
+                r"\b(plante|produse(?:le)? naturiste|general|toate categoriile)\b", header
+            )
+        ),
+        condition=condition,
+        missing_condition=condition is None,
+    )
+
+
 class MessageClassifier:
     def __init__(
         self, settings: Settings, herb_catalog: Callable[[], HerbCatalog] | None = None
@@ -312,6 +462,7 @@ class MessageClassifier:
                                 "email_address",
                                 "top_count",
                                 "top_category",
+                                "top_condition",
                                 "top_clarification",
                                 "needs_clarification",
                             ],
@@ -331,8 +482,18 @@ class MessageClassifier:
                                     if intent == "top_plante"
                                     else [None],
                                 },
+                                "top_condition": {
+                                    "type": ["string", "null"]
+                                    if intent == "top_plante"
+                                    else "null",
+                                    **(
+                                        {"minLength": 1, "maxLength": 240}
+                                        if intent == "top_plante"
+                                        else {}
+                                    ),
+                                },
                                 "top_clarification": {
-                                    "enum": ["count", "category", None]
+                                    "enum": ["count", "category", "condition", None]
                                     if intent == "top_plante"
                                     else [None],
                                 },
@@ -449,6 +610,12 @@ class MessageClassifier:
                 # or answer from the classifier before retrieval can start.
                 raw = {**raw, "needs_clarification": False}
             if isinstance(raw, dict) and raw.get("intent") == "top_plante":
+                if (
+                    raw.get("top_condition") is not None
+                    or raw.get("top_clarification") == "condition"
+                    or re.search(r"\b(pentru|contra|impotriva)\b", _normalize(message))
+                ):
+                    return _semantic_condition_top(raw, message)
                 scopes = _top_categories(_normalize(message))
                 if len(scopes) > 1:
                     raw = {

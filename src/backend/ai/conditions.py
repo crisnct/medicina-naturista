@@ -219,6 +219,13 @@ class ConditionDictionary:
                 return self.conditions[indexes[0]]
         return None
 
+    # Ranking filters must preserve ambiguous aliases and never discard qualifiers.
+    def exact_matches(self, query: str) -> list[Condition]:
+        normalized = _normalize(query)
+        matches = [self.conditions[index] for index in self._by_term.get(normalized, ())]
+        canonical = [condition for condition in matches if _normalize(condition.name) == normalized]
+        return canonical or list(dict.fromkeys(matches))
+
     @staticmethod
     def _pick(indexes: list[int]) -> list[int]:
         return list(dict.fromkeys(indexes))[:MAX_MATCHED_CONDITIONS]

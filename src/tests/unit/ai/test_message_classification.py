@@ -128,7 +128,7 @@ def test_top_count_clarification_and_changed_subject():
         classifier.client.complete_json = Mock(return_value={"intent": "remedii"})
         assert classifier("20", {"pending_clarification": "top_plante"}).top_count == 20
         assert classifier("top 0 plante", {}).needs_clarification
-        assert classifier("Top 20 plante pentru gastrită", {}).intent == "remedii"
+        assert classifier("Top 20 plante pentru gastrită", {}).top_condition == "gastrita"
         assert classifier("Top 20 plante gastrită", {}).intent == "remedii"
         assert classifier("Gripă", {"pending_clarification": "top_plante"}).intent == "remedii"
         classifier.client.complete_json.assert_called()
@@ -435,6 +435,7 @@ def test_ollama_request_needs_no_hf_token_and_uses_the_existing_endpoint():
         assert branches[-1]["properties"]["top_clarification"]["enum"] == [
             "count",
             "category",
+            "condition",
             None,
         ]
         assert "top_category" in branches[-1]["required"]

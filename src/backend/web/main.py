@@ -25,7 +25,7 @@ from backend.ai.condition_ai import identify_conditions
 from backend.ai.db import get_pool
 from backend.ai.herb_conditions import lookup_herb_conditions
 from backend.ai.herb_evidence import lookup_herb_evidence
-from backend.ai.herb_ranking import list_top_herbs
+from backend.ai.herb_ranking import list_top_herbs, list_top_herbs_for_condition
 from backend.ai.herbs import load_herbs
 from backend.ai.index_state import IndexUnavailable, index_reader
 from backend.ai.message_classification import MessageClassifier
@@ -418,6 +418,8 @@ def _conversation(
         report_model_choice=model_choice or "",
         report_ai_effort=getattr(provider, "reasoning_effort", None) or None,
         record_report_metrics=deps.record_report_metrics,
+        top_herbs_for_condition=deps.top_herbs_for_condition
+        or partial(list_top_herbs_for_condition, settings=deps.settings),
     )
 
 

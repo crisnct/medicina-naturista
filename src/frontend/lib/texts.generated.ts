@@ -244,6 +244,8 @@ export const TEXT_PARAMETERS = {
   "interface.example_top_herbs_query": [],
   "interface.example_top_products_label": [],
   "interface.example_top_products_query": [],
+  "interface.example_top_flu_label": [],
+  "interface.example_top_flu_query": [],
   "interface.example_top_essential_oils_label": [],
   "interface.example_top_essential_oils_query": [],
   "interface.example_top_amino_acids_label": [],

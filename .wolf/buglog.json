@@ -3199,6 +3199,150 @@
       "last_seen": "2026-10-25T19:01:30.775Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_ranking.py",
+      "file": "src/backend/ai/herb_ranking.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 19→105 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-179",
+      "timestamp": "2026-10-26T03:57:13.655Z",
+      "last_seen": "2026-10-26T03:57:13.655Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of message_classification.py",
+      "file": "src/backend/ai/message_classification.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 22→130 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-180",
+      "timestamp": "2026-10-26T03:57:43.877Z",
+      "last_seen": "2026-10-26T03:57:43.877Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of message_classification.py",
+      "file": "src/backend/ai/message_classification.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 7→36 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-181",
+      "timestamp": "2026-10-26T03:58:28.849Z",
+      "last_seen": "2026-10-26T03:58:28.849Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of conversation.py",
+      "file": "src/backend/core/conversation.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 18→80 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-182",
+      "timestamp": "2026-10-26T03:59:07.703Z",
+      "last_seen": "2026-10-26T03:59:07.703Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: label",
+      "file": "src/frontend/components/Composer.tsx",
+      "root_cause": "label: tr(\"interface.example_top_products_label\"), text: tr(\"interface.example_top_products_query\") → tr(\"interface.example_top_flu_label\"), text: tr(\"interface.example_top_flu_query\")",
+      "fix": "Changed label: tr(\"interface.example_top_products_label\"), text: tr(\"interface.example_top_products_query\") → tr(\"interface.example_top_flu_label\"), text: tr(\"interface.example_top_flu_query\")",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-183",
+      "timestamp": "2026-10-26T03:59:08.817Z",
+      "last_seen": "2026-10-26T03:59:08.817Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/unit/ai/test_message_classification.py",
+      "root_cause": "Had \"remedii\"",
+      "fix": "Changed to \"gastrita\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-184",
+      "timestamp": "2026-10-26T03:59:52.376Z",
+      "last_seen": "2026-10-26T03:59:52.376Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/App.test.tsx",
+      "root_cause": "Had \"Top 100 produse naturiste\"",
+      "fix": "Changed to \"Top 10 produse naturiste pentru gripa\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-185",
+      "timestamp": "2026-10-26T03:59:52.787Z",
+      "last_seen": "2026-10-26T03:59:52.787Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "aiPlans/tmp/condition-top-20261026/verify.py",
+      "root_cause": "Had \"INSERT INTO herbs(category,ro,en,ranking) VALUES ",
+      "fix": "Changed to \"INSERT INTO herbs(category,ro,en,ranking,family,l",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-186",
+      "timestamp": "2026-10-26T04:07:05.546Z",
+      "last_seen": "2026-10-26T04:07:44.466Z",
+      "occurrences": 2,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -3381,7 +3525,16 @@
     "88e3946a-d02e-4fff-924d-22b75dba6290": true,
     "2d67cc55-a902-4fc5-be4f-350fc37dfa5d": true,
     "2b39f1e0-c087-4b1a-8f9e-434655f19d80": true,
-    "7dd0b74b-0991-495e-9da4-59f3f2154fe0": true
+    "7dd0b74b-0991-495e-9da4-59f3f2154fe0": true,
+    "638c4e3e-8ed1-4b56-83ec-297adaef6379": true,
+    "20150108-cc85-4087-bb3a-513f6a8464a9": true,
+    "c3ace719-1c37-4a13-be40-71ae7cf790a9": true,
+    "82677667-b005-404e-836d-fe5123cc898c": true,
+    "f38052f5-bc51-4fe9-aea1-866b2589c572": true,
+    "b4166f08-7a50-48e3-91d2-87e2f681b48b": true,
+    "436ba11d-77b6-4a4f-8f8f-f05a5a990a73": true,
+    "d7ef0b5f-5fd1-4834-bf4f-17d9d43079b2": true,
+    "fb8a6e74-721c-4ef2-a6e7-7c227a6a7e8b": true
   },
-  "next_id": 179
+  "next_id": 187
 }

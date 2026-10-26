@@ -151,3 +151,14 @@ class RankedHerb(TypedDict):
 
 
 ListTopHerbs = Callable[[int, HerbCategory | None], list[RankedHerb]]
+
+
+class ConditionTopResult(TypedDict):
+    status: Literal["found", "not_found", "ambiguous"]
+    choices: NotRequired[list[str]]
+    condition: NotRequired[HerbCondition]
+    positiveRunId: NotRequired[str]
+    herbs: NotRequired[list[RankedHerb]]
+
+
+ListTopHerbsForCondition = Callable[[int, HerbCategory | None, str], ConditionTopResult]

@@ -134,6 +134,8 @@ def test_top_returns_names_and_aliases_without_search_or_report(web):
     assert not result["startSearch"] and not result["identifyCondition"]
     assert result["messages"][0]["content"] == (
         "### Top 2 produse naturiste — toate categoriile după numărul de afecțiuni din bibliotecă\n"
+        "Trimiteți în chat numărul unui produs pentru a vedea lista afecțiunilor la care este util. "
+        "De exemplu, trimiteți **1** pentru primul produs din listă.\n\n"
         "Numărul reprezintă afecțiuni distincte cu recomandări pozitive identificate în surse.\n"
         "Sunt disponibile 2 produse cu scor pozitiv din cele 20 solicitate.\n"
         "1. **Mușețel** (Matricaria Chamomilla) — util(ă) în "
@@ -145,6 +147,43 @@ def test_top_returns_names_and_aliases_without_search_or_report(web):
     assert test.client.post("/api/search", headers=support._headers(sid, tab)).status_code == 409
     classify(web, first["contextRevision"])
     test.deps.top_herbs.assert_called_once()
+
+    test.deps.classify.reset_mock()
+    test.deps.classify.side_effect = AssertionError("A numbered choice must not call the AI")
+    test.deps.herb_lookup = Mock(
+        return_value={
+            "status": "found",
+            "herbName": "mușețel",
+            "species": ["matricaria chamomilla"],
+            "entriesCount": 1,
+            "conditions": [{"id": 1, "name": "condiție test"}],
+        }
+    )
+    invalid = accept(web, "3")
+    rejected = classify(web, invalid["contextRevision"]).json()
+    assert not rejected["startSearch"] and not rejected["identifyCondition"]
+    assert "Alegeți un număr între 1 și 2" in rejected["messages"][0]["content"]
+    test.deps.herb_lookup.assert_not_called()
+    selected = accept(web, " 01 ")
+    assert selected["messages"][0]["content"] == "01"
+    stale = classify(web, first["contextRevision"]).json()
+    assert stale["cancelled"]
+    test.deps.herb_lookup.assert_not_called()
+    response = classify(web, selected["contextRevision"])
+    assert response.status_code == 200, response.text
+    details = response.json()
+    assert details["intent"] == "planta"
+    assert not details["startSearch"] and not details["identifyCondition"]
+    assert details["messages"][0]["kind"] == "herb_conditions"
+    assert details["messages"][0]["herbName"] == "mușețel"
+    test.deps.herb_lookup.assert_called_once_with("matricaria chamomilla")
+    classify(web, selected["contextRevision"])
+    test.deps.herb_lookup.assert_called_once()
+    test.deps.classify.assert_not_called()
+    test.deps.top_herbs.assert_called_once()
+    session = test.deps.store.get(sid, tab)
+    assert session.profile.health_problem == ""
+    assert session.routing.top_herb_choices == ()
 
 
 def test_top_without_count_asks_then_accepts_count_only(web):

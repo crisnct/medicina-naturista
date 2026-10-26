@@ -30,10 +30,10 @@ describe("session admission", () => {
     fireEvent.click(screen.getByRole("button", { name: "Verifică din nou" }));
     await waitFor(() => expect(screen.getByRole("textbox")).toBeEnabled());
     const topExamples = screen.getAllByRole("button").filter((button) => button.textContent?.includes("Top "));
-    expect(topExamples).toHaveLength(1);
+    expect(topExamples).toHaveLength(2);
     expect(topExamples[0]).toHaveTextContent("Top 100 produse naturiste");
-    fireEvent.click(topExamples[0]);
-    expect(screen.getByRole("textbox")).toHaveValue("Top 100 produse naturiste");
+    fireEvent.click(topExamples[1]);
+    expect(screen.getByRole("textbox")).toHaveValue("Top 10 produse naturiste pentru gripa");
     expect(screen.queryByRole("alert")).not.toBeInTheDocument();
   });
 

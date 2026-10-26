@@ -12,6 +12,7 @@ from backend.core.contracts import (
     EstimateReportDuration,
     IdentifyCondition,
     ListTopHerbs,
+    ListTopHerbsForCondition,
     LookupHerb,
     LookupHerbEvidence,
     RecordReportMetrics,
@@ -44,3 +45,4 @@ class Dependencies:
     record_report_metrics: RecordReportMetrics | None = None
     estimate_report_duration: EstimateReportDuration | None = None
     herb_evidence: LookupHerbEvidence | None = None
+    top_herbs_for_condition: ListTopHerbsForCondition | None = None
