@@ -1425,3 +1425,23 @@ description: chronological action log per session, consolidated weekly
 | 09:28 | Edited README.md | expanded (+13 lines) | ~294 |
 | 09:30 | Edited src/backend/ai/herb_association_rules.py | 2→2 lines | ~51 |
 | 09:30 | Edited src/backend/ai/herb_conditions.py | expanded (+7 lines) | ~104 |
+
+## Session: 2026-10-28 13:53
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 13:53 | Edited src/backend/config.py | 2→2 lines | ~40 |
+| 13:53 | Edited docker-compose.yaml | inline fix | ~27 |
+| 13:53 | Edited src/scripts/herb_index_requests.py | added error handling | ~426 |
+| 13:53 | Edited src/scripts/build_hybrid_index.py | expanded (+10 lines) | ~118 |
+| 13:53 | Edited README.md | inline fix | ~88 |
+| 13:55 | Edited src/backend/config.py | 4→8 lines | ~149 |
+| 13:55 | Edited docker-compose.yaml | 1→2 lines | ~42 |
+| 13:55 | Edited src/backend/ai/providers.py | 1→2 lines | ~30 |
+| 13:55 | Edited src/backend/ai/message_classification.py | ResponsesClient() → OllamaReportClient() | ~100 |
+| 13:55 | Edited src/backend/ai/condition_ai.py | ResponsesClient() → OllamaReportClient() | ~88 |
+| 13:55 | Edited src/backend/ai/client.py | inline fix | ~18 |
+| 13:56 | Edited src/backend/ai/client.py | modified create_ai_client() | ~89 |
+| 13:56 | Edited src/scripts/herb_index_requests.py | 3→4 lines | ~55 |
+| 13:56 | Edited README.md | expanded (+11 lines) | ~557 |
+| 13:57 | Edited src/backend/ai/condition_ai.py | modified _validate() | ~86 |

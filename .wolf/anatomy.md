@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-28T07:30:11.676Z
-> Files: 182 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-28T11:57:21.345Z
+> Files: 183 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -10,9 +10,9 @@
 ## ./
 
 - `.dockerignore` (~107 tok)
-- `docker-compose.yaml` — Docker Compose: 4 services (~2364 tok)
+- `docker-compose.yaml` — Docker Compose: 4 services (~2384 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~35302 tok)
+- `README.md` — Project documentation (~35623 tok)
 
 ## .claude/agents/
 
@@ -152,11 +152,12 @@
 
 ## src/backend/
 
-- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~9639 tok)
+- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~9731 tok)
 
 ## src/backend/ai/
 
-- `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~9203 tok)
+- `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~9236 tok)
+- `condition_ai.py` — Identification of the condition a message names when the dictionary does not (~3111 tok)
 - `conditions.py` — Medical-condition matching over an ordered PostgreSQL catalog snapshot. (~3628 tok)
 - `herb_association_classification.py` — Bounded local-only polarity classification; validated quotations are source provenance. (~6318 tok)
 - `herb_association_rules.py` — Conservative source-polarity rules over unchanged indexed text and primary conditions. (~15744 tok)
@@ -175,8 +176,8 @@
 - `herb_safety_repository.py` — Persist safety generations and validated caches without performing any model or network I/O. (~5302 tok)
 - `herb_safety_validation.py` — Validate extractive safety responses; missing coverage never means absence of warnings. (~5366 tok)
 - `herb_safety.py` — Read published model-knowledge messages; consultation never invokes a model. (~1384 tok)
-- `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9172 tok)
-- `providers.py` — Per-provider transport settings for report generation. (~1569 tok)
+- `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9270 tok)
+- `providers.py` — Per-provider transport settings for report generation. (~1587 tok)
 
 ## src/backend/ai/prompts/
 
@@ -264,10 +265,10 @@
 
 ## src/scripts/
 
-- `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~17768 tok)
+- `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~17870 tok)
 - `caution_herb_ranking.py` — Prepare and publish warning projections using indexed data and caches only, without AI. (~284 tok)
 - `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~18728 tok)
-- `herb_index_requests.py` — Stream one indexing request per batch and emit aggregate telemetry without source content. (~3141 tok)
+- `herb_index_requests.py` — Stream one indexing request per batch and emit aggregate telemetry without source content. (~3590 tok)
 - `herb_product_safety_index.py` — One local-model request per uncached catalog product; no corpus or association inference. (~3189 tok)
 - `herb_safety_index.py` — Legacy corpus helpers and shared progress; public safety commands use product knowledge. (~6224 tok)
 - `manage_texts.py` — Export public copy and regenerate key/parameter metadata, never a second editable catalog. (~783 tok)

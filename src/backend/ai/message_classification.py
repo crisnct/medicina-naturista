@@ -12,7 +12,7 @@ from typing import Literal
 
 from pydantic import BaseModel, ConfigDict, Field, model_validator
 
-from backend.ai.client import ResponsesClient
+from backend.ai.client import OllamaReportClient
 from backend.ai.conditions import _normalize
 from backend.ai.herb_repository import HerbCatalogUnavailable
 from backend.ai.herbs import HerbCatalog
@@ -433,11 +433,14 @@ class MessageClassifier:
         self.settings = settings
         self.herb_catalog = herb_catalog
         self.prompt = PROMPT.read_text(encoding="utf-8").strip()
-        self.client = ResponsesClient(
+        # Native Ollama requests support an explicit residency timeout without an extra request.
+        self.client = OllamaReportClient(
             ProviderConfig(
                 name="ollama",
                 label="Ollama (local)",
                 base_url=settings.condition_ai_local_base,
+                keep_alive_seconds=settings.ollama_keep_alive_seconds,
+                thinking=False,
                 model=settings.medical_condition_ai_local_model,
                 # Keep the bounded output budget for the final routing JSON.
                 reasoning_effort="none",

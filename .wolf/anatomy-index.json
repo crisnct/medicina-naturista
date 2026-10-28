@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-28T07:30:11.676Z",
-    "fileCount": 182,
+    "lastScanned": "2026-10-28T11:57:21.345Z",
+    "fileCount": 183,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "ee59ae8eeb9cfdf2f34d7a182931bd0e5fb7bbf31977ad3ff86f859e7a752df0",
-    "storeUpdatedAt": "2026-10-28T07:30:11.687Z",
-    "rootHash": "4eed68ec88bbc3c1"
+    "renderedHash": "4931723b4a70fde39a6c97bf9d607cd0e1e5075e4b6203f1a88b15e58c4882c4",
+    "storeUpdatedAt": "2026-10-28T11:57:21.356Z",
+    "rootHash": "92fa6383f5beef84"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -311,11 +311,11 @@
     },
     "docker-compose.yaml": {
       "description": "Docker Compose: 4 services",
-      "tokens": 2364,
-      "hash": "68a6311939bd0b7e",
-      "size": 8273,
-      "mtimeMs": 1793107660120.2683,
-      "updatedAt": "2026-10-27T13:27:40.614Z",
+      "tokens": 2384,
+      "hash": "efa321c776129ae4",
+      "size": 8342,
+      "mtimeMs": 1793188536571.1528,
+      "updatedAt": "2026-10-28T11:55:37.383Z",
       "source": "hook"
     },
     "src/backend/web/main.py": {
@@ -812,11 +812,11 @@
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 35302,
-      "hash": "ee521eb7aeea4dca",
-      "size": 147246,
-      "mtimeMs": 1793172507632.868,
-      "updatedAt": "2026-10-28T07:28:29.010Z",
+      "tokens": 35623,
+      "hash": "03cd182788a1c4a4",
+      "size": 148589,
+      "mtimeMs": 1793188601403.2678,
+      "updatedAt": "2026-10-28T11:56:42.479Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -932,11 +932,11 @@
     },
     "src/backend/ai/message_classification.py": {
       "description": "Small, validated intent decisions through the existing local Ollama model.",
-      "tokens": 9172,
-      "hash": "b03605c88be84de4",
-      "size": 32119,
-      "mtimeMs": 1792988354602.9346,
-      "updatedAt": "2026-10-26T04:19:15.134Z",
+      "tokens": 9270,
+      "hash": "34962a61d86a0e58",
+      "size": 32463,
+      "mtimeMs": 1793188536578.1523,
+      "updatedAt": "2026-10-28T11:55:37.899Z",
       "source": "hook",
       "symbols": [
         {
@@ -971,43 +971,43 @@
           "name": "_condition_herb_top",
           "kind": "fn",
           "startLine": 154,
-          "endLine": 224,
-          "tokens": 982
+          "endLine": 230,
+          "tokens": 1007
         },
         {
           "name": "explicit_herb_top",
           "kind": "fn",
-          "startLine": 225,
-          "endLine": 326,
+          "startLine": 231,
+          "endLine": 332,
           "tokens": 1373
         },
         {
           "name": "complete_general_question",
           "kind": "fn",
-          "startLine": 327,
-          "endLine": 350,
+          "startLine": 333,
+          "endLine": 356,
           "tokens": 301
         },
         {
           "name": "explicit_herb_request",
           "kind": "fn",
-          "startLine": 351,
-          "endLine": 381,
+          "startLine": 357,
+          "endLine": 387,
           "tokens": 368
         },
         {
           "name": "_semantic_condition_top",
           "kind": "fn",
-          "startLine": 382,
-          "endLine": 419,
-          "tokens": 446
+          "startLine": 388,
+          "endLine": 428,
+          "tokens": 457
         },
         {
           "name": "MessageClassifier",
           "kind": "class",
-          "startLine": 420,
-          "endLine": 688,
-          "tokens": 3767
+          "startLine": 429,
+          "endLine": 700,
+          "tokens": 3825
         }
       ]
     },
@@ -1947,11 +1947,11 @@
     },
     "src/backend/ai/client.py": {
       "description": "Sequential whole-fragment report batches through the selected AI provider.",
-      "tokens": 9203,
-      "hash": "339f295808c67b46",
-      "size": 32211,
-      "mtimeMs": 1793090860939.9365,
-      "updatedAt": "2026-10-27T08:47:42.110Z",
+      "tokens": 9236,
+      "hash": "28a362c1275f6b3c",
+      "size": 32325,
+      "mtimeMs": 1793188601395.266,
+      "updatedAt": "2026-10-28T11:56:41.905Z",
       "source": "hook",
       "symbols": [
         {
@@ -2035,25 +2035,25 @@
           "name": "create_ai_client",
           "kind": "fn",
           "startLine": 714,
-          "endLine": 719,
-          "tokens": 57
+          "endLine": 721,
+          "tokens": 89
         },
         {
           "name": "create_report_clients",
           "kind": "fn",
-          "startLine": 720,
-          "endLine": 747,
+          "startLine": 722,
+          "endLine": 749,
           "tokens": 353
         }
       ]
     },
     "src/backend/config.py": {
       "description": "Environment-backed settings. No patient data belongs in configuration or logs.",
-      "tokens": 9639,
-      "hash": "ae36cb0595cedafe",
-      "size": 33736,
-      "mtimeMs": 1793107617997.7334,
-      "updatedAt": "2026-10-27T13:26:58.836Z",
+      "tokens": 9731,
+      "hash": "90cf4bbc1546d6c7",
+      "size": 34058,
+      "mtimeMs": 1793188536568.1519,
+      "updatedAt": "2026-10-28T11:55:37.092Z",
       "source": "hook",
       "symbols": [
         {
@@ -2109,14 +2109,14 @@
           "name": "Settings",
           "kind": "class",
           "startLine": 157,
-          "endLine": 681,
-          "tokens": 7701
+          "endLine": 685,
+          "tokens": 7792
         },
         {
           "name": "configure_settings",
           "kind": "fn",
-          "startLine": 682,
-          "endLine": 694,
+          "startLine": 686,
+          "endLine": 698,
           "tokens": 137
         }
       ]
@@ -2224,11 +2224,11 @@
     },
     "src/scripts/build_hybrid_index.py": {
       "description": "Incrementally sync a traceable, local-only hybrid index for a Markdown",
-      "tokens": 17768,
-      "hash": "fe9b22fb0cfa8bf5",
-      "size": 62199,
-      "mtimeMs": 1793084595798.0037,
-      "updatedAt": "2026-10-27T07:03:17.139Z",
+      "tokens": 17870,
+      "hash": "d323d8741b11451b",
+      "size": 62554,
+      "mtimeMs": 1793188426931.3867,
+      "updatedAt": "2026-10-28T11:53:48.315Z",
       "source": "hook",
       "symbols": [
         {
@@ -2438,8 +2438,8 @@
           "name": "_embedding_context",
           "kind": "fn",
           "startLine": 847,
-          "endLine": 1517,
-          "tokens": 7936
+          "endLine": 1527,
+          "tokens": 8034
         }
       ]
     },
@@ -5605,60 +5605,67 @@
     },
     "src/scripts/herb_index_requests.py": {
       "description": "Stream one indexing request per batch and emit aggregate telemetry without source content.",
-      "tokens": 3141,
-      "hash": "1b6d81a8b56b1df9",
-      "size": 10995,
-      "mtimeMs": 1793090860941.937,
-      "updatedAt": "2026-10-27T08:47:42.414Z",
+      "tokens": 3590,
+      "hash": "50c2438ce5e908f3",
+      "size": 12566,
+      "mtimeMs": 1793188601398.2676,
+      "updatedAt": "2026-10-28T11:56:42.206Z",
       "source": "hook",
       "symbols": [
         {
           "name": "emit_index_event",
           "kind": "fn",
-          "startLine": 56,
-          "endLine": 62,
-          "tokens": 66
+          "startLine": 58,
+          "endLine": 64,
+          "tokens": 65
+        },
+        {
+          "name": "release_index_model",
+          "kind": "fn",
+          "startLine": 65,
+          "endLine": 97,
+          "tokens": 446
         },
         {
           "name": "warning_item_limit",
           "kind": "fn",
-          "startLine": 63,
-          "endLine": 67,
+          "startLine": 98,
+          "endLine": 102,
           "tokens": 72
         },
         {
           "name": "index_response_schema",
           "kind": "fn",
-          "startLine": 68,
-          "endLine": 91,
+          "startLine": 103,
+          "endLine": 126,
           "tokens": 369
         },
         {
           "name": "IndexClient",
           "kind": "class",
-          "startLine": 92,
-          "endLine": 119,
+          "startLine": 127,
+          "endLine": 154,
           "tokens": 338
         },
         {
           "name": "make_client",
           "kind": "fn",
-          "startLine": 120,
-          "endLine": 137,
+          "startLine": 155,
+          "endLine": 172,
           "tokens": 155
         },
         {
           "name": "BatchTelemetry",
           "kind": "class",
-          "startLine": 138,
-          "endLine": 212,
+          "startLine": 173,
+          "endLine": 247,
           "tokens": 926
         },
         {
           "name": "index_batch",
           "kind": "fn",
-          "startLine": 213,
-          "endLine": 283,
+          "startLine": 248,
+          "endLine": 318,
           "tokens": 758
         }
       ]
@@ -5910,11 +5917,11 @@
     },
     "src/backend/ai/providers.py": {
       "description": "Per-provider transport settings for report generation.",
-      "tokens": 1569,
-      "hash": "f02fcbc808e1c4a4",
-      "size": 5489,
-      "mtimeMs": 1793090860932.9292,
-      "updatedAt": "2026-10-27T08:47:41.497Z",
+      "tokens": 1587,
+      "hash": "1eb2d040e27ee46e",
+      "size": 5553,
+      "mtimeMs": 1793188536574.152,
+      "updatedAt": "2026-10-28T11:55:37.618Z",
       "source": "hook",
       "symbols": [
         {
@@ -5942,8 +5949,8 @@
           "name": "provider_config",
           "kind": "fn",
           "startLine": 56,
-          "endLine": 148,
-          "tokens": 1034
+          "endLine": 149,
+          "tokens": 1052
         }
       ]
     },
@@ -6154,6 +6161,129 @@
       "mtimeMs": 1793172507620.3025,
       "updatedAt": "2026-10-28T07:28:28.135Z",
       "source": "hook"
+    },
+    "src/backend/ai/condition_ai.py": {
+      "description": "Identification of the condition a message names when the dictionary does not",
+      "tokens": 3111,
+      "hash": "7137899737fb93de",
+      "size": 10888,
+      "mtimeMs": 1793188640788.6238,
+      "updatedAt": "2026-10-28T11:57:21.344Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "AIConditionResult",
+          "kind": "class",
+          "startLine": 45,
+          "endLine": 61,
+          "tokens": 173
+        },
+        {
+          "name": "_BackendFailure",
+          "kind": "class",
+          "startLine": 62,
+          "endLine": 68,
+          "tokens": 60
+        },
+        {
+          "name": "_provider",
+          "kind": "fn",
+          "startLine": 69,
+          "endLine": 94,
+          "tokens": 238
+        },
+        {
+          "name": "_client",
+          "kind": "fn",
+          "startLine": 95,
+          "endLine": 103,
+          "tokens": 78
+        },
+        {
+          "name": "_system_prompt",
+          "kind": "fn",
+          "startLine": 104,
+          "endLine": 107,
+          "tokens": 26
+        },
+        {
+          "name": "_user_message",
+          "kind": "fn",
+          "startLine": 108,
+          "endLine": 114,
+          "tokens": 110
+        },
+        {
+          "name": "_validate",
+          "kind": "fn",
+          "startLine": 115,
+          "endLine": 150,
+          "tokens": 447
+        },
+        {
+          "name": "_ask",
+          "kind": "fn",
+          "startLine": 151,
+          "endLine": 154,
+          "tokens": 32
+        },
+        {
+          "name": "_ask_client",
+          "kind": "fn",
+          "startLine": 155,
+          "endLine": 169,
+          "tokens": 162
+        },
+        {
+          "name": "clear_cache",
+          "kind": "fn",
+          "startLine": 170,
+          "endLine": 173,
+          "tokens": 31
+        },
+        {
+          "name": "close_clients",
+          "kind": "fn",
+          "startLine": 174,
+          "endLine": 181,
+          "tokens": 66
+        },
+        {
+          "name": "_dictionary_condition",
+          "kind": "fn",
+          "startLine": 182,
+          "endLine": 187,
+          "tokens": 81
+        },
+        {
+          "name": "identify_conditions",
+          "kind": "fn",
+          "startLine": 188,
+          "endLine": 223,
+          "tokens": 472
+        },
+        {
+          "name": "with_ai_conditions",
+          "kind": "fn",
+          "startLine": 224,
+          "endLine": 256,
+          "tokens": 389
+        },
+        {
+          "name": "resolved_for",
+          "kind": "fn",
+          "startLine": 257,
+          "endLine": 267,
+          "tokens": 120
+        },
+        {
+          "name": "catalog_condition_names",
+          "kind": "fn",
+          "startLine": 268,
+          "endLine": 272,
+          "tokens": 98
+        }
+      ]
     }
   },
   "preamble": [

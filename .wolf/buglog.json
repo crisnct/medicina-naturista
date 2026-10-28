@@ -5269,6 +5269,60 @@
       "last_seen": "2026-10-28T07:30:11.712Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in emit_index_event()",
+      "file": "src/scripts/herb_index_requests.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-294",
+      "timestamp": "2026-10-28T11:53:48.029Z",
+      "last_seen": "2026-10-28T11:53:48.029Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of message_classification.py",
+      "file": "src/backend/ai/message_classification.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 3→6 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-295",
+      "timestamp": "2026-10-28T11:55:37.933Z",
+      "last_seen": "2026-10-28T11:55:37.933Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of condition_ai.py",
+      "file": "src/backend/ai/condition_ai.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 3→5 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-296",
+      "timestamp": "2026-10-28T11:55:38.229Z",
+      "last_seen": "2026-10-28T11:55:38.229Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -5573,7 +5627,10 @@
     "0927f1dc-4718-436d-ae9f-d8efb789085d": true,
     "94160663-6d10-4ab9-8ffd-11747df5da4e": true,
     "f5a708fd-ebbc-4c5b-963e-ff606366dabc": true,
-    "2c8abb66-6068-4ed1-a5b1-fea4fa2cdd1b": true
+    "2c8abb66-6068-4ed1-a5b1-fea4fa2cdd1b": true,
+    "47c95889-1f4b-4110-9613-0d585fe8dde8": true,
+    "7fd07307-a77f-4f86-8392-fc43268af0f0": true,
+    "84a93746-8dfd-48aa-b159-808739703cbb": true
   },
-  "next_id": 294
+  "next_id": 297
 }

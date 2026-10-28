@@ -133,6 +133,7 @@ def provider_config(settings: Settings) -> ProviderConfig:
         name="ollama",
         label="Ollama",
         base_url=settings.ollama_api_base,
+        keep_alive_seconds=settings.ollama_keep_alive_seconds,
         model=settings.ollama_model,
         reasoning_effort=settings.ollama_reasoning_effort or None,
         api_key=settings.ollama_api_key,

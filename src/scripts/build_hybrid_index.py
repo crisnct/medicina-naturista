@@ -1446,6 +1446,11 @@ def main() -> int:
         or arguments.publish_caution_ranking
         or safety_stage
     )
+    release_model = bool(
+        arguments.prepare_positive_ranking
+        or arguments.prepare_safety_warnings
+        or (not ranking_stage and not arguments.skip_positive_ranking)
+    )
     try:
         if safety_stage:
             from scripts.herb_safety_index import run_safety_index
@@ -1509,6 +1514,11 @@ def main() -> int:
             flush=True,
         )
         return 1
+    finally:
+        if release_model:
+            from scripts.herb_index_requests import release_index_model
+
+            release_index_model(settings)
     return 0
 
 

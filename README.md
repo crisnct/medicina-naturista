@@ -816,7 +816,7 @@ profilul compatibil.
 | `HERB_SAFETY_AI_MAX_REQUESTS` | `10000` | Plafon de încercări per generație, inclusiv reluările. O cerere pentru fiecare produs fără cache. |
 | `HERB_SAFETY_BUILD_TIMEOUT_SECONDS` | `86400` | Deadline al pregătirii safety; prima populare poate procesa întregul catalog. |
 | `HERB_ASSOCIATION_AI_TIMEOUT_SECONDS` / `HERB_ASSOCIATION_BUILD_TIMEOUT_SECONDS` | `900` / `7200` | Buget per lot AI și limită de așteptare I/O, respectiv deadline per comandă. Timpul rămas al comenzii limitează fiecare lot. |
-| `HERB_ASSOCIATION_AI_KEEP_ALIVE_SECONDS` | `-1` | Menține modelul Ollama încărcat între cererile de reindexare, inclusiv cele pentru safety. `0` descarcă modelul după cerere; valorile pozitive reprezintă secunde de inactivitate. |
+| `HERB_ASSOCIATION_AI_KEEP_ALIVE_SECONDS` | `3600` | Numai pentru reindexare: păstrează modelul Ollama până la 60 de minute de inactivitate între cereri, inclusiv cele pentru safety. `0` descarcă după fiecare cerere; `-1` păstrează nelimitat între cereri. La încheierea fluxului, CLI-ul solicită oricum descărcarea imediată. |
 | `HERB_ASSOCIATION_AI_MAX_REQUESTS` | `1000` | Plafon de încercări pentru RUN_ID, inclusiv la reluare. |
 
 Toate variabilele sunt validate de `Settings` și propagate prin Compose. Se folosește un
@@ -939,7 +939,17 @@ Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit î
 
 **Ollama rulează separat, pe host (Windows), și trebuie pornit înaintea aplicației.** Containerul `app` îl accesează prin `http://host.docker.internal:11434/v1`, atât pentru clasificarea mesajelor și identificarea afecțiunilor (`CONDITION_AI_LOCAL_BASE`), cât și pentru rapoartele cu `ollama-gemma4:12b` (`OLLAMA_API_BASE`). Descărcați modelul de raport cu `ollama pull gemma4:12b` și modelul ales în `MEDICAL_CONDITION_AI_LOCAL_MODEL` (implicit `gemma3:1b`). Modelele sunt administrate de instalarea Ollama de pe host.
 
-Pentru rapoartele Ollama, clientul derivă `/api/chat` din `OLLAMA_API_BASE` eliminând sufixul `/v1`. Folosește format JSON nativ, `truncate=false` și `shift=false`: intrarea nu este scurtată automat și nu sunt eliminate porțiuni din context pentru a continua generarea. O depășire a contextului este raportată ca `AI_CONTEXT_LIMIT_EXCEEDED`, cu mesajul de a selecta mai puține fragmente sau de a crește scorul minim. R1 8B are context explicit per cerere; pentru celelalte modele, dacă nu există un override, se păstrează configurația serverului Ollama. Bugetul în caractere nu este o garanție de încadrare în tokeni. Intrarea, instrucțiunile și ieșirea trebuie să încapă împreună în context. Clasificarea și identificarea afecțiunilor păstrează clientul Responses existent.
+Pentru rapoartele Ollama, clientul derivă `/api/chat` din `OLLAMA_API_BASE` eliminând sufixul `/v1`. Folosește format JSON nativ, `truncate=false` și `shift=false`: intrarea nu este scurtată automat și nu sunt eliminate porțiuni din context pentru a continua generarea. O depășire a contextului este raportată ca `AI_CONTEXT_LIMIT_EXCEEDED`, cu mesajul de a selecta mai puține fragmente sau de a crește scorul minim. R1 8B are context explicit per cerere; pentru celelalte modele, dacă nu există un override, se păstrează configurația serverului Ollama. Bugetul în caractere nu este o garanție de încadrare în tokeni. Intrarea, instrucțiunile și ieșirea trebuie să încapă împreună în context. Clasificarea mesajelor și identificarea afecțiunilor folosesc și ele clientul nativ `/api/chat`, cu `think=false`, pentru a trimite durata de păstrare în aceeași cerere.
+
+Aplicația trimite `keep_alive=60` pentru fiecare cerere Ollama: modelul este eliberat după
+60 de secunde de inactivitate, fără preîncărcare la pornirea aplicației. Reindexarea folosește
+separat `keep_alive=3600`. La încheierea reindexării sau a unei pregătiri explicite de ranking/safety,
+`build_hybrid_index.py` trimite o cerere de control fără prompt, cu `keep_alive=0`, pentru modelul
+de indexare configurat. Descărcarea este solicitată și la eroare sau Ctrl+C; o oprire forțată a
+procesului poate sări peste cleanup. Analiza, publicarea separată, proiecția caution fără AI și
+`--skip-positive-ranking` nu descarcă modelul. Evenimentul `index_model_release` confirmă
+`released` numai după răspunsul Ollama; la eșec afișează `warning` fără să schimbe rezultatul
+indexării. Cererea de control nu generează text și nu intră în numărul de cereri de inferență.
 
 Pentru `gemma4:12b` cu contextul maxim de 262.144 tokeni, configurația de performanță măsurată pe GPU-ul local folosește următoarele variabile **pe Windows**, în PowerShell:
 
@@ -1095,6 +1105,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `DEEPSEEK_REASONING_EFFORT` | _(gol)_ | Se trimite doar dacă este setat. |
 | `DEEPSEEK_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru modelul `deepseek-flash`. |
 | `OLLAMA_API_BASE` | `http://localhost:11434/v1` | Baza Ollama; în Docker Compose `http://host.docker.internal:11434/v1`. |
+| `OLLAMA_KEEP_ALIVE_SECONDS` | `60` | Durata de păstrare după ultima cerere Ollama din aplicație (raport, clasificare sau identificare). `0` descarcă după fiecare cerere. Nu modifică dimensiunea contextului și nu controlează reindexarea. |
 | `OLLAMA_API_KEY` | — | Necesară doar când `OLLAMA_API_BASE` nu este local (ex. `https://ollama.com/v1`). |
 | `OLLAMA_REASONING_EFFORT` | _(gol)_ | Pentru Gemma4 și Qwen3.5, controlează `think`: `none` îl dezactivează, celelalte valori îl activează. Pentru Gemma3 și Ministral este omis. |
 | `OLLAMA_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru modelele Ollama; pentru modele locale mici trebuie coborât. |

@@ -21,7 +21,7 @@ from typing import Any
 import httpx
 
 from backend.ai import conditions
-from backend.ai.client import AIUnavailable, ResponsesClient
+from backend.ai.client import AIUnavailable, OllamaReportClient, ResponsesClient
 from backend.ai.conditions import Condition, QuerySegment, ResolvedQuery, _normalize, resolve_query
 from backend.ai.providers import ProviderConfig
 from backend.config import settings
@@ -71,6 +71,8 @@ def _provider() -> ProviderConfig:
         name="ollama",
         label="Ollama (local)",
         base_url=settings.condition_ai_local_base,
+        keep_alive_seconds=settings.ollama_keep_alive_seconds,
+        thinking=False,
         model=settings.medical_condition_ai_local_model,
         reasoning_effort="none",
         api_key=lambda: "",
@@ -94,7 +96,7 @@ def _client() -> ResponsesClient:
     provider = _provider()
     key = (provider.base_url, provider.model)
     if key not in _clients:
-        _clients[key] = ResponsesClient(provider, replace(settings, ai_stream=False))
+        _clients[key] = OllamaReportClient(provider, replace(settings, ai_stream=False))
     return _clients[key]
 
 
@@ -110,11 +112,11 @@ def _user_message(texts: tuple[str, ...]) -> str:
 # Keep the model's answer only as far as its form is right (not its content: the
 # condition need not exist in the dictionary): a valid segment index, a non-empty
 # name of at most MAX_NAME_CHARS, and a list of up to MAX_SYNONYMS other strings.
-def _validate(raw: Any, segment_count: int) -> tuple[dict[str, Any], ...]:
+def _validate(raw: Any, segment_count: int) -> tuple[IdentifiedCondition, ...]:
     entries = raw.get("segments") if isinstance(raw, dict) else None
     if not isinstance(entries, list):
         raise ValueError("segments is not a list")
-    answers: dict[int, dict[str, Any]] = {}
+    answers: dict[int, IdentifiedCondition] = {}
     for entry in entries:
         if not isinstance(entry, dict):
             continue
@@ -146,11 +148,11 @@ def _validate(raw: Any, segment_count: int) -> tuple[dict[str, Any], ...]:
 
 
 # Ask Ollama once; a failed request never triggers another provider.
-def _ask(texts: tuple[str, ...]) -> tuple[dict[str, Any], ...]:
+def _ask(texts: tuple[str, ...]) -> tuple[IdentifiedCondition, ...]:
     return _ask_client(_client(), texts)
 
 
-def _ask_client(client: ResponsesClient, texts: tuple[str, ...]) -> tuple[dict[str, Any], ...]:
+def _ask_client(client: ResponsesClient, texts: tuple[str, ...]) -> tuple[IdentifiedCondition, ...]:
     try:
         raw = client.complete_json(
             _system_prompt(), _user_message(texts), client.provider.max_output_tokens

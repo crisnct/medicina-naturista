@@ -13,6 +13,8 @@ from contextvars import copy_context
 from dataclasses import replace
 from typing import Any, Literal
 
+import httpx
+
 from backend.ai.client import AIUnavailable, OllamaReportClient, ResponsesClient, json_error_details
 from backend.ai.herb_association_classification import make_client as association_client
 from backend.ai.herb_association_classification import response_schema
@@ -57,6 +59,39 @@ def emit_index_event(value: dict[str, Any]) -> None:
     line = json.dumps(value)
     with _OUTPUT_LOCK:
         print(line, flush=True)
+
+
+# Cleanup owns a short independent budget, even when indexing failed or was cancelled.
+def release_index_model(settings: Settings) -> None:
+    metadata = {"stage": "index_model_release", "model": settings.herb_association_ai_model}
+    try:
+        with (
+            operation_budget(OperationBudget(time.monotonic() + 30, time.monotonic, lambda: None)),
+            httpx.Client(trust_env=False, follow_redirects=False) as http,
+        ):
+            response = http.post(
+                settings.herb_association_ai_base.removesuffix("/v1") + "/api/generate",
+                json={
+                    "model": settings.herb_association_ai_model,
+                    "keep_alive": 0,
+                    "stream": False,
+                },
+                timeout=httpx.Timeout(remaining_timeout(30), connect=remaining_timeout(5)),
+            )
+            response.raise_for_status()
+            result = response.json()
+            if (
+                not isinstance(result, dict)
+                or result.get("done") is not True
+                or result.get("done_reason") != "unload"
+                or result.get("error")
+            ):
+                raise ValueError("OLLAMA_MODEL_RELEASE_INVALID_RESPONSE")
+    except (httpx.HTTPError, ValueError, OperationCancelled) as exc:
+        # A cleanup failure must not overwrite the publication outcome or the original error.
+        emit_index_event({**metadata, "status": "warning", "error_type": type(exc).__name__})
+    else:
+        emit_index_event({**metadata, "status": "released"})
 
 
 # Compound statements can support several warnings, so a focus is not a one-message quota.

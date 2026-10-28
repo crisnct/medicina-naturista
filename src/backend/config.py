@@ -187,6 +187,7 @@ class Settings:
     hf_max_context_chars: int = 120_000
     ollama_model: str = REPORT_MODELS[DEFAULT_REPORT_MODEL].model
     ollama_api_base: str = "http://localhost:11434/v1"
+    ollama_keep_alive_seconds: int = 60
     ollama_reasoning_effort: str = ""
     ollama_max_context_chars: int = 1_000_000
     ollama_num_ctx_by_model: Mapping[ReportModel, int] = field(
@@ -216,7 +217,7 @@ class Settings:
     herb_association_ai_context_tokens: int = 32768
     herb_association_ai_max_output_tokens: int = 2048
     herb_association_ai_timeout_seconds: int = 900
-    herb_association_ai_keep_alive_seconds: int = -1
+    herb_association_ai_keep_alive_seconds: int = 3600
     herb_association_build_timeout_seconds: int = 7200
     herb_association_ai_max_requests: int = 1000
     herb_safety_ai_max_requests: int = 10000
@@ -319,6 +320,7 @@ class Settings:
             if report_spec.provider == "ollama"
             else REPORT_MODELS[DEFAULT_REPORT_MODEL].model,
             ollama_api_base=env.get("OLLAMA_API_BASE", "http://localhost:11434/v1").rstrip("/"),
+            ollama_keep_alive_seconds=_int("OLLAMA_KEEP_ALIVE_SECONDS", 60, minimum=0, env=env),
             ollama_reasoning_effort=env.get("OLLAMA_REASONING_EFFORT", "").strip(),
             ollama_max_context_chars=_int("OLLAMA_MAX_CONTEXT_CHARS", 1000000, env=env),
             ollama_num_ctx_by_model=_ollama_limits(
@@ -363,7 +365,7 @@ class Settings:
                 "HERB_ASSOCIATION_AI_TIMEOUT_SECONDS", 900, env=env
             ),
             herb_association_ai_keep_alive_seconds=_int(
-                "HERB_ASSOCIATION_AI_KEEP_ALIVE_SECONDS", -1, minimum=-1, env=env
+                "HERB_ASSOCIATION_AI_KEEP_ALIVE_SECONDS", 3600, minimum=-1, env=env
             ),
             herb_association_build_timeout_seconds=_int(
                 "HERB_ASSOCIATION_BUILD_TIMEOUT_SECONDS", 7200, env=env
@@ -587,6 +589,8 @@ class Settings:
                 raise ValueError(
                     "public_origin must be an HTTP(S) origin without a path or credentials"
                 )
+        if type(self.ollama_keep_alive_seconds) is not int or self.ollama_keep_alive_seconds < 0:
+            raise ValueError("ollama_keep_alive_seconds must be non-negative")
         for name in (
             "embedding_threads",
             "xai_max_context_chars",

@@ -714,6 +714,8 @@ class XAIClient(ResponsesClient):
 def create_ai_client(settings: Settings) -> ResponsesClient:
     if settings.ai_provider == "xai":
         return XAIClient(settings)
+    if settings.ai_provider == "ollama":
+        return OllamaReportClient(provider_config(settings), settings)
     return ResponsesClient(provider_config(settings), settings)
 
 
