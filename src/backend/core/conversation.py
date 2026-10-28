@@ -33,6 +33,7 @@ from backend.core.contracts import (
     RetrievalProtocol,
 )
 from backend.core.errors import ApplicationError, OperationCancelled
+from backend.core.herb_agreement import herb_agreement
 from backend.core.herb_categories import category_labels, global_top_label
 from backend.core.models import (
     CommitChange,
@@ -797,6 +798,8 @@ class ConversationService:
                     )
                     name = herb["ro"][:1].upper() + herb["ro"][1:]
                     latin = f" ({herb['latin'].title()})" if herb["latin"] else ""
+                    with operation_budget(self.budget(operation)):
+                        useful = tr("common.herb_useful_" + herb_agreement(herb["ro"]))
                     lines.append(
                         tr(
                             "conversation.herb_ranking_entry",
@@ -806,6 +809,7 @@ class ConversationService:
                             count=herb["ranking"],
                             conditions=conditions,
                             aliases=aliases,
+                            useful=useful,
                         )
                     )
                 content = "\n".join(lines)
@@ -840,6 +844,9 @@ class ConversationService:
                 )
             with operation_budget(self.budget(operation)):
                 data = self.herb_lookup(decision.herb_name)
+                agreement = (
+                    herb_agreement(data["herbName"]) if data["status"] == "found" else "feminine"
+                )
             self.store.checkpoint(operation)
             if data["status"] == "not_found":
                 routing.clarification = "planta"
@@ -864,6 +871,7 @@ class ConversationService:
                         "kind": "herb_conditions",
                         "role": "assistant",
                         **{k: v for k, v in data.items() if k != "status"},
+                        "herbAgreement": agreement,
                     }
                 )
         return self._commit_route(operation, notices)

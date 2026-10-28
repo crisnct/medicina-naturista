@@ -401,8 +401,8 @@ def _column_cuts(lines: list[Line], mode: str) -> list[float]:
     cuts = [best]
     # Detect a possible third column on either side of the strongest gutter.
     for subset in (
-        [line_item for line_item in lines if line_item.x1 < best],
-        [line_item for line_item in lines if line_item.x0 > best],
+            [line_item for line_item in lines if line_item.x1 < best],
+            [line_item for line_item in lines if line_item.x0 > best],
     ):
         extra = (
             _column_cuts(subset, "auto") if len(subset) < len(lines) and len(subset) >= 12 else []
@@ -540,6 +540,28 @@ def _ocr_glyphs(page: pymupdf.Page, options: Options) -> tuple[list[Glyph], floa
 
 
 @log_call
+def _is_scanned_page(page: pymupdf.Page, min_coverage: float = 0.85) -> bool:
+    """Identify page-sized raster scans, even when a poor OCR layer exists.
+
+    A page-sized image with an overlaid text layer is common in scanned PDFs.
+    The mere presence of embedded characters does not guarantee readable text.
+    """
+    # PyMuPDF image rectangles are in *unrotated* page coordinates.
+    bounds = pymupdf.Rect(0, 0, page.cropbox.width, page.cropbox.height)
+    page_area = bounds.get_area()
+    if page_area <= 0:
+        return False
+
+    for image in page.get_images(full=True):
+        xref = image[0]
+        for rect in page.get_image_rects(xref):
+            visible_area = (rect & bounds).get_area()
+            if visible_area / page_area >= min_coverage:
+                return True
+    return False
+
+
+@log_call
 def _page_glyphs(
     page: pymupdf.Page, page_index: int, options: Options
 ) -> tuple[list[Glyph], float, str]:
@@ -553,11 +575,15 @@ def _page_glyphs(
                 corrected.insert_pdf(page.parent, from_page=page.number, to_page=page.number)
                 page = deskew_page(corrected[0], angle)
 
-        # Both paths now see the same corrected page. Do not rotate it again.
+        # Use OCR on full-page scans even if they contain a broken text layer.
         prepared_options = replace(options, deskew=False)
         glyphs, _ = _text_glyphs(page, prepared_options) if options.ocr != "always" else ([], 0.0)
+        scanned = _is_scanned_page(page) if options.ocr == "auto" else False
+        needs_ocr = options.ocr == "always" or (
+            options.ocr == "auto" and (not glyphs or scanned)
+        )
         method = "text"
-        if not glyphs and options.ocr != "never":
+        if needs_ocr:
             glyphs, _ = _ocr_glyphs(page, prepared_options)
             method = "ocr"
     return glyphs, angle, method
@@ -687,8 +713,8 @@ def _render_page(lines: list[Line], profile: Profile) -> tuple[str, int]:
             and not paragraph
             and previous is not None
             and (
-                previous.text.endswith((",", "-", "("))
-                or previous.text.count("(") > previous.text.count(")")
+            previous.text.endswith((",", "-", "("))
+            or previous.text.count("(") > previous.text.count(")")
             )
             and gap < body * 0.6
             and not column_changed

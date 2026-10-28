@@ -34,6 +34,9 @@ jobs:
           src/scripts/positive_herb_ranking.py src/scripts/caution_herb_ranking.py
           src/backend/ai/herb_caution_projection.py src/backend/ai/herb_caution_repository.py
           src/backend/ai/herb_conditions.py src/backend/ai/herb_evidence.py src/backend/web/main.py
+          src/backend/ai/herb_safety_extraction.py src/backend/ai/herb_safety_validation.py
+          src/backend/ai/herb_safety_repository.py src/backend/ai/herb_safety.py src/scripts/herb_safety_index.py
+          src/scripts/herb_index_requests.py
 
   unit:
     runs-on: ubuntu-latest

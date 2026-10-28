@@ -45,7 +45,16 @@ Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pent
 
 - **Remedii:** rezolvarea afecțiunilor și căutarea existentă, cu identificare AI opțională.
 - **Planta/produsul:** numele/aliasul este rezolvat în catalog, apoi răspunsul arată
-  „utilă în N afecțiuni, interzisă în M afecțiuni”, cu două liste distincte. Utilizările
+  „util/utilă/utile în N afecțiuni din catalog” în titlul principal, cu două liste distincte.
+  Antetul, titlurile secțiunilor și intrările topurilor folosesc același acord după
+  denumirea românească: masculin → „util/interzis”, feminin sau neutru → „utilă/interzisă”,
+  plural → „utile/interzise” și „sunt”. Determinarea folosește dicționarul românesc local,
+  primul substantiv al denumirii și reguli pentru forme ambigue sau neregulate; „gutui”
+  și „pătlăgele” sunt tratate ca plural. Pentru cuvinte nelistate se
+  folosesc terminațiile; denumirile neobișnuite pot necesita reguli lexicale suplimentare.
+  Nu sunt necesare cereri AI, migrare sau reindexare. Mesajele structurate noi includ
+  `herbAgreement`, folosit de frontend; mesajele vechi fără câmp păstrează forma feminină.
+  Numărul M al interdicțiilor apare numai în titlul secțiunii dedicate. Utilizările
   citesc aceleași perechi `positive` și aceeași rulare publicată ca topurile; numărul N
   coincide cu rankingul produsului. Interdicțiile citesc perechile `herb_caution_pairs`
   cu dovezi explicite `prohibition`, din rularea caution legată de acea rulare pozitivă;
@@ -57,8 +66,30 @@ Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pent
   ca topurile, fără revenire la coaparițiile istorice. Lipsa părții caution este afișată ca
   indisponibilitate, iar informația istorică nerecuperabilă este marcată explicit ca parțială.
   Pentru orice intrare din `herbs`, fiecare secțiune are numărul afecțiunilor în titlu.
-  Titlurile sunt mărite la 24 px; întregul text din secțiunea interdicțiilor, inclusiv
-  sursele, este roșu. Fiecare panou „Vezi fragmente sursă — N fragmente din M documente”
+  Poza produsului este încărcată local prin `GET /api/herb-images/{herb_id}`, după ID-ul
+  din catalog. Căutarea încearcă numele latin, apoi numele românesc, în `HERB_IMAGES_DIR`
+  (implicit `medicina-naturista-documente/data/images`), numai fișiere PNG. Ignoră
+  majusculele/minusculele și aplică înlocuirea caracterelor nepermise din procesul de
+  generare; potrivirile ambigue sunt omise. Folderul este montat read-only în Docker
+  și exclus din imaginea de container. Endpointul nu expune registrul ori alte fișiere.
+  După încărcarea cu succes, poza apare în stânga (maximum 280 × 280 px, fără decupare),
+  iar listele scurte rămân în două coloane în dreapta. Când textul depășește spațiul
+  de lângă imagine, lista afecțiunilor utile curge pe trei coloane: prima începe sub poză,
+  celelalte două în dreapta ei și continuă aliniate până jos. Listele lungi folosesc
+  astfel și spațiul de sub imagine. Ordinea alfabetică se citește de sus în jos
+  în fiecare coloană, apoi în coloana următoare. Titlul și sursele rămân pe toată
+  lățimea; interdicțiile și atenționările nu sunt rearanjate. Până la încărcare sau
+  dacă poza lipsește/eșuează, rămâne afișarea existentă cu trei coloane pe desktop.
+  La maximum 640 px poza apare deasupra listei cu două coloane; la maximum 420 px lista
+  are o coloană. Lipsa produsului, folderului sau pozei produce `404`, fără placeholder.
+  Imaginile noi sunt găsite la următoarea cerere, fără reindexare sau apeluri AI.
+  Un click pe poză deschide imaginea într-un panou modal cât pagina, deasupra
+  interfeței, cu proporțiile păstrate și fără decupare. Escape sau butonul X din
+  partea de sus închid panoul și readuc focusul la poză. Imaginea se poate deschide
+  și din tastatură, cu Enter/Space; pagina din spate rămâne inactivă cât panoul este deschis.
+  Numele produsului are 24 px, iar titlurile secțiunilor au 20 px; întregul text din secțiunea interdicțiilor, inclusiv
+  sursele, este portocaliu. Cele trei secțiuni sunt separate prin linii de 3 px;
+  panourile surselor nu au borduri exterioare. Fiecare panou „Vezi fragmente sursă — N fragmente din M documente”
   este închis inițial. La deschidere se
   încarcă 20 de fragmente integrale, cu filtru după afecțiune și „Încarcă mai multe”.
   Filtrele și paginarea sunt independente. Secțiunile goale păstrează panoul cu zero surse,
@@ -77,8 +108,9 @@ Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pent
   `herb_caution_evidence`, `herb_caution_pairs`, `herb_caution_rankings` și
   `herb_caution_cache`. Proiecția caution reutilizează regulile locale și valorile
   `recommendation`/`prohibition` din răspunsurile pe care clasificarea pozitivă le cere deja.
-  Promptul, cache-ul pozitiv și numărul cererilor AI rămân neschimbate. Informațiile lipsă
-  din cache-ul vechi sunt recuperate numai local sau marcate `unknown`; nu declanșează AI.
+  Proiecția caution nu adaugă cereri AI și păstrează regulile clasificării. Informațiile
+  lipsă din cache-ul caution vechi sunt recuperate numai local sau marcate `unknown`.
+  Secțiunea de atenționări despre produs folosește separat mecanismul descris mai jos.
   Proiecția caution versiunea 2 verifică și listele explicite de alimente de evitat,
   inclusiv rândurile OCR întrerupte. Un avertisment despre alt produs sau procedură din
   același fragment nu validează o interdicție pentru produsul întrebat.
@@ -105,6 +137,102 @@ Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pent
   rulare caution nouă prin comenzile de mai sus, folosind codul actualizat. Nu se șterg
   cache-urile sau tabelele și nu se reindexează documentele/embeddingurile. O rulare
   caution cu versiunea veche este afișată ca învechită până la publicarea celei noi.
+
+  **Atenționări și interacțiuni:** secțiunea folosește exclusiv cunoștințele modelului
+  local Ollama despre fiecare produs din `herbs`, indiferent de categorie și de existența
+  unor documente sau asocieri produs–afecțiune. La reindexare se trimite o singură cerere
+  pentru fiecare produs fără rezultat compatibil în cache. Cererea conține numai
+  identitatea produsului: ID, denumirea română, denumirea latină când există, denumirile
+  englezești, categoria, familia și aliasurile. Nu conține fragmente, afecțiuni ori citate.
+  Specia latină trebuie respectată; o specie lipsă nu este inventată.
+
+  Răspunsul este JSON strict cu `herb_id`, `status=complete|uncertain` și `messages`.
+  Fiecare element are exact `message_type=warning|contraindication|interaction` și
+  `problem`. Mesajele sunt în română, preferabil 10–25 de cuvinte, maximum 240 de
+  caractere și 40 de cuvinte, fără tăiere automată. Interacțiunile iau în considerare
+  medicamente, clase medicamentoase, suplimente, alte produse naturiste, fructe,
+  legume, alimente și băuturi. Identitatea incertă ori cunoștințele insuficiente sunt
+  marcate `uncertain`; o listă goală nu confirmă absența riscurilor.
+
+  Migrarea aditivă `031_herb_product_safety_knowledge.sql` creează tabela
+  `herb_safety_messages`: `herb_id`, `message_type`, `problem`, plus `run_id` și
+  `message_id` pentru publicare și deduplicare. Un produs are mai multe rânduri.
+  `herb_product_safety_results` păstrează explicit și produsele cu listă goală,
+  `herb_product_safety_cache` păstrează răspunsurile validate, iar
+  `herb_product_safety_runs` gestionează pregătirea și activarea atomică.
+  Pentru mesajele curente, `herb_safety_messages` se filtrează prin generația cu
+  `herb_product_safety_runs.is_active=true`; celelalte generații rămân istorice.
+  Tabelele și algoritmul istoric `herb_safety_*` bazat pe fragmente nu mai alimentează
+  secțiunea; datele istorice sunt păstrate. Migrarea se aplică prin comanda normală
+  de indexare sau prin operatorul de migrări, niciodată la pornirea aplicației.
+
+  Cheia cache-ului depinde de identitatea și aliasurile acelui produs, prompt,
+  versiunea regulilor JSON, model și digestul său. Modificarea altui produs, a
+  documentelor ori a afecțiunilor nu invalidează răspunsurile produselor neschimbate.
+  Sunt reutilizate și rezultatele valide goale sau incerte. Rezultatul fiecărui produs
+  se salvează imediat; un eșec nu pierde produsele deja procesate. Rularea normală
+  fără parametri creează o generație nouă și reutilizează cache-ul compatibil.
+  O schimbare de produs, prompt ori model cere un răspuns nou pentru produsul afectat.
+  Cache-ul vechi de extragere din documente nu poate substitui această analiză.
+
+  Nu se mai adaugă warnings la cererile produs–afecțiune și nu se mai planifică cereri
+  pe produs/fragment. Lista existentă **Afecțiuni în care este interzisă** rămâne din
+  `herb_caution_*`, cu aceleași surse și reguli; noua secțiune afișează separat
+  Atenționări, Contraindicații și Interacțiuni din cunoștințele modelului. Interfața
+  indică această proveniență și nu afișează citate sau „Vezi sursa” pentru ele.
+  Întreaga secțiune de atenționări este roșie, cu titlul principal de 20 px și nota
+  de proveniență de 12 px. Fiecare
+  problemă începe cu numele categoriei scris cu bold, urmat de punct: „Atenționări. …”,
+  „Contraindicații. …” sau „Interacțiuni. …”; nu există subtitluri separate.
+  Întregul conținut al secțiunii este împărțit pe două coloane. Pe ecrane de maximum 580 px se folosește
+  o singură coloană. Nu se afișează contorul „Afișate N din M atenționări”; încărcarea
+  următoarelor mesaje rămâne disponibilă când există pagini suplimentare.
+  JSON valid și identitatea corectă nu reprezintă validare clinică.
+
+  `GET /api/herb-safety/{groupId}` citește numai generația publicată, în pagini de 20.
+  Referințele rămân legate de mesaj, sesiune și tab; o generație sau un catalog schimbat
+  produce `HERB_SAFETY_STALE`. Nu există inferență în chat. Ruta veche de evidence nu
+  inventează surse pentru răspunsurile modelului și răspunde indisponibil.
+
+  Prima populare cere câte un request pentru fiecare produs din catalog; următoarele
+  reindexări cer numai produsele fără cache compatibil. Pregătirea pozitivă normală
+  pregătește și această generație, iar publicarea o activează după verificări.
+  `--skip-positive-ranking` păstrează comportamentul de a omite și etapa AI safety.
+  Se poate pregăti/publica și separat, după aplicarea migrării 031:
+
+  ```powershell
+  $env:PYTHONPATH = 'src'
+  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --analyze-safety-warnings
+  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --prepare-safety-warnings
+  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --prepare-safety-warnings --resume-safety-warnings RUN_ID
+  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-safety-warnings RUN_ID
+  ```
+
+  Analiza nu face inferență; publicarea verifică numai baza și digestul modelului.
+  `RUN_ID` trebuie să aparțină noului algoritm; rulările istorice pe fragmente nu sunt
+  compatibile. La întrerupere se așteaptă revenirea promptului înainte de relansare.
+  Produsul în curs fără rezultat valid poate fi retrimis; nu există retry automat.
+  Digestul modelului se verifică și înaintea salvării fiecărui răspuns; aceste citiri
+  de metadate Ollama nu execută inferență și nu adaugă cereri AI pentru produs.
+  Un răspuns invalid oprește pregătirea și păstrează generația publicată anterior.
+  Mesajele nu sunt reparate euristic, scurtate sau înlocuite cu rezultate goale.
+
+  Progresul folosește `progress_stage=product_safety`, `safety_products_total`,
+  `safety_products_completed`, `safety_cache_hits`, `product_safety_ai_requests`,
+  `safety_batches` și `safety_batches_completed`; un lot este acum un singur produs.
+  `warnings_only_ai_requests` este păstrat ca alias de compatibilitate al numărului
+  cererilor noi safety. ETA se măsoară după primul produs AI validat și salvat;
+  rămâne `null` înainte de prima măsurătoare și este zero la `ready`/`published`.
+  Metricele cererii includ `herb_id`, `safety_source=model_knowledge`, timpi/tokeni,
+  contextul, outputul și timeoutul. Nu includ denumiri, probleme sau text generat.
+
+  Parametrii safety impliciți sunt `HERB_SAFETY_AI_MAX_REQUESTS=10000`,
+  `HERB_SAFETY_BUILD_TIMEOUT_SECONDS=86400`, `HERB_SAFETY_AI_CONTEXT_TOKENS=65536`
+  și `HERB_SAFETY_AI_MAX_OUTPUT_TOKENS=25000`. Bugetele de cereri și timp au crescut
+  deoarece limita se aplică acum produselor, nu loturilor de fragmente. Bugetul
+  comenzii combinate acoperă timpul pentru asocieri plus timpul safety; safety are și
+  propriul deadline. Timeoutul per request rămâne 900 secunde, `think=false`,
+  temperatură zero și streaming local, fără cloud ori cereri AI de reparare.
 
   Potrivirea numelor românești acceptă flexiuni din dicționarul Hunspell inclus (articol, plural, genitiv), cu sau fără diacritice, inclusiv în denumiri din mai multe cuvinte. Regulile generale pentru intrările incomplete sunt validate cu același dicționar, fără liste de excepții pe plante. Forma exactă are prioritate; numele comune mai multor specii cer alegerea speciei.
 - **Top plante/produse:** clasament pozitiv din `herb_positive_rankings`, filtrat exact după categoria cerută înainte de sortare și limitare. Interfața oferă exemplele „Top 100 produse naturiste” și „Top 10 produse naturiste pentru gripa”; un click completează câmpul și îi dă focus, apoi utilizatorul trimite mesajul. „Top X produse naturiste” fără afecțiune afișează cele 11 categorii, fiecare pe un rând numerotat; utilizatorul răspunde cu numărul categoriei și primește până la X produse din acea categorie. O alegere invalidă repetă lista fără a schimba X. Comenzile directe precum „Top 20 suplimente”, „Top 10 plante medicinale”, „Primele 20 vitamine” și „Top 100 semințe” rămân disponibile. „Top 100”, „Top 100 plante”, „top general” și „toate categoriile” includ toate categoriile. Fără cantitate se folosesc 100 de intrări; categoriile necunoscute sau multiple cer alegerea unei singure categorii, iar un număr invalid cere o cantitate între 1 și 10000. Clarificările păstrează categoria/numărul cerut. Răspunsul arată numărul efectiv returnat, asocierile și aliasurile regionale; fără căutare hibridă sau generare AI pentru comenzile explicite.
@@ -373,7 +501,7 @@ Fiecare top nevid afișează imediat sub titlu instrucțiunea de selectare prin 
 
 După afișarea unui top de plante sau produse (general, pe categorie sau pentru o afecțiune), următorul mesaj poate fi doar numărul poziției din listă: `1` deschide aceleași detalii ca întrebarea „la ce e bun Ulei de măsline”, dacă acesta este primul produs afișat. Se folosește ordinea exactă a topului afișat, fără o nouă clasificare AI. Un număr în afara listei cere o alegere validă și păstrează lista pentru reîncercare. O altă solicitare încheie această selecție; meniurile pentru categorie, numărul de intrări sau afecțiune își păstrează regulile proprii.
 
-Catalogul de plante și produse și aliasurile sunt citite din PostgreSQL. Căutarea unei plante ignoră diferențele de caz, diacritice și cratime; un nume comun mai multor specii cere alegerea utilizatorului. Cererile „Top N plante” afișează clasamentul plantelor și produselor după numărul de afecțiuni distincte cu recomandări pozitive identificate în surse și denumirile regionale, fără generarea unui raport. Fiecare intrare folosește formularea „util(ă) în X afecțiuni”; nota precizează că atenționările, contraindicațiile și relațiile mixte sunt excluse din scor și că această clasificare nu reprezintă validare clinică. Listele generale de afecțiuni ale unui produs păstrează asocierile istorice, inclusiv avertismentele.
+Catalogul de plante și produse și aliasurile sunt citite din PostgreSQL. Căutarea unei plante ignoră diferențele de caz, diacritice și cratime; un nume comun mai multor specii cere alegerea utilizatorului. Cererile „Top N plante” afișează clasamentul plantelor și produselor după numărul de afecțiuni distincte cu recomandări pozitive identificate în surse și denumirile regionale, fără generarea unui raport. Fiecare intrare folosește formularea „util/utilă/utile în X afecțiuni”, cu acordul denumirii românești; nota precizează că atenționările, contraindicațiile și relațiile mixte sunt excluse din scor și că această clasificare nu reprezintă validare clinică. Listele generale de afecțiuni ale unui produs păstrează asocierile istorice, inclusiv avertismentele.
 
 Topurile pe afecțiune reutilizează acest ranking global după filtrarea perechilor pozitive pentru afecțiunea cerută. Un produs cu ranking mai mare care nu are asociere pozitivă cu afecțiunea este exclus. Filtrul nu cere migrare sau reindexare; necesită o rulare pozitivă deja publicată și compatibilă. Codul local nou și exemplele din catalogul de texte devin disponibile în aplicația care rulează numai după livrarea explicită a versiunii compatibile și reîncărcarea paginii.
 
@@ -585,7 +713,9 @@ excepțiile și relațiile nesigure merg la clasificatorul local.
 
 Numele comune care indică mai multe identități de catalog și mențiunile din bibliografie
 rămân neclare și nu adaugă puncte. Clasificatorul primește fiecare fragment integral într-un
-singur câmp `units[].text`, fără segmente sau ID-uri de citat. Schema JSON impune toți
+singur câmp `units[].text`, fără segmente. Deciziile produs–afecțiune nu cer ID-uri de citat;
+componenta separată `warnings` folosește catalogul de referințe descris mai sus.
+Schema JSON impune toți
 identificatorii relațiilor și doar trei răspunsuri factuale: `local_condition`,
 `recommendation`, `prohibition`. Pozițiile mențiunilor și textul complet rămân în sursa locală;
 validatorul găsește local dovada pentru persistență după răspuns.
@@ -631,7 +761,8 @@ confirmată, se păstrează ca dovezi pozitive și când modelul omite recomanda
 locală se combină cu decizia brută a modelului, care este păstrată separat în cache.
 Promptul de clasificare și contractul de transport sunt documente Markdown separate, scrise
 în română fără diacritice. Primul stabilește regulile de decizie și legarea afecțiunii locale;
-al doilea definește câmpurile JSON și transmiterea fragmentului integral, fără ID-uri de citat.
+al doilea definește câmpurile JSON și transmiterea fragmentului integral. Deciziile
+produs–afecțiune nu folosesc ID-uri de citat; referințele safety sunt independente.
 Identitatea semantică include textul, contextul complet transmis, numele, mențiunile grupate,
 politica de clasificare și digestul modelului. Versiunile regulilor și transportului sunt
 separate: un transport schimbat nu invalidează aceleași decizii semantice. Cache-ul vechi
@@ -665,11 +796,42 @@ profilul compatibil.
 | `HERB_ASSOCIATION_AI_MAX_PASSAGE_CHARS` | `1000` | Prag pentru gruparea fragmentelor simple și limita dovezii scurte salvate local; nu împarte textul trimis la Ollama. |
 | `HERB_ASSOCIATION_AI_MAX_INPUT_CHARS` | `100000` | Plafon tehnic pentru întregul request serializat, inclusiv promptul, contextul și schema. Depășirea oprește pregătirea; nu scurtează fragmentul. |
 | `HERB_ASSOCIATION_AI_CONTEXT_TOKENS` / `HERB_ASSOCIATION_AI_MAX_OUTPUT_TOKENS` | `32768` / `2048` | Context și rezervă de răspuns. |
-| `HERB_ASSOCIATION_AI_TIMEOUT_SECONDS` / `HERB_ASSOCIATION_BUILD_TIMEOUT_SECONDS` | `120` / `7200` | Deadline per request și per comandă; timpul rămas limitează I/O. |
+| `HERB_SAFETY_AI_CONTEXT_TOKENS` | `65536` | Fereastra pentru cererea de cunoștințe AI a unui singur produs; independentă de contextul clasificării. |
+| `HERB_SAFETY_AI_MAX_OUTPUT_TOKENS` | `25000` | Plafon de ieșire pentru toate mesajele scurte ale produsului. |
+| `HERB_SAFETY_AI_MAX_REQUESTS` | `10000` | Plafon de încercări per generație, inclusiv reluările. O cerere pentru fiecare produs fără cache. |
+| `HERB_SAFETY_BUILD_TIMEOUT_SECONDS` | `86400` | Deadline al pregătirii safety; prima populare poate procesa întregul catalog. |
+| `HERB_ASSOCIATION_AI_TIMEOUT_SECONDS` / `HERB_ASSOCIATION_BUILD_TIMEOUT_SECONDS` | `900` / `7200` | Buget per lot AI și limită de așteptare I/O, respectiv deadline per comandă. Timpul rămas al comenzii limitează fiecare lot. |
+| `HERB_ASSOCIATION_AI_KEEP_ALIVE_SECONDS` | `-1` | Menține modelul Ollama încărcat între cererile de reindexare, inclusiv cele pentru safety. `0` descarcă modelul după cerere; valorile pozitive reprezintă secunde de inactivitate. |
 | `HERB_ASSOCIATION_AI_MAX_REQUESTS` | `1000` | Plafon de încercări pentru RUN_ID, inclusiv la reluare. |
 
 Toate variabilele sunt validate de `Settings` și propagate prin Compose. Se folosește un
 singur request în zbor, temperatură zero și JSON cu schemă strictă, fără retry/fallback.
+Clasificările și cererile separate de cunoștințe despre produse folosesc streaming
+nativ Ollama în același POST. Bucățile sunt reunite intern; validarea JSON și salvarea
+în cache au loc după primirea marcajului final. Un flux întrerupt ori un timeout nu
+salvează un rezultat incomplet. Bugetul de 900 de secunde este verificat între bucăți
+și la ieșirea din lot, împreună cu deadline-ul comenzii; I/O păstrează limita de așteptare.
+
+Fiecare cerere produce în stdout evenimente JSON cu `stage=herb_ai_batch`,
+`event=started` și `event=completed`/`failed`. Sunt incluse:
+
+- Rularea, tipul (`associations` sau `product_safety`), numărul lotului, modelul,
+  contextul, limita de ieșire și limitele de timp configurată/efectivă.
+- Numărul fragmentelor/țintelor și lungimile sursei, payloadului și system promptului.
+- `herb_id` și `safety_source=model_knowledge` pentru noua analiză per produs;
+  `warning_items_max_total` este un câmp istoric al extracției pe fragmente, zero aici.
+- Durata lotului, timpul până la prima bucată și primul text, ultima activitate,
+  numărul evenimentelor și numărul de caractere primite, fără conținutul lor.
+- Timpii Ollama de încărcare, procesare a promptului și generare, tokenii de intrare,
+  tokenii de prompt din cache, tokenii generați și viteza generării.
+- Tipul erorii și un motiv tehnic controlat, fără mesaje brute de la furnizor.
+
+Valorile native care lipsesc, inclusiv la întreruperea fluxului, sunt `null`. Duratele
+native sunt convertite din nanosecunde în milisecunde; `duration_ms` măsoară lotul complet,
+inclusiv validarea/salvarea. Evenimentele de lot și heartbeat-urile sunt serializate pe
+linii JSON distincte. Streamingul și metricele păstrează loturile, numărul cererilor și
+amprentele cache-urilor semantice; nu se adaugă cereri pentru diagnostic ori retry automat.
+
 Conform ajustării din 23 octombrie, procesarea și controlerul operatorului nu verifică
 temperatura GPU, nu opresc la 82°C și nu introduc pauze termice sau preventive.
 Frecvența GPU este administrată de utilizator.
@@ -936,6 +1098,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `REPORT_GENERATION_READ_TIMEOUT_SECONDS` | `300` | Timeoutul de citire al cererii către furnizorul AI. |
 | `REPORT_GENERATION_ESTIMATED_MINUTES_PER_44500_CHARS` | `6` | Parametru de estimare păstrat în backend pentru compatibilitate; UI nu mai afișează o bară de progres procentual. Valoarea trebuie să fie un întreg pozitiv. |
 | `DOCUMENTS_DIR` | `medicina-naturista-documente/data/documents` | Directorul documentelor locale. |
+| `HERB_IMAGES_DIR` | `medicina-naturista-documente/data/images` | Directorul opțional cu pozele PNG ale produselor; montat doar pentru citire în Docker. |
 | `DATABASE_URL` | `postgresql:// medicina:medicina @127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului hibrid (`pgvector` + `tsvector`). |
 | `DATABASE_BOOTSTRAP_URL` | gol | Conexiune de mentenanță opțională pentru crearea unei baze lipsă, pe același server ca `DATABASE_URL`; folosită numai de reindexare. Implicit se folosesc credențialele țintei pe baza `postgres`. |
 | `MODEL_CACHE_DIR` | `model_cache` | Directorul cache-ului local al modelului ONNX. |

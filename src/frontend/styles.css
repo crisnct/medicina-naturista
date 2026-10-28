@@ -11,6 +11,7 @@
     --nature-focus: #be5d3f;
     --nature-danger: #c1352b;
     --nature-danger-hover: #a02a22;
+    --nature-warning: #a64b00;
 }
 
 * {
@@ -1115,11 +1116,14 @@ button.cat-toggle.cat-toggle-open svg {
 .message-wrap.bot.unwrapped > .herb-conditions-panel {
     max-width: 100%;
 }
-.herb-conditions-panel h3 { margin: 0 0 .5rem; }
+.herb-conditions-panel h3 { margin: 0 0 .5rem; font-size: 1.5rem; }
 .herb-association-section { margin-top: 1.25rem; }
-.herb-association-section > h4 { margin: 0 0 .5rem; font-size: 1.5rem; line-height: 1.3; color: #285c42; }
-.herb-contraindications-section { border-top: 1px solid #d8c7b6; padding-top: 1.25rem; }
-.herb-evidence-panel { margin-top: 1.25rem; border-top: 1px solid #d8dfc6; padding-top: 1rem; }
+.herb-conditions-panel > .chatbot-message-header + .herb-association-section {
+    margin-top: .75rem;
+}
+.herb-association-section > h4 { margin: 0 0 .5rem; font-size: 1.25rem; line-height: 1.3; color: #285c42; }
+.herb-association-section + .herb-association-section { border-top: 3px solid #80936a; padding-top: 1.25rem; }
+.herb-evidence-panel { margin-top: 1.25rem; }
 .herb-evidence-panel > summary { cursor: pointer; color: #285c42; font-weight: 600; overflow-wrap: anywhere; }
 .herb-evidence-content { margin-top: 1rem; }
 .herb-evidence-toolbar { display: flex; flex-wrap: wrap; align-items: end; gap: 1rem; }
@@ -1132,6 +1136,13 @@ button.cat-toggle.cat-toggle-open svg {
 .herb-evidence-text { white-space: pre-wrap; line-height: 1.65; }
 .herb-evidence-mark-herb { background: #bbf7d0; color: #153d27; }
 .herb-evidence-mark-condition { background: #fef08a; color: #44360a; }
+.herb-evidence-mark-warning { background: #ffedb5; color: #5c3b12; }
+.herb-warnings-section { column-count: 2; column-gap: 2rem; }
+.herb-warnings-section > h4 { column-span: all; }
+.herb-warnings-list { padding-left: 1.35rem; }
+.herb-warnings-list > li { margin-bottom: 1rem; overflow-wrap: anywhere; break-inside: avoid; }
+.herb-warning-text { white-space: pre-wrap; }
+.herb-warnings-list .herb-evidence-panel { margin-top: .4rem; padding-top: .4rem; }
 .herb-evidence-panel mark { border-radius: .15rem; }
 .herb-evidence-panel > summary:focus-visible, .herb-evidence-panel select:focus-visible, .herb-evidence-panel button:focus-visible { outline: 2px solid #285c42; outline-offset: 3px; }
 .herb-species { color: #596b45; font-size: 14px; font-weight: 400; font-style: italic; }
@@ -1151,11 +1162,106 @@ button.cat-toggle.cat-toggle-open svg {
     overflow-wrap: anywhere;
     break-inside: avoid;
 }
+.herb-positive-content.has-image {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: start;
+    gap: 24px;
+}
+.herb-positive-content.has-image > .herb-conditions-list {
+    grid-column: 2 / -1;
+    padding-left: 0;
+    column-count: 2;
+}
+.herb-positive-content.has-image > .herb-conditions-list li { margin-left: 18px; }
+.herb-positive-content.has-image > p { grid-column: 2 / -1; }
+.herb-positive-content.flows-around-image {
+    display: block;
+    column-count: 3;
+    column-gap: 24px;
+}
+.herb-positive-content.flows-around-image > .herb-conditions-list { column-count: auto; }
+.herb-product-image-trigger {
+    display: block;
+    margin: 0 auto 16px;
+    width: 100%;
+    max-width: 280px;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: zoom-in;
+    break-inside: avoid;
+}
+.herb-product-image-trigger[hidden] { display: none; }
+.herb-product-image {
+    display: block;
+    width: 100%;
+    max-width: 280px;
+    height: auto;
+    max-height: 280px;
+    object-fit: contain;
+}
+.herb-product-image-trigger:focus-visible,
+.herb-image-viewer-close:focus-visible { outline: 3px solid var(--nature-primary); outline-offset: 3px; }
+.herb-image-viewer {
+    position: fixed;
+    inset: 0;
+    width: 100vw;
+    height: 100dvh;
+    max-width: none;
+    max-height: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    color: var(--nature-text);
+    background: var(--nature-bg);
+    font-family: "Roboto Condensed", Arial, sans-serif;
+}
+.herb-image-viewer[open] { display: flex; flex-direction: column; }
+.herb-image-viewer::backdrop { background: rgb(0 0 0 / .6); }
+.herb-image-viewer-toolbar {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: max(16px, env(safe-area-inset-top)) 20px 16px;
+    border-bottom: 1px solid var(--nature-border);
+}
+.herb-image-viewer-toolbar h2 { flex: 1; min-width: 0; margin: 0; font-size: 24px; overflow-wrap: anywhere; }
+.herb-image-viewer-close {
+    display: grid;
+    place-items: center;
+    flex: 0 0 44px;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 1px solid var(--nature-border);
+    border-radius: 8px;
+    background: var(--nature-surface);
+    color: var(--nature-text);
+    font-size: 28px;
+    cursor: pointer;
+}
+.herb-image-viewer-close:hover { background: var(--nature-soft); }
+.herb-image-viewer-picture {
+    display: block;
+    flex: 1;
+    min-width: 0;
+    min-height: 0;
+    width: 100%;
+    padding: clamp(16px, 3vw, 40px);
+    object-fit: contain;
+}
 .herb-association-note { font-size: .9rem; color: #596b45; margin-bottom: 0; }
+.herb-warnings-ai-note { font-size: .75rem; }
 .herb-conditions-panel .herb-contraindications-section,
-.herb-conditions-panel .herb-contraindications-section * { color: var(--nature-danger); }
-.herb-contraindications-section button { background: #fff8f7; border: 1px solid var(--nature-danger); }
-.herb-contraindications-section button:hover { background: #fee9e7; }
+.herb-conditions-panel .herb-contraindications-section * { color: var(--nature-warning); }
+.herb-contraindications-section button { background: #fff5eb; border: 1px solid var(--nature-warning); }
+.herb-contraindications-section button:hover { background: #ffead3; }
+.herb-conditions-panel .herb-warnings-section,
+.herb-conditions-panel .herb-warnings-section * { color: var(--nature-danger); }
+.herb-warnings-section button { background: #fff8f7; border: 1px solid var(--nature-danger); }
+.herb-warnings-section button:hover { background: #fee9e7; }
 
 @media (prefers-reduced-motion: reduce) {
     * {
@@ -1272,13 +1378,17 @@ button:disabled { cursor: not-allowed; }
     .category-filter-reset { white-space: normal; }
     .herb-conditions-panel, .report-ready-panel { padding: 16px; }
     .herb-conditions-list { column-count: 2; }
+    .herb-positive-content.has-image { display: block; column-count: 1; }
+    .herb-positive-content.has-image > .herb-conditions-list { column-count: 2; }
 }
 
 @media (max-width: 420px) {
     .herb-conditions-list { column-count: 1; }
+    .herb-positive-content.has-image > .herb-conditions-list { column-count: 1; }
 }
 
 @media (max-width: 580px) {
+    .herb-warnings-section { column-count: 1; }
     #app-shell { gap: 14px; }
     .hero-kicker { padding: 22px 22px 0; font-size: 10px; }
     .hero-main { grid-template-columns: minmax(0, 1fr); gap: 14px; padding: 8px 22px 22px; }

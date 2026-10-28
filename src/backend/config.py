@@ -156,6 +156,7 @@ def _ai_provider(value: str = "xai") -> str:
 @dataclass(frozen=True)
 class Settings:
     documents_dir: Path = CORPUS_DATA_DIR / "documents"
+    herb_images_dir: Path = CORPUS_DATA_DIR / "images"
     model_cache_dir: Path = ROOT / "model_cache"
     # Threads of the ONNX embedding model. Few threads beat all cores on hybrid
     # (P/E-core) CPUs, so the default is 8, capped at the machine's core count.
@@ -214,9 +215,14 @@ class Settings:
     herb_association_ai_max_passage_chars: int = 1000
     herb_association_ai_context_tokens: int = 32768
     herb_association_ai_max_output_tokens: int = 2048
-    herb_association_ai_timeout_seconds: int = 120
+    herb_association_ai_timeout_seconds: int = 900
+    herb_association_ai_keep_alive_seconds: int = -1
     herb_association_build_timeout_seconds: int = 7200
     herb_association_ai_max_requests: int = 1000
+    herb_safety_ai_max_requests: int = 10000
+    herb_safety_ai_context_tokens: int = 65536
+    herb_safety_ai_max_output_tokens: int = 25000
+    herb_safety_build_timeout_seconds: int = 86400
     message_classification_timeout_seconds: int = 10
     message_classification_max_output_tokens: int = 300
     ai_stream: bool = False
@@ -281,6 +287,7 @@ class Settings:
         report_spec = REPORT_MODELS[report_model]
         return cls(
             documents_dir=Path(env.get("DOCUMENTS_DIR", str(CORPUS_DATA_DIR / "documents"))),
+            herb_images_dir=Path(env.get("HERB_IMAGES_DIR", str(CORPUS_DATA_DIR / "images"))),
             model_cache_dir=Path(env.get("MODEL_CACHE_DIR", str(ROOT / "model_cache"))),
             embedding_threads=_int("EMBEDDING_THREADS", min(8, os.cpu_count() or 8), env=env),
             embedding_device=_embedding_device(env=env),
@@ -353,13 +360,24 @@ class Settings:
                 "HERB_ASSOCIATION_AI_MAX_OUTPUT_TOKENS", 2048, env=env
             ),
             herb_association_ai_timeout_seconds=_int(
-                "HERB_ASSOCIATION_AI_TIMEOUT_SECONDS", 120, env=env
+                "HERB_ASSOCIATION_AI_TIMEOUT_SECONDS", 900, env=env
+            ),
+            herb_association_ai_keep_alive_seconds=_int(
+                "HERB_ASSOCIATION_AI_KEEP_ALIVE_SECONDS", -1, minimum=-1, env=env
             ),
             herb_association_build_timeout_seconds=_int(
                 "HERB_ASSOCIATION_BUILD_TIMEOUT_SECONDS", 7200, env=env
             ),
             herb_association_ai_max_requests=_int(
                 "HERB_ASSOCIATION_AI_MAX_REQUESTS", 1000, env=env
+            ),
+            herb_safety_ai_max_requests=_int("HERB_SAFETY_AI_MAX_REQUESTS", 10000, env=env),
+            herb_safety_ai_context_tokens=_int("HERB_SAFETY_AI_CONTEXT_TOKENS", 65536, env=env),
+            herb_safety_ai_max_output_tokens=_int(
+                "HERB_SAFETY_AI_MAX_OUTPUT_TOKENS", 25000, env=env
+            ),
+            herb_safety_build_timeout_seconds=_int(
+                "HERB_SAFETY_BUILD_TIMEOUT_SECONDS", 86400, env=env
             ),
             message_classification_timeout_seconds=_int(
                 "MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS", 10, env=env
@@ -499,11 +517,20 @@ class Settings:
             "herb_association_ai_timeout_seconds",
             "herb_association_build_timeout_seconds",
             "herb_association_ai_max_requests",
+            "herb_safety_ai_max_requests",
+            "herb_safety_ai_context_tokens",
+            "herb_safety_ai_max_output_tokens",
+            "herb_safety_build_timeout_seconds",
         ):
             if type(getattr(self, name)) is not int or getattr(self, name) <= 0:
                 raise ValueError(f"{name} must be a positive integer")
         if self.herb_association_ai_max_units > 6:
             raise ValueError("herb_association_ai_max_units must not exceed 6 source passages")
+        if (
+            type(self.herb_association_ai_keep_alive_seconds) is not int
+            or self.herb_association_ai_keep_alive_seconds < -1
+        ):
+            raise ValueError("herb_association_ai_keep_alive_seconds must be -1 or non-negative")
         if self.herb_association_ai_max_passage_chars > 1000:
             raise ValueError("herb_association_ai_max_passage_chars must not exceed 1000")
         if (
@@ -513,6 +540,10 @@ class Settings:
             raise ValueError("herb association output must leave context for input")
         if self.herb_association_ai_timeout_seconds > self.herb_association_build_timeout_seconds:
             raise ValueError("herb association request timeout must fit build timeout")
+        if self.herb_safety_ai_max_output_tokens + 512 >= self.herb_safety_ai_context_tokens:
+            raise ValueError("herb safety output must fit its dedicated context")
+        if self.herb_association_ai_timeout_seconds > self.herb_safety_build_timeout_seconds:
+            raise ValueError("herb safety request timeout must fit build timeout")
         database = urlsplit(self.database_url)
         if (
             database.scheme not in {"postgresql", "postgres"}
@@ -526,6 +557,7 @@ class Settings:
             raise ValueError("database_url has an invalid port") from None
         for name in (
             "documents_dir",
+            "herb_images_dir",
             "model_cache_dir",
             "frontend_dist_dir",
             "temp_dir",

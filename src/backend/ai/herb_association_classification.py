@@ -26,6 +26,8 @@ from backend.ai.herb_association_rules import (
 )
 from backend.ai.herb_association_scope import LocalConditionScope
 from backend.ai.herb_index_catalog import normalize_herb_name
+from backend.ai.herb_safety_validation import COMBINED_PATH, warning_schema
+from backend.ai.herb_safety_validation import PROMPT_PATH as SAFETY_PROMPT_PATH
 from backend.ai.providers import ProviderConfig
 from backend.config import Settings
 from backend.core.operation_context import checkpoint, remaining_timeout
@@ -36,10 +38,16 @@ Work = tuple[Unit, Candidate]
 CODE_LABELS: tuple[Label, ...] = ("unclear", "positive", "caution")
 
 
-def classification_prompt() -> str:
-    return "\n\n".join(
-        path.read_text(encoding="utf-8").strip() for path in (PROMPT_PATH, TRANSPORT_PATH)
+def classification_prompt(*, include_warnings: bool = False) -> str:
+    paths = (
+        (PROMPT_PATH, SAFETY_PROMPT_PATH, COMBINED_PATH)
+        if include_warnings
+        else (
+            PROMPT_PATH,
+            TRANSPORT_PATH,
+        )
     )
+    return "\n\n".join(path.read_text(encoding="utf-8").strip() for path in paths)
 
 
 # Every mention remains available for final coverage, although inference owns one relation.
@@ -203,7 +211,7 @@ def quotation_spans(
 # Every output relation and field is constrained by this exact request.
 def response_schema(payload: dict[str, Any]) -> dict[str, Any]:
     properties = {}
-    for candidate in payload["candidates"]:
+    for candidate in payload.get("candidates", []):
         fields = {
             "local_condition": {"type": "string", "maxLength": 120},
             "recommendation": {"type": "boolean"},
@@ -215,7 +223,7 @@ def response_schema(payload: dict[str, Any]) -> dict[str, Any]:
             "required": list(fields),
             "additionalProperties": False,
         }
-    return {
+    schema: dict[str, Any] = {
         "type": "object",
         "additionalProperties": False,
         "required": ["relations"],
@@ -228,6 +236,13 @@ def response_schema(payload: dict[str, Any]) -> dict[str, Any]:
             }
         },
     }
+    if "safety_targets" in payload:
+        schema["properties"]["warnings"] = warning_schema(payload)
+        schema["required"].append("warnings")
+        if "candidates" not in payload:
+            del schema["properties"]["relations"]
+            schema["required"].remove("relations")
+    return schema
 
 
 class AssociationClient(OllamaReportClient):
@@ -454,10 +469,12 @@ def validate_response(
     *,
     scope_catalog: LocalConditionScope,
     max_passage_chars: int = 1000,
+    allow_warnings: bool = False,
 ) -> dict[str, Decision]:
     if (
         not isinstance(raw, dict)
-        or set(raw) != {"relations"}
+        or set(raw)
+        not in (({"relations"}, {"relations", "warnings"}) if allow_warnings else ({"relations"},))
         or not isinstance(raw["relations"], dict)
     ):
         raise ValueError("POSITIVE_INVALID_RESPONSE")

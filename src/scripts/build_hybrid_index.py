@@ -1362,6 +1362,22 @@ def parse_args() -> argparse.Namespace:
         help="Inventory and cache analysis without inference or publication",
     )
     modes.add_argument(
+        "--analyze-safety-warnings",
+        action="store_true",
+        help="Inventory all herbs and reusable model-knowledge answers without inference",
+    )
+    modes.add_argument(
+        "--prepare-safety-warnings",
+        action="store_true",
+        help="Prepare one model-knowledge safety answer per uncached catalog product",
+    )
+    modes.add_argument(
+        "--publish-safety-warnings",
+        metavar="RUN_ID",
+        help="Atomically activate prepared product safety without inference",
+    )
+    parser.add_argument("--resume-safety-warnings", metavar="RUN_ID")
+    modes.add_argument(
         "--prepare-positive-ranking",
         action="store_true",
         help="Prepare a complete positive ranking without activation",
@@ -1382,6 +1398,8 @@ def parse_args() -> argparse.Namespace:
         help="Skip the default positive-ranking analysis, preparation and atomic publication",
     )
     arguments = parser.parse_args()
+    if arguments.resume_safety_warnings and not arguments.prepare_safety_warnings:
+        parser.error("--resume-safety-warnings requires --prepare-safety-warnings")
     if arguments.resume_positive_ranking and not arguments.prepare_positive_ranking:
         parser.error("--resume-positive-ranking requires --prepare-positive-ranking")
     if arguments.skip_positive_ranking and (
@@ -1390,6 +1408,9 @@ def parse_args() -> argparse.Namespace:
         or arguments.publish_positive_ranking
         or arguments.prepare_caution_ranking
         or arguments.publish_caution_ranking
+        or arguments.analyze_safety_warnings
+        or arguments.prepare_safety_warnings
+        or arguments.publish_safety_warnings
     ):
         parser.error("--skip-positive-ranking cannot be combined with an explicit ranking mode")
     return arguments
@@ -1412,15 +1433,30 @@ def main() -> int:
     configure_settings(configuration)
     arguments = parse_args()
     caution_stage = bool(arguments.prepare_caution_ranking or arguments.publish_caution_ranking)
+    safety_stage = bool(
+        arguments.analyze_safety_warnings
+        or arguments.prepare_safety_warnings
+        or arguments.publish_safety_warnings
+    )
     ranking_stage = bool(
         arguments.analyze_positive_ranking
         or arguments.prepare_positive_ranking
         or arguments.publish_positive_ranking
         or arguments.prepare_caution_ranking
         or arguments.publish_caution_ranking
+        or safety_stage
     )
     try:
-        if caution_stage:
+        if safety_stage:
+            from scripts.herb_safety_index import run_safety_index
+
+            run_safety_index(
+                settings,
+                analyze=arguments.analyze_safety_warnings,
+                publish=arguments.publish_safety_warnings,
+                resume=arguments.resume_safety_warnings,
+            )
+        elif caution_stage:
             from scripts.caution_herb_ranking import run_caution_ranking
 
             run_caution_ranking(settings, publish=arguments.publish_caution_ranking)
@@ -1450,12 +1486,16 @@ def main() -> int:
                 json.dumps(
                     {
                         "status": "error",
-                        "code": "CAUTION_RANKING_FAILED"
+                        "code": "HERB_SAFETY_FAILED"
+                        if safety_stage
+                        else "CAUTION_RANKING_FAILED"
                         if caution_stage
                         else "POSITIVE_RANKING_FAILED",
                         "type": type(exc).__name__,
                         "detail": str(exc)
-                        if re.fullmatch(r"(?:POSITIVE|CAUTION)_[A-Z_]+(?::[0-9]+)*", str(exc))
+                        if re.fullmatch(
+                            r"(?:POSITIVE|CAUTION|HERB_SAFETY)_[A-Z_]+(?::[0-9]+)*", str(exc)
+                        )
                         else "See aggregate run progress",
                     }
                 ),

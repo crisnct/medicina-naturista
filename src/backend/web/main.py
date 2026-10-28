@@ -17,7 +17,7 @@ from urllib.parse import quote, urlparse
 
 from fastapi import APIRouter, FastAPI, HTTPException, Path, Query, Request
 from fastapi.exceptions import RequestValidationError
-from fastapi.responses import HTMLResponse, JSONResponse, RedirectResponse, Response
+from fastapi.responses import FileResponse, HTMLResponse, JSONResponse, RedirectResponse, Response
 from pydantic import BaseModel, Field, model_validator
 
 from backend.ai.client import create_report_clients
@@ -25,7 +25,9 @@ from backend.ai.condition_ai import identify_conditions
 from backend.ai.db import get_pool
 from backend.ai.herb_conditions import lookup_herb_conditions
 from backend.ai.herb_evidence import lookup_herb_evidence
+from backend.ai.herb_images import lookup_herb_image
 from backend.ai.herb_ranking import list_top_herbs, list_top_herbs_for_condition
+from backend.ai.herb_safety import lookup_herb_safety, lookup_herb_safety_evidence
 from backend.ai.herbs import load_herbs
 from backend.ai.index_state import IndexUnavailable, index_reader
 from backend.ai.message_classification import MessageClassifier
@@ -34,7 +36,7 @@ from backend.ai.retrieval import Retriever
 from backend.ai.search import SearchSignals
 from backend.ai.search import warm_up as warm_up_search
 from backend.config import Settings, configure_settings
-from backend.core.contracts import AIProtocol, ReportModel
+from backend.core.contracts import AIProtocol, HerbSafetyEvidencePage, HerbSafetyPage, ReportModel
 from backend.core.conversation import (
     ConversationService,
     welcome,
@@ -354,6 +356,18 @@ def _categories_payload(tree, generation):
     }
 
 
+@router.get("/api/herb-images/{herb_id}")
+def get_herb_image(request: Request, herb_id: int = Path(ge=1, le=2147483647)):
+    _require_initialized(request)
+    deps = _deps(request)
+    deps.request_limiter.check((_client_ip(request), deps.settings.max_requests_per_minute))
+    lookup = deps.herb_image or partial(lookup_herb_image, settings=deps.settings)
+    image = lookup(herb_id)
+    if image is None:
+        return Response(status_code=404)
+    return FileResponse(image, media_type="image/png")
+
+
 @router.get("/api/herb-evidence/{group_id}")
 def get_herb_evidence(
     request: Request,
@@ -413,6 +427,67 @@ def get_herb_evidence(
         ) from None
     finally:
         deps.store.finish_operation(operation)
+
+
+def _herb_safety_response(
+    request: Request, group_id: str, offset: int, warning_id: str | None = None
+) -> HerbSafetyPage | HerbSafetyEvidencePage:
+    _require_initialized(request)
+    deps = _deps(request)
+    deps.request_limiter.check((_client_ip(request), deps.settings.max_requests_per_minute))
+    session = _current(request)
+    reference = deps.store.herb_safety_reference(session, group_id)
+    operation = deps.store.begin_operation(session, "herb_evidence")
+    try:
+        with operation_budget(
+            OperationBudget(
+                operation.deadline, deps.store.clock, lambda: deps.store.checkpoint(operation)
+            )
+        ):
+            result: HerbSafetyPage | HerbSafetyEvidencePage
+            if warning_id is None:
+                lookup = deps.herb_safety or partial(lookup_herb_safety, settings=deps.settings)
+                result = lookup(reference["herbId"], reference["safetyRunId"], offset=offset)
+            else:
+                evidence = deps.herb_safety_evidence or partial(
+                    lookup_herb_safety_evidence, settings=deps.settings
+                )
+                result = evidence(
+                    reference["herbId"],
+                    reference["safetyRunId"],
+                    warning_id=warning_id,
+                    offset=offset,
+                )
+            if deps.store.herb_safety_reference(session, group_id) != reference:
+                raise ApplicationError(
+                    "HERB_SAFETY_UNAVAILABLE", tr("errors.herb_safety_unavailable"), 404
+                )
+        return result
+    except OperationCancelled:
+        raise ApplicationError(
+            "HERB_SAFETY_UNAVAILABLE", tr("errors.herb_safety_unavailable"), 409
+        ) from None
+    finally:
+        deps.store.finish_operation(operation)
+
+
+@router.get("/api/herb-safety/{group_id}", response_model=None)
+def get_herb_safety(
+    request: Request,
+    group_id: str = Path(pattern=r"^[A-Za-z0-9_-]{8,64}$"),
+    offset: int = Query(default=0, ge=0, le=2147483647),
+) -> HerbSafetyPage | HerbSafetyEvidencePage:
+    return _herb_safety_response(request, group_id, offset)
+
+
+@router.get("/api/herb-safety/{group_id}/evidence", response_model=None)
+def get_herb_safety_evidence(
+    request: Request,
+    group_id: str = Path(pattern=r"^[A-Za-z0-9_-]{8,64}$"),
+    warningId: str = Query(pattern=r"^[0-9a-f]{64}$"),
+    offset: int = Query(default=0, ge=0, le=2147483647),
+) -> HerbSafetyPage | HerbSafetyEvidencePage:
+    return _herb_safety_response(request, group_id, offset, warningId)
 
 
 def _conversation(

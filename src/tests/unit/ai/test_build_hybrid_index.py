@@ -1148,6 +1148,12 @@ class ChunkingTests(unittest.TestCase):
             explicit_stage.assert_called_once_with(
                 builder.settings, analyze=False, publish=None, resume=None
             )
+            with patch("scripts.herb_safety_index.run_safety_index") as safety_stage:
+                with patch("sys.argv", ["build_hybrid_index", "--analyze-safety-warnings"]):
+                    self.assertEqual(builder.main(), 0)
+                safety_stage.assert_called_once_with(
+                    builder.settings, analyze=True, publish=None, resume=None
+                )
             refresh_rankings.assert_not_called()
             build_index.side_effect = RuntimeError("synthetic index failure")
             with patch("sys.argv", ["build_hybrid_index"]):
@@ -1187,6 +1193,556 @@ class ChunkingTests(unittest.TestCase):
                 configure.call_args.args[0].herb_association_ai_base,
                 "http://host.docker.internal:11434/v1",
             )
+
+        from backend.ai.herb_safety_extraction import SafetyTarget
+        from backend.ai.herb_safety_repository import SafetyRepository, SafetySnapshot
+        from backend.ai.herb_safety_validation import (
+            SafetyResult,
+            decode_result,
+            encode_result,
+            validate_warnings,
+        )
+        from scripts.herb_safety_index import (
+            SafetyCoordinator,
+            batch_progress,
+            format_duration,
+            run_safety_index,
+            safety_payload,
+            workflow_progress,
+        )
+
+        safety_text = "Menta poate provoca somnolenta la doze mari; nu se asociaza cu warfarina."
+        safety_target = SafetyTarget(
+            7,
+            1,
+            "menta",
+            "synthetic.md",
+            "a" * 64,
+            "b" * 64,
+            "Menta",
+            safety_text,
+            ((0, 5),),
+            heading_owned=True,
+        )
+        repeated_target = replace(safety_target, chunk_id=8)
+        safety_data = SafetySnapshot({}, (safety_target, repeated_target))
+        safety_repository = Mock(spec=SafetyRepository)
+        safety_repository.read_snapshot.return_value = safety_data
+        safety_repository.cached.return_value = {}
+        safety_repository.create_run.return_value = "preparing"
+        warning_response = {
+            "s0": {
+                "status": "complete",
+                "items": [
+                    {
+                        "kind": "drug_interaction",
+                        "quote": safety_text,
+                        "partners": ["warfarina"],
+                    }
+                ],
+            }
+        }
+        reference_response = {
+            "s0": {
+                "status": "complete",
+                "items": [
+                    {
+                        "kind": "drug_interaction",
+                        "passage_ids": ["c7p0"],
+                        "focus_id": "c7p0s1",
+                        "summary": safety_text,
+                        "partners": ["warfarina"],
+                    }
+                ],
+            }
+        }
+        warning_client = Mock()
+        warning_client.complete_json.return_value = {"warnings": reference_response}
+        warning_factory = Mock(return_value=warning_client)
+        coordinator = SafetyCoordinator(config, safety_repository, "local-run", "a" * 64)
+        safety_summary = coordinator.prepare(
+            {safety_target.identity, repeated_target.identity},
+            client_factory=warning_factory,
+            digest_verifier=lambda _settings: "a" * 64,
+        )
+        self.assertEqual(safety_summary["warnings_only_ai_requests"], 1)
+        self.assertEqual(safety_summary["safety_context_tokens"], 65536)
+        self.assertEqual(
+            warning_factory.call_args.args[0].herb_association_ai_context_tokens, 65536
+        )
+        self.assertEqual(config.herb_association_ai_context_tokens, 32768)
+        warning_client.complete_json.assert_called_once()
+        sent = json.loads(warning_client.complete_json.call_args.args[1])
+        self.assertNotIn("candidates", sent)
+        self.assertEqual(len(sent["units"]), 1)
+        self.assertEqual(sent["units"]["u0"]["text"], safety_text)
+        persisted = safety_repository.finish.call_args.args[2]
+        self.assertEqual(set(persisted), {safety_target.identity, repeated_target.identity})
+        self.assertTrue(all(result.items[0].text == safety_text for result in persisted.values()))
+        checked = validate_warnings(warning_response, [safety_target])[safety_target.identity]
+        self.assertEqual(decode_result(encode_result(checked), safety_target), checked)
+
+        import httpx
+
+        from backend.core.errors import OperationCancelled
+        from backend.core.operation_context import OperationBudget, operation_budget
+        from scripts.herb_index_requests import make_client as streaming_client
+
+        response_text = json.dumps({"warnings": reference_response}, ensure_ascii=False)
+        split = len(response_text) // 2
+        native_events = [
+            {"message": {"content": response_text[:split]}, "done": False},
+            {"message": {"content": response_text[split:]}, "done": False},
+            {
+                "message": {"content": ""},
+                "done": True,
+                "done_reason": "stop",
+                "load_duration": 100_000_000,
+                "prompt_eval_duration": 900_000_000,
+                "eval_duration": 2_000_000_000,
+                "total_duration": 3_000_000_000,
+                "prompt_eval_count": 100,
+                "prompt_eval_cached_count": 60,
+                "eval_count": 20,
+            },
+        ]
+        for mode in ("completed", "interrupted", "timeout", "deadline", "parent_deadline"):
+            stream_clock = [1000.0]
+            native_calls = []
+
+            class NativeStream(httpx.SyncByteStream):
+                def __iter__(self):
+                    for index, event in enumerate(native_events):
+                        if mode == "interrupted" and index == 1:
+                            return
+                        if mode == "timeout" and index == 1:
+                            raise httpx.ReadTimeout("synthetic transport timeout")
+                        stream_clock[0] += (
+                            config.herb_association_ai_timeout_seconds + 1.0
+                            if mode == "deadline"
+                            else 1.0
+                        )
+                        if mode == "parent_deadline":
+                            stream_clock[0] += 1.0
+                        yield (json.dumps(event, ensure_ascii=False) + "\n").encode()
+
+            def native_handler(request):
+                native_calls.append(request)
+                return httpx.Response(200, stream=NativeStream())
+
+            native_client = streaming_client(config)
+            native_client.http.close()
+            native_client.http = httpx.Client(
+                transport=httpx.MockTransport(native_handler), trust_env=False
+            )
+            safety_repository.read_snapshot.return_value = safety_data
+            safety_repository.cached.return_value = {}
+            safety_repository.save_cache.reset_mock()
+            safety_repository.finish.reset_mock()
+            native_coordinator = SafetyCoordinator(
+                config,
+                safety_repository,
+                "native-stream-run",
+                "a" * 64,
+                clock=lambda: stream_clock[0],
+            )
+            native_output = io.StringIO()
+            with (
+                redirect_stdout(native_output),
+                self.assertLogs("naturist.ai", level="INFO") as logs,
+            ):
+                if mode == "completed":
+                    native_coordinator.prepare(
+                        {safety_target.identity, repeated_target.identity},
+                        client_factory=lambda _settings: native_client,
+                        digest_verifier=lambda _settings: "a" * 64,
+                    )
+                elif mode == "parent_deadline":
+                    with (
+                        self.assertRaises(OperationCancelled),
+                        operation_budget(
+                            OperationBudget(1001.0, lambda: stream_clock[0], lambda: None)
+                        ),
+                    ):
+                        native_coordinator.prepare(
+                            {safety_target.identity}, client_factory=lambda _settings: native_client
+                        )
+                else:
+                    with self.assertRaises(AIUnavailable) as failed_stream:
+                        native_coordinator.prepare(
+                            {safety_target.identity}, client_factory=lambda _settings: native_client
+                        )
+                    self.assertEqual(
+                        failed_stream.exception.reason,
+                        "invalid_response" if mode == "interrupted" else "timeout",
+                    )
+            self.assertEqual(len(native_calls), 1)
+            wire = json.loads(native_calls[0].content)
+            self.assertIs(wire["stream"], True)
+            self.assertIs(wire["think"], False)
+            self.assertIs(wire["truncate"], False)
+            self.assertEqual(wire["options"]["num_ctx"], 65536)
+            self.assertEqual(wire["options"]["num_predict"], 25000)
+            self.assertEqual(
+                json.loads(wire["messages"][1]["content"])["units"]["u0"]["text"], safety_text
+            )
+            rows = [json.loads(line) for line in native_output.getvalue().splitlines()]
+            self.assertEqual(
+                [row["event"] for row in rows],
+                ["started", "completed" if mode == "completed" else "failed"],
+            )
+            metrics = rows[-1]
+            self.assertEqual(metrics["source_chars"], len(safety_text))
+            self.assertEqual(metrics["fragments"], 1)
+            self.assertNotIn(safety_text, native_output.getvalue())
+            self.assertNotIn(safety_text, "\n".join(logs.output))
+            self.assertEqual(native_coordinator.counters["warnings_only_ai_requests"], 1)
+            if mode == "completed":
+                self.assertEqual(metrics["first_chunk_ms"], 1000.0)
+                self.assertEqual(metrics["first_output_ms"], 1000.0)
+                self.assertEqual(metrics["duration_ms"], 3000.0)
+                self.assertEqual(metrics["stream_events"], 3)
+                self.assertEqual(metrics["output_chars"], len(response_text))
+                self.assertEqual(metrics["thinking_chars"], 0)
+                self.assertEqual(metrics["prompt_eval_count"], 100)
+                self.assertEqual(metrics["prompt_eval_cached_count"], 60)
+                self.assertEqual(metrics["load_duration_ms"], 100.0)
+                self.assertEqual(metrics["prompt_eval_duration_ms"], 900.0)
+                self.assertEqual(metrics["eval_duration_ms"], 2000.0)
+                self.assertEqual(metrics["output_tokens_per_second"], 10.0)
+                self.assertEqual(native_coordinator.counters["safety_batches_completed"], 1)
+                safety_repository.save_cache.assert_called_once()
+                safety_repository.finish.assert_called_once()
+            else:
+                self.assertIsNone(metrics["eval_duration_ms"])
+                self.assertEqual(native_coordinator.counters["safety_batches_completed"], 0)
+                safety_repository.save_cache.assert_not_called()
+                safety_repository.finish.assert_not_called()
+
+        with self.assertRaisesRegex(ValueError, "HERB_SAFETY_UNSUPPORTED_QUOTE"):
+            validate_warnings(
+                {
+                    "s0": {
+                        "status": "complete",
+                        "items": [
+                            {
+                                "kind": "drug_interaction",
+                                "quote": "Afirmatie inexistenta",
+                                "partners": [],
+                            }
+                        ],
+                    }
+                },
+                [safety_target],
+            )
+        with self.assertRaisesRegex(ValueError, "HERB_SAFETY_INCOMPLETE_RESPONSE"):
+            validate_warnings({}, [safety_target])
+        self.assertEqual(response_schema(safety_payload([safety_target]))["required"], ["warnings"])
+        ambiguous_target = replace(
+            safety_target, herb_id=2, certain=False, mentions=(), heading_owned=False
+        )
+        mixed_targets = [safety_target, ambiguous_target]
+        mixed_schema = response_schema(safety_payload(mixed_targets))
+        entries = mixed_schema["properties"]["warnings"]["properties"]
+        self.assertEqual(entries["s0"]["properties"]["status"]["enum"], ["complete", "unclear"])
+        self.assertEqual(entries["s1"]["properties"]["status"]["enum"], ["unclear"])
+        self.assertNotIn("maxItems", entries["s0"]["properties"]["items"])
+        self.assertEqual(entries["s1"]["properties"]["items"]["maxItems"], 0)
+        mixed_response = {**warning_response, "s1": {"status": "unclear", "items": []}}
+        mixed_results = validate_warnings(mixed_response, mixed_targets)
+        self.assertEqual(mixed_results[ambiguous_target.identity], SafetyResult("unclear"))
+        self.assertEqual(
+            decode_result(
+                encode_result(mixed_results[ambiguous_target.identity]), ambiguous_target
+            ),
+            SafetyResult("unclear"),
+        )
+        for ambiguous_response in (
+            {"status": "complete", "items": []},
+            {"status": "unclear", "items": warning_response["s0"]["items"]},
+        ):
+            with self.assertRaisesRegex(ValueError, "HERB_SAFETY_AMBIGUOUS_TARGET"):
+                validate_warnings({"s0": ambiguous_response}, [ambiguous_target])
+        safety_repository.read_snapshot.return_value = SafetySnapshot({}, tuple(mixed_targets))
+        safety_repository.cached.return_value = {}
+        warning_client.complete_json.return_value = {
+            "warnings": {**reference_response, "s1": {"status": "unclear", "items": []}}
+        }
+        mixed = SafetyCoordinator(config, safety_repository, "mixed-run", "a" * 64)
+        mixed.prepare(
+            {target.identity for target in mixed_targets},
+            client_factory=warning_factory,
+            digest_verifier=lambda _settings: "a" * 64,
+        )
+        self.assertEqual(safety_repository.finish.call_args.args[2], mixed_results)
+        self.assertEqual(mixed.counters["warnings_only_ai_requests"], 1)
+
+        self.assertIsNone(batch_progress(0, 265, 0)["ETA(hh:mm:ss)"])
+        self.assertIsNone(batch_progress(0, None, 120)["ETA(hh:mm:ss)"])
+        self.assertEqual(batch_progress(0, 0, 0)["ETA(hh:mm:ss)"], "00:00:00")
+        self.assertEqual(batch_progress(1, 265, 10)["ETA(hh:mm:ss)"], "00:44:00")
+        self.assertEqual(batch_progress(1, 2, 0.1)["ETA(hh:mm:ss)"], "00:00:01")
+        self.assertEqual(format_duration(90061), "25:01:01")
+        for stage in (
+            "analysis",
+            "associations",
+            "safety_inventory",
+            "ranking_preparation",
+            "caution_preparation",
+            "safety_preparation",
+            "safety_finalization",
+        ):
+            preparing = workflow_progress(
+                {"progress_stage": stage, "completed": 0, "batches": 0}, 60
+            )
+            self.assertEqual(preparing["progress_stage"], stage)
+            self.assertIsNone(preparing["ETA(hh:mm:ss)"])
+        self.assertIsNone(
+            workflow_progress(
+                {"progress_stage": "analysis", "status": "analyzed", "completed": 0, "batches": 0},
+                17,
+            )["ETA(hh:mm:ss)"]
+        )
+        clock_value = [5000.0]
+        measured_progress = []
+        safety_repository.cached.return_value = {}
+        timed = SafetyCoordinator(
+            replace(config, herb_association_ai_max_pairs=1),
+            safety_repository,
+            "timed-run",
+            "a" * 64,
+            clock=lambda: clock_value[0],
+        )
+        self.assertIsNone(timed.progress_metrics())
+        timed_client = Mock()
+
+        def timed_response(_system, user, _tokens):
+            measured_progress.append({**timed.counters, **timed.progress_metrics()})
+            clock_value[0] += 10.0
+            return {
+                "warnings": {
+                    target["id"]: {
+                        "status": "complete" if target["certain"] else "unclear",
+                        "items": [],
+                    }
+                    for target in json.loads(user)["safety_targets"]
+                }
+            }
+
+        timed_client.complete_json.side_effect = timed_response
+        timed.prepare(
+            {target.identity for target in mixed_targets},
+            client_factory=lambda _settings: timed_client,
+            digest_verifier=lambda _settings: "a" * 64,
+        )
+        self.assertEqual(measured_progress[0]["warnings_only_ai_requests"], 1)
+        self.assertEqual(measured_progress[0]["safety_batches_completed"], 0)
+        self.assertIsNone(measured_progress[0]["ETA(hh:mm:ss)"])
+        self.assertEqual(measured_progress[1]["warnings_only_ai_requests"], 2)
+        self.assertEqual(measured_progress[1]["safety_batches_completed"], 1)
+        self.assertEqual(measured_progress[1]["progress_stage"], "warnings_only")
+        self.assertEqual(measured_progress[1]["rate_batches_second"], 0.1)
+        self.assertEqual(measured_progress[1]["ETA(hh:mm:ss)"], "00:00:10")
+        active_warning_progress = workflow_progress(
+            {**measured_progress[1], "completed": 0, "batches": 0},
+            5010,
+            measured_progress[1],
+        )
+        self.assertEqual(active_warning_progress["progress_stage"], "warnings_only")
+        self.assertEqual(active_warning_progress["ETA(hh:mm:ss)"], "00:00:10")
+        self.assertEqual(timed.counters["safety_batches_completed"], 2)
+        clock_value[0] += 300.0
+        self.assertEqual(timed.progress_metrics()["rate_batches_second"], 0.1)
+        self.assertEqual(timed.progress_metrics()["ETA(hh:mm:ss)"], "00:00:00")
+
+        safety_repository.cached.return_value = dict(mixed_results)
+        standalone_output = io.StringIO()
+        with (
+            patch("scripts.herb_safety_index.SafetyRepository", return_value=safety_repository),
+            patch("scripts.herb_safety_index.PositiveRepository"),
+            patch(
+                "scripts.herb_safety_index.local_target_ids",
+                return_value={target.identity for target in mixed_targets},
+            ),
+            patch("scripts.herb_safety_index.model_digest", return_value="a" * 64),
+            redirect_stdout(standalone_output),
+        ):
+            standalone = run_safety_index(config)
+            standalone_progress = json.loads(standalone_output.getvalue().splitlines()[-1])
+            run_safety_index(config, publish=standalone["run_id"])
+            publication_progress = json.loads(standalone_output.getvalue().splitlines()[-1])
+        self.assertEqual(standalone["warnings_only_ai_requests"], 0)
+        self.assertEqual(standalone_progress["safety_batches_completed"], 0)
+        self.assertEqual(standalone_progress["progress_stage"], "ready")
+        self.assertEqual(standalone_progress["ETA(hh:mm:ss)"], "00:00:00")
+        self.assertEqual(publication_progress["status"], "published")
+        self.assertEqual(publication_progress["ETA(hh:mm:ss)"], "00:00:00")
+
+        from backend.ai.herb_caution_repository import CautionRepository
+
+        empty_repository = Mock(spec=PositiveRepository)
+        empty_repository.read_snapshot.return_value = Snapshot(
+            {}, None, (1,), {1: "menta"}, {10: "Gastrita"}, ()
+        )
+        empty_repository.cached.return_value = {}
+        empty_repository.create_run.return_value = {"status": "preparing"}
+        projection = Mock(spec=CautionRepository)
+        projection_progress = []
+
+        def capture_projection(_run_id, _settings):
+            current = empty_repository.finish.call_args.args[-1]
+            projection_progress.append(workflow_progress(current, 60))
+            return {"run_id": "projection-run", "unknown_count": 0}
+
+        projection.prepare.side_effect = capture_projection
+        full_output = io.StringIO()
+        with (
+            patch("scripts.positive_herb_ranking.model_digest", return_value="a" * 64),
+            patch(
+                "scripts.positive_herb_ranking.make_client",
+                side_effect=AssertionError("No AI expected with the complete cache"),
+            ),
+            redirect_stdout(full_output),
+        ):
+            run_positive_ranking(
+                config,
+                repository=empty_repository,
+                caution_repository=projection,
+                safety_repository=safety_repository,
+            )
+        self.assertEqual(projection_progress[0]["progress_stage"], "caution_preparation")
+        self.assertIsNone(projection_progress[0]["ETA(hh:mm:ss)"])
+        finished_progress = json.loads(full_output.getvalue().splitlines()[-1])
+        self.assertEqual(finished_progress["status"], "ready")
+        self.assertEqual(finished_progress["ETA(hh:mm:ss)"], "00:00:00")
+
+        foreign_quote = "Busuiocul nu se administreaza copiilor."
+        scoped_target = replace(
+            safety_target, text=f"{safety_text}\n\n{foreign_quote}", heading_owned=False
+        )
+        scoped_repeat = replace(scoped_target, chunk_id=8)
+        ambiguous_target = replace(ambiguous_target, chunk_id=9)
+        partial_data = SafetySnapshot({}, (scoped_target, scoped_repeat, ambiguous_target))
+        partial_response = {
+            "s0": {
+                "status": "complete",
+                "items": [
+                    *reference_response["s0"]["items"],
+                    {
+                        "kind": "adverse_effect",
+                        "passage_ids": ["unknown"],
+                        "focus_id": "c7p0s1",
+                        "summary": "Afirmatie nesustinuta.",
+                        "partners": [],
+                    },
+                    {
+                        "kind": "population",
+                        "passage_ids": ["c7p1"],
+                        "focus_id": "c7p1s0",
+                        "summary": foreign_quote,
+                        "partners": [],
+                    },
+                    {
+                        "kind": "drug_interaction",
+                        "passage_ids": ["c7p0"],
+                        "focus_id": "c7p0s1",
+                        "summary": safety_text,
+                        "partners": ["aspirina"],
+                    },
+                ],
+            },
+            "s1": {"status": "unclear", "items": []},
+        }
+        safety_repository.read_snapshot.return_value = partial_data
+        safety_repository.cached.return_value = {}
+        warning_client.complete_json.return_value = {"warnings": partial_response}
+        partial = SafetyCoordinator(config, safety_repository, "partial-run", "a" * 64)
+        partial.prepare(
+            {target.identity for target in partial_data.targets},
+            client_factory=warning_factory,
+            digest_verifier=lambda _settings: "a" * 64,
+        )
+        partial_results = safety_repository.finish.call_args.args[2]
+        self.assertEqual(
+            partial_results[scoped_target.identity], SafetyResult("unclear", checked.items)
+        )
+        self.assertEqual(
+            partial_results[scoped_repeat.identity], partial_results[scoped_target.identity]
+        )
+        self.assertEqual(partial_results[ambiguous_target.identity], SafetyResult("unclear"))
+        self.assertEqual(partial.counters["safety_rejected_quotes"], 3)
+        self.assertEqual(partial.counters["safety_rejected_passage_id"], 1)
+        self.assertEqual(partial.counters["safety_rejected_quote_scope"], 1)
+        self.assertEqual(partial.counters["safety_rejected_partner"], 1)
+        self.assertEqual(partial.counters["safety_unclear_after_validation"], 1)
+        self.assertEqual(partial.counters["warnings_only_ai_requests"], 1)
+        self.assertEqual(
+            decode_result(encode_result(partial_results[scoped_target.identity]), scoped_target),
+            partial_results[scoped_target.identity],
+        )
+        safety_repository.save_cache.reset_mock()
+        with self.assertRaisesRegex(ValueError, "HERB_SAFETY_INVALID_RESPONSE"):
+            partial.record(
+                {**partial_response, "s1": {"status": "invalid", "items": []}},
+                [scoped_target, ambiguous_target],
+            )
+        safety_repository.save_cache.assert_not_called()
+        safety_repository.cached.return_value = {
+            scoped_target.identity: partial_results[scoped_target.identity],
+            ambiguous_target.identity: partial_results[ambiguous_target.identity],
+        }
+        no_partial_calls = Mock()
+        resumed_partial = SafetyCoordinator(
+            config, safety_repository, "partial-run", "a" * 64, resume=True
+        )
+        resumed_partial.prepare(
+            {target.identity for target in partial_data.targets}, client_factory=no_partial_calls
+        )
+        no_partial_calls.assert_not_called()
+        self.assertEqual(resumed_partial.counters["safety_cache_hits"], 3)
+        self.assertEqual(safety_repository.finish.call_args.args[2], partial_results)
+        safety_repository.cached.return_value = {}
+        partial_combined = SafetyCoordinator(
+            config, safety_repository, "partial-combined", "a" * 64
+        )
+        partial_combined.record(partial_response, [scoped_target, ambiguous_target], combined=True)
+        partial_combined.prepare(
+            {target.identity for target in partial_data.targets}, client_factory=no_partial_calls
+        )
+        no_partial_calls.assert_not_called()
+        self.assertEqual(partial_combined.counters.get("safety_invalid_combined", 0), 0)
+        self.assertEqual(safety_repository.finish.call_args.args[2], partial_results)
+
+        safety_repository.read_snapshot.return_value = safety_data
+        safety_repository.cached.return_value = {
+            safety_target.identity: SafetyResult("complete"),
+            repeated_target.identity: SafetyResult("complete"),
+        }
+        no_calls = Mock()
+        SafetyCoordinator(config, safety_repository, "cached-run", "a" * 64).prepare(
+            {safety_target.identity, repeated_target.identity}, client_factory=no_calls
+        )
+        no_calls.assert_not_called()
+        safety_repository.cached.return_value = {}
+        combined = SafetyCoordinator(config, safety_repository, "combined-run", "a" * 64)
+        mint_work = (
+            replace(
+                work[0],
+                passage=replace(work[0].passage, chunk_id=7, text=safety_text),
+                start=0,
+                end=len(safety_text),
+            ),
+            work[1],
+        )
+        combined_payload, warning_targets = combined.enrich(
+            serialize_batch([mint_work], {1: "menta"}, {10: "Gastrita"}), [mint_work]
+        )
+        self.assertTrue(warning_targets)
+        self.assertIn("warnings", response_schema(json.loads(combined_payload))["required"])
+        combined.record(reference_response, warning_targets, combined=True)
+        combined.prepare({safety_target.identity}, client_factory=no_calls)
+        no_calls.assert_not_called()
+        self.assertEqual(combined.counters["warnings_only_ai_requests"], 0)
 
 
 class EmbeddingProgressTests(unittest.TestCase):

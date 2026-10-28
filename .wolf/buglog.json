@@ -3430,8 +3430,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-191",
       "timestamp": "2026-10-26T04:47:46.554Z",
-      "last_seen": "2026-10-26T04:47:46.554Z",
-      "occurrences": 1,
+      "last_seen": "2026-10-28T04:20:59.618Z",
+      "occurrences": 4,
       "related_bugs": []
     },
     {
@@ -3593,6 +3593,1608 @@
       "id": "bug-200",
       "timestamp": "2026-10-26T05:59:26.482Z",
       "last_seen": "2026-10-26T05:59:26.482Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_association_classification.py",
+      "file": "src/backend/ai/herb_association_classification.py",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 10→24 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-201",
+      "timestamp": "2026-10-26T09:19:50.110Z",
+      "last_seen": "2026-10-26T09:19:50.110Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/backend/ai/herb_safety_validation.py",
+      "root_cause": "Was returning: content_hash(",
+      "fix": "Now returns: content_hash([herb_id, self.kind, self.text, self.",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-202",
+      "timestamp": "2026-10-26T09:19:50.404Z",
+      "last_seen": "2026-10-26T09:19:50.404Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/ai/herb_association_classification.py",
+      "root_cause": "Had \"warnings\"",
+      "fix": "Changed to \"relations\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-203",
+      "timestamp": "2026-10-26T09:22:39.015Z",
+      "last_seen": "2026-10-26T09:22:39.015Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of positive_herb_ranking.py",
+      "file": "src/scripts/positive_herb_ranking.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 24→63 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-204",
+      "timestamp": "2026-10-26T09:22:39.306Z",
+      "last_seen": "2026-10-26T09:22:39.306Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of build_hybrid_index.py",
+      "file": "src/scripts/build_hybrid_index.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 10→41 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-205",
+      "timestamp": "2026-10-26T09:22:39.592Z",
+      "last_seen": "2026-10-26T09:22:39.592Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in _herb_safety_response()",
+      "file": "src/backend/web/main.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-206",
+      "timestamp": "2026-10-26T09:23:54.023Z",
+      "last_seen": "2026-10-26T09:23:54.023Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: background, color",
+      "file": "src/frontend/styles.css",
+      "root_cause": "background: #fef08a → #ffedb5; color: #44360a → #5c3b12",
+      "fix": "Changed background: #fef08a → #ffedb5; color: #44360a → #5c3b12",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-207",
+      "timestamp": "2026-10-26T09:25:02.722Z",
+      "last_seen": "2026-10-26T09:25:02.722Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: warning_targets should be from",
+      "file": "src/scripts/positive_herb_ranking.py",
+      "root_cause": "Used \"warning_targets\" instead of \"from\"",
+      "fix": "Changed warning_targets → from",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-208",
+      "timestamp": "2026-10-26T09:26:33.999Z",
+      "last_seen": "2026-10-26T09:26:33.999Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of main.py",
+      "file": "src/backend/web/main.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 9→10 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-209",
+      "timestamp": "2026-10-26T09:26:34.277Z",
+      "last_seen": "2026-10-26T09:26:34.277Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/components/HerbWarningsPanel.tsx",
+      "root_cause": "Had \"errors.herb_safety_stale\"",
+      "fix": "Changed to \"interface.herb_warnings_stale\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-210",
+      "timestamp": "2026-10-26T09:26:34.748Z",
+      "last_seen": "2026-10-26T09:26:34.748Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/support/postgres.py",
+      "root_cause": "Had \"herb_positive_cache RESTART IDENTITY CASCADE\"",
+      "fix": "Changed to \"herb_positive_cache,herb_safety_runs,herb_safety_",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-211",
+      "timestamp": "2026-10-26T09:28:41.649Z",
+      "last_seen": "2026-10-26T09:28:41.649Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/backend/ai/herb_safety_validation.py",
+      "root_cause": "Was returning: asdict(result)",
+      "fix": "Now returns: {",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-212",
+      "timestamp": "2026-10-26T09:29:02.382Z",
+      "last_seen": "2026-10-26T09:29:02.382Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_herb_conditions.py",
+      "file": "src/tests/integration/test_herb_conditions.py",
+      "root_cause": "7 lines replaced/restructured",
+      "fix": "Rewrote 12→22 lines (7 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-213",
+      "timestamp": "2026-10-26T09:30:13.845Z",
+      "last_seen": "2026-10-26T09:30:13.845Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_herb_conditions.py",
+      "file": "src/tests/integration/test_herb_conditions.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 6→30 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-214",
+      "timestamp": "2026-10-26T09:31:37.000Z",
+      "last_seen": "2026-10-26T09:31:37.000Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing await",
+      "file": "src/frontend/components/HerbConditionsPanel.test.tsx",
+      "root_cause": "Async call without await — returned Promise instead of value",
+      "fix": "Added await to async call",
+      "tags": [
+        "auto-detected",
+        "async-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-215",
+      "timestamp": "2026-10-26T09:31:37.289Z",
+      "last_seen": "2026-10-26T09:31:37.289Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_repository.py",
+      "file": "src/backend/ai/herb_safety_repository.py",
+      "root_cause": "14 lines replaced/restructured",
+      "fix": "Rewrote 17→6 lines (14 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-216",
+      "timestamp": "2026-10-26T09:33:54.194Z",
+      "last_seen": "2026-10-26T09:33:54.194Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/components/HerbConditionsPanel.test.tsx",
+      "root_cause": "Had \"Sursă pentru precauția sintetică.\"",
+      "fix": "Changed to \"article\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-217",
+      "timestamp": "2026-10-26T09:34:49.699Z",
+      "last_seen": "2026-10-26T09:34:49.699Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong operator: == should be <=",
+      "file": "src/backend/ai/herb_safety_extraction.py",
+      "root_cause": "Used \"==\" instead of \"<=\"",
+      "fix": "Changed operator == → <=",
+      "tags": [
+        "auto-detected",
+        "operator-fix",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-218",
+      "timestamp": "2026-10-26T09:40:18.129Z",
+      "last_seen": "2026-10-26T09:40:18.129Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of positive_herb_ranking.py",
+      "file": "src/scripts/positive_herb_ranking.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 7→13 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-219",
+      "timestamp": "2026-10-26T09:36:22.542Z",
+      "last_seen": "2026-10-26T09:36:22.542Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_herb_conditions.py",
+      "file": "src/tests/integration/test_herb_conditions.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 5→10 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-220",
+      "timestamp": "2026-10-26T09:40:19.082Z",
+      "last_seen": "2026-10-26T09:40:19.082Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_index.py",
+      "file": "src/scripts/herb_safety_index.py",
+      "root_cause": "9 lines replaced/restructured",
+      "fix": "Rewrote 28→50 lines (9 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-221",
+      "timestamp": "2026-10-26T09:41:31.286Z",
+      "last_seen": "2026-10-26T09:41:31.286Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_validation.py",
+      "file": "src/backend/ai/herb_safety_validation.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 3→4 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-222",
+      "timestamp": "2026-10-26T09:43:28.954Z",
+      "last_seen": "2026-10-26T09:43:28.954Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong operator: == should be !=",
+      "file": "src/backend/ai/herb_safety_validation.py",
+      "root_cause": "Used \"==\" instead of \"!=\"",
+      "fix": "Changed operator == → !=",
+      "tags": [
+        "auto-detected",
+        "operator-fix",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-223",
+      "timestamp": "2026-10-26T11:46:30.001Z",
+      "last_seen": "2026-10-26T11:46:30.001Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in _validated_warning_results()",
+      "file": "src/scripts/herb_safety_index.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-224",
+      "timestamp": "2026-10-26T12:35:12.766Z",
+      "last_seen": "2026-10-26T12:35:12.766Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_index.py",
+      "file": "src/scripts/herb_safety_index.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 30→74 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-225",
+      "timestamp": "2026-10-26T12:52:48.169Z",
+      "last_seen": "2026-10-26T12:52:48.169Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_index.py",
+      "file": "src/scripts/herb_safety_index.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 29→57 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-226",
+      "timestamp": "2026-10-26T13:07:18.154Z",
+      "last_seen": "2026-10-26T13:07:18.154Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_index.py",
+      "file": "src/scripts/herb_safety_index.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 4→13 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-227",
+      "timestamp": "2026-10-26T13:45:45.435Z",
+      "last_seen": "2026-10-26T13:45:45.435Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "Had \"eval_count\"",
+      "fix": "Changed to \"prompt_eval_cached_count\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-228",
+      "timestamp": "2026-10-26T14:05:22.702Z",
+      "last_seen": "2026-10-26T14:05:22.702Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_index.py",
+      "file": "src/scripts/herb_safety_index.py",
+      "root_cause": "6 lines replaced/restructured",
+      "fix": "Rewrote 13→25 lines (6 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-229",
+      "timestamp": "2026-10-26T14:06:39.628Z",
+      "last_seen": "2026-10-26T14:06:39.628Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of positive_herb_ranking.py",
+      "file": "src/scripts/positive_herb_ranking.py",
+      "root_cause": "6 lines replaced/restructured",
+      "fix": "Rewrote 29→41 lines (6 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-230",
+      "timestamp": "2026-10-26T14:06:39.926Z",
+      "last_seen": "2026-10-26T14:06:39.926Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_index_requests.py",
+      "file": "src/scripts/herb_index_requests.py",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 10→16 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-231",
+      "timestamp": "2026-10-26T14:12:52.241Z",
+      "last_seen": "2026-10-26T14:12:52.241Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_index_requests.py",
+      "file": "src/scripts/herb_index_requests.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 7→9 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-232",
+      "timestamp": "2026-10-26T14:18:15.999Z",
+      "last_seen": "2026-10-26T14:18:15.999Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: 8192 should be 25000",
+      "file": "src/tests/unit/ai/test_build_hybrid_index.py",
+      "root_cause": "Used \"8192\" instead of \"25000\"",
+      "fix": "Changed 8192 → 25000",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-233",
+      "timestamp": "2026-10-26T14:33:28.923Z",
+      "last_seen": "2026-10-26T14:33:28.923Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: 25000 should be 12000",
+      "file": "src/tests/unit/ai/test_build_hybrid_index.py",
+      "root_cause": "Used \"25000\" instead of \"12000\"",
+      "fix": "Changed 25000 → 12000",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-234",
+      "timestamp": "2026-10-26T14:47:11.613Z",
+      "last_seen": "2026-10-26T14:47:11.613Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: 12000 should be 25000",
+      "file": "src/tests/unit/ai/test_build_hybrid_index.py",
+      "root_cause": "Used \"12000\" instead of \"25000\"",
+      "fix": "Changed 12000 → 25000",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-235",
+      "timestamp": "2026-10-26T14:55:51.383Z",
+      "last_seen": "2026-10-26T14:55:51.383Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in warning_schema()",
+      "file": "src/backend/ai/herb_safety_validation.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-236",
+      "timestamp": "2026-10-26T16:11:55.593Z",
+      "last_seen": "2026-10-26T16:11:55.593Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_index.py",
+      "file": "src/scripts/herb_safety_index.py",
+      "root_cause": "43 lines replaced/restructured",
+      "fix": "Rewrote 52→22 lines (43 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-237",
+      "timestamp": "2026-10-26T16:12:18.688Z",
+      "last_seen": "2026-10-26T16:12:18.688Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_extraction.py",
+      "file": "src/backend/ai/herb_safety_extraction.py",
+      "root_cause": "8 lines replaced/restructured",
+      "fix": "Rewrote 16→31 lines (8 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-238",
+      "timestamp": "2026-10-26T16:17:09.881Z",
+      "last_seen": "2026-10-26T16:17:09.881Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_validation.py",
+      "file": "src/backend/ai/herb_safety_validation.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 6→8 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-239",
+      "timestamp": "2026-10-26T16:17:10.216Z",
+      "last_seen": "2026-10-26T16:17:10.216Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_build_hybrid_index.py",
+      "file": "src/tests/unit/ai/test_build_hybrid_index.py",
+      "root_cause": "9 lines replaced/restructured",
+      "fix": "Rewrote 14→33 lines (9 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-240",
+      "timestamp": "2026-10-26T16:18:20.711Z",
+      "last_seen": "2026-10-26T16:18:20.711Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/integration/test_herb_conditions.py",
+      "root_cause": "Had \"quote\"",
+      "fix": "Changed to \"passage_ids\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-241",
+      "timestamp": "2026-10-26T16:18:21.004Z",
+      "last_seen": "2026-10-26T16:18:21.004Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_extraction.py",
+      "file": "src/backend/ai/herb_safety_extraction.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 4→6 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-242",
+      "timestamp": "2026-10-26T16:20:59.659Z",
+      "last_seen": "2026-10-26T16:20:59.659Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/ai/herb_safety_validation.py",
+      "root_cause": "Had \"maxItems\"",
+      "fix": "Changed to \"type\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-243",
+      "timestamp": "2026-10-26T16:20:59.959Z",
+      "last_seen": "2026-10-26T16:20:59.959Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_index_requests.py",
+      "file": "src/scripts/herb_index_requests.py",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 8→42 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-244",
+      "timestamp": "2026-10-26T19:57:18.756Z",
+      "last_seen": "2026-10-26T19:57:18.756Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_extraction.py",
+      "file": "src/backend/ai/herb_safety_extraction.py",
+      "root_cause": "8 lines replaced/restructured",
+      "fix": "Rewrote 21→105 lines (8 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-245",
+      "timestamp": "2026-10-26T21:11:08.756Z",
+      "last_seen": "2026-10-26T21:11:08.756Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_validation.py",
+      "file": "src/backend/ai/herb_safety_validation.py",
+      "root_cause": "9 lines replaced/restructured",
+      "fix": "Rewrote 30→98 lines (9 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-246",
+      "timestamp": "2026-10-26T21:12:42.539Z",
+      "last_seen": "2026-10-26T21:12:42.539Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in numerals()",
+      "file": "src/backend/ai/herb_safety_validation.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-247",
+      "timestamp": "2026-10-26T21:14:05.028Z",
+      "last_seen": "2026-10-26T21:14:05.028Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_extraction.py",
+      "file": "src/backend/ai/herb_safety_extraction.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 4→9 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-248",
+      "timestamp": "2026-10-26T21:18:53.954Z",
+      "last_seen": "2026-10-26T21:18:53.954Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_index.py",
+      "file": "src/scripts/herb_safety_index.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 11→17 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-249",
+      "timestamp": "2026-10-26T21:18:54.536Z",
+      "last_seen": "2026-10-26T21:18:54.536Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/scripts/herb_index_requests.py",
+      "root_cause": "Was returning: kind_count * passage_count * (passage_count + 1) /",
+      "fix": "Now returns: kind_count * statement_count",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-250",
+      "timestamp": "2026-10-26T21:18:54.849Z",
+      "last_seen": "2026-10-26T21:18:54.849Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_repository.py",
+      "file": "src/backend/ai/herb_safety_repository.py",
+      "root_cause": "6 lines replaced/restructured",
+      "fix": "Rewrote 11→31 lines (6 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-251",
+      "timestamp": "2026-10-26T21:20:04.721Z",
+      "last_seen": "2026-10-26T21:20:04.721Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/ai/herb_safety.py",
+      "root_cause": "Had \"SELECT chunk_id,quote_start,quote_end FROM herb_s",
+      "fix": "Changed to \"SELECT chunk_id,focus_start,focus_end FROM herb_s",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-252",
+      "timestamp": "2026-10-26T21:20:05.034Z",
+      "last_seen": "2026-10-26T21:20:05.034Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/backend/ai/herb_safety_validation.py",
+      "root_cause": "Was returning: content_hash(",
+      "fix": "Now returns: content_hash([herb_id, self.kind, self.summary or ",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-253",
+      "timestamp": "2026-10-26T21:22:51.457Z",
+      "last_seen": "2026-10-26T21:22:51.457Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_validation.py",
+      "file": "src/backend/ai/herb_safety_validation.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 6→14 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-254",
+      "timestamp": "2026-10-26T21:24:35.954Z",
+      "last_seen": "2026-10-26T21:24:35.954Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_extraction.py",
+      "file": "src/backend/ai/herb_safety_extraction.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 7→13 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-255",
+      "timestamp": "2026-10-26T21:28:11.064Z",
+      "last_seen": "2026-10-26T21:28:11.064Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/ai/herb_safety_validation.py",
+      "root_cause": "Had \"^[^\\\\r\\\\n]+$\"",
+      "fix": "Changed to \"^[^\\r\\n]{{1,{SUMMARY_MAX_CHARS}}}$\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-256",
+      "timestamp": "2026-10-26T21:28:11.376Z",
+      "last_seen": "2026-10-26T21:28:11.376Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_build_hybrid_index.py",
+      "file": "src/tests/unit/ai/test_build_hybrid_index.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 6→16 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-257",
+      "timestamp": "2026-10-26T21:28:11.685Z",
+      "last_seen": "2026-10-26T21:28:11.685Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/unit/ai/test_build_hybrid_index.py",
+      "root_cause": "Had \"nu se asociaza cu warfarina.\"",
+      "fix": "Changed to \"summary\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-258",
+      "timestamp": "2026-10-26T21:33:27.526Z",
+      "last_seen": "2026-10-26T21:33:27.526Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_extraction.py",
+      "file": "src/backend/ai/herb_safety_extraction.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 7→5 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-259",
+      "timestamp": "2026-10-26T21:38:23.794Z",
+      "last_seen": "2026-10-26T21:38:23.794Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/scripts/herb_index_requests.py",
+      "root_cause": "Was returning: kind_count * statement_count",
+      "fix": "Now returns: max(kind_count * statement_count, source_words)",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-260",
+      "timestamp": "2026-10-26T21:43:39.242Z",
+      "last_seen": "2026-10-26T21:43:39.242Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety_index.py",
+      "file": "src/scripts/herb_safety_index.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 4→10 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-261",
+      "timestamp": "2026-10-26T21:43:39.518Z",
+      "last_seen": "2026-10-26T21:43:39.518Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong operator: == should be !=",
+      "file": "src/backend/ai/herb_safety_extraction.py",
+      "root_cause": "Used \"==\" instead of \"!=\"",
+      "fix": "Changed operator == → !=",
+      "tags": [
+        "auto-detected",
+        "operator-fix",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-262",
+      "timestamp": "2026-10-26T21:49:17.237Z",
+      "last_seen": "2026-10-26T21:49:17.237Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of positive_herb_ranking.py",
+      "file": "src/scripts/positive_herb_ranking.py",
+      "root_cause": "38 lines replaced/restructured",
+      "fix": "Rewrote 39→16 lines (38 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-263",
+      "timestamp": "2026-10-27T07:03:16.869Z",
+      "last_seen": "2026-10-27T07:03:16.869Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/build_hybrid_index.py",
+      "root_cause": "Had \"Inventory product safety and local-association ta",
+      "fix": "Changed to \"Inventory all herbs and reusable model-knowledge ",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-264",
+      "timestamp": "2026-10-27T07:03:17.170Z",
+      "last_seen": "2026-10-27T07:03:17.170Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: herb_safety_repository should be herb_product_safety_repository",
+      "file": "src/backend/ai/herb_conditions.py",
+      "root_cause": "Used \"herb_safety_repository\" instead of \"herb_product_safety_repository\"",
+      "fix": "Changed herb_safety_repository → herb_product_safety_repository",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-265",
+      "timestamp": "2026-10-27T07:03:17.469Z",
+      "last_seen": "2026-10-27T07:03:17.469Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_safety.py",
+      "file": "src/backend/ai/herb_safety.py",
+      "root_cause": "66 lines replaced/restructured",
+      "fix": "Rewrote 68→3 lines (66 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-266",
+      "timestamp": "2026-10-27T07:04:57.488Z",
+      "last_seen": "2026-10-27T07:04:57.488Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_product_safety_repository.py",
+      "file": "src/backend/ai/herb_product_safety_repository.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 12→20 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-267",
+      "timestamp": "2026-10-27T07:09:21.614Z",
+      "last_seen": "2026-10-27T07:09:21.614Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of 031_herb_product_safety_knowledge.sql",
+      "file": "src/backend/migrations/031_herb_product_safety_knowledge.sql",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 3→5 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "sql"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-268",
+      "timestamp": "2026-10-27T07:12:32.675Z",
+      "last_seen": "2026-10-27T07:12:32.675Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/herb_index_requests.py",
+      "root_cause": "Had \"safety_targets\"",
+      "fix": "Changed to \"product\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-269",
+      "timestamp": "2026-10-27T07:12:32.893Z",
+      "last_seen": "2026-10-27T07:12:32.893Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/scripts/herb_safety_index.py",
+      "root_cause": "Had \"Coordinate combined and warning-only indexing req",
+      "fix": "Changed to \"Legacy corpus helpers and shared progress; public",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-270",
+      "timestamp": "2026-10-27T07:12:33.189Z",
+      "last_seen": "2026-10-27T07:12:33.189Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_product_safety_index.py",
+      "file": "src/scripts/herb_product_safety_index.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 5→8 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-271",
+      "timestamp": "2026-10-27T07:28:26.516Z",
+      "last_seen": "2026-10-27T07:28:26.516Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: border-top, padding-top, font-size",
+      "file": "src/frontend/styles.css",
+      "root_cause": "border-top: 1px solid #d8dfc6 → 3px solid #80936a; padding-top: 1rem → 1.25rem; font-size: .9rem → 1.25rem",
+      "fix": "Changed border-top: 1px solid #d8dfc6 → 3px solid #80936a; padding-top: 1rem → 1.25rem; font-size: .9rem → 1.25rem",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-272",
+      "timestamp": "2026-10-27T09:56:30.602Z",
+      "last_seen": "2026-10-27T09:56:30.602Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Null/undefined access in preview.mjs",
+      "file": "aiPlans/tmp/herb-ui-20261027/preview.mjs",
+      "root_cause": "Property access on potentially null/undefined value",
+      "fix": "Added null safety (optional chaining or null check)",
+      "tags": [
+        "auto-detected",
+        "null-safety",
+        "mjs"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-273",
+      "timestamp": "2026-10-27T10:03:17.313Z",
+      "last_seen": "2026-10-28T04:27:02.321Z",
+      "occurrences": 3,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "aiPlans/tmp/herb-ui-20261027/capture.mjs",
+      "root_cause": "Had '},\n  {name: '",
+      "fix": "Changed to 'mobile'",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "mjs"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-274",
+      "timestamp": "2026-10-27T10:04:23.958Z",
+      "last_seen": "2026-10-27T10:04:23.958Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/frontend/components/HerbWarningsPanel.tsx",
+      "root_cause": "Was returning: items.length > 0 && <div key={group.kind}>",
+      "fix": "Now returns: items.length > 0 && <div key={group.kind} classNam",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-275",
+      "timestamp": "2026-10-27T12:22:55.398Z",
+      "last_seen": "2026-10-27T12:22:55.398Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_images_batch.py",
+      "file": "aiPlans/tmp/herb_images_batch.py",
+      "root_cause": "6 lines replaced/restructured",
+      "fix": "Rewrote 7→11 lines (6 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-276",
+      "timestamp": "2026-10-27T12:47:19.422Z",
+      "last_seen": "2026-10-27T12:47:19.422Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Type error",
+      "file": "src/frontend/api/client.ts",
+      "root_cause": "Missing or incorrect type annotation",
+      "fix": "Added type assertion/annotation",
+      "tags": [
+        "auto-detected",
+        "type-fix",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-277",
+      "timestamp": "2026-10-27T13:27:41.392Z",
+      "last_seen": "2026-10-27T13:27:41.392Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: font-size",
+      "file": "src/frontend/styles.css",
+      "root_cause": "font-size: 1.5rem → 1.25rem",
+      "fix": "Changed font-size: 1.5rem → 1.25rem",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-278",
+      "timestamp": "2026-10-27T15:04:16.777Z",
+      "last_seen": "2026-10-27T15:04:16.777Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: cautionAvailable should be span",
+      "file": "src/frontend/components/HerbConditionsPanel.tsx",
+      "root_cause": "Used \"cautionAvailable\" instead of \"span\"",
+      "fix": "Changed cautionAvailable → span",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-279",
+      "timestamp": "2026-10-27T15:05:05.563Z",
+      "last_seen": "2026-10-27T15:05:05.563Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/components/HerbConditionsPanel.test.tsx",
+      "root_cause": "Had \"interzisă în 1 afecțiuni\"",
+      "fix": "Changed to \"interzisă în\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-280",
+      "timestamp": "2026-10-27T15:05:06.023Z",
+      "last_seen": "2026-10-27T15:05:06.023Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of styles.css",
+      "file": "src/frontend/styles.css",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 6→20 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-281",
+      "timestamp": "2026-10-27T15:43:52.443Z",
+      "last_seen": "2026-10-27T15:43:52.443Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of HerbConditionsPanel.tsx",
+      "file": "src/frontend/components/HerbConditionsPanel.tsx",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 8→20 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-282",
+      "timestamp": "2026-10-27T16:02:01.335Z",
+      "last_seen": "2026-10-27T16:02:01.335Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: font-size",
+      "file": "src/frontend/styles.css",
+      "root_cause": "font-size: 1.25rem → 1rem",
+      "fix": "Changed font-size: 1.25rem → 1rem",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-283",
+      "timestamp": "2026-10-27T16:06:57.706Z",
+      "last_seen": "2026-10-27T16:06:57.706Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/components/HerbWarningsPanel.tsx",
+      "root_cause": "Had \"herb-association-note\"",
+      "fix": "Changed to \"herb-association-note herb-warnings-ai-note\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-284",
+      "timestamp": "2026-10-28T03:59:38.558Z",
+      "last_seen": "2026-10-28T03:59:38.558Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: font-size",
+      "file": "src/frontend/styles.css",
+      "root_cause": "font-size: .9rem → .75rem",
+      "fix": "Changed font-size: .9rem → .75rem",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-285",
+      "timestamp": "2026-10-28T03:59:38.786Z",
+      "last_seen": "2026-10-28T03:59:38.786Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: margin-top",
+      "file": "src/frontend/styles.css",
+      "root_cause": "margin-top: 1.25rem → .75rem",
+      "fix": "Changed margin-top: 1.25rem → .75rem",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-286",
+      "timestamp": "2026-10-28T04:02:48.293Z",
+      "last_seen": "2026-10-28T04:02:48.293Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Type error",
+      "file": "src/frontend/api/types.ts",
+      "root_cause": "Missing or incorrect type annotation",
+      "fix": "Added type assertion/annotation",
+      "tags": [
+        "auto-detected",
+        "type-fix",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-287",
+      "timestamp": "2026-10-28T04:20:59.388Z",
+      "last_seen": "2026-10-28T04:20:59.388Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_agreement.py",
+      "file": "src/backend/core/herb_agreement.py",
+      "root_cause": "8 lines replaced/restructured",
+      "fix": "Rewrote 10→25 lines (8 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-288",
+      "timestamp": "2026-10-28T04:25:43.032Z",
+      "last_seen": "2026-10-28T04:25:43.032Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of conversation.py",
+      "file": "src/backend/core/conversation.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 7→10 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-289",
+      "timestamp": "2026-10-28T04:25:43.366Z",
+      "last_seen": "2026-10-28T04:25:43.366Z",
       "occurrences": 1,
       "related_bugs": []
     }
@@ -3801,7 +5403,101 @@
     "3115266e-0259-468e-b3db-c615de81aed1": true,
     "1a19f653-a172-4d70-8598-aea8736935f3": true,
     "fe734342-4948-400a-b1e5-9662b4b70d8c": true,
-    "a21aeb5d-7bb1-4975-ad5b-2bb784b0f236": true
+    "a21aeb5d-7bb1-4975-ad5b-2bb784b0f236": true,
+    "3558531f-3582-4390-bf6e-5af0f7a52bf7": true,
+    "33aad291-67f3-47bc-a9ff-943fffc8a91d": true,
+    "a3378e01-46c8-4cd7-9e06-64e98bd1017f": true,
+    "50621629-9779-465b-abaf-0e781b1b3b77": true,
+    "8a255d04-33f0-46e9-95bd-e6c47702ea92": true,
+    "0ef2c30e-7c68-4c7c-85c8-32d9e9fcffc3": true,
+    "374051d1-2b4f-49ca-a4d3-7aa2c692af02": true,
+    "5e0a6535-89a3-4346-a230-e77f8891a341": true,
+    "b70d5e85-66e5-4f2f-8d79-76221c7af961": true,
+    "1d666992-18d1-4e47-aa00-eae60dead079": true,
+    "8be57454-c537-43f3-a313-0449ff2e6a39": true,
+    "bbf0c99a-781f-413b-9a8b-84371b8e6681": true,
+    "7e07eebd-eb17-4b4e-a78b-b0b356d600ca": true,
+    "83489972-bf64-48a0-858c-f8b1f3ca1505": true,
+    "440f41c9-0614-43ec-8a96-238b67bbab24": true,
+    "75d25099-1a8e-4ad6-a465-4e78797426fa": true,
+    "4b296ea7-53e6-4f4b-8030-6dca3bcec17a": true,
+    "77cd8881-3179-4543-b0da-6fedf7edb45e": true,
+    "e933e774-07f8-4a05-8764-62ea9b92ca5e": true,
+    "d01ee86e-82d5-40d5-92a6-b9d568470ab7": true,
+    "3fbefcfb-d204-4770-827c-881dc4717639": true,
+    "03751832-8773-438d-8135-74ffbe649eb7": true,
+    "ad9de373-7463-479f-8cfb-135aaa812e47": true,
+    "3477a603-a18a-49b5-b043-26a5ff1c978a": true,
+    "dd798593-c60b-4807-9072-6e8cc0da4b39": true,
+    "83a474b1-700d-49d4-a518-58c6695888f0": true,
+    "f7659554-be01-4b83-910e-abc013488b96": true,
+    "383dcc9e-a665-4e85-acab-166c439be232": true,
+    "8400d5b2-6ca9-459b-99c6-ac22aeb671f9": true,
+    "e42b11d6-1743-4f9d-9e5d-8be6037f382b": true,
+    "1537bbd1-75a5-4fa4-9480-886926da7cf4": true,
+    "14a16632-68e8-4c77-affe-291bc495915b": true,
+    "e7fb99ad-ea62-49c9-b85b-718168939076": true,
+    "a3be36fb-473b-4dde-949f-1ea3a6689443": true,
+    "6387e220-093c-4256-a263-92c241001d2d": true,
+    "fd3aa96c-8812-4571-99e3-26421bf01061": true,
+    "ae31fdeb-e262-40aa-9d44-75baed2de420": true,
+    "e9947aff-a352-4513-94f9-3b0526c61837": true,
+    "76c22a8b-d885-4fae-b8f8-1ef5e6d987c0": true,
+    "8f209abf-9433-4065-b3e6-3e5d1a14682c": true,
+    "e8031278-4368-4a51-bddb-94e60e917952": true,
+    "70c281ed-e67a-47b9-9769-0d435db796a6": true,
+    "a5b9a83c-b32e-48dd-b982-1a089ca864ea": true,
+    "459fbb4b-7271-444f-a78a-49c90b2eca33": true,
+    "27c0d1c7-dd53-4717-b310-6cfa32efb0fa": true,
+    "41ed2600-51d1-41ca-b52a-65be059e63ee": true,
+    "78c334ef-3116-4467-9bc1-ecb4dc99c0f9": true,
+    "61bee18b-f0c7-41de-890a-34de09f7ef9e": true,
+    "95d36515-7d2c-41ce-b2d6-c319a97365c7": true,
+    "7f69f5fa-a925-4922-95a5-5a905be6a9e6": true,
+    "14d7327b-efd9-4846-abe2-058ba9a5849d": true,
+    "1392a2ed-9c7c-4cb6-acfb-a41261cc7a5b": true,
+    "de634c50-6487-4d5f-ae3f-9b81f57e4b50": true,
+    "44a9a4c2-f4ba-4c21-93fd-206881d211ed": true,
+    "c9054edd-7727-4725-b2c1-15cfc39ad0b8": true,
+    "c0a5c1e6-9968-491b-abb8-05427cdc22c8": true,
+    "40f31758-2263-407e-9475-8726d18fa157": true,
+    "42a53a78-aaba-4019-acba-7869f4c61c61": true,
+    "8156241a-e6c0-4465-9ad0-c86c926c53b6": true,
+    "ca7fcaf5-56fc-4bb9-953f-c8de4f6383e0": true,
+    "5ad68295-7fc7-48e2-a4fb-1636adea9222": true,
+    "94b01cc0-f805-4ee5-ae34-857c9c0fa7a4": true,
+    "5cfe6e81-087e-4004-b1b4-b92d942a30bb": true,
+    "95a26ee1-18b2-476c-b26a-c238b011a1e0": true,
+    "e3a15eae-15be-4369-99de-60f279cacdf1": true,
+    "fb8ebc8d-5c92-44be-bf4f-46b7d3eb1276": true,
+    "40826606-050d-4798-b94c-bbe76c619e52": true,
+    "a04740c0-d98a-4a54-a8f3-4181da59bf37": true,
+    "dbdd7d47-fa2a-4942-a7f1-121335371221": true,
+    "c65284c2-e2c6-4d23-8dae-48e150c745ed": true,
+    "bd344211-ab72-4f14-afa0-5158caec7976": true,
+    "bc85194e-b60c-47d1-b46b-ac0598f57f24": true,
+    "73d499a9-1930-452c-b8a5-8c37d4d2b59a": true,
+    "3e8137a0-622a-4e67-8c2a-9d3295a0e285": true,
+    "7bf13f0f-a92c-4269-8d50-7541df2d5da1": true,
+    "cedf9c54-ff60-4487-8a9b-4bc85d9091fa": true,
+    "43d38600-75c9-45fa-b87a-e828710c1ce0": true,
+    "0f574ef0-d487-4647-b8aa-9b9538f070ed": true,
+    "e4b2c3e3-a169-40ee-955b-aa34328c23e6": true,
+    "ba824ef4-a461-4963-bb7b-059b469b2a5e": true,
+    "310dfda5-8278-4cd5-b959-69a94f18a273": true,
+    "93d4fd98-b9ea-4adf-8b03-a84070a279c5": true,
+    "4871a7ca-34a7-4d53-bee0-fd306aeb0ce1": true,
+    "cbbe4f43-6384-4858-aee5-a7d5a74f4fb0": true,
+    "ad39dab2-88b5-4ef6-a11e-946a684019d0": true,
+    "a6885c82-c4b7-47d3-b8a1-09a312171f11": true,
+    "7cb1caf7-7518-40f6-b47e-83fd56d84a68": true,
+    "2876ad6c-4512-45ef-b79b-aaca9fe128d5": true,
+    "3a2ad896-7e39-4b21-98e4-b2dd9dcfb447": true,
+    "78935cd8-3c13-449e-8651-8450c9002f90": true,
+    "3e9ae9d0-d040-49a8-b0f0-14e5911e1e54": true,
+    "0e98619e-4b33-4f94-992a-9156f0767c94": true,
+    "985e493e-cf91-4477-b1df-31cecb0bec63": true,
+    "57a2fe26-7d4a-49bb-bfea-2c178a754075": true
   },
-  "next_id": 201
+  "next_id": 290
 }

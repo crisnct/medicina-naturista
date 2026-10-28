@@ -9,6 +9,7 @@ from backend.ai import db
 from backend.ai.herb_caution_repository import active_caution_run
 from backend.ai.herb_evidence import evidence_counts
 from backend.ai.herb_positive_repository import active_run
+from backend.ai.herb_product_safety_repository import safety_metadata
 from backend.ai.herb_repository import catalog_snapshot
 from backend.ai.index_state import INDEX_LOCK, IndexUnavailable
 from backend.config import Settings
@@ -114,6 +115,7 @@ def lookup_herb_conditions(name: str, *, settings: Settings = default_settings) 
                         "contraindicationDocumentsCount": negative_documents,
                     }
                 )
+            result.update(safety_metadata(connection, selected.id, settings))
             return result
     except (psycopg.Error, PoolTimeout):
         raise IndexUnavailable("INDEX_HERBS_UNAVAILABLE") from None

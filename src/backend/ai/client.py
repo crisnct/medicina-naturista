@@ -56,6 +56,30 @@ class AIUnavailable(RuntimeError):
         self.reason = reason
 
 
+# Keep JSON diagnostics useful without exposing any generated text or source content.
+def json_error_details(error: BaseException | None) -> dict[str, int | str]:
+    if not isinstance(error, json.JSONDecodeError):
+        return {}
+    kinds = {
+        "Expecting value": "missing_value",
+        "Expecting ',' delimiter": "missing_delimiter",
+        "Expecting ':' delimiter": "missing_colon",
+        "Expecting property name enclosed in double quotes": "invalid_property_name",
+        "Unterminated string starting at": "unterminated_string",
+        "Invalid control character at": "control_character",
+        "Invalid \\escape": "invalid_escape",
+        "Invalid \\uXXXX escape": "invalid_unicode_escape",
+        "Extra data": "extra_data",
+    }
+    return {
+        "json_error_kind": kinds.get(error.msg, "invalid_json"),
+        "json_error_position": error.pos,
+        "json_error_line": error.lineno,
+        "json_error_column": error.colno,
+        "json_document_chars": len(error.doc),
+    }
+
+
 # Parse the model's JSON object, tolerating Markdown fences and text around it.
 def _parse_json_object(content: str) -> Any:
     try:
@@ -112,6 +136,7 @@ def _ollama_metrics(response: dict[str, Any]) -> dict[str, int | float]:
         "eval_duration",
         "total_duration",
         "prompt_eval_count",
+        "prompt_eval_cached_count",
         "eval_count",
     ):
         value = response.get(key)
@@ -353,6 +378,9 @@ class ResponsesClient:
             payload["stream"] = True
         return payload
 
+    def _parse_content(self, content: str) -> Any:
+        return _parse_json_object(content)
+
     # Request a JSON response from the provider and validate its top-level structure.
     def complete_json(self, system: str, user: str, max_tokens: int) -> dict[str, Any]:
         response = self._post(self._build_payload(system, user, max_tokens))
@@ -419,7 +447,7 @@ class ResponsesClient:
                 raise ValueError("response not completed")
             if not content:
                 raise ValueError("empty content")
-            result = _parse_json_object(content)
+            result = self._parse_content(content)
             if not isinstance(result, dict):
                 raise ValueError("not an object")
             logger.info(
@@ -429,7 +457,11 @@ class ResponsesClient:
             )
             return result
         except (KeyError, ValueError, TypeError) as exc:
-            logger.error("ai_response_invalid type=%s", type(exc).__name__)
+            logger.error(
+                "ai_response_invalid type=%s details=%s",
+                type(exc).__name__,
+                json_error_details(exc),
+            )
             if isinstance(output_tokens, int) and output_tokens >= max_tokens:
                 logger.error(
                     "ai_response_truncated output_tokens=%s max_output_tokens=%s "
@@ -591,6 +623,8 @@ class OllamaReportClient(ResponsesClient):
             native["options"]["num_ctx"] = self.provider.context_tokens
         if self.provider.thinking is not None:
             native["think"] = self.provider.thinking
+        if self.provider.keep_alive_seconds is not None:
+            native["keep_alive"] = self.provider.keep_alive_seconds
         if "temperature" in payload:
             native["options"]["temperature"] = payload["temperature"]
         url = f"{self.provider.base_url.removesuffix('/v1')}/api/chat"

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from collections.abc import Callable
+from pathlib import Path
 from typing import TYPE_CHECKING, Literal, NotRequired, Protocol, TypedDict
 
 from backend.core.herb_categories import HerbCategory
@@ -112,9 +113,16 @@ class HerbLookupResult(TypedDict):
     contraindications: NotRequired[list[HerbContraindication]]
     contraindicationFragmentsCount: NotRequired[int]
     contraindicationDocumentsCount: NotRequired[int]
+    safetyRunId: NotRequired[str | None]
+    warningsStatus: NotRequired[HerbCautionStatus]
+    warningsCount: NotRequired[int | None]
+    warningFragmentsCount: NotRequired[int]
+    warningDocumentsCount: NotRequired[int]
+    warningCandidateFragmentsCount: NotRequired[int]
 
 
 LookupHerb = Callable[[str], HerbLookupResult]
+LookupHerbImage = Callable[[int], Path | None]
 
 
 class HerbEvidenceReference(TypedDict):
@@ -129,7 +137,7 @@ class HerbEvidenceReference(TypedDict):
 class HerbHighlight(TypedDict):
     start: int
     end: int
-    kind: Literal["herb", "condition"]
+    kind: Literal["herb", "condition", "warning"]
 
 
 class HerbEvidenceFragment(TypedDict):
@@ -166,6 +174,48 @@ class LookupHerbEvidence(Protocol):
         evidence_kind: HerbEvidenceKind = "positive",
         caution_run_id: str | None = None,
     ) -> HerbEvidencePage: ...
+
+
+class HerbSafetyReference(TypedDict):
+    herbId: int
+    safetyRunId: str
+
+
+class HerbWarning(TypedDict):
+    id: str
+    text: str
+    kind: str
+    partners: list[str]
+    sourcesCount: int
+
+
+class HerbSafetyPage(TypedDict):
+    herbId: int
+    safetyRunId: str
+    warningsStatus: HerbCautionStatus
+    warningsCount: int
+    warnings: list[HerbWarning]
+    nextOffset: int | None
+
+
+class HerbSafetyEvidencePage(TypedDict):
+    herbId: int
+    safetyRunId: str
+    warningId: str
+    fragmentsCount: int
+    documentsCount: int
+    fragments: list[HerbEvidenceFragment]
+    nextOffset: int | None
+
+
+class LookupHerbSafety(Protocol):
+    def __call__(self, herb_id: int, run_id: str, *, offset: int = 0) -> HerbSafetyPage: ...
+
+
+class LookupHerbSafetyEvidence(Protocol):
+    def __call__(
+        self, herb_id: int, run_id: str, *, warning_id: str, offset: int = 0
+    ) -> HerbSafetyEvidencePage: ...
 
 
 class RankedHerb(TypedDict):

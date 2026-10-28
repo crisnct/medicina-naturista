@@ -44,6 +44,7 @@ class ProviderConfig:
     response_schema: dict[str, Any] | None = None
     context_tokens: int | None = None
     thinking: bool | None = None
+    keep_alive_seconds: int | None = None
 
 
 # Whether the URL points at this machine (or the Docker host), where Ollama needs no key.

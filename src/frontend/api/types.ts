@@ -85,6 +85,7 @@ export interface DownloadMessage extends MessageIdentity {
 export type HerbEvidenceKind = "positive" | "contraindication";
 
 export interface HerbConditionsMessage extends MessageIdentity {
+  herbAgreement?: "masculine" | "feminine" | "plural";
   kind: "herb_conditions";
   role: "assistant";
   herbName: string;
@@ -101,13 +102,46 @@ export interface HerbConditionsMessage extends MessageIdentity {
   contraindications?: { id: number; name: string; hasRecommendation: boolean }[];
   contraindicationFragmentsCount?: number;
   contraindicationDocumentsCount?: number;
+  safetyRunId?: string | null;
+  warningsStatus?: "ready" | "partial" | "not_ready" | "stale";
+  warningsCount?: number | null;
+  warningFragmentsCount?: number;
+  warningDocumentsCount?: number;
+  warningCandidateFragmentsCount?: number;
 }
 
 // Half-open Unicode code-point offsets, matching Python's unchanged source strings.
 export interface HerbHighlight {
   start: number;
   end: number;
-  kind: "herb" | "condition";
+  kind: "herb" | "condition" | "warning";
+}
+
+export interface HerbWarning {
+  id: string;
+  text: string;
+  kind: string;
+  partners: string[];
+  sourcesCount: number;
+}
+
+export interface HerbSafetyPage {
+  herbId: number;
+  safetyRunId: string;
+  warningsStatus: "ready" | "partial" | "not_ready" | "stale";
+  warningsCount: number;
+  warnings: HerbWarning[];
+  nextOffset: number | null;
+}
+
+export interface HerbSafetyEvidencePage {
+  herbId: number;
+  safetyRunId: string;
+  warningId: string;
+  fragmentsCount: number;
+  documentsCount: number;
+  fragments: HerbEvidenceFragment[];
+  nextOffset: number | null;
 }
 
 export interface HerbEvidenceFragment {

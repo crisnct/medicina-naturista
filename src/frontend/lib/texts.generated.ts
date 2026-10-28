@@ -1,5 +1,8 @@
 // Generated key/parameter metadata; contains no message values.
 export const TEXT_PARAMETERS = {
+  "common.herb_useful_masculine": [],
+  "common.herb_useful_feminine": [],
+  "common.herb_useful_plural": [],
   "common.ai_answer_title": [],
   "common.waiting_for_model": [],
   "common.generation_unavailable": [],
@@ -146,6 +149,13 @@ export const TEXT_PARAMETERS = {
   "interface.stream_content_label": [],
   "interface.stream_speed_hint": [],
   "interface.herb_conditions_title": [],
+  "interface.herb_image_open": [
+    "herb_name"
+  ],
+  "interface.herb_image_title": [
+    "herb_name"
+  ],
+  "interface.herb_image_close": [],
   "interface.herb_conditions_label": [
     "herb_name"
   ],
@@ -153,6 +163,12 @@ export const TEXT_PARAMETERS = {
   "interface.herb_conditions_empty": [],
   "interface.herb_conditions_notice": [],
   "interface.herb_conditions_use_prefix": [],
+  "interface.herb_conditions_use_prefix_masculine": [],
+  "interface.herb_conditions_use_prefix_plural": [],
+  "interface.herb_conditions_positive_title_masculine": [],
+  "interface.herb_conditions_positive_title_plural": [],
+  "interface.herb_conditions_negative_title_masculine": [],
+  "interface.herb_conditions_negative_title_plural": [],
   "interface.herb_conditions_positive_title": [],
   "interface.herb_conditions_negative_title": [],
   "interface.herb_conditions_prohibition_prefix": [],
@@ -162,6 +178,26 @@ export const TEXT_PARAMETERS = {
   "interface.herb_conditions_prohibition_pending": [],
   "interface.herb_conditions_prohibition_partial": [],
   "interface.herb_conditions_prohibition_conflict": [],
+  "interface.herb_warnings_title": [],
+  "interface.herb_warnings_pending": [],
+  "interface.herb_warnings_stale": [],
+  "interface.herb_warnings_partial": [],
+  "interface.herb_warnings_empty": [],
+  "interface.herb_warnings_partial_empty": [],
+  "interface.herb_warnings_ai_note": [],
+  "interface.herb_warnings_warning_title": [],
+  "interface.herb_warnings_contraindication_title": [],
+  "interface.herb_warnings_interaction_title": [],
+  "interface.herb_warnings_no_sources": [],
+  "interface.herb_warnings_loading": [],
+  "interface.herb_warnings_error": [],
+  "interface.herb_warning_sources": [
+    "sources_count"
+  ],
+  "interface.herb_warnings_shown": [
+    "total_count",
+    "visible_count"
+  ],
   "interface.herb_evidence_summary": [
     "documents_count",
     "fragments_count"

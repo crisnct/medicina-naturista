@@ -5,6 +5,8 @@ import type {
   ConditionResponse,
   HerbEvidencePage,
   HerbEvidenceKind,
+  HerbSafetyPage,
+  HerbSafetyEvidencePage,
   ReportGeneration,
   MessagesResponse,
   ReportModel,
@@ -43,6 +45,10 @@ export class ApiError extends Error {
 // absolute path from the DOMAIN root, not from the app's own mount point — it
 // would reach the reverse proxy's root location instead of this app's.
 const API_BASE = import.meta.env.BASE_URL.replace(/\/$/, "");
+
+export function herbImageUrl(herbId: number): string {
+  return `${API_BASE}/api/herb-images/${herbId}`;
+}
 
 async function request<T>(path: string, init?: RequestInit): Promise<T> {
   const response = await fetch(`${API_BASE}${path}`, {
@@ -94,6 +100,10 @@ export const api = {
     return request<HerbEvidencePage>(`/api/herb-evidence/${encodeURIComponent(groupId)}?${query}`, { signal });
   },
   getReportModels: () => request<ReportModelsResponse>("/api/report-models"),
+  getHerbSafety: (groupId: string, offset: number, signal: AbortSignal) =>
+    request<HerbSafetyPage>(`/api/herb-safety/${encodeURIComponent(groupId)}?${new URLSearchParams({ offset: String(offset) })}`, { signal }),
+  getHerbSafetyEvidence: (groupId: string, warningId: string, offset: number, signal: AbortSignal) =>
+    request<HerbSafetyEvidencePage>(`/api/herb-safety/${encodeURIComponent(groupId)}/evidence?${new URLSearchParams({ warningId, offset: String(offset) })}`, { signal }),
   getReportDurationEstimate: (model: ReportModel, characters: number, signal: AbortSignal) =>
     request<ReportDurationEstimate>(`/api/report-duration-estimate?${new URLSearchParams({ model, characters: String(characters) })}`, {
       signal: AbortSignal.any([signal, AbortSignal.timeout(5000)]),

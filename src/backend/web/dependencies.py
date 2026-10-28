@@ -15,6 +15,9 @@ from backend.core.contracts import (
     ListTopHerbsForCondition,
     LookupHerb,
     LookupHerbEvidence,
+    LookupHerbImage,
+    LookupHerbSafety,
+    LookupHerbSafetyEvidence,
     RecordReportMetrics,
     RenderPDF,
     ReportModel,
@@ -40,9 +43,12 @@ class Dependencies:
     pdf: RenderPDF | None = None
     classify: ClassifyMessage | None = None
     herb_lookup: LookupHerb | None = None
+    herb_image: LookupHerbImage | None = None
     top_herbs: ListTopHerbs | None = None
     report_clients: dict[ReportModel, AIProtocol] | None = None
     record_report_metrics: RecordReportMetrics | None = None
     estimate_report_duration: EstimateReportDuration | None = None
     herb_evidence: LookupHerbEvidence | None = None
     top_herbs_for_condition: ListTopHerbsForCondition | None = None
+    herb_safety: LookupHerbSafety | None = None
+    herb_safety_evidence: LookupHerbSafetyEvidence | None = None

@@ -400,24 +400,31 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
                 "# Zorbita\nmatricaria chamomilla este mentionata. matricaria chamomilla apare iar.\n",
             ),
             ("ambiguous.md", "Zorbita", "# Zorbita\nmentha aquatica este mentionata.\n"),
+            (
+                "safety.md",
+                "",
+                "# Matricaria chamomilla\n\n"
+                "Matricaria chamomilla: in doze mari poate provoca disconfort.\n\n"
+                "Matricaria chamomilla nu se asociaza cu produsul sintetic.\n",
+            ),
         )
         for index, (path, condition, text) in enumerate(sources, 1):
             connection.execute(
                 "INSERT INTO documents(relative_path,absolute_path,size_bytes,modified_utc,sha256,encoding,line_count,char_count) VALUES(%s,%s,1,now(),%s,'utf-8',1,%s)",
-                (path, path, str(index), len(text)),
+                (path, path, content_hash(text), len(text)),
             )
             connection.execute(
                 "INSERT INTO chunks(source_relative_path,source_absolute_path,source_sha256,line_start,line_end,heading,text,text_sha256,char_count,embedding,primary_medical_conditions,text_search) VALUES(%s,%s,%s,1,1,%s,%s,%s,%s,%s::vector,%s,''::tsvector)",
                 (
                     path,
                     path,
-                    str(index),
+                    content_hash(text),
                     condition,
                     text,
-                    str(index),
+                    content_hash(text),
                     len(text),
                     "[" + ",".join(["0"] * profile.dimension) + "]",
-                    [condition],
+                    [condition] if condition else [],
                 ),
             )
 
@@ -437,18 +444,41 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
         import json
 
         payload = json.loads(user)
-        if any(c["herb_id"] == 1 for c in payload["candidates"]):
+        if any(c["herb_id"] == 1 for c in payload.get("candidates", [])):
             assert len(next(c["mentions"] for c in payload["candidates"] if c["herb_id"] == 1)) == 2
-        return {
+        result = {
             "relations": {
                 c["id"]: {
                     "local_condition": c["condition"],
                     "recommendation": c["herb_id"] == 3,
                     "prohibition": c["herb_id"] == 3,
                 }
-                for c in payload["candidates"]
+                for c in payload.get("candidates", [])
             }
         }
+        if "candidates" not in payload:
+            del result["relations"]
+        if "safety_targets" in payload:
+            result["warnings"] = {
+                target["id"]: {
+                    "status": "complete" if target["certain"] else "unclear",
+                    "items": (
+                        [
+                            {
+                                "kind": "adverse_effect",
+                                "passage_ids": ["unknown"],
+                                "focus_id": "unknown",
+                                "summary": "Afirmatie nesustinuta.",
+                                "partners": [],
+                            }
+                        ]
+                        if target["herb_id"] == 3 and target["certain"]
+                        else []
+                    ),
+                }
+                for target in payload["safety_targets"]
+            }
+        return result
 
     client.complete_json.side_effect = classify_source
     with (
@@ -461,17 +491,78 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
         client.complete_json.assert_not_called()
         first = run_positive_ranking(config)
         assert first["status"] == "ready" and first["requests"] == 1
+        assert first["warnings_only_ai_requests"] > 0
+        assert first["safety_rejected_quotes"] > 0
+        assert first["safety_unclear_after_validation"] > 0
+        with db.get_pool().connection() as connection:
+            assert (
+                connection.execute(
+                    "SELECT count(*) FROM herb_safety_analysis "
+                    "WHERE run_id=%s AND herb_id=3 AND status='unclear'",
+                    (first["run_id"],),
+                ).fetchone()[0]
+                > 0
+            )
+            assert (
+                connection.execute(
+                    "SELECT count(*) FROM herb_safety_warnings WHERE text=%s",
+                    ("Afirmatie inexistenta",),
+                ).fetchone()[0]
+                == 0
+            )
         with pytest.raises(ApplicationError):
             list_top_herbs(300)
         second = run_positive_ranking(config)
         assert second["requests"] == 0 and second["cache_hits"] == 3
+        assert second["warnings_only_ai_requests"] == 0
+        with patch("backend.ai.herb_safety_repository.SafetyRepository.cached", return_value={}):
+            only_warnings = run_positive_ranking(config)
+        assert only_warnings["requests"] == 0
+        assert only_warnings["warnings_only_ai_requests"] > 0
         assert run_positive_ranking(config, resume=first["run_id"])["status"] == "ready"
         run_positive_ranking(config, publish=first["run_id"])
         with pytest.raises(ValueError, match="POSITIVE_PUBLICATION_CONFLICT"):
             run_positive_ranking(config, publish=second["run_id"])
         assert run_positive_ranking(config, publish=first["run_id"])["status"] == "published"
         assert run_positive_ranking(config, analyze=True)["batches"] == 0
-    assert client.complete_json.call_count == 1
+    expected_calls = (
+        1 + first["warnings_only_ai_requests"] + only_warnings["warnings_only_ai_requests"]
+    )
+    assert client.complete_json.call_count == expected_calls
+    from backend.ai.herb_safety import lookup_herb_safety, lookup_herb_safety_evidence
+    from scripts.herb_safety_index import run_safety_index
+
+    with (
+        patch("scripts.herb_safety_index.model_digest", side_effect=AssertionError("model lookup")),
+        redirect_stdout(io.StringIO()),
+    ):
+        safety_analysis = run_safety_index(config, analyze=True)
+        assert safety_analysis["ai_requests_sent_total"] == 0
+        assert safety_analysis["estimated_warning_requests"] == 0
+        assert safety_analysis["safety_cache_hits"] > 0
+        assert run_safety_index(config, publish=first["safety_run_id"])["status"] == "published"
+
+    safety_details = lookup_herb_conditions("matricaria chamomilla")
+    assert safety_details["warningsStatus"] == "partial"
+    assert safety_details["warningsCount"] == 2
+    safety_page = lookup_herb_safety(safety_details["herbId"], safety_details["safetyRunId"])
+    assert len(safety_page["warnings"]) == 2
+    assert safety_page["warningsCount"] == 2 and safety_page["nextOffset"] is None
+    warning_sources = lookup_herb_safety_evidence(
+        safety_details["herbId"],
+        safety_details["safetyRunId"],
+        warning_id=safety_page["warnings"][0]["id"],
+    )
+    assert warning_sources["fragmentsCount"] == 1
+    assert warning_sources["fragments"][0]["document"] == "safety.md"
+    assert any(
+        span["kind"] == "warning" for span in warning_sources["fragments"][0]["textHighlights"]
+    )
+    with pytest.raises(ApplicationError) as foreign_warning:
+        lookup_herb_safety_evidence(
+            3, safety_details["safetyRunId"], warning_id=safety_page["warnings"][0]["id"]
+        )
+    assert foreign_warning.value.code == "HERB_SAFETY_UNAVAILABLE"
     from backend.ai.herb_caution_repository import CautionRepository
 
     warnings = lookup_herb_conditions("mentha aquatica")
@@ -496,7 +587,7 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
     replay = caution_repository.prepare(warnings["positiveRunId"], config)
     caution_repository.publish(replay["run_id"], config)
     assert replay["ai_requests_sent_total"] == 0
-    assert client.complete_json.call_count == 1
+    assert client.complete_json.call_count == expected_calls
     assert lookup_herb_conditions("mentha aquatica")["contraindicationsCount"] == 1
     with pytest.raises(ApplicationError) as stale_warning:
         lookup_herb_evidence(
@@ -514,7 +605,7 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
     assert recovered["contraindicationsCount"] == 1
     assert recovered["contraindicationsStatus"] == "partial"
     assert historical_replay["ai_requests_sent_total"] == 0
-    assert client.complete_json.call_count == 1
+    assert client.complete_json.call_count == expected_calls
     from dataclasses import replace
 
     attempts = []
@@ -557,7 +648,7 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
             replace(bounded, herb_association_ai_max_requests=3), resume=failed_run
         )
         assert resumed["requests"] == 1 and resumed["cache_hits"] == 2
-        assert failing_client.complete_json.call_count == 3
+        assert failing_client.complete_json.call_count == 3 + resumed["warnings_only_ai_requests"]
     assert len(list_top_herbs(300)) == 4
     assert [row["latin"] for row in list_top_herbs(2)] == [
         "matricaria chamomilla",

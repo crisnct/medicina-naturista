@@ -303,6 +303,9 @@ def test_plant_returns_structured_results_without_search_or_identification(web, 
             "fragmentsCount": count,
             "documentsCount": count,
             "cautionRunId": "synthetic-caution-run",
+            "safetyRunId": "synthetic-safety-run",
+            "warningsStatus": "ready",
+            "warningsCount": 1,
             "contraindicationsStatus": "ready",
             "contraindicationsCount": 1,
             "contraindications": [{"id": 11, "name": "Zorbita", "hasRecommendation": bool(count)}],
@@ -380,6 +383,47 @@ def test_plant_returns_structured_results_without_search_or_identification(web, 
     test.client.get("/api/session", headers=other)
     assert test.client.get(url, headers=other).status_code == 404
     assert evidence.call_count == calls
+    safety_lookup = test.deps.herb_safety = Mock(
+        return_value={
+            "herbId": 17,
+            "safetyRunId": "synthetic-safety-run",
+            "warningsStatus": "ready",
+            "warningsCount": 1,
+            "warnings": [],
+            "nextOffset": None,
+        }
+    )
+    warning_id = "a" * 64
+    safety_sources = test.deps.herb_safety_evidence = Mock(
+        return_value={
+            "herbId": 17,
+            "safetyRunId": "synthetic-safety-run",
+            "warningId": warning_id,
+            "fragmentsCount": 1,
+            "documentsCount": 1,
+            "fragments": [],
+            "nextOffset": None,
+        }
+    )
+    safety_url = f"/api/herb-safety/{message['groupId']}"
+    assert test.client.get(safety_url, headers=headers).status_code == 200
+    safety_lookup.assert_called_once_with(17, "synthetic-safety-run", offset=0)
+    assert (
+        test.client.get(
+            safety_url + f"/evidence?warningId={warning_id}", headers=headers
+        ).status_code
+        == 200
+    )
+    safety_sources.assert_called_once_with(
+        17, "synthetic-safety-run", warning_id=warning_id, offset=0
+    )
+    assert test.client.get(safety_url, headers=other).status_code == 404
+    assert test.client.get(safety_url + "?offset=-1", headers=headers).status_code == 422
+    assert (
+        test.client.get(safety_url + "/evidence?warningId=invalid", headers=headers).status_code
+        == 422
+    )
+    assert safety_lookup.call_count == 1 and safety_sources.call_count == 1
     evidence.side_effect = ApplicationError("HERB_EVIDENCE_STALE", "Repetați întrebarea.", 409)
     assert test.client.get(url, headers=headers).json()["detail"]["code"] == "HERB_EVIDENCE_STALE"
     blocked = test.client.post("/api/search", headers=support._headers(sid, tab))

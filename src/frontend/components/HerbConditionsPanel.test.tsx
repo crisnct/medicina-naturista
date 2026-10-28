@@ -37,11 +37,24 @@ describe("plant association results", () => {
       return offset === 0 ? page : { ...page, fragments: [{ ...page.fragments[0], chunkId: 2, text: "Al doilea fragment integral.", textHighlights: [] }], nextOffset: null };
     });
     const client = new QueryClient();
+    const warningId = "a".repeat(64);
+    const warningText = "Precauție sintetică: <script>alert(1)</script>.";
+    const safetyLookup = vi.spyOn(api, "getHerbSafety").mockImplementation(async (_group, offset) => ({
+      herbId: 1, safetyRunId: "safety-one", warningsStatus: "partial", warningsCount: 2,
+      warnings: [{ id: offset === 0 ? warningId : "b".repeat(64), text: offset === 0 ? warningText : "A doua atenționare sintetică.", kind: "administration", partners: [], sourcesCount: 1 }],
+      nextOffset: offset === 0 ? 1 : null,
+    }));
+    const safetyEvidence = vi.spyOn(api, "getHerbSafetyEvidence").mockResolvedValue({
+      herbId: 1, safetyRunId: "safety-one", warningId, fragmentsCount: 1, documentsCount: 1,
+      fragments: [{ ...page.fragments[0], text: "Sursă pentru precauția sintetică.", textHighlights: [{ start: 0, end: 5, kind: "warning" }] }], nextOffset: null,
+    });
     render(<QueryClientProvider client={client}><HerbConditionsPanel message={{
       ...message, groupId: "group-one", herbId: 1, positiveRunId: "run-one", fragmentsCount: 2, documentsCount: 1,
       cautionRunId: "caution-one", contraindicationsStatus: "partial", contraindicationsCount: 1,
       contraindications: [{ id: 13, name: "Zorbita", hasRecommendation: true }],
       contraindicationFragmentsCount: 1, contraindicationDocumentsCount: 1,
+      safetyRunId: "safety-one", warningsStatus: "partial", warningsCount: 2,
+      warningCandidateFragmentsCount: 1,
     }} /></QueryClientProvider>);
     const positive = within(screen.getByRole("region", { name: "Afecțiuni în care este utilă" }));
     const negative = within(screen.getByRole("region", { name: "Afecțiuni în care este interzisă" }));
@@ -49,7 +62,7 @@ describe("plant association results", () => {
     expect(heading).toBeInTheDocument();
     expect(screen.getByRole("list", { name: "Afecțiuni asociate" })).toBeInTheDocument();
     expect(positive.getAllByRole("listitem").map((item) => item.textContent)).toEqual(["Gastrită", "Insomnie"]);
-    expect(heading).toHaveTextContent("interzisă în 1 afecțiuni");
+    expect(heading).not.toHaveTextContent("interzisă în");
     expect(negative.getByText(/Date parțiale/)).toBeInTheDocument();
     expect(positive.getByRole("heading", { name: "Afecțiuni în care este utilă - 2" })).toBeInTheDocument();
     expect(negative.getByRole("heading", { name: "Afecțiuni în care este interzisă - 1" })).toBeInTheDocument();
@@ -58,14 +71,25 @@ describe("plant association results", () => {
     expect(screen.getByText("(Matricaria Chamomilla)")).toBeInTheDocument();
     expect(screen.queryByText(/aceleași recomandări pozitive ca topurile/)).not.toBeInTheDocument();
     expect(lookup).not.toHaveBeenCalled();
+    const safetyRegion = within(screen.getByRole("region", { name: "Atenționări și interacțiuni" }));
+    expect(await safetyRegion.findByText(warningText)).toBeInTheDocument();
+    expect(document.querySelector("script")).toBeNull();
+    expect(safetyRegion.getByText(/Date parțiale/)).toBeInTheDocument();
+    expect(safetyLookup).toHaveBeenCalledWith("group-one", 0, expect.any(AbortSignal));
+    expect(safetyEvidence).not.toHaveBeenCalled();
+    fireEvent.click(safetyRegion.getByRole("button", { name: "Încarcă mai multe" }));
+    expect(await safetyRegion.findByText("A doua atenționare sintetică.")).toBeInTheDocument();
+    fireEvent.click(safetyRegion.getAllByText(/Vezi sursa/)[0]);
+    await waitFor(() => expect(safetyRegion.getByRole("article")).toHaveTextContent("Sursă pentru precauția sintetică."));
+    expect(safetyEvidence).toHaveBeenCalledWith("group-one", warningId, 0, expect.any(AbortSignal));
     fireEvent.click(negative.getByText(/Vezi fragmente sursă/));
     expect(await negative.findByText("Interdicție sintetică pentru Zorbita.")).toBeInTheDocument();
     expect(lookup).toHaveBeenCalledWith("group-one", null, 0, expect.any(AbortSignal), "contraindication");
     fireEvent.click(positive.getByText(/Vezi fragmente sursă/));
     expect(await screen.findByText("Context integral.", { exact: false })).toBeInTheDocument();
-    expect(document.querySelector(".herb-evidence-text")?.textContent).toBe(page.fragments[0].text);
-    expect(document.querySelector(".herb-evidence-text .herb-evidence-mark-herb")).toHaveTextContent("mușețel");
-    expect(document.querySelector(".herb-evidence-text .herb-evidence-mark-condition")).toHaveTextContent("Gastrită");
+    expect(positive.getByText("Context integral.", { exact: false })?.textContent).toBe(page.fragments[0].text);
+    expect(positive.getByRole("article").querySelector(".herb-evidence-text .herb-evidence-mark-herb")).toHaveTextContent("mușețel");
+    expect(positive.getByRole("article").querySelector(".herb-evidence-text .herb-evidence-mark-condition")).toHaveTextContent("Gastrită");
     expect(positive.getByText(/carte.md · liniile 2–7/)).toBeInTheDocument();
     fireEvent.click(screen.getByRole("button", { name: "Încarcă mai multe" }));
     expect(await screen.findByText("Al doilea fragment integral.")).toBeInTheDocument();

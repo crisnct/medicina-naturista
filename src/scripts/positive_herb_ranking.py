@@ -2,7 +2,6 @@
 
 from __future__ import annotations
 
-import json
 import threading
 import time
 from dataclasses import replace
@@ -13,7 +12,6 @@ from backend.ai.herb_association_classification import (
     cache_key,
     classification_prompt,
     group_fragment_works,
-    make_client,
     model_digest,
     pack_batches,
     relation_id,
@@ -33,15 +31,12 @@ from backend.ai.herb_association_scope import LocalConditionScope
 from backend.ai.herb_caution_projection import model_projections
 from backend.ai.herb_caution_repository import CautionRepository
 from backend.ai.herb_positive_repository import PositiveRepository
+from backend.ai.herb_product_safety_repository import ProductSafetyRepository
 from backend.config import Settings
 from backend.core.operation_context import OperationBudget, checkpoint, operation_budget
-
-
-# Durations keep total hours rather than wrapping at a day boundary.
-def _format_duration(seconds: float) -> str:
-    hours, remainder = divmod(max(0, int(seconds)), 3600)
-    minutes, seconds_part = divmod(remainder, 60)
-    return f"{hours:02d}:{minutes:02d}:{seconds_part:02d}"
+from scripts.herb_index_requests import emit_index_event, index_batch, make_client
+from scripts.herb_product_safety_index import ProductSafetyCoordinator
+from scripts.herb_safety_index import format_duration, workflow_progress
 
 
 # Only technical identifiers and aggregate counters reach the operator log.
@@ -53,35 +48,40 @@ def run_positive_ranking(
     resume: str | None = None,
     repository: PositiveRepository | None = None,
     caution_repository: CautionRepository | None = None,
+    safety_repository: ProductSafetyRepository | None = None,
 ) -> dict:
     # Injected repositories stay hermetic unless the caller also supplies a caution adapter.
     if repository is None:
         repository = PositiveRepository()
         caution_repository = caution_repository or CautionRepository(repository.pool)
+        safety_repository = safety_repository or ProductSafetyRepository(repository.pool)
     caution = caution_repository
+    safety = safety_repository
     started = time.monotonic()
-    counters: dict = {"run_id": resume or str(uuid4()), "requests": 0, "completed": 0}
+    counters: dict = {
+        "run_id": resume or str(uuid4()),
+        "requests": 0,
+        "completed": 0,
+        "progress_stage": "analysis",
+    }
+    safety_coordinator: ProductSafetyCoordinator | None = None
     stopped = threading.Event()
 
     def progress() -> None:
         elapsed = time.monotonic() - started
-        done = counters["completed"]
-        total = counters.get("batches", 0)
-        rate = done / elapsed if elapsed else 0
-        eta: str | None = None
-        if rate:
-            eta = _format_duration((total - done) / rate)
-        print(
-            json.dumps(
-                {
-                    **{key: value for key, value in counters.items() if key != "elapsed_seconds"},
-                    "ai_requests_sent_total": counters["requests"],
-                    "elapsed(hh:mm:ss)": _format_duration(elapsed),
-                    "rate_batches_second": rate,
-                    "ETA(hh:mm:ss)": eta,
-                }
-            ),
-            flush=True,
+        warning_metrics = (
+            safety_coordinator.progress_metrics() if safety_coordinator is not None else None
+        )
+        metrics = workflow_progress(counters, elapsed, warning_metrics)
+        emit_index_event(
+            {
+                **{key: value for key, value in counters.items() if key != "elapsed_seconds"},
+                "association_ai_requests": counters["requests"],
+                "ai_requests_sent_total": counters["requests"]
+                + counters.get("warnings_only_ai_requests", 0),
+                "elapsed(hh:mm:ss)": format_duration(elapsed),
+                **metrics,
+            }
         )
 
     def heartbeat() -> None:
@@ -93,12 +93,15 @@ def run_positive_ranking(
     try:
         with operation_budget(
             OperationBudget(
-                started + settings.herb_association_build_timeout_seconds,
+                started
+                + settings.herb_association_build_timeout_seconds
+                + (settings.herb_safety_build_timeout_seconds if safety is not None else 0),
                 time.monotonic,
                 lambda: None,
             )
         ):
             if publish:
+                counters["progress_stage"] = "publication"
                 publication_digest = model_digest(settings)
                 if caution is None:
                     repository.publish(publish, settings, digest=publication_digest)
@@ -108,6 +111,9 @@ def run_positive_ranking(
                         caution_run = caution.prepare(publish, settings)["run_id"]
                     caution.publish(caution_run, settings, positive_digest=publication_digest)
                     counters["caution_run_id"] = caution_run
+                if safety is not None and safety.is_ready(publish):
+                    safety.publish(publish, settings, digest=publication_digest)
+                    counters["safety_run_id"] = publish
                 counters.update(run_id=publish, status="published")
                 return counters
             data = repository.read_snapshot()
@@ -207,17 +213,35 @@ def run_positive_ranking(
                 raise ValueError("POSITIVE_REQUEST_LIMIT")
             assert digest is not None
             state = repository.create_run(counters["run_id"], data, semantic, digest, bool(resume))
+            safety_coordinator = (
+                ProductSafetyCoordinator(
+                    settings,
+                    safety,
+                    counters["run_id"],
+                    digest,
+                    resume=bool(resume) or state["status"] == "ready",
+                    counters=counters,
+                )
+                if safety is not None
+                else None
+            )
             if state["status"] == "ready":
                 if caution is not None:
+                    counters["progress_stage"] = "caution_preparation"
                     caution_run = caution.prepared_for_positive(counters["run_id"])
                     if caution_run is None:
                         caution_run = caution.prepare(counters["run_id"], settings)["run_id"]
                     counters["caution_run_id"] = caution_run
+                if safety_coordinator is not None:
+                    safety_coordinator.prepare(
+                        client_factory=make_client, digest_verifier=model_digest
+                    )
                 counters["status"] = "ready"
                 return counters
+            counters["progress_stage"] = "associations"
             client = make_client(settings) if batches else None
             try:
-                for batch in batches:
+                for number, batch in enumerate(batches, 1):
                     assert client is not None
                     checkpoint()
                     payload = serialize_batch(
@@ -230,30 +254,41 @@ def run_positive_ranking(
                         counters["run_id"], settings.herb_association_ai_max_requests
                     )
                     counters["requests"] += 1
-                    raw = client.complete_json(
-                        prompt,
-                        payload,
-                        settings.herb_association_ai_max_output_tokens,
-                    )
-                    checkpoint()
-                    results = validate_response(
-                        raw,
-                        batch,
-                        scope_catalog=scope_catalog,
-                        max_passage_chars=settings.herb_association_ai_max_passage_chars,
-                    )
-                    entries = {
-                        keys[identifier]: decision for identifier, decision in results.items()
-                    }
-                    repository.save_cache(entries)
-                    if caution is not None:
-                        projected = model_projections(raw, batch, results)
-                        caution.save_cache({keys[key]: value for key, value in projected.items()})
+                    system = prompt
+                    max_tokens = settings.herb_association_ai_max_output_tokens
+                    with index_batch(
+                        settings,
+                        run_id=counters["run_id"],
+                        kind="associations",
+                        batch=number,
+                        batches=len(batches),
+                        system=system,
+                        user=payload,
+                        max_tokens=max_tokens,
+                    ):
+                        raw = client.complete_json(system, payload, max_tokens)
+                        checkpoint()
+                        results = validate_response(
+                            raw,
+                            batch,
+                            scope_catalog=scope_catalog,
+                            max_passage_chars=settings.herb_association_ai_max_passage_chars,
+                        )
+                        entries = {
+                            keys[identifier]: decision for identifier, decision in results.items()
+                        }
+                        repository.save_cache(entries)
+                        if caution is not None:
+                            projected = model_projections(raw, batch, results)
+                            caution.save_cache(
+                                {keys[key]: value for key, value in projected.items()}
+                            )
                     cached.update(entries)
                     counters["completed"] += 1
             finally:
                 if client is not None:
                     client.http.close()
+            counters["progress_stage"] = "ranking_preparation"
             if semantic_config(settings) != semantic or classification_prompt() != prompt:
                 raise ValueError("POSITIVE_CONFIGURATION_CHANGED")
             if model_digest(settings) != digest:
@@ -276,11 +311,14 @@ def run_positive_ranking(
             counters["elapsed_seconds"] = round(time.monotonic() - started, 3)
             repository.finish(counters["run_id"], data, decisions, evidence_keys, counters)
             if caution is not None:
+                counters["progress_stage"] = "caution_preparation"
                 projected_run = caution.prepare(counters["run_id"], settings)
                 counters.update(
                     caution_run_id=projected_run["run_id"],
                     caution_unknown_count=projected_run["unknown_count"],
                 )
+            if safety_coordinator is not None:
+                safety_coordinator.prepare(client_factory=make_client, digest_verifier=model_digest)
             counters["status"] = "ready"
             return counters
     except Exception as error:
@@ -303,5 +341,8 @@ def refresh_positive_ranking(settings: Settings) -> dict:
         completed=prepared["completed"],
         ai_requests_sent_total=prepared["requests"],
     )
-    print(json.dumps({"stage": "positive_ranking_summary", **published}), flush=True)
+    published["warnings_only_ai_requests"] = prepared.get("warnings_only_ai_requests", 0)
+    published["product_safety_ai_requests"] = prepared.get("product_safety_ai_requests", 0)
+    published["ai_requests_sent_total"] += published["warnings_only_ai_requests"]
+    emit_index_event({"stage": "positive_ranking_summary", **published})
     return published

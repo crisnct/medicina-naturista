@@ -8,6 +8,7 @@ __pycache__
 var/sessions
 var/tmp
 medicina-naturista-documente/data/documents
+medicina-naturista-documente/data/images
 medicina-naturista-documente/data/herbs.jsonl
 model_cache
 tests

@@ -22,7 +22,7 @@ from typing import Any
 
 from backend.ai.search import ALL_SIGNALS
 from backend.config import Settings
-from backend.core.contracts import HerbEvidenceReference
+from backend.core.contracts import HerbEvidenceReference, HerbSafetyReference
 from backend.core.errors import ApplicationError, OperationCancelled
 from backend.core.models import (
     MAX_KEPT_REPORTS,
@@ -999,6 +999,28 @@ class SessionStore:
                 return reference
             raise ApplicationError(
                 "HERB_EVIDENCE_UNAVAILABLE", tr("errors.herb_evidence_unavailable"), 404
+            )
+
+    def herb_safety_reference(self, session: SessionData, group_id: str) -> HerbSafetyReference:
+        with self._lock, session.lock:
+            if (
+                session.closed
+                or self._sessions.get((session.cookie_id, session.tab_id)) is not session
+                or self._expired(session)
+            ):
+                raise ApplicationError("SESSION_CLOSED", tr("errors.session_closed"))
+            for message in session.history:
+                if message.get("groupId") != group_id or message.get("kind") != "herb_conditions":
+                    continue
+                if message.get("warningsStatus") == "stale":
+                    raise ApplicationError("HERB_SAFETY_STALE", tr("errors.herb_safety_stale"), 409)
+                if message.get("herbId") and message.get("safetyRunId"):
+                    return {"herbId": message["herbId"], "safetyRunId": message["safetyRunId"]}
+                raise ApplicationError(
+                    "HERB_SAFETY_NOT_READY", tr("errors.herb_safety_not_ready"), 503
+                )
+            raise ApplicationError(
+                "HERB_SAFETY_UNAVAILABLE", tr("errors.herb_safety_unavailable"), 404
             )
 
     def conversation_view(

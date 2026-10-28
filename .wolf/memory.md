@@ -969,3 +969,443 @@ description: chronological action log per session, consolidated weekly
 | 09:18 | Session end: 11 writes across 4 files (2026-10-25-clean-documents-stable.md, clean_documents.py, test_document_spelling.py, README.md) | 0 reads | ~4098 tok |
 | 10:14 | Session end: 38 writes across 20 files (2026-10-26-top-produse-naturiste-pentru-afectiune.md, contracts.py, herb_categories.py, models.py, conditions.py) | 0 reads | ~18646 tok |
 | 10:17 | Session end: 9 writes across 5 files (models.py, conversation.py, texts.ro.toml, README.md, test_message_routing.py) | 0 reads | ~1939 tok |
+
+## Session: 2026-10-26 10:44
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 10:51 | Created aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | — | ~6542 |
+| 10:52 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+8 lines) | ~379 |
+| 11:01 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+75 lines) | ~3742 |
+| 11:07 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+72 lines) | ~3611 |
+| 11:15 | Created src/backend/ai/herb_safety_extraction.py | — | ~1374 |
+| 11:15 | Created src/backend/ai/herb_safety_validation.py | — | ~1767 |
+| 11:15 | Created src/backend/ai/prompts/herb_safety_system.md | — | ~464 |
+| 11:15 | Created src/backend/ai/prompts/herb_safety_transport.md | — | ~100 |
+| 11:15 | Created src/backend/ai/prompts/herb_association_with_warnings_transport.md | — | ~237 |
+| 11:16 | Created src/backend/migrations/029_herb_safety_warnings.sql | — | ~2290 |
+| 11:16 | Edited src/backend/ai/herb_safety_extraction.py | modified product_matcher() | ~246 |
+| 11:17 | Edited src/backend/core/contracts.py | modified __call__() | ~387 |
+| 11:17 | Created src/backend/ai/herb_safety_repository.py | — | ~4864 |
+| 11:19 | Edited src/backend/config.py | expanded (+17 lines) | ~404 |
+| 11:19 | Edited docker-compose.yaml | 1→4 lines | ~92 |
+| 11:19 | Edited src/backend/ai/herb_association_classification.py | modified classification_prompt() | ~313 |
+| 11:19 | Edited src/backend/ai/herb_safety_validation.py | 4→2 lines | ~50 |
+| 11:19 | Edited src/backend/ai/herb_safety_repository.py | added 1 import(s) | ~49 |
+| 11:21 | Created src/scripts/herb_safety_index.py | — | ~3440 |
+| 11:22 | Edited src/backend/ai/herb_safety_repository.py | modified transaction() | ~153 |
+| 11:22 | Edited src/backend/ai/herb_association_classification.py | 1→3 lines | ~38 |
+| 11:22 | Edited src/scripts/positive_herb_ranking.py | modified is_ready() | ~1009 |
+| 11:22 | Edited src/scripts/build_hybrid_index.py | expanded (+31 lines) | ~545 |
+| 11:23 | Created src/backend/ai/herb_safety.py | — | ~2290 |
+| 11:23 | Edited src/backend/ai/herb_conditions.py | added 1 import(s) | ~80 |
+| 11:23 | Edited src/backend/web/dependencies.py | 2→6 lines | ~74 |
+| 11:23 | Edited src/backend/core/sessions.py | added 1 condition(s) | ~353 |
+| 11:23 | Edited src/backend/web/main.py | added error handling | ~646 |
+| 11:25 | Edited src/frontend/api/types.ts | expanded (+33 lines) | ~257 |
+| 11:25 | Edited src/frontend/api/client.ts | expanded (+6 lines) | ~181 |
+| 11:25 | Edited src/frontend/components/HerbConditionsPanel.tsx | added 1 import(s) | ~62 |
+| 11:25 | Created src/frontend/components/HerbWarningsPanel.tsx | — | ~1680 |
+| 11:25 | Edited src/frontend/styles.css | 1→6 lines | ~112 |
+| 11:25 | Edited src/backend/resources/texts.ro.toml | expanded (+15 lines) | ~409 |
+| 11:26 | Edited src/backend/ai/herb_safety_repository.py | 7→9 lines | ~99 |
+| 11:26 | Edited src/scripts/positive_herb_ranking.py | added 1 import(s) | ~52 |
+| 11:26 | Edited src/backend/web/main.py | modified _herb_safety_response() | ~140 |
+| 11:26 | Edited src/backend/resources/texts.ro.toml | 1→2 lines | ~64 |
+| 11:26 | Edited src/frontend/components/HerbWarningsPanel.tsx | inline fix | ~40 |
+| 11:26 | Edited .github/workflows/ci.yml | 1→3 lines | ~88 |
+| 11:28 | Edited src/tests/unit/ai/test_build_hybrid_index.py | modified assertRaisesRegex() | ~1236 |
+| 11:28 | Edited src/tests/unit/core/test_settings.py | 2→6 lines | ~113 |
+| 11:28 | Edited src/tests/integration/test_herb_database.py | 3→6 lines | ~120 |
+| 11:28 | Edited src/tests/support/postgres.py | 2→2 lines | ~53 |
+| 11:29 | Edited src/backend/ai/herb_safety_validation.py | modified encode_result() | ~59 |
+| 11:29 | Edited src/backend/web/main.py | 2→2 lines | ~39 |
+| 11:30 | Edited src/tests/integration/test_herb_conditions.py | expanded (+10 lines) | ~332 |
+| 11:30 | Edited src/tests/unit/web/test_message_routing.py | expanded (+21 lines) | ~427 |
+| 11:31 | Edited src/tests/integration/test_herb_conditions.py | expanded (+24 lines) | ~505 |
+| 11:31 | Edited src/frontend/components/HerbConditionsPanel.test.tsx | expanded (+24 lines) | ~685 |
+| 11:33 | Edited src/backend/ai/herb_safety_validation.py | 1→2 lines | ~48 |
+| 11:33 | Edited src/backend/ai/herb_safety_repository.py | modified create_run() | ~85 |
+| 11:33 | Edited src/scripts/herb_safety_index.py | expanded (+7 lines) | ~194 |
+| 11:33 | Edited src/scripts/positive_herb_ranking.py | 2→6 lines | ~91 |
+| 11:33 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 2→3 lines | ~57 |
+| 11:34 | Edited src/frontend/components/HerbConditionsPanel.test.tsx | 3→3 lines | ~114 |
+| 11:34 | Edited src/backend/resources/texts.ro.toml | "Vezi sursa — {sources_cou" → "Vezi sursa — fragmente: {" | ~18 |
+| 11:36 | Edited src/scripts/positive_herb_ranking.py | local_target_ids() → add() | ~202 |
+| 11:40 | Edited src/backend/ai/herb_safety_extraction.py | modified or() | ~273 |
+| 11:40 | Edited src/backend/ai/herb_safety_validation.py | 4→6 lines | ~90 |
+| 11:40 | Edited src/scripts/herb_safety_index.py | 1→2 lines | ~32 |
+| 11:40 | Edited src/tests/integration/test_herb_conditions.py | modified patch() | ~193 |
+| 11:40 | Edited README.md | 2→3 lines | ~70 |
+| 11:41 | Edited src/backend/ai/herb_safety_repository.py | modified is_ready() | ~131 |
+| 11:41 | Edited src/scripts/herb_safety_index.py | modified pack_safety_batches() | ~714 |
+| 11:41 | Edited README.md | expanded (+50 lines) | ~963 |
+| 11:43 | Edited src/backend/ai/herb_safety_validation.py | 3→4 lines | ~65 |
+| 11:43 | Edited src/backend/ai/herb_safety_extraction.py | added 1 import(s) | ~61 |
+| 11:43 | Edited src/tests/unit/ai/test_build_hybrid_index.py | modified patch() | ~150 |
+| 11:44 | Edited src/backend/ai/herb_conditions.py | reduced (-6 lines) | ~22 |
+| 11:46 | Created aiPlans/tmp/herb-safety-preview/preview.tsx | — | ~740 |
+| 11:46 | Created aiPlans/tmp/herb-safety-preview/bundle.cjs | — | ~106 |
+| 11:47 | Edited aiPlans/tmp/herb-safety-preview/bundle.cjs | 1→2 lines | ~54 |
+| 11:47 | Created aiPlans/tmp/herb-safety-preview/public/mobile.html | — | ~76 |
+| 11:50 | Edited src/backend/ai/prompts/herb_safety_system.md | 1→3 lines | ~71 |
+| 11:50 | Edited src/tests/integration/test_herb_conditions.py | expanded (+11 lines) | ~204 |
+| 11:53 | Edited src/backend/ai/prompts/herb_safety_system.md | inline fix | ~24 |
+| 11:53 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+44 lines) | ~959 |
+
+## Session: 2026-10-26 13:41
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 13:46 | Edited src/backend/ai/herb_safety_validation.py | modified and() | ~320 |
+| 13:46 | Edited src/backend/ai/prompts/herb_safety_system.md | 1→5 lines | ~97 |
+| 13:46 | Edited src/tests/unit/ai/test_build_hybrid_index.py | modified in() | ~646 |
+| 13:47 | Edited src/tests/unit/ai/test_build_hybrid_index.py | expanded (+7 lines) | ~91 |
+| 13:47 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 8→4 lines | ~89 |
+| 13:50 | Edited README.md | expanded (+18 lines) | ~340 |
+| 13:52 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+39 lines) | ~699 |
+| 14:19 | Session end: 66 writes across 27 files (2026-10-26-plante-afectiuni-utile-si-interzise.md, 028_herb_caution_rankings.sql, herb_caution_projection.py, herb_caution_repository.py, positive_herb_ranking.py) | 1 reads | ~42388 tok |
+| 14:35 | Edited src/scripts/herb_safety_index.py | added error handling | ~844 |
+| 14:37 | Edited src/tests/unit/ai/test_build_hybrid_index.py | modified assertRaisesRegex() | ~1246 |
+| 14:37 | Edited src/tests/integration/test_herb_conditions.py | expanded (+25 lines) | ~406 |
+| 14:39 | Edited README.md | expanded (+14 lines) | ~326 |
+| 14:39 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | 1→2 lines | ~111 |
+| 14:41 | Edited README.md | 2→2 lines | ~50 |
+| 14:41 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+62 lines) | ~1003 |
+| 14:52 | Edited src/scripts/herb_safety_index.py | modified format_duration() | ~970 |
+| 14:52 | Edited src/scripts/positive_herb_ranking.py | reduced (-9 lines) | ~168 |
+| 14:55 | Edited src/scripts/herb_safety_index.py | 6→7 lines | ~99 |
+| 14:55 | Edited src/tests/unit/ai/test_build_hybrid_index.py | modified timed_response() | ~1117 |
+| 14:57 | Edited src/scripts/positive_herb_ranking.py | 3→5 lines | ~90 |
+| 14:57 | Edited src/scripts/herb_safety_index.py | 2→5 lines | ~92 |
+| 14:57 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 5→9 lines | ~176 |
+| 14:58 | Edited README.md | expanded (+8 lines) | ~181 |
+| 15:01 | Edited README.md | 1→6 lines | ~112 |
+| 15:01 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+36 lines) | ~632 |
+| 15:07 | Edited src/scripts/herb_safety_index.py | modified workflow_progress() | ~738 |
+| 15:07 | Edited src/scripts/positive_herb_ranking.py | expanded (+8 lines) | ~338 |
+| 15:08 | Edited src/tests/unit/ai/test_build_hybrid_index.py | modified capture_projection() | ~984 |
+| 15:11 | Edited README.md | expanded (+7 lines) | ~194 |
+| 15:12 | Edited README.md | inline fix | ~25 |
+| 15:12 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+31 lines) | ~542 |
+| 15:29 | Edited src/backend/config.py | 2→2 lines | ~34 |
+| 15:29 | Edited docker-compose.yaml | 120 → 200 | ~25 |
+| 15:29 | Edited README.md | 120 → 200 | ~45 |
+| 15:29 | Edited src/tests/unit/core/test_settings.py | expanded (+8 lines) | ~127 |
+| 15:32 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+16 lines) | ~270 |
+| 15:45 | Edited src/backend/config.py | 6→11 lines | ~221 |
+| 15:45 | Edited docker-compose.yaml | 1→2 lines | ~43 |
+| 15:45 | Edited src/scripts/herb_safety_index.py | expanded (+9 lines) | ~197 |
+| 15:45 | Edited src/tests/unit/core/test_settings.py | modified assertRaises() | ~286 |
+| 15:45 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 1→4 lines | ~93 |
+| 15:50 | Edited README.md | 2→4 lines | ~145 |
+| 15:56 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+38 lines) | ~715 |
+| 16:05 | Edited src/backend/config.py | 4→4 lines | ~75 |
+| 16:05 | Edited docker-compose.yaml | 2→2 lines | ~47 |
+| 16:05 | Edited src/backend/ai/client.py | 2→3 lines | ~25 |
+| 16:05 | Created src/scripts/herb_index_requests.py | — | ~1922 |
+| 16:06 | Edited src/scripts/herb_safety_index.py | modified enumerate() | ~361 |
+| 16:06 | Edited src/scripts/positive_herb_ranking.py | modified enumerate() | ~634 |
+| 16:08 | Edited src/tests/unit/core/test_settings.py | 4→4 lines | ~93 |
+| 16:08 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 2→2 lines | ~46 |
+| 16:08 | Edited .github/workflows/ci.yml | 1→2 lines | ~46 |
+| 16:10 | Edited src/tests/unit/ai/test_build_hybrid_index.py | modified __iter__() | ~1953 |
+| 16:11 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 6→6 lines | ~78 |
+| 16:12 | Edited src/scripts/herb_index_requests.py | modified emit_index_event() | ~123 |
+| 16:12 | Edited src/scripts/herb_safety_index.py | 2→2 lines | ~38 |
+| 16:12 | Edited src/scripts/positive_herb_ranking.py | 8→5 lines | ~60 |
+| 16:13 | Edited src/scripts/positive_herb_ranking.py | — | ~0 |
+| 16:18 | Edited src/scripts/herb_index_requests.py | 7→9 lines | ~130 |
+| 16:19 | Edited README.md | expanded (+24 lines) | ~640 |
+| 16:22 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+54 lines) | ~1055 |
+| 16:33 | Edited src/backend/config.py | 2→2 lines | ~34 |
+| 16:33 | Edited docker-compose.yaml | 8192 → 25000 | ~24 |
+| 16:33 | Edited README.md | 2→3 lines | ~156 |
+| 16:33 | Edited src/tests/unit/core/test_settings.py | 1→3 lines | ~72 |
+| 16:33 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 8192 → 25000 | ~20 |
+| 16:35 | Edited src/backend/config.py | 2→2 lines | ~41 |
+| 16:35 | Edited docker-compose.yaml | 32768 → 65536 | ~22 |
+| 16:35 | Edited README.md | 2→2 lines | ~87 |
+| 16:35 | Edited src/tests/unit/core/test_settings.py | 2→2 lines | ~46 |
+| 16:35 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 3→3 lines | ~64 |
+| 16:35 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+16 lines) | ~309 |
+| 16:46 | Edited src/backend/config.py | 2→2 lines | ~34 |
+| 16:46 | Edited docker-compose.yaml | 300 → 900 | ~25 |
+| 16:46 | Edited README.md | 3→3 lines | ~143 |
+| 16:46 | Edited src/tests/unit/core/test_settings.py | 2→2 lines | ~48 |
+| 16:46 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+14 lines) | ~268 |
+| 16:47 | Edited src/backend/config.py | 2→2 lines | ~34 |
+| 16:47 | Edited docker-compose.yaml | 25000 → 12000 | ~24 |
+| 16:47 | Edited README.md | 2→2 lines | ~80 |
+| 16:47 | Edited src/tests/unit/core/test_settings.py | 2→2 lines | ~47 |
+| 16:47 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 25000 → 12000 | ~20 |
+| 16:47 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+8 lines) | ~146 |
+| 16:47 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 1→5 lines | ~67 |
+| 16:55 | Edited src/backend/config.py | 2→2 lines | ~34 |
+| 16:55 | Edited docker-compose.yaml | 12000 → 25000 | ~24 |
+| 16:55 | Edited README.md | 2→2 lines | ~80 |
+| 16:55 | Edited src/tests/unit/core/test_settings.py | 2→2 lines | ~47 |
+| 16:55 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 12000 → 25000 | ~20 |
+| 16:55 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+7 lines) | ~131 |
+| 17:03 | Edited src/backend/ai/prompts/herb_safety_system.md | expanded (+14 lines) | ~293 |
+| 17:03 | Edited src/backend/ai/prompts/herb_safety_transport.md | 2→3 lines | ~67 |
+| 17:03 | Edited src/backend/ai/prompts/herb_association_with_warnings_transport.md | 1→2 lines | ~42 |
+| 17:03 | Edited README.md | 3→7 lines | ~156 |
+| 17:03 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+23 lines) | ~428 |
+| 18:11 | Edited src/backend/ai/herb_safety_extraction.py | modified cache_key() | ~238 |
+| 18:11 | Edited src/backend/ai/herb_safety_validation.py | added error handling | ~2044 |
+| 18:12 | Edited src/scripts/herb_safety_index.py | modified bind_targets() | ~287 |
+| 18:13 | Edited src/backend/ai/prompts/herb_safety_system.md | expanded (+8 lines) | ~532 |
+| 18:13 | Edited src/backend/ai/prompts/herb_safety_transport.md | 1→2 lines | ~45 |
+| 18:13 | Edited src/backend/ai/prompts/herb_association_with_warnings_transport.md | 1→2 lines | ~54 |
+| 18:17 | Edited src/backend/ai/herb_safety_extraction.py | modified source_passages() | ~389 |
+| 18:17 | Edited src/backend/ai/herb_safety_validation.py | 6→8 lines | ~171 |
+| 18:17 | Edited src/scripts/herb_safety_index.py | 8→5 lines | ~86 |
+| 18:17 | Edited src/backend/ai/prompts/herb_safety_system.md | 2→4 lines | ~97 |
+| 18:18 | Edited src/tests/unit/ai/test_build_hybrid_index.py | expanded (+19 lines) | ~421 |
+| 18:18 | Edited src/tests/integration/test_herb_conditions.py | "quote" → "passage_ids" | ~17 |
+| 18:20 | Edited src/backend/ai/herb_safety_extraction.py | modified finditer() | ~76 |
+| 18:20 | Edited src/backend/ai/herb_safety_validation.py | 3→3 lines | ~52 |
+| 18:21 | Edited src/scripts/herb_safety_index.py | 4→6 lines | ~88 |
+| 18:24 | Edited README.md | expanded (+19 lines) | ~655 |
+| 18:24 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+49 lines) | ~883 |
+
+## Session: 2026-10-26 21:47
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 21:57 | Edited src/scripts/herb_index_requests.py | modified index_response_schema() | ~599 |
+| 21:57 | Edited src/scripts/herb_safety_index.py | 3→7 lines | ~51 |
+| 22:01 | Edited src/scripts/herb_index_requests.py | modified warning_item_limit() | ~134 |
+| 22:01 | Edited src/scripts/herb_safety_index.py | modified enumerate() | ~417 |
+| 22:03 | Edited src/scripts/herb_index_requests.py | expanded (+8 lines) | ~125 |
+| 22:03 | Edited README.md | expanded (+13 lines) | ~361 |
+| 22:03 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+42 lines) | ~834 |
+| 23:11 | Edited src/backend/ai/herb_safety_extraction.py | modified citation_index() | ~1296 |
+| 23:12 | Edited src/backend/ai/herb_safety_validation.py | added 1 condition(s) | ~1278 |
+| 23:14 | Edited src/backend/ai/herb_safety_extraction.py | modified warning_statement_index() | ~192 |
+| 23:14 | Edited src/backend/ai/herb_safety_validation.py | added error handling | ~768 |
+| 23:18 | Edited src/backend/ai/herb_safety_extraction.py | modified search() | ~164 |
+| 23:18 | Edited src/backend/ai/herb_safety_validation.py | modified quantities() | ~126 |
+| 23:18 | Edited src/scripts/herb_safety_index.py | modified bind_targets() | ~220 |
+| 23:18 | Edited src/scripts/herb_index_requests.py | modified warning_item_limit() | ~74 |
+| 23:20 | Created src/backend/migrations/030_herb_safety_concise_messages.sql | — | ~405 |
+| 23:20 | Edited src/backend/ai/herb_safety_repository.py | added 1 condition(s) | ~451 |
+| 23:20 | Edited src/backend/ai/herb_safety.py | 2→2 lines | ~41 |
+| 23:22 | Edited src/backend/ai/herb_safety_validation.py | 4→2 lines | ~45 |
+| 23:22 | Edited src/backend/ai/prompts/herb_safety_system.md | expanded (+20 lines) | ~566 |
+| 23:22 | Edited src/backend/ai/prompts/herb_safety_transport.md | 1→2 lines | ~54 |
+| 23:22 | Edited src/backend/ai/prompts/herb_association_with_warnings_transport.md | 1→2 lines | ~54 |
+| 23:24 | Edited src/backend/ai/herb_safety_extraction.py | modified search() | ~187 |
+| 23:24 | Edited src/backend/ai/herb_safety_validation.py | modified quantities() | ~167 |
+| 23:28 | Edited src/backend/ai/herb_safety_extraction.py | added 1 condition(s) | ~160 |
+| 23:28 | Edited src/backend/ai/herb_safety_validation.py | inline fix | ~20 |
+| 23:28 | Edited src/tests/unit/ai/test_build_hybrid_index.py | expanded (+10 lines) | ~241 |
+| 23:28 | Edited src/tests/integration/test_herb_conditions.py | 1→3 lines | ~53 |
+| 23:33 | Edited src/backend/ai/herb_safety_extraction.py | modified values() | ~132 |
+| 23:33 | Edited src/backend/ai/herb_safety_validation.py | modified any() | ~106 |
+| 23:33 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 2→2 lines | ~28 |
+| 23:38 | Edited src/backend/ai/herb_safety_extraction.py | modified items() | ~60 |
+| 23:38 | Edited src/scripts/herb_safety_index.py | 4→1 lines | ~23 |
+| 23:38 | Edited src/backend/ai/prompts/herb_safety_system.md | 2→5 lines | ~117 |
+| 23:38 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 4→4 lines | ~53 |
+| 23:41 | Edited src/backend/ai/herb_safety_validation.py | modified isinstance() | ~363 |
+| 23:43 | Edited src/backend/ai/herb_safety_extraction.py | modified eligible_warning_statements() | ~114 |
+| 23:43 | Edited src/scripts/herb_index_requests.py | modified warning_item_limit() | ~95 |
+| 23:43 | Edited src/scripts/herb_safety_index.py | expanded (+6 lines) | ~136 |
+| 23:43 | Edited src/backend/ai/prompts/herb_safety_system.md | 3→4 lines | ~92 |
+| 23:45 | Edited src/backend/ai/herb_safety_repository.py | modified schema_available() | ~104 |
+| 23:45 | Edited README.md | expanded (+21 lines) | ~826 |
+| 23:47 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+52 lines) | ~1047 |
+| 23:49 | Edited src/backend/ai/herb_safety_extraction.py | modified isspace() | ~217 |
+
+## Session: 2026-10-27 06:56
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 07:00 | Edited src/scripts/herb_index_requests.py | 4→8 lines | ~148 |
+| 07:00 | Edited src/backend/ai/client.py | modified json_error_details() | ~360 |
+| 07:00 | Edited src/scripts/herb_index_requests.py | inline fix | ~29 |
+| 07:02 | Edited README.md | expanded (+9 lines) | ~226 |
+| 07:02 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+40 lines) | ~735 |
+| 07:03 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+6 lines) | ~137 |
+| 08:59 | Created src/backend/ai/herb_product_safety.py | — | ~1376 |
+| 08:59 | Created src/backend/ai/prompts/herb_product_safety_system.md | — | ~719 |
+| 08:59 | Created src/backend/migrations/031_herb_product_safety_knowledge.sql | — | ~1492 |
+| 09:00 | Created src/backend/ai/herb_product_safety_repository.py | — | ~3253 |
+| 09:02 | Edited src/backend/ai/herb_product_safety_repository.py | 2→2 lines | ~26 |
+| 09:02 | Created src/scripts/herb_product_safety_index.py | — | ~2659 |
+| 09:03 | Edited src/scripts/herb_index_requests.py | modified index_response_schema() | ~174 |
+| 09:03 | Edited src/scripts/herb_safety_index.py | modified run_safety_index() | ~157 |
+| 09:03 | Edited src/scripts/positive_herb_ranking.py | reduced (-23 lines) | ~328 |
+| 09:03 | Edited src/scripts/build_hybrid_index.py | 2→2 lines | ~51 |
+| 09:03 | Edited src/backend/ai/herb_conditions.py | inline fix | ~20 |
+| 09:04 | Edited src/backend/ai/herb_safety.py | USING() → import() | ~297 |
+| 09:04 | Edited src/backend/ai/prompts/herb_product_safety_system.md | 1→3 lines | ~64 |
+| 09:04 | Edited src/backend/ai/herb_safety.py | removed 68 lines | ~45 |
+| 09:04 | Deleted src/frontend/components/HerbWarningsPanel.tsx | — | ~0 |
+| 09:05 | Created src/frontend/components/HerbWarningsPanel.tsx | — | ~1096 |
+| 09:05 | Edited src/backend/resources/texts.ro.toml | 4→8 lines | ~197 |
+| 09:06 | Edited src/backend/config.py | 4→4 lines | ~74 |
+| 09:06 | Edited docker-compose.yaml | 2→2 lines | ~45 |
+| 09:06 | Edited src/backend/ai/client.py | modified _parse_content() | ~66 |
+| 09:06 | Edited src/scripts/herb_index_requests.py | modified complete_json() | ~343 |
+| 09:09 | Edited src/backend/ai/herb_product_safety.py | 1→4 lines | ~41 |
+| 09:09 | Edited src/backend/ai/herb_product_safety_repository.py | modified publish() | ~317 |
+| 09:09 | Edited src/scripts/positive_herb_ranking.py | inline fix | ~23 |
+| 09:09 | Edited src/scripts/herb_product_safety_index.py | 2→2 lines | ~42 |
+| 09:12 | Edited src/backend/migrations/031_herb_product_safety_knowledge.sql | 3→5 lines | ~67 |
+| 09:12 | Edited src/scripts/herb_index_requests.py | inline fix | ~28 |
+| 09:12 | Edited src/scripts/herb_safety_index.py | "Coordinate combined and w" → "Legacy corpus helpers and" | ~27 |
+| 09:14 | Edited src/backend/config.py | — | ~0 |
+| 09:14 | Edited README.md | 6→8 lines | ~232 |
+| 09:17 | Edited src/backend/ai/herb_safety.py | EXISTS() → unavailable() | ~96 |
+| 09:17 | Edited src/backend/ai/herb_product_safety_repository.py | expanded (+12 lines) | ~238 |
+| 09:20 | Edited README.md | 1→3 lines | ~63 |
+| 09:20 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+99 lines) | ~1613 |
+| 09:25 | Edited src/backend/ai/herb_product_safety_repository.py | 4→4 lines | ~77 |
+| 09:25 | Edited src/scripts/herb_product_safety_index.py | modified enumerate() | ~252 |
+| 09:25 | Edited README.md | 1→3 lines | ~67 |
+| 09:25 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | 2→7 lines | ~117 |
+| 09:28 | Edited src/scripts/herb_product_safety_index.py | added 2 import(s) | ~91 |
+| 10:20 | Created aiPlans/tmp/2026-10-27-sunatoare-qwen/test_qwen_sunatoare.py | — | ~1503 |
+| 10:24 | Edited aiPlans/tmp/2026-10-27-sunatoare-qwen/test_qwen_sunatoare.py | modified capture_request() | ~487 |
+| 10:27 | Created aiPlans/tmp/2026-10-27-sunatoare-qwen/rezultat.md | — | ~961 |
+| 10:27 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+26 lines) | ~490 |
+| 10:47 | Edited src/backend/ai/providers.py | 1→2 lines | ~22 |
+| 10:47 | Edited src/backend/config.py | added 1 condition(s) | ~226 |
+| 10:47 | Edited src/backend/ai/client.py | 2→4 lines | ~64 |
+| 10:47 | Edited src/scripts/herb_index_requests.py | expanded (+8 lines) | ~102 |
+| 10:47 | Edited docker-compose.yaml | 1→2 lines | ~51 |
+| 10:50 | Edited README.md | 2→3 lines | ~152 |
+| 10:50 | Edited aiPlans/2026-10-26-atentionari-si-interactiuni-produse-naturiste.md | expanded (+20 lines) | ~396 |
+| 11:33 | Edited src/backend/config.py | 3→3 lines | ~44 |
+| 11:56 | Edited src/frontend/components/HerbWarningsPanel.tsx | — | ~0 |
+| 11:56 | Edited src/frontend/styles.css | CSS: --nature-warning, margin, line-height | ~295 |
+| 12:00 | Edited README.md | 4→8 lines | ~183 |
+| 12:00 | Created aiPlans/tmp/herb-ui-20261027/preview.mjs | — | ~1801 |
+| 12:01 | Created aiPlans/tmp/herb-ui-20261027/capture.mjs | — | ~470 |
+| 12:03 | Edited aiPlans/tmp/herb-ui-20261027/preview.mjs | added optional chaining | ~177 |
+| 12:04 | Edited aiPlans/tmp/herb-ui-20261027/preview.mjs | added optional chaining | ~260 |
+| 12:04 | Edited aiPlans/tmp/herb-ui-20261027/capture.mjs | 3→3 lines | ~50 |
+| 12:24 | Edited src/frontend/styles.css | modified media() | ~78 |
+| 12:24 | Edited README.md | 1→2 lines | ~43 |
+| 12:24 | Edited aiPlans/tmp/herb-ui-20261027/preview.mjs | expanded (+6 lines) | ~318 |
+
+## Session: 2026-10-27 14:20
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 14:22 | Edited src/frontend/components/HerbWarningsPanel.tsx | inline fix | ~25 |
+| 14:22 | Edited src/frontend/styles.css | 8→6 lines | ~100 |
+| 14:22 | Edited README.md | 2→3 lines | ~67 |
+| 14:22 | Edited aiPlans/tmp/herb-ui-20261027/preview.mjs | 2→7 lines | ~135 |
+
+## Session: 2026-10-27 14:24
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-10-27 14:41
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 14:42 | Created aiPlans/tmp/herb_images_batch.py | — | ~2419 |
+| 14:43 | Edited aiPlans/tmp/herb_images_batch.py | removed 32 lines | ~13 |
+| 14:44 | Created aiPlans/2026-10-27-imagini-produse-naturiste.md | — | ~563 |
+| 14:47 | Edited aiPlans/tmp/herb_images_batch.py | added 1 condition(s) | ~154 |
+| 14:47 | Edited aiPlans/2026-10-27-imagini-produse-naturiste.md | expanded (+7 lines) | ~197 |
+
+## Session: 2026-10-27 15:02
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 15:26 | Created src/backend/ai/herb_images.py | — | ~676 |
+| 15:26 | Edited src/backend/config.py | 5→8 lines | ~114 |
+| 15:26 | Edited src/backend/core/contracts.py | added 1 import(s) | ~45 |
+| 15:26 | Edited src/backend/web/dependencies.py | 2→4 lines | ~38 |
+| 15:26 | Edited src/backend/web/main.py | modified get_herb_image() | ~218 |
+| 15:27 | Edited docker-compose.yaml | 3→4 lines | ~54 |
+| 15:27 | Edited docker-compose.yaml | 3→7 lines | ~70 |
+| 15:27 | Edited .dockerignore | 1→2 lines | ~23 |
+| 15:27 | Edited src/backend/ai/herb_images.py | added 1 condition(s) | ~53 |
+| 15:27 | Edited src/frontend/api/client.ts | modified herbImageUrl() | ~49 |
+| 15:27 | Edited src/frontend/components/HerbConditionsPanel.tsx | added nullish coalescing | ~389 |
+| 15:27 | Edited src/frontend/styles.css | modified media() | ~229 |
+| 15:28 | Edited src/frontend/components/HerbConditionsPanel.tsx | 4→4 lines | ~34 |
+| 15:28 | Edited README.md | expanded (+14 lines) | ~392 |
+| 15:28 | Created aiPlans/2026-10-27-afisare-imagini-produse-in-chat.md | — | ~572 |
+| 15:37 | Edited aiPlans/2026-10-27-afisare-imagini-produse-in-chat.md | expanded (+31 lines) | ~611 |
+| 17:04 | Edited src/frontend/styles.css | 2→2 lines | ~50 |
+| 17:04 | Edited README.md | inline fix | ~32 |
+| 17:04 | Edited aiPlans/2026-10-27-afisare-imagini-produse-in-chat.md | 2→5 lines | ~63 |
+| 17:05 | Edited src/frontend/components/HerbConditionsPanel.tsx | removed 3 lines | ~5 |
+| 17:05 | Edited README.md | 1→2 lines | ~45 |
+| 17:05 | Edited src/frontend/components/HerbConditionsPanel.test.tsx | "interzisă în 1 afecțiuni" → "interzisă în" | ~17 |
+| 17:05 | Edited aiPlans/2026-10-27-afisare-imagini-produse-in-chat.md | 1→3 lines | ~57 |
+| 17:06 | Edited aiPlans/2026-10-27-afisare-imagini-produse-in-chat.md | expanded (+7 lines) | ~226 |
+<!-- session:MDFhMTdkNzQtNjIyMy03ZWQxLThhMjMtZDFlMjk1ZWI3MmE2 -->
+| 2026-10-27T15:06:47.913Z | Added local catalog product PNG lookup by Latin then Romanian name, ID-based image endpoint, read-only Docker mount and responsive image/list layout with fallback. Adjusted product name to 24px and section headings to 20px; removed prohibition count from main heading while retaining its section. Updated README, implementation plan and existing heading assertion. | .dockerignore,docker-compose.yaml,README.md,src/backend/ai/herb_images.py,src/backend/config.py,src/backend/core/contracts.py,src/backend/web/dependencies.py,src/backend/web/main.py,src/frontend/api/client.ts,src/frontend/components/HerbConditionsPanel.tsx,src/frontend/components/HerbConditionsPanel.test.tsx,src/frontend/styles.css,aiPlans/2026-10-27-afisare-imagini-produse-in-chat.md | Frontend build and TypeScript passed; isolated browser preview verified desktop/mobile and image fallback. Ruff check and mypy passed; 54 pytest passed. Existing discrepancies remain: unittest 453/454, component Vitest 2/3, unrelated PDF-script formatting. No deployment, restart, DB mutation, AI requests or commit. |
+| 17:32 | Edited aiPlans/2026-10-27-imagini-produse-naturiste.md | expanded (+15 lines) | ~309 |
+| 17:41 | Edited src/frontend/styles.css | CSS: column-gap, margin, break-inside | ~131 |
+| 17:41 | Edited README.md | 1→4 lines | ~87 |
+| 17:41 | Edited aiPlans/2026-10-27-afisare-imagini-produse-in-chat.md | 2→5 lines | ~100 |
+| 17:43 | Edited src/frontend/components/HerbConditionsPanel.tsx | added optional chaining | ~455 |
+| 17:43 | Edited src/frontend/styles.css | expanded (+14 lines) | ~199 |
+| 17:43 | Edited README.md | 2→3 lines | ~69 |
+| 17:43 | Edited aiPlans/2026-10-27-afisare-imagini-produse-in-chat.md | 3→7 lines | ~135 |
+| 17:47 | Edited aiPlans/2026-10-27-afisare-imagini-produse-in-chat.md | expanded (+11 lines) | ~260 |
+<!-- session:MDFhMTdkNzQtNjIyMy03ZWQxLThhMjMtZDFlMjk1ZWI3MmE2 -->
+| 2026-10-27T15:47:38.935Z | Filled the space beneath product images for long condition lists using one three-column flow; retained two columns beside the image for short lists. ResizeObserver selects the layout from actual image/text heights, with equal column widths preserving alignment. Kept the existing single semantic list, source panel, no-image fallback and mobile layout. | src/frontend/components/HerbConditionsPanel.tsx,src/frontend/styles.css,README.md,aiPlans/2026-10-27-afisare-imagini-produse-in-chat.md | Build and TypeScript passed. Isolated browser verified 64 entries across three aligned columns, short/empty lists, missing image, tablet and 390px mobile without horizontal overflow. Existing component Vitest result remains 2/3 due to the previously documented warning-kind fixture. No new tests, deployment, service restart or commit. |
+| 18:02 | Created src/frontend/components/HerbImageViewer.tsx | — | ~432 |
+| 18:02 | Edited src/frontend/components/HerbConditionsPanel.tsx | CSS: herb_name | ~278 |
+| 18:02 | Edited src/frontend/styles.css | expanded (+60 lines) | ~534 |
+| 18:02 | Edited src/backend/resources/texts.ro.toml | 1→4 lines | ~50 |
+| 18:02 | Edited README.md | 1→5 lines | ~112 |
+| 18:02 | Edited aiPlans/2026-10-27-afisare-imagini-produse-in-chat.md | 2→6 lines | ~97 |
+| 18:05 | Edited aiPlans/2026-10-27-afisare-imagini-produse-in-chat.md | expanded (+11 lines) | ~254 |
+<!-- session:MDFhMTdkNzQtNjIyMy03ZWQxLThhMjMtZDFlMjk1ZWI3MmE2 -->
+| 2026-10-27T16:05:52.137Z | Added a full-page native dialog for product images, opened by an accessible thumbnail button and closed by Escape or the top-right X. The dialog renders in a body portal, contains the image without cropping, blocks background scrolling and restores focus on close. Preserved the measured condition-column layout by observing the thumbnail button. Added Romanian catalog strings and regenerated metadata. | src/frontend/components/HerbImageViewer.tsx,src/frontend/components/HerbConditionsPanel.tsx,src/frontend/styles.css,src/backend/resources/texts.ro.toml,src/backend/core/text_contract.py,src/frontend/lib/texts.generated.ts,README.md,aiPlans/2026-10-27-afisare-imagini-produse-in-chat.md | Build/TypeScript, text-catalog validation and generated Python Ruff checks passed. Isolated browser verified desktop/mobile viewport sizing, click/keyboard opening, Escape/X closing, restored overflow and focus. Existing Vitest warning-kind fixture failure remains, 2/3 passed. No new tests, restart, deployment or commit. |
+| 18:06 | Edited src/frontend/styles.css | inline fix | ~26 |
+| 18:06 | Edited README.md | inline fix | ~33 |
+| 18:06 | Edited aiPlans/2026-10-27-afisare-imagini-produse-in-chat.md | 2→4 lines | ~45 |
+<!-- session:MDFhMTdkNzQtNjIyMy03ZWQxLThhMjMtZDFlMjk1ZWI3MmE2 -->
+| 2026-10-27T16:07:03.683Z | Reduced only the warning-category h5 subheadings (warnings, contraindications, interactions) from 20px to 16px; retained the 20px section heading. Updated README and the implementation plan. | src/frontend/styles.css,README.md,aiPlans/2026-10-27-afisare-imagini-produse-in-chat.md | Frontend build including TypeScript passed; diff whitespace check passed. CSS-only behavior change, no new tests, deployment, restart or commit. |
+| 18:07 | Session end: 305 writes across 51 files (2026-10-26-atentionari-si-interactiuni-produse-naturiste.md, herb_safety_extraction.py, herb_safety_validation.py, herb_safety_system.md, herb_safety_transport.md) | 0 reads | ~121625 tok |
+| 21:20 | Session end: 6 writes across 2 files (herb_images_batch.py, 2026-10-27-imagini-produse-naturiste.md) | 0 reads | ~3732 tok |
+
+## Session: 2026-10-27 22:42
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 22:56 | Edited src/frontend/components/HerbWarningsPanel.tsx | 9→5 lines | ~91 |
+| 22:56 | Edited src/frontend/styles.css | — | ~0 |
+| 22:56 | Edited README.md | 3→4 lines | ~95 |
+| 22:56 | Edited aiPlans/tmp/herb-ui-20261027/preview.mjs | 1→5 lines | ~103 |
+| 22:57 | Edited aiPlans/tmp/herb-ui-20261027/preview.mjs | 4→2 lines | ~73 |
+
+## Session: 2026-10-28 05:54
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 05:59 | Edited src/frontend/components/HerbWarningsPanel.tsx | "herb-association-note" → "herb-association-note her" | ~31 |
+| 05:59 | Edited src/frontend/styles.css | 1→2 lines | ~36 |
+| 05:59 | Edited README.md | 1→2 lines | ~32 |
+| 05:59 | Edited aiPlans/tmp/herb-ui-20261027/preview.mjs | 1→2 lines | ~60 |
+| 06:02 | Edited src/frontend/styles.css | 1→4 lines | ~45 |
+| 06:02 | Edited aiPlans/tmp/herb-ui-20261027/preview.mjs | 1→2 lines | ~84 |
+| 06:16 | Edited aiPlans/2026-10-27-imagini-produse-naturiste.md | expanded (+9 lines) | ~178 |
+| 06:20 | Created src/backend/core/herb_agreement.py | — | ~995 |
+| 06:20 | Edited src/backend/core/conversation.py | 3→7 lines | ~108 |
+| 06:20 | Edited src/frontend/api/types.ts | 1→2 lines | ~34 |
+| 06:20 | Edited src/frontend/components/HerbConditionsPanel.tsx | added nullish coalescing | ~461 |
+| 06:20 | Edited src/backend/resources/texts.ro.toml | expanded (+9 lines) | ~190 |
+| 06:22 | Edited src/backend/core/herb_agreement.py | inline fix | ~21 |
+| 06:25 | Edited src/backend/core/herb_agreement.py | modified in() | ~368 |
+| 06:25 | Edited src/backend/core/conversation.py | 7→10 lines | ~172 |
+| 06:27 | Edited README.md | expanded (+8 lines) | ~237 |
+| 06:27 | Edited aiPlans/tmp/herb-ui-20261027/preview.mjs | added nullish coalescing | ~202 |
+| 06:27 | Edited aiPlans/tmp/herb-ui-20261027/capture.mjs | 1→3 lines | ~56 |
+| 06:28 | Edited src/backend/core/herb_agreement.py | 2→2 lines | ~33 |
+| 06:28 | Edited README.md | 2→2 lines | ~42 |
+| 06:31 | Edited README.md | inline fix | ~205 |
