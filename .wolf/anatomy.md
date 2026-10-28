@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-28T04:31:18.758Z
-> Files: 181 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-28T07:30:11.676Z
+> Files: 182 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -12,7 +12,7 @@
 - `.dockerignore` (~107 tok)
 - `docker-compose.yaml` — Docker Compose: 4 services (~2364 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~35011 tok)
+- `README.md` — Project documentation (~35302 tok)
 
 ## .claude/agents/
 
@@ -131,7 +131,7 @@
 ## aiPlans/tmp/herb-ui-20261027/
 
 - `capture.mjs` — Declares capture (~518 tok)
-- `preview.mjs` — API routes: GET (1 endpoints) (~2606 tok)
+- `preview.mjs` — API routes: GET (1 endpoints) (~2797 tok)
 
 ## aiPlans/tmp/positive-ranking-optimization/
 
@@ -159,17 +159,18 @@
 - `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~9203 tok)
 - `conditions.py` — Medical-condition matching over an ordered PostgreSQL catalog snapshot. (~3628 tok)
 - `herb_association_classification.py` — Bounded local-only polarity classification; validated quotations are source provenance. (~6318 tok)
-- `herb_association_rules.py` — Conservative source-polarity rules over unchanged indexed text and primary conditions. (~15076 tok)
+- `herb_association_rules.py` — Conservative source-polarity rules over unchanged indexed text and primary conditions. (~15744 tok)
 - `herb_association_scope.py` — Verify local disease identities and source boundaries without fuzzy equivalence. (~2170 tok)
 - `herb_caution_projection.py` — Project warnings locally from existing rules and validated model responses; never infer. (~2968 tok)
 - `herb_caution_repository.py` — Persist local warning projections and publish compatible positive/caution generations atomically. (~4798 tok)
-- `herb_conditions.py` — Read a product's positive conditions from the same published generation as its ranking. (~1677 tok)
+- `herb_conditions.py` — Read a product's positive conditions from the same published generation as its ranking. (~1771 tok)
+- `herb_display.py` — Restore unambiguous Romanian herb spellings from the bundled Hunspell dictionary. (~411 tok)
 - `herb_evidence.py` — Read complete source fragments from one published positive-association generation. (~2546 tok)
 - `herb_images.py` — Resolve catalog product images locally without exposing the source directory. (~710 tok)
-- `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~5562 tok)
+- `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~5910 tok)
 - `herb_product_safety_repository.py` — Cache per-product knowledge and publish complete catalog generations atomically. (~3784 tok)
 - `herb_product_safety.py` — Strict, concise product safety from local model knowledge, independent of the corpus. (~1399 tok)
-- `herb_ranking.py` — Read a bounded catalog ranking with regional Romanian names. (~1810 tok)
+- `herb_ranking.py` — Read a bounded catalog ranking with regional Romanian names. (~1816 tok)
 - `herb_safety_extraction.py` — Inventory product safety independently of disease scope, preserving original source offsets. (~3634 tok)
 - `herb_safety_repository.py` — Persist safety generations and validated caches without performing any model or network I/O. (~5302 tok)
 - `herb_safety_validation.py` — Validate extractive safety responses; missing coverage never means absence of warnings. (~5366 tok)
@@ -237,7 +238,7 @@
 - `index.html` — __APP_TITLE__ (~135 tok)
 - `main.tsx` — queryClient (~220 tok)
 - `setupTests.ts` — Declares __APP_TEST_TEXTS__ (~148 tok)
-- `styles.css` — Styles: 91 rules, 14 vars (~10269 tok)
+- `styles.css` — Styles: 91 rules, 14 vars (~10280 tok)
 - `vite.config.ts` — / <reference types="vitest/config" /> (~1158 tok)
 
 ## src/frontend/api/
@@ -252,7 +253,7 @@
 - `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3158 tok)
 - `GeneratePanel.tsx` — Display names are editable; provider routing continues to use the original IDs. (~2894 tok)
 - `HerbConditionsPanel.test.tsx` — message (~2834 tok)
-- `HerbConditionsPanel.tsx` — Remount for each product so an earlier image's load/error cannot alter its successor. (~2189 tok)
+- `HerbConditionsPanel.tsx` — Remount for each product so an earlier image's load/error cannot alter its successor. (~2094 tok)
 - `HerbEvidencePanel.tsx` — Python offsets count Unicode code points; ordinary JS slice counts UTF-16 units. (~1730 tok)
 - `HerbImageViewer.tsx` — Native modal dialogs keep keyboard focus inside and make the page beneath inert. (~432 tok)
 - `HerbWarningsPanel.tsx` — groups (~1027 tok)

@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-28T04:31:18.758Z",
-    "fileCount": 181,
+    "lastScanned": "2026-10-28T07:30:11.676Z",
+    "fileCount": 182,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "b517dffb9bf021a2d05299318c8a4cfc0af6e8da2376677d36f98af1ac2759d3",
-    "storeUpdatedAt": "2026-10-28T04:31:18.769Z",
-    "rootHash": "a5ac7d9c0fe230a7"
+    "renderedHash": "ee59ae8eeb9cfdf2f34d7a182931bd0e5fb7bbf31977ad3ff86f859e7a752df0",
+    "storeUpdatedAt": "2026-10-28T07:30:11.687Z",
+    "rootHash": "4eed68ec88bbc3c1"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -170,11 +170,11 @@
     },
     "src/frontend/styles.css": {
       "description": "Styles: 91 rules, 14 vars",
-      "tokens": 10269,
-      "hash": "b25902198f7024fc",
-      "size": 35941,
-      "mtimeMs": 1793160167731.482,
-      "updatedAt": "2026-10-28T04:02:48.260Z",
+      "tokens": 10280,
+      "hash": "bad016efaccd2f64",
+      "size": 35978,
+      "mtimeMs": 1793171039058.3174,
+      "updatedAt": "2026-10-28T07:03:59.558Z",
       "source": "hook"
     },
     "src/backend/core/texts.py": {
@@ -812,11 +812,11 @@
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 35011,
-      "hash": "e6ad7d0c88555738",
-      "size": 146013,
-      "mtimeMs": 1793161878251.4705,
-      "updatedAt": "2026-10-28T04:31:18.758Z",
+      "tokens": 35302,
+      "hash": "ee521eb7aeea4dca",
+      "size": 147246,
+      "mtimeMs": 1793172507632.868,
+      "updatedAt": "2026-10-28T07:28:29.010Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -1601,11 +1601,11 @@
     },
     "src/backend/ai/herb_association_rules.py": {
       "description": "Conservative source-polarity rules over unchanged indexed text and primary conditions.",
-      "tokens": 15076,
-      "hash": "e662ab4028c9d1a6",
-      "size": 52767,
-      "mtimeMs": 1792878663181.9893,
-      "updatedAt": "2026-10-24T21:51:03.710Z",
+      "tokens": 15744,
+      "hash": "f7971f7e07145576",
+      "size": 55107,
+      "mtimeMs": 1793172610848.1248,
+      "updatedAt": "2026-10-28T07:30:11.362Z",
       "source": "hook",
       "symbols": [
         {
@@ -1647,154 +1647,154 @@
           "name": "NameMatcher",
           "kind": "class",
           "startLine": 90,
-          "endLine": 125,
-          "tokens": 494
+          "endLine": 166,
+          "tokens": 961
         },
         {
           "name": "extract_units",
           "kind": "fn",
-          "startLine": 126,
-          "endLine": 312,
-          "tokens": 2059
+          "startLine": 167,
+          "endLine": 353,
+          "tokens": 2064
         },
         {
           "name": "table_header_text",
           "kind": "fn",
-          "startLine": 313,
-          "endLine": 348,
+          "startLine": 354,
+          "endLine": 389,
           "tokens": 350
         },
         {
           "name": "source_context",
           "kind": "fn",
-          "startLine": 349,
-          "endLine": 383,
+          "startLine": 390,
+          "endLine": 424,
           "tokens": 438
         },
         {
           "name": "_list_instruction",
           "kind": "fn",
-          "startLine": 384,
-          "endLine": 409,
+          "startLine": 425,
+          "endLine": 450,
           "tokens": 259
         },
         {
           "name": "_prohibition_spans",
           "kind": "fn",
-          "startLine": 410,
-          "endLine": 465,
+          "startLine": 451,
+          "endLine": 506,
           "tokens": 476
         },
         {
           "name": "_explicit_prohibition",
           "kind": "fn",
-          "startLine": 466,
-          "endLine": 487,
+          "startLine": 507,
+          "endLine": 528,
           "tokens": 250
         },
         {
           "name": "_atomic_instruction",
           "kind": "fn",
-          "startLine": 488,
-          "endLine": 576,
+          "startLine": 529,
+          "endLine": 617,
           "tokens": 669
         },
         {
           "name": "_administered_recipe",
           "kind": "fn",
-          "startLine": 577,
-          "endLine": 614,
+          "startLine": 618,
+          "endLine": 655,
           "tokens": 417
         },
         {
           "name": "_descriptive_mention",
           "kind": "fn",
-          "startLine": 615,
-          "endLine": 729,
+          "startLine": 656,
+          "endLine": 770,
           "tokens": 1467
         },
         {
           "name": "_verified_primary_heading",
           "kind": "fn",
-          "startLine": 730,
-          "endLine": 766,
+          "startLine": 771,
+          "endLine": 807,
           "tokens": 331
         },
         {
           "name": "_dose_row_bounds",
           "kind": "fn",
-          "startLine": 767,
-          "endLine": 798,
+          "startLine": 808,
+          "endLine": 839,
           "tokens": 341
         },
         {
           "name": "_explicit_dose_row",
           "kind": "fn",
-          "startLine": 799,
-          "endLine": 838,
+          "startLine": 840,
+          "endLine": 879,
           "tokens": 498
         },
         {
           "name": "_condition_homonym",
           "kind": "fn",
-          "startLine": 839,
-          "endLine": 853,
+          "startLine": 880,
+          "endLine": 894,
           "tokens": 231
         },
         {
           "name": "_identity_decision",
           "kind": "fn",
-          "startLine": 854,
-          "endLine": 932,
-          "tokens": 964
+          "startLine": 895,
+          "endLine": 986,
+          "tokens": 1161
         },
         {
           "name": "classify_rule",
           "kind": "fn",
-          "startLine": 933,
-          "endLine": 1072,
+          "startLine": 987,
+          "endLine": 1126,
           "tokens": 1554
         },
         {
           "name": "_classify_adjacent",
           "kind": "fn",
-          "startLine": 1073,
-          "endLine": 1180,
+          "startLine": 1127,
+          "endLine": 1234,
           "tokens": 1268
         },
         {
           "name": "_collective_warning",
           "kind": "fn",
-          "startLine": 1181,
-          "endLine": 1218,
+          "startLine": 1235,
+          "endLine": 1272,
           "tokens": 508
         },
         {
           "name": "scoped_warning",
           "kind": "fn",
-          "startLine": 1219,
-          "endLine": 1323,
+          "startLine": 1273,
+          "endLine": 1377,
           "tokens": 1301
         },
         {
           "name": "combine_decisions",
           "kind": "fn",
-          "startLine": 1324,
-          "endLine": 1346,
+          "startLine": 1378,
+          "endLine": 1400,
           "tokens": 274
         },
         {
           "name": "combine_fragment_decisions",
           "kind": "fn",
-          "startLine": 1347,
-          "endLine": 1357,
+          "startLine": 1401,
+          "endLine": 1411,
           "tokens": 119
         },
         {
           "name": "pair_state",
           "kind": "fn",
-          "startLine": 1358,
-          "endLine": 1370,
+          "startLine": 1412,
+          "endLine": 1424,
           "tokens": 103
         }
       ]
@@ -2132,11 +2132,11 @@
     },
     "src/backend/ai/herb_positive_repository.py": {
       "description": "Short snapshot/cache transactions and atomic publication of source-polarity generations.",
-      "tokens": 5562,
-      "hash": "d4f93448a91f41e5",
-      "size": 19467,
-      "mtimeMs": 1792839569944.9453,
-      "updatedAt": "2026-10-24T10:59:30.560Z",
+      "tokens": 5910,
+      "hash": "972e87eab2de8e1a",
+      "size": 20682,
+      "mtimeMs": 1793172261328.5876,
+      "updatedAt": "2026-10-28T07:24:21.830Z",
       "source": "hook",
       "symbols": [
         {
@@ -2150,42 +2150,49 @@
           "name": "Snapshot",
           "kind": "class",
           "startLine": 45,
-          "endLine": 55,
-          "tokens": 90
+          "endLine": 57,
+          "tokens": 137
+        },
+        {
+          "name": "_preferred_names",
+          "kind": "fn",
+          "startLine": 58,
+          "endLine": 78,
+          "tokens": 278
         },
         {
           "name": "snapshot",
           "kind": "fn",
-          "startLine": 56,
-          "endLine": 107,
-          "tokens": 614
+          "startLine": 79,
+          "endLine": 131,
+          "tokens": 626
         },
         {
           "name": "evidence_rows",
           "kind": "fn",
-          "startLine": 108,
-          "endLine": 116,
+          "startLine": 132,
+          "endLine": 140,
           "tokens": 106
         },
         {
           "name": "assert_integrity",
           "kind": "fn",
-          "startLine": 117,
-          "endLine": 147,
+          "startLine": 141,
+          "endLine": 171,
           "tokens": 508
         },
         {
           "name": "PositiveRepository",
           "kind": "class",
-          "startLine": 148,
-          "endLine": 403,
-          "tokens": 3456
+          "startLine": 172,
+          "endLine": 427,
+          "tokens": 3453
         },
         {
           "name": "active_run",
           "kind": "fn",
-          "startLine": 404,
-          "endLine": 428,
+          "startLine": 428,
+          "endLine": 452,
           "tokens": 263
         }
       ]
@@ -2438,11 +2445,11 @@
     },
     "src/backend/ai/herb_ranking.py": {
       "description": "Read a bounded catalog ranking with regional Romanian names.",
-      "tokens": 1810,
-      "hash": "f68bbf1c998f60e5",
-      "size": 6335,
-      "mtimeMs": 1792987031870.6724,
-      "updatedAt": "2026-10-26T03:57:13.623Z",
+      "tokens": 1816,
+      "hash": "41fa5ee97ebd8d8c",
+      "size": 6354,
+      "mtimeMs": 1793172507623.267,
+      "updatedAt": "2026-10-28T07:28:28.437Z",
       "source": "hook",
       "symbols": [
         {
@@ -2464,7 +2471,7 @@
           "kind": "fn",
           "startLine": 81,
           "endLine": 108,
-          "tokens": 284
+          "tokens": 289
         },
         {
           "name": "list_top_herbs",
@@ -3415,26 +3422,26 @@
     },
     "src/backend/ai/herb_conditions.py": {
       "description": "Read a product's positive conditions from the same published generation as its ranking.",
-      "tokens": 1677,
-      "hash": "4ed9e19fcb6d9768",
-      "size": 5868,
-      "mtimeMs": 1793084595799.3877,
-      "updatedAt": "2026-10-27T07:03:17.435Z",
+      "tokens": 1771,
+      "hash": "9704b439b34f248f",
+      "size": 6197,
+      "mtimeMs": 1793172610851.132,
+      "updatedAt": "2026-10-28T07:30:11.676Z",
       "source": "hook",
       "symbols": [
         {
           "name": "literal_pattern",
           "kind": "fn",
-          "startLine": 30,
-          "endLine": 33,
+          "startLine": 31,
+          "endLine": 34,
           "tokens": 34
         },
         {
           "name": "lookup_herb_conditions",
           "kind": "fn",
-          "startLine": 34,
-          "endLine": 122,
-          "tokens": 1334
+          "startLine": 35,
+          "endLine": 130,
+          "tokens": 1412
         }
       ]
     },
@@ -3488,11 +3495,11 @@
     },
     "src/frontend/components/HerbConditionsPanel.tsx": {
       "description": "Remount for each product so an earlier image's load/error cannot alter its successor.",
-      "tokens": 2189,
-      "hash": "47c8f288ad85dbc4",
-      "size": 7663,
-      "mtimeMs": 1793161258082.7754,
-      "updatedAt": "2026-10-28T04:20:59.583Z",
+      "tokens": 2094,
+      "hash": "e817111732048370",
+      "size": 7330,
+      "mtimeMs": 1793170576287.0261,
+      "updatedAt": "2026-10-28T06:56:16.819Z",
       "source": "hook",
       "symbols": [
         {
@@ -3506,8 +3513,8 @@
           "name": "HerbConditionsPanel",
           "kind": "fn",
           "startLine": 71,
-          "endLine": 148,
-          "tokens": 1198
+          "endLine": 144,
+          "tokens": 1104
         }
       ]
     },
@@ -5942,11 +5949,11 @@
     },
     "aiPlans/tmp/herb-ui-20261027/preview.mjs": {
       "description": "API routes: GET (1 endpoints)",
-      "tokens": 2606,
-      "hash": "ea2a7d93d7c5aa33",
-      "size": 9808,
-      "mtimeMs": 1793161621548.1438,
-      "updatedAt": "2026-10-28T04:27:02.284Z",
+      "tokens": 2797,
+      "hash": "da2e7cc0748083d4",
+      "size": 10527,
+      "mtimeMs": 1793170714188.913,
+      "updatedAt": "2026-10-28T06:58:34.928Z",
       "source": "hook"
     },
     "aiPlans/tmp/herb-ui-20261027/capture.mjs": {
@@ -6138,6 +6145,15 @@
           "tokens": 260
         }
       ]
+    },
+    "src/backend/ai/herb_display.py": {
+      "description": "Restore unambiguous Romanian herb spellings from the bundled Hunspell dictionary.",
+      "tokens": 411,
+      "hash": "e57565b5db7abb25",
+      "size": 1444,
+      "mtimeMs": 1793172507620.3025,
+      "updatedAt": "2026-10-28T07:28:28.135Z",
+      "source": "hook"
     }
   },
   "preamble": [

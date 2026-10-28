@@ -13,7 +13,7 @@ from typing import Literal
 from backend.ai.herb_index_catalog import normalize_herb_name
 
 POSITIVE_RANKING_VERSION = 1
-RULES_VERSION = 6
+RULES_VERSION = 7
 SCHEMA_VERSION = 8
 Label = Literal["positive", "caution", "mixed", "unclear"]
 LABELS = ("positive", "caution", "mixed", "unclear")
@@ -89,7 +89,11 @@ class Decision:
 # Compile each catalog once per snapshot, preserving original-text offsets during matching.
 class NameMatcher:
     def __init__(
-        self, names: tuple[tuple[str, tuple[int, ...]], ...], *, product_forms: bool = False
+        self,
+        names: tuple[tuple[str, tuple[int, ...]], ...],
+        *,
+        product_forms: bool = False,
+        preferred_names: dict[str, int] | None = None,
     ) -> None:
         # Expand this explicit catalog paradigm only for products, never condition aliases.
         owners = {identifier for name, ids in names if name == "rosie" for identifier in ids}
@@ -104,6 +108,7 @@ class NameMatcher:
                 ),
             )
         self.names = names
+        self.preferred_names = dict(preferred_names or {})
         self.by_first: dict[str, list[tuple[list[str], tuple[int, ...]]]] = {}
         self.exact: dict[str, set[int]] = {}
         for name, identifiers in names:
@@ -120,6 +125,42 @@ class NameMatcher:
                 if normalized[position : position + len(words)] == words:
                     span = (tokens[position].start(), tokens[position + len(words) - 1].end())
                     yield span, identifiers
+
+    # An attached explicit name or botanical heading outranks a regional-name default.
+    def product_spans(
+        self, text: str, headings: tuple[str, ...]
+    ) -> Iterator[tuple[Span, tuple[int, ...]]]:
+        matches = tuple(self.spans(text))
+        for span, identifiers in matches:
+            preferred = self.preferred_names.get(normalize_herb_name(text[slice(*span)]))
+            if len(identifiers) < 2 or preferred not in identifiers:
+                yield span, identifiers
+                continue
+            explicit = {
+                ids[0]
+                for other, ids in matches
+                if len(ids) == 1
+                and ids[0] in identifiers
+                and (
+                    (span[1] <= other[0] and re.fullmatch(r"\s*\(\s*", text[span[1] : other[0]]))
+                    or (other[1] <= span[0] and re.fullmatch(r"\s*\(\s*", text[other[1] : span[0]]))
+                )
+            }
+            if not explicit:
+                for heading in reversed(headings):
+                    explicit = {
+                        ids[0]
+                        for _, ids in self.spans(heading)
+                        if len(ids) == 1 and ids[0] in identifiers
+                    }
+                    if explicit:
+                        break
+            if len(explicit) == 1:
+                yield span, tuple(explicit)
+            elif explicit:
+                yield span, identifiers
+            else:
+                yield span, (preferred,)
 
 
 # A multi-condition fragment needs a local condition heading or an explicit unit mention.
@@ -262,7 +303,7 @@ def extract_units(
             sorted(
                 {
                     Candidate(herb_id, condition_id, span)
-                    for span, identifiers in herb_matcher.spans(body)
+                    for span, identifiers in herb_matcher.product_spans(body, context)
                     for herb_id in identifiers
                     for condition_id in conditions
                 },
@@ -857,6 +898,19 @@ def _identity_decision(unit: Unit, candidate: Candidate) -> Decision | None:
         unit.text[max(0, candidate.mention[0] - 45) : candidate.mention[0]]
     )
     after = normalize_herb_name(unit.text[candidate.mention[1] : candidate.mention[1] + 45])
+    # "Par" also denotes hair or a verb: choosing a catalog owner does not prove botanical use.
+    if mention == "par":
+        botanical = bool(
+            re.search(
+                r"\b(?:(?:frunze\w*|flori\w*|fruct\w*|scoart\w*|mugur\w*|radacin\w*|"
+                r"seminte\w*|suc|compot|nectar)(?: de| din| ale| ai| a)|pom\w*|arbore\w*)$",
+                before,
+            )
+            or re.match(r"(?:pyrus communis|sorbus domestica|cormus domestica)\b", after)
+            or re.search(r"\b(?:pyrus communis|sorbus domestica|cormus domestica)$", before)
+        )
+        if not botanical:
+            return Decision("unclear", "rule", "botanical_homonym_unresolved_v7")
     a, b = candidate.mention
     if any(
         other.herb_id != candidate.herb_id

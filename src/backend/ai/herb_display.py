@@ -23,8 +23,11 @@ def _dictionary() -> dict[str, set[str]]:
     return variants
 
 
-def romanian_herb_name(name: str) -> str:
+def romanian_herb_name(name: str, *, latin: str = "") -> str:
     """Leave ambiguous, unknown and explicitly accented words as stored."""
+    # The species resolves the dictionary's par/păr ambiguity without changing catalog identity.
+    if plain(name).casefold() == "par" and latin.casefold() == "pyrus communis":
+        return "Păr" if name[:1].isupper() else "păr"
     dictionary = _dictionary()
 
     def replace(match: re.Match) -> str:

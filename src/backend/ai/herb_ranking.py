@@ -97,7 +97,7 @@ def _ranking_rows(
     rows = connection.execute(query, parameters).fetchall()
     return [
         {
-            "ro": romanian_herb_name(name) if name != latin else name,
+            "ro": romanian_herb_name(name, latin=latin or "") if name != latin else name,
             "latin": "" if latin is None else latin,
             "ro_regional": list(dict.fromkeys(romanian_herb_name(alias) for alias in aliases)),
             "ranking": ranking,

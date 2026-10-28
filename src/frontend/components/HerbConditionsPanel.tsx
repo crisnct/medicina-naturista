@@ -72,17 +72,14 @@ export function HerbConditionsPanel({ message }: { message: HerbConditionsMessag
   const agreement = message.herbAgreement ?? "feminine";
   const wording = {
     masculine: {
-      prefix: "interface.herb_conditions_use_prefix_masculine",
       positive: "interface.herb_conditions_positive_title_masculine",
       negative: "interface.herb_conditions_negative_title_masculine",
     },
     feminine: {
-      prefix: "interface.herb_conditions_use_prefix",
       positive: "interface.herb_conditions_positive_title",
       negative: "interface.herb_conditions_negative_title",
     },
     plural: {
-      prefix: "interface.herb_conditions_use_prefix_plural",
       positive: "interface.herb_conditions_positive_title_plural",
       negative: "interface.herb_conditions_negative_title_plural",
     },
@@ -120,7 +117,6 @@ export function HerbConditionsPanel({ message }: { message: HerbConditionsMessag
           {"🌿 "}{herbName}{" "}
           <span className="herb-title-details">
             {speciesNames && <span className="herb-species">{"("}{speciesNames}{") "}</span>}
-            {tr(labels.prefix)}<strong className="herb-condition-count">{message.entriesCount}</strong> {tr("interface.herb_conditions_count_label")}
           </span>
         </h3>
       </div>

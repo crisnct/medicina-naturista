@@ -1139,7 +1139,7 @@ button.cat-toggle.cat-toggle-open svg {
 .herb-evidence-mark-warning { background: #ffedb5; color: #5c3b12; }
 .herb-warnings-section { column-count: 2; column-gap: 2rem; }
 .herb-warnings-section > h4 { column-span: all; }
-.herb-warnings-list { padding-left: 1.35rem; }
+.herb-warnings-list { margin-top: 0; padding-left: 1.35rem; }
 .herb-warnings-list > li { margin-bottom: 1rem; overflow-wrap: anywhere; break-inside: avoid; }
 .herb-warning-text { white-space: pre-wrap; }
 .herb-warnings-list .herb-evidence-panel { margin-top: .4rem; padding-top: .4rem; }
@@ -1253,7 +1253,7 @@ button.cat-toggle.cat-toggle-open svg {
     object-fit: contain;
 }
 .herb-association-note { font-size: .9rem; color: #596b45; margin-bottom: 0; }
-.herb-warnings-ai-note { font-size: .75rem; }
+.herb-warnings-ai-note { column-span: all; margin-bottom: .75rem; }
 .herb-conditions-panel .herb-contraindications-section,
 .herb-conditions-panel .herb-contraindications-section * { color: var(--nature-warning); }
 .herb-contraindications-section button { background: #fff5eb; border: 1px solid var(--nature-warning); }

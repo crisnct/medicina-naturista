@@ -45,8 +45,9 @@ Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pent
 
 - **Remedii:** rezolvarea afecțiunilor și căutarea existentă, cu identificare AI opțională.
 - **Planta/produsul:** numele/aliasul este rezolvat în catalog, apoi răspunsul arată
-  „util/utilă/utile în N afecțiuni din catalog” în titlul principal, cu două liste distincte.
-  Antetul, titlurile secțiunilor și intrările topurilor folosesc același acord după
+  numele și denumirea latină disponibilă în antet, cu două liste distincte dedesubt.
+  Numărul afecțiunilor apare în titlul secțiunii, fără repetare în antet.
+  Titlurile secțiunilor și intrările topurilor folosesc același acord după
   denumirea românească: masculin → „util/interzis”, feminin sau neutru → „utilă/interzisă”,
   plural → „utile/interzise” și „sunt”. Determinarea folosește dicționarul românesc local,
   primul substantiv al denumirii și reguli pentru forme ambigue sau neregulate; „gutui”
@@ -180,8 +181,9 @@ Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pent
   `herb_caution_*`, cu aceleași surse și reguli; noua secțiune afișează separat
   Atenționări, Contraindicații și Interacțiuni din cunoștințele modelului. Interfața
   indică această proveniență și nu afișează citate sau „Vezi sursa” pentru ele.
-  Întreaga secțiune de atenționări este roșie, cu titlul principal de 20 px și nota
-  de proveniență de 12 px. Fiecare
+  Întreaga secțiune de atenționări este roșie, cu titlul principal de 20 px. Nota
+  de proveniență ocupă lățimea ambelor coloane și are aceeași dimensiune ca mesajele
+  despre date parțiale. Fiecare
   problemă începe cu numele categoriei scris cu bold, urmat de punct: „Atenționări. …”,
   „Contraindicații. …” sau „Interacțiuni. …”; nu există subtitluri separate.
   Întregul conținut al secțiunii este împărțit pe două coloane. Pe ecrane de maximum 580 px se folosește
@@ -616,6 +618,19 @@ documentul schimbat și se pregătește/publică noua rulare; rularea anterioar�
 recomandare pozitivă și nicio mențiune negativă. Pozitiv + negativ, inclusiv în documente
 diferite, înseamnă `mixed` și scor zero pentru pereche. `unclear` nu adaugă puncte și nu
 anulează o dovadă pozitivă explicită. Repetările nu multiplică scorul.
+
+La pregătirea clasamentului, o denumire românească principală unică are prioritate față
+de aliasurile exclusiv regionale ale altor produse. De exemplu, `par` identifică implicit
+`Pyrus communis`, nu scorușul (`Cormus domestica`), care are același alias regional.
+O denumire explicită în paranteză sau în titlul local poate indica însă specia regională;
+indiciile contradictorii și coliziunile între denumiri principale rămân ambigue.
+Pentru omonimul `par`, lipsa unui context botanic explicit păstrează clasificarea `unclear`,
+pentru a nu atribui pomului mențiuni despre părul de pe corp sau verbul „a părea”.
+Identificarea produsului nu îl declară automat util: recomandarea și afecțiunea trebuie
+clasificate în continuare din surse. Modificarea regulilor necesită o nouă pregătire și
+publicare la reindexarea pornită de operator; scorurile active nu sunt rescrise direct.
+În interfață, `Pyrus communis` este afișat „Păr”, inclusiv în topuri și în fișa produsului;
+denumirea `par` și ID-ul său rămân neschimbate în baza de date.
 
 Migrarea aditivă `023_positive_herb_rankings.sql` creează rulări, dovezi cu poziții în text,
 perechi, scoruri și cache. Nu clasifică și nu activează nimic. **Aplicarea în baza activă

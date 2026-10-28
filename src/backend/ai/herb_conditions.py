@@ -7,6 +7,7 @@ from psycopg_pool import PoolTimeout
 
 from backend.ai import db
 from backend.ai.herb_caution_repository import active_caution_run
+from backend.ai.herb_display import romanian_herb_name
 from backend.ai.herb_evidence import evidence_counts
 from backend.ai.herb_positive_repository import active_run
 from backend.ai.herb_product_safety_repository import safety_metadata
@@ -53,7 +54,14 @@ def lookup_herb_conditions(name: str, *, settings: Settings = default_settings) 
             if not matches:
                 return {"status": "not_found"}
             if len(matches) > 1:
-                return {"status": "ambiguous", "choices": sorted(herb.choice for herb in matches)}
+                return {
+                    "status": "ambiguous",
+                    "choices": sorted(
+                        romanian_herb_name(herb.ro, latin=herb.latin)
+                        + (f" ({herb.latin})" if herb.latin else "")
+                        for herb in matches
+                    ),
+                }
             selected = matches[0]
             canonical = selected.ro
             species = [selected.latin] if selected.latin else []
@@ -68,7 +76,7 @@ def lookup_herb_conditions(name: str, *, settings: Settings = default_settings) 
                 "positiveRunId": run_id,
                 "fragmentsCount": fragments_count,
                 "documentsCount": documents_count,
-                "herbName": canonical,
+                "herbName": romanian_herb_name(canonical, latin=selected.latin),
                 "species": species,
                 "entriesCount": len(rows),
                 "conditions": [

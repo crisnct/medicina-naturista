@@ -5197,6 +5197,78 @@
       "last_seen": "2026-10-28T04:25:43.366Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_positive_repository.py",
+      "file": "src/backend/ai/herb_positive_repository.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 6→30 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-290",
+      "timestamp": "2026-10-28T07:24:21.864Z",
+      "last_seen": "2026-10-28T07:24:21.864Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_association_rules.py",
+      "file": "src/backend/ai/herb_association_rules.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 7→61 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-291",
+      "timestamp": "2026-10-28T07:24:22.214Z",
+      "last_seen": "2026-10-28T07:24:22.214Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/ai/herb_association_rules.py",
+      "root_cause": "Had \"\\b(?:frunze\\w*|flori\\w*|fruct\\w*|scoart\\w*|mugur\\",
+      "fix": "Changed to \"\\b(?:(?:frunze\\w*|flori\\w*|fruct\\w*|scoart\\w*|mug",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-292",
+      "timestamp": "2026-10-28T07:30:11.396Z",
+      "last_seen": "2026-10-28T07:30:11.396Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/backend/ai/herb_conditions.py",
+      "root_cause": "Was returning: {\"status\": \"ambiguous\", \"choices\": sorted(herb.cho",
+      "fix": "Now returns: {",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-293",
+      "timestamp": "2026-10-28T07:30:11.712Z",
+      "last_seen": "2026-10-28T07:30:11.712Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -5497,7 +5569,11 @@
     "3e9ae9d0-d040-49a8-b0f0-14e5911e1e54": true,
     "0e98619e-4b33-4f94-992a-9156f0767c94": true,
     "985e493e-cf91-4477-b1df-31cecb0bec63": true,
-    "57a2fe26-7d4a-49bb-bfea-2c178a754075": true
+    "57a2fe26-7d4a-49bb-bfea-2c178a754075": true,
+    "0927f1dc-4718-436d-ae9f-d8efb789085d": true,
+    "94160663-6d10-4ab9-8ffd-11747df5da4e": true,
+    "f5a708fd-ebbc-4c5b-963e-ff606366dabc": true,
+    "2c8abb66-6068-4ed1-a5b1-fea4fa2cdd1b": true
   },
-  "next_id": 290
+  "next_id": 294
 }

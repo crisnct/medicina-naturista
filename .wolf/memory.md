@@ -1409,3 +1409,19 @@ description: chronological action log per session, consolidated weekly
 | 06:28 | Edited src/backend/core/herb_agreement.py | 2→2 lines | ~33 |
 | 06:28 | Edited README.md | 2→2 lines | ~42 |
 | 06:31 | Edited README.md | inline fix | ~205 |
+| 08:34 | Edited src/frontend/styles.css | inline fix | ~13 |
+| 08:34 | Edited README.md | 2→3 lines | ~53 |
+| 08:34 | Edited aiPlans/tmp/herb-ui-20261027/preview.mjs | 2→6 lines | ~181 |
+| 08:56 | Edited src/frontend/components/HerbConditionsPanel.tsx | — | ~0 |
+| 08:56 | Edited README.md | 2→3 lines | ~63 |
+| 08:58 | Edited src/frontend/styles.css | inline fix | ~18 |
+| 08:58 | Edited aiPlans/tmp/herb-ui-20261027/preview.mjs | 1→5 lines | ~87 |
+| 09:03 | Edited src/frontend/styles.css | inline fix | ~20 |
+| 09:24 | Edited src/backend/ai/herb_positive_repository.py | modified _preferred_names() | ~443 |
+| 09:24 | Edited src/backend/ai/herb_association_rules.py | modified product_spans() | ~788 |
+| 09:28 | Edited src/backend/ai/herb_display.py | modified romanian_herb_name() | ~115 |
+| 09:28 | Edited src/backend/ai/herb_ranking.py | inline fix | ~26 |
+| 09:28 | Edited src/backend/ai/herb_conditions.py | added 1 import(s) | ~58 |
+| 09:28 | Edited README.md | expanded (+13 lines) | ~294 |
+| 09:30 | Edited src/backend/ai/herb_association_rules.py | 2→2 lines | ~51 |
+| 09:30 | Edited src/backend/ai/herb_conditions.py | expanded (+7 lines) | ~104 |

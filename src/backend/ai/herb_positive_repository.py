@@ -23,7 +23,7 @@ from backend.ai.herb_association_rules import (
     extract_units,
     source_context,
 )
-from backend.ai.herb_index_catalog import read_index_catalogs
+from backend.ai.herb_index_catalog import normalize_herb_name, read_index_catalogs
 from backend.ai.index_state import INDEX_LOCK, IndexUnavailable, read_metadata
 from backend.config import Settings
 from backend.core.errors import ApplicationError
@@ -51,6 +51,31 @@ class Snapshot:
     works: tuple[Work, ...]
     categories: tuple[tuple[int, str], ...] = ()
     condition_synonyms: dict[int, tuple[str, ...]] = field(default_factory=dict)
+    preferred_names: dict[str, int] = field(default_factory=dict)
+
+
+# Only regional aliases yield to a unique primary Romanian name; other collisions stay ambiguous.
+def _preferred_names(catalog: list, aliases: list) -> dict[str, int]:
+    roles: dict[str, dict[int, set[str]]] = {}
+    for identifier, _, _, latin, romanian, english in catalog:
+        for name, role in ((romanian, "ro"), (latin, "latin"), (english, "en")):
+            if name:
+                roles.setdefault(normalize_herb_name(name), {}).setdefault(identifier, set()).add(
+                    role
+                )
+    for identifier, name, role in aliases:
+        roles.setdefault(normalize_herb_name(name), {}).setdefault(identifier, set()).add(role)
+    result = {}
+    for name, owners in roles.items():
+        primary = [identifier for identifier, kinds in owners.items() if "ro" in kinds]
+        if len(owners) > 1 and len(primary) == 1:
+            preferred = primary[0]
+            if all(
+                identifier == preferred or kinds == {"ro_regional"}
+                for identifier, kinds in owners.items()
+            ):
+                result[name] = preferred
+    return result
 
 
 def snapshot(connection: Connection) -> Snapshot:
@@ -102,6 +127,7 @@ def snapshot(connection: Connection) -> Snapshot:
         (),
         tuple((r[0], r[1]) for r in catalog),
         {identifier: tuple(terms) for identifier, terms in synonyms.items()},
+        _preferred_names(catalog, aliases),
     )
 
 
@@ -188,8 +214,6 @@ class PositiveRepository:
                 "WHERE cardinality(primary_medical_conditions)>0 ORDER BY chunk_id"
             ).fetchall()
         # Segmentation and matching own no database connection or advisory lock.
-        from backend.ai.herb_index_catalog import normalize_herb_name
-
         herb_names = tuple(
             (name, tuple(herb_ids[p] for p in positions)) for name, positions in names
         )
@@ -197,7 +221,9 @@ class PositiveRepository:
             (normalize_herb_name(name), tuple(condition_ids[p] for p in positions))
             for name, positions in terms.items()
         )
-        herb_matcher = NameMatcher(herb_names, product_forms=True)
+        herb_matcher = NameMatcher(
+            herb_names, product_forms=True, preferred_names=data.preferred_names
+        )
         condition_matcher = NameMatcher(condition_names)
         canonical_conditions = {
             normalize_herb_name(name): identifier for identifier, name in data.conditions.items()
