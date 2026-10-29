@@ -12,7 +12,6 @@ from backend.ai.herb_association_classification import (
     cache_key,
     classification_prompt,
     group_fragment_works,
-    model_digest,
     pack_batches,
     relation_id,
     semantic_config,
@@ -34,7 +33,7 @@ from backend.ai.herb_positive_repository import PositiveRepository
 from backend.ai.herb_product_safety_repository import ProductSafetyRepository
 from backend.config import Settings
 from backend.core.operation_context import OperationBudget, checkpoint, operation_budget
-from scripts.herb_index_requests import emit_index_event, index_batch, make_client
+from scripts.herb_index_requests import emit_index_event, index_batch, make_client, model_digest
 from scripts.herb_product_safety_index import ProductSafetyCoordinator
 from scripts.herb_safety_index import format_duration, workflow_progress
 

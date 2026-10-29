@@ -16,7 +16,7 @@ import struct
 import threading
 import time
 from collections.abc import Callable
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, replace
 from pathlib import Path
 from typing import Any
 
@@ -33,6 +33,7 @@ from backend.core.models import (
     HealthProfile,
     MessageRouting,
     OperationResult,
+    ReportBatchPreview,
     ReportGeneration,
     SessionData,
     SessionOperation,
@@ -133,7 +134,10 @@ def retained_usage(session: SessionData) -> RetainedUsage:
         + metadata
         + 8192 * len(session.generations)
         + sum(
-            job.stream_bytes + job.thinking_bytes + job.report_preview_bytes
+            job.stream_bytes
+            + job.thinking_bytes
+            + job.report_preview_bytes
+            + job.batch_previews_bytes
             for job in session.generations.values()
         ),
     )
@@ -537,9 +541,6 @@ class SessionStore:
                 model[:128],
                 time.time(),
                 time.time() + max(0, operation.deadline - self.clock()),
-                estimated_minutes_per_44500_chars=(
-                    self.limits.report_estimated_minutes_per_44500_chars
-                ),
             )
             session.generations[job.job_id] = job
             session.generation_receipts[request_id] = job.job_id
@@ -602,23 +603,41 @@ class SessionStore:
                 job.started_at = job.started_at or time.time()
                 logger.info("report_job_stage_changed job_id=%s stage=%s", job.job_id, stage)
 
-    def generation_activity(self, operation: SessionOperation, event: ReportActivity) -> None:
+    def generation_activity(
+        self, operation: SessionOperation, event: ReportActivity, *, batch_index: int | None = None
+    ) -> None:
         with self._lock, operation.session.lock:
             self.checkpoint(operation)
             job = operation.session.generations.get(operation.operation_id)
             if not job or job.state != "running" or job.stage != "generating":
                 return
+            batch = self._report_batch(job, batch_index)
             now = self.clock()
+            if batch is not None and event.kind in {"batch_failed", "batch_cancelled"}:
+                previews = list(job.batch_previews)
+                previews[batch.index - 1] = replace(
+                    batch,
+                    started=True,
+                    failed=event.kind == "batch_failed",
+                    cancelled=event.kind == "batch_cancelled",
+                )
+                self._store_batch_previews(operation.session, job, previews)
+                return
             if event.kind == "request_started":
                 job.ai_activity = AIActivity(now)
-                if job.batches_total:
-                    separator = f"\n\n--- Lot {job.batches_completed + 1}/{job.batches_total} ---\n"
-                    self.generation_output(operation, separator, measure=False)
-                    self.generation_output(operation, separator, thinking=True, measure=False)
+                if batch is not None:
+                    previews = list(job.batch_previews)
+                    previews[batch.index - 1] = replace(
+                        batch,
+                        started=True,
+                        ai_activity=job.ai_activity,
+                    )
+                    self._store_batch_previews(operation.session, job, previews)
                 return
-            activity = job.ai_activity
+            activity = batch.ai_activity if batch is not None else job.ai_activity
             if activity is None:
                 return
+            job.ai_activity = activity
             previous_phase = activity.phase
             if activity.first_event_at is None:
                 activity.first_event_at = now
@@ -636,13 +655,17 @@ class SessionStore:
                 activity.phase = "processing"
             if previous_phase != activity.phase:
                 logger.info(
-                    "report_ai_phase_changed job_id=%s phase=%s", job.job_id, activity.phase
+                    "report_ai_phase_changed job_id=%s batch=%s phase=%s",
+                    job.job_id,
+                    batch_index,
+                    activity.phase,
                 )
             if event.kind == "response_finished":
                 logger.info(
-                    "report_ai_timing job_id=%s first_event_ms=%s first_thinking_ms=%s "
+                    "report_ai_timing job_id=%s batch=%s first_event_ms=%s first_thinking_ms=%s "
                     "first_answer_ms=%s duration_ms=%s metrics=%s",
                     job.job_id,
+                    batch_index,
                     activity.as_dict(now)["firstEventElapsedMs"],
                     activity.as_dict(now)["firstThinkingElapsedMs"],
                     activity.as_dict(now)["firstAnswerElapsedMs"],
@@ -657,6 +680,7 @@ class SessionStore:
         *,
         thinking: bool = False,
         measure: bool = True,
+        batch_index: int | None = None,
     ) -> None:
         if not text:
             return
@@ -665,6 +689,7 @@ class SessionStore:
             session = operation.session
             job = session.generations.get(operation.operation_id)
             if job and job.state == "running" and job.stage == "generating":
+                batch = self._report_batch(job, batch_index)
                 # JSON string bytes are additive after removing the enclosing quotes.
                 added_bytes = serialized_bytes(text) - 2
                 if (
@@ -676,21 +701,51 @@ class SessionStore:
                     )
                 self._check_global(added_bytes)
                 if thinking:
-                    job.thinking_parts.append(text)
+                    (batch.thinking_parts if batch is not None else job.thinking_parts).append(text)
                     job.thinking_bytes += added_bytes
                     if measure:
                         job.thinking_rate.record(text, self.clock())
-                    if measure and job.ai_activity:
-                        job.ai_activity.thinking_characters_received += len(text)
+                    activity = batch.ai_activity if batch is not None else job.ai_activity
+                    if measure and activity:
+                        activity.thinking_characters_received += len(text)
                 else:
-                    job.stream_parts.append(text)
+                    (batch.stream_parts if batch is not None else job.stream_parts).append(text)
                     job.stream_bytes += added_bytes
                     if measure:
                         job.stream_rate.record(text, self.clock())
                 session.retained_bytes += added_bytes
                 self._used_bytes += added_bytes
 
-    # The rendered snapshot replaces the previous version atomically with the same budget checks.
+    @staticmethod
+    def _report_batch(job: ReportGeneration, index: int | None) -> ReportBatchPreview | None:
+        if index is None:
+            return None
+        if not 1 <= index <= len(job.batch_previews):
+            raise ValueError("Report batch is not in the admitted plan")
+        return job.batch_previews[index - 1]
+
+    # Callers own registry -> session locks; reserve 2 KiB per batch for mutable activity metadata.
+    def _store_batch_previews(
+        self, session: SessionData, job: ReportGeneration, previews: list[ReportBatchPreview]
+    ) -> None:
+        size = (
+            (serialized_bytes([batch.metadata() for batch in previews]) + 2048 * len(previews))
+            if previews
+            else 0
+        )
+        added_bytes = size - job.batch_previews_bytes
+        if (
+            session.retained_bytes + self._session_reserved(session) + added_bytes
+            > self.limits.max_session_bytes
+        ):
+            raise ApplicationError("SESSION_BUDGET", tr("errors.preview_budget_exceeded"), 409)
+        self._check_global(max(0, added_bytes))
+        job.batch_previews = previews
+        job.batch_previews_bytes = size
+        session.retained_bytes += added_bytes
+        self._used_bytes += added_bytes
+
+    # Each validated snapshot belongs to its own batch; the final report is combined elsewhere.
     def generation_batch(
         self, operation: SessionOperation, completed: int, total: int, preview: str | None
     ) -> None:
@@ -700,25 +755,31 @@ class SessionStore:
             job = session.generations.get(operation.operation_id)
             if job is None or job.state != "running" or job.stage != "generating":
                 return
-            if not 0 <= completed <= total or completed < job.batches_completed:
+            if not 0 <= completed <= total:
                 raise ValueError("Invalid report batch progress")
             if completed == 0 and job.batches_total or job.batches_total not in {0, total}:
                 raise ValueError("Report batch plan cannot change during generation")
-            size = serialized_bytes(preview) - 2 if preview is not None else 0
-            added_bytes = size - job.report_preview_bytes
-            if (
-                session.retained_bytes + self._session_reserved(session) + added_bytes
-                > self.limits.max_session_bytes
-            ):
-                raise ApplicationError("SESSION_BUDGET", tr("errors.preview_budget_exceeded"), 409)
-            self._check_global(max(0, added_bytes))
+            previews = list(job.batch_previews) or [
+                ReportBatchPreview(index=index) for index in range(1, total + 1)
+            ]
+            if completed:
+                if preview is None:
+                    raise ValueError("Missing validated report batch snapshot")
+                previews[completed - 1] = replace(
+                    previews[completed - 1],
+                    started=True,
+                    completed=True,
+                    report_preview=preview,
+                )
+            self._store_batch_previews(session, job, previews)
+            # Legacy consumers receive the latest batch; its string is already charged above.
+            session.retained_bytes -= job.report_preview_bytes
+            self._used_bytes -= job.report_preview_bytes
             job.report_preview = preview
-            job.report_preview_bytes = size
-            job.batches_completed = completed
+            job.report_preview_bytes = 0
+            job.batches_completed = sum(batch.completed for batch in previews)
             job.batches_total = total
             job.preview_version += 1
-            session.retained_bytes += added_bytes
-            self._used_bytes += added_bytes
 
     def fail_generation(self, operation: SessionOperation, code: str, message: str) -> None:
         with self._lock, operation.session.lock:
@@ -773,10 +834,14 @@ class SessionStore:
                 if job.state != "succeeded" and not interrupted:
                     released_bytes += job.stream_bytes
                     job.stream_parts.clear()
+                    for batch in job.batch_previews:
+                        batch.stream_parts.clear()
                     job.stream_bytes = 0
                 if not interrupted:
                     released_bytes += job.thinking_bytes
                     job.thinking_parts.clear()
+                    for batch in job.batch_previews:
+                        batch.thinking_parts.clear()
                     job.thinking_bytes = 0
                 if self._sessions.get((session.cookie_id, session.tab_id)) is session:
                     session.retained_bytes -= released_bytes

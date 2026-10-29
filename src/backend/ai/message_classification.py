@@ -10,7 +10,7 @@ from collections.abc import Callable
 from pathlib import Path
 from typing import Literal
 
-from pydantic import BaseModel, ConfigDict, Field, model_validator
+from pydantic import BaseModel, ConfigDict, Field, ValidationError, model_validator
 
 from backend.ai.client import OllamaReportClient
 from backend.ai.conditions import _normalize
@@ -688,9 +688,12 @@ class MessageClassifier:
             return result
         except Exception as exc:
             logger.warning(
-                "classification_failed type=%s reason=%s duration_ms=%s",
+                "classification_failed provider=ollama model=%s stage=classification "
+                "type=%s reason=%s validation_errors=%s duration_ms=%s",
+                self.client.provider.model,
                 type(exc).__name__,
                 getattr(exc, "reason", "invalid_output"),
+                exc.error_count() if isinstance(exc, ValidationError) else 0,
                 round((time.monotonic() - started) * 1000),
             )
             raise

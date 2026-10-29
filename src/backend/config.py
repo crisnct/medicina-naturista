@@ -31,29 +31,29 @@ def _batch_limits(value: str | None = None) -> Mapping[ReportModel, int]:
         for key, item in pairs:
             if key in result:
                 raise ValueError(
-                    "REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL contains duplicate keys"
+                    "REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL contains duplicate keys"
                 )
             result[key] = item
         return result
 
     if value is None or not value.strip():
         return MappingProxyType(
-            {model: spec.batch_max_chars for model, spec in REPORT_MODELS.items()}
+            {model: spec.batch_max_tokens for model, spec in REPORT_MODELS.items()}
         )
     try:
         parsed = json.loads(value, object_pairs_hook=unique_pairs)
     except (ValueError, TypeError):
         raise ValueError(
-            "REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL must be a JSON object with unique model keys"
+            "REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL must be a JSON object with unique model keys"
         ) from None
     if not isinstance(parsed, dict):
-        raise ValueError("REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL must be a JSON object")
+        raise ValueError("REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL must be a JSON object")
     result: dict[ReportModel, int] = {}
     for model in REPORT_MODELS:
         if model in parsed:
             limit = parsed[model]
             if type(limit) is not int or limit <= 0:
-                raise ValueError("Report batch character limits must be positive integers")
+                raise ValueError("Report batch token limits must be positive integers")
             result[model] = limit
     if parsed.keys() - REPORT_MODELS.keys():
         raise ValueError("Report batch limits contain an unsupported model")
@@ -173,23 +173,24 @@ class Settings:
         "/tmp/naturist-sessions" if os.name != "nt" else str(ROOT / "var" / "sessions")
     )
     report_generation_models: tuple[ReportModel, ...] = DEFAULT_REPORT_MODELS
-    report_generation_batch_max_chars: Mapping[ReportModel, int] = field(
+    report_batch_workers: int = 2
+    report_generation_batch_max_tokens: Mapping[ReportModel, int] = field(
         default_factory=_batch_limits
     )
     xai_model: str = REPORT_MODELS["grok-4.3"].model
     xai_reasoning_effort: str = "medium"
-    xai_max_context_chars: int = 1_000_000
+    xai_max_content_tokens: int = 1_000_000
     xai_api_base: str = "https://api.x.ai/v1"
     ai_provider: str = "ollama"
     hf_model: str = REPORT_MODELS["huggingface-deepseek-v4-flash"].model
     hf_api_base: str = "https://router.huggingface.co/v1"
     hf_reasoning_effort: str = ""
-    hf_max_context_chars: int = 120_000
+    hf_max_content_tokens: int = 120_000
     ollama_model: str = REPORT_MODELS[DEFAULT_REPORT_MODEL].model
     ollama_api_base: str = "http://localhost:11434/v1"
     ollama_keep_alive_seconds: int = 60
     ollama_reasoning_effort: str = ""
-    ollama_max_context_chars: int = 1_000_000
+    ollama_max_content_tokens: int = 1_000_000
     ollama_num_ctx_by_model: Mapping[ReportModel, int] = field(
         default_factory=lambda: _ollama_limits(None, "OLLAMA_NUM_CTX_BY_MODEL", "context_tokens")
     )
@@ -201,7 +202,7 @@ class Settings:
     deepseek_model: str = REPORT_MODELS["deepseek-flash"].model
     deepseek_api_base: str = "https://api.deepseek.com"
     deepseek_reasoning_effort: str = ""
-    deepseek_max_context_chars: int = 1_000_000
+    deepseek_max_content_tokens: int = 1_000_000
     # Identification of a condition the dictionary does not know (ai/condition_ai.py):
     # Identification uses only the host Ollama model, with no provider fallback.
     medical_condition_ai_local_model: str = "gemma3:1b"
@@ -253,7 +254,6 @@ class Settings:
     max_queued_generations: int = 20
     operation_timeout_seconds: int = 600
     report_generation_timeout_seconds: int = 600
-    report_estimated_minutes_per_44500_chars: int = 6
     report_shutdown_timeout_seconds: int = 20
     session_reconnect_grace_seconds: int = 30
     operation_reservation_bytes: int = 65536
@@ -281,6 +281,18 @@ class Settings:
                 raise ValueError("dotenv cannot be combined with an injected environment")
             load_dotenv(ROOT / ".env", override=False)
         env = os.environ if env is None else env
+        for old, new in (
+            ("OLLAMA_MAX_CONTEXT_CHARS", "OLLAMA_MAX_CONTENT_TOKENS"),
+            ("X_AI_MAX_CONTEXT_CHARS", "X_AI_MAX_CONTENT_TOKENS"),
+            ("DEEPSEEK_MAX_CONTEXT_CHARS", "DEEPSEEK_MAX_CONTENT_TOKENS"),
+            ("HF_MAX_CONTEXT_CHARS", "HF_MAX_CONTENT_TOKENS"),
+            (
+                "REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL",
+                "REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL",
+            ),
+        ):
+            if env.get(old, "").strip():
+                raise ValueError(f"{old} was replaced by {new}; configure token budgets explicitly")
         report_models = parse_report_models(
             env.get("REPORT_GENERATION_MODELS", ",".join(DEFAULT_REPORT_MODELS))
         )
@@ -306,23 +318,24 @@ class Settings:
                 )
             ),
             report_generation_models=report_models,
-            report_generation_batch_max_chars=_batch_limits(
-                env.get("REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL")
+            report_batch_workers=_int("REPORT_BATCH_WORKERS", 2, env=env),
+            report_generation_batch_max_tokens=_batch_limits(
+                env.get("REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL")
             ),
             xai_reasoning_effort=env.get("XAI_REASONING_EFFORT", "medium"),
-            xai_max_context_chars=_int("X_AI_MAX_CONTEXT_CHARS", 1000000, env=env),
+            xai_max_content_tokens=_int("X_AI_MAX_CONTENT_TOKENS", 1000000, env=env),
             xai_api_base=env.get("XAI_API_BASE", "https://api.x.ai/v1").rstrip("/"),
             ai_provider=report_spec.provider,
             hf_api_base=env.get("HF_API_BASE", "https://router.huggingface.co/v1").rstrip("/"),
             hf_reasoning_effort=env.get("HF_REASONING_EFFORT", "").strip(),
-            hf_max_context_chars=_int("HF_MAX_CONTEXT_CHARS", 120000, env=env),
+            hf_max_content_tokens=_int("HF_MAX_CONTENT_TOKENS", 120000, env=env),
             ollama_model=report_spec.model
             if report_spec.provider == "ollama"
             else REPORT_MODELS[DEFAULT_REPORT_MODEL].model,
             ollama_api_base=env.get("OLLAMA_API_BASE", "http://localhost:11434/v1").rstrip("/"),
             ollama_keep_alive_seconds=_int("OLLAMA_KEEP_ALIVE_SECONDS", 60, minimum=0, env=env),
             ollama_reasoning_effort=env.get("OLLAMA_REASONING_EFFORT", "").strip(),
-            ollama_max_context_chars=_int("OLLAMA_MAX_CONTEXT_CHARS", 1000000, env=env),
+            ollama_max_content_tokens=_int("OLLAMA_MAX_CONTENT_TOKENS", 1000000, env=env),
             ollama_num_ctx_by_model=_ollama_limits(
                 env.get("OLLAMA_NUM_CTX_BY_MODEL"), "OLLAMA_NUM_CTX_BY_MODEL", "context_tokens"
             ),
@@ -333,7 +346,7 @@ class Settings:
             ),
             deepseek_api_base=env.get("DEEPSEEK_API_BASE", "https://api.deepseek.com").rstrip("/"),
             deepseek_reasoning_effort=env.get("DEEPSEEK_REASONING_EFFORT", "").strip(),
-            deepseek_max_context_chars=_int("DEEPSEEK_MAX_CONTEXT_CHARS", 1000000, env=env),
+            deepseek_max_content_tokens=_int("DEEPSEEK_MAX_CONTENT_TOKENS", 1000000, env=env),
             medical_condition_ai_local_model=env.get(
                 "MEDICAL_CONDITION_AI_LOCAL_MODEL", "gemma3:1b"
             ),
@@ -415,9 +428,6 @@ class Settings:
             report_generation_timeout_seconds=_int(
                 "REPORT_GENERATION_TIMEOUT_SECONDS", 600, env=env
             ),
-            report_estimated_minutes_per_44500_chars=_int(
-                "REPORT_GENERATION_ESTIMATED_MINUTES_PER_44500_CHARS", 6, env=env
-            ),
             report_shutdown_timeout_seconds=_int("REPORT_SHUTDOWN_TIMEOUT_SECONDS", 20, env=env),
             session_reconnect_grace_seconds=_int("SESSION_RECONNECT_GRACE_SECONDS", 30, env=env),
             operation_reservation_bytes=_int("OPERATION_RESERVATION_BYTES", 65536, env=env),
@@ -441,7 +451,7 @@ class Settings:
             "report_generation_models",
             parse_report_models(",".join(self.report_generation_models)),
         )
-        limits = self.report_generation_batch_max_chars
+        limits = self.report_generation_batch_max_tokens
         if (
             not isinstance(limits, Mapping)
             or set(limits) - set(REPORT_MODELS)
@@ -451,7 +461,7 @@ class Settings:
         if set(self.report_generation_models) - set(limits):
             raise ValueError("Report batch limits must include every configured model")
         object.__setattr__(
-            self, "report_generation_batch_max_chars", MappingProxyType(dict(limits))
+            self, "report_generation_batch_max_tokens", MappingProxyType(dict(limits))
         )
         _ai_provider(self.ai_provider)
         contexts = _freeze_ollama_limits(self.ollama_num_ctx_by_model, "OLLAMA_NUM_CTX_BY_MODEL")
@@ -591,12 +601,14 @@ class Settings:
                 )
         if type(self.ollama_keep_alive_seconds) is not int or self.ollama_keep_alive_seconds < 0:
             raise ValueError("ollama_keep_alive_seconds must be non-negative")
+        if type(self.report_batch_workers) is not int or self.report_batch_workers <= 0:
+            raise ValueError("report_batch_workers must be a positive integer")
         for name in (
             "embedding_threads",
-            "xai_max_context_chars",
-            "hf_max_context_chars",
-            "ollama_max_context_chars",
-            "deepseek_max_context_chars",
+            "xai_max_content_tokens",
+            "hf_max_content_tokens",
+            "ollama_max_content_tokens",
+            "deepseek_max_content_tokens",
             "condition_ai_timeout_seconds",
             "condition_ai_max_output_tokens",
             "message_classification_timeout_seconds",
@@ -623,7 +635,6 @@ class Settings:
             "max_queued_generations",
             "operation_timeout_seconds",
             "report_generation_timeout_seconds",
-            "report_estimated_minutes_per_44500_chars",
             "report_shutdown_timeout_seconds",
             "session_reconnect_grace_seconds",
             "operation_reservation_bytes",

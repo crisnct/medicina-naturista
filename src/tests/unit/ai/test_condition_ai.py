@@ -78,7 +78,23 @@ class ConditionAITestCase(unittest.TestCase):
     def fake_post(self, *behaviours):
         client = condition_ai._client()
         post = MagicMock(side_effect=list(behaviours))
-        client.http.post = post
+
+        def native(request):
+            response = post(
+                str(request.url), json=json.loads(request.content), headers=dict(request.headers)
+            )
+            if isinstance(response, FakeResponse):
+                content = response.json()["output"][0]["content"][0]["text"]
+                return httpx.Response(
+                    200,
+                    json={"done": True, "done_reason": "stop", "message": {"content": content}},
+                    request=request,
+                )
+            return response
+
+        client.http.close()
+        client.http = httpx.Client(transport=httpx.MockTransport(native))
+        self.addCleanup(client.close)
         return post
 
     def identify(self, message: str = "tiroida care merge prea repede") -> AIConditionResult:
@@ -97,7 +113,7 @@ class IdentificationTests(ConditionAITestCase):
 
         self.assertEqual(result.reason, condition_ai.IDENTIFIED)
         self.assertEqual(result.backend, "local")
-        self.assertEqual(post.call_args.kwargs["json"]["reasoning"], {"effort": "none"})
+        self.assertIs(post.call_args.kwargs["json"]["think"], False)
         self.assertEqual(
             result.conditions,
             (Condition("Hipertiroidism-ul meu", ("Hipertiroidism-ul meu", "tiroida hiperactiva")),),
@@ -201,13 +217,15 @@ class IdentificationTests(ConditionAITestCase):
 
         payload = post.call_args.kwargs["json"]
         self.assertEqual(payload["model"], base_settings.medical_condition_ai_local_model)
-        self.assertEqual(payload["max_output_tokens"], base_settings.condition_ai_max_output_tokens)
         self.assertEqual(
-            payload["input"][1], {"role": "user", "content": "1. durere de cap\n2. ameteli"}
+            payload["options"]["num_predict"], base_settings.condition_ai_max_output_tokens
         )
-        self.assertEqual(payload["input"][0]["content"], condition_ai._system_prompt())
         self.assertEqual(
-            payload["temperature"], 0.0
+            payload["messages"][1], {"role": "user", "content": "1. durere de cap\n2. ameteli"}
+        )
+        self.assertEqual(payload["messages"][0]["content"], condition_ai._system_prompt())
+        self.assertEqual(
+            payload["options"]["temperature"], 0.0
         )  # the small local model is asked without sampling noise
 
 
@@ -269,7 +287,8 @@ class NoFallbackTests(ConditionAITestCase):
                 )
                 post.assert_called_once()
                 self.assertEqual(
-                    post.call_args.args[0], base_settings.condition_ai_local_base + "/responses"
+                    post.call_args.args[0],
+                    base_settings.condition_ai_local_base.removesuffix("/v1") + "/api/chat",
                 )
                 self.assertNotIn("Authorization", post.call_args.kwargs["headers"])
 

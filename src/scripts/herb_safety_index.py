@@ -16,7 +16,6 @@ from backend.ai.herb_association_classification import (
     Work,
     classification_prompt,
     group_fragment_works,
-    model_digest,
 )
 from backend.ai.herb_association_rules import classify_rule
 from backend.ai.herb_positive_repository import PositiveRepository, Snapshot
@@ -43,6 +42,7 @@ from scripts.herb_index_requests import (
     index_batch,
     index_response_schema,
     make_client,
+    model_digest,
     warning_item_limit,
 )
 

@@ -45,6 +45,9 @@ class ProviderConfig:
     context_tokens: int | None = None
     thinking: bool | None = None
     keep_alive_seconds: int | None = None
+    max_content_tokens: int | None = None
+    repeat_penalty: float | None = None
+    repeat_last_n: int | None = None
 
 
 # Whether the URL points at this machine (or the Docker host), where Ollama needs no key.
@@ -71,7 +74,8 @@ def provider_config(settings: Settings) -> ProviderConfig:
             api_key_required=True,
             json_format="text_format",
             send_store=True,
-            max_context_chars=settings.xai_max_context_chars,
+            max_context_chars=0,
+            max_content_tokens=settings.xai_max_content_tokens,
             **common,
         )
     # DeepSeek's own API documents `text.format` and `reasoning.effort`, and
@@ -88,7 +92,8 @@ def provider_config(settings: Settings) -> ProviderConfig:
             api_key_required=True,
             json_format="text_format",
             send_store=False,
-            max_context_chars=settings.deepseek_max_context_chars,
+            max_context_chars=0,
+            max_content_tokens=settings.deepseek_max_content_tokens,
             **common,
         )
     # json_format stays None for the two providers below until Phase 0 of
@@ -105,7 +110,8 @@ def provider_config(settings: Settings) -> ProviderConfig:
             api_key_required=True,
             json_format=None,
             send_store=False,
-            max_context_chars=settings.hf_max_context_chars,
+            max_context_chars=0,
+            max_content_tokens=settings.hf_max_content_tokens,
             **common,
         )
     choice = next(
@@ -118,12 +124,18 @@ def provider_config(settings: Settings) -> ProviderConfig:
     )
     context_tokens = None
     thinking = None
+    temperature = None
+    repeat_penalty = None
+    repeat_last_n = None
     if choice is not None:
         context_tokens = settings.ollama_num_ctx_by_model.get(choice)
         common["max_output_tokens"] = settings.ollama_max_output_tokens_by_model.get(
             choice, common["max_output_tokens"]
         )
         thinking = REPORT_MODELS[choice].thinking
+        temperature = REPORT_MODELS[choice].temperature
+        repeat_penalty = REPORT_MODELS[choice].repeat_penalty
+        repeat_last_n = REPORT_MODELS[choice].repeat_last_n
     # Preserve the existing optional boolean control for these model families.
     if settings.ollama_reasoning_effort and settings.ollama_model.startswith(
         ("gemma4:", "qwen3.5:")
@@ -141,8 +153,12 @@ def provider_config(settings: Settings) -> ProviderConfig:
         api_key_required=not _is_local(settings.ollama_api_base),
         json_format=None,
         send_store=False,
-        max_context_chars=settings.ollama_max_context_chars,
+        max_context_chars=0,
+        max_content_tokens=settings.ollama_max_content_tokens,
         context_tokens=context_tokens,
         thinking=thinking,
+        temperature=temperature,
+        repeat_penalty=repeat_penalty,
+        repeat_last_n=repeat_last_n,
         **common,
     )

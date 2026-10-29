@@ -198,6 +198,15 @@ export interface AIActivity {
   thinkingCharactersReceived: number;
 }
 
+export interface ReportBatchPreview {
+  index: number;
+  state: "pending" | "running" | "validated" | "failed" | "cancelled" | "timed_out";
+  reportPreview?: string | null;
+  streamPreview?: string | null;
+  thinkingPreview?: string | null;
+  aiActivity?: AIActivity | null;
+}
+
 export interface ReportGeneration {
   jobId: string;
   searchId: string;
@@ -214,12 +223,12 @@ export interface ReportGeneration {
   message?: string | null;
   workerActive?: boolean;
   queuePosition?: number | null;
-  estimatedMinutesPer44500Chars?: number;
   streamPreview?: string | null;
   reportPreview?: string | null;
   previewVersion?: number;
   batchesCompleted?: number;
   batchesTotal?: number;
+  batchPreviews?: ReportBatchPreview[];
   thinkingPreview?: string | null;
   streamTokensPerSecond?: number | null;
   thinkingTokensPerSecond?: number | null;

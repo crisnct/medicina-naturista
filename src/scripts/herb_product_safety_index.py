@@ -13,7 +13,6 @@ from uuid import uuid4
 import psycopg
 
 from backend.ai.client import AIUnavailable, ResponsesClient
-from backend.ai.herb_association_classification import model_digest
 from backend.ai.herb_association_rules import content_hash
 from backend.ai.herb_product_safety import (
     product_prompt,
@@ -25,7 +24,7 @@ from backend.ai.herb_product_safety_repository import ProductSafetyRepository
 from backend.config import Settings
 from backend.core.errors import ApplicationError, OperationCancelled
 from backend.core.operation_context import OperationBudget, checkpoint, operation_budget
-from scripts.herb_index_requests import emit_index_event, index_batch, make_client
+from scripts.herb_index_requests import emit_index_event, index_batch, make_client, model_digest
 from scripts.herb_safety_index import batch_progress, format_duration, workflow_progress
 
 

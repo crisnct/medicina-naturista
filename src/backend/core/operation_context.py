@@ -19,7 +19,13 @@ if TYPE_CHECKING:
     from backend.ai.report_validation import ValidatedReport
 
 ReportActivityKind = Literal[
-    "request_started", "provider_activity", "thinking", "answering", "response_finished"
+    "request_started",
+    "provider_activity",
+    "thinking",
+    "answering",
+    "response_finished",
+    "batch_failed",
+    "batch_cancelled",
 ]
 
 
@@ -48,6 +54,27 @@ class OperationBudget:
 
 
 _budget: ContextVar[OperationBudget | None] = ContextVar("operation_budget", default=None)
+_batch_index: ContextVar[int | None] = ContextVar("report_batch_index", default=None)
+_batch_stopped: ContextVar[Callable[[], bool] | None] = ContextVar(
+    "report_batch_stopped", default=None
+)
+
+
+def report_batch_index() -> int | None:
+    return _batch_index.get()
+
+
+# Each submitted worker owns a fresh context; sibling failure cannot escape its request budget.
+@contextmanager
+def report_batch_context(index: int, stopped: Callable[[], bool]) -> Iterator[None]:
+    index_token = _batch_index.set(index)
+    stop_token = _batch_stopped.set(stopped)
+    try:
+        checkpoint()
+        yield
+    finally:
+        _batch_stopped.reset(stop_token)
+        _batch_index.reset(index_token)
 
 
 @contextmanager
@@ -62,11 +89,15 @@ def operation_budget(value: OperationBudget) -> Iterator[None]:
 
 
 def remaining_timeout(timeout: float) -> float:
+    checkpoint()
     value = _budget.get()
     return min(timeout, value.remaining()) if value else timeout
 
 
 def checkpoint() -> None:
+    stopped = _batch_stopped.get()
+    if stopped and stopped():
+        raise OperationCancelled()
     value = _budget.get()
     if value:
         value.remaining()
@@ -76,6 +107,7 @@ def emit_report_output(text: str) -> None:
     """Publish answer deltas independently of thinking text."""
     if not text:
         return
+    checkpoint()
     emit_report_activity(ReportActivity("answering"))
     value = _budget.get()
     if value and value.report_output:
@@ -85,6 +117,7 @@ def emit_report_output(text: str) -> None:
 def emit_report_thinking(text: str) -> None:
     if not text:
         return
+    checkpoint()
     emit_report_activity(ReportActivity("thinking"))
     value = _budget.get()
     if value and value.report_thinking:
@@ -97,7 +130,7 @@ def emit_report_activity(event: ReportActivity) -> None:
         value.report_activity(event)
 
 
-# Only completed, validated batch snapshots may reach the formatted preview.
+# Publish only the current validated batch; final combination remains with the report client.
 def emit_report_batch(completed: int, total: int, report: ValidatedReport | None = None) -> None:
     checkpoint()
     value = _budget.get()

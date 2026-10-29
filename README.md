@@ -487,7 +487,7 @@ API-ul JSON (`src/backend/web/main.py`) este folosit de interfața React; docume
 | `POST /api/search` | Rulează căutarea și întoarce fragmentele găsite și secțiunea „Generează raportul”. |
 | `GET /api/report-models` | Toate modelele configurate în ordinea env, `defaultModel` (primul model) și `allowedModels` (cele permise utilizatorului curent). Lista vizibilă este aceeași pentru public și autor; drepturile sunt verificate separat. |
 | `GET /api/report-duration-estimate?model=...&characters=...` | Durata estimată în secunde și numărul măsurătorilor, folosind toate rândurile modelului din `report_generation_metrics`. Numai agregate, fără afecțiuni sau texte medicale. |
-| `POST /api/searches/{search_id}/generate` | Primește `minScore` și `model` din catalog; fără model folosește `REPORT_GENERATION_MODELS`. Orice model fără autorizare admin → HTTP 403; model necunoscut → HTTP 422. Aplică pragul selectat, procesează fragmentele în loturi succesive cu modelul ales și generează un singur PDF după validarea tuturor loturilor. |
+| `POST /api/searches/{search_id}/generate` | Primește `minScore` și `model` din catalog; fără model folosește `REPORT_GENERATION_MODELS`. Orice model fără autorizare admin → HTTP 403; model necunoscut → HTTP 422. Aplică pragul selectat și procesează loturile în paralel conform `REPORT_BATCH_WORKERS` (implicit 2), în cadrul unui singur raport activ. Generează un singur PDF după validarea tuturor loturilor. |
 | `GET /api/reports/{tab_id}/{report_id}` | Descarcă PDF-ul generat în sesiunea tabului. |
 | `POST /api/session/end`, `POST /api/session/unload` | Închid sesiunea tabului (la cerere, respectiv la închiderea paginii). |
 
@@ -939,7 +939,7 @@ Pentru embeddings, un fragment mai lung de 1400 de caractere este împărțit î
 
 **Ollama rulează separat, pe host (Windows), și trebuie pornit înaintea aplicației.** Containerul `app` îl accesează prin `http://host.docker.internal:11434/v1`, atât pentru clasificarea mesajelor și identificarea afecțiunilor (`CONDITION_AI_LOCAL_BASE`), cât și pentru rapoartele cu `ollama-gemma4:12b` (`OLLAMA_API_BASE`). Descărcați modelul de raport cu `ollama pull gemma4:12b` și modelul ales în `MEDICAL_CONDITION_AI_LOCAL_MODEL` (implicit `gemma3:1b`). Modelele sunt administrate de instalarea Ollama de pe host.
 
-Pentru rapoartele Ollama, clientul derivă `/api/chat` din `OLLAMA_API_BASE` eliminând sufixul `/v1`. Folosește format JSON nativ, `truncate=false` și `shift=false`: intrarea nu este scurtată automat și nu sunt eliminate porțiuni din context pentru a continua generarea. O depășire a contextului este raportată ca `AI_CONTEXT_LIMIT_EXCEEDED`, cu mesajul de a selecta mai puține fragmente sau de a crește scorul minim. R1 8B are context explicit per cerere; pentru celelalte modele, dacă nu există un override, se păstrează configurația serverului Ollama. Bugetul în caractere nu este o garanție de încadrare în tokeni. Intrarea, instrucțiunile și ieșirea trebuie să încapă împreună în context. Clasificarea mesajelor și identificarea afecțiunilor folosesc și ele clientul nativ `/api/chat`, cu `think=false`, pentru a trimite durata de păstrare în aceeași cerere.
+Pentru rapoartele Ollama, clientul derivă `/api/chat` din `OLLAMA_API_BASE` eliminând sufixul `/v1`. Folosește format JSON nativ, `truncate=false` și `shift=false`: intrarea nu este scurtată automat și nu sunt eliminate porțiuni din context pentru a continua generarea. O depășire a contextului este raportată ca `AI_CONTEXT_LIMIT_EXCEEDED`, cu mesajul de a selecta mai puține fragmente sau de a crește scorul minim. R1 8B are context explicit per cerere; pentru celelalte modele, dacă nu există un override, se păstrează configurația serverului Ollama. Loturile folosesc bugete conservative de tokeni de intrare; acestea nu înlocuiesc contextul real verificat de Ollama. Intrarea, instrucțiunile și ieșirea trebuie să încapă împreună în context. Clasificarea mesajelor și identificarea afecțiunilor folosesc și ele clientul nativ `/api/chat`, cu `think=false`, pentru a trimite durata de păstrare în aceeași cerere.
 
 Aplicația trimite `keep_alive=60` pentru fiecare cerere Ollama: modelul este eliberat după
 60 de secunde de inactivitate, fără preîncărcare la pornirea aplicației. Reindexarea folosește
@@ -956,13 +956,13 @@ Pentru `gemma4:12b` cu contextul maxim de 262.144 tokeni, configurația de perfo
 ```powershell
 [Environment]::SetEnvironmentVariable("OLLAMA_FLASH_ATTENTION", "1", "User")
 [Environment]::SetEnvironmentVariable("OLLAMA_KV_CACHE_TYPE", "q4_0", "User")
-[Environment]::SetEnvironmentVariable("OLLAMA_NUM_PARALLEL", "1", "User")
+[Environment]::SetEnvironmentVariable("OLLAMA_NUM_PARALLEL", "2", "User")
 [Environment]::SetEnvironmentVariable("OLLAMA_CONTEXT_LENGTH", "262144", "User")
 ```
 
 Închideți complet Ollama din zona de notificări și porniți-l din nou din Start. Verificați în jurnalul `%LOCALAPPDATA%\Ollama\server.log` valorile efective și `offloaded …/49`; aplicația desktop poate avea setări proprii. Aceste variabile configurează serverul Ollama, nu clientul Python: adăugarea lor în `.env` sau în mediul serviciului Compose `app` nu schimbă Ollama de pe host.
 
-`q4_0` reduce precizia cache-ului KV; măsurarea vitezei nu validează calitatea rapoartelor la intrări lungi. `OLLAMA_NUM_PARALLEL=1` păstrează o singură cerere simultană: creșterea valorii necesită mai multă memorie pentru contexte și nu accelerează un raport individual. Aplicația limitează separat generările prin `MAX_CONCURRENT_GENERATIONS`, implicit 1. Rezultatele locale și limitele măsurării sunt în [investigația Ollama](aiPlans/2026-10-15-investigare-performanta-ollama.md).
+`q4_0` reduce precizia cache-ului KV; măsurarea vitezei nu validează calitatea rapoartelor la intrări lungi. Pentru procesarea efectiv simultană a loturilor, serverul Ollama trebuie să permită cel puțin numărul de cereri per model configurat prin `REPORT_BATCH_WORKERS` (implicit `OLLAMA_NUM_PARALLEL>=2`). Dacă permite una singură, cererile trimise de aplicație pot fi procesate succesiv. Contextele simultane necesită mai multă memorie; nu este garantată accelerarea și nu se modifică automat configurația serverului. Aplicația păstrează separat `MAX_CONCURRENT_GENERATIONS=1`. Rezultatele locale istorice și limitele măsurării sunt în [investigația Ollama](aiPlans/2026-10-15-investigare-performanta-ollama.md).
 
 ```dotenv
 CONDITION_AI_LOCAL_BASE=http://host.docker.internal:11434/v1
@@ -1099,21 +1099,22 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `HF_TOKEN` | — | Token Hugging Face cu permisiunea „Make calls to Inference Providers”; necesar la utilizarea modelului `huggingface-deepseek-v4-flash`. |
 | `HF_API_BASE` | `https://router.huggingface.co/v1` | URL-ul de bază al routerului HF; clientul apelează ruta `/responses`. |
 | `HF_REASONING_EFFORT` | _(gol)_ | `low`/`medium`/`high`; se trimite doar dacă este setat. |
-| `HF_MAX_CONTEXT_CHARS` | `120000` | Bugetul de caractere al fragmentelor pentru modelul `huggingface-deepseek-v4-flash`; nu reprezintă o limită de tokeni garantată de furnizor. |
+| `HF_MAX_CONTENT_TOKENS` | `120000` | Buget conservator pentru totalul fragmentelor selectate pentru `huggingface-deepseek-v4-flash`, inclusiv ID-urile și sursele serializate. Un token bugetat per octet UTF-8; separat de limita cererii pe lot și de ieșire. |
 | `DEEPSEEK_API_KEY` | — | Cheia API de pe platform.deepseek.com, necesară când adminul alege `deepseek-flash`. Lipsa ei nu blochează rapoartele Ollama. |
 | `DEEPSEEK_API_BASE` | `https://api.deepseek.com` | URL-ul de bază al API-ului DeepSeek. |
 | `DEEPSEEK_REASONING_EFFORT` | _(gol)_ | Se trimite doar dacă este setat. |
-| `DEEPSEEK_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru modelul `deepseek-flash`. |
+| `DEEPSEEK_MAX_CONTENT_TOKENS` | `1000000` | Buget conservator pentru totalul fragmentelor selectate pentru `deepseek-flash`, inclusiv ID-urile și sursele serializate. Un token bugetat per octet UTF-8; separat de limita cererii pe lot și de ieșire. |
 | `OLLAMA_API_BASE` | `http://localhost:11434/v1` | Baza Ollama; în Docker Compose `http://host.docker.internal:11434/v1`. |
 | `OLLAMA_KEEP_ALIVE_SECONDS` | `60` | Durata de păstrare după ultima cerere Ollama din aplicație (raport, clasificare sau identificare). `0` descarcă după fiecare cerere. Nu modifică dimensiunea contextului și nu controlează reindexarea. |
 | `OLLAMA_API_KEY` | — | Necesară doar când `OLLAMA_API_BASE` nu este local (ex. `https://ollama.com/v1`). |
 | `OLLAMA_REASONING_EFFORT` | _(gol)_ | Pentru Gemma4 și Qwen3.5, controlează `think`: `none` îl dezactivează, celelalte valori îl activează. Pentru Gemma3 și Ministral este omis. |
-| `OLLAMA_MAX_CONTEXT_CHARS` | `1000000` | Bugetul pentru modelele Ollama; pentru modele locale mici trebuie coborât. |
-| `OLLAMA_NUM_CTX_BY_MODEL` | `{"ollama-deepseek-r1:8b":16384}` | Obiect JSON cu contextul în tokeni per model Ollama din catalog. Cheile omise păstrează valorile implicite; celelalte modele nu trimit `num_ctx` dacă nu sunt configurate explicit. |
+| `OLLAMA_MAX_CONTENT_TOKENS` | `1000000` | Buget conservator pentru totalul fragmentelor selectate pentru Ollama, inclusiv ID-urile și sursele serializate. Un token bugetat per octet UTF-8. Limitează conținutul total înainte de împărțirea în loturi; nu setează contextul Ollama și nu include promptul sau ieșirea. |
+| `OLLAMA_NUM_CTX_BY_MODEL` | `{"ollama-deepseek-r1:8b":32768}` | Obiect JSON cu contextul în tokeni per model Ollama din catalog. Cheile omise păstrează valorile implicite; celelalte modele nu trimit `num_ctx` dacă nu sunt configurate explicit. |
 | `OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL` | `{"ollama-deepseek-r1:8b":8192}` | Obiect JSON cu limita de ieșire per model Ollama. Pentru celelalte modele se păstrează limita globală. Valorile trebuie să fie întregi pozitive, iar ieșirea trebuie să fie mai mică decât contextul explicit. Cheile necunoscute, modelele externe și duplicatele sunt respinse. |
 | `MEDICAL_CONDITION_AI_LOCAL_MODEL` | `gemma3:1b` | Modelul Ollama local pentru clasificarea mesajului și identificarea afecțiunii; se descarcă pe host cu `ollama pull <model>`, inclusiv când aplicația rulează în Docker. |
 | `REPORT_GENERATION_MODELS` | cele 9 modele în ordinea catalogului de mai jos | Listă CSV ordonată a modelelor disponibile. Primul este implicit. Ordinea din UI este aceeași; drepturile controlează generarea, nu vizibilitatea opțiunilor. Listele goale, elementele goale, modelele necunoscute și duplicatele sunt respinse la pornire. Alegerea din UI se aplică numai jobului respectiv. |
-| `REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL` | `8000` pentru R1 8B, `10000` pentru celelalte | Obiect JSON cu limite de caractere separate pentru identificatorii din catalog. Lipsă/valoare goală → valorile implicite; un obiect explicit trebuie să includă fiecare model activat. Se numără numai textele fragmentelor. Workers: unul singur, hardcodat, fără variabilă de mediu. |
+| `REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL` | `24000` pentru R1 8B, `25000` pentru celelalte | Obiect JSON cu bugete conservative de tokeni de intrare per lot și model. Include cererea serializată completă și o rezervă de 256 tokeni; numărare locală la un token bugetat per octet UTF-8. Lipsă/valoare goală → valorile implicite; un obiect explicit trebuie să includă fiecare model activat. |
+| `REPORT_BATCH_WORKERS` | `2` | Întreg pozitiv: numărul maxim de loturi procesate simultan în raportul activ. `1` procesează succesiv. Nu modifică limita de un singur raport activ. Este transmis explicit aplicației prin Docker Compose. |
 | `CONDITION_AI_LOCAL_BASE` | `http://localhost:11434/v1` (direct) / `http://host.docker.internal:11434/v1` (Compose) | Adresa Ollama de pe host, folosită pentru clasificarea mesajului și identificarea afecțiunii. |
 | `CONDITION_AI_TIMEOUT_SECONDS` | `10` | Timeout pentru identificarea afecțiunii prin Ollama local. |
 | `MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS` | `10` | Timeout la clasificare prin Ollama local, independent de identificarea afecțiunii. |
@@ -1122,7 +1123,6 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `REPORT_GENERATION_AI_STREAM` | `false` | Cere răspunsul ca flux de evenimente (`stream: true`). Timeoutul de citire se aplică între evenimente, deci evită tăierea cererilor lungi de un proxy (ex. 504 după 60 s la routerul HF). Dacă furnizorul nu suportă streaming, lăsați `false`. |
 | `REPORT_GENERATION_MAX_OUTPUT_TOKENS` | `20000` | `max_output_tokens` al cererii, pentru toți furnizorii (la modelele cu gândire, reasoning-ul consumă din el). |
 | `REPORT_GENERATION_READ_TIMEOUT_SECONDS` | `300` | Timeoutul de citire al cererii către furnizorul AI. |
-| `REPORT_GENERATION_ESTIMATED_MINUTES_PER_44500_CHARS` | `6` | Parametru de estimare păstrat în backend pentru compatibilitate; UI nu mai afișează o bară de progres procentual. Valoarea trebuie să fie un întreg pozitiv. |
 | `DOCUMENTS_DIR` | `medicina-naturista-documente/data/documents` | Directorul documentelor locale. |
 | `HERB_IMAGES_DIR` | `medicina-naturista-documente/data/images` | Directorul opțional cu pozele PNG ale produselor; montat doar pentru citire în Docker. |
 | `DATABASE_URL` | `postgresql:// medicina:medicina @127.0.0.1:5432/medicina` | Conexiunea Postgres a indexului hibrid (`pgvector` + `tsvector`). |
@@ -1132,7 +1132,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `EMBEDDING_DEVICE` | `cpu` | Dispozitivul modelului de embedding la **construirea** indexului: `cpu` (FastEmbed/ONNX) sau `cuda` (PyTorch fp16, doar din mediul GPU `.venv-gpu`; fără CUDA build-ul se oprește, nu trece pe CPU). Întrebările din aplicație rulează mereu pe CPU. |
 | `SESSION_TEMP_DIR` | `var/sessions` (Windows) / `/tmp/naturist-sessions` | Directorul fișierelor temporare ale sesiunilor. |
 | `MAX_CHAT_CHARS` | `4000` | Lungimea maximă a mesajului utilizatorului. |
-| `X_AI_MAX_CONTEXT_CHARS` | `1000000` | Bugetul (în caractere de text al fragmentelor) pentru modelul `grok-4.3`: fragmentele afișate și trimise către AI. Toate fragmentele primesc scor, se ordonează descrescător, iar cele de la coadă care nu încap sunt eliminate întregi, nu trunchiate. Nu există un prag de relevanță separat și nici o limită de candidați per semnal. |
+| `X_AI_MAX_CONTENT_TOKENS` | `1000000` | Buget conservator pentru totalul fragmentelor selectate pentru `grok-4.3`, inclusiv ID-urile și sursele serializate. Un token bugetat per octet UTF-8. Toate fragmentele primesc scor și se păstrează prefixul în ordinea scorului, fără trunchiere. Separat de limita cererii pe lot și de ieșire. |
 | `MAX_REQUESTS_PER_MINUTE` | `60` | Limita de cereri `POST`/`PUT`/`PATCH`/`DELETE` către `/api/`, pe minut și IP; loginul owner are o limită separată. |
 | `SESSION_IDLE_SECONDS` | `3600` | Expirarea unei sesiuni inactive. |
 | `SESSION_MAX_SECONDS` | `14400` | Durata maximă a unei sesiuni. |
@@ -1159,7 +1159,7 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | `FRONTEND_DIST_DIR` | `src/frontend/dist` | Directorul cu build-ul React servit ca fișiere statice de FastAPI. |
 | `FORWARDED_ALLOW_IPS` | `127.0.0.1` | Allowlist Uvicorn pentru IP-urile/CIDR-urile proxy-urilor autorizate; aplicația nu interpretează direct `X-Forwarded-For`. |
 
-Creșterea bugetului de context (`*_MAX_CONTEXT_CHARS`) mărește numărul de fragmente afișate, timpul de procesare și dimensiunea requestului trimis către furnizorul AI. În medii în care logurile nu au acces controlat, setați `LOG_FRAGMENT_TEXT=false`.
+Creșterea bugetului de conținut (`OLLAMA_MAX_CONTENT_TOKENS`, `X_AI_MAX_CONTENT_TOKENS`, `DEEPSEEK_MAX_CONTENT_TOKENS`, `HF_MAX_CONTENT_TOKENS`) mărește numărul de fragmente afișate, timpul de procesare și volumul total trimis către furnizorul AI. Limita per lot controlează separat dimensiunea fiecărei cereri. În medii în care logurile nu au acces controlat, setați `LOG_FRAGMENT_TEXT=false`.
 
 La pornirea directă, aplicația citește valorile din `.env`; valorile implicite diferă unde este indicat. Docker Compose transmite variabilele enumerate în secțiunea `environment`; `COOKIE_SECURE` este implicit `false` la pornire directă și `true` în Compose. `OWNER_KEY` este opțional, dar fără el generarea raportului este dezactivată; setați o cheie secretă și autorizați browserul prin formularul `/owner`. IP-ul pentru limite este furnizat de serverul ASGI; aplicația nu interpretează `X-Forwarded-For`. În deploymentul cu proxy, configurați allowlistul explicit `FORWARDED_ALLOW_IPS` al Uvicorn pentru proxy-urile autorizate; vechiul `TRUST_PROXY` nu mai acordă încredere antetelor.
 
@@ -1337,7 +1337,11 @@ La finalul PDF-ului, după bibliografie și sumarul generării, apare `Model AI 
 
 Toate modelele Ollama pentru rapoarte folosesc ruta nativă `/api/chat`. Parametrul de thinking este activat conform configurării pentru Gemma4 și Qwen3.5; pentru Gemma3 și Ministral este omis. R1 8B folosește explicit `think=true`, independent de `OLLAMA_REASONING_EFFORT`. Instalați pe host modelul local ales înainte de utilizare; opțiunea `ollama-ministral-3:8b` folosește tagul Ollama `ministral-3:8b`.
 
-Pentru `ollama-deepseek-r1:8b`, instalați modelul cu `ollama pull deepseek-r1:8b`. Tagul actual este DeepSeek-R1-0528-Qwen3-8B, Q4_K_M, care acceptă promptul `system` existent. Profilul implicit trimite `num_ctx=16384`, `num_predict=8192` și loturi de maximum 8.000 de caractere de fragmente; un fragment mai mare rămâne întreg într-un lot separat. Limita globală de ieșire nu înlocuiește limita specifică R1. Contextul include și promptul, profilul, metadatele, raționamentul și răspunsul, deci limita în caractere nu garantează încadrarea în tokeni. Depășirea oprește generarea fără trunchiere sau fallback.
+Pentru rapoartele `ollama-gemma3:1b`, profilul din catalog trimite `temperature=0`, `repeat_penalty=1.1` și `repeat_last_n=256`, pentru a reduce buclele de repetare în răspunsurile JSON. Aceste opțiuni se aplică numai generării rapoartelor cu acest model; schema, fragmentele întregi, contextul și limita de ieșire sunt păstrate. Profilul reduce riscul repetițiilor, fără a garanta eliminarea lor sau calitatea semantică a recomandărilor.
+
+Dacă Ollama întrerupe fluxul cu `prediction aborted, token repeat limit reached`, aplicația îl recunoaște drept `repetition_limit`, îl loghează fără textul generat și încheie jobul cu `AI_REPETITION_LIMIT_EXCEEDED`. Mesajul explică bucla de repetiție, în loc să raporteze o eroare generică de validare JSON. Celelalte loturi active sunt anulate; nu există retry automat, trunchiere sau publicare de PDF incomplet. Excepția de la bugetul local pentru requesturile cu un singur fragment rămâne valabilă.
+
+Pentru `ollama-deepseek-r1:8b`, instalați modelul cu `ollama pull deepseek-r1:8b`. Tagul actual este DeepSeek-R1-0528-Qwen3-8B, Q4_K_M, care acceptă promptul `system` existent. Profilul implicit trimite `num_ctx=32768`, `num_predict=8192` și folosește un buget conservator de 24.000 tokeni de intrare per lot, inclusiv instrucțiunile, profilul și schema JSON. Contextul a fost mărit pentru ca estimarea conservatoare a instrucțiunilor să lase loc și fragmentelor. Limita globală de ieșire nu înlocuiește limita specifică R1. Un fragment care nu încape în bugetul conservator este trimis întreg într-un request separat; limita reală de context rămâne verificată de Ollama, fără trunchiere sau fallback. Creșterea contextului poate mări consumul de memorie al Ollama.
 
 Ollama rulează pe GPU-ul hostului; containerul FastAPI nu necesită acces CUDA pentru rapoarte. Contextul R1 explicit înlocuiește pentru această cerere valoarea globală `OLLAMA_CONTEXT_LENGTH`. Verificați în timpul generării `ollama ps`: `100% GPU` indică încărcarea integrală a modelului pe GPU. Configurarea singură nu garantează încadrarea în VRAM. Nu sunt adăugate apeluri de warm-up la pornire. R1 14B nu este integrat.
 
@@ -1367,23 +1371,95 @@ Migrarea `013_canonical_report_metric_conditions.sql` corectează etichetele ist
 
 `REPORT_GENERATION_TIMEOUT_SECONDS` limitează întregul raport, inclusiv toate loturile și construirea PDF-ului (implicit 600 s; poate fi configurat). `OPERATION_TIMEOUT_SECONDS` rămâne separat pentru celelalte operații, iar `REPORT_GENERATION_READ_TIMEOUT_SECONDS` limitează I/O. Așteptarea în coada aplicației nu pornește timerul raportului.
 
-### Generare în loturi cu un singur worker
+### Un singur raport activ, cu loturi paralele configurabile
 
-Un singur worker hardcodat (`REPORT_GENERATION_WORKERS = 1`) trimite requests succesive pentru modelul ales. Nu există workers configurabili, cereri AI paralele, retry automat sau request AI de consolidare. Fiecare request primește același system prompt din `ai/prompts/generate_report_system.md`, profilul consultației și fragmentele întregi ale lotului său.
+Workerul FIFO unic (`REPORT_GENERATION_WORKERS = 1`) păstrează un singur raport activ.
+În interiorul său, un executor separat folosește `REPORT_BATCH_WORKERS` din `.env`
+(implicit `2`) drept limită de cereri AI simultane, exclusiv pentru loturile acelui
+raport. `1` dezactivează paralelismul; valorile neîntregi sau nepozitive sunt respinse
+la pornire. Docker Compose transmite setarea prin `app.environment`.
+După încheierea unui
+lot se poate admite următorul, fără a aștepta celelalte loturi active. Contextul operației,
+deadline-ul și ID-ul lotului sunt propagate explicit în fiecare fir. Nu există retry
+automat sau request AI de consolidare. Fiecare request primește același system prompt
+din `ai/prompts/generate_report_system.md`, profilul consultației și fragmentele întregi
+ale lotului său.
 
-`REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL` permite limite diferite per model. În `.env`, exemplu cu valorile inițiale:
+`REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL` permite bugete de intrare diferite per model și lot. În `.env`, exemplu cu valorile implicite:
 
 ```dotenv
-REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL='{"ollama-gemma3:1b":25000,"ollama-gemma4:12b":25000,"ollama-ministral-3:8b":25000,"ollama-qwen3.5:9b":25000,"ollama-qwen3.5:4b":25000,"ollama-deepseek-r1:8b":8000,"deepseek-flash":25000,"huggingface-deepseek-v4-flash":25000,"grok-4.3":25000}'
+REPORT_BATCH_WORKERS=2
+REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL='{"ollama-gemma3:1b":25000,"ollama-gemma4:12b":25000,"ollama-ministral-3:8b":25000,"ollama-qwen3.5:9b":25000,"ollama-qwen3.5:4b":25000,"ollama-deepseek-r1:8b":24000,"deepseek-flash":25000,"huggingface-deepseek-v4-flash":25000,"grok-4.3":25000}'
 ```
 
-Se însumează caracterele textului fragmentelor, fără profil, prompt sau serializare. Un fragment individual peste limită este acceptat întreg și trimis singur într-un request. Limita în caractere nu garantează încadrarea în contextul în tokeni al modelului; o eroare a furnizorului rămâne explicită, fără trunchiere automată. Bugetele `*_MAX_CONTEXT_CHARS` ale căutării locale rămân separate de această limită per request.
+Numărarea este locală și conservatoare: fiecare octet UTF-8 al payloadului JSON complet consumă un token din buget, plus o rezervă fixă de 256 tokeni pentru încadrarea mesajelor. Sunt incluse promptul de sistem, profilul, fragmentele, sursele, ID-urile, schema JSON și câmpurile cererii. Nu se folosește raportul de patru caractere per token, nu se descarcă tokenizatoare și nu se apelează furnizorii pentru numărare. Aceasta este o estimare conservatoare, nu numărul exact produs de tokenizerul modelului; poate produce loturi mai mici, iar furnizorul rămâne autoritatea pentru contextul real.
+
+Pentru Ollama cu `num_ctx` explicit, bugetul efectiv de intrare este minimul dintre limita configurată și `num_ctx - num_predict`, astfel încât ieșirea să aibă spațiu rezervat. Fără context explicit, rămâne configurația serverului Ollama; bugetul de intrare trebuie ales împreună cu limita de ieșire și contextul serverului. `REPORT_GENERATION_MAX_OUTPUT_TOKENS` și override-urile de ieșire rămân limite per lot, independente de bugetul de intrare.
+
+Fragmentele sunt păstrate întregi și ordonate după scor. Dacă un singur fragment cu întregul overhead depășește bugetul conservator, este izolat într-un lot și trimis întreg. Limita locală per lot este ignorată numai pentru requesturi cu exact un fragment, inclusiv dacă bugetul efectiv este redus de rezervarea ieșirii din contextul explicit. Loturile cu mai multe fragmente respectă în continuare limita. Nu se scurtează conținutul și nu se schimbă contextul sau limita de ieșire trimise furnizorului. Furnizorul poate respinge în continuare un request care depășește contextul real; eroarea rămâne `AI_CONTEXT_LIMIT_EXCEEDED`. Logurile folosesc `input_tokens_upper_bound` și `counting=utf8_bytes`, iar excepția locală este marcată prin `report_batch_token_limit_bypassed` cu `fragments=1`.
+
+`OLLAMA_MAX_CONTENT_TOKENS`, `X_AI_MAX_CONTENT_TOKENS`, `DEEPSEEK_MAX_CONTENT_TOKENS` și `HF_MAX_CONTENT_TOKENS` limitează separat totalul conținutului selectat pentru furnizorul respectiv înainte de lotizare. Se numără conservator octeții UTF-8 ai fragmentelor cu ID-uri, surse, titluri și serializare; se păstrează prefixul în ordinea scorului, fără scurtarea fragmentelor. Promptul, profilul, schema și ieșirea sunt bugetate separat per request. SQL folosește aceeași valoare ca prefiltru în caractere, apoi retrieval-ul verifică explicit octeții UTF-8: astfel, limita în tokeni nu este tratată ca o limită în caractere. Aceste estimări locale nu reprezintă numărul exact de tokeni calculat de furnizori.
+
+Vechea variabilă `REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL` trebuie eliminată și înlocuită cu valori alese în noua unitate; dacă ajunge în mediul aplicației, pornirea o respinge explicit, pentru a evita reinterpretarea silențioasă a caracterelor drept tokeni. După modificarea `.env` și a codului, configurația și imaginea serviciului trebuie actualizate de operator.
+
+Aceeași migrare explicită se aplică pentru `OLLAMA_MAX_CONTEXT_CHARS` → `OLLAMA_MAX_CONTENT_TOKENS`, `X_AI_MAX_CONTEXT_CHARS` → `X_AI_MAX_CONTENT_TOKENS`, `DEEPSEEK_MAX_CONTEXT_CHARS` → `DEEPSEEK_MAX_CONTENT_TOKENS` și `HF_MAX_CONTEXT_CHARS` → `HF_MAX_CONTENT_TOKENS`. Numele vechi sunt respinse la pornire dacă ajung în mediul aplicației.
 
 Fiecare răspuns este validat strict față de ID-urile lotului său; un lot valid fără recomandări este permis. Rezultatele sunt combinate prin cod: se elimină numai textele identice din aceeași secțiune și se reunesc sursele lor. Variantele diferite, dozele și atenționările sunt păstrate. Listele alimentare elimină numai elementele identice din aceeași subcategorie; rețetele culinare distincte din toate loturile sunt păstrate, fără plafon global suplimentar. Combinarea nu face reconciliere semantică sau validare clinică globală.
 
-După fiecare lot validat, UI actualizează un singur panou „Previzualizare raport”, cu secțiuni, recomandări și bibliografie formatate ca raportul final. Nu afișează JSON incomplet sau thinking brut. Până la primul rezultat apare „Se procesează loturile…”. Contorul loturilor finalizate nu este procent de progres. API expune `reportPreview`, `previewVersion`, `batchesCompleted` și `batchesTotal`; versiunile mai vechi nu înlocuiesc previzualizări noi. Panoul derulează automat la sfârșit și rămâne disponibil după finalizare.
+În forma structurată a secțiunii Nutriție, câmpurile text goale sau alcătuite numai din spații, liniuțe ASCII și marcaje `•` sunt normalizate ca lipsă de conținut; de exemplu, `"interzise": "-"` nu creează o recomandare goală și nu invalidează lotul. Obiectele-recomandare fără text util, citările invalide, câmpurile obligatorii lipsă și celelalte abateri continuă să fie respinse de validarea strictă.
 
-Orice request eșuat sau răspuns nevalidabil oprește raportul întreg. Rezultatele deja validate rămân vizibile drept „Previzualizare incompletă”, fără PDF parțial. Thinking și răspunsul brut sunt păstrate separat pentru diagnostic în sesiunea proprie, cu delimitatoare pe lot și cu bugetele existente de memorie; acestea nu intră în PDF sau loguri. Thinking este eliberat după succes. O nouă generare înlocuiește previzualizarea anterioară.
+Pentru rapoartele Ollama, `format` primește schema JSON a celor cinci secțiuni,
+inclusiv structura Nutriție și ID-urile permise din lotul curent. Recomandările din
+afara Nutriției cer cel puțin o citare. Schema ghidează generarea; validatorul local
+rămâne obligatoriu și respinge răspunsurile invalide, fără reparare sau retry automat.
+
+Problemele integrării Ollama sunt logate cu modelul, etapa și tipul eșecului:
+HTTP/rețea/timeout, model absent, încărcare sau memorie insuficientă, limită de context
+sau ieșire, protocol/stream întrerupt, JSON invalid și validarea rezultatului.
+`ai_report_validation_failed` include lotul, numărul problemelor per cod și cel mult
+20 de poziții afectate (secțiune/index), de exemplu `UNKNOWN_EVIDENCE`,
+`MISSING_EVIDENCE`, `INVALID_ITEM` sau `MISSING_NUTRITION_FIELD`.
+Clasificarea mesajelor, identificarea afecțiunilor, inventarul modelelor și indexarea
+folosesc același diagnostic de transport; indexarea include și codurile cunoscute de
+validare. Erorile neașteptate sunt logate prin tip, fără argumentele excepției.
+Logurile nu includ promptul, fragmentele, răspunsul brut, thinking sau chei API;
+mesajele arbitrare ale furnizorului sunt înlocuite cu motive tehnice cunoscute.
+Pentru diagnostic în runtime: `docker compose logs --since 30m app`.
+
+Zona „Previzualizare raport” afișează câte un panou separat „Lotul N din T” pentru
+fiecare lot planificat, în ordinea procesării. Fiecare panou păstrează exclusiv
+recomandările și bibliografia lotului său, cu derulare proprie; previzualizările nu
+se cumulează. Loturile în așteptare, active, validate, eșuate, anulate sau expirate
+au stări distincte. În timpul procesării, detaliile lotului afișează analiza
+transmisă de furnizor și răspunsul brut, inclusiv JSON incomplet. După validare,
+detaliile brute sunt restrânse; după succes rămân previzualizările validate ale
+tuturor loturilor. La eșec/anulare se păstrează și detaliile lotului întrerupt,
+iar cele neîncepute sunt marcate ca neprocesate. Textele brute sunt nevalidate
+și nu intră direct în raport sau PDF.
+
+API expune `batchPreviews`, cu `index`, `state`, `reportPreview`, `streamPreview`
+și `thinkingPreview` pentru fiecare lot, plus `previewVersion`, `batchesCompleted`
+și `batchesTotal`. Câmpul compatibil `reportPreview` conține ultimul lot validat.
+Fiecare lot deține propriile fragmente de răspuns/analiză și propria `aiActivity`,
+astfel încât textul simultan nu se amestecă. Câmpurile agregate de compatibilitate
+sunt construite la citire, în ordinea loturilor, fără copii brute suplimentare
+reținute în sesiune. Snapshoturile formatate, textul și metadatele loturilor (inclusiv
+o rezervă de 2 KiB per lot pentru activitate) sunt contabilizate în bugetele existente.
+Contorul loturilor finalizate numără loturile validate, chiar dacă lotul 2 se termină
+înaintea lotului 1; versiunile cresc monoton. El nu este procent
+de progres. Raportul final și PDF-ul continuă să combine toate loturile în backend,
+cu aceleași reguli de validare și deduplicare.
+
+Prima eroare de request sau validare oprește admiterea loturilor următoare și solicită
+anularea cooperativă a celorlalte loturi active. Eroarea inițială este păstrată chiar dacă
+anularea altui fir este observată prima de coordonator. Anularea utilizatorului
+și timeoutul raportului se propagă tuturor loturilor active. Apelurile I/O deja blocate nu pot
+fi ucise ca fire Python: capacitatea raportului rămâne ocupată până la ieșirea efectivă
+a tuturor firelor, în limitele timeouturilor I/O. Nu se publică PDF parțial.
+Previzualizările validate și datele loturilor întrerupte rămân în sesiune. Thinking și
+răspunsul brut nu intră în PDF sau loguri; thinking este eliberat după succes. O nouă
+generare înlocuiește previzualizarea anterioară. La succes, rezultatele sunt combinate
+în ordinea inițială a loturilor, indiferent de ordinea sosirii lor.
 
 PDF-ul, mesajul „Raportul este gata” și o singură măsurătoare `report_generation_metrics` sunt publicate numai după încheierea tuturor loturilor. Durata este timpul real al raportului, nu suma unor durate fictive per lot. Estimarea existentă continuă să folosească toate observațiile modelului; istoricul cu o singură cerere poate avea performanțe diferite de fluxul în loturi.
 

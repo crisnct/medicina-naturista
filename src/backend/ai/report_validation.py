@@ -24,7 +24,9 @@ SECTIONS: tuple[Section, ...] = (
 
 
 class ReportValidationError(ValueError):
-    pass
+    def __init__(self, code: str, *, warnings: list[ValidationWarning] | None = None) -> None:
+        super().__init__(code)
+        self.warnings = tuple(warnings or ())
 
 
 class Recommendation(BaseModel):
@@ -58,6 +60,54 @@ NUTRITION_FIELDS = {
 }
 
 
+# Constrain structure and batch-local citations before generation, then validate again locally.
+def report_response_schema(evidence: dict) -> dict[str, Any]:
+    def recommendation(min_ids: int) -> dict[str, Any]:
+        return {
+            "type": "object",
+            "additionalProperties": False,
+            "required": ["text", "evidence_ids"],
+            "properties": {
+                "text": {"type": "string", "minLength": 1},
+                "evidence_ids": {
+                    "type": "array",
+                    "minItems": min_ids,
+                    "items": {"type": "string", "enum": list(evidence)},
+                },
+            },
+        }
+
+    properties: dict[str, Any] = {
+        section: {"type": "array", "items": recommendation(1)}
+        for section in SECTIONS
+        if section != "nutritie"
+    }
+    properties["nutritie"] = {
+        "type": "object",
+        "additionalProperties": False,
+        "required": list(NUTRITION_FIELDS),
+        "properties": {
+            "retete": {
+                "type": "array",
+                "items": {
+                    "anyOf": [
+                        {"type": "string", "minLength": 1},
+                        recommendation(0),
+                    ]
+                },
+            },
+            **{field: {"type": "string"} for field in NUTRITION_FIELDS if field != "retete"},
+        },
+    }
+    return {
+        "type": "object",
+        "additionalProperties": False,
+        "required": list(SECTIONS),
+        "properties": properties,
+    }
+
+
+# Empty nutrition placeholders may contain whitespace, ASCII dashes or bullets.
 def normalize_nutrition(value: dict) -> list[tuple[Any, str]]:
     """Accepted scalar/list forms; retain malformed items for validation."""
     items = []
@@ -67,7 +117,7 @@ def normalize_nutrition(value: dict) -> list[tuple[Any, str]]:
             continue
         for item in raw if isinstance(raw, list) else [raw]:
             if isinstance(item, str):
-                if not item.strip():
+                if not item.strip().strip(" -•\r\n\t"):
                     continue
                 item = {"text": item, "evidence_ids": []}
             items.append((item, f"[{prefix}]: "))
@@ -79,7 +129,7 @@ def validate_report(
 ) -> ValidatedReport:
     if not isinstance(value, dict):
         raise ReportValidationError("REPORT_INVALID")
-    sections = {key: [] for key in SECTIONS}
+    sections: dict[Section, list[Recommendation]] = {key: [] for key in SECTIONS}
     warnings: list[ValidationWarning] = []
 
     def warn(code, section=None, index=None, count=None):
@@ -132,7 +182,7 @@ def validate_report(
                 Recommendation(text=prefix + text, evidence_ids=list(dict.fromkeys(ids)))
             )
     if strict and warnings:
-        raise ReportValidationError("REPORT_INVALID")
+        raise ReportValidationError("REPORT_INVALID", warnings=warnings)
     if not allow_empty and not any(sections.values()):
-        raise ReportValidationError("REPORT_EMPTY")
+        raise ReportValidationError("REPORT_EMPTY", warnings=warnings)
     return ValidatedReport(sections=sections, partial=bool(warnings), validationWarnings=warnings)

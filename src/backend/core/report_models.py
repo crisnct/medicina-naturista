@@ -29,7 +29,7 @@ DEFAULT_REPORT_MODELS: tuple[ReportModel, ...] = (
     "grok-4.3",
 )
 DEFAULT_REPORT_MODEL: ReportModel = DEFAULT_REPORT_MODELS[0]
-DEFAULT_REPORT_BATCH_MAX_CHARS: Final = 25_000
+DEFAULT_REPORT_BATCH_MAX_TOKENS: Final = 25_000
 
 
 @dataclass(frozen=True)
@@ -37,24 +37,30 @@ class ReportModelSpec:
     provider: str
     model: str
     owner_only: bool = True
-    batch_max_chars: int = DEFAULT_REPORT_BATCH_MAX_CHARS
+    batch_max_tokens: int = DEFAULT_REPORT_BATCH_MAX_TOKENS
     context_tokens: int | None = None
     max_output_tokens: int | None = None
     thinking: bool | None = None
+    temperature: float | None = None
+    repeat_penalty: float | None = None
+    repeat_last_n: int | None = None
 
 
 REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
     {
         "ollama-gemma4:12b": ReportModelSpec("ollama", "gemma4:12b"),
-        "ollama-gemma3:1b": ReportModelSpec("ollama", "gemma3:1b"),
+        # The 1B model needs constrained sampling to reduce repeated-token loops in JSON.
+        "ollama-gemma3:1b": ReportModelSpec(
+            "ollama", "gemma3:1b", temperature=0.0, repeat_penalty=1.1, repeat_last_n=256
+        ),
         "ollama-qwen3.5:9b": ReportModelSpec("ollama", "qwen3.5:9b"),
         "ollama-qwen3.5:4b": ReportModelSpec("ollama", "qwen3.5:4b"),
         "ollama-ministral-3:8b": ReportModelSpec("ollama", "ministral-3:8b"),
         "ollama-deepseek-r1:8b": ReportModelSpec(
             "ollama",
             "deepseek-r1:8b",
-            batch_max_chars=8_000,
-            context_tokens=16_384,
+            batch_max_tokens=24_000,
+            context_tokens=32_768,
             max_output_tokens=8_192,
             thinking=True,
         ),

@@ -45,7 +45,7 @@ from backend.core.models import (
     SessionOperation,
     StoredReport,
 )
-from backend.core.operation_context import OperationBudget, operation_budget
+from backend.core.operation_context import OperationBudget, operation_budget, report_batch_index
 from backend.core.report_metrics import ReportMetrics, validate_min_score
 from backend.core.sessions import SessionStore
 from backend.core.texts import tr
@@ -293,15 +293,25 @@ class ConversationService:
             operation.deadline,
             self.store.clock,
             lambda: self.store.checkpoint(operation),
-            (lambda text: self.store.generation_output(operation, text))
-            if operation.kind == "generate"
-            else None,
-            report_thinking=(
-                lambda text: self.store.generation_output(operation, text, thinking=True)
+            (
+                lambda text: self.store.generation_output(
+                    operation, text, batch_index=report_batch_index()
+                )
             )
             if operation.kind == "generate"
             else None,
-            report_activity=(lambda event: self.store.generation_activity(operation, event))
+            report_thinking=(
+                lambda text: self.store.generation_output(
+                    operation, text, thinking=True, batch_index=report_batch_index()
+                )
+            )
+            if operation.kind == "generate"
+            else None,
+            report_activity=(
+                lambda event: self.store.generation_activity(
+                    operation, event, batch_index=report_batch_index()
+                )
+            )
             if operation.kind == "generate"
             else None,
             report_batch=batch_progress if operation.kind == "generate" else None,

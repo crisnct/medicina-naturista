@@ -37,7 +37,7 @@ export function GenerationStreamPreview({
         aria-label={label}
         readOnly
         rows={10}
-        value={text ? `${text}.....` : ""}
+        value={text ?? ""}
         placeholder={placeholder}
         spellCheck={false}
       />

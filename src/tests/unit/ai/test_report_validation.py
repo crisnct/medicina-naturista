@@ -57,9 +57,21 @@ def test_missing_invalid_and_extra_sections():
     assert "unknown medical name" not in result.model_dump_json()
 
 
-@pytest.mark.parametrize("nutrition", [[{"text": "Supă", "evidence_ids": []}], {"retete": "Supă"}])
+@pytest.mark.parametrize(
+    "nutrition",
+    [
+        [{"text": "Supă", "evidence_ids": []}],
+        {
+            "retete": "Supă",
+            "recomandate": "",
+            "nerecomandate": "\u00a0 \t ",
+            "interzise": "-",
+            "alte": " • - ",
+        },
+    ],
+)
 def test_compatible_nutrition_does_not_mark_partial(nutrition):
-    result = validate_report(report(nutritie=nutrition), EVIDENCE)
+    result = validate_report(report(nutritie=nutrition), EVIDENCE, strict=True)
     assert not result.partial
     assert len(result.sections["nutritie"]) == 1
 

@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import json
 import logging
 import threading
 from pathlib import Path
@@ -20,7 +21,7 @@ from backend.ai.search import (
     max_score,
     rank,
 )
-from backend.core.contracts import Evidence, EvidenceItem
+from backend.core.contracts import Evidence, EvidenceItem, EvidenceTokenBudget
 from backend.core.models import SessionData, SessionSnapshot
 
 __all__ = ["Retriever", "consultation_query", "GENERIC_QUERY_WORDS_PATH", "_meaningful_words"]
@@ -72,16 +73,22 @@ class Retriever:
         return f"{EVIDENCE_HEADING_PREFIX}{heading}{EVIDENCE_HEADING_SEPARATOR}{text}"
 
     # Run hybrid retrieval and assemble a deduplicated, prioritized evidence inventory.
-    # max_chars is the evidence budget for the active AI provider; None means
-    # no budget (rank() returns every fragment).
+    # Typed token budgets preserve their unit; plain integers retain character semantics.
     def collect(
-        self, session: SessionData | SessionSnapshot, max_chars: int | None = None
+        self,
+        session: SessionData | SessionSnapshot,
+        max_chars: int | EvidenceTokenBudget | None = None,
     ) -> Evidence:
         with index_reader() as (_connection, metadata):
             tree, _generation = self.categories_snapshot()
             return self._collect(session, max_chars, tree, metadata.index_generation)
 
     def _collect(self, session, max_chars, tree, generation):
+        token_budget = max_chars if isinstance(max_chars, EvidenceTokenBudget) else None
+        # UTF-8 bytes cannot cost less than characters. This SQL prefix contains every
+        # possible fitting token prefix; the exact conservative byte check runs below.
+        if token_budget is not None:
+            max_chars = token_budget.max_tokens
         profile = session.profile
         query = consultation_query(profile)
         if not query:
@@ -103,15 +110,13 @@ class Retriever:
         # The fragment's score is rank()'s score (ai/search.py: the weighted
         # sum of the chosen signals, never above max_score(signals));
         # relevance_percent is that score as a percentage of the ceiling OF THAT
-        # COMBINATION, computed here once and never again. rank() applies the
-        # only limit there is, the provider's context budget over the evidence
-        # text, by cutting whole fragments from the end of the score-ordered
-        # list, so every fragment it returns becomes evidence, below.
+        # COMBINATION, computed here once and never again. rank() cuts a whole-fragment
+        # prefix by characters; a token budget additionally bounds serialized content.
         # The message resolved as the chat saw it: the dictionary's conditions plus
         # the ones the AI identified. Without any condition the conditions signal
         # cannot contribute, so the percentages are relative to the rest.
         resolved = resolved_for(profile)
-        candidates = rank(
+        candidates: list[dict[str, Any]] = rank(
             query,
             category_ids=category_ids,
             max_chars=max_chars,
@@ -123,8 +128,10 @@ class Retriever:
         # Each fragment is one piece of evidence, exactly as indexed (fragments
         # are whole sections, see ai/fragmenter.py), best score first.
         evidence = EvidenceSnapshot(generation, removed)
+        content_tokens = 0
         for best in candidates:
-            evidence[f"C{best['chunk_id']}"] = {
+            evidence_id = f"C{best['chunk_id']}"
+            item: EvidenceItem = {
                 "source": (
                     f"documents/{best['source_relative_path']}:{best['line_start']}-{best['line_end']}"
                 ),
@@ -150,6 +157,14 @@ class Retriever:
                 # A future selective signal adds its own "found_by_<signal>" flag here.
                 "found_by_lexical": best["found_by_lexical"],
             }
+            if token_budget is not None:
+                # Count the same ID, source and text fields sent to the report client.
+                entry = {"id": evidence_id, "source": item["source"], "text": item["text"]}
+                size = len(json.dumps([entry], ensure_ascii=False).encode("utf-8"))
+                if content_tokens + size > token_budget.max_tokens:
+                    break
+                content_tokens += size
+            evidence[evidence_id] = item
 
         logger.info(
             "retrieval_completed search_candidates=%s "
@@ -159,6 +174,13 @@ class Retriever:
             sum(len(item["text"]) for item in evidence.values()),
             len({item["source"].split(":", 1)[0] for item in evidence.values()}),
         )
+        if token_budget is not None:
+            logger.info(
+                "retrieval_content_budget input_tokens_upper_bound=%s max_content_tokens=%s "
+                "counting=utf8_bytes",
+                content_tokens,
+                token_budget.max_tokens,
+            )
         return evidence
 
 

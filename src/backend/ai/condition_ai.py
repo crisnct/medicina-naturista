@@ -144,6 +144,14 @@ def _validate(raw: Any, segment_count: int) -> tuple[IdentifiedCondition, ...]:
             if len(terms) > MAX_SYNONYMS:
                 break
         answers[index] = {"index": index, "name": name, "terms": terms}
+    if len(answers) < len(entries):
+        logger.warning(
+            "condition_ai_items_discarded provider=ollama model=%s "
+            "stage=condition_validation discarded=%s total=%s",
+            settings.medical_condition_ai_local_model,
+            len(entries) - len(answers),
+            len(entries),
+        )
     return tuple(answers[index] for index in sorted(answers))
 
 
@@ -163,6 +171,12 @@ def _ask_client(client: ResponsesClient, texts: tuple[str, ...]) -> tuple[Identi
             TIMEOUT if isinstance(exc.__cause__, httpx.TimeoutException) else ERROR
         ) from exc
     except ValueError as exc:
+        logger.error(
+            "condition_ai_validation_failed provider=%s model=%s stage=condition_validation type=%s",
+            client.provider.name,
+            client.provider.model,
+            type(exc).__name__,
+        )
         raise _BackendFailure(ERROR) from exc
 
 
@@ -195,8 +209,12 @@ def identify_conditions(resolved: ResolvedQuery) -> AIConditionResult:
     except _BackendFailure as failure:
         logger.warning("condition_ai_backend_failed backend=local reason=%s", failure.reason)
         result = AIConditionResult(reason=failure.reason, backend="local")
-    except Exception:
-        logger.error("condition_ai_unexpected_error")
+    except Exception as exc:
+        logger.error(
+            "condition_ai_unexpected_error provider=ollama model=%s type=%s",
+            settings.medical_condition_ai_local_model,
+            type(exc).__name__,
+        )
         result = AIConditionResult(reason=ERROR)
     else:
         result = AIConditionResult(answers, "local", IDENTIFIED if answers else NONE)

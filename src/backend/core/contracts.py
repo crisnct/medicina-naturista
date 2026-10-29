@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from collections.abc import Callable
+from dataclasses import dataclass
 from pathlib import Path
 from typing import TYPE_CHECKING, Literal, NotRequired, Protocol, TypedDict
 
@@ -56,8 +57,15 @@ class EvidenceItem(TypedDict):
 Evidence = dict[str, EvidenceItem]
 
 
+@dataclass(frozen=True)
+class EvidenceTokenBudget:
+    """A conservative token budget, distinct from legacy character budgets."""
+
+    max_tokens: int
+
+
 class AIProtocol(Protocol):
-    def context_budget(self) -> int | None: ...
+    def context_budget(self) -> int | EvidenceTokenBudget | None: ...
     def generate(self, profile: ProfilePayload, evidence: Evidence) -> ValidatedReport: ...
     def is_configured(self) -> bool: ...
     def close(self) -> None: ...
@@ -68,7 +76,9 @@ class RetrievalProtocol(Protocol):
     def document_count(self) -> int: ...
     @property
     def category_tree(self) -> CategoryTree | None: ...
-    def collect(self, session: SessionSnapshot, max_chars: int | None = None) -> Evidence: ...
+    def collect(
+        self, session: SessionSnapshot, max_chars: int | EvidenceTokenBudget | None = None
+    ) -> Evidence: ...
 
 
 class EmailProtocol(Protocol):

@@ -198,6 +198,54 @@ class AIActivity:
 
 
 @dataclass
+class ReportBatchPreview:
+    """One batch owns its diagnostic chunks, activity and validated snapshot."""
+
+    index: int
+    started: bool = False
+    completed: bool = False
+    report_preview: str | None = None
+    failed: bool = False
+    cancelled: bool = False
+    stream_parts: list[str] = field(default_factory=list, repr=False)
+    thinking_parts: list[str] = field(default_factory=list, repr=False)
+    ai_activity: AIActivity | None = None
+
+    # Raw chunks are charged once by the job; activity owns a fixed metadata slot.
+    def metadata(self) -> dict[str, Any]:
+        return {
+            "index": self.index,
+            "started": self.started,
+            "completed": self.completed,
+            "failed": self.failed,
+            "cancelled": self.cancelled,
+            "report_preview": self.report_preview,
+        }
+
+    def as_dict(self, job: ReportGeneration, now: float) -> dict[str, Any]:
+        state = "validated" if self.completed else "pending"
+        if self.started and not self.completed:
+            if self.failed:
+                state = "failed"
+            elif self.cancelled:
+                state = "timed_out" if job.state == "timed_out" else "cancelled"
+            else:
+                state = (
+                    job.state if job.state in {"failed", "cancelled", "timed_out"} else "running"
+                )
+        return {
+            "index": self.index,
+            "state": state,
+            "reportPreview": self.report_preview,
+            "streamPreview": "".join(self.stream_parts) or None,
+            "thinkingPreview": ("".join(self.thinking_parts) or None)
+            if job.state != "succeeded"
+            else None,
+            "aiActivity": self.ai_activity.as_dict(now) if self.ai_activity else None,
+        }
+
+
+@dataclass
 class ReportGeneration:
     """Bounded, session-owned job metadata; never stores credentials or PDF copies."""
 
@@ -221,7 +269,6 @@ class ReportGeneration:
     error_code: str | None = None
     message: str | None = None
 
-    estimated_minutes_per_44500_chars: int = 6
     stream_parts: list[str] = field(default_factory=list, repr=False)
     stream_bytes: int = 0
     thinking_parts: list[str] = field(default_factory=list, repr=False)
@@ -234,10 +281,36 @@ class ReportGeneration:
     preview_version: int = 0
     batches_completed: int = 0
     batches_total: int = 0
+    batch_previews: list[ReportBatchPreview] = field(default_factory=list, repr=False)
+    batch_previews_bytes: int = 0
 
     @property
     def stream_preview(self) -> str | None:
+        if self.batch_previews:
+            return (
+                "\n\n".join(
+                    f"--- Lot {batch.index}/{self.batches_total} ---\n{''.join(batch.stream_parts)}"
+                    for batch in self.batch_previews
+                    if batch.stream_parts
+                )
+                or None
+            )
         return "".join(self.stream_parts) or None
+
+    @property
+    def thinking_preview(self) -> str | None:
+        if self.state == "succeeded":
+            return None
+        if self.batch_previews:
+            return (
+                "\n\n".join(
+                    f"--- Lot {batch.index}/{self.batches_total} ---\n{''.join(batch.thinking_parts)}"
+                    for batch in self.batch_previews
+                    if batch.thinking_parts
+                )
+                or None
+            )
+        return "".join(self.thinking_parts) or None
 
     def as_dict(self, now: float | None = None) -> dict[str, Any]:
         return {
@@ -262,13 +335,14 @@ class ReportGeneration:
             "previewVersion": self.preview_version,
             "batchesCompleted": self.batches_completed,
             "batchesTotal": self.batches_total,
-            "estimatedMinutesPer44500Chars": self.estimated_minutes_per_44500_chars,
+            "batchPreviews": [
+                batch.as_dict(self, time.monotonic() if now is None else now)
+                for batch in self.batch_previews
+            ],
             "streamPreview": self.stream_preview,
             "streamTokensPerSecond": self.stream_rate.tokens_per_second(),
             "thinkingTokensPerSecond": self.thinking_rate.tokens_per_second(),
-            "thinkingPreview": "".join(self.thinking_parts) or None
-            if self.state != "succeeded"
-            else None,
+            "thinkingPreview": self.thinking_preview,
             "aiActivity": self.ai_activity.as_dict(time.monotonic() if now is None else now)
             if self.ai_activity
             else None,

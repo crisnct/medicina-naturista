@@ -1445,3 +1445,184 @@ description: chronological action log per session, consolidated weekly
 | 13:56 | Edited src/scripts/herb_index_requests.py | 3→4 lines | ~55 |
 | 13:56 | Edited README.md | expanded (+11 lines) | ~557 |
 | 13:57 | Edited src/backend/ai/condition_ai.py | modified _validate() | ~86 |
+| 14:29 | Edited src/frontend/components/GeneratePanel.tsx | "generate-inline" → "generate-inline${message." | ~23 |
+| 14:29 | Edited src/frontend/styles.css | CSS: font-size, white-space | ~35 |
+
+## Session: 2026-10-28 14:33
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 14:39 | Created aiPlans/2026-10-28-diagnostic-ollama-si-validare-raport.md | — | ~481 |
+| 14:41 | Edited src/backend/ai/report_validation.py | modified __init__() | ~588 |
+| 14:41 | Edited src/backend/ai/client.py | modified __init__() | ~1996 |
+| 14:42 | Edited src/backend/ai/report_validation.py | 2→2 lines | ~34 |
+| 14:42 | Edited src/backend/ai/herb_association_classification.py | added error handling | ~563 |
+| 14:42 | Edited src/backend/ai/condition_ai.py | expanded (+10 lines) | ~154 |
+| 14:42 | Edited src/backend/ai/message_classification.py | 5→8 lines | ~140 |
+| 14:42 | Edited src/scripts/herb_index_requests.py | modified complete_json() | ~63 |
+| 14:43 | Edited src/backend/ai/client.py | modified _ollama_error_reason() | ~1199 |
+| 14:45 | Edited src/scripts/herb_index_requests.py | modified isinstance() | ~670 |
+| 14:45 | Edited README.md | expanded (+18 lines) | ~486 |
+| 14:46 | Edited src/backend/ai/report_validation.py | inline fix | ~24 |
+| 14:46 | Edited src/scripts/herb_index_requests.py | 3→3 lines | ~44 |
+| 14:46 | Edited src/backend/ai/condition_ai.py | modified len() | ~111 |
+| 14:49 | Edited src/backend/ai/client.py | modified complete_json() | ~152 |
+| 14:49 | Edited src/backend/ai/herb_association_classification.py | modified complete_json() | ~281 |
+| 14:49 | Edited src/scripts/herb_index_requests.py | added error handling | ~338 |
+| 14:49 | Edited src/scripts/positive_herb_ranking.py | 2→1 lines | ~28 |
+| 14:49 | Edited src/scripts/herb_product_safety_index.py | 2→1 lines | ~28 |
+| 14:49 | Edited src/scripts/herb_safety_index.py | 2→2 lines | ~10 |
+| 14:55 | Edited src/backend/ai/client.py | 2→6 lines | ~62 |
+| 14:55 | Edited aiPlans/2026-10-28-diagnostic-ollama-si-validare-raport.md | expanded (+32 lines) | ~616 |
+| 15:12 | Created aiPlans/2026-10-28-detalii-ai-in-timpul-generarii.md | — | ~187 |
+| 15:12 | Edited src/frontend/components/GenerationReportPreview.tsx | added nullish coalescing | ~400 |
+| 15:12 | Edited src/frontend/components/GeneratePanel.tsx | CSS: undefined, undefined | ~125 |
+| 15:12 | Edited src/frontend/components/GenerationStreamPreview.tsx | added nullish coalescing | ~8 |
+| 15:12 | Edited src/frontend/styles.css | CSS: display, gap, margin-top | ~44 |
+| 15:12 | Edited README.md | "reportPreview" → "thinkingPreview" | ~242 |
+| 15:14 | Edited src/frontend/components/GenerationReportPreview.tsx | "common.ai_answer_title" → "interface.generate_answer" | ~16 |
+| 15:15 | Edited aiPlans/2026-10-28-detalii-ai-in-timpul-generarii.md | expanded (+13 lines) | ~243 |
+
+## Session: 2026-10-28 20:11
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 20:13 | Created aiPlans/2026-10-28-previzualizare-separata-pe-lot.md | — | ~204 |
+| 20:14 | Edited src/backend/core/models.py | modified as_dict() | ~397 |
+| 20:14 | Edited src/backend/core/sessions.py | modified _store_batch_previews() | ~831 |
+| 20:14 | Edited src/backend/ai/client.py | inline fix | ~18 |
+| 20:14 | Edited src/backend/core/operation_context.py | inline fix | ~27 |
+| 20:14 | Edited src/backend/web/main.py | modified ReportBatchPreviewResponse() | ~127 |
+| 20:14 | Edited src/frontend/api/types.ts | expanded (+9 lines) | ~99 |
+| 20:14 | Edited src/frontend/lib/generationFeedback.ts | 2→3 lines | ~38 |
+| 20:14 | Edited src/frontend/hooks/useReportGeneration.ts | 2→4 lines | ~46 |
+| 20:14 | Edited src/frontend/components/GeneratePanel.tsx | 1→2 lines | ~26 |
+| 20:15 | Edited src/frontend/components/GenerationReportPreview.tsx | added optional chaining | ~821 |
+| 20:15 | Edited src/frontend/styles.css | 2→7 lines | ~97 |
+| 20:15 | Edited src/backend/resources/texts.ro.toml | expanded (+10 lines) | ~153 |
+| 20:16 | Edited src/frontend/components/GenerationReportPreview.tsx | 3→3 lines | ~26 |
+| 20:16 | Edited README.md | expanded (+18 lines) | ~370 |
+| 20:24 | Edited aiPlans/2026-10-28-previzualizare-separata-pe-lot.md | expanded (+32 lines) | ~544 |
+
+## Session: 2026-10-29 06:24
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 06:31 | Created aiPlans/2026-10-29-doua-loturi-paralele.md | — | ~290 |
+| 06:31 | Edited src/backend/core/report_batches.py | 1→2 lines | ~20 |
+| 06:32 | Edited src/backend/core/operation_context.py | modified report_batch_index() | ~350 |
+| 06:32 | Edited src/backend/ai/client.py | added error handling | ~1174 |
+| 06:33 | Edited src/backend/core/models.py | modified metadata() | ~676 |
+| 06:33 | Edited src/backend/core/conversation.py | operation_budget() → report_batch_index() | ~130 |
+| 06:33 | Edited src/backend/core/sessions.py | modified generation_activity() | ~962 |
+| 06:33 | Edited src/backend/web/main.py | modified ReportBatchPreviewResponse() | ~38 |
+| 06:33 | Edited src/frontend/api/types.ts | 2→3 lines | ~31 |
+| 06:33 | Edited src/frontend/components/GenerationReportPreview.tsx | added 1 import(s) | ~71 |
+
+## Session: 2026-10-29 06:35
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-10-29 06:35
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 06:36 | Edited README.md | expanded (+20 lines) | ~760 |
+| 06:38 | Created aiPlans/tmp/parallel-report-probe.py | — | ~3594 |
+| 06:38 | Edited aiPlans/tmp/parallel-report-probe.py | modified run() | ~140 |
+| 06:38 | Edited src/backend/ai/client.py | 10→9 lines | ~131 |
+| 06:40 | Edited README.md | inline fix | ~105 |
+| 06:41 | Edited src/backend/core/sessions.py | 3→4 lines | ~49 |
+| 06:41 | Edited aiPlans/tmp/parallel-report-probe.py | modified release() | ~227 |
+| 06:43 | Edited aiPlans/2026-10-29-doua-loturi-paralele.md | expanded (+44 lines) | ~732 |
+| 06:58 | Created aiPlans/2026-10-29-report-batch-workers-env.md | — | ~160 |
+| 06:58 | Edited src/backend/config.py | 4→8 lines | ~167 |
+| 06:58 | Edited src/backend/ai/client.py | 10→12 lines | ~202 |
+| 06:58 | Edited src/backend/core/report_batches.py | — | ~0 |
+| 06:58 | Edited docker-compose.yaml | 1→2 lines | ~44 |
+| 06:59 | Edited README.md | 6→11 lines | ~343 |
+| 06:59 | Edited docker-compose.yaml | 1→2 lines | ~49 |
+| 07:00 | Edited src/backend/ai/client.py | inline fix | ~26 |
+| 07:00 | Edited README.md | 2→2 lines | ~135 |
+| 07:01 | Edited README.md | 4→4 lines | ~262 |
+| 07:01 | Edited aiPlans/2026-10-29-report-batch-workers-env.md | expanded (+13 lines) | ~218 |
+| 07:02 | Created aiPlans/2026-10-29-eliminare-estimare-fixa.md | — | ~129 |
+| 07:02 | Edited src/backend/config.py | — | ~0 |
+| 07:02 | Edited src/backend/core/models.py | — | ~0 |
+| 07:02 | Edited src/backend/core/sessions.py | — | ~0 |
+| 07:02 | Edited src/backend/web/main.py | — | ~0 |
+| 07:02 | Edited src/frontend/api/types.ts | — | ~0 |
+| 07:02 | Edited docker-compose.yaml | — | ~0 |
+| 07:02 | Edited README.md | — | ~0 |
+| 07:05 | Edited aiPlans/2026-10-29-eliminare-estimare-fixa.md | expanded (+15 lines) | ~255 |
+| 08:30 | Created aiPlans/2026-10-29-loturi-raport-buget-tokeni.md | — | ~396 |
+| 08:31 | Edited src/backend/core/report_batches.py | modified partition_evidence() | ~287 |
+| 08:31 | Edited src/backend/ai/client.py | added error handling | ~835 |
+| 08:32 | Edited src/backend/config.py | modified strip() | ~99 |
+| 08:32 | Edited src/backend/core/report_models.py | 2→2 lines | ~21 |
+| 08:32 | Edited src/backend/ai/client.py | modified _generate_batch() | ~138 |
+| 08:32 | Edited README.md | expanded (+6 lines) | ~980 |
+| 08:35 | Edited src/backend/core/contracts.py | modified context_budget() | ~140 |
+| 08:35 | Edited src/backend/ai/providers.py | 2→4 lines | ~50 |
+| 08:35 | Edited src/backend/ai/client.py | modified context_budget() | ~133 |
+| 08:35 | Edited src/backend/ai/retrieval.py | modified collect() | ~569 |
+| 08:35 | Edited src/backend/config.py | modified strip() | ~85 |
+| 08:35 | Edited src/tests/unit/ai/test_client_providers.py | modified budget() | ~115 |
+| 08:35 | Edited README.md | 3→7 lines | ~517 |
+| 08:35 | Edited aiPlans/2026-10-29-loturi-raport-buget-tokeni.md | expanded (+6 lines) | ~190 |
+| 08:37 | Edited src/backend/ai/retrieval.py | inline fix | ~14 |
+| 08:37 | Edited src/backend/ai/client.py | 2→2 lines | ~48 |
+| 08:37 | Edited src/tests/unit/ai/test_client_providers.py | modified capture_post() | ~231 |
+| 08:37 | Edited src/tests/unit/ai/test_condition_ai.py | modified fake_post() | ~337 |
+| 08:39 | Edited src/tests/unit/ai/test_condition_ai.py | 2→5 lines | ~80 |
+| 08:39 | Edited README.md | "*_MAX_CONTEXT_CHARS" → "OLLAMA_MAX_CONTENT_TOKENS" | ~100 |
+| 08:44 | Edited README.md | inline fix | ~245 |
+| 08:44 | Edited aiPlans/2026-10-29-loturi-raport-buget-tokeni.md | expanded (+30 lines) | ~572 |
+| 08:46 | Edited src/backend/ai/providers.py | 2→4 lines | ~57 |
+| 08:46 | Edited src/backend/config.py | modified strip() | ~167 |
+| 08:46 | Edited src/backend/ai/client.py | inline fix | ~26 |
+| 08:46 | Edited src/tests/unit/ai/test_client_providers.py | 4→8 lines | ~122 |
+| 08:46 | Edited README.md | 5→5 lines | ~550 |
+| 08:46 | Edited aiPlans/2026-10-29-loturi-raport-buget-tokeni.md | 3→6 lines | ~135 |
+| 08:47 | Edited aiPlans/2026-10-29-loturi-raport-buget-tokeni.md | expanded (+15 lines) | ~297 |
+<!-- session:MDFhMTg1ZjAtZmFjOC03OGUzLWFkNDEtZGFmNjU5ODUzZjA3 -->
+| 2026-10-29T06:47:55.901Z | Migrated report batching and Ollama/xAI/DeepSeek evidence limits to conservative local UTF-8 token budgets; renamed env settings throughout Settings, providers, Compose and local env; introduced typed retrieval budgets, full-request batch accounting, legacy-name rejection and preflight oversized-fragment rejection; increased authorized R1 context to 32768 and preserved 8192 output; adapted existing native Ollama HTTP test fixtures without adding cases. | src/backend/config.py,src/backend/ai/client.py,src/backend/ai/providers.py,src/backend/ai/retrieval.py,src/backend/core/contracts.py,src/backend/core/report_batches.py,src/backend/core/report_models.py,src/tests/unit/ai/test_client_providers.py,src/tests/unit/ai/test_condition_ai.py,README.md,docker-compose.yaml,.env,aiPlans/2026-10-29-loturi-raport-buget-tokeni.md | Ruff and mypy passed; 71 targeted unit and 22 pytest checks passed; full suite 453/454 with existing indexing context mismatch; unchanged PDF script fails global formatting; synthetic token-boundary checks and Compose validation passed; no commit, deploy or service restart. |
+| 08:49 | Edited src/backend/config.py | 1→2 lines | ~40 |
+| 08:49 | Edited src/backend/ai/providers.py | 1→2 lines | ~28 |
+| 08:49 | Edited src/backend/ai/client.py | inline fix | ~18 |
+| 08:49 | Edited src/tests/unit/ai/test_client_providers.py | 2→4 lines | ~63 |
+| 08:49 | Edited README.md | 4→4 lines | ~454 |
+| 08:49 | Edited aiPlans/2026-10-29-loturi-raport-buget-tokeni.md | 2→4 lines | ~91 |
+| 08:50 | Edited aiPlans/2026-10-29-loturi-raport-buget-tokeni.md | expanded (+13 lines) | ~249 |
+| 09:17 | Edited src/backend/core/report_batches.py | BatchTokenLimitExceeded() → len() | ~111 |
+| 09:17 | Edited src/backend/ai/client.py | modified _generate_batch() | ~301 |
+| 09:17 | Edited README.md | 2→2 lines | ~416 |
+| 09:17 | Edited aiPlans/2026-10-29-loturi-raport-buget-tokeni.md | 2→3 lines | ~67 |
+| 09:19 | Edited aiPlans/2026-10-29-loturi-raport-buget-tokeni.md | expanded (+20 lines) | ~431 |
+| 10:01 | Session end: 42 writes across 15 files (herb_images.py, config.py, contracts.py, dependencies.py, main.py) | 0 reads | ~7590 tok |
+| 10:58 | Created aiPlans/2026-10-29-nutritie-campuri-fara-continut.md | — | ~316 |
+| 10:58 | Edited src/backend/ai/report_validation.py | modified normalize_nutrition() | ~54 |
+| 10:58 | Edited src/tests/unit/ai/test_report_validation.py | modified test_compatible_nutrition_does_not_mark_partial() | ~122 |
+| 10:58 | Edited README.md | 1→3 lines | ~250 |
+| 11:00 | Edited src/backend/ai/report_validation.py | modified strip() | ~39 |
+| 11:00 | Edited src/tests/unit/ai/test_report_validation.py | inline fix | ~12 |
+| 11:01 | Edited aiPlans/2026-10-29-nutritie-campuri-fara-continut.md | expanded (+17 lines) | ~343 |
+| 11:14 | Session end: 84 writes across 33 files (2026-10-28-diagnostic-ollama-si-validare-raport.md, report_validation.py, client.py, herb_association_classification.py, condition_ai.py) | 0 reads | ~25118 tok |
+| 11:34 | Created aiPlans/2026-10-29-gemma3-provider-error.md | — | ~418 |
+| 11:38 | Edited aiPlans/2026-10-29-gemma3-provider-error.md | expanded (+9 lines) | ~160 |
+| 11:40 | Edited src/backend/core/report_models.py | 3→8 lines | ~96 |
+| 11:40 | Edited src/backend/ai/providers.py | expanded (+11 lines) | ~180 |
+| 11:40 | Edited src/backend/ai/client.py | expanded (+9 lines) | ~250 |
+| 11:40 | Edited src/backend/core/report_generation.py | 2→4 lines | ~88 |
+| 11:40 | Edited src/backend/resources/texts.ro.toml | 1→2 lines | ~80 |
+| 11:40 | Edited src/tests/unit/ai/test_client_providers.py | modified test_local_ollama_sends_no_authorization_and_no_store() | ~178 |
+| 11:42 | Edited src/backend/core/report_models.py | 2→3 lines | ~59 |
+| 11:42 | Edited README.md | 1→5 lines | ~360 |
+| 11:43 | Edited aiPlans/2026-10-29-gemma3-provider-error.md | expanded (+19 lines) | ~345 |
+| 11:46 | Edited aiPlans/2026-10-29-gemma3-provider-error.md | expanded (+28 lines) | ~539 |
+
+## Session: 2026-10-29 11:58
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|

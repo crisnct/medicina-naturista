@@ -18,6 +18,7 @@ from backend.ai.client import AIUnavailable, ResponsesClient, XAIClient, create_
 from backend.ai.providers import provider_config
 from backend.config import Settings
 from backend.config import settings as base_settings
+from backend.core.contracts import EvidenceTokenBudget
 
 
 class FakeResponse:
@@ -48,19 +49,19 @@ PINNED = dict(
     hf_model="deepseek-ai/DeepSeek-V4-Flash:deepinfra",
     hf_api_base="https://router.huggingface.co/v1",
     hf_reasoning_effort="",
-    hf_max_context_chars=120_000,
+    hf_max_content_tokens=120_000,
     deepseek_model="deepseek-flash",
     deepseek_api_base="https://api.deepseek.com",
     deepseek_reasoning_effort="",
-    deepseek_max_context_chars=1_000_000,
+    deepseek_max_content_tokens=1_000_000,
     ollama_model="deepseek-v4.1-flash:cloud",
     ollama_api_base="http://localhost:11434/v1",
     ollama_reasoning_effort="",
-    ollama_max_context_chars=1_000_000,
+    ollama_max_content_tokens=1_000_000,
     ai_stream=False,
     ai_max_output_tokens=20000,
     ai_read_timeout_seconds=300,
-    xai_max_context_chars=1_000_000,
+    xai_max_content_tokens=1_000_000,
 )
 
 
@@ -75,7 +76,27 @@ def capture_post(client: ResponsesClient, response: FakeResponse) -> list[dict]:
         calls.append({"url": url, "headers": kwargs["headers"], "json": kwargs["json"]})
         return response
 
-    client.http.post = post
+    if client.provider.name == "ollama":
+
+        def native(request):
+            calls.append(
+                {
+                    "url": str(request.url),
+                    "headers": dict(request.headers),
+                    "json": json.loads(request.content),
+                }
+            )
+            content = response.json()["output"][-1]["content"][0]["text"]
+            return httpx.Response(
+                200,
+                json={"done": True, "done_reason": "stop", "message": {"content": content}},
+                request=request,
+            )
+
+        client.http.close()
+        client.http = httpx.Client(transport=httpx.MockTransport(native))
+    else:
+        client.http.post = post
     return calls
 
 
@@ -177,13 +198,18 @@ class PayloadTest(unittest.TestCase):
 
     def test_local_ollama_sends_no_authorization_and_no_store(self):
         with patch.dict(os.environ, {"OLLAMA_API_KEY": ""}):
-            client = create_ai_client(settings_for("ollama"))
+            client = create_ai_client(settings_for("ollama", ollama_model="gemma3:1b"))
             calls = capture_post(client, completed('{"ok": true}'))
             client.complete_json("s", "u", 10)
             client.close()
-        self.assertEqual(calls[0]["url"], "http://localhost:11434/v1/responses")
+        self.assertEqual(calls[0]["url"], "http://localhost:11434/api/chat")
         self.assertNotIn("Authorization", calls[0]["headers"])
         self.assertNotIn("store", calls[0]["json"])
+        self.assertEqual(calls[0]["json"]["options"]["temperature"], 0.0)
+        self.assertEqual(calls[0]["json"]["options"]["repeat_penalty"], 1.1)
+        self.assertEqual(calls[0]["json"]["options"]["repeat_last_n"], 256)
+        self.assertEqual(calls[0]["json"]["options"]["num_predict"], 10)
+        self.assertNotIn("think", calls[0]["json"])
 
 
 class DeepSeekDirectTest(unittest.TestCase):
@@ -400,22 +426,31 @@ class StreamingTest(unittest.TestCase):
 
 
 class ContextBudgetTest(unittest.TestCase):
-    def budget(self, provider: str, **overrides) -> int:
+    def budget(self, provider: str, **overrides) -> int | EvidenceTokenBudget:
         client = create_ai_client(settings_for(provider, **overrides))
         client.close()
         return client.context_budget()
 
     def test_each_provider_uses_its_own_limit(self):
-        self.assertEqual(self.budget("xai", xai_max_context_chars=900_000), 900_000)
-        self.assertEqual(self.budget("huggingface", hf_max_context_chars=120_000), 120_000)
-        self.assertEqual(self.budget("deepseek", deepseek_max_context_chars=800_000), 800_000)
-        self.assertEqual(self.budget("ollama", ollama_max_context_chars=700_000), 700_000)
+        self.assertEqual(
+            self.budget("xai", xai_max_content_tokens=900_000), EvidenceTokenBudget(900_000)
+        )
+        self.assertEqual(
+            self.budget("huggingface", hf_max_content_tokens=120_000), EvidenceTokenBudget(120_000)
+        )
+        self.assertEqual(
+            self.budget("deepseek", deepseek_max_content_tokens=800_000),
+            EvidenceTokenBudget(800_000),
+        )
+        self.assertEqual(
+            self.budget("ollama", ollama_max_content_tokens=700_000), EvidenceTokenBudget(700_000)
+        )
 
     def test_defaults_are_one_million_except_huggingface(self):
-        self.assertEqual(self.budget("xai"), 1_000_000)
-        self.assertEqual(self.budget("deepseek"), 1_000_000)
-        self.assertEqual(self.budget("ollama"), 1_000_000)
-        self.assertEqual(self.budget("huggingface"), 120_000)
+        self.assertEqual(self.budget("xai"), EvidenceTokenBudget(1_000_000))
+        self.assertEqual(self.budget("deepseek"), EvidenceTokenBudget(1_000_000))
+        self.assertEqual(self.budget("ollama"), EvidenceTokenBudget(1_000_000))
+        self.assertEqual(self.budget("huggingface"), EvidenceTokenBudget(120_000))
 
 
 class HTTPErrorTest(unittest.TestCase):

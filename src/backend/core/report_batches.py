@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+from collections.abc import Callable
 from typing import Final
 
 from backend.ai.report_validation import SECTIONS, Recommendation, ValidatedReport
@@ -10,26 +11,26 @@ from backend.core.contracts import Evidence
 REPORT_GENERATION_WORKERS: Final = 1
 
 
-# Oversized fragments keep their original text and citation in a request of their own.
-def partition_evidence(evidence: Evidence, max_chars: int) -> list[Evidence]:
-    if type(max_chars) is not int or max_chars <= 0:
-        raise ValueError("Batch character limit must be a positive integer")
+# Keep oversized fragments intact in isolated requests; providers enforce the real context.
+def partition_evidence(
+    evidence: Evidence, max_tokens: int, measure_tokens: Callable[[Evidence], int]
+) -> list[Evidence]:
+    if type(max_tokens) is not int or max_tokens <= 0:
+        raise ValueError("Batch token limit must be a positive integer")
     batches: list[Evidence] = []
     current: Evidence = {}
-    characters = 0
     for token in sorted(
         evidence, key=lambda key: evidence[key].get("score", float("-inf")), reverse=True
     ):
         item = evidence[token]
-        size = len(item["text"])
-        if current and characters + size > max_chars:
+        candidate = {**current, token: item}
+        if current and measure_tokens(candidate) > max_tokens:
             batches.append(current)
-            current, characters = {}, 0
-        current[token] = item
-        characters += size
-        if size > max_chars:
+            candidate = {token: item}
+        current = candidate
+        if len(current) == 1 and measure_tokens(current) > max_tokens:
             batches.append(current)
-            current, characters = {}, 0
+            current = {}
     if current:
         batches.append(current)
     return batches

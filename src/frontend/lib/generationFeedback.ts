@@ -1,5 +1,5 @@
 import { tr } from "./texts";
-import type { AIActivity } from "../api/types";
+import type { AIActivity, ReportBatchPreview } from "../api/types";
 
 export const AI_ACTIVITY_LABELS: Record<AIActivity["phase"], string> = {
   waiting: tr("common.waiting_for_model"),
@@ -19,6 +19,7 @@ export interface GenerationFeedback {
   reportPreview?: string | null;
   batchesCompleted?: number;
   batchesTotal?: number;
+  batchPreviews?: ReportBatchPreview[];
   streamTokensPerSecond?: number | null;
   thinkingTokensPerSecond?: number | null;
   completed?: boolean;

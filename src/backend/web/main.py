@@ -152,6 +152,15 @@ class ReportDurationEstimateResponse(BaseModel):
     sampleCount: int = Field(ge=0)
 
 
+class ReportBatchPreviewResponse(BaseModel):
+    index: int = Field(ge=1)
+    state: Literal["pending", "running", "validated", "failed", "cancelled", "timed_out"]
+    reportPreview: str | None = None
+    streamPreview: str | None = None
+    thinkingPreview: str | None = None
+    aiActivity: AIActivityResponse | None = None
+
+
 class GenerateResponse(BaseModel):
     jobId: str
     searchId: str
@@ -170,12 +179,12 @@ class GenerateResponse(BaseModel):
     workerActive: bool = False
     pollAfterMs: int = 3000
     queuePosition: int | None = None
-    estimatedMinutesPer44500Chars: int = Field(ge=1)
     streamPreview: str | None = None
     reportPreview: str | None = None
     previewVersion: int = Field(default=0, ge=0)
     batchesCompleted: int = Field(default=0, ge=0)
     batchesTotal: int = Field(default=0, ge=0)
+    batchPreviews: list[ReportBatchPreviewResponse] = Field(default_factory=list)
     thinkingPreview: str | None = None
     streamTokensPerSecond: float | None = Field(default=None, ge=0)
     thinkingTokensPerSecond: float | None = Field(default=None, ge=0)

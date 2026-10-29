@@ -144,6 +144,18 @@ export const TEXT_PARAMETERS = {
   "interface.preview_title": [],
   "interface.preview_queued": [],
   "interface.preview_processing": [],
+  "interface.preview_batch_title": [
+    "index",
+    "total"
+  ],
+  "interface.preview_batch_waiting": [],
+  "interface.preview_batch_not_started": [],
+  "interface.preview_batch_validated": [],
+  "interface.preview_batch_failed": [],
+  "interface.preview_batch_cancelled": [],
+  "interface.preview_batch_timed_out": [],
+  "interface.preview_batch_empty": [],
+  "interface.preview_batch_details": [],
   "interface.preview_speed_hint": [],
   "interface.stream_waiting": [],
   "interface.stream_content_label": [],

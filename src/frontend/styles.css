@@ -614,6 +614,17 @@ body {
 
 .generation-stream-text::placeholder { color: var(--nature-muted); }
 
+.generation-live-output {
+    display: grid;
+    gap: 12px;
+    margin-top: 8px;
+}
+
+.generation-batch-previews { display: grid; gap: 12px; }
+.generation-batch-preview h5 { margin: 0; color: var(--nature-primary); font-size: 14px; }
+.generation-batch-state { margin: 6px 0 10px; color: var(--nature-muted); }
+.generation-batch-preview summary { cursor: pointer; color: var(--nature-primary); }
+
 .generation-report-text {
     max-height: 22em;
     overflow-y: auto;
@@ -688,6 +699,11 @@ body {
 }
 
 .generate-report-icon { flex-shrink: 0; }
+
+.generate-inline.is-preparing {
+    font-size: 14px;
+    white-space: nowrap;
+}
 
 .generate-inline:hover:not(:disabled) {
     background: var(--nature-danger-hover);

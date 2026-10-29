@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import logging
 import math
 import sys
 import threading
@@ -17,6 +18,7 @@ import httpx
 
 from backend.ai.client import AIUnavailable, OllamaReportClient, ResponsesClient, json_error_details
 from backend.ai.herb_association_classification import make_client as association_client
+from backend.ai.herb_association_classification import model_digest as association_model_digest
 from backend.ai.herb_association_classification import response_schema
 from backend.ai.herb_product_safety import product_response_schema
 from backend.config import Settings
@@ -30,6 +32,7 @@ from backend.core.operation_context import (
 )
 
 BatchKind = Literal["associations", "combined", "warnings_only", "product_safety"]
+logger = logging.getLogger("naturist.ai")
 METRIC_KEYS = (
     "load_duration_ms",
     "prompt_eval_duration_ms",
@@ -51,6 +54,31 @@ FAILURE_REASONS = frozenset(
         "provider_failed",
     }
 )
+VALIDATION_CODES = frozenset(
+    {
+        "POSITIVE_INVALID_RESPONSE",
+        "POSITIVE_INCOMPLETE_RESPONSE",
+        "POSITIVE_INVALID_RELATION",
+        "HERB_SAFETY_INVALID_RESPONSE",
+        "HERB_SAFETY_INCOMPLETE_RESPONSE",
+        "HERB_SAFETY_AMBIGUOUS_TARGET",
+        "HERB_SAFETY_INVALID_ITEMS",
+        "HERB_SAFETY_INVALID_ITEM",
+        "HERB_SAFETY_UNSUPPORTED_QUOTE",
+        "HERB_SAFETY_UNSUPPORTED_SUMMARY",
+        "HERB_SAFETY_INVALID_REFERENCE_ITEM",
+        "HERB_SAFETY_UNKNOWN_PASSAGE",
+        "HERB_SAFETY_NONCONTIGUOUS_PASSAGES",
+        "HERB_SAFETY_PASSAGE_SCOPE",
+        "HERB_SAFETY_UNKNOWN_STATEMENT",
+        "HERB_SAFETY_STATEMENT_SCOPE",
+        "HERB_SAFETY_PASSAGE_PARTNER",
+        "HERB_PRODUCT_SAFETY_INVALID_RESPONSE",
+        "HERB_PRODUCT_SAFETY_INVALID_MESSAGE",
+        "HERB_PRODUCT_SAFETY_DUPLICATE_KEY",
+        "HERB_PRODUCT_SAFETY_NONFINITE_JSON",
+    }
+)
 _OUTPUT_LOCK = threading.Lock()
 
 
@@ -59,6 +87,27 @@ def emit_index_event(value: dict[str, Any]) -> None:
     line = json.dumps(value)
     with _OUTPUT_LOCK:
         print(line, flush=True)
+
+
+# Keep inventory diagnostics outside the classifier's fingerprinted semantic policy.
+def model_digest(settings: Settings) -> str:
+    try:
+        return association_model_digest(settings)
+    except OperationCancelled:
+        logger.info(
+            "ollama_model_inventory_cancelled provider=ollama model=%s",
+            settings.herb_association_ai_model,
+        )
+        raise
+    except Exception as exc:
+        logger.error(
+            "ollama_model_inventory_failed provider=ollama model=%s stage=model_inventory "
+            "type=%s status=%s",
+            settings.herb_association_ai_model,
+            type(exc).__name__,
+            exc.response.status_code if isinstance(exc, httpx.HTTPStatusError) else None,
+        )
+        raise
 
 
 # Cleanup owns a short independent budget, even when indexing failed or was cancelled.
@@ -89,6 +138,11 @@ def release_index_model(settings: Settings) -> None:
                 raise ValueError("OLLAMA_MODEL_RELEASE_INVALID_RESPONSE")
     except (httpx.HTTPError, ValueError, OperationCancelled) as exc:
         # A cleanup failure must not overwrite the publication outcome or the original error.
+        logger.warning(
+            "ollama_model_release_failed provider=ollama model=%s stage=model_release type=%s",
+            settings.herb_association_ai_model,
+            type(exc).__name__,
+        )
         emit_index_event({**metadata, "status": "warning", "error_type": type(exc).__name__})
     else:
         emit_index_event({**metadata, "status": "released"})
@@ -223,6 +277,20 @@ class BatchTelemetry:
             reason = "cancelled"
         elif not isinstance(reason, str) or reason not in FAILURE_REASONS:
             reason = None
+        # Only fixed application codes may enter logs; arbitrary exception text stays private.
+        code = str(error) if isinstance(error, ValueError) else ""
+        validation_code = code if code in VALIDATION_CODES else None
+        if error is not None and not isinstance(error, OperationCancelled):
+            logger.error(
+                "ollama_index_batch_failed provider=ollama model=%s kind=%s batch=%s "
+                "type=%s reason=%s validation_code=%s",
+                self.metadata.get("model"),
+                self.metadata.get("kind"),
+                self.metadata.get("batch"),
+                type(error).__name__,
+                reason,
+                validation_code,
+            )
         emit_index_event(
             {
                 **self.metadata,
@@ -238,6 +306,7 @@ class BatchTelemetry:
                 "output_tokens_per_second": rate,
                 "error_type": type(error).__name__ if error is not None else None,
                 "error_reason": reason,
+                "validation_code": validation_code,
                 **json_error_details(error.__cause__ if error is not None else None),
             }
         )

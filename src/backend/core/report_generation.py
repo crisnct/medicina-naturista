@@ -153,6 +153,7 @@ class ReportGenerationService:
                     "invalid_response": "AI_RESPONSE_INVALID",
                     "output_limit": "AI_OUTPUT_LIMIT_EXCEEDED",
                     "context_limit": "AI_CONTEXT_LIMIT_EXCEEDED",
+                    "repetition_limit": "AI_REPETITION_LIMIT_EXCEEDED",
                     "model_not_found": "AI_MODEL_NOT_FOUND",
                 }.get(exc.reason, "AI_PROVIDER_UNAVAILABLE")
             elif isinstance(exc, httpx.TimeoutException):
@@ -180,6 +181,7 @@ class ReportGenerationService:
                     "AI_OUTPUT_LIMIT_EXCEEDED": (tr("errors.ai_output_limit_guidance")),
                     "AI_MODEL_NOT_FOUND": (tr("errors.ollama_model_unavailable")),
                     "AI_CONTEXT_LIMIT_EXCEEDED": (tr("errors.ai_context_limit")),
+                    "AI_REPETITION_LIMIT_EXCEEDED": tr("errors.ai_repetition_limit"),
                     "PDF_GENERATION_FAILED": tr("errors.pdf_failed"),
                     "REPORT_COMMIT_FAILED": tr("errors.report_commit_failed"),
                 }.get(

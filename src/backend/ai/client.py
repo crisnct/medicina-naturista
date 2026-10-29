@@ -5,7 +5,11 @@ from __future__ import annotations
 import json
 import logging
 import math
+import threading
 import time
+from collections import Counter
+from concurrent.futures import FIRST_COMPLETED, Future, ThreadPoolExecutor, wait
+from contextvars import copy_context
 from dataclasses import replace
 from pathlib import Path
 from typing import Any
@@ -13,10 +17,22 @@ from typing import Any
 import httpx
 
 from backend.ai.providers import ProviderConfig, provider_config
-from backend.ai.report_validation import ValidatedReport, validate_report
+from backend.ai.report_validation import (
+    ReportValidationError,
+    ValidatedReport,
+    report_response_schema,
+    validate_report,
+)
 from backend.config import Settings
 from backend.config import settings as default_settings
-from backend.core.contracts import AIProtocol, Evidence, ProfilePayload, ReportModel
+from backend.core.contracts import (
+    AIProtocol,
+    Evidence,
+    EvidenceTokenBudget,
+    ProfilePayload,
+    ReportModel,
+)
+from backend.core.errors import OperationCancelled
 from backend.core.operation_context import (
     ReportActivity,
     checkpoint,
@@ -25,6 +41,7 @@ from backend.core.operation_context import (
     emit_report_output,
     emit_report_thinking,
     remaining_timeout,
+    report_batch_context,
 )
 from backend.core.report_batches import combine_reports, partition_evidence
 from backend.core.report_models import REPORT_MODELS
@@ -35,6 +52,9 @@ logger = logging.getLogger("naturist.ai")
 GENERATE_REPORT_SYSTEM_PROMPT_PATH = (
     Path(__file__).resolve().parent / "prompts" / "generate_report_system.md"
 )
+
+# Byte fallback is deliberately conservative; reserve extra space for chat framing.
+REPORT_TOKEN_FRAMING_RESERVE = 256
 
 
 # Evidence fragments as the AI request carries them, highest score first.
@@ -54,6 +74,48 @@ class AIUnavailable(RuntimeError):
     def __init__(self, message: str, *, reason: str = "unavailable") -> None:
         super().__init__(message)
         self.reason = reason
+
+
+# Protocol reasons are application-owned labels, never provider text.
+class _AIResponseError(ValueError):
+    def __init__(self, reason: str) -> None:
+        super().__init__(reason)
+        self.reason = reason
+
+
+# Recognize technical failures without retaining Ollama's free-form error message.
+def _ollama_error_reason(error: Any) -> str:
+    message = error.get("message") if isinstance(error, dict) else error
+    lowered = message.lower() if isinstance(message, str) else ""
+    if "prediction aborted, token repeat limit reached" in lowered:
+        return "repetition_limit"
+    if "model" in lowered and "not found" in lowered:
+        return "model_not_found"
+    if any(
+        marker in lowered
+        for marker in (
+            "exceeds the available context",
+            "input length exceeds the context",
+            "context size has been exceeded",
+            "context window is full",
+            "context length exceeded",
+            "maximum context length",
+            "context_length_exceeded",
+            "context shift is disabled",
+            "prompt is too long",
+        )
+    ):
+        return "context_limit"
+    if any(
+        marker in lowered
+        for marker in ("out of memory", "not enough memory", "cannot allocate memory")
+    ):
+        return "memory_exhausted"
+    if "cuda error" in lowered:
+        return "gpu_error"
+    if any(marker in lowered for marker in ("failed to load model", "error loading model")):
+        return "model_load_failed"
+    return "provider_error"
 
 
 # Keep JSON diagnostics useful without exposing any generated text or source content.
@@ -221,16 +283,19 @@ class ResponsesClient:
         self.generate_system_prompt = GENERATE_REPORT_SYSTEM_PROMPT_PATH.read_text(
             encoding="utf-8"
         ).strip()
-        self.batch_max_chars = settings.report_generation_batch_max_chars[
+        self.batch_max_tokens = settings.report_generation_batch_max_tokens[
             settings.report_generation_model
         ]
+        self.batch_workers = settings.report_batch_workers
 
     # Whether the active provider can be called (its key is present when one is required).
     def is_configured(self) -> bool:
         return not self.provider.api_key_required or bool(self.provider.api_key())
 
-    # Evidence budget in characters: the active provider's own context limit.
-    def context_budget(self) -> int:
+    # Keep token budgets explicit at the retrieval boundary.
+    def context_budget(self) -> int | EvidenceTokenBudget:
+        if self.provider.max_content_tokens is not None:
+            return EvidenceTokenBudget(self.provider.max_content_tokens)
         return self.provider.max_context_chars
 
     # Close the underlying HTTP connection pool.
@@ -313,9 +378,22 @@ class ResponsesClient:
                 response.headers.get("x-request-id") or response.headers.get("request-id") or "-"
             )
             body = "<redacted>"
+            reason = "http_error"
+            if self.provider.name == "ollama":
+                try:
+                    error = response.json()
+                except ValueError:
+                    error = None
+                reason = _ollama_error_reason(
+                    error.get("error") if isinstance(error, dict) else None
+                )
             logger.error(
-                "ai_request_failed status=%s duration_ms=%s request_id=%s body=%s",
+                "ai_request_failed provider=%s model=%s stage=http status=%s "
+                "reason=%s duration_ms=%s request_id=%s body=%s",
+                self.provider.name,
+                self.provider.model,
                 response.status_code,
+                reason,
                 round((time.perf_counter() - started) * 1000),
                 request_id,
                 body[:12000],
@@ -327,7 +405,11 @@ class ResponsesClient:
             ) from exc
         except httpx.RequestError as exc:
             logger.error(
-                "ai_request_failed error=request duration_ms=%s message=%s",
+                "ai_request_failed provider=%s model=%s stage=transport error=%s "
+                "duration_ms=%s type=%s",
+                self.provider.name,
+                self.provider.model,
+                "timeout" if isinstance(exc, httpx.TimeoutException) else "connection",
                 round((time.perf_counter() - started) * 1000),
                 type(exc).__name__,
             )
@@ -335,19 +417,54 @@ class ResponsesClient:
                 tr("errors.ai_unavailable"),
                 reason="timeout" if isinstance(exc, httpx.TimeoutException) else "unavailable",
             ) from exc
-        except ValueError as exc:
+        except (ValueError, TypeError, KeyError) as exc:
             logger.error(
-                "ai_request_failed error=invalid_response duration_ms=%s message=%s",
+                "ai_request_failed provider=%s model=%s stage=protocol error=%s "
+                "duration_ms=%s type=%s details=%s",
+                self.provider.name,
+                self.provider.model,
+                exc.reason if isinstance(exc, _AIResponseError) else "invalid_response",
                 round((time.perf_counter() - started) * 1000),
                 type(exc).__name__,
+                json_error_details(exc),
             )
             raise AIUnavailable(
                 tr("errors.ai_unavailable"),
                 reason="invalid_response",
             ) from exc
+        except AIUnavailable as exc:
+            logger.error(
+                "ai_request_failed provider=%s model=%s stage=provider reason=%s duration_ms=%s",
+                self.provider.name,
+                self.provider.model,
+                exc.reason,
+                round((time.perf_counter() - started) * 1000),
+            )
+            raise
+        except OperationCancelled:
+            logger.info(
+                "ai_request_cancelled provider=%s model=%s duration_ms=%s",
+                self.provider.name,
+                self.provider.model,
+                round((time.perf_counter() - started) * 1000),
+            )
+            raise
+        except Exception as exc:
+            # Record unexpected failures without serializing sensitive exception arguments.
+            logger.error(
+                "ai_request_failed provider=%s model=%s stage=request "
+                "error=unexpected type=%s duration_ms=%s",
+                self.provider.name,
+                self.provider.model,
+                type(exc).__name__,
+                round((time.perf_counter() - started) * 1000),
+            )
+            raise
 
     # Build the Responses API request body for this provider.
-    def _build_payload(self, system: str, user: str, max_tokens: int) -> dict[str, Any]:
+    def _build_payload(
+        self, system: str, user: str, max_tokens: int, *, schema: dict[str, Any] | None = None
+    ) -> dict[str, Any]:
         provider = self.provider
         payload: dict[str, Any] = {"model": provider.model}
         if provider.reasoning_effort:
@@ -360,12 +477,13 @@ class ResponsesClient:
             payload["text"] = {"format": {"type": "json_object"}}
         elif provider.json_format == "response_format":
             payload["response_format"] = {"type": "json_object"}
-        if provider.response_schema is not None:
+        schema = provider.response_schema if schema is None else schema
+        if schema is not None:
             payload["text"] = {
                 "format": {
                     "type": "json_schema",
-                    "name": "message_classification",
-                    "schema": provider.response_schema,
+                    "name": "structured_response",
+                    "schema": schema,
                     "strict": True,
                 }
             }
@@ -383,12 +501,18 @@ class ResponsesClient:
 
     # Request a JSON response from the provider and validate its top-level structure.
     def complete_json(self, system: str, user: str, max_tokens: int) -> dict[str, Any]:
-        response = self._post(self._build_payload(system, user, max_tokens))
+        return self._complete_json(system, user, max_tokens)
+
+    # Report schemas stay request-local and do not change classifier client configuration.
+    def _complete_json(
+        self, system: str, user: str, max_tokens: int, *, schema: dict[str, Any] | None = None
+    ) -> dict[str, Any]:
+        response = self._post(self._build_payload(system, user, max_tokens, schema=schema))
         output_tokens = None
         try:
             payload = response.json()
             if not isinstance(payload, dict):
-                raise ValueError("response is not an object")
+                raise _AIResponseError("invalid_response_object")
             parts = [
                 block["text"]
                 for item in payload.get("output", [])
@@ -402,7 +526,7 @@ class ResponsesClient:
             if content and not isinstance(response, _StreamedResponse):
                 emit_report_output(content)
             raw_usage = payload.get("usage")
-            usage = raw_usage if isinstance(raw_usage, dict) else {}
+            usage = _response_metrics({"usage": raw_usage})
             output_tokens = usage.get("output_tokens")
             logger.info(
                 "ai_response_usage provider=%s input_tokens=%s output_tokens=%s max_output_tokens=%s",
@@ -422,8 +546,9 @@ class ResponsesClient:
                     )
                     reason = "credits_exhausted" if no_credits else "provider_failed"
                     logger.error(
-                        "ai_response_failed stage=response provider=%s reason=%s",
+                        "ai_response_failed stage=response provider=%s model=%s reason=%s",
                         self.provider.name,
+                        self.provider.model,
                         reason,
                     )
                     raise AIUnavailable(
@@ -435,21 +560,24 @@ class ResponsesClient:
                 if payload.get("status") == "incomplete":
                     incomplete_reason = (payload.get("incomplete_details") or {}).get("reason")
                     logger.error(
-                        "ai_response_incomplete provider=%s reason=%s",
+                        "ai_response_incomplete provider=%s model=%s reason=%s",
                         self.provider.name,
-                        incomplete_reason,
+                        self.provider.model,
+                        incomplete_reason
+                        if incomplete_reason == "max_output_tokens"
+                        else "unknown",
                     )
                     if incomplete_reason == "max_output_tokens":
                         raise AIUnavailable(
                             tr("errors.ai_output_limit"),
                             reason="output_limit",
                         )
-                raise ValueError("response not completed")
+                raise _AIResponseError("not_completed")
             if not content:
-                raise ValueError("empty content")
+                raise _AIResponseError("empty_content")
             result = self._parse_content(content)
             if not isinstance(result, dict):
-                raise ValueError("not an object")
+                raise _AIResponseError("invalid_json_object")
             logger.info(
                 "ai_response_parsed content_chars=%s top_level_keys=%s",
                 len(content),
@@ -458,20 +586,35 @@ class ResponsesClient:
             return result
         except (KeyError, ValueError, TypeError) as exc:
             logger.error(
-                "ai_response_invalid type=%s details=%s",
+                "ai_response_invalid provider=%s model=%s stage=json reason=%s type=%s details=%s",
+                self.provider.name,
+                self.provider.model,
+                exc.reason if isinstance(exc, _AIResponseError) else "invalid_response",
                 type(exc).__name__,
                 json_error_details(exc),
             )
             if isinstance(output_tokens, int) and output_tokens >= max_tokens:
                 logger.error(
-                    "ai_response_truncated output_tokens=%s max_output_tokens=%s "
+                    "ai_response_truncated provider=%s model=%s output_tokens=%s max_output_tokens=%s "
                     "hint=increase REPORT_GENERATION_MAX_OUTPUT_TOKENS",
+                    self.provider.name,
+                    self.provider.model,
                     output_tokens,
                     max_tokens,
                 )
             raise AIUnavailable(
                 tr("errors.ai_response_invalid"), reason="invalid_response"
             ) from exc
+        except (AIUnavailable, OperationCancelled):
+            raise
+        except Exception as exc:
+            logger.error(
+                "ai_response_invalid provider=%s model=%s stage=json error=unexpected type=%s",
+                self.provider.name,
+                self.provider.model,
+                type(exc).__name__,
+            )
+            raise
 
     # Log fragment counts, documents, metadata, and optionally fragment text at a pipeline stage.
     def _log_fragment_inventory(
@@ -490,12 +633,12 @@ class ResponsesClient:
         total_chars = sum(lengths)
         unique_source_files = {entry["source"].split(":", 1)[0] for entry in entries}
         logger.info(
-            "%s count=%s total_chars=%s approx_tokens=%s "
+            "%s count=%s total_chars=%s content_tokens_upper_bound=%s counting=utf8_bytes "
             "documents_count=%s min_chars=%s max_chars=%s text_logging=%s",
             event,
             len(entries),
             total_chars,
-            total_chars // 4,
+            len(json.dumps(entries, ensure_ascii=False).encode("utf-8")),
             len(unique_source_files),
             min(lengths, default=0),
             max(lengths, default=0),
@@ -507,7 +650,36 @@ class ResponsesClient:
     def _evidence_entries(self, evidence: Evidence) -> list[dict[str, str]]:
         return _ordered_entries(evidence)
 
-    # The existing FIFO worker owns the whole batch loop; no nested executor is needed.
+    def _report_user_message(self, profile: ProfilePayload, evidence: Evidence) -> str:
+        return f"""
+            Problema pentru care se solicită recomandări naturiste:
+            {json.dumps(profile, ensure_ascii=False)}
+
+            Toate fragmentele locale admise:
+            {json.dumps(self._evidence_entries(evidence), ensure_ascii=False)}
+        """.strip()
+
+    # Use the same payload as generation, including the schema's batch-local citation IDs.
+    def _report_input_tokens(self, profile: ProfilePayload, evidence: Evidence) -> int:
+        checkpoint()
+        payload = self._build_payload(
+            self.generate_system_prompt,
+            self._report_user_message(profile, evidence),
+            self.provider.max_output_tokens,
+            schema=report_response_schema(evidence) if self.provider.name == "ollama" else None,
+        )
+        return (
+            len(json.dumps(payload, ensure_ascii=False).encode("utf-8"))
+            + REPORT_TOKEN_FRAMING_RESERVE
+        )
+
+    def _report_input_limit(self) -> int:
+        limit = self.batch_max_tokens
+        if self.provider.context_tokens is not None:
+            limit = min(limit, self.provider.context_tokens - self.provider.max_output_tokens)
+        return limit
+
+    # The single FIFO report owner drains all batch workers before releasing its capacity.
     def generate(self, profile: ProfilePayload, evidence: Evidence) -> ValidatedReport:
         if not evidence:
             logger.info("fragments_sent_to_ai count=0 reason=no_evidence")
@@ -517,54 +689,175 @@ class ResponsesClient:
             len(evidence),
             sum(len(value.get("text", "")) for value in evidence.values()),
         )
-        batches = partition_evidence(evidence, self.batch_max_chars)
+        input_limit = self._report_input_limit()
+        if input_limit <= 0:
+            raise AIUnavailable(tr("errors.ai_context_limit"), reason="context_limit")
+        batches = partition_evidence(
+            evidence, input_limit, lambda batch: self._report_input_tokens(profile, batch)
+        )
         emit_report_batch(0, len(batches))
-        reports: list[ValidatedReport] = []
-        combined = combine_reports(reports)
-        for index, batch in enumerate(batches, 1):
-            checkpoint()
-            logger.info(
-                "report_batch_started provider=%s model=%s worker=1 batch=%s total=%s fragments=%s chars=%s",
+        reports: dict[int, ValidatedReport] = {}
+        stopped = threading.Event()
+        failure_lock = threading.Lock()
+        failures: list[BaseException] = []
+
+        def record_failure(exc: BaseException) -> None:
+            with failure_lock:
+                if not failures:
+                    failures.append(exc)
+                stopped.set()
+
+        def generate_batch(index: int, batch: Evidence) -> ValidatedReport:
+            with report_batch_context(index, stopped.is_set):
+                try:
+                    result = self._run_report_batch(profile, batch, index, len(batches))
+                    checkpoint()
+                    emit_report_batch(index, len(batches), result)
+                    logger.info(
+                        "report_batch_completed provider=%s batch=%s total=%s",
+                        self.provider.name,
+                        index,
+                        len(batches),
+                    )
+                    return result
+                except Exception as exc:
+                    record_failure(exc)
+                    try:
+                        emit_report_activity(
+                            ReportActivity(
+                                "batch_cancelled"
+                                if isinstance(exc, OperationCancelled)
+                                else "batch_failed"
+                            )
+                        )
+                    except OperationCancelled:
+                        # Explicit user cancellation may already have invalidated the session operation.
+                        pass
+                    log_failure = (
+                        logger.info if isinstance(exc, OperationCancelled) else logger.error
+                    )
+                    log_failure(
+                        "report_batch_failed provider=%s model=%s batch=%s total=%s type=%s",
+                        self.provider.name,
+                        self.provider.model,
+                        index,
+                        len(batches),
+                        type(exc).__name__,
+                    )
+                    raise
+
+        executor = ThreadPoolExecutor(
+            max_workers=self.batch_workers, thread_name_prefix="report-batch"
+        )
+        pending: dict[Future[ValidatedReport], int] = {}
+        next_index = 1
+        try:
+            while next_index <= len(batches) or pending:
+                checkpoint()
+                while (
+                    not stopped.is_set()
+                    and next_index <= len(batches)
+                    and len(pending) < self.batch_workers
+                ):
+                    context = copy_context()
+                    future = executor.submit(
+                        context.run, generate_batch, next_index, batches[next_index - 1]
+                    )
+                    pending[future] = next_index
+                    next_index += 1
+                if not pending:
+                    break
+                completed, _ = wait(pending, timeout=0.1, return_when=FIRST_COMPLETED)
+                # Observe every completed future before admitting replacement work.
+                for future in completed:
+                    reports[pending.pop(future)] = future.result()
+        except BaseException as exc:
+            # Preserve the initiating failure even if a sibling notices cooperative cancellation first.
+            record_failure(exc)
+        finally:
+            if failures:
+                stopped.set()
+                for future in pending:
+                    future.cancel()
+            executor.shutdown(wait=True, cancel_futures=True)
+        if failures:
+            raise failures[0]
+        checkpoint()
+        combined = combine_reports([reports[index] for index in range(1, len(batches) + 1)])
+        return validate_report(combined.section_payload(), evidence, strict=True)
+
+    def _run_report_batch(
+        self, profile: ProfilePayload, batch: Evidence, index: int, total: int
+    ) -> ValidatedReport:
+        checkpoint()
+        logger.info(
+            "report_batch_started provider=%s model=%s parallel_limit=%s batch=%s total=%s "
+            "fragments=%s chars=%s input_tokens_upper_bound=%s input_limit=%s counting=utf8_bytes",
+            self.provider.name,
+            self.provider.model,
+            self.batch_workers,
+            index,
+            total,
+            len(batch),
+            sum(len(item["text"]) for item in batch.values()),
+            self._report_input_tokens(profile, batch),
+            self._report_input_limit(),
+        )
+        try:
+            result = self._generate_batch(profile, batch)
+        except ReportValidationError as exc:
+            logger.error(
+                "ai_report_validation_failed provider=%s model=%s batch=%s total=%s "
+                "reason=%s issues=%s details=%s",
                 self.provider.name,
                 self.provider.model,
                 index,
-                len(batches),
-                len(batch),
-                sum(len(item["text"]) for item in batch.values()),
+                total,
+                "REPORT_EMPTY" if str(exc) == "REPORT_EMPTY" else "REPORT_INVALID",
+                dict(Counter(warning.code for warning in exc.warnings)),
+                [warning.model_dump(exclude_none=True) for warning in exc.warnings[:20]],
             )
-            reports.append(self._generate_batch(profile, batch))
-            checkpoint()
-            combined = combine_reports(reports)
-            emit_report_batch(index, len(batches), combined)
-            logger.info(
-                "report_batch_completed provider=%s worker=1 batch=%s total=%s",
-                self.provider.name,
-                index,
-                len(batches),
-            )
-        return validate_report(combined.section_payload(), evidence, strict=True)
+            raise
+        checkpoint()
+        return result
 
     # Every request uses the original prompt and validates citations against only its own batch.
     def _generate_batch(self, profile: ProfilePayload, evidence: Evidence) -> ValidatedReport:
+        input_tokens = self._report_input_tokens(profile, evidence)
+        input_limit = self._report_input_limit()
+        if input_tokens > input_limit:
+            if len(evidence) != 1:
+                raise AIUnavailable(tr("errors.ai_context_limit"), reason="context_limit")
+            logger.info(
+                "report_batch_token_limit_bypassed provider=%s model=%s fragments=1 "
+                "input_tokens_upper_bound=%s input_limit=%s counting=utf8_bytes",
+                self.provider.name,
+                self.provider.model,
+                input_tokens,
+                input_limit,
+            )
         entries = self._evidence_entries(evidence)
         self._log_fragment_inventory(entries, "fragments_sent_to_ai")
-        user = f"""
-            Problema pentru care se solicită recomandări naturiste:
-            {json.dumps(profile, ensure_ascii=False)}
-
-            Toate fragmentele locale admise:
-            {json.dumps(entries, ensure_ascii=False)}
-        """.strip()
+        user = self._report_user_message(profile, evidence)
         logger.info(
-            "ai_request_payload_prepared provider=%s chars=%s approx_tokens=%s evidence_entries=%s",
+            "ai_request_payload_prepared provider=%s chars=%s input_tokens_upper_bound=%s "
+            "evidence_entries=%s counting=utf8_bytes",
             self.provider.name,
             len(user),
-            len(user) // 4,
+            input_tokens,
             len(entries),
         )
-        result = self.complete_json(
-            self.generate_system_prompt, user, self.provider.max_output_tokens
-        )
+        if self.provider.name == "ollama":
+            result = self._complete_json(
+                self.generate_system_prompt,
+                user,
+                self.provider.max_output_tokens,
+                schema=report_response_schema(evidence),
+            )
+        else:
+            result = self.complete_json(
+                self.generate_system_prompt, user, self.provider.max_output_tokens
+            )
         return validate_report(result, evidence, allow_empty=True, strict=True)
 
 
@@ -580,41 +873,32 @@ class OllamaReportClient(ResponsesClient):
         error = event.get("error")
         if not error:
             return
-        message = error.get("message", "") if isinstance(error, dict) else str(error)
-        lowered = message.lower()
-        if "model" in lowered and "not found" in lowered:
+        reason = _ollama_error_reason(error)
+        if reason == "model_not_found":
             logger.warning("ai_model_not_found provider=ollama")
             raise AIUnavailable(
                 "Modelul Ollama selectat nu este instalat sau nu este disponibil.",
                 reason="model_not_found",
             )
-        if any(
-            marker in lowered
-            for marker in (
-                "exceeds the available context",
-                "input length exceeds the context",
-                "context size has been exceeded",
-                "context window is full",
-                "context length exceeded",
-                "maximum context length",
-                "context_length_exceeded",
-                "context shift is disabled",
-                "prompt is too long",
-            )
-        ):
+        if reason == "context_limit":
             logger.warning("ai_context_limit_exceeded provider=ollama truncation=disabled")
             raise AIUnavailable(
                 tr("errors.ai_context_limit"),
                 reason="context_limit",
             )
-        raise ValueError("Ollama reported a generation error")
+        if reason == "repetition_limit":
+            logger.warning("ai_repetition_limit_exceeded provider=ollama")
+            raise AIUnavailable(tr("errors.ai_repetition_limit"), reason="repetition_limit")
+        raise _AIResponseError(reason)
 
     def _send(self, headers: dict[str, str], payload: dict[str, Any]) -> Any:
         native: dict[str, Any] = {
             "model": payload["model"],
             "messages": payload["input"],
             "stream": bool(payload.get("stream")),
-            "format": self.provider.response_schema or "json",
+            "format": payload.get("text", {}).get("format", {}).get("schema")
+            or self.provider.response_schema
+            or "json",
             "truncate": False,
             "shift": False,
             "options": {"num_predict": payload["max_output_tokens"]},
@@ -627,6 +911,10 @@ class OllamaReportClient(ResponsesClient):
             native["keep_alive"] = self.provider.keep_alive_seconds
         if "temperature" in payload:
             native["options"]["temperature"] = payload["temperature"]
+        if self.provider.repeat_penalty is not None:
+            native["options"]["repeat_penalty"] = self.provider.repeat_penalty
+        if self.provider.repeat_last_n is not None:
+            native["options"]["repeat_last_n"] = self.provider.repeat_last_n
         url = f"{self.provider.base_url.removesuffix('/v1')}/api/chat"
         timeout = httpx.Timeout(
             remaining_timeout(float(self.provider.read_timeout_seconds)),
@@ -659,18 +947,24 @@ class OllamaReportClient(ResponsesClient):
                     continue
                 event = json.loads(line)
                 if not isinstance(event, dict):
-                    raise ValueError("Invalid Ollama stream event")
+                    raise _AIResponseError("invalid_event")
                 self._check_native_error(event)
+                if "done" in event and type(event["done"]) is not bool:
+                    raise _AIResponseError("invalid_done_flag")
                 if "message" not in event and not event.get("done"):
-                    raise ValueError("Ollama event without message or completion")
-                message = event.get("message") or {}
+                    raise _AIResponseError("missing_message")
+                message = event.get("message", {})
                 if not isinstance(message, dict):
-                    raise ValueError("Invalid Ollama message")
+                    raise _AIResponseError("invalid_message")
                 emit_report_activity(ReportActivity("provider_activity"))
                 thinking = message.get("thinking")
+                if thinking is not None and not isinstance(thinking, str):
+                    raise _AIResponseError("invalid_thinking")
                 if isinstance(thinking, str):
                     emit_report_thinking(thinking)
                 content = message.get("content")
+                if content is not None and not isinstance(content, str):
+                    raise _AIResponseError("invalid_content")
                 if isinstance(content, str):
                     parts.append(content)
                     emit_report_output(content)
@@ -681,7 +975,7 @@ class OllamaReportClient(ResponsesClient):
                     )
                     break
             if final is None:
-                raise ValueError("Ollama stream ended before completion")
+                raise _AIResponseError("missing_completion")
             if (
                 final.get("done_reason") == "length"
                 and final.get("eval_count", 0) < payload["max_output_tokens"]

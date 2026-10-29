@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-28T11:57:21.345Z",
-    "fileCount": 183,
+    "lastScanned": "2026-10-29T09:46:31.705Z",
+    "fileCount": 206,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "4931723b4a70fde39a6c97bf9d607cd0e1e5075e4b6203f1a88b15e58c4882c4",
-    "storeUpdatedAt": "2026-10-28T11:57:21.356Z",
-    "rootHash": "92fa6383f5beef84"
+    "renderedHash": "0219e4f636245113bf8bd91b40a4d90df3eabdfa625962d37d1fbc1450c61d81",
+    "storeUpdatedAt": "2026-10-29T09:46:31.716Z",
+    "rootHash": "e6a5d0b4858c6452"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -170,11 +170,11 @@
     },
     "src/frontend/styles.css": {
       "description": "Styles: 91 rules, 14 vars",
-      "tokens": 10280,
-      "hash": "bad016efaccd2f64",
-      "size": 35978,
-      "mtimeMs": 1793171039058.3174,
-      "updatedAt": "2026-10-28T07:03:59.558Z",
+      "tokens": 10420,
+      "hash": "d11d91e821baab4a",
+      "size": 36469,
+      "mtimeMs": 1793211306482.0476,
+      "updatedAt": "2026-10-28T18:15:07.281Z",
       "source": "hook"
     },
     "src/backend/core/texts.py": {
@@ -311,20 +311,20 @@
     },
     "docker-compose.yaml": {
       "description": "Docker Compose: 4 services",
-      "tokens": 2384,
-      "hash": "efa321c776129ae4",
-      "size": 8342,
-      "mtimeMs": 1793188536571.1528,
-      "updatedAt": "2026-10-28T11:55:37.383Z",
+      "tokens": 2392,
+      "hash": "851041eba077e272",
+      "size": 8372,
+      "mtimeMs": 1793250171609.1768,
+      "updatedAt": "2026-10-29T05:02:54.745Z",
       "source": "hook"
     },
     "src/backend/web/main.py": {
       "description": "FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits.",
-      "tokens": 12709,
-      "hash": "7fbabd68f1ffab48",
-      "size": 44481,
-      "mtimeMs": 1793107618002.814,
-      "updatedAt": "2026-10-27T13:26:59.722Z",
+      "tokens": 12814,
+      "hash": "5f788a387b9d1f15",
+      "size": 44847,
+      "mtimeMs": 1793250171606.179,
+      "updatedAt": "2026-10-29T05:02:53.966Z",
       "source": "hook",
       "symbols": [
         {
@@ -384,158 +384,158 @@
           "tokens": 63
         },
         {
-          "name": "GenerateResponse",
+          "name": "ReportBatchPreviewResponse",
           "kind": "class",
           "startLine": 155,
-          "endLine": 186,
-          "tokens": 326
+          "endLine": 163,
+          "tokens": 94
+        },
+        {
+          "name": "GenerateResponse",
+          "kind": "class",
+          "startLine": 164,
+          "endLine": 195,
+          "tokens": 334
         },
         {
           "name": "_deps",
           "kind": "fn",
-          "startLine": 187,
-          "endLine": 190,
+          "startLine": 196,
+          "endLine": 199,
           "tokens": 26
         },
         {
           "name": "_identity",
           "kind": "fn",
-          "startLine": 191,
-          "endLine": 202,
+          "startLine": 200,
+          "endLine": 211,
           "tokens": 135
         },
         {
           "name": "_current",
           "kind": "fn",
-          "startLine": 203,
-          "endLine": 211,
+          "startLine": 212,
+          "endLine": 220,
           "tokens": 99
         },
         {
           "name": "_client_ip",
           "kind": "fn",
-          "startLine": 212,
-          "endLine": 217,
+          "startLine": 221,
+          "endLine": 226,
           "tokens": 74
         },
         {
           "name": "_application_error_response",
           "kind": "fn",
-          "startLine": 218,
-          "endLine": 226,
+          "startLine": 227,
+          "endLine": 235,
           "tokens": 109
         },
         {
           "name": "_revision",
           "kind": "fn",
-          "startLine": 227,
-          "endLine": 239,
+          "startLine": 236,
+          "endLine": 248,
           "tokens": 103
         },
         {
           "name": "_cancelled",
           "kind": "fn",
-          "startLine": 240,
-          "endLine": 244,
+          "startLine": 249,
+          "endLine": 253,
           "tokens": 34
         },
         {
           "name": "healthz",
           "kind": "fn",
-          "startLine": 245,
-          "endLine": 262,
+          "startLine": 254,
+          "endLine": 271,
           "tokens": 155
         },
         {
           "name": "readyz",
           "kind": "fn",
-          "startLine": 263,
-          "endLine": 272,
+          "startLine": 272,
+          "endLine": 281,
           "tokens": 75
         },
         {
           "name": "startup_status",
           "kind": "fn",
-          "startLine": 273,
-          "endLine": 276,
+          "startLine": 282,
+          "endLine": 285,
           "tokens": 24
         },
         {
           "name": "_require_initialized",
           "kind": "fn",
-          "startLine": 277,
-          "endLine": 287,
+          "startLine": 286,
+          "endLine": 296,
           "tokens": 99
         },
         {
           "name": "download",
           "kind": "fn",
-          "startLine": 288,
-          "endLine": 304,
+          "startLine": 297,
+          "endLine": 313,
           "tokens": 173
         },
         {
           "name": "get_session",
           "kind": "fn",
-          "startLine": 305,
-          "endLine": 342,
+          "startLine": 314,
+          "endLine": 351,
           "tokens": 407
         },
         {
           "name": "get_categories",
           "kind": "fn",
-          "startLine": 343,
-          "endLine": 350,
+          "startLine": 352,
+          "endLine": 359,
           "tokens": 95
         },
         {
           "name": "_categories_payload",
           "kind": "fn",
-          "startLine": 351,
-          "endLine": 359,
+          "startLine": 360,
+          "endLine": 368,
           "tokens": 84
         },
         {
           "name": "get_herb_image",
           "kind": "fn",
-          "startLine": 360,
-          "endLine": 371,
+          "startLine": 369,
+          "endLine": 380,
           "tokens": 146
         },
         {
           "name": "get_herb_evidence",
           "kind": "fn",
-          "startLine": 372,
-          "endLine": 431,
+          "startLine": 381,
+          "endLine": 440,
           "tokens": 734
         },
         {
           "name": "_herb_safety_response",
           "kind": "fn",
-          "startLine": 432,
-          "endLine": 474,
+          "startLine": 441,
+          "endLine": 483,
           "tokens": 538
         },
         {
           "name": "get_herb_safety",
-          "kind": "fn",
-          "startLine": 475,
-          "endLine": 483,
-          "tokens": 98
-        },
-        {
-          "name": "get_herb_safety_evidence",
           "kind": "fn",
           "startLine": 484,
           "endLine": 492,
           "tokens": 98
         },
         {
-          "name": "_conversation",
+          "name": "get_herb_safety_evidence",
           "kind": "fn",
           "startLine": 493,
-          "endLine": 1153,
-          "tokens": 7086
+          "endLine": 1162,
+          "tokens": 7184
         }
       ]
     },
@@ -812,28 +812,28 @@
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 35623,
-      "hash": "03cd182788a1c4a4",
-      "size": 148589,
-      "mtimeMs": 1793188601403.2678,
-      "updatedAt": "2026-10-28T11:56:42.479Z",
+      "tokens": 37785,
+      "hash": "f05673b8c9a5e419",
+      "size": 157533,
+      "mtimeMs": 1793266979077.9504,
+      "updatedAt": "2026-10-29T09:42:59.880Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
       "description": "Display names are editable; provider routing continues to use the original IDs.",
-      "tokens": 2894,
-      "hash": "747e03f5a45c12bf",
-      "size": 10127,
-      "mtimeMs": 1792555246761.1213,
-      "updatedAt": "2026-10-21T04:00:47.202Z",
+      "tokens": 2994,
+      "hash": "3d38ac9060001c5c",
+      "size": 10478,
+      "mtimeMs": 1793211251192.5562,
+      "updatedAt": "2026-10-28T18:14:14.436Z",
       "source": "hook",
       "symbols": [
         {
           "name": "GeneratePanel",
           "kind": "fn",
           "startLine": 25,
-          "endLine": 195,
-          "tokens": 2475
+          "endLine": 199,
+          "tokens": 2574
         }
       ]
     },
@@ -880,11 +880,11 @@
     },
     "src/backend/resources/texts.ro.toml": {
       "description": "Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română.",
-      "tokens": 9174,
-      "hash": "27d88caaff478f84",
-      "size": 35522,
-      "mtimeMs": 1793161258086.8887,
-      "updatedAt": "2026-10-28T04:20:59.811Z",
+      "tokens": 9350,
+      "hash": "1c678198e65398d9",
+      "size": 36195,
+      "mtimeMs": 1793266821604.1277,
+      "updatedAt": "2026-10-29T09:40:23.287Z",
       "source": "hook"
     },
     "src/frontend/components/Composer.tsx": {
@@ -932,11 +932,11 @@
     },
     "src/backend/ai/message_classification.py": {
       "description": "Small, validated intent decisions through the existing local Ollama model.",
-      "tokens": 9270,
-      "hash": "34962a61d86a0e58",
-      "size": 32463,
-      "mtimeMs": 1793188536578.1523,
-      "updatedAt": "2026-10-28T11:55:37.899Z",
+      "tokens": 9335,
+      "hash": "0bba76311c1b4722",
+      "size": 32691,
+      "mtimeMs": 1793191358908.1443,
+      "updatedAt": "2026-10-28T12:42:40.231Z",
       "source": "hook",
       "symbols": [
         {
@@ -1006,8 +1006,8 @@
           "name": "MessageClassifier",
           "kind": "class",
           "startLine": 429,
-          "endLine": 700,
-          "tokens": 3825
+          "endLine": 703,
+          "tokens": 3885
         }
       ]
     },
@@ -1081,11 +1081,11 @@
     },
     "src/backend/core/conversation.py": {
       "description": "Conversation orchestration, independent of FastAPI and frontend modules.",
-      "tokens": 15350,
-      "hash": "1561dffeaa5dbfe7",
-      "size": 53736,
-      "mtimeMs": 1793161542520.8713,
-      "updatedAt": "2026-10-28T04:25:43.328Z",
+      "tokens": 15397,
+      "hash": "d376abbe30feb844",
+      "size": 53900,
+      "mtimeMs": 1793248396023.4197,
+      "updatedAt": "2026-10-29T04:33:16.861Z",
       "source": "hook",
       "symbols": [
         {
@@ -1232,8 +1232,8 @@
           "name": "ConversationService",
           "kind": "class",
           "startLine": 264,
-          "endLine": 1226,
-          "tokens": 12431
+          "endLine": 1228,
+          "tokens": 12472
         }
       ]
     },
@@ -1801,11 +1801,11 @@
     },
     "src/backend/ai/herb_association_classification.py": {
       "description": "Bounded local-only polarity classification; validated quotations are source provenance.",
-      "tokens": 6318,
-      "hash": "e8bf0964dc91dc2b",
-      "size": 22110,
-      "mtimeMs": 1793006558219.476,
-      "updatedAt": "2026-10-26T09:22:38.982Z",
+      "tokens": 6314,
+      "hash": "854252f9941a97ad",
+      "size": 22096,
+      "mtimeMs": 1793191772058.8667,
+      "updatedAt": "2026-10-28T12:49:32.858Z",
       "source": "hook",
       "symbols": [
         {
@@ -1910,28 +1910,28 @@
           "name": "validate_response",
           "kind": "fn",
           "startLine": 466,
-          "endLine": 521,
-          "tokens": 588
+          "endLine": 520,
+          "tokens": 584
         },
         {
           "name": "validate_cached",
           "kind": "fn",
-          "startLine": 522,
-          "endLine": 540,
+          "startLine": 521,
+          "endLine": 539,
           "tokens": 184
         },
         {
           "name": "model_digest",
           "kind": "fn",
-          "startLine": 541,
-          "endLine": 557,
+          "startLine": 540,
+          "endLine": 556,
           "tokens": 211
         },
         {
           "name": "make_client",
           "kind": "fn",
-          "startLine": 558,
-          "endLine": 587,
+          "startLine": 557,
+          "endLine": 586,
           "tokens": 338
         }
       ]
@@ -1947,113 +1947,127 @@
     },
     "src/backend/ai/client.py": {
       "description": "Sequential whole-fragment report batches through the selected AI provider.",
-      "tokens": 9236,
-      "hash": "28a362c1275f6b3c",
-      "size": 32325,
-      "mtimeMs": 1793188601395.266,
-      "updatedAt": "2026-10-28T11:56:41.905Z",
+      "tokens": 12916,
+      "hash": "10079924b46450d6",
+      "size": 45205,
+      "mtimeMs": 1793266821598.128,
+      "updatedAt": "2026-10-29T09:40:22.704Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_ordered_entries",
           "kind": "fn",
-          "startLine": 41,
-          "endLine": 52,
+          "startLine": 61,
+          "endLine": 72,
           "tokens": 105
         },
         {
           "name": "AIUnavailable",
           "kind": "class",
-          "startLine": 53,
-          "endLine": 59,
-          "tokens": 76
+          "startLine": 73,
+          "endLine": 79,
+          "tokens": 71
+        },
+        {
+          "name": "_AIResponseError",
+          "kind": "class",
+          "startLine": 80,
+          "endLine": 86,
+          "tokens": 65
+        },
+        {
+          "name": "_ollama_error_reason",
+          "kind": "fn",
+          "startLine": 87,
+          "endLine": 121,
+          "tokens": 377
         },
         {
           "name": "json_error_details",
           "kind": "fn",
-          "startLine": 60,
-          "endLine": 83,
+          "startLine": 122,
+          "endLine": 145,
           "tokens": 289
         },
         {
           "name": "_parse_json_object",
           "kind": "fn",
-          "startLine": 84,
-          "endLine": 95,
+          "startLine": 146,
+          "endLine": 157,
           "tokens": 116
         },
         {
           "name": "_StreamedResponse",
           "kind": "class",
-          "startLine": 96,
-          "endLine": 112,
+          "startLine": 158,
+          "endLine": 174,
           "tokens": 126
         },
         {
           "name": "_response_metrics",
           "kind": "fn",
-          "startLine": 113,
-          "endLine": 130,
+          "startLine": 175,
+          "endLine": 192,
           "tokens": 176
         },
         {
           "name": "_ollama_metrics",
           "kind": "fn",
-          "startLine": 131,
-          "endLine": 155,
+          "startLine": 193,
+          "endLine": 217,
           "tokens": 227
         },
         {
           "name": "_collect_stream",
           "kind": "fn",
-          "startLine": 156,
-          "endLine": 210,
+          "startLine": 218,
+          "endLine": 272,
           "tokens": 691
         },
         {
           "name": "ResponsesClient",
           "kind": "class",
-          "startLine": 211,
-          "endLine": 570,
-          "tokens": 4620
+          "startLine": 273,
+          "endLine": 863,
+          "tokens": 7546
         },
         {
           "name": "OllamaReportClient",
           "kind": "class",
-          "startLine": 571,
-          "endLine": 706,
-          "tokens": 1722
+          "startLine": 864,
+          "endLine": 1000,
+          "tokens": 1817
         },
         {
           "name": "XAIClient",
           "kind": "class",
-          "startLine": 707,
-          "endLine": 713,
+          "startLine": 1001,
+          "endLine": 1007,
           "tokens": 95
         },
         {
           "name": "create_ai_client",
           "kind": "fn",
-          "startLine": 714,
-          "endLine": 721,
+          "startLine": 1008,
+          "endLine": 1015,
           "tokens": 89
         },
         {
           "name": "create_report_clients",
           "kind": "fn",
-          "startLine": 722,
-          "endLine": 749,
+          "startLine": 1016,
+          "endLine": 1043,
           "tokens": 353
         }
       ]
     },
     "src/backend/config.py": {
       "description": "Environment-backed settings. No patient data belongs in configuration or logs.",
-      "tokens": 9731,
-      "hash": "90cf4bbc1546d6c7",
-      "size": 34058,
-      "mtimeMs": 1793188536568.1519,
-      "updatedAt": "2026-10-28T11:55:37.092Z",
+      "tokens": 9918,
+      "hash": "5631ec6cf4eb81e8",
+      "size": 34711,
+      "mtimeMs": 1793256545028.579,
+      "updatedAt": "2026-10-29T06:49:05.558Z",
       "source": "hook",
       "symbols": [
         {
@@ -2109,14 +2123,14 @@
           "name": "Settings",
           "kind": "class",
           "startLine": 157,
-          "endLine": 685,
-          "tokens": 7792
+          "endLine": 696,
+          "tokens": 7976
         },
         {
           "name": "configure_settings",
           "kind": "fn",
-          "startLine": 686,
-          "endLine": 698,
+          "startLine": 697,
+          "endLine": 709,
           "tokens": 137
         }
       ]
@@ -2199,25 +2213,25 @@
     },
     "src/scripts/positive_herb_ranking.py": {
       "description": "Explicit, resumable positive-ranking stages used by the existing index CLI.",
-      "tokens": 4478,
-      "hash": "6be1a0807077845c",
-      "size": 15673,
-      "mtimeMs": 1793084960753.5803,
-      "updatedAt": "2026-10-27T07:09:21.867Z",
+      "tokens": 4477,
+      "hash": "a3e92e53bed32493",
+      "size": 15669,
+      "mtimeMs": 1793191787207.452,
+      "updatedAt": "2026-10-28T12:49:47.705Z",
       "source": "hook",
       "symbols": [
         {
           "name": "run_positive_ranking",
           "kind": "fn",
-          "startLine": 43,
-          "endLine": 333,
+          "startLine": 42,
+          "endLine": 332,
           "tokens": 3832
         },
         {
           "name": "refresh_positive_ranking",
           "kind": "fn",
-          "startLine": 334,
-          "endLine": 349,
+          "startLine": 333,
+          "endLine": 348,
           "tokens": 242
         }
       ]
@@ -3547,172 +3561,179 @@
     },
     "src/backend/core/contracts.py": {
       "description": "Shared data and port contracts; independent of HTTP and the UI.",
-      "tokens": 2036,
-      "hash": "b1cb7359546cc2c6",
-      "size": 7124,
-      "mtimeMs": 1793107617998.7341,
-      "updatedAt": "2026-10-27T13:26:59.154Z",
+      "tokens": 2109,
+      "hash": "ac3ded528ca0ef31",
+      "size": 7379,
+      "mtimeMs": 1793255746599.8416,
+      "updatedAt": "2026-10-29T06:35:47.148Z",
       "source": "hook",
       "symbols": [
         {
           "name": "TranscriptEntry",
           "kind": "class",
-          "startLine": 22,
-          "endLine": 26,
+          "startLine": 23,
+          "endLine": 27,
           "tokens": 19
         },
         {
           "name": "IdentifiedCondition",
           "kind": "class",
-          "startLine": 27,
-          "endLine": 32,
+          "startLine": 28,
+          "endLine": 33,
           "tokens": 26
         },
         {
           "name": "ProfilePayload",
           "kind": "class",
-          "startLine": 33,
-          "endLine": 39,
+          "startLine": 34,
+          "endLine": 40,
           "tokens": 49
         },
         {
           "name": "EvidenceItem",
           "kind": "class",
-          "startLine": 40,
-          "endLine": 58,
-          "tokens": 176
+          "startLine": 41,
+          "endLine": 60,
+          "tokens": 183
+        },
+        {
+          "name": "EvidenceTokenBudget",
+          "kind": "class",
+          "startLine": 61,
+          "endLine": 66,
+          "tokens": 37
         },
         {
           "name": "AIProtocol",
           "kind": "class",
-          "startLine": 59,
-          "endLine": 65,
-          "tokens": 70
+          "startLine": 67,
+          "endLine": 73,
+          "tokens": 76
         },
         {
           "name": "RetrievalProtocol",
           "kind": "class",
-          "startLine": 66,
-          "endLine": 73,
-          "tokens": 74
+          "startLine": 74,
+          "endLine": 83,
+          "tokens": 84
         },
         {
           "name": "EmailProtocol",
           "kind": "class",
-          "startLine": 74,
-          "endLine": 85,
+          "startLine": 84,
+          "endLine": 95,
           "tokens": 164
         },
         {
           "name": "HerbCondition",
           "kind": "class",
-          "startLine": 86,
-          "endLine": 94,
+          "startLine": 96,
+          "endLine": 104,
           "tokens": 55
         },
         {
           "name": "HerbContraindication",
           "kind": "class",
-          "startLine": 95,
-          "endLine": 98,
+          "startLine": 105,
+          "endLine": 108,
           "tokens": 21
         },
         {
           "name": "HerbLookupResult",
           "kind": "class",
-          "startLine": 99,
-          "endLine": 127,
+          "startLine": 109,
+          "endLine": 137,
           "tokens": 318
         },
         {
           "name": "HerbEvidenceReference",
           "kind": "class",
-          "startLine": 128,
-          "endLine": 136,
+          "startLine": 138,
+          "endLine": 146,
           "tokens": 82
         },
         {
           "name": "HerbHighlight",
           "kind": "class",
-          "startLine": 137,
-          "endLine": 142,
+          "startLine": 147,
+          "endLine": 152,
           "tokens": 32
         },
         {
           "name": "HerbEvidenceFragment",
           "kind": "class",
-          "startLine": 143,
-          "endLine": 154,
+          "startLine": 153,
+          "endLine": 164,
           "tokens": 75
         },
         {
           "name": "HerbEvidencePage",
           "kind": "class",
-          "startLine": 155,
-          "endLine": 165,
+          "startLine": 165,
+          "endLine": 175,
           "tokens": 79
         },
         {
           "name": "LookupHerbEvidence",
           "kind": "class",
-          "startLine": 166,
-          "endLine": 178,
+          "startLine": 176,
+          "endLine": 188,
           "tokens": 91
         },
         {
           "name": "HerbSafetyReference",
           "kind": "class",
-          "startLine": 179,
-          "endLine": 183,
+          "startLine": 189,
+          "endLine": 193,
           "tokens": 22
         },
         {
           "name": "HerbWarning",
           "kind": "class",
-          "startLine": 184,
-          "endLine": 191,
+          "startLine": 194,
+          "endLine": 201,
           "tokens": 34
         },
         {
           "name": "HerbSafetyPage",
           "kind": "class",
-          "startLine": 192,
-          "endLine": 200,
+          "startLine": 202,
+          "endLine": 210,
           "tokens": 55
         },
         {
           "name": "HerbSafetyEvidencePage",
           "kind": "class",
-          "startLine": 201,
-          "endLine": 210,
+          "startLine": 211,
+          "endLine": 220,
           "tokens": 62
         },
         {
           "name": "LookupHerbSafety",
           "kind": "class",
-          "startLine": 211,
-          "endLine": 214,
+          "startLine": 221,
+          "endLine": 224,
           "tokens": 37
         },
         {
           "name": "LookupHerbSafetyEvidence",
           "kind": "class",
-          "startLine": 215,
-          "endLine": 220,
+          "startLine": 225,
+          "endLine": 230,
           "tokens": 50
         },
         {
           "name": "RankedHerb",
           "kind": "class",
-          "startLine": 221,
-          "endLine": 230,
+          "startLine": 231,
+          "endLine": 240,
           "tokens": 50
         },
         {
           "name": "ConditionTopResult",
           "kind": "class",
-          "startLine": 231,
-          "endLine": 240,
+          "startLine": 241,
+          "endLine": 250,
           "tokens": 97
         }
       ]
@@ -3751,40 +3772,40 @@
     },
     "src/backend/core/sessions.py": {
       "description": "Atomic tab lifetimes, operation commits and bounded ephemeral retention.",
-      "tokens": 14851,
-      "hash": "fae15ae77e10a93a",
-      "size": 51977,
-      "mtimeMs": 1793006632402.0398,
-      "updatedAt": "2026-10-26T09:23:53.719Z",
+      "tokens": 15689,
+      "hash": "f0586c00c31b4733",
+      "size": 54909,
+      "mtimeMs": 1793250171604.1775,
+      "updatedAt": "2026-10-29T05:02:53.530Z",
       "source": "hook",
       "symbols": [
         {
           "name": "serialized_bytes",
           "kind": "fn",
-          "startLine": 66,
-          "endLine": 79,
+          "startLine": 67,
+          "endLine": 80,
           "tokens": 101
         },
         {
           "name": "RetainedUsage",
           "kind": "class",
-          "startLine": 80,
-          "endLine": 86,
+          "startLine": 81,
+          "endLine": 87,
           "tokens": 25
         },
         {
           "name": "retained_usage",
           "kind": "fn",
-          "startLine": 87,
-          "endLine": 141,
-          "tokens": 649
+          "startLine": 88,
+          "endLine": 145,
+          "tokens": 667
         },
         {
           "name": "SessionStore",
           "kind": "class",
-          "startLine": 142,
-          "endLine": 1159,
-          "tokens": 13299
+          "startLine": 146,
+          "endLine": 1228,
+          "tokens": 14090
         }
       ]
     },
@@ -3799,11 +3820,11 @@
     },
     "src/frontend/api/types.ts": {
       "description": "Mirrors the JSON shapes produced by backend/web/main.py and",
-      "tokens": 2267,
-      "hash": "783e0b87d70c84d5",
-      "size": 7941,
-      "mtimeMs": 1793161258079.7117,
-      "updatedAt": "2026-10-28T04:20:59.353Z",
+      "tokens": 2346,
+      "hash": "c96965886dccad4c",
+      "size": 8217,
+      "mtimeMs": 1793250171608.1785,
+      "updatedAt": "2026-10-29T05:02:54.406Z",
       "source": "hook",
       "symbols": [
         {
@@ -3947,59 +3968,66 @@
           "tokens": 82
         },
         {
-          "name": "ReportGeneration",
+          "name": "ReportBatchPreview",
           "kind": "section",
           "startLine": 201,
-          "endLine": 228,
-          "tokens": 227
+          "endLine": 209,
+          "tokens": 80
+        },
+        {
+          "name": "ReportGeneration",
+          "kind": "section",
+          "startLine": 210,
+          "endLine": 237,
+          "tokens": 226
         },
         {
           "name": "CategoriesResponse",
           "kind": "section",
-          "startLine": 229,
-          "endLine": 234,
+          "startLine": 238,
+          "endLine": 243,
           "tokens": 38
         },
         {
           "name": "ResourceInvalidations",
           "kind": "section",
-          "startLine": 235,
-          "endLine": 241,
+          "startLine": 244,
+          "endLine": 250,
           "tokens": 46
         },
         {
           "name": "MessagesResponse",
           "kind": "section",
-          "startLine": 242,
-          "endLine": 247,
+          "startLine": 251,
+          "endLine": 256,
           "tokens": 45
         },
         {
           "name": "SendMessageResponse",
           "kind": "section",
-          "startLine": 248,
-          "endLine": 260,
+          "startLine": 257,
+          "endLine": 269,
           "tokens": 168
         },
         {
           "name": "ClassificationResponse",
           "kind": "section",
-          "startLine": 261,
-          "endLine": 264,
+          "startLine": 270,
+          "endLine": 273,
           "tokens": 43
         },
         {
           "name": "ConditionResponse",
           "kind": "section",
-          "startLine": 265,
-          "endLine": 269,
+          "startLine": 274,
+          "endLine": 278,
           "tokens": 35
         },
         {
           "name": "GenerateResponse",
           "kind": "section",
-          "startLine": 270,
-          "endLine": 276,
+          "startLine": 279,
+          "endLine": 285,
           "tokens": 74
         }
       ]
@@ -4739,11 +4767,11 @@
     },
     "src/backend/core/models.py": {
       "description": "Minimal medical context collected before report generation.",
-      "tokens": 4792,
-      "hash": "a6e054d60ae6eae4",
-      "size": 16777,
-      "mtimeMs": 1792988848545.4807,
-      "updatedAt": "2026-10-26T04:27:29.132Z",
+      "tokens": 5593,
+      "hash": "9e23ba15b67ad8db",
+      "size": 19582,
+      "mtimeMs": 1793250171603.177,
+      "updatedAt": "2026-10-29T05:02:53.059Z",
       "source": "hook",
       "symbols": [
         {
@@ -4796,52 +4824,59 @@
           "tokens": 299
         },
         {
-          "name": "ReportGeneration",
+          "name": "ReportBatchPreview",
           "kind": "class",
           "startLine": 201,
-          "endLine": 278,
-          "tokens": 829
+          "endLine": 248,
+          "tokens": 514
+        },
+        {
+          "name": "ReportGeneration",
+          "kind": "class",
+          "startLine": 249,
+          "endLine": 352,
+          "tokens": 1095
         },
         {
           "name": "SessionData",
           "kind": "class",
-          "startLine": 279,
-          "endLine": 350,
+          "startLine": 353,
+          "endLine": 424,
           "tokens": 1035
         },
         {
           "name": "ConversationGroup",
           "kind": "class",
-          "startLine": 351,
-          "endLine": 356,
+          "startLine": 425,
+          "endLine": 430,
           "tokens": 47
         },
         {
           "name": "SessionSnapshot",
           "kind": "class",
-          "startLine": 357,
-          "endLine": 374,
+          "startLine": 431,
+          "endLine": 448,
           "tokens": 159
         },
         {
           "name": "SessionOperation",
           "kind": "class",
-          "startLine": 375,
-          "endLine": 387,
+          "startLine": 449,
+          "endLine": 461,
           "tokens": 89
         },
         {
           "name": "CommitChange",
           "kind": "class",
-          "startLine": 388,
-          "endLine": 405,
+          "startLine": 462,
+          "endLine": 479,
           "tokens": 197
         },
         {
           "name": "OperationResult",
           "kind": "class",
-          "startLine": 406,
-          "endLine": 425,
+          "startLine": 480,
+          "endLine": 499,
           "tokens": 236
         }
       ]
@@ -5438,10 +5473,10 @@
     "src/scripts/herb_safety_index.py": {
       "description": "Legacy corpus helpers and shared progress; public safety commands use product knowledge.",
       "tokens": 6224,
-      "hash": "0d287db5ad398969",
+      "hash": "0b6db0dfad405d2f",
       "size": 21781,
-      "mtimeMs": 1793085152125.623,
-      "updatedAt": "2026-10-27T07:12:33.157Z",
+      "mtimeMs": 1793191787209.4502,
+      "updatedAt": "2026-10-28T12:49:48.270Z",
       "source": "hook",
       "symbols": [
         {
@@ -5605,67 +5640,74 @@
     },
     "src/scripts/herb_index_requests.py": {
       "description": "Stream one indexing request per batch and emit aggregate telemetry without source content.",
-      "tokens": 3590,
-      "hash": "50c2438ce5e908f3",
-      "size": 12566,
-      "mtimeMs": 1793188601398.2676,
-      "updatedAt": "2026-10-28T11:56:42.206Z",
+      "tokens": 4390,
+      "hash": "51474aacffe6f9a4",
+      "size": 15366,
+      "mtimeMs": 1793191772059.3743,
+      "updatedAt": "2026-10-28T12:49:33.156Z",
       "source": "hook",
       "symbols": [
         {
           "name": "emit_index_event",
           "kind": "fn",
-          "startLine": 58,
-          "endLine": 64,
-          "tokens": 65
+          "startLine": 86,
+          "endLine": 92,
+          "tokens": 64
+        },
+        {
+          "name": "model_digest",
+          "kind": "fn",
+          "startLine": 93,
+          "endLine": 113,
+          "tokens": 217
         },
         {
           "name": "release_index_model",
           "kind": "fn",
-          "startLine": 65,
-          "endLine": 97,
-          "tokens": 446
+          "startLine": 114,
+          "endLine": 151,
+          "tokens": 506
         },
         {
           "name": "warning_item_limit",
           "kind": "fn",
-          "startLine": 98,
-          "endLine": 102,
+          "startLine": 152,
+          "endLine": 156,
           "tokens": 72
         },
         {
           "name": "index_response_schema",
           "kind": "fn",
-          "startLine": 103,
-          "endLine": 126,
+          "startLine": 157,
+          "endLine": 180,
           "tokens": 369
         },
         {
           "name": "IndexClient",
           "kind": "class",
-          "startLine": 127,
-          "endLine": 154,
+          "startLine": 181,
+          "endLine": 208,
           "tokens": 338
         },
         {
           "name": "make_client",
           "kind": "fn",
-          "startLine": 155,
-          "endLine": 172,
+          "startLine": 209,
+          "endLine": 226,
           "tokens": 155
         },
         {
           "name": "BatchTelemetry",
           "kind": "class",
-          "startLine": 173,
-          "endLine": 247,
-          "tokens": 926
+          "startLine": 227,
+          "endLine": 316,
+          "tokens": 1145
         },
         {
           "name": "index_batch",
           "kind": "fn",
-          "startLine": 248,
-          "endLine": 318,
+          "startLine": 317,
+          "endLine": 387,
           "tokens": 758
         }
       ]
@@ -5833,26 +5875,26 @@
     },
     "src/scripts/herb_product_safety_index.py": {
       "description": "One local-model request per uncached catalog product; no corpus or association inference.",
-      "tokens": 3189,
-      "hash": "599dce0b2e49366f",
-      "size": 11161,
-      "mtimeMs": 1793086105975.396,
-      "updatedAt": "2026-10-27T07:28:26.483Z",
+      "tokens": 3190,
+      "hash": "fefc8111bb73b9bc",
+      "size": 11162,
+      "mtimeMs": 1793191787208.4504,
+      "updatedAt": "2026-10-28T12:49:48.000Z",
       "source": "hook",
       "symbols": [
         {
           "name": "ProductSafetyCoordinator",
           "kind": "class",
-          "startLine": 32,
-          "endLine": 192,
+          "startLine": 31,
+          "endLine": 191,
           "tokens": 2023
         },
         {
           "name": "run_product_safety_index",
           "kind": "fn",
-          "startLine": 193,
-          "endLine": 274,
-          "tokens": 850
+          "startLine": 192,
+          "endLine": 280,
+          "tokens": 866
         }
       ]
     },
@@ -5917,11 +5959,11 @@
     },
     "src/backend/ai/providers.py": {
       "description": "Per-provider transport settings for report generation.",
-      "tokens": 1587,
-      "hash": "1eb2d040e27ee46e",
-      "size": 5553,
-      "mtimeMs": 1793188536574.152,
-      "updatedAt": "2026-10-28T11:55:37.618Z",
+      "tokens": 1768,
+      "hash": "dbe6c569f58d678d",
+      "size": 6185,
+      "mtimeMs": 1793266821596.1274,
+      "updatedAt": "2026-10-29T09:40:22.417Z",
       "source": "hook",
       "symbols": [
         {
@@ -5935,22 +5977,22 @@
           "name": "ProviderConfig",
           "kind": "class",
           "startLine": 27,
-          "endLine": 50,
-          "tokens": 209
+          "endLine": 53,
+          "tokens": 243
         },
         {
           "name": "_is_local",
           "kind": "fn",
-          "startLine": 51,
-          "endLine": 55,
+          "startLine": 54,
+          "endLine": 58,
           "tokens": 52
         },
         {
           "name": "provider_config",
           "kind": "fn",
-          "startLine": 56,
-          "endLine": 149,
-          "tokens": 1052
+          "startLine": 59,
+          "endLine": 165,
+          "tokens": 1194
         }
       ]
     },
@@ -6164,11 +6206,11 @@
     },
     "src/backend/ai/condition_ai.py": {
       "description": "Identification of the condition a message names when the dictionary does not",
-      "tokens": 3111,
-      "hash": "7137899737fb93de",
-      "size": 10888,
-      "mtimeMs": 1793188640788.6238,
-      "updatedAt": "2026-10-28T11:57:21.344Z",
+      "tokens": 3319,
+      "hash": "e4ba6e2c73da2e5b",
+      "size": 11616,
+      "mtimeMs": 1793191581957.4883,
+      "updatedAt": "2026-10-28T12:46:22.977Z",
       "source": "hook",
       "symbols": [
         {
@@ -6217,71 +6259,834 @@
           "name": "_validate",
           "kind": "fn",
           "startLine": 115,
-          "endLine": 150,
-          "tokens": 447
+          "endLine": 158,
+          "tokens": 540
         },
         {
           "name": "_ask",
           "kind": "fn",
-          "startLine": 151,
-          "endLine": 154,
+          "startLine": 159,
+          "endLine": 162,
           "tokens": 32
         },
         {
           "name": "_ask_client",
           "kind": "fn",
-          "startLine": 155,
-          "endLine": 169,
-          "tokens": 162
+          "startLine": 163,
+          "endLine": 183,
+          "tokens": 229
         },
         {
           "name": "clear_cache",
           "kind": "fn",
-          "startLine": 170,
-          "endLine": 173,
+          "startLine": 184,
+          "endLine": 187,
           "tokens": 31
         },
         {
           "name": "close_clients",
           "kind": "fn",
-          "startLine": 174,
-          "endLine": 181,
+          "startLine": 188,
+          "endLine": 195,
           "tokens": 66
         },
         {
           "name": "_dictionary_condition",
           "kind": "fn",
-          "startLine": 182,
-          "endLine": 187,
+          "startLine": 196,
+          "endLine": 201,
           "tokens": 81
         },
         {
           "name": "identify_conditions",
           "kind": "fn",
-          "startLine": 188,
-          "endLine": 223,
-          "tokens": 472
+          "startLine": 202,
+          "endLine": 241,
+          "tokens": 515
         },
         {
           "name": "with_ai_conditions",
           "kind": "fn",
-          "startLine": 224,
-          "endLine": 256,
+          "startLine": 242,
+          "endLine": 274,
           "tokens": 389
         },
         {
           "name": "resolved_for",
           "kind": "fn",
-          "startLine": 257,
-          "endLine": 267,
+          "startLine": 275,
+          "endLine": 285,
           "tokens": 120
         },
         {
           "name": "catalog_condition_names",
           "kind": "fn",
-          "startLine": 268,
-          "endLine": 272,
+          "startLine": 286,
+          "endLine": 290,
           "tokens": 98
+        }
+      ]
+    },
+    "aiPlans/2026-10-28-diagnostic-ollama-si-validare-raport.md": {
+      "description": "Diagnostic Ollama și validare raport",
+      "tokens": 1008,
+      "hash": "3665dac15a2d2d36",
+      "size": 4139,
+      "mtimeMs": 1793192125926.6057,
+      "updatedAt": "2026-10-28T12:55:26.860Z",
+      "source": "hook"
+    },
+    "src/backend/ai/report_validation.py": {
+      "description": "Validate the report contract against the exact evidence snapshot.",
+      "tokens": 1940,
+      "hash": "a05f99b66296d837",
+      "size": 6791,
+      "mtimeMs": 1793264417942.3726,
+      "updatedAt": "2026-10-29T09:00:18.421Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "partial_notice",
+          "kind": "fn",
+          "startLine": 12,
+          "endLine": 25,
+          "tokens": 86
+        },
+        {
+          "name": "ReportValidationError",
+          "kind": "class",
+          "startLine": 26,
+          "endLine": 31,
+          "tokens": 62
+        },
+        {
+          "name": "Recommendation",
+          "kind": "class",
+          "startLine": 32,
+          "endLine": 37,
+          "tokens": 34
+        },
+        {
+          "name": "ValidationWarning",
+          "kind": "class",
+          "startLine": 38,
+          "endLine": 44,
+          "tokens": 42
+        },
+        {
+          "name": "ValidatedReport",
+          "kind": "class",
+          "startLine": 45,
+          "endLine": 63,
+          "tokens": 167
+        },
+        {
+          "name": "report_response_schema",
+          "kind": "fn",
+          "startLine": 64,
+          "endLine": 110,
+          "tokens": 437
+        },
+        {
+          "name": "normalize_nutrition",
+          "kind": "fn",
+          "startLine": 111,
+          "endLine": 126,
+          "tokens": 171
+        },
+        {
+          "name": "validate_report",
+          "kind": "fn",
+          "startLine": 127,
+          "endLine": 189,
+          "tokens": 826
+        }
+      ]
+    },
+    "aiPlans/2026-10-28-detalii-ai-in-timpul-generarii.md": {
+      "description": "Detalii AI în timpul generării",
+      "tokens": 398,
+      "hash": "4665789ad7aec06b",
+      "size": 1667,
+      "mtimeMs": 1793193317206.233,
+      "updatedAt": "2026-10-28T13:15:17.897Z",
+      "source": "hook"
+    },
+    "src/frontend/components/GenerationReportPreview.tsx": {
+      "description": "BatchPreview",
+      "tokens": 1545,
+      "hash": "14c3e5cfd7a27d9c",
+      "size": 5405,
+      "mtimeMs": 1793248396028.6838,
+      "updatedAt": "2026-10-29T04:33:18.016Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "BatchPreview",
+          "kind": "fn",
+          "startLine": 9,
+          "endLine": 49,
+          "tokens": 634
+        },
+        {
+          "name": "GenerationReportPreview",
+          "kind": "fn",
+          "startLine": 50,
+          "endLine": 107,
+          "tokens": 772
+        }
+      ]
+    },
+    "src/frontend/components/GenerationStreamPreview.tsx": {
+      "description": "GenerationStreamPreview",
+      "tokens": 456,
+      "hash": "120765d4cce25355",
+      "size": 1593,
+      "mtimeMs": 1793193163638.5562,
+      "updatedAt": "2026-10-28T13:12:45.332Z",
+      "source": "hook"
+    },
+    "aiPlans/2026-10-28-previzualizare-separata-pe-lot.md": {
+      "description": "Previzualizare separată pentru fiecare lot",
+      "tokens": 681,
+      "hash": "9c422bbe4f61c024",
+      "size": 2808,
+      "mtimeMs": 1793211887603.5674,
+      "updatedAt": "2026-10-28T18:24:49.008Z",
+      "source": "hook"
+    },
+    "src/backend/core/operation_context.py": {
+      "description": "Propagate a worker's deadline to synchronous I/O without changing public ports.",
+      "tokens": 1124,
+      "hash": "a2816b91a2723d56",
+      "size": 3933,
+      "mtimeMs": 1793248318241.071,
+      "updatedAt": "2026-10-29T04:32:01.460Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "ReportActivity",
+          "kind": "class",
+          "startLine": 28,
+          "endLine": 33,
+          "tokens": 36
+        },
+        {
+          "name": "OperationBudget",
+          "kind": "class",
+          "startLine": 34,
+          "endLine": 55,
+          "tokens": 237
+        },
+        {
+          "name": "report_batch_index",
+          "kind": "fn",
+          "startLine": 56,
+          "endLine": 61,
+          "tokens": 53
+        },
+        {
+          "name": "report_batch_context",
+          "kind": "fn",
+          "startLine": 62,
+          "endLine": 73,
+          "tokens": 94
+        },
+        {
+          "name": "operation_budget",
+          "kind": "fn",
+          "startLine": 74,
+          "endLine": 83,
+          "tokens": 61
+        },
+        {
+          "name": "remaining_timeout",
+          "kind": "fn",
+          "startLine": 84,
+          "endLine": 89,
+          "tokens": 45
+        },
+        {
+          "name": "checkpoint",
+          "kind": "fn",
+          "startLine": 90,
+          "endLine": 98,
+          "tokens": 56
+        },
+        {
+          "name": "emit_report_output",
+          "kind": "fn",
+          "startLine": 99,
+          "endLine": 109,
+          "tokens": 89
+        },
+        {
+          "name": "emit_report_thinking",
+          "kind": "fn",
+          "startLine": 110,
+          "endLine": 119,
+          "tokens": 72
+        },
+        {
+          "name": "emit_report_activity",
+          "kind": "fn",
+          "startLine": 120,
+          "endLine": 126,
+          "tokens": 73
+        },
+        {
+          "name": "emit_report_batch",
+          "kind": "fn",
+          "startLine": 127,
+          "endLine": 132,
+          "tokens": 66
+        }
+      ]
+    },
+    "src/frontend/lib/generationFeedback.ts": {
+      "description": "Exports AI_ACTIVITY_LABELS, GenerationFeedback",
+      "tokens": 291,
+      "hash": "1c3e825060c847ea",
+      "size": 1016,
+      "mtimeMs": 1793211251187.5674,
+      "updatedAt": "2026-10-28T18:14:13.981Z",
+      "source": "hook"
+    },
+    "src/frontend/hooks/useReportGeneration.ts": {
+      "description": "Exports activeGeneration, useReportGeneration",
+      "tokens": 3385,
+      "hash": "553d0b6bc20e4aa6",
+      "size": 11847,
+      "mtimeMs": 1793211251190.5566,
+      "updatedAt": "2026-10-28T18:14:14.212Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "activeGeneration",
+          "kind": "fn",
+          "startLine": 10,
+          "endLine": 10,
+          "tokens": 32
+        },
+        {
+          "name": "observingGeneration",
+          "kind": "fn",
+          "startLine": 11,
+          "endLine": 18,
+          "tokens": 147
+        },
+        {
+          "name": "currentGeneration",
+          "kind": "fn",
+          "startLine": 19,
+          "endLine": 31,
+          "tokens": 237
+        },
+        {
+          "name": "transient",
+          "kind": "fn",
+          "startLine": 32,
+          "endLine": 35,
+          "tokens": 49
+        },
+        {
+          "name": "useReportGeneration",
+          "kind": "fn",
+          "startLine": 36,
+          "endLine": 202,
+          "tokens": 2709
+        }
+      ]
+    },
+    "aiPlans/2026-10-29-doua-loturi-paralele.md": {
+      "description": "Două loturi simultane în același raport",
+      "tokens": 939,
+      "hash": "332c555411ff98d4",
+      "size": 3899,
+      "mtimeMs": 1793249010851.9043,
+      "updatedAt": "2026-10-29T04:43:31.335Z",
+      "source": "hook"
+    },
+    "src/backend/core/report_batches.py": {
+      "description": "Whole-fragment batches and lossless exact deduplication for one report worker.",
+      "tokens": 825,
+      "hash": "610e1dc84d2f951f",
+      "size": 2886,
+      "mtimeMs": 1793258237477.0613,
+      "updatedAt": "2026-10-29T07:17:18.007Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "partition_evidence",
+          "kind": "fn",
+          "startLine": 15,
+          "endLine": 39,
+          "tokens": 276
+        },
+        {
+          "name": "combine_reports",
+          "kind": "fn",
+          "startLine": 40,
+          "endLine": 71,
+          "tokens": 422
+        }
+      ]
+    },
+    "aiPlans/tmp/parallel-report-probe.py": {
+      "description": "Manual, synthetic concurrency probe; no model, database or application service is contacted.",
+      "tokens": 3767,
+      "hash": "80d1ee8993c8bbeb",
+      "size": 13182,
+      "mtimeMs": 1793248909455.3628,
+      "updatedAt": "2026-10-29T04:41:50.250Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "ControlledResponses",
+          "kind": "class",
+          "startLine": 31,
+          "endLine": 84,
+          "tokens": 588
+        },
+        {
+          "name": "ControlledStream",
+          "kind": "class",
+          "startLine": 85,
+          "endLine": 107,
+          "tokens": 364
+        },
+        {
+          "name": "setup",
+          "kind": "fn",
+          "startLine": 108,
+          "endLine": 125,
+          "tokens": 292
+        },
+        {
+          "name": "start",
+          "kind": "fn",
+          "startLine": 126,
+          "endLine": 139,
+          "tokens": 166
+        },
+        {
+          "name": "verify_accounting",
+          "kind": "fn",
+          "startLine": 140,
+          "endLine": 236,
+          "tokens": 1482
+        },
+        {
+          "name": "first_generate",
+          "kind": "fn",
+          "startLine": 237,
+          "endLine": 243,
+          "tokens": 102
+        },
+        {
+          "name": "second_generate",
+          "kind": "fn",
+          "startLine": 244,
+          "endLine": 270,
+          "tokens": 451
+        }
+      ]
+    },
+    "aiPlans/2026-10-29-report-batch-workers-env.md": {
+      "description": "Configurare REPORT_BATCH_WORKERS",
+      "tokens": 348,
+      "hash": "433f73b7d0526f3d",
+      "size": 1432,
+      "mtimeMs": 1793250113832.6057,
+      "updatedAt": "2026-10-29T05:01:54.832Z",
+      "source": "hook"
+    },
+    "aiPlans/2026-10-29-eliminare-estimare-fixa.md": {
+      "description": "Eliminarea estimării fixe per 44.500 caractere",
+      "tokens": 340,
+      "hash": "e19f980b2cf3682d",
+      "size": 1403,
+      "mtimeMs": 1793250311549.0947,
+      "updatedAt": "2026-10-29T05:05:12.262Z",
+      "source": "hook"
+    },
+    "aiPlans/2026-10-29-loturi-raport-buget-tokeni.md": {
+      "description": "Loturi de raport cu buget in tokeni",
+      "tokens": 1938,
+      "hash": "2ecfb78bc13453b5",
+      "size": 7752,
+      "mtimeMs": 1793258365595.3152,
+      "updatedAt": "2026-10-29T07:19:26.073Z",
+      "source": "hook"
+    },
+    "src/backend/core/report_models.py": {
+      "description": "Supported report choices and their immutable provider routing.",
+      "tokens": 954,
+      "hash": "a9bc620109dd7890",
+      "size": 3338,
+      "mtimeMs": 1793266979076.9485,
+      "updatedAt": "2026-10-29T09:42:59.577Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "ReportModelSpec",
+          "kind": "class",
+          "startLine": 36,
+          "endLine": 75,
+          "tokens": 429
+        },
+        {
+          "name": "parse_report_model",
+          "kind": "fn",
+          "startLine": 76,
+          "endLine": 82,
+          "tokens": 78
+        },
+        {
+          "name": "parse_report_models",
+          "kind": "fn",
+          "startLine": 83,
+          "endLine": 95,
+          "tokens": 189
+        }
+      ]
+    },
+    "src/backend/ai/retrieval.py": {
+      "description": "Local-only retrieval over the existing hybrid index.",
+      "tokens": 2681,
+      "hash": "178b738fb1372d50",
+      "size": 9383,
+      "mtimeMs": 1793255866836.3025,
+      "updatedAt": "2026-10-29T06:37:47.426Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "consultation_query",
+          "kind": "fn",
+          "startLine": 33,
+          "endLine": 39,
+          "tokens": 95
+        },
+        {
+          "name": "Retriever",
+          "kind": "class",
+          "startLine": 40,
+          "endLine": 186,
+          "tokens": 2171
+        },
+        {
+          "name": "EvidenceSnapshot",
+          "kind": "class",
+          "startLine": 187,
+          "endLine": 192,
+          "tokens": 64
+        }
+      ]
+    },
+    "src/tests/unit/ai/test_client_providers.py": {
+      "description": "Tests for the configurable AI provider (REPORT_GENERATION_MODEL_TYPE): selection, payloads, parsing,",
+      "tokens": 5517,
+      "hash": "eb4ddd68c159eada",
+      "size": 19314,
+      "mtimeMs": 1793266821607.9053,
+      "updatedAt": "2026-10-29T09:40:23.500Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "FakeResponse",
+          "kind": "class",
+          "startLine": 24,
+          "endLine": 34,
+          "tokens": 56
+        },
+        {
+          "name": "completed",
+          "kind": "fn",
+          "startLine": 35,
+          "endLine": 67,
+          "tokens": 348
+        },
+        {
+          "name": "settings_for",
+          "kind": "fn",
+          "startLine": 68,
+          "endLine": 71,
+          "tokens": 42
+        },
+        {
+          "name": "capture_post",
+          "kind": "fn",
+          "startLine": 72,
+          "endLine": 102,
+          "tokens": 283
+        },
+        {
+          "name": "ProviderSelectionTest",
+          "kind": "class",
+          "startLine": 103,
+          "endLine": 148,
+          "tokens": 566
+        },
+        {
+          "name": "PayloadTest",
+          "kind": "class",
+          "startLine": 149,
+          "endLine": 214,
+          "tokens": 972
+        },
+        {
+          "name": "DeepSeekDirectTest",
+          "kind": "class",
+          "startLine": 215,
+          "endLine": 246,
+          "tokens": 435
+        },
+        {
+          "name": "MissingKeyTest",
+          "kind": "class",
+          "startLine": 247,
+          "endLine": 277,
+          "tokens": 341
+        },
+        {
+          "name": "ParsingTest",
+          "kind": "class",
+          "startLine": 278,
+          "endLine": 317,
+          "tokens": 456
+        },
+        {
+          "name": "FakeStream",
+          "kind": "class",
+          "startLine": 318,
+          "endLine": 346,
+          "tokens": 203
+        },
+        {
+          "name": "sse",
+          "kind": "fn",
+          "startLine": 347,
+          "endLine": 350,
+          "tokens": 28
+        },
+        {
+          "name": "StreamingTest",
+          "kind": "class",
+          "startLine": 351,
+          "endLine": 427,
+          "tokens": 837
+        },
+        {
+          "name": "ContextBudgetTest",
+          "kind": "class",
+          "startLine": 428,
+          "endLine": 455,
+          "tokens": 358
+        },
+        {
+          "name": "HTTPErrorTest",
+          "kind": "class",
+          "startLine": 456,
+          "endLine": 481,
+          "tokens": 264
+        }
+      ]
+    },
+    "src/tests/unit/ai/test_condition_ai.py": {
+      "description": "Tests for the AI identification of a condition the dictionary does not know",
+      "tokens": 5725,
+      "hash": "4606a10a72ac784b",
+      "size": 20043,
+      "mtimeMs": 1793255952759.7932,
+      "updatedAt": "2026-10-29T06:39:13.288Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "FakeResponse",
+          "kind": "class",
+          "startLine": 27,
+          "endLine": 38,
+          "tokens": 83
+        },
+        {
+          "name": "reply",
+          "kind": "fn",
+          "startLine": 39,
+          "endLine": 48,
+          "tokens": 82
+        },
+        {
+          "name": "segments_reply",
+          "kind": "fn",
+          "startLine": 49,
+          "endLine": 59,
+          "tokens": 63
+        },
+        {
+          "name": "ConditionAITestCase",
+          "kind": "class",
+          "startLine": 60,
+          "endLine": 103,
+          "tokens": 520
+        },
+        {
+          "name": "IdentificationTests",
+          "kind": "class",
+          "startLine": 104,
+          "endLine": 231,
+          "tokens": 1437
+        },
+        {
+          "name": "FailureTests",
+          "kind": "class",
+          "startLine": 232,
+          "endLine": 274,
+          "tokens": 480
+        },
+        {
+          "name": "NoFallbackTests",
+          "kind": "class",
+          "startLine": 275,
+          "endLine": 295,
+          "tokens": 270
+        },
+        {
+          "name": "CacheTests",
+          "kind": "class",
+          "startLine": 296,
+          "endLine": 321,
+          "tokens": 272
+        },
+        {
+          "name": "ValidationTests",
+          "kind": "class",
+          "startLine": 322,
+          "endLine": 387,
+          "tokens": 695
+        },
+        {
+          "name": "ResolvedForTests",
+          "kind": "class",
+          "startLine": 388,
+          "endLine": 420,
+          "tokens": 382
+        },
+        {
+          "name": "EffectiveSignalsTests",
+          "kind": "class",
+          "startLine": 421,
+          "endLine": 462,
+          "tokens": 499
+        },
+        {
+          "name": "ReportTitleTests",
+          "kind": "class",
+          "startLine": 463,
+          "endLine": 510,
+          "tokens": 509
+        }
+      ]
+    },
+    "aiPlans/2026-10-29-nutritie-campuri-fara-continut.md": {
+      "description": "Nutritie: marcaje text fara continut",
+      "tokens": 577,
+      "hash": "8d29d2db17cb42c3",
+      "size": 2308,
+      "mtimeMs": 1793264498486.0894,
+      "updatedAt": "2026-10-29T09:01:38.965Z",
+      "source": "hook"
+    },
+    "src/tests/unit/ai/test_report_validation.py": {
+      "description": "report, test_invalid_recommendation_is_removed_whole, test_missing_invalid_and_extra_sections, test_",
+      "tokens": 1323,
+      "hash": "1c479d7a90c6dfd7",
+      "size": 4637,
+      "mtimeMs": 1793264417942.3726,
+      "updatedAt": "2026-10-29T09:00:18.726Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "report",
+          "kind": "fn",
+          "startLine": 18,
+          "endLine": 38,
+          "tokens": 204
+        },
+        {
+          "name": "test_invalid_recommendation_is_removed_whole",
+          "kind": "fn",
+          "startLine": 39,
+          "endLine": 46,
+          "tokens": 98
+        },
+        {
+          "name": "test_missing_invalid_and_extra_sections",
+          "kind": "fn",
+          "startLine": 47,
+          "endLine": 72,
+          "tokens": 205
+        },
+        {
+          "name": "test_compatible_nutrition_does_not_mark_partial",
+          "kind": "fn",
+          "startLine": 73,
+          "endLine": 78,
+          "tokens": 64
+        },
+        {
+          "name": "test_structured_nutrition_rejects_mixed_ids",
+          "kind": "fn",
+          "startLine": 79,
+          "endLine": 90,
+          "tokens": 118
+        },
+        {
+          "name": "test_complete_failure",
+          "kind": "fn",
+          "startLine": 91,
+          "endLine": 95,
+          "tokens": 36
+        },
+        {
+          "name": "test_same_notice_and_filtered_content_in_chat_and_pdf",
+          "kind": "fn",
+          "startLine": 96,
+          "endLine": 110,
+          "tokens": 195
+        },
+        {
+          "name": "test_client_never_logs_report_or_evidence_even_with_old_debug_flags",
+          "kind": "fn",
+          "startLine": 111,
+          "endLine": 134,
+          "tokens": 273
+        }
+      ]
+    },
+    "aiPlans/2026-10-29-gemma3-provider-error.md": {
+      "description": "Gemma3 1B: eroare in fluxul Ollama",
+      "tokens": 1317,
+      "hash": "77228578f9e8f28a",
+      "size": 5266,
+      "mtimeMs": 1793267191200.5823,
+      "updatedAt": "2026-10-29T09:46:31.704Z",
+      "source": "hook"
+    },
+    "src/backend/core/report_generation.py": {
+      "description": "Process-owned execution; session admission bounds the executor's pending work.",
+      "tokens": 2523,
+      "hash": "c8d633b13959f30f",
+      "size": 8828,
+      "mtimeMs": 1793266821602.1265,
+      "updatedAt": "2026-10-29T09:40:22.999Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "ReportGenerationService",
+          "kind": "class",
+          "startLine": 25,
+          "endLine": 203,
+          "tokens": 2232
         }
       ]
     }

@@ -61,7 +61,7 @@ export function GeneratePanel({
   const disabled = message.busy || noneReach || actionsDisabled || noModels || modelRestricted;
   const hasAnswer = Boolean(feedback?.streamPreview);
   const batched = feedback?.batchesTotal !== undefined || (!hasAnswer && !feedback?.thinkingPreview);
-  const hasPreview = batched ? Boolean(feedback?.reportPreview) : hasAnswer || Boolean(feedback?.thinkingPreview);
+  const hasPreview = Boolean(feedback?.reportPreview) || hasAnswer || Boolean(feedback?.thinkingPreview);
   const hasBatchPlan = (feedback?.batchesTotal ?? 0) > 0;
 
   return (
@@ -123,7 +123,7 @@ export function GeneratePanel({
           </div>
           <button
             type="button"
-            className="generate-inline"
+            className={`generate-inline${message.busy ? " is-preparing" : ""}`}
             disabled={disabled}
             aria-disabled={disabled}
             onClick={() => onGenerate(message.searchId, minScore, selectedModel)}
@@ -160,12 +160,16 @@ export function GeneratePanel({
             text={feedback?.reportPreview}
             completed={feedback?.batchesCompleted}
             total={feedback?.batchesTotal}
+            batches={feedback?.batchPreviews}
             terminal={feedback?.terminal}
             succeeded={feedback?.completed}
             waitingInQueue={feedback?.waitingInQueue}
             tokensPerSecond={feedback?.streamTokensPerSecond ?? feedback?.thinkingTokensPerSecond}
             activityAgeMs={message.busy ? feedback?.aiActivity?.lastActivityAgeMs : undefined}
             activityReceivedAt={feedback?.activityReceivedAt}
+            answer={feedback?.completed ? undefined : feedback?.streamPreview}
+            thinking={feedback?.completed ? undefined : feedback?.thinkingPreview}
+            pendingLabel={feedback?.aiActivity ? AI_ACTIVITY_LABELS[feedback.aiActivity.phase] : undefined}
           /> : <GenerationStreamPreview
             text={hasAnswer ? feedback?.streamPreview : feedback?.thinkingPreview}
             tokensPerSecond={hasAnswer ? feedback?.streamTokensPerSecond : feedback?.thinkingTokensPerSecond}
