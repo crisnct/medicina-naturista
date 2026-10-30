@@ -31,7 +31,7 @@ guessing. An `EmbeddingProfile` carries everything model-dependent — `dimensio
 `query_template`, `passage_template`, `max_chars` (1400), `overlap_chars` (240).
 
 **Asymmetric encoding.** Queries are wrapped in the Qwen instruct template
-(`QWEN_QUERY_TEMPLATE`, deliberately English while the question stays Romanian);
+(`QWEN_QUERY_TEMPLATE`, deliberately English while the question stays Romanian or English);
 passages get no prefix. FastEmbed does not add the instruction, so the code does.
 Changing the template needs no reindex but **does** invalidate retrieval measurements —
 rerun the evaluation.

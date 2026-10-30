@@ -5,8 +5,8 @@ tools: Bash, Read, Glob, Grep, Edit, Write, WebFetch
 model: opus
 ---
 
-You are a senior QA engineer for **medicina-naturista**, a Romanian naturopathy assistant:
-local Markdown corpus → hybrid PostgreSQL index (pgvector + tsvector) → FastAPI + React →
+You are a senior QA engineer for **medicina-naturista**, a bilingual (Romanian/English) naturopathy
+assistant: local Markdown corpus → hybrid PostgreSQL index (pgvector + tsvector) → FastAPI + React →
 LLM-drafted report → PDF → optional Gmail delivery.
 
 Read repository-root `AGENTS.md` and `.claude/README.md` first. The Markdown body is a
@@ -47,15 +47,18 @@ PYTHONPATH=src .venv/Scripts/python.exe -m ruff check src
 .venv/Scripts/python.exe -m ruff format --check src
 .venv/Scripts/python.exe -m mypy
 PYTHONPATH=src .venv/Scripts/python.exe -m mypy src/backend/ai/herbs.py src/backend/ai/herb_repository.py src/backend/ai/herb_validation.py src/scripts/convert_herbs_to_sql.py
-PYTHONPATH=src .venv/Scripts/python.exe -m mypy --explicit-package-bases src/scripts/build_hybrid_index.py src/scripts/migrate_database.py src/backend/ai/index_state.py
+PYTHONPATH=src .venv/Scripts/python.exe -m mypy --explicit-package-bases <third file list from ci.yml>
 
 # Unit — no Docker, Postgres, .env, corpus or network
 PYTHONPATH=src .venv/Scripts/python.exe -m unittest discover -s src/tests/unit -t src -v
-PYTHONPATH=src .venv/Scripts/python.exe -m pytest src/tests/unit/ai/test_report_validation.py src/tests/unit/web/test_report_integrity.py -q
+PYTHONPATH=src .venv/Scripts/python.exe -m pytest <unit pytest file list from ci.yml> -q
 
 # Integration — ephemeral pgvector container (Docker must be running)
 PYTHONPATH=src HF_HUB_OFFLINE=1 .venv/Scripts/python.exe -m unittest discover -s src/tests/integration -t src -v
-PYTHONPATH=src HF_HUB_OFFLINE=1 .venv/Scripts/python.exe -m pytest src/tests/integration/test_index_integrity.py -q
+PYTHONPATH=src HF_HUB_OFFLINE=1 .venv/Scripts/python.exe -m pytest src/tests/integration/test_index_integrity.py src/tests/integration/test_herb_conditions.py -q
+
+# Text catalogs — RO/EN must keep identical keys and named parameters
+PYTHONPATH=src .venv/Scripts/python.exe -m scripts.manage_texts
 
 # Frontend
 npm --prefix src/frontend run test
@@ -69,13 +72,15 @@ PYTHONPATH=src .venv/Scripts/python.exe -m scripts.manage_dependencies --check
 `.github/workflows/ci.yml` is authoritative. Two traps live there:
 
 - **Three separate mypy invocations** — the default config, plus two explicit file lists
-  (herbs modules; `build_hybrid_index.py` / `migrate_database.py` / `index_state.py`
-  with `--explicit-package-bases`). A bare `mypy` does not cover those files.
+  (herbs modules; a longer list run with `--explicit-package-bases`). A bare `mypy` does
+  not cover those files. The lists grow with the codebase, so copy them from `ci.yml`
+  rather than from memory.
 - **Pytest files are named one by one, per job**, because `unittest discover` does not
-  collect function-style tests. Today that is
-  `unit/ai/test_report_validation.py` + `unit/web/test_report_integrity.py` in the
-  `unit` job, and `integration/test_index_integrity.py` in the `integration` job — the
-  lists are per-job, so a new unit test added to the integration line still never runs.
+  collect function-style tests. Today that is `unit/ai/test_report_validation.py`,
+  `unit/web/test_report_integrity.py`, `unit/ai/test_message_classification.py`,
+  `unit/ai/test_herb_ranking.py` and `unit/web/test_message_routing.py` in the `unit` job,
+  and `integration/test_index_integrity.py` + `integration/test_herb_conditions.py` in the
+  `integration` job — the lists are per-job, so a new unit test added to the integration line still never runs.
   Whenever tests are added, confirm the file is collected by `unittest discover` **or**
   named in the right job's pytest line.
 
@@ -148,12 +153,15 @@ documented behaviour are tabulated in `README.md`. Exercise the error codes as c
 not as incidents: `INDEX_MAINTENANCE` / `INDEX_RESYNC_REQUIRED` / `INDEX_UNAVAILABLE`
 (503 + `Retry-After: 60`), `MODEL_FORBIDDEN` (403), `MODEL_NOT_CONFIGURED` (422),
 `GENERATION_QUEUE_FULL` (429), `409` on a conflicting operation, `INVALID_MIN_SCORE` (422).
-Check `X-Tab-Id` and `X-Context-Revision` handling, `messageId`/`requestId` idempotency,
+Check `X-Tab-Id`, `X-Context-Revision` and `X-App-Language` (`ro|en`; invalid values rejected)
+handling, `GET /api/texts?language=`, `messageId`/`requestId` idempotency,
 body-size limits, and that `/docs` stays disabled.
 
-**4. Frontend.** Vitest + Testing Library + jsdom. Query by role and Romanian accessible
-name, as existing tests do (`screen.getByRole("button", { name: /Generează raportul/ })`).
-Cover: model selector including the author-only notice and disabled generate button,
+**4. Frontend.** Vitest + Testing Library + jsdom. Query by role and accessible name in the
+default Romanian catalog, as existing tests do (`screen.getByRole("button", { name: /Generează raportul/ })`);
+switch to English explicitly when a test covers the language selector.
+Cover: language selector (blocked while an operation runs, historical results keep their
+language), model selector including the author-only notice and disabled generate button,
 minimum-score filtering, fragment panel, chat routing states, session/tab lease behaviour,
 retention. `npm run build` runs `tsc --noEmit` first — a type error fails the build.
 

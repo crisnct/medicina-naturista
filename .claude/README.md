@@ -25,6 +25,22 @@ skill or request the workflow in ordinary language. In ChatGPT sessions without 
 workspace access, provide the relevant files; local discovery and commands require tools
 with access to this checkout. Do not claim instructions were loaded without reading them.
 
+## Directory contents
+
+| Path | Purpose |
+|---|---|
+| `agents/app-tester.md` | Testing role (Claude subagent; plain instructions for other hosts) |
+| `commands/` | Slash commands: `handoff`, `designqc`, `reframe`, `security-audit` |
+| `skills/medicina-engineering/` | Role guides: Python development/review, architecture, XMind, draw.io, database, embeddings, Docker/CI |
+| `skills/openwolf/`, `rules/openwolf.md` | OpenWolf protocol and always-on rules |
+| `hooks/` | Repository-owned hooks: no-commit guard, Ruff check, OpenWolf adapter (see `hooks/README.md`) |
+| `settings.json` | Claude hook registrations and the OpenWolf status line |
+| `launch.json` | Preview servers: `naturist-app` (Uvicorn, port 7861) and `naturist-frontend` (Vite, port 5173) |
+
+The application is bilingual (Romanian default, English): keep user-facing copy in
+`src/backend/resources/texts.{ro,en}.toml` and prompts in `ai/prompts/` and `ai/prompts/en/`.
+Role guides here describe the conventions; `AGENTS.md` and `README.md` remain authoritative.
+
 ## Tool and shell compatibility
 
 The task instructions apply regardless of assistant; tool names describe capabilities:

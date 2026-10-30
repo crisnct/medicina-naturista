@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-30T06:14:27.431Z
-> Files: 234 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-30T10:08:23.014Z
+> Files: 237 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -10,13 +10,19 @@
 ## ./
 
 - `.dockerignore` (~107 tok)
+- `AGENTS.md` — AGENTS.md (~3128 tok)
+- `CLAUDE.md` — Claude Code entry point (~384 tok)
 - `docker-compose.yaml` — Docker Compose: 4 services (~2392 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
 - `README.md` — Project documentation (~39095 tok)
 
+## .claude/
+
+- `README.md` — Project documentation (~1335 tok)
+
 ## .claude/agents/
 
-- `app-tester.md` — Environment (~3390 tok)
+- `app-tester.md` — Environment (~3712 tok)
 
 ## .claude/hooks/
 
@@ -26,13 +32,13 @@
 
 ## .claude/skills/medicina-engineering/
 
-- `architecture.md` — Senior architect — architecture documentation (~2136 tok)
+- `architecture.md` — Senior architect — architecture documentation (~2215 tok)
 - `database-engineering.md` — Senior Python developer — database expert (~2050 tok)
 - `devops-docker-ci.md` — DevOps engineer — Docker, Compose, GitHub Actions (~1438 tok)
 - `draw-io.md` — draw.io diagrams (~920 tok)
-- `embeddings-engineering.md` — Senior Python developer — embeddings specialist (~2028 tok)
-- `python-code-review.md` — Senior Python lead — code review (~1076 tok)
-- `python-development.md` — Senior Python developer — general development (~3198 tok)
+- `embeddings-engineering.md` — Senior Python developer — embeddings specialist (~2110 tok)
+- `python-code-review.md` — Senior Python lead — code review (~1190 tok)
+- `python-development.md` — Senior Python developer — general development (~3387 tok)
 - `SKILL.md` — Engineering roles for medicina-naturista (~971 tok)
 - `xmind-architecture.md` — Senior architect — the architecture diagrams (~849 tok)
 - `xmind.md` — XMind 8 — file format and editing (~1060 tok)

@@ -96,8 +96,9 @@ does not rewrite. Format locally before pushing.
 
 ## Errors
 
-Domain failures are `ApplicationError(code, romanian_message, status, retry_after=None)`
-raised from `core`; the HTTP layer translates them. The `code` is part of the public API
+Domain failures are `ApplicationError(code, tr("errors.<key>"), status, retry_after=None)`
+raised from `core`; the HTTP layer translates them. The message comes from the RO/EN text
+catalogs (`resources/texts.*.toml`), so a new error needs its key in both files. The `code` is part of the public API
 contract — adding one means the frontend and README may need updating. Use
 `OperationCancelled` for a superseded, closed or timed-out operation whose result must be
 discarded.
@@ -109,7 +110,7 @@ documented and visible to the user — the local-classification fallback is the 
 
 Never raise or catch bare `Exception`; catch the specific types. An `except` block that
 does nothing is a defect. And user-facing messages must not leak internals — no paths,
-module names, SQL, provider payloads or stack traces in the Romanian text that reaches
+module names, SQL, provider payloads or stack traces in the localized text that reaches
 the browser. `ApplicationError` exists precisely so the technical detail stays in the log
 and the user gets a sentence they can act on.
 

@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-30T06:14:27.431Z",
-    "fileCount": 234,
+    "lastScanned": "2026-10-30T10:08:23.014Z",
+    "fileCount": 237,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "731d6c9d54d85369afe45bcb5563b6f95e273d95cec17dca472c77eb9a448571",
-    "storeUpdatedAt": "2026-10-30T06:14:27.443Z",
-    "rootHash": "2d54c537903f3859"
+    "renderedHash": "477a04a455398f7046f2ff76c481dd62c769a4345b35e1ddea491496cf35b2e7",
+    "storeUpdatedAt": "2026-10-30T10:08:23.024Z",
+    "rootHash": "7f56d58cd1e2e537"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -21,11 +21,11 @@
     },
     ".claude/skills/medicina-engineering/embeddings-engineering.md": {
       "description": "Senior Python developer — embeddings specialist",
-      "tokens": 2028,
-      "hash": "9d59fa2f0b13e304",
-      "size": 8141,
-      "mtimeMs": 1792223391315.8943,
-      "updatedAt": "2026-10-17T07:49:51.625Z",
+      "tokens": 2110,
+      "hash": "29176b3f30dfd5b2",
+      "size": 8468,
+      "mtimeMs": 1793354878513.3567,
+      "updatedAt": "2026-10-30T10:07:58.873Z",
       "source": "hook"
     },
     ".claude/skills/medicina-engineering/devops-docker-ci.md": {
@@ -39,20 +39,20 @@
     },
     ".claude/agents/app-tester.md": {
       "description": "Environment",
-      "tokens": 3390,
-      "hash": "6223897b10ce46f1",
-      "size": 13620,
-      "mtimeMs": 1792223407562.2952,
-      "updatedAt": "2026-10-17T07:50:07.943Z",
+      "tokens": 3712,
+      "hash": "220015ae67a0fa04",
+      "size": 14907,
+      "mtimeMs": 1793354869536.5154,
+      "updatedAt": "2026-10-30T10:07:49.835Z",
       "source": "hook"
     },
     ".claude/skills/medicina-engineering/python-development.md": {
       "description": "Senior Python developer — general development",
-      "tokens": 3198,
-      "hash": "da41885244629145",
-      "size": 12837,
-      "mtimeMs": 1792223175222.9849,
-      "updatedAt": "2026-10-17T07:46:15.541Z",
+      "tokens": 3387,
+      "hash": "d05193570f6f3f3c",
+      "size": 13593,
+      "mtimeMs": 1793354875782.512,
+      "updatedAt": "2026-10-30T10:07:56.093Z",
       "source": "hook"
     },
     ".claude/skills/medicina-engineering/SKILL.md": {
@@ -84,20 +84,20 @@
     },
     ".claude/skills/medicina-engineering/architecture.md": {
       "description": "Senior architect — architecture documentation",
-      "tokens": 2136,
-      "hash": "787f1cde606e0df4",
-      "size": 8612,
-      "mtimeMs": 1792221779787.569,
-      "updatedAt": "2026-10-17T07:23:00.131Z",
+      "tokens": 2215,
+      "hash": "9d25dbff742ad5f4",
+      "size": 8925,
+      "mtimeMs": 1793354877102.0444,
+      "updatedAt": "2026-10-30T10:07:57.406Z",
       "source": "hook"
     },
     ".claude/skills/medicina-engineering/python-code-review.md": {
       "description": "Senior Python lead — code review",
-      "tokens": 1076,
-      "hash": "f1901206efee475c",
-      "size": 4327,
-      "mtimeMs": 1792222028645.782,
-      "updatedAt": "2026-10-17T07:27:08.962Z",
+      "tokens": 1190,
+      "hash": "a7f575f76be370b8",
+      "size": 4783,
+      "mtimeMs": 1793354870801.9739,
+      "updatedAt": "2026-10-30T10:07:51.113Z",
       "source": "hook"
     },
     ".claude/hooks/block-git-commit.js": {
@@ -7767,6 +7767,33 @@
           "tokens": 116
         }
       ]
+    },
+    "AGENTS.md": {
+      "description": "AGENTS.md",
+      "tokens": 3128,
+      "hash": "036f60781c4cc672",
+      "size": 12550,
+      "mtimeMs": 1793354855585.0393,
+      "updatedAt": "2026-10-30T10:07:35.878Z",
+      "source": "hook"
+    },
+    ".claude/README.md": {
+      "description": "Project documentation",
+      "tokens": 1335,
+      "hash": "fae1932c297ca84c",
+      "size": 5340,
+      "mtimeMs": 1793354898205.757,
+      "updatedAt": "2026-10-30T10:08:18.516Z",
+      "source": "hook"
+    },
+    "CLAUDE.md": {
+      "description": "Claude Code entry point",
+      "tokens": 384,
+      "hash": "82851b3507e6faf6",
+      "size": 1534,
+      "mtimeMs": 1793354902711.7524,
+      "updatedAt": "2026-10-30T10:08:23.013Z",
+      "source": "hook"
     }
   },
   "preamble": [

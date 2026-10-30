@@ -245,3 +245,6 @@ __marimo__/
 /tmp/pyahocorasick-*.whl
 /tmp/setuptools-*.whl
 /pytest-of-*/
+
+# Claude preview scratch copies
+/copy-preview-*/

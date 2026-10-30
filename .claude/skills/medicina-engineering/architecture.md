@@ -135,5 +135,5 @@ than it is.
   implementation details, contracts and boundary cases — with the evidence attachments
   beside it. A new workbook that invents its own structure makes the set harder to read.
 - Workbook text is English, including for flows whose runtime prompts and UI copy are
-  Romanian. Keep API identifiers and intent names (`remedii`, `top_plante`, …) exactly as
+  Romanian or English. Keep API identifiers and intent names (`remedii`, `top_plante`, …) exactly as
   the code spells them.

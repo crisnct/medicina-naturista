@@ -71,7 +71,9 @@ the ephemeral fixture, a corpus-dependent test not gated on `RUN_LOCAL_CORPUS_TE
 or `time.sleep` where an injected clock exists). For deeper test work, apply the app-tester role or delegate when authorized and supported.
 
 **Language and comments**
-- English string shown to the user, or Romanian in an identifier, comment or log.
+- A hardcoded user-facing string instead of a `tr("section.key")` entry, a key added to only one
+  of `texts.ro.toml` / `texts.en.toml`, an EN→RO fallback, or a process-wide language global
+  instead of `language_scope`. Romanian (or any non-English) in an identifier, comment or log.
 - A comment restating the signature instead of explaining intent, or a missing *why* on a
   non-obvious trade-off.
 

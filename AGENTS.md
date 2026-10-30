@@ -14,7 +14,8 @@ Read `.claude/README.md` for host-specific tools, shell syntax and skill entry p
 
 ## What this is
 
-A Romanian-language naturopathy assistant. A private local corpus of Markdown documents is
+A bilingual (Romanian default, English) naturopathy assistant. A private local corpus of Markdown
+documents (separate `documents/ro` and `documents/en` sources) is
 turned into a **hybrid retrieval index** in PostgreSQL (pgvector + tsvector). A FastAPI backend
 serves a React SPA: the user describes a health problem, the app classifies the message, searches
 the corpus, shows the retrieved fragments for review, and only then sends the selected evidence to
@@ -34,17 +35,20 @@ agreement). Do not relicense files or add code under incompatible terms.
 src/backend/
   config.py            Settings (frozen dataclass) + heavy __post_init__ validation
   core/                Framework-free domain: sessions, conversation, report orchestration,
-                       contracts (Protocols/TypedDicts), owner auth, rate limits, errors
+                       contracts (Protocols/TypedDicts), owner auth, rate limits, errors,
+                       language scope (language.py), text catalog access (texts.py)
   ai/                  Fragmentation, condition & herb catalogs, hybrid search, retrieval,
-                       embedding model, LLM clients, provider configs, prompts/*.md
+                       embedding model, LLM clients, provider configs,
+                       prompts/*.md (RO) and prompts/en/*.md (EN)
   web/                 FastAPI boundary (main.py), DI container, body limit, static serving
   reporting/           PDF (ReportLab) and chat message rendering
   integrations/        Gmail OAuth2 delivery
   persistence/         Postgres repositories (report metrics)
-  migrations/          Versioned, append-only SQL (schema + condition/herb catalogs)
+  migrations/          Versioned, append-only SQL (schema + condition/herb catalogs, bilingual columns)
+  resources/           texts.ro.toml / texts.en.toml — the only editable user-facing copy
 src/frontend/          React 19 + TypeScript + Vite + TanStack Query (Vitest)
-src/scripts/           Operator CLIs: index build, migrations, audits, PDF→Markdown, locks
-src/tests/             unit/ (no I/O), integration/ (ephemeral pgvector), eval/, support/
+src/scripts/           Operator CLIs: index build, migrations, audits, PDF→Markdown, texts, locks
+src/tests/             unit/ (no I/O), integration/ (ephemeral pgvector), eval/, support/, benchmarks/
 architecture/          XMind 8 diagrams (the canonical architecture docs)
 ```
 
@@ -72,9 +76,10 @@ PYTHONPATH=src .venv/Scripts/python.exe -m ruff check src && .venv/Scripts/pytho
 - **Unit tests** need no Docker, Postgres, `.env`, corpus or AI. Keep it that way.
 - **Integration tests** start an ephemeral `pgvector/pgvector:pg16` container via testcontainers.
   `TEST_POSTGRES_URL` may point at a **disposable** database only — fixtures rewrite its schema.
-- A few older function-style tests are pytest-only; `unittest discover` does not collect them.
-  CI runs `test_report_validation.py`, `test_report_integrity.py`, `test_index_integrity.py`
-  under pytest explicitly. Mirror that when adding function-style tests.
+- Some function-style tests are pytest-only; `unittest discover` does not collect them. CI names
+  them one by one per job (unit: `test_report_validation`, `test_report_integrity`,
+  `test_message_classification`, `test_herb_ranking`, `test_message_routing`; integration:
+  `test_index_integrity`, `test_herb_conditions`). Mirror that in `ci.yml` when adding any.
 - Corpus/catalog tests over personal data require `RUN_LOCAL_CORPUS_TESTS=1` and never run in CI.
 - Frontend: `npm --prefix src/frontend run test | typecheck | build`.
 
@@ -86,8 +91,12 @@ invariants. Match that: terse, intent-bearing, no restating of the signature.
 
 **User-facing strings follow the selected language (`ro` or `en`).** Browser errors, chat text,
 PDF labels and email use the operation language; historical results retain their language.
-Keep matching keys/parameters in texts.ro.toml and texts.en.toml. Code identifiers, comments
-and logs are English.
+The language is carried by a `ContextVar` scope (`core/language.py::language_scope`), never a
+process-wide global or a mutated AI client. Copy lives only in `resources/texts.ro.toml` and
+`texts.en.toml` and is read with `tr("section.key", **params)`; both files must keep identical
+keys and named parameters (validate with `scripts.manage_texts`, regenerate the Python/TypeScript
+key metadata with `--generate`). There is no EN→RO fallback, and an EN search never returns RO
+fragments. Code identifiers, comments and logs are English.
 
 **Typing.** `from __future__ import annotations` everywhere. `src/backend/core/contracts.py` holds
 the Protocols/TypedDicts that keep `core` independent of FastAPI, psycopg and the frontend.
@@ -105,7 +114,7 @@ no content logging). Add new config there, with validation, and add the variable
 `docker-compose.yaml`'s `app.environment` — putting it in `.env` alone does **not** reach the
 container.
 
-**Errors.** Raise `ApplicationError(code, romanian_message, status)` from `core`; the HTTP boundary
+**Errors.** Raise `ApplicationError(code, tr("errors.<key>"), status)` from `core`; the HTTP boundary
 translates it. Codes are part of the API contract (`INDEX_MAINTENANCE`, `INDEX_RESYNC_REQUIRED`,
 `MODEL_FORBIDDEN`, `MODEL_NOT_CONFIGURED`, `GENERATION_QUEUE_FULL`, …).
 
@@ -162,7 +171,9 @@ aliases for the Windows lock.
 - Model output is re-validated in `ai/report_validation.py`: recommendations citing fragments that
   do not exist are dropped, and a partially valid report is labelled as partial in chat and PDF.
   Citation checking is not clinical validation — never imply that it is.
-- Prompts are Markdown files under `ai/prompts/`, loaded at runtime. Edit them there.
+- Prompts are Markdown files loaded at runtime via `core/language.py::read_prompt`: Romanian in
+  `ai/prompts/`, English in `ai/prompts/en/` with the same file names, JSON keys and citation
+  rules. Edit both variants together.
 - Embeddings are `Qwen/Qwen3-Embedding-0.6B`, 1024 dimensions; queries always embed on CPU via
   FastEmbed/ONNX even when the index was built on GPU. No other model is understood by the code.
 
