@@ -5,7 +5,7 @@ from __future__ import annotations
 import hashlib
 import json
 from collections import OrderedDict
-from collections.abc import Sequence
+from collections.abc import Callable, Sequence
 from dataclasses import dataclass, replace
 from threading import Lock
 
@@ -46,9 +46,15 @@ def catalog_fingerprint(conditions: Sequence[Condition]) -> str:
     return hashlib.sha256(raw).hexdigest()
 
 
+# Derived caches elsewhere register here so a reset of this cache cannot leave them stale.
+cache_clear_hooks: list[Callable[[], None]] = []
+
+
 def clear_catalog_cache() -> None:
     with _cache_lock:
         _cache.clear()
+    for hook in cache_clear_hooks:
+        hook()
 
 
 def read_conditions(connection: Connection) -> tuple[Condition, ...]:

@@ -120,6 +120,13 @@ def assert_integrity(
             raise ValueError("CAUTION_AGGREGATION_MISMATCH")
 
 
+_verified_cautions: set[tuple[object, ...]] = set()
+
+
+def clear_verified_cautions() -> None:
+    _verified_cautions.clear()
+
+
 # The positive reader validates its own manifest first; caution cannot change that fingerprint.
 def active_caution_run(
     connection: Connection, positive_run_id: str
@@ -144,10 +151,15 @@ def active_caution_run(
         or row[3] != positive[0]
     ):
         return None, "stale"
-    try:
-        assert_integrity(connection, row[0], positive_run_id, row[5], row[6], row[7])
-    except ValueError:
-        return None, "stale"
+    # Integrity re-reads every caution evidence row, so it runs once per published run; see
+    # herb_run_cache for the accepted trade-off against out-of-band table edits.
+    identity = (current_language(), *row[:2], *row[5:8])
+    if identity not in _verified_cautions:
+        try:
+            assert_integrity(connection, row[0], positive_run_id, row[5], row[6], row[7])
+        except ValueError:
+            return None, "stale"
+        _verified_cautions.add(identity)
     return row[0], "ready"
 
 

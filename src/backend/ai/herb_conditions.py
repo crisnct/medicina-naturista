@@ -9,9 +9,9 @@ from backend.ai import db
 from backend.ai.herb_caution_repository import active_caution_run
 from backend.ai.herb_display import romanian_herb_name
 from backend.ai.herb_evidence import evidence_counts
-from backend.ai.herb_positive_repository import active_run
 from backend.ai.herb_product_safety_repository import safety_metadata
 from backend.ai.herb_repository import catalog_snapshot
+from backend.ai.herb_run_cache import active_run
 from backend.ai.index_state import INDEX_LOCK, IndexUnavailable
 from backend.config import Settings
 from backend.config import settings as default_settings

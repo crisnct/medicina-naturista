@@ -14,6 +14,7 @@ from backend.ai.herb_index_catalog import read_index_catalogs
 from backend.ai.herb_positive_repository import PositiveRepository
 from backend.ai.herb_ranking import list_top_herbs
 from backend.ai.herb_repository import HERBS_INDEX_VERSION
+from backend.ai.herb_run_cache import clear_verified_runs
 from backend.ai.index_constants import TEXT_REPR_VERSION
 from backend.ai.index_state import IndexUnavailable, dictionary_snapshot, passage_profile
 from backend.config import Settings
@@ -712,6 +713,8 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
             "UPDATE herb_positive_rankings SET ranking=77 WHERE run_id=%s AND herb_id=1",
             (first["run_id"],),
         )
+    # Table edits that bypass sync_metadata are only detected by a fresh verification.
+    clear_verified_runs()
     with pytest.raises(ValueError, match="POSITIVE_AGGREGATION_MISMATCH"):
         repository.publish(first["run_id"], config, digest="a" * 64)
     with pytest.raises(ApplicationError) as invalid_top:
@@ -728,6 +731,7 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
         connection.execute(
             "UPDATE chunks SET heading='changed' WHERE source_relative_path='positive.md'"
         )
+    clear_verified_runs()
     with pytest.raises(ApplicationError) as stale:
         repository.publish(second["run_id"], config, digest="a" * 64)
     assert stale.value.code == "POSITIVE_RANKING_STALE"

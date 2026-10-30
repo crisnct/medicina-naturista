@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import logging
 from collections.abc import Iterator
 from contextlib import contextmanager
 
@@ -9,17 +10,19 @@ import psycopg
 from psycopg_pool import PoolTimeout
 
 from backend.ai import db
-from backend.ai.condition_repository import catalog_snapshot
 from backend.ai.conditions import _normalize
-from backend.ai.herb_display import romanian_herb_name
-from backend.ai.herb_positive_repository import active_run
+from backend.ai.herb_display import romanian_herb_name, warm_up_names
+from backend.ai.herb_run_cache import active_run, condition_dictionary
 from backend.ai.index_state import INDEX_LOCK, IndexUnavailable
 from backend.config import Settings
 from backend.config import settings as default_settings
 from backend.core.contracts import ConditionTopResult, RankedHerb
+from backend.core.errors import ApplicationError
 from backend.core.herb_categories import HERB_CATEGORIES, HerbCategory
-from backend.core.language import current_language
+from backend.core.language import LANGUAGES, current_language, language_scope
 from backend.core.operation_context import remaining_timeout
+
+logger = logging.getLogger("naturist.herbs")
 
 TOP_HERBS_SQL = """
 WITH top_herbs AS (
@@ -131,7 +134,7 @@ def list_top_herbs_for_condition(
         raise ValueError("INVALID_HERB_TOP_CONDITION")
     with _ranking_connection() as connection:
         run_id = active_run(connection, settings)
-        dictionary = catalog_snapshot(connection).dictionary
+        dictionary = condition_dictionary(connection)
         matches = dictionary.exact_matches(condition)
         if not matches:
             resolved = dictionary.resolve(condition)
@@ -168,3 +171,24 @@ def list_top_herbs_for_condition(
             "positiveRunId": run_id,
             "herbs": _ranking_rows(connection, run_id, count, category, condition_id),
         }
+
+
+# Pays the per-language costs once at startup: name dictionaries, ranking and caution
+# verification, and the herb catalog behind a product lookup.
+def warm_up(settings: Settings = default_settings) -> None:
+    from backend.ai.herb_conditions import lookup_herb_conditions
+
+    for language in LANGUAGES:
+        with language_scope(language):
+            warm_up_names()
+            try:
+                with _ranking_connection() as connection:
+                    condition_dictionary(connection)
+                top = list_top_herbs(1, settings=settings)
+                if top:
+                    lookup_herb_conditions(top[0]["latin"] or top[0]["ro"], settings=settings)
+            except (ApplicationError, IndexUnavailable) as exc:
+                # An unpublished or stale ranking is reported on use; startup stays healthy.
+                logger.warning(
+                    "herb_warm_up_skipped language=%s type=%s", language, type(exc).__name__
+                )

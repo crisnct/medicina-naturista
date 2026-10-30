@@ -15,6 +15,7 @@ import psycopg
 
 from backend.ai import db
 from backend.ai.herb_conditions import lookup_herb_conditions
+from backend.ai.herb_run_cache import clear_verified_runs
 from backend.ai.index_state import IndexUnavailable
 from scripts import build_hybrid_index as builder
 from scripts.migrate_database import migrate
@@ -262,6 +263,7 @@ class HerbsIndexDatabaseTests(TestCase):
             connection.execute(
                 "INSERT INTO herb_aliases(herb_id,name,kind) VALUES (17,'alias nou','ro_regional')"
             )
+        clear_verified_runs()
         with self.assertRaises(ApplicationError) as error:
             lookup_herb_conditions("matricaria chamomilla")
         self.assertEqual(error.exception.code, "POSITIVE_RANKING_STALE")

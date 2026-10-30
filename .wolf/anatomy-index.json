@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-30T10:08:23.014Z",
+    "lastScanned": "2026-10-30T10:29:43.186Z",
     "fileCount": 237,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "477a04a455398f7046f2ff76c481dd62c769a4345b35e1ddea491496cf35b2e7",
-    "storeUpdatedAt": "2026-10-30T10:08:23.024Z",
-    "rootHash": "7f56d58cd1e2e537"
+    "renderedHash": "a743799608200098454c0b6f90a889aa0a2dadc9cebfd5a161e4b1d3a50444ce",
+    "storeUpdatedAt": "2026-10-30T10:29:43.197Z",
+    "rootHash": "ea11d0ccc3b256df"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -2188,68 +2188,96 @@
     },
     "src/backend/ai/herb_positive_repository.py": {
       "description": "Short snapshot/cache transactions and atomic publication of source-polarity generations.",
-      "tokens": 5910,
-      "hash": "972e87eab2de8e1a",
-      "size": 20682,
-      "mtimeMs": 1793172261328.5876,
-      "updatedAt": "2026-10-28T07:24:21.830Z",
+      "tokens": 6619,
+      "hash": "78102f968117c41e",
+      "size": 23166,
+      "mtimeMs": 1793356182912.38,
+      "updatedAt": "2026-10-30T10:29:43.186Z",
       "source": "hook",
       "symbols": [
         {
+          "name": "active_key",
+          "kind": "fn",
+          "startLine": 38,
+          "endLine": 41,
+          "tokens": 30
+        },
+        {
           "name": "unavailable",
           "kind": "fn",
-          "startLine": 36,
-          "endLine": 44,
+          "startLine": 42,
+          "endLine": 50,
           "tokens": 87
         },
         {
           "name": "Snapshot",
           "kind": "class",
-          "startLine": 45,
-          "endLine": 57,
+          "startLine": 51,
+          "endLine": 63,
           "tokens": 137
         },
         {
           "name": "_preferred_names",
           "kind": "fn",
-          "startLine": 58,
-          "endLine": 78,
-          "tokens": 278
+          "startLine": 64,
+          "endLine": 86,
+          "tokens": 289
         },
         {
           "name": "snapshot",
           "kind": "fn",
-          "startLine": 79,
-          "endLine": 131,
-          "tokens": 626
+          "startLine": 87,
+          "endLine": 154,
+          "tokens": 832
         },
         {
           "name": "evidence_rows",
           "kind": "fn",
-          "startLine": 132,
-          "endLine": 140,
+          "startLine": 155,
+          "endLine": 163,
           "tokens": 106
         },
         {
           "name": "assert_integrity",
           "kind": "fn",
-          "startLine": 141,
-          "endLine": 171,
-          "tokens": 508
+          "startLine": 164,
+          "endLine": 200,
+          "tokens": 604
         },
         {
           "name": "PositiveRepository",
           "kind": "class",
-          "startLine": 172,
-          "endLine": 427,
-          "tokens": 3453
+          "startLine": 201,
+          "endLine": 464,
+          "tokens": 3590
+        },
+        {
+          "name": "clear_verified_runs",
+          "kind": "fn",
+          "startLine": 465,
+          "endLine": 468,
+          "tokens": 17
+        },
+        {
+          "name": "_published_state",
+          "kind": "fn",
+          "startLine": 469,
+          "endLine": 473,
+          "tokens": 73
         },
         {
           "name": "active_run",
           "kind": "fn",
-          "startLine": 428,
-          "endLine": 452,
-          "tokens": 263
+          "startLine": 474,
+          "endLine": 483,
+          "tokens": 104
+        },
+        {
+          "name": "_verify_active_run",
+          "kind": "fn",
+          "startLine": 484,
+          "endLine": 508,
+          "tokens": 266
         }
       ]
     },

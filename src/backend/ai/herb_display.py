@@ -27,6 +27,10 @@ def _dictionary(language: Language = "ro") -> dict[str, set[str]]:
     return variants
 
 
+def warm_up_names() -> None:
+    _dictionary(current_language())
+
+
 def romanian_herb_name(name: str, *, latin: str = "") -> str:
     """Leave ambiguous, unknown and explicitly accented words as stored."""
     language = current_language()

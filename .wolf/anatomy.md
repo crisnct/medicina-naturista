@@ -1,6 +1,6 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-30T10:08:23.014Z
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-30T10:29:43.186Z
 > Files: 237 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
@@ -193,7 +193,7 @@
 - `herb_display.py` — Restore unambiguous product spellings using the operation's bundled dictionary. (~528 tok)
 - `herb_evidence.py` — Read complete source fragments from one published positive-association generation. (~2546 tok)
 - `herb_images.py` — Resolve catalog product images locally without exposing the source directory. (~710 tok)
-- `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~5910 tok)
+- `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~6619 tok)
 - `herb_product_safety_repository.py` — Cache per-product knowledge and publish complete catalog generations atomically. (~3784 tok)
 - `herb_product_safety.py` — Strict, concise product safety from local model knowledge, independent of the corpus. (~1399 tok)
 - `herb_ranking.py` — Read a bounded ranking from one language's published catalog generation. (~1942 tok)

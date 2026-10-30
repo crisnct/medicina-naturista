@@ -27,6 +27,7 @@ from backend.ai.herb_conditions import lookup_herb_conditions
 from backend.ai.herb_evidence import lookup_herb_evidence
 from backend.ai.herb_images import lookup_herb_image
 from backend.ai.herb_ranking import list_top_herbs, list_top_herbs_for_condition
+from backend.ai.herb_ranking import warm_up as warm_up_herbs
 from backend.ai.herb_safety import lookup_herb_safety, lookup_herb_safety_evidence
 from backend.ai.herbs import load_herbs
 from backend.ai.index_state import IndexUnavailable, index_reader
@@ -1034,6 +1035,18 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                         logger.info(
                             "warm_up_finished stage=search duration_ms=%s",
                             round((time.perf_counter() - started) * 1000),
+                        )
+                    # After readiness is published: name dictionaries and ranking verification
+                    # only speed up the first herb ranking, so they must not delay startup.
+                    herb_started = time.perf_counter()
+                    try:
+                        await asyncio.to_thread(warm_up_herbs, cfg)
+                    except Exception as exc:
+                        logger.warning("warm_up_failed stage=herbs type=%s", type(exc).__name__)
+                    else:
+                        logger.info(
+                            "warm_up_finished stage=herbs duration_ms=%s",
+                            round((time.perf_counter() - herb_started) * 1000),
                         )
 
                 warm_task = asyncio.create_task(warm_search(), name="search-warm-up")

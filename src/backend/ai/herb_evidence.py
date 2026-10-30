@@ -13,8 +13,9 @@ from backend.ai.herb_association_rules import NameMatcher
 from backend.ai.herb_caution_repository import active_caution_run
 from backend.ai.herb_caution_repository import unavailable as caution_unavailable
 from backend.ai.herb_index_catalog import normalize_herb_name
-from backend.ai.herb_positive_repository import PositiveRepository, active_run
+from backend.ai.herb_positive_repository import PositiveRepository
 from backend.ai.herb_repository import catalog_snapshot
+from backend.ai.herb_run_cache import active_run
 from backend.ai.index_state import IndexUnavailable
 from backend.config import Settings
 from backend.config import settings as default_settings
