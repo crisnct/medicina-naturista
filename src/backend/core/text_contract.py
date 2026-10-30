@@ -473,6 +473,8 @@ TEXT_PARAMETERS: dict[str, tuple[str, ...]] = {
     "report.list_conjunction": (),
     "report.duration_summary": ("minute_label", "minutes", "second_label", "seconds"),
     "report.source_reference": ("numbers",),
+    "report.relevance_chip": ("percent",),
+    "report.use_chip": ("count",),
     "report.external_use": (),
     "report.internal_use": (),
     "report.title_for_condition": ("condition",),

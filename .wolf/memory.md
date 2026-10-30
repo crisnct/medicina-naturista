@@ -1746,3 +1746,85 @@ description: chronological action log per session, consolidated weekly
 | 12:08 | Created CLAUDE.md | — | ~410 |
 | 12:29 | Edited src/backend/ai/herb_positive_repository.py | modified clear_verified_runs() | ~360 |
 | 12:29 | Edited src/backend/ai/herb_positive_repository.py | added 1 import(s) | ~28 |
+
+## Session: 2026-10-30 13:27
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 13:29 | Edited src/backend/reporting/recommendations.py | modified attach_herb_benefit_counts() | ~144 |
+| 13:29 | Edited src/backend/reporting/pdf.py | inline fix | ~20 |
+| 13:29 | Edited src/backend/reporting/pdf.py | 3→3 lines | ~22 |
+| 13:29 | Edited src/tests/unit/web/test_web.py | rank_pdf_recommendations() → attach_herb_benefit_counts() | ~78 |
+| 13:30 | Edited src/tests/unit/web/test_web.py | inline fix | ~28 |
+| 13:30 | Edited src/tests/unit/web/test_web.py | 4→3 lines | ~73 |
+| 13:31 | Edited src/tests/unit/web/test_web.py | 1→2 lines | ~50 |
+| 13:34 | Edited src/backend/reporting/pdf.py | max() → item_relevance_percent() | ~124 |
+| 13:34 | Edited src/backend/reporting/pdf.py | modified item_relevance_percent() | ~178 |
+| 13:35 | Edited src/backend/reporting/pdf.py | modified format_recommendation() | ~141 |
+| 13:35 | Edited src/backend/reporting/pdf.py | 1→5 lines | ~62 |
+| 13:35 | Edited src/tests/unit/web/test_web.py | expanded (+9 lines) | ~137 |
+| 13:35 | Edited src/tests/unit/web/test_web.py | 8→8 lines | ~187 |
+| 13:35 | Edited src/backend/reporting/pdf.py | 9→9 lines | ~104 |
+| 14:02 | Edited src/backend/reporting/recommendations.py | modified product_fragment_ids() | ~111 |
+| 14:02 | Edited src/backend/reporting/pdf.py | modified _cited_relevances() | ~640 |
+| 14:03 | Edited src/backend/reporting/pdf.py | 2→3 lines | ~37 |
+| 14:03 | Edited src/backend/reporting/pdf.py | inline fix | ~23 |
+| 14:03 | Edited src/backend/reporting/pdf.py | 1→3 lines | ~47 |
+| 14:03 | Edited src/backend/reporting/pdf.py | 3→5 lines | ~35 |
+| 14:03 | Created src/backend/reporting/service.py | — | ~762 |
+| 14:03 | Edited src/tests/unit/web/test_web.py | expanded (+13 lines) | ~202 |
+| 14:03 | Edited src/tests/unit/web/test_web.py | 3→4 lines | ~76 |
+| 14:03 | Edited src/tests/unit/web/test_web.py | 11→12 lines | ~284 |
+| 14:03 | Edited src/tests/unit/web/test_web.py | expanded (+32 lines) | ~464 |
+| 14:03 | Edited src/tests/unit/web/test_web.py | inline fix | ~26 |
+| 14:39 | Edited src/backend/core/text_contract.py | 2→4 lines | ~44 |
+| 14:39 | Edited src/backend/resources/texts.ro.toml | 2→6 lines | ~44 |
+| 14:39 | Edited src/backend/resources/texts.en.toml | 2→6 lines | ~44 |
+| 14:39 | Edited src/backend/reporting/pdf.py | modified _chip() | ~338 |
+| 14:39 | Edited src/tests/unit/web/test_web.py | modified in() | ~290 |
+| 14:39 | Edited src/tests/unit/web/test_web.py | 10→11 lines | ~214 |
+| 14:50 | Edited src/backend/reporting/pdf.py | removed 9 lines | ~23 |
+| 14:50 | Edited src/backend/reporting/pdf.py | — | ~0 |
+| 14:50 | Edited src/backend/reporting/pdf.py | — | ~0 |
+| 15:21 | Edited src/backend/reporting/pdf.py | modified sort_sections_by_relevance() | ~339 |
+| 15:21 | Edited src/backend/reporting/pdf.py | 2→2 lines | ~44 |
+| 15:21 | Edited src/tests/unit/web/test_web.py | expanded (+23 lines) | ~341 |
+| 15:41 | Session end: 38 writes across 7 files (recommendations.py, pdf.py, test_web.py, service.py, text_contract.py) | 10 reads | ~8625 tok |
+| 15:41 | Session end: 20 writes across 9 files (AGENTS.md, app-tester.md, python-code-review.md, python-development.md, architecture.md) | 5 reads | ~5609 tok |
+
+## Session: 2026-10-30 16:05
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-10-30 16:34
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 16:44 | Created aiPlans/plan-effort-generare-raport.md | — | ~3596 |
+| 17:29 | Edited src/backend/config.py | — | ~0 |
+| 17:29 | Edited src/backend/config.py | — | ~0 |
+| 17:29 | Edited src/backend/config.py | modified items() | ~96 |
+| 17:29 | Edited src/backend/ai/providers.py | 3→3 lines | ~38 |
+| 17:29 | Edited docker-compose.yaml | — | ~0 |
+| 17:29 | Edited src/backend/config.py | — | ~0 |
+| 17:29 | Edited src/backend/config.py | — | ~0 |
+| 17:29 | Edited src/backend/config.py | — | ~0 |
+| 17:29 | Edited src/backend/config.py | — | ~0 |
+| 17:29 | Edited src/backend/ai/providers.py | inline fix | ~18 |
+| 17:29 | Edited docker-compose.yaml | — | ~0 |
+| 17:29 | Edited README.md | — | ~0 |
+| 17:34 | Edited src/backend/core/report_models.py | 3→2 lines | ~10 |
+| 17:34 | Edited src/backend/core/report_models.py | 3→2 lines | ~11 |
+| 17:34 | Edited src/backend/ai/providers.py | — | ~0 |
+<!-- session:M2FjNDZkNTktYmE2Ny00ZWIxLThkYTktM2Q4OGVjYjAyMDg5 -->
+| 2026-10-30T15:35:11.478Z | Removed OLLAMA_NUM_CTX_BY_MODEL and OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL; R1 now uses catalog context 32768 and global REPORT_GENERATION_MAX_OUTPUT_TOKENS | src/backend/config.py,src/backend/ai/providers.py,src/backend/core/report_models.py,docker-compose.yaml,README.md,.env | ruff clean; test_client_providers and test_settings pass (34) |
+| 17:41 | Edited src/backend/config.py | added error handling | ~517 |
+| 17:41 | Edited src/backend/config.py | 2→5 lines | ~54 |
+| 17:41 | Edited src/backend/config.py | 2→5 lines | ~68 |
+| 17:41 | Edited src/backend/config.py | added 1 condition(s) | ~162 |
+| 17:41 | Edited src/backend/core/report_models.py | 2→3 lines | ~23 |
+| 17:41 | Edited src/backend/core/report_models.py | 2→3 lines | ~21 |
+| 17:41 | Edited src/backend/ai/providers.py | 2→5 lines | ~59 |
+| 17:41 | Edited docker-compose.yaml | 2→3 lines | ~44 |
+| 17:41 | Edited README.md | 1→2 lines | ~140 |

@@ -524,6 +524,10 @@ list_conjunction = " și "
 duration_summary = " și a fost generat în **{minutes}** {minute_label} și **{seconds}** {second_label}"
 # Parameters: numbers
 source_reference = "→ Surse {numbers}"
+# Parameters: percent
+relevance_chip = "{percent}% potrivire"
+# Parameters: count
+use_chip = "util(ă) în {count} afecțiuni"
 external_use = "Uz extern"
 internal_use = "Uz intern"
 # Parameters: condition

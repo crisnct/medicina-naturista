@@ -467,6 +467,10 @@ second_plural = "seconds"
 list_conjunction = " and "
 duration_summary = " and was generated in **{minutes}** {minute_label} and **{seconds}** {second_label}"
 source_reference = "→ Sources {numbers}"
+# Parameters: percent
+relevance_chip = "{percent}% match"
+# Parameters: count
+use_chip = "useful for {count} conditions"
 external_use = "External use"
 internal_use = "Internal use"
 title_for_condition = "Natural remedies for {condition}"

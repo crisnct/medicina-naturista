@@ -45,25 +45,27 @@ def recommendation_labels(sections: dict[str, list[dict[str, Any]]]) -> list[str
     )
 
 
-def rank_pdf_recommendations(
+def product_fragment_ids(
+    item: dict[str, Any],
+    product_fragments: Mapping[str, frozenset[str]] | None,
+) -> frozenset[str] | None:
+    """Evidence ids whose text names the item's product; None when it cannot be checked."""
+    if not product_fragments:
+        return None
+    return product_fragments.get(split_recommendation(item["text"])[0])
+
+
+def attach_herb_benefit_counts(
     sections: dict[str, list[dict[str, Any]]],
     herb_scores: Mapping[str, int],
-    evidence: Mapping[str, Any],
 ) -> dict[str, list[dict[str, Any]]]:
-    """Rank by distinct cited fragments; keep X for display and relevance for ties."""
-    ordered = {}
-    for key, items in sections.items():
-        if key not in HERB_SECTIONS:
-            ordered[key] = items
-            continue
-        scored = [
+    """Attach X for display to herb recommendations; item order is left unchanged."""
+    return {
+        key: [
             {**item, BENEFIT_COUNT: herb_scores.get(split_recommendation(item["text"])[0], 0)}
             for item in items
         ]
-        ordered[key] = sorted(
-            scored,
-            key=lambda item: (
-                -len({token for token in item.get("evidence_ids", []) if token in evidence})
-            ),
-        )
-    return ordered
+        if key in HERB_SECTIONS
+        else items
+        for key, items in sections.items()
+    }

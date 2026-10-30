@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-30T10:29:43.186Z",
-    "fileCount": 237,
+    "lastScanned": "2026-10-30T15:41:58.098Z",
+    "fileCount": 241,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "a743799608200098454c0b6f90a889aa0a2dadc9cebfd5a161e4b1d3a50444ce",
-    "storeUpdatedAt": "2026-10-30T10:29:43.197Z",
-    "rootHash": "ea11d0ccc3b256df"
+    "renderedHash": "1e79b6d59e92ac9126a7cd106aabd5cc4b4bf6ad721548cd2d8a11a4a94d0128",
+    "storeUpdatedAt": "2026-10-30T15:41:58.108Z",
+    "rootHash": "671d9d77278e5613"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -353,11 +353,11 @@
     },
     "docker-compose.yaml": {
       "description": "Docker Compose: 4 services",
-      "tokens": 2392,
-      "hash": "851041eba077e272",
-      "size": 8372,
-      "mtimeMs": 1793250171609.1768,
-      "updatedAt": "2026-10-29T05:02:54.745Z",
+      "tokens": 2446,
+      "hash": "f3c1d4e206fae61c",
+      "size": 8559,
+      "mtimeMs": 1793374915801.1992,
+      "updatedAt": "2026-10-30T15:41:56.077Z",
       "source": "hook"
     },
     "src/backend/web/main.py": {
@@ -675,190 +675,204 @@
     },
     "src/backend/reporting/pdf.py": {
       "description": "Readable Romanian PDF report with source references next to each claim.",
-      "tokens": 14517,
-      "hash": "c3334d8200ba6616",
-      "size": 51228,
-      "mtimeMs": 1793285679195.3374,
-      "updatedAt": "2026-10-29T14:54:40.510Z",
+      "tokens": 15036,
+      "hash": "a3a6907f49c9c2cd",
+      "size": 53054,
+      "mtimeMs": 1793366475720.6892,
+      "updatedAt": "2026-10-30T13:21:16.019Z",
       "source": "hook",
       "symbols": [
         {
           "name": "section_presentation",
           "kind": "fn",
-          "startLine": 43,
-          "endLine": 74,
+          "startLine": 45,
+          "endLine": 76,
           "tokens": 420
         },
         {
           "name": "_register_fonts",
           "kind": "fn",
-          "startLine": 75,
-          "endLine": 93,
+          "startLine": 77,
+          "endLine": 95,
           "tokens": 233
         },
         {
           "name": "_draw_footer",
           "kind": "fn",
-          "startLine": 94,
-          "endLine": 103,
+          "startLine": 96,
+          "endLine": 105,
           "tokens": 125
         },
         {
           "name": "_draw_botanical_motif",
           "kind": "fn",
-          "startLine": 104,
-          "endLine": 162,
+          "startLine": 106,
+          "endLine": 164,
           "tokens": 573
         },
         {
           "name": "_first_page",
           "kind": "fn",
-          "startLine": 163,
-          "endLine": 187,
+          "startLine": 165,
+          "endLine": 189,
           "tokens": 250
         },
         {
           "name": "_later_page",
           "kind": "fn",
-          "startLine": 188,
-          "endLine": 197,
+          "startLine": 190,
+          "endLine": 199,
           "tokens": 107
         },
         {
           "name": "BookmarkedParagraph",
           "kind": "class",
-          "startLine": 198,
-          "endLine": 212,
+          "startLine": 200,
+          "endLine": 214,
           "tokens": 112
         },
         {
           "name": "CoverPanel",
           "kind": "class",
-          "startLine": 213,
-          "endLine": 275,
+          "startLine": 215,
+          "endLine": 277,
           "tokens": 682
         },
         {
           "name": "RoundedSection",
           "kind": "class",
-          "startLine": 276,
-          "endLine": 394,
+          "startLine": 278,
+          "endLine": 396,
           "tokens": 1446
         },
         {
           "name": "NatureReportDocTemplate",
           "kind": "class",
-          "startLine": 395,
-          "endLine": 408,
+          "startLine": 397,
+          "endLine": 410,
           "tokens": 161
         },
         {
           "name": "build_reference_index",
           "kind": "fn",
-          "startLine": 409,
+          "startLine": 411,
           "endLine": 429,
-          "tokens": 260
+          "tokens": 211
+        },
+        {
+          "name": "_cited_relevances",
+          "kind": "fn",
+          "startLine": 430,
+          "endLine": 444,
+          "tokens": 146
+        },
+        {
+          "name": "item_relevance_percent",
+          "kind": "fn",
+          "startLine": 445,
+          "endLine": 460,
+          "tokens": 220
         },
         {
           "name": "sort_sections_by_relevance",
           "kind": "fn",
-          "startLine": 430,
-          "endLine": 453,
-          "tokens": 308
+          "startLine": 461,
+          "endLine": 489,
+          "tokens": 367
         },
         {
           "name": "nutrition_display_groups",
           "kind": "fn",
-          "startLine": 454,
-          "endLine": 545,
+          "startLine": 490,
+          "endLine": 581,
           "tokens": 1025
         },
         {
           "name": "bibliography_label",
           "kind": "fn",
-          "startLine": 546,
-          "endLine": 921,
+          "startLine": 582,
+          "endLine": 957,
           "tokens": 3201
         },
         {
           "name": "_restore_romanian_diacritics",
           "kind": "fn",
-          "startLine": 922,
-          "endLine": 942,
+          "startLine": 958,
+          "endLine": 978,
           "tokens": 232
         },
         {
           "name": "_join_romanian",
           "kind": "fn",
-          "startLine": 943,
-          "endLine": 953,
+          "startLine": 979,
+          "endLine": 989,
           "tokens": 166
         },
         {
           "name": "condition_names_for",
           "kind": "fn",
-          "startLine": 954,
-          "endLine": 970,
+          "startLine": 990,
+          "endLine": 1006,
           "tokens": 201
         },
         {
           "name": "report_title",
           "kind": "fn",
-          "startLine": 971,
-          "endLine": 986,
+          "startLine": 1007,
+          "endLine": 1022,
           "tokens": 216
         },
         {
           "name": "format_recommendation",
           "kind": "fn",
-          "startLine": 987,
-          "endLine": 995,
-          "tokens": 118
+          "startLine": 1023,
+          "endLine": 1048,
+          "tokens": 291
+        },
+        {
+          "name": "_chip",
+          "kind": "fn",
+          "startLine": 1049,
+          "endLine": 1056,
+          "tokens": 90
         },
         {
           "name": "_compress_reference_numbers",
           "kind": "fn",
-          "startLine": 996,
-          "endLine": 1011,
+          "startLine": 1057,
+          "endLine": 1072,
           "tokens": 165
-        },
-        {
-          "name": "_reference_group_label",
-          "kind": "fn",
-          "startLine": 1012,
-          "endLine": 1016,
-          "tokens": 60
         },
         {
           "name": "_section_heading",
           "kind": "fn",
-          "startLine": 1017,
-          "endLine": 1034,
+          "startLine": 1073,
+          "endLine": 1090,
           "tokens": 195
         },
         {
           "name": "generation_summary_lines",
           "kind": "fn",
-          "startLine": 1035,
-          "endLine": 1059,
+          "startLine": 1091,
+          "endLine": 1115,
           "tokens": 248
         },
         {
           "name": "create_pdf",
           "kind": "fn",
-          "startLine": 1060,
-          "endLine": 1399,
-          "tokens": 3281
+          "startLine": 1116,
+          "endLine": 1443,
+          "tokens": 3195
         }
       ]
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 39095,
-      "hash": "37d9bf013147c58b",
-      "size": 162929,
-      "mtimeMs": 1793340016054.8274,
-      "updatedAt": "2026-10-30T06:00:16.568Z",
+      "tokens": 39214,
+      "hash": "a1d220921539f2cf",
+      "size": 163428,
+      "mtimeMs": 1793374917799.0835,
+      "updatedAt": "2026-10-30T15:41:58.097Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -922,11 +936,11 @@
     },
     "src/backend/resources/texts.ro.toml": {
       "description": "Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română.",
-      "tokens": 9350,
-      "hash": "1c678198e65398d9",
-      "size": 36195,
-      "mtimeMs": 1793266821604.1277,
-      "updatedAt": "2026-10-29T09:40:23.287Z",
+      "tokens": 9384,
+      "hash": "db9a1d66aaeb56d9",
+      "size": 36326,
+      "mtimeMs": 1793363959118.8123,
+      "updatedAt": "2026-10-30T12:39:19.405Z",
       "source": "hook"
     },
     "src/frontend/components/Composer.tsx": {
@@ -2105,11 +2119,11 @@
     },
     "src/backend/config.py": {
       "description": "Environment-backed settings. No patient data belongs in configuration or logs.",
-      "tokens": 9918,
-      "hash": "5631ec6cf4eb81e8",
-      "size": 34711,
-      "mtimeMs": 1793256545028.579,
-      "updatedAt": "2026-10-29T06:49:05.558Z",
+      "tokens": 9848,
+      "hash": "c041fc469da28aaf",
+      "size": 34465,
+      "mtimeMs": 1793374908521.144,
+      "updatedAt": "2026-10-30T15:41:48.793Z",
       "source": "hook",
       "symbols": [
         {
@@ -2117,62 +2131,62 @@
           "kind": "fn",
           "startLine": 28,
           "endLine": 63,
-          "tokens": 443
+          "tokens": 444
         },
         {
-          "name": "_freeze_ollama_limits",
+          "name": "_freeze_ollama_output_limits",
           "kind": "fn",
           "startLine": 64,
           "endLine": 78,
-          "tokens": 161
+          "tokens": 172
         },
         {
-          "name": "_ollama_limits",
+          "name": "_ollama_output_limits",
           "kind": "fn",
           "startLine": 79,
-          "endLine": 105,
-          "tokens": 314
+          "endLine": 106,
+          "tokens": 323
         },
         {
           "name": "_int",
           "kind": "fn",
-          "startLine": 106,
-          "endLine": 121,
+          "startLine": 107,
+          "endLine": 122,
           "tokens": 139
         },
         {
           "name": "_bool",
           "kind": "fn",
-          "startLine": 122,
-          "endLine": 137,
+          "startLine": 123,
+          "endLine": 138,
           "tokens": 146
         },
         {
           "name": "_embedding_device",
           "kind": "fn",
-          "startLine": 138,
-          "endLine": 148,
+          "startLine": 139,
+          "endLine": 149,
           "tokens": 128
         },
         {
           "name": "_ai_provider",
           "kind": "fn",
-          "startLine": 149,
-          "endLine": 156,
+          "startLine": 150,
+          "endLine": 157,
           "tokens": 72
         },
         {
           "name": "Settings",
           "kind": "class",
-          "startLine": 157,
-          "endLine": 696,
-          "tokens": 7976
+          "startLine": 158,
+          "endLine": 692,
+          "tokens": 7886
         },
         {
           "name": "configure_settings",
           "kind": "fn",
-          "startLine": 697,
-          "endLine": 709,
+          "startLine": 693,
+          "endLine": 705,
           "tokens": 137
         }
       ]
@@ -3613,11 +3627,11 @@
     },
     "src/backend/core/text_contract.py": {
       "description": "Generated key/parameter contract. Regenerate with scripts.manage_texts --generate.",
-      "tokens": 4921,
-      "hash": "d75165bf662023d7",
-      "size": 17223,
-      "mtimeMs": 1792765977922.098,
-      "updatedAt": "2026-10-23T14:32:58.458Z",
+      "tokens": 6151,
+      "hash": "650254c70d303688",
+      "size": 21527,
+      "mtimeMs": 1793363957958.3467,
+      "updatedAt": "2026-10-30T12:39:18.267Z",
       "source": "hook"
     },
     "src/backend/migrations/027_essential_oil_source_aliases.sql": {
@@ -6029,11 +6043,11 @@
     },
     "src/backend/ai/providers.py": {
       "description": "Per-provider transport settings for report generation.",
-      "tokens": 1768,
-      "hash": "dbe6c569f58d678d",
-      "size": 6185,
-      "mtimeMs": 1793266821596.1274,
-      "updatedAt": "2026-10-29T09:40:22.417Z",
+      "tokens": 1765,
+      "hash": "cb9f2d489ef34361",
+      "size": 6177,
+      "mtimeMs": 1793374911818.2754,
+      "updatedAt": "2026-10-30T15:41:52.082Z",
       "source": "hook",
       "symbols": [
         {
@@ -6062,7 +6076,7 @@
           "kind": "fn",
           "startLine": 59,
           "endLine": 165,
-          "tokens": 1194
+          "tokens": 1191
         }
       ]
     },
@@ -6817,8 +6831,8 @@
       "tokens": 954,
       "hash": "a9bc620109dd7890",
       "size": 3338,
-      "mtimeMs": 1793266979076.9485,
-      "updatedAt": "2026-10-29T09:42:59.577Z",
+      "mtimeMs": 1793374910663.8813,
+      "updatedAt": "2026-10-30T15:41:50.935Z",
       "source": "hook",
       "symbols": [
         {
@@ -7212,11 +7226,11 @@
     },
     "src/backend/resources/texts.en.toml": {
       "description": "English application copy. Keys and named parameters match texts.ro.toml exactly.",
-      "tokens": 8519,
-      "hash": "6135f788a13956e3",
-      "size": 32080,
-      "mtimeMs": 1793275263725.111,
-      "updatedAt": "2026-10-29T12:01:04.198Z",
+      "tokens": 8552,
+      "hash": "e0061c95e9780224",
+      "size": 32201,
+      "mtimeMs": 1793363960240.7642,
+      "updatedAt": "2026-10-30T12:39:20.487Z",
       "source": "hook"
     },
     "src/backend/migrations/032_bilingual_chunks.sql": {
@@ -7821,6 +7835,153 @@
       "size": 1534,
       "mtimeMs": 1793354902711.7524,
       "updatedAt": "2026-10-30T10:08:23.013Z",
+      "source": "hook"
+    },
+    "src/backend/reporting/recommendations.py": {
+      "description": "Pure label extraction and PDF-only ordering of recommendation copies.",
+      "tokens": 694,
+      "hash": "e6219dc4d967db30",
+      "size": 2438,
+      "mtimeMs": 1793361773008.615,
+      "updatedAt": "2026-10-30T12:02:53.322Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "split_recommendation",
+          "kind": "fn",
+          "startLine": 13,
+          "endLine": 35,
+          "tokens": 263
+        },
+        {
+          "name": "recommendation_labels",
+          "kind": "fn",
+          "startLine": 36,
+          "endLine": 47,
+          "tokens": 96
+        },
+        {
+          "name": "product_fragment_ids",
+          "kind": "fn",
+          "startLine": 48,
+          "endLine": 57,
+          "tokens": 102
+        },
+        {
+          "name": "attach_herb_benefit_counts",
+          "kind": "fn",
+          "startLine": 58,
+          "endLine": 72,
+          "tokens": 144
+        }
+      ]
+    },
+    "src/tests/unit/web/test_web.py": {
+      "description": "Smoke tests for the local web application; no live xAI requests.",
+      "tokens": 29497,
+      "hash": "55c4fc81561d4def",
+      "size": 103662,
+      "mtimeMs": 1793366482731.709,
+      "updatedAt": "2026-10-30T13:21:23.049Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "_headers",
+          "kind": "fn",
+          "startLine": 60,
+          "endLine": 66,
+          "tokens": 64
+        },
+        {
+          "name": "FakeAI",
+          "kind": "class",
+          "startLine": 67,
+          "endLine": 92,
+          "tokens": 231
+        },
+        {
+          "name": "FakeRetriever",
+          "kind": "class",
+          "startLine": 93,
+          "endLine": 110,
+          "tokens": 150
+        },
+        {
+          "name": "FakeResponse",
+          "kind": "class",
+          "startLine": 111,
+          "endLine": 132,
+          "tokens": 178
+        },
+        {
+          "name": "_by_kind",
+          "kind": "fn",
+          "startLine": 133,
+          "endLine": 140,
+          "tokens": 123
+        },
+        {
+          "name": "_send",
+          "kind": "fn",
+          "startLine": 141,
+          "endLine": 170,
+          "tokens": 313
+        },
+        {
+          "name": "post_report",
+          "kind": "fn",
+          "startLine": 171,
+          "endLine": 199,
+          "tokens": 315
+        },
+        {
+          "name": "_classify_latest",
+          "kind": "fn",
+          "startLine": 200,
+          "endLine": 206,
+          "tokens": 73
+        },
+        {
+          "name": "WebTests",
+          "kind": "class",
+          "startLine": 207,
+          "endLine": 2235,
+          "tokens": 26742
+        }
+      ]
+    },
+    "src/backend/reporting/service.py": {
+      "description": "Prepare database-derived PDF scores before entering the pure renderer.",
+      "tokens": 762,
+      "hash": "bbe31e01679ff6ab",
+      "size": 2667,
+      "mtimeMs": 1793361794185.424,
+      "updatedAt": "2026-10-30T12:03:14.504Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "product_fragments",
+          "kind": "fn",
+          "startLine": 19,
+          "endLine": 52,
+          "tokens": 388
+        },
+        {
+          "name": "create_ranked_pdf",
+          "kind": "fn",
+          "startLine": 53,
+          "endLine": 73,
+          "tokens": 216
+        }
+      ]
+    },
+    "aiPlans/plan-effort-generare-raport.md": {
+      "description": "Plan: selector de effort AI la generarea raportului",
+      "tokens": 3372,
+      "hash": "1d7452fe77d5f8ff",
+      "size": 13485,
+      "mtimeMs": 1793371488327.2446,
+      "updatedAt": "2026-10-30T14:44:48.597Z",
       "source": "hook"
     }
   },

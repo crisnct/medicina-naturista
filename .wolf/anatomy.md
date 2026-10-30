@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-30T10:29:43.186Z
-> Files: 237 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-30T15:41:58.098Z
+> Files: 241 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -12,9 +12,9 @@
 - `.dockerignore` (~107 tok)
 - `AGENTS.md` — AGENTS.md (~3128 tok)
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
-- `docker-compose.yaml` — Docker Compose: 4 services (~2392 tok)
+- `docker-compose.yaml` — Docker Compose: 4 services (~2446 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~39095 tok)
+- `README.md` — Project documentation (~39214 tok)
 
 ## .claude/
 
@@ -72,6 +72,7 @@
 - `2026-10-29-report-batch-workers-env.md` — Configurare REPORT_BATCH_WORKERS (~348 tok)
 - `2026-10-29-suport-romana-engleza.md` — Plan: aplicație în română și engleză (~8477 tok)
 - `2026-10-30-clean-documents-english.md` — English document cleanup (~224 tok)
+- `plan-effort-generare-raport.md` — Plan: selector de effort AI la generarea raportului (~3372 tok)
 
 ## aiPlans/tmp/
 
@@ -176,7 +177,7 @@
 
 ## src/backend/
 
-- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~9918 tok)
+- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~9848 tok)
 
 ## src/backend/ai/
 
@@ -204,7 +205,7 @@
 - `herb_safety.py` — Read published model-knowledge messages; consultation never invokes a model. (~1384 tok)
 - `herbs.py` — PostgreSQL plants/products and the strict parser for offline botanical sources. (~3360 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9335 tok)
-- `providers.py` — Per-provider transport settings for report generation. (~1768 tok)
+- `providers.py` — Per-provider transport settings for report generation. (~1765 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~1940 tok)
 - `retrieval.py` — Local-only retrieval over the existing hybrid index. (~2789 tok)
 
@@ -243,7 +244,7 @@
 - `report_generation.py` — Process-owned execution; session admission bounds the executor's pending work. (~2523 tok)
 - `report_models.py` — Supported report choices and their immutable provider routing. (~954 tok)
 - `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~15689 tok)
-- `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~4921 tok)
+- `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~6151 tok)
 - `texts.py` — Validated bilingual copy with immutable catalogs selected by execution context. (~1002 tok)
 
 ## src/backend/integrations/
@@ -269,12 +270,14 @@
 
 ## src/backend/reporting/
 
-- `pdf.py` — Readable Romanian PDF report with source references next to each claim. (~14517 tok)
+- `pdf.py` — Readable Romanian PDF report with source references next to each claim. (~15036 tok)
+- `recommendations.py` — Pure label extraction and PDF-only ordering of recommendation copies. (~694 tok)
+- `service.py` — Prepare database-derived PDF scores before entering the pure renderer. (~762 tok)
 
 ## src/backend/resources/
 
-- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~8519 tok)
-- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~9350 tok)
+- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~8552 tok)
+- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~9384 tok)
 
 ## src/backend/web/
 
@@ -366,3 +369,4 @@
 ## src/tests/unit/web/
 
 - `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~9203 tok)
+- `test_web.py` — Smoke tests for the local web application; no live xAI requests. (~29497 tok)

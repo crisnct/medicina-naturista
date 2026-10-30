@@ -29,7 +29,9 @@ from backend.core.language import current_language
 from backend.core.texts import tr
 from backend.reporting.recommendations import (
     BENEFIT_COUNT,
-    rank_pdf_recommendations,
+    HERB_SECTIONS,
+    attach_herb_benefit_counts,
+    product_fragment_ids,
     split_recommendation,
 )
 
@@ -425,27 +427,61 @@ def build_reference_index(
     return numbers, references
 
 
-# Sort every report section by the best relevance_percent among the fragments it cites,
-# then by descending count of distinct cited sources, then by original position.
+def _cited_relevances(
+    item: dict[str, Any],
+    evidence: dict[str, dict[str, Any]],
+    only: frozenset[str] | None,
+) -> dict[str, float]:
+    """Known relevance_percent of each distinct fragment the item cites, limited to `only`."""
+    return {
+        token: float(evidence[token]["relevance_percent"])
+        for token in item.get("evidence_ids", [])
+        if token in evidence
+        and (only is None or token in only)
+        and evidence[token].get("relevance_percent") is not None
+    }
+
+
+def item_relevance_percent(
+    item: dict[str, Any],
+    evidence: dict[str, dict[str, Any]],
+    only: frozenset[str] | None = None,
+) -> float | None:
+    """Return the highest relevance_percent among the cited fragments, if any is known.
+
+    `only` restricts it to the fragments that name the item's product (None: no restriction).
+    """
+    return max(_cited_relevances(item, evidence, only).values(), default=None)
+
+
+# Sort every report section by the best relevance_percent among the fragments it cites
+# (for herb sections, only fragments naming the product) as displayed, i.e. rounded; ties
+# go to the item useful for more conditions (herb sections carry BENEFIT_COUNT), then to
+# the summed relevance of those distinct fragments, then to original position.
 def sort_sections_by_relevance(
     sections: dict[str, list[dict[str, Any]]],
     evidence: dict[str, dict[str, Any]],
+    product_fragments: Mapping[str, frozenset[str]] | None = None,
 ) -> dict[str, list[dict[str, Any]]]:
     """Order every section by the highest relevance_percent of the fragments each item cites."""
 
-    def sort_key(pair: tuple[int, dict[str, Any]]) -> tuple[float, int, int]:
+    def sort_key(
+        pair: tuple[int, dict[str, Any]], fragments: Mapping[str, frozenset[str]] | None
+    ) -> tuple[float, int, float, int]:
         index, item = pair
-        tokens = [token for token in item.get("evidence_ids", []) if token in evidence]
-        best_relevance = max(
-            (float(evidence[token].get("relevance_percent", 0.0)) for token in tokens),
-            default=float("-inf"),
+        relevances = _cited_relevances(item, evidence, product_fragment_ids(item, fragments))
+        shown_relevance = round(max(relevances.values())) if relevances else float("-inf")
+        return (
+            -shown_relevance,
+            -(item.get(BENEFIT_COUNT) or 0),
+            -sum(relevances.values()),
+            index,
         )
-        source_count = len({evidence[token]["source"] for token in tokens})
-        return (-best_relevance, -source_count, index)
 
     ordered: dict[str, list[dict[str, Any]]] = {}
     for section, items in sections.items():
-        indexed_items = sorted(enumerate(items), key=sort_key)
+        fragments = product_fragments if section in HERB_SECTIONS else None
+        indexed_items = sorted(enumerate(items), key=lambda pair: sort_key(pair, fragments))
         ordered[section] = [item for _, item in indexed_items]
     return ordered
 
@@ -984,13 +1020,38 @@ def report_title(profile: dict[str, Any]) -> str:
 
 
 # Format the leading intervention or product label for readable PDF output.
-def format_recommendation(text: str, benefit_count: int | None = None) -> str:
-    """Render a bold bullet and intervention label, including its trailing colon."""
+def format_recommendation(
+    text: str,
+    benefit_count: int | None = None,
+    relevance_percent: float | None = None,
+) -> str:
+    """Render a bold bullet and label, then relevance and use chips above the description.
+
+    Without any chip the label keeps its trailing colon and the description follows inline.
+    """
     label, description = split_recommendation(text)
-    bullet = f"● ({benefit_count}) " if benefit_count else "● "
+    chips = []
+    if relevance_percent is not None:
+        percent = f"{relevance_percent:.0f}"
+        chips.append(_chip(tr("report.relevance_chip", percent=percent), "#0F5C5E", "#DDF1EC"))
+    if benefit_count:
+        chips.append(_chip(tr("report.use_chip", count=benefit_count), "#4B5B5A", "#ECEFEE"))
+    if not chips:
+        if not label:
+            return "● " + escape(description)
+        return f"<b>● {escape(label)}:</b> {escape(description)}"
+    badges = " ".join(chips)
     if not label:
-        return bullet + escape(description)
-    return f"<b>{bullet}{escape(label)}:</b> {escape(description)}"
+        return f"● {badges}<br/>{escape(description)}"
+    return f"<b>● {escape(label)}</b> {badges}<br/>{escape(description)}"
+
+
+def _chip(text: str, color: str, background: str) -> str:
+    """Small highlighted label; non-breaking spaces keep it on one line with some padding."""
+    padded = f" {text} ".replace(" ", " ")
+    return (
+        f'<font size="8.5" color="{color}" backColor="{background}"><b>{escape(padded)}</b></font>'
+    )
 
 
 def _compress_reference_numbers(numbers: list[int]) -> str:
@@ -1007,11 +1068,6 @@ def _compress_reference_numbers(numbers: list[int]) -> str:
         start = previous = number
     ranges.append(str(start) if start == previous else f"{start}-{previous}")
     return ", ".join(ranges)
-
-
-def _reference_group_label(source: str) -> str:
-    """Return a source filename/path without the line range for bibliography grouping."""
-    return re.sub(r":\d+(?:-\d+)?$", "", bibliography_label(source))
 
 
 def _section_heading(
@@ -1065,6 +1121,7 @@ def create_pdf(
     *,
     ai_model: str | None = None,
     herb_scores: Mapping[str, int] | None = None,
+    product_fragments: Mapping[str, frozenset[str]] | None = None,
 ) -> bytes:
     regular, bold = _register_fonts()
     styles = getSampleStyleSheet()
@@ -1138,18 +1195,6 @@ def create_pdf(
             leading=16,
             textColor=colors.HexColor(MUTED_TEXT_COLOR),
             spaceAfter=0,
-        )
-    )
-    styles.add(
-        ParagraphStyle(
-            name="NaturalBibliographyGroup",
-            fontName=bold,
-            fontSize=11.5,
-            leading=16,
-            textColor=colors.HexColor("#52636D"),
-            spaceBefore=7,
-            spaceAfter=3,
-            keepWithNext=True,
         )
     )
     styles.add(
@@ -1231,8 +1276,8 @@ def create_pdf(
         "alte_recomandari",
         "atentionari",
     )
-    sections = sort_sections_by_relevance(sections, evidence)
-    sections = rank_pdf_recommendations(sections, herb_scores or {}, evidence)
+    sections = attach_herb_benefit_counts(sections, herb_scores or {})
+    sections = sort_sections_by_relevance(sections, evidence, product_fragments)
     reference_numbers, references = build_reference_index(sections, evidence)
     source_targets: dict[str, str] = {}
 
@@ -1317,7 +1362,13 @@ def create_pdf(
                 add_recommendation(
                     section_content,
                     key,
-                    format_recommendation(str(item["text"]), item[BENEFIT_COUNT]),
+                    format_recommendation(
+                        str(item["text"]),
+                        item[BENEFIT_COUNT],
+                        item_relevance_percent(
+                            item, evidence, product_fragment_ids(item, product_fragments)
+                        ),
+                    ),
                     citations_for(item),
                     f"recommendation-{key}-{index}",
                 )
@@ -1341,14 +1392,7 @@ def create_pdf(
         Spacer(1, 2.5 * mm),
     ]
     if references:
-        previous_group = ""
         for number, source in enumerate(references, start=1):
-            group = _reference_group_label(source)
-            if group != previous_group:
-                bibliography_content.append(
-                    Paragraph(escape(group), styles["NaturalBibliographyGroup"])
-                )
-                previous_group = group
             target = source_targets.get(source, "section-uz_intern")
             bibliography_content.append(
                 Paragraph(

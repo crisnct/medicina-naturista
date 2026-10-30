@@ -44,7 +44,7 @@ from backend.reporting.pdf import (
     generation_summary_lines,
     report_title,
 )
-from backend.reporting.recommendations import rank_pdf_recommendations, recommendation_labels
+from backend.reporting.recommendations import attach_herb_benefit_counts, recommendation_labels
 from backend.reporting.service import create_ranked_pdf
 from backend.web.dependencies import Dependencies
 from tests.support.conditions import conditions_from_rows
@@ -345,7 +345,22 @@ class WebTests(unittest.TestCase):
             with self.subTest(text=text):
                 self.assertEqual(format_recommendation(text), expected)
                 self.assertEqual(format_recommendation(text, 0), expected)
-                self.assertEqual(format_recommendation(text, 57), expected.replace("● ", "● (57) "))
+                description = (
+                    expected.split("</b> ", 1)[1] if expected.startswith("<b>") else expected[2:]
+                )
+                use_only = format_recommendation(text, 57)
+                self.assertIn("util(ă) în 57 afecțiuni", use_only)
+                self.assertNotIn("potrivire", use_only)
+                rel_only = format_recommendation(text, None, 80.4)
+                self.assertIn("80% potrivire", rel_only)
+                self.assertNotIn("afecțiuni", rel_only)
+                both = format_recommendation(text, 149, 80.0)
+                self.assertLess(both.index("80% potrivire"), both.index("149"))
+                # Chips sit after the label (colon dropped) and above the description.
+                for chips in (use_only, rel_only, both):
+                    self.assertTrue(chips.endswith("<br/>" + description))
+                    self.assertNotIn(":</b>", chips)
+                    self.assertEqual(chips.startswith("<b>● "), expected.startswith("<b>"))
 
     # Verify that common Romanian diacritics are restored in report titles.
     def test_report_title_restores_common_romanian_diacritics(self):
@@ -502,6 +517,19 @@ class WebTests(unittest.TestCase):
             "text": "Another fragment of A",
             "relevance_percent": 20.0,
         }
+        # Only fragments naming the product count: C1 does not name the infusion, so its
+        # relevance is 20 (C4), not 35.
+        evidence["C2"]["text"] = "B Vitamina B6"
+        evidence["C3"]["text"] = "C Tinctura de soc"
+        evidence["C4"]["text"] = "Another fragment of A Infuzie de romaniță"
+        herb_names = {"vitamina b6": 1, "infuzie de romaniță": 2, "tinctura de soc": 3}
+        catalog = SimpleNamespace(
+            mentions=lambda text: [
+                SimpleNamespace(id=herb_id)
+                for name, herb_id in herb_names.items()
+                if name in text.lower()
+            ]
+        )
         pdf_sections = {
             key: [
                 {"text": "Vitamina B6: cu mușețel în descriere.", "evidence_ids": ["C2"]},
@@ -521,6 +549,7 @@ class WebTests(unittest.TestCase):
                 "backend.reporting.service.load_herb_benefit_scores",
                 return_value={"Infuzie de romaniță": 57, "Tinctura de soc": 99},
             ) as scores,
+            patch("backend.reporting.service.load_herbs", return_value=catalog),
             patch("backend.reporting.pdf.report_title", return_value="Verificare PDF"),
         ):
             data = create_ranked_pdf({"health_problem": ""}, pdf_sections, evidence)
@@ -528,17 +557,23 @@ class WebTests(unittest.TestCase):
         pdf_text = " ".join(
             " ".join(page.extract_text() for page in PdfReader(io.BytesIO(data)).pages).split()
         )
-        self.assertEqual(pdf_text.count("● (99) Tinctura de soc:"), 4)
-        self.assertEqual(pdf_text.count("● (57) Infuzie de romaniță:"), 4)
-        self.assertEqual(pdf_text.count("● Vitamina B6:"), 4)
-        self.assertEqual(pdf_text.count("● Îngrijire generală."), 4)
-        self.assertNotIn("(0)", pdf_text)
-        self.assertLess(pdf_text.index("(57)"), pdf_text.index("● Vitamina B6:"))
-        self.assertLess(pdf_text.index("● Vitamina B6:"), pdf_text.index("(99)"))
-        self.assertLess(pdf_text.index("Vitamina B6"), pdf_text.index("Îngrijire generală"))
-        self.assertLess(pdf_text.index("Îngrijire generală"), pdf_text.index("Tinctura de soc"))
+        for chips in (
+            "● Tinctura de soc 30% potrivire util(ă) în 99 afecțiuni descriere.",
+            "● Infuzie de romaniță 20% potrivire util(ă) în 57 afecțiuni descriere.",
+            "● Vitamina B6 90% potrivire cu mușețel în descriere.",
+            "● 35% potrivire Îngrijire generală.",
+        ):
+            self.assertEqual(pdf_text.count(chips), 4, chips)
+        self.assertNotIn("util(ă) în 0 afecțiuni", pdf_text)
+        self.assertLess(pdf_text.index("Vitamina B6 90%"), pdf_text.index("Îngrijire generală"))
+        self.assertLess(pdf_text.index("Îngrijire generală"), pdf_text.index("Tinctura de soc 30%"))
+        self.assertLess(
+            pdf_text.index("Tinctura de soc 30%"), pdf_text.index("Infuzie de romaniță 20%")
+        )
         self.assertLess(pdf_text.index("Puternic"), pdf_text.index("Slab"))
-        self.assertLess(pdf_text.index("1 - a.md:1-2"), pdf_text.index("2 - a.md:3-4"))
+        self.assertLess(pdf_text.index("1 - b.md:1-2"), pdf_text.index("2 - a.md:1-2"))
+        self.assertLess(pdf_text.index("2 - a.md:1-2"), pdf_text.index("3 - c.md:1-2"))
+        self.assertLess(pdf_text.index("3 - c.md:1-2"), pdf_text.index("4 - a.md:3-4"))
         self.assertEqual(pdf_sections, original)
         chat = handlers._recommendation_text(pdf_sections, evidence)
         self.assertLess(chat.index("Vitamina B6"), chat.index("Tinctura de soc"))
@@ -566,9 +601,62 @@ class WebTests(unittest.TestCase):
             [item["text"] for item in ordered["uz_intern"]],
             ["doua surse", "o sursa", "repetat", "fara sursa", "id necunoscut"],
         )
-        # Fragment counts are primary; relevance/source/position still resolve ties.
+        # Herb sections rank only on fragments naming the product (an empty set: none known);
+        # ties on the best relevance fall to the summed relevance of those fragments.
+        fragment_evidence = {
+            "C1": {"source": "documents/a.md:1-2", "text": "A", "relevance_percent": 80.0},
+            "C2": {"source": "documents/b.md:1-2", "text": "B", "relevance_percent": 40.0},
+        }
+        herb_ordered = reports_module.sort_sections_by_relevance(
+            {
+                "uz_intern": [
+                    {"text": "Solo: x", "evidence_ids": ["C1"]},
+                    {"text": "Dublu: x", "evidence_ids": ["C1", "C2"]},
+                    {"text": "Doar slab: x", "evidence_ids": ["C1", "C2"]},
+                    {"text": "Neconfirmat: x", "evidence_ids": ["C1"]},
+                    {"text": "Fara filtru: x", "evidence_ids": ["C2"]},
+                ],
+                "nutritie": [{"text": "Solo: x", "evidence_ids": ["C2"]}],
+            },
+            fragment_evidence,
+            {
+                "Solo": frozenset({"C1"}),
+                "Dublu": frozenset({"C1", "C2"}),
+                "Doar slab": frozenset({"C2"}),
+                "Neconfirmat": frozenset(),
+            },
+        )
         self.assertEqual(
-            [item["text"] for item in rank_pdf_recommendations(ordered, {}, evidence)["uz_intern"]],
+            [item["text"] for item in herb_ordered["uz_intern"]],
+            ["Dublu: x", "Solo: x", "Doar slab: x", "Fara filtru: x", "Neconfirmat: x"],
+        )
+        self.assertEqual([item["text"] for item in herb_ordered["nutritie"]], ["Solo: x"])
+        # Equal displayed (rounded) relevance: more conditions first (88.4 and 87.6 both show
+        # 88%); a lower relevance never overtakes on its count.
+        tie_evidence = {
+            "C3": {"source": "documents/c.md:1", "text": "C", "relevance_percent": 88.4},
+            "C4": {"source": "documents/d.md:1", "text": "D", "relevance_percent": 87.6},
+            "C5": {"source": "documents/e.md:1", "text": "E", "relevance_percent": 70.0},
+        }
+        tied = reports_module.sort_sections_by_relevance(
+            attach_herb_benefit_counts(
+                {
+                    "uz_intern": [
+                        {"text": "Putin: x", "evidence_ids": ["C3"]},
+                        {"text": "Mult: x", "evidence_ids": ["C4"]},
+                        {"text": "Mai slab: x", "evidence_ids": ["C5"]},
+                    ]
+                },
+                {"Putin": 5, "Mult": 146, "Mai slab": 999},
+            ),
+            tie_evidence,
+        )
+        self.assertEqual(
+            [item["text"] for item in tied["uz_intern"]], ["Mult: x", "Putin: x", "Mai slab: x"]
+        )
+        # Attaching the display count must not reorder the relevance-sorted items.
+        self.assertEqual(
+            [item["text"] for item in attach_herb_benefit_counts(ordered, {})["uz_intern"]],
             [item["text"] for item in ordered["uz_intern"]],
         )
         self.assertEqual(recommendation_labels(sections), [])

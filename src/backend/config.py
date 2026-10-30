@@ -60,10 +60,8 @@ def _batch_limits(value: str | None = None) -> Mapping[ReportModel, int]:
     return MappingProxyType(result)
 
 
-# Freeze validated Ollama overrides before any clients are constructed.
-def _freeze_ollama_limits(
-    limits: Mapping[ReportModel, int], name: str
-) -> Mapping[ReportModel, int]:
+# Freeze validated Ollama output limits before any clients are constructed.
+def _freeze_ollama_output_limits(limits: Mapping[ReportModel, int]) -> Mapping[ReportModel, int]:
     if not isinstance(limits, Mapping) or any(
         model not in REPORT_MODELS
         or REPORT_MODELS[model].provider != "ollama"
@@ -71,19 +69,22 @@ def _freeze_ollama_limits(
         or limit <= 0
         for model, limit in limits.items()
     ):
-        raise ValueError(f"{name} must map supported Ollama models to positive integers")
+        raise ValueError(
+            "OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL must map supported Ollama models to positive integers"
+        )
     return MappingProxyType(dict(limits))
 
 
 # Missing keys inherit catalog defaults; duplicate JSON keys never silently win.
-def _ollama_limits(value: str | None, name: str, field_name: str) -> Mapping[ReportModel, int]:
+def _ollama_output_limits(value: str | None) -> Mapping[ReportModel, int]:
+    name = "OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL"
     defaults = {
-        model: limit
+        model: spec.max_output_tokens
         for model, spec in REPORT_MODELS.items()
-        if spec.provider == "ollama" and (limit := getattr(spec, field_name)) is not None
+        if spec.provider == "ollama" and spec.max_output_tokens is not None
     }
     if not value or not value.strip():
-        return _freeze_ollama_limits(defaults, name)
+        return _freeze_ollama_output_limits(defaults)
 
     def unique_pairs(pairs: list[tuple[str, object]]) -> dict[str, object]:
         result: dict[str, object] = {}
@@ -99,7 +100,7 @@ def _ollama_limits(value: str | None, name: str, field_name: str) -> Mapping[Rep
         raise ValueError(f"{name} must be a JSON object with unique model keys") from None
     if not isinstance(parsed, dict):
         raise ValueError(f"{name} must be a JSON object")
-    return _freeze_ollama_limits(defaults | parsed, name)
+    return _freeze_ollama_output_limits(defaults | parsed)
 
 
 # Read an integer setting and reject values outside its safety bounds.
@@ -192,13 +193,8 @@ class Settings:
     ollama_keep_alive_seconds: int = 60
     ollama_reasoning_effort: str = ""
     ollama_max_content_tokens: int = 1_000_000
-    ollama_num_ctx_by_model: Mapping[ReportModel, int] = field(
-        default_factory=lambda: _ollama_limits(None, "OLLAMA_NUM_CTX_BY_MODEL", "context_tokens")
-    )
     ollama_max_output_tokens_by_model: Mapping[ReportModel, int] = field(
-        default_factory=lambda: _ollama_limits(
-            None, "OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL", "max_output_tokens"
-        )
+        default_factory=lambda: _ollama_output_limits(None)
     )
     deepseek_model: str = REPORT_MODELS["deepseek-flash"].model
     deepseek_api_base: str = "https://api.deepseek.com"
@@ -340,13 +336,8 @@ class Settings:
             ollama_keep_alive_seconds=_int("OLLAMA_KEEP_ALIVE_SECONDS", 60, minimum=0, env=env),
             ollama_reasoning_effort=env.get("OLLAMA_REASONING_EFFORT", "").strip(),
             ollama_max_content_tokens=_int("OLLAMA_MAX_CONTENT_TOKENS", 1000000, env=env),
-            ollama_num_ctx_by_model=_ollama_limits(
-                env.get("OLLAMA_NUM_CTX_BY_MODEL"), "OLLAMA_NUM_CTX_BY_MODEL", "context_tokens"
-            ),
-            ollama_max_output_tokens_by_model=_ollama_limits(
-                env.get("OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL"),
-                "OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL",
-                "max_output_tokens",
+            ollama_max_output_tokens_by_model=_ollama_output_limits(
+                env.get("OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL")
             ),
             deepseek_api_base=env.get("DEEPSEEK_API_BASE", "https://api.deepseek.com").rstrip("/"),
             deepseek_reasoning_effort=env.get("DEEPSEEK_REASONING_EFFORT", "").strip(),
@@ -468,14 +459,14 @@ class Settings:
             self, "report_generation_batch_max_tokens", MappingProxyType(dict(limits))
         )
         _ai_provider(self.ai_provider)
-        contexts = _freeze_ollama_limits(self.ollama_num_ctx_by_model, "OLLAMA_NUM_CTX_BY_MODEL")
-        outputs = _freeze_ollama_limits(
-            self.ollama_max_output_tokens_by_model, "OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL"
-        )
-        for model, context in contexts.items():
-            if outputs.get(model, self.ai_max_output_tokens) >= context:
+        outputs = _freeze_ollama_output_limits(self.ollama_max_output_tokens_by_model)
+        for model, spec in REPORT_MODELS.items():
+            if (
+                spec.provider == "ollama"
+                and spec.context_tokens is not None
+                and outputs.get(model, self.ai_max_output_tokens) >= spec.context_tokens
+            ):
                 raise ValueError("Ollama output token limit must be smaller than its context")
-        object.__setattr__(self, "ollama_num_ctx_by_model", contexts)
         object.__setattr__(self, "ollama_max_output_tokens_by_model", outputs)
         for name in ("ai_stream", "log_fragment_text", "log_ai_response_text", "cookie_secure"):
             if not isinstance(getattr(self, name), bool):

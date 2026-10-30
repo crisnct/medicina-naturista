@@ -6331,6 +6331,222 @@
       "last_seen": "2026-10-30T06:11:41.590Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of recommendations.py",
+      "file": "src/backend/reporting/recommendations.py",
+      "root_cause": "16 lines replaced/restructured",
+      "fix": "Rewrote 22→14 lines (16 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-353",
+      "timestamp": "2026-10-30T11:29:47.545Z",
+      "last_seen": "2026-10-30T11:29:47.545Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: rank_pdf_recommendations should be attach_herb_benefit_counts",
+      "file": "src/backend/reporting/pdf.py",
+      "root_cause": "Used \"rank_pdf_recommendations\" instead of \"attach_herb_benefit_counts\"",
+      "fix": "Changed rank_pdf_recommendations → attach_herb_benefit_counts",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-354",
+      "timestamp": "2026-10-30T11:29:49.336Z",
+      "last_seen": "2026-10-30T11:29:57.214Z",
+      "occurrences": 2,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: rank_pdf_recommendations should be attach_herb_benefit_counts",
+      "file": "src/tests/unit/web/test_web.py",
+      "root_cause": "Used \"rank_pdf_recommendations\" instead of \"attach_herb_benefit_counts\"",
+      "fix": "Changed rank_pdf_recommendations → attach_herb_benefit_counts",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-355",
+      "timestamp": "2026-10-30T11:30:00.024Z",
+      "last_seen": "2026-10-30T11:30:00.024Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/unit/web/test_web.py",
+      "root_cause": "Had \"1 - a.md:1-2\"",
+      "fix": "Changed to \"1 - b.md:1-2\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-356",
+      "timestamp": "2026-10-30T11:31:23.982Z",
+      "last_seen": "2026-10-30T11:31:23.982Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of pdf.py",
+      "file": "src/backend/reporting/pdf.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 4→13 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-357",
+      "timestamp": "2026-10-30T11:35:00.984Z",
+      "last_seen": "2026-10-30T11:35:00.984Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of pdf.py",
+      "file": "src/backend/reporting/pdf.py",
+      "root_cause": "20 lines replaced/restructured",
+      "fix": "Rewrote 39→51 lines (20 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-358",
+      "timestamp": "2026-10-30T12:02:59.867Z",
+      "last_seen": "2026-10-30T12:02:59.867Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: bytes should be product_fragments",
+      "file": "src/backend/reporting/pdf.py",
+      "root_cause": "Used \"bytes\" instead of \"product_fragments\"",
+      "fix": "Changed bytes → product_fragments",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-359",
+      "timestamp": "2026-10-30T12:03:01.958Z",
+      "last_seen": "2026-10-30T12:03:01.958Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/unit/web/test_web.py",
+      "root_cause": "Had \"Fara filtru: x\"",
+      "fix": "Changed to \"Doar slab: x\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-360",
+      "timestamp": "2026-10-30T12:03:51.869Z",
+      "last_seen": "2026-10-30T12:03:51.869Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of pdf.py",
+      "file": "src/backend/reporting/pdf.py",
+      "root_cause": "7 lines replaced/restructured",
+      "fix": "Rewrote 11→25 lines (7 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-361",
+      "timestamp": "2026-10-30T12:39:32.004Z",
+      "last_seen": "2026-10-30T12:39:32.004Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_web.py",
+      "file": "src/tests/unit/web/test_web.py",
+      "root_cause": "7 lines replaced/restructured",
+      "fix": "Rewrote 10→16 lines (7 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-362",
+      "timestamp": "2026-10-30T12:39:48.115Z",
+      "last_seen": "2026-10-30T12:39:48.115Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of config.py",
+      "file": "src/backend/config.py",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 8→5 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-363",
+      "timestamp": "2026-10-30T15:29:13.044Z",
+      "last_seen": "2026-10-30T15:29:13.044Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in _freeze_ollama_output_limits()",
+      "file": "src/backend/config.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-364",
+      "timestamp": "2026-10-30T15:41:43.284Z",
+      "last_seen": "2026-10-30T15:41:43.284Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -6696,7 +6912,20 @@
     "a3c080d4-2370-4ba9-9ffa-b1768465755d": true,
     "8c770538-4c4f-42bc-a7e3-64aeb5608f94": true,
     "8720705f-fa68-4f31-8dc0-310105ed4b41": true,
-    "28388048-0a80-4a6a-abc4-33690914d8ed": true
+    "28388048-0a80-4a6a-abc4-33690914d8ed": true,
+    "59fdc6fa-1be7-490c-b216-20e4b026dcd2": true,
+    "b94f5b09-f29b-4f1c-a02c-c7be384a06b1": true,
+    "7ace9573-8d0e-412b-b76e-642012555d8e": true,
+    "4b43125b-0ea6-4285-a1b7-3eca9f2a26f1": true,
+    "f115e3cf-d653-4238-bf35-2eb6d90bcb22": true,
+    "ef25379e-06e0-49c2-ba7d-5e945c524e77": true,
+    "d17cc418-481f-4d25-aaba-2933d3b95b3d": true,
+    "2d4bc639-ae0e-456e-ac57-8e590fc9957e": true,
+    "49a88545-b865-4c83-8f33-3df3f9fcea65": true,
+    "afdfc6fc-021e-4d1d-8bbd-c8c73bc071eb": true,
+    "35999e2b-d78c-4b69-902f-6f3835b29d62": true,
+    "06910f7f-40ad-49e0-9e9a-47be8be019aa": true,
+    "0a1a4307-1e6c-4f84-bec1-cd27e4670ccd": true
   },
-  "next_id": 353
+  "next_id": 365
 }

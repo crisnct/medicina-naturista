@@ -128,7 +128,7 @@ def provider_config(settings: Settings) -> ProviderConfig:
     repeat_penalty = None
     repeat_last_n = None
     if choice is not None:
-        context_tokens = settings.ollama_num_ctx_by_model.get(choice)
+        context_tokens = REPORT_MODELS[choice].context_tokens
         common["max_output_tokens"] = settings.ollama_max_output_tokens_by_model.get(
             choice, common["max_output_tokens"]
         )
