@@ -8,6 +8,7 @@ from pathlib import Path
 from typing import TYPE_CHECKING, Literal, NotRequired, Protocol, TypedDict
 
 from backend.core.herb_categories import HerbCategory
+from backend.core.language import Language
 from backend.core.report_models import ReportModel as ReportModel
 
 if TYPE_CHECKING:
@@ -32,6 +33,7 @@ class IdentifiedCondition(TypedDict):
 
 
 class ProfilePayload(TypedDict):
+    language: NotRequired[Language]
     health_problem: str
     health_context: list[str]
     transcript: list[TranscriptEntry]
@@ -39,6 +41,7 @@ class ProfilePayload(TypedDict):
 
 
 class EvidenceItem(TypedDict):
+    language: NotRequired[Language]
     source: str
     text: str
     score: NotRequired[float]
@@ -136,6 +139,7 @@ LookupHerbImage = Callable[[int], Path | None]
 
 
 class HerbEvidenceReference(TypedDict):
+    language: NotRequired[Language]
     herbId: int
     positiveRunId: str
     conditionIds: list[int]
@@ -187,6 +191,7 @@ class LookupHerbEvidence(Protocol):
 
 
 class HerbSafetyReference(TypedDict):
+    language: NotRequired[Language]
     herbId: int
     safetyRunId: str
 

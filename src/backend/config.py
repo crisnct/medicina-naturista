@@ -155,7 +155,8 @@ def _ai_provider(value: str = "xai") -> str:
 
 @dataclass(frozen=True)
 class Settings:
-    documents_dir: Path = CORPUS_DATA_DIR / "documents"
+    documents_dir: Path = CORPUS_DATA_DIR / "documents" / "ro"
+    documents_en_dir: Path = CORPUS_DATA_DIR / "documents" / "en"
     herb_images_dir: Path = CORPUS_DATA_DIR / "images"
     model_cache_dir: Path = ROOT / "model_cache"
     # Threads of the ONNX embedding model. Few threads beat all cores on hybrid
@@ -299,7 +300,10 @@ class Settings:
         report_model = report_models[0]
         report_spec = REPORT_MODELS[report_model]
         return cls(
-            documents_dir=Path(env.get("DOCUMENTS_DIR", str(CORPUS_DATA_DIR / "documents"))),
+            documents_dir=Path(env.get("DOCUMENTS_DIR", str(CORPUS_DATA_DIR / "documents" / "ro"))),
+            documents_en_dir=Path(
+                env.get("DOCUMENTS_EN_DIR", str(CORPUS_DATA_DIR / "documents" / "en"))
+            ),
             herb_images_dir=Path(env.get("HERB_IMAGES_DIR", str(CORPUS_DATA_DIR / "images"))),
             model_cache_dir=Path(env.get("MODEL_CACHE_DIR", str(ROOT / "model_cache"))),
             embedding_threads=_int("EMBEDDING_THREADS", min(8, os.cpu_count() or 8), env=env),
@@ -569,6 +573,7 @@ class Settings:
             raise ValueError("database_url has an invalid port") from None
         for name in (
             "documents_dir",
+            "documents_en_dir",
             "herb_images_dir",
             "model_cache_dir",
             "frontend_dist_dir",

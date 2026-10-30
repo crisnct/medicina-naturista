@@ -42,11 +42,14 @@ export default defineConfig(({ command, mode }) => {
         });
         if (!response.ok) throw new Error(`Text catalog HTTP ${response.status}`);
         const texts = await response.json() as Record<string, string>;
+        const englishResponse = await fetch(new URL(`${base}api/texts?language=en`, backend.origin), { headers: { "ngrok-skip-browser-warning": "true" }, signal: AbortSignal.timeout(10000) });
+        if (!englishResponse.ok) throw new Error(`English text catalog HTTP ${englishResponse.status}`);
+        const englishTexts = await englishResponse.json() as Record<string, string>;
         const escapeHtml = (value: string) => value.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;");
         const replacements: Record<string, string> = {
           __APP_TITLE__: escapeHtml(texts["interface.page_title"]),
           __APP_DESCRIPTION__: escapeHtml(texts["interface.page_description"]),
-          __APP_TEXTS__: JSON.stringify(texts).replace(/</g, "\\u003c").replace(/>/g, "\\u003e").replace(/&/g, "\\u0026").replace(/\u2028/g, "\\u2028").replace(/\u2029/g, "\\u2029"),
+          __APP_TEXTS__: JSON.stringify({ ro: texts, en: englishTexts }).replace(/</g, "\\u003c").replace(/>/g, "\\u003e").replace(/&/g, "\\u0026").replace(/\u2028/g, "\\u2028").replace(/\u2029/g, "\\u2029"),
         };
         return html.replace(/__APP_(?:TITLE|DESCRIPTION|TEXTS)__/g, (marker) => replacements[marker]);
       },
@@ -58,7 +61,7 @@ export default defineConfig(({ command, mode }) => {
       },
     }],
     define: mode === "test" ? {
-      __APP_TEST_TEXTS__: execFileSync(process.env.PYTHON ?? (process.platform === "win32" ? "python" : "python3"), ["src/scripts/manage_texts.py", "--public-json"], {
+      __APP_TEST_TEXTS__: execFileSync(process.env.PYTHON ?? (process.platform === "win32" ? "python" : "python3"), ["src/scripts/manage_texts.py", "--all-public-json"], {
         cwd: fileURLToPath(new URL("../..", import.meta.url)),
         encoding: "utf8",
         env: { ...process.env, PYTHONUTF8: "1", PYTHONPATH: "src" },

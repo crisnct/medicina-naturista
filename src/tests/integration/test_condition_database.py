@@ -37,7 +37,7 @@ from tests.support.conditions import replace_catalog
 from tests.support.postgres import PostgresFixture
 
 fixture = PostgresFixture()
-INITIAL_FINGERPRINT = "0e4a2757d4c38f432372440d9574b59faa9a61f1f8ce75c73c231d7a9a254e33"
+INITIAL_FINGERPRINT = "c9a7c2b69ceae64d8da26da3e8d23e42f6c6f6b7a962f41feda7fcd2c6582589"
 
 
 def setUpModule():
@@ -95,6 +95,7 @@ class ConditionDatabaseTests(unittest.TestCase):
                 ("medical_condition_synonyms", "synonym"),
                 ("medical_conditions", "id"),
                 ("medical_conditions", "name"),
+                ("medical_conditions", "en"),
             ],
         )
 
@@ -144,7 +145,7 @@ class ConditionDatabaseTests(unittest.TestCase):
                     connection.execute("SELECT count(*) FROM herbs").fetchone()[0], 1585
                 )
                 self.assertEqual(
-                    connection.execute("SELECT count(*) FROM herb_aliases").fetchone()[0], 3136
+                    connection.execute("SELECT count(*) FROM herb_aliases").fetchone()[0], 3319
                 )
                 self.assert_two_table_schema(connection)
             return original(*args, **kwargs)
@@ -180,8 +181,10 @@ class ConditionDatabaseTests(unittest.TestCase):
         folder = Path(self.tmp.name) / "migrations"
         shutil.copytree(migration.MIGRATIONS, folder)
         additions = [
-            make_condition("ABCES", ["should not replace"]),
-            make_condition("Boala testului", ["Măr's syndrome", "test disease"]),
+            make_condition("ABCES", ["should not replace"], english="Abscess"),
+            make_condition(
+                "Boala testului", ["Măr's syndrome", "test disease"], english="Test disease"
+            ),
         ]
         (folder / "008_test_additions.sql").write_text(additions_sql(additions), encoding="utf-8")
         self.expected_conditions = 6286
@@ -218,7 +221,9 @@ class ConditionDatabaseTests(unittest.TestCase):
         with psycopg.connect(self.url) as connection:
             items = read_conditions(connection)
             self.assertEqual(len(items), 6285)
-            self.assertEqual(items[0], make_condition("Abces", ["existing-only"]))
+            self.assertEqual(
+                items[0], make_condition("Abces", ["existing-only"], english="abscess")
+            )
 
     def test_failed_sql_rolls_back_data_and_ledger(self):
         ensure_database(self.url)
@@ -226,7 +231,9 @@ class ConditionDatabaseTests(unittest.TestCase):
         folder = Path(self.tmp.name) / "migrations"
         shutil.copytree(migration.MIGRATIONS, folder)
         (folder / "008_broken.sql").write_text(
-            additions_sql([make_condition("Test rollback")]) + "SELECT 1 / 0;", encoding="utf-8"
+            additions_sql([make_condition("Test rollback", english="Test rollback")])
+            + "SELECT 1 / 0;",
+            encoding="utf-8",
         )
         with psycopg.connect(self.url) as connection:
             before = read_conditions(connection)
@@ -324,7 +331,10 @@ class ConditionDatabaseTests(unittest.TestCase):
             )
             self.assertEqual(
                 read_conditions(connection),
-                (make_condition("Single disease"), make_condition("Other disease", ["alias"])),
+                (
+                    make_condition("Single disease", english="Single disease"),
+                    make_condition("Other disease", ["alias"], english="Other disease"),
+                ),
             )
             connection.execute("DELETE FROM medical_conditions WHERE name='Other disease'")
             self.assertEqual(

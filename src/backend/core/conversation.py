@@ -222,7 +222,7 @@ def condition_identified_message(
             if by_ai
             else tr("conversation.condition_identified")
         )
-        line = f"✅ {label}: **{condition.name}**."
+        line = f"✅ {label}: **{condition.display_name}**."
         if signals.lexical and condition.name in whole and len(condition.terms) > 1:
             line += tr(
                 "conversation.condition_aliases",
@@ -315,6 +315,7 @@ class ConversationService:
             if operation.kind == "generate"
             else None,
             report_batch=batch_progress if operation.kind == "generate" else None,
+            language=operation.snapshot.language,
         )
 
     def close(self, cookie_id: str, tab_id: str) -> dict[str, Any]:
@@ -383,9 +384,10 @@ class ConversationService:
         try:
             snapshot = operation.snapshot
             fingerprint = hashlib.sha256(
-                json.dumps([message, sorted(categories), signals.code], ensure_ascii=False).encode(
-                    "utf-8"
-                )
+                json.dumps(
+                    [message, sorted(categories), signals.code, snapshot.language],
+                    ensure_ascii=False,
+                ).encode("utf-8")
             ).hexdigest()
             receipt = snapshot.message_receipts.get(request_id or "")
             if receipt is not None:

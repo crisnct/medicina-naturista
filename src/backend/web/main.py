@@ -42,6 +42,8 @@ from backend.core.conversation import (
     welcome,
 )
 from backend.core.errors import ApplicationError, OperationCancelled
+from backend.core.herb_categories import category_labels
+from backend.core.language import LANGUAGES, current_language, language_scope, validate_language
 from backend.core.models import (
     CommitChange,
     OperationResult,
@@ -90,11 +92,24 @@ def application_texts() -> JSONResponse:
 
 # Serialize one category node (and, recursively, its children) into the plain
 # JSON shape the frontend's category tree component consumes.
+def localized_source_label(label: str) -> str:
+    known = {
+        "ro": {"Safe": "Sigure", "Partial Safe": "Parțial sigure", "Unknown": "Necunoscute"},
+        "en": {
+            "Sigure": "Safe",
+            "Parțial sigure": "Partially safe",
+            "Necunoscute": "Unknown",
+            "Partial Safe": "Partially safe",
+        },
+    }
+    return known[current_language()].get(label, category_labels().get(label, label))
+
+
 def _category_node_payload(tree, node_id: str) -> dict:
     node = tree.nodes[node_id]
     return {
         "id": node.id,
-        "label": node.label,
+        "label": localized_source_label(node.label),
         "ownDocuments": node.own_documents,
         "totalDocuments": node.total_documents,
         "isReal": node.own_documents > 0,
@@ -162,6 +177,7 @@ class ReportBatchPreviewResponse(BaseModel):
 
 
 class GenerateResponse(BaseModel):
+    language: Literal["ro", "en"] = "ro"
     jobId: str
     searchId: str
     state: Literal["accepted", "running", "succeeded", "failed", "cancelled", "timed_out"]
@@ -216,6 +232,13 @@ def _current(request: Request, create: bool = False) -> SessionData:
     if session is None:
         raise ApplicationError("SESSION_EXPIRED", tr("errors.session_expired"))
     return session
+
+
+@router.post("/api/language")
+def change_language(request: Request):
+    session = _current(request)
+    _deps(request).store.set_language(session, current_language())
+    return {"language": current_language()}
 
 
 def _client_ip(request: Request) -> str:
@@ -280,14 +303,20 @@ def readyz(request: Request):
 
 @router.get("/api/startup")
 def startup_status(request: Request):
-    return request.app.state.startup_status
+    status = dict(request.app.state.startup_status)
+    if status.get("message"):
+        for key, value in catalog("ro").items():
+            if value == status["message"]:
+                status["message"] = tr(key)
+                break
+    return status
 
 
 def _require_initialized(request: Request) -> None:
     if request.app.state.startup_status["status"] == "initializing":
         raise ApplicationError(
             "APP_INITIALIZING",
-            request.app.state.startup_status["message"],
+            tr("errors.startup_initializing"),
             503,
             retry_after=2,
         )
@@ -305,6 +334,7 @@ def download(tab_id: str, report_id: str, request: Request):
         media_type="application/pdf",
         headers={
             "Content-Disposition": f"attachment; filename*=UTF-8''{quote(report.filename, safe='')}",
+            "Content-Language": report.language,
             "Cache-Control": "no-store",
         },
     )
@@ -405,7 +435,10 @@ def get_herb_evidence(
     try:
         with operation_budget(
             OperationBudget(
-                operation.deadline, deps.store.clock, lambda: deps.store.checkpoint(operation)
+                operation.deadline,
+                deps.store.clock,
+                lambda: deps.store.checkpoint(operation),
+                language=reference.get("language", "ro"),
             )
         ):
             lookup = deps.herb_evidence or partial(lookup_herb_evidence, settings=deps.settings)
@@ -450,7 +483,10 @@ def _herb_safety_response(
     try:
         with operation_budget(
             OperationBudget(
-                operation.deadline, deps.store.clock, lambda: deps.store.checkpoint(operation)
+                operation.deadline,
+                deps.store.clock,
+                lambda: deps.store.checkpoint(operation),
+                language=reference.get("language", "ro"),
             )
         ):
             result: HerbSafetyPage | HerbSafetyEvidencePage
@@ -931,7 +967,8 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
         session_store = auth = classifier = None
         report_clients: dict[ReportModel, AIProtocol] = {}
         try:
-            catalog()
+            for language in LANGUAGES:
+                catalog(language)
             if owned:
                 application.state.startup_status = {
                     "status": "initializing",
@@ -1154,6 +1191,27 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
         ApiBodyLimitMiddleware,
         limit=lambda: application.state.dependencies.settings.max_api_body_bytes,
     )
+
+    @application.middleware("http")
+    async def request_language(request: Request, call_next):
+        raw = request.headers.get("x-app-language") or request.query_params.get("language", "ro")
+        try:
+            language = validate_language(raw)
+        except ValueError:
+            return JSONResponse(
+                {
+                    "detail": {
+                        "code": "INVALID_LANGUAGE",
+                        "message": tr("errors.request_invalid", language="ro"),
+                    }
+                },
+                status_code=422,
+            )
+        with language_scope(language):
+            response = await call_next(request)
+            response.headers.setdefault("Content-Language", language)
+            return response
+
     application.include_router(router)
     return application
 

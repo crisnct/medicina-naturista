@@ -30,6 +30,7 @@ from backend.ai.herb_safety_validation import COMBINED_PATH, warning_schema
 from backend.ai.herb_safety_validation import PROMPT_PATH as SAFETY_PROMPT_PATH
 from backend.ai.providers import ProviderConfig
 from backend.config import Settings
+from backend.core.language import current_language, read_prompt
 from backend.core.operation_context import checkpoint, remaining_timeout
 
 PROMPT_PATH = Path(__file__).parent / "prompts" / "herb_association_classification_system.md"
@@ -47,7 +48,7 @@ def classification_prompt(*, include_warnings: bool = False) -> str:
             TRANSPORT_PATH,
         )
     )
-    return "\n\n".join(path.read_text(encoding="utf-8").strip() for path in paths)
+    return "\n\n".join(read_prompt(path) for path in paths)
 
 
 # Every mention remains available for final coverage, although inference owns one relation.
@@ -255,9 +256,10 @@ class AssociationClient(OllamaReportClient):
 def semantic_config(settings: Settings) -> dict[str, Any]:
     return {
         "rules": RULES_VERSION,
+        "language": current_language(),
         "schema": SCHEMA_VERSION,
-        "prompt": content_hash(PROMPT_PATH.read_text(encoding="utf-8").strip()),
-        "transport": content_hash(TRANSPORT_PATH.read_text(encoding="utf-8").strip()),
+        "prompt": content_hash(read_prompt(PROMPT_PATH)),
+        "transport": content_hash(read_prompt(TRANSPORT_PATH)),
         "transport_policy": content_hash(Path(__file__).read_text(encoding="utf-8")),
         "rules_policy": content_hash(
             Path(__file__).with_name("herb_association_rules.py").read_text(encoding="utf-8")

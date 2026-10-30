@@ -1,6 +1,7 @@
 """Catalog cache isolation, semantic hashing and structured failure handling."""
 
 from concurrent.futures import ThreadPoolExecutor
+from dataclasses import replace
 from threading import Barrier
 from types import SimpleNamespace
 from unittest import TestCase
@@ -56,13 +57,16 @@ class CatalogTests(TestCase):
 
     def test_reading_two_tables_adds_the_canonical_name_in_python(self):
         self.connection.execute.return_value.fetchall.return_value = [
-            (7, "Gută", "gout"),
-            (7, "Gută", "podagra"),
-            (12, "Gripa", None),
+            (7, "Gută", "Gout", "gout"),
+            (7, "Gută", "Gout", "podagra"),
+            (12, "Gripa", "Flu", None),
         ]
         self.assertEqual(
             repository.read_conditions(self.connection),
-            (make_condition("Gută", ["gout", "podagra"]), make_condition("Gripa")),
+            (
+                replace(make_condition("Gută", ["gout", "podagra"]), english="Gout"),
+                replace(make_condition("Gripa"), english="Flu"),
+            ),
         )
 
     def test_fingerprint_includes_term_order_but_excludes_database_ids(self):

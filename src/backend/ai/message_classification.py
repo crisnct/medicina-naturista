@@ -26,6 +26,7 @@ from backend.core.herb_categories import (
     HerbCategory,
     TopClarification,
 )
+from backend.core.language import current_language, read_prompt
 
 logger = logging.getLogger("naturist.classification")
 MessageIntent = Literal["remedii", "planta", "diverse", "email_raport", "top_plante"]
@@ -79,13 +80,21 @@ class MessageClassification(BaseModel):
 def explicit_remedy_request(message: str) -> MessageClassification | None:
     """A single explicit remedy request already supplies its intent and subject."""
     normalized = _normalize(message)
+    if current_language() == "en":
+        if normalized in {"remedies", "natural remedies", "treatments", "natural treatments"}:
+            return MessageClassification(intent="remedii", needs_clarification=True)
+        if re.fullmatch(
+            r"(?:(?:please|find|show me|give me|i want) )?(?:natural |herbal )?(?:remedies|treatments)(?: for| against) .+",
+            normalized,
+        ) and not re.search(r"\b(email|report|top|do not)\b|@", normalized):
+            return MessageClassification(intent="remedii")
     if normalized in {"remedii", "remedii naturale", "remedii naturiste", "tratamente naturiste"}:
         return MessageClassification(intent="remedii", needs_clarification=True)
     match = re.fullmatch(
         r"(?:(?:te|va) rog )?"
         r"(?:(?:cauta|caut|vreau|doresc|as vrea|da mi|recomanda mi|arata mi|gaseste mi|gaseste) )?"
         r"(?:remedii(?:le)?|tratamente(?:le)?)(?: (?:naturale|naturiste))? "
-        r"(?:pentru|contra|impotriva) (.+)",
+        r"(?:for|against|pentru|contra|impotriva) (.+)",
         normalized,
     )
     if match is None:
@@ -157,7 +166,9 @@ def _condition_herb_top(message: str, context: dict[str, object]) -> MessageClas
         r"\b(email|mail|raport|nu|compara|trimite)\b|@", normalized
     ):
         return None
-    parts = re.split(r"\b(?:pentru|contra|[iî]mpotriva)\b", message, maxsplit=1, flags=re.I)
+    parts = re.split(
+        r"\b(?:for|against|pentru|contra|[iî]mpotriva)\b", message, maxsplit=1, flags=re.I
+    )
     if len(parts) == 2:
         base = explicit_herb_top(parts[0].strip(), {}, for_condition=True)
         if base is not None:
@@ -286,7 +297,7 @@ def explicit_herb_top(
             return _top_decision(count if type(count) is int else None, None)
     match = re.fullmatch(
         r"(?:(?:te|va) rog )?(?:(?:da mi|arata mi|vreau|doresc|as vrea) )?"
-        r"(?:(?:top(?:ul)?|primele)\b|(?:care sunt )?cele mai (?:utile|recomandate|bune|folosite))"
+        r"(?:(?:top(?:ul)?|best|primele)\b|(?:care sunt )?cele mai (?:utile|recomandate|bune|folosite))"
         r"(?:\s+([+-]?\d+(?:[.,]\d+)?))?(?:\s+(.*))?",
         normalized,
     )
@@ -316,7 +327,11 @@ def explicit_herb_top(
             unknown=not for_condition and domain in {"produse naturiste", "produsele naturiste"},
         )
     categories = _top_categories(domain)
-    if len(categories) > 1 or not categories and not re.match(r"plante(?:le)?\b", domain):
+    if (
+        len(categories) > 1
+        or not categories
+        and not re.match(r"(?:herbs|plants|natural products|plante(?:le)?)\b", domain)
+    ):
         return _top_decision(count, None, unknown=True)
     if len(categories) == 1:
         category = next(iter(categories))
@@ -371,6 +386,13 @@ def explicit_herb_request(message: str, catalog: HerbCatalog) -> MessageClassifi
     if bare is not None:
         return bare
     normalized = _normalize(message)
+    if current_language() == "en":
+        english = re.fullmatch(
+            r"(?:please )?(?:tell me (?:everything you know )?about|information about|about|what (?:is|are)) (.+?)(?: useful for| good for)?",
+            normalized,
+        )
+        if english is not None:
+            return decision(english[1])
     match = re.fullmatch(
         r"(?:(?:te|va) rog )?"
         r"(?:(?:spune mi(?: tot ce stii)?|ce (?:stii|imi poti spune)|"
@@ -389,7 +411,7 @@ def _semantic_condition_top(raw: dict[str, object], message: str) -> MessageClas
     validated = MessageClassification.model_validate(raw)
     condition = validated.top_condition
     # Category words and digits inside the disease name are never ranking parameters.
-    parts = re.split(r"\b(?:pentru|contra|impotriva)\b", plain(message), maxsplit=1)
+    parts = re.split(r"\b(?:for|against|pentru|contra|impotriva)\b", plain(message), maxsplit=1)
     header = parts[0]
     if len(parts) == 2:
         condition = _normalize(parts[1]) or None
@@ -418,7 +440,8 @@ def _semantic_condition_top(raw: dict[str, object], message: str) -> MessageClas
             validated.top_category is not None
             or validated.top_clarification == "category"
             or not re.search(
-                r"\b(plante|produse(?:le)? naturiste|general|toate categoriile)\b", header
+                r"\b(herbs|plants|natural products|all categories|plante|produse(?:le)? naturiste|general|toate categoriile)\b",
+                header,
             )
         ),
         condition=condition,
@@ -432,7 +455,8 @@ class MessageClassifier:
     ) -> None:
         self.settings = settings
         self.herb_catalog = herb_catalog
-        self.prompt = PROMPT.read_text(encoding="utf-8").strip()
+        self.prompt = read_prompt(PROMPT, "ro")
+        self.english_prompt = read_prompt(PROMPT, "en")
         # Native Ollama requests support an explicit residency timeout without an extra request.
         self.client = OllamaReportClient(
             ProviderConfig(
@@ -564,7 +588,7 @@ class MessageClassifier:
                 return named_request
             context = {**context, "recognized_herbs": candidates[:10]}
             raw = self.client.complete_json(
-                self.prompt,
+                self.english_prompt if current_language() == "en" else self.prompt,
                 json.dumps({"message": message, "context": context}, ensure_ascii=False),
                 self.settings.message_classification_max_output_tokens,
             )

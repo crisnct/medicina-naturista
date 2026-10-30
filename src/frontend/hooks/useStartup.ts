@@ -1,10 +1,11 @@
-import { tr } from "../lib/texts";
+import { tr, useLanguage } from "../lib/texts";
 import { useQuery } from "@tanstack/react-query";
 import { api } from "../api/client";
 
 export function useStartup() {
+  const language = useLanguage();
   const query = useQuery({
-    queryKey: ["startup"],
+    queryKey: ["startup", language],
     queryFn: api.getStartup,
     retry: false,
     refetchInterval: (current) => current.state.error || current.state.data?.status === "initializing" ? 1000 : false,

@@ -14,6 +14,7 @@ from pathlib import Path
 from backend.ai.conditions import load_dictionary
 from backend.ai.fragmenter import BusinessCategory, fragment_document
 from backend.config import settings
+from backend.core.language import language_scope, validate_language
 
 # Fragments longer than this are listed as "large" (no size limit applies to R1/R2).
 LARGE_FRAGMENT_CHARS = 50_000
@@ -39,11 +40,20 @@ def main() -> None:
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source", type=Path, default=settings.documents_dir)
+    parser.add_argument("--source", type=Path)
+    parser.add_argument("--language", choices=("ro", "en"), default="ro")
     parser.add_argument(
         "--top", type=int, default=10, help="how many of the largest fragments to list"
     )
     args = parser.parse_args()
+    args.source = args.source or (
+        settings.documents_en_dir if args.language == "en" else settings.documents_dir
+    )
+    with language_scope(validate_language(args.language)):
+        _report(args)
+
+
+def _report(args: argparse.Namespace) -> None:
 
     dictionary = load_dictionary()
     sizes: dict[BusinessCategory, list[int]] = {category: [] for category in BusinessCategory}

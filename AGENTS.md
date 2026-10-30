@@ -84,8 +84,10 @@ PYTHONPATH=src .venv/Scripts/python.exe -m ruff check src && .venv/Scripts/pytho
 `#` comment — module docstrings are one or two lines stating the module's contract and its
 invariants. Match that: terse, intent-bearing, no restating of the signature.
 
-**User-facing strings are Romanian.** Error messages returned to the browser, chat text, PDF
-labels. Code identifiers, comments and logs are English. Keep the split.
+**User-facing strings follow the selected language (`ro` or `en`).** Browser errors, chat text,
+PDF labels and email use the operation language; historical results retain their language.
+Keep matching keys/parameters in texts.ro.toml and texts.en.toml. Code identifiers, comments
+and logs are English.
 
 **Typing.** `from __future__ import annotations` everywhere. `src/backend/core/contracts.py` holds
 the Protocols/TypedDicts that keep `core` independent of FastAPI, psycopg and the frontend.

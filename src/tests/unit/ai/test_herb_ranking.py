@@ -8,6 +8,8 @@ from backend.ai import herb_display
 from backend.ai.herb_display import romanian_herb_name
 from backend.ai.herb_ranking import list_top_herbs
 from backend.ai.index_state import IndexUnavailable
+from backend.core.herb_agreement import herb_agreement
+from backend.core.language import language_scope
 
 
 @pytest.mark.parametrize(
@@ -44,6 +46,14 @@ def test_bundled_dictionary_restores_inflected_words_and_keeps_ambiguity():
     assert romanian_herb_name("musetel") == "mușețel"
     assert romanian_herb_name("par") == "par"
     assert romanian_herb_name("in") == "in"
+    romanian_gender = herb_agreement("soc")
+    with language_scope("en"):
+        assert "rosemary" in herb_display._dictionary("en")
+        assert romanian_herb_name("rosemary") == "rosemary"
+        assert romanian_herb_name("musetel") == "musetel"
+        assert romanian_herb_name("par", latin="pyrus communis") == "par"
+        assert herb_agreement("soc") == "feminine"
+    assert herb_agreement("soc") == romanian_gender
 
 
 def test_dictionary_missing_keeps_names_without_ai(tmp_path):

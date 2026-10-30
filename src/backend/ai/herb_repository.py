@@ -19,6 +19,7 @@ from backend.ai.conditions import _normalize
 from backend.ai.herb_validation import ALIASES, catalog_problems
 from backend.ai.herbs import RUNTIME_FIELDS, Herb, HerbCatalog
 from backend.core.errors import ApplicationError
+from backend.core.language import current_language
 from backend.core.texts import tr
 
 FINGERPRINT_VERSION = 2
@@ -119,7 +120,7 @@ def catalog_snapshot(connection: Connection) -> HerbCatalogSnapshot:
     herbs = read_herbs(connection)
     fingerprint = catalog_fingerprint(herbs)
     info = connection.info
-    key = (info.host, info.port, info.dbname, info.user, fingerprint)
+    key = (info.host, info.port, info.dbname, info.user, fingerprint, current_language())
     with _cache_lock:
         if key in _cache:
             _cache.move_to_end(key)
@@ -137,8 +138,8 @@ def read_herb_benefit_counts(connection: Connection, herb_ids: Sequence[int]) ->
         return {}
     return dict(
         connection.execute(
-            "SELECT herb_id, COUNT(*) FROM herbs_benefits WHERE herb_id = ANY(%s) GROUP BY herb_id",
-            (list(dict.fromkeys(herb_ids)),),
+            "SELECT herb_id, COUNT(*) FROM herbs_benefits WHERE herb_id = ANY(%s) AND language=%s GROUP BY herb_id",
+            (list(dict.fromkeys(herb_ids)), current_language()),
         ).fetchall()
     )
 

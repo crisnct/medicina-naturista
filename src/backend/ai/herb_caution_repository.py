@@ -25,8 +25,8 @@ from backend.ai.herb_caution_projection import (
     local_projection,
 )
 from backend.ai.herb_positive_repository import (
-    ACTIVE_KEY,
     PositiveRepository,
+    active_key,
     active_run,
     snapshot,
 )
@@ -38,6 +38,7 @@ from backend.ai.herb_positive_repository import (
 )
 from backend.config import Settings
 from backend.core.errors import ApplicationError
+from backend.core.language import current_language
 from backend.core.operation_context import checkpoint
 from backend.core.texts import tr
 
@@ -127,7 +128,8 @@ def active_caution_run(
         return None, "not_ready"
     row = connection.execute(
         "SELECT run_id::text,positive_run_id::text,status,manifest,projection_version,"
-        "expected_count,unknown_count,evidence_hash FROM herb_caution_runs WHERE is_active"
+        "expected_count,unknown_count,evidence_hash FROM herb_caution_runs WHERE is_active AND language=%s",
+        (current_language(),),
     ).fetchone()
     if row is None:
         return None, "not_ready"
@@ -222,7 +224,8 @@ class CautionRepository:
                 raise positive_unavailable(True)
             assert_positive_integrity(connection, positive_run_id, source[4], source[5])
             previous = connection.execute(
-                "SELECT run_id::text FROM herb_caution_runs WHERE is_active"
+                "SELECT run_id::text FROM herb_caution_runs WHERE is_active AND language=%s",
+                (current_language(),),
             ).fetchone()
             records = connection.execute(
                 "SELECT e.identity,e.chunk_id,e.herb_id,e.medical_condition_id,e.unit_start,"
@@ -354,21 +357,25 @@ class CautionRepository:
                 if data.active != positive[3]:
                     raise ValueError("POSITIVE_PUBLICATION_CONFLICT")
             current = connection.execute(
-                "SELECT run_id::text FROM herb_caution_runs WHERE is_active"
+                "SELECT run_id::text FROM herb_caution_runs WHERE is_active AND language=%s",
+                (current_language(),),
             ).fetchone()
             current_id = current[0] if current else None
             if current_id == run_id and data.active == row[0]:
                 return
             if current_id != row[4]:
                 raise ValueError("CAUTION_PUBLICATION_CONFLICT")
-            connection.execute("UPDATE herb_caution_runs SET is_active=false WHERE is_active")
+            connection.execute(
+                "UPDATE herb_caution_runs SET is_active=false WHERE is_active AND language=%s",
+                (current_language(),),
+            )
             connection.execute(
                 "UPDATE herb_caution_runs SET is_active=true WHERE run_id=%s", (run_id,)
             )
             if data.active != row[0]:
                 connection.execute(
                     "INSERT INTO sync_metadata(key,value) VALUES(%s,%s) ON CONFLICT(key) DO UPDATE SET value=EXCLUDED.value",
-                    (ACTIVE_KEY, row[0]),
+                    (active_key(), row[0]),
                 )
 
     def active_positive(self, settings: Settings) -> str:

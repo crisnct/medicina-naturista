@@ -16,7 +16,9 @@ from backend.core.texts import public_catalog, script_json, tr
 
 def bootstrap_html(template: str) -> str:
     replacements = {
-        "__APP_TEXTS__": script_json(public_catalog()),
+        "__APP_TEXTS__": script_json(
+            {language: public_catalog(language) for language in ("ro", "en")}
+        ),
         "__APP_TITLE__": escape(tr("interface.page_title"), quote=True),
         "__APP_DESCRIPTION__": escape(tr("interface.page_description"), quote=True),
     }

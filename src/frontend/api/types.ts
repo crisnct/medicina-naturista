@@ -4,6 +4,7 @@
 // docstrings for the authoritative shape.
 
 export interface MessageIdentity {
+  language?: "ro" | "en";
   groupId?: string;
 }
 
@@ -208,6 +209,7 @@ export interface ReportBatchPreview {
 }
 
 export interface ReportGeneration {
+  language?: "ro" | "en";
   jobId: string;
   searchId: string;
   state: "accepted" | "running" | "succeeded" | "failed" | "cancelled" | "timed_out";

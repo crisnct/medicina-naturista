@@ -1,4 +1,4 @@
-import { tr } from "../lib/texts";
+import { locale, tr } from "../lib/texts";
 import { useId, useMemo, useState } from "react";
 import type { FragmentItem, FragmentsMessage } from "../api/types";
 import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
@@ -11,13 +11,13 @@ type ConditionFilter = "all" | "title" | "text" | "none";
 // Where the condition the patient named was found in the fragment (decided per
 // search): in its title, in its text, or in neither.
 const CONDITION_OPTIONS: { value: Exclude<ConditionFilter, "all">; label: string }[] = [
-  { value: "title", label: tr("interface.fragments_in_title") },
-  { value: "text", label: tr("interface.fragments_in_text") },
-  { value: "none", label: tr("interface.fragments_missing") },
+  { value: "title", get label() { return tr("interface.fragments_in_title"); } },
+  { value: "text", get label() { return tr("interface.fragments_in_text"); } },
+  { value: "none", get label() { return tr("interface.fragments_missing"); } },
 ];
 
 // Label of the score line for a fragment's condition match; nothing when it has none.
-const CONDITION_LABELS = { title: tr("interface.fragments_condition_in_title"), text: tr("interface.fragments_condition_in_text") } as const;
+const CONDITION_LABELS = { get title() { return tr("interface.fragments_condition_in_title"); }, get text() { return tr("interface.fragments_condition_in_text"); } } as const;
 
 // Semantic-score thresholds, 0.05 to 0.95 in steps of 0.05 (integer math avoids float drift).
 const SEMANTIC_OPTIONS = Array.from({ length: 19 }, (_, i) => (i + 1) * 0.05).map((value) => Number(value.toFixed(2)));
@@ -80,7 +80,7 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
   // Only the documents behind the fragments still visible after filtering.
   const documents = [...new Set(filtered.map((fragment) => fragment.document))];
   // Characters of the fragment texts currently shown (after filtering).
-  const totalChars = filtered.reduce((sum, fragment) => sum + fragment.text.length, 0).toLocaleString("ro-RO");
+  const totalChars = filtered.reduce((sum, fragment) => sum + fragment.text.length, 0).toLocaleString(locale());
   const filtersActive = minScore > 0 || minSemantic > 0 || condition !== "all" || lexical !== "all" || documentFilter !== "all";
 
   return (

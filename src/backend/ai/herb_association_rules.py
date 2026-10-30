@@ -11,9 +11,10 @@ from functools import lru_cache
 from typing import Literal
 
 from backend.ai.herb_index_catalog import normalize_herb_name
+from backend.core.language import current_language
 
 POSITIVE_RANKING_VERSION = 1
-RULES_VERSION = 7
+RULES_VERSION = 8
 SCHEMA_VERSION = 8
 Label = Literal["positive", "caution", "mixed", "unclear"]
 LABELS = ("positive", "caution", "mixed", "unclear")
@@ -985,6 +986,8 @@ def _identity_decision(unit: Unit, candidate: Candidate) -> Decision | None:
 
 # Lexical identity precedes bounded structural rules; unresolved discourse stays semantic.
 def classify_rule(unit: Unit, candidate: Candidate) -> Decision | None:
+    if current_language() == "en":
+        return None
     identity = _identity_decision(unit, candidate)
     if identity is not None:
         return identity
@@ -1271,6 +1274,8 @@ def _collective_warning(unit: Unit) -> Span | None:
 
 # Only an explicit target/product or verified product-class warning constrains model decisions.
 def scoped_warning(unit: Unit, candidate: Candidate) -> Decision | None:
+    if current_language() == "en":
+        return None
     mentions = candidate.mentions or (candidate.mention,)
     if all(
         any(c.herb_id != candidate.herb_id and c.mention == span for c in unit.candidates)

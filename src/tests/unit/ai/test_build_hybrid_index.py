@@ -1133,7 +1133,7 @@ class ChunkingTests(unittest.TestCase):
             ordering.attach_mock(refresh_rankings, "rankings")
             with patch("sys.argv", ["build_hybrid_index"]):
                 self.assertEqual(builder.main(), 0)
-            self.assertEqual([c[0] for c in ordering.mock_calls], ["index", "rankings"])
+            self.assertEqual([c[0] for c in ordering.mock_calls], ["index", "rankings", "rankings"])
             refresh_rankings.reset_mock()
             with patch("sys.argv", ["build_hybrid_index", "--skip-positive-ranking"]):
                 self.assertEqual(builder.main(), 0)
@@ -1141,7 +1141,7 @@ class ChunkingTests(unittest.TestCase):
             with patch("sys.argv", ["build_hybrid_index", "--rebuild-herbs-only"]):
                 self.assertEqual(builder.main(), 0)
             rebuild_associations.assert_called_once()
-            refresh_rankings.assert_called_once()
+            self.assertEqual(refresh_rankings.call_count, 2)
             refresh_rankings.reset_mock()
             with patch("sys.argv", ["build_hybrid_index", "--prepare-positive-ranking"]):
                 self.assertEqual(builder.main(), 0)
@@ -1206,9 +1206,11 @@ class ChunkingTests(unittest.TestCase):
             SafetyCoordinator,
             batch_progress,
             format_duration,
-            run_safety_index,
             safety_payload,
             workflow_progress,
+        )
+        from scripts.herb_safety_index import (
+            _run_legacy_safety_index as run_safety_index,
         )
 
         safety_text = "Menta poate provoca somnolenta la doze mari; nu se asociaza cu warfarina."
@@ -1330,7 +1332,11 @@ class ChunkingTests(unittest.TestCase):
                 native_calls.append(request)
                 return httpx.Response(200, stream=NativeStream())
 
-            native_client = streaming_client(config)
+            native_client = streaming_client(
+                replace(
+                    config, herb_association_ai_context_tokens=config.herb_safety_ai_context_tokens
+                )
+            )
             native_client.http.close()
             native_client.http = httpx.Client(
                 transport=httpx.MockTransport(native_handler), trust_env=False
@@ -1579,6 +1585,7 @@ class ChunkingTests(unittest.TestCase):
         self.assertEqual(publication_progress["ETA(hh:mm:ss)"], "00:00:00")
 
         from backend.ai.herb_caution_repository import CautionRepository
+        from backend.ai.herb_product_safety_repository import ProductSafetyRepository
 
         empty_repository = Mock(spec=PositiveRepository)
         empty_repository.read_snapshot.return_value = Snapshot(
@@ -1587,6 +1594,10 @@ class ChunkingTests(unittest.TestCase):
         empty_repository.cached.return_value = {}
         empty_repository.create_run.return_value = {"status": "preparing"}
         projection = Mock(spec=CautionRepository)
+        product_repository = Mock(spec=ProductSafetyRepository)
+        product_repository.read_products.return_value = ()
+        product_repository.cached.return_value = {}
+        product_repository.create_run.return_value = "preparing"
         projection_progress = []
 
         def capture_projection(_run_id, _settings):
@@ -1608,7 +1619,7 @@ class ChunkingTests(unittest.TestCase):
                 config,
                 repository=empty_repository,
                 caution_repository=projection,
-                safety_repository=safety_repository,
+                safety_repository=product_repository,
             )
         self.assertEqual(projection_progress[0]["progress_stage"], "caution_preparation")
         self.assertIsNone(projection_progress[0]["ETA(hh:mm:ss)"])

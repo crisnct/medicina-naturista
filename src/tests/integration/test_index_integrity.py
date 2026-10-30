@@ -69,7 +69,8 @@ def test_shared_text_version_rejects_old_index_and_rebuilds_unchanged_source(cor
     sync(source)
     before = snapshot()
     # Both imported modules must use the same source of truth.
-    with patch.object(index_constants, "TEXT_REPR_VERSION", "11"):
+    next_version = str(int(index_constants.TEXT_REPR_VERSION) + 1)
+    with patch.object(index_constants, "TEXT_REPR_VERSION", next_version):
         with pytest.raises(index_state.IndexUnavailable) as error:
             with index_state.index_reader():
                 pass
@@ -77,10 +78,10 @@ def test_shared_text_version_rejects_old_index_and_rebuilds_unchanged_source(cor
 
         sync(source)
         with index_state.index_reader() as (_connection, metadata):
-            assert metadata.text_repr_version == "11"
+            assert metadata.text_repr_version == next_version
         after = snapshot()
         assert after[1][0][0] != before[1][0][0]
-        assert dict(after[2])["text_repr_version"] == "11"
+        assert dict(after[2])["text_repr_version"] == next_version
 
 
 def snapshot():

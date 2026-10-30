@@ -26,6 +26,7 @@ from backend.ai.conditions import Condition, QuerySegment, ResolvedQuery, _norma
 from backend.ai.providers import ProviderConfig
 from backend.config import settings
 from backend.core.contracts import IdentifiedCondition
+from backend.core.language import Language, current_language, read_prompt
 
 logger = logging.getLogger("naturist.condition_ai")
 
@@ -100,9 +101,9 @@ def _client() -> ResponsesClient:
     return _clients[key]
 
 
-@lru_cache(maxsize=1)
-def _system_prompt() -> str:
-    return PROMPT_PATH.read_text(encoding="utf-8").strip()
+@lru_cache(maxsize=2)
+def _system_prompt(language: Language = "ro") -> str:
+    return read_prompt(PROMPT_PATH, language)
 
 
 def _user_message(texts: tuple[str, ...]) -> str:
@@ -163,7 +164,9 @@ def _ask(texts: tuple[str, ...]) -> tuple[IdentifiedCondition, ...]:
 def _ask_client(client: ResponsesClient, texts: tuple[str, ...]) -> tuple[IdentifiedCondition, ...]:
     try:
         raw = client.complete_json(
-            _system_prompt(), _user_message(texts), client.provider.max_output_tokens
+            _system_prompt(current_language()),
+            _user_message(texts),
+            client.provider.max_output_tokens,
         )
         return _validate(raw, len(texts))
     except AIUnavailable as exc:

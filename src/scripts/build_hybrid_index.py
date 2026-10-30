@@ -57,6 +57,13 @@ from backend.ai.index_state import (
     read_metadata,
 )
 from backend.config import settings
+from backend.core.language import (
+    LANGUAGES,
+    Language,
+    current_language,
+    language_scope,
+    validate_language,
+)
 from scripts.bootstrap_database import ensure_database
 from scripts.migrate_database import migrate
 
@@ -82,17 +89,17 @@ _HERBS_AUTOMATON = None
 _HERBS_GATE = None
 _BUILD_STAGE = "preparation"
 HERBS_BENEFITS_DELETE_SQL = (
-    "DELETE FROM herbs_benefits AS current WHERE NOT EXISTS ("
+    "DELETE FROM herbs_benefits AS current WHERE language=%(language)s AND NOT EXISTS ("
     "SELECT 1 FROM herbs_benefits_next AS next WHERE next.herb_id=current.herb_id "
     "AND next.medical_condition_id=current.medical_condition_id)"
 )
 HERBS_BENEFITS_INSERT_SQL = (
-    "WITH existing AS MATERIALIZED (SELECT herb_id, medical_condition_id FROM herbs_benefits) "
-    "INSERT INTO herbs_benefits (herb_id, medical_condition_id) "
-    "SELECT next.herb_id, next.medical_condition_id FROM herbs_benefits_next AS next "
+    "WITH existing AS MATERIALIZED (SELECT herb_id, medical_condition_id FROM herbs_benefits WHERE language=%(language)s) "
+    "INSERT INTO herbs_benefits (herb_id, medical_condition_id, language) "
+    "SELECT next.herb_id, next.medical_condition_id, %(language)s FROM herbs_benefits_next AS next "
     "WHERE NOT EXISTS (SELECT 1 FROM existing AS current "
     "WHERE current.herb_id=next.herb_id AND current.medical_condition_id=next.medical_condition_id) "
-    "ON CONFLICT (herb_id, medical_condition_id) DO NOTHING"
+    "ON CONFLICT (herb_id, medical_condition_id, language) DO NOTHING"
 )
 
 
@@ -432,9 +439,11 @@ def _rebuild_herbs_benefits(
 ) -> HerbsIndexStats:
     """Caller owns connection, INDEX_LOCK, transaction and commit. Workers only scan text."""
     started = time.monotonic()
+    connection.execute("SELECT set_config('app.language',%s,true)", (current_language(),))
     _build_stage("herbs_scan_and_copy")
     total = connection.execute(
-        "SELECT count(*) FROM chunks WHERE cardinality(primary_medical_conditions)>0"
+        "SELECT count(*) FROM chunks WHERE cardinality(primary_medical_conditions)>0 AND language=%s",
+        (current_language(),),
     ).fetchone()[0]
     stats: HerbsIndexStats = dict(
         chunks_read=0,
@@ -528,7 +537,8 @@ def _rebuild_herbs_benefits(
             cursor.itersize = HERBS_FETCH_SIZE
             cursor.execute(
                 "SELECT chunk_id, text, primary_medical_conditions FROM chunks "
-                "WHERE cardinality(primary_medical_conditions)>0"
+                "WHERE cardinality(primary_medical_conditions)>0 AND language=%s",
+                (current_language(),),
             )
             texts: list[str] = []
             masks: list[int] = []
@@ -581,14 +591,19 @@ def _rebuild_herbs_benefits(
     if preserve_existing_ids is not None:
         changed = connection.execute(
             "SELECT EXISTS ("
-            "(SELECT herb_id,medical_condition_id FROM herbs_benefits_next WHERE herb_id=ANY(%s) "
-            "EXCEPT SELECT herb_id,medical_condition_id FROM herbs_benefits) UNION ALL "
-            "(SELECT herb_id,medical_condition_id FROM herbs_benefits EXCEPT "
-            "SELECT herb_id,medical_condition_id FROM herbs_benefits_next)) OR EXISTS ("
+            "(SELECT herb_id,medical_condition_id FROM herbs_benefits_next "
+            "WHERE herb_id=ANY(%(existing_ids)s) EXCEPT "
+            "SELECT herb_id,medical_condition_id FROM herbs_benefits "
+            "WHERE language=%(language)s AND herb_id=ANY(%(existing_ids)s)) UNION ALL "
+            "(SELECT herb_id,medical_condition_id FROM herbs_benefits "
+            "WHERE language=%(language)s AND herb_id=ANY(%(existing_ids)s) EXCEPT "
+            "SELECT herb_id,medical_condition_id FROM herbs_benefits_next)) OR "
+            "(%(language)s='ro' AND EXISTS ("
             "SELECT FROM herbs h LEFT JOIN (SELECT herb_id,count(*) AS n "
             "FROM herbs_benefits_next GROUP BY herb_id) counts ON counts.herb_id=h.id "
-            "WHERE h.id=ANY(%s) AND h.ranking IS DISTINCT FROM coalesce(counts.n,0))",
-            (list(preserve_existing_ids), list(preserve_existing_ids)),
+            "WHERE h.id=ANY(%(existing_ids)s) "
+            "AND h.ranking IS DISTINCT FROM coalesce(counts.n,0)))",
+            {"existing_ids": list(preserve_existing_ids), "language": current_language()},
         ).fetchone()[0]
         if changed:
             raise RuntimeError("HERBS_ONLY_EXISTING_ASSOCIATIONS_CHANGED")
@@ -597,19 +612,24 @@ def _rebuild_herbs_benefits(
     tick = time.monotonic()
     # Accurate target cardinality avoids poor anti-join plans after large changes.
     connection.execute("ANALYZE herbs_benefits")
-    stats["deleted"] = connection.execute(HERBS_BENEFITS_DELETE_SQL).rowcount
+    stats["deleted"] = connection.execute(
+        HERBS_BENEFITS_DELETE_SQL, {"language": current_language()}
+    ).rowcount
     # Freeze the old pair set once, even when the INSERT target starts empty.
-    stats["inserted"] = connection.execute(HERBS_BENEFITS_INSERT_SQL).rowcount
+    stats["inserted"] = connection.execute(
+        HERBS_BENEFITS_INSERT_SQL, {"language": current_language()}
+    ).rowcount
     # Publish the derived ranking with the new associations, including zero counts.
     connection.execute(
         "UPDATE herbs AS h SET ranking = counts.total_conditions FROM ("
         "SELECT herb.id AS herb_id, COUNT(DISTINCT hb.medical_condition_id) AS total_conditions "
-        "FROM herbs AS herb LEFT JOIN herbs_benefits AS hb ON hb.herb_id=herb.id "
+        "FROM herbs AS herb LEFT JOIN herbs_benefits AS hb ON hb.herb_id=herb.id AND hb.language='ro' "
         "GROUP BY herb.id) AS counts "
         "WHERE h.id=counts.herb_id AND h.ranking IS DISTINCT FROM counts.total_conditions"
     )
     stats["publication_seconds"] = time.monotonic() - tick
     stats["elapsed_seconds"] = time.monotonic() - started
+    connection.execute("DROP TABLE IF EXISTS herbs_benefits_raw, herbs_benefits_next")
     return stats
 
 
@@ -678,7 +698,8 @@ def rebuild_herbs_only() -> HerbsIndexStats:
                 executor=executor,
                 preserve_existing_ids=indexed_ids,
             )
-            for key, value in _herbs_metadata(context, stats["row_count"]).items():
+            total_pairs = connection.execute("SELECT count(*) FROM herbs_benefits").fetchone()[0]
+            for key, value in _herbs_metadata(context, total_pairs).items():
                 connection.execute(
                     "INSERT INTO sync_metadata(key,value) VALUES(%s,%s) "
                     "ON CONFLICT(key) DO UPDATE SET value=EXCLUDED.value "
@@ -781,6 +802,7 @@ class SourceFile:
     # The document's category: its containing folder's path relative to the
     # source root (posix-separated), or ROOT_CATEGORY_ID when the file sits
     # directly in the source root.
+    language: Language = "ro"
     category_id: str = ROOT_CATEGORY_ID
 
 
@@ -796,6 +818,7 @@ class Chunk:
     text_sha256: str
     char_count: int
     # Inherited from the source document's category_id (see SourceFile).
+    language: Language = "ro"
     category_id: str = ROOT_CATEGORY_ID
     # Set by ai/fragmenter.py: R1/R2/D1, and the conditions named in the
     # fragment's title / in its text (empty for D1).
@@ -1010,8 +1033,8 @@ def _write_document(
             INSERT INTO chunks
                 (source_relative_path, source_absolute_path, source_sha256, line_start, line_end,
                  heading, text, text_sha256, char_count, embedding, text_search,
-                 business_category, primary_medical_conditions, secondary_medical_conditions)
-            VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, to_tsvector('simple', unaccent(%s)), %s,%s,%s)
+                 business_category, primary_medical_conditions, secondary_medical_conditions, language)
+            VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s, to_tsvector('simple', unaccent(%s)), %s,%s,%s,%s)
             """,
             (
                 chunk.source_relative_path,
@@ -1028,6 +1051,7 @@ def _write_document(
                 chunk.business_category,
                 list(chunk.primary_medical_conditions),
                 list(chunk.secondary_medical_conditions),
+                chunk.language,
             ),
         )
 
@@ -1036,10 +1060,28 @@ def _write_document(
 # stored) are skipped entirely; new/changed files are re-chunked, re-embedded,
 # and published together in one transaction; files removed from source are deleted.
 def build(
-    source: Path, model_name: str, batch_size: int = BATCH_SIZE, *, rebuild_herbs: bool = False
+    source: Path,
+    model_name: str,
+    batch_size: int = BATCH_SIZE,
+    *,
+    rebuild_herbs: bool = False,
+    sources: Mapping[Language, Path] | None = None,
 ) -> None:
     if batch_size <= 0:
         raise ValueError("INVALID_BATCH_SIZE")
+    if sources is not None:
+        resolved_roots = [root.resolve() for root in sources.values()]
+        if any(
+            a == b or a.is_relative_to(b) or b.is_relative_to(a)
+            for i, a in enumerate(resolved_roots)
+            for b in resolved_roots[i + 1 :]
+        ):
+            raise ValueError("OVERLAPPING_CORPUS_ROOTS")
+        for root in resolved_roots:
+            if not root.is_dir() or not any(
+                path.is_file() and path.suffix.casefold() == ".md" for path in root.rglob("*")
+            ):
+                raise FileNotFoundError(f"Missing or empty corpus root: {root}")
     source = source.resolve()
     if not source.is_dir():
         raise FileNotFoundError(f"Source directory does not exist: {source}")
@@ -1066,6 +1108,7 @@ def build(
                 gpu_usage=monitor.percent,
                 connection=connection,
                 rebuild_herbs=rebuild_herbs,
+                sources=sources,
             )
 
 
@@ -1077,9 +1120,23 @@ def _build(
     gpu_usage: Callable[[], str],
     connection,
     rebuild_herbs: bool = False,
+    sources: Mapping[Language, Path] | None = None,
 ) -> None:
     if batch_size <= 0:
         raise ValueError("INVALID_BATCH_SIZE")
+    if sources is not None:
+        resolved_roots = [root.resolve() for root in sources.values()]
+        if any(
+            a == b or a.is_relative_to(b) or b.is_relative_to(a)
+            for i, a in enumerate(resolved_roots)
+            for b in resolved_roots[i + 1 :]
+        ):
+            raise ValueError("OVERLAPPING_CORPUS_ROOTS")
+        for root in resolved_roots:
+            if not root.is_dir() or not any(
+                path.is_file() and path.suffix.casefold() == ".md" for path in root.rglob("*")
+            ):
+                raise FileNotFoundError(f"Missing or empty corpus root: {root}")
     source = source.resolve()
     if not source.is_dir():
         raise FileNotFoundError(f"Source directory does not exist: {source}")
@@ -1092,15 +1149,26 @@ def _build(
     def traversal_error(error):
         raise error
 
-    paths = sorted(
-        (
-            Path(root, name)
-            for root, _directories, names in os.walk(source, onerror=traversal_error)
-            for name in names
-            if name.casefold().endswith(".md")
-        ),
-        key=lambda item: item.relative_to(source).as_posix().casefold(),
-    )
+    roots = {
+        validate_language(lang): root.resolve()
+        for lang, root in (sources or {"ro": source}).items()
+    }
+    origins = {
+        Path(directory, name): (language, root)
+        for language, root in roots.items()
+        for directory, _directories, names in os.walk(root, onerror=traversal_error)
+        for name in names
+        if name.casefold().endswith(".md")
+    }
+    paths = sorted(origins, key=lambda path: (origins[path][0], path.as_posix().casefold()))
+    dictionaries = {}
+    for language in roots:
+        if language == current_language():
+            dictionaries[language] = dictionary
+        else:
+            with language_scope(language):
+                dictionaries[language] = dictionary_snapshot(connection)[1]
+    physical_paths = {}
     if not paths:
         raise RuntimeError(f"No Markdown files found in {source}")
 
@@ -1135,8 +1203,11 @@ def _build(
             )
 
     for index, path in enumerate(paths, start=1):
-        relative = path.relative_to(source).as_posix()
-        category_id = path.parent.relative_to(source).as_posix()
+        language, root = origins[path]
+        local_relative = path.relative_to(root).as_posix()
+        relative = f"{language}/{local_relative}" if sources is not None else local_relative
+        physical_paths[relative] = path
+        category_id = path.parent.relative_to(root).as_posix()
         if category_id == ".":
             category_id = ROOT_CATEGORY_ID
         file_hash = sha256_file(path)
@@ -1170,8 +1241,9 @@ def _build(
             line_count=normalized.count("\n") + 1,
             char_count=len(normalized),
             category_id=category_id,
+            language=language,
         )
-        document_chunks = fragment_document(normalized, dictionary)
+        document_chunks = fragment_document(normalized, dictionaries[language])
         if not document_chunks:
             warnings.append(f"No indexable text: {relative}")
         pending.append((source_file, document_chunks))
@@ -1188,6 +1260,7 @@ def _build(
                     text_sha256=sha256_bytes(fragment.text.encode("utf-8")),
                     char_count=len(fragment.text),
                     category_id=category_id,
+                    language=language,
                     business_category=fragment.business_category.value,
                     primary_medical_conditions=fragment.primary_conditions,
                     secondary_medical_conditions=fragment.secondary_conditions,
@@ -1211,7 +1284,7 @@ def _build(
 
         changed_during_sync = []
         for relative, (size, mtime_ns) in initial_stats.items():
-            current = Path(source, relative).stat()
+            current = physical_paths[relative].stat()
             if (current.st_size, current.st_mtime_ns) != (size, mtime_ns):
                 changed_during_sync.append(relative)
         if changed_during_sync:
@@ -1227,9 +1300,9 @@ def _build(
     if all_new_chunks and np.any(np.linalg.norm(embeddings, axis=1) == 0):
         raise RuntimeError("INVALID_EMBEDDINGS")
     for relative, digest in source_hashes.items():
-        if sha256_file(source / relative) != digest:
+        if sha256_file(physical_paths[relative]) != digest:
             raise RuntimeError("CORPUS_CHANGED_DURING_BUILD")
-    current_relative_paths = {path.relative_to(source).as_posix() for path in paths}
+    current_relative_paths = set(physical_paths)
     removed = sorted(stored_paths - current_relative_paths)
     # Recheck the DB catalog before publication; all writers follow INDEX_LOCK.
     if dictionary_snapshot(connection)[0] != fingerprint:
@@ -1260,7 +1333,7 @@ def _build(
     with _prepared_herbs_workers(context) as executor:
         # Repeat final validation after worker startup, immediately before publication.
         for relative, digest in source_hashes.items():
-            if sha256_file(source / relative) != digest:
+            if sha256_file(physical_paths[relative]) != digest:
                 raise RuntimeError("CORPUS_CHANGED_DURING_BUILD")
         if dictionary_snapshot(connection)[0] != fingerprint:
             raise RuntimeError("DICTIONARY_CHANGED_DURING_BUILD")
@@ -1293,11 +1366,20 @@ def _build(
                 )
             if dictionary_snapshot(connection)[0] != fingerprint:
                 raise RuntimeError("DICTIONARY_CHANGED_DURING_BUILD")
-            herbs_stats = (
-                _rebuild_herbs_benefits(connection, context=context, executor=executor)
-                if context.rebuild_required
-                else dict(row_count=context.row_count, inserted=0, deleted=0, reason="unchanged")
+            herbs_stats = dict(
+                row_count=context.row_count, inserted=0, deleted=0, reason="unchanged"
             )
+            if context.rebuild_required:
+                per_language = {}
+                for language in roots:
+                    with language_scope(language):
+                        per_language[language] = _rebuild_herbs_benefits(
+                            connection, context=context, executor=executor
+                        )
+                herbs_stats = {
+                    key: sum(item[key] for item in per_language.values())
+                    for key in ("row_count", "inserted", "deleted")
+                }
             metadata = {
                 **expected,
                 "last_synced_utc": utc_now(),
@@ -1333,7 +1415,16 @@ def _build(
 # Parse command-line options for the incremental index sync.
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--source", type=Path, default=settings.documents_dir)
+    parser.add_argument(
+        "--source", "--source-ro", dest="source", type=Path, default=settings.documents_dir
+    )
+    parser.add_argument("--source-en", type=Path, default=settings.documents_en_dir)
+    parser.add_argument(
+        "--language",
+        choices=LANGUAGES,
+        default="ro",
+        help="Language for explicit derived-generation commands",
+    )
     parser.add_argument("--model", default=DEFAULT_MODEL)
     modes = parser.add_mutually_exclusive_group()
     modes.add_argument(
@@ -1432,6 +1523,15 @@ def main() -> int:
         )
     configure_settings(configuration)
     arguments = parse_args()
+    return _run_arguments(arguments)
+
+
+def _run_arguments(arguments: argparse.Namespace) -> int:
+    with language_scope(validate_language(arguments.language)):
+        return _execute_arguments(arguments)
+
+
+def _execute_arguments(arguments: argparse.Namespace) -> int:
     caution_stage = bool(arguments.prepare_caution_ranking or arguments.publish_caution_ranking)
     safety_stage = bool(
         arguments.analyze_safety_warnings
@@ -1478,12 +1578,19 @@ def main() -> int:
             if arguments.rebuild_herbs_only:
                 rebuild_herbs_only()
             else:
-                build(arguments.source, arguments.model, rebuild_herbs=arguments.rebuild_herbs)
+                build(
+                    arguments.source,
+                    arguments.model,
+                    rebuild_herbs=arguments.rebuild_herbs,
+                    sources={"ro": arguments.source, "en": arguments.source_en},
+                )
             if not arguments.skip_positive_ranking:
                 from scripts.positive_herb_ranking import refresh_positive_ranking
 
                 ranking_stage = True
-                refresh_positive_ranking(settings)
+                for language in LANGUAGES:
+                    with language_scope(language):
+                        refresh_positive_ranking(settings)
     except Exception as exc:
         if ranking_stage:
             # Provider/driver exception chains can contain untrusted corpus data.

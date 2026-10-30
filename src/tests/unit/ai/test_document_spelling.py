@@ -45,6 +45,12 @@ class DocumentSpellingTests(unittest.TestCase):
             str(len(words)) + "\n" + "\n".join(words) + "\n", encoding="utf-8"
         )
         (self.dictionary / "ro_RO.aff").write_text("SET UTF-8\n", encoding="utf-8")
+        self.english_dictionary = self.root / "english-hunspell"
+        self.english_dictionary.mkdir()
+        (self.english_dictionary / "en_GB.dic").write_text(
+            "6\ntreatment\nmedication\nfrom\nwith\nthe\nand\n", encoding="utf-8"
+        )
+        (self.english_dictionary / "en_GB.aff").write_text("SET UTF-8\n", encoding="utf-8")
         self.report = self.root / "corrections.tsv"
         self.write("corpus.md", "pentru acest tratament cu medicament si sunătoare.\n" * 110)
 
@@ -58,6 +64,7 @@ class DocumentSpellingTests(unittest.TestCase):
         with (
             redirect_stdout(io.StringIO()),
             mock.patch.object(clean_documents, "HUNSPELL_DIR", self.dictionary),
+            mock.patch.object(clean_documents, "ENGLISH_HUNSPELL_DIR", self.english_dictionary),
         ):
             return clean_documents.clean_documents(
                 self.source,
@@ -141,17 +148,83 @@ class DocumentSpellingTests(unittest.TestCase):
             path.read_bytes().decode("utf-16"), "Se ia medicament cu tratament de 500 mg.\n"
         )
 
-    def test_english_and_mixed_documents_only_receive_existing_cleanup(self):
+    def test_english_directory_uses_english_dictionary_and_unscoped_files_keep_detection(self):
         english = self.write(
             "english.md",
             "The mediicament is for the patient and the treatment. [here](https://x.ro)\n",
         )
         mixed = self.write("mixed.md", "the si mediicament\n")
+        misplaced = self.write(
+            "ro/nested/english.md",
+            "The treatment is for the patient and it is taken with medication from the "
+            "bottle on the table. The mediicament and medica tion are here.\n",
+        )
+        uncertain = self.write("ro/short.md", "the si mediicament\n")
+        self.write("en/frequencies.md", "the treatment and medication\n" * 110)
+        target = self.write(
+            "en/nested/target.md",
+            "### Pagina 9\n"
+            "treatm ent with mediication fromtreatment and cind, 500 mg.\n"
+            "si cu pentru mediicament\n",
+        )
+        before = (misplaced.read_bytes(), misplaced.stat().st_mtime_ns)
+        self.clean(dry_run=True)
+        self.assertEqual((misplaced.read_bytes(), misplaced.stat().st_mtime_ns), before)
         self.clean()
+        self.assertTrue(misplaced.exists())
+        self.assertIn("mediicament and medication", misplaced.read_text(encoding="utf-8"))
+        self.assertIn("medicament", uncertain.read_text(encoding="utf-8"))
+        self.assertEqual(
+            clean_documents._spelling_language(
+                misplaced, self.source / "ro" / "nested", misplaced.read_text(encoding="utf-8")
+            ),
+            "en",
+        )
         self.assertIn("The mediicament is", english.read_text(encoding="utf-8"))
         self.assertNotIn("https://", english.read_text(encoding="utf-8"))
         self.assertEqual(mixed.read_text(encoding="utf-8"), "the si mediicament\n")
-        self.assertEqual(self.rows(), [])
+        self.assertEqual(
+            target.read_text(encoding="utf-8"),
+            "treatment with medication from treatment and cind, 500 mg.\n"
+            "si cu pentru mediicament\n",
+        )
+        self.assertEqual({row["rule"] for row in self.rows()}, {"join", "split", "typo"})
+        self.assertEqual(
+            {row["file"] for row in self.rows()},
+            {"en/nested/target.md", "ro/nested/english.md", "ro/short.md"},
+        )
+        self.assertEqual(
+            clean_documents._spelling_language(
+                misplaced,
+                self.source,
+                "Acesta este un document cu tratament pentru care se ia medicament. " * 5
+                + "The patient is here and this is the treatment from the bottle.",
+            ),
+            "ro",
+        )
+        shared = {"the", "and", "of", "with", "for", "botanical"}
+        romanian = shared | {"planta", "medicament", "tratament", "frunza", "floare"}
+        british = shared | {"patient", "bottle", "remedy", "treatment", "flower"}
+        dictionaries = {
+            language: clean_documents._SpellingDictionary(words, words, {})
+            for language, words in (("ro", romanian), ("en", british))
+        }
+        agreement = "the and of with for patient bottle remedy treatment flower " * 3
+        conflict = "the and of with for planta medicament tratament frunza floare " * 3
+        self.assertEqual(clean_documents.detect_language(agreement, dictionaries), "en")
+        self.assertEqual(clean_documents.detect_language(conflict, dictionaries), "mix")
+        self.assertEqual(
+            clean_documents._spelling_language(misplaced, self.source, conflict, dictionaries),
+            "ro",
+        )
+        self.assertEqual(
+            clean_documents.detect_language("patient bottle remedy treatment flower", dictionaries),
+            "en",
+        )
+        self.assertEqual(clean_documents.detect_language("botanical " * 20, dictionaries), "mix")
+        unchanged = (target.read_bytes(), target.stat().st_mtime_ns)
+        self.assertEqual(self.clean(), 0)
+        self.assertEqual(unchanged, (target.read_bytes(), target.stat().st_mtime_ns))
 
     def test_preserves_names_dose_tokens_and_hyphenated_compounds(self):
         text = "Se ia Mediicament cu 500mediicament si mediicament-test si tratament.\n"
@@ -236,13 +309,18 @@ class DocumentSpellingTests(unittest.TestCase):
         self.assertEqual(path.read_bytes(), raw)
 
     def test_hunspell_affixes_and_proper_names(self):
-        (self.dictionary / "ro_RO.dic").write_text("2\nplanta/S\nCristian\n", encoding="utf-8")
+        (self.dictionary / "ro_RO.dic").write_text("2\nplanta/SABN\nCristian\n", encoding="utf-8")
         (self.dictionary / "ro_RO.aff").write_text(
-            "SET UTF-8\nSFX S Y 1\nSFX S a e a\n", encoding="utf-8"
+            "SET UTF-8\nSFX S Y 1\nSFX S a e a\n"
+            "PFX A Y 1\nPFX A 0 re .\nPFX B Y 1\nPFX B p un p\n"
+            "PFX N N 1\nPFX N 0 non .\n",
+            encoding="utf-8",
         )
         dictionary, common = clean_documents.build_dictionary(self.dictionary)
         self.assertTrue({"planta", "plante", "cristian"}.issubset(dictionary))
         self.assertNotIn("cristian", common)
+        self.assertTrue({"replanta", "replante", "unlanta", "unlante", "nonplanta"} <= dictionary)
+        self.assertFalse({"unreplanta", "reunlanta", "nonplante"} & dictionary)
 
     def test_ambiguous_typos_are_left_unchanged(self):
         words = {"medicament", "meducament"}

@@ -395,13 +395,8 @@ def test_ollama_request_needs_no_hf_token_and_uses_the_existing_endpoint():
         return httpx.Response(
             200,
             json={
-                "status": "completed",
-                "output": [
-                    {
-                        "type": "message",
-                        "content": [{"type": "output_text", "text": '{"intent":"diverse"}'}],
-                    }
-                ],
+                "message": {"role": "assistant", "content": '{"intent":"diverse"}'},
+                "done": True,
             },
         )
 
@@ -410,18 +405,16 @@ def test_ollama_request_needs_no_hf_token_and_uses_the_existing_endpoint():
         classifier.client.http = httpx.Client(transport=httpx.MockTransport(respond))
         assert classifier("O întrebare generală", {}).intent == "diverse"
         assert len(requests) == 1
-        assert str(requests[0].url) == "http://host.docker.internal:11434/v1/responses"
+        assert str(requests[0].url) == "http://host.docker.internal:11434/api/chat"
         assert "Authorization" not in requests[0].headers
         payload = json.loads(requests[0].content)
         assert payload["model"] == "gemma3:1b"
-        assert payload["temperature"] == 0.0
-        assert payload["reasoning"] == {"effort": "none"}
-        assert payload["max_output_tokens"] == 250
+        assert payload["options"]["temperature"] == 0.0
+        assert payload["think"] is False
+        assert payload["options"]["num_predict"] == 250
         assert payload.get("stream", False) is False
-        schema = payload["text"]["format"]
-        assert schema["type"] == "json_schema"
-        assert schema["strict"] is True
-        branches = schema["schema"]["oneOf"]
+        schema = payload["format"]
+        branches = schema["oneOf"]
         assert [branch["properties"]["intent"]["enum"][0] for branch in branches] == [
             "remedii",
             "planta",
@@ -444,6 +437,15 @@ def test_ollama_request_needs_no_hf_token_and_uses_the_existing_endpoint():
         assert branches[0]["properties"]["herb_name"]["type"] == "null"
         assert branches[2]["properties"]["email_address"]["type"] == "null"
         assert classifier.client.provider.read_timeout_seconds == 17
+        from backend.ai.message_classification import PROMPT
+        from backend.core.language import language_scope, read_prompt
+
+        assert payload["messages"][0]["content"] == read_prompt(PROMPT, "ro")
+        with language_scope("en"):
+            assert classifier("A general question", {}).intent == "diverse"
+        english_payload = json.loads(requests[-1].content)
+        assert english_payload["messages"][0]["content"] == read_prompt(PROMPT, "en")
+        assert english_payload["format"] == schema
     finally:
         classifier.close()
 

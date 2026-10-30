@@ -16,6 +16,7 @@ from backend.ai.index_state import INDEX_LOCK, IndexUnavailable
 from backend.config import Settings
 from backend.config import settings as default_settings
 from backend.core.contracts import HerbLookupResult
+from backend.core.language import current_language
 from backend.core.operation_context import remaining_timeout
 
 HERB_CONDITIONS_SQL = """
@@ -57,7 +58,10 @@ def lookup_herb_conditions(name: str, *, settings: Settings = default_settings) 
                 return {
                     "status": "ambiguous",
                     "choices": sorted(
-                        romanian_herb_name(herb.ro, latin=herb.latin)
+                        romanian_herb_name(
+                            (herb.en or herb.latin) if current_language() == "en" else herb.ro,
+                            latin=herb.latin,
+                        )
                         + (f" ({herb.latin})" if herb.latin else "")
                         for herb in matches
                     ),
@@ -67,7 +71,10 @@ def lookup_herb_conditions(name: str, *, settings: Settings = default_settings) 
             species = [selected.latin] if selected.latin else []
             run_id = active_run(connection, settings)
             rows = connection.execute(
-                HERB_CONDITIONS_SQL, (run_id, literal_pattern(canonical), selected.id)
+                HERB_CONDITIONS_SQL.replace("mc.name", "mc.en")
+                if current_language() == "en"
+                else HERB_CONDITIONS_SQL,
+                (run_id, literal_pattern(canonical), selected.id),
             ).fetchall()
             fragments_count, documents_count = evidence_counts(connection, run_id, selected.id)
             result: HerbLookupResult = {
@@ -76,7 +83,10 @@ def lookup_herb_conditions(name: str, *, settings: Settings = default_settings) 
                 "positiveRunId": run_id,
                 "fragmentsCount": fragments_count,
                 "documentsCount": documents_count,
-                "herbName": romanian_herb_name(canonical, latin=selected.latin),
+                "herbName": romanian_herb_name(
+                    (selected.en or selected.latin) if current_language() == "en" else canonical,
+                    latin=selected.latin,
+                ),
                 "species": species,
                 "entriesCount": len(rows),
                 "conditions": [
@@ -96,12 +106,14 @@ def lookup_herb_conditions(name: str, *, settings: Settings = default_settings) 
             )
             if caution_run is not None:
                 contraindications = connection.execute(
-                    "SELECT mc.id,mc.name,p.has_recommendation OR COALESCE("
-                    "hp.positive_count>0 OR hp.mixed_count>0,false) "
-                    "FROM herb_caution_pairs p JOIN medical_conditions mc ON mc.id=p.medical_condition_id "
-                    "LEFT JOIN herb_positive_pairs hp ON hp.run_id=%s AND hp.herb_id=p.herb_id "
-                    "AND hp.medical_condition_id=p.medical_condition_id "
-                    "WHERE p.run_id=%s AND p.herb_id=%s AND p.prohibition_count>0 ORDER BY mc.name,mc.id",
+                    (
+                        "SELECT mc.id,mc.name,p.has_recommendation OR COALESCE("
+                        "hp.positive_count>0 OR hp.mixed_count>0,false) "
+                        "FROM herb_caution_pairs p JOIN medical_conditions mc ON mc.id=p.medical_condition_id "
+                        "LEFT JOIN herb_positive_pairs hp ON hp.run_id=%s AND hp.herb_id=p.herb_id "
+                        "AND hp.medical_condition_id=p.medical_condition_id "
+                        "WHERE p.run_id=%s AND p.herb_id=%s AND p.prohibition_count>0 ORDER BY mc.name,mc.id"
+                    ).replace("mc.name", "mc.en" if current_language() == "en" else "mc.name"),
                     (run_id, caution_run, selected.id),
                 ).fetchall()
                 unknown = connection.execute(

@@ -8,6 +8,7 @@ from functools import lru_cache
 from importlib.resources import files
 from typing import Literal
 
+from backend.core.language import current_language
 from backend.core.operation_context import checkpoint
 
 HerbAgreement = Literal["masculine", "feminine", "plural"]
@@ -83,7 +84,7 @@ def _noun_forms() -> tuple[dict[str, HerbAgreement], dict[str, HerbAgreement]]:
 
 
 @lru_cache(maxsize=4096)
-def herb_agreement(name: str) -> HerbAgreement:
+def _romanian_agreement(name: str) -> HerbAgreement:
     normalized = re.sub(r"^(?:[dl]-)+", "", _plain(name).strip())
     words = re.findall(r"[a-z]+", normalized)
     if not words:
@@ -103,3 +104,8 @@ def herb_agreement(name: str) -> HerbAgreement:
     if head.endswith(("uri", "ii")):
         return "plural"
     return "feminine" if head.endswith(("a", "e")) else "masculine"
+
+
+def herb_agreement(name: str) -> HerbAgreement:
+    # English "useful" is invariant; cached Romanian gender must not leak into English.
+    return "feminine" if current_language() == "en" else _romanian_agreement(name)

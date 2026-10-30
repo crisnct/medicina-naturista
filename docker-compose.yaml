@@ -97,7 +97,8 @@ services:
       SESSION_RECONNECT_GRACE_SECONDS: ${SESSION_RECONNECT_GRACE_SECONDS:-30}
       MAX_CONCURRENT_GENERATIONS: ${MAX_CONCURRENT_GENERATIONS:-1}
       MAX_QUEUED_GENERATIONS: ${MAX_QUEUED_GENERATIONS:-20}
-      DOCUMENTS_DIR: /app/medicina-naturista-documente/data/documents
+      DOCUMENTS_DIR: /app/medicina-naturista-documente/data/documents/ro
+      DOCUMENTS_EN_DIR: /app/medicina-naturista-documente/data/documents/en
       HERB_IMAGES_DIR: /app/medicina-naturista-documente/data/images
       DATABASE_URL: postgresql://${POSTGRES_USER:-medicina}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-medicina}
       MODEL_CACHE_DIR: /app/model_cache
@@ -122,6 +123,10 @@ services:
       - type: bind
         source: ./src/backend/resources/texts.ro.toml
         target: /app/src/backend/resources/texts.ro.toml
+        read_only: true
+      - type: bind
+        source: ./src/backend/resources/texts.en.toml
+        target: /app/src/backend/resources/texts.en.toml
         read_only: true
         bind:
           create_host_path: false

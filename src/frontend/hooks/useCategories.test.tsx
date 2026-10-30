@@ -14,6 +14,6 @@ it("keeps an empty selection after a generation removes the chosen category", as
   const { result } = renderHook(() => useCategories(), { wrapper });
   await waitFor(() => expect([...result.current.selected]).toEqual(["A", "B"]));
   act(() => result.current.setSelected(new Set(["A"])));
-  act(() => client.setQueryData(["categories"], { tree: null, defaultSelection: ["B", "C"], indexGeneration: "second" }));
+  act(() => client.setQueryData(["categories", "ro"], { tree: null, defaultSelection: ["B", "C"], indexGeneration: "second" }));
   await waitFor(() => expect(result.current.selected.size).toBe(0));
 });

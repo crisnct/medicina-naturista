@@ -12,6 +12,7 @@ from typing import Any, Literal
 from backend.ai.search import ALL_SIGNALS, SearchSignals
 from backend.core.contracts import Evidence, IdentifiedCondition, ProfilePayload, TranscriptEntry
 from backend.core.herb_categories import HerbCategory, TopClarification
+from backend.core.language import Language, current_language
 from backend.core.texts import tr
 
 
@@ -29,6 +30,7 @@ class HealthProfile:
     # none (ai/condition_ai.py): {"index", "name", "terms"} per message segment.
     # Cleared with every new message, so it never outlives the text it came from.
     ai_conditions: tuple[IdentifiedCondition, ...] = ()
+    language: Language = field(default_factory=current_language)
 
     # Store a normalized conversation entry when its role and content are allowed.
     def add_transcript(self, role: str, content: str) -> None:
@@ -79,6 +81,7 @@ class HealthProfile:
     # Serialize the profile into the structure consumed by retrieval and AI generation.
     def as_dict(self) -> ProfilePayload:
         return {
+            "language": self.language,
             "health_problem": self.health_problem,
             "health_context": list(self.health_context),
             "transcript": [
@@ -110,6 +113,7 @@ class PendingSearch:
     identity: str = field(default_factory=lambda: secrets.token_urlsafe(18))
     index_generation: str | None = None
     intent: str = "remedii"
+    language: Language = field(default_factory=current_language)
 
 
 @dataclass
@@ -141,6 +145,7 @@ class StoredReport:
     data: bytes
     filename: str
     health_problem: str
+    language: Language = field(default_factory=current_language)
 
 
 @dataclass
@@ -258,6 +263,7 @@ class ReportGeneration:
     model: str
     created_at: float
     deadline_at: float
+    language: Language = field(default_factory=current_language)
     state: str = "accepted"
     stage: str = "queued"
     started_at: float | None = None
@@ -315,6 +321,7 @@ class ReportGeneration:
     def as_dict(self, now: float | None = None) -> dict[str, Any]:
         return {
             "jobId": self.job_id,
+            "language": self.language,
             "searchId": self.search_id,
             "state": self.state,
             "stage": self.stage,
@@ -357,6 +364,7 @@ class SessionData:
     tab_id: str
     directory: Path
     client_ip: str = "unknown"
+    language: Language = field(default_factory=current_language)
     lifetime_id: str = field(default_factory=lambda: secrets.token_urlsafe(24))
     active_page_id: str | None = None
     detached_until: float | None = None
@@ -443,6 +451,7 @@ class SessionSnapshot:
     report_id: str | None = None
     routing: MessageRouting = field(default_factory=MessageRouting)
     message_receipts: dict[str, tuple[int, str]] = field(default_factory=dict)
+    language: Language = field(default_factory=current_language)
 
 
 @dataclass

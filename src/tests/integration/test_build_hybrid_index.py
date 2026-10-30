@@ -14,7 +14,9 @@ from psycopg.rows import namedtuple_row
 
 from backend.ai import db as db_module
 from backend.ai import index_constants
+from backend.ai.conditions import make_condition
 from backend.ai.embedding_model import PROFILES, EmbeddingProfile, get_profile
+from backend.ai.search import SearchSignals, rank
 from scripts import build_hybrid_index as builder
 from tests.support.conditions import conditions_from_rows, replace_catalog
 from tests.support.postgres import PostgresFixture
@@ -94,7 +96,7 @@ class SyncTests(unittest.TestCase):
             with connection.cursor(row_factory=namedtuple_row) as cursor:
                 return cursor.execute(f"SELECT {columns} FROM {table} ORDER BY 1").fetchall()
 
-    def _sync(self, model_name: str = builder.DEFAULT_MODEL):
+    def _sync(self, model_name: str = builder.DEFAULT_MODEL, *, sources=None):
         with (
             mock.patch.object(
                 builder,
@@ -105,7 +107,7 @@ class SyncTests(unittest.TestCase):
             mock.patch.object(builder, "embed_chunks", side_effect=fake_embed) as embed_mock,
             redirect_stdout(io.StringIO()),
         ):
-            builder.build(self.source, model_name, batch_size=64)
+            builder.build(self.source, model_name, batch_size=64, sources=sources)
         return embed_mock
 
     # The vector width of the `chunks.embedding` column, as the catalog sees it.
@@ -114,24 +116,40 @@ class SyncTests(unittest.TestCase):
             return db_module._embedding_dimension(connection)
 
     def test_sync_writes_documents_and_chunks(self):
-        (self.source / "document.md").write_text(
-            "# Remedii\n\nCeai de mușețel și atenționări.",
-            encoding="utf-8",
-        )
-
-        self._sync()
-
-        documents = self._rows("documents", "relative_path, category_id")
-        self.assertEqual(documents, [("document.md", "")])
-        chunks = self._rows("chunks", "source_relative_path, category_id")
-        self.assertEqual(len(chunks), 1)
-        self.assertEqual(chunks[0].category_id, "")
-
+        english = Path(self.tmp.name) / "english"
+        english.mkdir()
+        (self.source / "document.md").write_text("# Gripa\nUsturoi.", encoding="utf-8")
+        (english / "document.md").write_text("# Flu\nGarlic.", encoding="utf-8")
         with db_module.get_pool().connection() as connection:
-            model_name = connection.execute(
-                "SELECT value FROM sync_metadata WHERE key = 'model_name'"
-            ).fetchone()[0]
-        self.assertEqual(model_name, builder.DEFAULT_MODEL)
+            replace_catalog(connection, [make_condition("Gripa", english="Flu")])
+        sources = {"ro": self.source, "en": english}
+        self._sync(sources=sources)
+        self.assertEqual(
+            self._rows("documents", "relative_path, category_id"),
+            [("en/document.md", ""), ("ro/document.md", "")],
+        )
+        chunks = self._rows("chunks", "source_relative_path,language,category_id")
+        self.assertEqual(chunks, [("en/document.md", "en", ""), ("ro/document.md", "ro", "")])
+        with db_module.get_pool().connection() as connection:
+            self.assertEqual(
+                connection.execute(
+                    "SELECT value FROM sync_metadata WHERE key='model_name'"
+                ).fetchone()[0],
+                builder.DEFAULT_MODEL,
+            )
+            self.assertEqual(
+                connection.execute(
+                    "SELECT DISTINCT language FROM herbs_benefits ORDER BY language"
+                ).fetchall(),
+                [("en",), ("ro",)],
+            )
+        signals = SearchSignals(conditions=True, lexical=False, semantic=False)
+        english_results = rank("Flu", signals=signals, language="en")
+        romanian_results = rank("Gripa", signals=signals, language="ro")
+        self.assertEqual([r["source_relative_path"] for r in english_results], ["en/document.md"])
+        self.assertEqual(english_results[0]["primary_medical_conditions"], ["Flu"])
+        self.assertEqual([r["source_relative_path"] for r in romanian_results], ["ro/document.md"])
+        self._sync(sources=sources).assert_not_called()
 
     def test_sync_stores_business_category_conditions_and_heading_per_fragment(self):
         (self.source / "carte.md").write_text(

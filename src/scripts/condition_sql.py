@@ -19,6 +19,7 @@ def additions_sql(conditions: Sequence[Condition]) -> str:
         keys = [_normalize(term) for term in condition.terms]
         if (
             not key
+            or not condition.english.strip()
             or key in names
             or not condition.terms
             or condition.terms[0] != condition.name
@@ -29,15 +30,16 @@ def additions_sql(conditions: Sequence[Condition]) -> str:
             raise ValueError("INVALID_CONDITION_ADDITIONS")
         names.add(key)
         rows.append(
-            sql.SQL("({}, {}, ARRAY[{}]::text[])").format(
+            sql.SQL("({}, {}, {}, ARRAY[{}]::text[])").format(
                 sql.Literal(ordinal),
                 sql.Literal(condition.name),
+                sql.Literal(condition.english),
                 sql.SQL(", ").join(map(sql.Literal, condition.terms[1:])),
             )
         )
     return (
         sql.SQL("""-- Add missing conditions, preserving existing names, terms and order.
-WITH source(ordinal, name, synonyms) AS (
+WITH source(ordinal, name, en, synonyms) AS (
     VALUES
     {rows}
 ), missing AS (
@@ -47,8 +49,8 @@ WITH source(ordinal, name, synonyms) AS (
         SELECT 1 FROM medical_conditions c WHERE lower(c.name) = lower(source.name)
     )
 ), inserted AS (
-    INSERT INTO medical_conditions(name)
-    SELECT name FROM missing ORDER BY ordinal
+    INSERT INTO medical_conditions(name,en)
+    SELECT name,en FROM missing ORDER BY ordinal
     ON CONFLICT (name) DO NOTHING
     RETURNING id, name
 )

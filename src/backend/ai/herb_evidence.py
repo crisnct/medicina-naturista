@@ -20,6 +20,7 @@ from backend.config import Settings
 from backend.config import settings as default_settings
 from backend.core.contracts import HerbCondition, HerbEvidenceKind, HerbEvidencePage, HerbHighlight
 from backend.core.errors import ApplicationError
+from backend.core.language import current_language
 from backend.core.operation_context import checkpoint
 from backend.core.texts import tr
 
@@ -140,10 +141,12 @@ def lookup_herb_evidence(
                 (source_run_id, herb_id, condition_id, condition_id, PAGE_SIZE, offset),
             ).fetchall()
             relations = connection.execute(
-                eligible_sql + "SELECT e.chunk_id,mc.id,mc.name,s.synonym FROM eligible e "
-                "JOIN medical_conditions mc ON mc.id=e.medical_condition_id "
-                "LEFT JOIN medical_condition_synonyms s ON s.medical_condition_id=mc.id "
-                "WHERE e.chunk_id=ANY(%s) ORDER BY e.chunk_id,mc.name,mc.id,s.id",
+                (
+                    eligible_sql + "SELECT e.chunk_id,mc.id,mc.name,s.synonym FROM eligible e "
+                    "JOIN medical_conditions mc ON mc.id=e.medical_condition_id "
+                    "LEFT JOIN medical_condition_synonyms s ON s.medical_condition_id=mc.id "
+                    "WHERE e.chunk_id=ANY(%s) ORDER BY e.chunk_id,mc.name,mc.id,s.id"
+                ).replace("mc.name", "mc.en" if current_language() == "en" else "mc.name"),
                 (source_run_id, herb_id, condition_id, condition_id, [row[0] for row in rows]),
             ).fetchall()
             by_chunk: dict[int, dict[int, HerbCondition]] = defaultdict(dict)

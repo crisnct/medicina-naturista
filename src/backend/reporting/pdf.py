@@ -25,6 +25,7 @@ from reportlab.platypus import (
 
 from backend.ai.conditions import find_conditions, resolve_query
 from backend.ai.report_validation import ValidatedReport, partial_notice
+from backend.core.language import current_language
 from backend.core.texts import tr
 from backend.reporting.recommendations import (
     BENEFIT_COUNT,
@@ -919,6 +920,8 @@ _CONDITION_DIACRITIC_WORDS = {
 
 # Restore common Romanian diacritics in generated titles and labels.
 def _restore_romanian_diacritics(text: str) -> str:
+    if current_language() == "en":
+        return text
     words = {**_CONDITION_DIACRITIC_WORDS, **_ROMANIAN_DIACRITIC_WORDS}
     for plain, accented in sorted(words.items(), key=lambda item: -len(item[0])):
         pattern = re.compile(rf"(?<!\w){re.escape(plain)}(?!\w)", re.IGNORECASE)
@@ -950,18 +953,21 @@ def _join_romanian(names: list[str]) -> str:
 # (profile["ai_conditions"], see ai/condition_ai.py) name it.
 def condition_names_for(problem: str, ai_conditions: Any = ()) -> list[str]:
     conditions = find_conditions(problem) or list(resolve_query(problem).conditions)
-    names = [condition.name for condition in conditions]
+    names = [condition.display_name for condition in conditions]
     if not names:
         names = [
             " ".join(str(answer["name"]).split())
             for answer in ai_conditions or ()
             if isinstance(answer, dict) and str(answer.get("name") or "").strip()
         ]
-    names = [_restore_romanian_diacritics(name.lower()) for name in names]
+    names = [
+        name if current_language() == "en" else _restore_romanian_diacritics(name.lower())
+        for name in names
+    ]
     return list(dict.fromkeys(names))
 
 
-# Create the Romanian report title from the conditions named by the user.
+# Create the localized report title from the conditions named by the user.
 def report_title(profile: dict[str, Any]) -> str:
     """Return the title shared by the PDF metadata, document heading and download name."""
     problem = " ".join(str(profile.get("health_problem") or "").split())[:240]

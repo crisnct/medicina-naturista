@@ -27,6 +27,7 @@ from backend.ai.herb_safety_repository import unavailable
 from backend.ai.herbs import Herb
 from backend.config import Settings
 from backend.core.contracts import HerbCautionStatus, HerbLookupResult
+from backend.core.language import current_language
 from backend.core.operation_context import checkpoint
 
 
@@ -78,7 +79,8 @@ def active_product_safety_run(
         return None, "not_ready"
     row = connection.execute(
         "SELECT run_id::text,status,catalog_hash,semantic FROM herb_product_safety_runs "
-        "WHERE is_active"
+        "WHERE is_active AND language=%s",
+        (current_language(),),
     ).fetchone()
     if row is None:
         return None, "not_ready"
@@ -183,7 +185,8 @@ class ProductSafetyRepository:
             if require_existing:
                 raise ValueError("HERB_PRODUCT_SAFETY_RESUME_NOT_FOUND")
             active = connection.execute(
-                "SELECT run_id::text FROM herb_product_safety_runs WHERE is_active"
+                "SELECT run_id::text FROM herb_product_safety_runs WHERE is_active AND language=%s",
+                (current_language(),),
             ).fetchone()
             connection.execute(
                 "INSERT INTO herb_product_safety_runs(run_id,status,catalog_hash,semantic,"
@@ -307,7 +310,8 @@ class ProductSafetyRepository:
                 raise unavailable(True)
             assert_integrity(connection, run_id, row[4], row[5])
             active = connection.execute(
-                "SELECT run_id::text FROM herb_product_safety_runs WHERE is_active"
+                "SELECT run_id::text FROM herb_product_safety_runs WHERE is_active AND language=%s",
+                (current_language(),),
             ).fetchone()
             current = active[0] if active else None
             if current == run_id:
@@ -315,7 +319,8 @@ class ProductSafetyRepository:
             if current != row[3]:
                 raise ValueError("HERB_PRODUCT_SAFETY_PUBLICATION_CONFLICT")
             connection.execute(
-                "UPDATE herb_product_safety_runs SET is_active=false WHERE is_active"
+                "UPDATE herb_product_safety_runs SET is_active=false WHERE is_active AND language=%s",
+                (current_language(),),
             )
             connection.execute(
                 "UPDATE herb_product_safety_runs SET is_active=true WHERE run_id=%s",

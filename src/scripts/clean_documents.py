@@ -16,8 +16,10 @@ Parametri acceptati:
     --no-fold-diacritics  Pastreaza diacriticele romanesti.
                           Fara acest flag, sunt transcrise in ASCII.
 
-Corectarea cuvintelor este automata. Dictionarul este incarcat din
-src/scripts/dictionaires/ro/, relativ la script, indiferent de directorul curent.
+Corectarea cuvintelor este automata. Dictionarele sunt incarcate din
+src/scripts/dictionaires/ro/ si en/, relativ la script, indiferent de directorul curent.
+Fisierele din data/documents/ro/ si en/ folosesc dictionarul limbii din cale.
+Documentele clar englezesti din ro/ folosesc dictionarul EN, fara sa fie mutate.
 
 Run:
     ./.venv/Scripts/python.exe ./src/scripts/clean_documents.py
@@ -60,10 +62,11 @@ the behavior by purpose; compact_document() defines the execution order.
    "- 12 -", "pagina 12", "Page 104" and Roman numerals are retained.
    Repetition alone does not justify removing arbitrary content.
 
-8. **Correct Romanian spelling automatically** — use the bundled ro_RO.dic
-   and ro_RO.aff plus cleaned-corpus frequencies to join two unknown OCR fragments, split
-   glued words, fix qualifying rare typos and modernize old orthography.
-   Documents classified as English or mixed retain their spelling. Corrections
+8. **Correct Romanian and English spelling automatically** — use the bundled
+   ro_RO or en_GB Hunspell pair according to the document's ro/en directory, with
+   separate cleaned-corpus frequencies to join two unknown OCR fragments, split
+   glued words and fix qualifying rare typos. Only Romanian text receives old
+   orthography modernization. Unscoped files retain Romanian-only detection. Corrections
    are recorded in --spelling-report using line numbers in the cleaned text.
 
 Without --dry-run, changed sources are overwritten in place without automatic
@@ -110,10 +113,11 @@ import sys
 from contextlib import ExitStack
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Sequence
+from typing import Mapping, Sequence
 
 _FALLBACK_ENCODINGS = ("utf-8", "cp1250", "cp1252")
 HUNSPELL_DIR = Path(__file__).resolve().parent / "dictionaires" / "ro"
+ENGLISH_HUNSPELL_DIR = Path(__file__).resolve().parent / "dictionaires" / "en"
 DEFAULT_SPELLING_REPORT = Path(__file__).resolve().parents[2] / "var" / "spelling_changes.tsv"
 _MAX_CLEANING_PASSES = 16
 
@@ -876,7 +880,7 @@ def check_digit_invariant(before: str, after: str, removals: Sequence[Removed]) 
     return sorted(number for number, count in missing.items() if accounted[number] < count)
 
 
-# ---- Dictionary-driven Romanian spelling correction ----
+# ---- Dictionary-driven Romanian and English spelling correction ----
 
 FOLD = str.maketrans(
     {
@@ -908,9 +912,18 @@ ENGLISH_STOPWORDS = set("the and of is to in that for with as are this by from o
 FUNCTION_WORDS = set(
     "de la in cu si sa se ca pe un o a ai nu mai din dar tot sau ce iar prin fara spre dupa intre care este sunt prea unui unei".split()
 )
+ENGLISH_FUNCTION_WORDS = ENGLISH_STOPWORDS | set(
+    "a an at not no do does did if so but can may we you he she they was were has have had "
+    "into out up down over under after before between without within than then its our your".split()
+)
 # Prefixes that must never be peeled off a word ("contraexemplu" is one word).
 PREFIXES = set(
     "contra anti auto bio supra ultra extra intra inter para pseudo semi super trans poli mono micro macro mega neuro hidro termo foto electro multi post infra hiper hipo sub pre pro non ante circum".split()
+)
+ENGLISH_PREFIXES = set(
+    "anti auto bio contra de dis electro extra hyper hypo hydro infra inter intra macro mega "
+    "micro mono multi neuro non para photo poly post pre pro pseudo re semi sub super supra "
+    "thermo trans ultra un".split()
 )
 # Tokens that look run-together but are real words missing from the dictionary.
 KEEP = {"plantain", "organela", "fizicala"}
@@ -942,17 +955,21 @@ def fold(word: str) -> str:
 def build_dictionary(
     hunspell_dir: Path,
     *,
+    dictionary_name: str = "ro_RO",
     spellings: dict[str, str] | None = None,
     spelling_variants: dict[str, set[str]] | None = None,
 ) -> tuple[set[str], set[str]]:
-    """Expand ro_RO.dic with the ro_RO.aff affixes into ASCII-folded word sets.
+    """Expand a bundled Hunspell dictionary into ASCII-folded word sets.
 
     Returns (everything, common): ``common`` leaves out proper names (entries that
     only exist capitalised), so a name never becomes the result of a correction."""
     suffixes: dict[str, list] = collections.defaultdict(list)
     prefixes: dict[str, list] = collections.defaultdict(list)
+    cross_product: set[tuple[str, str]] = set()
     current = None
-    for line in (hunspell_dir / "ro_RO.aff").read_text(encoding="utf-8").splitlines():
+    for line in (
+        (hunspell_dir / f"{dictionary_name}.aff").read_text(encoding="utf-8-sig").splitlines()
+    ):
         parts = line.split()
         if (
             len(parts) == 4
@@ -961,6 +978,8 @@ def build_dictionary(
             and parts[3].isdigit()
         ):
             current = (parts[0], parts[1])
+            if parts[2] == "Y":
+                cross_product.add(current)
             continue
         if len(parts) >= 5 and parts[0] in ("SFX", "PFX") and (parts[0], parts[1]) == current:
             _, flag, strip, add, cond = parts[:5]
@@ -972,41 +991,76 @@ def build_dictionary(
             (suffixes if parts[0] == "SFX" else prefixes)[flag].append((strip, add, regex))
     words: set[str] = set()
     common: set[str] = set()
-    for line in (hunspell_dir / "ro_RO.dic").read_text(encoding="utf-8").splitlines()[1:]:
+    for line in (
+        (hunspell_dir / f"{dictionary_name}.dic").read_text(encoding="utf-8-sig").splitlines()[1:]
+    ):
         if not line.strip():
             continue
         stem, _, flags = line.partition("/")
         stem = stem.strip()
         forms = {stem}
+        cross_suffixes = {stem}
         for flag in flags:
             for strip, add, regex in suffixes.get(flag, ()):
                 if (regex and not regex.search(stem)) or (strip and not stem.endswith(strip)):
                     continue
-                forms.add(stem[: len(stem) - len(strip)] + add)
+                inflected = stem[: len(stem) - len(strip)] + add
+                forms.add(inflected)
+                if ("SFX", flag) in cross_product:
+                    cross_suffixes.add(inflected)
+        # Hunspell permits one prefix and one cross-enabled suffix, never arbitrary prefix stacks.
         for flag in flags:
             for strip, add, regex in prefixes.get(flag, ()):
-                for base in list(forms):
-                    if not regex or regex.search(base):
-                        forms.add(add + base)
+                bases = cross_suffixes if ("PFX", flag) in cross_product else {stem}
+                for base in bases:
+                    if (strip and not base.startswith(strip)) or (regex and not regex.search(base)):
+                        continue
+                    forms.add(add + base[len(strip) :])
         for form in sorted(forms):
             if form.isalpha():
-                words.add(fold(form))
+                normalized = fold(form)
+                words.add(normalized)
                 if not stem[:1].isupper():
-                    common.add(fold(form))
+                    common.add(normalized)
                     if spellings is not None:
-                        spellings.setdefault(fold(form), form)
+                        spellings.setdefault(normalized, form)
                     if spelling_variants is not None:
-                        spelling_variants.setdefault(fold(form), set()).add(form)
+                        spelling_variants.setdefault(normalized, set()).add(form)
     return words, common
 
 
-def detect_language(text: str) -> str:
+def detect_language(
+    text: str, dictionaries: Mapping[str, _SpellingDictionary] | None = None
+) -> str:
     words = [fold(w) for w in WORD.findall(text)]
     if not words:
         return "none"
     ro = sum(w in ROMANIAN_STOPWORDS for w in words) / len(words)
     en = sum(w in ENGLISH_STOPWORDS for w in words) / len(words)
-    return "ro" if ro > en * 1.5 else ("en" if en > ro * 1.5 else "mix")
+    markers = "ro" if ro > en * 1.5 else ("en" if en > ro * 1.5 else "mix")
+    if dictionaries is None or not {"ro", "en"}.issubset(dictionaries):
+        return markers
+    unique = set(words)
+    ro_hits = 0
+    en_hits = 0
+    for word in unique:
+        in_ro = word in dictionaries["ro"].common
+        in_en = word in dictionaries["en"].common
+        ro_hits += in_ro and not in_en
+        en_hits += in_en and not in_ro
+    # Shared vocabulary and unknown/scientific words cannot vote for either language.
+    if ro_hits + en_hits < max(5, len(unique) * 0.2):
+        return markers
+    vocabulary = (
+        "ro"
+        if ro_hits >= 2 * max(1, en_hits)
+        else ("en" if en_hits >= 2 * max(1, ro_hits) else "mix")
+    )
+    if vocabulary == "mix":
+        return markers
+    if markers == "mix" or markers == vocabulary:
+        return vocabulary
+    return "mix"
 
 
 def apply_case(original: str, replacement: str) -> str | None:
@@ -1026,12 +1080,17 @@ class Fixer:
         bigrams: collections.Counter[tuple[str, str]],
         *,
         spellings: dict[str, str] | None = None,
+        language: str = "ro",
     ) -> None:
         self.dict = dictionary
         self.common = common
         self.counts = counts
         self.bigrams = bigrams
         self.spellings = spellings
+        self.language = language
+        self.function_words = ENGLISH_FUNCTION_WORDS if language == "en" else FUNCTION_WORDS
+        self.prefixes = ENGLISH_PREFIXES if language == "en" else PREFIXES
+        self.keep = set() if language == "en" else KEEP
 
     def replacement(self, original: str, replacement: str) -> str | None:
         if self.spellings is not None:
@@ -1042,7 +1101,10 @@ class Fixer:
     def _is_nonword(self, frag: str) -> bool:
         low = fold(frag)
         return (
-            len(low) > 1 and low not in self.dict and low not in FUNCTION_WORDS and low not in KEEP
+            len(low) > 1
+            and low not in self.dict
+            and low not in self.function_words
+            and low not in self.keep
         )
 
     def join_pair(self, left: str, right: str) -> str | None:
@@ -1098,17 +1160,17 @@ class Fixer:
 
     # -- rule 2 -------------------------------------------------------------
     def _piece_ok(self, piece: str) -> bool:
-        if piece in FUNCTION_WORDS:
+        if piece in self.function_words:
             return True
         return (
             len(piece) >= 5
             and piece in self.common
             and self.counts.get(piece, 0) >= 100
-            and piece not in PREFIXES
+            and piece not in self.prefixes
         )
 
     def split_token(self, low: str) -> list[str] | None:
-        if len(low) < 8 or low in self.dict or low in KEEP or self.counts.get(low, 0) > 3:
+        if len(low) < 8 or low in self.dict or low in self.keep or self.counts.get(low, 0) > 3:
             return None
         best: list[str] | None = None
         best_score = 0.0
@@ -1124,10 +1186,10 @@ class Fixer:
                     options.append([mid, tail])
             for opt in options:
                 pieces = [left] + opt
-                if all(p in FUNCTION_WORDS for p in pieces):
+                if all(p in self.function_words for p in pieces):
                     continue
                 score = min(
-                    self.counts.get(p, 10**6 if p in FUNCTION_WORDS else 0) for p in pieces
+                    self.counts.get(p, 10**6 if p in self.function_words else 0) for p in pieces
                 ) / len(pieces)
                 if score > best_score:
                     best, best_score = pieces, score
@@ -1144,7 +1206,7 @@ class Fixer:
         return (deletes | transposes | replaces | inserts) - {word}
 
     def typo_fix(self, low: str) -> str | None:
-        if len(low) < 5 or low in self.dict or low in KEEP or self.counts.get(low, 0) > 2:
+        if len(low) < 5 or low in self.dict or low in self.keep or self.counts.get(low, 0) > 2:
             return None
         own = self.counts.get(low, 0)
         cands = []
@@ -1172,9 +1234,11 @@ class Fixer:
         return cands[0][1]
 
     def old_orthography_fix(self, low: str) -> str | None:
+        if self.language != "ro":
+            return None
         if low in OLD_ORTHOGRAPHY:
             return OLD_ORTHOGRAPHY[low]
-        if len(low) < 6 or low in self.dict or low in KEEP:
+        if len(low) < 6 or low in self.dict or low in self.keep:
             return None
         variants: set[str] = set()
         for old, new in OLD_SWAPS:
@@ -1302,12 +1366,54 @@ def _write(path: Path, cleaned: str, encoding: str) -> None:
     path.write_bytes(payload)
 
 
+@dataclass(frozen=True)
+class _SpellingDictionary:
+    words: set[str]
+    common: set[str]
+    spellings: dict[str, str]
+
+
+# Explicit language directories also cover short documents that have no stopwords.
+def _path_language(path: Path, source: Path) -> str | None:
+    for parent in path.parents:
+        if parent.parent.name.casefold() == "documents" and parent.name.casefold() in {"ro", "en"}:
+            return parent.name.casefold()
+    relative = path.relative_to(source)
+    if len(relative.parts) > 1 and relative.parts[0].casefold() in {"ro", "en"}:
+        return relative.parts[0].casefold()
+    if source.name.casefold() in {"ro", "en"}:
+        return source.name.casefold()
+    return None
+
+
+# Several distinct English markers avoid overriding a folder for a title or a stray quote.
+def _spelling_language(
+    path: Path,
+    source: Path,
+    text: str,
+    dictionaries: Mapping[str, _SpellingDictionary] | None = None,
+) -> str | None:
+    language = _path_language(path, source)
+    if language != "ro":
+        return language
+    words = [fold(word) for word in WORD.findall(text)]
+    english_markers = set(words) & (ENGLISH_STOPWORDS - ROMANIAN_STOPWORDS)
+    if (
+        len(words) >= 20
+        and len(english_markers) >= 4
+        and detect_language(text, dictionaries) == "en"
+    ):
+        return "en"
+    return language
+
+
 @dataclass
 class _SourceDocument:
     path: Path
     original: str
     encoding: str
     cleaned: str
+    language: str | None = None
     removals: list[Removed] = field(default_factory=list)
     corrections: list[tuple[int, int, str, str, str]] = field(default_factory=list)
     missing: list[str] = field(default_factory=list)
@@ -1330,11 +1436,9 @@ def _corpus_state(documents: Sequence[_SourceDocument]) -> tuple[tuple[bytes, bo
 # no-op. Planning must finish before writing even the first source document.
 def _stabilize_corpus(
     documents: Sequence[_SourceDocument],
-    dictionary: set[str],
-    common: set[str],
+    dictionaries: dict[str, _SpellingDictionary],
     *,
     fold_diacritics_to_ascii: bool,
-    spellings: dict[str, str],
 ) -> None:
     state = _corpus_state(documents)
     seen: set[tuple[tuple[bytes, bool], ...]] = set()
@@ -1342,9 +1446,7 @@ def _stabilize_corpus(
         if state in seen:
             raise RuntimeError("Cleaning cycle detected; no source documents were written")
         seen.add(state)
-        counts: collections.Counter[str] = collections.Counter()
-        bigrams: collections.Counter[tuple[str, str]] = collections.Counter()
-        romanian: list[_SourceDocument] = []
+        grouped: dict[str, list[_SourceDocument]] = {language: [] for language in dictionaries}
         for doc in documents:
             if doc.missing:
                 continue
@@ -1359,37 +1461,46 @@ def _stabilize_corpus(
                 doc.skip(missing)
                 continue
             doc.cleaned = cleaned
-            if detect_language(cleaned) != "ro":
-                continue
-            romanian.append(doc)
-            for line in cleaned.splitlines():
-                words = [fold(word) for word in WORD.findall(line)]
-                counts.update(words)
-                bigrams.update(zip(words, words[1:]))
-        if iteration == 1:
-            print(
-                f"Spelling dictionary: {len(dictionary):,} forms; Romanian files: {len(romanian)}",
-                flush=True,
+            language = doc.language or (
+                "ro" if detect_language(cleaned, dictionaries) == "ro" else None
             )
-        fixer = Fixer(
-            dictionary,
-            common,
-            counts,
-            bigrams,
-            spellings=None if fold_diacritics_to_ascii else spellings,
-        )
-        for doc in romanian:
-            fixed_lines: list[str] = []
-            for number, line in enumerate(doc.cleaned.split("\n"), 1):
-                fixed, changes = fixer.fix_line(line)
-                fixed_lines.append(fixed)
-                doc.corrections.extend(
-                    (iteration, number, rule, before, after) for rule, before, after in changes
+            if language in grouped:
+                grouped[language].append(doc)
+        for language, selected in grouped.items():
+            dictionary = dictionaries[language]
+            counts: collections.Counter[str] = collections.Counter()
+            bigrams: collections.Counter[tuple[str, str]] = collections.Counter()
+            for doc in selected:
+                for line in doc.cleaned.splitlines():
+                    words = [fold(word) for word in WORD.findall(line)]
+                    counts.update(words)
+                    bigrams.update(zip(words, words[1:]))
+            if iteration == 1:
+                print(
+                    f"Spelling dictionary ({language}): {len(dictionary.words):,} forms; "
+                    f"files: {len(selected)}",
+                    flush=True,
                 )
-            doc.cleaned = "\n".join(fixed_lines)
-            missing = check_digit_invariant(doc.original, doc.cleaned, doc.removals)
-            if missing:
-                doc.skip(missing)
+            fixer = Fixer(
+                dictionary.words,
+                dictionary.common,
+                counts,
+                bigrams,
+                spellings=None if fold_diacritics_to_ascii else dictionary.spellings,
+                language=language,
+            )
+            for doc in selected:
+                fixed_lines: list[str] = []
+                for number, line in enumerate(doc.cleaned.split("\n"), 1):
+                    fixed, changes = fixer.fix_line(line)
+                    fixed_lines.append(fixed)
+                    doc.corrections.extend(
+                        (iteration, number, rule, before, after) for rule, before, after in changes
+                    )
+                doc.cleaned = "\n".join(fixed_lines)
+                missing = check_digit_invariant(doc.original, doc.cleaned, doc.removals)
+                if missing:
+                    doc.skip(missing)
         next_state = _corpus_state(documents)
         changed = sum(before != after for before, after in zip(state, next_state))
         print(f"Planning pass {iteration}: {changed} document(s) changed", flush=True)
@@ -1409,9 +1520,9 @@ def clean_documents(
     fold_diacritics_to_ascii: bool = FOLD_DIACRITICS_BY_DEFAULT,
     spelling_report: Path | None = None,
 ) -> int:
-    """Compact every Markdown file and correct Romanian spelling.
+    """Compact every Markdown file and correct spelling for its language directory.
 
-    The dictionary is loaded from ``dictionaires/ro`` beside this script.
+    Dictionaries are loaded from ``dictionaires/ro`` and ``en`` beside this script.
     A TSV report is written even in dry-run mode; document bytes and timestamps
     remain unchanged then. Missing dictionaries and non-convergent plans fail
     before any source writes.
@@ -1429,25 +1540,41 @@ def clean_documents(
         (path for path in source.rglob("*.md") if path.is_file()),
         key=lambda item: item.relative_to(source).as_posix().casefold(),
     )
-    hunspell_dir = HUNSPELL_DIR.resolve()
-    spellings: dict[str, str] = {}
-    dictionary, common = build_dictionary(hunspell_dir, spellings=spellings)
-    spelling_report = (spelling_report or DEFAULT_SPELLING_REPORT).resolve()
-    if spelling_report in {path.resolve() for path in paths} | {
-        hunspell_dir / "ro_RO.dic",
-        hunspell_dir / "ro_RO.aff",
-    } or (spelling_report.is_relative_to(source) and spelling_report.suffix.lower() == ".md"):
-        raise ValueError("The spelling report must not overwrite a source document or dictionary")
     documents: list[_SourceDocument] = []
     for path in paths:
         decoded, encoding = _read(path)
         documents.append(_SourceDocument(path, decoded, encoding, decoded))
+    dictionary_sources: dict[str, tuple[Path, str]] = {}
+    if documents:
+        dictionary_sources["ro"] = (HUNSPELL_DIR.resolve(), "ro_RO")
+        dictionary_sources["en"] = (ENGLISH_HUNSPELL_DIR.resolve(), "en_GB")
+    dictionaries: dict[str, _SpellingDictionary] = {}
+    for language, (directory, name) in dictionary_sources.items():
+        spellings: dict[str, str] = {}
+        dictionary, common = build_dictionary(directory, dictionary_name=name, spellings=spellings)
+        dictionaries[language] = _SpellingDictionary(dictionary, common, spellings)
+    for doc in documents:
+        doc.language = _spelling_language(doc.path, source, doc.original, dictionaries)
+        if doc.language == "en" and _path_language(doc.path, source) == "ro":
+            print(
+                f"Dictionary override ro -> en: {doc.path.relative_to(source).as_posix()}",
+                flush=True,
+            )
+    spelling_report = (spelling_report or DEFAULT_SPELLING_REPORT).resolve()
+    dictionary_files = {
+        path.resolve()
+        for directory in {HUNSPELL_DIR, ENGLISH_HUNSPELL_DIR}
+        for path in directory.glob("*")
+        if path.suffix.lower() in {".dic", ".aff"}
+    }
+    if spelling_report in {path.resolve() for path in paths} | dictionary_files or (
+        spelling_report.is_relative_to(source) and spelling_report.suffix.lower() == ".md"
+    ):
+        raise ValueError("The spelling report must not overwrite a source document or dictionary")
     _stabilize_corpus(
         documents,
-        dictionary,
-        common,
+        dictionaries,
         fold_diacritics_to_ascii=fold_diacritics_to_ascii,
-        spellings=spellings,
     )
     changed = 0
     violations: list[tuple[str, list[str]]] = []
@@ -1523,6 +1650,8 @@ def parse_args() -> argparse.Namespace:
         "--source",
         type=Path,
         default=project_root / "medicina-naturista-documente" / "data" / "documents",
+        help="Root to clean recursively (default: medicina-naturista-documente/data/documents, "
+        "including ro and en)",
     )
     parser.add_argument(
         "--spelling-report",

@@ -1626,3 +1626,98 @@ description: chronological action log per session, consolidated weekly
 
 | Time | Action | File(s) | Outcome | ~Tokens |
 |------|--------|---------|---------|--------|
+| 12:06 | Created aiPlans/2026-10-29-rapoarte-ai-engleza-traducere-locala-romana.md | — | ~6193 |
+
+## Session: 2026-10-29 13:28
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+
+## Session: 2026-10-29 13:28
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 13:44 | Created aiPlans/2026-10-29-suport-romana-engleza.md | — | ~7222 |
+| 13:46 | Edited aiPlans/2026-10-29-suport-romana-engleza.md | 13→16 lines | ~679 |
+| 13:58 | Created src/backend/core/language.py | — | ~353 |
+| 13:58 | Edited src/backend/core/texts.py | modified catalog() | ~204 |
+| 14:01 | Created src/backend/resources/texts.en.toml | — | ~8519 |
+| 14:04 | Created src/backend/migrations/032_bilingual_chunks.sql | — | ~480 |
+| 14:04 | Created src/backend/migrations/034_bilingual_derived_generations.sql | — | ~276 |
+| 14:09 | Created src/backend/ai/prompts/en/generate_report_system.md | — | ~1592 |
+| 14:09 | Created src/backend/ai/prompts/en/condition_identification_system.md | — | ~647 |
+| 14:09 | Created src/backend/ai/prompts/en/message_classification_system.md | — | ~1114 |
+| 14:09 | Created src/backend/ai/prompts/en/herb_product_safety_system.md | — | ~665 |
+| 14:09 | Created src/backend/ai/prompts/en/herb_association_classification_system.md | — | ~531 |
+| 14:09 | Created src/backend/ai/prompts/en/herb_association_classification_transport.md | — | ~227 |
+| 14:09 | Created src/backend/ai/prompts/en/herb_safety_system.md | — | ~985 |
+| 14:09 | Created src/backend/ai/prompts/en/herb_safety_transport.md | — | ~158 |
+| 14:09 | Created src/backend/ai/prompts/en/herb_association_with_warnings_transport.md | — | ~261 |
+| 15:35 | Session end: 61 writes across 17 files (2026-10-29-loturi-raport-buget-tokeni.md, report_batches.py, client.py, config.py, report_models.py) | 0 reads | ~14298 tok |
+| 16:43 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 6→6 lines | ~64 |
+| 16:43 | Edited src/scripts/build_hybrid_index.py | modified items() | ~340 |
+| 16:44 | Created aiPlans/tmp/bilingual_final_probe.py | — | ~1663 |
+| 16:44 | Edited aiPlans/tmp/bilingual_final_probe.py | "\n" → " " | ~24 |
+| 16:45 | Edited src/tests/unit/ai/test_build_hybrid_index.py | 6→11 lines | ~170 |
+| 16:47 | Edited src/frontend/hooks/useStartup.ts | modified useStartup() | ~51 |
+| 16:47 | Edited src/frontend/hooks/useCategories.ts | modified useCategories() | ~203 |
+| 16:47 | Edited src/frontend/App.tsx | 1→3 lines | ~16 |
+| 16:48 | Edited src/frontend/lib/texts.ts | modified getLanguage() | ~567 |
+| 16:50 | Edited src/scripts/build_hybrid_index.py | modified current_language() | ~78 |
+| 16:50 | Edited src/tests/integration/test_index_integrity.py | modified object() | ~102 |
+| 16:50 | Edited src/tests/integration/test_herb_conditions.py | modified patch() | ~566 |
+| 16:51 | Edited src/backend/ai/conditions.py | modified _remainder() | ~64 |
+| 16:51 | Edited src/backend/ai/retrieval.py | 3→6 lines | ~82 |
+| 16:53 | Edited aiPlans/2026-10-29-suport-romana-engleza.md | expanded (+58 lines) | ~1611 |
+| 16:54 | Edited aiPlans/tmp/bilingual_final_probe.py | modified check_saved_safety() | ~1130 |
+| 16:54 | Edited src/backend/core/texts.py | "Validated Romanian copy; " → "Validated bilingual copy " | ~25 |
+| 16:54 | Edited src/backend/ai/herb_ranking.py | "Read a bounded catalog ra" → "Read a bounded ranking fr" | ~23 |
+| 16:54 | Edited src/backend/reporting/pdf.py | inline fix | ~22 |
+| 16:56 | Edited aiPlans/tmp/bilingual_final_probe.py | 2→3 lines | ~55 |
+| 16:56 | Edited aiPlans/2026-10-29-suport-romana-engleza.md | 1→2 lines | ~101 |
+| 16:57 | Edited aiPlans/2026-10-29-suport-romana-engleza.md | 1→2 lines | ~129 |
+| 17:05 | Edited src/frontend/components/Hero.tsx | modified Hero() | ~74 |
+| 17:05 | Edited src/frontend/App.tsx | 4→3 lines | ~46 |
+| 17:05 | Edited src/frontend/styles.css | expanded (+23 lines) | ~159 |
+| 17:06 | Edited src/frontend/components/Hero.tsx | 5→5 lines | ~114 |
+| 17:08 | Session end: 1 writes across 1 files (2026-10-29-rapoarte-ai-engleza-traducere-locala-romana.md) | 0 reads | ~6635 tok |
+
+## Session: 2026-10-29 17:13
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 20:52 | Session end: 42 writes across 30 files (2026-10-29-suport-romana-engleza.md, language.py, texts.py, texts.en.toml, 032_bilingual_chunks.sql) | 0 reads | ~33193 tok |
+
+## Session: 2026-10-30 07:29
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 07:30 | Deleted medicina-naturista-documente/data/documents/en/Partial Safe/Cristians Reports/Tratament naturist pentru gripă.docx.md | — | ~0 |
+| 07:30 | Created medicina-naturista-documente/data/documents/en/Partial Safe/Cristians Reports/Natural treatment for influenza.docx.md | — | ~1786 |
+| 07:38 | Created aiPlans/2026-10-30-clean-documents-english.md | — | ~239 |
+| 07:38 | Edited src/scripts/clean_documents.py | modified build_dictionary() | ~2113 |
+| 07:39 | Edited src/scripts/clean_documents.py | inline fix | ~12 |
+| 07:39 | Edited src/tests/unit/ai/test_document_spelling.py | modified test_english_directory_uses_english_dictionary_and_unscoped_files_keep_detection() | ~477 |
+| 07:39 | Edited README.md | modified indexare() | ~646 |
+| 07:41 | Created src/backend/ai/english_inflections.py | — | ~737 |
+| 07:41 | Edited src/backend/ai/herbs.py | modified __init__() | ~454 |
+| 07:41 | Edited src/backend/ai/herb_repository.py | inline fix | ~26 |
+| 07:41 | Edited src/backend/ai/herb_display.py | modified _dictionary() | ~241 |
+| 07:41 | Edited src/backend/core/herb_agreement.py | modified herb_agreement() | ~80 |
+| 07:42 | Edited src/scripts/clean_documents.py | modified any() | ~119 |
+| 07:42 | Edited src/backend/core/herb_agreement.py | modified _romanian_agreement() | ~105 |
+| 07:42 | Edited src/backend/ai/herbs.py | modified choice() | ~167 |
+| 07:42 | Edited README.md | expanded (+9 lines) | ~224 |
+| 07:43 | Edited src/tests/unit/ai/test_herb_inflections.py | modified test_longest_phrase_wins_and_foreign_names_stay_exact() | ~494 |
+| 07:43 | Edited src/tests/unit/ai/test_herb_ranking.py | modified test_bundled_dictionary_restores_inflected_words_and_keeps_ambiguity() | ~202 |
+| 07:46 | Edited src/backend/ai/english_inflections.py | modified _read_data() | ~605 |
+| 07:46 | Edited src/backend/ai/herb_display.py | 12→8 lines | ~77 |
+| 07:47 | Edited src/backend/ai/herbs.py | modified choice() | ~132 |
+| 07:59 | Edited src/scripts/clean_documents.py | modified _spelling_language() | ~336 |
+| 07:59 | Edited src/tests/unit/ai/test_document_spelling.py | expanded (+18 lines) | ~314 |
+| 07:59 | Edited README.md | expanded (+8 lines) | ~368 |
+| 08:00 | Edited README.md | inline fix | ~219 |
+| 08:00 | Edited src/tests/unit/ai/test_document_spelling.py | expanded (+12 lines) | ~146 |
+| 08:10 | Edited src/scripts/clean_documents.py | added 4 condition(s) | ~1027 |
+| 08:11 | Edited src/tests/unit/ai/test_document_spelling.py | expanded (+25 lines) | ~568 |
+| 08:14 | Edited src/scripts/clean_documents.py | modified sorted() | ~136 |

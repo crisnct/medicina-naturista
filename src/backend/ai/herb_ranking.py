@@ -1,4 +1,4 @@
-"""Read a bounded catalog ranking with regional Romanian names."""
+"""Read a bounded ranking from one language's published catalog generation."""
 
 from __future__ import annotations
 
@@ -18,6 +18,7 @@ from backend.config import Settings
 from backend.config import settings as default_settings
 from backend.core.contracts import ConditionTopResult, RankedHerb
 from backend.core.herb_categories import HERB_CATEGORIES, HerbCategory
+from backend.core.language import current_language
 from backend.core.operation_context import remaining_timeout
 
 TOP_HERBS_SQL = """
@@ -88,6 +89,10 @@ def _ranking_rows(
     query = TOP_HERBS_SQL.replace(
         "{category_filter}", "AND h.category = %s" if category else ""
     ).replace("{condition_filter}", CONDITION_FILTER_SQL if condition_id is not None else "")
+    if current_language() == "en":
+        query = query.replace(
+            "h.id, h.ro, h.latin", "h.id, COALESCE(NULLIF(h.en,''),h.latin) AS ro, h.latin", 1
+        ).replace("a.kind = 'ro_regional'", "a.kind = 'en_alt'")
     parameters: list[object] = [run_id]
     if category is not None:
         parameters.append(category)
@@ -140,14 +145,19 @@ def list_top_herbs_for_condition(
                 )
                 for segment in resolved.segments
             ):
-                choices = list(dict.fromkeys(item.name for item in resolved.conditions))[:10]
+                choices = list(dict.fromkeys(item.display_name for item in resolved.conditions))[
+                    :10
+                ]
                 if choices:
                     return {"status": "ambiguous", "choices": choices}
             return {"status": "not_found"}
         if len(matches) > 1:
-            return {"status": "ambiguous", "choices": [item.name for item in matches[:10]]}
+            return {"status": "ambiguous", "choices": [item.display_name for item in matches[:10]]}
         row = connection.execute(
-            "SELECT id, name FROM medical_conditions WHERE name = %s", (matches[0].name,)
+            "SELECT id, "
+            + ("en" if current_language() == "en" else "name")
+            + " FROM medical_conditions WHERE name = %s",
+            (matches[0].name,),
         ).fetchone()
         if row is None:
             raise IndexUnavailable("INDEX_RESYNC_REQUIRED")

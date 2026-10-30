@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-29T09:46:31.705Z",
-    "fileCount": 206,
+    "lastScanned": "2026-10-30T06:14:27.431Z",
+    "fileCount": 234,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "0219e4f636245113bf8bd91b40a4d90df3eabdfa625962d37d1fbc1450c61d81",
-    "storeUpdatedAt": "2026-10-29T09:46:31.716Z",
-    "rootHash": "e6a5d0b4858c6452"
+    "renderedHash": "731d6c9d54d85369afe45bcb5563b6f95e273d95cec17dca472c77eb9a448571",
+    "storeUpdatedAt": "2026-10-30T06:14:27.443Z",
+    "rootHash": "2d54c537903f3859"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -170,55 +170,55 @@
     },
     "src/frontend/styles.css": {
       "description": "Styles: 91 rules, 14 vars",
-      "tokens": 10420,
-      "hash": "d11d91e821baab4a",
-      "size": 36469,
-      "mtimeMs": 1793211306482.0476,
-      "updatedAt": "2026-10-28T18:15:07.281Z",
+      "tokens": 10558,
+      "hash": "838d5726873fa294",
+      "size": 36950,
+      "mtimeMs": 1793286351298.7678,
+      "updatedAt": "2026-10-29T15:05:52.267Z",
       "source": "hook"
     },
     "src/backend/core/texts.py": {
-      "description": "Validated Romanian copy; imports are inert and each process owns one immutable snapshot.",
-      "tokens": 867,
-      "hash": "74059c867402042e",
-      "size": 3032,
-      "mtimeMs": 1792551646276.3516,
-      "updatedAt": "2026-10-21T03:00:46.773Z",
+      "description": "Validated bilingual copy with immutable catalogs selected by execution context.",
+      "tokens": 1002,
+      "hash": "656ff09096ee6fb8",
+      "size": 3507,
+      "mtimeMs": 1793285679188.8271,
+      "updatedAt": "2026-10-29T14:54:39.933Z",
       "source": "hook",
       "symbols": [
         {
           "name": "validate_catalog",
           "kind": "fn",
-          "startLine": 20,
-          "endLine": 53,
+          "startLine": 21,
+          "endLine": 54,
           "tokens": 463
         },
         {
           "name": "catalog",
           "kind": "fn",
-          "startLine": 54,
-          "endLine": 58,
-          "tokens": 39
+          "startLine": 55,
+          "endLine": 60,
+          "tokens": 69
         },
         {
           "name": "tr",
           "kind": "fn",
-          "startLine": 59,
-          "endLine": 65,
-          "tokens": 75
+          "startLine": 61,
+          "endLine": 69,
+          "tokens": 109
         },
         {
           "name": "public_catalog",
           "kind": "fn",
-          "startLine": 66,
-          "endLine": 69,
-          "tokens": 42
+          "startLine": 70,
+          "endLine": 77,
+          "tokens": 68
         },
         {
           "name": "script_json",
           "kind": "fn",
-          "startLine": 70,
-          "endLine": 80,
+          "startLine": 78,
+          "endLine": 88,
           "tokens": 100
         }
       ]
@@ -242,27 +242,69 @@
       ]
     },
     "src/frontend/lib/texts.ts": {
-      "description": "Exports tr",
-      "tokens": 582,
-      "hash": "d57dc7d974d5e2a6",
-      "size": 2037,
-      "mtimeMs": 1792552548135.6565,
-      "updatedAt": "2026-10-21T03:15:49.017Z",
+      "description": "Exports Language, getLanguage, locale, useLanguage + 3 more",
+      "tokens": 1135,
+      "hash": "383ea9ee3c65754e",
+      "size": 3970,
+      "mtimeMs": 1793285333069.2236,
+      "updatedAt": "2026-10-29T14:48:53.642Z",
       "source": "hook",
       "symbols": [
         {
+          "name": "getLanguage",
+          "kind": "fn",
+          "startLine": 24,
+          "endLine": 27,
+          "tokens": 18
+        },
+        {
+          "name": "locale",
+          "kind": "fn",
+          "startLine": 28,
+          "endLine": 31,
+          "tokens": 25
+        },
+        {
+          "name": "subscribe",
+          "kind": "fn",
+          "startLine": 32,
+          "endLine": 36,
+          "tokens": 38
+        },
+        {
+          "name": "useLanguage",
+          "kind": "fn",
+          "startLine": 37,
+          "endLine": 40,
+          "tokens": 36
+        },
+        {
+          "name": "setLanguage",
+          "kind": "fn",
+          "startLine": 41,
+          "endLine": 52,
+          "tokens": 82
+        },
+        {
+          "name": "applyDocumentLanguage",
+          "kind": "fn",
+          "startLine": 53,
+          "endLine": 63,
+          "tokens": 106
+        },
+        {
           "name": "catalog",
           "kind": "fn",
-          "startLine": 14,
-          "endLine": 31,
-          "tokens": 317
+          "startLine": 64,
+          "endLine": 97,
+          "tokens": 440
         },
         {
           "name": "tr",
           "kind": "fn",
-          "startLine": 32,
-          "endLine": 40,
-          "tokens": 123
+          "startLine": 98,
+          "endLine": 108,
+          "tokens": 127
         }
       ]
     },
@@ -633,190 +675,190 @@
     },
     "src/backend/reporting/pdf.py": {
       "description": "Readable Romanian PDF report with source references next to each claim.",
-      "tokens": 14459,
-      "hash": "7b6127df2369934c",
-      "size": 51025,
-      "mtimeMs": 1792553027087.5918,
-      "updatedAt": "2026-10-21T03:23:48.104Z",
+      "tokens": 14517,
+      "hash": "c3334d8200ba6616",
+      "size": 51228,
+      "mtimeMs": 1793285679195.3374,
+      "updatedAt": "2026-10-29T14:54:40.510Z",
       "source": "hook",
       "symbols": [
         {
           "name": "section_presentation",
           "kind": "fn",
-          "startLine": 42,
-          "endLine": 73,
+          "startLine": 43,
+          "endLine": 74,
           "tokens": 420
         },
         {
           "name": "_register_fonts",
           "kind": "fn",
-          "startLine": 74,
-          "endLine": 92,
+          "startLine": 75,
+          "endLine": 93,
           "tokens": 233
         },
         {
           "name": "_draw_footer",
           "kind": "fn",
-          "startLine": 93,
-          "endLine": 102,
-          "tokens": 119
+          "startLine": 94,
+          "endLine": 103,
+          "tokens": 125
         },
         {
           "name": "_draw_botanical_motif",
           "kind": "fn",
-          "startLine": 103,
-          "endLine": 161,
+          "startLine": 104,
+          "endLine": 162,
           "tokens": 573
         },
         {
           "name": "_first_page",
           "kind": "fn",
-          "startLine": 162,
-          "endLine": 186,
+          "startLine": 163,
+          "endLine": 187,
           "tokens": 250
         },
         {
           "name": "_later_page",
           "kind": "fn",
-          "startLine": 187,
-          "endLine": 196,
+          "startLine": 188,
+          "endLine": 197,
           "tokens": 107
         },
         {
           "name": "BookmarkedParagraph",
           "kind": "class",
-          "startLine": 197,
-          "endLine": 211,
+          "startLine": 198,
+          "endLine": 212,
           "tokens": 112
         },
         {
           "name": "CoverPanel",
           "kind": "class",
-          "startLine": 212,
-          "endLine": 274,
+          "startLine": 213,
+          "endLine": 275,
           "tokens": 682
         },
         {
           "name": "RoundedSection",
           "kind": "class",
-          "startLine": 275,
-          "endLine": 393,
+          "startLine": 276,
+          "endLine": 394,
           "tokens": 1446
         },
         {
           "name": "NatureReportDocTemplate",
           "kind": "class",
-          "startLine": 394,
-          "endLine": 407,
+          "startLine": 395,
+          "endLine": 408,
           "tokens": 161
         },
         {
           "name": "build_reference_index",
           "kind": "fn",
-          "startLine": 408,
-          "endLine": 428,
+          "startLine": 409,
+          "endLine": 429,
           "tokens": 260
         },
         {
           "name": "sort_sections_by_relevance",
           "kind": "fn",
-          "startLine": 429,
-          "endLine": 452,
+          "startLine": 430,
+          "endLine": 453,
           "tokens": 308
         },
         {
           "name": "nutrition_display_groups",
           "kind": "fn",
-          "startLine": 453,
-          "endLine": 544,
+          "startLine": 454,
+          "endLine": 545,
           "tokens": 1025
         },
         {
           "name": "bibliography_label",
           "kind": "fn",
-          "startLine": 545,
-          "endLine": 920,
+          "startLine": 546,
+          "endLine": 921,
           "tokens": 3201
         },
         {
           "name": "_restore_romanian_diacritics",
           "kind": "fn",
-          "startLine": 921,
-          "endLine": 939,
-          "tokens": 216
+          "startLine": 922,
+          "endLine": 942,
+          "tokens": 232
         },
         {
           "name": "_join_romanian",
           "kind": "fn",
-          "startLine": 940,
-          "endLine": 950,
+          "startLine": 943,
+          "endLine": 953,
           "tokens": 166
         },
         {
           "name": "condition_names_for",
           "kind": "fn",
-          "startLine": 951,
-          "endLine": 964,
-          "tokens": 181
+          "startLine": 954,
+          "endLine": 970,
+          "tokens": 201
         },
         {
           "name": "report_title",
           "kind": "fn",
-          "startLine": 965,
-          "endLine": 980,
+          "startLine": 971,
+          "endLine": 986,
           "tokens": 216
         },
         {
           "name": "format_recommendation",
           "kind": "fn",
-          "startLine": 981,
-          "endLine": 989,
+          "startLine": 987,
+          "endLine": 995,
           "tokens": 118
         },
         {
           "name": "_compress_reference_numbers",
           "kind": "fn",
-          "startLine": 990,
-          "endLine": 1005,
+          "startLine": 996,
+          "endLine": 1011,
           "tokens": 165
         },
         {
           "name": "_reference_group_label",
           "kind": "fn",
-          "startLine": 1006,
-          "endLine": 1010,
+          "startLine": 1012,
+          "endLine": 1016,
           "tokens": 60
         },
         {
           "name": "_section_heading",
           "kind": "fn",
-          "startLine": 1011,
-          "endLine": 1028,
+          "startLine": 1017,
+          "endLine": 1034,
           "tokens": 195
         },
         {
           "name": "generation_summary_lines",
           "kind": "fn",
-          "startLine": 1029,
-          "endLine": 1053,
+          "startLine": 1035,
+          "endLine": 1059,
           "tokens": 248
         },
         {
           "name": "create_pdf",
           "kind": "fn",
-          "startLine": 1054,
-          "endLine": 1393,
+          "startLine": 1060,
+          "endLine": 1399,
           "tokens": 3281
         }
       ]
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 37785,
-      "hash": "f05673b8c9a5e419",
-      "size": 157533,
-      "mtimeMs": 1793266979077.9504,
-      "updatedAt": "2026-10-29T09:42:59.880Z",
+      "tokens": 39095,
+      "hash": "37d9bf013147c58b",
+      "size": 162929,
+      "mtimeMs": 1793340016054.8274,
+      "updatedAt": "2026-10-30T06:00:16.568Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -2238,278 +2280,278 @@
     },
     "src/scripts/build_hybrid_index.py": {
       "description": "Incrementally sync a traceable, local-only hybrid index for a Markdown",
-      "tokens": 17870,
-      "hash": "d323d8741b11451b",
-      "size": 62554,
-      "mtimeMs": 1793188426931.3867,
-      "updatedAt": "2026-10-28T11:53:48.315Z",
+      "tokens": 19158,
+      "hash": "14d4069ca490f5e8",
+      "size": 67064,
+      "mtimeMs": 1793285413725.853,
+      "updatedAt": "2026-10-29T14:50:14.230Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_build_stage",
           "kind": "fn",
-          "startLine": 99,
-          "endLine": 103,
+          "startLine": 106,
+          "endLine": 110,
           "tokens": 26
         },
         {
           "name": "_safe_index_error",
           "kind": "fn",
-          "startLine": 104,
-          "endLine": 128,
+          "startLine": 111,
+          "endLine": 135,
           "tokens": 270
         },
         {
           "name": "HerbsIndexContext",
           "kind": "class",
-          "startLine": 129,
-          "endLine": 145,
+          "startLine": 136,
+          "endLine": 152,
           "tokens": 131
         },
         {
           "name": "HerbsIndexStats",
           "kind": "class",
-          "startLine": 146,
-          "endLine": 167,
+          "startLine": 153,
+          "endLine": 174,
           "tokens": 141
         },
         {
           "name": "EmbeddingModel",
           "kind": "class",
-          "startLine": 168,
-          "endLine": 173,
+          "startLine": 175,
+          "endLine": 180,
           "tokens": 46
         },
         {
           "name": "_herbs_bitmap_bytes",
           "kind": "fn",
-          "startLine": 174,
-          "endLine": 180,
+          "startLine": 181,
+          "endLine": 187,
           "tokens": 111
         },
         {
           "name": "_prepare_herbs_index",
           "kind": "fn",
-          "startLine": 181,
-          "endLine": 247,
+          "startLine": 188,
+          "endLine": 254,
           "tokens": 694
         },
         {
           "name": "_load_herbs_backend",
           "kind": "fn",
-          "startLine": 248,
-          "endLine": 259,
+          "startLine": 255,
+          "endLine": 266,
           "tokens": 113
         },
         {
           "name": "_make_herbs_matcher",
           "kind": "fn",
-          "startLine": 260,
-          "endLine": 269,
+          "startLine": 267,
+          "endLine": 276,
           "tokens": 74
         },
         {
           "name": "_match_herbs",
           "kind": "fn",
-          "startLine": 270,
-          "endLine": 280,
+          "startLine": 277,
+          "endLine": 287,
           "tokens": 106
         },
         {
           "name": "_initialize_herbs_worker",
           "kind": "fn",
-          "startLine": 281,
-          "endLine": 287,
+          "startLine": 288,
+          "endLine": 294,
           "tokens": 60
         },
         {
           "name": "_scan_herbs_batch",
           "kind": "fn",
-          "startLine": 288,
-          "endLine": 302,
+          "startLine": 295,
+          "endLine": 309,
           "tokens": 167
         },
         {
           "name": "_prepared_herbs_workers",
           "kind": "fn",
-          "startLine": 303,
-          "endLine": 357,
+          "startLine": 310,
+          "endLine": 364,
           "tokens": 617
         },
         {
           "name": "_herbs_startup_job",
           "kind": "fn",
-          "startLine": 358,
-          "endLine": 365,
+          "startLine": 365,
+          "endLine": 372,
           "tokens": 75
         },
         {
           "name": "_herbs_condition_mask",
           "kind": "fn",
-          "startLine": 366,
-          "endLine": 374,
+          "startLine": 373,
+          "endLine": 381,
           "tokens": 87
         },
         {
           "name": "_new_herbs_pairs",
           "kind": "fn",
-          "startLine": 375,
-          "endLine": 385,
+          "startLine": 382,
+          "endLine": 392,
           "tokens": 113
         },
         {
           "name": "_herbs_metadata",
           "kind": "fn",
-          "startLine": 386,
-          "endLine": 395,
+          "startLine": 393,
+          "endLine": 402,
           "tokens": 115
         },
         {
           "name": "HerbsProgress",
           "kind": "class",
-          "startLine": 396,
-          "endLine": 429,
+          "startLine": 403,
+          "endLine": 436,
           "tokens": 409
         },
         {
           "name": "_rebuild_herbs_benefits",
           "kind": "fn",
-          "startLine": 430,
-          "endLine": 617,
-          "tokens": 2421
+          "startLine": 437,
+          "endLine": 637,
+          "tokens": 2612
         },
         {
           "name": "_indexed_herb_ids",
           "kind": "fn",
-          "startLine": 618,
-          "endLine": 632,
+          "startLine": 638,
+          "endLine": 652,
           "tokens": 173
         },
         {
           "name": "rebuild_herbs_only",
           "kind": "fn",
-          "startLine": 633,
-          "endLine": 692,
-          "tokens": 877
+          "startLine": 653,
+          "endLine": 713,
+          "tokens": 903
         },
         {
           "name": "GPUUsageMonitor",
           "kind": "class",
-          "startLine": 693,
-          "endLine": 771,
+          "startLine": 714,
+          "endLine": 792,
           "tokens": 771
         },
         {
           "name": "SourceFile",
           "kind": "class",
-          "startLine": 772,
-          "endLine": 787,
-          "tokens": 124
+          "startLine": 793,
+          "endLine": 809,
+          "tokens": 132
         },
         {
           "name": "Chunk",
           "kind": "class",
-          "startLine": 788,
-          "endLine": 807,
-          "tokens": 189
+          "startLine": 810,
+          "endLine": 830,
+          "tokens": 198
         },
         {
           "name": "utc_now",
           "kind": "fn",
-          "startLine": 808,
-          "endLine": 812,
+          "startLine": 831,
+          "endLine": 835,
           "tokens": 45
         },
         {
           "name": "sha256_bytes",
           "kind": "fn",
-          "startLine": 813,
-          "endLine": 819,
+          "startLine": 836,
+          "endLine": 842,
           "tokens": 75
         },
         {
           "name": "sha256_file",
           "kind": "fn",
-          "startLine": 820,
-          "endLine": 828,
+          "startLine": 843,
+          "endLine": 851,
           "tokens": 94
         },
         {
           "name": "read_markdown",
           "kind": "fn",
-          "startLine": 829,
-          "endLine": 839,
+          "startLine": 852,
+          "endLine": 862,
           "tokens": 123
         },
         {
           "name": "normalize_text",
           "kind": "fn",
-          "startLine": 840,
-          "endLine": 846,
+          "startLine": 863,
+          "endLine": 869,
           "tokens": 78
         },
         {
           "name": "_embedding_context",
           "kind": "fn",
-          "startLine": 847,
-          "endLine": 1527,
-          "tokens": 8034
+          "startLine": 870,
+          "endLine": 1634,
+          "tokens": 8995
         }
       ]
     },
     "src/backend/ai/herb_ranking.py": {
-      "description": "Read a bounded catalog ranking with regional Romanian names.",
-      "tokens": 1816,
-      "hash": "41fa5ee97ebd8d8c",
-      "size": 6354,
-      "mtimeMs": 1793172507623.267,
-      "updatedAt": "2026-10-28T07:28:28.437Z",
+      "description": "Read a bounded ranking from one language's published catalog generation.",
+      "tokens": 1942,
+      "hash": "aecf82d47f7a87fe",
+      "size": 6796,
+      "mtimeMs": 1793285679191.3337,
+      "updatedAt": "2026-10-29T14:54:40.220Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_validate_scope",
           "kind": "fn",
-          "startLine": 51,
-          "endLine": 58,
+          "startLine": 52,
+          "endLine": 59,
           "tokens": 91
         },
         {
           "name": "_ranking_connection",
           "kind": "fn",
-          "startLine": 59,
-          "endLine": 80,
+          "startLine": 60,
+          "endLine": 81,
           "tokens": 268
         },
         {
           "name": "_ranking_rows",
           "kind": "fn",
-          "startLine": 81,
-          "endLine": 108,
-          "tokens": 289
+          "startLine": 82,
+          "endLine": 113,
+          "tokens": 354
         },
         {
           "name": "list_top_herbs",
           "kind": "fn",
-          "startLine": 109,
-          "endLine": 116,
+          "startLine": 114,
+          "endLine": 121,
           "tokens": 90
         },
         {
           "name": "list_top_herbs_for_condition",
           "kind": "fn",
-          "startLine": 117,
-          "endLine": 161,
-          "tokens": 569
+          "startLine": 122,
+          "endLine": 171,
+          "tokens": 610
         }
       ]
     },
     "src/tests/unit/ai/test_build_hybrid_index.py": {
       "description": "FakeClock: make_chunk, embed, fake_embed, test_normalize_text_preserves_composed_romanian_diacritics",
-      "tokens": 25059,
-      "hash": "31503aa17e629870",
-      "size": 87713,
-      "mtimeMs": 1793050703255.9502,
-      "updatedAt": "2026-10-26T21:38:24.550Z",
+      "tokens": 25796,
+      "hash": "24551729c5476075",
+      "size": 90292,
+      "mtimeMs": 1793285117471.5684,
+      "updatedAt": "2026-10-29T14:45:18.460Z",
       "source": "hook",
       "symbols": [
         {
@@ -2544,35 +2586,35 @@
           "name": "ChunkingTests",
           "kind": "class",
           "startLine": 66,
-          "endLine": 1747,
-          "tokens": 21645
+          "endLine": 1758,
+          "tokens": 21812
         },
         {
           "name": "EmbeddingProgressTests",
           "kind": "class",
-          "startLine": 1748,
-          "endLine": 1876,
+          "startLine": 1759,
+          "endLine": 1887,
           "tokens": 1515
         },
         {
           "name": "EmbeddingProfileTests",
           "kind": "class",
-          "startLine": 1877,
-          "endLine": 1905,
+          "startLine": 1888,
+          "endLine": 1916,
           "tokens": 363
         },
         {
           "name": "make_source",
           "kind": "fn",
-          "startLine": 1906,
-          "endLine": 1919,
+          "startLine": 1917,
+          "endLine": 1930,
           "tokens": 115
         },
         {
           "name": "CategoryTreeTests",
           "kind": "class",
-          "startLine": 1920,
-          "endLine": 1983,
+          "startLine": 1931,
+          "endLine": 1994,
           "tokens": 808
         }
       ]
@@ -2597,11 +2639,11 @@
     },
     "src/tests/integration/test_herb_conditions.py": {
       "description": "Actual PostgreSQL DISTINCT, aliases and literal ILIKE matching in an isolated DB.",
-      "tokens": 9879,
-      "hash": "a2e5814768dc6392",
-      "size": 34587,
-      "mtimeMs": 1793050090516.432,
-      "updatedAt": "2026-10-26T21:28:11.960Z",
+      "tokens": 10090,
+      "hash": "61dc231fe6015f79",
+      "size": 35334,
+      "mtimeMs": 1793285413731.8506,
+      "updatedAt": "2026-10-29T14:50:14.916Z",
       "source": "hook",
       "symbols": [
         {
@@ -2685,8 +2727,8 @@
           "name": "test_top_limits_species_before_alias_join_and_orders_ties",
           "kind": "fn",
           "startLine": 344,
-          "endLine": 726,
-          "tokens": 5215
+          "endLine": 744,
+          "tokens": 5422
         }
       ]
     },
@@ -4512,246 +4554,246 @@
     },
     "src/scripts/clean_documents.py": {
       "description": "Rewrite Markdown source files in place so that the fragments sent to the AI",
-      "tokens": 18728,
-      "hash": "566c45e681c187c2",
-      "size": 65727,
-      "mtimeMs": 1792954933691.9338,
-      "updatedAt": "2026-10-25T19:02:14.585Z",
+      "tokens": 20372,
+      "hash": "b144f2b16bdbb40f",
+      "size": 71484,
+      "mtimeMs": 1793340866893.636,
+      "updatedAt": "2026-10-30T06:14:27.430Z",
       "source": "hook",
       "symbols": [
         {
           "name": "Removed",
           "kind": "class",
-          "startLine": 264,
-          "endLine": 270,
+          "startLine": 268,
+          "endLine": 274,
           "tokens": 35
         },
         {
           "name": "DigitInvariantError",
           "kind": "class",
-          "startLine": 271,
-          "endLine": 333,
+          "startLine": 275,
+          "endLine": 337,
           "tokens": 768
         },
         {
           "name": "clean_text",
           "kind": "fn",
-          "startLine": 334,
-          "endLine": 359,
+          "startLine": 338,
+          "endLine": 363,
           "tokens": 315
         },
         {
           "name": "_read",
           "kind": "fn",
-          "startLine": 360,
-          "endLine": 385,
+          "startLine": 364,
+          "endLine": 389,
           "tokens": 261
         },
         {
           "name": "_drop_blank_head",
           "kind": "fn",
-          "startLine": 386,
-          "endLine": 394,
+          "startLine": 390,
+          "endLine": 398,
           "tokens": 112
         },
         {
           "name": "_is_file_title",
           "kind": "fn",
-          "startLine": 395,
-          "endLine": 405,
+          "startLine": 399,
+          "endLine": 409,
           "tokens": 115
         },
         {
           "name": "_drop_ocr_note",
           "kind": "fn",
-          "startLine": 406,
-          "endLine": 424,
+          "startLine": 410,
+          "endLine": 428,
           "tokens": 240
         },
         {
           "name": "strip_extraction_metadata",
           "kind": "fn",
-          "startLine": 425,
-          "endLine": 485,
+          "startLine": 429,
+          "endLine": 489,
           "tokens": 732
         },
         {
           "name": "strip_page_markers",
           "kind": "fn",
-          "startLine": 486,
-          "endLine": 510,
+          "startLine": 490,
+          "endLine": 514,
           "tokens": 252
         },
         {
           "name": "collapse_blank_lines",
           "kind": "fn",
-          "startLine": 511,
-          "endLine": 522,
+          "startLine": 515,
+          "endLine": 526,
           "tokens": 128
         },
         {
           "name": "fold_diacritics",
           "kind": "fn",
-          "startLine": 523,
-          "endLine": 529,
+          "startLine": 527,
+          "endLine": 533,
           "tokens": 90
         },
         {
           "name": "section_end",
           "kind": "fn",
-          "startLine": 530,
-          "endLine": 541,
+          "startLine": 534,
+          "endLine": 545,
           "tokens": 107
         },
         {
           "name": "furniture_kind",
           "kind": "fn",
-          "startLine": 542,
-          "endLine": 551,
+          "startLine": 546,
+          "endLine": 555,
           "tokens": 76
         },
         {
           "name": "entry_density",
           "kind": "fn",
-          "startLine": 552,
-          "endLine": 567,
+          "startLine": 556,
+          "endLine": 571,
           "tokens": 236
         },
         {
           "name": "is_furniture_section",
           "kind": "fn",
-          "startLine": 568,
-          "endLine": 578,
+          "startLine": 572,
+          "endLine": 582,
           "tokens": 139
         },
         {
           "name": "strip_furniture_sections",
           "kind": "fn",
-          "startLine": 579,
-          "endLine": 611,
+          "startLine": 583,
+          "endLine": 615,
           "tokens": 369
         },
         {
           "name": "strip_colophon_lines",
           "kind": "fn",
-          "startLine": 612,
-          "endLine": 634,
+          "startLine": 616,
+          "endLine": 638,
           "tokens": 318
         },
         {
           "name": "_title_key",
           "kind": "fn",
-          "startLine": 635,
-          "endLine": 647,
+          "startLine": 639,
+          "endLine": 651,
           "tokens": 115
         },
         {
           "name": "_document_titles",
           "kind": "fn",
-          "startLine": 648,
-          "endLine": 657,
+          "startLine": 652,
+          "endLine": 661,
           "tokens": 113
         },
         {
           "name": "_is_running_header",
           "kind": "fn",
-          "startLine": 658,
-          "endLine": 674,
+          "startLine": 662,
+          "endLine": 678,
           "tokens": 209
         },
         {
           "name": "strip_repeated_lines",
           "kind": "fn",
-          "startLine": 675,
-          "endLine": 712,
+          "startLine": 679,
+          "endLine": 716,
           "tokens": 361
         },
         {
           "name": "_phone_digits",
           "kind": "fn",
-          "startLine": 713,
-          "endLine": 720,
+          "startLine": 717,
+          "endLine": 724,
           "tokens": 104
         },
         {
           "name": "_looks_like_phone",
           "kind": "fn",
-          "startLine": 721,
-          "endLine": 765,
+          "startLine": 725,
+          "endLine": 769,
           "tokens": 567
         },
         {
           "name": "_attached_label_spans",
           "kind": "fn",
-          "startLine": 766,
-          "endLine": 783,
+          "startLine": 770,
+          "endLine": 787,
           "tokens": 246
         },
         {
           "name": "strip_contact_details",
           "kind": "fn",
-          "startLine": 784,
-          "endLine": 833,
+          "startLine": 788,
+          "endLine": 837,
           "tokens": 498
         },
         {
           "name": "numbers",
           "kind": "fn",
-          "startLine": 834,
-          "endLine": 841,
+          "startLine": 838,
+          "endLine": 845,
           "tokens": 120
         },
         {
           "name": "_line_drop_removals",
           "kind": "fn",
-          "startLine": 842,
-          "endLine": 849,
+          "startLine": 846,
+          "endLine": 853,
           "tokens": 133
         },
         {
           "name": "_inline_link_removals",
           "kind": "fn",
-          "startLine": 850,
-          "endLine": 863,
+          "startLine": 854,
+          "endLine": 867,
           "tokens": 173
         },
         {
           "name": "accounted_numbers",
           "kind": "fn",
-          "startLine": 864,
-          "endLine": 872,
+          "startLine": 868,
+          "endLine": 876,
           "tokens": 118
         },
         {
           "name": "check_digit_invariant",
           "kind": "fn",
-          "startLine": 873,
-          "endLine": 1576,
-          "tokens": 7838
+          "startLine": 877,
+          "endLine": 1705,
+          "tokens": 9385
         }
       ]
     },
     "src/tests/unit/ai/test_document_spelling.py": {
-      "description": "DocumentSpellingTests: setUp, write, clean, rows + 17 more",
-      "tokens": 3256,
-      "hash": "3204c334dc9b0e2f",
-      "size": 11406,
-      "mtimeMs": 1792954622145.0706,
-      "updatedAt": "2026-10-25T18:57:02.592Z",
+      "description": "DocumentSpellingTests: setUp, write, clean, rows + 12 more",
+      "tokens": 4435,
+      "hash": "59276ab99a53dfe6",
+      "size": 15531,
+      "mtimeMs": 1793340701071.6382,
+      "updatedAt": "2026-10-30T06:11:41.558Z",
       "source": "hook",
       "symbols": [
         {
           "name": "DocumentSpellingTests",
           "kind": "class",
           "startLine": 16,
-          "endLine": 257,
-          "tokens": 2957
+          "endLine": 335,
+          "tokens": 4136
         },
         {
           "name": "SpellingCommandLineTests",
           "kind": "class",
-          "startLine": 258,
-          "endLine": 273,
+          "startLine": 336,
+          "endLine": 351,
           "tokens": 229
         }
       ]
@@ -4883,88 +4925,88 @@
     },
     "src/backend/ai/conditions.py": {
       "description": "Medical-condition matching over an ordered PostgreSQL catalog snapshot.",
-      "tokens": 3628,
-      "hash": "b90b41668cca36c5",
-      "size": 12700,
-      "mtimeMs": 1792987031869.6785,
-      "updatedAt": "2026-10-26T03:57:13.351Z",
+      "tokens": 3911,
+      "hash": "8427f8c00e3b8aa6",
+      "size": 13691,
+      "mtimeMs": 1793285498216.935,
+      "updatedAt": "2026-10-29T14:51:38.794Z",
       "source": "hook",
       "symbols": [
         {
           "name": "Condition",
           "kind": "class",
-          "startLine": 21,
-          "endLine": 34,
-          "tokens": 215
+          "startLine": 22,
+          "endLine": 40,
+          "tokens": 261
         },
         {
           "name": "QuerySegment",
           "kind": "class",
-          "startLine": 35,
-          "endLine": 43,
+          "startLine": 41,
+          "endLine": 49,
           "tokens": 66
         },
         {
           "name": "ResolvedQuery",
           "kind": "class",
-          "startLine": 44,
-          "endLine": 64,
+          "startLine": 50,
+          "endLine": 70,
           "tokens": 202
         },
         {
           "name": "_normalize",
           "kind": "fn",
-          "startLine": 65,
-          "endLine": 68,
+          "startLine": 71,
+          "endLine": 74,
           "tokens": 32
         },
         {
           "name": "make_condition",
           "kind": "fn",
-          "startLine": 69,
-          "endLine": 108,
-          "tokens": 400
+          "startLine": 75,
+          "endLine": 114,
+          "tokens": 412
         },
         {
           "name": "_fold_word",
           "kind": "fn",
-          "startLine": 109,
-          "endLine": 118,
+          "startLine": 115,
+          "endLine": 124,
           "tokens": 103
         },
         {
           "name": "_folded_words",
           "kind": "fn",
-          "startLine": 119,
-          "endLine": 122,
+          "startLine": 125,
+          "endLine": 128,
           "tokens": 40
         },
         {
           "name": "ConditionDictionary",
           "kind": "class",
-          "startLine": 123,
-          "endLine": 280,
-          "tokens": 2212
+          "startLine": 129,
+          "endLine": 294,
+          "tokens": 2332
         },
         {
           "name": "load_dictionary",
           "kind": "fn",
-          "startLine": 281,
-          "endLine": 290,
+          "startLine": 295,
+          "endLine": 304,
           "tokens": 90
         },
         {
           "name": "find_conditions",
           "kind": "fn",
-          "startLine": 291,
-          "endLine": 296,
+          "startLine": 305,
+          "endLine": 310,
           "tokens": 73
         },
         {
           "name": "resolve_query",
           "kind": "fn",
-          "startLine": 297,
-          "endLine": 299,
+          "startLine": 311,
+          "endLine": 313,
           "tokens": 27
         }
       ]
@@ -6165,44 +6207,67 @@
     },
     "src/backend/core/herb_agreement.py": {
       "description": "Romanian product-name agreement, using local noun paradigms and explicit display rules.",
-      "tokens": 1230,
-      "hash": "432af9a53e1806eb",
-      "size": 4303,
-      "mtimeMs": 1793161697145.1694,
-      "updatedAt": "2026-10-28T04:28:17.662Z",
+      "tokens": 1309,
+      "hash": "1993873d234b98b8",
+      "size": 4580,
+      "mtimeMs": 1793338945058.1921,
+      "updatedAt": "2026-10-30T05:42:25.549Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_plain",
           "kind": "fn",
-          "startLine": 24,
-          "endLine": 33,
+          "startLine": 25,
+          "endLine": 34,
           "tokens": 82
         },
         {
           "name": "_noun_forms",
           "kind": "fn",
-          "startLine": 34,
-          "endLine": 85,
+          "startLine": 35,
+          "endLine": 86,
           "tokens": 662
+        },
+        {
+          "name": "_romanian_agreement",
+          "kind": "fn",
+          "startLine": 87,
+          "endLine": 108,
+          "tokens": 261
         },
         {
           "name": "herb_agreement",
           "kind": "fn",
-          "startLine": 86,
-          "endLine": 106,
-          "tokens": 260
+          "startLine": 109,
+          "endLine": 112,
+          "tokens": 63
         }
       ]
     },
     "src/backend/ai/herb_display.py": {
-      "description": "Restore unambiguous Romanian herb spellings from the bundled Hunspell dictionary.",
-      "tokens": 411,
-      "hash": "e57565b5db7abb25",
-      "size": 1444,
-      "mtimeMs": 1793172507620.3025,
-      "updatedAt": "2026-10-28T07:28:28.135Z",
-      "source": "hook"
+      "description": "Restore unambiguous product spellings using the operation's bundled dictionary.",
+      "tokens": 528,
+      "hash": "f48bc30fc2f479e4",
+      "size": 1853,
+      "mtimeMs": 1793339200423.0571,
+      "updatedAt": "2026-10-30T05:46:41.495Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "_dictionary",
+          "kind": "fn",
+          "startLine": 18,
+          "endLine": 29,
+          "tokens": 108
+        },
+        {
+          "name": "romanian_herb_name",
+          "kind": "fn",
+          "startLine": 30,
+          "endLine": 53,
+          "tokens": 270
+        }
+      ]
     },
     "src/backend/ai/condition_ai.py": {
       "description": "Identification of the condition a message names when the dictionary does not",
@@ -6753,32 +6818,32 @@
     },
     "src/backend/ai/retrieval.py": {
       "description": "Local-only retrieval over the existing hybrid index.",
-      "tokens": 2681,
-      "hash": "178b738fb1372d50",
-      "size": 9383,
-      "mtimeMs": 1793255866836.3025,
-      "updatedAt": "2026-10-29T06:37:47.426Z",
+      "tokens": 2789,
+      "hash": "f4b76de3ff29bf19",
+      "size": 9759,
+      "mtimeMs": 1793285498219.956,
+      "updatedAt": "2026-10-29T14:51:39.102Z",
       "source": "hook",
       "symbols": [
         {
           "name": "consultation_query",
           "kind": "fn",
-          "startLine": 33,
-          "endLine": 39,
+          "startLine": 34,
+          "endLine": 40,
           "tokens": 95
         },
         {
           "name": "Retriever",
           "kind": "class",
-          "startLine": 40,
-          "endLine": 186,
-          "tokens": 2171
+          "startLine": 41,
+          "endLine": 192,
+          "tokens": 2258
         },
         {
           "name": "EvidenceSnapshot",
           "kind": "class",
-          "startLine": 187,
-          "endLine": 192,
+          "startLine": 193,
+          "endLine": 198,
           "tokens": 64
         }
       ]
@@ -7087,6 +7152,619 @@
           "startLine": 25,
           "endLine": 203,
           "tokens": 2232
+        }
+      ]
+    },
+    "aiPlans/2026-10-29-rapoarte-ai-engleza-traducere-locala-romana.md": {
+      "description": "Generarea raportului în engleză, cu traducere locală și afișare în română",
+      "tokens": 5806,
+      "hash": "33cad855bc1faa21",
+      "size": 24154,
+      "mtimeMs": 1793268388843.9841,
+      "updatedAt": "2026-10-29T10:06:29.376Z",
+      "source": "hook"
+    },
+    "aiPlans/2026-10-29-suport-romana-engleza.md": {
+      "description": "Plan: aplicație în română și engleză",
+      "tokens": 8477,
+      "hash": "e75998d44369931a",
+      "size": 35301,
+      "mtimeMs": 1793285867184.4023,
+      "updatedAt": "2026-10-29T14:57:47.764Z",
+      "source": "hook"
+    },
+    "src/backend/core/language.py": {
+      "description": "Validated languages and isolated execution scopes; no process-wide mutable locale.",
+      "tokens": 353,
+      "hash": "cc4ecd236c8307be",
+      "size": 1234,
+      "mtimeMs": 1793275113385.942,
+      "updatedAt": "2026-10-29T11:58:33.917Z",
+      "source": "hook"
+    },
+    "src/backend/resources/texts.en.toml": {
+      "description": "English application copy. Keys and named parameters match texts.ro.toml exactly.",
+      "tokens": 8519,
+      "hash": "6135f788a13956e3",
+      "size": 32080,
+      "mtimeMs": 1793275263725.111,
+      "updatedAt": "2026-10-29T12:01:04.198Z",
+      "source": "hook"
+    },
+    "src/backend/migrations/032_bilingual_chunks.sql": {
+      "description": "Existing data is Romanian. New importers always supply the root's explicit language.",
+      "tokens": 480,
+      "hash": "fe879f09c06a1e35",
+      "size": 1799,
+      "mtimeMs": 1793275475757.6333,
+      "updatedAt": "2026-10-29T12:04:36.273Z",
+      "source": "hook"
+    },
+    "src/backend/migrations/034_bilingual_derived_generations.sql": {
+      "description": "Each language owns its publication pointer; existing generations remain Romanian.",
+      "tokens": 276,
+      "hash": "ff0e1b634196d6ff",
+      "size": 1034,
+      "mtimeMs": 1793275475758.6338,
+      "updatedAt": "2026-10-29T12:04:36.500Z",
+      "source": "hook"
+    },
+    "src/backend/ai/prompts/en/generate_report_system.md": {
+      "description": "Role",
+      "tokens": 1492,
+      "hash": "478f6fc5e1c84949",
+      "size": 5972,
+      "mtimeMs": 1793275773936.3408,
+      "updatedAt": "2026-10-29T12:09:34.496Z",
+      "source": "hook"
+    },
+    "src/backend/ai/prompts/en/condition_identification_system.md": {
+      "description": "Identify conditions in one user message",
+      "tokens": 606,
+      "hash": "d57a6ad8c99972cd",
+      "size": 2424,
+      "mtimeMs": 1793275773939.335,
+      "updatedAt": "2026-10-29T12:09:34.704Z",
+      "source": "hook"
+    },
+    "src/backend/ai/prompts/en/message_classification_system.md": {
+      "description": "Deterministic message intent classification",
+      "tokens": 1045,
+      "hash": "5ac8b5aec60c224b",
+      "size": 4179,
+      "mtimeMs": 1793275773942.3477,
+      "updatedAt": "2026-10-29T12:09:34.940Z",
+      "source": "hook"
+    },
+    "src/backend/ai/prompts/en/herb_product_safety_system.md": {
+      "description": "Safety of one natural product",
+      "tokens": 624,
+      "hash": "85c29bdc1c864ee1",
+      "size": 2495,
+      "mtimeMs": 1793275773945.342,
+      "updatedAt": "2026-10-29T12:09:35.159Z",
+      "source": "hook"
+    },
+    "src/backend/ai/prompts/en/herb_association_classification_system.md": {
+      "description": "Classify source statements about a product",
+      "tokens": 498,
+      "hash": "893eacd4ad5cbf02",
+      "size": 1992,
+      "mtimeMs": 1793275773948.3472,
+      "updatedAt": "2026-10-29T12:09:35.383Z",
+      "source": "hook"
+    },
+    "src/backend/ai/prompts/en/herb_association_classification_transport.md": {
+      "description": "Complete-fragment classification output",
+      "tokens": 213,
+      "hash": "926337e699de6ece",
+      "size": 852,
+      "mtimeMs": 1793275773951.3477,
+      "updatedAt": "2026-10-29T12:09:35.603Z",
+      "source": "hook"
+    },
+    "src/backend/ai/prompts/en/herb_safety_system.md": {
+      "description": "Source-supported warnings and interactions",
+      "tokens": 923,
+      "hash": "74a934bb0ab94939",
+      "size": 3696,
+      "mtimeMs": 1793275773955.3455,
+      "updatedAt": "2026-10-29T12:09:35.817Z",
+      "source": "hook"
+    },
+    "src/backend/ai/prompts/en/herb_safety_transport.md": {
+      "description": "Warnings-only output",
+      "tokens": 149,
+      "hash": "39f2ca19ad30417c",
+      "size": 593,
+      "mtimeMs": 1793275773957.8716,
+      "updatedAt": "2026-10-29T12:09:36.032Z",
+      "source": "hook"
+    },
+    "src/backend/ai/prompts/en/herb_association_with_warnings_transport.md": {
+      "description": "Combined classification and warnings",
+      "tokens": 245,
+      "hash": "751c0565dbb2b67e",
+      "size": 979,
+      "mtimeMs": 1793275773960.8682,
+      "updatedAt": "2026-10-29T12:09:36.268Z",
+      "source": "hook"
+    },
+    "aiPlans/tmp/bilingual_final_probe.py": {
+      "description": "Manual synthetic acceptance checks; no AI, active database or corpus access.",
+      "tokens": 2681,
+      "hash": "12d0fefe8bd9d117",
+      "size": 9385,
+      "mtimeMs": 1793285766782.0696,
+      "updatedAt": "2026-10-29T14:56:07.297Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "check_saved_safety",
+          "kind": "fn",
+          "startLine": 37,
+          "endLine": 99,
+          "tokens": 881
+        },
+        {
+          "name": "main",
+          "kind": "fn",
+          "startLine": 100,
+          "endLine": 209,
+          "tokens": 1429
+        }
+      ]
+    },
+    "src/frontend/hooks/useStartup.ts": {
+      "description": "Exports useStartup",
+      "tokens": 248,
+      "hash": "091a01775ef9e4e7",
+      "size": 866,
+      "mtimeMs": 1793285271210.1675,
+      "updatedAt": "2026-10-29T14:47:51.759Z",
+      "source": "hook"
+    },
+    "src/frontend/hooks/useCategories.ts": {
+      "description": "Exports useCategories",
+      "tokens": 388,
+      "hash": "acf8ae5f300e5d02",
+      "size": 1355,
+      "mtimeMs": 1793285271212.8877,
+      "updatedAt": "2026-10-29T14:47:52.055Z",
+      "source": "hook"
+    },
+    "src/frontend/App.tsx": {
+      "description": "App",
+      "tokens": 1757,
+      "hash": "b28f546a52cc3091",
+      "size": 6150,
+      "mtimeMs": 1793286351293.2373,
+      "updatedAt": "2026-10-29T15:05:52.050Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "App",
+          "kind": "fn",
+          "startLine": 15,
+          "endLine": 128,
+          "tokens": 1510
+        }
+      ]
+    },
+    "src/tests/integration/test_index_integrity.py": {
+      "description": "Failure injection and actual PostgreSQL advisory-lock semantics.",
+      "tokens": 3935,
+      "hash": "7eb2ebf1dd9f8468",
+      "size": 13771,
+      "mtimeMs": 1793285413728.848,
+      "updatedAt": "2026-10-29T14:50:14.557Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "postgres",
+          "kind": "fn",
+          "startLine": 28,
+          "endLine": 35,
+          "tokens": 35
+        },
+        {
+          "name": "corpus",
+          "kind": "fn",
+          "startLine": 36,
+          "endLine": 53,
+          "tokens": 159
+        },
+        {
+          "name": "sync",
+          "kind": "fn",
+          "startLine": 54,
+          "endLine": 66,
+          "tokens": 146
+        },
+        {
+          "name": "test_shared_text_version_rejects_old_index_and_rebuilds_unchanged_source",
+          "kind": "fn",
+          "startLine": 67,
+          "endLine": 86,
+          "tokens": 244
+        },
+        {
+          "name": "snapshot",
+          "kind": "fn",
+          "startLine": 87,
+          "endLine": 99,
+          "tokens": 170
+        },
+        {
+          "name": "test_every_failure_preserves_previous_generation",
+          "kind": "fn",
+          "startLine": 100,
+          "endLine": 152,
+          "tokens": 599
+        },
+        {
+          "name": "test_dictionary_only_change_rebuilds_and_missing_fingerprint_rebuilds",
+          "kind": "fn",
+          "startLine": 153,
+          "endLine": 172,
+          "tokens": 226
+        },
+        {
+          "name": "test_dictionary_change_during_calculation_aborts_publication",
+          "kind": "fn",
+          "startLine": 173,
+          "endLine": 195,
+          "tokens": 236
+        },
+        {
+          "name": "test_reader_finishes_before_writer_and_new_readers_refuse_maintenance",
+          "kind": "fn",
+          "startLine": 196,
+          "endLine": 221,
+          "tokens": 222
+        },
+        {
+          "name": "test_writers_serialize_and_connection_loss_releases_lock",
+          "kind": "fn",
+          "startLine": 222,
+          "endLine": 245,
+          "tokens": 252
+        },
+        {
+          "name": "test_empty_none_mixed_stale_and_cache_generation",
+          "kind": "fn",
+          "startLine": 246,
+          "endLine": 276,
+          "tokens": 367
+        },
+        {
+          "name": "test_http_maintenance_keeps_snapshot_generation_and_download_available",
+          "kind": "fn",
+          "startLine": 277,
+          "endLine": 345,
+          "tokens": 919
+        }
+      ]
+    },
+    "src/frontend/components/Hero.tsx": {
+      "description": "Hero",
+      "tokens": 505,
+      "hash": "43a8c73a2271efcf",
+      "size": 1765,
+      "mtimeMs": 1793286382149.729,
+      "updatedAt": "2026-10-29T15:06:22.961Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "Hero",
+          "kind": "fn",
+          "startLine": 6,
+          "endLine": 41,
+          "tokens": 444
+        }
+      ]
+    },
+    "medicina-naturista-documente/data/documents/en/Partial Safe/Cristians Reports/Natural treatment for influenza.docx.md": {
+      "description": "Natural treatments for INFLUENZA",
+      "tokens": 1675,
+      "hash": "eea6370cc0f9f04a",
+      "size": 6721,
+      "mtimeMs": 1793338208661.9817,
+      "updatedAt": "2026-10-30T05:30:09.425Z",
+      "source": "hook"
+    },
+    "aiPlans/2026-10-30-clean-documents-english.md": {
+      "description": "English document cleanup",
+      "tokens": 224,
+      "hash": "26691be723ed90cf",
+      "size": 895,
+      "mtimeMs": 1793338714512.1082,
+      "updatedAt": "2026-10-30T05:38:34.999Z",
+      "source": "hook"
+    },
+    "src/backend/ai/english_inflections.py": {
+      "description": "Catalog-scoped British English noun forms from the bundled Hunspell dictionary.",
+      "tokens": 970,
+      "hash": "fc1ab24ce14b4eb4",
+      "size": 3394,
+      "mtimeMs": 1793339200420.4724,
+      "updatedAt": "2026-10-30T05:46:41.067Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "_read_data",
+          "kind": "fn",
+          "startLine": 16,
+          "endLine": 31,
+          "tokens": 204
+        },
+        {
+          "name": "_forms",
+          "kind": "fn",
+          "startLine": 32,
+          "endLine": 44,
+          "tokens": 142
+        },
+        {
+          "name": "spelling_variants",
+          "kind": "fn",
+          "startLine": 45,
+          "endLine": 60,
+          "tokens": 154
+        },
+        {
+          "name": "word_variants",
+          "kind": "fn",
+          "startLine": 61,
+          "endLine": 92,
+          "tokens": 370
+        }
+      ]
+    },
+    "src/backend/ai/herbs.py": {
+      "description": "PostgreSQL plants/products and the strict parser for offline botanical sources.",
+      "tokens": 3360,
+      "hash": "da6d935fcf591ff7",
+      "size": 11760,
+      "mtimeMs": 1793339242258.9084,
+      "updatedAt": "2026-10-30T05:47:22.807Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "HerbNames",
+          "kind": "class",
+          "startLine": 30,
+          "endLine": 56,
+          "tokens": 195
+        },
+        {
+          "name": "SourceHerb",
+          "kind": "class",
+          "startLine": 57,
+          "endLine": 61,
+          "tokens": 19
+        },
+        {
+          "name": "Herb",
+          "kind": "class",
+          "startLine": 62,
+          "endLine": 76,
+          "tokens": 156
+        },
+        {
+          "name": "parse_herbs",
+          "kind": "fn",
+          "startLine": 77,
+          "endLine": 116,
+          "tokens": 460
+        },
+        {
+          "name": "HerbCatalog",
+          "kind": "class",
+          "startLine": 117,
+          "endLine": 271,
+          "tokens": 1955
+        },
+        {
+          "name": "load_herbs",
+          "kind": "fn",
+          "startLine": 272,
+          "endLine": 289,
+          "tokens": 178
+        }
+      ]
+    },
+    "src/backend/ai/herb_repository.py": {
+      "description": "Coherent PostgreSQL herb snapshots, cached by database and full content.",
+      "tokens": 1874,
+      "hash": "fba5ad4aa02b7c05",
+      "size": 6556,
+      "mtimeMs": 1793338883035.666,
+      "updatedAt": "2026-10-30T05:41:24.093Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "HerbCatalogUnavailable",
+          "kind": "class",
+          "startLine": 33,
+          "endLine": 42,
+          "tokens": 72
+        },
+        {
+          "name": "HerbCatalogSnapshot",
+          "kind": "class",
+          "startLine": 43,
+          "endLine": 48,
+          "tokens": 30
+        },
+        {
+          "name": "catalog_fingerprint",
+          "kind": "fn",
+          "startLine": 49,
+          "endLine": 58,
+          "tokens": 90
+        },
+        {
+          "name": "clear_herb_catalog_cache",
+          "kind": "fn",
+          "startLine": 59,
+          "endLine": 63,
+          "tokens": 25
+        },
+        {
+          "name": "read_herbs",
+          "kind": "fn",
+          "startLine": 64,
+          "endLine": 118,
+          "tokens": 592
+        },
+        {
+          "name": "catalog_snapshot",
+          "kind": "fn",
+          "startLine": 119,
+          "endLine": 134,
+          "tokens": 174
+        },
+        {
+          "name": "read_herb_benefit_counts",
+          "kind": "fn",
+          "startLine": 135,
+          "endLine": 146,
+          "tokens": 134
+        },
+        {
+          "name": "load_herb_benefit_scores",
+          "kind": "fn",
+          "startLine": 147,
+          "endLine": 176,
+          "tokens": 430
+        }
+      ]
+    },
+    "src/tests/unit/ai/test_herb_inflections.py": {
+      "description": "Regression examples for Romanian plant names across lookup and routing.",
+      "tokens": 2003,
+      "hash": "970a2a6971fd07a8",
+      "size": 7047,
+      "mtimeMs": 1793338992023.9487,
+      "updatedAt": "2026-10-30T05:43:12.531Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "catalog",
+          "kind": "fn",
+          "startLine": 39,
+          "endLine": 59,
+          "tokens": 172
+        },
+        {
+          "name": "test_lookup_and_free_text_agree",
+          "kind": "fn",
+          "startLine": 60,
+          "endLine": 67,
+          "tokens": 104
+        },
+        {
+          "name": "test_complete_plant_questions_bypass_model_and_resolve_in_catalog",
+          "kind": "fn",
+          "startLine": 68,
+          "endLine": 83,
+          "tokens": 231
+        },
+        {
+          "name": "test_similar_substrings_and_unrelated_dictionary_words_do_not_match",
+          "kind": "fn",
+          "startLine": 84,
+          "endLine": 88,
+          "tokens": 55
+        },
+        {
+          "name": "test_longest_phrase_wins_and_foreign_names_stay_exact",
+          "kind": "fn",
+          "startLine": 89,
+          "endLine": 112,
+          "tokens": 380
+        },
+        {
+          "name": "test_literal_name_precedes_another_names_inflection",
+          "kind": "fn",
+          "startLine": 113,
+          "endLine": 120,
+          "tokens": 95
+        },
+        {
+          "name": "test_shared_inflected_alias_preserves_all_species_and_choice_constraints",
+          "kind": "fn",
+          "startLine": 121,
+          "endLine": 132,
+          "tokens": 170
+        },
+        {
+          "name": "test_two_inflected_plants_still_need_clarification",
+          "kind": "fn",
+          "startLine": 133,
+          "endLine": 144,
+          "tokens": 131
+        },
+        {
+          "name": "test_explicit_remedies_keep_their_route",
+          "kind": "fn",
+          "startLine": 145,
+          "endLine": 153,
+          "tokens": 100
+        },
+        {
+          "name": "test_no_dictionary_keeps_literal_matching",
+          "kind": "fn",
+          "startLine": 154,
+          "endLine": 170,
+          "tokens": 211
+        }
+      ]
+    },
+    "src/tests/unit/ai/test_herb_ranking.py": {
+      "description": "test_display_preserves_names_and_restores_known_accents, test_bundled_dictionary_restores_inflected_",
+      "tokens": 890,
+      "hash": "8295d4b4dcdac9e5",
+      "size": 3135,
+      "mtimeMs": 1793338992023.9487,
+      "updatedAt": "2026-10-30T05:43:12.867Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "test_display_preserves_names_and_restores_known_accents",
+          "kind": "fn",
+          "startLine": 27,
+          "endLine": 43,
+          "tokens": 143
+        },
+        {
+          "name": "test_bundled_dictionary_restores_inflected_words_and_keeps_ambiguity",
+          "kind": "fn",
+          "startLine": 44,
+          "endLine": 58,
+          "tokens": 208
+        },
+        {
+          "name": "test_dictionary_missing_keeps_names_without_ai",
+          "kind": "fn",
+          "startLine": 59,
+          "endLine": 68,
+          "tokens": 105
+        },
+        {
+          "name": "test_invalid_limits_never_open_database",
+          "kind": "fn",
+          "startLine": 69,
+          "endLine": 77,
+          "tokens": 92
+        },
+        {
+          "name": "test_index_lock_conflict_does_not_query_ranking",
+          "kind": "fn",
+          "startLine": 78,
+          "endLine": 85,
+          "tokens": 116
         }
       ]
     }

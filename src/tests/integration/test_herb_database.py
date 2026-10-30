@@ -23,7 +23,7 @@ from scripts.bootstrap_database import ensure_database
 from tests.support.postgres import PostgresFixture
 
 fixture = PostgresFixture()
-INITIAL_FINGERPRINT = "e2e6c0528a460d4464a11b9e3c6824e6f449453f991b23c2158143344a17bdd4"
+INITIAL_FINGERPRINT = "089372aabe9a0f34610d94d2c0596dc4289a56c2740333d77a30f90f6ced1d1b"
 
 
 def setUpModule():
@@ -70,7 +70,7 @@ class HerbDatabaseTests(unittest.TestCase):
             self.assertEqual(len(items), 1585)
             self.assertEqual({h.id for h in items}, set(range(1, 1587)) - {1212})
             self.assertEqual(repository.catalog_fingerprint(items), INITIAL_FINGERPRINT)
-            self.assertEqual(sum(not h.en for h in items), 79)
+            self.assertEqual(sum(not h.en for h in items), 0)
             self.assertEqual(
                 connection.execute(
                     "SELECT kind, count(*) FROM herb_aliases GROUP BY kind ORDER BY kind"
@@ -202,7 +202,7 @@ class HerbDatabaseTests(unittest.TestCase):
             connection.execute("INSERT INTO owner_sessions(token_hash) VALUES (%s)", ("a" * 64,))
             connection.execute("INSERT INTO sync_metadata(key,value) VALUES ('test','unchanged')")
             connection.execute(
-                "DROP TABLE herb_safety_evidence,herb_safety_warnings,herb_safety_analysis,"
+                "DROP TABLE herb_safety_messages,herb_product_safety_results,herb_product_safety_cache,herb_product_safety_runs,herb_safety_evidence,herb_safety_warnings,herb_safety_analysis,"
                 "herb_safety_cache,herb_safety_runs,herb_caution_evidence,herb_caution_pairs,herb_caution_rankings,"
                 "herb_caution_cache,herb_caution_runs,herb_positive_evidence,herb_positive_pairs,"
                 "herb_positive_rankings,herb_positive_cache,herb_positive_runs,herbs_benefits,herb_aliases,herbs"
@@ -233,6 +233,10 @@ class HerbDatabaseTests(unittest.TestCase):
                         "027_essential_oil_source_aliases.sql",
                         "028_herb_caution_rankings.sql",
                         "029_herb_safety_warnings.sql",
+                        "030_herb_safety_concise_messages.sql",
+                        "031_herb_product_safety_knowledge.sql",
+                        "034_bilingual_derived_generations.sql",
+                        "035_bilingual_product_catalog.sql",
                     ],
                 ),
             )
@@ -261,7 +265,7 @@ class HerbDatabaseTests(unittest.TestCase):
                 "SELECT *,xmin::text FROM herb_aliases ORDER BY id"
             ).fetchall()
             benefits = connection.execute(
-                "SELECT *,xmin::text FROM herbs_benefits ORDER BY id"
+                "SELECT id,herb_id,medical_condition_id,xmin::text FROM herbs_benefits ORDER BY id"
             ).fetchall()
             oids = connection.execute(
                 "SELECT 'herb_aliases'::regclass::oid, 'herbs_benefits'::regclass::oid, 'herbs'::regclass::oid"
@@ -320,6 +324,10 @@ class HerbDatabaseTests(unittest.TestCase):
                 "027_essential_oil_source_aliases.sql",
                 "028_herb_caution_rankings.sql",
                 "029_herb_safety_warnings.sql",
+                "030_herb_safety_concise_messages.sql",
+                "031_herb_product_safety_knowledge.sql",
+                "034_bilingual_derived_generations.sql",
+                "035_bilingual_product_catalog.sql",
             ],
         )
         with psycopg.connect(self.url) as connection:
@@ -332,7 +340,8 @@ class HerbDatabaseTests(unittest.TestCase):
                     row[2],
                     row[3],
                     "seminte de in" if row[3] == "linum usitatissimum" else row[4],
-                    row[5],
+                    row[5]
+                    or next((a[2] for a in aliases if a[1] == row[0] and a[3] == "en_alt"), row[3]),
                     row[6],
                 )
                 for row in original
@@ -373,7 +382,7 @@ class HerbDatabaseTests(unittest.TestCase):
             )
             self.assertEqual(
                 connection.execute(
-                    "SELECT *,xmin::text FROM herbs_benefits ORDER BY id"
+                    "SELECT id,herb_id,medical_condition_id,xmin::text FROM herbs_benefits ORDER BY id"
                 ).fetchall(),
                 benefits,
             )

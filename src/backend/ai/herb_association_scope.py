@@ -12,15 +12,17 @@ from backend.ai.herb_index_catalog import normalize_herb_name
 
 # Generic treatment subsections inherit their disease; a new disease closes that scope.
 _SUBSECTION = re.compile(
-    r"^(?:uz intern|uz extern|tratament|recomandari|plante|administrare|dozare|doze|"
+    r"^(?:internal use|external use|treatment|recommendations|herbs|administration|dosage|preparation|diet|nutrition|foods|remedies|recipes|warnings|precautions|contraindications|uz intern|uz extern|tratament|recomandari|plante|administrare|dozare|doze|"
     r"mod de preparare|preparare|dieta|nutritie|nutrienti|suplimente|alimente|remedii|"
     r"retete|preparate|atentionari|precautii|contraindicatii)\b"
 )
-_CLINICAL_HEADING = re.compile(r"^(?:afectiuni|boli|boala|tulburari|maladii)\b")
+_CLINICAL_HEADING = re.compile(
+    r"^(?:conditions|diseases|disorders|afectiuni|boli|boala|tulburari|maladii)\b"
+)
 # OCR can leave one or two short carry-over words before an otherwise clinical title.
 _OCR_HEADING = re.compile(r"(?:[a-zăâîșț]+[-\s]+){1,2}[A-ZĂÂÎȘȚ][A-ZĂÂÎȘȚ \t-]{3,}")
 _INSTRUCTION = re.compile(
-    r"\b(?:se|sunt|este|are|ajuta|contine|bea|folos\w*|utiliz\w*|infuz\w*|"
+    r"\b(?:use|take|drink|contains|helps|capsules|teaspoons|se|sunt|este|are|ajuta|contine|bea|folos\w*|utiliz\w*|infuz\w*|"
     r"lingur\w*|capsul\w*|mg|ml|tinctur\w*|flori|frunze)\b"
 )
 _INTRODUCTION = re.compile(

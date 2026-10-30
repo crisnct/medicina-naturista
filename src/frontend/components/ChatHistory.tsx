@@ -1,4 +1,4 @@
-import { tr } from "../lib/texts";
+import { getLanguage, tr } from "../lib/texts";
 import { useMemo } from "react";
 import type { ChatMessage, FragmentItem, ReportModel } from "../api/types";
 import { MessageBubble } from "./MessageBubble";
@@ -56,8 +56,9 @@ export function ChatHistory({
       aria-label={tr("interface.chat_history_label")}
     >
       {history.filter((message) => !(message.kind === "text" && message.generationSearchId)).map((message, index) => (
+        <div key={index} lang={message.language ?? "ro"}>
+        {message.language && message.language !== getLanguage() && message.role === "assistant" && <small className="history-language">{message.language === "en" ? "English" : "Română"}</small>}
         <MessageBubble
-          key={index}
           message={message}
           fragments={message.kind === "generate" ? fragmentsBySearch.get(message.searchId) : undefined}
           onGenerate={onGenerate}
@@ -67,6 +68,7 @@ export function ChatHistory({
           actionsDisabled={actionsDisabled}
           generationFeedback={message.kind === "generate" ? generationFeedback?.[message.searchId] ?? persistedFeedback.get(message.searchId) : undefined}
         />
+        </div>
       ))}
       {pending && <TypingIndicator label={pendingLabel} />}
     </div>

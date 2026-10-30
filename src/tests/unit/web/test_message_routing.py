@@ -138,9 +138,9 @@ def test_top_returns_names_and_aliases_without_search_or_report(web):
         "De exemplu, trimiteți **1** pentru primul produs din listă.\n\n"
         "Numărul reprezintă afecțiuni distincte cu recomandări pozitive identificate în surse.\n"
         "Sunt disponibile 2 produse cu scor pozitiv din cele 20 solicitate.\n"
-        "1. **Mușețel** (Matricaria Chamomilla) — util(ă) în "
+        "1. **Mușețel** (Matricaria Chamomilla) — util în "
         "1156 afecțiuni (denumiri regionale: romaniță, matricea)\n"
-        "2. **Păr** (Pyrus Communis) — util(ă) în 1 afecțiune"
+        "2. **Păr** (Pyrus Communis) — util în 1 afecțiune"
     )
     test.deps.top_herbs.assert_called_once_with(20, None)
     assert test.deps.store.get(sid, tab).profile.health_problem == ""

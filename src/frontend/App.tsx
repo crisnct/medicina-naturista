@@ -1,5 +1,5 @@
-import { tr } from "./lib/texts";
-import { useEffect } from "react";
+import { applyDocumentLanguage, setLanguage, useLanguage, tr, type Language } from "./lib/texts";
+import { useEffect, useState } from "react";
 import { Hero } from "./components/Hero";
 import { ChatHistory } from "./components/ChatHistory";
 import { Composer } from "./components/Composer";
@@ -9,13 +9,36 @@ import { useConversation } from "./hooks/useConversation";
 import { useCategories } from "./hooks/useCategories";
 import { useSearchSignals } from "./hooks/useSearchSignals";
 import { useStartup } from "./hooks/useStartup";
+import { useQueryClient } from "@tanstack/react-query";
 import { api } from "./api/client";
 
 export function App() {
+  const language = useLanguage();
+  const queryClient = useQueryClient();
+  const [changingLanguage, setChangingLanguage] = useState(false);
+  const [languageError, setLanguageError] = useState(false);
   const conversation = useConversation();
   const startup = useStartup();
   const categories = useCategories(startup.ready);
   const searchSignals = useSearchSignals();
+
+  useEffect(() => { applyDocumentLanguage(); }, []);
+
+  const changeLanguage = async (next: Language) => {
+    if (next === language) return;
+    setChangingLanguage(true);
+    setLanguageError(false);
+    try {
+      await api.changeLanguage(next);
+      setLanguage(next);
+      conversation.clearBanner();
+      await queryClient.invalidateQueries({ queryKey: ["categories"] });
+    } catch {
+      setLanguageError(true);
+    } finally {
+      setChangingLanguage(false);
+    }
+  };
 
   useEffect(() => {
     const handlePageHide = () => api.unloadSession();
@@ -31,14 +54,22 @@ export function App() {
   }, []);
 
   const handleSend = (message: string, onAccepted: () => void) => {
-    if (!startup.ready || categories.isLoading) return;
+    if (!startup.ready || categories.isLoading || changingLanguage) return;
     conversation.clearBanner();
     conversation.sendMessage(message, Array.from(categories.selected), searchSignals.signals, onAccepted);
   };
 
   return (
     <div id="app-shell">
-      <Hero />
+      <Hero controls={<div className="language-selector">
+        <label htmlFor="application-language">{language === "en" ? "Language" : "Limbă"}</label>
+        <select id="application-language" value={language}
+          disabled={changingLanguage || conversation.isLoading || conversation.isSending || conversation.isGenerating || conversation.isReconnecting || !startup.ready}
+          onChange={(event) => void changeLanguage(event.target.value as Language)}>
+          <option value="ro">Română</option><option value="en">English</option>
+        </select>
+      </div>} />
+      {languageError && <p role="alert">{tr("interface.api_unexpected_error")}</p>}
       <div id="conversation-card">
         {startup.message && (
           <div className="startup-notice" role="status">
@@ -62,7 +93,7 @@ export function App() {
             reportModels={conversation.reportModels}
             defaultReportModel={conversation.defaultReportModel}
             allowedReportModels={conversation.allowedReportModels}
-            actionsDisabled={!startup.ready || conversation.needsSessionRecovery || conversation.isReconnecting || conversation.isSending || conversation.isGenerating}
+            actionsDisabled={changingLanguage || !startup.ready || conversation.needsSessionRecovery || conversation.isReconnecting || conversation.isSending || conversation.isGenerating}
             generationFeedback={conversation.generationFeedback}
           />
         )}
@@ -74,7 +105,7 @@ export function App() {
         )}
         {!conversation.isError && (
           <>
-            <Composer disabled={!startup.ready || categories.isLoading || conversation.isLoading || conversation.isSending || conversation.isGenerating || conversation.needsSessionRecovery || conversation.isReconnecting} processing={conversation.isSending} onSend={handleSend} />
+            <Composer disabled={changingLanguage || !startup.ready || categories.isLoading || conversation.isLoading || conversation.isSending || conversation.isGenerating || conversation.needsSessionRecovery || conversation.isReconnecting} processing={conversation.isSending} onSend={handleSend} />
             <CategoryFilterPanel
               tree={categories.tree}
               selected={categories.selected}

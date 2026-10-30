@@ -41,7 +41,7 @@ describe("plant association results", () => {
     const warningText = "Precauție sintetică: <script>alert(1)</script>.";
     const safetyLookup = vi.spyOn(api, "getHerbSafety").mockImplementation(async (_group, offset) => ({
       herbId: 1, safetyRunId: "safety-one", warningsStatus: "partial", warningsCount: 2,
-      warnings: [{ id: offset === 0 ? warningId : "b".repeat(64), text: offset === 0 ? warningText : "A doua atenționare sintetică.", kind: "administration", partners: [], sourcesCount: 1 }],
+      warnings: [{ id: offset === 0 ? warningId : "b".repeat(64), text: offset === 0 ? warningText : "A doua atenționare sintetică.", kind: "warning", partners: [], sourcesCount: 0 }],
       nextOffset: offset === 0 ? 1 : null,
     }));
     const safetyEvidence = vi.spyOn(api, "getHerbSafetyEvidence").mockResolvedValue({
@@ -58,7 +58,7 @@ describe("plant association results", () => {
     }} /></QueryClientProvider>);
     const positive = within(screen.getByRole("region", { name: "Afecțiuni în care este utilă" }));
     const negative = within(screen.getByRole("region", { name: "Afecțiuni în care este interzisă" }));
-    const heading = screen.getByRole("heading", { name: /utilă în 2 afecțiuni din catalog/ });
+    const heading = screen.getByRole("heading", { name: /Afecțiuni în care este utilă - 2/ });
     expect(heading).toBeInTheDocument();
     expect(screen.getByRole("list", { name: "Afecțiuni asociate" })).toBeInTheDocument();
     expect(positive.getAllByRole("listitem").map((item) => item.textContent)).toEqual(["Gastrită", "Insomnie"]);
@@ -79,9 +79,8 @@ describe("plant association results", () => {
     expect(safetyEvidence).not.toHaveBeenCalled();
     fireEvent.click(safetyRegion.getByRole("button", { name: "Încarcă mai multe" }));
     expect(await safetyRegion.findByText("A doua atenționare sintetică.")).toBeInTheDocument();
-    fireEvent.click(safetyRegion.getAllByText(/Vezi sursa/)[0]);
-    await waitFor(() => expect(safetyRegion.getByRole("article")).toHaveTextContent("Sursă pentru precauția sintetică."));
-    expect(safetyEvidence).toHaveBeenCalledWith("group-one", warningId, 0, expect.any(AbortSignal));
+    expect(safetyRegion.queryByText(/Vezi sursa/)).not.toBeInTheDocument();
+    expect(safetyEvidence).not.toHaveBeenCalled();
     fireEvent.click(negative.getByText(/Vezi fragmente sursă/));
     expect(await negative.findByText("Interdicție sintetică pentru Zorbita.")).toBeInTheDocument();
     expect(lookup).toHaveBeenCalledWith("group-one", null, 0, expect.any(AbortSignal), "contraindication");
@@ -106,17 +105,17 @@ describe("plant association results", () => {
     fireEvent.change(filter, { target: { value: "all" } });
     fireEvent.click(positive.getByText(/Vezi fragmente sursă/));
     fireEvent.click(positive.getByText(/Vezi fragmente sursă/));
-    await client.invalidateQueries({ queryKey: ["herb-evidence", "group-one", 1, "run-one", null, "positive", "caution-one"] });
+    await client.invalidateQueries({ queryKey: ["herb-evidence", "ro", "group-one", 1, "run-one", null, "positive", "caution-one"] });
     expect(await screen.findByRole("alert")).toHaveTextContent("Repetați întrebarea.");
     expect(positive.queryByRole("article")).not.toBeInTheDocument();
     expect(negative.getByRole("article")).toBeInTheDocument();
-    expect(screen.getByRole("heading", { name: /utilă în 2 afecțiuni/ })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: /Afecțiuni în care este utilă - 2/ })).toBeInTheDocument();
     client.clear();
   });
 
   it("distinguishes a known plant with zero associations", () => {
     render(<HerbConditionsPanel message={{ ...message, entriesCount: 0, conditions: [], contraindicationsStatus: "ready", contraindicationsCount: 0, contraindications: [] }} />);
-    expect(screen.getByRole("heading", { name: /utilă în 0 afecțiuni din catalog/ })).toBeInTheDocument();
+    expect(screen.getByRole("heading", { name: /Afecțiuni în care este utilă - 0/ })).toBeInTheDocument();
     expect(screen.getByText(/Intrarea există în catalog/)).toBeInTheDocument();
     expect(screen.queryByRole("list")).not.toBeInTheDocument();
     expect(screen.getByText(/Nu au fost identificate interdicții explicite/)).toBeInTheDocument();

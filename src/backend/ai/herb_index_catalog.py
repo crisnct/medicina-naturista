@@ -33,7 +33,7 @@ def read_index_catalogs(connection):
     """Two aggregated queries, preserving exact condition terms and all herb owners."""
     conditions = connection.execute(
         "SELECT c.id, c.name, COALESCE(array_agg(DISTINCT s.synonym ORDER BY s.synonym) "
-        "FILTER (WHERE s.synonym IS NOT NULL), ARRAY[]::text[]) "
+        "FILTER (WHERE s.synonym IS NOT NULL), ARRAY[]::text[]) || ARRAY[c.en] "
         "FROM medical_conditions c LEFT JOIN medical_condition_synonyms s "
         "ON s.medical_condition_id=c.id GROUP BY c.id, c.name ORDER BY c.id"
     ).fetchall()

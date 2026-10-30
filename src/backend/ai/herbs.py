@@ -8,9 +8,11 @@ from collections.abc import Sequence
 from dataclasses import dataclass
 
 from backend.ai.conditions import _normalize
+from backend.ai.english_inflections import word_variants as english_word_variants
 from backend.ai.romanian_inflections import word_variants
 from backend.core.herb_categories import BOTANICAL_CATEGORY as BOTANICAL_CATEGORY
 from backend.core.herb_categories import PRODUCT_CATEGORIES as PRODUCT_CATEGORIES
+from backend.core.language import current_language
 
 logger = logging.getLogger("naturist.herbs")
 
@@ -63,6 +65,9 @@ class Herb(HerbNames):
 
     @property
     def choice(self) -> str:
+        if current_language() == "en":
+            name = self.en or self.latin
+            return f"{name} ({self.latin})" if self.latin and name != self.latin else name
         return f"{self.ro} ({self.latin})" if self.latin else self.ro
 
 
@@ -111,6 +116,7 @@ def parse_herbs(text: str) -> list[SourceHerb]:
 
 class HerbCatalog:
     def __init__(self, herbs: list[Herb]) -> None:
+        self.language = current_language()
         self.herbs = herbs
         self._by_id = {herb.id: herb for herb in herbs}
         # normalized Latin name or Latin synonym -> species
@@ -118,8 +124,10 @@ class HerbCatalog:
         # normalized name of any kind -> species carrying it, in catalogue order
         self._by_name: dict[str, list[Herb]] = {}
         romanian_names: set[str] = set()
+        english_names: set[str] = set()
         for herb in herbs:
             romanian_names.update(_normalize(name) for name in (herb.ro, *herb.ro_regional))
+            english_names.update(_normalize(name) for name in (herb.en, *herb.en_alt) if name)
             for latin in (herb.latin, *herb.latin_synonyms):
                 if latin:
                     self._by_latin.setdefault(_normalize(latin), herb)
@@ -127,17 +135,26 @@ class HerbCatalog:
                 owners = self._by_name.setdefault(_normalize(name), [])
                 if herb not in owners:
                     owners.append(herb)
-        variants = word_variants(
-            frozenset(word for name in romanian_names for word in name.split()) | _PLANT_PARTS
+        selected_names = english_names if self.language == "en" else romanian_names
+        if self.language == "en":
+            selected_names.difference_update(self._by_latin)
+        parts = (
+            frozenset("bud flower leaf leaves root bark fruit seed".split())
+            if self.language == "en"
+            else _PLANT_PARTS
         )
-        self._romanian_names = frozenset(romanian_names)
-        self._plant_parts = frozenset(form for part in _PLANT_PARTS for form in variants[part])
-        # Expand Romanian names word by word; Latin and English stay exact.
+        expand = english_word_variants if self.language == "en" else word_variants
+        variants = expand(
+            frozenset(word for name in selected_names for word in name.split()) | parts
+        )
+        self._request_names = frozenset(selected_names)
+        self._plant_parts = frozenset(form for part in parts for form in variants[part])
+        # Expand selected-language names word by word; Latin stays exact.
         # There is no Cartesian product of multiword names and no fuzzy spelling.
         self._phrases: dict[str, list[tuple[str, tuple[frozenset[str], ...]]]] = {}
         for name in sorted(self._by_name):
             phrase = tuple(
-                variants[word] if name in romanian_names else frozenset((word,))
+                variants[word] if name in selected_names else frozenset((word,))
                 for word in name.split()
             )
             if not phrase:
@@ -155,7 +172,7 @@ class HerbCatalog:
         return self._by_latin.get(_normalize(latin))
 
     # Every species that carries `name` as any of its names (case and
-    # diacritics ignored, Romanian inflections accepted); several when shared.
+    # diacritics ignored, selected-language inflections accepted); several when shared.
     def lookup(self, name: str) -> list[Herb]:
         key = _normalize(name)
         if not key:
@@ -168,13 +185,13 @@ class HerbCatalog:
         return [herb for herb in self.herbs if herb.id in owners]
 
     # Request-only candidates must not broaden corpus mentions or report citations.
-    # Complete names win; a Romanian prefix uses whole words and preserves ambiguity.
+    # Complete names win; a selected-language prefix preserves whole words and ambiguity.
     def request_matches(self, name: str) -> list[Herb]:
         matches = self.lookup(name)
         if matches:
             return matches
         key = _normalize(name)
-        part, separator, subject = key.partition(" de ")
+        part, separator, subject = key.partition(" of " if self.language == "en" else " de ")
         if separator and part in self._plant_parts:
             key = subject
             matches = self.lookup(key)
@@ -186,7 +203,7 @@ class HerbCatalog:
         names = {
             term
             for term, phrase in self._phrases.get(words[0], ())
-            if term in self._romanian_names
+            if term in self._request_names
             and len(words) < len(phrase)
             and all(word in forms for word, forms in zip(words, phrase))
         }
@@ -220,7 +237,13 @@ class HerbCatalog:
             herb
             for herb in self.herbs
             if _normalize(herb.choice) in allowed
-            and reply in {_normalize(herb.choice), _normalize(herb.ro), _normalize(herb.latin)}
+            and reply
+            in {
+                _normalize(herb.choice),
+                _normalize(herb.ro),
+                _normalize(herb.en),
+                _normalize(herb.latin),
+            }
         ]
         if not matches:
             matches = [herb for herb in self.lookup(message) if _normalize(herb.choice) in allowed]

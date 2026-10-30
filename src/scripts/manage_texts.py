@@ -17,6 +17,8 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--generate", action="store_true")
     parser.add_argument("--public-json", action="store_true")
+    parser.add_argument("--language", choices=("ro", "en"), default="ro")
+    parser.add_argument("--all-public-json", action="store_true")
     args = parser.parse_args()
     with CATALOG.open("rb") as stream:
         sections = tomllib.load(stream)
@@ -32,10 +34,16 @@ def main() -> None:
     public = {
         key: value for key, value in values.items() if key.split(".")[0] in ("common", "interface")
     }
-    if args.public_json:
-        from backend.core.texts import catalog
+    if args.all_public_json:
+        from backend.core.texts import public_catalog
 
-        catalog()
+        sys.stdout.reconfigure(encoding="utf-8")
+        print(json.dumps({lang: public_catalog(lang) for lang in ("ro", "en")}, ensure_ascii=False))
+        return
+    if args.public_json:
+        from backend.core.texts import catalog, public_catalog
+
+        public = public_catalog(args.language)
         sys.stdout.reconfigure(encoding="utf-8")
         print(json.dumps(public, ensure_ascii=False))
         return
@@ -68,7 +76,8 @@ def main() -> None:
         )
     from backend.core.texts import catalog
 
-    catalog()
+    catalog("ro")
+    catalog("en")
     print(f"Validated {len(values)} texts ({len(public)} public).")
 
 

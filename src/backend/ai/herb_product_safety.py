@@ -11,6 +11,7 @@ from typing import Any, Literal
 from backend.ai.herb_association_rules import content_hash
 from backend.ai.herbs import Herb
 from backend.config import Settings
+from backend.core.language import current_language, read_prompt
 
 MessageType = Literal["warning", "contraindication", "interaction"]
 MESSAGE_TYPES = ("warning", "contraindication", "interaction")
@@ -31,13 +32,14 @@ def catalog_identity(herbs: tuple[Herb, ...]) -> str:
 
 
 def product_prompt() -> str:
-    return PROMPT_PATH.read_text(encoding="utf-8").strip()
+    return read_prompt(PROMPT_PATH)
 
 
 def product_semantic(settings: Settings) -> dict[str, Any]:
     return {
         "version": 1,
         "source": "model_knowledge",
+        "language": current_language(),
         "prompt": content_hash(product_prompt()),
         "validation_version": 1,
         "max_chars": MAX_CHARS,

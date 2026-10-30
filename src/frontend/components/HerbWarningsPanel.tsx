@@ -13,7 +13,7 @@ const groups = [
 
 function WarningsList({ message }: { message: SafetyMessage }) {
   const query = useInfiniteQuery({
-    queryKey: ["herb-product-safety", message.groupId, message.herbId, message.safetyRunId],
+    queryKey: ["herb-product-safety", message.language ?? "ro", message.groupId, message.herbId, message.safetyRunId],
     initialPageParam: 0,
     queryFn: ({ pageParam, signal }) => api.getHerbSafety(message.groupId, pageParam, signal),
     getNextPageParam: (page) => page.nextOffset ?? undefined,

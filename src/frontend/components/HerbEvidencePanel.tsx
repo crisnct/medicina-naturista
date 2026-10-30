@@ -28,7 +28,7 @@ export function HerbEvidencePanel({ message, evidenceKind = "positive" }: { mess
   const fragmentsCount = negative ? message.contraindicationFragmentsCount : message.fragmentsCount;
   const documentsCount = negative ? message.contraindicationDocumentsCount : message.documentsCount;
   const query = useInfiniteQuery({
-    queryKey: ["herb-evidence", message.groupId, message.herbId, message.positiveRunId, conditionId, evidenceKind, message.cautionRunId],
+    queryKey: ["herb-evidence", message.language ?? "ro", message.groupId, message.herbId, message.positiveRunId, conditionId, evidenceKind, message.cautionRunId],
     initialPageParam: 0,
     queryFn: ({ pageParam, signal }) => negative
       ? api.getHerbEvidence(message.groupId, conditionId, pageParam, signal, evidenceKind)

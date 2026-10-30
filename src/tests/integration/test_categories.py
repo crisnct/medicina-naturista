@@ -6,6 +6,7 @@ import unittest
 
 from backend.ai import db as db_module
 from backend.ai.categories import load_category_tree
+from backend.ai.condition_repository import FINGERPRINT_VERSION
 from tests.support.postgres import PostgresFixture
 
 _fixture = PostgresFixture()
@@ -48,7 +49,7 @@ class LoadCategoryTreeTests(unittest.TestCase):
                 "model_name": DEFAULT_MODEL,
                 "model_dimension": str(db_module._embedding_dimension(connection)),
                 "dictionary_fingerprint": dictionary_snapshot(connection)[0],
-                "dictionary_fingerprint_version": "1",
+                "dictionary_fingerprint_version": str(FINGERPRINT_VERSION),
                 "passage_profile": passage_profile(profile),
                 "text_repr_version": index_constants.TEXT_REPR_VERSION,
                 "index_generation": "category-test",

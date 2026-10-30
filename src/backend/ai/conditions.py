@@ -8,6 +8,7 @@ from dataclasses import dataclass
 from difflib import get_close_matches
 
 from backend.ai.query_terms import plain
+from backend.core.language import Language, current_language
 
 # Typo tolerance (difflib ratio, 0-1): strict when the whole query is compared
 # to a term, looser as a last resort when nothing else matched.
@@ -21,6 +22,11 @@ MAX_MATCHED_CONDITIONS = 2
 class Condition:
     name: str
     terms: tuple[str, ...]  # canonical name + synonyms, original spelling, no duplicates
+    english: str = ""
+
+    @property
+    def display_name(self) -> str:
+        return (self.english or self.name) if current_language() == "en" else self.name
 
 
 # One comma-separated expression of a message: the conditions it names and the
@@ -66,7 +72,7 @@ def _normalize(value: str) -> str:
     return " ".join(re.findall(r"[^\W_]+", plain(value), flags=re.UNICODE))
 
 
-def make_condition(name: str, synonyms: Iterable[str] = ()) -> Condition:
+def make_condition(name: str, synonyms: Iterable[str] = (), *, english: str = "") -> Condition:
     """Construct effective terms using the original normalization/dedup rules."""
     if not isinstance(name, str) or not _normalize(name):
         raise ValueError("Condition name must be a non-empty string")
@@ -82,7 +88,7 @@ def make_condition(name: str, synonyms: Iterable[str] = ()) -> Condition:
         if key and key not in seen:
             seen.add(key)
             terms.append(part)
-    return Condition(name=terms[0], terms=tuple(terms))
+    return Condition(name=terms[0], terms=tuple(terms), english=english)
 
 
 # Romanian inflection endings folded away by _fold_word(), longest first, each
@@ -121,8 +127,14 @@ def _folded_words(text: str) -> list[str]:
 
 
 class ConditionDictionary:
-    def __init__(self, conditions: Iterable[Condition]) -> None:
-        self.conditions = tuple(conditions)
+    def __init__(self, conditions: Iterable[Condition], language: Language | None = None) -> None:
+        self.language = language or current_language()
+        self.conditions = tuple(
+            Condition(item.name, (item.english,), item.english)
+            if self.language == "en" and item.english
+            else item
+            for item in conditions
+        )
         # normalized term -> indexes of the conditions that carry it
         self._by_term: dict[str, list[int]] = {}
         # Phrase index for find(): first folded word -> [(folded words, condition indexes)],
@@ -133,7 +145,9 @@ class ConditionDictionary:
                 self._by_term.setdefault(_normalize(term), []).append(index)
         self._terms = list(self._by_term)
         for term, indexes in self._by_term.items():
-            words = tuple(_fold_word(word) for word in term.split())
+            words = tuple(
+                _fold_word(word) if self.language == "ro" else word for word in term.split()
+            )
             self._phrases.setdefault(words[0], []).append((words, indexes))
         for candidates in self._phrases.values():
             candidates.sort(key=lambda item: len(item[0]), reverse=True)
@@ -144,7 +158,7 @@ class ConditionDictionary:
     # only the longest counts ("adenom colonic" hides "adenom"), and matched
     # words are not scanned again.
     def find(self, text: str) -> list[Condition]:
-        words = _folded_words(text)
+        words = _folded_words(text) if self.language == "ro" else _normalize(text).split()
         found: list[int] = []
         position = 0
         while position < len(words):
@@ -236,7 +250,7 @@ class ConditionDictionary:
     # whole) the segment is the condition, so nothing is left over.
     def _remainder(self, text: str, indexes: list[int]) -> str:
         words = re.findall(r"[^\W_]+", plain(text), flags=re.UNICODE)
-        folded = [_fold_word(word) for word in words]
+        folded = [_fold_word(word) for word in words] if self.language == "ro" else words
         targets = set(indexes)
         consumed: set[int] = set()
         position = 0

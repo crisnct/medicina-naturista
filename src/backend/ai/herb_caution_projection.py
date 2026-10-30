@@ -11,7 +11,7 @@ from backend.ai.herb_association_rules import Decision, classify_rule, scoped_wa
 from backend.ai.herb_association_scope import LocalConditionScope
 from backend.ai.herb_index_catalog import normalize_herb_name
 
-PROJECTION_VERSION = 2
+PROJECTION_VERSION = 3
 WarningKind = Literal["prohibition", "precaution", "none", "unknown"]
 WARNING_KINDS = ("prohibition", "precaution", "none", "unknown")
 
@@ -129,9 +129,15 @@ def list_prohibition(
         mentions = tuple(
             (a, b)
             for a, b in mentions
-            if re.search(r"[,:]\s*(?:(?:si|și|şi|sau)\s+)?$", unit.text[start:a], re.I)
+            if re.search(r"[,:]\s*(?:(?:si|și|şi|sau|and|or)\s+)?$", unit.text[start:a], re.I)
             or normalize_herb_name(unit.text[start:a])
             in {
+                "avoid",
+                "eliminate",
+                "do not consume",
+                "do not eat",
+                "do not use",
+                "do not take",
                 "evitati",
                 "eliminati",
                 "nu consumati",
@@ -153,13 +159,16 @@ def list_prohibition(
         statement = re.sub(r"^[^\w]+", "", statement)
         statement = re.sub(r"^(?:[qoui0-9]+\s+)+", "", statement)
         command = re.match(
+            r"^(?:avoid|eliminate|do not (?:consume|eat|use|take))\b|"
+            r"^(?:prohibited|forbidden|contraindicated) (?:foods|herbs|products)\b|"
+            r"^(?:foods|herbs|products) (?:to avoid|that must be avoided|that are prohibited)\b|"
             r"^(?:evitati|eliminati|nu (?:consumati|mancati|folositi|luati))\b|"
             r"^(?:alimente|plante|produse)(?:le)? (?:care )?"
             r"(?:trebuie (?:evitate|eliminate)|interzise|contraindicate|de evitat)\b",
             statement,
         )
         restricted = re.search(
-            r"\b(dar|insa|except\w*|numai|doar|daca|impreuna|doza|doze|mg|mcg|"
+            r"\b(but|however|except|only|if|together|dose|dosage|pregnancy|children|before|after|because|recommended|beneficial|helpful|dar|insa|except\w*|numai|doar|daca|impreuna|doza|doze|mg|mcg|"
             r"sarcina|gravide|copii|inainte|dupa|deoarece|fiindca|recomand\w*|"
             r"benefic\w*|util\w*|salutar\w*|prefer\w*|ajut\w*)\b|\bin (?:schimb|loc)\b",
             statement,
@@ -170,7 +179,7 @@ def list_prohibition(
             identifier != candidate.condition_id
             and start <= a < b <= end
             and re.search(
-                r"\b(?:in|la|pentru|contra|impotriva|caz de|cazul|"
+                r"\b(?:for|against|patients with|people with|in|la|pentru|contra|impotriva|caz de|cazul|"
                 r"(?:persoan\w*|pacient\w*) cu)\s*$",
                 normalize_herb_name(unit.text[max(start, a - 80) : a]),
             )

@@ -13,6 +13,7 @@ from backend.ai.client import AIUnavailable
 from backend.ai.report_validation import ReportValidationError
 from backend.core.conversation import ConversationService, evidence_above
 from backend.core.errors import ApplicationError, OperationCancelled
+from backend.core.language import language_scope
 from backend.core.models import SessionData, SessionOperation
 from backend.core.report_batches import REPORT_GENERATION_WORKERS
 from backend.core.report_metrics import validate_min_score
@@ -126,7 +127,8 @@ class ReportGenerationService:
                     return
                 conversation, operation, min_score = self._pending.popleft()
             # Run synchronously: the next item cannot start until this worker's finally.
-            self._run(conversation, operation, min_score)
+            with language_scope(operation.snapshot.language):
+                self._run(conversation, operation, min_score)
 
     def _run(
         self, conversation: ConversationService, operation: SessionOperation, min_score: int

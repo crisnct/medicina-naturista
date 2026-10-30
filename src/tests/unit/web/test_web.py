@@ -289,7 +289,7 @@ class WebTests(unittest.TestCase):
         self.assertEqual(profile.as_dict()["health_problem"], "Gripă și răceală")
         self.assertEqual(
             set(profile.as_dict()),
-            {"health_problem", "health_context", "transcript", "ai_conditions"},
+            {"health_problem", "health_context", "transcript", "ai_conditions", "language"},
         )
 
     # Verify a later problem fully replaces the active retrieval/report context.
@@ -714,8 +714,25 @@ class WebTests(unittest.TestCase):
                 "kind": "text",
                 "content": f"{conversation.welcome()} {health_problem_question()}",
                 "groupId": "greeting",
+                "language": "ro",
             },
         )
+        english_headers = {**_headers(sid, tab), "X-App-Language": "en"}
+        changed = self.client.post("/api/language", headers=english_headers)
+        self.assertEqual(changed.status_code, 200)
+        self.assertEqual(
+            self.client.get("/api/session", headers=english_headers).json()["history"], history
+        )
+        catalog_response = self.client.get("/api/texts?language=en")
+        self.assertEqual(catalog_response.json()["interface.composer_send"], "Send")
+        new_tab = "tab-english01"
+        english_session = self.client.get(
+            "/api/session", headers={**_headers(sid, new_tab), "X-App-Language": "en"}
+        )
+        self.assertEqual(english_session.status_code, 200)
+        self.assertTrue(english_session.json()["history"][0]["content"].startswith("Hello"))
+        self.assertEqual(english_session.json()["history"][0]["language"], "en")
+        self.deps.store.delete(sid, new_tab)
         self.deps.store.delete(sid, tab)
 
     # Verify a request with a missing or malformed X-Tab-Id header is rejected,

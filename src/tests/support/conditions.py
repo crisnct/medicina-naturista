@@ -25,8 +25,8 @@ def replace_catalog(connection, conditions: Sequence[Condition]) -> None:
     connection.execute("TRUNCATE medical_conditions RESTART IDENTITY CASCADE")
     for item in conditions:
         condition_id = connection.execute(
-            "INSERT INTO medical_conditions(name) VALUES (%s) RETURNING id",
-            (item.name,),
+            "INSERT INTO medical_conditions(name,en) VALUES (%s,%s) RETURNING id",
+            (item.name, item.english or item.name),
         ).fetchone()[0]
         with connection.cursor() as cursor:
             cursor.executemany(

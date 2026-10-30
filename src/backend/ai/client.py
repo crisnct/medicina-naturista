@@ -33,6 +33,7 @@ from backend.core.contracts import (
     ReportModel,
 )
 from backend.core.errors import OperationCancelled
+from backend.core.language import current_language, language_scope, read_prompt, validate_language
 from backend.core.operation_context import (
     ReportActivity,
     checkpoint,
@@ -283,10 +284,18 @@ class ResponsesClient:
         self.generate_system_prompt = GENERATE_REPORT_SYSTEM_PROMPT_PATH.read_text(
             encoding="utf-8"
         ).strip()
+        self.english_generate_system_prompt = read_prompt(GENERATE_REPORT_SYSTEM_PROMPT_PATH, "en")
         self.batch_max_tokens = settings.report_generation_batch_max_tokens[
             settings.report_generation_model
         ]
         self.batch_workers = settings.report_batch_workers
+
+    def _report_prompt(self) -> str:
+        return (
+            self.english_generate_system_prompt
+            if current_language() == "en"
+            else self.generate_system_prompt
+        )
 
     # Whether the active provider can be called (its key is present when one is required).
     def is_configured(self) -> bool:
@@ -651,6 +660,13 @@ class ResponsesClient:
         return _ordered_entries(evidence)
 
     def _report_user_message(self, profile: ProfilePayload, evidence: Evidence) -> str:
+        if current_language() == "en":
+            return (
+                "Health problem for natural recommendations:\n"
+                + json.dumps(profile, ensure_ascii=False)
+                + "\nAll approved local excerpts:\n"
+                + json.dumps(self._evidence_entries(evidence), ensure_ascii=False)
+            )
         return f"""
             Problema pentru care se solicită recomandări naturiste:
             {json.dumps(profile, ensure_ascii=False)}
@@ -663,7 +679,7 @@ class ResponsesClient:
     def _report_input_tokens(self, profile: ProfilePayload, evidence: Evidence) -> int:
         checkpoint()
         payload = self._build_payload(
-            self.generate_system_prompt,
+            self._report_prompt(),
             self._report_user_message(profile, evidence),
             self.provider.max_output_tokens,
             schema=report_response_schema(evidence) if self.provider.name == "ollama" else None,
@@ -681,6 +697,15 @@ class ResponsesClient:
 
     # The single FIFO report owner drains all batch workers before releasing its capacity.
     def generate(self, profile: ProfilePayload, evidence: Evidence) -> ValidatedReport:
+        language = validate_language(profile.get("language", current_language()))
+        if any(item.get("language", language) != language for item in evidence.values()):
+            raise AIUnavailable(
+                tr("errors.search_evidence_missing", language=language), reason="invalid_response"
+            )
+        with language_scope(language):
+            return self._generate(profile, evidence)
+
+    def _generate(self, profile: ProfilePayload, evidence: Evidence) -> ValidatedReport:
         if not evidence:
             logger.info("fragments_sent_to_ai count=0 reason=no_evidence")
             return validate_report({}, evidence)
@@ -849,14 +874,14 @@ class ResponsesClient:
         )
         if self.provider.name == "ollama":
             result = self._complete_json(
-                self.generate_system_prompt,
+                self._report_prompt(),
                 user,
                 self.provider.max_output_tokens,
                 schema=report_response_schema(evidence),
             )
         else:
             result = self.complete_json(
-                self.generate_system_prompt, user, self.provider.max_output_tokens
+                self._report_prompt(), user, self.provider.max_output_tokens
             )
         return validate_report(result, evidence, allow_empty=True, strict=True)
 

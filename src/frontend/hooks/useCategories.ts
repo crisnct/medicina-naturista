@@ -1,31 +1,38 @@
 import { useQuery } from "@tanstack/react-query";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, type SetStateAction } from "react";
 import { api } from "../api/client";
+import { useLanguage, type Language } from "../lib/texts";
 
 export function useCategories(enabled = true) {
-  const query = useQuery({ queryKey: ["categories"], queryFn: api.getCategories, retry: false, enabled });
-  const [selected, setSelected] = useState<Set<string>>(new Set());
-
-  const seeded = useRef(false);
-
-  // Seed the selection with "every known category" the first time the tree
-  // loads — matching the panel's own default (every checkbox starts checked).
+  const language = useLanguage();
+  const query = useQuery({
+    queryKey: ["categories", language],
+    queryFn: api.getCategories,
+    retry: false,
+    enabled,
+  });
+  const [selections, setSelections] = useState<Record<Language, Set<string>>>(() => ({
+    ro: new Set(),
+    en: new Set(),
+  }));
+  const seeded = useRef(new Set<Language>());
   useEffect(() => {
-    if (query.data) {
-      if (!seeded.current) {
-        seeded.current = true;
-        setSelected(new Set(query.data.defaultSelection));
-      } else {
-        const known = new Set(query.data.defaultSelection);
-        setSelected((previous) => new Set([...previous].filter((id) => known.has(id))));
-      }
-    }
-  }, [query.data]);
-
+    if (!query.data) return;
+    const known = new Set(query.data.defaultSelection);
+    const first = !seeded.current.has(language);
+    seeded.current.add(language);
+    setSelections((previous) => ({
+      ...previous,
+      [language]: first ? known : new Set([...previous[language]].filter((id) => known.has(id))),
+    }));
+  }, [language, query.data]);
   return {
     isLoading: query.isPending,
     tree: query.data?.tree ?? null,
-    selected,
-    setSelected,
+    selected: selections[language],
+    setSelected: (value: SetStateAction<Set<string>>) => setSelections((previous) => ({
+      ...previous,
+      [language]: typeof value === "function" ? value(previous[language]) : value,
+    })),
   };
 }

@@ -5,12 +5,13 @@ from __future__ import annotations
 import re
 from html import escape
 
+from backend.core.language import current_language
 from backend.core.texts import script_json, tr
 
 
 def owner_page(prefix: str, nonce: str) -> str:
     template = """<!doctype html>
-<html lang="ro"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
+<html lang="__LANGUAGE__"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width">
 <title>__COPY_TITLE__</title></head>
 <body data-prefix="__PREFIX__"><main><h1>__COPY_TITLE__</h1>
 <p>__COPY_DESCRIPTION__</p>
@@ -23,13 +24,14 @@ def owner_page(prefix: str, nonce: str) -> str:
 <script nonce="__NONCE__">
 const labels = __LABELS__;
 const prefix = document.body.dataset.prefix;
+const language = '__LANGUAGE__';
 const status = document.getElementById('status');
 const logout = document.getElementById('logout');
 const form = document.getElementById('login');
 let csrf = '';
 let busy = false;
 async function refresh() {
-  const response = await fetch(prefix + '/api/owner', {credentials: 'same-origin', cache: 'no-store'});
+  const response = await fetch(prefix + '/api/owner', {credentials: 'same-origin', cache: 'no-store', headers: {'X-App-Language': language}});
   if (!response.ok) throw new Error('status');
   const data = await response.json();
   csrf = data.csrfToken;
@@ -45,7 +47,7 @@ async function action(path, body) {
     if (!csrf) await refresh();
     const response = await fetch(prefix + path, {
       method: 'POST', credentials: 'same-origin',
-      headers: {'Content-Type': 'application/json', 'X-CSRF-Token': csrf},
+      headers: {'X-App-Language': language, 'Content-Type': 'application/json', 'X-CSRF-Token': csrf},
       body: JSON.stringify(body)
     });
     if (!response.ok) throw new Error('authorization');
@@ -68,6 +70,7 @@ logout.addEventListener('click', () => action('/api/owner/logout', {}));
 refresh().catch(() => { status.textContent = labels.load_failed; });
 </script></body></html>"""
     values = {
+        "__LANGUAGE__": current_language(),
         "__PREFIX__": escape(prefix, quote=True),
         "__NONCE__": escape(nonce, quote=True),
         "__LABELS__": script_json(
@@ -82,5 +85,7 @@ refresh().catch(() => { status.textContent = labels.load_failed; });
         },
     }
     return re.sub(
-        r"__(?:PREFIX|NONCE|LABELS|COPY_[A-Z_]+)__", lambda match: values[match[0]], template
+        r"__(?:LANGUAGE|PREFIX|NONCE|LABELS|COPY_[A-Z_]+)__",
+        lambda match: values[match[0]],
+        template,
     )

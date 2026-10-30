@@ -25,6 +25,7 @@ from backend.ai.herb_safety_extraction import (
     warning_statements,
 )
 from backend.config import Settings
+from backend.core.language import current_language, read_prompt
 
 PROMPT_PATH = Path(__file__).parent / "prompts" / "herb_safety_system.md"
 TRANSPORT_PATH = PROMPT_PATH.with_name("herb_safety_transport.md")
@@ -57,9 +58,10 @@ def safety_semantic(settings: Settings) -> dict[str, Any]:
     return {
         "version": EXTRACTION_VERSION,
         "citation_protocol": "source_statement_summary_v2",
-        "prompt": content_hash(PROMPT_PATH.read_text(encoding="utf-8")),
-        "transport": content_hash(TRANSPORT_PATH.read_text(encoding="utf-8")),
-        "combined_transport": content_hash(COMBINED_PATH.read_text(encoding="utf-8")),
+        "prompt": content_hash(read_prompt(PROMPT_PATH)),
+        "transport": content_hash(read_prompt(TRANSPORT_PATH)),
+        "combined_transport": content_hash(read_prompt(COMBINED_PATH)),
+        "language": current_language(),
         "validation": content_hash(Path(__file__).read_text(encoding="utf-8")),
         "extraction": content_hash(
             Path(__file__).with_name("herb_safety_extraction.py").read_text(encoding="utf-8")
@@ -69,9 +71,7 @@ def safety_semantic(settings: Settings) -> dict[str, Any]:
 
 
 def safety_prompt() -> str:
-    return "\n\n".join(
-        path.read_text(encoding="utf-8").strip() for path in (PROMPT_PATH, TRANSPORT_PATH)
-    )
+    return "\n\n".join(read_prompt(path) for path in (PROMPT_PATH, TRANSPORT_PATH))
 
 
 def warning_schema(payload: dict[str, Any]) -> dict[str, Any]:

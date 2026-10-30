@@ -10,9 +10,9 @@ const SESSION_KEY = ["session"] as const;
 export const activeGeneration = (job: ReportGeneration) => job.state === "accepted" || job.state === "running";
 const observingGeneration = (job: ReportGeneration) => activeGeneration(job) || job.workerActive === true;
 const stages: Record<string, string> = {
-  queued: tr("interface.generation_queued_stage"),
-  preparing: tr("interface.generation_prepare_stage"), generating: tr("interface.generation_write_stage"), validating: tr("interface.generation_validate_stage"),
-  rendering_pdf: tr("interface.generation_pdf_stage"), publishing: tr("interface.generation_publish_stage"),
+  get queued() { return tr("interface.generation_queued_stage"); },
+  get preparing() { return tr("interface.generation_prepare_stage"); }, get generating() { return tr("interface.generation_write_stage"); }, get validating() { return tr("interface.generation_validate_stage"); },
+  get rendering_pdf() { return tr("interface.generation_pdf_stage"); }, get publishing() { return tr("interface.generation_publish_stage"); },
 };
 const stageOrder = Object.keys(stages);
 
@@ -180,7 +180,7 @@ export function useReportGeneration(
     activeSearches.add(searchId);
     feedback[searchId] = {
       message: "",
-      progress: tr("interface.generation_requesting"),
+      get progress() { return tr("interface.generation_requesting"); },
       waitingInQueue: true,
     };
   }

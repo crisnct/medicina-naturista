@@ -15,11 +15,12 @@ from dataclasses import dataclass, replace
 import numpy as np
 from psycopg.rows import namedtuple_row
 
-from backend.ai.conditions import ResolvedQuery, resolve_query
+from backend.ai.conditions import ResolvedQuery, load_dictionary, resolve_query
 from backend.ai.embedding_model import cached_query_model, get_profile
 from backend.ai.index_state import index_reader
 from backend.ai.query_terms import plain
 from backend.config import settings
+from backend.core.language import Language, current_language, language_scope, validate_language
 
 
 # The signals of the score, each one a checkbox of the "Căutare avansată" panel:
@@ -113,6 +114,11 @@ def max_score(signals: SearchSignals) -> int:
 EVIDENCE_HEADING_PREFIX = "Secțiune: "
 EVIDENCE_HEADING_SEPARATOR = "\n\n"
 
+
+def evidence_heading_prefix() -> str:
+    return "Section: " if current_language() == "en" else EVIDENCE_HEADING_PREFIX
+
+
 # A word shorter than this is matched exactly in a phrase, so "de" does not
 # also find "deja" or "despre"; longer ones are matched by prefix.
 PREFIX_MATCH_MIN_CHARS = 3
@@ -137,6 +143,8 @@ def _fold(word: str) -> str:
 # reindex. Short words keep their full length as prefix.
 def _stem(word: str) -> str:
     folded = _fold(word)
+    if current_language() == "en":
+        return folded
     return folded[: max(4, len(folded) - 2)] if len(folded) >= 6 else folded
 
 
@@ -323,10 +331,12 @@ def rank(
     max_chars: int | None = None,
     signals: SearchSignals = ALL_SIGNALS,
     resolved: ResolvedQuery | None = None,
+    *,
+    language: Language | None = None,
 ) -> list[dict[str, object]]:
     if category_ids is not None and not category_ids:
         return []
-    with index_reader() as (connection, metadata):
+    with language_scope(language or current_language()), index_reader() as (connection, metadata):
         return _rank(query, category_ids, max_chars, signals, resolved, connection, metadata)
 
 
@@ -346,8 +356,12 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
     if not (condition_names or expressions or signals.semantic):
         return []
 
-    category_where = "WHERE category_id = ANY(%(categories)s)" if category_ids is not None else ""
-    category_and = "AND c.category_id = ANY(%(categories)s)" if category_ids is not None else ""
+    category_where = "WHERE language = %(language)s" + (
+        " AND category_id = ANY(%(categories)s)" if category_ids is not None else ""
+    )
+    category_and = "AND c.language = %(language)s" + (
+        " AND c.category_id = ANY(%(categories)s)" if category_ids is not None else ""
+    )
     sql = _RANK_SQL.format(
         condition_columns=_CONDITION_COLUMNS if signals.conditions else _NO_CONDITION_COLUMNS,
         cosine_column=_COSINE_COLUMN if signals.semantic else _NO_COSINE_COLUMN,
@@ -361,12 +375,13 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
 
     w_primary, w_secondary, w_lexical, w_semantic = weights(signals)
     parameters: dict[str, object] = {
+        "language": current_language(),
         "conditions": condition_names,
         "expressions": expressions,
         "any_expression": " | ".join(expressions),
         "expression_count": len(expressions),
         "categories": list(category_ids) if category_ids else None,
-        "heading_overhead": len(EVIDENCE_HEADING_PREFIX) + len(EVIDENCE_HEADING_SEPARATOR),
+        "heading_overhead": len(evidence_heading_prefix()) + len(EVIDENCE_HEADING_SEPARATOR),
         "w_primary": w_primary,
         "w_secondary": w_secondary,
         "w_lexical": w_lexical,
@@ -394,6 +409,7 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
             parameters["vector"] = vector
         rows = cursor.execute(sql, parameters).fetchall()
 
+    display_names = {item.name: item.display_name for item in load_dictionary().conditions}
     return [
         {
             "chunk_id": row.chunk_id,
@@ -405,8 +421,12 @@ def _rank(query, category_ids, max_chars, signals, resolved, connection, metadat
             "semantic_similarity": float(row.cosine) if signals.semantic else None,
             "found_by_lexical": row.hits is not None,
             "business_category": row.business_category,
-            "primary_medical_conditions": list(row.primary_medical_conditions),
-            "secondary_medical_conditions": list(row.secondary_medical_conditions),
+            "primary_medical_conditions": [
+                display_names.get(name, name) for name in row.primary_medical_conditions
+            ],
+            "secondary_medical_conditions": [
+                display_names.get(name, name) for name in row.secondary_medical_conditions
+            ],
             "source_relative_path": row.source_relative_path,
             "source_absolute_path": row.source_absolute_path,
             "line_start": row.line_start,
@@ -438,6 +458,7 @@ def main() -> None:
         sys.stderr.reconfigure(encoding="utf-8", errors="replace")
     parser = argparse.ArgumentParser()
     parser.add_argument("query")
+    parser.add_argument("--language", choices=("ro", "en"), default="ro")
     parser.add_argument("--json", action="store_true")
     parser.add_argument(
         "--signals",
@@ -449,7 +470,7 @@ def main() -> None:
         signals = SearchSignals.from_code(args.signals)
     except ValueError as exc:
         parser.error(str(exc))
-    results = rank(args.query, signals=signals)
+    results = rank(args.query, signals=signals, language=validate_language(args.language))
     if args.json:
         print(json.dumps(results, ensure_ascii=False, indent=2, default=lambda value: value.code))
         return

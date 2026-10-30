@@ -18,11 +18,12 @@ describe("session admission", () => {
   it("explains the session creation limit and shows the server's remaining wait", async () => {
     const session = vi.spyOn(api, "getSession")
       .mockRejectedValueOnce(new ApiError(429, "Prea multe cereri.", "RATE_LIMIT", 48))
-      .mockResolvedValue({ history: [] });
+      .mockResolvedValue({ history: [{ role: "assistant", kind: "text", content: "Mesaj păstrat", language: "ro" }] });
     vi.spyOn(api, "getCategories").mockResolvedValue({ tree: null, defaultSelection: [] });
     const client = new QueryClient({ defaultOptions: { queries: { retry: false } } });
     render(<QueryClientProvider client={client}><App /></QueryClientProvider>);
 
+    const languageChange = vi.spyOn(api, "changeLanguage").mockImplementation(async (language) => ({ language }));
     const alert = await screen.findByRole("alert");
     expect(alert).toHaveTextContent("Ați deschis prea multe conversații într-un minut.");
     expect(alert).toHaveTextContent("Așteptați 48 de secunde");
@@ -35,12 +36,21 @@ describe("session admission", () => {
     fireEvent.click(topExamples[1]);
     expect(screen.getByRole("textbox")).toHaveValue("Top 10 produse naturiste pentru gripa");
     expect(screen.queryByRole("alert")).not.toBeInTheDocument();
+    fireEvent.change(screen.getByRole("combobox", { name: "Limbă" }), { target: { value: "en" } });
+    await screen.findByRole("combobox", { name: "Language" });
+    expect(languageChange).toHaveBeenCalledWith("en");
+    expect(screen.getByRole("button", { name: "Send" })).toBeInTheDocument();
+    expect(screen.getByText("Mesaj păstrat")).toBeInTheDocument();
+    expect(document.documentElement.lang).toBe("en");
+    expect(localStorage.getItem("naturist_language")).toBe("en");
+    fireEvent.change(screen.getByRole("combobox", { name: "Language" }), { target: { value: "ro" } });
+    await screen.findByRole("combobox", { name: "Limbă" });
   });
 
   it("blocks searching after a failed session and allows retry when capacity is available", async () => {
     const session = vi.spyOn(api, "getSession")
       .mockRejectedValueOnce(new ApiError(503, "Capacitatea aplicației este ocupată.", "GLOBAL_SESSION_LIMIT"))
-      .mockResolvedValue({ history: [] });
+      .mockResolvedValue({ history: [{ role: "assistant", kind: "text", content: "Mesaj păstrat", language: "ro" }] });
     vi.spyOn(api, "getCategories").mockResolvedValue({ tree: null, defaultSelection: [] });
     const send = vi.spyOn(api, "sendMessage").mockResolvedValue({ messages: [], startSearch: false });
     const client = new QueryClient({ defaultOptions: { queries: { retry: false } } });

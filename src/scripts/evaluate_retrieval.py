@@ -31,6 +31,7 @@ from psycopg.rows import namedtuple_row
 from backend.ai import conditions, search
 from backend.ai.index_state import index_reader
 from backend.ai.search import ALL_SIGNALS, SearchSignals, rank
+from backend.core.language import current_language, language_scope, validate_language
 
 CASES_PATH = Path(__file__).resolve().parents[1] / "tests" / "eval" / "retrieval_queries.json"
 
@@ -50,7 +51,8 @@ def load_chunk_index() -> dict[int, tuple[str, str]]:
     with index_reader() as (connection, _metadata):
         with connection.cursor(row_factory=namedtuple_row) as cursor:
             rows = cursor.execute(
-                "SELECT chunk_id, source_relative_path, heading FROM chunks"
+                "SELECT chunk_id, source_relative_path, heading FROM chunks WHERE language=%s",
+                (current_language(),),
             ).fetchall()
     return {row.chunk_id: (plain(row.source_relative_path), plain(row.heading)) for row in rows}
 
@@ -160,7 +162,13 @@ def main() -> None:
         default=ALL_SIGNALS.code,
         help="signals of the score: any combination of A (conditions), B (lexical), C (semantic); default ABC",
     )
+    parser.add_argument("--language", choices=("ro", "en"), default="ro")
     args = parser.parse_args()
+    with language_scope(validate_language(args.language)):
+        _evaluate_legacy(args, parser)
+
+
+def _evaluate_legacy(args: argparse.Namespace, parser: argparse.ArgumentParser) -> None:
     from backend.config import Settings, configure_settings
 
     configure_settings(Settings.from_env(dotenv=True))
@@ -196,8 +204,6 @@ def main() -> None:
 
 def content_main() -> None:
     """Compare manually labelled content under one compatible index generation."""
-    from backend.ai.content_evaluation import FragmentKey, compare, evaluate, load_suite
-    from backend.config import Settings, configure_settings
 
     parser = argparse.ArgumentParser(description="Content-labelled RAG evaluation (read-only)")
     parser.add_argument("--content", action="store_true", required=True)
@@ -214,13 +220,24 @@ def content_main() -> None:
     parser.add_argument(
         "--dotenv", action="store_true", help="explicitly load local .env for live evaluation"
     )
+    parser.add_argument("--language", choices=("ro", "en"), default="ro")
     args = parser.parse_args()
+    with language_scope(validate_language(args.language)):
+        _evaluate_content(args, parser)
+
+
+def _evaluate_content(args: argparse.Namespace, parser: argparse.ArgumentParser) -> None:
+    from backend.ai.content_evaluation import FragmentKey, compare, evaluate, load_suite
+    from backend.config import Settings, configure_settings
+
     suite = load_suite(args.cases)
     signals = SearchSignals.from_code(args.signals)
     rankings = {}
     if args.rankings:
         captured = json.loads(args.rankings.read_text(encoding="utf-8"))
         metadata = captured["metadata"]
+        if metadata.get("language", "ro") != current_language():
+            parser.error("captured rankings use a different language")
         if metadata["signals"] != signals.code:
             parser.error("captured rankings use different signals")
         corpus = [FragmentKey.model_validate(item) for item in captured["corpus"]]
@@ -232,9 +249,17 @@ def content_main() -> None:
     else:
         configure_settings(Settings.from_env(dotenv=args.dotenv))
         with index_reader() as (connection, index):
-            rows = connection.execute("SELECT source_relative_path, text FROM chunks").fetchall()
+            rows = connection.execute(
+                "SELECT source_relative_path, text FROM chunks WHERE language=%s",
+                (current_language(),),
+            ).fetchall()
             corpus = [FragmentKey.from_text(path, text) for path, text in rows]
-            metadata = {**index.model_dump(), "signals": signals.code, "evaluation_mode": "live"}
+            metadata = {
+                **index.model_dump(),
+                "signals": signals.code,
+                "evaluation_mode": "live",
+                "language": current_language(),
+            }
             # Fail on outdated annotations before loading the model or running queries.
             from backend.ai.content_evaluation import validate_fragments
 

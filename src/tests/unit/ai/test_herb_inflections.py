@@ -10,6 +10,7 @@ from backend.ai.message_classification import MessageClassifier
 from backend.ai.query_terms import plain
 from backend.ai.romanian_inflections import word_variants
 from backend.config import Settings
+from backend.core.language import language_scope
 
 EXAMPLES = [
     ("Pătlăgele roșii", "Pătlăgelele roșii"),
@@ -93,6 +94,18 @@ def test_longest_phrase_wins_and_foreign_names_stay_exact(catalog):
     assert extended.lookup("solanum lycopersicumul") == []
     assert extended.lookup("tomatoul") == []
     assert extended.lookup("Solanum lycopersicum") == [other]
+    english = replace(other, ro="afin", en="blueberry", en_alt=("bilberry",), latin="testus minor")
+    with language_scope("en"):
+        localized = HerbCatalog([english])
+        assert localized.lookup("blueberries") == [english]
+        assert localized.lookup("bilberries") == [english]
+        assert localized.mentions("Tell me about blueberries") == [english]
+        assert localized.request_matches("seeds of blueberries") == [english]
+        assert localized.selected_choice("blueberries", [english.choice]) == english
+        assert localized.lookup("testus minors") == []
+        assert localized.lookup("blueberryului") == []
+        literal = replace(english, id=101, en="blueberries", en_alt=(), latin="testus literal")
+        assert HerbCatalog([english, literal]).lookup("blueberries") == [literal]
 
 
 def test_literal_name_precedes_another_names_inflection(catalog):
@@ -138,10 +151,17 @@ def test_explicit_remedies_keep_their_route(catalog):
 
 def test_no_dictionary_keeps_literal_matching(monkeypatch, tmp_path):
     import backend.ai.romanian_inflections as morphology
+    from backend.ai import english_inflections
 
     word_variants.cache_clear()
     monkeypatch.setattr(morphology, "files", lambda _: tmp_path)
+    monkeypatch.setattr(english_inflections, "files", lambda _: tmp_path)
+    english_inflections.word_variants.cache_clear()
     try:
         assert word_variants(frozenset(("usturoi",))) == {"usturoi": frozenset(("usturoi",))}
+        assert english_inflections.word_variants(frozenset(("berry",))) == {
+            "berry": frozenset(("berry",))
+        }
     finally:
         word_variants.cache_clear()
+        english_inflections.word_variants.cache_clear()

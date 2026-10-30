@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-29T09:46:31.705Z
-> Files: 206 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-30T06:14:27.431Z
+> Files: 234 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -12,7 +12,7 @@
 - `.dockerignore` (~107 tok)
 - `docker-compose.yaml` — Docker Compose: 4 services (~2392 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~37785 tok)
+- `README.md` — Project documentation (~39095 tok)
 
 ## .claude/agents/
 
@@ -62,7 +62,10 @@
 - `2026-10-29-gemma3-provider-error.md` — Gemma3 1B: eroare in fluxul Ollama (~1317 tok)
 - `2026-10-29-loturi-raport-buget-tokeni.md` — Loturi de raport cu buget in tokeni (~1938 tok)
 - `2026-10-29-nutritie-campuri-fara-continut.md` — Nutritie: marcaje text fara continut (~577 tok)
+- `2026-10-29-rapoarte-ai-engleza-traducere-locala-romana.md` — Generarea raportului în engleză, cu traducere locală și afișare în română (~5806 tok)
 - `2026-10-29-report-batch-workers-env.md` — Configurare REPORT_BATCH_WORKERS (~348 tok)
+- `2026-10-29-suport-romana-engleza.md` — Plan: aplicație în română și engleză (~8477 tok)
+- `2026-10-30-clean-documents-english.md` — English document cleanup (~224 tok)
 
 ## aiPlans/tmp/
 
@@ -71,6 +74,7 @@
 - `benchmark-full-fragment-pipeline.py` — Exercise the real ranking pipeline on the frozen sample with an in-memory repository. (~2907 tok)
 - `benchmark-herb-associations.py` — Measure one herb's complete published condition set without production writes. (~5365 tok)
 - `benchmark-local-condition-scope.py` — Exercise the real ranking pipeline on the frozen sample with an in-memory repository. (~4009 tok)
+- `bilingual_final_probe.py` — Manual synthetic acceptance checks; no AI, active database or corpus access. (~2681 tok)
 - `build_product_condition_xmind.py` — Build a source-pinned XMind 8 description of the existing classifier. (~9794 tok)
 - `caution-preview.mjs` — Declares workspace (~1435 tok)
 - `compare-ranking-context.py` — Read-only, uncached paired local-Ollama context experiment over a bounded sample. (~5004 tok)
@@ -160,6 +164,10 @@
 
 - `README.md` — Project documentation (~410 tok)
 
+## medicina-naturista-documente/data/documents/en/Partial Safe/Cristians Reports/
+
+- `Natural treatment for influenza.docx.md` — Natural treatments for INFLUENZA (~1675 tok)
+
 ## src/backend/
 
 - `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~9918 tok)
@@ -168,28 +176,31 @@
 
 - `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~12916 tok)
 - `condition_ai.py` — Identification of the condition a message names when the dictionary does not (~3319 tok)
-- `conditions.py` — Medical-condition matching over an ordered PostgreSQL catalog snapshot. (~3628 tok)
+- `conditions.py` — Medical-condition matching over an ordered PostgreSQL catalog snapshot. (~3911 tok)
+- `english_inflections.py` — Catalog-scoped British English noun forms from the bundled Hunspell dictionary. (~970 tok)
 - `herb_association_classification.py` — Bounded local-only polarity classification; validated quotations are source provenance. (~6314 tok)
 - `herb_association_rules.py` — Conservative source-polarity rules over unchanged indexed text and primary conditions. (~15744 tok)
 - `herb_association_scope.py` — Verify local disease identities and source boundaries without fuzzy equivalence. (~2170 tok)
 - `herb_caution_projection.py` — Project warnings locally from existing rules and validated model responses; never infer. (~2968 tok)
 - `herb_caution_repository.py` — Persist local warning projections and publish compatible positive/caution generations atomically. (~4798 tok)
 - `herb_conditions.py` — Read a product's positive conditions from the same published generation as its ranking. (~1771 tok)
-- `herb_display.py` — Restore unambiguous Romanian herb spellings from the bundled Hunspell dictionary. (~411 tok)
+- `herb_display.py` — Restore unambiguous product spellings using the operation's bundled dictionary. (~528 tok)
 - `herb_evidence.py` — Read complete source fragments from one published positive-association generation. (~2546 tok)
 - `herb_images.py` — Resolve catalog product images locally without exposing the source directory. (~710 tok)
 - `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~5910 tok)
 - `herb_product_safety_repository.py` — Cache per-product knowledge and publish complete catalog generations atomically. (~3784 tok)
 - `herb_product_safety.py` — Strict, concise product safety from local model knowledge, independent of the corpus. (~1399 tok)
-- `herb_ranking.py` — Read a bounded catalog ranking with regional Romanian names. (~1816 tok)
+- `herb_ranking.py` — Read a bounded ranking from one language's published catalog generation. (~1942 tok)
+- `herb_repository.py` — Coherent PostgreSQL herb snapshots, cached by database and full content. (~1874 tok)
 - `herb_safety_extraction.py` — Inventory product safety independently of disease scope, preserving original source offsets. (~3634 tok)
 - `herb_safety_repository.py` — Persist safety generations and validated caches without performing any model or network I/O. (~5302 tok)
 - `herb_safety_validation.py` — Validate extractive safety responses; missing coverage never means absence of warnings. (~5366 tok)
 - `herb_safety.py` — Read published model-knowledge messages; consultation never invokes a model. (~1384 tok)
+- `herbs.py` — PostgreSQL plants/products and the strict parser for offline botanical sources. (~3360 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9335 tok)
 - `providers.py` — Per-provider transport settings for report generation. (~1768 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~1940 tok)
-- `retrieval.py` — Local-only retrieval over the existing hybrid index. (~2681 tok)
+- `retrieval.py` — Local-only retrieval over the existing hybrid index. (~2789 tok)
 
 ## src/backend/ai/prompts/
 
@@ -201,12 +212,25 @@
 - `herb_safety_transport.md` — Raspuns exclusiv pentru atentionari (~170 tok)
 - `message_classification_system.md` — Rol (~3940 tok)
 
+## src/backend/ai/prompts/en/
+
+- `condition_identification_system.md` — Identify conditions in one user message (~606 tok)
+- `generate_report_system.md` — Role (~1492 tok)
+- `herb_association_classification_system.md` — Classify source statements about a product (~498 tok)
+- `herb_association_classification_transport.md` — Complete-fragment classification output (~213 tok)
+- `herb_association_with_warnings_transport.md` — Combined classification and warnings (~245 tok)
+- `herb_product_safety_system.md` — Safety of one natural product (~624 tok)
+- `herb_safety_system.md` — Source-supported warnings and interactions (~923 tok)
+- `herb_safety_transport.md` — Warnings-only output (~149 tok)
+- `message_classification_system.md` — Deterministic message intent classification (~1045 tok)
+
 ## src/backend/core/
 
 - `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~2109 tok)
 - `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~15397 tok)
-- `herb_agreement.py` — Romanian product-name agreement, using local noun paradigms and explicit display rules. (~1230 tok)
+- `herb_agreement.py` — Romanian product-name agreement, using local noun paradigms and explicit display rules. (~1309 tok)
 - `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~992 tok)
+- `language.py` — Validated languages and isolated execution scopes; no process-wide mutable locale. (~353 tok)
 - `models.py` — Minimal medical context collected before report generation. (~5593 tok)
 - `operation_context.py` — Propagate a worker's deadline to synchronous I/O without changing public ports. (~1124 tok)
 - `report_batches.py` — Whole-fragment batches and lossless exact deduplication for one report worker. (~825 tok)
@@ -214,7 +238,7 @@
 - `report_models.py` — Supported report choices and their immutable provider routing. (~954 tok)
 - `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~15689 tok)
 - `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~4921 tok)
-- `texts.py` — Validated Romanian copy; imports are inert and each process owns one immutable snapshot. (~867 tok)
+- `texts.py` — Validated bilingual copy with immutable catalogs selected by execution context. (~1002 tok)
 
 ## src/backend/integrations/
 
@@ -234,13 +258,16 @@
 - `029_herb_safety_warnings.sql` — Product safety is independent of disease classifications and never mutates their decisions. (~2290 tok)
 - `030_herb_safety_concise_messages.sql` — Keep full historical quotations while separating the displayed message from its evidence. (~405 tok)
 - `031_herb_product_safety_knowledge.sql` — Model-knowledge safety is versioned independently of corpus-derived evidence and rankings. (~1516 tok)
+- `032_bilingual_chunks.sql` — Existing data is Romanian. New importers always supply the root's explicit language. (~480 tok)
+- `034_bilingual_derived_generations.sql` — Each language owns its publication pointer; existing generations remain Romanian. (~276 tok)
 
 ## src/backend/reporting/
 
-- `pdf.py` — Readable Romanian PDF report with source references next to each claim. (~14459 tok)
+- `pdf.py` — Readable Romanian PDF report with source references next to each claim. (~14517 tok)
 
 ## src/backend/resources/
 
+- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~8519 tok)
 - `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~9350 tok)
 
 ## src/backend/web/
@@ -252,10 +279,11 @@
 ## src/frontend/
 
 - `App.test.tsx` — capacityMessage (~1225 tok)
+- `App.tsx` — App (~1757 tok)
 - `index.html` — __APP_TITLE__ (~135 tok)
 - `main.tsx` — queryClient (~220 tok)
 - `setupTests.ts` — Declares __APP_TEST_TEXTS__ (~148 tok)
-- `styles.css` — Styles: 91 rules, 14 vars (~10420 tok)
+- `styles.css` — Styles: 91 rules, 14 vars (~10558 tok)
 - `vite.config.ts` — / <reference types="vitest/config" /> (~1158 tok)
 
 ## src/frontend/api/
@@ -276,21 +304,24 @@
 - `HerbEvidencePanel.tsx` — Python offsets count Unicode code points; ordinary JS slice counts UTF-16 units. (~1730 tok)
 - `HerbImageViewer.tsx` — Native modal dialogs keep keyboard focus inside and make the page beneath inert. (~432 tok)
 - `HerbWarningsPanel.tsx` — groups (~1027 tok)
+- `Hero.tsx` — Hero (~505 tok)
 
 ## src/frontend/hooks/
 
+- `useCategories.ts` — Exports useCategories (~388 tok)
 - `useReportGeneration.ts` — Exports activeGeneration, useReportGeneration (~3385 tok)
+- `useStartup.ts` — Exports useStartup (~248 tok)
 
 ## src/frontend/lib/
 
 - `generationFeedback.ts` — Exports AI_ACTIVITY_LABELS, GenerationFeedback (~291 tok)
-- `texts.ts` — Exports tr (~582 tok)
+- `texts.ts` — Exports Language, getLanguage, locale, useLanguage + 3 more (~1135 tok)
 
 ## src/scripts/
 
-- `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~17870 tok)
+- `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~19158 tok)
 - `caution_herb_ranking.py` — Prepare and publish warning projections using indexed data and caches only, without AI. (~284 tok)
-- `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~18728 tok)
+- `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~20372 tok)
 - `herb_index_requests.py` — Stream one indexing request per batch and emit aggregate telemetry without source content. (~4390 tok)
 - `herb_product_safety_index.py` — One local-model request per uncached catalog product; no corpus or association inference. (~3190 tok)
 - `herb_safety_index.py` — Legacy corpus helpers and shared progress; public safety commands use product knowledge. (~6224 tok)
@@ -302,9 +333,10 @@
 ## src/tests/integration/
 
 - `test_condition_database.py` — Reconstruct disposable databases from SQL, never from the removed JSONL. (~4307 tok)
-- `test_herb_conditions.py` — Actual PostgreSQL DISTINCT, aliases and literal ILIKE matching in an isolated DB. (~9879 tok)
+- `test_herb_conditions.py` — Actual PostgreSQL DISTINCT, aliases and literal ILIKE matching in an isolated DB. (~10090 tok)
 - `test_herb_database.py` — Rebuild and upgrade isolated PostgreSQL databases using only packaged SQL. (~6443 tok)
 - `test_herbs_index.py` — Atomic derived associations on an isolated PostgreSQL fixture. (~8606 tok)
+- `test_index_integrity.py` — Failure injection and actual PostgreSQL advisory-lock semantics. (~3935 tok)
 
 ## src/tests/support/
 
@@ -312,10 +344,12 @@
 
 ## src/tests/unit/ai/
 
-- `test_build_hybrid_index.py` — FakeClock: make_chunk, embed, fake_embed, test_normalize_text_preserves_composed_romanian_diacritics (~25059 tok)
+- `test_build_hybrid_index.py` — FakeClock: make_chunk, embed, fake_embed, test_normalize_text_preserves_composed_romanian_diacritics (~25796 tok)
 - `test_client_providers.py` — Tests for the configurable AI provider (REPORT_GENERATION_MODEL_TYPE): selection, payloads, parsing, (~5517 tok)
 - `test_condition_ai.py` — Tests for the AI identification of a condition the dictionary does not know (~5725 tok)
-- `test_document_spelling.py` — DocumentSpellingTests: setUp, write, clean, rows + 17 more (~3256 tok)
+- `test_document_spelling.py` — DocumentSpellingTests: setUp, write, clean, rows + 12 more (~4435 tok)
+- `test_herb_inflections.py` — Regression examples for Romanian plant names across lookup and routing. (~2003 tok)
+- `test_herb_ranking.py` — test_display_preserves_names_and_restores_known_accents, test_bundled_dictionary_restores_inflected_ (~890 tok)
 - `test_message_classification.py` — Strict intent contract and local Ollama wiring; no external traffic. (~5471 tok)
 - `test_report_validation.py` — report, test_invalid_recommendation_is_removed_whole, test_missing_invalid_and_extra_sections, test_ (~1323 tok)
 

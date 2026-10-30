@@ -12,6 +12,7 @@ from pathlib import Path
 
 from backend.config import Settings
 from backend.core.errors import ApplicationError, OperationCancelled
+from backend.core.language import language_scope
 from backend.core.models import CommitChange, HealthProfile, PendingSearch, StoredReport
 from backend.core.sessions import SessionStore, retained_usage, serialized_bytes
 
@@ -121,7 +122,13 @@ class SessionTests(unittest.TestCase):
 
     def test_old_search_uses_exact_snapshot_and_duplicate_is_409(self):
         self.search("Gripă")
-        first = self.store.begin_operation(self.session, "generate", search_id="s")
+        self.store.set_language(self.session, "en")
+        with language_scope("en"):
+            first = self.store.begin_operation(self.session, "generate", search_id="s")
+        self.assertEqual(first.snapshot.language, "ro")
+        self.assertEqual(first.snapshot.search.language, "ro")
+        with self.assertRaises(ApplicationError):
+            self.store.set_language(self.session, "ro")
         with self.assertRaises(ApplicationError) as caught:
             self.store.begin_operation(self.session, "generate", search_id="s")
         self.assertEqual(

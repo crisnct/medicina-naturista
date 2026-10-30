@@ -24,6 +24,7 @@ from backend.ai.search import ALL_SIGNALS
 from backend.config import Settings
 from backend.core.contracts import HerbEvidenceReference, HerbSafetyReference
 from backend.core.errors import ApplicationError, OperationCancelled
+from backend.core.language import Language, current_language
 from backend.core.models import (
     MAX_KEPT_REPORTS,
     MAX_KEPT_SEARCHES,
@@ -399,7 +400,15 @@ class SessionStore:
                 selected_report_id,
                 copy.deepcopy(session.routing),
                 copy.deepcopy(session.message_receipts),
+                language=(
+                    search.language
+                    if kind == "generate" and search
+                    else latest.language
+                    if kind == "email" and latest
+                    else current_language()
+                ),
             )
+            snapshot.profile.language = snapshot.language
             reservation = self.limits.operation_reservation_bytes
             reservation += serialized_bytes(
                 {
@@ -541,6 +550,7 @@ class SessionStore:
                 model[:128],
                 time.time(),
                 time.time() + max(0, operation.deadline - self.clock()),
+                language=operation.snapshot.language,
             )
             session.generations[job.job_id] = job
             session.generation_receipts[request_id] = job.job_id
@@ -889,6 +899,7 @@ class SessionStore:
             messages = copy.deepcopy(change.messages)
             for message in messages:
                 message["groupId"] = group_id
+                message["language"] = operation.snapshot.language
             if change.replace_search_id:
                 index = next(
                     (
@@ -1034,6 +1045,17 @@ class SessionStore:
                 evicted_groups,
             )
 
+    def set_language(self, session: SessionData, language: Language) -> None:
+        with self._lock, session.lock:
+            if session.language == language:
+                return
+            if any(op.session is session for op in self._workers.values()):
+                raise ApplicationError(
+                    "OPERATION_IN_PROGRESS", tr("errors.operation_capacity"), 409
+                )
+            session.language = language
+            session.profile.language = language
+
     def history(self, session: SessionData) -> list[dict]:
         return self.conversation_view(session)["history"]
 
@@ -1054,6 +1076,7 @@ class SessionStore:
                 reference: HerbEvidenceReference = {
                     "herbId": message["herbId"],
                     "positiveRunId": message["positiveRunId"],
+                    "language": message.get("language", "ro"),
                     "conditionIds": [condition["id"] for condition in message["conditions"]],
                 }
                 if message.get("cautionRunId"):
@@ -1080,7 +1103,11 @@ class SessionStore:
                 if message.get("warningsStatus") == "stale":
                     raise ApplicationError("HERB_SAFETY_STALE", tr("errors.herb_safety_stale"), 409)
                 if message.get("herbId") and message.get("safetyRunId"):
-                    return {"herbId": message["herbId"], "safetyRunId": message["safetyRunId"]}
+                    return {
+                        "herbId": message["herbId"],
+                        "safetyRunId": message["safetyRunId"],
+                        "language": message.get("language", "ro"),
+                    }
                 raise ApplicationError(
                     "HERB_SAFETY_NOT_READY", tr("errors.herb_safety_not_ready"), 503
                 )

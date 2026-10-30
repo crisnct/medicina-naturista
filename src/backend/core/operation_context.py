@@ -14,6 +14,7 @@ from typing import TYPE_CHECKING, Literal
 
 from backend.core.contracts import ReportBatchCallback
 from backend.core.errors import OperationCancelled
+from backend.core.language import Language, current_language, language_scope
 
 if TYPE_CHECKING:
     from backend.ai.report_validation import ValidatedReport
@@ -44,6 +45,7 @@ class OperationBudget:
     report_thinking: Callable[[str], None] | None = None
     report_activity: Callable[[ReportActivity], None] | None = None
     report_batch: ReportBatchCallback | None = None
+    language: Language | None = None
 
     def remaining(self) -> float:
         self.checkpoint()
@@ -81,9 +83,10 @@ def report_batch_context(index: int, stopped: Callable[[], bool]) -> Iterator[No
 def operation_budget(value: OperationBudget) -> Iterator[None]:
     token = _budget.set(value)
     try:
-        value.remaining()
-        yield
-        value.remaining()
+        with language_scope(value.language or current_language()):
+            value.remaining()
+            yield
+            value.remaining()
     finally:
         _budget.reset(token)
 

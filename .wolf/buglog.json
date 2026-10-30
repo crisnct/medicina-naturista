@@ -5953,6 +5953,384 @@
       "last_seen": "2026-10-29T09:00:18.758Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of texts.py",
+      "file": "src/backend/core/texts.py",
+      "root_cause": "7 lines replaced/restructured",
+      "fix": "Rewrote 8→11 lines (7 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-332",
+      "timestamp": "2026-10-29T11:58:34.260Z",
+      "last_seen": "2026-10-29T11:58:34.260Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of build_hybrid_index.py",
+      "file": "src/scripts/build_hybrid_index.py",
+      "root_cause": "7 lines replaced/restructured",
+      "fix": "Rewrote 11→17 lines (7 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-333",
+      "timestamp": "2026-10-29T14:43:03.734Z",
+      "last_seen": "2026-10-29T14:43:03.734Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "aiPlans/tmp/bilingual_final_probe.py",
+      "root_cause": "Had \"\\n\"",
+      "fix": "Changed to \".join(\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-334",
+      "timestamp": "2026-10-29T14:44:30.840Z",
+      "last_seen": "2026-10-29T14:44:30.840Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of useStartup.ts",
+      "file": "src/frontend/hooks/useStartup.ts",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 4→5 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-335",
+      "timestamp": "2026-10-29T14:47:51.791Z",
+      "last_seen": "2026-10-29T14:47:51.791Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_index_integrity.py",
+      "file": "src/tests/integration/test_index_integrity.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 5→6 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-336",
+      "timestamp": "2026-10-29T14:50:14.590Z",
+      "last_seen": "2026-10-29T14:50:14.590Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_herb_conditions.py",
+      "file": "src/tests/integration/test_herb_conditions.py",
+      "root_cause": "14 lines replaced/restructured",
+      "fix": "Rewrote 21→39 lines (14 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-337",
+      "timestamp": "2026-10-29T14:50:14.950Z",
+      "last_seen": "2026-10-29T14:50:14.950Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of retrieval.py",
+      "file": "src/backend/ai/retrieval.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 3→6 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-338",
+      "timestamp": "2026-10-29T14:51:39.135Z",
+      "last_seen": "2026-10-29T14:51:39.135Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/core/texts.py",
+      "root_cause": "Had \"Validated Romanian copy; imports are inert and ea",
+      "fix": "Changed to \"Validated bilingual copy with immutable catalogs ",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-339",
+      "timestamp": "2026-10-29T14:54:39.964Z",
+      "last_seen": "2026-10-29T14:54:39.964Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/ai/herb_ranking.py",
+      "root_cause": "Had \"Read a bounded catalog ranking with regional Roma",
+      "fix": "Changed to \"Read a bounded ranking from one language'",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-340",
+      "timestamp": "2026-10-29T14:54:40.252Z",
+      "last_seen": "2026-10-29T14:54:40.252Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: Romanian should be localized",
+      "file": "src/backend/reporting/pdf.py",
+      "root_cause": "Used \"Romanian\" instead of \"localized\"",
+      "fix": "Changed Romanian → localized",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-341",
+      "timestamp": "2026-10-29T14:54:40.545Z",
+      "last_seen": "2026-10-29T14:54:40.545Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "aiPlans/tmp/bilingual_final_probe.py",
+      "root_cause": "Had \"INSERT INTO herbs(category,latin,ro,en) VALUES \"",
+      "fix": "Changed to \"INSERT INTO herbs(category,family,latin,ro,en) VA",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-342",
+      "timestamp": "2026-10-29T14:56:07.332Z",
+      "last_seen": "2026-10-29T14:56:07.332Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of styles.css",
+      "file": "src/frontend/styles.css",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 5→28 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-343",
+      "timestamp": "2026-10-29T15:05:52.300Z",
+      "last_seen": "2026-10-29T15:05:52.300Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of clean_documents.py",
+      "file": "src/scripts/clean_documents.py",
+      "root_cause": "43 lines replaced/restructured",
+      "fix": "Rewrote 93→150 lines (43 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-344",
+      "timestamp": "2026-10-30T05:38:35.260Z",
+      "last_seen": "2026-10-30T05:38:35.260Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: iterdir should be glob",
+      "file": "src/scripts/clean_documents.py",
+      "root_cause": "Used \"iterdir\" instead of \"glob\"",
+      "fix": "Changed iterdir → glob",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-345",
+      "timestamp": "2026-10-30T05:39:24.447Z",
+      "last_seen": "2026-10-30T05:39:24.447Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_document_spelling.py",
+      "file": "src/tests/unit/ai/test_document_spelling.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 6→29 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-346",
+      "timestamp": "2026-10-30T05:39:24.790Z",
+      "last_seen": "2026-10-30T05:39:24.790Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herbs.py",
+      "file": "src/backend/ai/herbs.py",
+      "root_cause": "8 lines replaced/restructured",
+      "fix": "Rewrote 16→26 lines (8 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-347",
+      "timestamp": "2026-10-30T05:41:23.846Z",
+      "last_seen": "2026-10-30T05:41:23.846Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_display.py",
+      "file": "src/backend/ai/herb_display.py",
+      "root_cause": "9 lines replaced/restructured",
+      "fix": "Rewrote 10→18 lines (9 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-348",
+      "timestamp": "2026-10-30T05:41:24.405Z",
+      "last_seen": "2026-10-30T05:41:24.405Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/backend/ai/herbs.py",
+      "root_cause": "Was returning: f\"{self.ro} ({self.latin})\" if self.latin else sel",
+      "fix": "Now returns: f\"{name} ({self.latin})\" if self.latin and name !=",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-349",
+      "timestamp": "2026-10-30T05:42:25.870Z",
+      "last_seen": "2026-10-30T05:42:25.870Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of english_inflections.py",
+      "file": "src/backend/ai/english_inflections.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 31→56 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-350",
+      "timestamp": "2026-10-30T05:46:41.111Z",
+      "last_seen": "2026-10-30T05:46:41.111Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of clean_documents.py",
+      "file": "src/scripts/clean_documents.py",
+      "root_cause": "20 lines replaced/restructured",
+      "fix": "Rewrote 34→78 lines (20 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-351",
+      "timestamp": "2026-10-30T06:10:11.561Z",
+      "last_seen": "2026-10-30T06:10:11.561Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of test_document_spelling.py",
+      "file": "src/tests/unit/ai/test_document_spelling.py",
+      "root_cause": "4 lines replaced/restructured",
+      "fix": "Rewrote 10→35 lines (4 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-352",
+      "timestamp": "2026-10-30T06:11:41.590Z",
+      "last_seen": "2026-10-30T06:11:41.590Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -6297,7 +6675,28 @@
     "e60e1481-93a8-47c4-b69c-8077b9badc4f": true,
     "8b15148a-f38a-4de7-a6f9-ce539f1c621f": true,
     "a1490f37-3de4-4a5d-b068-d1c72cdd3446": true,
-    "ba63b9c2-83f0-474e-8ddf-dc2dc29668a8": true
+    "ba63b9c2-83f0-474e-8ddf-dc2dc29668a8": true,
+    "0d9e3707-09d0-48c0-8ea7-a6bbc922d039": true,
+    "fb54521f-a4c6-49c5-979b-b7d628cf2470": true,
+    "b872f483-444b-408f-992c-857b40f960cd": true,
+    "3431afeb-f161-4ce5-8e41-30d3c06cc396": true,
+    "088cd6d2-083e-4d63-bd83-8c685f1fe53a": true,
+    "ff5306e4-0baf-41e0-a79d-5508e02ededb": true,
+    "90b00747-ac33-49fc-bc8e-9b3f371ba8e0": true,
+    "1752d953-1c3e-48e5-b2ff-d7b3777c8476": true,
+    "df28a11f-b18c-427a-9601-4f901bca8683": true,
+    "95dfee97-ea15-4412-b42a-fc1dda6a6c92": true,
+    "63688501-83b5-4e5f-8b9a-8df8f1c3b9f3": true,
+    "bdc1940f-b864-44ea-a579-d4893ed67f81": true,
+    "d7ab8add-5aff-44da-9159-745ed8effed7": true,
+    "ba630c65-f2c3-48b8-9fa3-5a20ef51597c": true,
+    "f0806264-05b5-48b0-9ff7-9cba960cbc20": true,
+    "0090ef57-59a9-4e34-82c2-79722c52e0cd": true,
+    "e5811895-6f3c-4a6c-a940-17a9cdb07ee2": true,
+    "a3c080d4-2370-4ba9-9ffa-b1768465755d": true,
+    "8c770538-4c4f-42bc-a7e3-64aeb5608f94": true,
+    "8720705f-fa68-4f31-8dc0-310105ed4b41": true,
+    "28388048-0a80-4a6a-abc4-33690914d8ed": true
   },
-  "next_id": 332
+  "next_id": 353
 }

@@ -1,4 +1,4 @@
-import { tr } from "../lib/texts";
+import { getLanguage, tr, type Language } from "../lib/texts";
 import type {
   CategoriesResponse,
   ClassificationResponse,
@@ -56,6 +56,7 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
     credentials: "same-origin",
     headers: {
       "Content-Type": "application/json",
+      "X-App-Language": getLanguage(),
       "X-Tab-Id": getTabId(),
       "X-Page-Id": PAGE_ID,
       // Harmless everywhere else; tells an ngrok free-tier tunnel (used for
@@ -78,6 +79,7 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
 }
 
 export const api = {
+  changeLanguage: (language: Language) => request<{ language: Language }>("/api/language", { method: "POST", headers: { "X-App-Language": language } }),
   getStartup: () => request<StartupStatus>("/api/startup", { signal: AbortSignal.timeout(10000) }),
   getSession: async () => {
     while (!await claimTab(getTabId())) {

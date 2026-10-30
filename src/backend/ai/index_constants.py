@@ -2,4 +2,4 @@
 
 from typing import Final
 
-TEXT_REPR_VERSION: Final[str] = "10"
+TEXT_REPR_VERSION: Final[str] = "11"

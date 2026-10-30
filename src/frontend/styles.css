@@ -51,11 +51,19 @@ body {
     color: #233e33;
 }
 
+.hero-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px 16px;
+    padding: 18px 30px 0;
+}
+
 .hero-kicker {
     display: flex;
     align-items: center;
     gap: 9px;
-    padding: 24px 30px 0;
     color: #446554;
     font-size: 11px;
     font-weight: 650;
@@ -1406,7 +1414,8 @@ button:disabled { cursor: not-allowed; }
 @media (max-width: 580px) {
     .herb-warnings-section { column-count: 1; }
     #app-shell { gap: 14px; }
-    .hero-kicker { padding: 22px 22px 0; font-size: 10px; }
+    .hero-header { padding: 18px 22px 0; }
+    .hero-kicker { font-size: 10px; }
     .hero-main { grid-template-columns: minmax(0, 1fr); gap: 14px; padding: 8px 22px 22px; }
     .hero-title-block h1 { margin: 0 0 12px; font-size: 34px; letter-spacing: -0.9px; }
     .hero-title-block p { font-size: 14px; }
@@ -1419,3 +1428,20 @@ button:disabled { cursor: not-allowed; }
     .hero-portrait .herbs-strip { bottom: -4px; left: -4px; width: 76px; height: 20px; }
     .hero-portrait .herbs-strip img { left: -15px; width: 120px; }
     }
+
+.language-selector {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    margin-left: auto;
+    font-size: 14px;
+}
+
+.language-selector select {
+    font: inherit;
+    padding: 5px 8px;
+    border: 1px solid #b9c9bd;
+    border-radius: 6px;
+    background: #fff;
+    color: inherit;
+}

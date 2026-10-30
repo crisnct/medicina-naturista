@@ -17,6 +17,7 @@ from psycopg.rows import namedtuple_row
 
 from backend.ai.index_state import index_reader
 from backend.core.errors import ApplicationError
+from backend.core.language import current_language
 from backend.core.texts import tr
 
 # Category id used for files placed directly in the source root, with no
@@ -141,7 +142,10 @@ def _tree_from_payload(payload: dict[str, object]) -> CategoryTree:
 def load_category_tree() -> CategoryTree | None:
     with index_reader() as (connection, _metadata):
         with connection.cursor(row_factory=namedtuple_row) as cursor:
-            rows = cursor.execute("SELECT category_id FROM documents").fetchall()
+            rows = cursor.execute(
+                "SELECT category_id FROM documents WHERE (CASE WHEN starts_with(relative_path, 'en/') THEN 'en' ELSE 'ro' END) = %s",
+                (current_language(),),
+            ).fetchall()
     if not rows:
         return None
     return _tree_from_payload(build_category_tree(rows))

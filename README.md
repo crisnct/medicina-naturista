@@ -344,22 +344,51 @@ py -3.11 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install --require-hashes -r requirements-runtime.lock
 ```
 
-Plasați documentele sursă în `medicina-naturista-documente/data/documents/`. Nu publicați corpusul dacă include materiale private sau protejate. Opțional, curățați-le înainte de indexare (metadate de extragere PDF, linkuri, marcaje de pagină, trimiteri „Vezi și”, diacritice românești transcrise în litere ASCII: `ă/â → a`, `î → i`, `ș → s`, `ț → t`):
+Plasați documentele românești în `medicina-naturista-documente/data/documents/ro/` și documentele englezești în `medicina-naturista-documente/data/documents/en/`. Mutarea surselor vechi din rădăcina `documents` în `documents/ro` se face manual. Curățarea de mai jos parcurge recursiv ambele directoare, RO și EN. Nu publicați corpusul dacă include materiale private sau protejate. Opțional, curățați-le înainte de indexare (metadate de extragere PDF, linkuri, marcaje de pagină, trimiteri „Vezi și”, diacritice românești transcrise în litere ASCII: `ă/â → a`, `î → i`, `ș → s`, `ț → t`):
 
 ```powershell
 .\.venv\Scripts\python.exe src\scripts\clean_documents.py --dry-run
 .\.venv\Scripts\python.exe src\scripts\clean_documents.py
 ```
 
-Înlocuirea diacriticelor este activă implicit; opțiunea `--no-fold-diacritics` le păstrează. Corectarea cuvintelor folosește fișierele Hunspell `ro_RO.dic` și `ro_RO.aff` incluse în `src/scripts/dictionaires/ro/`, localizate relativ la script.
+Înlocuirea diacriticelor este activă implicit; opțiunea `--no-fold-diacritics` le păstrează. Corectarea cuvintelor folosește fișierele Hunspell `ro_RO.dic` și `ro_RO.aff` din `src/scripts/dictionaires/ro/` pentru sursele RO, respectiv `en_GB.dic` și `en_GB.aff` din `src/scripts/dictionaires/en/` pentru sursele EN, localizate relativ la script. Limba este stabilită din directorul `documents/ro` sau `documents/en`, inclusiv când `--source` indică un subdirector al acestuia. Pentru a prelucra numai sursele englezești, adăugați `--source medicina-naturista-documente/data/documents/en`.
 
-Corectarea rulează după curățare, numai pentru documentele detectate ca românești: unește două fragmente OCR nerecunoscute, separă cuvinte lipite, corectează greșeli rare neambigue și ortografia veche. Unirea protejează cuvintele din dicționar, cuvintele funcționale precum `la`, `de`, `si` și fragmentele de o singură literă; expresii precum `tumora la san` și `pieptul e` rămân separate. Întreaga prelucrare este planificată în memorie: frecvențele se recalculează după fiecare trecere, până când o trecere completă nu mai schimbă nimic. Abia apoi se rescriu fișierele. Cu același corpus, dicționar și aceleași opțiuni, o nouă rulare reușită nu mai modifică documentele sau datele lor de modificare. Un ciclu ori depășirea limitei de 16 treceri oprește execuția înainte de orice rescriere a surselor. `--dry-run` calculează același rezultat stabil, fără modificarea documentelor.
+Corectarea rulează după curățare pentru sursele RO și EN: unește două fragmente OCR nerecunoscute, separă cuvinte lipite și corectează greșeli rare neambigue. Modernizarea ortografiei vechi se aplică numai limbii române. Frecvențele și cuvintele funcționale sunt separate pe limbi, astfel încât corpusul RO nu influențează corecturile EN și invers. Pentru fișierele din afara directoarelor de limbă, se păstrează tratarea anterioară: numai textele detectate ca românești primesc corecturi ortografice; cele englezești sau mixte primesc doar curățarea generală. Unirea protejează cuvintele din dicționar, cuvintele funcționale precum `la`, `de`, `si` și fragmentele de o singură literă; expresii precum `tumora la san` și `pieptul e` rămân separate. Întreaga prelucrare este planificată în memorie: frecvențele se recalculează după fiecare trecere, până când o trecere completă nu mai schimbă nimic. Abia apoi se rescriu fișierele. Cu același corpus, dicționar și aceleași opțiuni, o nouă rulare reușită nu mai modifică documentele sau datele lor de modificare. Un ciclu ori depășirea limitei de 16 treceri oprește execuția înainte de orice rescriere a surselor. `--dry-run` calculează același rezultat stabil, fără modificarea documentelor.
+
+Documentele din `documents/ro` detectate clar ca englezești folosesc dicționarul EN la
+curățare, fără mutarea fișierelor. Suprascrierea limbii folderului cere minimum 20 de
+cuvinte, cel puțin patru cuvinte funcționale distincte specifice limbii engleze și
+rezultatul EN al detectorului combinat. Textele scurte sau clasificate ca mixte/incerte păstrează limba folderului.
+Detecția combină frecvența cuvintelor funcționale cu vocabularul distinct găsit exclusiv
+într-unul dintre dicționare. Cuvintele comune și cele necunoscute sunt neutre. Votul
+vocabularului cere cel puțin cinci cuvinte distincte exclusive, acoperire de minimum 20%
+și un raport de cel puțin 2:1; un conflict cu metoda bazată pe cuvinte funcționale produce
+rezultatul mixt. Ambele dicționare se încarcă o singură dată, înaintea selecției limbii,
+și se reutilizează la detecție și corectare. Expansiunea Hunspell combină cel mult un
+prefix cu un sufix compatibil, fără acumularea arbitrară de prefixe.
+Selecția este anunțată în consolă prin `Dictionary override ro -> en`, inclusiv la
+`--dry-run`. Această selecție privește doar corectarea ortografică; limba fragmentelor
+la indexare rămâne cea a folderului sursă.
 
 Raportul `var/spelling_changes.tsv` conține fișierul, linia din textul curățat la trecerea respectivă, regula, formele înainte/după și coloana `pass` cu numărul trecerii. El înregistrează pașii corectării; trecerile ulterioare pot elimina linii și schimba numerotarea. Se generează și la `--dry-run`. Folosiți `--spelling-report` pentru altă destinație. Lipsa dicționarului oprește execuția înainte de modificarea documentelor. Protecția dozelor și numerelor verifică rezultatul fiecărei treceri; fișierele care o încalcă sunt păstrate intacte și execuția se încheie cu eroare. `--no-fold-diacritics` păstrează diacriticele și folosește formele din dicționar pentru înlocuiri. Corectarea rămâne euristică; nu poate garanta sensul medical al textului și nu repară automat unirile greșite produse de versiuni anterioare.
 
 Aveți nevoie de un Postgres cu extensia `pgvector` pornit și accesibil la `DATABASE_URL` (implicit `postgresql://medicina:medicina@127.0.0.1:5432/medicina`); cel mai simplu e `docker compose up -d db`, care cere `POSTGRES_PASSWORD` în `.env` (utilizatorul și baza sunt implicit `medicina`), deci `DATABASE_URL` trebuie să folosească aceeași parolă.
 
 ### 2. Sincronizarea indexului
+
+Reindexarea implicită citește ambele rădăcini, `DOCUMENTS_DIR` (implicit
+`data/documents/ro`) și `DOCUMENTS_EN_DIR` (implicit `data/documents/en`), și publică
+un singur index atomic. `--source-ro` (alias `--source`) și `--source-en` înlocuiesc
+explicit rădăcinile. Un folder lipsă, gol sau suprapus celuilalt oprește buildul înainte
+de publicare. Identitățile surselor sunt `ro/<cale>` și `en/<cale>`; prefixul nu este
+categorie. Fragmentele, statisticile de scor, sursele și topurile sunt filtrate după limbă.
+După indexare, pregătirea/publicarea implicită a recomandărilor și a avertizărilor rulează
+pentru fiecare limbă cu promptul ei. Comenzile dedicate de analiză, pregătire, reluare sau
+publicare acceptă `--language ro|en`; RUN_ID trebuie folosit în limba în care a fost creat.
+CLI-ul de căutare acceptă `-Language en`, iar `fragment_report.py` și
+`evaluate_retrieval.py` acceptă `--language en`. Schimbarea versiunii reprezentării la
+`11` necesită reindexare; aplicația nu aplică migrări și nu pornește reindexarea la startup.
+
 
 ```powershell
 $env:PYTHONPATH = "src"
@@ -368,7 +397,7 @@ $env:PYTHONPATH = "src"
 
 Scriptul importă pachetul `backend`, deci are nevoie de `PYTHONPATH=src`. Baza vine din `DATABASE_URL` (`.env`); `--model` și `--source` sunt opționale. Scriptul pornește cu pythonul din care îl rulezi (pe CPU, fără alt mediu); pe GPU vezi mai jos.
 
-`TEXT_REPR_VERSION` este definită o singură dată în `src/backend/ai/index_constants.py`, cu valoarea `"10"`. Scriptul de indexare și backendul citesc aceeași constantă; nu este o variabilă de mediu. Schimbarea valorii face ca următoarea rulare a scriptului să reproceseze toate documentele; până la sincronizare, backendul refuză indexul cu versiunea veche. Modificarea constantei nu pornește automat reindexarea. Reporniți backendul după schimbarea codului.
+`TEXT_REPR_VERSION` este definită o singură dată în `src/backend/ai/index_constants.py`, cu valoarea `"11"`. Scriptul de indexare și backendul citesc aceeași constantă; nu este o variabilă de mediu. Schimbarea valorii face ca următoarea rulare a scriptului să reproceseze toate documentele; până la sincronizare, backendul refuză indexul cu versiunea veche. Modificarea constantei nu pornește automat reindexarea. Reporniți backendul după schimbarea codului.
 
 Modelul de embedding este `Qwen/Qwen3-Embedding-0.6B` (vectori de 1024 de dimensiuni); alt model nu este cunoscut de cod. Căutarea citește modelul din `sync_metadata` și scrie întrebările după profilul lui (`ai/embedding_model.py`: instrucțiunea Qwen la întrebare, fără prefix la pasaje). **Dacă baza conține un index făcut cu alt model sau cu altă dimensiune, următorul build reîncorporează toate documentele**, iar coloana `chunks.embedding` este recreată în aceeași tranzacție cu documentele și metadata noi. Orice eroare păstrează generația și dimensiunea anterioare. Durata depinde de corpus și hardware. Indexarea pe GPU necesită un mediu separat `.venv-gpu`, cu dependențele aplicației, `torch` cu suport CUDA și `sentence-transformers` deja instalate:
 
@@ -907,14 +936,14 @@ Tabelele principale ale indexului, catalogului și migrărilor sunt:
 | Tabel | Conținut |
 |---|---|
 | `documents` | Un rând per fișier sursă: cale, SHA-256, codificare, număr de linii; categoria (folderul) este o coloană generată din cale. Folosit și pentru a decide ce fișiere sar la sincronizarea următoare. |
-| `medical_conditions` | Numai `id` și `name`: o înregistrare pentru fiecare afecțiune. |
+| `medical_conditions` | `id`, `name` (numele canonic românesc) și `en` (echivalentul englezesc, completat prin SQL); identitatea afecțiunii este comună ambelor limbi. |
 | `medical_condition_synonyms` | Numai `id`, `medical_condition_id` și `synonym`: sinonimele legate prin FK de afecțiune. |
 | `herbs` | Coloane fizice `id, category, family, latin, ro, en, ranking`; ID numeric identity. Plantele păstrează denumirile/familiile lowercase și un nume latin unic; produsele au `latin = NULL` și păstrează capitalizarea cerută pentru `ro`/`en`. Unicitatea numelui produsului (`lower(btrim(ro))`) este comună tuturor celor zece categorii de produse, inclusiv `seminte`. Intrările botanice folosesc `plante medicinale`, `fructe`, `legume` sau `cereale`; `family` păstrează familia botanică originală. Pentru produse, categoria tehnică se află numai în `category`, iar `family` este SQL NULL. `ranking` numără afecțiunile distincte asociate din titlurile fragmentelor. Numele populare pot fi comune mai multor specii. |
 | `herb_aliases` | Coloane `id, herb_id, name, kind`; aliasuri lowercase, FK cu ștergere în cascadă, tipuri `ro_regional`, `latin_synonyms`, `en_alt`. |
-| `herbs_benefits` | Asocieri derivate din coapariția în corpus: `id, herb_id, medical_condition_id`; pereche unică, FK cu ștergere în cascadă și indecși individuali. Publicate atomic la finalul reindexării. |
+| `herbs_benefits` | Asocieri derivate din coapariția în corpus: `id, herb_id, medical_condition_id, language`; pereche unică per limbă, FK cu ștergere în cascadă și indecși individuali. Publicate atomic la finalul reindexării. |
 | `schema_migrations` | Ledgerul migrărilor SQL aplicate o singură dată. |
 | `owner_sessions` | Autorizări owner persistente: hashuri și metadata tehnică; fără conversații sau rapoarte. |
-| `chunks` | Un rând per fragment: text, interval de linii, calea titlurilor (`heading`), categoria generată din cale (`category_id`, folosită de filtrarea pe surse), `business_category` (`R1`/`R2`/`D1`), `primary_medical_conditions`, `secondary_medical_conditions`, vectorul semantic (`embedding vector(1024)`) și coloana lexicală (`text_search tsvector`). |
+| `chunks` | Un rând per fragment, cu `language` (`ro`/`en`, RO pentru rândurile existente): text, interval de linii, calea titlurilor (`heading`), categoria generată din cale (`category_id`, folosită de filtrarea pe surse), `business_category` (`R1`/`R2`/`D1`), `primary_medical_conditions`, `secondary_medical_conditions`, vectorul semantic (`embedding vector(1024)`) și coloana lexicală (`text_search tsvector`). |
 | `sync_metadata` | Modelul, dimensiunea, profilul pasajelor, versiunea textului, fingerprintul SHA-256 al dicționarului, generația indexului, data sincronizării și cele cinci marcaje `herbs_benefits_*`. |
 
 Dacă profilul indexului și fingerprintul catalogului sunt neschimbate, un document cu același SHA-256 este ignorat la sincronizare; un document nou sau modificat își înlocuiește fragmentele într-o singură tranzacție.
@@ -1029,63 +1058,66 @@ La prima utilizare, urmați linkul de activare afișat de Tailscale. Aplicația 
 
 Migrarea acestei aplicații nu necesită modificarea proxy-ului Nginx comun sau oprirea ngrok pentru celelalte proiecte. Serviciul și configurația Caddy au fost eliminate; HTTPS este administrat de Tailscale. Accesul vechi la Medicina Naturistă prin ngrok nu mai este originea autorizată pentru cererile de modificare după schimbarea `PUBLIC_ORIGIN`.
 
-## Textele aplicației
+## Limba aplicației și textele fixe
 
-Mesajele fixe afișate utilizatorului sunt centralizate în
-[`src/backend/resources/texts.ro.toml`](src/backend/resources/texts.ro.toml), în UTF-8.
-Cheile și parametrii sunt în engleză; valorile sunt în română. Secțiunile sunt
-`common`, `interface`, `conversation`, `errors`, `authorization`, `report` și `email`.
-Sunt incluse etichetele, exemplele de întrebări, accesibilitatea, conversația, erorile,
-autorizarea, titlul paginii, PDF-ul și emailul. Prompturile AI, mesajele tehnice,
-documentele sursă, datele cataloagelor și răspunsurile generate rămân în sursele lor.
+Selectorul „Română / English” din antet schimbă limba interfeței și a operațiunilor
+următoare. Prima vizită folosește RO; preferința este salvată în `localStorage` pentru
+taburile noi. Taburile deja deschise își păstrează limba. Schimbarea este blocată cât timp
+există o operațiune activă în acel tab și nu recreează sesiunea sau istoricul.
 
-Editați numai valorile. Păstrați cheile și parametrii indicați în comentariile
-`# Parameters:`; parametrii se substituie prin nume, fără expresii sau HTML.
-Variantele de singular/plural sunt intrări separate. Exemplu de valori existente:
+Fiecare mesaj, căutare și raport păstrează limba originală. Acțiunile asupra rezultatelor
+istorice folosesc acea limbă: un raport generat dintr-o căutare RO rămâne RO chiar dacă
+interfața a trecut la EN, inclusiv PDF-ul și emailul. Pentru un raport EN este necesară o
+căutare EN nouă. Căutarea EN nu folosește fragmente RO când lipsesc rezultate EN.
 
-```toml
-[interface]
-composer_send = "Trimite"
-[conversation]
-welcome = """
-Bună ziua, 👋
-
-Cu ce vă pot ajuta?"""
-```
-
-Rândurile goale dintr-un mesaj multiline fac parte din mesaj. Între intrările
-fișierului nu sunt necesare linii goale. Formatarea React, HTML și PDF rămâne în
-renderere; mesajele care folosesc Markdown păstrează marcajele existente.
-
-Catalogul este validat și încărcat o singură dată per proces, înaintea resurselor AI.
-Un fișier absent, TOML invalid, o cheie lipsă/necunoscută sau parametri modificați
-opresc pornirea. Pentru validare locală în PowerShell:
+Textele sunt în două cataloage UTF-8 independente:
+`src/backend/resources/texts.ro.toml` și `src/backend/resources/texts.en.toml`.
+Catalogul RO a fost păstrat neschimbat la introducerea limbii EN. Ambele au exact aceleași
+468 de chei și aceiași parametri numiți. Secțiunile `common` și `interface` sunt publice;
+`conversation`, `errors`, `authorization`, `report` și `email` rămân pe backend.
+Cheile lipsă, necunoscute, parametrii incompatibili sau HTML-ul opresc validarea;
+nu există fallback al textelor EN către RO.
 
 ```powershell
 $env:PYTHONPATH = 'src'
 .venv/Scripts/python.exe -m scripts.manage_texts
+.venv/Scripts/python.exe -m scripts.manage_texts --public-json --language en
 ```
 
-Integrarea inițială necesită reconstruirea imaginii pentru codul nou și montarea
-catalogului. După aceea, Compose montează acest fișier separat, read-only: după o
-editare a valorilor, operatorul rulează `docker compose restart app`, apoi reîncarcă
-pagina. Nu este necesar rebuild pentru schimbarea mesajelor. În rularea Python
-directă se repornește backendul. Conversațiile deja afișate și PDF-urile deja generate
-își păstrează conținutul.
+Bootstrapul HTML transmite ambele cataloage publice înainte de pornirea React.
+`GET /api/texts?language=en` expune catalogul public EN; fără limbă, răspunsul compatibil
+este RO. Cererile UI trimit `X-App-Language: ro|en`; navigarea către autorizare folosește
+un parametru de limbă validat. `POST /api/language` schimbă preferința sesiunii fără a
+șterge conversația. HTML-ul și textele publice sunt `no-store`.
 
-Backendul introduce textele publice în HTML înaintea pornirii React și completează
-titlul/descrierea paginii. `GET /api/texts` expune doar `common` și `interface`,
-fără autorizare sau acces la corpus; HTML-ul și endpointul folosesc `no-store`.
-Vite în dezvoltare folosește același endpoint din backendul configurat prin
-`DEV_BACKEND_URL`; acesta trebuie să includă noua implementare. `vite preview`
-servește fișierele brute și nu înlocuiește bootstrapul backendului.
+Backendul și fiecare worker folosesc un context izolat de limbă derivat din snapshotul
+operațiunii, fără modificarea unui client AI global. Prompturile RO rămân în
+`ai/prompts/`; variantele EN sunt în `ai/prompts/en/`, cu aceleași chei JSON și reguli de
+citare. Clasificarea și identificarea afecțiunilor rămân exclusiv locale. Avertizările
+produselor sunt pregătite la reindexare pentru ambele limbi, cu cache și generații active
+separate; consultarea din UI nu inițiază apeluri AI.
 
-La adăugarea sau redenumirea cheilor ori schimbarea parametrilor, dezvoltatorul
-actualizează consumatorii și rulează `python -m scripts.manage_texts --generate`
-cu `PYTHONPATH=src`. Comanda regenerează numai metadatele Python/TypeScript pentru
-chei și parametri; nu creează un al doilea catalog editabil. Aceste schimbări de
-contract necesită și rebuildul frontendului. Testele frontend folosesc același TOML,
-prin exportul stdlib Python; se poate selecta interpreterul cu variabila `PYTHON`.
+`medical_conditions.en` este populat prin migrare SQL din aliasurile bilingve ale
+catalogului, fără schimbarea ID-urilor și fără traducere AI la runtime. Produsele folosesc
+`herbs.en`; când nu există un nume comun EN, se păstrează numele științific. Completările
+ulterioare de afecțiuni prin `scripts.condition_sql.additions_sql` trebuie să furnizeze
+explicit `Condition.english`. Clasificarea surselor și verificarea citărilor nu reprezintă
+validare medicală a traducerilor sau a recomandărilor.
+
+În UI, denumirile produselor folosesc dicționarul limbii operației: `ro_RO` pentru RO
+și `src/scripts/dictionaires/en/en_GB.dic` / `en_GB.aff` pentru EN. La recunoașterea
+denumirilor EN se acceptă pluralurile validate de regulile nominale ale dicționarului,
+inclusiv în numele alternative și expresiile cu mai multe cuvinte. Numele latine rămân
+exacte; prefixele și derivările care schimbă sensul nu extind potrivirile. Afișarea
+păstrează formele ambigue sau necunoscute. Cache-urile cataloagelor sunt separate pe
+limbă; mesajele introduse și documentele nu sunt corectate automat de această integrare.
+Catalogul afecțiunilor din PostgreSQL rămâne separat de dicționarul ortografic Hunspell.
+
+La modificări de chei/parametri, `python -m scripts.manage_texts --generate` regenerează
+numai metadatele comune Python/TypeScript. Nu dublează mesajele în frontend. Compose
+montează ambele cataloage read-only. Activarea codului nou cere reconstruirea aplicației;
+editarea ulterioară numai a valorilor cere repornirea procesului și reîncărcarea paginii.
+Vite în dezvoltare trebuie conectat la un backend care include contractul bilingv.
 
 ## ⚙️ Configurare
 

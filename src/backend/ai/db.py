@@ -37,8 +37,8 @@ CREATE TABLE IF NOT EXISTS documents (
     line_count      INTEGER NOT NULL,
     char_count      INTEGER NOT NULL,
     category_id     TEXT GENERATED ALWAYS AS (
-        CASE WHEN relative_path LIKE '%/%'
-             THEN regexp_replace(relative_path, '/[^/]*$', '')
+        CASE WHEN regexp_replace(relative_path, '^(ro|en)/', '') LIKE '%/%'
+             THEN regexp_replace(regexp_replace(relative_path, '^(ro|en)/', ''), '/[^/]*$', '')
              ELSE ''
         END
     ) STORED
@@ -46,6 +46,7 @@ CREATE TABLE IF NOT EXISTS documents (
 
 CREATE TABLE IF NOT EXISTS chunks (
     chunk_id              BIGSERIAL PRIMARY KEY,
+    language              TEXT NOT NULL DEFAULT 'ro' CHECK(language IN ('ro','en')),
     source_relative_path  TEXT NOT NULL REFERENCES documents(relative_path) ON DELETE CASCADE,
     source_absolute_path  TEXT NOT NULL,
     source_sha256         TEXT NOT NULL,
@@ -56,8 +57,8 @@ CREATE TABLE IF NOT EXISTS chunks (
     text_sha256           TEXT NOT NULL,
     char_count            INTEGER NOT NULL,
     category_id           TEXT GENERATED ALWAYS AS (
-        CASE WHEN source_relative_path LIKE '%/%'
-             THEN regexp_replace(source_relative_path, '/[^/]*$', '')
+        CASE WHEN regexp_replace(source_relative_path, '^(ro|en)/', '') LIKE '%/%'
+             THEN regexp_replace(regexp_replace(source_relative_path, '^(ro|en)/', ''), '/[^/]*$', '')
              ELSE ''
         END
     ) STORED,

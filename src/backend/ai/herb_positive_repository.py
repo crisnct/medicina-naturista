@@ -27,10 +27,15 @@ from backend.ai.herb_index_catalog import normalize_herb_name, read_index_catalo
 from backend.ai.index_state import INDEX_LOCK, IndexUnavailable, read_metadata
 from backend.config import Settings
 from backend.core.errors import ApplicationError
+from backend.core.language import current_language
 from backend.core.operation_context import checkpoint, remaining_timeout
 from backend.core.texts import tr
 
 ACTIVE_KEY = "herb_positive_active_run"
+
+
+def active_key() -> str:
+    return ACTIVE_KEY if current_language() == "ro" else ACTIVE_KEY + "_en"
 
 
 def unavailable(stale: bool = False) -> ApplicationError:
@@ -84,7 +89,8 @@ def snapshot(connection: Connection) -> Snapshot:
     base: dict[str, str] = dict(
         connection.execute("SELECT key,value FROM sync_metadata").fetchall()
     )
-    active = base.pop(ACTIVE_KEY, None)
+    active = base.get(active_key())
+    base = {key: value for key, value in base.items() if not key.startswith(ACTIVE_KEY)}
     catalog = connection.execute(
         "SELECT id,category,family,latin,ro,en FROM herbs ORDER BY id"
     ).fetchall()
@@ -94,13 +100,16 @@ def snapshot(connection: Connection) -> Snapshot:
     # xmin protects against edits that bypass normal generation publication, including embeddings.
     chunks = connection.execute(
         "SELECT chunk_id,source_relative_path,source_sha256,text_sha256,heading,"
-        "primary_medical_conditions,xmin::text FROM chunks ORDER BY chunk_id"
+        "primary_medical_conditions,xmin::text FROM chunks WHERE language=%s ORDER BY chunk_id",
+        (current_language(),),
     ).fetchall()
     documents = connection.execute(
-        "SELECT relative_path,sha256,xmin::text FROM documents ORDER BY relative_path"
+        "SELECT relative_path,sha256,xmin::text FROM documents WHERE (CASE WHEN starts_with(relative_path, 'en/') THEN 'en' ELSE 'ro' END)=%s ORDER BY relative_path",
+        (current_language(),),
     ).fetchall()
     manifest = {
         "version": POSITIVE_RANKING_VERSION,
+        "language": current_language(),
         "generation": metadata.index_generation,
         "base": content_hash(base),
         "conditions": condition_fp,
@@ -118,11 +127,22 @@ def snapshot(connection: Connection) -> Snapshot:
         "ORDER BY medical_condition_id,id"
     ).fetchall():
         synonyms[identifier].append(synonym)
+    for identifier, english in connection.execute(
+        "SELECT id,en FROM medical_conditions ORDER BY id"
+    ).fetchall():
+        if normalize_herb_name(english) not in {
+            normalize_herb_name(term) for term in (conditions[identifier], *synonyms[identifier])
+        }:
+            synonyms[identifier].append(english)
     return Snapshot(
         manifest,
         active,
         herb_ids,
-        {r[0]: r[4] + (f" ({r[3]})" if r[3] else "") for r in catalog},
+        {
+            r[0]: ((r[5] or r[3]) if current_language() == "en" else r[4])
+            + (f" ({r[3]})" if r[3] else "")
+            for r in catalog
+        },
         conditions,
         (),
         tuple((r[0], r[1]) for r in catalog),
@@ -141,6 +161,12 @@ def evidence_rows(connection: Connection, run_id: str) -> list:
 
 
 def assert_integrity(connection: Connection, run_id: str, expected: int, digest: str) -> None:
+    crossed = connection.execute(
+        "SELECT EXISTS(SELECT 1 FROM herb_positive_evidence e JOIN chunks c USING(chunk_id) JOIN herb_positive_runs r USING(run_id) WHERE e.run_id=%s AND c.language<>r.language)",
+        (run_id,),
+    ).fetchone()
+    if crossed and crossed[0]:
+        raise ValueError("POSITIVE_LANGUAGE_MISMATCH")
     rows = evidence_rows(connection, run_id)
     if len(rows) != expected or content_hash(rows) != digest:
         raise ValueError("POSITIVE_INCOMPLETE_EVIDENCE")
@@ -201,6 +227,7 @@ class PositiveRepository:
             schema = connection.execute("SELECT to_regclass('herb_positive_runs')").fetchone()
             if schema is None or not schema[0]:
                 raise unavailable()
+            connection.execute("SELECT set_config('app.language', %s, true)", (current_language(),))
             yield connection
             checkpoint()
 
@@ -211,7 +238,8 @@ class PositiveRepository:
             rows = connection.execute(
                 "SELECT chunk_id,source_relative_path,source_sha256,text_sha256,heading,text,"
                 "primary_medical_conditions FROM chunks "
-                "WHERE cardinality(primary_medical_conditions)>0 ORDER BY chunk_id"
+                "WHERE cardinality(primary_medical_conditions)>0 AND language=%s ORDER BY chunk_id",
+                (current_language(),),
             ).fetchall()
         # Segmentation and matching own no database connection or advisory lock.
         herb_names = tuple(
@@ -423,7 +451,7 @@ class PositiveRepository:
                 raise ValueError("POSITIVE_PUBLICATION_CONFLICT")
             connection.execute(
                 "INSERT INTO sync_metadata(key,value) VALUES(%s,%s) ON CONFLICT(key) DO UPDATE SET value=EXCLUDED.value",
-                (ACTIVE_KEY, run_id),
+                (active_key(), run_id),
             )
 
 

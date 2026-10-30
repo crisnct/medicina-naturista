@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { herbImageUrl } from "../api/client";
-import { tr } from "../lib/texts";
+import { locale, tr } from "../lib/texts";
 import type { HerbConditionsMessage, HerbEvidenceKind } from "../api/types";
 import { DoctorAvatar } from "./DoctorAvatar";
 import { HerbEvidencePanel } from "./HerbEvidencePanel";
@@ -87,7 +87,7 @@ export function HerbConditionsPanel({ message }: { message: HerbConditionsMessag
   const labels = wording[agreement];
   const positiveTitle = tr(labels.positive);
   const negativeTitle = tr(labels.negative);
-  const herbName = message.herbName.charAt(0).toLocaleUpperCase("ro-RO") + message.herbName.slice(1);
+  const herbName = message.herbName.charAt(0).toLocaleUpperCase(locale()) + message.herbName.slice(1);
   const speciesNames = message.species.map((species) =>
     species.replace(/\p{L}+/gu, (word) => word.charAt(0).toUpperCase() + word.slice(1)),
   ).join(" · ");

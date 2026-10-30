@@ -6,16 +6,17 @@ import hashlib
 import json
 from collections import OrderedDict
 from collections.abc import Sequence
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from threading import Lock
 
 from psycopg import Connection
 
 from backend.ai.conditions import Condition, ConditionDictionary, _normalize, make_condition
 from backend.core.errors import ApplicationError
+from backend.core.language import current_language
 from backend.core.texts import tr
 
-FINGERPRINT_VERSION = 1
+FINGERPRINT_VERSION = 2
 _cache_lock = Lock()
 _cache: OrderedDict[tuple, CatalogSnapshot] = OrderedDict()
 
@@ -37,7 +38,10 @@ class CatalogSnapshot:
 
 
 def catalog_fingerprint(conditions: Sequence[Condition]) -> str:
-    payload = [FINGERPRINT_VERSION, [[item.name, list(item.terms)] for item in conditions]]
+    payload = [
+        FINGERPRINT_VERSION,
+        [[item.name, item.english, list(item.terms)] for item in conditions],
+    ]
     raw = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
     return hashlib.sha256(raw).hexdigest()
 
@@ -49,21 +53,25 @@ def clear_catalog_cache() -> None:
 
 def read_conditions(connection: Connection) -> tuple[Condition, ...]:
     rows = connection.execute(
-        "SELECT c.id, c.name, s.synonym "
+        "SELECT c.id, c.name, c.en, s.synonym "
         "FROM medical_conditions c LEFT JOIN medical_condition_synonyms s "
         "ON s.medical_condition_id = c.id ORDER BY c.id, s.id"
     ).fetchall()
     items: list[Condition] = []
     previous_id = None
     name = ""
+    english = ""
     terms: list[str] = []
     names: set[str] = set()
-    for condition_id, current_name, synonym in rows:
+    for condition_id, current_name, current_english, synonym in rows:
         if condition_id != previous_id:
             if previous_id is not None:
-                items.append(make_condition(name, terms))
+                items.append(replace(make_condition(name, terms), english=english))
             previous_id = condition_id
             name = current_name
+            english = current_english
+            if not isinstance(english, str) or not english.strip():
+                raise CatalogUnavailable()
             terms = []
             key = _normalize(name)
             if not key or key in names or name != " ".join(name.split()):
@@ -74,7 +82,7 @@ def read_conditions(connection: Connection) -> tuple[Condition, ...]:
                 raise CatalogUnavailable()
             terms.append(synonym)
     if previous_id is not None:
-        items.append(make_condition(name, terms))
+        items.append(replace(make_condition(name, terms), english=english))
     if not items:
         raise CatalogUnavailable()
     return tuple(items)
@@ -85,7 +93,7 @@ def catalog_snapshot(connection: Connection) -> CatalogSnapshot:
     conditions = read_conditions(connection)
     fingerprint = catalog_fingerprint(conditions)
     info = connection.info
-    key = (info.host, info.port, info.dbname, info.user, fingerprint)
+    key = (info.host, info.port, info.dbname, info.user, fingerprint, current_language())
     with _cache_lock:
         if key in _cache:
             _cache.move_to_end(key)

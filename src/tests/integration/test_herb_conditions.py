@@ -219,7 +219,7 @@ def test_common_name_shared_by_species_requires_selection(catalog, name):
     result = lookup_herb_conditions(name)
     assert result == {
         "status": "ambiguous",
-        "choices": ["musetel (chamaemelum nobile)", "musetel (matricaria chamomilla)"],
+        "choices": ["mușețel (chamaemelum nobile)", "mușețel (matricaria chamomilla)"],
     }
 
 
@@ -264,7 +264,7 @@ def test_alias_ambiguity_requires_choice(catalog):
         )
     assert lookup_herb_conditions("romaniță") == {
         "status": "ambiguous",
-        "choices": ["menta de apa (mentha aquatica)", "musetel (matricaria chamomilla)"],
+        "choices": ["menta de apa (mentha aquatica)", "mușețel (matricaria chamomilla)"],
     }
 
 
@@ -444,6 +444,20 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
         import json
 
         payload = json.loads(user)
+        if "product" in payload:
+            identifier = payload["product"]["id"]
+            return {
+                "herb_id": identifier,
+                "status": "uncertain" if identifier == 1 else "complete",
+                "messages": (
+                    [
+                        {"message_type": "warning", "problem": "Mesaj sintetic unu."},
+                        {"message_type": "interaction", "problem": "Mesaj sintetic doi."},
+                    ]
+                    if identifier == 1
+                    else []
+                ),
+            }
         if any(c["herb_id"] == 1 for c in payload.get("candidates", [])):
             assert len(next(c["mentions"] for c in payload["candidates"] if c["herb_id"] == 1)) == 2
         result = {
@@ -492,20 +506,19 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
         first = run_positive_ranking(config)
         assert first["status"] == "ready" and first["requests"] == 1
         assert first["warnings_only_ai_requests"] > 0
-        assert first["safety_rejected_quotes"] > 0
-        assert first["safety_unclear_after_validation"] > 0
+        assert first["product_safety_ai_requests"] == first["safety_products_total"]
         with db.get_pool().connection() as connection:
             assert (
                 connection.execute(
-                    "SELECT count(*) FROM herb_safety_analysis "
-                    "WHERE run_id=%s AND herb_id=3 AND status='unclear'",
+                    "SELECT count(*) FROM herb_product_safety_results "
+                    "WHERE run_id=%s AND herb_id=1 AND status='uncertain'",
                     (first["run_id"],),
                 ).fetchone()[0]
                 > 0
             )
             assert (
                 connection.execute(
-                    "SELECT count(*) FROM herb_safety_warnings WHERE text=%s",
+                    "SELECT count(*) FROM herb_safety_messages WHERE problem=%s",
                     ("Afirmatie inexistenta",),
                 ).fetchone()[0]
                 == 0
@@ -515,7 +528,10 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
         second = run_positive_ranking(config)
         assert second["requests"] == 0 and second["cache_hits"] == 3
         assert second["warnings_only_ai_requests"] == 0
-        with patch("backend.ai.herb_safety_repository.SafetyRepository.cached", return_value={}):
+        with patch(
+            "backend.ai.herb_product_safety_repository.ProductSafetyRepository.cached",
+            return_value={},
+        ):
             only_warnings = run_positive_ranking(config)
         assert only_warnings["requests"] == 0
         assert only_warnings["warnings_only_ai_requests"] > 0
@@ -533,14 +549,18 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
     from scripts.herb_safety_index import run_safety_index
 
     with (
-        patch("scripts.herb_safety_index.model_digest", side_effect=AssertionError("model lookup")),
+        patch(
+            "scripts.herb_product_safety_index.model_digest",
+            side_effect=AssertionError("model lookup"),
+        ),
         redirect_stdout(io.StringIO()),
     ):
         safety_analysis = run_safety_index(config, analyze=True)
         assert safety_analysis["ai_requests_sent_total"] == 0
         assert safety_analysis["estimated_warning_requests"] == 0
         assert safety_analysis["safety_cache_hits"] > 0
-        assert run_safety_index(config, publish=first["safety_run_id"])["status"] == "published"
+        with patch("scripts.herb_product_safety_index.model_digest", return_value="a" * 64):
+            assert run_safety_index(config, publish=first["safety_run_id"])["status"] == "published"
 
     safety_details = lookup_herb_conditions("matricaria chamomilla")
     assert safety_details["warningsStatus"] == "partial"
@@ -548,16 +568,14 @@ def test_top_limits_species_before_alias_join_and_orders_ties(catalog):
     safety_page = lookup_herb_safety(safety_details["herbId"], safety_details["safetyRunId"])
     assert len(safety_page["warnings"]) == 2
     assert safety_page["warningsCount"] == 2 and safety_page["nextOffset"] is None
-    warning_sources = lookup_herb_safety_evidence(
-        safety_details["herbId"],
-        safety_details["safetyRunId"],
-        warning_id=safety_page["warnings"][0]["id"],
-    )
-    assert warning_sources["fragmentsCount"] == 1
-    assert warning_sources["fragments"][0]["document"] == "safety.md"
-    assert any(
-        span["kind"] == "warning" for span in warning_sources["fragments"][0]["textHighlights"]
-    )
+    assert all(warning["sourcesCount"] == 0 for warning in safety_page["warnings"])
+    with pytest.raises(ApplicationError) as knowledge_source:
+        lookup_herb_safety_evidence(
+            safety_details["herbId"],
+            safety_details["safetyRunId"],
+            warning_id=safety_page["warnings"][0]["id"],
+        )
+    assert knowledge_source.value.code == "HERB_SAFETY_UNAVAILABLE"
     with pytest.raises(ApplicationError) as foreign_warning:
         lookup_herb_safety_evidence(
             3, safety_details["safetyRunId"], warning_id=safety_page["warnings"][0]["id"]

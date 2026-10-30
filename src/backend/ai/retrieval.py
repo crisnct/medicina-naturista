@@ -15,13 +15,14 @@ from backend.ai.query_terms import GENERIC_QUERY_WORDS_PATH
 from backend.ai.query_terms import meaningful_words as _meaningful_words
 from backend.ai.search import (
     ALL_SIGNALS,
-    EVIDENCE_HEADING_PREFIX,
     EVIDENCE_HEADING_SEPARATOR,
     effective_signals,
+    evidence_heading_prefix,
     max_score,
     rank,
 )
 from backend.core.contracts import Evidence, EvidenceItem, EvidenceTokenBudget
+from backend.core.language import current_language, language_scope
 from backend.core.models import SessionData, SessionSnapshot
 
 __all__ = ["Retriever", "consultation_query", "GENERIC_QUERY_WORDS_PATH", "_meaningful_words"]
@@ -42,7 +43,7 @@ class Retriever:
     def __init__(self, documents_dir: Path) -> None:
         self.documents_dir = documents_dir.resolve()
         self._snapshot_lock = threading.Lock()
-        self._category_snapshot: tuple[CategoryTree | None, str] | None = None
+        self._category_snapshots: dict[str, tuple[CategoryTree | None, str]] = {}
         # Categories/count are read in the same generation as each search.
 
     @property
@@ -57,10 +58,10 @@ class Retriever:
     def categories_snapshot(self) -> tuple[CategoryTree | None, str]:
         with index_reader() as (_connection, metadata):
             with self._snapshot_lock:
-                cached = self._category_snapshot
+                cached = self._category_snapshots.get(current_language())
                 if cached is None or cached[1] != metadata.index_generation:
                     cached = (load_category_tree(), metadata.index_generation)
-                    self._category_snapshot = cached
+                    self._category_snapshots[current_language()] = cached
                 return cached
 
     # The fragment's text as indexed, prefixed with its heading path.
@@ -70,7 +71,7 @@ class Retriever:
         heading = str(result.get("heading") or "").strip()
         if not heading:
             return text
-        return f"{EVIDENCE_HEADING_PREFIX}{heading}{EVIDENCE_HEADING_SEPARATOR}{text}"
+        return f"{evidence_heading_prefix()}{heading}{EVIDENCE_HEADING_SEPARATOR}{text}"
 
     # Run hybrid retrieval and assemble a deduplicated, prioritized evidence inventory.
     # Typed token budgets preserve their unit; plain integers retain character semantics.
@@ -79,7 +80,10 @@ class Retriever:
         session: SessionData | SessionSnapshot,
         max_chars: int | EvidenceTokenBudget | None = None,
     ) -> Evidence:
-        with index_reader() as (_connection, metadata):
+        with (
+            language_scope(getattr(session, "language", current_language())),
+            index_reader() as (_connection, metadata),
+        ):
             tree, _generation = self.categories_snapshot()
             return self._collect(session, max_chars, tree, metadata.index_generation)
 
@@ -122,6 +126,7 @@ class Retriever:
             max_chars=max_chars,
             signals=signals,
             resolved=resolved,
+            language=getattr(session, "language", current_language()),
         )
         ceiling = max_score(effective_signals(signals, resolved))
 
@@ -136,6 +141,7 @@ class Retriever:
                     f"documents/{best['source_relative_path']}:{best['line_start']}-{best['line_end']}"
                 ),
                 "text": self._context(best),
+                "language": getattr(session, "language", current_language()),
                 # Every consumer (the UI panel, the AI-context budget trimming)
                 # reads these fields directly and formats/orders from them.
                 "score": best["score"],

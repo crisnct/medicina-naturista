@@ -277,7 +277,9 @@ class HerbsIndexDatabaseTests(TestCase):
             columns = conn.execute(
                 "SELECT column_name FROM information_schema.columns WHERE table_name='herbs_benefits' ORDER BY ordinal_position"
             ).fetchall()
-            self.assertEqual(columns, [("id",), ("herb_id",), ("medical_condition_id",)])
+            self.assertEqual(
+                columns, [("id",), ("herb_id",), ("medical_condition_id",), ("language",)]
+            )
             indexes = conn.execute(
                 "SELECT indexname FROM pg_indexes WHERE tablename='herbs_benefits'"
             ).fetchall()

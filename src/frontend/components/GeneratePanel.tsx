@@ -1,4 +1,4 @@
-import { tr } from "../lib/texts";
+import { getLanguage, locale, tr } from "../lib/texts";
 import { useState } from "react";
 import type { FragmentItem, GenerateMessage, ReportModel } from "../api/types";
 import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
@@ -113,7 +113,7 @@ export function GeneratePanel({
               {tr("interface.generate_eligible_fragments_prefix")}{eligibleCount === undefined ? tr("interface.generate_count_pending") : <strong>{eligibleCount}</strong>}
             </p>
             <p className="eligible-count">
-              {tr("interface.generate_characters_prefix")}{eligibleCharacters === undefined ? tr("interface.generate_count_pending") : <strong>{eligibleCharacters.toLocaleString("ro-RO")}</strong>}
+              {tr("interface.generate_characters_prefix")}{eligibleCharacters === undefined ? tr("interface.generate_count_pending") : <strong>{eligibleCharacters.toLocaleString(locale())}</strong>}
             </p>
             <GenerationDurationEstimate
               model={selectedModel}
@@ -188,7 +188,7 @@ export function GeneratePanel({
             <p className="chatbot-message-text">{feedback.message}</p>
           </div>
           {feedback.requiresAuthorization && (
-            <a href={`${import.meta.env.BASE_URL}owner`} target="_blank" rel="noopener noreferrer">
+            <a href={`${import.meta.env.BASE_URL}owner?language=${getLanguage()}`} target="_blank" rel="noopener noreferrer">
               {tr("interface.generate_open_authorization")}</a>
           )}
         </div>

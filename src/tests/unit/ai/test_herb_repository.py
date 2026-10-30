@@ -67,7 +67,7 @@ class RepositoryTests(TestCase):
         self.assertEqual(
             repository.read_herb_benefit_counts(self.connection, herb_ids * 2), {herb_ids[1]: 57}
         )
-        self.assertEqual(self.connection.execute.call_args.args[1], (herb_ids,))
+        self.assertEqual(self.connection.execute.call_args.args[1], (herb_ids, "ro"))
         self.assertEqual(self.connection.execute.call_count, 1)
         self.assertEqual(repository.read_herb_benefit_counts(self.connection, []), {})
         self.assertEqual(self.connection.execute.call_count, 1)
