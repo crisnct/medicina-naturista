@@ -40,7 +40,7 @@ describe("the minimum score next to Generează rețeta", () => {
 
     fireEvent.click(button());
 
-    expect(onGenerate).toHaveBeenCalledWith("search-1", 0, "ollama-gemma4:12b");
+    expect(onGenerate).toHaveBeenCalledWith("search-1", 0, "ollama-gemma4:12b", "low");
   });
 
   it("sends the chosen threshold, which includes a fragment exactly at it", () => {
@@ -50,7 +50,7 @@ describe("the minimum score next to Generează rețeta", () => {
     expect(button()).toBeEnabled();
     fireEvent.click(button());
 
-    expect(onGenerate).toHaveBeenCalledWith("search-1", 50, "ollama-gemma4:12b");
+    expect(onGenerate).toHaveBeenCalledWith("search-1", 50, "ollama-gemma4:12b", "low");
   });
 
   it("disables the button when no fragment reaches the threshold", () => {
@@ -75,7 +75,7 @@ describe("the minimum score next to Generează rețeta", () => {
     chooseMinScore(95);
     expect(button()).toBeEnabled();
     fireEvent.click(button());
-    expect(onGenerate).toHaveBeenCalledWith("search-1", 95, "ollama-gemma4:12b");
+    expect(onGenerate).toHaveBeenCalledWith("search-1", 95, "ollama-gemma4:12b", "low");
   });
 
   it("disables generation at 95% when all scores are lower", () => {

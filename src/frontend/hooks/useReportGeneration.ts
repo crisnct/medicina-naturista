@@ -2,7 +2,7 @@ import { tr } from "../lib/texts";
 import { useEffect, useRef, type Dispatch, type SetStateAction } from "react";
 import { useMutation, useQueries, useQueryClient } from "@tanstack/react-query";
 import { api, ApiError, errorMessage, isSessionUnavailable } from "../api/client";
-import type { ReportGeneration, ReportModel, SessionResponse } from "../api/types";
+import type { ReportEffort, ReportGeneration, ReportModel, SessionResponse } from "../api/types";
 import type { GenerationFeedback } from "../lib/generationFeedback";
 import { AI_ACTIVITY_LABELS } from "../lib/generationFeedback";
 
@@ -102,8 +102,8 @@ export function useReportGeneration(
   });
 
   const start = useMutation({
-    mutationFn: async ({ searchId, minScore, model, requestId }: { searchId: string; minScore: number; model: ReportModel; requestId: string }) => {
-      const job = await api.generateReport(searchId, minScore, model, requestId);
+    mutationFn: async ({ searchId, minScore, model, effort, requestId }: { searchId: string; minScore: number; model: ReportModel; effort: ReportEffort; requestId: string }) => {
+      const job = await api.generateReport(searchId, minScore, model, requestId, effort);
       if (!job.jobId || !job.state) throw new ApiError(409, tr("interface.generation_contract_changed"), "API_CONTRACT_CHANGED");
       return job;
     },
@@ -188,14 +188,14 @@ export function useReportGeneration(
     feedback,
     activeSearches,
     isGenerating: start.isPending || observed.some((job) => observingGeneration(job) && !blocked.current.has(job.jobId)),
-    generate: (searchId: string, minScore: number, model: ReportModel) => {
-      const fingerprint = JSON.stringify({ minScore, model });
+    generate: (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort = "low") => {
+      const fingerprint = JSON.stringify({ minScore, model, effort });
       const key = `report-request:${searchId}`;
       let saved: { fingerprint: string; requestId: string } | null = null;
       try { saved = JSON.parse(sessionStorage.getItem(key) ?? "null"); } catch { /* Ignore malformed stale storage. */ }
       const requestId = saved?.fingerprint === fingerprint ? saved.requestId : crypto.randomUUID();
       sessionStorage.setItem(key, JSON.stringify({ fingerprint, requestId }));
-      start.mutate({ searchId, minScore, model, requestId });
+      start.mutate({ searchId, minScore, model, effort, requestId });
     },
   };
 }

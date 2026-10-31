@@ -7,7 +7,7 @@ from typing import Any, Callable, Literal, TypedDict
 from urllib.parse import urlparse
 
 from backend.config import Settings
-from backend.core.report_models import REPORT_MODELS
+from backend.core.report_models import REPORT_MODELS, EffortControl
 
 # How the provider is asked for a JSON object: Responses-style `text.format`,
 # Chat-Completions-style `response_format`, or only through the system prompt
@@ -48,6 +48,8 @@ class ProviderConfig:
     max_content_tokens: int | None = None
     repeat_penalty: float | None = None
     repeat_last_n: int | None = None
+    # How a report request carries the user-selected effort; classifiers keep "none".
+    effort_control: EffortControl = "none"
 
 
 # Whether the URL points at this machine (or the Docker host), where Ollama needs no key.
@@ -68,7 +70,7 @@ def provider_config(settings: Settings) -> ProviderConfig:
             label="xAI",
             base_url=settings.xai_api_base,
             model=settings.xai_model,
-            reasoning_effort=settings.xai_reasoning_effort,
+            reasoning_effort=None,
             api_key=settings.api_key,
             api_key_env="X_API_KEY",
             api_key_required=True,
@@ -76,6 +78,7 @@ def provider_config(settings: Settings) -> ProviderConfig:
             send_store=True,
             max_context_chars=0,
             max_content_tokens=settings.xai_max_content_tokens,
+            effort_control="responses_effort",
             **common,
         )
     # DeepSeek's own API documents `text.format` and `reasoning.effort`, and
@@ -86,7 +89,7 @@ def provider_config(settings: Settings) -> ProviderConfig:
             label="DeepSeek",
             base_url=settings.deepseek_api_base,
             model=settings.deepseek_model,
-            reasoning_effort=settings.deepseek_reasoning_effort or None,
+            reasoning_effort=None,
             api_key=settings.deepseek_api_key,
             api_key_env="DEEPSEEK_API_KEY",
             api_key_required=True,
@@ -94,6 +97,7 @@ def provider_config(settings: Settings) -> ProviderConfig:
             send_store=False,
             max_context_chars=0,
             max_content_tokens=settings.deepseek_max_content_tokens,
+            effort_control="responses_effort",
             **common,
         )
     # json_format stays None for the two providers below until Phase 0 of
@@ -104,7 +108,7 @@ def provider_config(settings: Settings) -> ProviderConfig:
             label="Hugging Face",
             base_url=settings.hf_api_base,
             model=settings.hf_model,
-            reasoning_effort=settings.hf_reasoning_effort or None,
+            reasoning_effort=None,
             api_key=settings.hf_token,
             api_key_env="HF_TOKEN",
             api_key_required=True,
@@ -112,6 +116,7 @@ def provider_config(settings: Settings) -> ProviderConfig:
             send_store=False,
             max_context_chars=0,
             max_content_tokens=settings.hf_max_content_tokens,
+            effort_control="responses_effort",
             **common,
         )
     choice = next(
@@ -123,7 +128,7 @@ def provider_config(settings: Settings) -> ProviderConfig:
         None,
     )
     context_tokens = None
-    thinking = None
+    effort_control: EffortControl = "none"
     temperature = None
     repeat_penalty = None
     repeat_last_n = None
@@ -132,22 +137,17 @@ def provider_config(settings: Settings) -> ProviderConfig:
         common["max_output_tokens"] = settings.ollama_max_output_tokens_by_model.get(
             choice, common["max_output_tokens"]
         )
-        thinking = REPORT_MODELS[choice].thinking
+        effort_control = REPORT_MODELS[choice].effort_control
         temperature = REPORT_MODELS[choice].temperature
         repeat_penalty = REPORT_MODELS[choice].repeat_penalty
         repeat_last_n = REPORT_MODELS[choice].repeat_last_n
-    # Preserve the existing optional boolean control for these model families.
-    if settings.ollama_reasoning_effort and settings.ollama_model.startswith(
-        ("gemma4:", "qwen3.5:")
-    ):
-        thinking = settings.ollama_reasoning_effort != "none"
     return ProviderConfig(
         name="ollama",
         label="Ollama",
         base_url=settings.ollama_api_base,
         keep_alive_seconds=settings.ollama_keep_alive_seconds,
         model=settings.ollama_model,
-        reasoning_effort=settings.ollama_reasoning_effort or None,
+        reasoning_effort=None,
         api_key=settings.ollama_api_key,
         api_key_env="OLLAMA_API_KEY",
         api_key_required=not _is_local(settings.ollama_api_base),
@@ -156,7 +156,7 @@ def provider_config(settings: Settings) -> ProviderConfig:
         max_context_chars=0,
         max_content_tokens=settings.ollama_max_content_tokens,
         context_tokens=context_tokens,
-        thinking=thinking,
+        effort_control=effort_control,
         temperature=temperature,
         repeat_penalty=repeat_penalty,
         repeat_last_n=repeat_last_n,

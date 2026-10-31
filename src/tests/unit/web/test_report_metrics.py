@@ -30,7 +30,12 @@ def web():
 def test_success_and_repeated_request_poll_download_do_not_duplicate(web):
     test, headers, search, writer = web
     url = f"/api/searches/{search}/generate"
-    options = {"minScore": 0, "model": "ollama-gemma4:12b", "requestId": "metrics-request01"}
+    options = {
+        "minScore": 0,
+        "model": "ollama-gemma4:12b",
+        "effort": "medium",
+        "requestId": "metrics-request01",
+    }
     first = support.post_report(test.client, url, json=options, headers=headers)
     assert first.json()["state"] == "succeeded"
     metrics = writer.call_args.args[0]
@@ -67,14 +72,20 @@ def test_fractional_or_invalid_score_is_http_422(web, score):
     writer.assert_not_called()
 
 
-@pytest.mark.parametrize("effort,expected_effort", [("low", "low"), (None, None), ("", None)])
-def test_sync_helper_binds_catalog_choice_and_selected_client(web, effort, expected_effort):
+@pytest.mark.parametrize("effort", ["low", "medium", "high"])
+def test_sync_helper_binds_catalog_choice_and_selected_client(web, effort):
     test, _, search, writer = web
     ai = support.FakeAI()
-    ai.provider = SimpleNamespace(model="deepseek-flash", reasoning_effort=effort)
+    ai.provider = SimpleNamespace(model="deepseek-flash")
     test.deps.report_clients = {"deepseek-flash": ai}
+    expected_effort = effort
     result = _generate_report(
-        test.deps, test.deps.store.get("M" * 43, "metrics-tab01"), search, 0, "deepseek-flash"
+        test.deps,
+        test.deps.store.get("M" * 43, "metrics-tab01"),
+        search,
+        0,
+        "deepseek-flash",
+        effort,
     )
     assert not result.cancelled
     metrics = writer.call_args.args[0]
@@ -104,7 +115,7 @@ def test_queued_report_keeps_model_effort_and_search_from_admission(web):
 
     test.deps.ai.generate = Mock(side_effect=blocked_generate)
     queued_ai = support.FakeAI()
-    queued_ai.provider = SimpleNamespace(model="qwen3.5:4b", reasoning_effort="medium")
+    queued_ai.provider = SimpleNamespace(model="qwen3.5:4b")
     test.deps.report_clients = {
         "ollama-gemma4:12b": test.deps.ai,
         "ollama-qwen3.5:4b": queued_ai,
@@ -122,11 +133,11 @@ def test_queued_report_keeps_model_effort_and_search_from_admission(web):
         second_search = support._by_kind(messages, "generate")["searchId"]
         second = test.client.post(
             f"/api/searches/{second_search}/generate",
-            json={"model": "ollama-qwen3.5:4b"},
+            json={"model": "ollama-qwen3.5:4b", "effort": "medium"},
             headers=second_headers,
         )
         assert second.status_code == 202 and second.json()["queuePosition"] == 1
-        queued_ai.provider.reasoning_effort = "low"
+        assert second.json()["effort"] == "medium"
         test.deps.store.get("M" * 43, "metrics-tab02").profile.health_problem = "Changed"
     finally:
         release.set()

@@ -111,7 +111,7 @@ def test_background_publication_inserts_real_measurement_once(database):
     test.setUp()
     try:
         test.deps.record_report_metrics = PostgresReportMetricsRepository(db.get_pool)
-        test.deps.ai.provider = SimpleNamespace(model="gemma4:12b", reasoning_effort="medium")
+        test.deps.ai.provider = SimpleNamespace(model="gemma4:12b")
         sid, tab = "D" * 43, "database-tab01"
         headers = support._headers(sid, tab, True)
         test.client.get("/api/session", headers=headers)
@@ -121,7 +121,12 @@ def test_background_publication_inserts_real_measurement_once(database):
             previous_id = conn.execute("SELECT max(id) FROM report_generation_metrics").fetchone()[
                 0
             ]
-        options = {"model": "ollama-gemma4:12b", "minScore": 0, "requestId": "real-db-request01"}
+        options = {
+            "model": "ollama-gemma4:12b",
+            "effort": "medium",
+            "minScore": 0,
+            "requestId": "real-db-request01",
+        }
         url = f"/api/searches/{search}/generate"
         first = support.post_report(test.client, url, json=options, headers=headers)
         assert first.json()["state"] == "succeeded"

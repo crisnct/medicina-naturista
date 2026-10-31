@@ -16,6 +16,7 @@ from typing import Any
 
 import httpx
 
+from backend.ai.effort import ollama_think, responses_effort
 from backend.ai.providers import ProviderConfig, provider_config
 from backend.ai.report_validation import (
     ReportValidationError,
@@ -37,15 +38,17 @@ from backend.core.language import current_language, language_scope, read_prompt,
 from backend.core.operation_context import (
     ReportActivity,
     checkpoint,
+    current_report_effort,
     emit_report_activity,
     emit_report_batch,
     emit_report_output,
     emit_report_thinking,
     remaining_timeout,
     report_batch_context,
+    report_effort_scope,
 )
 from backend.core.report_batches import combine_reports, partition_evidence
-from backend.core.report_models import REPORT_MODELS
+from backend.core.report_models import REPORT_MODELS, ReportEffort
 from backend.core.texts import tr
 
 logger = logging.getLogger("naturist.ai")
@@ -476,7 +479,10 @@ class ResponsesClient:
     ) -> dict[str, Any]:
         provider = self.provider
         payload: dict[str, Any] = {"model": provider.model}
-        if provider.reasoning_effort:
+        effort = current_report_effort()
+        if provider.effort_control == "responses_effort" and effort is not None:
+            payload["reasoning"] = {"effort": responses_effort(effort)}
+        elif provider.reasoning_effort:
             payload["reasoning"] = {"effort": provider.reasoning_effort}
         payload["input"] = [
             {"role": "system", "content": system},
@@ -696,13 +702,15 @@ class ResponsesClient:
         return limit
 
     # The single FIFO report owner drains all batch workers before releasing its capacity.
-    def generate(self, profile: ProfilePayload, evidence: Evidence) -> ValidatedReport:
+    def generate(
+        self, profile: ProfilePayload, evidence: Evidence, effort: ReportEffort | None = None
+    ) -> ValidatedReport:
         language = validate_language(profile.get("language", current_language()))
         if any(item.get("language", language) != language for item in evidence.values()):
             raise AIUnavailable(
                 tr("errors.search_evidence_missing", language=language), reason="invalid_response"
             )
-        with language_scope(language):
+        with language_scope(language), report_effort_scope(effort):
             return self._generate(profile, evidence)
 
     def _generate(self, profile: ProfilePayload, evidence: Evidence) -> ValidatedReport:
@@ -930,7 +938,10 @@ class OllamaReportClient(ResponsesClient):
         }
         if self.provider.context_tokens is not None:
             native["options"]["num_ctx"] = self.provider.context_tokens
-        if self.provider.thinking is not None:
+        effort = current_report_effort()
+        if self.provider.effort_control == "ollama_think" and effort is not None:
+            native["think"] = ollama_think(effort)
+        elif self.provider.thinking is not None:
             native["think"] = self.provider.thinking
         if self.provider.keep_alive_seconds is not None:
             native["keep_alive"] = self.provider.keep_alive_seconds

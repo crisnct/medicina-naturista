@@ -37,7 +37,13 @@ from backend.ai.retrieval import Retriever
 from backend.ai.search import SearchSignals
 from backend.ai.search import warm_up as warm_up_search
 from backend.config import Settings, configure_settings
-from backend.core.contracts import AIProtocol, HerbSafetyEvidencePage, HerbSafetyPage, ReportModel
+from backend.core.contracts import (
+    AIProtocol,
+    HerbSafetyEvidencePage,
+    HerbSafetyPage,
+    ReportEffort,
+    ReportModel,
+)
 from backend.core.conversation import (
     ConversationService,
     welcome,
@@ -55,7 +61,11 @@ from backend.core.owner_auth import OwnerAuth, PostgresOwnerSessionRepository
 from backend.core.rate_limits import RateLimiter
 from backend.core.report_generation import ReportGenerationService
 from backend.core.report_metrics import MAX_BIGINT
-from backend.core.report_models import DEFAULT_REPORT_MODELS
+from backend.core.report_models import (
+    DEFAULT_REPORT_EFFORT,
+    DEFAULT_REPORT_MODELS,
+    EFFORT_MODELS,
+)
 from backend.core.sessions import SessionStore
 from backend.core.texts import catalog, public_catalog, tr
 from backend.integrations.gmail import send_report
@@ -147,6 +157,8 @@ class MessageRequest(BaseModel):
 class GenerateRequest(BaseModel):
     minScore: int = Field(default=0, strict=True, ge=0, le=100)
     model: ReportModel | None = None
+    # Ignored, and recorded as None, for models that cannot take an effort.
+    effort: ReportEffort = DEFAULT_REPORT_EFFORT
     requestId: str = Field(
         default_factory=lambda: secrets.token_urlsafe(24), pattern=r"^[A-Za-z0-9_-]{8,64}$"
     )
@@ -163,6 +175,7 @@ class AIActivityResponse(BaseModel):
 
 class ReportDurationEstimateResponse(BaseModel):
     model: ReportModel
+    effort: ReportEffort | None = None
     characters: int = Field(ge=0, le=MAX_BIGINT)
     estimatedSeconds: int | None = Field(default=None, ge=0)
     sampleCount: int = Field(ge=0)
@@ -186,6 +199,7 @@ class GenerateResponse(BaseModel):
     provider: str
     model: str
     modelChoice: str
+    effort: ReportEffort | None = None
     createdAt: float
     deadlineAt: float
     startedAt: float | None = None
@@ -537,7 +551,11 @@ def get_herb_safety_evidence(
 
 
 def _conversation(
-    deps: Dependencies, ai: AIProtocol | None = None, *, model_choice: ReportModel | None = None
+    deps: Dependencies,
+    ai: AIProtocol | None = None,
+    *,
+    model_choice: ReportModel | None = None,
+    effort: ReportEffort | None = None,
 ) -> ConversationService:
     selected_ai = ai if ai is not None else deps.ai
     # Bind the effective model now: queued reports must not use a later env default.
@@ -557,7 +575,7 @@ def _conversation(
         deps.top_herbs or partial(list_top_herbs, settings=deps.settings),
         report_model=model,
         report_model_choice=model_choice or "",
-        report_ai_effort=getattr(provider, "reasoning_effort", None) or None,
+        report_ai_effort=effort,
         record_report_metrics=deps.record_report_metrics,
         top_herbs_for_condition=deps.top_herbs_for_condition
         or partial(list_top_herbs_for_condition, settings=deps.settings),
@@ -603,11 +621,19 @@ def _generate_report(
     search_id: str,
     min_score: int = 0,
     model: ReportModel | None = None,
+    effort: ReportEffort = DEFAULT_REPORT_EFFORT,
 ) -> OperationResult:
     # Trusted Python-only entry point; HTTP admission supplies its verified session role.
     model = _select_report_model(deps.settings, model, owner_authorized=True)
     ai = deps.report_clients[model] if deps.report_clients is not None else deps.ai
-    return _conversation(deps, ai, model_choice=model).generate(session, search_id, min_score)
+    return _conversation(
+        deps, ai, model_choice=model, effort=_effective_effort(model, effort)
+    ).generate(session, search_id, min_score)
+
+
+# Models without an effort control record and send nothing, whatever the client asked.
+def _effective_effort(model: ReportModel, effort: ReportEffort) -> ReportEffort | None:
+    return effort if model in EFFORT_MODELS else None
 
 
 def _available_report_models(
@@ -643,6 +669,7 @@ def report_models(request: Request):
         "models": list(configured),
         "defaultModel": configured[0],
         "allowedModels": allowed,
+        "effortModels": [model for model in configured if model in EFFORT_MODELS],
     }
 
 
@@ -651,6 +678,7 @@ def report_duration_estimate(
     request: Request,
     model: ReportModel,
     characters: int = Query(..., ge=0, le=MAX_BIGINT),
+    effort: ReportEffort | None = None,
 ):
     deps = _deps(request)
     if model not in deps.settings.report_generation_models:
@@ -669,7 +697,9 @@ def report_duration_estimate(
             503,
         )
     try:
-        estimate = deps.estimate_report_duration(model, characters)
+        estimate = deps.estimate_report_duration(
+            model, characters, _effective_effort(model, effort) if effort else None
+        )
     except Exception as exc:
         logger.warning("report_duration_estimate_unavailable type=%s", type(exc).__name__)
         raise ApplicationError(
@@ -679,6 +709,7 @@ def report_duration_estimate(
         ) from None
     return ReportDurationEstimateResponse(
         model=model,
+        effort=_effective_effort(model, effort) if effort else None,
         characters=characters,
         estimatedSeconds=estimate.estimated_seconds,
         sampleCount=estimate.sample_count,
@@ -700,14 +731,16 @@ def generate(search_id: str, request: Request, payload: GenerateRequest | None =
         owner_authorized=getattr(request.state, "owner_authorized", False),
     )
     ai = deps.report_clients[model] if deps.report_clients is not None else deps.ai
+    effort = _effective_effort(model, options.effort)
     service: ReportGenerationService = request.app.state.report_generation
     result = service.start(
-        _conversation(deps, ai, model_choice=model),
+        _conversation(deps, ai, model_choice=model, effort=effort),
         session,
         search_id,
         options.minScore,
         options.requestId,
         model,
+        effort,
     )
     return JSONResponse(
         result,

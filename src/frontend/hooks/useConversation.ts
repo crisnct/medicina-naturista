@@ -2,7 +2,7 @@ import { tr } from "../lib/texts";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useState } from "react";
 import { api, ApiError, errorMessage, isSessionUnavailable } from "../api/client";
-import type { ChatMessage, ReportModel, SearchSignals, ResourceInvalidations, SessionResponse } from "../api/types";
+import type { ChatMessage, ReportEffort, ReportModel, SearchSignals, ResourceInvalidations, SessionResponse } from "../api/types";
 
 import { reconcileRetention } from "../lib/retention";
 import type { GenerationFeedback } from "../lib/generationFeedback";
@@ -157,12 +157,14 @@ export function useConversation() {
   const defaultReportModel = reportModelsQuery.data?.defaultModel ?? reportModels[0];
   const allowedReportModels = reportModelsQuery.data?.allowedModels
     ?? [];
+  const effortReportModels = reportModelsQuery.data?.effortModels ?? [];
 
   return {
     history: history.map((message) => message.kind === "generate" ? { ...message, busy: generation.activeSearches.has(message.searchId) } : message),
     reportModels,
     defaultReportModel,
     allowedReportModels,
+    effortReportModels,
     latestReportId: sessionQuery.data?.latestReportId,
     generationFeedback: visibleGenerationFeedback,
     isLoading: sessionQuery.isLoading,
@@ -180,8 +182,8 @@ export function useConversation() {
     isSearching,
     isClassifying,
     isGenerating: generation.isGenerating,
-    generateReport: (searchId: string, minScore: number, model: ReportModel | undefined = defaultReportModel) => {
-      if (model && allowedReportModels.includes(model)) generation.generate(searchId, minScore, model);
+    generateReport: (searchId: string, minScore: number, model: ReportModel | undefined = defaultReportModel, effort: ReportEffort = "low") => {
+      if (model && allowedReportModels.includes(model)) generation.generate(searchId, minScore, model, effort);
     },
   };
 }

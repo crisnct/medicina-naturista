@@ -41,7 +41,7 @@ class FakeAI:
     def context_budget(self):
         return 1000
 
-    def generate(self, profile, evidence):
+    def generate(self, profile, evidence, effort=None):
         self.calls += 1
         if self.entered:
             self.entered.set()

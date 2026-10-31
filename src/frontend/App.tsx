@@ -93,6 +93,7 @@ export function App() {
             reportModels={conversation.reportModels}
             defaultReportModel={conversation.defaultReportModel}
             allowedReportModels={conversation.allowedReportModels}
+            effortReportModels={conversation.effortReportModels}
             actionsDisabled={changingLanguage || !startup.ready || conversation.needsSessionRecovery || conversation.isReconnecting || conversation.isSending || conversation.isGenerating}
             generationFeedback={conversation.generationFeedback}
           />

@@ -15,6 +15,7 @@ from typing import TYPE_CHECKING, Literal
 from backend.core.contracts import ReportBatchCallback
 from backend.core.errors import OperationCancelled
 from backend.core.language import Language, current_language, language_scope
+from backend.core.report_models import ReportEffort
 
 if TYPE_CHECKING:
     from backend.ai.report_validation import ValidatedReport
@@ -62,8 +63,25 @@ _batch_stopped: ContextVar[Callable[[], bool] | None] = ContextVar(
 )
 
 
+_report_effort: ContextVar[ReportEffort | None] = ContextVar("report_effort", default=None)
+
+
 def report_batch_index() -> int | None:
     return _batch_index.get()
+
+
+# The effort belongs to one report request; the shared AI client never stores it.
+def current_report_effort() -> ReportEffort | None:
+    return _report_effort.get()
+
+
+@contextmanager
+def report_effort_scope(effort: ReportEffort | None) -> Iterator[None]:
+    token = _report_effort.set(effort)
+    try:
+        yield
+    finally:
+        _report_effort.reset(token)
 
 
 # Each submitted worker owns a fresh context; sibling failure cannot escape its request budget.

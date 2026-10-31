@@ -31,6 +31,15 @@ DEFAULT_REPORT_MODELS: tuple[ReportModel, ...] = (
 DEFAULT_REPORT_MODEL: ReportModel = DEFAULT_REPORT_MODELS[0]
 DEFAULT_REPORT_BATCH_MAX_TOKENS: Final = 25_000
 
+# The user-selected depth of AI reasoning; each provider maps it to its own parameter.
+ReportEffort = Literal["low", "medium", "high"]
+REPORT_EFFORTS: Final[tuple[ReportEffort, ...]] = ("low", "medium", "high")
+DEFAULT_REPORT_EFFORT: Final[ReportEffort] = "low"
+
+# How a model accepts the effort: not at all, as Ollama's boolean `think`, or as the
+# Responses API `reasoning.effort` string.
+EffortControl = Literal["none", "ollama_think", "responses_effort"]
+
 
 @dataclass(frozen=True)
 class ReportModelSpec:
@@ -40,7 +49,7 @@ class ReportModelSpec:
     batch_max_tokens: int = DEFAULT_REPORT_BATCH_MAX_TOKENS
     context_tokens: int | None = None
     max_output_tokens: int | None = None
-    thinking: bool | None = None
+    effort_control: EffortControl = "none"
     temperature: float | None = None
     repeat_penalty: float | None = None
     repeat_last_n: int | None = None
@@ -48,13 +57,13 @@ class ReportModelSpec:
 
 REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
     {
-        "ollama-gemma4:12b": ReportModelSpec("ollama", "gemma4:12b"),
+        "ollama-gemma4:12b": ReportModelSpec("ollama", "gemma4:12b", effort_control="ollama_think"),
         # The 1B model needs constrained sampling to reduce repeated-token loops in JSON.
         "ollama-gemma3:1b": ReportModelSpec(
             "ollama", "gemma3:1b", temperature=0.0, repeat_penalty=1.1, repeat_last_n=256
         ),
-        "ollama-qwen3.5:9b": ReportModelSpec("ollama", "qwen3.5:9b"),
-        "ollama-qwen3.5:4b": ReportModelSpec("ollama", "qwen3.5:4b"),
+        "ollama-qwen3.5:9b": ReportModelSpec("ollama", "qwen3.5:9b", effort_control="ollama_think"),
+        "ollama-qwen3.5:4b": ReportModelSpec("ollama", "qwen3.5:4b", effort_control="ollama_think"),
         "ollama-ministral-3:8b": ReportModelSpec("ollama", "ministral-3:8b"),
         "ollama-deepseek-r1:8b": ReportModelSpec(
             "ollama",
@@ -62,15 +71,32 @@ REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
             batch_max_tokens=24_000,
             context_tokens=32_768,
             max_output_tokens=8_192,
-            thinking=True,
+            effort_control="ollama_think",
         ),
-        "deepseek-flash": ReportModelSpec("deepseek", "deepseek-flash"),
+        "deepseek-flash": ReportModelSpec(
+            "deepseek", "deepseek-flash", effort_control="responses_effort"
+        ),
         "huggingface-deepseek-v4-flash": ReportModelSpec(
-            "huggingface", "deepseek-ai/DeepSeek-V4-Flash:deepinfra"
+            "huggingface",
+            "deepseek-ai/DeepSeek-V4-Flash:deepinfra",
+            effort_control="responses_effort",
         ),
-        "grok-4.3": ReportModelSpec("xai", "grok-4.3"),
+        "grok-4.3": ReportModelSpec("xai", "grok-4.3", effort_control="responses_effort"),
     }
 )
+
+
+# Models whose request can carry the effort; the others ignore it.
+EFFORT_MODELS: Final[tuple[ReportModel, ...]] = tuple(
+    choice for choice, spec in REPORT_MODELS.items() if spec.effort_control != "none"
+)
+
+
+def parse_report_effort(value: str) -> ReportEffort:
+    normalized = value.strip().casefold()
+    if normalized not in REPORT_EFFORTS:
+        raise ValueError(f"Unsupported report effort; expected one of {', '.join(REPORT_EFFORTS)}")
+    return cast(ReportEffort, normalized)
 
 
 def parse_report_model(value: str) -> ReportModel:

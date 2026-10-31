@@ -190,8 +190,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-011",
       "timestamp": "2026-10-21T03:25:17.683Z",
-      "last_seen": "2026-10-21T03:25:17.683Z",
-      "occurrences": 1,
+      "last_seen": "2026-10-30T21:32:05.965Z",
+      "occurrences": 4,
       "related_bugs": []
     },
     {
@@ -6547,6 +6547,438 @@
       "last_seen": "2026-10-30T15:41:43.284Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of report_models.py",
+      "file": "src/backend/core/report_models.py",
+      "root_cause": "8 lines replaced/restructured",
+      "fix": "Rewrote 42→72 lines (8 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-365",
+      "timestamp": "2026-10-30T21:27:37.245Z",
+      "last_seen": "2026-10-30T21:27:37.245Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of providers.py",
+      "file": "src/backend/ai/providers.py",
+      "root_cause": "6 lines replaced/restructured",
+      "fix": "Rewrote 10→5 lines (6 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-366",
+      "timestamp": "2026-10-30T21:28:19.254Z",
+      "last_seen": "2026-10-30T21:28:19.254Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: ValidatedReport should be effort",
+      "file": "src/backend/core/contracts.py",
+      "root_cause": "Used \"ValidatedReport\" instead of \"effort\"",
+      "fix": "Changed ValidatedReport → effort",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-367",
+      "timestamp": "2026-10-30T21:28:50.058Z",
+      "last_seen": "2026-10-30T21:28:50.058Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: EstimateReportDuration should be ReportBatchCallback",
+      "file": "src/backend/core/contracts.py",
+      "root_cause": "Used \"EstimateReportDuration\" instead of \"ReportBatchCallback\"",
+      "fix": "Changed EstimateReportDuration → ReportBatchCallback",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-368",
+      "timestamp": "2026-10-30T21:28:52.203Z",
+      "last_seen": "2026-10-30T21:28:52.203Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/core/models.py",
+      "root_cause": "Had \"createdAt\"",
+      "fix": "Changed to \"effort\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-369",
+      "timestamp": "2026-10-30T21:28:58.339Z",
+      "last_seen": "2026-10-30T21:28:58.339Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong condition in logic",
+      "file": "src/backend/core/sessions.py",
+      "root_cause": "Condition was: if (job.min_score, job.model_choice)",
+      "fix": "Changed to: if (job.min_score, job.model_choice, job.effort)",
+      "tags": [
+        "auto-detected",
+        "logic-fix",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-370",
+      "timestamp": "2026-10-30T21:29:09.324Z",
+      "last_seen": "2026-10-30T21:29:09.324Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: str should be ReportEffort",
+      "file": "src/backend/core/conversation.py",
+      "root_cause": "Used \"str\" instead of \"ReportEffort\"",
+      "fix": "Changed str → ReportEffort",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-371",
+      "timestamp": "2026-10-30T21:29:25.492Z",
+      "last_seen": "2026-10-30T21:29:25.492Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: getattr should be effort",
+      "file": "src/backend/web/main.py",
+      "root_cause": "Used \"getattr\" instead of \"effort\"",
+      "fix": "Changed getattr → effort",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-372",
+      "timestamp": "2026-10-30T21:29:56.887Z",
+      "last_seen": "2026-10-30T21:29:56.887Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of report_metrics.py",
+      "file": "src/backend/persistence/report_metrics.py",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 13→20 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-373",
+      "timestamp": "2026-10-30T21:30:12.425Z",
+      "last_seen": "2026-10-30T21:30:12.425Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: ReportModel should be ReportEffort",
+      "file": "src/backend/persistence/report_metrics.py",
+      "root_cause": "Used \"ReportModel\" instead of \"ReportEffort\"",
+      "fix": "Changed ReportModel → ReportEffort",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-374",
+      "timestamp": "2026-10-30T21:30:14.525Z",
+      "last_seen": "2026-10-30T21:30:14.525Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: requestId should be effort",
+      "file": "src/frontend/hooks/useReportGeneration.ts",
+      "root_cause": "Used \"requestId\" instead of \"effort\"",
+      "fix": "Changed requestId → effort",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-375",
+      "timestamp": "2026-10-30T21:31:19.785Z",
+      "last_seen": "2026-10-30T21:31:19.785Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: onGenerate",
+      "file": "src/frontend/components/ChatHistory.tsx",
+      "root_cause": "onGenerate: (searchId: string, minScore: number, model: ReportModel) => void → (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort) => void",
+      "fix": "Changed onGenerate: (searchId: string, minScore: number, model: ReportModel) => void → (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort) => void",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-376",
+      "timestamp": "2026-10-30T21:31:27.039Z",
+      "last_seen": "2026-10-30T21:31:27.039Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: actionsDisabled should be effortReportModels",
+      "file": "src/frontend/components/ChatHistory.tsx",
+      "root_cause": "Used \"actionsDisabled\" instead of \"effortReportModels\"",
+      "fix": "Changed actionsDisabled → effortReportModels",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-377",
+      "timestamp": "2026-10-30T21:31:28.957Z",
+      "last_seen": "2026-10-30T21:31:28.957Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: onGenerate",
+      "file": "src/frontend/components/MessageBubble.tsx",
+      "root_cause": "onGenerate: (searchId: string, minScore: number, model: ReportModel) => void → (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort) => void",
+      "fix": "Changed onGenerate: (searchId: string, minScore: number, model: ReportModel) => void → (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort) => void",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-378",
+      "timestamp": "2026-10-30T21:31:32.044Z",
+      "last_seen": "2026-10-30T21:31:32.044Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: actionsDisabled should be effortReportModels",
+      "file": "src/frontend/components/MessageBubble.tsx",
+      "root_cause": "Used \"actionsDisabled\" instead of \"effortReportModels\"",
+      "fix": "Changed actionsDisabled → effortReportModels",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-379",
+      "timestamp": "2026-10-30T21:31:33.945Z",
+      "last_seen": "2026-10-30T21:31:33.945Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: onGenerate",
+      "file": "src/frontend/components/GeneratePanel.tsx",
+      "root_cause": "onGenerate: (searchId: string, minScore: number, model: ReportModel) => void → (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort) => void",
+      "fix": "Changed onGenerate: (searchId: string, minScore: number, model: ReportModel) => void → (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort) => void",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-380",
+      "timestamp": "2026-10-30T21:31:57.870Z",
+      "last_seen": "2026-10-30T21:31:57.870Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/components/GeneratePanel.tsx",
+      "root_cause": "Had \"generate-recipe-hint\"",
+      "fix": "Changed to \"eligible-count\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-381",
+      "timestamp": "2026-10-30T21:32:16.608Z",
+      "last_seen": "2026-10-30T21:32:16.608Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: xai_reasoning_effort should be xai_api_base",
+      "file": "src/tests/unit/ai/test_client_providers.py",
+      "root_cause": "Used \"xai_reasoning_effort\" instead of \"xai_api_base\"",
+      "fix": "Changed xai_reasoning_effort → xai_api_base",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-382",
+      "timestamp": "2026-10-30T21:35:29.138Z",
+      "last_seen": "2026-10-30T21:35:29.138Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: hf_reasoning_effort should be hf_max",
+      "file": "src/tests/unit/ai/test_client_providers.py",
+      "root_cause": "Used \"hf_reasoning_effort\" instead of \"hf_max\"",
+      "fix": "Changed hf_reasoning_effort → hf_max",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-383",
+      "timestamp": "2026-10-30T21:35:31.074Z",
+      "last_seen": "2026-10-30T21:35:31.074Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: deepseek_reasoning_effort should be deepseek_max",
+      "file": "src/tests/unit/ai/test_client_providers.py",
+      "root_cause": "Used \"deepseek_reasoning_effort\" instead of \"deepseek_max\"",
+      "fix": "Changed deepseek_reasoning_effort → deepseek_max",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-384",
+      "timestamp": "2026-10-30T21:35:32.993Z",
+      "last_seen": "2026-10-30T21:35:32.993Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: ollama_reasoning_effort should be ollama_max",
+      "file": "src/tests/unit/ai/test_client_providers.py",
+      "root_cause": "Used \"ollama_reasoning_effort\" instead of \"ollama_max\"",
+      "fix": "Changed ollama_reasoning_effort → ollama_max",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-385",
+      "timestamp": "2026-10-30T21:35:34.894Z",
+      "last_seen": "2026-10-30T21:35:34.894Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: hf_reasoning_effort should be calls",
+      "file": "src/tests/unit/ai/test_client_providers.py",
+      "root_cause": "Used \"hf_reasoning_effort\" instead of \"calls\"",
+      "fix": "Changed hf_reasoning_effort → calls",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-386",
+      "timestamp": "2026-10-30T21:35:37.884Z",
+      "last_seen": "2026-10-30T21:35:37.884Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/tests/unit/web/test_web.py",
+      "root_cause": "Was returning: super().generate(profile, evidence)",
+      "fix": "Now returns: super().generate(profile, evidence, effort)",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-387",
+      "timestamp": "2026-10-30T21:35:49.090Z",
+      "last_seen": "2026-10-30T21:35:49.090Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: ollama-gemma4",
+      "file": "src/frontend/components/GeneratePanel.test.tsx",
+      "root_cause": "ollama-gemma4: 12b\") → 12b\", \"low\")",
+      "fix": "Changed ollama-gemma4: 12b\") → 12b\", \"low\")",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-388",
+      "timestamp": "2026-10-30T21:37:46.241Z",
+      "last_seen": "2026-10-30T21:37:50.102Z",
+      "occurrences": 3,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -6925,7 +7357,36 @@
     "afdfc6fc-021e-4d1d-8bbd-c8c73bc071eb": true,
     "35999e2b-d78c-4b69-902f-6f3835b29d62": true,
     "06910f7f-40ad-49e0-9e9a-47be8be019aa": true,
-    "0a1a4307-1e6c-4f84-bec1-cd27e4670ccd": true
+    "0a1a4307-1e6c-4f84-bec1-cd27e4670ccd": true,
+    "7ed4adf9-37a9-4f31-82ff-d53be827bf04": true,
+    "85af61a2-b173-4c77-84d9-ee2e17009dd9": true,
+    "195b89b6-267d-4a2d-92a7-6a96ec01246d": true,
+    "11198fae-61d8-4ba6-afe1-42e275f87b80": true,
+    "7dd9db8a-289d-4331-bdde-55cdcb727eef": true,
+    "b5a1becf-9a82-4452-9da5-fbefea42edb3": true,
+    "95eea820-0907-447f-9276-5db8ef55534f": true,
+    "67ae79ca-685e-4196-8205-8b158c9c5410": true,
+    "1dc55167-3ca9-4cf4-915d-eb7f45645791": true,
+    "88c8ed2e-8996-444d-977f-d0f4c1eac868": true,
+    "84eabcf7-0acd-4f69-8c43-8657c25241d6": true,
+    "350af2be-9d36-4cea-805e-1d9f5d838fa4": true,
+    "263068b7-6936-42be-9a0a-e13bf4d89f6b": true,
+    "d6c6c618-9b21-4fad-979c-ee4bc15bf398": true,
+    "8bcb0a0f-aa33-441e-a6c9-b3bc291aebc9": true,
+    "66ca5835-37f6-44b5-a78a-805b05f0c4eb": true,
+    "e5b92d9f-bad3-4428-be12-3c7010815c39": true,
+    "0b1e573b-7b78-4de1-ab74-fc09373aba7a": true,
+    "14d10e90-4338-423e-8924-434e6ae1cc2a": true,
+    "c0dea1bf-96c1-49ed-9306-89bdb595952a": true,
+    "6986f059-219a-4160-801e-baebcb76fa94": true,
+    "a06220f4-0a93-456d-a338-6f725dbbc9e7": true,
+    "662bd1e3-50a9-495b-a014-6f2db9ea66e0": true,
+    "578ab288-115e-405b-97bb-67f8397dd5f6": true,
+    "e2f8878c-d1b0-4f64-825f-b0d3e4293b1c": true,
+    "f22eea6d-71eb-4415-b6de-e004e542a23e": true,
+    "6cb3effb-5413-4459-8eb4-33a916eb9a26": true,
+    "54b8011e-ad5c-4a27-99a5-2af9de26c3aa": true,
+    "d3c3762e-ed30-437c-bd1c-4b98b019c6cd": true
   },
-  "next_id": 365
+  "next_id": 389
 }

@@ -264,6 +264,8 @@ class ReportGeneration:
     created_at: float
     deadline_at: float
     language: Language = field(default_factory=current_language)
+    # None when the model has no effort control.
+    effort: str | None = None
     state: str = "accepted"
     stage: str = "queued"
     started_at: float | None = None
@@ -328,6 +330,7 @@ class ReportGeneration:
             "provider": self.provider,
             "model": self.model,
             "modelChoice": self.model_choice,
+            "effort": self.effort,
             "createdAt": self.created_at,
             "startedAt": self.started_at,
             "finishedAt": self.finished_at,

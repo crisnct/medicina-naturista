@@ -180,25 +180,21 @@ class Settings:
         default_factory=_batch_limits
     )
     xai_model: str = REPORT_MODELS["grok-4.3"].model
-    xai_reasoning_effort: str = "medium"
     xai_max_content_tokens: int = 1_000_000
     xai_api_base: str = "https://api.x.ai/v1"
     ai_provider: str = "ollama"
     hf_model: str = REPORT_MODELS["huggingface-deepseek-v4-flash"].model
     hf_api_base: str = "https://router.huggingface.co/v1"
-    hf_reasoning_effort: str = ""
     hf_max_content_tokens: int = 120_000
     ollama_model: str = REPORT_MODELS[DEFAULT_REPORT_MODEL].model
     ollama_api_base: str = "http://localhost:11434/v1"
     ollama_keep_alive_seconds: int = 60
-    ollama_reasoning_effort: str = ""
     ollama_max_content_tokens: int = 1_000_000
     ollama_max_output_tokens_by_model: Mapping[ReportModel, int] = field(
         default_factory=lambda: _ollama_output_limits(None)
     )
     deepseek_model: str = REPORT_MODELS["deepseek-flash"].model
     deepseek_api_base: str = "https://api.deepseek.com"
-    deepseek_reasoning_effort: str = ""
     deepseek_max_content_tokens: int = 1_000_000
     # Identification of a condition the dictionary does not know (ai/condition_ai.py):
     # Identification uses only the host Ollama model, with no provider fallback.
@@ -322,25 +318,21 @@ class Settings:
             report_generation_batch_max_tokens=_batch_limits(
                 env.get("REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL")
             ),
-            xai_reasoning_effort=env.get("XAI_REASONING_EFFORT", "medium"),
             xai_max_content_tokens=_int("X_AI_MAX_CONTENT_TOKENS", 1000000, env=env),
             xai_api_base=env.get("XAI_API_BASE", "https://api.x.ai/v1").rstrip("/"),
             ai_provider=report_spec.provider,
             hf_api_base=env.get("HF_API_BASE", "https://router.huggingface.co/v1").rstrip("/"),
-            hf_reasoning_effort=env.get("HF_REASONING_EFFORT", "").strip(),
             hf_max_content_tokens=_int("HF_MAX_CONTENT_TOKENS", 120000, env=env),
             ollama_model=report_spec.model
             if report_spec.provider == "ollama"
             else REPORT_MODELS[DEFAULT_REPORT_MODEL].model,
             ollama_api_base=env.get("OLLAMA_API_BASE", "http://localhost:11434/v1").rstrip("/"),
             ollama_keep_alive_seconds=_int("OLLAMA_KEEP_ALIVE_SECONDS", 60, minimum=0, env=env),
-            ollama_reasoning_effort=env.get("OLLAMA_REASONING_EFFORT", "").strip(),
             ollama_max_content_tokens=_int("OLLAMA_MAX_CONTENT_TOKENS", 1000000, env=env),
             ollama_max_output_tokens_by_model=_ollama_output_limits(
                 env.get("OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL")
             ),
             deepseek_api_base=env.get("DEEPSEEK_API_BASE", "https://api.deepseek.com").rstrip("/"),
-            deepseek_reasoning_effort=env.get("DEEPSEEK_REASONING_EFFORT", "").strip(),
             deepseek_max_content_tokens=_int("DEEPSEEK_MAX_CONTENT_TOKENS", 1000000, env=env),
             medical_condition_ai_local_model=env.get(
                 "MEDICAL_CONDITION_AI_LOCAL_MODEL", "gemma3:1b"

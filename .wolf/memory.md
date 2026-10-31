@@ -1828,3 +1828,125 @@ description: chronological action log per session, consolidated weekly
 | 17:41 | Edited src/backend/ai/providers.py | 2→5 lines | ~59 |
 | 17:41 | Edited docker-compose.yaml | 2→3 lines | ~44 |
 | 17:41 | Edited README.md | 1→2 lines | ~140 |
+| 23:27 | Edited src/backend/core/report_models.py | modified parse_report_effort() | ~812 |
+| 23:27 | Created src/backend/ai/effort.py | — | ~264 |
+| 23:27 | Edited src/backend/core/operation_context.py | modified report_batch_index() | ~152 |
+| 23:28 | Edited src/backend/core/operation_context.py | added 1 import(s) | ~37 |
+| 23:28 | Edited src/backend/ai/providers.py | 4→6 lines | ~51 |
+| 23:28 | Edited src/backend/ai/providers.py | inline fix | ~20 |
+| 23:28 | Edited src/backend/ai/providers.py | 9→10 lines | ~108 |
+| 23:28 | Edited src/backend/ai/providers.py | 9→10 lines | ~115 |
+| 23:28 | Edited src/backend/ai/providers.py | 9→10 lines | ~106 |
+| 23:28 | Edited src/backend/ai/providers.py | 6→6 lines | ~49 |
+| 23:28 | Edited src/backend/ai/providers.py | 10→5 lines | ~76 |
+| 23:28 | Edited src/backend/ai/providers.py | 2→2 lines | ~21 |
+| 23:28 | Edited src/backend/ai/providers.py | 2→2 lines | ~21 |
+| 23:28 | Edited src/backend/ai/client.py | added 1 import(s) | ~36 |
+| 23:28 | Edited src/backend/ai/client.py | 10→12 lines | ~103 |
+| 23:28 | Edited src/backend/ai/client.py | 3→6 lines | ~96 |
+| 23:28 | Edited src/backend/ai/client.py | modified generate() | ~150 |
+| 23:28 | Edited src/backend/ai/client.py | 2→5 lines | ~79 |
+| 23:28 | Edited src/backend/core/contracts.py | modified generate() | ~41 |
+| 23:28 | Edited src/backend/core/contracts.py | removed 2 lines | ~6 |
+| 23:28 | Edited src/backend/core/contracts.py | modified __call__() | ~62 |
+| 23:28 | Edited src/backend/core/contracts.py | added 1 import(s) | ~39 |
+| 23:28 | Edited src/backend/core/models.py | 3→5 lines | ~57 |
+| 23:28 | Edited src/backend/core/models.py | 2→3 lines | ~30 |
+| 23:29 | Edited src/backend/core/sessions.py | 13→15 lines | ~192 |
+| 23:29 | Edited src/backend/core/sessions.py | 1→5 lines | ~58 |
+| 23:29 | Edited src/backend/core/sessions.py | 3→4 lines | ~43 |
+| 23:29 | Edited src/backend/core/report_generation.py | 3→4 lines | ~29 |
+| 23:29 | Edited src/backend/core/report_generation.py | 2→3 lines | ~28 |
+| 23:29 | Edited src/backend/core/conversation.py | 4→5 lines | ~24 |
+| 23:29 | Edited src/backend/core/conversation.py | inline fix | ~14 |
+| 23:29 | Edited src/backend/core/conversation.py | inline fix | ~25 |
+| 23:29 | Edited src/backend/web/main.py | expanded (+6 lines) | ~40 |
+| 23:29 | Edited src/backend/web/main.py | 1→5 lines | ~33 |
+| 23:29 | Edited src/backend/web/main.py | 2→3 lines | ~43 |
+| 23:29 | Edited src/backend/web/main.py | 2→3 lines | ~23 |
+| 23:29 | Edited src/backend/web/main.py | 2→4 lines | ~54 |
+| 23:29 | Edited src/backend/web/main.py | modified _conversation() | ~56 |
+| 23:29 | Edited src/backend/web/main.py | inline fix | ~10 |
+| 23:29 | Edited src/backend/web/main.py | modified _effective_effort() | ~212 |
+| 23:30 | Edited src/backend/web/main.py | 3→4 lines | ~46 |
+| 23:30 | Edited src/backend/web/main.py | 3→4 lines | ~35 |
+| 23:30 | Edited src/backend/web/main.py | 1→3 lines | ~41 |
+| 23:30 | Edited src/backend/web/main.py | 3→4 lines | ~47 |
+| 23:30 | Edited src/backend/web/main.py | 10→12 lines | ~124 |
+| 23:30 | Edited src/backend/persistence/report_metrics.py | modified estimate_duration() | ~330 |
+| 23:30 | Edited src/backend/persistence/report_metrics.py | inline fix | ~19 |
+| 23:30 | Edited src/backend/config.py | — | ~0 |
+| 23:30 | Edited src/backend/config.py | — | ~0 |
+| 23:30 | Edited src/backend/config.py | — | ~0 |
+| 23:30 | Edited src/backend/config.py | — | ~0 |
+| 23:30 | Edited src/backend/config.py | — | ~0 |
+| 23:30 | Edited src/backend/config.py | — | ~0 |
+| 23:30 | Edited src/backend/config.py | — | ~0 |
+| 23:30 | Edited src/backend/config.py | — | ~0 |
+| 23:30 | Edited docker-compose.yaml | — | ~0 |
+| 23:30 | Edited docker-compose.yaml | — | ~0 |
+| 23:30 | Edited docker-compose.yaml | — | ~0 |
+| 23:30 | Edited docker-compose.yaml | — | ~0 |
+| 23:30 | Edited README.md | — | ~0 |
+| 23:30 | Edited README.md | — | ~0 |
+| 23:30 | Edited README.md | — | ~0 |
+| 23:30 | Edited README.md | — | ~0 |
+| 23:30 | Edited README.md | expanded (+16 lines) | ~494 |
+| 23:31 | Edited src/frontend/api/types.ts | expanded (+7 lines) | ~142 |
+| 23:31 | Edited src/frontend/api/client.ts | 4→4 lines | ~103 |
+| 23:31 | Edited src/frontend/api/client.ts | 4→4 lines | ~100 |
+| 23:31 | Edited src/frontend/api/client.ts | 2→3 lines | ~16 |
+| 23:31 | Edited src/frontend/hooks/useReportGeneration.ts | 2→2 lines | ~77 |
+| 23:31 | Edited src/frontend/hooks/useReportGeneration.ts | 2→2 lines | ~51 |
+| 23:31 | Edited src/frontend/hooks/useReportGeneration.ts | inline fix | ~20 |
+| 23:31 | Edited src/frontend/hooks/useReportGeneration.ts | inline fix | ~28 |
+| 23:31 | Edited src/frontend/hooks/useConversation.ts | 8→10 lines | ~116 |
+| 23:31 | Edited src/frontend/hooks/useConversation.ts | 2→2 lines | ~74 |
+| 23:31 | Edited src/frontend/hooks/useConversation.ts | inline fix | ~20 |
+| 23:31 | Edited src/frontend/App.tsx | 2→3 lines | ~38 |
+| 23:31 | Edited src/frontend/components/ChatHistory.tsx | CSS: effort | ~117 |
+| 23:31 | Edited src/frontend/components/ChatHistory.tsx | 2→3 lines | ~37 |
+| 23:31 | Edited src/frontend/components/ChatHistory.tsx | inline fix | ~26 |
+| 23:31 | Edited src/frontend/components/MessageBubble.tsx | CSS: effort | ~138 |
+| 23:31 | Edited src/frontend/components/MessageBubble.tsx | inline fix | ~28 |
+| 23:31 | Edited src/frontend/components/MessageBubble.tsx | inline fix | ~26 |
+| 23:31 | Edited src/backend/resources/texts.ro.toml | 2→7 lines | ~56 |
+| 23:31 | Edited src/backend/resources/texts.en.toml | 2→7 lines | ~56 |
+| 23:31 | Edited src/backend/core/text_contract.py | 2→7 lines | ~66 |
+| 23:31 | Edited src/frontend/components/GeneratePanel.tsx | CSS: effort | ~270 |
+| 23:31 | Edited src/frontend/components/GeneratePanel.tsx | 2→3 lines | ~45 |
+| 23:32 | Edited src/frontend/components/GeneratePanel.tsx | CSS: undefined | ~263 |
+| 23:32 | Edited src/frontend/components/GeneratePanel.tsx | CSS: effort | ~41 |
+| 23:32 | Edited src/frontend/components/GeneratePanel.tsx | inline fix | ~22 |
+| 23:32 | Edited src/frontend/components/GeneratePanel.tsx | CSS: low, medium, high | ~65 |
+| 23:32 | Edited src/frontend/components/GeneratePanel.tsx | inline fix | ~36 |
+| 23:32 | Edited src/frontend/components/GenerationDurationEstimate.tsx | modified GenerationDurationEstimate() | ~91 |
+| 23:32 | Edited src/frontend/components/GenerationDurationEstimate.tsx | 2→2 lines | ~51 |
+| 23:32 | Edited src/frontend/components/GenerationDurationEstimate.tsx | inline fix | ~14 |
+| 23:32 | Edited src/frontend/components/GenerationDurationEstimate.tsx | inline fix | ~25 |
+| 23:32 | Edited src/frontend/components/GeneratePanel.tsx | "generate-recipe-hint" → "eligible-count" | ~25 |
+| 23:35 | Edited src/tests/unit/ai/test_client_providers.py | 3→2 lines | ~12 |
+| 23:35 | Edited src/tests/unit/ai/test_client_providers.py | removed 2 lines | ~3 |
+| 23:35 | Edited src/tests/unit/ai/test_client_providers.py | 2→1 lines | ~5 |
+| 23:35 | Edited src/tests/unit/ai/test_client_providers.py | 2→1 lines | ~4 |
+| 23:35 | Edited src/tests/unit/ai/test_client_providers.py | modified report_effort_scope() | ~84 |
+| 23:35 | Edited src/tests/unit/ai/test_client_providers.py | 2→2 lines | ~24 |
+| 23:35 | Edited src/tests/unit/ai/test_client_providers.py | modified test_huggingface_sends_reasoning_only_for_a_selected_effort() | ~149 |
+| 23:35 | Edited src/tests/unit/ai/test_client_providers.py | modified test_reasoning_effort_is_sent_only_for_a_selected_effort() | ~138 |
+| 23:35 | Edited src/tests/unit/ai/test_client_providers.py | added 1 import(s) | ~34 |
+| 23:35 | Edited src/tests/unit/web/test_web.py | modified generate() | ~52 |
+| 23:35 | Edited src/tests/unit/web/test_web.py | modified generate() | ~54 |
+| 23:35 | Edited src/tests/unit/web/test_sessions_owner.py | modified generate() | ~23 |
+| 23:35 | Edited src/tests/unit/web/test_web.py | 4→5 lines | ~26 |
+| 23:36 | Edited src/tests/unit/web/test_web.py | 3→5 lines | ~91 |
+| 23:37 | Edited src/tests/unit/web/test_report_metrics.py | 4→9 lines | ~92 |
+| 23:37 | Edited src/tests/unit/web/test_report_metrics.py | modified test_sync_helper_binds_catalog_choice_and_selected_client() | ~149 |
+| 23:37 | Edited src/tests/unit/web/test_report_metrics.py | inline fix | ~18 |
+| 23:37 | Edited src/tests/unit/web/test_report_metrics.py | 6→6 lines | ~78 |
+| 23:37 | Edited src/tests/integration/test_report_metrics_database.py | inline fix | ~20 |
+| 23:37 | Edited src/tests/integration/test_report_metrics_database.py | 1→6 lines | ~51 |
+| 23:37 | Edited src/frontend/components/GeneratePanel.test.tsx | inline fix | ~19 |
+| 23:37 | Edited src/frontend/components/GeneratePanel.test.tsx | inline fix | ~19 |
+| 23:37 | Edited src/frontend/components/GeneratePanel.test.tsx | inline fix | ~19 |
+| 23:40 | Edited aiPlans/plan-effort-generare-raport.md | modified 0() | ~120 |
+| 23:47 | Session end: 122 writes across 34 files (plan-effort-generare-raport.md, report_models.py, effort.py, operation_context.py, providers.py) | 3 reads | ~15554 tok |

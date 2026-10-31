@@ -1126,20 +1126,16 @@ Fișierul `.env` este ignorat de Git. Valorile principale recunoscute de aplica�
 | Variabilă | Implicit | Rol |
 |---|---:|---|
 | `X_API_KEY` | — | Cheia xAI (necesară la utilizarea modelului `grok-4.3`). |
-| `XAI_REASONING_EFFORT` | `medium` (direct) / `low` (Docker Compose) | Nivelul de reasoning solicitat. |
 | `XAI_API_BASE` | `https://api.x.ai/v1` | URL-ul de bază al API-ului xAI. |
 | `HF_TOKEN` | — | Token Hugging Face cu permisiunea „Make calls to Inference Providers”; necesar la utilizarea modelului `huggingface-deepseek-v4-flash`. |
 | `HF_API_BASE` | `https://router.huggingface.co/v1` | URL-ul de bază al routerului HF; clientul apelează ruta `/responses`. |
-| `HF_REASONING_EFFORT` | _(gol)_ | `low`/`medium`/`high`; se trimite doar dacă este setat. |
 | `HF_MAX_CONTENT_TOKENS` | `120000` | Buget conservator pentru totalul fragmentelor selectate pentru `huggingface-deepseek-v4-flash`, inclusiv ID-urile și sursele serializate. Un token bugetat per octet UTF-8; separat de limita cererii pe lot și de ieșire. |
 | `DEEPSEEK_API_KEY` | — | Cheia API de pe platform.deepseek.com, necesară când adminul alege `deepseek-flash`. Lipsa ei nu blochează rapoartele Ollama. |
 | `DEEPSEEK_API_BASE` | `https://api.deepseek.com` | URL-ul de bază al API-ului DeepSeek. |
-| `DEEPSEEK_REASONING_EFFORT` | _(gol)_ | Se trimite doar dacă este setat. |
 | `DEEPSEEK_MAX_CONTENT_TOKENS` | `1000000` | Buget conservator pentru totalul fragmentelor selectate pentru `deepseek-flash`, inclusiv ID-urile și sursele serializate. Un token bugetat per octet UTF-8; separat de limita cererii pe lot și de ieșire. |
 | `OLLAMA_API_BASE` | `http://localhost:11434/v1` | Baza Ollama; în Docker Compose `http://host.docker.internal:11434/v1`. |
 | `OLLAMA_KEEP_ALIVE_SECONDS` | `60` | Durata de păstrare după ultima cerere Ollama din aplicație (raport, clasificare sau identificare). `0` descarcă după fiecare cerere. Nu modifică dimensiunea contextului și nu controlează reindexarea. |
 | `OLLAMA_API_KEY` | — | Necesară doar când `OLLAMA_API_BASE` nu este local (ex. `https://ollama.com/v1`). |
-| `OLLAMA_REASONING_EFFORT` | _(gol)_ | Pentru Gemma4 și Qwen3.5, controlează `think`: `none` îl dezactivează, celelalte valori îl activează. Pentru Gemma3 și Ministral este omis. |
 | `OLLAMA_MAX_CONTENT_TOKENS` | `1000000` | Buget conservator pentru totalul fragmentelor selectate pentru Ollama, inclusiv ID-urile și sursele serializate. Un token bugetat per octet UTF-8. Limitează conținutul total înainte de împărțirea în loturi; nu setează contextul Ollama și nu include promptul sau ieșirea. |
 | `OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL` | `{"ollama-deepseek-r1:8b":8192}` | Obiect JSON cu limita de ieșire per model Ollama. Cheile omise păstrează valorile implicite din catalog (R1 8B: 8192); celelalte modele folosesc `REPORT_GENERATION_MAX_OUTPUT_TOKENS`. Valorile trebuie să fie întregi pozitive, iar ieșirea trebuie să fie mai mică decât contextul din catalog (R1 8B: 32768). Cheile necunoscute, modelele externe și duplicatele sunt respinse. |
 | `MEDICAL_CONDITION_AI_LOCAL_MODEL` | `gemma3:1b` | Modelul Ollama local pentru clasificarea mesajului și identificarea afecțiunii; se descarcă pe host cu `ollama pull <model>`, inclusiv când aplicația rulează în Docker. |
@@ -1366,7 +1362,23 @@ La finalul PDF-ului, după bibliografie și sumarul generării, apare `Model AI 
 | `huggingface-deepseek-v4-flash` | Hugging Face / DeepInfra | `deepseek-ai/DeepSeek-V4-Flash:deepinfra` |
 | `grok-4.3` | xAI | `grok-4.3` |
 
-Toate modelele Ollama pentru rapoarte folosesc ruta nativă `/api/chat`. Parametrul de thinking este activat conform configurării pentru Gemma4 și Qwen3.5; pentru Gemma3 și Ministral este omis. R1 8B folosește explicit `think=true`, independent de `OLLAMA_REASONING_EFFORT`. Instalați pe host modelul local ales înainte de utilizare; opțiunea `ollama-ministral-3:8b` folosește tagul Ollama `ministral-3:8b`.
+Toate modelele Ollama pentru rapoarte folosesc ruta nativă `/api/chat`. Instalați pe host modelul local ales înainte de utilizare; opțiunea `ollama-ministral-3:8b` folosește tagul Ollama `ministral-3:8b`.
+
+#### Effort-ul AI al raportului
+
+La „Generează raportul" ownerul alege, lângă model, un **effort**: `low` (implicit), `medium` sau `high`. Valoarea merge în corpul cererii `POST /api/searches/{id}/generate` (`effort`) și se traduce pentru fiecare model; nu mai există variabile de mediu `*_REASONING_EFFORT`.
+
+| Model | `low` | `medium` | `high` |
+|---|---|---|---|
+| Ollama `gemma4:12b`, `qwen3.5:9b`, `qwen3.5:4b`, `deepseek-r1:8b` | `think=false` | `think=true` | `think=true` |
+| `deepseek-flash`, `huggingface-deepseek-v4-flash`, `grok-4.3` | `reasoning.effort="none"` (reasoning oprit) | `"medium"` | `"high"` |
+| Ollama `gemma3:1b`, `ministral-3:8b` | fără control | fără control | fără control |
+
+- Ollama acceptă pentru aceste modele doar `think` boolean, deci `medium` și `high` produc aceeași cerere.
+- DeepSeek documentează `none`/`low`/`high`/`max` și mapează singur `medium` la `high`; xAI documentează `none`/`low`/`medium`/`high`. Pentru Hugging Face doar `low`/`medium`/`high` sunt documentate: `none` pe ruta DeepInfra nu este confirmat și trebuie verificat cu o cerere reală (maparea este în `src/backend/ai/effort.py`).
+- Pentru modelele fără control selectorul este dezactivat, serverul ignoră valoarea, nu trimite nimic și salvează `ai_effort = NULL` în metrici.
+- Efortul ales se salvează în `report_generation_metrics.ai_effort`. Estimarea duratei (`GET /api/report-duration-estimate?model=…&characters=…&effort=…`) folosește întâi eșantioanele aceluiași effort și, dacă nu există, eșantioanele modelului.
+- Efortul face parte din idempotența cererii: același `requestId` cu alt effort primește `IDEMPOTENCY_CONFLICT`.
 
 Pentru rapoartele `ollama-gemma3:1b`, profilul din catalog trimite `temperature=0`, `repeat_penalty=1.1` și `repeat_last_n=256`, pentru a reduce buclele de repetare în răspunsurile JSON. Aceste opțiuni se aplică numai generării rapoartelor cu acest model; schema, fragmentele întregi, contextul și limita de ieșire sunt păstrate. Profilul reduce riscul repetițiilor, fără a garanta eliminarea lor sau calitatea semantică a recomandărilor.
 

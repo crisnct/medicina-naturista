@@ -43,6 +43,7 @@ class ReportGenerationService:
         min_score: int,
         request_id: str,
         model_choice: str,
+        effort: str | None = None,
     ) -> dict:
         validate_min_score(min_score)
         with self._lock:
@@ -59,6 +60,7 @@ class ReportGenerationService:
                 model_choice,
                 getattr(provider, "name", "configured"),
                 getattr(provider, "model", model_choice),
+                effort,
             )
             if operation is None:
                 return self.generation(session, job["jobId"])

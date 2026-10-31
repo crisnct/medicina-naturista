@@ -19,6 +19,7 @@ from backend.ai.providers import provider_config
 from backend.config import Settings
 from backend.config import settings as base_settings
 from backend.core.contracts import EvidenceTokenBudget
+from backend.core.operation_context import report_effort_scope
 
 
 class FakeResponse:
@@ -44,19 +45,15 @@ def completed(text: str, *, reasoning_first: bool = False) -> FakeResponse:
 # Every provider-related field is pinned, so the tests never depend on the local .env.
 PINNED = dict(
     xai_model="grok-4.3",
-    xai_reasoning_effort="medium",
     xai_api_base="https://api.x.ai/v1",
     hf_model="deepseek-ai/DeepSeek-V4-Flash:deepinfra",
     hf_api_base="https://router.huggingface.co/v1",
-    hf_reasoning_effort="",
     hf_max_content_tokens=120_000,
     deepseek_model="deepseek-flash",
     deepseek_api_base="https://api.deepseek.com",
-    deepseek_reasoning_effort="",
     deepseek_max_content_tokens=1_000_000,
     ollama_model="deepseek-v4.1-flash:cloud",
     ollama_api_base="http://localhost:11434/v1",
-    ollama_reasoning_effort="",
     ollama_max_content_tokens=1_000_000,
     ai_stream=False,
     ai_max_output_tokens=20000,
@@ -149,11 +146,10 @@ class ProviderSelectionTest(unittest.TestCase):
 class PayloadTest(unittest.TestCase):
     def test_xai_payload_is_unchanged(self):
         with patch.dict(os.environ, {"X_API_KEY": "synthetic-xai-key"}):
-            client = XAIClient(
-                settings_for("xai", xai_model="grok-4.3", xai_reasoning_effort="medium")
-            )
+            client = XAIClient(settings_for("xai", xai_model="grok-4.3"))
             calls = capture_post(client, completed('{"ok": true}'))
-            result = client.complete_json("sistem", "utilizator", 321)
+            with report_effort_scope("medium"):
+                result = client.complete_json("sistem", "utilizator", 321)
             client.close()
         self.assertEqual(result, {"ok": True})
         self.assertEqual(len(calls), 1)
@@ -176,7 +172,7 @@ class PayloadTest(unittest.TestCase):
 
     def test_huggingface_request(self):
         with patch.dict(os.environ, {"HF_TOKEN": "synthetic-hf-token"}):
-            client = create_ai_client(settings_for("huggingface", hf_reasoning_effort=""))
+            client = create_ai_client(settings_for("huggingface"))
             calls = capture_post(client, completed('{"ok": true}'))
             client.complete_json("sistem", "utilizator", 500)
             client.close()
@@ -188,13 +184,15 @@ class PayloadTest(unittest.TestCase):
         for absent in ("reasoning", "store", "text", "response_format"):
             self.assertNotIn(absent, payload)
 
-    def test_huggingface_sends_reasoning_only_when_configured(self):
+    def test_huggingface_sends_reasoning_only_for_a_selected_effort(self):
         with patch.dict(os.environ, {"HF_TOKEN": "synthetic-hf-token"}):
-            client = create_ai_client(settings_for("huggingface", hf_reasoning_effort="low"))
+            client = create_ai_client(settings_for("huggingface"))
             calls = capture_post(client, completed('{"ok": true}'))
-            client.complete_json("s", "u", 10)
+            with report_effort_scope("low"):
+                client.complete_json("s", "u", 10)
             client.close()
-        self.assertEqual(calls[0]["json"]["reasoning"], {"effort": "low"})
+        # Low switches reasoning off.
+        self.assertEqual(calls[0]["json"]["reasoning"], {"effort": "none"})
 
     def test_local_ollama_sends_no_authorization_and_no_store(self):
         with patch.dict(os.environ, {"OLLAMA_API_KEY": ""}):
@@ -235,11 +233,12 @@ class DeepSeekDirectTest(unittest.TestCase):
             },
         )
 
-    def test_reasoning_effort_is_sent_only_when_configured(self):
+    def test_reasoning_effort_is_sent_only_for_a_selected_effort(self):
         with patch.dict(os.environ, {"DEEPSEEK_API_KEY": "synthetic-ds-key"}):
-            client = create_ai_client(settings_for("deepseek", deepseek_reasoning_effort="high"))
+            client = create_ai_client(settings_for("deepseek"))
             calls = capture_post(client, completed('{"ok": true}'))
-            client.complete_json("s", "u", 10)
+            with report_effort_scope("high"):
+                client.complete_json("s", "u", 10)
             client.close()
         self.assertEqual(calls[0]["json"]["reasoning"], {"effort": "high"})
 

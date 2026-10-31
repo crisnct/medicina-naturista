@@ -1,33 +1,36 @@
 import { tr } from "../lib/texts";
 import { useEffect, useState } from "react";
 import { api } from "../api/client";
-import type { ReportDurationEstimate, ReportModel } from "../api/types";
+import type { ReportDurationEstimate, ReportEffort, ReportModel } from "../api/types";
 
 export function GenerationDurationEstimate({
   model,
+  effort,
   characters,
   refreshKey,
 }: {
   model: ReportModel;
+  // Undefined for models without an effort control.
+  effort?: ReportEffort;
   characters?: number;
   refreshKey?: string;
 }) {
-  const key = JSON.stringify([model, characters, refreshKey]);
+  const key = JSON.stringify([model, effort, characters, refreshKey]);
   const [result, setResult] = useState<{ key: string; data: ReportDurationEstimate | null }>();
 
   useEffect(() => {
     if (characters === undefined || characters === 0) return;
     const controller = new AbortController();
     let current = true;
-    const requestKey = JSON.stringify([model, characters, refreshKey]);
-    api.getReportDurationEstimate(model, characters, controller.signal).then((data) => {
+    const requestKey = JSON.stringify([model, effort, characters, refreshKey]);
+    api.getReportDurationEstimate(model, characters, controller.signal, effort).then((data) => {
       if (data.model !== model || data.characters !== characters) throw new Error("Unexpected estimate inputs");
       if (current) setResult({ key: requestKey, data });
     }).catch(() => {
       if (current && !controller.signal.aborted) setResult({ key: requestKey, data: null });
     });
     return () => { current = false; controller.abort(); };
-  }, [model, characters, refreshKey]);
+  }, [model, effort, characters, refreshKey]);
 
   const data = result?.key === key ? result.data : undefined;
   let value = tr("interface.estimate_loading");

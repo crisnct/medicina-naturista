@@ -9,6 +9,7 @@ import type {
   HerbSafetyEvidencePage,
   ReportGeneration,
   MessagesResponse,
+  ReportEffort,
   ReportModel,
   ReportModelsResponse,
   ReportDurationEstimate,
@@ -106,8 +107,8 @@ export const api = {
     request<HerbSafetyPage>(`/api/herb-safety/${encodeURIComponent(groupId)}?${new URLSearchParams({ offset: String(offset) })}`, { signal }),
   getHerbSafetyEvidence: (groupId: string, warningId: string, offset: number, signal: AbortSignal) =>
     request<HerbSafetyEvidencePage>(`/api/herb-safety/${encodeURIComponent(groupId)}/evidence?${new URLSearchParams({ warningId, offset: String(offset) })}`, { signal }),
-  getReportDurationEstimate: (model: ReportModel, characters: number, signal: AbortSignal) =>
-    request<ReportDurationEstimate>(`/api/report-duration-estimate?${new URLSearchParams({ model, characters: String(characters) })}`, {
+  getReportDurationEstimate: (model: ReportModel, characters: number, signal: AbortSignal, effort?: ReportEffort) =>
+    request<ReportDurationEstimate>(`/api/report-duration-estimate?${new URLSearchParams({ model, characters: String(characters), ...(effort ? { effort } : {}) })}`, {
       signal: AbortSignal.any([signal, AbortSignal.timeout(5000)]),
     }),
   sendMessage: (message: string, categories: string[], signals: SearchSignals) =>
@@ -131,10 +132,10 @@ export const api = {
     method: "POST", headers: revision === undefined ? {} : { "X-Context-Revision": String(revision) },
   }),
   // minScore: only fragments whose relevance percent reaches it go to the AI (0 = all).
-  generateReport: (searchId: string, minScore: number, model: ReportModel = "ollama-gemma4:12b", requestId: string = crypto.randomUUID()) =>
+  generateReport: (searchId: string, minScore: number, model: ReportModel = "ollama-gemma4:12b", requestId: string = crypto.randomUUID(), effort: ReportEffort = "low") =>
     request<ReportGeneration>(`/api/searches/${encodeURIComponent(searchId)}/generate`, {
       method: "POST",
-      body: JSON.stringify({ minScore, model, requestId }),
+      body: JSON.stringify({ minScore, model, effort, requestId }),
       signal: AbortSignal.timeout(15000),
     }),
   getGeneration: (jobId: string, signal?: AbortSignal) => request<ReportGeneration>(`/api/report-generations/${encodeURIComponent(jobId)}`, {

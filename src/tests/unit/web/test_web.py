@@ -67,6 +67,7 @@ def _headers(sid: str, tab: str, owner: bool = False) -> dict:
 class FakeAI:
     generate_calls = 0
     report_profile = None
+    report_effort = None
 
     # Provide the client cleanup interface without opening network resources.
     def close(self):
@@ -77,9 +78,10 @@ class FakeAI:
         return 123_456
 
     # Return one deterministic evidence-backed recommendation for UI tests.
-    def generate(self, profile, evidence):
+    def generate(self, profile, evidence, effort=None):
         type(self).generate_calls += 1
         type(self).report_profile = profile
+        type(self).report_effort = effort
         first = next(iter(evidence))
         return {
             "uz_intern": [{"text": "Informație adjuvantă din sursă.", "evidence_ids": [first]}],
@@ -1660,6 +1662,8 @@ class WebTests(unittest.TestCase):
             body = resp.json()
             self.assertIsNone(body["ownerNotice"])
             self.assertEqual(FakeAI.generate_calls, 1)
+            # The default model has no effort control, so none reaches the AI.
+            self.assertIsNone(FakeAI.report_effort)
             self.assertIn(search_id, self.deps.store.get(sid_a, tab_a).searches)
             send_report_mock.assert_not_called()
             recommendation = _by_kind(body["messages"], "text")
@@ -1785,9 +1789,9 @@ class WebTests(unittest.TestCase):
         class RecordingAI(FakeAI):
             sent = []
 
-            def generate(self, profile, evidence):
+            def generate(self, profile, evidence, effort=None):
                 type(self).sent.append(sorted(evidence))
-                return super().generate(profile, evidence)
+                return super().generate(profile, evidence, effort)
 
         with (
             patch.object(self.deps, "ai", RecordingAI()),

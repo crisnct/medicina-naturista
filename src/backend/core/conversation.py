@@ -30,6 +30,7 @@ from backend.core.contracts import (
     LookupHerb,
     RecordReportMetrics,
     RenderPDF,
+    ReportEffort,
     RetrievalProtocol,
 )
 from backend.core.errors import ApplicationError, OperationCancelled
@@ -274,7 +275,7 @@ class ConversationService:
     top_herbs: ListTopHerbs | None = None
     report_model: str | None = None
     report_model_choice: str = ""
-    report_ai_effort: str | None = None
+    report_ai_effort: ReportEffort | None = None
     record_report_metrics: RecordReportMetrics | None = None
     top_herbs_for_condition: ListTopHerbsForCondition | None = None
 
@@ -1132,7 +1133,7 @@ class ConversationService:
             self.store.generation_stage(operation, "generating")
             characters = sum(len(item["text"]) for item in evidence.values())
             with operation_budget(self.budget(operation)):
-                sections = self.ai.generate(profile, evidence)
+                sections = self.ai.generate(profile, evidence, self.report_ai_effort)
             self.store.generation_stage(operation, "validating")
             if not isinstance(sections, ValidatedReport):
                 sections = validate_report(sections, evidence)

@@ -481,17 +481,19 @@ class SessionStore:
         model_choice: str,
         provider: str,
         model: str,
+        effort: str | None = None,
     ) -> tuple[dict[str, Any], SessionOperation | None]:
         """Reserve exactly once, including retries whose first HTTP reply was lost."""
         with self._lock, session.lock:
             existing_id = session.generation_receipts.get(request_id)
             existing = session.generations.get(existing_id or "")
             if existing:
-                if (existing.search_id, existing.min_score, existing.model_choice) != (
-                    search_id,
-                    min_score,
-                    model_choice,
-                ):
+                if (
+                    existing.search_id,
+                    existing.min_score,
+                    existing.model_choice,
+                    existing.effort,
+                ) != (search_id, min_score, model_choice, effort):
                     raise ApplicationError(
                         "IDEMPOTENCY_CONFLICT",
                         tr("errors.request_options_conflict"),
@@ -500,7 +502,11 @@ class SessionStore:
                 return copy.deepcopy(existing.as_dict(self.clock())), None
             for job in session.generations.values():
                 if job.search_id == search_id and job.job_id in self._workers:
-                    if (job.min_score, job.model_choice) != (min_score, model_choice):
+                    if (job.min_score, job.model_choice, job.effort) != (
+                        min_score,
+                        model_choice,
+                        effort,
+                    ):
                         raise ApplicationError(
                             "GENERATION_IN_PROGRESS",
                             tr("errors.search_already_generating"),
@@ -551,6 +557,7 @@ class SessionStore:
                 time.time(),
                 time.time() + max(0, operation.deadline - self.clock()),
                 language=operation.snapshot.language,
+                effort=effort,
             )
             session.generations[job.job_id] = job
             session.generation_receipts[request_id] = job.job_id

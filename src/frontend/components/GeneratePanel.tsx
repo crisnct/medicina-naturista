@@ -1,6 +1,6 @@
 import { getLanguage, locale, tr } from "../lib/texts";
 import { useState } from "react";
-import type { FragmentItem, GenerateMessage, ReportModel } from "../api/types";
+import { REPORT_EFFORTS, type FragmentItem, type GenerateMessage, type ReportEffort, type ReportModel } from "../api/types";
 import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
 import { TypingIndicator } from "./TypingIndicator";
 import { GenerationStreamPreview } from "./GenerationStreamPreview";
@@ -22,6 +22,12 @@ const MODEL_LABELS = {
   "grok-4.3": "interface.model_grok43",
 } as const satisfies Record<ReportModel, string>;
 
+const EFFORT_LABELS = {
+  low: "interface.effort_low",
+  medium: "interface.effort_medium",
+  high: "interface.effort_high",
+} as const satisfies Record<ReportEffort, string>;
+
 export function GeneratePanel({
   message,
   fragments,
@@ -29,6 +35,7 @@ export function GeneratePanel({
   reportModels = ["ollama-gemma4:12b", "ollama-gemma3:1b", "ollama-qwen3.5:9b", "ollama-qwen3.5:4b", "ollama-ministral-3:8b", "ollama-deepseek-r1:8b"],
   defaultReportModel,
   allowedReportModels = [],
+  effortReportModels = [],
   actionsDisabled = false,
   feedback,
 }: {
@@ -36,15 +43,18 @@ export function GeneratePanel({
   // The fragments of the same search; absent when that message is no longer
   // in the chat, in which case the server alone checks the threshold.
   fragments?: FragmentItem[];
-  onGenerate: (searchId: string, minScore: number, model: ReportModel) => void;
+  onGenerate: (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort) => void;
   reportModels?: ReportModel[];
   defaultReportModel?: ReportModel;
   allowedReportModels?: ReportModel[];
+  // Models that accept an effort; the selector is disabled for the others.
+  effortReportModels?: ReportModel[];
   actionsDisabled?: boolean;
   feedback?: GenerationFeedback;
 }) {
   // Only fragments whose relevance reaches this are sent to the AI (0 = all).
   const [minScore, setMinScore] = useState(0);
+  const [effort, setEffort] = useState<ReportEffort>("low");
   const [model, setModel] = useState<ReportModel | null>(null);
   const preferredModel = model ?? defaultReportModel ?? reportModels[0];
   const selectedModel = reportModels.includes(preferredModel)
@@ -56,6 +66,7 @@ export function GeneratePanel({
     0,
   );
   const noneReach = eligibleCount === 0;
+  const effortSupported = effortReportModels.includes(selectedModel);
   const noModels = reportModels.length === 0;
   const modelRestricted = !noModels && !allowedReportModels.includes(selectedModel);
   const disabled = message.busy || noneReach || actionsDisabled || noModels || modelRestricted;
@@ -99,7 +110,19 @@ export function GeneratePanel({
                 {reportModels.map((option) => <option key={option} value={option}>{tr(MODEL_LABELS[option])}</option>)}
               </select>
             </label>
+            <label className="fragments-panel-filter" title={effortSupported ? undefined : tr("interface.effort_unsupported_hint")}>
+              {tr("interface.generate_effort_label")}<select
+                value={effort}
+                disabled={message.busy || actionsDisabled || noModels || !effortSupported}
+                onChange={(event) => setEffort(event.target.value as ReportEffort)}
+              >
+                {REPORT_EFFORTS.map((option) => <option key={option} value={option}>{tr(EFFORT_LABELS[option])}</option>)}
+              </select>
+            </label>
           </div>
+          {!effortSupported && !noModels && (
+            <p className="eligible-count">{tr("interface.effort_unsupported_hint")}</p>
+          )}
           {modelRestricted && (
             <p className="generate-recipe-warning" role="status">
               {tr("common.owner_only_generation")}</p>
@@ -117,6 +140,7 @@ export function GeneratePanel({
             </p>
             <GenerationDurationEstimate
               model={selectedModel}
+              effort={effortSupported ? effort : undefined}
               characters={eligibleCharacters}
               refreshKey={feedback?.terminal ? feedback.generationId : undefined}
             />
@@ -126,7 +150,7 @@ export function GeneratePanel({
             className={`generate-inline${message.busy ? " is-preparing" : ""}`}
             disabled={disabled}
             aria-disabled={disabled}
-            onClick={() => onGenerate(message.searchId, minScore, selectedModel)}
+            onClick={() => onGenerate(message.searchId, minScore, selectedModel, effort)}
           >
             {message.busy ? tr("interface.generate_preparing") : (
               <>

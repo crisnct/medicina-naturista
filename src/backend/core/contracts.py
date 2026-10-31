@@ -9,6 +9,7 @@ from typing import TYPE_CHECKING, Literal, NotRequired, Protocol, TypedDict
 
 from backend.core.herb_categories import HerbCategory
 from backend.core.language import Language
+from backend.core.report_models import ReportEffort as ReportEffort
 from backend.core.report_models import ReportModel as ReportModel
 
 if TYPE_CHECKING:
@@ -69,9 +70,17 @@ class EvidenceTokenBudget:
 
 class AIProtocol(Protocol):
     def context_budget(self) -> int | EvidenceTokenBudget | None: ...
-    def generate(self, profile: ProfilePayload, evidence: Evidence) -> ValidatedReport: ...
+    def generate(
+        self, profile: ProfilePayload, evidence: Evidence, effort: ReportEffort | None = None
+    ) -> ValidatedReport: ...
     def is_configured(self) -> bool: ...
     def close(self) -> None: ...
+
+
+class EstimateReportDuration(Protocol):
+    def __call__(
+        self, model: ReportModel, characters: int, effort: ReportEffort | None = None
+    ) -> ReportDurationEstimate: ...
 
 
 class RetrievalProtocol(Protocol):
@@ -92,7 +101,6 @@ IdentifyCondition = Callable[["ResolvedQuery"], "AIConditionResult"]
 RenderPDF = Callable[[ProfilePayload, "ValidatedReport", Evidence, float], bytes]
 ClassifyMessage = Callable[[str, dict[str, object]], "MessageClassification"]
 RecordReportMetrics = Callable[["ReportMetrics"], int]
-EstimateReportDuration = Callable[[ReportModel, int], "ReportDurationEstimate"]
 ReportBatchCallback = Callable[[int, int, "ValidatedReport | None"], None]
 
 

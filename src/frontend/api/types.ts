@@ -62,14 +62,21 @@ export type ReportModel = "ollama-gemma4:12b" | "ollama-gemma3:1b" | "ollama-qwe
   | "ollama-ministral-3:8b" | "ollama-deepseek-r1:8b" | "deepseek-flash"
   | "huggingface-deepseek-v4-flash" | "grok-4.3";
 
+export type ReportEffort = "low" | "medium" | "high";
+
+export const REPORT_EFFORTS: readonly ReportEffort[] = ["low", "medium", "high"];
+
 export interface ReportModelsResponse {
   models: ReportModel[];
   defaultModel?: ReportModel | null;
   allowedModels?: ReportModel[];
+  // Models whose request can carry an effort; the others ignore it.
+  effortModels?: ReportModel[];
 }
 
 export interface ReportDurationEstimate {
   model: ReportModel;
+  effort?: ReportEffort | null;
   characters: number;
   estimatedSeconds: number | null;
   sampleCount: number;
