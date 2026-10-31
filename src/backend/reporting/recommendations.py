@@ -30,6 +30,15 @@ def split_recommendation(text: str) -> tuple[str, str]:
     )
     if match:
         return match.group("label").strip(), clean[match.end("label") :].strip()
+    # The model sometimes drops the separator and writes "Name (dose) ..."; the name is
+    # then the text before a parenthesis that opens with a quantity.
+    match = re.match(
+        r"^(?P<label>[^():]{2,120}?)\s+(?=\((?:½|¼|\d|(?:o|un|una|două|doua|trei|patru|cinci|a|an|one|two|three)\s))",
+        clean,
+        flags=re.IGNORECASE,
+    )
+    if match:
+        return match.group("label").strip(), clean[match.end("label") :].strip()
     return "", clean
 
 

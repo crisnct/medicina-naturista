@@ -1,6 +1,6 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-30T21:40:01.858Z
+> Auto-maintained by OpenWolf. Last scanned: 2026-10-31T01:11:43.859Z
 > Files: 251 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
@@ -276,7 +276,7 @@
 ## src/backend/reporting/
 
 - `pdf.py` — Readable Romanian PDF report with source references next to each claim. (~15036 tok)
-- `recommendations.py` — Pure label extraction and PDF-only ordering of recommendation copies. (~694 tok)
+- `recommendations.py` — Pure label extraction and PDF-only ordering of recommendation copies. (~820 tok)
 - `service.py` — Prepare database-derived PDF scores before entering the pure renderer. (~762 tok)
 
 ## src/backend/resources/

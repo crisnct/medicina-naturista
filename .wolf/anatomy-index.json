@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-30T21:40:01.858Z",
+    "lastScanned": "2026-10-31T01:11:43.859Z",
     "fileCount": 251,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "79c960062c8e7335f889a1e6a55d8dfe5ba8f138c0e4ee3b4701c32e726a7553",
-    "storeUpdatedAt": "2026-10-30T21:40:01.868Z",
-    "rootHash": "4b216332452600e8"
+    "renderedHash": "18024ab1ca417a69efd378f93a138420a0c2dfefc05146a53d4345a0ee8bc0a6",
+    "storeUpdatedAt": "2026-10-31T01:11:43.870Z",
+    "rootHash": "368bc79f3e31b3cd"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -7867,39 +7867,39 @@
     },
     "src/backend/reporting/recommendations.py": {
       "description": "Pure label extraction and PDF-only ordering of recommendation copies.",
-      "tokens": 694,
-      "hash": "e6219dc4d967db30",
-      "size": 2438,
-      "mtimeMs": 1793361773008.615,
-      "updatedAt": "2026-10-30T12:02:53.322Z",
+      "tokens": 820,
+      "hash": "2987f1ef6bb618af",
+      "size": 2884,
+      "mtimeMs": 1793409103531.0127,
+      "updatedAt": "2026-10-31T01:11:43.858Z",
       "source": "hook",
       "symbols": [
         {
           "name": "split_recommendation",
           "kind": "fn",
           "startLine": 13,
-          "endLine": 35,
-          "tokens": 263
+          "endLine": 44,
+          "tokens": 390
         },
         {
           "name": "recommendation_labels",
           "kind": "fn",
-          "startLine": 36,
-          "endLine": 47,
+          "startLine": 45,
+          "endLine": 56,
           "tokens": 96
         },
         {
           "name": "product_fragment_ids",
           "kind": "fn",
-          "startLine": 48,
-          "endLine": 57,
+          "startLine": 57,
+          "endLine": 66,
           "tokens": 102
         },
         {
           "name": "attach_herb_benefit_counts",
           "kind": "fn",
-          "startLine": 58,
-          "endLine": 72,
+          "startLine": 67,
+          "endLine": 81,
           "tokens": 144
         }
       ]
