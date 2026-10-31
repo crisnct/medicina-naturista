@@ -29,8 +29,10 @@ export function TypingIndicator({ label, paused = false, startedAt }: {
       <div className="message typing-indicator" role="status" aria-live="polite">
         <DoctorAvatar />
         <span className="loader" aria-hidden="true" />
-        {label && <span>{label}</span>}
-        <span className="typing-elapsed">{tr("interface.typing_elapsed_prefix")}{elapsedTime}</span>
+        <div className="typing-text">
+          {label && <span>{label}</span>}
+          <span className="typing-elapsed">{tr("interface.typing_elapsed_prefix")}{elapsedTime}</span>
+        </div>
       </div>
     </div>
   );

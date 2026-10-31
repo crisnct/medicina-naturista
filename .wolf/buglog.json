@@ -190,8 +190,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-011",
       "timestamp": "2026-10-21T03:25:17.683Z",
-      "last_seen": "2026-10-30T21:32:05.965Z",
-      "occurrences": 4,
+      "last_seen": "2026-10-31T14:50:39.485Z",
+      "occurrences": 7,
       "related_bugs": []
     },
     {
@@ -2530,8 +2530,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-141",
       "timestamp": "2026-10-24T05:30:17.944Z",
-      "last_seen": "2026-10-24T05:30:17.944Z",
-      "occurrences": 1,
+      "last_seen": "2026-10-31T14:50:24.506Z",
+      "occurrences": 2,
       "related_bugs": []
     },
     {
@@ -5158,8 +5158,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-287",
       "timestamp": "2026-10-28T04:20:59.388Z",
-      "last_seen": "2026-10-28T04:20:59.388Z",
-      "occurrences": 1,
+      "last_seen": "2026-10-31T14:50:27.801Z",
+      "occurrences": 2,
       "related_bugs": []
     },
     {
@@ -5536,8 +5536,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-308",
       "timestamp": "2026-10-28T13:12:44.706Z",
-      "last_seen": "2026-10-28T18:15:07.085Z",
-      "occurrences": 2,
+      "last_seen": "2026-10-31T10:35:13.405Z",
+      "occurrences": 4,
       "related_bugs": []
     },
     {
@@ -6979,6 +6979,510 @@
       "last_seen": "2026-10-30T21:37:50.102Z",
       "occurrences": 3,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of client.py",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 26→43 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-389",
+      "timestamp": "2026-10-31T01:28:27.739Z",
+      "last_seen": "2026-10-31T01:28:27.739Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: self should be batch_workers",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "Used \"self\" instead of \"batch_workers\"",
+      "fix": "Changed self → batch_workers",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-390",
+      "timestamp": "2026-10-31T01:28:30.816Z",
+      "last_seen": "2026-10-31T01:28:30.816Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: batch_workers should be _batch_workers",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "Used \"batch_workers\" instead of \"_batch_workers\"",
+      "fix": "Changed batch_workers → _batch_workers",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-391",
+      "timestamp": "2026-10-31T01:28:32.890Z",
+      "last_seen": "2026-10-31T01:28:32.890Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/ai/client.py",
+      "root_cause": "Had \"hint=increase REPORT_GENERATION_MAX_OUTPUT_TOKENS",
+      "fix": "Changed to \"hint=increase REPORT_GENERATION_MAX_OUTPUT_TOKENS",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-392",
+      "timestamp": "2026-10-31T01:28:40.282Z",
+      "last_seen": "2026-10-31T01:28:40.282Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of sessions.py",
+      "file": "src/backend/core/sessions.py",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 13→17 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-393",
+      "timestamp": "2026-10-31T01:29:03.780Z",
+      "last_seen": "2026-10-31T01:29:03.780Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong condition in logic",
+      "file": "src/backend/core/sessions.py",
+      "root_cause": "Condition was: if (job.min_score, job.model_choice, job.effort)",
+      "fix": "Changed to: if (job.min_score, job.model_choice, *_generation_opti)",
+      "tags": [
+        "auto-detected",
+        "logic-fix",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-394",
+      "timestamp": "2026-10-31T01:29:05.854Z",
+      "last_seen": "2026-10-31T01:29:05.854Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: report_validation should be providers",
+      "file": "src/backend/web/main.py",
+      "root_cause": "Used \"report_validation\" instead of \"providers\"",
+      "fix": "Changed report_validation → providers",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-395",
+      "timestamp": "2026-10-31T01:29:33.512Z",
+      "last_seen": "2026-10-31T01:29:33.512Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of main.py",
+      "file": "src/backend/web/main.py",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 10→22 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-396",
+      "timestamp": "2026-10-31T01:29:48.479Z",
+      "last_seen": "2026-10-31T01:29:48.479Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: Literal should be Any",
+      "file": "src/backend/web/main.py",
+      "root_cause": "Used \"Literal\" instead of \"Any\"",
+      "fix": "Changed Literal → Any",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-397",
+      "timestamp": "2026-10-31T01:29:54.502Z",
+      "last_seen": "2026-10-31T01:29:54.502Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: ReportEffort should be GenerationLimits",
+      "file": "src/frontend/api/client.ts",
+      "root_cause": "Used \"ReportEffort\" instead of \"GenerationLimits\"",
+      "fix": "Changed ReportEffort → GenerationLimits",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-398",
+      "timestamp": "2026-10-31T01:30:44.890Z",
+      "last_seen": "2026-10-31T01:30:44.890Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: requestId should be limits",
+      "file": "src/frontend/hooks/useReportGeneration.ts",
+      "root_cause": "Used \"requestId\" instead of \"limits\"",
+      "fix": "Changed requestId → limits",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-399",
+      "timestamp": "2026-10-31T01:30:50.049Z",
+      "last_seen": "2026-10-31T01:30:50.049Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Type error",
+      "file": "src/frontend/hooks/useConversation.ts",
+      "root_cause": "Missing or incorrect type annotation",
+      "fix": "Added type assertion/annotation",
+      "tags": [
+        "auto-detected",
+        "type-fix",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-400",
+      "timestamp": "2026-10-31T01:30:52.006Z",
+      "last_seen": "2026-10-31T01:30:52.006Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: latestReportId should be generationLimitDefaults",
+      "file": "src/frontend/hooks/useConversation.ts",
+      "root_cause": "Used \"latestReportId\" instead of \"generationLimitDefaults\"",
+      "fix": "Changed latestReportId → generationLimitDefaults",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-401",
+      "timestamp": "2026-10-31T01:30:53.899Z",
+      "last_seen": "2026-10-31T01:30:53.899Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: onGenerate",
+      "file": "src/frontend/components/ChatHistory.tsx",
+      "root_cause": "onGenerate: (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort) => void → (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort, limits?: GenerationLimits) => void",
+      "fix": "Changed onGenerate: (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort) => void → (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort, limits?: GenerationLimits) => void",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-402",
+      "timestamp": "2026-10-31T01:31:04.013Z",
+      "last_seen": "2026-10-31T01:31:04.013Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: actionsDisabled should be generationLimitDefaults",
+      "file": "src/frontend/components/ChatHistory.tsx",
+      "root_cause": "Used \"actionsDisabled\" instead of \"generationLimitDefaults\"",
+      "fix": "Changed actionsDisabled → generationLimitDefaults",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-403",
+      "timestamp": "2026-10-31T01:31:05.966Z",
+      "last_seen": "2026-10-31T01:31:05.966Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: onGenerate",
+      "file": "src/frontend/components/MessageBubble.tsx",
+      "root_cause": "onGenerate: (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort) => void → (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort, limits?: GenerationLimits) => void",
+      "fix": "Changed onGenerate: (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort) => void → (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort, limits?: GenerationLimits) => void",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-404",
+      "timestamp": "2026-10-31T01:31:10.063Z",
+      "last_seen": "2026-10-31T01:31:10.063Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: actionsDisabled should be generationLimitDefaults",
+      "file": "src/frontend/components/MessageBubble.tsx",
+      "root_cause": "Used \"actionsDisabled\" instead of \"generationLimitDefaults\"",
+      "fix": "Changed actionsDisabled → generationLimitDefaults",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-405",
+      "timestamp": "2026-10-31T01:31:12.148Z",
+      "last_seen": "2026-10-31T01:31:12.148Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Null/undefined access in GeneratePanel.tsx",
+      "file": "src/frontend/components/GeneratePanel.tsx",
+      "root_cause": "Property access on potentially null/undefined value",
+      "fix": "Added null safety (optional chaining or null check)",
+      "tags": [
+        "auto-detected",
+        "null-safety",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-406",
+      "timestamp": "2026-10-31T01:31:34.159Z",
+      "last_seen": "2026-10-31T01:31:36.381Z",
+      "occurrences": 2,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong return value",
+      "file": "src/tests/unit/web/test_web.py",
+      "root_cause": "Was returning: super().generate(profile, evidence, effort)",
+      "fix": "Now returns: super().generate(profile, evidence, effort, *limit",
+      "tags": [
+        "auto-detected",
+        "return-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-407",
+      "timestamp": "2026-10-31T01:32:05.940Z",
+      "last_seen": "2026-10-31T01:32:05.940Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing guard clause",
+      "file": "src/frontend/components/GeneratePanel.tsx",
+      "root_cause": "No early return/throw for edge case: !showLimits",
+      "fix": "Added guard clause: if (!showLimits)",
+      "tags": [
+        "auto-detected",
+        "guard-clause",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-408",
+      "timestamp": "2026-10-31T01:33:34.232Z",
+      "last_seen": "2026-10-31T01:33:34.232Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: margin",
+      "file": "src/frontend/styles.css",
+      "root_cause": "margin: 6px 0 10px → 0",
+      "fix": "Changed margin: 6px 0 10px → 0",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-409",
+      "timestamp": "2026-10-31T09:41:33.707Z",
+      "last_seen": "2026-10-31T09:41:33.707Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: height, min-height",
+      "file": "src/frontend/styles.css",
+      "root_cause": "height: calc(14em + 18px) → calc(10em + 18px); min-height: calc(14em + 18px) → calc(10em + 18px)",
+      "fix": "Changed height: calc(14em + 18px) → calc(10em + 18px); min-height: calc(14em + 18px) → calc(10em + 18px)",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-410",
+      "timestamp": "2026-10-31T09:41:35.965Z",
+      "last_seen": "2026-10-31T09:41:35.965Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: font-size",
+      "file": "src/frontend/styles.css",
+      "root_cause": "font-size: 9.1px → 13px",
+      "fix": "Changed font-size: 9.1px → 13px",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-411",
+      "timestamp": "2026-10-31T09:41:38.388Z",
+      "last_seen": "2026-10-31T09:41:38.388Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: IdentifyCondition should be EvidenceTokenBudget",
+      "file": "src/backend/core/conversation.py",
+      "root_cause": "Used \"IdentifyCondition\" instead of \"EvidenceTokenBudget\"",
+      "fix": "Changed IdentifyCondition → EvidenceTokenBudget",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-412",
+      "timestamp": "2026-10-31T09:51:09.079Z",
+      "last_seen": "2026-10-31T09:51:09.079Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: content_tokens should be content_bytes",
+      "file": "src/backend/ai/retrieval.py",
+      "root_cause": "Used \"content_tokens\" instead of \"content_bytes\"",
+      "fix": "Changed content_tokens → content_bytes",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-413",
+      "timestamp": "2026-10-31T10:17:41.938Z",
+      "last_seen": "2026-10-31T10:17:41.938Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/core/text_contract.py",
+      "root_cause": "Had \"interface.generate_characters_prefix\"",
+      "fix": "Changed to \"interface.generate_batches_prefix\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-414",
+      "timestamp": "2026-10-31T14:50:22.377Z",
+      "last_seen": "2026-10-31T14:50:22.377Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/components/GeneratePanel.tsx",
+      "root_cause": "Had \"./GenerationDurationEstimate\"",
+      "fix": "Changed to \"./GenerationBatchEstimate\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-415",
+      "timestamp": "2026-10-31T14:50:41.617Z",
+      "last_seen": "2026-10-31T14:50:41.617Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: option should be 1",
+      "file": "src/frontend/components/GeneratePanel.tsx",
+      "root_cause": "Used \"option\" instead of \"1\"",
+      "fix": "Changed option → 1",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-416",
+      "timestamp": "2026-10-31T14:54:56.568Z",
+      "last_seen": "2026-10-31T14:54:56.568Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -7386,7 +7890,43 @@
     "f22eea6d-71eb-4415-b6de-e004e542a23e": true,
     "6cb3effb-5413-4459-8eb4-33a916eb9a26": true,
     "54b8011e-ad5c-4a27-99a5-2af9de26c3aa": true,
-    "d3c3762e-ed30-437c-bd1c-4b98b019c6cd": true
+    "d3c3762e-ed30-437c-bd1c-4b98b019c6cd": true,
+    "69614ca1-5edc-40bf-a870-1aa351db1090": true,
+    "49d39919-3603-4ffe-970c-bbc0cdeb8086": true,
+    "a3ffb34a-be4a-4ced-b3ae-e50088f6a012": true,
+    "571819c2-264a-42c9-86aa-47357c68aa0e": true,
+    "9df95897-7632-4a78-9462-b8437a11fee4": true,
+    "b8ee4db8-361e-48d5-864b-1dcb372e91f8": true,
+    "0ba369df-07b4-48b5-ab3d-493f77239097": true,
+    "c18f3649-bdbb-4d00-91aa-812acc32567f": true,
+    "8d63039a-4116-4022-91d2-63e38c42d5ab": true,
+    "7d5a9c9d-f97f-41ae-bda8-563b578649df": true,
+    "89f3a045-f37d-4913-a19a-b7e376678028": true,
+    "26b948af-07fc-4ed0-950a-0158e0bf49ad": true,
+    "c39c3000-9a37-44bf-815d-9ede73c8c409": true,
+    "5438cc96-b54e-41df-b44f-505bd73c4be2": true,
+    "b8e06fb1-2370-4405-9308-cc90117e85b7": true,
+    "b6fd64b1-c1e9-4d99-89a1-7eda7e39a841": true,
+    "7a13f577-4c80-4387-814d-b9c6d7ce2932": true,
+    "d9901ffb-4be4-4f7e-8af9-4c8b6b50cae0": true,
+    "23b1bfc9-534d-4cc1-b361-99ccad6df906": true,
+    "ac12ff4e-4819-47a1-88ca-1bc4c0f7174b": true,
+    "6c8f571e-bd7f-4100-a4b3-36a41978f851": true,
+    "366fed84-02d9-4442-a1d3-5e6f724b52e2": true,
+    "8e044df9-e414-4153-953c-3986b5a26456": true,
+    "3b39b74a-7b38-41a8-a4e4-0511fb47d839": true,
+    "e9e9cbb2-f9fc-4436-8ead-21815b976ac5": true,
+    "cdfe1d9b-b3f8-4ea7-8ee4-a8986139f427": true,
+    "11638d6e-da1e-43c0-9d68-fd2633c7ac09": true,
+    "2c4b37c4-5960-4829-83cb-f7532efd518e": true,
+    "75e58e3d-23dd-4557-9422-7ee88f46540a": true,
+    "ccfbb531-30d5-4161-b7dc-076ba1991e6f": true,
+    "7699956b-f1e6-46f3-9255-595af61f0350": true,
+    "00b03fa7-d9af-454b-9662-2b7319a6643c": true,
+    "69ba5e2d-1360-4187-8e10-b62225ea3b61": true,
+    "22c5af7e-4349-4544-ae46-4e2ba788f922": true,
+    "2ef23ca8-70ce-4e32-aac4-b2092cb9c6e2": true,
+    "3ed97852-f9c0-47d2-aec3-8618edda4b57": true
   },
-  "next_id": 389
+  "next_id": 417
 }

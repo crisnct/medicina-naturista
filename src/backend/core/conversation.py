@@ -24,6 +24,7 @@ from backend.core.contracts import (
     ClassifyMessage,
     EmailProtocol,
     Evidence,
+    EvidenceTokenBudget,
     IdentifyCondition,
     ListTopHerbs,
     ListTopHerbsForCondition,
@@ -278,6 +279,18 @@ class ConversationService:
     report_ai_effort: ReportEffort | None = None
     record_report_metrics: RecordReportMetrics | None = None
     top_herbs_for_condition: ListTopHerbsForCondition | None = None
+    # Admin overrides for this report; None keeps the configured values.
+    report_batch_max_tokens: int | None = None
+    report_batch_workers: int | None = None
+    report_max_output_tokens: int | None = None
+
+    # The search runs before a model is chosen, so it collects what the largest configured
+    # batch limit can hold; each model's own batch limit then splits it.
+    def content_budget(self) -> EvidenceTokenBudget:
+        limits = self.settings.report_generation_batch_max_tokens
+        return EvidenceTokenBudget(
+            max(limits[model] for model in self.settings.report_generation_models)
+        )
 
     def budget(self, operation: SessionOperation) -> OperationBudget:
         def batch_progress(completed: int, total: int, report: ValidatedReport | None) -> None:
@@ -1050,7 +1063,7 @@ class ConversationService:
                 ).as_dict()
             self.store.checkpoint(operation)
             with operation_budget(self.budget(operation)):
-                evidence = self.retriever.collect(snapshot, self.ai.context_budget())
+                evidence = self.retriever.collect(snapshot, self.content_budget())
             self.store.checkpoint(operation)
             if not evidence:
                 committed = self.store.commit_operation(
@@ -1133,7 +1146,14 @@ class ConversationService:
             self.store.generation_stage(operation, "generating")
             characters = sum(len(item["text"]) for item in evidence.values())
             with operation_budget(self.budget(operation)):
-                sections = self.ai.generate(profile, evidence, self.report_ai_effort)
+                sections = self.ai.generate(
+                    profile,
+                    evidence,
+                    self.report_ai_effort,
+                    self.report_batch_max_tokens,
+                    self.report_batch_workers,
+                    self.report_max_output_tokens,
+                )
             self.store.generation_stage(operation, "validating")
             if not isinstance(sections, ValidatedReport):
                 sections = validate_report(sections, evidence)

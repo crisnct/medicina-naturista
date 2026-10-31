@@ -6,6 +6,7 @@ import { api } from "../api/client";
 
 beforeEach(() => {
   vi.spyOn(api, "getReportDurationEstimate").mockImplementation(() => new Promise(() => {}));
+  vi.spyOn(api, "getReportBatchEstimate").mockImplementation(() => new Promise(() => {}));
 });
 afterEach(() => vi.restoreAllMocks());
 

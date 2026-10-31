@@ -215,6 +215,9 @@ class ReportBatchPreview:
     stream_parts: list[str] = field(default_factory=list, repr=False)
     thinking_parts: list[str] = field(default_factory=list, repr=False)
     ai_activity: AIActivity | None = None
+    # Each batch is measured on its own: parallel batches would blur one shared rate.
+    stream_rate: AIStreamRate = field(default_factory=AIStreamRate)
+    thinking_rate: AIStreamRate = field(default_factory=AIStreamRate)
 
     # Raw chunks are charged once by the job; activity owns a fixed metadata slot.
     def metadata(self) -> dict[str, Any]:
@@ -247,6 +250,8 @@ class ReportBatchPreview:
             if job.state != "succeeded"
             else None,
             "aiActivity": self.ai_activity.as_dict(now) if self.ai_activity else None,
+            "streamTokensPerSecond": self.stream_rate.tokens_per_second(),
+            "thinkingTokensPerSecond": self.thinking_rate.tokens_per_second(),
         }
 
 
@@ -266,6 +271,10 @@ class ReportGeneration:
     language: Language = field(default_factory=current_language)
     # None when the model has no effort control.
     effort: str | None = None
+    # Admin overrides; None when the report uses the configured values.
+    batch_max_tokens: int | None = None
+    batch_workers: int | None = None
+    max_output_tokens: int | None = None
     state: str = "accepted"
     stage: str = "queued"
     started_at: float | None = None
@@ -331,6 +340,9 @@ class ReportGeneration:
             "model": self.model,
             "modelChoice": self.model_choice,
             "effort": self.effort,
+            "batchMaxTokens": self.batch_max_tokens,
+            "batchWorkers": self.batch_workers,
+            "maxOutputTokens": self.max_output_tokens,
             "createdAt": self.created_at,
             "startedAt": self.started_at,
             "finishedAt": self.finished_at,

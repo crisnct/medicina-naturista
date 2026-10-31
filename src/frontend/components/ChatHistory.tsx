@@ -1,6 +1,6 @@
 import { getLanguage, tr } from "../lib/texts";
 import { useMemo } from "react";
-import type { ChatMessage, FragmentItem, ReportEffort, ReportModel } from "../api/types";
+import type { ChatMessage, FragmentItem, GenerationLimitDefaults, GenerationLimits, ReportEffort, ReportModel, ReportModelDetails } from "../api/types";
 import { MessageBubble } from "./MessageBubble";
 import { TypingIndicator } from "./TypingIndicator";
 import type { GenerationFeedback } from "../lib/generationFeedback";
@@ -14,17 +14,21 @@ export function ChatHistory({
   defaultReportModel,
   allowedReportModels,
   effortReportModels,
+  generationLimitDefaults,
+  reportModelDetails,
   actionsDisabled,
   generationFeedback,
 }: {
   history: ChatMessage[];
   pending: boolean;
   pendingLabel?: string;
-  onGenerate: (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort) => void;
+  onGenerate: (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort, limits?: GenerationLimits) => void;
   reportModels?: ReportModel[];
   defaultReportModel?: ReportModel;
   allowedReportModels?: ReportModel[];
   effortReportModels?: ReportModel[];
+  generationLimitDefaults?: GenerationLimitDefaults;
+  reportModelDetails?: ReportModelDetails;
   actionsDisabled?: boolean;
   generationFeedback?: Record<string, GenerationFeedback>;
 }) {
@@ -68,6 +72,8 @@ export function ChatHistory({
           defaultReportModel={defaultReportModel}
           allowedReportModels={allowedReportModels}
           effortReportModels={effortReportModels}
+          generationLimitDefaults={generationLimitDefaults}
+          reportModelDetails={reportModelDetails}
           actionsDisabled={actionsDisabled}
           generationFeedback={message.kind === "generate" ? generationFeedback?.[message.searchId] ?? persistedFeedback.get(message.searchId) : undefined}
         />

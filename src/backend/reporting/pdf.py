@@ -1027,7 +1027,8 @@ def format_recommendation(
 ) -> str:
     """Render a bold bullet and label, then relevance and use chips above the description.
 
-    Without any chip the label keeps its trailing colon and the description follows inline.
+    Without a delimited label the first sentence serves as the label. Without any chip the
+    label keeps its trailing colon and the description follows inline.
     """
     label, description = split_recommendation(text)
     chips = []
@@ -1042,7 +1043,12 @@ def format_recommendation(
         return f"<b>● {escape(label)}:</b> {escape(description)}"
     badges = " ".join(chips)
     if not label:
-        return f"● {badges}<br/>{escape(description)}"
+        # No name was delimited: the first sentence is the title, the rest the description.
+        parts = re.split(r"(?<=[.!?])\s+", description, maxsplit=1)
+        label = parts[0].rstrip(".:;")
+        description = parts[1] if len(parts) > 1 else ""
+    if not description:
+        return f"<b>● {escape(label)}</b> {badges}"
     return f"<b>● {escape(label)}</b> {badges}<br/>{escape(description)}"
 
 

@@ -64,6 +64,13 @@ _batch_stopped: ContextVar[Callable[[], bool] | None] = ContextVar(
 
 
 _report_effort: ContextVar[ReportEffort | None] = ContextVar("report_effort", default=None)
+_report_batch_max_tokens: ContextVar[int | None] = ContextVar(
+    "report_batch_max_tokens", default=None
+)
+_report_batch_workers: ContextVar[int | None] = ContextVar("report_batch_workers", default=None)
+_report_max_output_tokens: ContextVar[int | None] = ContextVar(
+    "report_max_output_tokens", default=None
+)
 
 
 def report_batch_index() -> int | None:
@@ -82,6 +89,36 @@ def report_effort_scope(effort: ReportEffort | None) -> Iterator[None]:
         yield
     finally:
         _report_effort.reset(token)
+
+
+# The admin's per-report overrides; None keeps the value configured for the model.
+def current_report_batch_max_tokens() -> int | None:
+    return _report_batch_max_tokens.get()
+
+
+def current_report_batch_workers() -> int | None:
+    return _report_batch_workers.get()
+
+
+def current_report_max_output_tokens() -> int | None:
+    return _report_max_output_tokens.get()
+
+
+@contextmanager
+def report_batch_scope(
+    max_tokens: int | None, workers: int | None, max_output_tokens: int | None
+) -> Iterator[None]:
+    tokens = (
+        _report_batch_max_tokens.set(max_tokens),
+        _report_batch_workers.set(workers),
+        _report_max_output_tokens.set(max_output_tokens),
+    )
+    try:
+        yield
+    finally:
+        _report_max_output_tokens.reset(tokens[2])
+        _report_batch_workers.reset(tokens[1])
+        _report_batch_max_tokens.reset(tokens[0])
 
 
 # Each submitted worker owns a fresh context; sibling failure cannot escape its request budget.

@@ -65,7 +65,6 @@ def generation(tmp_path, monkeypatch):
         return b"synthetic PDF"
 
     ai = Mock()
-    ai.context_budget.return_value = len(evidence["C1"]["text"])
     ai.generate.side_effect = ai_generate
     writer = Mock(return_value=7)
     service = ConversationService(

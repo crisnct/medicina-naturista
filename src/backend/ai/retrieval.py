@@ -21,7 +21,13 @@ from backend.ai.search import (
     max_score,
     rank,
 )
-from backend.core.contracts import Evidence, EvidenceItem, EvidenceTokenBudget
+from backend.core.contracts import (
+    BYTES_PER_TOKEN,
+    Evidence,
+    EvidenceItem,
+    EvidenceTokenBudget,
+    estimate_tokens,
+)
 from backend.core.language import current_language, language_scope
 from backend.core.models import SessionData, SessionSnapshot
 
@@ -89,10 +95,10 @@ class Retriever:
 
     def _collect(self, session, max_chars, tree, generation):
         token_budget = max_chars if isinstance(max_chars, EvidenceTokenBudget) else None
-        # UTF-8 bytes cannot cost less than characters. This SQL prefix contains every
-        # possible fitting token prefix; the exact conservative byte check runs below.
+        # A token costs BYTES_PER_TOKEN bytes and a byte at least one character, so this SQL
+        # prefix contains every possible fitting token prefix; the byte estimate runs below.
         if token_budget is not None:
-            max_chars = token_budget.max_tokens
+            max_chars = token_budget.max_tokens * BYTES_PER_TOKEN
         profile = session.profile
         query = consultation_query(profile)
         if not query:
@@ -133,7 +139,7 @@ class Retriever:
         # Each fragment is one piece of evidence, exactly as indexed (fragments
         # are whole sections, see ai/fragmenter.py), best score first.
         evidence = EvidenceSnapshot(generation, removed)
-        content_tokens = 0
+        content_bytes = 0
         for best in candidates:
             evidence_id = f"C{best['chunk_id']}"
             item: EvidenceItem = {
@@ -167,9 +173,9 @@ class Retriever:
                 # Count the same ID, source and text fields sent to the report client.
                 entry = {"id": evidence_id, "source": item["source"], "text": item["text"]}
                 size = len(json.dumps([entry], ensure_ascii=False).encode("utf-8"))
-                if content_tokens + size > token_budget.max_tokens:
+                if estimate_tokens(content_bytes + size) > token_budget.max_tokens:
                     break
-                content_tokens += size
+                content_bytes += size
             evidence[evidence_id] = item
 
         logger.info(
@@ -183,8 +189,8 @@ class Retriever:
         if token_budget is not None:
             logger.info(
                 "retrieval_content_budget input_tokens_upper_bound=%s max_content_tokens=%s "
-                "counting=utf8_bytes",
-                content_tokens,
+                "counting=utf8_bytes_div3",
+                estimate_tokens(content_bytes),
                 token_budget.max_tokens,
             )
         return evidence

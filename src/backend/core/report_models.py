@@ -4,7 +4,7 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from types import MappingProxyType
-from typing import Final, Literal, Mapping, cast
+from typing import Final, Literal, Mapping, cast, get_args
 
 ReportModel = Literal[
     "ollama-gemma4:12b",
@@ -30,6 +30,13 @@ DEFAULT_REPORT_MODELS: tuple[ReportModel, ...] = (
 )
 DEFAULT_REPORT_MODEL: ReportModel = DEFAULT_REPORT_MODELS[0]
 DEFAULT_REPORT_BATCH_MAX_TOKENS: Final = 25_000
+# Bounds of the token limits the admin may type; the output warning is advice, not a rule.
+MIN_REPORT_INPUT_TOKENS: Final = 1_000
+MAX_REPORT_TOKENS: Final = 2_000_000
+LOW_REPORT_OUTPUT_TOKENS: Final = 2_000
+# Parallel batches the admin can choose per report.
+ReportBatchWorkers = Literal[1, 2, 3]
+REPORT_BATCH_WORKER_OPTIONS: Final[tuple[int, ...]] = get_args(ReportBatchWorkers)
 
 # The user-selected depth of AI reasoning; each provider maps it to its own parameter.
 ReportEffort = Literal["low", "medium", "high"]
@@ -47,7 +54,10 @@ class ReportModelSpec:
     model: str
     owner_only: bool = True
     batch_max_tokens: int = DEFAULT_REPORT_BATCH_MAX_TOKENS
+    # Fixed by the request itself (Ollama num_ctx) and therefore enforced against the output.
     context_tokens: int | None = None
+    # The model's own context window, shown to the user; the default of the env setting.
+    context_window: int = 32_768
     max_output_tokens: int | None = None
     effort_control: EffortControl = "none"
     temperature: float | None = None
@@ -57,31 +67,51 @@ class ReportModelSpec:
 
 REPORT_MODELS: Mapping[ReportModel, ReportModelSpec] = MappingProxyType(
     {
-        "ollama-gemma4:12b": ReportModelSpec("ollama", "gemma4:12b", effort_control="ollama_think"),
+        "ollama-gemma4:12b": ReportModelSpec(
+            "ollama", "gemma4:12b", context_window=262_144, effort_control="ollama_think"
+        ),
         # The 1B model needs constrained sampling to reduce repeated-token loops in JSON.
         "ollama-gemma3:1b": ReportModelSpec(
-            "ollama", "gemma3:1b", temperature=0.0, repeat_penalty=1.1, repeat_last_n=256
+            "ollama",
+            "gemma3:1b",
+            context_window=32_768,
+            temperature=0.0,
+            repeat_penalty=1.1,
+            repeat_last_n=256,
         ),
-        "ollama-qwen3.5:9b": ReportModelSpec("ollama", "qwen3.5:9b", effort_control="ollama_think"),
-        "ollama-qwen3.5:4b": ReportModelSpec("ollama", "qwen3.5:4b", effort_control="ollama_think"),
-        "ollama-ministral-3:8b": ReportModelSpec("ollama", "ministral-3:8b"),
+        "ollama-qwen3.5:9b": ReportModelSpec(
+            "ollama", "qwen3.5:9b", context_window=262_144, effort_control="ollama_think"
+        ),
+        "ollama-qwen3.5:4b": ReportModelSpec(
+            "ollama", "qwen3.5:4b", context_window=262_144, effort_control="ollama_think"
+        ),
+        "ollama-ministral-3:8b": ReportModelSpec(
+            "ollama", "ministral-3:8b", context_window=262_144
+        ),
         "ollama-deepseek-r1:8b": ReportModelSpec(
             "ollama",
             "deepseek-r1:8b",
             batch_max_tokens=24_000,
             context_tokens=32_768,
+            context_window=32_768,
             max_output_tokens=8_192,
             effort_control="ollama_think",
         ),
         "deepseek-flash": ReportModelSpec(
-            "deepseek", "deepseek-flash", effort_control="responses_effort"
+            "deepseek",
+            "deepseek-flash",
+            context_window=1_048_576,
+            effort_control="responses_effort",
         ),
         "huggingface-deepseek-v4-flash": ReportModelSpec(
             "huggingface",
             "deepseek-ai/DeepSeek-V4-Flash:deepinfra",
+            context_window=1_048_576,
             effort_control="responses_effort",
         ),
-        "grok-4.3": ReportModelSpec("xai", "grok-4.3", effort_control="responses_effort"),
+        "grok-4.3": ReportModelSpec(
+            "xai", "grok-4.3", context_window=1_000_000, effort_control="responses_effort"
+        ),
     }
 )
 

@@ -23,14 +23,21 @@ function BatchPreview({ batch, total, terminal, succeeded, pendingLabel }: {
     timed_out: tr("interface.preview_batch_timed_out"),
   };
   const hasRawOutput = !succeeded && Boolean(batch.streamPreview || batch.thinkingPreview);
-  return <section className="generation-stream-preview generation-batch-preview" aria-label={title}>
+  // One line: the batch title and its state; with raw AI output the line is the
+  // <summary> that opens it, so the disclosure arrow sits on the title itself.
+  const rate = batch.streamTokensPerSecond ?? batch.thinkingTokensPerSecond;
+  const heading = <>
     <h5>{title}</h5>
-    <p className="generation-batch-state">{stateLabels[batch.state]}</p>
-    {batch.state === "validated" && <div ref={field} className="generation-report-text" tabIndex={0} aria-label={`${title}: ${tr("interface.preview_content_label")}`}>
-      {batch.reportPreview ? renderRecommendationText(batch.reportPreview) : <p>{tr("interface.preview_batch_empty")}</p>}
-    </div>}
-    {hasRawOutput && <details open={batch.state !== "validated"}>
-      <summary>{tr("interface.preview_batch_details")}</summary>
+    <span className="generation-batch-state"> – {stateLabels[batch.state]}</span>
+    {rate != null && Number.isFinite(rate) && rate >= 0 && (
+      <span className="generation-batch-state" title={tr("interface.preview_speed_hint")}>
+        {tr("common.token_rate", { tokens_per_second: Math.round(rate) })}
+      </span>
+    )}
+  </>;
+  return <section className="generation-stream-preview generation-batch-preview" aria-label={title}>
+    {hasRawOutput ? <details open={batch.state !== "validated"}>
+      <summary>{heading}</summary>
       <div className="generation-live-output">
         {batch.thinkingPreview && <GenerationStreamPreview
           text={batch.thinkingPreview}
@@ -43,7 +50,10 @@ function BatchPreview({ batch, total, terminal, succeeded, pendingLabel }: {
           label={`${title}: ${tr("interface.generate_answer_label")}`}
         />}
       </div>
-    </details>}
+    </details> : <div className="generation-batch-heading">{heading}</div>}
+    {batch.state === "validated" && <div ref={field} className="generation-report-text" tabIndex={0} aria-label={`${title}: ${tr("interface.preview_content_label")}`}>
+      {batch.reportPreview ? renderRecommendationText(batch.reportPreview) : <p>{tr("interface.preview_batch_empty")}</p>}
+    </div>}
   </section>;
 }
 
@@ -70,7 +80,7 @@ export function GenerationReportPreview({
       <h4>
         {title}
         {total > 0 && <span>{tr("interface.preview_batch_progress", { completed, total })}</span>}
-        {tokensPerSecond != null && Number.isFinite(tokensPerSecond) && tokensPerSecond >= 0 && (
+        {!batches?.length && tokensPerSecond != null && Number.isFinite(tokensPerSecond) && tokensPerSecond >= 0 && (
           <span title={tr("interface.preview_speed_hint")}>
             {tr("common.token_rate", { tokens_per_second: Math.round(tokensPerSecond) })}
           </span>

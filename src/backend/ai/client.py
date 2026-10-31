@@ -29,22 +29,27 @@ from backend.config import settings as default_settings
 from backend.core.contracts import (
     AIProtocol,
     Evidence,
-    EvidenceTokenBudget,
     ProfilePayload,
+    ReportBatchPlan,
     ReportModel,
+    estimate_tokens,
 )
 from backend.core.errors import OperationCancelled
 from backend.core.language import current_language, language_scope, read_prompt, validate_language
 from backend.core.operation_context import (
     ReportActivity,
     checkpoint,
+    current_report_batch_max_tokens,
+    current_report_batch_workers,
     current_report_effort,
+    current_report_max_output_tokens,
     emit_report_activity,
     emit_report_batch,
     emit_report_output,
     emit_report_thinking,
     remaining_timeout,
     report_batch_context,
+    report_batch_scope,
     report_effort_scope,
 )
 from backend.core.report_batches import combine_reports, partition_evidence
@@ -57,7 +62,7 @@ GENERATE_REPORT_SYSTEM_PROMPT_PATH = (
     Path(__file__).resolve().parent / "prompts" / "generate_report_system.md"
 )
 
-# Byte fallback is deliberately conservative; reserve extra space for chat framing.
+# Tokens are estimated from UTF-8 bytes (contracts.estimate_tokens); reserve some for chat framing.
 REPORT_TOKEN_FRAMING_RESERVE = 256
 
 
@@ -291,6 +296,9 @@ class ResponsesClient:
         self.batch_max_tokens = settings.report_generation_batch_max_tokens[
             settings.report_generation_model
         ]
+        self.context_tokens = settings.report_generation_context_tokens[
+            settings.report_generation_model
+        ]
         self.batch_workers = settings.report_batch_workers
 
     def _report_prompt(self) -> str:
@@ -303,12 +311,6 @@ class ResponsesClient:
     # Whether the active provider can be called (its key is present when one is required).
     def is_configured(self) -> bool:
         return not self.provider.api_key_required or bool(self.provider.api_key())
-
-    # Keep token budgets explicit at the retrieval boundary.
-    def context_budget(self) -> int | EvidenceTokenBudget:
-        if self.provider.max_content_tokens is not None:
-            return EvidenceTokenBudget(self.provider.max_content_tokens)
-        return self.provider.max_context_chars
 
     # Close the underlying HTTP connection pool.
     def close(self) -> None:
@@ -611,7 +613,7 @@ class ResponsesClient:
             if isinstance(output_tokens, int) and output_tokens >= max_tokens:
                 logger.error(
                     "ai_response_truncated provider=%s model=%s output_tokens=%s max_output_tokens=%s "
-                    "hint=increase REPORT_GENERATION_MAX_OUTPUT_TOKENS",
+                    "hint=increase REPORT_GENERATION_MAX_OUTPUT_TOKENS or the report panel field",
                     self.provider.name,
                     self.provider.model,
                     output_tokens,
@@ -648,12 +650,12 @@ class ResponsesClient:
         total_chars = sum(lengths)
         unique_source_files = {entry["source"].split(":", 1)[0] for entry in entries}
         logger.info(
-            "%s count=%s total_chars=%s content_tokens_upper_bound=%s counting=utf8_bytes "
+            "%s count=%s total_chars=%s content_tokens_upper_bound=%s counting=utf8_bytes_div3 "
             "documents_count=%s min_chars=%s max_chars=%s text_logging=%s",
             event,
             len(entries),
             total_chars,
-            len(json.dumps(entries, ensure_ascii=False).encode("utf-8")),
+            estimate_tokens(len(json.dumps(entries, ensure_ascii=False).encode("utf-8"))),
             len(unique_source_files),
             min(lengths, default=0),
             max(lengths, default=0),
@@ -687,30 +689,79 @@ class ResponsesClient:
         payload = self._build_payload(
             self._report_prompt(),
             self._report_user_message(profile, evidence),
-            self.provider.max_output_tokens,
+            self._report_max_output_tokens(),
             schema=report_response_schema(evidence) if self.provider.name == "ollama" else None,
         )
         return (
-            len(json.dumps(payload, ensure_ascii=False).encode("utf-8"))
+            estimate_tokens(len(json.dumps(payload, ensure_ascii=False).encode("utf-8")))
             + REPORT_TOKEN_FRAMING_RESERVE
         )
 
+    # Per-report overrides chosen by the admin win over the configured values.
+    def _report_max_output_tokens(self) -> int:
+        return current_report_max_output_tokens() or self.provider.max_output_tokens
+
+    def _batch_workers(self) -> int:
+        return current_report_batch_workers() or self.batch_workers
+
     def _report_input_limit(self) -> int:
-        limit = self.batch_max_tokens
-        if self.provider.context_tokens is not None:
-            limit = min(limit, self.provider.context_tokens - self.provider.max_output_tokens)
-        return limit
+        limit = current_report_batch_max_tokens() or self.batch_max_tokens
+        return min(limit, self.context_tokens - self._report_max_output_tokens())
+
+    def _partition(self, profile: ProfilePayload, evidence: Evidence) -> list[Evidence]:
+        input_limit = self._report_input_limit()
+        if input_limit <= 0:
+            raise AIUnavailable(tr("errors.ai_context_limit"), reason="context_limit")
+        return partition_evidence(
+            evidence, input_limit, lambda batch: self._report_input_tokens(profile, batch)
+        )
+
+    # What generate() would send for these limits, without calling the provider.
+    def plan_report_batches(
+        self,
+        profile: ProfilePayload,
+        evidence: Evidence,
+        effort: ReportEffort | None = None,
+        batch_max_tokens: int | None = None,
+        max_output_tokens: int | None = None,
+    ) -> ReportBatchPlan:
+        with (
+            language_scope(validate_language(profile.get("language", current_language()))),
+            report_effort_scope(effort),
+            report_batch_scope(batch_max_tokens, None, max_output_tokens),
+        ):
+            input_limit = self._report_input_limit()
+            if not evidence:
+                return ReportBatchPlan(0, 0, input_limit)
+            batches = self._partition(profile, evidence)
+            # A lone fragment over the limit is still sent whole; the provider decides.
+            oversized = sum(
+                1
+                for batch in batches
+                if len(batch) == 1 and self._report_input_tokens(profile, batch) > input_limit
+            )
+            return ReportBatchPlan(len(batches), oversized, input_limit)
 
     # The single FIFO report owner drains all batch workers before releasing its capacity.
     def generate(
-        self, profile: ProfilePayload, evidence: Evidence, effort: ReportEffort | None = None
+        self,
+        profile: ProfilePayload,
+        evidence: Evidence,
+        effort: ReportEffort | None = None,
+        batch_max_tokens: int | None = None,
+        batch_workers: int | None = None,
+        max_output_tokens: int | None = None,
     ) -> ValidatedReport:
         language = validate_language(profile.get("language", current_language()))
         if any(item.get("language", language) != language for item in evidence.values()):
             raise AIUnavailable(
                 tr("errors.search_evidence_missing", language=language), reason="invalid_response"
             )
-        with language_scope(language), report_effort_scope(effort):
+        with (
+            language_scope(language),
+            report_effort_scope(effort),
+            report_batch_scope(batch_max_tokens, batch_workers, max_output_tokens),
+        ):
             return self._generate(profile, evidence)
 
     def _generate(self, profile: ProfilePayload, evidence: Evidence) -> ValidatedReport:
@@ -722,12 +773,7 @@ class ResponsesClient:
             len(evidence),
             sum(len(value.get("text", "")) for value in evidence.values()),
         )
-        input_limit = self._report_input_limit()
-        if input_limit <= 0:
-            raise AIUnavailable(tr("errors.ai_context_limit"), reason="context_limit")
-        batches = partition_evidence(
-            evidence, input_limit, lambda batch: self._report_input_tokens(profile, batch)
-        )
+        batches = self._partition(profile, evidence)
         emit_report_batch(0, len(batches))
         reports: dict[int, ValidatedReport] = {}
         stopped = threading.Event()
@@ -779,9 +825,8 @@ class ResponsesClient:
                     )
                     raise
 
-        executor = ThreadPoolExecutor(
-            max_workers=self.batch_workers, thread_name_prefix="report-batch"
-        )
+        batch_workers = self._batch_workers()
+        executor = ThreadPoolExecutor(max_workers=batch_workers, thread_name_prefix="report-batch")
         pending: dict[Future[ValidatedReport], int] = {}
         next_index = 1
         try:
@@ -790,7 +835,7 @@ class ResponsesClient:
                 while (
                     not stopped.is_set()
                     and next_index <= len(batches)
-                    and len(pending) < self.batch_workers
+                    and len(pending) < batch_workers
                 ):
                     context = copy_context()
                     future = executor.submit(
@@ -825,10 +870,10 @@ class ResponsesClient:
         checkpoint()
         logger.info(
             "report_batch_started provider=%s model=%s parallel_limit=%s batch=%s total=%s "
-            "fragments=%s chars=%s input_tokens_upper_bound=%s input_limit=%s counting=utf8_bytes",
+            "fragments=%s chars=%s input_tokens_upper_bound=%s input_limit=%s counting=utf8_bytes_div3",
             self.provider.name,
             self.provider.model,
-            self.batch_workers,
+            self._batch_workers(),
             index,
             total,
             len(batch),
@@ -863,7 +908,7 @@ class ResponsesClient:
                 raise AIUnavailable(tr("errors.ai_context_limit"), reason="context_limit")
             logger.info(
                 "report_batch_token_limit_bypassed provider=%s model=%s fragments=1 "
-                "input_tokens_upper_bound=%s input_limit=%s counting=utf8_bytes",
+                "input_tokens_upper_bound=%s input_limit=%s counting=utf8_bytes_div3",
                 self.provider.name,
                 self.provider.model,
                 input_tokens,
@@ -874,7 +919,7 @@ class ResponsesClient:
         user = self._report_user_message(profile, evidence)
         logger.info(
             "ai_request_payload_prepared provider=%s chars=%s input_tokens_upper_bound=%s "
-            "evidence_entries=%s counting=utf8_bytes",
+            "evidence_entries=%s counting=utf8_bytes_div3",
             self.provider.name,
             len(user),
             input_tokens,
@@ -884,12 +929,12 @@ class ResponsesClient:
             result = self._complete_json(
                 self._report_prompt(),
                 user,
-                self.provider.max_output_tokens,
+                self._report_max_output_tokens(),
                 schema=report_response_schema(evidence),
             )
         else:
             result = self.complete_json(
-                self._report_prompt(), user, self.provider.max_output_tokens
+                self._report_prompt(), user, self._report_max_output_tokens()
             )
         return validate_report(result, evidence, allow_empty=True, strict=True)
 

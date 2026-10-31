@@ -34,9 +34,7 @@ class ReportQueueTests(unittest.TestCase):
         self.order = []
         self.active = self.maximum_active = 0
         self.fail_first = False
-        self.conversation = SimpleNamespace(
-            ai=SimpleNamespace(context_budget=lambda: None), generate=self.generate
-        )
+        self.conversation = SimpleNamespace(ai=SimpleNamespace(), generate=self.generate)
 
     def session(self, tab):
         session = self.store.get("synthetic-cookie", tab, True, client_ip="synthetic-ip")

@@ -18,7 +18,6 @@ from backend.ai.client import AIUnavailable, ResponsesClient, XAIClient, create_
 from backend.ai.providers import provider_config
 from backend.config import Settings
 from backend.config import settings as base_settings
-from backend.core.contracts import EvidenceTokenBudget
 from backend.core.operation_context import report_effort_scope
 
 
@@ -48,17 +47,13 @@ PINNED = dict(
     xai_api_base="https://api.x.ai/v1",
     hf_model="deepseek-ai/DeepSeek-V4-Flash:deepinfra",
     hf_api_base="https://router.huggingface.co/v1",
-    hf_max_content_tokens=120_000,
     deepseek_model="deepseek-flash",
     deepseek_api_base="https://api.deepseek.com",
-    deepseek_max_content_tokens=1_000_000,
     ollama_model="deepseek-v4.1-flash:cloud",
     ollama_api_base="http://localhost:11434/v1",
-    ollama_max_content_tokens=1_000_000,
     ai_stream=False,
     ai_max_output_tokens=20000,
     ai_read_timeout_seconds=300,
-    xai_max_content_tokens=1_000_000,
 )
 
 
@@ -422,34 +417,6 @@ class StreamingTest(unittest.TestCase):
         with self.assertRaises(AIUnavailable) as caught:
             self.run_stream([], status_code=504)
         self.assertIn("HTTP 504", str(caught.exception))
-
-
-class ContextBudgetTest(unittest.TestCase):
-    def budget(self, provider: str, **overrides) -> int | EvidenceTokenBudget:
-        client = create_ai_client(settings_for(provider, **overrides))
-        client.close()
-        return client.context_budget()
-
-    def test_each_provider_uses_its_own_limit(self):
-        self.assertEqual(
-            self.budget("xai", xai_max_content_tokens=900_000), EvidenceTokenBudget(900_000)
-        )
-        self.assertEqual(
-            self.budget("huggingface", hf_max_content_tokens=120_000), EvidenceTokenBudget(120_000)
-        )
-        self.assertEqual(
-            self.budget("deepseek", deepseek_max_content_tokens=800_000),
-            EvidenceTokenBudget(800_000),
-        )
-        self.assertEqual(
-            self.budget("ollama", ollama_max_content_tokens=700_000), EvidenceTokenBudget(700_000)
-        )
-
-    def test_defaults_are_one_million_except_huggingface(self):
-        self.assertEqual(self.budget("xai"), EvidenceTokenBudget(1_000_000))
-        self.assertEqual(self.budget("deepseek"), EvidenceTokenBudget(1_000_000))
-        self.assertEqual(self.budget("ollama"), EvidenceTokenBudget(1_000_000))
-        self.assertEqual(self.budget("huggingface"), EvidenceTokenBudget(120_000))
 
 
 class HTTPErrorTest(unittest.TestCase):

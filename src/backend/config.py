@@ -13,9 +13,13 @@ from urllib.parse import urlsplit
 from dotenv import load_dotenv
 
 from backend.core.report_models import (
+    DEFAULT_REPORT_EFFORT,
     DEFAULT_REPORT_MODEL,
     DEFAULT_REPORT_MODELS,
+    MIN_REPORT_INPUT_TOKENS,
+    REPORT_EFFORTS,
     REPORT_MODELS,
+    ReportEffort,
     ReportModel,
     parse_report_models,
 )
@@ -24,40 +28,75 @@ ROOT = Path(__file__).resolve().parents[2]
 CORPUS_DATA_DIR = ROOT / "medicina-naturista-documente" / "data"
 
 
-# Model-specific batch limits are immutable, just like the selected provider snapshot.
-def _batch_limits(value: str | None = None) -> Mapping[ReportModel, int]:
+ENV_NAME = "REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL"
+_LIMIT_KEYS = frozenset({"tokens", "context", "effort"})
+
+
+def _default_context() -> Mapping[ReportModel, int]:
+    return MappingProxyType({model: spec.context_window for model, spec in REPORT_MODELS.items()})
+
+
+def _default_effort() -> Mapping[ReportModel, ReportEffort]:
+    return MappingProxyType({model: DEFAULT_REPORT_EFFORT for model in REPORT_MODELS})
+
+
+# One JSON object per model: {"tokens": batch input budget, "context": the model's context
+# window, "effort": the effort preselected in the report panel}. Only "tokens" is required;
+# the others fall back to the catalog. The three results are immutable, like the provider snapshot.
+def _model_limits(
+    value: str | None = None,
+) -> tuple[
+    Mapping[ReportModel, int], Mapping[ReportModel, int], Mapping[ReportModel, ReportEffort]
+]:
     def unique_pairs(pairs: list[tuple[str, object]]) -> dict[str, object]:
         result: dict[str, object] = {}
         for key, item in pairs:
             if key in result:
-                raise ValueError(
-                    "REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL contains duplicate keys"
-                )
+                raise ValueError(f"{ENV_NAME} contains duplicate keys")
             result[key] = item
         return result
 
+    tokens = MappingProxyType(
+        {model: spec.batch_max_tokens for model, spec in REPORT_MODELS.items()}
+    )
     if value is None or not value.strip():
-        return MappingProxyType(
-            {model: spec.batch_max_tokens for model, spec in REPORT_MODELS.items()}
-        )
+        return tokens, _default_context(), _default_effort()
     try:
         parsed = json.loads(value, object_pairs_hook=unique_pairs)
     except (ValueError, TypeError):
-        raise ValueError(
-            "REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL must be a JSON object with unique model keys"
-        ) from None
+        raise ValueError(f"{ENV_NAME} must be a JSON object with unique model keys") from None
     if not isinstance(parsed, dict):
-        raise ValueError("REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL must be a JSON object")
-    result: dict[ReportModel, int] = {}
-    for model in REPORT_MODELS:
-        if model in parsed:
-            limit = parsed[model]
-            if type(limit) is not int or limit <= 0:
-                raise ValueError("Report batch token limits must be positive integers")
-            result[model] = limit
+        raise ValueError(f"{ENV_NAME} must be a JSON object")
     if parsed.keys() - REPORT_MODELS.keys():
         raise ValueError("Report batch limits contain an unsupported model")
-    return MappingProxyType(result)
+    tokens_result: dict[ReportModel, int] = {}
+    context_result = dict(_default_context())
+    effort_result = dict(_default_effort())
+    for model in REPORT_MODELS:
+        if model not in parsed:
+            continue
+        entry = parsed[model]
+        if not isinstance(entry, dict) or entry.keys() - _LIMIT_KEYS or "tokens" not in entry:
+            raise ValueError(
+                f'{ENV_NAME} entries must be objects like {{"tokens": 25000, "context": 262144, '
+                '"effort": "low"}; "tokens" is required'
+            )
+        for key, target in (("tokens", tokens_result), ("context", context_result)):
+            if key in entry:
+                limit = entry[key]
+                if type(limit) is not int or limit <= 0:
+                    raise ValueError(f"Report model {key} must be a positive integer")
+                target[model] = limit
+        if "effort" in entry:
+            effort = entry["effort"]
+            if not isinstance(effort, str) or effort not in REPORT_EFFORTS:
+                raise ValueError(f"Report model effort must be one of {', '.join(REPORT_EFFORTS)}")
+            effort_result[model] = effort
+    return (
+        MappingProxyType(tokens_result),
+        MappingProxyType(context_result),
+        MappingProxyType(effort_result),
+    )
 
 
 # Freeze validated Ollama output limits before any clients are constructed.
@@ -177,25 +216,27 @@ class Settings:
     report_generation_models: tuple[ReportModel, ...] = DEFAULT_REPORT_MODELS
     report_batch_workers: int = 2
     report_generation_batch_max_tokens: Mapping[ReportModel, int] = field(
-        default_factory=_batch_limits
+        default_factory=lambda: _model_limits()[0]
+    )
+    report_generation_context_tokens: Mapping[ReportModel, int] = field(
+        default_factory=_default_context
+    )
+    report_generation_default_effort: Mapping[ReportModel, ReportEffort] = field(
+        default_factory=_default_effort
     )
     xai_model: str = REPORT_MODELS["grok-4.3"].model
-    xai_max_content_tokens: int = 1_000_000
     xai_api_base: str = "https://api.x.ai/v1"
     ai_provider: str = "ollama"
     hf_model: str = REPORT_MODELS["huggingface-deepseek-v4-flash"].model
     hf_api_base: str = "https://router.huggingface.co/v1"
-    hf_max_content_tokens: int = 120_000
     ollama_model: str = REPORT_MODELS[DEFAULT_REPORT_MODEL].model
     ollama_api_base: str = "http://localhost:11434/v1"
     ollama_keep_alive_seconds: int = 60
-    ollama_max_content_tokens: int = 1_000_000
     ollama_max_output_tokens_by_model: Mapping[ReportModel, int] = field(
         default_factory=lambda: _ollama_output_limits(None)
     )
     deepseek_model: str = REPORT_MODELS["deepseek-flash"].model
     deepseek_api_base: str = "https://api.deepseek.com"
-    deepseek_max_content_tokens: int = 1_000_000
     # Identification of a condition the dictionary does not know (ai/condition_ai.py):
     # Identification uses only the host Ollama model, with no provider fallback.
     medical_condition_ai_local_model: str = "gemma3:1b"
@@ -275,10 +316,6 @@ class Settings:
             load_dotenv(ROOT / ".env", override=False)
         env = os.environ if env is None else env
         for old, new in (
-            ("OLLAMA_MAX_CONTEXT_CHARS", "OLLAMA_MAX_CONTENT_TOKENS"),
-            ("X_AI_MAX_CONTEXT_CHARS", "X_AI_MAX_CONTENT_TOKENS"),
-            ("DEEPSEEK_MAX_CONTEXT_CHARS", "DEEPSEEK_MAX_CONTENT_TOKENS"),
-            ("HF_MAX_CONTEXT_CHARS", "HF_MAX_CONTENT_TOKENS"),
             (
                 "REPORT_GENERATION_BATCH_MAX_CHARS_BY_MODEL",
                 "REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL",
@@ -291,6 +328,7 @@ class Settings:
         )
         report_model = report_models[0]
         report_spec = REPORT_MODELS[report_model]
+        model_limits = _model_limits(env.get(ENV_NAME))
         return cls(
             documents_dir=Path(env.get("DOCUMENTS_DIR", str(CORPUS_DATA_DIR / "documents" / "ro"))),
             documents_en_dir=Path(
@@ -315,25 +353,21 @@ class Settings:
             ),
             report_generation_models=report_models,
             report_batch_workers=_int("REPORT_BATCH_WORKERS", 2, env=env),
-            report_generation_batch_max_tokens=_batch_limits(
-                env.get("REPORT_GENERATION_BATCH_MAX_TOKENS_BY_MODEL")
-            ),
-            xai_max_content_tokens=_int("X_AI_MAX_CONTENT_TOKENS", 1000000, env=env),
+            report_generation_batch_max_tokens=model_limits[0],
+            report_generation_context_tokens=model_limits[1],
+            report_generation_default_effort=model_limits[2],
             xai_api_base=env.get("XAI_API_BASE", "https://api.x.ai/v1").rstrip("/"),
             ai_provider=report_spec.provider,
             hf_api_base=env.get("HF_API_BASE", "https://router.huggingface.co/v1").rstrip("/"),
-            hf_max_content_tokens=_int("HF_MAX_CONTENT_TOKENS", 120000, env=env),
             ollama_model=report_spec.model
             if report_spec.provider == "ollama"
             else REPORT_MODELS[DEFAULT_REPORT_MODEL].model,
             ollama_api_base=env.get("OLLAMA_API_BASE", "http://localhost:11434/v1").rstrip("/"),
             ollama_keep_alive_seconds=_int("OLLAMA_KEEP_ALIVE_SECONDS", 60, minimum=0, env=env),
-            ollama_max_content_tokens=_int("OLLAMA_MAX_CONTENT_TOKENS", 1000000, env=env),
             ollama_max_output_tokens_by_model=_ollama_output_limits(
                 env.get("OLLAMA_MAX_OUTPUT_TOKENS_BY_MODEL")
             ),
             deepseek_api_base=env.get("DEEPSEEK_API_BASE", "https://api.deepseek.com").rstrip("/"),
-            deepseek_max_content_tokens=_int("DEEPSEEK_MAX_CONTENT_TOKENS", 1000000, env=env),
             medical_condition_ai_local_model=env.get(
                 "MEDICAL_CONDITION_AI_LOCAL_MODEL", "gemma3:1b"
             ),
@@ -450,6 +484,31 @@ class Settings:
         object.__setattr__(
             self, "report_generation_batch_max_tokens", MappingProxyType(dict(limits))
         )
+        contexts = self.report_generation_context_tokens
+        efforts = self.report_generation_default_effort
+        if (
+            not isinstance(contexts, Mapping)
+            or set(contexts) != set(REPORT_MODELS)
+            or any(type(value) is not int or value <= 0 for value in contexts.values())
+        ):
+            raise ValueError(
+                "Report model contexts must map every supported model to a positive integer"
+            )
+        if (
+            not isinstance(efforts, Mapping)
+            or set(efforts) != set(REPORT_MODELS)
+            or any(value not in REPORT_EFFORTS for value in efforts.values())
+        ):
+            raise ValueError("Report model efforts must map every supported model to an effort")
+        for model, spec in REPORT_MODELS.items():
+            if spec.context_tokens is not None and contexts[model] != spec.context_tokens:
+                raise ValueError(f"The context of {model} is fixed at {spec.context_tokens} tokens")
+        object.__setattr__(
+            self, "report_generation_context_tokens", MappingProxyType(dict(contexts))
+        )
+        object.__setattr__(
+            self, "report_generation_default_effort", MappingProxyType(dict(efforts))
+        )
         _ai_provider(self.ai_provider)
         outputs = _freeze_ollama_output_limits(self.ollama_max_output_tokens_by_model)
         for model, spec in REPORT_MODELS.items():
@@ -460,6 +519,18 @@ class Settings:
             ):
                 raise ValueError("Ollama output token limit must be smaller than its context")
         object.__setattr__(self, "ollama_max_output_tokens_by_model", outputs)
+        # Every active model must keep room for its input after the default output.
+        for model in self.report_generation_models:
+            output = (
+                outputs.get(model, self.ai_max_output_tokens)
+                if REPORT_MODELS[model].provider == "ollama"
+                else self.ai_max_output_tokens
+            )
+            if contexts[model] - output < MIN_REPORT_INPUT_TOKENS:
+                raise ValueError(
+                    f"The output token limit of {model} ({output}) leaves fewer than "
+                    f"{MIN_REPORT_INPUT_TOKENS} input tokens in its context ({contexts[model]})"
+                )
         for name in ("ai_stream", "log_fragment_text", "log_ai_response_text", "cookie_secure"):
             if not isinstance(getattr(self, name), bool):
                 raise ValueError(f"{name} must be boolean")
@@ -593,10 +664,6 @@ class Settings:
             raise ValueError("report_batch_workers must be a positive integer")
         for name in (
             "embedding_threads",
-            "xai_max_content_tokens",
-            "hf_max_content_tokens",
-            "ollama_max_content_tokens",
-            "deepseek_max_content_tokens",
             "condition_ai_timeout_seconds",
             "condition_ai_max_output_tokens",
             "message_classification_timeout_seconds",

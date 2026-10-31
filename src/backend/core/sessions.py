@@ -65,6 +65,11 @@ STATE_FIELDS = (
 )
 
 
+# The per-report options that make a retried or concurrent request a different one.
+def _generation_options(job: ReportGeneration) -> tuple[Any, ...]:
+    return (job.effort, job.batch_max_tokens, job.batch_workers, job.max_output_tokens)
+
+
 def serialized_bytes(value) -> int:
     """Single deterministic UTF-8 representation; MiB/KiB are powers of 1024."""
     return len(
@@ -482,8 +487,12 @@ class SessionStore:
         provider: str,
         model: str,
         effort: str | None = None,
+        batch_max_tokens: int | None = None,
+        batch_workers: int | None = None,
+        max_output_tokens: int | None = None,
     ) -> tuple[dict[str, Any], SessionOperation | None]:
         """Reserve exactly once, including retries whose first HTTP reply was lost."""
+        options = (effort, batch_max_tokens, batch_workers, max_output_tokens)
         with self._lock, session.lock:
             existing_id = session.generation_receipts.get(request_id)
             existing = session.generations.get(existing_id or "")
@@ -492,8 +501,8 @@ class SessionStore:
                     existing.search_id,
                     existing.min_score,
                     existing.model_choice,
-                    existing.effort,
-                ) != (search_id, min_score, model_choice, effort):
+                    *_generation_options(existing),
+                ) != (search_id, min_score, model_choice, *options):
                     raise ApplicationError(
                         "IDEMPOTENCY_CONFLICT",
                         tr("errors.request_options_conflict"),
@@ -502,10 +511,10 @@ class SessionStore:
                 return copy.deepcopy(existing.as_dict(self.clock())), None
             for job in session.generations.values():
                 if job.search_id == search_id and job.job_id in self._workers:
-                    if (job.min_score, job.model_choice, job.effort) != (
+                    if (job.min_score, job.model_choice, *_generation_options(job)) != (
                         min_score,
                         model_choice,
-                        effort,
+                        *options,
                     ):
                         raise ApplicationError(
                             "GENERATION_IN_PROGRESS",
@@ -558,6 +567,9 @@ class SessionStore:
                 time.time() + max(0, operation.deadline - self.clock()),
                 language=operation.snapshot.language,
                 effort=effort,
+                batch_max_tokens=batch_max_tokens,
+                batch_workers=batch_workers,
+                max_output_tokens=max_output_tokens,
             )
             session.generations[job.job_id] = job
             session.generation_receipts[request_id] = job.job_id
@@ -721,7 +733,9 @@ class SessionStore:
                     (batch.thinking_parts if batch is not None else job.thinking_parts).append(text)
                     job.thinking_bytes += added_bytes
                     if measure:
-                        job.thinking_rate.record(text, self.clock())
+                        (batch if batch is not None else job).thinking_rate.record(
+                            text, self.clock()
+                        )
                     activity = batch.ai_activity if batch is not None else job.ai_activity
                     if measure and activity:
                         activity.thinking_characters_received += len(text)
@@ -729,7 +743,7 @@ class SessionStore:
                     (batch.stream_parts if batch is not None else job.stream_parts).append(text)
                     job.stream_bytes += added_bytes
                     if measure:
-                        job.stream_rate.record(text, self.clock())
+                        (batch if batch is not None else job).stream_rate.record(text, self.clock())
                 session.retained_bytes += added_bytes
                 self._used_bytes += added_bytes
 

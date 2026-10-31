@@ -12,7 +12,7 @@ import time
 from contextlib import asynccontextmanager, suppress
 from functools import partial
 from http.cookies import CookieError, SimpleCookie
-from typing import Literal
+from typing import Any, Literal
 from urllib.parse import quote, urlparse
 
 from fastapi import APIRouter, FastAPI, HTTPException, Path, Query, Request
@@ -32,6 +32,7 @@ from backend.ai.herb_safety import lookup_herb_safety, lookup_herb_safety_eviden
 from backend.ai.herbs import load_herbs
 from backend.ai.index_state import IndexUnavailable, index_reader
 from backend.ai.message_classification import MessageClassifier
+from backend.ai.providers import default_max_output_tokens
 from backend.ai.report_validation import ValidationWarning
 from backend.ai.retrieval import Retriever
 from backend.ai.search import SearchSignals
@@ -46,6 +47,7 @@ from backend.core.contracts import (
 )
 from backend.core.conversation import (
     ConversationService,
+    evidence_above,
     welcome,
 )
 from backend.core.errors import ApplicationError, OperationCancelled
@@ -65,6 +67,11 @@ from backend.core.report_models import (
     DEFAULT_REPORT_EFFORT,
     DEFAULT_REPORT_MODELS,
     EFFORT_MODELS,
+    LOW_REPORT_OUTPUT_TOKENS,
+    MAX_REPORT_TOKENS,
+    MIN_REPORT_INPUT_TOKENS,
+    REPORT_BATCH_WORKER_OPTIONS,
+    ReportBatchWorkers,
 )
 from backend.core.sessions import SessionStore
 from backend.core.texts import catalog, public_catalog, tr
@@ -159,6 +166,10 @@ class GenerateRequest(BaseModel):
     model: ReportModel | None = None
     # Ignored, and recorded as None, for models that cannot take an effort.
     effort: ReportEffort = DEFAULT_REPORT_EFFORT
+    # Admin overrides of the configured values; None keeps what the model is configured with.
+    batchMaxTokens: int | None = Field(default=None, strict=True, ge=1, le=MAX_REPORT_TOKENS)
+    batchWorkers: ReportBatchWorkers | None = None
+    maxOutputTokens: int | None = Field(default=None, strict=True, ge=1, le=MAX_REPORT_TOKENS)
     requestId: str = Field(
         default_factory=lambda: secrets.token_urlsafe(24), pattern=r"^[A-Za-z0-9_-]{8,64}$"
     )
@@ -181,6 +192,15 @@ class ReportDurationEstimateResponse(BaseModel):
     sampleCount: int = Field(ge=0)
 
 
+class ReportBatchEstimateResponse(BaseModel):
+    searchId: str
+    batches: int = Field(ge=0)
+    # Lone fragments that exceed the input limit by themselves.
+    oversizedBatches: int = Field(ge=0)
+    # The input limit in force after the model's context is taken into account.
+    inputTokens: int
+
+
 class ReportBatchPreviewResponse(BaseModel):
     index: int = Field(ge=1)
     state: Literal["pending", "running", "validated", "failed", "cancelled", "timed_out"]
@@ -188,6 +208,8 @@ class ReportBatchPreviewResponse(BaseModel):
     streamPreview: str | None = None
     thinkingPreview: str | None = None
     aiActivity: AIActivityResponse | None = None
+    streamTokensPerSecond: float | None = Field(default=None, ge=0)
+    thinkingTokensPerSecond: float | None = Field(default=None, ge=0)
 
 
 class GenerateResponse(BaseModel):
@@ -200,6 +222,9 @@ class GenerateResponse(BaseModel):
     model: str
     modelChoice: str
     effort: ReportEffort | None = None
+    batchMaxTokens: int | None = None
+    batchWorkers: int | None = None
+    maxOutputTokens: int | None = None
     createdAt: float
     deadlineAt: float
     startedAt: float | None = None
@@ -556,6 +581,9 @@ def _conversation(
     *,
     model_choice: ReportModel | None = None,
     effort: ReportEffort | None = None,
+    batch_max_tokens: int | None = None,
+    batch_workers: int | None = None,
+    max_output_tokens: int | None = None,
 ) -> ConversationService:
     selected_ai = ai if ai is not None else deps.ai
     # Bind the effective model now: queued reports must not use a later env default.
@@ -579,6 +607,9 @@ def _conversation(
         record_report_metrics=deps.record_report_metrics,
         top_herbs_for_condition=deps.top_herbs_for_condition
         or partial(list_top_herbs_for_condition, settings=deps.settings),
+        report_batch_max_tokens=batch_max_tokens,
+        report_batch_workers=batch_workers,
+        report_max_output_tokens=max_output_tokens,
     )
 
 
@@ -622,18 +653,66 @@ def _generate_report(
     min_score: int = 0,
     model: ReportModel | None = None,
     effort: ReportEffort = DEFAULT_REPORT_EFFORT,
+    batch_max_tokens: int | None = None,
+    batch_workers: int | None = None,
+    max_output_tokens: int | None = None,
 ) -> OperationResult:
     # Trusted Python-only entry point; HTTP admission supplies its verified session role.
     model = _select_report_model(deps.settings, model, owner_authorized=True)
+    _check_report_limits(deps.settings, model, batch_max_tokens, max_output_tokens)
     ai = deps.report_clients[model] if deps.report_clients is not None else deps.ai
     return _conversation(
-        deps, ai, model_choice=model, effort=_effective_effort(model, effort)
+        deps,
+        ai,
+        model_choice=model,
+        effort=_effective_effort(model, effort),
+        batch_max_tokens=batch_max_tokens,
+        batch_workers=batch_workers,
+        max_output_tokens=max_output_tokens,
     ).generate(session, search_id, min_score)
 
 
 # Models without an effort control record and send nothing, whatever the client asked.
 def _effective_effort(model: ReportModel, effort: ReportEffort) -> ReportEffort | None:
     return effort if model in EFFORT_MODELS else None
+
+
+# The admin's typed limits must leave a usable input, and the input must still fit in the
+# model's context after the requested output. Defaults fill whatever was not typed.
+def _check_report_limits(
+    settings: Settings,
+    model: ReportModel,
+    batch_max_tokens: int | None,
+    max_output_tokens: int | None,
+) -> None:
+    if batch_max_tokens is None and max_output_tokens is None:
+        return
+    if batch_max_tokens is not None and batch_max_tokens < MIN_REPORT_INPUT_TOKENS:
+        raise ApplicationError(
+            "INPUT_TOKENS_TOO_SMALL",
+            tr("errors.input_tokens_too_small", minimum=MIN_REPORT_INPUT_TOKENS),
+            422,
+        )
+    context = settings.report_generation_context_tokens[model]
+    if max_output_tokens is not None and max_output_tokens >= context:
+        raise ApplicationError(
+            "OUTPUT_TOKENS_TOO_LARGE",
+            tr("errors.output_tokens_too_large", limit=context),
+            422,
+        )
+    batch = batch_max_tokens or settings.report_generation_batch_max_tokens[model]
+    output = max_output_tokens or default_max_output_tokens(settings, model)
+    room = context - output
+    if min(batch, room) < MIN_REPORT_INPUT_TOKENS:
+        raise ApplicationError(
+            "INPUT_TOKENS_NO_ROOM",
+            tr(
+                "errors.input_tokens_no_room",
+                tokens=max(room, 0),
+                minimum=MIN_REPORT_INPUT_TOKENS,
+            ),
+            422,
+        )
 
 
 def _available_report_models(
@@ -661,16 +740,41 @@ def _select_report_model(
 @router.get("/api/report-models")
 def report_models(request: Request):
     configured = _deps(request).settings.report_generation_models
-    allowed = _available_report_models(
-        getattr(request.state, "owner_authorized", False),
-        configured,
-    )
-    return {
+    settings = _deps(request).settings
+    owner = getattr(request.state, "owner_authorized", False)
+    allowed = _available_report_models(owner, configured)
+    response: dict[str, Any] = {
         "models": list(configured),
         "defaultModel": configured[0],
         "allowedModels": allowed,
         "effortModels": [model for model in configured if model in EFFORT_MODELS],
+        # Model facts for the panel: the context window shown under the model, and the
+        # effort each model starts with.
+        "contextTokens": {
+            model: settings.report_generation_context_tokens[model] for model in configured
+        },
+        "defaultEfforts": {
+            model: settings.report_generation_default_effort[model] for model in configured
+        },
     }
+    # The generation limits and their defaults are the admin's alone.
+    if owner:
+        response["batchMaxTokens"] = {
+            model: settings.report_generation_batch_max_tokens[model] for model in configured
+        }
+        response["batchWorkers"] = {
+            "default": min(settings.report_batch_workers, max(REPORT_BATCH_WORKER_OPTIONS)),
+            "options": list(REPORT_BATCH_WORKER_OPTIONS),
+        }
+        response["maxOutputTokens"] = {
+            model: default_max_output_tokens(settings, model) for model in configured
+        }
+        response["tokenBounds"] = {
+            "minInput": MIN_REPORT_INPUT_TOKENS,
+            "max": MAX_REPORT_TOKENS,
+            "lowOutput": LOW_REPORT_OUTPUT_TOKENS,
+        }
+    return response
 
 
 @router.get("/api/report-duration-estimate", response_model=ReportDurationEstimateResponse)
@@ -716,6 +820,42 @@ def report_duration_estimate(
     )
 
 
+# The batch count generate() would produce for the chosen options, from the same partitioning.
+@router.get("/api/searches/{search_id}/report-batches", response_model=ReportBatchEstimateResponse)
+def report_batches_estimate(
+    search_id: str,
+    request: Request,
+    model: ReportModel,
+    minScore: int = Query(default=0, ge=0, le=100),
+    effort: ReportEffort = DEFAULT_REPORT_EFFORT,
+    batchMaxTokens: int | None = Query(default=None, ge=1, le=MAX_REPORT_TOKENS),
+    maxOutputTokens: int | None = Query(default=None, ge=1, le=MAX_REPORT_TOKENS),
+):
+    deps = _deps(request)
+    session = _current(request)
+    if model not in deps.settings.report_generation_models:
+        raise ApplicationError("MODEL_NOT_CONFIGURED", tr("errors.model_not_configured"), 422)
+    _check_report_limits(deps.settings, model, batchMaxTokens, maxOutputTokens)
+    deps.request_limiter.check(
+        (f"report-batches:{_client_ip(request)}", deps.settings.max_requests_per_minute)
+    )
+    with session.lock:
+        search = session.searches.get(search_id)
+        if search is None:
+            raise ApplicationError("SEARCH_UNAVAILABLE", tr("errors.search_evidence_missing"))
+        profile, evidence = search.profile, evidence_above(search.evidence, minScore)
+    ai = deps.report_clients[model] if deps.report_clients is not None else deps.ai
+    plan = ai.plan_report_batches(
+        profile, evidence, _effective_effort(model, effort), batchMaxTokens, maxOutputTokens
+    )
+    return ReportBatchEstimateResponse(
+        searchId=search_id,
+        batches=plan.batches,
+        oversizedBatches=plan.oversized,
+        inputTokens=plan.input_tokens,
+    )
+
+
 @router.post(
     "/api/searches/{search_id}/generate",
     status_code=202,
@@ -730,17 +870,29 @@ def generate(search_id: str, request: Request, payload: GenerateRequest | None =
         options.model,
         owner_authorized=getattr(request.state, "owner_authorized", False),
     )
+    _check_report_limits(deps.settings, model, options.batchMaxTokens, options.maxOutputTokens)
     ai = deps.report_clients[model] if deps.report_clients is not None else deps.ai
     effort = _effective_effort(model, options.effort)
     service: ReportGenerationService = request.app.state.report_generation
     result = service.start(
-        _conversation(deps, ai, model_choice=model, effort=effort),
+        _conversation(
+            deps,
+            ai,
+            model_choice=model,
+            effort=effort,
+            batch_max_tokens=options.batchMaxTokens,
+            batch_workers=options.batchWorkers,
+            max_output_tokens=options.maxOutputTokens,
+        ),
         session,
         search_id,
         options.minScore,
         options.requestId,
         model,
         effort,
+        options.batchMaxTokens,
+        options.batchWorkers,
+        options.maxOutputTokens,
     )
     return JSONResponse(
         result,

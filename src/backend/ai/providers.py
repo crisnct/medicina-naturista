@@ -7,7 +7,7 @@ from typing import Any, Callable, Literal, TypedDict
 from urllib.parse import urlparse
 
 from backend.config import Settings
-from backend.core.report_models import REPORT_MODELS, EffortControl
+from backend.core.report_models import REPORT_MODELS, EffortControl, ReportModel
 
 # How the provider is asked for a JSON object: Responses-style `text.format`,
 # Chat-Completions-style `response_format`, or only through the system prompt
@@ -45,7 +45,6 @@ class ProviderConfig:
     context_tokens: int | None = None
     thinking: bool | None = None
     keep_alive_seconds: int | None = None
-    max_content_tokens: int | None = None
     repeat_penalty: float | None = None
     repeat_last_n: int | None = None
     # How a report request carries the user-selected effort; classifiers keep "none".
@@ -55,6 +54,14 @@ class ProviderConfig:
 # Whether the URL points at this machine (or the Docker host), where Ollama needs no key.
 def _is_local(url: str) -> bool:
     return (urlparse(url).hostname or "") in LOCAL_HOSTS
+
+
+# The configured output limit of a report model: the Ollama per-model override, else the
+# shared REPORT_GENERATION_MAX_OUTPUT_TOKENS. The report panel shows it as the default.
+def default_max_output_tokens(settings: Settings, model: ReportModel) -> int:
+    if REPORT_MODELS[model].provider == "ollama":
+        return settings.ollama_max_output_tokens_by_model.get(model, settings.ai_max_output_tokens)
+    return settings.ai_max_output_tokens
 
 
 # Generic constructor settings; report choices are resolved by the shared model catalog.
@@ -77,7 +84,6 @@ def provider_config(settings: Settings) -> ProviderConfig:
             json_format="text_format",
             send_store=True,
             max_context_chars=0,
-            max_content_tokens=settings.xai_max_content_tokens,
             effort_control="responses_effort",
             **common,
         )
@@ -96,7 +102,6 @@ def provider_config(settings: Settings) -> ProviderConfig:
             json_format="text_format",
             send_store=False,
             max_context_chars=0,
-            max_content_tokens=settings.deepseek_max_content_tokens,
             effort_control="responses_effort",
             **common,
         )
@@ -115,7 +120,6 @@ def provider_config(settings: Settings) -> ProviderConfig:
             json_format=None,
             send_store=False,
             max_context_chars=0,
-            max_content_tokens=settings.hf_max_content_tokens,
             effort_control="responses_effort",
             **common,
         )
@@ -134,9 +138,7 @@ def provider_config(settings: Settings) -> ProviderConfig:
     repeat_last_n = None
     if choice is not None:
         context_tokens = REPORT_MODELS[choice].context_tokens
-        common["max_output_tokens"] = settings.ollama_max_output_tokens_by_model.get(
-            choice, common["max_output_tokens"]
-        )
+        common["max_output_tokens"] = default_max_output_tokens(settings, choice)
         effort_control = REPORT_MODELS[choice].effort_control
         temperature = REPORT_MODELS[choice].temperature
         repeat_penalty = REPORT_MODELS[choice].repeat_penalty
@@ -154,7 +156,6 @@ def provider_config(settings: Settings) -> ProviderConfig:
         json_format=None,
         send_store=False,
         max_context_chars=0,
-        max_content_tokens=settings.ollama_max_content_tokens,
         context_tokens=context_tokens,
         effort_control=effort_control,
         temperature=temperature,

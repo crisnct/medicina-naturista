@@ -2,7 +2,7 @@ import { tr } from "../lib/texts";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { useCallback, useState } from "react";
 import { api, ApiError, errorMessage, isSessionUnavailable } from "../api/client";
-import type { ChatMessage, ReportEffort, ReportModel, SearchSignals, ResourceInvalidations, SessionResponse } from "../api/types";
+import type { ChatMessage, GenerationLimitDefaults, GenerationLimits, ReportEffort, ReportModel, ReportModelDetails, SearchSignals, ResourceInvalidations, SessionResponse } from "../api/types";
 
 import { reconcileRetention } from "../lib/retention";
 import type { GenerationFeedback } from "../lib/generationFeedback";
@@ -158,6 +158,14 @@ export function useConversation() {
   const allowedReportModels = reportModelsQuery.data?.allowedModels
     ?? [];
   const effortReportModels = reportModelsQuery.data?.effortModels ?? [];
+  // Present only for the admin; the panel hides the limits without it.
+  const { batchMaxTokens, batchWorkers, maxOutputTokens, tokenBounds } = reportModelsQuery.data ?? {};
+  const generationLimitDefaults: GenerationLimitDefaults | undefined = batchMaxTokens && batchWorkers && maxOutputTokens && tokenBounds
+    ? { batchMaxTokens, batchWorkers, maxOutputTokens, tokenBounds } : undefined;
+  const reportModelDetails: ReportModelDetails = {
+    contextTokens: reportModelsQuery.data?.contextTokens ?? {},
+    defaultEfforts: reportModelsQuery.data?.defaultEfforts ?? {},
+  };
 
   return {
     history: history.map((message) => message.kind === "generate" ? { ...message, busy: generation.activeSearches.has(message.searchId) } : message),
@@ -165,6 +173,8 @@ export function useConversation() {
     defaultReportModel,
     allowedReportModels,
     effortReportModels,
+    generationLimitDefaults,
+    reportModelDetails,
     latestReportId: sessionQuery.data?.latestReportId,
     generationFeedback: visibleGenerationFeedback,
     isLoading: sessionQuery.isLoading,
@@ -182,8 +192,8 @@ export function useConversation() {
     isSearching,
     isClassifying,
     isGenerating: generation.isGenerating,
-    generateReport: (searchId: string, minScore: number, model: ReportModel | undefined = defaultReportModel, effort: ReportEffort = "low") => {
-      if (model && allowedReportModels.includes(model)) generation.generate(searchId, minScore, model, effort);
+    generateReport: (searchId: string, minScore: number, model: ReportModel | undefined = defaultReportModel, effort: ReportEffort = "low", limits?: GenerationLimits) => {
+      if (model && allowedReportModels.includes(model)) generation.generate(searchId, minScore, model, effort, limits);
     },
   };
 }

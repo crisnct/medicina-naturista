@@ -117,13 +117,47 @@ export const TEXT_PARAMETERS = {
   "interface.generate_submit": [],
   "interface.generate_description": [],
   "interface.generate_model_label": [],
+  "interface.generate_model_context": [
+    "tokens"
+  ],
   "interface.generate_effort_label": [],
   "interface.effort_low": [],
   "interface.effort_medium": [],
   "interface.effort_high": [],
   "interface.effort_unsupported_hint": [],
+  "interface.generate_batch_tokens_label": [],
+  "interface.generate_batch_workers_label": [],
+  "interface.generate_batch_workers_none": [],
+  "interface.generate_output_tokens_label": [],
+  "interface.generate_tokens_invalid": [],
+  "interface.generate_tokens_too_large": [
+    "maximum"
+  ],
+  "interface.generate_input_too_small": [
+    "minimum"
+  ],
+  "interface.generate_output_exceeds_context": [
+    "context"
+  ],
+  "interface.generate_input_no_room": [
+    "minimum",
+    "tokens"
+  ],
+  "interface.generate_input_effective": [
+    "context",
+    "tokens"
+  ],
+  "interface.generate_output_low": [
+    "threshold"
+  ],
+  "interface.generate_batches_all_separate": [],
+  "interface.generate_batches_oversized": [
+    "count"
+  ],
   "interface.generate_no_eligible_fragments": [],
   "interface.generate_no_models": [],
+  "interface.generate_batches_prefix": [],
+  "interface.generate_batches_hint": [],
   "interface.generate_characters_prefix": [],
   "interface.generate_count_pending": [],
   "interface.generate_options_title": [],
@@ -160,7 +194,6 @@ export const TEXT_PARAMETERS = {
   "interface.preview_batch_cancelled": [],
   "interface.preview_batch_timed_out": [],
   "interface.preview_batch_empty": [],
-  "interface.preview_batch_details": [],
   "interface.preview_speed_hint": [],
   "interface.stream_waiting": [],
   "interface.stream_content_label": [],

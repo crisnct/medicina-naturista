@@ -262,6 +262,16 @@ body {
     gap: 10px;
 }
 
+/* The status and the elapsed time stack on two left-aligned lines. */
+.typing-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    min-width: 0;
+    text-align: left;
+}
+
 .ai-activity-age {
     display: block;
     margin-top: 8px;
@@ -455,7 +465,8 @@ body {
     font-weight: 700;
 }
 
-.fragments-panel-filter select {
+.fragments-panel-filter select,
+.fragments-panel-filter input {
     min-height: 44px;
     padding: 8px;
     border: 1px solid #899f94;
@@ -574,7 +585,7 @@ body {
 }
 
 .generate-recipe-warning {
-    color: #9c2727;
+    color: var(--nature-danger);
     font-weight: 700;
 }
 
@@ -603,8 +614,8 @@ body {
     display: block;
     width: 100%;
     box-sizing: border-box;
-    height: calc(14em + 18px);
-    min-height: calc(14em + 18px);
+    height: calc(10em + 18px);
+    min-height: calc(10em + 18px);
     margin: 0;
     padding: 8px;
     border: 1px solid var(--nature-border);
@@ -616,7 +627,7 @@ body {
     overflow-wrap: anywhere;
     white-space: pre-wrap;
     font-family: "Roboto Condensed", Arial, sans-serif;
-    font-size: 9.1px;
+    font-size: 13px;
     line-height: 1.4;
 }
 
@@ -629,9 +640,10 @@ body {
 }
 
 .generation-batch-previews { display: grid; gap: 12px; }
-.generation-batch-preview h5 { margin: 0; color: var(--nature-primary); font-size: 14px; }
-.generation-batch-state { margin: 6px 0 10px; color: var(--nature-muted); }
+.generation-batch-preview h5 { display: inline; margin: 0; color: var(--nature-primary); font-size: 14px; }
+.generation-batch-state { color: var(--nature-muted); }
 .generation-batch-preview summary { cursor: pointer; color: var(--nature-primary); }
+.generation-batch-preview .generation-report-text { margin-top: 10px; }
 
 .generation-report-text {
     max-height: 22em;
@@ -1360,7 +1372,14 @@ button:disabled { cursor: not-allowed; }
 .display-filter-options h4 { margin: 0 0 4px; color: var(--nature-primary); font-size: 14px; font-weight: 700; }
 .generation-options h4 { margin: 0 0 8px; color: var(--nature-primary); font-size: 18px; }
 .generation-model-options { display: flex; flex-wrap: wrap; gap: 12px 16px; }
-.generation-model-options .fragments-panel-filter select { min-height: 32px; padding: 4px 8px; }
+.generation-model-options .fragments-panel-filter select,
+.generation-model-options .fragments-panel-filter input { min-height: 32px; padding: 4px 8px; }
+.generation-model-options .fragments-panel-filter input { width: 9em; }
+/* Sits directly under the select: the negative margin cancels the label's 8px gap. */
+.generation-model-context { margin: -8px 0 0 16px; font-size: 11px; font-style: italic; font-weight: 400; line-height: 1.2; }
+.generation-model-options .fragments-panel-filter input[aria-invalid="true"] { border-color: var(--nature-danger, #b3261e); }
+.generation-model-options .fragments-panel-filter input:focus-visible,
+.generation-model-options .fragments-panel-filter select:focus-visible { outline: 2px solid #8a948f; outline-offset: 1px; }
 .display-filter-options .fragments-panel-filters { gap: 8px 12px; margin: 8px 0 0; padding-bottom: 0; border-bottom: 0; }
 .display-filter-options .fragments-panel-filter { gap: 4px; }
 .display-filter-options .fragments-panel-filter select { min-height: 32px; padding: 4px 8px; }
@@ -1369,8 +1388,9 @@ button:disabled { cursor: not-allowed; }
 .fragment-filter-navigation { margin: 6px 0 0; text-align: right; font-size: 12px; }
 .fragment-filter-navigation a { color: var(--nature-primary); text-decoration: underline; text-underline-offset: 2px; }
 .generate-report-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
-.generate-report-status { display: flex; flex-direction: column; min-width: 0; gap: 4px; }
-.generate-report-status .generate-recipe-warning { margin: 0; }
+.generate-report-status { display: flex; flex-direction: column; min-width: 0; gap: 0; }
+.generate-report-status .eligible-count { line-height: 1.35; }
+.generate-report-status .generate-recipe-warning { margin: 2px 0; line-height: 1.35; }
 .generate-report-row .generate-inline { flex-shrink: 0; align-self: center; }
 .eligible-count { margin: 0; font-weight: 400; }
 .report-actions { display: flex; flex-wrap: wrap; gap: 12px; }

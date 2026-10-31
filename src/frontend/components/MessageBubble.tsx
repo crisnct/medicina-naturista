@@ -1,4 +1,4 @@
-import type { ChatMessage, FragmentItem, ReportEffort, ReportModel } from "../api/types";
+import type { ChatMessage, FragmentItem, GenerationLimitDefaults, GenerationLimits, ReportEffort, ReportModel, ReportModelDetails } from "../api/types";
 import { renderRecommendationText } from "../lib/inlineMarkdown";
 import { FragmentsPanel } from "./FragmentsPanel";
 import { GeneratePanel } from "./GeneratePanel";
@@ -15,17 +15,21 @@ export function MessageBubble({
   defaultReportModel,
   allowedReportModels,
   effortReportModels,
+  generationLimitDefaults,
+  reportModelDetails,
   actionsDisabled,
   generationFeedback,
 }: {
   message: ChatMessage;
   // For a "generate" message: the fragments of the same search, when still in the chat.
   fragments?: FragmentItem[];
-  onGenerate: (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort) => void;
+  onGenerate: (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort, limits?: GenerationLimits) => void;
   reportModels?: ReportModel[];
   defaultReportModel?: ReportModel;
   allowedReportModels?: ReportModel[];
   effortReportModels?: ReportModel[];
+  generationLimitDefaults?: GenerationLimitDefaults;
+  reportModelDetails?: ReportModelDetails;
   actionsDisabled?: boolean;
   generationFeedback?: GenerationFeedback;
 }) {
@@ -41,7 +45,7 @@ export function MessageBubble({
     case "generate":
       return (
         <div className="message-wrap bot unwrapped">
-          <GeneratePanel message={message} fragments={fragments} onGenerate={onGenerate} reportModels={reportModels} defaultReportModel={defaultReportModel} allowedReportModels={allowedReportModels} effortReportModels={effortReportModels} actionsDisabled={actionsDisabled} feedback={generationFeedback} />
+          <GeneratePanel message={message} fragments={fragments} onGenerate={onGenerate} reportModels={reportModels} defaultReportModel={defaultReportModel} allowedReportModels={allowedReportModels} effortReportModels={effortReportModels} generationLimitDefaults={generationLimitDefaults} reportModelDetails={reportModelDetails} actionsDisabled={actionsDisabled} feedback={generationFeedback} />
         </div>
       );
     case "download":

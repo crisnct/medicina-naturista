@@ -72,6 +72,41 @@ export interface ReportModelsResponse {
   allowedModels?: ReportModel[];
   // Models whose request can carry an effort; the others ignore it.
   effortModels?: ReportModel[];
+  // The model's context window, and the effort the panel starts with for it.
+  contextTokens?: Partial<Record<ReportModel, number>>;
+  defaultEfforts?: Partial<Record<ReportModel, ReportEffort>>;
+  // Generation limits and their configured defaults; sent to the admin only.
+  batchMaxTokens?: Partial<Record<ReportModel, number>>;
+  batchWorkers?: { default: number; options: number[] };
+  maxOutputTokens?: Partial<Record<ReportModel, number>>;
+  // The bounds the limits must respect.
+  tokenBounds?: TokenBounds;
+}
+
+export interface TokenBounds {
+  minInput: number;
+  max: number;
+  // Below this many output tokens the AI answer is likely to be cut off.
+  lowOutput: number;
+}
+
+// The admin's per-report generation limits.
+export interface GenerationLimits {
+  batchMaxTokens: number;
+  batchWorkers: number;
+  maxOutputTokens: number;
+}
+
+export interface GenerationLimitDefaults {
+  batchMaxTokens: Partial<Record<ReportModel, number>>;
+  batchWorkers: { default: number; options: number[] };
+  maxOutputTokens: Partial<Record<ReportModel, number>>;
+  tokenBounds: TokenBounds;
+}
+
+export interface ReportModelDetails {
+  contextTokens: Partial<Record<ReportModel, number>>;
+  defaultEfforts: Partial<Record<ReportModel, ReportEffort>>;
 }
 
 export interface ReportDurationEstimate {
@@ -80,6 +115,14 @@ export interface ReportDurationEstimate {
   characters: number;
   estimatedSeconds: number | null;
   sampleCount: number;
+}
+
+export interface ReportBatchEstimate {
+  searchId: string;
+  batches: number;
+  // Batches whose single fragment is over the input limit by itself.
+  oversizedBatches: number;
+  inputTokens: number;
 }
 
 export interface DownloadMessage extends MessageIdentity {
@@ -213,6 +256,8 @@ export interface ReportBatchPreview {
   streamPreview?: string | null;
   thinkingPreview?: string | null;
   aiActivity?: AIActivity | null;
+  streamTokensPerSecond?: number | null;
+  thinkingTokensPerSecond?: number | null;
 }
 
 export interface ReportGeneration {
@@ -223,6 +268,9 @@ export interface ReportGeneration {
   stage: string;
   provider: string;
   model: string;
+  batchMaxTokens?: number | null;
+  batchWorkers?: number | null;
+  maxOutputTokens?: number | null;
   createdAt: number;
   startedAt?: number | null;
   deadlineAt: number;

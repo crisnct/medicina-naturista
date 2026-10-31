@@ -1,10 +1,12 @@
 import { getLanguage, locale, tr } from "../lib/texts";
 import { useState } from "react";
-import { REPORT_EFFORTS, type FragmentItem, type GenerateMessage, type ReportEffort, type ReportModel } from "../api/types";
+import { REPORT_EFFORTS, type FragmentItem, type GenerateMessage, type GenerationLimitDefaults, type GenerationLimits, type ReportEffort, type ReportModel, type ReportModelDetails } from "../api/types";
 import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
+import { checkLimits } from "../lib/generationLimits";
 import { TypingIndicator } from "./TypingIndicator";
 import { GenerationStreamPreview } from "./GenerationStreamPreview";
 import { GenerationReportPreview } from "./GenerationReportPreview";
+import { GenerationBatchEstimate } from "./GenerationBatchEstimate";
 import { GenerationDurationEstimate } from "./GenerationDurationEstimate";
 import { DoctorAvatar } from "./DoctorAvatar";
 import { AI_ACTIVITY_LABELS, type GenerationFeedback } from "../lib/generationFeedback";
@@ -28,6 +30,13 @@ const EFFORT_LABELS = {
   high: "interface.effort_high",
 } as const satisfies Record<ReportEffort, string>;
 
+const TOKEN_LABELS = {
+  batchMaxTokens: "interface.generate_batch_tokens_label",
+  maxOutputTokens: "interface.generate_output_tokens_label",
+} as const;
+type TokenField = keyof typeof TOKEN_LABELS;
+const TOKEN_FIELDS = Object.keys(TOKEN_LABELS) as TokenField[];
+
 export function GeneratePanel({
   message,
   fragments,
@@ -36,6 +45,8 @@ export function GeneratePanel({
   defaultReportModel,
   allowedReportModels = [],
   effortReportModels = [],
+  generationLimitDefaults,
+  reportModelDetails,
   actionsDisabled = false,
   feedback,
 }: {
@@ -43,22 +54,47 @@ export function GeneratePanel({
   // The fragments of the same search; absent when that message is no longer
   // in the chat, in which case the server alone checks the threshold.
   fragments?: FragmentItem[];
-  onGenerate: (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort) => void;
+  onGenerate: (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort, limits?: GenerationLimits) => void;
   reportModels?: ReportModel[];
   defaultReportModel?: ReportModel;
   allowedReportModels?: ReportModel[];
   // Models that accept an effort; the selector is disabled for the others.
   effortReportModels?: ReportModel[];
+  // The configured generation limits; the server sends them to the admin only.
+  generationLimitDefaults?: GenerationLimitDefaults;
+  // Per-model context window and starting effort, sent to everyone.
+  reportModelDetails?: ReportModelDetails;
   actionsDisabled?: boolean;
   feedback?: GenerationFeedback;
 }) {
   // Only fragments whose relevance reaches this are sent to the AI (0 = all).
   const [minScore, setMinScore] = useState(0);
-  const [effort, setEffort] = useState<ReportEffort>("low");
+  // A chosen effort belongs to the model it was chosen for; another model starts at its configured one.
+  const [typedEffort, setTypedEffort] = useState<{ model: ReportModel; value: ReportEffort } | null>(null);
   const [model, setModel] = useState<ReportModel | null>(null);
+  // An edited token field belongs to the model it was typed for, so choosing
+  // another model shows that model's configured value again.
+  const [typedTokens, setTypedTokens] = useState<Partial<Record<TokenField, { model: ReportModel; value: string }>>>({});
+  const [typedWorkers, setTypedWorkers] = useState<number | null>(null);
   const preferredModel = model ?? defaultReportModel ?? reportModels[0];
   const selectedModel = reportModels.includes(preferredModel)
     ? preferredModel : reportModels[0] ?? "ollama-gemma4:12b";
+  const effort = typedEffort?.model === selectedModel
+    ? typedEffort.value : reportModelDetails?.defaultEfforts[selectedModel] ?? "low";
+  const contextTokens = reportModelDetails?.contextTokens[selectedModel];
+  const tokenValue = (field: TokenField) => {
+    const typed = typedTokens[field];
+    return typed?.model === selectedModel ? typed.value : String(generationLimitDefaults?.[field][selectedModel] ?? "");
+  };
+  const workers = typedWorkers ?? generationLimitDefaults?.batchWorkers.default ?? 2;
+  const limitsCheck = generationLimitDefaults && checkLimits(
+    tokenValue("batchMaxTokens"),
+    tokenValue("maxOutputTokens"),
+    generationLimitDefaults.tokenBounds,
+    contextTokens,
+  );
+  const tokensValid = limitsCheck?.valid ?? true;
+  const fieldError = (field: TokenField) => field === "batchMaxTokens" ? limitsCheck?.inputError : limitsCheck?.outputError;
   const eligibleFragments = fragments?.filter((fragment) => reachesMinScore(fragment.relevancePercent, minScore));
   const eligibleCount = eligibleFragments?.length;
   const eligibleCharacters = eligibleFragments?.reduce(
@@ -69,7 +105,10 @@ export function GeneratePanel({
   const effortSupported = effortReportModels.includes(selectedModel);
   const noModels = reportModels.length === 0;
   const modelRestricted = !noModels && !allowedReportModels.includes(selectedModel);
-  const disabled = message.busy || noneReach || actionsDisabled || noModels || modelRestricted;
+  // Admin only: hidden while the model is not permitted or the server sent no limits.
+  const showLimits = generationLimitDefaults !== undefined && !noModels && !modelRestricted;
+  const disabled = message.busy || noneReach || actionsDisabled || noModels || modelRestricted
+    || (showLimits && !tokensValid);
   const hasAnswer = Boolean(feedback?.streamPreview);
   const batched = feedback?.batchesTotal !== undefined || (!hasAnswer && !feedback?.thinkingPreview);
   const hasPreview = Boolean(feedback?.reportPreview) || hasAnswer || Boolean(feedback?.thinkingPreview);
@@ -109,17 +148,49 @@ export function GeneratePanel({
               >
                 {reportModels.map((option) => <option key={option} value={option}>{tr(MODEL_LABELS[option])}</option>)}
               </select>
+              {contextTokens !== undefined && (
+                <small className="generation-model-context">{tr("interface.generate_model_context", { tokens: contextTokens.toLocaleString(locale()) })}</small>
+              )}
             </label>
             <label className="fragments-panel-filter" title={effortSupported ? undefined : tr("interface.effort_unsupported_hint")}>
               {tr("interface.generate_effort_label")}<select
                 value={effort}
                 disabled={message.busy || actionsDisabled || noModels || !effortSupported}
-                onChange={(event) => setEffort(event.target.value as ReportEffort)}
+                onChange={(event) => setTypedEffort({ model: selectedModel, value: event.target.value as ReportEffort })}
               >
                 {REPORT_EFFORTS.map((option) => <option key={option} value={option}>{tr(EFFORT_LABELS[option])}</option>)}
               </select>
             </label>
+            {showLimits && (
+              <label className="fragments-panel-filter">
+                {tr("interface.generate_batch_workers_label")}<select
+                  value={workers}
+                  disabled={message.busy || actionsDisabled}
+                  onChange={(event) => setTypedWorkers(Number(event.target.value))}
+                >
+                  {generationLimitDefaults.batchWorkers.options.map((option) => <option key={option} value={option}>{option === 1 ? tr("interface.generate_batch_workers_none") : option}</option>)}
+                </select>
+              </label>
+            )}
+            {showLimits && TOKEN_FIELDS.map((field) => (
+              <label key={field} className="fragments-panel-filter">
+                {tr(TOKEN_LABELS[field])}<input
+                  type="text"
+                  inputMode="numeric"
+                  value={tokenValue(field)}
+                  disabled={message.busy || actionsDisabled}
+                  aria-invalid={fieldError(field) !== undefined}
+                  onChange={(event) => setTypedTokens((old) => ({ ...old, [field]: { model: selectedModel, value: event.target.value } }))}
+                />
+              </label>
+            ))}
           </div>
+          {showLimits && TOKEN_FIELDS.map((field) => fieldError(field) && (
+            <p key={field} className="generate-recipe-warning" role="status">{fieldError(field)}</p>
+          ))}
+          {showLimits && limitsCheck?.notes.map((note) => (
+            <p key={note.text} className={note.warning ? "generate-recipe-warning" : "eligible-count"} role="status">{note.text}</p>
+          ))}
           {!effortSupported && !noModels && (
             <p className="eligible-count">{tr("interface.effort_unsupported_hint")}</p>
           )}
@@ -144,13 +215,26 @@ export function GeneratePanel({
               characters={eligibleCharacters}
               refreshKey={feedback?.terminal ? feedback.generationId : undefined}
             />
+            <GenerationBatchEstimate
+              searchId={message.searchId}
+              minScore={minScore}
+              model={selectedModel}
+              effort={effortSupported ? effort : undefined}
+              limits={showLimits ? limitsCheck?.limits : undefined}
+              eligibleCount={eligibleCount}
+              valid={!showLimits || tokensValid}
+            />
           </div>
           <button
             type="button"
             className={`generate-inline${message.busy ? " is-preparing" : ""}`}
             disabled={disabled}
             aria-disabled={disabled}
-            onClick={() => onGenerate(message.searchId, minScore, selectedModel, effort)}
+            onClick={() => {
+              const limits = showLimits ? limitsCheck?.limits : undefined;
+              if (!limits) return onGenerate(message.searchId, minScore, selectedModel, effort);
+              onGenerate(message.searchId, minScore, selectedModel, effort, { ...limits, batchWorkers: workers });
+            }}
           >
             {message.busy ? tr("interface.generate_preparing") : (
               <>

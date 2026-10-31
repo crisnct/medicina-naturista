@@ -38,10 +38,15 @@ class FakeAI:
         self.release = None
         self.closed = False
 
-    def context_budget(self):
-        return 1000
-
-    def generate(self, profile, evidence, effort=None):
+    def generate(
+        self,
+        profile,
+        evidence,
+        effort=None,
+        batch_max_tokens=None,
+        batch_workers=None,
+        max_output_tokens=None,
+    ):
         self.calls += 1
         if self.entered:
             self.entered.set()

@@ -25,6 +25,7 @@ from backend.ai.report_validation import ReportValidationError
 from backend.ai.search import ALL_SIGNALS, SearchSignals, max_score
 from backend.config import Settings
 from backend.core import conversation
+from backend.core.contracts import EvidenceTokenBudget
 from backend.core.errors import ApplicationError
 from backend.reporting import pdf as reports_module
 from backend.web import handlers, main
@@ -68,18 +69,27 @@ class FakeAI:
     generate_calls = 0
     report_profile = None
     report_effort = None
+    report_limits = None
 
     # Provide the client cleanup interface without opening network resources.
     def close(self):
         pass
 
-    # Evidence budget the active provider allows (see ResponsesClient.context_budget).
     def context_budget(self):
         return 123_456
 
     # Return one deterministic evidence-backed recommendation for UI tests.
-    def generate(self, profile, evidence, effort=None):
+    def generate(
+        self,
+        profile,
+        evidence,
+        effort=None,
+        batch_max_tokens=None,
+        batch_workers=None,
+        max_output_tokens=None,
+    ):
         type(self).generate_calls += 1
+        type(self).report_limits = (batch_max_tokens, batch_workers, max_output_tokens)
         type(self).report_profile = profile
         type(self).report_effort = effort
         first = next(iter(evidence))
@@ -341,7 +351,6 @@ class WebTests(unittest.TestCase):
             ("Vitamina E — 200 UI zilnic.", "<b>● Vitamina E:</b> 200 UI zilnic."),
             ("Quercetin Plus - 2 mg zilnic.", "<b>● Quercetin Plus:</b> 2 mg zilnic."),
             ("Produs <A> & B: doză < 2 mg.", "<b>● Produs &lt;A&gt; &amp; B:</b> doză &lt; 2 mg."),
-            ("Informație fără denumire explicită.", "● Informație fără denumire explicită."),
         )
         for text, expected in cases:
             with self.subTest(text=text):
@@ -362,7 +371,22 @@ class WebTests(unittest.TestCase):
                 for chips in (use_only, rel_only, both):
                     self.assertTrue(chips.endswith("<br/>" + description))
                     self.assertNotIn(":</b>", chips)
-                    self.assertEqual(chips.startswith("<b>● "), expected.startswith("<b>"))
+                    self.assertTrue(chips.startswith("<b>● "))
+        # Without a delimited name the first sentence is the bold title, the rest the description.
+        unnamed = "Informație fără denumire explicită."
+        self.assertEqual(format_recommendation(unnamed), "● " + unnamed)
+        self.assertTrue(
+            format_recommendation(unnamed, None, 80.0).startswith(
+                "<b>● Informație fără denumire explicită</b> "
+            )
+        )
+        self.assertNotIn("<br/>", format_recommendation(unnamed, None, 80.0))
+        multi = format_recommendation(
+            "Gargara cu argint timp de 10 minute. Spray nazal cu argint.", None, 88.0
+        )
+        self.assertTrue(multi.startswith("<b>● Gargara cu argint timp de 10 minute</b> "))
+        self.assertLess(multi.index("</b>"), multi.index("88% potrivire"))
+        self.assertTrue(multi.endswith("<br/>Spray nazal cu argint."))
 
     # Verify that common Romanian diacritics are restored in report titles.
     def test_report_title_restores_common_romanian_diacritics(self):
@@ -563,7 +587,7 @@ class WebTests(unittest.TestCase):
             "● Tinctura de soc 30% potrivire util(ă) în 99 afecțiuni descriere.",
             "● Infuzie de romaniță 20% potrivire util(ă) în 57 afecțiuni descriere.",
             "● Vitamina B6 90% potrivire cu mușețel în descriere.",
-            "● 35% potrivire Îngrijire generală.",
+            "● Îngrijire generală 35% potrivire",
         ):
             self.assertEqual(pdf_text.count(chips), 4, chips)
         self.assertNotIn("util(ă) în 0 afecțiuni", pdf_text)
@@ -1617,8 +1641,13 @@ class WebTests(unittest.TestCase):
             messages = _send(self.client, sid_a, tab_a, "Gripă și răceală", [])
             self.assertTrue(any("Caut rapid în cele" in m.get("content", "") for m in messages))
             self.assertEqual(FakeAI.generate_calls, 0, "retrieval must not call the AI")
+            limits = self.deps.settings.report_generation_batch_max_tokens
             self.assertEqual(
-                FakeRetriever.max_chars, 123_456, "retrieval must use the provider's budget"
+                FakeRetriever.max_chars,
+                EvidenceTokenBudget(
+                    max(limits[model] for model in self.deps.settings.report_generation_models)
+                ),
+                "retrieval must use the largest configured batch limit",
             )
 
             fragments = _by_kind(messages, "fragments")
@@ -1789,9 +1818,9 @@ class WebTests(unittest.TestCase):
         class RecordingAI(FakeAI):
             sent = []
 
-            def generate(self, profile, evidence, effort=None):
+            def generate(self, profile, evidence, effort=None, *limits):
                 type(self).sent.append(sorted(evidence))
-                return super().generate(profile, evidence, effort)
+                return super().generate(profile, evidence, effort, *limits)
 
         with (
             patch.object(self.deps, "ai", RecordingAI()),

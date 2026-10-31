@@ -9,9 +9,11 @@ import type {
   HerbSafetyEvidencePage,
   ReportGeneration,
   MessagesResponse,
+  GenerationLimits,
   ReportEffort,
   ReportModel,
   ReportModelsResponse,
+  ReportBatchEstimate,
   ReportDurationEstimate,
   SearchSignals,
   SendMessageResponse,
@@ -111,6 +113,15 @@ export const api = {
     request<ReportDurationEstimate>(`/api/report-duration-estimate?${new URLSearchParams({ model, characters: String(characters), ...(effort ? { effort } : {}) })}`, {
       signal: AbortSignal.any([signal, AbortSignal.timeout(5000)]),
     }),
+  getReportBatchEstimate: (searchId: string, minScore: number, model: ReportModel, effort: ReportEffort | undefined, limits: Partial<GenerationLimits> | undefined, signal: AbortSignal) => {
+    const query = new URLSearchParams({ model, minScore: String(minScore) });
+    if (effort) query.set("effort", effort);
+    if (limits?.batchMaxTokens !== undefined) query.set("batchMaxTokens", String(limits.batchMaxTokens));
+    if (limits?.maxOutputTokens !== undefined) query.set("maxOutputTokens", String(limits.maxOutputTokens));
+    return request<ReportBatchEstimate>(`/api/searches/${encodeURIComponent(searchId)}/report-batches?${query}`, {
+      signal: AbortSignal.any([signal, AbortSignal.timeout(10000)]),
+    });
+  },
   sendMessage: (message: string, categories: string[], signals: SearchSignals) =>
     request<SendMessageResponse>("/api/messages", {
       method: "POST",
@@ -132,10 +143,10 @@ export const api = {
     method: "POST", headers: revision === undefined ? {} : { "X-Context-Revision": String(revision) },
   }),
   // minScore: only fragments whose relevance percent reaches it go to the AI (0 = all).
-  generateReport: (searchId: string, minScore: number, model: ReportModel = "ollama-gemma4:12b", requestId: string = crypto.randomUUID(), effort: ReportEffort = "low") =>
+  generateReport: (searchId: string, minScore: number, model: ReportModel = "ollama-gemma4:12b", requestId: string = crypto.randomUUID(), effort: ReportEffort = "low", limits?: GenerationLimits) =>
     request<ReportGeneration>(`/api/searches/${encodeURIComponent(searchId)}/generate`, {
       method: "POST",
-      body: JSON.stringify({ minScore, model, effort, requestId }),
+      body: JSON.stringify({ minScore, model, effort, requestId, ...limits }),
       signal: AbortSignal.timeout(15000),
     }),
   getGeneration: (jobId: string, signal?: AbortSignal) => request<ReportGeneration>(`/api/report-generations/${encodeURIComponent(jobId)}`, {

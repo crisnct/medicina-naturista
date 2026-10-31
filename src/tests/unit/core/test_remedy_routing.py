@@ -30,7 +30,6 @@ def conversation(tmp_path, monkeypatch):
         "C1": {"source": "test.md:1-3", "text": "Fragment de test.", "relevance_percent": 60}
     }
     ai = Mock()
-    ai.context_budget.return_value = None
     service = ConversationService(config, store, retriever, ai, Mock(), Mock(), Mock(), classifier)
     try:
         yield service, store.get("R" * 43, "routing-tab01", create=True), classifier

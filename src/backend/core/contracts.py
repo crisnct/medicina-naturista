@@ -61,18 +61,49 @@ class EvidenceItem(TypedDict):
 Evidence = dict[str, EvidenceItem]
 
 
+# No tokenizer is shared by all providers, so tokens are estimated from UTF-8 bytes.
+# Three bytes per token fits Romanian text and JSON framing without being wasteful.
+BYTES_PER_TOKEN = 3
+
+
+def estimate_tokens(size_bytes: int) -> int:
+    return -(-size_bytes // BYTES_PER_TOKEN)
+
+
 @dataclass(frozen=True)
 class EvidenceTokenBudget:
-    """A conservative token budget, distinct from legacy character budgets."""
+    """An estimated token budget (see estimate_tokens), distinct from legacy character budgets."""
 
     max_tokens: int
 
 
+@dataclass(frozen=True)
+class ReportBatchPlan:
+    """How a report would be split: batches, lone fragments over the limit, and that limit."""
+
+    batches: int
+    oversized: int
+    input_tokens: int
+
+
 class AIProtocol(Protocol):
-    def context_budget(self) -> int | EvidenceTokenBudget | None: ...
     def generate(
-        self, profile: ProfilePayload, evidence: Evidence, effort: ReportEffort | None = None
+        self,
+        profile: ProfilePayload,
+        evidence: Evidence,
+        effort: ReportEffort | None = None,
+        batch_max_tokens: int | None = None,
+        batch_workers: int | None = None,
+        max_output_tokens: int | None = None,
     ) -> ValidatedReport: ...
+    def plan_report_batches(
+        self,
+        profile: ProfilePayload,
+        evidence: Evidence,
+        effort: ReportEffort | None = None,
+        batch_max_tokens: int | None = None,
+        max_output_tokens: int | None = None,
+    ) -> ReportBatchPlan: ...
     def is_configured(self) -> bool: ...
     def close(self) -> None: ...
 
