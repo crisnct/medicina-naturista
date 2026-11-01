@@ -17,10 +17,16 @@ from typing import Any, Literal
 import httpx
 
 from backend.ai.client import AIUnavailable, OllamaReportClient, ResponsesClient, json_error_details
+from backend.ai.effort import responses_effort
 from backend.ai.herb_association_classification import make_client as association_client
 from backend.ai.herb_association_classification import model_digest as association_model_digest
 from backend.ai.herb_association_classification import response_schema
-from backend.ai.herb_product_safety import product_response_schema
+from backend.ai.herb_product_safety import (
+    batch_response_schema,
+    dedup_response_schema,
+    product_response_schema,
+)
+from backend.ai.providers import ProviderConfig
 from backend.config import Settings
 from backend.core.errors import OperationCancelled
 from backend.core.operation_context import (
@@ -30,6 +36,7 @@ from backend.core.operation_context import (
     operation_budget,
     remaining_timeout,
 )
+from backend.core.report_models import DEFAULT_REPORT_EFFORT
 
 BatchKind = Literal["associations", "combined", "warnings_only", "product_safety"]
 logger = logging.getLogger("naturist.ai")
@@ -157,6 +164,13 @@ def warning_item_limit(statement_count: int, kind_count: int, source_words: int)
 def index_response_schema(payload: dict[str, Any]) -> dict[str, Any]:
     if "product" in payload:
         return product_response_schema(payload["product"]["id"])
+    if "products" in payload:
+        products = payload["products"]
+        if products and "messages" in products[0]:
+            return dedup_response_schema(
+                {product["herb_id"]: len(product["messages"]) for product in products}
+            )
+        return batch_response_schema([product["id"] for product in products])
     schema = response_schema(payload)
     if "safety_targets" not in payload:
         return schema
@@ -177,32 +191,36 @@ def index_response_schema(payload: dict[str, Any]) -> dict[str, Any]:
     return schema
 
 
+# A repeated key or a non-finite number is rejected instead of silently resolved.
+def strict_json(content: str) -> Any:
+    def unique_object(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
+        value: dict[str, Any] = {}
+        for key, item in pairs:
+            if key in value:
+                raise ValueError("HERB_PRODUCT_SAFETY_DUPLICATE_KEY")
+            value[key] = item
+        return value
+
+    def reject_constant(_value: str) -> Any:
+        raise ValueError("HERB_PRODUCT_SAFETY_NONFINITE_JSON")
+
+    return json.loads(content, object_pairs_hook=unique_object, parse_constant=reject_constant)
+
+
 # This transport policy leaves validated decisions and their semantic cache identities unchanged.
 class IndexClient(OllamaReportClient):
     _product_request = False
 
     def complete_json(self, system: str, user: str, max_tokens: int) -> dict[str, Any]:
         payload = json.loads(user)
-        self._product_request = "product" in payload
+        self._product_request = "product" in payload or "products" in payload
         self.provider = replace(self.provider, response_schema=index_response_schema(payload))
         return super().complete_json(system, user, max_tokens)
 
     def _parse_content(self, content: str) -> Any:
         if not self._product_request:
             return super()._parse_content(content)
-
-        def unique_object(pairs: list[tuple[str, Any]]) -> dict[str, Any]:
-            value: dict[str, Any] = {}
-            for key, item in pairs:
-                if key in value:
-                    raise ValueError("HERB_PRODUCT_SAFETY_DUPLICATE_KEY")
-                value[key] = item
-            return value
-
-        def reject_constant(_value: str) -> Any:
-            raise ValueError("HERB_PRODUCT_SAFETY_NONFINITE_JSON")
-
-        return json.loads(content, object_pairs_hook=unique_object, parse_constant=reject_constant)
+        return strict_json(content)
 
 
 # Retain the original local-only settings and proxy restrictions while transferring HTTP ownership.
@@ -222,6 +240,39 @@ def make_client(settings: Settings) -> ResponsesClient:
         client.http = template.http
         cleanup.pop_all()
     return client
+
+
+# The external stage sends only catalog identities to DeepSeek. Its documentation confirms the
+# json_object format but not json_schema, so the strict batch validation is the only gate.
+class DeepSeekSafetyClient(ResponsesClient):
+    def complete_batch(self, system: str, user: str, max_tokens: int) -> dict[str, Any]:
+        return self._complete_json(system, user, max_tokens)
+
+    def _parse_content(self, content: str) -> Any:
+        return strict_json(content)
+
+
+# DeepSeek is allowed only for this stage; the report provider selection is not consulted.
+def make_deepseek_client(settings: Settings) -> DeepSeekSafetyClient:
+    provider = ProviderConfig(
+        name="deepseek",
+        label="DeepSeek",
+        base_url=settings.deepseek_api_base,
+        model=settings.deepseek_model,
+        reasoning_effort=responses_effort(DEFAULT_REPORT_EFFORT),
+        api_key=settings.deepseek_api_key,
+        api_key_env="DEEPSEEK_API_KEY",
+        api_key_required=True,
+        json_format="text_format",
+        send_store=False,
+        max_context_chars=0,
+        max_output_tokens=settings.herb_safety_deepseek_max_output_tokens,
+        read_timeout_seconds=settings.ai_read_timeout_seconds,
+        # A lot of 100 products generates for many minutes; only a stream keeps the read alive.
+        stream=True,
+        effort_control="responses_effort",
+    )
+    return DeepSeekSafetyClient(provider, settings)
 
 
 class BatchTelemetry:
@@ -325,6 +376,8 @@ def index_batch(
     user: str,
     max_tokens: int,
     clock: Callable[[], float] = time.monotonic,
+    model: str | None = None,
+    context_tokens: int | None = None,
 ) -> Iterator[BatchTelemetry]:
     parent = copy_context()
     timeout = remaining_timeout(float(settings.herb_association_ai_timeout_seconds))
@@ -341,8 +394,8 @@ def index_batch(
         "kind": kind,
         "batch": batch,
         "batches": batches,
-        "model": settings.herb_association_ai_model,
-        "context_tokens": settings.herb_association_ai_context_tokens,
+        "model": model or settings.herb_association_ai_model,
+        "context_tokens": context_tokens or settings.herb_association_ai_context_tokens,
         "max_output_tokens": max_tokens,
         "timeout_seconds": settings.herb_association_ai_timeout_seconds,
         "effective_timeout_seconds": round(timeout, 3),
@@ -354,9 +407,17 @@ def index_batch(
         "user_payload_chars": len(user),
         "system_prompt_chars": len(system),
         "association_targets": len(payload.get("candidates", [])),
-        "safety_targets": 1 if "product" in payload else len(payload.get("safety_targets", [])),
+        "safety_targets": 1
+        if "product" in payload
+        else len(payload["products"])
+        if "products" in payload
+        else len(payload.get("safety_targets", [])),
         "herb_id": payload["product"]["id"] if "product" in payload else None,
-        "safety_source": "model_knowledge" if "product" in payload else None,
+        "safety_source": "model_knowledge_bilingual"
+        if "products" in payload
+        else "model_knowledge"
+        if "product" in payload
+        else None,
         "warning_items_max_total": sum(
             value["properties"]["items"]["maxItems"] for value in warning_limits.values()
         ),

@@ -31,7 +31,7 @@ from backend.ai.herb_caution_projection import model_projections
 from backend.ai.herb_caution_repository import CautionRepository
 from backend.ai.herb_positive_repository import PositiveRepository
 from backend.ai.herb_product_safety_repository import ProductSafetyRepository
-from backend.config import Settings
+from backend.config import Settings, parse_safety_scope
 from backend.core.operation_context import OperationBudget, checkpoint, operation_budget
 from scripts.herb_index_requests import emit_index_event, index_batch, make_client, model_digest
 from scripts.herb_product_safety_index import ProductSafetyCoordinator
@@ -56,6 +56,10 @@ def run_positive_ranking(
         safety_repository = safety_repository or ProductSafetyRepository(repository.pool)
     caution = caution_repository
     safety = safety_repository
+    # The bilingual extension owns safety generations through its explicit commands, so the
+    # ranking must neither prepare nor publish a single-product generation beside it.
+    if parse_safety_scope(settings.herb_safety_extension_products).mode != "off":
+        safety = None
     started = time.monotonic()
     counters: dict = {
         "run_id": resume or str(uuid4()),

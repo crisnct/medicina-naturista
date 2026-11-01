@@ -1388,7 +1388,7 @@ class ChunkingTests(unittest.TestCase):
             self.assertIs(wire["think"], False)
             self.assertIs(wire["truncate"], False)
             self.assertEqual(wire["options"]["num_ctx"], 65536)
-            self.assertEqual(wire["options"]["num_predict"], 25000)
+            self.assertEqual(wire["options"]["num_predict"], 40000)
             self.assertEqual(
                 json.loads(wire["messages"][1]["content"])["units"]["u0"]["text"], safety_text
             )

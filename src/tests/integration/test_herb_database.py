@@ -202,7 +202,7 @@ class HerbDatabaseTests(unittest.TestCase):
             connection.execute("INSERT INTO owner_sessions(token_hash) VALUES (%s)", ("a" * 64,))
             connection.execute("INSERT INTO sync_metadata(key,value) VALUES ('test','unchanged')")
             connection.execute(
-                "DROP TABLE herb_safety_messages,herb_product_safety_results,herb_product_safety_cache,herb_product_safety_runs,herb_safety_evidence,herb_safety_warnings,herb_safety_analysis,"
+                "DROP TABLE herb_safety_messages,herb_product_safety_results,herb_product_safety_extension_cache,herb_product_safety_cache,herb_product_safety_runs,herb_safety_evidence,herb_safety_warnings,herb_safety_analysis,"
                 "herb_safety_cache,herb_safety_runs,herb_caution_evidence,herb_caution_pairs,herb_caution_rankings,"
                 "herb_caution_cache,herb_caution_runs,herb_positive_evidence,herb_positive_pairs,"
                 "herb_positive_rankings,herb_positive_cache,herb_positive_runs,herbs_benefits,herb_aliases,herbs"
@@ -237,6 +237,9 @@ class HerbDatabaseTests(unittest.TestCase):
                         "031_herb_product_safety_knowledge.sql",
                         "034_bilingual_derived_generations.sql",
                         "035_bilingual_product_catalog.sql",
+                        "036_herb_safety_extension_cache.sql",
+                        "037_herb_safety_dedup_stage.sql",
+                        "038_herb_safety_local_stage.sql",
                     ],
                 ),
             )
@@ -328,6 +331,9 @@ class HerbDatabaseTests(unittest.TestCase):
                 "031_herb_product_safety_knowledge.sql",
                 "034_bilingual_derived_generations.sql",
                 "035_bilingual_product_catalog.sql",
+                "036_herb_safety_extension_cache.sql",
+                "037_herb_safety_dedup_stage.sql",
+                "038_herb_safety_local_stage.sql",
             ],
         )
         with psycopg.connect(self.url) as connection:

@@ -42,8 +42,8 @@ class SettingsTests(unittest.TestCase):
         self.assertEqual(Settings.from_env({}).herb_association_ai_timeout_seconds, 900)
         self.assertEqual(Settings().herb_safety_ai_context_tokens, 65536)
         self.assertEqual(Settings.from_env({}).herb_safety_ai_context_tokens, 65536)
-        self.assertEqual(Settings().herb_safety_ai_max_output_tokens, 25000)
-        self.assertEqual(Settings.from_env({}).herb_safety_ai_max_output_tokens, 25000)
+        self.assertEqual(Settings().herb_safety_ai_max_output_tokens, 40000)
+        self.assertEqual(Settings.from_env({}).herb_safety_ai_max_output_tokens, 40000)
         self.assertEqual(
             Settings.from_env(
                 {"HERB_ASSOCIATION_AI_TIMEOUT_SECONDS": "120"}

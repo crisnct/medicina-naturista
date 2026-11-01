@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-10-31T15:27:34.021Z
-> Files: 256 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-01T17:38:01.054Z
+> Files: 283 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -72,7 +72,9 @@
 - `2026-10-29-report-batch-workers-env.md` — Configurare REPORT_BATCH_WORKERS (~348 tok)
 - `2026-10-29-suport-romana-engleza.md` — Plan: aplicație în română și engleză (~8477 tok)
 - `2026-10-30-clean-documents-english.md` — English document cleanup (~224 tok)
+- `2026-11-01-top-produse-pe-afectiune-formula-l1-l2-l3.md` — Top produse pe afectiune: ordonare dupa formula L1/L2/L3 (~3395 tok)
 - `plan-effort-generare-raport.md` — Plan: selector de effort AI la generarea raportului (~3459 tok)
+- `plan-extindere-atentionari-contraindicatii-interactiuni.md` — Plan: refacerea atentionarilor, contraindicatiilor si interactiunilor per produs naturist (~7102 tok)
 - `plan-setari-lot-raport-ui.md` — Plan: setări tehnice ale raportului în UI (tokeni per lot, loturi paralele, tokeni de ieșire) (~3891 tok)
 
 ## aiPlans/tmp/
@@ -172,6 +174,24 @@
 
 - `apply_limits.py` — Pydantic: ReportBatchEstimateResponse (~2797 tok)
 - `apply_model_limits.py` — edit, unique_pairs (~2794 tok)
+- `apply_tail.py` — prepare, run_language, resumable_run (~951 tok)
+- `check_run_stage.py` — Throwaway: _run_stage with fakes -- local runs once, deepseek retries a transient failure. (~579 tok)
+- `check_write_retry.py` — Throwaway: ProductSafetyRepository.transaction retries a busy index lock on writes only. (~382 tok)
+- `e2e_extension.py` — Q: answer, complete_json, complete_batch, embed + 1 more (~2251 tok)
+- `e2e_resume.py` — Q: msgs, complete_json, complete_batch, run (~1203 tok)
+- `gen_compare.py` — Throwaway: the same 10-product generation batch with one model; saves the raw answer, no DB writes. (~654 tok)
+- `gen_single.py` — Throwaway: HERB_SAFETY_MINISTRAL_BATCH_SIZE=1 -- ten known products, one request each; no DB writes. (~649 tok)
+- `patch_ds_default.py` — patch (~1119 tok)
+- `patch_gemma.py` — patch, stage_digest, stage_digest (~1822 tok)
+- `patch_local_model.py` — patch (~2073 tok)
+- `patch_orch.py` — sub, check_input_fits, check_input_fits (~3118 tok)
+- `patch_p3.py` — patch, dedup_prompt, dedup_semantic, dedup_cache_key (~2155 tok)
+- `patch_reindex.py` — patch (~676 tok)
+- `smoke_reindex.py` — Throwaway: the normal reindex calls the safety extension once, publishes both runs. (~276 tok)
+- `tail_new.py` — prepare (~4472 tok)
+- `time_batches.py` — Throwaway timing: one real qwen batch of 10 products, then one gemma dedup batch; nothing is saved. (~558 tok)
+- `try_dedup_model.py` — Throwaway: run the dedup stage of one product with another local model; writes nothing to the DB. (~507 tok)
+- `why_dedup_rejected.py` — Throwaway: send the products still without a cached grouping to gemma, one by one, and show (~604 tok)
 
 ## architecture/
 
@@ -183,7 +203,7 @@
 
 ## src/backend/
 
-- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~9709 tok)
+- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~11445 tok)
 
 ## src/backend/ai/
 
@@ -202,8 +222,9 @@
 - `herb_evidence.py` — Read complete source fragments from one published positive-association generation. (~2546 tok)
 - `herb_images.py` — Resolve catalog product images locally without exposing the source directory. (~710 tok)
 - `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~6619 tok)
-- `herb_product_safety_repository.py` — Cache per-product knowledge and publish complete catalog generations atomically. (~3784 tok)
-- `herb_product_safety.py` — Strict, concise product safety from local model knowledge, independent of the corpus. (~1399 tok)
+- `herb_product_safety_dedup.py` — Merge bilingual stage answers into one list per product, once, without duplicates. (~1417 tok)
+- `herb_product_safety_repository.py` — Cache per-product knowledge and publish complete catalog generations atomically. (~6685 tok)
+- `herb_product_safety.py` — Strict, concise product safety from local model knowledge, independent of the corpus. (~5389 tok)
 - `herb_ranking.py` — Read a bounded ranking from one language's published catalog generation. (~1942 tok)
 - `herb_repository.py` — Coherent PostgreSQL herb snapshots, cached by database and full content. (~1874 tok)
 - `herb_safety_extraction.py` — Inventory product safety independently of disease scope, preserving original source offsets. (~3634 tok)
@@ -221,6 +242,8 @@
 - `herb_association_classification_system.md` — Clasificarea afirmatiilor despre produs (~572 tok)
 - `herb_association_classification_transport.md` — Raspuns JSON (~189 tok)
 - `herb_association_with_warnings_transport.md` — Clasificare si atentionari in acelasi raspuns (~289 tok)
+- `herb_product_safety_bilingual_system.md` — Safety of natural products, written in Romanian and English (~889 tok)
+- `herb_product_safety_dedup_system.md` — Deduplicating a product's safety messages (~443 tok)
 - `herb_product_safety_system.md` — Siguranta unui singur produs naturist (~717 tok)
 - `herb_safety_system.md` — Atentionari si interactiuni sustinute de sursa (~1506 tok)
 - `herb_safety_transport.md` — Raspuns exclusiv pentru atentionari (~170 tok)
@@ -274,6 +297,9 @@
 - `031_herb_product_safety_knowledge.sql` — Model-knowledge safety is versioned independently of corpus-derived evidence and rankings. (~1516 tok)
 - `032_bilingual_chunks.sql` — Existing data is Romanian. New importers always supply the root's explicit language. (~480 tok)
 - `034_bilingual_derived_generations.sql` — Each language owns its publication pointer; existing generations remain Romanian. (~276 tok)
+- `036_herb_safety_extension_cache.sql` — One bilingual answer per product and stage serves both languages, so it has no language column. (~488 tok)
+- `037_herb_safety_dedup_stage.sql` — The local-model deduplication of a product's messages is cached beside the generation stages. (~154 tok)
+- `038_herb_safety_local_stage.sql` — The local generation stage is no longer tied to one model family: its cached answers are (~204 tok)
 
 ## src/backend/persistence/
 
@@ -350,7 +376,8 @@
 - `caution_herb_ranking.py` — Prepare and publish warning projections using indexed data and caches only, without AI. (~284 tok)
 - `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~20372 tok)
 - `herb_index_requests.py` — Stream one indexing request per batch and emit aggregate telemetry without source content. (~4390 tok)
-- `herb_product_safety_index.py` — One local-model request per uncached catalog product; no corpus or association inference. (~3190 tok)
+- `herb_product_safety_extension.py` — Bilingual product safety in batches: ministral and deepseek, one merge, a run per language. (~8449 tok)
+- `herb_product_safety_index.py` — One local-model request per uncached catalog product; no corpus or association inference. (~3632 tok)
 - `herb_safety_index.py` — Legacy corpus helpers and shared progress; public safety commands use product knowledge. (~6224 tok)
 - `manage_texts.py` — Export public copy and regenerate key/parameter metadata, never a second editable catalog. (~783 tok)
 - `positive_herb_ranking.py` — Explicit, resumable positive-ranking stages used by the existing index CLI. (~4477 tok)

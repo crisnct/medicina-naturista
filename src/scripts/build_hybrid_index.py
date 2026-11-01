@@ -1591,6 +1591,14 @@ def _execute_arguments(arguments: argparse.Namespace) -> int:
                 for language in LANGUAGES:
                     with language_scope(language):
                         refresh_positive_ranking(settings)
+                # With the bilingual extension enabled the reindex also rebuilds the safety lists
+                # of the chosen products (both languages in one pass) and publishes them.
+                if settings.herb_safety_extension_products:
+                    from scripts.herb_safety_index import run_safety_index
+
+                    prepared = run_safety_index(settings)
+                    for run_id in (prepared["run_id_ro"], prepared["run_id_en"]):
+                        run_safety_index(settings, publish=run_id)
     except Exception as exc:
         if ranking_stage:
             # Provider/driver exception chains can contain untrusted corpus data.
@@ -1626,6 +1634,16 @@ def _execute_arguments(arguments: argparse.Namespace) -> int:
             from scripts.herb_index_requests import release_index_model
 
             release_index_model(settings)
+            # The generation and grouping models of the safety extension are loaded separately.
+            if settings.herb_safety_extension_products:
+                released = {settings.herb_association_ai_model}
+                for model in (
+                    settings.herb_safety_generation_model,
+                    settings.herb_safety_dedup_model,
+                ):
+                    if model and model not in released:
+                        released.add(model)
+                        release_index_model(replace(settings, herb_association_ai_model=model))
     return 0
 
 

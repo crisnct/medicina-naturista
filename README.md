@@ -230,11 +230,54 @@ Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pent
 
   Parametrii safety impliciți sunt `HERB_SAFETY_AI_MAX_REQUESTS=10000`,
   `HERB_SAFETY_BUILD_TIMEOUT_SECONDS=86400`, `HERB_SAFETY_AI_CONTEXT_TOKENS=65536`
-  și `HERB_SAFETY_AI_MAX_OUTPUT_TOKENS=25000`. Bugetele de cereri și timp au crescut
+  și `HERB_SAFETY_AI_MAX_OUTPUT_TOKENS=40000`. Bugetele de cereri și timp au crescut
   deoarece limita se aplică acum produselor, nu loturilor de fragmente. Bugetul
   comenzii combinate acoperă timpul pentru asocieri plus timpul safety; safety are și
   propriul deadline. Timeoutul per request rămâne 900 secunde, `think=false`,
   temperatură zero și streaming local, fără cloud ori cereri AI de reparare.
+
+  **Extensia bilingvă (migrarea 036).** Cât `HERB_SAFETY_EXTENSION_PRODUCTS` este gol, fluxul de
+  mai sus rămâne neschimbat. Când este setat, `--prepare-safety-warnings` reface de la zero
+  atenționările, contraindicațiile și interacțiunile produselor din domeniu, dintr-o singură rulare
+  pentru ambele limbi: modelul local `HERB_SAFETY_GENERATION_MODEL` (loturi de `HERB_SAFETY_MINISTRAL_BATCH_SIZE`), apoi DeepSeek (întotdeauna activ,
+  loturi de `HERB_SAFETY_DEEPSEEK_BATCH_SIZE`, cere `DEEPSEEK_API_KEY`; fără cheie pregătirea se oprește
+  înainte de orice cerere).
+  Fiecare cerere primește doar identitatea produselor din catalog (fără fragmente, afecțiuni sau
+  date de utilizator) și întoarce fiecare mesaj în română și engleză cu același tip. Promptul
+  `herb_product_safety_bilingual_system.md` cere cel puțin 7 mesaje în total, fără minim pe
+  categorie și fără completare cu mesaje inventate; minimul nu este validat. Lista existentă nu
+  se trimite modelelor. Răspunsurile valide se salvează per produs și etapă în
+  `herb_product_safety_extension_cache`; un produs invalid sau lipsă rămâne necache-uit, iar
+  următoarea pregătire retrimite numai produsele lipsă. Un plic JSON invalid oprește pregătirea.
+  Lista se îmbină cu prioritate DeepSeek, apoi modelul local (cazul real de anticoagulante a arătat că DeepSeek era cel corect). Duplicatele exacte se elimină deterministic; cele
+  semantice se găsesc de un model local, `HERB_SAFETY_DEDUP_MODEL` (migrarea 037, etapa `dedup`, prompt
+  `herb_product_safety_dedup_system.md`, loturi de `HERB_SAFETY_MINISTRAL_BATCH_SIZE` produse, cache per
+  produs, digestul propriu al modelului): modelul grupează mesajele echivalente, indiferent de tip, iar din fiecare grup rămâne
+  mesajul sursei cu prioritate mai mare (la aceeași sursă, tipul mai sever). Eliminarea se face o
+  singură dată pe mesajul bilingv, ca listele RO și EN să rămână identice ca număr, ordine și tip.
+  Embeddings cu prag nu separă duplicatele reale de mesajele distincte și nu se folosesc. Perechile
+  eliminate se scriu în `aiWork/herb_safety_dedup_pairs.json`. Mesajele contradictorii despre
+  același partener nu sunt rezolvate automat.
+  Pregătirea creează două generații (RO și EN), copiază produsele din afara domeniului din
+  generațiile active ale limbii și afișează `run_id_ro` și `run_id_en`; fiecare se publică separat,
+  cu `--publish-safety-warnings RUN_ID` (limba se citește din generație). Cât extensia este
+  activă, pregătirea/publicarea pozitivă nu mai atinge generațiile safety. Reindexarea normală
+  (`build_hybrid_index` fără flaguri de mod, care nu folosește `--skip-positive-ranking`) rulează la
+  final și extensia pentru produsele din domeniu, pentru ambele limbi, și publică cele două generații;
+  Toate cererile AI se fac în această fază offline,
+  niciodată la întrebarea din chat, care citește numai generația publicată.
+  Etapa DeepSeek trimite date de catalog către un model extern; calitatea nu este validată clinic.
+
+  Pilot, apoi activare completă (`HERB_SAFETY_EXTENSION_PRODUCTS=hypericum perforatum`, apoi
+  `first:100` și `all`):
+
+  ```powershell
+  $env:PYTHONPATH = 'src'
+  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --analyze-safety-warnings
+  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --prepare-safety-warnings
+  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-safety-warnings RO_RUN_ID
+  .\.venv\Scripts\python.exe -m scripts.build_hybrid_index --publish-safety-warnings EN_RUN_ID
+  ```
 
   Potrivirea numelor românești acceptă flexiuni din dicționarul Hunspell inclus (articol, plural, genitiv), cu sau fără diacritice, inclusiv în denumiri din mai multe cuvinte. Regulile generale pentru intrările incomplete sunt validate cu același dicționar, fără liste de excepții pe plante. Forma exactă are prioritate; numele comune mai multor specii cer alegerea speciei.
 - **Top plante/produse:** clasament pozitiv din `herb_positive_rankings`, filtrat exact după categoria cerută înainte de sortare și limitare. Interfața oferă exemplele „Top 100 produse naturiste” și „Top 10 produse naturiste pentru gripa”; un click completează câmpul și îi dă focus, apoi utilizatorul trimite mesajul. „Top X produse naturiste” fără afecțiune afișează cele 11 categorii, fiecare pe un rând numerotat; utilizatorul răspunde cu numărul categoriei și primește până la X produse din acea categorie. O alegere invalidă repetă lista fără a schimba X. Comenzile directe precum „Top 20 suplimente”, „Top 10 plante medicinale”, „Primele 20 vitamine” și „Top 100 semințe” rămân disponibile. „Top 100”, „Top 100 plante”, „top general” și „toate categoriile” includ toate categoriile. Fără cantitate se folosesc 100 de intrări; categoriile necunoscute sau multiple cer alegerea unei singure categorii, iar un număr invalid cere o cantitate între 1 și 10000. Clarificările păstrează categoria/numărul cerut. Răspunsul arată numărul efectiv returnat, asocierile și aliasurile regionale; fără căutare hibridă sau generare AI pentru comenzile explicite.
@@ -843,9 +886,14 @@ profilul compatibil.
 | `HERB_ASSOCIATION_AI_MAX_INPUT_CHARS` | `100000` | Plafon tehnic pentru întregul request serializat, inclusiv promptul, contextul și schema. Depășirea oprește pregătirea; nu scurtează fragmentul. |
 | `HERB_ASSOCIATION_AI_CONTEXT_TOKENS` / `HERB_ASSOCIATION_AI_MAX_OUTPUT_TOKENS` | `32768` / `2048` | Context și rezervă de răspuns. |
 | `HERB_SAFETY_AI_CONTEXT_TOKENS` | `65536` | Fereastra pentru cererea de cunoștințe AI a unui singur produs; independentă de contextul clasificării. |
-| `HERB_SAFETY_AI_MAX_OUTPUT_TOKENS` | `25000` | Plafon de ieșire pentru toate mesajele scurte ale produsului. |
+| `HERB_SAFETY_AI_MAX_OUTPUT_TOKENS` | `40000` | Plafon de ieșire pentru toate mesajele scurte ale produsului sau ale unui lot din extensia bilingvă. |
 | `HERB_SAFETY_AI_MAX_REQUESTS` | `10000` | Plafon de încercări per generație, inclusiv reluările. O cerere pentru fiecare produs fără cache. |
 | `HERB_SAFETY_BUILD_TIMEOUT_SECONDS` | `86400` | Deadline al pregătirii safety; prima populare poate procesa întregul catalog. |
+| `HERB_SAFETY_EXTENSION_PRODUCTS` | gol (dezactivat) | Domeniul extensiei bilingve: gol, listă CSV de denumiri latine exacte, `first:N` sau `all`. |
+| `HERB_SAFETY_GENERATION_MODEL` | `ministral-3:8b` | Modelul Ollama local al etapei de generare a extensiei safety; gol dezactivează etapa locală și generează numai DeepSeek. Pe 10 produse cunoscute, ministral a dat cele mai specifice mesaje dintre modelele locale testate. Identificatorul de etapă din cache rămâne `qwen`, din motive istorice. |
+| `HERB_SAFETY_DEDUP_MODEL` | `gemma4:12b` | Modelul Ollama local care grupează mesajele echivalente. Comparat pe sunătoare cu qwen3.5:9b și qwen3.5:4b: a găsit 3 din 3 perechi reale. |
+| `HERB_SAFETY_MINISTRAL_BATCH_SIZE` / `HERB_SAFETY_DEEPSEEK_BATCH_SIZE` | `10` / `100` | Produse per cerere către modelul local de generare (și per cerere de dedup), respectiv către DeepSeek. Validate față de plafoanele de ieșire doar cât extensia este activă. |
+| `HERB_SAFETY_DEEPSEEK_MAX_OUTPUT_TOKENS` | `160000` | Plafon de ieșire al unui lot DeepSeek, reasoning inclus. |
 | `HERB_ASSOCIATION_AI_TIMEOUT_SECONDS` / `HERB_ASSOCIATION_BUILD_TIMEOUT_SECONDS` | `900` / `7200` | Buget per lot AI și limită de așteptare I/O, respectiv deadline per comandă. Timpul rămas al comenzii limitează fiecare lot. |
 | `HERB_ASSOCIATION_AI_KEEP_ALIVE_SECONDS` | `3600` | Numai pentru reindexare: păstrează modelul Ollama până la 60 de minute de inactivitate între cereri, inclusiv cele pentru safety. `0` descarcă după fiecare cerere; `-1` păstrează nelimitat între cereri. La încheierea fluxului, CLI-ul solicită oricum descărcarea imediată. |
 | `HERB_ASSOCIATION_AI_MAX_REQUESTS` | `1000` | Plafon de încercări pentru RUN_ID, inclusiv la reluare. |

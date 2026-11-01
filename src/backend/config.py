@@ -8,6 +8,7 @@ from collections.abc import Mapping
 from dataclasses import dataclass, field
 from pathlib import Path
 from types import MappingProxyType
+from typing import Literal
 from urllib.parse import urlsplit
 
 from dotenv import load_dotenv
@@ -171,6 +172,47 @@ def _bool(name: str, default: bool, env: Mapping[str, str] | None = None) -> boo
     raise ValueError(f"{name} must be a boolean value")
 
 
+# Conservative output estimate behind the batch-size checks: a prompt-required minimum of seven
+# bilingual messages per product at about 120 tokens each, plus a fixed envelope reserve.
+SAFETY_MIN_MESSAGES = 7
+SAFETY_TOKENS_PER_MESSAGE = 120
+SAFETY_OUTPUT_RESERVE = 512
+
+
+@dataclass(frozen=True)
+class SafetyScope:
+    mode: Literal["off", "all", "first", "latin"]
+    count: int = 0
+    latins: tuple[str, ...] = ()
+
+
+# Normalised Latin name used to resolve scoped products without guessing between species.
+def normalize_latin(value: str) -> str:
+    return " ".join(value.split()).casefold()
+
+
+# HERB_SAFETY_EXTENSION_PRODUCTS: empty (off), `all`, `first:N` or a CSV of exact Latin names.
+def parse_safety_scope(raw: str) -> SafetyScope:
+    value = raw.strip()
+    if not value:
+        return SafetyScope("off")
+    if value.casefold() == "all":
+        return SafetyScope("all")
+    if value.casefold().startswith("first:"):
+        count = value[6:].strip()
+        if not count.isascii() or not count.isdigit() or int(count) <= 0:
+            raise ValueError("HERB_SAFETY_EXTENSION_PRODUCTS first:N needs a positive integer")
+        return SafetyScope("first", count=int(count))
+    names = [normalize_latin(part) for part in value.split(",")]
+    if not all(names):
+        raise ValueError("HERB_SAFETY_EXTENSION_PRODUCTS contains an empty Latin name")
+    return SafetyScope("latin", latins=tuple(dict.fromkeys(names)))
+
+
+def safety_output_estimate(batch_size: int) -> int:
+    return batch_size * SAFETY_MIN_MESSAGES * SAFETY_TOKENS_PER_MESSAGE + SAFETY_OUTPUT_RESERVE
+
+
 EMBEDDING_DEVICES = ("cpu", "cuda")
 
 
@@ -257,8 +299,18 @@ class Settings:
     herb_association_ai_max_requests: int = 1000
     herb_safety_ai_max_requests: int = 10000
     herb_safety_ai_context_tokens: int = 65536
-    herb_safety_ai_max_output_tokens: int = 25000
+    herb_safety_ai_max_output_tokens: int = 40000
     herb_safety_build_timeout_seconds: int = 86400
+    herb_safety_ministral_batch_size: int = 10
+    herb_safety_deepseek_batch_size: int = 100
+    herb_safety_deepseek_max_output_tokens: int = 160000
+    # Local model that groups equivalent messages; chosen by comparing three local models.
+    herb_safety_dedup_model: str = "gemma4:12b"
+    # Local model of the generation stage (stage id `ministral`); empty
+    # disables the local stage so only DeepSeek generates.
+    herb_safety_generation_model: str = "ministral-3:8b"
+    # Empty keeps the single-product monolingual flow; see parse_safety_scope.
+    herb_safety_extension_products: str = ""
     message_classification_timeout_seconds: int = 10
     message_classification_max_output_tokens: int = 300
     ai_stream: bool = False
@@ -410,11 +462,21 @@ class Settings:
             herb_safety_ai_max_requests=_int("HERB_SAFETY_AI_MAX_REQUESTS", 10000, env=env),
             herb_safety_ai_context_tokens=_int("HERB_SAFETY_AI_CONTEXT_TOKENS", 65536, env=env),
             herb_safety_ai_max_output_tokens=_int(
-                "HERB_SAFETY_AI_MAX_OUTPUT_TOKENS", 25000, env=env
+                "HERB_SAFETY_AI_MAX_OUTPUT_TOKENS", 40000, env=env
             ),
             herb_safety_build_timeout_seconds=_int(
                 "HERB_SAFETY_BUILD_TIMEOUT_SECONDS", 86400, env=env
             ),
+            herb_safety_ministral_batch_size=_int("HERB_SAFETY_MINISTRAL_BATCH_SIZE", 10, env=env),
+            herb_safety_deepseek_batch_size=_int("HERB_SAFETY_DEEPSEEK_BATCH_SIZE", 100, env=env),
+            herb_safety_deepseek_max_output_tokens=_int(
+                "HERB_SAFETY_DEEPSEEK_MAX_OUTPUT_TOKENS", 160000, env=env
+            ),
+            herb_safety_dedup_model=env.get("HERB_SAFETY_DEDUP_MODEL", "gemma4:12b").strip(),
+            herb_safety_generation_model=env.get(
+                "HERB_SAFETY_GENERATION_MODEL", "ministral-3:8b"
+            ).strip(),
+            herb_safety_extension_products=env.get("HERB_SAFETY_EXTENSION_PRODUCTS", "").strip(),
             message_classification_timeout_seconds=_int(
                 "MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS", 10, env=env
             ),
@@ -591,9 +653,33 @@ class Settings:
             "herb_safety_ai_context_tokens",
             "herb_safety_ai_max_output_tokens",
             "herb_safety_build_timeout_seconds",
+            "herb_safety_ministral_batch_size",
+            "herb_safety_deepseek_batch_size",
+            "herb_safety_deepseek_max_output_tokens",
         ):
             if type(getattr(self, name)) is not int or getattr(self, name) <= 0:
                 raise ValueError(f"{name} must be a positive integer")
+        if not self.herb_safety_dedup_model or any(
+            c.isspace() for c in self.herb_safety_dedup_model
+        ):
+            raise ValueError("herb_safety_dedup_model must be an explicit model tag")
+        if any(c.isspace() for c in self.herb_safety_generation_model):
+            raise ValueError("herb_safety_generation_model must be empty or a model tag")
+        if not isinstance(self.herb_safety_extension_products, str):
+            raise ValueError("herb_safety_extension_products must be a string")
+        # Batch sizes matter only while the bilingual extension is active, so the single-product
+        # flow keeps working with any output limit it already accepted.
+        if parse_safety_scope(self.herb_safety_extension_products).mode != "off":
+            if (
+                safety_output_estimate(self.herb_safety_ministral_batch_size)
+                > self.herb_safety_ai_max_output_tokens
+            ):
+                raise ValueError("herb safety ministral batch does not fit the output token limit")
+            if (
+                safety_output_estimate(self.herb_safety_deepseek_batch_size)
+                > self.herb_safety_deepseek_max_output_tokens
+            ):
+                raise ValueError("herb safety deepseek batch does not fit the output token limit")
         if self.herb_association_ai_max_units > 6:
             raise ValueError("herb_association_ai_max_units must not exceed 6 source passages")
         if (

@@ -7483,6 +7483,114 @@
       "last_seen": "2026-10-31T14:54:56.568Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in herb_product_safety_extension.py",
+      "file": "src/scripts/herb_product_safety_extension.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-417",
+      "timestamp": "2026-11-01T09:32:24.551Z",
+      "last_seen": "2026-11-01T09:32:24.551Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in transaction()",
+      "file": "src/backend/ai/herb_product_safety_repository.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-418",
+      "timestamp": "2026-11-01T11:55:36.119Z",
+      "last_seen": "2026-11-01T11:55:36.119Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_product_safety_extension.py",
+      "file": "src/scripts/herb_product_safety_extension.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 29→40 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-419",
+      "timestamp": "2026-11-01T14:22:40.920Z",
+      "last_seen": "2026-11-01T14:22:40.920Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in _attempts()",
+      "file": "src/scripts/herb_product_safety_extension.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-420",
+      "timestamp": "2026-11-01T14:22:43.761Z",
+      "last_seen": "2026-11-01T14:22:43.761Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_product_safety.py",
+      "file": "src/backend/ai/herb_product_safety.py",
+      "root_cause": "8 lines replaced/restructured",
+      "fix": "Rewrote 18→22 lines (8 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-421",
+      "timestamp": "2026-11-01T17:09:42.019Z",
+      "last_seen": "2026-11-01T17:09:42.019Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herb_product_safety_repository.py",
+      "file": "src/backend/ai/herb_product_safety_repository.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 13→22 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-422",
+      "timestamp": "2026-11-01T17:38:01.089Z",
+      "last_seen": "2026-11-01T17:38:01.089Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -7926,7 +8034,13 @@
     "69ba5e2d-1360-4187-8e10-b62225ea3b61": true,
     "22c5af7e-4349-4544-ae46-4e2ba788f922": true,
     "2ef23ca8-70ce-4e32-aac4-b2092cb9c6e2": true,
-    "3ed97852-f9c0-47d2-aec3-8618edda4b57": true
+    "3ed97852-f9c0-47d2-aec3-8618edda4b57": true,
+    "ca4dee41-8eca-46fe-b21c-50bda9a468a9": true,
+    "62ab3baa-e351-4ac8-af62-012e1d815fcf": true,
+    "a918ccca-e645-4a53-a8d8-402f44e64ef1": true,
+    "fe3f0662-8c01-414c-b5bb-586334be83d0": true,
+    "e8941797-9d71-48a4-9d13-ee0c31e156cd": true,
+    "282a02ce-f209-4188-a313-c3363c149a97": true
   },
-  "next_id": 417
+  "next_id": 423
 }

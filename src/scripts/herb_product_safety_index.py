@@ -5,6 +5,7 @@ from __future__ import annotations
 import threading
 import time
 from collections.abc import Callable
+from contextlib import nullcontext
 from contextvars import copy_context
 from dataclasses import replace
 from typing import Any
@@ -21,10 +22,12 @@ from backend.ai.herb_product_safety import (
     validate_product_response,
 )
 from backend.ai.herb_product_safety_repository import ProductSafetyRepository
-from backend.config import Settings
+from backend.config import Settings, parse_safety_scope
 from backend.core.errors import ApplicationError, OperationCancelled
+from backend.core.language import language_scope, validate_language
 from backend.core.operation_context import OperationBudget, checkpoint, operation_budget
 from scripts.herb_index_requests import emit_index_event, index_batch, make_client, model_digest
+from scripts.herb_product_safety_extension import ExtensionCoordinator
 from scripts.herb_safety_index import batch_progress, format_duration, workflow_progress
 
 
@@ -197,12 +200,13 @@ def run_product_safety_index(
     resume: str | None = None,
 ) -> dict[str, Any]:
     repository = ProductSafetyRepository()
+    extension = parse_safety_scope(settings.herb_safety_extension_products).mode != "off"
     started = time.monotonic()
     counters: dict[str, Any] = {
         "stage": "herb_product_safety",
         "progress_stage": "product_safety_inventory",
     }
-    coordinator: ProductSafetyCoordinator | None = None
+    coordinator: ProductSafetyCoordinator | ExtensionCoordinator | None = None
     stopped = threading.Event()
 
     def progress() -> None:
@@ -235,8 +239,28 @@ def run_product_safety_index(
             )
         ):
             if publish:
-                repository.publish(publish, settings, digest=model_digest(settings))
+                # Each generation owns its language pointer, whatever --language says.
+                language = repository.run_language(publish)
+                # An extension run records the digest of the model that generated it (the local
+                # generation model, or the grouping model when DeepSeek alone generates).
+                model = (
+                    settings.herb_safety_generation_model or settings.herb_safety_dedup_model
+                    if extension
+                    else settings.herb_association_ai_model
+                )
+                run_digest = model_digest(replace(settings, herb_association_ai_model=model))
+                with language_scope(validate_language(language)) if language else nullcontext():
+                    repository.publish(publish, settings, digest=run_digest)
                 counters.update(run_id=publish, status="published", progress_stage="publication")
+                return counters
+            if extension:
+                if resume and repository.run_state(resume) != "preparing":
+                    raise ValueError("HERB_PRODUCT_SAFETY_RESUME_NOT_FOUND")
+                coordinator = ExtensionCoordinator(settings, repository, counters=counters)
+                if analyze:
+                    return coordinator.analyze()
+                coordinator.prepare()
+                counters.update(run_id=counters["run_id_ro"], status="ready")
                 return counters
             if analyze:
                 herbs = repository.read_products()

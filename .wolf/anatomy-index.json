@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-10-31T15:27:34.021Z",
-    "fileCount": 256,
+    "lastScanned": "2026-11-01T17:38:01.054Z",
+    "fileCount": 283,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "98c6ccecdac626b375492332533c97abca06bcedc04604513bbe35700065a444",
-    "storeUpdatedAt": "2026-10-31T15:27:34.032Z",
-    "rootHash": "c6888ec23de4bc4d"
+    "renderedHash": "13698b5b78a71e26194a37efe1902a6181d4ac7f1b97b7059c5f5e4478eea3fc",
+    "storeUpdatedAt": "2026-11-01T17:38:01.065Z",
+    "rootHash": "c004131f07e18a6c"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -2126,74 +2126,116 @@
     },
     "src/backend/config.py": {
       "description": "Environment-backed settings. No patient data belongs in configuration or logs.",
-      "tokens": 9709,
-      "hash": "5839053948854535",
-      "size": 33980,
-      "mtimeMs": 1793395835706.8325,
-      "updatedAt": "2026-10-30T21:30:36.028Z",
+      "tokens": 11445,
+      "hash": "8e595e88905a87d4",
+      "size": 40056,
+      "mtimeMs": 1793510358522.1619,
+      "updatedAt": "2026-11-01T05:19:18.828Z",
       "source": "hook",
       "symbols": [
         {
-          "name": "_batch_limits",
+          "name": "_default_context",
           "kind": "fn",
-          "startLine": 28,
-          "endLine": 63,
-          "tokens": 444
+          "startLine": 36,
+          "endLine": 39,
+          "tokens": 44
+        },
+        {
+          "name": "_default_effort",
+          "kind": "fn",
+          "startLine": 40,
+          "endLine": 46,
+          "tokens": 124
+        },
+        {
+          "name": "_model_limits",
+          "kind": "fn",
+          "startLine": 47,
+          "endLine": 103,
+          "tokens": 712
         },
         {
           "name": "_freeze_ollama_output_limits",
           "kind": "fn",
-          "startLine": 64,
-          "endLine": 78,
+          "startLine": 104,
+          "endLine": 118,
           "tokens": 172
         },
         {
           "name": "_ollama_output_limits",
           "kind": "fn",
-          "startLine": 79,
-          "endLine": 106,
+          "startLine": 119,
+          "endLine": 146,
           "tokens": 323
         },
         {
           "name": "_int",
           "kind": "fn",
-          "startLine": 107,
-          "endLine": 122,
+          "startLine": 147,
+          "endLine": 162,
           "tokens": 139
         },
         {
           "name": "_bool",
           "kind": "fn",
-          "startLine": 123,
-          "endLine": 138,
-          "tokens": 146
+          "startLine": 163,
+          "endLine": 182,
+          "tokens": 200
+        },
+        {
+          "name": "SafetyScope",
+          "kind": "class",
+          "startLine": 183,
+          "endLine": 189,
+          "tokens": 61
+        },
+        {
+          "name": "normalize_latin",
+          "kind": "fn",
+          "startLine": 190,
+          "endLine": 194,
+          "tokens": 52
+        },
+        {
+          "name": "parse_safety_scope",
+          "kind": "fn",
+          "startLine": 195,
+          "endLine": 211,
+          "tokens": 212
+        },
+        {
+          "name": "safety_output_estimate",
+          "kind": "fn",
+          "startLine": 212,
+          "endLine": 219,
+          "tokens": 74
         },
         {
           "name": "_embedding_device",
           "kind": "fn",
-          "startLine": 139,
-          "endLine": 149,
+          "startLine": 220,
+          "endLine": 230,
           "tokens": 128
         },
         {
           "name": "_ai_provider",
           "kind": "fn",
-          "startLine": 150,
-          "endLine": 157,
+          "startLine": 231,
+          "endLine": 238,
           "tokens": 72
         },
         {
           "name": "Settings",
           "kind": "class",
-          "startLine": 158,
-          "endLine": 684,
-          "tokens": 7749
+          "startLine": 239,
+          "endLine": 830,
+          "tokens": 8753
         },
         {
           "name": "configure_settings",
           "kind": "fn",
-          "startLine": 685,
-          "endLine": 697,
+          "startLine": 831,
+          "endLine": 843,
           "tokens": 137
         }
       ]
@@ -5842,82 +5884,222 @@
     },
     "src/backend/ai/herb_product_safety.py": {
       "description": "Strict, concise product safety from local model knowledge, independent of the corpus.",
-      "tokens": 1399,
-      "hash": "357059ba2ed0a8c4",
-      "size": 4896,
-      "mtimeMs": 1793084960746.968,
-      "updatedAt": "2026-10-27T07:09:21.296Z",
+      "tokens": 5389,
+      "hash": "617001fa47020a60",
+      "size": 18861,
+      "mtimeMs": 1793552981715.07,
+      "updatedAt": "2026-11-01T17:09:41.986Z",
       "source": "hook",
       "symbols": [
         {
           "name": "product_identity",
           "kind": "fn",
-          "startLine": 22,
-          "endLine": 28,
+          "startLine": 41,
+          "endLine": 47,
           "tokens": 61
         },
         {
           "name": "catalog_identity",
           "kind": "fn",
-          "startLine": 29,
-          "endLine": 32,
+          "startLine": 48,
+          "endLine": 51,
           "tokens": 44
         },
         {
           "name": "product_prompt",
           "kind": "fn",
-          "startLine": 33,
-          "endLine": 36,
-          "tokens": 26
+          "startLine": 52,
+          "endLine": 55,
+          "tokens": 19
         },
         {
           "name": "product_semantic",
           "kind": "fn",
-          "startLine": 37,
-          "endLine": 51,
-          "tokens": 142
+          "startLine": 56,
+          "endLine": 71,
+          "tokens": 154
         },
         {
           "name": "product_cache_key",
           "kind": "fn",
-          "startLine": 52,
-          "endLine": 55,
+          "startLine": 72,
+          "endLine": 75,
           "tokens": 43
         },
         {
           "name": "product_response_schema",
           "kind": "fn",
-          "startLine": 56,
-          "endLine": 80,
+          "startLine": 76,
+          "endLine": 100,
           "tokens": 261
         },
         {
           "name": "ProductSafetyMessage",
           "kind": "class",
-          "startLine": 81,
-          "endLine": 90,
+          "startLine": 101,
+          "endLine": 110,
           "tokens": 60
         },
         {
           "name": "ProductSafetyResult",
           "kind": "class",
-          "startLine": 91,
-          "endLine": 104,
-          "tokens": 127
+          "startLine": 111,
+          "endLine": 124,
+          "tokens": 126
+        },
+        {
+          "name": "clean_problem",
+          "kind": "fn",
+          "startLine": 125,
+          "endLine": 140,
+          "tokens": 149
         },
         {
           "name": "validate_product_response",
           "kind": "fn",
-          "startLine": 105,
-          "endLine": 139,
-          "tokens": 411
+          "startLine": 141,
+          "endLine": 164,
+          "tokens": 297
         },
         {
           "name": "serialize_product",
           "kind": "fn",
-          "startLine": 140,
-          "endLine": 144,
-          "tokens": 46
+          "startLine": 165,
+          "endLine": 173,
+          "tokens": 70
+        },
+        {
+          "name": "dedup_prompt",
+          "kind": "fn",
+          "startLine": 174,
+          "endLine": 178,
+          "tokens": 53
+        },
+        {
+          "name": "dedup_semantic",
+          "kind": "fn",
+          "startLine": 179,
+          "endLine": 190,
+          "tokens": 115
+        },
+        {
+          "name": "dedup_cache_key",
+          "kind": "fn",
+          "startLine": 191,
+          "endLine": 196,
+          "tokens": 56
+        },
+        {
+          "name": "serialize_dedup_batch",
+          "kind": "fn",
+          "startLine": 197,
+          "endLine": 215,
+          "tokens": 167
+        },
+        {
+          "name": "dedup_response_schema",
+          "kind": "fn",
+          "startLine": 216,
+          "endLine": 248,
+          "tokens": 324
+        },
+        {
+          "name": "validate_dedup_groups",
+          "kind": "fn",
+          "startLine": 249,
+          "endLine": 270,
+          "tokens": 244
+        },
+        {
+          "name": "validate_dedup_response",
+          "kind": "fn",
+          "startLine": 271,
+          "endLine": 296,
+          "tokens": 284
+        },
+        {
+          "name": "BilingualMessage",
+          "kind": "class",
+          "startLine": 297,
+          "endLine": 307,
+          "tokens": 71
+        },
+        {
+          "name": "BilingualResult",
+          "kind": "class",
+          "startLine": 308,
+          "endLine": 321,
+          "tokens": 122
+        },
+        {
+          "name": "bilingual_prompt",
+          "kind": "fn",
+          "startLine": 322,
+          "endLine": 325,
+          "tokens": 29
+        },
+        {
+          "name": "serialize_batch",
+          "kind": "fn",
+          "startLine": 326,
+          "endLine": 333,
+          "tokens": 59
+        },
+        {
+          "name": "batch_response_schema",
+          "kind": "fn",
+          "startLine": 334,
+          "endLine": 370,
+          "tokens": 382
+        },
+        {
+          "name": "is_latin",
+          "kind": "fn",
+          "startLine": 371,
+          "endLine": 377,
+          "tokens": 67
+        },
+        {
+          "name": "validate_bilingual_product",
+          "kind": "fn",
+          "startLine": 378,
+          "endLine": 415,
+          "tokens": 510
+        },
+        {
+          "name": "validate_batch_response",
+          "kind": "fn",
+          "startLine": 416,
+          "endLine": 440,
+          "tokens": 287
+        },
+        {
+          "name": "project_language",
+          "kind": "fn",
+          "startLine": 441,
+          "endLine": 458,
+          "tokens": 131
+        },
+        {
+          "name": "stage_semantic",
+          "kind": "fn",
+          "startLine": 459,
+          "endLine": 479,
+          "tokens": 233
+        },
+        {
+          "name": "stage_cache_key",
+          "kind": "fn",
+          "startLine": 480,
+          "endLine": 485,
+          "tokens": 98
+        },
+        {
+          "name": "run_semantic",
+          "kind": "fn",
+          "startLine": 486,
+          "endLine": 526,
+          "tokens": 416
         }
       ]
     },
@@ -5941,79 +6123,79 @@
     },
     "src/backend/ai/herb_product_safety_repository.py": {
       "description": "Cache per-product knowledge and publish complete catalog generations atomically.",
-      "tokens": 3784,
-      "hash": "e99b26c06327cb32",
-      "size": 13242,
-      "mtimeMs": 1793085943357.7268,
-      "updatedAt": "2026-10-27T07:25:43.922Z",
+      "tokens": 6685,
+      "hash": "36b8bb6d88a1bbcd",
+      "size": 23397,
+      "mtimeMs": 1793554680540.059,
+      "updatedAt": "2026-11-01T17:38:01.053Z",
       "source": "hook",
       "symbols": [
         {
           "name": "schema_available",
           "kind": "fn",
-          "startLine": 33,
-          "endLine": 37,
+          "startLine": 44,
+          "endLine": 48,
           "tokens": 50
         },
         {
           "name": "response_digest",
           "kind": "fn",
-          "startLine": 38,
-          "endLine": 51,
+          "startLine": 49,
+          "endLine": 62,
           "tokens": 146
         },
         {
           "name": "assert_integrity",
           "kind": "fn",
-          "startLine": 52,
-          "endLine": 72,
+          "startLine": 63,
+          "endLine": 83,
           "tokens": 329
         },
         {
           "name": "active_product_safety_run",
           "kind": "fn",
-          "startLine": 73,
-          "endLine": 93,
-          "tokens": 179
+          "startLine": 84,
+          "endLine": 105,
+          "tokens": 194
         },
         {
           "name": "safety_metadata",
           "kind": "fn",
-          "startLine": 94,
-          "endLine": 123,
+          "startLine": 106,
+          "endLine": 135,
           "tokens": 307
         },
         {
           "name": "ProductSafetyRepository",
           "kind": "class",
-          "startLine": 124,
-          "endLine": 324,
-          "tokens": 2481
+          "startLine": 136,
+          "endLine": 542,
+          "tokens": 5280
         }
       ]
     },
     "src/scripts/herb_product_safety_index.py": {
       "description": "One local-model request per uncached catalog product; no corpus or association inference.",
-      "tokens": 3190,
-      "hash": "fefc8111bb73b9bc",
-      "size": 11162,
-      "mtimeMs": 1793191787208.4504,
-      "updatedAt": "2026-10-28T12:49:48.000Z",
+      "tokens": 3632,
+      "hash": "40a09b57afa8ec93",
+      "size": 12711,
+      "mtimeMs": 1793554271343.4724,
+      "updatedAt": "2026-11-01T17:31:11.597Z",
       "source": "hook",
       "symbols": [
         {
           "name": "ProductSafetyCoordinator",
           "kind": "class",
-          "startLine": 31,
-          "endLine": 191,
+          "startLine": 34,
+          "endLine": 194,
           "tokens": 2023
         },
         {
           "name": "run_product_safety_index",
           "kind": "fn",
-          "startLine": 192,
-          "endLine": 280,
-          "tokens": 866
+          "startLine": 195,
+          "endLine": 304,
+          "tokens": 1253
         }
       ]
     },
@@ -8450,6 +8632,486 @@
           "tokens": 1692
         }
       ]
+    },
+    "aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md": {
+      "description": "Plan: refacerea atentionarilor, contraindicatiilor si interactiunilor per produs naturist",
+      "tokens": 7102,
+      "hash": "5e4c4126314f376a",
+      "size": 28410,
+      "mtimeMs": 1793509484023.1294,
+      "updatedAt": "2026-11-01T05:04:44.313Z",
+      "source": "hook"
+    },
+    "src/backend/migrations/036_herb_safety_extension_cache.sql": {
+      "description": "One bilingual answer per product and stage serves both languages, so it has no language column.",
+      "tokens": 488,
+      "hash": "5a1db42e225d1583",
+      "size": 1830,
+      "mtimeMs": 1793510331854.301,
+      "updatedAt": "2026-11-01T05:18:52.134Z",
+      "source": "hook"
+    },
+    "src/backend/ai/prompts/herb_product_safety_bilingual_system.md": {
+      "description": "Safety of natural products, written in Romanian and English",
+      "tokens": 889,
+      "hash": "6fc1a02db242896a",
+      "size": 3555,
+      "mtimeMs": 1793512535961.8274,
+      "updatedAt": "2026-11-01T05:55:36.245Z",
+      "source": "hook"
+    },
+    "src/backend/ai/herb_product_safety_dedup.py": {
+      "description": "Merge bilingual stage answers into one list per product, once, without duplicates.",
+      "tokens": 1417,
+      "hash": "d054e522204bc34c",
+      "size": 4959,
+      "mtimeMs": 1793512248462.7085,
+      "updatedAt": "2026-11-01T05:50:48.714Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "Candidate",
+          "kind": "class",
+          "startLine": 16,
+          "endLine": 22,
+          "tokens": 46
+        },
+        {
+          "name": "RemovedPair",
+          "kind": "class",
+          "startLine": 23,
+          "endLine": 39,
+          "tokens": 152
+        },
+        {
+          "name": "MergeOutcome",
+          "kind": "class",
+          "startLine": 40,
+          "endLine": 50,
+          "tokens": 113
+        },
+        {
+          "name": "ExactMerge",
+          "kind": "class",
+          "startLine": 51,
+          "endLine": 57,
+          "tokens": 50
+        },
+        {
+          "name": "normalize",
+          "kind": "fn",
+          "startLine": 58,
+          "endLine": 66,
+          "tokens": 104
+        },
+        {
+          "name": "_replaces",
+          "kind": "fn",
+          "startLine": 67,
+          "endLine": 75,
+          "tokens": 95
+        },
+        {
+          "name": "_exact_match",
+          "kind": "fn",
+          "startLine": 76,
+          "endLine": 84,
+          "tokens": 122
+        },
+        {
+          "name": "exact_merge",
+          "kind": "fn",
+          "startLine": 85,
+          "endLine": 107,
+          "tokens": 297
+        },
+        {
+          "name": "finish_merge",
+          "kind": "fn",
+          "startLine": 108,
+          "endLine": 139,
+          "tokens": 323
+        }
+      ]
+    },
+    "src/scripts/herb_product_safety_extension.py": {
+      "description": "Bilingual product safety in batches: ministral and deepseek, one merge, a run per language.",
+      "tokens": 8449,
+      "hash": "46704b64cc18f3d5",
+      "size": 29570,
+      "mtimeMs": 1793542965846.8916,
+      "updatedAt": "2026-11-01T14:22:46.142Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "resolve_scope",
+          "kind": "fn",
+          "startLine": 84,
+          "endLine": 101,
+          "tokens": 211
+        },
+        {
+          "name": "batches_of",
+          "kind": "fn",
+          "startLine": 102,
+          "endLine": 106,
+          "tokens": 68
+        },
+        {
+          "name": "check_input_fits",
+          "kind": "fn",
+          "startLine": 107,
+          "endLine": 116,
+          "tokens": 109
+        },
+        {
+          "name": "ExtensionCoordinator",
+          "kind": "class",
+          "startLine": 117,
+          "endLine": 673,
+          "tokens": 7266
+        }
+      ]
+    },
+    "aiWork/e2e_extension.py": {
+      "description": "Q: answer, complete_json, complete_batch, embed + 1 more",
+      "tokens": 2251,
+      "hash": "d67802341ddaacea",
+      "size": 7876,
+      "mtimeMs": 1793510913100.657,
+      "updatedAt": "2026-11-01T05:28:33.359Z",
+      "source": "hook"
+    },
+    "aiPlans/2026-11-01-top-produse-pe-afectiune-formula-l1-l2-l3.md": {
+      "description": "Top produse pe afectiune: ordonare dupa formula L1/L2/L3",
+      "tokens": 3395,
+      "hash": "58ac85af19214381",
+      "size": 13607,
+      "mtimeMs": 1793512004968.0312,
+      "updatedAt": "2026-11-01T05:46:45.226Z",
+      "source": "hook"
+    },
+    "src/backend/ai/prompts/herb_product_safety_dedup_system.md": {
+      "description": "Deduplicating a product's safety messages",
+      "tokens": 443,
+      "hash": "ce9090a80f3d91d6",
+      "size": 1770,
+      "mtimeMs": 1793512538586.008,
+      "updatedAt": "2026-11-01T05:55:38.833Z",
+      "source": "hook"
+    },
+    "src/backend/migrations/037_herb_safety_dedup_stage.sql": {
+      "description": "The local-model deduplication of a product's messages is cached beside the generation stages.",
+      "tokens": 154,
+      "hash": "b89dfc4ab86c3aea",
+      "size": 574,
+      "mtimeMs": 1793512202229.0376,
+      "updatedAt": "2026-11-01T05:50:02.473Z",
+      "source": "hook"
+    },
+    "aiWork/patch_p3.py": {
+      "description": "patch, dedup_prompt, dedup_semantic, dedup_cache_key",
+      "tokens": 2155,
+      "hash": "b5e7239bc2b41185",
+      "size": 7584,
+      "mtimeMs": 1793512235307.9854,
+      "updatedAt": "2026-11-01T05:50:35.568Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "patch",
+          "kind": "fn",
+          "startLine": 1,
+          "endLine": 11,
+          "tokens": 105
+        },
+        {
+          "name": "dedup_prompt",
+          "kind": "fn",
+          "startLine": 12,
+          "endLine": 16,
+          "tokens": 53
+        },
+        {
+          "name": "dedup_semantic",
+          "kind": "fn",
+          "startLine": 17,
+          "endLine": 28,
+          "tokens": 116
+        },
+        {
+          "name": "dedup_cache_key",
+          "kind": "fn",
+          "startLine": 29,
+          "endLine": 34,
+          "tokens": 56
+        },
+        {
+          "name": "serialize_dedup_batch",
+          "kind": "fn",
+          "startLine": 35,
+          "endLine": 53,
+          "tokens": 167
+        },
+        {
+          "name": "dedup_response_schema",
+          "kind": "fn",
+          "startLine": 54,
+          "endLine": 84,
+          "tokens": 266
+        },
+        {
+          "name": "validate_dedup_groups",
+          "kind": "fn",
+          "startLine": 85,
+          "endLine": 104,
+          "tokens": 214
+        },
+        {
+          "name": "validate_dedup_response",
+          "kind": "fn",
+          "startLine": 105,
+          "endLine": 164,
+          "tokens": 1179
+        }
+      ]
+    },
+    "aiWork/patch_orch.py": {
+      "description": "sub, check_input_fits, check_input_fits",
+      "tokens": 3118,
+      "hash": "4d8baffe56246539",
+      "size": 10911,
+      "mtimeMs": 1793512307102.8303,
+      "updatedAt": "2026-11-01T05:51:47.351Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "sub",
+          "kind": "fn",
+          "startLine": 5,
+          "endLine": 301,
+          "tokens": 3089
+        }
+      ]
+    },
+    "aiWork/try_dedup_model.py": {
+      "description": "Throwaway: run the dedup stage of one product with another local model; writes nothing to the DB.",
+      "tokens": 507,
+      "hash": "0f1995e93e382020",
+      "size": 1773,
+      "mtimeMs": 1793513440721.623,
+      "updatedAt": "2026-11-01T06:10:40.960Z",
+      "source": "hook"
+    },
+    "aiWork/patch_gemma.py": {
+      "description": "patch, stage_digest, stage_digest",
+      "tokens": 1822,
+      "hash": "6e03baa937f5aa29",
+      "size": 6382,
+      "mtimeMs": 1793513604542.8477,
+      "updatedAt": "2026-11-01T06:13:24.808Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "patch",
+          "kind": "fn",
+          "startLine": 1,
+          "endLine": 123,
+          "tokens": 1822
+        }
+      ]
+    },
+    "aiWork/patch_reindex.py": {
+      "description": "patch",
+      "tokens": 676,
+      "hash": "49b572d7fac63809",
+      "size": 2363,
+      "mtimeMs": 1793514133345.1946,
+      "updatedAt": "2026-11-01T06:22:13.605Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "patch",
+          "kind": "fn",
+          "startLine": 1,
+          "endLine": 60,
+          "tokens": 676
+        }
+      ]
+    },
+    "aiWork/smoke_reindex.py": {
+      "description": "Throwaway: the normal reindex calls the safety extension once, publishes both runs.",
+      "tokens": 276,
+      "hash": "18413af3d259b102",
+      "size": 963,
+      "mtimeMs": 1793514160019.2417,
+      "updatedAt": "2026-11-01T06:22:40.265Z",
+      "source": "hook"
+    },
+    "aiWork/patch_ds_default.py": {
+      "description": "patch",
+      "tokens": 1119,
+      "hash": "5750aa6b09d5ab8e",
+      "size": 3925,
+      "mtimeMs": 1793514302534.865,
+      "updatedAt": "2026-11-01T06:25:02.820Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "patch",
+          "kind": "fn",
+          "startLine": 1,
+          "endLine": 108,
+          "tokens": 1119
+        }
+      ]
+    },
+    "aiWork/tail_new.py": {
+      "description": "prepare",
+      "tokens": 4472,
+      "hash": "ec3dc862e773a983",
+      "size": 15651,
+      "mtimeMs": 1793515383106.2078,
+      "updatedAt": "2026-11-01T06:43:03.401Z",
+      "source": "hook"
+    },
+    "aiWork/apply_tail.py": {
+      "description": "prepare, run_language, resumable_run",
+      "tokens": 951,
+      "hash": "b7b4fd33d6b0b1a6",
+      "size": 3328,
+      "mtimeMs": 1793515393641.5884,
+      "updatedAt": "2026-11-01T06:43:13.947Z",
+      "source": "hook"
+    },
+    "aiWork/e2e_resume.py": {
+      "description": "Q: msgs, complete_json, complete_batch, run",
+      "tokens": 1203,
+      "hash": "ccafa98327614edf",
+      "size": 4208,
+      "mtimeMs": 1793515411655.4268,
+      "updatedAt": "2026-11-01T06:43:31.905Z",
+      "source": "hook"
+    },
+    "aiWork/time_batches.py": {
+      "description": "Throwaway timing: one real qwen batch of 10 products, then one gemma dedup batch; nothing is saved.",
+      "tokens": 558,
+      "hash": "d91c4b1d7fbdab27",
+      "size": 1950,
+      "mtimeMs": 1793515489201.0813,
+      "updatedAt": "2026-11-01T06:44:49.452Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "timed",
+          "kind": "fn",
+          "startLine": 27,
+          "endLine": 55,
+          "tokens": 341
+        }
+      ]
+    },
+    "aiWork/gen_compare.py": {
+      "description": "Throwaway: the same 10-product generation batch with one model; saves the raw answer, no DB writes.",
+      "tokens": 654,
+      "hash": "4ac8e81da3d42935",
+      "size": 2286,
+      "mtimeMs": 1793516425585.4082,
+      "updatedAt": "2026-11-01T07:00:25.837Z",
+      "source": "hook"
+    },
+    "aiWork/patch_local_model.py": {
+      "description": "patch",
+      "tokens": 2073,
+      "hash": "1395563080d6b151",
+      "size": 7262,
+      "mtimeMs": 1793518065253.5503,
+      "updatedAt": "2026-11-01T07:27:45.557Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "patch",
+          "kind": "fn",
+          "startLine": 1,
+          "endLine": 150,
+          "tokens": 2073
+        }
+      ]
+    },
+    "src/backend/migrations/038_herb_safety_local_stage.sql": {
+      "description": "The local generation stage is no longer tied to one model family: its cached answers are",
+      "tokens": 204,
+      "hash": "2320c5b701983319",
+      "size": 764,
+      "mtimeMs": 1793518401173.7136,
+      "updatedAt": "2026-11-01T07:33:21.442Z",
+      "source": "hook"
+    },
+    "aiWork/gen_single.py": {
+      "description": "Throwaway: HERB_SAFETY_MINISTRAL_BATCH_SIZE=1 -- ten known products, one request each; no DB writes.",
+      "tokens": 649,
+      "hash": "47e132df6fb088fb",
+      "size": 2269,
+      "mtimeMs": 1793519146521.551,
+      "updatedAt": "2026-11-01T07:45:46.767Z",
+      "source": "hook"
+    },
+    "aiWork/check_run_stage.py": {
+      "description": "Throwaway: _run_stage with fakes -- local runs once, deepseek retries a transient failure.",
+      "tokens": 579,
+      "hash": "55383c287716200f",
+      "size": 2026,
+      "mtimeMs": 1793526262345.9495,
+      "updatedAt": "2026-11-01T09:44:22.612Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "fake_batch",
+          "kind": "fn",
+          "startLine": 16,
+          "endLine": 25,
+          "tokens": 62
+        },
+        {
+          "name": "Client",
+          "kind": "class",
+          "startLine": 26,
+          "endLine": 40,
+          "tokens": 106
+        },
+        {
+          "name": "Repo",
+          "kind": "class",
+          "startLine": 41,
+          "endLine": 45,
+          "tokens": 33
+        },
+        {
+          "name": "run",
+          "kind": "fn",
+          "startLine": 46,
+          "endLine": 74,
+          "tokens": 261
+        }
+      ]
+    },
+    "aiWork/check_write_retry.py": {
+      "description": "Throwaway: ProductSafetyRepository.transaction retries a busy index lock on writes only.",
+      "tokens": 382,
+      "hash": "f7bd93d80b64b302",
+      "size": 1334,
+      "mtimeMs": 1793534147719.1494,
+      "updatedAt": "2026-11-01T11:55:47.964Z",
+      "source": "hook"
+    },
+    "aiWork/why_dedup_rejected.py": {
+      "description": "Throwaway: send the products still without a cached grouping to gemma, one by one, and show",
+      "tokens": 604,
+      "hash": "985dc317c805709d",
+      "size": 2113,
+      "mtimeMs": 1793552904071.244,
+      "updatedAt": "2026-11-01T17:08:24.359Z",
+      "source": "hook"
     }
   },
   "preamble": [

@@ -2111,3 +2111,125 @@ description: chronological action log per session, consolidated weekly
 | 16:54 | Edited src/frontend/components/GeneratePanel.tsx | inline fix | ~51 |
 | 17:05 | Created aiWork/apply_limits.py | — | ~2797 |
 | 17:27 | Created aiWork/apply_model_limits.py | — | ~2794 |
+
+## Session: 2026-10-31 23:06
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 23:34 | Created aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | — | ~4179 |
+| 23:53 | Session end: 1 writes across 1 files (plan-extindere-atentionari-contraindicatii-interactiuni.md) | 6 reads | ~8316 tok |
+| 06:10 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | modified baza() | ~264 |
+| 06:10 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | inline fix | ~21 |
+| 06:10 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 1→2 lines | ~86 |
+| 06:10 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 1→2 lines | ~42 |
+| 06:10 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 2→3 lines | ~46 |
+| 06:11 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 3→4 lines | ~91 |
+| 06:11 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | inline fix | ~38 |
+| 06:11 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 2→2 lines | ~53 |
+| 06:11 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 5→7 lines | ~157 |
+| 06:11 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 3→4 lines | ~95 |
+| 06:11 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 2→2 lines | ~25 |
+| 06:11 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 2→2 lines | ~37 |
+| 06:11 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 24.000 → 28.000 | ~12 |
+| 06:11 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | inline fix | ~23 |
+| 06:11 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | inline fix | ~18 |
+| 06:11 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | inline fix | ~15 |
+| 06:32 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | expanded (+15 lines) | ~256 |
+| 06:32 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 1→4 lines | ~94 |
+| 06:32 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | expanded (+31 lines) | ~571 |
+| 06:32 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | inline fix | ~39 |
+| 06:32 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | modified domeniu() | ~65 |
+| 06:32 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 3→5 lines | ~118 |
+| 06:32 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | expanded (+14 lines) | ~366 |
+| 06:32 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 2→3 lines | ~59 |
+| 06:33 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 2→5 lines | ~99 |
+| 06:46 | Created aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | — | ~5998 |
+| 06:59 | Created aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | — | ~6866 |
+| 07:04 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 1→6 lines | ~122 |
+| 07:04 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 1→6 lines | ~130 |
+| 07:04 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | expanded (+8 lines) | ~223 |
+| 07:04 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 1→2 lines | ~75 |
+| 07:04 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | expanded (+9 lines) | ~299 |
+| 07:04 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | 3→8 lines | ~178 |
+| 07:04 | Edited aiPlans/plan-extindere-atentionari-contraindicatii-interactiuni.md | inline fix | ~58 |
+
+## Session: 2026-11-01 07:14
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 07:18 | Created src/backend/migrations/036_herb_safety_extension_cache.sql | — | ~488 |
+| 07:19 | Created src/backend/ai/prompts/herb_product_safety_bilingual_system.md | — | ~965 |
+| 07:19 | Edited src/backend/config.py | modified normalize_latin() | ~464 |
+| 07:19 | Edited src/backend/config.py | added 1 import(s) | ~35 |
+| 07:19 | Edited src/backend/config.py | expanded (+7 lines) | ~160 |
+| 07:19 | Edited src/backend/config.py | expanded (+7 lines) | ~228 |
+| 07:19 | Edited src/backend/config.py | added 2 condition(s) | ~446 |
+| 07:20 | Created src/backend/ai/herb_product_safety.py | — | ~3887 |
+| 07:21 | Created src/backend/ai/herb_product_safety_dedup.py | — | ~1644 |
+| 07:21 | Edited src/backend/ai/herb_product_safety_repository.py | 7→11 lines | ~74 |
+| 07:21 | Edited src/backend/ai/herb_product_safety_repository.py | product_semantic() → semantic_is_current() | ~53 |
+| 07:21 | Edited src/backend/ai/herb_product_safety_repository.py | product_semantic() → semantic_is_current() | ~52 |
+| 07:21 | Edited src/backend/ai/herb_product_safety_repository.py | 5→7 lines | ~75 |
+| 07:22 | Edited src/backend/ai/herb_product_safety_repository.py | modified extension_schema_available() | ~1751 |
+| 07:24 | Created src/scripts/herb_product_safety_extension.py | — | ~5246 |
+| 07:28 | Created aiWork/e2e_extension.py | — | ~2251 |
+
+## Session: 2026-11-01 07:41
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+<!-- session:ZTkyZDQ3YjUtYTI3ZS00ZGU0LTg2MzgtNjdmZjVkN2YzYjJj -->
+| 2026-11-01T05:41:39.595Z | Implemented bilingual safety extension (migration 036, bilingual prompt/schema, qwen+deepseek batch stages, dedup, two-language runs, scoped generation, CLI flag --safety-deepseek); off by default | src/backend/config.py,src/backend/ai/herb_product_safety.py,src/backend/ai/herb_product_safety_dedup.py,src/backend/ai/herb_product_safety_repository.py,src/scripts/herb_product_safety_extension.py,src/scripts/herb_index_requests.py,src/scripts/herb_product_safety_index.py,src/scripts/build_hybrid_index.py | unit 452 OK, integration 138 passed, ruff/mypy OK, e2e smoke with fake clients OK; real models and pilot not run |
+| 07:43 | Created aiPlans/2026-11-01-top-produse-pe-afectiune-formula-l1-l2-l3.md | — | ~3429 |
+| 07:46 | Edited aiPlans/2026-11-01-top-produse-pe-afectiune-formula-l1-l2-l3.md | 2→2 lines | ~126 |
+| 07:46 | Edited aiPlans/2026-11-01-top-produse-pe-afectiune-formula-l1-l2-l3.md | pereche() → count() | ~265 |
+| 07:46 | Edited aiPlans/2026-11-01-top-produse-pe-afectiune-formula-l1-l2-l3.md | inline fix | ~207 |
+| 07:46 | Edited aiPlans/2026-11-01-top-produse-pe-afectiune-formula-l1-l2-l3.md | inline fix | ~63 |
+| 07:50 | Created src/backend/ai/prompts/herb_product_safety_dedup_system.md | — | ~407 |
+| 07:50 | Created src/backend/migrations/037_herb_safety_dedup_stage.sql | — | ~154 |
+| 07:50 | Created aiWork/patch_p3.py | — | ~2155 |
+| 07:50 | Created src/backend/ai/herb_product_safety_dedup.py | — | ~1417 |
+| 07:51 | Created aiWork/patch_orch.py | — | ~3118 |
+| 07:55 | Created src/backend/ai/prompts/herb_product_safety_bilingual_system.md | — | ~948 |
+| 07:55 | Created src/backend/ai/prompts/herb_product_safety_dedup_system.md | — | ~472 |
+| 07:57 | Edited src/backend/ai/herb_product_safety.py | 5→5 lines | ~57 |
+| 07:57 | Edited src/backend/ai/herb_product_safety.py | modified latin_only() | ~108 |
+| 08:10 | Created aiWork/try_dedup_model.py | — | ~507 |
+| 08:13 | Created aiWork/patch_gemma.py | — | ~1822 |
+| 08:18 | Session end: 5 writes across 1 files (2026-11-01-top-produse-pe-afectiune-formula-l1-l2-l3.md) | 6 reads | ~7299 tok |
+| 08:18 | Session end: 27 writes across 14 files (036_herb_safety_extension_cache.sql, herb_product_safety_bilingual_system.md, config.py, herb_product_safety.py, herb_product_safety_dedup.py) | 10 reads | ~44330 tok |
+| 08:22 | Created aiWork/patch_reindex.py | — | ~676 |
+| 08:22 | Created aiWork/smoke_reindex.py | — | ~276 |
+| 08:25 | Created aiWork/patch_ds_default.py | — | ~1119 |
+| 08:43 | Created aiWork/tail_new.py | — | ~4472 |
+| 08:43 | Created aiWork/apply_tail.py | — | ~951 |
+| 08:43 | Created aiWork/e2e_resume.py | — | ~1203 |
+| 08:44 | Created aiWork/time_batches.py | — | ~558 |
+| 09:00 | Created aiWork/gen_compare.py | — | ~654 |
+| 09:27 | Created aiWork/patch_local_model.py | — | ~2073 |
+| 09:33 | Created src/backend/migrations/038_herb_safety_local_stage.sql | — | ~204 |
+| 09:45 | Created aiWork/gen_single.py | — | ~649 |
+| 11:32 | Edited src/scripts/herb_product_safety_extension.py | expanded (+7 lines) | ~116 |
+| 11:32 | Edited src/scripts/herb_product_safety_extension.py | added error handling | ~679 |
+| 11:32 | Edited src/scripts/herb_product_safety_extension.py | added 1 import(s) | ~30 |
+| 11:44 | Edited src/scripts/herb_product_safety_extension.py | inline fix | ~19 |
+| 11:44 | Created aiWork/check_run_stage.py | — | ~579 |
+
+## Session: 2026-11-01 13:44
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 13:55 | Edited src/backend/ai/herb_product_safety_repository.py | added error handling | ~235 |
+| 13:55 | Edited src/backend/ai/herb_product_safety_repository.py | added 1 import(s) | ~41 |
+| 13:55 | Edited src/backend/ai/herb_product_safety_repository.py | added 1 import(s) | ~35 |
+| 13:55 | Edited src/backend/ai/herb_product_safety_repository.py | modified schema_available() | ~31 |
+| 13:55 | Created aiWork/check_write_retry.py | — | ~382 |
+| 16:22 | Edited src/scripts/herb_product_safety_extension.py | modified request() | ~736 |
+| 16:22 | Edited src/scripts/herb_product_safety_extension.py | modified request() | ~568 |
+| 16:22 | Edited src/scripts/herb_product_safety_extension.py | added error handling | ~203 |
+| 16:22 | Edited src/scripts/herb_product_safety_extension.py | 2→7 lines | ~93 |
+| 19:08 | Created aiWork/why_dedup_rejected.py | — | ~604 |
+| 19:09 | Edited src/backend/ai/herb_product_safety.py | update() → remove() | ~298 |
+| 19:30 | Edited src/scripts/herb_product_safety_index.py | modified nullcontext() | ~194 |
+| 19:31 | Edited src/scripts/herb_product_safety_index.py | modified nullcontext() | ~77 |
+| 19:38 | Edited src/backend/ai/herb_product_safety_repository.py | expanded (+9 lines) | ~343 |
