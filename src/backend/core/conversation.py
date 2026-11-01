@@ -822,6 +822,26 @@ class ConversationService:
                         if herb["ranking"] == 1
                         else tr("conversation.condition_plural")
                     )
+                    # L1 and L2 exist only for per-condition tops; zero counts are not shown.
+                    title_fragments = herb.get("title_fragments", 0)
+                    text_fragments = herb.get("text_fragments", 0)
+                    fragments = (
+                        tr(
+                            "conversation.herb_ranking_title_fragments_"
+                            + ("one" if title_fragments == 1 else "other"),
+                            count=title_fragments,
+                        )
+                        if title_fragments
+                        else ""
+                    ) + (
+                        tr(
+                            "conversation.herb_ranking_text_fragments_"
+                            + ("one" if text_fragments == 1 else "other"),
+                            count=text_fragments,
+                        )
+                        if text_fragments
+                        else ""
+                    )
                     name = herb["ro"][:1].upper() + herb["ro"][1:]
                     latin = f" ({herb['latin'].title()})" if herb["latin"] else ""
                     with operation_budget(self.budget(operation)):
@@ -834,6 +854,7 @@ class ConversationService:
                             latin=latin,
                             count=herb["ranking"],
                             conditions=conditions,
+                            fragments=fragments,
                             aliases=aliases,
                             useful=useful,
                         )

@@ -24,6 +24,7 @@ from backend.core.report_models import (
     ReportModel,
     parse_report_models,
 )
+from backend.core.score_formula import DEFAULT_FORMULA, compile_formula
 
 ROOT = Path(__file__).resolve().parents[2]
 CORPUS_DATA_DIR = ROOT / "medicina-naturista-documente" / "data"
@@ -311,6 +312,8 @@ class Settings:
     herb_safety_generation_model: str = "ministral-3:8b"
     # Empty keeps the single-product monolingual flow; see parse_safety_scope.
     herb_safety_extension_products: str = ""
+    # Orders "top N <category> for <condition>"; see core/score_formula.py for the grammar.
+    herb_condition_top_formula: str = DEFAULT_FORMULA
     message_classification_timeout_seconds: int = 10
     message_classification_max_output_tokens: int = 300
     ai_stream: bool = False
@@ -477,6 +480,9 @@ class Settings:
                 "HERB_SAFETY_GENERATION_MODEL", "ministral-3:8b"
             ).strip(),
             herb_safety_extension_products=env.get("HERB_SAFETY_EXTENSION_PRODUCTS", "").strip(),
+            herb_condition_top_formula=env.get(
+                "HERB_CONDITION_TOP_FORMULA", DEFAULT_FORMULA
+            ).strip(),
             message_classification_timeout_seconds=_int(
                 "MESSAGE_CLASSIFICATION_TIMEOUT_SECONDS", 10, env=env
             ),
@@ -665,6 +671,7 @@ class Settings:
             raise ValueError("herb_safety_dedup_model must be an explicit model tag")
         if any(c.isspace() for c in self.herb_safety_generation_model):
             raise ValueError("herb_safety_generation_model must be empty or a model tag")
+        compile_formula(self.herb_condition_top_formula)
         if not isinstance(self.herb_safety_extension_products, str):
             raise ValueError("herb_safety_extension_products must be a string")
         # Batch sizes matter only while the bilingual extension is active, so the single-product

@@ -116,6 +116,11 @@ class SettingsTests(unittest.TestCase):
             {"PUBLIC_ORIGIN": "https://public.example:0"},
             {"PUBLIC_ORIGIN": "https://public.example\n.evil.example"},
             {"PUBLIC_ORIGIN": "*"},
+            {"HERB_CONDITION_TOP_FORMULA": "__import__('os').system('x')"},
+            {"HERB_CONDITION_TOP_FORMULA": "L1**9"},
+            {"HERB_CONDITION_TOP_FORMULA": "L4+L1"},
+            {"HERB_CONDITION_TOP_FORMULA": "1/(L1-1)"},
+            {"HERB_CONDITION_TOP_FORMULA": "2*L1+"},
         ):
             with self.subTest(env=env), self.assertRaises(ValueError):
                 Settings.from_env(env)

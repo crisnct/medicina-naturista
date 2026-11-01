@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-01T17:38:01.054Z
-> Files: 283 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-01T20:17:04.059Z
+> Files: 286 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -12,7 +12,7 @@
 - `.dockerignore` (~107 tok)
 - `AGENTS.md` — AGENTS.md (~3128 tok)
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
-- `docker-compose.yaml` — Docker Compose: 4 services (~2378 tok)
+- `docker-compose.yaml` — Docker Compose: 4 services (~2416 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
 - `README.md` — Project documentation (~39805 tok)
 
@@ -203,7 +203,7 @@
 
 ## src/backend/
 
-- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~11445 tok)
+- `config.py` — Environment-backed settings. No patient data belongs in configuration or logs. (~11704 tok)
 
 ## src/backend/ai/
 
@@ -217,6 +217,7 @@
 - `herb_association_scope.py` — Verify local disease identities and source boundaries without fuzzy equivalence. (~2170 tok)
 - `herb_caution_projection.py` — Project warnings locally from existing rules and validated model responses; never infer. (~2968 tok)
 - `herb_caution_repository.py` — Persist local warning projections and publish compatible positive/caution generations atomically. (~4798 tok)
+- `herb_condition_scores.py` — Precompute L1, L2 and L3 per product and condition for the active positive generation. (~1572 tok)
 - `herb_conditions.py` — Read a product's positive conditions from the same published generation as its ranking. (~1771 tok)
 - `herb_display.py` — Restore unambiguous product spellings using the operation's bundled dictionary. (~528 tok)
 - `herb_evidence.py` — Read complete source fragments from one published positive-association generation. (~2546 tok)
@@ -273,6 +274,7 @@
 - `report_batches.py` — Whole-fragment batches and lossless exact deduplication for one report worker. (~825 tok)
 - `report_generation.py` — Process-owned execution; session admission bounds the executor's pending work. (~2642 tok)
 - `report_models.py` — Supported report choices and their immutable provider routing. (~1355 tok)
+- `score_formula.py` — Operator-supplied arithmetic over L1, L2 and L3; parsed from a whitelist, never `eval`-ed. (~736 tok)
 - `sessions.py` — Atomic tab lifetimes, operation commits and bounded ephemeral retention. (~16342 tok)
 - `text_contract.py` — Generated key/parameter contract. Regenerate with scripts.manage_texts --generate. (~6290 tok)
 - `texts.py` — Validated bilingual copy with immutable catalogs selected by execution context. (~1002 tok)
@@ -298,6 +300,7 @@
 - `032_bilingual_chunks.sql` — Existing data is Romanian. New importers always supply the root's explicit language. (~480 tok)
 - `034_bilingual_derived_generations.sql` — Each language owns its publication pointer; existing generations remain Romanian. (~276 tok)
 - `036_herb_safety_extension_cache.sql` — One bilingual answer per product and stage serves both languages, so it has no language column. (~488 tok)
+- `037_herb_condition_scores.sql` — Per-condition fragment counts of the eligible products, precomputed so a top never scans fragments. (~613 tok)
 - `037_herb_safety_dedup_stage.sql` — The local-model deduplication of a product's messages is cached beside the generation stages. (~154 tok)
 - `038_herb_safety_local_stage.sql` — The local generation stage is no longer tied to one model family: its cached answers are (~204 tok)
 
@@ -414,7 +417,7 @@
 
 ## src/tests/unit/web/
 
-- `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~9203 tok)
+- `test_message_routing.py` — Intent routing, cancellation and email claims with isolated HTTP dependencies. (~9278 tok)
 - `test_report_metrics.py` — HTTP model binding, strict score validation and receipt idempotency. (~1677 tok)
 - `test_sessions_owner.py` — HTTP races, owner revocation and streaming limits, using synthetic dependencies. (~10126 tok)
 - `test_web.py` — Smoke tests for the local web application; no live xAI requests. (~29629 tok)

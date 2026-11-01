@@ -81,4 +81,5 @@ def test_index_lock_conflict_does_not_query_ranking():
         connection.execute.return_value.fetchone.return_value = (False,)
         with pytest.raises(IndexUnavailable):
             list_top_herbs(20)
-        assert connection.execute.call_count == 3
+        # Isolation level plus the combined lock and timeout statement; no ranking query follows.
+        assert connection.execute.call_count == 2

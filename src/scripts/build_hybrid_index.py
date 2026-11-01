@@ -1467,6 +1467,11 @@ def parse_args() -> argparse.Namespace:
         metavar="RUN_ID",
         help="Atomically activate prepared product safety without inference",
     )
+    modes.add_argument(
+        "--rebuild-condition-scores",
+        action="store_true",
+        help="Recompute L1/L2/L3 for the active positive run of --language; no AI, no embeddings",
+    )
     parser.add_argument("--resume-safety-warnings", metavar="RUN_ID")
     modes.add_argument(
         "--prepare-positive-ranking",
@@ -1507,6 +1512,14 @@ def parse_args() -> argparse.Namespace:
     return arguments
 
 
+# Orders per-condition tops by L1/L2/L3, which belong to one positive generation.
+def _rebuild_condition_scores() -> None:
+    from backend.ai.herb_condition_scores import rebuild_condition_scores
+    from scripts.herb_index_requests import emit_index_event
+
+    emit_index_event(rebuild_condition_scores())
+
+
 # Run ranking preparation after the index writer has released its transaction and lock.
 def main() -> int:
     from backend.config import Settings, configure_settings
@@ -1544,6 +1557,7 @@ def _execute_arguments(arguments: argparse.Namespace) -> int:
         or arguments.publish_positive_ranking
         or arguments.prepare_caution_ranking
         or arguments.publish_caution_ranking
+        or arguments.rebuild_condition_scores
         or safety_stage
     )
     release_model = bool(
@@ -1565,6 +1579,8 @@ def _execute_arguments(arguments: argparse.Namespace) -> int:
             from scripts.caution_herb_ranking import run_caution_ranking
 
             run_caution_ranking(settings, publish=arguments.publish_caution_ranking)
+        elif arguments.rebuild_condition_scores:
+            _rebuild_condition_scores()
         elif ranking_stage:
             from scripts.positive_herb_ranking import run_positive_ranking
 
@@ -1574,6 +1590,9 @@ def _execute_arguments(arguments: argparse.Namespace) -> int:
                 publish=arguments.publish_positive_ranking,
                 resume=arguments.resume_positive_ranking,
             )
+            # A newly activated positive run has no scores until they are computed for it.
+            if arguments.publish_positive_ranking:
+                _rebuild_condition_scores()
         else:
             if arguments.rebuild_herbs_only:
                 rebuild_herbs_only()
@@ -1591,6 +1610,7 @@ def _execute_arguments(arguments: argparse.Namespace) -> int:
                 for language in LANGUAGES:
                     with language_scope(language):
                         refresh_positive_ranking(settings)
+                        _rebuild_condition_scores()
                 # With the bilingual extension enabled the reindex also rebuilds the safety lists
                 # of the chosen products (both languages in one pass) and publishes them.
                 if settings.herb_safety_extension_products:
@@ -1606,7 +1626,9 @@ def _execute_arguments(arguments: argparse.Namespace) -> int:
                 json.dumps(
                     {
                         "status": "error",
-                        "code": "HERB_SAFETY_FAILED"
+                        "code": "CONDITION_SCORES_FAILED"
+                        if arguments.rebuild_condition_scores
+                        else "HERB_SAFETY_FAILED"
                         if safety_stage
                         else "CAUTION_RANKING_FAILED"
                         if caution_stage
@@ -1614,7 +1636,8 @@ def _execute_arguments(arguments: argparse.Namespace) -> int:
                         "type": type(exc).__name__,
                         "detail": str(exc)
                         if re.fullmatch(
-                            r"(?:POSITIVE|CAUTION|HERB_SAFETY)_[A-Z_]+(?::[0-9]+)*", str(exc)
+                            r"(?:POSITIVE|CAUTION|HERB_SAFETY|CONDITION_SCORES)_[A-Z_]+(?::[0-9]+)*",
+                            str(exc),
                         )
                         else "See aggregate run progress",
                     }

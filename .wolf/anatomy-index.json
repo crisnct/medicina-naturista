@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-01T17:38:01.054Z",
-    "fileCount": 283,
+    "lastScanned": "2026-11-01T20:17:04.059Z",
+    "fileCount": 286,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "13698b5b78a71e26194a37efe1902a6181d4ac7f1b97b7059c5f5e4478eea3fc",
-    "storeUpdatedAt": "2026-11-01T17:38:01.065Z",
-    "rootHash": "c004131f07e18a6c"
+    "renderedHash": "8f0ec00746cdf01607c85a2499b6e9975b67de1c4b29fa94a2aa6412a901faab",
+    "storeUpdatedAt": "2026-11-01T20:17:04.069Z",
+    "rootHash": "6b569d015fa32d83"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -353,11 +353,11 @@
     },
     "docker-compose.yaml": {
       "description": "Docker Compose: 4 services",
-      "tokens": 2378,
-      "hash": "f31bde6a052fc435",
-      "size": 8322,
-      "mtimeMs": 1793395847760.9797,
-      "updatedAt": "2026-10-30T21:30:48.076Z",
+      "tokens": 2416,
+      "hash": "71014d2202e0fcbd",
+      "size": 8453,
+      "mtimeMs": 1793556080586.412,
+      "updatedAt": "2026-11-01T18:01:20.892Z",
       "source": "hook"
     },
     "src/backend/web/main.py": {
@@ -1439,11 +1439,11 @@
     },
     "src/tests/unit/web/test_message_routing.py": {
       "description": "Intent routing, cancellation and email claims with isolated HTTP dependencies.",
-      "tokens": 9203,
-      "hash": "9ca0ed678ccbaafd",
-      "size": 32310,
-      "mtimeMs": 1793007013315.386,
-      "updatedAt": "2026-10-26T09:30:14.099Z",
+      "tokens": 9278,
+      "hash": "fe64e4f35cf58106",
+      "size": 32567,
+      "mtimeMs": 1793564223758.1658,
+      "updatedAt": "2026-11-01T20:17:04.058Z",
       "source": "hook",
       "symbols": [
         {
@@ -1500,7 +1500,7 @@
           "kind": "fn",
           "startLine": 113,
           "endLine": 188,
-          "tokens": 1048
+          "tokens": 1046
         },
         {
           "name": "test_top_without_count_asks_then_accepts_count_only",
@@ -1527,119 +1527,119 @@
           "name": "test_plant_returns_structured_results_without_search_or_identification",
           "kind": "fn",
           "startLine": 289,
-          "endLine": 416,
-          "tokens": 1645
+          "endLine": 439,
+          "tokens": 1715
         },
         {
           "name": "test_plant_clarification_is_passed_to_the_next_classification",
           "kind": "fn",
-          "startLine": 417,
-          "endLine": 440,
+          "startLine": 440,
+          "endLine": 463,
           "tokens": 269
         },
         {
           "name": "test_named_reply_finishes_plant_clarification_and_returns_results",
           "kind": "fn",
-          "startLine": 441,
-          "endLine": 474,
+          "startLine": 464,
+          "endLine": 497,
           "tokens": 380
         },
         {
           "name": "test_shared_name_lists_species_then_uses_only_the_user_choice",
           "kind": "fn",
-          "startLine": 475,
-          "endLine": 507,
+          "startLine": 498,
+          "endLine": 530,
           "tokens": 404
         },
         {
           "name": "test_classification_is_reused_without_duplicate_messages_or_calls",
           "kind": "fn",
-          "startLine": 508,
-          "endLine": 519,
+          "startLine": 531,
+          "endLine": 542,
           "tokens": 178
         },
         {
           "name": "test_new_message_discards_late_classification_and_concurrent_call_is_rejected",
           "kind": "fn",
-          "startLine": 520,
-          "endLine": 546,
+          "startLine": 543,
+          "endLine": 569,
           "tokens": 307
         },
         {
           "name": "test_classification_requires_revision_and_search_cannot_bypass_it",
           "kind": "fn",
-          "startLine": 547,
-          "endLine": 553,
+          "startLine": 570,
+          "endLine": 576,
           "tokens": 93
         },
         {
           "name": "test_email_selects_previous_report_before_classification_and_never_resends",
           "kind": "fn",
-          "startLine": 554,
-          "endLine": 584,
+          "startLine": 577,
+          "endLine": 607,
           "tokens": 354
         },
         {
           "name": "test_email_needs_one_explicit_valid_address",
           "kind": "fn",
-          "startLine": 585,
-          "endLine": 599,
+          "startLine": 608,
+          "endLine": 622,
           "tokens": 163
         },
         {
           "name": "test_email_clarification_keeps_its_report_and_can_be_completed_with_address",
           "kind": "fn",
-          "startLine": 600,
-          "endLine": 614,
+          "startLine": 623,
+          "endLine": 637,
           "tokens": 197
         },
         {
           "name": "test_email_without_report_does_not_search",
           "kind": "fn",
-          "startLine": 615,
-          "endLine": 624,
+          "startLine": 638,
+          "endLine": 647,
           "tokens": 126
         },
         {
           "name": "test_email_failure_keeps_pdf_and_claim_prevents_automatic_retry",
           "kind": "fn",
-          "startLine": 625,
-          "endLine": 640,
+          "startLine": 648,
+          "endLine": 663,
           "tokens": 205
         },
         {
           "name": "test_provider_failure_has_controlled_fallback_and_cannot_send_email",
           "kind": "fn",
-          "startLine": 641,
-          "endLine": 651,
+          "startLine": 664,
+          "endLine": 674,
           "tokens": 118
         },
         {
           "name": "test_bare_email_retains_deterministic_fallback",
           "kind": "fn",
-          "startLine": 652,
-          "endLine": 661,
+          "startLine": 675,
+          "endLine": 684,
           "tokens": 107
         },
         {
           "name": "test_duplicate_message_id_cannot_resend_email_even_after_other_messages",
           "kind": "fn",
-          "startLine": 662,
-          "endLine": 683,
+          "startLine": 685,
+          "endLine": 706,
           "tokens": 320
         },
         {
           "name": "test_local_classifier_failure_is_explained_in_the_fallback",
           "kind": "fn",
-          "startLine": 684,
-          "endLine": 695,
+          "startLine": 707,
+          "endLine": 718,
           "tokens": 145
         },
         {
           "name": "test_named_remedy_reply_starts_search_despite_model_clarification",
           "kind": "fn",
-          "startLine": 696,
-          "endLine": 721,
+          "startLine": 719,
+          "endLine": 744,
           "tokens": 351
         }
       ]
@@ -2126,116 +2126,116 @@
     },
     "src/backend/config.py": {
       "description": "Environment-backed settings. No patient data belongs in configuration or logs.",
-      "tokens": 11445,
-      "hash": "8e595e88905a87d4",
-      "size": 40056,
-      "mtimeMs": 1793510358522.1619,
-      "updatedAt": "2026-11-01T05:19:18.828Z",
+      "tokens": 11704,
+      "hash": "25a54cb276814548",
+      "size": 40964,
+      "mtimeMs": 1793556079437.2402,
+      "updatedAt": "2026-11-01T18:01:19.705Z",
       "source": "hook",
       "symbols": [
         {
           "name": "_default_context",
           "kind": "fn",
-          "startLine": 36,
-          "endLine": 39,
+          "startLine": 37,
+          "endLine": 40,
           "tokens": 44
         },
         {
           "name": "_default_effort",
           "kind": "fn",
-          "startLine": 40,
-          "endLine": 46,
+          "startLine": 41,
+          "endLine": 47,
           "tokens": 124
         },
         {
           "name": "_model_limits",
           "kind": "fn",
-          "startLine": 47,
-          "endLine": 103,
+          "startLine": 48,
+          "endLine": 104,
           "tokens": 712
         },
         {
           "name": "_freeze_ollama_output_limits",
           "kind": "fn",
-          "startLine": 104,
-          "endLine": 118,
+          "startLine": 105,
+          "endLine": 119,
           "tokens": 172
         },
         {
           "name": "_ollama_output_limits",
           "kind": "fn",
-          "startLine": 119,
-          "endLine": 146,
+          "startLine": 120,
+          "endLine": 147,
           "tokens": 323
         },
         {
           "name": "_int",
           "kind": "fn",
-          "startLine": 147,
-          "endLine": 162,
+          "startLine": 148,
+          "endLine": 163,
           "tokens": 139
         },
         {
           "name": "_bool",
           "kind": "fn",
-          "startLine": 163,
-          "endLine": 182,
+          "startLine": 164,
+          "endLine": 183,
           "tokens": 200
         },
         {
           "name": "SafetyScope",
           "kind": "class",
-          "startLine": 183,
-          "endLine": 189,
+          "startLine": 184,
+          "endLine": 190,
           "tokens": 61
         },
         {
           "name": "normalize_latin",
           "kind": "fn",
-          "startLine": 190,
-          "endLine": 194,
+          "startLine": 191,
+          "endLine": 195,
           "tokens": 52
         },
         {
           "name": "parse_safety_scope",
           "kind": "fn",
-          "startLine": 195,
-          "endLine": 211,
+          "startLine": 196,
+          "endLine": 212,
           "tokens": 212
         },
         {
           "name": "safety_output_estimate",
           "kind": "fn",
-          "startLine": 212,
-          "endLine": 219,
+          "startLine": 213,
+          "endLine": 220,
           "tokens": 74
         },
         {
           "name": "_embedding_device",
           "kind": "fn",
-          "startLine": 220,
-          "endLine": 230,
+          "startLine": 221,
+          "endLine": 231,
           "tokens": 128
         },
         {
           "name": "_ai_provider",
           "kind": "fn",
-          "startLine": 231,
-          "endLine": 238,
+          "startLine": 232,
+          "endLine": 239,
           "tokens": 72
         },
         {
           "name": "Settings",
           "kind": "class",
-          "startLine": 239,
-          "endLine": 830,
-          "tokens": 8753
+          "startLine": 240,
+          "endLine": 844,
+          "tokens": 8992
         },
         {
           "name": "configure_settings",
           "kind": "fn",
-          "startLine": 831,
-          "endLine": 843,
+          "startLine": 845,
+          "endLine": 857,
           "tokens": 137
         }
       ]
@@ -9112,6 +9112,65 @@
       "mtimeMs": 1793552904071.244,
       "updatedAt": "2026-11-01T17:08:24.359Z",
       "source": "hook"
+    },
+    "src/backend/core/score_formula.py": {
+      "description": "Operator-supplied arithmetic over L1, L2 and L3; parsed from a whitelist, never `eval`-ed.",
+      "tokens": 736,
+      "hash": "ee06e4752d7e6ec7",
+      "size": 2576,
+      "mtimeMs": 1793556061316.808,
+      "updatedAt": "2026-11-01T18:01:01.592Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "_build",
+          "kind": "fn",
+          "startLine": 28,
+          "endLine": 46,
+          "tokens": 280
+        },
+        {
+          "name": "compile_formula",
+          "kind": "fn",
+          "startLine": 47,
+          "endLine": 68,
+          "tokens": 268
+        }
+      ]
+    },
+    "src/backend/migrations/037_herb_condition_scores.sql": {
+      "description": "Per-condition fragment counts of the eligible products, precomputed so a top never scans fragments.",
+      "tokens": 613,
+      "hash": "2f9c77383f2009ef",
+      "size": 2296,
+      "mtimeMs": 1793556110560.9248,
+      "updatedAt": "2026-11-01T18:01:50.810Z",
+      "source": "hook"
+    },
+    "src/backend/ai/herb_condition_scores.py": {
+      "description": "Precompute L1, L2 and L3 per product and condition for the active positive generation.",
+      "tokens": 1572,
+      "hash": "52f9a3fef3be0b06",
+      "size": 5499,
+      "mtimeMs": 1793556123221.8313,
+      "updatedAt": "2026-11-01T18:02:03.419Z",
+      "source": "hook",
+      "symbols": [
+        {
+          "name": "_text_fragments",
+          "kind": "fn",
+          "startLine": 27,
+          "endLine": 58,
+          "tokens": 318
+        },
+        {
+          "name": "rebuild_condition_scores",
+          "kind": "fn",
+          "startLine": 59,
+          "endLine": 129,
+          "tokens": 938
+        }
+      ]
     }
   },
   "preamble": [

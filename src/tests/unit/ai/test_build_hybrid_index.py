@@ -1125,15 +1125,20 @@ class ChunkingTests(unittest.TestCase):
             patch.object(builder, "rebuild_herbs_only") as rebuild_associations,
             patch.object(ranking, "refresh_positive_ranking") as refresh_rankings,
             patch.object(ranking, "run_positive_ranking") as explicit_stage,
+            patch.object(builder, "_rebuild_condition_scores") as condition_scores,
             redirect_stdout(output),
             redirect_stderr(output),
         ):
             ordering = Mock()
             ordering.attach_mock(build_index, "index")
             ordering.attach_mock(refresh_rankings, "rankings")
+            ordering.attach_mock(condition_scores, "scores")
             with patch("sys.argv", ["build_hybrid_index"]):
                 self.assertEqual(builder.main(), 0)
-            self.assertEqual([c[0] for c in ordering.mock_calls], ["index", "rankings", "rankings"])
+            self.assertEqual(
+                [c[0] for c in ordering.mock_calls],
+                ["index", "rankings", "scores", "rankings", "scores"],
+            )
             refresh_rankings.reset_mock()
             with patch("sys.argv", ["build_hybrid_index", "--skip-positive-ranking"]):
                 self.assertEqual(builder.main(), 0)

@@ -277,6 +277,9 @@ class RankedHerb(TypedDict):
     latin: str
     ro_regional: list[str]
     ranking: int
+    # Only per-condition tops: L1 and L2 for the requested condition.
+    title_fragments: NotRequired[int]
+    text_fragments: NotRequired[int]
 
 
 ListTopHerbs = Callable[[int, HerbCategory | None], list[RankedHerb]]

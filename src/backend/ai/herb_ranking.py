@@ -12,7 +12,12 @@ from psycopg_pool import PoolTimeout
 from backend.ai import db
 from backend.ai.conditions import _normalize
 from backend.ai.herb_display import romanian_herb_name, warm_up_names
-from backend.ai.herb_run_cache import active_run, condition_dictionary
+from backend.ai.herb_run_cache import (
+    active_run,
+    condition_dictionary,
+    condition_ids,
+    published_state,
+)
 from backend.ai.index_state import INDEX_LOCK, IndexUnavailable
 from backend.config import Settings
 from backend.config import settings as default_settings
@@ -21,6 +26,7 @@ from backend.core.errors import ApplicationError
 from backend.core.herb_categories import HERB_CATEGORIES, HerbCategory
 from backend.core.language import LANGUAGES, current_language, language_scope
 from backend.core.operation_context import remaining_timeout
+from backend.core.score_formula import compile_formula
 
 logger = logging.getLogger("naturist.herbs")
 
@@ -30,7 +36,6 @@ WITH top_herbs AS (
     FROM herbs h JOIN herb_positive_rankings r ON r.herb_id=h.id
     WHERE r.run_id=%s AND r.ranking>0
     {category_filter}
-    {condition_filter}
     ORDER BY ranking DESC, id
     LIMIT %s
 )
@@ -43,12 +48,21 @@ GROUP BY h.id, h.ro, h.latin, h.ranking
 ORDER BY h.ranking DESC, h.id
 """
 
-CONDITION_FILTER_SQL = """
-AND EXISTS (
-    SELECT 1 FROM herb_positive_pairs p
-    WHERE p.run_id = r.run_id AND p.herb_id = h.id
-      AND p.medical_condition_id = %s AND p.state = 'positive'
-)
+# L1, L2 and L3 are precomputed per condition, so a request reads one index range and sorts it.
+CONDITION_SCORES_SQL = """
+SELECT s.herb_id, s.title_fragments, s.text_fragments, s.conditions_count
+FROM herb_condition_scores s {category_join}
+WHERE s.positive_run_id=%s AND s.medical_condition_id=%s
+"""
+
+HERB_DETAILS_SQL = """
+SELECT h.id, h.ro, h.latin,
+       COALESCE(array_agg(a.name ORDER BY a.id)
+                FILTER (WHERE a.id IS NOT NULL), ARRAY[]::text[])
+FROM herbs h
+LEFT JOIN herb_aliases a ON a.herb_id = h.id AND a.kind = 'ro_regional'
+WHERE h.id = ANY(%s)
+GROUP BY h.id, h.ro, h.latin
 """
 
 
@@ -67,42 +81,20 @@ def _ranking_connection() -> Iterator[psycopg.Connection]:
             connection.transaction(),
         ):
             connection.execute("SET TRANSACTION ISOLATION LEVEL REPEATABLE READ READ ONLY")
-            connection.execute(
-                "SELECT set_config('statement_timeout', %s, true)",
-                (str(max(1, int(remaining_timeout(10.0) * 1000))),),
-            )
+            # One round trip: the shared advisory lock and both timeouts.
             row = connection.execute(
-                "SELECT pg_try_advisory_xact_lock_shared(%s)", (INDEX_LOCK,)
+                "SELECT pg_try_advisory_xact_lock_shared(%s), "
+                "set_config('statement_timeout', %s, true), set_config('lock_timeout', '1000', true)",
+                (INDEX_LOCK, str(max(1, int(remaining_timeout(10.0) * 1000)))),
             ).fetchone()
             if row is None or not row[0]:
                 raise IndexUnavailable()
-            connection.execute("SELECT set_config('lock_timeout', '1000', true)")
             yield connection
     except (psycopg.Error, PoolTimeout):
         raise IndexUnavailable("INDEX_HERBS_UNAVAILABLE") from None
 
 
-def _ranking_rows(
-    connection: psycopg.Connection,
-    run_id: str,
-    count: int,
-    category: HerbCategory | None,
-    condition_id: int | None = None,
-) -> list[RankedHerb]:
-    query = TOP_HERBS_SQL.replace(
-        "{category_filter}", "AND h.category = %s" if category else ""
-    ).replace("{condition_filter}", CONDITION_FILTER_SQL if condition_id is not None else "")
-    if current_language() == "en":
-        query = query.replace(
-            "h.id, h.ro, h.latin", "h.id, COALESCE(NULLIF(h.en,''),h.latin) AS ro, h.latin", 1
-        ).replace("a.kind = 'ro_regional'", "a.kind = 'en_alt'")
-    parameters: list[object] = [run_id]
-    if category is not None:
-        parameters.append(category)
-    if condition_id is not None:
-        parameters.append(condition_id)
-    parameters.append(count)
-    rows = connection.execute(query, parameters).fetchall()
+def _ranked(rows: list) -> list[RankedHerb]:
     return [
         {
             "ro": romanian_herb_name(name, latin=latin or "") if name != latin else name,
@@ -112,6 +104,73 @@ def _ranking_rows(
         }
         for name, latin, ranking, aliases in rows
     ]
+
+
+def _english(query: str) -> str:
+    if current_language() != "en":
+        return query
+    return query.replace(
+        "h.id, h.ro, h.latin", "h.id, COALESCE(NULLIF(h.en,''),h.latin) AS ro, h.latin", 1
+    ).replace("a.kind = 'ro_regional'", "a.kind = 'en_alt'")
+
+
+def _ranking_rows(
+    connection: psycopg.Connection, run_id: str, count: int, category: HerbCategory | None
+) -> list[RankedHerb]:
+    query = _english(
+        TOP_HERBS_SQL.replace("{category_filter}", "AND h.category = %s" if category else "")
+    )
+    parameters: list[object] = [run_id]
+    if category is not None:
+        parameters.append(category)
+    parameters.append(count)
+    rows = connection.execute(query, parameters).fetchall()
+    return _ranked(rows)
+
+
+# Orders eligible products by the operator's formula, then by L3 and ID so ties stay stable.
+def _condition_rows(
+    connection: psycopg.Connection,
+    run_id: str,
+    count: int,
+    category: HerbCategory | None,
+    condition_id: int,
+    formula: str,
+) -> list[RankedHerb]:
+    query = CONDITION_SCORES_SQL.replace(
+        "{category_join}",
+        "JOIN herbs h ON h.id = s.herb_id AND h.category = %s" if category else "",
+    )
+    parameters: list[object] = [category] if category is not None else []
+    scores = connection.execute(query, [*parameters, run_id, condition_id]).fetchall()
+    if not scores:
+        # An absent marker means the scores were never computed; an empty set is a valid answer.
+        if (
+            connection.execute(
+                "SELECT 1 FROM herb_condition_score_runs WHERE positive_run_id=%s", (run_id,)
+            ).fetchone()
+            is None
+        ):
+            raise IndexUnavailable("INDEX_HERBS_UNAVAILABLE")
+        return []
+    score = compile_formula(formula)
+    top = sorted(scores, key=lambda row: (-score(row[1], row[2], row[3]), -row[3], row[0]))[:count]
+    details = {
+        row[0]: row
+        for row in connection.execute(
+            _english(HERB_DETAILS_SQL), ([herb_id for herb_id, *_ in top],)
+        ).fetchall()
+    }
+    ranked = _ranked(
+        [
+            (details[herb_id][1], details[herb_id][2], l3, details[herb_id][3])
+            for herb_id, _, _, l3 in top
+        ]
+    )
+    for herb, (_, l1, l2, _) in zip(ranked, top, strict=True):
+        herb["title_fragments"] = l1
+        herb["text_fragments"] = l2
+    return ranked
 
 
 def list_top_herbs(
@@ -133,8 +192,9 @@ def list_top_herbs_for_condition(
     if not isinstance(condition, str) or not condition.strip() or len(condition) > 240:
         raise ValueError("INVALID_HERB_TOP_CONDITION")
     with _ranking_connection() as connection:
-        run_id = active_run(connection, settings)
-        dictionary = condition_dictionary(connection)
+        state = published_state(connection)
+        run_id = active_run(connection, settings, state)
+        dictionary = condition_dictionary(connection, state)
         matches = dictionary.exact_matches(condition)
         if not matches:
             resolved = dictionary.resolve(condition)
@@ -156,12 +216,7 @@ def list_top_herbs_for_condition(
             return {"status": "not_found"}
         if len(matches) > 1:
             return {"status": "ambiguous", "choices": [item.display_name for item in matches[:10]]}
-        row = connection.execute(
-            "SELECT id, "
-            + ("en" if current_language() == "en" else "name")
-            + " FROM medical_conditions WHERE name = %s",
-            (matches[0].name,),
-        ).fetchone()
+        row = condition_ids(connection, state).get(matches[0].name)
         if row is None:
             raise IndexUnavailable("INDEX_RESYNC_REQUIRED")
         condition_id, name = row
@@ -169,7 +224,14 @@ def list_top_herbs_for_condition(
             "status": "found",
             "condition": {"id": condition_id, "name": name},
             "positiveRunId": run_id,
-            "herbs": _ranking_rows(connection, run_id, count, category, condition_id),
+            "herbs": _condition_rows(
+                connection,
+                run_id,
+                count,
+                category,
+                condition_id,
+                settings.herb_condition_top_formula,
+            ),
         }
 
 

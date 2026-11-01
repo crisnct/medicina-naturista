@@ -2233,3 +2233,14 @@ description: chronological action log per session, consolidated weekly
 | 19:30 | Edited src/scripts/herb_product_safety_index.py | modified nullcontext() | ~194 |
 | 19:31 | Edited src/scripts/herb_product_safety_index.py | modified nullcontext() | ~77 |
 | 19:38 | Edited src/backend/ai/herb_product_safety_repository.py | expanded (+9 lines) | ~343 |
+| 20:01 | Created src/backend/core/score_formula.py | — | ~736 |
+| 20:01 | Edited src/backend/config.py | 2→4 lines | ~55 |
+| 20:01 | Edited src/backend/config.py | 2→5 lines | ~66 |
+| 20:01 | Edited src/backend/config.py | modified isinstance() | ~59 |
+| 20:01 | Edited src/backend/config.py | added 1 import(s) | ~31 |
+| 20:01 | Edited docker-compose.yaml | 2→3 lines | ~44 |
+| 20:01 | Created src/backend/migrations/037_herb_condition_scores.sql | — | ~613 |
+| 20:02 | Created src/backend/ai/herb_condition_scores.py | — | ~1572 |
+<!-- session:MTlmMmE1ZjEtOTA3Yi00YTYzLThhNjEtZjMwM2UwZDE3ZGY2 -->
+| 2026-11-01T18:23:49.349Z | Implemented L1/L2/L3 formula ordering for per-condition herb tops: formula parser + HERB_CONDITION_TOP_FORMULA, migration 037 score tables, build step + CLI mode, ranking query, RO/EN notice, README; adapted existing tests. | src/backend/core/score_formula.py,src/backend/ai/herb_condition_scores.py,src/backend/ai/herb_ranking.py,src/backend/ai/herb_run_cache.py,src/backend/migrations/037_herb_condition_scores.sql,src/scripts/build_hybrid_index.py | 452 unit + 41 integration/ranking tests, ruff, mypy passed; real DB not touched |
+| 22:17 | Edited src/tests/unit/web/test_message_routing.py | 3→3 lines | ~54 |
