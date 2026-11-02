@@ -6,8 +6,9 @@ import json
 import logging
 from collections.abc import Sequence
 from dataclasses import dataclass
+from difflib import get_close_matches
 
-from backend.ai.conditions import _normalize
+from backend.ai.conditions import MAX_MATCHED_CONDITIONS, TYPO_CUTOFF, _normalize
 from backend.ai.english_inflections import word_variants as english_word_variants
 from backend.ai.romanian_inflections import word_variants
 from backend.core.herb_categories import BOTANICAL_CATEGORY as BOTANICAL_CATEGORY
@@ -24,6 +25,7 @@ RUNTIME_FIELDS = (*FIELDS, "category")
 _PLANT_PARTS = frozenset(
     ("mugur", "mugure", "floare", "frunza", "radacina", "scoarta", "coaja", "fruct", "samanta")
 )
+TYPO_CUTOFFS = (TYPO_CUTOFF, 0.88, 0.86, 0.84, 0.82, 0.80, 0.78, 0.76)
 
 
 @dataclass(frozen=True)
@@ -150,7 +152,7 @@ class HerbCatalog:
         self._request_names = frozenset(selected_names)
         self._plant_parts = frozenset(form for part in parts for form in variants[part])
         # Expand selected-language names word by word; Latin stays exact.
-        # There is no Cartesian product of multiword names and no fuzzy spelling.
+        # There is no Cartesian product of multiword names; only request_matches tolerates a typo.
         self._phrases: dict[str, list[tuple[str, tuple[frozenset[str], ...]]]] = {}
         for name in sorted(self._by_name):
             phrase = tuple(
@@ -208,6 +210,15 @@ class HerbCatalog:
             and all(word in forms for word, forms in zip(words, phrase))
         }
         owners = {herb.id for term in names for herb in self._by_name[term]}
+        # Typo tolerance over selected-language names: the strict cutoff of the condition
+        # dictionary first, then looser ones only while nothing has matched.
+        for cutoff in TYPO_CUTOFFS:
+            if owners:
+                break
+            close = get_close_matches(
+                key, self._request_names, n=MAX_MATCHED_CONDITIONS, cutoff=cutoff
+            )
+            owners = {herb.id for term in close for herb in self._by_name[term]}
         return [herb for herb in self.herbs if herb.id in owners]
 
     def _matching_names(
@@ -233,6 +244,14 @@ class HerbCatalog:
         reply = _normalize(message)
         if not reply:
             return None
+        if reply.isdigit():
+            # The menu position of a choice, in the order the choices were listed.
+            position = int(reply)
+            if not 1 <= position <= len(choices):
+                return None
+            chosen = _normalize(choices[position - 1])
+            matches = [herb for herb in self.herbs if _normalize(herb.choice) == chosen]
+            return matches[0] if len(matches) == 1 else None
         matches = [
             herb
             for herb in self.herbs

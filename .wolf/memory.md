@@ -2301,3 +2301,93 @@ description: chronological action log per session, consolidated weekly
 | 13:44 | Edited src/frontend/styles.css | inline fix | ~16 |
 | 13:46 | Edited src/frontend/styles.css | inline fix | ~22 |
 | 13:47 | Edited src/frontend/styles.css | 1→4 lines | ~94 |
+| 14:06 | Edited src/frontend/styles.css | 1→3 lines | ~87 |
+| 14:18 | Edited src/backend/core/conversation.py | 2→2 lines | ~45 |
+| 14:18 | Edited src/tests/unit/web/test_message_routing.py | "1. plante medicinale\n2. " → "1. Plante medicinale\n2. " | ~12 |
+| 14:19 | Edited src/tests/unit/web/test_message_routing.py | "11. minerale" → "11. Minerale" | ~7 |
+| 14:19 | Edited src/frontend/styles.css | inline fix | ~12 |
+| 14:20 | Edited src/frontend/styles.css | CSS: font-style | ~25 |
+| 14:20 | Edited src/frontend/styles.css | inline fix | ~13 |
+| 14:20 | Edited src/frontend/styles.css | CSS: margin-right, transform | ~30 |
+| 14:20 | Edited src/frontend/styles.css | CSS: margin-right | ~24 |
+| 14:21 | Edited src/backend/resources/texts.ro.toml | 1→3 lines | ~28 |
+| 14:21 | Edited src/backend/resources/texts.en.toml | 1→3 lines | ~30 |
+| 14:21 | Edited src/frontend/hooks/useCategories.ts | 1→2 lines | ~28 |
+| 14:21 | Edited src/frontend/components/Hero.tsx | inline fix | ~31 |
+| 14:21 | Edited src/frontend/components/Hero.tsx | inline fix | ~48 |
+| 14:21 | Edited src/frontend/App.tsx | inline fix | ~18 |
+| 14:22 | Edited src/frontend/styles.css | inline fix | ~18 |
+| 14:22 | Edited src/frontend/styles.css | 4→4 lines | ~23 |
+| 14:23 | Edited src/backend/resources/texts.ro.toml | 1→3 lines | ~34 |
+| 14:23 | Edited src/backend/resources/texts.en.toml | 1→3 lines | ~34 |
+| 14:23 | Edited src/frontend/components/FragmentsPanel.tsx | 1→2 lines | ~46 |
+| 14:23 | Edited src/frontend/components/FragmentsPanel.tsx | inline fix | ~51 |
+| 14:25 | Edited src/frontend/lib/inlineMarkdown.tsx | added 1 condition(s) | ~169 |
+| 14:25 | Edited src/frontend/styles.css | CSS: font-size, line-height | ~34 |
+| 14:26 | Edited src/backend/ai/herbs.py | modified _matching_names() | ~156 |
+| 14:26 | Edited src/backend/ai/herbs.py | modified _one_typo_apart() | ~242 |
+| 14:26 | Edited src/backend/ai/herbs.py | inline fix | ~28 |
+| 14:27 | Edited src/frontend/styles.css | CSS: line-height | ~73 |
+| 14:27 | Edited src/frontend/styles.css | 9→9 lines | ~66 |
+| 14:28 | Edited src/backend/ai/herbs.py | — | ~0 |
+| 14:28 | Edited src/backend/ai/herbs.py | added 1 import(s) | ~55 |
+| 14:28 | Edited src/backend/ai/herbs.py | 8→6 lines | ~96 |
+| 14:32 | Edited src/backend/ai/herbs.py | 6→9 lines | ~133 |
+| 14:32 | Edited src/backend/ai/herbs.py | 3→4 lines | ~40 |
+| 14:36 | Edited src/backend/ai/herbs.py | inline fix | ~20 |
+| 14:43 | Edited src/backend/resources/texts.ro.toml | 1→2 lines | ~38 |
+| 14:43 | Edited src/backend/resources/texts.en.toml | 1→2 lines | ~36 |
+| 14:43 | Edited src/backend/core/conversation.py | expanded (+6 lines) | ~102 |
+| 14:44 | Edited src/backend/ai/herbs.py | modified isdigit() | ~163 |
+| 16:24 | Edited src/frontend/styles.css | 2→2 lines | ~12 |
+| 16:27 | Edited src/backend/ai/conditions.py | added 1 import(s) | ~32 |
+| 16:27 | Edited src/backend/ai/conditions.py | modified _normalize() | ~62 |
+| 16:27 | Edited src/frontend/hooks/useCategories.ts | added error handling | ~188 |
+| 16:27 | Edited src/frontend/hooks/useCategories.ts | added optional chaining | ~72 |
+| 16:27 | Edited src/frontend/hooks/useCategories.ts | inline fix | ~18 |
+| 16:34 | Edited src/backend/web/main.py | added error handling | ~141 |
+| 16:34 | Edited src/backend/web/main.py | modified _warm_categories() | ~68 |
+| 16:34 | Edited src/backend/web/main.py | modified isinstance() | ~106 |
+| 16:34 | Edited src/backend/ai/retrieval.py | modified cached_document_count() | ~148 |
+| 16:34 | Edited src/frontend/api/types.ts | 4→5 lines | ~28 |
+| 16:35 | Edited src/backend/ai/retrieval.py | modified cached_document_counts() | ~142 |
+| 16:35 | Edited src/backend/web/main.py | cached_document_count() → cached_document_counts() | ~59 |
+| 16:35 | Edited src/frontend/api/types.ts | 4→4 lines | ~26 |
+| 16:35 | Edited src/frontend/api/types.ts | inline fix | ~12 |
+| 16:35 | Edited src/frontend/hooks/useConversation.ts | 2→3 lines | ~38 |
+| 16:35 | Edited src/frontend/App.tsx | added optional chaining | ~31 |
+| 16:35 | Edited src/frontend/hooks/useCategories.ts | removed 21 lines | ~5 |
+| 16:35 | Edited src/frontend/hooks/useCategories.ts | removed 5 lines | ~6 |
+| 16:35 | Edited src/frontend/hooks/useCategories.ts | added optional chaining | ~18 |
+| 16:49 | Created src/backend/migrations/039_medical_conditions_version.sql | — | ~463 |
+| 16:49 | Edited src/backend/ai/condition_repository.py | modified __init__() | ~71 |
+| 16:49 | Edited src/backend/ai/condition_repository.py | 2→4 lines | ~66 |
+| 16:49 | Edited src/backend/ai/condition_repository.py | 3→4 lines | ~31 |
+| 16:49 | Edited src/backend/ai/condition_repository.py | added error handling | ~600 |
+| 16:49 | Edited src/backend/ai/condition_repository.py | added 1 import(s) | ~22 |
+| 16:49 | Edited src/backend/ai/condition_repository.py | added 1 import(s) | ~29 |
+| 16:49 | Edited src/backend/ai/condition_repository.py | 2→3 lines | ~22 |
+| 16:49 | Edited src/backend/ai/index_state.py | modified dictionary_snapshot() | ~61 |
+| 16:49 | Edited src/backend/ai/index_state.py | modified except() | ~257 |
+| 16:55 | Edited src/tests/unit/ai/test_condition_repository.py | 2→4 lines | ~60 |
+| 16:55 | Edited src/tests/unit/ai/test_condition_repository.py | 2→3 lines | ~68 |
+| 17:24 | Edited src/frontend/lib/scoreFilter.ts | 5→9 lines | ~85 |
+| 17:25 | Created src/frontend/hooks/useMinScore.ts | — | ~222 |
+| 17:25 | Edited src/frontend/components/FragmentsPanel.tsx | useState() → useMinScore() | ~25 |
+| 17:25 | Edited src/frontend/components/GeneratePanel.tsx | inline fix | ~19 |
+| 17:25 | Edited src/frontend/components/FragmentsPanel.tsx | added 1 import(s) | ~36 |
+| 17:25 | Edited src/frontend/components/GeneratePanel.tsx | added 1 import(s) | ~36 |
+| 17:28 | Edited src/frontend/styles.css | inline fix | ~20 |
+| 17:30 | Edited src/frontend/components/GeneratePanel.tsx | inline fix | ~17 |
+| 17:30 | Edited src/frontend/components/GeneratePanel.tsx | CSS: top, behavior | ~195 |
+| 17:30 | Edited src/frontend/components/GeneratePanel.tsx | 5→9 lines | ~116 |
+| 17:31 | Edited src/frontend/styles.css | inline fix | ~19 |
+| 17:40 | Created src/frontend/components/LanguageSelect.tsx | — | ~1393 |
+| 17:40 | Edited src/frontend/App.tsx | 7→5 lines | ~120 |
+| 17:40 | Edited src/frontend/App.tsx | added 1 import(s) | ~38 |
+| 17:40 | Edited src/frontend/styles.css | expanded (+62 lines) | ~380 |
+| 17:40 | Edited src/frontend/App.test.tsx | change() → click() | ~40 |
+| 17:40 | Edited src/frontend/App.test.tsx | change() → click() | ~41 |
+| 17:41 | Edited src/frontend/components/LanguageSelect.tsx | 3→3 lines | ~25 |
+| 17:43 | Edited src/frontend/styles.css | CSS: position, z-index | ~23 |
+| 17:50 | Edited src/frontend/styles.css | 16→16 lines | ~154 |

@@ -4,6 +4,7 @@ import { Hero } from "./components/Hero";
 import { ChatHistory } from "./components/ChatHistory";
 import { Composer } from "./components/Composer";
 import { CategoryFilterPanel } from "./components/CategoryFilterPanel";
+import { LanguageSelect } from "./components/LanguageSelect";
 import { OwnerNotice } from "./components/OwnerNotice";
 import { useConversation } from "./hooks/useConversation";
 import { useCategories } from "./hooks/useCategories";
@@ -61,13 +62,11 @@ export function App() {
 
   return (
     <div id="app-shell">
-      <Hero controls={<div className="language-selector">
-        <label htmlFor="application-language">{language === "en" ? "Language" : "Limbă"}</label>
-        <select id="application-language" value={language}
+      <Hero documentCount={categories.documentCount ?? conversation.documentCounts?.[language] ?? null} controls={<div className="language-selector">
+        <span id="application-language-label">{language === "en" ? "Language" : "Limbă"}</span>
+        <LanguageSelect value={language} labelId="application-language-label"
           disabled={changingLanguage || conversation.isLoading || conversation.isSending || conversation.isGenerating || conversation.isReconnecting || !startup.ready}
-          onChange={(event) => void changeLanguage(event.target.value as Language)}>
-          <option value="ro">Română</option><option value="en">English</option>
-        </select>
+          onChange={(next) => void changeLanguage(next)} />
       </div>} />
       {languageError && <p role="alert">{tr("interface.api_unexpected_error")}</p>}
       <div id="conversation-card">

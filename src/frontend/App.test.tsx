@@ -36,14 +36,16 @@ describe("session admission", () => {
     fireEvent.click(topExamples[1]);
     expect(screen.getByRole("textbox")).toHaveValue("Top 10 produse naturiste pentru gripa");
     expect(screen.queryByRole("alert")).not.toBeInTheDocument();
-    fireEvent.change(screen.getByRole("combobox", { name: "Limbă" }), { target: { value: "en" } });
+    fireEvent.click(screen.getByRole("combobox", { name: "Limbă" }));
+    fireEvent.click(screen.getByRole("option", { name: "English" }));
     await screen.findByRole("combobox", { name: "Language" });
     expect(languageChange).toHaveBeenCalledWith("en");
     expect(screen.getByRole("button", { name: "Send" })).toBeInTheDocument();
     expect(screen.getByText("Mesaj păstrat")).toBeInTheDocument();
     expect(document.documentElement.lang).toBe("en");
     expect(localStorage.getItem("naturist_language")).toBe("en");
-    fireEvent.change(screen.getByRole("combobox", { name: "Language" }), { target: { value: "ro" } });
+    fireEvent.click(screen.getByRole("combobox", { name: "Language" }));
+    fireEvent.click(screen.getByRole("option", { name: "Română" }));
     await screen.findByRole("combobox", { name: "Limbă" });
   });
 

@@ -2584,8 +2584,8 @@
       "observed_worktree": "D:\\Workspace\\medicina-naturista",
       "id": "bug-144",
       "timestamp": "2026-10-24T05:32:00.336Z",
-      "last_seen": "2026-10-24T05:32:00.336Z",
-      "occurrences": 1,
+      "last_seen": "2026-11-02T14:34:42.057Z",
+      "occurrences": 2,
       "related_bugs": []
     },
     {
@@ -7771,6 +7771,456 @@
       "last_seen": "2026-11-02T11:47:03.889Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: color",
+      "file": "src/frontend/styles.css",
+      "root_cause": "color: var(--nature-danger) → #777",
+      "fix": "Changed color: var(--nature-danger) → #777",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-433",
+      "timestamp": "2026-11-02T12:06:32.342Z",
+      "last_seen": "2026-11-02T12:06:32.342Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/backend/core/conversation.py",
+      "root_cause": "Had \"{position}. {label}\"",
+      "fix": "Changed to \"{position}. {label[:1].upper()}{label[1:]}\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-434",
+      "timestamp": "2026-11-02T12:18:21.340Z",
+      "last_seen": "2026-11-02T12:18:21.340Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/unit/web/test_message_routing.py",
+      "root_cause": "Had \"1. plante medicinale\\n2. fructe\"",
+      "fix": "Changed to \"1. Plante medicinale\\n2. Fructe\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-435",
+      "timestamp": "2026-11-02T12:18:27.182Z",
+      "last_seen": "2026-11-02T12:18:27.182Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/tests/unit/web/test_message_routing.py",
+      "root_cause": "Had \"11. minerale\"",
+      "fix": "Changed to \"11. Minerale\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-436",
+      "timestamp": "2026-11-02T12:19:06.581Z",
+      "last_seen": "2026-11-02T12:19:06.581Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: 20px should be 16px",
+      "file": "src/frontend/styles.css",
+      "root_cause": "Used \"20px\" instead of \"16px\"",
+      "fix": "Changed 20px → 16px",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-437",
+      "timestamp": "2026-11-02T12:19:21.799Z",
+      "last_seen": "2026-11-02T12:19:21.799Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: font-size",
+      "file": "src/frontend/styles.css",
+      "root_cause": "font-size: 15px → 13px",
+      "fix": "Changed font-size: 15px → 13px",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-438",
+      "timestamp": "2026-11-02T12:20:05.250Z",
+      "last_seen": "2026-11-02T12:20:05.250Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: 14px should be 12px",
+      "file": "src/frontend/styles.css",
+      "root_cause": "Used \"14px\" instead of \"12px\"",
+      "fix": "Changed 14px → 12px",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-439",
+      "timestamp": "2026-11-02T12:20:07.457Z",
+      "last_seen": "2026-11-02T12:22:38.060Z",
+      "occurrences": 2,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: span should be typeof",
+      "file": "src/frontend/components/Hero.tsx",
+      "root_cause": "Used \"span\" instead of \"typeof\"",
+      "fix": "Changed span → typeof",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-440",
+      "timestamp": "2026-11-02T12:21:54.320Z",
+      "last_seen": "2026-11-02T12:21:54.320Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: controls should be documentCount",
+      "file": "src/frontend/App.tsx",
+      "root_cause": "Used \"controls\" instead of \"documentCount\"",
+      "fix": "Changed controls → documentCount",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-441",
+      "timestamp": "2026-11-02T12:21:56.618Z",
+      "last_seen": "2026-11-02T12:21:56.618Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: font-size",
+      "file": "src/frontend/styles.css",
+      "root_cause": "font-size: 14px → 12px",
+      "fix": "Changed font-size: 14px → 12px",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-442",
+      "timestamp": "2026-11-02T12:22:40.333Z",
+      "last_seen": "2026-11-02T12:22:40.333Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: gap, padding, font-size",
+      "file": "src/frontend/styles.css",
+      "root_cause": "gap: 16px → 12px; padding: max(16px, env(safe-area-inset-top)) 20px 16px → max(6px, env(safe-area-inset-top)) 16px 6px; font-size: 24px → 18px",
+      "fix": "Changed gap: 16px → 12px; padding: max(16px, env(safe-area-inset-top)) 20px 16px → max(6px, env(safe-area-inset-top)) 16px 6px; font-size: 24px → 18px",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-443",
+      "timestamp": "2026-11-02T12:27:19.086Z",
+      "last_seen": "2026-11-02T12:27:19.086Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of herbs.py",
+      "file": "src/backend/ai/herbs.py",
+      "root_cause": "3 lines replaced/restructured",
+      "fix": "Rewrote 6→9 lines (3 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-444",
+      "timestamp": "2026-11-02T12:32:52.273Z",
+      "last_seen": "2026-11-02T12:32:52.273Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: 22px should be 46px",
+      "file": "src/frontend/styles.css",
+      "root_cause": "Used \"22px\" instead of \"46px\"",
+      "fix": "Changed 22px → 46px",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-445",
+      "timestamp": "2026-11-02T14:24:55.923Z",
+      "last_seen": "2026-11-02T14:24:55.923Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in rememberedCount()",
+      "file": "src/frontend/hooks/useCategories.ts",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-446",
+      "timestamp": "2026-11-02T14:27:31.726Z",
+      "last_seen": "2026-11-02T14:27:31.726Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Null/undefined access in useCategories.ts",
+      "file": "src/frontend/hooks/useCategories.ts",
+      "root_cause": "Property access on potentially null/undefined value",
+      "fix": "Added null safety (optional chaining or null check)",
+      "tags": [
+        "auto-detected",
+        "null-safety",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-447",
+      "timestamp": "2026-11-02T14:27:33.845Z",
+      "last_seen": "2026-11-02T14:35:27.030Z",
+      "occurrences": 2,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: generationFeedback should be documentCounts",
+      "file": "src/frontend/hooks/useConversation.ts",
+      "root_cause": "Used \"generationFeedback\" instead of \"documentCounts\"",
+      "fix": "Changed generationFeedback → documentCounts",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-448",
+      "timestamp": "2026-11-02T14:35:15.757Z",
+      "last_seen": "2026-11-02T14:35:15.757Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Null/undefined access in App.tsx",
+      "file": "src/frontend/App.tsx",
+      "root_cause": "Property access on potentially null/undefined value",
+      "fix": "Added null safety (optional chaining or null check)",
+      "tags": [
+        "auto-detected",
+        "null-safety",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-449",
+      "timestamp": "2026-11-02T14:35:17.874Z",
+      "last_seen": "2026-11-02T14:35:17.874Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing error handling in read_version()",
+      "file": "src/backend/ai/condition_repository.py",
+      "root_cause": "Code path had no error handling — exceptions would propagate uncaught",
+      "fix": "Added try/catch block",
+      "tags": [
+        "auto-detected",
+        "error-handling",
+        "py"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-450",
+      "timestamp": "2026-11-02T14:49:38.479Z",
+      "last_seen": "2026-11-02T14:49:38.479Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of scoreFilter.ts",
+      "file": "src/frontend/lib/scoreFilter.ts",
+      "root_cause": "2 lines replaced/restructured",
+      "fix": "Rewrote 5→9 lines (2 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "ts"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-451",
+      "timestamp": "2026-11-02T15:24:50.289Z",
+      "last_seen": "2026-11-02T15:24:50.289Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/components/FragmentsPanel.tsx",
+      "root_cause": "Had \"../lib/scoreFilter\"",
+      "fix": "Changed to \"../hooks/useMinScore\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-452",
+      "timestamp": "2026-11-02T15:25:50.391Z",
+      "last_seen": "2026-11-02T15:25:50.391Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/components/GeneratePanel.tsx",
+      "root_cause": "Had \"../lib/scoreFilter\"",
+      "fix": "Changed to \"../hooks/useMinScore\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-453",
+      "timestamp": "2026-11-02T15:25:52.820Z",
+      "last_seen": "2026-11-02T15:25:52.820Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Missing guard clause",
+      "file": "src/frontend/components/GeneratePanel.tsx",
+      "root_cause": "No early return/throw for edge case: minScoreSelectTop.current === null || !minScoreSelect.curren",
+      "fix": "Added guard clause: if (minScoreSelectTop.current === null || !m)",
+      "tags": [
+        "auto-detected",
+        "guard-clause",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-454",
+      "timestamp": "2026-11-02T15:30:56.022Z",
+      "last_seen": "2026-11-02T15:30:56.022Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: padding, border-radius, background",
+      "file": "src/frontend/styles.css",
+      "root_cause": "padding: 5px 8px → 3px 8px 3px 6px; border-radius: 6px → 4px; background: #fff → #edf3ee",
+      "fix": "Changed padding: 5px 8px → 3px 8px 3px 6px; border-radius: 6px → 4px; background: #fff → #edf3ee",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-455",
+      "timestamp": "2026-11-02T15:40:16.550Z",
+      "last_seen": "2026-11-02T15:40:16.550Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/App.test.tsx",
+      "root_cause": "Had \"en\"",
+      "fix": "Changed to \"option\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-456",
+      "timestamp": "2026-11-02T15:40:23.946Z",
+      "last_seen": "2026-11-02T15:40:26.117Z",
+      "occurrences": 2,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/components/LanguageSelect.tsx",
+      "root_cause": "Had \"language-flag\"",
+      "fix": "Changed to \", \"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-457",
+      "timestamp": "2026-11-02T15:41:00.415Z",
+      "last_seen": "2026-11-02T15:41:00.415Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -8230,7 +8680,36 @@
     "59ee3baa-137a-473f-9add-2b20ee3a280a": true,
     "1816229f-2881-4f13-ac62-aea87d977e39": true,
     "146c1e5e-013b-4f2c-a02f-d3d0cb4484bc": true,
-    "3a30e52a-3b28-4093-82c1-810c05f40020": true
+    "3a30e52a-3b28-4093-82c1-810c05f40020": true,
+    "1396c5c3-975b-46bc-8fe2-a2f4323674dc": true,
+    "e7333e13-30e7-4450-9037-bee8258eb3b6": true,
+    "fff67b2f-8a95-4920-ab1b-939a387fbac9": true,
+    "a1b28209-078c-427c-b0c7-496f6e7aae96": true,
+    "539c0ef0-fdba-45dc-ad2d-a14f8cae4b56": true,
+    "11989166-5d4d-49a7-af95-41457cf54a35": true,
+    "a2fe9c49-bf1c-4bbe-8d5c-421926513d5d": true,
+    "e3921b41-af92-4e08-a0ef-94a9474f130a": true,
+    "75c30821-7e65-4d2b-8632-2b986d5bcf19": true,
+    "c5323fa9-d7ce-49d6-8e50-767376784762": true,
+    "144b15fa-d65a-4ef4-910e-c0669530b4b7": true,
+    "d4270e0b-abe6-4eba-a700-b13d16b66baa": true,
+    "019d77d8-68e2-4c6d-868e-da49d8897f6e": true,
+    "d9832cf3-7a5e-4cd8-8395-25becdf331a8": true,
+    "48d66731-b95a-4dbf-bb99-e81557f8c999": true,
+    "1feadd01-c087-446f-bd84-a398997f8fd4": true,
+    "fa3576c2-7843-442a-be73-656b26f0fe7a": true,
+    "412443ba-709f-4b8f-850f-5fc30e066dfc": true,
+    "ab25990d-e02e-4be2-aef1-5c42ed9c06c2": true,
+    "b5d13814-b40f-4871-bef4-8d850a4fd93a": true,
+    "e5d58a7a-608f-40b1-9583-f3af8fbb01a5": true,
+    "d9f700b4-e459-470a-9cfd-fddd99d581ab": true,
+    "d965316a-f1ad-4044-bf78-7182ba9f11e4": true,
+    "1b773902-69bc-47cb-8590-85864a1ea693": true,
+    "b687404e-3ba0-45bc-8974-0a91171cc962": true,
+    "2b0f02d9-53cb-4134-96aa-ec5df6876707": true,
+    "5455d41e-3ae5-42ab-a6a8-796b5eb47ce2": true,
+    "66b229b0-94f2-4544-8a72-76568aaa6996": true,
+    "48f85b60-3fdd-4634-8c9a-5a80a52f85c9": true
   },
-  "next_id": 433
+  "next_id": 458
 }

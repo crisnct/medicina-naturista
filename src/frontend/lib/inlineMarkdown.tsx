@@ -6,13 +6,18 @@ import type { ReactNode } from "react";
 // unlike the Gradio version's raw HTML string building.
 export function renderRecommendationText(content: string): ReactNode {
   const lines = content.split("\n");
+  // Lines between a heading and the first numbered entry are explanatory notes.
+  let intro = false;
   return lines.map((line, lineIndex) => {
     const heading = line.match(/^###\s+(.+)$/);
     if (heading) {
+      intro = true;
       return <h3 key={lineIndex} className="message-heading">{renderInlineBold(heading[1])}</h3>;
     }
+    if (/^\d+\.\s/.test(line)) intro = false;
+    const blank = line.trim() === "";
     return (
-      <p key={lineIndex} className={line.trim() === "" ? "message-line-spacer" : "message-line"}>
+      <p key={lineIndex} className={blank ? "message-line-spacer" : intro ? "message-line message-note" : "message-line"}>
         {renderInlineBold(line)}
       </p>
     );

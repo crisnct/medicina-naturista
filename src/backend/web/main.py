@@ -409,6 +409,9 @@ def get_session(request: Request):
         finally:
             deps.store.finish_operation(operation)
     view = deps.store.conversation_view(session)
+    # Already-loaded snapshots only: the session response must not wait for the index.
+    if isinstance(deps.retriever, Retriever):
+        view["documentCounts"] = deps.retriever.cached_document_counts()
     if not getattr(request.state, "owner_authorized", False):
         view["generations"] = [
             job
@@ -416,6 +419,12 @@ def get_session(request: Request):
             if job["modelChoice"] in _available_report_models(False)
         ]
     return view
+
+
+def _warm_categories(retriever: Retriever) -> None:
+    for language in LANGUAGES:
+        with language_scope(language):
+            retriever.categories_snapshot()
 
 
 @router.get("/api/categories")
@@ -1206,6 +1215,13 @@ def create_app(config: Settings | None = None, dependencies: Dependencies | None
                 async def warm_search():
                     started = time.perf_counter()
                     logger.info("warm_up_started stage=search")
+                    # The session response carries the document count from this snapshot.
+                    try:
+                        await asyncio.to_thread(_warm_categories, retriever)
+                    except Exception as exc:
+                        logger.warning(
+                            "warm_up_failed stage=categories type=%s", type(exc).__name__
+                        )
                     try:
                         await asyncio.to_thread(warm_up_search)
                     except Exception as exc:

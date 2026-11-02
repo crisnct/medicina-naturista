@@ -61,6 +61,17 @@ class Retriever:
         tree, _generation = self.categories_snapshot()
         return tree.nodes[tree.root_id].total_documents if tree else 0
 
+    # The document count per language of the snapshots already loaded, without
+    # touching the index; a language is missing until its snapshot has been loaded.
+    def cached_document_counts(self) -> dict[str, int]:
+        with self._snapshot_lock:
+            snapshots = dict(self._category_snapshots)
+        return {
+            language: tree.nodes[tree.root_id].total_documents
+            for language, (tree, _generation) in snapshots.items()
+            if tree is not None
+        }
+
     def categories_snapshot(self) -> tuple[CategoryTree | None, str]:
         with index_reader() as (_connection, metadata):
             with self._snapshot_lock:

@@ -176,6 +176,7 @@ export function useConversation() {
     generationLimitDefaults,
     reportModelDetails,
     latestReportId: sessionQuery.data?.latestReportId,
+    documentCounts: sessionQuery.data?.documentCounts,
     generationFeedback: visibleGenerationFeedback,
     isLoading: sessionQuery.isLoading,
     isError: sessionQuery.isError,

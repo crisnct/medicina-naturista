@@ -1,6 +1,7 @@
 import { getLanguage, locale, tr } from "../lib/texts";
-import { useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import { REPORT_EFFORTS, type FragmentItem, type GenerateMessage, type GenerationLimitDefaults, type GenerationLimits, type ReportEffort, type ReportModel, type ReportModelDetails } from "../api/types";
+import { useMinScore } from "../hooks/useMinScore";
 import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
 import { checkLimits } from "../lib/generationLimits";
 import { TypingIndicator } from "./TypingIndicator";
@@ -68,7 +69,17 @@ export function GeneratePanel({
   feedback?: GenerationFeedback;
 }) {
   // Only fragments whose relevance reaches this are sent to the AI (0 = all).
-  const [minScore, setMinScore] = useState(0);
+  const [minScore, setMinScore] = useMinScore(message.searchId);
+  // The score also filters the fragments above, changing their height; the conversation
+  // card has no scroll anchoring, so keep this selector where the user clicked it.
+  const minScoreSelect = useRef<HTMLSelectElement>(null);
+  const minScoreSelectTop = useRef<number | null>(null);
+  useLayoutEffect(() => {
+    if (minScoreSelectTop.current === null || !minScoreSelect.current) return;
+    const shift = minScoreSelect.current.getBoundingClientRect().top - minScoreSelectTop.current;
+    minScoreSelectTop.current = null;
+    if (shift) window.scrollBy({ top: shift, behavior: "instant" });
+  }, [minScore]);
   // A chosen effort belongs to the model it was chosen for; another model starts at its configured one.
   const [typedEffort, setTypedEffort] = useState<{ model: ReportModel; value: ReportEffort } | null>(null);
   const [model, setModel] = useState<ReportModel | null>(null);
@@ -129,9 +140,13 @@ export function GeneratePanel({
           <div className="generation-model-options">
             <label className="fragments-panel-filter">
               {tr("common.minimum_score")}<select
+                ref={minScoreSelect}
                 value={minScore}
                 disabled={message.busy || actionsDisabled}
-                onChange={(event) => setMinScore(Number(event.target.value))}
+                onChange={(event) => {
+                  minScoreSelectTop.current = event.currentTarget.getBoundingClientRect().top;
+                  setMinScore(Number(event.target.value));
+                }}
               >
                 {MIN_SCORE_OPTIONS.map(({ value, label }) => (
                   <option key={value} value={value}>

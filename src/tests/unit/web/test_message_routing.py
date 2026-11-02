@@ -219,8 +219,8 @@ def test_top_without_count_asks_then_accepts_count_only(web):
     test.deps.top_herbs.reset_mock()
     products = accept(web, "Top 37 produse naturiste")
     menu = classify(web, products["contextRevision"]).json()["messages"][0]["content"]
-    assert "1. plante medicinale\n2. fructe" in menu
-    assert "11. minerale" in menu
+    assert "1. Plante medicinale\n2. Fructe" in menu
+    assert "11. Minerale" in menu
     assert "12." not in menu
     assert "medicamente" not in menu
     assert "produse apicole" not in menu

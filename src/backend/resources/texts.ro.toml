@@ -77,8 +77,8 @@ fragments_display_filters_hint = "Aceste filtre modifică numai afișarea. Fragm
 fragments_condition = "Afecțiune"
 fragments_condition_in_text = "Afecțiune în text"
 fragments_condition_in_title = "Afecțiune în titlu"
-# Parameters: visible_count
-fragments_filtered_count = " · {visible_count} afișate"
+# Parameters: characters, visible_count
+fragments_filtered_count = " · {visible_count} afișate - {characters} caractere"
 # Parameters: characters, document_count, total_count, visible_count
 fragments_filtered_summary = "Afișate: {visible_count} din {total_count} fragmente (filtrate), din {document_count} documente, {characters} caractere."
 fragments_found_prefix = "📚 Am găsit "
@@ -95,6 +95,8 @@ fragments_missing = "Lipsește"
 fragments_none_match = "Niciun fragment nu corespunde filtrelor selectate."
 no = "Nu"
 fragments_relevant_in = "relevante în "
+fragments_characters_prefix = ", însumând "
+fragments_characters_label = "caractere"
 # Parameters: score
 fragments_lexical_score = "Scor lexical: {score}"
 # Parameters: score
@@ -234,6 +236,8 @@ herb_evidence_stale = "Sursele au fost actualizate. Repetați întrebarea pentru
 hero_title_emphasis = "adjuvante"
 hero_assistant_label = "Asistent virtual AI"
 hero_library_label = "Biblioteca naturistă"
+# Parameters: count
+hero_document_count = "{count} documente"
 hero_doctor_name = "Dr. Cuișor"
 hero_description = "Informații orientative despre plante și remedii, explicate pe baza cărților din bibliotecă."
 hero_medical_notice = "Nu înlocuiesc consultația medicală."
@@ -393,7 +397,8 @@ no_fragments_condition = "Nu am găsit fragmente relevante în sursele locale. �
 herb_not_found = "Nu am găsit intrarea în catalog. Scrieți un nume românesc, englezesc sau denumirea latină a plantei."
 email_failed = "Nu am putut trimite documentul pe mail. Încercați din nou."
 previous_report_missing = "Nu există un raport precedent în această sesiune. Generați mai întâi un raport."
-herb_ambiguous = "Numele corespunde mai multor intrări în catalog. Alegeți una: "
+# Parameters: choices
+herb_ambiguous = "Numele corespunde mai multor intrări în catalog. Alegeți una, răspunzând cu numărul ei:\n\n{choices}"
 # Parameters: aliases
 condition_aliases = " O caut și după denumirile: {aliases}."
 condition_question = "Pentru ce afecțiune sau problemă de sănătate doriți remedii?"

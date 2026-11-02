@@ -706,7 +706,7 @@ class ConversationService:
                 tr(
                     "conversation.choose_category",
                     categories="\n".join(
-                        f"{position}. {label}"
+                        f"{position}. {label[:1].upper()}{label[1:]}"
                         for position, label in enumerate(category_labels().values(), 1)
                     ),
                 )
@@ -909,7 +909,13 @@ class ConversationService:
                 notices.append(
                     text_message(
                         "assistant",
-                        tr("conversation.herb_ambiguous") + ", ".join(routing.herb_choices) + ".",
+                        tr(
+                            "conversation.herb_ambiguous",
+                            choices="\n".join(
+                                f"{position}. {name[:1].upper()}{name[1:]}"
+                                for position, name in enumerate(routing.herb_choices, 1)
+                            ),
+                        ),
                     )
                 )
             else:

@@ -233,6 +233,7 @@ export interface SessionResponse {
   history: ChatMessage[];
   latestReportId?: string | null;
   generations?: ReportGeneration[];
+  documentCounts?: Record<string, number>;
 }
 
 export interface StartupStatus {

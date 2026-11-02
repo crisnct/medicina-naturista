@@ -6,6 +6,7 @@ import re
 from collections.abc import Iterable
 from dataclasses import dataclass
 from difflib import get_close_matches
+from functools import lru_cache
 
 from backend.ai.query_terms import plain
 from backend.core.language import Language, current_language
@@ -68,6 +69,9 @@ class ResolvedQuery:
         return tuple(condition.name for condition in self.conditions)
 
 
+# Cached because every index read re-validates the whole condition dictionary, which
+# normalizes the same ~200k names and synonyms again on each request.
+@lru_cache(maxsize=131072)
 def _normalize(value: str) -> str:
     return " ".join(re.findall(r"[^\W_]+", plain(value), flags=re.UNICODE))
 

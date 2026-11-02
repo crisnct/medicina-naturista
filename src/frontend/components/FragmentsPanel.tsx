@@ -1,6 +1,7 @@
 import { locale, tr } from "../lib/texts";
 import { useId, useMemo, useState } from "react";
 import type { FragmentItem, FragmentsMessage } from "../api/types";
+import { useMinScore } from "../hooks/useMinScore";
 import { MIN_SCORE_OPTIONS, reachesMinScore } from "../lib/scoreFilter";
 import { ALL_SIGNALS } from "../lib/searchSignals";
 import { DoctorAvatar } from "./DoctorAvatar";
@@ -56,7 +57,7 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
   // filters make sense; a message from before the choice existed had them all.
   const signals = message.signals ?? ALL_SIGNALS;
   const [open, setOpen] = useState(false);
-  const [minScore, setMinScore] = useState(0);
+  const [minScore, setMinScore] = useMinScore(message.searchId);
   const [minSemantic, setMinSemantic] = useState(0);
   const [condition, setCondition] = useState<ConditionFilter>("all");
   const [lexical, setLexical] = useState<LexicalFilter>("all");
@@ -80,6 +81,7 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
   // Only the documents behind the fragments still visible after filtering.
   const documents = [...new Set(filtered.map((fragment) => fragment.document))];
   // Characters of the fragment texts currently shown (after filtering).
+  const foundChars = message.fragments.reduce((sum, fragment) => sum + fragment.text.length, 0).toLocaleString(locale());
   const totalChars = filtered.reduce((sum, fragment) => sum + fragment.text.length, 0).toLocaleString(locale());
   const filtersActive = minScore > 0 || minSemantic > 0 || condition !== "all" || lexical !== "all" || documentFilter !== "all";
 
@@ -87,14 +89,14 @@ export function FragmentsPanel({ message }: { message: FragmentsMessage }) {
     <section className="search-results-panel">
       <div className="search-results-summary chatbot-message-header">
         <DoctorAvatar />
-        <p>{tr("interface.fragments_found_prefix")}<strong>{message.fragmentsCount} {tr("interface.fragments_label")}</strong> {tr("interface.fragments_relevant_in")}<strong>{message.documentsCount} {tr("interface.fragments_documents_label")}</strong></p>
+        <p>{tr("interface.fragments_found_prefix")}<strong>{message.fragmentsCount} {tr("interface.fragments_label")}</strong> {tr("interface.fragments_relevant_in")}<strong>{message.documentsCount} {tr("interface.fragments_documents_label")}</strong>{tr("interface.fragments_characters_prefix")}<strong>{foundChars} {tr("interface.fragments_characters_label")}</strong></p>
       </div>
       <details className="fragments-panel-inner" open={open} onToggle={(event) => setOpen(event.currentTarget.open)}>
         <summary className="fragments-panel-banner">
           {tr("interface.fragments_show_sources")}</summary>
         <div className="fragments-panel-list">
           <section id={filtersId} className="display-filter-options" aria-label={tr("interface.fragments_filter_heading")}>
-            <h4>{tr("interface.fragments_filter_heading")}{filtersActive ? tr("interface.fragments_filtered_count", { visible_count: filtered.length }) : ""}</h4>
+            <h4>{tr("interface.fragments_filter_heading")}{filtersActive ? tr("interface.fragments_filtered_count", { visible_count: filtered.length, characters: totalChars }) : ""}</h4>
             <p>{tr("interface.fragments_display_filters_hint")}</p>
             <div className="fragments-panel-filters">
               <label className="fragments-panel-filter">

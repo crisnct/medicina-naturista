@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-02T11:47:03.858Z
-> Files: 291 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-02T15:50:31.832Z
+> Files: 299 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -210,7 +210,8 @@
 
 - `client.py` — Sequential whole-fragment report batches through the selected AI provider. (~13532 tok)
 - `condition_ai.py` — Identification of the condition a message names when the dictionary does not (~3319 tok)
-- `conditions.py` — Medical-condition matching over an ordered PostgreSQL catalog snapshot. (~3911 tok)
+- `condition_repository.py` — Ordered PostgreSQL condition snapshots shared by retrieval and indexing. (~1579 tok)
+- `conditions.py` — Medical-condition matching over an ordered PostgreSQL catalog snapshot. (~3973 tok)
 - `effort.py` — Map the user-selected report effort to each provider's own reasoning parameter. (~264 tok)
 - `english_inflections.py` — Catalog-scoped British English noun forms from the bundled Hunspell dictionary. (~970 tok)
 - `herb_association_classification.py` — Bounded local-only polarity classification; validated quotations are source provenance. (~6314 tok)
@@ -233,11 +234,12 @@
 - `herb_safety_repository.py` — Persist safety generations and validated caches without performing any model or network I/O. (~5302 tok)
 - `herb_safety_validation.py` — Validate extractive safety responses; missing coverage never means absence of warnings. (~5366 tok)
 - `herb_safety.py` — Read published model-knowledge messages; consultation never invokes a model. (~1384 tok)
-- `herbs.py` — PostgreSQL plants/products and the strict parser for offline botanical sources. (~3360 tok)
+- `herbs.py` — PostgreSQL plants/products and the strict parser for offline botanical sources. (~3667 tok)
+- `index_state.py` — One PostgreSQL advisory lock and compatibility contract for the index. (~1796 tok)
 - `message_classification.py` — Small, validated intent decisions through the existing local Ollama model. (~9335 tok)
 - `providers.py` — Per-provider transport settings for report generation. (~1865 tok)
 - `report_validation.py` — Validate the report contract against the exact evidence snapshot. (~1940 tok)
-- `retrieval.py` — Local-only retrieval over the existing hybrid index. (~2768 tok)
+- `retrieval.py` — Local-only retrieval over the existing hybrid index. (~2910 tok)
 
 ## src/backend/ai/prompts/
 
@@ -266,7 +268,7 @@
 ## src/backend/core/
 
 - `contracts.py` — Shared data and port contracts; independent of HTTP and the UI. (~2421 tok)
-- `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~15741 tok)
+- `conversation.py` — Conversation orchestration, independent of FastAPI and frontend modules. (~16126 tok)
 - `herb_agreement.py` — Romanian product-name agreement, using local noun paradigms and explicit display rules. (~1309 tok)
 - `herb_categories.py` — Catalog groups and ranking scopes, independent of taxonomy and matching names. (~992 tok)
 - `language.py` — Validated languages and isolated execution scopes; no process-wide mutable locale. (~353 tok)
@@ -304,6 +306,7 @@
 - `037_herb_condition_scores.sql` — Per-condition fragment counts of the eligible products, precomputed so a top never scans fragments. (~613 tok)
 - `037_herb_safety_dedup_stage.sql` — The local-model deduplication of a product's messages is cached beside the generation stages. (~154 tok)
 - `038_herb_safety_local_stage.sql` — The local generation stage is no longer tied to one model family: its cached answers are (~204 tok)
+- `039_medical_conditions_version.sql` — A change counter for the condition dictionary, so a reader can tell with one tiny query (~463 tok)
 
 ## src/backend/persistence/
 
@@ -317,38 +320,38 @@
 
 ## src/backend/resources/
 
-- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~9269 tok)
-- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~9984 tok)
+- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~9327 tok)
+- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~10040 tok)
 
 ## src/backend/web/
 
 - `dependencies.py` — Injectable boundaries; constructing these objects performs no infrastructure I/O. (~482 tok)
-- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~15250 tok)
+- `main.py` — FastAPI JSON boundary. Slow stages use independent snapshots and atomic commits. (~15666 tok)
 - `texts.py` — Bootstrap public copy in the original Vite HTML; assets retain normal static serving. (~558 tok)
 
 ## src/frontend/
 
-- `App.test.tsx` — capacityMessage (~1225 tok)
-- `App.tsx` — App (~1797 tok)
+- `App.test.tsx` — capacityMessage (~1534 tok)
+- `App.tsx` — App (~1793 tok)
 - `index.html` — __APP_TITLE__ (~135 tok)
 - `main.tsx` — queryClient (~220 tok)
 - `setupTests.ts` — Declares __APP_TEST_TEXTS__ (~148 tok)
-- `styles.css` — Styles: 94 rules, 14 vars (~10576 tok)
+- `styles.css` — Styles: 95 rules, 14 vars (~11048 tok)
 - `vite.config.ts` — / <reference types="vitest/config" /> (~1158 tok)
 
 ## src/frontend/api/
 
 - `client.test.ts` — Declares lockRequest (~1287 tok)
 - `client.ts` — API routes: GET (1 endpoints) (~2864 tok)
-- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~2785 tok)
+- `types.ts` — Mirrors the JSON shapes produced by backend/web/main.py and (~2916 tok)
 
 ## src/frontend/components/
 
 - `ChatHistory.tsx` — ChatHistory (~966 tok)
 - `Composer.tsx` — MAX_CHAT_CHARS — renders form (~1017 tok)
-- `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3158 tok)
+- `FragmentsPanel.tsx` — CONDITION_OPTIONS (~3281 tok)
 - `GeneratePanel.test.tsx` — message (~877 tok)
-- `GeneratePanel.tsx` — Display names are editable; provider routing continues to use the original IDs. (~4532 tok)
+- `GeneratePanel.tsx` — Display names are editable; provider routing continues to use the original IDs. (~4974 tok)
 - `GenerationBatchEstimate.tsx` — Typing in a limit field must not ask the server for a count on every keystroke. (~706 tok)
 - `GenerationDurationEstimate.tsx` — GenerationDurationEstimate (~718 tok)
 - `GenerationReportPreview.tsx` — BatchPreview (~1711 tok)
@@ -358,20 +361,24 @@
 - `HerbEvidencePanel.tsx` — Python offsets count Unicode code points; ordinary JS slice counts UTF-16 units. (~1730 tok)
 - `HerbImageViewer.tsx` — Native modal dialogs keep keyboard focus inside and make the page beneath inert. (~432 tok)
 - `HerbWarningsPanel.tsx` — groups (~1081 tok)
-- `Hero.tsx` — Hero (~505 tok)
+- `Hero.tsx` — Hero (~549 tok)
+- `LanguageSelect.tsx` — OPTIONS (~1399 tok)
 - `MessageBubble.tsx` — MessageBubble (~824 tok)
 - `TypingIndicator.tsx` — A slow status ring and elapsed time while retrieval or report generation is pending. (~466 tok)
 
 ## src/frontend/hooks/
 
-- `useCategories.ts` — Exports useCategories (~388 tok)
-- `useConversation.ts` — Exports useConversation (~2499 tok)
+- `useCategories.ts` — Exports useCategories (~405 tok)
+- `useConversation.ts` — Exports useConversation (~2537 tok)
+- `useMinScore.ts` — The "Scor minim" chosen for a search, shared by its fragments filter and by the (~222 tok)
 - `useReportGeneration.ts` — Exports activeGeneration, useReportGeneration (~3477 tok)
 - `useStartup.ts` — Exports useStartup (~248 tok)
 
 ## src/frontend/lib/
 
 - `generationFeedback.ts` — Exports AI_ACTIVITY_LABELS, GenerationFeedback (~291 tok)
+- `inlineMarkdown.tsx` — Renders the very small Markdown subset _recommendation_text() produces (~369 tok)
+- `scoreFilter.ts` — "Scor minim" thresholds (relevance percent), shared by the fragments panel (~361 tok)
 - `texts.ts` — Exports Language, getLanguage, locale, useLanguage + 3 more (~1135 tok)
 
 ## src/scripts/
@@ -410,6 +417,7 @@
 - `test_build_hybrid_index.py` — FakeClock: make_chunk, embed, fake_embed, test_normalize_text_preserves_composed_romanian_diacritics (~25796 tok)
 - `test_client_providers.py` — Tests for the configurable AI provider (REPORT_GENERATION_MODEL_TYPE): selection, payloads, parsing, (~5514 tok)
 - `test_condition_ai.py` — Tests for the AI identification of a condition the dictionary does not know (~5725 tok)
+- `test_condition_repository.py` — Catalog cache isolation, semantic hashing and structured failure handling. (~1018 tok)
 - `test_document_spelling.py` — DocumentSpellingTests: setUp, write, clean, rows + 12 more (~4435 tok)
 - `test_herb_inflections.py` — Regression examples for Romanian plant names across lookup and routing. (~2003 tok)
 - `test_herb_ranking.py` — test_display_preserves_names_and_restores_known_accents, test_bundled_dictionary_restores_inflected_ (~890 tok)

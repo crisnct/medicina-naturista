@@ -51,9 +51,9 @@ def passage_profile(profile) -> str:
     )
 
 
-def dictionary_snapshot(connection=None):
+def dictionary_snapshot(connection=None, *, refresh=False):
     if connection is not None:
-        snapshot = catalog_snapshot(connection)
+        snapshot = catalog_snapshot(connection, refresh=refresh)
         return snapshot.fingerprint, snapshot.dictionary
     try:
         with db.get_pool().connection() as connection:
@@ -108,9 +108,18 @@ def index_reader():
                     raise IndexUnavailable()
                 try:
                     fingerprint, dictionary = dictionary_snapshot(connection)
+                    try:
+                        metadata = read_metadata(connection, fingerprint)
+                    except IndexUnavailable:
+                        # The dictionary may be cached under a change counter that missed an
+                        # edit; read the tables once more before reporting a mismatch.
+                        fresh, fresh_dictionary = dictionary_snapshot(connection, refresh=True)
+                        if fresh == fingerprint:
+                            raise
+                        fingerprint, dictionary = fresh, fresh_dictionary
+                        metadata = read_metadata(connection, fingerprint)
                 except (CatalogUnavailable, ValueError, UnicodeError):
                     raise IndexUnavailable("INDEX_RESYNC_REQUIRED") from None
-                metadata = read_metadata(connection, fingerprint)
                 token = _reader.set((connection, metadata))
                 dictionary_token = _dictionary.set(dictionary)
                 try:

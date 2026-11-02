@@ -18,6 +18,8 @@ class CatalogTests(TestCase):
         self.items = (make_condition("Gută", ["gout", "podagra"]),)
         self.fingerprint = repository.catalog_fingerprint(self.items)
         self.connection = Mock()
+        # The change counter of the dictionary tables.
+        self.connection.execute.return_value.fetchone.return_value = (1,)
         self.connection.info = SimpleNamespace(
             host="localhost", port=5432, dbname="test", user="test"
         )
@@ -44,6 +46,7 @@ class CatalogTests(TestCase):
         with patch.object(repository, "read_conditions", return_value=self.items) as read:
             first = repository.catalog_snapshot(self.connection)
             read.return_value = (make_condition("Gută", ["gout", "podagra", "new synonym"]),)
+            self.connection.execute.return_value.fetchone.return_value = (2,)
             second = repository.catalog_snapshot(self.connection)
             self.connection.info.dbname = "another-test"
             third = repository.catalog_snapshot(self.connection)

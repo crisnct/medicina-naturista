@@ -29,6 +29,7 @@ export function useCategories(enabled = true) {
   return {
     isLoading: query.isPending,
     tree: query.data?.tree ?? null,
+    documentCount: query.data?.tree?.totalDocuments ?? null,
     selected: selections[language],
     setSelected: (value: SetStateAction<Set<string>>) => setSelections((previous) => ({
       ...previous,

@@ -75,6 +75,7 @@ export const TEXT_PARAMETERS = {
   "interface.fragments_condition_in_text": [],
   "interface.fragments_condition_in_title": [],
   "interface.fragments_filtered_count": [
+    "characters",
     "visible_count"
   ],
   "interface.fragments_filtered_summary": [
@@ -97,6 +98,8 @@ export const TEXT_PARAMETERS = {
   "interface.fragments_none_match": [],
   "interface.no": [],
   "interface.fragments_relevant_in": [],
+  "interface.fragments_characters_prefix": [],
+  "interface.fragments_characters_label": [],
   "interface.fragments_lexical_score": [
     "score"
   ],
@@ -283,6 +286,9 @@ export const TEXT_PARAMETERS = {
   "interface.hero_title_emphasis": [],
   "interface.hero_assistant_label": [],
   "interface.hero_library_label": [],
+  "interface.hero_document_count": [
+    "count"
+  ],
   "interface.hero_doctor_name": [],
   "interface.hero_description": [],
   "interface.hero_medical_notice": [],
