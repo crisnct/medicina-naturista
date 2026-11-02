@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-02T06:40:07.924Z",
+    "lastScanned": "2026-11-02T11:47:03.858Z",
     "fileCount": 291,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "4e0357ffe19720fb31a4398f2aa5dea65467dfc46d73f739aa418cf3a8d266cb",
-    "storeUpdatedAt": "2026-11-02T06:40:07.934Z",
-    "rootHash": "ba9b682069dfe076"
+    "renderedHash": "9b381e5678e6b1aa9796a5d1ee53a2be855cc9f8869ee2c8f8513b4f7c6da056",
+    "storeUpdatedAt": "2026-11-02T11:47:03.869Z",
+    "rootHash": "a5ade3c3f78afae4"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -169,12 +169,12 @@
       ]
     },
     "src/frontend/styles.css": {
-      "description": "Styles: 91 rules, 14 vars",
-      "tokens": 10726,
-      "hash": "31bed95b135cb854",
-      "size": 37538,
-      "mtimeMs": 1793440955497.4773,
-      "updatedAt": "2026-10-31T10:02:35.927Z",
+      "description": "Styles: 94 rules, 14 vars",
+      "tokens": 10576,
+      "hash": "36c3ec0dbc121915",
+      "size": 37015,
+      "mtimeMs": 1793620023569.368,
+      "updatedAt": "2026-11-02T11:47:03.857Z",
       "source": "hook"
     },
     "src/backend/core/texts.py": {
@@ -868,11 +868,11 @@
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 41834,
-      "hash": "f5e65ac0ce5ad20d",
-      "size": 174307,
-      "mtimeMs": 1793601607669.4038,
-      "updatedAt": "2026-11-02T06:40:07.923Z",
+      "tokens": 41838,
+      "hash": "f9f226811c324d24",
+      "size": 174325,
+      "mtimeMs": 1793618151533.4775,
+      "updatedAt": "2026-11-02T11:15:51.857Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -943,11 +943,11 @@
     },
     "src/backend/resources/texts.ro.toml": {
       "description": "Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română.",
-      "tokens": 9551,
-      "hash": "6c5b2a1c5943e3b5",
-      "size": 36963,
-      "mtimeMs": 1793458219620.083,
-      "updatedAt": "2026-10-31T14:50:19.884Z",
+      "tokens": 9984,
+      "hash": "4b223d5c84250c04",
+      "size": 38629,
+      "mtimeMs": 1793618231839.9456,
+      "updatedAt": "2026-11-02T11:17:12.161Z",
       "source": "hook"
     },
     "src/frontend/components/Composer.tsx": {
@@ -3613,10 +3613,10 @@
     "src/frontend/components/HerbConditionsPanel.test.tsx": {
       "description": "message",
       "tokens": 2834,
-      "hash": "5f9c6f73bacae135",
-      "size": 10008,
-      "mtimeMs": 1793113505029.2324,
-      "updatedAt": "2026-10-27T15:05:05.992Z",
+      "hash": "30279218dae1ca32",
+      "size": 10007,
+      "mtimeMs": 1793618149307.6787,
+      "updatedAt": "2026-11-02T11:15:49.620Z",
       "source": "hook"
     },
     "src/frontend/components/HerbConditionsPanel.tsx": {
@@ -6180,25 +6180,25 @@
     },
     "src/frontend/components/HerbWarningsPanel.tsx": {
       "description": "groups",
-      "tokens": 1027,
-      "hash": "e34dcaa89629b727",
-      "size": 3592,
-      "mtimeMs": 1793159978175.094,
-      "updatedAt": "2026-10-28T03:59:38.529Z",
+      "tokens": 1081,
+      "hash": "03dd7b3dc5e44087",
+      "size": 3783,
+      "mtimeMs": 1793618139759.5186,
+      "updatedAt": "2026-11-02T11:15:40.007Z",
       "source": "hook",
       "symbols": [
         {
           "name": "WarningsList",
           "kind": "fn",
           "startLine": 14,
-          "endLine": 44,
-          "tokens": 514
+          "endLine": 48,
+          "tokens": 551
         },
         {
           "name": "HerbWarningsPanel",
           "kind": "fn",
-          "startLine": 45,
-          "endLine": 59,
+          "startLine": 49,
+          "endLine": 63,
           "tokens": 349
         }
       ]
@@ -7478,11 +7478,11 @@
     },
     "src/backend/resources/texts.en.toml": {
       "description": "English application copy. Keys and named parameters match texts.ro.toml exactly.",
-      "tokens": 8711,
-      "hash": "693b1a851ee83a31",
-      "size": 32799,
-      "mtimeMs": 1793458220720.7217,
-      "updatedAt": "2026-10-31T14:50:21.037Z",
+      "tokens": 9269,
+      "hash": "df9f81a714bafcc8",
+      "size": 34895,
+      "mtimeMs": 1793618233021.4116,
+      "updatedAt": "2026-11-02T11:17:13.322Z",
       "source": "hook"
     },
     "src/backend/migrations/032_bilingual_chunks.sql": {

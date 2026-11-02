@@ -71,7 +71,7 @@ describe("plant association results", () => {
     expect(screen.getByText("(Matricaria Chamomilla)")).toBeInTheDocument();
     expect(screen.queryByText(/aceleași recomandări pozitive ca topurile/)).not.toBeInTheDocument();
     expect(lookup).not.toHaveBeenCalled();
-    const safetyRegion = within(screen.getByRole("region", { name: "Atenționări și interacțiuni" }));
+    const safetyRegion = within(screen.getByRole("region", { name: "Atenționări, contraindicații și interacțiuni" }));
     expect(await safetyRegion.findByText(warningText)).toBeInTheDocument();
     expect(document.querySelector("script")).toBeNull();
     expect(safetyRegion.getByText(/Date parțiale/)).toBeInTheDocument();

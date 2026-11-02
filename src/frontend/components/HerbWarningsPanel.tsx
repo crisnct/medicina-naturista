@@ -33,11 +33,15 @@ function WarningsList({ message }: { message: SafetyMessage }) {
       <p>{query.error instanceof ApiError ? query.error.message : tr("interface.herb_warnings_error")}</p>
       {!expired && <button type="button" disabled={query.isFetching} onClick={() => void (query.isFetchNextPageError ? query.fetchNextPage() : query.refetch())}>{tr("interface.herb_evidence_retry")}</button>}
     </div>}
-    {messages.length > 0 && <ul className="herb-warnings-list">
-      {groups.flatMap((group) => messages.filter((message) => message.kind === group.kind).map((item) => (
-        <li key={item.id}><strong>{tr(group.title)}</strong>{". "}<span className="herb-warning-text">{item.text}</span></li>
-      )))}
-    </ul>}
+    {groups.map((group) => {
+      const items = messages.filter((message) => message.kind === group.kind);
+      return items.length > 0 && <div key={group.kind} className="herb-warnings-group">
+        <h5>{tr(group.title)}</h5>
+        <ul className="herb-warnings-list">
+          {items.map((item) => <li key={item.id}><span className="herb-warning-text">{item.text}</span></li>)}
+        </ul>
+      </div>;
+    })}
     {!expired && query.hasNextPage && <button type="button" disabled={query.isFetching} onClick={() => void query.fetchNextPage()}>{tr("interface.herb_evidence_more")}</button>}
   </div>;
 }

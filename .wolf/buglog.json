@@ -7609,6 +7609,168 @@
       "last_seen": "2026-11-01T20:17:04.091Z",
       "occurrences": 1,
       "related_bugs": []
+    },
+    {
+      "error_message": "Significant refactor of HerbWarningsPanel.tsx",
+      "file": "src/frontend/components/HerbWarningsPanel.tsx",
+      "root_cause": "5 lines replaced/restructured",
+      "fix": "Rewrote 5→9 lines (5 removed)",
+      "tags": [
+        "auto-detected",
+        "refactor",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-424",
+      "timestamp": "2026-11-02T11:15:40.042Z",
+      "last_seen": "2026-11-02T11:15:40.042Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Incorrect value in code",
+      "file": "src/frontend/components/HerbConditionsPanel.test.tsx",
+      "root_cause": "Had \"Atenționări și interacțiuni\"",
+      "fix": "Changed to \"Atenționări, contraindicații și interacțiuni\"",
+      "tags": [
+        "auto-detected",
+        "wrong-value",
+        "tsx"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-425",
+      "timestamp": "2026-11-02T11:15:49.651Z",
+      "last_seen": "2026-11-02T11:15:49.651Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: margin-bottom",
+      "file": "src/frontend/styles.css",
+      "root_cause": "margin-bottom: .35rem → .1rem",
+      "fix": "Changed margin-bottom: .35rem → .1rem",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-426",
+      "timestamp": "2026-11-02T11:31:59.663Z",
+      "last_seen": "2026-11-02T11:31:59.663Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: currentColor should be b5b5b5",
+      "file": "src/frontend/styles.css",
+      "root_cause": "Used \"currentColor\" instead of \"b5b5b5\"",
+      "fix": "Changed currentColor → b5b5b5",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-427",
+      "timestamp": "2026-11-02T11:33:05.098Z",
+      "last_seen": "2026-11-02T11:33:05.098Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: color",
+      "file": "src/frontend/styles.css",
+      "root_cause": "color: var(--nature-danger) → #1a1a1a",
+      "fix": "Changed color: var(--nature-danger) → #1a1a1a",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-428",
+      "timestamp": "2026-11-02T11:35:57.770Z",
+      "last_seen": "2026-11-02T11:35:57.770Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: 80936a should be 000",
+      "file": "src/frontend/styles.css",
+      "root_cause": "Used \"80936a\" instead of \"000\"",
+      "fix": "Changed 80936a → 000",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-429",
+      "timestamp": "2026-11-02T11:38:49.470Z",
+      "last_seen": "2026-11-02T11:38:49.470Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: 000 should be a8a8a8",
+      "file": "src/frontend/styles.css",
+      "root_cause": "Used \"000\" instead of \"a8a8a8\"",
+      "fix": "Changed 000 → a8a8a8",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-430",
+      "timestamp": "2026-11-02T11:44:42.741Z",
+      "last_seen": "2026-11-02T11:44:42.741Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "Wrong reference: var should be 1a1a1a",
+      "file": "src/frontend/styles.css",
+      "root_cause": "Used \"var\" instead of \"1a1a1a\"",
+      "fix": "Changed var → 1a1a1a",
+      "tags": [
+        "auto-detected",
+        "wrong-reference",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-431",
+      "timestamp": "2026-11-02T11:46:08.057Z",
+      "last_seen": "2026-11-02T11:46:08.057Z",
+      "occurrences": 1,
+      "related_bugs": []
+    },
+    {
+      "error_message": "CSS fix: color",
+      "file": "src/frontend/styles.css",
+      "root_cause": "color: #1a1a1a → var(--nature-danger)",
+      "fix": "Changed color: #1a1a1a → var(--nature-danger)",
+      "tags": [
+        "auto-detected",
+        "style-fix",
+        "css"
+      ],
+      "status": "candidate",
+      "observed_worktree": "D:\\Workspace\\medicina-naturista",
+      "id": "bug-432",
+      "timestamp": "2026-11-02T11:47:03.889Z",
+      "last_seen": "2026-11-02T11:47:03.889Z",
+      "occurrences": 1,
+      "related_bugs": []
     }
   ],
   "applied_observations": {
@@ -8059,7 +8221,16 @@
     "fe3f0662-8c01-414c-b5bb-586334be83d0": true,
     "e8941797-9d71-48a4-9d13-ee0c31e156cd": true,
     "282a02ce-f209-4188-a313-c3363c149a97": true,
-    "c2782d12-5e73-47d1-ba45-37c74c5165e2": true
+    "c2782d12-5e73-47d1-ba45-37c74c5165e2": true,
+    "4fad5cac-ab48-42c3-bdbe-cfb74b3bda4c": true,
+    "bd49e71a-ce06-4678-9189-d8fe7c6dc48f": true,
+    "9b6bde4d-c56c-421e-b5b6-458a997c8b29": true,
+    "6deed2be-6358-4ba0-b640-62c2082a8820": true,
+    "f773e7f6-2069-4d89-b07f-d249551ca4ae": true,
+    "59ee3baa-137a-473f-9add-2b20ee3a280a": true,
+    "1816229f-2881-4f13-ac62-aea87d977e39": true,
+    "146c1e5e-013b-4f2c-a02f-d3d0cb4484bc": true,
+    "3a30e52a-3b28-4093-82c1-810c05f40020": true
   },
-  "next_id": 424
+  "next_id": 433
 }

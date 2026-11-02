@@ -1,6 +1,6 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-02T06:40:07.924Z
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-02T11:47:03.858Z
 > Files: 291 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
@@ -14,7 +14,7 @@
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
 - `docker-compose.yaml` — Docker Compose: 4 services (~2416 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~41834 tok)
+- `README.md` — Project documentation (~41838 tok)
 
 ## .claude/
 
@@ -317,8 +317,8 @@
 
 ## src/backend/resources/
 
-- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~8711 tok)
-- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~9551 tok)
+- `texts.en.toml` — English application copy. Keys and named parameters match texts.ro.toml exactly. (~9269 tok)
+- `texts.ro.toml` — Textele aplicației. Cheile și parametrii sunt în engleză; mesajele sunt în română. (~9984 tok)
 
 ## src/backend/web/
 
@@ -333,7 +333,7 @@
 - `index.html` — __APP_TITLE__ (~135 tok)
 - `main.tsx` — queryClient (~220 tok)
 - `setupTests.ts` — Declares __APP_TEST_TEXTS__ (~148 tok)
-- `styles.css` — Styles: 91 rules, 14 vars (~10726 tok)
+- `styles.css` — Styles: 94 rules, 14 vars (~10576 tok)
 - `vite.config.ts` — / <reference types="vitest/config" /> (~1158 tok)
 
 ## src/frontend/api/
@@ -357,7 +357,7 @@
 - `HerbConditionsPanel.tsx` — Remount for each product so an earlier image's load/error cannot alter its successor. (~2094 tok)
 - `HerbEvidencePanel.tsx` — Python offsets count Unicode code points; ordinary JS slice counts UTF-16 units. (~1730 tok)
 - `HerbImageViewer.tsx` — Native modal dialogs keep keyboard focus inside and make the page beneath inert. (~432 tok)
-- `HerbWarningsPanel.tsx` — groups (~1027 tok)
+- `HerbWarningsPanel.tsx` — groups (~1081 tok)
 - `Hero.tsx` — Hero (~505 tok)
 - `MessageBubble.tsx` — MessageBubble (~824 tok)
 - `TypingIndicator.tsx` — A slow status ring and elapsed time while retrieval or report generation is pending. (~466 tok)

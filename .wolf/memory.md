@@ -2273,3 +2273,31 @@ description: chronological action log per session, consolidated weekly
 | 08:18 | Edited src/scripts/restore_database.bat | 21→25 lines | ~273 |
 | 08:35 | Edited src/backend/ai/herb_positive_repository.py | 8→10 lines | ~200 |
 | 08:40 | Edited README.md | 1→4 lines | ~104 |
+| 09:28 | Session end: 12 writes across 6 files (backup_database.ps1, restore_database.ps1, backup_database.bat, restore_database.bat, herb_positive_repository.py) | 13 reads | ~9747 tok |
+| 09:28 | Session end: 5 writes across 1 files (2026-11-02-eliminare-primary-din-secondary-conditions.md) | 16 reads | ~8982 tok |
+
+## Session: 2026-11-02 13:15
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 13:15 | Edited src/frontend/components/HerbWarningsPanel.tsx | 5→9 lines | ~121 |
+| 13:15 | Edited src/frontend/styles.css | 4→3 lines | ~78 |
+| 13:15 | Edited src/frontend/styles.css | inline fix | ~14 |
+| 13:15 | Edited src/frontend/styles.css | removed 2 lines | ~4 |
+| 13:15 | Edited src/backend/resources/texts.ro.toml | "Atenționări și interacțiu" → "Atenționări, contraindica" | ~19 |
+| 13:15 | Edited src/backend/resources/texts.en.toml | "Warnings and interactions" → "Warnings, contraindicatio" | ~19 |
+| 13:15 | Edited src/frontend/components/HerbConditionsPanel.test.tsx | "Atenționări și interacțiu" → "Atenționări, contraindica" | ~16 |
+| 13:15 | Edited README.md | inline fix | ~17 |
+| 13:17 | Edited src/backend/resources/texts.ro.toml | "Se încarcă atenționările " → "Se încarcă atenționările," | ~24 |
+| 13:17 | Edited src/backend/resources/texts.en.toml | "Loading warnings and inte" → "Loading warnings, contrai" | ~22 |
+| 13:29 | Edited src/frontend/styles.css | 3→3 lines | ~77 |
+| 13:31 | Edited src/frontend/styles.css | inline fix | ~27 |
+| 13:32 | Edited src/frontend/styles.css | inline fix | ~23 |
+| 13:33 | Edited src/frontend/styles.css | inline fix | ~16 |
+| 13:35 | Edited src/frontend/styles.css | 1→3 lines | ~68 |
+| 13:36 | Edited src/frontend/styles.css | inline fix | ~20 |
+| 13:38 | Edited src/frontend/styles.css | inline fix | ~16 |
+| 13:39 | Edited src/frontend/styles.css | CSS: font-size | ~34 |
+| 13:44 | Edited src/frontend/styles.css | inline fix | ~16 |
+| 13:46 | Edited src/frontend/styles.css | inline fix | ~22 |
+| 13:47 | Edited src/frontend/styles.css | 1→4 lines | ~94 |

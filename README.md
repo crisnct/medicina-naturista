@@ -139,7 +139,7 @@ Fiecare mesaj trece prin **Clasificare mesaj**, cu scurtături deterministe pent
   cache-urile sau tabelele și nu se reindexează documentele/embeddingurile. O rulare
   caution cu versiunea veche este afișată ca învechită până la publicarea celei noi.
 
-  **Atenționări și interacțiuni:** secțiunea folosește exclusiv cunoștințele modelului
+  **Atenționări, contraindicații și interacțiuni:** secțiunea folosește exclusiv cunoștințele modelului
   local Ollama despre fiecare produs din `herbs`, indiferent de categorie și de existența
   unor documente sau asocieri produs–afecțiune. La reindexare se trimite o singură cerere
   pentru fiecare produs fără rezultat compatibil în cache. Cererea conține numai
@@ -1048,7 +1048,7 @@ Pentru `gemma4:12b` cu contextul maxim de 262.144 tokeni, configurația de perfo
 
 ```powershell
 [Environment]::SetEnvironmentVariable("OLLAMA_FLASH_ATTENTION", "1", "User")
-[Environment]::SetEnvironmentVariable("OLLAMA_KV_CACHE_TYPE", "q4_0", "User")
+[Environment]::SetEnvironmentVariable("OLLAMA_KV_CACHE_TYPE", "q8_0", "User")
 [Environment]::SetEnvironmentVariable("OLLAMA_NUM_PARALLEL", "2", "User")
 [Environment]::SetEnvironmentVariable("OLLAMA_CONTEXT_LENGTH", "262144", "User")
 ```
