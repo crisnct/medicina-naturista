@@ -97,14 +97,16 @@ def snapshot(connection: Connection) -> Snapshot:
     aliases = connection.execute(
         "SELECT herb_id,name,kind FROM herb_aliases ORDER BY herb_id,kind,name"
     ).fetchall()
-    # xmin protects against edits that bypass normal generation publication, including embeddings.
+    # Content hashes of the stored text and embedding protect against edits that bypass normal
+    # generation publication. Unlike xmin they survive pg_dump/pg_restore, which rewrites every row.
     chunks = connection.execute(
         "SELECT chunk_id,source_relative_path,source_sha256,text_sha256,heading,"
-        "primary_medical_conditions,xmin::text FROM chunks WHERE language=%s ORDER BY chunk_id",
+        "primary_medical_conditions,md5(text),md5(vector_send(embedding)) "
+        "FROM chunks WHERE language=%s ORDER BY chunk_id",
         (current_language(),),
     ).fetchall()
     documents = connection.execute(
-        "SELECT relative_path,sha256,xmin::text FROM documents WHERE (CASE WHEN starts_with(relative_path, 'en/') THEN 'en' ELSE 'ro' END)=%s ORDER BY relative_path",
+        "SELECT relative_path,sha256,md5(d::text) FROM documents d WHERE (CASE WHEN starts_with(relative_path, 'en/') THEN 'en' ELSE 'ro' END)=%s ORDER BY relative_path",
         (current_language(),),
     ).fetchall()
     manifest = {

@@ -963,6 +963,9 @@ Categoria fără rezultate este un rezultat valid. Lipsa unei rulări valide dă
 rămân aplicabile. Comanda normală de indexare actualizează automat topurile la final,
 cu excepția folosirii `--skip-positive-ranking`. Până la publicarea noii rulări, un top
 vechi incompatibil rămâne indisponibil; nu se afișează rezultate parțiale sau istorice.
+Amprenta rulării include hashuri ale conținutului (`text` și embedding-ul fragmentelor, rândurile
+din `documents`), nu `xmin`; astfel, o restaurare `pg_restore` a unui backup (care rescrie toate
+rândurile) nu invalidează clasamentul publicat, dar orice modificare reală a conținutului îl invalidează.
 
 Evaluarea offline folosește loturi reprezentative, inclusiv fructe/cereale, și un eșantion
 independent de 80 de unități și minimum 100 de relații. Pentru activarea din 23 octombrie,

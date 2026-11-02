@@ -2244,3 +2244,32 @@ description: chronological action log per session, consolidated weekly
 <!-- session:MTlmMmE1ZjEtOTA3Yi00YTYzLThhNjEtZjMwM2UwZDE3ZGY2 -->
 | 2026-11-01T18:23:49.349Z | Implemented L1/L2/L3 formula ordering for per-condition herb tops: formula parser + HERB_CONDITION_TOP_FORMULA, migration 037 score tables, build step + CLI mode, ranking query, RO/EN notice, README; adapted existing tests. | src/backend/core/score_formula.py,src/backend/ai/herb_condition_scores.py,src/backend/ai/herb_ranking.py,src/backend/ai/herb_run_cache.py,src/backend/migrations/037_herb_condition_scores.sql,src/scripts/build_hybrid_index.py | 452 unit + 41 integration/ranking tests, ruff, mypy passed; real DB not touched |
 | 22:17 | Edited src/tests/unit/web/test_message_routing.py | 3→3 lines | ~54 |
+
+## Session: 2026-11-02 06:57
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 06:59 | Created aiPlans/2026-11-02-eliminare-primary-din-secondary-conditions.md | — | ~1820 |
+| 06:59 | Edited aiPlans/2026-11-02-eliminare-primary-din-secondary-conditions.md | inline fix | ~4 |
+| 07:11 | Edited aiPlans/2026-11-02-eliminare-primary-din-secondary-conditions.md | modified activ() | ~1524 |
+| 07:14 | Edited aiPlans/2026-11-02-eliminare-primary-din-secondary-conditions.md | 2→4 lines | ~100 |
+| 07:15 | Edited aiPlans/2026-11-02-eliminare-primary-din-secondary-conditions.md | 2→2 lines | ~37 |
+
+## Session: 2026-11-02 07:36
+
+| Time | Action | File(s) | Outcome | ~Tokens |
+|------|--------|---------|---------|--------|
+| 07:46 | Created src/scripts/backup_database.ps1 | — | ~403 |
+| 07:46 | Created src/scripts/restore_database.ps1 | — | ~453 |
+| 07:46 | Edited src/scripts/restore_database.ps1 | — | ~0 |
+<!-- session:NmMyYjQ5MmUtZDA5Zi00M2FjLWI4YWUtNjQ2NjI1OThmZjgx -->
+| 2026-11-02T05:51:56.254Z | Exported herb_safety_messages to JSON; added backup_database.ps1 and restore_database.ps1 (tested backup + verify restore) | src/scripts/backup_database.ps1,src/scripts/restore_database.ps1,medicina-naturista-documente/data/herb_safety_messages.json | Backup 176.8 MB and verify-restore OK |
+| 08:01 | Created src/scripts/backup_database.bat | — | ~282 |
+| 08:01 | Created src/scripts/restore_database.bat | — | ~427 |
+| 08:01 | Edited src/scripts/restore_database.bat | 14→16 lines | ~108 |
+| 08:01 | Edited src/scripts/restore_database.bat | inline fix | ~13 |
+| 08:06 | Created src/scripts/backup_database.bat | — | ~475 |
+| 08:17 | Created src/scripts/restore_database.bat | — | ~744 |
+| 08:18 | Edited src/scripts/restore_database.bat | 21→25 lines | ~273 |
+| 08:35 | Edited src/backend/ai/herb_positive_repository.py | 8→10 lines | ~200 |
+| 08:40 | Edited README.md | 1→4 lines | ~104 |

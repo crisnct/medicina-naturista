@@ -1,7 +1,7 @@
 # anatomy.md
 
-> Auto-maintained by OpenWolf. Last scanned: 2026-11-01T20:17:04.059Z
-> Files: 286 tracked | Anatomy hits: 0 | Misses: 0
+> Auto-maintained by OpenWolf. Last scanned: 2026-11-02T06:40:07.924Z
+> Files: 291 tracked | Anatomy hits: 0 | Misses: 0
 
 > Project structure index. Auto-maintained by OpenWolf hooks and daemon.
 > Run `openwolf scan` to generate, or wait for the first Claude Code session.
@@ -14,7 +14,7 @@
 - `CLAUDE.md` — Claude Code entry point (~384 tok)
 - `docker-compose.yaml` — Docker Compose: 4 services (~2416 tok)
 - `pyproject.toml` — " = ["E402"] (~629 tok)
-- `README.md` — Project documentation (~39805 tok)
+- `README.md` — Project documentation (~41834 tok)
 
 ## .claude/
 
@@ -73,6 +73,7 @@
 - `2026-10-29-suport-romana-engleza.md` — Plan: aplicație în română și engleză (~8477 tok)
 - `2026-10-30-clean-documents-english.md` — English document cleanup (~224 tok)
 - `2026-11-01-top-produse-pe-afectiune-formula-l1-l2-l3.md` — Top produse pe afectiune: ordonare dupa formula L1/L2/L3 (~3395 tok)
+- `2026-11-02-eliminare-primary-din-secondary-conditions.md` — Eliminare afectiunilor primare din secondary_medical_conditions (script SQL la reindexare) (~3146 tok)
 - `plan-effort-generare-raport.md` — Plan: selector de effort AI la generarea raportului (~3459 tok)
 - `plan-extindere-atentionari-contraindicatii-interactiuni.md` — Plan: refacerea atentionarilor, contraindicatiilor si interactiunilor per produs naturist (~7102 tok)
 - `plan-setari-lot-raport-ui.md` — Plan: setări tehnice ale raportului în UI (tokeni per lot, loturi paralele, tokeni de ieșire) (~3891 tok)
@@ -222,7 +223,7 @@
 - `herb_display.py` — Restore unambiguous product spellings using the operation's bundled dictionary. (~528 tok)
 - `herb_evidence.py` — Read complete source fragments from one published positive-association generation. (~2546 tok)
 - `herb_images.py` — Resolve catalog product images locally without exposing the source directory. (~710 tok)
-- `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~6619 tok)
+- `herb_positive_repository.py` — Short snapshot/cache transactions and atomic publication of source-polarity generations. (~6360 tok)
 - `herb_product_safety_dedup.py` — Merge bilingual stage answers into one list per product, once, without duplicates. (~1417 tok)
 - `herb_product_safety_repository.py` — Cache per-product knowledge and publish complete catalog generations atomically. (~6685 tok)
 - `herb_product_safety.py` — Strict, concise product safety from local model knowledge, independent of the corpus. (~5389 tok)
@@ -375,6 +376,8 @@
 
 ## src/scripts/
 
+- `backup_database.bat` (~475 tok)
+- `backup_database.ps1` — Declares Invoke (~403 tok)
 - `build_hybrid_index.py` — Incrementally sync a traceable, local-only hybrid index for a Markdown (~19158 tok)
 - `caution_herb_ranking.py` — Prepare and publish warning projections using indexed data and caches only, without AI. (~284 tok)
 - `clean_documents.py` — Rewrite Markdown source files in place so that the fragments sent to the AI (~20372 tok)
@@ -384,6 +387,8 @@
 - `herb_safety_index.py` — Legacy corpus helpers and shared progress; public safety commands use product knowledge. (~6224 tok)
 - `manage_texts.py` — Export public copy and regenerate key/parameter metadata, never a second editable catalog. (~783 tok)
 - `positive_herb_ranking.py` — Explicit, resumable positive-ranking stages used by the existing index CLI. (~4477 tok)
+- `restore_database.bat` (~748 tok)
+- `restore_database.ps1` — Declares Invoke (~424 tok)
 - `set_gpu_clock.bat` (~827 tok)
 - `setup_gpu_clock.bat` (~593 tok)
 

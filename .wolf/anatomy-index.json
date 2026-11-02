@@ -1,13 +1,13 @@
 {
   "version": 1,
   "meta": {
-    "lastScanned": "2026-11-01T20:17:04.059Z",
-    "fileCount": 286,
+    "lastScanned": "2026-11-02T06:40:07.924Z",
+    "fileCount": 291,
     "hits": 0,
     "misses": 0,
-    "renderedHash": "8f0ec00746cdf01607c85a2499b6e9975b67de1c4b29fa94a2aa6412a901faab",
-    "storeUpdatedAt": "2026-11-01T20:17:04.069Z",
-    "rootHash": "6b569d015fa32d83"
+    "renderedHash": "4e0357ffe19720fb31a4398f2aa5dea65467dfc46d73f739aa418cf3a8d266cb",
+    "storeUpdatedAt": "2026-11-02T06:40:07.934Z",
+    "rootHash": "ba9b682069dfe076"
   },
   "files": {
     ".claude/skills/medicina-engineering/database-engineering.md": {
@@ -868,11 +868,11 @@
     },
     "README.md": {
       "description": "Project documentation",
-      "tokens": 39805,
-      "hash": "fdfb25b42fd0c68f",
-      "size": 165875,
-      "mtimeMs": 1793410319336.4065,
-      "updatedAt": "2026-10-31T01:31:59.603Z",
+      "tokens": 41834,
+      "hash": "f5e65ac0ce5ad20d",
+      "size": 174307,
+      "mtimeMs": 1793601607669.4038,
+      "updatedAt": "2026-11-02T06:40:07.923Z",
       "source": "hook"
     },
     "src/frontend/components/GeneratePanel.tsx": {
@@ -2251,96 +2251,75 @@
     },
     "src/backend/ai/herb_positive_repository.py": {
       "description": "Short snapshot/cache transactions and atomic publication of source-polarity generations.",
-      "tokens": 6619,
-      "hash": "78102f968117c41e",
-      "size": 23166,
-      "mtimeMs": 1793356182912.38,
-      "updatedAt": "2026-10-30T10:29:43.186Z",
+      "tokens": 6360,
+      "hash": "8dd7ca18cfc1717c",
+      "size": 22259,
+      "mtimeMs": 1793601354518.1628,
+      "updatedAt": "2026-11-02T06:35:54.762Z",
       "source": "hook",
       "symbols": [
         {
           "name": "active_key",
           "kind": "fn",
-          "startLine": 38,
-          "endLine": 41,
+          "startLine": 37,
+          "endLine": 40,
           "tokens": 30
         },
         {
           "name": "unavailable",
           "kind": "fn",
-          "startLine": 42,
-          "endLine": 50,
+          "startLine": 41,
+          "endLine": 49,
           "tokens": 87
         },
         {
           "name": "Snapshot",
           "kind": "class",
-          "startLine": 51,
-          "endLine": 63,
+          "startLine": 50,
+          "endLine": 62,
           "tokens": 137
         },
         {
           "name": "_preferred_names",
           "kind": "fn",
-          "startLine": 64,
-          "endLine": 86,
+          "startLine": 63,
+          "endLine": 85,
           "tokens": 289
         },
         {
           "name": "snapshot",
           "kind": "fn",
-          "startLine": 87,
-          "endLine": 154,
-          "tokens": 832
+          "startLine": 86,
+          "endLine": 155,
+          "tokens": 871
         },
         {
           "name": "evidence_rows",
           "kind": "fn",
-          "startLine": 155,
-          "endLine": 163,
+          "startLine": 156,
+          "endLine": 164,
           "tokens": 106
         },
         {
           "name": "assert_integrity",
           "kind": "fn",
-          "startLine": 164,
-          "endLine": 200,
+          "startLine": 165,
+          "endLine": 201,
           "tokens": 604
         },
         {
           "name": "PositiveRepository",
           "kind": "class",
-          "startLine": 201,
-          "endLine": 464,
-          "tokens": 3590
-        },
-        {
-          "name": "clear_verified_runs",
-          "kind": "fn",
-          "startLine": 465,
-          "endLine": 468,
-          "tokens": 17
-        },
-        {
-          "name": "_published_state",
-          "kind": "fn",
-          "startLine": 469,
-          "endLine": 473,
-          "tokens": 73
+          "startLine": 202,
+          "endLine": 459,
+          "tokens": 3498
         },
         {
           "name": "active_run",
           "kind": "fn",
-          "startLine": 474,
-          "endLine": 483,
-          "tokens": 104
-        },
-        {
-          "name": "_verify_active_run",
-          "kind": "fn",
-          "startLine": 484,
-          "endLine": 508,
-          "tokens": 266
+          "startLine": 460,
+          "endLine": 484,
+          "tokens": 263
         }
       ]
     },
@@ -9171,6 +9150,51 @@
           "tokens": 938
         }
       ]
+    },
+    "aiPlans/2026-11-02-eliminare-primary-din-secondary-conditions.md": {
+      "description": "Eliminare afectiunilor primare din secondary_medical_conditions (script SQL la reindexare)",
+      "tokens": 3146,
+      "hash": "50bdf84a96ebf15b",
+      "size": 12593,
+      "mtimeMs": 1793596526006.4714,
+      "updatedAt": "2026-11-02T05:15:26.260Z",
+      "source": "hook"
+    },
+    "src/scripts/backup_database.ps1": {
+      "description": "Declares Invoke",
+      "tokens": 403,
+      "hash": "cc2e6f82869863cf",
+      "size": 1509,
+      "mtimeMs": 1793598407257.0537,
+      "updatedAt": "2026-11-02T05:46:47.571Z",
+      "source": "hook"
+    },
+    "src/scripts/restore_database.ps1": {
+      "description": "Declares Invoke",
+      "tokens": 424,
+      "hash": "4d77edf2b3349987",
+      "size": 1589,
+      "mtimeMs": 1793598418513.806,
+      "updatedAt": "2026-11-02T05:46:58.787Z",
+      "source": "hook"
+    },
+    "src/scripts/backup_database.bat": {
+      "description": "",
+      "tokens": 475,
+      "hash": "a1705a41ba94d559",
+      "size": 1780,
+      "mtimeMs": 1793599575533.8625,
+      "updatedAt": "2026-11-02T06:06:15.845Z",
+      "source": "hook"
+    },
+    "src/scripts/restore_database.bat": {
+      "description": "",
+      "tokens": 748,
+      "hash": "ce8f7fa4b5ab1b82",
+      "size": 2804,
+      "mtimeMs": 1793600284080.8489,
+      "updatedAt": "2026-11-02T06:18:04.366Z",
+      "source": "hook"
     }
   },
   "preamble": [
